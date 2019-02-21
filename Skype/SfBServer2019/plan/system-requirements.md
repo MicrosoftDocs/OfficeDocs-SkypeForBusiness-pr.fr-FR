@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 'Résumé : Préparez votre Skype Business Server 2019 serveurs et l’infrastructure de domaine avec cette rubrique. Configuration matérielle, du système d’exploitation, bases de données, logiciel, tous les la configuration système requise et recommandations, ainsi que les certificats DNS, partage de fichiers et informations Active Directory, sont ici afin de garantir une installation réussie et le déploiement de votre batterie de serveurs.'
-ms.openlocfilehash: a812c2cbc96ab80eea55072162c54bc7371a9dc5
-ms.sourcegitcommit: e53749714dcde9f7b184d5ef554bffbc77f54267
+ms.openlocfilehash: 0f2926bc0d110ce7270b6798895ecda7ebabb23a
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28729350"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120657"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>Configuration système requise pour Skype pour Business Server 2019
  
@@ -50,7 +50,7 @@ Matériel recommandé pour les serveurs Standard Edition :
 |:-----|:-----|
 |Processeur  <br/> |Intel Xeon E5-2673 v3 double processeur, 6-cœur, 2,4 gigahertz (GHz) ou supérieur.  <br/> Les processeurs Intel Itanium ne sont pas pris en charge pour Skype pour Business Server 2019 rôles.  <br/> |
 |Mémoire  <br/> |32 giga-octets (Go).  <br/> |
-|Disque  <br/> |SOIT :  <br/> • Au moins 8 disques durs de 10 000 tr/min avec au moins 72 Go d’espace disque disponible (deux de ces disques utilisant RAID 1 et six autres utilisant RAID 10).   <br/> SOIT  <br/> •	Des disques SSD (Solid State Drives) pouvant fournir le même espace libre et des performances similaires aux 8 unités de disques mécaniques de 10 000 tr/min.  <br/> |
+|Disque  <br/> |SOIT :  <br/> • Au moins 8 disques durs de 10 000 tr/min avec au moins 72 Go d’espace disque disponible (deux de ces disques utilisant RAID 1 et six autres utilisant RAID 10).   <br/> OU  <br/> •	Des disques SSD (Solid State Drives) pouvant fournir le même espace libre et des performances similaires aux 8 unités de disques mécaniques de 10 000 tr/min.  <br/> |
 |Réseau  <br/> |1 carte réseau double port, 1 Gbit/s ou plus (2 cartes réseaux peuvent être utilisées, mais elles doivent être associées à une seule adresse MAC et à une seule adresse IP).  <br/> Les configurations doubles ou multi-hébergés sont **pas** serveurs pris en charge pour les serveurs frontaux, serveurs principaux et Standard Edition. <br/> Tant qu’ils ne sont pas exposés au système d’exploitation et sont utilisés pour surveiller et gérer le matériel du serveur, vous pouvez avoir hors de gestion des systèmes, tels que DRAC ou ILO. Une telle configuration ne constitue pas un serveur à plusieurs connexions et est prise en charge.  <br/> |
 
 
@@ -60,7 +60,7 @@ Matériel recommandé pour les serveurs frontaux et serveurs principaux :
 |:-----|:-----|
 |Processeur  <br/> |Intel Xeon E5-2673 v3 double processeur, 6-cœur, 2,4 gigahertz (GHz) ou supérieur. <br/> Les processeurs Intel Itanium ne sont pas pris en charge pour Skype pour Business Server 2019 rôles.  <br/> |
 |Mémoire  <br/> |64 gigaoctets (Go).  <br/> |
-|Disque  <br/> |SOIT :  <br/> • Au moins 8 disques durs de 10 000 tr/min avec au moins 72 Go d’espace disque disponible (deux de ces disques utilisant RAID 1 et six autres utilisant RAID 10).   <br/> SOIT  <br/> •	Des disques SSD (Solid State Drives) pouvant fournir le même espace libre et des performances similaires aux 8 unités de disques mécaniques de 10 000 tr/min.  <br/> |
+|Disque  <br/> |SOIT :  <br/> • Au moins 8 disques durs de 10 000 tr/min avec au moins 72 Go d’espace disque disponible (deux de ces disques utilisant RAID 1 et six autres utilisant RAID 10).   <br/> OU  <br/> •	Des disques SSD (Solid State Drives) pouvant fournir le même espace libre et des performances similaires aux 8 unités de disques mécaniques de 10 000 tr/min.  <br/> |
 |Réseau  <br/> |1 carte réseau double port, 1 Gbit/s ou plus (2 cartes réseaux peuvent être utilisées, mais elles doivent être associées à une seule adresse MAC et à une seule adresse IP).  <br/> Les configurations doubles ou multi-hébergés sont **pas** serveurs pris en charge pour les serveurs frontaux, serveurs principaux et Standard Edition. <br/> Tant qu’ils ne sont pas exposés au système d’exploitation et sont utilisés pour surveiller et gérer le matériel du serveur, vous pouvez avoir hors de gestion des systèmes, tels que DRAC ou ILO. Une telle configuration ne constitue pas un serveur à plusieurs connexions et est prise en charge.  <br/> |
    
 Matériel recommandé pour les serveurs de périphérie, les serveurs de médiation autonomes et les directeurs :
@@ -91,7 +91,7 @@ Une fois que le matériel en place, vous devrez le système d’exploitation ins
 |Windows Server 2016 <br/> ||
 ||
    
-Tout autre que les systèmes d’exploitation répertoriés ici ne fonctionnera pas correctement ; n’essayez il pour les installations de Skype pour Business Server 2019.
+Tout autre que les systèmes d’exploitation répertoriés ici ne fonctionnera pas correctement ; n’essayez il pour les installations de Skype pour Business Server 2019. Par exemple, option Server Core n’est pas répertoriée et n’est donc pas pris en charge.
 
 > [!NOTE]
 > 
@@ -462,7 +462,7 @@ Certificats pour les serveurs frontaux dans un pool frontal :
   
 |**Certificat**|**Nom du sujet nom commun**|**Autre nom du sujet**|**Exemple**|**Commentaires**|
 |:-----|:-----|:-----|:-----|:-----|
-|Par défaut  <br/> |Nom de domaine complet du pool  <br/> |Nom de domaine complet du pool et nom de domaine complet du serveur.  <br/> Si vous disposez de plusieurs domaines SIP et avez activé la configuration automatique des clients, l’Assistant Certificat détecte et ajoute le nom complet de chaque domaine SIP pris en charge.  <br/> Si ce pool est le serveur d’ouverture de session automatique pour les clients et si la correspondance DNS (Domain Name System) stricte est requise dans la stratégie de groupe, vous avez également besoin d’entrées pour sip.sipdomain (pour chacun des domaines SIP dont vous disposez).  <br/> |SN=eepool.contoso.com; SAN=eepool.contoso.com; SAN=ee01.contoso.com   <br/> Si ce pool est le serveur d’ouverture de session automatique pour les clients et si la correspondance DNS stricte est requise dans la stratégie de groupe, SAN=sip.contoso.com et SAN=sip.fabrikam.com sont également nécessaires.  <br/> |L’Assistant détecte les domaines SIP indiqués lors de l’installation et les ajoute automatiquement à l’autre nom du sujet.  <br/> Vous pouvez aussi utiliser ce certificat pour l’authentification de serveur à serveur.  <br/> |
+|Valeur par défaut  <br/> |Nom de domaine complet du pool  <br/> |Nom de domaine complet du pool et nom de domaine complet du serveur.  <br/> Si vous disposez de plusieurs domaines SIP et avez activé la configuration automatique des clients, l’Assistant Certificat détecte et ajoute le nom complet de chaque domaine SIP pris en charge.  <br/> Si ce pool est le serveur d’ouverture de session automatique pour les clients et si la correspondance DNS (Domain Name System) stricte est requise dans la stratégie de groupe, vous avez également besoin d’entrées pour sip.sipdomain (pour chacun des domaines SIP dont vous disposez).  <br/> |SN=eepool.contoso.com; SAN=eepool.contoso.com; SAN=ee01.contoso.com   <br/> Si ce pool est le serveur d’ouverture de session automatique pour les clients et si la correspondance DNS stricte est requise dans la stratégie de groupe, SAN=sip.contoso.com et SAN=sip.fabrikam.com sont également nécessaires.  <br/> |L’Assistant détecte les domaines SIP indiqués lors de l’installation et les ajoute automatiquement à l’autre nom du sujet.  <br/> Vous pouvez aussi utiliser ce certificat pour l’authentification de serveur à serveur.  <br/> |
 |Web interne  <br/> |Nom de domaine complet du pool  <br/> |Pour chaque élément suivant :  <br/> Web interne • nom de domaine complet (qui n’est pas le même que le nom de domaine complet du serveur)  <br/> • FQDN du serveur  <br/> • Skype pour le pool d’entreprise nom de domaine complet  <br/> ET  <br/> • Les URL simples meet  <br/> • Rendez-vous des URL simples  <br/> • D’administration simples  <br/> OU  <br/> • Une entrée de caractère générique pour les URL simples  <br/> |SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> Utilisation d’un certificat de caractère générique :  <br/> SN=ee01.contoso.com ; SAN=ee01.contoso.com ; SAN =\*. contoso.com  <br/> |Si vous avez plusieurs URL simples Meet, vous devez inclure tous les noms de sujet.  <br/> Les entrées de caractères génériques sont prises en charge pour les entrées d’URL simples.  <br/> |
 |Web externe  <br/> |Nom de domaine complet du pool  <br/> |Pour chaque élément suivant :  <br/> • Domaine complet web externe  <br/> ET  <br/> • Rendez-vous des URL simples  <br/> • D’administration simples  <br/> OU  <br/> • Une entrée de caractère générique pour les URL simples  <br/> |SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Utilisation d’un certificat de caractère générique :  <br/> SN=ee01.contoso.com ; SAN=webcon01.contoso.com ; SAN =\*. contoso.com  <br/> |Si vous avez plusieurs URL simples Meet, vous devez inclure tous les noms de sujet.  <br/> Les entrées de caractères génériques sont prises en charge pour les entrées d’URL simples.  <br/> |
    
@@ -478,7 +478,7 @@ Certificats pour le serveur de médiation autonome :
   
 |**Certificat**|**Nom du sujet nom commun**|**Autre nom du sujet**|**Exemple**|
 |:-----|:-----|:-----|:-----|
-|Par défaut  <br/> |Nom de domaine complet du pool  <br/> |Nom de domaine complet du pool  <br/> Nom de domaine complet du serveur membre du pool  <br/> |SN=medsvr-pool.contoso.net; SAN=medsvr-pool.contoso.net; SAN=medsvr01.contoso.net  <br/> |
+|Valeur par défaut  <br/> |Nom de domaine complet du pool  <br/> |Nom de domaine complet du pool  <br/> Nom de domaine complet du serveur membre du pool  <br/> |SN=medsvr-pool.contoso.net; SAN=medsvr-pool.contoso.net; SAN=medsvr01.contoso.net  <br/> |
    
 Certificats pour les Survivable Branch Appliance (plus précisément, Survivable Branch le matériel 2015 pour Skype pour Business Server 2019) :
   

@@ -14,12 +14,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f87ab06fd867d216a8668d9bbb9e3ad1e807b463
-ms.sourcegitcommit: e93b12f5ebaad1140d7df798b5e0647197b9213d
+ms.openlocfilehash: 9a11360c5cae498262a717c41e4247037de1db54
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "26649596"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120510"
 ---
 # <a name="operate-my-service"></a>Utiliser mon service
 
@@ -29,9 +29,9 @@ Cet article donne une vue d’ensemble de la configuration requise pour le fonct
 
 Le Guide des opérations vous donne une vue d’ensemble de toutes les tâches et activités requises dans le cadre de la fonction de gestion de service pour Microsoft Teams.
 
-Gestion des services est un sujet vaste qui traite des opérations quotidiennes du service Microsoft Teams après que qu’il a été déployé et activé pour les utilisateurs. Le service d’équipes englobe Microsoft Office 365 et les composants d’infrastructure qui sont déploiement en local (par exemple, mise en réseau).
+La gestion des services est un vaste sujet qui couvre les opérations quotidiennes du service Microsoft Teams après son déploiement et son activation pour les utilisateurs. Le service Teams englobe Microsoft Office 365 et les composants d'infrastructure déployés sur site (par exemple, la mise en réseau).
 
-La notion de gestion des services n’est probablement pas un nouveau concept pour la plupart des organisations. Vous avez peut-être déjà implémenté processus et les tâches qui sont associés à des services existants. Cela étant dit, vous pouvez probablement enrichir vos processus actuels lorsque vous planifiez aujourd'hui pour la gestion de service prendre en charge des équipes à l’avenir.
+La notion de gestion des services n'est probablement pas un concept nouveau pour la plupart des organisations. Vous avez peut-être déjà implémenté processus et les tâches qui sont associés à des services existants. Cela étant dit, vous pouvez probablement enrichir vos processus actuels lorsque vous planifiez aujourd'hui pour la gestion de service prendre en charge des équipes à l’avenir.
 
 Gestion des services comprend toutes les activités et processus impliqués dans la gestion des équipes de bout en bout. Comme mentionné plus haut, certains composants de gestion des services — l’infrastructure comprend le service Office 365 lui-même — sont responsabilité de Microsoft, tandis que vous, le client, sont responsables à vos utilisateurs à gérer les différents aspects des équipes, le réseau et points de terminaison que vous fournissez.
 
@@ -46,7 +46,7 @@ Diagramme de ![A montrant une liste de catégories de tâches et les activités 
 </table>
 
 
-### <a name="operational-role-mapping"></a>Mappage de rôle opérationnel
+### <a name="operational-role-mapping"></a>Mappage des rôles opérationnels
 
 Se sont engagés pour les opérations pendant la phase de prévoir la planification est essentielle, car les activités opérations commencent lorsque les utilisateurs du pilote premier sont activés. Ce guide répertorie les activités et les tâches qui doivent être effectuées sur une base quotidienne, hebdomadaire, mensuelle ou selon les besoins pour mettre à jour un déploiement d’équipes de haute qualité. Ce guide fournit des connaissances et des conseils pour savoir comment effectuer ces tâches et activités critiques.
 
@@ -137,7 +137,7 @@ Ces groupes peuvent inclure les propriétaires de services, services, des groupe
 
 ### <a name="monitoring-for-advanced-scenarios"></a>Surveillance des scénarios avancés
 
-Vous pouvez surveiller l’intégrité du service et les modifications à venir en tirant parti de l’API de Communications du Service Office 365 pour accéder par programme des modifications et intégrité du service Office 365. Cette API permet de créer votre propre contrôle outil ou vous connecter vos outils d’analyse existantes à communications de service Office 365, potentiellement simplification de la surveillance de votre environnement. Pour plus d’informations, voir [Office 365 pour les développeurs d’entreprise](https://msdn.microsoft.com/library/jj984343(v=office.15).aspx).
+Vous pouvez surveiller l’intégrité du service et les modifications à venir en tirant parti de l’API de Communications du Service Office 365 pour accéder par programme des modifications et intégrité du service Office 365. Cette API permet de créer votre propre contrôle outil ou vous connecter vos outils d’analyse existantes à communications de service Office 365, potentiellement simplification de la surveillance de votre environnement. Pour plus d’informations, voir [Office 365 pour les développeurs d’entreprise](https://developer.microsoft.com/office).
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>Tâches quotidiennes/hebdomadaires/mensuelles/selon les besoins
 
@@ -243,9 +243,9 @@ Les données d’utilisation des équipes sont disponibles dans le tableau de bo
 
 Les deux rapports sont des équipes spécifiques, et qu’ils fournissent davantage de détails sur l’utilisation des équipes à partir d’un utilisateur et un point de vue de périphérique. Les deux rapports se trouvent ici :
 
-[Rapport d’utilisation des périphériques Microsoft Teams](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-device-usage-917b3e1d-203e-4439-8539-634e80196687)
+[Rapport d’utilisation des périphériques de Microsoft Teams](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-device-usage-917b3e1d-203e-4439-8539-634e80196687)
 
-[Rapport d’activité utilisateur Microsoft Teams](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524)
+[Rapport d’activité des utilisateurs de Microsoft Teams](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524)
 
 #### <a name="required-permissions"></a>Autorisations requises
 
@@ -363,7 +363,7 @@ Pour vérifier l’intégrité de votre réseau, un nombre d’opérations activ
 
 [Planificateur de réseau](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner)
 
-[URL et plages d'adresses IP Office 365](https://aka.ms/o365ips)
+[URL et plages d’adresses IP Office 365](https://aka.ms/o365ips)
 
 [Schéma des données de création](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#tenant-data-file-format-and-building-data-file-structure)
 
@@ -371,13 +371,13 @@ Pour vérifier l’intégrité de votre réseau, un nombre d’opérations activ
 
 ## <a name="assess-and-ensure-quality"></a>Évaluer et de garantir la qualité 
 
-Toutes les organisations besoin d’un groupe ou la personne qui sera responsable de la qualité. Il s’agit d’un rôle essentiel dans la gestion de service. Le rôle de poids lourd qualité est affecté à une personne ou un groupe qui est passionné sur l’expérience des utilisateurs.
-Ce rôle nécessite les compétences nécessaires pour identifier les tendances dans l’environnement et le soutien pour travailler avec d’autres équipes pour diriger la mise à jour. En général, le meilleur candidat au rôle de Champion Qualité est le responsable du service clientèle. Selon la taille et la complexité de l’organisation, cela peut être une personne ou un groupe avec une passion pour garantir une expérience utilisateur de qualité.
+Toutes les organisations besoin d’un groupe ou la personne qui sera responsable de la qualité. Il s'agit du rôle le plus important dans la gestion des services. Le rôle de poids lourd qualité est affecté à une personne ou un groupe qui est passionné sur l’expérience des utilisateurs.
+Ce rôle exige les compétences nécessaires pour cerner les tendances de l'environnement et le parrainage pour travailler avec d'autres équipes afin d'orienter les mesures correctives. En général, le meilleur candidat au rôle de Champion Qualité est le responsable du service clientèle. Selon la taille et la complexité de l’organisation, cela peut être une personne ou un groupe avec une passion pour garantir une expérience utilisateur de qualité.
 
 Le poids lourd qualité tire parti des outils existants et identifient les tendances de qualité des processus documentés, tels que le tableau de bord de la qualité des appels (CQD) et le Guide Quality of Experience révision, de surveiller l’expérience utilisateur et correction du lecteur lorsque cela est nécessaire.
 Le poids lourd qualité doit collaborer avec des équipes respectifs pour exécuter des actions de mise à jour et de rapport à un comité directeur sur l’avancement et les problèmes en cours.
 
-La [Qualité d’expérience consulter le Guide](https://aka.ms/qerguide) comprend des activités qui évaluer et fournissent des instructions de mise à jour dans les zones clés qui ont le plus grand impact sur l’amélioration de l’expérience utilisateur. Les instructions fournies dans le Guide de révision de l’expérience de qualité se concentre sur l’utilisation CQD en ligne en tant que le principal outil pour signaler et examiner chaque zone, en mettant l’accent sur l’audio à optimiser l’impact d’adoption et de. Les optimisations apportées au réseau pour améliorer l’expérience audio auront également directement des améliorations dans le partage du bureau et vidéo.
+La [Qualité d’expérience consulter le Guide](https://aka.ms/qerguide) comprend des activités qui évaluer et fournissent des instructions de mise à jour dans les zones clés qui ont le plus grand impact sur l’amélioration de l’expérience utilisateur. Les instructions fournies dans le Guide de révision de l’expérience de qualité se concentre sur l’utilisation CQD en ligne en tant que le principal outil pour signaler et examiner chaque zone, en mettant l’accent sur l’audio à optimiser l’impact d’adoption et de. Toutes les optimisations apportées au réseau pour améliorer l'expérience audio se traduiront aussi directement par des améliorations dans le partage de la vidéo et du bureau.
 
 Nous vous recommandons vivement de vous désigner le poids lourd qualité dès le début. Après avoir en cours désignés, ils doivent commencer à se familiariser avec le contenu dans le Guide Quality of Experience révision et supports de formation associé.
 
@@ -395,9 +395,9 @@ Nous vous recommandons vivement de vous désigner le poids lourd qualité dès l
 
 ### <a name="references"></a>Références 
 
-[Découvrez CQD](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos)
+[Apprendre le CQD](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos)
 
-[Informations de création de téléchargement](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)
+[Informations de création de téléchargement](turning-on-and-using-call-quality-dashboard.md#upload-building-information)
 
 [Qualité de consulter le Guide de l’expérience](https://aka.ms/qerguide)
 
@@ -409,13 +409,13 @@ Points de terminaison Teams Microsoft peuvent être définis comme n’importe q
 
 ### <a name="endpoint-requirements"></a>Configuration requise du point de terminaison
 
-Un des principaux avantages des équipes est que le client est mis à jour automatiquement. Les clients sur le PC et Mac sont mis à jour à l’aide d’un processus d’arrière-plan qui vérifie les nouvelles versions et télécharge le nouveau client lorsque l’application est inactive. Les applications mobiles équipes sont mises à jour dans les magasins de leur application respectifs.
+Un des principaux avantages des équipes est que le client est mis à jour automatiquement. Les clients sur PC et Mac sont mis à jour à l'aide d'un processus en arrière-plan qui vérifie les nouvelles versions et télécharge le nouveau client lorsque l'application est inactive. Les applications mobiles équipes sont mises à jour dans les magasins de leur application respectifs.
 
 Le client équipes a la configuration minimale requise en termes de la plate-forme logicielle sous-jacent. Ces besoins peuvent changer au fil du temps, et par conséquent, il est important de surveiller les modifications. Par exemple, le client équipes a une version minimale iOS. Si le client utilise un navigateur internet, le navigateur doit être mis à jour également. Vous trouverez la liste des plateformes prises en charge dans [obtenir des clients pour les équipes Microsoft](get-clients.md).
 
-### <a name="endpoint-firewalls"></a>Pare-feu de point de terminaison
+### <a name="endpoint-firewalls"></a>Pare-feu des points de terminaison
 
-Pare-feu côté client peuvent avoir un impact significatif sur l’expérience utilisateur.
+Les pare-feu côté client peuvent avoir un impact significatif sur l'expérience utilisateur.
 Pare-feu côté client peuvent avoir une incidence sur la qualité des appels et même empêcher un appel à partir de l’établissement. Une fois que les exclusions appropriées sur le pare-feu du client ont été configurées, ils doivent être mis à jour en fonction des informations dans [Office 365 URL et plages d’adresses IP](https://aka.ms/o365ips). Votre fournisseur tiers auront des instructions spécifiques à la mise à jour les exclusions.
 
 ### <a name="wi-fi-drivers"></a>Pilotes Wi-Fi
@@ -447,16 +447,16 @@ Même si vous avez suivi les recommandations précédentes, les utilisateurs de 
 | Activité                 | Description                                                                                                                                                                                                                                                                                                                                                                     | Cadence   | Équipe affecté |
 |--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|---------------|
 | Configuration requise du point de terminaison    | Vérifiez que les équipes de point de terminaison continue pour répondre à tous les logiciels requis pour les équipes répertoriés dans [obtenir des clients pour les équipes Microsoft](get-clients.md).                                                                                                                                                                                       | Mois   |               |
-| Pare-feu de point de terminaison       | Mettre à jour les exclusions appropriées sur le pare-feu du point de terminaison en fonction des informations dans [Office 365 URL et plages d’adresses IP](https://aka.ms/o365ips). Votre fournisseur tiers auront des instructions spécifiques à la maintenance des exclusions. S’abonner à ce [flux RSS](https://support.office.com/o365ip/rss) pour être averti automatiquement des modifications. | Selon vos besoins |               |
+| Pare-feu des points de terminaison       | Mettre à jour les exclusions appropriées sur le pare-feu du point de terminaison en fonction des informations dans [Office 365 URL et plages d’adresses IP](https://aka.ms/o365ips). Votre fournisseur tiers auront des instructions spécifiques à la maintenance des exclusions. S’abonner à ce [flux RSS](https://support.office.com/o365ip/rss) pour être averti automatiquement des modifications. | Selon vos besoins |               |
 | Pilotes Wi-Fi            | Tester et mettre à jour les pilotes Wi-Fi sur le PC. Valider les résultats à l’aide de CQD ([Guide Quality of Experience révision](https://aka.ms/qerguide)).                                                                                                                                                                                                                                                                   | Selon vos besoins |               |
 | Gestion de point de terminaison      | Gérer le catalogue de points de terminaison pris en charge et les périphériques d’interface (par exemple, casques). Gérer les contrats fournisseurs, garantie, distribution, remplacement et réparer les stratégies.                                                                                                                                                                                                        | Mois   |               |
 | Résolution des problèmes de point de terminaison | Résolution des problèmes de tâches peuvent inclure la vérification de la connectivité, consultation de la liste de problèmes connus, collecte des journaux, analyse et mise à niveau vers le Support de Microsoft ou des fournisseurs tiers.                                                                                                                                                                                               | Selon vos besoins |               |
 
 ### <a name="references"></a>Références 
 
-[URL et plages d'adresses IP Office 365](https://aka.ms/o365ips)
+[URL et plages d’adresses IP Office 365](https://aka.ms/o365ips)
 
-[Obtenir des clients pour Microsoft Teams](get-clients.md)
+[Obtenir des clients pour Microsoft Teams](get-clients.md)
 
 [Communauté Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams)
 
@@ -487,7 +487,7 @@ Pour prendre en charge les utilisateurs, une organisation peut nécessiter un no
 
 #### <a name="general-tasks"></a>Tâches générales
 
-[Gérer l'accès des utilisateurs à Microsoft Teams](user-access.md)
+[Gérer l’accès des utilisateurs à Microsoft Teams](user-access.md)
 
 #### <a name="common-tasks-for-phone-system"></a>Tâches courantes pour le système téléphonique
 
@@ -497,25 +497,25 @@ Pour prendre en charge les utilisateurs, une organisation peut nécessiter un no
 
 [Ajouter, modifier ou supprimer un emplacement pour votre organisation d'urgence](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization)
 
-[Créer et gérer les plans de numérotation](https://docs.microsoft.com/microsoftteams/create-and-manage-dial-plans)
+[Créer et gérer les plans de numérotation](create-and-manage-dial-plans.md)
 
 #### <a name="common-tasks-for-audio-conferencing"></a>Tâches courantes pour une audioconférence
 
-[Modifier les paramètres pour un pont d'audioconférence](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/change-the-settings-for-an-audio-conferencing-bridge)
+[Modifier les paramètres pour un pont d'audioconférence](change-the-settings-for-an-audio-conferencing-bridge.md)
 
-[Modifier les numéros de téléphone de votre pont d'audioconférence](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/change-the-phone-numbers-on-your-audio-conferencing-bridge)
+[Modifier les numéros de téléphone de votre pont d'audioconférence](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)
 
-[Gérer les paramètres d'audioconférence d'un utilisateur](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user)
+[Gérer les paramètres d'audioconférence d'un utilisateur](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
 
-[Réinitialiser le code confidentiel de conférence Audio](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/reset-the-audio-conferencing-pin)
+[Réinitialiser le code confidentiel de conférence Audio](reset-the-audio-conferencing-pin-in-teams.md)
 
 ### <a name="license-management"></a>Gestion des licences
 
-Que votre organisation se développe ou des contrats, il est important de planifier la gestion des licences pour les besoins actuels et futurs. Il existe une licence de base équipes, en plus de la gestion des licences pour les fonctionnalités de voix dans le nuage ([Système téléphonique](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system) et [Conférence Audio](https://products.office.com/skype-for-business/audio-conferencing)).
+Que votre organisation se développe ou des contrats, il est important de planifier la gestion des licences pour les besoins actuels et futurs. Il existe une licence de base équipes, en plus de la gestion des licences pour les fonctionnalités de voix dans le nuage ([Système téléphonique](here-s-what-you-get-with-phone-system.md) et [Conférence Audio](https://products.office.com/skype-for-business/audio-conferencing)).
 
-Pour les équipes, les licences de système téléphonique nécessitent des licences [d’Appel planifier](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365) associés. Appel de Plan de gestion des licences permet d’émettre et recevoir des appels nationaux et/ou internationaux. Ces plans sont basée sur l’utilisation et affichent minutes pools associés. Mise en service des [Communications crédits](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits) permet de garantir que vous exécutez jamais hors service.
+Pour les équipes, les licences de système téléphonique nécessitent des licences [d’Appel planifier](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365) associés. Appel de Plan de gestion des licences permet d’émettre et recevoir des appels nationaux et/ou internationaux. Ces plans sont basée sur l’utilisation et affichent minutes pools associés. Mise en service des [Communications crédits](what-are-communications-credits.md) permet de garantir que vous exécutez jamais hors service.
 
-Services d’audioconférence permet tolled dans les conférences rendez-vous et de services de conférence rendez-vous nationales. Conférence rendez-vous gratuite ou les scénarios d’appel sortant non nationaux peuvent entraîner payer des frais supplémentaires pour les [Communications crédits](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits) sont requis.
+Services d’audioconférence permet tolled dans les conférences rendez-vous et de services de conférence rendez-vous nationales. Conférence rendez-vous gratuite ou les scénarios d’appel sortant non nationaux peuvent entraîner payer des frais supplémentaires pour les [Communications crédits](what-are-communications-credits.md) sont requis.
 
 Communications crédits de compléter les licences de l’appel de planifier et de conférence. Appel de planifier les licences et Communication crédits sont basée sur l’utilisation et par conséquent doivent être analysés et mis en service en conséquence pour.
 
@@ -525,7 +525,7 @@ Vous pouvez tirer parti du [rapport d’utilisation PSTN](https://docs.microsoft
 
 Il existe deux méthodes pour acquérir des nombres dans les équipes : vous pouvez déplacer des numéros de téléphone à partir d’un autre fournisseur, ou vous pouvez configurer les numéros directement à partir de stock numéro de Microsoft. Ces deux méthodes sont décrites dans [l’obtention des numéros de téléphone pour vos utilisateurs](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users).
 
-Il existe une limite au nombre de numéros de téléphone que vous pouvez configurer à partir de stock numéro de Microsoft. Les limites sont déterminées par un certain nombre de facteurs détaillées dans [le nombre de numéros de téléphone peut obtenir ?](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/how-many-phone-numbers-can-you-get).
+Il existe une limite au nombre de numéros de téléphone que vous pouvez configurer à partir de stock numéro de Microsoft. Les limites sont déterminées par un certain nombre de facteurs détaillées dans [le nombre de numéros de téléphone peut obtenir ?](how-many-phone-numbers-can-you-get.md).
 Les limites dépendent du type de numéros —-gratuit numéros de service, service et payant numéros abonné (utilisateur). Chacun a ses propres limites et doit être géré séparément. Si vous êtes proche de la limite (ou vous avez atteint la limite), vous pouvez appliquer à la limite d’un incrément. Ce processus est décrit dans l’article dans le paragraphe précédent.
 
 Il peut arriver lorsqu’un nombre n’est pas disponible pour être mis en service dans une région où le service est disponible. Pour plus d’informations sur le processus pour les numéros de demande, voir [Gérer les numéros de téléphone pour votre organisation](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).
@@ -552,21 +552,21 @@ La [Qualité d’expérience consulter le Guide](https://aka.ms/qerguide) inclut
 
 ![Les zones clés pour examiner durant un examen de la qualité de l’expérience : audio, la fiabilité et les résultats du sondage.] (media/plan-my-service-management-image2.png "Les zones clés pour examiner durant un examen de la qualité de l’expérience : audio, la fiabilité et les résultats du sondage.")
 
-En continuellement évaluer et de corriger les zones décrites dans le guide, vous pouvez réduire leur potentiel pour un impact négatif sur l’expérience utilisateur. La plupart des problèmes d’expérience utilisateur dans un déploiement peuvent être regroupées dans les catégories suivantes :
+En continuellement évaluer et de corriger les zones décrites dans le guide, vous pouvez réduire leur potentiel pour un impact négatif sur l’expérience utilisateur. La plupart des problèmes d'expérience utilisateur rencontrés lors d'un déploiement peuvent être regroupés dans les catégories suivantes :
 
--   Configuration de pare-feu ou proxy incomplète
+-   Configuration incomplète du pare-feu ou du proxy
 
--   Une mauvaise couverture Wi-Fi
+-   Faible couverture Wi-Fi
 
 -   Bande passante insuffisante
 
 -   VPN
 
--   Utilisation de périphériques audio non optimisées ou intégrés
+-   Utilisation d'appareils audio non optimisés ou intégrés
 
--   Sous-réseaux problématiques ou périphériques réseau
+-   Sous-réseaux ou périphériques réseau problématiques
 
-Les instructions fournies dans le Guide Quality of Experience passer en revue les se concentre sur l’utilisation en ligne de tableau de bord de la qualité des appels (CQD) comme le principal outil d’examiner chaque zone décrite, en mettant l’accent sur l’audio à optimiser l’impact d’adoption et de signaler. Les optimisations apportées au réseau pour améliorer l’expérience audio auront également directement des améliorations dans le partage du bureau et vidéo.
+Les instructions fournies dans le Guide Quality of Experience passer en revue les se concentre sur l’utilisation en ligne de tableau de bord de la qualité des appels (CQD) comme le principal outil d’examiner chaque zone décrite, en mettant l’accent sur l’audio à optimiser l’impact d’adoption et de signaler. Toutes les optimisations apportées au réseau pour améliorer l'expérience audio se traduiront aussi directement par des améliorations dans le partage de la vidéo et du bureau.
 
 Nous vous recommandons de vous désigner le poids lourd qualité dès le début. Après être désignés, ils doivent commencer à se familiariser avec le contenu dans le [Guide Quality of Experience révision](https://aka.ms/qerguide).
 

@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad00f5df93cb91cc878a0b75a413b9299cde9a88
-ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
+ms.openlocfilehash: ba2faa36cbb1a745ada776d40113aab80790b728
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28694774"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120715"
 ---
 # <a name="make-my-service-decisions"></a>Prendre des décisions de mon service
 
@@ -72,7 +72,7 @@ Après avoir confirmé que votre organisation est éligible pour obtenir le serv
 > [!TIP]
 > Voici un exemple d’un modèle de liste de conférence Audio site activation :
 > 
-> |Bureau   |Emplacement |Service de conférence PSTN  |
+> |Office   |Emplacement |Service de conférence PSTN  |
 > |---------|---------|---------|
 > |1 Eppîng Road|Australie|Audioconférence|
 > |100 Cyberport Road|Hong Kong R.A.S.|Conférence PSTN héritée|
@@ -84,20 +84,20 @@ Après avoir confirmé que votre organisation est éligible pour obtenir le serv
 
 ## <a name="licensing-for-audio-conferencing"></a>Licences pour l’audioconférence
 
-Une [licence de conférence Audio](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing) est disponible dans le cadre des plans d’abonnement Office 365 E5, ou en tant que module complémentaire de service pour les plans d’abonnement à Office 365 E1 ou Office 365 E3.
+Une [licence de conférence Audio](teams-add-on-licensing/microsoft-teams-add-on-licensing.md) est disponible dans le cadre des plans d’abonnement Office 365 E5, ou en tant que module complémentaire de service pour les plans d’abonnement à Office 365 E1 ou Office 365 E3.
 
 > [!NOTE]
 > Conférence PSTN ou un rendez-vous dans les équipes ne prend en charge des fournisseurs de services d’audioconférence tiers (ACP).
 > <br>Si vous utilisez déjà la conférence PSTN Skype Entreprise Online, vous pouvez bénéficier immédiatement de l’audioconférence dans Teams.
 
-Pour fournir des numéros de téléphone de pont de conférence gratuit et pour prendre en charge la conférence rendez-vous aux numéros de téléphone international, vous devez configurer [Les crédits de Communications](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits) pour votre organisation.
+Pour fournir des numéros de téléphone de pont de conférence gratuit et pour prendre en charge la conférence rendez-vous aux numéros de téléphone international, vous devez configurer [Les crédits de Communications](what-are-communications-credits.md) pour votre organisation.
 
 > [!IMPORTANT]
 > Certains pays sont traitées par les numéros de téléphone des pont de conférence gratuit uniquement. Pour prendre en charge la numérotation dans ces pays, vous devez utiliser Communications générique.
 
 Le premier point important lors de l’implémentation des Communications crédits est à décider de la quantité initiale de fonds que vous souhaitez acheter. Si votre organisation décide d’utiliser recharge automatique, vous devez décider le déclencheur montant (la plus faible des fonds) et la quantité recharge automatique. Votre utilisation réelle déterminera le montant auto-recharge. Vous devez surveiller l’utilisation de Communications crédits au fil du temps et ajuster le montant recharge selon les besoins.
 
-Vous en apprendrez plus sur les Communications crédits [ici](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits).
+Vous en apprendrez plus sur les Communications crédits [ici](what-are-communications-credits.md).
 
 <br>
 
@@ -165,7 +165,7 @@ Pour en savoir plus sur les numéros de téléphone de pont de conférence, cons
 
 -   [Obtenir des numéros de téléphone de service](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
 
--   [Transférer des numéros de téléphone vers Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365)
+-   [Transférer les numéros de téléphone vers Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365)
 
 <br>
 
@@ -302,7 +302,7 @@ Portage numéro de téléphone est un sujet complexe et nécessite une planifica
 
 -   [Transfert des numéros de téléphone vers Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365)
 
--   [Questions fréquentes à propos du transfert de numéros de téléphone](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transferring-phone-numbers-common-questions)
+-   [Transfert des questions fréquemment posées numéros de téléphone](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transferring-phone-numbers-common-questions)
 
 <br>
 

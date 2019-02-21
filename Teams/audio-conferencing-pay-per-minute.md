@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: Outre la licence standard par utilisateur de conférence Audio, organisations utilisant des licences en Volume Microsoft peuvent également choisir une offre de salaire par minute pour activer les fonctionnalités de conférence Audio pour leurs organisations.
-ms.openlocfilehash: 7366ea4186d045b75847fd7397becefcf150b8a6
-ms.sourcegitcommit: d400c8f83a2325c4a8bbb963ddad685a346bc4d8
+ms.openlocfilehash: affeba7a1fda6aaada47bc9b0a8c124caf84cf9e
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "29760550"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120971"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>Audioconférence en paiement à la minute
 
@@ -55,23 +55,23 @@ Tandis que l’offre de licence utilisateur conférence inclut des rendez-vous e
 > [!NOTE]
 > Vous pouvez trouver les taux de rendez-vous entrants et sortants associés à ces types d’appels en examinant le **Voir taux pour où vous voulez appeler section** conférence [Audio](https://products.office.com/en-us/microsoft-teams/online-meeting-solutions#Rates).
   
-Salaire par minute requiert votre organisation pour que les [Communications crédits](what-are-communications-credits.md) activé avec une licence attribuée à chaque utilisateur dans l’ordre pour une audioconférence à utiliser. Si vous souhaitez plus d’informations, voir [configurer les Communications crédits pour votre organisation](set-up-communications-credits-for-your-organization.md) et/ou [Skype pour les licences d’entreprise et les équipes Microsoft module complémentaire](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
+Salaire par minute requiert votre organisation pour que les [Communications crédits](what-are-communications-credits.md) activé avec une licence attribuée à chaque utilisateur dans l’ordre pour une audioconférence à utiliser. Si vous souhaitez plus d’informations, voir [configurer les Communications crédits pour votre organisation](set-up-communications-credits-for-your-organization.md) ou [Gestion des licences de module complémentaire équipes Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
-Pour activer la conférence Audio de salaire par minute pour les utilisateurs de votre organisation, voir [essayer ou acheter conférence dans Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365).
+Pour activer la conférence Audio de salaire par minute pour les utilisateurs de votre organisation, voir [essayer ou acheter conférence dans Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md).
   
 ## <a name="want-to-find-out-more-about-pricing"></a>Vous souhaitez en savoir plus sur les tarifs ?
 
- **Vous recherchez les prix ?** Voir [comment consulter les prix et acheter des licences supplémentaires](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing#bkmk_how) ou une des options suivantes :
+ **Vous recherchez les prix ?** Voir [comment consulter les prix et acheter des licences supplémentaires](teams-add-on-licensing/microsoft-teams-add-on-licensing.md#bkmk_how) ou une des options suivantes :
   
-- [Tarifs pour l'audioconférence](https://products.office.com/skype-for-business/audio-conferencing#Requirements)
+- [Tarifs pour l'audioconférence](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements)
     
-- [Tarifs pour le système téléphonique](https://products.office.com/skype-for-business/phone-system#Requirements)
+- [Tarifs pour le système téléphonique](https://products.office.com/en-us/skype-for-business/phone-system#Requirements)
     
-- [Tarifs de forfaits d'appels](https://products.office.com/skype-for-business/pstn-calling-plans#requirements)
+- [Tarifs de forfaits d'appels](https://products.office.com/en-us/skype-for-business/pstn-calling-plans#requirements)
     
 ## <a name="related-topics"></a>Rubriques connexes
   
-[Licences de compléments pour Skype Entreprise et Microsoft Teams](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
+[Gestion des licences de module complémentaire Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
   
  

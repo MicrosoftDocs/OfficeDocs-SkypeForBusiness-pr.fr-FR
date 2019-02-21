@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: 0570c454cdc3fc98fa6dfa4a8fe571714263421e
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: d5e246b42a2e90bf0808a574ed27ee76a4b60280
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048284"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120915"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Configurer les crédits de communication pour votre organisation
 
@@ -44,18 +44,18 @@ Lorsque vous vous inscrivez, vous obtenez un certain nombre de minutes en foncti
   
 Pour cela, **vous devez affecter une conférence Audio ou une licence de système téléphonique** à vos utilisateurs.
   
-- Attribuer une licence de **Conférence Audio** à vos utilisateurs. Voir [Assigner de Skype pour les professionnels et les équipes Microsoft de licences](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses).
+- Attribuer une licence de **Conférence Audio** à vos utilisateurs. Consultez les [licences d’affecter des équipes Microsoft](assign-teams-licenses.md).
     
-    Une fois que vous affectez cette licence, vous devez configurer les services d’audioconférence. Pour obtenir des instructions détaillées, voir [essayer ou acheter conférence dans Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365).
+    Une fois que vous affectez cette licence, vous devez configurer les services d’audioconférence. Pour obtenir des instructions détaillées, voir [essayer ou acheter conférence dans Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md).
     
-- Affecter le **Système téléphonique** et une licence de planifier l’appel interne ou nationale et internationale à vos utilisateurs. Voir [Assigner de Skype pour les professionnels et les équipes Microsoft de licences](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses).
+- Affecter le **Système téléphonique** et une licence de planifier l’appel interne ou nationale et internationale à vos utilisateurs. Consultez les [licences d’affecter des équipes Microsoft](assign-teams-licenses.md).
     
     > [!NOTE]
     > Bien qu’il ne soit pas obligatoire pour les Communications générique, vous devez également affecter un **Intérieur appelant planifier** ou une licence **national et International appelant planifier** .
   
     Après avoir affecté ces licences, vous devrez également obtenir les numéros de téléphone pour votre organisation, puis les affecter aux utilisateurs dans votre organisation. Pour obtenir des instructions pas à pas, consultez [configurer des Plans de l’appel](set-up-calling-plans.md).
     
-Pour plus d’informations, voir [Skype pour les professionnels et les équipes Microsoft module complémentaire Gestion des licences](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
+Pour plus d’informations, voir [Gestion des licences de module complémentaire Microsoft équipes](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
 ## <a name="step-2-set-up-communications-credits-for-your-organization"></a>Étape 2 : Configurer les crédits de Communications pour votre organisation
 
@@ -113,7 +113,7 @@ Vous pouvez voir les plans et les prix à partir d’un des liens suivants :
     
 Vous pouvez également voir des informations en [vous connectant au centre d’administration Office 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) et **facturation** > **abonnements** > **abonnements ajouter**.
   
-Pour obtenir un tableau avec la licence ou les licences que vous aurez besoin pour chaque fonctionnalité, voir [Skype pour les licences d’entreprise et les équipes Microsoft module complémentaire](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
+Pour obtenir un tableau avec la licence ou les licences que vous aurez besoin pour chaque fonctionnalité, voir [Gestion des licences de module complémentaire équipes Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -123,9 +123,7 @@ Pour obtenir un tableau avec la licence ou les licences que vous aurez besoin po
     
 - [Configurer des Forfaits d’appels](set-up-calling-plans.md) et [Forfaits d’appels pour Office 365](calling-plans-for-office-365.md)
     
-- [Ajouter des fonds et gérer les crédits de communication](add-funds-and-manage-communications-credits.md)
+- [Ajouter des fonds et gérer les Crédits de Communications](add-funds-and-manage-communications-credits.md)
     
-- [Configurer le connecteur sur le nuage](https://technet.microsoft.com/library/mt605228.aspx) et [Téléchargez le connecteur sur le nuage](https://aka.ms/CloudConnectorInstaller)
-
   
  

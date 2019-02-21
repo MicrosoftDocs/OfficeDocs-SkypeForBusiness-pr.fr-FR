@@ -1,5 +1,5 @@
 ---
-title: Que sont les standards automatiques de système téléphonique ?
+title: Quels sont les standards automatiques du système téléphonique?
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -24,14 +24,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Découvrez quelles sont les standards automatiques de système téléphonique (PBX en nuage) et comment les utiliser. '
-ms.openlocfilehash: bd59a88c0e8a1bd23c0caf23a3a3099e6ad98063
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: f0b93d39bffc2c479e853228cb4d14f38d9a570d
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048324"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120807"
 ---
-# <a name="what-are-phone-system-auto-attendants"></a>Que sont les standards automatiques de système téléphonique ?
+# <a name="what-are-phone-system-auto-attendants"></a>Quels sont les standards automatiques du système téléphonique?
 
 Système téléphonique dans Office 365 standards automatiques peuvent servir à créer un système de menus pour votre organisation qui permet aux appelants internes et externes passent par un système de menus pour localiser et placer ou transférer des appels vers les utilisateurs de la société ou département au sein de votre organisation.
   
@@ -53,10 +53,10 @@ Un standard automatique de système téléphonique comprend les fonctionnalités
 
 Avant de commencer à utiliser les standards automatiques, il est impératif de noter les points suivants :
   
-- Votre organisation doit avoir (au minimum), une licence entreprise E3 plus **Système téléphonique** ou une licence Enterprise E5. Le nombre de licences utilisateur **Système téléphonique** qui sont affectés des impacts sur le numéro de service des numéros est disponible pour être utilisés pour les standards automatiques. Le nombre de standards automatiques que vous avez dépend des licences numéros **Système téléphonique** et de **Conférence** qui sont assignés au sein de votre organisation. Pour plus d’informations sur les licences, accédez [Skype pour les licences d’entreprise et les équipes Microsoft module complémentaire](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
+- Votre organisation doit avoir (au minimum), une licence entreprise E3 plus **Système téléphonique** ou une licence Enterprise E5. Le nombre de licences utilisateur **Système téléphonique** qui sont affectés des impacts sur le numéro de service des numéros est disponible pour être utilisés pour les standards automatiques. Le nombre de standards automatiques que vous avez dépend des licences numéros **Système téléphonique** et de **Conférence** qui sont assignés au sein de votre organisation. Pour plus d’informations sur les licences, voir [Gestion des licences de module complémentaire équipes Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
     
     > [!TIP]
-    > Pour rediriger les appels vers un opérateur ou une option de menu qui est un utilisateur en ligne avec une licence de **Système téléphonique** , vous devez les activer pour Enterprise Voice ou de leur attribuer des Plans de l’appel. Voir [Assigner de Skype pour les professionnels et les équipes Microsoft de licences](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses). Vous pouvez aussi utiliser Windows PowerShell. Par exemple, exécutez :  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+    > Pour rediriger les appels vers un opérateur ou une option de menu qui est un utilisateur en ligne avec une licence de **Système téléphonique** , vous devez les activer pour Enterprise Voice ou de leur attribuer des Plans de l’appel. Consultez les [licences d’affecter des équipes Microsoft](assign-teams-licenses.md). Vous pouvez aussi utiliser Windows PowerShell. Par exemple, exécutez :  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
 - Pour obtenir et utiliser des numéros gratuits service pour vos standards automatiques, vous devez configurer les crédits de Communications. Pour ce faire, consultez la rubrique [Quelles sont les Communications crédits ?](what-are-communications-credits.md) et [configurer les Communications crédits pour votre organisation](set-up-communications-credits-for-your-organization.md).
     
@@ -271,7 +271,7 @@ Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@conto
 Vous pouvez obtenir plus d’informations sur la façon d’apporter des modifications aux paramètres d’ID de l’appelant dans votre organisation, [l’ID d’appelant utilisation dans votre organisation](/SkypeForBusiness/what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization).
   
 ## <a name="related-topics"></a>Rubriques connexes
-[Voici les avantages du système téléphonique dans Office 365](here-s-what-you-get-with-phone-system.md)
+[Voici les avantages du système téléphonique dans Office 365](here-s-what-you-get-with-phone-system.md)
 
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
 

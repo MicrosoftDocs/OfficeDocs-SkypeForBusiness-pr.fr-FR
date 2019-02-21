@@ -1,5 +1,5 @@
 ---
-title: Plan de test d’entreprise pour une audioconférence dans Microsoft Teams
+title: Plan de test d’entreprise de l’audioconférence dans Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1f9fea1e2d3f8dcf4fc966d1392a38168fc1656e
-ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
+ms.openlocfilehash: 16207273020dbe6e1ab4e2cd5ff958fcdbe614dc
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28694860"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120749"
 ---
 <a name="define-and-document-your-audio-conferencing-in-teams-test-plan-for-enterprises"></a>Définissez et documentez votre conférence Audio dans le plan de test des équipes pour les entreprises 
 ===============================================================================
@@ -234,7 +234,7 @@ Pour prendre en charge de la phase de test, il est important de développer un p
 |---------------|--------------------------------------------------------------|----------------------|
 | Personnes        | Parties prenantes tester les testeurs prospects                               | TBD                  |
 | Technologie    | Accès à Office 365 avec les services suivants activé :<ul><li>Office 365 E5 licences affectés</li><li>Plan d’appel nationales et internationales affecté</li></ul>    | TBD                  |
-| support       | Responsable de prise en charge de Test administrateur technicien Test de test | TBD                  |
+| Support       | Responsable de prise en charge de Test administrateur technicien Test de test | TBD                  |
 
 
 
@@ -752,7 +752,7 @@ Maintenant que vous avez défini votre plan de test, l’étape suivante consist
 
 -   La liste des dédié et partagés audioconférence rendez-vous numéros — avec la préférence de langue pour les sites d’organisation et les utilisateurs dans la portée — ont été identifiés et configuré.
 
--   [Communications générique](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits) (si nécessaire) ont été configurés pour votre organisation pour fournir un accès gratuit conférence pont téléphone numéros et prise en charge les conférences internationales scénarios d’appel sortant.
+-   [Communications générique](what-are-communications-credits.md) (si nécessaire) ont été configurés pour votre organisation pour fournir un accès gratuit conférence pont téléphone numéros et prise en charge les conférences internationales scénarios d’appel sortant.
 
 -   Paramètres pont de conférence audio conférence ont été identifiés et configurés pour tous les utilisateurs d’étendue (longueur du code confidentiel, les notifications d’entrée/sortie, préférence de notification d’activation).
 

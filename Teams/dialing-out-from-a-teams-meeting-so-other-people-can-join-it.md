@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Cette section présente les informations nécessaires et explique comment les organisateurs de réunions peuvent composer le numéro d’autres personnes par le biais de Teams.
-ms.openlocfilehash: 4352bc7f6bd110a8dda267092920a2e2de22a4ae
-ms.sourcegitcommit: 3f88e2f1fb4dd84bf6e88e29b89cefeb7a0a954b
+ms.openlocfilehash: 3a06019f942a5fb670b7ed24ea23ccb77ed238f7
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "29770394"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120851"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>Passer un appel sortant depuis une réunion Microsoft Teams pour permettre à d'autres personnes d’y participer
 
@@ -59,6 +59,6 @@ Si vous recherchez des instructions sur la façon de permettre à vos utilisateu
 
 ## <a name="want-to-know-more-about-audio-conferencing"></a>Vous souhaitez en savoir plus sur les conférences rendez-vous ?
 
-[Tester ou acheter l'audioconférence dans Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Tester ou acheter l'audioconférence dans Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
     
-[Licences de compléments pour Skype Entreprise et Microsoft Teams](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
+[Gestion des licences de module complémentaire Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)

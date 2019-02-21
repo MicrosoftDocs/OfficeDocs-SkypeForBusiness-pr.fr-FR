@@ -1,5 +1,5 @@
 ---
-title: La gestion des comptes de ressources dans les équipes
+title: Gérer les comptes de ressource dans Teams
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -16,12 +16,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: La gestion des comptes de ressource dans Microsoft Teams
-ms.openlocfilehash: 3bab9f4c76a7bc5b0baf534b17ca3f5abaf11478
-ms.sourcegitcommit: 327fe807b461aff18b06449f06b9e51ce393c4bc
+ms.openlocfilehash: 685361c829a20a216e240e9f502e6ab24dcb86c5
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "29964409"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120939"
 ---
 # <a name="manage-resource-accounts-in-teams"></a>Gérer les comptes de ressources dans les équipes 
 
@@ -33,21 +33,21 @@ Système d’exploitation Microsoft Teams Skype pour Business en ligne, chaque f
 
 Mise en route il est important de garder à l’esprit quelques points :
   
-- Votre organisation doit avoir (au minimum), une licence entreprise E3 plus **Système téléphonique** ou une licence Enterprise E5. Le nombre de licences utilisateur **Système téléphonique** qui sont assignés affecte le nombre de numéros de service qui sont disponibles pour être utilisés pour les comptes de ressources affectées à appeler des files d’attente ou les standards automatiques. Le nombre de comptes de ressources que vous pouvez avoir est varie selon le nombre de licences **Système téléphonique** et de **Conférence** qui sont assignés au sein de votre organisation. Pour plus d’informations sur les licences, voir [Skype pour les licences d’entreprise et les équipes Microsoft module complémentaire](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
+- Votre organisation doit avoir (au minimum), une licence entreprise E3 plus **Système téléphonique** ou une licence Enterprise E5. Le nombre de licences utilisateur **Système téléphonique** qui sont assignés affecte le nombre de numéros de service qui sont disponibles pour être utilisés pour les comptes de ressources affectées à appeler des files d’attente ou les standards automatiques. Le nombre de comptes de ressources que vous pouvez avoir est varie selon le nombre de licences **Système téléphonique** et de **Conférence** qui sont assignés au sein de votre organisation. Pour plus d’informations sur les licences, voir [Gestion des licences de module complémentaire équipes Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
     > [!NOTE]
-    > Pour rediriger les appels vers des personnes dans votre organisation en ligne, ils doivent disposer d’une licence de **Système téléphonique** et être activés pour Enterprise Voice ou Office 365 appelant Plans. Voir [Assigner de Skype pour les professionnels et les équipes Microsoft de licences](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). Pour les activer pour Entreprise Voice, vous pouvez utiliser Windows PowerShell. Par exemple, exécutez : `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+    > Pour rediriger les appels vers des personnes dans votre organisation en ligne, ils doivent disposer d’une licence de **Système téléphonique** et être activés pour Enterprise Voice ou Office 365 appelant Plans. Consultez les [licences d’affecter des équipes Microsoft](assign-teams-licenses.md). Pour les activer pour Entreprise Voice, vous pouvez utiliser Windows PowerShell. Par exemple, exécutez : `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
-- Pour en savoir plus sur Plans d'Appels Office 365, voir [Quels sont les forfaits d’appels dans Office 365 ?](/microsoftteams/what-are-calling-plans-in-office-365) et [Forfaits d'appels pour Office 365](/microsoftteams/calling-plans-for-office-365).
+- Pour en savoir plus sur Office 365 appelant Plans, voir [Appel Plans pour Office 365](calling-plans-for-office-365.md).
 - Vous pouvez uniquement attribuer payants et les numéros de téléphone gratuit service que vous avez obtenu dans le **Centre d’administration de Microsoft équipes** ou transféré à partir d’un autre fournisseur de services vers un compte de ressource. Pour obtenir et utiliser les numéros de services gratuits, vous devez configurer les crédits de communication.
 
 > [!NOTE]
-> Numéros de téléphone de l’utilisateur (abonné) ne peut pas être affectés à un compte de ressource - numéro payant service ou numéros de téléphone peuvent être utilisés.
+> Numéros de téléphone de l’utilisateur (abonné) ne peut pas être affectés à un compte de ressource. Numéro payant service ou numéros de téléphone peuvent être utilisées.
 
-Pour affecter un numéro de téléphone à un compte de ressource, vous devez obtenir ou transférer votre appel payant existant ou un service gratuit numéros. Une fois que vous obtenez les numéros de téléphone gratuit service payant, ils s’affichent dans le **Centre d’administration de Microsoft équipes** > **vocale** > **numéros de téléphone**et la volonté de **type numérique** présent figurer en tant que **Service - gratuit**. Pour obtenir vos numéros de service, voir les [numéros de téléphone de mise en service](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers.md) , ou si vous souhaitez transférer et le numéro de service existant, voir [transférer des numéros de téléphone vers Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).
+Pour affecter un numéro de téléphone à un compte de ressource, vous devez obtenir ou transférer votre appel payant existant ou un service gratuit numéros. Une fois que vous obtenez les numéros de téléphone gratuit service payant, ils s’affichent dans le **Centre d’administration de Microsoft équipes** > **vocale** > **numéros de téléphone**et la volonté de **type numérique** présent figurer en tant que **Service - gratuit**. Pour obtenir vos numéros de service, voir les [numéros de téléphone de mise en service](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers.md) , ou si vous souhaitez transférer et le numéro de service existant, voir [transférer des numéros de téléphone vers Office 365](transfer-phone-numbers-to-office-365.md).
   
 > [!NOTE]
-> Si vous êtes en dehors des États-Unis, vous ne pouvez pas utiliser le centre d’administration Microsoft Teams pour obtenir les numéros de service. Accédez à [Gérer les numéros de téléphone pour votre organisation](/microsoftteams/manage-phone-numbers-for-your-organization) à la place pour voir comment le faire à partir de l’extérieur des États-Unis.
+> Si vous êtes en dehors des États-Unis, vous ne pouvez pas utiliser le centre d’administration Microsoft Teams pour obtenir les numéros de service. Accédez à [Gérer les numéros de téléphone pour votre organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) à la place pour voir comment le faire à partir de l’extérieur des États-Unis.
 
 ## <a name="create-a-resource-account-in-powershell"></a>Créer un compte de ressource dans Powershell
 
@@ -95,7 +95,7 @@ Pour les implémentations qui sont hybride avec Skype pour Business Server :
 
 Pour les implémentations d’équipes ou Skype pour Business Online :
 
-[Que sont les standards automatiques de système téléphonique ?](what-are-phone-system-auto-attendants.md)
+[Quels sont les standards automatiques du système téléphonique?](what-are-phone-system-auto-attendants.md)
 
 [Configurer un standard automatique pour le système téléphonique](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
 

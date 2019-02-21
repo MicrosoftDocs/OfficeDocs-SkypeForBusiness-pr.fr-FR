@@ -1,5 +1,5 @@
 ---
-title: Configurer des offres d'appels
+title: Configurer des forfaits d'appels
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -25,26 +25,26 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 'Learn how in Office 365 Calling Plan (PSTN Calling plan) to buy and set up licenses, get phone numbers, add and assign emergency locations and phone numbers to users, and tell your users about their new phone numbers. '
-ms.openlocfilehash: 5f617ecea591d76b5dcd3e7daa308e7f7a74d808
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 11dfac5c72845354aeaabcc4bf15bc9ae7cf815d
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047077"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120833"
 ---
-# <a name="set-up-calling-plans"></a>Configurer des offres d'appels
+# <a name="set-up-calling-plans"></a>Configurer des forfaits d'appels
 Les appels vers d’autres Skype pour les utilisateurs professionnels sont gratuites, mais si vous souhaitez que vos utilisateurs puissent appeler des téléphones en dehors de votre entreprise, obtenir un Plan d’appel interne ou d’un Plan d’appel International dans Office 365. Il est facile pour définir votre entreprise. 
 
 ## <a name="step-1-find-out-if-calling-plans-are-available-in-your-countryregion"></a>Étape 1 : Déterminer si l’appel des Plans sont disponibles dans votre pays/région
 Accédez à la [disponibilité de pays et de région de conférence Audio et des Plans de l’appel](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) et sélectionnez votre pays ou région pour obtenir des informations de disponibilité sur les Plans de l’appelant, ainsi que des informations sur le numéro de conférence Audio, système téléphonique et numéro gratuit les numéros et crédits Communications.
   
 ## <a name="step-2-buy-and-assign-licenses"></a>Étape 2 : Acheter et attribuer des licences
-1. Si le système téléphonique dans Office 365 fonctionnalité n’est pas inclus dans votre plan, vous devrez peut-être acheter des licences de module complémentaire **Système téléphonique** . Une fois que les licences de **Système téléphonique** , bon [Appel Plans pour Office 365](calling-plans-for-office-365.md). Voir [Skype pour les professionnels et les équipes Microsoft module complémentaire Gestion des licences](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)et acheter les licences et le plan. 
+1. Si le système téléphonique dans Office 365 fonctionnalité n’est pas inclus dans votre plan, vous devrez peut-être acheter des licences de module complémentaire **Système téléphonique** . Une fois que les licences de **Système téléphonique** , bon [Appel Plans pour Office 365](calling-plans-for-office-365.md). Voir [Gestion des licences de module complémentaire Microsoft équipes](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)et acheter les licences et le plan. 
     
     > [!TIP]
     > **Système téléphonique** licences et Plans de l’appel dans Office 365 vont ensemble, afin que pour voir la possibilité d’acheter des Plans de l’appel, vous devez au préalable avoir les licences de **Système téléphonique** .
   
-2. Tout d’abord attribuer les licences et l’assigner un Plan d’appel aux personnes de votre organisation. Voir [Assigner de Skype pour les professionnels et les équipes Microsoft de licences](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses).
+2. Tout d’abord attribuer les licences et l’assigner un Plan d’appel aux personnes de votre organisation. Consultez les [licences d’affecter des équipes Microsoft](assign-teams-licenses.md).
     
 ## <a name="step-3-get-phone-numbers"></a>Étape 3 : Obtenir les numéros de téléphone
 Il existe trois façons d’obtenir de nouveaux numéros utilisateur :

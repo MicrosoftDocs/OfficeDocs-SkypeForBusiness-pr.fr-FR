@@ -13,12 +13,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment
-ms.openlocfilehash: a3ce04974eec062360bb6b0663255f079e097554
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 0bf506350a6e656d0143a968bcd0e884b47e5653
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532232"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120683"
 ---
 <a name="practical-guidance-for-audio-conferencing-in-microsoft-teams"></a>Guide pratique pour l’audioconférence dans Microsoft Teams
 ============================================================
@@ -266,19 +266,19 @@ Après avoir vérifié l’admissibilité de votre organisation à obtenir le se
 
 ## <a name="licensing-for-audio-conferencing"></a>Licences pour l’audioconférence
 
-[La licence pour l’audioconférence](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing) est disponible dans le cadre des plans d'abonnement Office 365 E5, ou en tant que complément des plans d'abonnement Office 365 E1 ou Office 365 E3.
+[La licence pour l’audioconférence](teams-add-on-licensing/microsoft-teams-add-on-licensing.md) est disponible dans le cadre des plans d'abonnement Office 365 E5, ou en tant que complément des plans d'abonnement Office 365 E1 ou Office 365 E3.
 
 > [!NOTE]
 > La conférence PSTN ou rendez-vous dans Teams ne prend pas en charge les<sup></sup>-fournisseurs de service d’audioconférence tiers (ACP). <br>Si vous utilisez déjà la conférence PSTN Skype Entreprise Online, vous pouvez bénéficier immédiatement de l’audioconférence dans Teams.
 
-Pour fournir des numéros gratuits de pont de téléconférence et pour prendre en charge les appels de téléconférence vers des numéros internationaux, vous devez configurer des [crédits de communication](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits) pour votre organisation.
+Pour fournir des numéros gratuits de pont de téléconférence et pour prendre en charge les appels de téléconférence vers des numéros internationaux, vous devez configurer des [crédits de communication](what-are-communications-credits.md) pour votre organisation.
 
 > [!IMPORTANT]
 > Certains pays sont desservis uniquement par des numéros gratuits de téléconférence et, dans ce cas, l’utilisation de crédits de communication est obligatoire pour prendre en charge la composition de numéros pour ces pays.
 
-Le premier élément à prendre en compte lors de l’implémentation de crédits de communication est de décider du montant initial des fonds à acheter. Les montants de financement recommandés peuvent être obtenus dans l'article sur les [crédits de communication](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits).
+Le premier élément à prendre en compte lors de l’implémentation de crédits de communication est de décider du montant initial des fonds à acheter. Les montants de financement recommandés peuvent être obtenus dans l'article sur les [crédits de communication](what-are-communications-credits.md).
 
-Si votre organisation choisit d'utiliser la recharge automatique, une recommandation sur le déclencheur (montant des fonds le moins élevé) est également incluse dans l'article sur les [crédits de communication](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits). Le montant de la recharge automatique doit être déterminé par l’utilisation réelle. L'utilisation des crédits de communication doit être régulièrement contrôlée et le montant de la recharge doit être ajusté en fonction des besoins.
+Si votre organisation choisit d'utiliser la recharge automatique, une recommandation sur le déclencheur (montant des fonds le moins élevé) est également incluse dans l'article sur les [crédits de communication](what-are-communications-credits.md). Le montant de la recharge automatique doit être déterminé par l’utilisation réelle. L'utilisation des crédits de communication doit être régulièrement contrôlée et le montant de la recharge doit être ajusté en fonction des besoins.
 
 <br>
 
@@ -324,7 +324,7 @@ Le service d’audioconférence dans Office 365 inclut les éléments suivants�
 -   prise en charge de plusieurs langues pour le pont de téléconférence (principale et secondaire) ;
 -   numéro de téléphone par défaut du client.
 
-Vous trouverez une description complète des fonctionnalités incluses dans les rubriques [Configurer l’audioconférence pour Skype Entreprise et Microsoft Teams](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing) et [Numéros de téléphone pour l’audioconférence](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing).
+Vous trouverez une description complète des fonctionnalités incluses dans les rubriques [Configurer l’audioconférence pour Skype Entreprise et Microsoft Teams](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing) et [Numéros de téléphone pour l’audioconférence](phone-numbers-for-audio-conferencing-in-teams.md).
 
 > [!NOTE]
 > Les numéros de pont de téléconférence dédiés sont inclus dans le calcul de la limite du nombre de numéros de téléphone qui peuvent être achetés par client, en fonction du nombre de licences applicables comme il est décrit dans la rubrique [Obtenir des numéros de téléphone du service pour Skype Entreprise et Microsoft Teams](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers). Les numéros de pont de téléconférence gratuits requièrent des crédits de communication.
@@ -334,7 +334,7 @@ Si des numéros de pont de téléconférence existants doivent être transféré
 > [!NOTE]
 > Le transfert de numéros de téléphone vers Microsoft est plus ou moins complexe selon les pays ou régions, les opérateurs, le nombre de circuits concernés et de nombreux autres facteurs. Pour planifier un transfert de numéros de téléphone, consultez le [Guide de transfert de numéros](https://go.microsoft.com/fwlink/?linkid=859011).
 
-Vous trouverez des informations complémentaires sur le transfert de numéros de téléphone vers le service d’audioconférence dans la rubrique [Transférer des numéros de téléphone vers Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365).
+Vous trouverez des informations complémentaires sur le transfert de numéros de téléphone vers le service d’audioconférence dans la rubrique [Transférer des numéros de téléphone vers Office 365](transfer-phone-numbers-to-office-365.md).
 
 <br>
 
@@ -432,7 +432,7 @@ La fonctionnalité de système téléphonique d’Office 365 comporte deux type
     -   **Plan de numérotation d’utilisateurs du client** : ce plan de numérotation s’applique uniquement à des utilisateurs spécifiques.
 
 > [!NOTE]
-> Consultez la rubrique [Que sont les plans de numérotation ?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans) pour en savoir plus et obtenir des exemples.
+> Consultez la rubrique [Que sont les plans de numérotation ?](what-are-dial-plans.md) pour en savoir plus et obtenir des exemples.
 
 Le plan de numérotation efficace affecté aux utilisateurs est la combinaison du plan de numérotation de service (basé sur l’emplacement d’utilisation d’Office 365 des utilisateurs) et du plan de numérotation de client (il peut s’agir d’un plan de numérotation de client.global ou d'un plan de numérotation d’utilisateurs du client).
 

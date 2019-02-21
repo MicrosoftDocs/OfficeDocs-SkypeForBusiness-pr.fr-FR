@@ -1,5 +1,5 @@
 ---
-title: Voici les avantages du système téléphonique dans Office 365
+title: Voici les avantages du système téléphonique dans Office 365
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -24,14 +24,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn about the features, availability, and how to plan and set up a Phone System (Cloud PBX) for your business. '
-ms.openlocfilehash: 9898bcea949c5150667ae502edfa6b1fccd64764
-ms.sourcegitcommit: 4e6b39e7421ea6eb03c524bb6b8e597c1966bad1
+ms.openlocfilehash: 655e095f87ee9ad53cb57df09ca8366ecc8eb8f6
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "30056618"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120899"
 ---
-# <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Voici les avantages du système téléphonique dans Office 365
+# <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Voici les avantages du système téléphonique dans Office 365
 
 Un PBX est un système téléphonique au sein d'une entreprise. Le système téléphonique dans le module complémentaire Office 365 vous offre des capacités de PBX, mais sans le matériel complexe et coûteux. 
   
@@ -46,7 +46,7 @@ Pour plus d’informations, voir [tarification pour le système téléphonique](
 |||
 |:-----|:-----|
 |**Système téléphonique dans la fonctionnalité d’Office 365** <br/> |**Description** <br/> |
-|[Que sont les standards automatiques de système téléphonique ?](what-are-phone-system-auto-attendants.md) <br/> |Système téléphonique standards automatiques peuvent servir à créer un système de menus pour votre organisation qui permet aux appelants internes et externes passent par un système de menus pour localiser et placer ou transférer des appels vers les utilisateurs de la société ou département au sein de votre organisation.  <br/> |
+|[Quels sont les standards automatiques du système téléphonique?](what-are-phone-system-auto-attendants.md) <br/> |Système téléphonique standards automatiques peuvent servir à créer un système de menus pour votre organisation qui permet aux appelants internes et externes passent par un système de menus pour localiser et placer ou transférer des appels vers les utilisateurs de la société ou département au sein de votre organisation.  <br/> |
 |Démarrage d'un appel/réponse à un appel (par nom et numéro)  <br/> |Répondez aux appels entrants du bout du doigt et passez des appels, en composant le numéro de téléphone complet ou en cliquant sur un nom dans Skype Entreprise ou Outlook.  <br/> |
 |[Définir les options de transfert d'appel dans Skype Entreprise](https://support.office.com/article/1ec2e7fb-471c-4c35-bc90-a35991b3f532) <br/> |Passez des appels ou répondez à des appels de la part d'un responsable. Les notifications permettent à tous les participants de savoir exactement quels appels sont passés ou reçus pour quelqu'un d'autre.  <br/> |
 |[Transfert d'appel et sonnerie simultanée](https://support.office.com/article/967d9aaf-3fed-448b-ab96-40bbc9a11a20) <br/> |Ces fonctions vous permettent de configurer les règles de transfert afin que vos appels vous suivent où que vous alliez, et vous pouvez transférer des appels à des collègues ou une boîte vocale.  <br/> |
@@ -86,7 +86,7 @@ Voir les articles suivants pour planifier et configurer le système téléphoniq
     
 - [Planifier votre système téléphonique dans les solutions Office 365 (en nuage PBX)](https://go.microsoft.com/fwlink/?LinkId=708645): cet article présente toutes vos options de déploiement. Il contient également des informations sur la planification d'une solution entièrement sur le cloud. 
     
-- [Skype pour les licences d’entreprise et les équipes Microsoft module complémentaire](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing): Découvrez les licences que vous devez acheter pour obtenir le système téléphonique dans Office 365.
+- [Gestion des licences de module complémentaire Microsoft équipes](teams-add-on-licensing/microsoft-teams-add-on-licensing.md): Découvrez les licences que vous devez acheter pour obtenir le système téléphonique dans Office 365.
     
 - [Configurer la messagerie vocale du système téléphonique - Aide pour l'administrateur](set-up-phone-system-voicemail.md)
     

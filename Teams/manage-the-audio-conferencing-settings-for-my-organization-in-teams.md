@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Cette section explique la procédure d’attribution d’une licence de conférence rendez-vous et d’un ID de conférence Microsoft Teams à un utilisateur, ainsi que les autres paramètres de conférence rendez-vous. '
-ms.openlocfilehash: 9769f5cd0a31ddf8494f57454bec698d1a626d4a
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 34afd4597bad857b061296feb87fe8cae758c99f
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754046"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30121035"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>Gérer les paramètres d'audioconférence de votre organisation dans Microsoft Teams.
 
@@ -37,7 +37,7 @@ Il peut être plus simple pour vous d'afficher tous les paramètres de conféren
 ## <a name="assign-an-audio-conferencing-license"></a>Attribuer une licence d’audioconférence
 
 > [!NOTE]
-> Vous ne pouvez pas attribuer de licences par le biais de Teams. Vous devez utiliser le centre d'administration Office 365. Reportez-vous à la rubrique [Attribuer des licences Skype Entreprise et Microsoft Teams](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses) 
+> Vous ne pouvez pas attribuer de licences par le biais de Teams. Vous devez utiliser le centre d'administration Office 365. Reportez-vous à la rubrique [Attribuer des licences Skype Entreprise et Microsoft Teams](assign-teams-licenses.md) 
   
  **Pour attribuer une licence à un utilisateur**
   
@@ -50,7 +50,7 @@ Il peut être plus simple pour vous d'afficher tous les paramètres de conféren
   
 3. Dans le volet Action sous **Licences de produits**, cliquez sur **Modifier**. 
     
-4. Sur la page **Affecter une licence**, cochez **Conférence RTC Skype Entreprise**, puis cliquez sur **Enregistrer**. Pour plus d'informations sur les licences, reportez-vous à la rubrique [Licences de module complémentaire Skype Entreprise](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
+4. Dans la page **Licences de produits** , activer la **Conférence Audio** , puis sur **Enregistrer**. Pour plus d’informations sur les licences, voir [Gestion des licences de module complémentaire équipes Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
     
 > [!NOTE]
 > Une fois que vous avez affecté la licence, Microsoft peut ne pas s'afficher initialement comme fournisseur de conférence rendez-vous dans la liste déroulante. Dans ce cas, déconnectez-vous du Centre d'administration Office 365 ou appuyez sur les touches Ctrl + F5 pour actualiser la fenêtre du navigateur. 

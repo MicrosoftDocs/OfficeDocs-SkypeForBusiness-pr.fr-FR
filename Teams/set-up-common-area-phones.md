@@ -1,5 +1,5 @@
 ---
-title: Configurer la licence de téléphone en zone commune pour Microsoft Teams
+title: Configurer la licence de téléphone de partie commune pour Microsoft Teams
 ms.author: lolaj
 author: lolaj
 manager: serdars
@@ -20,14 +20,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Découvrez comment configurer des téléphones en zone commune pour les salles d’attente, les zones de réception et les salles de conférence '
-ms.openlocfilehash: 44cd9a4faa6c94a60d84fa825149bbf4c6b846fe
-ms.sourcegitcommit: a3181bc3707b09c1e3f87c343b38259fdc6dabd2
+ms.openlocfilehash: b7fb997a8e9367c4a3b8629f037ad79871b64b25
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2018
-ms.locfileid: "27271156"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30121043"
 ---
-# <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Configurer la licence de téléphone en zone commune pour Microsoft Teams
+# <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Configurer la licence de téléphone de partie commune pour Microsoft Teams
 
 Un téléphone en zone commune est généralement placé dans une zone comme une salle d’attente ou une autre zone qui est disponible à plusieurs personnes pour émettre un appel ; par exemple, une réception zone, salle d’attente ou une conférence téléphonique. Téléphones de partie commune sont configurés en tant que périphériques plutôt que des utilisateurs et peuvent vous connecter automatiquement à un réseau.
 
@@ -50,7 +50,7 @@ Premières choses que vous devez faire est achat une licence de téléphone de z
 > [!NOTE]
 > Vous n’avez pas besoin d’une licence de Système téléphonique. Il est inclus dans la licence Téléphone de zone commune.
 
-Pour plus d’informations sur les licences, voir [Skype pour les licences d’entreprise et les équipes Microsoft module complémentaire](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
+Pour plus d’informations sur les licences, voir [Gestion des licences de module complémentaire équipes Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 ## <a name="step-2---create-a-new-user-account-for-the-phone-and-assign-the-licenses"></a>Étape 2 - Créer un nouveau compte utilisateur pour le téléphone et attribuer les licences
 
@@ -74,7 +74,7 @@ Pour plus d’informations, voir [Ajouter un utilisateur](https://docs.microsoft
 
 Utilisez le Skype entreprise centre d’administration pour affecter un numéro à l’utilisateur.
 
-1. Dans le centre d’administration Microsoft 365, sélectionnez **centre Admin** > **équipes & Skype** > **portail hérité**.
+1. Dans le centre d’administration Microsoft 365, sélectionnez **centre Admin** > **& équipes Skype** > **portail hérité**.
 
 2. Dans Skype entreprise centre d’administration, sélectionnez **voix** > **numéros de téléphone**.
 

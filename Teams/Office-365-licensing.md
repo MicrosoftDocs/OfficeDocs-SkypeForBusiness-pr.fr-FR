@@ -16,12 +16,12 @@ ms.custom:
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dbdbaf0241da85489173d7eda0c36aac90c935e9
-ms.sourcegitcommit: 08933c8f795048feaa05828e000df5082ac90761
+ms.openlocfilehash: 3968b682e0b7c7bf2c7a701a40fd8073f513eb20
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "25495528"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120733"
 ---
 <a name="office-365-licensing-for-microsoft-teams"></a>Licence Office 365 pour Microsoft Teams
 ========================================
@@ -44,11 +44,11 @@ Pour plus d’informations sur l’obtention des équipes, consultez la rubrique
 > Teams est également disponible pour les organisations à but non lucratif. Les équipes seront commencer présentant pour nous gouvernement nuage communautaire (chargé) 17 juillet et être disponible pour tous les clients éligibles à la fin de 2018 août. Nous essayons Alliance Teams Microsoft avec les autres nuages de gouvernement américain (GCC haute et DoD) seront prochainement disponibles. En plus, consultez le blog Microsoft Teams [ici](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-will-be-available-July-17-for-the-US-Government/ba-p/209976).
 
 > [!NOTE]
-> Démarrage 2018, octobre 1, nouveaux clients Office 365 avec 500 utilisateurs ou moins seront onboarded aux équipes et n’auront pas accès à Skype pour Business Online. Les clients qui utilisent déjà Skype pour Business Online seront en mesure de continuer cette procédure tel (y compris la mise en service de nouveaux utilisateurs) jusqu'à ce qu’ils s’exécutent leur transition vers les équipes. Pour plus d’informations, voir [Les équipes Microsoft maintenant le client principal pour les réunions et appel dans Office 365](https://support.microsoft.com/help/4465277/microsoft-teams-now-the-primary-client-for-meetings-and-calling).
+> Depuis le 1er octobre 2018, les nouveaux clients d’Office 365 disposant de 500 postes ou moins sont intégrés à Teams et n’ont pas accès à Skype Entreprise Online. Es clients qui utilisent déjà Skype Entreprise Online pourront continuer à le faire (y compris l’ajout de nouveaux utilisateurs) jusqu’à qu'ils aient terminé leur transition vers Teams. Pour en savoir plus, consultez la rubrique [Microsoft Teams est à présent le client principal pour les réunions et les appels dans Office 365](https://support.microsoft.com/help/4465277/microsoft-teams-now-the-primary-client-for-meetings-and-calling).
         
 En termes de fonctionnalités principal d’équipes, il n’existe aucune différence entre les abonnements Office 365. La disponibilité des fonctionnalités de conformité dépend du niveau d'abonnement correct. Pour plus d'informations, consultez la rubrique [Présentation de la sécurité et de la conformité dans Teams](security-compliance-overview.md). Pour obtenir une liste détaillée des fonctionnalités disponibles dans chaque abonnement, consultez la [Description de Service de plateforme Office 365](https://technet.microsoft.com/library/office-365-platform-service-description.aspx).
 
-**Fonctionnalités de voix dans le nuage**: pour les conférences Audio, votre organisation vous devrez acheter et attribuer une licence de conférence Audio à chaque utilisateur configuration des réunions de rendez-vous. Pour appeler des Plans, chaque utilisateur devra un système téléphonique plus un local ou national International appelant Plan et. Pour plus d’informations, consultez la rubrique [Skype pour les licences d’entreprise et les équipes Microsoft module complémentaire](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
+**Fonctionnalités de voix dans le nuage**: pour les conférences Audio, votre organisation vous devrez acheter et attribuer une licence de conférence Audio à chaque utilisateur configuration des réunions de rendez-vous. Pour appeler des Plans, chaque utilisateur devra un système téléphonique plus un local ou national International appelant Plan et. Pour plus d’informations, voir [Gestion des licences de module complémentaire équipes Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 Tous les plans d'abonnement pris en charge permettent d’accéder au client Web, aux clients de bureau et aux applications mobiles Teams.
 

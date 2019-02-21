@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8cc7f27d244b557b96f79b62247ae887a083a0e6
-ms.sourcegitcommit: d8a68433949edfbbece628dd0e1c0ce9205ba0a0
+ms.openlocfilehash: bd81915739d9ad2087dec5b66595efd1c49e2c84
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "30087843"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120891"
 ---
 <a name="about-upgrade-basic"></a>
 
@@ -71,7 +71,7 @@ Les administrateurs doivent définir chacun de ces paramètres pour les valeurs 
 |SfBWithTeamsCollab ou SfBOnly|Désactivé|Désactivé|Désactivé|Désactivé|
 ||||||
 
-Avant le déploiement de la mise en conformité automatique de l’expérience utilisateur basée sur les modes, le `Grant-csTeamsUpgradePolicy` cmdlet vérifie la configuration des paramètres correspondants dans TeamsMessagingPolicy, TeamsCallingPolicy et TeamsMeetingPolicy pour déterminer si ces les paramètres sont compatibles avec le mode spécifié. Si les ne sont pas configurés correctement, l’octroi réussira, mais un avertissement sera communiquée dans PowerShell indiquant les paramètres spécifiques ne sont pas configurés correctement. Voici un exemple de ce que l’avertissement PowerShell pourrait ressembler à :
+Avant le déploiement de la mise en conformité automatique de l’expérience utilisateur basée sur les modes, le `Grant-CsTeamsUpgradePolicy` cmdlet vérifie la configuration des paramètres correspondants dans TeamsMessagingPolicy, TeamsCallingPolicy et TeamsMeetingPolicy pour déterminer si ces les paramètres sont compatibles avec le mode spécifié. Si les ne sont pas configurés correctement, l’octroi réussira, mais un avertissement sera communiquée dans PowerShell indiquant les paramètres spécifiques ne sont pas configurés correctement. Voici un exemple de ce que l’avertissement PowerShell pourrait ressembler à :
 
 
 `Grant-CsTeamsUpgradePolicy -Identity user1@contoso.com -PolicyName SfBWithTeamsCollab`

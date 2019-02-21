@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. '
-ms.openlocfilehash: c51d058cfc6fc378047d439259042b0316c56d84
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 8c80aace74b7b0fb2d4a6c696edde47c30eb5b15
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048657"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120979"
 ---
 # <a name="what-are-communications-credits"></a>Qu'est-ce que les crédits de communication ?
 
@@ -97,7 +97,7 @@ Vous pouvez voir les plans et les prix à partir d’un des liens suivants :
     
 Vous pouvez également voir des informations sur les prix en [vous connectant au centre d’administration Office 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) et en accédant à la **facturation** > **abonnements** > **abonnements ajouter**.
   
-Pour obtenir un tableau avec la licence ou les licences que vous aurez besoin pour chaque fonctionnalité, voir [Skype pour les licences d’entreprise et les équipes Microsoft module complémentaire](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
+Pour obtenir un tableau avec la licence ou les licences que vous aurez besoin pour chaque fonctionnalité, voir [Gestion des licences de module complémentaire équipes Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
 ## <a name="related-topics"></a>Rubriques connexes
 [Rapport d'utilisation de la conférence RTC Skype Entreprise](/SkypeForBusiness/skype-for-business-online-reporting/pstn-usage-report)

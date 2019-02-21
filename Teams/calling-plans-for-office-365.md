@@ -1,5 +1,5 @@
 ---
-title: Forfaits d'appels pour Office 365
+title: Plans d’appel dans Office 365
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -28,18 +28,18 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: 75a3e031109216899b218c2572ae5906b4be796c
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 091807d63be0c2853217f2bd2c442e8023cc3169
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047986"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30121003"
 ---
-# <a name="calling-plans-for-office-365"></a>Forfaits d'appels pour Office 365
+# <a name="calling-plans-for-office-365"></a>Plans d’appel dans Office 365
 
 Les appels vers d’autres Skype pour les utilisateurs professionnels et Microsoft Teams sont gratuits, mais si vous souhaitez que vos utilisateurs puissent appeler des téléphones standard, et vous ne disposez pas d’un fournisseur de services à passer des appels vocaux, vous devez acheter un Plan de l’appel. [Qu'est-ce que les offres d'appels dans Office 365 ?](what-are-calling-plans-in-office-365.md)
   
-Voici l’option appel Plans :
+Voici les options d’appel de Plans :
   
 - **Planifier l’appel interne**: les utilisateurs sous licence peuvent faire appel aux numéros situés dans la pays/la région où ils sont affectés dans Office 365.
     
@@ -60,19 +60,19 @@ Pour plus d’informations sur les limites d’utilisation et les conditions d�
     ![Lorsque vous achetez vos licences Cloud PBX, vous verrez une option pour acheter un appelant plan de voix.](media/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
   
     > [!NOTE]
-    > En fonction de votre plan, vous devrez peut-être acheter des modules complémentaires plus avant que vous pouvez acheter des licences de système téléphonique. Pour plus d’informations, voir « Options de licence en fonction de votre plan » dans [Skype pour les licences d’entreprise et les équipes Microsoft module complémentaire](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
+    > En fonction de votre plan, vous devrez peut-être acheter des modules complémentaires plus avant que vous pouvez acheter des licences de système téléphonique. Pour plus d’informations, voir « Options de licence en fonction de votre plan » dans [la gestion des licences de module complémentaire équipes Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
 2. Une fois que vous achetez des licences de système téléphonique, vous pouvez acheter le Plan de l’appel en vous connectant au **Centre d’administration Office 365**, choisissez **facturation** > **services d’achat** > **abonnements de module complémentaire**, puis en cliquant sur **Acheter maintenant**. Vous voyez l’appel des Plans d’il.
     
     ![Une fois que vous achetez une licence de nuage PBX, vous pouvez acheter des plans d’appel vocal.](media/ab2d6dce-56eb-4bbc-ac1a-430b0c065d18.png)
   
-Vous pouvez acheter et affecter différents Plans de l’appel à différents utilisateurs, en fonction des besoins de votre organisation. Une fois que vous sélectionnez l’appel de Plan dont vous avez besoin, passez à l’extraction. Vous assignez un plan à chaque utilisateur dans le centre d’administration d’Office 365. Pour en savoir plus, voir [Attribuer de Skype pour les professionnels et les équipes Microsoft de licences](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses).
+Vous pouvez acheter et affecter différents Plans de l’appel à différents utilisateurs, en fonction des besoins de votre organisation. Une fois que vous sélectionnez l’appel de Plan dont vous avez besoin, passez à l’extraction. Vous assignez un plan à chaque utilisateur dans le centre d’administration d’Office 365. Pour en savoir plus, voir [licences attribuer les équipes Microsoft](assign-teams-licenses.md).
   
 ## <a name="do-you-have-a-service-provider-that-provides-on-premises-pstn-connectivity-for-hybrid-users"></a>Avez-vous besoin d’un fournisseur de services qui fournit une connectivité PSTN sur site pour les utilisateurs hybride ?
 
 Dans ce cas, vous n’avez pas besoin d’acheter un Plan de l’appel. Office 365 entreprise E5 comprend le module complémentaire **Système téléphonique** , vous pouvez passer à l’extraction.
   
-Puis, attribuez les licences de module complémentaire E5 Enterprise ou **Système téléphonique** aux utilisateurs dans le centre d’administration d’Office 365. Pour en savoir plus, voir [Attribuer de Skype pour les professionnels et les équipes Microsoft de licences](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses).
+Puis, attribuez les licences de module complémentaire E5 Enterprise ou **Système téléphonique** aux utilisateurs dans le centre d’administration d’Office 365. Pour en savoir plus, voir [licences attribuer les équipes Microsoft](assign-teams-licenses.md).
   
 ## <a name="pricing-information"></a>Informations de tarification
 
@@ -86,11 +86,9 @@ Puis, attribuez les licences de module complémentaire E5 Enterprise ou **Systè
 
 Voici d’autres articles qui expliquent comment configurer vos Plans de l’appel :
   
-- [Configurer des offres d'appels](set-up-calling-plans.md)
+- [Configurer des forfaits d'appels](set-up-calling-plans.md)
     
-- [Licences de compléments pour Skype Entreprise et Microsoft Teams](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
-    
-- [Planifier Skype pour l’édition de connecteur Business Cloud](https://technet.microsoft.com/library/Mt605227.aspx): cet article explique comment configurer Office 365 téléphone système avec vos propres connectivité PSTN.
+- [Gestion des licences de module complémentaire Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
     
 - [Planifier votre système téléphonique dans les solutions Office 365 (en nuage PBX)](https://go.microsoft.com/fwlink/p/?LinkId=717926)
     
@@ -101,11 +99,7 @@ Voici d’autres articles qui expliquent comment configurer vos Plans de l’app
     
 - [Configurer la messagerie vocale du système téléphonique - Aide pour l'administrateur](set-up-phone-system-voicemail.md)
     
-- [Configurer des offres d'appels](set-up-calling-plans.md)
+- [Configurer des forfaits d'appels](set-up-calling-plans.md)
     
-- [Ajouter des fonds et gérer les crédits de communication](add-funds-and-manage-communications-credits.md)
-    
-- [Configurer le connecteur sur le nuage](https://technet.microsoft.com/library/mt605228.aspx) et [Téléchargez le connecteur sur le nuage](https://aka.ms/CloudConnectorInstaller)
-  
-  
+- [Ajouter des fonds et gérer les Crédits de Communications](add-funds-and-manage-communications-credits.md)
  

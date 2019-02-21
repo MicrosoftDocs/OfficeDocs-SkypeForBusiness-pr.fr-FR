@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Découvrez les facteurs à prendre en compte avant de configurer des événements en temps réel dans Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e0c71258ee0285c4c00f69e63be1f2efbfc5e4ab
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: cee30cc853043b4424a9a30c1ad785f77ea05f70
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297816"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120923"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planifier des événements en direct dans Microsoft Teams
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
@@ -36,7 +36,7 @@ Il est important de savoir qu’une licence Office 365 est nécessaire pour part
 - **Production de début pour rapide**  L’utilisateur doit être affecté à une licence Microsoft Teams.
 - **Production d’encodeur pour externe** L’utilisateur doit être affecté à une licence Microsoft Stream.
 
-Pour plus d’informations sur les licences, voir [Skype pour les licences d’entreprise et les équipes Microsoft module complémentaire](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
+Pour plus d’informations sur les licences, voir [Gestion des licences de module complémentaire équipes Microsoft](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 L’utilisateur doit avoir :
 - Planifier des réunions privées dans les équipes activés (*- AllowPrivateMeetingScheduling TeamsMeetingPolicy le paramètre = True*).
@@ -53,8 +53,8 @@ L’utilisateur doit avoir :
 |Public (utilisateurs anonymes)      |  Oui            |  Non                  |
 |Utilisateurs invités                   |  Aucun<sup>1</sup> |  Non                  |
 |Tout le monde dans une entreprise fédérée |  Aucun<sup>1</sup> |  Non                  |
-|Tout le monde de société           |  Oui            |  Oui                 |
-|Propres groupes / personnes      |  Oui            |  Oui                 |
+|Tout le monde de société           |  Oui             |  Oui                 |
+|Propres groupes / personnes      |  Oui             |  Oui                 |
 
 <sup>1</sup> peut surveiller uniquement les événements en direct en tant qu’utilisateurs anonymes.
 
@@ -68,7 +68,7 @@ Le tableau suivant met en évidence les fonctionnalités principales et les fonc
 |Durée maximale d’événement en direct |4 heures |4 heures |4 heures |
 |Création de l’événement en direct |   Portail du service de diffusion de réunion de Skype |Les équipes, Yammer via des équipes | Les équipes, Yammer via des équipes de flux |
 |Engagement de l’audience – Yammer |& #x 2714 ; |& #x 2714 ; (expérience intégrée) |& #x 2714 ; (expérience intégrée) |
-|Engagement de l’audience – modéré de Q & r |& #x 2714 ;  |& #x 2714 ; |& #x 2714 ; |
+|Engagement de l’audience – Q modérés & A |& #x 2714 ;  |& #x 2714 ; |& #x 2714 ; |
 |Client producteur sur Windows |& #x 2714 ; (Skype pour les entreprises) |& #x 2714 ; (Équipes) |& #x 2714 ; (Incorporer des équipes via le flux de flux) |
 |Client producteur sur Mac |X  | & #x 2714 ; (Équipes) |& #x 2714 ; (Incorporer des équipes via le flux de flux) |
 |Nombre de participants dans l’interface utilisateur producteur |X  |& #x 2714 ; (Équipes) |& #x 2714 ; (Incorporer des équipes via le flux de flux) |
@@ -85,7 +85,7 @@ Inviter un présentateur au cours de la réunion |& #x 2714 ; (Skype pour les e
 |Contrôles DVR Attendee (pause, arrière) |& #x 2714 ; |& #x 2714 ; |& #x 2714 ; |
 |Partenaire eCDN prise en charge |& #x 2714 ; (La ruche, Kollective, Ramp) |& #x 2714 ; (La ruche, Kollective, Ramp) |& #x 2714 ; (La ruche, Kollective, Ramp) |
 |Rapport de participation à une diffusion postérieures aux producteurs |& #x 2714 ; |& #x 2714 ; |X |
-|Analyse du public ressenti – vote Live et sondages |& #x 2714 ; (Pulse Microsoft) |X |X |
+|Analyse du public ressenti – Live sondages & vote |& #x 2714 ; (Pulse Microsoft) |X |X |
 
 > [!IMPORTANT]
 > Les limites définies peuvent être modifiés.

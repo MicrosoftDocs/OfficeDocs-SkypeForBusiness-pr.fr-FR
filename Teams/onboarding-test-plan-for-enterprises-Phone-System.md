@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 85774296ad871d7d9d036a660299cc88099c4de6
-ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.openlocfilehash: e96f39cbcf5dcca4c0687f89f37ead6791ff2d98
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29594061"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120741"
 ---
 <a name="define-and-document-your-phone-system-with-calling-plans-in-teams-test-plan-for-enterprises"></a>Définissez et documentez votre système téléphonique avec des Plans de l’appel dans le plan de test des équipes pour les entreprises 
 ============================================================================================
@@ -235,7 +235,7 @@ Pour prendre en charge de la phase de test, il est important de développer un p
 |---------------|--------------------------------------------------------------|----------------------|
 | Personnes        | Parties prenantes tester les testeurs prospects                               | TBD                  |
 | Technologie    | Accès à Office 365 avec les services suivants activé :<ul><li>Office 365 E5 licences affectés</li><li>Plan d’appel nationales et internationales affecté</li></ul>    | TBD                  |
-| support       | Responsable de prise en charge de Test administrateur technicien Test de test | TBD                  |
+| Support       | Responsable de prise en charge de Test administrateur technicien Test de test | TBD                  |
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Points de décision</td><td><ul><li>Choisir les types de ressources (personnes, la technologie et prise en charge) que vous aurez besoin pour prendre en charge de la phase de test.</li><li>Choisir les ressources spécifiques requis pour les types de ressources que vous avez identifié.</li><li>Décider si vous devez fournir plus de détails pour décrire les types de ressources dont vous avez besoin.</li></ul></td></tr>
@@ -752,7 +752,7 @@ Maintenant que vous avez défini votre plan de test, l’étape suivante consist
 
 -   La liste des sites d’organisation et des groupes d’utilisateurs dans la portée ont été identifiés.
 
--   [Communications générique](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits) (si nécessaire) ont été configurés pour votre organisation.
+-   [Communications générique](what-are-communications-credits.md) (si nécessaire) ont été configurés pour votre organisation.
 
 -   Système téléphonique avec les paramètres de l’appel des Plans ont été identifiés et configuré.
 

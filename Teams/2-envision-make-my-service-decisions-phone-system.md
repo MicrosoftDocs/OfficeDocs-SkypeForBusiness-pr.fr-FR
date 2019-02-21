@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eb254de21bfaf0ffb66a9c9177e5109a1b4eafc1
-ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.openlocfilehash: a7cd550b266f69d4ad0223bd7364ec1b69e56745
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29593965"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120569"
 ---
 # <a name="make-my-service-decisions"></a>Prendre des décisions de mon service
 
@@ -88,20 +88,20 @@ Après avoir confirmé que votre organisation peut obtenir le service d’appel 
 
 ## <a name="phone-numbers-and-emergency-locations"></a>Numéros de téléphone et emplacements d'urgence
 
-Avec des Plans de l’appel dans Office 365, tous les utilisateurs de votre organisation doivent avoir un unique vers l’intérieur direct composer le numéro de téléphone (DID) et une adresse d’urgence validée correspondante. Passez en revue les [numéros de téléphone voix gérer dans le nuage](https://docs.microsoft.com/MicrosoftTeams/2-envision-make-my-service-decisions-phone-system#manage-cloud-voice-telephone-numbers) pour planifier l’acquisition de numéro de téléphone pour votre mise en œuvre des Plans de l’appel.
+Avec des Plans de l’appel dans Office 365, tous les utilisateurs de votre organisation doivent avoir un unique vers l’intérieur direct composer le numéro de téléphone (DID) et une adresse d’urgence validée correspondante. Passez en revue les [numéros de téléphone voix gérer dans le nuage](2-envision-make-my-service-decisions-phone-system.md#manage-cloud-voice-telephone-numbers) pour planifier l’acquisition de numéro de téléphone pour votre mise en œuvre des Plans de l’appel.
 
 Lorsque vous configurez des numéros de téléphone pour appeler des Plans, vous devez affecter une adresse d’urgence pour chaque numéro de téléphone avant d’affecter le nombre à un utilisateur. Cela est obligatoire pour prendre en charge les appels d'urgence. L’adresse d’urgence doit être validée pour vous assurer qu’il se trouve dans le format correct pour être utilisé par les services d’urgence.
 
 > [!IMPORTANT]
-> Appel de Services d’urgence fonctionne différemment dans le service d’appel de Plans que dans les services téléphoniques traditionnels. Il est important de comprendre les différences et les communique à tous les utilisateurs. Pour plus d’informations, voir [Conditions et les termes du contrat de l’appel d’urgence](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/emergency-calling-terms-and-conditions) .
+> Appel de Services d’urgence fonctionne différemment dans le service d’appel de Plans que dans les services téléphoniques traditionnels. Il est important de comprendre les différences et les communique à tous les utilisateurs. Pour plus d’informations, voir [Conditions et les termes du contrat de l’appel d’urgence](emergency-calling-terms-and-conditions.md) .
 
 En plus de fournir une adresse d’urgence validée, vous pourrez définir des emplacements d’urgence et les associer à l’adresse validée en cas d’urgence pour donner à un emplacement plus précis au sein d’une adresse. Un emplacement d'urgence correspond généralement à un numéro de bâtiment, un étage, une aile de bâtiment ou un numéro de bureau où se trouve l'utilisateur.
 
 Pour en savoir plus sur les emplacements d’urgence par rapport à l’appelant Plans, lisez les articles suivants :
 
--   [Que sont les emplacements d'urgence, les adresses de secours et le routage des appels ?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing)
+-   [Que sont les emplacements d'urgence, les adresses de secours et le routage des appels ?](what-are-emergency-locations-addresses-and-call-routing.md)
 
--   [Conditions générales relatives aux appels d'urgence](https://docs.microsoft.com/SkypeForBusiness/legal-and-regulatory/emergency-calling-terms-and-conditions)
+-   [Conditions générales d’utilisation des appels d’urgence](emergency-calling-terms-and-conditions.md)
 
 <br>
 
@@ -130,7 +130,7 @@ Messagerie vocale de système téléphonique, grâce aux services de messagerie 
 
 Par défaut, la messagerie vocale système téléphonique fonctionne avec Exchange Online ; Toutefois il possède un minimum pris en charge Exchange sur site version et le déploiement modèle pour permettre la remise des messages vocaux pour les boîtes aux lettres dans le déploiement d’Exchange sur site.
 
-La messagerie vocale du système téléphonique inclut la transcription des messages vocaux. Elle est activée par défaut pour tous les utilisateurs de votre organisation. Besoins de votre entreprise peuvent nécessiter que vous désactivez la transcription de la messagerie vocale pour des utilisateurs spécifiques ou tout le monde dans toute l’organisation. Si votre organisation a décidé de conserver la transcription de la messagerie vocale activée, vous devez également prendre en compte si le masquage de la messagerie vocale transcription gratuites doivent être activés. Pour plus d’informations, voir [définition des stratégies de messagerie vocale dans votre organisation](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail) .
+La messagerie vocale du système téléphonique inclut la transcription des messages vocaux. Elle est activée par défaut pour tous les utilisateurs de votre organisation. Besoins de votre entreprise peuvent nécessiter que vous désactivez la transcription de la messagerie vocale pour des utilisateurs spécifiques ou tout le monde dans toute l’organisation. Si votre organisation a décidé de conserver la transcription de la messagerie vocale activée, vous devez également prendre en compte si le masquage de la messagerie vocale transcription gratuites doivent être activés. Pour plus d’informations, voir [définition des stratégies de messagerie vocale dans votre organisation](set-up-phone-system-voicemail.md) .
 
 >[!NOTE]
 > Un mécanisme de secours a été implémenté, qui permet à la messagerie vocale du système téléphonique de renvoyer les messages via SMTP. Ainsi les utilisateurs qui possèdent une boîte aux lettres sur un système tiers recevront les messages vocaux. Ce mécanisme n’inclut pas les temps de fonctionnement de service garanti ou d’autres fonctionnalités de messagerie vocale, telle que la modification du message d’accueil de la messagerie vocale.
@@ -149,8 +149,8 @@ Pour plus d’informations sur la messagerie vocale dans une implémentation du 
 > 
 > |Utilisateur |Boîte aux lettres Exchange |Activer la messagerie vocale ? |Transcription de la messagerie vocale |Masquage de la messagerie vocale transcription gratuites |
 > |------------------|------------------|-------------------|----------|----------|
-> |Emily Braun      |En ligne      |Oui |Activé |Activé |
-> |Lidia Holloway   |En ligne      |Oui |Activé |Désactivé |
+> |Emily Braun      |Online      |Oui |Activé |Activé |
+> |Lidia Holloway   |Online      |Oui |Activé |Désactivé |
 > |Louis Lahr       |Local |Oui |Activé |Activé |
 > |Marcel Beauchamp |Local |Oui |Désactivé |N/A |
 > |Rachelle Cormier |En ligne      |Oui |Désactivé |N/A |
@@ -214,9 +214,9 @@ Vous pouvez définir des crédits Communications pour vos organisations pour per
 
 Pour en savoir plus sur le système téléphonique et Plans de l’appel, lisez les articles suivants :
 
--   [Système téléphonique](https://products.office.com/skype-for-business/phone-system)
+-   [Système téléphonique](https://products.office.com/en-us/skype-for-business/phone-system)
 
--   [Plans d’appel](https://products.office.com/skype-for-business/calling-plans)
+-   [Offres d'appels](https://products.office.com/en-us/skype-for-business/calling-plans)
 
 <br>
 
@@ -247,7 +247,7 @@ Le premier élément à prendre en compte lors de l’implémentation de crédit
 
 Pour votre implémentation de Plans de l’appel, vous pouvez contrôler l’utilisation de Communications crédits sur une base par utilisateur, qui vous permet de vérifier que vous avez attribué les crédits d’alignement avec les besoins de votre entreprise.
 
-Pour en savoir plus sur les Communications crédits, passez en revue [Quelles sont les Communications crédits ?](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits).
+Pour en savoir plus sur les Communications crédits, passez en revue [Quelles sont les Communications crédits ?](what-are-communications-credits.md).
 
 <br>
 
@@ -297,11 +297,11 @@ Les deux types de numéros de téléphone dans les solutions de voix dans le clo
 
 -   Numéros de service, disponibles en tant que numéro payant et numéros gratuits service, qui ont la capacité d’appels simultanés plus élevée que les numéros d’abonné et peuvent être affectés aux services tels que la conférence Audio, les standards automatiques ou files d’attente des appels.
 
-Pour plus d’informations sur les types de numéros de téléphone, voir [différents types de numéros de téléphone utilisés pour les Plans de l’appel](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/different-kinds-of-phone-numbers-used-for-calling-plans).
+Pour plus d’informations sur les types de numéros de téléphone, voir [différents types de numéros de téléphone utilisés pour les Plans de l’appel](different-kinds-of-phone-numbers-used-for-calling-plans.md).
 
 Le nombre total de numéros de téléphone que vous pouvez obtenir dépendent du type de numéro de téléphone et le nombre de licences que vous avez acheté et affecté à vos utilisateurs.
 
-Pour plus d’informations sur le nombre total de numéros de téléphone que vous pouvez obtenir, voir [combien de numéros de téléphone peut obtenir ?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/how-many-phone-numbers-can-you-get)
+Pour plus d’informations sur le nombre total de numéros de téléphone que vous pouvez obtenir, voir [combien de numéros de téléphone peut obtenir ?](how-many-phone-numbers-can-you-get.md)
 
 <br>
 
@@ -322,9 +322,9 @@ Comme alternative (si le port partiel est pris en charge), vous pouvez envoyer p
 
 Portage numéro de téléphone est un sujet complexe et nécessite une planification approfondie, coordination et correctement la gestion des attentes de votre des parties prenantes. Pour plus d’informations, voir les articles suivants :
 
--   [Transfert des numéros de téléphone vers Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365)
+-   [Transfert des numéros de téléphone vers Office 365](transfer-phone-numbers-to-office-365.md)
 
--   [Questions fréquentes à propos du transfert de numéros de téléphone](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transferring-phone-numbers-common-questions)
+-   [Transfert des questions fréquemment posées numéros de téléphone](transferring-phone-numbers-common-questions.md)
 
 <br>
 
@@ -356,7 +356,7 @@ Le plan de numérotation effectives attribué aux utilisateurs est la combinaiso
 > [!IMPORTANT]
 > Il peut y avoir un maximum de 25 règles de normalisation dans chaque plan de numérotation client ; Par conséquent, il est important éviter la duplication des règles de normalisation qui sont déjà disponibles dans le cadre du service de plan de numérotation.
 
-Pour plus d’informations sur les plans de numérotation, voir [Quels sont les plans de numérotation ?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans)
+Pour plus d'informations sur les plans d'appel, voir [Quels sont les plans de numérotation ?](what-are-dial-plans.md)
 
 <br>
 

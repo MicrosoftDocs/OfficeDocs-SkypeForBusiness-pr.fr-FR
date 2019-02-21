@@ -28,12 +28,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Vous pouvez sélectionner un pays ou une région pour consulter la disponibilité de l'audioconférence, du système téléphonique, des forfaits d'appel, des crédits de communication ainsi que des numéros payants et gratuits.
-ms.openlocfilehash: 01a9d6262cc7c452b9d937242ca431fe9e478777
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 789584991eaf6b95541d9fc49ec094d5c0481228
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048490"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120875"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Disponibilité des forfaits d'appels et d'audioconférence selon les régions et les pays
 
@@ -133,7 +133,7 @@ Vous pouvez sélectionner votre pays ou région pour afficher les fonctionnalit�
 
 ***
 
-Après avoir consulté la disponibilité d'un service Skype Entreprise ou Microsoft Teams, vous pouvez voir les [licences de complément Skype Entreprise et Microsoft Teams](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing) pour choisir parmi les licences et les attribuer à vos utilisateurs.
+Après avoir consulté la disponibilité d'un service Skype Entreprise ou Microsoft Teams, vous pouvez voir les [licences de complément Skype Entreprise et Microsoft Teams](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) pour choisir parmi les licences et les attribuer à vos utilisateurs.
 
 > [!NOTE]
 > 
@@ -178,7 +178,7 @@ Utilisez la liste déroulante en haut de la page pour rechercher un pays ou une 
 ### <a name="calling-plans"></a>Offres d'appels
 Avec le système téléphonique, un forfait d'appels permet aux utilisateurs de passer et de recevoir des appels téléphoniques. Vous devez d'abord obtenir le numéro de téléphone (pas un numéro de service) d'un utilisateur (abonné) à attribuer à l'utilisateur, puis lui attribuer un forfait d'appels. Deux types de forfaits d'appels sont disponibles : **Nationaux** et **Nationaux et internationaux**. Consultez [Qu'est-ce que les forfaits d'appels ?](../what-are-calling-plans-in-office-365.md) pour en savoir plus.
 
-Vous pouvez aussi consulter [Système téléphonique et licences de forfaits d'appels](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing) pour obtenir des informations à propos des licences.
+Vous pouvez aussi consulter [Système téléphonique et licences de forfaits d'appels](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) pour obtenir des informations à propos des licences.
 
 > [!NOTE]
 > Le pays/la région dépend de l'emplacement de la licence de l'utilisateur dans le **Centre d'administration Office 365** > **Utilisateurs actifs** et **non** sur l'adresse de facturation répertoriée dans le **Profil de l'organisation** dans le **Centre d'administration Office 365**. 
