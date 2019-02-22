@@ -1,5 +1,5 @@
 ---
-title: Gérer les stratégies de la réunion
+title: Gérer les stratégies de réunion
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
@@ -16,10 +16,10 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.overview
 description: Apprenez à gérer les paramètres de stratégie dans les équipes de réunion.
 ms.openlocfilehash: 96b5008ebbdbcad2dc44234d861c4127c77ed69c
-ms.sourcegitcommit: 4e6b39e7421ea6eb03c524bb6b8e597c1966bad1
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2019
+ms.lasthandoff: 02/21/2019
 ms.locfileid: "30056610"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gérer les stratégies de la réunion dans les équipes

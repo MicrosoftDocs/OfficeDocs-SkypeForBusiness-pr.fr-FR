@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bd81915739d9ad2087dec5b66595efd1c49e2c84
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: 1d97bf7230e8d1f78f2cf5c169fbf48a93f415bb
+ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120891"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "30178645"
 ---
 <a name="about-upgrade-basic"></a>
 
@@ -44,6 +44,7 @@ Avant de cette fonctionnalité, les conseils de Microsoft a été pour s’assur
 
 **Remarques :**
 <sup>1</sup> session est toujours disponible.
+
 <sup>2</sup> pour l’instant, SfBwithTeamsCollab et SfBOnly ont les mêmes, mais l’objectif est de mode SfBOnly également désactiver la fonctionnalité de canaux et les fichiers dans les équipes ; Toutefois, il n’existe actuellement aucun paramètre qui permet cette fonctionnalité dans les équipes à désactiver.
 
 
@@ -74,9 +75,9 @@ Les administrateurs doivent définir chacun de ces paramètres pour les valeurs 
 Avant le déploiement de la mise en conformité automatique de l’expérience utilisateur basée sur les modes, le `Grant-CsTeamsUpgradePolicy` cmdlet vérifie la configuration des paramètres correspondants dans TeamsMessagingPolicy, TeamsCallingPolicy et TeamsMeetingPolicy pour déterminer si ces les paramètres sont compatibles avec le mode spécifié. Si les ne sont pas configurés correctement, l’octroi réussira, mais un avertissement sera communiquée dans PowerShell indiquant les paramètres spécifiques ne sont pas configurés correctement. Voici un exemple de ce que l’avertissement PowerShell pourrait ressembler à :
 
 
-`Grant-CsTeamsUpgradePolicy -Identity user1@contoso.com -PolicyName SfBWithTeamsCollab`
+« Grant-CsTeamsUpgradePolicy-Identity user1@contoso.com - PolicyName SfBWithTeamsCollab
 
-*Avertissement : L’utilisateur 'user1@contoso.com' a actuellement valeurs de stratégie efficace activé : AllowUserChat, AllowPrivateCalling, AllowPrivateMeetingScheduling, AllowChannelMeetingScheduling. À court terme, lors de l’octroi TeamsUpgradePolicy avec mode = SfBWithTeamsCollab à un utilisateur, vous devez affecter également séparément de stratégie pour vous assurer de l’utilisateur dispose des valeurs de stratégie efficace désactivé : AllowUserChat, AllowPrivateCalling, AllowPrivateMeetingScheduling, AllowChannelMeetingScheduling. À l’avenir, la fonctionnalité respecte automatiquement TeamsUpgradePolicy.*
+Avertissement : L’utilisateur 'user1@contoso.com' a actuellement valeurs de stratégie efficace activé : AllowUserChat, AllowPrivateCalling, AllowPrivateMeetingScheduling, AllowChannelMeetingScheduling. À court terme, lors de l’octroi TeamsUpgradePolicy avec mode = SfBWithTeamsCollab à un utilisateur, vous devez affecter également séparément de stratégie pour vous assurer de l’utilisateur dispose des valeurs de stratégie efficace désactivé : AllowUserChat, AllowPrivateCalling, AllowPrivateMeetingScheduling, AllowChannelMeetingScheduling. À l’avenir, la fonctionnalité respecte automatiquement TeamsUpgradePolicy. »
 
 À l’affichage de cet avertissement, l’administrateur doit ensuite mettre à jour les stratégies indiqués afin d’offrir une expérience utilisateur final compatible dans les équipes. Si l’administrateur décide de vous n’avez rien à la suite de l’avertissement, les utilisateurs peuvent toujours accéder à la conversation, appel et/ou des fonctions de planification dans les équipes en fonction des valeurs de TeamsMessagingPolicy, TeamsCallingPolicy et TeamsMeetingPolicy, de la réunion qui peut entraîner une expérience utilisateur final confus.
 

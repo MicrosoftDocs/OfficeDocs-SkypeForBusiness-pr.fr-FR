@@ -3,7 +3,7 @@ title: Tableau de bord Analyse des appels et Qualité des appels
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
-ms.reviewer: mikedav, wlooney
+ms.reviewer: mikedav, wlooney, gageames
 ms.topic: article
 ms.assetid: 4cd5fe35-8463-4996-a252-086cd3ca2d9a
 ms.tgt.pltfrm: cloud
@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Découvrez les Analytique d’appel et appel du tableau de bord qualité quand et comment les utiliser pour analyser et résoudre les problèmes de qualité des appels.
-ms.openlocfilehash: e3d768178723a2bce611770698338d8d4e4cce61
-ms.sourcegitcommit: 4967c9b1010a444475dcfbdb6dd3c058494449d9
+ms.openlocfilehash: b3a65c4fa6a3dfe8de6b4ef70cd7657661cf4dc9
+ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "30069608"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "30178668"
 ---
 # <a name="call-analytics-and-call-quality-dashboard"></a>Tableau de bord Analyse des appels et Qualité des appels
 
@@ -44,7 +44,7 @@ Appel Analytique CQD s’exécuter en parallèle et peuvent être utilisés ind�
 > Autorisations de l’agent de support technique et le téléchargement de topologie réseau seront disponibles dans le nouveau portail d’administration dans les mois à venir. En attendant, vous pouvez continuer à utiliser https://adminportal.services.skypeforbusiness.com pour l’accès de support technique de niveau 1 et niveau 2.
   
 
-Appel Analytique affiche des informations détaillées sur les périphériques, les réseaux et connectivité liés aux appels spécifiques et des réunions pour chaque utilisateur de Microsoft Teams Skype pour un compte professionnel. Pourquoi utilisateur Amos Marbre disposer d’un appel médiocre après‑midi ? À l’aide d’Analytique d’appel, un administrateur Office 365 ou l’agent de support technique formé peut examiner le périphérique, réseau, connectivité et autres facteurs liés à l’appel de Amos pour résoudre les problèmes de qualité et connexion appel dans Microsoft Teams et Skype pour les entreprises.
+Appel Analytique affiche des informations détaillées sur les périphériques, les réseaux et connectivité liés aux appels spécifiques et des réunions pour chaque utilisateur de Microsoft Teams Skype pour un compte professionnel. Pourquoi cet utilisateur ont un appel médiocre après‑midi ? À l’aide d’Analytique d’appel, un administrateur Office 365 ou l’agent de support technique formé peut examiner le périphérique, réseau, connectivité et autres facteurs liés à son appel pour résoudre les problèmes de qualité et connexion appel dans Microsoft Teams et Skype pour les entreprises.
 
 Pour afficher ces informations pour un utilisateur dans le centre d’administration Microsoft Teams, cliquez sur l’onglet **Historique des appels** pour cet utilisateur dans la page de détails utilisateur, en affichant tous les appels et les réunions que l’utilisateur a participé à des 30 derniers jours.
 
@@ -52,7 +52,7 @@ Pour afficher ces informations pour un utilisateur dans le centre d’administra
 
 Pour obtenir des informations supplémentaires sur une session donnée, y compris media détaillées et les statistiques du réseau, cliquez sur une session pour voir les détails.
 
-![Appeler des données de session utilisateur analytique.](media/call-analytics-user-data-session.png)
+![Appeler des données de session utilisateur analytique.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image2.png)
 
 Si vous souhaitez que non-Admin, tels que les agents de support technique d’un fournisseur externe, pour utiliser l’appel Analytique, vous pouvez attribuer les autorisations afin qu’ils peuvent utiliser Analytique d’appel, mais ils ne peuvent pas accéder le reste du centre d’administration Microsoft Teams : 
   
@@ -74,26 +74,29 @@ Pour plus d’informations sur la configuration Analytique d’appel, voir [Set 
   
 Autorité de certification est conçue pour aider les administrateurs et les agents de support technique résoudre les problèmes de qualité d’appel avec des appels spécifiques, où le tableau de bord de qualité des appels (CQD) est conçu pour aider les administrateurs Microsoft Teams, Skype pour les administrateurs d’entreprise, et optimisent un réseau les ingénieurs réseau. CQD déplace le focus des utilisateurs spécifiques et au lieu de cela examine compilent les informations pour un ensemble de Microsoft Teams ou Skype pour l’organisation de l’entreprise. Pour plus d’informations, voir [fonctionnalités du tableau de bord qualité des appels pour Skype pour Business Online](turning-on-and-using-call-quality-dashboard.md#BKMKFeaturesOfTheCQD).
   
-La qualité des appels médiocres de Amos est peut-être en raison d’un problème de réseau qui affecte également le nombre d’autres utilisateurs. Expérience d’appels individuels de Amos n’est pas visible dans CQD, mais la qualité globale d’appels effectués à l’aide de Microsoft Teams ou Skype pour les entreprises est capturée. Avec le CQD, global modèles peuvent apparaître, permettant ainsi aux ingénieurs réseau à évaluer informé de la qualité des appels. CQD fournit des rapports des mesures de qualité des appels qui vous expliqueront globale appellent qualité, flux serveur-client, flux client client et qualité de voix [SLA](https://go.microsoft.com/fwlink/p/?linkid=846252).
+La qualité des appels médiocres l’utilisateur est peut-être en raison d’un problème de réseau qui affecte également le nombre d’autres utilisateurs. L’expérience de l’appel n’est pas visible dans CQD, mais la qualité globale d’appels effectués à l’aide de Microsoft Teams ou Skype pour les entreprises est capturée. Avec le CQD, global modèles peuvent apparaître, permettant ainsi aux ingénieurs réseau à évaluer informé de la qualité des appels. CQD fournit des rapports des mesures de qualité des appels qui vous expliqueront globale appellent qualité, flux serveur-client, flux client client et qualité de voix [SLA](https://go.microsoft.com/fwlink/p/?linkid=846252).
   
-![Capture d’écran du tableau de bord de qualité des appels. Les onglets affichés sont SLA de qualité de voix globale la qualité des appels et serveur - Client, Client - Client.](media/6eaccf99-8ee8-4f99-bdf2-ba1c72471cb9.png)
+![Capture d’écran du tableau de bord de qualité des appels. Les onglets affichés sont SLA de qualité de voix globale la qualité des appels et serveur - Client, Client - Client.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image3.png)
 
-À l’aide de rapports de Location-Enhanced de CQD, la qualité des appels agrégation et la fiabilité de la construction de Amos peuvent être évaluées pour déterminer si le problème est isolé à un seul utilisateur ou affecte un segment supérieur d’utilisateurs.
+À l’aide de rapports de Location-Enhanced de CQD, la qualité des appels agrégation et la fiabilité de la création de l’utilisateur peuvent être évaluées pour déterminer si le problème est isolé à un seul utilisateur ou affecte un segment supérieur d’utilisateurs.
 
 ![Capture d’écran des rapports d’emplacement hautement appel qualité du tableau de bord. Les onglets affichés sont vue d’ensemble, bâtiments - filaire, bâtiments - Wi-Fi et Mobile (ETL). Un filtre est appliqué pour afficher le flux de données dans un bâtiment en particulier.](media/call-quality-dashboard-location-enhanced-reports-building-selection.png)
 
 > [!NOTE]
 > Pour activer la construction spécifiques dans CQD, un administrateur doit [télécharger les informations de création](turning-on-and-using-call-quality-dashboard.md#BKMKBuildingInformationUpload) sur la page de téléchargement des données client du CQD.
 
-  
-Si vous souhaitez que non-Admin, tels que les agents du support technique, pour utiliser l’appel du tableau de bord qualité, vous pouvez affecter ces utilisateurs au rôle de **Lecteur de rapports** . Les utilisateurs avec les rôles suivants peuvent accéder tableau de bord qualité des appels :
+Si vous souhaitez que non-Admin, tels que les agents du support technique, pour utiliser l’appel du tableau de bord qualité, vous pouvez affecter ces utilisateurs le rôle de **l’Ingénieur du Support technique équipes Communications**, **Spécialiste des équipes Communications prise en charge**ou **Lecteur de rapports** . Les utilisateurs avec les rôles suivants peuvent accéder tableau de bord qualité des appels :
 
- - Administrateur global
- - Administration de Skype Entreprise
- - Lecteur de rapports
+- Administrateur global
+- Skype pour administrateur
+- Administrateur du service Teams
+- Administrateur des communications Teams
+- Ingénieur du support technique pour les communications Teams
+- Spécialiste des équipes Communications prise en charge
+- Lecteur de rapports
 
 > [!NOTE]
-> Le rôle de lecteur rapports ne peut pas modifier les fichiers sur la page de téléchargement des données client du CQD ni activer CQD pour un client.
+> Les rôles ingénieur du Support technique équipes Communications, spécialiste des équipes Communications prise en charge et rapports de lecteur ne peut pas modifier les fichiers sur la page de téléchargement des données client du CQD ni activer CQD pour un client.
 
 Pour plus d’informations sur ces rôles, voir [rôles d’administrateur sur Office 365](/office365/admin/add-users/about-admin-roles).
 

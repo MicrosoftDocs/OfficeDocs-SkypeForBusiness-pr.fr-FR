@@ -1,7 +1,7 @@
 ---
-title: Qualité de consulter le Guide de l’expérience pour les équipes Microsoft
+title: Guide d’Analyse de la Qualité d’Expérience pour Microsoft Teams
 author: rmw2890
-ms.author: MyAdvisor
+ms.author: rowille
 manager: serdars
 ms.date: 09/05/2018
 ms.topic: article
@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3b19fe5dce5c728880c54321e5d6dbb1901d0aac
-ms.sourcegitcommit: 327fe807b461aff18b06449f06b9e51ce393c4bc
+ms.openlocfilehash: c9162a10d55b224e14867866395b1e44d18e8e6e
+ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "29964449"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "30178739"
 ---
 # <a name="quality-of-experience-review-guide"></a>Qualité de consulter le Guide de l’expérience
 
@@ -33,15 +33,15 @@ Pour que le plus grand impact sur l’amélioration de l’expérience utilisate
 
 _Figure 1 : zones opérationnelles clé couvertes dans ce guide_
 
-En permanence évaluer et corriger les zones décrites dans ce guide, vous pouvez réduire leur potentiel pour un impact négatif sur la qualité de l’expérience de vos utilisateurs. La plupart des problèmes d’expérience utilisateur dans un déploiement peuvent être regroupées dans les catégories suivantes :
+En permanence évaluer et corriger les zones décrites dans ce guide, vous pouvez réduire leur potentiel pour un impact négatif sur la qualité de l’expérience de vos utilisateurs. La plupart des problèmes d'expérience utilisateur rencontrés lors d'un déploiement peuvent être regroupés dans les catégories suivantes :
 
--   Configuration de pare-feu ou proxy incomplète
--   Une mauvaise couverture Wi-Fi
+-   Configuration incomplète du pare-feu ou du proxy
+-   Faible couverture Wi-Fi
 -   Bande passante insuffisante
 -   VPN
 -   Pilotes et les versions du client incohérents ou obsolètes
 -   Périphériques audio non optimisées ou intégrés
--   Sous-réseaux problématiques ou périphériques réseau
+-   Sous-réseaux ou périphériques réseau problématiques
 
 Via une planification et conception avant de déployer des équipes ou Skype pour Business Online, vous pouvez réduire le volume de travail qui est requis pour maintenir une expérience de haute qualité.
 
@@ -57,11 +57,17 @@ Ce guide est également destiné à être utilisé par le champion(s) qualité d
 
 ## <a name="prerequisites"></a>Conditions requises
 
-Avant d’utiliser ce guide, assurez-vous que vous avez le client appropriée les [rôles](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d) affectés afin que vous puissiez accéder CQD.
+Avant d’utiliser ce guide, assurez-vous que vous avez le client appropriée les [rôles](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) affectés afin que vous puissiez accéder CQD.
 
--   **Rôle Administrateur général de office 365 :** Accède à toutes les fonctionnalités d’administration de la suite Office 365 des services dans votre plan, y compris Skype pour les entreprises.
+-   **Rôle d’administrateur général Office 365** 
 
--   **Skype pour le rôle d’administrateur :** Configure Skype pour les entreprises pour votre organisation et est en mesure d’afficher tous les [rapports d’activité](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) dans le centre d’administration d’Office 365. Ce rôle est nécessaire, même si vous déployez uniquement les équipes.
+-   **Skype pour le rôle d’administrateur** 
+
+-   **Rôle d’administrateur de Service équipes** 
+
+-   **Rôle de Communications ingénieur du Support technique d’équipes** 
+
+-   **Rôle de spécialiste prise en charge des Communications d’équipes** 
 
 Autrement, vous pouvez affecter le rôle suivant à un compte d’utilisateur Office 365 pour autoriser l’accès aux fonctionnalités de création de rapports uniquement.
 
@@ -95,7 +101,7 @@ La mesure réelle en CQD selon la charge de travail, mais à des fins de l’exa
 > CQD fournit la « … dû à une mauvaise » des mesures de mieux comprennent de quelle condition a provoqué le flux classées comme médiocres.
 
 
-_Tableau 1 : mesures service médiocres_
+_Tableau 1 : mesures de qualité Audio_
 
 | Moyenne de métrique     | Description     | Expérience utilisateur |
 |-------------|-----------------|-----------------|
@@ -139,7 +145,7 @@ _Tableau 2 - mesures d’évaluation principaux cible d’intégrité_
 <tr><td rowspan="5"><strong>Conférence</strong></td><td>Interne</td><td>2.0 %</td><td>0,5 %</td><td>2.0 %</td></tr>
 <tr><td>Filaire interne</td><td>1,0 %</td><td>0,5 %</td><td>1,0 %</td></tr>
 <tr><td>Wi-Fi 5 GHz interne</td><td>1,0 %</td><td>0,5 %</td><td>1,0 %</td></tr>
-<tr><td>Wi-Fi 2,4 GHz interne</td><td>% de 4.0</td><td>0,5 %</td><td>2.0 %</td></tr>
+<tr><td>Wi-Fi 2,4 GHz interne</td><td>2.0 %</td><td>0,5 %</td><td>2.0 %</td></tr>
 <tr><td>Global</td><td>2.0 %</td><td>0,5 %</td><td>3.0 %</td></tr>
 <tr><td rowspan="4"><strong>P2P</strong></td><td>Interne</td><td>2.0 %</td><td>0,5 %</td><td>2.0 %</td></tr>
 <tr><td>Filaire/Wi-Fi 5 GHz interne</td><td>1,0 %</td><td>0,5 %</td><td>1,0 %</td></tr>
@@ -786,7 +792,7 @@ Ces outils sont basés sur PowerShell et peuvent tirer parti des Sites Active Di
 
 Pour plus d’informations sur cet outil, voir [ce billet de blog](https://aka.ms/cqdtools).
 
-#### <a name="network-planner"></a> Planificateur de réseau
+#### <a name="network-planner"></a>Planificateur de réseau
 
 Le Planificateur de réseau détermine et organise des besoins de votre réseau pour votre déploiement de voix dans le nuage en quelques étapes simples. Grâce à que votre organisation de l’accès réseau détails et utilisation de la voix dans le nuage, vous pouvez obtenir un calcul approximatif de la configuration réseau requise pour votre déploiement de voix dans le nuage, gérer et exporter ces informations pour la création de rapports et afficher des zones pour une analyse plus poussée et suivre les étapes ci-après.
 
@@ -1337,11 +1343,11 @@ Pour plus d’informations, consultez [cet article sur média qualité et les pe
 
 -   [Présentation Analytique d’appel](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Introducing-Call-Analytics/ba-p/57309)
 
--   [Configurer Analytique d’appel](set-up-call-analytics.md)
+-   [Configurer Analyse des appels](set-up-call-analytics.md)
 
 -   [En quoi l'analyse des appels et le tableau de bord de qualité des appels sont-ils différents ?](difference-between-call-analytics-and-call-quality-dashboard.md)
 
--   [Utiliser l'analyse des appels pour résoudre les problèmes liés à la qualité médiocre des appels](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+-   [Utiliser l’Analyse des appels pour résoudre les problèmes de qualité des appels](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 ### <a name="call-analytics-support"></a>Appelez le support technique Analytique
 

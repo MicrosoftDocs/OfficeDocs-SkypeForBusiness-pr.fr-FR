@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Les rubriques de cette section vous aider à comprendre comment planifier et déployer Skype pour Business Server afin que vous pouvez planifier pour le nombre d’utilisateurs dans votre organisation et le plan de la charge du serveur qui génèrent de leurs activités.
-ms.openlocfilehash: 996fd1df51442bcaadbd0ae548e9cf57e580279a
-ms.sourcegitcommit: 112dc19075f9213207fde9e30bcde5681324b7c9
+ms.openlocfilehash: 4a18b68d080eb7cb2a384b727e4ce4d7593d0ac4
+ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "25696344"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "30178715"
 ---
 # <a name="capacity-planning-for-skype-for-business-server-2019"></a>Planification de capacité pour Skype pour Business Server 2019
 
@@ -171,8 +171,8 @@ Microsoft a utilisé le matériel décrit dans le tableau ci-dessous pour le ser
 |:-----|:-----|
 |Processeur  <br/> |Intel Xeon E5-2673 v3 double processeur, 6-cœur, 2,4 gigahertz (GHz) ou supérieur.  <br/> |
 |Mémoire  <br/> |48 GO  <br/> |
-|Disque  <br/> |
-SOIT : • 4 ou plus disques durs de 10 000 tpm avec au moins 72 Go d’espace disque (les disques doivent être dans une configuration RAID 1 x 2). OU • SSD (Solid) en mesure de fournir le même espace et des performances similaires à 4 10 000 TPM disques durs mécaniques.   <br/> | | Réseau  <br/> | 1 carte réseau double port, 1 Gbits/s ou supérieur (2 recommandé, ce qui nécessite l’association avec une adresse MAC unique et une adresse IP unique).  <br/> |
+|Disque  <br/> | SOIT :<br/> • Au moins 4 disques durs de 10 000 tr/min avec au moins 72 Go d’espace disque disponible (les disques doivent avoir une configuration 2x RAID 1). <br/>SOIT <br/>•	Des disques SSD (Solid State Drives) pouvant fournir le même espace libre et des performances similaires aux 4 unités de disques mécaniques de 10 000 tr/min.   <br/> |
+|Réseau  <br/> | 1 carte réseau double port, 1 Gbits/s ou supérieur (2 recommandé, ce qui nécessite l’association à une seule adresse MAC et une seule adresse IP).  <br/> |
 
 **Configurations de disque recommandées**
 

@@ -1,5 +1,5 @@
 ---
-title: Gérer les équipes dans le centre d’administration Microsoft Teams
+title: Gérer les équipes dans le centre d’administration Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -15,14 +15,14 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bd56bd9147ca58ad38b41f64a7a6f3c6a8daf134
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: cf4d312f8fcb7f9ba509359eaaeed415be3e9662
+ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754186"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "30178676"
 ---
-<a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Gérer les équipes dans le centre d’administration Microsoft Teams
+<a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Gérer les équipes dans le centre d’administration Microsoft Teams
 ==========================================
 
 [!INCLUDE [new-feature-availability](includes/new-feature-availability.md)]
@@ -56,7 +56,7 @@ La grille affiche les propriétés suivantes :
 - **Les invités** - un décompte d’Azure Active Directory B2B invité utilisateurs sont membres de cette association.
 - **Confidentialité** - le AccessType du groupe sauvegarde Office 365.
 
-### <a name="search"></a>Recherche
+### <a name="search"></a>Rechercher
 
 Recherche actuellement prend en charge la chaîne « Commence par » et recherche dans le champ **nom de l’équipe** .
 
@@ -112,7 +112,7 @@ Remplacez **{groupid}** dans la requête de GroupId réel en question, que vous 
 
 5. Exécutez la requête sur le coin supérieur droit.
 
-6. Vérifiez que l’équipe s’affiche correctement sur le centre d’administration Microsoft Teams - vue d’ensemble de l’équipe
+6. Vérifiez que l’équipe s’affiche correctement dans le centre d’administration Microsoft Teams - vue d’ensemble de l’équipe
 
 
 ## <a name="learn-more"></a>En savoir plus

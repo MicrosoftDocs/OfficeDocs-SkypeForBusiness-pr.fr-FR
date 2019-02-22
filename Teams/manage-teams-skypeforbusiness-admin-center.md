@@ -1,5 +1,5 @@
 ---
-title: Gérer les équipes pendant la transition vers le nouveau centre d’administration de Microsoft Teams
+title: Gérer Teams lors de la transition vers le nouveau Centre d’administration de Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -16,14 +16,14 @@ MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: e695c54427dbe80daa179ad6d02e99a2556d9782
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 581be37a3acf4b0063cf93da1ba1289cd08b2f2e
+ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29753535"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "30178501"
 ---
-<a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>Gérer les équipes pendant la transition vers le nouveau centre d’administration de Microsoft Teams
+<a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>Gérer Teams lors de la transition vers le nouveau Centre d’administration de Microsoft Teams
 ======================================================
 
 > [!IMPORTANT]
@@ -43,8 +43,8 @@ Le tableau suivant identifie les sections de l’expérience des équipes qui on
 |---------|---------|---------|---------|
 |Général     |Afficher la conversation d’organisation dans le profil personnel        |  [TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)       |  Client       |
 |Général     |Utilisez Skype pour les entreprises pour les destinataires qui ne possèdent pas les équipes         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Client         |
-|Intégration de la messagerie     |Autoriser les utilisateurs à envoyer des messages électroniques à canaux         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Client         |
-|Intégration de la messagerie     |Autoriser les expéditeurs liste         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)        |Client         |
+|Intégration de courrier électronique     |Autoriser les utilisateurs à envoyer des messages électroniques à canaux         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Client         |
+|Intégration de courrier électronique     |Autoriser les expéditeurs liste         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)        |Client         |
 |Stockage cloud personnalisé     |Zone         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Client         |
 |Stockage cloud personnalisé     |Échange        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Client         |
 |Stockage cloud personnalisé     |Lecteur de Google        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Client         |
@@ -52,6 +52,11 @@ Le tableau suivant identifie les sections de l’expérience des équipes qui on
 |Paramètres par type de licence d’utilisateur     |Activer Microsoft Teams activé ou désactivé pour tous les utilisateurs          |Obsolètes<sup>1</sup>        |         |
 |Équipes et canaux     |         |Redirige vers Azure Active Directory groupe Management (identique à l’expérience).              |Utilisateur         |
 |Équipes et canaux     |         |Redirige vers la gestion de groupe DAS (identique à l’expérience).             |Utilisateur          |
+|Applications|Activer les applications externes nouvelles par défaut|Paramètres d’application à l’échelle de l’organisation|Client|
+|Applications|Autoriser les applications externes|Paramètres d’application à l’échelle de l’organisation|Client|
+|Applications|Autoriser le chargement de version test des applications externes<sup>2</sup>|[TeamsAppSetupPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps)|Utilisateur|
+|Applications|Par défaut applications<sup>3</sup>|TeamsAppPermissionPolicy|Utilisateur|
+|Applications|Applications externes<sup>3</sup>|TeamsAppPermissionPolicy|Utilisateur|
 |Les réunions et les appels     |Autoriser la planification de réunions privées         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Utilisateur          |
 |Les réunions et les appels     |Autoriser les meetup du canal Ad hoc         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Utilisateur          |
 |Les réunions et les appels     |Autoriser la planification de réunions de canal         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Utilisateur          |
@@ -68,6 +73,13 @@ Le tableau suivant identifie les sections de l’expérience des équipes qui on
 |Messagerie     |Permet aux utilisateurs de chat privé         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Utilisateur         |
 
 <sup>1</sup> déconseillée pour invité. Activation/désactivation de l’invité peuvent maintenant être géré dans le centre d’administration Microsoft Teams. Activation/désactivation des équipes pour l’entreprise, Edu étudiant, et Université Edu sera bientôt déconseillée. Il doit être gérée par l’attribution de licences dans le centre d’administration d’Office 365. Consultez la rubrique [gérer l’accès utilisateur aux équipes de Microsoft](user-access.md).
+<br><br>
+<sup>2</sup> chargement de version test est fractionnée comme suit :
+
+- Permettre à un utilisateur pour les applications sideload qui peuvent être gérés à un niveau de l’utilisateur dans [TeamsAppSetupPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps).
+- Autoriser les utilisateurs dans un client pour interagir avec des applications personnalisées qui peuvent être gérées à un niveau client dans les paramètres d’application à l’échelle de l’organisation.
+ 
+<sup>3</sup> applications par défaut et les applications externes peuvent être activées et désactivées au niveau de l’utilisateur dans TeamsAppPermissionPolicy. En outre, les applications peuvent être bloquées au niveau du client dans les paramètres d’application à l’échelle de l’organisation qui se substitue à tous les utilisateurs et les paramètres au niveau du client. 
 
 > [!NOTE]
 > Vous allez continuer à utiliser le tableau de bord de groupes dans le centre d’administration d’Office 365 pour configuration relatives aux équipes et canaux. Paramètres pour les applications restent dans la zone équipes du centre d’administration Office 365 et doit être migrés ultérieurement. 

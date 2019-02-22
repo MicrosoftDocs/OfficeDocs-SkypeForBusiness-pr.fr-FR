@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Découvrez quelles informations sont envoyées automatiquement aux utilisateurs par e-mail lorsque leurs paramètres d’audioconférence sont modifiés dans Microsoft Teams. '
-ms.openlocfilehash: 1d38963771388b1aec9bb2274e23dcfd22e9fe4b
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: 1431cd4391219e052ec2ad3702a9e4c227912a06
+ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120883"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "30178692"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-microsoft-teams"></a>Courriers électroniques envoyés aux utilisateurs lorsque leurs paramètres sont modifiés dans Microsoft Teams
 
@@ -42,9 +42,9 @@ Par défaut, quatre types de courriers électroniques seront envoyés à vos uti
 
     Voici un exemple de ce courrier électronique :
 
-     ![Vérifier la licence Skype Entreprise](media/audio-conferencing-user-enabled.png)
+     ![Vérifier la licence Skype Entreprise](media/teams-emails-sent-to-users-when-settings-change-image1.png)
 
-    Vous trouverez plus d’informations sur la gestion des licences en consultant la rubrique [Gestion des licences de module complémentaire équipes Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+    Pour en savoir plus sur les licences, voir [Gestion des licences de module complémentaire équipes Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 - **L'ID de conférence ou le numéro de téléphone de conférence par défaut d’un utilisateur est modifié.**
 
@@ -52,7 +52,7 @@ Par défaut, quatre types de courriers électroniques seront envoyés à vos uti
 
     Voici un exemple de ce courrier électronique :
 
-     ![Les informations de conférence rendez-vous ont été modifiées.](media/audio-conferencing-info-change.png)
+     ![Les informations de conférence rendez-vous ont été modifiées.](media/teams-emails-sent-to-users-when-settings-change-image2.png)
 
 - **Le code confidentiel d’audioconférence d'un utilisateur est modifié.**
 
@@ -60,7 +60,7 @@ Par défaut, quatre types de courriers électroniques seront envoyés à vos uti
     
      Voici un exemple de ce courrier électronique :
     
-     ![Le code confidentiel d’audioconférence a été modifiée.](media/audio-conferencing-pin-has-changed.png)
+     ![Le code confidentiel d’audioconférence a été modifiée.](media/teams-emails-sent-to-users-when-settings-change-image3.png)
   
 - **La licence d’un utilisateur est supprimée ou le fournisseur de service d’audioconférence Microsoft est remplacé par un autre fournisseur ou est défini sur Aucun.**
 
@@ -70,7 +70,7 @@ Par défaut, quatre types de courriers électroniques seront envoyés à vos uti
 
     Voici un exemple de ce courrier électronique :
 
-     ![La fonctionnalité Conférence rendez-vous est désactivée.](media/audio-conferencing-turned-off.png)
+     ![La fonctionnalité Conférence rendez-vous est désactivée.](media/teams-emails-sent-to-users-when-settings-change-image4.png)
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
