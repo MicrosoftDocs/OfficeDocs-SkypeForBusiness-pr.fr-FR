@@ -220,7 +220,6 @@
 ### [Qu'est-ce que les offres d'appel ?](/microsoftteams/what-are-dial-plans?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 
 ## [Système téléphonique d'Office 365](/microsoftteams/what-is-phone-system-in-office-365?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
-### [Créer une file d’attente de système téléphonique](../what-is-phone-system-in-office-365/create-a-phone-system-call-queue.md)
 ### [Obtention de téléphones pour Skype Entreprise Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md)
 #### [Déploiement de téléphones pour Skype Entreprise Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones.md)
 #### [Définition des téléphones de zone commune (CAP)](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/setting-up-common-area-phones.md)
@@ -230,11 +229,12 @@
 #### [Modifier la langue par défaut des messages d'accueil de la messagerie vocale et des courriers électroniques dans votre organisation](/microsoftteams/change-the-default-language-for-greetings-and-emails?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 #### [Langues pour la messagerie vocale accueil et des messages](/microsoftteams/languages-for-voicemail-greetings-and-messages?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 #### [Configurer la messagerie vocale du système téléphonique - Aide pour l'administrateur](/microsoftteams/set-up-phone-system-voicemail?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
-### [Configurer un standard automatique pour le système téléphonique](../what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
 ### [La configuration système téléphonique de votre organisation](/microsoftteams/setting-up-your-phone-system?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Quels sont les standards automatiques du système téléphonique?](/microsoftteams/what-are-phone-system-auto-attendants?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
-#### [Configurer un standard automatique pour le système téléphonique](../what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
+#### [Configurer un standard automatique pour le système téléphonique](/microsoftteams/set-up-a-phone-system-auto-attendant?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 #### [Exemple de petite entreprise - configurer un standard automatique](../what-is-phone-system-in-office-365/tutorial-org-aa.yml)
+### [Créer une file d’attente de système téléphonique](/microsoftteams/create-a-phone-system-call-queue?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
+
 
 
 ## [Configurer votre réseau pour la diffusion de réunion Skype](../set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md)

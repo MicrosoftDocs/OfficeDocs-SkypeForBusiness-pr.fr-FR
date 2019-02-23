@@ -16,18 +16,21 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: La gestion des comptes de ressource dans Microsoft Teams
-ms.openlocfilehash: 685361c829a20a216e240e9f502e6ab24dcb86c5
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: 60fcfe34c665805eac90b5e5be862786e9e68de5
+ms.sourcegitcommit: e378b8652be6319755a04eb820761364c7faa916
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120939"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "30210779"
 ---
-# <a name="manage-resource-accounts-in-teams"></a>Gérer les comptes de ressources dans les équipes 
+# <a name="manage-resource-accounts-in-microsoft-teams"></a>Gérer les comptes de ressources dans Microsoft Teams
 
 Un compte de ressource est également appelée un objet utilisateur désactivé dans Azure Active Directory et peut être utilisé pour représenter les ressources en général. Dans Exchange, il peut être utilisé pour représenter des salles de conférence, par exemple et les autoriser à un numéro de téléphone. Un compte de ressource peut être hébergé dans Microsoft 365 ou sur site à l’aide de Skype pour Business server, et ces comptes sont créés à l’aide des commandes Powershell.
 
-Système d’exploitation Microsoft Teams Skype pour Business en ligne, chaque file d’attente des appels ou auto attendant est nécessaire pour ont un compte de ressource. Si un compte de ressource doit être un numéro de téléphone affecté dépendent de l’utilisation prévue de la file d’attente d’appel associé ou le standard automatique. Consultez les articles sur les files d’attente de l’appel et qui sont liées au bas de cet article avant d’affecter un numéro de téléphone à un compte de ressource de standards automatiques.
+Dans Microsoft Teams ou Skype pour Business en ligne, chaque file d’attente des appels ou auto attendant est nécessaire pour ont un compte de ressource. Si un compte de ressource doit être un numéro de téléphone affecté dépendent de l’utilisation prévue de la file d’attente d’appel associé ou le standard automatique. Consultez les articles sur les files d’attente de l’appel et qui sont liées au bas de cet article avant d’affecter un numéro de téléphone à un compte de ressource de standards automatiques.
+
+> [!NOTE]
+> Cet article s’applique à Microsoft Teams et Skype pour Business Online.
 
 ## <a name="prerequisites-to-assign-a-phone-number-to-a-resource-account"></a>Conditions préalables pour affecter un numéro de téléphone à un compte de ressource
 

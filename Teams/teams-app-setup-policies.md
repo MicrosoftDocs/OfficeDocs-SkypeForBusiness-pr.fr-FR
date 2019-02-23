@@ -1,5 +1,5 @@
 ---
-title: Gérer les stratégies d’installation des applications dans Microsoft Teams
+title: Gérer les stratégies de mise en application dans Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -15,14 +15,14 @@ localization_priority: Normal
 search.appverid: MET150
 description: Découvrez les stratégies d’installation des applications dans Microsoft Teams et comment les utiliser pour les applications de code confidentiel pour personnaliser les équipes pour les utilisateurs de votre organisation.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: fe6281015072858c959a65a6cd17ed157db0afa9
-ms.sourcegitcommit: f5f1437ec72f67f6804ca8d785f76059d0979e39
+ms.openlocfilehash: 4e6ad41dac9021079bffa80284809733c39f3cc9
+ms.sourcegitcommit: ad126165b6440b98e550ab48e6b3491aeba9402b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/11/2019
-ms.locfileid: "29894274"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "30205762"
 ---
-# <a name="manage-app-setup-policies-in-microsoft-teams"></a>Gérer les stratégies d’installation des applications dans Microsoft Teams
+# <a name="manage-app-setup-policies-in-microsoft-teams"></a>Gérer les stratégies de mise en application dans Microsoft Teams
 
 > [!INCLUDE [Preview customer token](includes/preview-feature.md)]
 
@@ -108,7 +108,7 @@ Selon le nombre de membres dans le groupe, cette commande peut prendre plusieurs
 
 #### <a name="what-built-in-app-setup-policies-are-included-in-the-microsoft-teams-admin-center"></a>Les stratégies de paramètres d’application intégrée sont inclus dans le centre d’administration Microsoft Teams ?
 
-- **Global (à l’échelle de l’organisation par défaut)**: cette stratégie par défaut s’applique à tous les utilisateurs de votre organisation, sauf si vous attribuez une autre stratégie. Modifier la stratégie globale pour les applications de code confidentiel qui sont importantes pour vos utilisateurs. 
+- **Global (à l’échelle de l’organisation par défaut)**: cette stratégie par défaut s’applique à tous les utilisateurs de votre organisation, sauf si vous attribuez une autre stratégie. Modifier la stratégie globale pour les applications de code confidentiel qui sont importantes pour vos utilisateurs.
 - **FirstLineWorker**: cette stratégie est destinée aux travailleurs firstline. Vous pouvez l’affecter à des travailleurs firstline dans votre organisation. Il est important de savoir que telles que des stratégies personnalisées que vous créez, vous devez attribuer la stratégie aux utilisateurs pour les paramètres actif. Pour plus d’informations, consultez la section [affecter une stratégie du programme d’installation d’application personnalisée aux utilisateurs](#assign-a-custom-app-setup-policy-to-users) de cet article.
 
 #### <a name="why-cant-i-find-an-app-in-the-add-pinned-apps-pane"></a>Pourquoi ne puis-je pas trouver une application dans le volet d’applications épinglé ajouter ?
@@ -142,9 +142,9 @@ Pour afficher toutes les applications qui sont mis en attente pour un utilisateu
 
 #### <a name="what-do-i-need-to-know-about-the-teams-mobile-experience"></a>Que dois-je savoir à propos de l’expérience mobile équipes ?
 
-Les clients mobiles équipes (iOS et Android) ne prend en charge les applications personnelles. Selon les applications de la stratégie, les applications épinglées sur le client de bureau équipes n’apparaîtront dans les clients mobiles équipes. Robots personnels il continuera d’apparaître dans la conversation sur les clients mobiles. 
+Les clients mobiles équipes (iOS et Android) actuellement ne reconnaissent pas les applications personnelles avec onglets statiques. Selon les applications de la stratégie, les applications épinglées sur le client de bureau équipes n’apparaîtront dans les clients mobiles équipes. Robots personnels il continuera d’apparaître dans la conversation sur les clients mobiles.
 
-Avec les clients mobiles équipes, les utilisateurs verront principaux équipes applications telles que les activités, la conversation et les équipes, et vous pouvez ajouter des applications internes de Microsoft, tels que des équipes et planificateur.
+Avec les clients mobiles équipes, les utilisateurs verront principaux équipes applications telles que les activités, la conversation et les équipes, et vous pouvez ajouter des applications internes de Microsoft, tels que des équipes.
 
 #### <a name="can-users-change-the-order-of-apps-pinned-through-a-policy"></a>Pouvant utilisateurs modifier l’ordre des applications épinglés via une stratégie ?
 

@@ -16,12 +16,12 @@ ms.custom:
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e892e5c615fce6ed8c65fdfaeadbacba88e1ec5c
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 1a522a8c4eb3d37159a5b377db5d6e19442a202a
+ms.sourcegitcommit: e378b8652be6319755a04eb820761364c7faa916
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29753749"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "30210584"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Utiliser le complément Réunion Teams dans Outlook
 =======================================
@@ -65,6 +65,7 @@ Le client Teams installe le complément correct en déterminant si les utilisate
 Certaines fonctionnalités du complément Réunion Teams sont encore en cours de création. Tenez compte des points suivants :
 - Certaines fonctionnalités de réunion en ligne, comme l'enregistrement, les sondages et l'utilisation du tableau blanc ne sont pas encore disponibles.
 - Des options de réunion ne sont pas disponibles pour le moment.
+- Actuellement, vous pouvez uniquement inviter des personnes de votre entreprise, car les utilisateurs externes ne peuvent pas encore participer aux réunions.
 - Le complément concerne les réunions planifiées avec des participants spécifiques, pas les réunions dans un canal. Les réunions de canal doivent être planifiées au sein de Teams. Actuellement, le complément Réunion Teams dans Outlook est disponible uniquement pour les utilisateurs Windows, mais il sera pris en charge sur Mac prochainement.
 - Le complément ne fonctionnera pas si un proxy d'authentification se trouve dans le chemin d'accès réseau de l'ordinateur de l'utilisateur et des services Teams.
 - Le complément est déployée incrémentielle et peuvent ne pas être disponible pour votre organisation encore.

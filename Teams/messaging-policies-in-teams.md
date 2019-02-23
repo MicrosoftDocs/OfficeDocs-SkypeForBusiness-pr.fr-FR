@@ -16,33 +16,39 @@ search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: Découvrez les stratégies de messagerie et comment ils peuvent être utilisés pour contrôler la conversation de messagerie dans les équipes.
-ms.openlocfilehash: 3b360be09f8e35d560b13b40ef25a72a060e6033
-ms.sourcegitcommit: 4e6b39e7421ea6eb03c524bb6b8e597c1966bad1
+ms.openlocfilehash: f1dd0fdae137e0a2a5f0baeb5b7bed08067833bf
+ms.sourcegitcommit: ad126165b6440b98e550ab48e6b3491aeba9402b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "30056586"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "30205754"
 ---
 # <a name="what-are-messaging-policies-in-teams"></a>Que sont les stratégies de messagerie dans Teams ?
 
 Les stratégies de messagerie sont utilisés pour contrôler les conversation et le canal des fonctionnalités de messagerie sont disponibles pour les utilisateurs de Microsoft Teams. Vous pouvez utiliser la stratégie par défaut qui est créée ou créer une ou plusieurs stratégies de messagerie personnalisés des personnes de votre organisation. Après avoir créé une stratégie, vous allez l’attribuer un utilisateur ou groupes d’utilisateurs dans votre organisation.
 
-Les stratégies peuvent être facilement gérés dans le centre d’administration équipes (http://admin.teams.microsoft.com) en vous connectant avec les informations d’identification d’administrateur et en cliquant sur les **Stratégies de messagerie** dans le volet de navigation gauche. Pour modifier la stratégie par défaut existant pour votre organisation, sélectionnez la ligne **Global (à l’échelle de l’organisation par défaut)** , cliquez sur **Modifier**. Pour créer une nouvelle stratégie de messagerie, cliquez sur **nouvelle stratégie**.
+Les stratégies peuvent être facilement gérés dans le centre d’administration Microsoft Teams (http://admin.teams.microsoft.com) en vous connectant avec les informations d’identification d’administrateur et le choix des **Stratégies de messagerie** dans le volet de navigation de gauche. 
 
-![Stratégies de messagerie dans les équipes](media/messaging-policies.png)
+![Stratégies de messagerie dans les équipes](media/messaging-policies-image1.png)
 
-Les paramètres disponibles pour la stratégie sont décrits ci-dessous : 
+Pour modifier la stratégie de messagerie par défaut existante pour votre organisation, cliquez sur la ligne **Global (à l’échelle de l’organisation par défaut)** , puis apportez vos modifications. Pour créer une nouvelle stratégie de messagerie personnalisée, cliquez sur **nouvelle stratégie** et sélectionnez vos paramètres. Lorsque vous avez terminé, cliquez sur **Enregistrer** .
 
-- **Les propriétaires peuvent supprimer des messages envoyés**  Utilisez ce paramètre pour permettre aux propriétaires de supprimer des messages que les utilisateurs envoient dans la conversation.
-- **Les utilisateurs peuvent supprimer des messages envoyés** Utilisez ce paramètre pour permettre aux utilisateurs de supprimer les messages qu’ils envoient dans la conversation.
-- **Les utilisateurs peuvent modifier les messages envoyés** Utilisez ce paramètre pour permettre aux utilisateurs de modifier les messages qu’ils envoient dans la conversation.
+![Paramètres de stratégie de messagerie dans les équipes](media/messaging-policies-image2.png)
+
+<!--- Add zone marker here--->
+
+Pour modifier la stratégie globale de messagerie ou de créer une nouvelle stratégie personnalisée, utilisez les paramètres suivants :
+
+- **Les propriétaires peuvent supprimer des messages envoyés**  Utilisez ce paramètre pour permettre aux propriétaires de supprimer des messages que les utilisateurs envoyés dans la conversation.
+- **Les utilisateurs peuvent supprimer des messages envoyés** Utilisez ce paramètre pour permettre aux utilisateurs de supprimer des messages qui leur a envoyé dans la conversation.
+- **Les utilisateurs peuvent modifier les messages envoyés** Utilisez ce paramètre pour permettre aux utilisateurs de modifier les messages qu’ils envoyés dans la conversation.
 - **Confirmations de lecture** Utilisez ce paramètre pour spécifier si des confirmations de lecture utilisateur contrôlé, activé pour tout le monde ou désactivé.
 <a name="bkchat"> </a>
 
 - **Conversation**  Activez ce paramètre si vous souhaitez que les utilisateurs de votre organisation à être en mesure d’utiliser l’application équipes pour converser avec d’autres personnes.
 - **Utiliser Giphys dans des conversations**  Si vous activez ce, les utilisateurs peuvent inclure Giphys dans des conversations avec d’autres personnes. Giphy est une base de données en ligne et le moteur de recherche qui permet aux utilisateurs de rechercher et partager les fichiers GIF animés. Chaque Giphy est affecté à une classification de contenu.
 - **Évaluation du contenu Giphy** 
-    - **Aucune restriction** Cela signifie que vos utilisateurs seront en mesure d’insérer tous les Giphys à des conversations, quelle que soit la classification du contenu.
+    - **Aucune restriction** Cela signifie que vos utilisateurs seront en mesure d’insérer n’importe quel Giphy à des conversations, quelle que soit la classification du contenu.
     - **Modéré**  Cela signifie que vos utilisateurs seront en mesure d’insérer Giphys dans les salles de conversation, mais seront limitées moyennement du contenu pour adultes.
     - **Strict**  Cela signifie que vos utilisateurs seront en mesure d’insérer Giphys dans les salles de conversation, mais seront limitées strictement du contenu pour adultes.
 - **Utilisez Memes dans des conversations** Si vous activez ce, les utilisateurs peuvent inclure les Memes conversation avec d’autres personnes. 
@@ -50,7 +56,9 @@ Les paramètres disponibles pour la stratégie sont décrits ci-dessous :
 - **Autoriser les URL aperçus** Utilisez ce paramètre pour activer automatique URL aperçu activé ou désactivé dans les messages.
 - **Autoriser les utilisateurs à convertir des messages** Activez ce paramètre pour permettre aux utilisateurs de traduire automatiquement des messages d’équipes dans la langue spécifiée par leurs paramètres personnels de langue pour Office 365.
 
-Si vous avez créé une stratégie de messagerie personnalisée, il ne sera active pour un utilisateur si cette stratégie est affectée à un utilisateur.  Pour affecter une stratégie personnalisée à un utilisateur dans le centre d’administration d’équipes, cliquez sur **utilisateurs** dans le volet de navigation gauche, sélectionnez l’utilisateur que vous voulez attribuer la stratégie à, puis cliquez sur **Modifier** sous **Stratégies affectées**.
+Si vous avez créé une stratégie de messagerie personnalisée, il ne sera active pour un utilisateur si cette stratégie est affectée à un utilisateur. Pour affecter une stratégie personnalisée à un utilisateur dans le centre d’administration Microsoft Teams, choisissez **utilisateurs** dans le volet de navigation gauche, puis sélectionnez l’utilisateur que vous voulez attribuer la stratégie. Sur la page de l’utilisateur, cliquez sur **Modifier** en regard de **Stratégies attribuées**.
+
+<!--- End zone marker here--->
 
 ### <a name="related-topics"></a>Rubriques connexes
 [Stratégies de réunion dans Teams](meeting-policies-in-teams.md)
