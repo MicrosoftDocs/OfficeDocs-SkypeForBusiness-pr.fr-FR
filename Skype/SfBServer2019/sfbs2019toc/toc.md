@@ -98,6 +98,12 @@
 #### Messagerie vocale dans le nuage
 #####[Planification de la messagerie vocale dans le nuage](../../sfbhybrid/hybrid/plan-cloud-voicemail.md)
 ##### [Configurer la messagerie vocale dans le nuage](../../sfbhybrid/hybrid/configure-cloud-voicemail.md)
+#### Standards automatiques de nuage
+##### [Planifier les standards automatiques de nuage](../../SfbHybrid/hybrid/plan-cloud-auto-attendant.md)
+##### [Configurer des standards automatiques de nuage](../../SfbHybrid/hybrid/configure-cloud-auto-attendant.md)
+#### Files d’attente des appels dans le nuage
+##### [Planifier les files d’attente des appels dans le nuage](../../SfbHybrid/hybrid/plan-call-queue.md)
+##### [Configurer les files d’attente des appels dans le nuage](../../SfbHybrid/hybrid/configure-call-queue.md)
 ### [Plan to integrate Skype for Business and Exchange](../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json) 
 #### [Messagerie unifiée](../../SfbServer/plan-your-deployment/integrate-with-exchange/unified-messaging.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ##### [Vue d’ensemble du déploiement](../../SfbServer/plan-your-deployment/integrate-with-exchange/deployment-overview.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json) 
