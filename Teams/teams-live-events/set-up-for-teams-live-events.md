@@ -14,12 +14,12 @@ description: Découvrez les étapes pour configurer live pour les événements d
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 078374652325d177e30db1d320f22e5d814ac548
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: aaa22e0b28d883c805eaddc1e01d3cf7d2cda450
+ms.sourcegitcommit: baca91b0e022a1d2b5a522ef749a97463d61f560
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754783"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "30302704"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Configurer des événements en direct dans Microsoft Teams
 
@@ -40,6 +40,7 @@ Les stratégies sont utilisées pour contrôler les personnes de votre organisat
 > Les utilisateurs de votre organisation reçoivent la stratégie globale, sauf si vous créez et attribuez une stratégie personnalisée. Par défaut dans la stratégie globale, planification d’événements live est activée pour les utilisateurs des équipes, transcription est désactivée, tout le monde dans l’organisation peut participer à des événements en direct, et le paramètre d’enregistrement est défini à toujours enregistrer. 
 
 ### <a name="create-or-edit-a-live-events-policy"></a>Créer ou modifier une stratégie d’événements en direct
+<a name="bkcreatepolicy"> </a>
 
 **![les équipes-logo-30x30.png](../media/teams-logo-30x30.png) à l’aide du centre d’administration Microsoft Teams**
 

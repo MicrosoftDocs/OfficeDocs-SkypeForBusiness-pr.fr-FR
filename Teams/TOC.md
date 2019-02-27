@@ -682,6 +682,7 @@
 ### [Gouvernance Microsoft Education FAQ pour les administrateurs](plan-teams-governance-edu.md)
 
 ## Équipes pour les travailleurs firstline
+### [Microsoft StaffHub à retirer](microsoft-staffhub-to-be-retired.md)
 ### [Gérer l’application des équipes de votre organisation dans les équipes](manage-the-shifts-app-for-your-organization-in-teams.md)
 ### [Prise en main des modèles Équipes de vente au détail](get-started-with-retail-teams-templates.md)
 

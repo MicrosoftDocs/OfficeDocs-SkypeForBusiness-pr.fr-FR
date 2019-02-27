@@ -15,12 +15,12 @@ ms.custom:
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bb5310823db4e0a5fa441eca885599423f240dcc
-ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
+ms.openlocfilehash: b9da36d938a5b6e55920826b10f1ac2c1f528fe3
+ms.sourcegitcommit: c2e4e9b59183440d6aa903832d6d6a1769ccf57d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "30178525"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30274607"
 ---
 # <a name="manage-microsoft-teams-features-in-your-office-365-organization"></a>Gérer les fonctionnalités de Microsoft Teams dans votre organisation Office 365
 
@@ -44,13 +44,13 @@ Apps are tabs, connectors, bots, or any combination of these three, provided by 
 
 These apps, such as Planner, Praise, and Weather, are provided by Teams. To turn on an app, select the check box for that app. To turn off an app, clear the check box. 
 
-![Capture d’écran de la section Applications par défaut.](media/teams-tenant-wide-settings-default-apps.png "Capture d’écran de la section Applications par défaut")
+![Capture d’écran de la section Applications par défaut.](media/teams-manage-features-in-office365-image1.png "Capture d’écran de la section Applications par défaut")
 
 #### <a name="external-apps"></a>Applications externes
 
 These apps are provided by third parties. You can configure the following settings for external apps.
 
-![Capture d’écran de la section Applications par défaut.](media/teams-tenant-wide-settings-external-apps-settings.png "Capture d’écran de la section Applications par défaut, montrant les paramètres que vous pouvez activer et désactiver")
+![Capture d’écran de la section Applications par défaut.](media/teams-manage-features-in-office365-image2.png "Capture d’écran de la section Applications par défaut, montrant les paramètres que vous pouvez activer et désactiver")
 
 - **Autoriser les applications externes dans Microsoft Teams :** lorsque ce paramètre est activé, les utilisateurs peuvent ajouter les applications externes qui sont disponibles pour votre organisation. 
 

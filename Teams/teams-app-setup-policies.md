@@ -15,12 +15,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Découvrez les stratégies d’installation des applications dans Microsoft Teams et comment les utiliser pour les applications de code confidentiel pour personnaliser les équipes pour les utilisateurs de votre organisation.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 4e6ad41dac9021079bffa80284809733c39f3cc9
-ms.sourcegitcommit: ad126165b6440b98e550ab48e6b3491aeba9402b
+ms.openlocfilehash: 3e46f5ea50d3e9cdb1717838beec454cca05ba30
+ms.sourcegitcommit: baca91b0e022a1d2b5a522ef749a97463d61f560
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "30205762"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "30302688"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Gérer les stratégies de mise en application dans Microsoft Teams
 
@@ -47,7 +47,7 @@ Vous pouvez modifier les paramètres de la stratégie globale pour inclure les a
 
 Vous pouvez utiliser le centre d’administration de Microsoft Teams ou de Windows PowerShell pour créer une stratégie personnalisée.
 
-1. Dans la navigation de gauche du centre d’administration Microsoft Teams, accédez à **l’application des équipes** > **stratégies du programme d’installation des applications**.
+1. Dans la navigation de gauche du centre d’administration Microsoft Teams, accédez aux **applications équipes** > **stratégies du programme d’installation des applications**.
 2. Sélectionnez **nouvelle stratégie**.
 3. Entrez un nom descriptif pour la stratégie, puis cliquez sur **Ajouter les applications**.
 4. Dans le volet **Ajouter épinglés des applications** , recherchez les applications que vous souhaitez ajouter, puis cliquez sur **Ajouter**.  Pour afficher une liste de toutes les applications, sélectionnez **application équipes de banque**. Lorsque vous avez choisi votre liste des applications, cliquez sur **Ajouter**.
@@ -62,7 +62,7 @@ Vous pouvez utiliser le centre d’administration de Microsoft Teams ou de Windo
 
 Vous pouvez utiliser le centre d’administration de Microsoft Teams ou de Windows PowerShell pour modifier une stratégie, notamment la stratégie globale de (valeur par défaut à l’échelle de l’organisation) et les stratégies personnalisées que vous créez. 
 
-1. Dans la navigation de gauche du centre d’administration Microsoft Teams, accédez à **l’application des équipes** > **stratégies du programme d’installation des applications**.
+1. Dans la navigation de gauche du centre d’administration Microsoft Teams, accédez aux **applications équipes** > **stratégies du programme d’installation des applications**.
 2. Sélectionnez la stratégie que vous souhaitez modifier. 
 3. À partir de là, apportez les modifications souhaitées. Vous pouvez ajouter, supprimer et modifier l’ordre des applications.
 4. Cliquez sur **Enregistrer**. 
@@ -152,7 +152,7 @@ Actuellement, les utilisateurs peuvent modifier l’ordre de leurs applications 
 
 ### <a name="custom-teams-apps"></a>Applications personnalisées d’équipes
 
-#### <a name="my-organization-built-a-custom-teams-app-and-published-it-through-appsource-but-the-app-icon-isnt-displayed-as-expected-when-the-app-is-pinned-to-the-app-bar-in-teams-how-do-i-fix-it"></a>Mon organisation créé une application équipes personnalisée et publié par le biais de AppSource, mais l’icône d’application n’est pas affichée comme prévu lors de l’application est épinglée à la barre d’application dans les équipes. Comment dois-je faire ? 
+#### <a name="my-organization-built-a-custom-teams-app-and-published-it-either-to-appsource-or-the-tenant-app-catalog-but-the-app-icon-isnt-displayed-as-expected-when-the-app-is-pinned-to-the-app-bar-in-teams-how-do-i-fix-it"></a>Mon organisation créé une application équipes personnalisée et publié, AppSource ou le catalogue d’applications client, mais l’icône d’application n’est pas affichée comme prévu lors de l’application est épinglée à la barre d’application dans les équipes. Comment dois-je faire ? 
 
 Assurez-vous que vous suivez les instructions du logo avant de soumettre l’application. Pour plus d’informations, voir [liste de vérification pour l’envoi du tableau de bord vendeur](https://docs.microsoft.com/microsoftteams/platform/publishing/office-store-checklist). 
 
