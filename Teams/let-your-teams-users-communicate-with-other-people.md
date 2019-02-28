@@ -14,12 +14,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Découvrez comment configurer des équipes pour permettre aux utilisateurs de communiquer avec les utilisateurs d’une autre organisation.
-ms.openlocfilehash: 39fa6de27b6ff4f662955ac3cf36d7826379d753
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 664c459f85d3a6657c0e556d19d92b7b278f0aee
+ms.sourcegitcommit: ea1085228894ae448f575f9e13a9f25a1f47e636
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754727"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "30312275"
 ---
 # <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>Laissez votre conversation d’utilisateurs équipes et communiquer avec les utilisateurs d’une autre organisation d’équipes
 
@@ -32,6 +32,9 @@ Suivez la procédure décrite dans cet article lorsque :
 - Vous souhaitez quiconque dans le monde qui utilise des équipes pour être en mesure de rechercher et contacter à l’aide de votre adresse de messagerie. Si vous et un autre utilisateur Activer l’accès externe et autoriser les domaines de l’autre, cela fonctionnera. Si elle ne fonctionne pas, l’autre utilisateur devez vous assurer que son ou sa configuration n’est pas le blocage de votre domaine.
 
 Cela permettra aux utilisateurs de rechercher, appeler et vous envoyer des messages instantanés, mais aussi définir des réunions avec vous. Si vous souhaitez que les utilisateurs externes d’accéder aux équipes et les canaux, accès invité peut être une meilleure façon pour accéder. Suivez les étapes décrites dans cet article et les Assurez-vous pour [Activer l’accès invité](set-up-guests.md) afin que les utilisateurs peuvent communiquer.
+
+> [!IMPORTANT]
+> Afin de vous fédérer actuellement dans le client Microsoft Teams à un utilisateur externe à l’extérieur de votre organisation qui n’est pas invité de votre DAS/client, vous devez être correctement configuré pour l’environnement hybride et déplacée vers Skype pour Business Online. 25/2/2019, équipes n’encore prennent en charge native fédération sans que l’utilisateur du profil SIP en cours hébergé dans Skype pour Business Online. Pour plus d’informations sur la configuration de configurer votre compte pour l’environnement hybride et ensuite vers les équipes, consultez [Mise à niveau de Skype pour un déploiement hybride Business aux équipes](https://docs.microsoft.com/en-us/microsoftteams/upgrade-to-teams-execute-skypeforbusinesshybrid).
 
 ## <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>Laissez votre conversation d’utilisateurs équipes et communiquer avec les utilisateurs d’une autre organisation d’équipes
 
