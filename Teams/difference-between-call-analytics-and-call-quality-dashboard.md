@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Découvrez les Analytique d’appel et appel du tableau de bord qualité quand et comment les utiliser pour analyser et résoudre les problèmes de qualité des appels.
-ms.openlocfilehash: b3a65c4fa6a3dfe8de6b4ef70cd7657661cf4dc9
-ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
+ms.openlocfilehash: 17a2b72e28f505e0653cc11ecf765403d7eaca03
+ms.sourcegitcommit: a4f2d3440399f0a17fb8f6d364cfd2dc4b0bf8db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "30178668"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30342172"
 ---
 # <a name="call-analytics-and-call-quality-dashboard"></a>Tableau de bord Analyse des appels et Qualité des appels
 
@@ -38,11 +38,7 @@ Appel Analytique CQD s’exécuter en parallèle et peuvent être utilisés ind�
 
 ## <a name="whats-call-analytics-and-when-should-i-use-it"></a>What ' s Analytique appeler et quand dois-je utiliser ?
 
-**Appel Analytique est désormais disponible dans le centre d’administration Microsoft Teams.** Pour afficher toutes les informations d’appel et les données d’un utilisateur, utilisez l’onglet **Historique des appels** . Vous pouvez procéder par la recherche sur la page de profil utilisateur par une recherche de l’utilisateur du tableau de bord ou la recherche de l’utilisateur des **utilisateurs** dans le volet de navigation gauche.
-
-> [!IMPORTANT]
-> Autorisations de l’agent de support technique et le téléchargement de topologie réseau seront disponibles dans le nouveau portail d’administration dans les mois à venir. En attendant, vous pouvez continuer à utiliser https://adminportal.services.skypeforbusiness.com pour l’accès de support technique de niveau 1 et niveau 2.
-  
+**Appel Analytique est désormais disponible dans le [Centre d’administration équipes Microsoft](https://admin.teams.microsoft.com).** Pour afficher toutes les informations d’appel et les données d’un utilisateur, utilisez l’onglet **Historique des appels** . Vous pouvez procéder par la recherche sur la page de profil utilisateur par une recherche de l’utilisateur du tableau de bord ou la recherche de l’utilisateur des **utilisateurs** dans le volet de navigation gauche.
 
 Appel Analytique affiche des informations détaillées sur les périphériques, les réseaux et connectivité liés aux appels spécifiques et des réunions pour chaque utilisateur de Microsoft Teams Skype pour un compte professionnel. Pourquoi cet utilisateur ont un appel médiocre après‑midi ? À l’aide d’Analytique d’appel, un administrateur Office 365 ou l’agent de support technique formé peut examiner le périphérique, réseau, connectivité et autres facteurs liés à son appel pour résoudre les problèmes de qualité et connexion appel dans Microsoft Teams et Skype pour les entreprises.
 
@@ -61,7 +57,7 @@ Si vous souhaitez que non-Admin, tels que les agents de support technique d’un
 - **Prend en charge les agents de support technique avec communications ingénieur autorisations**: Agents voir toutes les données disponibles dans Analytique appeler et résoudre les problèmes d’appels et les réunions. Ils ont un accès total à appeler des journaux et des informations sur le client.
 
 > [!NOTE]
-> Le rôle de spécialiste de prise en charge des communications est équivalent au support de niveau 1 et le rôle ingénieur de prise en charge des communications est équivalent au support de niveau 2.
+> Le rôle de spécialiste de prise en charge des communications est équivalent au rôle de prise en charge de niveau 1 à partir du portail de l’aperçu et le rôle ingénieur de prise en charge des communications est équivalent au rôle de prise en charge de niveau 2 à partir du portail de l’aperçu.
 
 Pour plus d’informations sur les communications spécialiste prise en charge et les communications prennent en charge les rôles ingénieur, voir [utiliser les équipes Microsoft des rôles d’administration pour gérer les équipes](using-admin-roles.md).
 

@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 11e08837aa7f9eeb4b74d8f8d98e05dc33d2ea49
-ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
+ms.openlocfilehash: 028ce0fe9e1fd30f96b157cd8fd82acd8f5d1268
+ms.sourcegitcommit: a4f2d3440399f0a17fb8f6d364cfd2dc4b0bf8db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29743004"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30342196"
 ---
 ![Étapes du voyage mise à niveau, en insistant sur la phase de définition de projet] (media/upgrade-banner-project-definition.png "Étapes du voyage mise à niveau, en insistant sur la phase de définition de projet")
 
@@ -56,7 +56,7 @@ Dans ce mode de coexistence, appelé **(îles)**, chacune des applications clien
 
 Dans ce mode de coexistence, les utilisateurs restent dans Skype pour les entreprises — pas les équipes — pour la conversation, réunion et appel des fonctions et qu’ils n’utilisent pas les équipes pour les équipes et les canaux. Ce mode est disponible. Toutefois, dans l’implémentation actuelle modalités d’équipes ne sont pas désactivées pour l’utilisateur automatiquement. Cette fonctionnalité est à venir. En attendant, administrateurs peuvent supprimer la licence équipes pour tous les utilisateurs qui ont besoin de rester dans Skype pour les entreprises en tant que leur application communications uniquement.
 
-### <a name="teams-only-this-mode-started-rolling-out-summer-2018-and-will-be-completed-to-all-tenants-in-calendar-year-2019"></a>Les équipes uniquement (ce mode démarrer le déploiement vers l’arrière été 2018 et sera effectuée sur tous les clients de l’année civile 2019)
+### <a name="teams-only"></a>Équipes uniquement
 
 Un utilisateur **uniquement les équipes** peut uniquement utiliser le Skype pour client d’entreprise pour joindre Skype existant pour les réunions professionnelles ou des réunions sur Skype pour les entreprises qui ont été organisées par non mis à niveau des utilisateurs ou des parties externes. Un utilisateur mis à niveau peut continuer à communiquer avec d’autres utilisateurs dans l’organisation qui sont toujours à l’aide de Skype pour les entreprises en utilisant les fonctionnalités d’interopérabilité entre les équipes et Skype pour les entreprises ; Toutefois, un utilisateur mis à niveau ne peut pas démarrer un Skype pour conversation Business, appel ou une réunion.
 

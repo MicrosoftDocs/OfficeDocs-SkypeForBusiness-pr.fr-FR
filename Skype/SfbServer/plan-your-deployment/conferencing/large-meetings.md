@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 21507e18-bd79-4019-9c3a-0867fccaa3b4
 description: 'Résumé : Lisez cette rubrique pour en savoir plus sur les meilleures pratiques pour l’implémentation et la gestion des grandes réunions dans Skype pour Business Server.'
-ms.openlocfilehash: 0d78a679414ec9287837e494d94bdc708879f863
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: d77a3b3fa5f989f36fd9097499de0fd75991b5e4
+ms.sourcegitcommit: a4f2d3440399f0a17fb8f6d364cfd2dc4b0bf8db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20970513"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30342211"
 ---
 # <a name="plan-for-large-meetings-in-skype-for-business-server"></a>Planifier des réunions de grande taille dans Skype pour Business Server
  
@@ -26,7 +26,7 @@ La taille des réunions Skype pour Business Server peut prendre en charge dépen
 > Cette rubrique se concentre sur les meilleures pratiques pour les grandes réunions pris en charge par Skype pour Business Server. Si votre organisation requiert des fonctionnalités de réunion plus grandes, envisagez d’implémenter un environnement hybride qui tire parti de la diffusion de réunion Skype, un nouveau service en ligne qui fait partie d’Office 365. 
 
 > [!NOTE]
-> La diffusion de réunion Skype permet aux utilisateurs d’héberger et de diffuser des réunions à des réunions en ligne comptant jusqu’à 10 000 participants. L’utilisation de la diffusion de réunion Skype exige que Skype Entreprise Server soit déjà configuré dans une configuration hybride avec un client Office 365 de production. Un client en ligne doit être installé au préalable pour tous les utilisateurs. Si vous souhaitez déployer une solution hybride qui peuvent tirer parti de la diffusion de réunion Skype, voir [What ' s une diffusion de réunion Skype ?](https://go.microsoft.com/fwlink/?LinkId=617071) et [configurer votre déploiement sur site de diffusion de réunion Skype](../../deploy/configure-skype-meeting-broadcast.md). 
+> La diffusion de réunion Skype permet aux utilisateurs d’héberger et de diffuser des réunions à des réunions en ligne comptant jusqu’à 10 000 participants. L’utilisation de la diffusion de réunion Skype exige que Skype Entreprise Server soit déjà configuré dans une configuration hybride avec un client Office 365 de production. Un client en ligne doit être installé au préalable pour tous les utilisateurs. Si vous souhaitez déployer une solution hybride pour tirer parti de la diffusion de réunion Skype, reportez-vous à l’article [Qu’est-ce qu’une diffusion de réunion Skype ?](https://go.microsoft.com/fwlink/?LinkId=617071) et à la rubrique [Configure your on-premises deployment for Skype Meeting Broadcast](../../deploy/configure-skype-meeting-broadcast.md). 
   
 Les grandes réunions possèdent généralement les caractéristiques suivantes :
   
@@ -101,6 +101,7 @@ Le modérateur réunion pouvez utiliser toutes les fonctionnalités de présenta
 - Activation et désactivation du micro du public ou des utilisateurs individuels
     
 - Gestion du contenu de réunion, dont le téléchargement de contenu, la suppression du contenu et le basculement du contenu actif
+
     
 ### <a name="maintain-a-separate-calendar"></a>Gestion d’un calendrier distinct
 
@@ -186,6 +187,8 @@ Créez une stratégie de conférence spécifique aux grandes réunions, puis aff
     
 > [!NOTE]
 > Prise en charge des grandes réunions dans Skype pour Business Server requiert que le paramètre **AllowLargeMeetings** est définie sur true. Lorsque ce paramètre est défini sur true, le Skype pour une expérience sera optimisé pour les très grandes réunions lorsque les utilisateurs de participer à la réunion. Plus précisément, dans une grande réunion Skype pour les entreprises n’affiche pas l’initial ou la mise à jour de la liste des participants totale de la réunion, qui est un goulot d’étranglement de performances pour le client et Skype pour Business Server. Au lieu de cela, Skype pour les entreprises n’affiche plus d’informations sur l’utilisateur et la liste des présentateurs de la réunion. Skype pour les entreprises affiche toujours le nombre total de participants disponibles dans les réunions de grande taille.
+
+
   
 À l’exception du paramètre **Taille maximale de la réunion**, tous les autres paramètres de stratégie de conférence spécifiés ici sont nécessaires pour désactiver les fonctions de conférence qui ne sont pas nécessaires pour les grandes réunions.
   

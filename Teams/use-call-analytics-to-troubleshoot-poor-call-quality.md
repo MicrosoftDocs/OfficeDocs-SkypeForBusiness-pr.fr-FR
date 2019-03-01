@@ -1,5 +1,5 @@
 ---
-title: Utiliser l'analyse des appels pour résoudre les problèmes liés à la qualité médiocre des appels
+title: Utiliser l’Analyse des appels pour résoudre les problèmes de qualité des appels
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -24,14 +24,14 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Analytique appeler plus d’informations sur les appareils, les réseaux et connectivité permet de résoudre les problèmes d’utilisateur avec Microsoft Teams et Skype pour les réunions et les appels professionnels.
-ms.openlocfilehash: 3e35a72150d74580d1f44623583419b37e3ad1c5
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 9a76b683e31a0d48464b42de761108b26c8da459
+ms.sourcegitcommit: a4f2d3440399f0a17fb8f6d364cfd2dc4b0bf8db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754064"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30342188"
 ---
-# <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>Utiliser l'analyse des appels pour résoudre les problèmes liés à la qualité médiocre des appels
+# <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>Utiliser l’Analyse des appels pour résoudre les problèmes de qualité des appels
 
 Appel Analytique vous permet de résoudre les problèmes de connexion ou appel avec Microsoft Teams et Skype pour les entreprises. Appel Analytique affiche des informations détaillées sur les périphériques, les réseaux et connectivité pour les appels et les réunions de chaque utilisateur dans votre compte Office 365. Si la création, de sites et des clients informations ont été ajoutées à appeler Analytique, elle s’affichera également pour chaque appel et de la session. Informations disponibles par le biais d’Analytique appel peuvent vous aider à comprendre pourquoi un utilisateur avait un appel médiocre ou l’expérience de la réunion. 
   
@@ -60,21 +60,19 @@ Voir les équipes Skype pour administrateur d’entreprise si vous avez besoin d
 
 1. Connectez-vous avec votre prise en charge des communications équipes ou les informations d’identification d’administration d’équipes.
 
-2. Accédez au centre d’administration Office 365 et connectez-vous à l’aide de votre compte professionnel ou de l’école. Accédez à dans votre navigateur web *https://adminportal.services.skypeforbusiness.com*.
-
-3. Sélectionnez le **Centre d’administration** > **& équipes Skype**. 
+2. Dans votre navigateur web, accédez à *https://admin.teams.microsoft.com*.
     
-4. Dans le **tableau de bord**, de la **Recherche d’un utilisateur**, commencez à taper le nom ou adresse sip de l’utilisateur dont les appels pour résoudre les problèmes ou sélectionnez **Afficher les utilisateurs** de voir une liste d’utilisateurs.
+3. Dans le **tableau de bord**, de la **Recherche d’un utilisateur**, commencez à taper le nom ou adresse sip de l’utilisateur dont les appels pour résoudre les problèmes ou sélectionnez **Afficher les utilisateurs** de voir une liste d’utilisateurs.
     
     ![Capture d’écran de la zone de recherche d’un utilisateur de l’appel d’Analytique dans le centre d’administration Microsoft Teams.](media/use-call-analytics-to-troubleshoot-image-1.png)
   
-5. Sélectionnez l’utilisateur dans la liste.
+4. Sélectionnez l’utilisateur dans la liste.
 
-6. Sélectionnez **historique des appels**, puis sélectionnez l’appel ou la réunion que vous souhaitez dépanner.
+5. Sélectionnez **historique des appels**, puis sélectionnez l’appel ou la réunion que vous souhaitez dépanner.
     
     ![Capture d’écran montre la page Historique des appels pour un utilisateur.](media/use-call-analytics-to-troubleshoot-image-2.png)
   
-7. Sélectionnez l’onglet **Avancé** , puis recherchez des éléments jaunes et rouges qui indiquent des problèmes de connexion ou de la qualité des appels médiocres.
+6. Sélectionnez l’onglet **Avancé** , puis recherchez des éléments jaunes et rouges qui indiquent des problèmes de connexion ou de la qualité des appels médiocres.
     
     Dans les détails de session pour chaque appel ou des réunions, des problèmes mineurs s’affichent en jaune. (Par exemple, dans la capture d’écran suivante, les valeurs sont en jaune pour gigue moyenne et taux de pertes de paquets moyenne gigue Max.) Si un élément est jaune, il est en dehors de la plage normale et il peut contribuer au problème, mais il est peu de chances d’être la cause principale du problème. Si un élément est rouge, il s’agit d’un problème majeur, et il est probable que la cause principale de la qualité des appels médiocres pour cette session. 
     
@@ -84,16 +82,16 @@ Dans les cas rares, qualité de l’expérience de données n’est pas reçue p
   
 Pour les sessions audio qui n’ont pas la qualité des données de l’expérience (QoE), le tableau suivant décrit les principaux problèmes associées à une session en tant que **médiocre**.
   
-|**Problème**|**Zone**|**Description**|
+|**Problème**|**Domaine**|**Description**|
 |:-----|:-----|:-----|
 |Configuration des appels  <br/> |Session  <br/> |Le code d’erreur Ms-diagnostic 20 à 29 indique l’échec de la configuration de l’appel. L’utilisateur n’a pas pu participer à l’appel ou la réunion.  <br/> |
 |Réseau audio classés d’appels médiocres  <br/> |Session  <br/> |Problèmes de qualité réseau (tels que la perte de paquets, l’instabilité, dégradation NMOS, durée aller-retour ou taux masqué) se sont produites. Pour plus d’informations sur les conditions d’utilisation pour classer les appels médiocres, consultez le [billet de blog de Microsoft](https://go.microsoft.com/fwlink/p/?linkid=852133).  <br/> |
 |Périphérique ne fonctionne ne pas  <br/> |APPAREIL  <br/> | Un périphérique ne fonctionne pas correctement. Périphérique ne fonctionne ne pas ratios est les suivants : <br/>  DeviceRenderNotFunctioningEventRatio > = 0,005 <br/>  DeviceCaptureNotFunctioningEventRatio > = 0,005 <br/> |
    
 ## <a name="related-topics"></a>Rubriques connexes
-[Configurer Analytique d’appel](set-up-call-analytics.md)
+[Configurer Analyse des appels](set-up-call-analytics.md)
 
-[Appel Analytique et tableau de bord de qualité des appels](difference-between-call-analytics-and-call-quality-dashboard.md)
+[Tableau de bord Analyse des appels et Qualité des appels](difference-between-call-analytics-and-call-quality-dashboard.md)
 
   
  

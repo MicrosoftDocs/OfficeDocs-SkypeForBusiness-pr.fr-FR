@@ -1,5 +1,5 @@
 ---
-title: Déployer les équipes Microsoft Surface concentrateur
+title: Déployer Microsoft Teams pour Surface Hub
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
@@ -16,20 +16,22 @@ ms.custom:
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 485e4063c523608421955b86e0be680d5dc10b9a
-ms.sourcegitcommit: 5742301cdd28e5e26107920f18e70f41b0f67cfb
+ms.openlocfilehash: 8a97e651e703146c07450229fb4958116d0fd8a2
+ms.sourcegitcommit: a4f2d3440399f0a17fb8f6d364cfd2dc4b0bf8db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/03/2018
-ms.locfileid: "27132002"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30342204"
 ---
-<a name="deploy-microsoft-teams-for-surface-hub"></a>Déployer les équipes Microsoft Surface concentrateur
+<a name="deploy-microsoft-teams-for-surface-hub"></a>Déployer Microsoft Teams pour Surface Hub
 ======================================
 
-Avant de déployer Microsoft Teams Microsoft Surface concentrateur, assurez-vous que le matériel, système d’exploitation et autres conditions sont réunies. Pour plus d’informations, consultez le [guide d’administration de Microsoft Surface Hub](https://docs.microsoft.com/surface-hub/).
+Avant d’installer les équipes Surface concentrateur, veillez à effectuer les opérations suivantes :
 
-> [!NOTE]
-> Si vous faites passer de Skype pour Business Online, vous devez vérifier qu’une licence de Microsoft Teams est attribuée à l’utilisateur.
+ □ Assurez-vous que matériel, système d’exploitation et autres conditions sont remplies. Pour plus d’informations, consultez le [guide d’administration de Microsoft Surface Hub](https://docs.microsoft.com/surface-hub/).<br>
+ □ Assurez-vous que la mise à jour de système d’exploitation minimum requis pour les équipes est installé - [KB4343889](https://support.microsoft.com/help/4343889).<br>
+ □ Attribuer une licence équipes au compte périphérique Hub.<br>
+ □ Si vous faites passer de Skype pour Business Online, vérifiez qu’une licence d’équipes est attribuée à l’utilisateur.
 
 ## <a name="install-teams-for-surface-hub-from-the-microsoft-store"></a>Installer des équipes pour exposer Hub à partir du magasin de Microsoft 
 
@@ -37,7 +39,7 @@ Ces instructions sont pour l’installation des équipes concentrateur de Surfac
  
 1. Démarrer la banque Microsoft :<br>
    a. Cliquez sur **Démarrer** > **toutes les applications** > **paramètres**.<br> b. Cliquez sur **compte de Surface Hub DISPOSITIF, la gestion**.<br>
-   c. Sur la gauche, cliquez sur l’onglet **applications et fonctionnalités** .<br> d. Sur la droite, appuyez sur le bouton **Ouvrir un magasin** . 
+   c. Sur la gauche, cliquez sur l’onglet **applications & fonctionnalités** .<br> d. Sur la droite, appuyez sur le bouton **Ouvrir un magasin** . 
 2. Dans le Store Microsoft, recherchez les *Équipes Microsoft*. Les **Équipes Microsoft Surface concentrateur** s’affichera. Appuyez sur le bouton **obtenir l’application** à installer.  
 3. Une fois l’installation terminée, redémarrez le Hub de la surface d’exposition. 
 
