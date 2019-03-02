@@ -7,14 +7,13 @@ ms.reviewer: oscarr
 ms.topic: article
 ms.assetid: 6403f6d1-c05a-44ab-a6e0-558000e246f4
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
+- M365-voice
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -24,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: When you buy Audio Conferencing licenses, Microsoft is hosting your audio conferencing bridge for your organization. The audio conferencing bridge gives out dial-in phone numbers from different locations so meeting organizers and participants can use them to join Skype for Business or Microsoft Teams meetings using a phone.
-ms.openlocfilehash: c1590fe63a712ece4c2f073dc6642b09ac273d32
-ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
+ms.openlocfilehash: 2ea743d5ad27725f845924c79c8847d4d0c18363
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "28326873"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352201"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Modifier les numéros de téléphone de votre pont d'audioconférence
 
@@ -256,4 +255,4 @@ Windows PowerShell offre de nombreux avantages en matière de rapidité, de simp
   - [Utilisation de Windows PowerShell pour effectuer les tâches de gestion courantes de Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525038)
 
 ## <a name="related-topics"></a>Rubriques connexes
-[Modifier les paramètres pour un pont d'audioconférence](change-the-settings-for-an-audio-conferencing-bridge.md)
+[Modifier les paramètres d’un pont d’audioconférence.](change-the-settings-for-an-audio-conferencing-bridge.md)

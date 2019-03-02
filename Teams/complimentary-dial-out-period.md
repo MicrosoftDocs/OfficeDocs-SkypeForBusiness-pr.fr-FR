@@ -7,12 +7,11 @@ ms.reviewer: mikedav, OscarR
 ms.topic: article
 ms.assetid: dc6e95cd-51e8-49ca-bcd3-78dc9dae486a
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -23,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Legal
 description: Les clients peuvent utiliser le Forfait d’appels Office 365 et l’Audioconférence Office 365, comme le permettent les conditions d’utilisation des services RTC de Skype Entreprise Online et le contrat de licence en volume du client.
-ms.openlocfilehash: 235b8906385be0e6228a7d99c3dda1a52507f137
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 1d1d047e4888c2f8fbfa93aeb7ab4c00dfc62bde
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532891"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352865"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>Période complémentaire pour la numérotation de l'audioconférence
 
@@ -49,7 +48,7 @@ Les utilisateurs à un emplacement de l’utilisation de licence (il s’agit de
 - Tous les appels sortants vers des destinations pas dans la liste de pays Zone A sont facturés par minute à l’aide de Communications crédits à notre taux publiés vers la destination (client a configurer les Communications crédits et attribué la licence Communications générique pour le organisateur de la réunion).
 
 > [!NOTE]
-> Vous pouvez surveiller l’utilisation des rendez-vous de pool minute dans le Skype entreprise centre d’administration. Dans Microsoft Teams & Skype Admin Center, accédez au **portail hérité** > **rapports** > **PSTN Minute Pools**. Cette minute gratuite pool sera appelé dans le rapport « Appels sortants vers les pays A Zone ».
+> Vous pouvez surveiller l’utilisation des rendez-vous de pool minute dans le Skype entreprise centre d’administration. Dans le centre d’administration de Skype & Teams Microsoft, accédez au **portail hérité** > **rapports** > **PSTN Minute Pools**. Cette minute gratuite pool sera appelé dans le rapport « Appels sortants vers les pays A Zone ».
 
 Notifications par courrier électronique sont envoyées à tous les administrateurs de client d’un client donné lorsque l’utilisation du pool de minutes d’appel sortant du client a atteint 80 % et 100 %.
 

@@ -7,12 +7,11 @@ ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: 91618281-947b-4039-abf5-37bf388367c9
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -26,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour Corée du Sud.
-ms.openlocfilehash: e59509978e92ff43f70327b570256774967fac4a
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 9d5f6e40067b87c22e0840307d3bce467138f25a
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048785"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352457"
 ---
 # <a name="availability-in-south-korea"></a>Disponibilité en Corée du Sud
 

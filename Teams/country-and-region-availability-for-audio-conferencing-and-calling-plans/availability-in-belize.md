@@ -1,5 +1,5 @@
 ---
-title: Disponibilité dans Belize
+title: Disponibilité à Belize
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -7,12 +7,11 @@ ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: 46bce770-7c3c-4813-aa3c-26859989a849
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -26,14 +25,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour le Belize.
-ms.openlocfilehash: a35ca6cff3e6b00ade4de7e13d1a5b4c2e94d4df
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 4c2e8d459ad3639b3a1bd75a1ea2ba72937402e9
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047109"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30353609"
 ---
-# <a name="availability-in-belize"></a>Disponibilité dans Belize
+# <a name="availability-in-belize"></a>Disponibilité à Belize
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ou renseignez-vous sur la disponibilité des forfaits d'appels et d'audioconférence selon les régions et les pays.
 

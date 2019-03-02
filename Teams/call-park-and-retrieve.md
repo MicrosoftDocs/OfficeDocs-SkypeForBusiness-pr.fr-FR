@@ -7,11 +7,11 @@ ms.date: 01/16/2019
 ms.reviewer: srividhc
 ms.topic: article
 ms.tgt.pltfrm: cloud
-ms.service:
-- msteams
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
+- M365-voice
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Utilisez parcage d’appel et de récupération pour passer un appel en attente dans le service d’équipes dans le nuage.
-ms.openlocfilehash: 2433a8836a037b530fbd895f7a37567f24d63b50
-ms.sourcegitcommit: 0fcca2d8303da82cc00a504f4183bee50ab23eea
+ms.openlocfilehash: 48052768ce172fda88b3e034277c4454988b32db
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28328308"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30353473"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Parcage et récupération d’appel dans Microsoft Teams
 

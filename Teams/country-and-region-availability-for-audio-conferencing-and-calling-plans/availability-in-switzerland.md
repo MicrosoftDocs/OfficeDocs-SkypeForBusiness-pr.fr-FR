@@ -1,18 +1,17 @@
 ---
 title: Disponibilité en Suisse
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: bbaf568d-363f-45e7-acd2-82e5ebb7fa21
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -26,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour la Suisse.
-ms.openlocfilehash: 22ec9173e00621694512f939818ed0987f5988d5
-ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
+ms.openlocfilehash: f8248b6daa40c80a18c4fdd61c4419d54d2ada5d
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/26/2018
-ms.locfileid: "26674697"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352689"
 ---
 # <a name="availability-in-switzerland"></a>Disponibilité en Suisse
 

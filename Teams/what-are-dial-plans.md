@@ -15,6 +15,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
+- M365-voice
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -24,12 +25,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Découvrez comment choisir votre organisation et quel type de numérotation appelant plans (plans de numérotation appel PSTN) sont disponibles avec Office 365.  '
-ms.openlocfilehash: 091131cf852847e60c6b8546b56121183cc2d499
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 3158e31b5008fef91e3da4be86ee6cabf3a5fd1b
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047521"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352881"
 ---
 # <a name="what-are-dial-plans"></a>Qu'est-ce que les plans de numérotation ?
 

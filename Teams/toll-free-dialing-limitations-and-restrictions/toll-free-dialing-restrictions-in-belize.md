@@ -1,5 +1,5 @@
 ---
-title: Restrictions d’appel gratuit dans Belize
+title: Restrictions de numérotation gratuit dans Belize
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -7,12 +7,11 @@ ms.reviewer: mikedav, oscarr
 ms.topic: article
 ms.assetid: 087ecda8-29ed-4246-a318-d9d23336a19f
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -24,14 +23,14 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Cela vous permettra de savoir comment composer des numéros gratuits dans chaque pays/région. Une fois que vous sélectionnez la pays/région, il vous dirige vers une page spécifique qui contient des détails plus spécifiques, les restrictions et les limites de la disponibilité du service gratuit où service gratuit est disponible. Le format de numérotation ou formats affichera les codes d’accès requis dans chaque pays/région de composer le numéro d’appel gratuit.
-ms.openlocfilehash: 54457fb2dab815f51a16e91b980a3d8a73fec675
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: b0dcc1131c60c5f14bb2163792782eb96c8444a1
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30046562"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352265"
 ---
-# <a name="toll-free-dialing-restrictions-in-belize"></a>Restrictions d’appel gratuit dans Belize
+# <a name="toll-free-dialing-restrictions-in-belize"></a>Restrictions de numérotation gratuit dans Belize
 
 [Trouver un autre pays ou région](../toll-free-dialing-limitations-and-restrictions.md), ou en savoir plus sur les restrictions et les limitations de composer le numéro gratuit.
 

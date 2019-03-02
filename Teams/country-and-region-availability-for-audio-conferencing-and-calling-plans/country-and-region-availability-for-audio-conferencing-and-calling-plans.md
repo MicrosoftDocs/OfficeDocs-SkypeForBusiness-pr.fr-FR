@@ -8,14 +8,13 @@ ms.reviewer: mikedav, jastark, oscarr, LolaJacobsen
 ms.topic: article
 ms.assetid: 95893973-f90d-44d7-ba86-72712f031817
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 - Teams_ITAdmin_Help
+- M365-voice
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -28,12 +27,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Vous pouvez sélectionner un pays ou une région pour consulter la disponibilité de l'audioconférence, du système téléphonique, des forfaits d'appel, des crédits de communication ainsi que des numéros payants et gratuits.
-ms.openlocfilehash: 789584991eaf6b95541d9fc49ec094d5c0481228
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: e010a5decd864ee86e74129583df06856571a060
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120875"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30351761"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Disponibilité des forfaits d'appels et d'audioconférence selon les régions et les pays
 
@@ -129,7 +128,7 @@ Vous pouvez sélectionner votre pays ou région pour afficher les fonctionnalit�
 > - [Venezuela](availability-in-venezuela.md)
 > - [Vietnam](availability-in-vietnam.md)
 
-**Si vous recherchez une feuille de calcul avec tous les pays et régions, téléchargez et enregistrez la [feuille de calcul de disponibilité dans le nuage voix fonctionnalité pays/région](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-02012019)-(en-us).xlsx?raw=true)**.
+**Si vous recherchez une feuille de calcul avec tous les pays et régions, téléchargez et enregistrez la [feuille de calcul de disponibilité dans le nuage voix fonctionnalité pays/région](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-06252018)-(en-us).xlsx?raw=true)**.
 
 ***
 

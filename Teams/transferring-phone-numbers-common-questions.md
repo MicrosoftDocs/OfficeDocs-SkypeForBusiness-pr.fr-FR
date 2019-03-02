@@ -1,20 +1,19 @@
 ---
-title: Questions fréquentes à propos du transfert de numéros de téléphone
-ms.author: tonysmit
-author: tonysmit
+title: Transfert des questions fréquemment posées numéros de téléphone
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
 ms.assetid: 28cbf7d7-97f3-4a99-aa76-897022c14a24
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
+- M365-voice
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -24,14 +23,14 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Les éléments suivants sont questions fréquemment posées sur le transfert des numéros de téléphone à Skype pour les entreprises. Après avoir examiné les réponses, vous devez être prêt à créer un ordre de port et de transférer vos numéros de téléphone. Voir les numéros de téléphone transfert vers Office 365 pour obtenir des instructions.
-ms.openlocfilehash: 8a260d1d59668a583f6bdda24bb88472a68c1f43
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 2f69573859e04681f895dfc1a577a73f707e569a
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375870"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30351729"
 ---
-# <a name="transferring-phone-numbers-common-questions"></a>Questions fréquentes à propos du transfert de numéros de téléphone
+# <a name="transferring-phone-numbers-common-questions"></a>Transfert des questions fréquemment posées numéros de téléphone
 
 Les éléments suivants sont questions fréquemment posées sur le transfert des numéros de téléphone à Skype pour les entreprises. Après avoir examiné les réponses, vous devez être prêt à créer un ordre de port et de transférer vos numéros de téléphone. Pour plus d’informations, voir [transférer des numéros de téléphone vers Office 365](transfer-phone-numbers-to-office-365.md) .
   
@@ -180,6 +179,6 @@ Pour transférer ou *port des* numéros de téléphone à partir de Skype pour B
 
 [Conditions générales relatives aux appels d'urgence](emergency-calling-terms-and-conditions.md)
 
-[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
   
  

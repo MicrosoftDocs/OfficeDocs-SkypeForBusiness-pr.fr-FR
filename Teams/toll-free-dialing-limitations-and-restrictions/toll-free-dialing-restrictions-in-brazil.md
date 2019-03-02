@@ -1,5 +1,5 @@
 ---
-title: Restrictions d’appel gratuit au Brésil
+title: Restrictions de numérotation gratuit au Brésil
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -7,12 +7,11 @@ ms.reviewer: mikedav, oscarr
 ms.topic: article
 ms.assetid: 582cb0db-88e3-4986-a8f5-84363f232c31
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -24,14 +23,14 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Cela vous permettra de savoir comment composer des numéros gratuits dans chaque pays/région. Une fois que vous sélectionnez la pays/région, il vous dirige vers une page spécifique qui contient des détails plus spécifiques, les restrictions et les limites de la disponibilité du service gratuit où service gratuit est disponible. Le format de numérotation ou formats affichera les codes d’accès requis dans chaque pays/région de composer le numéro d’appel gratuit.
-ms.openlocfilehash: c5006d32a3379c13283cd8403316dd8106305e8a
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 6f1c15dd5f5ae0ca5082157fbee19d3eb528833b
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047029"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30351537"
 ---
-# <a name="toll-free-dialing-restrictions-in-brazil"></a>Restrictions d’appel gratuit au Brésil
+# <a name="toll-free-dialing-restrictions-in-brazil"></a>Restrictions de numérotation gratuit au Brésil
 
 [Trouver un autre pays ou région](../toll-free-dialing-limitations-and-restrictions.md), ou en savoir plus sur les restrictions et les limitations de composer le numéro gratuit.
 

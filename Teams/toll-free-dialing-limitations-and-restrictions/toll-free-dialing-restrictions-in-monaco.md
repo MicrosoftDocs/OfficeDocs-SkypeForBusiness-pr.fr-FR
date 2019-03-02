@@ -1,5 +1,5 @@
 ---
-title: Restrictions d’appel gratuit dans Monaco
+title: Restrictions de numérotation gratuit à Monaco
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -7,12 +7,11 @@ ms.reviewer: mikedav, oscarr
 ms.topic: article
 ms.assetid: e67e8193-5d33-4a4a-868d-cde01d41ad12
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -24,14 +23,14 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Cela vous permettra de savoir comment composer des numéros gratuits dans chaque pays/région. Une fois que vous sélectionnez la pays/région, il vous dirige vers une page spécifique qui contient des détails plus spécifiques, les restrictions et les limites de la disponibilité du service gratuit où service gratuit est disponible. Le format de numérotation ou formats affichera les codes d’accès requis dans chaque pays/région de composer le numéro d’appel gratuit.
-ms.openlocfilehash: c51c1cead23ac4a4191bf368066e894b27c2f59a
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 0f20bea9c3a9d80d2c2bc889dda0440574ee3ae0
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30046813"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352977"
 ---
-# <a name="toll-free-dialing-restrictions-in-monaco"></a>Restrictions d’appel gratuit dans Monaco
+# <a name="toll-free-dialing-restrictions-in-monaco"></a>Restrictions de numérotation gratuit à Monaco
 
 [Trouver un autre pays ou région](../toll-free-dialing-limitations-and-restrictions.md), ou en savoir plus sur les restrictions et les limitations de composer le numéro gratuit.
 

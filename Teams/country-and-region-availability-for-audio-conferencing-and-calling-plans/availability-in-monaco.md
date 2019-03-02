@@ -1,18 +1,17 @@
 ---
-title: Disponibilité dans Monaco
-ms.author: tonysmit
-author: tonysmit
+title: Disponibilité à Monaco
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: bbb45c69-746a-4891-85ae-af55bdc2ef57
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -26,14 +25,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour Monaco.
-ms.openlocfilehash: 826048eab1503fb45d892356db9a1dff464c0ed4
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 7751b27209ada3d603df14eeff5b16f9b79d4c43
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015340"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30353281"
 ---
-# <a name="availability-in-monaco"></a>Disponibilité dans Monaco
+# <a name="availability-in-monaco"></a>Disponibilité à Monaco
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ou renseignez-vous sur la disponibilité des forfaits d'appels et d'audioconférence selon les régions et les pays.
 

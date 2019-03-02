@@ -1,5 +1,5 @@
 ---
-title: Commencer avec les modèles de santé des équipes Microsoft
+title: Commencer avec les modèles d’équipe pour les organisations de santé
 author: jambirk
 ms.author: jambirk
 manager: serdars
@@ -12,15 +12,15 @@ MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: Commencer avec les modèles de santé des équipes Microsoft
-ms.openlocfilehash: e2b1e9cb2171f250c9d9e635c3d5233c4f47f24e
-ms.sourcegitcommit: d400c8f83a2325c4a8bbb963ddad685a346bc4d8
+description: Commencer avec les modèles d’équipe pour les organisations de santé
+ms.openlocfilehash: 98fff56720bc0d0dee530ab37c67e0e24aaba086
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "29760566"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30351713"
 ---
-# <a name="get-started-with-microsoft-teams-healthcare-templates"></a>Commencer avec les modèles de santé des équipes Microsoft
+# <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>Commencer avec les modèles d’équipe pour les organisations de santé
 
 Modèles Microsoft Teams permettent de rapidement et facilement créer des équipes en fournissant un modèle prédéfini de paramètres, les canaux et applications préinstallées.
 
@@ -37,7 +37,7 @@ Le modèle comté est destiné à la communication et de collaboration au sein d
 |Prestataires - comté | https://<span></span>graphique<span></span>.microsoft.com/beta/teamsTemplates/healthcareWard   | Annonces\* <br> Huddles\* <br> Arrondit\* <br> Personnel\* <br> Formation\* |
 |     | |         |
 
-\*Auto-favorited 
+\*Auto-favorited
 
 ## <a name="hospital-template"></a>Modèle hôpital
 

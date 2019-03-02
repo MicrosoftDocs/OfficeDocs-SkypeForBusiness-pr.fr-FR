@@ -1,5 +1,5 @@
 ---
-title: Planifier le routage par emplacement pour le routage Direct
+title: Planifier le routage géodépendant pour le routage direct
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -10,17 +10,20 @@ ms.reviewer: roykuntz
 search.appverid: MET150
 description: Découvrez comment planifier le routage basé sur un emplacement pour le routage Direct.
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+ms.collection:
+- Teams_ITAdmin_Help
+- Strat_SB_PSTN
+- M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8faf0f70b509a851b8365bea5ce4a69a57f198d1
-ms.sourcegitcommit: 09c2094104ee055cb1cb047a5fab8f9fd02b123e
+ms.openlocfilehash: ff596f444c5df963b809e1ccacd525cb0dfd74e4
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "29967455"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30351825"
 ---
-# <a name="plan-location-based-routing-for-direct-routing"></a>Planifier le routage par emplacement pour le routage Direct
+# <a name="plan-location-based-routing-for-direct-routing"></a>Planifier le routage géodépendant pour le routage direct
 
 > [!INCLUDE [Preview customer token](includes/preview-feature.md)]
 
@@ -30,7 +33,7 @@ Dans certains pays et régions, il est interdit de contourner le fournisseur Pub
 
 Ici, vous allez obtenir une vue d’ensemble du routage basé sur l’emplacement et des conseils pour vous aider à planifier. Lorsque vous êtes prêt à appliquer et activer le routage basé sur l’emplacement, voir :
 - [Déployer les paramètres réseau pour le routage basé sur l’emplacement](location-based-routing-configure-network-settings.md)
-- [Activer le routage par emplacement pour le routage Direct](location-based-routing-enable.md)
+- [Activer le routage géodépendant pour le routage direct](location-based-routing-enable.md)
 
 Routage basé sur l’emplacement est une fonctionnalité qui permet de limiter la déviation du trafic payant basé sur la stratégie et la position géographique de l’utilisateur au moment d’un appel PSTN entrant ou sortant. 
 
@@ -251,5 +254,5 @@ Un utilisateur en fonction de routage activée sur un appel RTC n’est pas auto
 Accédez à [configurer les paramètres réseau pour le routage basé sur l’emplacement](location-based-routing-configure-network-settings.md).
 
 ### <a name="related-topics"></a>Rubriques connexes
-- [Activer le routage par emplacement pour le routage Direct](location-based-routing-enable.md)
-- [Terminologie de routage basée sur l’emplacement](location-based-routing-terminology.md)
+- [Activer le routage géodépendant pour le routage direct](location-based-routing-enable.md)
+- [Terminologie du routage géodépendant](location-based-routing-terminology.md)

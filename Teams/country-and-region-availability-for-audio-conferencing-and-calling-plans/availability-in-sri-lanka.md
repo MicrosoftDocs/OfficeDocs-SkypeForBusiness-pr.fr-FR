@@ -1,18 +1,17 @@
 ---
-title: Disponibilité dans Sénégal
-ms.author: tonysmit
-author: tonysmit
+title: Disponibilité au Sri Lanka
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: 5e91dcb0-7c23-415b-9e0b-82115dc046da
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -26,14 +25,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour Sénégal.
-ms.openlocfilehash: 01dba4ec6d4ad62350fd77e6283602e335558f41
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 04ca009a0b542a156ec3e6fba95e79c5880f6695
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016132"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352921"
 ---
-# <a name="availability-in-sri-lanka"></a>Disponibilité dans Sénégal
+# <a name="availability-in-sri-lanka"></a>Disponibilité au Sri Lanka
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ou renseignez-vous sur la disponibilité des forfaits d'appels et d'audioconférence selon les régions et les pays.
 

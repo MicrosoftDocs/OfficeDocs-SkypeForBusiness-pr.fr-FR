@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9ae5d850670007d4356fa3de8610e4b110856734
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: babfec7ae442b9d5f787fda7a9d9eedb0e3a6303
+ms.sourcegitcommit: e739925aa73f257b72ce4f94002d8b17582252a1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29753845"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30357769"
 ---
 > [!NOTE]
 > Passez en revue les informations suivantes pour comprendre la conversation, les équipes, les canaux, applications & dans les équipes. Ensuite, passez à [déployer conversation, équipes, canaux, applications & dans les équipes](deploy-chat-teams-channels-microsoft-teams-landing-page.md) pour parcourir une liste de décisions importantes à votre déploiement d’équipes.
@@ -88,7 +88,7 @@ Microsoft Teams permet d'aplanir efficacement les silos organisationnels et de 
 
 Il est possible de créer des équipes alignées sur la structure de l’organisation.  Cette option convient surtout aux responsables qui souhaitent encourager l’état d’esprit, avoir des évaluations spécifiques aux équipes, clarifier le processus d'intégration des employés, discuter des plans de gestion du personnel et accroître la visibilité auprès d'une main-d'œuvre diversifiée.  
 
-![Diagramme d'une hiérarchie de l'organisation des équipes et des canaux dans Microsoft Teams.](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image1.png)
+![Diagramme d'une hiérarchie de l'organisation des équipes et des canaux dans Microsoft Teams.](media/overview-of-teams-and-channels-image1.png)
 
 ## <a name="org-wide-teams"></a>Équipes à l’échelle de l’organisation
 

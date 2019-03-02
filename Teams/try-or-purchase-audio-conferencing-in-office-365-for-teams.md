@@ -12,6 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - Strat_SB_PSTN
+- M365-voice
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
@@ -21,12 +22,12 @@ f1keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Apprenez comment essayer ou acheter des licences d’audioconférence (conférence RTC) pour Office 365 afin de mettre en place des conférences téléphoniques auxquelles les gens peuvent se connecter. '
-ms.openlocfilehash: 58abec46586e93c2eb9b7fccdc1190cf9cf4c778
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: eaf978c35fbcf836c88abc83d030f31dee80bb27
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120757"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352353"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-microsoft-teams"></a>Essayer ou acheter les audioconférences dans Office 365 pour Skype pour Microsoft Teams.
 

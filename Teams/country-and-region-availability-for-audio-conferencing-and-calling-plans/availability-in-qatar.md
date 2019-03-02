@@ -1,5 +1,5 @@
 ---
-title: Disponibilité dans Qatar
+title: Disponibilité au Qatar
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -7,12 +7,11 @@ ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: 34743a0a-e743-4142-961f-679da254d080
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -26,14 +25,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour le Qatar.
-ms.openlocfilehash: 487cf3c4b88544031855510b508384f59ffd696a
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 0e009e47d46cbc72c9c953041a43d593f447696b
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047641"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30353553"
 ---
-# <a name="availability-in-qatar"></a>Disponibilité dans Qatar
+# <a name="availability-in-qatar"></a>Disponibilité au Qatar
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ou renseignez-vous sur la disponibilité des forfaits d'appels et d'audioconférence selon les régions et les pays.
 

@@ -1,5 +1,5 @@
 ---
-title: Combien de numéros de téléphone pouvez-vous obtenir ?
+title: Combien de numéros de téléphone vous pouvez obtenir ?
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -7,14 +7,13 @@ ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
 ms.assetid: 61dfb27c-5bfa-4481-a930-9c026e73ff3a
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
+- M365-voice
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -24,14 +23,14 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Lorsque vous recherchez et obtenez des numéros de téléphone pour votre organisation, vous pouvez obtenir plus de numéros de téléphone que de licences affectées. Cela dépend toutefois des types de numéros de téléphone que vous avez achetés et des types de licences que vous avez affectées. Vous pouvez cliquer sur les différents types de numéros de téléphone utilisés pour appeler des Plans pour connaître les numéros de téléphone différents qui sont utilisés dans Skype pour Business en ligne.
-ms.openlocfilehash: 4eeef8ea633b1ba26169681b2e994b6d3176fd67
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: fa2a33086d832cc7d35afa6da59f431ebae47b19
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048761"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352785"
 ---
-# <a name="how-many-phone-numbers-can-you-get"></a>Combien de numéros de téléphone pouvez-vous obtenir ?
+# <a name="how-many-phone-numbers-can-you-get"></a>Combien de numéros de téléphone vous pouvez obtenir ?
 
 Lorsque vous recherchez et obtenez des numéros de téléphone pour votre organisation, vous pouvez obtenir plus de numéros de téléphone que de licences affectées. Cela dépend toutefois des types de numéros de téléphone que vous avez achetés et des types de licences que vous avez affectées. Vous pouvez cliquer sur les [différents types de numéros de téléphone utilisés pour appeler des Plans](different-kinds-of-phone-numbers-used-for-calling-plans.md) pour connaître les numéros de téléphone différents qui sont utilisés dans Skype pour Business en ligne.
   

@@ -1,5 +1,5 @@
 ---
-title: Disponibilité au Kenya
+title: Disponiblité au Kenya
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -7,12 +7,11 @@ ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: 4ec0cc20-1bcd-4596-a220-f7b363d95055
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -26,14 +25,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour Kenya.
-ms.openlocfilehash: 7a9fcd3d3c658c95bdb70b8de9349444fae0c41e
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 3a6c3dcd0f48588df4948249f57439ac7f29610c
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048601"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30353521"
 ---
-# <a name="availability-in-kenya"></a>Disponibilité au Kenya
+# <a name="availability-in-kenya"></a>Disponiblité au Kenya
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ou renseignez-vous sur la disponibilité des forfaits d'appels et d'audioconférence selon les régions et les pays.
 

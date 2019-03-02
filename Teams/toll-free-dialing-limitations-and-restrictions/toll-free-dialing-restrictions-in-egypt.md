@@ -1,5 +1,5 @@
 ---
-title: Restrictions d’appel gratuit en Égypte
+title: Restrictions de numérotation gratuit en Égypte
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -7,12 +7,11 @@ ms.reviewer: mikedav, oscarr
 ms.topic: article
 ms.assetid: 42aa8a84-9ed3-4c45-ad04-e94fdcf43623
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -24,14 +23,14 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Cela vous permettra de savoir comment composer des numéros gratuits dans chaque pays/région. Une fois que vous sélectionnez la pays/région, il vous dirige vers une page spécifique qui contient des détails plus spécifiques, les restrictions et les limites de la disponibilité du service gratuit où service gratuit est disponible. Le format de numérotation ou formats affichera les codes d’accès requis dans chaque pays/région de composer le numéro d’appel gratuit.
-ms.openlocfilehash: 75b8e824adba8df57378d3dfe8b51fda06df4c2a
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 4af40136de83af746b6bb06a03b0ef2da2177065
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048873"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352145"
 ---
-# <a name="toll-free-dialing-restrictions-in-egypt"></a>Restrictions d’appel gratuit en Égypte
+# <a name="toll-free-dialing-restrictions-in-egypt"></a>Restrictions de numérotation gratuit en Égypte
 
 [Trouver un autre pays ou région](../toll-free-dialing-limitations-and-restrictions.md), ou en savoir plus sur les restrictions et les limitations de composer le numéro gratuit.
 

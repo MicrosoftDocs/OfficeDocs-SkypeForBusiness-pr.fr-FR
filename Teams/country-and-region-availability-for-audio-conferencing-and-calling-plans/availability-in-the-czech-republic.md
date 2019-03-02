@@ -1,5 +1,5 @@
 ---
-title: Disponibilité en République tchèque
+title: Disponibilité dans la République Tchèque
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -7,12 +7,11 @@ ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: 1af19363-beb6-4155-a55e-0765a3d90f02
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -26,14 +25,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour la République tchèque.
-ms.openlocfilehash: 2df756498a3bfce7ee7ef73ba93bddb19ff5818d
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 29155f7547ea913403bbab354d266463713f3e4e
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048681"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30353369"
 ---
-# <a name="availability-in-the-czech-republic"></a>Disponibilité en République tchèque
+# <a name="availability-in-the-czech-republic"></a>Disponibilité dans la République Tchèque
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ou renseignez-vous sur la disponibilité des forfaits d'appels et d'audioconférence selon les régions et les pays.
 

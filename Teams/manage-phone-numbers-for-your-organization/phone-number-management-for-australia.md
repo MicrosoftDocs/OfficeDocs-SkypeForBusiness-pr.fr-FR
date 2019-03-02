@@ -6,14 +6,13 @@ manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 - Teams_ITAdmin_Help
+- M365-voice
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -23,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Utilisez ce tableau pour trouver des informations sur l’obtention et la gestion des numéros de téléphone en Australie pour Skype pour Business Online et Microsoft Teams.
-ms.openlocfilehash: 7ef7021fe4e7801630368ef29fc070ad751f37d0
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: ffdf8a828d64a288f0a309207fafd9cfb049b064
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30046941"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352913"
 ---
 # <a name="phone-number-management-for-australia"></a>Gestion des numéros de téléphone pour l’Australie
 Nous sommes associés en Australie avec Telstra pour l’achat et la configuration des forfaits d’appels. Telstra vend des forfaits d’appel et fournit la prise en charge pour la gestion des numéros de téléphone pour les numéros d’utilisateur et de service pour les standards automatiques et les files d’attente d'appel. Toutefois, les numéros de service et des licences pour une audioconférence seront toujours être vendus et gérées par Office 365.

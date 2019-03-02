@@ -7,14 +7,13 @@ ms.reviewer: mikedav
 ms.topic: article
 ms.assetid: f47c6a97-bc8b-42e6-b5d4-ce6b41ed1918
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
+- M365-voice
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -28,12 +27,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: 091807d63be0c2853217f2bd2c442e8023cc3169
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: ec692f33d51ac8c5405049f71d8b1010d4e1f011
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30121003"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30351929"
 ---
 # <a name="calling-plans-for-office-365"></a>Plans d’appel dans Office 365
 
@@ -88,7 +87,7 @@ Voici d’autres articles qui expliquent comment configurer vos Plans de l’app
   
 - [Configurer des forfaits d'appels](set-up-calling-plans.md)
     
-- [Gestion des licences de module complémentaire Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+- [Licences de module complémentaire Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
     
 - [Planifier votre système téléphonique dans les solutions Office 365 (en nuage PBX)](https://go.microsoft.com/fwlink/p/?LinkId=717926)
     

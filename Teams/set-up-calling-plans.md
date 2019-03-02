@@ -7,14 +7,13 @@ ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
 ms.assetid: 57893158-1acd-44ac-acaf-19f58264a9e0
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
+- M365-voice
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -25,12 +24,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 'Learn how in Office 365 Calling Plan (PSTN Calling plan) to buy and set up licenses, get phone numbers, add and assign emergency locations and phone numbers to users, and tell your users about their new phone numbers. '
-ms.openlocfilehash: 11dfac5c72845354aeaabcc4bf15bc9ae7cf815d
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: 643c03765b9366889e7e7982fa060398d3a7b69f
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120833"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30351985"
 ---
 # <a name="set-up-calling-plans"></a>Configurer des forfaits d'appels
 Les appels vers d’autres Skype pour les utilisateurs professionnels sont gratuites, mais si vous souhaitez que vos utilisateurs puissent appeler des téléphones en dehors de votre entreprise, obtenir un Plan d’appel interne ou d’un Plan d’appel International dans Office 365. Il est facile pour définir votre entreprise. 

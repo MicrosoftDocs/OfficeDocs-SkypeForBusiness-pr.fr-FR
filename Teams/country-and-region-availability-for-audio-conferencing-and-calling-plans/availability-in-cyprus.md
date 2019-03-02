@@ -1,5 +1,5 @@
 ---
-title: Disponibilité dans Chypre
+title: Disponibilité à Chypre
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -7,12 +7,11 @@ ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: b8abc334-bd57-4bc9-ae17-43d543d895c8
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -26,14 +25,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour Chypre.
-ms.openlocfilehash: 3516b50bdd6c278b18cad2a0b604c6550a78614f
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 432fc03042217919f05641fbdac87ad0bb9f18e0
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048703"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352025"
 ---
-# <a name="availability-in-cyprus"></a>Disponibilité dans Chypre
+# <a name="availability-in-cyprus"></a>Disponibilité à Chypre
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ou renseignez-vous sur la disponibilité des forfaits d'appels et d'audioconférence selon les régions et les pays.
 

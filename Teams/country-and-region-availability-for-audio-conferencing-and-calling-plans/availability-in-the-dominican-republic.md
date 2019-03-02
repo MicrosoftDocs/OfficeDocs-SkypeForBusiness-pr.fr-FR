@@ -1,5 +1,5 @@
 ---
-title: Disponibilité dans la République dominicaine
+title: Disponibilité en République Dominicaine
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -7,12 +7,11 @@ ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: 1eb066bc-394a-434e-87a2-61d257a7e77d
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -26,14 +25,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour la République dominicaine.
-ms.openlocfilehash: 322fe972f95c84a224eaaec084d88197f3021cbd
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 0d1cd8da10c66a403e987d1612b2e4f52cb7ef23
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048841"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352609"
 ---
-# <a name="availability-in-the-dominican-republic"></a>Disponibilité dans la République dominicaine
+# <a name="availability-in-the-dominican-republic"></a>Disponibilité en République Dominicaine
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ou renseignez-vous sur la disponibilité des forfaits d'appels et d'audioconférence selon les régions et les pays.
 

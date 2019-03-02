@@ -7,14 +7,13 @@ ms.reviewer: mikedav, oscarr
 ms.topic: article
 ms.assetid: d050c8c3-1cd2-45c8-8a6d-2e86e938f356
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
+- M365-voice
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -24,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: Outre la licence standard par utilisateur de conférence Audio, organisations utilisant des licences en Volume Microsoft peuvent également choisir une offre de salaire par minute pour activer les fonctionnalités de conférence Audio pour leurs organisations.
-ms.openlocfilehash: affeba7a1fda6aaada47bc9b0a8c124caf84cf9e
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: 908249fdef3a0de1e17f1d5459d1e04b5a2c20f8
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120971"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30353513"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>Audioconférence en paiement à la minute
 
@@ -71,7 +70,7 @@ Pour activer la conférence Audio de salaire par minute pour les utilisateurs de
     
 ## <a name="related-topics"></a>Rubriques connexes
   
-[Gestion des licences de module complémentaire Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+[Licences de module complémentaire Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
   
  

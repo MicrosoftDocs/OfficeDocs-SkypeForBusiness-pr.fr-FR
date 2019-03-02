@@ -1,5 +1,5 @@
 ---
-title: Disponibilité de Slovénie
+title: Disponibilité en Slovénie
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -7,12 +7,11 @@ ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: 69eefb76-7a86-4469-a1ac-5fab4a6a9dc8
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -26,14 +25,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour la Slovénie.
-ms.openlocfilehash: 9146dcbce5e880394aee41f374a24b889e6e89c4
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: bf28b94729e5a67ade430f97051bd308b133cc11
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048301"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30353497"
 ---
-# <a name="availability-in-slovenia"></a>Disponibilité de Slovénie
+# <a name="availability-in-slovenia"></a>Disponibilité en Slovénie
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ou renseignez-vous sur la disponibilité des forfaits d'appels et d'audioconférence selon les régions et les pays.
 

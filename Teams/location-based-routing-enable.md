@@ -1,5 +1,5 @@
 ---
-title: Activer le routage par emplacement pour le routage Direct
+title: Activer le routage géodépendant pour le routage direct
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -10,17 +10,20 @@ ms.service: msteams
 search.appverid: MET150
 description: Découvrez comment activer le routage basé sur un emplacement pour le routage Direct.
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+ms.collection:
+- Teams_ITAdmin_Help
+- Strat_SB_PSTN
+- M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8437eba299cb42415d224017ca7d0e888fffa684
-ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
+ms.openlocfilehash: 854f0fefc006c02bc07c73cd4519b943411094f5
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "29771007"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352545"
 ---
-# <a name="enable-location-based-routing-for-direct-routing"></a>Activer le routage par emplacement pour le routage Direct
+# <a name="enable-location-based-routing-for-direct-routing"></a>Activer le routage géodépendant pour le routage direct
 
 > [!INCLUDE [Preview customer token](includes/preview-feature.md)]
 
@@ -65,7 +68,7 @@ Cet article décrit comment activer le routage basé sur un emplacement pour le 
     
     ||1 stratégie de routage voix|Stratégie de routage 2 voix|
     |---------|---------|---------|
-    |ID de stratégie de voix   |Stratégie de routage voix Delhi   |Stratégie de routage voix Hyderabad    |
+    |ID de stratégie vocale en ligne   |Stratégie de routage Delhi vocale en ligne   |Stratégie de routage Hyderabad vocale en ligne    |
     |Utilisations PSTN en ligne  |Appel longue Distance  |Longue Distance internes, locales  |
 
     Pour plus d’informations, voir [New-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csonlinevoiceroutingpolicy).
@@ -76,21 +79,21 @@ Cet article décrit comment activer le routage basé sur un emplacement pour le 
 ## <a name="enable-location-based-routing-for-network-sites"></a>Activer le routage emplacement pour les sites réseau
 1.  Utiliser le ``Set-CsTenantNetworkSite`` applet de commande pour activer le routage basé sur l’emplacement et associer les stratégies de routage pour vos sites réseau qui doivent appliquer des restrictions de routage vocale.
     ```
-    Set-CsTenantNetworkSite -Identity <site ID> -EnableLocationBasedRouting <$true|$false> -OnlineVoiceRoutingPolicy <voice routing policy ID> 
+    Set-CsTenantNetworkSite -Identity <site ID> -EnableLocationBasedRouting <$true|$false>  
     ```
 
     Dans cet exemple, nous activer en fonction de routage pour le site Delhi et le site d’Hyderabad. 
 
     ```
-    Set-CsTenantNetworkSite -Identity "Delhi" -EnableLocationBasedRouting $true -OnlineVoiceRoutingPolicy "DelhiVoiceRoutingPolicy" 
-    Set-CsTenantNetworkSite -Identity "Hyderabad" -EnableLocationBasedRouting $true -OnlineVoiceRoutingPolicy "HyderabadVoiceRoutingPolicy" 
+    Set-CsTenantNetworkSite -Identity "Delhi" -EnableLocationBasedRouting $true  
+    Set-CsTenantNetworkSite -Identity "Hyderabad" -EnableLocationBasedRouting $true 
     ```
     Le tableau suivant indique les sites activés pour le routage de fonction dans cet exemple.
 
     ||Site 1 (Delhi)  |Site 2 (Hyderabad)  |
     |---------|---------|---------|
+|Nom du site    |Site 1 (Delhi)    |Site 2 (Hyderabad)   
     |EnableLocationBasedRouting    |True    |True    |
-    |Stratégie de routage voix    | Stratégie de routage voix Delhi       |Stratégie de routage voix Hyderabad    |
     |Sous-réseaux     |Sous-réseau 1 (Delhi)     |Sous-réseau 2 (Hyderabad)     |
 
 ## <a name="enable-location-based-routing-for-gateways"></a>Activer le routage emplacement pour les passerelles
@@ -103,7 +106,7 @@ Cet article décrit comment activer le routage basé sur un emplacement pour le 
 
     Dans cet exemple, nous créons une configuration de la passerelle pour chaque passerelle. 
     ```
-    New-CsOnlinePSTNGateway -Identity sbc.contoso.com -Enabled $true -SipSignallingPort 5067 
+    New-CsOnlinePSTNGateway -Fqdn sbc.contoso.com -Enabled $true -SipSignallingPort 5067 
     ```
     Pour plus d’informations, voir [Configurer le routage Direct](direct-routing-configure.md).
     
@@ -142,25 +145,25 @@ Cet article décrit comment activer le routage basé sur un emplacement pour le 
     |---------|---------|---------|
     |DEL PstnGateway:Gateway 1-EG    |    True     |   Site 1 (Delhi)      |
     |PstnGateway:Gateway 2 HYD-EG     |   True      |      Site 2 (Hyderabad)   |
-    |DEL PstnGateway:Gateway 3-PBX    |    True     |     Site 1 (Delhi)    |
-    |HYD PstnGateway:Gateway 4-PBX    |    True     |    Site 2 (Hyderabad)     |
+    |DEL PstnGateway:Gateway 3-PBX    |    False     |     Site 1 (Delhi)    |
+    |HYD PstnGateway:Gateway 4-PBX    |    False     |    Site 2 (Hyderabad)     |
 
 ## <a name="enable-location-based-routing-for-calling-policies"></a>Activer le routage basé sur l’emplacement pour l’appel de stratégies
 
 Pour appliquer un emplacement de routage pour des utilisateurs spécifiques, configurer la stratégie de voix des utilisateurs afin d’empêcher le numéro payant PTSN contournement de média. 
 
-Utiliser le ``Grant-TeamsCallingPolicy`` applet de commande pour activer le routage basé sur l’emplacement en empêchant payant PSTN de contournement.
+Utiliser le ``Grant-CsTeamsCallingPolicy`` applet de commande pour activer le routage basé sur l’emplacement en empêchant payant PSTN de contournement.
 
 ```
-Grant-TeamsCallingPolicy -PolicyName <policy name> -id <user id> 
+Grant-CsTeamsCallingPolicy -PolicyName <policy name> -id <user id> 
 ```
 Dans cet exemple, nous empêcher PSTN payant contournement de média à l’utilisateur1 stratégies de l’appel. 
 
 ```
-Grant-TeamsCallingPolicy –PolicyName “AllowCallingPreventTollBypass” -id “User1” 
+Grant-CsTeamsCallingPolicy –PolicyName “AllowCallingPreventTollBypass” -id “User1” 
 ```
 
 ### <a name="related-topics"></a>Rubriques connexes
-- [Planifier le routage par emplacement pour le routage Direct](location-based-routing-plan.md)
-- [Configurer les paramètres réseau pour le routage basé sur l’emplacement](location-based-routing-configure-network-settings.md)
-- [Terminologie de routage basée sur l’emplacement](location-based-routing-terminology.md)
+- [Planifier le routage géodépendant pour le routage direct](location-based-routing-plan.md)
+- [Configurer les paramètres de réseau pour le routage géodépendant](location-based-routing-configure-network-settings.md)
+- [Terminologie du routage géodépendant](location-based-routing-terminology.md)

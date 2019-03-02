@@ -1,5 +1,5 @@
 ---
-title: Terminologie de routage basée sur l’emplacement
+title: Terminologie du routage géodépendant
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -10,17 +10,20 @@ ms.service: msteams
 search.appverid: MET150
 description: Découvrez la terminologie et concepts associés à routage basé sur un emplacement pour le routage Direct.
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+ms.collection:
+- Teams_ITAdmin_Help
+- Strat_SB_PSTN
+- M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7bcf4341d171f8b9faf8c11bbe8d85503cf2240b
-ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
+ms.openlocfilehash: 122ded988b9bf3c2cd8d439e84cb132e3a3f690d
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "29770999"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352330"
 ---
-# <a name="location-based-routing-terminology"></a>Terminologie de routage basée sur l’emplacement
+# <a name="location-based-routing-terminology"></a>Terminologie du routage géodépendant
 
 > [!INCLUDE [Preview customer token](includes/preview-feature.md)] 
 
@@ -34,6 +37,6 @@ Voici quelques termes et les concepts utilisés dans la documentation de routage
 |Adresse IP externe de confiance    |Les adresses IP externes approuvés sont les adresses IP externes d’Internet du réseau d’entreprise. Ils déterminent si le point de terminaison de l’utilisateur est à l’intérieur du réseau d’entreprise avant de vérification pour une correspondance de site spécifique. Si l’adresse IP externe de l’utilisateur correspond à une adresse IP qui est définie dans la liste approuvée, en fonction de routage vérifie le sous-réseau interne où se trouve le point de terminaison de l’utilisateur. Si l’adresse IP externe de l’utilisateur ne correspond à n’importe quelle adresse IP qui est défini dans la liste approuvée, le point de terminaison est classé comme étant situé à un emplacement inconnu et tous les appels PSTN vers ou à partir d’un utilisateur qui est activé pour le routage basé sur l’emplacement sont bloquées.          |
 
 ### <a name="related-topics"></a>Rubriques connexes
-- [Planifier le routage par emplacement pour le routage Direct](location-based-routing-plan.md)
-- [Configurer les paramètres réseau pour le routage basé sur l’emplacement](location-based-routing-configure-network-settings.md)
-- [Activer le routage par emplacement pour le routage Direct](location-based-routing-enable.md)
+- [Planifier le routage géodépendant pour le routage direct](location-based-routing-plan.md)
+- [Configurer les paramètres de réseau pour le routage géodépendant](location-based-routing-configure-network-settings.md)
+- [Activer le routage géodépendant pour le routage direct](location-based-routing-enable.md)

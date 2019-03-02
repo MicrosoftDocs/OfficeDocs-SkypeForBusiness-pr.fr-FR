@@ -1,5 +1,5 @@
 ---
-title: Différents types de numéros de téléphone utilisés pour les offres d'appel
+title: Différents types de numéros de téléphone utilisés pour les appels d’offre
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -7,14 +7,13 @@ ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
 ms.assetid: 26602564-0f15-44e6-a27b-c8f26668ba7f
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
+- M365-voice
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -24,14 +23,14 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Skype pour Business Online utilise les types de numéros de téléphone en fonction de l’objectif pour lequel vous souhaitez utiliser le numéro de téléphone.
-ms.openlocfilehash: 9da7fdac03d174e2c503c24658d5c98ef5bdb006
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 80a3c4b0b5eaf205b92af3be9a018fc4e152cda6
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047994"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30353337"
 ---
-# <a name="different-kinds-of-phone-numbers-used-for-calling-plans"></a>Différents types de numéros de téléphone utilisés pour les offres d'appel
+# <a name="different-kinds-of-phone-numbers-used-for-calling-plans"></a>Différents types de numéros de téléphone utilisés pour les appels d’offre
 
 Skype pour Business Online utilise les types de numéros de téléphone en fonction de l’objectif pour lequel vous souhaitez utiliser le numéro de téléphone. Skype pour Business Online utilise des numéros **d’abonné** , qui peuvent être affectés aux utilisateurs de votre organisation et de **service** , qui sont affectés à des services tels que la conférence dans Office 365, les standards automatiques ou appeler des files d’attente. Numéros de téléphone service ont un nombre *supérieure simultanées appeler la capacité* à abonné (ou utilisateur). Numéros de téléphone de service sont disponibles mais varient selon le pays/la région et le type de numéro (si elle est un numéro payant ou un numéro gratuit). Si vous devez supplémentaires ou d’autres types de numéro autre que ces numéros dans le Skype entreprise centre d’administration, vous pouvez soumettre une demande de numéro de téléphone au Microsoft téléphone numéro service d’assistance.
   

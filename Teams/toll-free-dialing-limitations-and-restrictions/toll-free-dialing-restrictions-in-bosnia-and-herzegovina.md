@@ -1,5 +1,5 @@
 ---
-title: Restrictions d’appel gratuit dans Bosnie-Herzégovine
+title: Restrictions de numérotation gratuit dans Bosnie-Herzégovine
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -7,12 +7,11 @@ ms.reviewer: mikedav, oscarr
 ms.topic: article
 ms.assetid: d8f9ab66-dd1a-4d1e-86de-c9092cbb9707
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -24,14 +23,14 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Cela vous permettra de savoir comment composer des numéros gratuits dans chaque pays/région. Une fois que vous sélectionnez la pays/région, il vous dirige vers une page spécifique qui contient des détails plus spécifiques, les restrictions et les limites de la disponibilité du service gratuit où service gratuit est disponible. Le format de numérotation ou formats affichera les codes d’accès requis dans chaque pays/région de composer le numéro d’appel gratuit.
-ms.openlocfilehash: 1ede843eb8cd5b9c854023556a4b3a300e30b2fd
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 382b30e63c3d74f8050f4f03b03cd8688846264d
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30046479"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30353361"
 ---
-# <a name="toll-free-dialing-restrictions-in-bosnia-and-herzegovina"></a>Restrictions d’appel gratuit dans Bosnie-Herzégovine
+# <a name="toll-free-dialing-restrictions-in-bosnia-and-herzegovina"></a>Restrictions de numérotation gratuit dans Bosnie-Herzégovine
 
 [Trouver un autre pays ou région](../toll-free-dialing-limitations-and-restrictions.md), ou en savoir plus sur les restrictions et les limitations de composer le numéro gratuit.
 

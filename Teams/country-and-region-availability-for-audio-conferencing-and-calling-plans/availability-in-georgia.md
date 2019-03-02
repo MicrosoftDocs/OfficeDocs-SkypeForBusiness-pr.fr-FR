@@ -1,5 +1,5 @@
 ---
-title: Disponibilité en Géorgie
+title: Disponibilité en Georgie
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -7,12 +7,11 @@ ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: dda0070b-16ec-43ca-ac81-e390aea630d2
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -26,14 +25,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour Géorgie.
-ms.openlocfilehash: 670fa5b1d0d1df54a73f2917b137ec4a04c190df
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 403116127dd3aae874fe78601db915fe6c60c49a
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30046463"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352969"
 ---
-# <a name="availability-in-georgia"></a>Disponibilité en Géorgie
+# <a name="availability-in-georgia"></a>Disponibilité en Georgie
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ou renseignez-vous sur la disponibilité des forfaits d'appels et d'audioconférence selon les régions et les pays.
 
