@@ -3,15 +3,15 @@ title: Partage d’appel et prise d’appel de groupe dans Microsoft Teams
 ms.author: lolaj
 author: lolaj
 manager: serdars
-ms.date: 01/16/19
+ms.date: 02/19/2019
 ms.reviewer: srividhc
 ms.topic: article
 ms.tgt.pltfrm: cloud
-ms.service:
-- msteams
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
+- M365-voice
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Appeler le partage et de groupe ou d’appel permettre aux utilisateurs de partager les appels entrants avec vos collègues afin que les appels peuvent être capturés lorsque l’utilisateur n’est pas disponible.
-ms.openlocfilehash: 31df45d0420457528fd517c851b845a09cab32e0
-ms.sourcegitcommit: 0fcca2d8303da82cc00a504f4183bee50ab23eea
+ms.openlocfilehash: df98dd4df064b23b687ddcc569e6c5a431137527
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28328316"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30351329"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Partage d’appel et prise d’appel de groupe dans Microsoft Teams
 
@@ -48,7 +48,7 @@ Pour configurer le groupe ou d’appel, un utilisateur configure d’abord un gr
 
 Appels création d’un groupe et notification préférences sont effectuées par les utilisateurs des fonctionnalités ; les administrateurs inutile de configurer ces fonctionnalités pour les utilisateurs. Groupes d’appel ne peut pas être créés à partir des groupes de sécurité ou Office 365 ; ils doivent être créés dans les équipes.
 
-Administrateurs ne peuvent pas empêcher les utilisateurs de création de groupes et de modifier les autres paramètres pickup appel. La fonctionnalité n’est pas bloquée.
+Administrateurs doivent activer les groupes d’appel via le paramètre **TeamsCallingPolicy AllowCallGroups** pour un utilisateur. Les administrateurs peuvent contrôler uniquement si cet utilisateur peut configurer des groupes d’appel. Une fois que le bit est défini sur true, administrateurs ne peuvent pas empêcher les utilisateurs de configuration et en ajoutant les utilisateurs de groupe d’appel de leur choix.
 
 ## <a name="limitations"></a>Limitations
 

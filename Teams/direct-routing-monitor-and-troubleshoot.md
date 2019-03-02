@@ -5,22 +5,20 @@ author: CarolynRowe
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
-ms.service:
-- msteams
-- skype-for-business-online
-ms.prod: skype-for-business-itpro
+ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
-ms.collection: Teams_ITAdmin_Help
-appliesto:
-- Microsoft Teams
+ms.collection:
+- Teams_ITAdmin_Help
+- M365-voice
+appliesto: Microsoft Teams
 description: Cet article décrit comment analyser et résoudre les problèmes de votre configuration de routage Direct.
-ms.openlocfilehash: 46fd5ad046551d30bf3822d11864edc2a5353a26
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 75f116004c0385aa7d13b0173380221304590814
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014932"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30350985"
 ---
 # <a name="monitor-and-troubleshoot-direct-routing"></a>Surveiller et résoudre les problèmes de routage Direct
 
@@ -46,7 +44,7 @@ Le diagramme suivant illustre un exemple de la configuration :
 
 ![Exemple de configuration des options SIP](media/sip-options-config-example.png)
 
-Lorsqu’un utilisateur effectue un appel vers le numéro +1 425 \<7 chiffres >, routage Direct évalue l’itinéraire. Il existe deux SBCs dans l’itinéraire : sbc1.contoso.com et sbc2.contoso.com. Les deux SBCs ont une priorité équivalente dans l’itinéraire. Avant de choisir un contrôleur SBC, le mécanisme d’acheminement évalue l’intégrité des SBCs basé sur lorsque le contrôleur SBC envoyé les Options SIP heure de la dernière. 
+Lorsqu’un utilisateur effectue un appel vers le numéro +1 425 \<les sept digits>, routage Direct évalue l’itinéraire. Il existe deux SBCs dans l’itinéraire : sbc1.contoso.com et sbc2.contoso.com. Les deux SBCs ont une priorité équivalente dans l’itinéraire. Avant de choisir un contrôleur SBC, le mécanisme d’acheminement évalue l’intégrité des SBCs basé sur lorsque le contrôleur SBC envoyé les Options SIP heure de la dernière. 
 
 Un contrôleur SBC est considéré comme sain si statistiques au moment de l’envoi de l’appel indique que le contrôleur SBC envoie les Options à intervalles réguliers.  
 

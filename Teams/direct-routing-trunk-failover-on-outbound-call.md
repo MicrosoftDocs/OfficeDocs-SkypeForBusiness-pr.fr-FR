@@ -6,22 +6,20 @@ manager: serdars
 ms.audience: ITPro
 ms.reviewer: NMuravlyannikov
 ms.topic: article
-ms.service:
-- msteams
-- skype-for-business-online
-ms.prod: skype-for-business-itpro
+ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
-ms.collection: Teams_ITAdmin_Help
-appliesto:
-- Microsoft Teams
+ms.collection:
+- Teams_ITAdmin_Help
+- M365-voice
+appliesto: Microsoft Teams
 description: Lisez cette rubrique pour savoir comment gérer les basculements de jonction pour les appels sortants à partir des équipes pour le contrôleur de Session en périphérie (SBC).
-ms.openlocfilehash: bab62130c060b4bfadd633c86dd75caf98b07a46
-ms.sourcegitcommit: 4e6b39e7421ea6eb03c524bb6b8e597c1966bad1
+ms.openlocfilehash: 1a40cc3fa94bfba3c637769774f5f5b829d29ed4
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "30056594"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30351105"
 ---
 # <a name="trunk-failover-on-outbound-calls"></a>Basculement de jonction sur les appels sortants
 
