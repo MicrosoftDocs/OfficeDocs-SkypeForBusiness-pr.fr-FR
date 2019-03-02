@@ -1,5 +1,5 @@
 ---
-title: Restrictions de composer le numéro gratuit en Inde
+title: Restrictions de numérotation gratuit en Inde
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -7,12 +7,11 @@ ms.reviewer: mikedav, oscarr
 ms.topic: article
 ms.assetid: d9e0809c-633d-4ee9-891b-ff4282789da5
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 appliesto:
 - Skype for Business
@@ -23,33 +22,33 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Cela vous permettra de savoir comment composer des numéros gratuits dans chaque pays/région. Une fois que vous sélectionnez la pays/région, il vous dirige vers une page spécifique qui contient des détails plus spécifiques, les restrictions et les limites de la disponibilité du service gratuit où service gratuit est disponible. Le format de numérotation ou formats affichera les codes d’accès requis dans chaque pays/région de composer le numéro d’appel gratuit.
-ms.openlocfilehash: 0a1ee2ba5d2c56c626fcab24726997fa1f173205
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 4aadb8fed90a99aa319b8be02cbbfcbe0c023083
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30046973"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30350969"
 ---
-# <a name="toll-free-dialing-restrictions-in-india"></a><span data-ttu-id="2d3e1-105">Restrictions de composer le numéro gratuit en Inde</span><span class="sxs-lookup"><span data-stu-id="2d3e1-105">Toll-free dialing restrictions in India</span></span>
+# <a name="toll-free-dialing-restrictions-in-india"></a><span data-ttu-id="f1d6c-105">Restrictions de numérotation gratuit en Inde</span><span class="sxs-lookup"><span data-stu-id="f1d6c-105">Toll-free dialing restrictions in India</span></span>
 
-<span data-ttu-id="2d3e1-106">[Trouver un autre pays ou région](../toll-free-dialing-limitations-and-restrictions.md), ou en savoir plus sur les restrictions et les limitations de composer le numéro gratuit.</span><span class="sxs-lookup"><span data-stu-id="2d3e1-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
+<span data-ttu-id="f1d6c-106">[Trouver un autre pays ou région](../toll-free-dialing-limitations-and-restrictions.md), ou en savoir plus sur les restrictions et les limitations de composer le numéro gratuit.</span><span class="sxs-lookup"><span data-stu-id="f1d6c-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
 
 
-|<span data-ttu-id="2d3e1-107">**Détails**</span><span class="sxs-lookup"><span data-stu-id="2d3e1-107">**Details**</span></span>|<span data-ttu-id="2d3e1-108">**Description**</span><span class="sxs-lookup"><span data-stu-id="2d3e1-108">**Description**</span></span>|
+|<span data-ttu-id="f1d6c-107">**Détails**</span><span class="sxs-lookup"><span data-stu-id="f1d6c-107">**Details**</span></span>|<span data-ttu-id="f1d6c-108">**Description**</span><span class="sxs-lookup"><span data-stu-id="f1d6c-108">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="2d3e1-109">Est gratuit appelant disponibles ?</span><span class="sxs-lookup"><span data-stu-id="2d3e1-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="2d3e1-110">Oui</span><span class="sxs-lookup"><span data-stu-id="2d3e1-110">Yes</span></span>  <br/> |
-|<span data-ttu-id="2d3e1-111">Formats de numérotation</span><span class="sxs-lookup"><span data-stu-id="2d3e1-111">Dialing format(s)</span></span>  <br/> |<span data-ttu-id="2d3e1-112">000 800 XXX XXXX</span><span class="sxs-lookup"><span data-stu-id="2d3e1-112">000 800 XXX XXXX</span></span>  <br/> |
-|<span data-ttu-id="2d3e1-113">Code de pays/région ISO</span><span class="sxs-lookup"><span data-stu-id="2d3e1-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="2d3e1-114">IND</span><span class="sxs-lookup"><span data-stu-id="2d3e1-114">IND</span></span>  <br/> |
-|<span data-ttu-id="2d3e1-115">Île/territoire couvert</span><span class="sxs-lookup"><span data-stu-id="2d3e1-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="2d3e1-116">Non applicable</span><span class="sxs-lookup"><span data-stu-id="2d3e1-116">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="2d3e1-117">Île/territoire non couvert</span><span class="sxs-lookup"><span data-stu-id="2d3e1-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="2d3e1-118">Non applicable</span><span class="sxs-lookup"><span data-stu-id="2d3e1-118">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="2d3e1-119">Disponibilité de la ligne filaire/fixe</span><span class="sxs-lookup"><span data-stu-id="2d3e1-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="2d3e1-120">Partiel.</span><span class="sxs-lookup"><span data-stu-id="2d3e1-120">Partial.</span></span> <span data-ttu-id="2d3e1-121">Voir les commentaires.</span><span class="sxs-lookup"><span data-stu-id="2d3e1-121">See comments.</span></span>  <br/> |
-|<span data-ttu-id="2d3e1-122">Disponibilité de réseau mobile</span><span class="sxs-lookup"><span data-stu-id="2d3e1-122">Mobile network availability</span></span>  <br/> |<span data-ttu-id="2d3e1-123">Partiel.</span><span class="sxs-lookup"><span data-stu-id="2d3e1-123">Partial.</span></span> <span data-ttu-id="2d3e1-124">Voir les commentaires.</span><span class="sxs-lookup"><span data-stu-id="2d3e1-124">See comments.</span></span>  <br/> |
-|<span data-ttu-id="2d3e1-125">Commentaires, les restrictions et les problèmes d’accès</span><span class="sxs-lookup"><span data-stu-id="2d3e1-125">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="2d3e1-126">Accès aux disponible sur les réseaux suivants : boucle Mobile, BSNL - fixe (toutes les régions mais Bhopal), Vodafone, idée/épices (toutes les régions mais épices Punjab), MTS Inde/Shyam (fixé), MTNL - fixé &amp; mobile, dépendance (toutes les régions mais Ahmedabad, Bhopal, Bhuneswer Jaipur, Lucknow, Meerut), TTML &amp; TTSL (fixe &amp; POSTPAYÉE), Tata DoCoMo, HFCL Infotel/Ping Mobile, S-téléphone Mobile, Uninor, Videocon Mobile, BSNL mobiles, Bharti/Airtel réseau.</span><span class="sxs-lookup"><span data-stu-id="2d3e1-126">Access available from the following networks: Loop Mobile, BSNL - fixed (all regions but Bhopal), Vodafone, IDEA/SPICE (all regions but Punjab Spice), MTS India/Shyam (fixed), MTNL - fixed &amp; mobile, Reliance (all regions but Ahmedabad, Bhopal, Bhuneswer, Jaipur, Lucknow, Meerut), TTML &amp; TTSL (fixed &amp; postpaid), Tata DoCoMo, HFCL Infotel/Ping Mobile, S-Tel Mobile, Uninor, Videocon Mobile, BSNL-mobile, Bharti/Airtel network.</span></span>  <br/> <span data-ttu-id="2d3e1-127">Accès non disponible dans les réseaux suivants : TTSL (prépayé), télécommunications de base de données Etisalat et Jio.</span><span class="sxs-lookup"><span data-stu-id="2d3e1-127">Access not available from the following networks : TTSL (Prepaid), Etisalat DB Telecom and Jio.</span></span>  <br/> |
+|<span data-ttu-id="f1d6c-109">Est gratuit appelant disponibles ?</span><span class="sxs-lookup"><span data-stu-id="f1d6c-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="f1d6c-110">Oui</span><span class="sxs-lookup"><span data-stu-id="f1d6c-110">Yes</span></span>  <br/> |
+|<span data-ttu-id="f1d6c-111">Formats de numérotation</span><span class="sxs-lookup"><span data-stu-id="f1d6c-111">Dialing format(s)</span></span>  <br/> |<span data-ttu-id="f1d6c-112">000 800 XXX XXXX</span><span class="sxs-lookup"><span data-stu-id="f1d6c-112">000 800 XXX XXXX</span></span>  <br/> |
+|<span data-ttu-id="f1d6c-113">Code de pays/région ISO</span><span class="sxs-lookup"><span data-stu-id="f1d6c-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="f1d6c-114">IND</span><span class="sxs-lookup"><span data-stu-id="f1d6c-114">IND</span></span>  <br/> |
+|<span data-ttu-id="f1d6c-115">Île/territoire couvert</span><span class="sxs-lookup"><span data-stu-id="f1d6c-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="f1d6c-116">Non applicable</span><span class="sxs-lookup"><span data-stu-id="f1d6c-116">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="f1d6c-117">Île/territoire non couvert</span><span class="sxs-lookup"><span data-stu-id="f1d6c-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="f1d6c-118">Non applicable</span><span class="sxs-lookup"><span data-stu-id="f1d6c-118">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="f1d6c-119">Disponibilité de la ligne filaire/fixe</span><span class="sxs-lookup"><span data-stu-id="f1d6c-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="f1d6c-120">Partiel.</span><span class="sxs-lookup"><span data-stu-id="f1d6c-120">Partial.</span></span> <span data-ttu-id="f1d6c-121">Voir les commentaires.</span><span class="sxs-lookup"><span data-stu-id="f1d6c-121">See comments.</span></span>  <br/> |
+|<span data-ttu-id="f1d6c-122">Disponibilité de réseau mobile</span><span class="sxs-lookup"><span data-stu-id="f1d6c-122">Mobile network availability</span></span>  <br/> |<span data-ttu-id="f1d6c-123">Partiel.</span><span class="sxs-lookup"><span data-stu-id="f1d6c-123">Partial.</span></span> <span data-ttu-id="f1d6c-124">Voir les commentaires.</span><span class="sxs-lookup"><span data-stu-id="f1d6c-124">See comments.</span></span>  <br/> |
+|<span data-ttu-id="f1d6c-125">Commentaires, les restrictions et les problèmes d’accès</span><span class="sxs-lookup"><span data-stu-id="f1d6c-125">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="f1d6c-126">Accès aux disponible sur les réseaux suivants : boucle Mobile, BSNL - fixe (toutes les régions mais Bhopal), Vodafone, idée/épices (toutes les régions mais épices Punjab), MTS Inde/Shyam (fixé), MTNL - fixé &amp; mobile, dépendance (toutes les régions mais Ahmedabad, Bhopal, Bhuneswer Jaipur, Lucknow, Meerut), TTML &amp; TTSL (fixe &amp; POSTPAYÉE), Tata DoCoMo, HFCL Infotel/Ping Mobile, S-téléphone Mobile, Uninor, Videocon Mobile, BSNL mobiles, Bharti/Airtel réseau.</span><span class="sxs-lookup"><span data-stu-id="f1d6c-126">Access available from the following networks: Loop Mobile, BSNL - fixed (all regions but Bhopal), Vodafone, IDEA/SPICE (all regions but Punjab Spice), MTS India/Shyam (fixed), MTNL - fixed &amp; mobile, Reliance (all regions but Ahmedabad, Bhopal, Bhuneswer, Jaipur, Lucknow, Meerut), TTML &amp; TTSL (fixed &amp; postpaid), Tata DoCoMo, HFCL Infotel/Ping Mobile, S-Tel Mobile, Uninor, Videocon Mobile, BSNL-mobile, Bharti/Airtel network.</span></span>  <br/> <span data-ttu-id="f1d6c-127">Accès non disponible dans les réseaux suivants : TTSL (prépayé), télécommunications de base de données Etisalat et Jio.</span><span class="sxs-lookup"><span data-stu-id="f1d6c-127">Access not available from the following networks : TTSL (Prepaid), Etisalat DB Telecom and Jio.</span></span>  <br/> |
    
-## <a name="related-topics"></a><span data-ttu-id="2d3e1-128">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="2d3e1-128">Related topics</span></span>
-[<span data-ttu-id="2d3e1-129">Restrictions et les limitations de composer le numéro gratuit</span><span class="sxs-lookup"><span data-stu-id="2d3e1-129">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
+## <a name="related-topics"></a><span data-ttu-id="f1d6c-128">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="f1d6c-128">Related topics</span></span>
+[<span data-ttu-id="f1d6c-129">Restrictions et les limitations de composer le numéro gratuit</span><span class="sxs-lookup"><span data-stu-id="f1d6c-129">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
 
-[<span data-ttu-id="2d3e1-130">Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="2d3e1-130">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
+[<span data-ttu-id="f1d6c-130">Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="f1d6c-130">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
 
   
  
