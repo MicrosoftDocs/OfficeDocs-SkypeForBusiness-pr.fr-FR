@@ -1,5 +1,5 @@
 ---
-title: Utiliser des fichiers journaux pour le dépannage de Microsoft Teams
+title: Utiliser les fichiers journaux pour le dépannage de Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -13,12 +13,12 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: bf42d76e1e17dc81b1c3d0ab603050c6e2d25d71
 ms.sourcegitcommit: ea6ee8ce28e82fcd7c07554c3428ae242d6f04da
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 12/07/2018
 ms.locfileid: "27201332"
 ---
-<a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Utiliser des fichiers journaux pour le dépannage de Microsoft Teams
+<a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Utiliser les fichiers journaux pour le dépannage de Microsoft Teams
 =================================================
 
 Il existe trois types de fichiers journaux générés par le client et qui peuvent être utilisés pour le dépannage de Microsoft Teams.
@@ -34,11 +34,11 @@ Lors de la création d'une demande de support auprès du Support Microsoft, l'in
 Le tableau suivant présente les différents clients et les journaux associés. Les fichiers journaux sont stockés dans des emplacements spécifiques au client et au système d'exploitation.
 
 
-|Client |Debogage|Bureau|Médias|
+|Client |Debug|Bureau|Media|
 |---------|---------|---------|---------|
 |Web    |X         |-         |-         |
 |Windows     |X         |X         |X         |
-|Mac OSX     |X         |X         |X         |
+|Mac OSX     |X         |X         |X         |
 |iOS     |-         |-         |-         |
 |Android     |-         |-         |-         |
 
@@ -47,7 +47,7 @@ Pour obtenir la liste complète des systèmes d’exploitation et navigateurs pr
 <a name="debug-logs"></a>Journaux de débogage
 ---------------------------
 
-Ces se trouvent les journaux les plus courants et sont requis pour tous les cas de support technique Microsoft. Déboguer les journaux sont générées par les clients de bureau Windows et Mac, ainsi que les clients basé sur un navigateur. Les journaux sont texte et en lecture à partir du bas en. Qu’ils peuvent être lus à l’aide de n’importe quel éditeur de texte en fonction et nouveaux journaux sont créés lors de la connexion dans le client.
+Il s’agit des journaux les plus courants. Ils sont requis pour tous les cas de support Microsoft. Les journaux de débogage sont générés par les clients de bureau Windows et Mac, ainsi que par les clients reposant sur un navigateur. Il s’agit de fichiers texte qui sont lus de bas en haut. Ils peuvent être lus à l’aide de n’importe quel éditeur de texte. En outre, des journaux sont créés lors de la connexion au client.
 
 Les journaux de débogage contiennent les flux de données suivants :
 
@@ -81,9 +81,9 @@ Les journaux de débogage sont automatiquement téléchargés dans les dossiers 
 Les journaux des médias contiennent des données de diagnostic sur les appels audio, vidéo et le partage d'écran. Ils sont requis pour les cas de support uniquement sur demande et seul Microsoft peut les lire. Le tableau suivant présente l'emplacement des journaux.
 
 
-|Client |Emplacement |
+|Client |Lieu |
 |---------|---------|
-|Windows     |%AppData%\Microsoft\Teams\media-Stack\*.etl         |
+|Windows     |%appdata%\Microsoft\Teams\media-stack\*.etl         |
 |Mac OSX     |~/Library/Application Support/Microsoft/Teams/media-stack\*.blog         |
 
 
@@ -94,15 +94,15 @@ Les journaux du bureau, également appelés journaux de programme d'amorçage, c
 
 Windows :
 
-  1.  Cliquez avec le bouton droit sur l'**icône de Microsoft Teams dans** la barre d'applications et sélectionnez **Obtenir les journaux**.
+  1.  Cliquez avec le bouton droit de la souris sur l’**icône Microsoft Teams dans la ** barre d’état de votre application, puis sélectionnez **Obtenir les journaux**.
 
   2.  Sélectionnez **Obtenir les journaux** dans le menu déroulant **Aide**.
 
-Mac OsX :
+Mac OsX :
 
 1.  Sélectionnez **Obtenir les journaux** dans le menu déroulant **Aide**.
 
-|Client |Emplacement |
+|Client |Lieu |
 |---------|---------|
-|Windows     |%AppData%\Microsoft\Teams\logs.txt         |
+|Windows     |%appdata%\Microsoft\Teams\logs.txt         |
 |Mac OSX     |~/Library/Application Support/Microsoft/Teams/logs.txt         |

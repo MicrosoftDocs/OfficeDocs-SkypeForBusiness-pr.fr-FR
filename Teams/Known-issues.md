@@ -3,7 +3,7 @@ title: Problèmes connus pour Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 2/19/2019
+ms.date: 2/25/2019
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
@@ -13,12 +13,12 @@ search.appverid: MET150
 description: Liste actuelle des problèmes connus pour l'application client et l'expérience administrateur de Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 252d1508065aaf0a26e865b8f8d8109dec81512e
-ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
+ms.openlocfilehash: 53a6a258d96777e5dc335fcecb84e9f2b7962beb
+ms.sourcegitcommit: a4f2d3440399f0a17fb8f6d364cfd2dc4b0bf8db
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "30178580"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30342102"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problèmes connus pour Microsoft Teams
 
@@ -32,7 +32,7 @@ Cet article répertorie les problèmes connus concernant Microsoft Teams, par f
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
-|La stratégie EAF dans le kit de ressources pour une expérience de migration améliorée (EMET) peut identifier de manière incorrecte les optimisations du sandbox Chromium comme des menaces. <br/> |Un problème a été identifié avec le sandbox Chromium, la stratégie de filtrage de l’accès à la table d’exportation des adresses (EAF) dans le kit de ressources pour une expérience de migration améliorée (EMET) et dans la protection avancée contre les menaces Windows Defender (ATP) pouvant identifier de manière incorrecte les optimisations du sandbox Chromium comme des menaces. Cela entraîne un fonctionnement incorrect de Teams.  <br/> | Pour résoudre ce problème, désactivez EAF pour Teams. Vous trouverez plus d'informations sur le problème dans les [Directives d’atténuation EMET](https://support.microsoft.com/en-us/help/2909257/emet-mitigations-guidelines) Pour des informations complémentaires sur Windows Defender ATP et la stratégie EAF, reportez-vous à la rubrique [Personnaliser la protection contre les attaques](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/customize-exploit-protection) <br/> |11/10/2018 <br/> |
+|La stratégie EAF dans le kit de ressources pour une expérience de migration améliorée (EMET) peut identifier de manière incorrecte les optimisations du sandbox Chromium comme des menaces. <br/> |Un problème a été identifié avec le sandbox Chromium, la stratégie de filtrage de l’accès à la table d’exportation des adresses (EAF) dans le kit de ressources pour une expérience de migration améliorée (EMET) et dans la protection avancée contre les menaces Windows Defender (ATP) pouvant identifier de manière incorrecte les optimisations du sandbox Chromium comme des menaces. Cela entraîne un fonctionnement incorrect de Teams.  <br/> | Pour résoudre ce problème, désactivez EAF pour Teams. Vous trouverez plus d'informations sur le problème dans les [Directives d’atténuation EMET](https://support.microsoft.com/fr-FR/help/2909257/emet-mitigations-guidelines) Pour des informations complémentaires sur Windows Defender ATP et la stratégie EAF, reportez-vous à la rubrique [Personnaliser la protection contre les attaques](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/customize-exploit-protection) <br/> |11/10/2018 <br/> |
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
@@ -43,6 +43,10 @@ Cet article répertorie les problèmes connus concernant Microsoft Teams, par f
 |La gestion des administrateurs des connecteurs à l’échelle du client n’est plus disponible  <br/> |Lorsque l’on tente d’ajouter un connecteur dans le client et la version en ligne, l’erreur suivante s’affiche : Une erreur inattendue s'est produite. Veuillez réessayer. Set-OrganizationConfig -ConnectorsEnabled=True   <br/> |Désactivez les paramètres avec Teams. Reportez-vous à cet article de l’assistance. https://answers.microsoft.com/en-us/msoffice/forum/msoffice_o365admin-mso_teams-mso_o365b/how-to-enable-or-disable-connectors-in-office-365/33d4b2c1-00eb-420a-ad83-01a2b42ad098    <br/> |21/06/17  <br/> |
 
 ## <a name="apps"></a>Applications
+
+|**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
+|:-----|:-----|:-----|:-----|
+|L’[accès conditionnel](https://docs.microsoft.com/fr-FR/azure/active-directory/conditional-access/overview) peut ne pas fonctionner lors de l’utilisation de l’onglet « Site web » dans l’application de bureau.<br/> |Si un site web, tel qu’un portail intranet, est doté de stratégies d’accès conditionnel (par exemple, des restrictions d’adresse IP ou de navigateur), le site web peut ne pas s’afficher sous forme d’onglet dans Teams dans l’application de bureau. <br/> |Utilisez Teams dans un navigateur plutôt que dans l’application de bureau.  <br/> |01/07/18  <br/> |
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
@@ -226,6 +230,10 @@ Cet article répertorie les problèmes connus concernant Microsoft Teams, par f
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
+|Onglet de site web source de confusion pour les clients  <br/> |Les onglets de site web ne sont pas équivalents à votre navigateur. Un certain nombre de sites, particulièrement ceux qui requièrent une authentification ou l’utilisation de fenêtres contextuelles, ne fonctionneront pas s’ils sont épinglés en tant qu’onglet de site web.  <br/> |Nous nous efforçons d’améliorer l’interface utilisateur pour que cela soit plus clair pour les clients.  <br/> |02/05/2018  <br/>|
+
+|**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
+|:-----|:-----|:-----|:-----|
 |Onglets qui ne fonctionnent pas depuis l’accès conditionnel a été activé <br/> |Certains onglets peuvent ne plus se charger dans le client de bureau depuis que l’accès conditionnel a été activé sur le client. Les onglets se chargent lorsque le client web est utilisé. Certains onglets pouvant être affectés sont les suivants : PowerBI, VSTS, PowerApps et liste SharePoint.  <br/> |Pour afficher les onglets concernés, vous devez utiliser Teams dans Edge, IE ou Chrome avec l’extension de comptes Windows 10 installée. Certains onglets dépendent toujours de l’authentification web, qui ne fonctionne pas dans le client de bureau lorsqu’une autorité de certification est activée. Nous travaillons avec des partenaires pour activer ces scénarios ; nous avons activé jusqu’à présent le Planificateur, OneNote et Stream. <br/> |05/04/2018  <br/>|
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
@@ -282,3 +290,6 @@ Cet article répertorie les problèmes connus concernant Microsoft Teams, par f
 |:-----|:-----|:-----|:-----|
 |Application de bureau Teams affichant un écran blanc  <br/> | <br/> |Essayez de supprimer ou de réinstaller les pilotes graphiques sur l’ordinateur, ou démarrez Teams depuis une ligne de commande avec un indicateur de désactivation du GPU :<ul><li>Pour Windows : ouvrez l'invite de commande et entrez la commande suivante : `cd %localappdata%\microsoft\teams\current run Teams.exe --disable-gpu`</li><li>Pour Mac : démarrez le Terminal et entrez la commande suivante : `cd \Applications folder Microsoft\ Teams.app/Contents/MacOS/Teams --disable-gpu`</li></ul> <br/> |<br/> |
 
+|**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
+|:-----|:-----|:-----|:-----|
+|L’utilisateur ne reçoit pas d’e-mail de bienvenue lorsqu’il est ajouté par l’administrateur.  <br/> |Lors de l’ajout d’un membre à une équipe à l’aide de PowerShell ou du centre d’administration Teams, le membre ne reçoit pas d’e-mail de bienvenue de Microsoft Teams.  <br/> |L’ajout d’un membre directement à partir de l’interface utilisateur de Teams entraîne l’envoi d’un e-mail. Actuellement, il n’existe aucun contournement permettant de réaliser cette action via l’administration.  <br/> |12/02/19  <br/> |
