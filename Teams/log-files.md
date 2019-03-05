@@ -94,7 +94,7 @@ Les journaux du bureau, également appelés journaux de programme d'amorçage, c
 
 Windows :
 
-  1.  Cliquez avec le bouton droit de la souris sur l’**icône Microsoft Teams dans la ** barre d’état de votre application, puis sélectionnez **Obtenir les journaux**.
+  1.  Cliquez avec le bouton droit de la souris sur l’**icône Microsoft Teams dans la** barre d’état de votre application, puis sélectionnez **Obtenir les journaux**.
 
   2.  Sélectionnez **Obtenir les journaux** dans le menu déroulant **Aide**.
 
