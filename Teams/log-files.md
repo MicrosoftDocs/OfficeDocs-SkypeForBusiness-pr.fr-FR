@@ -94,7 +94,7 @@ ms.locfileid: "27201332"
 
 <span data-ttu-id="aa533-162">Windows :</span><span class="sxs-lookup"><span data-stu-id="aa533-162">Windows:</span></span>
 
-  1.  <span data-ttu-id="aa533-163">Cliquez avec le bouton droit de la souris sur l’\*\*icône Microsoft Teams dans la \*\* barre d’état de votre application, puis sélectionnez **Obtenir les journaux**.</span><span class="sxs-lookup"><span data-stu-id="aa533-163">Right-click **the Microsoft Teams icon in** your application tray, select **Get Logs**</span></span>
+  1.  <span data-ttu-id="aa533-163">Cliquez avec le bouton droit de la souris sur l’**icône Microsoft Teams dans la** barre d’état de votre application, puis sélectionnez **Obtenir les journaux**.</span><span class="sxs-lookup"><span data-stu-id="aa533-163">Right-click **the Microsoft Teams icon in** your application tray, select **Get Logs**</span></span>
 
   2.  <span data-ttu-id="aa533-164">Sélectionnez **Obtenir les journaux** dans le menu déroulant **Aide**.</span><span class="sxs-lookup"><span data-stu-id="aa533-164">Choosing **Get Logs** from the **Help** pull-down menu</span></span>
 
