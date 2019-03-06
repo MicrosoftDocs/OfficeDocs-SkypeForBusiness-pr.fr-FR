@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 35c7bb3f-8e0f-48b7-8a2c-857d4b42a4c4
 description: 'Résumé : Passez en revue les considérations de composant réseau ci-dessous avant d’implémenter Skype pour Business Server.'
-ms.openlocfilehash: fd21ada12a8e2b05654fe6809dd5147480b0e306
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: e05e40bc460ddddc6d9576d9842ab592f16e1481
+ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27214511"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "30408171"
 ---
 # <a name="plan-network-requirements-for-skype-for-business"></a>Plan network requirements for Skype for Business
 
@@ -80,21 +80,21 @@ Le tableau suivant présente les paramètres recommandés pour les exceptions IP
 
 |Nom de la règle |Adresse IP source |Adresse IP de destination |Protocole |Port source |Port de destination |Besoin d’authentification |
 |:--- |:--- |:--- |:--- |:---|:---|:--- |
-|Serveur Edge A/V, ports internes/entrants|Indifférente  |Serveur Edge A/V - interne|UDP et TCP|Indifférente |Indifférente |Ne pas authentifier|
-|Serveur Edge A/V, ports externes/entrants|Indifférente  |Serveur Edge A/V - externe|UDP et TCP|Indifférente |Indifférente |Ne pas authentifier|
-|Serveur Edge A/V, ports internes/sortants|Serveur Edge A/V - interne  |Serveur Edge A/V - externe |UDP et TCP|Indifférente |Indifférente |Ne pas authentifier|
-|Serveur Edge A/V, ports externes/sortants|Serveur Edge A/V - externe |Indifférente |UDP et TCP|Indifférente |Indifférente |Ne pas authentifier|
-|Serveur de médiation, ports entrants|Indifférente  |Ou plusieurs serveurs de médiation |UDP et TCP|Indifférente |Indifférente |Ne pas authentifier|
-|Serveur de médiation, ports sortants|Ou plusieurs serveurs de médiation  |Indifférente|UDP et TCP|Indifférente |Indifférente |Ne pas authentifier|
-|Intendant Conférence entrant|Indifférente  |Serveur frontal exécutant l’Intendant Conférence |UDP et TCP|Indifférente |Indifférente |Ne pas authentifier|
-|Intendant Conférence sortant|Serveur frontal exécutant l’Intendant Conférence  |Indifférente|UDP et TCP|Indifférente |Indifférente |Ne pas authentifier|
-|Serveur de conférence A/V, ports entrants|Indifférente|Serveurs frontaux|UDP et TCP|Indifférente |Indifférente |Ne pas authentifier|
-|Conférence A/V, ports sortants|Serveurs frontaux|Indifférente|UDP et TCP|Indifférente |Indifférente |Ne pas authentifier|
-|Exchange, ports entrants|Indifférente|Messagerie unifiée Exchange|UDP et TCP|Indifférente |Indifférente |Ne pas authentifier|
-|Serveurs de partage d’application, ports entrants|Indifférente|Serveurs de partage d’application|UDP et TCP|Indifférente |Indifférente |Ne pas authentifier|
-|Serveur de partage d’application, ports sortants|Serveurs de partage d’application| Indifférente |UDP et TCP|Indifférente |Indifférente |Ne pas authentifier|
-|Exchange, ports sortants|Messagerie unifiée Exchange|Indifférente|UDP et TCP|Indifférente |Indifférente |Ne pas authentifier|
-|Clients| Indifférente  |Indifférente|UDP et TCP|Indifférente |Indifférente |Ne pas authentifier|
+|Serveur Edge A/V, ports internes/entrants|Indifférente  |Serveur Edge A/V - interne|UDP et TCP|Indifférente  |Indifférente |Ne pas authentifier|
+|Serveur Edge A/V, ports externes/entrants|Indifférente  |Serveur Edge A/V - externe|UDP et TCP|Indifférente  |Indifférente |Ne pas authentifier|
+|Serveur Edge A/V, ports internes/sortants|Serveur Edge A/V - interne  |Serveur Edge A/V - externe |UDP et TCP|Indifférente  |Indifférente |Ne pas authentifier|
+|Serveur Edge A/V, ports externes/sortants|Serveur Edge A/V - externe |Indifférente |UDP et TCP|Indifférente  |Indifférente |Ne pas authentifier|
+|Serveur de médiation, ports entrants|Indifférente  |Ou plusieurs serveurs de médiation |UDP et TCP|Indifférente  |Indifférente |Ne pas authentifier|
+|Serveur de médiation, ports sortants|Ou plusieurs serveurs de médiation  |Indifférente|UDP et TCP|Indifférente  |Indifférente |Ne pas authentifier|
+|Intendant Conférence entrant|Indifférente  |Serveur frontal exécutant l’Intendant Conférence |UDP et TCP|Indifférente  |Indifférente |Ne pas authentifier|
+|Intendant Conférence sortant|Serveur frontal exécutant l’Intendant Conférence  |Indifférente|UDP et TCP|Indifférente  |Indifférente |Ne pas authentifier|
+|Serveur de conférence A/V, ports entrants|Indifférente|serveurs frontaux|UDP et TCP|Indifférente  |Indifférente |Ne pas authentifier|
+|Conférence A/V, ports sortants|Serveurs frontaux|Indifférente|UDP et TCP|Indifférente  |Indifférente |Ne pas authentifier|
+|Exchange, ports entrants|Indifférente|Messagerie unifiée Exchange|UDP et TCP|Indifférente  |Indifférente |Ne pas authentifier|
+|Serveurs de partage d’application, ports entrants|Indifférente|Serveurs de partage d’application|UDP et TCP|Indifférente  |Indifférente |Ne pas authentifier|
+|Serveur de partage d’application, ports sortants|Serveurs de partage d’application| Indifférente |UDP et TCP|Indifférente  |Indifférente |Ne pas authentifier|
+|Exchange, ports sortants|Messagerie unifiée Exchange|Indifférente|UDP et TCP|Indifférente  |Indifférente |Ne pas authentifier|
+|Clients| Indifférente  |Indifférente|UDP et TCP|Indifférente  |Indifférente |Ne pas authentifier|
 |         |         |         |         |         |         |         |
 
 
@@ -137,7 +137,7 @@ La version stéréo du codec G.722 est utilisée par les systèmes basés sur Ly
 |**Codec vidéo**|**Résolution et proportions**|**Vitesse de transmission de la charge utile vidéo maximale (Kbits/s)**|**Vitesse de transmission de la charge utile vidéo minimale (Kbits/s)**|
 |:-----|:-----|:-----|:-----|
 |H.264  <br/> |320x180 (16:9)  <br/> 212x160 (4:3)  <br/> |250  <br/> |15  <br/> |
-|H.264/RTVideo  <br/> |424x240 (16:9)  <br/> 320x240 (4:3)  <br/> |350  <br/> |100  <br/> |
+|H.264/RTVideo  <br/> |424 x 240 (16:9)  <br/> 320 x 240 (4:3)  <br/> |350  <br/> |100  <br/> |
 |H.264  <br/> |480x270 (16:9)  <br/> 424x320 (4:3)  <br/> |450  <br/> |200  <br/> |
 |H.264/RTVideo  <br/> |640x360 (16:9)  <br/> 640x480 (4:3)  <br/> |800  <br/> |300  <br/> |
 |H.264  <br/> |848x480 (16:9)  <br/> |1500  <br/> |400  <br/> |

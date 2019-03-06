@@ -13,12 +13,12 @@ search.appverid: MET150
 description: Vidéos de formation, didacticiels et autres ressources pour les utilisateurs de votre organisation apprendre à utiliser des équipes.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 85500815e191363dcf8a5cd9b9c1cdd90aa769cd
-ms.sourcegitcommit: 9f767b48e5f0eaf43869cba9c42ba3ba3225bcf6
+ms.openlocfilehash: 2f1a1400b0fad924770b148e3ba3ac11fb3d35de
+ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/02/2019
-ms.locfileid: "29708551"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "30408055"
 ---
 # <a name="end-user-training-for-microsoft-teams"></a>Formation à Microsoft Teams pour les utilisateurs finaux
 

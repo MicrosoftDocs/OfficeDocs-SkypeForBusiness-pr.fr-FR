@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 84489328-64a4-486c-9384-a3e5c8ed9c8b
 description: 'Résumé : Passez en revue le considérations relatives à équilibrage avant d’implémenter Skype pour Business Server.'
-ms.openlocfilehash: 9c0153d9b366731a85070c42ed11ea1a061ee409
-ms.sourcegitcommit: ff0c4bef4d4cbc71d51fce941aff63739a0016e9
+ms.openlocfilehash: ed3572b16126ce16b423d4ffe0d60d1f84d6b3cf
+ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/21/2018
-ms.locfileid: "26626190"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "30408164"
 ---
 # <a name="load-balancing-requirements-for-skype-for-business"></a>Configuration requise pour l’équilibrage de charge pour Skype Entreprise
  
@@ -86,7 +86,7 @@ Exigences de l’affinité basée sur les cookies sont considérablement réduit
   
 Pour les déploiements qui **nʼutiliseront pas** lʼaffinité basée sur les cookies :
   
-- Dans la règle de publication du proxy inverse pour le port 4443, définissez **Forward host header** sur True afin de vous assurer que lʼURL dʼorigine est envoyée.
+- Sur la règle de publication proxy inverse pour le port 4443, définissez **l’en-tête d’hôte directe** sur True. Cela garantit que l’original URL est transféré.
     
 Pour des déploiements qui **utiliseront** lʼaffinité basée sur les cookies :
   
@@ -106,7 +106,7 @@ Pour des déploiements qui **utiliseront** lʼaffinité basée sur les cookies 
 Si vous déployez des appareils mobiles, votre équilibreur de la charge matérielle doit être capable d’équilibrer la charge d’une requête individuelle au sein d’une session TCP (en effet, vous devez être en mesure d’équilibrer la charge d’une requête individuelle en fonction de l’adresse IP cible).
   
 > [!CAUTION]
-> Les programmes d’équilibrage de la charge matérielle F5 possèdent une fonctionnalité appelée OneConnect qui permet de veiller à ce que la charge de chaque requête au sein d’une connexion TCP soit individuellement équilibrée. Si vous déployez des appareils mobiles, veillez à ce que le fournisseur de votre équilibreur de la charge matérielle prenne en charge la même fonctionnalité. Les dernières applications pour mobile iOS d’Apple requièrent la version 1.2 de TLS (Transport Layer Security). F5 fournit les paramètres spécifiques pour cela. 
+> Si vous déployez les appareils mobiles, votre équilibreur de charge matérielle doit être en mesure de charger individuellement équilibrer chaque demande au sein d’une connexion TCP. Les dernières applications pour mobile iOS d’Apple requièrent la version 1.2 de TLS (Transport Layer Security).  
   
 > [!CAUTION]
 > Pour en savoir plus sur les programmes tiers d’équilibrage de la charge matérielle, reportez-vous à [Infrastructure Skype Entreprise](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways).  

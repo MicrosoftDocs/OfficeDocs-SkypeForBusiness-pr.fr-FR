@@ -14,12 +14,12 @@ MS.collection: Teams_ITAdmin_Help
 description: Découvrez les rapports des équipes qui sont disponibles dans le centre d’administration Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8759de65058c6f2c418622df05028b3c03c94aa6
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: 6769a21e621b0259d6811daed90f43f99fdd047f
+ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "29754622"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "30408227"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Analyses et rapports Microsoft Teams
 
@@ -41,7 +41,7 @@ Nous allons amélioration continue les équipes expérience de création de rapp
 |Rapport  |Quelles données sont mesurées ? |
 |---------|---------|
 |[Rapport d’utilisation des équipes](teams-usage-report.md)  |  Utilisateurs actifs<br/>Utilisateurs actifs dans les canaux et les équipes<br/>Canaux actifs<br/>Messages<br/>Paramètre de confidentialité d’équipes<br/>Invités dans une équipe   |
-|[Rapport d’activité utilisateur équipes](user-activity-report.md)  |  1:1 des appels dans un particpated utilisateur<br/>Un utilisateur de messages publiés dans une conversation de l’équipe<br/>Un utilisateur de messages publiés dans une conversation privée<br/>Dernière date d’activité d’un utilisateur     |
+|[Rapport d’activité utilisateur équipes](user-activity-report.md)  |  un utilisateur qui a participé à des appels de 1:1<br/>Un utilisateur de messages publiés dans une conversation de l’équipe<br/>Un utilisateur de messages publiés dans une conversation privée<br/>Dernière date d’activité d’un utilisateur     |
 |[Rapport d’utilisation des équipes périphérique](device-usage-report.md)   |  Utilisateurs de Windows<br/>Utilisateurs Macintosh<br/>utilisateurs iOS<br/>Utilisateurs de téléphones Android     |
 
 > [!NOTE]

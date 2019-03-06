@@ -20,16 +20,17 @@ metadata:
   localization_priority: Normal
   search.appverid: MET150
   ms.collection:
+  - M365-voice
   - Adm_Skype4B_Online
   - Teams_ITadmin_Training
   ms.custom:
   - NewAdminCenter_Update
-  ms.openlocfilehash: c309f4882cc12c3d8ccb9a0d9bccadb6d1cd459e
-  ms.sourcegitcommit: e378b8652be6319755a04eb820761364c7faa916
+  ms.openlocfilehash: f6138e8279ca0c45c186cc3c9e60bf7952a6d14f
+  ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
   ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 02/22/2019
-  ms.locfileid: "30210769"
+  ms.lasthandoff: 03/05/2019
+  ms.locfileid: "30408367"
 items:
 - durationInMinutes: 2
   content: "\n[Skype pour les entreprises](https://support.office.com/en-us/article/Video-What-is-Skype-for-Business-3a21eca4-434d-41f1-ab06-3d4a268573b7) et les [Équipes Microsoft](/MicrosoftTeams/Teams-overview.md) font partie d’Office 365 qui fournissent la conversation, conversations téléphoniques, messagerie vocale, réunions, fichiers et applications ensemble dans un seul endroit. [**Système téléphonique**](/MicrosoftTeams/what-is-phone-system-in-office-365) ils permettent tous deux permet d’activer les fonctionnalités de PBX dans le nuage Office 365 et de contrôle d’appel. \n\nSystème téléphonique vous permet de remplacer votre système PBX existant par un [ensemble de fonctionnalités](/MicrosoftTeams/here-s-what-you-get-with-phone-system) qui incluent la messagerie vocale et les [standards automatiques](/microsoftteams/what-are-phone-system-auto-attendants), qui permettent aux personnes qui appeler votre entreprise naviguer dans un système de menus pour afficher les réponses au service droite, personne, ou Opérateur. Standards automatiques peuvent être utilisés avec équipes ou Skype pour les entreprises. Vous créez un système de standard automatique pour votre organisation à l’aide de la Skype entreprise centre d’administration.\n\nSi vous êtes invité à configurer un standard automatique, cet article vous guide vous aide à la planification et l’implémentation des standards automatiques pour une petite entreprise hypothétique. Il n’est pas une solution standard, mais il est un bon point de départ. \n\n## <a name=\"before-you-begin\"></a>Avant de commencer\n\nNous supposons que vous avez déjà effectué les éléments suivants : \n- [Configurer le système téléphonique de votre organisation](/MicrosoftTeams/setting-up-your-phone-system.md) avec un [Appel de planification](/MicrosoftTeams/what-are-calling-plans-in-office-365) pour fournir des numéros de téléphone à vos utilisateurs.\n- [Configurer la messagerie vocale du système téléphonique](/MicrosoftTeams/set-up-phone-system-voicemail.md) \n- Révisé [Quelles sont les standards automatiques de système téléphonique ?](/MicrosoftTeams/what-are-phone-system-auto-attendants.md) pour obtenir une meilleure compréhension des fonctionnalités système téléphonique qui peuvent interagir avec un standard automatique.\n\nEn outre, vous serez heureux de découvrir que la plupart de la partie de la conception et de planification peut être effectuée à l’aide d’un tableau blanc ou fiches : ayant un bon plan n’est pas techniquement exigeants.\n"
