@@ -10,15 +10,17 @@ ms.reviewer: rowille
 description: Recueillir les commentaires utilisateur pour améliorer la mise en œuvre de la voix dans le nuage dans Microsoft Teams ou Skype pour les entreprises.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d3c315588365d023f61a12aa0e2ecf8068a4aaf7
-ms.sourcegitcommit: a599bdd5057c4fc38e14b4f14961e1a6bf08ee8a
+ms.openlocfilehash: 74594c81d86bf19b80cf40ad8292517705e7e690
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/05/2018
-ms.locfileid: "25436611"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463875"
 ---
 # <a name="user-feedback-surveys"></a>Les enquêtes effectuées auprès de commentaires 
 
@@ -55,13 +57,13 @@ Si vous avez choisi **d’accord** ou **absolument pas d’accord** pour les ins
 
 Quelle est la probabilité que vous recommandiez à l’aide des équipes comme un téléphone à un ami ou un collègue ? (0 ne = pas du tout prêt... 10 = très probablement)
 
-| 0      | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
+| 0      | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |  10 |
 |--------|---|---|---|---|---|---|---|---|---|---|----|
 |&nbsp; |&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 
 Quelle est la probabilité que vous recommandiez votre appareil téléphonique à un ami ou un collègue ? (0 ne = pas du tout prêt... 10 = très probablement)  
 
-| 0      | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
+| 0      | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |  10 |
 |--------|---|---|---|---|---|---|---|---|---|---|----|
 |&nbsp; |&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 

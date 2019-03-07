@@ -9,7 +9,7 @@ ms.assetid: 01085d53-64d7-40ea-ade2-c73a48766746
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour la Lettonie.
-ms.openlocfilehash: f5a7d739582a8605e6dcaf554d1173ba2611e866
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 34a5aa6582dc835b1ca77616ea09fc1c2e709afd
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30352017"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460027"
 ---
 # <a name="availability-in-latvia"></a>Disponibilité en Lettonie
 

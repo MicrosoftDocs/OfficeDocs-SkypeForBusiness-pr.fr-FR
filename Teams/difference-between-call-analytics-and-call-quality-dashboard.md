@@ -10,9 +10,9 @@ ms.tgt.pltfrm: cloud
 ms.service:
 - skype-for-business-online
 - msteams
-ms.collection:
+MS.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
+- M365-collaboration
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Découvrez les Analytique d’appel et appel du tableau de bord qualité quand et comment les utiliser pour analyser et résoudre les problèmes de qualité des appels.
-ms.openlocfilehash: 17a2b72e28f505e0653cc11ecf765403d7eaca03
-ms.sourcegitcommit: a4f2d3440399f0a17fb8f6d364cfd2dc4b0bf8db
+ms.openlocfilehash: e8c9331a26caf5e2fe4cb618ac896393d35939ba
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30342172"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460851"
 ---
 # <a name="call-analytics-and-call-quality-dashboard"></a>Tableau de bord Analyse des appels et Qualité des appels
 

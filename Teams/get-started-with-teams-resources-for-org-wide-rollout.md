@@ -10,15 +10,17 @@ ms.reviewer: lolaj
 description: Savoir où trouver des ressources de déploiement et d’adoption détaillées pour Microsoft Teams.
 localization_priority: Priority
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f7dc15de1502f7c9601cc7df80e518ef36db6d7f
-ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.openlocfilehash: a42f9c50ba1985ac0be068b2a9fbf1fab5f9b439
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29594333"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30465355"
 ---
 # <a name="choose-a-path-to-your-organization-wide-rollout-of-microsoft-teams"></a>Choisir un parcours pour planifier le déploiement à l’échelle de votre organisation de Microsoft Teams
 

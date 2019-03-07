@@ -10,15 +10,17 @@ description: Tâches et activités requises pour la surveillance de la qualité 
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Teams_ITAdmin_JourneyFromSfB
+MS.collection:
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 59acafa7555b793555b504b1555b0d6969a12b4b
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 4060c0f9171c8871ed22d15325d560616bf5fc23
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349318"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460075"
 ---
 ![Étapes du voyage mise à niveau, en insistant sur la phase d’Excellence opérationnelle] (media/upgrade-banner-op-excellence.png "Étapes du voyage mise à niveau, en insistant sur la phase d’Excellence opérationnelle")
 
@@ -30,21 +32,21 @@ La [Qualité d’expérience consulter le Guide](https://aka.ms/qerguide) inclut
 
 ![Les zones clés pour examiner durant un examen de la qualité de l’expérience : audio, la fiabilité et les résultats du sondage.] (media/plan-my-service-management-image2.png "Les zones clés pour examiner durant un examen de la qualité de l’expérience : audio, la fiabilité et les résultats du sondage.")
 
-En continuellement évaluer et de corriger les zones décrites dans le guide, vous pouvez réduire leur potentiel pour un impact négatif sur l’expérience utilisateur. La plupart des problèmes d’expérience utilisateur dans un déploiement peuvent être regroupées dans les catégories suivantes :
+En continuellement évaluer et de corriger les zones décrites dans le guide, vous pouvez réduire leur potentiel pour un impact négatif sur l’expérience utilisateur. La plupart des problèmes d'expérience utilisateur rencontrés lors d'un déploiement peuvent être regroupés dans les catégories suivantes :
 
-- Configuration de pare-feu ou proxy incomplète
+- Configuration incomplète du pare-feu ou du proxy
 
-- Une mauvaise couverture Wi-Fi
+- Faible couverture Wi-Fi
 
 - Bande passante insuffisante
 
 - VPN
 
-- Utilisation de périphériques audio non optimisées ou intégrés
+- Utilisation d'appareils audio non optimisés ou intégrés
 
-- Sous-réseaux problématiques ou périphériques réseau
+- Sous-réseaux ou périphériques réseau problématiques
 
-Les instructions fournies dans le Guide Quality of Experience passer en revue les se concentre sur l’utilisation en ligne de tableau de bord de la qualité des appels (CQD) comme le principal outil d’examiner chaque zone décrite, en mettant l’accent sur l’audio à optimiser l’impact d’adoption et de signaler. Les optimisations apportées au réseau pour améliorer l’expérience audio auront également directement des améliorations dans le partage du bureau et vidéo.
+Les instructions fournies dans le Guide Quality of Experience passer en revue les se concentre sur l’utilisation en ligne de tableau de bord de la qualité des appels (CQD) comme le principal outil d’examiner chaque zone décrite, en mettant l’accent sur l’audio à optimiser l’impact d’adoption et de signaler. Toutes les optimisations apportées au réseau pour améliorer l'expérience audio se traduiront aussi directement par des améliorations dans le partage de la vidéo et du bureau.
 
 Nous vous recommandons de vous désigner le poids lourd qualité dès le début. Après être désignés, ils doivent commencer à se familiariser avec le contenu dans le [Guide Quality of Experience révision](https://aka.ms/qerguide).
 

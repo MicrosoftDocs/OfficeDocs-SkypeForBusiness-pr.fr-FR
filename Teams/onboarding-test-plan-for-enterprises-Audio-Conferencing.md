@@ -10,15 +10,17 @@ ms.reviewer: rowille
 description: Valider que les attentes de votre organisation sont remplies par le biais de test d’audioconférence dans les fonctionnalités d’équipes, les fonctionnalités et les possibilités d’utilisation.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 16207273020dbe6e1ab4e2cd5ff958fcdbe614dc
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: 484b9589f492298a70d67b3d5b2c79a89fe7d906
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120749"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464067"
 ---
 <a name="define-and-document-your-audio-conferencing-in-teams-test-plan-for-enterprises"></a>Définissez et documentez votre conférence Audio dans le plan de test des équipes pour les entreprises 
 ===============================================================================

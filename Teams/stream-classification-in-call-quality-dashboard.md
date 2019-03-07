@@ -11,7 +11,7 @@ ms.service:
 - msteams
 ms.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
+- M365-collaboration
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: Découvrez comment la qualité des flux est classée dans le tableau de bord de qualité des appels pour Microsoft Teams et Skype Entreprise Online.
-ms.openlocfilehash: 43c3e876b041e8a586b43d21f049731e3450a1a4
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 9a25e44393cbe8660687451fea5163f064c16240
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374324"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460307"
 ---
 # <a name="stream-classification-in-call-quality-dashboard"></a>Classification des flux dans le tableau de bord de qualité des appels
 
@@ -77,7 +77,7 @@ Un flux de partage d’applications est marqué comme médiocre si une ou plusie
 | **Mesure**                                     | **Condition** | **Explication**                                                                                                                                                                                                        |
 |:-----------------------------------------------|:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Spoiled Tile Percent Total                     | > 36          | Percentage of tiles that are discarded instead of being sent to a remote peer (for example, from the MCU to a viewer). Discarded (or spoiled) tiles may be caused by bandwidth restrictions between client and server. |
-| AppSharing RDP Tile Processing Latency Average | 400 >         | Latence moyenne en millisecondes du traitement des vignettes sur la pile RDP du serveur de téléconférence.                                                                                                                          |
+| AppSharing RDP Tile Processing Latency Average | > 400         | Latence moyenne en millisecondes du traitement des vignettes sur la pile RDP du serveur de téléconférence.                                                                                                                          |
 | AppSharing Relative OneWay Average             | > 1,75        | Délai moyen des relative à sens unique entre les points de terminaison en secondes pour le flux de partage d’application.                                                                                                                       |
 
 ## <a name="unclassified-streams"></a>Flux non classifiés
@@ -110,4 +110,4 @@ If ICE connectivity succeeded for an unclassified stream, the stream is likely c
 
 [Dimensions et mesures disponibles dans le tableau de bord de qualité des appels](dimensions-and-measures-available-in-call-quality-dashboard.md)
 
-[Utiliser l'analyse des appels pour résoudre les problèmes liés à la qualité médiocre des appels](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+[Utiliser l’Analyse des appels pour résoudre les problèmes de qualité des appels](use-call-analytics-to-troubleshoot-poor-call-quality.md)

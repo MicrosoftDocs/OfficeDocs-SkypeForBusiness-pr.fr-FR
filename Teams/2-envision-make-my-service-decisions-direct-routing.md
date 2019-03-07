@@ -1,5 +1,5 @@
 ---
-title: Décisions de routage Direct téléphone système service - Microsoft Teams
+title: Prendre des décisions pour le service de systèmes téléphoniques avec forfaits d’appels -Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
@@ -10,15 +10,17 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: En savoir plus sur le routage Direct, licences, et les décisions qui doivent être effectuées.
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1d79b6e0423ddb94b29a9d82ea1e6d6d1f173cf3
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 4e0597444b9f46d9ac3761ef42a4817a5db5117f
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374441"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462739"
 ---
 # <a name="make-my-service-decisions"></a>Prendre des décisions de mon service
 
@@ -52,7 +54,7 @@ Après avoir confirmé que votre organisation peut obtenir la fonctionnalité sy
 > [!TIP]
 > Voici un exemple d’une liste d’activation site routage Direct.
 > 
-> | **Bureau**                     | **Emplacement**   | **Service de système téléphonique** |
+> | **Office**                     | **Emplacement**   | **Service de système téléphonique** |
 > |--------------------------------|----------------|--------------------------|
 > | 1 Eppîng Road                | Australie      | Service PSTN hérité |
 > | 100 Cyberport Road             | Hong Kong R.A.S.  | Routage d’un système téléphonique Direct |
@@ -87,9 +89,9 @@ Système téléphonique, chaque utilisateur dans votre organisation doit dispose
 
 Messagerie vocale de système téléphonique, grâce aux services de messagerie vocale Azure, prend en charge les dépôts de messagerie vocale pour les boîtes aux lettres Exchange et ne prend pas en charge les systèmes de messagerie tiers.
 
-La messagerie vocale du système téléphonique inclut la transcription des messages vocaux. Elle est activée par défaut pour tous les utilisateurs de votre organisation. Besoins de votre entreprise peuvent nécessiter que vous désactivez la transcription de la messagerie vocale pour des utilisateurs spécifiques ou tout le monde dans toute l’organisation. Si votre organisation a décidé de conserver la transcription de la messagerie vocale activée, vous devez également prendre en compte si le masquage de la messagerie vocale transcription gratuites doit être activée. Pour plus d’informations, voir [définition des stratégies de messagerie vocale dans votre organisation](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail) .
+La messagerie vocale du système téléphonique inclut la transcription des messages vocaux. Elle est activée par défaut pour tous les utilisateurs de votre organisation. Besoins de votre entreprise peuvent nécessiter que vous désactivez la transcription de la messagerie vocale pour des utilisateurs spécifiques ou tout le monde dans toute l’organisation. Si votre organisation a décidé de conserver la transcription de la messagerie vocale activée, vous devez également prendre en compte si le masquage de la messagerie vocale transcription gratuites doit être activée. Pour plus d’informations, voir [définition des stratégies de messagerie vocale dans votre organisation](set-up-phone-system-voicemail.md) .
 
-Pour plus d’informations sur la messagerie vocale dans une implémentation du système téléphonique, voir [configurer le système téléphonique de la messagerie vocale](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail).
+Pour plus d’informations sur la messagerie vocale dans une implémentation du système téléphonique, voir [configurer le système téléphonique de la messagerie vocale](set-up-phone-system-voicemail.md).
 
 |         |         |         |
 |---------|---------|---------|
@@ -101,15 +103,15 @@ Pour plus d’informations sur la messagerie vocale dans une implémentation du 
 > 
 > | **Utilisateur**         | **Boîte aux lettres Exchange** | **Activer la messagerie vocale ?** | **Transcription de la messagerie vocale** | **Masquage de la messagerie vocale transcription gratuites** |
 > |------------------|----------------------|-----------------------|-----------------------------|-----------------------------------------------|
-> | Emily Braun      | En ligne               | Oui                   | Activé                     | Activé                                       |
+> | Emily Braun      | Online               | Oui                   | Activé                     | Activé                                       |
 > | Lidia Holloway   | En ligne               | Oui                   | Activé                     | Désactivé                                      |
 > | Louis Lahr       | Local          | Oui                   | Activé                     | Activé                                       |
-> | Marcel Beauchamp | Local          | Oui                   | Désactivé                    | N/D                                           |
-> | Rachelle Cormier | En ligne               | Oui                   | Désactivé                    | N/D                                           |
-> | Isabell Potvin   | Local          | Oui                   | Désactivé                    | N/D                                           |
+> | Marcel Beauchamp | Local          | Oui                   | Désactivé                    | N/A                                           |
+> | Rachelle Cormier | En ligne               | Oui                   | Désactivé                    | N/A                                           |
+> | Isabell Potvin   | Local          | Oui                   | Désactivé                    | N/A                                           |
 > 
 > [!NOTE]
-> Pour utiliser la messagerie vocale et les équipes, vos utilisateurs doivent disposer de boîtes aux lettres Exchange. Pour plus d’informations, voir [comment Exchange et les équipes Microsoft interagir](https://docs.microsoft.com/microsoftteams/exchange-teams-interact) .
+> Pour utiliser la messagerie vocale et les équipes, vos utilisateurs doivent disposer de boîtes aux lettres Exchange. Pour plus d’informations, voir [comment Exchange et les équipes Microsoft interagir](exchange-teams-interact.md) .
 
 <!--ENDOFSECTION-->
 
@@ -117,24 +119,22 @@ Pour plus d’informations sur la messagerie vocale dans une implémentation du 
 
 Si votre organisation envisage d’utiliser le routage Direct, vous devez obtenir les licences requises. Les utilisateurs de routage Direct doivent disposer les licences suivantes affectés dans Office 365 :
 
-
-
 -   Système téléphonique de Microsoft
 
 -   Microsoft Teams
 
--   Audioconférence
+-   Audioconférence,
 
 Licence de conférence audio est obligatoire pour ajouter des participants externes aux réunions planifiées, par un appel sortant leur ou en fournissant le numéro d’accès. Lorsqu’un participant externe est composé à, le service de conférence Audio passe l’appel à l’aide des fonctionnalités d’appel en ligne. Licence de conférence audio est facultative et requis uniquement pour les utilisateurs qui seront à organiser des équipes de conférences qui incluent l’audioconférence.
 
 
 > [!NOTE]
-> Pour fournir des numéros de téléphone de pont de conférence gratuit et pour prendre en charge la conférence rendez-vous aux numéros de téléphone international, vous devez configurer [Les crédits de Communications](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits) pour votre organisation.
+> Pour fournir des numéros de téléphone de pont de conférence gratuit et pour prendre en charge la conférence rendez-vous aux numéros de téléphone international, vous devez configurer [Les crédits de Communications](what-are-communications-credits.md) pour votre organisation.
 
 Conférence audio et système téléphonique peuvent être une licence séparée en tant que services de module complémentaire pour les clients disposant d’Office 365 E3 ou des plans d’abonnement E1 ; ils sont déjà inclus dans le cadre de la planification d’abonnement Office 365 E5.
 
 > [!TIP]
-> Vous pouvez également utiliser le routage Direct pour les utilisateurs activés pour l’appel des Plans lors du routage de leurs appels au PBX tiers. Pour plus d’informations, voir [Gestion des licences et les autres exigences de routage Direct](https://docs.microsoft.com/microsoftteams/direct-routing-plan#licensing-and-other-requirements).
+> Vous pouvez également utiliser le routage Direct pour les utilisateurs activés pour l’appel des Plans lors du routage de leurs appels au PBX tiers. Pour plus d’informations, voir [Gestion des licences et les autres exigences de routage Direct](direct-routing-plan.md#licensing-and-other-requirements).
 
 
 |         |         |         |
@@ -161,7 +161,7 @@ Votre client Office 365 doit être activé avec un ou plusieurs domaines, car la
 
 ## <a name="sbc-considerations"></a>Considérations relatives à la SBC
 
-Vous devez utiliser des contrôleurs de frontière de session certifié et pris en charge (SBC) qui doivent être associés au service de routage Direct afin de fournir une connectivité PSTN pour vos utilisateurs. Pour une liste de SBC certifié, voir [Contrôleurs de frontière de Session pris en charge](https://docs.microsoft.com/microsoftteams/direct-routing-plan#supported-session-border-controllers-sbcs).
+Vous devez utiliser des contrôleurs de frontière de session certifié et pris en charge (SBC) qui doivent être associés au service de routage Direct afin de fournir une connectivité PSTN pour vos utilisateurs. Pour une liste de SBC certifié, voir [Contrôleurs de frontière de Session pris en charge](direct-routing-plan.md#supported-session-border-controllers-sbcs).
 
 Selon votre environnement, le nombre d’emplacements et exigences de routage voix, vous devrez déployer plusieurs SBCs pour prendre en charge votre base d’utilisateurs.
 
@@ -179,7 +179,7 @@ Chaque SBC déployé avec le routage Direct nécessite un certificat obtenu aupr
 > [!NOTE]
 > L’utilisation des certificats avec caractères génériques avec SBC est également pris en charge.
 
-Pour plus d’informations et une liste d’autorités de certification prises en charge, consultez la rubrique [Public certificat approuvé pour le contrôleur SBC](https://docs.microsoft.com/microsoftteams/direct-routing-plan#public-trusted-certificate-for-the-sbc).
+Pour plus d’informations et une liste d’autorités de certification prises en charge, consultez la rubrique [Public certificat approuvé pour le contrôleur SBC](direct-routing-plan.md#public-trusted-certificate-for-the-sbc).
 
 
 ### <a name="sbc-ip-addresses-and-ports"></a>Ports et adresses IP SBC
@@ -190,7 +190,7 @@ SBC requièrent une connectivité bidirectionnelle pour communiquer avec les ser
 
 Vous devez définir des numéros de port spécifiques sur chaque SBC pour la signalisation SIP et des médias et de configurer votre pare-feu pour autoriser le trafic bidirectionnel à ces ports ainsi que leurs adresses IP.
 
-Pour plus d’informations, voir [de signalisation SIP : noms de domaine complets et les ports de pare-feu](https://docs.microsoft.com/microsoftteams/direct-routing-plan#sip-signaling-fqdns-and-firewall-ports) et [du trafic multimédia : plages de ports](https://docs.microsoft.com/microsoftteams/direct-routing-plan#media-traffic-port-ranges).
+Pour plus d’informations, voir [de signalisation SIP : noms de domaine complets et les ports de pare-feu](direct-routing-plan.md#sip-signaling-fqdns-and-firewall-ports) et [du trafic multimédia : plages de ports](direct-routing-plan.md#media-traffic-port-ranges).
 
 
 > [!NOTE]
@@ -270,7 +270,7 @@ Vous pouvez configurer les utilisateurs pour définir des équipes en tant que l
 
 -   Configurer les équipes en tant que client appelant par défaut en affectant la TeamsCallingPolicy et le TeamsInteropPolicy.
 
-Pour plus d’informations, voir [définir les équipes Microsoft en tant que préférable appel client pour les utilisateurs](https://docs.microsoft.com/microsoftteams/direct-routing-configure#set-microsoft-teams-as-the-preferred-calling-client-for-the-users).
+Pour plus d’informations, voir [définir les équipes Microsoft en tant que préférable appel client pour les utilisateurs](direct-routing-configure.md#set-microsoft-teams-as-the-preferred-calling-client-for-users).
 
 
 |         |         |         |
@@ -281,7 +281,7 @@ Pour plus d’informations, voir [définir les équipes Microsoft en tant que pr
 > [!IMPORTANT]
 > Lorsqu’un utilisateur est configuré pour les équipes seule, cet utilisateur n’est plus connecter à Skype pour les entreprises.
 
-Pour que vos utilisateurs à l’onglet appels dans le client d’équipes, vous devez activer privée appelant au niveau de l’organisation du client. Pour plus d’informations sur l’activation des appels privées, voir [Activer d’appel pour les équipes Microsoft](https://docs.microsoft.com/microsoftteams/direct-routing-configure#enable-calling-for-microsoft-teams) .
+Pour que vos utilisateurs à l’onglet appels dans le client d’équipes, vous devez activer privée appelant au niveau de l’organisation du client. Pour plus d’informations sur l’activation des appels privées, voir [Activer d’appel pour les équipes Microsoft](direct-routing-configure.md) .
 
 
 <!--ENDOFSECTION-->

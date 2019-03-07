@@ -6,18 +6,20 @@ manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 ms.reviewer: anach
 search.appverid: MET150
 description: Découvrez la recherche de contenu dans Microsoft Teams et comment effectuer des recherches dans les conversations de canal dans Exchange, les chargements/modifications de fichier dans SharePoint, et OneNote également.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 38bacb5727fc653e6529dc5943b255145891be17
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 3435d43fde6cd0ca2a0948ad5d34c467ea2e0863
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016172"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460987"
 ---
 <a name="use-content-search-in-microsoft-teams"></a>Utilisation de la recherche de contenu dans Microsoft Teams
 =====================================

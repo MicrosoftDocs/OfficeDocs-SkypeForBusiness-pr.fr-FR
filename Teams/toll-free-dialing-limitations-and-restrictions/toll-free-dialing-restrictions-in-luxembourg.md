@@ -9,7 +9,7 @@ ms.assetid: 9e46f068-564b-464b-bd5c-82d92097f45f
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Cela vous permettra de savoir comment composer des numéros gratuits dans chaque pays/région. Une fois que vous sélectionnez la pays/région, il vous dirige vers une page spécifique qui contient des détails plus spécifiques, les restrictions et les limites de la disponibilité du service gratuit où service gratuit est disponible. Le format de numérotation ou formats affichera les codes d’accès requis dans chaque pays/région de composer le numéro d’appel gratuit.
-ms.openlocfilehash: 61c255bbbcbf9f7cc2eab14415a7fff6d06c2b73
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 9044f3e9f595f3ecb8e536cd2df20f9da9c9a7ac
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30351370"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461283"
 ---
 # <a name="toll-free-dialing-restrictions-in-luxembourg"></a>Restrictions de numérotation gratuit au Luxembourg
 

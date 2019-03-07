@@ -10,15 +10,17 @@ ms.reviewer: lolaj, rowille
 description: Outils de planification, ateliers et kits de prise en main pour aider les organisations à prendre en main Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5458596d1eba8d956d6a75e0d99c99982e6525b9
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 04bee65e6d2c21b6e2857d44a50bae497b251d5b
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25012104"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463955"
 ---
 # <a name="tools-and-workshops-plan-deliver-and-adopt-microsoft-teams"></a>Outils et ateliers : planifier, fournir et adopter Microsoft Teams
 
@@ -27,7 +29,7 @@ Téléchargez ces outils pour vous orienter dans la planification, la livraison 
 
 - [Kit de réussite des clients de Microsoft Teams](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip)
 
-    Ce kit contient un large éventail de présentations, des modèles de courrier électronique, conseils et astuces et affiches que vous pouvez utiliser pour déployer et lecteur l’adoption des équipes au sein de votre organisation. Elle comprend deux guides de démarrage rapide pour les administrateurs et les responsables d’équipe et les exemples de cas d’utilisation pour chaque service. Utilisez ces ressources pour tirer parti de pour différentes fonctions dans votre organisation, notamment le Marketing, ventes, finances, ressources humaines, les équipes informatiques, ingénierie et la gestion de projet.
+    Ce kit contient un large éventail de présentations, des modèles de courrier électronique, conseils & astuces et affiches que vous pouvez utiliser pour déployer et lecteur l’adoption des équipes au sein de votre organisation. Elle comprend deux guides de démarrage rapide pour les administrateurs et les responsables d’équipe et les exemples de cas d’utilisation pour chaque service. Utilisez ces ressources pour tirer parti de pour différentes fonctions dans votre organisation, notamment le Marketing, ventes, finances, ressources humaines, les équipes informatiques, ingénierie et la gestion de projet.
 
 
 - [Guide de démarrage rapide pour les administrateurs](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx)

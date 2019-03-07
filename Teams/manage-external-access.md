@@ -1,25 +1,27 @@
 ---
-title: Gérer l’accès externe (fédération) dans Microsoft Teams
+title: Gérez l’accès externe (fédération) dans Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 01/30/2019
 ms.topic: article
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 ms.reviewer: karvell
 search.appverid: MET150
 description: Votre administrateur informatique peut configurer l’accès externe pour d’autres domaines (fédération) permettre aux utilisateurs de ces domaines de participer à des équipes.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 56e4171421cc52ec1ca79895aba3c0f259d20201
-ms.sourcegitcommit: 7f235c2c2cd350e8552a84ae1877b2d659a6aa53
+ms.openlocfilehash: 97b322969d3975b6f9ca2b2079d46fe95ef45e52
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "29708796"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30459923"
 ---
-<a name="manage-external-access-federation-in-microsoft-teams"></a>Gérer l’accès externe (fédération) dans Microsoft Teams
+<a name="manage-external-access-federation-in-microsoft-teams"></a>Gérez l’accès externe (fédération) dans Microsoft Teams
 ======================================================
 
 Avec un accès externe Teams Microsoft, les utilisateurs d’autres domaines peuvent participer à vos conversations et les appels. Vous pouvez également autoriser les utilisateurs externes qui sont toujours à l’aide Skype pour les entreprises à participer. 

@@ -1,5 +1,5 @@
 ---
-title: Plans Office 365 entreprise E1 et E3
+title: 'Plans Office 365 Enterprise E1 et E3 '
 ms.date: 02/15/2019
 ms.author: tonysmit
 author: tonysmit
@@ -8,7 +8,9 @@ ms.reviewer: mikedav
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
@@ -17,12 +19,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Découvrez comment acheter pour les plans Office 365 entreprise E1 et E3, des fonctionnalités et des licences supplémentaires. '
-ms.openlocfilehash: d31ceafd950f17b231b501f820951701b224757d
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: 552aaf7f9cc7970c8baa97ce183ada6d5eab26ad
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30127597"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460683"
 ---
 # <a name="office-365-enterprise-e1-and-e3"></a>E3 et office 365 entreprise E1
 
@@ -30,7 +32,7 @@ Si vous avez déjà acheté le plan [Office 365 entreprise E1](https://products.
 
 |Pour ajouter cette fonctionnalité|Voici ce que vous devez faire|
 |:------------------|:--------------------------|
-|Audioconférence <br/> <br/> |Acheter le **module complémentaire de conférence Audio**. <br/>Acheter 1 licence de conférence Audio pour chaque personne qui est sur le point de planifier ou de conférence rendez-vous. Les participants n'ont pas besoin de licences.<br/> Une fois la licence achetée, Microsoft sera votre fournisseur d’audioconférence. |
+|Audioconférence, <br/> <br/> |Acheter le **module complémentaire de conférence Audio**. <br/>Acheter 1 licence de conférence Audio pour chaque personne qui est sur le point de planifier ou de conférence rendez-vous. Les participants n'ont pas besoin de licences.<br/> Une fois la licence achetée, Microsoft sera votre fournisseur d’audioconférence. |
 |Numéros de téléphone gratuits pour l’accès entrant à vos réunions et la possibilité d’effectuer des appels sortants à partir d’une réunion pour ajouter une personne en appelant le numéro de téléphone dans le monde<br/> | Achetez [crédits Communications](../add-funds-and-manage-communications-credits.md).|
 |Système téléphonique <br/> |<ol><li>Acheter le module complémentaire Microsoft Office 365 Phone System. </li><li>Acheter un [Plan de l’appel](../calling-plans-for-office-365.md) pour Office 365.</li></ul>Ou bien, utilisez le [service de téléphone de votre fournisseur existant](microsoft-teams-add-on-licensing.md#bkmk_existing).  <br/> |
 |Messagerie vocale pour système téléphonique<br/> |Pour les plans E1, acheter Exchange Online Plan 2. <br/>ou choisissez une suite Office fournie avec Exchange Online Plan 2, comme Office 365 E3. |

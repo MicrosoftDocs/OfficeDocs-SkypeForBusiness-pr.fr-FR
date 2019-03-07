@@ -6,19 +6,21 @@ manager: serdars
 ms.date: 2/25/2019
 ms.topic: article
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 ms.reviewer: marcl
 localization_priority: Priority
 search.appverid: MET150
 description: Liste actuelle des problèmes connus pour l'application client et l'expérience administrateur de Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 53a6a258d96777e5dc335fcecb84e9f2b7962beb
-ms.sourcegitcommit: a4f2d3440399f0a17fb8f6d364cfd2dc4b0bf8db
+ms.openlocfilehash: 64389cdf1455c23f2c234149630a9d6091ee7274
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30342102"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462331"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problèmes connus pour Microsoft Teams
 
@@ -32,7 +34,7 @@ Cet article répertorie les problèmes connus concernant Microsoft Teams, par f
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
-|La stratégie EAF dans le kit de ressources pour une expérience de migration améliorée (EMET) peut identifier de manière incorrecte les optimisations du sandbox Chromium comme des menaces. <br/> |Un problème a été identifié avec le sandbox Chromium, la stratégie de filtrage de l’accès à la table d’exportation des adresses (EAF) dans le kit de ressources pour une expérience de migration améliorée (EMET) et dans la protection avancée contre les menaces Windows Defender (ATP) pouvant identifier de manière incorrecte les optimisations du sandbox Chromium comme des menaces. Cela entraîne un fonctionnement incorrect de Teams.  <br/> | Pour résoudre ce problème, désactivez EAF pour Teams. Vous trouverez plus d'informations sur le problème dans les [Directives d’atténuation EMET](https://support.microsoft.com/fr-FR/help/2909257/emet-mitigations-guidelines) Pour des informations complémentaires sur Windows Defender ATP et la stratégie EAF, reportez-vous à la rubrique [Personnaliser la protection contre les attaques](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/customize-exploit-protection) <br/> |11/10/2018 <br/> |
+|La stratégie EAF dans le kit de ressources pour une expérience de migration améliorée (EMET) peut identifier de manière incorrecte les optimisations du sandbox Chromium comme des menaces. <br/> |Un problème a été identifié avec le sandbox Chromium, la stratégie de filtrage de l’accès à la table d’exportation des adresses (EAF) dans le kit de ressources pour une expérience de migration améliorée (EMET) et dans la protection avancée contre les menaces Windows Defender (ATP) pouvant identifier de manière incorrecte les optimisations du sandbox Chromium comme des menaces. Cela entraîne un fonctionnement incorrect de Teams.  <br/> | Pour résoudre ce problème, désactivez EAF pour Teams. Vous trouverez plus d'informations sur le problème dans les [Directives d’atténuation EMET](https://support.microsoft.com/en-us/help/2909257/emet-mitigations-guidelines) Pour des informations complémentaires sur Windows Defender ATP et la stratégie EAF, reportez-vous à la rubrique [Personnaliser la protection contre les attaques](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/customize-exploit-protection) <br/> |11/10/2018 <br/> |
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
@@ -46,7 +48,7 @@ Cet article répertorie les problèmes connus concernant Microsoft Teams, par f
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
-|L’[accès conditionnel](https://docs.microsoft.com/fr-FR/azure/active-directory/conditional-access/overview) peut ne pas fonctionner lors de l’utilisation de l’onglet « Site web » dans l’application de bureau.<br/> |Si un site web, tel qu’un portail intranet, est doté de stratégies d’accès conditionnel (par exemple, des restrictions d’adresse IP ou de navigateur), le site web peut ne pas s’afficher sous forme d’onglet dans Teams dans l’application de bureau. <br/> |Utilisez Teams dans un navigateur plutôt que dans l’application de bureau.  <br/> |01/07/18  <br/> |
+|L’[accès conditionnel](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/overview) peut ne pas fonctionner lors de l’utilisation de l’onglet « Site web » dans l’application de bureau.<br/> |Si un site web, tel qu’un portail intranet, est doté de stratégies d’accès conditionnel (par exemple, des restrictions d’adresse IP ou de navigateur), le site web peut ne pas s’afficher sous forme d’onglet dans Teams dans l’application de bureau. <br/> |Utilisez Teams dans un navigateur plutôt que dans l’application de bureau.  <br/> |01/07/18  <br/> |
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|

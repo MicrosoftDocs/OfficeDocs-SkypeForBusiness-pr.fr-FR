@@ -10,21 +10,23 @@ ms.reviewer: anach
 description: Découvrez comment les stratégies de rétention et comment les gérer dans les équipes.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 453e6f161b62846143493d7a444b364e27f3885e
-ms.sourcegitcommit: 5e8d04bbc3eb1a57fed893e5ff929674b4297851
+ms.openlocfilehash: 4d07629f41a54dcab1995f2aef2d7536479be25d
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2018
-ms.locfileid: "25004593"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464555"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Stratégies de rétention dans Microsoft Teams
 
-Conversations équipes sont persistantes et conservés indéfiniment par défaut. Avec l’introduction des stratégies de rétention, les administrateurs peuvent configurer des stratégies de rétention (conservation et suppression) dans le centre de conformité & de sécurité pour les messages de conversation et de canal équipes. Cela permet aux organisations de conserver les données de conformité (à savoir, stratégie de conservation) pour une période spécifique ou de vous débarrasser de données (à savoir, stratégie de suppression) s’il est considéré comme un passif après une période spécifique. Stratégies de rétention équipes Assurez-vous que lorsque vous supprimez des données, il est supprimé de tous les emplacements de stockage des données permanentes dans le service d’équipes. 
+Conversations équipes sont persistantes et conservés indéfiniment par défaut. Avec l’introduction des stratégies de rétention, les administrateurs peuvent configurer des stratégies de rétention (conservation et suppression) dans le centre de conformité de & sécurité pour les messages de conversation et de canal équipes. Cela permet aux organisations de conserver les données de conformité (à savoir, stratégie de conservation) pour une période spécifique ou de vous débarrasser de données (à savoir, stratégie de suppression) s’il est considéré comme un passif après une période spécifique. Stratégies de rétention équipes Assurez-vous que lorsque vous supprimez des données, il est supprimé de tous les emplacements de stockage des données permanentes dans le service d’équipes. 
 
-Pour gérer les stratégies de rétention équipes, utilisez les paramètres et les applets de commande de sécurité pour Microsoft Office 365 et centre de conformité sous **La gouvernance des données** > **rétention**.
+Pour gérer les stratégies de rétention équipes, utilisez les paramètres et les applets de commande dans le centre de conformité sous **La gouvernance des données**de & Office 365 sécurité > **rétention**.
 
 Stratégies de rétention équipes prennent en charge : 
     
@@ -37,7 +39,7 @@ Stratégies de rétention équipes ne prennent pas encore charge :
 - Stratégies de rétention avancées ne s’appliquent pas conversation équipes et emplacements de message de canal équipes
 - Durée de moins de 30 jours
 
-Administrateurs peuvent définir des stratégies de rétention distinct de salles de conversation privées équipes (1:1 ou 1:Many conversations) et les messages de canal équipes. Dans de nombreux cas, aux organisations de considérer les données de conversation privée comme un passif que les messages de canal, qui sont généralement plus conversations liés au projet. Configurer les stratégies de sécurité & centre de conformité, **la gouvernance des données** > **rétention**. Activer de **messages du canal équipes** et **équipes conversations** , puis définissez les stratégies de rétention pour ces emplacements (également indiqués dans le diagramme ci-dessous). 
+Administrateurs peuvent définir des stratégies de rétention distinct de salles de conversation privées équipes (1:1 ou 1:Many conversations) et les messages de canal équipes. Dans de nombreux cas, aux organisations de considérer les données de conversation privée comme un passif que les messages de canal, qui sont généralement plus conversations liés au projet. Configurer ces stratégies dans le centre de conformité, & de sécurité **la gouvernance des données** > **rétention**. Activer de **messages du canal équipes** et **équipes conversations** , puis définissez les stratégies de rétention pour ces emplacements (également indiqués dans le diagramme ci-dessous). 
 
 Lorsque vous activez des **messages du canal équipes**, vous pouvez spécifier les équipes auxquels cette stratégie s’applique. Par exemple, pour les équipes X, Y et Z, l’administrateur peut définir les stratégies de suppression pendant 1 an (en sélectionnant individuellement ces équipes) et appliquer une stratégie de suppression de 3 ans pour le reste des équipes. 
 

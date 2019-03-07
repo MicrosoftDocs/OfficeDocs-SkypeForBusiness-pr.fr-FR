@@ -10,15 +10,17 @@ ms.reviewer: rowille
 description: Identifier un groupe de gouvernance des principales parties prenantes et les chefs de projet pour identifier les objectifs de déploiement, suivre l’avancement et supprimer des bloqueurs.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ecbefe68b00e8388298ee6eb64ddbdc55ad0eeb9
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 010d4e2b7a9f64ca57e38b185b013d92b4d7c1ca
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014482"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464283"
 ---
 # <a name="steering-committee"></a>Comité directeur
 
@@ -50,7 +52,7 @@ Comité directeur satisfait à intervalles réguliers tout au long de la durée 
 
 -   Identifier, gérer et atténuer les trous, des risques et problèmes où influence supplémentaire est requise à partir du comité.
 
--   Rassembler prise en charge de la sponsor exécutif ou de l’équipe de direction d’exécution pour les problèmes qui nécessitent l’escalade, ordre de priorité et résoudre les conflits entre les divisions des parties prenantes. 
+-   Rassembler prise en charge de la sponsor exécutif ou de l’équipe de direction d’exécution pour les problèmes qui nécessitent l’escalade, ordre de priorité et résoudre les conflits entre les divisions des parties prenantes. 
 
 -   Fournir des commentaires formelle et des recommandations pour les cadres supérieurs, Conseil des modifications, ou autres métiers et informatiques parties prenantes, le cas échéant.
 

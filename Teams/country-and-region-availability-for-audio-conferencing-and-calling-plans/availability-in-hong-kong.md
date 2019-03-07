@@ -9,7 +9,7 @@ ms.assetid: 6ca09632-073d-497d-8075-32518917cf81
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour Hong Kong.
-ms.openlocfilehash: ec27bf2bcd2228a8023ab7e06229bd3bb351bcdc
-ms.sourcegitcommit: e739925aa73f257b72ce4f94002d8b17582252a1
+ms.openlocfilehash: 8a5f604beaf074f653a248509390026262e87b63
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30357793"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30459691"
 ---
 # <a name="availability-in-hong-kong"></a>Disponibilité à Hong Kong (R.A.S.)
 

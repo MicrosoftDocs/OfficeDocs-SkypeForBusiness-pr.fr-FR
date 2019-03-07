@@ -7,17 +7,19 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: tonysmit
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 search.appverid: MET150
 description: Découvrez les facteurs à prendre en compte avant de configurer des événements en temps réel dans Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cee30cc853043b4424a9a30c1ad785f77ea05f70
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: d6847a4db0a2517e90535aa5ab013b030fb36f38
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120923"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463195"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planifier des événements en direct dans Microsoft Teams
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]

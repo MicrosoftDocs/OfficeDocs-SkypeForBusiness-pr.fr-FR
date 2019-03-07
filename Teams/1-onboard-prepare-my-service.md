@@ -1,5 +1,5 @@
 ---
-title: Préparer le déploiement du service en nuage vocale Microsoft Teams
+title: Préparer le déploiement du service vocal cloud de Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
@@ -10,15 +10,17 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: Utilisez des listes de vérification embarquement préparer Office 365 pour les équipes et la configuration des fonctionnalités principales d’équipes, mise en réseau et les charges de travail voix en nuage.
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 21cd36632f04060a50bd4fa6f742a5e7972ebec6
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 203a819eb3732d37aa65f92372eb21ffd59aea08
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29753499"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462067"
 ---
 # <a name="prepare-my-service"></a>Préparer mon service
 

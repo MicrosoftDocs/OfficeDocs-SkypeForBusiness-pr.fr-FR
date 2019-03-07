@@ -6,18 +6,20 @@ manager: serdars
 ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 ms.reviewer: anach
 search.appverid: MET150
 description: Découvrez comment récupérer des données Microsoft Teams à partir du journal d'audit d’Office 365.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 712f227dafab4400712471ea4b56be62662f1dcf
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: a5207007b3855f5fa093050ac0ff8c885fd333af
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015676"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464051"
 ---
 <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Rechercher des événements Microsoft Teams dans le journal d'audit
 ==================================================
@@ -38,7 +40,7 @@ Pour la liste complète des activités qui sont vérifiées dans Office 365, co
 
 ## <a name="turn-on-auditing-in-teams"></a>Activer l’audit dans Teams
 
-Vous pouvez consulter les données d’audit, vous devez activer le premier audit dans le **Centre de conformité et de sécurité**(https://protection.office.com). Pour obtenir de l’aide sur la fonctionnalité d’audit, consultez la rubrique [Activer ou désactiver la recherche du journal d’audit d’Office 365](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014).
+Avant d’examiner les données d’audit, vous devez activer l’audit de la **sécurité & centre de conformité**premier (https://protection.office.com). Pour obtenir de l’aide sur la fonctionnalité d’audit, consultez la rubrique [Activer ou désactiver la recherche du journal d’audit d’Office 365](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014).
 
 
 > [!IMPORTANT]

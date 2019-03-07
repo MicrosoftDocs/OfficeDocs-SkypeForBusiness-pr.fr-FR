@@ -19,12 +19,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: Rapports, le nouveau tableau de bord d'Office 365, vous donne une vue d'ensemble de l'activité de tous les produits Office 365 dans votre organisation. Il vous permet d'explorer les rapports au niveau de chaque produit pour obtenir une vue d'ensemble plus précise des activités qu'ils contiennent. Par exemple, vous pouvez utiliser la Skype pour le rapport d’utilisation des périphériques Business pour afficher les périphériques, y compris les systèmes d’exploitation Windows et les appareils mobiles, dont le Skype pour l’application de gestion installés et utilisent pour la messagerie instantanée et réunions. Consultez la rubrique Rapports sur les activités dans le centre d’administration d’Office 365 pour en savoir plus.
-ms.openlocfilehash: 3d5561bfe0f2a2c5b6900c7cf6a1e92d63741992
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 343d5db93ebf3ea104bc74cd5f8d17d349653fa6
+ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530653"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "30453965"
 ---
 # <a name="device-usage-report"></a>Rapport d'utilisation de dispositif
 

@@ -5,23 +5,24 @@ ms.author: tonysmit
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 ms.reviewer: sonua
 search.appverid: MET150
 description: Guide pratique pour le déploiement de la fonctionnalité vocale cloud dans Microsoft Teams.
-MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f773c88c16f77e6879adb29852514ef7548790fa
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 93ab7201d96fe337cbdc1c0bbf89f9eab3006d91
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754751"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463091"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Enregistrement de réunion cloud Teams
 
-Dans Microsoft Teams, les utilisateurs peuvent enregistrer leurs réunions d’équipes et les appels de groupe de capture audio, vidéo et partage d’activité de l’écran. Il existe également une option pour les enregistrements d’avoir une transcription automatique, afin que les utilisateurs peuvent lire des enregistrements de réunions avec légendes et rechercher des éléments de discussion important dans la transcription. L’enregistrement se produit dans le nuage et est enregistré dans le [Flux de Microsoft](https://docs.microsoft.com/stream/), afin que les utilisateurs peuvent partager en toute sécurité au sein de leur organisation.
+Dans Microsoft Teams, les utilisateurs peuvent enregistrer leurs réunions d’équipes et les appels de groupe de capture audio, vidéo et partage d’activité de l’écran. Il existe également une option pour les enregistrements qui permet une transcription automatique, afin que les utilisateurs puissent regarder les enregistrements de réunion avec des sous-titres et rechercher des éléments de discussion importants dans la transcription. L’enregistrement se produit dans le nuage et est enregistré dans le [Flux de Microsoft](https://docs.microsoft.com/stream/), afin que les utilisateurs peuvent partager en toute sécurité au sein de leur organisation.
 
 Connexes : [Enregistrement de documentation de l’utilisateur final de la réunion équipes](https://aka.ms/recordmeeting)
 

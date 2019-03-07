@@ -10,15 +10,17 @@ ms.reviewer: dansteve
 description: Découvrez quelles données que vous devez rechercher lors de la vérification de la préparation de votre environnement pour Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 057493f42a4bbfa012fb57c2394c372dfc25c9fc
-ms.sourcegitcommit: a3181bc3707b09c1e3f87c343b38259fdc6dabd2
+ms.openlocfilehash: 1794b87beb1c6b1f1e499c214cde8d3e0b9b0a34
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2018
-ms.locfileid: "27264827"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461107"
 ---
 <a name="check-your-environments-readiness-for-microsoft-teams"></a>Vérifier la préparation de votre environnement pour Microsoft Teams
 ===========================================

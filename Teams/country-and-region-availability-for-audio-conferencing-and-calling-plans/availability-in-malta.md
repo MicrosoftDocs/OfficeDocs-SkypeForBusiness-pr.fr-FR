@@ -9,7 +9,7 @@ ms.assetid: a4470c6b-38a2-4b28-9780-91e6a214145c
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour Malte.
-ms.openlocfilehash: 43243dc8d3d3dbb97a8dc24448499ec8cd8cdac9
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 43e4edd778cbfd0bf7a9a00080776b7bc8efd471
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30353425"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462179"
 ---
 # <a name="availability-in-malta"></a>Disponibilité à Malte
 

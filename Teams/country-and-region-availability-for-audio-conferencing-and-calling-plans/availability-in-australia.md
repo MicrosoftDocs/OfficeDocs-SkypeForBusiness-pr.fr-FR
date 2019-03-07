@@ -9,7 +9,7 @@ ms.assetid: 98a819e4-6dd9-47ee-8c79-586aae727111
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour l’Australie.
-ms.openlocfilehash: da706f0b99b62131b7f082e226d473de3eed587e
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 12385b482fc01f55966355d3a95191ddbe9272f8
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30351849"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462987"
 ---
 # <a name="availability-in-australia"></a>Disponibilité en Australie
 

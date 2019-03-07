@@ -8,20 +8,19 @@ ms.topic: article
 ms.service: msteams
 ms.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
+- M365-collaboration
 - M365-voice
 ms.reviewer: crowe
 search.appverid: MET150
 description: Page d’accueil pour le déploiement de voix dans le nuage dans les équipes
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 969bab316a39ec873fea802a9c257cf062891bb9
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 93a17e76444efbc57f2d8043ca1e6eda68806263
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30351297"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30465307"
 ---
 # <a name="cloud-voice-in-microsoft-teams"></a>Voix cloud Microsoft Teams
 

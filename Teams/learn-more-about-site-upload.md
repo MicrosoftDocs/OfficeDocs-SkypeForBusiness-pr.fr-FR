@@ -9,18 +9,20 @@ ms.service: msteams
 ms.reviewer: ''
 localization_priority: Normal
 search.appverid: MET150
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 description: Découvrez comment télécharger vers un site.
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c9f9c093e7a80a7f4f3165f58cd6dc34f532ab7e
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 5267f419fd61bd492a904dd358b930e2d55d6b1b
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017414"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462635"
 ---
 <a name="adding-and-updating-locations-data"></a>Ajout et mise à jour des données d’emplacements
 ============================
@@ -45,10 +47,10 @@ Vous pouvez utiliser l’exemple suivant permet de créer votre fichier de donn�
 
 |Réseau|Nom de réseau|Plage réseau|Nom de création|Type de propriété|Type de construction|Type de construction Office|Ville|Code postal|Pays|État|Région|Intérieur Corp|Itinéraire Express|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|
-|10.0.128.0 |SVC-1|32|USCAMTV001|Contoso allouée RE & F|Bureau|RE & F|Mountain View|94043|NOUS|CA|NOUS|1|1|
-|10.0.130.0 |SVC-1|32|USCAMTV001|Contoso allouée RE & F|Bureau|RE & F|Mountain View|94043|NOUS|CA|NOUS|1|1|
-|10.0.131.0 |SVC-1|32|USCAMTV001|Contoso allouée RE & F|Bureau|RE & F|Mountain View|94043|NOUS|CA|NOUS|1|1|
-|10.0.132.0 |SVC-1|32|USCAMTV001|Contoso allouée RE & F|Bureau|RE & F|Mountain View|94043|NOUS|CA|NOUS|1|1|
+|10.0.128.0 |SVC-1|32|USCAMTV001|Connexion en bail Contoso RE&F|Office|RE&F|Mountain View|94043|NOUS|CA|NOUS|1|1|
+|10.0.130.0 |SVC-1|32|USCAMTV001|Connexion en bail Contoso RE&F|Office|RE&F|Mountain View|94043|NOUS|CA|NOUS|1|1|
+|10.0.131.0 |SVC-1|32|USCAMTV001|Connexion en bail Contoso RE&F|Office|RE&F|Mountain View|94043|NOUS|CA|NOUS|1|1|
+|10.0.132.0 |SVC-1|32|USCAMTV001|Connexion en bail Contoso RE&F|Office|RE&F|Mountain View|94043|NOUS|CA|NOUS|1|1|
 
 
 Pour plus d’informations sur la mise en forme de votre fichier de données, voir [format et la structure de fichier de données de création de fichiers de données client](turning-on-and-using-call-quality-dashboard.md#tenant-data-file-format-and-building-data-file-structure).
@@ -56,4 +58,4 @@ Pour plus d’informations sur la mise en forme de votre fichier de données, vo
 
 ## <a name="related-topics"></a>Rubriques connexes
 
-[Configurer Analytique d’appel](set-up-call-analytics.md)
+[Configurer Analyse des appels](set-up-call-analytics.md)

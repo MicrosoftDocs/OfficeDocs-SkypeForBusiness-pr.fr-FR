@@ -7,7 +7,9 @@ ms.reviewer: mikedav
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
@@ -16,12 +18,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Découvrez comment acheter pour les plans Office 365 entreprise E5, des fonctionnalités et des licences supplémentaires. '
-ms.openlocfilehash: d00aa186c1be0800520c88f7679fd670614d03ce
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: a39f5eacf59a47814a4537edcdda5a78640981cd
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30127661"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463219"
 ---
 # <a name="office-365-enterprise-e5"></a>Office 365 Entreprise E5
 

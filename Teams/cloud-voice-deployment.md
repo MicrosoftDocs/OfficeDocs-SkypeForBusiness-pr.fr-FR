@@ -10,15 +10,17 @@ search.appverid: MET150
 ms.reviewer: MyAdvisor
 description: Guide pratique pour le déploiement de la fonctionnalité vocale cloud dans Microsoft Teams.
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 85e7749bda08b1dbbf7a5afad5fc138facb62940
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: e6d8057fa2cba1f14ed00eebebdb522144eb283d
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533181"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30458915"
 ---
 # <a name="cloud-voice-deployment"></a>Déploiement de la fonctionnalité vocale cloud
 

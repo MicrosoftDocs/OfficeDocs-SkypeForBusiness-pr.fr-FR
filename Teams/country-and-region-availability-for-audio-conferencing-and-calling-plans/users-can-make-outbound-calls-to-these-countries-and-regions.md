@@ -9,7 +9,7 @@ ms.assetid: e603431c-8264-4b47-ad9d-d2701ce318be
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Cette rubrique contient tous les pays et régions que les utilisateurs peuvent effectuer des appels sortants vers s’ils disposent d’un Plan de l’appel.
-ms.openlocfilehash: 59cfb8f99392538313f67ff80f13aa394cfa4352
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 1965e362114b98f2b41cf3f3efbf74fcab93a83c
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30351945"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30465099"
 ---
 # <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>Utilisateurs peuvent passer des appels sortants à ces pays et régions
 

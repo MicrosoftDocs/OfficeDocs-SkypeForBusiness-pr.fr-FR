@@ -10,9 +10,9 @@ ms.tgt.pltfrm: cloud
 ms.service:
 - skype-for-business-online
 - msteams
-ms.collection:
+MS.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
+- M365-collaboration
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -24,12 +24,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Microsoft collecte des données de recensement, d’utilisation et d’erreur pour comprendre comment Skype pour les entreprises est utilisé et où les utilisateurs rencontrent des problèmes. Les données sont utilisées pour planifier les améliorations de produit.
-ms.openlocfilehash: df56d2321a2f3c2d7f4159e3f1b782254cf1a64b
-ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
+ms.openlocfilehash: d2673424bcddb1b6b3ebaae3bc7bde7f1fce790f
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/19/2018
-ms.locfileid: "25678377"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464115"
 ---
 # <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>Skype pour les pratiques de collection de données métiers et Microsoft Teams
 
@@ -108,7 +108,7 @@ Rapport d’erreurs nécessite deux éléments :
 - Les utilisateurs finaux participer individuellement à partir de l’onglet Général (cliquez sur l’icône d’engrenage ![icône d’engrenage](media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) et ouvre la boîte de dialogue **Options** avec l’onglet **Général** ) dans le Skype pour client d’entreprise.
     
  
-![Skype pour case collection des données métiers dans les Options > boîte de dialogue Général](media/68bc8f77-deaa-478c-9977-a5259b88df3e.png)
+![Skype pour case collection des données métiers dans la boîte de dialogue Options > général](media/68bc8f77-deaa-478c-9977-a5259b88df3e.png)
   
 Pour l’application de réunions Skype, le MeetingUxEnableTelemetry contrôle signale les erreurs, bien que pour se bloque dans Windows, les paramètres Watson contrôlent téléchargement info incident. Il n’existe aucun paramètre d’utilisateur pour l’application de réunions Skype que vous voyez dans la boîte de dialogue client de bureau.
 

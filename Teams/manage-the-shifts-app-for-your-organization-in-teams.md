@@ -9,15 +9,17 @@ ms.service: msteams
 search.appverid: MET150
 description: Découvrez comment configurer et gérer l’application des déplacements dans les équipes pour les travailleurs firstline dans votre organisation.
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 204dc5899a72b1bc1516441ca8654e7341f19942
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 5dd05bf1485460bfd94ca3b33c5134084176e1fe
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754526"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462879"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Gérer l’application Shifts pour votre organisation dans Microsoft Teams.
 

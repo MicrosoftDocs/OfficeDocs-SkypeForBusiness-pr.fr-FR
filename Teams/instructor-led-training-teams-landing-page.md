@@ -1,19 +1,21 @@
 ---
 layout: HubPage
 hide_bc: true
-title: Formation dirigée par un instructeur et des vidéos pour les administrateurs des équipes Microsoft
+title: Formation dispensée par un instructeur et vidéos pour les administrateurs de Microsoft Teams
 description: Inscrivez-vous pour instructeur pour en savoir plus sur Microsoft Teams.
 author: dearbeen
 ms.topic: hub-page
 ms.author: dearbeen
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Training
-ms.openlocfilehash: 35b8a75e1c19acbe66e05c6d163b55cd4ab9f904
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.collection:
+- Teams_ITAdmin_Training
+- M365-collaboration
+ms.openlocfilehash: f3797407d02717109f1d8ab8b288cd68f9defe57
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349310"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461219"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -138,6 +140,44 @@ ms.locfileid: "29349310"
                                             <div class="cardText">
                                                 <h3>Équipes pour l’éducation - conférences Web</h3>
                                                 <p>Découvrez comment utiliser les équipes de l’enseignement supérieur. (Audience : personnel, étudiants, formation universitaire, recherche universitaire, professionnels de l’informatique)</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://microsoftteams.eventbuilder.com/MaximizingTeamsMeetings">
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage bgdAccent1"> 
+                                                    <img src="https://docs.microsoft.com/MicrosoftTeams/media/instructor-led-training-teams-landing-page-image8.svg" alt="successful meeting" />
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3>Optimisation des réunions d’équipes</h3>
+                                                <p>Découvrez comment vous pouvez tirer parti des équipes pour vos versions antérieures, pendant et valider l’expérience de réunions. (Audience : les utilisateurs finaux)</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li> 
+                            <a href="https://microsoftteams.eventbuilder.com/FLW3">
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage bgdAccent1"> 
+                                                    <img src="https://docs.microsoft.com/MicrosoftTeams/media/instructor-led-training-teams-landing-page-image9.svg" alt="mobile user" />
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3>Travailleurs Firstline avec des équipes</h3>
+                                                <p>Découvrez les fonctionnalités de travail firstline récemment publiés dans les équipes. (Audience : les utilisateurs finaux)</p>
                                             </div>
                                         </div>
                                     </div>

@@ -12,7 +12,7 @@ ms.service:
 - msteams
 ms.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
+- M365-collaboration
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -24,12 +24,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Découvrez comment activer et utiliser le Skype pour Business Online Dashboard qualité des appels et obtenir des rapports de synthèse de la qualité des appels. '
-ms.openlocfilehash: 24721591a2018f77dc6ec9f292ad5b58683cda7f
-ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
+ms.openlocfilehash: ff6e878a08dacf0fe206d68759ca23345b57301d
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "30178700"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461035"
 ---
 # <a name="turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Activation et à l’aide de tableau de bord qualité d’appel pour Microsoft Teams et Skype pour Business Online
 

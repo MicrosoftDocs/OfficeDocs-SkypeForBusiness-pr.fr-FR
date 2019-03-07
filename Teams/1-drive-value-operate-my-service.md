@@ -8,18 +8,19 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-ms.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 description: Tâches et activités requises pour la gestion de service d’équipes, y compris la surveillance de l’intégrité du service et d’évaluer et de garantir l’utilisation et la qualité du réseau.
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9a11360c5cae498262a717c41e4247037de1db54
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: bc4dbb59b5346286b10b8a146b96c2b1f5dbc40e
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120510"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30459155"
 ---
 # <a name="operate-my-service"></a>Utiliser mon service
 

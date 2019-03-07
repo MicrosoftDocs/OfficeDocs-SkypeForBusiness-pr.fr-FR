@@ -10,15 +10,17 @@ description: Utilisez ce guide pour en savoir plus sur les conditions qui sont n
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Teams_ITAdmin_JourneyFromSfB
+MS.collection:
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 81b47a5a77a04becee748e4285641ce341fb65d4
-ms.sourcegitcommit: 327fe807b461aff18b06449f06b9e51ce393c4bc
+ms.openlocfilehash: bc1332acb7f6623ed3d9faf8919558b71d4b347d
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "29964425"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30465187"
 ---
 ![Étapes du voyage mise à niveau, en mettant l’accent sur l’étape de préparation technique] (media/upgrade-banner-tech-readiness.png "Étapes du voyage mise à niveau, en mettant l’accent sur l’étape de préparation technique")
 
@@ -33,329 +35,329 @@ Cet article fait partie de la phase de préparation technique de votre parcours 
 
 # <a name="plan-for-quality"></a>Prévoir la qualité
 
-Si vous déployez audio, vidéo ou des réunions, vous pouvez tirer quelques étapes supplémentaires pour optimiser votre environnement pour cette fonctionnalité. Ce contenu fournit une vue d’ensemble de la configuration requise qui sont nécessaires pour fournir et mettre à jour un déploiement de Microsoft Teams haute qualité. Pour garantir un déploiement réussi à la planification de la gestion des services et de qualité, avant le premier déploiement pilote ou de production.
+Si vous déployez audio, vidéo ou des réunions, vous pouvez tirer quelques étapes supplémentaires pour optimiser votre environnement pour cette fonctionnalité. Ce contenu fournira une vue d'ensemble des exigences nécessaires à la livraison et au maintien d'un déploiement de Microsoft Teams de haute qualité. Pour garantir un déploiement réussi à la planification de la gestion des services et de qualité, avant le premier déploiement pilote ou de production.
 
-Les instructions sont organisées dans les sections suivantes :
+Les directives sont organisées dans les sections suivantes :
 
-- Tout d’abord est une vue d’ensemble de l’expérience utilisateur et les composants clés base qualité. Cela met en évidence les zones à consacrer avant l’intégration à Microsoft Teams.
+- Le premier est une vue d'ensemble de l'expérience utilisateur et des composants clés qui sous-tendent la qualité. Ceci met en évidence les domaines sur lesquels il faut se concentrer avant d'intégrer Microsoft Teams.
 
-- Deuxièmement, est fournie pour la planification d’un modèle de prise en charge pour gérer Microsoft Teams avant le premier déploiement pilote ou de production. Cette section décrit les tâches qui doivent être effectuées régulièrement pour maintenir un déploiement d’équipes de haute qualité. En outre, cette section vous présente des instructions supplémentaires que vous pouvez utiliser pour comprendre et à mettre en application ces tâches.
+- Deuxièmement, des conseils sont donnés pour la planification d'un modèle de soutien pour gérer Microsoft Teams avant le premier pilote utilisateur ou le déploiement en production. Cette section décrit les tâches qui doivent être effectuées sur une base régulière pour maintenir un déploiement de Teams de haute qualité. De plus, cette section vous présente d'autres conseils que vous pouvez utiliser pour commencer à comprendre et à mettre en œuvre ces tâches.
 
-- Troisième des instructions spécifiques permet à la planification de votre réseau et les points de terminaison dans votre organisation pour prendre en charge Microsoft Teams.
+- Troisièmement, des conseils spécifiques aident à planifier votre réseau et les points de terminaison dans votre organisation pour soutenir Microsoft Teams.
 
-- Enfin, les étapes suivantes sont résumées avec des références vers du contenu connexe.
+- Enfin, les étapes suivantes sont résumées avec des références à des contenus connexes.
 
 ## <a name="key-technical-components-that-affect-user-experience"></a>Composants techniques clés qui affectent l’expérience utilisateur
 
-Les composants techniques clés qui affectent l’expérience utilisateur seront revus dans cette section. Avant d’examiner les composants clés, il est essentiel de bien comprendre l’expérience utilisateur et son importance dans la réalisation des objectifs de votre organisation. Examinons comment nous définir tout d’abord l’expérience utilisateur.
+Les composants techniques clés qui affectent l’expérience utilisateur seront revus dans cette section. Avant de passer en revue les éléments clés, il est essentiel que vous compreniez l'expérience utilisateur et son importance dans la réalisation des objectifs commerciaux de votre organisation. Examinons d'abord comment nous définissons l'expérience utilisateur.
 
-### <a name="user-experience-defined"></a>Expérience utilisateur défini
+### <a name="user-experience-defined"></a>Définition de l'expérience utilisateur
 
 Objectifs de l’entreprise peuvent être réalisés lorsque vous déployez Microsoft Teams et lorsque les utilisateurs prennent des équipes de leur solution de collaboration et de communication de base. Qualité peut aider à garantir une expérience utilisateur positive, un attribut de clé dans la conduite d’utilisation et d’adoption. En fournissant un service de haute qualité qui Cajun delights personnes, personnes et les équipes peuvent obtenir le niveau de confiance et trouvez une manière innovante d’utilisation du service bénéfices ce lecteur.
 
-Au cœur de ceci est l’expérience utilisateur avec des équipes — émotions et attitude le service de la personne. Ce qui contribue à l’expérience utilisateur ? Il est compris entre des utilisateurs savoir pourquoi et comment utiliser les équipes et les intégrer dans leur travail quotidien à la qualité des appels exceptionnelles et de se connecter en toute sécurité, où qu’ils soient. Expérience utilisateur est très vaste nature ; Cet article se concentre uniquement sur les éléments techniques qui peuvent être contrôlés par votre organisation. Vous trouverez plus d’informations sur la préparation des utilisateurs dans [votre organisation pour les équipes de préparer](https://aka.ms/SkypeToTeams-UserReadiness).
+Au cœur de ce projet se trouve l'expérience utilisateur avec Teams, les émotions et les attitudes de la personne à l'égard du service. Qu'est-ce qui contribue à l'expérience utilisateur ? Il est compris entre des utilisateurs savoir pourquoi et comment utiliser les équipes et les intégrer dans leur travail quotidien à la qualité des appels exceptionnelles et de se connecter en toute sécurité, où qu’ils soient. Expérience utilisateur est très vaste nature ; Cet article se concentre uniquement sur les éléments techniques qui peuvent être contrôlés par votre organisation. Vous trouverez plus d’informations sur la préparation des utilisateurs dans [votre organisation pour les équipes de préparer](https://aka.ms/SkypeToTeams-UserReadiness).
 
-Il existe des exigences spécifiques au déploiement qui sont extrêmement importantes pour fournir une expérience utilisateur fantastique, en particulier lorsque à l’aide de la voix dans le nuage fonctionnalités dans les équipes. Il est essentiel de traiter Teams Microsoft comme un acteur avec d’autres investissements de communication et de collaboration, ordre de priorité le trafic en temps réel en conséquence. La section suivante donne une vue d’ensemble des composants clés qui affectent l’expérience utilisateur. Dans les autres sections, nous vous proposons des instructions sur la façon de commencer à planifier déployer et gérer les composants clés qui composent la qualité.
+Il existe des exigences spécifiques au déploiement qui sont d'une importance critique pour offrir une expérience utilisateur exceptionnelle, en particulier lors de l'utilisation des fonctions Cloud Voice dans Teams. Il est essentiel de traiter Microsoft Teams comme un citoyen de première classe avec d'autres investissements de communication et de collaboration, en priorisant en conséquence le trafic en temps réel. La section suivante donne un aperçu des éléments clés qui affectent l'expérience utilisateur. Dans d'autres sections, nous vous fournirons des conseils sur la façon de commencer à planifier le déploiement et la maintenance des composants clés qui comprennent la qualité.
 
-### <a name="key-components-of-quality"></a>Composants clés de la qualité
+### <a name="key-components-of-quality"></a>Éléments clés de la qualité
 
-Une organisation ou un partenaire de prise en charge doit démarrer pendant la phase de préparation technique d’un déploiement d’équipes de planification pour les trois composants principaux : gestion, réseau et points de terminaison de service. La combinaison de tous les trois zones est essentielle pour la qualité de l’expérience utilisateur.
+Une organisation ou un partenaire de prise en charge doit démarrer pendant la phase de préparation technique d’un déploiement d’équipes de planification pour les trois composants principaux : gestion, réseau et points de terminaison de service. La combinaison de ces trois domaines est fondamentale pour la qualité de l'expérience utilisateur.
 
-![Diagramme illustrant les trois composants de qualité et de la gestion des services chevauche les trois composants.] (media/envision-planning-for-service-management-and-quality-complete-guide-image1.png "Diagramme illustrant les trois composants de qualité et de la gestion des services chevauche les trois composants.")
+![Diagramme illustrant les trois composantes de la qualité, et comment la gestion des services recoupe les trois composantes.](media/envision-planning-for-service-management-and-quality-complete-guide-image1.png "Diagramme illustrant les trois composantes de la qualité, et comment la gestion des services recoupe les trois composantes.")
 
 #### <a name="service-management"></a>Gestion des services
 
-Gestion de service peut être répartis en deux catégories distinctes de responsabilité :
+La gestion des services peut être divisée en deux catégories distinctes de responsabilité :
 
-- **Responsabilité de Microsoft**. Microsoft est chargé pour les composants d’infrastructure qui comprend le service Office 365. Microsoft est responsable pour les clients pour s’assurer qu’une de leurs utilisateurs se connectent aux équipes est fourni avec une expérience fiable et de haute qualité.
+- **Responsabilité de Microsoft**. Microsoft est responsable des composants d'infrastructure que le service Office 365 comprend. Microsoft est responsable envers ses clients pour s'assurer que tous les utilisateurs qui se connectent à Teams bénéficient d'une expérience fiable et de haute qualité.
 
-- **Responsabilité du client**. Vous et votre organisation sont chargés de gérer les différents aspects du service Office 365, réseau local et points de terminaison utilisateur. Par exemple, comme les nouvelles adresses IP sont ajoutées à Office 365, vous devez mettre à jour le pare-feu pour permettre la communication aux nouveaux points de terminaison pour éviter les interruptions de l’utilisateur approprié.
+- **Responsabilité du client**. Vous et votre organisation êtes responsables de la gestion des différents aspects du service Office 365, du réseau sur site et des points de terminaison des utilisateurs. Par exemple, lorsque de nouvelles adresses IP sont ajoutées à Office 365, vous devez mettre à jour les pare-feu appropriés pour permettre la communication avec les nouveaux points de terminaison afin d'éviter toute perturbation de l'utilisateur.
 
-Pour obtenir des instructions détaillées pour la gestion des services de planification, voir [planifier la gestion des services](#plan-for-service-management).
+Pour des conseils détaillés sur la planification de la gestion des services, voir [Plan de gestion des services](#plan-for-service-management).
 
 #### <a name="network"></a>Réseau
 
-Dans la plupart des organisations, réseaux ont été initialement conçus pour fournir un accès aux données et les applications qui se trouvaient dans leurs centres de données. Les applications basées sur le nuage tels qu’Office 365 nécessitent des modifications apportées à ces réseaux pour prendre en charge les nouveaux flux accéder aux données et qui nécessite des équipes. Avant de pouvoir activer les utilisateurs pour les équipes de votre organisation, vous devez évaluer et optimiser votre réseau actuel. Il est essentiel en tirant parti des fonctionnalités de voix dans le nuage.
+Dans la plupart des organisations, les réseaux ont d'abord été conçus pour donner accès aux données et aux applications qui se trouvent dans leurs centres de données. Les applications basées sur le Cloud comme Office 365 nécessitent des modifications de ces réseaux pour prendre en charge les nouveaux accès et flux de données dont Teams a besoin. Avant de pouvoir activer les utilisateurs pour Teams dans votre organisation, vous devez évaluer et optimiser votre réseau actuel. C'est d'une importance capitale lorsque l'on utilise les capacités vocales du cloud computing.
 
-Dans les réseaux traditionnels, les utilisateurs devront traverser les réseaux de périmètre d’une organisation pour accéder aux équipes. Bon nombre d’organisations ont basée sur la sécurité des appareils tels que des serveurs proxy, les pare-feu et VPN qui peuvent bloquer, entraver ou fournissent un chemin d’accès non optimisé pour le trafic réseau.
+Dans les réseaux traditionnels, les utilisateurs devront traverser les réseaux périmétriques d'une organisation pour accéder à Teams. De nombreuses organisations disposent de dispositifs de sécurité tels que les serveurs proxy, les pare-feu et les VPN qui peuvent bloquer, entraver ou fournir un chemin non optimisé pour le trafic réseau.
 
-En outre, les réseaux internes principaux doivent être optimisée et adaptée pour fournir suffisamment de capacité et de qualité pour prendre en charge les charges de travail d’équipes, y compris les médias en temps réel. Vous pouvez utiliser la bande passante de la planification, la mise à jour, et l’optimisation pour s’assurer de votre réseau fournit un chemin d’accès de haute qualité et efficace à Office 365.
+En outre, les réseaux internes de base doivent être optimisés et dimensionnés de manière à fournir une capacité et une qualité suffisantes pour supporter les charges de travail de Teams, y compris les médias en temps réel. Vous pouvez utiliser la planification, la correction et l'optimisation de la bande passante pour vous assurer que votre réseau offre un chemin de haute qualité et efficace vers Office 365.
 
-Pour obtenir des instructions détaillées sur la planification du réseau, voir [planifier la qualité du réseau](#plan-for-network-quality).
+Pour des conseils détaillés sur la planification du réseau, voir [Planifier la qualité du réseau](#plan-for-network-quality).
 
 #### <a name="endpoints"></a>Points de terminaison
 
-Teams Microsoft prend en charge une variété de systèmes d’extrémité. De PC tablettes aux téléphones, vous pouvez accéder aux équipes n’importe où à partir de n’importe quel appareil.
+Microsoft Teams prend en charge une variété de points de terminaison. Qu'il s'agisse de PC, de tablettes ou de téléphones, vous pouvez accéder à Teams partout et à partir de presque tous les appareils.
 
-Pour donner aux utilisateurs la meilleure expérience possible, vous devez prendre en compte ces aspects importants : vos points de terminaison répondent aux exigences matérielles et logicielles équipes ? Avez-vous configurée et optimisée des points de terminaison pour prendre en charge les réseaux Wi-Fi ? Les périphériques utilisera pour émettre et recevoir des appels vocaux ? Ces périphériques optimisés pour les équipes ?
+Pour donner aux utilisateurs la meilleure expérience possible, vous devez prendre en compte ces aspects importants : vos points de terminaison répondent aux exigences matérielles et logicielles équipes ? Avez-vous configuré et optimisé les points de terminaison pour prendre en charge les réseaux Wi-Fi ? Quels appareils utiliserez-vous pour passer et recevoir des appels vocaux ? Ces appareils sont-ils optimisés pour Teams ?
 
-Pour obtenir des instructions détaillées sur la planification du point de terminaison, voir [Plan pour la qualité du point de terminaison](#plan-for-endpoint-quality).
+Pour des conseils détaillés sur points de terminaison, voir [Planifier la qualité des points de terminaison](#plan-for-endpoint-quality).
 
 ## <a name="plan-for-service-management"></a>Plan de gestion des services
 
-Gestion des services est un sujet vaste qui traite des opérations quotidiennes du service Microsoft Teams après que qu’il a été déployé et activé pour les utilisateurs. Le service d’équipes englobe Microsoft Office 365 et les composants d’infrastructure qui sont déploiement en local (par exemple, mise en réseau).
+La gestion des services est un vaste sujet qui couvre les opérations quotidiennes du service Microsoft Teams après son déploiement et son activation pour les utilisateurs. Le service Teams englobe Microsoft Office 365 et les composants d'infrastructure déployés sur site (par exemple, la mise en réseau).
 
-La notion de gestion des services n’est probablement pas un nouveau concept pour la plupart des organisations. Vous probablement avez déjà mise en œuvre des processus et les tâches qui sont associés à des services existants. Cela étant dit, vous pouvez enrichir probablement que vous avez en place lorsque vous planifiez aujourd'hui pour la gestion de service prendre en charge Microsoft Teams à l’avenir.
+La notion de gestion des services n'est probablement pas un concept nouveau pour la plupart des organisations. Vous avez probablement déjà mis en œuvre des processus et des tâches qui sont associés à des services existants. Cela dit, vous pouvez probablement augmenter ce que vous avez en place lorsque vous planifiez la gestion des services aujourd'hui pour soutenir Microsoft Teams à l'avenir.
 
-Gestion des services comprend toutes les activités et processus impliqués dans la gestion de Microsoft Teams bout en bout. Comme décrit précédemment, certains composants de gestion de service, les composants d’infrastructure qui comprend le service Office 365 lui-même — sont responsabilité de Microsoft, tandis que le client est responsable à ses utilisateurs à gérer les différents aspects des équipes, le réseau et qu’ils fournissent des points de terminaison. Cette section du document se concentreront sur la responsabilité du client à partir d’un point de vue de gestion de service.
+La gestion des services englobe toutes les activités et processus impliqués dans la gestion de bout en bout de Microsoft Teams. Comme décrit précédemment, certaines composantes de la gestion des services, les composantes de l'infrastructure que le service Office 365 comprend lui-même, relèvent de la responsabilité de Microsoft, alors que le client est responsable devant ses utilisateurs de la gestion des différents aspects de Teams, du réseau et des points de terminaison qu'ils fournissent. Cette section du document mettra l'accent sur la responsabilité du client du point de vue de la gestion des services.
 
-![Diagramme illustrant les trois composants de qualité et de la gestion des services chevauche les trois composants. Accent sur la gestion des services.] (media/envision-planning-for-service-management-and-quality-complete-guide-image2.png "Diagramme illustrant les trois composants de qualité et de la gestion des services chevauche les trois composants. Accent sur la gestion des services.")
+![Diagramme illustrant les trois composantes de la qualité, et comment la gestion des services recoupe les trois composantes. En mettant l'accent sur la gestion des services.](media/envision-planning-for-service-management-and-quality-complete-guide-image2.png "Diagramme illustrant les trois composantes de la qualité, et comment la gestion des services recoupe les trois composantes. En mettant l'accent sur la gestion des services")
 
 ### <a name="introduction-to-the-operations-guide"></a>Introduction au Guide des opérations
 
-**Les** **personnes**et **comment** sont trois questions importantes qui doivent être posées en matière de gestion des services.
+**Quoi**, **Qui** et **Comment** sont trois questions importantes auxquelles il faut répondre lorsqu'il s'agit de la gestion des services.
 
-Vous pouvez utiliser le [Guide des opérations](1-drive-value-operate-my-service.md) pour vous aider à résoudre les trois de ces questions. Le guide fournit une liste d’activités à effectuer sur tous les jours, toutes les semaines, tous les mois, et en fonction des besoins. Ces tâches et activités sont essentielles pour la maintenance d’un déploiement d’équipes de haute qualité. Déterminer qui sera chargé d’effectuer des activités spécifiques dans la gestion de service est un aspect essentiel de la planification que vous devrez faire au début de la [phase de planification](upgrade-enlist-stakeholders.md) pour réussir le déploiement. Une fois que vous avez trouvé les tâches et activités, ils doivent être comprises et suivi des groupes ou des personnes que vous leur attribuez. Le Guide des opérations fournit des instructions sur la façon d’effectuer chacune des tâches et la base de connaissances, et/ou les références à un contenu externe.
+Vous pouvez utiliser le [Guide des opérations](1-drive-value-operate-my-service.md) pour vous aider à répondre à ces trois questions. Le guide fournit une liste d'activités à réaliser sur une base quotidienne, hebdomadaire, mensuelle et selon les besoins. Ces activités et tâches sont essentielles au maintien d'un déploiement de Teams de haute qualité. Déterminer qui sera chargé d’effectuer des activités spécifiques dans la gestion de service est un aspect essentiel de la planification que vous devrez faire au début de la [phase de planification](upgrade-enlist-stakeholders.md) pour réussir le déploiement. Une fois les tâches et les activités déterminées, elles doivent être comprises et suivies par les groupes ou les individus que vous leur assignez. Le Guide des opérations fournit des connaissances et des conseils sur la façon d'exécuter chacune des tâches et/ou des références à des contenus extérieurs.
 
-### <a name="operational-role-mapping"></a>Mappage de rôle opérationnel
+### <a name="operational-role-mapping"></a>Mappage des rôles opérationnels
 
-Planification de la gestion de service au début est un jalon critique, car la phase de fonctionnement commence lorsque les premier utilisateurs du pilote sont activés. L’équipe de projet doit étudier et accepter les tâches et activités requises, identifier l’équipe chargée de chaque tâche opérationnelle, puis obtenez un engagement et approbation de chaque équipe respectif.
+La planification précoce de la gestion des services est une étape critique, car la phase d'exploitation commence lorsque les premiers utilisateurs pilotes sont activés. L'équipe de projet doit examiner et s'entendre sur les tâches et les activités requises, identifier l'équipe responsable de chaque tâche opérationnelle, puis obtenir l'engagement et l'approbation de chaque équipe respective.
 
-Une fois l’approbation terminée, l’équipe responsable doit commencer puis à mettre en application ces rôles et les responsabilités. Cela peut inclure la formation et préparation, mise à jour le modèle de dotation en personnel ou en vous assurant que les partenaires externes sont prêts à fournir.
+Une fois l'approbation terminée, l'équipe responsable doit alors commencer à mettre en œuvre ces rôles et responsabilités. Cela peut comprendre la formation et l'état de préparation, la mise à jour du modèle de dotation ou l'assurance que les partenaires externes sont prêts à livrer la marchandise.
 
 Mappage des rôles opérationnels lors de la collecte de votre [équipe de projet](upgrade-enlist-stakeholders.md) permet de toutes les équipes démarrer leurs tâches opérationnelles pendant le pilote et découvrez les opérations et de vous assurer que tout est prête une fois le déploiement démarre.
 
-Le Guide des opérations fournit une liste des tâches courantes mappés à des rôles par défaut qui doivent être valides dans la plupart des scénarios. Vous devez personnaliser ces responsabilités à utiliser pour votre organisation.
+Le Guide des opérations fournit une liste des tâches communes mappées aux rôles typiques qui devraient être valides dans la plupart des scénarios. Vous devez personnaliser ces responsabilités pour travailler pour votre organisation.
 
-### <a name="the-quality-champion-role"></a>Le rôle Champion de qualité
+### <a name="the-quality-champion-role"></a>Le rôle de Champion de la qualité
 
-Un groupe ou individuel doit être responsables de la qualité dans toutes les organisations. Il s’agit d’un rôle essentiel dans la gestion de service. Le poids lourd qualité est un rôle de client qui est affecté à une personne ou un groupe qui est passionné sur l’expérience des utilisateurs. Ce rôle nécessite les compétences nécessaires pour identifier les tendances dans l’environnement et le soutien pour travailler avec d’autres équipes pour diriger la mise à jour. La mieux adaptée à la qualité poids lourd est généralement le propriétaire du service client qui, selon la taille et la complexité de l’organisation, peut être une personne ou un groupe qui est passionné sur l’expérience utilisateur.
+Un groupe ou un individu doit être responsable de la qualité dans toutes les organisations. Il s'agit du rôle le plus important dans la gestion des services. Le Champion de la qualité est un rôle de client assigné à une personne ou à un groupe passionné par l'expérience de ses utilisateurs. Ce rôle exige les compétences nécessaires pour cerner les tendances de l'environnement et le parrainage pour travailler avec d'autres équipes afin d'orienter les mesures correctives. Le meilleur candidat pour le champion de la qualité est généralement le propriétaire du service-clients qui, en fonction de la taille et de la complexité de l'organisation, peut être toute personne ou tout groupe passionné par l'expérience utilisateur.
 
-Le poids lourd qualité tire parti des outils existants et identifient les tendances de qualité des processus documentés, tels que le tableau de bord de qualité des appels (CQD) et de la qualité expérience consulter le Guide, surveiller l’expérience utilisateur et correction du lecteur lorsque cela est nécessaire. Le poids lourd qualité fonctionne avec les équipes respectifs pour exécuter des actions de mise à jour, création de rapports à un comité directeur de leur progression et les problèmes en cours.
+Le champion de la qualité s'appuie sur les outils existants et les processus documentés, comme le Tableau de bord de la qualité des appels (CQD) et le Guide d'examen de l'expérience de la qualité, afin de surveiller l'expérience utilisateur, identifier les tendances de la qualité et mettre en œuvre, le cas échéant, des mesures correctives. Le champion de la qualité doit collaborer avec les équipes appropriées pour mettre en place des mesures correctrices, fournir des rapports à un comité directeur sur la progression et les problèmes ouverts.
 
-Les tâches et activités associées au rôle ont été documentées dans le Guide des opérations. Ce rôle doit être affecté au cours de la [phase de planification](https://aka.ms/SkypeToTeams-Plan). Une étape clée dans le rôle de poids lourd qualité à mettre en application gagne la base de connaissances requis pour le rôle et vérifier les conditions préalables sont en place pour fournir des tâches. Les tâches importantes pour ce rôle exécute une expérience de qualité régulièrement.
+Les tâches et les activités associées à ce rôle ont été documentées dans le Guide des opérations. Ce rôle doit être affecté au cours de la [phase de planification](https://aka.ms/SkypeToTeams-Plan). Une étape clé dans la mise en œuvre du rôle de champion de la qualité consiste à acquérir les connaissances requises pour ce rôle et à s'assurer que les conditions préalables sont en place pour accomplir les tâches. L'une des tâches clés de ce rôle est d'effectuer un examen régulier de l'expérience de la qualité.
 
-### <a name="introduction-to-the-quality-experience-review-guide"></a>Introduction au Guide de révision expérience qualité
+### <a name="introduction-to-the-quality-experience-review-guide"></a>Introduction au Guide d'examen de l'expérience de la qualité
 
-La qualité expérience consulter le Guide dispose d’un ensemble d’activités évaluer et fournissent des instructions de mise à jour dans les zones clés qui ont le plus grand impact pour améliorer l’expérience utilisateur comme indiqué dans la figure ci-dessous.
+Le Guide d'examen de l'expérience de la qualité comporte un ensemble d'activités qui évaluent et fournissent des conseils en matière de remédiation dans les domaines clés qui ont le plus grand impact sur l'amélioration de l'expérience utilisateur, comme le montre la figure ci-dessous.
 
-![Un diagramme qui illustre les zones clés qui sont examinés lors d’une révision de l’expérience de qualité.] (media/envision-planning-for-service-management-and-quality-complete-guide-image3.png "Un diagramme qui illustre les zones clés qui sont examinés lors d’une révision de l’expérience de qualité.")
+![Un diagramme qui illustre les domaines clés examinés au cours d'un examen de l'expérience de la qualité.](media/envision-planning-for-service-management-and-quality-complete-guide-image3.png "Un diagramme qui illustre les domaines clés examinés au cours d'un examen de l'expérience de la qualité.")
 
-En permanence évaluer et corriger les zones décrites dans ce document, vous pouvez réduire leur potentiel pour un impact négatif sur l’expérience utilisateur. La plupart des problèmes d’expérience utilisateur dans un déploiement peuvent être regroupées dans les catégories suivantes :
+En évaluant et en corrigeant continuellement les zones décrites dans ce document, vous pouvez réduire leur potentiel d'affecter négativement l'expérience utilisateur. La plupart des problèmes d'expérience utilisateur rencontrés lors d'un déploiement peuvent être regroupés dans les catégories suivantes :
 
-- Configuration de pare-feu ou proxy incomplète
+- Configuration incomplète du pare-feu ou du proxy
 
-- Une mauvaise couverture Wi-Fi
+- Faible couverture Wi-Fi
 
 - Bande passante insuffisante
 
 - VPN
 
-- Utilisation de périphériques audio non optimisées ou intégrés
+- Utilisation d'appareils audio non optimisés ou intégrés
 
-- Sous-réseaux problématiques ou périphériques réseau
+- Sous-réseaux ou périphériques réseau problématiques
 
-Les instructions fournies dans le Guide de révision de l’expérience de qualité se concentre sur l’utilisation en ligne de tableau de bord de la qualité des appels (CQD) comme le principal outil d’examiner chaque zone décrite, en mettant l’accent sur l’audio à optimiser l’impact d’adoption et de signaler. Les optimisations apportées au réseau pour améliorer l’expérience audio auront également directement des améliorations dans le partage du bureau et vidéo.
+Les conseils fournis dans le Guide d'examen de l'expérience de qualité portent sur l'utilisation du CQD en ligne comme outil principal pour rapporter et enquêter sur chaque domaine décrit, en mettant l'accent sur l'audio pour maximiser l'adoption et l'impact. Toutes les optimisations apportées au réseau pour améliorer l'expérience audio se traduiront aussi directement par des améliorations dans le partage de la vidéo et du bureau.
 
-Nous vous recommandons de vous désigner le poids lourd qualité dès le début. Après avoir en cours désignés, ils doivent démarrer à se familiariser avec le contenu de l’expérience de qualité consulter le Guide.
+Nous vous recommandons fortement de nommer le Champion de la qualité le plus tôt possible. Après avoir été nommé, il doit commencer à se familiariser avec le contenu dans le Guide d’examen de l’expérience qualité.
 
-Vous pouvez trouver les consulter le Guide de l’expérience qualité [ici](https://aka.ms/qerguide).
+Le Guide d'examen de l'expérience de qualité se trouve [ici](https://aka.ms/qerguide).
 
-## <a name="plan-for-network-quality"></a>Prévoir la qualité du réseau
+## <a name="plan-for-network-quality"></a>Planifier la qualité du réseau
 
-Planification de la qualité du réseau est activé pour la section suivante.
+La planification de la qualité du réseau sera au centre de la section suivante.
 
-![Diagramme illustrant les trois composants de qualité et de la gestion des services chevauche les trois composants. En mettant l’accent sur le réseau.] (media/envision-planning-for-service-management-and-quality-complete-guide-image4.png "Diagramme illustrant les trois composants de qualité et de la gestion des services chevauche les trois composants. En mettant l’accent sur le réseau.")
+![Diagramme illustrant les trois composantes de la qualité, et comment la gestion des services recoupe les trois composantes. En mettant l'accent sur le réseau.](media/envision-planning-for-service-management-and-quality-complete-guide-image4.png "Diagramme illustrant les trois composantes de la qualité, et comment la gestion des services recoupe les trois composantes. En mettant l'accent sur le réseau.")
 
-Comme mentionné précédemment, planification pour la qualité du réseau avant l’intégration à Microsoft Teams est critique. Pour obtenir des instructions pour la mise en réseau, voir [préparer le réseau de votre organisation pour les équipes Microsoft](prepare-network.md).
+Comme mentionné précédemment, la planification de la qualité du réseau avant l'intégration à Microsoft Teams est essentielle. Pour de plus amples informations sur l'état de préparation du réseau, voir [Préparer le réseau de votre organisation pour Microsoft Teams](prepare-network.md).
 
 Dans la plupart des organisations, les réseaux peuvent comprendre des réseaux gérés et non gérés.
 
-Réseaux gérés sont des composants de l’infrastructure réseau qui une organisation a un contrôle direct. Par conséquent, les réseaux gérés ont un impact direct sur la qualité qui peut être distribué aux charges de travail le trafic en temps réel.
+Les réseaux gérés sont des composantes de l'infrastructure réseau sur lesquelles une organisation exerce un contrôle direct. Par conséquent, les réseaux gérés ont une influence directe sur la qualité qui peut être fournie aux charges de travail du trafic en temps réel.
 
-Inversement, réseaux non gérés sont des segments du réseau qu’un client a limité contrôle ou aucun contrôle, plus.
+Inversement, les réseaux non gérés sont des segments du réseau sur lesquels un client n'a qu'un contrôle limité, ou aucun contrôle.
 
-Connexions Internet entre l’organisation et Office 365 sont des réseaux où d’un client a un contrôle limité. Les réseaux sont gérées par un fournisseur de services Internet, mais les organisations doivent être en mesure d’influencer la qualité du réseau à leur bande passante, recommandation pour les optimisations itinéraire de mise à niveau ou, si le problème persiste, commutation des fournisseurs de services Internet.
+Les connexions Internet entre l'organisation et Office 365 sont des réseaux sur lesquels un client a un contrôle limité. Les réseaux sont gérés par un fournisseur d'accès Internet (FAI), mais les organisations devraient être en mesure d'influencer la qualité du réseau en améliorant leur bande passante, en préconisant l'optimisation des routes ou, en cas d'échec, en commutant les FAI.
 
-Accueil ou réseaux dans hôtels ou les restaurants sont des exemples de réseaux où un client n’a aucun contrôle.
+Les réseaux domestiques ou les réseaux dans les hôtels ou les cafés sont des exemples de réseaux sur lesquels un client n'a aucun contrôle.
 
-Dans les sections suivantes, nous nous concentrerons sur les exigences de qualité de réseaux gérés.
+Dans les sections suivantes, nous concentrerons sur les exigences de qualité des réseaux gérés.
 
-### <a name="key-network-planning-areas"></a>Planification des zones clés du réseau
+### <a name="key-network-planning-areas"></a>Principaux domaines de planification du réseau
 
-Les sections suivantes se concentrent sur les aspects importants permettant de fournir un réseau de haute qualité.
+Les sections suivantes se concentrent sur les domaines importants pour la mise en place d'un réseau de haute qualité.
 
 > [!NOTE]
-> De nombreux réseaux évoluent au fil du temps en raison des mises à niveau, une expansion ou autres impératifs d’entreprise. Assurez-vous que vous disposez des processus opérationnels en place pour mettre à jour ces zones dans le cadre de votre planification de la gestion de service.
+> De nombreux réseaux évoluent au fil du temps en raison des mises à niveau, de l'expansion ou d'autres exigences commerciales. Assurez-vous d'avoir des processus opérationnels en place pour maintenir ces secteurs dans le cadre de la planification de la gestion des services.
 
 #### <a name="bandwidth"></a>Bande passante
 
-Planification de la bande passante est un aspect critique de l’activité de préparation du réseau. Il est impératif de s’assurer qu’il y a suffisamment de bande passante pour les charges de travail Microsoft Teams. Pour être en mesure de taille droite un réseau existant, vous devez comprendre ce qui a actuellement mis en service, l’utilisation actuelle, et, enfin — la bande passante disponible restante.
+La planification de la bande passante est un aspect critique de l'activité de préparation du réseau. Il est impératif de s'assurer qu'il y a suffisamment de bande passante pour les charges de travail de Microsoft Teams. Pour pouvoir redimensionner un réseau existant, vous devez comprendre ce qui est actuellement provisionné, l'utilisation actuelle et, finalement, la bande passante disponible restante.
 
-Pour mesurer l’utilisation actuelle, vous devez surveiller le réseau. Cette mesure permet comme point de départ pour la planification de la bande passante. En outre, le réseau doit en permanence surveillé lors du déploiement et après le déploiement pour vous assurer que le réseau est suffisamment approvisionné.
+Pour mesurer l'utilisation actuelle, vous devez surveiller le réseau. Cette mesure peut ensuite servir de point de départ pour la planification de la bande passante. En outre, le réseau devrait faire l'objet d'une surveillance continue pendant et après le déploiement afin de s'assurer que le réseau est suffisamment approvisionné.
 
 > [!NOTE]
-> Lors de l’analyse de l’utilisation du réseau, il est important éviter d’utiliser les moyennes sur la journée. Ces moyennes peuvent inclure des heures non principales incliner le résultat. Moyennes peuvent masquer les périodes de forte et masquer un problème sous-jacent.
+> Lorsque vous surveillez l'utilisation du réseau, il est important d'éviter d'utiliser des moyennes sur la journée. Ces moyennes peuvent inclure des heures non essentielles qui faussent le résultat. Les moyennes peuvent cacher les périodes de pointe et masquer un problème sous-jacent.
 
-Le [Planificateur de réseau](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) vous aide à déterminer et organiser la configuration réseau requise pour votre déploiement en quelques étapes simples. À l’aide de l’outil pour recueillir plus d’informations sur les réseaux et l’utilisation de la voix dans le Cloud de votre organisation, vous pouvez obtenir un calcul approximatif de la configuration réseau requise vous aurez besoin pour votre déploiement de voix dans le nuage, gérer et exporter ces informations pour la création de rapports et d’afficher zones pour l’analyse approfondie et suivre les étapes ci-après.
+Le [Planificateur de réseau](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) vous aide à déterminer et à organiser les exigences réseau pour votre déploiement en quelques étapes simples. En utilisant l'outil pour rassembler les détails du réseau de votre organisation et l'utilisation de Cloud Voice, vous pouvez obtenir un calcul approximatif des exigences réseau dont vous aurez besoin pour votre déploiement de Cloud Voice, gérer et exporter ces détails pour la production de rapports, et visualiser les zones pour une enquête plus approfondie ainsi que les prochaines étapes.
 
 #### <a name="quality-of-service-qos"></a>Qualité de service (QoS)
 
-QoS doit être implémentée sur tous les segments du réseau géré, voire les réseaux qui ont été correctement mis en service pour la bande passante. Dans ce cas, QoS agit comme une atténuation des risques en cas de charge réseau inattendues. Lorsque la qualité de service est implémentée, le trafic vocal est prioritaires afin que ces événements imprévus n’affectent pas la qualité.
+La QoS devrait être mise en œuvre sur tous les segments du réseau géré, même les réseaux qui ont été suffisamment provisionnés pour la bande passante. Dans ce dernier cas, la QoS sert à atténuer les risques en cas de charge imprévue sur le réseau. Lorsque la QoS sera mise en œuvre, le trafic vocal sera priorisé afin que ces événements imprévus n'affectent pas la qualité.
 
-Une implémentation de QoS doit inclure les zones du réseau, le point de terminaison aux points de sortie et les points de sortie sur le point de terminaison. Cela permet de garantir que le trafic vocal est priorité dans les deux sens. QoS doit être implémentée sur les deux filaire et les réseaux Wi-Fi.
+Une implémentation de la QoS doit inclure des zones du réseau, depuis le point d'extrémité jusqu'aux points de sortie et depuis les points de sortie jusqu'au point de terminaison. Cela permettra de s'assurer que le trafic vocal est prioritaire dans les deux sens. La QoS doit être mise en œuvre à la fois sur les réseaux câblés et Wi-Fi.
 
-Pour l’implémentation de QoS sur votre réseau, les conseils suivants peuvent aider à [La qualité de Service dans les équipes Microsoft](qos-in-teams.md)
+Pour implémenter la QoS sur votre réseau, les conseils suivants peuvent vous aider à améliorer la [Qualité de service dans Microsoft Teams](qos-in-teams.md)
 
 #### <a name="proxy-servers"></a>Serveurs proxy
 
-Bon nombre d’organisations afficher le trafic destiné à internet comme un risque de sécurité, et ils réduire ce risque en surveiller et évaluer le trafic sur les points de sortie dans le réseau. Les serveurs proxy sont une classe de périphériques qui peuvent être déployés pour répondre à cette exigence.
+De nombreuses organisations considèrent le trafic destiné à Internet comme un risque pour la sécurité, et elles atténuent ce risque en surveillant et en évaluant le trafic aux points de sortie du réseau. Les serveurs proxy sont une classe de dispositifs qui peuvent être déployés pour répondre à cette exigence.
 
-Un serveur proxy peut présenter des problèmes lors de l’exécution des paquets ou modification de la charge utile. Cela peut entraîner pour appeler les échecs d’installation, appels abandonnés et appel de mauvaise qualité. Si les médias en temps réel est forcé de parcourir un serveur proxy, la pile de médias dans les équipes est forcée basculer sur TCP, qui permet de réduire la qualité. UDP est toujours préféré sur TCP.
+Un serveur proxy peut introduire des problèmes lors de l'inspection des paquets ou de la modification de la charge utile. Cela peut entraîner des échecs de configuration des appels, des coupures d'appels et une mauvaise qualité d'appel. Si les médias en temps réel sont forcés de traverser un serveur proxy, la pile de médias dans les équipes sera forcée d'échouer de nouveau à TCP, ce qui peut réduire davantage la qualité. UDP est toujours préféré à TCP.
 
-En outre, un serveur proxy ne peut pas conçu pour gérer la charge supplémentaire d’Office 365 et plus particulièrement les charges de travail Microsoft Teams, y compris les médias en temps réel.
+En outre, un serveur proxy peut ne pas être conçu pour gérer la charge supplémentaire d'Office 365, et plus particulièrement les charges de travail de Microsoft Teams, y compris les médias en temps réel.
 
-En raison d’un serveur proxy peut entraîner des problèmes potentiels et les problèmes de capacité supplémentaire, Microsoft recommande en contournant le serveur proxy et d’une connexion directe à Office 365.
+En raison des problèmes potentiels qu'un serveur proxy peut introduire et de ces problèmes de capacité supplémentaire, Microsoft recommande de contourner le serveur proxy et d'établir une connexion directe avec Office 365.
 
-La configuration requise pour contourner le serveur proxy varie selon les fournisseurs, mais l’approche courante implique généralement la mise à jour le fichier de configuration automatique (CAP) proxy. Le fichier PAC est un fichier de configuration qui décrivent le trafic passe par le proxy et le trafic qu’il ignore.
+La configuration requise pour contourner le serveur proxy varie d'un fournisseur à l'autre, mais l'approche courante consiste généralement à mettre à jour le fichier PAC (fichier de configuration automatique de proxy). Le fichier PAC est un fichier de configuration qui décrit quel trafic passe par le proxy et quel trafic le contourne.
 
-Certains fournisseurs de serveurs proxy fournissent un processus automatisé pour garantir la configuration est à jour. Si votre fournisseur ne fournit pas ce processus automatique, vous pouvez télécharger un fichier PAC mis à jour à partir de <https://aka.ms/o365proxies>.
+Certains fournisseurs de serveurs proxy proposent un processus automatisé pour s'assurer que la configuration est à jour. Si votre fournisseur ne fournit pas ce processus automatique, vous pouvez télécharger un fichier PAC mis à jour à partir de <https://aka.ms/o365proxies>.
 
 [Serveurs proxy pour les équipes ou Skype pour les entreprises en ligne et des équipes](proxy-servers-for-skype-for-business-online.md)
 
 #### <a name="firewalls"></a>Pare-feu
 
-S’assurer que les protocoles et les ports droite sont ouverts pour toutes les URL et les adresses IP d’Office 365 est requis pour accéder à Microsoft Teams. Il est également critique pour un déploiement de haute qualité. Simplement un appel ou participer à une conférence téléphonique n’est pas suffisant pour vous assurer que votre pare-feu est configuré correctement.
+Il est nécessaire de s'assurer que les bons ports et protocoles sont ouverts à toutes les adresses IP et URL Office 365 pour avoir accès à Microsoft Teams. C'est également essentiel pour un déploiement de haute qualité. Il ne suffit pas de passer un appel ou de participer à une conférence téléphonique pour s'assurer que votre pare-feu est correctement configuré.
 
-Si seul TCP est ouvert sur le pare-feu, la session est établie, mais le transport par défaut (UDP) n’est pas négocié. TCP et UDP doivent être ouverts sur le pare-feu pour fournir la meilleure expérience utilisateur.
+Si seul TCP est ouvert sur le pare-feu, la session sera établie, mais le transport préféré (UDP) n'est pas négocié. TCP et UDP doivent être ouverts sur le pare-feu pour offrir la meilleure expérience utilisateur.
 
-En raison de la nature dynamique, TCP n’est pas par défaut pour les médias en temps réel et est fourni comme moyen de transport réseau la restauration pour Microsoft Teams. Avec TCP, s’il existe retard des paquets ou perte, les paquets doivent être redirigées jusqu'à ce qu’elles sont reconnues. Cela peut entraîner des paquets de médias qui ne sont plus pertinents concurrents de remise en temps voulu des paquets de médias en cours. Client des équipes de l’utilisateur essaie d’étirer audio et peut générer des bruits audibles en fonction des conditions de réseau. Avec la surcharge supplémentaire du protocole TCP, une expérience généralement acceptable puisse passer à une expérience utilisateur médiocre. Pour cette raison, le transport sans état réseau UDP est requis.
+En raison de sa nature dynamique, TCP n'est pas préféré pour les médias en temps réel et n'est fourni qu'en tant que transport réseau de reprise pour Microsoft Teams. Avec TCP, en cas de retard ou de perte de paquets, ces derniers doivent être retransmis jusqu'à ce qu'ils soient reconnus. Cela peut donner lieu à des paquets de médias qui ne sont plus pertinents et qui sont en concurrence avec la livraison en temps opportun des paquets de médias actuels. Le client Teams de l'utilisateur tente d'étirer l'audio et peut produire des artefacts audibles en fonction des conditions du réseau. Avec les frais généraux supplémentaires du TCP, une expérience généralement acceptable peut se transformer en une mauvaise expérience utilisateur. Pour cette raison, le réseau de transport sans état UDP est nécessaire.
 
-L’aide complète pour ouvrir le pare-feu pour Microsoft Teams est fournie dans l’article [Office 365 URL et plages d’adresses IP](https://aka.ms/o365ips) .
+Des conseils complets sur l'ouverture du pare-feu pour Microsoft Teams sont fournis dans l'article [Plages d'adresses URL et IP d’Office 365](https://aka.ms/o365ips).
 
-Une fois que le pare-feu est ouvert, vous pouvez utiliser l' [Outil d’évaluation réseau Microsoft](https://www.microsoft.com/download/details.aspx?id=53885) pour valider la connectivité pour les fonctionnalités de voix dans le nuage.
+Après l'ouverture du pare-feu, vous pouvez utiliser  [l'Outil d'évaluation du réseau Microsoft](https://www.microsoft.com/download/details.aspx?id=53885)  pour valider la connectivité des capacités de Cloud Voice.
 
 > [!IMPORTANT]
-> Les URL et les adresses IP de Microsoft Office 365 va évoluer. Dans le cadre de la planification de gestion de service, il est important de garantir un processus opérationnel est en place et un groupe est responsable pour surveiller [Office 365 URL et plages d’adresses IP](https://aka.ms/o365ips) et de mettre à jour en conséquence.
+> Les adresses IP et URL de Microsoft Office 365 changeront au fil du temps. Dans le cadre de la planification de la gestion des services, il est important de s'assurer qu'un processus opérationnel est en place et qu'un groupe est responsable de surveiller les [Plages d'adresses URL et IP d’Office 365](https://aka.ms/o365ips) et d'effectuer les mises à jour en conséquence.
 
-#### <a name="local-internet-egress"></a>Local sortant internet
+#### <a name="local-internet-egress"></a>Sortie Internet locale
 
-De nombreux réseaux ont été conçus pour utiliser un concentrateur de topologie en étoile. Dans cette topologie, le trafic internet parcourt généralement le réseau étendu à un centre de données central avant il ressort (egresses) à internet. Souvent, cette opération est effectuée pour centraliser les périphériques de sécurité réseau dans le but de réduire le coût global.
+De nombreux réseaux ont été conçus pour utiliser une topologie de hub et parlée. Dans cette topologie, le trafic Internet traverse généralement le WAN jusqu'à un centre de données central avant qu'il n'émerge (sorties) vers Internet. Souvent, cela est fait pour centraliser les dispositifs de sécurité du réseau dans le but de réduire les coûts globaux.
 
-Back-tirer le trafic sur le réseau étendu à l’augmentation de la latence et a un impact négatif sur la qualité et l’expérience utilisateur. Microsoft Teams s’exécute sur le réseau global volumineux de Microsoft, il est souvent un emplacement homologation réseau proche de l’utilisateur. Un utilisateur sera probablement obtenir améliorer les performances en egressing dès que possible en dehors d’un point d’internet local a presque atteint leur emplacement et notre réseau optimisé pour la voix. Pour certaines charges de travail, les requêtes DNS sont utilisés pour envoyer le trafic vers le plus proche du serveur frontal. Dans ce cas, il est important que lorsque vous utilisez un point de sortie local, elle est associée à la résolution DNS locale.
+Relayer le trafic sur le WAN augmente la latence et a un impact négatif sur la qualité et l'expérience utilisateur. Comme Microsoft Teams fonctionne sur le vaste réseau mondial de Microsoft, il existe souvent un emplacement réseau de pairage à proximité de l'utilisateur. Un utilisateur obtiendra probablement de meilleures performances en sortant d'un point Internet local près de son emplacement et sur notre réseau à voix optimisée dès que possible. Pour certaines charges de travail, les requêtes DNS sont utilisées pour envoyer du trafic vers le serveur frontal le plus proche. Dans de tels cas, il est important que lors de l'utilisation d'un point d'évacuation local, il soit couplé avec la résolution DNS locale.
 
-Optimisation du chemin d’accès réseau réseau globale de Microsoft pour améliorer les performances et finalement fournir la meilleure expérience pour les utilisateurs. Pour plus d’informations, consultez le blog de [l’obtention de la connectivité et les performances dans Office 365 meilleures](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694).
+L'optimisation du chemin d'accès au réseau mondial de Microsoft améliorera les performances et, en fin de compte, offrira la meilleure expérience aux utilisateurs. Pour plus de détails, voir l'article du blog [Obtenir la meilleure connectivité et les meilleures performances dans Office 365](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694).
 
 #### <a name="vpn"></a>VPN
 
-Réseaux privés virtuels fournissent un service précieux à de nombreuses organisations. Malheureusement, ils sont généralement pas conçus ou n’est configurés pour prendre en charge les médias en temps réel. Certains réseaux privés virtuels peuvent également pas en charge UDP. Réseaux privés virtuels introduisent également un niveau supplémentaire de chiffrement par-dessus le trafic multimédia déjà chiffré. En outre, la connectivité au service Microsoft Teams est peut-être pas efficace en raison de l’épinglage de cheveux le trafic via un périphérique VPN. En outre, ils ne sont pas nécessairement conçus à partir d’un point de vue de la capacité à prendre en charge les charges anticipées nécessiteront des équipes.
+Les VPN fournissent un service de valeur à de nombreuses organisations. Malheureusement, ils ne sont généralement pas conçus ou configurés pour prendre en charge les médias en temps réel. Certains VPN peuvent également ne pas prendre en charge UDP. Les VPN introduisent également une couche supplémentaire de cryptage en plus du trafic média déjà crypté. En outre, la connectivité au service Microsoft Teams pourrait ne pas être efficace en raison du hairpinning du trafic à travers un dispositif VPN. De plus, ils ne sont pas nécessairement conçus du point de vue de la capacité pour répondre aux charges prévues dont les é
 
-Il est recommandé de fournir un chemin d’accès de substitution contournant le réseau VPN pour le trafic des équipes. Cela est généralement appelé split-tunnel VPN. Fractionnement tunnel signifie que le trafic pour Office 365 ne parcourt pas le réseau VPN mais est dirigés directement vers Office 365. Cette modification aura un impact positif sur la qualité, mais également offre l’avantage secondaire permettant de réduire la charge de périphériques VPN et le réseau de l’organisation.
+La recommandation est de fournir un chemin alternatif qui contourne le VPN pour le trafic de Teams. Cela s’appelle généralement un VPN de tunnel segmenté. La segmentation de tunnel signifie que le trafic d'Office 365 ne traversera pas le VPN mais ira directement vers Office 365. Ce changement aura un impact positif sur la qualité, mais aussi l'avantage secondaire de réduire la charge des dispositifs VPN et du réseau de l'organisation.
 
-Pour implémenter un tunnel de fractionnement, consultez votre fournisseur de réseau privé virtuel pour les détails de configuration.
+Pour mettre en œuvre un tunnel segmenté, consultez votre fournisseur VPN pour les détails de configuration.
 
 #### <a name="wi-fi"></a>Wi-Fi
 
-Comme VPN, réseaux Wi-Fi ne sont pas nécessairement conçus ou configurés pour prendre en charge les médias en temps réel. Planification de, et/ou d’optimisation, un réseau Wi-Fi pour prendre en charge des équipes est une considération importante pour un déploiement de qualité.
+Tout comme le VPN, les réseaux Wi-Fi ne sont pas nécessairement conçus ou configurés pour prendre en charge les médias en temps réel. La planification et/ou l'optimisation d'un réseau Wi-Fi pour supporter Teams est une considération importante pour un déploiement de qualité.
 
-Il existe plusieurs facteurs qui entrent en jeu pour l’optimisation d’un réseau Wi-Fi.
+Plusieurs facteurs entrent en jeu pour optimiser un réseau Wi-Fi.
 
-- L’implémentation de QoS ou Wi-Fi multimédia (WMM) pour vous assurer que le trafic multimédia est prise hiérarchisée en conséquence sur les réseaux Wi-Fi.
+- Mettre en œuvre la QoS ou le Wi-Fi Multimedia (WMM) pour s'assurer que le trafic média est priorisé en conséquence sur les réseaux Wi-Fi.
 
-- Planification et optimisation les bandes W-Fi et access point de positionnement. 2,4 GHz peut fournir une expérience adéquate en fonction de l’emplacement du point d’accès, mais les points d’accès sont souvent concernées par d’autres appareils qui fonctionnent dans cette plage. La plage de 5 GHz est mieux adaptée aux médias en temps réel en raison de leur plage haute densité mais requiert plusieurs points d’accès pour obtenir la couverture suffisante. Points de terminaison doivent également prendre en charge cette plage et être configurés pour tirer parti de ces bandes en conséquence.
+- Planification et optimisation des bandes W-Fi et de l'emplacement des points d'accès. La gamme de 2,4 GHz peut fournir une expérience adéquate en fonction de l'emplacement des points d'accès, mais les points d'accès sont souvent affectés par d'autres appareils grand public qui fonctionnent dans cette gamme. La gamme de 5 GHz est mieux adaptée aux médias en temps réel en raison de leur portée dense, mais nécessite plus de points d'accès pour obtenir une couverture suffisante. Les points de terminaison doivent également prendre en charge cette plage et être configurés pour exploiter ces bandes en conséquence.
 
-- Si les réseaux Wi-Fi double bande sont déployés, envisagez d’implémenter la direction de la bande. Bande de direction est utilisée par les fournisseurs Wi-Fi pour influencer le double bande aux clients d’utiliser la plage 5Ghz technique.
+- Si des réseaux Wi-Fi à double bande sont déployés, songez à mettre en place un système de direction de bande. La direction de bande est une technique mise en œuvre par les fournisseurs de Wi-Fi pour inciter les clients à double bande à utiliser la gamme 5 Ghz.
 
-- Chevauchement de canal – lorsque les points d’accès du même canal sont trop proches ils peuvent entraîner la superposition du signal et concurrence involontairement, ce qui entraîne une mauvaise expérience de l’utilisateur. Assurez-vous que le point d’accès qui sont en regard de chacun des autres sont sur des canaux que ne se chevauchent ne pas.
+- Superposition des canaux – Lorsque les points d'accès d'un même canal sont trop proches les uns des autres, ils peuvent provoquer une superposition des signaux et une concurrence involontaire, ce qui entraîne une mauvaise expérience pour l'utilisateur. Veillez à ce que les points d'accès voisins se trouvent sur des canaux qui ne se superposent pas.
 
-Chaque fournisseur sans fil possède son propre recommandations pour le déploiement de sa solution sans fil. Nous vous conseillons de consulter votre fournisseur pour obtenir des instructions spécifiques.
+Chaque fournisseur de services sans fil a ses propres recommandations pour le déploiement de sa solution sans fil. Nous vous recommandons de consulter votre fournisseur pour obtenir des conseils spécifiques.
 
 ### <a name="network-readiness-assessment"></a>Évaluation de la préparation réseau
 
-Partie sur les activités de préparation du réseau comprend une évaluation de réseau. Une fois que vous avez terminé la planification et la configuration, l’évaluation peut vous fournir une connaissance de base de la qualité de votre réseau avant d’utilisateurs intégrés à Microsoft Teams. Les résultats de l’évaluation seront également vous aider à identifier et hiérarchiser les efforts de correction avant d’activer les utilisateurs pour les équipes.
+Une partie des activités de préparation du réseau comprend une évaluation du réseau. Une fois que vous avez terminé votre planification et votre configuration, l'évaluation peut vous donner une compréhension de base de la qualité de votre réseau avant que ayez intégré des utilisateurs à Microsft Teams. Les résultats de l'évaluation vous aideront également à identifier et à prioriser les efforts de remédiation avant d'autoriser les utilisateurs pour les équipes.
 
-L’évaluation du réseau doit être exécutée sur les deux filaire et réseaux Wi-Fi pour tous les bâtiments activées pour en nuage des fonctionnalités vocales dans les équipes.
+L'évaluation du réseau devrait être effectuée à la fois sur les réseaux câblés et Wi-Fi pour tous les bâtiments qui sont activés pour les capacités de Cloud Voice dans Teams.
 
-L’évaluation de réseau peut être effectuée à l’aide de l' [outil d’évaluation du réseau Microsoft](https://www.microsoft.com/download/details.aspx?id=53885), des outils tiers ou un partenaire Microsoft. Nous avons également fournissent des conseils supplémentaires sur l’exécution de l’évaluation à l’aide de l’outil d’évaluation du réseau Microsoft dans le cadre de notre Guide de préparation [ici](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_3_0_2,4_3_0_3,4_3_0_5,4_3_0_6,4_3_0_7,4_3_0_8,4_3_0_10,4_3_0_11).
+L'évaluation du réseau peut être effectuée à l'aide d'un partenaire Microsoft, d'outils tiers ou de l’[Outil d'évaluation du réseau Microsoft](https://www.microsoft.com/download/details.aspx?id=53885). Nous avons également fournissent des conseils supplémentaires sur l’exécution de l’évaluation à l’aide de l’outil d’évaluation du réseau Microsoft dans le cadre de notre Guide de préparation [ici](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_3_0_2,4_3_0_3,4_3_0_5,4_3_0_6,4_3_0_7,4_3_0_8,4_3_0_10,4_3_0_11).
 
-## <a name="plan-for-endpoint-quality"></a>Plan pour la qualité du point de terminaison
+## <a name="plan-for-endpoint-quality"></a>Planifier la qualité des points de terminaison
 
-Comme vous pouvez le constater dans le diagramme ci-dessous, points de terminaison sont un bloc de construction important à fournir une expérience de haute qualité pour les utilisateurs.
+Comme vous pouvez le voir sur le diagramme ci-dessous, les points de terminaison sont un élément important pour offrir une expérience de haute qualité aux utilisateurs.
 
-![Diagramme illustrant les trois composants de qualité et de la gestion des services chevauche les trois composants. En mettant l’accent sur les points de terminaison.] (media/envision-planning-for-service-management-and-quality-complete-guide-image5.png "Diagramme illustrant les trois composants de qualité et de la gestion des services chevauche les trois composants. En mettant l’accent sur les points de terminaison.")
+![Diagramme illustrant les trois composantes de la qualité, et comment la gestion des services recoupe les trois composantes. En mettant l'accent sur les points de terminaison.](media/envision-planning-for-service-management-and-quality-complete-guide-image5.png "Diagramme illustrant les trois composantes de la qualité, et comment la gestion des services recoupe les trois composantes. En mettant l'accent sur les points de terminaison.")
 
-Points de terminaison Teams Microsoft peuvent s’exécuter sur de nombreux périphériques, y compris les PC, Mac, tablettes et les appareils mobiles. Partie de l’expérience englobe non seulement l’appareil, mais comment un utilisateur se connecte à l’appareil — par exemple, à l’aide de micro/haut-parleur intégré du périphérique, écouteurs par ou un casque optimisé. À l’aide d’un casque optimisé permettre enrichir l’expérience utilisateur globale.
+Les points de terminaison Microsoft Teams peuvent fonctionner sur de nombreux appareils, y compris les PC, les Mac, les tablettes et les appareils mobiles. Une partie de l'expérience ne comprend pas seulement l'appareil, mais aussi la façon dont l'utilisateur se connecte à l'appareil, par exemple en utilisant le micro/haut-parleur intégré de l'appareil, les écouteurs ou un casque optimisé. L'utilisation d'un casque optimisé peut enrichir l'expérience globale de l'utilisateur.
 
-Les instructions suivantes sur la planification de point de terminaison vous aideront à vérifier que votre organisation dispose d’une intégration réussie expérience des équipes.
+Les conseils suivants sur la planification des points de terminaison vous aideront à vous assurer que votre organisation a une expérience d'intégration réussie avec Teams.
 
-### <a name="endpoint-capability"></a>Fonctionnalité du point de terminaison
+### <a name="endpoint-capability"></a>Capacité des points de terminaison
 
-La première partie de la planification consiste à vérifier tous les PC et autres périphériques de votre organisation peuvent exécuter Microsoft Teams. Cela implique pas la consultation de la configuration matérielle requise, mais également comprendre que fait le PC en arrière-plan. Bon nombre d’organisations exécuter d’autres logiciels, y compris les systèmes de détection d’intrusion et logiciels anti-programmes malveillants, ce qui peut affecter les performances de base d’un périphérique.
+La première partie de la planification est de s'assurer que tous les PC et autres périphériques de votre organisation peuvent exécuter Microsoft Teams. Il ne s'agit pas seulement d'examiner les exigences matérielles, mais aussi de comprendre ce que le PC fait d'autre en arrière-plan. De nombreuses organisations utilisent d'autres logiciels, y compris les systèmes de détection d'intrusion et les logiciels antimalware, qui peuvent affecter les performances de base d'un appareil.
 
-Microsoft Teams a clients disponibles pour le site web, du bureau (Windows et Mac) et mobile (Android, iOS et Windows Mobile). Pour plus d’informations sur la configuration logicielle requise pour chaque plateforme, voir [obtenir des clients pour les équipes Microsoft](get-clients.md).
+Teams dispose de clients Web, de bureau (Windows et Mac) et mobiles (Android, iOS et Windows Mobile). Pour plus d'informations sur les exigences logicielles pour chaque plateforme, voir [Obtenir des clients pour Microsoft Teams](get-clients.md).
 
-### <a name="endpoint-firewalls"></a>Pare-feu de point de terminaison
+### <a name="endpoint-firewalls"></a>Pare-feu des points de terminaison
 
-Pare-feu côté client peuvent avoir un impact significatif sur l’expérience utilisateur. Pare-feu côté client peuvent affecter la qualité des appels en plus empêche l’établissement d’un appel. Configurez les exclusions appropriées sur le pare-feu du client en fonction des informations dans [Office 365 URL et plages d’adresses IP](https://aka.ms/o365ips). Votre fournisseur tiers auront des instructions spécifiques sur la façon de créer les exclusions.
+Les pare-feu côté client peuvent avoir un impact significatif sur l'expérience utilisateur. Les pare-feu côté client peuvent affecter la qualité des appels en plus d'empêcher l'établissement d'un appel. Configurez les exclusions appropriées sur le pare-feu du client en fonction des informations contenues dans [Plages d'adresses URL et IP d’Office 365](https://aka.ms/o365ips). Votre fournisseur tiers recevra des directives précises sur la façon de créer les exclusions.
 
 > [!NOTE]
-> Microsoft Teams met automatiquement à jour le pare-feu Windows avec une configuration de pare-feu appropriée.
+> Les équipes Microsoft mettront automatiquement à jour le pare-feu Windows avec une configuration de pare-feu appropriée.
 
-### <a name="wi-fi-recommendations-for-endpoints"></a>Recommandations en matière de points de terminaison Wi-Fi
+### <a name="wi-fi-recommendations-for-endpoints"></a>Recommandations Wi-Fi pour les points de terminaison
 
-Planification et déploiement d’un réseau Wi-Fi optimisé pour prendre en charge des charges de travail en temps réel dans Microsoft Teams nécessite significative de planification. Les sections suivantes fournissent des conseils d’ordre général qui peuvent vous aider à éviter les pièges lors de la planification des points de terminaison.
+La planification et le déploiement d'un réseau Wi-Fi optimisé pour prendre en charge les charges de travail en temps réel dans Microsoft Teams nécessiteront une planification importante. Les sections suivantes fournissent des conseils généraux qui peuvent vous aider à éviter certains pièges courants lors de la planification des paramètres.
 
 #### <a name="wi-fi-drivers"></a>Pilotes Wi-Fi
 
-Certains pilotes Wi-Fi peuvent être problématiques. Par exemple, un pilote peut avoir très agressifs comportements itinérance entre les points d’accès, entraînant l’appel de mauvaise qualité. Ce n’est pas une chose courants, mais il est important de vérifier que les pilotes Wi-Fi sur le PC ont été mis à jour et testés avant le déploiement.
+Certains pilotes Wi-Fi peuvent poser problème. Par exemple, un pilote peut avoir des comportements d'itinérance très agressifs entre les points d'accès, provoquant une mauvaise qualité d'appel. Il ne s'agit pas d'un phénomène courant, mais il est important de s'assurer que les pilotes Wi-Fi du PC ont été mis à jour et testés avant le déploiement.
 
 #### <a name="wi-fi-bands"></a>Bandes Wi-Fi
 
-Il existe principalement deux types de bandes utilisées dans Wi-Fi équipement aujourd'hui, 2,4 GHz et GHz 5.0. Si votre organisation fournit les deux bandes, vous devez configurer les paramètres de votre pilote pour préfèrent la bande GHz 5.0. Cette bande est beaucoup plus dense en termes de débit et moins affectés à des interférences apparaît dans la bande 2,4 GHz. Cette recommandation suppose que vous avez correctement optimisé la bande de réseau GHz 5.0.
+Il existe principalement deux types de bandes utilisées aujourd'hui dans les équipements Wi-Fi : 2,4 GHz et 5,0 GHz. Si votre organisation fournit les deux bandes, vous devez configurer les paramètres de votre pilote pour préférer la bande 5,0 GHz. Cette bande est beaucoup plus dense en termes de débit et est moins affectée par les interférences observées dans la bande de 2,4 GHz. Cette recommandation suppose que vous avez correctement optimisé la bande de réseau de 5,0 GHz.
 
 #### <a name="wi-fi-radio-type"></a>Type de radio Wi-Fi
 
-Planifier les appareils qui prennent en charge les nouveaux types de radio Wi-Fi. Vous pouvez obtenir très bonnes performances Wi-Fi, notamment si vous faites 802.11ac ou plus récente sur les appareils que vous mettez en service.
+Prévoyez des appareils qui prennent en charge les nouveaux types de radio Wi-Fi. Vous pouvez obtenir de très bonnes performances Wi-Fi si vous utilisez 802.11ac ou plus récent sur les appareils que vous approvisionnez.
 
-#### <a name="wireless-avoidance"></a>Réductions sans fil
+#### <a name="wireless-avoidance"></a>Évitement sans fil
 
-Certaines organisations préfèrent éviter Wi-Fi. Parfois ce guide est fourni par le biais de recommandation pour les utilisateurs se connectent directement à un réseau câblé. Dans certains cas, l’ordre de liaison réseau peut-être par défaut de la connexion sans fil et continuer à utiliser cette connexion, même si l’ordinateur est connecté à une connexion câblée. Pour éviter ce comportement involontaire, configurez l’ordre de liaison pour éviter ce scénario.
+Certaines organisations préfèrent éviter complètement le Wi-Fi. Parfois, ces conseils sont fournis par le biais d'une recommandation aux utilisateurs de se connecter directement à un réseau câblé. Dans certains cas, l'ordre de liaison réseau peut avoir la préférence pour la connexion sans fil et continuer à utiliser cette connexion même si le PC est connecté à la connexion câblée. Pour éviter ce scénario involontaire, configurez l'ordre de liaison.
 
-#### <a name="80211-power-save-protocol"></a>protocole d’économie d’énergie 802.11
+#### <a name="80211-power-save-protocol"></a>Protocole d'économie d'énergie 802.11
 
-Si votre organisation utilise des points d’accès sans fil ou les routeurs qui ne prennent pas en charge la puissance 802.11 enregistrement protocole, vous pouvez être confronté appels abandonnés ou la qualité des appels médiocre dans Teams Microsoft en cours d’exécution sur les périphériques Windows. Si elle n’est pas possible de mettre à niveau votre point d’accès sans fil ou les routeurs, vous devez mettre à jour Windows Power planifier les paramètres sur les appareils qui s’exécutent sur la batterie. Conseils de détail et de configuration supplémentaire est fournie dans le suivants [prennent en charge de l’article](https://support.microsoft.com/help/928152/you-may-experience-connectivity-issues-or-performance-issues-when-you).
+Si votre organisation utilise des points d'accès sans fil ou des routeurs qui ne prennent pas en charge le protocole d'économie d'énergie 802.11, vous pourriez constater des coupures d'appels ou une mauvaise qualité d'appel dans Microsoft Teams lorsqu'il fonctionne sur des appareils Windows. Si la mise à niveau de votre point d'accès sans fil ou de vos routeurs est impossible, vous devez mettre à jour les paramètres du plan d'alimentation Windows sur les appareils fonctionnant sur batterie. De plus amples détails et des conseils de configuration sont fournis dans l'[article de support](https://support.microsoft.com/help/928152/you-may-experience-connectivity-issues-or-performance-issues-when-you) suivant.
 
-### <a name="devices-for-teams"></a>Périphériques pour les équipes
+### <a name="devices-for-teams"></a>Appareils pour Teams
 
-Microsoft Teams utilisable pour les réunions ou en tant qu’un système téléphonique. Lorsque vous utilisez ces fonctionnalités, le périphérique d’interface qui est utilisé pour les équipes joue un rôle important dans l’expérience utilisateur.
+Microsoft Teams peut être utilisé pour des réunions ou comme système téléphonique. Lors de l'utilisation de ces fonctions, le dispositif d'interface utilisé pour Teams joue un rôle important dans l'expérience utilisateur.
 
-À l’aide d’un haut-parleur PC et un microphone intégrés peut sembler acceptable pour l’utilisateur ayant cette configuration. Mais généralement ces périphériques ne sont pas optimisés pour la suppression du bruit, et n’importe quel type de bruit peut avoir un impact en aval sur d’autres lors de l’appel. Tirer parti des appareils optimisés pour ces scénarios afin de garantir une expérience de haute qualité.
+L'utilisation d'un haut-parleur et d'un microphone d’ordinateur portable intégrés peut sembler acceptable pour l'utilisateur qui dispose de cette configuration. Toutefois, ces appareils ne sont généralement pas optimisés pour l'annulation du bruit, et tout type de bruit ambiant peut avoir un impact en aval sur les autres participants à l’appel. L'utilisation d'appareils optimisés pour ces scénarios contribuera à assurer une expérience de haute qualité.
 
-Chaque périphérique doit répondre aux besoins de vos utilisateurs. Vous devrez adapter les appareils tels que des casques pour les personnages différents et en cas d’utilisation dans votre organisation. Un exercice personnage-à mappage des périphériques doit être effectué dans le cadre du processus de planification.
+Chaque appareil doit répondre aux besoins de vos utilisateurs. Vous devrez adapter les appareils tels que les casques pour les différentes personnes et les cas d'utilisation dans votre organisation. Un exercice de mappage personne à appareil devrait être effectué dans le cadre du processus de planification.
 
-Une fois que vous avez sélectionné les périphériques, les inclure dans le plan de test pilote pour la validation finale. Tirer parti des enquêtes pendant le pilote pour recueillir les commentaires pour vous assurer de votre stratégie de périphérique est optimal.
+Une fois que vous avez sélectionné les appareils, incluez-les dans le plan d'essai pilote pour la validation finale. Tirez parti des sondages pendant le projet pilote pour recueillir des commentaires afin de vous assurer que la stratégie de votre appareil est optimale.
 
-À ce stade, nous recommandons l’utilisation de périphériques audio qui ont été certifiés par le biais de la Skype pour le programme de Certification d’entreprise. Pour rechercher des périphériques certifiés sous ce programme, reportez-vous au catalogue de solutions [Certifiés de périphériques USB pour Skype pour les entreprises](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs) .
+Pour l'instant, nous vous recommandons d'utiliser des appareils audio certifiés dans le cadre du programme de certification Skype Entreprise. Pour trouver les appareils certifiés dans le cadre de ce programme, consultez le catalogue des solutions [Appareils USB certifiés pour Skype Entreprise](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs).
 
-Pour plus d’informations, consultez [clients et périphériques - atelier Préparation](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_1_0_13)
+Pour plus d'informations, voir [Client et appareils - Atelier de préparation](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_1_0_13)
 
 ## <a name="client-updates"></a>Mises à jour du client
 
-Un des principaux avantages de Microsoft Teams est que le client est mis à jour automatiquement. Les clients sur le PC et Mac sont mis à jour à l’aide d’un processus d’arrière-plan qui vérifie les nouvelles versions et télécharge le nouveau client lorsque l’application est inactive. La taille de téléchargement du client est à peu près de 100 Mo.
+L'un des principaux avantages de Microsoft Teams est que le client est tenu à jour automatiquement. Les clients sur PC et Mac sont mis à jour à l'aide d'un processus en arrière-plan qui vérifie les nouvelles versions et télécharge le nouveau client lorsque l'application est inactive. La taille de téléchargement du client est d'environ 100 Mo.
 
-Une organisation ne possède pas de tout contrôle ou un accès à un paramètre de stratégie pour gérer le processus de mise à jour. Pour réduire le risque d’un problème qui peut être découvert dans une version plus récente, la dernière bonne version est conservée sur le point de terminaison. Cas de problème avec une nouvelle version, le service Microsoft Teams peut rétablir automatiquement le point de terminaison à la version précédente.
+Une organisation n'a aucun contrôle ou accès à un paramètre de stratégie pour gérer le processus de mise à jour. Pour atténuer le risque d'un problème qui pourrait être découvert dans une nouvelle version, la dernière version valide connue est conservée sur le point de terminaison. En cas de problème avec une nouvelle version, le service Microsoft Teams peut revenir automatiquement à la version précédente.
 
-## <a name="next-steps-and-references"></a>Étapes suivantes et références
+## <a name="next-steps-and-references"></a>Prochaines étapes et références
 
-Ce tableau propose un résumé des activités de planification avec des liens vers du contenu connexe.
+Ce tableau comprend un résumé des activités de planification avec des liens vers des contenus connexes.
 
-| Zone | Détails | Références |
+| Domaine | Détails | Références |
 |---|---|---|
-| Plan de gestion des services | Réaliser un exercice de mappage de rôle opérationnel <br/> Approbation des équipes responsables <br/> Préparation de rôle | [Guide des opérations](1-drive-value-operate-my-service.md) |
-| | Désigner la qualité Champion(s) <br/> Préparation Champion de qualité| [Découvrez CQD](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos) <br/> [Consulter le Guide de l’expérience qualité](https://aka.ms/qerguide) |
-| | Installer des modèles de révision de l’expérience de qualité <br/> Télécharger un fichier de construction | [Modèles de QERLite](https://aka.ms/qertemplates) <br/> [Informations de création de téléchargement](turning-on-and-using-call-quality-dashboard.md)|
-| Prévoir la qualité du réseau | Exécutez le Planificateur de réseau | [Planificateur de réseau](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) |
-| | Mettre en œuvre QoS | [Qualité de Service dans les équipes Microsoft](qos-in-teams.md) |
-| | Ignorer les serveurs proxy | [Conseils de proxy](https://support.office.com/article/Managing-Office-365-endpoints-99cab9d4-ef59-4207-9f2b-3728eb46bf9a) |
-| | Implémenter le fractionnement-tunnel VPN | [Conseils de Tunnel VPN fractionné](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_9) |
+| Plan de gestion des services | Mener un exercice de mappage des rôles opérationnels <br/> Se déconnecter des équipes responsables <br/> Préparation des rôles | [Guide des opérations](1-drive-value-operate-my-service.md) |
+| | Nommer un ou plusieurs Champions de la qualité <br/> Préparation du Champion de la qualité| [Apprendre le CQD](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos) <br/> [Guide d'examen de l'expérience de qualité](https://aka.ms/qerguide) |
+| | Installer les modèles du Guide d'examen de l'expérience de qualité <br/> Charger un fichier de construction | [Modèles QERLite](https://aka.ms/qertemplates) <br/> [Charger les informations sur la construction](turning-on-and-using-call-quality-dashboard.md)|
+| Planifier la qualité du réseau | Exécuter le Planificateur de réseau | [Planificateur de réseau](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) |
+| | Mettre en œuvre la QoS | [Qualité de service (QoS) dans Microsoft Teams](qos-in-teams.md) |
+| | Contourner les serveurs proxy | [Guide des proxy](https://support.office.com/article/Managing-Office-365-endpoints-99cab9d4-ef59-4207-9f2b-3728eb46bf9a) |
+| | Implémenter un VPN en tunnel segmenté | [Guide des tunnels VPN segmentés](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_9) |
 | | Optimiser les réseaux Wi-Fi pour les médias en temps réel | Consulter les fournisseurs tiers |
-| | Mettre en œuvre local sortant internet | [Internet local sortant](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694) |
-| | Mettre en œuvre la connectivité réseau <br/> Valider la connectivité réseau | [URL d’Office 365 et adresses IP](https://aka.ms/o365ips) |
-| | | [Outil d’évaluation de réseau](https://www.microsoft.com/download/details.aspx?id=53885) |
-| | Évaluer le réseau | [Évaluation de préparation de réseau](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_3_0_2,4_3_0_3,4_3_0_5,4_3_0_6,4_3_0_7,4_3_0_8,4_3_0_10,4_3_0_11) |
-| Plan pour la qualité du point de terminaison | Mise à jour du point de terminaison pare-feu | [URL d’Office 365 et adresses IP](https://aka.ms/o365ips) |
-| | Valider la configuration logicielle requise | [Obtenir des clients pour Microsoft Teams](get-clients.md) |
-| | Recommandations de point de terminaison Wi-Fi | Consulter les fournisseurs tiers |
-| | Personnage conduite aux périphériques mappage <br/> Configurer les périphériques et les pilotes | [Clients et périphériques - atelier Préparation](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_1_0_13) <br/> [Catalogue de périphérique](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs) |
+| | Mettre en œuvre la sortie Internet locale | [Sortie Internet locale](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694) |
+| | Mettre en œuvre la connectivité réseau <br/> Valider la connectivité réseau | [URL et plages d'adresses IP Office 365](https://aka.ms/o365ips) |
+| | | [Outil d'évaluation du réseau](https://www.microsoft.com/download/details.aspx?id=53885) |
+| | Effectuer l'évaluation du réseau | [Évaluation de la préparation réseau](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_3_0_2,4_3_0_3,4_3_0_5,4_3_0_6,4_3_0_7,4_3_0_8,4_3_0_10,4_3_0_11) |
+| Planifier la qualité des points de terminaison | Mettre à jour les pare-feu des points de terminaison | [URL et plages d'adresses IP Office 365](https://aka.ms/o365ips) |
+| | Valider les exigences logicielles | [Obtenir des clients pour Microsoft Teams](get-clients.md) |
+| | Mettre en œuvre les recommandations Wi-Fi pour les points de terminaison | Consulter les fournisseurs tiers |
+| | Effectuer le mappage de la personne vers les appareils <br/> Prévoir des appareils et les piloter | [Client et appareils - Atelier de préparation](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_1_0_13) <br/> [Catalogue d'appareils](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs) |
 
 Une fois que vous avez terminé la planification, passez à l’étape suivante : [préparer votre environnement pour les équipes](https://aka.ms/SkypeToTeams-TechnicalReadiness).

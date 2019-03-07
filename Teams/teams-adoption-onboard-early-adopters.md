@@ -12,15 +12,17 @@ localization_priority: Normal
 search.appverid: MET150
 description: Choisir les premiers pour la phase de l’expérience de l’adoption de vos équipes, puis recueillir les commentaires pour votre projet.
 ms.custom: Adopt
-ms.collection: Teams_ITAdmin_Adopt
+MS.collection:
+- Teams_ITAdmin_Adopt
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 58547d5f4577d9bca71317573677a56453188634
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: 415726bbc78fbc98b5e3eefa3cb1455f3ddee483
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699669"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462131"
 ---
 # <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a>Intégrer des utilisateurs précoces et recueillir des commentaires sur Microsoft Teams
 
@@ -33,7 +35,7 @@ Effectuez les étapes suivantes avec les premiers :
 3. Garantir l’accès à la chaîne de commentaires de votre équipe de champions de travail d’équipe et les autres internes social outils réseau que vous pouvez utiliser. 
 4. Envisagez de créer des enquêtes de leur exécution qui regroupera ciblés informations.
 
-## <a name="gather-feedback"></a>Recueillir les commentaires
+## <a name="gather-feedback"></a>Recueillir des commentaires
 
 Utiliser les composants d’Office 365 pour recueillir les commentaires pour votre projet.
   

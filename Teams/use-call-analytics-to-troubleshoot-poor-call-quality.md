@@ -13,7 +13,7 @@ ms.service:
 - msteams
 ms.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
+- M365-collaboration
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Analytique appeler plus d’informations sur les appareils, les réseaux et connectivité permet de résoudre les problèmes d’utilisateur avec Microsoft Teams et Skype pour les réunions et les appels professionnels.
-ms.openlocfilehash: 9a76b683e31a0d48464b42de761108b26c8da459
-ms.sourcegitcommit: a4f2d3440399f0a17fb8f6d364cfd2dc4b0bf8db
+ms.openlocfilehash: d5409e1f37aaec6853362edc8caf74ea2a468cd7
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30342188"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464403"
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>Utiliser l’Analyse des appels pour résoudre les problèmes de qualité des appels
 

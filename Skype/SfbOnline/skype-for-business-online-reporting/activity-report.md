@@ -19,16 +19,16 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Activity reports, what it contains, and how to interpret the data. '
-ms.openlocfilehash: 26b835162f0db82a7ea4631d8add24dcd9ec79dc
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 3d78d2e155c5364baf9c2650466022a27cc4ed9b
+ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374491"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "30453995"
 ---
 # <a name="activity-report"></a>Rapport d'activités
 
-Le nouveau tableau de bord **Rapports** d'Office 365 vous donne une vue d'ensemble de l'activité de tous les produits Office 365 dans votre organisation. Elle vous permet à extraire différents rapports au niveau du produit pour vous donnent plus granulaires sur les activités de chaque produit. Par exemple, vous permet le rapport **Skype pour activité** voir combien vos utilisateurs sont à l’aide d’égal à égal ou organisé des sessions de conférence ou combien ils sont impliqués dans les sessions de conférence. 
+**Rapports**, le nouveau tableau de bord d'Office 365, vous donne une vue d'ensemble de l'activité de tous les produits Office 365 dans votre organisation. Elle vous permet à extraire différents rapports au niveau du produit pour vous donnent plus granulaires sur les activités de chaque produit. Par exemple, vous permet le rapport **Skype pour activité** voir combien vos utilisateurs sont à l’aide d’égal à égal ou organisé des sessions de conférence ou combien ils sont impliqués dans les sessions de conférence. 
 
 Consultez la [vue d’ensemble des rapports](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) pour en savoir plus.
   
@@ -65,13 +65,13 @@ Le rapport d’activité de messagerie **Skype pour activité** peut être affic
 ![Numéro 2](../images/sfbcallout2.png)<br/>
 Chaque rapport comporte la date à laquelle il a été généré. Les rapports reflètent généralement une latence 24 à 48 heures à partir de l’activité. 
 ***
-![Numéro 3](../images/sfbcallout3.png)<br/>Utilisez les données du graphique interactif **Activité** pour comprendre les tendances d'utilisation et visualiser le nombre total d'activités de conférence actuellement tenues dans votre organisation. Cela vous indiquera le nombre et les types d' **organisations**, de **participations** et de sessions de conférence d' **égal à égal** sein de votre organisation.  
+![Nombre 3](../images/sfbcallout3.png)<br/>Utilisez les données du graphique interactif **Activité** pour comprendre les tendances d'utilisation et visualiser le nombre total d'activités de conférence actuellement tenues dans votre organisation. Cela vous indiquera le nombre et les types d' **organisations**, de **participations** et de sessions de conférence d' **égal à égal** sein de votre organisation.  
 ***
 ![Numéro 4](../images/sfbcallout4.png)<br/>
 Use the interactive chart data on the **Users** chart to understand usage trends and to see the number of unique users that are participating in conference activities that are being held in your organization. Il vous indiquera le nombre total d’utilisateurs ainsi que les types de **sessions d’égal à égal**, **organisé**et **Participated** dans des sessions de conférence.
 ***
 !["Nombre 5"](../images/sfbcallout5.png)<br/>
-Vous pouvez filtrer la série présentée dans le graphique en cliquant sur un élément dans la légende. Par exemple, dans le graphique de **l’activité** , cliquez sur ou appuyez sur les **sessions d’égal à égal**, **organisé**ou **Participated** pour afficher uniquement les informations relatives à chacun d’eux. Modifier cette sélection ne change pas les informations dans le tableau. 
+You can filter the series you see on the chart by clicking on an item in the legend. Par exemple, dans le graphique de **l’activité** , cliquez sur ou appuyez sur les **sessions d’égal à égal**, **organisé**ou **Participated** pour afficher uniquement les informations relatives à chacun d’eux. Changing this selection doesn't change the info in the grid table. 
 ***
 ![Numéro 6](../images/sfbcallout6.png)<br/>
 Chaque graphique a un axe « X » (horizontal) et « Y » (vertical).
@@ -81,7 +81,7 @@ Chaque graphique a un axe « X » (horizontal) et « Y » (vertical).
 L'axe X sur les deux graphiques représente la plage de dates sélectionnée pour ce rapport particulier. 
 ***
 ![N ° 7](../images/sfbcallout7.png)<br/>
-Le tableau présente une répartition de toutes les activités de conférence par utilisateur. Affiche tous les utilisateurs disposant de Skype pour les entreprises affecté et leurs activités de conférence. Vous pouvez ajouter des colonnes supplémentaires au tableau.
+Le tableau présente une répartition de toutes les activités de conférence par utilisateur. Affiche tous les utilisateurs disposant de Skype pour les entreprises affecté et leurs activités de conférence. Vous pouvez ajouter des colonnes supplémentaires dans ce tableau.
 * **Nom d’utilisateur** est le nom de l’utilisateur.
 * **Supprimé** indique que la licence de l'utilisateur a été supprimée.<br/><br/>
   > [!NOTE]

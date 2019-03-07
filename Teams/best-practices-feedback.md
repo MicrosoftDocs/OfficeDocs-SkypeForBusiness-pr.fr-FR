@@ -9,15 +9,17 @@ ms.service: msteams
 description: Découvrez les méthodes recommandées de demande de commentaires des utilisateurs dans Microsoft Teams pour assurer la meilleure expérience d'équipe possible.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 365bf396658af94604b2043a26d8d27ea85f7d82
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 65364208cfb268394d764320dbceaedfc5559542
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015292"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461827"
 ---
 <a name="best-practices-for-user-feedback-methods-in-microsoft-teams"></a>Recommandation de méthodes de demande de commentaires des utilisateurs dans Microsoft Teams
 ===========================================================

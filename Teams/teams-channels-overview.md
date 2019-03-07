@@ -9,15 +9,17 @@ ms.service: msteams
 search.appverid: MET150
 description: Découvrez la variété d'équipes, de canaux et d'applications disponibles pour des exigences très variées, telles que les opérations financières, la planification d'événements, les ventes, etc.
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: babfec7ae442b9d5f787fda7a9d9eedb0e3a6303
-ms.sourcegitcommit: e739925aa73f257b72ce4f94002d8b17582252a1
+ms.openlocfilehash: b3f49bc8ed4fe5c140c01bbc29c1d7ed7595f547
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30357769"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30458843"
 ---
 > [!NOTE]
 > Passez en revue les informations suivantes pour comprendre la conversation, les équipes, les canaux, applications & dans les équipes. Ensuite, passez à [déployer conversation, équipes, canaux, applications & dans les équipes](deploy-chat-teams-channels-microsoft-teams-landing-page.md) pour parcourir une liste de décisions importantes à votre déploiement d’équipes.
