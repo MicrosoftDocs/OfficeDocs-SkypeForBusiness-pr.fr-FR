@@ -10,15 +10,17 @@ ms.reviewer: rowille
 description: Découvrez comment planifier l’implémentation des fonctionnalités de gouvernance dans les équipes.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 87f52eae4b99a76fc1eddf60fbdfd876efa8da05
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 0792bf80ebc2d55f4f60e72fe0373a6d86df3923
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754809"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464875"
 ---
 # <a name="plan-for-governance-in-teams"></a>Planifier la gouvernance dans les équipes
 
@@ -116,7 +118,7 @@ Fournit des équipes granulaires pour contrôler la messagerie réunion, appel d
 Pour les listes détaillées de tous les paramètres, notamment des instructions techniques sur la façon de les implémenter pour votre organisation, consultez les articles suivants :
 
 -   [Gérer les fonctionnalités de Microsoft Teams dans votre organisation Office 365](enable-features-office-365.md)
--   [Gérer les équipes pendant la transition vers le nouveau centre d’administration de Microsoft Teams](manage-teams-skypeforbusiness-admin-center.md)
+-   [Gérer Teams lors de la transition vers le nouveau Centre d’administration de Microsoft Teams](manage-teams-skypeforbusiness-admin-center.md)
 -   [Gérer les stratégies de la réunion dans les équipes](meeting-policies-in-teams.md)
 
 

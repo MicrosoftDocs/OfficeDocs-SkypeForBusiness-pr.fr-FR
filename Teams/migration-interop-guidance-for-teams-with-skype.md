@@ -9,15 +9,17 @@ ms.reviewer: bjwhalen
 description: Conseils pour la gestion de la transition aux équipes de Skype pour les entreprises
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 062b90003c1c1529ff3be3b05bf752fb73ad37bb
-ms.sourcegitcommit: 47b29c15ca3cf1676168608537613f3b841dbfcb
+ms.openlocfilehash: ebefcf81eace90f99b2871fcd7232f799af3edb2
+ms.sourcegitcommit: 2dd1369e5112b0c4ed7c6b0be8a17489b71f494a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "29992864"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30469769"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>Guide de la migration et de l’interopérabilité pour les organisations qui utilisent Teams avec Skype Entreprise
 
@@ -36,7 +38,7 @@ Une organisation avec Skype pour les entreprises au démarrage d’adopter les �
 3.  Toutes les équipes, les utilisateurs ont un Skype sous-jacente pour le compte d’entreprise qui est « hébergé » soit en ligne ou locale :
     - Les utilisateurs utilisent déjà Skype pour Business Online utilisent leur compte en ligne existant.
     - Les utilisateurs déjà à l’aide de Skype pour Business/Lync local utilisent leur compte local existant.
-    - Les utilisateurs pour lesquels nous ne pouvons pas détecter un Skype existant pour le compte professionnel aura une Skype pour Business Online compte configuré automatiquement lors de la création de l’utilisateur d’équipes. Aucun Skype pour la licence entreprise n’est requis.
+    - Les utilisateurs pour lesquels nous ne pouvons pas détecter un Skype existant pour le compte professionnel aura une Skype pour Business Online compte configuré automatiquement lors de la création de l’utilisateur d’équipes.
 
 4.  Si vous disposez d’un déploiement local de soit Skype pour Lync ou de l’entreprise et que vous souhaitez que ces utilisateurs à des utilisateurs des équipes, vous devez au minimum vous assurer que Azure AD Connect est en cours de synchronisation du msRTCSIP-DeploymentLocator attribut dans DAS, ainsi que les équipes/Skype pour les entreprises Online correctement détecte votre environnement local. En outre, pour déplacer des utilisateurs vers les équipes seule (autrement dit, mettre à niveau un utilisateur), *vous devez d’abord configurer Skype pour le mode hybride Business*. Pour plus d’informations, voir [configurer les Azure AD Connect pour Skype pour professionnels et les équipes](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/configure-azure-ad-connect).
 
@@ -186,7 +188,7 @@ TeamsInteropPolicy a été remplacée par TeamsUpgradePolicy. Tous les composant
 
 [Coexistence avec Skype Entreprise](https://docs.microsoft.com/en-us/microsoftteams/coexistence-chat-calls-presence)
 
-[Les équipes expérience client et la conformité aux modes de coexistence](https://docs.microsoft.com/en-us/MicrosoftTeams/teams-client-experience-and-conformance-to-coexistence-modes)
+[Expérience client Teams et conformité aux modes coexistence](https://docs.microsoft.com/en-us/MicrosoftTeams/teams-client-experience-and-conformance-to-coexistence-modes)
 
 [Get-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamsupgradepolicy?view=skype-ps)
 

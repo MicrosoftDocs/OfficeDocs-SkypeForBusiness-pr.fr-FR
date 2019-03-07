@@ -10,15 +10,17 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: Choisissez un modèle de déploiement, développer une matrice (RACI) responsable relèvent-consulté-informée, créer des plans de gouvernance et l’exécution.
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 271faa8ffc4a4e6c3977382cf5a1153513bd1ba5
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: dd124b8ce06b15bb0c6c33aecd848d9382afde64
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374209"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462139"
 ---
 # <a name="document-my-success-plan"></a>Mon plan de réussite de documents
 
@@ -83,14 +85,14 @@ Si votre organisation a uniquement un ou deux sites, vous devrez pas un plan d�
 
 Voici un exemple d’un plan d’exécution trimestriels pour la phase de prévoir d’une implémentation de la voix dans le nuage.
 
-| Site/division                            | Nombre d’employés | Audioconférence | Système téléphonique                    | Trimestre à exécuter |
+| Site/division                            | Nombre d’employés | Audioconférence, | Système téléphonique                    | Trimestre à exécuter |
 |------------------------------------------|---------------------|--------------------|---------------------------------|--------------------|
 | États-Unis : New York                             | 2000                | Oui                | Système téléphonique avec forfaits d’appels | T1 CY2018          |
 | Irlande : Dublin                          | 300                 | Oui                | Système téléphonique avec forfaits d’appels | T1 CY2018          |
 | Autriche : Vienne                          | 500                 | Oui                | Routage d’un système téléphonique Direct     | CY2018 Q2          |
-| Italie : Milan                             | 200                 | Oui                | N/D                             | CY2018 Q2          |
+| Italie : Milan                             | 200                 | Oui                | N/A                             | CY2018 Q2          |
 | Amérique du Sud : Brésil                    | 1500                | Oui                | Routage d’un système téléphonique Direct     | CY2018 Q2          |
-| Inde : Delhi                             | 7000                | Oui                | N/D                             | CY2018 T3          |
+| Inde : Delhi                             | 7000                | Oui                | N/A                             | CY2018 T3          |
 
 
 <table>
@@ -107,7 +109,7 @@ Pour conserver les parties prenantes du projet à jour avec la progression du d�
 
 Voici un exemple d’un plan de gouvernance et de communications que vous pouvez exploiter dans votre projet de mise en œuvre de voix dans le nuage.
 
-| Type                                        | Objectifs                                                                                                                                                      | Participants | Jours/heure                                     | Localisation             | Propriétaire de la réunion |
+| Type                                        | Objectifs                                                                                                                                                      | Participants | Jours/heure                                     | Lieu             | Propriétaire de la réunion |
 |---------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|-----------------------------------------------|----------------------|---------------|
 | Appels quotidienne de projet                       | Synchronisation sur le statut du projet, effectuer le suivi des bloqueurs et des jalons clés                                                                                           | TBA          | Lundi, mardi, mercredi, jeudi 17 h PST | Virtuel              | TBA           |
 | Comité hebdomadaire                   | État de la révision du projet voix dans le nuage, rapport aux cadres supérieurs, déclencher qui nécessite l’aide de direction pour résoudre les problèmes                                        | TBA          | Vendredi 11 h PST                        | Virtuel              | TBA           |

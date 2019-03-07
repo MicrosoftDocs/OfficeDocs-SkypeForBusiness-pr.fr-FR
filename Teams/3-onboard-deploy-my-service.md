@@ -10,15 +10,17 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: Télécharger le manuel activation de Site pour planifier votre déploiement équipes et accélérer et optimiser l’adoption de l’utilisateur, perception de la qualité et de satisfaction.
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 021f69644701fb68a8122219b3f98bc4fd2f390d
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 5ce9b3f5a1d81728f0bff6951211453fb4aa2ef4
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372610"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30458995"
 ---
 # <a name="deploy-my-service"></a>Déployer mon service
 
@@ -48,7 +50,7 @@ En effectuant les activités dans ce manuel, votre organisation peut :
 L’objectif de la lecture est de résoudre les facteurs qui influencent la perception de l’utilisateur d’un déploiement de voix équipes. Tâches et activités sont regroupés dans les domaines suivants :
 
 -   Validation de la disponibilité du service
-    - Audioconférence
+    - Audioconférence,
     - Offres d'appels
     - Routage direct
 

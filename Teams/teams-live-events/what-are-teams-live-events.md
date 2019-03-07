@@ -1,24 +1,26 @@
 ---
-title: Quelles sont les Teams Microsoft live événements ?
+title: Que sont les événements en direct Microsoft Teams ?
 author: tonysmith
 ms.author: tonysmit
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 ms.reviewer: tonysmit
 search.appverid: MET150
 description: Découvrez comment live événements permettent aux utilisateurs de diffusion vidéo et de contenu à grande audiences en ligne dans Microsoft Teams, Yammer et Microsoft Stream.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 881d5c2754703766cb9b84525472bfa18fc6e651
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 4a818e95bf4d71fca06e7ea08f0bcff47efe4e2f
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532240"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461051"
 ---
-# <a name="what-are-microsoft-teams-live-events"></a>Quelles sont les Teams Microsoft live événements ?
+# <a name="what-are-microsoft-teams-live-events"></a>Que sont les événements en direct Microsoft Teams ?
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
 
 ## <a name="overview"></a>Vue d’ensemble
@@ -27,7 +29,7 @@ ms.locfileid: "26532240"
 
 Événements en direct Microsoft 365 mettez vidéo en direct à un nouveau niveau, en privilégiant une connexion tout au long du cycle de vie mission avec les participants avant, pendant et après les événements en direct. Vous pouvez créer un événement en direct où réside votre audience, équipe ou la Communauté, à l’aide de Microsoft Stream, Microsoft Teams, ou Yammer.  
 
-Équipes assure la collaboration basée sur la conversation, appel, réunions et des événements live, donc vous pouvez développer l’audience de vos réunions. Événements live équipes est une extension de réunions d’équipes, permettant aux utilisateurs de diffusion de contenu de réunion et vidéo à un grand public en ligne. Ils sont destinés à un-à-plusieurs communications où l’hôte de l’événement entraîne les interactions et participation d’audience est principalement à visualiser le contenu partagé par l’hôte. Les participants peuvent voir l’événement direct ou enregistré dans Yammer, équipes et/ou Microsoft Stream et peuvent interagir avec les présentateurs à l’aide de modéré Q & A ou conversation Yammer. 
+Équipes assure la collaboration basée sur la conversation, appel, réunions et des événements live, donc vous pouvez développer l’audience de vos réunions. Événements live équipes est une extension de réunions d’équipes, permettant aux utilisateurs de diffusion de contenu de réunion et vidéo à un grand public en ligne. Ils sont destinés à un-à-plusieurs communications où l’hôte de l’événement entraîne les interactions et participation d’audience est principalement à visualiser le contenu partagé par l’hôte. Les participants peuvent voir l’événement direct ou enregistré dans Yammer, équipes et/ou Microsoft Stream et peuvent interagir avec les présentateurs à l’aide de modéré Q & A ou une conversation Yammer. 
 
 Les équipes live événements sont considérés comme étant la prochaine version de diffusion de réunion Skype et finira par remplacent les fonctionnalités fournies dans Skype réunion diffusion. Lors de la publication de la version d’évaluation d’événements en direct équipes, nous continuera prendre en charge de Skype réunion diffusion, sans interruption de service pour les événements de nouveau ou futurs. Toutefois, nous vous invitons à essayer équipes des événements en direct pour tirer parti de toutes les nouvelles fonctionnalités très intéressantes, y compris le partage d’écran, le nombre de participants et prise en charge des encodeurs matérielles et logicielles externes. 
 

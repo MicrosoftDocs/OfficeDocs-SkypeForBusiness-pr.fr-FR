@@ -1,23 +1,25 @@
 ---
-title: Attribution de licences d’équipes
+title: Assigner des licences Teams
 author: lolaj
 ms.author: lolaj
 manager: serdars
 ms.date: 12/14/2018
 ms.topic: article
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 search.appverid: MET150
 ms.reviewer: mikedav
 description: Découvrez comment attribuer des licences pour des fonctionnalités telles que la conférence Audio, système téléphonique, et des plans d’appel.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 078db13179f0e33cb950c00ea58e76f11c8eb405
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: c679a43262a5cd10756b0f5ea542f1341018b615
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30127629"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461579"
 ---
 # <a name="assign-microsoft-teams-licenses"></a>Affecter des licences Microsoft Teams
 

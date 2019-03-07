@@ -10,21 +10,23 @@ ms.reviewer: anach
 description: Forum aux questions sur les stratégies de rétention dans Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7c8ebd3d35c471a529899cd46a364511f7ea267c
-ms.sourcegitcommit: 5e8d04bbc3eb1a57fed893e5ff929674b4297851
+ms.openlocfilehash: 7597565afcd63872554e867d8f68929a3e214538
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2018
-ms.locfileid: "25004577"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461019"
 ---
 # <a name="microsoft-teams-retention-policies-faq"></a>Forum aux questions sur les stratégies de rétention Microsoft Teams
 
 ### <a name="what-types-of-policies-can-i-set-up-in-retention-policies-and-how-do-they-work"></a>Quels types de stratégies puis-je configurer les stratégies de rétention et comment fonctionnent-ils ?
 
-Dans la sécurité et le centre de conformité, lorsque vous configurez une stratégie de rétention, des équipes ou pour n’importe quel autre charge de travail, vous pouvez configurer deux principaux types de stratégies : 
+Dans le centre de conformité & sécurité, lorsque vous configurez une stratégie de rétention, des équipes ou pour n’importe quel autre charge de travail, vous pouvez configurer deux principaux types de stratégies : 
 - Conservation : Ces stratégies assurer la préservation de vos données pour une période donnée, quel que soit ce qui se passe dans les outils de l’utilisateur final. Elles Vérifiez que les données sont conservées pour des raisons de conformité expire disponibles dans eDiscovery jusqu'à cette date. Après l’expiration du délai, votre stratégie peut indiquer s’il faut ne rien faire ou supprimer les données. Dans les équipes, si vous créez une stratégie de conservation pour 7 ans, même si les utilisateurs finaux suppriment leurs messages équipes, ces messages sont conservées pour la découverte de 7 ans.
 - Suppression : Ces stratégies vous assurer que les données ne sont pas un passif pour votre organisation. Après la durée spécifiée, les données sont supprimées à partir du stockage pertinent toutes les équipes. 
 
@@ -54,9 +56,9 @@ Remarque : Lancement de la fonctionnalité de stratégies de rétention pour le
 
 Oui, Skype pour Business en ligne et conversations interopérabilitées équipes fonctionnent de la même manière. Une fois le Skype pour la conversation en ligne Business entame équipes, il devient un message dans un thread de conversation équipes et obtient ingéré dans la boîte aux lettres appropriée. Afin que les mêmes flux works – stratégies de suppression des équipes supprimera ces messages à partir du thread d’équipes. Toutefois, si l’historique des conversations sont activé pour Skype pour Business Online et de la Skype pour côté client Business Online ceux sont enregistrés dans une boîte aux lettres, ces données de conversation ne sont pas gérées par une stratégie de rétention les équipes.
 
-### <a name="can-i-do-these-through-security--compliance-center-cmdlets-what-should-i-use"></a>Puis-je faire ces éléments dans le centre de conformité et de sécurité des applets de commande ? Que dois-je utiliser ? 
+### <a name="can-i-do-these-through-security--compliance-center-cmdlets-what-should-i-use"></a>Puis-je faire ces par le biais de sécurité & applets de commande de centre de conformité ? Que dois-je utiliser ? 
 
-Absolument. Vous pouvez créer des stratégies de rétention équipes à l’aide des [applets de commande Powershell de centre de conformité et de sécurité]( https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps). N’oubliez pas que ces applets de commande Exchange Online ne sont pas. Voici les applets de commande que nous avons créée pour les équipes. Ils suivent nomenclature existant et le style à partir de la rétention des applets de commande aujourd'hui disponibles dans le centre de conformité et de sécurité.
+Absolument. Vous pouvez créer des stratégies de rétention équipes à l’aide de la [sécurité & applets de commande Powershell de centre de conformité]( https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps). N’oubliez pas que ces applets de commande Exchange Online ne sont pas. Voici les applets de commande que nous avons créée pour les équipes. Ils suivent nomenclature existant et le style à partir de la rétention des applets de commande aujourd'hui disponibles dans sécurité & centre de conformité.
 
 |Stratégie|Règle|
 |---|---|

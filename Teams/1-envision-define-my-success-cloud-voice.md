@@ -9,16 +9,18 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: Mesurer les résultats de votre conférence Audio, le système téléphonique avec des Plans de l’appel, ou le déploiement de routage d’un système téléphonique directe et vérifiez que vous avez obtenu les résultats que vous souhaitiez.
-ms.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9f969955dc01d0ea66ea2242549eff4938d80ce6
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 405ec9e5471925ed977fc480d1b64f8d8deaee4b
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372720"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30465107"
 ---
 # <a name="define-my-success"></a>Définir mon réussite
 
@@ -198,7 +200,7 @@ Lors de la définition KSIs, nous vous conseillons d’utiliser « spécifiques
 > |---------|---------|---------|---------|---------|---------|
 > |Utilisation/adoption|La qualité des appels est égale ou meilleure qu’avec la solution précédente|Enquête|80 % des utilisateurs sont d’accord ou tout à fait d’accord|Après activation et chaque trimestre|Équipe responsable des technologies de l’information|
 > |Utilisation/adoption|Microsoft Teams a facilité le processus de communication|Enquête|80 % des utilisateurs sont d’accord ou tout à fait d’accord|Après activation et chaque trimestre|Équipe responsable de la gestion des changements|
-> |Utilisation/adoption|Les utilisateurs utilisent activement la solution|Rapports Office 365, tableau de bord de la qualité des appels|80 % des utilisateurs l’utilisent quotidiennement|Chaque jour|Équipe responsable de la gestion des changements|
+> |Utilisation/adoption|Les utilisateurs utilisent activement la solution|Rapports Office 365, tableau de bord de la qualité des appels|80 % des utilisateurs l’utilisent quotidiennement|Jour|Équipe responsable de la gestion des changements|
 > |Utilisation/qualité|Le pourcentage d’appels/conférences médiocres doit être minimal|Tableau de bord de la qualité des appels|< 5 % d'appels médiocres par mois|Chaque jour|Équipe responsable des technologies de l’information|
 > |Utilisation/support|Je sais comment obtenir le support technique|Enquête|90% des utilisateurs sont d’accord ou tout à fait d’accord|Après activation et chaque trimestre|Équipe responsable de la gestion des changements|
 > |Utilisation/support|Je suis satisfait de la qualité du support technique|Enquête|80 % des utilisateurs sont d’accord ou tout à fait d’accord|Après chaque incident|Équipe responsable des technologies de l’information|
@@ -211,8 +213,8 @@ Vous devez identifier les risques dans le cadre de cet exercice et définir un p
 > 
 > |Risque  |Probabilité  |Impact  |Global  |Plan d’atténuation  |
 > |---------|---------|---------|---------|---------|
-> |Une fusion prochaine ajoutera jusqu’à 1000 personnes|Élevée|Haut|Haut|<ul><li>Pour des sociétés fusionnées, créez un OKR distinct qui s’applique à leurs propres phases du projet (prévoir, Onboard, valeur lecteur)</li><li>N’incluez pas ces OKRs dans OKRs existants</li></ul>|
-> |Le transfert des numéros de téléphone retardera la réalisation du projet|Élevée|Haut|Haut|<ul><li>Préparer toutes les informations nécessaires pour prendre en charge le numéro de téléphone portage à l’avance (enregistrement de service de client, facturation plus d’informations, lettre d’autorisation)</li><li>Ajuster la chronologie du projet pour prendre en charge le délai d’exécution portage numéro de téléphone</li><li>Communiquer l’utilisation de nouveaux numéros de conférence rendez-vous aux participants externes</li><li>Utiliser les numéros de téléphone provisoires avec la manipulation de l'ID de l'appelant</li></ul>|
+> |Une fusion prochaine ajoutera jusqu’à 1000 personnes|Haut|Haut|Haut|<ul><li>Pour des sociétés fusionnées, créez un OKR distinct qui s’applique à leurs propres phases du projet (prévoir, Onboard, valeur lecteur)</li><li>N’incluez pas ces OKRs dans OKRs existants</li></ul>|
+> |Le transfert des numéros de téléphone retardera la réalisation du projet|Haut|Haut|Haut|<ul><li>Préparer toutes les informations nécessaires pour prendre en charge le numéro de téléphone portage à l’avance (enregistrement de service de client, facturation plus d’informations, lettre d’autorisation)</li><li>Ajuster la chronologie du projet pour prendre en charge le délai d’exécution portage numéro de téléphone</li><li>Communiquer l’utilisation de nouveaux numéros de conférence rendez-vous aux participants externes</li><li>Utiliser les numéros de téléphone provisoires avec la manipulation de l'ID de l'appelant</li></ul>|
 > |Reconception du réseau planifiée|Élevée|Moyen|Moyen|<ul><li>Avant d’implémenter des équipes comme plateforme de collaboration et communications modernes, mener une évaluation de préparation du réseau pour les sites dans la portée du projet</li></ul>|
 > |Configuration de SBC|Haut|Haut|Haut|<ul><li>Avant d’implémenter des équipes en tant que remplacement pour le système PBX existant, vérifiez que vous pouvez vous réunir toutes les exigences de configuration SBC</li><li>Confirmez que les ressources de support SBC ont les compétences approprié pour configurer le contrôleur SBC pour le routage Direct</li></ul>|
 
@@ -220,7 +222,7 @@ Vous devez identifier les risques dans le cadre de cet exercice et définir un p
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Quels sont vos organisation & #39 ; s OKRs et KSIs ?</li><li>Les risques ont identifié pertinents pour l’implémentation de conférence Audio dans votre organisation ? Quels sont les plans d’atténuation des risques identifiés ?</li><li>Les risques ont identifié pertinents pour l’implémentation de Plans de l’appel dans votre organisation ? Quels sont les plans d’atténuation des risques identifiés ?</li><li>Les risques ont identifié pertinents pour l’implémentation de routage Direct dans votre organisation ? Quels sont les plans d’atténuation des risques identifiés ?</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Quelles sont vos organization& #39 ; s OKRs et KSIs ?</li><li>Les risques ont identifié pertinents pour l’implémentation de conférence Audio dans votre organisation ? Quels sont les plans d’atténuation des risques identifiés ?</li><li>Les risques ont identifié pertinents pour l’implémentation de Plans de l’appel dans votre organisation ? Quels sont les plans d’atténuation des risques identifiés ?</li><li>Les risques ont identifié pertinents pour l’implémentation de routage Direct dans votre organisation ? Quels sont les plans d’atténuation des risques identifiés ?</li></ul>|
 |<img src="media/audio_conferencing_image9.png" />|Étapes suivantes|<ul><li>Documenter les OKRs et les KSIs et établir l’historique de risques.</li></ul>|
 
 <!--ENDOFSECTION-->

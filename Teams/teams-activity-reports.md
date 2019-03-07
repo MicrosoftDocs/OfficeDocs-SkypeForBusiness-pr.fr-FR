@@ -1,5 +1,5 @@
 ---
-title: Utiliser des rapports d’activité pour Microsoft Teams
+title: Rapports d’activité de l’utilisateur Microsoft Teams
 author: ChuckEdmonson
 ms.author: chucked
 manager: lolaj
@@ -10,18 +10,20 @@ ms.service: msteams
 ms.reviewer: chenle
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 description: Découvrez comment utiliser les rapports d’activité pour voir comment les utilisateurs de votre organisation utilisent Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2466995597757cd5c18758bc3d1842ea4a9fb4e1
-ms.sourcegitcommit: e7f035151ba7447ada326d439df59cbfc5a79a26
+ms.openlocfilehash: 34ae95d405e9ab1f35c81db0d61ee48ba18141cf
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "29995423"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463371"
 ---
-<a name="use-activity-reports-for-microsoft-teams"></a>Utiliser des rapports d’activité pour Microsoft Teams 
+<a name="use-activity-reports-for-microsoft-teams"></a>Rapports d’activité de l’utilisateur Microsoft Teams 
 ========================================
 
 Vous pouvez utiliser les rapports d’activité dans le centre d’administration Microsoft 365 pour savoir comment les utilisateurs de votre organisation utilisent Microsoft Teams. Par exemple, si certains n’utilisent pas encore Microsoft Teams, ils peuvent sait pas à commencer ou à comprendre comment ils peuvent utiliser des équipes à être plus productifs et collaborative. Votre organisation peut utiliser les rapports d’activité pour choisir où hiérarchiser les efforts de formation et de communication.

@@ -10,15 +10,17 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: En savoir plus sur les réunions, gestion des licences et la disponibilité, configurer les paramètres de pont de conférence, acquérir ou transférer des numéros de téléphone, choisissez client plans de numérotation.
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ba2faa36cbb1a745ada776d40113aab80790b728
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: d8b98aa7a601466826d95ddb2413e702f94f4877
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120715"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30459147"
 ---
 # <a name="make-my-service-decisions"></a>Prendre des décisions de mon service
 
@@ -74,10 +76,10 @@ Après avoir confirmé que votre organisation est éligible pour obtenir le serv
 > 
 > |Office   |Emplacement |Service de conférence PSTN  |
 > |---------|---------|---------|
-> |1 Eppîng Road|Australie|Audioconférence|
+> |1 Eppîng Road|Australie|Audioconférence,|
 > |100 Cyberport Road|Hong Kong R.A.S.|Conférence PSTN héritée|
-> |1 Marina Boulevard|Singapour|Audioconférence|
-> |32 London Bridge Street|Royaume-Uni|Audioconférence|
+> |1 Marina Boulevard|Singapour|Audioconférence,|
+> |32 London Bridge Street|Royaume-Uni|Audioconférence,|
 > |39 quai du Président Roosevelt|France|Audioconférence|
 
 <!--ENDOFSECTION-->

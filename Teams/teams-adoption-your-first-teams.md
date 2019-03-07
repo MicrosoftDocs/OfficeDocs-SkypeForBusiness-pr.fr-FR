@@ -12,15 +12,17 @@ localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment le lecteur d’adoption des équipes à l’aide du produit.
 ms.custom: Adopt
-ms.collection: Teams_ITAdmin_Adopt
+MS.collection:
+- Teams_ITAdmin_Adopt
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 82956a64e80811efd176f853651aa9db3770afc3
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: 7d57349a499e4434ba796cdf75df6258591f4144
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699709"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30459451"
 ---
 # <a name="create-your-first-teams-in-microsoft-teams"></a>Créer vos premières équipes dans Microsoft Teams
 
@@ -28,7 +30,7 @@ La meilleure façon pour encourager l’adoption des équipes consiste à utilis
 
 | Nom de l'équipe | Noms de canaux proposées |
 | --------- | ---------------------- |
-| Apprenez à connaître les équipes | Général</br> Dire Bonjour</br> Comment faire ?</br>Commentaires </br> Idées pour les équipes futures </br> support |
+| Apprenez à connaître les équipes | Général</br> Présentez-vous</br> Comment faire ?</br>Commentaires </br> Idées pour les équipes à venir </br> Support |
 | Mise en œuvre des équipes de Microsoft | Général <br/> Présentation et Adoption <br/> Engagement de l’entreprise <br/> Programme pour premiers utilisateurs <br/> Commentaires et vues d’ensemble <br/> Sécurité et conformité <br/> Stratégie et planification <br/> Incidents et intégrité du Service <br/> Formation <br/> Conversation Watercooler |
 | Travail d’équipe Champions | Général <br/> Meilleures pratiques, formation et comment <br/> Champion coin <br/> Prise en charge et commentaires <br/> Responsables de programme <br/> Hub social |
 

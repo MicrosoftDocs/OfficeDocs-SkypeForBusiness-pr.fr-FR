@@ -10,15 +10,17 @@ description: Tâches et activités requises pour la gestion de service d’équi
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Teams_ITAdmin_JourneyFromSfB
+MS.collection:
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9b455d7599f5de8e2eb76f560e593eb5e409ecae
-ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
+ms.openlocfilehash: 42df00ed52b62d70d8c9ea734291d77e0ba038ad
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "29562798"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460499"
 ---
 ![Étapes du voyage mise à niveau, en insistant sur la phase d’Excellence opérationnelle] (media/upgrade-banner-op-excellence.png "Étapes du voyage mise à niveau, en insistant sur la phase d’Excellence opérationnelle")
 
@@ -32,9 +34,9 @@ Cet article donne une vue d’ensemble de la configuration requise pour le fonct
 
 Le Guide des opérations vous donne une vue d’ensemble de toutes les tâches et activités requises dans le cadre de la fonction de gestion de service pour Microsoft Teams.
 
-Gestion des services est un sujet vaste qui traite des opérations quotidiennes du service Microsoft Teams après que qu’il a été déployé et activé pour les utilisateurs. Le service d’équipes englobe Microsoft Office 365 et les composants d’infrastructure qui sont déploiement en local (par exemple, mise en réseau).
+La gestion des services est un vaste sujet qui couvre les opérations quotidiennes du service Microsoft Teams après son déploiement et son activation pour les utilisateurs. Le service Teams englobe Microsoft Office 365 et les composants d'infrastructure déployés sur site (par exemple, la mise en réseau).
 
-La notion de gestion des services n’est probablement pas un nouveau concept pour la plupart des organisations. Vous avez peut-être déjà implémenté processus et les tâches qui sont associés à des services existants. Cela étant dit, vous pouvez probablement enrichir vos processus actuels lorsque vous planifiez aujourd'hui pour la gestion de service prendre en charge des équipes à l’avenir.
+La notion de gestion des services n'est probablement pas un concept nouveau pour la plupart des organisations. Vous avez peut-être déjà implémenté processus et les tâches qui sont associés à des services existants. Cela étant dit, vous pouvez probablement enrichir vos processus actuels lorsque vous planifiez aujourd'hui pour la gestion de service prendre en charge des équipes à l’avenir.
 
 Gestion des services comprend toutes les activités et processus impliqués dans la gestion des équipes de bout en bout. Comme mentionné plus haut, certains composants de gestion des services — l’infrastructure comprend le service Office 365 lui-même — sont responsabilité de Microsoft, tandis que vous, le client, sont responsables à vos utilisateurs à gérer les différents aspects des équipes, le réseau et points de terminaison que vous fournissez.
 
@@ -47,7 +49,7 @@ Diagramme de ![A montrant une liste de catégories de tâches et les activités 
 <tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Consultez le Guide des opérations dans leur intégralité.</li><li>Implémenter une stratégie d’opérations qui s’aligne sur les objectifs de votre organisation pour offrir la qualité et la fiabilité des charges de travail équipes.</li><li>Consultez le guide de l’examen de la qualité de l’expérience.</li><li> Implémenter une stratégie d’opérations pour effectuer régulièrement la qualité d’expérience avis pour vous assurer que votre déploiement équipes fonctionne à ses fonctionnalités de pointe.</li></ul></td></tr>
 </table>
 
-### <a name="operational-role-mapping"></a>Mappage de rôle opérationnel
+### <a name="operational-role-mapping"></a>Mappage des rôles opérationnels
 
 Se sont engagés pour les opérations pendant la phase de prévoir la planification est essentielle, car les activités opérations commencent lorsque les utilisateurs du pilote premier sont activés. Ce guide répertorie les activités et les tâches qui doivent être effectuées sur une base quotidienne, hebdomadaire, mensuelle ou selon les besoins pour mettre à jour un déploiement d’équipes de haute qualité. Ce guide fournit des connaissances et des conseils pour savoir comment effectuer ces tâches et activités critiques.
 
@@ -363,7 +365,7 @@ Pour vérifier l’intégrité de votre réseau, un nombre d’opérations activ
 
 [Planificateur de réseau](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner)
 
-[URL et plages d'adresses IP Office 365](https://aka.ms/o365ips)
+[URL et plages d’adresses IP Office 365](https://aka.ms/o365ips)
 
 [Schéma des données de création](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#tenant-data-file-format-and-building-data-file-structure)
 
@@ -371,13 +373,13 @@ Pour vérifier l’intégrité de votre réseau, un nombre d’opérations activ
 
 ## <a name="assess-and-ensure-quality"></a>Évaluer et de garantir la qualité
 
-Toutes les organisations besoin d’un groupe ou la personne qui sera responsable de la qualité. Il s’agit d’un rôle essentiel dans la gestion de service. Le rôle de poids lourd qualité est affecté à une personne ou un groupe qui est passionné sur l’expérience des utilisateurs.
-Ce rôle nécessite les compétences nécessaires pour identifier les tendances dans l’environnement et le soutien pour travailler avec d’autres équipes pour diriger la mise à jour. En général, le meilleur candidat au rôle de Champion Qualité est le responsable du service clientèle. Selon la taille et la complexité de l’organisation, cela peut être une personne ou un groupe avec une passion pour garantir une expérience utilisateur de qualité.
+Toutes les organisations besoin d’un groupe ou la personne qui sera responsable de la qualité. Il s'agit du rôle le plus important dans la gestion des services. Le rôle de poids lourd qualité est affecté à une personne ou un groupe qui est passionné sur l’expérience des utilisateurs.
+Ce rôle exige les compétences nécessaires pour cerner les tendances de l'environnement et le parrainage pour travailler avec d'autres équipes afin d'orienter les mesures correctives. En général, le meilleur candidat au rôle de Champion Qualité est le responsable du service clientèle. Selon la taille et la complexité de l’organisation, cela peut être une personne ou un groupe avec une passion pour garantir une expérience utilisateur de qualité.
 
 Le poids lourd qualité tire parti des outils existants et identifient les tendances de qualité des processus documentés, tels que le tableau de bord de la qualité des appels (CQD) et le Guide Quality of Experience révision, de surveiller l’expérience utilisateur et correction du lecteur lorsque cela est nécessaire.
 Le poids lourd qualité devrait fonctionner par rapport à un comité directeur sur l’avancement et tous les problèmes et les équipes respectifs pour exécuter des actions de mise à jour.
 
-La [Qualité d’expérience consulter le Guide](https://aka.ms/qerguide) comprend des activités qui évaluer et fournissent des instructions de mise à jour dans les zones clés qui ont le plus grand impact sur l’amélioration de l’expérience utilisateur. Les instructions fournies dans le Guide de révision de l’expérience de qualité se concentre sur l’utilisation CQD en ligne en tant que le principal outil pour signaler et examiner chaque zone, en mettant l’accent sur l’audio à optimiser l’impact d’adoption et de. Les optimisations apportées au réseau pour améliorer l’expérience audio auront également directement des améliorations dans le partage du bureau et vidéo.
+La [Qualité d’expérience consulter le Guide](https://aka.ms/qerguide) comprend des activités qui évaluer et fournissent des instructions de mise à jour dans les zones clés qui ont le plus grand impact sur l’amélioration de l’expérience utilisateur. Les instructions fournies dans le Guide de révision de l’expérience de qualité se concentre sur l’utilisation CQD en ligne en tant que le principal outil pour signaler et examiner chaque zone, en mettant l’accent sur l’audio à optimiser l’impact d’adoption et de. Toutes les optimisations apportées au réseau pour améliorer l'expérience audio se traduiront aussi directement par des améliorations dans le partage de la vidéo et du bureau.
 
 Nous vous recommandons vivement de vous désigner le poids lourd qualité dès le début. Après avoir en cours désignés, ils doivent commencer à se familiariser avec le contenu dans le Guide Quality of Experience révision et supports de formation associé.
 
@@ -393,7 +395,7 @@ Nous vous recommandons vivement de vous désigner le poids lourd qualité dès l
 
 ### <a name="references"></a>Références
 
-[Découvrez CQD](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos)
+[Apprendre le CQD](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos)
 
 [Informations de création de téléchargement](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)
 
@@ -407,13 +409,13 @@ Points de terminaison Teams Microsoft peuvent être définis comme n’importe q
 
 ### <a name="endpoint-requirements"></a>Configuration requise du point de terminaison
 
-Un des principaux avantages des équipes est que le client est mis à jour automatiquement. Les clients sur le PC et Mac sont mis à jour à l’aide d’un processus d’arrière-plan qui vérifie les nouvelles versions et télécharge le nouveau client lorsque l’application est inactive. Les applications mobiles équipes sont mises à jour dans les magasins de leur application respectifs.
+Un des principaux avantages des équipes est que le client est mis à jour automatiquement. Les clients sur PC et Mac sont mis à jour à l'aide d'un processus en arrière-plan qui vérifie les nouvelles versions et télécharge le nouveau client lorsque l'application est inactive. Les applications mobiles équipes sont mises à jour dans les magasins de leur application respectifs.
 
 Le client équipes a la configuration minimale requise en termes de la plate-forme logicielle sous-jacent. Ces besoins peuvent changer au fil du temps, et par conséquent, il est important de surveiller les modifications. Par exemple, le client équipes a une version minimale iOS. Si le client utilise un navigateur internet, le navigateur doit être mis à jour également. Vous trouverez la liste des plateformes prises en charge dans [obtenir des clients pour les équipes Microsoft](get-clients.md).
 
-### <a name="endpoint-firewalls"></a>Pare-feu de point de terminaison
+### <a name="endpoint-firewalls"></a>Pare-feu des points de terminaison
 
-Pare-feu côté client peuvent avoir un impact significatif sur l’expérience utilisateur.
+Les pare-feu côté client peuvent avoir un impact significatif sur l'expérience utilisateur.
 Pare-feu côté client peuvent avoir une incidence sur la qualité des appels et même empêcher un appel à partir de l’établissement. Une fois que les exclusions appropriées sur le pare-feu du client ont été configurées, ils doivent être mis à jour en fonction des informations dans [Office 365 URL et plages d’adresses IP](https://aka.ms/o365ips). Votre fournisseur tiers auront des instructions spécifiques à la mise à jour les exclusions.
 
 ### <a name="wi-fi-drivers"></a>Pilotes Wi-Fi
@@ -443,16 +445,16 @@ Même si vous avez suivi les recommandations précédentes, les utilisateurs de 
 | Activité | Description | Cadence | Équipe affecté |
 |---|---|---|---|
 | Configuration requise du point de terminaison | Vérifiez que les équipes de point de terminaison continue pour répondre à tous les logiciels requis pour les équipes répertoriés dans [obtenir des clients pour les équipes Microsoft](get-clients.md). | Mois | |
-| Pare-feu de point de terminaison | Mettre à jour les exclusions appropriées sur le pare-feu du point de terminaison en fonction des informations dans [Office 365 URL et plages d’adresses IP](https://aka.ms/o365ips). Votre fournisseur tiers auront des instructions spécifiques à la maintenance des exclusions. S’abonner à ce [flux RSS](https://support.office.com/o365ip/rss) pour être averti automatiquement des modifications. | Selon vos besoins | |
+| Pare-feu des points de terminaison | Mettre à jour les exclusions appropriées sur le pare-feu du point de terminaison en fonction des informations dans [Office 365 URL et plages d’adresses IP](https://aka.ms/o365ips). Votre fournisseur tiers auront des instructions spécifiques à la maintenance des exclusions. S’abonner à ce [flux RSS](https://support.office.com/o365ip/rss) pour être averti automatiquement des modifications. | Selon vos besoins | |
 | Pilotes Wi-Fi | Tester et mettre à jour les pilotes Wi-Fi sur le PC. Valider les résultats à l’aide de CQD ([Guide Quality of Experience révision](https://aka.ms/qerguide)). | Selon vos besoins | |
 | Gestion de point de terminaison | Gérer le catalogue de points de terminaison pris en charge et les périphériques d’interface (par exemple, casques). Gérer les contrats fournisseurs, garantie, distribution, remplacement et réparer les stratégies. | Mois | |
 | Résolution des problèmes de point de terminaison | Résolution des problèmes de tâches peuvent inclure la vérification de la connectivité, consultation de la liste de problèmes connus, collecte des journaux, analyse et mise à niveau vers le Support de Microsoft ou des fournisseurs tiers. | Selon vos besoins | |
 
 ### <a name="references"></a>Références
 
-[URL et plages d'adresses IP Office 365](https://aka.ms/o365ips)
+[URL et plages d’adresses IP Office 365](https://aka.ms/o365ips)
 
-[Obtenir des clients pour Microsoft Teams](get-clients.md)
+[Obtenir des clients pour Microsoft Teams](get-clients.md)
 
 [Communauté Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams)
 
@@ -483,7 +485,7 @@ Pour prendre en charge les utilisateurs, une organisation peut nécessiter un no
 
 #### <a name="general-tasks"></a>Tâches générales
 
-[Gérer l'accès des utilisateurs à Microsoft Teams](user-access.md)
+[Gérer l’accès des utilisateurs à Microsoft Teams](user-access.md)
 
 ### <a name="team-creation-optional"></a>Création de l’équipe (facultative)
 

@@ -7,7 +7,9 @@ ms.date: 07/05/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 ms.reviewer: harij, rafarhi
 localization_priority: Normal
 search.appverid: MET150
@@ -16,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0b4e0e713bda280738ec72c8c4e07dc5b0da15c3
-ms.sourcegitcommit: 5f289e4ca3ba40013d38c352bd34eff96d6421b3
+ms.openlocfilehash: 32fba747deb73b7f4e2c19b96cb4c0c62b741722
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726634"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30458907"
 ---
 <a name="get-clients-for-microsoft-teams"></a>Obtenir des clients pour Microsoft Teams 
 ===========================
@@ -31,7 +33,7 @@ Microsoft Teams a des clients mobiles et disponibles pour les web (Windows et Ma
 > [!NOTE]
 > À compter du que 29 novembre 2018, vous ne serez en mesure d’utiliser le Teams Microsoft pour une application Windows 10 S (Preview), disponible à partir de Microsoft Store. Nous vous recommandons d’utiliser une des applications équipes décrites ci-dessous dans cet article après 29 novembre.
 
-<a name="desktop-client"></a>Client de bureau
+<a name="desktop-client"></a>Client de bureau 
 --------------
 
 > [!Tip]

@@ -12,15 +12,17 @@ localization_priority: Normal
 search.appverid: MET150
 description: Terminez la liste de contrôle pour commencer à adopter Microsoft Teams.
 ms.custom: Adopt
-ms.collection: Teams_ITAdmin_Adopt
+MS.collection:
+- Teams_ITAdmin_Adopt
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 48ae0d4551bf5ca786f995fc22165d4f3f09fa04
-ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
+ms.openlocfilehash: f19d78de9b9227dcbc42073b177fffd9596e5ffb
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "27240872"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464011"
 ---
 # <a name="microsoft-teams-adoption-quick-start-checklist"></a>Liste de contrôle de démarrage rapide pour l’adoption de Microsoft Teams
 

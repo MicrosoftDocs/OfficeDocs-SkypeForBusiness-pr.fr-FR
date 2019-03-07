@@ -10,15 +10,17 @@ search.appverid: MET150
 description: Conseils pour poursuivre votre parcours de Skype pour les entreprises à Microsoft Teams
 localization_priority: Normal
 ms.custom: Teams-upgrade-guidance
-MS.collection: Teams_ITAdmin_JourneyFromSfB
+MS.collection:
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ac7466df9000eba2ea2689c717a2012fd252e150
-ms.sourcegitcommit: d0ef6dc70d409955bf58a13b29746f985c6355a7
+ms.openlocfilehash: 5ad07d4445e02c10eb75a62d6fa2933b413b8107
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "29562604"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463275"
 ---
 ![Étapes du voyage mise à niveau, en insistant sur la phase d’Excellence opérationnelle] (media/upgrade-banner-op-excellence.png "Étapes du voyage mise à niveau, en insistant sur la phase d’Excellence opérationnelle")
 

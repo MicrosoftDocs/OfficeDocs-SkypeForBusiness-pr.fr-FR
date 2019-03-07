@@ -7,11 +7,12 @@ ms.date: 12/13/2018
 ms.reviewer: kponnus
 ms.topic: article
 ms.tgt.pltfrm: cloud
-ms.service:
-- msteams
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
+- M365-collaboration
+- M365-voice
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
@@ -20,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Découvrez comment configurer des téléphones en zone commune pour les salles d’attente, les zones de réception et les salles de conférence '
-ms.openlocfilehash: b7fb997a8e9367c4a3b8629f037ad79871b64b25
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: ef2e9984604a39aed76fa6b13784b43cb0fa76ea
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30121043"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464819"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Configurer la licence de téléphone de partie commune pour Microsoft Teams
 

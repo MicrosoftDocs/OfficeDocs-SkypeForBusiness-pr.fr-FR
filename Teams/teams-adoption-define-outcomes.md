@@ -8,19 +8,21 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.custom: Adopt
-ms.collection: Teams_ITAdmin_Adopt
+MS.collection:
+- Teams_ITAdmin_Adopt
+- M365-collaboration
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment mesurer les résultats et la réussite de votre activation à grande échelle des équipes.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2df638a12b67ac70b0759f70365f48330c26914d
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: 09efb86effe9179908c10eb9fbb7de30cc5a247d
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699815"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461811"
 ---
 # <a name="define-outcomes-and-success-for-your-microsoft-teams-adoption"></a>Définir les résultats et la réussite de votre adoption de Microsoft Teams
 
@@ -73,7 +75,7 @@ Les équipes est une technologie de transformation, donc en fonction de la taill
 | Tout d’abord les équipes | Principaux des équipes | Les équipes accédez très grand | Skype côte à côte | Migration |
 |------------ | ---------- | ------------ | ------------------ | --------- |
 | Déploiement de mise en œuvre dans le nuage avec des équipes | Activation de scénario de mise en œuvre de collaboration avec des équipes | Tous les employés sur les équipes et l’organisation des équipes | Activer les équipes et Skype pour les entreprises | Migrer les utilisateurs de Skype pour les entreprises à des équipes |
-| -Applicables aux clients nouveaux ou faible utilisation Office 365 <br/>-Conduire avec des équipes dans un scénario spécifique au client <br/>-Mise en surbrillance intégré expérience utilisateur et réduction du délai valeur pour Office 365 <br/>-Participer à la planification d’activation de la charge de travail pour éviter l’implémentation en série | -Permettent aux équipes ainsi que OneDrive et SharePoint Online <br/>-Créer un intranet d’entreprise pour partager des ressources de news et vidéo avec Microsoft Stream<br/>**Une association efficace**: <br/>Teams<br/>SharePoint<br/>Yammer<br/>Planificateur<br/>PowerApps |-Pour les clients ayant moins de 1 000 sièges (limite actuelle)<br/>-Permet d’activer une collaboration d’entreprise avec une équipe pour tous les<br/>-Automatiser les tâches courantes (demandes de congés, enquêtes employé, engagement exécutif) |-Utilisez tactiques principaux des équipes pour accélérer la collaboration<br/>-Surbrillance conseils de scénario en fonction de la taille et jeu de fonctionnalités requis de la réunion</br>-Utiliser Skype pour les entreprises pour l’appel d’entreprise, d’interopérabilité et scénarios hybrides<br/>-Utilisez public feuille de route pour la planification de capacité. |-Move plan aux équipes de Skype pour les entreprises en créant un plan de stratégie de service pour le client<br/>-Joindre à la planification de version de fonctionnalité<br/>-Est recommandé d’inclure le côte à côte et équipes principaux pour faciliter la transition
+| -Applicables aux clients nouveaux ou faible utilisation Office 365 <br/>-Conduire avec des équipes dans un scénario spécifique au client <br/>-Mise en surbrillance intégré expérience utilisateur et réduction du délai valeur pour Office 365 <br/>-Participer à la planification d’activation de la charge de travail pour éviter l’implémentation en série | -Permettent aux équipes ainsi que OneDrive et SharePoint Online <br/>-Créer un intranet d’entreprise pour partager des ressources de news et vidéo avec Microsoft Stream<br/>**Une association efficace**: <br/>Équipes<br/>SharePoint<br/>Yammer<br/>Planificateur<br/>PowerApps |-Pour les clients ayant moins de 1 000 sièges (limite actuelle)<br/>-Permet d’activer une collaboration d’entreprise avec une équipe pour tous les<br/>-Automatiser les tâches courantes (demandes de congés, enquêtes employé, engagement exécutif) |-Utilisez tactiques principaux des équipes pour accélérer la collaboration<br/>-Surbrillance conseils de scénario en fonction de la taille et jeu de fonctionnalités requis de la réunion</br>-Utiliser Skype pour les entreprises pour l’appel d’entreprise, d’interopérabilité et scénarios hybrides<br/>-Utilisez public feuille de route pour la planification de capacité. |-Move plan aux équipes de Skype pour les entreprises en créant un plan de stratégie de service pour le client<br/>-Joindre à la planification de version de fonctionnalité<br/>-Est recommandé d’inclure le côte à côte et équipes principaux pour faciliter la transition
 
 Voici nos recommandations pour la plupart des organisations de client. Toutefois, il existe certaines exceptions. Pour obtenir des instructions pour les scénarios ne sont-elles ne pas décrites ici, demandez à vos questions sur notre communauté Adoption conduite ou contacter l’équipe FastTrack ou du réseau de partenaires Microsoft.
 

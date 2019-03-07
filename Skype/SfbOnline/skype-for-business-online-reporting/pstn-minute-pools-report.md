@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: La nouvelle Skype de zone de rapports du centre d’administration Business affiche vous appeler et audio conférence activité dans votre organisation. Elle vous permet des détails des rapports pour vous donnent plus granulaires sur les activités de chaque utilisateur. Par exemple, vous pouvez utiliser la Skype pour rapport de pools minute Business PSTN pour afficher le nombre de minutes consommées au cours du mois au sein de votre organisation.
-ms.openlocfilehash: 2840ac4bde1234f0f87fe17c41f43b6efad647b5
-ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
+ms.openlocfilehash: 903ea97fa5cd187e49db89d0e4db32ad7b851a41
+ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "27182374"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "30454015"
 ---
 # <a name="pstn-minute-pools-report"></a>Rapport du nombre de minutes RTC
 
@@ -62,7 +62,7 @@ Voici une illustration du rapport.
 ![Numéro 1](../images/sfbcallout1.png)<br/>Le tableau présente une répartition des pools minutes par licence (capacité) et l’emplacement de l’utilisation. 
 *    **Fonctionnalité** est le plan de licence/service utilisé pour l’appel. Les plans de licence/service que peuvent apparaître dans ce rapport sont les suivantes :
      * MCOPSTN1 - intérieur appelant planifier (3000-minute US/1200-minute UE plans
-     * MCOPSTN2 - national et International appelant planifier à partir de laquelle vous verrez un pool interne (3000-minute US/Canada/PR, minute-1200 Europe) et un pool international (600-minutes). Cap minute est atteint lorsque cap - ou-international nationale est atteint au cours du mois de calendrier. 
+     * MCOPSTN2 - & nationales International appelant planifier à partir de laquelle vous verrez un pool interne (3000-minute US/Canada/PR, minute-1200 Europe) et un pool international (600-minutes). Cap minute est atteint lorsque cap - ou-international nationale est atteint au cours du mois de calendrier. 
      * MCOPSTN5 - intérieur appelant Plan (plan appelant 120 minutes)
      * MCOPSTN6 - intérieur appelant Plan (plan appelant de 240 minutes)
      * MCOMEETADD - services d’audioconférence

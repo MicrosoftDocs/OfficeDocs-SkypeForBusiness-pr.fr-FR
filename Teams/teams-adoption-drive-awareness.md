@@ -12,15 +12,17 @@ localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment sensibiliser et implémenter un programme de formation pour adoption Teams Microsoft.
 ms.custom: Adopt
-ms.collection: Teams_ITAdmin_Adopt
+MS.collection:
+- Teams_ITAdmin_Adopt
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8da00716e83d1b227bdf2c4ff66b1c026aa8e55c
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: bf3437d07bef4b068f68ba6607e664aa25c99605
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699756"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30459587"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>Faire connaître et implémenter une formation à Microsoft Teams
 
@@ -48,7 +50,7 @@ Nos ressources permet de fournir la formation de l’utilisateur final comme les
 - [Formation dirigée par un instructeur pour les équipes](instructor-led-training-teams-landing-page.md)
 - [Administrateur de formation pour les équipes](itadmin-readiness.md)
 - [Formation en ligne de l’utilisateur final](enduser-training.md)
-- [Café dans la formation en ligne dans le nuage pour les champions et les professionnels de l’informatique](https://aka.ms/CoffeeintheCloud) 
+- [Café dans le nuage de formation en ligne pour les champions & professionnels de l’informatique](https://aka.ms/CoffeeintheCloud) 
 - [Jour dans les fiches récapitulatives de formation vie Office 365](https://aka.ms/O365AdoptionTools)
 
 ## <a name="measure-and-share-success"></a>Mesurer et partager la réussite

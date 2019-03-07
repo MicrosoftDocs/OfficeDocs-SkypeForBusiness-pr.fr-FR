@@ -9,15 +9,17 @@ search.appverid: MET150
 ms.reviewer: srividhc
 description: Nuage vidéo Interop permet de tiers équipements de salle pour participer à des réunions Teams Microsoft de la réunion.
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7ebf153def5c53f2cabdf9a6293ed55e69c1c2f9
-ms.sourcegitcommit: ea1085228894ae448f575f9e13a9f25a1f47e636
+ms.openlocfilehash: 9ea1a81f2418b17d247dafe82d9e94e348d3b4c7
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "30312267"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30459747"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Interopérabilité de la vidéo cloud de Microsoft Teams
 

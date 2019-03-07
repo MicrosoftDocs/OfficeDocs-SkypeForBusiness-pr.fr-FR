@@ -1,5 +1,5 @@
 ---
-title: Gestion des licences de module complémentaire Microsoft Teams
+title: Licences de module complémentaire Microsoft Teams
 ms.date: 02/14/2019
 ms.author: tonysmit
 author: tonysmit
@@ -8,7 +8,9 @@ ms.reviewer: mikedav
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
@@ -17,14 +19,14 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: En savoir plus sur les licences de module complémentaire, les fonctionnalités que vous obtenez avec chaque licence, comment acheter les pour votre produit et comment utiliser votre opérateur existante avec eux. Vous pouvez obtenir des informations sur les tarifs et le plan de détails pour Office 365, crédits de Communication, et les plans d’appel.
-ms.openlocfilehash: d776e6e3b54f8a847bd82ef8b1c373af2211dbae
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: 6cf3b2a242a941c9a4352aa35afd1dcbe23c902c
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30127677"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460131"
 ---
-# <a name="microsoft-teams-add-on-licensing"></a>Gestion des licences de module complémentaire Microsoft Teams
+# <a name="microsoft-teams-add-on-licensing"></a>Licences de module complémentaire Microsoft Teams
 
 ## <a name="what-are-add-on-licenses"></a>Qu'est-ce qu'une licence de complément ?
 
@@ -61,11 +63,11 @@ Vous souhaitez contacter quelqu'un à propos des options de tous les modules com
 
 Les options de licence de module complémentaire à votre disposition dépend de votre plan Office 365. Consultez les rubriques suivantes pour plus d’informations, de fonctionnalités et d’options spécifiques à votre forfait.
 
-- [Office 365 Business Premium](office-365-business-premium.md)
+- [Office 365 entreprise Premium](office-365-business-premium.md)
 - [Office 365 ProPlus](office-365-premium-pro-plus.md)
 - [Office 365 entreprise E1 ou E3](office-365-enterprise-e1-e3.md)
-- [Office 365 entreprise E5](office-365-enterprise-e5-with-audio-conferencing.md)
-- [Office 365 entreprise E5 (sans les services d’audioconférence)](office-365-enterprise-e5-without-audio-conferencing.md)
+- [Office 365 Entreprise E5](office-365-enterprise-e5-with-audio-conferencing.md)
+- [Office 365 Entreprise E5 sans Audioconférence](office-365-enterprise-e5-without-audio-conferencing.md)
 - [Systèmes de salle Skype v2](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
 - [GOV, EDU et Organisations à but non lucratif](gov-edu-and-nonprofit-organizations.md)
 

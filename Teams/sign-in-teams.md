@@ -1,5 +1,5 @@
 ---
-title: Se connecter à Microsoft Teams utilisant l’authentification moderne
+title: Se connecter à Microsoft Teams en utilisant l’authentification moderne
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -11,17 +11,19 @@ search.appverid: MET150
 ms.reviewer: ''
 description: Comment établir une connexion à Microsoft Teams en utilisant l’authentification moderne.
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 01ca138aebae8d0db731118baf3e340aa3332120
-ms.sourcegitcommit: bd32d44d27990e373ce6afa38897159473601113
+ms.openlocfilehash: eec164da4dafe9be54272a72680cfa920d32d60c
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "26544371"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30458811"
 ---
-<a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>Se connecter à Microsoft Teams utilisant l’authentification moderne
+<a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>Se connecter à Microsoft Teams en utilisant l’authentification moderne
 ==========================
 
 Teams Microsoft utilise l’authentification moderne pour conserver l’expérience de connexion simple et sécurisé. Pour voir comment les utilisateurs se connectent aux équipes, lisez [se connecter aux équipes](https://support.office.com/article/sign-in-to-teams-ea4b1443-d11b-4791-8ae1-9977e7723055).

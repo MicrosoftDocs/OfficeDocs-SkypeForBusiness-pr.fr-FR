@@ -13,15 +13,17 @@ localization_priority: Normal
 search.appverid: MET150
 ms.custom:
 - Devices
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8a97e651e703146c07450229fb4958116d0fd8a2
-ms.sourcegitcommit: a4f2d3440399f0a17fb8f6d364cfd2dc4b0bf8db
+ms.openlocfilehash: add4b7ece81fd2c4184453b03c889a27982c830b
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30342204"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460115"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>Déployer Microsoft Teams pour Surface Hub
 ======================================

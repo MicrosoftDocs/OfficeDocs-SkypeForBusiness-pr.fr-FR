@@ -11,15 +11,17 @@ description: Conseils pour les professionnels de l’informatique pour les dépl
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: af5261e20f11cfb4234fb6d27abfa31b18370556
-ms.sourcegitcommit: 42083a67ad92d81643131c8514d82c529a1ac491
+ms.openlocfilehash: b4b1dc313fa1ea223e7c55f066b869b29c098fd2
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2019
-ms.locfileid: "27988263"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460827"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-high-deployments"></a>Plan pour Microsoft 365 gouvernement - déploiements GCC haute
 
@@ -126,8 +128,8 @@ Pour prendre en compte les exigences de nos clients du nuage gouvernement, il ex
 | | Consommateur de Skype - prise en charge des appels aux équipes | Non disponibles |
 | Fichiers | Récents | Disponibles |
 | | Microsoft Teams | Disponibles |
-| Magasin | Magasin d’applications | Non disponibles |
-| Recherche | Messages | Disponibles |
+| boutique | Magasin d’applications | Non disponibles |
+| Rechercher | Messages | Disponibles |
 | | Personnes | Disponibles |
 | | Fichiers | Disponibles |
 | | Commandes de barre oblique | Disponibles |

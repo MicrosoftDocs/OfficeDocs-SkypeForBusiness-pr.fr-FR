@@ -1,5 +1,5 @@
 ---
-title: Préparer l’environnement de mise à niveau à partir de Skype pour les entreprises à des équipes
+title: Préparer un environnement pour la mise à niveau de Skype Entreprise vers Teams
 author: turgayo
 ms.author: turgayo
 manager: serdars
@@ -10,15 +10,17 @@ description: Valider la préparation de votre environnement et de réseau avant 
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Teams_ITAdmin_JourneyFromSfB
+MS.collection:
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c59ce73f4cff16c042753a69b4d14aa79896ebe0
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 485bd42198e54c5ccacc6296c31a19298d66ccf7
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349404"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464955"
 ---
 ![Étapes du voyage mise à niveau, en mettant l’accent sur l’étape de préparation technique] (media/upgrade-banner-tech-readiness.png "Étapes du voyage mise à niveau, en mettant l’accent sur l’étape de préparation technique")
 

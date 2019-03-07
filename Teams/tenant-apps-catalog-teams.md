@@ -1,5 +1,5 @@
 ---
-title: Publier des applications dans le catalogue d’applications client équipes Microsoft
+title: Publier des applications dans le catalogue d’applications de locataire Microsoft Teams
 author: ChuckEdmonson
 ms.author: lolaj
 manager: serdars
@@ -10,17 +10,19 @@ ms.reviewer: prem
 description: Conseils pour la publication d’applications dans le catalogue d’applications Microsoft équipes client.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2454ad195fbecb25b30218ac156e62d396b4a6dd
-ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
+ms.openlocfilehash: c7e280d0e0034290232010897b34e0e30319bd51
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/26/2018
-ms.locfileid: "26674819"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464211"
 ---
-<a name="publish-apps-to-the-microsoft-teams-tenant-apps-catalog"></a>Publier des applications dans le catalogue d’applications client équipes Microsoft
+<a name="publish-apps-to-the-microsoft-teams-tenant-apps-catalog"></a>Publier des applications dans le catalogue d’applications de locataire Microsoft Teams
 =======================================================
 
 Vous pouvez utiliser le catalogue d’applications client équipes Microsoft pour tester et distribuer des applications métier de votre organisation. 

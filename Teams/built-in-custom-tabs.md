@@ -6,25 +6,27 @@ manager: serdars
 ms.date: 11/13/2018
 ms.topic: article
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 ms.reviewer: lucarras
 search.appverid: MET150
 description: Découvrez comment utiliser les onglets intégrés et personnalisés pour inclure des fonctionnalités telles des conversations, des fichiers, des mappages, et plus encore.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dca1d1a49a749991c97e2e8807557c457f1b67f6
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: a1e93de09dc99832f942397a3af966334371a094
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27788956"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30458795"
 ---
 <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>Utiliser les onglets intégrés et personnalisés dans Microsoft Teams
 ==================================================
 
 Onglets permettre aux membres de l’équipe d’accéder aux services sur une zone dédiée au sein d’un canal ou dans une conversation. Cela vous permet de l’équipe travailler directement avec les outils et les données et avoir des conversations sur les dans le contexte du canal ou de la conversation. 
 
-Les propriétaires et les membres de l’équipe peuvent ajouter des onglets à un canal, chat privé et la conversation de groupe pour aider à intégrer les services en nuage. Onglets peuvent être ajoutés pour aider les utilisateurs facilement accéder et gérer les données ou à interagir avec le meilleur parti. Il peut s’agir d’un rapport de Power BI, un tableau de bord ou même un canal vidéo de [Flux Microsoft](https://go.microsoft.com/fwlink/?linkid=855785) où vous publiez des vidéos de formation.
+Les propriétaires et membres d'équipe peuvent ajouter d'autres onglets à un canal, une conversation privée ou une conversation de groupe, pour faciliter l'intégration de leurs services cloud. Onglets peuvent être ajoutés pour aider les utilisateurs facilement accéder et gérer les données ou à interagir avec le meilleur parti. Il peut s’agir d’un rapport de Power BI, un tableau de bord ou même un canal vidéo de [Flux Microsoft](https://go.microsoft.com/fwlink/?linkid=855785) où vous publiez des vidéos de formation.
 
 ![Trois captures d'écran de différents contenus dans des onglets.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image4.png)
 

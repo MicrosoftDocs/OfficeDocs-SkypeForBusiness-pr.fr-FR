@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Rapports, le nouveau tableau de bord d'Office 365, vous donne une vue d'ensemble de l'activité de tous les produits Office 365 dans votre organisation. Il vous permet d'explorer les rapports au niveau de chaque produit pour obtenir une vue d'ensemble plus précise des activités qu'ils contiennent.
-ms.openlocfilehash: 33aa42ea7acd2f28ab0e27da85421071f948ca99
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: c4f3040c759deefc222c6243d80de393e18befe9
+ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530549"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "30454033"
 ---
 # <a name="session-details-report"></a>Rapport détaillé de session
 

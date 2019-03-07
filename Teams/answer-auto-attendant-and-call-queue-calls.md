@@ -9,15 +9,17 @@ ms.service: msteams
 description: Décrit les standards automatiques de système téléphonique et les files d’attente de l’appel et explique comment vous pouvez répondre à ces appels dans les équipes.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7b0b533020def2e344991fa758304888c8166436
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: c010ae5a812cfd3d49279dd3728e948bdb31ca53
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530945"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30465331"
 ---
 <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>Répondre de standard automatique et appels de file d’attente directement à partir d’équipes
 ===========================================================
@@ -59,7 +61,7 @@ Pour recevoir le standard automatique et appels de file d’attente sur Microsof
 ## <a name="related-topics"></a>Rubriques connexes
 
 -   [Quel est le système téléphonique dans Office 365](what-is-phone-system-in-office-365.md)
--   [Créer une file d’attente de système téléphonique](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
--   [Que sont les standards automatiques de système téléphonique ?](what-are-phone-system-auto-attendants.md)
--   [Configurer un standard automatique pour le système téléphonique](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
+-   [Créer une file d’attente appel système téléphonique](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
+-   [Quels sont les standards automatiques du système téléphonique?](what-are-phone-system-auto-attendants.md)
+-   [Configurer les standards automatiques du système téléphonique](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
 
