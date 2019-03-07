@@ -1,5 +1,5 @@
 ---
-title: Formation des équipes de Microsoft
+title: Formation Microsoft Teams
 description: Utilisez ces utilisateurs finaux, d’administration et ressources de formation dirigée par un instructeur pour vous aider à tirer le meilleur parti Teams Microsoft dans votre organisation.
 layout: LandingPage
 ms.topic: landing-page
@@ -8,18 +8,20 @@ ms.author: lolaj
 manager: serdars
 ms.date: 01/28/2019
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29cfb69af17387ad5ca9b9cf4f1ceff11fe09117
-ms.sourcegitcommit: 5cf9b45ad87aebfd46d3f1f757786c01804143ed
+ms.openlocfilehash: f227a9787368b325f102229afebdebf000513bb9
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "29635690"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463683"
 ---
-# <a name="microsoft-teams-training"></a>Formation des équipes de Microsoft
+# <a name="microsoft-teams-training"></a>Formation Microsoft Teams
 
 
 
@@ -104,7 +106,7 @@ Vérifier les sauvegarder fréquemment, nous allons conserver mise à jour de ce
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Travail d’équipe</h3>
+                        <h3>travail d'Équipe</h3>
                          <p><a href="https://aka.ms/edx-cld267x-about">Cours : Activation de l’équipe avec les équipes Microsoft</a></p>
                     </div>
                 </div>
