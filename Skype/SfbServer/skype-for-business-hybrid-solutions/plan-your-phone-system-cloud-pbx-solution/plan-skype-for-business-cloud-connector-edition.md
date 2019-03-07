@@ -17,18 +17,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: Obtenez des informations sur la version Cloud Connector de Skype Entreprise, un ensemble de machines virtuelles (VM) qui met en œuvre une connectivité PSTN locale avec un système téléphonique d'Office 365 (Cloud PBX).
-ms.openlocfilehash: 6fcdaf3d3186effa5bb88f1252d51537dd1dba5f
-ms.sourcegitcommit: e378b8652be6319755a04eb820761364c7faa916
+ms.openlocfilehash: 4d03d8ea6936ad906de01a5b478fce01d62113c4
+ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "30210690"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "30454134"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>Planification pour Skype Entreprise, version Cloud Connector
 
 Obtenez des informations sur la version Cloud Connector de Skype Entreprise, un ensemble de machines virtuelles (VM) qui met en œuvre une connectivité PSTN locale avec un système téléphonique d'Office 365 (Cloud PBX).
 
-Si vous ne figure pas une existante Lync Server ou les Skype pour le déploiement de serveur d’entreprise dans le nuage connecteur Edition est peut-être la solution idéale pour votre organisation. Si vous êtes toujours étudier qui système téléphonique dans les solutions Office 365 est adaptée à votre entreprise, voir [planification de votre système téléphonique dans les solutions Office 365 (en nuage PBX)](plan-your-phone-system-cloud-pbx-solution.md).
+Si vous ne figure pas une existante Lync Server ou les Skype pour le déploiement de serveur d’entreprise dans le nuage connecteur Edition est peut-être la solution idéale pour votre organisation. Si vous êtes toujours étudier qui système téléphonique dans les solutions Office 365 est adaptée à votre entreprise, voir [solutions de téléphonie Microsoft](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions).
 
 Ce document décrit les exigences de nuage connecteur Edition et les topologies prises en charge et vous aide à planifier votre déploiement en nuage connecteur Edition. Veillez à lire cette rubrique avant de configurer votre environnement en nuage connecteur. Lorsque vous êtes prêt à déployer et configurer le nuage connecteur Edition, voir [configurer et gérer des Skype pour édition dans le nuage connecteur](configure-skype-for-business-cloud-connector-edition.md).
 
@@ -705,7 +705,7 @@ Cloud Connector 2.1 et les versions ultérieures prennent en charge la surveill
 
 Pour plus d’informations, voir les articles suivants :
 
-- [Planifier votre système téléphonique dans les solutions Office 365 (en nuage PBX)](plan-your-phone-system-cloud-pbx-solution.md)
+- [Solutions de téléphonie Microsoft](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)
 
 - [Configuration et gestion de Skype Entreprise, version Cloud Connector](configure-skype-for-business-cloud-connector-edition.md)
 

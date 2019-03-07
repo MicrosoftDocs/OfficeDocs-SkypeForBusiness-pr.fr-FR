@@ -10,15 +10,17 @@ ms.reviewer: rowille
 description: Offrir une expérience utilisateur de haute qualité aux équipes en gérant le service, le réseau et la santé des points de terminaison, et en définissant les rôles opérationnels et les rôles des champions qualité.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e30eed7432a628bbd4951867e77883143f9290eb
-ms.sourcegitcommit: 327fe807b461aff18b06449f06b9e51ce393c4bc
+ms.openlocfilehash: 5aba748798870193e615eea56331f15cf0aaa530
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "29964457"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462027"
 ---
 # <a name="plan-for-service-management-and-quality"></a>Plan de gestion du service et de la qualité
 

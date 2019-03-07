@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 58bd6284-0bc0-420b-bc08-7035b348c03c
 description: Choix de votre fournisseur de services pour un déploiement E9-1-1 dans Skype pour Business Server Enterprise Voice.
-ms.openlocfilehash: 0ec2da13cb7dfcd90bc2ffcd5baad962421aeb08
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 8ad971039bd4be594e287adbc73ea8bdf431e4ac
+ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884598"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "30453937"
 ---
 # <a name="choose-an-e9-1-1-service-provider-for-skype-for-business-server"></a>Choisir un fournisseur de services E9-1-1 pour Skype pour Business Server
  
@@ -27,5 +27,7 @@ Choix de votre fournisseur de services pour un déploiement E9-1-1 dans Skype po
 Les E9-1-1 service fournisseur itinéraires appels d’urgence de Skype pour Business Server pour le correct Public Safety répondant Point (PSAP) en fonction des informations d’emplacement contenues dans l’appel. 
   
 Prise en charge E9-1-1 dans le cadre d’un Skype pour le déploiement de serveur d’entreprise, vous devez vous procurer E9-1-1, service de routage à partir d’un programme d’interopérabilité ouverte Lync qualifié de fournisseur de services E9-1-1. Choisissez le fournisseur qui répond le mieux aux besoins de votre organisation.
+
+Pour voir la liste des services de routage E9-1-1 pour Lync, voir [Services E-911 qualifiés pour Lync](https://docs.microsoft.com/en-us/skypeforbusiness/lync-cert/e-911-service-providers).
   
 
