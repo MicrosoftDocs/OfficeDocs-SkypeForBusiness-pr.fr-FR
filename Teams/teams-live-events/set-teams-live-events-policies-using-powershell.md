@@ -9,135 +9,137 @@ ms.service: msteams
 ms.reviewer: sonua
 search.appverid: MET150
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 description: Exemples illustrant comment utiliser PowerShell pour définir des stratégies dans les équipes pour contrôler qui peut contenir des événements en direct dans votre organisation et les fonctionnalités qui sont disponibles dans les événements qu’ils créent
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c198711d918914bbd6a1929514d7c2e9aa7dfe00
-ms.sourcegitcommit: ff0c4bef4d4cbc71d51fce941aff63739a0016e9
+ms.openlocfilehash: 23cf75c8e764920a2d77c3bbe6c0cb3711c22f04
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/21/2018
-ms.locfileid: "26626222"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30459627"
 ---
-# <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a><span data-ttu-id="d5c20-103">Utiliser PowerShell pour définir les stratégies d’événements en direct dans Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="d5c20-103">Use PowerShell to set live events policies in Microsoft Teams</span></span>
+# <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a><span data-ttu-id="ab3fc-103">Utiliser PowerShell pour définir les stratégies d’événements en direct dans Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="ab3fc-103">Use PowerShell to set live events policies in Microsoft Teams</span></span>
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
 
-<span data-ttu-id="d5c20-104">Vous pouvez utiliser les applets de commande Windows PowerShell suivante pour configurer et affecter des paramètres de stratégie pour les événements en temps réel dans les équipes :</span><span class="sxs-lookup"><span data-stu-id="d5c20-104">You can use the following Windows PowerShell cmdlets to set and assign policy settings for live events in Teams:</span></span> 
-- [<span data-ttu-id="d5c20-105">Get-CsTeamsMeetingBroadcastPolicy</span><span class="sxs-lookup"><span data-stu-id="d5c20-105">Get-CsTeamsMeetingBroadcastPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/get-csteamsmeetingbroadcastpolicy?view=skype-ps)
-- [<span data-ttu-id="d5c20-106">Set-CsTeamsMeetingBroadcastPolicy</span><span class="sxs-lookup"><span data-stu-id="d5c20-106">Set-CsTeamsMeetingBroadcastPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastpolicy?view=skype-ps)
-- [<span data-ttu-id="d5c20-107">Nouvelle CsTeamsMeetingBroadcastPolicy</span><span class="sxs-lookup"><span data-stu-id="d5c20-107">New-CsTeamsMeetingBroadcastPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/get-csteamsmeetingbroadcastpolicy?view=skype-ps)
-- [<span data-ttu-id="d5c20-108">Grant-CsTeamsMeetingBroadcastPolicy</span><span class="sxs-lookup"><span data-stu-id="d5c20-108">Grant-CsTeamsMeetingBroadcastPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingbroadcastpolicy?view=skype-ps)
+<span data-ttu-id="ab3fc-104">Vous pouvez utiliser les applets de commande Windows PowerShell suivante pour configurer et affecter des paramètres de stratégie pour les événements en temps réel dans les équipes :</span><span class="sxs-lookup"><span data-stu-id="ab3fc-104">You can use the following Windows PowerShell cmdlets to set and assign policy settings for live events in Teams:</span></span> 
+- [<span data-ttu-id="ab3fc-105">Get-CsTeamsMeetingBroadcastPolicy</span><span class="sxs-lookup"><span data-stu-id="ab3fc-105">Get-CsTeamsMeetingBroadcastPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/get-csteamsmeetingbroadcastpolicy?view=skype-ps)
+- [<span data-ttu-id="ab3fc-106">Set-CsTeamsMeetingBroadcastPolicy</span><span class="sxs-lookup"><span data-stu-id="ab3fc-106">Set-CsTeamsMeetingBroadcastPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastpolicy?view=skype-ps)
+- [<span data-ttu-id="ab3fc-107">Nouvelle CsTeamsMeetingBroadcastPolicy</span><span class="sxs-lookup"><span data-stu-id="ab3fc-107">New-CsTeamsMeetingBroadcastPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/get-csteamsmeetingbroadcastpolicy?view=skype-ps)
+- [<span data-ttu-id="ab3fc-108">Grant-CsTeamsMeetingBroadcastPolicy</span><span class="sxs-lookup"><span data-stu-id="ab3fc-108">Grant-CsTeamsMeetingBroadcastPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingbroadcastpolicy?view=skype-ps)
 
-<span data-ttu-id="d5c20-109">Voici quelques exemples.</span><span class="sxs-lookup"><span data-stu-id="d5c20-109">Here's some examples.</span></span>
+<span data-ttu-id="ab3fc-109">Voici quelques exemples.</span><span class="sxs-lookup"><span data-stu-id="ab3fc-109">Here's some examples.</span></span>
 
-## <a name="allow-users-to-schedule-live-events"></a><span data-ttu-id="d5c20-110">Permettre aux utilisateurs de planifier des événements en direct</span><span class="sxs-lookup"><span data-stu-id="d5c20-110">Allow users to schedule live events</span></span> 
+## <a name="allow-users-to-schedule-live-events"></a><span data-ttu-id="ab3fc-110">Permettre aux utilisateurs de planifier des événements en direct</span><span class="sxs-lookup"><span data-stu-id="ab3fc-110">Allow users to schedule live events</span></span> 
 
 > [!NOTE]
-> <span data-ttu-id="d5c20-111">Ces exemples sont pour les événements de démarrage rapide.</span><span class="sxs-lookup"><span data-stu-id="d5c20-111">These examples are for quick start events.</span></span> <span data-ttu-id="d5c20-112">Pour les événements de codage externe, il existe des étapes supplémentaires que vous devez effectuer.</span><span class="sxs-lookup"><span data-stu-id="d5c20-112">For external encoder events, there are additional steps you must do.</span></span> <span data-ttu-id="d5c20-113">Pour plus d’informations, voir [permettent aux utilisateurs de planifier des événements de codage externe](set-up-for-teams-live-events.md#enable-users-to-schedule-external-encoder-events).</span><span class="sxs-lookup"><span data-stu-id="d5c20-113">For more information, see [Enable users to schedule external encoder events](set-up-for-teams-live-events.md#enable-users-to-schedule-external-encoder-events).</span></span>
+> <span data-ttu-id="ab3fc-111">Ces exemples sont pour les événements de démarrage rapide.</span><span class="sxs-lookup"><span data-stu-id="ab3fc-111">These examples are for quick start events.</span></span> <span data-ttu-id="ab3fc-112">Pour les événements de codage externe, il existe des étapes supplémentaires que vous devez effectuer.</span><span class="sxs-lookup"><span data-stu-id="ab3fc-112">For external encoder events, there are additional steps you must do.</span></span> <span data-ttu-id="ab3fc-113">Pour plus d’informations, voir [permettent aux utilisateurs de planifier des événements de codage externe](set-up-for-teams-live-events.md#enable-users-to-schedule-external-encoder-events).</span><span class="sxs-lookup"><span data-stu-id="ab3fc-113">For more information, see [Enable users to schedule external encoder events](set-up-for-teams-live-events.md#enable-users-to-schedule-external-encoder-events).</span></span>
 
-<span data-ttu-id="d5c20-114">**Autoriser un utilisateur à organiser des événements en direct**</span><span class="sxs-lookup"><span data-stu-id="d5c20-114">**Allow a user to schedule live events**</span></span>
+<span data-ttu-id="ab3fc-114">**Autoriser un utilisateur à organiser des événements en direct**</span><span class="sxs-lookup"><span data-stu-id="ab3fc-114">**Allow a user to schedule live events**</span></span>
 
-<span data-ttu-id="d5c20-115">Si l’utilisateur est affecté à la stratégie globale, exécuter et vérifiez que le paramètre *AllowBroadcastScheduling* est définie sur *True*:</span><span class="sxs-lookup"><span data-stu-id="d5c20-115">If the user is assigned the global policy, run and verify that *AllowBroadcastScheduling* parameter is set to *True*:</span></span>
+<span data-ttu-id="ab3fc-115">Si l’utilisateur est affecté à la stratégie globale, exécuter et vérifiez que le paramètre *AllowBroadcastScheduling* est définie sur *True*:</span><span class="sxs-lookup"><span data-stu-id="ab3fc-115">If the user is assigned the global policy, run and verify that *AllowBroadcastScheduling* parameter is set to *True*:</span></span>
 ```
 Get-CsTeamsMeetingBroadcastPolicy -identity Global
 ```
-<span data-ttu-id="d5c20-116">Affecter l’utilisateur à la stratégie globale, exécutez :</span><span class="sxs-lookup"><span data-stu-id="d5c20-116">Then assign the user to the global policy, run:</span></span>
+<span data-ttu-id="ab3fc-116">Affecter l’utilisateur à la stratégie globale, exécutez :</span><span class="sxs-lookup"><span data-stu-id="ab3fc-116">Then assign the user to the global policy, run:</span></span>
 ```
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 ```
 
-### <a name="user-scenarios"></a><span data-ttu-id="d5c20-117">Scénarios utilisateur</span><span class="sxs-lookup"><span data-stu-id="d5c20-117">User scenarios</span></span>
-<span data-ttu-id="d5c20-118">**Vous que tous les utilisateurs dans votre organisation pour pouvoir planifier des événements en direct**</span><span class="sxs-lookup"><span data-stu-id="d5c20-118">**You want all users in your organization to be able to schedule live events**</span></span>
+### <a name="user-scenarios"></a><span data-ttu-id="ab3fc-117">Scénarios utilisateur</span><span class="sxs-lookup"><span data-stu-id="ab3fc-117">User scenarios</span></span>
+<span data-ttu-id="ab3fc-118">**Vous que tous les utilisateurs dans votre organisation pour pouvoir planifier des événements en direct**</span><span class="sxs-lookup"><span data-stu-id="ab3fc-118">**You want all users in your organization to be able to schedule live events**</span></span>
 
-<span data-ttu-id="d5c20-119">Si les utilisateurs sont affectés à la stratégie globale, exécutez et vérifiez *AllowBroadcastScheduling* \* est défini sur *True*:</span><span class="sxs-lookup"><span data-stu-id="d5c20-119">If users are assigned the global policy, run and verify that *AllowBroadcastScheduling* \*is set to *True*:</span></span>
+<span data-ttu-id="ab3fc-119">Si les utilisateurs sont affectés à la stratégie globale, exécutez et vérifiez *AllowBroadcastScheduling* \* est défini sur *True*:</span><span class="sxs-lookup"><span data-stu-id="ab3fc-119">If users are assigned the global policy, run and verify that *AllowBroadcastScheduling* \*is set to *True*:</span></span>
 ```
 Get-CsTeamsMeetingBroadcastPolicy -identity Global
 ```
-<span data-ttu-id="d5c20-120">Si les utilisateurs sont affectés à une stratégie de la stratégie globale, exécuter et vérifiez que l’option *-AllowBroadcastScheduling* est définie sur *True*:</span><span class="sxs-lookup"><span data-stu-id="d5c20-120">If users are assigned a policy other than the global policy, run and verify that *-AllowBroadcastScheduling* is set to *True*:</span></span>
+<span data-ttu-id="ab3fc-120">Si les utilisateurs sont affectés à une stratégie de la stratégie globale, exécuter et vérifiez que l’option *-AllowBroadcastScheduling* est définie sur *True*:</span><span class="sxs-lookup"><span data-stu-id="ab3fc-120">If users are assigned a policy other than the global policy, run and verify that *-AllowBroadcastScheduling* is set to *True*:</span></span>
 ```
 Get-CsTeamsMeetingBroadcastPolicy -identity {policy name}
 ```
-<span data-ttu-id="d5c20-121">**Vous souhaitez que les événements live désactivé au sein de votre organisation de la planification**</span><span class="sxs-lookup"><span data-stu-id="d5c20-121">**You want live events scheduling to be disabled across your organization**</span></span>
+<span data-ttu-id="ab3fc-121">**Vous souhaitez que les événements live désactivé au sein de votre organisation de la planification**</span><span class="sxs-lookup"><span data-stu-id="ab3fc-121">**You want live events scheduling to be disabled across your organization**</span></span>
 
-<span data-ttu-id="d5c20-122">Désactiver la planification d’événements en direct, exécutez :</span><span class="sxs-lookup"><span data-stu-id="d5c20-122">Disable live events scheduling, run:</span></span>
+<span data-ttu-id="ab3fc-122">Désactiver la planification d’événements en direct, exécutez :</span><span class="sxs-lookup"><span data-stu-id="ab3fc-122">Disable live events scheduling, run:</span></span>
 ```
 Set-CsTeamsMeetingBroadcastPolicy -identity Global -AllowBroadcastScheduling $false
 ```
-<span data-ttu-id="d5c20-123">Affecter tous les utilisateurs de votre organisation à la stratégie globale, exécutez :</span><span class="sxs-lookup"><span data-stu-id="d5c20-123">Assign all users in your organization to the global policy, run:</span></span>
+<span data-ttu-id="ab3fc-123">Affecter tous les utilisateurs de votre organisation à la stratégie globale, exécutez :</span><span class="sxs-lookup"><span data-stu-id="ab3fc-123">Assign all users in your organization to the global policy, run:</span></span>
 ```
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 ```
 
-<span data-ttu-id="d5c20-124">**Vous souhaitez un grand nombre d’utilisateurs puissent planifier des événements en direct et empêcher un ensemble d’utilisateurs de leur planification**</span><span class="sxs-lookup"><span data-stu-id="d5c20-124">**You want a large number of users to be able to schedule live events and prevent a set of users from scheduling them**</span></span>
+<span data-ttu-id="ab3fc-124">**Vous souhaitez un grand nombre d’utilisateurs puissent planifier des événements en direct et empêcher un ensemble d’utilisateurs de leur planification**</span><span class="sxs-lookup"><span data-stu-id="ab3fc-124">**You want a large number of users to be able to schedule live events and prevent a set of users from scheduling them**</span></span>
 
-<span data-ttu-id="d5c20-125">Exécutez et vérifiez que *AllowBroadcastScheduling* est définie sur *True*:</span><span class="sxs-lookup"><span data-stu-id="d5c20-125">Run and verify that *AllowBroadcastScheduling* is set to *True*:</span></span>
+<span data-ttu-id="ab3fc-125">Exécutez et vérifiez que *AllowBroadcastScheduling* est définie sur *True*:</span><span class="sxs-lookup"><span data-stu-id="ab3fc-125">Run and verify that *AllowBroadcastScheduling* is set to *True*:</span></span>
 ```
 Get-CsTeamsMeetingBroadcastPolicy -Identity Global
 ```
-<span data-ttu-id="d5c20-126">Puis affecter un ou plusieurs utilisateurs à la stratégie globale, exécutez :</span><span class="sxs-lookup"><span data-stu-id="d5c20-126">Then assign a user or users to the global policy, run:</span></span>
+<span data-ttu-id="ab3fc-126">Puis affecter un ou plusieurs utilisateurs à la stratégie globale, exécutez :</span><span class="sxs-lookup"><span data-stu-id="ab3fc-126">Then assign a user or users to the global policy, run:</span></span>
 ```
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 ```
 
-<span data-ttu-id="d5c20-127">Créer une nouvelle stratégie qui n’autorise pas la planification d’événements en direct, exécutez :</span><span class="sxs-lookup"><span data-stu-id="d5c20-127">Create a new policy that doesn't allow scheduling live events, run:</span></span>
+<span data-ttu-id="ab3fc-127">Créer une nouvelle stratégie qui n’autorise pas la planification d’événements en direct, exécutez :</span><span class="sxs-lookup"><span data-stu-id="ab3fc-127">Create a new policy that doesn't allow scheduling live events, run:</span></span>
 ```
 New-CSTeamsMeetingBroadcastPolicy -Identity DisabledBroadcastSchedulingPolicy
 ```
-<span data-ttu-id="d5c20-128">Désactiver la planification d’événements en direct, exécutez :</span><span class="sxs-lookup"><span data-stu-id="d5c20-128">Disable live events scheduling, run:</span></span>
+<span data-ttu-id="ab3fc-128">Désactiver la planification d’événements en direct, exécutez :</span><span class="sxs-lookup"><span data-stu-id="ab3fc-128">Disable live events scheduling, run:</span></span>
 ```
 Set-CsTeamsMeetingBroadcastPolicy -Identity DisabledBroadcastSchedulingPolicy -AllowBroadcastScheduling $false
 ```
-<span data-ttu-id="d5c20-129">Puis affecter des utilisateurs à cette stratégie, exécutez :</span><span class="sxs-lookup"><span data-stu-id="d5c20-129">Then assign users to this policy, run:</span></span>
+<span data-ttu-id="ab3fc-129">Puis affecter des utilisateurs à cette stratégie, exécutez :</span><span class="sxs-lookup"><span data-stu-id="ab3fc-129">Then assign users to this policy, run:</span></span>
 ```
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName DisabledBroadcastSchedulingPolicy -Verbose
 ```
-<span data-ttu-id="d5c20-130">**Pour désactiver des événements live planification pour un grand nombre d’utilisateurs en autorisant un ensemble d’utilisateurs à l’échéancier**</span><span class="sxs-lookup"><span data-stu-id="d5c20-130">**You want to disable live event scheduling for a large number of the users and allow a set of users to schedule them**</span></span>
+<span data-ttu-id="ab3fc-130">**Pour désactiver des événements live planification pour un grand nombre d’utilisateurs en autorisant un ensemble d’utilisateurs à l’échéancier**</span><span class="sxs-lookup"><span data-stu-id="ab3fc-130">**You want to disable live event scheduling for a large number of the users and allow a set of users to schedule them**</span></span>
 
-<span data-ttu-id="d5c20-131">Désactiver la planification d’événements en direct, exécutez :</span><span class="sxs-lookup"><span data-stu-id="d5c20-131">Disable live events scheduling, run:</span></span>
+<span data-ttu-id="ab3fc-131">Désactiver la planification d’événements en direct, exécutez :</span><span class="sxs-lookup"><span data-stu-id="ab3fc-131">Disable live events scheduling, run:</span></span>
 ```
 Set-CsTeamsMeetingBroadcastPolicy -identity Global -AllowBroadcastScheduling $false
 ```
-<span data-ttu-id="d5c20-132">Puis affecter ces utilisateurs à la stratégie globale, exécutez :</span><span class="sxs-lookup"><span data-stu-id="d5c20-132">Then assign those users to the global policy, run:</span></span>
+<span data-ttu-id="ab3fc-132">Puis affecter ces utilisateurs à la stratégie globale, exécutez :</span><span class="sxs-lookup"><span data-stu-id="ab3fc-132">Then assign those users to the global policy, run:</span></span>
 ```
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 ```
-<span data-ttu-id="d5c20-133">Créer une stratégie pour autoriser la planification d’événements en direct, exécutez :</span><span class="sxs-lookup"><span data-stu-id="d5c20-133">Create a policy to allow live events scheduling, run:</span></span>
+<span data-ttu-id="ab3fc-133">Créer une stratégie pour autoriser la planification d’événements en direct, exécutez :</span><span class="sxs-lookup"><span data-stu-id="ab3fc-133">Create a policy to allow live events scheduling, run:</span></span>
 ```
 New-CSTeamsMeetingBroadcastPolicy -identity EnableBroadcastSchedulingpolicy
 ```
-<span data-ttu-id="d5c20-134">Activer la planification d’événements en direct, exécutez :</span><span class="sxs-lookup"><span data-stu-id="d5c20-134">Enable live events scheduling, run:</span></span>
+<span data-ttu-id="ab3fc-134">Activer la planification d’événements en direct, exécutez :</span><span class="sxs-lookup"><span data-stu-id="ab3fc-134">Enable live events scheduling, run:</span></span>
 ```
 Set-CsTeamsMeetingBroadcastPolicy -identity EnableBroadcastSchedulingpolicy -AllowBroadcastScheduling $true
 ```
-<span data-ttu-id="d5c20-135">Puis affecter des utilisateurs à cette stratégie, exécutez :</span><span class="sxs-lookup"><span data-stu-id="d5c20-135">Then assign users to this policy, run:</span></span>
+<span data-ttu-id="ab3fc-135">Puis affecter des utilisateurs à cette stratégie, exécutez :</span><span class="sxs-lookup"><span data-stu-id="ab3fc-135">Then assign users to this policy, run:</span></span>
 ```
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName EnableBroadcastSchedulingpolicy -Verbose
 ```
-## <a name="set-who-can-join-live-events"></a><span data-ttu-id="d5c20-136">Set qui peut participer à des événements en direct</span><span class="sxs-lookup"><span data-stu-id="d5c20-136">Set who can join live events</span></span>
+## <a name="set-who-can-join-live-events"></a><span data-ttu-id="ab3fc-136">Set qui peut participer à des événements en direct</span><span class="sxs-lookup"><span data-stu-id="ab3fc-136">Set who can join live events</span></span>
  
-<span data-ttu-id="d5c20-137">Définir la stratégie globale pour permettre aux utilisateurs de créer des événements que tout le monde, y compris les utilisateurs anonymes, peut participer, exécutez :</span><span class="sxs-lookup"><span data-stu-id="d5c20-137">Set the global policy to allow users to create events that everyone, including anonymous users, can attend, run:</span></span>
+<span data-ttu-id="ab3fc-137">Définir la stratégie globale pour permettre aux utilisateurs de créer des événements que tout le monde, y compris les utilisateurs anonymes, peut participer, exécutez :</span><span class="sxs-lookup"><span data-stu-id="ab3fc-137">Set the global policy to allow users to create events that everyone, including anonymous users, can attend, run:</span></span>
 ```
 Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastAttendeeVisibility Everyone  
 ```
-## <a name="set-the-recording-option-for-live-events"></a><span data-ttu-id="d5c20-138">Définissez l’option d’enregistrement des événements live</span><span class="sxs-lookup"><span data-stu-id="d5c20-138">Set the recording option for live events</span></span>
+## <a name="set-the-recording-option-for-live-events"></a><span data-ttu-id="ab3fc-138">Définissez l’option d’enregistrement des événements live</span><span class="sxs-lookup"><span data-stu-id="ab3fc-138">Set the recording option for live events</span></span>
 > [!NOTE]
-> <span data-ttu-id="d5c20-139">Ce paramètre s’applique uniquement aux événements de démarrage rapide.</span><span class="sxs-lookup"><span data-stu-id="d5c20-139">This setting applies only to quick start events.</span></span>
+> <span data-ttu-id="ab3fc-139">Ce paramètre s’applique uniquement aux événements de démarrage rapide.</span><span class="sxs-lookup"><span data-stu-id="ab3fc-139">This setting applies only to quick start events.</span></span>
 
-<span data-ttu-id="d5c20-140">Définir la stratégie globale pour désactiver l’enregistrement des événements live :</span><span class="sxs-lookup"><span data-stu-id="d5c20-140">Set the global policy to disable recording for live events:</span></span>
+<span data-ttu-id="ab3fc-140">Définir la stratégie globale pour désactiver l’enregistrement des événements live :</span><span class="sxs-lookup"><span data-stu-id="ab3fc-140">Set the global policy to disable recording for live events:</span></span>
 ```
 Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastRecordingMode AlwaysDisabled 
 ```
-## <a name="set-transcription-and-translation-in-live-events-coming-soon"></a><span data-ttu-id="d5c20-141">Définir la transcription et traduction dans les événements live (bientôt disponible)</span><span class="sxs-lookup"><span data-stu-id="d5c20-141">Set transcription and translation in live events (coming soon)</span></span>
+## <a name="set-transcription-and-translation-in-live-events-coming-soon"></a><span data-ttu-id="ab3fc-141">Définir la transcription et traduction dans les événements live (bientôt disponible)</span><span class="sxs-lookup"><span data-stu-id="ab3fc-141">Set transcription and translation in live events (coming soon)</span></span>
 > [!NOTE]
-> <span data-ttu-id="d5c20-142">Ce paramètre s’applique uniquement aux événements de démarrage rapide.</span><span class="sxs-lookup"><span data-stu-id="d5c20-142">This setting applies only to quick start events.</span></span> 
+> <span data-ttu-id="ab3fc-142">Ce paramètre s’applique uniquement aux événements de démarrage rapide.</span><span class="sxs-lookup"><span data-stu-id="ab3fc-142">This setting applies only to quick start events.</span></span> 
 
-<span data-ttu-id="d5c20-143">Définir la stratégie globale pour activer transcription et traduction sur des participants d’événement :</span><span class="sxs-lookup"><span data-stu-id="d5c20-143">Set the global policy to turn on transcription and translation on for event attendees:</span></span>
+<span data-ttu-id="ab3fc-143">Définir la stratégie globale pour activer transcription et traduction sur des participants d’événement :</span><span class="sxs-lookup"><span data-stu-id="ab3fc-143">Set the global policy to turn on transcription and translation on for event attendees:</span></span>
 ```
 Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastTranscription $true 
 ```
 
-### <a name="related-topics"></a><span data-ttu-id="d5c20-144">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="d5c20-144">Related topics</span></span>
-- [<span data-ttu-id="d5c20-145">Configurer des équipes événements en direct</span><span class="sxs-lookup"><span data-stu-id="d5c20-145">Set up for Teams live events</span></span>](set-up-for-teams-live-events.md)
+### <a name="related-topics"></a><span data-ttu-id="ab3fc-144">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="ab3fc-144">Related topics</span></span>
+- [<span data-ttu-id="ab3fc-145">Configurer des équipes événements en direct</span><span class="sxs-lookup"><span data-stu-id="ab3fc-145">Set up for Teams live events</span></span>](set-up-for-teams-live-events.md)
 
 
