@@ -7,17 +7,20 @@ ms.author: lolaj
 manager: serdars
 ms.date: 01/28/2019
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+ms.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
+- M365-voice
 localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 52077b5ac7ab9da52c894267153d4a342b651f7f
-ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.openlocfilehash: 8c146e0bc3417e5a62af4a57c3ec1e2e49158c3a
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29595397"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461171"
 ---
 # <a name="audio-conferencing-in-microsoft-teams"></a>Audioconférence dans Microsoft Teams
 
@@ -37,7 +40,7 @@ Avant de pouvoir mettre en place une conférence audio pour Teams, il faut prend
 |Posez-vous la question|Action |
 |------------|-------|
 |Est-ce que la fonctionnalité de conférence audio est disponible pour mon pays/ma région ?|Consultez cet article pour savoir si l’audioconférence est disponible dans votre pays ou région : [Disponibilité de l'audioconférence et des forfaits d'appels selon les régions et les pays](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).|
-|Mes utilisateurs ont-ils la licence appropriée pour le service conférence audio de Teams ?|Les licences pour l’audioconférence sont disponibles dans le cadre des abonnements Office 365 E5, ou en tant que complément des abonnements Office 365 E1 ou Office 365 E3. <ul><li>Pour obtenir et attribuer des licences, voir [Essayer ou acheter la fonctionnalité de conférence audio dans Office 365](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365) et [Attribuer ou supprimer des licences pour Office 365 Entreprise](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).</li><li> Pour en savoir plus, consultez la rubrique [Licences de module complémentaire Skype Entreprise et Teams](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json). </li><li>Pour voir quelles sont les fonctionnalités du nuage sont incluses dans chaque offre Office 365, voir [Options en fonction de votre offre de licence](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-business-premium-plan?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).</li></ul>|
+|Mes utilisateurs ont-ils la licence appropriée pour le service conférence audio de Teams ?|Les licences pour l’audioconférence sont disponibles dans le cadre des abonnements Office 365 E5, ou en tant que complément des abonnements Office 365 E1 ou Office 365 E3. <ul><li>Pour obtenir et attribuer des licences, voir [Essayer ou acheter la fonctionnalité de conférence audio dans Office 365](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365) et [Attribuer ou supprimer des licences pour Office 365 Entreprise](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).</li><li> Pour en savoir plus, reportez-vous à la rubrique [Licence de module complémentaire Skype Entreprise et Teams] (teams-add-on-licensing/microsoft-teams-add-on-licensing.md. </li><li>Pour voir quelles sont les fonctionnalités du nuage sont incluses dans chaque offre Office 365, voir [Options en fonction de votre offre de licence](teams-add-on-licensing/office-365-business-premium.md).</li></ul>|
 |Est-ce que j’ai besoin d’acheter des crédits de communication pour les utilisateurs à qui sont attribuées les licences de conférence audio ?|Pour en savoir plus, voir [Les crédits de communication, qu’est-ce que c’est ?](what-are-communications-credits.md), puis consulter la section [Crédits de communication](#communications-credits) section ci-dessous.|
 |||
 
