@@ -126,7 +126,7 @@
 ## [Didacticiel : Réunions dans Teams](Tutorial-Meetings-in-Teams.yml)
 ## [Gérer les stratégies de réunion](meeting-policies-in-teams.md)
 ## [Gérer les paramètres de réunions](meeting-settings-in-teams.md)
-## [Personnaliser les invitations aux réunions](customize-meeting-invitations-in-teams.md)
+## [Personnaliser les invitations aux réunions](customize-meeting-invitations.md)
 ## [Messages électroniques envoyés aux utilisateurs lorsque leurs paramètres sont modifiés](emails-sent-to-users-when-their-settings-change-in-teams.md) 
 ## [Autoriser les utilisateurs à enregistrer leur nom lorsqu'ils rejoignent une réunion](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 ## [Activer ou désactiver les annonces d'entrée et de sortie de réunions](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
@@ -138,7 +138,7 @@
 
 ## [Audioconférence](deploy-audio-conferencing-teams-landing-page.md)
 
-### [Audioconférence dans Office 365](audio-conferencing-in-office-365.md)
+### [Audioconférence dans Office 365](audio-conferencing-in-office-365.md)
 ### [Questions fréquentes à propos de l'audioconférence](audio-conferencing-common-questions.md)
 ### [Didacticiel : Services d’audioconférence dans les équipes](Tutorial-Audio-Conferencing.yml)
 ### [Tester ou acheter l'audioconférence dans Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
@@ -204,7 +204,7 @@
 <!-- ============================================================ -->
 
 ### Référence
-#### [Langues prises en charge pour l'audioconférence](audio-conferencing-supported-languages.md)
+#### [Langues prises en charge pour les conférences audio](audio-conferencing-supported-languages.md)
 
 #### [Numéros de téléphone pour l'audioconférence](phone-numbers-for-audio-conferencing-in-teams.md)
 #### [Disponibilité des forfaits d'appels et de l’audioconférence selon les régions et les pays](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
@@ -330,11 +330,11 @@
 ### [Configurer des Plans de l’appel pour votre organisation](set-up-calling-plans.md)
 ### [Guide de démarrage rapide : configuration des Plans de l’appel](configuring-teams-calling-quickstartguide.md)
 
-## [Routage d’un système téléphonique Direct](direct-routing-landing-page.md)
+## [Routage direct via le système téléphonique](direct-routing-landing-page.md)
 ### [Planifier le routage direct](direct-routing-plan.md)
 ### [Configurer le routage direct](direct-routing-configure.md)
 ### [Migrer vers le routage Direct](direct-routing-migrating.md)
-### [Surveiller et résoudre les problèmes de routage Direct](direct-routing-monitor-and-troubleshoot.md)
+### [Contrôler et dépanner le routage direct](direct-routing-monitor-and-troubleshoot.md)
 ### [Comptes d’utilisateur dans un environnement hybride avec une connectivité PSTN](direct-routing-user-accounts-in-a-hybrid-environment.md)
 ### [Configurer un contrôleur de frontière de session pour plusieurs clients](direct-routing-sbc-multiple-tenants.md)
 ### [Liste des contrôleurs de frontière de session certifiés pour le routage direct](direct-routing-border-controllers.md)
@@ -471,7 +471,7 @@
 #### [Gestion des numéros de téléphone pour les États-Unis](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md)
 
 
-### [Restrictions et les limitations de composer le numéro gratuit](toll-free-dialing-limitations-and-restrictions.md)
+### [Limitations et restrictions concernant la composition de numéros verts](toll-free-dialing-limitations-and-restrictions.md)
 #### [Argentine](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md)
 #### [Australie](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-australia.md)
 #### [Bélarus](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belarus.md)
@@ -682,7 +682,7 @@
 ### [Gouvernance Microsoft Education FAQ pour les administrateurs](plan-teams-governance-edu.md)
 
 ## Équipes pour les travailleurs firstline
-### [Microsoft StaffHub à retirer](microsoft-staffhub-to-be-retired.md)
+### [Fin de parcours pour Microsoft StaffHub](microsoft-staffhub-to-be-retired.md)
 ### [Gérer l’application des équipes de votre organisation dans les équipes](manage-the-shifts-app-for-your-organization-in-teams.md)
 ### [Prise en main des modèles Équipes de vente au détail](get-started-with-retail-teams-templates.md)
 
