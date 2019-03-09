@@ -13,14 +13,15 @@ ms.collection:
 ms.reviewer: lolaj
 search.appverid: MET150
 description: Vidéos de formation, didacticiels et autres ressources pour les utilisateurs de votre organisation apprendre à utiliser des équipes.
+f1keywords: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d0eff53180a44165766ce77e577f188b90ac36b8
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 01246103d321e40316df01799c3c7f5a82940340
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464227"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30493664"
 ---
 # <a name="end-user-training-for-microsoft-teams"></a>Formation à Microsoft Teams pour les utilisateurs finaux
 
