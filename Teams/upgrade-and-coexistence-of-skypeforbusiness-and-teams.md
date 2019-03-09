@@ -10,17 +10,20 @@ description: Détails de Skype pour les options de coexistence Business et Micro
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
+f1keywords:
+- ms.teamsadmincenter.orgwidesettings.teamsfeatures.upgradetoteamsarticle
+- ms.teamsadmincenter.upgradeoverride.learnmore
 MS.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7bf81e18970366fee397504642b181f6e8c40add
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: f4c7401ccf8bdefa7eaf906795d5e5e37ac8ba2e
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461611"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30493956"
 ---
 ![Étapes du voyage mise à niveau, en mettant l’accent sur le déploiement et la phase d’implémentation] (media/upgrade-banner-deployment.png "Étapes du voyage mise à niveau, en mettant l’accent sur le déploiement et la phase d’implémentation")
 

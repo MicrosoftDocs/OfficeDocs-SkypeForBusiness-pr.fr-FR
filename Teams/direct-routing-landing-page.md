@@ -1,5 +1,5 @@
 ---
-title: Routage d’un système téléphonique Direct
+title: Routage direct via le système téléphonique
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -11,16 +11,17 @@ ms.collection:
 - M365-voice
 ms.reviewer: crowe
 search.appverid: MET150
+F1keywords: ms.teamsadmincenter.directrouting.overview
 description: Page d’accueil routage Direct
 appliesto: Microsoft Teams
-ms.openlocfilehash: 6aeff0f79dfbc6cd7b3ba3cddefee382673d24eb
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: b8f7840b981b67f941598638b2624de0cd512b8c
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30353265"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30494060"
 ---
-# <a name="phone-system-direct-routing"></a>Routage d’un système téléphonique Direct
+# <a name="phone-system-direct-routing"></a>Routage direct via le système téléphonique
 
 Vous avez terminé la [Prise en main](get-started-with-teams-quick-start.md). Vous avez déployé Teams avec [des conversations, des équipes, des canaux et des applications](deploy-chat-teams-channels-microsoft-teams-landing-page.md) au sein de votre organisation. Peut-être que vous avez déployé la [conférence & de réunions](deploy-meetings-microsoft-teams-landing-page.md). Vous êtes maintenant prêt à ajouter des charges de travail de voix dans le cloud, et vous avez décidé d’utiliser votre propre opérateur de téléphonie pour la connectivité Public réseau de téléphonique commuté (RTC) à l’aide de routage d’un système téléphonique directe. Avec le routage Direct, vous pouvez utiliser le système téléphonique avec n’importe quel opérateur de téléphonie.
 
@@ -34,7 +35,7 @@ Les articles suivants fournissent plus d’informations sur la configuration et 
 - [Planifier le routage direct](direct-routing-plan.md) 
 - [Configurer le routage direct](direct-routing-configure.md)
 - [Liste des contrôleurs de frontière de session certifiés pour le routage direct](direct-routing-border-controllers.md)
-- [Surveiller et résoudre les problèmes de routage Direct](direct-routing-monitor-and-troubleshoot.md)
+- [Contrôler et dépanner le routage direct](direct-routing-monitor-and-troubleshoot.md)
 
 En outre, vous pouvez souhaiter lire les articles suivants, selon vos besoins :
 

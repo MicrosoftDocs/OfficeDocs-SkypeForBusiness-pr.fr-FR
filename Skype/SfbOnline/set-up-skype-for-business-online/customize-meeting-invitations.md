@@ -15,15 +15,16 @@ appliesto:
 localization_priority: Normal
 f1keywords:
 - ms.lync.lac.MeetingInvitation
+- ms.teamsadmincenter.meetingsettings.invitationurls
 ms.custom:
 - Setup
 description: "Personnaliser les invitations aux réunions de Skype avec logos graphiques, URL d'assistance, URL juridique, et texte de pied de page. "
-ms.openlocfilehash: b7f9fc41257d24f6c8ffa78304164c67261573c1
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: a5ea519ddc762e861b8c3bad173139c328d8bab4
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23849984"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30493520"
 ---
 # <a name="customize-meeting-invitations"></a>Personnaliser les invitations aux réunions
 
@@ -38,7 +39,7 @@ En tant qu’administrateur, vous pouvez vous assurer que toutes les invitations
     
 3. Stockez l’image dans un emplacement central auquel tout le monde dans votre entreprise peut accéder, par exemple un partage réseau, un dossier partagé OneDrive Entreprise, Dropbox, etc.
     
-    Vous pouvez maintenant l’ajouter à vos invitations aux réunions. Voir les étapes suivantes.
+    Now you can add it to your meeting invitations. See the next steps.
     
 ## <a name="customize-your-meeting-invitations"></a>Personnaliser vos invitations aux réunions
 <a name="__top"> </a>
@@ -55,7 +56,7 @@ En tant qu’administrateur, vous pouvez vous assurer que toutes les invitations
     
     ![Voici ce que vous obtiendriez lorsque vous remplissez le formulaire pour personnaliser vos invitations aux réunions.](../images/b0a7c3c6-0d86-41c6-b116-331143bbe398.png) 
 
-   **URL du logo :** Entrez l’URL où est stocké votre logo. N’oubliez pas qu’il doit être au format JPG ! 
+   **Logo URL:** Enter the URL where your logo is stored. Remember that it must be in JPG format! 
  
    **URL de l’aide :** si votre organisation dispose d’un site web d'assistance accessible en cas de problèmes, entrez son URL ici. 
 
@@ -66,7 +67,7 @@ En tant qu’administrateur, vous pouvez vous assurer que toutes les invitations
    
 5. Cliquez sur **Enregistrer**.
     
-6. Attendez une heure pour que les modifications soient effectuées dans tous les services Office 365. Accédez à Outlook, puis planifiez une réunion Skype pour obtenir un aperçu de vos modifications. 
+6. Wait an hour or so for the changes to get populated across all Office 365 services. Then go to Outlook and schedule a Skype meeting to see what your changes look like. 
     
     ![Voici l'aspect d'une invitation personnalisée, sans l'image](../images/ebb5c03c-c23d-4da7-97f1-9b13e26a6cf8.png)
   

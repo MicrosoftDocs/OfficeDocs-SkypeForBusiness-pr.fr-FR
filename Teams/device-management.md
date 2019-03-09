@@ -7,17 +7,19 @@ ms.date: 11/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: kelsawi
-f1keywords: ms.teamsadmincenter.devicemanagement.overview
+f1keywords:
+- ms.teamsadmincenter.devicemanagement.overview
+- ms.teamsadmincenter.managedevices.overview
 description: Découvrez comment gérer les périphériques utilisés dans les équipes de votre organisation.
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f1cf2dcc1d300490d1b3049c9513d0c4e16c3f83
-ms.sourcegitcommit: d400c8f83a2325c4a8bbb963ddad685a346bc4d8
+ms.openlocfilehash: 489d0e6deb028337ea5a3027aa767cfec6bb41e9
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "29760590"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30494268"
 ---
 # <a name="manage-your-devices-in-microsoft-teams"></a>Gérer vos périphériques dans Microsoft Teams
 

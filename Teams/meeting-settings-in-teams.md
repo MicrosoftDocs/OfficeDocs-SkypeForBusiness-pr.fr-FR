@@ -18,12 +18,12 @@ MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 description: Découvrez comment gérer les paramètres pour les réunions d’équipes qui planifient des utilisateurs dans votre organisation.
-ms.openlocfilehash: ad48e44ef475d3643444cfb570e81d8224117133
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: ec43fe9c436de612440bbec687868dc4de749191
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462643"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30494252"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Gérer les paramètres de réunion dans Microsoft Teams
 
@@ -80,7 +80,7 @@ Si vous utilisez la qualité de Service [(QoS)](qos-in-teams.md) pour définir l
 
     ![réunion-paramètres-network.png] (media/meeting-settings-network.png "Capture d’écran des paramètres du réseau pour les réunions d’équipes dans le centre d’administration Microsoft équipes")
 
-    - Pour autoriser le marquage DSCP à utiliser pour QoS, activer **marqueurs insérer qualité de Service (QoS) pour le trafic multimédia en temps réel**. Vous pouvez uniquement l’utilisation des marques ou pas, vous ne pouvez pas définir des marques personnalisées pour chaque type de trafic. Pour plus de marqueurs DSCP sur, voir [Sélectionnez une méthode de mise en œuvre QoS](QoS-in-Teams.md#select-a-qos-implementation-method) .
+    - Pour autoriser le marquage DSCP à utiliser pour QoS, activer **marqueurs insérer qualité de Service (QoS) pour le trafic multimédia en temps réel**. Vous pouvez uniquement l’utilisation des marques ou non ; Vous ne pouvez pas définir marqueurs personnalisés pour chaque type de trafic. Pour plus de marqueurs DSCP sur, voir [Sélectionnez une méthode de mise en œuvre QoS](QoS-in-Teams.md#select-a-qos-implementation-method) .
     - Pour spécifier les plages de ports, en regard de **Sélectionner une plage de ports pour chaque type de trafic multimédia en temps réel**, sélectionnez **spécifier les plages de ports**, puis entrez les ports de départ et de fin pour l’audio, vidéo et partage d’écran. Cette option est requis pour implémenter QoS.
     > [!IMPORTANT]
     > Si vous choisissez **d’utiliser automatiquement les ports disponibles**, les ports disponibles entre 1024 et 65535 sont utilisés. Utilisez cette option uniquement lorsque ne pas l’implémentation de QoS.
