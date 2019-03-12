@@ -9,18 +9,21 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.audience: Admin
+ms.collection:
+- M365-collaboration
+- Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez les stratégies d’installation des applications dans Microsoft Teams et comment les utiliser pour les applications de code confidentiel pour personnaliser les équipes pour les utilisateurs de votre organisation.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 3e46f5ea50d3e9cdb1717838beec454cca05ba30
-ms.sourcegitcommit: baca91b0e022a1d2b5a522ef749a97463d61f560
+ms.openlocfilehash: 6c88ba45aba076c6e26fe8bc16fd3643499a881b
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "30302688"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30541823"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Gérer les stratégies de mise en application dans Microsoft Teams
 
@@ -45,7 +48,7 @@ Vous pouvez modifier les paramètres de la stratégie globale pour inclure les a
 
 ## <a name="create-a-custom-app-setup-policy"></a>Créer une stratégie du programme d’installation d’application personnalisée
 
-Vous pouvez utiliser le centre d’administration de Microsoft Teams ou de Windows PowerShell pour créer une stratégie personnalisée.
+Vous pouvez utiliser le centre d’administration Microsoft Teams pour créer une stratégie personnalisée.
 
 1. Dans la navigation de gauche du centre d’administration Microsoft Teams, accédez aux **applications équipes** > **stratégies du programme d’installation des applications**.
 2. Sélectionnez **nouvelle stratégie**.

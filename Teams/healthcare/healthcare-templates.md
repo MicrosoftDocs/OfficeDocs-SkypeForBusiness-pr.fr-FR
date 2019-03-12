@@ -1,10 +1,10 @@
 ---
-title: Commencer avec les modèles d’équipe pour les organisations de santé
+title: Démarrage avec les modèles Teams pour les organismes de santé
 author: jambirk
 ms.author: jambirk
 manager: serdars
 audience: ITPro
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 localization_priority: Normal
@@ -14,15 +14,15 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: Commencer avec les modèles d’équipe pour les organisations de santé
-ms.openlocfilehash: fac7aa90d0fe7f1e6b3e1570378b78a50d321869
-ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
+description: Démarrage avec les modèles Teams pour les organismes de santé
+ms.openlocfilehash: 68ab93ceca20f0d26c9dac0b5b65667835bd1203
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "30408282"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30541663"
 ---
-# <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>Commencer avec les modèles d’équipe pour les organisations de santé
+# <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>Démarrage avec les modèles Teams pour les organismes de santé
 
 Modèles Microsoft Teams permettent de rapidement et facilement créer des équipes en fournissant un modèle prédéfini de paramètres, les canaux et applications préinstallées.
 

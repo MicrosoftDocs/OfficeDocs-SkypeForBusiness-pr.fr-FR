@@ -3,7 +3,6 @@ title: Utilisation de la recherche de contenu dans Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 MS.collection:
@@ -11,27 +10,29 @@ MS.collection:
 - M365-collaboration
 ms.reviewer: anach
 search.appverid: MET150
-description: Découvrez la recherche de contenu dans Microsoft Teams et comment effectuer des recherches dans les conversations de canal dans Exchange, les chargements/modifications de fichier dans SharePoint, et OneNote également.
+description: En savoir plus sur la recherche de contenu dans Microsoft Teams et comment effectuer une recherche sur les conversations du canal à partir d’Exchange, les téléchargements de fichiers et les modifications à partir de SharePoint, et OneNote change.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3435d43fde6cd0ca2a0948ad5d34c467ea2e0863
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 1860f3e5f79cd1ff2a2a63a8b49bf0dcfd65638f
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460987"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30540615"
 ---
 <a name="use-content-search-in-microsoft-teams"></a>Utilisation de la recherche de contenu dans Microsoft Teams
 =====================================
 
 La recherche de contenu fournit une méthode ad hoc pour interroger les informations Microsoft Teams à partir d'Exchange, SharePoint Online et OneDrive Entreprise.
 
-Dans l'exemple ci-après, nous avons créé une **recherche de contenu**. Puis, nous avons sélectionné la boîte aux lettres Manufacturing Specs et le site SharePoint Manufacturing Specs. Nous pouvons ainsi effectuer des recherches dans les conversations de canal dans Exchange, les chargements/modifications de fichier dans SharePoint Online, et OneNote également.
+Pour plus d’informations, consultez [Recherche de contenu dans Office 365](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a).
 
-![Capture d'écran de la boîte de dialogue Nouvelle recherche.](media/Use_Content_Search_in_Microsoft_Teams_image1.png)
+Par exemple, à l’aide de **La recherche de contenu** par rapport à votre boîte aux lettres de spécifications de fabrication et le site SharePoint de spécifications de fabrication, vous pouvez rechercher par rapport à des conversations du canal équipes à partir d’Exchange, les téléchargements de fichiers et les modifications à partir de SharePoint Online et OneNote modifications apportées.
 
-Vous pouvez également ajouter des critères d'interrogation à la **recherche de contenu** pour affiner les résultats renvoyés. Dans l'exemple ci-dessous, nous avons recherché des emplacements Exchange et SharePoint pour l'équipe Manufacturing Specs team dans lesquels les mots clés **New Factory Specs** ont été utilisés.
+Vous pouvez également ajouter des critères de requête pour la **Recherche de contenu** pour affiner les résultats renvoyés. Dans l’exemple ci-dessus, vous pouvez rechercher le contenu où les mots clés «**nouvelles spécifications du fabricant «** ont été utilisés.
 
-![Capture d'écran de la boîte de dialogue Requête avec une recherche de mot-clé en cours.](media/Use_Content_Search_in_Microsoft_Teams_image2.png)
+> [!TIP]
+> Après l’ajout de conditions de recherche, vous pouvez exporter un rapport ou les données sur votre ordinateur pour l’analyse.
 
-Après avoir sélectionné des conditions de recherche, vous pouvez exporter un rapport ou les données vers votre ordinateur à des fins d'analyse. Pour plus d'informations sur l'utilisation de la recherche de contenu, consultez [ce](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a) lien.
+## <a name="related-topics"></a>Rubriques connexes
+[cas eDiscovery dans le centre de conformité de & sécurité pour Microsoft Office 365](https://docs.microsoft.com/Office365/SecurityCompliance/ediscovery-cases) 
