@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav
-ms.topic: article
+ms.topic: reference
 ms.service: msteams
 search.appverid: MET150
 MS.collection:
@@ -18,12 +18,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'En savoir plus sur les licences de modules complémentaires et les fonctionnalités des forfaits pour les organisations gouvernementales, éducatives et à but non lucratif. '
-ms.openlocfilehash: 503afdff3cdcb8c19014a5055c402436091b6c70
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: f2afc5b36d15f0b420cd8cdf7ce545dd78a5a941
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30459635"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542678"
 ---
 # <a name="gov-edu-and-non-profit-organizations"></a>GOV, l’éducation et les organisations à but non lucratif
 

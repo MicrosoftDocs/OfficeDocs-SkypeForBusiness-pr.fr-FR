@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav
-ms.topic: article
+ms.topic: reference
 ms.service: msteams
 search.appverid: MET150
 MS.collection:
@@ -18,12 +18,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Découvrez comment acheter les plans Office 365 entreprise Premium, des fonctionnalités et des licences supplémentaires. '
-ms.openlocfilehash: a385f23e1d5b8f16c5e234efb93a349000bbaaa3
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 25f4b7c7563a18f89c595cd4d5d1e748b6ff8c7b
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462243"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542398"
 ---
 # <a name="office-365-business-premium"></a>Office 365 Business Premium
 

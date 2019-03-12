@@ -3,7 +3,7 @@ title: Rapport d’activité des utilisateurs de Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.date: 01/11/2019
+ms.date: 03/11/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -16,12 +16,12 @@ MS.collection:
 description: Découvrez comment utiliser le rapport d’activité utilisateur équipes dans le centre d’administration Microsoft Teams pour savoir comment les utilisateurs de votre organisation utilisent équipes.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aa13ee11b9a622461e501a1b004be5ff54e8cf0b
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 671f3cd5632712a9bc5cc08e15c04023a33ec052
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30459963"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542630"
 ---
 # <a name="microsoft-teams-user-activity-report"></a>Rapport d’activité des utilisateurs de Microsoft Teams
 

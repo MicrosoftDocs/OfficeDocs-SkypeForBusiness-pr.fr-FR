@@ -10,8 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
 - M365-voice
 search.appverid: MET150
 ms.audience: Admin
@@ -24,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Découvrez comment les Services d’urgence (911) diffèrent des services téléphoniques traditionnels et émettre un appel. '
-ms.openlocfilehash: d60626a119d047906faa99a4c756435bd565ee98
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 80dad6dc0fe63b921b201b94ac79421c5c6b2d81
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30350641"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30543206"
 ---
 # <a name="emergency-calling-terms-and-conditions"></a>Conditions générales relatives aux appels d'urgence
 

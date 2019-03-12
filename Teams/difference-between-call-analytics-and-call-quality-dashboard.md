@@ -7,9 +7,7 @@ ms.reviewer: mikedav, wlooney, gageames
 ms.topic: article
 ms.assetid: 4cd5fe35-8463-4996-a252-086cd3ca2d9a
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
@@ -23,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Découvrez les Analytique d’appel et appel du tableau de bord qualité quand et comment les utiliser pour analyser et résoudre les problèmes de qualité des appels.
-ms.openlocfilehash: e8c9331a26caf5e2fe4cb618ac896393d35939ba
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 693e17152d3c51ae51efaa0977d5d83b5c5f2297
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460851"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30543006"
 ---
 # <a name="call-analytics-and-call-quality-dashboard"></a>Tableau de bord Analyse des appels et Qualité des appels
 
@@ -44,7 +42,7 @@ Appel Analytique affiche des informations détaillées sur les périphériques, 
 
 Pour afficher ces informations pour un utilisateur dans le centre d’administration Microsoft Teams, cliquez sur l’onglet **Historique des appels** pour cet utilisateur dans la page de détails utilisateur, en affichant tous les appels et les réunions que l’utilisateur a participé à des 30 derniers jours.
 
-![Données utilisateur d’appel analytique.](media/call-analytics-user-data.png)
+![Données utilisateur d’appel analytique.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image1.png)
 
 Pour obtenir des informations supplémentaires sur une session donnée, y compris media détaillées et les statistiques du réseau, cliquez sur une session pour voir les détails.
 
@@ -76,7 +74,7 @@ La qualité des appels médiocres l’utilisateur est peut-être en raison d’u
 
 À l’aide de rapports de Location-Enhanced de CQD, la qualité des appels agrégation et la fiabilité de la création de l’utilisateur peuvent être évaluées pour déterminer si le problème est isolé à un seul utilisateur ou affecte un segment supérieur d’utilisateurs.
 
-![Capture d’écran des rapports d’emplacement hautement appel qualité du tableau de bord. Les onglets affichés sont vue d’ensemble, bâtiments - filaire, bâtiments - Wi-Fi et Mobile (ETL). Un filtre est appliqué pour afficher le flux de données dans un bâtiment en particulier.](media/call-quality-dashboard-location-enhanced-reports-building-selection.png)
+![Capture d’écran des rapports d’emplacement hautement appel qualité du tableau de bord. Les onglets affichés sont vue d’ensemble, bâtiments - filaire, bâtiments - Wi-Fi et Mobile (ETL). Un filtre est appliqué pour afficher le flux de données dans un bâtiment en particulier.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image4.png)
 
 > [!NOTE]
 > Pour activer la construction spécifiques dans CQD, un administrateur doit [télécharger les informations de création](turning-on-and-using-call-quality-dashboard.md#BKMKBuildingInformationUpload) sur la page de téléchargement des données client du CQD.

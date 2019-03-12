@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: d8f9ab66-dd1a-4d1e-86de-c9092cbb9707
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Cela vous permettra de savoir comment composer des numéros gratuits dans chaque pays/région. Une fois que vous sélectionnez la pays/région, il vous dirige vers une page spécifique qui contient des détails plus spécifiques, les restrictions et les limites de la disponibilité du service gratuit où service gratuit est disponible. Le format de numérotation ou formats affichera les codes d’accès requis dans chaque pays/région de composer le numéro d’appel gratuit.
-ms.openlocfilehash: cec0026c6fdda78b3164c7b2d34c1392d46656b7
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 15f89c32e6ba2c6914ab7fe6d97e75a11459a7f3
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462499"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542758"
 ---
 # <a name="toll-free-dialing-restrictions-in-bosnia-and-herzegovina"></a>Restrictions de numérotation gratuit dans Bosnie-Herzégovine
 
@@ -47,7 +47,7 @@ ms.locfileid: "30462499"
 |Commentaires, les restrictions et les problèmes d’accès  <br/> |Accessible via HT Eronet/Mostar, Telekom Srpske/MTEL et les réseaux fixes et mobiles BHT.  <br/> |
    
 ## <a name="related-topics"></a>Rubriques connexes
-[Restrictions et les limitations de composer le numéro gratuit](../toll-free-dialing-limitations-and-restrictions.md)
+[Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
 
