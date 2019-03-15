@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: 31480917-df23-4f10-9208-6f679b5ff840
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -23,34 +23,34 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Cela vous permettra de savoir comment composer des numéros gratuits dans chaque pays/région. Une fois que vous sélectionnez la pays/région, il vous dirige vers une page spécifique qui contient des détails plus spécifiques, les restrictions et les limites de la disponibilité du service gratuit où service gratuit est disponible. Le format de numérotation ou formats affichera les codes d’accès requis dans chaque pays/région de composer le numéro d’appel gratuit.
-ms.openlocfilehash: 52d1c740c136c7e24201d19051247edda2ea5fc2
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: a094ca68270352b2a3e1e1419ac42e8ad26c3e13
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465115"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569175"
 ---
-# <a name="toll-free-dialing-restrictions-in-panama"></a><span data-ttu-id="c04c5-105">Restrictions de numérotation gratuit au Panama</span><span class="sxs-lookup"><span data-stu-id="c04c5-105">Toll-free dialing restrictions in Panama</span></span>
+# <a name="toll-free-dialing-restrictions-in-panama"></a><span data-ttu-id="3b513-105">Restrictions de numérotation gratuit au Panama</span><span class="sxs-lookup"><span data-stu-id="3b513-105">Toll-free dialing restrictions in Panama</span></span>
 
-<span data-ttu-id="c04c5-106">[Trouver un autre pays ou région](../toll-free-dialing-limitations-and-restrictions.md), ou en savoir plus sur les restrictions et les limitations de composer le numéro gratuit.</span><span class="sxs-lookup"><span data-stu-id="c04c5-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
+<span data-ttu-id="3b513-106">[Trouver un autre pays ou région](../toll-free-dialing-limitations-and-restrictions.md), ou en savoir plus sur les restrictions et les limitations de composer le numéro gratuit.</span><span class="sxs-lookup"><span data-stu-id="3b513-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
 
 
-|<span data-ttu-id="c04c5-107">**Détails**</span><span class="sxs-lookup"><span data-stu-id="c04c5-107">**Details**</span></span>|<span data-ttu-id="c04c5-108">**Description**</span><span class="sxs-lookup"><span data-stu-id="c04c5-108">**Description**</span></span>|
+|<span data-ttu-id="3b513-107">**Détails**</span><span class="sxs-lookup"><span data-stu-id="3b513-107">**Details**</span></span>|<span data-ttu-id="3b513-108">**Description**</span><span class="sxs-lookup"><span data-stu-id="3b513-108">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="c04c5-109">Est gratuit appelant disponibles ?</span><span class="sxs-lookup"><span data-stu-id="c04c5-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="c04c5-110">Oui</span><span class="sxs-lookup"><span data-stu-id="c04c5-110">Yes</span></span>  <br/> |
-|<span data-ttu-id="c04c5-111">Formats de numérotation</span><span class="sxs-lookup"><span data-stu-id="c04c5-111">Dialing format(s)</span></span>  <br/> | <span data-ttu-id="c04c5-112">00-800-XXX-XXXX</span><span class="sxs-lookup"><span data-stu-id="c04c5-112">00-800-XXX-XXXX</span></span> <br/> |
-|<span data-ttu-id="c04c5-113">Code de pays/région ISO</span><span class="sxs-lookup"><span data-stu-id="c04c5-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="c04c5-114">PA</span><span class="sxs-lookup"><span data-stu-id="c04c5-114">PA</span></span>  <br/> |
-|<span data-ttu-id="c04c5-115">Île/territoire couvert</span><span class="sxs-lookup"><span data-stu-id="c04c5-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="c04c5-116">Non applicable</span><span class="sxs-lookup"><span data-stu-id="c04c5-116">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="c04c5-117">Île/territoire non couvert</span><span class="sxs-lookup"><span data-stu-id="c04c5-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="c04c5-118">Non applicable</span><span class="sxs-lookup"><span data-stu-id="c04c5-118">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="c04c5-119">Disponibilité de la ligne filaire/fixe</span><span class="sxs-lookup"><span data-stu-id="c04c5-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="c04c5-120">Via C&amp;W uniquement.</span><span class="sxs-lookup"><span data-stu-id="c04c5-120">From C&amp;W only.</span></span>  <br/> |
-|<span data-ttu-id="c04c5-121">Disponibilité de réseau mobile</span><span class="sxs-lookup"><span data-stu-id="c04c5-121">Mobile network availability</span></span>  <br/> |<span data-ttu-id="c04c5-122">Non</span><span class="sxs-lookup"><span data-stu-id="c04c5-122">No</span></span>  <br/> |
-|<span data-ttu-id="c04c5-123">Commentaires, les restrictions et les problèmes d’accès</span><span class="sxs-lookup"><span data-stu-id="c04c5-123">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="c04c5-124">Le client doit composer 011 (l’appel longue distance Panama code international) avant le numéro gratuit.</span><span class="sxs-lookup"><span data-stu-id="c04c5-124">The customer must dial 011 (the international long-distance Panama code) before the toll-free number.</span></span>  <br/> |
+|<span data-ttu-id="3b513-109">Est gratuit appelant disponibles ?</span><span class="sxs-lookup"><span data-stu-id="3b513-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="3b513-110">Oui</span><span class="sxs-lookup"><span data-stu-id="3b513-110">Yes</span></span>  <br/> |
+|<span data-ttu-id="3b513-111">Formats de numérotation</span><span class="sxs-lookup"><span data-stu-id="3b513-111">Dialing format(s)</span></span>  <br/> | <span data-ttu-id="3b513-112">00-800-XXX-XXXX</span><span class="sxs-lookup"><span data-stu-id="3b513-112">00-800-XXX-XXXX</span></span> <br/> |
+|<span data-ttu-id="3b513-113">Code de pays/région ISO</span><span class="sxs-lookup"><span data-stu-id="3b513-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="3b513-114">PA</span><span class="sxs-lookup"><span data-stu-id="3b513-114">PA</span></span>  <br/> |
+|<span data-ttu-id="3b513-115">Île/territoire couvert</span><span class="sxs-lookup"><span data-stu-id="3b513-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="3b513-116">Non applicable</span><span class="sxs-lookup"><span data-stu-id="3b513-116">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="3b513-117">Île/territoire non couvert</span><span class="sxs-lookup"><span data-stu-id="3b513-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="3b513-118">Non applicable</span><span class="sxs-lookup"><span data-stu-id="3b513-118">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="3b513-119">Disponibilité de la ligne filaire/fixe</span><span class="sxs-lookup"><span data-stu-id="3b513-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="3b513-120">Via C&amp;W uniquement.</span><span class="sxs-lookup"><span data-stu-id="3b513-120">From C&amp;W only.</span></span>  <br/> |
+|<span data-ttu-id="3b513-121">Disponibilité de réseau mobile</span><span class="sxs-lookup"><span data-stu-id="3b513-121">Mobile network availability</span></span>  <br/> |<span data-ttu-id="3b513-122">Non</span><span class="sxs-lookup"><span data-stu-id="3b513-122">No</span></span>  <br/> |
+|<span data-ttu-id="3b513-123">Commentaires, les restrictions et les problèmes d’accès</span><span class="sxs-lookup"><span data-stu-id="3b513-123">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="3b513-124">Le client doit composer 011 (l’appel longue distance Panama code international) avant le numéro gratuit.</span><span class="sxs-lookup"><span data-stu-id="3b513-124">The customer must dial 011 (the international long-distance Panama code) before the toll-free number.</span></span>  <br/> |
    
-## <a name="related-topics"></a><span data-ttu-id="c04c5-125">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="c04c5-125">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="3b513-125">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="3b513-125">Related topics</span></span>
 
-[<span data-ttu-id="c04c5-126">Restrictions et les limitations de composer le numéro gratuit</span><span class="sxs-lookup"><span data-stu-id="c04c5-126">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
+[<span data-ttu-id="3b513-126">Limitations et restrictions concernant la composition de numéros verts</span><span class="sxs-lookup"><span data-stu-id="3b513-126">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
 
-[<span data-ttu-id="c04c5-127">Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="c04c5-127">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
+[<span data-ttu-id="3b513-127">Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="3b513-127">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
 
   
  
