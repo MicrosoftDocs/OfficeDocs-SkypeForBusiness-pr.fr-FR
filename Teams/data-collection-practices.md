@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, allancar
-ms.topic: article
+ms.topic: reference
 ms.assetid: c17e8ea6-b83b-4345-9401-47a6c8b13aad
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -22,12 +22,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Microsoft collecte des données de recensement, d’utilisation et d’erreur pour comprendre comment Skype pour les entreprises est utilisé et où les utilisateurs rencontrent des problèmes. Les données sont utilisées pour planifier les améliorations de produit.
-ms.openlocfilehash: ce1250030b1644dc9ec28f65ad54dd89bd863877
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 2e9845a9b9ebb294d0d7af1af87fae3165244889
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542015"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569653"
 ---
 # <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>Skype pour les pratiques de collection de données métiers et Microsoft Teams
 
@@ -43,7 +43,7 @@ Alors que l’utilisation des données collectées automatiquement, autres donn�
 
 ## <a name="census-data"></a>Données recensement
 
-Données recensement sont acquise uniquement pour fournir, prennent en charge et améliorer Skype pour les entreprises. Les équipes de Microsoft et Skype pour les entreprises en ligne. Il inclut des informations environnementales telles que les versions de périphériques et le système d’exploitation et paramètres régionaux et linguistiques. Il inclut également les compteurs de tentatives de connexion et des échecs. Voici quelques exemples des données recueillies recensement spécifiques :
+Données recensement sont acquise uniquement pour fournir, prennent en charge et améliorer Skype pour les entreprises. Les équipes Microsoft et Skype pour les entreprises en ligne. Il inclut des informations environnementales telles que les versions de périphériques et le système d’exploitation et paramètres régionaux et linguistiques. Il inclut également les compteurs de tentatives de connexion et des échecs. Voici quelques exemples des données recueillies recensement spécifiques :
 
 |**Type de données**|**Exemple**|**Remarques**|
 |:-----|:-----|:-----|

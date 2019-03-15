@@ -4,7 +4,7 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 08/27/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dansteve
 search.appverid: MET150
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4887cb129242473da46a611c4f873e79384e5e32
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 0c7343f294f18d5aaacf01059459524cdd2700a2
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460339"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569957"
 ---
 <a name="assign-team-owners-and-members-in-microsoft-teams"></a>Affecter des propriétaires d’équipe et des membres dans Microsoft Teams
 =================================================
@@ -42,7 +42,8 @@ Le tableau ci-dessous indique les différences dans les autorisations d’un pro
 |          **Ajouter un canal**          |    Oui     |    Oui<sup>2</sup>|
 | **Modifier le nom/la description d'un canal** |    Oui     |    Oui<sup>2</sup>|
 |        **Supprimer un canal**         |    Oui     |    Oui<sup>2</sup>|
-|          **Ajouter des membres**          |  Oui<sup>3</sup>   |     Non      |
+|          **Ajouter des membres**          |  Oui<sup>3</sup>   |     Aucun<sup>4</sup>    |
+|          **Demande d’ajout de membres**          |  N/A   |     Oui<sup>5</sup>     |
 |           **Ajouter des onglets**            |    Oui     |    Oui<sup>2</sup>|
 |        **Ajouter des connecteurs**         |    Oui     |    Oui<sup>2</sup>|
 |           **Ajouter des bots**            |    Oui     |    Oui<sup>2</sup>|
@@ -52,6 +53,10 @@ Le tableau ci-dessous indique les différences dans les autorisations d’un pro
 <sup>2</sup> ces éléments peuvent être désactivées par un propriétaire à un niveau équipe, auquel cas membres auront pas accès à ces derniers.
 
 <sup>3</sup> après l’ajout d’un membre à une équipe, un propriétaire peut également désigner un membre à l’état de propriétaire. Il est également possible, pour un propriétaire à rétrograder le statut de leur propres à un membre.
+
+<sup>4</sup> membres de l’équipe peuvent ajouter d’autres membres à une équipe publique.
+
+<sup>5</sup> pendant un membre d’équipe ne peut pas ajouter directement des membres à une équipe privée, ils peuvent demander une personne à ajouter à une équipe, ils sont déjà membre. Lorsqu’un membre demande une personne à ajouter à une équipe, les propriétaires de l’équipe reçoivent une alerte qu’ils possèdent une demande en attente qu’elles peuvent accepter ou refuser.
 
 
 

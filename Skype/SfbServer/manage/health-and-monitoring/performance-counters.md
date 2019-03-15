@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d18ed85a-673d-4695-aa3f-ac83a38ab90a
 description: 'Résumé : Découvrez les compteurs de performance que vous pouvez utiliser pour analyser les serveurs exécutant l’API de Web Communications (UCWA) unifiée et le Skype pour Service de mobilité Business Server Mcx.'
-ms.openlocfilehash: a1e44d0ba7fec9eb50d7d1f1bcea78a85a1f4955
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: dc2f414dce47442d50018c4a800a0c91279068c8
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20969844"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "21226994"
 ---
 # <a name="mobility-performance-counters-in-skype-for-business-server"></a>Compteurs de performances de mobilité dans Skype pour Business Server
  
@@ -27,7 +27,7 @@ Le nom de catégorie pour les compteurs de la table UCWA est **LS:WEB - UCWA**.
 Le nom de la catégorie pour les compteurs dans le tableau Service de mobilité Mcx est **LS:WEB - Mobile Communication Service**.
 
 > [!NOTE]
-> Prise en charge MCX pour les clients mobiles hérités n’est plus disponible dans Skype pour Business Server 2019. Vos utilisateurs devez mettre à niveau vers un client actuel.
+> Prise en charge MCX (Service de mobilité) pour les clients mobiles hérités n’est plus disponible dans Skype pour Business Server 2019. Tous les Skype en cours pour les clients mobiles métiers utilisent déjà Unified Communications Web API (UCWA) pour prendre en charge la messagerie instantanée, présence et les contacts. Les utilisateurs avec les clients hérités MCX doivent mettre à niveau vers un client actuel.
   
 ## <a name="performance-counters-for-ucwa"></a>Compteurs de performances pour UCWA
 
@@ -114,4 +114,4 @@ Le nom de la catégorie pour les compteurs dans le tableau Service de mobilité 
 |Nombre total d’appels vocaux sortants réussis  <br/> |Nombre total d’appels vocaux sortants ayant été réussis  <br/> |
    
 > [!NOTE]
-> Prise en charge MCX pour les clients mobiles hérités n’est plus disponible dans Skype pour Business Server 2019. Vos utilisateurs devez mettre à niveau vers un client actuel.
+> Prise en charge MCX (Service de mobilité) pour les clients mobiles hérités n’est plus disponible dans Skype pour Business Server 2019. Tous les Skype en cours pour les clients mobiles métiers utilisent déjà Unified Communications Web API (UCWA) pour prendre en charge la messagerie instantanée, présence et les contacts. Les utilisateurs avec les clients hérités MCX doivent mettre à niveau vers un client actuel.

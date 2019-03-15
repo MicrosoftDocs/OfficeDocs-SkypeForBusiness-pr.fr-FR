@@ -4,7 +4,7 @@ author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
 ms.date: 03/13/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
@@ -13,20 +13,20 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/1-envision-define-my-success-cloud-voice
-ms.openlocfilehash: 4dd22442cec0a2171a9833b043af415b02b78d99
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: ffea5c4b73c5034dffcd39f3f7ddf17277c37b03
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374332"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30568743"
 ---
-# <a name="define-my-success"></a>Définir mon réussite
+# <a name="define-my-success"></a>Définir ma réussite
 
 Cet article donne une vue d’ensemble de la configuration requise pour définir la réussite pour le déploiement du système de téléphone avec des Plans de l’appel pour votre organisation. En définissant correctement l’aspect de réussite, vous pouvez mesurer les résultats en tant que votre progression par le biais de votre déploiement et vérifier que les résultats que vous obtenez sont celles que vous souhaitiez.
 
 <!--ENDOFSECTION-->
 
-## <a name="define-business-use-cases-for-phone-system-with-calling-plans"></a>Définir les cas d'utilisation des systèmes téléphoniques avec forfaits d'appels
+## <a name="define-business-use-cases-for-phone-system-with-calling-plans"></a>Définir des exemples d’utilisation pour le système téléphonique avec des Plans de l’appel
 
 Organisations système téléphonique avec permet l’appel des Plans de moderniser leur espace de travail en permettant aux utilisateurs d’effectuer des appels professionnels à partir de leurs ordinateurs et périphériques mobiles.
 
@@ -49,10 +49,10 @@ Exemples d’utilisation sont destinées à définir et commerciaux mesurable at
 > 
 > |         |
 > |---------|
-> |**Description du processus d’entreprise actuel**<br>La configuration standard des espaces de travail Contoso inclut un numéro de téléphone pour chaque bureau. Chaque employé a reçu un direct vers l’intérieur composer le numéro de téléphone (DID)). Les téléphones de bureau sont connectés à un système PBX et connectés au PSTN via une jonction de protocole (SIP) session initiation. Les employés peuvent uniquement passer et recevoir des appels sur le téléphone de bureau qui leur a été attribué.|
+> |**Description du processus d’entreprise actuel**<br>Configuration standard des espaces de travail de Contoso office inclut un téléphone de bureau pour chaque bureau. Chaque employé a reçu un direct vers l’intérieur composer le numéro de téléphone (DID)). Les téléphones de bureau sont connectés à un système PBX et connectés au PSTN via une jonction de protocole (SIP) session initiation. Les employés peuvent uniquement émettre et recevoir des appels téléphoniques à leurs téléphones de bureau affectés.|
 > |**Difficultés par rapport au processus d’entreprise existant**<br>Analyse de l’utilisation des téléphones de bureau indique que seuls 10 % des téléphones de bureau sont utilisés activement avec le reste configuré pour transférer les appels aux téléphones mobiles ou pour faire sonner simultanément aux téléphones mobiles. Mise à jour le système PBX existant et les téléphones de bureau associées contribue à 20 % du coût de service de téléphonie mensuel de Contoso.|
 > |**Comment la technologie peut surmonter ces difficultés**<br>Ordinateur du personnel d’un utilisateur recevoir et effectuer des appels téléphoniques via le réseau de données en tirant parti de l’application Microsoft Teams native permettra de système téléphonique avec des Plans de l’appel. Cela élimine le besoin pour déployer et gérer des téléphones de bureau et ouvre la possibilité de mettre hors service le système PBX existant, car le service peut être remis via le nuage via le réseau avec aucune dépendance sur un système téléphonique traditionnel.|
-> |**Résultats de l’entreprise attendus et mesurables**<br>Suppression des besoins de maintenance et la mise hors service des PBX hérités et les téléphones de bureau fournira une réduction de 20 % de téléphonie mensuel des frais de service. Les systèmes téléphoniques avec forfaits d'appels simplifient les espaces de travail de bureau et permettent à Contoso de développer ses opérations, en établissant de nouveaux bureaux avec des coûts de téléphonie initiaux minimes.|
+> |**Résultats de l’entreprise attendus et mesurables**<br>Suppression des besoins de maintenance et la mise hors service des PBX hérités et les téléphones de bureau fournira une réduction de 20 % de téléphonie mensuel des frais de service. Système téléphonique avec l’appel Plans simplifie espaces de travail office permettant de Contoso étendre ses opérations en établissant les nouveaux bureaux avec des frais de téléphone initial minimal.|
 
 Outre la définition de votre entreprise cas d’utilisation, pour définir les limites du projet que vous devez viser clarté lecteur autour de :
 
@@ -115,15 +115,15 @@ Participer pleinement aux parties prenantes du projet définition OKRs et KSIs e
 OKRs contiennent les objectifs que vous définissez au début du projet, et vous définissez résultats clés mesurables sur une base trimestrielle. Vous passez en revue les résultats clés tous les mois pour effectuer le suivi de l’état du projet global, et, en fonction de l’avancement — vous ajustez les planifications trimestrielles selon vos besoins.
 
 > [!TIP]
-> Un exemple d'objectifs et résultats clés appropriés à l'implémentation d'un système téléphonique avec forfaits d'appels peut être référencé ci-après :
+> Exemple de OKRs pertinents pour le système téléphonique avec mise en œuvre des Plans de l’appel peut être référencé ci-dessous :
 > <br>
 > 
 > **Vision : augmenter la productivité an optimisant les investissements dans Office 365**
 > 
 > |Objectifs  |Résultats clés  |Action  |
 > |---------|---------|---------|
-> |Déployer les systèmes téléphoniques avec forfaits d'appels dans les filiales européennes d'ici la fin de l'exercice fiscal 2018|T3, 2018 : Déployer les systèmes téléphoniques avec forfaits d'appels dans les bureaux londoniens|Planifier<ul><li>Créer un plan de réussite</li><li>Créer un plan d’implémentation technique détaillé</li></ul><p>Intégrer<ul><li>Exécuter le plan de réussite</li><li>Exécuter le plan d’implémentation technique</li></ul>|
-> |Désactiver le système PBX hérité dans les bureaux londoniens d'ici la fin de l'exercice fiscal 2018|T4, 2018 : Désactiver le système PBX hérité dans les bureaux londoniens|Générer une valeur ajoutée<ul><li>Favoriser l’implication des utilisateurs et encourager l'adoption</li><li>Gérer et préparer le changement</li><li>Mesurer, partager la réussite et retravailler</li>|
+> |Déployer le système téléphonique avec des Plans de l’appel dans les succursales European à la fin de l’année fiscale 2018|FY18Q3 : Déployer le système téléphonique avec des Plans de l’appel dans office Londres|Concevoir<ul><li>Créer un plan de réussite</li><li>Créer un plan d’implémentation technique détaillé</li></ul><p>Intégrer<ul><li>Exécuter le plan de réussite</li><li>Exécuter le plan d’implémentation technique</li></ul>|
+> |Mettre hors service des PBX hérités dans office London à la fin de l’année fiscale 2018|FY18Q4 : Mettre hors service des PBX hérités dans office Londres|Générer une valeur ajoutée<ul><li>Favoriser l’implication des utilisateurs et encourager l'adoption</li><li>Gérer et préparer le changement</li><li>Mesurer, partager la réussite et retravailler</li>|
 
 KSIs mesurer la qualité et la réussite des résultats et compléter la nature de OKRs (atteint ou ne pas atteint) binaire en détaillant les résultats de la bonne et/ou incorrectes.
 
@@ -159,15 +159,15 @@ Vous devez identifier les risques d’entreprise dans le cadre de cette activit�
 > 
 > |Risque  |Probabilité  |Impact  |Global  |Plan d’atténuation  |
 > |---------|---------|---------|---------|---------|
-> |Une fusion prochaine ajoutera jusqu’à 1000 personnes|Élevée|Haut|Haut|<ul><li>Pour des sociétés fusionnées, créez un OKR distinct qui s’applique à leurs propres phases du projet (prévoir, Onboard, valeur lecteur)</li><li>N’incluez pas ces OKRs dans OKRs existants</li></ul>|
-> |Le transfert des numéros de téléphone retardera la réalisation du projet|Élevée|Haut|Haut|<ul><li>Préparer toutes les informations nécessaires pour prendre en charge le numéro de téléphone portage à l’avance (enregistrement de service de client, facturation plus d’informations, lettre d’autorisation)</li><li>Ajuster la chronologie du projet pour prendre en charge le délai d’exécution portage numéro de téléphone</li><li>Utiliser les numéros de téléphone provisoires avec la manipulation de l'ID de l'appelant</li></ul>|
+> |Une fusion prochaine ajoutera jusqu’à 1000 personnes|Haut|Haut|Haut|<ul><li>Pour des sociétés fusionnées, créez un OKR distinct qui s’applique à leurs propres phases du projet (prévoir, Onboard, valeur lecteur)</li><li>N’incluez pas ces OKRs dans OKRs existants</li></ul>|
+> |Le transfert des numéros de téléphone retardera la réalisation du projet|Haut|Haut|Haut|<ul><li>Préparer toutes les informations nécessaires pour prendre en charge le numéro de téléphone portage à l’avance (enregistrement de service de client, facturation plus d’informations, lettre d’autorisation)</li><li>Ajuster la chronologie du projet pour prendre en charge le délai d’exécution portage numéro de téléphone</li><li>Utilisez les numéros de téléphone temporaire avec manipulation de l’ID de l’appelant</li></ul>|
 > |Reconception du réseau planifiée|Élevée|Moyen|Moyen|<ul><li>Avant d’implémenter des équipes comme plateforme de collaboration et communications modernes, mener une évaluation de préparation du réseau pour les sites dans la portée du projet</li></ul>|
 
 <br>
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Quels sont vos organisation & #39 ; s OKRs et KSIs ?</li><li>Les risques ont identifié pertinents pour l’implémentation de conférence Audio dans votre organisation ? Quels sont les plans d’atténuation des risques identifiés ?</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Quelles sont vos organization& #39 ; s OKRs et KSIs ?</li><li>Les risques ont identifié pertinents pour l’implémentation de conférence Audio dans votre organisation ? Quels sont les plans d’atténuation des risques identifiés ?</li></ul>|
 |<img src="media/audio_conferencing_image9.png" />|Étapes suivantes|<ul><li>Documenter les OKRs, KSIs et établir l’historique de risques.</li></ul>|
 
 <!--ENDOFSECTION-->

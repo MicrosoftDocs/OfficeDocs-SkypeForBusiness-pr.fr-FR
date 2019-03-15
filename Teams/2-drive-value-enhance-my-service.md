@@ -1,10 +1,10 @@
 ---
-title: Améliorer votre service Microsoft Teams
+title: Améliorer vos services Microsoft´Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
 ms.date: 03/13/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eb8671e8b5a5247a8341b9921647c0dd63da8d7c
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 64bc20fa270bb3ff9b59efd4e5ad7b8053a5fb6e
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460259"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30568520"
 ---
 # <a name="enhance-my-service"></a>Améliorer mon service
 

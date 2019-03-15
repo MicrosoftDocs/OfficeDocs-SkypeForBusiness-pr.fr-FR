@@ -5,23 +5,21 @@ author: CarolynRowe
 manager: serdars
 ms.audience: ITPro
 ms.reviewer: NMuravlyannikov
-ms.topic: article
-ms.service:
-- msteams
-- skype-for-business-online
-ms.prod: skype-for-business-itpro
+ms.topic: conceptual
+ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
-ms.collection: Teams_ITAdmin_Help
-appliesto:
-- Microsoft Teams
+ms.collection:
+- Teams_ITAdmin_Help
+- M365-voice
+appliesto: Microsoft Teams
 description: Lisez cette rubrique pour savoir comment Microsoft Phone System Direct routage vous permet de connecter une prise en charge, fournie par le client Session contrôleur périphérie (SBC) au système téléphonique de Microsoft.
-ms.openlocfilehash: 77c4e21b2be0f8d4729924484102ba31becbfbe7
-ms.sourcegitcommit: 10370b163e5a9d0e27dde71b847c8bca26dcaa74
+ms.openlocfilehash: 202b25903a3e48b0a2a2f32853f061eb8ca73cc8
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "29690571"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569941"
 ---
 # <a name="plan-direct-routing"></a>Planifier le routage direct
 
@@ -62,7 +60,7 @@ Planification de votre déploiement de routage Direct est une implémentation r�
 
 Pour plus d’informations sur la configuration de routage Direct, consultez [Configurer le routage Direct](direct-routing-configure.md).
 
-## <a name="infrastructure-requirements"></a>Conditions requises pour l'infrastructure
+## <a name="infrastructure-requirements"></a>Conditions d’infrastructure requises
 Exigences d’infrastructure pour le SBCs pris en charge, les domaines et les autres exigences de connectivité réseau pour déployer le routage Direct sont répertoriées dans le tableau suivant :  
 
 |**Spécification de l’infrastructure**|**Vous devez les éléments suivants**|
@@ -79,7 +77,7 @@ Exigences d’infrastructure pour le SBCs pris en charge, les domaines et les au
 |Points de connexion pour le routage Direct |Les points de connexion pour le routage Direct sont les noms de domaine trois complets suivants :<br/><br/>`sip.pstnhub.microsoft.com`– Nom de domaine complet global, doit être tenté en premier.<br/>`sip2.pstnhub.microsoft.com`– Nom de domaine complet secondaire, géographiquement mappe à la seconde région priorité.<br/>`sip3.pstnhub.microsoft.com`– Nom de domaine complet de troisième niveau, mappe géographiquement à la région de priorité de la troisième.<br/><br/>Pour plus d’informations sur la configuration requise, voir [de signalisation SIP : noms de domaine complets et les ports de pare-feu](#sip-signaling-fqdns-and-firewall-ports).|
 |Adresses IP de pare-feu et les ports pour le média routage Direct |Le contrôleur SBC communique avec les services suivants dans le nuage :<br/><br/>Proxy qui gère la signalisation SIP<br/>Processeur multimédia, qui gère les données multimédias-sauf lorsque le contournement de média est activé<br/><br/>Ces deux services ont des adresses IP séparées dans le Cloud Microsoft, décrit plus loin dans ce document.<br/><br/>Pour plus d’informations, voir la [section équipes Microsoft](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) dans [Office 365 URL et plages d’adresses IP](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
 |Profil de Transport de média|TCP/RTP/SAVP <br/>RTP/UDP/SAVP|
-Adresses IP de pare-feu et les ports pour le média Microsoft Teams |Pour plus d'informations, reportez-vous à la rubrique [URL et plages d'adresses IP Office 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
+Adresses IP de pare-feu et les ports pour le média Microsoft Teams |Pour plus d’informations, voir [Office 365 URL et plages d’adresses IP](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
 |||
 
 ## <a name="licensing-and-other-requirements"></a>Gestion des licences et autres composants requis 
@@ -106,7 +104,7 @@ Combinaison de connectivité de l’appel de planifier et de routage Direct pour
 
 Pour plus d’informations sur les licences de système téléphonique, voir [Options de Plan Office 365](https://technet.microsoft.com/library/office-365-plan-options.aspx)et de [tirer le meilleur parti d’Office avec Office 365](https://products.office.com/compare-all-microsoft-office-products?tab=2) . 
 
-Pour plus d’informations sur les licences de système téléphonique, voir [Skype pour les licences d’entreprise et les équipes Microsoft module complémentaire](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing). 
+Pour plus d’informations sur les licences de système téléphonique, voir [Gestion des licences de module complémentaire équipes Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md). 
 
 ## <a name="sbc-domain-names"></a>Noms de domaine SBC
 

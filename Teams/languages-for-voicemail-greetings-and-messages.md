@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Découvrez quelles langues vous pouvez configurer dans Skype Entreprise pour les messages système par défaut. '
-ms.openlocfilehash: 69fd7350d9e79364fdd89bf6a5b5ac64b4bfe018
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: eb16bc3e8826cb38727258db64ac061bf969479f
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542582"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569486"
 ---
 # <a name="languages-for-voicemail-greetings-and-messages"></a>Langues pour les messages d'accueil et les messages de la messagerie vocale
 
@@ -37,11 +37,14 @@ Pour modifier la langue que Skype Entreprise utilise pour les messages d'accuei
 |||||||
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |**Langue** <br/> |**Pays/région** <br/> |**Code langue** <br/> |**Disponible pour qu'un utilisateur la voie dans un courrier électronique ?** <br/> |**Disponible lorsque l'utilisateur appelle ?** <br/> |**Transcription disponible ?** <br/> |
-|Catalan  <br/> |Catalan  <br/> |ca-ES  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
-|Chinois (simplifié)  <br/> |Chine  <br/> |zh-hans  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
+|Arabe <br/> |Égypte  <br/> |ar-EG  <br/> |Oui  <br/> |Oui  <br/> |Oui   <br/> |
+|Catalan  <br/> |Catalan  <br/> |ca-ES  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
+|Chinois (simplifié)  <br/> |Chine  <br/> |zh-hans  <br/> |Oui   <br/> |Oui  <br/> |Oui   <br/> |
 |Chinois (Hong Kong R.A.S.)  <br/> |Chine  <br/> |zh-hk  <br/> |Oui, mais le chinois (traditionnel) (zh-hant) est utilisé.  <br/> | Oui <br/> |Oui, mais le chinois (traditionnel) (zh-hant) est utilisé.  <br/> |
 |Chinois (traditionnel)  <br/> |Taïwan  <br/> |zh-hant  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
-|Danois  <br/> |Danemark  <br/> |da-DK  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
+|Croate<br/> |Croatie  <br/> |hr-HR  <br/> |Oui  <br/> |Oui  <br/> |Oui   <br/> |
+|Tchèque <br/> |République tchèque  <br/> |cs-CZ  <br/> |Oui   <br/> |Oui  <br/> |Oui   <br/> |
+|Danois  <br/> |Danemark  <br/> |da-DK  <br/> |Oui   <br/> |Oui  <br/> |Non  <br/> |
 |Néerlandais  <br/> |Pays-Bas  <br/> |nl-NL  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
 |Anglais  <br/> |Australie  <br/> |en-AU  <br/> |Oui, mais l'anglais des États-Unis (en-US) est utilisé.  <br/> |Oui  <br/> |Oui, mais l'anglais des États-Unis (en-US) est utilisé.  <br/> |
 |Anglais  <br/> |Canada  <br/> |en-CA  <br/> |Oui, mais l'anglais des États-Unis (en-US) est utilisé.  <br/> |Oui  <br/> |Oui, mais l'anglais des États-Unis (en-US) est utilisé.  <br/> |
@@ -50,20 +53,28 @@ Pour modifier la langue que Skype Entreprise utilise pour les messages d'accuei
 |Anglais  <br/> |États-Unis  <br/> |en-US  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
 |Finnois  <br/> |Finlande  <br/> |fi-FI  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
 |Français  <br/> |Canada  <br/> |fr-CA  <br/> |Mais le français de France (fr-FR) est utilisé.  <br/> |Oui  <br/> |Mais le français de France (fr-FR) est utilisé.  <br/> |
-|Français  <br/> |France  <br/> |fr-FR  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
-|Allemand  <br/> |Allemagne  <br/> |de-DE  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
+|Français  <br/> |France  <br/> |fr-FR  <br/> |Oui  <br/> |Oui  <br/> |Oui   <br/> |
+|Allemand  <br/> |Allemagne  <br/> |de-DE  <br/> |Oui  <br/> |Oui  <br/> |Oui   <br/> |
+|Grec <br/> |Grèce  <br/> |EL-GR  <br/> |Oui  <br/> |Oui  <br/> |Oui   <br/> |
+|Hongrois <br/> |Hongrie  <br/> |HOU-HOU  <br/> |Oui  <br/> |Oui  <br/> |Oui   <br/> |
+|Indonésien <br/> |Indonésie  <br/> |ID de l’ID  <br/> |Oui   <br/> |Oui  <br/> |Oui  <br/> |
 |Italien  <br/> |Italie  <br/> |it-IT  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
-|Japonais  <br/> |Japon  <br/> |ja-JP  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
+|Japonais  <br/> |Japon  <br/> |ja-JP  <br/> |Oui  <br/> |Oui  <br/> |Oui   <br/> |
 |Coréen  <br/> |Coréen  <br/> |ko-KR  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
-|Norvégien  <br/> |Norvège  <br/> |nb-NO  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
+|Norvégien  <br/> |Norvège  <br/> |nb-NO  <br/> |Oui   <br/> |Oui  <br/> |Non  <br/> |
 |Polonais  <br/> |Pologne  <br/> |pl-PL  <br/> |Oui  <br/> | Oui <br/> |Non  <br/> |
-|Portugais  <br/> |Brésil  <br/> |pt-BR  <br/> |Oui, mais le portugais du Portugal (pt-PT) est utilisé.  <br/> |Oui  <br/> |Oui  <br/> |
-|Portugais  <br/> |Portugal  <br/> |pt-PT  <br/> |Oui  <br/> |Oui  <br/> |Oui, mais le portugais du Brésil (pt-BR) est utilisé.  <br/> |
-|Russe  <br/> |Russie  <br/> |ru-RU  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
-|Espagnol  <br/> |Espagne  <br/> |es-ES  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
+|Portugais  <br/> |Brésil  <br/> |pt-BR  <br/> |Oui, mais le portugais du Portugal (pt-PT) est utilisé.  <br/> |Oui   <br/> |Oui   <br/> |
+|Portugais  <br/> |Portugal  <br/> |pt-PT  <br/> |Oui   <br/> |Oui   <br/> |Oui, mais le portugais du Brésil (pt-BR) est utilisé.  <br/> |
+|Roumain<br/> |Roumanie  <br/> |ROLL  <br/> |Oui   <br/> |Oui   <br/> |Oui   <br/> |
+|Russe  <br/> |Russie  <br/> |ru-RU  <br/> |Oui   <br/> |Oui   <br/> |Non  <br/> |
+|Slovaque <br/> |Slovaquie  <br/> |SK-SK  <br/> |Oui   <br/> |Oui   <br/> |Oui   <br/> |
+|Slovène <br/> |Slovénie  <br/> |SL-SI  <br/> |Oui   <br/> |Oui   <br/> |Oui   <br/> |
+|Espagnol  <br/> |Espagne  <br/> |es-ES  <br/> |Oui   <br/> |Oui   <br/> |Oui   <br/> |
 |Espagnol  <br/> |Mexique  <br/> |es-MX  <br/> |Oui, mais l'espagnol d'Espagne (es-ES) est utilisé.  <br/> |Oui  <br/> |Oui, mais l'espagnol d'Espagne (es-ES) est utilisé.  <br/> |
-|Suédois  <br/> |Suède  <br/> |sv-SE  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
-|Turc  <br/> |Turquie  <br/> |tr-TR  <br/> |Oui   <br/> |Oui  <br/> |Non  <br/> |
+|Suédois  <br/> |Suède  <br/> |sv-SE  <br/> |Oui  <br/> |Oui   <br/> |Non  <br/> |
+|Thaï <br/> |Thaïlande  <br/> |th-TH  <br/> |Oui   <br/> |Oui   <br/> |Oui   <br/> |
+|Turc  <br/> |Turquie  <br/> |tr-TR  <br/> |Oui   <br/> |Oui   <br/> |Non  <br/> |
+|Vietnamien <br/> |Vietnam  <br/> |VI-VN  <br/> |Oui   <br/> |Oui   <br/> |Oui   <br/> |
    
 ## <a name="related-topics"></a>Rubriques connexes
 [Disponibilité des offres d'appels et d'audioconférence selon les régions et les pays](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

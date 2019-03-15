@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: 55424e0c-16fa-4205-a595-25de7e19aaab
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Cela vous permettra de savoir comment composer des numéros gratuits dans chaque pays/région. Une fois que vous sélectionnez la pays/région, il vous dirige vers une page spécifique qui contient des détails plus spécifiques, les restrictions et les limites de la disponibilité du service gratuit où service gratuit est disponible. Le format de numérotation ou formats affichera les codes d’accès requis dans chaque pays/région de composer le numéro d’appel gratuit.
-ms.openlocfilehash: 0384e7f6eb0e23cc0a1d9c2cb31f9eda95f3b73c
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 03ed8008e312b28d529af898a50a907e24783508
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463795"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569590"
 ---
 # <a name="toll-free-dialing-restrictions-in-slovakia"></a>Restrictions de numérotation gratuit en Slovaquie
 
@@ -48,7 +48,7 @@ ms.locfileid: "30463795"
    
 ## <a name="related-topics"></a>Rubriques connexes
 
-[Restrictions et les limitations de composer le numéro gratuit](../toll-free-dialing-limitations-and-restrictions.md)
+[Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
 

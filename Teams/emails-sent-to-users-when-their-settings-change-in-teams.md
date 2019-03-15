@@ -20,16 +20,16 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Découvrez quelles informations sont envoyées automatiquement aux utilisateurs par e-mail lorsque leurs paramètres d’audioconférence sont modifiés dans Microsoft Teams. '
-ms.openlocfilehash: 6081f531bb7cbae180997dedd9e9892e9829ae1b
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: cdd45eaad709ed2060cc0b0f9700e213ea884b72
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462811"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30633333"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-microsoft-teams"></a>Courriers électroniques envoyés aux utilisateurs lorsque leurs paramètres sont modifiés dans Microsoft Teams
 
-Des courriers électroniques seront envoyés automatiquement aux utilisateurs qui lesquels [l’audioconférence est activée](/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing) et qui utilisent Microsoft comme fournisseur de service d’audioconférence.
+Des courriers électroniques seront envoyés automatiquement aux utilisateurs qui lesquels [l’audioconférence est activée](set-up-audio-conferencing-in-teams.md) et qui utilisent Microsoft comme fournisseur de service d’audioconférence.
 
 Par défaut, quatre types de courriers électroniques seront envoyés à vos utilisateurs pour lesquels la fonction d’audioconférence est activée. Toutefois, si vous souhaitez imiter le nombre de messages électroniques envoyés aux utilisateurs, vous pouvez désactiver cette option. La fonction d’audioconférence dans Office 365 enverra un courrier électronique à vos utilisateurs dans les cas suivants :
 

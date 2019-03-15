@@ -3,7 +3,7 @@ title: Plan d’Adoption des utilisateurs équipes Microsoft | Meilleures pratiq
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 search.appverid: MET150
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5ad07d4445e02c10eb75a62d6fa2933b413b8107
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: cb457ff6f5ba40575a8a7fc35738d8dda1ce45f5
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463275"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569973"
 ---
 ![Étapes du voyage mise à niveau, en insistant sur la phase d’Excellence opérationnelle] (media/upgrade-banner-op-excellence.png "Étapes du voyage mise à niveau, en insistant sur la phase d’Excellence opérationnelle")
 
@@ -34,7 +34,7 @@ Technologie est innovation une augmentation sans précédent. Se mettre à jour 
 
 L’état de votre réseau affecte l’expérience de l’utilisateur. Lorsqu’un utilisateur a une mauvaise expérience (par exemple, appel projections ou retard temps lors de la participation à des réunions), ils ce correspondent à la technologie elle-même, ce qui les rend avec l’impression que la technologie ne fonctionne pas et ouvre la porte pour les applications non prises en charge. Implémentation d’un plan pour surveiller et limiter l’intégrité du réseau afin de garantir une expérience utilisateur positive outre réduisant les appels à votre support technique. Pour plus d’informations, voir les articles suivants :
 
-- [Utiliser votre service](upgrade-operate-my-service.md)
+- [Exploiter votre service](upgrade-operate-my-service.md)
 - [Contrôler la qualité](upgrade-monitor-quality.md)
 - [Améliorer votre service](upgrade-enhance-my-service.md)
 

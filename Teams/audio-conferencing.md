@@ -13,12 +13,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment
-ms.openlocfilehash: 0bf506350a6e656d0143a968bcd0e884b47e5653
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: c5e9015bb13dd21ff503ac5767cce5b9704eef03
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120683"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30633289"
 ---
 <a name="practical-guidance-for-audio-conferencing-in-microsoft-teams"></a>Guide pratique pour l’audioconférence dans Microsoft Teams
 ============================================================
@@ -324,7 +324,7 @@ Le service d’audioconférence dans Office 365 inclut les éléments suivants�
 -   prise en charge de plusieurs langues pour le pont de téléconférence (principale et secondaire) ;
 -   numéro de téléphone par défaut du client.
 
-Vous trouverez une description complète des fonctionnalités incluses dans les rubriques [Configurer l’audioconférence pour Skype Entreprise et Microsoft Teams](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing) et [Numéros de téléphone pour l’audioconférence](phone-numbers-for-audio-conferencing-in-teams.md).
+Pour une description complète des fonctionnalités incluses, voir [les numéros de téléphone pour les conférences Audio](phone-numbers-for-audio-conferencing-in-teams.md)et de [configurer la conférence Audio pour les équipes Microsoft](set-up-audio-conferencing-in-teams.md) .
 
 > [!NOTE]
 > Les numéros de pont de téléconférence dédiés sont inclus dans le calcul de la limite du nombre de numéros de téléphone qui peuvent être achetés par client, en fonction du nombre de licences applicables comme il est décrit dans la rubrique [Obtenir des numéros de téléphone du service pour Skype Entreprise et Microsoft Teams](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers). Les numéros de pont de téléconférence gratuits requièrent des crédits de communication.
@@ -549,4 +549,4 @@ Générer une valeur ajoutée ===========
 <br>
 ## <a name="see-also"></a>Voir aussi
 
-[Configurer l’audioconférence pour Skype Entreprise et Microsoft Teams](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)
+[Configurer la conférence pour Microsoft Teams](set-up-audio-conferencing-in-teams.md)

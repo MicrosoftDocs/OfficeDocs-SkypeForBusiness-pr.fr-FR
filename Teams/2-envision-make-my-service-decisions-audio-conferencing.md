@@ -4,23 +4,23 @@ author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
 ms.date: 12/28/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-description: En savoir plus sur les réunions, gestion des licences et la disponibilité, configurer les paramètres de pont de conférence, acquérir ou transférer des numéros de téléphone, choisissez client plans de numérotation.
+description: En savoir plus sur les réunions, gestion des licences et plans de numérotation de disponibilité, configuration des paramètres pont de conférence, l’acquisition ou lors du transfert des numéros de téléphone et client de choix.
 localization_priority: Normal
 MS.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d8b98aa7a601466826d95ddb2413e702f94f4877
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 9b6bd854de7af09ebea6b66a6393beb751f11770
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30459147"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569997"
 ---
 # <a name="make-my-service-decisions"></a>Prendre des décisions de mon service
 
@@ -68,18 +68,18 @@ Après avoir confirmé que votre organisation est éligible pour obtenir le serv
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Déterminez les emplacements des utilisateurs ou les bureaux qui implémenteront le service d’audioconférence.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Étapes suivantes|<ul><li>Consignez les emplacements des utilisateurs ou les bureaux qui seront habilités pour le service d’audioconférence.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Déterminer les emplacements de l’utilisateur ou les bureaux allez implémenter le service de conférence Audio.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Étapes suivantes|<ul><li>Documentez les emplacements de l’utilisateur ou les bureaux à activer pour le service de conférence Audio.</li></ul>|
 
 > [!TIP]
 > Voici un exemple d’un modèle de liste de conférence Audio site activation :
 > 
-> |Office   |Emplacement |Service de conférence PSTN  |
+> |Bureau   |Emplacement |Service de conférence PSTN  |
 > |---------|---------|---------|
-> |1 Eppîng Road|Australie|Audioconférence,|
+> |1 Eppîng Road|Australie|Audioconférence|
 > |100 Cyberport Road|Hong Kong R.A.S.|Conférence PSTN héritée|
-> |1 Marina Boulevard|Singapour|Audioconférence,|
-> |32 London Bridge Street|Royaume-Uni|Audioconférence,|
+> |1 Marina Boulevard|Singapour|Audioconférence|
+> |32 London Bridge Street|Royaume-Uni|Audioconférence|
 > |39 quai du Président Roosevelt|France|Audioconférence|
 
 <!--ENDOFSECTION-->
@@ -161,11 +161,11 @@ Si vous devez transférer existant numéros de téléphone de pont de conférenc
 
 Pour en savoir plus sur les numéros de téléphone de pont de conférence, consultez les articles suivants :
 
--   [Configurer la conférence Audio pour Skype entreprise et Teams Microsoft](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)
+-   [Configurer la conférence pour Microsoft Teams](set-up-audio-conferencing-in-teams.md)
 
--   [Numéros de téléphone pour l'audioconférence](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)
+-   [Numéros de téléphone pour l’audioconférence](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)
 
--   [Obtenir des numéros de téléphone de service](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
+-   [Obtention de numéros de téléphone de service](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 -   [Transférer les numéros de téléphone vers Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365)
 
@@ -225,7 +225,7 @@ Avec ces contrôles, vous pouvez décider si les organisateurs de réunion peuve
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Décider si votre organisation requiert des notifications d’entrée et de sortie, et — dans ce cas, le type de notification à mettre en œuvre (tonalités, numéro de téléphone ou nom enregistré).</li><li>Décidez de la longueur de code confidentiel de conférence Audio qui répond à vos besoins de sécurité de l’organisation.</li><li>Déterminez si votre organisation souhaite prendre le contrôle des communications utilisateur liées au service de conférence Audio.</li><li>Déterminez les numéros de pont de téléconférence à attribuer à chaque organisateur de réunions.</li><li>Décider si certains organisateurs de réunion doivent utiliser des numéros de téléphone de pont de conférence gratuit pour leurs réunions.</li><li>Décider si certains organisateurs de réunion doivent autoriser les appelants non authentifiés à démarrer une réunion.</li><li>Décider si certains organisateurs de réunion doivent conférence rendez-vous soit contrôlé.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Décider si votre organisation requiert des notifications d’entrée et de sortie, et — dans ce cas, le type de notification à mettre en œuvre (tonalités, numéro de téléphone ou nom enregistré).</li><li>Décidez de la longueur de code confidentiel de conférence Audio qui répond à vos besoins de sécurité de l’organisation.</li><li>Déterminez si votre organisation souhaite prendre le contrôle des communications utilisateur liées au service de conférence Audio.</li><li>Déterminer les numéros de téléphone de pont de conférence à affecter à chaque organisateur de la réunion.</li><li>Décider si certains organisateurs de réunion doivent utiliser des numéros de téléphone de pont de conférence gratuit pour leurs réunions.</li><li>Décider si certains organisateurs de réunion doivent autoriser les appelants non authentifiés à démarrer une réunion.</li><li>Décider si certains organisateurs de réunion doivent conférence rendez-vous soit contrôlé.</li></ul>|
 |<img src="media/audio_conferencing_image9.png" />|Étapes suivantes|<ul><li>Consigner les paramètres détaillés de pont de téléconférence (notifications d’accès et de sortie de réunion, longueur du code PIN, notification par courrier électronique des modifications de configuration)</li><li>Les numéros de téléphone de pont de conférence pour être affectée à chaque organisateur de la réunion et le paramètre correspondant pour contrôler la stratégie pour les appelants non authentifiés et gratuit de documents et des contrôles de numérotation.</li></ul>|
 
 > [!TIP]
@@ -342,7 +342,7 @@ Pour en savoir plus sur les plans de numérotation, voir [Quels sont les plans d
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Déterminez si votre organisation nécessite des plans de numérotation personnalisé (impératifs d’entreprise, configuration requise d’adoption et ainsi de suite).</li><li>Le cas échéant, déterminez la portée du plan de numérotation de client (global au sein du client ou utilisateurs du client) pour prendre en charge les exigences des plans de numérotation personnalisés.</li><li>Le cas échéant, décider des plans de numérotation client que vous créerez pour prendre en charge des bureaux ou emplacements de l’utilisateur dans la portée pour l’implémentation de la voix dans le nuage.</li><li>Le cas échéant, décider quels utilisateurs ont besoin d’un plan de numérotation personnalisé et le plan de numérotation client pour être attribué à chaque utilisateur.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Déterminez si votre organisation nécessite des plans de numérotation personnalisé (impératifs d’entreprise, configuration requise d’adoption et ainsi de suite).</li><li>Le cas échéant, décider de l’étendue du plan de numérotation client (client globale ou utilisateur client) pour prendre en charge la configuration requise pour les plans de numérotation personnalisé.</li><li>Le cas échéant, décider des plans de numérotation client que vous créerez pour prendre en charge des bureaux ou emplacements de l’utilisateur dans la portée pour l’implémentation de la voix dans le nuage.</li><li>Le cas échéant, décider quels utilisateurs ont besoin d’un plan de numérotation personnalisé et le plan de numérotation client pour être attribué à chaque utilisateur.</li></ul>|
 |<img src="media/audio_conferencing_image9.png" />|Étapes suivantes|<ul><li>Documenter les plans de numérotation personnalisé et les règles de normalisation associées à configurer dans le cadre de votre implémentation de la voix dans le nuage.</li><li>Les utilisateurs à affecter à un plan de numérotation personnalisé et le plan de numérotation client pour être attribué à chaque utilisateur du document.</li></ul>|
 
 > [!TIP]

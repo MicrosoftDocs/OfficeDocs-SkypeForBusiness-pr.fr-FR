@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 95a20117-2064-43c4-94fe-cac892cadb6f
 description: 'Résumé : Intégrer Skype pour Business Server et Outlook Web App.'
-ms.openlocfilehash: 63533e0f592a332e1e5f4ff9829b16cde4b1299f
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 17f58acac3b59611df58d4c60ce875a5a17187cf
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "23263920"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569629"
 ---
 # <a name="configure-integration-between-on-premises-skype-for-business-server-and-outlook-web-app"></a>Configurer l’intégration entre locale Skype pour Business Server et Outlook Web App
 
@@ -40,7 +40,7 @@ Pour intégrer locale Skype pour Business Server avec Exchange Online, vous deve
 Set-CsAccessEdgeConfiguration -AllowFederatedUsers $True
 ```
 
-- **AllowFederatedUsers** Spécifie si les utilisateurs internes sont autorisés à communiquer avec les utilisateurs des domaines fédérés. Cette propriété détermine également si les utilisateurs internes peuvent communiquer avec des utilisateurs dans un scénario d’espace d’adresse SIP partagé avec Skype pour Business Server et Exchange Online.
+- Le paramètre **AllowFederatedUsers** indique si les utilisateurs internes sont autorisés à communiquer avec des utilisateurs de domaines fédérés. Cette propriété détermine également si les utilisateurs internes peuvent communiquer avec des utilisateurs dans un scénario d’espace d’adresse SIP partagé avec Skype pour Business Server et Exchange Online.
 
 Pour plus d’informations sur l’utilisation de la Skype pour Business Server Management Shell, voir [Skype pour Business Server Management Shell](../../manage/management-shell.md).
 
@@ -55,19 +55,19 @@ New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedA
 > [!NOTE]
 > Si vous utilisez Office 365 activé par 21Vianet en Chine, remplacez dans cet exemple la valeur du paramètre ProxyFqdn (« exap.um.outlook.com ») par le FQDN du service activé par 21Vianet: « exap.um.partner.outlook.cn ». Si vous utilisez Office 365 GCC haute, remplacez la valeur du paramètre ProxyFqdn dans cet exemple (« exap.um.outlook.com ») avec le nom de domaine complet GCC High : « exap.um.office365.us ».
 
-- **Identité** spécifie un identificateur de valeur de chaîne unique pour le fournisseur d’hébergement que vous créez (par exemple, « Exchange Online »). Les valeurs qui contiennent des espaces doivent être placées entre guillemets doubles.
+- **Identity** spécifie un identificateur de valeur de chaîne unique pour le fournisseur d’hébergement que vous créez (par exemple, « Exchange Online »). Les valeurs qui contiennent des espaces doivent être placées entre guillemets doubles.
 
 - **Enabled ** indique si la connexion réseau entre votre domaine et le fournisseur d’hébergement est activée. Ce paramètre doit avoir la valeur True.
 
-- **EnabledSharedAddressSpace** indique si le fournisseur d’hébergement sera utilisé dans un scénario d’espace d’adresse SIP partagé. Ce paramètre doit avoir la valeur True.
+- **EnabledSharedAddressSpace** indique si le fournisseur d’hébergement sera utilisé dans un scénario d’espace d’adressage SIP partagé. Ce paramètre doit avoir la valeur True.
 
 - **HostsOCSUsers** indique si le fournisseur d’hébergement est utilisé pour héberger Office Communications Server ou Skype pour Business Server. Ce paramètre doit avoir la valeur False.
 
-- **ProxyFQDN** Spécifie le nom de domaine complet (FQDN) du serveur proxy utilisé par le fournisseur d’hébergement. Pour Exchange Online, le nom de domaine complet est exap.um.outlook.com.
+- **ProxyFQDN** spécifie le nom de domaine complet du serveur proxy utilisé par le fournisseur d’hébergement. Pour Exchange Online, le nom de domaine complet est exap.um.outlook.com.
 
 - **IsLocal** indique si le serveur proxy utilisé par le fournisseur d’hébergement est contenu dans votre Skype pour la topologie du serveur d’entreprise. Ce paramètre doit avoir la valeur False.
 
-- **VerificationLevel** Indique le niveau de vérification autorisé pour les messages qui sont envoyés vers ou à partir du fournisseur hébergé. Spécifiez **UseSourceVerification**, qui repose sur le niveau de vérification inclus dans les messages envoyés à partir du fournisseur d’hébergement. Si ce niveau n’est pas spécifié, le message sera rejeté comme étant non vérifiables.
+- **VerificationLevel** Indique le niveau de vérification autorisé pour les messages qui sont envoyés vers ou à partir du fournisseur hébergé. Spécifiez **UseSourceVerification**, qui repose sur le niveau de vérification inclus dans les messages en provenance du fournisseur hébergé. Si ce niveau n’est pas spécifié, le message sera rejeté comme étant non vérifiables.
 
 ## <a name="verify-replication-of-the-updated-central-management-store"></a>Vérifier la réplication du magasin central de gestion mis à jour
 
@@ -78,12 +78,14 @@ Pour vérifier les mises à jour de réplication, sur un serveur interne dans vo
 ```
 Get-CsManagementStoreReplicationStatus
 ```
+Vérifiez si UpToDate valeur affiche la valeur TRUE pour tous les réplicas.
 
 Pour confirmer que les modifications ont été appliquées, sur le serveur Edge, exécutez l’applet de commande suivante :
 
 ```
 Get-CsHostingProvider -LocalStore
 ```
+Vérifiez si les informations affichées établit une correspondance avec les modifications validées lors des étapes précédentes.
 
 ## <a name="see-also"></a>Voir aussi
 

@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Découvrez comment utiliser les onglets intégrés et personnalisés pour inclure des fonctionnalités telles des conversations, des fichiers, des mappages, et plus encore.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a1e93de09dc99832f942397a3af966334371a094
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: e63cbe83214f9323692804b7d297de9091aceef0
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30458795"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30568663"
 ---
 <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>Utiliser les onglets intégrés et personnalisés dans Microsoft Teams
 ==================================================
@@ -32,7 +32,7 @@ Les propriétaires et membres d'équipe peuvent ajouter d'autres onglets à un c
 
 ## <a name="work-with-tabs"></a>Utilisation des onglets
 
-- Avec chaque nouveau canal, deux onglets sont mis en service par défaut, les Conversations et les fichiers. 
+- Avec chaque nouveau canal, deux onglets sont configurés par défaut : Conversations et les fichiers. 
 
     ![Capture d'écran de la section Conversation de l'équipe Marketing.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image1.png)
 - Avec chaque conversation privée, quatre onglets sont configurés par défaut, les Conversations, les fichiers, organisation et les activités.

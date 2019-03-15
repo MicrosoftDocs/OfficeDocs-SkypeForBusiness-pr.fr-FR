@@ -4,7 +4,7 @@ author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
 ms.date: 03/13/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
@@ -15,18 +15,18 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f7a277133adb520ea2a5e23cab05477f79f18ea1
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 4d473408b054d1e7a89ad5ce27c1686cce181d9e
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461891"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30568687"
 ---
 # <a name="make-my-service-decisions"></a>Prendre des décisions de mon service
 
 Pour planifier l’implémentation du système téléphonique technique avec des Plans de l’appel, vous devez apporter une série de décisions de service à l’avance afin de mieux préparer votre organisation pour implémenter une solution qui répond aux besoins de votre entreprise défini.
 
-## <a name="calling-in-teams"></a>Appel dans Teams
+## <a name="calling-in-teams"></a>L’appel dans les équipes
 
 Avec Microsoft Teams, vos utilisateurs peuvent passer et recevoir des appels vers ou depuis le réseau téléphonique commuté (RTC). Vos utilisateurs peuvent utiliser leurs propres numéros de téléphone dédié pour l’émission et réception d’appels téléphoniques nationales et internationales des applications clientes équipes, avec des fonctionnalités avancées qui incluent la messagerie vocale.
 
@@ -42,7 +42,7 @@ Pour activer la connectivité au réseau RTC, votre organisation peut utiliser M
 > [!IMPORTANT]
 > La possibilité d’utiliser votre propre fournisseur de services de télécommunications pour le système téléphonique avec votre déploiement équipes est également disponible avec le routage d’un système téléphonique Direct. Pour plus d’informations sur le routage Direct, veuillez consulter les [instructions de routage Direct](2-envision-make-my-service-decisions-direct-routing.md).
 
-## <a name="phone-system-with-calling-plans"></a>Système téléphonique avec forfaits d’appels
+## <a name="phone-system-with-calling-plans"></a>Système téléphonique avec les Plans d’appel
 
 Pour utiliser Microsoft comme votre fournisseur de télécommunications, vous devez obtenir des licences de l’appel de planifier et les attribuer aux utilisateurs de votre système téléphonique.
 
@@ -56,7 +56,7 @@ Chaque type de planification de l’appelante alloue un certain nombre de minute
 
 <!--ENDOFSECTION-->
 
-## <a name="availability-of-calling-plans"></a>Disponibilité des forfaits d'appels
+## <a name="availability-of-calling-plans"></a>Disponibilité des Plans d’appel
 
 Avant de planifier l’implémentation de l’appel des Plans dans les équipes, vérifiez que le service des Plans de l’appel est disponible dans votre région en examinant le [pays et région disponibilité pour la conférence Audio et des Plans de l’appel](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
@@ -78,13 +78,13 @@ Après avoir confirmé que votre organisation peut obtenir le service d’appel 
 > [!TIP]
 > Voici un exemple d’un système téléphonique avec la liste des activation appelant des Plans de site.
 > 
-> | **Office**                     | **Emplacement**   | **Service de système téléphonique** |
+> | **Bureau**                     | **Emplacement**   | **Service de système téléphonique** |
 > |--------------------------------|----------------|--------------------------|
-> | 1 Eppîng Road                | Australie      | Service PSTN hérité |
-> | 100 Cyberport Road             | Hong Kong R.A.S.  | Routage d’un système téléphonique Direct |
-> | 1 Marina Boulevard           | Singapour      | Routage d’un système téléphonique Direct |
-> | 32 London Bridge Street        | Royaume-Uni | Système téléphonique avec forfaits d’appels |
-> | 39 quai du Président Roosevelt | France         | Système téléphonique avec forfaits d’appels |
+> | 1 Eppîng Road                | Australie      | Service RTC antérieur |
+> | 100 Cyberport Road             | Hong Kong R.A.S.  | Routage direct via le système téléphonique |
+> | 1 Marina Boulevard           | Singapour      | Routage direct via le système téléphonique |
+> | 32 London Bridge Street        | Royaume-Uni | Système téléphonique avec les Plans d’appel |
+> | 39 quai du Président Roosevelt | France         | Système téléphonique avec les Plans d’appel |
 
 <!--ENDOFSECTION-->
 
@@ -92,7 +92,7 @@ Après avoir confirmé que votre organisation peut obtenir le service d’appel 
 
 Avec des Plans de l’appel dans Office 365, tous les utilisateurs de votre organisation doivent avoir un unique vers l’intérieur direct composer le numéro de téléphone (DID) et une adresse d’urgence validée correspondante. Passez en revue les [numéros de téléphone voix gérer dans le nuage](2-envision-make-my-service-decisions-phone-system.md#manage-cloud-voice-telephone-numbers) pour planifier l’acquisition de numéro de téléphone pour votre mise en œuvre des Plans de l’appel.
 
-Lorsque vous configurez des numéros de téléphone pour appeler des Plans, vous devez affecter une adresse d’urgence pour chaque numéro de téléphone avant d’affecter le nombre à un utilisateur. Cela est obligatoire pour prendre en charge les appels d'urgence. L’adresse d’urgence doit être validée pour vous assurer qu’il se trouve dans le format correct pour être utilisé par les services d’urgence.
+Lorsque vous configurez des numéros de téléphone pour appeler des Plans, vous devez affecter une adresse d’urgence pour chaque numéro de téléphone avant d’affecter le nombre à un utilisateur. Cela est nécessaire pour prendre en charge les appels d’urgence. L’adresse d’urgence doit être validée pour vous assurer qu’il se trouve dans le format correct pour être utilisé par les services d’urgence.
 
 > [!IMPORTANT]
 > Appel de Services d’urgence fonctionne différemment dans le service d’appel de Plans que dans les services téléphoniques traditionnels. Il est important de comprendre les différences et les communique à tous les utilisateurs. Pour plus d’informations, voir [Conditions et les termes du contrat de l’appel d’urgence](emergency-calling-terms-and-conditions.md) .
@@ -101,7 +101,7 @@ En plus de fournir une adresse d’urgence validée, vous pourrez définir des e
 
 Pour en savoir plus sur les emplacements d’urgence par rapport à l’appelant Plans, lisez les articles suivants :
 
--   [Que sont les emplacements d'urgence, les adresses de secours et le routage des appels ?](what-are-emergency-locations-addresses-and-call-routing.md)
+-   [Que sont les emplacements, les adresse et le routage d'appel d'urgence ?](what-are-emergency-locations-addresses-and-call-routing.md)
 
 -   [Conditions générales d’utilisation des appels d’urgence](emergency-calling-terms-and-conditions.md)
 
@@ -117,10 +117,10 @@ Pour en savoir plus sur les emplacements d’urgence par rapport à l’appelant
 > 
 > |Utilisateur |Adresse et l’emplacement en cas d’urgence |Numéro de téléphone |
 > |-----|-------------------------------|-------------|
-> |Emily Braun |1034/32 London Bridge Street, Londres, SE1, Royaume-Uni |+ 44 23 4567 8901 |
+> |Emily Braun |1034/32 Londres pont rue, London, SE1, Royaume-Uni |+ 44 23 4567 8901 |
 > |Lidia Holloway |1065/32 Londres pont rue, London, SE1, Royaume-Uni |+ 44 23 4567 89112 |
-> |Louis Lahr |1023/32 London Bridge Street, Londres, SE1, Royaume-Uni |+ 44 23 4567 8921 |
-> |Marcel Beauchamp |07E15D/39 quai du Président Roosevelt, 92130 Issy-les-Moulineaux, France | TBA |
+> |Louis Lahr |1023/32 Londres pont rue, London, SE1, Royaume-Uni |+ 44 23 4567 8921 |
+> |Marcel Beauchamp |07E15D/39 quai du Président Roosevelt, Issy 92130-les-Moulineaux, France | TBA |
 > |Rachelle Cormier |07N15D/39 quai du Président Roosevelt, Issy 92130-les-Moulineaux, France | TBA |
 > |Isabell Potvin |07F05E/39 quai du Président Roosevelt, Issy 92130-les-Moulineaux, France | TBA |
 
@@ -153,16 +153,16 @@ Pour plus d’informations sur la messagerie vocale dans une implémentation du 
 > |------------------|------------------|-------------------|----------|----------|
 > |Emily Braun      |Online      |Oui |Activé |Activé |
 > |Lidia Holloway   |Online      |Oui |Activé |Désactivé |
-> |Louis Lahr       |Local |Oui |Activé |Activé |
-> |Marcel Beauchamp |Local |Oui |Désactivé |N/A |
-> |Rachelle Cormier |En ligne      |Oui |Désactivé |N/A |
-> |Isabell Potvin   |Local |Oui |Désactivé |N/A |
+> |Louis Lahr       |Sur site |Oui |Activé |Activé |
+> |Marcel Beauchamp |Sur site |Oui |Désactivé |N/A |
+> |Rachelle Cormier |Online      |Oui |Désactivé |N/A |
+> |Isabell Potvin   |Sur site |Oui |Désactivé |N/A |
 
 <!--ENDOFSECTION-->
 
-## <a name="calling-identity"></a>Identité d'appel
+## <a name="calling-identity"></a>Identité de l’appelant
 
-Par défaut, tous les appels sortants utilisent le numéro de téléphone attribué en tant qu'identité d'appel (ID de l'appelant). Le destinataire de l'appel peut rapidement identifier l'appelant et décider d'accepter ou de refuser l'appel. Dans certains cas, il existe des besoins légitimes pour masquer l’ID d’appelant pour protéger l’identité des appelants en utilisant le numéro de ligne principale office — il s’agit généralement d’un numéro de service pris en charge par la configuration du standard automatique — en tant qu’ID d’appelant ou bloquer des ID de l’appelant présentation entièrement.
+Par défaut, tous les appels sortants utilisent le numéro de téléphone affecté comme identité de l’appelante (ID de l’appelant). Le destinataire de l'appel peut rapidement identifier l'appelant et décider d'accepter ou de refuser l'appel. Dans certains cas, il existe des besoins légitimes pour masquer l’ID d’appelant pour protéger l’identité des appelants en utilisant le numéro de ligne principale office — il s’agit généralement d’un numéro de service pris en charge par la configuration du standard automatique — en tant qu’ID d’appelant ou bloquer des ID de l’appelant présentation entièrement.
 
 <br>
 
@@ -174,14 +174,14 @@ Par défaut, tous les appels sortants utilisent le numéro de téléphone attrib
 > [!TIP]
 > Voici un exemple de la documentation plus d’informations de masquage des ID de l’appelant.
 > 
-> |Utilisateur  |Activer le masquage de l'ID de l'appelant sortant  |Type de masquage de l'ID de l'appelant  |Autoriser le remplacement de l'utilisateur  | Activer le masquage de l'ID de l'appelant entrant  |
+> |Utilisateur  |Activer le masquage de l’ID d’appelant sortant  |Masquage de type d’ID de l’appelant  |Autoriser le remplacement de l’utilisateur  | Activer le masquage de l’ID d’appelant entrant  |
 > |---------|---------|---------|---------|---------|
 > |Emily Braun|Non|N/A|Oui|Non|
-> |Lidia Holloway|Oui|Numéro de service (OrgAA, +44 20 7946 0000)|Non|Oui|
+> |Lidia Holloway|Oui|Numéro de service (OrgAA + 44 20 7946 0000)|Non|Oui|
 > |Louis Lahr|Non|N/A|Oui|Non|
-> |Marcel Beauchamp|Oui|Numéro de service (OrgAA, TBA)|Non|Oui|
+> |Marcel Beauchamp|Oui|Numéro de service (OrgAA, à déterminer)|Non|Oui|
 > |Rachelle Cormier|Oui|Anonymiser|Oui|Non|
-> |Isabell Potvin|Oui|Numéro de service (OrgAA, TBA)|Non|Oui|
+> |Isabell Potvin|Oui|Numéro de service (OrgAA, à déterminer)|Non|Oui|
 
 <!--ENDOFSECTION-->
 
@@ -193,24 +193,24 @@ Plans d’appel est un module complémentaire à la fonctionnalité de système 
 
 Pour prendre en charge pour audioconférence supplémentaires et appel des Plans de cas (international conférence rendez-vous, externe à l’appel après épuisement des allocations minutes de planifier l’appel, etc.) d’utilisation, vous pouvez configurer les Communications crédits pour votre organisation.
 
-## <a name="licensing-for-calling-plans"></a>Licence de forfaits d'appels
+## <a name="licensing-for-calling-plans"></a>Gestion des licences pour les Plans d’appel
 
 Si votre organisation envisage d’utiliser Microsoft comme fournisseur de services de télécommunications, vous devez obtenir l’appel de planifier les modules complémentaires appropriées aux besoins de vos utilisateurs. En règle générale, pas tout le monde dans une organisation doit passer des appels internationaux, afin que vous pouvez configurer la plupart des utilisateurs avec des licences nationales de planifier l’appel.
 
-Deux types de licences de forfait d'appels sont disponibles :
+Il existe deux types de licences planifier l’appel :
 
 -   Forfait d'appels nationaux
 
 -   Forfait d'appels nationaux et internationaux
 
 > [!NOTE]
-> Le caractère « national » inhérent à un utilisateur spécifique est déterminé par l'emplacement d'utilisation d'Office 365 attribué à cet utilisateur.
+> Ce qui est considéré comme « interne » pour un utilisateur spécifique est déterminé par l’emplacement d’utilisation de l’utilisateur affecté Office 365.
 
-Chaque type de forfait d'appels attribue des minutes d'appels nationaux ou internationaux aux utilisateurs sur une base mensuelle. Les coûts de planifier l’appel nationales qu'inférieur par rapport à l’International et nationales appelant planifier.
+Chaque type d’appel de planification fournit une répartition de l’appel de minutes pendant lesquelles les utilisateurs peuvent utiliser par mois, soit pour effectuer des appels nationaux ou appels internationaux. Les coûts de planifier l’appel nationales qu'inférieur par rapport à l’International et nationales appelant planifier.
 
 La flexibilité de l’abonnement et en affectant le type d’appel de planifier plus approprié pour les besoins des utilisateurs individuels permet de contrôler les coûts de son implémentation de l’appel des Plans de votre organisation.
 
-Pour chaque client Office 365, le nombre de minutes d'appels combiné est regroupé par pays ou région et par type de forfait d'appels. Une fois que le client a atteint la limite de minutes d'appels mensuelles, le service de forfaits d'appels (à l'exception des appels d'urgence) est suspendu jusqu'à la fin du mois. Le service d’appel de Plans reprendra automatiquement sur le premier jour du mois suivant.
+Pour chaque client Office 365, le nombre total de minutes d’appel est regroupée par pays ou région et par type de planifier l’appel. Lorsque le mensuel appelant minutes pour le client est atteinte, l’appel des Plans de service (à l’exception des appels d’urgence) sera interrompu pour le reste du mois. Le service d’appel de Plans reprendra automatiquement sur le premier jour du mois suivant.
 
 Vous pouvez définir des crédits Communications pour vos organisations pour permettre aux utilisateurs d’émettre des appels sortants une fois que l’allocation de l’appel de minutes épuisement sans devoir attendre le mois prochain cycle de facturation. En outre, crédits Communications donnent les utilisateurs affectés le Plan d’appel nationales la possibilité d’effectuer des appels internationaux, qui sont appliqués à l’aide d’un modèle « salaire par minute ».
 
@@ -218,7 +218,7 @@ Pour en savoir plus sur le système téléphonique et Plans de l’appel, lisez 
 
 -   [Système téléphonique](https://products.office.com/en-us/skype-for-business/phone-system)
 
--   [Offres d'appels](https://products.office.com/en-us/skype-for-business/calling-plans)
+-   [Forfaits d’appel](https://products.office.com/en-us/skype-for-business/calling-plans)
 
 <br>
 
@@ -409,17 +409,17 @@ Pour plus d'informations sur les plans d'appel, voir [Quels sont les plans de nu
 
 Utilisez les informations dans les sections précédentes de cet article pour documenter vos décisions de service. En règle générale, cette documentation contient les sections principales suivantes :
 
--   Liste d'habilitation des sites pour les systèmes téléphoniques avec forfaits d'appels
+-   Système téléphonique avec la liste des activation appelant des Plans de site
 
--   Attribution d'une licence aux utilisateurs de système téléphonique avec forfaits d'appels
+-   Affectation de licence pour le système téléphonique avec des Plans de l’appel des utilisateurs
 
 -   Numéros de planification de crédits de communication
 
--   Détails relatifs à l'acquisition des numéros de téléphone, aux numéros de téléphones et aux emplacements d'urgence
+-   Acquisition de numéro de téléphone, les numéros de téléphone et les détails de l’emplacement en cas d’urgence
 
--   Détails sur la configuration de la messagerie vocale
+-   Détails de configuration de la messagerie vocale
 
--   Détails de la configuration du masquage de l'ID de l'appelant
+-   ID d’appelant masquage des détails de configuration
 
 -   Plans de numérotation de client
 

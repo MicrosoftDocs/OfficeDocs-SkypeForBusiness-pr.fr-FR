@@ -1,10 +1,10 @@
 ---
-title: Définir le succès de conférence Audio, système téléphonique avec des Plans de l’appel, ou téléphone système routage Direct - Microsoft Teams
+title: 'Définir le succès de conférence Audio, Système téléphonique avec forfait d’appel, ou Système téléphonique avec routage direct : Microsoft Teams'
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
 ms.date: 06/07/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
@@ -15,14 +15,14 @@ MS.collection:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 405ec9e5471925ed977fc480d1b64f8d8deaee4b
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: c6d841a593cf88830f95bb6282b21a081abf6f21
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465107"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569757"
 ---
-# <a name="define-my-success"></a>Définir mon réussite
+# <a name="define-my-success"></a>Définir ma réussite
 
 Cet article donne une vue d’ensemble de la configuration requise pour définir la réussite du déploiement de conférence Audio, le système téléphonique avec des Plans de l’appel, ou acheminement d’un système téléphonique Direct pour votre organisation. En définissant correctement l’aspect de réussite, vous pouvez mesurer les résultats en tant que votre progression par le biais de votre déploiement et vérifier que les résultats que vous obtenez sont celles que vous souhaitiez.
 
@@ -67,7 +67,7 @@ Exemples d’utilisation sont destinées à définir et commerciaux attendue et 
 > 
 > |         |
 > |---------|
-> |**Description du processus d’entreprise actuel**<br>La configuration standard des espaces de travail Contoso inclut un numéro de téléphone pour chaque bureau. Chaque employé a reçu un direct vers l’intérieur composer le numéro de téléphone (DID)). Les téléphones de bureau sont connectés à un système PBX et connectés au PSTN via une jonction de protocole (SIP) session initiation. Les employés peuvent uniquement passer et recevoir des appels sur le téléphone de bureau qui leur a été attribué.|
+> |**Description du processus d’entreprise actuel**<br>Configuration standard des espaces de travail de Contoso office inclut un téléphone de bureau pour chaque bureau. Chaque employé a reçu un direct vers l’intérieur composer le numéro de téléphone (DID)). Les téléphones de bureau sont connectés à un système PBX et connectés au PSTN via une jonction de protocole (SIP) session initiation. Les employés peuvent uniquement émettre et recevoir des appels téléphoniques à leurs téléphones de bureau affectés.|
 > |**Difficultés par rapport au processus d’entreprise existant**<br>Analyse de l’utilisation des téléphones de bureau indique que seuls 10 % des téléphones de bureau sont utilisés activement avec le reste configuré pour transférer les appels aux téléphones mobiles ou pour faire sonner simultanément aux téléphones mobiles. Mise à jour le système PBX existant et les téléphones de bureau associées contribue à 20 % du coût de service de téléphonie mensuel de Contoso.|
 > |**Comment la technologie peut surmonter ces difficultés**<br>Plans d’appel permettra d’ordinateur du personnel d’un utilisateur recevoir et effectuer des appels téléphoniques via le réseau de données en tirant parti de l’application Microsoft Teams native. Cela élimine le besoin pour déployer et gérer des téléphones de bureau et ouvre la possibilité de mettre hors service le système PBX existant, car le service peut être remis via le nuage via le réseau avec aucune dépendance sur un système téléphonique traditionnel.|
 > |**Résultats de l’entreprise attendus et mesurables**<br>Suppression des besoins de maintenance et la mise hors service des PBX hérités et les téléphones de bureau fournira une réduction de 20 % de téléphonie mensuel des frais de service. Plans d’appel simplifie les espaces de travail office permettant de Contoso étendre ses opérations en établissant les nouveaux bureaux avec des frais de téléphone initial minimal.|
@@ -79,7 +79,7 @@ Exemples d’utilisation sont destinées à définir et commerciaux attendue et 
 > 
 > |         |
 > |---------|
-> |**Description du processus d’entreprise actuel**<br>La configuration standard des espaces de travail Contoso inclut un numéro de téléphone pour chaque bureau. Chaque employé a reçu un direct vers l’intérieur composer le numéro de téléphone (DID)). Les téléphones de bureau sont connectés à un système PBX et connectés au PSTN via une jonction de protocole (SIP) session initiation. Les employés peuvent uniquement passer et recevoir des appels sur le téléphone de bureau qui leur a été attribué.|
+> |**Description du processus d’entreprise actuel**<br>Configuration standard des espaces de travail de Contoso office inclut un téléphone de bureau pour chaque bureau. Chaque employé a reçu un direct vers l’intérieur composer le numéro de téléphone (DID)). Les téléphones de bureau sont connectés à un système PBX et connectés au PSTN via une jonction de protocole (SIP) session initiation. Les employés peuvent uniquement émettre et recevoir des appels téléphoniques à leurs téléphones de bureau affectés.|
 > |**Difficultés par rapport au processus d’entreprise existant**<br>Analyse de l’utilisation des téléphones de bureau indique que seuls 10 % des téléphones de bureau sont utilisés activement avec le reste configuré pour transférer les appels aux téléphones mobiles ou pour faire sonner simultanément aux téléphones mobiles. Mise à jour le système PBX existant et les téléphones de bureau associées contribue à 20 % du coût de service de téléphonie mensuel de Contoso.|
 > |**Comment la technologie peut surmonter ces difficultés**<br>Le contrat de fournisseur de jonction SIP a été récemment signé et sera en place pour trois ans. Routage direct permet une connectivité PSTN à être fourni par le fournisseur de jonction SIP et permettre également PC d’un utilisateur recevoir et effectuer des appels téléphoniques via le réseau de données en tirant parti de l’application Microsoft Teams native. Cela élimine le besoin pour déployer et gérer des téléphones de bureau et ouvre la possibilité de mettre hors service le système PBX existant, tout en conservant un encombrement limité locale session border controller (SBC).|
 > |**Résultats de l’entreprise attendus et mesurables**<br>Suppression des besoins de maintenance et la mise hors service des PBX hérités et les téléphones de bureau fournira une réduction de 20 % de téléphonie mensuel des frais de service. Routage direct simplifie espaces de travail office permettant de Contoso étendre ses opérations en établissant les nouveaux bureaux avec des frais de téléphone initial minimal.|
@@ -164,7 +164,7 @@ OKRs contiennent les objectifs que vous définissez au début du projet, et vous
 > |Objectifs  |Résultats de la clé  |À suivre  |
 > |---------|---------|---------|
 > |Déployer des Plans de l’appel dans les succursales European à la fin de l’année fiscale 2018|FY18Q3 : Déployer des Plans de l’appel dans office Londres|Concevoir<ul><li>Créer un plan de réussite</li><li>Créer un plan d’implémentation technique détaillé</li></ul><p>Intégrer<ul><li>Exécuter le plan de réussite</li><li>Exécuter le plan d’implémentation technique</li></ul>|
-> |Désactiver le système PBX hérité dans les bureaux londoniens d'ici la fin de l'exercice fiscal 2018|T4, 2018 : Désactiver le système PBX hérité dans les bureaux londoniens|Générer une valeur ajoutée<ul><li>Favoriser l’implication des utilisateurs et encourager l'adoption</li><li>Gérer et préparer le changement</li><li>Mesurer, partager la réussite et retravailler</li>|
+> |Mettre hors service des PBX hérités dans office London à la fin de l’année fiscale 2018|FY18Q4 : Mettre hors service des PBX hérités dans office Londres|Générer une valeur ajoutée<ul><li>Favoriser l’implication des utilisateurs et encourager l'adoption</li><li>Gérer et préparer le changement</li><li>Mesurer, partager la réussite et retravailler</li>|
 > 
 > [!TIP]
 > Exemples de OKRs pertinents pour une implémentation de routage Direct peuvent être référencés ci-dessous :
@@ -214,7 +214,7 @@ Vous devez identifier les risques dans le cadre de cet exercice et définir un p
 > |Risque  |Probabilité  |Impact  |Global  |Plan d’atténuation  |
 > |---------|---------|---------|---------|---------|
 > |Une fusion prochaine ajoutera jusqu’à 1000 personnes|Haut|Haut|Haut|<ul><li>Pour des sociétés fusionnées, créez un OKR distinct qui s’applique à leurs propres phases du projet (prévoir, Onboard, valeur lecteur)</li><li>N’incluez pas ces OKRs dans OKRs existants</li></ul>|
-> |Le transfert des numéros de téléphone retardera la réalisation du projet|Haut|Haut|Haut|<ul><li>Préparer toutes les informations nécessaires pour prendre en charge le numéro de téléphone portage à l’avance (enregistrement de service de client, facturation plus d’informations, lettre d’autorisation)</li><li>Ajuster la chronologie du projet pour prendre en charge le délai d’exécution portage numéro de téléphone</li><li>Communiquer l’utilisation de nouveaux numéros de conférence rendez-vous aux participants externes</li><li>Utiliser les numéros de téléphone provisoires avec la manipulation de l'ID de l'appelant</li></ul>|
+> |Le transfert des numéros de téléphone retardera la réalisation du projet|Haut|Haut|Haut|<ul><li>Préparer toutes les informations nécessaires pour prendre en charge le numéro de téléphone portage à l’avance (enregistrement de service de client, facturation plus d’informations, lettre d’autorisation)</li><li>Ajuster la chronologie du projet pour prendre en charge le délai d’exécution portage numéro de téléphone</li><li>Communiquer l’utilisation de nouveaux numéros de conférence rendez-vous aux participants externes</li><li>Utilisez les numéros de téléphone temporaire avec manipulation de l’ID de l’appelant</li></ul>|
 > |Reconception du réseau planifiée|Élevée|Moyen|Moyen|<ul><li>Avant d’implémenter des équipes comme plateforme de collaboration et communications modernes, mener une évaluation de préparation du réseau pour les sites dans la portée du projet</li></ul>|
 > |Configuration de SBC|Haut|Haut|Haut|<ul><li>Avant d’implémenter des équipes en tant que remplacement pour le système PBX existant, vérifiez que vous pouvez vous réunir toutes les exigences de configuration SBC</li><li>Confirmez que les ressources de support SBC ont les compétences approprié pour configurer le contrôleur SBC pour le routage Direct</li></ul>|
 

@@ -8,12 +8,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ec6197a-3d1e-4b42-9465-564044cdab1a
 description: Cet article vous guidera dans les étapes pour configurer un Skype existant pour l’installation de Business Server afin d’utiliser le service de mobilité, qui permet à vos appareils mobiles et être en mesure de tirer parti de Skype pour les fonctionnalités de mobilité Server.
-ms.openlocfilehash: e1799459d2e7723298aa7fdda17f89a9041efd15
-ms.sourcegitcommit: e93b12f5ebaad1140d7df798b5e0647197b9213d
+ms.openlocfilehash: 788f4084f902fc1b5fee8ae29fcd518542f3572d
+ms.sourcegitcommit: 3d3a296f225ecbbee0b4cea67664ad7ab31ed1c2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "26649714"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30536032"
 ---
 # <a name="deploy-and-configure-mobility-for-skype-for-business-server"></a>Déployer et configurer la mobilité pour Skype pour Business Server  
  
@@ -258,7 +258,7 @@ Si vous avez des questions sur la planification autour de certificats, nous avon
 
 Les étapes ci-dessous ne doivent pas nécessairement être suivies pas à pas. Dans les versions précédentes de ce produit, nous vous avons par exemple guidé tout au long de la procédure de configuration de Threat Management Gateway (TMG) et si vous ne l'utilisez pas, vous devrez élaborer votre propre procédure selon la version que vous utilisez.
   
-TMG n'est plus fourni par Microsoft en tant que produit, et si vous devez le configurer, vous pouvez suivre les étapes décrites à la page [Lync Server 2013 ](https://technet.microsoft.com/en-us/library/hh690011%28v=ocs.15%29.aspx). Mais les informations suivantes de destiné à être plus utile, même s’il n’existe aucun moyen que nous pouvons fournir une procédure spécifique pour chaque proxy inverse.
+TMG n’est plus offert par Microsoft en tant que produit, et si vous avez besoin de configurer, vous pouvez consulter les [étapes de Lync Server 2013](https://technet.microsoft.com/en-us/library/hh690011%28v=ocs.15%29.aspx). Mais les informations suivantes de destiné à être plus utile, même s’il n’existe aucun moyen que nous pouvons fournir une procédure spécifique pour chaque proxy inverse.
   
 Deux points essentiels doivent être pris en compte :
   
@@ -464,7 +464,7 @@ Pour examiner en détail les procédures de commande, vous pouvez consulter [Tes
 ## <a name="configure-for-push-notifications"></a>Configurer les notifications push
 <a name="ConfigPush"> </a>
 
-Les notifications push, sous forme de badges, d’icônes ou d’alertes, peuvent être envoyées à un appareil mobile même lorsque l'application Skype ou Lync est inactive. Mais, qu'est-ce que les notifications push ? Ce sont des alertes pour des événements, comme des invitations de messagerie instantanée nouvelles ou manquées, ou un message vocal reçu. Le Skype pour le service de mobilité Server envoie ces notifications vers le nuage Skype pour Business Server Service de notifications Push, qui envoie ensuite les notifications à Microsoft Push Notification Service (MSNS) pour les utilisateurs de Windows Phone.
+Les notifications push, sous forme de badges, d’icônes ou d’alertes, peuvent être envoyées à un appareil mobile même lorsque l'application Skype ou Lync est inactive. Mais quels sont les notifications push ? Ce sont des alertes pour des événements, comme des invitations de messagerie instantanée nouvelles ou manquées, ou un message vocal reçu. Le Skype pour le service de mobilité Server envoie ces notifications vers le nuage Skype pour Business Server Service de notifications Push, qui envoie ensuite les notifications à Microsoft Push Notification Service (MSNS) pour les utilisateurs de Windows Phone.
   
 Cette fonctionnalité est inchangée de Lync Server 2013, mais si vous avez un Skype pour Business Server, vous souhaiterez effectuer les opérations suivantes :
   

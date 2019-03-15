@@ -1,5 +1,5 @@
 ---
-title: Améliorer les groupes Office 365 existants avec Microsoft Teams
+title: Améliorer les groupes d’Office 365 avec Microsoft Teams existants
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -14,14 +14,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95112a3a3e4aea4fee68507fea4c366dac1da2da
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 13b34da03c35706fafb02a4e9e02eab629a4a399
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463523"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30568415"
 ---
-<a name="enhance-existing-office-365-groups-with-microsoft-teams"></a>Améliorer les groupes Office 365 existants avec Microsoft Teams
+<a name="enhance-existing-office-365-groups-with-microsoft-teams"></a>Améliorer les groupes d’Office 365 avec Microsoft Teams existants
 =======================================================
 
 Les utilisateurs Microsoft Teams peuvent améliorer un groupe Office 365 existant à l'aide de la fonctionnalité Microsoft Teams. L'amélioration d'un groupe Office 365 public est possible si le nombre de membres est inférieur ou égal à 2 500.
@@ -32,7 +32,6 @@ Pour ce faire, les utilisateurs doivent passer par le flux de la création d’u
 > Seuls les propriétaires de groupe dans Office 365 ont l’autorisation d’améliorer Microsoft Teams un groupe existant, et ce groupe doit contenir moins de 2 500 utilisateurs. Les équipes qui ont déjà été améliorés ne s’affichera pas dans la liste.
 >
 >L’option **créer une équipe à partir d’un groupe existant d’Office 365** ne sera pas disponible, sauf si ces conditions sont remplies.
-
 
 Les utilisateurs peuvent également inviter une liste de distribution à rejoindre une équipe et les membres de cette liste seront alors ajoutés à l'équipe. Il s'agit d'une synchronisation unique : aucune modification apportée ultérieurement à la liste de distribution ne sera répliquée dans Teams. 
 

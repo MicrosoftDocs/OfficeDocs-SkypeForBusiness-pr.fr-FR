@@ -3,21 +3,23 @@ title: Coexistence avec Skype Entreprise
 author: jambirk
 ms.author: francoid
 manager: Serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: francoid
-description: Ce document décrit le comportement de la conversation, le routage des appels et la présence entre les utilisateurs des équipes et Skype pour les entreprises, de client et fédérés, selon les modes TeamsUpgrade affectés. Il inclut les optimisations de routage, le comportement de présence, ainsi que la modification du mode de TeamsUpgrade par défaut à partir de *hérité* *Îles* et la mise hors service imminente de *hérité*.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c7dee2921e6458c797a09f5b3fa78118992766b2
-ms.sourcegitcommit: 3070dd7c091e6c97c6d746c6bfb866625184ba87
+description: Ce document décrit le comportement de la conversation, le routage des appels et la présence entre les utilisateurs des équipes et Skype pour les entreprises, de client et fédérés, selon les modes TeamsUpgrade affectés. Il inclut les optimisations de routage, le comportement de présence, ainsi que la modification du mode de TeamsUpgrade par défaut à partir de *hérité* *Îles* et la mise hors service imminente de *hérité*.
+ms.openlocfilehash: c6343b7f62249dab6e02c1e42fce1cc567f5035a
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "29786398"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569709"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Coexistence avec Skype Entreprise
 
@@ -76,8 +78,8 @@ Dans les tableaux qui suivent :
 
 | <br/><br/> Mode | Expéditeur <br/><br/> Client | <br/><br/> SfB&nbsp;hébergés | | Destinataire <br/><br/> (Îles)  |
 |--- |--- |--- |--- |--- |
-| (Îles) | Teams <br/> Skype Entreprise<br/> Teams<br/> Skype Entreprise| En ligne<br/> En ligne<br/> Sur prem<br/>Sur prem| &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|Teams <br/> Skype Entreprise<br/> Teams<br/> Skype Entreprise|
-|SfB\* <br/> | Skype Entreprise<br/>Skype Entreprise<br/> | Online<br/> Sur prem<br/> |&boxv;<br/>&boxv;|Skype Entreprise<br/>Skype Entreprise<br/>|
+| (Îles) | Teams <br/> Skype Entreprise<br/> Teams<br/> Skype Entreprise| En ligne<br/> En ligne<br/> Sur prem<br/>Sur prem| &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|Teams <br/> Skype Entreprise<br/> Teams<br/> Skype Entreprise|
+|SfB\* <br/> | Skype Entreprise<br/>Skype Entreprise<br/> | Online<br/> Sur prem<br/> |&boxv;<br/>&boxv;|Skype Entreprise<br/>Skype Entreprise<br/>|
 |TeamsOnly |Équipes| Online<br/>|&boxv;<br/>|Équipes|
 | | | | | |
 
@@ -85,8 +87,8 @@ Dans les tableaux qui suivent :
 
 | <br/><br/> Mode   | Expéditeur <br/><br/> Client | <br/><br/> SfB&nbsp;hébergés | |   Destinataire <br/><br/> SfB\*   |
 |--- |--- |--- |---   |--- |
-| (Îles) |Teams<br/>Skype Entreprise<br/>Teams <br/>Skype Entreprise  |En ligne<br/> En ligne<br/> Sur prem<br/> Sur prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype Entreprise* <br/> Skype Entreprise<br/> **N’est pas Possible** <br/>Skype Entreprise<br/> |
-|SfB\* <br/> | Skype Entreprise<br/>Skype Entreprise<br/> | Online<br/> Sur prem<br/> |&boxv;<br/>&boxv; |  Skype Entreprise<br/>Skype Entreprise<br/> |
+| (Îles) |Teams<br/>Skype Entreprise<br/>Teams <br/>Skype Entreprise  |En ligne<br/> En ligne<br/> Sur prem<br/> Sur prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype Entreprise* <br/> Skype Entreprise<br/> **N’est pas Possible** <br/>Skype Entreprise<br/> |
+|SfB\* <br/> | Skype Entreprise<br/>Skype Entreprise<br/> | Online<br/> Sur prem<br/> |&boxv;<br/>&boxv; |  Skype Entreprise<br/>Skype Entreprise<br/> |
 |TeamsOnly |Équipes| Online<br/>|&boxv;<br/> |  *Skype Entreprise* <br/>| 
 | | | | | |
 
@@ -94,8 +96,8 @@ Dans les tableaux qui suivent :
 
 | <br/><br/> Mode   | Expéditeur <br/><br/> Client | <br/><br/> SfB&nbsp;hébergés | |   Destinataire <br/><br/> TeamsOnly  |
 |--- |--- |--- |--- | --- |
-| (Îles)   |Équipes<br/>Skype Entreprise<br/>Équipes <br/>Skype Entreprise<br/>|En ligne<br/> En ligne<br/> Sur prem<br/> Sur prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|  Équipes <br/>*Teams* <br/>Équipes <br/>*Teams*  |
-|SfB\*  | Skype Entreprise<br/>Skype Entreprise<br/> | Online<br/> Sur prem<br/> | &boxv;<br/>&boxv; | *Teams*  <br/>*Teams*   |
+| (Îles)   |Équipes<br/>Skype Entreprise<br/>Équipes <br/>Skype Entreprise<br/>|En ligne<br/> En ligne<br/> Sur prem<br/> Sur prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|  Équipes <br/>*Teams* <br/>Équipes <br/>*Teams*  |
+|SfB\*  | Skype Entreprise<br/>Skype Entreprise<br/> | Online<br/> Sur prem<br/> | &boxv;<br/>&boxv; | *Teams*  <br/>*Teams*   |
 |TeamsOnly  | Équipes | Online |  &boxv; |Équipes   |
 |  |  |  | | |
 
@@ -116,8 +118,8 @@ Les tableaux ci-dessous décrivent le client reçoit un appel à partir de l’e
 
 | <br/><br/>Mode   | Expéditeur<br/><br/> Client| <br/><br/>SfB hébergés| | Destinataire<br/><br/> (Îles) |
 |--- |--- |--- |--- |--- |
-| (Îles) |Équipes<br/>Skype Entreprise <br/>Équipes <br/>Skype Entreprise  |En ligne<br/> En ligne<br/> Sur prem<br/> Sur prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype Entreprise* <br/> Skype Entreprise <br/> **N’est pas Possible**   <br/> Skype Entreprise |
-| SfB\* |Skype Entreprise <br/>Skype Entreprise |Online<br/> Sur prem<br/> | &boxv;<br/>&boxv;|Skype Entreprise <br/>Skype Entreprise |
+| (Îles) |Équipes<br/>Skype Entreprise <br/>Équipes <br/>Skype Entreprise  |En ligne<br/> En ligne<br/> Sur prem<br/> Sur prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype Entreprise* <br/> Skype Entreprise <br/> **N’est pas Possible**   <br/> Skype Entreprise |
+| SfB\* |Skype Entreprise <br/>Skype Entreprise |Online<br/> Sur prem<br/> | &boxv;<br/>&boxv;|Skype Entreprise <br/>Skype Entreprise |
 | TeamsOnly |Équipes |Online| &boxv;|*Skype Entreprise* |
 |  | | | | 
 
@@ -125,8 +127,8 @@ Les tableaux ci-dessous décrivent le client reçoit un appel à partir de l’e
 
 | <br/><br/>Mode   | Expéditeur<br/><br/> Client| <br/><br/>SfB hébergés| |  Destinataire<br/><br/> SfB\* |  
 |--- |--- |--- |--- |--- |
-| (Îles) |Équipes<br/>Skype Entreprise <br/>Équipes <br/>Skype Entreprise <br/>|En ligne<br/> En ligne<br/> Sur prem<br/> Sur prem<br/> | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype Entreprise* <br/> Skype Entreprise <br/> **N’est pas Possible** <br/>Skype Entreprise <br/> |  
-| SfB\* |Skype Entreprise <br/>Skype Entreprise  |Online<br/> Sur prem<br/>  |&boxv;<br/>&boxv; | Skype Entreprise <br/>Skype Entreprise  |
+| (Îles) |Équipes<br/>Skype Entreprise <br/>Équipes <br/>Skype Entreprise <br/>|En ligne<br/> En ligne<br/> Sur prem<br/> Sur prem<br/> | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype Entreprise* <br/> Skype Entreprise <br/> **N’est pas Possible** <br/>Skype Entreprise <br/> |  
+| SfB\* |Skype Entreprise <br/>Skype Entreprise  |Online<br/> Sur prem<br/>  |&boxv;<br/>&boxv; | Skype Entreprise <br/>Skype Entreprise  |
 | TeamsOnly | Équipes|Online |&boxv; |*Skype Entreprise*  |
 |  | | | | |
 
@@ -134,8 +136,8 @@ Les tableaux ci-dessous décrivent le client reçoit un appel à partir de l’e
 
 | <br/><br/>Mode | Expéditeur<br/><br/> Client| <br/><br/>SfB hébergés| |  Destinataire<br/>  <br/> TeamsOnly  |
 |--- |--- |--- |--- |--- |
-| (Îles)  |Équipes<br/>Skype Entreprise <br/>Équipes <br/>Skype Entreprise <br/>|En ligne<br/> En ligne<br/> Sur prem<br/> Sur prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;| Équipes <br/>*Teams* <br/>**N’est pas Possible** <br/>*Teams* |
-| SfB\* |Skype Entreprise <br/>Skype Entreprise  | Online<br/> Sur prem| &boxv;<br/>&boxv;|*Teams* <br/>*Teams*   |
+| (Îles)  |Équipes<br/>Skype Entreprise <br/>Équipes <br/>Skype Entreprise <br/>|En ligne<br/> En ligne<br/> Sur prem<br/> Sur prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;| Équipes <br/>*Teams* <br/>**N’est pas Possible** <br/>*Teams* |
+| SfB\* |Skype Entreprise <br/>Skype Entreprise  | Online<br/> Sur prem| &boxv;<br/>&boxv;|*Teams* <br/>*Teams*   |
 | TeamsOnly |Équipes |Online |&boxv; |Équipes |
 |  | | | | |
 
@@ -189,8 +191,8 @@ Le tableau décrit la présence de l’éditeur qui peuvent être vus par un obs
 
 |Observateur <br/><br/>Client| |<br/><br/>(Îles) |Publisher <br/><br/>SfB\* |<br/>Équipes uniquement|
 |--- |--- |--- |--- |---|
-|Skype Entreprise |&boxv;|Skype Entreprise | Skype Entreprise | Teams|
-|Teams |&boxv; |Teams |Skype Entreprise |Équipes |
+|Skype Entreprise |&boxv;|Skype Entreprise | Skype Entreprise | Teams|
+|Teams |&boxv; |Teams |Skype Entreprise |Équipes |
 | | | | |
 
 ## <a name="federated-presence"></a>Présence fédéré
@@ -203,8 +205,8 @@ Le tableau ci-dessous décrit la présence de l’éditeur qui peuvent être vus
 
 |Observateur <br/><br/> Client | |<br/><br/> (Îles)  |Publisher <br/><br/> SfB\* |<br/><br/> Équipes uniquement |
 |--- |--- |--- |--- |---|
-|Skype Entreprise |&boxv; |Skype Entreprise  | Skype Entreprise  | Teams  |
-|Teams | &boxv;|Skype Entreprise |Skype Entreprise |Équipes|
+|Skype Entreprise |&boxv; |Skype Entreprise  | Skype Entreprise  | Teams  |
+|Teams | &boxv;|Skype Entreprise |Skype Entreprise |Équipes|
 | | | | ||
 
 ## <a name="presence-in-pre-existing-threads"></a>Présence dans les threads existants

@@ -29,16 +29,16 @@ f1keywords:
 ms.custom:
 - Licensing
 description: 'Apprenez à payer pour les crédits de Communication (consommation PSTN) Skype pour les services et voir plans pour conserver vos utilisateurs avec un accès système téléphonique continue. '
-ms.openlocfilehash: f2b4b6d882753e20d2c7d401fb4fb63082b02f0f
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: bbb24094e7aefd428e510273a922dab4461b7dde
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542254"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569079"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>Ajouter des fonds et gérer les Crédits de Communications
 
-Communications crédits sont un moyen pratique de payer le système téléphonique et des Plans de l’appel dans Office 365. Il permet de garantir que vous et vos utilisateurs ne sont jamais interceptées n’est pas en mesure de :
+Communications crédits sont un moyen pratique de payer le système téléphonique et des Plans de l’appel dans Office 365. Communication crédits permet de vous assurer que vous et vos utilisateurs ne sont jamais interceptées n’est pas en mesure de :
   
 - Se connecter à des réunions de conférence Audio à l’aide des numéros de téléphone entrant.
     
@@ -70,7 +70,7 @@ Pour plus d’informations, voir [Quelles sont les Communications crédits ?](w
 
 Vous pouvez voir les plans et les prix à partir d’un des liens suivants :
   
-- [Offres d'appels](https://go.microsoft.com/fwlink/?LinkId=799761 )
+- [Forfaits d’appel](https://go.microsoft.com/fwlink/?LinkId=799761 )
     
 - [Plans de services d’audioconférence](https://go.microsoft.com/fwlink/?LinkId=799762 )
     
@@ -78,13 +78,13 @@ Vous pouvez voir les plans et les prix à partir d’un des liens suivants :
     
 Vous pouvez également voir des informations en [vous connectant au centre d’administration Office 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) et **facturation** > **abonnements** > **abonnements ajouter**.
   
-Pour voir un tableau avec la licence ou les licences que vous aurez besoin pour chaque fonctionnalité, voir [teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+Pour obtenir un tableau avec la licence ou les licences que vous aurez besoin pour chaque fonctionnalité, voir [Gestion des licences de module complémentaire équipes Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
 ## <a name="related-topics"></a>Rubriques connexes
 
-- [Configurer Skype Entreprise Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
+- [Configurer Skype entreprise Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     
-- [Configurer la messagerie vocale du système téléphonique - Aide pour l'administrateur](set-up-phone-system-voicemail.md)
+- [Configurer la messagerie vocale du système téléphonique - Aide de l’administration](set-up-phone-system-voicemail.md)
     
 - [Configurer des Forfaits d’appels](set-up-calling-plans.md) et [Forfaits d’appels pour Office 365](calling-plans-for-office-365.md)
         

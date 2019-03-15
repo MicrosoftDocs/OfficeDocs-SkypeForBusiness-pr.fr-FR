@@ -9,19 +9,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8389b37a-ca3e-4047-8b51-85bc07da87e8
 description: 'Résumé : Gérer le Service de mobilité (Mcx) et le Web de Communications unifiées API (UCWA) dans Skype pour Business Server.'
-ms.openlocfilehash: 780d8fca068a78ec08312551d03dbdb5327df90e
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 6856235e5e5a8179e52836901598f7fbe2852a57
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20975948"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "21227015"
 ---
 # <a name="monitor-mobility-service-and-ucwa-usage-in-skype-for-business-server"></a>Surveiller l’utilisation du Service de mobilité et UCWA dans Skype pour Business Server
  
 **Résumé :** Gérer le Service de mobilité (Mcx) et le Web de Communications unifiées API (UCWA) dans Skype pour Business Server.
 
 > [!NOTE]
-> Prise en charge MCX pour les clients mobiles hérités n’est plus disponible dans Skype pour Business Server 2019. Vos utilisateurs devez mettre à niveau vers un client actuel.
+> Prise en charge MCX (Service de mobilité) pour les clients mobiles hérités n’est plus disponible dans Skype pour Business Server 2019. Tous les Skype en cours pour les clients mobiles métiers utilisent déjà Unified Communications Web API (UCWA) pour prendre en charge la messagerie instantanée, présence et les contacts. Les utilisateurs avec les clients hérités MCX doivent mettre à niveau vers un client actuel.
   
 De manière continue, vous devez surveiller le processeur et la mémoire utilisée par le Skype pour Service de mobilité Business Server (Mcx) et l’API de Web Communications (UCWA) unifiée. Pour cela, vous pouvez utiliser l’un des éléments suivants :
   
@@ -37,7 +37,7 @@ Outre les compteurs d’utilisation du processeur et de la mémoire, vous pouvez
   
 - **LS:WEB - limitation et Authentication\WEB - nombre Total de demandes de traitement en**, qui indique le nombre de demandes web sur le serveur en attente. Lorsque ce compteur atteint 10 000, les demandes ultérieures échouent avec le message d’erreur « 503 - Service indisponible ».
     
-- **ASP. net\requests Queued** (doit être toujours zéro).
+- **ASP.NET\Requests Queued** (doit toujours être égal à zéro).
     
 > [!NOTE]
 > Si vous atteignez ou dépassez ces valeurs, vous devez réévaluer et recalculer votre planification de la capacité afin de dimensionner correctement le processeur, le nombre de cœurs et la mémoire pour les ordinateurs qui hébergent les services web. 
@@ -52,15 +52,15 @@ Pour la plupart des déploiements, l’utilisation du processeur par le service 
   
 Outre les compteurs d’utilisation du processeur et de la mémoire, vous pouvez utiliser les compteurs de performances ASP.NET suivants pour aider à déterminer quand un serveur est surchargé de demandes :
   
-- **ASP.NET v2.0.50727\Requests actuel**, qui indique le nombre de demandes web sur le serveur en attente. Lorsque ce compteur atteint 5 000, les demandes ultérieures échouent avec le message d’erreur « 503 - Service indisponible ».
+- **ASP.NET v2.0.50727\Requests Current**, qui indique le nombre de demandes web en attente sur le serveur. Lorsque ce compteur atteint 5 000, les demandes ultérieures échouent avec le message d’erreur « 503 - Service indisponible ».
     
-- **ASP. net\requests Queued** (doit être toujours zéro).
+- **ASP.NET\Requests Queued** (doit toujours être égal à zéro).
     
 > [!NOTE]
 > Si vous atteignez ou dépassez ces valeurs, vous devez réévaluer et recalculer votre planification de la capacité afin de dimensionner correctement le processeur, le nombre de cœurs et la mémoire pour les ordinateurs qui hébergent les services web. 
 
 > [!NOTE]
-> Prise en charge MCX pour les clients mobiles hérités n’est plus disponible dans Skype pour Business Server 2019. Vos utilisateurs devez mettre à niveau vers un client actuel.
+> Prise en charge MCX (Service de mobilité) pour les clients mobiles hérités n’est plus disponible dans Skype pour Business Server 2019. Tous les Skype en cours pour les clients mobiles métiers utilisent déjà Unified Communications Web API (UCWA) pour prendre en charge la messagerie instantanée, présence et les contacts. Les utilisateurs avec les clients hérités MCX doivent mettre à niveau vers un client actuel.
   
 ## <a name="see-also"></a>Voir aussi
 

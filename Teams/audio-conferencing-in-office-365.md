@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr
-ms.topic: article
+ms.topic: conceptual
 ms.assetid: a5a696c3-d321-4e61-9aad-e3a87041196e
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -21,12 +21,12 @@ localization_priority: Normal
 f1keywords: ms.teamsadmincenter.audioconferencing.overview
 ms.custom:
 - Audio Conferencing
-ms.openlocfilehash: 52462bcb9f609a2e9c68757a36a9e5ed1cfa2b13
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: 20ce25368c5b77bcd355bc5ed0d6ef55868401c1
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494212"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30570117"
 ---
 # <a name="audio-conferencing-in-office-365"></a>Audioconférence dans Office 365
 Services d’audioconférence dans Office 365 permet aux utilisateurs d’appel à des réunions à partir de leurs téléphones. Services d’audioconférence permet jusqu'à 250 participants téléphone.
@@ -49,7 +49,7 @@ Une fois que les participants rejoignent la réunion, ils peuvent également eff
 Pour les informations de tarification, consultez [Prix appliqués à l’audioconférence](https://products.office.com/skype-for-business/audio-conferencing#Requirements).
 
 ## <a name="where-is-it-available"></a>Où elle est disponible ?
-À une conférence Audio, vos utilisateurs peuvent utiliser payants et les numéros de téléphone pour vous connecter à des réunions. Numéros payants (service) sont automatiquement attribués en tant que les numéros de services d’audioconférence partagé pour les organisations lorsqu’elles sont activées pour l’audioconférence. Des numéros payants et gratuits dédiés peuvent être attribués à votre organisation pour des villes supplémentaires.
+À une conférence Audio, vos utilisateurs peuvent utiliser payants et les numéros de téléphone pour vous connecter à des réunions. Numéros payants (service) sont automatiquement attribués en tant que les numéros de services d’audioconférence partagé pour les organisations lorsqu’elles sont activées pour l’audioconférence. Gratuit et payant dédié peut être attribué à votre organisation de villes supplémentaires.
 
 Numéros de téléphone (numéros de service) sont disponibles, mais uniquement dans certains pays/régions. Pour voir ce qui est disponible dans votre pays ou région, voir [disponibilité pays et aux régions de conférence Audio et des Plans de l’appel](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
@@ -92,11 +92,11 @@ Numéros de téléphone de conférence audio dédié doivent nombres de service 
 - **Utiliser un formulaire de demande pour de nouveaux numéros.** Parfois (en fonction de votre pays/région) vous ne pourrez pas obtenir vos nouveaux numéros de téléphone à l’aide de la Skype entreprise centre d’administration, ou vous devez numéros de téléphone spécifiques ou les codes de zone. Dans ce cas, vous devez télécharger un formulaire et nous le renvoyer. Pour plus d’informations, voir [Gestion des numéros de téléphone pour votre entreprise](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
 ## <a name="how-do-you-set-it-up"></a>Comment vous configurer il ?
-Une fois que vous avez décidé de configurer la conférence Audio pour vos utilisateurs, voir [configurer la conférence Audio pour Skype pour les professionnels et les équipes Microsoft](/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing) pour la procédure à que suivre pour effectuer cette opération.
+Une fois que vous avez décidé de configurer la conférence Audio pour vos utilisateurs, voir [configurer la conférence Audio pour les équipes Microsoft](set-up-audio-conferencing-in-teams.md) ou [configurer la conférence Audio pour Skype pour Business Online](/SkypeForBusiness/audio-conferencing-in-office/set-up-audio-conferencing) pour la procédure à que suivre pour effectuer cette opération.
 
 ## <a name="related-topics"></a>Rubriques connexes
 
-[Configurer Skype Entreprise Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
+[Configurer Skype entreprise Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
   
 [Numéros de téléphone pour l’audioconférence dans Microsoft Teams](phone-numbers-for-audio-conferencing-in-teams.md) 
 

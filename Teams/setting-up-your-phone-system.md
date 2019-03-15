@@ -1,5 +1,5 @@
 ---
-title: La configuration système téléphonique de votre organisation
+title: Configuration du système téléphonique de votre organisation
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -20,14 +20,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Découvrez comment configurer le système téléphonique (PBX nuage) pour votre organisation. '
-ms.openlocfilehash: ef677e694ca170b7576f6613cbfddd83f9b493b0
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 5423ceb0dcd4de03c95ff956e50442a784de877c
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542886"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30633281"
 ---
-# <a name="setting-up-phone-system-in-your-organization"></a>La configuration système téléphonique de votre organisation
+# <a name="setting-up-phone-system-in-your-organization"></a>Configuration du système téléphonique de votre organisation
 
 The following is a step-by-step guide for setting up Phone System in Office 365. Links to additional, detailed information are available at the end of each step.
 
@@ -45,12 +45,12 @@ Pour attribuer une licence de système téléphonique et plan d’appel à un se
 
 ## <a name="step-3-get-phone-numbers-for-your-users"></a>Étape 3 : Obtenir les numéros de téléphone pour vos utilisateurs
 
-[] Avant d'autoriser les utilisateurs de votre organisation à passer et à recevoir des appels téléphoniques, vous devez obtenir vos numéros de téléphone par l'entremise du centre d'administration de Skype Entreprise.
+Avant de configurer les utilisateurs dans votre organisation pour émettre et recevoir des appels téléphoniques, vous devez obtenir les numéros de téléphone pour eux.
 
 Vous disposez de trois méthodes d’obtention des numéros pour vos utilisateurs :
 - Obtenir de nouveaux numéros à l'aide du centre d'administration de Skype Entreprise
 - Obtenir les nouveaux numéros qui ne sont pas disponibles dans le centre d’administration Skype entreprise.
-- Transfert de vos numéros existants du fournisseur de services ou de l'opérateur de téléphonie actuel.
+- Port ou transférer vos numéros existante à partir de votre fournisseur de services en cours ou votre opérateur mobile vers Office 365.
 
 You must use the **Add new user numbers** page to see, search, acquire, and reserve those numbers. You can search by Country/Region, State, and City, and then enter the number of phone numbers you will need for your users.
 
@@ -60,7 +60,7 @@ You must use the **Add new user numbers** page to see, search, acquire, and rese
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
 
-2. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.** ** > ** **
+2. Sélectionnez **Centre d'administration Office 365** > **Skype Entreprise**.
     
 3. Dans le volet de navigation gauche, accédez à **voix** > **numéros de téléphone**, cliquez sur **Ajouter un nouveau numéro** ![Ajouter bouton ](media/c224fbd0-f0f5-46ce-a1a7-73adf4540ef7.png), puis cliquez sur**nouveaux numéros utilisateur**.
     
@@ -87,7 +87,7 @@ In addition to getting phone numbers for your users from Office 365, you can sea
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
 
-2. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.** ** > ** **
+2. Sélectionnez **Centre d'administration Office 365** > **Skype Entreprise**.
 
 3. Dans le volet de navigation gauche, accédez à **voix** > **numéros de téléphone** > **Ajouter un nouveau numéro**, puis cliquez sur **nouveau numéro de service**.
 
@@ -205,7 +205,7 @@ Pour les questions fréquemment posées à propos des audioconférences, consult
       > [!NOTE]
       > This feature is not yet available to customers using Office 365 operated by 21Vianet in China. To learn more, see [Learn about Office 365 operated by 21Vianet](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE).
 
-**Pour plus d’informations sur la conférence Audio, voir [configurer la conférence Audio](/skypeforbusiness/audio-conferencing-in-office-365/set-up-audio-conferencing).**
+**Pour plus d’informations sur la conférence Audio, voir [configurer la conférence Audio pour les équipes Microsoft](set-up-audio-conferencing-in-teams.md).**
 
 ## <a name="step-7-if-you-want-to-set-up-a-phone-system-call-queue"></a>Étape 7 : Si vous souhaitez configurer une file d’attente des appels système téléphoniques
 

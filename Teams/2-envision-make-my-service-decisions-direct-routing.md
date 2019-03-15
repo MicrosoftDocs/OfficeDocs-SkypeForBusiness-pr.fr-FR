@@ -4,7 +4,7 @@ author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
 ms.date: 07/09/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
@@ -15,18 +15,18 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e0597444b9f46d9ac3761ef42a4817a5db5117f
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: aca4fc24cb39fd1dc607825a73b9f3751992de3d
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462739"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569765"
 ---
 # <a name="make-my-service-decisions"></a>Prendre des décisions de mon service
 
 Pour planifier l’implémentation technique de téléphone système routage Direct (« routage Direct »), vous devez apporter une série de décisions de service à l’avance pour mieux préparer votre organisation pour implémenter une solution qui répond aux besoins de l’entreprise que vous avez définie.
 
-## <a name="calling-in-teams"></a>Appel dans Teams
+## <a name="calling-in-teams"></a>L’appel dans les équipes
 
 Avec Microsoft Teams, vos utilisateurs peuvent passer et recevoir des appels vers ou depuis le réseau téléphonique commuté (RTC). Vos utilisateurs peuvent utiliser leurs propres numéros de téléphone dédié pour l’émission et réception d’appels nationales et internationales (y compris la messagerie vocale) à partir de l’application cliente équipes.
 
@@ -54,13 +54,13 @@ Après avoir confirmé que votre organisation peut obtenir la fonctionnalité sy
 > [!TIP]
 > Voici un exemple d’une liste d’activation site routage Direct.
 > 
-> | **Office**                     | **Emplacement**   | **Service de système téléphonique** |
+> | **Bureau**                     | **Emplacement**   | **Service de système téléphonique** |
 > |--------------------------------|----------------|--------------------------|
-> | 1 Eppîng Road                | Australie      | Service PSTN hérité |
-> | 100 Cyberport Road             | Hong Kong R.A.S.  | Routage d’un système téléphonique Direct |
-> | 1 Marina Boulevard           | Singapour      | Routage d’un système téléphonique Direct |
-> | 32 London Bridge Street        | Royaume-Uni | Système téléphonique avec forfaits d’appels |
-> | 39 quai du Président Roosevelt | France         | Système téléphonique avec forfaits d’appels |
+> | 1 Eppîng Road                | Australie      | Service RTC antérieur |
+> | 100 Cyberport Road             | Hong Kong R.A.S.  | Routage direct via le système téléphonique |
+> | 1 Marina Boulevard           | Singapour      | Routage direct via le système téléphonique |
+> | 32 London Bridge Street        | Royaume-Uni | Système téléphonique avec les Plans d’appel |
+> | 39 quai du Président Roosevelt | France         | Système téléphonique avec les Plans d’appel |
 
 <!--ENDOFSECTION-->
 
@@ -101,14 +101,14 @@ Pour plus d’informations sur la messagerie vocale dans une implémentation du 
 > [!TIP]
 > Téléphone les détails du système de la messagerie vocale pour l’implémentation des Plans de l’appel peuvent être documentés comme dans le tableau suivant.
 > 
-> | **Utilisateur**         | **Boîte aux lettres Exchange** | **Activer la messagerie vocale ?** | **Transcription de la messagerie vocale** | **Masquage de la messagerie vocale transcription gratuites** |
+> | **User**         | **Boîte aux lettres Exchange** | **Activer la messagerie vocale ?** | **Transcription de la messagerie vocale** | **Masquage de la messagerie vocale transcription gratuites** |
 > |------------------|----------------------|-----------------------|-----------------------------|-----------------------------------------------|
 > | Emily Braun      | Online               | Oui                   | Activé                     | Activé                                       |
-> | Lidia Holloway   | En ligne               | Oui                   | Activé                     | Désactivé                                      |
-> | Louis Lahr       | Local          | Oui                   | Activé                     | Activé                                       |
-> | Marcel Beauchamp | Local          | Oui                   | Désactivé                    | N/A                                           |
-> | Rachelle Cormier | En ligne               | Oui                   | Désactivé                    | N/A                                           |
-> | Isabell Potvin   | Local          | Oui                   | Désactivé                    | N/A                                           |
+> | Lidia Holloway   | Online               | Oui                   | Activé                     | Désactivé                                      |
+> | Louis Lahr       | Sur site          | Oui                   | Activé                     | Activé                                       |
+> | Marcel Beauchamp | Sur site          | Oui                   | Désactivé                    | N/A                                           |
+> | Rachelle Cormier | Online               | Oui                   | Désactivé                    | N/A                                           |
+> | Isabell Potvin   | Sur site          | Oui                   | Désactivé                    | N/A                                           |
 > 
 > [!NOTE]
 > Pour utiliser la messagerie vocale et les équipes, vos utilisateurs doivent disposer de boîtes aux lettres Exchange. Pour plus d’informations, voir [comment Exchange et les équipes Microsoft interagir](exchange-teams-interact.md) .
@@ -123,7 +123,7 @@ Si votre organisation envisage d’utiliser le routage Direct, vous devez obteni
 
 -   Microsoft Teams
 
--   Audioconférence,
+-   Audioconférence
 
 Licence de conférence audio est obligatoire pour ajouter des participants externes aux réunions planifiées, par un appel sortant leur ou en fournissant le numéro d’accès. Lorsqu’un participant externe est composé à, le service de conférence Audio passe l’appel à l’aide des fonctionnalités d’appel en ligne. Licence de conférence audio est facultative et requis uniquement pour les utilisateurs qui seront à organiser des équipes de conférences qui incluent l’audioconférence.
 
@@ -208,7 +208,7 @@ Pour plus d’informations, voir [de signalisation SIP : noms de domaine comple
 > | **Nom DNS SBC (FQDN)** | **SBC marque et un modèle** | **Certificat** | **Emplacement**  | **Adresse IP** | **Port de signalisation SIP** | **NAT ?** | **Sessions simultanées maximales** | **Le contournement de média activé ?** |
 > |-------------------------|------------------------|-----------------|---------------|----------------|------------------------|----------|-----------------------------|---------------------------|
 > | SBC-Europe.contoso.com | TBD | \*. contoso.com | Amsterdam | TBD | TBD | Oui | TBD | Non |
-> | SBC-Asie.contoso.com | TBD | \*. contoso.com | Hong Kong SAR (香港特別行政區) | TBD | TBD | Non | TBD | Oui |
+> | SBC-Asie.contoso.com | TBD | \*. contoso.com | Hong Kong R.A.S. | TBD | TBD | Non | TBD | Oui |
 > | SBC-Africa.contoso.com | TBD | \*. contoso.com | Johannesburg | TBD | TBD | Oui | TBD | Oui |
 
 <!--ENDOFSECTION-->
@@ -290,9 +290,9 @@ Pour que vos utilisateurs à l’onglet appels dans le client d’équipes, vous
 
 Utilisez les informations dans les sections précédentes de cet article pour documenter vos décisions de service. En règle générale, cette documentation contient les sections principales suivantes :
 
--   Liste d'habilitation des sites pour les systèmes téléphoniques avec forfaits d'appels
+-   Système téléphonique avec la liste des activation appelant des Plans de site
 
--   Détails sur la configuration de la messagerie vocale
+-   Détails de configuration de la messagerie vocale
 
 -   Affectation de licence pour les utilisateurs de routage d’un système téléphonique Direct
 

@@ -1,10 +1,10 @@
 ---
-title: Déployer le service de voix dans le cloud Microsoft Teams
+title: Déployer le service vocal cloud de Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
 ms.date: 05/16/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5ce9b3f5a1d81728f0bff6951211453fb4aa2ef4
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 8ea80d3ba87a6499cba3bf52b5f70d45d0619c8a
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30458995"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30568463"
 ---
 # <a name="deploy-my-service"></a>Déployer mon service
 
@@ -50,7 +50,7 @@ En effectuant les activités dans ce manuel, votre organisation peut :
 L’objectif de la lecture est de résoudre les facteurs qui influencent la perception de l’utilisateur d’un déploiement de voix équipes. Tâches et activités sont regroupés dans les domaines suivants :
 
 -   Validation de la disponibilité du service
-    - Audioconférence,
+    - Audioconférence
     - Offres d'appels
     - Routage direct
 
@@ -60,7 +60,7 @@ L’objectif de la lecture est de résoudre les facteurs qui influencent la perc
 
 -   L’utilisation et la qualité
 
--   Adoption
+-   Kit d’adoption
 
 La [Lecture d’activation de Site pour la voix (lecture)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) est un classeur Microsoft Excel. Chacun de ces cinq domaines est une feuille distincte dans le classeur, et chaque tâche de déploiement et les activités sont regroupées sur l’une de ces feuilles.
 

@@ -4,7 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.date: 01/28/2019
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.collection:
 - Teams_ITAdmin_Help
@@ -14,21 +14,20 @@ search.appverid: MET150
 F1keywords: ms.teamsadmincenter.directrouting.overview
 description: Page d’accueil routage Direct
 appliesto: Microsoft Teams
-ms.openlocfilehash: b8f7840b981b67f941598638b2624de0cd512b8c
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: 5710ddd2c3715f0cfd1e4b1ca5b45058c9741e18
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494060"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569861"
 ---
 # <a name="phone-system-direct-routing"></a>Routage direct via le système téléphonique
 
 Vous avez terminé la [Prise en main](get-started-with-teams-quick-start.md). Vous avez déployé Teams avec [des conversations, des équipes, des canaux et des applications](deploy-chat-teams-channels-microsoft-teams-landing-page.md) au sein de votre organisation. Peut-être que vous avez déployé la [conférence & de réunions](deploy-meetings-microsoft-teams-landing-page.md). Vous êtes maintenant prêt à ajouter des charges de travail de voix dans le cloud, et vous avez décidé d’utiliser votre propre opérateur de téléphonie pour la connectivité Public réseau de téléphonique commuté (RTC) à l’aide de routage d’un système téléphonique directe. Avec le routage Direct, vous pouvez utiliser le système téléphonique avec n’importe quel opérateur de téléphonie.
 
-Cet article décrit les décisions de déploiement principaux pour le routage Direct ainsi que les considérations supplémentaires que vous souhaiterez peut-être configurer, en fonction des besoins de votre organisation.  Vous devez également lire [Cloud vocale dans les équipes Microsoft](cloud-voice-landing-page.md) pour plus d’informations sur les offres de voix de cloud de Microsoft.
+Cet article décrit les décisions de déploiement principaux pour le routage Direct ainsi que les considérations supplémentaires que vous souhaiterez peut-être considération, en fonction des besoins de votre organisation. Vous devez également lire [Cloud vocale dans les équipes Microsoft](cloud-voice-landing-page.md) pour plus d’informations sur les offres de voix de cloud de Microsoft.
 
 ## <a name="learn-more-about-direct-routing"></a>Pour plus d’informations sur le routage Direct
-
 
 Les articles suivants fournissent plus d’informations sur la configuration et l’utilisation du routage Direct de système téléphonique. Configuration du routage Direct nécessite la compréhension de la conception du routage PSTN. Vous devez lire tous ces articles pour comprendre comment planifier et configurer le routage Direct :
 
@@ -40,14 +39,13 @@ Les articles suivants fournissent plus d’informations sur la configuration et 
 En outre, vous pouvez souhaiter lire les articles suivants, selon vos besoins :
 
 -  [Configurer un contrôleur de frontière de session pour plusieurs clients](direct-routing-sbc-multiple-tenants.md)
--  [Migrer vers le routage Direct](direct-routing-migrating.md)
+-  [Migrer vers un routage direct](direct-routing-migrating.md)
 -  [Comptes d’utilisateur dans un environnement hybride avec une connectivité PSTN](direct-routing-user-accounts-in-a-hybrid-environment.md)
 - Regarder la session suivante pour en savoir plus sur le routage Direct : [Routage Direct dans les équipes Microsoft](https://aka.ms/teams-direct-routing)
 
 ## <a name="core-deployment-decisions"></a>Décisions liées au déploiement Core
 
 Il s’agit des décisions clés à prendre en compte pour le routage Direct. 
-
 
 |Posez-vous la question|Action |
 | :------------|:-------|

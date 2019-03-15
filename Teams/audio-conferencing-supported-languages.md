@@ -1,10 +1,10 @@
 ---
-title: Langues prises en charge pour l'audioconférence
+title: Langues prises en charge pour l’audioconférence
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: 572ca0c8-b9f0-4948-9409-e12ee0b94aa0
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -22,14 +22,14 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Find the dial-in conferencing language for each country or region and the culture ID assigned (en-US, da-DK, de-DE, etc)
-ms.openlocfilehash: fe90baf5bcad46bef1c9f9609c98de993ce68e98
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 32e2c93cc43d548e96c2cda7c2e501e3b94fab80
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460763"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569661"
 ---
-# <a name="audio-conferencing-supported-languages"></a>Langues prises en charge pour l'audioconférence
+# <a name="audio-conferencing-supported-languages"></a>Langues prises en charge pour l’audioconférence
 
 Lorsque vous configurez et configuration de conférence Audio dans Office 365, vous pouvez sélectionner le principal et secondaire (jusqu'à 4) langues qui sont utilisées lorsque les appelants se connectent à un Skype de réunion Microsoft Teams ou de l’entreprise. Voici la liste des langues prises en charge pour une audioconférence : 
   
@@ -112,6 +112,6 @@ Si vous recherchez des pays ou régions dont les numéros de téléphone pour un
   
 ## <a name="related-topics"></a>Rubriques connexes
 
-[Tester ou acheter l'audioconférence dans Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Tester ou acheter l’audioconférence dans Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
 
 

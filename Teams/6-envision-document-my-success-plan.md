@@ -1,10 +1,10 @@
 ---
-title: Documenter votre planification de réussite Microsoft Teams
+title: Documenter votre plan de réussite Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
 ms.date: 03/13/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dd124b8ce06b15bb0c6c33aecd848d9382afde64
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: b0a10f56c29ca2218d5dde2c98fb3285c3907b1d
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462139"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30568471"
 ---
-# <a name="document-my-success-plan"></a>Mon plan de réussite de documents
+# <a name="document-my-success-plan"></a>Documenter mon plan de réussite
 
 Cet article donne une vue d’ensemble de la configuration requise pour documenter correctement votre déploiement de voix dans le nuage. En définissant et documenter tous les points de décision et les étapes suivantes lorsque vous planifiez votre déploiement de voix dans le nuage, vous pouvez vous assurer que toutes les parties prenantes et les membres de l’équipe de proposer des résultats. 
 
@@ -85,13 +85,13 @@ Si votre organisation a uniquement un ou deux sites, vous devrez pas un plan d�
 
 Voici un exemple d’un plan d’exécution trimestriels pour la phase de prévoir d’une implémentation de la voix dans le nuage.
 
-| Site/division                            | Nombre d’employés | Audioconférence, | Système téléphonique                    | Trimestre à exécuter |
+| Site/division                            | Nombre d’employés | Audioconférence | Système téléphonique                    | Trimestre à exécuter |
 |------------------------------------------|---------------------|--------------------|---------------------------------|--------------------|
-| États-Unis : New York                             | 2000                | Oui                | Système téléphonique avec forfaits d’appels | T1 CY2018          |
-| Irlande : Dublin                          | 300                 | Oui                | Système téléphonique avec forfaits d’appels | T1 CY2018          |
-| Autriche : Vienne                          | 500                 | Oui                | Routage d’un système téléphonique Direct     | CY2018 Q2          |
+| États-Unis : New York                             | 2000                | Oui                | Système téléphonique avec les Plans d’appel | T1 CY2018          |
+| Irlande : Dublin                          | 300                 | Oui                | Système téléphonique avec les Plans d’appel | T1 CY2018          |
+| Autriche : Vienne                          | 500                 | Oui                | Routage direct via le système téléphonique     | CY2018 Q2          |
 | Italie : Milan                             | 200                 | Oui                | N/A                             | CY2018 Q2          |
-| Amérique du Sud : Brésil                    | 1500                | Oui                | Routage d’un système téléphonique Direct     | CY2018 Q2          |
+| Amérique du Sud : Brésil                    | 1500                | Oui                | Routage direct via le système téléphonique     | CY2018 Q2          |
 | Inde : Delhi                             | 7000                | Oui                | N/A                             | CY2018 T3          |
 
 

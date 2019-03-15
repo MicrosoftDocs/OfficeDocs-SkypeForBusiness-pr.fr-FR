@@ -12,10 +12,10 @@ ms.collection: IT_Skype16
 ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
 description: 'Résumé : Installez et configurez les nœuds observateurs pour Skype pour les transactions synthétiques Business Server.'
 ms.openlocfilehash: 6719826515954290f30eac272f638b846f45142a
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
+ms.lasthandoff: 02/21/2019
 ms.locfileid: "25375985"
 ---
 # <a name="install-and-configure-watcher-nodes"></a>Installation et configuration des nœuds observateurs
@@ -48,13 +48,13 @@ Les transactions synthétiques accessibles aux nœuds observateur sont, par exem
 |Test-CsASConference (ASConference)  <br/> |Confirme que les utilisateurs peuvent créer des conférences de partage d’applications et y participer.  <br/> |
 |Test-CsAVEdgeConnectivity (AVEdgeConnectivity)  <br/> |Confirme que les serveurs Edge audio/vidéo peuvent accepter des connexions pour les appels et les téléconférences P2P.  <br/> |
 |Test-CsDataConference (DataConference)  <br/> |Confirme que les utilisateurs peuvent participer à une conférence de collaboration de données (une réunion en ligne qui comprend des activités, comme des tableaux blancs et des sondages).  <br/> |
-|Test-CsDialinConferencing (DialinConferencing)  <br/> |Confirme que les utilisateurs peuvent composer des numéros pour participer à des conférences.  <br/> |
-|Test-CsDialinConferencing (DialinConferencing)  <br/> |Confirme que les utilisateurs peuvent composer des numéros pour participer à des conférences.  <br/> |
+|Test-CsDialInConferencing (DialInConferencing)  <br/> |Confirme que les utilisateurs peuvent composer des numéros pour participer à des conférences.  <br/> |
+|Test-Cs DialInConferencing (DialInConferencing)  <br/> |Confirme que les utilisateurs peuvent composer des numéros pour participer à des conférences.  <br/> |
 |Test-CsExumConnectivity (ExumConnectivity)  <br/> |Confirme qu’un utilisateur peut se connecter à Exchange messagerie unifiée (MU).  <br/> |
 |Test-CsGroupIM - TestJoinLauncher (JoinLauncher)  <br/> |Confirme que les utilisateurs peuvent créer des réunions planifiées et y participer (en cliquant sur un lien d’adresse web).  <br/> |
 |Test-CsMCXP2PIM (MCXP2PIM)  <br/> |Confirme que les utilisateurs d’appareil mobile peuvent s’enregistrer et envoyer des messages instantanés.  <br/> |
 |Test-CsP2PVideoInteropServerSipTrunkAV (P2PVideoInteropServerSipTrunkAV)  <br/> |Confirme que le serveur interopérabilité vidéo fonctionne et peut gérer les connexions entrantes sur une jonction SIP vidéo.  <br/> **Remarque :** Prise en charge MCX pour les clients mobiles hérités n’est plus disponible dans Skype pour Business Server 2019. |
-|Test-cspersistentchatmessage ne (PersistentChatMessage)  <br/> |Confirme que les utilisateurs peuvent échanger des messages à l’aide du service de conversation permanente.  <br/> |
+|Test-CsPersistentChatMessage (PersistentChatMessage)  <br/> |Confirme que les utilisateurs peuvent échanger des messages à l’aide du service de conversation permanente.  <br/> |
 |Test-CsUcwaConference (UcwaConference)  <br/> |Confirme que les utilisateurs peuvent participer à des conférences par le biais du web.  <br/> |
 |Test-CsUnifiedContactStore (UnifiedContactStore)  <br/> |Confirme que les contacts d’un utilisateur sont accessibles par le biais du magasin de contacts unifié. Le magasin de contacts unifié permet aux utilisateurs de conserver un ensemble unique de contacts qui est accessible à l’aide de Skype pour Business Server 2015, la messagerie Outlook et client de collaboration, et/ou d’Outlook Web Access.  <br/> |
 |Test-CsXmppIM (XmppIM)  <br/> |Confirme qu’un message instantané peut être envoyé par le biais de la passerelle Extensible Messaging and Presence Protocol (XMPP).  <br/> XMPP passerelles et les proxys sont disponibles dans Skype pour Business Server 2015, mais n’est plus pris en charge dans Skype pour Business Server 2019.  |

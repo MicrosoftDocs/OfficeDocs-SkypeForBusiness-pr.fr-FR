@@ -4,7 +4,7 @@ author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
 ms.date: 04/12/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
@@ -15,14 +15,14 @@ description: Tâches et activités requises pour la gestion de service d’équi
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc4dbb59b5346286b10b8a146b96c2b1f5dbc40e
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: cbf0da1cab0f350b9abc7b01e6583e54a996c687
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30459155"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569478"
 ---
-# <a name="operate-my-service"></a>Utiliser mon service
+# <a name="operate-my-service"></a>Exploiter mon service
 
 Cet article donne une vue d’ensemble de la configuration requise pour le fonctionnement correctement voice services en nuage pour votre organisation. En opérant correctement vos services de voix dans le nuage, vous pouvez être que vous fournissez une expérience de haute qualité et fiable pour votre organisation.
 
@@ -151,7 +151,7 @@ Vous pouvez surveiller l’intégrité du service et les modifications à venir 
 
 [Comment vérifier l’intégrité du service Office 365](https://support.office.com/article/How-to-check-Office-365-service-health-932AD3AD-533C-418A-B938-6E44E8BC33B0)
 
-[Vérifier l'intégrité du service pour Microsoft Teams](service-health.md)
+[Vérifier l’état du service Microsoft Teams](service-health.md)
 
 [Continuité d’activité et de fonctionnement du Service](https://technet.microsoft.com/library/office-365-service-health.aspx)
 
@@ -400,7 +400,7 @@ Nous vous recommandons vivement de vous désigner le poids lourd qualité dès l
 
 [Informations de création de téléchargement](turning-on-and-using-call-quality-dashboard.md#upload-building-information)
 
-[Qualité de consulter le Guide de l’expérience](https://aka.ms/qerguide)
+[Guide d’examen de l’expérience de qualité](https://aka.ms/qerguide)
 
 <!--ENDOFSECTION-->
 
@@ -457,13 +457,13 @@ Même si vous avez suivi les recommandations précédentes, les utilisateurs de 
 
 [URL et plages d’adresses IP Office 365](https://aka.ms/o365ips)
 
-[Obtenir des clients pour Microsoft Teams](get-clients.md)
+[Obtenir des clients pour Microsoft Teams](get-clients.md)
 
 [Communauté Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams)
 
 [Problèmes connus concernant Microsoft Teams](known-issues.md)
 
-[Vérifier l'intégrité du service pour Microsoft Teams](service-health.md)
+[Vérifier l’état du service Microsoft Teams](service-health.md)
 
 [Contacter le support Office 365 pour les entreprises - Aide de l'administrateur](https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 
@@ -473,7 +473,7 @@ Même si vous avez suivi les recommandations précédentes, les utilisateurs de 
 
 <!--ENDOFSECTION-->
 
-## <a name="manage-teams"></a>Gestion des équipes
+## <a name="manage-teams"></a>Gérer Teams
 
 Une fois que le service Microsoft Teams a été déployé, vous devez effectuer plusieurs activités liées à l’administration. La plage des activités d’administrer le service et les utilisateurs individuels pour la planification de capacité et de mise en service des numéros de téléphone et de gestion des licences. Les sections suivantes traitent de certaines de ces tâches d’administration courantes.
 
@@ -496,19 +496,19 @@ Pour prendre en charge les utilisateurs, une organisation peut nécessiter un no
 
 [Attribuer ou modifier une adresse d'urgence d'un utilisateur](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user)
 
-[Ajouter, modifier ou supprimer un emplacement pour votre organisation d'urgence](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization)
+[Ajouter, modifier ou supprimer un emplacement d’urgence pour votre organisation](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization)
 
 [Créer et gérer les plans de numérotation](create-and-manage-dial-plans.md)
 
 #### <a name="common-tasks-for-audio-conferencing"></a>Tâches courantes pour une audioconférence
 
-[Modifier les paramètres pour un pont d'audioconférence](change-the-settings-for-an-audio-conferencing-bridge.md)
+[Modifier les paramètres d’un pont d’audioconférence.](change-the-settings-for-an-audio-conferencing-bridge.md)
 
 [Modifier les numéros de téléphone de votre pont d'audioconférence](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)
 
-[Gérer les paramètres d'audioconférence d'un utilisateur](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
+[Gestion des paramètres d'audioconférence d'un utilisateur](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
 
-[Réinitialiser le code confidentiel de conférence Audio](reset-the-audio-conferencing-pin-in-teams.md)
+[Réinitialiser le code confidentiel d’audioconférence](reset-the-audio-conferencing-pin-in-teams.md)
 
 ### <a name="license-management"></a>Gestion des licences
 
@@ -547,7 +547,7 @@ Par défaut, tous les utilisateurs avec une boîte aux lettres dans Exchange Onl
 
 <!--ENDOFSECTION-->
 
-## <a name="quality-of-experience-review-guide"></a>Qualité de consulter le Guide de l’expérience
+## <a name="quality-of-experience-review-guide"></a>Guide d’examen de l’expérience de qualité
 
 La [Qualité d’expérience consulter le Guide](https://aka.ms/qerguide) inclut un ensemble d’activités évaluer et fournissent des instructions de mise à jour dans les zones clés qui ont le plus grand impact sur l’amélioration de l’expérience utilisateur, comme illustré ci-dessous.
 

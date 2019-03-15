@@ -22,12 +22,12 @@ f1keywords: ms.teamsadmincenter.audioconferencing.bridgesettings
 ms.custom:
 - Audio Conferencing
 description: 'Obtenir les étapes que vous devez modifier les paramètres d’un pont de conférence qui permet de demander des appelants et recueillir les noms et les codes confidentiels pour les organisateurs de réunion lorsqu’ils utilisent pas Skype pour les applications Microsoft Teams ou de l’entreprise. '
-ms.openlocfilehash: 04ad6cfe3de9b4549db6382fe790b7fb8c644fc7
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: 2f3f08254409086ee99b3c5f60d243f893fff4e6
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494196"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30633232"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Modifier les paramètres d’un pont d’audioconférence.
 
@@ -84,7 +84,7 @@ Le pont de conférence répond à un appel et demande à l’appelant avec les i
   
    - **Demander aux appelants d'enregistrer leur nom avant de participer à la réunion**: cette option est sélectionnée par défaut. Si vous désactivez la case à cocher, les appelants ne sont pas invités à enregistrer leur nom avant de participer à une réunion.
     
-3. Après avoir fait vos modifications, cliquez sur **Enregistrer**.
+3. Une fois que vous avez effectué vos modifications, cliquez sur **Enregistrer**.
     
 **Reportez-vous à la rubrique **Modification des paramètres d'un pont de conférence rendez-vous Microsoft**.**
   
@@ -134,4 +134,6 @@ Le pont de conférence répond à un appel et demande à l’appelant avec les i
   
 ## <a name="related-topics"></a>Rubriques connexes
 
-[Configurer l'audioconférence](/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)
+[Configurer la conférence pour Microsoft Teams](set-up-audio-conferencing-in-teams.md)
+
+[Configuré à la conférence Audio pour Skype pour Business en ligne](/skypeforbusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)

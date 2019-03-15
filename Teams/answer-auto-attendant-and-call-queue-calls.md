@@ -1,10 +1,10 @@
 ---
-title: Répondre de standard automatique et appels de file d’attente directement à partir d’équipes
+title: Répondre aux appels dans la file d’attente ou du standard automatique directement à partir de Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/20/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 description: Décrit les standards automatiques de système téléphonique et les files d’attente de l’appel et explique comment vous pouvez répondre à ces appels dans les équipes.
 localization_priority: Normal
@@ -14,14 +14,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c010ae5a812cfd3d49279dd3728e948bdb31ca53
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 900fe698654a760c9863583da0b3cd161625844d
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465331"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569438"
 ---
-<a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>Répondre de standard automatique et appels de file d’attente directement à partir d’équipes
+<a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>Répondre aux appels dans la file d’attente ou du standard automatique directement à partir de Teams
 ===========================================================
 
 Les utilisateurs des équipes peuvent recevoir et répondez aux appels depuis Skype pour Business Online standard automatique et files d’attente des appels directement à partir du client de leurs équipes. Pour les utilisateurs d’équipes, la fonctionnalité de standard automatique est désormais disponible et la fonctionnalité de file d’attente d’appel est en mode Aperçu. 
@@ -49,10 +49,10 @@ Une fois que la réponse à un appel de file d’attente automatique standard ou
 
 Prise en charge pour les appels de file d’attente standard et appel automatique est disponible dans les clients suivants :
 
--   Client Microsoft Teams Windows (versions 32 et 64 bits)
--   Client Mac Microsoft Teams
--   Application iPhone Microsoft Teams
--   Application Android Microsoft Teams
+-   Client Microsoft équipes Windows (versions 32 et 64 bits)
+-   Client Microsoft équipes Mac
+-   Microsoft Teams iPhone application
+-   Les équipes Microsoft pour Android
 
 ## <a name="configure-auto-attendant-and-call-queue-support-for-microsoft-teams"></a>Configurer le support de file d’attente des standard et appel automatique pour Microsoft Teams
 
@@ -61,7 +61,7 @@ Pour recevoir le standard automatique et appels de file d’attente sur Microsof
 ## <a name="related-topics"></a>Rubriques connexes
 
 -   [Quel est le système téléphonique dans Office 365](what-is-phone-system-in-office-365.md)
--   [Créer une file d’attente appel système téléphonique](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
--   [Quels sont les standards automatiques du système téléphonique?](what-are-phone-system-auto-attendants.md)
+-   [Créer une file d’attente d’appels sur le système téléphonique](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
+-   [Quels sont les standards automatiques du système téléphonique ?](what-are-phone-system-auto-attendants.md)
 -   [Configurer les standards automatiques du système téléphonique](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
 

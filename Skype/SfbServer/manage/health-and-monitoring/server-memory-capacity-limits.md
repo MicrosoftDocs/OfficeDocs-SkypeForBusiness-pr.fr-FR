@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1697ea71-6fcf-480d-b4e9-cd79f94d247e
 description: 'Résumé : Apprenez à analyser pour les limites de capacité de mémoire de serveur dans Skype pour Business Server.'
-ms.openlocfilehash: 05913ea5b32a9a40d7c577c4a0795ccb07db211f
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 6eb60d48e9da0736ac8753000343b5dc1458bacf
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20978699"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "21226973"
 ---
 # <a name="monitor-for-server-memory-capacity-limits-in-skype-for-business-server"></a>Surveiller les limites de capacité de mémoire de serveur dans Skype pour Business Server
  
@@ -24,7 +24,7 @@ ms.locfileid: "20978699"
 > Les informations contenues dans cette rubrique fait référence à la planification de la capacité s’applique uniquement aux clients Lync 2010 Mobile et le Service de mobilité (Mcx). Planification de la capacité pour la Unified Communications Web API (UCWA), utilisé par les clients Lync 2013 Mobile, est fournie par l’outil de planification Lync Server 2013. 
 
 > [!NOTE]
-> Prise en charge MCX pour les clients mobiles hérités n’est plus disponible dans Skype pour Business Server 2019. Vos utilisateurs devez mettre à niveau vers un client actuel.
+> Prise en charge MCX (Service de mobilité) pour les clients mobiles hérités n’est plus disponible dans Skype pour Business Server 2019. Tous les Skype en cours pour les clients mobiles métiers utilisent déjà Unified Communications Web API (UCWA) pour prendre en charge la messagerie instantanée, présence et les contacts. Les utilisateurs avec les clients hérités MCX doivent mettre à niveau vers un client actuel.
   
 Deux compteurs de performances de mobilité peuvent vous aider à déterminer votre utilisation actuelle et vous aider à planifier la capacité pour la Skype pour le Service de mobilité Business Server (Mcx), ainsi que pour surveiller l’utilisation de la mémoire pour UCWA. Pour UCWA, la catégorie de compteur est **LS:WEB - UCWA**. Pour le service de mobilité (Mcx), les compteurs se trouvent dans la catégorie **LS:WEB - Service de communication mobile**. Les compteurs à surveiller sont les suivants :
   

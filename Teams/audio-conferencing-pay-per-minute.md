@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, oscarr
-ms.topic: article
+ms.topic: conceptual
 ms.assetid: d050c8c3-1cd2-45c8-8a6d-2e86e938f356
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: Outre la licence standard par utilisateur de conférence Audio, organisations utilisant des licences en Volume Microsoft peuvent également choisir une offre de salaire par minute pour activer les fonctionnalités de conférence Audio pour leurs organisations.
-ms.openlocfilehash: 5b2a194b999382e66db8c9a87d19594fbb4d6a3d
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 72083c7c312382b5288293cbe1223594f3053455
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464411"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569717"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>Audioconférence en paiement à la minute
 
@@ -61,9 +61,9 @@ Pour activer la conférence Audio de salaire par minute pour les utilisateurs de
 
  **Vous recherchez les prix ?** Voir [comment consulter les prix et acheter des licences supplémentaires](teams-add-on-licensing/microsoft-teams-add-on-licensing.md#bkmk_how) ou une des options suivantes :
   
-- [Tarifs pour l'audioconférence](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements)
+- [Tarification de services d’audioconférence](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements)
     
-- [Tarifs pour le système téléphonique](https://products.office.com/en-us/skype-for-business/phone-system#Requirements)
+- [Tarification de système téléphonique](https://products.office.com/en-us/skype-for-business/phone-system#Requirements)
     
 - [Tarifs de forfaits d'appels](https://products.office.com/en-us/skype-for-business/pstn-calling-plans#requirements)
     

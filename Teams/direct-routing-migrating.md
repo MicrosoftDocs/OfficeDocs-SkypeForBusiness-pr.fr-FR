@@ -1,5 +1,5 @@
 ---
-title: Migration vers un routage direct
+title: Migrer vers un routage direct
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,14 +13,14 @@ ms.collection:
 - M365-voice
 appliesto: Microsoft Teams
 description: Découvrez ce qui est nécessaire pour migrer vers routage Direct à partir d’un Skype pour Business en ligne et la perspective de configuration d’équipes.
-ms.openlocfilehash: 100999483aa3246807008c2e8c60fc6d3ed5baa9
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: ff70af11783fb184fc3599fdb6d5fc13c15478a7
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30353113"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569925"
 ---
-# <a name="migrating-to-direct-routing"></a>Migration vers un routage direct
+# <a name="migrate-to-direct-routing"></a>Migrer vers un routage direct
 
 Cet article décrit ce qui est nécessaire pour migrer vers routage Direct à partir d’un Skype pour Business Online et Microsoft Teams perspective de configuration. Cet article traite de la migration à partir de la commande suivante : 
  
@@ -35,9 +35,9 @@ Outre ces étapes de configuration, configuration est également requis sur le c
 
 Le tableau suivant indique l’état de fin d’un utilisateur mis en service pour les options de connectivité PSTN sélectionnées avec Office 365 Phone System. Seuls les attributs pertinents pour voice sont présentés.
 
-|Attributs d’objet utilisateur |Système téléphonique avec forfaits d’appels|Téléphone système localement avec une connectivité PSTN via Skype pour Business Server|Système de téléphone localement avec une connectivité PSTN via le connecteur sur le nuage|Système de téléphone localement avec une connectivité PSTN via le routage Direct|
+|Attributs d’objet utilisateur |Système téléphonique avec les Plans d’appel|Téléphone système localement avec une connectivité PSTN via Skype pour Business Server|Système de téléphone localement avec une connectivité PSTN via le connecteur sur le nuage|Système de téléphone localement avec une connectivité PSTN via le routage Direct|
 |---|---|---|---|---|
-|Client|Skype pour les équipes ou de l’entreprise |Skype Entreprise |Skype Entreprise |Teams|
+|Client|Skype pour les équipes ou de l’entreprise |Skype Entreprise |Skype Entreprise |Teams|
 |Licences|Activité Skype en ligne</br>Plan 2</br></br>MCOProfessional ou MCOSTANDARD)</br></br></br>Système téléphonique (MCOEV)</br></br></br>Offres d'appels</br>Équipes|Skype Business Online Plan 2 (MCOProfessional ou MCOSTANDARD)</br></br></br>Système téléphonique (MCOEV)|Skype Business Online Plan 2 (MCOProfessional ou MCOSTANDARD)</br></br></br>Système téléphonique (MCOEV)|Skype Business Online Plan 2 (MCOProfessional ou MCOSTANDARD</br></br></br>Système téléphonique (MCOEV)</br></br>Équipes|
 OnPremLineURI |N/A|Le numéro de téléphone doit être synchronisé depuis le site Active Directory. |Le numéro de téléphone peut être géré dans Active Directory de locale ou dans Azure Active Directory.|Le numéro de téléphone peut être géré dans Active Directory de locale ou dans Azure Active Directory. Toutefois, si l’organisation a Skype sur site pour les entreprises, le nombre doit être synchronisé à partir d’Active Directory local.|
 |LineURI|Numéro de téléphone PSTN appelant|Définir automatiquement à partir du paramètre OnPremLineURI|Définir automatiquement à partir du paramètre OnPremLineURI|Définir automatiquement à partir du paramètre OnPremLineURI|

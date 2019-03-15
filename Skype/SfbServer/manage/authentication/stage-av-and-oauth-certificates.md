@@ -11,10 +11,10 @@ ms.collection: IT_Skype16
 ms.assetid: 22dec3cc-4b6b-4df2-b269-5b35df4731a7
 description: 'Résumé : Étape AV et OAuth certificats pour Skype pour Business Server.'
 ms.openlocfilehash: 9fd4074034e9bff6b27ed9a22143c59dc9890821
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
+ms.lasthandoff: 02/21/2019
 ms.locfileid: "25375935"
 ---
 # <a name="stage-av-and-oauth-certificates-in-skype-for-business-server-using--roll-in-set-cscertificate"></a>Étape de certificats AV et OAuth dans Skype pour Business Server à l’aide de-Roll dans Set-CsCertificate
@@ -47,7 +47,7 @@ Lors de la création de certificats OAuthTokenIssuer transitoires, l’heure d�
   
 ### <a name="to-update-or-renew-an-av-edge-service-certificate-with-a--roll-and--effectivedate-parameters"></a>Mettre à jour ou renouveler un A / V Edge service des certificats avec les paramètres - Roll et - EffectiveDate
 
-1. Ouvrez une session sur l’ordinateur local en tant que membre du groupe Administrateurs.
+1. Ouvrez une session l’ordinateur local en tant que membre du groupe Administrateurs.
     
 2. Demander un renouvellement ou un nouveau certificat AudioVideoAuthentication avec la clé privée exportable du certificat existant sur A / V Edge service.
     
@@ -96,7 +96,7 @@ Remove-CsCertificate -Type AudioVideoAuthentication -Previous
 
 ### <a name="to-update-or-renew-an-oauthtokenissuer-certificate-with-a--roll-and--effectivedate-parameters"></a>Mettre à jour ou renouveler un OAuthTokenIssuer avec - Roll et - EffectiveDate les paramètres de certificat
 
-1. Ouvrez une session sur l’ordinateur local en tant que membre du groupe Administrateurs.
+1. Ouvrez une session l’ordinateur local en tant que membre du groupe Administrateurs.
     
 2. Demandez un renouvellement ou un nouveau certificat OAuthTokenIssuer avec la clé privée exportable du certificat existant sur le serveur frontal.
     

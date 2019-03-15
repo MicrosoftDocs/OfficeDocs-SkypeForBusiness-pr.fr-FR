@@ -11,10 +11,10 @@ ms.collection: IT_Skype16
 ms.assetid: 621b08fb-f894-4d91-ac38-e443401b098b
 description: Vous pouvez utiliser la mesure suivante pour estimer le trafic utilisateur sur chaque site et le nombre de ports requis pour prendre en charge de ce trafic.
 ms.openlocfilehash: e69c559c4ed56010dac3a81a97837f1131e62a2e
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
+ms.lasthandoff: 02/21/2019
 ms.locfileid: "25376006"
 ---
 # <a name="estimating-voice-usage-and-traffic-for-skype-for-business-server"></a>Estimation du trafic et l’utilisation de la voix pour Skype pour Business Server
