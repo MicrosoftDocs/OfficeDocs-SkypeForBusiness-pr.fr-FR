@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark
-ms.topic: article
+ms.topic: reference
 ms.assetid: e603431c-8264-4b47-ad9d-d2701ce318be
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Cette rubrique contient tous les pays et régions que les utilisateurs peuvent effectuer des appels sortants vers s’ils disposent d’un Plan de l’appel.
-ms.openlocfilehash: 1965e362114b98f2b41cf3f3efbf74fcab93a83c
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 70c0a0631f4f01ab87ef185b96b6c3fb00b14e6e
+ms.sourcegitcommit: 13445200c9b2991d5a88c8e203048cd7d094382c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465099"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30645423"
 ---
 # <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>Utilisateurs peuvent passer des appels sortants à ces pays et régions
 
@@ -39,18 +39,18 @@ ms.locfileid: "30465099"
 ---|---|---|---|---|---|
 |Afghanistan|Équateur |Islande |Macau |Pakistan |Taïwan   |
 |Albanie|Égypte |Inde |Macédoine |Les Palaos |Tadjikistan   |
-|Algérie|El Salvador |Indonésie |Malawi |Autorité palestinienne |Tanzanie  |
+|Algérie|El Salvador |Indonésie |Malawi |Palestinian Authority |Tanzanie  |
 |Les Samoa américaines|Guinée équatoriale |Iran |Malaisie |Panama | Thaïlande   |
-|Andorre |Érythrée |Irak |Mali |Paraguay |Togo   |
+|Andorre |Érythrée |Iraq |Mali |Paraguay |Togo   |
 |Angola |Estonie |Irlande |Malte |Pérou | Trinité-et-Tobago  |
-|Anguilla |Éthiopie |Israël |Marshall (îles) | Philippines | Turquie |
+|Anguilla |Éthiopie |Israël |Les îles Marshall | Philippines | Turquie |
 |Antigua-et-Barbuda | Faroe Islands |Italie |Martinique |Pologne |Turkménistan |
 |Argentine|Fidji |Jamaïque |Maurice |Portugal |Îles Turques-et-Caïques   |
 |Arménie |Finlande |Japon |Mayotte | Porto Rico |Ouganda  |
 |Aruba |France |Jordanie |Mexique |Qatar | Ukraine   |
 |Australie |Guyane française |Kazakhstan |Micronésie |Réunion |Émirats arabes unis  |
 |Autriche |Polynésie française |Kenya |Moldavie |Roumanie |Royaume-Uni (R.-U.) |
-|Azerbaïdjan |Géorgie |Corée du Sud |Monaco | Russie |États-Unis (USA)  |
+|Azerbaïdjan |Géorgie |Corée du Sud |Monaco | Russie |États-Unis  |
 |Bahamas |Allemagne |Koweït |Mongolie |Rwanda | Uruguay |
 |Bahreïn |Ghana |Kirghizstan |Monténégro | Saint-Christophe-et-Niévès |Ouzbékistan  |
 |Bangladesh |Gialtar |Laos |Montserrat | Sainte Lucie |Vatican  |
@@ -63,16 +63,16 @@ ms.locfileid: "30465099"
 |Bhoutan |Guinée |Luxembourg |Les Antilles néerlandaises |Slovaquie |Zambie  |
 |Bolivie |Guyana| |Nouvelle-Calédonie |Slovénie |Zimbabwe |
 |Bosnia and Herzegovina (Bosna i Hercegovina) |Haïti ||Nouvelle-Zélande |Afrique du Sud | 
-|Botswana |Honduras ||Nicaragua |Espagne |
-|Brésil |Hong Kong ||Niger |Sri Lanka | 
-|Bunei Darussalam |Hongrie ||Nigeria |St. Pierre et Miquelon | 
-|Bulgarie |||Îles Mariannes du Nord |Soudan |
-|Burkina Faso |||Norvège |Suriname |
-|Cambodge |||Oman |Swaziland | 
-|Cameroun ||||Suède |
-|Canada ||||Suisse | 
-|Cap-Vert ||||Syrie |
-|Cayman Islands |
+|Botswana |Honduras ||Nicaragua |Soudan du Sud |
+|Brésil |Hong Kong ||Niger |Espagne | 
+|Bunei Darussalam |Hongrie ||Nigeria |Sri Lanka | 
+|Bulgarie |||Îles Mariannes du Nord |St. Pierre et Miquelon |
+|Burkina Faso |||Norvège |Soudan |
+|Cambodge |||Oman |Suriname | 
+|Cameroun ||||Swaziland |
+|Canada ||||Suède | 
+|Cap-Vert ||||Suisse |
+|Cayman Islands ||||Syrie |
 |République centrafricaine |
 |Chili |
 |Chine |
@@ -88,7 +88,7 @@ ms.locfileid: "30465099"
 |Danemark |
 |Djibouti |
 |Dominique |
-|République dominicaine |
+|Dominican Republic (República Dominicana) |
 
 ## <a name="related-topics"></a>Rubriques connexes
 
