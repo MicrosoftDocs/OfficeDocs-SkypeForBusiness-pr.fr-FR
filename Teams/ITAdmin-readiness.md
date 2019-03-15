@@ -4,7 +4,7 @@ author: LanaChin
 ms.author: v-lanac
 manager: serdars
 layout: LandingPage
-ms.date: 02/15/2019
+ms.date: 03/14/2019
 ms.topic: landing-page
 ms.service: msteams
 ms.collection:
@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Vidéos de formation, des supports de présentation PowerPoint, des didacticiels et autres ressources pour les administrateurs à planifier, déploiement et exécuter Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 85ff5f21b1e23f2ff0407272a3e86885b779a3d6
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: f166d3a00fbf0ea9b51fa1d083ed490d7323df0c
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461851"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30641159"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Formation à Microsoft Teams pour les administrateurs
 
@@ -90,10 +90,11 @@ Utilisez les ressources de formation pour informer sur les équipes, apprendre �
 | ------------ | -------------------- | -------------------- |
 | Notions de base - composants principaux | [Video](https://aka.ms/teams-foundations) | [Pont](https://aka.ms/teams-foundations-deck) |
 | Client de bureau Windows | [Video](https://aka.ms/teams-clients) | [Pont](https://aka.ms/teams-clients-deck) |
-| Lifecylce, la gestion et la gouvernance | [Video](https://aka.ms/teams-governance) | [Pont](https://aka.ms/teams-governance-deck) |
+| Cycle de vie, la gestion et la gouvernance | [Video](https://aka.ms/teams-governance) | [Pont](https://aka.ms/teams-governance-deck) |
 | Planification de réseau | [Video](https://aka.ms/teams-networking) | [Pont](https://aka.ms/teams-networking-deck) |
 | Vue d’ensemble de la qualité des appels | [Video](https://aka.ms/teams-quality) | [Pont](https://aka.ms/teams-quality-deck) |
 | Présentation des réunions | [Video](https://aka.ms/teams-meetings-intro) | [Pont](https://aka.ms/teams-meetings-intro-deck) |
+| Événements en direct | [Video](https://aka.ms/teams-live-events-session) | [Pont](https://aka.ms/teams-live-events-deck) |
 | Présentation du système téléphonique | [Video](https://aka.ms/teams-phone-system) | [Pont](https://aka.ms/teams-phone-system-deck) |
 | Routage direct | [Video](https://aka.ms/teams-direct-routing) | [Pont](https://aka.ms/teams-direct-routing-deck) |
 | Mise à niveau de Skype Entreprise vers Teams | [Vidéo 1 : Introduction à la mise à niveau](https://aka.ms/teams-upgrade-intro)</br>[Vidéo 2 : Planifier votre mise à niveau](https://aka.ms/teams-upgrade-plan)</br>[Vidéo 3 : Interopérabilité et Coexistence](https://aka.ms/teams-upgrade-coexistence-interop)</br>[Vidéo 4 : L’expérience administrateur](https://aka.ms/teams-upgrade-admin) | [Pont](https://aka.ms/teams-upgrade-deck)|
@@ -105,9 +106,9 @@ Utilisez les ressources de formation pour informer sur les équipes, apprendre �
 
 <h2>Didacticiels</h2>
 
-- [Didacticiel : Transition de Skype Entreprise à Teams](tutorial-journey-skypeforbusiness-to-teams.yml)
+- [Didacticiel : Migration de Skype Entreprise vers Teams](tutorial-journey-skypeforbusiness-to-teams.yml)
 - [Didacticiel : Réunions dans Teams](tutorial-meetings-in-teams.yml)
-- [Didacticiel : Services d’audioconférence dans les équipes](tutorial-audio-conferencing.yml)
+- [Didacticiel : Audioconférence dans Teams](tutorial-audio-conferencing.yml)
 - [Didacticiel : Découvrir les appels dans Teams](tutorial-calling-in-teams.yml)
 
 <h2>Cours</h2>
