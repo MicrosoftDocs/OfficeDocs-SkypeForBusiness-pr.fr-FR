@@ -3,7 +3,7 @@ title: Implémenter QoS et contrôler l’analyse des appels dans Microsoft Team
 author: jambirk
 ms.author: jambirk
 manager: Serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: jambirk
 description: Utiliser les paramètres de qualité de Service (QoS) puis Analytique d’appel et appel du tableau de bord qualité dans Microsoft Teams.
@@ -14,12 +14,12 @@ MS.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8a40b5d14268323f1231377e96b75a3120145245
-ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
+ms.openlocfilehash: 77730db17e900951f0fe1a60b7c0ae2ccdbfbc5b
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "30408250"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30641072"
 ---
 # <a name="implement-qos-and-monitor-call-quality-in-microsoft-teams"></a>Mettre en œuvre QoS et surveiller la qualité des appels dans les équipes Microsoft
 
@@ -45,12 +45,12 @@ Idéalement, vous implémentez QoS sur votre réseau interne lors de la configur
 
 [Vidéo : Vue d’ensemble de la qualité des appels](https://aka.ms/teams-quality)
 
-[Configurer Analyse des appels](set-up-call-analytics.md)
+[Configurer l’analyse des appels](set-up-call-analytics.md)
 
-[Utiliser l’Analyse des appels pour résoudre les problèmes de qualité des appels](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+[Utiliser l’analyse des appels pour résoudre les problèmes de qualité des appels](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
-[Activation et utilisation du tableau de bord d’appel de qualité d’appel](turning-on-and-using-call-quality-dashboard.md)
+[Activation et utilisation du tableau de bord de qualité des appels](turning-on-and-using-call-quality-dashboard.md)
 
 [Dimensions et mesures disponibles dans le tableau de bord de qualité des appels](dimensions-and-measures-available-in-call-quality-dashboard.md)
 
-[Classification des flux dans le tableau de bord de qualité des appels](stream-classification-in-call-quality-dashboard.md)
+[Classification de flux de données dans le tableau de bord de qualité des appels](stream-classification-in-call-quality-dashboard.md)

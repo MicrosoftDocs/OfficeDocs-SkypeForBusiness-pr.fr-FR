@@ -3,7 +3,7 @@ title: Guide de la migration et de l’interopérabilité pour les organisations
 author: arachmanGitHub
 ms.author: MyAdvisor
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: bjwhalen
 description: Conseils pour la gestion de la transition aux équipes de Skype pour les entreprises
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6d4c0733b30118bc09004d84f8c4b9db64f58e23
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: 2fe85942a943bcfb5a9645030924acd4180d250a
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494276"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30641342"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>Guide de la migration et de l’interopérabilité pour les organisations qui utilisent Teams avec Skype Entreprise
 
@@ -83,9 +83,9 @@ Les modes sont répertoriés ci-dessous.
 |---|---|---|---|---|
 |**TeamsOnly**</br>*Nécessite d’accueil dans Skype pour Business en ligne*|Teams|Teams|Oui|L’état final de la mise à niveau. Également la valeur par défaut pour les nouveaux clients avec <500 sièges.|
 |(Îles)|Soit|Soit|Oui|Configuration par défaut. Permet à un utilisateur unique à évaluer les deux clients côte à côte. Conversations et les appels peuvent atteindre dans un client, afin que les utilisateurs doivent toujours exécuter les deux clients.|
-|SfBWithTeamsCollabAndMeetings<sup>2</sup>|Skype Entreprise|Équipes|Oui|« Réunions premier ». Principalement pour les organisations sur site bénéficier des fonctionnalités de réunion équipes, si elles ne sont pas encore prêt à mode l’appel vers le nuage.|
-|SfBWithTeamsCollab<sup>2</sup>|Skype Entreprise|Skype Entreprise|Oui|Autre point de départ pour les organisations complexes nécessitant une plus forte du contrôle administratif|
-|SfBOnly|Skype Entreprise|Skype Entreprise|Aucun<sup>3</sup>|Spécialisés scénario pour les organisations ayant de strictes exigences de contrôle de données. Les équipes est utilisée uniquement pour participer à des réunions planifiées par d’autres personnes.|
+|SfBWithTeamsCollabAndMeetings<sup>2</sup>|Skype Entreprise|Équipes|Oui|« Réunions premier ». Principalement pour les organisations sur site bénéficier des fonctionnalités de réunion équipes, si elles ne sont pas encore prêt à mode l’appel vers le nuage.|
+|SfBWithTeamsCollab<sup>2</sup>|Skype Entreprise|Skype Entreprise|Oui|Autre point de départ pour les organisations complexes nécessitant une plus forte du contrôle administratif|
+|SfBOnly|Skype Entreprise|Skype Entreprise|Aucun<sup>3</sup>|Spécialisés scénario pour les organisations ayant de strictes exigences de contrôle de données. Les équipes est utilisée uniquement pour participer à des réunions planifiées par d’autres personnes.|
 ||||||
 
 </br>

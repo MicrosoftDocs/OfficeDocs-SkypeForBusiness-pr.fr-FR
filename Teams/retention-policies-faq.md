@@ -1,10 +1,10 @@
 ---
-title: Forum aux questions sur les stratégies de rétention Microsoft Teams
+title: 'FAQ : stratégies de conservation dans Microsoft Teams'
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/11/2018
-ms.topic: article
+ms.topic: reference
 ms.service: msteams
 ms.reviewer: anach
 description: Forum aux questions sur les stratégies de rétention dans Microsoft Teams.
@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7597565afcd63872554e867d8f68929a3e214538
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 14e398908a13e621d739a5a923b52588551506f8
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461019"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30641334"
 ---
-# <a name="microsoft-teams-retention-policies-faq"></a>Forum aux questions sur les stratégies de rétention Microsoft Teams
+# <a name="microsoft-teams-retention-policies-faq"></a>FAQ : stratégies de conservation dans Microsoft Teams
 
 ### <a name="what-types-of-policies-can-i-set-up-in-retention-policies-and-how-do-they-work"></a>Quels types de stratégies puis-je configurer les stratégies de rétention et comment fonctionnent-ils ?
 

@@ -4,7 +4,7 @@ author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
 ms.date: 08/10/2018
-ms.topic: article
+ms.topic: reference
 ms.service: msteams
 ms.reviewer: rowille
 description: Découvrez comment planifier l’implémentation des fonctionnalités de gouvernance dans les équipes.
@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0792bf80ebc2d55f4f60e72fe0373a6d86df3923
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 2ce14fee8e9039f538d39c61ef4436c69160b222
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464875"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30640945"
 ---
-# <a name="plan-for-governance-in-teams"></a>Planifier la gouvernance dans les équipes
+# <a name="plan-for-governance-in-teams"></a>Planifier la gouvernance dans Teams
 
 Les équipes fournit un ensemble complet d’outils permettant de mettre en œuvre les fonctionnalités de gouvernance votre organisation peut avoir besoin. Cet article Guide les professionnels de l’informatique à poser les questions pour déterminer les exigences pour la gouvernance et comment y répondre. 
 

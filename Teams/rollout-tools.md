@@ -14,12 +14,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e542dbcba4d098d197dfd70ab663aa06c9144f4c
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 17ef7a0575de20fcef7a10e71d8b81e1504f947e
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30458835"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30640673"
 ---
 <a name="get-tools-to-support-a-rollout-of-microsoft-teams"></a>Obtenir des outils d'assistance pour le lancement de Microsoft Teams
 =================================================
@@ -28,7 +28,7 @@ Le kit de réussite des clients de Microsoft Teams fournit des outils pour aide
 
 ### <a name="learn-adjust-and-repeat"></a>Apprendre, adapter et recommencer
 
-À mesure que vous suivez les étapes recommandées dans cet article à l'aide des ressources de kit de réussite des clients, vos partenaires, champions et utilisateurs partageront leurs commentaires. Ces précieuses observations peuvent vous aider à adapter votre méthode, vos messages et modèles pour encourager davantage l'adoption et aborder les résultats de votre entreprise. La flexibilité en matière de modèle de gestion des services agiles est essentielle à la garantie de la réussite au rythme de l'activité actuelle. Si vous lisez ce document, vous êtes l'un des principaux responsables de la réussite de ce déploiement et votre capacité à adapter votre plan en fonction des conditions actuelles permettra d'accélérer la courbe d'adoption au sein de votre entreprise.
+Tout au long des étapes recommandées ici en utilisant les ressources du Kit de réussite client, vos utilisateurs, champions et les parties prenantes partager des commentaires. Ces informations précieuses peuvent vous aider à ajuster votre approche, la messagerie et les modèles d’adoption supplémentaire et finalement atteindre vos objectifs métiers. Flexibilité dans un modèle de gestion de service agile est essentielle pour parvenir aujourd'hui réussite au rythme de l’entreprise. Si vous lisez ce document, vous êtes un des responsables principaux pour le succès de ce déploiement et votre capacité à ajuster votre plan en fonction des conditions actives va accélérer la courbe d’adoption dans votre société.
 
 Microsoft Teams est conçu pour favoriser la collaboration et associe la simplicité d'utilisation à la solidité du service. Réexaminer régulièrement les objectifs de l'entreprise décidés au début du processus vous permet d'assurer la livraison de performances mesurables dans le cadre des priorités via l'adoption de Microsoft Teams.
 

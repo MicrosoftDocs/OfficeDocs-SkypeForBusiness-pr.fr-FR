@@ -5,7 +5,7 @@ ms.author: lolaj
 manager: serdars
 ms.date: 11/15/2018
 audience: Admin
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: ''
@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eec164da4dafe9be54272a72680cfa920d32d60c
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 5dc79f6913a2996734b34d589f124c440eb9835e
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30458811"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30641104"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>Se connecter à Microsoft Teams en utilisant l’authentification moderne
 ==========================
@@ -49,7 +49,6 @@ Lorsque les utilisateurs démarrent les équipes, son ordinateur sera en mesure 
 Si les utilisateurs travaillent sur un ordinateur à un domaine (par exemple, si leur client a activé Kerberos), ils ne peuvent pas passer des comptes d’utilisateur une fois qu’ils ont effectuées authentification moderne. Si les utilisateurs ne travaillent pas sur un ordinateur à un domaine, ils peuvent changer de compte.
 
 ## <a name="signing-out-of-microsoft-teams-after-completing-modern-authentication"></a>Déconnexion de Microsoft Teams après la fin de l’authentification moderne
-
 Pour vous déconnecter d’équipes, les utilisateurs peuvent cliquez sur l’image en haut de l’application de leur profil, puis sélectionnez **se déconnecter**. Ils peuvent également avec le bouton droit de l’icône d’application dans la barre des tâches, puis sélectionnez **se déconnecter**. Une fois qu’ils ont connexion en dehors des équipes, ils doivent entrer leurs informations d’identification pour lancer l’application.
 
 ## <a name="troubleshooting-modern-authentication"></a>Résolution des problèmes d’authentification moderne

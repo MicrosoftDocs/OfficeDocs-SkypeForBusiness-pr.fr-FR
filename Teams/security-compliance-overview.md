@@ -4,7 +4,7 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/11/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: anach
 description: Vue d’ensemble des fonctionnalités de sécurité et de conformité de Microsoft Teams, y compris l’audit et création de rapports, recherche de contenu de la conformité, eDiscovery et plus.
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c1288bee6e2b1adcceb3b899f705536c8a00133
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: d78f1e0a4f1c3a5ca95dff0f50d688c2d8a6b239
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30493980"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30640785"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Présentation de la sécurité et de la conformité dans Microsoft Teams
 ======================================================

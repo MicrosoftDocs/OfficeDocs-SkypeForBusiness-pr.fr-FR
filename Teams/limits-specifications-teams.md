@@ -4,7 +4,7 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 10/05/2018
-ms.topic: article
+ms.topic: reference
 ms.service: msteams
 ms.reviewer: karuanag
 description: Découvrez les limites, les spécifications et autres conditions qui s’appliquent à Microsoft Teams.
@@ -15,12 +15,12 @@ MS.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4da0f7049912c246a58792c8c03c15b28a083cbc
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 391fd25aeec4ae52b31865f25be9b127158ef764
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460651"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30641167"
 ---
 <a name="limits-and-specifications-for-microsoft-teams"></a>Limites et spécifications de Microsoft Teams
 =============================================
@@ -80,7 +80,7 @@ Fonction de conversation Microsoft Teams fonctionne sur un serveur principal Mic
 |Fonctionnalité  |Office 365 Entreprise E1  |Office 365 Entreprise E3  |Office 365 Entreprise E5  |Office 365 Entreprise F1  |
 |---------|---------|---------|---------|---------|
 |Limite de taille de message&dagger;  |25 KO   |25 KO   |25 KO   |25 KO   |
-|Limite des pièces jointes de fichier&Dagger;  | 10     | 10     | 10     | 10    |
+|Limite des pièces jointes de fichier&Dagger;  |10     |10     |10     |10    |
 |Limite des images en ligne&Dagger; |50   |50   |50   |50   |
 
 &dagger;Si le message dépasse cette limite, un aperçu du message est généré et l’utilisateur est invité à consulter/télécharger le courrier électronique d’origine à partir du lien fourni.
@@ -89,7 +89,7 @@ Fonction de conversation Microsoft Teams fonctionne sur un serveur principal Mic
 
 Pour plus d’informations, consultez la rubrique [limites d’Exchange Online](https://technet.microsoft.com/library/exchange-online-limits.aspx).
 
-<a name="browsers"></a>Navigateurs   
+<a name="browsers"></a>Navigateurs 
 --------
 
 [!INCLUDE [browser-support](includes/browser-support.md)]

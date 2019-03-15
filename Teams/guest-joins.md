@@ -4,7 +4,7 @@ author: somakbhattacharyya
 ms.author: sbhatta
 manager: serdars
 ms.date: 10/20/17
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 MS.collection:
 - Teams_ITAdmin_Help
@@ -14,17 +14,17 @@ search.appverid: MET150
 description: Obtenez une brève présentation générale de la manière dont un invité est invité à rejoindre une équipe dans Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 85956acbdd07ea5e014c93a1229a1ebc432b718f
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: d8bc9eabb467479b0b33793ace9fc0b97d179f93
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30458875"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30640713"
 ---
 <a name="how-a-guest-joins-a-team"></a>Comment un invité rejoint une équipe
 ========================
 
-Dans Microsoft Teams, le propriétaire d'une équipe peut ajouter et gérer des invités dans ses équipes via le client Web ou de bureau. Toutes les personnes ayant un compte de messagerie professionnel ou de particulier tel que Outlook, Gmail, etc. peuvent participer en tant qu’invitées dans Teams, avec un accès complet aux conversations, réunions et fichiers des équipes. Seules des personnes externes à votre organisation, comme des partenaires ou des consultants, peuvent être ajoutées en tant qu'invités. Les personnes au sein de l'organisation peuvent rejoindre une équipe en tant que membres ordinaires.
+Dans Microsoft Teams, le propriétaire d'une équipe peut ajouter et gérer des invités dans ses équipes via le client Web ou de bureau. Toute personne possédant un compte de messagerie consommateur ou de l’entreprise, comme Outlook, Gmail ou d’autres personnes, peut participer à en tant qu’invité dans les équipes avec accès total aux conversations de l’équipe, des réunions et des fichiers. Seules des personnes externes à votre organisation, comme des partenaires ou des consultants, peuvent être ajoutées en tant qu'invités. Les personnes au sein de l'organisation peuvent rejoindre une équipe en tant que membres ordinaires.
   
 > [!NOTE]
 > Pour permettre aux invités de rejoindre une équipe, l'administrateur doit d'abord activer l'accès invité dans Teams. Pour ce faire, consultez la rubrique [Activer ou désactiver l’accès invité pour les équipes Microsoft](set-up-guests.md). 

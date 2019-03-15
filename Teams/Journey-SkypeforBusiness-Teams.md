@@ -3,7 +3,7 @@ title: Mise à niveau de Skype Entreprise vers Microsoft Teams
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Utiliser une infrastructure couronné de succès pour voyage au pays de la mise à niveau de votre organisation de Skype pour les entreprises à des équipes
@@ -16,14 +16,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5749700eb314444398111150f1ac842466f7f90
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: 60094153f0e48187b0437bce1f25077c742ad773
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494092"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30641178"
 ---
-# <a name="skype-for-business-to-microsoft-teams-upgrade"></a>Mise à niveau de Skype Entreprise vers Microsoft Teams
+# <a name="skype-for-business-to-microsoft-teams-upgrade"></a>Skype pour les entreprises à la mise à niveau de Microsoft Teams
 
 Prise en charge la vision de Microsoft communications intelligent, Microsoft Teams est de pivot pour le travail d’équipe, réunissant conversation, réunions, appel, la collaboration, l’intégration d’app et stockage des fichiers. Comme un Skype existante pour le client d’entreprise, vous êtes invité à mettre à niveau vers Teams Microsoft, bénéficient de cette suite complète des fonctionnalités de communication et de collaboration dans une expérience client unique.
 
@@ -32,10 +32,10 @@ Voyage au pays de votre mise à niveau peut prendre un certain temps, et nous so
 Afficher cette [vue d’ensemble](https://aka.ms/UpgradeOverview) pour une introduction à la Skype pour les entreprises à parcours de mise à niveau les équipes, y compris les concepts de base, framework et chemins de mise à niveau.
 
 > [!Tip]
-> Regardez la session suivante pour en savoir plus sur la mise à niveau de Skype Entreprise vers Microsoft Teams :
-> - [Présentation de la mise à niveau](https://aka.ms/teams-upgrade-intro)
+> Regardez la session pour en savoir plus sur la mise à niveau à partir de Skype pour Business Teams Microsoft suivante :
+> - [Introduction à la mise à niveau](https://aka.ms/teams-upgrade-intro)
 > - [Planifier votre mise à niveau](https://aka.ms/teams-upgrade-plan)
-> - [Coexistence et interopérabilité](https://aka.ms/teams-upgrade-coexistence-interop)
+> - [Interopérabilité et coexistence](https://aka.ms/teams-upgrade-coexistence-interop)
 > - [Expérience de l’administrateur](https://aka.ms/teams-upgrade-admin)
 
 ## <a name="upgrade-journey-framework"></a>Infrastructure de mise à niveau voyage

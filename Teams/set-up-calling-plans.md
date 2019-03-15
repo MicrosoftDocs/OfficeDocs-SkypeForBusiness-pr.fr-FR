@@ -22,14 +22,15 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 'Learn how in Office 365 Calling Plan (PSTN Calling plan) to buy and set up licenses, get phone numbers, add and assign emergency locations and phone numbers to users, and tell your users about their new phone numbers. '
-ms.openlocfilehash: 3462a77deeb6334ae715dadb6445d8b9b0200089
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 97dfa3c330979b151ea851be14e3149ecdfd10b7
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30543070"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30641373"
 ---
 # <a name="set-up-calling-plans"></a>Configurer des forfaits d'appels
+
 Les appels vers d’autres Skype pour les utilisateurs professionnels sont gratuites, mais si vous souhaitez que vos utilisateurs puissent appeler des téléphones en dehors de votre entreprise, obtenir un Plan d’appel interne ou d’un Plan d’appel International dans Office 365. Il est facile pour définir votre entreprise. 
 
 ## <a name="step-1-find-out-if-calling-plans-are-available-in-your-countryregion"></a>Étape 1 : Déterminer si l’appel des Plans sont disponibles dans votre pays/région
@@ -128,7 +129,7 @@ Si vous connaissez Windows PowerShell, vous pouvez utiliser les applets de comma
 Pour en savoir plus, consultez [Aide-mémoire :Utiliser Windows PowerShell pour les tâches de gestion courantes de Skype Entreprise Online](https://technet.microsoft.com/library/dn362776%28v=ocs.15%29.aspx).
   
    > [!NOTE]
-   > Si vous devez obtenir plus de numéros de téléphone, vous pouvez contacter le [support pour les entreprises - Aide de l'administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+   > Si vous avez besoin obtenir les numéros de téléphone plus grand que cette, veuillez [contacter le support pour les produits métiers : aide d’administration](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
 
 ## <a name="related-topics"></a>Rubriques connexes

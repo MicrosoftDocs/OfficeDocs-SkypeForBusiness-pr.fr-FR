@@ -5,7 +5,7 @@ author: lolaj
 manager: serdars
 ms.date: 02/19/2019
 ms.reviewer: srividhc
-ms.topic: article
+ms.topic: conceptual
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Apparence de la ligne partagé permet à un utilisateur de choisir un délégué à répondre ou gérer les appels en son nom.
-ms.openlocfilehash: 0a110e18cb8a939870528d2700ec54103cf91a6e
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 81eea77595f07db5772ffc4f3d6ee0b0dafa95c5
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541695"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30641207"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>Mode partage de lignes dans Microsoft Teams
 

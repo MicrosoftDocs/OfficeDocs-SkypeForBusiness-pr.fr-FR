@@ -1,10 +1,10 @@
 ---
-title: Stratégies de rétention dans Microsoft Teams
+title: Stratégies de conservation dans Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/11/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: anach
 description: Découvrez comment les stratégies de rétention et comment les gérer dans les équipes.
@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4d07629f41a54dcab1995f2aef2d7536479be25d
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: c3c253569f642a8833d9bfad6677fe1a17624447
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464555"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30640977"
 ---
-# <a name="retention-policies-in-microsoft-teams"></a>Stratégies de rétention dans Microsoft Teams
+# <a name="retention-policies-in-microsoft-teams"></a>Stratégies de conservation dans Microsoft Teams
 
 Conversations équipes sont persistantes et conservés indéfiniment par défaut. Avec l’introduction des stratégies de rétention, les administrateurs peuvent configurer des stratégies de rétention (conservation et suppression) dans le centre de conformité de & sécurité pour les messages de conversation et de canal équipes. Cela permet aux organisations de conserver les données de conformité (à savoir, stratégie de conservation) pour une période spécifique ou de vous débarrasser de données (à savoir, stratégie de suppression) s’il est considéré comme un passif après une période spécifique. Stratégies de rétention équipes Assurez-vous que lorsque vous supprimez des données, il est supprimé de tous les emplacements de stockage des données permanentes dans le service d’équipes. 
 

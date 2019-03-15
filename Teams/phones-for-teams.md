@@ -4,7 +4,7 @@ ms.author: jambirk
 author: jambirk
 manager: serdars
 ms.reviewer: kponnus
-ms.topic: article
+ms.topic: reference
 ms.service: msteams
 ms.audience: Admin
 appliesto:
@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 localization_priority: Normal
 description: Cet article traite de la liste des téléphones qui sont certifiées pour Teams Microsoft et les fonctionnalités prises en charge dans les téléphones certifiés pour Microsoft Teams.
-ms.openlocfilehash: 55777b0bdf03b51e01ffe127e173adb475c957e6
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 9531d1c3619c15b0b8669708e40264fec5f211fd
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461795"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30640985"
 ---
 # <a name="phones-for-microsoft-teams"></a>Téléphones pour Microsoft Teams
 

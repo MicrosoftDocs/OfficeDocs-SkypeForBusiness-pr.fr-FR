@@ -1,26 +1,28 @@
 ---
-title: Présence de l’utilisateur dans les équipes
+title: Présence des utilisateurs dans Teams
 author: jambirk
 ms.author: jambirk
 manager: serdars
 ms.date: 08/21/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: rakayala
 description: Informations administrateurs doivent comprendre sur la présence dans les équipes.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1934a602d89240c89ffb4f7410192d19a7dd2e61
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 75710a428273a38954de38ef5b6094d412aa3085
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533025"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30640969"
 ---
-# <a name="user-presence-in-teams"></a>Présence de l’utilisateur dans les équipes
+# <a name="user-presence-in-teams"></a>Présence des utilisateurs dans Teams
 
 Fait partie d’un profil utilisateur dans Microsoft Teams (et dans Office 365), de présence et indique la disponibilité actuelle de l’utilisateur et l’état à d’autres utilisateurs dans l’organisation. Par défaut, tout le monde dans votre organisation à l’aide des équipes permettre voir ou non les autres utilisateurs sont disponibles en ligne.
 
@@ -40,9 +42,9 @@ Les États de présence utilisateur disponibles dans les équipes sont les suiva
 || ![Ne pas déranger](media/Presence_DND.png) Présentation|
 | ![Absent (e)](media/Presence_Away.png) Absent (e)| ![Absent (e)](media/Presence_Away.png) Absent (e)|
 || ![Absent (e)](media/Presence_Away.png) absent (e) vu dernière *heure*|
-|![Absent (e)](media/Presence_Away.png) On arrive| |
+|![Absent (e)](media/Presence_Away.png) On revient| |
 || ![Absent (e)](media/Presence_Away.png)  En congé|
-|| ![En mode hors connexion](media/Presence_Offline.png) En mode hors connexion |
+|| ![hors-ligne](media/Presence_Offline.png) hors-ligne |
 || ![inconnu](media/Presence_Unknown.png) État inconnu|
 ||![bloqué](media/Presence_Blocked.png) Bloqué |
 || ![Absent](media/Presence_OOF.png) Absent|
@@ -58,9 +60,9 @@ Les utilisateurs peuvent spécifier qui peut adresser directement (contacter rem
 
 Les paramètres d’administration suivants dans Skype pour les entreprises sont différentes dans les équipes :
 - Partage de présence est toujours activé dans les équipes pour les utilisateurs dans l’organisation. Configuration de la confidentialité (déterminer qui peut voir présence) n’est pas disponible dans les équipes.
-- Présence partage avec tout le monde (y compris les services fédérés) est toujours activé pour les utilisateurs dans les équipes. Leur liste des contacts (si elles avaient dans SfB) est visible sous **conversation > Contacts** ou sous **appels > Contacts**.
+- Présence partage avec tout le monde (y compris les services fédérés) est toujours activé pour les utilisateurs dans les équipes. Leur liste des contacts (si elles avaient dans SfB) est visible sous **conversation > Contacts** ou **les appels > Contacts**.
 - Fonctionnalités client ne pas déranger et innovante sont toujours activées pour les utilisateurs dans les équipes.
-- Calendrier (inclut absent du bureau et autres informations du calendrier) intégration est toujours activée pour les utilisateurs dans les équipes si intégré à Outlook.
+- Calendrier (inclut les autres informations du calendrier & OOF) intégration est toujours activée pour les utilisateurs dans les équipes si intégré à Outlook.
 - La *dernière détection* ou *Absent (e) depuis* (le cas dans un environnement double avec Skype pour les entreprises) indicateur est toujours activé pour les utilisateurs dans les équipes.
 - Définir un statut de présence personnalisé n’est pas activé pour les utilisateurs dans les équipes.
 
@@ -68,6 +70,6 @@ Les paramètres d’administration suivants dans Skype pour les entreprises sont
 > La capacité d’un administrateur d’équipes pour personnaliser ces paramètres n’est pas actuellement pris en charge.
 
 
-## <a name="coexistence-with-skype-for-business"></a>Coexistence avec Skype pour les entreprises
+## <a name="coexistence-with-skype-for-business"></a>Coexistence avec Skype Entreprise
 
 Pour plus d’informations sur le fonctionne de présence des équipes lors de la coexistence avec Skype pour les entreprises, consultez [Coexistence avec Skype pour les entreprises](coexistence-chat-calls-presence.md) . 

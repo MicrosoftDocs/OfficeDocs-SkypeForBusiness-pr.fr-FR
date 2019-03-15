@@ -4,19 +4,21 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/25/2017
-ms.topic: article
+ms.topic: troubleshooting
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 search.appverid: MET150
 description: Découvrez les journaux de débogage, des médias et du bureau générés par Microsoft Teams, où les trouver et comment ils peuvent vous assister dans vos opérations de dépannage.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bf42d76e1e17dc81b1c3d0ab603050c6e2d25d71
-ms.sourcegitcommit: ea6ee8ce28e82fcd7c07554c3428ae242d6f04da
-ms.translationtype: HT
+ms.openlocfilehash: 018247ba7f5f7ac088226bd505f6bf11737533c2
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "27201332"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30640705"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Utiliser les fichiers journaux pour le dépannage de Microsoft Teams
 =================================================

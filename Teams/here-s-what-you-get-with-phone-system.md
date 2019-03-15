@@ -4,7 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 msreviewer: jastarck, makolomi
-ms.topic: article
+ms.topic: conceptual
 ms.assetid: bc9756d1-8a2f-42c4-98f6-afb17c29231c
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -21,16 +21,16 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn about the features, availability, and how to plan and set up a Phone System (Cloud PBX) for your business. '
-ms.openlocfilehash: 051834d3a0fd232cc9839ee6a72a41e9be127636
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 3982afffc948d58d6793b13c06fa3d29d8e48ac9
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542918"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30640921"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Voici les avantages du système téléphonique dans Office 365
 
-Un PBX est un système téléphonique au sein d'une entreprise. Le système téléphonique dans le module complémentaire Office 365 vous offre des capacités de PBX, mais sans le matériel complexe et coûteux. 
+Un système PBX est un système téléphonique au sein d’une entreprise. Le système téléphonique dans le module complémentaire Office 365 vous offre des capacités de PBX, mais sans le matériel complexe et coûteux. 
   
 Avec le module complémentaire système téléphonique, vous pouvez utiliser Skype pour les entreprises pour effectuer des tâches de base telles que l’émission et réception d’appels, de transfert d’appels et les appels silence ou unmuting, à partir de presque n’importe où avec accès à Internet. Il est disponible dans le monde entier ! 
   
@@ -43,7 +43,7 @@ Pour plus d’informations, voir [tarification pour le système téléphonique](
 |||
 |:-----|:-----|
 |**Système téléphonique dans la fonctionnalité d’Office 365** <br/> |**Description** <br/> |
-|[Quels sont les standards automatiques du système téléphonique?](what-are-phone-system-auto-attendants.md) <br/> |Système téléphonique standards automatiques peuvent servir à créer un système de menus pour votre organisation qui permet aux appelants internes et externes passent par un système de menus pour localiser et placer ou transférer des appels vers les utilisateurs de la société ou département au sein de votre organisation.  <br/> |
+|[Quels sont les standards automatiques du système téléphonique ?](what-are-phone-system-auto-attendants.md) <br/> |Système téléphonique standards automatiques peuvent servir à créer un système de menus pour votre organisation qui permet aux appelants internes et externes passent par un système de menus pour localiser et placer ou transférer des appels vers les utilisateurs de la société ou département au sein de votre organisation.  <br/> |
 |Démarrage d'un appel/réponse à un appel (par nom et numéro)  <br/> |Répondez aux appels entrants du bout du doigt et passez des appels, en composant le numéro de téléphone complet ou en cliquant sur un nom dans Skype Entreprise ou Outlook.  <br/> |
 |[Définir les options de transfert d'appel dans Skype Entreprise](https://support.office.com/article/1ec2e7fb-471c-4c35-bc90-a35991b3f532) <br/> |Passez des appels ou répondez à des appels de la part d'un responsable. Les notifications permettent à tous les participants de savoir exactement quels appels sont passés ou reçus pour quelqu'un d'autre.  <br/> |
 |[Transfert d'appel et sonnerie simultanée](https://support.office.com/article/967d9aaf-3fed-448b-ab96-40bbc9a11a20) <br/> |Ces fonctions vous permettent de configurer les règles de transfert afin que vos appels vous suivent où que vous alliez, et vous pouvez transférer des appels à des collègues ou une boîte vocale.  <br/> |
@@ -51,7 +51,7 @@ Pour plus d’informations, voir [tarification pour le système téléphonique](
 |Mise en attente/récupération  <br/> | Utilisez cette fonction lorsque plusieurs appels sont passés simultanément. Lorsque vous répondez à l'appel entrant suivant ou passez un appel sortant, l'appel actuel est automatiquement mis en attente. <br/> |
 |[Transfert d'un appel Skype Entreprise](https://support.office.com/article/f9f312a3-ccc9-4215-86e8-8928b2df1f97) <br/> |Transfère les appels à une autre personne. Ou, si vous avez besoin de quitter votre bureau, mais souhaitez poursuivre la conversation, vous pouvez transférer les appels à partir de votre téléphone de l’ordinateur ou adresse IP à votre téléphone cellulaire ou votre tablette.  <br/> |
 |ID de l'appelant  <br/> |Les appels internes à l'entreprise indiquent un ID d'appel détaillé, qui extrait des informations depuis le répertoire de l'entreprise, avec la photo et la fonction de l'appelant et pas seulement le numéro de téléphone.  <br/> |
-|[Créer une file d’attente appel système téléphonique](/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue) <br/> |Appel de système téléphonique files d’attente contiennent le message d’accueil qui est utilisés lorsqu’une personne appelle un numéro de téléphone pour votre organisation, la possibilité de mettre automatiquement les appels en attente et la capacité de recherche pour l’agent disponible appel suivant gérer l’appel pendant les personnes qui appel Écoutez une musique d’attente.  <br/> |
+|[Créer une file d’attente d’appels sur le système téléphonique](/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue) <br/> |Appel de système téléphonique files d’attente contiennent le message d’accueil qui est utilisés lorsqu’une personne appelle un numéro de téléphone pour votre organisation, la possibilité de mettre automatiquement les appels en attente et la capacité de recherche pour l’agent disponible appel suivant gérer l’appel pendant les personnes qui appel Écoutez une musique d’attente.  <br/> |
 |[M'avertir en cas de changement de statut d'une personne](https://support.office.com/article/042a13d8-c815-4101-8b41-1e141b6bf6e9) <br/> | Cette fonction permet d'identifier les personnes qui ne sont pas disponibles et d'être prévenu lorsque leur statut de présence change et qu'elles passent des appels téléphoniques. <br/> |
 |Clients pour PC, Mac et Mobile  <br/> | Cela vous donne fonctionnalités d’appel sur des appareils, de tablettes et les téléphones mobiles pour PC et les téléphones de bureau IP. <br/> |
 |Changement de périphériques  <br/> |Permet de passer votre appel ou de tenir une réunion sur un autre périphérique.  <br/> |
@@ -77,7 +77,7 @@ Configurer le système téléphonique de la manière de mieux adapté à votre e
     
 Voir les articles suivants pour planifier et configurer le système téléphonique de votre entreprise :
 
-- [Système téléphonique avec forfaits d’appels](calling-plan-landing-page.md)
+- [Système téléphonique avec les Plans d’appel](calling-plan-landing-page.md)
 
 - [Configurer des Plans de l’appel](set-up-calling-plans.md): cet article contient des instructions pas à pas de mettre en place avec vos numéros de téléphone ou transférer vos numéros de téléphone existant pour Skype pour les entreprises.
     
@@ -85,7 +85,7 @@ Voir les articles suivants pour planifier et configurer le système téléphoniq
     
 - [Gestion des licences de module complémentaire Microsoft équipes](teams-add-on-licensing/microsoft-teams-add-on-licensing.md): Découvrez les licences que vous devez acheter pour obtenir le système téléphonique dans Office 365.
     
-- [Configurer la messagerie vocale du système téléphonique - Aide pour l'administrateur](set-up-phone-system-voicemail.md)
+- [Configurer la messagerie vocale du système téléphonique - Aide de l’administration](set-up-phone-system-voicemail.md)
     
 - [Découvrir Skype Entreprise](https://support.office.com/article/8a3491a3-c095-4718-80cf-cbbe4afe4eba) : Aidez les membres de votre entreprise à apprendre à utiliser les fonctions Skype Entreprise. 
 

@@ -4,7 +4,7 @@ author: somakbhattacharyya
 ms.author: sbhatta
 manager: serdars
 ms.date: 11/25/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: sbhatta
 search.appverid: MET150
@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d7fb3479c8230735d04494bd6aacfbd8d3d23395
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: 42ec1ce60a206fa0a67f40c08db4658c0c53e543
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30493572"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30641190"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Accès invité dans Microsoft Teams
 ======================================
@@ -35,7 +35,7 @@ L’accès invité est une des fonctionnalités de clients ont demandé le plus.
 - Indiquez-nous ce que vous souhaitez dans [Teams UserVoice](https://aka.ms/TeamsUserVoice).
 - Partagez votre expérience dans la section Commentaires ci-dessous.
 
-Accès invité permet aux équipes de votre organisation de collaborer avec des personnes extérieures à votre organisation par leur accorder l’accès pour les équipes et les canaux sur un ou plusieurs de vos clients. Toutes les personnes ayant un compte de messagerie professionnel ou de particulier tel que Outlook, Gmail, etc. peuvent participer en tant qu’invitées dans Teams, avec un accès complet aux conversations, réunions et fichiers des équipes.
+Accès invité permet aux équipes de votre organisation de collaborer avec des personnes extérieures à votre organisation par leur accorder l’accès pour les équipes et les canaux sur un ou plusieurs de vos clients. Toute personne possédant un compte de messagerie consommateur ou de l’entreprise, comme Outlook, Gmail ou d’autres personnes, peut participer à en tant qu’invité dans les équipes avec accès total aux conversations de l’équipe, des réunions et des fichiers.
 
 L’accès invité est inclus avec Office 365 entreprise Premium, Office 365 pour entreprises et Office 365 éducation tous les abonnements avec aucune exigence supplémentaire pour les licences. Vous pouvez avoir jusqu'à 5 invités par l’utilisateur sous licence sur votre client. Pour plus d’informations sur les licences, consultez les [instructions de gestion des licences de collaboration Azure Active Directory B2B](https://docs.microsoft.com/en-us/azure/active-directory/b2b/licensing-guidance). 
 

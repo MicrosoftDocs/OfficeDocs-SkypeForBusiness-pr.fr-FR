@@ -5,7 +5,7 @@ ms.author: lolaj
 manager: serdars
 ms.date: 08/28/2018
 audience: Admin
-ms.topic: article
+ms.topic: reference
 ms.service: msteams
 MS.collection:
 - Teams_ITAdmin_Help
@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3e18eff1d96bd51d2ecc13a1299bd6ec8ec07edc
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 40e5cde52be45b5b3d9616c239fc34c0335c72f1
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462171"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30640737"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Configuration matérielle requise pour l’application Microsoft Teams
 
@@ -51,7 +51,7 @@ ms.locfileid: "30462171"
 |Display    | 1 280 x 800 ou résolution supérieure    |
 |Système d’exploitation  |    Mac OS X 10.11 El Capitan ou version ultérieure     |
 |Vidéo  |    Webcam compatible     |
-|Voix    |  Compatible avec microphone et haut-parleurs, casque avec microphone ou périphérique équivalent       |
+|Audio    |  Compatible avec microphone et haut-parleurs, casque avec microphone ou périphérique équivalent       |
 |Réunions et les appels vidéo | Pour améliorer l’expérience avec les appels vidéo et des réunions en ligne, nous recommandons d’utiliser un ordinateur dont le processeur 2,0 GHz et 4.0 Go de RAM (minimum). L’option flou mon arrière-plan effet vidéo nécessite un processeur avec prise en charge avancée Vector Extensions 2 (AVX2), pris en charge sur la plupart des périphériques Mac au plus tard 2013 et versions ultérieures.
 
 ## <a name="hardware-requirements-for-the-teams-app-on-mobile-devices"></a>Configuration matérielle requise pour l’application des équipes sur les appareils mobiles

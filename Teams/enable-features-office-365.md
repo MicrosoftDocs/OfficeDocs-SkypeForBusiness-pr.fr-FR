@@ -18,10 +18,10 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: a7712caa826804d26fd2e3527183128ce78520c3
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
+ms.lasthandoff: 03/15/2019
 ms.locfileid: "30460235"
 ---
 # <a name="manage-microsoft-teams-features-in-your-office-365-organization"></a>Gérer les fonctionnalités de Microsoft Teams dans votre organisation Office 365
@@ -56,9 +56,9 @@ These apps are provided by third parties. You can configure the following settin
 
 - **Autoriser les applications externes dans Microsoft Teams :** lorsque ce paramètre est activé, les utilisateurs peuvent ajouter les applications externes qui sont disponibles pour votre organisation. 
 
-- **Autoriser le chargement indépendant d’applications externes** : Si vous souhaitez activer certaines applications externes et en désactiver d’autres, désactivez ce paramètre et, dans la liste des applications externes, désactivez les applications auxquelles vous ne voulez pas que les utilisateurs accèdent. Lorsque ce paramètre est activé, les propriétaires d’équipes et les membres autorisés peuvent charger une version test des applications dans Teams. 
+- **Allow sideloading of external apps**: If you want to turn on some external apps and turn off others , turn off this setting, and then in the list of external apps, turn off the apps that you don't want users to access. When this setting is turned on, team owners and members who are granted permission can sideload apps to Teams. 
 
-- **Activer les applications externes nouvelles par défaut** : lorsque ce paramètre est activé, les utilisateurs peuvent activer les nouvelles applications dès qu'elles sont ajoutées au catalogue d'applications Teams. Désactivez ce paramètre si vous souhaitez contrôler les nouvelles applications. Bien sûr, si vous le désactivez, n'oubliez pas de vérifier régulièrement les nouvelles applications afin que votre organisation ne passe pas à côté de nouvelles applications intéressantes. 
+- **Enable new external apps by default**: When this setting is turned on, users can activate new apps as soon as they're added to the Teams app catalog. Turn off this setting if you want to control new apps. Of course, if you turn it off, you have to remember to review new apps periodically so your organization doesn't miss out on new apps. 
 
 Pour en savoir plus, consultez la rubrique [Paramètres d'administration des applications dans Teams](admin-settings.md). 
 
@@ -118,7 +118,7 @@ Vous pouvez spécifier un mode de coexistence : **Teams uniquement**, **Îles**
 
 #### <a name="app-preferences"></a>Préférences d’application
 
-Cette option vous permet de sélectionnez l’application que les utilisateurs utiliseront pour participer à des réunions Skype Entreprise (Skype Entreprise ou [l’application Réunions Skype](https://support.office.com/en-us/article/What-is-Skype-Meetings-App-Skype-for-Business-Web-App-1FF3D412-718A-4982-8FF2-A4992608CDB5)). Ce paramètre ne dépend pas du paramètre de mode de coexistence.
+Cette option vous permet de sélectionnez l’application que les utilisateurs utiliseront pour participer à des réunions Skype Entreprise (Skype Entreprise ou [l’application Réunions Skype](https://support.office.com/fr-FR/article/What-is-Skype-Meetings-App-Skype-for-Business-Web-App-1FF3D412-718A-4982-8FF2-A4992608CDB5)). Ce paramètre ne dépend pas du paramètre de mode de coexistence.
 
 ## <a name="how-can-i-tell-which-features-are-available"></a>Comment puis-je savoir quelles fonctionnalités sont disponibles ?
 

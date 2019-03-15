@@ -5,7 +5,7 @@ ms.author: lolaj
 manager: serdars
 ms.date: 01/25/2019
 audience: Admin
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: phlouie
 localization_priority: Normal
@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f16b851641de64813212bf67a83dbf9d7a05c043
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: a41e16b8e813fe3f8acb1a41d9c2751fa7c71e4c
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541639"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30640937"
 ---
 # <a name="get-started-with-teams-templates"></a>Prise en main des modèles Teams 
 
@@ -43,7 +43,7 @@ La plupart des propriétés dans une équipe sont inclus et pris en charge par l
 | **Propriétés de l’équipe pris en charge par les modèles d’équipe** | **Propriétés de l’équipe n’est pas encore pris en charge par les modèles d’équipe** |
 | ------------------------------------------------ | -------------------------------------------------------- |
 | Type de modèle de base | Appartenance de l’équipe |
-| Nom de l'équipe | Image de l’équipe |
+| Nom de l’équipe | Image de l’équipe |
 | Description de l’équipe | Paramètres de canal |
 | Visibilité de l’équipe (publique ou privée) | Connecteurs |
 | Paramètres d’équipe (par exemple, membre, invité, @ mentions) | Fichiers et contenu |
