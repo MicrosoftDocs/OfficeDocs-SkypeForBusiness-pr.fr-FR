@@ -3,7 +3,7 @@ title: Project étendue Skype pour les entreprises à l’Adoption des équipes 
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Affiner votre vision et les objectifs de votre projet de mise à niveau pour l’étendue.
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2a4d042864e3260404ddbbaa56f39c7408a0896c
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 346fbfc241616af0ac071269f73dbc4f1ad66bfb
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464827"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649403"
 ---
 ![Étapes du voyage mise à niveau, en insistant sur la phase de définition de projet] (media/upgrade-banner-project-definition.png "Étapes du voyage mise à niveau, en insistant sur la phase de définition de projet")
 
@@ -28,7 +28,7 @@ Cet article fait partie de la phase de définition de projet de votre parcours d
 
 - [Parties prenantes du projet inscrit](upgrade-enlist-stakeholders.md)
 
-# <a name="define-your-project-scope"></a>Définir l’étendue de votre projet
+# <a name="define-your-project-scope"></a>Définition de l’étendue de votre projet
 
 Temps passé à définir votre vision du projet, la portée, objectifs et gouvernance aideront à toutes les parties prenantes de projet sont alignées et l’utilisation vers le même résultat final. Ceci est particulièrement important étant donné que l’équipe de préparation technique et d’une équipe de préparation des utilisateurs travaillerez indépendamment pour rassembler leurs éléments respectifs. Après avoir terminé cette section, vous y référer au sein de votre projet afin de que vous respectez afin d’obtenir l’état final que vous souhaitiez. Utilisez les objectifs que vous identifiez ci-dessous pour mesurer par rapport à vos objectifs et atténuer selon vos besoins.
 

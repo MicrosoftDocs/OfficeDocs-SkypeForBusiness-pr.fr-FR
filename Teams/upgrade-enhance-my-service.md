@@ -3,7 +3,7 @@ title: Configuration requise de Microsoft Teams | Améliorer le Service
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Régulièrement évaluent les opportunités pour améliorer le service équipes après la mise à niveau, de contrôler la feuille de route équipes pour les améliorations de fonctionnalités intéressantes.
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 20d3c30157b58640b3bdfe5c1941d68a745c0e68
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 78b90349ebaf5dfea878d32c750d03d379c14cab
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461251"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649371"
 ---
 ![Étapes du voyage mise à niveau, en insistant sur la phase d’Excellence opérationnelle] (media/upgrade-banner-op-excellence.png "Étapes du voyage mise à niveau, en insistant sur la phase d’Excellence opérationnelle")
 

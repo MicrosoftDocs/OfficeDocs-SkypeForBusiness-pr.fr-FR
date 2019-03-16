@@ -4,7 +4,7 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 11/02/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 description: Découvrez la variété d'équipes, de canaux et d'applications disponibles pour des exigences très variées, telles que les opérations financières, la planification d'événements, les ventes, etc.
@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e78806ae0fb4b118757026fda695dcba03bae1dd
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: 8677354bf6a8e500e1ee138fef65327711e74105
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30493972"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30647440"
 ---
 > [!NOTE]
 > Passez en revue les informations suivantes pour comprendre la conversation, les équipes, les canaux, applications & dans les équipes. Ensuite, passez à [déployer conversation, équipes, canaux, applications & dans les équipes](deploy-chat-teams-channels-microsoft-teams-landing-page.md) pour parcourir une liste de décisions importantes à votre déploiement d’équipes.
@@ -36,7 +36,7 @@ Commençons par nous pencher sur la façon dont Microsoft Teams permet aux équ
 
     -   Les équipes peuvent être créées de manière privée pour des utilisateurs invités uniquement.
 
-    -   Les équipes peuvent également être créées pour être publiques et ouvertes à tous les utilisateurs d’une organisation (jusqu'à 2 500 membres).
+    -   Les équipes peuvent également être créées pour être public et ouvrir et tout le monde dans l’organisation peut participer à des (jusqu'à 5 000 membres).
     
     Une équipe est destinée à réunir un groupe de personnes qui travaillent en étroite collaboration pour atteindre leurs objectifs. Les équipes peuvent être dynamiques pour un travail de projet (lancer un produit ou créer un centre de crise numérique par exemple) et être courantes, pour refléter la structure interne de votre organisation (services et bureaux par exemple). Les conversations, les fichiers et les notes ne sont visibles que pour les membres de l’équipe.
 

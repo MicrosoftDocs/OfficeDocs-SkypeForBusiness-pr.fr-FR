@@ -3,7 +3,7 @@ title: Qualité de l’expérience utilisateur | Les équipes Microsoft | QoS | 
 author: turgayo
 ms.author: turgayo
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Tâches et activités requises pour la surveillance de la qualité et l’utilisation de Microsoft Teams
@@ -15,18 +15,18 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4060c0f9171c8871ed22d15325d560616bf5fc23
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 5d5b34a7dc556313108555bff4d55cee7a6f9a31
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460075"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649379"
 ---
 ![Étapes du voyage mise à niveau, en insistant sur la phase d’Excellence opérationnelle] (media/upgrade-banner-op-excellence.png "Étapes du voyage mise à niveau, en insistant sur la phase d’Excellence opérationnelle")
 
 Cet article fait partie de la phase d’Excellence opérationnelle de votre parcours de mise à niveau, qui démarre dès que vous avez terminé votre mise à niveau à partir de Skype pour les entreprises aux équipes.
 
-# <a name="quality-of-experience-review-guide"></a>Qualité de consulter le Guide de l’expérience
+# <a name="quality-of-experience-review-guide"></a>Guide d’examen de l’expérience de qualité
 
 La [Qualité d’expérience consulter le Guide](https://aka.ms/qerguide) inclut un ensemble d’activités évaluer et fournissent des instructions de mise à jour dans les zones clés qui ont le plus grand impact sur l’amélioration de l’expérience utilisateur, comme illustré ci-dessous.
 

@@ -15,18 +15,18 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Lisez cette rubrique pour savoir comment planifier le contournement de média avec le routage d’un système téléphonique Direct.
-ms.openlocfilehash: 39fc46fb95fef1d78f6f6cc946693f05c7c1f865
-ms.sourcegitcommit: 260635a24b282fbdf4a4aeffdb0f4f9be5407ec6
+ms.openlocfilehash: 6a152fed20dde9d641abfab1bdba7b211f2dcdb9
+ms.sourcegitcommit: 27cf21fb02632e9f65dfa2f995120fb927114b3d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30631043"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30649211"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planification du contournement de média avec le routage Direct
 
 ## <a name="about-media-bypass-with-direct-routing"></a>Sur le contournement de média avec le routage Direct
 
-Le contournement de média vous permet de raccourcir le chemin d’accès du trafic multimédia et de réduire le nombre de tronçons en transit pour améliorer les performances. Avec le contournement de média est conservé entre le contrôleur de Session en périphérie (SBC) et le client au lieu de l’envoyer via le système téléphonique de Microsoft. Pour configurer media contournement de média, le contrôleur SBC et le client doivent être dans le même emplacement ou le réseau
+Le contournement de média vous permet de raccourcir le chemin d’accès du trafic multimédia et de réduire le nombre de tronçons en transit pour améliorer les performances. Avec le contournement de média est conservé entre le contrôleur de Session en périphérie (SBC) et le client au lieu de l’envoyer via le système téléphonique de Microsoft. Pour configurer media contournement de média, le contrôleur SBC et le client doivent être dans le même emplacement ou le réseau.
 
 Vous pouvez contrôler le contournement de média pour chaque SBC à l’aide de la commande **Set-CSOnlinePSTNGateway** avec le paramètre **- MediaBypass** la valeur true ou false. Si vous activez le contournement de média, cela ne signifie pas que tout le trafic multimédia est conservées au sein du réseau d’entreprise. Cet article décrit le flux des appels dans différents scénarios.    
 

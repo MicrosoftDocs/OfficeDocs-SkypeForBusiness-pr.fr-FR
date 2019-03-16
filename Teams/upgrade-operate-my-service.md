@@ -3,7 +3,7 @@ title: Opérations pour les équipes Microsoft | Gestion des services | Qualité
 author: turgayo
 ms.author: turgayo
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Tâches et activités requises pour la gestion de service d’équipes, y compris la surveillance de l’intégrité du service et d’évaluer et de garantir l’utilisation et la qualité du réseau
@@ -15,18 +15,18 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 42df00ed52b62d70d8c9ea734291d77e0ba038ad
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 44a215c96c85c6681ba4dcfda82e7193a48b95c9
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460499"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649411"
 ---
 ![Étapes du voyage mise à niveau, en insistant sur la phase d’Excellence opérationnelle] (media/upgrade-banner-op-excellence.png "Étapes du voyage mise à niveau, en insistant sur la phase d’Excellence opérationnelle")
 
 Cet article fait partie de la phase d’Excellence opérationnelle de votre parcours de mise à niveau, qui démarre dès que vous avez terminé votre mise à niveau à partir de Skype pour les entreprises aux équipes.
 
-# <a name="operate-your-service"></a>Utiliser votre service
+# <a name="operate-your-service"></a>Exploiter votre service
 
 Cet article donne une vue d’ensemble de la configuration requise pour le fonctionnement avec succès des équipes pour votre organisation une fois que vous avez mis à niveau. En opérant correctement vos services équipes, vous pouvez être que vous fournissez une expérience de haute qualité et fiable pour votre organisation.
 
@@ -153,7 +153,7 @@ Vous pouvez surveiller l’intégrité du service et les modifications à venir 
 
 [Comment vérifier l’intégrité du service Office 365](https://support.office.com/article/How-to-check-Office-365-service-health-932AD3AD-533C-418A-B938-6E44E8BC33B0)
 
-[Vérifier l'intégrité du service pour Microsoft Teams](service-health.md)
+[Vérifier l’état du service Microsoft Teams](service-health.md)
 
 [Continuité d’activité et de fonctionnement du Service](https://technet.microsoft.com/library/office-365-service-health.aspx)
 
@@ -399,7 +399,7 @@ Nous vous recommandons vivement de vous désigner le poids lourd qualité dès l
 
 [Informations de création de téléchargement](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)
 
-[Qualité de consulter le Guide de l’expérience](https://aka.ms/qerguide)
+[Guide d’examen de l’expérience de qualité](https://aka.ms/qerguide)
 
 <!--ENDOFSECTION-->
 
@@ -454,13 +454,13 @@ Même si vous avez suivi les recommandations précédentes, les utilisateurs de 
 
 [URL et plages d’adresses IP Office 365](https://aka.ms/o365ips)
 
-[Obtenir des clients pour Microsoft Teams](get-clients.md)
+[Obtenir des clients pour Microsoft Teams](get-clients.md)
 
 [Communauté Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams)
 
 [Problèmes connus concernant Microsoft Teams](known-issues.md)
 
-[Vérifier l'intégrité du service pour Microsoft Teams](service-health.md)
+[Vérifier l’état du service Microsoft Teams](service-health.md)
 
 [Contacter le support Office 365 pour les entreprises - Aide de l'administrateur](https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 
@@ -470,7 +470,7 @@ Même si vous avez suivi les recommandations précédentes, les utilisateurs de 
 
 <!--ENDOFSECTION-->
 
-## <a name="manage-teams"></a>Gestion des équipes
+## <a name="manage-teams"></a>Gérer Teams
 
 Une fois que le service Microsoft Teams a été déployé, vous devez effectuer plusieurs activités liées à l’administration. La plage des activités d’administrer le service et les utilisateurs individuels pour la planification de capacité et de mise en service des numéros de téléphone et de gestion des licences. Les sections suivantes traitent de certaines de ces tâches d’administration courantes.
 

@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: 6b8d5ddb-59c1-4ee7-b171-18e5ace2dcd6
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: Cela vous permettra de savoir comment composer des numéros gratuits dans chaque pays/région. Une fois que vous sélectionnez la pays/région, il vous dirige vers une page spécifique qui contient des détails plus spécifiques, les restrictions et les limites de la disponibilité du service gratuit où service gratuit est disponible. Le format de numérotation ou formats affichera les codes d’accès requis dans chaque pays/région de composer le numéro gratuit.
-ms.openlocfilehash: 2c5f5d97972fe1c1002ffb16ca39f6a6224beb06
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 854b471cff9affeb6c051a1a7d8993aeb27f7f6d
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542111"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649395"
 ---
 # <a name="toll-free-dialing-limitations-and-restrictions"></a>Limitations et restrictions concernant la composition de numéros verts
 
@@ -42,7 +42,7 @@ Si vous êtes prêt, sélectionnez votre pays ou région :
 > - [Australia]toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-australia.md)
 > - [Bélarus](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belarus.md)
 > - [Belize](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belize.md)
-> - [Bosnie-Herzégovine](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bosnia-and-herzegovina.md)
+> - [Bosnia and Herzegovina (Bosna i Hercegovina)](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bosnia-and-herzegovina.md)
 > - [Brésil](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brazil.md)
 > - [Brunei](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brunei.md)
 > - [Bulgarie](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bulgaria.md)
@@ -85,7 +85,7 @@ Si vous êtes prêt, sélectionnez votre pays ou région :
 > - [Arabie saoudite](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-saudi-arabia.md)
 > - [Serbie](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-serbia.md)
 > - [Singapour](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-singapore.md)
-> - [Slovaquie](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-slovakia.md)
+> - [République de Slovaquie](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-slovakia.md)
 > - [Slovénie](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-slovenia.md)
 > - [Afrique du Sud](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-south-africa.md)
 > - [Corée du Sud](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-south-korea.md)

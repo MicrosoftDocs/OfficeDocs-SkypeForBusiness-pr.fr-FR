@@ -3,7 +3,7 @@ title: Mettre à niveau Microsoft Teams Skype pour les entreprises | Modes de Co
 author: lsomi
 ms.author: lsomi
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen, bjwhalen
 description: Détails de Skype pour les options de coexistence Business et Microsoft Teams modes et trajets mise à niveau pour les équipes de Skype pour les entreprises avec des exemples de scénarios.
@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f4c7401ccf8bdefa7eaf906795d5e5e37ac8ba2e
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: 22bd17ffbb29695f69aa4eff8581821a882f1614
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30493956"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649195"
 ---
 ![Étapes du voyage mise à niveau, en mettant l’accent sur le déploiement et la phase d’implémentation] (media/upgrade-banner-deployment.png "Étapes du voyage mise à niveau, en mettant l’accent sur le déploiement et la phase d’implémentation")
 

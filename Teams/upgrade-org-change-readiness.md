@@ -3,7 +3,7 @@ title: Skype pour les entreprises aux équipes Microsoft | Mise à niveau de pr�
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Vérifiez votre organisation et les utilisateurs sont prêts pour Microsoft Teams
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 00294800f0e63c45c550b46be59623349ed3ade7
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 0ac397a7ba54a81a2d92cf4823144da2b0c56a3c
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465235"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649451"
 ---
 ![Étapes du voyage mise à niveau, en insistant sur la phase de préparation des utilisateurs] (media/upgrade-banner-user-readiness.png "Étapes du voyage mise à niveau, en insistant sur la phase de préparation des utilisateurs")
 
@@ -31,7 +31,7 @@ Cet article fait partie de la phase de préparation des utilisateurs de votre pa
 - [Comprendre la coexistence et l’interopérabilité de Skype pour professionnels et les équipes](https://aka.ms/SkypeToTeams-Coexist)
 - [Choisi votre parcours de mise à niveau](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-# <a name="assess-organizational-change-readiness"></a>Évaluer la préparation de la modification de l’organisation
+# <a name="assess-organizational-change-readiness"></a>Évaluer la préparation au changement de l’organisation
 
 Après avoir sécurisé votre équipe de projet et défini votre vision, la portée et les objectifs, l’étape suivante dans votre parcours de mise à niveau consiste à s’assurer que votre organisation et les utilisateurs sont prêts pour les équipes — une activité que vous effectuez en parallèle à vérifier votre préparation à la technique. Pour tirer profit des équipes, les utilisateurs doivent effectivement l’utiliser. Simplement permettant aux équipes ne garantit pas le faire. Les utilisateurs ont différents cas d’usage et des différents types de formation, et ils s’adapter aux nouvelles technologies différentes vitesses. La bonne nouvelle est que la gestion du changement n’est pas compliquée que, mais il ne prend pas un effort ayant le focus. Les discussions guidées ci-dessous sont conçues pour vous aider à comprendre votre base d’utilisateurs afin de pouvoir vous préparer le niveau de formation de faciliter et d’accélérer l’adoption de l’utilisateur. Il existe deux méthodes que vous devez examiner votre base d’utilisateurs :
 

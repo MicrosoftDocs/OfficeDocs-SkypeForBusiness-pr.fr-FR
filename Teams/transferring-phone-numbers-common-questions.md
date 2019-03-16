@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Les éléments suivants sont questions fréquemment posées sur le transfert des numéros de téléphone à Skype pour les entreprises. Après avoir examiné les réponses, vous devez être prêt à créer un ordre de port et de transférer vos numéros de téléphone. Voir les numéros de téléphone transfert vers Office 365 pour obtenir des instructions.
-ms.openlocfilehash: 57d20095302e4a971ea35a91e1fb46e4499735f9
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 311eaa78920b3853947df5dd375c6471cab4d8aa
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30543214"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649427"
 ---
 # <a name="transferring-phone-numbers-common-questions"></a>Transfert des questions fréquemment posées numéros de téléphone
 
@@ -69,7 +69,7 @@ En général, vous pouvez transférer n'importe quel numéro de téléphone qui 
   **ÉLÉMENTS IMPOSSIBLES À TRANSFÉRER**:
   
 > [!NOTE]
-> Pour le moment, vous ne pouvez pas transférer de numéro de téléphone extérieur aux régions et pays pris en charge, y compris les numéros de téléphone d'un fournisseur de ligne VoIP. Pour afficher une liste de pays/régions pris en charge, voir [disponibilité pays et aux régions de conférence Audio et des Plans de l’appel](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+> À ce stade, vous ne pouvez pas transférer de n’importe quel numéro de téléphone ou les numéros qui ne proviennent pas d’une pays/région pris en charge, y compris les numéros de téléphone d’un fournisseur de téléphone VoIP. Pour afficher une liste de pays/régions pris en charge, voir [disponibilité pays et aux régions de conférence Audio et des Plans de l’appel](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
   
 - des numéros de téléphone utilisés pour les connexions de données, comme les lignes DSL ou les connexions Internet haut débit ;
     
@@ -173,7 +173,7 @@ Pour transférer ou *port des* numéros de téléphone à partir de Skype pour B
   
 ## <a name="related-topics"></a>Rubriques connexes
 
-[Différents types de numéros de téléphone utilisés pour les forfaits d'appels](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Différents types de numéros de téléphone utilisés pour les offres d'appel](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
 [Conditions générales relatives aux appels d'urgence](emergency-calling-terms-and-conditions.md)
 

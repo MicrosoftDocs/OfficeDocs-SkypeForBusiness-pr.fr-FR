@@ -1,5 +1,5 @@
 ---
-title: 'Effectuer la mise à niveau vers Teams : Microsoft Teams'
+title: Effectuer la mise à niveau vers Teams - Microsoft Teams
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
@@ -24,14 +24,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6e06766ffd650a28f13d2b89f969a1a5c87a9fe0
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: a6fe072d3ffa8764b0c5f86347db4c187e18b046
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494052"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649235"
 ---
-# <a name="upgrade-to-teams"></a>Mise à niveau vers des équipes
+# <a name="upgrade-to-teams"></a>Mise à niveau vers Teams
 
 Félicitations pour votre mise à niveau en attente de Skype pour les entreprises à Microsoft Teams. Si vous êtes simplement mise en route avec les équipes utilisant déjà des équipes à côté de Skype pour les entreprises, ou prêt à mettre à niveau, nous voulons que vous disposez de tous les éléments, vous devez atteindre un voyage réussi aux équipes.  
 
@@ -42,8 +42,8 @@ Félicitations pour votre mise à niveau en attente de Skype pour les entreprise
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
 
 > [!Tip]
-> Regardez la session suivante pour en savoir plus sur la mise à niveau de Skype Entreprise vers Microsoft Teams :
-> - [Présentation de la mise à niveau](https://aka.ms/teams-upgrade-intro)
+> Regardez les sessions suivantes pour en savoir plus sur la mise à niveau à partir de Skype pour Business Teams Microsoft :
+> - [Introduction à la mise à niveau](https://aka.ms/teams-upgrade-intro)
 > - [Planifier votre mise à niveau](https://aka.ms/teams-upgrade-plan)
-> - [Coexistence et interopérabilité](https://aka.ms/teams-upgrade-coexistence-interop)
+> - [Interopérabilité et coexistence](https://aka.ms/teams-upgrade-coexistence-interop)
 > - [Expérience de l’administrateur](https://aka.ms/teams-upgrade-admin)

@@ -5,7 +5,7 @@ ms.author: karuanag
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
@@ -17,18 +17,18 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7d57349a499e4434ba796cdf75df6258591f4144
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 38c7e34f5efb70dce5a81295f0145b539f8265aa
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30459451"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30647504"
 ---
 # <a name="create-your-first-teams-in-microsoft-teams"></a>Créer vos premières équipes dans Microsoft Teams
 
 La meilleure façon pour encourager l’adoption des équipes consiste à utiliser le produit. Nous vous recommandons de gérer votre déploiement d’Office 365 avec des équipes. Vous devez également créer une Communauté d’employés qui portent principalement sur le travail d’équipe et la productivité. (Ces équipes initiales peuvent changer au fil du temps). Certaines équipes suggérées sont les suivants :
 
-| Nom de l'équipe | Noms de canaux proposées |
+| Nom de l’équipe | Noms de canaux proposées |
 | --------- | ---------------------- |
 | Apprenez à connaître les équipes | Général</br> Présentez-vous</br> Comment faire ?</br>Commentaires </br> Idées pour les équipes à venir </br> Support |
 | Mise en œuvre des équipes de Microsoft | Général <br/> Présentation et Adoption <br/> Engagement de l’entreprise <br/> Programme pour premiers utilisateurs <br/> Commentaires et vues d’ensemble <br/> Sécurité et conformité <br/> Stratégie et planification <br/> Incidents et intégrité du Service <br/> Formation <br/> Conversation Watercooler |

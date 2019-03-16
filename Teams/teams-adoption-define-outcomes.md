@@ -5,7 +5,7 @@ ms.author: karuanag
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.custom: Adopt
 MS.collection:
@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Découvrez comment mesurer les résultats et la réussite de votre activation à grande échelle des équipes.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 09efb86effe9179908c10eb9fbb7de30cc5a247d
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: c5251fc65cdb805961b97c5f9a94dc6512b63144
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461811"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30647600"
 ---
 # <a name="define-outcomes-and-success-for-your-microsoft-teams-adoption"></a>Définir les résultats et la réussite de votre adoption de Microsoft Teams
 

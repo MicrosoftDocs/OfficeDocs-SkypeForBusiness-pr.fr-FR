@@ -1,9 +1,9 @@
 ---
-title: Expérience d’équipes dans une location Multi-géo-enabled Office 365 OneDrive et SharePoint Online
+title: Expérience Teams dans un client Office 365 OneDrive et SharePoint Online Multi-Géo
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: snigdhav
 description: En savoir plus sur l’utilisation d’équipes dans une location Multi-géo-enabled Office 365 OneDrive et SharePoint Online.
@@ -14,14 +14,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 01b93b67125693487e07fce824c01dbd5e955294
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: e90e4a3c1ae2886a01802a805da3464cea3d8b50
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462627"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649259"
 ---
-<a name="teams-experience-in-an-office-365-onedrive-and-sharepoint-online-multi-geo-enabled-tenancy"></a>Expérience d’équipes dans une location Multi-géo-enabled Office 365 OneDrive et SharePoint Online
+<a name="teams-experience-in-an-office-365-onedrive-and-sharepoint-online-multi-geo-enabled-tenancy"></a>Expérience Teams dans un client Office 365 OneDrive et SharePoint Online Multi-Géo
 ===========================================
 
 Teams Microsoft est un logiciel de conversation de groupe, le concentrateur de travail d’équipe dans Office 365. Elle a été générée par le service Office 365 groupes ainsi que SharePoint Online et OneDrive for Business pour son expérience de fichiers. Dans un OneDrive for Business/SharePoint Online Multi-Geo location, dans lequel le client est étendu à plusieurs emplacements géographiques comme Amérique du Nord, Europe et Australie, l’expérience de fichiers sous-jacent est Multi-Geo prenant en charge les équipes expérience des fichiers la collaboration est également connaissance Multi-localisés. Il s’agit de pointe essentielle pour les équipes de surface fichiers hébergés sur plusieurs zones géographiques dans son expérience fichiers natifs.

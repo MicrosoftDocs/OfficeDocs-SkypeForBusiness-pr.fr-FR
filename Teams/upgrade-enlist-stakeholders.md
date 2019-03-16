@@ -3,7 +3,7 @@ title: Inscrire les parties prenantes | Mise à niveau de Skype pour les entrepr
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Inscrire les parties prenantes de faire partie de l’équipe de projet pour votre mise à niveau.
@@ -15,18 +15,18 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2c456d60d8dc4f98e2fa75b90dfbb80c0fd90f13
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 6de0b8a3924a9f4e80bd1ff462a5a7dd9e8f8bd6
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461291"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649203"
 ---
 ![Étapes du voyage mise à niveau, en mettant l’accent sur la collecte de votre équipe de parties prenantes du projet] (media/upgrade-banner-stakeholders.png "Étapes du voyage mise à niveau, en mettant l’accent sur la collecte de votre équipe de parties prenantes du projet")
 
 Cet article fait partie de la phase de parties prenantes du projet de votre parcours de mise à niveau, l’activité premier et essentielle que vous effectuez pour la réussite de votre projet.
 
-# <a name="enlist-your-project-stakeholders"></a>Inscrire les parties prenantes du projet
+# <a name="enlist-your-project-stakeholders"></a>Inscription des parties prenantes du projet
 
 À l’implémentation des livrables du projet à conduite responsabilité, les parties prenantes, maintenez enfoncée la touche à la réussite de votre projet. Il existe deux groupes de parties prenantes vous souhaiterez affecter : (1) _coalition soutien_ qui inclut les organisateurs exécutif et de projet qui ont un intérêt direct et influencent de réussite du projet et (2) l' _équipe de projet_, comprenant le planifier les personnes responsables garantie technique et de préparation des utilisateurs, qui exécutera les diverses tâches dans le projet. Le thread commun entre ces deux groupes est le _responsable de projet_, qui permet de se pour assurer que terminés sur la planification des tâches de projet et de rapports project statut sur la coalition.
 

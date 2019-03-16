@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Cet article décrit les améliorations cumulatives de systèmes de salle Skype v2.
-ms.openlocfilehash: 7eb6eb3c9bcd2cbbbe72a6fc96d619303216cd37
-ms.sourcegitcommit: e53749714dcde9f7b184d5ef554bffbc77f54267
+ms.openlocfilehash: fefad8a37d53760a81b2ea78e73bbd75069c848f
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28729399"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30645355"
 ---
 # <a name="release-notes"></a>Notes de publication 
 
@@ -26,6 +26,8 @@ Cet article décrit les améliorations cumulatives de systèmes de salle Skype v
 
 | Version | Publié sur <br>Magasin de Microsoft | 
 | ---     | ---  |
+| 4.0.78.0 | 14/03/2019   |
+| 4.0.76.0 | 04/03/2019   |
 | 4.0.64.0 | 14/12/2018   |
 | 4.0.51.0 | 17/11/2018   | 
 | 4.0.31.0 | 16/10/2018   | 
@@ -50,6 +52,19 @@ Cet article décrit les améliorations cumulatives de systèmes de salle Skype v
 
 
 ## <a name="skype-room-systems-v2-feature-introduction-and-issue-resolution"></a>Systèmes de salle Skype v2 fonctionnalité introduction et problème résolution
+
+### <a name="40780-03142018"></a>4.0.78.0 (14/03/2018)
+Introduite dans cette mise à jour :
+- Correctif de bogue « se bloquer au démarrage de l’application » qui est affectée de périphériques sur build Windows 10 RS2 héritée.  
+
+### <a name="40760-03042019"></a>4.0.76.0 (04/03/2019)
+Introduite dans cette mise à jour :
+- Clavier DTMF pour les réunions Teams Microsoft. Pour rendre Microsoft Teams votre client appelant par défaut, administrateurs doivent définir IsTeamsDefaultClient sur true
+- Épingler vidéo entrant d’un participant à distance en mode plein écran sur le devant de l’affichage de la salle. Utilisez la commande « Pin » à partir de la liste des participants dans la console
+- Améliorations apportées à des notifications de salle d’attente avec ajout de notification avant de salle
+- Avant de l’affichage de la salle supprime l’icône de conversion forcée lors de la balise Bluetooth n’est pas activé sur le périphérique de système de salle
+- Correctif pour le problème de contrôle de volume dans les réunions d’équipes
+
 
 ### <a name="40640-12142018"></a>4.0.64.0 (14/12/2018)
 Introduite dans cette mise à jour :
@@ -159,7 +174,7 @@ Introduite dans cette mise à jour :
 - Possibilité de faire part de vos commentaires pour les versions publiques     
 - Amélioration de télémétrie autour de la fiabilité de participer à la réunion     
 - Création de rapports de OMS supplémentaires     
-- Possibilité pour l’administrateur informatique configurer les périphériques à distance<!--  - Front-of-Room UX shows room details pre-meeting U2  --> 
+- Possibilité pour l’administrateur informatique configurer les périphériques à distance  <!--  - Front-of-Room UX shows room details pre-meeting U2  --> 
 
 
 ### <a name="2020-03152017"></a>2.0.2.0 (15/03/2017)
