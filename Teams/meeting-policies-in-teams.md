@@ -21,12 +21,12 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: Apprenez à gérer les paramètres de stratégie dans les équipes de réunion.
-ms.openlocfilehash: f8f7e4bbf18fa96ebc8de3fd219945a06c05c0b3
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: 344c45761ebbb326162d2c62b4fb8cac25f47645
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494084"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30664715"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gérer les stratégies de la réunion dans les équipes
 
@@ -106,8 +106,8 @@ Lorsque vous sélectionnez une stratégie existante dans la page de **stratégie
 <a name="bkparticipantsandguests"> </a>
 
 ### <a name="participants--guests"></a>Invités & des participants
-   - **Autoriser les utilisateurs anonymes pour démarrer les réunions** Si ce paramètre est désactivé, seule une personne qui a été authentifié à la réunion avec une application d’équipes permettre démarrer la réunion. S’il est activé, tout le monde peut démarrer la réunion.
-   - **Accepter automatiquement les utilisateurs** Si vous désactivez cette option, participants à la réunion seront à gauche dans la salle d’attente jusqu'à ce qu’un utilisateur démarre la réunion. S’il est activé, les participants à la réunion est autorisée à participer à la réunion automatiquement.
+   - **Autoriser les utilisateurs qui se connectent à démarrer une réunion** Si vous souhaitez autoriser les utilisateurs qui n’ont pas été authentifiés, car ils ont composé à l’aide de leur téléphone pour démarrer une réunion, vous pouvez activer ou désactiver.
+   - **Accepter automatiquement des personnes** Détermine quel types de participants seront automatiquement être ajoutée aux réunions organisées par cet utilisateur. Définir sur « Tout le monde dans l’organisation » si vous souhaitez que les réunions pour placer tous les utilisateurs externes dans la salle d’attente, en autorisant tous les utilisateurs de la société à joindre la réunion immédiatement. Définir sur « Tout le monde » si vous souhaitez autoriser les utilisateurs anonymes par défaut. Définir sur « Tout le monde dans votre organisation et les organisations fédérées » si vous souhaitez que les réunions pour autoriser les utilisateurs fédérés puissent participer aux tels que des utilisateurs de votre société, mais placer tous les autres utilisateurs externes dans une salle d’attente.
 
 [Article complet](meeting-policies-in-teams.md)
 

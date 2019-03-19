@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4ee9ecf1a6db549a002c72f7eeea1e0a383ae966
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: e463061dca0633480124bbe91fb2e8e6f9f926f6
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30543014"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30664707"
 ---
 # <a name="get-started-with-teams-templates-in-retail"></a>Les modèles d’équipe de vente au détail en main 
 
@@ -43,7 +43,7 @@ Le modèle de magasin est idéal pour la création d’une équipe pour représe
 
 | Type de modèle de base | baseTemplateId | Propriétés liées à ce modèle de base |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| Vente au détail- <br>boutique | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`retailStore`| Canaux <ul><li>Déplace la remise\*</li><li>Formation\*</li></ul>\*Canaux auto-favorited<br><br>Propriétés de l’équipe <ul><li>Visibilité de l’équipe définie sur Public</li></ul> <br>Autorisations de membre <ul><li>Ne peut pas créer mise à jour/supprimer/canaux </li><li>Ne peut pas ajouter/supprimer des applications </li><li>Impossible de créer/mettre à jour/supprimer onglets</li><li>Impossible de créer/mettre à jour/supprimer les connecteurs</li><ul>|
+| Vente au détail- <br>boutique | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')`| Canaux <ul><li>Déplace la remise\*</li><li>Formation\*</li></ul>\*Canaux auto-favorited<br><br>Propriétés de l’équipe <ul><li>Visibilité de l’équipe définie sur Public</li></ul> <br>Autorisations de membre <ul><li>Ne peut pas créer mise à jour/supprimer/canaux </li><li>Ne peut pas ajouter/supprimer des applications </li><li>Impossible de créer/mettre à jour/supprimer onglets</li><li>Impossible de créer/mettre à jour/supprimer les connecteurs</li><ul>|
 ||||
 
 Méthodes recommandées pour personnaliser le modèle de banque de votre organisation :
@@ -58,7 +58,7 @@ Le modèle de Collaboration Manager est un autre que l’un des modèles d’éq
 
 | Type de modèle de base | baseTemplateId | Propriétés liées à ce modèle de base |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| Vente au détail- <br>boutique | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`retailManagerCollaboration`| Canaux <ul><li>Opérations\*</li><li>Formation\*</li></ul>\*Canaux auto-favorited<br><br>Propriétés de l’équipe <ul><li>Visibilité de l’équipe privée</li></ul> <br>Autorisations de membre <ul><li>Peut créer mise à jour/supprimer/canaux </li><li>Pouvez ajouter/supprimer des applications </li><li>Peut créer/mettre à jour/supprimer onglets</li><li>Peut créer/mettre à jour/supprimer les connecteurs</li><ul>|
+| Vente au détail- <br>boutique | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')`| Canaux <ul><li>Opérations\*</li><li>Formation\*</li></ul>\*Canaux auto-favorited<br><br>Propriétés de l’équipe <ul><li>Visibilité de l’équipe privée</li></ul> <br>Autorisations de membre <ul><li>Peut créer mise à jour/supprimer/canaux </li><li>Pouvez ajouter/supprimer des applications </li><li>Peut créer/mettre à jour/supprimer onglets</li><li>Peut créer/mettre à jour/supprimer les connecteurs</li><ul>|
 ||||
 
 Méthodes recommandées pour personnaliser le modèle de Collaboration Manager pour votre organisation :

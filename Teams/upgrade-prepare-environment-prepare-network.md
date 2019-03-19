@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 34070ae8ac21be278596960a5a15129906d867f0
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 04ab6b74745bf343ec09e887ef3e7187d3ffeaad
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463707"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30664739"
 ---
 ![Étapes du parcours de mise à niveau, avec un accent sur l’étape de préparation technique](media/upgrade-banner-tech-readiness.png "Étapes du parcours de mise à niveau, avec un accent sur l’étape de préparation technique")
 
@@ -56,22 +56,19 @@ Les étapes décrites ci-dessous vous aidera à déterminer que si votre déploi
 
 ## <a name="bandwidth-planning"></a>Planification de la bande passante
 
-La première étape de préparation du réseau est de vous assurer que votre réseau dispose de suffisamment de bande passante disponible pour les modalités que équipes fournit aux utilisateurs. La planification de suffisamment de bande passante est une tâche relativement simple et un démarrage très faible-barrière pour s’assurer de vos utilisateurs auront une expérience d’équipes de haute qualité.
+Teams Microsoft offre les meilleures audio, vidéo et contenu expérience indépendamment de vos conditions réseau. Avec les codecs variables, média peut être négocié dans les environnements de bande passante limitée avec un impact minimal. Mais où la bande passante n’est pas un problème, une expérience peut être optimisée pour la qualité, y compris des résolution vidéo 1080p, jusqu'à 30 i/s pour la vidéo et audio du contenu et à haute fidélité.
 
-Vous démarrez votre planification voyage au pays pour les équipes sur le [site Web mon conseiller](https://myadvisor.fasttrack.microsoft.com/) en utilisant le Planificateur de réseau de bande passante. Le Planificateur de réseau fournit la bande passante par site planification des équipes et propose des recommandations pour optimiser les performances réseau.
+Cet article décrit une version concise de la bande passante est utilisée par les équipes en temps réel audio, vidéo et modalités dans différents cas d’utilisation de partage du bureau. Les équipes est toujours estime sur l’utilisation de la bande passante et peut fournir une qualité vidéo HD en sous 1.2 Mo. La consommation de bande passante réelle dans chaque appel audio/vidéo ou la réunion varie en fonction de plusieurs facteurs, tels que la vidéo mise en page, la résolution vidéo et vidéo images par seconde.Lorsque plus de bande passante est disponible qualité et l’utilisation augmente afin d’offrir la meilleure expérience.
 
-> [!IMPORTANT]
-> Si la bande passante requise n’est pas disponible, la pile de médias à l’intérieur des équipes diminue la qualité de la session audio/vidéo pour prendre en charge ce montant inférieur de la bande passante disponible, ce qui affecte la qualité de l’appel ou la réunion. Le client équipes tente de définir la priorité sur la qualité de la vidéo de la qualité audio. Par conséquent, il est très important de disposer de la bande passante attendue disponible.
-
-|Activité |Télécharger la bande passante |Télécharger la bande passante |Flux de trafic |
-|---|---|---|---|
-|**Appel audio d’égal à égal** |0,1 Mbits/s |0,1 Mbits/s |Client <> Client |
-|**Appel vidéo d’égal à égal (plein écran)** |4 Mbits/s |4 Mbits/s |Client <> Client |
-|**Le partage du bureau d’égal à égal (1920& #215 ; 1080 résolution)** |4 Mbits/s |4 Mbits/s |Client <> Client |
-|**Réunion de deux-participant** |4 Mbits/s |4 Mbits/s |Client <> Office 365 |
-|**Réunion de trois-participant** |8 Mbits/s |6.5 Mbits/s |Client <> Office 365 |
-|**Réunion de quatre-participant** |5,5 Mbits/s |4 Mbits/s |Client <> Office 365 |
-|**Cinq ou réunion plus – participant** |6 Mbits/s |1,5 Mbits/s |Client <> Office 365 |
+|Bandwidth(up/down) |Scénarios |
+|---|---|
+|30 Kbits/s |Appel audio d’égal à égal |
+|130 Kbits/s |Appel audio d’égal à égal et de partage d’écran |
+|500 Kbits/s |Égal à égal qualité vidéo appelant p 360 à 30 i/s |
+|1.2 Mbits/s |Vidéo de qualité HD égal-à-l’appel avec une résolution de HD 720 pixels à 30 i/s |
+|1,5 Mbits/s |Vidéo de qualité HD égal-à-l’appel avec une résolution de HD 1080p 30 i/s |
+|500 Kbits/s/1 Mbits/s |Groupe d’appel vidéo |
+|1Mps/2 |Groupe HD vidéo appelant (vidéos 540p sur écran 1080p) |
 
 ### <a name="local-internet-egress"></a>Sortie Internet locale
 
@@ -81,20 +78,20 @@ Relayer le trafic sur le WAN augmente la latence et a un impact négatif sur la 
 
 L'optimisation du chemin d'accès au réseau mondial de Microsoft améliorera les performances et, en fin de compte, offrira la meilleure expérience aux utilisateurs. Pour plus de détails, voir l'article du blog [Obtenir la meilleure connectivité et les meilleures performances dans Office 365](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694).
 
-Pour obtenir une expérience optimale en utilisant des médias en temps réel dans Microsoft Teams, vous devez satisfaire la configuration réseau requise pour Office 365. Pour plus d’informations, consultez la rubique [Qualité des médias et performances de connectivité réseau dans Skype Entreprise Online](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance).
+Pour obtenir une expérience optimale en utilisant des médias en temps réel dans Microsoft Teams, vous devez satisfaire la configuration réseau requise pour Office 365. Pour plus d’informations, voir [la qualité des médias et des performances pour la connectivité réseau pour Skype pour Business Online](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance).
 
-Les deux segments réseau de définition (client vers Microsoft Edge et Microsoft Edge vers Microsoft Edge) doivent respecter la configuration requise suivante :
+Les segments de réseau définissant deux (Client pour Microsoft Edge) et côté client pour Microsoft Edge doivent remplir les conditions suivantes :
 
-|**Valeur** |**Client vers Microsoft Edge** |**Périphérie client vers Microsoft Edge** |
+|**Valeur** |**Client Microsoft Edge** |**Côté client pour Microsoft Edge** |
 |---|---|---|
 |**Latence (unidirectionnelle)** |< 50 ms |< 30 ms |
 |**Latence (temps d’aller-retour ou durée aller-retour)** |< 100 ms |< 60 ms |
 |**Perte de paquets en rafale** |<10 % au cours de l’intervalle de 200-ms |<1 % au cours de l’intervalle de 200-ms |
 |**Perte de paquets** |<1 % au cours de l’intervalle de 15-s |<0.1% pendant l’intervalle de 15-s |
 |**Gigue arrivée entre des batteries de paquets** |<30 ms pendant l’intervalle de 15-s |<15 ms pendant l’intervalle de 15-s |
-|**Réorganisation des paquets** |< 0,05 % paquets désorganisés |< 0,01% paquets désorganisés |
+|**Réorganisation des paquets** |paquets d’ordre <0.05% |paquets d’ordre <0.01% |
 
-Pour tester les deux segments réseau, vous pouvez utiliser l’[Outil d'évaluation du réseau](https://go.microsoft.com/fwlink/?linkid=855799). Cet outil peut être déployé sur le PC client directement et sur un PC connecté au périphérique réseau client. Il inclut une documentation restreinte, mais une documentation plus approfondie concernant l’utilisation de l’outil est disponible ici : [Évaluation de la préparation du réseau](https://go.microsoft.com/fwlink/?linkid=855800). En exécutant cet outil d’évaluation de la préparation du réseau, vous pouvez valider la préparation de votre réseau à exécuter des applications multimédias en temps réel telles que Microsoft Teams.
+Pour tester les deux segments réseau, vous pouvez utiliser l' [Outil d’évaluation de réseau](https://go.microsoft.com/fwlink/?linkid=855799). Cet outil peut être déployé sur le client PC directement et sur un PC connecté à la périphérie du réseau client. L’outil comprend une documentation limitée, mais une documentation plue autour de l’utilisation de l’outil se trouvent ici : [Évaluation de préparation de réseau](https://go.microsoft.com/fwlink/?linkid=855800). En exécutant cette évaluation de préparation du réseau, vous pouvez valider la préparation de votre réseau d’exécuter des applications multimédia en temps réel, tels que Microsoft Teams.
 
 > [!NOTE]
 > Il s’agit de la même évaluation de préparation de réseau que nous vous recommandons d’être exécutée par les clients qui souhaitent pour déployer Skype pour les entreprises.
@@ -137,7 +134,7 @@ En cas d’un serveur proxy en cours de déploiement, nous vous recommandons d�
 
 <!--ENDOFSECTION-->
 
-## <a name="additional-network-considerations"></a>Remarques supplémentaires relatives au réseau
+## <a name="additional-network-considerations"></a>Considérations relatives au réseau supplémentaires
 
 ### <a name="external-name-resolution"></a>Résolution de nom externe
 
@@ -147,7 +144,7 @@ Assurez-vous que tous les ordinateurs clients exécutant le client équipes peuv
 
 Lorsque plusieurs utilisateurs et des périphériques access Office 365 à l’aide de la traduction d’adresses réseau (NAT) ou la traduction d’adresse de Port (PAT), vous devez vous assurer que les périphériques derrière chaque adresse IP routable publiquement ne dépassent le nombre pris en charge.
 
-Pour atténuer ce risque, assurez-vous adéquate des adresses IP publiques sont affectés aux pools de NAT pour éviter l’épuisement du port. Si les ports sont insuffisants, les utilisateurs finaux internes et les périphériques rencontreront des problèmes lorsqu'ils se connecteront aux services Office 365. Pour plus d’informations, consultez la rubrique [Prise en charge NAT avec Office 365](https://docs.microsoft.com/office365/enterprise/nat-support-with-office-365).
+Pour atténuer ce risque, assurez-vous adéquate des adresses IP publiques sont affectés aux pools de NAT pour éviter l’épuisement du port. Épuisement port entraînera interne aux utilisateurs et des périphériques de face problèmes lors de la connexion aux services Office 365. Pour plus d’informations, voir [prise en charge NAT avec Office 365](https://docs.microsoft.com/office365/enterprise/nat-support-with-office-365).
 
 ### <a name="intrusion-detection-and-prevention-guidance"></a>Conseils de détection et de prévention des intrusions
 

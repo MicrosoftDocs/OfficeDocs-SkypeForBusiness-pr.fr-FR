@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 053076b0-441c-44d9-8dbc-7a36d8ecafe4
 description: 'Résumé : Découvrez comment créer un partage de fichiers Windows Server dans le cadre de l’installation de Skype pour Business Server. Téléchargez une version d’évaluation gratuite de Skype pour Business Server depuis le centre d’évaluation Microsoft à : https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: a6a040c60d3c5a41df8dfa24abd5948d85180f2e
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: a3fe1d69bb9e7db377c6a9334b90f8ce96c581ad
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884620"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30664826"
 ---
 # <a name="create-a-file-share-in-skype-for-business-server"></a>Créer un partage de fichiers dans Skype pour Business Server
  
@@ -60,4 +60,13 @@ Regardez la vidéo des étapes pour **créer un partage de fichiers** :
     
      ![Partage d’onglets pour partager des dossiers.](../../media/78fe8441-dead-43ed-9a04-3c7c8c657c15.png)
   
+> [!NOTE]
+>Si le magasin de fichiers est hébergé sur un DFS partager, recevra l’avertissement suivant :
 
+Avertissement : Impossible d’accéder aux autorisations de partage pour «\\<domain>\<share> ».
+
+>Si vous n’êtes pas un administrateur sur le serveur de fichiers ou s’il s’agit d’un partage de système de fichiers distribués (DFS) est attendu. Si les autorisations de partage ont déjà été configurées, cet avertissement peut être ignoré. S’il s’agit d’un nouveau partage, reportez-vous à la documentation pour plus d’informations sur la configuration manuelle des autorisations de partage.
+
+>En raison de l’impossibilité d’accéder aux autorisations de partage sur un partage DFS, Skype pour Business Server ne pourront pas définir explicitement des groupes sur le partage de fichiers. Pour garantir que le partage de fichiers avec les autorisations appropriées peut accéder à Skype pour les composants Business Server, vérifiez que les groupes RTC suivants sont ajoutés à modifier les autorisations au niveau de partage en plus des administrateurs locaux avec les autorisations de partage contrôle total.
+
+RTCHSUniversalServices RTCComponentUniversalServices RTCUniversalServerAdmins

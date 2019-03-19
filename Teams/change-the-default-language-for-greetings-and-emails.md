@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Découvrez comment configurer Skype Entreprise afin d’utiliser une autre langue pour le message d’accueil vocal par défaut de votre organisation. '
-ms.openlocfilehash: 0acfb798e404ea0aef4e49a866f0501b85e33653
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 6de73212df6be8a1f0d52cff8065536442085783
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541607"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30664858"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>Modifier la langue par défaut des messages d'accueil et des courriers électroniques
 
@@ -63,9 +63,9 @@ Si vous êtes un [administrateur général d'Office 365](https://support.office
     
 ## <a name="related-articles-for-the-admin"></a>Articles connexes pour l'administrateur
 
-- [Qu'est-ce que les offres d'appels dans Office 365 ?](what-are-calling-plans-in-office-365.md)
+- [Système téléphonique et Plans d’appel](calling-plan-landing-page.md)
     
-- [Configurer des offres d'appels](set-up-calling-plans.md)
+- [Configurer des forfaits d'appels](set-up-calling-plans.md)
     
 - [Planifier Business Server système téléphonique dans Office 365 avec une connectivité PSTN local dans Skype](https://go.microsoft.com/fwlink/?LinkId=717947)
     

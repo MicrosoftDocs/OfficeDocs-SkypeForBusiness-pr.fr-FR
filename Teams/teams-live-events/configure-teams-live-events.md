@@ -16,15 +16,14 @@ description: Découvrez comment gérer les paramètres pour les événements liv
 f1keywords: ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 56a7834f1547c682c690f8c42082af0a314efec9
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: e3c1a3c4883705f5e9e5ded88cce94fc37da650b
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542838"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30664891"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Configurer les paramètres d’événements en direct dans Microsoft Teams
-> [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
 
 Utilisez les paramètres d’événements en direct équipes pour configurer les paramètres pour les événements live qui sont stockés dans votre organisation. Vous pouvez configurer une URL de prise en charge et configurer un fournisseur de distribution vidéo tiers. Ces paramètres s’appliquent à tous les événements live qui sont créés dans votre organisation. 
 
@@ -43,7 +42,7 @@ Cette URL est affichée en direct des participants de l’événement. Ajoutez l
 
     ![Paramètre d’URL de support pour les événements dans le centre d’administration Microsoft équipes en direct] (../media/teams-live-events-settings-supporturl.png "Capture d’écran de l’URL définition d’événements en direct pour les équipes de support")
 
-### <a name="using-windows-powershell"></a>Utilisation de Windows PowerShell
+### <a name="using-windows-powershell"></a>Reportez-vous à la rubrique Envoyer un message électronique à un utilisateur avec leurs informations de conférence Audio.
 Exécutez la commande suivante :
 ```
 Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}” 
@@ -65,7 +64,7 @@ Si vous avez acheté et configurez une solution logicielle défini de network (S
     - **Clé de licence de fournisseur** Entrez l’ID de la licence que vous avez obtenu à partir de votre contact fournisseur.
     - **URL du modèle API SDN** Entrez l’URL de modèle API que vous avez obtenu à partir de votre contact fournisseur.
 
-### <a name="using-windows-powershell"></a>Utilisation de Windows PowerShell
+### <a name="using-windows-powershell"></a>Reportez-vous à la rubrique Envoyer un message électronique à un utilisateur avec leurs informations de conférence Audio.
 Obtenir le jeton de licence d’ID ou d’API et modèle de l’API de contact de votre fournisseur, puis exécutez une des valeurs suivantes, selon le fournisseur que vous utilisez :
 
 **Ruche** 
@@ -82,6 +81,6 @@ Pour plus d’informations, voir [Set-CsTeamsMeetingBroadcastConfiguration](http
 > Si vous envisagez de créer des événements en temps réel qui utilisent des encodeurs externes, vous devez également [configurer votre fournisseur eCDN avec flux de Microsoft](https://docs.microsoft.com/stream/network-caching). 
 
 ### <a name="related-topics"></a>Rubriques connexes
-- [Quelles sont les équipes live événements ?](what-are-teams-live-events.md)
-- [Planifier des équipes événements en direct](plan-for-teams-live-events.md)
-- [Configurer des équipes événements en direct](set-up-for-teams-live-events.md)
+- [Que sont les événements en direct Teams ?](what-are-teams-live-events.md)
+- [Offre pour les événements en direct Teams](plan-for-teams-live-events.md)
+- [Configurer les événements en direct Teams](set-up-for-teams-live-events.md)

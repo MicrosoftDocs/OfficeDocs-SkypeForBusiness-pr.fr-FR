@@ -1,5 +1,5 @@
 ---
-title: Voix cloud Microsoft Teams
+title: Appel vocal dans le nuage dans Microsoft Teams
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -15,14 +15,14 @@ search.appverid: MET150
 description: Page d’accueil pour le déploiement de voix dans le nuage dans les équipes
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 93a17e76444efbc57f2d8043ca1e6eda68806263
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 1b9398e7a468c023949a0b7079d2924a9e1f0924
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465307"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30664917"
 ---
-# <a name="cloud-voice-in-microsoft-teams"></a>Voix cloud Microsoft Teams
+# <a name="cloud-voice-in-microsoft-teams"></a>Appel vocal dans le nuage dans Microsoft Teams
 
 Vous avez terminé la [Prise en main](get-started-with-teams-quick-start.md). Vous avez déployé Teams avec [des conversations, des équipes, des canaux et des applications](deploy-chat-teams-channels-microsoft-teams-landing-page.md) au sein de votre organisation. Peut-être que vous avez déployé la [conférence & de réunions](deploy-meetings-microsoft-teams-landing-page.md). Vous êtes maintenant prêt à ajouter des fonctionnalités de voix dans le nuage pour vos utilisateurs. 
 
@@ -38,11 +38,11 @@ Nous vous recommandons de toutes les organisations fonctionnent par le biais de 
 
 Les articles suivants fournissent plus d’informations sur le déploiement et l’utilisation des fonctionnalités de voix dans le nuage dans les équipes :
 
-- [Système téléphonique d'Office 365](what-is-phone-system-in-office-365.md)
-- [Système téléphonique par l’appel de Plan](calling-plan-landing-page.md)
-- [Routage d’un système téléphonique Direct](direct-routing-landing-page.md)
+- [Système téléphonique dans Office 365](what-is-phone-system-in-office-365.md)
+- [Système téléphonique avec les Plans d’appel](calling-plan-landing-page.md)
+- [Routage direct via le système téléphonique](direct-routing-landing-page.md)
 - [Déploiement de la fonctionnalité vocale cloud](cloud-voice-deployment.md)
-- [Solutions de téléphonie Microsoft](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)
+- [Détails sur les solutions téléphoniques Microsoft Telephony](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)
 - Regarder la session suivante pour en savoir plus sur le système téléphonique : [Introduction au système téléphonique dans les équipes Microsoft](https://aka.ms/teams-phone-system)
 
 
@@ -77,7 +77,7 @@ Pour connecter le système téléphonique pour le Public téléphone réseau com
 Vous souhaiterez peut-être modifier les paramètres pour les éléments suivants, selon les besoins de votre organisation et la configuration :
 
 - Messagerie vocale
-- Identité d'appel
+- Identité de l’appelant
 - Numéros de téléphone à partir de Microsoft
 - Plan de numérotation
 - Files d'attente des appels
@@ -93,7 +93,7 @@ Messagerie vocale de système téléphonique, grâce aux services de messagerie 
 | Je souhaite activer la transcription de la messagerie vocale pour certains ou tous les utilisateurs ? | Pour désactiver la transcription de la messagerie vocale, consultez [définition des stratégies de messagerie vocale dans votre organisation](set-up-phone-system-voicemail.md#setting-voicemail-policies-in-your-organization).</li></ul>|
 |||
 
-### <a name="calling-identity"></a>Identité d'appel
+### <a name="calling-identity"></a>Identité de l’appelant
 
 Par défaut, tous les appels sortants utilisent le numéro de téléphone affecté comme identité de l’appelante (ID de l’appelant). Le destinataire de l'appel peut rapidement identifier l'appelant et décider d'accepter ou de refuser l'appel.
 

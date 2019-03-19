@@ -1,5 +1,5 @@
 ---
-title: Plans d’appel dans Office 365
+title: Forfaits d’appel dans Office 365
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -25,16 +25,16 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: 3f1f28862274a95f5bfbb0eb3fbdc3a32f72bc90
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 023b04b6d7826913fc0946ff88dda5c247db92c0
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542095"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30664731"
 ---
-# <a name="calling-plans-for-office-365"></a>Plans d’appel dans Office 365
+# <a name="calling-plans-for-office-365"></a>Forfaits d’appel dans Office 365
 
-Les appels vers d’autres Skype pour les utilisateurs professionnels et Microsoft Teams sont gratuits, mais si vous souhaitez que vos utilisateurs puissent appeler des téléphones standard, et vous ne disposez pas d’un fournisseur de services à passer des appels vocaux, vous devez acheter un Plan de l’appel. [Qu'est-ce que les offres d'appels dans Office 365 ?](what-are-calling-plans-in-office-365.md)
+Les appels vers d’autres Skype pour les utilisateurs professionnels et Microsoft Teams sont gratuits, mais si vous souhaitez que vos utilisateurs puissent appeler des téléphones standard, et vous ne disposez pas d’un fournisseur de services à passer des appels vocaux, vous devez acheter un Plan de l’appel. Pour plus d’informations, voir le [système téléphonique et Plans de l’appel](calling-plan-landing-page.md).
   
 Voici les options d’appel de Plans :
   
@@ -75,9 +75,9 @@ Puis, attribuez les licences de module complémentaire E5 Enterprise ou **Systè
 
 - [Tarifs de forfaits d'appels](https://go.microsoft.com/fwlink/?LinkId=799761)
     
-- [Tarifs pour le système téléphonique](https://go.microsoft.com/fwlink/?linkid=799763)
+- [Tarification de système téléphonique](https://go.microsoft.com/fwlink/?linkid=799763)
     
-- [Tarifs pour l'audioconférence](https://go.microsoft.com/fwlink/?linkid=799762)
+- [Tarification de services d’audioconférence](https://go.microsoft.com/fwlink/?linkid=799762)
     
 ## <a name="for-more-information"></a>Pour plus d’informations
 
@@ -92,9 +92,9 @@ Voici d’autres articles qui expliquent comment configurer vos Plans de l’app
    
 ## <a name="related-topics"></a>Rubriques connexes
 
-- [Configurer Skype Entreprise Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
+- [Configurer Skype entreprise Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     
-- [Configurer la messagerie vocale du système téléphonique - Aide pour l'administrateur](set-up-phone-system-voicemail.md)
+- [Configurer la messagerie vocale du système téléphonique - Aide de l’administration](set-up-phone-system-voicemail.md)
     
 - [Configurer des forfaits d'appels](set-up-calling-plans.md)
     

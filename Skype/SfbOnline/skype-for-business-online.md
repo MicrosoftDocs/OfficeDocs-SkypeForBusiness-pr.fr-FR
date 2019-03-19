@@ -1,6 +1,6 @@
 ---
-title: Administration de Skype Entreprise Online
-description: Découvrez comment gérer Skype Entreprise Online pour votre organisation.
+title: Administration de Skype Entreprise Online
+description: Découvrez comment gérer Skype Entreprise Online pour votre organisation.
 services: skype-for-business-online-admin
 author: tonysmit
 manager: serdars
@@ -13,16 +13,17 @@ ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: landing-page
 ms.author: tonysmit
-ms.openlocfilehash: db174b9e9df8fb6a819930babfaae9422f3ffe30
-ms.sourcegitcommit: f091c351bec56219a8c91b8c12b9c1f5c5983c95
-ms.translationtype: HT
+f1keywords: ms.teamsadmincenter.dashboard.helparticle.sfboadmindocumentation
+ms.openlocfilehash: 4f941766db77b8bb8678d4d593e6843db662dc06
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "26531747"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30664603"
 ---
-# <a name="skype-for-business-online-admin"></a>Administration de Skype Entreprise Online
+# <a name="skype-for-business-online-admin"></a>Administration de Skype Entreprise Online
 
-Découvrez comment gérer Skype Entreprise Online pour votre organisation.
+Découvrez comment gérer Skype Entreprise Online pour votre organisation.
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -36,7 +37,7 @@ Découvrez comment gérer Skype Entreprise Online pour votre organisation.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Prise en main de Skype Entreprise</h3>
+                        <h3>Prise en main de Skype Entreprise</h3>
                     </div>
                 </div>
             </div>
@@ -54,7 +55,7 @@ Découvrez comment gérer Skype Entreprise Online pour votre organisation.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Nous sommes là pour vous aider</h3>
+                        <h3>We& #39 ; re ici pour aider à</h3>
                     </div>
                 </div>
             </div>
@@ -72,7 +73,7 @@ Découvrez comment gérer Skype Entreprise Online pour votre organisation.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Avez-vous besoin d’aide pour vous connecter à Skype Entreprise ?</h3>
+                        <h3>Avez-vous besoin d’aide pour vous connecter à Skype Entreprise ?</h3>
                     </div>
                 </div>
             </div>
@@ -90,7 +91,7 @@ Découvrez comment gérer Skype Entreprise Online pour votre organisation.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Résolution des problèmes liés à Skype Entreprise Online</h3>
+                        <h3>Résolution des problèmes liés à Skype Entreprise Online</h3>
                     </div>
                 </div>
             </div>
@@ -119,7 +120,7 @@ Découvrez comment gérer Skype Entreprise Online pour votre organisation.
 
 ---
 
-<h2>Nouveautés</h2>
+<h2>What& #39 ; est nouvelle</h2>
 
 <ul class="panelContent cardsF">
     <li>
@@ -180,7 +181,7 @@ Découvrez comment gérer Skype Entreprise Online pour votre organisation.
 
 ---
 
-<h2>Articles recommandés</h2>
+<h2>Articles suggérés</h2>
 <ul class="panelContent cardsW">
     <li>
         <div class="cardSize">
@@ -212,7 +213,7 @@ Découvrez comment gérer Skype Entreprise Online pour votre organisation.
                 <div class="card">
                     <div class="cardText">
                         <h3>Licence de compléments</h3>
-                        <p><a href="/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing">Licences de compléments pour Skype Entreprise et Microsoft Teams</a></p><p><a href="/MicrosoftTeams/what-are-communications-credits">Qu'est-ce que les crédits de communication ?</a></p>
+                        <p><a href="/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing">Licences de compléments pour Skype Entreprise et Microsoft Teams</a></p><p><a href="/MicrosoftTeams/what-are-communications-credits">Qu'est-ce que les crédits de communication ?</a></p>
                     </div>
                 </div>
             </div>
@@ -224,7 +225,7 @@ Découvrez comment gérer Skype Entreprise Online pour votre organisation.
                 <div class="card">
                     <div class="cardText">
                         <h3>Offres d'appels</h3>
-                        <p><a href="/MicrosoftTeams/what-are-calling-plans-in-office-365">Qu'est-ce que les offres d'appels dans Office 365 ?</a></p><p><a href="/MicrosoftTeams/set-up-calling-plans">Configurer des offres d'appels</a></p><p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">Consulter la disponibilité des offres d'appels dans votre pays/région</a></p>
+                        <p><a href="/MicrosoftTeams/calling-plan-landing-page">Qu'est-ce que les offres d'appels dans Office 365 ?</a></p><p><a href="/MicrosoftTeams/set-up-calling-plans">Configurer des offres d'appels</a></p><p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">Consulter la disponibilité des offres d'appels dans votre pays/région</a></p>
                     </div>
                 </div>
             </div>
@@ -236,7 +237,7 @@ Découvrez comment gérer Skype Entreprise Online pour votre organisation.
                 <div class="card">
                     <div class="cardText">
                         <h3>Système téléphonique</h3>
-                        <p><a href="/MicrosoftTeams/what-is-phone-system-in-office-365">Qu'est-ce que le système téléphonique dans Office 365 ?</a></p><p><a href="/MicrosoftTeams/here-s-what-you-get-with-phone-system">Voici les avantages du système téléphonique dans Office 365</a></p>
+                        <p><a href="/MicrosoftTeams/what-is-phone-system-in-office-365">Qu'est-ce que le système téléphonique dans Office 365 ?</a></p><p><a href="/MicrosoftTeams/here-s-what-you-get-with-phone-system">Here& #39 ; est ce que vous obtenez avec un système téléphonique dans Office 365</a></p>
                </div>
                 </div>
             </div>
