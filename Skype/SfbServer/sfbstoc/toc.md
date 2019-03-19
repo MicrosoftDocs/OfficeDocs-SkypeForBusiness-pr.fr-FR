@@ -13,6 +13,8 @@
 
 ### [Planifier le système téléphonique avec une connectivité PSTN en local](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md)
 
+### [Activation des utilisateurs pour le système téléphonique avec une connectivité PSTN en local dans Skype Entreprise Server](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system.md)
+
 
 ### [Planification pour Skype Entreprise Cloud Connector Edition](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition.md)
 #### [Planification pour sites PSTN Cloud Connector Edition](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-for-cloud-connector-edition-pstn-sites.md)
@@ -288,7 +290,7 @@
 ###### [Configuration d’une application SNMP](../deploy/deploy-enterprise-voice/configure-an-snmp-application.md)
 ###### [Service Informations d’emplacement secondaire](../deploy/deploy-enterprise-voice/secondary-location-information-service.md)
 ###### [Configuration de plusieurs numéros d’urgence](../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md)
-##### [Déploiement du contournement de média](../deploy/deploy-enterprise-voice/deploy-media-bypass.md)
+##### [Déploiement de contournement de média](../deploy/deploy-enterprise-voice/deploy-media-bypass.md)
 ###### [Contournement du serveur de médiation](../deploy/deploy-enterprise-voice/bypass-the-mediation-server.md)
 ###### [Utilisation des informations sur le site et la région](../deploy/deploy-enterprise-voice/use-site-and-region-information.md)
 #### [Déploiement des fonctionnalités de gestion des appels](../deploy/deploy-enterprise-voice/deploy-call-management-features.md)
