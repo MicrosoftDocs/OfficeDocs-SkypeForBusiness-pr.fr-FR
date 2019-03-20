@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 04ab6b74745bf343ec09e887ef3e7187d3ffeaad
-ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.openlocfilehash: f7e6e46ca534a821d4697714448bcc5e4e20888f
+ms.sourcegitcommit: 28dd9b8ca3de35a73e4d6923eff5546925435b8b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 03/19/2019
-ms.locfileid: "30664739"
+ms.locfileid: "30684063"
 ---
 ![Étapes du parcours de mise à niveau, avec un accent sur l’étape de préparation technique](media/upgrade-banner-tech-readiness.png "Étapes du parcours de mise à niveau, avec un accent sur l’étape de préparation technique")
 
@@ -156,11 +156,11 @@ Une fois que vous avez terminé la préparation de votre réseau et de planifica
 
 Vous pouvez télécharger le [Skype pour l’outil d’évaluation réseau métiers](https://www.microsoft.com/download/details.aspx?id=53885) pour vérifier que votre réseau est prêt pour les équipes. L’outil offre deux fonctionnalités : elle permet de tester si tous les ports appropriés ont été ouverts, et il peut tester pour troubles du réseau.
 
-Une fois que vous téléchargez et installez l’outil, vous pouvez les trouver dans c :\\Program Files\\Microsoft Skype pour l’outil d’évaluation réseau Business. Un guide détaillé pour l’utilisation de l’outil, Usage.docx, est inclus dans ce répertoire.
+Une fois que vous téléchargez et installez l’outil, recherchez-le dans C:\Program Files (x86) \Microsoft Skype pour l’outil d’évaluation réseau Business. Un guide détaillé pour l’utilisation de l’outil, Usage.docx, est inclus dans ce répertoire.
 
 ### <a name="test-for-opened-ports"></a>Test des ports ouverts
 
-Ouvrez une fenêtre d’invite de commandes et accédez au répertoire outil d’évaluation réseau en entrant **cd C:\\Program Files\\Microsoft Skype pour l’outil d’évaluation réseau Business**. À l’invite de commandes, démarrez le test pour les ports ouverts en entrant **networkassessmenttool.exe /connectivitycheck**
+Ouvrez une fenêtre d’invite de commandes et accédez au répertoire outil d’évaluation réseau en entrant **cd C:\Program Files (x86) \Microsoft Skype pour l’outil d’évaluation réseau Business**. À l’invite de commandes, démarrez le test pour les ports ouverts en entrant **networkassessmenttool.exe /connectivitycheck**
 
 Après avoir exécuté les contrôles, l’outil s’affiche le message « Vérifications est terminée avec succès » ou créer des rapports sur les ports qui ont été bloqués. Il génère également un fichier nommé Connectivity_results.txt, qui contient la sortie de l’outil et le stocke dans le répertoire % userprofile\\appdata\\local\\Skype de microsoft pour l’outil d’évaluation réseau business\\ directory.
 

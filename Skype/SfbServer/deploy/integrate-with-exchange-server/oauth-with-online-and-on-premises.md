@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
 description: Configuration OAuth authentification entre Exchange sur site et Skype pour Business Online permet la Skype pour les fonctionnalités d’entreprise et l’intégration d’Exchange décrites dans prise en charge de la fonctionnalité.
-ms.openlocfilehash: f6108842f827cbb9cfb6761495c4787ed2b7868b
-ms.sourcegitcommit: fddb1d6798e7a716ad87b0613f45a76deff6a043
+ms.openlocfilehash: fe1f6a56412706c658b2c686d2ca06d6a1b9e5d9
+ms.sourcegitcommit: 28dd9b8ca3de35a73e4d6923eff5546925435b8b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2019
-ms.locfileid: "29735173"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30684055"
 ---
 # <a name="configure-oauth-between-skype-for-business-online-and-exchange-on-premises"></a>Configurer OAuth entre Skype pour Business Online et Exchange sur site
 
@@ -30,7 +30,7 @@ Cette rubrique s’applique à Exchange Server 2016 et Exchange Server 2013.
 
 -  Avant de pouvoir réaliser cette (ces) procédure(s), des autorisations doivent vous avoir été attribuées. Pour voir les autorisations dont vous avez besoin, consultez la rubrique [autorisations d’infrastructure Exchange et Shell](https://go.microsoft.com/fwlink/p/?LinkId=746511) .
 
-- Pour plus d’informations sur les raccourcis clavier qui peuvent être utilisés lors des procédures décrites dans cette rubrique, voir [Raccourcis clavier dans le Centre d’administration Exchange]( https://go.microsoft.com/fwlink/p/?LinkId=746512).
+- Pour plus d’informations sur les raccourcis clavier applicables aux procédures de cette rubrique, voir [raccourcis clavier dans le centre d’administration Exchange]( https://go.microsoft.com/fwlink/p/?LinkId=746512).
 
 ## <a name="configure-oauth-authentication-between-your-on-premises-exchange-and-skype-for-business-organizations"></a>Configurer l’authentification OAuth entre vos organisations Exchange et Skype Entreprise locales.
 
@@ -142,7 +142,7 @@ Spécifiez un domaine vérifié pour votre organisation Exchange. Ce domaine doi
 > [!NOTE]
 > Pour exécuter correctement le script suivant, Windows PowerShell pour Azure Active Directory doit être connecté à votre client Microsoft Online Azure AD, comme expliqué dans l’étape 4 de la section précédente.
 
-1. Enregistrez le texte suivant dans un fichier de script PowerShell appelé, par exemple, RegisterEndpoints.ps1. Dans cet exemple, un caractère générique est utilisé pour enregistrer tous les points de terminaison pour contoso.com. Remplacez contoso.com par une autorité de nom d’hôte pour votre organisation d’Exchange sur site
+1. Enregistrez le texte suivant dans un fichier de script PowerShell appelé, par exemple, RegisterEndpoints.ps1. Dans cet exemple, un caractère générique est utilisé pour enregistrer tous les points de terminaison pour contoso.com. Remplacez <your Verified Domain> avec un nom de domaine complet à votre serveur Exchange local.
 
    ```
    $externalAuthority="*.<your Verified Domain>"
@@ -153,7 +153,7 @@ Spécifiez un domaine vérifié pour votre organisation Exchange. Ce domaine doi
    Set-MsolServicePrincipal -ObjectID $p.ObjectId -ServicePrincipalNames $p.ServicePrincipalNames;
    ```
 
-2. Dans Windows PowerShell pour Azure Active Directory, exécutez le script Windows PowerShell que vous avez créé lors de l’étape précédente. Par exemple : `.\RegisterEndpoints.ps1`
+2. Dans Windows PowerShell pour Azure Active Directory, exécutez le script Windows PowerShell que vous avez créé lors de l’étape précédente. Par exemple :`.\RegisterEndpoints.ps1`
 
 ### <a name="verify-your-success"></a>Vérifiez que tout fonctionne correctement
 
@@ -172,3 +172,7 @@ Consultez également le trafic. Le trafic dans un protocole OAuth est vraiment d
 Si vous souhaitez que vous utilisez correctement OAuth, assurez-vous que vous savez quoi s’attendre et savoir quoi doit ressembler le trafic. C' [est ici à quoi s’attendre](https://tools.ietf.org/html/draft-ietf-oauth-v2-23#page-34), Voici un assez standard [exemple du trafic OAuth dans une application Microsoft](https://download.microsoft.com/download/8/5/8/858F2155-D48D-4C68-9205-29460FD7698F/[MS-SPS2SAUTH].pdf) (très utile lire, s’il n’utilise des jetons d’actualisation), et il existe des extensions de Fiddler qui vous permet de rechercher dans votre JWT (JSON OAuth Jeton Web).
 
 Voici un [exemple de configuration](https://blogs.msdn.microsoft.com/kaevans/2015/03/30/updated-fiddler-oauth-inspector/), mais vous pouvez utiliser n’importe quel outil de suivi réseau que vous entreprenez ce processus.
+
+## <a name="related-topics"></a>Rubriques connexes
+
+[Configurer l’authentification OAuth entre des organisations Exchange et Exchange Online](https://docs.microsoft.com/en-us/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)

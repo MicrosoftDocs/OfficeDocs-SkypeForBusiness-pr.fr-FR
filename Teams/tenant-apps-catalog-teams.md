@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 61b8f631857d9e81ced843437288fde88001032d
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.openlocfilehash: 909ed249ea4e408cbddcd52824a7cb0047504613
+ms.sourcegitcommit: 28dd9b8ca3de35a73e4d6923eff5546925435b8b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30649507"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30684071"
 ---
 <a name="publish-apps-to-the-microsoft-teams-tenant-apps-catalog"></a>Publier des applications dans le catalogue d’applications de locataire Microsoft Teams
 =======================================================
@@ -71,7 +71,7 @@ L’application est révisée à la version 2.0. Vous permet également de suppr
 
 ## <a name="use-the-office-365-admin-portal-to-manage-the-tenant-apps-catalog"></a>Utilisez le portail d’administration d’Office 365 pour gérer le catalogue d’applications client
 
-Si vous avez des applications qui nécessitent des correctifs, vous pouvez désactiver temporairement les applications via le portail d’administration d’Office 365. En plus des paramètres précédents, il est désormais une section dédié aux applications de votre entreprise. Vous pouvez choisir les applications que vous souhaitez activer ou désactiver.
+Si vous avez des applications qui nécessitent des correctifs, vous pouvez temporairement désactiver les applications via le portail d’administration d’Office 365, sélectionnez **paramètres** > **compléments Services &** > **Équipes Microsoft**. En plus des paramètres précédents, il est désormais une section dédié aux applications de votre entreprise. Vous pouvez choisir les applications que vous souhaitez activer ou désactiver.
 
 ![Capture d’écran de l’App Store équipes affichant le catalogue d’applications.](media/private-app-store-teams-image05.png)
 

@@ -3,7 +3,7 @@ title: Rapport d’utilisation des périphériques de Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.date: 03/08/2019
+ms.date: 03/19/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -16,12 +16,12 @@ MS.collection:
 description: Découvrez comment utiliser le rapport d’utilisation du périphérique équipes dans le centre d’administration Microsoft Teams pour afficher le mode de connexion des utilisateurs de votre organisation aux équipes.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0abc3afd09a1bd253319de0f4b68512c35cd2daa
-ms.sourcegitcommit: daf65bf09ca57554da744602d2551db53caedde5
+ms.openlocfilehash: 1915e7c2c52911e49afca6dbbb23e6ed9b74d672
+ms.sourcegitcommit: 28dd9b8ca3de35a73e4d6923eff5546925435b8b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2019
-ms.locfileid: "30513012"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30684024"
 ---
 # <a name="microsoft-teams-device-usage-report"></a>Rapport d’utilisation des périphériques de Microsoft Teams
 
@@ -49,5 +49,5 @@ Le rapport d’utilisation du périphérique dans le centre d’administration M
 
 ## <a name="related-topics"></a>Rubriques connexes
 - [Création de rapports et des équipes analytique](teams-reporting-reference.md)
-- [Rapport d’utilisation des équipes](teams-usage-report.md)
-- [Rapport d’activité utilisateur équipes](user-activity-report.md)
+- [Rapport d’utilisation Teams](teams-usage-report.md)
+- [Rapport d’activité d’utilisateur Teams](user-activity-report.md)

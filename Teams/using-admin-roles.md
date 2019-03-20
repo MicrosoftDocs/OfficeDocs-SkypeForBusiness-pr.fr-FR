@@ -13,12 +13,12 @@ ms.reviewer: islubin
 description: Découvrez comment utiliser les différents rôles d’administration pour gérer les équipes.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 62b8de5d5e96177476ef07a8a91566d9757364d1
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 5280691b5272765b0c351c38a03e9711b9e0f1b0
+ms.sourcegitcommit: 28dd9b8ca3de35a73e4d6923eff5546925435b8b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542510"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30684048"
 ---
 # <a name="use-microsoft-teams-admin-roles-to-manage-teams"></a>Utiliser des rôles d’administrateur de Microsoft Teams pour gérer Teams
 
@@ -35,7 +35,7 @@ Il existe quatre rôles d’administrateur équipes : administrateur de service
 | Administrateur du service Teams | Gérer le service Microsoft Teams, gérer et créer des groupes Office 365 | Tous les éléments dans le centre d’administration de Microsoft Teams et contrôles PowerShell associés, notamment :<br><br> Gérer des réunions, y compris des réunions de conférence, les configurations et les stratégies de ponts<sup>1,3</sup><br><br> Gérer la voix, notamment l’appel de stratégies et téléphone inventaire et affectation numéro<sup>1</sup><br><br> Gérer la messagerie, y compris la messagerie stratégies<sup>1,3</sup><br><br> Gérer tous les paramètres à l’échelle de l’organisation, y compris la fédération, la mise à niveau des équipes et équipes client paramètres<sup>1,3</sup><br><br> Gérer les équipes dans l’organisation et leurs paramètres associés, y compris l’appartenance (gestion de groupe prises en charge par le biais de PowerShell, gestion de l’équipe dans le portail d’administration présentant) <sup>23</sup><br><br> Afficher la page de profil utilisateur et de résoudre les problèmes de qualité des appels utilisateur à l’aide de diagnostic<sup>3</sup> dépannage avancé <br><br> Accéder, surveiller et dépanner l’appel du client qualité et la fiabilité à l’aide de données exposent dans tableau de bord de la qualité des appels (CQD). Créer des rapports, mettre à jour et supprimer des rapports selon vos besoins. Télécharger et mettre à jour CQD création de données |
 | Administrateur des communications Teams | Gérer les fonctionnalités d’appels et de réunions au sein du service Microsoft Teams | Gérer des réunions, y compris des réunions de conférence, les configurations et les stratégies de ponts<sup>1,3</sup><br><br> Gérer la voix, notamment l’appel de stratégies et téléphone inventaire et affectation numéro<sup>1</sup><br><br> Afficher la page de profil utilisateur et de résoudre les problèmes de qualité des appels utilisateur à l’aide de diagnostic<sup>3</sup> dépannage avancé |
 | Ingénieur du support technique pour les communications Teams | Résoudre les problèmes de communication au sein des équipes à l’aide des outils **avancés** . | Afficher la page de profil utilisateur et de résoudre les problèmes de qualité des appels utilisateur à l’aide de diagnostic<sup>3</sup> dépannage avancé |
-| Spécialiste des équipes Communications prise en charge | Résoudre les problèmes de communication au sein des équipes à l’aide des outils de **base** .| Accès à la page de profil utilisateur pour résoudre les problèmes des appels dans Analytique d’appel. Peut afficher uniquement les informations de l’utilisateur spécifique recherché.<sup>3</sup>
+| Spécialiste des équipes Communications prise en charge | Résoudre les problèmes de communication au sein des équipes à l’aide des outils de **base** .| Accès à la page de profil utilisateur pour résoudre les problèmes des appels dans Analytique d’appel. Peut uniquement afficher les informations utilisateur pour l’utilisateur spécifique à rechercher. <sup>3</sup>
 
 <sup>1</sup> [PowerShell - Skype pour le module d’entreprise](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)<br>
 <sup>2</sup> [PowerShell - module équipes Microsoft](https://www.powershellgallery.com/packages/MicrosoftTeams/)<br>
@@ -44,6 +44,8 @@ Il existe quatre rôles d’administrateur équipes : administrateur de service
 <sup>5</sup> Microsoft 365 Admin Center <<note that these are going to come later because they’re related to O365 Group management>> 
 -->
 Pour plus d’informations sur les outils d’administration disponibles pour la gestion de Microsoft Teams, voir [Gestion des équipes Microsoft](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center).
+
+Pour plus d’informations sur les limites, les spécifications et autres conditions qui s’appliquent aux équipes, voir [limites et les spécifications pour les équipes Microsoft](limits-specifications-teams.md).
 
 ## <a name="assign-users-to-each-role"></a>Affecter des utilisateurs à chaque rôle
 

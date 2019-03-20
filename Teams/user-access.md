@@ -16,12 +16,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f5c755c1dbcb62b01ab45772660b23524550e4e5
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 83d2b0710b811431546f0df9931d3a0b867d2b2b
+ms.sourcegitcommit: 28dd9b8ca3de35a73e4d6923eff5546925435b8b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30458891"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30683883"
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>Gérer l'accès des utilisateurs à Microsoft Teams
 =====================================
@@ -30,7 +30,7 @@ ms.locfileid: "30458891"
 
 Au niveau de l’utilisateur, l’accès à Microsoft Teams peut être activé ou désactivé sur par utilisateur à l’attribution ou la suppression de la licence de produit Microsoft Teams.
 
-Actuellement, il n’existe aucune option de stratégie pour activer des équipes ou un sous-ensemble des fonctionnalités d’équipes, ou de désactiver au niveau utilisateur individuel en dehors de la gestion des licences.
+Utilisez les stratégies de messagerie, gérés à partir du centre d’administration équipes, à contrôler quel canal des fonctionnalités de messagerie et conversation sont accessibles aux utilisateurs dans les équipes. Vous pouvez utiliser la stratégie par défaut ou créer un ou plusieurs stratégies de messagerie personnalisées pour les personnes dans votre organisation. Pour plus d’informations, consultez [Gérer les stratégies de messagerie dans les équipes](messaging-policies-in-teams.md).
 
 > [!NOTE]
 >Microsoft recommande que vous allumez équipes pour tous les utilisateurs d’une entreprise afin que les équipes peuvent être créées selon pour les projets et autres initiatives dynamiques. Même si vous décidez au pilote, il peut toujours être utile de conserver les équipes activés pour tous les utilisateurs, mais uniquement cibler communications dans le groupe pilote d’utilisateurs.
