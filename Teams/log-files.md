@@ -13,12 +13,12 @@ search.appverid: MET150
 description: Découvrez les journaux de débogage, des médias et du bureau générés par Microsoft Teams, où les trouver et comment ils peuvent vous assister dans vos opérations de dépannage.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 018247ba7f5f7ac088226bd505f6bf11737533c2
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.openlocfilehash: 8e2e638af7ca9f728835f244996a0d922d8f7cbc
+ms.sourcegitcommit: ff100b32fa92fc878f1404dace266d956262c24d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30640705"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "30720330"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Utiliser les fichiers journaux pour le dépannage de Microsoft Teams
 =================================================
@@ -96,9 +96,7 @@ Les journaux du bureau, également appelés journaux de programme d'amorçage, c
 
 Windows :
 
-  1.  Cliquez avec le bouton droit de la souris sur l’**icône Microsoft Teams dans la** barre d’état de votre application, puis sélectionnez **Obtenir les journaux**.
-
-  2.  Sélectionnez **Obtenir les journaux** dans le menu déroulant **Aide**.
+1.  Cliquez avec le bouton droit de la souris sur l’**icône Microsoft Teams dans la** barre d’état de votre application, puis sélectionnez **Obtenir les journaux**.
 
 Mac OsX :
 

@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Lisez cette rubrique pour en savoir plus sur la gestion des systèmes de salle Skype v2, la nouvelle génération de systèmes de salle Skype.
-ms.openlocfilehash: 5dcfcf13b22e7ad110b675d5d202f1ad53d32687
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 4c94ffbcb83e5e208e5cd7278af54e157b9f478c
+ms.sourcegitcommit: ff100b32fa92fc878f1404dace266d956262c24d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373646"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "30720423"
 ---
 # <a name="skype-room-systems-v2-maintenance-and-operations"></a>Opérations et maintenance v2 de systèmes de salle de Skype 
  
@@ -23,7 +23,7 @@ Lisez cette rubrique pour en savoir plus sur la gestion des systèmes de salle S
   
 Systèmes de salle Skype v2 est conçue pour transformer la salle de réunion en une riche, collaborative Skype pour une expérience la solution conférence le plus récent de Microsoft. Les utilisateurs apprécieront son interface Skype Entreprise familière, et les administrateurs informatiques approuveront la facilité de déploiement et de gestion de l’application de réunion Skype sous Windows 10. Systèmes de salle Skype v2 est conçu pour tirer parti de l’équipement existant comme panneaux LCD pour faciliter d’installation pour intégrer Skype pour les entreprises à la salle de réunion.
   
-Avec une configuration supplémentaire, gestion à distance est possible à l’aide de la Suite de gestion des opérations Microsoft (OMS) comme décrit dans [Plan Skype salle v2 SMS avec OMS](../../plan-your-deployment/clients-and-devices/oms-management.md), [déployer Skype salle v2 SMS avec OMS](../../deploy/deploy-clients/with-oms.md)et [gérer Périphériques v2 de systèmes de salle Skype avec OMS](oms.md). Vous pouvez également [un v2 Skype salle de systèmes de gérer les paramètres de la console à distance avec un fichier de configuration XML](xml-config-file.md)qui inclut l’application d’un thème d’affichage personnalisé. 
+Avec une configuration supplémentaire, gestion à distance est possible à l’aide de la Suite de gestion des opérations Microsoft (OMS) comme décrit dans [Plan Skype salle v2 SMS avec OMS](../../plan-your-deployment/clients-and-devices/oms-management.md), [déployer Skype salle v2 SMS avec OMS](../../deploy/deploy-clients/with-oms.md)et [gérer Périphériques v2 de systèmes de salle Skype avec OMS](oms.md). Vous pouvez également [Manage a Skype Room Systems v2 console settings remotely with an XML configuration file](xml-config-file.md), qui inclut l';application d';un thème d';affichage personnalisé. 
   
 ## <a name="collecting-logs-on-skype-room-systems-v2"></a>Collecte de journaux sur Skype Room Systems v2
 <a name="Logs"> </a>
@@ -42,7 +42,7 @@ Les journaux seront sortie dans un fichier ZIP c:\rigel.
 Configurez l’écran d’affichage en mode étendu. Cela permet de garantir que la console de que l’interface utilisateur n’est pas dupliquée sur qui s’affichent lorsque vous interrompre l’alimentation de l’affichage.
   
 > [!NOTE]
-> Télévision utilisée comme un plan de salle d’affichage pour la prise en charge/activer la fonctionnalité de contrôle de Electronics consommateur (CCE) de HDMI afin qu’il peut basculer automatiquement à une source vidéo active du mode veille. Cette fonctionnalité n’est pas pris en charge sur tous les TV. 
+> Un téléviseur utilisé comme écran à l’avant de la salle doit prendre en charge/permettre la fonctionnalité CEC (Consumer Electronics Control ) HDMI afin de pouvoir basculer automatiquement sur une source vidéo active depuis le mode veille. Cette fonctionnalité n’est pas prise en charge sur tous les téléviseurs. 
   
 ## <a name="skype-room-systems-v2-reset-factory-restore"></a>Réinitialisation de Skype Room Systems v2 (Restaurer les paramètres d’usine)
 <a name="Reset"> </a>
@@ -63,7 +63,7 @@ Le tableau suivant récapitule les opérations distantes possibles et les métho
 |Redémarrer  <br/> |Bureau distant  <br/> Powershell distant  <br/> |Bureau à distance (nécessite une configuration supplémentaire)  <br/> Powershell distant (nécessite une configuration supplémentaire)  <br/> SCCM  <br/> |
 |Mise à jour du SE  <br/> |Windows Update  <br/> |Windows Update  <br/> WSUS  <br/> |
 |Mise à jour de l';application  <br/> |	Windows Store  <br/> |Windows Store  <br/> SCCM  <br/> |
-|Configuration du compte Skype  <br/> |	Actuellement pas pris en charge  <br/> |	Actuellement pas pris en charge  <br/> |
+|Configuration du compte Skype  <br/> |Actuellement pas pris en charge  <br/> |	Actuellement pas pris en charge  <br/> |
 |Accès aux journaux  <br/> |	Actuellement pas pris en charge  <br/> |	Actuellement pas pris en charge  <br/> |
    
 ## <a name="configuring-group-policy-for-skype-room-systems-v2"></a>Configuration de la stratégie de groupe pour Skype Room Systems v2
@@ -74,9 +74,9 @@ Cette section traite des paramètres système qui dépend de systèmes de salle 
 
 |**Paramètre**|**Permet de**|
 |:-----|:-----|
-|HKLM\Software\Microsoft\Windows NT\CurrentVersion\Winlogon AdminAutoLogon = (REG_SZ) 1  <br/> |V2 de systèmes de salle Skype permet de démarrer  <br/> |
+|HKLM\Software\Microsoft\Windows NT\CurrentVersion\Winlogon AutoAdminLogon = (REG_SZ) 1  <br/> |V2 de systèmes de salle Skype permet de démarrer  <br/> |
 |Gestion - de l’alimentation\> sur CA, désactiver écran au bout de 10 minutes  <br/> Gestion - de l’alimentation\> sur CA, placez jamais système en mode veille  <br/> |Permet de systèmes de salle Skype v2 activer affiche attaché et réactiver automatiquement  <br/> |
-|net accounts /maxpwage:unlimited  <br/> Ou équivalent signifie la désactivation de l’expiration du mot de passe sur le compte local. Si vous n’effectuez pas cette opération, le compte Skype ne parviendra pas à se connecter en signalant l’expiration d’un mot de passe. Note que ceci aura un impact sur tous les comptes locaux sur l’ordinateur, et par conséquent, cet échec entraînera aussi l’éventuelle expiration du compte administratif.   <br/> |Active le compte Skype avec lequel toujours se connecter  <br/> |
+|net accounts /maxpwage:unlimited  <br/> Ou équivalent signifie la désactivation de l’expiration du mot de passe sur le compte local. Si vous n’effectuez pas cette opération, le compte Skype ne parviendra pas à se connecter en signalant l’expiration d’un mot de passe. Note que ceci aura un impact sur tous les comptes locaux sur l’ordinateur, et par conséquent, cet échec entraînera aussi l’éventuelle expiration du compte administratif.  <br/> |Active le compte Skype avec lequel toujours se connecter  <br/> |
    
 Transfert de fichiers à l’aide de stratégies de groupe est traitée dans [un élément de fichier de configuration](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx).
   
@@ -106,7 +106,7 @@ Par exemple, vous pouvez activer PowerShell à distance comme suit :
     
 2. Ouvrez une invite de commandes PowerShell avec élévation de privilèges.
     
-3. Entrez la commande suivante : Enable-PSRemoting - force
+3. Entrez la commande suivante : Enable-PSRemoting -force
     
 Pour effectuer une opération de gestion :
   
@@ -223,7 +223,7 @@ La console est désormais dans son mode de fonctionnement normal. La procédure 
   
 ### <a name="switching-to-admin-mode-and-back-when-the-skype-room-systems-v2-app-crashes"></a>Passer en Admin Mode et lorsque l’application v2 Skype salle systèmes se bloque
 
-1. Appuyez rapidement cinq fois sur la touche Windows. L’écran de connexion de Windows apparaît.  
+1. Appuyez rapidement cinq fois sur la touche Windows. L’écran de connexion de Windows apparaît. 
     
 2. Connectez-vous au bureau avec vos informations d’identification administrateur.
     
