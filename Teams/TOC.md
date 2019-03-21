@@ -145,7 +145,7 @@
 ### [Période d’appels sortants complémentaire pour l’audioconférence](complimentary-dial-out-period.md)
 
 
-### [Configurer l’audioconférence pour Skype Entreprise et Teams Microsoft](/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Configurer l’audioconférence pour Microsoft Teams](set-up-audio-conferencing-in-teams.md)
 
 ### [Affectation de Microsoft en tant que fournisseur d’audioconférence](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
@@ -343,6 +343,12 @@
 #### [Planifier le routage géodépendant pour le routage direct](location-based-routing-plan.md)
 #### [Configurer les paramètres de réseau pour le routage géodépendant](location-based-routing-configure-network-settings.md)
 #### [Activer le routage géodépendant pour le routage direct](location-based-routing-enable.md)
+
+### Contournement de média pour le routage Direct
+#### [Planifier le contournement de média avec le routage Direct](direct-routing-plan-media-bypass.md)
+#### [Configurer le contournement de média avec le routage Direct](direct-routing-configure-media-bypass.md)
+
+
 ### Référence technique pour le routage direct
 #### [Basculement de jonction sur les appels sortants](direct-routing-trunk-failover-on-outbound-call.md)
 
