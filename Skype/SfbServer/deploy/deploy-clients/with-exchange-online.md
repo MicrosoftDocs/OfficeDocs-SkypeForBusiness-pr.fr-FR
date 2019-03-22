@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: Lisez cette rubrique pour plus d’informations sur le déploiement de systèmes de salle Skype v2 avec Exchange Online.
-ms.openlocfilehash: 3b29c04101a28afeab4d0d29585ed9a5330935a1
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.openlocfilehash: c0c5f3aa2c5644e4d1fe24af886c9e716efd6592
+ms.sourcegitcommit: cad74f2546a6384747b1280c3d9244aa13fd0989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30645372"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "30737854"
 ---
 # <a name="deploy-skype-room-systems-v2-with-exchange-online"></a>Déploiement de Skype Room Systems v2 avec Exchange Online
 
@@ -68,9 +68,12 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
 
 4. Vous devez vous connecter à Azure AD pour appliquer certains paramètres de compte. Pour vous connecter, vous pouvez exécuter l’applet de commande suivante.
 
-   ``` Powershell
+  ``` PowerShell
+ Connect-MsolService -Credential $cred
+  ```
+<!--   ``` Powershell
    Connect-AzureAD -Credential $cred
-   ```
+   ``` -->
 
 ### <a name="add-an-email-address-for-your-on-premises-domain-account"></a>Ajout d’une adresse e-mail pour votre compte de domaine sur site
 
@@ -87,14 +90,19 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
 ### <a name="assign-an-office-365-license"></a>Affectation d’une licence Office 365
 
 1. Le compte d’utilisateur doit disposer d’une licence Office 365 valide pour vous assurer que Exchange et Skype pour Business Server fonctionnera. Si vous disposez de la licence, vous devez affecter un emplacement d’utilisation à votre compte d’utilisateur ; cela permet de déterminer les SKU de licence disponibles pour votre compte.
-2. Ensuite, utilisez Get-AzureADSubscribedSku pour récupérer une liste de références disponibles pour votre client Office 365.
-3. Une fois vous Lister les références, vous pouvez ajouter une licence à l’aide de l’applet de commande Set-AzureADUserLicense. Dans ce cas, $strLicense est le code de SKU qui s’affiche (par exemple, contoso:STANDARDPACK).
+2. Ensuite, utilisez`Get-MsolAccountSku` <!--Get-AzureADSubscribedSku--> pour récupérer une liste de références disponibles pour votre client Office 365.
+3. Une fois que vous répertoriez les références, vous pouvez ajouter une licence à l’aide du`Set-MsolUserLicense` <!-- Set-AzureADUserLicense--> applet de commande. Dans ce cas, $strLicense est le code de SKU qui s’affiche (par exemple, contoso:STANDARDPACK). 
 
-   ``` Powershell
+  ```
+    Set-MsolUser -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -UsageLocation 'US'
+   Get-MsolAccountSku
+   Set-MsolUserLicense -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -AddLicenses $strLicense
+  ```
+<!--   ``` Powershell
    Set-AzureADUserLicense -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -UsageLocation 'US'
    Get-AzureADSubscribedSku
    Set-AzureADUserLicense -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -AddLicenses $strLicense
-   ```
+   ``` -->
 
 ### <a name="enable-the-user-account-with-skype-for-business-server"></a>Activer le compte d’utilisateur avec Skype pour Business Server
 

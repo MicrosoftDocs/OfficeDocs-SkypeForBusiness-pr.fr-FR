@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Lisez cette rubrique pour plus d’informations sur le déploiement de systèmes de salle Skype v2 avec Office 365.
-ms.openlocfilehash: a931ec6cb55e654612c451f15d4a4895f61ba990
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.openlocfilehash: 5d2a756fafe616db22d968a3e946e468a6d063b4
+ms.sourcegitcommit: cad74f2546a6384747b1280c3d9244aa13fd0989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30645386"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "30737847"
 ---
 # <a name="deploy-skype-room-systems-v2-with-office-365"></a>Déploiement de Skype Room Systems v2 avec Office 365 
 
@@ -43,11 +43,6 @@ Pour activer Skype pour les entreprises, vous devez disposer les éléments suiv
 Pour plus d’informations sur Skype pour Business Online Plans, voir le [Skype pour Business Online Service Description](https://technet.microsoft.com/library/jj822172.aspx).
 
 ### <a name="add-a-device-account"></a>Ajout d’un compte d’appareil
-
-https://docs.microsoft.com/en-us/powershell/module/msonline/?view=azureadps-1.0
-
-https://docs.microsoft.com/en-us/powershell/module/Azuread/?view=azureadps-2.0 
-
 
 1. Connexion à Exchange Online PowerShell. Pour plus d’informations, voir [se connecter à Exchange Online PowerShell](https://go.microsoft.com/fwlink/p/?linkid=396554).
 
@@ -112,39 +107,60 @@ https://docs.microsoft.com/en-us/powershell/module/Azuread/?view=azureadps-2.0
 
    Pour détaillées sur la syntaxe et les informations sur les paramètres, voir [Set-CalendarProcessing](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing).
 
-4. Se connecter à Active Directory Azure PowerShell. Pour obtenir des instructions, consultez la rubrique [Connect avec Azure Active Directory PowerShell pour le module de graphique](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)
+4. Se connecter à MS Online PowerShell pour rendre les paramètres Active directory en exécutant `Connect-MsolService -Credential $cred` si vous disposez déjà de détails, consultez la rubrique [Azure Active Directory (MSOnline) 1.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-1.0). <!-- or [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-2.0) for the new module -->  
+    1. Si vous ne souhaitez pas que le mot de passe à expiration, utilisez la syntaxe suivante :
 
-5. Si vous ne souhaitez pas que le mot de passe à expiration, utilisez la syntaxe suivante dans Windows Azure Active Directory PowerShell :
-
+    ``` PowerShell
+    Set-MsolUser -UserPrincipalName $acctUpn -PasswordNeverExpires $true
+    ```
+<!--
    ``` PowerShell
    Set-AzureADUserPassword -UserPrincipalName <Account> -EnforceChangePasswordPolicy $false
-   ```
+   ```  -->
 
    Cet exemple montre comment définir le mot de passe pour le compte ProjectRigel01@contoso.onmicrosoft.com n’expire jamais.
 
+  ``` PowerShell
+    Set-MsolUser -UserPrincipalName $acctUpn -PasswordNeverExpires $true
+  ```
+<!-- 
    ``` PowerShell
    Set-AzureADUserPassword -UserPrincipalName ProjectRigel01@contoso.onmicrosoft.com -EnforceChangePasswordPolicy $false
-   ```
+   ``` -->
 
    Vous pouvez également définir un numéro de téléphone pour le compte en exécutant la commande suivante :
 
+  ``` PowerShell
+    Set-MsolUser -UserPrincipalName <upn> -PhoneNumber <phone number>
+  ```
+<!-- 
    ``` PowerShell
    Set-AzureADUser -UserPrincipalName <Account> -PhoneNumber "<PhoneNumber>"
-   ```
+   ```  -->
 
-6. Le compte de l’appareil doit avoir une licence Office 365 ou Exchange et Skype pour les entreprises ne fonctionnent pas. Si vous disposez de la licence, vous devez affecter un emplacement d’utilisation à votre compte d’appareil ; cela permet de déterminer les SKU de licence disponibles pour votre compte. Vous pouvez utiliser Get-AzureADSubscribedSku pour récupérer une liste de références disponibles pour votre client Office 365 comme suit :
+6. Le compte de l’appareil doit avoir une licence Office 365 ou Exchange et Skype pour les entreprises ne fonctionnent pas. Si vous disposez de la licence, vous devez affecter un emplacement d’utilisation à votre compte d’appareil ; cela permet de déterminer les SKU de licence disponibles pour votre compte. Vous pouvez utiliser`Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> pour récupérer une liste de références disponibles pour votre client Office 365 comme suit :
 
+  ``` Powershell
+  Get-MsolAccountSku
+  ```
+<!--
    ``` Powershell
    Get-AzureADSubscribedSku | Select -Property Sku*,ConsumedUnits -ExpandProperty PrepaidUnits
-   ```
+   ```  -->
 
-   Ensuite, vous pouvez ajouter une licence à l’aide de l’applet de commande Set-AzureADUserLicense. Dans ce cas, $strLicense est le code de SKU qui s’affiche (par exemple, contoso:STANDARDPACK).
+   Ensuite, vous pouvez ajouter une licence à l’aide du`Set-MsolUserLicense` <!--Set-AzureADUserLicense --> applet de commande. Dans ce cas, $strLicense est le code de SKU qui s’affiche (par exemple, contoso:STANDARDPACK).
 
+  ``` PowerShell
+   Set-MsolUser -UserPrincipalName $acctUpn -UsageLocation "US"
+   Get-MsolAccountSku
+   Set-MsolUserLicense -UserPrincipalName $acctUpn -AddLicenses $strLicense
+  ``` 
+<!-- 
    ``` Powershell
    Set-AzureADUserLicense -UserPrincipalName $acctUpn -UsageLocation "US"
    Get-AzureADSubscribedSku
    Set-AzureADUserLicense -UserPrincipalName $acctUpn -AddLicenses $strLicense
-   ```
+   ```   -->
 
    Pour obtenir des instructions détaillées, consultez la rubrique [attribution de licences pour les comptes d’utilisateurs avec Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell).
 
@@ -203,11 +219,19 @@ Set-CalendarProcessing -Identity rigel1 -AutomateProcessing AutoAccept-AddOrgani
 Commandes Azure Active Directory PowerShell :
 
 ``` PowerShell
+Set-MsolUser -UserPrincipalName rigel1@contoso.com -PasswordNeverExpires $true -UsageLocation "US"
+Set-MsolUserLicense -UserPrincipalName rigel1@contoso.com -AddLicenses "sfblab:O365_BUSINESS_PREMIUM"
+Set-MsolUserLicense -UserPrincipalName rigel1@contoso.com -AddLicenses "sfblab:MCOEV"
+Set-MsolUserLicense -UserPrincipalName rigel1@contoso.com -AddLicenses "sfblab:MCOPSTN2"
+```
+
+<!-- 
+``` PowerShell
 Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.com -PasswordNeverExpires $true -UsageLocation "US"
 Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.com -AddLicenses "sfblab:O365_BUSINESS_PREMIUM"
 Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.com -AddLicenses "sfblab:MCOEV"
 Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.com -AddLicenses "sfblab:MCOPSTN2"
-```
+```  -->
 
 Skype pour commande PowerShell d’entreprise :
 
