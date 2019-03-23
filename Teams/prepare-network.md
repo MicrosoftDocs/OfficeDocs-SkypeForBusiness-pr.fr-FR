@@ -15,45 +15,42 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 57f8ffc7d5cedeb6117deffb99ad48ccbe17b48f
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.openlocfilehash: c39924df868d7d9a3dae45a68b9785a4f493b35a
+ms.sourcegitcommit: 889295b507c77a93b10b3a5e826f2b0c79c31f75
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30640729"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "30771709"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Préparer le réseau de votre organisation pour Microsoft Teams
 
-> [!Tip]
-> Regarder la session suivante pour en savoir comment les équipes s’appuie sur votre réseau et comment mieux planifier la connectivité réseau optimale : [Planification des équipes réseau](https://aka.ms/teams-networking)
 
+Teams associe trois types de trafic :
 
-Les équipes combine les trois formes du trafic :
+-   le trafic de données entre l'environnement en ligne Office 365 et le client Teams (signalisation, présence, conversation, chargement et téléchargement de fichiers, synchronisation OneNote) ;
 
--   Trafic de données entre l’environnement en ligne d’Office 365 et le client équipes (signalisation, présence, conversation, téléchargement de fichier et téléchargement, la synchronisation de OneNote).
+-   le trafic des communications P2P en temps réel (audio, vidéo, partage de bureau) ;
 
--   Trafic de communications en temps réel d’égal à égal (partage de bureau, vidéo et audio).
+-   le trafic des communications de conférence en temps réel (audio, vidéo, partage de bureau).
 
--   Trafic de communication en temps réel de conférence (audio, vidéo, bureau partage).
-
-Cela a un impact sur le réseau à deux niveaux : flux de trafic entre les clients Microsoft Teams directement pour les scénarios d’égal à égal et passera le trafic entre l’environnement Office 365 et les clients Microsoft Teams pour les scénarios de réunion. Pour vérifier le flux de trafic optimales, le trafic doit être autorisé à circuler entre les segments réseau interne (par exemple, entre les sites sur le WAN) ainsi qu’entre les sites réseau et Office 365. Une expérience de dégradé n’entraîne pas ouvrir les ports corrects ou activement le blocage des ports spécifiques.
+Cela affecte le réseau sur deux niveaux : le trafic est acheminé entre les clients Microsoft Teams directement pour les communications P2P et le trafic est acheminé entre l'environnement Office 365 et les clients Microsoft Teams dans le cas des réunions. Pour assurer un flux optimal, le trafic doit pouvoir être acheminé à la fois entre les segments réseau (par ex. : entre des sites sur le réseau WAN) et entre les sites réseau et Office 365. Si les ports appropriés ne sont pas ouverts ou que des ports spécifiques sont activement bloqués, cela risque de dégrader la qualité de l'expérience.
 
 > [!NOTE]
 > Les réunions sont pris en charge sur iOS et Android appareils mobiles. 
 
-Pour obtenir une expérience optimale avec support en temps réel dans Microsoft Teams, votre réseau doit satisfaire la configuration réseau requise pour Office 365. Pour plus d’informations, voir [la qualité des médias et des performances pour la connectivité réseau pour Skype pour Business Online](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance).
+Pour obtenir une expérience optimale avec support en temps réel dans Microsoft Teams, votre réseau doit satisfaire la configuration réseau requise pour Office 365. Pour plus d’informations, consultez la rubrique [Qualité des médias et performances de connectivité réseau dans Skype Entreprise Online](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance).
 
-Pour les deux définition segments réseau (Client pour Microsoft Edge) et côté client pour Microsoft Edge, tenez compte des recommandations suivantes.
+Les deux segments réseau de définition (client vers Microsoft Edge et côté client vers Microsoft Edge) doivent respecter la configuration requise suivante.
 
 
-|Valeur  |Client Microsoft Edge  |Côté client pour Microsoft Edge  |
+|Valeur  |Client vers Microsoft Edge  |Périphérie client vers Microsoft Edge  |
 |:--- |:--- |:--- |
-|**Latence (unidirectionnelle)**\*  |< aller-retour de 50 millisecondes          |< 30ms         |
-|**Latence (durée aller-retour ou temps d’aller-retour)**\* |< 100 millisecondes   |< 60 MS |
-|**Perte de paquets en rafale**    |<10 % au cours de l’intervalle de 200 MS         |<1 % au cours de l’intervalle de 200 MS         |
-|**Perte de paquets**     |<1 % au cours des 15 s intervalle          |<0.1% pendant les 15 s intervalle         |
-|**Gigue arrivée entre des batteries de paquets**    |<30ms pendant les 15 s intervalle         |<15ms pendant les 15 s intervalle         |
-|**Réorganisation des paquets**    |paquets d’ordre <0.05%         |paquets d’ordre <0.01%         |
+|**Latence (unidirectionnelle)**\*  |< 50 ms          |< 30 ms         |
+|**Latence (durée aller-retour ou temps d’aller-retour)**\* |< 100 ms   |< 60 ms |
+|**Perte de paquets en rafale**    |< 10 % sur un intervalle de 200 ms         |< 1% sur un intervalle de 200 ms         |
+|**Perte de paquets**     |< 1 % sur un intervalle de 15 s          |< 0,1 % sur un intervalle de 15 s         |
+|**Gigue entre les arrivées de paquets**    |< 30 ms sur un intervalle de 15 s         |< 15 ms sur un intervalle de 15 s         |
+|**Réorganisation des paquets**    |< 0,05 % paquets désorganisés         |< 0,01% paquets désorganisés         |
 
 \*Les cibles de métrique latence supposent que votre entreprise ou les sites et les bords de Microsoft sont sur le même continent.
 
@@ -69,10 +66,19 @@ Pour tester les deux segments réseau, vous pouvez utiliser l' [Outil d’évalu
 
 ## <a name="bandwidth-requirements"></a>Bande passante requise
 
-Calculs de bande passante pour Microsoft Teams sont complexes et pour aider, une calculatrice a été créée. Pour accéder à la Calculatrice, accédez au [Planificateur réseau](https://aka.ms/bwcalc/) dans MyAdvisor.
 
-> [!NOTE]
-> Améliore la gestion de bande passante équipes sur Skype pour Business Online : pour une haute qualité appelant ou l’expérience (audio, vidéo et partage) de la réunion, les équipes nécessite uniquement 1,2 Mbits/s. Il peut également évoluer davantage de très haute qualité s’il existe suffisamment de bande passante disponible. Lorsqu’une demande d’équipes rencontre une condition de faible bande passante, les équipes peuvent rapidement Ajustez à nouveau l’utilisation de la bande passante pour s’adapter à la bande passante disponible.
+Cet article décrit une version concise de la bande passante est utilisée par Microsoft Teams en temps réel audio, vidéo et modalités dans différents cas d’utilisation de partage du bureau. Les équipes est toujours estime sur l’utilisation de la bande passante et peut fournir une qualité vidéo HD dans 1.2Mbps sous.  La consommation de bande passante réelle dans chaque appel audio/vidéo ou la réunion varie en fonction de plusieurs facteurs, tels que la vidéo mise en page, la résolution vidéo et vidéo images par seconde. Lorsque plus de bande passante est disponible qualité et l’utilisation augmente afin d’offrir la meilleure expérience.
+
+
+|Bandwidth(up/down) |Scénarios |
+|---|---|
+|30 Kbits/s |Appel audio d’égal à égal |
+|130 Kbits/s |Appel audio d’égal à égal et de partage d’écran |
+|500 Kbits/s |Égal à égal qualité vidéo appelant p 360 à 30 i/s |
+|1.2 Mbits/s |Vidéo de qualité HD égal-à-l’appel avec une résolution de HD 720 pixels à 30 i/s |
+|1,5 Mbits/s |Vidéo de qualité HD égal-à-l’appel avec une résolution de HD 1080p 30 i/s |
+|500 Kbits/s/1 Mbits/s |Groupe d’appel vidéo |
+|1 Mbits/s/2 |Groupe HD vidéo appelant (vidéos 540p sur écran 1080p) |
 
 <!--
 The content you will find below can be used as supplemental background information; however, it is recommended that customers use [Network Planner](https://aka.ms/bwcalc) to track their needs.

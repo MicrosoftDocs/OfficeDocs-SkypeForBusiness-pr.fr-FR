@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Utilisez parcage d’appel et de récupération pour passer un appel en attente dans le service d’équipes dans le nuage.
-ms.openlocfilehash: 48052768ce172fda88b3e034277c4454988b32db
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 416458b1f7c134fca3294107bd82bbd0f2300abc
+ms.sourcegitcommit: 5ed00e911a151d3ab834528f121db8653c25dc12
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30353473"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "30747653"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Parcage et récupération d’appel dans Microsoft Teams
 
@@ -60,6 +60,16 @@ Vous devez être un administrateur de configurer la mise en garde d’appels et 
 
 Pour plus d’informations sur la façon d’utiliser la mise en garde d’appels et de récupérer la fonctionnalité, voir [mise en garde d’un appel en équipe](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f).
 
+### <a name="assign-a-call-park-policy"></a>Affecter une stratégie de parcage d’appel
+
+Suivez ces étapes pour affecter une stratégie de parcage d’appel à un ou plusieurs utilisateurs :
+
+1. Accédez au **Centre d’administration de Microsoft équipes** > **vocale** > **stratégies parcage d’appel**.
+2. Sélectionnez la stratégie en cliquant à gauche du nom de la stratégie.
+3. Sélectionnez **Gérer les utilisateurs**.
+4. Dans le volet **Gérer les utilisateurs** , recherchez l’utilisateur par nom complet ou par un nom d’utilisateur, sélectionnez le nom, puis sélectionnez **Ajouter**. Répétez cette étape pour chaque utilisateur que vous souhaitez ajouter.
+5. Lorsque vous avez terminé d’ajouter des utilisateurs, cliquez sur **Enregistrer**.
+ 
 ### <a name="configure-call-park-and-retrieve-with-powershell"></a>Configurer la mise en garde d’appels et récupérer l’aide de PowerShell
 
 Utilisez l’applet de commande PowerShell [New-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamscallparkpolicy?view=skype-ps) pour créer une stratégie de parcage d’appel.

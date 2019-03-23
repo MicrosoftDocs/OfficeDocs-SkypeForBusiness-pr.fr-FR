@@ -3,7 +3,7 @@ title: Gérer les stratégies de réunion
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
-ms.date: 03/01/2019
+ms.date: 03/22/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
@@ -21,19 +21,19 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: Apprenez à gérer les paramètres de stratégie dans les équipes de réunion.
-ms.openlocfilehash: 344c45761ebbb326162d2c62b4fb8cac25f47645
-ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.openlocfilehash: dc2870786c586715164dde94fdd6795f04f567bc
+ms.sourcegitcommit: 5ed00e911a151d3ab834528f121db8653c25dc12
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30664715"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "30747669"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gérer les stratégies de la réunion dans les équipes
 
 ::: zone target="docs"
 Stratégies de réunion sont utilisés pour contrôler les fonctionnalités qui sont disponibles pour les participants à des réunions sont planifiées par les utilisateurs de votre organisation. Une fois que vous créez une stratégie et apportez vos modifications, vous pouvez ensuite assigner utilise pour la stratégie. 
 
-Par défaut, une stratégie nommée Global (valeur par défaut à l’échelle de l’organisation) est créée. Tous les utilisateurs de votre organisation recevront cette stratégie de réunion par défaut. Apporter des modifications à cette stratégie ou créer un ou plusieurs des stratégies personnalisées et leur affecter des utilisateurs. Lorsque vous créez une stratégie personnalisée, autoriser ou empêcher certaines fonctionnalités disponibles pour vos utilisateurs et puis l’affecter à un ou plusieurs utilisateurs qui possèdent les paramètres qui leur sont appliquées. 
+Par défaut, une stratégie nommée Global (valeur par défaut à l’échelle de l’organisation) est créée. Tous les utilisateurs de votre organisation recevront cette stratégie de réunion par défaut. Apporter des modifications à cette stratégie ou créer un ou plusieurs des stratégies personnalisées et leur affecter des utilisateurs. Lorsque vous créez une stratégie personnalisée, vous pouvez autoriser ou empêcher certaines fonctionnalités disponibles pour vos utilisateurs et puis l’affecter à un ou plusieurs utilisateurs qui possèdent les paramètres qui leur sont appliquées. 
 
 ## <a name="change-or-create-a-meeting-policy"></a>Modifier ou créer une stratégie de réunion
 
@@ -55,16 +55,20 @@ Ensuite, attribuez la stratégie aux utilisateurs.
 > [!NOTE] 
 > Un utilisateur peut être affecté à une stratégie de réunion qu’un seul à la fois. 
 
-## <a name="assign-a-meeting-policy-to-a-user"></a>Affecter une stratégie de réunion à un utilisateur
+## <a name="assign-a-meeting-policy-to-users"></a>Affecter une stratégie de réunion aux utilisateurs
 
-Pour affecter une stratégie, accédez au **Centre d’administration de Microsoft équipes** > **les utilisateurs**. 
+Si vous appliquez la stratégie à un utilisateur, sélectionnez **les utilisateurs** dans le volet de navigation de gauche, puis cliquez sur le nom complet de l’utilisateur. Sur la page de l’utilisateur, en regard de **stratégies attribuées**, sélectionnez **Modifier**. Puis, dans le volet **Modifier les stratégies d’utilisateur** , sous **stratégie de réunion**, sélectionnez la stratégie de réunion à partir de la liste déroulante, puis cliquez sur **Enregistrer**. Vous pouvez également affecter des stratégies à partir de la liste des utilisateurs. Pour ce faire, sélectionnez l’utilisateur en cliquant à gauche du nom complet de l’utilisateur. Sélectionnez **Modifier les paramètres**. Puis, dans le volet **Modifier les paramètres** , sous **stratégie de réunion**, sélectionnez la stratégie dans la liste déroulante, puis cliquez sur **Enregistrer**. 
  
-Si vous appliquez la stratégie à un utilisateur, sélectionnez le nom complet de l’utilisateur. En regard de **stratégies attribuées**, sélectionnez **Modifier**. Ensuite, dans le volet **Modifier les stratégies d’utilisateur** , sous **stratégie de réunion**, sélectionnez la stratégie de réunion dans la liste déroulante et sélectionnez **Enregistrer**. Vous pouvez également modifier les paramètres de la liste des utilisateurs. Pour ce faire, sélectionnez l’utilisateur en cliquant à gauche du nom complet de l’utilisateur. Sélectionnez **Modifier les paramètres**. Puis, dans le volet **Modifier les paramètres** , sous **stratégie de réunion**, sélectionnez la stratégie dans la liste déroulante, puis sélectionnez **Enregistrer**. 
+Si vous appliquez une stratégie à plusieurs utilisateurs, sélectionnez des **utilisateurs** dans le volet de navigation de gauche, puis sélectionnez chaque utilisateur en cliquant sur à gauche du nom d’utilisateur et puis cliquez sur **Modifier les paramètres**. Dans le volet **Modifier les paramètres** , sous **stratégie de réunion**, sélectionnez la stratégie dans la liste déroulante, puis cliquez sur **Enregistrer**.
  
-Si vous appliquez une stratégie à plusieurs utilisateurs, sélectionnez chacune des utilisateurs en cliquant sur à gauche du nom d’utilisateur, puis cliquez sur **Modifier les paramètres**. Dans le volet **Modifier les paramètres** , sous **stratégie de réunion**, sélectionnez la stratégie dans la liste déroulante, puis sélectionnez **Enregistrer**.
- 
-Vous pouvez également le faire en accédant au **Centre d’administration de Microsoft équipes** > **réunions** >  **stratégies de la réunion**. Sélectionnez la stratégie, puis sélectionnez **Gérer les utilisateurs**. Dans le volet **Gérer les utilisateurs** , recherchez l’utilisateur par un nom complet ou l’utilisateur. Sélectionnez le nom et sélectionnez **Ajouter**. Lorsque vous avez terminé d’ajouter des utilisateurs, cliquez sur **Enregistrer**.
+Vous pouvez également assigner une stratégie de réunion comme suit pour un ou plusieurs utilisateurs :
 
+1. Accédez au **Centre d’administration de Microsoft équipes** > **réunions** > **stratégies de la réunion**.
+2. Sélectionnez la stratégie en cliquant à gauche du nom de la stratégie.
+3. Sélectionnez **Gérer les utilisateurs**.
+4. Dans le volet **Gérer les utilisateurs** , recherchez l’utilisateur par nom complet ou par un nom d’utilisateur, sélectionnez le nom, puis sélectionnez **Ajouter**. Répétez cette étape pour chaque utilisateur que vous souhaitez ajouter.
+5. Lorsque vous avez terminé d’ajouter des utilisateurs, cliquez sur **Enregistrer**.
+ 
 > [!NOTE] 
 > Impossible de supprimer une stratégie si les utilisateurs sont qui lui est affectés. Vous devez d’abord attribuer une stratégie différente à tous les utilisateurs concernés, et vous pouvez supprimer la stratégie d’origine.
  

@@ -16,20 +16,20 @@ ms.collection:
 - M365-voice
 localization_priority: Normal
 description: Cet article traite de la liste des téléphones qui sont certifiées pour Teams Microsoft et les fonctionnalités prises en charge dans les téléphones certifiés pour Microsoft Teams.
-ms.openlocfilehash: c7b5278acf8b03cdd2f27b6f10a4e83be74b5a2f
-ms.sourcegitcommit: ff100b32fa92fc878f1404dace266d956262c24d
+ms.openlocfilehash: 2a5ae7d996d2b89aae02e4104e762dfa916c9f55
+ms.sourcegitcommit: 5ed00e911a151d3ab834528f121db8653c25dc12
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "30720439"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "30747645"
 ---
 # <a name="phones-for-microsoft-teams"></a>Téléphones pour Microsoft Teams
 
 Teams Microsoft prend en charge une gamme de téléphones de bureau pour les utilisateurs qui ont besoin d’une expérience traditionnels. Cet article traite de la liste des téléphones qui sont certifiées pour Teams Microsoft et les fonctionnalités prises en charge dans les téléphones certifiés pour Microsoft Teams. Pour obtenir les informations à jour et les plus récentes dans des équipes de périphériques certifiés, accédez au [Site Marketplace équipes](http://office.com/teamsdevices).
 
-## <a name="teams-certified-ip-phones"></a>Équipes certifié des téléphones IP 
+## <a name="teams-certified-ip-phones"></a>Équipes certifié des téléphones IP
 
-Afin d’offrir une expérience de Microsoft Teams haute qualité et fiable sur les téléphones, nous effectuons un partenariat et activement avec Yealink, Crestron, Polycom et Audiocodes pour développer et certifiez une large gamme de téléphones de bureau et les périphériques audio de salle de conférence. Voir [certifié actuellement les téléphones IP](/SkypeForBusiness/certification/teams-ip-phones.md#currently-certified-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) pour les appareils pris en charge en cours.
+Afin d’offrir une expérience de Microsoft Teams haute qualité et fiable sur les téléphones, nous effectuons un partenariat et activement avec Yealink, Crestron, Polycom et Audiocodes pour développer et certifiez une large gamme de téléphones de bureau et les périphériques audio de salle de conférence. Voir [certifié actuellement les téléphones IP](/SkypeForBusiness/certification/teams-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json#currently-certified-ip-phones) pour les appareils pris en charge en cours.
 
 ## <a name="microsoft-teams-phones-feature-set"></a>Jeu de fonctionnalités des téléphones Microsoft Teams
 

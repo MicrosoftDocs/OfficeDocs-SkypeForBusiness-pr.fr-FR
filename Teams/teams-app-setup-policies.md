@@ -19,12 +19,12 @@ search.appverid: MET150
 description: Découvrez les stratégies d’installation des applications dans Microsoft Teams et comment les utiliser pour les applications de code confidentiel pour personnaliser les équipes pour les utilisateurs de votre organisation.
 f1keywords:
 - ms.teamsadmincenter.apppolicies.setup
-ms.openlocfilehash: 29fcd5541e4817a2c5880316bba33d7d55047444
-ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.openlocfilehash: 5633e5158a3f19ea8960e957b91537547d2580a1
+ms.sourcegitcommit: 5ed00e911a151d3ab834528f121db8653c25dc12
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30664747"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "30747661"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Gérer les stratégies de mise en application dans Microsoft Teams
 
@@ -85,6 +85,14 @@ Vous pouvez utiliser le centre d’administration Microsoft Teams pour attribuer
 3. Sous **stratégie de l’installation des applications d’équipes**, sélectionnez la stratégie d’application le programme d’installation que vous voulez attribuer, puis cliquez sur **Enregistrer**.
 
     ![policy.png du attribuer stratégies d’application du programme d’installation](media/app-setup-policies-assign-policy.png)
+
+Vous pouvez également assigner une stratégie du programme d’installation d’application comme suit pour un ou plusieurs utilisateurs :
+
+1. Accédez au **Centre d’administration de Microsoft équipes** > **applications équipes** > **du programme d’installation de stratégies**.
+2. Sélectionnez la stratégie en cliquant à gauche du nom de la stratégie.
+3. Sélectionnez **Gérer les utilisateurs**.
+4. Dans le volet **Gérer les utilisateurs** , recherchez l’utilisateur par nom complet ou par un nom d’utilisateur, sélectionnez le nom, puis sélectionnez **Ajouter**. Répétez cette étape pour chaque utilisateur que vous souhaitez ajouter.
+5. Lorsque vous avez terminé d’ajouter des utilisateurs, cliquez sur **Enregistrer**.
 
 ### <a name="assign-a-custom-app-setup-policy-to-users-in-a-group"></a>Affecter une stratégie du programme d’installation d’application personnalisée à utilisateurs d’un groupe
 

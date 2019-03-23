@@ -16,16 +16,14 @@ description: Découvrez les étapes pour configurer live pour les événements d
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6bd650e9f34a63007cee63ae8d7ce604e28abddd
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 957db93e2eb8cba5b2b35388b00ed4d38b21d6ca
+ms.sourcegitcommit: 5ed00e911a151d3ab834528f121db8653c25dc12
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464523"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "30747677"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Configurer des événements en direct dans Microsoft Teams
-
-> [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
 
 Lorsque vous configurez des événements en direct, il existe plusieurs étapes à suivre :
 
@@ -77,6 +75,17 @@ Si vous avez créé une stratégie d’événements personnalisés en direct, at
 2. En regard de **stratégies attribuées**, cliquez **sur Modifier**. 
 3. Sélectionnez la stratégie d’événements en direct à attribuer, puis cliquez sur **Enregistrer**. 
 
+Vous pouvez également assigner une stratégie d’événements en direct comme suit pour un ou plusieurs utilisateurs :
+
+![les équipes-logo-30x30.png](../media/teams-logo-30x30.png) À l’aide du centre d’administration Microsoft Teams
+
+1. Accédez à des **réunions** > **stratégies d’événements en direct**.
+2. Sélectionnez la stratégie en cliquant à gauche du nom de la stratégie.
+3. Sélectionnez **Gérer les utilisateurs**.
+4. Dans le volet **Gérer les utilisateurs** , recherchez l’utilisateur par nom complet ou par un nom d’utilisateur, sélectionnez le nom, puis sélectionnez **Ajouter**. Répétez cette étape pour chaque utilisateur que vous souhaitez ajouter.
+5. Lorsque vous avez terminé d’ajouter des utilisateurs, cliquez sur **Enregistrer**.
+ 
+
 ### <a name="enable-users-to-schedule-external-encoder-events"></a>Permettre aux utilisateurs de planifier des événements de codage externe
 
 Pour les utilisateurs à planifier des événements de codage externe, vous devez également procédez comme suit :
@@ -111,7 +120,7 @@ Après avoir configuré la solution SDN ou eCDN, vous êtes prêt à configurer 
 Accédez à [configurer live paramètres des événements dans les équipes](configure-teams-live-events.md).
 
 ### <a name="related-topics"></a>Rubriques connexes
-- [Quelles sont les équipes live événements ?](what-are-teams-live-events.md)
-- [Planifier des équipes événements en direct](plan-for-teams-live-events.md)
+- [Que sont les événements en direct Teams ?](what-are-teams-live-events.md)
+- [Offre pour les événements en direct Teams](plan-for-teams-live-events.md)
 - [Configurer les paramètres d’événements en direct dans les équipes](configure-teams-live-events.md)
 
