@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Liste actuelle des problèmes connus pour l'application client et l'expérience administrateur de Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 718b239da2d65bc01675f91c68ad18f7dee68c3e
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.openlocfilehash: 2908ff9bec8be1eaf7d6dc09ff03adb9ae3ea9ea
+ms.sourcegitcommit: cad74f2546a6384747b1280c3d9244aa13fd0989
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30641231"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "30737815"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problèmes connus pour Microsoft Teams
 
@@ -257,6 +257,10 @@ Cet article répertorie les problèmes connus concernant Microsoft Teams, par f
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
 |Onglet OneNote existant  <br/> |Les onglets OneNote existants créés lors de la préversion publique de Microsoft Teams ne peuvent pas être renommés ni supprimés.  <br/> |Aucune solution. <br/> |08/11/2017  <br/> |
+
+|**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
+|:-----|:-----|:-----|:-----|
+|Fonction recherche dans l’onglet liste SharePoint  <br/> |Essayer d’ouvrir un fichier à partir de la fonction recherche de l’onglet liste SharePoint fait afficher une invite « Vous avez besoin d’une nouvelle application pour ouvrir ce fichier » et le fichier ne sera pas ouvert. <br/> |Ouvrir directement à partir de liste plutôt que de la barre de recherche. <br/> |11/2/2019  <br/> |
 
 ## <a name="teams"></a>Équipes
 
