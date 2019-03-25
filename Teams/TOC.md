@@ -24,6 +24,7 @@
 ## [Gérer les stratégies de messagerie](messaging-policies-in-teams.md)
 ## [Prise en main des modèles Teams](get-started-with-teams-templates.md)
 ## [Modèles Teams pour la santé](healthcare/healthcare-templates.md)
+## [Modèles Teams pour la vente au détail](get-started-with-retail-teams-templates.md)
 ## [Présentation de l’appartenance dynamique pour les équipes](dynamic-memberships.md)
 ## [Présence](presence-admins.md)
 ## [Communiquer avec des utilisateurs de Teams dans d’autres organisations](let-your-teams-users-communicate-with-other-people.md)
@@ -34,6 +35,9 @@
 ## [Applications, robots et connecteurs](deploy-apps-microsoft-teams-landing-page.md)
 ### [Autorisations d’applications et points à prendre en compte](app-permissions.md)
 ### [Paramètres d'administration pour les applications dans Microsoft Teams](admin-settings.md)
+### [Gérer les stratégies d’autorisation d’application dans Teams](teams-app-permission-policies.md)
+### [Gérer les stratégies de mise en application dans Teams](teams-app-setup-policies.md)
+### [Gérer les stratégies d’application personnalisée et les paramètres dans Teams](teams-custom-app-policies-and-settings.md)
 ### [Ajouter des bots à des conversations et des canaux privés dans Microsoft Teams](add-bots.md)
 ### [Utiliser les onglets intégrés et personnalisés](built-in-custom-tabs.md)
 ### [Utiliser les connecteurs Office 365 et personnalisés](Office-365-custom-connectors.md)
@@ -317,7 +321,7 @@
 ### Standards automatiques et files d’attente d’appels 
 #### [Que sont les standards automatiques du système téléphonique ?](what-are-phone-system-auto-attendants.md)
 #### [Configurer les standards automatiques du système téléphonique](create-a-phone-system-auto-attendant.md)
-#### [Exemple de petite entreprise : configurer un standard automatique](/skypeforbusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Exemple de petite entreprise : configurer un standard automatique](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Gérer les comptes de ressources dans Microsoft Teams](manage-resource-accounts.md)
 #### [Créer une file d’attente d’appels sur le système téléphonique](create-a-phone-system-call-queue.md)
 #### [Répondre aux appels dans la file d’attente ou du standard automatique directement à partir de Teams](answer-auto-attendant-and-call-queue-calls.md)
@@ -345,8 +349,8 @@
 #### [Activer le routage géodépendant pour le routage direct](location-based-routing-enable.md)
 
 ### Contournement de média pour le routage Direct
-#### [Planifier le contournement de média avec le routage Direct](direct-routing-plan-media-bypass.md)
-#### [Configurer le contournement de média avec le routage Direct](direct-routing-configure-media-bypass.md)
+#### [Planifier le contournement de média avec un routage direct](direct-routing-plan-media-bypass.md)
+#### [Configurer le contournement de média avec un routage direct](direct-routing-configure-media-bypass.md)
 
 
 ### Référence technique pour le routage direct
@@ -688,7 +692,7 @@
 ## Teams pour les employés de terrain
 ### [Fin de parcours pour Microsoft StaffHub](teams-for-firstline-workers/microsoft-staffhub-to-be-retired.md)
 ### [Gérer l’application Shifts pour votre organisation dans Teams](teams-for-firstline-workers/manage-the-shifts-app-for-your-organization-in-teams.md)
-### [Prise en main des modèles Équipes de vente au détail](get-started-with-retail-teams-templates.md)
+### [Prise en main des modèles Teams de vente au détail](get-started-with-retail-teams-templates.md)
 
 ## [Plan pour Microsoft 365 pour entités publiques - GCC](plan-for-government-gcc.md)
 ### [Plan pour Microsoft 365 pour entités publiques - GCC High](plan-for-government-gcc-high.md)
