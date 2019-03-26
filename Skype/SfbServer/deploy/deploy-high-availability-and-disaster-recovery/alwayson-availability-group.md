@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c93c01e6-626c-40ad-92dd-373b0fe9189f
 description: Déployer le déploiement (installation) un toujours sur groupe de disponibilité dans votre Skype pour Business Server.
-ms.openlocfilehash: b773c10766b33e57eb8a132d98ef0e0cdc180123
-ms.sourcegitcommit: a4f2d3440399f0a17fb8f6d364cfd2dc4b0bf8db
+ms.openlocfilehash: 2877af4d7ccf8fea0087ce67d7e92ecc5e2f8ccd
+ms.sourcegitcommit: 8e5fc1d8c19a7f26f53e40b23dd6476a8c6d805f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30342218"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "30800116"
 ---
 # <a name="deploy-an-always-on-availability-group-on-a-back-end-server-in-skype-for-business-server"></a>Déployer un groupe de disponibilité toujours actif sur un serveur principal dans Skype pour Business Server
  
@@ -88,8 +88,10 @@ Comment déployer une AG dépend de si vous déployez il dans un nouveau pool, u
    - Ouvrez le Gestionnaire de configuration SQL Server. Dans l’arborescence dans la partie gauche de l’écran, cliquez sur **Services SQL Server**, puis double-cliquez sur le service SQL Server.  
     
    - Dans la zone **Propriétés**, sélectionnez l’onglet **Haute disponibilité AlwaysOn**. Activez la case à cocher **Activer les groupes de disponibilité AlwaysOn**. Redémarrez le service SQL Server lorsque vous y êtes invité.
+   
+6. Utilisez le Générateur de topologie pour créer le pool frontal, comme expliqué dans [créer et publier la nouvelle topologie dans Skype pour Business Server](../../deploy/install/create-and-publish-new-topology.md). Lorsque vous le faites, spécifiez le AG comme le magasin SQL pour le pool.
     
-6. Créez le groupe de disponibilité.
+7. Créez le groupe de disponibilité.
     
    - Ouvrez SQL Server Management Studio, puis connectez-vous à l’instance SQL Server.
     
@@ -120,9 +122,7 @@ Comment déployer une AG dépend de si vous déployez il dans un nouveau pool, u
    - Dans la page Validation, vérifiez que toutes les vérifications de validation sont réussies, puis cliquez sur **Suivant**.
     
    - Dans la page **Résumé**, vérifiez tous les paramètres et cliquez sur Terminer.
-    
-7. Utilisez le Générateur de topologie pour créer le pool frontal, comme expliqué dans [créer et publier la nouvelle topologie dans Skype pour Business Server](../../deploy/install/create-and-publish-new-topology.md). Lorsque vous le faites, spécifiez le AG comme le magasin SQL pour le pool.
-    
+      
 8. Une fois le pool et l’AG sont déployés, effectuer certaines étapes finales pour vous assurer que les connexions SQL sur chacun des réplicas dans le groupe de disponibilité AlwaysOn. 
     
    - Ouvrez le Générateur de topologie, sélectionnez **Télécharger la topologie à partir d’un déploiement existant**, cliquez sur **OK**.

@@ -1,13 +1,13 @@
 ---
-title: Liste de contrôle de l’accès invité Microsoft Teams
+title: Liste de vérification Microsoft Teams invité access
 author: somakbhattacharyya
 ms.author: sbhatta
 manager: serdars
-ms.date: 01/22/2019
+ms.date: 03/25/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sbhatta
-description: Utilisez cette liste de vérification pour vous aider à configurer l’accès invité dans Microsoft Access d’invité équipes.
+description: Utilisez cette liste de vérification pour vous aider à configurer l’accès invité dans Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
 MS.collection:
@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 404754c373d46b9b6e5578107415d61bbb87f97e
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 68beeba403f6a64e194594d5bd40b985c8051dc6
+ms.sourcegitcommit: fba1151c968aa2c43d0c5b42b889b2cdd8dba3cd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463467"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "30795585"
 ---
-<a name="teams-guest-access-checklist"></a>Liste de vérification de l’accès invité équipes
+<a name="teams-guest-access-checklist"></a>Liste de contrôle l’accès aux équipes invité
 ==========================================
 
 Utilisez cette liste de vérification pour vous aider à activer et configurer la fonctionnalité d’accès invité dans Microsoft Teams selon les préférences de votre organisation.
@@ -65,7 +65,7 @@ N’oubliez pas les opérations suivantes :
 4. Dans la liste **des utilisateurs externes**, cliquez sur **externe gérer les paramètres de collaboration**.
 5. Dans la page **paramètres de collaboration externe** Assurez-vous que **les membres peuvent inviter** est définie sur **Oui**.
 
-      ![Capture d’écran montre un exemple d’un bouton bascule paramètres DAS. ](media/guest-access-checklist-AADSettings1.png)
+      ![Capture d’écran montre un exemple d’une bascule de paramètres DAS. ](media/guest-access-checklist-AADSettings1.png)
 
     Pour prendre en charge les visiteurs, **les membres peuvent inviter** doit être définie sur **Oui**. 
    
@@ -93,7 +93,7 @@ Au minimum, vous devez activer l’accès invité pour Teams Microsoft dans le *
 1. Dans le centre d’administration équipes, sélectionnez **paramètres à l’échelle de la société** > **accès invité**.
 2. Configurer le commutateur **Autoriser l’accès invité dans les équipes Microsoft** **sur**.
 
-    ![Capture d’écran montre un exemple d’un bouton Paramètres d’équipes](media/set-up-guests-image1.png)
+    ![Capture d’écran montre un exemple d’un bouton de paramètres d’équipes](media/guest-access-checklist-set-up-guests-image1.png)
 
 3. Sur la même page Configurer d’autres paramètres d’invité dont vous avez besoin.
 4. Cliquez sur **Enregistrer**.
@@ -107,15 +107,15 @@ Assurez-vous que les utilisateurs peuvent ajouter des invités. Voici comment :
 
 1. Dans le centre d’administration Microsoft 365, accédez à **paramètres** > **sécurité & confidentialité**.
 
-     ![Capture d’écran montre un exemple de paramètres de Services](media/guest-access-checklist-Office365Admin_Services_addins.png)
+     ![Capture d’écran montre un exemple des paramètres des services](media/guest-access-checklist-Office365Admin_Services_addins.png)
 
 2. Dans **partage**, sélectionnez **Modifier**.
 
-     ![Capture d’écran montre un exemple d’un bouton bascule le partage des paramètres](media/guest-access-checklist-Office365Admin_Services_addins_Sharing1.png)
+     ![Capture d’écran montre un exemple d’un partage bascule de paramètres](media/guest-access-checklist-Office365Admin_Services_addins_Sharing1.png)
  
 3. La valeur **permettent aux utilisateurs ajouter de nouveaux invités à cette organisation** **sur**, puis cliquez sur **Enregistrer**.
 
-     ![Capture d’écran montre un exemple d’un bouton bascule le partage des paramètres](media/guest-access-checklist-Office365Admin_Services_addins_Sharing2.png)
+     ![Capture d’écran montre un exemple d’un partage bascule de paramètres](media/guest-access-checklist-Office365Admin_Services_addins_Sharing2.png)
  
 > [!NOTE]
 > Ce paramètre est équivalent au paramètre **d’Inviter des membres** dans **les paramètres utilisateur** > **des utilisateurs externes** dans Azure AD.  
@@ -128,14 +128,14 @@ Assurez-vous que les utilisateurs peuvent ajouter des invités. Voici comment :
 3. Dans le centre d’administration SharePoint, sélectionnez le **partage**.
 4. Assurez-vous que l’option pour **ne pas autoriser le partage en dehors de votre organisation** n’est *pas* sélectionnée.
  
-     ![Capture d’écran montre un exemple d’un bouton bascule Sparepoint les paramètres en ligne.](media/guest-access-checklist-SPOSettings1.png)
+     ![Capture d’écran montre un exemple d’un bouton Paramètres SparePoint en ligne.](media/guest-access-checklist-SPOSettings1.png)
 
 
 ## <a name="-step-6-enable-specific-settings-for-channels"></a>□ Étape 6 : activer les paramètres spécifiques pour les canaux 
 
 Dans l’application d’équipes, au niveau équipe individuels, configurez des autorisations invité afin que les invités peuvent créer, mettre à jour et supprimer des chaînes. En plus des administrateurs, les propriétaires de l’équipe peuvent configurer ce paramètre.
 
-![Capture d’écran montre un exemple d’un bouton bascule des paramètres d’équipe/de canal](media/guest-access-checklist-TeamsSettings2.png)
+![Capture d’écran montre un exemple d’un bouton bascule les paramètres de l’équipe/canal](media/guest-access-checklist-TeamsSettings2.png)
 
 Pour plus d’informations, notamment des vidéos de procédures, voir [accès invité dans les équipes Microsoft](guest-access.md).
 

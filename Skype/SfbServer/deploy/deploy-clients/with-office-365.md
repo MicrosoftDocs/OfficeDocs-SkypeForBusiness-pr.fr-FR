@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Lisez cette rubrique pour plus d’informations sur le déploiement de systèmes de salle Skype v2 avec Office 365.
-ms.openlocfilehash: 5d2a756fafe616db22d968a3e946e468a6d063b4
-ms.sourcegitcommit: cad74f2546a6384747b1280c3d9244aa13fd0989
+ms.openlocfilehash: 05288842a54fd8be7487181582fcc7bd4780fd2e
+ms.sourcegitcommit: 8e5fc1d8c19a7f26f53e40b23dd6476a8c6d805f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "30737847"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "30800123"
 ---
 # <a name="deploy-skype-room-systems-v2-with-office-365"></a>Déploiement de Skype Room Systems v2 avec Office 365 
 
@@ -107,7 +107,7 @@ Pour plus d’informations sur Skype pour Business Online Plans, voir le [Skype 
 
    Pour détaillées sur la syntaxe et les informations sur les paramètres, voir [Set-CalendarProcessing](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing).
 
-4. Se connecter à MS Online PowerShell pour rendre les paramètres Active directory en exécutant `Connect-MsolService -Credential $cred` si vous disposez déjà de détails, consultez la rubrique [Azure Active Directory (MSOnline) 1.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-1.0). <!-- or [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-2.0) for the new module -->  
+4. Se connecter à MS Online PowerShell pour rendre les paramètres Active Directory en exécutant la `Connect-MsolService -Credential $cred` applet de commande powershell.   Pour plus d’informations sur Active Directory, voir [Azure Active Directory (MSOnline) 1.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-1.0). <!-- or [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-2.0) for the new module -->  
     1. Si vous ne souhaitez pas que le mot de passe à expiration, utilisez la syntaxe suivante :
 
     ``` PowerShell
