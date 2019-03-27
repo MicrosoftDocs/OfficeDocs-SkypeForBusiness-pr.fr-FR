@@ -1,5 +1,6 @@
 ---
 title: Assistant Déploiement Unified Communications API
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 0eb47fc9-17fe-4ccf-b7c9-1a2cf95f943c
 ROBOTS: NOINDEX, NOFOLLOW
 description: Pour plus d’informations sur l’utilisation de l’Assistant déploiement pour installer Skype pour Business Server, voir Skype installer for Business Server.
-ms.openlocfilehash: 5900c5e7d329dffc9a65e30512636f2b7556ce32
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 0724e407aa7df17b878537da42fc49ef542144bf
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21006712"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875353"
 ---
 # <a name="deployment-wizard-unified-communications-api"></a>Assistant Déploiement : API web Communications unifiées
  

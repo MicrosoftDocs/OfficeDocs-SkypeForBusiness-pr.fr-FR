@@ -1,5 +1,6 @@
 ---
 title: Schéma de base de données de conversation permanente
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -9,40 +10,41 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58d7d94f-42f5-4c3e-8fe5-901fbe92152e
-description: Ce dossier de documents le schéma de la base de données Chat persistant dans Skype pour Business Server.
-ms.openlocfilehash: 1c78ea53438484fb0ad573a815c10ad76f08edca
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Documente le schéma de la base de données de conversation permanente dans Skype pour Business Server.
+ms.openlocfilehash: 37b22077157def7ea25a5cf70b23a0272a58956e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874049"
 ---
 # <a name="persistent-chat-database-schema"></a>Schéma de base de données de conversation permanente
  
-Ce dossier de documents le schéma de la base de données Chat persistant dans Skype pour Business Server.
+Documente le schéma de la base de données de conversation permanente dans Skype pour Business Server.
   
-La base de données de conversation permanent fait référence à la base de données correspondant à la Skype pour les rôles d’entreprise serveur serveur principal **PersistentChatStore** (correspondant à la base de données mgc) et **PersistentChatComplianceStore** (correspondant à la base de données du mgccomp). L’objectif de ce schéma de publication est pour vous permettre de créer des requêtes et d’obtenir une vue d’ensemble de création de rapports utiles autour de l’utilisation de la conversation, salles actives, affiches supérieur et ainsi de suite.
+La base de données de conversation permanente fait référence à la base de données correspondant à la Skype pour les rôles Business Server le serveur principal **PersistentChatStore** (correspondant à la base de données mgc) et **PersistentChatComplianceStore** (correspondant à la base de données mgccomp). L’objectif de publication de ce schéma est de vous permettent de créer des requêtes et d’obtenir une vue d’ensemble de création de rapports utiles autour d’utilisation de la conversation, salles actives, affiches supérieurs et ainsi de suite.
   
 > [!IMPORTANT]
-> Nous nous réservons le droit de faire évoluer ce schéma. Microsoft ne rend pas les garanties pour assurer la compatibilité ascendante totale avec ce schéma publié. 
+> Nous nous réservons le droit d’évoluer ce schéma. Microsoft n’effectue pas les garanties pour maintenir la compatibilité descendante avec ce schéma publié. 
   
-Suivez ces recommandations :
+Suivez ces meilleures pratiques :
   
-- Pas de sélection\* / est pris en charge, car la liste de colonnes peut augmenter.
+- Aucun sélectionnez\* / / est prise en charge, car la liste des colonnes peut augmenter.
     
-- Aucune modification de schéma de générés par l’utilisateur n’est pris en charge.
+- Aucune modification de schéma générée par l’utilisateur n’est prises en charge.
     
 - Aucune opération d’écriture n’est prises en charge.
     
-- Toutes les requêtes que vous générez sur dimensionné de manière représentative de bases de données pour vous assurer que les requêtes peuvent exécuter à un niveau pour répondre aux besoins de test.
+- Testez les requêtes que vous créez sur des bases de données représentatives dimensionnée pour vous assurer que les requêtes peuvent effectuer un niveau pour répondre à vos besoins.
     
 ## <a name="in-this-section"></a>Contenu de cette section
 
-- [Liste des tables du serveur de conversation persistant](list-of-persistent-chat-server-tables.md)
+- [Liste des tables de serveur de conversation permanente](list-of-persistent-chat-server-tables.md)
     
-- [Liste des tableaux de conformité permanente Chat Server dans Skype pour Business Server](list-of-persistent-chat-server-compliance-tables.md)
+- [Liste des tables de conformité Persistent Chat Server dans Skype pour Business Server](list-of-persistent-chat-server-compliance-tables.md)
     
-- [Détails de la table permanentes Chat Server](persistent-chat-server-table-details.md)
+- [Détails de la table des serveurs de conversation permanente](persistent-chat-server-table-details.md)
     
-- [Exemples de requêtes de base de données Chat persistant](sample-persistent-chat-database-queries.md)
+- [Exemples de requêtes de base de données de conversation permanente](sample-persistent-chat-database-queries.md)
     
 

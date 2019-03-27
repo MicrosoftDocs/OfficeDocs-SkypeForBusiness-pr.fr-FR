@@ -1,5 +1,6 @@
 ---
 title: Formation à Microsoft Teams pour les administrateurs
+ms.reviewer: ''
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -14,12 +15,12 @@ search.appverid: MET150
 description: Vidéos de formation, des supports de présentation PowerPoint, des didacticiels et autres ressources pour les administrateurs à planifier, déploiement et exécuter Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f166d3a00fbf0ea9b51fa1d083ed490d7323df0c
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.openlocfilehash: 8294854a3ff4ed7d38b90380b1e1e25230f859d1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30641159"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30872709"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Formation à Microsoft Teams pour les administrateurs
 
@@ -97,7 +98,7 @@ Utilisez les ressources de formation pour informer sur les équipes, apprendre �
 | Événements en direct | [Video](https://aka.ms/teams-live-events-session) | [Pont](https://aka.ms/teams-live-events-deck) |
 | Présentation du système téléphonique | [Video](https://aka.ms/teams-phone-system) | [Pont](https://aka.ms/teams-phone-system-deck) |
 | Routage direct | [Video](https://aka.ms/teams-direct-routing) | [Pont](https://aka.ms/teams-direct-routing-deck) |
-| Mise à niveau de Skype Entreprise vers Teams | [Vidéo 1 : Introduction à la mise à niveau](https://aka.ms/teams-upgrade-intro)</br>[Vidéo 2 : Planifier votre mise à niveau](https://aka.ms/teams-upgrade-plan)</br>[Vidéo 3 : Interopérabilité et Coexistence](https://aka.ms/teams-upgrade-coexistence-interop)</br>[Vidéo 4 : L’expérience administrateur](https://aka.ms/teams-upgrade-admin) | [Pont](https://aka.ms/teams-upgrade-deck)|
+| Mise à niveau de Skype Entreprise vers Teams | [Vidéo 1 : Introduction à la mise à niveau](https://aka.ms/teams-upgrade-intro)</br>[Vidéo 2 : Planifier votre mise à niveau](https://aka.ms/teams-upgrade-plan)</br>[Vidéo 3 : Interopérabilité et Coexistence](https://aka.ms/teams-upgrade-coexistence-interop)</br>[Vidéo 4 : L’expérience administrateur](https://aka.ms/teams-upgrade-admin) | [Pont](https://aka.ms/teams-upgrade-deck)|
 
 <h2>Guides de démarrage rapide</h2>
 

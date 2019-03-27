@@ -1,5 +1,6 @@
 ---
 title: Créer ou modifier une plage de numéros non attribuée dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a102b226-0460-4d5c-82f9-79b8444fa958
 description: Créer, modifier ou supprimer des plages de numéros non attribués pour l’application d’annonce dans Skype pour Business Server Enterprise Voice. Cela affecte le traitement des appels à des numéros non attribués.
-ms.openlocfilehash: 519f4b753314325b1af71f11f94ea669e78148a1
-ms.sourcegitcommit: d1672a9070668a0d9304296dbca29f7dd2a8daee
+ms.openlocfilehash: 9546e4caaab30ae7582866dbcefd680b04de33f2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "26625665"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30872894"
 ---
 # <a name="create-or-modify-an-unassigned-number-range-in-skype-for-business-server"></a>Créer ou modifier une plage de numéros non attribuée dans Skype pour Business Server
  
@@ -40,7 +41,7 @@ Utilisez une des procédures suivantes pour configurer les plages de numéros no
   
 ### <a name="to-use-skype-for-business-server-control-panel-to-configure-unassigned-phone-numbers"></a>Utiliser Skype pour Business Server Control Panel pour configurer des numéros de téléphone non attribués
 
-1. Ouvrez une session sur l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre du rôle CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Pour plus d’informations, voir **Delegate Setup Permissions**.
+1. Ouvrez une session l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre du rôle CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Pour plus d’informations, voir **Delegate Setup Permissions**.
     
 2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business.  
     
@@ -90,9 +91,9 @@ Utilisez une des procédures suivantes pour configurer les plages de numéros no
 
 1. Ouvrez une session l’ordinateur où Skype pour Business Server Management Shell est installé en tant que membre du groupe RTCUniversalServerAdmins ou avec les droits utilisateur nécessaires comme indiqué dans **Déléguer des autorisations d’installation**.
     
-2. Démarrez Skype Entreprise Server Management Shell : cliquez successivement sur **Démarrer**, **Tous les programmes**, **Skype Entreprise 2015**, puis sur **Skype Entreprise Server Management Shell**.
+2. Démarrez le Skype pour Business Server Management Shell : cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Skype pour Business 2015**, puis cliquez sur **Skype pour Business Server Management Shell**.
     
-3. Utilisez la **Cmdlet New-CsUnassignedNumber** pour créer une nouvelle plage de numéros non attribuée. Utilisez **Set-CsUnassignedNumber** pour modifier une plage de numéros non attribuée existante.
+3. Utilisez **New-CsUnassignedNumber** pour créer une plage de numéros non attribués. Utilisez **Set-CsUnassignedNumber** pour modifier une plage de numéros non attribués existante.
     
     > [!TIP]
     > Si des plages se chevauchent et vous souhaitez qu’elles soient appliquées dans un ordre spécifique, incluez le paramètre Priority. La plage dont la priorité est la plus élevée sera appliquée à l’appel. La valeur 0 représente la priorité la plus élevée.
@@ -133,7 +134,7 @@ Utilisez une des procédures suivantes pour configurer les plages de numéros no
 
 ### <a name="to-use-skype-for-business-server-control-panel-to-delete-an-unassigned-number-range"></a>Utiliser Skype pour Business Server Control Panel pour supprimer une plage de numéros non attribuée
 
-1.  Ouvrez une session sur l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre du rôle CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Pour plus d’informations, voir **Delegate Setup Permissions**.
+1.  Ouvrez une session l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre du rôle CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Pour plus d’informations, voir **Delegate Setup Permissions**.
     
 2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business.  
     
@@ -149,7 +150,7 @@ Utilisez une des procédures suivantes pour configurer les plages de numéros no
 
 1. Ouvrez une session l’ordinateur où Skype pour Business Server Management Shell est installé en tant que membre du groupe RTCUniversalServerAdmins ou avec les droits utilisateur nécessaires comme indiqué dans **Déléguer des autorisations d’installation**.
     
-2. Démarrez Skype Entreprise Server Management Shell : cliquez successivement sur **Démarrer**, **Tous les programmes**, **Skype Entreprise 2015**, puis sur **Skype Entreprise Server Management Shell**.
+2. Démarrez le Skype pour Business Server Management Shell : cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Skype pour Business 2015**, puis cliquez sur **Skype pour Business Server Management Shell**.
     
 3. Dans la ligne de commande, tapez :
     
@@ -157,7 +158,7 @@ Utilisez une des procédures suivantes pour configurer les plages de numéros no
    Remove-CsUnassignedNumber -Identity "<name of unassigned number range>" 
    ```
 
-    Exemple :
+    Par exemple :
     
    ```
    Remove-CsUnassignedNumber -Identity "Unassigned range 1"

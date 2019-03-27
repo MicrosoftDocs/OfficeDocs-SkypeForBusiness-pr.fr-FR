@@ -1,5 +1,6 @@
 ---
 title: Modifier les paramètres de configuration dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 11d1f9ac-0029-429b-be2b-d7591abfc192
 description: 'Résumé : Découvrez comment modifier les paramètres de configuration dans Skype pour Business Server.'
-ms.openlocfilehash: b4b8307711fcf7b120c867debe5ab3e2978f6ef7
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 73127bfce04c8c124ce8036222d755de6bc37058
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20978966"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876047"
 ---
 # <a name="modify-meeting-configuration-settings-in-skype-for-business-server"></a>Modifier les paramètres de configuration dans Skype pour Business Server
  
@@ -24,7 +25,7 @@ Vous pouvez modifier les paramètres de configuration de réunion à l’aide de
   
 ## <a name="modify-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Modifier les paramètres de configuration de réunion à l’aide de Skype pour Business Server Control Panel
 
-1. À partir d’un compte d’utilisateur auquel est affecté un des rôles CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
+1. À partir d’un compte d’utilisateur auquel est affecté le rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
     
 2.  Ouvrez le panneau de configuration serveur Business Skype.
     

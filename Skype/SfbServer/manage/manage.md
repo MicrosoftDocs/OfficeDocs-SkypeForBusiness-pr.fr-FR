@@ -1,5 +1,6 @@
 ---
 title: Gérer Skype Entreprise Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 603ccdfd-9985-41d8-a526-8570ba9b1b76
 description: 'Résumé : Explorez ces liens pour découvrir comment gérer et tenir à jour Skype pour Business Server.'
-ms.openlocfilehash: 82a5c28904a169e406224668a32176dbfeb94886
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a2f9b33c4ab5a33e9b4cb3a20d77008ee1b0e315
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20993873"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874443"
 ---
 # <a name="manage-skype-for-business-server"></a>Gérer Skype Entreprise Server 
 
@@ -23,7 +24,7 @@ ms.locfileid: "20993873"
   
 Skype pour Business Server propose la messagerie instantanée, présence, conférence, vidéo et les solutions de téléphonie pouvant prendre en charge les besoins de collaboration au niveau de l’entreprise. Cette rubrique fournit des liens vers des informations sur la façon de configurer, surveiller et gérer votre Skype pour le déploiement de serveur d’entreprise. 
   
-Les articles sont actualisés en permanence, à mesure que de nouvelles informations sont mises à disposition et que les utilisateurs transmettent leurs commentaires. Cette page est mise à jour fréquemment, alors ne manquez pas de la consulter aussi souvent que possible.
+Les rédacteurs mettent à jour les articles en continu au fur et à mesure que de nouvelles informations sont disponibles et en fonction des retours des utilisateurs. Cette page étant mise à jour régulièrement, consultez-la souvent.
 
 ## <a name="visual-resources-about-how-to-manage-skype-for-business-server"></a>Ressources Visual comment gérer Skype pour Business Server
 
@@ -31,7 +32,7 @@ Afficher les ressources suivantes pour plus d’informations sur la gestion Skyp
   
 ||**Contenu**|**Description**|
 |:-----|:-----|:-----|
-|![Icône des diagrammes techniques](../media/87de0d09-77fd-46f2-b9f6-99a7998fd332.png)|[Diagrammes techniques pour Skype pour Business Server](../technical-diagrams.md) <br/> |Découvrez les choix d’architecture d’un seul coup d’œil dans ces diagrammes grand format.  <br/> |
+|![Icône des diagrammes techniques](../media/87de0d09-77fd-46f2-b9f6-99a7998fd332.png)|[Technical diagrams for Skype for Business Server](../technical-diagrams.md) <br/> |Découvrez les choix d’architecture d’un seul coup d’œil dans ces diagrammes grand format.  <br/> |
 |![Icône des vidéos](../media/143e0d86-1c68-482a-9bf9-93e7966acca0.png)|Vidéos de démonstration et formation - *bientôt disponible !*  <br/> |Découvrez les présentations vidéo et les formations pour Skype pour Business Server.  <br/> |
    
 ##  <a name="articles-about-managing-skype-for-business-server"></a>Articles sur la gestion de Skype pour Business Server

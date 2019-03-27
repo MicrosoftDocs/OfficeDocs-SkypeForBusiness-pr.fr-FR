@@ -1,5 +1,6 @@
 ---
 title: Création d’un administrateur de conversation permanente dans Skype Entreprise Server 2015
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5c3892e4-ebae-453e-8107-f42ec0436ea2
 description: 'Résumé : Lisez cette rubrique pour savoir comment créer un rôle d’administrateur de serveur de conversation permanente pour activer la configuration initiale et la gestion des services de conversation permanente dans Skype pour Business Server 2015.'
-ms.openlocfilehash: df2c62964d6c1d315f6fda04132c829d235e6038
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: fb8a222f65f6fe579d3600df15a53bb84f65de66
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20966114"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874066"
 ---
 # <a name="create-a-persistent-chat-administrator-in-skype-for-business-server-2015"></a>Création d’un administrateur de conversation permanente dans Skype Entreprise Server 2015
  
@@ -28,7 +29,7 @@ Avant de configurer et d’administrer le serveur de conversations permanentes, 
 > [!NOTE] 
 > Conversation permanente est disponible dans Skype pour Business Server 2015, mais n’est plus pris en charge dans Skype pour Business Server 2019. La même fonctionnalité est disponible dans les équipes. Pour plus d’informations, voir [parcours de Skype pour les entreprises aux équipes de Microsoft](/microsoftteams/journey-skypeforbusiness-teams). Si vous devez utiliser la conversation permanente, vos choix est pour migrer les utilisateurs ayant besoin de cette fonctionnalité aux équipes, ou pour continuer à utiliser Skype pour Business Server 2015.
 
-## <a name="create-a-persistent-chat-administrator"></a>Créer un administrateur de conversation permanente
+## <a name="create-a-persistent-chat-administrator"></a>Create a Persistent Chat administrator
 
 Pour ajouter un utilisateur au groupe de sécurité administrateur de conversation permanente, CsPersistentChatAdministrator, effectuez les opérations suivantes :
   

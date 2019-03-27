@@ -1,5 +1,6 @@
 ---
-title: Connecter le pool pilote aux serveurs Edge hérités
+title: Connexion du pool pilote aux serveurs Edge hérités
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Après avoir déployé Skype pour Business Server 2019, vous devez configurer un itinéraire de fédération pour votre site. Pour pouvoir utiliser l’itinéraire fédéré utilisé par l’installation héritée, Skype pour Business Server 2019 doit être configuré pour utiliser cet itinéraire.
-ms.openlocfilehash: 6766034cf54fd867c9b270324cb1db8ad2d644d5
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5a3498041b4af762d184cd56e3883a90612b13e0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25030566"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874744"
 ---
-# <a name="connect-pilot-pool-to-legacy-edge-servers"></a>Connecter le pool pilote aux serveurs Edge hérités
+# <a name="connect-pilot-pool-to-legacy-edge-servers"></a>Connexion du pool pilote aux serveurs Edge hérités
 
 Après avoir déployé Skype pour Business Server 2019, vous devez configurer un itinéraire de fédération pour votre site. Pour pouvoir utiliser l’itinéraire fédéré utilisé par l’installation héritée, Skype pour Business Server 2019 doit être configuré pour utiliser cet itinéraire. 
   

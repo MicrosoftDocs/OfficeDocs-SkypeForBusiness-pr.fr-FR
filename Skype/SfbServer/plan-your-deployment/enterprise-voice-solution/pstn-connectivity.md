@@ -1,5 +1,6 @@
 ---
 title: Composants de connectivité PSTN dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6b2a3f7d-760f-4f09-8432-312c98a7e6b7
 description: En savoir plus sur l’acheminement SIP et des passerelles PSTN pour Enterprise Voice sur Skype pour Business Server.
-ms.openlocfilehash: d770e47917d8fc1d56e6a74d896938151ac00895
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 06c4b79d07b776b4f5820f67ab86ac958db32686
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887990"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876999"
 ---
 # <a name="pstn-connectivity-components-in-skype-for-business-server"></a>Composants de connectivité PSTN dans Skype pour Business Server
  
@@ -55,7 +56,7 @@ Les scénarios d’intégration voix entreprise-PBX pris en charge sont les suiv
 - PBX TDM (multiplexage temporel), avec une passerelle RTC autonome.
     
 > [!NOTE]
-> La déviation du trafic multimédia ne fonctionnera pas avec chaque passerelle RTC, système IP-PBX et SBC. Microsoft a testé un ensemble de passerelles RTC et des contrôleurs SBC avec des partenaires certifiés et a effectué des tests avec des systèmes IP-PBX de Cisco. Le contournement de média est pris en charge uniquement avec les produits et les versions répertoriés au [Unified Communications programme Open Interoperability - Lync Server](https://go.microsoft.com/fwlink/p/?linkId=214406). 
+> La déviation du trafic multimédia ne fonctionnera pas avec chaque passerelle RTC, système IP-PBX et SBC. Microsoft a testé une série de passerelles RTC et de SBC avec l’aide de partenaires agréés et a réalisé des tests avec les systèmes IP-PBX de Cisco. Le contournement de média est pris en charge uniquement avec les produits et les versions répertoriés au [Unified Communications programme Open Interoperability - Lync Server](https://go.microsoft.com/fwlink/p/?linkId=214406). 
   
 Pour plus d’informations sur les partenaires qui proposent des solutions voix entreprise, consultez le [site Web des partenaires des Communications unifiées de Microsoft](https://go.microsoft.com/fwlink/p/?linkId=202836).
   

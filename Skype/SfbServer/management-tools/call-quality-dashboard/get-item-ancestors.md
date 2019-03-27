@@ -1,5 +1,6 @@
 ---
-title: Obtenir l’élément ancêtres
+title: Obtenir les ancêtres d’élément
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,27 +11,27 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d39b1dbc-1514-43ec-8593-9f23b3fcae62
 description: 'Résumé : Découvrez l’opération obtenir des ancêtres élément, qui fait partie du Service de l’élément. Le Service de l’élément fait partie de l’API de référentiel pour appeler le tableau de bord qualité. Tableau de bord de qualité des appels est un outil de Skype pour Business Server.'
-ms.openlocfilehash: e9e23c32aada4c609f9deb43004385b389a533bf
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 7afeecb81d1933b0a308b174e49f6d8ff45a93dd
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532590"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873111"
 ---
-# <a name="get-item-ancestors"></a>Obtenir l’élément ancêtres
+# <a name="get-item-ancestors"></a>Obtenir les ancêtres d’élément
  
 **Résumé :** Obtenir des informations sur l’opération obtenir des ancêtres élément, qui fait partie du Service de l’élément. Le Service de l’élément fait partie de l’API de référentiel pour appeler le tableau de bord qualité. Tableau de bord de qualité des appels est un outil de Skype pour Business Server.
   
 L’opération obtenir des ancêtres élément fait partie du Service d’élément dans l’API de référentiel pour appeler le tableau de bord qualité.
   
-## <a name="get-item-ancestors"></a>Obtenir l’élément ancêtres
+## <a name="get-item-ancestors"></a>Obtenir les ancêtres d’élément
 
 Get élément ancêtres renvoie une ancêtres des éléments spécifiques à partir du référentiel.
   
 
 |**Méthode**|**URI de la demande**|**Version HTTP**|
 |:-----|:-----|:-----|
-|Télécharger  <br/> |https://\<portal\>/QoERepositoryService/référentiel/itemAncestors / {itemId}  <br/> |HTTP/1.1.  <br/> |
+|Avoir  <br/> |https://\<portal\>/QoERepositoryService/référentiel/itemAncestors / {itemId}  <br/> |HTTP/1.1.  <br/> |
    
  **Paramètres d’URI** - None.
   

@@ -1,5 +1,6 @@
 ---
 title: Table MediationServers
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -9,20 +10,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9f757377-ab79-4795-aaa9-1163cb9c8a59
-description: La table MediationServers est un tableau de prise en charge. Chaque enregistrement stocke des informations sur un serveur de médiation qui est impliqué dans les appels ayant des enregistrements dans la base de données.
-ms.openlocfilehash: 5854e9787497316d76b7262821be8d4953532d56
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: La table MediationServers est une table de prise en charge. Chaque enregistrement stocke des informations sur un serveur de médiation impliqué dans les appels qui ont des enregistrements dans la base de données.
+ms.openlocfilehash: 77173fbb81bc2046a1906c61456f607ec7f2b5b3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877069"
 ---
 # <a name="mediationservers-table"></a>Table MediationServers
  
-La table MediationServers est un tableau de prise en charge. Chaque enregistrement stocke des informations sur un serveur de médiation qui est impliqué dans les appels ayant des enregistrements dans la base de données.
+La table MediationServers est une table de prise en charge. Chaque enregistrement stocke des informations sur un serveur de médiation impliqué dans les appels qui ont des enregistrements dans la base de données.
   
-|**Colonne**|**Type de données**|**Index de la clé**|**Détails**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
 |:-----|:-----|:-----|:-----|
-|**MediationServerId** <br/> |int  <br/> |Principal  <br/> |Numéro unique qui identifie ce serveur de médiation.  <br/> |
+|**MediationServerId** <br/> |int  <br/> |Principal  <br/> |Numéro unique identifiant ce serveur de médiation.  <br/> |
 |**MediationServer** <br/> |nvarchar(256)  <br/> | <br/> |Nom du serveur de médiation.  <br/> |
    
 

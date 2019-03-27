@@ -1,5 +1,6 @@
 ---
 title: Définition des règles de traduction dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Skype pour Business Server Enterprise Voice achemine les appels en fonction de numéros de téléphone normalisés au format E.164. Cela signifie que toutes les chaînes composés doivent être normalisés au format E.164 pour effectuer la recherche inversée de numéros (RNL) afin qu’ils peuvent être traduites à leur URI SIP correspondant. Skype pour Business Server offre la possibilité de manipuler l’ID appelé et la présentation d’ID de l’appelant.
-ms.openlocfilehash: e3feda41a3057ea6f0ae6d7946f3e21e75ba7f81
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: b85241cfa7fc8f14732c92994660cdeb2088c874
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223002"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875474"
 ---
 # <a name="defining-translation-rules-in-skype-for-business-server"></a>Définition des règles de traduction dans Skype pour Business Server
 
@@ -27,14 +28,14 @@ Skype pour Business Server offre la possibilité de la traduction du numéro de 
 
 **Pour configurer l’ID de l’appelant à l’aide de la Skype pour Business Server Control Panel**
 
-1. Ouvrez une session sur l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre du rôle CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Pour plus d’informations, consultez la rubrique [déléguer des autorisations d’installation](https://technet.microsoft.com/en-us/library/gg412735(v=ocs.15).aspx).
+1. Ouvrez une session l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre du rôle CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Pour plus d’informations, consultez la rubrique [déléguer des autorisations d’installation](https://technet.microsoft.com/en-us/library/gg412735(v=ocs.15).aspx).
 2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le Skype pour Business le panneau de configuration, voir [installer et ouvrir Outils d’administration](../../management-tools/install-and-open-administrative-tools.md).
 3. Dans la barre de navigation de gauche, cliquez sur **Routage des communications vocales**, puis sur **Configuration de la jonction**.
 4. Dans la page Configuration de la jonction, double-cliquez sur une jonction existante (par exemple, la jonction **Global**) pour afficher la boîte de dialogue **Modifier la configuration de la jonction**.
 5. Pour configurer la présentation de l’identification de l’appelant :
     - Pour choisir une ou plusieurs règles à partir d’une liste de toutes les règles de traduction disponibles dans votre déploiement d’Enterprise Voice, cliquez sur **Sélectionner**. Dans **Règles de conversion du numéro d’appel**, cliquez sur les règles que vous voulez associer à la jonction, puis cliquez sur **OK**.
     - Pour définir une nouvelle règle de conversion et l’associer à la jonction, cliquez sur **Nouvelle**. 
-    - Pour modifier une règle de conversion déjà associée à la jonction, sélectionnez le nom de la règle, puis cliquez sur **Afficher les détails**.
+    - Pour modifier une règle de conversion déjà associée à la jonction, sélectionnez le nom de la règle, puis sur **Afficher les détails**.
     - Pour copier une règle de traduction existante à utiliser comme point de départ pour définir une nouvelle règle, cliquez sur le nom de la règle, cliquez sur **Copier**, puis cliquez sur **Coller**.
     - Pour supprimer une règle de conversion de la jonction, sélectionnez le nom de la règle et cliquez sur **Supprimer**.
 
@@ -60,7 +61,7 @@ Suivez ces étapes si vous souhaitez définir une règle de traduction en entran
 
 **Pour définir une règle à l’aide de l’outil Créer une règle de traduction**
 
-1. Ouvrez une session sur l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre du rôle CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Pour plus d’informations, consultez la rubrique [déléguer des autorisations d’installation](https://technet.microsoft.com/en-us/library/gg412735(v=ocs.15).aspx).
+1. Ouvrez une session l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre du rôle CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Pour plus d’informations, consultez la rubrique [déléguer des autorisations d’installation](https://technet.microsoft.com/en-us/library/gg412735(v=ocs.15).aspx).
 2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le Skype pour Business le panneau de configuration, voir [installer et ouvrir Outils d’administration](../../management-tools/install-and-open-administrative-tools.md).
 3. Pour commencer à définir une règle de traduction, suivez les étapes décrites dans [Configure une jonction avec support de contournement](GET LINK AFTER MIGRATION)par le biais de l’étape 10 ou [configurer une jonction sans media ignorer](GET LINK AFTER MIGRATION) jusqu'à l’étape 9.
 4. Sous **Nom** dans la page **Nouvelle règle de traduction** ou **Modifier la règle de traduction**, tapez un nom décrivant le modèle de numéro en cours de traduction.
@@ -95,7 +96,7 @@ Si vous souhaitez définir une règle de traduction en écrivant une expression 
 
 **Pour définir une règle de traduction manuellement**
 
-1. Ouvrez une session sur l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre du rôle CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Pour plus d’informations, consultez la rubrique [déléguer des autorisations d’installation](https://technet.microsoft.com/en-us/library/gg412735(v=ocs.15).aspx).
+1. Ouvrez une session l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre du rôle CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Pour plus d’informations, consultez la rubrique [déléguer des autorisations d’installation](https://technet.microsoft.com/en-us/library/gg412735(v=ocs.15).aspx).
 2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le Skype pour Business le panneau de configuration, voir [installer et ouvrir Outils d’administration](../../management-tools/install-and-open-administrative-tools.md).
 3. Pour commencer à définir une règle de traduction, suivez les étapes décrites dans [Configure une jonction avec support de contournement](GET LINK AFTER MIGRATION)par le biais de l’étape 10 ou [configurer une jonction sans media ignorer](GET LINK AFTER MIGRATION) jusqu'à l’étape 9.
 4. Dans le champ **Nom** dans la page **Nouvelle règle de traduction** ou **Modifier la règle de traduction**, tapez un nom décrivant le modèle de numéro en cours de traduction.

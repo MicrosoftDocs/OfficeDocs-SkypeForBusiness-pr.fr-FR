@@ -1,5 +1,6 @@
 ---
 title: Créer ou modifier une existant de la Configuration du périphérique
+ms.reviewer: ''
 ms.author: SerdarS
 author: SerdarSoysal
 manager: serdars
@@ -11,17 +12,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aac152bf-80e9-408a-9dbb-60d0843484ab
 ROBOTS: NOINDEX, NOFOLLOW
-description: Dans la page nouvelle Configuration de périphérique ou de modifier la Configuration du périphérique, vous pouvez créer ou modifier une collection de paramètres utilisés pour gérer les Skype pour Business Phone Edition. Ces paramètres vous permettent de configurer des éléments, comme le mode de sécurité nécessaire, le niveau de journalisation de l’appareil, les paramètres de qualité de service des communications vocales et le verrouillage automatique ou non des téléphones après une période d’inactivité spécifiée.
-ms.openlocfilehash: 9e91313db84a870ef4f85105ddf2b2138d8948aa
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+description: Dans la page nouvelle Configuration de périphérique ou de modifier la Configuration du périphérique, vous pouvez créer ou modifier une collection de paramètres utilisés pour gérer les Skype pour Business Phone Edition. Ces paramètres vous permettent de configurer le mode de sécurité requis, le niveau de journalisation de l’appareil, les paramètres de qualité de service des communications vocales et de savoir si les téléphones doivent ou non se verrouiller automatiquement après une période d’inactivité donnée.
+ms.openlocfilehash: 3dd7c9f782160b0f8a58d15e749276b4b2ee6adf
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20997929"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877006"
 ---
 # <a name="device-configuration-create-new-or-edit-existing"></a>Configuration du périphérique : création d’un périphérique ou modification d’un périphérique existant
  
-Dans la page **Nouvelle Configuration de périphérique** ou de **Modifier la Configuration du périphérique** , vous pouvez créer ou modifier une collection de paramètres utilisés pour gérer les Skype pour Business Phone Edition. Ces paramètres vous permettent de configurer des éléments, comme le mode de sécurité nécessaire, le niveau de journalisation de l’appareil, les paramètres de qualité de service des communications vocales et le verrouillage automatique ou non des téléphones après une période d’inactivité spécifiée.
+Dans la page **Nouvelle Configuration de périphérique** ou de **Modifier la Configuration du périphérique** , vous pouvez créer ou modifier une collection de paramètres utilisés pour gérer les Skype pour Business Phone Edition. Ces paramètres vous permettent de configurer le mode de sécurité requis, le niveau de journalisation de l’appareil, les paramètres de qualité de service des communications vocales et de savoir si les téléphones doivent ou non se verrouiller automatiquement après une période d’inactivité donnée.
   
 ## <a name="tasks-you-can-perform"></a>Tâches que vous pouvez effectuer
 
@@ -61,6 +62,6 @@ Les listes ci-dessous décrivent les menus, les commandes, les champs et les pro
     
 ## <a name="see-also"></a>Voir aussi
 
-[Configuration du périphérique](ms.lync.lscp.ClientDeviceCfgMain.md)
+[Configuration des périphériques](ms.lync.lscp.ClientDeviceCfgMain.md)
 
 [Set-CsUCPhoneConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csucphoneconfiguration?view=skype-ps)

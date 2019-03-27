@@ -1,5 +1,6 @@
 ---
-title: Ajouter un Pool Survivable Branch Appliance
+title: Ajouter un pool Survivable Branch Appliance
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 56915c5d-9991-4d16-949d-a75883767d44
 ROBOTS: NOINDEX, NOFOLLOW
 description: Pour définir le nom de domaine complet Survivable Branch Appliance, tapez le nom de domaine complet (FQDN) (telle que définie dans le système DNS (Domain Name System)) du Survivable Branch Appliance ou serveur Survivable Branch Server dans la zone de texte Nom de domaine complet. Cliquez sur Suivant pour continuer.
-ms.openlocfilehash: 508d4e57c6c7034efb9a4dcd55bad0c8008baba6
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 4960f9e1326763f4e763cc22e44ebda7eb0ef5ce
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21067854"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873765"
 ---
-# <a name="add-survivable-branch-appliance-pool"></a>Ajouter un Pool Survivable Branch Appliance
+# <a name="add-survivable-branch-appliance-pool"></a>Ajouter un pool Survivable Branch Appliance
  
 Pour **définir le nom de domaine complet Survivable Branch Appliance**, tapez le nom de domaine complet (FQDN) (telle que définie dans le système DNS (Domain Name System)) du Survivable Branch Appliance ou serveur Survivable Branch Server dans la zone de texte **nom de domaine complet** . Cliquez sur **Suivant** pour continuer.
   

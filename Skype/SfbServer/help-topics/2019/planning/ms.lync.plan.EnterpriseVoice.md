@@ -1,5 +1,6 @@
 ---
-title: Enterprise Voice (outil de planification)
+title: Enterprise Voice (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,14 +14,14 @@ localization_priority: Normal
 ms.assetid: 8749fc54-4cd1-4c25-9a64-60e4bdab9767
 ROBOTS: NOINDEX, NOFOLLOW
 description: Avec Enterprise Voice, Skype pour Business Server offre un offrant afin d’améliorer ou remplacer les systèmes PBX (exchange) traditionnel autocommutateur privé de voix sur IP (VoIP) autonome.
-ms.openlocfilehash: f507ae79ae7547d5ee10bb7bb628d509cb0882c6
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 2a25de34494d6a5e13e90072136b396e8da8a13d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21069271"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877831"
 ---
-# <a name="enterprise-voice-planning-tool"></a>Enterprise Voice (outil de planification)
+# <a name="enterprise-voice-planning-tool"></a>Enterprise Voice (Planning Tool)
  
 Avec Enterprise Voice, Skype pour Business Server offre un offrant afin d’améliorer ou remplacer les systèmes PBX (exchange) traditionnel autocommutateur privé de voix sur IP (VoIP) autonome. Les utilisateurs d’Enterprise Voice peuvent appeler des collègues sur le réseau de votre organisation VoIP ou le PBX et qu’ils puissent appeler des numéros de téléphone traditionnelle en dehors de votre organisation. La solution voix Enterprise comprend des fonctionnalités d’appel courants tels que les réponses, de transfert, transfert, maintenez la touche, transférer, version et mettre en garde et l’appel Enhanced 9-1-1 (E9-1-1) (E9-1-1 est disponible uniquement aux États-Unis). Enterprise Voice prend également en charge un large éventail d’actuels et anciens périphériques IP et USB.
   

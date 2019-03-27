@@ -1,5 +1,6 @@
 ---
 title: Installer les rapports de surveillance dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6f417569-b100-442c-ad48-fdd794626cf7
 description: 'Résumé : Découvrez comment installer un service qui génère des rapports de surveillance dans Skype pour Business Server.'
-ms.openlocfilehash: 51d7e452be546c41daacbb0a0a77c142bace6e31
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ee500d3440e4211bc42566a7cbdd47ee2cd4cc0e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21016597"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876421"
 ---
 # <a name="install-monitoring-reports-in-skype-for-business-server"></a>Installer les rapports de surveillance dans Skype pour Business Server
  

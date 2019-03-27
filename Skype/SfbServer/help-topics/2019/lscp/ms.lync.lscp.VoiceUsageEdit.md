@@ -1,5 +1,6 @@
 ---
 title: Utilisation PSTN créer ou modifier une existant
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: db7da46e-60ec-4f5b-b07a-f79284ad12b8
 ROBOTS: NOINDEX, NOFOLLOW
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: 3142c74d44928c78a8642893ee6f0a4ba7a1866e
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: a7a29caefbc2920952e832a7124288d4e98d132c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23263148"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877104"
 ---
-# <a name="pstn-usage-create-new-or-edit-existing"></a>Utilisation PSTN : Créer une nouvelle ou en modifier une existant
+# <a name="pstn-usage-create-new-or-edit-existing"></a>Utilisation PSTN : en créer une autre ou en modifier une existante
 
 Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
 

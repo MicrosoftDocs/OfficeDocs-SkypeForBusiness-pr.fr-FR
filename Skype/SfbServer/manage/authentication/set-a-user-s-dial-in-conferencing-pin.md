@@ -1,5 +1,6 @@
 ---
 title: Définir des conférences rendez-vous d’un utilisateur code confidentiel dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4252b5a5-4267-4513-b18e-0253a8d66f72
 description: 'Résumé : Définir dans les conférences rendez-vous l’utilisateur code confidentiel pour Skype pour Business Server.'
-ms.openlocfilehash: e5d14af74c208aaf29fffe94937afc1253a032da
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 62b38b8ef15aa2283b66fc18abf5ec0e84e64870
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21009381"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877390"
 ---
 # <a name="set-a-users-dial-in-conferencing-pin-in-skype-for-business-server"></a>Définir des conférences rendez-vous d’un utilisateur code confidentiel dans Skype pour Business Server
  
@@ -28,7 +29,7 @@ Pour participer à une conférence rendez-vous en tant qu’utilisateur authenti
   
 ### <a name="to-set-a-users-pin"></a>Pour définir le code confidentiel d’un utilisateur
 
-1. À partir d’un compte d’utilisateur auquel est affecté un des rôles CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
+1. À partir d’un compte d’utilisateur auquel est affecté le rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
     
 2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business.  
     
@@ -44,7 +45,7 @@ Pour participer à une conférence rendez-vous en tant qu’utilisateur authenti
     
    a. Cliquez sur **Ajouter un filtre**.
     
-   b. Entrez la propriété utilisateur en tapant son nom ou en cliquant sur la flèche dans la liste déroulante.
+   b. Entrez la propriété utilisateur en tapant son nom ou en cliquant sur la flèche de la liste déroulante.
     
    c. Dans la liste déroulante **Égal à**, cliquez sur l’opérateur (par exemple, **Égal à** ou **Différent de**).
     

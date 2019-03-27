@@ -1,5 +1,6 @@
 ---
 title: Créer ou modifier une règle de normalisation dans Skype pour les entreprises
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e8547d7b-f74d-4a73-9a7d-df20d7a87fcd
 description: 'Résumé : Apprenez à définir, créer et modifier une règle de normalisation dans Skype pour Business Server.'
-ms.openlocfilehash: ff43185da86693c230b6b238222e0fcd922a411c
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 52f56280c747db702935405ea4c60383c58a6d78
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375286"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874597"
 ---
 # <a name="create-or-modify-a-normalization-rule-in-skype-for-business"></a>Créer ou modifier une règle de normalisation dans Skype pour les entreprises
 
@@ -63,7 +64,7 @@ Définir, créer et modifier des règles de normalisation dans Skype pour Busine
 8. (Facultatif) Entrez un numéro pour tester la règle de normalisation, puis cliquez sur **OK**. Les résultats du test s’affichent sous **Numéro composé à tester**.
 
     > [!NOTE]
-    > Vous pouvez enregistrer une règle de normalisation n’ayant pas encore passé le test afin de la reconfigurer ultérieurement. Pour plus d’informations, voir [Routage des communications vocales Test](https://technet.microsoft.com/library/d3aae909-fef6-440f-b144-0b62dc82bf5d.aspx).
+    > Vous pouvez enregistrer une règle de normalisation n’ayant pas encore passé le test afin de la reconfigurer ultérieurement. Pour plus d’informations, reportez-vous à [Test Voice Routing](https://technet.microsoft.com/library/d3aae909-fef6-440f-b144-0b62dc82bf5d.aspx).
 
 9. Cliquez sur **OK** pour enregistrer la règle de normalisation.
 

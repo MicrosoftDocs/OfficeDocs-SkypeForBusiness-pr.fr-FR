@@ -1,5 +1,6 @@
 ---
 title: Certificat en attente (introduction)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: d95455f3-39d3-4730-89dd-7f988ae5da95
 ROBOTS: NOINDEX, NOFOLLOW
 description: Pour traiter une demande de certificat en ligne en attente, c'est-à-dire, une demande qui a été émise à votre autorité de certification en ligne, mais est définie par un administrateur d’exiger un processus d’approbation manuelle, cliquez sur Suivant.
-ms.openlocfilehash: baad0758827ade356c9703c5a24bfdc4e84f89bb
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: c8882eb2f93dd210b5888ad55bc5d85a6abedc12
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21018789"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877247"
 ---
 # <a name="pending-certificate-intro"></a>Certificat en attente (introduction)
  

@@ -1,5 +1,6 @@
 ---
 title: Demande de certificat (en ligne et hors connexion)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,16 +12,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 83697d4c-320b-4797-beb0-dd0bc4f1d0d6
-description: Pour créer une requête différée ou une demande en mode hors connexion, sélectionnez préparer la demande maintenant, mais l’envoyer ultérieurement (demande de certificat hors ligne). Pour créer une demande immédiatement à une autorité de certification en ligne (en général un système interne dans l’infrastructure à clé publique de votre organisation), sélectionnez Envoyer immédiatement la demande à une autorité de certification en ligne.
-ms.openlocfilehash: b97839f08e27cc763f154c258625e6e57b9c5fdc
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Pour créer une demande différée ou hors connexion, sélectionnez Préparer la demande maintenant, mais l’envoyer ultérieurement (demande de certificat hors connexion). Pour créer une demande immédiatement à une autorité de certification en ligne (généralement un système interne dans l’infrastructure à clé publique de votre organisation), sélectionnez Envoyer la demande immédiatement à une autorité de certification en ligne.
+ms.openlocfilehash: d49b3027a2d6c5bfa2c27dfcbde598748aba29f4
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875762"
 ---
 # <a name="certificate-request-online-offline"></a>Demande de certificat (en ligne et hors connexion)
  
-Pour créer une demande différée ou hors connexion, sélectionnez **Préparer la demande maintenant, mais l’envoyer ultérieurement (demande de certificat hors connexion)**. Pour créer une demande immédiatement à une autorité de certification en ligne (en général un système interne dans l’infrastructure à clé publique de votre organisation), sélectionnez **Envoyer immédiatement la demande à une autorité de certification en ligne**.
+Pour créer une demande différée ou hors connexion, sélectionnez **Préparer la demande maintenant, mais l’envoyer ultérieurement (demande de certificat hors connexion)**. Pour créer une demande immédiatement à une autorité de certification en ligne (généralement un système interne dans l’infrastructure à clé publique de votre organisation), sélectionnez **Envoyer la demande immédiatement à une autorité de certification en ligne**.
   
 Lorsque vous avez sélectionné l’option qui convient, cliquez sur **Suivant** pour continuer. Si vous souhaitez annuler l’opération sans apporter de modifications, cliquez sur **Annuler**. Pour revenir à l’étape précédente, cliquez sur **Précédent**.
   

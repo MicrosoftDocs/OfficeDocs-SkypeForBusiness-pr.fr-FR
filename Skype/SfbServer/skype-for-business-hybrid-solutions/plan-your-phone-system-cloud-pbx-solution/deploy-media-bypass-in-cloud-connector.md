@@ -1,5 +1,6 @@
 ---
 title: Déployer le contournement de média dans le nuage connecteur Edition
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0ebba3a4-6124-434c-84aa-32b1cc3345bc
 description: Lisez cette rubrique pour en savoir plus sur les étapes nécessaires pour déployer le contournement de média avec le nuage connecteur Edition version 2.0 et versions ultérieure.
-ms.openlocfilehash: a764c17af7c23d27305f9e2f3e88eaed6edc33cf
-ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
+ms.openlocfilehash: f4ea5449e7a324ae206241af25d12ecabf9c5259
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2018
-ms.locfileid: "26561913"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878048"
 ---
 # <a name="deploy-media-bypass-in-cloud-connector-edition"></a>Déployer le contournement de média dans le nuage connecteur Edition
  
@@ -187,4 +188,4 @@ En utilisant la gestion du trafic basée sur la géolocalisation, les serveurs D
 ## <a name="see-also"></a>Voir aussi
 <a name="Example"> </a>
 
-[Planification de la déviation du trafic multimédia dans la version Cloud Connector](plan-for-media-bypass-in-cloud-connector-edition.md)
+[Planifier le contournement de média dans Cloud Connector Edition](plan-for-media-bypass-in-cloud-connector-edition.md)

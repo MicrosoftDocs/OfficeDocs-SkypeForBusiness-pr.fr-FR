@@ -1,5 +1,6 @@
 ---
 title: Gérer les paramètres de configuration du serveur d’inscriptions dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: eddfbdd2-cfd0-4c03-986e-443d6728db7d
 description: 'Résumé : Gérer les paramètres de configuration de serveur d’inscriptions de Skype pour Business Server.'
-ms.openlocfilehash: 65dfae7e518ef1b561a6782f9555de2d5dd6a6fa
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a1dda801049313cc2fc4dead94b524c300885924
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20998994"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877055"
 ---
 # <a name="manage-registrar-configuration-settings-in-skype-for-business-server"></a>Gérer les paramètres de configuration du serveur d’inscriptions dans Skype pour Business Server
  
@@ -27,7 +28,7 @@ Vous pouvez utiliser le serveur d’inscriptions avancé pour configurer les mé
     
 - **NTLM** Il s’agit de l’authentification par mot de passe pour les clients qui utilisent un schéma de hachage stimulation / réponse au mot de passe. C’est la seule forme d’authentification proposée aux clients ne disposant pas d’une connectivité à un centre de distribution des clés (contrôleur de domaine Kerberos), comme les utilisateurs distants. Si un serveur n’authentifie que des utilisateurs distants, vous devez choisir NTLM.
     
-- **Authentification par certificat** Il s’agit de la méthode d’authentification lorsque le serveur doit obtenir des certificats à partir de clients Lync Phone Edition, les téléphones de partie commune, Skype pour les entreprises et l’application Lync Windows Store. Sur les clients Lync Phone Edition, après un utilisateur se connecte et est authentifié avec succès en fournissant un code confidentiel (PIN), Skype pour Business Server, puis met en service l’URI SIP sur le téléphone et met en service un Skype pour Business Server connecté certificat ou un certificat utilisateur qui identifie Joe (Ex : SN=joe@contoso.com) sur le téléphone. Ce certificat est utilisé pour l’authentification auprès du serveur d’inscriptions et des Services Web.
+- **Authentification par certificat** Il s’agit de la méthode d’authentification lorsque le serveur doit obtenir des certificats à partir de clients Lync Phone Edition, les téléphones de partie commune, Skype pour les entreprises et l’application Lync Windows Store. Sur les clients Lync Phone Edition, après un utilisateur se connecte et est authentifié avec succès en fournissant un code confidentiel (PIN), Skype pour Business Server, puis met en service l’URI SIP sur le téléphone et met en service un Skype pour Business Server connecté certificat ou un certificat utilisateur qui identifie Joe (Ex : SN=joe@contoso.com) sur le téléphone. This certificate is used for authenticating with the Registrar and Web Services.
     
 > [!NOTE]
 > Nous vous recommandons d’activer Kerberos et NTLM lorsqu’un serveur prend en charge l’authentification des clients distants et d’entreprise. Le serveur Edge et les serveurs internes communiquent pour veiller à ce qu’une authentification NTLM seulement soit proposée aux clients distants. Si seul Kerberos est activé sur ces serveurs, ils ne peuvent pas authentifier les utilisateurs distants. Si des utilisateurs d’entreprise s’authentifient également sur le serveur, Kerberos est utilisé. 

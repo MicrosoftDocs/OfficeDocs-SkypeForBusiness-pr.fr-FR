@@ -16,23 +16,23 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 67202207b5668022f4e0b33acc2d20f3c4abd7aa
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 60af1c90cd1dbd7855da7686950ffd135d1da5dc
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462707"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876767"
 ---
 # <a name="configure-network-settings-for-location-based-routing"></a>Configurer les paramètres de réseau pour le routage géodépendant
 
 > [!INCLUDE [Preview customer token](includes/preview-feature.md)] 
 
-Si vous n’avez pas déjà fait, lisez [Plan Location-Based de routage pour le routage Direct](location-based-routing-plan.md) pour passer en revue les autres étapes, vous devez effectuer avant de déployer les paramètres réseau pour le routage basé sur l’emplacement.
+Si vous n’avez pas déjà fait, lisez [Plan_Location-Based de routage pour le routage Direct](location-based-routing-plan.md) pour passer en revue les autres étapes que vous devrez prendre avant de configurer les paramètres réseau pour le routage basé sur l’emplacement.
 
 Cet article explique comment configurer les paramètres réseau pour le routage basé sur l’emplacement. Une fois que vous déployez l’acheminement d’un système téléphonique Direct dans votre organisation, les étapes suivantes consistent à créer et configurer des régions réseau, sites réseau et sous-réseaux. Pour effectuer les étapes décrites dans cet article, vous aurez besoin de se familiariser avec les applets de commande PowerShell. Pour plus d’informations, voir [Vue d’ensemble de PowerShell équipes](teams-powershell-overview.md).
 
 ## <a name="define-network-regions"></a>Définir des régions réseau
- Une région réseau relie des différentes parties d’un réseau entre plusieurs zones géographiques. Utiliser le ``New-CsTenantNetworkRegion`` applet de commande PowerShell pour définir des régions réseau. Notez que la ``RegionID`` paramètre est un nom logique qui représente la zone géographique de la région et n’a ni dépendances restrictions et les ``CentralSite <site ID>`` paramètre est facultatif. 
+ Une région réseau relie des différentes parties d’un réseau entre plusieurs zones géographiques. Utilisez l’applet de commande [New-CsTenantNetworkRegion](https://docs.microsoft.com/powershell/module/skype/New-CsTenantNetworkRegion?view=skype-ps) pour définir des régions réseau. Notez que le paramètre RegionID est un nom logique qui représente la zone géographique de la région et n’a pas de dépendances ou les restrictions et le CentralSite &lt;ID de site&gt; paramètre est facultatif. 
 
 ```
 New-CsTenantNetworkRegion -NetworkRegionID <region ID>  
@@ -45,7 +45,7 @@ New-CsTenantNetworkRegion -NetworkRegionID "India"
 
 ## <a name="define-network-sites"></a>Définir des sites réseau
 
-Utiliser le ``New-CsTenantNetworkSite`` applet de commande PowerShell pour définir des sites réseau. 
+Utilisez l’applet de commande [New-CsTenantNetworkSite](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksite?view=skype-ps) pour définir des sites réseau. 
 
 ```
 New-CsTenantNetworkSite -NetworkSiteID <site ID> -NetworkRegionID <region ID>
@@ -64,7 +64,7 @@ Le tableau suivant indique les sites de réseau définis dans cet exemple.
 
 ## <a name="define-network-subnets"></a>Définir les sous-réseaux
 
-Utiliser le ``New-CsTenantNetworkSubnet`` applet de commande pour définir les sous-réseaux et les associer aux sites du réseau. Chaque sous-réseau interne ne peut être associé à un site. 
+Utilisez l’applet de commande [New-CsTenantNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksubnet?view=skype-ps) pour définir les sous-réseaux et les associer aux sites du réseau. Chaque sous-réseau interne ne peut être associé à un site. 
 ```
 New-CsTenantNetworkSubnet -SubnetID <Subnet IP address> -MaskBits <Subnet bitmask> -NetworkSiteID <site ID> 
 ```
@@ -94,7 +94,7 @@ Identity, Mask, SiteID
 172.11.15.0, 28, Paris
 ```
 ## <a name="define-external-subnets"></a>Définir les sous-réseaux externes
-Utiliser le ``New-CsTenantTrustedIPAddress`` applet de commande pour définir les sous-réseaux externes et les assigner au client. Vous pouvez définir un nombre illimité de sous-réseaux pour un client. 
+Utilisez l’applet de commande [New-CsTenantTrustedIPAddress](https://docs.microsoft.com/powershell/module/skype/new-cstenanttrustedipaddress?view=skype-ps) pour définir les sous-réseaux externes et les assigner au client. Vous pouvez définir un nombre illimité de sous-réseaux pour un client. 
 ```
 New-CsTenantTrustedIPAddress -IPAddress <External IP address> -MaskBits <Subnet bitmask> -Description <description> 
 ```

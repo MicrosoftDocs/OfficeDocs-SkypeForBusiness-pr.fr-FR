@@ -1,5 +1,6 @@
 ---
 title: Stratégie de conversation permanente – Page principale
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 0dc18d5c-82d6-4d39-afb1-efdb3ae6d2c7
 ROBOTS: NOINDEX, NOFOLLOW
 description: Vous pouvez utiliser la page Stratégie de conversation permanente du groupe Conversation permanente pour gérer les stratégies au niveau utilisateur, site, pool ou global, y compris pour configurer la stratégie globale par défaut et créer une ou plusieurs autres stratégies utilisateur et de site pour votre déploiement. Si un utilisateur est activé pour le serveur de conversation permanente par stratégie, l’environnement de serveur de conversation permanente s’affiche dans le client.
-ms.openlocfilehash: 4e71d12fac7a0d9a67c9247f9a22c463cb64b1c5
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 7578a75eb1eb1153d9f25874b90a097c1c0232e1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21019996"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877439"
 ---
 # <a name="persistent-chat-policy-main-page"></a>Stratégie de conversation permanente – Page principale
 

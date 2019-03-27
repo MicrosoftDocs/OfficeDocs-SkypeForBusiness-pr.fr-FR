@@ -1,5 +1,6 @@
 ---
 title: Créer votre topologie du périmètre pour Skype pour Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5ea18841-afdc-4ccb-8d86-30584c1f5aca
 description: 'Résumé : Apprenez à créer, publier et exporter votre topologie de serveur de transport Edge dans Skype pour Business Server.'
-ms.openlocfilehash: b01f0c107207d79f62a092acc2e287e632969234
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 32273f7e0cf14b4ed5be3956eb69ef66a3b06fee
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372772"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875446"
 ---
 # <a name="create-your-edge-topology-for-skype-for-business-server"></a>Créer votre topologie du périmètre pour Skype pour Business Server
  

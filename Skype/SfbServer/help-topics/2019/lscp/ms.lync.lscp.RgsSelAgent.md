@@ -1,5 +1,6 @@
 ---
 title: Sélection des agents
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: b5cf912b-8273-4c2c-a1e5-f25530b264d0
 ROBOTS: NOINDEX, NOFOLLOW
 description: Les agents sont les utilisateurs désignés pour répondre aux appels Response Group. Les groupes de réponse doivent disposer d’un groupe d’agents attribué, qui identifie les agents pouvant recevoir des appels pour le groupe de réponse. Pour créer un groupe d’agents, définissez un groupe personnalisé en sélectionnant des utilisateurs éligibles. Utilisateurs sont activés pour Skype pour Business Server et Enterprise Voice.
-ms.openlocfilehash: 23e274f11183742ab96f4117ea5d7c754596253a
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: e4599d4fbcedc2e99810c96e186d90801f963534
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23262826"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877062"
 ---
 # <a name="select-agents"></a>Sélection des agents
 
@@ -43,6 +44,6 @@ La liste ci-dessous décrit les champs figurant dans la boîte de dialogue **Sé
 
 - **Activé** Affiche la valeur du champ **activé pour Lync Server** définie pour les utilisateurs.
 
-Pour plus d’informations sur l’utilisation des groupes d’agents, voir [Gestion des groupes d’agents](https://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) dans la documentation des opérations.
+Pour plus d’informations sur l’utilisation des groupes d’agents, reportez-vous à la rubrique [Managing Agent Groups](https://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) de la documentation des opérations.
 
 

@@ -1,5 +1,6 @@
 ---
 title: Activer le contrôle d’admission des appels d’appel dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 80201105-18f7-4c02-9c71-8df5a952f6c7
 description: Activer le contrôle d’admission des appels d’appel dans Skype pour Business Server Enterprise Voice.
-ms.openlocfilehash: 75021b33c616fd4118a612b6e0d582459cd33b8d
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 7e4c444b5aa0b0e4d3c3517b9d242c839f6ecda5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23881907"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30872758"
 ---
 # <a name="enable-call-admission-control-in-skype-for-business-server"></a>Activer le contrôle d’admission des appels d’appel dans Skype pour Business Server
  
@@ -28,7 +29,7 @@ Une fois que vous avez configuré vos paramètres réseau pour le déploiement d
   
 ### <a name="to-enable-call-admission-control-by-using-skype-for-business-server-management-shell"></a>Pour activer le contrôle d’admission des appels à l’aide de Skype pour Business Server Management Shell
 
-1. Démarrez Skype Entreprise Server Management Shell : cliquez successivement sur **Démarrer**, **Tous les programmes**, **Skype Entreprise 2015**, puis sur **Skype Entreprise Server Management Shell**.
+1. Démarrez le Skype pour Business Server Management Shell : cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Skype pour Business 2015**, puis cliquez sur **Skype pour Business Server Management Shell**.
     
 2. Exécutez l’applet de commande Set-CsNetworkConfiguration pour activer le contrôle d’admission des appels dans votre réseau. Par exemple, exécutez :
     

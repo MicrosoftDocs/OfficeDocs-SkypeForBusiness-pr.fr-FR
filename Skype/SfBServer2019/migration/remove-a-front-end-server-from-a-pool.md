@@ -1,5 +1,6 @@
 ---
 title: Supprimer un serveur frontal d’un pool
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Le serveur frontal ne peut exister qu’un ordinateur autonome. Il doit être défini comme un pool frontal, même si le pool ne contient qu’un seul ordinateur.
-ms.openlocfilehash: a9f0adc991355b6f79b20365795ffaf92fa230e2
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: f026570f0dff377ba7ca0c28975a685e236a9e13
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028942"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874737"
 ---
 # <a name="remove-a-front-end-server-from-a-pool"></a>Supprimer un serveur frontal d’un pool
 

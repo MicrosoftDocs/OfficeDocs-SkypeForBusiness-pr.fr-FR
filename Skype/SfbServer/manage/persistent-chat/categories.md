@@ -1,5 +1,6 @@
 ---
 title: Gestion des catégories sur un serveur de conversation permanente dans Skype Entreprise Server 2015
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b0c834b9-b5c8-41d5-865b-c8b180e76d13
 description: 'Résumé : Découvrez comment gérer les catégories de serveurs de conversation permanente dans Skype pour Business Server 2015.'
-ms.openlocfilehash: 01b1bad9fd8b68eee68e1980fcb79f69462e9dfa
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a0d70ec0266fc85d94c44c11ba15e42eea0be44b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20979504"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874192"
 ---
 # <a name="manage-categories-in-persistent-chat-server-in-skype-for-business-server-2015"></a>Gestion des catégories sur un serveur de conversation permanente dans Skype Entreprise Server 2015
  
@@ -102,7 +103,7 @@ Vous pouvez configurer les paramètres suivants des catégories :
     
 - DeniedMembers. Liste les utilisateurs qui ne sont pas autorisés à accéder aux salles de conversation de la catégorie.
     
-Pour plus d’informations sur la syntaxe de commande, y compris tous les paramètres, voir [Skype pour Business Server 2015 Management Shell](../management-shell.md).
+Pour des informations complètes sur la syntaxe des applets de commande, notamment tous les paramètres, voir [Skype for Business Server 2015 Management Shell](../management-shell.md).
   
 ### <a name="create-a-new-category"></a>Créer une catégorie
 

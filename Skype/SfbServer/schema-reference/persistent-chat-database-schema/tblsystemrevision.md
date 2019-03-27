@@ -1,5 +1,6 @@
 ---
 title: tblSystemRevision
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -9,20 +10,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 95b8e307-117c-4fb0-bd52-bc5a5b9ade55
-description: tblSystemRevision contient le numéro de révision est utilisé avec la table tblAdminLock pour garantir la cohérence entre plusieurs clients d’administrateur.
-ms.openlocfilehash: 53bf54678a97af2ea886cfbeb4df4163cf7b5124
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Systemrevision contient le numéro de révision qui est utilisé avec la table tblAdminLock pour harmoniser plusieurs clients administrateurs.
+ms.openlocfilehash: d4e8bf99597fa6c6a81d72950d5bcdbc6bcfa57d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876802"
 ---
 # <a name="tblsystemrevision"></a>tblSystemRevision
  
-tblSystemRevision contient le numéro de révision est utilisé avec la table tblAdminLock pour garantir la cohérence entre plusieurs clients d’administrateur.
+Systemrevision contient le numéro de révision qui est utilisé avec la table tblAdminLock pour harmoniser plusieurs clients administrateurs.
   
 **Colonnes**
 
-|**Colonne**|**Type de**|**Description**|
+|**Colonne**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |sysRevision  <br/> |bigint, non null  <br/> |Numéro de révision.  <br/> |
    

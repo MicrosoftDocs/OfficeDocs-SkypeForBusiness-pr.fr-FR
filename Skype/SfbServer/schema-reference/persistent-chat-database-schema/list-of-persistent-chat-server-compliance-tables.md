@@ -1,5 +1,6 @@
 ---
-title: Liste des tableaux de conformité permanente Chat Server dans Skype pour Business Server
+title: Liste des tables de conformité Persistent Chat Server dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -9,24 +10,25 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8563446e-90cc-47cc-8a8e-4883decfe195
-description: Le schéma de base de données de conformité Chat persistant est constitué par les tableaux suivants.
-ms.openlocfilehash: 801e8d5457a26ef968f700df16a68d36560548c5
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Le schéma de base de données de conformité conversation permanente comprend les tables suivantes.
+ms.openlocfilehash: 18c35cc71da43dcf25bb477e81a2471b483ee86d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874314"
 ---
-# <a name="list-of-persistent-chat-server-compliance-tables-in-skype-for-business-server"></a>Liste des tableaux de conformité permanente Chat Server dans Skype pour Business Server
+# <a name="list-of-persistent-chat-server-compliance-tables-in-skype-for-business-server"></a>Liste des tables de conformité Persistent Chat Server dans Skype pour Business Server
  
-Le schéma de base de données de conformité Chat persistant est constitué par les tableaux suivants.
+Le schéma de base de données de conformité conversation permanente comprend les tables suivantes.
   
-## <a name="list-of-persistent-chat-server-compliance-tables"></a>Liste des Tables de la conformité permanente de Chat Server
+## <a name="list-of-persistent-chat-server-compliance-tables"></a>Liste des Tables de conformité de serveur de conversation permanente
 
 |**Table**|**Description**|
 |:-----|:-----|
-|[tblComplianceData](tblcompliancedata.md) <br/> |Contient les événements de conformité qui n’ont pas encore été traitées par l’adaptateur configuré.  <br/> Ce tableau inclut les événements liés à Chat persistants, tels que des messages de conversation et les téléchargements de fichiers. (Les événements participant sont suivis par la table de tblComplianceParticipant).  <br/> (Les serveurs de traitement des événements dans cette table sont répertoriés dans le tableau tblComplianceFanout.)  <br/> |
-|[tblComplianceFanout](tblcompliancefanout.md) <br/> |Contient les serveurs dont le traitement d’un événement de conformité. Cette table est étroitement associée à la table tblComplianceData.  <br/> |
-|[tblComplianceParticipant](tblcomplianceparticipant.md) <br/> |Contient des participants en cours par le service chat et par serveur. Il est conservé en fonction des événements de conformité jointure et une partie reçus du service Chat persistant.  <br/> |
-|[tblComplianceState](tblcompliancestate.md) <br/> |Contient des informations d’état de conformité de l’ensemble du pool.  <br/> |
+|[tblComplianceData](tblcompliancedata.md) <br/> |Contient les événements de conformité qui n’ont pas encore été traitées par la carte configurée.  <br/> Ce tableau inclut les événements liés à la conversation permanente, telles que les messages de conversation et les téléchargements de fichiers. (Participant événements suivis par le tableau tblComplianceParticipant.)  <br/> (Les serveurs qui ont traité les événements de cette table sont répertoriés dans la table tblComplianceFanout.)  <br/> |
+|[tblComplianceFanout](tblcompliancefanout.md) <br/> |Contient les serveurs qui ont traité un événement de conformité. Ce tableau est étroitement associé à la table tblComplianceData.  <br/> |
+|[tblComplianceParticipant](tblcomplianceparticipant.md) <br/> |Contient les participants actifs par le service de conversation et par serveur. Il est conservé en fonction des événements de conformité join et composant reçus à partir du service de conversation permanente.  <br/> |
+|[tblComplianceState](tblcompliancestate.md) <br/> |Contient des informations d’état de conformité au niveau du pool.  <br/> |
    
 

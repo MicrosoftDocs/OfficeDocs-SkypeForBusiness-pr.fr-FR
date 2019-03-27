@@ -1,5 +1,6 @@
 ---
-title: Expanseur des paramètres itinéraire de fédération
+title: Développeur des paramètres d’itinéraire de fédération
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 22aa11b8-80ba-4c6a-9396-d11166903066
 ROBOTS: NOINDEX, NOFOLLOW
 description: Pour définir une attribution itinéraire fédération du site, vous devez au préalable avoir fédération activée sur le serveur Edge ou le pool de serveurs Edge. Si la fédération n’est pas activée sur le serveur Edge ou le pool, les paramètres d’affectation fédération itinéraire pour le site ne sera pas disponibles pour la modification.
-ms.openlocfilehash: 201fa7b556cc3a12c422145cf46c844faafb1cb4
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 49709f5c4a91e25efb14cc4b2c321c99fec89b68
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371780"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873337"
 ---
-# <a name="federation-route-settings-expander"></a>Expanseur des paramètres itinéraire de fédération
+# <a name="federation-route-settings-expander"></a>Développeur des paramètres d’itinéraire de fédération
  
 Pour définir une attribution itinéraire fédération du site, vous devez au préalable avoir fédération activée sur le serveur Edge ou le pool de serveurs Edge. Si la fédération n’est pas activée sur le serveur Edge ou le pool, les paramètres d’affectation fédération itinéraire pour le site ne sera pas disponibles pour la modification.
 

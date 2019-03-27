@@ -1,5 +1,6 @@
 ---
-title: Table de AppSharingMetricsThreshold
+title: Table AppSharingMetricsThreshold
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -9,35 +10,36 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 782cfab9-01a6-4843-aea1-28f47b0b51f7
-description: La table AppSharingMetricsThreshold contient des valeurs optimales et acceptables pour les métriques de qualité utilisés avec le partage de l’application. Ces seuils sont utilisés pour déterminer si l’application partage d’expérience doit être classée comme médiocres.
-ms.openlocfilehash: 1ccf60fc9668d2ad2943929affad6fd4a078c789
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: La table AppSharingMetricsThreshold contient les valeurs optimales et acceptables pour les mesures de qualité de l’expérience utilisées avec le partage d’application. Ces seuils sont utilisés pour déterminer si l’application de partage de l’expérience doit être classée comme médiocre.
+ms.openlocfilehash: bddad99803ab6683985b0f44ed5df509b84344f3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877041"
 ---
-# <a name="appsharingmetricsthreshold-table"></a>Table de AppSharingMetricsThreshold
+# <a name="appsharingmetricsthreshold-table"></a>Table AppSharingMetricsThreshold
  
-La table AppSharingMetricsThreshold contient des valeurs optimales et acceptables pour les métriques de qualité utilisés avec le partage de l’application. Ces seuils sont utilisés pour déterminer si l’application partage d’expérience doit être classée comme médiocres.
+La table AppSharingMetricsThreshold contient les valeurs optimales et acceptables pour les mesures de qualité de l’expérience utilisées avec le partage d’application. Ces seuils sont utilisés pour déterminer si l’application de partage de l’expérience doit être classée comme médiocre.
   
-Cette table a été introduite dans Microsoft Lync Server 2013.
+Ce tableau a été introduit dans Microsoft Lync Server 2013.
   
-|**Colonne**|**Type de données**|**Index de la clé**|**Détails**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
 |:-----|:-----|:-----|:-----|
-|**CallType** <br/> |int  <br/> |Principal  <br/> |Type d’appel qui a été placé.  <br/> |
-|**AppliedBandwidthLimitOptimal** <br/> |int  <br/> ||Limitation de la bande passante optimale pour le partage d’application. La valeur par défaut est de 1000000.  <br/> |
-|**AppliedBandwidthLimitAcceptable** <br/> |int  <br/> ||Limitation de la bande passante acceptable pour le partage d’application. La valeur par défaut est de 500000.  <br/> |
-|**SpoiledTilePercentTotalOptimal** <br/> |Decimal(5,2)  <br/> ||Taux optimal pour les mosaïques « endommagés » pour la classification d’une qualité de partage d’Application. Cette valeur est le pourcentage du contenu dans le fichier partagé qui n’ont pas reçu de l’Observateur. Contenu peut-être être ignorée (ou avariée) lorsque le fichier partagé ignore des carreaux à partir de la source des graphiques ou l’ASMCU mosaïques ignore les mosaïques à partir du fichier emprunteur respectivement. La valeur par défaut est de 11 %.  <br/> |
-|**SpoiledTilePercentTotalAcceptable** <br/> |Decimal(5,2)  <br/> ||Taux de pourcentage acceptable de « endommagés » des mosaïques pour la classification d’une qualité de partage d’Application. Cette valeur est le pourcentage du contenu dans le fichier partagé qui n’ont pas reçu de l’Observateur. Contenu peut-être être ignorée (ou avariée) lorsque le fichier partagé ignore des carreaux à partir de la source des graphiques ou l’ASMCU mosaïques ignore les mosaïques à partir du fichier emprunteur respectivement. La valeur par défaut est de 36 pour cent.  <br/> |
+|**CallType** <br/> |int  <br/> |Principal  <br/> |Type d’appel a été passé.  <br/> |
+|**AppliedBandwidthLimitOptimal** <br/> |int  <br/> ||Limitation de bande passante optimale pour le partage d’application. La valeur par défaut est 1000000.  <br/> |
+|**AppliedBandwidthLimitAcceptable** <br/> |int  <br/> ||Limitation de bande passante acceptable pour le partage d’application. La valeur par défaut est 500000.  <br/> |
+|**SpoiledTilePercentTotalOptimal** <br/> |Decimal(5,2)  <br/> ||Taux optimal pour les mosaïques « altérées » pour classer une qualité de partage d’Application. Cette valeur est le pourcentage du contenu dans le fichier partagé qui n’a pas atteint le spectateur. Le contenu peut être ignoré (ou endommagé) lorsque le fichier partagé ignore les mosaïques à partir de la source graphique ou la ASMCU disposer en mosaïque ignore disposer en mosaïque à partir du fichier partagé respectivement. La valeur par défaut est % 11.  <br/> |
+|**SpoiledTilePercentTotalAcceptable** <br/> |Decimal(5,2)  <br/> ||Pourcentage acceptable pour les mosaïques « altérées » pour classer une qualité de partage d’Application. Cette valeur est le pourcentage du contenu dans le fichier partagé qui n’a pas atteint le spectateur. Le contenu peut être ignoré (ou endommagé) lorsque le fichier partagé ignore les mosaïques à partir de la source graphique ou la ASMCU disposer en mosaïque ignore disposer en mosaïque à partir du fichier partagé respectivement. La valeur par défaut est de 36 %.  <br/> |
 |**JitterInterArrivalOptimal** <br/> |int  <br/> ||Cette colonne n’est pas utilisée dans Microsoft Lync Server 2013.  <br/> |
 |**JitterInterArrivalAcceptable** <br/> |int  <br/> ||Cette colonne n’est pas utilisée dans Microsoft Lync Server 2013.  <br/> |
 |**RelativeOneWayBurstDensityOptimal** <br/> |float  <br/> ||Cette colonne n’est pas utilisée dans Microsoft Lync Server 2013.  <br/> |
 |**RelativeOneWayBurstDensityAcceptable** <br/> |float  <br/> ||Cette colonne n’est pas utilisée dans Microsoft Lync Server 2013.  <br/> |
 |**RDPTileProcessingLatencyBurstDensityOptimal** <br/> |float  <br/> ||Cette colonne n’est pas utilisée dans Microsoft Lync Server 2013.  <br/> |
 |**RDPTileProcessingLatencyBurstDensityAcceptable** <br/> |float  <br/> ||Cette colonne n’est pas utilisée dans Microsoft Lync Server 2013.  <br/> |
-|**RelativeOneWayAverageOptimal** <br/> |float  <br/> ||Valeur optimale du délai relatif à sens unique entre les extrémités de deux supports impliquées dans le partage d’application. Il s’agit d’une mesure de latence sur un seul tronçon. La valeur par défaut est 1,0 seconde.  <br/> La colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
-|**RelativeOneWayAverageAcceptable** <br/> |float  <br/> ||Valeur optimale du délai relatif à sens unique entre les extrémités de deux supports impliquées dans le partage d’application. Il s’agit d’une mesure de latence sur un seul tronçon. La valeur par défaut est 1,75 secondes.  <br/> La colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
-|**RDPTileProcessingLatencyAverageOptimal** <br/> |float  <br/> ||Valeur optimale de la mosaïque moyenne de RDP traitement latence dans le serveur de conférence en tant que sur la durée de la session de visualisation. La latence est la différence de temps entre lors du démarrage de la trame est codée sur le serveur (partagés ou MCU en fonction du scénario) et le même cadre de démarrer est décodé dans la visionneuse.  <br/> Une moyenne élevée indique un délai plus long pour l’expérience de visionnage. Un serveur de conférence surchargé peut rencontrer des délais moyens plus élevés. La valeur par défaut est de 200 ms.  <br/> La colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
-|**RDPTileProcessingLatencyAverageAcceptable** <br/> |float  <br/> ||Valeur acceptable de la mosaïque moyenne de RDP traitement latence dans le serveur de conférence en tant que sur la durée de la session de visualisation. La latence est la différence de temps entre lors du démarrage de la trame est codée sur le serveur (partagés ou MCU en fonction du scénario) et le même cadre de démarrer est décodé dans la visionneuse.  <br/> Une moyenne élevée indique un délai plus long pour l’expérience de visionnage. Un serveur de conférence surchargé peut rencontrer des délais moyens plus élevés. La valeur par défaut est de 200 ms.  <br/> La colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
+|**RelativeOneWayAverageOptimal** <br/> |float  <br/> ||Valeur optimale pour le délai relatif à sens unique entre les points de terminaison deux multimédia impliquées dans le partage d’application. Il s’agit d’une mesure de latence sur un seul tronçon. La valeur par défaut est secondes 1.0.  <br/> La colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
+|**RelativeOneWayAverageAcceptable** <br/> |float  <br/> ||Valeur optimale pour le délai relatif à sens unique entre les points de terminaison deux multimédia impliquées dans le partage d’application. Il s’agit d’une mesure de latence sur un seul tronçon. La valeur par défaut est 1,75 secondes.  <br/> La colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
+|**RDPTileProcessingLatencyAverageOptimal** <br/> |float  <br/> ||Valeur optimale de la mosaïque RDP moyenne de traitement latence dans le serveur de conférence en tant que pendant la durée de la session de visualisation. Latence est la différence entre lorsque l’image de démarrage est codée sur le serveur (partagé ou MCU en fonction du scénario) et la même image de démarrage est décodée dans la visionneuse.  <br/> Une moyenne élevée indique un délai plus long pour l’expérience de visionnage. Un serveur de conférence surchargé peut rencontrer des délais moyens plus élevés. La valeur par défaut est 200 ms.  <br/> La colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
+|**RDPTileProcessingLatencyAverageAcceptable** <br/> |float  <br/> ||Valeur de la mosaïque RDP moyenne de traitement latence dans le serveur de conférence en tant que pendant la durée de la session de visualisation. Latence est la différence entre lorsque l’image de démarrage est codée sur le serveur (partagé ou MCU en fonction du scénario) et la même image de démarrage est décodée dans la visionneuse.  <br/> Une moyenne élevée indique un délai plus long pour l’expérience de visionnage. Un serveur de conférence surchargé peut rencontrer des délais moyens plus élevés. La valeur par défaut est 200 ms.  <br/> La colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
    
 

@@ -1,5 +1,6 @@
 ---
 title: Planification de capacité pour Skype pour Business Server 2019
+ms.reviewer: ''
 ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Les rubriques de cette section vous aider à comprendre comment planifier et déployer Skype pour Business Server afin que vous pouvez planifier pour le nombre d’utilisateurs dans votre organisation et le plan de la charge du serveur qui génèrent de leurs activités.
-ms.openlocfilehash: 4a18b68d080eb7cb2a384b727e4ce4d7593d0ac4
-ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
+ms.openlocfilehash: 1d20ed85c06514f4e999a966c5d137727842726d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "30178715"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875969"
 ---
 # <a name="capacity-planning-for-skype-for-business-server-2019"></a>Planification de capacité pour Skype pour Business Server 2019
 
@@ -30,7 +31,7 @@ Nous avons réalisé nos tests de performances sur le matériel décrit dans le 
 |:-----|:-----|
 |Processeur  <br/> |Intel Xeon E5-2673 v3 double processeur, 6-cœur, 2,4 gigahertz (GHz) ou supérieur.  <br/> Les processeurs Intel Itanium ne sont pas pris en charge pour Skype pour Business Server 2019 rôles.  <br/> |
 |Mémoire  <br/> |32 giga-octets (Go).  <br/> |
-|Disque  <br/> |SOIT :  <br/> • Au moins 8 disques durs de 10 000 tr/min avec au moins 72 Go d’espace disque disponible (deux de ces disques utilisant RAID 1 et six autres utilisant RAID 10).   <br/> SOIT  <br/> •	Des disques SSD (Solid State Drives) pouvant fournir le même espace libre et des performances similaires aux 8 unités de disques mécaniques de 10 000 tr/min.  <br/> |
+|Disque  <br/> |SOIT :  <br/> • 8 ou plus disques durs de 10 000 tpm avec au moins 72 Go d’espace (deux de ces disques RAID 1 et 6 à l’aide de RAID 10).  <br/> OU  <br/> • SSD (Solid) en mesure de fournir le même espace et des performances similaires à 8 10 000 TPM disques durs mécaniques.  <br/> |
 |Réseau  <br/> |1 carte réseau double port, 1 Gbit/s ou plus (2 cartes réseaux peuvent être utilisées, mais elles doivent être associées à une seule adresse MAC et à une seule adresse IP).  <br/> Les configurations doubles ou multi-hébergés sont **pas** serveurs pris en charge pour les serveurs frontaux, serveurs principaux et Standard Edition. <br/> Tant qu’ils ne sont pas exposés au système d’exploitation et sont utilisés pour surveiller et gérer le matériel du serveur, vous pouvez avoir hors de gestion des systèmes, tels que DRAC ou ILO. Une telle configuration ne constitue pas un serveur à plusieurs connexions et est prise en charge.  <br/> |
 
 ## <a name="summary-of-results"></a>Résumé des résultats
@@ -77,7 +78,7 @@ Le tableau suivant montre la bande passante moyenne pour la messagerie instantan
 |Kbits/s 3-3,75  <br/> |13 Mbits/s  <br/> |
 
 > [!NOTE]
-> Pour améliorer les performances multimédias de localisée au même emplacement A / V conférence et le serveur de médiation fonctionnalité sur vos serveurs frontaux, vous devez activer la côté réception montée en puissance (RSS) sur les cartes réseau sur vos serveurs frontaux. RSS permet la gestion en parallèle des paquets entrants par plusieurs processeurs sur le serveur. Pour plus d’informations, reportez-vous à la rubrique [Receive Side Scaling (RSS) de la documentation de Windows Server 2012](https://go.microsoft.com/fwlink/p/?LinkId=620365). Pour plus d’informations sur l’activation de RSS, vous devrez vous reporter à la documentation de votre carte réseau.
+> Pour améliorer les performances multimédias de localisée au même emplacement A / V conférence et le serveur de médiation fonctionnalité sur vos serveurs frontaux, vous devez activer la côté réception montée en puissance (RSS) sur les cartes réseau sur vos serveurs frontaux. RSS permet la gestion en parallèle des paquets entrants par plusieurs processeurs sur le serveur. Pour plus d’informations, voir [Côté réception mise à l’échelle (RSS) dans la documentation de Windows Server 2012](https://go.microsoft.com/fwlink/p/?LinkId=620365). Pour plus d’informations sur l’activation de RSS, vous devrez vous reporter à la documentation de votre carte réseau.
 
 ## <a name="conferencing-maximums"></a>Nombre maximal de conférences
 
@@ -91,7 +92,7 @@ Pour activer les conférences qui ont entre 250 et 1 000 utilisateurs, vous pouv
 
 Si votre organisation a beaucoup plus de conférences en mode mixte que sont considérées comme dans le modèle utilisateur, vous devrez déployer plusieurs serveurs frontaux que nous recommandation dans ce document (jusqu'à une limite de 16 serveurs frontaux). Pour plus d’informations sur les hypothèses dans le modèle utilisateur, voir [modèles utilisateur Skype pour Business Server](../../SfbServer/plan-your-deployment/capacity/user-models.md).
 
-## <a name="edge-server"></a>Serveur Edge
+## <a name="edge-server"></a>serveur Edge
 
 > [!NOTE]
 > Les pools étendus ne sont pas pris en charge pour ce rôle serveur.
@@ -171,7 +172,7 @@ Microsoft a utilisé le matériel décrit dans le tableau ci-dessous pour le ser
 |:-----|:-----|
 |Processeur  <br/> |Intel Xeon E5-2673 v3 double processeur, 6-cœur, 2,4 gigahertz (GHz) ou supérieur.  <br/> |
 |Mémoire  <br/> |48 GO  <br/> |
-|Disque  <br/> | SOIT :<br/> • Au moins 4 disques durs de 10 000 tr/min avec au moins 72 Go d’espace disque disponible (les disques doivent avoir une configuration 2x RAID 1). <br/>SOIT <br/>•	Des disques SSD (Solid State Drives) pouvant fournir le même espace libre et des performances similaires aux 4 unités de disques mécaniques de 10 000 tr/min.   <br/> |
+|Disque  <br/> | SOIT :<br/> • 4 ou plus 10 000 TPM disques durs avec au moins 72 Go d’espace (les disques doivent être dans une configuration RAID 1 x 2). <br/>OU <br/>• SSD (Solid) en mesure de fournir le même espace et des performances similaires à 4 10 000 TPM disques durs mécaniques.   <br/> |
 |Réseau  <br/> | 1 carte réseau double port, 1 Gbits/s ou supérieur (2 recommandé, ce qui nécessite l’association à une seule adresse MAC et une seule adresse IP).  <br/> |
 
 **Configurations de disque recommandées**

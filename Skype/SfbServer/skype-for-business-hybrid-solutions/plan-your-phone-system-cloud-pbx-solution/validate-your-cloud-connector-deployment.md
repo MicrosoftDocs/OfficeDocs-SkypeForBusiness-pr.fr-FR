@@ -1,5 +1,6 @@
 ---
 title: Validation de votre déploiement de Cloud Connector
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,14 +14,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 30b6be15-77fa-43b0-b558-87b9724feb35
 description: Une fois que vous avez effectué les étapes pour déployer et configurer Skype pour l’édition de connecteur Business Cloud, vérifiez que vous pouvez émettre et recevoir des appels.
-ms.openlocfilehash: 57d0d72974d25ca2472dcee80e0a4156d1f70920
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 7ea8e686c578941c2009465fc43ed6ae004dbb88
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23889660"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875375"
 ---
-# <a name="validate-your-cloud-connector-deployment"></a>Validation de votre déploiement de Cloud Connector
+# <a name="validate-your-cloud-connector-deployment"></a>Validate your Cloud Connector deployment
  
 Une fois que vous avez effectué les étapes pour déployer et configurer Skype pour l’édition de connecteur Business Cloud, vérifiez que vous pouvez émettre et recevoir des appels.
   

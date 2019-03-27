@@ -1,5 +1,6 @@
 ---
 title: Nœud d’étendue du directeur
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 790396f1-9821-45cd-906d-80c1f170f5ef
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Ce nœud affiche le nom de domaine complet (FQDN), les ports et le magasin de fichiers associé pour ce pool directeur. Vous pouvez effectuer les actions suivantes :'
-ms.openlocfilehash: 64590075286b7b88ab4c2097f3fd735a788e5f1c
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 8413d5e9c1382bb14a12571d3cab645d033dee68
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21063274"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874618"
 ---
 # <a name="director-scope-node"></a>Nœud d’étendue du directeur
  

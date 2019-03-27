@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Cet article explique les préparations de l’infrastructure pour le déploiement de systèmes de salle Skype v2.
-ms.openlocfilehash: 24ad623b81df5735c9034d8526e6b028e82dfb83
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 89c035816784bf160ad7f1ed821ed0effe916f31
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371881"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876071"
 ---
 # <a name="prepare-your-environment"></a>Préparer votre environnement
 
@@ -84,30 +84,30 @@ Systèmes de salle Skype v2 est conçu pour hériter les paramètres de Proxy à
 3. Dans la **Recherche Windows** zone type gauche inférieur regedit (soit long appuyez sur l’écran ou cliquez avec le bouton droit sur et sélectionnez **Exécuter en tant qu’administrateur**).
     
 4. Cliquez sur le dossier HKEY_USERS (vous verrez une liste de SID de l’utilisateur d’ordinateur), assurez-vous que le dossier racine HKEY_USERS est sélectionné.
-    
-    Vous serez invité pour un nom de clé pour votre ruche chargée ; Tapez dans Skype (vous devez maintenant voir les paramètres de Registre de l’utilisateur Skype).
-    
+       
 5. Cliquez sur fichier, puis choisissez **charger la ruche.**
     
 6. Parcourir le pour l' **C:\Users\Skype** dossier et tapez le nom de fichier zone NTUSER.dat et appuyez sur le bouton Ouvrir
-    
-7. Ouvrez la clé Skype et accédez à paramètres HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet, puis vérifiez la que configuration de ces paramètres : 
+
+7. Vous serez invité pour un nom de clé pour votre ruche chargée ; Tapez dans Skype (vous devez maintenant voir les paramètres de Registre de l’utilisateur Skype).
+ 
+8. Ouvrez la clé Skype et accédez à paramètres HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet, puis vérifiez la que configuration de ces paramètres : 
     
     [HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings]
     
-    « MigrateProxy » = DWORD : 00000001
+    "MigrateProxy"=dword:00000001
     
-    « ProxyEnable » = DWORD : 00000001
+    "ProxyEnable"=dword:00000001
     
-    « ProxyServer"="xx.xx.xx.xx:8080 »
+    "ProxyServer"="xx.xx.xx.xx:8080"
     
     Si ProxyServer n’existe pas, vous devrez peut-être ajouter cette clé en tant qu’une chaîne, changez xx.xx.xx.xx:8080 pour ip/host et port de votre serveur Proxy.
     
-8. Une fois que vous avez terminé d’apporter les modifications de mise en surbrillance de l’utilisateur Skype principales (dossier racine de Skype), puis choisissez décharger la ruche dans le menu fichier de Registre (vous serez invité à confirmer - sélectionnez **Oui** ).
+9. Une fois que vous avez terminé d’apporter les modifications de mise en surbrillance de l’utilisateur Skype principales (dossier racine de Skype), puis choisissez décharger la ruche dans le menu fichier de Registre (vous serez invité à confirmer - sélectionnez **Oui** ).
     
-9. Vous pouvez désormais fermer l’éditeur de registre et saisissez déconnexion dans la zone de recherche Windows.
+10. Vous pouvez désormais fermer l’éditeur de registre et saisissez déconnexion dans la zone de recherche Windows.
     
-10. De retour dans l’écran de connexion, choisissez l’utilisateur **Skype**. Si toutes les étapes précédentes ont réussi, l’appareil v2 de systèmes de salle Skype système reconnectez-vous avec succès.
+11. De retour dans l’écran de connexion, choisissez l’utilisateur **Skype**. Si toutes les étapes précédentes ont réussi, l’appareil v2 de systèmes de salle Skype système reconnectez-vous avec succès.
     
 Pour utiliser cette application, vous devez être en mesure de vous connecter aux points de terminaison décrits ci-après. Pour consulter les adresses IP, développez la section d’adresses IP sous la table de description de flux de trafic.
   
@@ -124,7 +124,7 @@ Pour utiliser cette application, vous devez être en mesure de vous connecter au
 |Vidéo  <br/> |Ordinateur client ou utilisateur connecté  <br/> |TCP/UDP 50 020-50039  <br/> |\*. contoso.com  <br/> |Non  <br/> |Oui  <br/> |[Skype pour les plages d’adresses IP d’entreprise](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443, UDP 3478, TCP/UDP 50 000-59 999  <br/> |
 |Partage de bureau  <br/> |Ordinateur client ou utilisateur connecté  <br/> |TCP/UDP 50 040-50059  <br/> |\*. contoso.com  <br/> |Non  <br/> |Oui  <br/> |[Skype pour les plages d’adresses IP d’entreprise](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443, 50 000-59 999  <br/> |
 |Notifications Push pour Lync Mobile 2010 sur des appareils iOS. Cela n’est pas nécessaire pour appareils mobiles Android, Nokia Symbian ou Windows Phone.  <br/> |Ordinateur client ou utilisateur connecté  <br/> |Ports éphémères  <br/> |\*. contoso.com  <br/> |Non  <br/> |Oui  <br/> |[Skype pour les plages d’adresses IP d’entreprise](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 5223  <br/> |
-|Télémétrie Skype  <br/> |Ordinateur client ou utilisateur connecté  <br/> |Ports éphémères  <br/> |skypemaprdsitus.trafficmanager.NET  <br/> pipe.Skype.com  <br/> |Non  <br/> |Non  <br/> |N/A  <br/> |TCP 443  <br/> |
+|Télémétrie Skype  <br/> |Ordinateur client ou utilisateur connecté  <br/> |Ports éphémères  <br/> |skypemaprdsitus.trafficmanager.net  <br/> pipe.skype.com  <br/> |Non  <br/> |Non  <br/> |N/A  <br/> |TCP 443  <br/> |
 |Conseils rapides pour les clients Skype  <br/> |Ordinateur client ou utilisateur connecté  <br/> |Ports éphémères  <br/> |quicktips.skypeforbusiness.com  <br/> |Non  <br/> |Non  <br/> |N/A  <br/> |TCP 443  <br/> |
    
 > [!NOTE]
@@ -170,8 +170,8 @@ Beaucoup comme n’importe quel appareil Windows, le nom de l’ordinateur peut 
 
 [Configuration requise pour Skype Room Systems v2](requirements.md)
   
-[Déploiement de Skype Room System v2](../../deploy/deploy-clients/room-systems-v2.md)
+[Déploiement des systèmes Skype Room version 2](../../deploy/deploy-clients/room-systems-v2.md)
   
-[Configuration d’une console Skype Room Systems v2](../../deploy/deploy-clients/console.md)
+[Configuration d’une console pour les systèmes Skype Room version 2](../../deploy/deploy-clients/console.md)
   
-[Gestion de Skype Room System v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Gestion des systèmes Skype Room version 2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)

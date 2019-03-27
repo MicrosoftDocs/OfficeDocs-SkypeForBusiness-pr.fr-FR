@@ -1,5 +1,6 @@
 ---
 title: Créer un pool VIS dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: abd8c4f7-057f-4360-8e3e-ec29b58f16a8
 description: 'Résumé : Créez un pool de serveurs d’interopérabilité vidéo dans Skype pour Business Server à l’aide du Générateur de topologie.'
-ms.openlocfilehash: 65771e72250ad1d5e9625bdd6cc1a8d47b5dabe2
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 484cb1c504680dde393d24ce65606e415d070edb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373457"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874108"
 ---
 # <a name="create-a-vis-pool-in-skype-for-business-server"></a>Créer un pool VIS dans Skype pour Business Server
  

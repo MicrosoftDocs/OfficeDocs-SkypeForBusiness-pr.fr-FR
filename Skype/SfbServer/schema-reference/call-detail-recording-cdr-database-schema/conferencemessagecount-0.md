@@ -1,5 +1,6 @@
 ---
-title: Vue de ConferenceMessageCount
+title: Vue conferencemessagecount
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -9,25 +10,26 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ee3ee95-fb78-4d4e-bcdd-6ce5a0a23b44
-description: La vue ConferenceMessageCount stocke des informations sur le nombre de messages envoyé par un utilisateur à une conférence. Cette vue a été introduite dans Microsoft Lync Server 2013.
-ms.openlocfilehash: f0206145217f63e4530d2eac39c7c6533dcf154e
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: L’affichage ConferenceMessageCount stocke des informations sur le nombre de messages envoyé par un utilisateur à une conférence. Cet affichage a été introduit dans Microsoft Lync Server 2013.
+ms.openlocfilehash: f2290eef7d2738831ed3ce72c794a36659858b8b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874073"
 ---
-# <a name="conferencemessagecount-view"></a>Vue de ConferenceMessageCount
+# <a name="conferencemessagecount-view"></a>Vue conferencemessagecount
  
-La vue ConferenceMessageCount stocke des informations sur le nombre de messages envoyé par un utilisateur à une conférence. Cette vue a été introduite dans Microsoft Lync Server 2013.
+L’affichage ConferenceMessageCount stocke des informations sur le nombre de messages envoyé par un utilisateur à une conférence. Cet affichage a été introduit dans Microsoft Lync Server 2013.
   
 > [!NOTE]
-> La vue ConferenceMessageCount contient toutes les colonnes dans la [vue de le ConferenceSessionDetails](conferencesessiondetails.md) en outre les colonnes répertoriées ci-dessous.
+> L’affichage ConferenceMessageCount contient toutes les colonnes dans la [vue conferencesessiondetails](conferencesessiondetails.md) en plus des colonnes répertoriées ci-dessous.
   
 |**Colonne**|**Type de données**|**Détails**|
 |:-----|:-----|:-----|
 |**UserUri** <br/> |nvarchar(450)  <br/> |URI de l’utilisateur qui a envoyé le message.  <br/> |
-|**UserUriType** <br/> |nvarchar(256)  <br/> |Type d’URI de l’utilisateur qui a envoyé les messages. Consultez le [tableau de UriTypes](uritypes.md) pour plus d’informations. <br/> |
-|**UserTenant** <br/> |uniqueidentifier  <br/> |Clients de l’utilisateur qui a envoyé les messages. Consultez le [tableau des locataires](tenants.md) pour plus d’informations. <br/> |
-|**UserMessageCount** <br/> |smallint  <br/> |Nombre de messages envoyés par l’utilisateur pendant la session de la conférence.  <br/> |
+|**UserUriType** <br/> |nvarchar(256)  <br/> |Type d’URI de l’utilisateur qui a envoyé les messages. Consultez la [table UriTypes](uritypes.md) pour plus d’informations. <br/> |
+|**UserTenant** <br/> |uniqueidentifier  <br/> |Client de l’utilisateur qui a envoyé les messages. Consultez le [tableau des clients](tenants.md) pour plus d’informations. <br/> |
+|**UserMessageCount** <br/> |smallint  <br/> |Nombre de messages envoyés par l’utilisateur pendant la session de conférence.  <br/> |
    
 

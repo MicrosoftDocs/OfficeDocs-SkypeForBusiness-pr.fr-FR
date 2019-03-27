@@ -1,5 +1,6 @@
 ---
-title: Mise à jour-CcCACertificate
+title: Update-CcCACertificate
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -9,16 +10,17 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5b474789-75de-443c-89bd-de89be55a1dd
-description: L’applet de commande Update-CcCACertificate renouvelle le Skype pour le certificat d’autorité de certification de racine Business Edition de connecteur de nuage qui se trouve à proximité d’expiration ou a déjà expiré.
-ms.openlocfilehash: f23298f1be30ab96b3e77ff0625ff6e3b419e111
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: L’applet de commande Update-CcCACertificate renouvelle le Skype pour certificat d’autorité de certification racine nuage connecteur édition bientôt expirer ou déjà arrivé à expiration.
+ms.openlocfilehash: d123474240fb18ffcb6c1c037cc5407eb4c6c4e3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877932"
 ---
-# <a name="update-cccacertificate"></a>Mise à jour-CcCACertificate
+# <a name="update-cccacertificate"></a>Update-CcCACertificate
  
-L’applet de commande Update-CcCACertificate renouvelle le Skype pour le certificat d’autorité de certification de racine Business Edition de connecteur de nuage qui se trouve à proximité d’expiration ou a déjà expiré. 
+L’applet de commande Update-CcCACertificate renouvelle le Skype pour certificat d’autorité de certification racine nuage connecteur édition bientôt expirer ou déjà arrivé à expiration. 
   
 ```
 Update-CcCACertificate
@@ -44,18 +46,18 @@ Update-CcCACertificate
 
 Le certificat de l’AC racine de Cloud Connector est valide cinq ans à partir de la date d’installation du service d’autorité de certification.
   
-Si le certificat racine se trouve à proximité d’expiration ou déjà expiré, exécutez l’applet de commande Update-CcCACertificate pour renouveler le certificat. Après le renouvellement du certificat racine, le serveur AD, le magasin central de gestion et le serveur Edge fournissent automatiquement de nouveaux certificats.
+Si le certificat racine est proche d’expiration ou déjà expirés, exécutez l’applet de commande Update-CcCACertificate pour renouveler le certificat. Après le renouvellement du certificat racine, le serveur AD, le magasin central de gestion et le serveur Edge fournissent automatiquement de nouveaux certificats.
   
-S’il y a plusieurs applications sur le même site RTPC, exécutez l’applet de commande Update-CcCACertificate dans tous les appareils du même site RTPC.
+S’il existe plusieurs applications dans le même site PSTN, exécutez l’applet de commande Update-CcCACertificate dans tous les appareils du même site PSTN.
   
 Comme dernière étape, exécutez Export-CcRootCertificate afin d’exporter le certificat racine vers un fichier local dans la première appliance, puis copiez et installez le certificat exporté vers vos passerelles RTC.
   
-Cette commande remplace l’applet de commande de renouvellement-CcCACertificate dans le nuage lien 2.0 et versions ultérieures.
+Cette commande remplace l’applet de commande renouveler-CcCACertificate dans le nuage connecteur 2.0 et versions ultérieures.
   
 ## <a name="input-types"></a>Types d’entrées
 <a name="InputTypes"> </a>
 
-Aucun. L’applet de commande Update-CcCACertificate n’accepte pas les entrées de pipeline.
+Aucun. L’applet de commande Update-CcCACertificate n’accepte pas la saisie de données redirigées.
   
 ## <a name="return-types"></a>Types de retours
 <a name="ReturnTypes"> </a>
@@ -65,10 +67,10 @@ Aucun.
 ## <a name="see-also"></a>Voir aussi
 <a name="ReturnTypes"> </a>
 
-[Réinitialisation-CcCACertificate](reset-cccacertificate.md)
+[Reset-CcCACertificate](reset-cccacertificate.md)
   
-[Renouveler-CcServerCertificate](renew-ccservercertificate.md)
+[Renew-CcServerCertificate](renew-ccservercertificate.md)
   
-[Exportation-CcRootCertificate](export-ccrootcertificate.md)
+[Export-CcRootCertificate](export-ccrootcertificate.md)
   
 

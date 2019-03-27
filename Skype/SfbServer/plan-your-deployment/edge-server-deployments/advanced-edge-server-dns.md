@@ -1,5 +1,6 @@
 ---
 title: DNS du serveur Edge une planification avancée pour Skype pour Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 ms.audience: ITPro
@@ -12,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: 'Résumé : Examen de scénarios pour Skype pour les options de déploiement de serveur d’entreprise. Si vous souhaitez qu’un seul serveur ou que vous préférez un pool de serveurs DNS ou matérielle, cette rubrique doit contribuer à.'
-ms.openlocfilehash: 4631f7120bb091f3a9666edd4ab2d92cfdf52a00
-ms.sourcegitcommit: ce3f40d2ffdf452111a317a019eeebf807b0c78a
+ms.openlocfilehash: e6619056d7c8a69f63fa22007a7702b41480719f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30537564"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30872957"
 ---
 # <a name="advanced-edge-server-dns-planning-for-skype-for-business-server"></a>DNS du serveur Edge une planification avancée pour Skype pour Business Server
  
@@ -126,7 +127,7 @@ Nous allons répertorient les enregistrements DNS pour les zones internes et ext
     
   - Enregistrements DNS A et AAAA (si vous utilisez l’adressage IPv6) et SRV pour Skype pour la configuration automatique des clients Business Server ( **facultatif** ).
     
-## <a name="automatic-configuration-without-split-brain-dns"></a>Configuration automatique sans DNS split-brain
+## <a name="automatic-configuration-without-split-brain-dns"></a>Configuration automatique sans DNS Split-Brain
 <a name="NoSplitBrainDNS"> </a>
 
 Si vous n’utilisez pas DNS split-brain, interne configuration automatique des clients exécutant Skype pour les entreprises ne fonctionne pas, sauf si vous utilisez une des solutions que nous avons ici. Pourquoi ? Étant donné que Skype pour Business Server nécessite l’URI SIP de l’utilisateur correspondre au domaine du pool frontal désigné pour la configuration automatique. Cela n’a pas changé par rapport aux versions antérieures de Lync Server.
@@ -196,7 +197,7 @@ Maintenant que nous savons que tout, si vous devez exigence automatique pour vot
 > [!NOTE]
 > En outre, les valeurs de nom de domaine complet du pool frontal modifier entre les exemples de contoso.com et fabrikam.com, mais les adresses IP restent les mêmes. C’est parce que les utilisateurs qui vous connectez depuis un domaine SIP utiliseront le même pool frontal pour la configuration automatique. 
   
-## <a name="dns-disaster-recovery"></a>Récupération d’urgence de DNS
+## <a name="dns-disaster-recovery"></a>DNS disaster recovery
 <a name="DNSDR"> </a>
 
 Pour configurer DNS pour rediriger Skype pour le trafic web Business Server à vos sites de basculement et de récupération d’urgence (DR), vous devez utiliser un fournisseur de DNS qui prend en charge GeoDNS. Vous pouvez configurer vos enregistrements DNS pour prendre en charge de la récupération d’urgence, afin que les fonctionnalités qui utilisent les services web continuent même si un pool frontal entier tombe en panne. Cette fonctionnalité DR prend en charge les URL simples de découverte automatique, de réunion et de rendez-vous.
@@ -254,7 +255,7 @@ Vous ne pouvez pas utiliser l’équilibrage de charge DNS pour :
   
 - Trafic web client à serveur pour vos serveurs frontaux ou un directeur.
     
-Pour accéder à un peu plus détaillées sur le mode de sélection d’un enregistrement DNS SRV lorsque plusieurs enregistrements DNS sont retournés par une requête, le service Edge d’accès toujours sélectionne l’enregistrement par ordre de priorité numérique et, si un séparateur de jonction n’est nécessaire, le poids numérique le plus élevé. Cela est compatible avec [Internet Engineering Task Force documentation](https://www.ietf.org/rfc/rfc2782.txt).
+Pour accéder à un peu plus détaillées sur le mode de sélection d’un enregistrement DNS SRV lorsque plusieurs enregistrements DNS sont retournés par une requête, le service Edge d’accès toujours sélectionne l’enregistrement par ordre de priorité numérique et, si un séparateur de jonction n’est nécessaire, le poids numérique le plus élevé. Cela est cohérent avec la [documentation de Internet Engineering Task Force](https://www.ietf.org/rfc/rfc2782.txt).
   
 Ainsi, par exemple, si votre premier enregistrement DNS SRV a un poids de 20 et une priorité de 40, et votre deuxième enregistrement SRV DNS a une valeur de 10 et une priorité de 50, le premier enregistrement va être choisi car il a la priorité basse de 40. La priorité vient toujours d’abord, et c’est l’hôte qu’un client va cibler le premier. Que se passe-t-il s’il existe deux cibles ayant la même priorité ? 
   

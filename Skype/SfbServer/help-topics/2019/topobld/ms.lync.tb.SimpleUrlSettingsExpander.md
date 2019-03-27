@@ -1,5 +1,6 @@
 ---
-title: Expanseur des paramètres de URL simple
+title: Expandeur des paramètres d’une URL simple
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 9fd2087a-3c3a-4863-aa7f-e532a18e77af
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Pour spécifier une nouvelle, suppression existante ou modifier l’active les URL simples, procédez comme suit :'
-ms.openlocfilehash: 138b830415a1a6a8e7f248aedf66980a507f7ffd
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 4bfa9f558f355358bcdf956dddb4e2e7f3f9b796
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23245257"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875678"
 ---
-# <a name="simple-url-settings-expander"></a>Expanseur des paramètres de URL simple
+# <a name="simple-url-settings-expander"></a>Expandeur des paramètres d’une URL simple
 
 Pour spécifier une nouvelle, suppression existante ou modifier l’active les URL simples, procédez comme suit :
 

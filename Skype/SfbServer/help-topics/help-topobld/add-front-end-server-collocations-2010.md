@@ -1,5 +1,6 @@
 ---
-title: Ajouter des COLOCALISATIONS du serveur frontal 2010
+title: Ajouter des colocalisations du serveur frontal 2010
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4d328bf4-85bc-4870-8d6f-008c0e46520e
 description: Pour un déploiement Enterprise Edition, vous pouvez colocaliser soit A / V Conferencing service, le serveur de médiation ou les deux sur le pool frontal, ou vous pouvant déployer chaque en tant que serveurs autonomes. Pour un déploiement Standard Edition server, A / service de conférence de V est toujours colocalisé si la conférence est activée.
-ms.openlocfilehash: daaa15cf58952badd00512b7d89ffd832790f81f
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 42fd773c8874ec1416ac8c161bc60b8baba52f0e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23263029"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875340"
 ---
-# <a name="add-front-end-server-collocations-2010"></a>Ajouter des COLOCALISATIONS du serveur frontal 2010
+# <a name="add-front-end-server-collocations-2010"></a>Ajouter des colocalisations du serveur frontal 2010
 
 Pour un déploiement Enterprise Edition, vous pouvez colocaliser soit A / V Conferencing service, le serveur de médiation ou les deux sur le pool frontal, ou vous pouvant déployer chaque en tant que serveurs autonomes. Pour un déploiement Standard Edition server, A / service de conférence de V est toujours colocalisé si la conférence est activée.
 

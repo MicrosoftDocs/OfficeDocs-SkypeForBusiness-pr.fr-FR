@@ -1,5 +1,6 @@
 ---
-title: Ajouter le FQDN du serveur Edge
+title: Ajouter un nom de domaine complet du serveur Edge
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 84a9511d-601d-4819-a30c-7b08d96e4d97
 ROBOTS: NOINDEX, NOFOLLOW
 description: Vous devez spécifier un nom de domaine complet (FQDN) pour le service Edge d’accès. Si vous n’avez pas sélectionné utiliser un nom de domaine complet unique &amp; option d’adresse IP dans la zone Sélectionnez les fonctionnalités de page, vous devez également spécifier un nom de domaine complet pour le service Edge de conférence Web et A / V Edge service.
-ms.openlocfilehash: 1387726c9f4cffd22d7e9becd7908846b734357d
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 07591bf9e98f74d9092e34e34b62b8cb2bdcf525
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21067601"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873561"
 ---
-# <a name="add-edge-server-fqdn"></a>Ajouter le FQDN du serveur Edge
+# <a name="add-edge-server-fqdn"></a>Ajouter un nom de domaine complet du serveur Edge
  
 Vous devez spécifier un nom de domaine complet (FQDN) pour le service Edge d’accès. Si vous n’avez pas sélectionné le **utilisez un nom de domaine complet unique &amp; adresse IP** option dans la page **Sélectionner les fonctionnalités** , vous devez également spécifier un nom de domaine complet pour le service Edge de conférence Web et A / V Edge service.
   

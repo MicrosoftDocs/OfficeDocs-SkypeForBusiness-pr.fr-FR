@@ -1,5 +1,6 @@
 ---
-title: Table de UserAgentDef (QoE)
+title: Table UserAgentDef (QoE)
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -9,20 +10,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cfd8e3e0-4076-4162-9381-5276da8316d9
-description: La table UserAgentDef mappe les identificateurs de l’agent utilisateur à noms descriptifs de l’agent. Les agents utilisateurs sont des clients du logiciel utilisés pour se connecter sur Skype pour Business Server.
-ms.openlocfilehash: fac9f838185482a13bb778cfc7f27f78baf2c66f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: La table UserAgentDef mappe les identificateurs d’agents utilisateurs aux noms descriptifs des agents. Agents utilisateurs sont des clients logiciels utilisés pour se connecter à Skype pour Business Server.
+ms.openlocfilehash: 8f607be022851a6622060c47dedc5ac36358a3c3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876612"
 ---
-# <a name="useragentdef-table-qoe"></a>Table de UserAgentDef (QoE)
+# <a name="useragentdef-table-qoe"></a>Table UserAgentDef (QoE)
  
-La table UserAgentDef mappe les identificateurs de l’agent utilisateur à noms descriptifs de l’agent. Les agents utilisateurs sont des clients du logiciel utilisés pour se connecter sur Skype pour Business Server.
+La table UserAgentDef mappe les identificateurs d’agents utilisateurs aux noms descriptifs des agents. Agents utilisateurs sont des clients logiciels utilisés pour se connecter à Skype pour Business Server.
   
 |**UAType**|**UAName**|**UACategory**|
 |:-----|:-----|:-----|
-|1  <br/> |MediationServer  <br/> |MediationServer  <br/> |
+|1  <br/> |Le serveur de médiation  <br/> |Le serveur de médiation  <br/> |
 |2  <br/> |AV-MCU  <br/> |AV-MCU  <br/> |
 |4  <br/> |OC  <br/> |OC  <br/> |
 |8  <br/> |OCPhone  <br/> |OCPhone  <br/> |
@@ -32,13 +34,13 @@ La table UserAgentDef mappe les identificateurs de l’agent utilisateur à noms
 |64  <br/> |MC  <br/> |MM  <br/> |
 |128  <br/> |Intendant  <br/> |Intendant  <br/> |
 |256  <br/> |Conferencing_Announcement_Service_1.0  <br/> |AUTORITÉS DE CERTIFICATION  <br/> |
-|512  <br/> |Conferencing_Attendant_1.0  <br/> |TCHA  <br/> |
-|512  <br/> |Conference_Auto_Attendant_1.0  <br/> |TCHA  <br/> |
+|512  <br/> |Conferencing_Attendant_1.0  <br/> |CAA  <br/> |
+|512  <br/> |Conference_Auto_Attendant_1.0  <br/> |CAA  <br/> |
 |1024  <br/> |Response_Group_Service  <br/> |RGS  <br/> |
 |1032  <br/> |Call_Park_Service_1.0  <br/> |CPS  <br/> |
 |1040  <br/> |Response_Group_Service Announcement_Service  <br/> |EN TANT QUE  <br/> |
 |2048  <br/> |Microsoft.Rtc.Applications.Ccs  <br/> |CCS  <br/> |
-|16386  <br/> |Côme  <br/> |Côme  <br/> |
+|16386  <br/> |CoMo  <br/> |CoMo  <br/> |
 |16387  <br/> |CWA  <br/> |CWA  <br/> |
 |16388  <br/> |InboundRouting  <br/> |InboundRouting  <br/> |
 |16389  <br/> |ComoSvc  <br/> |ComoSvc  <br/> |

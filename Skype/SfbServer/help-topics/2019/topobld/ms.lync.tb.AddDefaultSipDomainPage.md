@@ -1,5 +1,6 @@
 ---
-title: Ajouter le domaine Sip par défaut
+title: Ajouter un domaine SIP par défaut
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: b9dd496e-d43b-42e4-9e70-a70abb79cdc3
 ROBOTS: NOINDEX, NOFOLLOW
 description: Spécifiez le domaine principal protocole SIP (Session Initiation) que vous souhaitez que votre déploiement pour prendre en charge. Le domaine SIP principal peut être identique ou différent de votre domaine Active Directory Domain Services. Par exemple, votre domaine Active Directory peut être fabrikam.net, et vous pouvez spécifier votre domaine SIP principal pour être contoso.net.
-ms.openlocfilehash: e6598b5171b4ed170db933723c2307052b929342
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: ac7f328b23a9b4f3e75e3ad89a7496e0fff8dbe7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21067840"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876005"
 ---
-# <a name="add-default-sip-domain"></a>Ajouter le domaine Sip par défaut
+# <a name="add-default-sip-domain"></a>Ajouter un domaine SIP par défaut
  
 Spécifiez le domaine principal protocole SIP (Session Initiation) que vous souhaitez que votre déploiement pour prendre en charge. Le domaine SIP principal peut être identique ou différent de votre domaine Active Directory Domain Services. Par exemple, votre domaine Active Directory peut être fabrikam.net, et vous pouvez spécifier votre domaine SIP principal pour être contoso.net.
   

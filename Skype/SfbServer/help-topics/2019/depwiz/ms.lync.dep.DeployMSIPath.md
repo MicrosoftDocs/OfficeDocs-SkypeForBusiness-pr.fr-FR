@@ -1,5 +1,6 @@
 ---
 title: Chemin d’accès de déploiement Assistant au programme d’installation MSI
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 81aaa294-aca1-4ff6-894e-de8098b6eb17
 ROBOTS: NOINDEX, NOFOLLOW
 description: Pour plus d’informations sur l’utilisation de l’Assistant déploiement pour installer Skype pour Business Server, voir Skype installer for Business Server.
-ms.openlocfilehash: 2ec9764aab1289cd1b9af36aacf4fe076b2007ed
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: cd9fa78753a9f51baf279801aaed2838039a3e0a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20992667"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874828"
 ---
 # <a name="deployment-wizard-path-to-msi-installer"></a>Assistant Déploiement : chemin d’accès du fichier d’installation MSI
  

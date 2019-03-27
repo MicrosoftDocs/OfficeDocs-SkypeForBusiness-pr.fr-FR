@@ -1,5 +1,6 @@
 ---
 title: Configurer OAuth entre Skype pour Business Online et Exchange sur site
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
 description: Configuration OAuth authentification entre Exchange sur site et Skype pour Business Online permet la Skype pour les fonctionnalités d’entreprise et l’intégration d’Exchange décrites dans prise en charge de la fonctionnalité.
-ms.openlocfilehash: fe1f6a56412706c658b2c686d2ca06d6a1b9e5d9
-ms.sourcegitcommit: 28dd9b8ca3de35a73e4d6923eff5546925435b8b
+ms.openlocfilehash: 6fbf6944ec1b7518311d8d7a0bd75ef3249a0142
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30684055"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876576"
 ---
 # <a name="configure-oauth-between-skype-for-business-online-and-exchange-on-premises"></a>Configurer OAuth entre Skype pour Business Online et Exchange sur site
 

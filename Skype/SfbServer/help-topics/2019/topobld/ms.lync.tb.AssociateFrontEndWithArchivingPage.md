@@ -1,5 +1,6 @@
 ---
-title: Associer Front-End de l’archivage
+title: Associer un pool frontal à un serveur d’archivage
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: a0d732ab-e845-4f46-8f7b-3ba506597a92
 ROBOTS: NOINDEX, NOFOLLOW
 description: Chaque pool frontal et un serveur Survivable Branch Appliance peuvent avoir un seul que serveur d’archivage associé. Lorsque l’archivage est activé pour le site, puis collecte les serveur d’archivage et enregistrements contenu du message (IM) et du contenu de conférence web des conversations qui concernent les utilisateurs de messagerie instantanées hébergement sur les pools associés et Survivable Branch Appliances.
-ms.openlocfilehash: ffdb79634e6d36f113216f37291b2b67d78be01e
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: ea6ddb783861117a15b95c5b2de4580fae183583
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21060031"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874087"
 ---
-# <a name="associate-front-end-with-archiving"></a>Associer Front-End de l’archivage
+# <a name="associate-front-end-with-archiving"></a>Associer un pool frontal à un serveur d’archivage
  
 Chaque pool frontal et un serveur Survivable Branch Appliance peuvent avoir un seul que serveur d’archivage associé. Lorsque l’archivage est activé pour le site, puis collecte les serveur d’archivage et enregistrements contenu du message (IM) et du contenu de conférence web des conversations qui concernent les utilisateurs de messagerie instantanées hébergement sur les pools associés et Survivable Branch Appliances. 
   

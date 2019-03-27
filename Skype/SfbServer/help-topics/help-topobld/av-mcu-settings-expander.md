@@ -1,5 +1,6 @@
 ---
-title: Expanseur des paramètres du MCU a/v
+title: Développeur des paramètres du service MCU audio/vidéo
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b0633d75-e0bb-4b4e-9abe-1f1c647a6c7d
 description: 'Pour modifier les propriétés d’un / pool V Conferencing Server que vous avez déjà défini, procédez comme suit :'
-ms.openlocfilehash: 3938e667ce381393d96e0856ec595e0176185859
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 98ddc2a0907a9971e5bbfc1e72b6aad356960763
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20985654"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875305"
 ---
-# <a name="av-mcu-settings-expander"></a>Expanseur des paramètres du MCU a/v
+# <a name="av-mcu-settings-expander"></a>Développeur des paramètres du service MCU audio/vidéo
  
 Pour modifier les propriétés d’un / pool V Conferencing Server que vous avez déjà défini, procédez comme suit :
   

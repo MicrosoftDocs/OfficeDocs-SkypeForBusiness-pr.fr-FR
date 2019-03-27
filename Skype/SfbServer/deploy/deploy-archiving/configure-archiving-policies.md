@@ -1,5 +1,6 @@
 ---
 title: Configuration des stratégies d’archivage de Skype pour Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e8e48087-d4f0-4fe1-9e7e-f2b3e07f815f
 description: 'Résumé : Lisez cette rubrique pour savoir comment configurer les stratégies d’archivage initiales pour Skype pour les utilisateurs Business Server.'
-ms.openlocfilehash: 9db5d04ba04a3d840c493f5fbea42260ed87a6d4
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 88840d10cbd7a71b32b5079a8600018b97e8b0c3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21003954"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876449"
 ---
 # <a name="configure-archiving-policies-for-skype-for-business-server"></a>Configuration des stratégies d’archivage de Skype pour Business Server
  
@@ -48,7 +49,7 @@ Lorsque vous déployez vos serveurs frontaux, Skype pour Business Server crée u
     
 2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business. 
     
-3. Dans la barre de navigation de gauche, cliquez sur **Surveillance et archivage**, puis sur **Stratégie d’archivage**.
+3. Dans la barre de navigation de gauche, cliquez sur **surveillance et archivage**, puis cliquez sur **Stratégie d’archivage**.
     
 4. Dans la page **Stratégie d’archivage**, cliquez sur **Global**, sur **Modifier**, puis sur **Afficher les détails**.
     
@@ -74,7 +75,7 @@ Vous pouvez activer ou désactiver l’archivage pour des sites spécifiques en 
     
 2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business.
     
-3. Dans la barre de navigation de gauche, cliquez sur **Surveillance et archivage**, puis sur **Stratégie d’archivage**.
+3. Dans la barre de navigation de gauche, cliquez sur **surveillance et archivage**, puis cliquez sur **Stratégie d’archivage**.
     
     Pour plus d’informations sur les stratégies de l’archivage fonctionne, notamment la hiérarchie des globale, de site et stratégies d’utilisateur, voir [planifier l’archivage dans Skype pour Business Server](../../plan-your-deployment/archiving/archiving.md).
     
@@ -104,7 +105,7 @@ Vous pouvez activer ou désactiver l’archivage pour des utilisateurs spécifiq
     
 2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business. 
     
-3. Dans la barre de navigation de gauche, cliquez sur **Surveillance et archivage**, puis sur **Stratégie d’archivage**.
+3. Dans la barre de navigation de gauche, cliquez sur **surveillance et archivage**, puis cliquez sur **Stratégie d’archivage**.
     
 4. Cliquez sur **Créer**, puis sur **Stratégie utilisateur**.
     
@@ -134,7 +135,7 @@ Une stratégie utilisateur ne s’applique qu’aux utilisateurs auxquels vous a
 5. Dans **Modifier les Skype pour utilisateur Business Server** sous **stratégie d’archivage**, sélectionnez la stratégie utilisateur d’archivage que vous souhaitez appliquer.
     
     > [!NOTE]
-    > Le ** \<automatique\> ** paramètres s’appliquent les paramètres d’installation de serveur par défaut. Le serveur les applique automatiquement.
+    > Le ** \<automatique\> ** paramètres s’appliquent les paramètres d’installation de serveur par défaut. Ces paramètres sont appliqués automatiquement par le serveur.
   
 6. Cliquez sur **Valider**.
     

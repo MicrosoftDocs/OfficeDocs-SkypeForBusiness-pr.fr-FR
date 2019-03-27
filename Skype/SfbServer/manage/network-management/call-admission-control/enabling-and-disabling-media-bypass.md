@@ -1,5 +1,6 @@
 ---
 title: Activation et désactivation du contournement de média
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Utilisez les procédures décrites dans cet article pour activer ou désactiver le contournement de média à l’aide de la Skype pour le panneau de configuration serveur Business.
-ms.openlocfilehash: f595ab5380575f34c0a470cb58c82459841ee4d7
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: eebbc111f0d205be8dced9ec8ddb5150deff8119
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222757"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874285"
 ---
-# <a name="enabling-and-disabling-media-bypass-in-skype-for-business-server"></a>Activation et désactivation des médias de contournement dans Skype pour Business Server
+# <a name="enabling-and-disabling-media-bypass-in-skype-for-business-server"></a>Activation et désactivation du contournement de média dans Skype Entreprise Server
 
 Utilisez les procédures décrites dans cet article pour activer ou désactiver le contournement de média à l’aide de la Skype pour le panneau de configuration serveur Business.
 
@@ -28,7 +29,7 @@ Vous pouvez activer et configurer le contournement de média à partir de la Sky
 
 ### <a name="to-enable-and-configure-media-bypass"></a>Pour activer et configurer le contournement de média
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou disposant des mêmes droits) ou affecté au rôle CsAdministrator, ouvrez une session sur un ordinateur qui se trouve sur votre déploiement interne.
+1.  À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou est affecté au rôle CsAdministrator, ouvrez une session sur n’importe quel ordinateur dans votre déploiement interne.
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business. 
 
@@ -62,7 +63,7 @@ Paramètres de déviation du trafic multimédia s’appliquent globalement un Sk
 
 ### <a name="to-disable-media-bypass"></a>Pour désactiver le contournement de média
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou disposant des mêmes droits) ou affecté au rôle CsAdministrator, ouvrez une session sur un ordinateur qui se trouve sur votre déploiement interne.
+1.  À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou est affecté au rôle CsAdministrator, ouvrez une session sur n’importe quel ordinateur dans votre déploiement interne.
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business. 
 

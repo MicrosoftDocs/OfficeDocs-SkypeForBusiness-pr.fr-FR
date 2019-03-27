@@ -1,5 +1,6 @@
 ---
 title: Configuration d’une conversation permanente
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 3f2891e6-bad3-4a23-a345-b7de4cae3bd9
 ROBOTS: NOINDEX, NOFOLLOW
 description: Votre déploiement Persistent Chat Server peut héberger plusieurs salles de conversation permanente simultanés. Les salles de conversation peuvent être organisées sous forme d’ensemble de catégories sur le serveur. Chaque salle de conversation appartient à une seule catégorie et hérite de certains paramètres de cette catégorie. Cette organisation crée une structure pratique pour identifier les conversations en fonction de leur objectif professionnel et facilite la délégation de l’administration et la simplification de la gestion.
-ms.openlocfilehash: 89ec9b4cb240646d39979d8e06ba53ab65792a72
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: c43b62ef947ad8a0dc4bbda9c9d73554102c5620
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21005191"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874856"
 ---
 # <a name="persistent-chat-configuration"></a>Configuration d’une conversation permanente
 

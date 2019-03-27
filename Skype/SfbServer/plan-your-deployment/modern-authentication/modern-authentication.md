@@ -1,5 +1,6 @@
 ---
 title: Planifier l'authentification moderne dans Skype Entreprise
+ms.reviewer: ''
 ms.author: tracyp
 author: MSFTTracyP
 ms.audience: ITPro
@@ -8,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 25e68396-96dc-4e4b-8a65-d30ea80d1bc9
 description: Rubriques de planification pour l’authentification et d’autorisation pour Skype pour Business Server, y compris l’intégration avec d’autres produits
-ms.openlocfilehash: 218100a78b128b28188d7c0b49534a9eb8ff4a1d
-ms.sourcegitcommit: 6251a2c659909c3972ca2ea0a2bcdab4f334df34
+ms.openlocfilehash: 662eb90758bb22a9ef65492d9c9c1a99af778f23
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "25692717"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873379"
 ---
 # <a name="discussing-authentication-and-authorization-in-skype-for-business"></a>Discuter d’authentification et autorisation dans Skype pour les entreprises
 

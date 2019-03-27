@@ -1,5 +1,6 @@
 ---
 title: Création de la conception de topologie initiale pour Skype Entreprise Server 2015
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f3131153-de14-41be-b1e6-7d4bb0191af1
 description: Une fois que vous avez terminé l’installation le Skype pour l’outil de planification de Business Server, vous êtes prêt à démarrer l’outil de planification et de commencer à concevoir la proposé Skype pour infrastructure Business Server 2015.
-ms.openlocfilehash: 73fd6f4a83ec5aec6808124728c1c73419bcdd28
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 132db1bfacac5d5faec17c2edceb72fe7736f887
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23246665"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876894"
 ---
 # <a name="create-the-initial-topology-design-for-skype-for-business-server-2015"></a>Création de la conception de topologie initiale pour Skype Entreprise Server 2015
 
@@ -76,4 +77,4 @@ Une fois que vous avez terminé l’installation le Skype pour l’outil de plan
 
 ## <a name="see-also"></a>Voir aussi
 
-[Modification de la conception](https://technet.microsoft.com/library/08f639ba-0e5f-4ae7-9191-c3d96c25b169.aspx)
+[Editing the Design](https://technet.microsoft.com/library/08f639ba-0e5f-4ae7-9191-c3d96c25b169.aspx)

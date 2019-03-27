@@ -1,5 +1,6 @@
 ---
 title: Catégorie de conversation permanente
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6875d930-7502-4e47-bdb3-45eaeb065350
 description: Vous pouvez utiliser la section Catégorie de la page Conversation permanente pour configurer des catégories. Catégorie de salle de conversation permanente est une structure logique pour organiser des salles de conversation. Une catégorie définit un ensemble par défaut de listes de contrôle d’accès pour le contrôle des utilisateurs et des groupes d’utilisateurs autorisés à créer ou à rejoindre les salles de conversation. Vous pouvez utiliser des catégories pour appliquer des limites éthiques entre différentes sous-divisions au sein de leur organisation.
-ms.openlocfilehash: 0b700118433431cece68098f04468ac1228fbc0a
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 8d5b14b0ce9bf46b9f6cf8ff7ab99c2859858a93
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374256"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875706"
 ---
 # <a name="persistent-chat-category"></a>Catégorie de conversation permanente
  

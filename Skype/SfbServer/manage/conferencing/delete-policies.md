@@ -1,5 +1,6 @@
 ---
 title: Supprimer des stratégies de conférence de Skype pour Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 497e6ca0-7a49-4f3e-9804-14414cf87b57
 description: 'Résumé : Découvrez comment supprimer les stratégies de conférence de Skype pour Business Server.'
-ms.openlocfilehash: 157307fc81bf5e5d0e93bd65b9a513f92b317a68
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 404e981af46b29bd95b36ca402c9f691e34737a5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21012622"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873365"
 ---
 # <a name="delete-conferencing-policies-in-skype-for-business-server"></a>Supprimer des stratégies de conférence de Skype pour Business Server
  
@@ -24,7 +25,7 @@ Vous pouvez supprimer des stratégies de conférence à l’aide de Skype pour l
   
 ## <a name="delete-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>Supprimer des stratégies de conférence à l’aide de Skype pour Business Server Control Panel
 
-1. À partir d’un compte d’utilisateur auquel est affecté un des rôles CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
+1. À partir d’un compte d’utilisateur auquel est affecté le rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
     
 2.  Ouvrez le panneau de configuration serveur Business Skype.
     

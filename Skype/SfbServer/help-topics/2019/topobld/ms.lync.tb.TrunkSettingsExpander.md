@@ -1,5 +1,6 @@
 ---
 title: Expanseur des paramètres de la jonction
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 3d00e8f4-e599-4094-a4a1-34fd6e8a5580
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Pour modifier les paramètres d’une jonction SIP, procédez comme suit :'
-ms.openlocfilehash: e73a0401d8e39c15e8c13e52c771afa00dd5b56e
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 7ebf0ff7b62a6715929d535eb17ba18ab6976dfe
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23260516"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877254"
 ---
 # <a name="trunk-settings-expander"></a>Expanseur des paramètres de la jonction
 

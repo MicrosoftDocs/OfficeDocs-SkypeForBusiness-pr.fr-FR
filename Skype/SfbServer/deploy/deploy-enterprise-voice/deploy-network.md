@@ -1,5 +1,6 @@
 ---
 title: Déployer des régions réseau, sites et sous-réseaux de Skype pour les entreprises
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: bf7a3dc4-71a2-4559-a547-d90305d4f904
 description: 'Créer ou modifier des régions réseau, sites réseau et associer des sous-réseaux dans Skype pour Business Server. Tous ces sont utilisés pour les fonctionnalités voix entreprise : le contournement de média, appel de contrôle d’admission des appels et le routage basé sur l’emplacement.'
-ms.openlocfilehash: fe6edf779d00b96918d8bf92ac7e749b9c003f15
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: 91ce871d3e8d4871693b7ad28cf4659ea0bb0c4c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297648"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875481"
 ---
 # <a name="deploy-network-regions-sites-and-subnets-in-skype-for-business"></a>Déployer des régions réseau, sites et sous-réseaux de Skype pour les entreprises
 
@@ -40,7 +41,7 @@ Toutefois, il est possible que vous soyez obligé de modifier la définition d�
 
 ### <a name="to-create-a-network-region-using-skype-for-business-server-management-shell"></a>Pour créer une région de réseau à l’aide de Skype pour Business Server Management Shell
 
-1. Démarrez Skype Entreprise Server Management Shell : cliquez successivement sur **Démarrer**, **Tous les programmes**, **Skype Entreprise 2015**, puis sur **Skype Entreprise Server Management Shell**.
+1. Démarrez le Skype pour Business Server Management Shell : cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Skype pour Business 2015**, puis cliquez sur **Skype pour Business Server Management Shell**.
 
 2. Exécutez l’applet de commande New-CsNetworkRegion pour créer des régions réseau :
 
@@ -48,7 +49,7 @@ Toutefois, il est possible que vous soyez obligé de modifier la définition d�
    New-CsNetworkRegion -Identity <String> -CentralSite <String>
    ```
 
-    Exemple :
+    Par exemple :
 
    ```
    New-CsNetworkRegion -Identity NorthAmerica -CentralSite CHICAGO -Description "All North America Locations"
@@ -80,7 +81,7 @@ Toutefois, il est possible que vous soyez obligé de modifier la définition d�
 
 ### <a name="to-modify-a-network-region-using-skype-for-business-server-management-shell"></a>Pour modifier une région réseau à l’aide de Skype pour Business Server Management Shell
 
-1. Démarrez Skype Entreprise Server Management Shell : cliquez successivement sur **Démarrer**, **Tous les programmes**, **Skype Entreprise 2015**, puis sur **Skype Entreprise Server Management Shell**.
+1. Démarrez le Skype pour Business Server Management Shell : cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Skype pour Business 2015**, puis cliquez sur **Skype pour Business Server Management Shell**.
 
 2. Exécutez l’applet de commande Set-CsNetworkRegion pour modifier une région réseau existante :
 
@@ -88,7 +89,7 @@ Toutefois, il est possible que vous soyez obligé de modifier la définition d�
    Set-CsNetworkRegion -Identity <String> -CentralSite <String>
    ```
 
-    Exemple :
+    Par exemple :
 
    ```
    Set-CsNetworkRegion -Identity NorthAmerica -CentralSite CHICAGO -Description "North American Region"
@@ -122,7 +123,7 @@ Si vous avez déjà créé des sites réseau pour une de ces fonctionnalités, i
 
 ### <a name="to-create-a-network-site-by-using-skype-for-business-server-management-shell"></a>Pour créer un site réseau à l’aide de Skype pour Business Server Management Shell
 
-1. Démarrez Skype Entreprise Server Management Shell : cliquez successivement sur **Démarrer**, **Tous les programmes**, **Skype Entreprise 2015**, puis sur **Skype Entreprise Server Management Shell**.
+1. Démarrez le Skype pour Business Server Management Shell : cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Skype pour Business 2015**, puis cliquez sur **Skype pour Business Server Management Shell**.
 
 2. Exécutez l’applet de commande New-CsNetworkSite pour créer des sites réseau :
 
@@ -130,7 +131,7 @@ Si vous avez déjà créé des sites réseau pour une de ces fonctionnalités, i
    New-CsNetworkSite -NetworkSiteID <string>
    ```
 
-    Exemple :
+    Par exemple :
 
    ```
    New-CsNetworkSite -NetworkSiteID Chicago -Description "Corporate headquarters"-NetworkRegionID NorthAmerica
@@ -175,7 +176,7 @@ Si vous avez déjà créé des sites réseau pour une de ces fonctionnalités, i
 
 ### <a name="to-modify-a-network-site-by-using-skype-for-business-server-management-shell"></a>Pour modifier un site réseau à l’aide de Skype pour Business Server Management Shell
 
-1. Démarrez Skype Entreprise Server Management Shell : cliquez successivement sur **Démarrer**, **Tous les programmes**, **Skype Entreprise 2015**, puis sur **Skype Entreprise Server Management Shell**.
+1. Démarrez le Skype pour Business Server Management Shell : cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Skype pour Business 2015**, puis cliquez sur **Skype pour Business Server Management Shell**.
 
 2. Exécutez l’applet de commande Set-CsNetworkSite pour modifier des sites réseau :
 
@@ -223,7 +224,7 @@ Toutes les adresses IP publiques configurées des serveurs Edge audio/vidéo de 
 
 ### <a name="to-associate-a-subnet-with-a-network-site-by-using-skype-for-business-server-management-shell"></a>Pour associer un sous-réseau à un site réseau à l’aide de Skype pour Business Server Management Shell
 
-1. Démarrez Skype Entreprise Server Management Shell : cliquez successivement sur **Démarrer**, **Tous les programmes**, **Skype Entreprise 2015**, puis sur **Skype Entreprise Server Management Shell**.
+1. Démarrez le Skype pour Business Server Management Shell : cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Skype pour Business 2015**, puis cliquez sur **Skype pour Business Server Management Shell**.
 
 2. Exécutez l’applet de commande **New-CsNetworkSubnet** pour associer un sous-réseau à un site réseau :
 
@@ -255,7 +256,7 @@ Toutes les adresses IP publiques configurées des serveurs Edge audio/vidéo de 
 
      `172.11.15.0, 31, "EMEA:Subnet in Paris", Paris`
 
-2. Démarrez Skype Entreprise Server Management Shell : cliquez successivement sur **Démarrer**, **Tous les programmes**, **Skype Entreprise 2015**, puis sur **Skype Entreprise Server Management Shell**.
+2. Démarrez le Skype pour Business Server Management Shell : cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Skype pour Business 2015**, puis cliquez sur **Skype pour Business Server Management Shell**.
 
 3. Exécutez la cmdlet suivante pour importer **le fichier subnet.csv**, puis enregistrez son contenu dans le magasin de gestion de Lync Server :
 
@@ -280,7 +281,7 @@ Toutes les adresses IP publiques configurées des serveurs Edge audio/vidéo de 
 7. Cliquez sur **ID de site réseau**, puis sélectionnez l’ID du site auquel vous ajoutez ce sous-réseau.
 
     > [!NOTE]
-    > Si vous n’avez pas encore créé de sites réseau, cette liste est vide. Pour plus d’informations sur la procédure, reportez-vous à [Create or Modify a Network Site](https://technet.microsoft.com/library/14e24856-9996-4da4-9f31-300940bdf5aa.aspx). Vous pouvez également récupérer l’ID de site pour votre déploiement en exécutant l’applet de commande **Get-CsNetworkSite** . Pour plus d’informations, voir le Skype pour la documentation sur Business Server Management Shell.
+    > Si vous n’avez pas encore créé de sites réseau, cette liste est vide. Pour plus d’informations sur la procédure, reportez-vous à [Create or Modify a Network Site](https://technet.microsoft.com/library/14e24856-9996-4da4-9f31-300940bdf5aa.aspx). Vous pouvez également récupérer des ID de site pour votre déploiement en exécutant l’applet de commande **Get-CsNetworkSite**. Pour plus d’informations, voir le Skype pour la documentation sur Business Server Management Shell.
 
 8. Éventuellement, cliquez sur **Description**, puis entrez des informations supplémentaires pour décrire ce sous-réseau.
 

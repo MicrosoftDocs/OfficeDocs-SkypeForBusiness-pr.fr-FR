@@ -1,5 +1,6 @@
 ---
 title: Gérer la messagerie unifiée Exchange et la messagerie vocale hébergée
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +18,12 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Utiliser PowerShell pour gérer les fonctionnalités de la messagerie unifiée Exchange tels que le standard automatique et accès abonné et messagerie vocale hébergée dans Skype pour Business Online.
-ms.openlocfilehash: d00328ad50bdcfeea326255d1dcd6d22daa9a3a4
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 02fda8c315807899983741f94c1f825de1ebf1a9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372853"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873510"
 ---
 # <a name="manage-exchange-unified-messaging-and-hosted-voicemail"></a>Gérer la messagerie unifiée Exchange et la messagerie vocale hébergée
 

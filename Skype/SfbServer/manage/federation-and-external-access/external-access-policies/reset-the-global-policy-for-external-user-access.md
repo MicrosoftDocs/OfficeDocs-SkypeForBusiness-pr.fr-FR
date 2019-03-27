@@ -1,5 +1,6 @@
 ---
 title: Réinitialisation de la stratégie globale pour l’accès des utilisateurs externes
+ms.reviewer: ''
 ms:assetid: 8207e1b1-de9e-461f-975f-fcc5c526849a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182545(v=OCS.15)
 ms:contentKeyID: 48184675
@@ -12,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Vous ne pouvez pas supprimer complètement une stratégie globale. À l’aide de l’option **Supprimer** de la stratégie globale réinitialise uniquement la stratégie globale pour les paramètres par défaut, qui ne comportent pas de prise en charge pour les options d’accès utilisateur externe.
-ms.openlocfilehash: e3296167aa6d9a0a4fc6452c3505a068a69c3b78
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 048d1f1aabd2e188cefa25358068ea6ec150b8f3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222799"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877873"
 ---
 # <a name="reset-the-global-policy-for-external-user-access-in-skype-for-business-server"></a>Réinitialiser la stratégie globale pour l’accès des utilisateurs externes dans Skype pour Business Server 
 
@@ -31,7 +32,7 @@ Vous ne pouvez pas supprimer complètement une stratégie globale. À l’aide d
 
 ## <a name="to-reset-the-global-policy-to-the-default-settings"></a>Pour réinitialiser la stratégie globale pour les paramètres par défaut
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou disposant des mêmes droits) ou affecté au rôle CsAdministrator, ouvrez une session sur un ordinateur qui se trouve sur votre déploiement interne.
+1.  À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou est affecté au rôle CsAdministrator, ouvrez une session sur n’importe quel ordinateur dans votre déploiement interne.
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business.
 

@@ -1,5 +1,6 @@
 ---
-title: Empêcher les sessions de services
+title: Empêcher l’exécution de sessions de services
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Vous pouvez utiliser l’installation héritée le panneau de configuration afin d’empêcher de nouvelles sessions de tous les services hérités en cours d’exécution sur un ordinateur spécifique ou de nouvelles sessions d’un service hérité.
-ms.openlocfilehash: af4605f65d7cabe187696eda20bd9082ab73ad02
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 9f3f9bb301841d7e71c18f4d3ca052f3d0c74dce
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25027213"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875531"
 ---
-# <a name="prevent-sessions-for-services"></a>Empêcher les sessions de services
+# <a name="prevent-sessions-for-services"></a>Empêcher l’exécution de sessions de services
 
 Vous pouvez utiliser l’installation héritée le panneau de configuration afin d’empêcher de nouvelles sessions de tous les services hérités en cours d’exécution sur un ordinateur spécifique ou de nouvelles sessions d’un service hérité.
   

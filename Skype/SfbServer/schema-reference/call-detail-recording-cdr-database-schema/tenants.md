@@ -1,5 +1,6 @@
 ---
 title: Table Tenants
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -9,23 +10,24 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1b070c1-2c59-4ca9-910b-43f673f97fda
-description: La table de locataires est une table de support qui stocke une liste des locataires différents. Chaque enregistrement de la table représente un locataire.
-ms.openlocfilehash: 4dde1baaf553c1a0d8a0efe65d72e8326cbb3bad
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: La table clients est une table de prise en charge qui stocke une liste de ces locataires différents. Chaque enregistrement de la table représente un client.
+ms.openlocfilehash: cf7d0271c9cacfd76079a80a7e5db63d669a8dfb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873989"
 ---
 # <a name="tenants-table"></a>Table Tenants
  
-La table de locataires est une table de support qui stocke une liste des locataires différents. Chaque enregistrement de la table représente un locataire.
+La table clients est une table de prise en charge qui stocke une liste de ces locataires différents. Chaque enregistrement de la table représente un client.
   
 > [!NOTE]
-> Dans un déploiement sur site, CDR utilise le nom de build locataire pour indiquer le type d’authentification, telles que la connectivité PIC, fédéré et anonyme. 
+> Dans un déploiement sur site, CDR utilise l’ID de client intégré pour indiquer différents types d’authentification, telles que la connectivité PIC, fédérés et anonymes. 
   
-|**Colonne**|**Type de données**|**Index de la clé**|**Détails**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
 |:-----|:-----|:-----|:-----|
-|**TenantId** <br/> |int  <br/> |Principal  <br/> |Numéro unique qui identifie ce code de client.  <br/> |
+|**ID client sur** <br/> |int  <br/> |Principal  <br/> |Numéro unique identifiant cet ID de client.  <br/> |
 |**TenantKey** <br/> |nvarchar(256)  <br/> || Valeurs autorisées : <br/>  00000000-0000-0000-0000-000000000000-entreprise <br/>  00000000-0000-0000-0000-000000000001-fédéré <br/>  Valeur 00000000-0000-0000-0000-000000000002 - anonyme <br/>  00000000-0000-0000-0000-000000000003-la connectivité PIC <br/> |
    
 

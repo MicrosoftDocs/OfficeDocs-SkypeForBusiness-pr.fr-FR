@@ -1,5 +1,6 @@
 ---
 title: Service de journalisation centralisée pour Skype Entreprise 2015
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 975718a0-f3e3-404d-9453-6224e73bfdd0
 description: 'Résumé : Découvrez les composants de service et les paramètres de configuration pour le Service centralisé de journalisation dans Skype pour Business Server 2015.'
-ms.openlocfilehash: b2234ac1b52ff41108573f6a90a07bfa28c50a58
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 6f1766e97c318a11095aa2f064cd09a0785c1562
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372459"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877754"
 ---
 # <a name="centralized-logging-service-in-skype-for-business-2015"></a>Service de journalisation centralisée pour Skype Entreprise 2015
  
@@ -57,7 +58,7 @@ Le Service de journalisation centralisée est un puissant outil de dépannage po
   
 Vous envoyer des commandes à l’aide de l’interface de ligne de commande de Windows Server ou le Skype pour Business Server Management Shell. Les commandes sont exécutées sur lʼordinateur auquel vous êtes connecté et envoyées au ClsAgent localement ou à dʼautres ordinateurs et pools dans votre déploiement.
   
-ClsAgent maintient un fichier d’index de tous les fichiers .CACHE dont il dispose sur l’ordinateur local. Et ClsAgent les alloue afin qu’ils sont répartis entre des volumes de défini par l’option CacheFileLocalFolders, jamais consommer plus de 80 % de chaque volume (autrement dit, l’emplacement du cache local et le pourcentage configurables à l’aide de la ** Set-CsClsConfiguration** applet de commande). ClsAgent est également responsable de la suppression des anciens fichiers journaux de suivi d’événements mis en cache (.etl) sur l’ordinateur local. Après deux semaines (autrement dit, le délai est configurable à l’aide de l’applet de commande **Set-CsClsConfiguration** ) ces fichiers sont copiés dans un partage de fichiers et supprimés de l’ordinateur local. Pour plus d’informations, voir [Set-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csclsconfiguration?view=skype-ps). Lors de la réception d’une demande de recherche, les critères de recherche sont utilisés pour sélectionner le jeu de fichiers .etl mis en cache afin d’effectuer la recherche en fonction des valeurs dans l’index conservé par l’agent.
+ClsAgent maintient un fichier d’index de tous les fichiers .CACHE dont il dispose sur l’ordinateur local. ClsAgent les alloue de sorte qu’ils soient distribuées de manière égale parmi les volumes définis par l’option CacheFileLocalFolders, en ne consommant jamais plus de 80 % de chaque volume (autrement dit, l’emplacement du cache local et le pourcentage sont configurables à l’aide de l’applet de commande  **Set-CsClsConfiguration**). ClsAgent est également responsable de la suppression des anciens fichiers journaux de suivi d’événements mis en cache (.etl) sur l’ordinateur local. Après deux semaines (le délai est configurable à l’aide de l’applet de commande  **Set-CsClsConfiguration**), ces fichiers sont copiés sur un partage de fichiers et supprimés de l’ordinateur local. Pour plus d’informations, voir [Set-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csclsconfiguration?view=skype-ps). Lors de la réception d’une demande de recherche, les critères de recherche sont utilisés pour sélectionner le jeu de fichiers .etl mis en cache afin d’effectuer la recherche en fonction des valeurs dans l’index conservé par l’agent.
   
 > [!NOTE]
 > Les fichiers déplacés vers le partage de fichiers à partir de l’ordinateur local peuvent être consultés par ClsAgent. Une fois que ClsAgent a déplacé les fichiers vers le partage, le vieillissement et la suppression des fichiers ne sont pas conservés par ClsAgent. Vous devez définir une tâche d’administration pour contrôler la taille des fichiers sur le partage de fichiers et les supprimer ou les archiver. 
@@ -90,7 +91,7 @@ Le Service de journalisation centralisée est configuré pour définir ce que le
   
 ### <a name="to-display-the-current-centralized-logging-service-configuration"></a>Pour afficher la configuration actuelle du Service de journalisation centralisée
 
-1. Démarrez Skype Entreprise Server Management Shell : cliquez successivement sur **Démarrer**, **Tous les programmes**, **Skype Entreprise 2015**, puis sur **Skype Entreprise Server Management Shell**.
+1. Démarrez le Skype pour Business Server Management Shell : cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Skype pour Business 2015**, puis cliquez sur **Skype pour Business Server Management Shell**.
     
 2. Tapez ce qui suit dans une invite de ligne de commande :
     
@@ -99,7 +100,7 @@ Le Service de journalisation centralisée est configuré pour définir ce que le
    ```
 
     > [!TIP]
-    > Vous pouvez réduire ou développer la portée des paramètres de configuration qui sont renvoyées par la définition de `-Identity` et une étendue, tel que « Site : Redmond » pour renvoyer uniquement la CsClsConfiguration pour le site de Redmond. Si vous souhaitez plus d’informations sur une partie de la configuration donnée, vous pouvez canaliser la sortie dans une autre cmdlet Windows PowerShell. Par exemple, pour obtenir des détails sur les scénarios définis dans la configuration du site « Redmond », tapez : `Get-CsClsConfiguration -Identity "site:Redmond" | Select-Object -ExpandProperty Scenarios`
+    > Vous pouvez réduire ou développer la portée des paramètres de configuration qui sont renvoyées par la définition de `-Identity` et une étendue, tel que « Site : Redmond » pour renvoyer uniquement la CsClsConfiguration pour le site de Redmond. Si vous souhaitez plus d’informations sur une partie de la configuration donnée, vous pouvez canaliser la sortie dans une autre cmdlet Windows PowerShell. Par exemple, pour obtenir plus d’informations sur les scénarios définis dans la configuration pour le site « Redmond », tapez :`Get-CsClsConfiguration -Identity "site:Redmond" | Select-Object -ExpandProperty Scenarios`
   
      ![Exemple de sortie de Get-CsClsConfiguration.](../../media/Ops_Get-CsClsConfiguration_Basic.jpg)
   

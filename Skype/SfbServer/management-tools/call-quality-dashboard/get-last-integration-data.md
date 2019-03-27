@@ -1,5 +1,6 @@
 ---
-title: Obtenir des données de l’intégration de la dernières
+title: Obtenir les données de la dernière intégration
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,20 +11,20 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: e7967dd9-0d6a-4a80-8b59-b8fc2e5615f8
 description: 'Résumé : Découvrez l’opération obtenir les données de l’intégration de la dernière, qui fait partie de l’API de données pour le tableau de bord qualité des appels. Tableau de bord de qualité des appels est un outil de Skype pour Business Server.'
-ms.openlocfilehash: b2e759766987b6ee52795845ee55546920181807
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 33681e38b2dfeac635d3e3c7bd05e67980e0a598
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531786"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874422"
 ---
-# <a name="get-last-integration-data"></a>Obtenir des données de l’intégration de la dernières
+# <a name="get-last-integration-data"></a>Obtenir les données de la dernière intégration
  
 **Résumé :** Obtenir des informations sur l’opération obtenir les données de l’intégration de la dernière, qui fait partie de l’API de données pour le tableau de bord qualité des appels. Tableau de bord de qualité des appels est un outil de Skype pour Business Server.
   
 L’opération obtenir les données de l’intégration de la dernière fait partie de l’API de données pour le tableau de bord qualité des appels.
   
-## <a name="get-last-integration-data"></a>Obtenir des données de l’intégration de la dernières
+## <a name="get-last-integration-data"></a>Obtenir les données de la dernière intégration
 
 Obtenir les données de l’intégration de la dernière opération renvoie la liste des derniers 5 réussite/échec de l’archivage et le traitement du cube.
   
@@ -32,7 +33,7 @@ Cette fonctionnalité est désactivée par défaut et il doit être activé en c
 
 |**Méthode**|**URI de la demande**|**Version HTTP**|
 |:-----|:-----|:-----|
-|Télécharger  <br/> |https://\<portal\>/QoEDataService/IntegrationLog/Status  <br/> |HTTP/1.1.  <br/> |
+|Avoir  <br/> |https://\<portal\>/QoEDataService/IntegrationLog/Status  <br/> |HTTP/1.1.  <br/> |
    
  **Paramètres d’URI** - None.
   

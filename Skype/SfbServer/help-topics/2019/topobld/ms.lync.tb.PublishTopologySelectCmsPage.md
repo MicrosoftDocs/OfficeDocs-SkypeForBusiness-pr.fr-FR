@@ -1,5 +1,6 @@
 ---
-title: 'Publier la topologie : Page Sélectionner un CMS'
+title: 'Publier la topologie : page Sélectionner un CMS'
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: df447066-2840-431b-bc4e-acf8aa692d71
 ROBOTS: NOINDEX, NOFOLLOW
 description: Vous publiez la topologie que vous avez configurées à l’aide du Générateur de topologie. Vous êtes invité à sélectionner à partir d’une liste pool frontal ou serveur frontal assumeront le rôle de contenir le magasin Central de gestion. Qu’un seul pool frontal ou serveur frontal peut contenir ce rôle à un moment donné.
-ms.openlocfilehash: 5f5c25982194246490232966d5c7da3a48759a57
-ms.sourcegitcommit: 16421e244f866e13600765a41cca509202815819
+ms.openlocfilehash: 0c80fa30721fe47fc3bc4725ca4f50f8a75f7009
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/09/2018
-ms.locfileid: "22290275"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873828"
 ---
-# <a name="publish-topology-select-cms-page"></a>Publier la topologie : Page Sélectionner un CMS
+# <a name="publish-topology-select-cms-page"></a>Publier la topologie : page Sélectionner un CMS
  
 Vous publiez la topologie que vous avez configurées à l’aide du Générateur de topologie. Vous êtes invité à sélectionner à partir d’une liste pool frontal ou serveur frontal assumeront le rôle de contenir le magasin Central de gestion. Qu’un seul pool frontal ou serveur frontal peut contenir ce rôle à un moment donné. 
   

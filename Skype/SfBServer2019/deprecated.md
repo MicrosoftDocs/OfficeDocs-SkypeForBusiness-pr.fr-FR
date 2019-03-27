@@ -1,5 +1,6 @@
 ---
 title: Ce qui est déconseillé de Skype pour Business Server 2019
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Résumé : Ces fonctionnalités ont été supprimées de Skype pour Business Server 2019.'
-ms.openlocfilehash: 399c5f219ae5a088c4e7f8aa40f40344885d571e
-ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
+ms.openlocfilehash: bd7519e66632c005d81ff9fc110684f6c4854c41
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2018
-ms.locfileid: "26561610"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876654"
 ---
 # <a name="whats-deprecated-from-skype-for-business-server-2019"></a>Ce qui est déconseillé de Skype pour Business Server 2019
 
@@ -56,7 +57,7 @@ Pour plus d’informations, voir [planifier la mobilité Skype pour Business Ser
 
 Les outils suivants ne sera pas disponibles pour la version initiale de Skype pour Business Server 2019 :
 
-- Skype pour calculateur de planification de la capacité de serveur Business
+- Calculateur de planification de la capacité Skype Entreprise Server
 - Skype pour Business Server Outils de débogage
 - Skype pour les outils du Kit de ressources Business Server (certains outils seront supprimés)
     - Call Parkometer
@@ -67,7 +68,7 @@ Les outils suivants ne sont pas pris en charge avec Skype pour Business Server 2
 
 - Méthodologie de la qualité des appels (mais pas appeler de tableau de bord qualité)
 - Carte de performance Microsoft appel qualité méthodologie, v1.5
-- Skype for Business Server 2015 Planning Tool
+- Outil de planification de Skype Entreprise Server 2015
 - Skype for Business Server 2015 Stress and Performance Tool
 
 ### <a name="see-also"></a>Voir aussi

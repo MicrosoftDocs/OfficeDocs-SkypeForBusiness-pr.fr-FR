@@ -1,5 +1,6 @@
 ---
 title: Rapport de synthèse de Diagnostic des appels dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9091de56-13e6-440e-9353-f57c10c906fe
 description: 'Résumé : Découvrez le rapport Diagnostic des appels résumé utilisé dans Skype pour Business Server.'
-ms.openlocfilehash: 6d4db52f266e9c7387662563a8640cfaeab56ca8
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: f575d258c5207e5a0361f3c47613fb10b8c0f1f8
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20976820"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873435"
 ---
 # <a name="call-diagnostic-summary-report-in-skype-for-business-server"></a>Rapport de synthèse de Diagnostic des appels dans Skype pour Business Server
  
@@ -65,7 +66,7 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 
 Le tableau ci-dessous décrit les informations fournies dans le rapport de synthèse de diagnostic des appels pour les sessions P2P (à savoir, celles qui n’impliquent que deux participants).
   
-**Mesures pour les sessions P2P**
+**Mesures pour Sessions d’égal à égal**
 
 |**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
@@ -76,7 +77,7 @@ Le tableau ci-dessous décrit les informations fournies dans le rapport de synth
 
 Le tableau ci-dessous décrit les informations fournies dans le rapport de diagnostic des appels pour les sessions de conférence (à savoir, celles qui impliquent trois participants ou plus).
   
-**Mesures pour les sessions de conférence**
+**Mesures des Sessions de conférence**
 
 |**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|

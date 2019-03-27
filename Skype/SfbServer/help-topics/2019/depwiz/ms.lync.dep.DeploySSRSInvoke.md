@@ -1,5 +1,6 @@
 ---
 title: SQL Server Reporting Services (Appel)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 4a4ba8d6-ba43-45b3-b834-372d092561e7
 ROBOTS: NOINDEX, NOFOLLOW
 description: Après avoir fourni les informations requises pour le déploiement du serveur de surveillance indique le Microsoft SQL Server 2008 R2, ou pour les Services de rapport Microsoft SQL Server 2012, la page exécuter des commandes affiche un résumé des commandes sont émises pour installer le rapports SQL Server Reporting Services.
-ms.openlocfilehash: 4d2eff38570e24a063558fe62c8db7c89bc03cf3
-ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
+ms.openlocfilehash: 6457d17a3e8fff4d93aeedb5f7526c23ccc5b064
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "22138564"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877160"
 ---
 # <a name="sql-server-reporting-services-invoke"></a>SQL Server Reporting Services (Appel)
  

@@ -1,5 +1,6 @@
 ---
 title: Expanseur des ordinateurs de conversation permanente
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 15bc1c8f-71bd-4d66-bba1-cac0f2fe90bf
 description: Vous activez ou désactivez un déployés Persistent Chat Server ou un pool de serveurs de conversation permanente à l’aide de serveurs ou pools répertoriés dans les paramètres d’état de Machine. Sélectionnez un serveur ou un pool dans la liste, puis cliquez sur le bouton Rendre actif pour activer un serveur ou un pool.
-ms.openlocfilehash: 250804a75c962d9baadc7338052eae1175c57286
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: 8318bc734e3532e4fb1c03f0ea796ecbed9ffdc0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19504389"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875101"
 ---
 # <a name="persistent-chat-machines-expander"></a>Expanseur des ordinateurs de conversation permanente
  
@@ -29,7 +30,7 @@ Vous affectez un déployés Persistent Chat Server ou un pool de serveurs de con
   
  **Annuler** : permet d’annuler les modifications et de fermer la boîte de dialogue.
   
- **Aide** : permet d’afficher cet écran d’aide.
+ **Aide** permet d’afficher cet écran d’aide.
   
 ## <a name="see-also"></a>Voir aussi
 

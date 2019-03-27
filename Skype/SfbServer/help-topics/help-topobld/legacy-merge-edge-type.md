@@ -1,5 +1,6 @@
 ---
-title: Type de bord hérités de fusion
+title: 'Fusion hérité : type de serveur Edge'
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,15 +12,16 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 47bedf17-25cb-4fc2-9e23-be695bd86fd0
-description: Pour un seul serveur Edge ou l’équilibrage de charge consolidée de serveur de transport Edge, cliquez sur Suivant pour spécifier les informations de configuration. Un contour de développé, configuration de chaque serveur doit être modifiée pour une configuration de bord consolidée avant elle peut être fusionné avec Lync Server 2013.
-ms.openlocfilehash: 249b280d05c14c58f1f809135403b25457c6b872
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Pour un serveur Edge unique ou à charge équilibrée consolidée de serveur de périphérie, cliquez sur Suivant pour spécifier les informations de configuration. Pour un serveur Edge développé, configuration de chaque serveur doit être modifiée pour une configuration du serveur Edge consolidée avant qu’il peut être fusionné avec Lync Server 2013.
+ms.openlocfilehash: c7bc67f8114eaaa37646e5d5c7dcc307217413a0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875087"
 ---
-# <a name="legacy-merge-edge-type"></a>Type de bord hérités de fusion
+# <a name="legacy-merge-edge-type"></a>Fusion hérité : type de serveur Edge
  
-Pour un serveur **Unique de serveur de transport Edge** ou **équilibrage consolidée de bord** , cliquez sur **suivant** pour spécifier les informations de configuration. Un **Bord de développé**, configuration de chaque serveur doit être modifiée pour une configuration de bord consolidée avant elle peut être fusionné avec Lync Server 2013. 
+Pour un **Serveur de périphérie unique** ou **à charge équilibrée serveur Edge consolidé** du serveur, cliquez sur **suivant** pour spécifier les informations de configuration. Pour un **Bord développé**, configuration de chaque serveur doit être modifiée pour une configuration du serveur Edge consolidée avant qu’il peut être fusionné avec Lync Server 2013. 
   
 

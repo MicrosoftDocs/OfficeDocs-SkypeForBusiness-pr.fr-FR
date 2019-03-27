@@ -1,5 +1,6 @@
 ---
 title: Résumé des paramètres Skype Entreprise Online
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Ce résumé de Skype pour les paramètres d’organisation et des utilisateurs professionnels peut vous aider à en savoir plus sur la connectivité PIC, les invitations aux réunions, d’enregistrement des appels et des réunions et plus encore.  '
-ms.openlocfilehash: 95368d06cbd243aa5b57b7e68ec1e99db81b2fb0
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: df16f6893da94e456bc873a74c8e0a1639eda3db
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23865596"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876062"
 ---
 # <a name="skype-for-business-online-settings-summary"></a>Résumé des paramètres Skype Entreprise Online
 
@@ -35,7 +36,7 @@ Le **Skype entreprise centre d’administration** contient des paramètres pour 
 ## <a name="skype-for-business-online-organization-settings"></a>Paramètres Skype Entreprise Online applicables à l'organisation
 <a name="__top"> </a>
 
-|**Paramètre**|**Description**|**Par défaut**|**Pour en savoir plus**|
+|**Paramètre**|**Description**|**Par défaut**|**En savoir plus**|
 |:-----|:-----|:-----|:-----|
 |Fédération de domaine  <br/> |Permet de communiquer avec d'autres organisations qui utilisent Skype Entreprise Online.  <br/> |Activé  <br/> |[Autoriser les utilisateurs à contacter des utilisateurs externes de Skype Entreprise](allow-users-to-contact-external-skype-for-business-users.md) <br/> |
 |Solution PIC (Public IM Connectivity)  <br/> |Permet de communiquer avec des utilisateurs de Skype Entreprise Online.  <br/> |Activé  <br/> |[Autoriser les utilisateurs à contacter des utilisateurs externes de Skype Entreprise](allow-users-to-contact-external-skype-for-business-users.md) <br/> |

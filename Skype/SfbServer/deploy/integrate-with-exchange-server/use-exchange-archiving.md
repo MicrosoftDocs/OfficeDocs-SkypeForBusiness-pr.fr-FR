@@ -1,5 +1,6 @@
 ---
 title: Configurer Skype pour Business Server utilisant l’archivage d’Exchange Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 260346d1-edc8-4a0c-8ad2-6c2401c3c377
 description: 'Résumé : Configurez les transcriptions de messagerie instantanée pour Exchange Server 2016 ou Exchange Server 2013 et Skype pour Business Server.'
-ms.openlocfilehash: 63d533091426fe609932de18e3d37bd75004ce4c
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 5db51f1206fee5ef3f87f16e73836a32c460234b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23258024"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873485"
 ---
 # <a name="configure-skype-for-business-server-to-use-exchange-server-archiving"></a>Configurer Skype pour Business Server utilisant l’archivage d’Exchange Server
 
@@ -111,7 +112,7 @@ Si Skype pour Business Server et Exchange Server se trouvent dans des forêts di
 
 1. **Non initialisée**. Indique que l’archivage être basée sur les paramètres In-Place Hold configurés pour les boîtes aux lettres de l’utilisateur Exchange ; Si le blocage sur Place n’a pas été activé sur boîte aux lettres de l’utilisateur, l’utilisateur aura sa messagerie et Web transcriptions de conférence archivées dans Skype pour Business Server.
 
-2. **Valeur UseLyncArchivingPolicy**. Indique que l’utilisateur de messagerie instantanée et des transcriptions de conférence Web doivent être archivées dans Skype pour Business Server plutôt que dans Exchange.
+2. **UseLyncArchivingPolicy**. Indique que l’utilisateur de messagerie instantanée et des transcriptions de conférence Web doivent être archivées dans Skype pour Business Server plutôt que dans Exchange.
 
 3. **NoArchiving**. Indique que les transcriptions de messagerie instantanée et de conférence web de l’utilisateur ne doivent pas être archivées. Notez que ce paramètre remplace tout Skype pour Business Server affectés à l’utilisateur des stratégies d’archivage.
 

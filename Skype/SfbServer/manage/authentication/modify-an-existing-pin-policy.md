@@ -1,5 +1,6 @@
 ---
 title: Modifier une stratégie de code confidentiel existante dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 517caaee-3349-4fa6-8d86-e4da3258a445
 description: 'Résumé : Modifier une stratégie de code confidentiel existante dans Skype pour Business Server.'
-ms.openlocfilehash: 30b9926a7f8094cae1e23be6d0e9a0ade6d8d8a6
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 7694b96b3e3dc169e6642c435edf38506a506bb8
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21006184"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877635"
 ---
 # <a name="modify-an-existing-pin-policy-in-skype-for-business-server"></a>Modifier une stratégie de code confidentiel existante dans Skype pour Business Server
  

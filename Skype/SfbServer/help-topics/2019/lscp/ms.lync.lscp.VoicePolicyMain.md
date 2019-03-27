@@ -1,5 +1,6 @@
 ---
 title: Stratégie vocale
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 5c0bfce3-2ba0-4006-b5f2-415e03e54dbe
 ROBOTS: NOINDEX, NOFOLLOW
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: 5385c4f5fd70b8e09ba79ee17adfcbce2200d5d6
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 691114c25c65d992ed26c0d15d5b7eec066d39aa
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23262182"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873097"
 ---
 # <a name="voice-policy"></a>Stratégie vocale
 

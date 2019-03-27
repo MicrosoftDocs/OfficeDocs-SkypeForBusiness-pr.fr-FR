@@ -1,5 +1,6 @@
 ---
-title: Tableau des emplacements dans Skype pour Business Server 2015
+title: Table Locations dans Skype pour Business Server 2015
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,20 +11,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 78dc1b14-5394-4f8e-89d3-4ba593272a04
 description: Chaque enregistrement représente une référence d’emplacement dans un appel d’urgence, comme un appel E9-1-1.
-ms.openlocfilehash: b15e7f0b7930871b97dc3341a47153965529810e
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 180a094ef10cc54b4fd65a30adb0909789afa3d6
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876943"
 ---
-# <a name="locations-table-in-skype-for-business-server-2015"></a>Tableau des emplacements dans Skype pour Business Server 2015
+# <a name="locations-table-in-skype-for-business-server-2015"></a>Table Locations dans Skype pour Business Server 2015
  
 Chaque enregistrement représente une référence d’emplacement dans un appel d’urgence, comme un appel E9-1-1.
   
-|**Colonne**|**Type de données**|**Index de la clé**|**Détails**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
 |:-----|:-----|:-----|:-----|
-|**SessionIdTime** <br/> |DateHeure  <br/> |Primaires et étrangères  <br/> |Heure de la demande de la session. Utilisé en association avec **SessionIdSeq** pour identifier de manière unique une session. Consultez le [tableau dans Skype pour Business Server 2015 des boîtes de dialogue](dialogs.md) pour plus d’informations. <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |Primaires et étrangères  <br/> |Numéro d’ID pour identifier la session. Utilisé en association avec **SessionIdTime** pour identifier de manière unique une session. Consultez le [tableau dans Skype pour Business Server 2015 des boîtes de dialogue](dialogs.md) pour plus d’informations. <br/> |
-|**Emplacement** <br/> |nvarchar (max)  <br/> ||Emplacement d’appel d’urgence.  <br/> |
+|**SessionIdTime** <br/> |DateHeure  <br/> |Primaire, étrangère  <br/> |Heure de la demande de session. Utilisé en conjonction avec **SessionIdSeq** pour identifier de manière unique une session. Consultez le [tableau dans Skype pour Business Server 2015 des boîtes de dialogue](dialogs.md) pour plus d’informations. <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |Primaire, étrangère  <br/> |Numéro d’identification pour identifier la session. Utilisé conjointement avec **SessionIdTime** pour identifier de manière unique une session. Consultez le [tableau dans Skype pour Business Server 2015 des boîtes de dialogue](dialogs.md) pour plus d’informations. <br/> |
+|**Emplacement** <br/> |nvarchar (max)  <br/> ||Emplacement de l’appel d’urgence.  <br/> |
    
 

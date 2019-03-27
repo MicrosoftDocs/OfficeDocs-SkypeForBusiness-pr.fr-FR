@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Découvrez comment configurer et tester les standards automatiques de système téléphonique (PBX nuage) pour efficace gestion des appels pour votre organisation.
-ms.openlocfilehash: 83a59090e447a5bfbda4cf72481b9d6b1ce21a0e
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 5071b3c26809e56df4cdd922ed1df2e67fc9481c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542318"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873478"
 ---
 # <a name="set-up-a-phone-system-auto-attendant"></a>Configurer les standards automatiques du système téléphonique
 
@@ -37,19 +37,21 @@ Si vous souhaitez en savoir plus sur les standards automatiques, voir [Quelles s
 > [!NOTE]
 > Cet article s’applique à Microsoft Teams et Skype pour Business Online.
 
-## <a name="step-1---getting-started"></a>Étape 1 : prise en main
+## <a name="step-1---get-started"></a>Étape 1 : mise en route
 
-- Avant de pouvoir créer et configurer votre standards automatiques, si le standard automatique aura un numéro de téléphone (et de second niveau invite ou imbriquée sera de standards automatiques ne nécessitent un numéro de téléphone) que vous devrez obtenir ou transférer votre appel payant existant ou un service gratuit numéros . Une fois que vous obtenez les numéros gratuits service payant, ils s’affichent dans le **Centre d’administration de Microsoft équipes** > **vocale** > page de**numéros de téléphone** . Pour obtenir vos numéros de service, voir les [numéros de téléphone de mise en service](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers.md), ou si vous souhaitez transférer et le numéro de service existant, voir [transférer des numéros de téléphone vers Office 365](transfer-phone-numbers-to-office-365.md). **User (subscriber)** numbers can't be assigned to auto attendants. Si vous êtes en dehors des États-Unis, vous ne pouvez pas utiliser le centre d’administration Microsoft Teams pour obtenir les numéros de service ; Accédez [ici](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+- Avant de pouvoir créer et configurer votre standards automatiques, si le standard automatique aura un numéro de téléphone (et de second niveau invite ou imbriquée sera de standards automatiques ne nécessitent un numéro de téléphone) que vous devrez obtenir ou transférer votre appel payant existant ou un service gratuit numéros . Une fois que vous obtenez les numéros gratuits service payant, ils s’affichent dans le **Centre d’administration de Microsoft équipes** > **vocale** > page de**numéros de téléphone** . Pour obtenir vos numéros de service, voir les [numéros de téléphone de mise en service](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json), ou si vous souhaitez transférer et le numéro de service existant, voir [transférer des numéros de téléphone vers Office 365](transfer-phone-numbers-to-office-365.md). **User (subscriber)** numbers can't be assigned to auto attendants. Si vous êtes en dehors des États-Unis, vous ne pouvez pas utiliser le centre d’administration Microsoft Teams pour obtenir les numéros de service ; Accédez [ici](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
     > [!CAUTION]
-    > Pour obtenir et utiliser les numéros de téléphone gratuit, vous devez configurer les crédits de Communications. Pour faire cela, consultez [Quelles sont les Communications crédits ?](what-are-communications-credits.md) et [configurer les Communications crédits pour votre organisation](set-up-communications-credits-for-your-organization.md).
+    > Pour obtenir et utiliser les numéros de téléphone, vous devez configurer les crédits de Communications. Pour faire cela, consultez [Quelles sont les Communications crédits ?](what-are-communications-credits.md) et [configurer les Communications crédits pour votre organisation](set-up-communications-credits-for-your-organization.md).
   
-- Votre organisation doit avoir (au minimum), une licence entreprise E3 plus **Système téléphonique** ou une licence Enterprise E5. Le nombre de licences utilisateur **Système téléphonique** qui sont assignés affecte le nombre de numéros de service qui sont disponibles pour être utilisés pour les standards automatiques. Les numéros des standards automatiques que vous pouvez avoir dépend de licences numéros **Système téléphonique** et de **Conférence** qui sont assignés au sein de votre organisation. Pour en savoir plus sur les licences, accédez [ici](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+- Votre organisation doit avoir (au minimum), une licence entreprise E3 plus **Système téléphonique** ou une licence Enterprise E5. Le nombre de licences utilisateur **Système téléphonique** qui sont assignés affecte le nombre de numéros de service qui sont disponibles pour être utilisés pour les standards automatiques. Les numéros des standards automatiques que vous pouvez avoir dépend de licences numéros **Système téléphonique** et de **Conférence** qui sont assignés au sein de votre organisation. Pour plus d’informations sur les licences, voir [Skype pour la licence de module complémentaire Business](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing) ou [équipes Microsoft licensing de module complémentaire](teams-add-on-licensing/microsoft-teams-add-on-licensing.md). .
 
     > [!TIP]
-    > Pour rediriger les appels vers un opérateur ou une option de menu qui est un utilisateur en ligne avec une licence de **Système téléphonique** , vous devez les activer pour Enterprise Voice ou de leur attribuer des Plans de l’appel dans Office 365. Voir [Assigner de Skype pour les professionnels et les équipes Microsoft de licences](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). Vous pouvez aussi utiliser Windows PowerShell. Par exemple, exécutez :`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+    > Pour rediriger les appels vers un opérateur ou une option de menu qui est un utilisateur en ligne avec une licence de **Système téléphonique** , vous devez les activer pour Enterprise Voice ou de leur attribuer des Plans de l’appel dans Office 365. Voir [Assigner de Skype pour les licences d’entreprise](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses) ou [licences attribuer les équipes Microsoft](assign-teams-licenses.md). Vous pouvez aussi utiliser Windows PowerShell. Par exemple, exécutez :`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 ## <a name="step-2---create-a-new-auto-attendant"></a>Étape 2 : création d'un standard automatique
+
+[!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
 > [!IMPORTANT]
 > Chaque file d’attente de l’appel doit posséder un [compte de ressource](manage-resource-accounts.md)associé. Vous devez d’abord créer le compte de ressources, puis vous pouvez l’associer au standard automatique.
@@ -353,7 +355,7 @@ Voici les applets de commande requis pour gérer un standard automatique.
 
   - [Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 depuis un seul point d'administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :](https://docs.microsoft.com/en-us/office365/enterprise/powershell/why-you-need-to-use-office-365-powershell)
 
-- Windows PowerShell offre de nombreux avantages en matière de rapidité, de simplicité et de productivité par rapport à l’utilisation du centre d’administration Office 365 uniquement, par exemple lorsque vous modifiez des paramètres pour un grand nombre d’utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes :
+- Windows PowerShell offre de nombreux avantages en matière de rapidité, de simplicité et de productivité par rapport à l'utilisation du centre d'administration Office 365 uniquement, par exemple lorsque vous modifiez des paramètres pour un grand nombre d'utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes :
 
   - [Gérer Office 365 avec Office 365 PowerShell](https://docs.microsoft.com/en-us/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
 
@@ -363,12 +365,13 @@ Voici les applets de commande requis pour gérer un standard automatique.
 
 [Voici les avantages du système téléphonique dans Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
-[Obtenir des numéros de téléphone de service](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
+[Obtention de numéros de téléphone de service](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
-[Disponibilité des forfaits d'appels et de l’audioconférence selon les régions et les pays](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
+[Disponibilité des forfaits d’appels et de l’audioconférence selon les régions et les pays](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 
 [Nouvelle CsOrganizationalAutoAttendant](https://docs.microsoft.com/en-us/powershell/module/skype/new-csorganizationalautoattendant?view=skype-ps)  
 
-[Quels sont les standards automatiques du système téléphonique?](what-are-phone-system-auto-attendants.md)
+[Quels sont les standards automatiques du système téléphonique ?](what-are-phone-system-auto-attendants.md)
 
-[Exemple de petite entreprise - configurer un standard automatique](/skypeforbusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml)  
+[Exemple de petite entreprise : configurer un standard automatique](https://docs.microsoft.com/skypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa
+)  

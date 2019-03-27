@@ -1,5 +1,6 @@
 ---
-title: Vue de VoIPDetails
+title: Vue voipdetails
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -9,31 +10,32 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 14c44736-71ba-4fc5-82c7-1df65bf6261c
-description: La vue VoIPDetails stocke des informations sur les sessions d’homologue à homologue, où au moins un utilisateur est un utilisateur de VoIP. Cette vue a été introduite dans Microsoft Lync Server 2013.
-ms.openlocfilehash: 93c2afb6383817a4d3941d5b427565fb1d0db098
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: La vue voipdetails stocke des informations sur les sessions d’égal à égal, où au moins un utilisateur est un utilisateur VoIP. Cet affichage a été introduit dans Microsoft Lync Server 2013.
+ms.openlocfilehash: 940c3874d5ce8eb8a4d2261de56b8988b6d3a4c9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875552"
 ---
-# <a name="voipdetails-view"></a>Vue de VoIPDetails
+# <a name="voipdetails-view"></a>Vue voipdetails
  
-La vue VoIPDetails stocke des informations sur les sessions d’homologue à homologue, où au moins un utilisateur est un utilisateur de VoIP. Cette vue a été introduite dans Microsoft Lync Server 2013.
+La vue voipdetails stocke des informations sur les sessions d’égal à égal, où au moins un utilisateur est un utilisateur VoIP. Cet affichage a été introduit dans Microsoft Lync Server 2013.
   
 > [!NOTE]
-> La vue VoIPDetails contient toutes les colonnes dans la [vue de le SessionDetails](sessiondetails-0.md) en outre les colonnes répertoriées ci-dessous.
+> La vue voipdetails contient toutes les colonnes dans la [vue SessionDetails](sessiondetails-0.md) en plus des colonnes répertoriées ci-dessous.
   
 |**Colonne**|**Type de données**|**Détails**|
 |:-----|:-----|:-----|
-|**FromPhone** <br/> |nvarchar(450)  <br/> |URI de l’utilisateur qui a démarré la session du téléphone.  <br/> |
-|**ToPhone** <br/> |nvarchar(450)  <br/> |URI de l’utilisateur qui a rejoint la session du téléphone.  <br/> |
+|**FromPhone** <br/> |nvarchar(450)  <br/> |URI du téléphone de l’utilisateur ayant démarré la session.  <br/> |
+|**ToPhone** <br/> |nvarchar(450)  <br/> |URI du téléphone de l’utilisateur ayant participé à la session.  <br/> |
 |**DisconnectedByUri** <br/> |nvarchar(450)  <br/> |URI de l’utilisateur qui a déconnecté la session.  <br/> |
-|**DisconnectedByUriType** <br/> |nvarchar(256)  <br/> |Type d’URI de l’utilisateur qui a déconnecté la session. Consultez le [tableau de UriTypes](uritypes.md) pour plus d’informations. <br/> |
-|**DisconnectedByTenant** <br/> |nvarchar(256)  <br/> |Clients de l’utilisateur qui a déconnecté la session.  <br/> |
-|**DisconnectedByPhone** <br/> |nvarchar(450)  <br/> |URI de l’utilisateur qui a déconnecté la session du téléphone.  <br/> |
-|**FromMediationServer** <br/> |nvarchar(256)  <br/> |Serveur de médiation utilisé par l’utilisateur qui a démarré la session.  <br/> |
-|**ToMediationServer** <br/> |nvarchar(256)  <br/> |Serveur de médiation utilisé par l’utilisateur qui a rejoint la session.  <br/> |
-|**FromGateway** <br/> |nvarchar(256)  <br/> |Passerelle utilisée par l’utilisateur qui a démarré la session.  <br/> |
-|**ToGateway** <br/> |nvarchar(256)  <br/> |Passerelle utilisée par l’utilisateur qui a rejoint la session.  <br/> |
+|**DisconnectedByUriType** <br/> |nvarchar(256)  <br/> |Type d’URI de l’utilisateur qui a déconnecté la session. Consultez la [table UriTypes](uritypes.md) pour plus d’informations. <br/> |
+|**DisconnectedByTenant** <br/> |nvarchar(256)  <br/> |Client de l’utilisateur qui a déconnecté la session.  <br/> |
+|**DisconnectedByPhone** <br/> |nvarchar(450)  <br/> |URI du téléphone de l’utilisateur qui a déconnecté la session.  <br/> |
+|**FromMediationServer** <br/> |nvarchar(256)  <br/> |Serveur de médiation utilisé par l’utilisateur ayant démarré la session.  <br/> |
+|**ToMediationServer** <br/> |nvarchar(256)  <br/> |Serveur de médiation utilisé par l’utilisateur ayant participé à la session.  <br/> |
+|**FromGateway** <br/> |nvarchar(256)  <br/> |Passerelle utilisée par l’utilisateur ayant démarré la session.  <br/> |
+|**ToGateway** <br/> |nvarchar(256)  <br/> |Passerelle utilisée par l’utilisateur ayant participé à la session.  <br/> |
    
 

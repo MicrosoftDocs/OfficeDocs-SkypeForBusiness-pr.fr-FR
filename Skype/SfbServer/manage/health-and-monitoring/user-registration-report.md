@@ -1,5 +1,6 @@
 ---
 title: Rapport d’enregistrement utilisateur dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 151d5cc9-cc1b-4cfa-be9c-55ebe321f7a4
 description: 'Résumé : Découvrez l’état de l’enregistrement d’utilisateur dans Skype pour Business Server.'
-ms.openlocfilehash: 6136e90700bf371621f2b7b27c87453ceb04d854
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ba60e691a8f2c7c976fa1c8dbe79ee3668e9c81a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21001627"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873442"
 ---
 # <a name="user-registration-report-in-skype-for-business-server"></a>Rapport d’enregistrement utilisateur dans Skype pour Business Server
  
@@ -38,7 +39,7 @@ Comparativement, la mesure nombre Total de connexions indique combien de fois to
   
 Pour mieux expliquer la différence entre le nombre total d’ouvertures de session et les utilisateurs uniques par ouverture de session, examinez les ouvertures de session pour une période donnée dans le tableau suivant.
   
-|**Utilisateur**|**Date/heure d’ouverture de session**|
+|**User**|**Date/heure d’ouverture de session**|
 |:-----|:-----|
 |Ken Myer  <br/> |07/07/2015 08:45  <br/> |
 |Ken Myer  <br/> |07/07/2015 08:46  <br/> |
@@ -65,7 +66,7 @@ La mesure d’utilisateurs actifs Unique fournit également des données plus ex
   
 ## <a name="filters"></a>Filtres
 
-Les filtres vous offrent la possibilité de renvoyer un ensemble de données mieux ciblées ou de visualiser les données renvoyées de différentes manières. Par exemple, le rapport d’enregistrement utilisateur permet de vous permet d’afficher des données pour votre pool de serveurs d’inscriptions et les serveurs de périphérie ou pour afficher les données pour un pool spécifique. Vous pouvez également choisir le mode de groupement des données. Dans ce cas, les enregistrements sont groupés par heure, jour, semaine ou mois.
+Les filtres vous offrent la possibilité de retourner un ensemble de données mieux ciblées ou de visualiser les données retournées de différentes manières. Par exemple, le rapport d’enregistrement utilisateur permet de vous permet d’afficher des données pour votre pool de serveurs d’inscriptions et les serveurs de périphérie ou pour afficher les données pour un pool spécifique. Vous pouvez également choisir le mode de groupement des données. Dans ce cas, les enregistrements sont groupés par heure, jour, semaine ou mois.
   
 Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le rapport d’enregistrement de l’utilisateur.
   

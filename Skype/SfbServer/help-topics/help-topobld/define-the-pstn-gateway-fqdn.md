@@ -1,5 +1,6 @@
 ---
-title: Définir le nom de domaine complet de passerelle PSTN
+title: Définir le nom complet de la passerelle PSTN
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c6135e2a-5d44-4046-bd53-fac4fdf52238
 description: Vous spécifiez le nom de domaine complet (FQDN) de la passerelle public commuté (PSTN) réseau qui connectera vos composants Enterprise Voice à une passerelle PSTN ou un autocommutateur privé (PBX).
-ms.openlocfilehash: 2f1c8eea8a8d3334d5c95e0b606799ad2f9c5f6b
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 586b59185187379b2f93bb0e7a67383b892153d7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23257485"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877887"
 ---
-# <a name="define-the-pstn-gateway-fqdn"></a>Définir le nom de domaine complet de passerelle PSTN
+# <a name="define-the-pstn-gateway-fqdn"></a>Définir le nom complet de la passerelle PSTN
 
 Vous spécifiez le nom de domaine complet (FQDN) de la passerelle public commuté (PSTN) réseau qui connectera vos composants Enterprise Voice à une passerelle PSTN ou un autocommutateur privé (PBX).
 

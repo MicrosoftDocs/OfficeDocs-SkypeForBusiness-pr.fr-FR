@@ -1,5 +1,6 @@
 ---
-title: Migration des réunions existantes et du contenu de la réunion
+title: Migration des réunions existantes et du contenu des réunions
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'Lorsqu’un compte d’utilisateur est déplacé à partir d’à un Skype pour Business Server 2019 server, les informations suivantes sont déplacées avec ce compte d’utilisateur :'
-ms.openlocfilehash: 03ccad0498af777c7d93765af7df2baf5da51f83
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: bf10fa6b4ad4d555ce80dee5ec4e4a6584020ac7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25030370"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874660"
 ---
-# <a name="migrate-existing-meetings-and-meeting-content"></a>Migration des réunions existantes et du contenu de la réunion
+# <a name="migrate-existing-meetings-and-meeting-content"></a>Migration des réunions existantes et du contenu des réunions
 
 Lorsqu’un compte d’utilisateur est déplacé vers un Skype pour Business Server 2019 server, les informations suivantes sont déplacées avec ce compte d’utilisateur :
   

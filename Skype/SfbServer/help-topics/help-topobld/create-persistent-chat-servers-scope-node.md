@@ -1,5 +1,6 @@
 ---
 title: Créer un nœud d’étendue des serveurs de conversation permanente
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c5f2873f-6601-4483-850d-c135b530392a
 description: 'Vous cliquez avec le bouton droit sur Pool de conversations permanentes dans le Générateur de topologie pour effectuer les actions suivantes :'
-ms.openlocfilehash: e8126dd3576d71a955c45a53c4fd2cd66eb14142
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: 76027854078ca7ab90422943964fb920f8e85fd9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19503437"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877957"
 ---
 # <a name="create-persistent-chat-servers-scope-node"></a>Créer un nœud d’étendue des serveurs de conversation permanente
  

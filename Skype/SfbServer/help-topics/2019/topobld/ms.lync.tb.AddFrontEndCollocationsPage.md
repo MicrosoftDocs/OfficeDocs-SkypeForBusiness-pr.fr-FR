@@ -1,5 +1,6 @@
 ---
-title: Ajouter des COLOCALISATIONS de du serveur frontal
+title: Ajouter des colocalisations du serveur frontal
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 23e3bda7-a8bf-4da4-88e5-098ae2aa268f
 ROBOTS: NOINDEX, NOFOLLOW
 description: Pour un déploiement Enterprise Edition, A / service de conférence de V est colocalisé sur le pool frontal. Vous pouvez également colocaliser le serveur de médiation sur le pool frontal, ou vous pouvez le déployer en tant que serveur autonome. A / service de conférence de V est toujours colocalisé si la conférence est activée.
-ms.openlocfilehash: 07c43ee7c9e336bfa9d18a07ca73b4d278d48d22
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: a9f0f46cbd93681b068ef7d87e269c5ff4024385
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "23263787"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875382"
 ---
-# <a name="add-front-end-server-collocations"></a>Ajouter des COLOCALISATIONS de du serveur frontal
+# <a name="add-front-end-server-collocations"></a>Ajouter des colocalisations du serveur frontal
 
 Pour un déploiement Enterprise Edition, A / service de conférence de V est colocalisé sur le pool frontal. Vous pouvez également colocaliser le serveur de médiation sur le pool frontal, ou vous pouvez le déployer en tant que serveur autonome. A / service de conférence de V est toujours colocalisé si la conférence est activée.
 

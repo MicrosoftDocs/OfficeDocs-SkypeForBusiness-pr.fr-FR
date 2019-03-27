@@ -1,5 +1,6 @@
 ---
 title: Plan de haute disponibilité et récupération d’urgence pour les serveurs de conversation permanente dans Skype pour Business Server 2015
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d9aa622a-95a3-4d8e-8d49-cbfe183f25bf
 description: 'Résumé : Lisez cette rubrique pour savoir comment planifier une haute disponibilité et récupération d’urgence pour les serveurs de conversation permanente dans Skype pour Business Server 2015.'
-ms.openlocfilehash: 90f01de0ca7efef8fdcda4f03fa4bfaa28bd4fcc
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 88584c43cb205d10d2baacb6cb31c4e8fdbb228a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20971654"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874793"
 ---
 # <a name="plan-for-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Plan de haute disponibilité et récupération d’urgence pour les serveurs de conversation permanente dans Skype pour Business Server 2015
  
@@ -47,7 +48,7 @@ Avant de configurer le serveur de conversation permanente pour la haute disponib
     
 ## <a name="disaster-recovery-and-high-availability-solutions"></a>Solutions de haute disponibilité et de récupération d’urgence
 
-Skype pour Business Server prend en charge plusieurs modes de haute disponibilité pour vos serveurs principaux, y compris la mise en miroir de base de données. Pour plus d’informations, voir [planifier la haute disponibilité et de récupération d’urgence dans Skype pour Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md). 
+Skype pour Business Server prend en charge plusieurs modes de haute disponibilité pour vos serveurs principaux, y compris la mise en miroir de base de données. Pour plus d'informations, reportez-vous à la rubrique [Plan for high availability and disaster recovery in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md). 
   
 La solution de récupération d’urgence pour les serveurs de conversation permanente décrite dans cette rubrique est basée sur un pool de serveurs de conversation permanente étiré. Aucun réseau local virtuel (VLAN) étiré n’est requis. Par étirement un pool de serveurs de conversation permanente, vous configurez un pool dans la topologie logique, mais vous placez physiquement les serveurs du pool dans deux différents centres de données. Configurez la mise en miroir SQL Server pour la base de données de la même manière, puis déployez la base de données et le miroir dans le même centre de données. Vous devez configurer une base de données de sauvegarde dans le second centre de données (avec un miroir éventuel pour assurer la haute disponibilité pendant la récupération d’urgence). Il s’agit de la base de données de sauvegarde utilisée pour le basculement pendant la récupération d’urgence. 
   

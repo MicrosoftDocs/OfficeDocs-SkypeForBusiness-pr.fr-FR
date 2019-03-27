@@ -1,5 +1,6 @@
 ---
 title: Catégorie de conversation permanente – Page principale
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: b71c6e6f-681c-4230-954d-3e95ab64ca00
 ROBOTS: NOINDEX, NOFOLLOW
 description: Vous pouvez utiliser la section Catégorie de la page Conversation permanente pour configurer des catégories. Catégorie de salle de conversation permanente est une structure logique pour organiser des salles de conversation. Une catégorie définit un ensemble par défaut de listes de contrôle d’accès pour le contrôle des utilisateurs et des groupes d’utilisateurs autorisés à créer ou à rejoindre les salles de conversation. Vous pouvez utiliser des catégories pour appliquer des limites éthiques entre différentes sous-divisions au sein de leur organisation.
-ms.openlocfilehash: 4f95fc2cc6525a4ddccd7de09ebefb6e5b1cf25c
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 1c9f69bdc250b82c7841671ffef10d7620c15954
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20966242"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876837"
 ---
 # <a name="persistent-chat-category-main-page"></a>Catégorie de conversation permanente – Page principale
 

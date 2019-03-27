@@ -1,5 +1,6 @@
 ---
-title: (Outil de planification) de l’équilibrage de charge
+title: Load Balancer (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,19 +13,20 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3bf7f2c7-b79b-4b37-bb32-72324a94ac99
-description: 'Si vous avez des pools de Front-End, pools de directeur ou serveur de transport Edge, vous devez déployer pour ces pools d’équilibrage de charge. Lʼéquilibrage de charge distribue le trafic entre les serveurs dans un pool. Pour plus d’informations, consultez :'
-ms.openlocfilehash: a68e2782d27777838e77a4a9a077212badaa697d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Si vous avez des pools frontaux, directeurs ou pools de serveurs Edge, vous devez déployer l’équilibrage de charge pour ces pools. Lʼéquilibrage de charge distribue le trafic entre les serveurs dans un pool. Pour plus d’informations, consultez :'
+ms.openlocfilehash: d185e7f45106ace873fbf31917f1c91f551d7c3e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874408"
 ---
-# <a name="load-balancer-planning-tool"></a>(Outil de planification) de l’équilibrage de charge
+# <a name="load-balancer-planning-tool"></a>Load Balancer (Planning Tool)
  
-Si vous avez des pools de Front-End, pools de directeur ou serveur de transport Edge, vous devez déployer pour ces pools d’équilibrage de charge. Lʼéquilibrage de charge distribue le trafic entre les serveurs dans un pool. Pour plus d’informations, consultez :
+Si vous avez des pools frontaux, directeurs ou pools de serveurs Edge, vous devez déployer l’équilibrage de charge pour ces pools. Lʼéquilibrage de charge distribue le trafic entre les serveurs dans un pool. Pour plus d’informations, consultez :
   
-- [Configuration requise pour Skype pour les entreprises d’équilibrage de la charge](../../plan-your-deployment/network-requirements/load-balancing.md)
+- [Configuration requise pour l’équilibrage de charge pour Skype Entreprise](../../plan-your-deployment/network-requirements/load-balancing.md)
     
-- [Configuration requise par DNS Skype pour Business Server 2015](../../plan-your-deployment/network-requirements/dns.md)
+- [Conditions préalables des DNS pour Skype Entreprise Server 2015](../../plan-your-deployment/network-requirements/dns.md)
     
 

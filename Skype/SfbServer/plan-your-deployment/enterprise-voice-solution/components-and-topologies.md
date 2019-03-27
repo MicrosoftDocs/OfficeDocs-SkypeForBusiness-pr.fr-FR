@@ -1,5 +1,6 @@
 ---
 title: Composants et topologies pour appeler le contrôle d’admission dans Skype pour les entreprises
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0beec6be-2431-4255-a3d2-512dd030e66a
 description: Planification du contrôle d’admission des appels si vous disposez d’un réseau MPLS, d’une jonction SIP (Session Initiation Protocol) ou d’une passerelle RTC ou d’un système PBX tiers. S’applique à Skype Business Server Enterprise Voice.
-ms.openlocfilehash: f43b111d0ef3260c34b53e27a903de20fdf676ef
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 7022ade98dbd614023a4faaea283b939fa658e73
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887671"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30872837"
 ---
 # <a name="components-and-topologies-for-call-admission-control-in-skype-for-business"></a>Composants et topologies pour appeler le contrôle d’admission dans Skype pour les entreprises
 
@@ -52,14 +53,14 @@ La figure suivante montre un exemple de déploiement du contrôle d’admission 
 
 Pour configurer le contrôle d’admission des appels sur une jonction SIP, vous devrez exécuter les tâches suivantes pendant le déploiement du contrôle d’admission des appels :
 
-1. Créez un site réseau pour représenter le fournisseur de services de téléphonie Internet. Associez le site réseau à une région réseau appropriée, et allouez une bande passante nulle pour l’audio et la vidéo pour ce site réseau. Pour plus d’informations, voir [Configurer les Sites de réseau pour CAC](https://technet.microsoft.com/library/afcea38f-5789-45ec-97af-c6e38364950c.aspx) dans la documentation de déploiement.
+1. Créez un site réseau pour représenter le fournisseur de services de téléphonie Internet. Associez le site réseau à une région réseau appropriée, et allouez une bande passante nulle pour l’audio et la vidéo pour ce site réseau. Pour plus d’informations, reportez-vous à [Configure Network Sites for CAC](https://technet.microsoft.com/library/afcea38f-5789-45ec-97af-c6e38364950c.aspx) dans la documentation de déploiement.
 
     > [!NOTE]
     > Pour le fournisseur de services de téléphonie Internet, cette configuration de site réseau n’est pas fonctionnelle. Les valeurs de stratégie de bande passante sont en fait appliquées à l’étape 2.
 
 2. Créez un lien intersite pour la jonction SIP à l’aide des valeurs de paramètre pertinentes pour le site créé à l’étape 1. Par exemple, utilisez le nom du site réseau dans votre entreprise comme valeur du paramètre NetworkSiteID1 et le site réseau du fournisseur de services de téléphonie Internet comme valeur du paramètre NetworkSiteID2. Pour plus d’informations, voir [créer des stratégies inter-sites réseau dans Skype pour Business Server](../../deploy/deploy-enterprise-voice/create-network-intersite-policies.md) dans la documentation de déploiement et [New-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps).
 
-3. Obtenir l’adresse IP de la Session Border Controller (SCB) le Point de terminaison multimédia à partir de votre fournisseur ITSP. Ajoutez cette adresse IP avec un masque de sous-réseau de 32 au site réseau qui représente le fournisseur de services de téléphonie Internet. Pour plus d’informations, voir [associer un sous-réseau à un Site réseau](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx).
+3. Obtenir l’adresse IP de la Session Border Controller (SCB) le Point de terminaison multimédia à partir de votre fournisseur ITSP. Ajoutez cette adresse IP avec un masque de sous-réseau de 32 au site réseau qui représente le fournisseur de services de téléphonie Internet. Pour plus d’informations, reportez-vous à [Associate a Subnet with a Network Site](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx).
 
 ## <a name="call-admission-control-with-a-third-party-pstn-gateway-or-pbx"></a>Contrôle d’admisson des appels avec une passerelle RTC ou un système PBX tiers
 
@@ -88,7 +89,7 @@ Cet exemple s’applique aux appels RTC entrants vers un client dans Site résea
 > Assurez-vous que le sous-réseau IP auquel appartiennent les deux interfaces du serveur de médiation est configuré et associé au Site réseau 1.
 
 > [!NOTE]
-> Pour plus d’informations, voir [associer un sous-réseau à un Site réseau](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx).
+> Pour plus d’informations, reportez-vous à la rubrique [Associate a Subnet with a Network Site](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx).
 
 ### <a name="case-2-cac-between-the-mediation-server-and-a-third-party-pbx-with-media-termination-point"></a>Cas 2 : CAC entre le serveur de médiation et un système PBX tiers avec Point de terminaison multimédia
 
@@ -113,7 +114,7 @@ Cet exemple s’applique aux appels RTC entrants vers un client dans Site résea
 > Assurez-vous que le sous-réseau IP auquel appartiennent les deux interfaces du serveur de médiation est configuré et associé au Site réseau 1.
 
 > [!NOTE]
-> Pour plus d’informations, voir [associer un sous-réseau à un Site réseau](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx).
+> Pour plus d’informations, reportez-vous à la rubrique [Associate a Subnet with a Network Site](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx).
 
 ### <a name="case-3-cac-between-the-mediation-server-and-a-third-party-pbx-without-a-media-termination-point"></a>Cas 3 : CAC entre le serveur de médiation et un système PBX tiers sans Point de terminaison multimédia
 
@@ -134,6 +135,6 @@ Pour les appels provenant du point de terminaison tiers, les informations sur ce
 > Assurez-vous que le sous-réseau IP auquel appartiennent les deux interfaces du serveur de médiation est configuré et associé au Site réseau 1.
 
 > [!NOTE]
-> Pour plus d’informations, voir [associer un sous-réseau à un Site réseau](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx).
+> Pour plus d’informations, reportez-vous à la rubrique [Associate a Subnet with a Network Site](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx).
 
 

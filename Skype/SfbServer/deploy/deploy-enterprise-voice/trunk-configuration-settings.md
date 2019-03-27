@@ -1,5 +1,6 @@
 ---
 title: Créer une nouvelle collection de jonction paramètres de configuration dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4ebd710c-38cd-4cff-9a45-df029d424580
 description: 'Résumé : Découvrez comment créer une nouvelle collection de jonction les paramètres de configuration à l’aide de la Skype pour le panneau de configuration serveur Business.'
-ms.openlocfilehash: f4cb53cecc54ebd547cd6992c4d89aaf2ea9e586
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 5f3fd6b704a99be13ab71153352b174f769a28cc
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882178"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877684"
 ---
 # <a name="create-a-new-collection-of-trunk-configuration-settings-in-skype-for-business-server"></a>Créer une nouvelle collection de jonction paramètres de configuration dans Skype pour Business Server 
 

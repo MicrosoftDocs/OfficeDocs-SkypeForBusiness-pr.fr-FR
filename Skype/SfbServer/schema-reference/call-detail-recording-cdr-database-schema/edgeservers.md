@@ -1,5 +1,6 @@
 ---
 title: Table EdgeServers dans Skype pour Business Server 2015
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -9,20 +10,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aeda8c01-c88c-4f56-b3d0-bac475fae449
-description: La table EdgeServers est un tableau de prise en charge. Chaque enregistrement stocke des informations sur un serveur de transport Edge qui est impliqué dans les appels ayant des enregistrements dans la base de données.
-ms.openlocfilehash: 581dfcb6bbd3b5088af2bbc27a580d791b9ef8f7
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: La table EdgeServers est une table de prise en charge. Chaque enregistrement stocke des informations sur un serveur Edge impliqué dans les appels qui ont des enregistrements dans la base de données.
+ms.openlocfilehash: 253190f23d130d12a1b4af701bf68922717d8da8
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874010"
 ---
 # <a name="edgeservers-table-in-skype-for-business-server-2015"></a>Table EdgeServers dans Skype pour Business Server 2015
  
-La table EdgeServers est un tableau de prise en charge. Chaque enregistrement stocke des informations sur un serveur de transport Edge qui est impliqué dans les appels ayant des enregistrements dans la base de données.
+La table EdgeServers est une table de prise en charge. Chaque enregistrement stocke des informations sur un serveur Edge impliqué dans les appels qui ont des enregistrements dans la base de données.
   
-|**Colonne**|**Type de données**|**Index de la clé**|**Détails**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
 |:-----|:-----|:-----|:-----|
-|**EdgeServerId** <br/> |int  <br/> |Principal  <br/> |Numéro unique qui identifie ce serveur de transport Edge.  <br/> |
+|**EdgeServerId** <br/> |int  <br/> |Principal  <br/> |Numéro unique identifiant ce serveur Edge.  <br/> |
 |**EdgeServer** <br/> |nvarchar(256)  <br/> | <br/> |Nom du serveur Edge.  <br/> |
    
 

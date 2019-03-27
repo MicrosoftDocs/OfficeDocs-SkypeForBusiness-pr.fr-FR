@@ -1,5 +1,6 @@
 ---
 title: Gérer les services dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Découvrez comment afficher l’état, démarrer et arrêter les services et empêcher des sessions de services.
-ms.openlocfilehash: bfe24b32509f47cd733f5720ef29e635a7105d52
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 6913ce2cbef6c12a61d7d4751b35a71371ffb991
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223471"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875059"
 ---
 # <a name="manage-services-in-skype-for-business-server"></a>Gérer les services dans Skype pour Business Server
 
@@ -22,7 +23,7 @@ Vous pouvez utiliser la Skype pour Business Server Control Panel pour afficher u
 - [Afficher la liste des ordinateurs qui exécutent Skype pour Business Server](#view-a-list-of-computers-running-skype-for-business-server)
 - [Afficher l’état des services s’exécutant sur un ordinateur dans Skype pour les entreprises](#view-the-status-of-services-running-on-a-computer-in-skype-for-business)
 - [Démarrer ou arrêter Skype pour les services](#start-or-stop-skype-for-business-services)
-- [Empêcher les sessions de services](#prevent-sessions-for-services)
+- [Empêcher l’exécution de sessions de services](#prevent-sessions-for-services)
 
 ## <a name="view-a-list-of-computers-running-skype-for-business-server"></a>Afficher la liste des ordinateurs qui exécutent Skype pour Business Server
 
@@ -40,7 +41,7 @@ Utilisez le Skype pour le panneau de configuration serveur Business pour affiche
 
 Utilisez le Skype pour Business Server Control Panel pour afficher tous les services qui sont exécutent sur un ordinateur donné de votre Skype pour la topologie du serveur d’entreprise et voir le statut de chaque service.
 
-1. À partir d’un compte d’utilisateur auquel est affecté un des rôles CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
+1. À partir d’un compte d’utilisateur auquel est affecté le rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
 2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le Skype pour le panneau de configuration serveur Business, voir [installer et ouvrir Outils d’administration](../../management-tools/install-and-open-administrative-tools.md).
 3. Dans la barre de navigation de gauche, cliquez sur **la topologie**.
 4. Dans la page statut, triez ou recherchez dans la liste, selon les besoins, pour rechercher l’ordinateur que qui vous intéresse, puis cliquez sur le nom de l’ordinateur.
@@ -92,7 +93,7 @@ Utilisez le Skype pour Business Server Control Panel pour démarrer ou arrêter 
 
 ### <a name="start-or-stop-a-specific-service"></a>Démarrer ou arrêter un service spécifique
 
-1. À partir d’un compte d’utilisateur auquel est affecté un des rôles CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
+1. À partir d’un compte d’utilisateur auquel est affecté le rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
 2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le Skype pour le panneau de configuration serveur Business, voir [installer et ouvrir Outils d’administration](../../management-tools/install-and-open-administrative-tools.md).
 3. Dans la barre de navigation de gauche, cliquez sur **Topologie**, puis sur **État**. 
 4. Sur la page État, tri ou de recherche par le biais de la liste selon vos besoins pour rechercher l’ordinateur qui exécute le service que vous souhaitez démarrer ou arrêter, puis cliquez dessus.
@@ -103,7 +104,7 @@ Utilisez le Skype pour Business Server Control Panel pour démarrer ou arrêter 
 9. Cliquez sur **Fermer**.
 
 
-## <a name="prevent-sessions-for-services"></a>Empêcher les sessions de services
+## <a name="prevent-sessions-for-services"></a>Empêcher l’exécution de sessions de services
 
 Utilisez le Skype pour Business le panneau de configuration afin d’empêcher de nouvelles sessions pour tous les Skype pour les services Business Server s’exécutant sur un ordinateur spécifique ou de nouvelles sessions pour un service spécifique.
 

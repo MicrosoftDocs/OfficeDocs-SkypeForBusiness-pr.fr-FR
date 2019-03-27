@@ -1,5 +1,6 @@
 ---
-title: Ensemble-CcCredential
+title: Set-CcCredential
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,17 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 784ff94a-4b33-4dbd-ba74-27acc3eb6954
 description: 'L’applet de commande Set-CcCredential définit les informations du déploiement de la version Cloud Connector de Skype Entreprise.  '
-ms.openlocfilehash: 7680f863ccf082ddb8359c7d3fcefc2c058b6a40
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 547f0b87b006347a337a2c25222aecbd4f402669
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876640"
 ---
-# <a name="set-cccredential"></a>Ensemble-CcCredential
+# <a name="set-cccredential"></a>Set-CcCredential
  
 L’applet de commande Set-CcCredential définit les informations du déploiement de la version Cloud Connector de Skype Entreprise.   
   
-Avec connecteur de nuage version 2.0 et ultérieure, cette applet de commande peut également définir les informations de compte de l’administrateur de la machine virtuelle et de l’administrateur de domaine.
+Avec le nuage connecteur version 2.0 et versions ultérieure, cette applet de commande peut également définir les informations de compte de l’administrateur de l’ordinateur virtuel et de l’administrateur de domaine.
   
 ```
 Set-CcCredential [[-AccountType] <string> {TenantAdmin}]
@@ -40,14 +42,14 @@ Set-CcCredential -AccountType "TenantAdmin"
 ## <a name="detailed-description"></a>Description détaillée
 <a name="DetailedDescription"> </a>
 
-L’applet de commande Set-CcCredential définit le nom et le mot de passe du compte de l’administrateur de client. Pour les versions antérieures à 2.0, cet administrateur doit être un administrateur Global de Office 365. Connecteur de nuage utilise ce compte pour obtenir les informations de configuration, de définir les paramètres de configuration et d’état d’application de mise à jour à la configuration de clients Office 365. Avec la version 2.0 et ultérieure, vous pouvez également utiliser cette applet de commande pour mettre à jour les mots de passe pour les comptes VmAdmin et DomainAdmin.
+L’applet de commande Set-CcCredential définit le nom et le mot de passe du compte de l’administrateur de client. Pour les versions antérieures à 2.0, cet administrateur doit être un administrateur Global de Office 365. Nuage connecteur utilise ce compte pour obtenir des informations de configuration, définissez les paramètres de configuration et d’état d’application de mise à jour pour la configuration du client Office 365. Avec la version 2.0 et versions ultérieures, vous pouvez utiliser également cette applet de commande pour mettre à jour les mots de passe pour les comptes VmAdmin et DomainAdmin.
   
 ## <a name="parameters"></a>Paramètres
 <a name="DetailedDescription"> </a>
 
-|**Paramètre**|**Obligatoire**|**Type de**|**Description**|
+|**Paramètre**|**Obligatoire**|**Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| AccountType <br/> | Obligatoire <br/> |System.String  <br/> | Valeur du paramètre doit être « Associer », « VmAdmin » ou « DomainAdmin ». <br/> |
+| AccountType <br/> | Obligatoire <br/> |System.String  <br/> | Valeur du paramètre doit être « TenantAdmin », « VmAdmin » ou « DomainAdmin ». <br/> |
    
 ## <a name="input-types"></a>Types d’entrées
 <a name="InputTypes"> </a>

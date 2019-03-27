@@ -1,5 +1,6 @@
 ---
 title: Plan network requirements for Skype for Business
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -13,18 +14,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 35c7bb3f-8e0f-48b7-8a2c-857d4b42a4c4
 description: 'Résumé : Passez en revue les considérations de composant réseau ci-dessous avant d’implémenter Skype pour Business Server.'
-ms.openlocfilehash: e05e40bc460ddddc6d9576d9842ab592f16e1481
-ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
+ms.openlocfilehash: 338a2d273fbba2bd006c5ed5acdd878338333b8a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "30408171"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877845"
 ---
 # <a name="plan-network-requirements-for-skype-for-business"></a>Plan network requirements for Skype for Business
 
 **Résumé :** Passez en revue les considérations de composant réseau ci-dessous avant d’implémenter Skype pour Business Server.
 
-Les informations fournies dans ces rubriques sont également abordées de manière plus approfondie dans le livre blanc [Planification réseau, surveillance et résolution de problèmes avec Lync Server](https://www.microsoft.com/en-us/download/details.aspx?id=39084). Alors que le contenu fait référence explicitement à Lync 2010 et Lync 2013, les considérations de Skype pour Business Server restent inchangées.
+Les informations contenues dans ces rubriques sont également abordés dans le livre blanc sur la [Planification du réseau, de surveillance et dépannage avec Lync Server](https://www.microsoft.com/en-us/download/details.aspx?id=39084) avec des détails supplémentaires et la profondeur. Alors que le contenu fait référence explicitement à Lync 2010 et Lync 2013, les considérations de Skype pour Business Server restent inchangées.
 
 De même, si votre réseau implique wi-fi ainsi qu’un accès câblé, le livre blanc [Proposer Lync 2013 Real-Time Communications en Wi-Fi](https://www.microsoft.com/en-us/download/details.aspx?id=36494) est une bonne référence et s’applique également aux Skype pour Business Server.
 
@@ -47,7 +48,7 @@ Dans le cas de l'intégration au réseau téléphonique commuté (RTC ou, en ang
 
 Configuration réseau requise pour l’audio/vidéo (A / V) dans un Skype pour Business Server déploiement sont les suivants :
 
-- Si vous déployez un serveur Edge unique ou un pool Edge à l’aide de l’équilibrage de la charge DNS, vous pouvez configurer le pare-feu _externe_ pour effectuer la traduction d’adresses réseau (NAT). Vous ne pouvez pas configurer le pare-feu _interne_ pour effectuer NAT. Pour plus d’informations, voir [planification de pare-feu et de Port](../edge-server-deployments/edge-environmental-requirements.md#port-and-firewall-planning).
+- Si vous déployez un serveur Edge unique ou un pool Edge à l’aide de l’équilibrage de la charge DNS, vous pouvez configurer le pare-feu _externe_ pour effectuer la traduction d’adresses réseau (NAT). Vous ne pouvez pas configurer le pare-feu _internal_ pour effectuer la traduction NAT. Pour plus d’informations, voir [planification de pare-feu et de Port](../edge-server-deployments/edge-environmental-requirements.md#port-and-firewall-planning).
 
     > [!IMPORTANT]
     > Si vous disposez d’un pool de serveurs Edge et que vous utilisez un équilibreur de charge matérielle, vous devez utiliser des adresses IP publiques sur les serveurs de périphérie et vous ne pouvez pas utiliser NAT pour les serveurs ou le pool à votre appareil compatible NAT (par exemple, une appliance de pare-feu ou commutateur de réseau local. Pour plus d’informations, voir [les scénarios de serveur de transport Edge dans Skype pour Business Server](../edge-server-deployments/scenarios.md).
@@ -143,7 +144,7 @@ La version stéréo du codec G.722 est utilisée par les systèmes basés sur Ly
 |H.264  <br/> |848x480 (16:9)  <br/> |1500  <br/> |400  <br/> |
 |H.264  <br/> |960x540 (16:9)  <br/> |2000  <br/> |500  <br/> |
 |H.264/RTVideo  <br/> |1 280 x 720 (16:9)  <br/> |2500  <br/> |700  <br/> |
-|H.264  <br/> |1 920x1 080 (16:9)  <br/> |4000  <br/> |1500  <br/> |
+|H.264  <br/> |1 920 x 1 080 (16:9)  <br/> |4000  <br/> |1500  <br/> |
 |H.264/RTVideo  <br/> |960x144 (20:3)  <br/> |500  <br/> |15  <br/> |
 |H.264  <br/> |1 280 x 192 (20:3)  <br/> |1000  <br/> |250  <br/> |
 |H.264  <br/> |1 920 x 288 (20:3)  <br/> |2000  <br/> |500  <br/> |
@@ -187,7 +188,7 @@ Outre la bande passante requise pour le trafic RTP (Real-Time Transport Protocol
 |**Media**|**Bande passante maximale RTCP (Kbits/s)**|
 |:-----|:-----|
 |Audio  <br/> |5  <br/> |
-|Vidéo (uniquement H.264 ou RTVideo envoyé/reçu)  <br/> | 10  <br/> |
+|Vidéo (uniquement H.264 ou RTVideo envoyé/reçu)  <br/> |10  <br/> |
 |Vidéo (H.264 et RTVideo envoyé/reçu)  <br/> |15  <br/> |
 
 Pour planifier la capacité, les deux statistiques suivantes sont intéressantes :

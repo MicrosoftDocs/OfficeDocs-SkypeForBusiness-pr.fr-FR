@@ -1,5 +1,6 @@
 ---
 title: Exchange Unified Messaging (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,12 +14,12 @@ localization_priority: Normal
 ms.assetid: cb767f83-2684-4006-a1f2-c6f0adf50f62
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype pour Business Server 2015 prend en charge l’intégration avec Exchange messagerie unifiée (MU) pour la combinaison de messagerie vocale et messagerie électronique en une seule infrastructure de messagerie.
-ms.openlocfilehash: 8cc0ccc3f49d66c4dce60c4704559fcfbc0232f1
-ms.sourcegitcommit: 6d4b99de7233e91dbab4f08331dac4d88c51d9e4
+ms.openlocfilehash: fa658b67939da641de349b3a1872ab387ec47262
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "30059179"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875948"
 ---
 # <a name="exchange-unified-messaging-planning-tool-in-skype-for-business-2015"></a>Messagerie (outil de planification) dans Skype pour Business 2015 unifiée Microsoft Exchange
 

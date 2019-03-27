@@ -1,5 +1,6 @@
 ---
 title: Créer ou modifier une stratégie de voix et configurer les enregistrements d’utilisation PSTN dans Skype pour les entreprises
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6ff27e0-e2d1-4445-840f-08f738200c20
 description: 'Résumé : Créer ou modifier des stratégies de voix et configurer les enregistrements d’utilisation PSTN à l’aide de la Skype pour le panneau de configuration serveur Business.'
-ms.openlocfilehash: 53414afd6fcf3ee365caad9a168c88f101e8788b
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 9a7847e918be71b88a7ba32c986c18f7659905ee
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371709"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875573"
 ---
 # <a name="create-or-modify-a-voice-policy-and-configure-pstn-usage-records-in-skype-for-business"></a>Créer ou modifier une stratégie de voix et configurer les enregistrements d’utilisation PSTN dans Skype pour les entreprises
 
@@ -53,15 +54,15 @@ ms.locfileid: "25371709"
      > [!NOTE]
      > Cette fonctionnalité est uniquement configurable par le biais de la Skype pour Business Server Management Shell
 
-   - **Transfert d’appels** permet aux utilisateurs de transférer des appels vers d’autres téléphones et périphériques clients. Skype pour Business Server fournit une plage beaucoup plue d’options de configuration pour le transfert d’appel. Par exemple, si une entreprise ne souhaite pas autoriser le transfert des appels entrants en externe vers le RTC, un administrateur peut appliquer une stratégie de voix spéciale pour déployer cette restriction. Cette fonctionnalité est activée par défaut.
+   - **Transfert d’appel** permet aux utilisateurs de transférer des appels vers d’autres téléphones et périphériques clients. Skype pour Business Server fournit une plage beaucoup plue d’options de configuration pour le transfert d’appel. Par exemple, si une entreprise ne souhaite pas autoriser le transfert des appels entrants en externe vers le RTC, un administrateur peut appliquer une stratégie de voix spéciale pour déployer cette restriction. Activée par défaut.
 
-   - **Délégation** permet aux utilisateurs de spécifier d’autres utilisateurs pouvant passer et recevoir des appels à leur place. Dans Skype pour Business Server, un délégué peut configurer sonnerie simultanée qui permet aux appels entrants à son responsable faire sonner tous les objectifs en termes de sonnerie simultanée du délégué. Celui-ci bénéficie ainsi d’une plus grande flexibilité pour répondre aux appels destinés au responsable. Cette fonctionnalité est activée par défaut.
+   - **Délégation** permet aux utilisateurs de spécifier d’autres utilisateurs pouvant passer et recevoir des appels à leur place. Dans Skype pour Business Server, un délégué peut configurer sonnerie simultanée qui permet aux appels entrants à son responsable faire sonner tous les objectifs en termes de sonnerie simultanée du délégué. Celui-ci bénéficie ainsi d’une plus grande flexibilité pour répondre aux appels destinés au responsable. Activée par défaut.
 
-   - **Transfert d’appel** permet aux utilisateurs de transférer des appels à d’autres utilisateurs. Cette fonctionnalité est activée par défaut.
+   - **Transfert d’appel** permet aux utilisateurs de transférer des appels à d’autres utilisateurs. Activée par défaut.
 
    - **Parcage d’appel** permet aux utilisateurs de parquer des appels en attente, puis de les reprendre avec un autre téléphone ou client. Cette fonctionnalité est désactivée par défaut.
 
-   - **Sonnerie simultanée** permet de faire sonner les appels entrants sur des téléphones supplémentaires (par exemple, un téléphone portable) ou d’autres périphériques de point de terminaison. Skype pour Business Server fournit une plage beaucoup plue d’options de configuration pour la sonnerie simultanée. Cette fonctionnalité est activée par défaut.
+   - **Sonnerie simultanée** permet de faire sonner les appels entrants sur des téléphones supplémentaires (par exemple, un téléphone portable) ou d’autres périphériques de point de terminaison. Skype pour Business Server fournit une plage beaucoup plue d’options de configuration pour la sonnerie simultanée. Activée par défaut.
 
    - **Appel d’équipe** permet aux utilisateurs d’une équipe définie de répondre à des appels destinés à d’autres membres de l’équipe. Cette fonctionnalité est activée par défaut.
 
@@ -128,7 +129,7 @@ ms.locfileid: "25371709"
 
    - Pour utiliser les mêmes enregistrements d’utilisation RTC pour le transfert d’appels et la sonnerie simultanée que cette stratégie de voix, sélectionnez l’option **Router à l’aide des utilisations RTC d’appel** dans le menu déroulant.
 
-   - Pour autoriser le transfert d’appel et la sonnerie simultanée à Skype interne pour les utilisateurs professionnels uniquement, sélectionnez l’option **interne Skype pour seulement les utilisateurs professionnels de l’itinéraire de communications** à partir du menu déroulant. Les appels ne seront pas transférés vers des numéros RTC externes.
+   - Pour autoriser le transfert d’appel et la sonnerie simultanée à Skype interne pour les utilisateurs professionnels uniquement, sélectionnez l’option **interne Skype pour seulement les utilisateurs professionnels de l’itinéraire de communications** à partir du menu déroulant. Calls will not be forwarded to external PSTN numbers.
 
    - Pour spécifier des enregistrements d’utilisation RTC pour le transfert d’appels et la sonnerie simultanée différents de ceux utilisés pour cette stratégie de voix, sélectionnez l’option **Router à l’aide d’utilisations RTC personnalisées** dans le menu déroulant. Cette option affiche un contrôle pour sélectionner des enregistrements d’utilisation RTC existants ou créer des enregistrements d’utilisation RTC spécifiquement pour le transfert d’appels et la sonnerie simultanée.
 
@@ -204,7 +205,7 @@ ms.locfileid: "25371709"
      > [!NOTE]
      > Cette fonctionnalité est uniquement configurable par le biais de la Skype pour Business Server Management Shell
 
-   - **Transfert d’appels** permet aux utilisateurs de transférer des appels vers d’autres téléphones et périphériques clients. Skype pour Business Server fournit une plage beaucoup plue d’options de configuration pour le transfert d’appel. Par exemple, si une entreprise ne souhaite pas autoriser le transfert des appels entrants en externe vers le RTC, un administrateur peut appliquer une stratégie de voix spéciale pour déployer cette restriction. Cette fonctionnalité est activée par défaut.
+   - **Transfert d’appel** permet aux utilisateurs de transférer des appels vers d’autres téléphones et périphériques clients. Skype pour Business Server fournit une plage beaucoup plue d’options de configuration pour le transfert d’appel. Par exemple, si une entreprise ne souhaite pas autoriser le transfert des appels entrants en externe vers le RTC, un administrateur peut appliquer une stratégie de voix spéciale pour déployer cette restriction. Activée par défaut.
 
    - **Délégation** permet aux utilisateurs de spécifier d’autres utilisateurs pouvant passer et recevoir des appels à leur place. Dans Skype pour Business Server, un délégué peut configurer sonnerie simultanée qui permet aux appels entrants à son responsable faire sonner tous les objectifs en termes de sonnerie simultanée du délégué. Celui-ci bénéficie ainsi d’une plus grande flexibilité pour répondre aux appels destinés au responsable. Cette fonctionnalité est activée par défaut.
 
@@ -212,7 +213,7 @@ ms.locfileid: "25371709"
 
    - **Parcage d’appel** permet aux utilisateurs de parquer des appels en attente, puis de les reprendre avec un autre téléphone ou client. Cette fonctionnalité est désactivée par défaut.
 
-   - **Sonnerie simultanée** permet de faire sonner les appels entrants sur des téléphones supplémentaires (par exemple, un téléphone portable) ou d’autres périphériques de point de terminaison. Skype pour Business Server fournit une plage beaucoup plue d’options de configuration pour la sonnerie simultanée. Cette fonctionnalité est activée par défaut.
+   - **Sonnerie simultanée** permet de faire sonner les appels entrants sur des téléphones supplémentaires (par exemple, un téléphone portable) ou d’autres périphériques de point de terminaison. Skype pour Business Server fournit une plage beaucoup plue d’options de configuration pour la sonnerie simultanée. Activée par défaut.
 
    - **Appel d’équipe** permet aux utilisateurs d’une équipe définie de répondre à des appels destinés à d’autres membres de l’équipe. Cette fonctionnalité est activée par défaut.
 
@@ -277,7 +278,7 @@ ms.locfileid: "25371709"
 
    - Pour utiliser les mêmes enregistrements d’utilisation RTC pour le transfert d’appels et la sonnerie simultanée que cette stratégie de voix, sélectionnez l’option **Router à l’aide des utilisations RTC d’appel** dans le menu déroulant.
 
-   - Pour autoriser le transfert d’appel et la sonnerie simultanée à Skype interne pour les utilisateurs professionnels uniquement, sélectionnez **itinéraire à Skype interne pour les utilisateurs professionnels uniquement** à partir du menu déroulant. Les appels ne seront pas transférés à des numéros RTC externes.
+   - Pour autoriser le transfert d’appel et la sonnerie simultanée à Skype interne pour les utilisateurs professionnels uniquement, sélectionnez **itinéraire à Skype interne pour les utilisateurs professionnels uniquement** à partir du menu déroulant. Calls will not be forwarded to external PSTN numbers.
 
    - Pour spécifier des enregistrements d’utilisation RTC pour le transfert d’appel et la sonnerie simultanée différents de ceux utilisés pour cette stratégie de voix, sélectionnez l’option **Routage avec des utilisations RTC personnalisées** dans le menu déroulant. Cette option affiche un contrôle pour sélectionner les enregistrements d’utilisation RTC existants ou créer des enregistrements d’utilisation RTC spécifiquement pour le transfert d’appel et la sonnerie simultanée.
 
@@ -302,7 +303,7 @@ ms.locfileid: "25371709"
 
    - Pour définir un nouvel itinéraire et l’associer à cet enregistrement d’utilisation RTC, cliquez sur **Nouveau**. Pour plus d’informations, voir [créer ou modifier un itinéraire de communications vocales dans Skype pour les entreprises](create-or-modify-a-voice-route.md).
 
-   - Pour modifier un itinéraire déjà associé à cet enregistrement d’utilisation RTC, sélectionnez l’itinéraire, puis cliquez sur **Afficher les détails**. Pour plus d’informations, voir [Modifier un itinéraire de communications vocales](https://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx).
+   - Pour modifier un itinéraire déjà associé à cet enregistrement d’utilisation RTC, sélectionnez l’itinéraire, puis cliquez sur **Afficher les détails**. Pour plus d’informations, reportez-vous à la rubrique [Modify a Voice Route](https://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx) (contenu éventuellement en anglais).
 
      d. Cliquez sur **OK**.
 
@@ -318,7 +319,7 @@ ms.locfileid: "25371709"
 
      - Pour définir un nouvel itinéraire et l’associer à cet enregistrement d’utilisation RTC, cliquez sur **Nouveau**. Pour plus d’informations, voir [créer ou modifier un itinéraire de communications vocales dans Skype pour les entreprises](create-or-modify-a-voice-route.md).
 
-     - Pour modifier un itinéraire déjà associé à cet enregistrement d’utilisation RTC, sélectionnez l’itinéraire, puis cliquez sur **Afficher les détails**. Pour plus d’informations, voir [Modifier un itinéraire de communications vocales](https://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx).
+     - Pour modifier un itinéraire déjà associé à cet enregistrement d’utilisation RTC, sélectionnez l’itinéraire, puis cliquez sur **Afficher les détails**. Pour plus d’informations, reportez-vous à la rubrique [Modify a Voice Route](https://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx) (contenu éventuellement en anglais).
 
      c. Cliquez sur **OK**.
 

@@ -1,5 +1,6 @@
 ---
 title: Configurer la base de données d’emplacement dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
 description: Configurer, remplir et publier la base de données emplacement E9-1-1 dans Skype pour Business Server Enterprise Voice.
-ms.openlocfilehash: e57f9ba299abad613df2f4c54ae9ecbbea748f9a
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: ab97fae05a74f95e618cebacac9be5ac011eb921
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885498"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873877"
 ---
 # <a name="configure-the-location-database-in-skype-for-business-server"></a>Configurer la base de données d’emplacement dans Skype pour Business Server
  
@@ -47,7 +48,7 @@ Si vous utilisez une passerelle ELIN, incluez-la dans le champ **CompanyName** 
 |**Élément réseau**|**Colonnes requises**|
 |:-----|:-----|
 |**Point d’accès sans fil** <br/> |\<BSSID\>,\<Description\>,\<emplacement\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,...  <br/> ... \<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<Ville\>,\<état\>,\<PostalCode\>,\<pays\>  <br/> |
-|**Sous-réseau** <br/> |\<Sous-réseau\>,\<Description\>,\<emplacement\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,...  <br/> ... \<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<Ville\>,\<état\>,\<PostalCode\>,\<pays\>  <br/> |
+|**Subnet** <br/> |\<Sous-réseau\>,\<Description\>,\<emplacement\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,...  <br/> ... \<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<Ville\>,\<état\>,\<PostalCode\>,\<pays\>  <br/> |
 |**Port** <br/> |\<ChassisID\>,\<PortIDSubType\>,\<PortID\>,\<Description\>,\<emplacement\>,\<CompanyName\>,\<HouseNumber\>,\< HouseNumberSuffix\>,...  <br/> ... \<PreDirectional\>,\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<Ville\>,\<état\>,\<PostalCode\>,\< Pays\>  <br/> |
 |**Commutateur** <br/> |\<ChassisID\>,\<Description\>,\<emplacement\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,...  <br/> ... \<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<Ville\>,\<état\>,\<PostalCode\>,\<pays\>  <br/> |
    
@@ -117,7 +118,7 @@ Si vous utilisez une passerelle ELIN, incluez-la dans le champ **CompanyName** 
 
 ### <a name="to-validate-addresses-located-in-the-location-database"></a>Pour valider des adresses situées dans la base de données des emplacements
 
-1.  Démarrez Skype Entreprise Server Management Shell : cliquez successivement sur **Démarrer**, **Tous les programmes**, **Skype Entreprise 2015**, puis sur **Skype Entreprise Server Management Shell**.
+1.  Démarrez le Skype pour Business Server Management Shell : cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Skype pour Business 2015**, puis cliquez sur **Skype pour Business Server Management Shell**.
     
 2. Exécutez les applets de commande ci-dessous pour configurer la connexion du fournisseur de service d’urgence.
     
@@ -142,7 +143,7 @@ Si vous utilisez des passerelles ELIN, vous devez également charger les numér
   
 ### <a name="to-publish-the-location-database"></a>Pour publier la base de données d’emplacements
 
--  Démarrez Skype Entreprise Server Management Shell : cliquez successivement sur **Démarrer**, **Tous les programmes**, **Skype Entreprise 2015**, puis sur **Skype Entreprise Server Management Shell**.
+-  Démarrez le Skype pour Business Server Management Shell : cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Skype pour Business 2015**, puis cliquez sur **Skype pour Business Server Management Shell**.
     
 - Exécutez l’applet de commande ci-dessous pour publier la base de données d’emplacements.
     

@@ -1,5 +1,6 @@
 ---
 title: Planifier l’archivage dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e9f0dcf7-66b4-4196-9e8c-b14721b1fb84
 description: 'Résumé : Lisez cette rubrique pour savoir comment planifier l’archivage dans Skype pour Business Server.'
-ms.openlocfilehash: 352ef56b3030a28b6a039b6408becc24db5eced9
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 164a3207153986e788a7db47b86014063e37e0e5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20969010"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876520"
 ---
 # <a name="plan-for-archiving-in-skype-for-business-server"></a>Planifier l’archivage dans Skype pour Business Server
  
@@ -177,7 +178,7 @@ L’accès aux données archivées dépend de l’emplacement où les données s
   
 - **Stockage de Microsoft Exchange**. Si vous choisissez l’option d’intégration Exchange, Skype pour Business Server dépôts le contenu d’archivage dans la banque d’informations Exchange pour tous les utilisateurs hébergés sur Exchange et qui ont eu à leurs boîtes aux lettres mettre en blocage sur Place. Données archivées sont stockées dans le dossier éléments récupérables de boîtes aux lettres utilisateur, qui est généralement invisible aux utilisateurs et peut uniquement être exploré par les utilisateurs avec un rôle de **Gestion de la découverte** d’Exchange. Exchange permet de découverte, ainsi que de SharePoint et recherche fédérée s’il est déployé. Pour plus d’informations sur le stockage, de rétention et découverte des données stockées dans Exchange, consultez la documentation Exchange et SharePoint.
     
-- **Skype pour le stockage d’archivage Business Server**. Si vous configurez Skype pour les bases de données d’archivage de serveur Business, Skype pour les dépôts Business Server d’archivage ne pas de contenu dans le Skype pour les bases de données d’archivage de serveur Business pour tous les utilisateurs hébergés sur Exchange et qui n’ont pas leurs boîtes aux lettres mettre en blocage sur Place. Ces données peuvent faire l’objet de recherches, mais peuvent également être exportées vers des formats autorisant les recherches à l’aide d’autres outils. Pour plus d’informations sur l’exportation des données stockées dans des bases de données d’archivage, voir [exporter des données archivées dans Skype pour Business Server](../../manage/archiving/export-archived-data.md).
+- **Skype pour le stockage d’archivage Business Server**. Si vous configurez Skype pour les bases de données d’archivage de serveur Business, Skype pour les dépôts Business Server d’archivage ne pas de contenu dans le Skype pour les bases de données d’archivage de serveur Business pour tous les utilisateurs hébergés sur Exchange et qui n’ont pas leurs boîtes aux lettres mettre en blocage sur Place. This data is not searchable, but it can be exported to formats that are searchable using other tools. Pour plus d’informations sur l’exportation des données stockées dans des bases de données d’archivage, voir [exporter des données archivées dans Skype pour Business Server](../../manage/archiving/export-archived-data.md).
     
 ## <a name="for-more-information"></a>Pour plus d’informations
 
