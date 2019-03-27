@@ -1,5 +1,6 @@
 ---
 title: Configuration des paramètres et des utilisateurs test de nœud observateur
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ab2e0d93-cf52-4a4e-b5a4-fd545df7a1a9
 description: 'Résumé : Configurez des comptes d’utilisateurs de test et les paramètres du nœud observateur pour Skype pour les transactions synthétiques Business Server.'
-ms.openlocfilehash: 257814108a276d049ed4ac9173fde6dfa4473ff2
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: 121e07d8bee20bef1b8fd4b06e51cf0313c018d0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27789390"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895215"
 ---
 # <a name="configure-watcher-node-test-users-and-settings"></a>Configuration des paramètres et des utilisateurs test de nœud observateur
  
@@ -51,7 +52,7 @@ Get-CsTestUserCredential -SipAddress "sip:watcher2@litwareinc.com"
 
 Des informations semblables aux suivantes sont retournées pour chaque utilisateur :
   
-|**Nom d’utilisateur**|**Mot de passe**|
+|**nom d'utilisateur**|**mot de passe**|
 |:-----|:-----|
 |Litwareinc\watcher1  <br/> |System.Security.SecureString  <br/> |
    
@@ -369,7 +370,7 @@ Dans cet exemple, un Skype pour règle Business Server devrez exister pour route
   
 ### <a name="video-interop-server-vis-synthetic-transaction"></a>Transaction synthétique VIS (Serveur d’interopérabilité vidéo)
 
-La transaction synthétique de serveur d’interopérabilité vidéo (VIS) requiert le téléchargement et l’installation des fichiers de support ([VISSTSupportPackage.msi](https://www.microsoft.com/en-us/download/details.aspx?id=46921)). 
+La transaction synthétique vidéo Interop Server (pouces) nécessite que vous téléchargez et installez les fichiers de prise en charge les transactions synthétiques ([VISSTSupportPackage.msi](https://www.microsoft.com/en-us/download/details.aspx?id=46921)). 
   
 Pour installer VISSTSupportPackage.msi, assurez-vous que les dépendances (sous Configuration logicielle requise) du msi sont déjà installées. Exécutez VISSTSupportPackage.msi pour effectuer une installation simple. Le fichier .msi installe tous les fichiers dans le chemin d’accès suivant : « %ProgramFiles%\VIS Package de prise en charge des transactions synthétiques ».
   

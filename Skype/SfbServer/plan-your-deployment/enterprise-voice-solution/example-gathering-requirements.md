@@ -1,5 +1,6 @@
 ---
 title: Exemple de collecte des conditions requises pour le contrôle d’admission des appels dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3363ac53-b7c4-4a59-aea1-b2f3ee016ae1
 description: Fournit un exemple détaillé de la planification pour le contrôle d’admission des appels dans Skype pour Business Server Enterprise Voice, notamment la collecte d’informations sur les sites de votre réseau, de régions et de bande passante.
-ms.openlocfilehash: f5c050e33271958c103b5ea6ecd9f7a13d9da998
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: b406db2a4ddf2b0ff25128774577407e0e3acaf6
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375188"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893910"
 ---
 # <a name="example-gathering-requirements-for-call-admission-control-in-skype-for-business-server"></a>Exemple : Configuration requise de collecte pour appeler le contrôle d’admission dans Skype pour Business Server
 
@@ -123,9 +124,9 @@ Pour préparer le contrôle d’admission des appels, rassemblez les information
 
      | **Site réseau**   | **Région réseau**   | **Limite BP**      | **Limite audio**   | **Limite de session audio** | **Limite vidéo**   | **Limite de session vidéo** |
      |:-------------------|:---------------------|:------------------|:------------------|:------------------------|:------------------|:------------------------|
-     | Albuquerque  <br/> | Amérique du Nord  <br/> | 5 000  <br/>      | 2 000  <br/>      | 175  <br/>              | 1 400  <br/>      | 700  <br/>              |
-     | Reno  <br/>        | Amérique du Nord  <br/> | 10 000  <br/>     | 4 000  <br/>      | 175  <br/>              | 2 800  <br/>      | 700  <br/>              |
-     | Portland  <br/>    | Amérique du Nord  <br/> | 5 000  <br/>      | 4 000  <br/>      | 175  <br/>              | 2 800  <br/>      | 700  <br/>              |
+     | Albuquerque  <br/> | Amérique du Nord  <br/> | 5 000  <br/>      | 2 000  <br/>      | 175  <br/>              | 1 400  <br/>      | 700  <br/>              |
+     | Reno  <br/>        | Amérique du Nord  <br/> | 10 000  <br/>     | 4 000  <br/>      | 175  <br/>              | 2 800  <br/>      | 700  <br/>              |
+     | Portland  <br/>    | Amérique du Nord  <br/> | 5 000  <br/>      | 4 000  <br/>      | 175  <br/>              | 2 800  <br/>      | 700  <br/>              |
      | New York  <br/>    | Amérique du Nord  <br/> | (aucune limite)  <br/> | (aucune limite)  <br/> | (aucune limite)  <br/>       | (aucune limite)  <br/> | (aucune limite)  <br/>       |
      | Chicago  <br/>     | Amérique du Nord  <br/> | (aucune limite)  <br/> | (aucune limite)  <br/> | (aucune limite)  <br/>       | (aucune limite)  <br/> | (aucune limite)  <br/>       |
      | Detroit  <br/>     | Amérique du Nord  <br/> | (aucune limite)  <br/> | (aucune limite)  <br/> | (aucune limite)  <br/>       | (aucune limite)  <br/> | (aucune limite)  <br/>       |
@@ -137,7 +138,7 @@ Pour préparer le contrôle d’admission des appels, rassemblez les information
     > Chaque sous-réseau doit être associé à un site réseau, même si le site réseau n’est pas soumis à une limite de bande passante. Cela est dû au fait que le contrôle d’admission des appels utilise les informations relatives aux sous-réseaux pour déterminer sur quel site réseau un point de terminaison doit se situer. Lorsque les emplacements de chaque partie de la session sont déterminés, le contrôle d’admission des appels peut déterminer si la bande passante est suffisante pour établir l’appel. Lorsqu’une session est établie sur une liaison dont la bande passante n’est pas limitée, une alerte est générée. 
 
     > [!IMPORTANT]
-    > Si vous déployez des serveurs Edge A/V, les adresses IP publiques de chaque serveur Edge doivent être associées au site réseau sur lequel le serveur Edge est déployé. Vous devez ajouter chaque adresse IP publique du serveur Edge A/V à vos paramètres de configuration réseau en tant que sous-réseau avec un masque de sous réseau de 32. Par exemple, si vous déployez des serveurs Edge A/V à Chicago, pour chaque adresse IP externe de ces serveurs, créez un sous-réseau avec un masque de sous-réseau de 32 et associez le site réseau Chicago à ces sous-réseaux. Pour plus d’informations sur les adresses IP publiques, voir [planifier la configuration réseau requise pour Skype pour les entreprises](../../plan-your-deployment/network-requirements/network-requirements.md). 
+    > Si vous déployez des serveurs Edge A/V, les adresses IP publiques de chaque serveur Edge doivent être associées au site réseau sur lequel le serveur Edge est déployé. Vous devez ajouter chaque adresse IP publique du serveur Edge A/V à vos paramètres de configuration réseau en tant que sous-réseau avec un masque de sous réseau de 32. Par exemple, si vous déployez des serveurs Edge A/V à Chicago, pour chaque adresse IP externe de ces serveurs, créez un sous-réseau avec un masque de sous-réseau de 32 et associez le site réseau Chicago à ces sous-réseaux. Pour plus d’informations sur les adresses IP publiques, reportez-vous à [Plan network requirements for Skype for Business](../../plan-your-deployment/network-requirements/network-requirements.md). 
 
     Une alerte d’indicateur d’intégrité clé est générée, indiquant une liste d’adresses IP figurant dans votre réseau, mais non associées à un sous-réseau ou figurant dans un sous-réseau non associé à un site réseau. L’alerte n’est générée qu’une seule fois par période de 8 heures. Les informations d’alerte pertinentes et un exemple sont présentés ci-dessous :
 
@@ -164,9 +165,9 @@ Pour préparer le contrôle d’admission des appels, rassemblez les information
 
    | **Site réseau**   | **Région réseau**   | **Limite BP**      | **Limite audio**   | **Limite de session audio** | **Limite vidéo**   | **Limite de session vidéo** | **Sous-réseaux**                                                            |
    |:-------------------|:---------------------|:------------------|:------------------|:------------------------|:------------------|:------------------------|:-----------------------------------------------------------------------|
-   | Albuquerque  <br/> | Amérique du Nord  <br/> | 5 000  <br/>      | 2 000  <br/>      | 175  <br/>              | 1 400  <br/>      | 700  <br/>              | 172.29.79.0/23, 157.57.215.0/25, 172.29.90.0/23, 172.29.80.0/24  <br/> |
-   | Reno  <br/>        | Amérique du Nord  <br/> | 10 000  <br/>     | 4 000  <br/>      | 175  <br/>              | 2 800  <br/>      | 700  <br/>              | 157.57.210.0/23, 172.28.151.128/25  <br/>                              |
-   | Portland  <br/>    | Amérique du Nord  <br/> | 5 000  <br/>      | 4 000  <br/>      | 175  <br/>              | 2 800  <br/>      | 700  <br/>              | 172.29.77.0/24 10.71.108.0/24, 157.57.208.0/23  <br/>                  |
+   | Albuquerque  <br/> | Amérique du Nord  <br/> | 5 000  <br/>      | 2 000  <br/>      | 175  <br/>              | 1 400  <br/>      | 700  <br/>              | 172.29.79.0/23, 157.57.215.0/25, 172.29.90.0/23, 172.29.80.0/24  <br/> |
+   | Reno  <br/>        | Amérique du Nord  <br/> | 10 000  <br/>     | 4 000  <br/>      | 175  <br/>              | 2 800  <br/>      | 700  <br/>              | 157.57.210.0/23, 172.28.151.128/25  <br/>                              |
+   | Portland  <br/>    | Amérique du Nord  <br/> | 5 000  <br/>      | 4 000  <br/>      | 175  <br/>              | 2 800  <br/>      | 700  <br/>              | 172.29.77.0/24 10.71.108.0/24, 157.57.208.0/23  <br/>                  |
    | New York  <br/>    | Amérique du Nord  <br/> | (aucune limite)  <br/> | (aucune limite)  <br/> | (aucune limite)  <br/>       | (aucune limite)  <br/> | (aucune limite)  <br/>       | 172.29.80.0/23, 157.57.216.0/25, 172.29.91.0/23, 172.29.81.0/24  <br/> |
    | Chicago  <br/>     | Amérique du Nord  <br/> | (aucune limite)  <br/> | (aucune limite)  <br/> | (aucune limite)  <br/>       | (aucune limite)  <br/> | (aucune limite)  <br/>       | 157.57.211.0/23, 172.28.152.128/25  <br/>                              |
    | Detroit  <br/>     | Amérique du Nord  <br/> | (aucune limite)  <br/> | (aucune limite)  <br/> | (aucune limite)  <br/>       | (aucune limite)  <br/> | (aucune limite)  <br/>       | 172.29.78.0/24 10.71.109.0/24, 157.57.209.0/23  <br/>                  |
@@ -189,10 +190,10 @@ Pour préparer le contrôle d’admission des appels, rassemblez les information
    **Information de bande passante du lien de région (bande passante en Kbits/s)**
 
 
-   | **Nom de la liaison réseau**  | **First Region**     | **Second Region** | **Limite BP**  | **Limite audio** | **Limite de session audio** | **Limite vidéo** | **Limite de session vidéo** |
+   | **Nom de la liaison réseau**  | **Première région**     | **Seconde région** | **Limite BP**  | **Limite audio** | **Limite de session audio** | **Limite vidéo** | **Limite de session vidéo** |
    |:----------------------|:---------------------|:------------------|:--------------|:----------------|:------------------------|:----------------|:------------------------|
-   | NA-EMEA-LINK  <br/>   | Amérique du Nord  <br/> | EMEA  <br/>       | 50 000  <br/> | 20 000  <br/>   | 175  <br/>              | 14 000  <br/>   | 700  <br/>              |
-   | EMEA-APAC-LINK  <br/> | EMEA  <br/>          | APAC  <br/>       | 25 000  <br/> | 10 000  <br/>   | 175  <br/>              | 7 000  <br/>    | 700  <br/>              |
+   | NA-EMEA-LINK  <br/>   | Amérique du Nord  <br/> | EMEA  <br/>       | 50 000  <br/> | 20 000  <br/>   | 175  <br/>              | 14 000  <br/>   | 700  <br/>              |
+   | EMEA-APAC-LINK  <br/> | EMEA  <br/>          | APAC  <br/>       | 25 000  <br/> | 10 000  <br/>   | 175  <br/>              | 7 000  <br/>    | 700  <br/>              |
 
 
 8. Définissez un itinéraire entre chaque paire de régions réseau.
@@ -203,7 +204,7 @@ Pour préparer le contrôle d’admission des appels, rassemblez les information
    **Itinéraires de région**
 
 
-   | **Nom de l’itinéraire**  | **First Region**     | **Second Region** | **Liens de région**                    |
+   | **Nom de l’itinéraire**  | **Première région**     | **Seconde région** | **Liens de région**                    |
    |:-----------------------|:---------------------|:------------------|:------------------------------------|
    | NA-EMEA-ROUTE  <br/>   | Amérique du Nord  <br/> | EMEA  <br/>       | NA-EMEA-LINK  <br/>                 |
    | EMEA-APAC-ROUTE  <br/> | EMEA  <br/>          | APAC  <br/>       | EMEA-APAC-LINK  <br/>               |
@@ -228,13 +229,13 @@ Pour préparer le contrôle d’admission des appels, rassemblez les information
 
    |**Nom de la liaison intersite**|**Premier site**|**Second site**|**Limite BP**|**Limite audio**|**Limite de session audio**|**Limite vidéo**|**Limite de session vidéo**|
    |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-   |Reno-Albu-Intersite-Link  <br/> |Reno  <br/> |Albuquerque  <br/> |20 000  <br/> |12 000  <br/> |175  <br/> |5 000  <br/> |700  <br/> |
+   |Reno-Albu-Intersite-Link  <br/> |Reno  <br/> |Albuquerque  <br/> |20 000  <br/> |12 000  <br/> |175  <br/> |5 000  <br/> |700  <br/> |
 
 ### <a name="next-steps"></a>Étapes suivantes
 
 Une fois que vous avez rassemblé toutes les informations requises, vous pouvez effectuer le déploiement CAC à l’aide de la Skype pour Business Server Management Shell ou Skype pour le panneau de configuration serveur Business.
 
 > [!NOTE]
-> Bien que vous pouvez effectuer la plupart des tâches de configuration du réseau à l’aide de Skype pour le panneau de configuration serveur Business, pour créer les sous-réseaux et les liens intersites, vous devez utiliser Skype pour Business Server Management Shell. Pour plus d’informations, voir [New-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/new-csnetworksubnet?view=skype-ps) et [New-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps). 
+> Bien que vous pouvez effectuer la plupart des tâches de configuration du réseau à l’aide de Skype pour le panneau de configuration serveur Business, pour créer les sous-réseaux et les liens intersites, vous devez utiliser Skype pour Business Server Management Shell. Pour plus d’informations, reportez-vous aux rubriques [New-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/new-csnetworksubnet?view=skype-ps) et [New-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps). 
 
 

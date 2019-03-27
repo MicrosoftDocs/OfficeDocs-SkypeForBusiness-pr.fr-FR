@@ -1,5 +1,6 @@
 ---
 title: Planification de la mise en garde d’appels dans Skype entreprise
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 985dc326-0aef-4308-b98b-c1d0069311e7
 description: Planification de la mise en garde d’appels dans Skype pour Business Server Enterprise Voice, qui permet de placer des appels sur la mise en attente et de transfert d’appels à des services. Cela inclut la planification de la capacité, les appels pris en charge et les clients pris en charge.
-ms.openlocfilehash: 328c94507c393aba1edc7253bdf962a2904a44d6
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 92c896bb610827108379af2bca38cd7a89639af2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883354"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894064"
 ---
 # <a name="plan-for-call-park-in-skype-for-business"></a>Planification de la mise en garde d’appels dans Skype entreprise
  
@@ -45,9 +46,9 @@ Vous configurez également d’autres paramètres de parcage d’appel, tels que
 > [!NOTE]
 > Fichiers personnalisés de musique attente parcage d’appel ne sont pas sauvegardées dans le cadre de la Skype pour le processus de récupération d’urgence Business Server et seront perdues si les fichiers téléchargés vers le pool sont endommagées, endommagés ou effacés. Veillez à toujours conserver une copie de sauvegarde distincte des fichiers de mise en attente musicale personnalisés que vous avez téléchargés pour le parcage d’appel. 
   
-L’application de parcage d’appel est un composant d’Enterprise Voice. Lorsque vous déployez Enterprise Voice, l’application de parcage d’appel est installée et activée automatiquement. Toutefois, avant de pouvoir utiliser le parcage d’appel, l’administrateur Enterprise Voice doit configurer et activer des utilisateurs par le biais de la stratégie de voix.
+The Call Park application is a component of Enterprise Voice. Lorsque vous déployez Enterprise Voice, l’application de parcage d’appel est installée et activée automatiquement. Toutefois, avant de pouvoir utiliser le parcage d’appel, l’administrateur Enterprise Voice doit configurer et activer des utilisateurs par le biais de la stratégie de voix.
   
-## <a name="deployment-and-requirements"></a>Déploiement et configuration requise
+## <a name="deployment-and-requirements"></a>Déploiement et exigences
 
 L’application de parcage d’appel est automatiquement installée lorsque vous déployez Enterprise Voice. Configuration de la stratégie de voix activer la mise en garde d’appels.
   
@@ -60,7 +61,7 @@ Les serveurs de tous les serveurs frontaux et Standard Edition où la mise en ga
 L’application de parcage d’appel utilise **le Port 5075** pour les demandes d’écoute SIP.
     
 > [!NOTE]
-> Ce port est un paramètre par défaut que vous pouvez modifier à l’aide de l’applet de commande **Set-CsApplicationServer** . Pour plus d’informations sur cette applet de commande, voir la documentation de Lync Server Management Shell.
+> Ce port est un paramètre par défaut que vous pouvez modifier à l’aide de l’applet de commande **Set-CsApplicationServer**. Pour plus d’informations sur cette applet de commande, voir la documentation de Lync Server Management Shell.
   
 ### <a name="audio-file-requirements"></a>Conditions requises pour les fichiers audio
 
@@ -82,13 +83,13 @@ Les appels de n’importe quel téléphone IP, PBX (autocommutateur privé), PS
   
 Les clients suivants permet de parcage d’appel parquer des appels :
   
-- Skype Entreprise
+- Skype Entreprise
     
-- Lync 2013
+- Lync 2013
     
 - Lync 2010
     
-- Intendant Lync 2010
+- Lync 2010 Attendant
     
 - Lync Phone Edition
     
@@ -103,13 +104,13 @@ Les utilisateurs fédérés ne peuvent pas récupérer des appels parqués.
   
 Les clients suivants peuvent récupérer des appels qui sont mis en garde dans la mise en garde d’appels :
   
-- Skype Entreprise
+- Skype Entreprise
     
-- Lync 2013
+- Lync 2013
     
 - Lync 2010
     
-- Intendant Lync 2010
+- Lync 2010 Attendant
     
 - Lync Phone Edition
     

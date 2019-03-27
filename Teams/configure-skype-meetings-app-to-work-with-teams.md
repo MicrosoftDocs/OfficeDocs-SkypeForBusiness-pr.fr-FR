@@ -1,5 +1,6 @@
 ---
 title: Configurer l’Application Réunions Skype pour fonctionner avec Teams
+ms.reviewer: ''
 author: LolaJacobsen
 ms.author: Lolaj
 manager: serdars
@@ -13,12 +14,12 @@ MS.collection:
 - Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: db5b1c20ee531fef24a74cb347f3e4df27541178
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 8071b248219d2e69465ef19e8dc966e87de58754
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542222"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891475"
 ---
 <a name="configure-the-skype-meetings-app-to-work-with-teams"></a>Configurer l’Application Réunions Skype pour fonctionner avec Teams
 ===================================================
@@ -45,4 +46,4 @@ Les utilisateurs qui utilisent l’application de réunions Skype avec les équi
 Pour plus d’informations sur l’application de réunions Skype, voir :
 
 - [Nouveautés Skype réunions application (Skype pour Business Web App)](https://support.office.microsoft.com/article/what-is-skype-meetings-app-skype-for-business-web-app-1ff3d412-718a-4982-8ff2-a4992608cdb5)
-- [Configuration réseau minimale requise pour l'application Réunions Skype](https://technet.microsoft.com/library/mt845808.aspx)
+- [Configuration réseau minimale requise pour l’application Réunions Skype](https://technet.microsoft.com/library/mt845808.aspx)

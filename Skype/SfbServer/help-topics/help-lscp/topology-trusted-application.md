@@ -1,5 +1,6 @@
 ---
 title: Application approuvée de topologie
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eb6185c3-c162-4250-9ec3-11cdd8191287
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: 83803513e83b58defdadb038427761d190a9293c
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: ca66c8a21bcd5938574c593543bd40dceb72c2c4
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23248243"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891328"
 ---
-# <a name="topology-trusted-application"></a>Topologie : Application approuvée
+# <a name="topology-trusted-application"></a>Topologie : application approuvée
 
 Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
 

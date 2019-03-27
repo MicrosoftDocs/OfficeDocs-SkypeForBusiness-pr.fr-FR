@@ -17,13 +17,13 @@ appliesto:
 localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
-description: La gestion des comptes de ressource dans Microsoft Teams
-ms.openlocfilehash: dad2ea10f2dbdeb387a74d01fd48ca6de9805a5a
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+description: En savoir plus sur la gestion des comptes de ressource dans Microsoft Teams
+ms.openlocfilehash: ad435a812191cc8f7b9061ac5fba2bbe626b908e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30633249"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886060"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Gérer les comptes de ressources dans Microsoft Teams
 
@@ -38,13 +38,14 @@ Dans Microsoft Teams ou Skype pour Business en ligne, chaque file d’attente de
 
 Mise en route il est important de garder à l’esprit quelques points :
   
-- Votre organisation doit avoir (au minimum), une licence entreprise E3 plus **Système téléphonique** ou une licence Enterprise E5. Le nombre de licences utilisateur **Système téléphonique** qui sont assignés affecte le nombre de numéros de service qui sont disponibles pour être utilisés pour les comptes de ressources affectées à appeler des files d’attente ou les standards automatiques. Le nombre de comptes de ressources que vous pouvez avoir est varie selon le nombre de licences **Système téléphonique** et de **Conférence** qui sont assignés au sein de votre organisation. Pour plus d’informations sur les licences, voir [Gestion des licences de module complémentaire équipes Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+- Vous devez attribuer une licence de système téléphonique à un compte de ressource qui sera associé à la file d’attente standard ou un appel automatique. Pour plus d’informations sur les licences, voir [Gestion des licences de module complémentaire équipes Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+    
 
     > [!NOTE]
     > Pour rediriger les appels vers des personnes dans votre organisation en ligne, ils doivent disposer d’une licence de **Système téléphonique** et être activés pour Enterprise Voice ou Office 365 appelant Plans. Consultez les [licences d’affecter des équipes Microsoft](assign-teams-licenses.md). Pour les activer pour Enterprise Voice, vous pouvez utiliser Windows PowerShell. Par exemple, exécutez :  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
-- Pour en savoir plus sur Office 365 appelant Plans, voir [Appel Plans pour Office 365](calling-plans-for-office-365.md).
-- Vous pouvez uniquement attribuer payants et les numéros de téléphone gratuit service que vous avez obtenu dans le **Centre d’administration de Microsoft équipes** ou transféré à partir d’un autre fournisseur de services vers un compte de ressource. Pour obtenir et utiliser des numéros gratuits service, vous devez configurer les crédits de Communications.
+- Vous pouvez affecter un numéro hybride de routage Direct à votre compte de ressource.  Pour plus d’informations, voir [Planifier le routage Direct](direct-routing-plan.md) .
+- Pour les plans d’appel Microsoft, vous ne pouvez affecter payants et les numéros de téléphone gratuit service que vous avez obtenu dans le **Centre d’administration de Microsoft équipes** ou transféré à partir d’un autre fournisseur de services vers un compte de ressource. Pour obtenir et utiliser des numéros gratuits service, vous devez configurer les crédits de Communications.
 
 > [!NOTE]
 > Numéros de téléphone de l’utilisateur (abonné) ne peut pas être affectés à un compte de ressource. Numéro payant service ou numéros de téléphone peuvent être utilisées.
@@ -66,19 +67,22 @@ Selon que votre numéro de téléphone est situé en ligne ou sur site, vous dev
 Voici un exemple d’environnement de ligne de la création d’un compte de ressource :
 
 ``` Powershell
-New-CsOnlineApplicationInstance -DisplayName Node1 -SipAddress sip:node1@litwareinc.com -OU "ou=Redmond,dc=litwareinc,dc=com"
+New-CsOnlineApplicationInstance -UserPrincipalName testra1@contoso.com -ApplicationId “ce933385-9390-45d1-9512-c8d228074e07” -DisplayName "Resource account 1"
+$resacct=Get-MsolUser -UserPrincipalName testra1@contoso.com
 ```
 
 Pour plus d’informations sur cette commande, voir [New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance?view=skype-ps) .
 
 > [!NOTE]
-> Il est plus facile de définir le numéro de téléphone à l’aide du centre d’administration Microsoft Teams, comme décrit dans la section suivante. Vous pouvez également utiliser le `Set-CsOnlineApplicationInstance` commande pour attribuer un numéro de téléphone pour le compte de ressources après sa création initiale comme :
+> Il est plus facile de définir le numéro de téléphone en ligne à l’aide du centre d’administration Microsoft Teams, comme décrit dans la section suivante. Vous pouvez également utiliser le `Set-CsOnlineVoiceApplicationInstance` commande pour attribuer un numéro de téléphone pour le compte de ressources après sa création initiale comme :
 
 ``` Powershell
-Set-CsOnlineApplicationInstance -Identity "CN={4f6c99fe-7999-4088-ac4d-e88e0b3d3820},OU=Redmond,DC=litwareinc,DC=com" -DisplayName Node1 -LineURI tel:+14255550100
+Set-CsOnlineVoiceApplicationInstance -Identity $resacct.ObjectId
+ -TelephoneNumber +14255550100
+Get-CsOnlineTelephoneNumber -TelephoneNumber 19294450177
 ```
 
-Pour plus d’informations sur cette commande, voir [Set-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/set-csonlineapplicationinstance?view=skype-ps) .
+Pour plus d’informations sur cette commande, voir [Set-CsOnlineVoiceApplicationInstance](https://docs.microsoft.com/powershell/module/skype/set-csonlinevoiceapplicationinstance?view=skype-ps) .
 
 ## <a name="manage-resource-account-settings-in-microsoft-teams-admin-center"></a>Gérer les paramètres de compte de ressource dans le centre d’administration de Microsoft Teams
 

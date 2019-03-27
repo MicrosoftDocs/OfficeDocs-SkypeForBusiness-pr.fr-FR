@@ -1,5 +1,6 @@
 ---
 title: Gestion de la haute disponibilité et de la récupération d’urgence du serveur de conversation permanente dans Skype Entreprise Server 2015
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4346e70b-ac48-4ab9-853e-3cdd6dcfe678
 description: 'Résumé : Découvrez comment gérer les serveurs de conversation permanente haute disponibilité et récupération d’urgence dans Skype pour Business Server 2015.'
-ms.openlocfilehash: 477897362a01ae3ac6097c50eaed8f9ece31f49d
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: b7c898be275a4a3642eae88412a14686b258130f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371633"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897478"
 ---
 # <a name="manage-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Gestion de la haute disponibilité et de la récupération d’urgence du serveur de conversation permanente dans Skype Entreprise Server 2015
  
@@ -173,6 +174,6 @@ Pour restaurer le pool à son état normal, exécutez la commande Windows PowerS
 Set-CsPersistentChatState -Identity "service: lyncpc.dci.discovery.com" -PoolState Normal
 ```
 
-Pour plus d’informations, consultez la rubrique d’aide pour l’applet de commande [Set-CsPersistentChatState](https://docs.microsoft.com/powershell/module/skype/set-cspersistentchatstate?view=skype-ps) .
+Pour plus d’informations, voir la rubrique d’aide sur l’applet de commande [Set-CsPersistentChatState](https://docs.microsoft.com/powershell/module/skype/set-cspersistentchatstate?view=skype-ps).
   
 

@@ -1,5 +1,6 @@
 ---
-title: Supprimer-CcCertificationAuthorityFile
+title: Remove-CcCertificationAuthorityFile
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -9,16 +10,17 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3600af8d-04de-4b9a-88ac-2491ca06494d
-description: L’applet de commande Remove-CcCertificationAuthorityFile supprime le fichier de sauvegarde service certification autorité dans le dossier de l’autorité de certification sous le répertoire de partage de site pour Skype pour connecteur de Cloud Business Edition.
-ms.openlocfilehash: 0cc2470d6ee9312646feb3d459d6fb7a4c2bb30b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: L’applet de commande Remove-CcCertificationAuthorityFile supprime le fichier de sauvegarde service certification autorité dans le dossier de l’autorité de certification sous le répertoire de partage de site pour Skype pour l’édition de connecteur Business Cloud.
+ms.openlocfilehash: 52f3dc8642b9f3177b215b9cd102bbd50cd22fea
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899623"
 ---
-# <a name="remove-cccertificationauthorityfile"></a>Supprimer-CcCertificationAuthorityFile
+# <a name="remove-cccertificationauthorityfile"></a>Remove-CcCertificationAuthorityFile
  
-L’applet de commande Remove-CcCertificationAuthorityFile supprime le fichier de sauvegarde de certification autorité service "&lt;SiteRootDirectory&gt;\CA\SfB CCE Root.p12 » dans le dossier de l’autorité de certification sous le répertoire de partage de site pour Skype pour Business Connector de nuage Édition. 
+L’applet de commande Remove-CcCertificationAuthorityFile supprime le fichier de sauvegarde de certification autorité service «&lt;SiteRootDirectory&gt;\CA\SfB CCE Root.p12 » dans le dossier de l’autorité de certification sous le répertoire de partage de site pour Skype pour Business Cloud Connector Edition. 
   
 ```
 Remove-CcCertificationAuthorityFile
@@ -31,9 +33,9 @@ Aucun
 ## <a name="examples"></a>Exemples
 <a name="Examples"> </a>
 
-### <a name="example-1"></a>Exemple 1
+### <a name="example-1"></a>Exemple 1
 
-L’exemple suivant supprime le fichier de sauvegarde de certification autorité service "&lt;SiteRootDirectory&gt;\CA\SfB CCE Root.p12 » dans le dossier de l’autorité de certification sous le répertoire de partage de site :
+L’exemple suivant supprime le fichier de sauvegarde de certification autorité service «&lt;SiteRootDirectory&gt;\CA\SfB CCE Root.p12 » dans le dossier de l’autorité de certification sous le répertoire de partage de site :
   
 ```
 Remove-CcCertificationAuthorityFile
@@ -52,6 +54,6 @@ Aucun
 ## <a name="see-also"></a>Voir aussi
 <a name="ReturnTypes"> </a>
 
-[Sauvegarde-CcCertificationAuthority](backup-cccertificationauthority.md)
+[Backup-CcCertificationAuthority](backup-cccertificationauthority.md)
   
 

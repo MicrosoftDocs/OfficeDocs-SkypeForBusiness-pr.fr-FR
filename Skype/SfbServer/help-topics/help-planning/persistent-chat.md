@@ -1,5 +1,6 @@
 ---
-title: Conversation permanente (outil de planification)
+title: Persistent Chat (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,17 +13,18 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ec111e2e-15dd-4b9b-ba9c-6125139319a1
-description: Serveur de conversation permanent permet aux utilisateurs de participer à des conversations à plusieurs participants, basé sur la rubrique qui persistent dans le temps.
-ms.openlocfilehash: 17cd76ddc620b8afadc49411066ba760b625187f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Serveur de conversation permanente permet aux utilisateurs de participer à des conversations à plusieurs, par sujet qui sont conservées au fil du temps.
+ms.openlocfilehash: 076afe1f1322e8724ddd7d59c147d3ea34c05452
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897628"
 ---
-# <a name="persistent-chat-planning-tool"></a>Conversation permanente (outil de planification)
+# <a name="persistent-chat-planning-tool"></a>Persistent Chat (Planning Tool)
  
-Serveur de conversation permanent permet aux utilisateurs de participer à des conversations à plusieurs participants, basé sur la rubrique qui persistent dans le temps.
+Serveur de conversation permanente permet aux utilisateurs de participer à des conversations à plusieurs, par sujet qui sont conservées au fil du temps.
   
-Pour plus d’informations sur la préparation de votre environnement de serveur de conversation persistant, voir [planification de serveur Chat persistant dans Skype pour Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md).
+Pour plus d’informations sur la préparation de votre environnement de serveur de conversation permanente, voir [Plan for Persistent Chat Server dans Skype pour Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md).
   
 

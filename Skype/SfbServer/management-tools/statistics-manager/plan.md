@@ -1,5 +1,6 @@
 ---
-title: Planifier Business Server pour le Gestionnaire de statistiques de Skype
+title: Planifier le gestionnaire de statistiques pour Skype Entreprise Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,14 +11,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f0ec68e1-de01-4a92-b67d-703149b05caf
 description: 'Résumé : Lisez cette rubrique pour en savoir plus sur le Gestionnaire de statistiques de Skype pour Business Server.'
-ms.openlocfilehash: a73e58acdd91b4112537fa0028bf2c134e9c0fce
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: 7e086dda9bfea755265d2c77413989f8cc634df7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297857"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893987"
 ---
-# <a name="plan-for-statistics-manager-for-skype-for-business-server"></a>Planifier Business Server pour le Gestionnaire de statistiques de Skype
+# <a name="plan-for-statistics-manager-for-skype-for-business-server"></a>Planifier le gestionnaire de statistiques pour Skype Entreprise Server
 
 **Résumé :** Lisez cette rubrique pour en savoir plus sur le Gestionnaire de statistiques de Skype pour Business Server.
 
@@ -106,9 +107,9 @@ Gestionnaire de statistiques comprend les composants suivants :
 
 - **Port d’écoute.** L’API côté serveur qui reçoit les données de tous les Agents et regroupe les données entre les populations.
 
-- **Hub.** Sert de l’API cliente pour le système, s’exécute sur l’ou les serveurs web et fournit des mises à jour des données en temps réel aux clients connectés via le site Web. (Le Hub est installé automatiquement dans le cadre d’un site Web msi).
+- **centre.** Sert de l’API cliente pour le système, s’exécute sur l’ou les serveurs web et fournit des mises à jour des données en temps réel aux clients connectés via le site Web. (Le Hub est installé automatiquement dans le cadre d’un site Web msi).
 
-- **Site Web.** Une interface utilisateur qui regroupe toutes les fonctionnalités disponibles dans le système.
+- **site internet.** Une interface utilisateur qui regroupe toutes les fonctionnalités disponibles dans le système.
 
 En outre, le Gestionnaire de statistiques nécessite **Redis**, un serveur de structure de données source ouverte pour la mise en cache en mémoire. Pour plus d’informations sur le téléchargement Redis, voir [Déployer le gestionnaire statistiques](deploy.md#BKMK_Deploy) .
 
@@ -121,7 +122,7 @@ Le diagramme suivant illustre un déploiement sur site, dans lequel le site Web 
 
 ![Déploiement sur site du gestionnaire de statistiques](../../media/c7c9d0b5-a70b-4d8c-aec4-0128a29b90b6.png)
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Configuration requise
 <a name="BKMK_Requirements"> </a>
 
 Vous devez prendre en compte la configuration requise matérielle, logicielle et réseau suivante avant de déployer le Gestionnaire de statistiques.
@@ -176,8 +177,8 @@ Tout le trafic entre les serveurs est chiffré.
 
 Pour plus d’informations, voir les articles suivants :
 
-- [Déployer des statistiques responsable Skype pour Business Server](deploy.md)
+- [Déploiement du gestionnaire de statistiques pour Skype Entreprise Server](deploy.md)
 
-- [Mise à niveau du Gestionnaire de statistiques pour Skype pour Business Server](upgrade.md)
+- [Mise à niveau du gestionnaire de statistiques pour Skype Entreprise Server](upgrade.md)
 
-- [Résoudre les statistiques du gestionnaire pour Skype pour Business Server](troubleshoot.md)
+- [Dépannage du gestionnaire de statistiques pour Skype Entreprise Server](troubleshoot.md)

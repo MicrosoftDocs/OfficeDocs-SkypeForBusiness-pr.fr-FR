@@ -1,5 +1,6 @@
 ---
 title: Planification de l’intégration de la messagerie unifiée Exchange à Skype Entreprise
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7b22002b-7e6a-4d3f-b600-a733a7e3778a
 description: 'Résumé : Passez en revue cette rubrique lors de la planification intégrer Skype pour Business Server avec Exchange 2013 ou 2016.'
-ms.openlocfilehash: ee6e6bc81c4bd0b2291b7f4be7ceb13894d2aec2
-ms.sourcegitcommit: 6d4b99de7233e91dbab4f08331dac4d88c51d9e4
+ms.openlocfilehash: 951b31e36290bda0d6bd171c4a7df8f6aa4ff337
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "30059186"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886016"
 ---
 # <a name="plan-for-exchange-unified-messaging-integration-in-skype-for-business"></a>Planification de l’intégration de la messagerie unifiée Exchange à Skype Entreprise
 
@@ -52,7 +53,7 @@ Skype pour Business Server, Enterprise Voice utilise l’infrastructure de messa
 
 - **Standard automatique** Standard automatique est une fonctionnalité de messagerie unifiée Exchange qui peut être utilisée pour configurer un numéro de téléphone que les utilisateurs extérieurs peut composer pour contacter les commerciaux de la société. Il fournit en particulier une série d’instructions vocales qui aident un appelant externe à naviguer dans un système de menus. La liste des options disponibles est configurée sur le serveur de messagerie unifiée Exchange par l’administrateur de la messagerie unifiée Exchange.
 
-- **Services de télécopie** Messagerie unifiée Exchange inclut des fonctionnalités de télécopie, qui permettent aux utilisateurs de recevoir des télécopies entrantes dans leurs boîtes aux lettres Exchange. Pour plus d’informations, reportez-vous à la rubrique [« Messagerie unifiée » de la documentation Microsoft Exchange Server, à l’adresse ](https://go.microsoft.com/fwlink/p/?linkId=135652)
+- **Services de télécopie** Messagerie unifiée Exchange inclut des fonctionnalités de télécopie, qui permettent aux utilisateurs de recevoir des télécopies entrantes dans leurs boîtes aux lettres Exchange. Pour plus d’informations, voir [Messagerie unifiée](https://go.microsoft.com/fwlink/p/?linkId=135652) dans la documentation de Microsoft Exchange Server.
 
     > [!NOTE]
     > Services de télécopie fournis par le serveur de messagerie unifiée Exchange ne sont pas disponibles dans Skype pour les déploiements Business Server qui sont intégrées avec Microsoft Exchange Server 2010, Exchange 2010 avec le service pack le plus récent, Exchange 2013 ou 2016 Exchange.
@@ -132,9 +133,9 @@ Pour plus d’informations sur la façon d’activer ou désactiver la messageri
 
 Pour plus d’informations sur la façon d’activer ou désactiver la messagerie unifiée sur Microsoft Exchange Server 2010, voir :
 
-- [Activation de la messagerie unifiée sur Exchange 2010](https://go.microsoft.com/fwlink/p/?LinkId=204418)
+- [Activer la messagerie unifiée sur Exchange 2010](https://go.microsoft.com/fwlink/p/?LinkId=204418)
 
-- [Désactivation de la messagerie unifiée sur Exchange 2010](https://go.microsoft.com/fwlink/p/?LinkId=204416)
+- [Désactiver la messagerie unifiée sur Exchange 2010](https://go.microsoft.com/fwlink/p/?LinkId=204416)
 
 ### <a name="exchange-server-2019"></a>Exchange Server 2019
 

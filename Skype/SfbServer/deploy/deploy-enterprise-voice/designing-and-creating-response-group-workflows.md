@@ -1,5 +1,6 @@
 ---
 title: Concevoir et créer des flux de travail de groupe de réponse dans Skype pour les entreprises
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dcb9effb-5d12-4dee-80fc-ab9654222d5a
 description: Concevoir et créer des flux de travail Response Group dans Skype pour Business Server Enterprise Voice. Les flux de travail de groupe de recherche et les flux de travail interactifs sont tous les deux couverts.
-ms.openlocfilehash: 9bb701cf3d4894ff46127b04a3132b6b1fb5895a
-ms.sourcegitcommit: a3181bc3707b09c1e3f87c343b38259fdc6dabd2
+ms.openlocfilehash: efa77ffa0a1d7b8fda3720c3002c5364216af8eb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2018
-ms.locfileid: "27264859"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895554"
 ---
 # <a name="designing-and-creating-response-group-workflows-in-skype-for-business"></a>Concevoir et créer des flux de travail de groupe de réponse dans Skype pour les entreprises
 
@@ -26,7 +27,7 @@ Concevoir et créer des flux de travail Response Group dans Skype pour Business 
 
 Un flux de travail définit le comportement d’un appel, du déclenchement de la sonnerie du téléphone jusqu’au moment où une personne répond à l’appel. Le flux de travail spécifie la file d’attente à utiliser pour la mise en attente de l’appel et indique la méthode de routage à appliquer aux groupes de recherche ou les questions et les réponses à utiliser pour les groupes Response Group interactifs.
 
-Un flux de travail définit également des paramètres, comme un message de bienvenue, l’attente musicale, les heures de bureau et les vacances.
+Un flux de travail définit également des paramètres, comme un message d’accueil, l’attente musicale, les heures de bureau et les congés.
 
 > [!NOTE]
 > Vous devez créer des groupes d’agents et des files d’attente avant de créer un flux de travail qui les utilise.
@@ -35,7 +36,7 @@ Un flux de travail définit également des paramètres, comme un message de bien
 
 ### <a name="to-use-response-group-configuration-tool-to-create-or-modify-a-hunt-group-workflow"></a>Pour utiliser l’outil de Configuration pour Response Group pour créer ou modifier un flux de travail de groupe de recherche
 
-1. Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre d’un des rôles d’administrateur prédéfinis qui prennent en charge Response Group.
+1. Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre de l’un des rôles d’administration prédéfinis qui prennent en charge Response Group.
 
 2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business.
 
@@ -43,7 +44,7 @@ Un flux de travail définit également des paramètres, comme un message de bien
 
 4. Dans la page **Flux de travail**, cliquez sur **Créer ou modifier un flux de travail**.
 
-5. Dans le champ **Sélectionner un Service** de recherche, tapez entièrement ou partiellement le nom du service **ApplicationServer** qui héberge le flux de travail que vous souhaitez créer ou modifier. Dans la liste des services obtenus, cliquez sur le service de votre choix, puis sur **OK**.
+5. Dans le champ de recherche **Sélectionner un service**, tapez entièrement ou partiellement le nom du service **ApplicationServer** qui héberge le flux de travail à créer ou à modifier. Dans la liste des services obtenus, cliquez sur le service de votre choix, puis sur **OK**.
 
     > [!NOTE]
     > L’outil de Configuration Response Group s’ouvre. Vous pouvez également ouvrir l’outil de Configuration Response Group directement à partir d’un navigateur web en tapant l’URL suivante : https://\<webPoolFqdn\>/RgsConfig.
@@ -199,9 +200,9 @@ Un flux de travail définit également des paramètres, comme un message de bien
 
 ### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-a-hunt-group-workflow"></a>Utiliser Skype pour Business Server Management Shell pour créer ou modifier un flux de travail de groupe de recherche
 
-1. Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre d’un des rôles d’administrateur prédéfinis qui prennent en charge Response Group.
+1. Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre de l’un des rôles d’administration prédéfinis qui prennent en charge Response Group.
 
-2. Démarrez Skype Entreprise Server Management Shell : cliquez successivement sur **Démarrer**, **Tous les programmes**, **Skype Entreprise 2015**, puis sur **Skype Entreprise Server Management Shell**.
+2. Démarrez le Skype pour Business Server Management Shell : cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Skype pour Business 2015**, puis cliquez sur **Skype pour Business Server Management Shell**.
 
 3. Créez l’invite à exécuter pour le message de bienvenue, et enregistrez-la dans une variable. Dans la ligne de commande, exécutez la commande suivante :
 
@@ -216,7 +217,7 @@ Un flux de travail définit également des paramètres, comme un message de bien
    ```
 
      > [!NOTE]
-     > Pour utiliser un fichier audio pour l’invite, utilisez la cmdlet **Import-CsRgsAudioFile** . Pour plus d’informations, voir [Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps).
+     > Pour utiliser un fichier audio pour l’invite, utilisez l’applet de commande **Import-CsRgsAudioFile**. Pour plus d’informations, voir [Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps).
 
 4. Obtenez l’identité de la file d’attente ou demandez où les appels seront dirigés. Dans la ligne de commande, exécutez la commande suivante :
 
@@ -243,7 +244,7 @@ Un flux de travail définit également des paramètres, comme un message de bien
 
 6. Si vous voulez définir des heures ouvrées et des congés, vous devez les créer avant de créer et modifier le flux de travail. Pour plus d’informations, voir [heures (facultatif) définir Response Group dans Skype pour les entreprises](optional-define-response-group-business-hours.md) et [(facultatif) définir Response Group de congés dans Skype pour les entreprises](optional-define-response-group-holiday-sets.md).
 
-7. Si vous souhaitez les invites pour les appels reçus en dehors des heures ou jours fériés, utilisez l’applet de commande **New-CsRgsPrompt** pour définir l’invite et la **New-CsRgsCallAction** permet de définir l’action à exécuter à l’invite. Pour plus d’informations, voir [New-CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/new-csrgsprompt?view=skype-ps) et [New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps).
+7. Pour avoir des invites pour les appels reçus en dehors des heures ouvrées ou pendant des congés, utilisez l’applet de commande **New-CsRgsPrompt** pour définir l’invite et **New-CsRgsCallAction** pour définir l’action à effectuer après l’invite. Pour plus d’informations, voir [New-CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/new-csrgsprompt?view=skype-ps) et [New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps).
 
 8. Récupérer le nom de service pour le service Response Group Lync Server et l’assigner à une variable. Dans la ligne de commande, exécutez la commande suivante :
 
@@ -251,13 +252,13 @@ Un flux de travail définit également des paramètres, comme un message de bien
    $serviceId = "service:" + (Get-CsService | ?{$_.Applications -like "*RGS*"}).ServiceId;
    ```
 
-9. Créez ou modifiez le flux de travail. Pour créer un flux de travail, utilisez **New-CsRgsWorkflow**. Pour modifier un flux de travail, utilisez **La cmdlet Set-CsRgsWorkflow**. Dans la ligne de commande, tapez :
+9. Créez ou modifiez le flux de travail. Pour créer un flux de travail, utilisez **New-CsRgsWorkflow**. Pour modifier un flux de travail, utilisez **Set-CsRgsWorkflow**. Dans la ligne de commande, tapez :
 
    ```
    $workflowHG = New-CsRgsWorkflow -Parent <service ID for the Response Group service> -Name "<hunt group name>" [-Description "<hunt group description>"] -PrimaryUri "<SIP address for the workflow>" [-LineUri "<Phone number for the workflow>"] [-DisplayNumber "<Phone number displayed in Lync>"] [-Active <$true | $false>] [-Anonymous <$true | $false>] [-DefaultAction <variable from preceding step>] [-EnabledForFederation <$true | $false>] [-Managed <$true | $false>] [-ManagersByUri <SIP addresses for Response Group Managers who can manage the workflow>]
    ```
 
-    Exemple :
+    Par exemple :
 
    ```
    $workflowHG = New-CsRgsWorkflow -Parent $serviceID -Name "Human Resources" -Description "Human Resources workflow" -PrimaryUri "sip:humanresources@contoso.com" -LineUri "TEL:+14255551219" -DisplayNumber "555-1219" -Active $true -Anonymous $true -DefaultAction $actionWM -EnabledForFederation $false -Managed $true -ManagersByUri "sip:bob@contoso.com", "mindy@contoso.com"
@@ -368,7 +369,7 @@ La liste ci-dessous décrit certaines meilleures pratiques lorsque vous concevez
 
 ### <a name="to-use-response-group-configuration-tool-to-create-or-modify-an-interactive-workflow"></a>Pour utiliser l’outil de Configuration pour Response Group pour créer ou modifier un workflow interactif
 
-1. Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre d’un des rôles d’administrateur prédéfinis qui prennent en charge Response Group.
+1. Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre de l’un des rôles d’administration prédéfinis qui prennent en charge Response Group.
 
 2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business.
 
@@ -376,7 +377,7 @@ La liste ci-dessous décrit certaines meilleures pratiques lorsque vous concevez
 
 4. Dans la page **Flux de travail**, cliquez sur **Créer ou modifier un flux de travail**.
 
-5. Dans le champ **Sélectionner un Service** de recherche, tapez entièrement ou partiellement le nom du service **ApplicationServer** qui héberge le flux de travail que vous souhaitez créer ou modifier. Dans la liste des services obtenus, cliquez sur le service de votre choix, puis sur **OK**.
+5. Dans le champ de recherche **Sélectionner un service**, tapez entièrement ou partiellement le nom du service **ApplicationServer** qui héberge le flux de travail à créer ou à modifier. Dans la liste des services obtenus, cliquez sur le service de votre choix, puis sur **OK**.
 
     > [!NOTE]
     > L’outil de Configuration Response Group s’ouvre. Vous pouvez également ouvrir l’outil de Configuration Response Group directement à partir d’un navigateur web en tapant l’URL suivante : https://\<webPoolFqdn\>/RgsConfig.
@@ -559,9 +560,9 @@ La liste ci-dessous décrit certaines meilleures pratiques lorsque vous concevez
 
 ### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-an-interactive-workflow"></a>Utiliser Skype pour Business Server Management Shell pour créer ou modifier un workflow interactif
 
-1.  Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre d’un des rôles d’administrateur prédéfinis qui prennent en charge Response Group.
+1.  Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre de l’un des rôles d’administration prédéfinis qui prennent en charge Response Group.
 
-2. Démarrez Skype Entreprise Server Management Shell : cliquez successivement sur **Démarrer**, **Tous les programmes**, **Skype Entreprise 2015**, puis sur **Skype Entreprise Server Management Shell**.
+2. Démarrez le Skype pour Business Server Management Shell : cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Skype pour Business 2015**, puis cliquez sur **Skype pour Business Server Management Shell**.
 
 3. Extrayez le nom de service du service Response Group et affectez-le à une variable. À partir de la ligne de commande, exécutez la commande suivante :
 

@@ -1,5 +1,6 @@
 ---
 title: Planifier les services d’urgence dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed843ed7-371f-46cc-969a-f8062c06fc55
 description: En savoir plus sur les services de Enhanced 9-1-1 (E9-1-1) dans Skype pour Business Server Enterprise Voice, y compris l’acquisition de l’emplacement et le routage des appels.
-ms.openlocfilehash: 19c660152903c1091612060bfd808bea5a116d2f
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 4dba79c1c1b1b1fed0f60ea4f4c4a9a1d1baea92
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884391"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893809"
 ---
 # <a name="plan-for-emergency-services-in-skype-for-business-server"></a>Planifier les services d’urgence dans Skype pour Business Server
 
@@ -89,7 +90,7 @@ Pour qu’un client acquière un emplacement, les étapes suivantes doivent se p
 
 ## <a name="routing-e9-1-1-calls-using-a-sip-trunk"></a>Routage des appels E9-1-1 avec une jonction SIP
 
-Se connecter à un fournisseur de services E9-1-1 éligible à l’aide d’une jonction SIP vous permet de déployer E9-1-1. Pour plus d’informations sur l’utilisation d’une passerelle ELIN pour se connecter à un réseau téléphonique commuté (PSTN)-E9-1-1 en fonction de fournisseur de services, voir [Routing E9-1-1 Calls à l’aide d’une passerelle ELIN](https://technet.microsoft.com/library/5a3997e3-898d-49cb-922a-4184c3373350.aspx).
+Se connecter à un fournisseur de services E9-1-1 éligible à l’aide d’une jonction SIP vous permet de déployer E9-1-1. Pour plus d’informations sur la connexion à un fournisseur de services E9-1-1 basé sur une ligne du réseau téléphonique commuté (RTC) à l’aide d’une passerelle ELIN, reportez-vous à [Routing E9-1-1 Calls by Using an ELIN Gateway](https://technet.microsoft.com/library/5a3997e3-898d-49cb-922a-4184c3373350.aspx).
 
 Le diagramme suivant illustre comment un appel d’urgence est acheminé de Skype pour Business Server pour le Public Safety Answering Point (PSAP) lorsque vous utilisez une jonction SIP et un fournisseur de services E9-1-1 certifié.
 
@@ -124,7 +125,7 @@ Lorsqu’un Skype pour Business client obtient son emplacement à partir du serv
 Les passerelles ELIN prennent en charge les appels d’urgence effectués au sein du réseau de votre organisation. Elles ne prennent pas en charge les appels d’urgence effectués hors de votre réseau.
 
 > [!NOTE]
-> Pour plus d’informations sur l’utilisation d’une connexion de jonction SIP pour les appels d’urgence, voir [Routage des appels E9-1-1 à l’aide d’une jonction SIP](https://technet.microsoft.com/library/157753c3-fe74-4e2c-81da-ee06911d4cc2.aspx).
+> Pour plus d’informations sur l'utilisation d'une connexion de jonction SIP pour les appels d'urgence, reportez-vous à [Routing E9-1-1 Calls by Using a SIP Trunk](https://technet.microsoft.com/library/157753c3-fe74-4e2c-81da-ee06911d4cc2.aspx).
 
 Le diagramme suivant illustre comment un appel d’urgence est acheminé de Skype pour Business Server vers le PSAP lorsque vous utilisez une passerelle ELIN.
 

@@ -1,5 +1,6 @@
 ---
 title: Appel de rapport de contrôle d’admission des appels dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ea4b0c9f-7f93-4b8a-b901-01e1636c44fb
 description: 'Résumé : Découvrez les rapports de contrôle de d’admission des appels utilisés dans Skype pour Business Server.'
-ms.openlocfilehash: c3828eb890ed8f70c41bc669785278f9be017893
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 88d1db546e488452d73e7a5e39dcba990402a210
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21011245"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897429"
 ---
 # <a name="call-admission-control-report-in-skype-for-business-server"></a>Appel de rapport de contrôle d’admission des appels dans Skype pour Business Server
  
@@ -75,7 +76,7 @@ Le tableau ci-dessous répertorie les informations fournies par le rapport de co
 
 Le tableau ci-dessous répertorie les informations fournies par le rapport de contrôle d’admission des appels pour les sessions de conférence (c’est-à-dire, les sessions qui impliquent trois participants ou plus).
   
-**Mesures pour les sessions de conférence**
+**Mesures des Sessions de conférence**
 
 |**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|

@@ -1,5 +1,6 @@
 ---
 title: Table AudioStream
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49ccbbc3-2f73-45fc-80a6-e612535cbc10
 description: Chaque enregistrement représente un seul flux audio. Généralement, une seule ligne de média audio contient deux flux audio.
-ms.openlocfilehash: 2e910eb3f6717beed4ba228237f16b96471aea29
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 7c1e7ae70a04aabc7db704aaaad873bc5b2100c9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19570050"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894134"
 ---
 # <a name="audiostream-table"></a>Table AudioStream
  
@@ -43,7 +44,7 @@ Chaque enregistrement représente un seul flux audio. Généralement, une seule 
 |**DegradationPacketLossAvg** <br/> |Decimal (3,2)  <br/> | <br/> |Dégradation de la note MOS qualité réseau causée par la perte de paquets.  <br/> |
 |**AudioPayloadDescription** <br/> |int  <br/> |Étrangère  <br/> |Le Codec audio utilisé pour l’appel, référencé depuis la PayloadDescription Table.  <br/> |
 |**AudioSampleRate** <br/> |int  <br/> | <br/> |Taux d’échantillonnage pour le flux audio.  <br/> |
-|**Aller-retour** <br/> |int  <br/> | <br/> |Durée d’aller-retour d’après les statistiques RTCP. Pour une qualité acceptable doit être inférieure à 100 millisecondes.  <br/> |
+|**RoundTrip** <br/> |int  <br/> | <br/> |Durée d’aller-retour d’après les statistiques RTCP. Pour une qualité acceptable doit être inférieure à 100 millisecondes.  <br/> |
 |**RoundTripMax** <br/> |int  <br/> | <br/> |Durée d’aller-retour maximale pour le flux audio.  <br/> |
 |**OverallAvgNetworkMOS** <br/> |Decimal (3,2)  <br/> | <br/> |Moyenne de bande passante réseau MOS pour l’appel. Cette mesure varie selon le codec utilisé, une instabilité et la perte de paquets. Plage est [1.0 et 5.0].  <br/> |
 |**OverallMinNetworkMOS** <br/> |Decimal (3,2)  <br/> | <br/> |La minimale en bande passante réseau MOS pour l’appel.  <br/> |

@@ -1,5 +1,6 @@
 ---
 title: Nœud d’étendue des applications externes
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,16 +12,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 73b422d6-1582-4a76-aceb-690004fa02a3
-description: 'Le nœud de serveurs d’application approuvés répertorie les pools d’applications de confiance à ce site. Pools d’applications de confiance contiennent des serveurs qui exécutent des applications de Microsoft Unified Communications fiables, mais ne s’exécutent pas Skype pour les rôles de serveur d’entreprise. Vous pouvez effectuer l’action suivante :'
-ms.openlocfilehash: c7f877e069b240c80219ce24f15943b2cce5fb08
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Le nœud Serveurs d’applications approuvées répertorie les pools d’applications approuvées sur ce site. Pools d’applications approuvées contiennent des serveurs d’exécuter des applications de Communications unifiées de Microsoft approuvées, mais n’exécutent pas Skype pour les rôles de serveur d’entreprise. Vous pouvez effectuer l’action suivante :'
+ms.openlocfilehash: 3554487210ed415e1a49c78194b4fb858cd1d20e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894036"
 ---
 # <a name="external-applications-scope-node"></a>Nœud d’étendue des applications externes
  
-Le nœud **Serveurs d’applications approuvées** répertorie les pools d’applications approuvées sur ce site. Pools d’applications de confiance contiennent des serveurs qui exécutent des applications de Microsoft Unified Communications fiables, mais ne s’exécutent pas Skype pour les rôles de serveur d’entreprise. Vous pouvez effectuer l’action suivante :
+Le nœud **Serveurs d’applications approuvées** répertorie les pools d’applications approuvées sur ce site. Pools d’applications approuvées contiennent des serveurs d’exécuter des applications de Communications unifiées de Microsoft approuvées, mais n’exécutent pas Skype pour les rôles de serveur d’entreprise. Vous pouvez effectuer l’action suivante :
   
 - **Nouveau pool d’applications approuvées** : lance l’Assistant **Définition d’un nouveau pool d’applications approuvées**, qui permet d’ajouter un nouveau pool d’applications approuvées à la topologie.
     

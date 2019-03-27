@@ -1,5 +1,6 @@
 ---
 title: Jonction SIP dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7c586401-d0e5-4017-b3e1-fe5e7f8fc6db
 description: En savoir plus sur l’acheminement SIP dans Skype pour Business Server Enterprise Voice
-ms.openlocfilehash: 502629c794ed95b5d6228880c8fe37a23eb86af9
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 98b107d02d223ea8bad555c5aa0802f8f7581807
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882233"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892955"
 ---
 # <a name="sip-trunking-in-skype-for-business-server"></a>Jonction SIP dans Skype pour Business Server
 
@@ -153,10 +154,10 @@ La figure suivante illustre la topologie d’acheminement SIP dans Skype pour Bu
 Comme le montre le diagramme, un réseau privé virtuel (VPN) IP est utilisé pour la connectivité entre le réseau d’entreprise et le fournisseur de services de réseau téléphonique commuté. L’objectif de ce réseau privé est de fournir la connectivité IP, d’améliorer la sécurité et (éventuellement) d’obtenir des garanties de qualité de service. En raison de la nature d’un VPN, vous n’avez pas besoin d’utiliser TLS pour le trafic de signalisation SIP, ni SRTP pour le trafic multimédia. De ce fait, les connexions entre l’entreprise et le fournisseur de services consistent en des connexions TCP ordinaires pour SIP et des connexions RTP ordinaires (avec le protocole UDP) pour les médias traités par tunnel via un réseau VPN IP. Veillez à ce que tous les pare-feu situés entre les routeurs VPN disposent de ports ouverts pour permettre aux routeurs VPN de communiquer. Par ailleurs, les adresses IP des périmètres externes des routeurs VPN doivent être publiquement routables.
 
 > [!IMPORTANT]
-> Contactez votre fournisseur de services pour déterminer s’il fournit la prise en charge pour la disponibilité élevée, notamment le basculement. Si c’est le cas, vous devrez déterminer les procédures pour la configurer. Par exemple, vous devez ne configurer qu’une seule adresse IP et une jonction SIP sur chaque serveur de médiation, ou avez-vous besoin configurer plusieurs jonctions SIP sur chaque serveur de médiation ? > Si vous avez plusieurs sites centraux, demandez également si le fournisseur de services a la possibilité d’activer les connexions vers et à partir d’un autre site central.
+> Contactez votre fournisseur de services pour déterminer s’il fournit la prise en charge pour la disponibilité élevée, notamment le basculement. Si c’est le cas, vous devrez déterminer les procédures pour la configurer. Par exemple, vous devez ne configurer qu’une seule adresse IP et une jonction SIP sur chaque serveur de médiation, ou avez-vous besoin configurer plusieurs jonctions SIP sur chaque serveur de médiation ? > si vous avez plusieurs sites centraux, demandez également si le fournisseur de services a la possibilité d’activer les connexions vers et à partir d’un autre site central.
 
 > [!NOTE]
-> Pour la jonction SIP, nous vous recommandons vivement de déployer les serveurs de médiation autonome. Pour plus d’informations, voir [déploiement de serveurs de médiation et définition des homologues](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx) dans la documentation de déploiement.
+> Pour la jonction SIP, nous vous recommandons vivement de déployer les serveurs de médiation autonome. Pour plus d’informations, reportez-vous à [Deploying Mediation Servers and Defining Peers](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx) dans la documentation de déploiement.
 
 ### <a name="securing-the-mediation-server-for-sip-trunking"></a>Sécurisation du serveur de médiation pour la jonction SIP
 

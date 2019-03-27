@@ -1,5 +1,6 @@
 ---
 title: Formation à Microsoft Teams pour les administrateurs
+ms.reviewer: ''
 description: La formation, que vous devez gérer Teams Microsoft dans votre organisation
 author: dearbeen
 manager: serdars
@@ -14,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_Training
 ms.topic: landing-page
 ms.author: dearbeen
-ms.openlocfilehash: 84d409f18fb6e6f4832ad4f5912f2b50fef05736
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 5bc3f744ff3bf04388de1ba19c02c4ad64f6263f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30540943"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891109"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Formation à Microsoft Teams pour les administrateurs
 
@@ -73,7 +74,7 @@ Découvrez comment gérer les équipes de votre organisation.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Avez-vous besoin d’aide pour vous connecter à Skype Entreprise ?</h3>
+                        <h3>Avez-vous besoin d’aide pour vous connecter à Skype Entreprise ?</h3>
                     </div>
                 </div>
             </div>
@@ -91,7 +92,7 @@ Découvrez comment gérer les équipes de votre organisation.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Résolution des problèmes liés à Skype Entreprise Online</h3>
+                        <h3>Résolution des problèmes liés à Skype Entreprise Online</h3>
                     </div>
                 </div>
             </div>
@@ -120,7 +121,7 @@ Découvrez comment gérer les équipes de votre organisation.
 
 ---
 
-<h2>Quelles sont les nouveautés</h2>
+<h2>Nouveautés</h2>
 
 <ul class="panelContent cardsF">
     <li>
