@@ -1,5 +1,6 @@
 ---
-title: Filtre de fichiers
+title: Filtre de fichier
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,20 +13,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6178d9e5-a919-4a7d-9633-d5f155556306
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: 058397daf98d7c510e68c45907c89ffa6fbd94b5
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: ed083c31acafa7fd39a0be7bf1356b9f211e2234
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23252264"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881049"
 ---
-# <a name="file-filter"></a><span data-ttu-id="14996-104">Filtre de fichiers</span><span class="sxs-lookup"><span data-stu-id="14996-104">File Filter</span></span>
+# <a name="file-filter"></a><span data-ttu-id="b4000-104">Filtre de fichier</span><span class="sxs-lookup"><span data-stu-id="b4000-104">File Filter</span></span>
 
-<span data-ttu-id="14996-p102">Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="14996-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="b4000-105">Que voulez-vous faire ?</span><span class="sxs-lookup"><span data-stu-id="b4000-105">What do you want to do?</span></span> <span data-ttu-id="b4000-106">Cliquez sur le lien de la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="b4000-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="14996-107">Modifier le filtre de transfert de fichiers par défaut</span><span class="sxs-lookup"><span data-stu-id="14996-107">Modify the Default File Transfer Filter</span></span>](https://technet.microsoft.com/library/791774a2-0bb6-4b5b-aeb0-ff69abb170f4.aspx)
+- [<span data-ttu-id="b4000-107">Modifier le filtre de transfert de fichiers par défaut</span><span class="sxs-lookup"><span data-stu-id="b4000-107">Modify the Default File Transfer Filter</span></span>](https://technet.microsoft.com/library/791774a2-0bb6-4b5b-aeb0-ff69abb170f4.aspx)
 
-- [<span data-ttu-id="14996-108">Créer un filtre de transfert de fichiers pour un Site spécifique</span><span class="sxs-lookup"><span data-stu-id="14996-108">Create a New File Transfer Filter for a Specific Site</span></span>](https://technet.microsoft.com/library/d0006487-5217-491c-b730-e6c551cd9825.aspx)
+- [<span data-ttu-id="b4000-108">Créer un filtre de transfert de fichiers pour un Site spécifique</span><span class="sxs-lookup"><span data-stu-id="b4000-108">Create a New File Transfer Filter for a Specific Site</span></span>](https://technet.microsoft.com/library/d0006487-5217-491c-b730-e6c551cd9825.aspx)
 
-<span data-ttu-id="14996-109">Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide de la Skype pour le panneau de configuration serveur Business, voir [Gérer les Skype pour Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="14996-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="b4000-109">Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide de la Skype pour le panneau de configuration serveur Business, voir [Gérer les Skype pour Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="b4000-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 

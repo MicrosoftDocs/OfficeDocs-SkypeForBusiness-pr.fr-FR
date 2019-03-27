@@ -1,5 +1,6 @@
 ---
-title: Table de MSMQProcessing
+title: Table MSMQProcessing
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -9,15 +10,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e0415f76-d125-4c15-861b-f5780ac1aef2
-description: La table MSMQProcessing est à usage interne uniquement. Cette table a été introduite dans Skype pour Business Server 2015.
-ms.openlocfilehash: b3953cb2442c351160530567e3a54be8db60d599
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: La table MSMQProcessing est à usage interne uniquement. Ce tableau a été introduit dans Skype pour Business Server 2015.
+ms.openlocfilehash: 922bcc603830de2e2d1d8e1f9b52c3527edbc799
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882134"
 ---
-# <a name="msmqprocessing-table"></a><span data-ttu-id="89726-104">Table de MSMQProcessing</span><span class="sxs-lookup"><span data-stu-id="89726-104">MSMQProcessing table</span></span>
+# <a name="msmqprocessing-table"></a><span data-ttu-id="383b1-104">Table MSMQProcessing</span><span class="sxs-lookup"><span data-stu-id="383b1-104">MSMQProcessing table</span></span>
  
-<span data-ttu-id="89726-105">La table MSMQProcessing est à usage interne uniquement.</span><span class="sxs-lookup"><span data-stu-id="89726-105">The MSMQProcessing table is for internal use only.</span></span> <span data-ttu-id="89726-106">Cette table a été introduite dans Skype pour Business Server 2015.</span><span class="sxs-lookup"><span data-stu-id="89726-106">This table was introduced in Skype for Business Server 2015.</span></span>
+<span data-ttu-id="383b1-105">La table MSMQProcessing est à usage interne uniquement.</span><span class="sxs-lookup"><span data-stu-id="383b1-105">The MSMQProcessing table is for internal use only.</span></span> <span data-ttu-id="383b1-106">Ce tableau a été introduit dans Skype pour Business Server 2015.</span><span class="sxs-lookup"><span data-stu-id="383b1-106">This table was introduced in Skype for Business Server 2015.</span></span>
   
 
