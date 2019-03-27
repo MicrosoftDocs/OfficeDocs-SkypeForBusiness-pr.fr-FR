@@ -1,5 +1,6 @@
 ---
 title: Application approuvée de topologie
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,18 +13,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eb6185c3-c162-4250-9ec3-11cdd8191287
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: 83803513e83b58defdadb038427761d190a9293c
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: ca66c8a21bcd5938574c593543bd40dceb72c2c4
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23248243"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891328"
 ---
-# <a name="topology-trusted-application"></a><span data-ttu-id="c33c1-104">Topologie : Application approuvée</span><span class="sxs-lookup"><span data-stu-id="c33c1-104">Topology: Trusted Application</span></span>
+# <a name="topology-trusted-application"></a><span data-ttu-id="17a5d-104">Topologie : application approuvée</span><span class="sxs-lookup"><span data-stu-id="17a5d-104">Topology: Trusted Application</span></span>
 
-<span data-ttu-id="c33c1-p102">Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="c33c1-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="17a5d-105">Que voulez-vous faire ?</span><span class="sxs-lookup"><span data-stu-id="17a5d-105">What do you want to do?</span></span> <span data-ttu-id="17a5d-106">Cliquez sur le lien de la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="17a5d-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="c33c1-107">Afficher la liste des Applications approuvées</span><span class="sxs-lookup"><span data-stu-id="c33c1-107">View a List of Trusted Applications</span></span>](https://technet.microsoft.com/library/f09300b3-67cf-4e70-a51a-23d62479b913.aspx)
+- [<span data-ttu-id="17a5d-107">Afficher la liste des Applications approuvées</span><span class="sxs-lookup"><span data-stu-id="17a5d-107">View a List of Trusted Applications</span></span>](https://technet.microsoft.com/library/f09300b3-67cf-4e70-a51a-23d62479b913.aspx)
 
-<span data-ttu-id="c33c1-108">Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide de la Skype pour le panneau de configuration serveur Business, voir [Gérer les Skype pour Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="c33c1-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="17a5d-108">Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide de la Skype pour le panneau de configuration serveur Business, voir [Gérer les Skype pour Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="17a5d-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 
