@@ -1,5 +1,6 @@
 ---
 title: Gérer les comptes d’utilisateurs pour Skype pour Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2fe7e3a7-bc75-4d4b-94af-a8818722b0d3
 description: Les sections de cet article décrivent comment activer, désactiver temporairement ou supprimer des utilisateurs Active Directory de Skype pour Business Server.
-ms.openlocfilehash: 918bdf556f040c115abf5869ad7a7dcd76a3271f
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 2140ae4209e0b91e0d1188a01f96d2d81cac27ef
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23250793"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883685"
 ---
 # <a name="manage-user-accounts-for-skype-for-business-server"></a>Gérer les comptes d’utilisateurs pour Skype pour Business Server
 
@@ -46,7 +47,7 @@ Vous pouvez rechercher des utilisateurs à l’aide de la Skype pour le panneau 
 > [!NOTE]
 > Dans un environnement comportant une topologie à forêt centrale, les résultats de recherche peut-être pas précis lorsque vous recherchez un utilisateur à l’adresse de messagerie de l’utilisateur. Au lieu de cela, vous pouvez rechercher des utilisateurs en spécifiant un préfixe d’adresse SIP, par exemple, sip : name, ajouter un filtre de recherche et sélectionnez une adresse SIP qui contient une adresse de messagerie partiel ou utilisez la cmdlet **Get-CSUser** .
 
-1. À partir d’un compte d’utilisateur auquel est affecté un des rôles CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
+1. À partir d’un compte d’utilisateur auquel est affecté le rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
 
 2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business.
 
@@ -73,7 +74,7 @@ Après avoir activé un compte d’utilisateur dans Active Directory utilisateur
 
 Vous pouvez également utiliser une applet de commande, spécifiquement [Enable-CsUser](https://docs.microsoft.com/powershell/module/skype/enable-csuser?view=skype-ps).
 
-1. À partir d’un compte d’utilisateur auquel est affecté un des rôles CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
+1. À partir d’un compte d’utilisateur auquel est affecté le rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
 
 2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business.
 
@@ -94,7 +95,7 @@ Vous pouvez également utiliser une applet de commande, spécifiquement [Enable-
 
 Vous pouvez utiliser la procédure suivante pour désactiver un compte d’utilisateur précédemment activé dans Skype pour Business Server sans perdre le Skype pour les paramètres du serveur d’entreprise que vous avez configuré pour le compte d’utilisateur. Étant donné que vous ne perdez pas la Skype pour les paramètres de compte d’utilisateur Business Server, vous pouvez réactiver un compte d’utilisateur précédemment activé à nouveau sans avoir à reconfigurer le compte d’utilisateur.
 
-1. À partir d’un compte d’utilisateur auquel est affecté un des rôles CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
+1. À partir d’un compte d’utilisateur auquel est affecté le rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
 
 2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business.
 
@@ -139,7 +140,7 @@ Utilisez la procédure suivante pour désactiver Enterprise Voice pour un compte
 
 ### <a name="to-disable-a-user-account-for-enterprise-voice"></a>Pour désactiver un compte d’utilisateur pour voix entreprise
 
-1. À partir d’un compte d’utilisateur auquel est affecté un des rôles CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
+1. À partir d’un compte d’utilisateur auquel est affecté le rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
 
 2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business.
 
@@ -167,7 +168,7 @@ Vous pouvez utiliser la procédure suivante pour supprimer un compte d’utilisa
 > [!NOTE]
 > Suppression d’un utilisateur entraîne la perte des paramètres que vous avez configuré pour le compte d’utilisateur. Si vous souhaitez désactiver temporairement un compte d’utilisateur au lieu de cela, voir [désactiver ou réactiver un compte d’utilisateur précédemment activé pour Skype pour Business Server](user-accounts.md#Disable).
 
-1. À partir d’un compte d’utilisateur auquel est affecté un des rôles CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
+1. À partir d’un compte d’utilisateur auquel est affecté le rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
 
 2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business.
 

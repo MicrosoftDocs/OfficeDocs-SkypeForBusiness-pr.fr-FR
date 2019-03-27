@@ -1,5 +1,6 @@
 ---
 title: Edge requise serveur dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 ms.audience: ITPro
@@ -12,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed53a566-0504-46f9-81a7-116a637833af
 description: 'Résumé : Découvrez la configuration système requise pour le serveur de périphérie dans Skype pour Business Server.'
-ms.openlocfilehash: 16cc2a5e640872fe8c57113c7aaca588efab121a
-ms.sourcegitcommit: ff0c4bef4d4cbc71d51fce941aff63739a0016e9
+ms.openlocfilehash: 34114833b516f49fb36742cbde9361e1bb1d3be3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/21/2018
-ms.locfileid: "26626159"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879925"
 ---
 # <a name="edge-server-system-requirements-in-skype-for-business-server"></a>Edge requise serveur dans Skype pour Business Server
  

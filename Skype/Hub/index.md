@@ -1,18 +1,15 @@
----
+--- 
 layout: HubPage
 hide_bc: true
-title: Skype Entreprise
+title: "Skype\_Entreprise"
+ms.reviewer: null
+ms.author: kenwith
+author: kenwith
 description: Skype Entreprise
-ms.openlocfilehash: 47a7383bb6383c1dad338dc022c9f4e471210a86
-ms.sourcegitcommit: 4967c9b1010a444475dcfbdb6dd3c058494449d9
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "30069459"
 ---
 <div id="main" class="v2">
     <div class="container">
-        <h1>Skype Entreprise</h1>
+        <h1>Skype Entreprise</h1>
         <ul class="pivots">
             <li>
                 <a href="#home"></a>
@@ -31,7 +28,7 @@ ms.locfileid: "30069459"
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Skype Entreprise Online</h3>
+                                                    <h3>Skype Entreprise Online</h3>
                                                     <p>Trouvez des ressources pour gérer Skype Entreprise Online dans votre environnement Office 365.</p>
                                                 </div>
                                             </div>
@@ -68,7 +65,7 @@ ms.locfileid: "30069459"
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Skype Entreprise Server</h3>
+                                                    <h3>Skype pour Business Server</h3>
                                                     <p>Déployez et gérez Skype Entreprise Server pour votre organisation.</p>
                                                 </div>
                                             </div>

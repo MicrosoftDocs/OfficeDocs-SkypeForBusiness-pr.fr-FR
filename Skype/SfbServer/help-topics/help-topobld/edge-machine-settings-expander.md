@@ -1,5 +1,6 @@
 ---
-title: Expanseur des paramètres l’ordinateur Edge
+title: Développeur des paramètres de l’ordinateur Edge
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 747456dd-d237-44e6-9e64-63b0e7212a08
 description: 'Pour modifier les propriétés d’un serveur dans un pool de serveurs de périphérie, procédez comme suit :'
-ms.openlocfilehash: 2d3e2de296dc575d902422f2263e234f4a8ae1fd
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 3d24eba1a24cf54da26b00b7b84b5b1b9fe52b61
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20985366"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876235"
 ---
-# <a name="edge-machine-settings-expander"></a>Expanseur des paramètres l’ordinateur Edge
+# <a name="edge-machine-settings-expander"></a>Développeur des paramètres de l’ordinateur Edge
  
 Pour modifier les propriétés d’un serveur dans un pool de serveurs de périphérie, procédez comme suit :
   

@@ -1,5 +1,6 @@
 ---
 title: Notions de base sur DNS
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2618cfa1-2e2c-4f1d-a5e5-70a0286591a7
 description: Windows Server 2016 a logiciel intégré qui peut fournir des services DNS, vous pouvez donc à consulter la documentation disponible telles que le Guide de scénario de stratégie DNS. Vous pouvez choisir une solution tierce si vous préférez.
-ms.openlocfilehash: 297dc905a308806aec9228a9514f8e1bd65a245b
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 2ba20c6aabd296f13ea5e84053d140123097f114
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532815"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886612"
 ---
 # <a name="dns-basics"></a>Notions de base sur DNS
  
@@ -27,7 +28,7 @@ Nous vous recommandons de meilleure pratique dédier un serveur spécifique dans
 Chaque mappage de nom à une adresse IP (et qui peut être une adresse IPv4 ou IPv6) est stocké dans un enregistrement DNS sur le serveur DNS. Le nom est décrit dans le rapport DNS spécifiquement comme nom de domaine complet, un nom de domaine complet. *Contoso.com* est un nom de domaine valide, il est l’abréviation de * \*. contoso.com* , de sorte qu’il est ambigu et peut éventuellement faire référence à n’importe quel serveur du domaine. Un exemple de nom de domaine complet qui fait référence à un serveur unique dans votre domaine peut être **meeting01.contoso.com**.
   
 > [!IMPORTANT]
-> Par défaut, le nom d’un ordinateur qui n’est pas joint à un domaine est un nom d’hôte, et non un nom de domaine complet. Le Générateur de topologie utilise des noms de domaine complets, pas les noms d’hôte. Vous devez donc configurer un suffixe DNS sur le nom de l’ordinateur qui sera déployé en tant que serveur de périphérie non lié à un domaine. **Utiliser des caractères standard uniquement** (y compris les A-Z, a-z, 0-9 et tirets) lors de l’affectation de noms de domaine complets pour vos serveurs exécutant Skype pour Business Server. N’utilisez pas les caractères ou traits de soulignement Unicode. Souvent, les caractères non standard dans un FQDN ne sont pas pris en charge par le DNS externe et les autorités de certification publique (quand le FQDN doit être assigné au SN dans le certificat).
+> Par défaut le nom de l’ordinateur d’un ordinateur qui n’est pas lié à un domaine est un nom d’hôte et non un nom de domaine complet (FQDN). Le Générateur de topologie utilise des noms de domaine complets, pas les noms d’hôte. Vous devez donc configurer un suffixe DNS sur le nom de l’ordinateur qui sera déployé en tant que serveur de périphérie non lié à un domaine. **Utiliser des caractères standard uniquement** (y compris les A-Z, a-z, 0-9 et tirets) lors de l’affectation de noms de domaine complets pour vos serveurs exécutant Skype pour Business Server. N’utilisez pas les caractères ou traits de soulignement Unicode. Souvent, les caractères non standard dans un FQDN ne sont pas pris en charge par le DNS externe et les autorités de certification publique (quand le FQDN doit être assigné au SN dans le certificat).
   
 En plus d’une adresse IP, le nom de domaine complet peut mapper à une **adresse IP virtuelle** — une adresse IP virtuelle. Une adresse IP virtuelle est une adresse IP qui ne correspond pas à une interface réseau physique. Souvent, une adresse IP virtuelle pointe vers un pool de serveurs qui effectuent un rôle de serveur, ou à une paire de serveurs configurés pour la redondance et la tolérance de panne.
   

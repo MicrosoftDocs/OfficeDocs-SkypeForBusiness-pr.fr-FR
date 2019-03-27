@@ -1,5 +1,6 @@
 ---
 title: Test de droits d’administrateur topologie dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,19 +9,19 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Comment tester les droits de topologie dans Skype pour Business Server
-ms.openlocfilehash: 6a1bbd6c052acb6488189e466522edf1aa59f2cb
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: ad65d42a49d7b85c324766e208e44d6b5e1b632f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222820"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888943"
 ---
 # <a name="testing-admin-topology-rights-in-skype-for-business-server"></a>Test de droits d’administrateur topologie dans Skype pour Business Server
 
 | | |
 |--|--|
 |Planification de la vérification|Après avoir Skype initiale pour le déploiement de serveur d’entreprise. Selon les besoins en cas de problèmes d’autorisation.|
-|Outil de test|Windows PowerShell|
+|Outil de test|Windows PowerShell|
 |Autorisations requises|Lorsque vous exécutez localement à l’aide de la Skype pour Business Server Management Shell, les utilisateurs doivent être membres du groupe de sécurité RTCUniversalServerAdmins.<br/><br/>Lorsque vous exécutez à l’aide d’une instance de Windows PowerShell à distance, les utilisateurs doivent disposer un rôle RBAC qui est autorisé à exécuter l’applet de commande Test-CsSetupPermission. Pour afficher une liste de tous les rôles RBAC que vous pouvez utiliser cette applet de commande, exécutez la commande suivante à l’invite de Windows PowerShell :<br/><br/>Get-CsAdminRole \| Where-Object {$_. Applets de commande-correspond à « Test-CsSetupPermission »}|
 |||
 

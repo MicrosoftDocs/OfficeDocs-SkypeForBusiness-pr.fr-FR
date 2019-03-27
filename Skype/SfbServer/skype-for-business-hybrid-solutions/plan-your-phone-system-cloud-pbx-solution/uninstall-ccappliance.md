@@ -1,5 +1,6 @@
 ---
-title: CcAppliance-désinstaller
+title: Uninstall-CcAppliance
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,13 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e1b3cdd7-08e9-41a6-843a-3b4baf886cd0
 description: 'L’applet de commande Uninstall-CcAppliance désinstalle l’exécution de l’appliance de la version Cloud Connector de Skype Entreprise à partir du serveur hôte. '
-ms.openlocfilehash: 325e21d28ef87f9d27e87721452bc3d67d197169
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 7b2def71eee17c81b6f178a18d4c248557a0f022
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885647"
 ---
-# <a name="uninstall-ccappliance"></a>CcAppliance-désinstaller
+# <a name="uninstall-ccappliance"></a>Uninstall-CcAppliance
  
 L’applet de commande Uninstall-CcAppliance désinstalle l’exécution de l’appliance de la version Cloud Connector de Skype Entreprise à partir du serveur hôte.  
   
@@ -27,9 +29,9 @@ Uninstall-CcAppliance [-Version <string>] [-Force] [-Confirm <bool>] [<CommonPar
 ## <a name="examples"></a>Exemples
 <a name="Examples"> </a>
 
-### <a name="example-1"></a>Exemple 1
+### <a name="example-1"></a>Exemple 1
 
-L’exemple suivant drains et désinstalle l’application Connecteur de nuage à partir du serveur hôte :
+L’exemple suivant draine et désinstalle la solution de nuage connecteur à partir du serveur hôte :
   
 ```
 Uninstall-CcAppliance
@@ -37,7 +39,7 @@ Uninstall-CcAppliance
 
 ### <a name="example-2"></a>Exemple 2
 
-L’exemple suivant drains et force désinstalle la solution matérielle-logicielle nuage connecteur en cours d’exécution sur le serveur hôte même si le processus de drain a échoué :
+L’exemple suivant draine et force désinstalle la solution de nuage connecteur en cours d’exécution sur le serveur hôte même si le processus de drainage a échoué :
   
 ```
 Uninstall-CcAppliance -Force
@@ -45,7 +47,7 @@ Uninstall-CcAppliance -Force
 
 ### <a name="example-3"></a>Exemple 3
 
-L’exemple suivant désinstalle une version de sauvegarde de nuage connecteur sans demande de confirmation de l’utilisateur :
+L’exemple suivant désinstalle une version de sauvegarde dans le nuage connecteur sans confirmation de l’utilisateur :
   
 ```
 Uninstall-CcAppliance -Version 1.3.8 -Confirm:$false
@@ -54,12 +56,12 @@ Uninstall-CcAppliance -Version 1.3.8 -Confirm:$false
 ## <a name="detailed-description"></a>Description détaillée
 <a name="DetailedDescription"> </a>
 
-Si vous désinstallez la version actuelle en cours d’exécution du connecteur du nuage, services de drain sont tout d’abord exécutées sur le serveur de médiation et le serveur de transport Edge pour permettre les appels simultanés terminer avant de désinstaller les ordinateurs virtuels. Si vous êtes en train de désinstaller une version de sauvegarde, le nettoyage n'est pas exécuté :
+Si vous désinstallez la version actuelle en cours d’exécution du nuage connecteur, services de drainage sont tout d’abord exécuter sur le serveur de médiation et le serveur de périphérie pour permettre aux appels simultanés terminer avant de désinstaller les ordinateurs virtuels. Si vous êtes en train de désinstaller une version de sauvegarde, le nettoyage n'est pas exécuté :
   
 ## <a name="parameters"></a>Paramètres
 <a name="DetailedDescription"> </a>
 
-|**Paramètre**|**Obligatoire**|**Type de**|**Description**|
+|**Paramètre**|**Obligatoire**|**Type**|**Description**|
 |:-----|:-----|:-----|:-----|
 | Version <br/> | Facultatif <br/> |System.String  <br/> | La version du connecteur de nuage qui va être désinstallé à partir du serveur hôte. Si cela n'est pas précisé, désinstallez la version actuelle. <br/> |
 |Force  <br/> |Facultatif  <br/> |System.Management.Automation.SwitchParameter  <br/> |Si vous désinstallez la version actuelle, essayez de nettoyer les serveurs sur le serveur de médiation et le serveur Edge avant de désinstaller les machines virtuelles. Si vous spécifiez le commutateur "Force", même si les services de nettoyage échouent, les machines virtuelles seront désinstallées. Ce paramètre est uniquement utilisé pour désinstaller la version actuelle.  <br/> |
@@ -78,12 +80,12 @@ Aucun
 ## <a name="see-also"></a>Voir aussi
 <a name="ReturnTypes"> </a>
 
-[Installation-CcAppliance](install-ccappliance.md)
+[Install-CcAppliance](install-ccappliance.md)
   
-[Publication-CcAppliance](publish-ccappliance.md)
+[Publish-CcAppliance](publish-ccappliance.md)
   
-[Registre-CcAppliance](register-ccappliance.md)
+[Register-CcAppliance](register-ccappliance.md)
   
-[Annuler l’inscription-CcAppliance](unregister-ccappliance.md)
+[Unregister-CcAppliance](unregister-ccappliance.md)
   
 

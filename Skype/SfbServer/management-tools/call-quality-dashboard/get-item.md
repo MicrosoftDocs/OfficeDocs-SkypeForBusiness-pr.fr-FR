@@ -1,5 +1,6 @@
 ---
-title: Obtenir l’élément
+title: Obtenir un élément
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,26 +11,26 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: e77bf649-d62a-4d94-80de-066ba47730cd
 description: 'Résumé : Découvrez l’opération obtenir un élément, qui fait partie du Service de l’élément. Le Service de l’élément fait partie de l’API de référentiel pour appeler le tableau de bord qualité. Tableau de bord de qualité des appels est un outil de Skype pour Business Server.'
-ms.openlocfilehash: 12b52bdd51e8ba59f1aa90e2a366b3e11fb54805
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 1f86c318139d328f414bf1290c66ddd7ccb7e20a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532361"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889441"
 ---
-# <a name="get-item"></a>Obtenir l’élément
+# <a name="get-item"></a>Obtenir un élément
  
 **Résumé :** Obtenir des informations sur l’opération obtenir un élément, qui fait partie du Service de l’élément. Le Service de l’élément fait partie de l’API de référentiel pour appeler le tableau de bord qualité. Tableau de bord de qualité des appels est un outil de Skype pour Business Server.
   
 L’opération obtenir un élément fait partie du Service d’élément dans l’API de référentiel pour appeler le tableau de bord qualité.
   
-## <a name="get-item"></a>Obtenir l’élément
+## <a name="get-item"></a>Obtenir un élément
 
 Obtenir élément renvoie un élément spécifique dans le référentiel.
   
 |**Méthode**|**URI de la demande**|**Version HTTP**|
 |:-----|:-----|:-----|
-|Télécharger  <br/> |https://\<portal\>/QoERepositoryService/référentiel/élément / {itemId}  <br/> |HTTP/1.1.  <br/> |
+|Avoir  <br/> |https://\<portal\>/QoERepositoryService/référentiel/élément / {itemId}  <br/> |HTTP/1.1.  <br/> |
    
  **Paramètres d’URI** - None.
   

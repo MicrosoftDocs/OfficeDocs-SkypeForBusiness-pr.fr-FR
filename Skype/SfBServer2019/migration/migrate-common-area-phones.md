@@ -1,5 +1,6 @@
 ---
-title: Migrer des téléphones de partie commune
+title: Migration des téléphones de partie commune
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,18 +9,18 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Téléphones de partie commune sont IP téléphones que plus souvent se trouvent dans un espace de travail partagé ou la partie commune, comme un atelier de salle d’attente, cuisine ou usine. Téléphones de partie commune est inutile d’être connecté à un ordinateur pour fournir que Skype pour Business Server unifiée la fonctionnalité de communications (UC). Après la migration d’un déploiement à Skype pour Business Server 2019, vous devez également migrer les objets contact associés avec le téléphone en zone commune hérité. À l’aide de Skype pour Business Server Management Shell vous serez tout d’abord récupérer tous les objets contact associés aux anciens téléphones en zone commune, puis déplacer ces objets vers le Skype pour Business Server 2019 pool.
-ms.openlocfilehash: d2d30e087d44973379d5f57dd85d137482762e5e
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: d17e15224a9124eaf3e9fd6696e6ecd9265044eb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371573"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887266"
 ---
-# <a name="migrate-common-area-phones"></a>Migrer des téléphones de partie commune
+# <a name="migrate-common-area-phones"></a>Migration des téléphones de partie commune
 
 Téléphones de partie commune sont IP téléphones que plus souvent se trouvent dans un espace de travail partagé ou la partie commune, comme un atelier de salle d’attente, cuisine ou usine. Téléphones de partie commune est inutile d’être connecté à un ordinateur pour fournir que Skype pour Business Server unifiée la fonctionnalité de communications (UC). Après la migration d’un déploiement à Skype pour Business Server 2019, vous devez également migrer les objets contact associés avec le téléphone en zone commune hérité. À l’aide de Skype pour Business Server Management Shell, vous tout d’abord récupérer tous les objets contact associés aux anciens téléphones en zone commune et puis déplacer ces objets vers le Skype pour Business Server 2019 pool.
   
-### <a name="migrate-common-area-phones"></a>Migrer des téléphones de partie commune
+### <a name="migrate-common-area-phones"></a>Migration des téléphones de partie commune
 
 1. Skype pour le serveur frontal Business Server 2019, ouvrez Skype pour Business Server Management Shell.
     

@@ -1,5 +1,6 @@
 ---
 title: Expanseur du nœud d’étendue du serveur Office Web Apps
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: f934e076-1022-40cd-8a4a-0b90ccf6f2a6
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Vous cliquez avec le bouton droit sur les serveurs Office Web Apps Server dans le Générateur de topologie pour effectuer les actions suivantes :'
-ms.openlocfilehash: 344d7a6b5a76ae8e83b1053f3f43ee24b97645fb
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 0ba093ca1988586b27fe63f661cc0232d59e2bb3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21069419"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882782"
 ---
 # <a name="office-web-apps-server-scope-node-expander"></a>Expanseur du nœud d’étendue du serveur Office Web Apps
  

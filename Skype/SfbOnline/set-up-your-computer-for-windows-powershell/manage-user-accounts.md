@@ -1,5 +1,6 @@
 ---
-title: Gérer les comptes utilisateur
+title: Gérer les comptes d’utilisateurs
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,16 +18,16 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Utilisez l’applet de commande Get-CsOnlineUser dans Windows PowerShell pour obtenir des informations sur Skype de votre organisation pour les utilisateurs professionnels en ligne.
-ms.openlocfilehash: 90f928fa6cd546dabc0cbb5d3f4f84aa7f00f202
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 8f6ca618925b070e1d42a215cb9afb076a1e8197
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23858480"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881406"
 ---
-# <a name="manage-user-accounts"></a>Gérer les comptes utilisateur
+# <a name="manage-user-accounts"></a>Gérer les comptes d’utilisateurs
 
-## <a name="manage-user-accounts"></a>Gérer les comptes utilisateur
+## <a name="manage-user-accounts"></a>Gérer les comptes d’utilisateurs
 
 Cette rubrique contient les sections suivantes :
 

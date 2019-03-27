@@ -1,5 +1,6 @@
 ---
 title: Désactiver TLS 1.0/1.1 dans Skype pour Business Server 2015
+ms.reviewer: ''
 ms.author: heidip
 author: heidip
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: 'Résumé : Préparer et implémenter la désactivation TLS 1.0 et 1.1 dans votre environnement.'
-ms.openlocfilehash: f99cf01ceb952298e90d296461e0d2b663f92c5d
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: c10be59bb3e14ccb0a3ac315891789e8a0e2ce64
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30493932"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886602"
 ---
 # <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>Désactiver TLS 1.0/1.1 dans Skype pour Business Server 2015
 
@@ -38,7 +39,7 @@ Microsoft a produit un livre blanc sur TLS disponible [ici](https://cloudblogs.m
 
 ### <a name="fully-tested-and-supported-servers"></a>Serveurs entièrement testées et pris en charge
 
-- Skype pour Business Server 2019
+- Skype Entreprise Server 2019
 - Skype pour Business Server 2015 CU6 HF2 6.0.9319.516 ([mise à jour de mars 2018](https://support.microsoft.com/en-us/help/4086059/march-2018-cumulative-update-6-0-9319-516-for-skype-for-business)) ou ultérieure sur : 
     - Windows Server 2012 (avec 3140245 Ko ou mise à jour de remplacement), 2012 R2 ou 2016
 - Skype de mise à niveau sur place pour Business Server 2015, avec CU6 HF2 et versions ultérieures sur 
@@ -77,7 +78,7 @@ Microsoft a produit un livre blanc sur TLS disponible [ici](https://cloudblogs.m
 
 Sauf mention contraire, les produits suivants ne sont pas dans la portée de prise en charge de la désactiver TLS 1.0/1.1 et ne fonctionnent pas dans un environnement où TLS 1.0 et 1.1 ont été désactivés.  Cela signifie que : Si vous utilisez toujours des clients ou serveurs hors de portée, vous devez mettre à jour ou supprimer ces si vous devez désactiver TLS 1.0/1.1 n’importe où dans votre Skype pour Business Server déploiement local.
 
-- Lync Server 2013
+- Lync Server 2013
 - Lync Server 2010
 - Windows Server 2008 et inférieur
 - Lync pour Mac 2011
@@ -87,11 +88,11 @@ Sauf mention contraire, les produits suivants ne sont pas dans la portée de pri
 - Lync Phone Edition - conseils mis à jour [ici](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Certified-Skype-for-Business-Online-Phones-and-what-this-means/ba-p/120035).
 - en fonction de 2013 Survivable Branch Appliance (SBA) ou serveur Survivable Branch Server (SBS)
 - Nuage connecteur Edition (CCE)
-- Skype Entreprise pour Windows Phone
+- Skype pour les entreprises pour Windows Phone
 
 ### <a name="exceptions"></a>Exceptions
 
-#### <a name="lync-server-2013"></a>Lync Server 2013
+#### <a name="lync-server-2013"></a>Lync Server 2013
 
 Lync Server 2013 prend en charge une dépendance Windows Fabric version 1.0.  Dans la phase de conception pour Lync Server 2013 Windows Fabric 1.0 a été sélectionné pour son architecture distribuée attrayants et nouveau pour une réplication, haute disponibilité et tolérance de pannes.  Au fil du temps, les deux Skype pour Business Server et Windows Fabric ont considérablement amélioré cette architecture commune avec redéfinissez significatif dans les versions ultérieures.  Cours Skype pour Business 2015 Server utilise Windows Fabric 3.0, par exemple.
 

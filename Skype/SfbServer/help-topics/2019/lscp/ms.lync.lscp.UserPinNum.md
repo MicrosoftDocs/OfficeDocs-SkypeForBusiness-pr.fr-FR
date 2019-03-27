@@ -1,5 +1,6 @@
 ---
 title: Code confidentiel défini correctement
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: c6e210d1-bcac-4527-adc6-691a5723270c
 ROBOTS: NOINDEX, NOFOLLOW
 description: Pour utiliser la messagerie pour envoyer le code confidentiel à l’utilisateur, cliquez sur Ouvrir mon application de messagerie pour envoyer le nouveau code confidentiel à l’utilisateur. Pour copier le code confidentiel dans un message électronique, sélectionnez Afficher le code confidentiel.
-ms.openlocfilehash: c6669b48bc0fc238fe4752ea6f9feb85bac90406
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5e82b9a24c605f3b436db323690546e3de7fd62b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20975976"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885155"
 ---
 # <a name="pin-set-successfully"></a>Code confidentiel défini correctement
  

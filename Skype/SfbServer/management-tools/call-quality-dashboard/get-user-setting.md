@@ -1,5 +1,6 @@
 ---
-title: Obtenir les paramètres utilisateur
+title: Obtention d’un paramètre utilisateur
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,27 +11,27 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 16611a55-79fb-487a-a936-20caca829f87
 description: 'Résumé : Découvrez l’opération obtenir les paramètres utilisateur, qui fait partie du Service de paramètres utilisateur. Le Service de paramètres utilisateur fait partie de l’API de référentiel pour appeler le tableau de bord qualité. Tableau de bord de qualité des appels est un outil de Skype pour Business Server.'
-ms.openlocfilehash: 286939271bdc99790f125beabb68735dd4c5f758
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 003850ed4e6f1e49fc0e8bafe8dfa7d828cae63f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530712"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888999"
 ---
-# <a name="get-user-setting"></a>Obtenir les paramètres utilisateur
+# <a name="get-user-setting"></a>Obtention d’un paramètre utilisateur
  
 **Résumé :** Obtenir des informations sur l’opération obtenir les paramètres utilisateur, qui fait partie du Service de paramètres utilisateur. Le Service de paramètres utilisateur fait partie de l’API de référentiel pour appeler le tableau de bord qualité. Tableau de bord de qualité des appels est un outil de Skype pour Business Server.
   
 L’opération obtenir le paramètre utilisateur fait partie du Service de paramètres utilisateur de l’API de référentiel pour appeler le tableau de bord qualité.
   
-## <a name="get-user-setting"></a>Obtenir les paramètres utilisateur
+## <a name="get-user-setting"></a>Obtention d’un paramètre utilisateur
 
 Obtenir le paramètre utilisateur renvoie un paramètre d’utilisateur unique.
   
 
 |**Méthode**|**URI de la demande**|**Version HTTP**|
 |:-----|:-----|:-----|
-|Télécharger  <br/> |https://\<portal\>/QoERepositoryService/référentiel/utilisateur / {userId} /setting/ {clé}  <br/> |HTTP/1.1.  <br/> |
+|Avoir  <br/> |https://\<portal\>/QoERepositoryService/référentiel/utilisateur / {userId} /setting/ {clé}  <br/> |HTTP/1.1.  <br/> |
    
  **Paramètres d’URI** - None.
   

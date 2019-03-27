@@ -1,5 +1,6 @@
 ---
 title: Serveur d’interopérabilité vidéo - Étendue du nœud
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8c01299a-e832-45a1-8fd9-af432f36a8d4
 description: Les étapes nécessaires pour définir un nouveau rapport ou passerelle vidéo dans le Générateur de topologie sont décrites en ligne dans créer un pool VIS dans Skype pour Business Server 2015.
-ms.openlocfilehash: 4a1195b513415d15447c0fedb2e795f2de895a2a
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: 40b5db79874af5b2ea1938793b2202311bdaa08d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19504109"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890436"
 ---
 # <a name="video-interop-server---scope-the-node"></a>Serveur d’interopérabilité vidéo - Étendue du nœud
  

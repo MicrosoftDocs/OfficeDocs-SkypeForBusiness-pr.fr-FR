@@ -1,5 +1,6 @@
 ---
 title: Intégration à Exchange et SharePoint
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -17,12 +18,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5d456d6c-ad71-420c-b6d8-4d9cd0324f86
 description: 'Résumé : Découvrez les Skype pour Business Server 2015 l’intégration avec Exchange et SharePoint.'
-ms.openlocfilehash: 98e84fdac1e070c10bdcfb99278e78fb6f56a9a6
-ms.sourcegitcommit: e378b8652be6319755a04eb820761364c7faa916
+ms.openlocfilehash: 91291f960636b8fd0c41519ff65830b98b631e8c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "30210620"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879961"
 ---
 # <a name="integration-with-exchange-and-sharepoint"></a>Intégration à Exchange et SharePoint
 
@@ -71,7 +72,7 @@ Les tableaux suivants répertorient les fonctionnalités prises en charge dans u
 |Délégation de réunion  <br/> |Pris en charge uniquement lorsque les deux utilisateurs sont hébergés en ligne dans la même forêt ou hébergés en local. Pour plus d’informations, voir [Skype pour des solutions professionnelles hybride](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions). <br/> |
 |L’historique des Conversations et journaux d’appels manqués sont écrites dans la boîte aux lettres Exchange de l’utilisateur  <br/> ||
 |Archivage de contenu (messagerie instantanée et réunion) dans Exchange  <br/> |Pour plus d’informations, voir [Liste de vérification du déploiement pour l’archivage](https://technet.microsoft.com/library/7479734d-be01-40d9-ad82-320a09d19d04.aspx).  <br/> |
-|Recherche de contenu archivé  <br/> |Pour plus d’informations, reportez-vous à l’article [Configurer Exchange pour le centre de découverte électronique SharePoint](https://go.microsoft.com/fwlink/p/?LinkId=285448) <br/> |
+|Recherche de contenu archivé  <br/> |Pour plus d’informations, voir [configuration](https://go.microsoft.com/fwlink/p/?LinkId=285448) d’Exchange pour le centre eDiscovery SharePoint <br/> |
 |Messagerie vocale  <br/> |Pour plus d’informations, voir [Fournissant Lync Server 2013 messagerie vocale aux utilisateurs de messagerie unifiée Exchange hébergée](https://technet.microsoft.com/library/306d3fb5-231b-4f0b-b8d8-0d9083b5ed77.aspx).  <br/> |
 
  **Skype pour Business Online et Exchange sur site**
@@ -118,6 +119,6 @@ Le tableau suivant répertorie les fonctionnalités prises en charge dans un dé
 ||**SharePoint local**|**SharePoint Online**|
 |:-----|:-----|:-----|
 |**Skype pour Business Server 2015 locale** <br/> | Recherche de compétences <br/>  Présence dans SharePoint <br/> | Présence dans SharePoint <br/> |
-|**Skype Entreprise Online** <br/> | Présence dans SharePoint <br/> | Présence dans SharePoint <br/> |
+|**Skype Entreprise Online** <br/> | Présence dans SharePoint <br/> | Présence dans SharePoint <br/> |
 
 

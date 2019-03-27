@@ -1,5 +1,6 @@
 ---
 title: Déplacer les utilisateurs restants
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'Vous pouvez déplacer des utilisateurs vers le nouveau Skype pour Business Server 2019 déploiement à l’aide de deux Skype pour le panneau de configuration serveur Business ou Skype pour Business Server Management Shell. Vous devez satisfaire des exigences d’assurer une transition en douceur vers Skype à Business Server 2019. Pour plus d’informations sur les conditions préalables pour les procédures de cette rubrique, consultez Configurer les clients pour la migration. Pour obtenir la procédure détaillée sur le déplacement d’utilisateurs, voir Phase 4 : test de déplacer les utilisateurs vers le pool pilote.'
-ms.openlocfilehash: 7bc5d942ddcf30cad84ceb5badf8817de2b254a0
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 9f984b7fac919decce521c6dafc587a4ac86de50
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25030496"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878322"
 ---
 # <a name="move-remaining-users-to-skype-for-business-server-2019"></a>Déplacer les utilisateurs restants vers Skype pour Business Server 2019
 

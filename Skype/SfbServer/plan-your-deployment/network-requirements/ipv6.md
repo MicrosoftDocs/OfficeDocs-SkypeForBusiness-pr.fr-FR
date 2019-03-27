@@ -1,5 +1,6 @@
 ---
 title: Planifier IPv6 dans Skype Entreprise
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 01f77196-38f4-4292-9480-2e2fbd57eabe
 description: 'Résumé : Implémentez IPv6 avant d’installer Skype pour Business Server.'
-ms.openlocfilehash: b500a0b3f4b99b97b1fc3a89eda7c5736953d854
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: c2ac3470646c78e0a7312fb9390a712321793915
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23888345"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884746"
 ---
 # <a name="plan-for-ipv6-in-skype-for-business"></a>Planifier IPv6 dans Skype Entreprise
  
@@ -132,8 +133,8 @@ Le tableau suivant montre la matrice de prise en charge entre le pool de serveur
 
 ||**Pool Edge : IPv4** <br/> |**Pool Edge : Double pile** <br/> |**Pool Edge : IPv6** <br/> |
 |:-----|:-----|:-----|:-----|
-|**Pool frontal : IPv4** <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
-|**Pool frontal : Double pile** <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
+|**Pool frontal : IPv4** <br/> |Oui   <br/> |Oui  <br/> |Non  <br/> |
+|**Pool frontal : Double pile** <br/> |Oui   <br/> |Oui  <br/> |Non  <br/> |
 |**Pool frontal : IPv6** <br/> |Non  <br/> |Non  <br/> |Oui\*  <br/> |
    
 \*Utilisez cette combinaison uniquement dans un environnement de laboratoire.
@@ -167,7 +168,7 @@ La messagerie unifiée Exchange (UM) ne prend pas en charge IPv6. Pour cette fon
 
 Outre les fonctionnalités et composants mentionnés, Skype pour Business Server prend en charge IPv6 pour les fonctionnalités suivantes :
   
-- **conversation permanente**
+- **Conversation permanente**
     
     Vous configurez IPv6 pour la conversation permanente à l’aide du Générateur de topologie. Pour plus d’informations sur la configuration de conversation permanente, consultez la documentation de déploiement des serveurs de conversation permanente.
     
@@ -203,7 +204,7 @@ Les scénarios suivants sont pris en charge pendant la migration et la coexisten
 ## <a name="see-also"></a>Voir aussi
 <a name="migration"> </a>
 
-[Configuration des types d’adresse IP dans Skype Entreprise](ip-address-types.md)
+[Configure IP address types in Skype for Business](ip-address-types.md)
 
 [IP Version 6 Addressing Architecture](https://tools.ietf.org/html/rfc4291)
   

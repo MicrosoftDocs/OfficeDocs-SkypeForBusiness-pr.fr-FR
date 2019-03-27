@@ -1,5 +1,6 @@
 ---
 title: Feature Overview (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,12 +14,12 @@ localization_priority: Normal
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype pour Business Server, l’outil de planification
-ms.openlocfilehash: f7a9f7fd0dfc7f4c65d85404bd827aee7b98332b
-ms.sourcegitcommit: 6d4b99de7233e91dbab4f08331dac4d88c51d9e4
+ms.openlocfilehash: 8541167196f3940a1621e6bb843c81e82d212e46
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "30059143"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887308"
 ---
 # <a name="feature-overview-planning-tool"></a>Feature Overview (Planning Tool)
  
@@ -119,7 +120,7 @@ Les autres éléments ont été remplis avec les réponses fournies aux question
     
     Mesures de récupération d’urgence vous permettent de paire Front End pools situés dans deux centres de données.
     
-- **Surveillance**
+- **Analyse**
     
     La surveillance capture des enregistrements détaillés liés aux sessions de communication. Elle collecte également des métriques des sessions audio et vidéo aux points de terminaison des participants. Le serveur de surveillance fournit les statistiques d’utilisation, les tendances et les statistiques de qualité des médias.
     

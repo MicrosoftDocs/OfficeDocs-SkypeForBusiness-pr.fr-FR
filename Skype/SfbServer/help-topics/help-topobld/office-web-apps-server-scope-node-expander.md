@@ -1,5 +1,6 @@
 ---
 title: Expanseur du nœud d’étendue du serveur Office Web Apps
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -11,20 +12,21 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f934e076-1022-40cd-8a4a-0b90ccf6f2a6
-description: 'Cliquez droit sur des serveurs Office Web Apps dans le Générateur de topologies pour effectuer les opérations suivantes :'
-ms.openlocfilehash: fccc7fc89c069b45a9482c3cea21b9faf189dc74
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Vous cliquez avec le bouton droit sur les serveurs Office Web Apps Server dans le Générateur de topologie pour effectuer les actions suivantes :'
+ms.openlocfilehash: 58dd287b4749ed0855e8bf122397622b681e73d6
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884215"
 ---
 # <a name="office-web-apps-server-scope-node-expander"></a>Expanseur du nœud d’étendue du serveur Office Web Apps
  
-Cliquez droit sur **Des serveurs Office Web Apps** dans le Générateur de topologies pour effectuer les opérations suivantes :
+Vous cliquez avec le bouton droit sur les **Serveurs Office Web Apps Server** dans le Générateur de topologie pour effectuer les actions suivantes :
   
-- **Nouveau Office Web Apps serveur**: démarre l’Assistant de **Définir un serveur Office Web Apps** permet de définir un serveur Office Web Apps.
+- **Nouveau serveur Office Web Apps Server**: démarre l’Assistant **Définir un serveur Office Web Apps** utilisé pour définir un nouveau serveur Office Web Apps Server.
     
-En plus de l’option nouveau Office Web applications serveur, vous pouvez effectuer les tâches générales suivantes :
+Outre l’option nouveau Office Web Apps Server, vous pouvez effectuer les tâches générales suivantes :
   
 ![Nœud d’étendue d’Office WebApps Server](../../media/OfficeWebApps_Server_Scope_Node.jpg)
   

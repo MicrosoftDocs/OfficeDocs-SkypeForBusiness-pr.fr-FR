@@ -1,5 +1,6 @@
 ---
 title: Menaces fréquentes pour la sécurité dans l’informatique moderne
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 56d22197-e8e2-46b8-b3a3-507bd663700e
 description: Skype pour Business Server étant un système de communications d’entreprise, vous devez être conscient des attaques de sécurité courantes susceptibles d’affecter son infrastructure et les communications.
-ms.openlocfilehash: 354e537a7e927ed6825b5909107c80fe59e04996
-ms.sourcegitcommit: f2b89fea199e7a1d2a3c90c153c94b0a35965e6f
+ms.openlocfilehash: 15c5f71db846ad51fa0df70396cb7ca1252dd4dc
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25599210"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885863"
 ---
 # <a name="common-security-threats-in-modern-day-computing"></a>Menaces fréquentes pour la sécurité dans l’informatique moderne
  
@@ -74,7 +75,7 @@ Une attaque man-in-the-middle se produit lorsqu’une personne malveillante redi
   
 ## <a name="rtp-replay-attack"></a>Attaque par relecture RTP
 
-Une attaque par relecture se produit lorsqu’une transmission multimédia valide entre deux correspondants est interceptée, puis retransmise à des fins malveillantes. L’utilisation de SRTP avec un protocole de signalisation sécurisé protège les transmissions contre les attaques par relecture. En effet, le destinataire est alors en mesure d’établir un index des paquets RTP déjà reçus et de comparer chaque nouveau paquet à ceux répertoriés dans l’index.
+Une attaque par relecture se produit lorsqu’une transmission multimédia valide entre deux correspondants est interceptée, puis retransmise à des fins malveillantes. SRTP utilisé par le protocole de signalisation sécurisé protège les transmissions des attaques par relecture en activant le récepteur conserve un index de paquets RTP déjà reçus et la comparaison de chaque nouveau paquet avec ceux déjà répertoriés dans l’index.
   
 ## <a name="spim"></a>Messages instantanés indésirables (Spim)
 

@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 39d7dc65-22c3-400f-91f1-87ed2fd792b6
 description: Vue d’ensemble de la gestion de systèmes de salle Skype v2.
-ms.openlocfilehash: b30406c9f186fad699056a78ed1b18da9f59537a
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: edd73c6ecf973d0d066b5f46d949a792bc0910c5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699351"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880284"
 ---
 # <a name="management-overview"></a>Vue d’ensemble de la gestion 
 
 Il est essentiel de développer et exécuter la maintenance régulière et opérations pour vous assurer que votre v2 Skype salle systèmes sont disponibles pour vos utilisateurs et fournir un utilisateur un expérience. 
 
-## <a name="monitoring"></a>Surveillance 
+## <a name="monitoring"></a>Surveillance 
 
 Surveillance v2 Skype salle systèmes se compose de deux activités clés :
 
@@ -35,7 +35,7 @@ Surveillance v2 Skype salle systèmes se compose de deux activités clés :
 Pour vous assurer que les utilisateurs sont en mesure d’utiliser les unités de v2 Skype salle systèmes, les unités doivent se trouver sur concernant au réseau avec l’application v2 de systèmes de salle Skype correctement configurée et être connectées à des périphériques fonctionne. 
 
 
-Plus d’informations sur l’état de l’application v2 de Skype salle systèmes et périphériques connectés est écrit par l’application v2 de systèmes de salle Skype pour le journal des événements Windows et expliquée [dans cet article](oms.md#understand-the-log-entries). 
+Plus d’informations sur l’état de l’application v2 de Skype salle systèmes et périphériques connectés sont écrits par l’application v2 de systèmes de salle Skype pour le journal des événements Windows et expliquées dans [comprendre les entrées du journal](azure-monitor.md#understand-the-log-entries). 
 
 |**Paramètre**|**Permet de**|
 |:-----|:-----|
@@ -43,13 +43,13 @@ Plus d’informations sur l’état de l’application v2 de Skype salle systèm
 |Gestion - de l’alimentation\> sur CA, désactiver écran au bout de 10 minutes  <br/> Gestion - de l’alimentation\> sur CA, placez jamais système en mode veille  <br/> |Permet de systèmes de salle Skype v2 activer affiche attaché et réactiver automatiquement  <br/> |
 |net accounts /maxpwage:unlimited  <br/> Ou équivalent signifie la désactivation de l’expiration du mot de passe sur le compte local. Si vous n’effectuez pas cette opération, le compte Skype ne parviendra pas à se connecter en signalant l’expiration d’un mot de passe. Note que ceci aura un impact sur tous les comptes locaux sur l’ordinateur, et par conséquent, cet échec entraînera aussi l’éventuelle expiration du compte administratif.  <br/> |Active le compte Skype avec lequel toujours se connecter  <br/> |
    
-La procédure de transfert de fichiers en utilisant des stratégies de groupe est traitée dans la section [Configurer un élément de fichier](https://technet.microsoft.com/en-us/library/cc772536%28v=ws.11%29.aspx).
+Transfert de fichiers à l’aide de stratégies de groupe est traitée dans [un élément de fichier de configuration](https://technet.microsoft.com/en-us/library/cc772536%28v=ws.11%29.aspx).
   
 ## <a name="remote-management-using-powershell"></a>Gestion distante à l’aide de PowerShell
 <a name="RemotePS"> </a>
 
 
-Nous recommandons d’utiliser Microsoft Operations Manager Suite à surveiller vos systèmes de v2 Skype salle. Pour obtenir des instructions sur la configuration de surveillance et les alertes de base, voir [déployer Skype salle v2 SMS avec OMS](../../deploy/deploy-clients/with-oms.md). 
+Nous recommandons d’utiliser Microsoft Operations Manager Suite à surveiller vos systèmes de v2 Skype salle. Pour obtenir des instructions sur la configuration de surveillance et les alertes de base, voir [déployer Skype salle v2 SMS avec Azure moniteur](../../deploy/deploy-clients/azure-monitor.md). 
 
 À l’aide de ce guide, vous pouvez créer un tableau de bord simple à utiliser pour identifier des problèmes avec des unités v2 de vos systèmes de salle Skype dans votre déploiement. 
 
@@ -86,10 +86,10 @@ Pour plus d’informations sur le mode de résolution des problèmes et d’admi
 
 [Systèmes de salle Skype version 2](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
-[Plan for Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Planification de Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
 
-[Déploiement de Skype Room System v2](../../deploy/deploy-clients/room-systems-v2.md)
+[Déploiement des systèmes Skype Room version 2](../../deploy/deploy-clients/room-systems-v2.md)
 
-[Configuration d’une console Skype Room Systems v2](../../deploy/deploy-clients/console.md)
+[Configuration d’une console pour les systèmes Skype Room version 2](../../deploy/deploy-clients/console.md)
 
 [Gestion à distance des paramètres d'une console Skype Room Systems v2 à l'aide d'un fichier de configuration XML](xml-config-file.md)

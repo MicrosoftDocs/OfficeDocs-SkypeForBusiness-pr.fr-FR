@@ -1,5 +1,6 @@
 ---
 title: Configurer une jonction sans contournement de média dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'Pour configurer une jonction avec l’option de déviation du trafic multimédia activée, procédez comme suit. '
-ms.openlocfilehash: 0fd05c69f72bcf6688d4ce2f8cd52fb610a4c1a6
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 623de0439e6c6297808e54eb2ae050aa95f6533d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223324"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881931"
 ---
 # <a name="configure-a-trunk-without-media-bypass-in-skype-for-business-server"></a>Configurer une jonction sans contournement de média dans Skype pour Business Server
 
@@ -78,8 +79,8 @@ Une configuration de jonction, comme indiqué dans la suite de cette rubrique, r
 15. (Facultatif) Associer et **configurer des règles de traduction de numéros appel** pour la jonction. Ces règles de traduction s’appliquent au numéro appelant pour les appels sortants.
     - Pour choisir une ou plusieurs règles à partir d’une liste de toutes les règles de traduction qui sont disponibles dans votre déploiement d’Enterprise Voice, cliquez sur **Sélectionner**. Dans **Sélectionner les règles de conversion**, cliquez sur les règles à associer à la jonction, puis cliquez sur **OK**.
     - Pour définir une nouvelle règle de conversion et l’associer à la jonction, cliquez sur **Nouvelle**. Pour plus d’informations sur la définition d’une nouvelle règle, voir [définition des règles de traduction dans Skype pour Business Server](defining-translation-rules.md).
-    - Pour modifier une règle de conversion déjà associée à la jonction, sélectionnez le nom de la règle, puis cliquez sur **Afficher les détails**. Pour plus d’informations, voir [définition des règles de traduction dans Skype pour Business Server](defining-translation-rules.md).
-    - Pour copier une règle de conversion existante à utiliser comme point de départ pour définir une nouvelle règle, sélectionnez le nom de la règle et cliquez sur **Copier**, puis sur **Coller**. Pour plus d’informations, voir [définition des règles de traduction dans Skype pour Business Server](defining-translation-rules.md).
+    - Pour modifier une règle de conversion déjà associée à la jonction, sélectionnez le nom de la règle, puis sur **Afficher les détails**. Pour plus d’informations, voir [définition des règles de traduction dans Skype pour Business Server](defining-translation-rules.md).
+    - Pour copier une règle de conversion existante à utiliser comme point de départ pour définir une nouvelle règle, sélectionnez le nom de la règle, sur **Copier**, puis sur **Coller**. Pour plus d’informations, voir [définition des règles de traduction dans Skype pour Business Server](defining-translation-rules.md).
     - Pour supprimer une règle de conversion de la jonction, sélectionnez le nom de la règle et cliquez sur **Supprimer**.
 
     > [!Warning]
@@ -88,8 +89,8 @@ Une configuration de jonction, comme indiqué dans la suite de cette rubrique, r
 16. (Facultatif) Associez et configurez les **règles de conversion de numéro appelé** pour la jonction. Les règles de conversion s’appliquent au numéro appelé dans un appel sortant.
     - Pour choisir une ou plusieurs règles à partir d’une liste de toutes les règles de traduction qui sont disponibles dans votre déploiement d’Enterprise Voice, cliquez sur **Sélectionner**. Dans Sélectionner des règles de traduction, cliquez sur les règles que vous souhaitez associer à la jonction, puis cliquez sur **OK**.
     - Pour définir une nouvelle règle de conversion et l’associer à la jonction, cliquez sur **Nouvelle**. Pour plus d’informations sur la définition d’une nouvelle règle, voir [définition des règles de traduction dans Skype pour Business Server](defining-translation-rules.md).
-    - Pour modifier une règle de conversion déjà associée à la jonction, sélectionnez le nom de la règle, puis cliquez sur **Afficher les détails**. Pour plus d’informations, voir [définition des règles de traduction dans Skype pour Business Server](defining-translation-rules.md).
-    - Pour copier une règle de conversion existante à utiliser comme point de départ pour définir une nouvelle règle, sélectionnez le nom de la règle et cliquez sur **Copier**, puis sur **Coller**. Pour plus d’informations, voir [définition des règles de traduction dans Skype pour Business Server](defining-translation-rules.md).
+    - Pour modifier une règle de conversion déjà associée à la jonction, sélectionnez le nom de la règle, puis sur **Afficher les détails**. Pour plus d’informations, voir [définition des règles de traduction dans Skype pour Business Server](defining-translation-rules.md).
+    - Pour copier une règle de conversion existante à utiliser comme point de départ pour définir une nouvelle règle, sélectionnez le nom de la règle, sur **Copier**, puis sur **Coller**. Pour plus d’informations, voir [définition des règles de traduction dans Skype pour Business Server](defining-translation-rules.md).
     - Pour supprimer une règle de conversion de la jonction, sélectionnez le nom de la règle et cliquez sur **Supprimer**.
 
     > [!Caution] 

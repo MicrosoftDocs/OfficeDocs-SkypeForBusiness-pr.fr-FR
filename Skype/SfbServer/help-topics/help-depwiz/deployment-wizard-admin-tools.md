@@ -1,5 +1,6 @@
 ---
-title: Outils de déploiement Assistant Admin
+title: Outils d’administration Assistant Déploiement
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,15 +12,16 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ec6b9b09-2be0-45e7-b23c-f94b64839e65
-description: Pour plus d’informations sur l’utilisation de l’Assistant déploiement pour installer Skype pour Business Server 2015, voir installation de Skype pour Business Server 2015.
-ms.openlocfilehash: 57382f46fd66a1382a1147ed9198f47b2018efb4
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Pour plus d’informations sur l’utilisation de l’Assistant déploiement pour installer Skype pour Business Server 2015, voir Skype installer for Business Server 2015.
+ms.openlocfilehash: 590d024dcccc45a624a0ebdde95487f6743a0c66
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886380"
 ---
 # <a name="deployment-wizard-admin-tools"></a>Assistant Déploiement : outils d’administration
  
-Pour plus d’informations sur l’utilisation de l’Assistant déploiement pour installer Skype pour Business Server 2015, reportez-vous à la section [Installation de Skype pour Business Server 2015](../../deploy/install/install.md).
+Pour plus d’informations sur l’utilisation de l’Assistant déploiement pour installer Skype pour Business Server 2015, voir [Installation de Skype pour Business Server 2015](../../deploy/install/install.md).
   
 

@@ -1,5 +1,6 @@
 ---
 title: Configuration des compléments des salles de conversation permanente dans Skype Entreprise Server 2015
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1037909-0750-411a-98c1-3a327eed4ae8
 description: 'Résumé : Découvrez comment configurer des compléments pour les salles de conversation Persistent Chat Server Skype pour Business Server 2015.'
-ms.openlocfilehash: 4fe6c5fa15118949bd559ddb280ddf56fe41b360
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: b43340f44b7ce41a1d77768f10a96bff651afc3f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372698"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885953"
 ---
 # <a name="configure-add-ins-for-persistent-chat-rooms-in-skype-for-business-server-2015"></a>Configuration des compléments des salles de conversation permanente dans Skype Entreprise Server 2015
  
@@ -54,7 +55,7 @@ Pour configurer compléments pour les salles de conversation en utilisant le Pan
     
 ## <a name="configure-add-ins-by-using-windows-powershell"></a>Configurer des compléments via Windows PowerShell
 
-Vous pouvez configurer des compléments pour les salles de conversation en utilisant les applets de commande Windows PowerShell suivantes. Pour plus d’informations sur la syntaxe, y compris tous les paramètres disponibles, voir [Skype pour Business Server 2015 Management Shell](../management-shell.md).
+Vous pouvez configurer des compléments pour les salles de conversation en utilisant les applets de commande Windows PowerShell suivantes. Pour plus d’informations sur la syntaxe, notamment tous les paramètres disponibles, consultez [Skype for Business Server 2015 Management Shell](../management-shell.md).
   
 
 |**Applet de commande**|**Description**|

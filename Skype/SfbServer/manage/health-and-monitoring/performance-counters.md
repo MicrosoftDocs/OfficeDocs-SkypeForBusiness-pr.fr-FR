@@ -1,5 +1,6 @@
 ---
 title: Compteurs de performances de mobilité dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d18ed85a-673d-4695-aa3f-ac83a38ab90a
 description: 'Résumé : Découvrez les compteurs de performance que vous pouvez utiliser pour analyser les serveurs exécutant l’API de Web Communications (UCWA) unifiée et le Skype pour Service de mobilité Business Server Mcx.'
-ms.openlocfilehash: dc2f414dce47442d50018c4a800a0c91279068c8
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: 4d55dab133b7006f8a239560efb084fd2c61b917
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "21226994"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887955"
 ---
 # <a name="mobility-performance-counters-in-skype-for-business-server"></a>Compteurs de performances de mobilité dans Skype pour Business Server
  

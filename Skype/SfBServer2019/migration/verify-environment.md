@@ -1,5 +1,6 @@
 ---
 title: Vérification de l’environnement hérité
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Avant de déployer Skype pour Business Server 2019 dans un état de coexistence, vous devez vérifier que les services hérités ont été configurés et démarrés. Il est important d’identifier les principaux services et fonctionnalités qui existent dans votre environnement hérité, avant de déployer un Skype pour le pool pilote Business Server 2019. Avant de déployer Microsoft Skype pour Business Server 2019 XMPP dans un état de la coexistence avec un déploiement XMPP hérité, vous devez vérifier les services XMPP hérités ont été configurés et démarrés et identifier les partenaires fédérés est la configuration XMPP héritée prise en charge.
-ms.openlocfilehash: d6e4585e127009117345d1220458196b5b461b6a
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 0f9812efe966d72eba1eeead9d74780f2ba16661
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25030426"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887346"
 ---
 # <a name="verify-the-legacy-environment"></a>Vérification de l’environnement hérité
 
@@ -37,7 +38,7 @@ Avant de déployer Skype pour Business Server 2019 dans un état de coexistence,
   
 ## <a name="review-the-legacy-topology-in-skype-for-business-server-control-panel"></a>Passez en revue la topologie héritée dans Skype pour Business Server Control Panel
 
-1. Ouvrez une session sur le serveur frontal avec un compte membre du groupe RTCUniversalServerAdmins ou du rôle d’administrateur CsAdministrator ou CsUserAdministrator.
+1. Ouvrez une session sur le serveur frontal avec un compte membre du groupe RTCUniversalServerAdmins ou du rôle d’admistrateur CsAdministrator ou CsUserAdministrator.
     
 2. Ouvrez le Skype pour le panneau de configuration serveur Business.
     

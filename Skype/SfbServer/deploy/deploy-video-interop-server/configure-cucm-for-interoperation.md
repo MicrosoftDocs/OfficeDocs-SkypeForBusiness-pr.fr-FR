@@ -1,5 +1,6 @@
 ---
 title: Configurer CUCM pour l’interopérabilité avec Skype pour Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: eab3d9f6-ec40-49bf-9162-1a7f5a59451f
 description: 'Résumé : Configurez CUCM pour fonctionner avec Skype pour Business Server.'
-ms.openlocfilehash: 6ace5eb2f6cb9763bf78b3930536ae50f8fee815
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 630ab5165c3c7bb3a64663d54ef750fe9275f932
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20986557"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888035"
 ---
 # <a name="configure-cucm-for-interoperation-with-skype-for-business-server"></a>Configurer CUCM pour l’interopérabilité avec Skype pour Business Server
  
@@ -42,7 +43,7 @@ Il est nécessaire de confirmer ou modifier un certain nombre de paramètres CUC
     
 6. Sur l’écran Configuration de profil de sécurité des jonctions SIP, configurez les options Informations de profil de sécurité des jonctions SIP comme illustré, puis cliquez sur **Ajouter nouveau**.
     
-   |**Paramètre**|**Réglage recommandé**|
+   |**Paramètre**|**Paramètre recommandé**|
    |:-----|:-----|
    |Nom  <br/> |SfBVideoInterop_SecurityProfile  <br/> |
    |Mode de sécurité d’appareil  <br/> |Non sécurisé  <br/> |
@@ -54,7 +55,7 @@ Il est nécessaire de confirmer ou modifier un certain nombre de paramètres CUC
     
 8. Sur l’écran Configuration de profil SIP, configurez les options Informations de profil SIP comme illustré. 
     
-   |**Paramètre**|**Réglage recommandé**|
+   |**Paramètre**|**Paramètre recommandé**|
    |:-----|:-----|
    |Nom  <br/> |SfBVideoInterop_SIPProfile  <br/> |
    |Description  <br/> |SfBVideoInterop_SIPProfile  <br/> |
@@ -77,15 +78,15 @@ Il est nécessaire de confirmer ou modifier un certain nombre de paramètres CUC
     
 17. Faites défiler vers le bas. Configurez les options Appels entrants et Paramètres de partie connectée comme illustré.
     
-    |**Paramètre**|**Réglage recommandé**|
+    |**Paramètre**|**Paramètre recommandé**|
     |:-----|:-----|
     |Espace de recherche d’appel  <br/> |CSS_SfBVideoInterop  <br/> |
     |Espace de recherche d’appel AAR  <br/> |CSS_SfBVideoInterop  <br/> |
     |CSS de transformation de partie connectée  <br/> |CSS_SfBVideoInterop  <br/> |
    
-18. Faites défiler la page vers le bas. Sous la section Destination d’informations SIP de la configuration de jonction SIP, spécifiez le nom de domaine complet du Pool VIS ou l’adresse IP des serveurs individuels de VIS dans le pool (ajout de plusieurs entrées). Dans le port de destination, indiquez le port écouté par le serveur d’interopérabilité vidéo (VIS) pour les connexions à partir de CUCM (la valeur par défaut est 6001). Spécifiez également le profil de sécurité des jonctions SIP et le profil SIP que vous avez créés précédemment, comme indiqué.
+18. Faites défiler vers le bas. Sous la section Destination d’informations SIP de la configuration de jonction SIP, spécifiez le nom de domaine complet du Pool VIS ou l’adresse IP des serveurs individuels de VIS dans le pool (ajout de plusieurs entrées). Dans le port de destination, indiquez le port écouté par le serveur d’interopérabilité vidéo (VIS) pour les connexions à partir de CUCM (la valeur par défaut est 6001). Spécifiez également le profil de sécurité des jonctions SIP et le profil SIP que vous avez créés précédemment, comme indiqué.
     
-    |**Paramètre**|**Réglage recommandé**|
+    |**Paramètre**|**Paramètre recommandé**|
     |:-----|:-----|
     |Profil de sécurité des jonctions SIP  <br/> |SfBVideoInterop_SecurityProfile  <br/> |
     |Réacheminement de l’espace de recherche d’appel  <br/> |CSS_SfBVideoInterop  <br/> |
@@ -102,7 +103,7 @@ Il est nécessaire de confirmer ou modifier un certain nombre de paramètres CUC
     
 22. Sur l’écran Configuration de modèle d’itinéraire, entrez les paramètres de définition de modèle indiqués ci-dessous. Faites défiler vers la section Transformations de partie appelée et configurez les masques comme indiqué, puis cliquez sur **Ajouter nouveau** quand vous avez terminé.
     
-    |**Paramètre**|**Réglage recommandé**|
+    |**Paramètre**|**Paramètre recommandé**|
     |:-----|:-----|
     |Modèle d’itinéraire  <br/> |7779999  <br/> |
     |Partition d’itinéraire  <br/> |SfBVideoInterop_RoutePartition  <br/> |
@@ -114,7 +115,7 @@ Il est nécessaire de confirmer ou modifier un certain nombre de paramètres CUC
     
 24. Sur l’écran Configuration de modèle d’itinéraire SIP, configurez les options de définition d’itinéraire comme indiqué, puis cliquez sur **Ajouter nouveau**.
     
-    |**Paramètre**|**Réglage recommandé**|
+    |**Paramètre**|**Paramètre recommandé**|
     |:-----|:-----|
     | Utilisation de modèle <br/> |Acheminement de domaine  <br/> |
     |Modèle IPv4  <br/> |contoso.com (laisser vide avec IPv6)  <br/> |
@@ -122,19 +123,19 @@ Il est nécessaire de confirmer ou modifier un certain nombre de paramètres CUC
     |Description  <br/> |Modèle SIPRoute vers mediarv  <br/> |
     |Partition d’itinéraire  <br/> |SfBVideoInterop_RoutePartition  <br/> |
     |Liste des jonctions/itinéraires SIP  <br/> |SfBVideoInterop_SIPTrunk  <br/> |
-    |Case de modèle de bloc  <br/> |ne pas cocher  <br/> |
+    |Case à cocher du motif de bloc  <br/> |Laissez désactivée  <br/> |
    
-25. Si vous avez modifié les vitesses de transmission audio ou vidéo par rapport aux valeurs par défaut, vous devrez rétablir les valeurs par défaut. Pour définir la vitesse de transmission pour les appels Audio/vidéo, accédez à Cisco Unified CM Administration -\>système -\>zone informations -\>région. Les valeurs par défaut sont affichées ci-dessous à titre de référence :
+25. Si vous avez modifié les vitesses de transmission audio ou vidéo à partir des paramètres par défaut, vous devrez faire revenir à la valeur par défaut. Pour définir la vitesse de transmission pour les appels Audio/vidéo, accédez à Cisco Unified CM Administration -\>système -\>zone informations -\>région. Les valeurs par défaut sont indiqués ci-dessous pour référence :
     
-    |**Paramètre**|**Réglage recommandé**|
+    |**Paramètre**|**Paramètre recommandé**|
     |:-----|:-----|
-    |Région  <br/> |Valeur par défaut  <br/> |
-    |Liste de préférences codec audio  <br/> |Valeur par défaut du système  <br/> |
-    |Vitesse de transmission audio maximale  <br/> |64 Kbit/s (G.722, G.711)  <br/> |
-    |Vitesse de transmission de session maximale pour les appels vidéo  <br/> |200 000 Kbits/s  <br/> |
-    |Vitesse de transmission de session maximale  <br/> |2 000 000 000 Kbits/s  <br/> |
+    |Région  <br/> |Par défaut  <br/> |
+    |Liste des préférences de Codec audio  <br/> |Par défaut du système  <br/> |
+    |Vitesse de transmission Audio maximale  <br/> |64 Kbits/s (G.722, G.711)  <br/> |
+    |Vitesse de transmission maximale d’une Session pour les appels vidéo  <br/> |200000 Kbits/s  <br/> |
+    |Vitesse de transmission maximale d’une Session  <br/> |2000000000 Kbits/s  <br/> |
    
-À ce moment, la passerelle vidéo CUCM est configurée pour fonctionner avec le VIS. Il sera nécessaire d’effectuer une configuration correspondante sur chaque VTC que vous souhaitez intégrer.
+À ce stade, la passerelle vidéo CUCM est configurée pour fonctionner avec la vis Configuration correspondante doit être effectuée sur chaque VTC que vous souhaitez intégrer.
 > [!NOTE]
 > Pour améliorer la résistance, vous souhaiterez peut-être configurer cette passerelle CUCM pour fonctionner avec un pool de serveur d’interopérabilité vidéo ou VIS deuxième. Pour obtenir des renseignements complémentaires, veuillez consulter la rubrique [Resiliency mechanisms](../../plan-your-deployment/video-interop-server.md#resiliency).
   

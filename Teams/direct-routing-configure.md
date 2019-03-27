@@ -1,5 +1,6 @@
 ---
 title: Configurer le routage direct
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 - M365-voice
 appliesto: Microsoft Teams
 description: Découvrez comment configurer le routage Direct de Microsoft Phone System.
-ms.openlocfilehash: 5c2d90ccb88c0e654239ec02a5780778a7db6bbe
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 20bd29bdd2ba83050bd83513f513732ce646cbbe
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569781"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883566"
 ---
 # <a name="configure-direct-routing"></a>Configurer le routage direct
 
@@ -178,7 +179,7 @@ Licences requises :
 Licences facultatifs : 
 
 - Appel de Plan 
-- Audioconférence 
+- Audioconférence, 
 
 ### <a name="ensure-that-the-user-is-homed-in-skype-for-business-online"></a>Assurez-vous que l’utilisateur est hébergé dans Skype pour Business Online 
 
@@ -449,7 +450,7 @@ Le tableau suivant récapitule les itinéraires de communications vocales et de 
 
 
   > [!NOTE]
-  > - L’ordre des utilisations PSTN dans les stratégies de routage voix est essentielle. Les utilisations sont appliquées dans l’ordre, et si une correspondance est trouvée dans la première utilisation, puis autres utilisations ne sont jamais évaluées. L’utilisation PSTN « International » doit être placée après l’utilisation PSTN « Nous uniquement. » Pour modifier l’ordre des utilisations PSTN, exécutez le `Set-CSOnlineRouteRoutingPolicy` commande. <br/>Par exemple, pour modifier l’ordre de « Nous et Canada » deuxième prénom et « International » à l’ordre inverse exécutez :<br/> `Set-CsOnlineVoiceRoutingPolicy -id tag:"no Restrictions" -OnlinePstnUsages @{Replace="International", "US and Canada"}`
+  > - L’ordre des utilisations PSTN dans les stratégies de routage voix est essentielle. Les utilisations sont appliquées dans l’ordre, et si une correspondance est trouvée dans la première utilisation, puis autres utilisations ne sont jamais évaluées. L’utilisation PSTN « International » doit être placée après l’utilisation PSTN « Nous uniquement. » Pour modifier l’ordre des utilisations PSTN, exécutez le `Set-CSOnlineVoiceRoutingPolicy` commande. <br/>Par exemple, pour modifier l’ordre de « Nous et Canada » deuxième prénom et « International » à l’ordre inverse exécutez :<br/> `Set-CsOnlineVoiceRoutingPolicy -id tag:"no Restrictions" -OnlinePstnUsages @{Replace="International", "US and Canada"}`
  > - La priorité de « Autres + 1 » et « International » des itinéraires sont affectés automatiquement. Ils n’a pas d’importance tant qu’ils ont des priorités inférieures à « Redmond 1 » et « Redmond 2 ».
 
 #### <a name="example-of-voice-routing-policy-for-user-john-woods"></a>Exemple de la stratégie de routage voix pour l’utilisateur John Woods

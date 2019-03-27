@@ -1,5 +1,6 @@
 ---
 title: Ports et protocoles requis pour les serveurs
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -14,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
 description: 'Résumé : Passez en revue les considérations de l’utilisation du port avant d’implémenter Skype pour Business Server.'
-ms.openlocfilehash: a014df31ad27e5ed89b97fd7ca09979d4cfb5661
-ms.sourcegitcommit: 4967c9b1010a444475dcfbdb6dd3c058494449d9
+ms.openlocfilehash: 612a6f98ff2517163e3e720d4272c05463250cd2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "30069511"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882284"
 ---
 # <a name="port-and-protocol-requirements-for-servers"></a>Ports et protocoles requis pour les serveurs
  

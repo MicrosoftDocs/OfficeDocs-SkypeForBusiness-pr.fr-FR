@@ -1,5 +1,6 @@
 ---
 title: Configuration des plages de ports et une stratégie de qualité de Service pour vos serveurs de conférence, d’Application et de médiation
+ms.reviewer: ''
 ms:assetid: 4d6eaa5d-0127-453f-be6a-e55384772d83
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204872(v=OCS.15)
 ms:contentKeyID: 48184074
@@ -12,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Cet article explique comment configurer une stratégie de qualité de Service pour vos serveurs de conférence, d’Application et de médiation et les plages de ports.
-ms.openlocfilehash: 736a0d343c67585266833195780c7f76cbee51dd
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: f1452c9166eb557d186b8569a37d5abb885d4354
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223436"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884349"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-conferencing-application-and-mediation-servers"></a>Configuration des plages de ports et une stratégie de qualité de Service pour vos serveurs de conférence, d’Application et de médiation
 
@@ -162,11 +163,11 @@ Si vous décidez de créer une stratégie pour gérer le trafic de partage d’a
 
   - Utiliser la plage de ports précédemment configuré pour le trafic vidéo. Par exemple, si vous avez réservé ports 40803 via et 49 151 partage d’application, définissez la plage de ports à ceci : **40803:49151**.
 
-Les nouvelles stratégies que vous avez créé ne prendra pas effet jusqu'à ce que la stratégie de groupe a été actualisée sur votre Skype pour les ordinateurs serveurs d’entreprise. La stratégie de groupe s’actualise elle-même régulièrement, mais vous pouvez forcer une actualisation immédiate en exécutant la commande suivante sur chaque ordinateur sur lequel elle doit être actualisée :
+Les nouvelles stratégies que vous avez créé ne prendra pas effet jusqu'à ce que la stratégie de groupe a été actualisée sur votre Skype pour les ordinateurs serveurs d’entreprise. Bien que la stratégie de groupe est actualisée régulièrement sur son propre, vous pouvez forcer une actualisation immédiate en exécutant la commande suivante sur chaque ordinateur où la stratégie de groupe doivent être actualisées :
 
     Gpupdate.exe /force
 
-Cette commande peut être exécutée à partir de dans la Skype pour Business Server Management Shell ou à partir de n’importe quelle fenêtre de commande s’exécutant sous les informations d’identification d’administrateur. Pour exécuter une fenêtre de commande, cliquez sur **Démarrer**, cliquez avec le bouton droit sur **Invite de commandes**, puis cliquez sur **Exécuter en tant qu’administrateur**.
+Cette commande peut être exécutée à partir de dans la Skype pour Business Server Management Shell ou à partir de n’importe quelle fenêtre de commande s’exécutant sous les informations d’identification d’administrateur. Pour exécuter une fenêtre de commande sous informations d’identification d’administrateur, cliquez sur **Démarrer**, cliquez sur **invite de commandes**, puis cliquez sur **Exécuter en tant qu’administrateur**.
 
 Pour vérifier que les nouvelles stratégies QoS ont été appliquées, procédez comme suit :
 

@@ -1,5 +1,6 @@
 ---
 title: Préparation de votre appliance Cloud Connector
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6eacfa99-9759-4c13-aca3-8992c2ff2710
 description: Découvrez comment préparer votre solution de nuage connecteur pour le déploiement et l’utiliser avec le système téléphonique dans Office 365 (en nuage PBX).
-ms.openlocfilehash: 336136021041131189261c8c3b57c46ca8b53809
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 3716c7c4b9d4b8daa0a4995ed7e3d77b400b587f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371201"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887315"
 ---
 # <a name="prepare-your-cloud-connector-appliance"></a>Préparation de votre appliance Cloud Connector
 
@@ -106,19 +107,19 @@ Cette rubrique décrit comment obtenir les fichiers d’installation de la versi
 
 ## <a name="set-the-path-for-the-external-edge-certificate"></a>Définition du chemin d’accès au certificat Edge externe
 
-- Pour définir le chemin d’accès au certificat Microsoft Edge externe, notamment le nom du fichier, exécutez l’applet de commande suivante. Par exemple : C:\certs\cce\ap.contoso.com.pfx. Le certificat doit contenir des clés privées.
+- Pour définir le chemin d’accès au certificat Edge externe, notamment le nom du fichier, exécutez l’applet de commande suivante. Par exemple : C:\certs\cce\ap.contoso.com.pfx. Le certificat doit contenir des clés privées.
 
   ```
   Set-CcExternalCertificateFilePath -Path <Full path to External certificate, including file name> -Target EdgeServer
   ```
 
     > [!NOTE]
-    > Notez que le paramètre Cible est spécifique aux versions 1.4.2 et suivantes. 
+    > Notez que-cible paramètre est spécifique aux versions 1.4.2 et version ultérieure. 
 
     Spécifiez le chemin d’accès vers le certificat externe, notamment le nom de fichier. Le certificat peut être enregistré localement ou sur un partage de fichier. S’il est enregistré dans un dossier partagé, le dossier partagé doit être créé sur la première appliance de chaque site et être accessible par d’autres appliances appartenant au même site. Cette applet de commande copie le certificat externe vers l’**annuaire d’appliances**.
 
     > [!IMPORTANT]
-    > **Si vous avez mis à jour la version 1.4.2 ou suivante de Cloud Connector**, assurez-vous que votre certificat externe préparé contient des clés privées et la chaîne complète de certificats comprenant le certificat de l'AC racine et les certificats de l'AC intermédiaire.   **Si vous n’avez pas encore mis à jour la version 1.4.2 de Cloud Connector**, vérifiez que votre certificat externe préparé contient des clés privées. Ce certificat externe doit être émis par une autorité de certification approuvée par défaut par Windows.
+    > **Si vous avez mis à jour vers le nuage connecteur version 1.4.2 ou une version ultérieure**, assurez-vous que votre certificat externe préparé contient les clés privées et la chaîne de certificats complète, y compris le certificat d’autorité de certification racine et les certificats d’autorité de certification intermédiaires. **Si vous n’avez pas encore mis à jour la version 1.4.2 de Cloud Connector**, vérifiez que votre certificat externe préparé contient des clés privées. Ce certificat externe doit être émis par une autorité de certification approuvée par défaut par Windows.
 
 ## <a name="set-the-path-for-the-external-pstn-gatewaysbc-certificate"></a>Définition du chemin d’accès pour le certificat externe de la passerelle RTC/SBC
 
@@ -129,7 +130,7 @@ Set-CcExternalCertificateFilePath -Path <Full path to gateway certificate, inclu
 ```
 
 > [!NOTE]
-> Notez que le paramètre Cible est spécifique aux versions 1.4.2 et suivantes. 
+> Notez que-cible paramètre est spécifique aux versions 1.4.2 et version ultérieure. 
 
 ## <a name="create-virtual-switches-in-hyper-v-manager"></a>Création de commutateurs virtuels dans le Gestionnaire Hyper-V
 
@@ -157,7 +158,7 @@ Pour mettre à jour le fichier, exécutez d’abord l’applet de commande suiva
 Export-CcConfigurationSampleFile
 ```
 
-L’exemple de modèle est stocké dans le **répertoire d'équipements**. 
+L’exemple de modèle est stocké dans le **répertoire d'équipements**.
 
 Une fois mis à jour avec les valeurs relatives à votre environnement, enregistrez le fichier sous CloudConnector.ini dans le **répertoire d'équipements**. Vous pouvez exécuter **Get-CcApplianceDirectory** pour définir le chemin d’accès sur le **répertoire d'équipements**.
 
@@ -174,8 +175,7 @@ Lors de la mise à jour du fichier .ini, tenez compte des points suivants :
 
 - **HardwareType :** Si vous ne définissez ou conservez la valeur null, la valeur par défaut du **style Normal** sera utilisée. Utilisez **Normal** si vous prévoyez de déployer la version la plus grande du nuage connecteur pour prendre en charge 500 appels simultanés par ordinateur hôte comme décrit dans [Plan for Skype pour l’édition de connecteur Business Cloud](plan-skype-for-business-cloud-connector-edition.md). Utilisez **Minimum** pour un déploiement moins développé qui prend en charge 50 appels simultanés.
 
-- **Commutateurs virtuels Internet/réseau d’entreprise/de gestion** : ajoutez le nom des commutateurs virtuels que vous avez créés. Dans le cas du commutateur virtuel de gestion, laissez la valeur par défaut. Le script de déploiement créera le commutateur virtuel de gestion au début du déploiement et le supprimera à l’issue de celui-ci.
-
+- **Commutateurs virtuels Internet/réseau d’entreprise/gestion :**: ajouter le nom des commutateurs virtuels que vous avez créé. Pour le commutateur virtuel gestion, laissez la valeur par défaut. Le script de déploiement crée le commutateur virtuel gestion au début du déploiement et supprimer une fois le déploiement.
 
 - **ManagementIPPrefix :** le paramètre ManagementIPPrefix dans la section Réseau doit être un sous-réseau différent des autres IP internes. Par exemple, comme la valeur par défaut l’indique, ManagementIPPrefix est 192.168.213.0, tandis que AD IPAddress est 192.168.0.238.
 
@@ -243,15 +243,15 @@ Cette étape permet de préparer un fichier de disque dur virtuel (VHDX) à part
 
 Avant de réaliser cette étape, assurez-vous que le commutateur réseau d’entreprise est créé. D’autre part, veillez à ce que les paramètres suivants soient correctement configurés dans le fichier CloudConnector.ini :
 
-- [Network] CorpnetSwitchName
+- [Network]CorpnetSwitchName
 
-- [Courants] BaseVMIP
+- [Common]BaseVMIP
 
-- [Network] CorpnetIPPrefixLength
+- [Network]CorpnetIPPrefixLength
 
-- [Network] CorpnetDefaultGateway
+- [Network]CorpnetDefaultGateway
 
-- [Network] CorpnetDNSIPAddress
+- [Network]CorpnetDNSIPAddress
 
 Démarrez une console PowerShell en tant qu’administrateur et exécutez l’applet de commande suivante pour convertir l’image ISO en disque dur virtuel (VHD) :
 
@@ -291,7 +291,7 @@ Set-ExecutionPolicy RemoteSigned
 ## <a name="change-local-group-policy-on-the-host-machine-versions-141-and-earlier"></a>Changement de la stratégie locale de groupe sur la machine hôte (versions 1.4.1 et précédentes)
 
 > [!NOTE]
-> Cette tâche n'est pas requise pour les versions 1.4.2 et suivantes de Cloud Connector. 
+> Cette tâche n’est pas requis pour les versions de nuage connecteur 1.4.2 et version ultérieure. 
 
 Le compte CceService est créé lors du déplacement de Skype Entreprise, version Cloud Connector. Il s’exécute le Service de gestion en nuage connecteur et nécessite une autorisation pour désinstaller le cloudconnector.msi. Vous devez modifier le paramètre de stratégie de groupe locale sur l’ordinateur hôte de Cloud Connector pour spécifier que le registre de l’utilisateur ne doit pas être déchargé lors de sa déconnexion. Suivez la procédure suivante :
 

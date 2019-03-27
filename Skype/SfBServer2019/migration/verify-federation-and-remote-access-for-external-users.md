@@ -1,5 +1,6 @@
 ---
 title: Vérifier la fédération et l’accès à distance pour les utilisateurs externes
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Après la transition de l’itinéraire de fédération pour le Skype pour le serveur de périphérie 2019 Business Server, vous devez effectuer des tests fonctionnels pour vérifier que la fédération fonctionne comme prévu. Tests pour l’accès des utilisateurs externes doivent inclure chaque type d’utilisateur externe prenant en charge votre organisation, dont un ou plusieurs des options suivantes.
-ms.openlocfilehash: ce0e2dd6ee7d4fb605f844d7dfb26b3f9d13bf14
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 3a520b39d76ab93f4ec7fcaacd139b3f83a3326a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25027234"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876696"
 ---
 # <a name="verify-federation-and-remote-access-for-external-users"></a>Vérifier la fédération et l’accès à distance pour les utilisateurs externes
 

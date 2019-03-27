@@ -1,5 +1,6 @@
 ---
 title: Concepts de base de topologie pour Skype pour Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 113e8c3f-71de-435c-bc4a-918ac7b50008
 description: 'Résumé : Choisissez votre topologie pour Skype pour Business Server. Découvrez la colocalisation de serveurs pour Skype pour Business Server.'
-ms.openlocfilehash: 5d2589d6ba7878ea69c8860ad99f182912e471dd
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 566d044defd69dd9ae79bc964c9a587332649b42
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886164"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881617"
 ---
 # <a name="topology-basics-for-skype-for-business-server"></a>Concepts de base de topologie pour Skype pour Business Server
 
@@ -133,7 +134,7 @@ Le serveur frontal inclut les éléments suivants :
 
 - Composants web pour des tâches web prises en charge tels que le planificateur web et le lanceur de participation.
 
-- Archivage éventuel permettant d’archiver les communications de messagerie instantanée et le contenu des réunions pour des raisons de conformité. Pour plus d’informations, voir [Planning for Archiving](https://technet.microsoft.com/library/898b83c1-007b-43be-9484-08fe49c10951.aspx) dans la documentation de planification.
+- Archivage éventuel permettant d’archiver les communications de messagerie instantanée et le contenu des réunions pour des raisons de conformité. Pour plus d’informations, reportez-vous à la rubrique [Planning for Archiving](https://technet.microsoft.com/library/898b83c1-007b-43be-9484-08fe49c10951.aspx) dans la documentation de planification.
 
     Dans Lync Server 2010 et les versions antérieures, surveillance et archivage étaient des rôles serveur distincts, non colocalisés sur le serveur frontal.
 
@@ -164,7 +165,7 @@ Les serveurs Edge incluent également un proxy XMPP (Extensible Messaging and Pr
 > [!NOTE]
 > XMPP passerelles et les proxys sont disponibles dans Skype pour Business Server 2015, mais n’est plus pris en charge dans Skype pour Business Server 2019. Pour plus d’informations, voir [la fédération XMPP de migration](../../../SfBServer2019/migration/migrating-xmpp-federation.md) .
 
-### <a name="mediation-server"></a>Serveur de médiation
+### <a name="mediation-server"></a>serveur de médiation
 
 Serveur de médiation est un composant indispensable pour l’implémentation d’Enterprise Voice, appel via le bureau et conférence rendez-vous. Serveur de médiation traduit la signalisation et, dans certaines configurations, les médias entre votre Skype pour l’infrastructure de serveur d’entreprise interne et un commuté passerelle de réseau (RTC) téléphonique, IP-PBX ou une jonction de protocole SIP (Session Initiation). Vous pouvez exécuter le serveur de médiation colocalisés sur le même serveur que le serveur frontal, ou séparées dans un pool de serveur de médiation autonome.
 

@@ -1,5 +1,6 @@
 ---
 title: Planifier le routage des communications vocales sortantes dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fde45195-6eb4-403c-9094-57df7fc0bd2a
 description: En savoir plus sur le routage des communications vocales sortantes dans Skype pour Business Server Enterprise Voice, notamment les paramètres de routage d’appel, les plans de numérotation, les règles de normalisation, les stratégies de voix, enregistrements d’utilisation PSTN et itinéraires de communications vocales.
-ms.openlocfilehash: 8b7ef6c4e07bd7618645606c777b257e1d32691f
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 61e2721f2dac3ea6f49708213b1da9752300cbed
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531637"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882354"
 ---
 # <a name="plan-for-outbound-voice-routing-in-skype-for-business-server"></a>Planifier le routage des communications vocales sortantes dans Skype pour Business Server
  

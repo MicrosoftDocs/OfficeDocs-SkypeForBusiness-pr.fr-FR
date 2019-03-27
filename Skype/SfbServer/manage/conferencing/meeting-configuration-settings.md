@@ -1,5 +1,6 @@
 ---
 title: Gérer les paramètres de configuration dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2e6c4f48-464e-4b8e-b7f4-68cdc1ae4ad9
 description: 'Résumé : Découvrez comment gérer les paramètres de configuration dans Skype pour Business Server.'
-ms.openlocfilehash: 28f0dc37579f762b8ae3b0ac8ac58440c6ce5e24
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 90d1004101f1dd3b4737c7bfa4414438a65c54a6
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20966065"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883220"
 ---
 # <a name="manage-meeting-configuration-settings-in-skype-for-business-server"></a>Gérer les paramètres de configuration dans Skype pour Business Server
  
@@ -42,7 +43,7 @@ Vous pouvez spécifier les paramètres au niveau global (créée par défaut) de
 
 Pour gérer les paramètres de réunion à l’aide de Skype pour le panneau de configuration serveur Business :
   
-1. À partir d’un compte d’utilisateur auquel est affecté un des rôles CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
+1. À partir d’un compte d’utilisateur auquel est affecté le rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
     
 2.  Ouvrez le panneau de configuration serveur Business Skype.
     
@@ -52,7 +53,7 @@ Pour gérer les paramètres de réunion à l’aide de Skype pour le panneau de 
 
 Pour gérer des réunions à l’aide de Skype pour Business Server Management Shell, utilisez les applets de commande suivantes :
   
-**Paramètres de configuration de réunion**
+**Paramètres de configuration des réunions**
 
 |**Applet de commande**|**Description**|
 |:-----|:-----|

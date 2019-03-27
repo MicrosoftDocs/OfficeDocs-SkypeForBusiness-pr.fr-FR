@@ -1,5 +1,6 @@
 ---
-title: File d’attente de groupes de réponses
+title: File d’attente de groupes Response Groups
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 29bde940-6107-494f-9bee-b6ebfa135e41
 description: Groupes de réponses se composent des groupes d’agents, files d’attente et flux de travail. Files d’attente les appels vers un groupe de réponse jusqu'à ce qu’un agent répond à l’appel.
-ms.openlocfilehash: b436109f321597a267574cbdfa4428eb98789ced
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: fe5c13153dd03a80f0ac3603d456ec12ed448c9f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23241910"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887273"
 ---
-# <a name="response-groups-queue"></a>File d’attente de groupes de réponses
+# <a name="response-groups-queue"></a>File d’attente de groupes Response Groups
 
 Groupes de réponses se composent des groupes d’agents, files d’attente et flux de travail. Files d’attente les appels vers un groupe de réponse jusqu'à ce qu’un agent répond à l’appel.
 

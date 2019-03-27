@@ -1,5 +1,6 @@
 ---
 title: Configurer l’authentification à deux facteurs Skype pour Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,24 +11,24 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c24e0891-e108-4cb6-9902-c6a4c8e68455
 description: 'Résumé : Configurez l’authentification à deux facteurs dans Skype pour Business Server.'
-ms.openlocfilehash: cc73997fffcae3ef7d63e32898173fe68ecb9447
-ms.sourcegitcommit: 6251a2c659909c3972ca2ea0a2bcdab4f334df34
+ms.openlocfilehash: d9df5072e1d67e46c40e1fd82ec1d88354321577
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "25694568"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887245"
 ---
 # <a name="configure-two-factor-authentication-in-skype-for-business-server"></a>Configurer l’authentification à deux facteurs Skype pour Business Server
 
 **Résumé :** Configurer l’authentification à deux facteurs dans Skype pour Business Server.
 
-Les sections ci-dessous décrivent la procédure de configuration de l’authentification à deux facteurs pour votre déploiement. Pour plus d’informations sur l’authentification à deux facteurs, reportez-vous à l’article [Activation de l’authentification multifacteur d’Office 365 pour les administrateurs en ligne - Billet d’un utilisateur de The Grid](https://go.microsoft.com/fwlink/p/?LinkId=313332).
+Les sections ci-dessous décrivent la procédure de configuration de l’authentification à deux facteurs pour votre déploiement. Pour plus d’informations sur l’authentification à deux facteurs, voir [l’authentification multifacteur activation Office 365 pour les administrateurs en ligne - grille utilisateur Post](https://go.microsoft.com/fwlink/p/?LinkId=313332).
 
 ## <a name="configure-an-enterprise-root-certificate-authority-to-support-smart-card-authentication"></a>Configuration d’une autorité de certification racine d’entreprise pour prendre en charge l’authentification par carte à puce
 
 La procédure ci-dessous décrit la configuration d’une autorité de certification racine d’entreprise pour prendre en charge l’authentification par carte à puce :
 
-Pour plus d’informations sur l’installation d’une autorité de certification racine d’entreprise, reportez-vous à l’article [Installation d’une autorité de certification racine d’entreprise](https://go.microsoft.com/fwlink/p/?LinkID=313364).
+Pour plus d’informations sur l’installation d’une autorité de certification racine d’entreprise, voir [installer une autorité de Certification racine entreprise](https://go.microsoft.com/fwlink/p/?LinkID=313364).
 
 1. Connectez-vous à l’ordinateur de l’autorité de certification d’entreprise à l’aide d’un compte d’administrateur de domaine.
 
@@ -63,7 +64,7 @@ Pour plus d’informations sur l’installation d’une autorité de certificati
 
 Le coût de mise en œuvre est l’un des facteurs à prendre en compte dans le cadre du déploiement de l’authentification à deux facteurs et de la technologie de carte à puce. Windows 8 fournit un certain nombre de nouvelles fonctionnalités de sécurité et une des nouvelles fonctionnalités plus intéressantes est prise en charge des cartes à puce virtuelles.
 
-Pour les ordinateurs équipés d’une puce de module de plateforme sécurisée conforme à la spécification version 1.2, les organisations peuvent désormais tirer parti des avantages d’une ouverture de session par carte à puce sans investissement matériel supplémentaire. Pour plus d’informations, reportez-vous à l’article [Utilisation de cartes à puce virtuelles avec Windows 8](https://go.microsoft.com/fwlink/p/?LinkId=313365).
+Pour les ordinateurs équipés d’une puce de module de plateforme sécurisée conforme à la spécification version 1.2, les organisations peuvent désormais tirer parti des avantages d’une ouverture de session par carte à puce sans investissement matériel supplémentaire. Pour plus d’informations, voir [l’aide de cartes à puce virtuel avec Windows 8](https://go.microsoft.com/fwlink/p/?LinkId=313365).
 
 ### <a name="to-configure-windows-8-for-virtual-smart-cards"></a>Configuration de Windows 8 pour les cartes à puce virtuelles
 
@@ -113,7 +114,7 @@ Pour les ordinateurs équipés d’une puce de module de plateforme sécurisée 
 
 Deux méthodes permettent d’inscrire les utilisateurs pour l’authentification par carte à puce. La méthode la plus simple consiste à faire s’inscrire directement les utilisateurs pour l’authentification par carte à puce par l’inscription par le biais du web. La méthode la plus complexe implique d’utiliser un agent d’inscription. Cette rubrique décrit l’inscription automatique pour les certificats de carte à puce.
 
-Pour plus d’informations sur l’inscription pour le compte des utilisateurs par le biais d’un agent d’inscription, reportez-vous à l’article [Inscription pour obtenir des certificats pour le compte d’autres utilisateurs](https://go.microsoft.com/fwlink/p/?LinkID=313367).
+Pour plus d’informations sur l’inscription des utilisateurs pour le compte comme un agent d’inscription, voir [inscription aux certificats pour les autres utilisateurs](https://go.microsoft.com/fwlink/p/?LinkID=313367).
 
 ### <a name="to-enroll-users-for-smart-card-authentication"></a>Inscription des utilisateurs pour l’authentification par carte à puce
 
@@ -176,10 +177,10 @@ Pour plus d’informations sur l’inscription pour le compte des utilisateurs p
 
 ## <a name="configure-active-directory-federation-services-ad-fs-20"></a>Configuration d’Active Directory Federation Services (AD FS 2.0)
 
-Cette section décrit la configuration d’Active Directory Federation Services (AD FS 2.0) pour prendre en charge l’authentification multifacteur. Pour plus d’informations sur l’installation d’AD FS 2.0, reportez-vous à l’article [Guides pas-à-pas et de procédures pour AD FS 2.0](https://go.microsoft.com/fwlink/p/?LinkId=313374).
+Cette section décrit la configuration d’Active Directory Federation Services (AD FS 2.0) pour prendre en charge l’authentification multifacteur. Pour plus d’informations sur l’installation des services AD FS 2.0, voir [AD FS 2.0 Step et comment Guides](https://go.microsoft.com/fwlink/p/?LinkId=313374).
 
 > [!NOTE]
-> Lorsque vous installez AD FS 2.0, vous ne devez pas utiliser le Gestionnaire de serveur Windows pour ajouter le rôle Active Directory Federation Services. À la place, vous devez télécharger et installer le [package Active Directory Federation Services 2.0 RTW](https://go.microsoft.com/fwlink/p/?LinkId=313375).
+> Lorsque vous installez AD FS 2.0, vous ne devez pas utiliser le Gestionnaire de serveur Windows pour ajouter le rôle Active Directory Federation Services. Au lieu de cela, téléchargez et installez le [package Active Directory Federation Services 2.0 RTW](https://go.microsoft.com/fwlink/p/?LinkId=313375).
 
 ### <a name="to-configure-ad-fs-for-two-factor-authentication"></a>Pour configurer AD FS pour l’authentification à deux facteurs
 
@@ -240,7 +241,7 @@ Deux types d’authentifications peuvent être configurés pour permettre à AD 
 
 - Authentification de client TLS (Transport Layer Security)
 
-L’authentification basée sur les formulaires permet de développer une page web permettant aux utilisateurs de s’authentifier à l’aide de leur nom d’utilisateur et de leur mot de passe ou de leur carte à puce et de leur code confidentiel. Cette rubrique décrit la mise en œuvre de l’authentification de client TLS (Transport Layer Security) avec AD FS 2.0. Pour plus d’informations sur les types d’authentifications AD FS 2.0, reportez-vous à l’article [AD FS 2.0 : modification du type d’authentification local](https://go.microsoft.com/fwlink/p/?LinkId=313384).
+L’authentification basée sur les formulaires permet de développer une page web permettant aux utilisateurs de s’authentifier à l’aide de leur nom d’utilisateur et de leur mot de passe ou de leur carte à puce et de leur code confidentiel. Cette rubrique décrit la mise en œuvre de l’authentification de client TLS (Transport Layer Security) avec AD FS 2.0. Pour plus d’informations sur les types d’authentification 2.0 AD FS, voir [AD FS 2.0 : comment modifier le Type d’authentification Local](https://go.microsoft.com/fwlink/p/?LinkId=313384).
 
 ### <a name="to-configure-ad-fs-20-to-support-client-authentication"></a>Pour configurer AD FS 2.0 pour prendre en charge l’authentification du client
 

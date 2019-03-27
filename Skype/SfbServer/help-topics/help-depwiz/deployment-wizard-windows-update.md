@@ -1,5 +1,6 @@
 ---
-title: Mise à jour de déploiement Assistant Windows
+title: Déploiement Assistant Windows Update
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,15 +12,16 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c6a280cb-1428-40b6-b761-cb649b9ff7df
-description: Pour plus d’informations sur l’utilisation de l’Assistant déploiement pour installer Skype pour Business Server 2015, voir installation de Skype pour Business Server 2015.
-ms.openlocfilehash: 3b42faf8cf025748843adc60b0997f1e93c99fb9
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Pour plus d’informations sur l’utilisation de l’Assistant déploiement pour installer Skype pour Business Server 2015, voir Skype installer for Business Server 2015.
+ms.openlocfilehash: a5956afa1038ffff90e2adecf236f6d1fc5704be
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884956"
 ---
 # <a name="deployment-wizard-windows-update"></a>Assistant Déploiement : Windows Update
  
-Pour plus d’informations sur l’utilisation de l’Assistant déploiement pour installer Skype pour Business Server 2015, reportez-vous à la section [Installation de Skype pour Business Server 2015](../../deploy/install/install.md).
+Pour plus d’informations sur l’utilisation de l’Assistant déploiement pour installer Skype pour Business Server 2015, voir [Installation de Skype pour Business Server 2015](../../deploy/install/install.md).
   
 

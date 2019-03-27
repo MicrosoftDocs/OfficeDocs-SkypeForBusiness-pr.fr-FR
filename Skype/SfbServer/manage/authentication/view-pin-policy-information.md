@@ -1,5 +1,6 @@
 ---
 title: Afficher les informations de stratégie de code confidentiel dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1d48b060-d77f-44ee-b70f-3ce128aedac4
 description: 'Résumé : Afficher les informations de stratégie code confidentiel d’un utilisateur pour Skype pour Business Server.'
-ms.openlocfilehash: 8401f429184122539f66186c470034f2829536b3
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5fdd042f01c325bfffedbfa32fa14d9e667ef7be
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21017154"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888922"
 ---
 # <a name="view-pin-policy-information-in-skype-for-business-server"></a>Afficher les informations de stratégie de code confidentiel dans Skype pour Business Server
  
@@ -23,7 +24,7 @@ ms.locfileid: "21017154"
   
 Vous pouvez utiliser l’onglet **Stratégie de code confidentiel** pour le mode confidentiel (PIN) l’authentification par des utilisateurs qui se connectent à Skype pour les entreprises avec les téléphones IP. Pour utiliser l’authentification par code confidentiel, assurez-vous que l’option **Activer l’authentification par code confidentiel** est sélectionnée dans les paramètres du service web.
   
-Suivez cette procédure étapes pour modifier une stratégie de code confidentiel au niveau du site ou de l’utilisateur. 
+Suivez cette procédure pour modifier une stratégie de code confidentiel au niveau du site ou de l’utilisateur. 
   
 ### <a name="to-view-information-about-a-pin-policy-in-skype-for-business-server-control-panel"></a>Pour afficher des informations sur une stratégie de code confidentiel de Business Server Control Panel dans Skype
 

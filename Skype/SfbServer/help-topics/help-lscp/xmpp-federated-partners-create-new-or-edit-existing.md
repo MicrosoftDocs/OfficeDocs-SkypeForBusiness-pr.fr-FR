@@ -1,5 +1,6 @@
 ---
 title: Partenaires fédérés XMPP créer une nouvelle ou en modifier une existant
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7a14552e-96b0-4a3d-bb9b-4813c97dd8e1
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: 965eb16dc17ac5724892d518f17ac20e3991fd1a
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 63627c1ee3612e9f531bf7c96e07694c7f971eb0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23245564"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885061"
 ---
-# <a name="xmpp-federated-partners-create-new-or-edit-existing"></a>Partenaires fédérés XMPP : Créer une nouvelle ou en modifier une existant
+# <a name="xmpp-federated-partners-create-new-or-edit-existing"></a>Partenaires fédérés XMPP : en créer un autre ou en modifier un existant
 
 Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
 

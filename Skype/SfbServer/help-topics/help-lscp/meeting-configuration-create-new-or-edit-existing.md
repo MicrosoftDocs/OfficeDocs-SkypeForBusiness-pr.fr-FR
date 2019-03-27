@@ -1,5 +1,6 @@
 ---
 title: Configuration de réunion créer ou modifier une existant
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e8fc19fa-6cd7-4f68-b90a-1c7e1b649abd
 description: Les paramètres de configuration de réunion définissent la participation des utilisateurs pour les conférences planifiées par des utilisateurs. Ces paramètres ne concernent que les réunions planifiées. Ils ne concernent pas les réunions ad hoc créées en cliquant sur l’option Conférence maintenant du client.
-ms.openlocfilehash: e67381ff779b7ef410e1a9accc9dc2e7791c2e43
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: bb2b81aa860660503522783d3ed3a3aa9ec09985
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23244201"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30926503"
 ---
 # <a name="meeting-configuration-create-new-or-edit-existing"></a>Configuration de la réunion : création d’une réunion ou modification d’une réunion existante
 
@@ -53,6 +54,6 @@ La liste ci-dessous décrit les champs de la page.
 
 - **Texte de pied de page personnalisé** Tapez le texte à utiliser sur les invitations de conférence personnalisées.
 
-Pour plus d’informations sur l’utilisation des configurations de réunion, voir [créer un ou modifier une Collection de paramètres de Configuration réunion](https://technet.microsoft.com/library/ce6773c1-a0d5-4405-8e32-33a6f3a46a1a.aspx) dans la documentation des opérations. Pour plus d’informations sur la définition de configurations de réunion pour les réunions de grande taille, consultez [Définition des prise en charge des grandes réunions](https://technet.microsoft.com/library/8e22d34b-b395-408d-9d48-8f2a3abe9513.aspx) dans la documentation de planification.
+Pour plus d’informations sur l’utilisation des configurations de réunion, reportez-vous à la rubrique [Create a or modify a Collection of Meeting Configuration Settings](https://technet.microsoft.com/library/ce6773c1-a0d5-4405-8e32-33a6f3a46a1a.aspx) de la documentation des opérations. Pour plus d’informations sur la définition de configurations de réunion pour des réunions importantes, reportez-vous à la rubrique [Setting Up Support for Large Meetings](https://technet.microsoft.com/library/8e22d34b-b395-408d-9d48-8f2a3abe9513.aspx) de la documentation de planification.
 
 

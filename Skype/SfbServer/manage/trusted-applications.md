@@ -1,5 +1,6 @@
 ---
 title: Gérer les applications approuvées
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Une application approuvée est une application basée sur le Kit de développement Microsoft Unified Communications Managed API (UCMA) 3.0 Core approuvé par Skype pour Business Server.
-ms.openlocfilehash: b4bad58d93ca231a9405734dd148cee675c5d1ea
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 3ca8621148a4b6ce3530f23a61312f63f3d3cd30
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222890"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882141"
 ---
 # <a name="manage-trusted-applications-in-skype-for-business-server"></a>Gérer les applications approuvées dans Skype pour Business Server
 
@@ -25,7 +26,7 @@ Utilisez cet article pour apprendre à configurer un nouveau serveur d’applica
 
 ## <a name="configure-a-new-trusted-application-server"></a>Configurer un nouveau serveur d’applications approuvées
 
-1.  Ouvrez une session sur l’ordinateur sur lequel le Générateur de topologie est installé en tant que membre du groupe Admins du domaine et du groupe RTCUniversalServerAdmins.
+1.  Ouvrez une session l’ordinateur où le Générateur de topologie est installé en tant que membre du groupe Admins du domaine et du groupe RTCUniversalServerAdmins.
 
 2.  Démarrer le Générateur de topologies : Cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Skype pour Business Server**, puis cliquez sur **Skype pour le Générateur de topologie Business Server**.
 
@@ -63,7 +64,7 @@ Dans Skype pour le panneau de configuration serveur Business, vous pouvez voir l
 
 ### <a name="to-view-a-list-of-trusted-applications"></a>Pour afficher la liste des applications approuvées
 
-1.  À partir d’un compte d’utilisateur auquel est affecté un rôle d’administrateur CsServerAdministrator, CsAdministrator, CsHelpDesk ou CsViewOnlyAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne. Pour plus d’informations sur les rôles d’administration prédéfinis disponibles dans Skype pour Business Server, voir [contrôle d’accès basé sur un rôle (RBAC)](../plan-your-deployment/security/role-based-access-control-rbac.md).
+1.  À partir d’un compte d’utilisateur auquel est affecté le rôle CsServerAdministrator, CsAdministrator, est CsHelpDesk ou CsViewOnlyAdministrator, ouvrez une session n’importe quel ordinateur dans votre déploiement interne. Pour plus d’informations sur les rôles d’administration prédéfinis disponibles dans Skype pour Business Server, voir [contrôle d’accès basé sur un rôle (RBAC)](../plan-your-deployment/security/role-based-access-control-rbac.md).
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business.
 

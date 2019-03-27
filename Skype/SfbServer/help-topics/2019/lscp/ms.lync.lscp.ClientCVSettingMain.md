@@ -1,5 +1,6 @@
 ---
-title: Configuration de Version du client
+title: Configuration de version du client
+ms.reviewer: ''
 ms.author: SerdarS
 author: SerdarSoysal
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: cb17314e-b89e-4821-8855-12f8fd2edc9b
 ROBOTS: NOINDEX, NOFOLLOW
 description: Outre la spécification de la version des clients que vous souhaitez prendre en charge dans votre environnement, vous pouvez également spécifier une action par défaut pour les clients qui n’ont pas encore définie une stratégie de version. Cela permet de limiter les versions du client sont utilisées dans votre environnement, qui peut vous aider à contrôler les coûts associés à la prise en charge de plusieurs versions du client.
-ms.openlocfilehash: a7e2a1289e229828ad496f8f30211f09b73c3ad7
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: c83dc832d6ea866a7f29f0a98213ea25853cd2f7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23243608"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879839"
 ---
-# <a name="client-version-configuration"></a>Configuration de Version du client
+# <a name="client-version-configuration"></a>Configuration de version du client
 
 Outre la spécification de la version des clients que vous souhaitez prendre en charge dans votre environnement, vous pouvez également spécifier une action par défaut pour les clients qui n’ont pas encore définie une stratégie de version. Cela permet de limiter les versions du client sont utilisées dans votre environnement, qui peut vous aider à contrôler les coûts associés à la prise en charge de plusieurs versions du client.
 
@@ -52,5 +53,5 @@ Les listes ci-dessous décrivent les menus, les commandes, les champs et les pro
 
 - **Actualiser** Vous pouvez actualiser la liste de configuration de version de client pour vérifier le statut des options de toutes les configurations de version du client.
 
-Pour plus d’informations sur l’interopérabilité entre les clients et les versions du client, voir [Interopérabilité des clients](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) dans la documentation de planification. Pour plus d’informations sur l’utilisation des configurations de version du client, voir [Modifier l’Action par défaut pour les Clients pas explicitement pris en charge ou restreints](https://technet.microsoft.com/library/548dd0f5-62fe-4c3f-8952-2b9fd4c5fff3.aspx) dans la documentation des opérations.
+Pour plus d’informations sur l’interopérabilité entre les clients et les versions du client, voir [Interopérabilité des clients](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) dans la documentation de planification. Pour plus d’informations sur l’utilisation des configurations de version du client, reportez-vous à la rubrique [Modify the Default Action for Clients Not Explicitly Supported or Restricted](https://technet.microsoft.com/library/548dd0f5-62fe-4c3f-8952-2b9fd4c5fff3.aspx) de la documentation des opérations.
 

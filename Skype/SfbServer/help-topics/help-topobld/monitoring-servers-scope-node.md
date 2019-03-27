@@ -1,5 +1,6 @@
 ---
 title: Nœud d’étendue des serveurs de surveillance
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 16fa839b-8eb5-4b81-82c5-65fe9a00614b
 description: 'Le nœud serveurs de surveillance répertorie les serveurs de surveillance dans votre topologie. Vous pouvez effectuer l’action suivante :'
-ms.openlocfilehash: 6d6d2030c9db5fb055a3a3a2958d507b481cd33f
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 166ceeef9ce17b2a1ffad8b6270e61f631fd22b9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20977596"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889427"
 ---
 # <a name="monitoring-servers-scope-node"></a>Nœud d’étendue des serveurs de surveillance
  

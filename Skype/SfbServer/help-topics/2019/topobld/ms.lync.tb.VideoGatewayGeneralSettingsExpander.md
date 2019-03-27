@@ -1,5 +1,6 @@
 ---
 title: Paramètres généraux de passerelle vidéo
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 5d1485ab-f912-4153-9839-4717f0314729
 ROBOTS: NOINDEX, NOFOLLOW
 description: Les étapes nécessaires pour définir un nouveau rapport ou passerelle vidéo dans le Générateur de topologie sont décrites en ligne dans créer un pool VIS dans Skype pour Business Server.
-ms.openlocfilehash: f09336c03dcf21f42f3dc0fd140bed9b07e0b267
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: eb2223e3871701244d0cf99227635e029c504196
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21068583"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888758"
 ---
 # <a name="video-gateway-general-settings"></a>Paramètres généraux de passerelle vidéo
  

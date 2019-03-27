@@ -1,5 +1,6 @@
 ---
 title: Mise à niveau vers Skype Entreprise Server 2015
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -14,14 +15,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 74ce73bc-356b-4705-83b1-341ee010fd19
 description: 'Résumé : Découvrez comment mettre à niveau à partir de Lync Server 2013 Skype pour Business Server 2015. Téléchargez une version d’évaluation gratuite de Skype pour Business Server 2015 depuis le centre d’évaluation Microsoft à : https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: 5c23faeb1dca662b80855b87a93152b3e81de43d
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 0a09de79bd60917667dfb2e7ca33310da3b04ddd
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885144"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878188"
 ---
-# <a name="upgrade-to-skype-for-business-server-2015"></a>Mise à niveau vers Skype Entreprise Server 2015
+# <a name="upgrade-to-skype-for-business-server-2015"></a>Upgrade to Skype for Business Server 2015
  
 **Résumé :** Découvrez comment mettre à niveau à partir de Lync Server 2013 Skype pour Business Server 2015. Téléchargez une version d’évaluation gratuite de Skype pour Business Server 2015 à partir du [Centre d’évaluation de Microsoft](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
   
@@ -36,7 +37,7 @@ Mise à niveau de Lync Server 2013 pour Skype pour Business Server 2015 implique
   
 ### <a name="before-you-begin"></a>Avant de commencer
 
-- Passez en revue le [Plan de mise à niveau vers Skype pour Business Server 2015](../plan-your-deployment/upgrade.md).
+- Reportez-vous à [Plan to upgrade to Skype for Business Server 2015](../plan-your-deployment/upgrade.md).
     
 - Passez en revue la [configuration serveur requise pour Skype pour Business Server 2015](../plan-your-deployment/requirements-for-your-environment/server-requirements.md).
     
@@ -71,7 +72,7 @@ Mise à niveau de Lync Server 2013 pour Skype pour Business Server 2015 implique
 Avant de commencer le processus de mise à niveau, tous les services doivent être en cours d’exécution pour les pools que vous envisagez de mettre à niveau. Les changements de la topologie pourront ainsi être répliqués dans la base de données locale des serveurs dans le pool.
   
 > [!IMPORTANT]
->  Enregistrez une copie de votre fichier de topologie avant la mise à niveau. Une fois que vous mettez à niveau, vous ne pourrez pas configurer la topologie. > Si vos services sont sur les mêmes serveurs que vos bases de données, telles que la conversation permanente service est sur le même serveur que la base de données de conversation permanente, ignorez cette étape et passez à l’étape 4. Après avoir arrêté les services, exécutez le programme de mise à niveau sur place sur chaque serveur pour effectuer la mise à niveau vers les bases de données locales.
+>  Enregistrez une copie de votre fichier de topologie avant la mise à niveau. Une fois que vous mettez à niveau, vous ne serez pas en mesure de rétrograder le topology.> si vos services se trouvent sur les mêmes serveurs que vos bases de données, telles que la conversation permanente service est sur le même serveur que la base de données de conversation permanente, ignorez cette étape et passez à l’étape 4. Après avoir arrêté les services, exécutez le programme de mise à niveau sur place sur chaque serveur pour effectuer la mise à niveau vers les bases de données locales.
   
 > [!NOTE]
 > Si la topologie comporte une base de données principale mise en miroir, les bases de données principale et en miroir s’affichent **lorsque vous publiez la topologie** à l’aide du générateur de topologie. Vérifiez que toutes les bases de données sont exécutées dans la base de données principale et veillez à sélectionner la base de données principale et non la base de données miroir lors de la publication de la topologie, autrement un avertissement s’affichera après la publication de la topologie.
@@ -179,7 +180,7 @@ Nous recommandons l’utilisation de Disable-CsComputer, car vous devrez peut-ê
 ### <a name="step-5-upgrade-front-end-pools-and-non-front-end-pool-servers"></a>Étape 5 : Mettre à niveau les pools frontaux et les serveurs des pools non frontaux
 
 > [!NOTE]
->  Avant la mise à niveau installez tous les nouveaux composants requis requis pour Skype pour Business Server 2015 comprenant : > au moins 32 Go d’espace libre avant d’essayer une mise à niveau. En outre, assurez-vous que le lecteur est un lecteur local fixe et n’est pas connecté par USB ou Firewire, est mis en forme avec le système de fichiers NTFS, n’est pas compressé et ne contient-elle pas un fichier de page. > PowerShell version 6.2.9200.0 ou version ultérieure. > la plus récente de Lync Server 2013 Mise à jour cumulative installée. > SQL Server 2012 SP1 est installé. > la base de connaissances suivant de l’installation (installé automatiquement si vous utilisez Microsoft Update) : > Windows Server 2008 R2 -[KB2533623](https://support.microsoft.com/kb/2533623)> Windows Server 2012 -[KB2858668](https://support.microsoft.com/kb/2858668)> Windows Server 2012 R2 -[KB2982006](https://support.microsoft.com/kb/2982006)
+>  Avant la mise à niveau installez tous les nouveaux composants requis requis pour Skype pour Business Server 2015 comprenant : > au moins 32 Go d’espace libre avant d’essayer une mise à niveau. En outre, assurez-vous que le lecteur est un lecteur local fixe, n’est pas connecté par USB ou Firewire, est mis en forme avec le système de fichiers NTFS, n’est pas compressé et ne possède pas de page file.> PowerShell version 6.2.9200.0 ou ultérieure .> la plus récente de Lync Server 2013 Mise à jour cumulative installée .> SQL Server 2012 SP1 installé .> installé la base de connaissances suivants (installé automatiquement si vous utilisez Microsoft Update) : > Windows Server 2008 R2 -[KB2533623](https://support.microsoft.com/kb/2533623)> Windows Server 2012 -[KB2858668](https://support.microsoft.com/kb/2858668)> Windows Server 2012 R2 -[KB2982006](https://support.microsoft.com/kb/2982006)
   
 Utilisez la mise à niveau sur Place sur chaque serveur à mettre à jour le pool frontal, pool de serveurs Edge, serveur de médiation et le pool de conversation permanente.
   
@@ -240,9 +241,9 @@ En cas d’échec de la mise à niveau sur Place sur les **composants requis man
   
 ## <a name="see-also"></a>Voir aussi
 
-[Plan de mise à niveau vers Skype Entreprise Server 2015](../plan-your-deployment/upgrade.md)
+[Plan to upgrade to Skype for Business Server 2015](../plan-your-deployment/upgrade.md)
   
-[Configuration serveur requise pour Skype Entreprise Server 2015](../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
+[Server requirements for Skype for Business Server 2015](../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
   
 [Installation des composants prérequis pour Skype Entreprise Server 2015](install/install-prerequisites.md)
   

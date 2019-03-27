@@ -1,5 +1,6 @@
 ---
 title: Expanseur des paramètres généraux de conversation permanente
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 275ee1ae-ca58-4963-bc95-523319f90d96
 description: 'Vous modifiez les paramètres généraux pour le serveur de conversation permanente ou le pool de serveurs de conversation permanente en configurant ou en définissant les propriétés :'
-ms.openlocfilehash: 912cacaa050962b85d8e3f70bec78f01306909d6
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 5300a6353bb683bfe2a010cda00c43e0faa839b8
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374958"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884377"
 ---
 # <a name="persistent-chat-general-settings-expander"></a>Expanseur des paramètres généraux de conversation permanente
  
@@ -109,7 +110,7 @@ Vous modifiez les paramètres **Associations** pour le serveur de conversation p
   
   **Annuler** : permet d’annuler les modifications et de fermer la boîte de dialogue.
   
-  **Aide** : permet d’afficher cet écran d’aide.
+  **Aide** permet d’afficher cet écran d’aide.
   
 ## <a name="see-also"></a>Voir aussi
 

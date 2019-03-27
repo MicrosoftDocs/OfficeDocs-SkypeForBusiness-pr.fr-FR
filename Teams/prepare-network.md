@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f8b3105889021408983c8e3ae249c74833e65ced
-ms.sourcegitcommit: 8e5fc1d8c19a7f26f53e40b23dd6476a8c6d805f
+ms.openlocfilehash: 5d92e30617fb62000cd4b10dac29ec23eee1feaa
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "30800072"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882961"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Préparer le réseau de votre organisation pour Microsoft Teams
 
@@ -65,20 +65,13 @@ Pour tester les deux segments réseau, vous pouvez utiliser l' [Outil d’évalu
 
 
 ## <a name="bandwidth-requirements"></a>Bande passante requise
-
+Teams Microsoft offre les meilleures audio, vidéo et contenu expérience indépendamment de vos conditions réseau. Avec les codecs variables, média peut être négocié dans les environnements de bande passante limitée avec un impact minimal. Mais où la bande passante n’est pas un problème, une expérience peut être optimisée pour la qualité, y compris des résolution vidéo 1080p, jusqu'à 30 i/s pour la vidéo et 15 i/s pour le contenu et les paramètres audio haute fidélité.
 
 Cet article décrit une version concise de la bande passante est utilisée par Microsoft Teams en temps réel audio, vidéo et modalités dans différents cas d’utilisation de partage du bureau. Les équipes est toujours estime sur l’utilisation de la bande passante et peut fournir une qualité vidéo HD dans 1.2Mbps sous.  La consommation de bande passante réelle dans chaque appel audio/vidéo ou la réunion varie en fonction de plusieurs facteurs, tels que la vidéo mise en page, la résolution vidéo et vidéo images par seconde. Lorsque plus de bande passante est disponible qualité et l’utilisation augmente afin d’offrir la meilleure expérience.
 
 
-|Bandwidth(up/down) |Scénarios |
-|---|---|
-|30 Kbits/s |Appel audio d’égal à égal |
-|130 Kbits/s |Appel audio d’égal à égal et de partage d’écran |
-|500 Kbits/s |Égal à égal qualité vidéo appelant p 360 à 30 i/s |
-|1.2 Mbits/s |Vidéo de qualité HD égal-à-l’appel avec une résolution de HD 720 pixels à 30 i/s |
-|1,5 Mbits/s |Vidéo de qualité HD égal-à-l’appel avec une résolution de HD 1080p 30 i/s |
-|500 Kbits/s/1 Mbits/s |Groupe d’appel vidéo |
-|1 Mbits/s/2 |Groupe HD vidéo appelant (vidéos 540p sur écran 1080p) |
+[!INCLUDE [Bandwidth requirements](includes/bandwidth-requirements.md)]
+
 
 <!--
 The content you will find below can be used as supplemental background information; however, it is recommended that customers use [Network Planner](https://aka.ms/bwcalc) to track their needs.

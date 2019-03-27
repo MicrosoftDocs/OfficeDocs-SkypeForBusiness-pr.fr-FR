@@ -1,5 +1,6 @@
 ---
 title: Planification de capacité l’utilisation du modèle utilisateur pour Skype pour Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 902ab23e-94d6-482a-9d6e-c0b28dc3e03d
 description: Cet article fournit des instructions sur le nombre de serveurs vous avez besoin sur un site pour le nombre d’utilisateurs sur le site, en fonction de l’utilisation décrite dans modèles utilisateur Skype pour Business Server.
-ms.openlocfilehash: 1e802bc130086bcefc8fd06cbacd3f21222d6d0a
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: 13c7a1bdbbfc20f13dec2c6d9999b80caf4078dd
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27789404"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886232"
 ---
 # <a name="capacity-planning-user-model-usage-for-skype-for-business-server"></a>Planification de capacité l’utilisation du modèle utilisateur pour Skype pour Business Server
 
@@ -81,7 +82,7 @@ Le tableau suivant montre la bande passante moyenne pour la messagerie instantan
 |1,3 Kbits/s  <br/> |13 Mbits/s  <br/> |
 
 > [!NOTE]
-> Pour améliorer les performances multimédias de localisée au même emplacement A / V conférence et le serveur de médiation fonctionnalité sur vos serveurs frontaux, vous devez activer la côté réception montée en puissance (RSS) sur les cartes réseau sur vos serveurs frontaux. RSS permet la gestion en parallèle des paquets entrants par plusieurs processeurs sur le serveur. Pour plus d’informations, reportez-vous à la rubrique [Receive Side Scaling (RSS) de la documentation de Windows Server 2012](https://go.microsoft.com/fwlink/p/?LinkId=620365). Pour plus d’informations sur l’activation de RSS, vous devrez vous reporter à la documentation de votre carte réseau.
+> Pour améliorer les performances multimédias de localisée au même emplacement A / V conférence et le serveur de médiation fonctionnalité sur vos serveurs frontaux, vous devez activer la côté réception montée en puissance (RSS) sur les cartes réseau sur vos serveurs frontaux. RSS permet la gestion en parallèle des paquets entrants par plusieurs processeurs sur le serveur. Pour plus d’informations, voir [Côté réception mise à l’échelle (RSS) dans la documentation de Windows Server 2012](https://go.microsoft.com/fwlink/p/?LinkId=620365). Pour plus d’informations sur l’activation de RSS, vous devrez vous reporter à la documentation de votre carte réseau.
 
 ## <a name="conferencing-maximums"></a>Nombre maximal de conférences
 
@@ -95,7 +96,7 @@ Pour activer les conférences qui ont entre 250 et 1 000 utilisateurs, vous pouv
 
 Si votre organisation a beaucoup plus de conférences en mode mixte que sont considérées comme dans le modèle utilisateur, vous devrez déployer plusieurs serveurs frontaux que nous recommandation dans ce document (jusqu'à une limite de 12 serveurs frontaux). Pour plus d’informations sur les hypothèses dans le modèle utilisateur, voir [modèles utilisateur Skype pour Business Server](user-models.md).
 
-## <a name="edge-server"></a>Serveur Edge
+## <a name="edge-server"></a>serveur Edge
 
 > [!NOTE]
 > Les pools étendus ne sont pas pris en charge pour ce rôle serveur.

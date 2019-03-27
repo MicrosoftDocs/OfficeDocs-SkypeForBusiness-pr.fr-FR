@@ -1,5 +1,6 @@
 ---
 title: Développeur des paramètres généraux du serveur d’archivage
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,18 +12,19 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0b820af7-8d00-42e2-979c-dbae17159a08
-description: 'Dans le Générateur de topologies, vous pouvez modifier les propriétés d’un serveur d’archivage soit en cliquant sur le serveur d’archivage en cours d’exécution dans l’arborescence de la console et en cliquant sur l’Action dans la barre d’outils, ou en cliquant sur une tâche dans le volet Actions, puis cliquez sur Modifier en cours d’exécution Les propriétés et la modification d’une des options suivantes :'
-ms.openlocfilehash: 76225fe039fea402779e42dd5a33b68a3ab6a8ec
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Dans le générateur de topologie, vous pouvez modifier les propriétés d’un serveur individuel exécutant l’archivage en cliquant sur le serveur avec le bouton droit dans l’arborescence de la console, puis sur Action dans la barre d’outils ou en cliquant sur une tâche dans le volet Actions, puis sur Modifier les propriétés pour modifier l’une des options suivantes :'
+ms.openlocfilehash: 21b067e3a97e6c53ba51f4949385532a840d282e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30926496"
 ---
 # <a name="archiving-server-general-settings-expander"></a>Développeur des paramètres généraux du serveur d’archivage
  
 Dans le générateur de topologie, vous pouvez modifier les propriétés d’un serveur individuel exécutant l’archivage en cliquant sur le serveur avec le bouton droit dans l’arborescence de la console, puis sur **Action** dans la barre d’outils ou en cliquant sur une tâche dans le volet Actions, puis sur **Modifier les propriétés** pour modifier l’une des options suivantes :
   
-- **Nom de domaine complet (FQDN)** : permet de modifier le nom de domaine complet (FQDN) du serveur que vous souhaitez déployer comme serveur exécutant l’archivage.
+- **Nom de domaine complet (FQDN)**  : permet de modifier le nom de domaine complet (FQDN) du serveur que vous souhaitez déployer comme serveur exécutant l’archivage.
     
 - **Magasin SQL** : permet de modifier l’instance SQL Server à utiliser pour la base de données SQL Server d’archivage. Si vous modifiez la base de données SQL Server d’un serveur exécutant l’archivage, vous devez relancer le serveur exécutant l’archivage pour que la modification prenne effet.
     

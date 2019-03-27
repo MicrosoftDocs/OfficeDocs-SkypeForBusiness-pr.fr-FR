@@ -1,5 +1,6 @@
 ---
-title: Classes de schéma et de descriptions dans Skype pour Business Server
+title: Classes de schéma et les descriptions de Skype pour Business Server
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,80 +11,81 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7d43b920-ac37-40cc-adfe-be289bda6e9e
 description: Cette section décrit toutes les classes de schéma utilisées par Skype pour Business Server.
-ms.openlocfilehash: 20d85e879bb9bfb040150423d47836b6e6803c37
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 0bb34a93ec23df67d19026e82e29769e0aeb9ab2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30926559"
 ---
-# <a name="schema-classes-and-descriptions-in-skype-for-business-server"></a>Classes de schéma et de descriptions dans Skype pour Business Server
+# <a name="schema-classes-and-descriptions-in-skype-for-business-server"></a>Classes de schéma et les descriptions de Skype pour Business Server
  
 Cette section décrit toutes les classes de schéma utilisées par Skype pour Business Server. 
   
-## <a name="schema-classes-and-descriptions"></a>Les descriptions et les Classes de schéma
+## <a name="schema-classes-and-descriptions"></a>Descriptions et Classes de schéma
 
 |**Classe**|**Description**|**Commentaires**|
 |:-----|:-----|:-----|
-|Destinataire du message  <br/> |Destinataire de courrier électronique Exchange la messagerie unifiée (MU).  <br/> |Cette classe auxiliaire est partagée avec la messagerie unifiée d’Exchange.  <br/> |
-|msRTCSIP-ApplicationContacts  <br/> |Cette classe est un conteneur pour plusieurs contacts de l’application et ne contient-elle pas tous les attributs lui-même.  <br/> |Nouveautés de Microsoft Office Communications Server 2007 R2.  <br/> |
-|msRTCSIP-ApplicationServer  <br/> |Cette classe contient l’entrée pour le point de contrôle de service d’une instance de Services unifiée des applications de communication (UCAS).  <br/> |Nouveau dans Office Communications Server 2007 R2.  <br/> |
-|msRTCSIP-ApplicationServerService  <br/> |Cette classe fournit une association à partir d’un pool spécifique à son service de l’Application.  <br/> |Nouveau dans Communications Server 2007 R2.  <br/> |
-|msRTCSIP-ApplicationServerSettings  <br/> |Cette classe auxiliaire msRTCSIP-ApplicationServer conserve des attributs qui représente les paramètres pour les instances du service de l’Application.  <br/> |Nouveau dans Communications Server 2007 R2.  <br/> |
-|msRTCSIP-Archive (obsolète)  <br/> |Cette classe auxiliaire msRTCSIP-GlobalContainer conserve tous les paramètres liés à l’archivage.  <br/> |Obsolète dans Lync Server 2010.  <br/> |
-|msRTCSIP-ArchivingServer (obsolète)  <br/> |Cette classe représente un instant unique serveur d’archivage de la messagerie. Une instance de cette classe est créée lorsqu’un ordinateur est activé en tant qu’un archivage de serveur de messagerie instantanée, tel qu’un ordinateur avec le service d’archivage de la messagerie instantanée est installé.  <br/> |Obsolète dans Lync Server 2010.  <br/> |
-|msRTCSIP-ConferenceDirectories  <br/> |Cette classe est un conteneur pour les instances multiples des répertoires de conférence et ne contient-elle pas tous les attributs lui-même.  <br/> |Nouveau dans Communications Server 2007 R2.  <br/> |
-|msRTCSIP-ConferenceDirectory  <br/> |Cette classe contient les attributs qui représente les paramètres d’un répertoire de conférence spécifique.  <br/> |Nouveau dans Communications Server 2007 R2.  <br/> |
-|msRTCSIP-ConnectionPoint  <br/> |Point de contrôle de service générique (SCP) pour spécifier l’ordinateur comme un serveur exécutant Skype pour Business Server.  <br/> |Nouveau dans Lync 2010.  <br/> |
-|msRTCSIP-DefaultCWABank  <br/> |Cette classe auxiliaire contient les paramètres pour un Skype pour Business Web application bancaire.  <br/> |Nouveau dans Communications Server 2007 R2.  <br/> |
-|msRTCSIP-domaine  <br/> |Cette classe contient les attributs qui définissent les domaines configurés d’inscriptions SIP.  <br/> |-  <br/> |
-|msRTCSIP-EdgeProxy  <br/> |Ce conteneur de classe représente un service Edge d’accès. Dans la mesure où un service Edge d’accès est déployé dans le réseau de périmètre et les clients ne permettent généralement pas d’accès des Services de domaine Active Directory à partir du réseau de périmètre, les instances de service Edge d’accès ne sont pas liés à réseau de Active Directory de l’intranet. Par conséquent, les proxys d’accès ne sont pas automatiquement enregistrés dans les services AD DS. L’administrateur doit configurer manuellement l’existence de chaque instance du service Edge d’accès dans les services AD DS.  <br/> |-  <br/> |
-|msRTCSIP-EnterpriseMCUSettings  <br/> |Cette classe auxiliaire msRTCSIP-MCU conserve des attributs qui représente les paramètres pour les serveurs de conférence.  <br/> |Nouveau dans Microsoft Office Communications Server 2007.  <br/> |
-|msRTCSIP-EnterpriseMediationServerSettings  <br/> |Cette classe auxiliaire msRTCSIP-MediationServer conserve des attributs qui représente les paramètres pour les serveurs de médiation.  <br/> |Nouveau dans Office Communications Server 2007.  <br/> |
-|msRTCSIP-EnterpriseServerSettings  <br/> |Cette classe auxiliaire msRTCSIP-serveur conserve des attributs qui représente les paramètres de serveurs SIP.  <br/> |-  <br/> |
-|msRTCSIP-Federation  <br/> |Cette classe auxiliaire msRTCSIP-GlobalContainer conserve tous les paramètres liés à la fédération.  <br/> |-  <br/> |
-|msRTCSIP-GlobalContainer  <br/> |Cette classe contient tous les paramètres qui s’appliquent tout au long d’un Skype pour le déploiement du serveur de l’entreprise.  <br/> |-  <br/> |
-|msRTCSIP-GlobalUserPolicy (obsolète)  <br/> |Cette classe représente une seule stratégie de réunion d’Office Communications Server.  <br/> |Obsolète dans Lync Server 2010.  <br/> |
-|msRTCSIP-GlobalTopologySetting  <br/> |L’objet de paramètre local topologie globale.  <br/> |Nouveau dans Lync Server 2010.  <br/> |
-|msRTCSIP-GlobalTopologySettings  <br/> |Conteneur pour stocker des objets de paramètre de topologie globale.  <br/> |Nouveau dans Lync Server 2010.  <br/> |
-|msRTCSIP-LocalNormalization  <br/> |Cette classe est un conteneur qui représente une instance d’une règle d’emplacement de normalisation.  <br/> |-  <br/> |
-|msRTCSIP-LocationContactMapping  <br/> |Cette classe est créée par l’application de la surveillance du conférence et conserve des attributs qui permettent de classer les numéros de téléphone de conférence par région.  <br/> |Nouveau dans Communications Server 2007 R2.  <br/> |
-|msRTCSIP-LocationContactMappings  <br/> |Cette classe est un conteneur pour plusieurs instances de l’emplacement de mappage des contacts et ne contient-elle pas tous les attributs lui-même.  <br/> |Nouveau dans Communications Server 2007 R2.  <br/> |
-|msRTCSIP-LocationProfile  <br/> |Cette classe est un conteneur qui représente un profil d’emplacement spécifique.  <br/> |-  <br/> |
-|msRTCSIP-LocationProfiles (obsolète)  <br/> |Cette classe est un conteneur pour plusieurs profils d’emplacement et ne contient-elle pas tous les attributs lui-même.  <br/> |Obsolète dans Lync Server 2010.  <br/> |
-|msRTCSIP-LocalNormalizations (obsolète)  <br/> |Cette classe est un conteneur pour plusieurs règles de normalisation local et ne contient-elle pas tous les attributs lui-même.  <br/> |Obsolète dans Lync Server 2010.  <br/> |
+|Destinataire du message  <br/> |Destinataire de courrier électronique de la messagerie unifiée Exchange (MU).  <br/> |Cette classe auxiliaire est partagée avec la messagerie unifiée Exchange.  <br/> |
+|msRTCSIP-ApplicationContacts  <br/> |Cette classe est un conteneur de contacts d’application et ne possède pas d’attributs propres.  <br/> |Nouveauté dans Microsoft Office Communications Server 2007 R2.  <br/> |
+|msRTCSIP-ApplicationServer  <br/> |Cette classe conserve l’entrée pour le point de contrôle de service pour une instance de Communications unifiées Application Services (UCAS).  <br/> |Nouveau dans Office Communications Server 2007 R2.  <br/> |
+|msRTCSIP-ApplicationServerService  <br/> |Cette classe fournit une association entre un pool spécifique et son service d’Application.  <br/> |Nouveau dans Communications Server 2007 R2.  <br/> |
+|msRTCSIP-ApplicationServerSettings  <br/> |Cette classe auxiliaire de msRTCSIP-ApplicationServer conserve des attributs représentant des paramètres pour les instances du service d’Application.  <br/> |Nouveau dans Communications Server 2007 R2.  <br/> |
+|msRTCSIP-Archive (obsolète)  <br/> |Cette classe auxiliaire de msRTCSIP-GlobalContainer contient tous les paramètres concernant l’archivage.  <br/> |Obsolète dans Lync Server 2010.  <br/> |
+|msRTCSIP-ArchivingServer (obsolète)  <br/> |Cette classe représente un seul serveur d’archivage de pic. Une instance de cette classe est créée lorsqu’un ordinateur est activé comme un archivage serveur de messagerie instantanée, tel qu’un ordinateur avec le service d’archivage de la messagerie instantanée est installé.  <br/> |Obsolète dans Lync Server 2010.  <br/> |
+|msRTCSIP-ConferenceDirectories  <br/> |Cette classe est un conteneur pour plusieurs instances d’annuaires des conférences et ne possède pas d’attributs propres.  <br/> |Nouveau dans Communications Server 2007 R2.  <br/> |
+|msRTCSIP-ConferenceDirectory  <br/> |Cette classe contient des attributs représentant des paramètres pour un annuaire des conférences spécifique.  <br/> |Nouveau dans Communications Server 2007 R2.  <br/> |
+|msRTCSIP-ConnectionPoint  <br/> |Point de contrôle de service générique (SCP) pour spécifier l’ordinateur en tant que serveur exécutant Skype pour Business Server.  <br/> |Nouveauté de Lync 2010.  <br/> |
+|msRTCSIP-DefaultCWABank  <br/> |Cette classe auxiliaire contient les paramètres pour un Skype pour Business Web application banque.  <br/> |Nouveau dans Communications Server 2007 R2.  <br/> |
+|msRTCSIP-Domain  <br/> |Cette classe conserve des attributs qui définissent les domaines configurés du Registre SIP.  <br/> |-  <br/> |
+|msRTCSIP-EdgeProxy  <br/> |Ce conteneur de classe représente un seul service Edge d’accès. Étant donné que le service Edge d’accès est déployé dans le réseau de périmètre et les clients généralement ne permettent pas d’accès aux Services de domaine Active Directory à partir du réseau de périmètre, les instances du service Edge d’accès ne sont pas liés au réseau d’Active Directory de l’intranet. Par conséquent, les proxys d’accès ne sont pas automatiquement inscrits dans AD DS. L’administrateur doit configurer manuellement l’existence de chaque instance du service Edge d’accès dans AD DS.  <br/> |-  <br/> |
+|msRTCSIP-EnterpriseMCUSettings  <br/> |Cette classe auxiliaire de msRTCSIP-MCU conserve des attributs représentant des paramètres pour les serveurs de conférence.  <br/> |Nouveauté dans Microsoft Office Communications Server 2007.  <br/> |
+|msRTCSIP-EnterpriseMediationServerSettings  <br/> |Cette classe auxiliaire de msRTCSIP-MediationServer conserve des attributs représentant des paramètres pour les serveurs de médiation.  <br/> |Nouveau dans Office Communications Server 2007.  <br/> |
+|msRTCSIP-EnterpriseServerSettings  <br/> |Cette classe auxiliaire de msRTCSIP-Server conserve des attributs représentant des paramètres pour les serveurs SIP.  <br/> |-  <br/> |
+|msRTCSIP-Federation  <br/> |Cette classe auxiliaire de msRTCSIP-GlobalContainer contient tous les paramètres liés à la fédération.  <br/> |-  <br/> |
+|msRTCSIP-GlobalContainer  <br/> |Cette classe conserve tous les paramètres qui s’appliquent tout au long d’un Skype pour le déploiement de serveur d’entreprise.  <br/> |-  <br/> |
+|msRTCSIP-GlobalUserPolicy (obsolète)  <br/> |Cette classe représente une seule stratégie de réunion Office Communications Server.  <br/> |Obsolète dans Lync Server 2010.  <br/> |
+|msRTCSIP-GlobalTopologySetting  <br/> |L’objet de paramètre local de la topologie globale.  <br/> |Nouveauté de Lync Server 2010.  <br/> |
+|msRTCSIP-GlobalTopologySettings  <br/> |Conteneur qui contient les objets de paramètres de la topologie globale.  <br/> |Nouveauté de Lync Server 2010.  <br/> |
+|msRTCSIP-LocalNormalization  <br/> |Cette classe est un conteneur représentant une instance d’une règle de normalisation d’emplacement.  <br/> |-  <br/> |
+|msRTCSIP-LocationContactMapping  <br/> |Cette classe est créée par l’application intendant Conférence et conserve des attributs servis à classer les numéros de téléphone de conférence par région.  <br/> |Nouveau dans Communications Server 2007 R2.  <br/> |
+|msRTCSIP-LocationContactMappings  <br/> |Cette classe est un conteneur pour plusieurs instances de l’emplacement de mappages de contact et ne possède pas d’attributs propres.  <br/> |Nouveau dans Communications Server 2007 R2.  <br/> |
+|msRTCSIP-LocationProfile  <br/> |Cette classe est un conteneur représentant un profil d’emplacement spécifique.  <br/> |-  <br/> |
+|msRTCSIP-LocationProfiles (obsolète)  <br/> |Cette classe est un conteneur pour plusieurs profils d’emplacement et ne possède pas d’attributs propres.  <br/> |Obsolète dans Lync Server 2010.  <br/> |
+|msRTCSIP-LocalNormalizations (obsolète)  <br/> |Cette classe est un conteneur de règles de normalisation locales et ne possède pas d’attributs propres.  <br/> |Obsolète dans Lync Server 2010.  <br/> |
 |msRTCSIP-MCU  <br/> |Cette classe représente un seul serveur de conférence.  <br/> |Nouveau dans Communications Server 2007.  <br/> |
-|msRTCSIP-MCUFactories  <br/> |Cette classe conserve plusieurs classes de msRTCSIP-MCUFactory et n’a pas les attributs lui-même.  <br/> |Nouveau dans Communications Server 2007.  <br/> |
-|msRTCSIP-MCUFactory  <br/> |Cette classe est un conteneur qui représente une fabrique de serveur de conférence pour un seul type de support. Une instance de cette classe est créée lorsque le premier serveur de conférence pour ce type particulier et le fournisseur est activé.  <br/> |Nouveau dans Communications Server 2007.  <br/> |
-|msRTCSIP-MCUFactoryService  <br/> |Cette classe fournit une association à partir d’un pool spécifique à son usine de serveur de conférence.  <br/> |Nouveau dans Communications Server 2007.  <br/> |
-|msRTCSIP-MediationServer  <br/> |Cette classe contient l’entrée pour le point de contrôle de service pour un serveur de médiation.  <br/> |Nouveau dans Communications Server 2007.  <br/> |
-|msRTCSIP-réunion (obsolète)  <br/> |Cette classe auxiliaire msRTCSIP-GlobalContainer conserve des attributs qui représente les paramètres de réunion configurable.  <br/> |Obsolète dans Lync Server 2010.  <br/> |
-|msRTCSIP-mobilité  <br/> |Conteneur qui stocke les paramètres de mobilité globale.  <br/> |-  <br/> |
-|msRTCSIP-MonitoringServer  <br/> |Cette classe conserve les attributs qui représentent les paramètres pour un seul serveur d’analyse.  <br/> |Nouveau dans Communications Server 2007 R2.  <br/> |
-|msRTCSIP-PhoneRoute (obsolète)  <br/> |Cette classe est un conteneur qui représente une instance d’un itinéraire de moindre coût à une passerelle ou d’un ensemble de passerelles. Ces informations sont utilisées par tous les pools d’entreprise ou des serveurs Standard Edition pour router les appels sortants vers le réseau téléphonique public commuté (RTPC) de la manière la plus rentable.  <br/> |Obsolète dans Lync Server 2010.  <br/> |
-|msRTCSIP-PhoneRoutes (obsolète)  <br/> |Cette classe est un conteneur pour plusieurs itinéraires moindre coût et ne contient-elle pas tous les attributs lui-même.  <br/> |Obsolète dans Lync Server 2010.  <br/> |
-|msRTCSIP-stratégies (obsolètes)  <br/> |Cette classe conserve des classes de stratégie plusieurs Lync Server et n’a pas d’attributs lui-même.  <br/> |Obsolète dans Lync Server 2010.  <br/> |
-|msRTCSIP-Pool  <br/> |Cette classe représente un seul Skype pour un pool de serveurs d’entreprise.  <br/> |-  <br/> |
-|msRTCSIP-Pools  <br/> |Cette classe conserve plusieurs Skype pour les pools de serveurs d’entreprise et n’a pas d’attributs lui-même.  <br/> |-  <br/> |
-|msRTCSIP-Poolservice arrêtée  <br/> |Cette classe représente le point de contrôle de service contrôle pointservice d’un pool. Les utilisateurs hébergés sur un pool ont leur msRTCSIP-PrimaryHomeServer point d’attribut à une instance de cette classe.  <br/> |-  <br/> |
-|msRTCSIP-présence  <br/> |Conteneur qui stocke les paramètres de présence mondiale.  <br/> |-  <br/> |
-|msRTCSIP-inscription  <br/> |Cette classe auxiliaire msRTCSIP-GlobalContainer conserve des attributs qui représente les paramètres utilisateur gérées par les serveurs SIP de Registrar.  <br/> |-  <br/> |
-|msRTCSIP-RouteUsage (obsolète)  <br/> |Cette classe est un conteneur qui représente une instance de l’utilisation d’une gamme de téléphone. Une classe de l’utilisation d’itinéraire téléphonique se compose d’un champ d’attribut et un champ de description. Le champ d’attribut définit un type d’utilisation. Le champ de description permet aux administrateurs décrire l’utilisation de cet attribut dans l’itinéraire téléphonique.  <br/> |Obsolète dans Lync Server 2010.  <br/> |
-|msRTCSIP-RouteUsages (obsolète)  <br/> |Cette classe conserve plusieurs instances de la classe msRTCSIP-RouteUsage et n’a pas d’attributs lui-même.  <br/> |Obsolète dans Lync Server 2010.  <br/> |
-|msRTCSIP-recherche  <br/> |Cette classe auxiliaire msRTCSIP-GlobalContainer conserve des attributs pour limitent et contrôlent l’étendue des résultats de recherche.  <br/> |-  <br/> |
+|msRTCSIP-MCUFactories  <br/> |Cette classe contient plusieurs classes msRTCSIP-MCUFactory et ne possède pas les attributs propres.  <br/> |Nouveau dans Communications Server 2007.  <br/> |
+|msRTCSIP-MCUFactory  <br/> |Cette classe est un conteneur représentant un répartiteur de serveurs de conférence pour un seul type de taille moyens. Une instance de cette classe est créée lorsque le premier serveur de conférence pour ce type et le fournisseur est activé.  <br/> |Nouveau dans Communications Server 2007.  <br/> |
+|msRTCSIP-MCUFactoryService  <br/> |Cette classe fournit une association entre un pool spécifique et son répartiteur de serveurs de conférence.  <br/> |Nouveau dans Communications Server 2007.  <br/> |
+|msRTCSIP-MediationServer  <br/> |Cette classe conserve l’entrée pour le point de contrôle de service d’un serveur de médiation.  <br/> |Nouveau dans Communications Server 2007.  <br/> |
+|msRTCSIP-Meeting (obsolète)  <br/> |Cette classe auxiliaire de msRTCSIP-GlobalContainer conserve des attributs représentant les paramètres de réunion configurables.  <br/> |Obsolète dans Lync Server 2010.  <br/> |
+|msRTCSIP-mobilité  <br/> |Conteneur qui stocke les paramètres globaux de mobilité.  <br/> |-  <br/> |
+|msRTCSIP-MonitoringServer  <br/> |Cette classe conserve des attributs qui représentent les paramètres pour un seul serveur de surveillance.  <br/> |Nouveau dans Communications Server 2007 R2.  <br/> |
+|msRTCSIP-PhoneRoute (obsolète)  <br/> |Cette classe est un conteneur représentant une instance d’un itinéraire à moindre coût vers une passerelle ou un ensemble de passerelles. Cette information est utilisée par tous les pools d’entreprise ou serveurs Standard Edition pour acheminer les appels sortants vers le réseau téléphonique commuté (RTC) de la manière la plus rentable.  <br/> |Obsolète dans Lync Server 2010.  <br/> |
+|msRTCSIP-PhoneRoutes (obsolète)  <br/> |Cette classe est un conteneur d’itinéraires à moindre coût et ne possède pas d’attributs propres.  <br/> |Obsolète dans Lync Server 2010.  <br/> |
+|msRTCSIP-Policies (obsolète)  <br/> |Cette classe contient des classes de stratégie de plusieurs Lync Server et ne possède pas d’attributs propres.  <br/> |Obsolète dans Lync Server 2010.  <br/> |
+|msRTCSIP-Pool  <br/> |Cette classe représente un seul Skype pour le pool de serveurs d’entreprise.  <br/> |-  <br/> |
+|msRTCSIP-Pools  <br/> |Cette classe contient plusieurs Skype pour les pools de serveurs d’entreprise et ne possède pas d’attributs propres.  <br/> |-  <br/> |
+|msRTCSIP-Poolservice arrêtée  <br/> |Cette classe représente le point de contrôle de service contrôle pointservice d’un pool. Les utilisateurs hébergés sur un pool ont leur msRTCSIP-PrimaryHomeServer attribut point à une instance de cette classe.  <br/> |-  <br/> |
+|msRTCSIP-présence  <br/> |Conteneur qui stocke les paramètres globaux de présence.  <br/> |-  <br/> |
+|msRTCSIP-serveurs d’inscriptions  <br/> |Cette classe auxiliaire de msRTCSIP-GlobalContainer conserve des attributs représentant les paramètres utilisateur gérés par les serveurs SIP du serveur d’inscriptions.  <br/> |-  <br/> |
+|msRTCSIP-RouteUsage (obsolète)  <br/> |Cette classe est un conteneur représentant une instance d’une utilisation d’itinéraire téléphonique. Une classe de l’utilisation d’itinéraire téléphonique se compose d’un champ d’attribut et un champ de description. Le champ d’attribut définit un type d’utilisation. Le champ description permet aux administrateurs de décrire l’utilisation de cet attribut dans l’itinéraire téléphonique.  <br/> |Obsolète dans Lync Server 2010.  <br/> |
+|msRTCSIP-RouteUsages (obsolète)  <br/> |Cette classe contient plusieurs instances de la classe msRTCSIP-RouteUsage et ne possède pas d’attributs propres.  <br/> |Obsolète dans Lync Server 2010.  <br/> |
+|msRTCSIP-recherche  <br/> |Cette classe auxiliaire de msRTCSIP-GlobalContainer conserve des attributs qui limitent et contrôlent l’étendue des résultats de recherche.  <br/> |-  <br/> |
 |msRTCSIP-serveur  <br/> |Cette classe représente un serveur unique exécutant Skype pour Business Server.  <br/> |-  <br/> |
-|msRTCSIP-Service  <br/> |Cette classe contient le conteneur de paramètres globaux et les objets de msRTCSIP-domaine.  <br/> |-  <br/> |
-|msRTCSIP-TrustedMCU  <br/> |Cette classe conserve les attributs qui représentent les paramètres pour un serveur de conférence approuvé.  <br/> |Nouveau dans Communications Server 2007.  <br/> |
-|msRTCSIP-TrustedMCUs  <br/> |Cette classe conserve plusieurs instances de la classe msRTCSIP-TrustedMCU et n’a pas d’attributs lui-même.  <br/> |Nouveau dans Communications Server 2007.  <br/> |
-|msRTCSIP-TrustedProxies  <br/> |Cette classe conserve plusieurs classes de msRTCSIP-TrustedProxy et ne contient-elle pas tous les attributs lui-même.  <br/> |Nouveau dans Communications Server 2007.  <br/> |
-|msRTCSIP-TrustedProxy  <br/> |Cette classe est un conteneur qui représente un serveur Proxy Server. Une instance de cette classe est créée lors de l’activation d’un nouveau serveur Proxy sur un ordinateur associé à AD DS.  <br/> |Nouveau dans Communications Server 2007.  <br/> |
-|msRTCSIP-TrustedServer  <br/> |Cette classe conserve les attributs qui représentent les paramètres pour un serveur de confiance.  <br/> |-  <br/> |
-|msRTCSIP-TrustedService  <br/> |Cette classe est un conteneur qui représente un service approuvé qui est routable à l’aide d’une adresse GRUU Globally Routable User Agent URI (). Une instance de cette classe est créée lorsqu’un nouveau serveur est approuvé par Skype pour Business Server est activé. Ce serveur doit être joint à un domaine Active Directory de confiance.  <br/> |Nouveau dans Communications Server 2007.  <br/> |
-|msRTCSIP-TrustedServices  <br/> |Cette classe est un conteneur pour plusieurs serveurs GRUU et ne contient-elle pas tous les attributs lui-même.  <br/> |Nouveau dans Communications Server 2007.  <br/> |
-|msRTCSIP-TrustedWebComponentsServer  <br/> |Cette classe contient les attributs qui représentent les paramètres d’un composant web de confiance.  <br/> |Nouveau dans Communications Server 2007.  <br/> |
-|msRTCSIP-TrustedWebComponentsServers  <br/> |Cette classe conserve plusieurs instances de la classe msRTCSIP-TrustedWebComponentServer et n’a pas d’attributs lui-même.  <br/> |Nouveau dans Communications Server 2007.  <br/> |
-|msRTCSIP-UnifiedCommunications (obsolète)  <br/> |Cette classe auxiliaire msRTCSIP-GlobalContainer conserve des attributs relatifs aux communications unifiées.  <br/> |Obsolète dans Lync Server 2010.  <br/> |
-|msRTCSIP-des composants Web  <br/> |Cette classe contient le point de contrôle de service contrôle pointservice pour Internet Information Server (IIS). Il identifie un serveur comme un serveur de composants web.  <br/> |Nouveau dans Communications Server 2007.  <br/> |
-|msRTCSIP-WebComponentsService  <br/> |Cette classe fournit une association à partir d’un pool spécifique aux composants web qui utilise le pool.  <br/> |Nouveau dans Communications Server 2007.  <br/> |
-|msRTCSIP-WebComponentSettings  <br/> |Cette classe auxiliaire msRTCSIP-composants Web conserve des attributs qui représente les paramètres pour les composants web.  <br/> |Nouveau dans Communications Server 2007.  <br/> |
+|msRTCSIP-Service  <br/> |Cette classe conserve le conteneur des paramètres globaux et les objets msRTCSIP-Domain.  <br/> |-  <br/> |
+|msRTCSIP-TrustedMCU  <br/> |Cette classe conserve des attributs représentant les paramètres d’un serveur de conférence approuvé.  <br/> |Nouveau dans Communications Server 2007.  <br/> |
+|msRTCSIP-TrustedMCUs  <br/> |Cette classe contient plusieurs instances de la classe msRTCSIP-TrustedMCU et ne possède pas d’attributs propres.  <br/> |Nouveau dans Communications Server 2007.  <br/> |
+|msRTCSIP-TrustedProxies  <br/> |Cette classe conserve plusieurs classes msRTCSIP-TrustedProxy et ne possède pas d’attributs propres.  <br/> |Nouveau dans Communications Server 2007.  <br/> |
+|msRTCSIP-TrustedProxy  <br/> |Cette classe est un conteneur représentant un serveur exécutant le serveur Proxy. Une instance de cette classe est créée lors de l’activation d’un nouveau serveur Proxy sur un ordinateur lié au domaine Active Directory.  <br/> |Nouveau dans Communications Server 2007.  <br/> |
+|msRTCSIP-TrustedServer  <br/> |Cette classe conserve des attributs représentant les paramètres d’un serveur approuvé.  <br/> |-  <br/> |
+|msRTCSIP-TrustedService  <br/> |Cette classe est un conteneur représentant un service approuvé routable à l’aide d’une adresse GRUU Globally Routable User Agent URI (). Une instance de cette classe est créée lorsqu’un nouveau serveur est approuvé par Skype pour Business Server est activé. Ce serveur doit être joint à un domaine Active Directory de confiance.  <br/> |Nouveau dans Communications Server 2007.  <br/> |
+|msRTCSIP-TrustedServices  <br/> |Cette classe est un conteneur de serveurs GRUU et ne possède pas d’attributs propres.  <br/> |Nouveau dans Communications Server 2007.  <br/> |
+|msRTCSIP-TrustedWebComponentsServer  <br/> |Cette classe conserve des attributs représentant les paramètres d’un composant web approuvé.  <br/> |Nouveau dans Communications Server 2007.  <br/> |
+|msRTCSIP-TrustedWebComponentsServers  <br/> |Cette classe contient plusieurs instances de la classe msRTCSIP-TrustedWebComponentServer et ne possède pas d’attributs propres.  <br/> |Nouveau dans Communications Server 2007.  <br/> |
+|msRTCSIP-UnifiedCommunications (obsolète)  <br/> |Cette classe auxiliaire de msRTCSIP-GlobalContainer conserve des attributs relatifs aux communications unifiées.  <br/> |Obsolète dans Lync Server 2010.  <br/> |
+|msRTCSIP-WebComponents  <br/> |Cette classe contient le point de contrôle de service contrôle pointservice pour Internet Information Server (IIS). Il identifie un serveur comme un serveur de composants web.  <br/> |Nouveau dans Communications Server 2007.  <br/> |
+|msRTCSIP-WebComponentsService  <br/> |Cette classe fournit une association entre un pool spécifique et les composants web qui utilise le pool.  <br/> |Nouveau dans Communications Server 2007.  <br/> |
+|msRTCSIP-WebComponentSettings  <br/> |Cette classe auxiliaire de msRTCSIP-WebComponents conserve des attributs représentant des paramètres pour les composants web.  <br/> |Nouveau dans Communications Server 2007.  <br/> |
    
 

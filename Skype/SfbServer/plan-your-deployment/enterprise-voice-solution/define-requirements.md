@@ -1,5 +1,6 @@
 ---
 title: Définir votre configuration requise pour les appels d’urgence de Skype pour Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d891a212-8ad9-4bfa-9ca7-04921c46fb45
 description: Résume les étapes nécessaires pour activer E9-1-1 dans Skype pour Business Server Enterprise Voice, selon que vous avez un fournisseur de service de E9-1-1 de jonction SIP ou une passerelle ELIN.
-ms.openlocfilehash: 200e7fc8461f6628ab4827953a274ae8922646b6
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 3ddcb25b86689f29831872f24a1893d5ff2f1f4c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882044"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885360"
 ---
 # <a name="define-your-requirements-for-emergency-calls-in-skype-for-business-server"></a>Définir votre configuration requise pour les appels d’urgence de Skype pour Business Server
  
@@ -37,7 +38,7 @@ Avant de commencer une Skype pour le déploiement de serveur Business E9-1-1, vo
 |[Définir l’expérience utilisateur pour acquérir manuellement un emplacement dans Skype pour Business Server](manually-acquiring-a-location.md) <br/> |[Définir l’expérience utilisateur pour acquérir manuellement un emplacement dans Skype pour Business Server](manually-acquiring-a-location.md) <br/> |
 |[Conception de la jonction SIP pour E9-1-1 dans Skype pour Business Server](design-the-sip-trunk.md) <br/> |[Inclure le service de sécurité dans Skype pour Business Server](security-desk.md) <br/> |
 |[Inclure le service de sécurité dans Skype pour Business Server](security-desk.md) <br/> |[Planifier des stratégies d’emplacement de Skype pour Business Server](location-policies.md) <br/> |
-|[Choisir un fournisseur de services E9-1-1 pour Skype pour Business Server](choose-a-service-provider.md) <br/> |[Assigner l’étendue de stratégie d’emplacement dans Skype pour Business Server](location-policy-scope.md) <br/> |
+|[Choisir un fournisseur de service E9-1-1 pour Skype pour Business Server](choose-a-service-provider.md) <br/> |[Assigner l’étendue de stratégie d’emplacement dans Skype pour Business Server](location-policy-scope.md) <br/> |
 |[Planifier des stratégies d’emplacement de Skype pour Business Server](location-policies.md) <br/> ||
 |[Assigner l’étendue de stratégie d’emplacement dans Skype pour Business Server](location-policy-scope.md) <br/> ||
    

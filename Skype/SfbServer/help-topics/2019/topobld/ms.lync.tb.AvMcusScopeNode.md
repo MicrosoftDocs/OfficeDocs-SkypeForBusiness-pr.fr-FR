@@ -1,5 +1,6 @@
 ---
 title: Nœud d’étendue des services MCU audio/vidéo
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 76edf3b8-10c6-4c61-bbef-395f56d298ed
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Le nœud Pools de conférence A/V répertorie les pools de conférence A/V dans votre topologie. Vous pouvez effectuer l’action suivante :'
-ms.openlocfilehash: a3f4b1d3f2cc533533b7049ba83d89f475e4f6d5
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 8f9003f40c9bfb2c65a5e2df2e8cc1eb3877e1d4
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21061354"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886105"
 ---
 # <a name="av-mcus-scope-node"></a>Nœud d’étendue des services MCU audio/vidéo
  

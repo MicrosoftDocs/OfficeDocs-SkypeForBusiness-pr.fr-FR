@@ -1,5 +1,6 @@
 ---
 title: Définir les ordinateurs du pool de conversations permanentes
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f87c3abb-d8b4-4e51-af84-9b579e3807c5
 description: Vous définissez les ordinateurs qui feront partie d’un pool de serveurs de conversation permanente en tapant le nom de domaine complet (FQDN) dans le FQDN de l’ordinateur. Il doit s’agir du nom de domaine complet (FQDN) de l’ordinateur, défini dans les enregistrements d’hôte DNS (Domain Name System) (A ou AAAA).
-ms.openlocfilehash: 1fecb4bcd964a71261e781e445391c86079b0e8e
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: 78a6912dc3cd77e82a998f858abd78c9bb719869
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19503906"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880930"
 ---
 # <a name="define-computers-in-persistent-chat-pool"></a>Définir les ordinateurs du pool de conversations permanentes
  

@@ -1,5 +1,6 @@
 ---
 title: tblPrincipalType
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 32e1c1d6-80f4-4624-bf4e-b4c77d3982fa
 description: tblPrincipalType contient les types principaux pour classer les nouveautés dans la table tblPrincipal.
-ms.openlocfilehash: d5c710e1301344c853ef39aeff3b57f62c630c95
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: ab2cb28971f0564a082e0caed01e7fc622c41201
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19505124"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887435"
 ---
 # <a name="tblprincipaltype"></a>tblPrincipalType
  
@@ -38,7 +39,7 @@ tblPrincipalType contient les types principaux pour classer les nouveautés dans
    
 **Valeurs principales**
 
-|**ID**|**Rôle**|**Description**|**Utilisateur**|
+|**ID**|**Rôle**|**Description**|**User**|
 |:-----|:-----|:-----|:-----|
 |1  <br/> |Indifférente  <br/> |Entité de sécurité générique avec aucun type connu. Pas utilisée dans la table tblPrincipal.  <br/> ||
 |2  <br/> |AnyUser  <br/> |Entité de sécurité générique de type utilisateur. Pas utilisée dans la table tblPrincipal.  <br/> |Oui  <br/> |

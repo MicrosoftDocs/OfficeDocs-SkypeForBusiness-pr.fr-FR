@@ -1,5 +1,6 @@
 ---
-title: Obtenir les sous-éléments
+title: Obtenir des sous-éléments
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,27 +11,27 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0542eba9-3dda-40de-bba8-095d22825e4e
 description: 'Résumé : Découvrez l’opération obtenir les sous-éléments, qui fait partie du Service de l’élément. Le Service de l’élément fait partie de l’API de référentiel pour appeler le tableau de bord qualité. Tableau de bord de qualité des appels est un outil de Skype pour Business Server.'
-ms.openlocfilehash: 648f514ff03361673962052445d25076437057b9
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 41287978338bce49d8d8c30d1d6b91b9b2498acc
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531073"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889006"
 ---
-# <a name="get-sub-items"></a>Obtenir les sous-éléments
+# <a name="get-sub-items"></a>Obtenir des sous-éléments
  
 **Résumé :** Obtenir des informations sur l’opération obtenir les sous-éléments, qui fait partie du Service de l’élément. Le Service de l’élément fait partie de l’API de référentiel pour appeler le tableau de bord qualité. Tableau de bord de qualité des appels est un outil de Skype pour Business Server.
   
 L’opération obtenir les sous-éléments fait partie du Service d’élément dans l’API de référentiel pour appeler le tableau de bord qualité.
   
-## <a name="get-sub-items"></a>Obtenir les sous-éléments
+## <a name="get-sub-items"></a>Obtenir des sous-éléments
 
 Obtenez les sous-éléments renvoie les sous-éléments d’un élément spécifique.
   
 
 |**Méthode**|**URI de la demande**|**Version HTTP**|
 |:-----|:-----|:-----|
-|Télécharger  <br/> |https://\<portal\>/QoERepositoryService/référentiel/élément / {itemId} / sous-éléments  <br/> |HTTP/1.1.  <br/> |
+|Avoir  <br/> |https://\<portal\>/QoERepositoryService/référentiel/élément / {itemId} / sous-éléments  <br/> |HTTP/1.1.  <br/> |
    
  **Paramètres d’URI** - None.
   

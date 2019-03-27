@@ -1,5 +1,6 @@
 ---
 title: Préparer un schéma
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 337aa234-c5f3-4468-a047-2023848e942c
 ROBOTS: NOINDEX, NOFOLLOW
 description: Pour préparer le schéma pour les Services de domaine Active Directory, vous exécutez l’étape de préparation du schéma dans le Skype pour l’Assistant Déploiement Business Server. Cliquez sur Exécuter pour commencer la préparation du schéma.
-ms.openlocfilehash: 5cc9f4136d86408296a95c8bad0ffdbd13185d8d
-ms.sourcegitcommit: ddedcfe6efd4d8adec794a70c904468a45fbdeb4
+ms.openlocfilehash: fc9981e5a6f298d4d7697b00cde2798dd0b859ef
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/14/2018
-ms.locfileid: "22601961"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886246"
 ---
 # <a name="prepare-schema"></a>Préparer un schéma
  
