@@ -1,5 +1,6 @@
 ---
 title: Skype pour la résolution vidéo du client Business
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8f68f4c2-3194-487c-bd2f-fbe71ba8ad70
 description: 'Résumé : Passez en revue la configuration requise de client vidéo lors de la planification pour Skype pour Business Server.'
-ms.openlocfilehash: 0150acf98a2d5219975cf33c573f31f755db62f0
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: a17e3e269f24e74c5403c053723d544898560f34
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886142"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886689"
 ---
 # <a name="skype-for-business-client-video-resolutions"></a>Skype pour la résolution vidéo du client Business
  
@@ -66,23 +67,23 @@ Les trois tableaux suivants expliquent les capacités d’encodage et de décoda
 
 |**Résolution d’encodeur compatible**|**Résolution de décodeur compatible**|**Condition requise**|
 |:-----|:-----|:-----|
-|424 x 240  <br/> |424x240 (640x360 à 15 i/s pour des scénarios de réception uniquement)  <br/> |1 cœur et VideoEncodeScore ≥ 4,0  <br/> |
-|640 x 360  <br/> |640 x 360  <br/> |2 cœurs et VideoEncodeScore ≥ 4,5  <br/> |
-|640 x 360  <br/> |1280 x 720  <br/> |2 cœurs et VideoEncodeScore ≥ 4,5  <br/> |
-|640 x 360  <br/> |1920 x 1080  <br/> |4 cœurs et VideoEncodeScore ≥ 4,5  <br/> |
-|1280 x 720  <br/> |1280 x 720  <br/> |4 cœurs et VideoEncodeScore ≥ 7,3  <br/> |
-|1280 x 720  <br/> |1920 x 1080  <br/> |4 cœurs et VideoEncodeScore ≥ 7,3  <br/> |
-|1920 x 1080  <br/> |1920 x 1080  <br/> |N/A  <br/> |
+|424x240  <br/> |424x240 (640x360 à 15 i/s pour des scénarios de réception uniquement)  <br/> |1 cœur et VideoEncodeScore ≥ 4,0  <br/> |
+|640x360  <br/> |640x360  <br/> |2 cœurs et VideoEncodeScore ≥ 4,5  <br/> |
+|640x360  <br/> |1280x720  <br/> |2 cœurs et VideoEncodeScore ≥ 4,5  <br/> |
+|640x360  <br/> |1920x1080  <br/> |4 cœurs et VideoEncodeScore ≥ 4,5  <br/> |
+|1280x720  <br/> |1280x720  <br/> |4 cœurs et VideoEncodeScore ≥ 7,3  <br/> |
+|1280x720  <br/> |1920x1080  <br/> |4 cœurs et VideoEncodeScore ≥ 7,3  <br/> |
+|1920x1080  <br/> |1920x1080  <br/> |N/A  <br/> |
    
 **Ordinateur avec DXVA mais sans encodeur matériel accéléré**
 
 |**Résolution d’encodeur compatible**|**Résolution de décodeur compatible**|**Condition requise**|
 |:-----|:-----|:-----|
-|424 x 240  <br/> |1920 x 1080  <br/> |1 cœur et VideoEncodeScore ≥ 3,0  <br/> |
-|640 x 360  <br/> |1920 x 1080  <br/> |2 cœurs et VideoEncodeScore ≥ 4,5  <br/> |
-|960 x 540  <br/> |1920 x 1080  <br/> |2 cœurs et VideoEncodeScore ≥ 6,0  <br/> |
-|1280 x 720  <br/> |1920 x 1080  <br/> |4 cœurs et VideoEncodeScore ≥ 6,7  <br/> |
-|1920 x 1080  <br/> |1920 x 1080  <br/> |4 cœurs et VideoEncodeScore ≥ 8,2  <br/> |
+|424x240  <br/> |1920x1080  <br/> |1 cœur et VideoEncodeScore ≥ 3,0  <br/> |
+|640x360  <br/> |1920x1080  <br/> |2 cœurs et VideoEncodeScore ≥ 4,5  <br/> |
+|960x540  <br/> |1920x1080  <br/> |2 cœurs et VideoEncodeScore ≥ 6,0  <br/> |
+|1280x720  <br/> |1920x1080  <br/> |4 cœurs et VideoEncodeScore ≥ 6,7  <br/> |
+|1920x1080  <br/> |1920x1080  <br/> |4 cœurs et VideoEncodeScore ≥ 8,2  <br/> |
    
 > [!NOTE]
 > Le score WinSAT sur Windows 7 est limité à un maximum de 7,9. C’est pourquoi la capacité d’encodage d’un ordinateur sans encodeur matériel accéléré ne peut être obtenue que sur Windows 8 ou Windows 8.1, pour lequel le score WinSAT est de 9,9 au maximum. 
@@ -91,8 +92,8 @@ Les trois tableaux suivants expliquent les capacités d’encodage et de décoda
 
 |**Résolution d’encodeur compatible**|**Résolution de décodeur compatible**|**Condition requise**|
 |:-----|:-----|:-----|
-|1280 x 720  <br/> |1920 x 1080  <br/> |Intel HD Graphics deuxième et troisième générations  <br/> |
-|1920 x 1080  <br/> |1920 x 1080  <br/> |Intel HD Graphics deuxième et troisième générations avec GraphicsScore ≥ 5,0  <br/> |
+|1280x720  <br/> |1920x1080  <br/> |Intel HD Graphics deuxième et troisième générations  <br/> |
+|1920x1080  <br/> |1920x1080  <br/> |Intel HD Graphics deuxième et troisième générations avec GraphicsScore ≥ 5,0  <br/> |
    
 ## <a name="mobile-device-video-capabilities"></a>Capacité vidéo des appareils mobiles
 
