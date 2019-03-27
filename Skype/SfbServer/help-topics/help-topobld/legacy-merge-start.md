@@ -1,5 +1,6 @@
 ---
 title: Début de la fusion héritée
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,15 +12,16 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 04f160cf-13c3-4d9d-80ab-78908fe86abe
-description: Pour commencer la fusion d’un déploiement hérité avec Skype pour Business Server 2015, cliquez sur Suivant.
-ms.openlocfilehash: a2bf783b3f629e230f5fcda98d4fb920048660dd
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Pour commencer à fusionner un déploiement hérité avec Skype pour Business Server 2015, cliquez sur Suivant.
+ms.openlocfilehash: 76de2bdfe42e36c4ef4a3557ed29320dc3284606
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893187"
 ---
-# <a name="legacy-merge-start"></a><span data-ttu-id="fa76f-103">Début de la fusion héritée</span><span class="sxs-lookup"><span data-stu-id="fa76f-103">Legacy Merge Start</span></span>
+# <a name="legacy-merge-start"></a><span data-ttu-id="ea8c3-103">Début de la fusion héritée</span><span class="sxs-lookup"><span data-stu-id="ea8c3-103">Legacy Merge Start</span></span>
  
-<span data-ttu-id="fa76f-104">Pour commencer la fusion d’un déploiement hérité avec Skype pour Business Server 2015, cliquez sur **suivant**.</span><span class="sxs-lookup"><span data-stu-id="fa76f-104">To begin merging a legacy deployment with Skype for Business Server 2015, click **Next**.</span></span> 
+<span data-ttu-id="ea8c3-104">Pour commencer à fusionner un déploiement hérité avec Skype pour Business Server 2015, cliquez sur **suivant**.</span><span class="sxs-lookup"><span data-stu-id="ea8c3-104">To begin merging a legacy deployment with Skype for Business Server 2015, click **Next**.</span></span> 
   
 

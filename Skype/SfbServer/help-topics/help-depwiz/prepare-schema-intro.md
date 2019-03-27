@@ -1,5 +1,6 @@
 ---
 title: Préparer un schéma (introduction)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,15 +12,16 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e74f0ef5-4ced-489e-9509-e0464dad5c24
-description: Pour démarrer la tâche pour étendre le schéma pour Skype pour Business Server 2015, commencer sur la page préparation du schéma. Cliquez sur Suivant pour poursuivre la préparation du schéma.
-ms.openlocfilehash: cd0103b6f6f17c03e32991e8f95d7b42e4899fe4
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Pour démarrer la tâche pour étendre le schéma pour Skype pour Business Server 2015, vous commencez dans la page préparation du schéma. Cliquez ensuite sur Suivant pour continuer la préparation du schéma.
+ms.openlocfilehash: 7454e82fac3c2af03d640d499feeaf54dcdf38f7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892884"
 ---
-# <a name="prepare-schema-intro"></a><span data-ttu-id="1f256-104">Préparer un schéma (introduction)</span><span class="sxs-lookup"><span data-stu-id="1f256-104">Prepare Schema (Intro)</span></span>
+# <a name="prepare-schema-intro"></a><span data-ttu-id="68b8a-104">Préparer un schéma (introduction)</span><span class="sxs-lookup"><span data-stu-id="68b8a-104">Prepare Schema (Intro)</span></span>
  
-<span data-ttu-id="1f256-105">Pour démarrer la tâche pour étendre le schéma pour Skype pour Business Server 2015, commencer sur la page **Préparation du schéma** .</span><span class="sxs-lookup"><span data-stu-id="1f256-105">To start the task to extend the schema for Skype for Business Server 2015, you begin on the **Prepare Schema** page.</span></span> <span data-ttu-id="1f256-106">Cliquez ensuite sur **Suivant** pour continuer la préparation du schéma.</span><span class="sxs-lookup"><span data-stu-id="1f256-106">Click **Next** to continue with the schema preparation.</span></span>
+<span data-ttu-id="68b8a-105">Pour démarrer la tâche pour étendre le schéma pour Skype pour Business Server 2015, vous commencez dans la page **Préparation du schéma** .</span><span class="sxs-lookup"><span data-stu-id="68b8a-105">To start the task to extend the schema for Skype for Business Server 2015, you begin on the **Prepare Schema** page.</span></span> <span data-ttu-id="68b8a-106">Cliquez ensuite sur **Suivant** pour continuer la préparation du schéma.</span><span class="sxs-lookup"><span data-stu-id="68b8a-106">Click **Next** to continue with the schema preparation.</span></span>
   
 

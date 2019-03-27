@@ -1,5 +1,6 @@
 ---
 title: SQL Server Reporting Services (groupes)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,17 +13,17 @@ localization_priority: Normal
 ms.assetid: 412d46cf-7b60-4b7f-a2e6-73b447d909df
 ROBOTS: NOINDEX, NOFOLLOW
 description: Dans le groupe en lecture seule spécifier, spécifiez le groupe auquel vous souhaitez accorder l’accès en lecture seule aux rapports de surveillance.
-ms.openlocfilehash: f4a00fe17bcfa952b086609595c0e1b49c47e466
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 50ff995c05d2096dbac12f36b7083f255db7ec3e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20978586"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885297"
 ---
-# <a name="sql-server-reporting-services-groups"></a><span data-ttu-id="a1424-103">SQL Server Reporting Services (groupes)</span><span class="sxs-lookup"><span data-stu-id="a1424-103">SQL Server Reporting Services (Groups)</span></span>
+# <a name="sql-server-reporting-services-groups"></a><span data-ttu-id="cd0c9-103">SQL Server Reporting Services (groupes)</span><span class="sxs-lookup"><span data-stu-id="cd0c9-103">SQL Server Reporting Services (Groups)</span></span>
 
-<span data-ttu-id="a1424-104">Dans le champ **Spécifier un groupe en lecture seule**, spécifiez le groupe auquel vous souhaitez accorder l’accès en lecture seule aux rapports de surveillance.</span><span class="sxs-lookup"><span data-stu-id="a1424-104">In the **Specify Read-Only Group**, specify the group to whom you want to grant read-only access to Monitoring reports.</span></span> <span data-ttu-id="a1424-105">Utilisez le format &lt;domaine&gt;\\&lt;groupe accès&gt;.</span><span class="sxs-lookup"><span data-stu-id="a1424-105">Use the format &lt;domain&gt;\\&lt;access group&gt;.</span></span> <span data-ttu-id="a1424-106">Par exemple : contoso\RTCUniversalReadOnlyAdmins.</span><span class="sxs-lookup"><span data-stu-id="a1424-106">For example: contoso\RTCUniversalReadOnlyAdmins.</span></span>
+<span data-ttu-id="cd0c9-104">Dans le champ **Spécifier un groupe en lecture seule**, spécifiez le groupe auquel vous souhaitez accorder l’accès en lecture seule aux rapports de surveillance.</span><span class="sxs-lookup"><span data-stu-id="cd0c9-104">In the **Specify Read-Only Group**, specify the group to whom you want to grant read-only access to Monitoring reports.</span></span> <span data-ttu-id="cd0c9-105">Utilisez le format &lt;domaine&gt;\\&lt;groupe accès&gt;.</span><span class="sxs-lookup"><span data-stu-id="cd0c9-105">Use the format &lt;domain&gt;\\&lt;access group&gt;.</span></span> <span data-ttu-id="cd0c9-106">Par exemple : contoso\RTCUniversalReadOnlyAdmins.</span><span class="sxs-lookup"><span data-stu-id="cd0c9-106">For example: contoso\RTCUniversalReadOnlyAdmins.</span></span>
   
-<span data-ttu-id="a1424-107">Affectation d’un accès en lecture seule de groupe est facultative.</span><span class="sxs-lookup"><span data-stu-id="a1424-107">Assigning a group read-only access is optional.</span></span> <span data-ttu-id="a1424-108">Si vous ne souhaitez pas autoriser l’accès en lecture seule, vous pouvez la configurer ultérieurement directement dans SQL Server Reporting Services.</span><span class="sxs-lookup"><span data-stu-id="a1424-108">If you do not want to grant read-only access now, you can configure it later directly in SQL Server Reporting Services.</span></span>
+<span data-ttu-id="cd0c9-107">Affectation d’un accès en lecture seule de groupe est facultative.</span><span class="sxs-lookup"><span data-stu-id="cd0c9-107">Assigning a group read-only access is optional.</span></span> <span data-ttu-id="cd0c9-108">Si vous ne souhaitez pas autoriser l’accès en lecture seule, vous pouvez la configurer ultérieurement directement dans SQL Server Reporting Services.</span><span class="sxs-lookup"><span data-stu-id="cd0c9-108">If you do not want to grant read-only access now, you can configure it later directly in SQL Server Reporting Services.</span></span>
   
 

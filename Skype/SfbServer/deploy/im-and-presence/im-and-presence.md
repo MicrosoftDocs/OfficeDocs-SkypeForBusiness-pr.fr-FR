@@ -1,5 +1,6 @@
 ---
 title: Déploiement de messagerie instantanée et présence dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,25 +10,25 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ad792bb2-aee0-4986-a070-116ff3c10fe7
 description: 'Résumé : Découvrez les étapes de déploiement pour la messagerie instantanée et présence dans Skype pour Business Server.'
-ms.openlocfilehash: d55c8d495f3dd47b299c0854a05036c149db58d7
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 752b1864b7bf1cc4580fa35034e756cc2f0879df
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21005516"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884907"
 ---
-# <a name="deploy-instant-messaging-and-presence-in-skype-for-business-server"></a><span data-ttu-id="b4ebd-103">Déploiement de messagerie instantanée et présence dans Skype pour Business Server</span><span class="sxs-lookup"><span data-stu-id="b4ebd-103">Deploy instant messaging and presence in Skype for Business Server</span></span>
+# <a name="deploy-instant-messaging-and-presence-in-skype-for-business-server"></a><span data-ttu-id="17769-103">Déploiement de messagerie instantanée et présence dans Skype pour Business Server</span><span class="sxs-lookup"><span data-stu-id="17769-103">Deploy instant messaging and presence in Skype for Business Server</span></span>
  
-<span data-ttu-id="b4ebd-104">**Résumé :** Découvrez les étapes de déploiement pour la messagerie instantanée et présence dans Skype pour Business Server.</span><span class="sxs-lookup"><span data-stu-id="b4ebd-104">**Summary:** Learn about deployment steps for instant messaging and presence in Skype for Business Server.</span></span>
+<span data-ttu-id="17769-104">**Résumé :** Découvrez les étapes de déploiement pour la messagerie instantanée et présence dans Skype pour Business Server.</span><span class="sxs-lookup"><span data-stu-id="17769-104">**Summary:** Learn about deployment steps for instant messaging and presence in Skype for Business Server.</span></span>
   
-## <a name="deployment-steps-for-instant-messaging-and-presence"></a><span data-ttu-id="b4ebd-105">Étapes du déploiement de la messagerie instantanée et de la présence</span><span class="sxs-lookup"><span data-stu-id="b4ebd-105">Deployment steps for instant messaging and presence</span></span>
+## <a name="deployment-steps-for-instant-messaging-and-presence"></a><span data-ttu-id="17769-105">Étapes du déploiement de la messagerie instantanée et de la présence</span><span class="sxs-lookup"><span data-stu-id="17769-105">Deployment steps for instant messaging and presence</span></span>
 
-<span data-ttu-id="b4ebd-106">L'article relatif à la planification de la messagerie instantanée et de la présence fournit des informations pour vous aider à planifier votre déploiement.</span><span class="sxs-lookup"><span data-stu-id="b4ebd-106">The planning article for instant messaging and presence walks you through information to plan your deployment.</span></span> <span data-ttu-id="b4ebd-107">Messagerie instantanée et présence est activée lorsque vous installez Skype pour Business Server.</span><span class="sxs-lookup"><span data-stu-id="b4ebd-107">Instant messaging and presence is enabled when you install Skype for Business Server.</span></span> <span data-ttu-id="b4ebd-108">Pour en savoir plus sur la planification de la messagerie instantanée et présence, voir [planification de la messagerie instantanée et présence dans Skype pour Business Server](../../plan-your-deployment/instant-messaging-and-presence.md).</span><span class="sxs-lookup"><span data-stu-id="b4ebd-108">To learn more about planning instant messaging and presence, see [Plan for instant messaging and presence in Skype for Business Server](../../plan-your-deployment/instant-messaging-and-presence.md).</span></span>
+<span data-ttu-id="17769-106">L'article relatif à la planification de la messagerie instantanée et de la présence fournit des informations pour vous aider à planifier votre déploiement.</span><span class="sxs-lookup"><span data-stu-id="17769-106">The planning article for instant messaging and presence walks you through information to plan your deployment.</span></span> <span data-ttu-id="17769-107">Messagerie instantanée et présence est activée lorsque vous installez Skype pour Business Server.</span><span class="sxs-lookup"><span data-stu-id="17769-107">Instant messaging and presence is enabled when you install Skype for Business Server.</span></span> <span data-ttu-id="17769-108">Pour en savoir plus sur la planification de la messagerie instantanée et présence, voir [planification de la messagerie instantanée et présence dans Skype pour Business Server](../../plan-your-deployment/instant-messaging-and-presence.md).</span><span class="sxs-lookup"><span data-stu-id="17769-108">To learn more about planning instant messaging and presence, see [Plan for instant messaging and presence in Skype for Business Server](../../plan-your-deployment/instant-messaging-and-presence.md).</span></span>
   
-<span data-ttu-id="b4ebd-109">Dans cette section que vous découvrez quelques-unes des étapes de déploiement que vous pouvez personnaliser fines régler vos scénarios de présence et de messagerie instantanées.</span><span class="sxs-lookup"><span data-stu-id="b4ebd-109">In this section you learn about some of the deployment steps that you can customize to fine tune your instant messaging and presence scenarios.</span></span>
+<span data-ttu-id="17769-109">Dans cette section que vous découvrez quelques-unes des étapes de déploiement que vous pouvez personnaliser fines régler vos scénarios de présence et de messagerie instantanées.</span><span class="sxs-lookup"><span data-stu-id="17769-109">In this section you learn about some of the deployment steps that you can customize to fine tune your instant messaging and presence scenarios.</span></span>
   
-## <a name="in-this-section"></a><span data-ttu-id="b4ebd-110">Contenu de cette section</span><span class="sxs-lookup"><span data-stu-id="b4ebd-110">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="17769-110">Contenu de cette section</span><span class="sxs-lookup"><span data-stu-id="17769-110">In this section</span></span>
 
-> [<span data-ttu-id="b4ebd-111">Activer ou désactiver en mode hors connexion la messagerie instantanée dans Skype pour Business Server</span><span class="sxs-lookup"><span data-stu-id="b4ebd-111">Enable or Disable Offline Instant Messaging (IM) in Skype for Business Server</span></span>](enable-or-disable-offline-im.md)
+> [<span data-ttu-id="17769-111">Activer ou désactiver en mode hors connexion la messagerie instantanée dans Skype pour Business Server</span><span class="sxs-lookup"><span data-stu-id="17769-111">Enable or Disable Offline Instant Messaging (IM) in Skype for Business Server</span></span>](enable-or-disable-offline-im.md)
     
 

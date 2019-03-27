@@ -1,5 +1,6 @@
 ---
 title: Configurer un Site réseau créer une nouvelle ou en modifier une existant
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,18 +13,18 @@ localization_priority: Normal
 ms.assetid: 091aea61-22c2-4363-acd0-ccbc193755dd
 ROBOTS: NOINDEX, NOFOLLOW
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: 99007035d25a5ba9dbe89b8a35364975501112bf
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: a0e2c82be2f2c11953fc2a98b4fd518a8d72acf4
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23245529"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894634"
 ---
-# <a name="configure-a-network-site-create-new-or-edit-existing"></a><span data-ttu-id="52dee-104">Configurer un Site réseau : créer une nouvelle ou en modifier une existant</span><span class="sxs-lookup"><span data-stu-id="52dee-104">Configure a Network Site: Create New or Edit Existing</span></span>
+# <a name="configure-a-network-site-create-new-or-edit-existing"></a><span data-ttu-id="d717c-104">Configuration d’un site réseau : en créer une autre ou en modifier une existant</span><span class="sxs-lookup"><span data-stu-id="d717c-104">Configure a Network Site: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="52dee-p102">Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="52dee-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="d717c-105">Que voulez-vous faire ?</span><span class="sxs-lookup"><span data-stu-id="d717c-105">What do you want to do?</span></span> <span data-ttu-id="d717c-106">Cliquez sur le lien de la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="d717c-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="52dee-107">Configuration de Sites réseau</span><span class="sxs-lookup"><span data-stu-id="52dee-107">Configuring Network Sites</span></span>](https://technet.microsoft.com/library/358aa08a-c5bc-45fc-8017-19e6202f88c5.aspx)
+- [<span data-ttu-id="d717c-107">Configuration de Sites réseau</span><span class="sxs-lookup"><span data-stu-id="d717c-107">Configuring Network Sites</span></span>](https://technet.microsoft.com/library/358aa08a-c5bc-45fc-8017-19e6202f88c5.aspx)
 
 
 
