@@ -1,5 +1,6 @@
 ---
 title: Plan pour le magasin de contacts unifié dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d56e11be-43dd-45d4-8ac6-3adfb03f5d1a
 description: 'Résumé : Passez en revue cette rubrique lors de la planification intégrer Skype pour Business Server avec Exchange 2013.'
-ms.openlocfilehash: b66282f43e6203d1477c9076de45bba3e9c344ff
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: fd408466034646938d002c609a263e71077e5b94
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21011483"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882655"
 ---
 # <a name="plan-for-unified-contact-store-in-skype-for-business-server-2015"></a>Planification d’un magasin de contacts unifié dans Skype Entreprise Server 2015
  

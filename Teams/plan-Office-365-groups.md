@@ -1,5 +1,6 @@
 ---
 title: Planifier les groupes Office 365 lors de la création d'équipes dans Microsoft Teams
+ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -14,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1a54549fd1e82affecad6a69d17e10cf6e1dc763
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.openlocfilehash: 016831a9c3d5cac6c331d6112adbc2738ec8382b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30640681"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884385"
 ---
 <a name="plan-for-office-365-groups-when-creating-teams-in-microsoft-teams"></a>Planifier les groupes Office 365 lors de la création d'équipes dans Microsoft Teams
 ==========================================================
@@ -28,7 +29,7 @@ Lors de votre prise de décision sur la création de groupes Office 365 ou d'é
 
 Deux scénarios peuvent être débattus concernant la planification de groupes Office 365 et leur impact sur Microsoft Teams ou inversement :
 
--   Tout d’abord, dans la mesure où les clients peuvent être des investissements existants dans des groupes, nous actuellement prise en charge des groupes de moins de 2 500 membres publics et privés. Comme mentionné précédemment, vous souhaitez gérer l’appartenance des personnes à une équipe à l’aide du client équipes au lieu de la console web d’administration Office 365. Dans ce scénario, si les personnes sont utilisés pour la thread de conversations dans Office 365 groupes, il est intéressant de souligner qu’une conversation de groupes est essentiellement courrier électronique et pas identique à un message de conversation dans un canal d’équipes. Formez votre personnel à propos de cette différence et suggérer qu’ils adoptent le format du message de conversation davantage de flexibilité dans les équipes par rapport à la messagerie du groupe à l’aide d’Outlook ou OWA.
+-   Tout d’abord, dans la mesure où les clients peuvent être des investissements existants dans des groupes, nous actuellement prise en charge des groupes de moins de 5 000 membres publics et privés. Comme mentionné précédemment, vous souhaitez gérer l’appartenance des personnes à une équipe à l’aide du client équipes au lieu de la console web d’administration Office 365. Dans ce scénario, si les personnes sont utilisés pour la thread de conversations dans Office 365 groupes, il est intéressant de souligner qu’une conversation de groupes est essentiellement courrier électronique et pas identique à un message de conversation dans un canal d’équipes. Formez votre personnel à propos de cette différence et suggérer qu’ils adoptent le format du message de conversation davantage de flexibilité dans les équipes par rapport à la messagerie du groupe à l’aide d’Outlook ou OWA.
 
 -   Deuxièmement, pour les clients qui ne possèdent pas les groupes existants définis dans Office 365, vous pouvez créer à l’aide du portail d’administration d’Office 365, web équipes ou les clients de bureau. Comme mentionné précédemment, gérer toutes les appartenances futures au groupe Office 365 à l’aide du client équipes. Étant donné que l’appartenance à une équipe définit également l’appartenance aux groupes d’Office 365, vous devez préparer les personnes pour que cette modification.
  

@@ -1,5 +1,6 @@
 ---
 title: Nœud d’étendue des composants partagés
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dc8238a0-24aa-47a0-b871-4465ada1761e
 description: Vous avec le bouton droit cliquez sur composants partagés dans l’arborescence du Générateur de topologie pour créer des composants partagés ou pour accéder aux options au niveau de la topologie.
-ms.openlocfilehash: 5fe8e8e51a8a831174ea2ffc67f7ce4db86f4c2b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 0e48d23942922963af66ea8c28429682c68c7267
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21014239"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883481"
 ---
 # <a name="shared-components-scope-node"></a>Nœud d’étendue des composants partagés
  
@@ -34,6 +35,6 @@ Sélectionnez **Nouveau** pour créer un magasin de fichiers, une nouvelle passe
   
 Vous sélectionnez la **topologie** sur options pour ouvrir un nouveau document de topologie. Ouvrez un document de topologie existant, télécharger la topologie actuelle à partir du magasin Central de gestion, enregistrer une copie du document actif de la topologie, publier le document actif de la topologie, installez la base de données pour créer les configurations de base de données actuellement configurée, Fusionner Office Communications Server 2007 R2 dans le déploiement actuel ou pour supprimer le déploiement.
   
-![Nœud d’étendue C des composants partagés](../../media/Shared_Components_Scope_NodeC.jpg)
+![Shared nœud d’étendue des composants C](../../media/Shared_Components_Scope_NodeC.jpg)
   
 

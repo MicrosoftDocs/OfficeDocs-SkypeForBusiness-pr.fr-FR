@@ -1,5 +1,6 @@
 ---
 title: Client mobile créer ou modifier la Configuration des notifications Push
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fb39af60-c999-42fb-9538-0bd87098f508
 description: Les notifications Push et le centre d’échanges de notifications Push (Push Notification Clearing House, PNCH) sont deux éléments clés de la fonctionnalité de mobilité. Une notification Push correspond au processus dans lequel un message est envoyé au centre d’échanges de notifications Push. Ce message y est conservé jusqu’à ce qu’il puisse être remis au client mobile ou que le délai d’expiration soit dépassé.
-ms.openlocfilehash: 0690166113f702c641e92c61001242017352bf47
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: d9c3ae19255e58c9de5874d745107654a93f7a28
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371832"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882186"
 ---
 # <a name="mobile-client-create-or-edit-push-notification-configuration"></a>Client mobile : création ou modification d’une configuration des notifications Push
  

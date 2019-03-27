@@ -1,5 +1,6 @@
 ---
 title: Rapport de liste d’appels Response Group dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a2d3e08b-511b-4507-abba-8ff71aa27c8e
 description: 'Résumé : Découvrez l’application Response Group dans Skype pour Business Server.'
-ms.openlocfilehash: c85d94c975cb7e104fdefc50ab935cf695223127
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 5fe2665a90d5a2122965dd89fdf58087d910de47
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372922"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883258"
 ---
 # <a name="response-group-call-list-report-in-skype-for-business-server"></a>Rapport de liste d’appels Response Group dans Skype pour Business Server
 
@@ -94,7 +95,7 @@ Les filtres vous offrent la possibilité de renvoyer un ensemble de données mie
 |:-----------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **De** <br/>         | Date/heure de début de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de début comme suit :  <br/> 07/07/2015 13:00  <br/> Si vous ne précisez aucune heure de début, le rapport commence automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 07/07/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 03/07/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
 | **À** <br/>           | Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :  <br/> 07/07/2015 13:00  <br/> Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 07/07/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 03/07/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/>        |
-| **URI du flux de travail** <br/> | Vous permet de limiter les données renvoyées au flux de travail Response Group spécifié. Pour utiliser ce filtre, entrez l’adresse SIP du flux de travail. Par exemple :  <br/> SIP:HelpDesk@litwareinc.com  <br/>                                                                                                                                                                                                                                                                                                                                                                            |
+| **URI du flux de travail** <br/> | Vous permet de limiter les données renvoyées au flux de travail Response Group spécifié. Pour utiliser ce filtre, entrez l’adresse SIP du flux de travail. Par exemple :  <br/> sip:helpdesk@litwareinc.com  <br/>                                                                                                                                                                                                                                                                                                                                                                            |
 | **Appels** <br/>        | Vous pouvez sélectionner l’un des types d’appels suivants : <br/>  Appels reçus <br/>  Appels réussis <br/>  Appels offerts <br/>  Appels ayant obtenu une réponse <br/>  Appels transférés <br/>                                                                                                                                                                                                                                                                                                                                                                                                |
 
 ## <a name="metrics"></a>Mesures

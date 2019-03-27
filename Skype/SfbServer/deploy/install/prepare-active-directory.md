@@ -1,5 +1,6 @@
 ---
 title: Préparer Active Directory pour Skype pour Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -14,18 +15,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 985077a4-c8e1-4d5a-9fcf-fef41cf6d61d
 description: 'Résumé : Découvrez comment préparer votre domaine Active Directory pour une installation de Skype pour Business Server. Téléchargez une version d’évaluation gratuite de Skype pour Business Server depuis le centre d’évaluation Microsoft à : https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: 278a46ab7f39f3274905741fb40212869c043e9e
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: de5de35377e526844a7badeb9897fe29b4b15db4
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884003"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880825"
 ---
 # <a name="prepare-active-directory-for-skype-for-business-server"></a>Préparer Active Directory pour Skype pour Business Server
  
 **Résumé :** Découvrez comment préparer votre domaine Active Directory pour une installation de Skype Business Server. Téléchargez une version d’évaluation gratuite de Skype pour Business Server à partir du [Centre d’évaluation de Microsoft](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
   
-Skype pour Business Server travaille en étroite collaboration avec Active Directory. Vous devez préparer le domaine Active Directory pour fonctionner avec Skype pour Business Server. Ce processus est effectué dans l’Assistant Déploiement et s’effectue uniquement une seule fois pour le domaine. Ceci est dû au fait que le processus crée des groupes et modifie le domaine et vous n’avez besoin d’effectuer cette opération qu’une seule fois. Vous pouvez effectuer les étapes 1 à 5 dans un ordre quelconque. Cependant, vous devez exécuter les étapes 6, 7 et 8 dans l’ordre et après les étapes 1 à 5 comme indiqué dans le diagramme. Préparation d’Active Directory est l’étape 4 de 8. Pour plus d’informations sur la planification d’Active Directory, consultez [exigences pour Skype pour Business Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) ou [configuration serveur requise pour Skype pour Business Server 2019](../../../SfBServer2019/plan/system-requirements.md).
+Skype pour Business Server travaille en étroite collaboration avec Active Directory. Vous devez préparer le domaine Active Directory pour fonctionner avec Skype pour Business Server. Ce processus est effectué dans l’Assistant Déploiement et s’effectue uniquement une seule fois pour le domaine. Ceci est dû au fait que le processus crée des groupes et modifie le domaine et vous n’avez besoin d’effectuer cette opération qu’une seule fois. Vous pouvez effectuer les étapes 1 à 5 dans n’importe quel ordre. Cependant, vous devez suivre les étapes 6,7 et 8 dans l’ordre et après avoir effectué les étapes 1 à 5, comme expliqué dans le diagramme. Préparation d’Active Directory est l’étape 4 de 8. Pour plus d’informations sur la planification d’Active Directory, consultez [exigences pour Skype pour Business Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) ou [configuration serveur requise pour Skype pour Business Server 2019](../../../SfBServer2019/plan/system-requirements.md).
   
 ![schéma de vue d’ensemble](../../media/2c52d307-7859-4009-9489-024b2e130bb3.png)
   
@@ -161,7 +162,7 @@ Regardez en vidéo les étapes pour **préparer Active Directory** :
     e. Sous l’onglet **Membres**, confirmez que les utilisateurs ou les groupes que vous avez sélectionnés sont présents. Cliquez sur **OK**.
     
     > [!CAUTION]
-    > Le Skype pour Business Server Control Panel est un outil de contrôle d’accès basé sur un rôle. L’appartenance au groupe CsAdministrator donne à un utilisateur qui utilise le Skype pour le panneau de configuration serveur Business un contrôle total sur toutes les fonctions de configuration disponibles. Il existe d’autres rôles disponibles conçus pour des fonctions spécifiques. Pour plus d’informations sur les rôles disponibles, consultez [exigences pour Skype pour Business Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) ou la [configuration serveur requise pour Skype pour Business Server 2019](../../../SfBServer2019/plan/system-requirements.md). Notez que les utilisateurs ne doivent pas être activé pour Skype pour Business Server afin de devenir membres des groupes d’administration. 
+    > Le Skype pour Business Server Control Panel est un outil de contrôle d’accès basé sur un rôle. L’appartenance au groupe CsAdministrator donne à un utilisateur qui utilise le Skype pour le panneau de configuration serveur Business un contrôle total sur toutes les fonctions de configuration disponibles. D’autres rôles conçus pour des fonctions spécifiques sont disponibles. Pour plus d’informations sur les rôles disponibles, consultez [exigences pour Skype pour Business Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) ou la [configuration serveur requise pour Skype pour Business Server 2019](../../../SfBServer2019/plan/system-requirements.md). Notez que les utilisateurs ne doivent pas être activé pour Skype pour Business Server afin de devenir membres des groupes d’administration. 
   
     > [!CAUTION]
     > Pour préserver la sécurité et l’intégrité de contrôle d’accès basé sur un rôle, ajouter des utilisateurs aux groupes qui définissent le rôle tenu par l’utilisateur dans la gestion de la Skype pour le déploiement de serveur d’entreprise. 
@@ -175,4 +176,4 @@ Regardez en vidéo les étapes pour **préparer Active Directory** :
 
 ## <a name="see-also"></a>Voir aussi
  
-[Services de domaine Active Directory pour Skype Entreprise Server 2015](../../plan-your-deployment/security/active-directory-domain-services.md)
+[Active Directory Domain Services for Skype for Business Server 2015](../../plan-your-deployment/security/active-directory-domain-services.md)

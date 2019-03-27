@@ -1,5 +1,6 @@
 ---
 title: Modifier une stratégie dans Skype d’archivage pour Business Server existante
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4cf600be-ba3d-4bce-aa22-e158b9ccf8a9
 description: 'Résumé : Découvrez comment modifier l’utilisateur, les stratégies d’archivage pour Skype pour Business Server.'
-ms.openlocfilehash: 6c92d4f7e4c2a464d248f6b981165de000615432
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 66365ea489f0450f0489c03bf0e273731d5526a8
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20974650"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884335"
 ---
 # <a name="change-an-existing-archiving-policy-in-skype-for-business-server"></a>Modifier une stratégie dans Skype d’archivage pour Business Server existante
  
@@ -28,7 +29,7 @@ Lorsque vous déployez tout d’abord Skype pour Business Server, vous définiss
     
 2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business. 
     
-3. Dans la barre de navigation de gauche, cliquez sur **Surveillance et archivage**, puis sur **Stratégie d’archivage**.
+3. Dans la barre de navigation de gauche, cliquez sur **surveillance et archivage**, puis cliquez sur **Stratégie d’archivage**.
     
 4. Dans la liste des stratégies, effectuez l’une des opérations suivantes : 
     

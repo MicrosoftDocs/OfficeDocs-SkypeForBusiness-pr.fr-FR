@@ -1,5 +1,6 @@
 ---
-title: Stratégie d’archivage, créer ou modifier une existante
+title: Stratégie d’archivage créer ou modifier une existant
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,25 +12,26 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a4f948e7-e8f6-449a-8907-f61c5b143c05
-description: 'Les stratégies d’archivage vous permet de contrôler l’archivage des communications internes et externes dans votre déploiement pour les utilisateurs qui sont hébergés sur Skype pour Business Server. Les stratégies d’archivage incluent la stratégie globale, ainsi, éventuellement, qu’une ou plusieurs stratégies de site et utilisateur :'
-ms.openlocfilehash: af8038371cd421b0232ce2df0ba92aa5b079702e
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Vous utilisez des stratégies d’archivage pour contrôler l’archivage des communications internes et externes de votre déploiement pour les utilisateurs qui sont hébergés sur Skype pour Business Server. Les stratégies d’archivage incluent la stratégie globale, ainsi, éventuellement, qu’une ou plusieurs stratégies de site et utilisateur :'
+ms.openlocfilehash: 76dcc63ed6c08c0a8d11c79547b8a11f6b1e4b39
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880734"
 ---
 # <a name="archiving-policy-create-new-or-edit-existing"></a>Stratégie d’archivage : création d’une stratégie ou modifier d’une stratégie existante
  
-Les stratégies d’archivage vous permet de contrôler l’archivage des communications internes et externes dans votre déploiement pour les utilisateurs qui sont hébergés sur Skype pour Business Server. Les stratégies d’archivage incluent la stratégie globale, ainsi, éventuellement, qu’une ou plusieurs stratégies de site et utilisateur :
+Vous utilisez des stratégies d’archivage pour contrôler l’archivage des communications internes et externes de votre déploiement pour les utilisateurs qui sont hébergés sur Skype pour Business Server. Les stratégies d’archivage incluent la stratégie globale, ainsi, éventuellement, qu’une ou plusieurs stratégies de site et utilisateur :
   
-- **Stratégie globale** La stratégie globale est créée par défaut dans Skype tous les déploiements de serveurs de l’entreprise. Vous pouvez modifier la stratégie globale, mais vous ne pouvez pas la supprimer. Si vous essayez de la supprimer, les valeurs par défaut de toutes les options sont restaurées.
+- **Stratégie globale** La stratégie globale est créée par défaut dans tous les Skype pour les déploiements de serveur d’entreprise. Vous pouvez modifier la stratégie globale, mais vous ne pouvez pas la supprimer. Si vous essayez de la supprimer, les valeurs par défaut de toutes les options sont restaurées.
     
-- **Stratégies de site (facultatifs)** Vous pouvez spécifier des stratégies d’archivage site un ou plusieurs, que chacun d’eux vous pouvez configurer pour activer et désactiver l’archivage des communications internes ou externes pour un site spécifique. Une stratégie de site remplace la stratégie globale, mais uniquement pour les sites spécifiés dans les stratégies d’archivage. Vous pouvez modifier ou supprimer les stratégies de site.
+- **Stratégies de site (facultatifs)** Vous pouvez spécifier une ou plusieurs sites d’archivage stratégies, que chacun d'entre eux vous pouvez configurer pour activer et désactiver l’archivage des communications internes ou externes pour un site spécifique. Une stratégie de site remplace la stratégie globale, mais uniquement pour les sites spécifiés dans les stratégies d’archivage. Vous pouvez modifier ou supprimer les stratégies de site.
     
-- **Stratégies de l’utilisateur (facultatifs)** Vous pouvez spécifier des stratégies d’archivage utilisateur un ou plusieurs, que chacun d’eux vous pouvez configurer pour activer et désactiver l’archivage des communications internes ou externes pour un utilisateur spécifique. Une stratégie utilisateur remplace la stratégie globale et les stratégies de site, mais uniquement pour le ou les utilisateurs auxquels vous attribuez une stratégie utilisateur. Vous pouvez modifier ou supprimer les stratégies utilisateur.
+- **Stratégies d’utilisateur (facultatifs)** Vous pouvez spécifier des stratégies d’archivage utilisateur un ou plusieurs, que chacun d'entre eux vous pouvez configurer pour activer et désactiver l’archivage pour les communications internes ou externes pour un utilisateur spécifique. Une stratégie utilisateur remplace la stratégie globale et les stratégies de site, mais uniquement pour le ou les utilisateurs auxquels vous attribuez une stratégie utilisateur. Vous pouvez modifier ou supprimer les stratégies utilisateur.
     
 > [!NOTE]
-> Si vous utilisez l’intégration de Microsoft Exchange pour stocker, contrôle d’archivage pour les utilisateurs de l’archivage des données dans Microsoft Exchange, puis les stratégies Exchange 2013 hébergé sur Exchange 2013. Pour activer l’archivage pour les utilisateurs, les boîtes aux lettres de l’utilisateur doivent être placés sur Place maintenez. 
+> Si vous utilisez l’intégration d’Exchange pour stocker les données dans Microsoft Exchange, puis Exchange 2013 stratégies d’archivage contrôle l’archivage pour les utilisateurs hébergés sur Exchange 2013. Pour activer l’archivage pour les utilisateurs, boîte aux lettres de l’utilisateur doit être placé sur le blocage sur Place. 
   
 Pour configurer les paramètres pour une stratégie d’archivage nouvelle ou existante, spécifiez les options suivantes :
 - **Nom** Chaque stratégie d’archivage requiert un nom. Le nom est déterminé par le type de stratégie que vous ajoutez ou modifiez :
@@ -38,13 +40,13 @@ Pour configurer les paramètres pour une stratégie d’archivage nouvelle ou ex
     
   - **Stratégie de site** Les sites répertoriés dans cette boîte de dialogue incluent tous les sites disponibles dans votre déploiement. Cliquez sur un site individuel pour le sélectionner. Par exemple, Centre de données de Redmond.
     
-  - **Stratégie de l’utilisateur** Spécifiez un nom approprié, tel que le nom d’un utilisateur spécifique ou le nom d’un groupe d’utilisateurs ou de l’équipe de votre organisation. Par exemple, Service juridique.
+  - **Stratégie utilisateur** Spécifiez un nom approprié, tel que le nom d’un utilisateur spécifique ou le nom d’un groupe d’utilisateurs ou de l’équipe dans votre organisation. Par exemple, Service juridique.
     
-- **Description** Cette option est facultative. Elle permet de fournir des détails supplémentaires, tels que l’étendue ou l’utilisation de la stratégie. Par exemple, coordonner avec les services juridiques des autres Sites.
+- **Description** Cette étape est facultative. Utilisez-le pour fournir des détails supplémentaires, tels que l’étendue ou l’utilisation de la stratégie. Par exemple, coordonner avec les services juridiques des autres Sites.
     
-- **Archiver les communications internes** Activez cette case à cocher pour activer l’archivage des communications sur votre réseau interne. Par défaut, il n’est pas activé dans n’importe quelle stratégie.
+- **Archiver les communications internes** Activez cette case à cocher pour activer l’archivage des communications sur votre réseau interne. Par défaut, il n’est pas activé dans toutes les stratégies.
     
-- **Archiver les communications externes** Activez cette case à cocher pour activer l’archivage des communications qui incluent les utilisateurs externes, tels que des utilisateurs distants, (y compris les utilisateurs anonymes et définition de PIC) et les partenaires fédérés. Par défaut, il n’est pas activé dans n’importe quelle stratégie.
+- **Archiver les communications externes** Activez cette case à cocher pour activer l’archivage des communications qui incluent des utilisateurs externes, tels que les utilisateurs distants, (y compris les utilisateurs anonymes et définition de PIC) et les partenaires fédérés. Par défaut, il n’est pas activé dans toutes les stratégies.
     
-Pour plus d’informations sur la fonctionnalité d’archivage et de fonctionnalités, y compris l’intégration d’Exchange, consultez [planification d’archivage dans Skype pour Business Server 2015](../../plan-your-deployment/archiving/archiving.md), [déployer l’archivage pour Skype pour Business Server 2015](../../deploy/deploy-archiving/deploy-archiving.md)et [gérer l’archivage dans Skype pour Entreprise 2015 de serveur](../../manage/archiving/archiving.md).
+Pour plus d’informations sur la fonctionnalité d’archivage et les fonctionnalités, y compris l’intégration d’Exchange, voir [planifier l’archivage dans Skype pour Business Server 2015](../../plan-your-deployment/archiving/archiving.md), [déployer l’archivage pour Skype pour Business Server 2015](../../deploy/deploy-archiving/deploy-archiving.md)et [gérer l’archivage dans Skype pour Entreprise 2015 Server](../../manage/archiving/archiving.md).
 

@@ -1,5 +1,6 @@
 ---
 title: Ajouter un ordinateur d’applications approuvées
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: e951328e-d06b-4c9d-af21-305b2357188b
 ROBOTS: NOINDEX, NOFOLLOW
 description: Spécifiez le nom de domaine complet (FQDN) de chaque ordinateur que vous souhaitez ajouter en tant qu’un serveur de ce pool d’applications approuvées. Après avoir ajouté un ordinateur à la liste, vous pouvez mettre à jour le nom de domaine complet de l’ordinateur ou le supprimer du pool à tout moment avant la publication de la topologie. Une fois que vous publiez la topologie, modification du nom complet nécessite la suppression du serveur dans le Générateur de topologie, puis en ajoutant un nouveau serveur au pool avec le nouveau nom de domaine complet.
-ms.openlocfilehash: 1c064570e4451d80c72bfc1a3bb6dd3fe9d185c4
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 1508b7ace9b2ecec9db1b97a2cd71fab740bc2e9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21059006"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881903"
 ---
 # <a name="add-trusted-application-machine"></a>Ajouter un ordinateur d’applications approuvées
  

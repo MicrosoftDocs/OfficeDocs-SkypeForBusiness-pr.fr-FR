@@ -1,5 +1,6 @@
 ---
 title: Rôles d’administration et Skype pour le panneau de configuration serveur Business
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 7d1ff1e0-eb89-4703-be50-71e94329d8b2
 ROBOTS: NOINDEX, NOFOLLOW
 description: Pour activer vous permet de déléguer des tâches administratives tout en conservant les normes de sécurité strictes, Skype pour Business Server prend en charge le contrôle d’accès basé sur un rôle (RBAC).
-ms.openlocfilehash: 96b76a0ca0a18b27cc0d56232dc72df0fae55980
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 928b0c9602c309e63c3fb6a61bdbcceeb2d9f539
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23247002"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881666"
 ---
 # <a name="administrative-roles-and-skype-for-business-server-control-panel"></a>Rôles d’administration et Skype pour le panneau de configuration serveur Business
 

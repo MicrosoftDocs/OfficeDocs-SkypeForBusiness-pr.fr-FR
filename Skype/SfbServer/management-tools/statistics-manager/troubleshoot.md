@@ -1,5 +1,6 @@
 ---
-title: Résoudre les statistiques du gestionnaire pour Skype pour Business Server
+title: Dépannage du gestionnaire de statistiques pour Skype Entreprise Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,14 +11,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 946189fa-521f-455c-9762-904e7e41b791
 description: 'Résumé : Lisez cette rubrique pour résoudre les problèmes de votre déploiement du Gestionnaire de statistiques de Skype pour Business Server.'
-ms.openlocfilehash: 236b109f28de838d626e9c85844b87dc9e9eb20b
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: 33635c39086211e7e3e99b33268870c56704a367
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297917"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883805"
 ---
-# <a name="troubleshoot-statistics-manager-for-skype-for-business-server"></a>Résoudre les statistiques du gestionnaire pour Skype pour Business Server
+# <a name="troubleshoot-statistics-manager-for-skype-for-business-server"></a>Dépannage du gestionnaire de statistiques pour Skype Entreprise Server
  
 **Résumé :** Lisez cette rubrique pour résoudre les problèmes de votre déploiement du Gestionnaire de statistiques de Skype pour Business Server.
   
@@ -172,8 +173,8 @@ Cette rubrique décrit comment résoudre les problèmes de votre déploiement de
 
 Pour plus d’informations, voir les articles suivants :
   
-- [Planifier Business Server pour le Gestionnaire de statistiques de Skype](plan.md)
+- [Planifier le gestionnaire de statistiques pour Skype Entreprise Server](plan.md)
     
-- [Déployer des statistiques responsable Skype pour Business Server](deploy.md)
+- [Déploiement du gestionnaire de statistiques pour Skype Entreprise Server](deploy.md)
     
-- [Mise à niveau du Gestionnaire de statistiques pour Skype pour Business Server](upgrade.md)
+- [Mise à niveau du gestionnaire de statistiques pour Skype Entreprise Server](upgrade.md)

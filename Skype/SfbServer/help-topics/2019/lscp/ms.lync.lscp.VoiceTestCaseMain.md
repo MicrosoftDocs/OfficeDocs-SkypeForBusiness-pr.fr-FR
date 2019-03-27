@@ -1,5 +1,6 @@
 ---
 title: Tester les cas de Test du routage des communications vocales
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: d683c9e6-a2e4-4c6c-89d3-b60ed26de592
 ROBOTS: NOINDEX, NOFOLLOW
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: 6d043d7dbf4c74b1b2fae7dd421fcf48759bd90b
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 2cdd4fac098f0a3906a380ba947229cef50d7ea2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23247776"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881882"
 ---
-# <a name="test-voice-routing-test-cases"></a>Routage des communications vocales de test : cas de Test
+# <a name="test-voice-routing-test-cases"></a>Tester le routage des communications vocales : cas de test
 
 Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
 

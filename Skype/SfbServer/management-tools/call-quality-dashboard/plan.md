@@ -1,5 +1,6 @@
 ---
 title: Planifier pour le tableau de bord qualité appel Skype pour Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: 'Résumé : Découvrez les éléments à prendre en compte lorsque vous planifiez le tableau de bord qualité des appels.'
-ms.openlocfilehash: 684ec4ead9d6292cb316f1330bace65149151fbf
-ms.sourcegitcommit: e53749714dcde9f7b184d5ef554bffbc77f54267
+ms.openlocfilehash: ee82d56747ee4f4241f2630a5a6fd3136ff42be4
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28729457"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884420"
 ---
 # <a name="plan-for-call-quality-dashboard-for-skype-for-business-server"></a>Planifier pour le tableau de bord qualité appel Skype pour Business Server 
  
@@ -186,7 +187,7 @@ Cette section, en partant du principe qu’il existe une seule base de données 
 
 |**Machine**|**Cœurs de processeur**|**RAM**|**QoE Archive et Cube sur le même disque**|**QoE Archive et la base de données SQL Temp sur le même disque**|
 |:-----|:-----|:-----|:-----|:-----|
-|Ordinateur virtuel  <br/> |4  <br/> |7 GO  <br/> |Oui  <br/> |Oui  <br/> |
+|Ordinateur virtuel  <br/> |4  <br/> |7 GO  <br/> |Oui   <br/> |Oui  <br/> |
 |4 cœurs  <br/> |4  <br/> |20 GO  <br/> |Oui  <br/> |Non  <br/> |
 |8 principaux  <br/> |8  <br/> |32 GO  <br/> |Oui  <br/> |Non  <br/> |
 |16 cœurs  <br/> |16  <br/> |128 GO  <br/> |Non  <br/> |Non  <br/> |
@@ -287,7 +288,7 @@ Les versions suivantes de SQL Server sont prises en charge :
   
 - SQL Server 2012
     
-- SQL Server 2014
+- SQL Server 2014
 
 - SQL Server 2016
 

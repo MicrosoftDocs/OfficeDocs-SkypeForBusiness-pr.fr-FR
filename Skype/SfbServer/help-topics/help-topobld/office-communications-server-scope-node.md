@@ -1,5 +1,6 @@
 ---
 title: Nœud d’étendue d’Office Communications Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -11,17 +12,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ec5088ec-71b5-42cb-9f04-242716877178
-description: Cette rubrique fait partie de la documentation préliminaire. Elle est susceptible d’être modifiée lors des prochaines mises à jour. Les rubriques vides apparaissent sous la forme d’espaces réservés.
-ms.openlocfilehash: 19490132992a86af0afce38ad02b3aaacf0c78b3
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+description: Cette documentation est préliminaire et sujette à modification. Des rubriques vides sont incluses comme espaces réservés.
+ms.openlocfilehash: cec7a84d5915ee2f7692071d0759fea24f142178
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23248264"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884704"
 ---
 # <a name="office-communications-server-scope-node"></a>Nœud d’étendue d’Office Communications Server
 
-Cette rubrique fait partie de la documentation préliminaire. Elle est susceptible d’être modifiée lors des prochaines mises à jour. Les rubriques vides apparaissent sous la forme d’espaces réservés.
+Cette documentation est préliminaire et sujette à modification. Des rubriques vides sont incluses comme espaces réservés.
 
 Vous cliquez sur **Office Communications Server 2007 R2** pour développer les sections sous le nœud, ou vous cliquez avec le bouton droit sur pour accéder aux options de **topologie** , ou d’accéder à cette page **d’aide** .
 

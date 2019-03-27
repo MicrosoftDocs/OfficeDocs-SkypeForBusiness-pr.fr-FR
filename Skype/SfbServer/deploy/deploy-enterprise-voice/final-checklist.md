@@ -1,5 +1,6 @@
 ---
 title: Appeler liste finale du déploiement de contrôle d’admission des appels de Skype pour Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d56a525f-3da5-4ac0-a311-0c5efd98c9df
 description: Liste de vérification finale pour le déploiement d’admission des appels contrôle appels (CAC) dans Skype pour Business Server Enterprise Voice.
-ms.openlocfilehash: 841a3a8d124a50142cd3644dd6f001e6019af9f3
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: d0d61bcf6c6f0ab509eafa2b968bbb45c00b2a50
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885475"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878458"
 ---
 # <a name="call-admission-control-deployment-final-checklist-for-skype-for-business-server"></a>Déploiement du contrôle d’admission des appels : liste de vérification finale pour Skype pour Business Server
  

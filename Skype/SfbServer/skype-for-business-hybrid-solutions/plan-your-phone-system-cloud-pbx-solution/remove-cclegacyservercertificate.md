@@ -1,5 +1,6 @@
 ---
 title: Remove-CcLegacyServerCertificate
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ff21cecb-5035-48fd-9705-11ea81ce7df6
 description: L’applet de commande Remove-CcLegacyServerCertificate supprime les certificats de l’ancien serveur sur le magasin central de gestion, le serveur de médiation et le serveur Edge après l’exécution des applets de commande Renew-CcCACertificate ou Renew CcServerCertificate.
-ms.openlocfilehash: dc52351d9c66ff310329da62dbd69da74b19c222
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 5f148aa083b646565adf0158f34fb15314296170
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569839"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882459"
 ---
 # <a name="remove-cclegacyservercertificate"></a>Remove-CcLegacyServerCertificate
  
@@ -64,12 +65,12 @@ Aucun
 ## <a name="see-also"></a>Voir aussi
 <a name="ReturnTypes"> </a>
 
-[CcServerCertificate renouveler](renew-ccservercertificate.md)
+[Renew-CcServerCertificate](renew-ccservercertificate.md)
   
 [Reset-CcCACertificate](reset-cccacertificate.md)
   
-[CcCACertificate renouveler](renew-cccacertificate.md)
+[Renew-CcCACertificate](renew-cccacertificate.md)
   
-[Mise à jour-CcCACertificate](update-cccacertificate.md)
+[Update-CcCACertificate](update-cccacertificate.md)
   
 

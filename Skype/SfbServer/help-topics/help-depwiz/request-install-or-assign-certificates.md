@@ -1,5 +1,6 @@
 ---
 title: Demander, installer ou assigner des certificats
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,16 +12,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 332ec40f-78be-440a-8c1d-ada6114897db
-description: 'Étape 3 : Demande, installez ou attribuer des certificats l’Assistant certificat démarre lorsque vous cliquez sur Exécuter. Les certificats sont configurés par le biais de l’Assistant sont basées sur la définition de la Skype pour la topologie Business Server 2015 configuré et publié par le Générateur de topologie dans le magasin Central de gestion. Pour exécuter correctement l’Assistant Certificat pour une autorité de certification en ligne dans votre organisation, vous devez être connecté à un ordinateur en tant que membre du groupe Administrateurs local de cet ordinateur. Vous devez également être un utilisateur de domaine authentifié dans le domaine où l’ordinateur et l’autorité de certification existent. L’Assistant de certificat ne fournit pas la possibilité de spécifier d’autres informations d’identification pour l’accès autorité de certification de votre organisation.'
-ms.openlocfilehash: 356983659e409673f98a984f767ec5ac5127845a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'L’Étape 3 : Demander, installer ou assigner les certificats démarre l’Assistant Certificat lorsque vous cliquez sur Exécuter. Les certificats sont configurés par le biais de l’Assistant sont basées sur la définition de la Skype pour topologie Business Server 2015 qui est configurée et publiée par le Générateur de topologie dans le magasin Central de gestion. Pour exécuter correctement l’Assistant Certificat pour une autorité de certification en ligne dans votre organisation, vous devez être connecté à un ordinateur en tant que membre du groupe Administrateurs local de cet ordinateur. Vous devez également être un utilisateur de domaine authentifié dans le domaine où l’ordinateur et l’autorité de certification existent. L’Assistant certificat ne fournit pas la possibilité de spécifier d’autres informations d’identification pour l’accès autorité de certification de votre organisation.'
+ms.openlocfilehash: 616e370663a2cee1b067b31cfd04ae2d1fc9e323
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878563"
 ---
 # <a name="request-install-or-assign-certificates"></a>Demander, installer ou assigner des certificats
  
- L’**Étape 3 : Demander, installer ou assigner les certificats** démarre l’Assistant Certificat lorsque vous cliquez sur **Exécuter**. Les certificats sont configurés par le biais de l’Assistant sont basées sur la définition de la Skype pour la topologie Business Server 2015 configuré et publié par le Générateur de topologie dans le magasin Central de gestion. Pour exécuter correctement l’Assistant Certificat pour une autorité de certification en ligne dans votre organisation, vous devez être connecté à un ordinateur en tant que membre du groupe Administrateurs local de cet ordinateur. Vous devez également être un utilisateur de domaine authentifié dans le domaine où l’ordinateur et l’autorité de certification existent. L’Assistant de certificat ne fournit pas la possibilité de spécifier d’autres informations d’identification pour l’accès autorité de certification de votre organisation.
+ L’**Étape 3 : Demander, installer ou assigner les certificats** démarre l’Assistant Certificat lorsque vous cliquez sur **Exécuter**. Les certificats sont configurés par le biais de l’Assistant sont basées sur la définition de la Skype pour topologie Business Server 2015 qui est configurée et publiée par le Générateur de topologie dans le magasin Central de gestion. Pour exécuter correctement l’Assistant Certificat pour une autorité de certification en ligne dans votre organisation, vous devez être connecté à un ordinateur en tant que membre du groupe Administrateurs local de cet ordinateur. Vous devez également être un utilisateur de domaine authentifié dans le domaine où l’ordinateur et l’autorité de certification existent. L’Assistant certificat ne fournit pas la possibilité de spécifier d’autres informations d’identification pour l’accès autorité de certification de votre organisation.
   
 > [!NOTE]
 > Vous pouvez également utiliser l’Assistant Certificat pour demander et traiter des demandes de certificat hors connexion qui sont envoyées à une autorité de certification publique ou à une autre infrastructure à clé publique (PKI) hors connexion. Il n’est pas nécessaire d’appartenir à des groupes spécifiques autres que ceux nécessaires pour se connecter à l’ordinateur, pour générer une demande hors connexion. Pour traiter la réponse de l’autorité de certification publique et assigner le certificat à l’ordinateur et au rôle, vous devez être connecté en tant que membre du groupe Administrateurs local ou équivalent. 

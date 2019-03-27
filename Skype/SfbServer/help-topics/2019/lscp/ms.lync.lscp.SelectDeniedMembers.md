@@ -1,5 +1,6 @@
 ---
 title: Sélection des membres refusés
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: c626b6b4-15f3-4a59-bb1d-55dc8c60f5cb
 ROBOTS: NOINDEX, NOFOLLOW
 description: Un administrateur de conversation permanente peut créer et gérer les catégories de salle de conversation. Dans le cadre de la création et gestion des catégories de salle de conversation, un administrateur de conversation permanente peut configurer principaux (groupes/conteneurs/utilisateurs Active Directory Domain Services) qui ont accès à des membres/créateurs de salles de conversation d’une catégorie spécifique. Un administrateur de conversation permanente peuvent également ajouter des membres refusés à une catégorie et ces deviennent des exclusions explicites à la liste autorisée. Membres refusés remplacent les nouveautés de AllowedMembers.
-ms.openlocfilehash: 66c2dc6fb42af3387eff77f7f9257795a72bc6ad
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: b5bafd8f1ffe021852804250a84a743169fe8fb7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20974902"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879573"
 ---
 # <a name="select-denied-members"></a>Sélection des membres refusés
 

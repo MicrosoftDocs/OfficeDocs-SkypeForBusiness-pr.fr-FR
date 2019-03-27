@@ -1,5 +1,6 @@
 ---
 title: Rapport de Diagnostic activités d’égal à égal dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 025e8ab4-2e64-4a6b-8f52-caf756a5cac3
 description: 'Résumé : Découvrez le rapport de Diagnostic activités d’égal à égal dans Skype pour Business Server.'
-ms.openlocfilehash: ccc0c793a27df51c86d7ae0a6a9b575c7f6a5659
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 097b323d2a9484e14dd056196b7344b61b412339
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20980815"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880608"
 ---
 # <a name="peer-to-peer-activity-diagnostic-report-in-skype-for-business-server"></a>Rapport de Diagnostic activités d’égal à égal dans Skype pour Business Server
  

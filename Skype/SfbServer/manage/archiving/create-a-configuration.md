@@ -1,5 +1,6 @@
 ---
 title: Créer une configuration d’archivage dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dc574afa-0b7d-404f-99b3-c812430b7c70
 description: 'Résumé : Découvrez comment créer une configuration d’archivage pour Skype pour Business Server.'
-ms.openlocfilehash: b46aa3605d34ba083b7021424536b9c2d1c9bbea
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 2a45a627ab8bbeedd18d1cbda636606ebc641745
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21019844"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881283"
 ---
 # <a name="create-an-archiving-configuration-in-skype-for-business-server"></a>Créer une configuration d’archivage dans Skype pour Business Server
 
@@ -28,7 +29,7 @@ Pour configurer des options d’archivage pour un site ou un pool :
     
 2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business. 
     
-3. Dans la barre de navigation de gauche, cliquez sur **Surveillance et archivage**, puis sur **Configuration de l’archivage**.
+3. Dans la barre de navigation de gauche, cliquez sur **surveillance et archivage**, puis cliquez sur **Configuration de l’archivage**.
     
 4. Dans la page **Configuration de l’archivage**, cliquez sur **Nouveau**, puis effectuez l’une des opérations suivantes : 
     
@@ -46,7 +47,7 @@ Pour configurer des options d’archivage pour un site ou un pool :
     
 6. Aussi, dans **Créer un paramètre d’archivage**, procédez comme suit :
     
-   - Pour bloquer toute activité si l’archivage n’est pas disponible, cochez la case **Bloquer les sessions de messagerie instantanée ou de conférence web en cas d’échec de l’archivage**.
+   - Pour bloquer toute activité si l’archivage n’est pas disponible, cochez la case **Bloquer les sessions de messagerie instantanée ou de conférence Web en cas d’échec de l’archivage**.
     
    - Pour utiliser Microsoft Exchange Server pour stocker les données d’archivage, cliquez sur la case à cocher **intégration de Microsoft Exchange** .
     

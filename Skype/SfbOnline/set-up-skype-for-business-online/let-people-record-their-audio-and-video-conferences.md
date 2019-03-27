@@ -1,5 +1,6 @@
 ---
 title: Permettre aux utilisateurs d'enregistrer leurs audioconférences ou visioconférences
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,12 +19,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: 'Découvrez l’activation de l’enregistrement pour les conférences audio et vidéo et ce qui est et n’est pas inclus dans les enregistrements. '
-ms.openlocfilehash: ddd560970b84333f14fcc039c4c1501874048c50
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 0e642dc8075c4a7cdcc6d3846cf0c69bca3e2e01
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23849900"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881183"
 ---
 # <a name="let-people-record-their-audio-and-video-conferences"></a>Permettre aux utilisateurs d'enregistrer leurs audioconférences ou visioconférences
 

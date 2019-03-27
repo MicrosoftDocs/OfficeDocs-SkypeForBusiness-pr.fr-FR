@@ -1,5 +1,6 @@
 ---
 title: Configuration des stratégies utilisateur de conversation permanente dans Skype Entreprise Server 2015
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e5862480-95f8-4d76-a2b5-940cd995e93c
 description: 'Résumé : Lisez cette rubrique pour savoir comment créer des stratégies utilisateur initial for Persistent Chat Server dans Skype pour Business Server 2015. Les stratégies utilisateur Chat permanentes déterminent si les utilisateurs sont autorisés à accéder aux salles de conversation.'
-ms.openlocfilehash: 186611977a1a9dfa77549e8f0c5df6b863718eee
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: e082898d92e622827e2543316b07a8be224c56c3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21000835"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883706"
 ---
 # <a name="configure-persistent-chat-user-policies-in-skype-for-business-server-2015"></a>Configuration des stratégies utilisateur de conversation permanente dans Skype Entreprise Server 2015
  
@@ -60,9 +61,9 @@ Pour configurer la stratégie globale :
     
 ## <a name="create-a-site-policy"></a>Créer une stratégie de site
 
-Pour chaque site que vous avez déployé, vous pouvez créer une stratégie de conversation permanente spécifique au site. La configuration de la stratégie de site remplace la stratégie globale, uniquement pour le site pour lequel elle est défini. Pour créer une stratégie de site :
+Pour chaque site que vous avez déployé, vous pouvez créer une stratégie de conversation permanente spécifiques au site. La configuration de la stratégie de site remplace la stratégie globale, uniquement pour le site pour lequel elle est définie. Pour créer une stratégie de site :
   
-1. À partir d’un compte auquel le rôle CsPersistentChatAdministrator, CsAdministrator ou CsUserAdministrator est affecté, connectez-vous à n’importe quel ordinateur de votre déploiement interne.
+1. À partir d’un compte d’utilisateur auquel le rôle CsPersistentChatAdministrator, CsAdministrator ou CsUserAdministrator est affecté, connectez-vous à un ordinateur de votre déploiement interne.
     
 2. Dans le menu **Démarrer** , sélectionnez le Skype pour le panneau de configuration serveur Business ou ouvrir une fenêtre de navigateur, puis entrez l’URL d’administration.
     
@@ -84,9 +85,9 @@ Pour chaque site que vous avez déployé, vous pouvez créer une stratégie de c
     
 ## <a name="create-a-user-policy"></a>Créer une stratégie utilisateur
 
-Vous pouvez créer des stratégies propres à l’utilisateur qui remplacent la stratégie globale et les stratégies de tout site auquel appartient l’utilisateur. Pour créer une stratégie utilisateur :
+Vous pouvez créer des stratégies spécifiques à l’utilisateur qui remplacent la stratégie globale et les stratégies de site auquel appartient l’utilisateur. Pour créer une stratégie utilisateur :
   
-1. À partir d’un compte auquel le rôle CsPersistentChatAdministrator, CsAdministrator ou CsUserAdministrator est affecté, connectez-vous à n’importe quel ordinateur de votre déploiement interne.
+1. À partir d’un compte d’utilisateur auquel le rôle CsPersistentChatAdministrator, CsAdministrator ou CsUserAdministrator est affecté, connectez-vous à un ordinateur de votre déploiement interne.
     
 2. Dans le menu **Démarrer** , sélectionnez le Skype pour le panneau de configuration serveur Business ou ouvrir une fenêtre de navigateur, puis entrez l’URL d’administration.
     
@@ -106,9 +107,9 @@ Vous pouvez créer des stratégies propres à l’utilisateur qui remplacent la 
     
 ## <a name="apply-a-policy-to-a-user-account"></a>Appliquer une stratégie à un compte d’utilisateur
 
-Après avoir créé les stratégies, vous pouvez les appliquer à un compte d’utilisateur, comme suit :
+Une fois que vous créez des stratégies, vous pouvez appliquer les à un compte d’utilisateur comme suit :
   
-1. À partir d’un compte auquel le rôle CsPersistentChatAdministrator, CsAdministrator ou CsUserAdministrator est affecté, connectez-vous à n’importe quel ordinateur de votre déploiement interne.
+1. À partir d’un compte d’utilisateur auquel le rôle CsPersistentChatAdministrator, CsAdministrator ou CsUserAdministrator est affecté, connectez-vous à un ordinateur de votre déploiement interne.
     
 2. Dans le menu **Démarrer** , sélectionnez le Skype pour le panneau de configuration serveur Business ou ouvrir une fenêtre de navigateur, puis entrez l’URL d’administration.
     
@@ -119,7 +120,7 @@ Après avoir créé les stratégies, vous pouvez les appliquer à un compte d’
 5. Dans **Modifier les Skype pour l’utilisateur Business Server** sous **stratégie de conversation permanente**, sélectionnez la stratégie d’utilisateur de conversation permanente que vous souhaitez appliquer.
     
     > [!NOTE]
-    > Le ** \<automatique\> ** paramètres s’appliquent à la stratégie par défaut en cours. Le serveur les applique automatiquement.
+    > Le ** \<automatique\> ** paramètres s’appliquent à la stratégie par défaut en cours. Ces paramètres sont appliqués automatiquement par le serveur.
   
 6. Cliquez sur **Valider**.
     

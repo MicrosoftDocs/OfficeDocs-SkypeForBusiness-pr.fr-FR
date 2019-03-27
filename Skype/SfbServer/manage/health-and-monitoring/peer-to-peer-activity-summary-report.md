@@ -1,5 +1,6 @@
 ---
 title: Rapport de synthèse activités d’égal à égal dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e829a21e-9dfa-46ba-9b5b-077c175d6586
 description: 'Résumé : Découvrez le rapport de synthèse activités d’égal à égal dans Skype pour Business Server.'
-ms.openlocfilehash: 20eab96b870b0ce4bef0e516116cbc39d6a4c7e5
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 0502fc3880a4a04369f6717e67093d359c2b8af7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20975724"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882571"
 ---
 # <a name="peer-to-peer-activity-summary-report-in-skype-for-business-server"></a>Rapport de synthèse activités d’égal à égal dans Skype pour Business Server
  
@@ -34,13 +35,13 @@ Le rapport de synthèse des activités P2P vous aide à répondre à des questio
 
 Vous pouvez accéder au rapport de synthèse des activités P2P à partir de la page d’accueil des rapports de surveillance. Vous ouvrez le [rapport de messagerie instantanée d’égal à égal dans Skype pour Business Server](im-report.md) en cliquant sur une des mesures suivantes :
   
-- Nombre total de sessions de messagerie instantanée P2P
+- Nombre total de sessions d'égal à égal de messagerie instantanée
     
 - Nombre total de messages de messagerie instantanée P2P
     
 De même, vous pouvez ouvrir le rapport vocal et vidéo P2P en cliquant sur l’une de ces mesures :
   
-- Nombre total de sessions audio P2P
+- Nombre total de sessions d'égal à égal audio
     
 - Nombre total de minutes par session audio P2P
     

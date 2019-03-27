@@ -1,5 +1,6 @@
 ---
 title: Table Subnet
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -9,22 +10,23 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 76f5c995-96c8-4aa3-bc30-1d74991d7c42
-description: La table de sous-réseau est une table de prise en charge. Chaque enregistrement représente un sous-réseau défini dans le paramètre de configuration réseau.
-ms.openlocfilehash: ed54341e66c3370086047eb9b073d2560172a261
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Le tableau de sous-réseau est une table de prise en charge. Chaque enregistrement représente un sous-réseau défini dans les paramètres de configuration réseau.
+ms.openlocfilehash: aa91202bfb46a96f86ea3a631be3b964a17a6058
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880475"
 ---
 # <a name="subnet-table"></a>Table Subnet
  
-La table de sous-réseau est une table de prise en charge. Chaque enregistrement représente un sous-réseau défini dans le paramètre de configuration réseau.
+Le tableau de sous-réseau est une table de prise en charge. Chaque enregistrement représente un sous-réseau défini dans les paramètres de configuration réseau.
   
-|**Colonne**|**Type de données**|**Index de la clé**|**Détails**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
 |:-----|:-----|:-----|:-----|
-|**SubnetIP** <br/> |int  <br/> |Primaires et étrangères  <br/> |Représentation sous forme de nombre entier pour l’adresse IP du sous-réseau.  <br/> |
+|**SubnetIP** <br/> |int  <br/> |Primaire, étrangère  <br/> |Représentation entière pour l’adresse IP de sous-réseau.  <br/> |
 |**Masque de sous-réseau** <br/> |int  <br/> ||Masque de sous-réseau.  <br/> |
-|**UserSiteKey** <br/> |int  <br/> |Étrangère  <br/> |Référencé à partir de la [table de UserSite](usersite.md).  <br/> |
+|**UserSiteKey** <br/> |int  <br/> |Étrangère  <br/> |Référencé depuis la [UserSite table](usersite.md).  <br/> |
 |**SubnetDescription** <br/> |nvarchar (512)  <br/> ||La description du sous-réseau.  <br/> |
    
 

@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d78f1e0a4f1c3a5ca95dff0f50d688c2d8a6b239
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.openlocfilehash: 492055c80b844ba4a7aa0091da767214c55dc31a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30640785"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884054"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Présentation de la sécurité et de la conformité dans Microsoft Teams
 ======================================================
@@ -34,6 +34,8 @@ Les services qui appartiennent aux catégories de conformité C et D, et qui se 
 Les équipes applique également à l’échelle de l’équipe et l’organisation authentification à deux facteurs, authentification unique par le biais de Active Directory et le chiffrement des données en transit et inactives. Les fichiers sont stockés dans SharePoint et sont sauvegardés par le chiffrement de SharePoint. Notes sont stockées dans OneNote et sont sauvegardés par le chiffrement de OneNote. Les données de OneNote sont stockées dans le site d’équipe SharePoint. L’onglet Wiki peut également être utilisé pour la prise de notes et son contenu est également stocké dans le site d’équipe SharePoint.
 
 Nous avons également ajouté la prise en charge de la recherche dans les journaux d'audit, eDiscovery et la conservation légale pour les canaux, les conversations et les fichiers ainsi que la gestion des applications mobiles avec Microsoft Intune. Accédez à la & Office 365 sécurité Centre de conformité pour gérer ces paramètres. 
+
+Pour en savoir plus sur & la conformité de la sécurité Office 365, consultez [configurer votre client Office 365 pour accroître la sécurité](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security)
 
 ## <a name="auditing-and-reporting"></a>Audit et rapports
 
@@ -151,3 +153,7 @@ Application de bureau Microsoft Teams prend en charge AppLocker.  Pour plus d’
 En tant que client Office 365, vous possédez et contrôlez vos données. Microsoft utilise vos données uniquement pour vous fournir le service auquel vous avez souscrit. En tant que fournisseur de services, nous n'analysons pas vos messages électroniques, vos documents ou vos équipes à des fins publicitaires ou non liées au service. Microsoft n'a pas accès au contenu chargé. Tout comme avec OneDrive Entreprise et SharePoint Online, les données des utilisateurs appartiennent au client.
 
 Extraction d’informations sur la sécurité et de confiance des informations à partir du [Centre de gestion de la confidentialité de Microsoft](https://microsoft.com/trustcenter). Les équipes suit les mêmes instructions et principes comme le Center Trust Microsoft.
+
+<a name="related-topics"></a>Rubriques connexes
+----------------------
+[Office 365 DAV Safe liens](https://docs.microsoft.com/office365/securitycompliance/atp-safe-links#how-to-get-atp-safe-links-protection)

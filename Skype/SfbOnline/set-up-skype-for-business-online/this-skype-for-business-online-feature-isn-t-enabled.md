@@ -1,5 +1,6 @@
 ---
 title: Cette Skype pour la fonctionnalité d’entreprise en ligne n’est pas activé.
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,12 +20,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: 'Recherchez les causes possibles et les suggestions d’action lorsque vous récupérez une Skype pour la fonctionnalité d’entreprise en ligne n’est pas activé erreur. '
-ms.openlocfilehash: 12d5c19f7830d99ce6c7e8fad8089b713bd90d0a
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 0688bcc572c90c776bb1db6413825436f2ba8930
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23863608"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881573"
 ---
 # <a name="this-skype-for-business-online-feature-isnt-enabled"></a>Cette Skype pour la fonctionnalité d’entreprise en ligne n’est pas activé.
 

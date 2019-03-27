@@ -1,5 +1,6 @@
 ---
 title: Créer des stratégies inter-sites réseau dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b0714aae-55dc-4587-b718-34a03f596b22
 description: Créer des stratégies inter-sites, qui sont utilisés par le contrôle d’admission des appels d’appel Enterprise Voice dans Skype pour Business Server réseau.
-ms.openlocfilehash: cc07db85ec27a5ebd84b3604017048515ef2fcee
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 6619787bf071afe719c715de39e23b992d6e6ede
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23890132"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880157"
 ---
 # <a name="create-network-intersite-policies-in-skype-for-business-server"></a>Créer des stratégies inter-sites réseau dans Skype pour Business Server
  
@@ -33,7 +34,7 @@ Dans la région Amérique du Nord de l’exemple de topologie, il existe un lien
   
 ### <a name="to-create-a-network-inter-site-policy"></a>Pour créer une stratégie réseau intersite
 
-1. Démarrez Skype Entreprise Server Management Shell : cliquez successivement sur **Démarrer**, **Tous les programmes**, **Skype Entreprise 2015**, puis sur **Skype Entreprise Server Management Shell**.
+1. Démarrez le Skype pour Business Server Management Shell : cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Skype pour Business 2015**, puis cliquez sur **Skype pour Business Server Management Shell**.
     
 2. Exécutez l’applet de commande New-CsNetworkInterSitePolicy pour créer des stratégies réseau intersite et appliquer un profil de stratégie de bande passante approprié pour deux sites qui présentent un lien d’accès direct. Par exemple, exécutez :
     
@@ -45,7 +46,7 @@ Dans la région Amérique du Nord de l’exemple de topologie, il existe un lien
     
 ## <a name="see-also"></a>Voir aussi
 
-[Nouvelle-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps)
+[New-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps)
   
 [Get-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/get-csnetworkintersitepolicy?view=skype-ps)
   

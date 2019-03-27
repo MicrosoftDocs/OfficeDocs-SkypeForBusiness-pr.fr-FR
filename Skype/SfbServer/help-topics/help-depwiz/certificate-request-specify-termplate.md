@@ -1,5 +1,6 @@
 ---
 title: Demande de certificat (spécification d’un modèle)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d00ed98f-46f2-4367-b34c-513e5eafdd06
-description: La page spécifier un autre modèle de certificat vous permet de définir un modèle de certificat que le modèle de certificat de serveur Web qui est utilisé par défaut. Activez la case à cocher Utiliser le modèle de certificat de remplacement pour l’autorité de certification sélectionnée et puis définissez le nom du modèle de certificat de remplacement dans le nom de modèle de certificat de zone texte. Vous devez utiliser le nom du modèle tel qu’il est défini dans l’autorité de certification. Cliquez sur Précédent pour revenir à la page précédente. Cliquez sur Annuler pour mettre fin au processus de demande de certificat.
-ms.openlocfilehash: 856ad66b4bf2974e43e8684ca6016494df26019f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: La page Spécifier un autre modèle de certificat vous permet de définir un modèle de certificat autre que le modèle de certificat WebServer qui est utilisé par défaut. Activez la case à cocher Utiliser un autre modèle de certificat pour l’autorité de certification sélectionnée, puis définissez le nom de l’autre modèle de certification dans la zone de texte Nom du modèle de certificat. Vous devez utiliser le nom du modèle tel qu’il est défini dans l’autorité de certification. Cliquez sur Précédent pour revenir à la page précédente. Cliquez sur Annuler pour terminer le processus de demande de certificat.
+ms.openlocfilehash: 18b5e54ef99a4c26e32aa1e6b826f69ca2db0555
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878237"
 ---
 # <a name="certificate-request-specify-termplate"></a>Demande de certificat (spécification d’un modèle)
  

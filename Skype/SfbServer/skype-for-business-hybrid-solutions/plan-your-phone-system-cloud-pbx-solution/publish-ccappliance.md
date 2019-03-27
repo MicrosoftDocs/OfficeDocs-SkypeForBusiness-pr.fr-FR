@@ -1,5 +1,6 @@
 ---
-title: Publication-CcAppliance
+title: Publish-CcAppliance
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,13 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e7d5b63e-ba7c-4757-8670-f96b2a91e646
 description: 'L’applet de commande Publish-CcAppliance apporte des informations haute disponibilité à partir de la configuration client en ligne et les publie dans l’appliance du serveur hôte de la version Cloud Connector de Skype Entreprise. '
-ms.openlocfilehash: c0a2639156a0794ec34fd62a58027255d24d461e
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 119b5e816555eedf221d9db06be15e6a778936d4
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879804"
 ---
-# <a name="publish-ccappliance"></a>Publication-CcAppliance
+# <a name="publish-ccappliance"></a>Publish-CcAppliance
  
 L’applet de commande Publish-CcAppliance apporte des informations haute disponibilité à partir de la configuration client en ligne et les publie dans l’appliance du serveur hôte de la version Cloud Connector de Skype Entreprise.  
   
@@ -31,9 +33,9 @@ Aucun
 ## <a name="examples"></a>Exemples
 <a name="Examples"> </a>
 
-### <a name="example-1"></a>Exemple 1
+### <a name="example-1"></a>Exemple 1
 
-L’exemple suivant obtient les informations de disponibilité à partir de la configuration des clients en ligne et le publie à l’appliance de nuage connecteur sur le serveur hôte :
+L’exemple suivant obtient des informations de disponibilité à partir de la configuration du client en ligne et publie dans l’application dans le nuage connecteur sur le serveur hôte :
   
 ```
 Publish-CcAppliance
@@ -57,12 +59,12 @@ Aucun
 ## <a name="see-also"></a>Voir aussi
 <a name="ReturnTypes"> </a>
 
-[Installation-CcAppliance](install-ccappliance.md)
+[Install-CcAppliance](install-ccappliance.md)
   
-[CcAppliance-désinstaller](uninstall-ccappliance.md)
+[Uninstall-CcAppliance](uninstall-ccappliance.md)
   
-[Registre-CcAppliance](register-ccappliance.md)
+[Register-CcAppliance](register-ccappliance.md)
   
-[Annuler l’inscription-CcAppliance](unregister-ccappliance.md)
+[Unregister-CcAppliance](unregister-ccappliance.md)
   
 

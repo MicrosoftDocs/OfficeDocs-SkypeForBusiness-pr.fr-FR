@@ -1,5 +1,6 @@
 ---
-title: Vidéo en fonction de partage d’écran pour Skype pour Business Server
+title: Partage d’écran vidéo pour Skype Entreprise Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 ms.date: 2/20/2018
@@ -9,14 +10,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: Skype pour les informations de planification et la configuration de Business Server pour le partage d’écran vidéo (VbSS)
-ms.openlocfilehash: 84547168eb883522005480fb07ff2bfb9abd54f6
-ms.sourcegitcommit: f7b706f8ac9647ba854ae3457018d3007edf6f6e
+ms.openlocfilehash: d899e07fc478e33c4480cd235b3eb0cafd95ecba
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "26993432"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878913"
 ---
-# <a name="video-based-screen-sharing-for-skype-for-business-server"></a>Vidéo en fonction de partage d’écran pour Skype pour Business Server 
+# <a name="video-based-screen-sharing-for-skype-for-business-server"></a>Partage d’écran vidéo pour Skype Entreprise Server 
  
 Vidéo partage d’écran (VbSS) dans Skype pour Business Server 2015 est désormais disponible en téléchargement : [Skype pour KB3061064 de mise à jour Cumulative Business Server 2015](https://www.microsoft.com/en-us/download/details.aspx?id=47690). VbSS est inclus avec Skype pour Business Server 2019.
   

@@ -1,5 +1,6 @@
 ---
 title: Configuration matérielle et logicielle requise pour la conférence dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bfa31b24-a02f-410f-a8ec-206ca4d5b620
 description: 'Résumé : Lisez cette rubrique pour en savoir plus sur la configuration matérielle et logicielle requise pour la conférence dans Skype pour Business Server.'
-ms.openlocfilehash: 0029bca57477d52e1886ff476984477bdac75b97
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 3385395eb34e69fadcdce4ba4bf529a347a2979c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23247668"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883927"
 ---
 # <a name="hardware-and-software-requirements-for-conferencing-in-skype-for-business-server"></a>Configuration matérielle et logicielle requise pour la conférence dans Skype pour Business Server
 
@@ -50,13 +51,13 @@ Skype pour Business Server prend en charge les partages de fichiers sur stockage
 
 - 1-ApplicationServer-1
 
-- CentralMgmt-1-1
+- 1-CentralMgmt-1
 
-- WebServices-1-1
+- 1-WebServices-1
 
   - CollabContent
 
-  - Collabmetadata qui
+  - CollabMetadata
 
   - DataConf
 
@@ -74,7 +75,7 @@ Pour plus d’informations sur la configuration Skype pour Business Server fonct
 
 Pour planifier votre conférence A/V, vous devez connaître la bande passante réseau nécessaire au type de trafic multimédia de conférence que requiert votre organisation. Cela peut inclure l’audio, la vidéo et la vidéo panoramique. Si la bande passante réseau est insuffisante, les performances du système seront largement diminuées pour l’utilisateur.
 
-Pour plus d’informations sur la planification des conférences de la capacité audio et vidéo, voir [planifier la configuration réseau requise pour Skype pour les entreprises](../../plan-your-deployment/network-requirements/network-requirements.md).
+Pour plus d’informations sur la planification des capacités audio et vidéo pour les conférences, reportez-vous à la rubrique [Plan network requirements for Skype for Business](../../plan-your-deployment/network-requirements/network-requirements.md).
 
 Vous pouvez utiliser le contrôle d’admission des appels (CAC) pour gérer la bande passante réseau utilisée par la conférence A/V. Cela est important pour les réseaux restreints, comme les liaisons à bande passante limitée entre les sites centraux et les sites de succursale. Pour plus d’informations, voir [planifier le contrôle d’admission des appels d’appel dans Skype pour Business Server](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).
 
@@ -98,7 +99,7 @@ Vous devez installer le Skype suivante pour les composants Business Server avant
 
 - Au moins un serveur de médiation et une passerelle RTC
 
-Pour la conférence rendez-vous, service d’Application, application intendant Conférence et application d’annonce de conférence ont la même configuration requise de système d’exploitation que les serveurs frontaux. Pour plus d’informations, voir [configuration du serveur pour Skype pour Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md).
+Pour la conférence rendez-vous, service d’Application, application intendant Conférence et application d’annonce de conférence ont la même configuration requise de système d’exploitation que les serveurs frontaux. Pour plus d’informations, reportez-vous à la rubrique [Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md).
 
 Application intendant Conférence et application d’annonce de conférence nécessitent que le module d’exécution du Format Windows Media est installé sur les serveurs frontaux. Le module d’exécution du format Windows Media est requis pour lire les fichiers audio Windows Media (WMA) concernant l’attente musicale, les noms enregistrés et les invites. Si vous installez sur Windows Server 2012 ou Windows Server 2012 R2 (auquel il est recommandé), vous devez installer Microsoft Media Foundation pour obtenir le module d’exécution du Format Windows Media. Si vous effectuez une installation sur une version de Windows Server antérieure à Windows 2012, vous devez vous assurer que l’Expérience Bureau Windows est installée de façon à obtenir le module d’exécution du format Windows Media.
 
@@ -126,20 +127,20 @@ Les utilisateurs de la conférence rendez-vous doivent avoir un numéro de tél�
 
 Pour pouvoir utiliser les fonctionnalités de conférence, Skype pour Business Server requiert que certains ports sont ouverts. Le tableau ci-dessous répertorie la configuration requise pour les conférences. Pour plus d’informations sur tous les ports requis, consultez [ports et protocoles requis pour les serveurs](../../plan-your-deployment/network-requirements/ports-and-protocols.md).
 
-**Ports de serveur requis**
+**Ports serveur requis**
 
 
 |**Rôle serveur**|**Nom du service**|**Port**|**Protocole**|**Remarques**|
 |:-----|:-----|:-----|:-----|:-----|
 |serveurs frontaux  <br/> |Skype pour le service de conférence par messagerie instantanée Business Server  <br/> |5062  <br/> |TCP  <br/> |Utilisé pour les demandes SIP entrantes dans le cadre de conférences de messagerie instantanée.  <br/> |
-|Serveurs frontaux  <br/> |Skype pour le service de conférence Web Business Server  <br/> |8057  <br/> |TCP (TLS)  <br/> |Utilisé pour l’écoute des connexions PSOM (Persistent Shared Object Model) à partir d’un client.  <br/> |
-|Serveurs frontaux  <br/> |Skype pour le service de compatibilité de conférence Web Business Server  <br/> |8058  <br/> |TCP (TLS)  <br/> |Utilisé pour l’écoute des connexions de l’objet modèle PSOM (Persistent Shared) à partir du client Live Meeting et les versions antérieures de Skype pour Business Server.  <br/> |
+|serveurs frontaux  <br/> |Skype pour le service de conférence Web Business Server  <br/> |8057  <br/> |TCP (TLS)  <br/> |Utilisé pour l’écoute des connexions PSOM (Persistent Shared Object Model) à partir d’un client.  <br/> |
+|serveurs frontaux  <br/> |Skype pour le service de compatibilité de conférence Web Business Server  <br/> |8058  <br/> |TCP (TLS)  <br/> |Utilisé pour l’écoute des connexions de l’objet modèle PSOM (Persistent Shared) à partir du client Live Meeting et les versions antérieures de Skype pour Business Server.  <br/> |
 |serveurs frontaux  <br/> |Skype pour le service de conférence Audio/vidéo Business Server  <br/> |5063  <br/> |TCP  <br/> |Utilisé pour les demandes SIP entrantes dans le cadre de conférences audio/vidéo (A/V).  <br/> |
-|Serveurs frontaux  <br/> |Skype pour le service de conférence Audio/vidéo Business Server  <br/> |57501-65535  <br/> |TCP/UDP  <br/> |Plage de ports multimédias utilisée pour les conférences vidéo.  <br/> |
-|Serveurs frontaux  <br/> |Skype pour le service Business Server intendant (conférence rendez-vous)  <br/> |5064  <br/> |TCP  <br/> |Utilisé pour les demandes SIP entrantes dans le cadre de conférences rendez-vous.  <br/> |
-|Serveurs frontaux  <br/> |Skype pour le service Business Server intendant (conférence rendez-vous)  <br/> |5072  <br/> |TCP  <br/> |Utilisé pour les demandes SIP entrantes pour Attendant (conférences rendez-vous).  <br/> |
+|serveurs frontaux  <br/> |Skype pour le service de conférence Audio/vidéo Business Server  <br/> |57501-65535  <br/> |TCP/UDP  <br/> |Plage de ports multimédias utilisée pour les conférences vidéo.  <br/> |
+|serveurs frontaux  <br/> |Skype pour le service Business Server intendant (conférence rendez-vous)  <br/> |5064  <br/> |TCP  <br/> |Utilisé pour les demandes SIP entrantes dans le cadre de conférences rendez-vous.  <br/> |
+|serveurs frontaux  <br/> |Skype pour le service Business Server intendant (conférence rendez-vous)  <br/> |5072  <br/> |TCP  <br/> |Utilisé pour les demandes SIP entrantes pour Attendant (conférences rendez-vous).  <br/> |
 |serveurs frontaux  <br/> |Skype pour le service de partage d’Application Business Server  <br/> |5065  <br/> |TCP  <br/> |Utilisé pour les demandes d’écoute SIP entrantes dans le cadre du partage d’application.  <br/> |
-|Serveurs frontaux  <br/> |Skype pour le service de partage d’Application Business Server  <br/> |49152-65535  <br/> |TCP  <br/> |Plage de ports multimédias utilisée pour le partage d’application.  <br/> |
+|serveurs frontaux  <br/> |Skype pour le service de partage d’Application Business Server  <br/> |49152-65535  <br/> |TCP  <br/> |Plage de ports multimédias utilisée pour le partage d’application.  <br/> |
 |Serveurs frontaux  <br/> |Skype pour le service d’annonce de conférence Business Server  <br/> |5073  <br/> |TCP  <br/> |Utilisé pour les demandes SIP entrantes pour le Skype pour le service d’annonce de conférence Business Server (autrement dit, pour les conférences rendez-vous).  <br/> |
 |Tous les serveurs internes  <br/> |Divers  <br/> |49152-57500  <br/> |TCP/UDP  <br/> |Plage de ports multimédias utilisée pour les conférences audio sur tous les serveurs internes. Utilisée par tous les serveurs qui se termine audio : serveurs frontaux (pour Skype pour le service Business Server intendant, Skype pour le service d’annonce de conférence Business Server et Skype pour le service de conférence Audio/vidéo Business Server), et Serveur de médiation.  <br/> |
 |Serveurs Office Web Apps Server  <br/> ||443  <br/> ||Utilisé par Skype pour Business Server pour se connecter à Office Web Apps Server.  <br/> |

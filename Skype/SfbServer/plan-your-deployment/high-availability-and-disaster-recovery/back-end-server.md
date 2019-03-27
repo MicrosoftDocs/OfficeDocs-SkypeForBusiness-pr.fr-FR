@@ -1,5 +1,6 @@
 ---
 title: Arrière serveur haute disponibilité dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c559aacb-4e1d-4e78-9582-41f966ad418d
 description: Découvrez les options de haute disponibilité du serveur principal prises en charge dans Skype pour Business Server, y compris les groupes de disponibilité AlwaysOn, Instances de Cluster de basculement AlwaysOn, la mise en miroir de base de données et le clustering avec basculement SQL.
-ms.openlocfilehash: f7d48718a47533425f3481edb0c4e71878fd7226
-ms.sourcegitcommit: e53749714dcde9f7b184d5ef554bffbc77f54267
+ms.openlocfilehash: 5f95ea1a1a856db945e1d0fac5683b1fb8c4c02e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28729413"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878118"
 ---
 # <a name="back-end-server-high-availability-in-skype-for-business-server"></a>Arrière serveur haute disponibilité dans Skype pour Business Server
  

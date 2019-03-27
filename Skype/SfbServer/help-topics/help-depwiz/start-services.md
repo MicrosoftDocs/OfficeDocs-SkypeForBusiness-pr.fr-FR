@@ -1,5 +1,6 @@
 ---
-title: Démarrer les Services
+title: Démarrer les services
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: efaf7b2a-257f-4aef-9c25-40ea93b03ef4
 description: 'Pour démarrer les services sur le rôle de serveur déployé, cliquez sur Exécuter à l’étape 4 : démarrer les Services. Vous devez être connecté en tant que membre du groupe Administrateurs local ou un équivalent.'
-ms.openlocfilehash: e47de2643cabc036b1b5eaa5bf96b0fae1407cdb
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 7b376936cf81cb16ec646293b4fbc643c2daf11f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20993263"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878244"
 ---
-# <a name="start-services"></a>Démarrer les Services
+# <a name="start-services"></a>Démarrer les services
  
 Pour démarrer les services sur le rôle de serveur déployé, cliquez sur **exécuter** en **étape 4 : démarrer les Services**. Vous devez être connecté en tant que membre du groupe Administrateurs local ou un équivalent. 
   

@@ -1,5 +1,6 @@
 ---
 title: Planifier le contrôle d’appel distant dans Skype pour les entreprises
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 688a0328-1aa7-449f-b5f7-98c876112ed2
 description: Contrôle d’appel distant est une fonctionnalité dans les versions précédentes de Lync Server qui permettait aux utilisateurs de contrôler leurs téléphones PBX avec Lync Server. Dans Skype pour Business Server, cette fonctionnalité a été remplacée par un appel via le bureau. Dans les versions du client pour Skype pour Business Server 2015 et passer des appels à distance avant le contrôle n’est plus disponible pour configurer dans le client et a été supprimé à utiliser.
-ms.openlocfilehash: 2c17418f765ba7b542f5ce349ba486a4bbe278fe
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 31ee089e5f4142a0db728878d2bd35d86b628804
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23881817"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879044"
 ---
 # <a name="plan-for-remote-call-control-in-skype-for-business"></a>Planifier le contrôle d’appel distant dans Skype pour les entreprises
  
@@ -28,8 +29,8 @@ Contrôle d’appel distant est une fonctionnalité dans les versions précéden
   
 ||**Skype pour Business Client avec Skype interface utilisateur activé**|**Skype pour Business Client avec Lync interface utilisateur activé**|**Skype pour Business 2016 Client**|**Client de Lync 2013**|**Client Lync 2010**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-| Skype Entreprise Server <br/> |Appel via le bureau  <br/> |1 <br/> |Appel via le bureau  <br/> |1 <br/> |1 <br/> |
-| Lync Server 2013 <br/> |Contrôle d’appel distant  <br/> |Contrôle d’appel distant  <br/> |1 <br/> |Contrôle d’appel distant  <br/> |Contrôle d’appel distant  <br/> |
+| Skype pour Business Server <br/> |Appel via le bureau  <br/> |1 <br/> |Appel via le bureau  <br/> |1 <br/> |1 <br/> |
+| Lync Server 2013 <br/> |Contrôle d’appel distant  <br/> |Contrôle d’appel distant  <br/> |1 <br/> |Contrôle d’appel distant  <br/> |Contrôle d’appel distant  <br/> |
 | Lync Server 2010 <br/> |Contrôle d’appel distant  <br/> |Contrôle d’appel distant  <br/> |1 <br/> |Contrôle d’appel distant  <br/> |Contrôle d’appel distant  <br/> |
    
 1. Aucune fonctionnalité n’est prise en charge.

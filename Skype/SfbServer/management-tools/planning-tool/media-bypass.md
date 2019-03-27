@@ -1,5 +1,6 @@
 ---
-title: Media Bypass (outil de planification)
+title: Media Bypass (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,15 +13,16 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4c6417ea-a87d-4524-ba46-20e6c895d14c
-description: Le contournement de média fait référence à la suppression du serveur de médiation du chemin multimédia dès que possible pour les appels dont la signalisation parcourt le serveur de médiation. Pour plus de détails, reportez-vous à planification des media de contourner dans Skype pour entreprise 2015.
-ms.openlocfilehash: d6d11898df06ea1a9af5e62a5363f503a0bd3853
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Le contournement de média fait référence à la suppression du serveur de médiation dans le chemin d’accès des médias autant que possible pour les appels dont la signalisation traverse le serveur de médiation. Pour plus d’informations, voir Plan pour le média de contournement dans Skype pour Business 2015.
+ms.openlocfilehash: a361969e5054ed3ca4f659d45068e1affa563f68
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880355"
 ---
-# <a name="media-bypass-planning-tool"></a>Media Bypass (outil de planification)
+# <a name="media-bypass-planning-tool"></a>Media Bypass (Planning Tool)
  
-Le contournement de média fait référence à la suppression du serveur de médiation du chemin multimédia dès que possible pour les appels dont la signalisation parcourt le serveur de médiation. Pour plus d’informations, reportez-vous à [planification des médias ignorer dans Skype pour entreprise 2015](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md).
+Le contournement de média fait référence à la suppression du serveur de médiation dans le chemin d’accès des médias autant que possible pour les appels dont la signalisation traverse le serveur de médiation. Pour plus d’informations, voir [Plan pour le média de contournement dans Skype pour Business 2015](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md).
   
 

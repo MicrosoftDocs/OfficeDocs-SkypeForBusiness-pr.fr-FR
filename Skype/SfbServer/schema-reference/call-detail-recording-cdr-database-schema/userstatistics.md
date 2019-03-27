@@ -1,5 +1,6 @@
 ---
-title: Table de UserStatistics
+title: Table UserStatistics
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -9,23 +10,24 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cfaf803b-1679-4169-92d3-533fad3e56ed
-description: La table UserStatistics est un tableau de prise en charge. Chaque enregistrement dans la table stocke les informations relatives à l’utilisation d’un utilisateur individuel du système. Cette table a été introduite dans Microsoft Lync Server 2013.
-ms.openlocfilehash: c4a7952eada01033836811555d2e448d13133a27
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: La table UserStatistics est une table de prise en charge. Chaque enregistrement de la table stocke des informations sur l’utilisation d’un utilisateur individuel du système. Ce tableau a été introduit dans Microsoft Lync Server 2013.
+ms.openlocfilehash: 45f34a1e8905d19b5ce48d94824591f25ec1ef28
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883594"
 ---
-# <a name="userstatistics-table"></a>Table de UserStatistics
+# <a name="userstatistics-table"></a>Table UserStatistics
  
-La table UserStatistics est un tableau de prise en charge. Chaque enregistrement dans la table stocke les informations relatives à l’utilisation d’un utilisateur individuel du système. Cette table a été introduite dans Microsoft Lync Server 2013.
+La table UserStatistics est une table de prise en charge. Chaque enregistrement de la table stocke des informations sur l’utilisation d’un utilisateur individuel du système. Ce tableau a été introduit dans Microsoft Lync Server 2013.
   
-|**Colonne**|**Type de données**|**Index de la clé**|**Détails**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
 |:-----|:-----|:-----|:-----|
-|**ID utilisateur** <br/> |int  <br/> |Principal  <br/> |Numéro unique identifiant l’utilisateur.  <br/> |
-|**LastLogInTime** <br/> |DateHeure  <br/> ||Dernière fois que l’utilisateur connecté.  <br/> |
-|**LastConfOrganizedTime** <br/> |DateHeure  <br/> ||Dernière fois que l’utilisateur organisé une conférence.  <br/> |
-|**LastCallOrganizerCallFailureTime** <br/> |DateHeure  <br/> ||Dernière fois que l’utilisateur a rencontré un échec d’appel.  <br/> |
-|**LastConfOrganizerCallFailureTime** <br/> |DateHeure  <br/> ||Dernière fois que l’utilisateur a rencontré une erreur appel en tant qu’organisateur de la conférence.  <br/> |
+|**Nom d’utilisateur** <br/> |int  <br/> |Principal  <br/> |Numéro unique identifiant cet utilisateur.  <br/> |
+|**LastLogInTime** <br/> |DateHeure  <br/> ||Heure de la dernière connecté de l’utilisateur.  <br/> |
+|**LastConfOrganizedTime** <br/> |DateHeure  <br/> ||Heure de la dernière l’utilisateur organisé une conférence.  <br/> |
+|**LastCallOrganizerCallFailureTime** <br/> |DateHeure  <br/> ||Heure de la dernière l’utilisateur a rencontré un échec d’appel.  <br/> |
+|**LastConfOrganizerCallFailureTime** <br/> |DateHeure  <br/> ||Heure de la dernière l’utilisateur a rencontré un échec d’appel en tant qu’organisateur de la conférence.  <br/> |
    
 

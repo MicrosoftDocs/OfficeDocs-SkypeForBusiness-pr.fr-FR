@@ -1,5 +1,6 @@
 ---
 title: Affectation des stratégies de conférence pour la prise en charge les utilisateurs anonymes
+ms.reviewer: ''
 ms:assetid: 662de022-1111-40f7-bad4-f2b686f30973
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521007(v=OCS.15)
 ms:contentKeyID: 48184333
@@ -12,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Déterminer qui peut inviter des utilisateurs anonymes en configurant une stratégie de conférence pour prendre en charge les utilisateurs anonymes et appliquer cette stratégie de conférence à des utilisateurs spécifiques.
-ms.openlocfilehash: 5d3ade88a9d4ca0f639d7119da53f8180af6c30d
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 62ff84b19fadbeaf0f26fa3e5869026254d28d1f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222729"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881126"
 ---
 # <a name="assign-conferencing-policies-to-support-anonymous-users-in-skype-for-business-server"></a>Affecter des stratégies de conférence pour prendre en charge les utilisateurs anonymes Skype pour Business Server 
 
@@ -32,7 +33,7 @@ Utilisez la procédure de cette section pour appliquer une stratégie de confér
 
 ## <a name="to-configure-a-user-policy-for-anonymous-participation-in-meetings"></a>Pour configurer une stratégie d’utilisateur pour la participation anonyme aux réunions
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou disposant des mêmes droits) ou affecté au rôle CsAdministrator, ouvrez une session sur un ordinateur qui se trouve sur votre déploiement interne.
+1.  À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou est affecté au rôle CsAdministrator, ouvrez une session sur n’importe quel ordinateur dans votre déploiement interne.
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business. 
 

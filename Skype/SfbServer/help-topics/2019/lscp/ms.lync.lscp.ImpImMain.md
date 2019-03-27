@@ -1,5 +1,6 @@
 ---
 title: Filtre d’URL
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 2677dcba-92f6-432a-9e2f-f7ad72497e3c
 ROBOTS: NOINDEX, NOFOLLOW
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: 522f8bd970f0faf5eb39a4063355d9e2f5c240a9
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 0ceb3f21861070e8e6e9e96eb472fe9c8a868045
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23241976"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882322"
 ---
 # <a name="url-filter"></a>Filtre d’URL
 

@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Lisez cette rubrique pour en savoir plus sur le déploiement de systèmes de salle Skype v2 sur les déploiements à grande échelle.
-ms.openlocfilehash: 3188748c1222a87d0861693c5b0c85ede3cba5a9
-ms.sourcegitcommit: 2a34c9955d2cf54085dee527ea493ce991ef2e10
+ms.openlocfilehash: 39884e660ca757827570f6c7c4005baa7b59a1b0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/28/2019
-ms.locfileid: "30340476"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880776"
 ---
 # <a name="deploy-skype-room-systems-v2-by-using-system-center-configuration-manager"></a>Déployer des systèmes de salle Skype v2 à l’aide de System Center Configuration Manager
 
@@ -141,7 +141,7 @@ Vous devez créer et configurer les packages suivants, puis les distribuer aux s
 | SRS v2 - configurer le programme d’installation SRS         | Package de logiciels       | Package pour configurer le déploiement de l’application v2 de systèmes de salle de Skype                          |
 | Système d’exploitation de SRS v2 - mises à jour de Package          | Package de logiciels       | Package de déploiement des mises à jour du système d’exploitation obligatoire                                      |
 | SRS v2 - Package du certificat racine    | Package de logiciels       | Facultatif : Package pour déployer le certificat racine (non requis pour les unités à un domaine)  |
-| SRS v2 - Package de l’Agent Microsoft OMS | Package de logiciels       | Facultatif : Package pour déployer et configurer l’agent Microsoft Operations Management Suite|
+| SRS v2 - Microsoft Package de l’Agent de surveillance | Package de logiciels       | Facultatif : Package pour déployer et configurer l’agent Microsoft Operations Management Suite|
 | SRS v2 - Package WinPE arrière-plan    | Package de logiciels       | Nom du package de l’image d’arrière-plan personnalisé à utiliser avec les images de démarrage                           |
 | Entreprise Windows 10                | Image du système d’exploitation | Package pour le fichier d’installation de système d’exploitation (install.wim)                          |
 | Surface Pro                          | Package de pilotes         | Package pour les pilotes de périphériques et le microprogramme Microsoft Surface Pro                     |
@@ -155,7 +155,7 @@ Gestionnaire de configuration requiert des fichiers sources du package pour êtr
 
 Créez la structure de dossier suivante sur le site administration centrale de System Center Configuration Manager ou principal ou sur un partage de serveur que vous utilisez pour les fichiers sources du package hôte :
 
--   SRS v2 - Package de l’Agent Microsoft OMS
+-   SRS v2 - Microsoft Package de l’Agent de surveillance
 -   Système d’exploitation de SRS v2 - mises à jour de Package
 -   SRS v2 - Package du certificat racine
 -   SRS v2 - Package Set-SRSComputerName
@@ -171,23 +171,23 @@ Créez la structure de dossier suivante sur le site administration centrale de S
 > [!TIP]
 > Vous pouvez également [Télécharger](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true) et utilisez le fichier zip qui inclut la structure de dossiers pour les packages, que vous devez utiliser les scripts et le modèle de séquence de tâches que vous devez l’importer.
 
-### <a name="create-the-microsoft-operations-management-suite-agent-package"></a>Créer le package de l’agent Microsoft Operations Management Suite
+### <a name="create-the-monitoring-agent-package"></a>Créer le package de l’agent de surveillance
 
-1. Télécharger l’agent Operations Management Suite X-64 <https://go.microsoft.com/fwlink/?LinkId=828603>.
+1. Télécharger l’agent d’analyse à partir de <https://go.microsoft.com/fwlink/?LinkId=828603>.
 
-2. Extraire le package dans le dossier **SRS v2 - Package de l’Agent Microsoft OMS** en ouvrant une fenêtre d’invite de commandes et en **saisissant/C: MMASetup-AMD64.exe** à l’invite de commandes.
+2. Extraire le package dans le dossier **SRS v2 - Package de l’Agent de surveillance Microsoft** en ouvrant une fenêtre d’invite de commandes et en **saisissant/C: MMASetup-AMD64.exe** à l’invite de commandes.
 
 3. Dans la console Configuration Manager, accédez à la **Bibliothèque de logiciels** \> **Gestion des applications** \> **Packages**, puis sélectionnez **Créer un Package**.
 
 4. Entrez les informations suivantes pour créer le package :
 
-   - Nom<strong>: SRS v2 - Package de l’Agent Microsoft OMS</strong>
+   - Nom<strong>: SRS v2 - Microsoft Package de l’Agent de surveillance</strong>
 
    - Fabricant<strong>: Microsoft Corporation</strong>
 
    - Version<strong>: 8.1.11081.0</strong> (entrez la version du fichier d’installation téléchargé)
 
-   - Activez la case à cocher **ce package contient des fichiers source** , entrez le chemin d’accès du dossier **SRS v2 - Package de l’Agent Microsoft OMS** , puis cliquez sur **suivant**.
+   - Activez la case à cocher **ce package contient des fichiers source** , entrez le chemin d’accès du dossier **SRS v2 - Package de l’Agent de surveillance de Microsoft** , puis cliquez sur **suivant**.
 
 5. Sélectionnez **ne pas créer un programme**, puis cliquez sur **suivant**.
 
@@ -623,12 +623,12 @@ Vous pouvez télécharger facilement importer une séquence de tâches exemple e
       -   Activer cette étape si vous avez besoin déployer un certificat racine pour les unités de v2 Skype salle systèmes.
       -   Si vous n’avez pas besoin d’effectuer cette étape, vérifiez que le **SRS v2 – Package du certificat racine** et **redirection désactiver les 64 bits du système de fichiers** sont sélectionnés.
 
-   10. **Installer et configurer l’Agent de OMS**: cette étape installe la version 64 bits de l’agent Microsoft Operations Management Suite et configure l’agent pour se connecter à votre espace de travail de journal Analytique.
-       -   Cette étape est désactivée par défaut. Activer cette étape uniquement si vous prévoyez d’utiliser OMS pour surveiller l’intégrité de vos unités de v2 Skype salle systèmes.
+   10. **Installer et configurer l’Agent de surveillance**: cette étape installe la version 64 bits de l’agent Microsoft Azure Monitor et configure l’agent pour se connecter à votre espace de travail de journal Analytique.
+       -   Cette étape est désactivée par défaut. Activer cette étape uniquement si vous prévoyez d’utiliser l’Agent de surveillance pour surveiller l’intégrité de vos unités de v2 Skype salle systèmes.
        -   Modifier cette étape et mettre à jour les paramètres de ligne de commande pour spécifier votre **Clé de l’espace de travail**et **l’ID de l’espace de travail** .
-       -   Pour plus d’informations sur l’obtention de l’ID d’espace de travail Suite opérations de gestion et de la clé primaire, voir [ordinateurs Windows de se connecter au service journal Analytique dans Azure](with-oms.md#configure-test-devices-for-operations-management-suite-setup) .
-       -   Vérifiez que le **SRS v2 – Package de l’Agent Microsoft OMS** et **redirection désactiver les 64 bits du système de fichiers** sont sélectionnés.
-       -   Pour plus d’informations sur la surveillance de l’intégrité de votre déploiement de v2 Skype salle systèmes, voir [planifier Skype salle systèmes v2 gestion avec OMS](../../plan-your-deployment/clients-and-devices/oms-management.md) et [déployer les systèmes salle Skype v2 avec OMS](with-oms.md#configure-test-devices-for-operations-management-suite-setup).
+       -   Pour plus d’informations sur l’obtention de l’ID d’espace de travail Suite opérations de gestion et de la clé primaire, voir [configurer les dispositifs de surveillance Azure](azure-monitor.md#configure-test-devices-for-azure-monitoring) .
+       -   Vérifiez que le **SRS v2 – Package de l’Agent de surveillance Microsoft** et **redirection désactiver les 64 bits du système de fichiers** sont sélectionnés.
+       -   Pour plus d’informations sur la surveillance de l’intégrité de votre déploiement de v2 Skype salle systèmes, voir [planifier Skype salle v2 SMS avec Azure moniteur](../../plan-your-deployment/clients-and-devices/azure-monitor.md), [déployer Skype salle v2 SMS avec Azure moniteur](azure-monitor.md) et [Gérer Skype salle Périphériques v2 de systèmes avec Azure moniteur](../../manage/skype-room-systems-v2/azure-monitor.md).
 
    11. **Fichiers de Configuration de copie SRS v2**: cette étape copie les fichiers requis du programme d’installation et de configuration à partir du kit de déploiement de systèmes de salle Skype v2 sur le disque dur local. Aucune personnalisation n’est requise pour cette étape.
        -   Vérifiez que le **SRS v2 – SRS Package d’Application** et **redirection désactiver les 64 bits du système de fichiers** sont sélectionnés.

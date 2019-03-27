@@ -1,5 +1,6 @@
 ---
 title: La qualité de l’expérience (QoE) données créer une nouvelle ou modifier une existant
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 19d34703-be01-4969-9eae-9d107d7b3408
 ROBOTS: NOINDEX, NOFOLLOW
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: 82fcf2cf07dd32221e9f9f09db9c915b9879216b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 0d7fb4208ba85f39d2d7ed91a9f1a0d98b40c6f3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20985934"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882200"
 ---
-# <a name="quality-of-experience-qoe-data-create-new-or-edit-existing"></a>Qualité de données de l’expérience (QoE) : créer une nouvelle ou en modifier une existant
+# <a name="quality-of-experience-qoe-data-create-new-or-edit-existing"></a>Données de qualité de l’expérience (QoE) : en créer d’autres ou en modifier des existantes
  
 Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
   

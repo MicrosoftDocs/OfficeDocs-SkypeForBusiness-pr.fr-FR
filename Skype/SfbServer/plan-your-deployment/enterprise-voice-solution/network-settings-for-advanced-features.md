@@ -1,5 +1,6 @@
 ---
 title: Paramètres réseau pour les fonctionnalités Enterprise Voice dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7f6de9e4-c8a4-44e4-8d14-21fe8c45283a
 description: Découvrez les régions réseau, les sites réseau et les sous-réseaux IP. Tous ces doivent être configurés pour déployer le Plan du contournement de média dans Skype pour les entreprises, planifier appel de contrôle d’admission des appels dans Skype pour Business Server), ou une planification pour les services d’urgence dans Skype pour Business Server dans Skype pour Business Server Enterprise Voice.
-ms.openlocfilehash: 6dad93aa2d5ef235b07f2189329f94d94b1a3d02
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: a37cf9aea2ef400a61a0b457e1973b05d079ec74
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885656"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882312"
 ---
 # <a name="network-settings-for-the-advanced-enterprise-voice-features-in-skype-for-business-server"></a>Paramètres réseau pour les fonctionnalités Enterprise Voice dans Skype pour Business Server
 
@@ -33,7 +34,7 @@ Cette rubrique fournit une vue d’ensemble de la configuration requise qui sont
 Une région réseau est un concentrateur réseau ou un segment réseau principal utilisé uniquement dans la configuration du service Contrôle d’admission des appels, du système E9-1-1 et de la déviation du trafic multimédia.
 
 > [!NOTE]
-> Régions de réseau ne sont pas la même que Skype pour les régions de conférence rendez-vous Business Server, qui sont nécessaires pour associer des numéros d’accès de conférence rendez-vous avec un ou plusieurs Skype pour les plans de numérotation Business Server. Pour plus d’informations sur les régions de conférence rendez-vous, consultez [planification de conférence rendez-vous](https://technet.microsoft.com/library/9aff949e-3dac-481a-be46-a180c72e8066.aspx).
+> Régions de réseau ne sont pas la même que Skype pour les régions de conférence rendez-vous Business Server, qui sont nécessaires pour associer des numéros d’accès de conférence rendez-vous avec un ou plusieurs Skype pour les plans de numérotation Business Server. Pour plus d’informations sur les régions de conférence rendez-vous, reportez-vous à [Planning for Dial-In Conferencing](https://technet.microsoft.com/library/9aff949e-3dac-481a-be46-a180c72e8066.aspx).
 
 CAC requiert qu’un Skype pour le site central Business Server, qui gère le trafic multimédia dans la région associée à chaque région réseau (autrement dit, il prend des décisions basées sur des règles que vous avez configuré ou non une audio en temps réel ou session vidéo peut être établie). Skype pour les sites centraux Business Server ne représentent pas les emplacements géographiques, mais plutôt logiques groupes de serveurs qui sont configurés en tant que pool ou un ensemble de pools.
 

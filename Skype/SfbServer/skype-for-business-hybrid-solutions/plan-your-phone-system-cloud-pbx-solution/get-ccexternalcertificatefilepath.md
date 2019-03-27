@@ -1,5 +1,6 @@
 ---
 title: Get-CcExternalCertificateFilePath
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 62fdc9cc-e82e-463f-b8b3-05d5c6482ea2
 description: L’applet de commande Get-CcExternalCertificateFilePath renvoie le chemin d’accès du fichier du certificat externe pour le déploiement de Skype Entreprise, version Cloud Connector. L’utilisateur prépare ce certificat.
-ms.openlocfilehash: 9ceba99310ab25676a7cd3938ed386c4752f453e
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 997b5d7a39decf11a19c307f4e7a7b439069441f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882585"
 ---
 # <a name="get-ccexternalcertificatefilepath"></a>Get-CcExternalCertificateFilePath
  
@@ -53,9 +55,9 @@ Pendant le déploiement ou la modification de la typologie, vous devez spécifie
 ## <a name="parameters"></a>Paramètres
 <a name="DetailedDescription"> </a>
 
-|**Paramètre**|**Obligatoire**|**Type de**|**Description**|
+|**Paramètre**|**Obligatoire**|**Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-|Cible  <br/> |Facultatif  <br/> | System.Management.Automation.SwitchParameter <br/> |Type de chemin d’accès de fichier requis. Les types comprennent :  <br/> Le serveur Edge (défaut)  <br/> MediationServer  <br/> |
+|Cible  <br/> |Facultatif  <br/> | System.Management.Automation.SwitchParameter <br/> |Type de chemin d’accès de fichier requis. Les types comprennent :  <br/> Le serveur Edge (défaut)  <br/> Le serveur de médiation  <br/> |
    
 ## <a name="input-types"></a>Types d’entrées
 <a name="InputTypes"> </a>
@@ -70,6 +72,6 @@ La commande renvoie un chemin d’accès de fichier.
 ## <a name="see-also"></a>Voir aussi
 <a name="ReturnTypes"> </a>
 
-[Ensemble-CcExternalCertificateFilePath](set-ccexternalcertificatefilepath.md)
+[Set-CcExternalCertificateFilePath](set-ccexternalcertificatefilepath.md)
   
 

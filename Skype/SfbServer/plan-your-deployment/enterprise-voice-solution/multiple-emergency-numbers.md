@@ -1,5 +1,6 @@
 ---
 title: Planifier plusieurs numéros d’urgence dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5ed45a22-ddf0-419f-84da-895a73df855f
 description: Lisez cette rubrique pour savoir comment planifier plusieurs numéros d’urgence dans Skype pour Business Server.
-ms.openlocfilehash: 6a27539641544682f6cb0905d8434f632fa868f2
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: e3ecbc039dac510a1ebc5eb989773c1f32c3b6ac
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23891520"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880762"
 ---
 # <a name="plan-for-multiple-emergency-numbers-in-skype-for-business-server"></a>Planifier plusieurs numéros d’urgence dans Skype pour Business Server
  
@@ -73,9 +74,12 @@ Le tableau suivant présente des exemples de stratégies d'emplacement (pour les
 
 |**Nom de la stratégie d'emplacement**|**E911 activé**|**Chaîne de numérotation d’urgence**|**Masque d'appel**|**Numéros d’urgence**|**Utilisation PSTN**|**Emplacement requis**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|États-Unis  <br/> |Oui  <br/> |911  <br/> | 112 ; 999 <br/> ||Service d'urgence USA  <br/> |Oui  <br/> |
-|Hôpital USA  <br/> |Oui  <br/> |911  <br/> |450  <br/> |911  <br/> 450  <br/> |SeattleEmergency  <br/> |Oui  <br/> |
-|Londres  <br/> |Oui  <br/> |999  <br/> |144  <br/> |999-144  <br/> 112-911 117 ; 118  <br/> |Service d'urgence RU  <br/> |Non  <br/> |
+|États-Unis  <br/> |Oui  <br/> |911  
+  <br/> | 112;999 <br/> ||Service d'urgence USA  <br/> |Oui  <br/> |
+|Hôpital USA  <br/> |Oui  <br/> |911  
+  <br/> |450  <br/> |911  <br/> 450  <br/> |SeattleEmergency  <br/> |Oui  <br/> |
+|Londres  <br/> |Oui  <br/> |999  
+  <br/> |144  <br/> |999-144  <br/> 112-911 117 ; 118  <br/> |Service d'urgence RU  <br/> |Non  <br/> |
 |Inde  <br/> |Oui  <br/> |||100-911  <br/> 101  <br/> 102  <br/> |IndiaEmergency  <br/> |Non  <br/> |
    
  **Aux États-Unis** , il n’est pas nécessaire pour plusieurs numéros d’urgence. Aux États-Unis, vous utilisez les configurations de chaîne de numérotation d’urgence et masque de numérotation anciennes.

@@ -1,5 +1,6 @@
 ---
 title: Test de votre installation de Skype Entreprise Online
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Learn to save time, support calls and increase satisfaction by setting up test accounts and computers, and testing dial-in conferencing, online features such as person-to-person calls, conferencing, and sign in and out. '
-ms.openlocfilehash: b2b69ec2eaa9fa2ace90ad117d866b00cb75f163
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 2cdb08634ce16b3ba6e09148daee57191e8c6988
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370938"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883542"
 ---
 # <a name="test-your-skype-for-business-online-installation"></a>Test de votre installation de Skype Entreprise Online
 
@@ -36,7 +37,7 @@ Voici ce dont vous aurez besoin :
 
 - Un compte avec un fournisseur de services d'audioconférence pour Skype Entreprise Online.
 
-## <a name="what-do-you-want-to-do"></a>Que voulez-vous faire ?
+## <a name="what-do-you-want-to-do"></a>Que voulez-vous faire ?
 
 > [Configurer des comptes test](test-your-skype-for-business-online-installation.md#__toc328126910)
 > 
@@ -55,7 +56,7 @@ Voici ce dont vous aurez besoin :
 
 3. Répétez les étapes 1 et 2 jusqu'à obtenir le nombre de comptes test souhaité. Vous avez besoin d'au moins deux comptes (en plus du vôtre) pour tester les fonctionnalités de réunion en ligne de Skype Entreprise Online.
 
-## <a name="set-up-test-computers"></a>Configurer des ordinateurs test
+## <a name="set-up-test-computers"></a>Configuration des ordinateurs de test
 <a name="__toc328126911"> </a>
 
 Sur chaque ordinateur test :

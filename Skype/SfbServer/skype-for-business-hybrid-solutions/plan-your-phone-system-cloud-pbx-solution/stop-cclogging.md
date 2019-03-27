@@ -1,5 +1,6 @@
 ---
 title: Stop-CcLogging
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fee9eda7-ad15-40d2-b9fe-21c5462d3309
 description: L’applet de commande Stop-CcLogging interrompt la création de journaux d'appels entrants et sortants pour une appliance de la version Cloud Connector de Skype Entreprise.
-ms.openlocfilehash: abecc5acc6a454b2965fbf79caadb23f2256e4cd
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: eaccde49421cd22e32b23b89d8b5ea42dd073912
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879622"
 ---
 # <a name="stop-cclogging"></a>Stop-CcLogging
  
@@ -51,7 +53,7 @@ L’applet de commande Stop-CcLogging interrompt la création de journaux d'appe
 ## <a name="parameters"></a>Paramètres
 <a name="DetailedDescription"> </a>
 
-|**Paramètre**|**Obligatoire**|**Type de**|**Description**|
+|**Paramètre**|**Obligatoire**|**Type**|**Description**|
 |:-----|:-----|:-----|:-----|
 | RemoveCache <br/> | Facultatif <br/> | System.Management.Automation.SwitchParameter <br/> |Suppression des fichiers de journaux en mémoire.  <br/> |
    
@@ -68,8 +70,8 @@ Aucun
 ## <a name="see-also"></a>Voir aussi
 <a name="ReturnTypes"> </a>
 
-[Recherche-CcLog](search-cclog.md)
+[Search-CcLog](search-cclog.md)
   
-[Démarrer-CcLogging](start-cclogging.md)
+[Start-CcLogging](start-cclogging.md)
   
 

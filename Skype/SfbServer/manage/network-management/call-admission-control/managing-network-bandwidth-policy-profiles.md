@@ -1,5 +1,6 @@
 ---
 title: Gestion des profils de stratégie de bande passante réseau
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Utilisez les procédures dans cet article pour afficher, créer, modifier ou supprimer des profils de stratégie de bande passante réseau.
-ms.openlocfilehash: 58a73774a55a64ac6cb81f0bdf887eb0d1493a35
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: d27e4df1b549afd3c176f8b54453c44bb97819f8
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222939"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878899"
 ---
-# <a name="managing-network-bandwidth-policy-profiles-in-skype-for-business-server"></a>Gestion des profils de stratégie de bande passante réseau dans Skype pour Business Server
+# <a name="managing-network-bandwidth-policy-profiles-in-skype-for-business-server"></a>Gestion de profils de stratégie de bande passante réseau dans Skype Entreprise Server
 
 Utilisez les procédures dans cet article pour afficher, créer, modifier ou supprimer des profils de stratégie de bande passante réseau.
 
@@ -25,7 +26,7 @@ Dans le cadre du contrôle d’admission des appels (CAC), une stratégie de ban
 
 ### <a name="to-view-a-bandwidth-policy-profile"></a>Pour afficher un profil de stratégie de bande passante
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou disposant des mêmes droits) ou affecté au rôle CsAdministrator, ouvrez une session sur un ordinateur qui se trouve sur votre déploiement interne.
+1.  À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou est affecté au rôle CsAdministrator, ouvrez une session sur n’importe quel ordinateur dans votre déploiement interne.
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business. 
 
@@ -67,7 +68,7 @@ Dans le cadre du contrôle d’admission des appels (CAC), une stratégie de ban
 
 ### <a name="to-create-a-new-bandwidth-policy-profile"></a>Pour créer un nouveau profil de stratégie de bande passante
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou disposant des mêmes droits) ou affecté au rôle CsAdministrator, ouvrez une session sur un ordinateur qui se trouve sur votre déploiement interne.
+1.  À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou est affecté au rôle CsAdministrator, ouvrez une session sur n’importe quel ordinateur dans votre déploiement interne.
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business. 
 
@@ -95,7 +96,7 @@ Dans le cadre du contrôle d’admission des appels (CAC), une stratégie de ban
 
 ### <a name="to-modify-a-bandwidth-policy-profile"></a>Pour modifier un profil de stratégie de bande passante
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou disposant des mêmes droits) ou affecté au rôle CsAdministrator, ouvrez une session sur un ordinateur qui se trouve sur votre déploiement interne.
+1.  À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou est affecté au rôle CsAdministrator, ouvrez une session sur n’importe quel ordinateur dans votre déploiement interne.
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business. 
 
@@ -119,7 +120,7 @@ Dans le cadre du contrôle d’admission des appels (CAC), une stratégie de ban
 
 ### <a name="to-delete-a-bandwidth-policy-profile"></a>Pour supprimer un profil de stratégie de bande passante
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou disposant des mêmes droits) ou affecté au rôle CsAdministrator, ouvrez une session sur un ordinateur qui se trouve sur votre déploiement interne.
+1.  À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou est affecté au rôle CsAdministrator, ouvrez une session sur n’importe quel ordinateur dans votre déploiement interne.
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business. 
 

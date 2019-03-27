@@ -1,5 +1,6 @@
 ---
 title: Associer un pool frontal à un serveur Edge
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,17 +13,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f09c9b3e-1f5f-4486-8113-e62c10cff138
 description: Chaque pool frontal ne peut être associé qu’à un seul serveur Edge ou pool de serveurs Edge. Lorsque vous permettez à un utilisateur externe d’accéder à un site, vous pouvez fournir une prise en charge des utilisateurs distants. Vous pouvez également autoriser la prise en charge des utilisateurs fédérés, qui peut inclure la prise en charge des utilisateurs de fournisseurs de connectivité PIC (Public Instant Messaging) spécifiques (comme Windows Live), ainsi que la prise en charge des utilisateurs anonymes.
-ms.openlocfilehash: ec396559885cd59c5a600670d2e2fa3d40576466
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 719a9375cfab8c5e8b6f102315eaf12b4f30ff97
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23245271"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879229"
 ---
 # <a name="associate-front-end-with-edge"></a>Associer un pool frontal à un serveur Edge
 
 Chaque pool frontal ne peut être associé qu’à un seul serveur Edge ou pool de serveurs Edge. Lorsque vous permettez à un utilisateur externe d’accéder à un site, vous pouvez fournir une prise en charge des utilisateurs distants. Vous pouvez également autoriser la prise en charge des utilisateurs fédérés, qui peut inclure la prise en charge des utilisateurs de fournisseurs de connectivité PIC (Public Instant Messaging) spécifiques (comme Windows Live), ainsi que la prise en charge des utilisateurs anonymes.
 
-Tous les pools d’un site et les pools de sites centraux multiples peuvent utiliser le même serveur Edge, si l’utilisation ne dépasse pas la capacité du serveur Edge. Pour plus d’informations sur la surveillance, y compris la mise à l’échelle, voir [Planning for External User Access](https://technet.microsoft.com/library/ea098933-eff5-461e-aba3-e7f128784dc2.aspx) dans la documentation de planification. Pour plus d’informations sur la conception d’une topologie pour prendre en charge l’accès des utilisateurs externes, voir [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx) dans la documentation de déploiement.
+Tous les pools d’un site et les pools de sites centraux multiples peuvent utiliser le même serveur Edge, si l’utilisation ne dépasse pas la capacité du serveur Edge. Pour plus d’informations sur la surveillance, dont l’évolutivité, reportez-vous à la rubrique [Planning for External User Access](https://technet.microsoft.com/library/ea098933-eff5-461e-aba3-e7f128784dc2.aspx) de la documentation de planification. Pour plus d’informations sur la conception d’une topologie pour prendre en charge l’accès des utilisateurs externes, reportez-vous à la rubrique [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx) de la documentation de déploiement.
 
 

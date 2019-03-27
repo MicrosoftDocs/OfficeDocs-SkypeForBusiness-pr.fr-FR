@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Découvrez quelles informations sont envoyées automatiquement aux utilisateurs par e-mail lorsque leurs paramètres d’audioconférence sont modifiés dans Microsoft Teams. '
-ms.openlocfilehash: cdd45eaad709ed2060cc0b0f9700e213ea884b72
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 67e4945095b9ed7e69632741e04b4ac384741feb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30633333"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883418"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-microsoft-teams"></a>Courriers électroniques envoyés aux utilisateurs lorsque leurs paramètres sont modifiés dans Microsoft Teams
 
@@ -77,7 +77,7 @@ Par défaut, quatre types de courriers électroniques seront envoyés à vos uti
 
 ## <a name="make-changes-to-the-email-messages-that-are-sent-to-them"></a>Modifier les courriers électroniques qui leur sont envoyés
 
-Vous pouvez apporter des modifications aux courriers électroniques envoyés automatiquement à vos utilisateurs, dont l'adresse électronique et le nom d'affichage figurant dans les informations de contact *De*. Par défaut, l'envoi des courriers électroniques se fera à partir d'Office 365, mais vous pouvez modifier l'adresse électronique et le nom d'affichage à l'aide de Windows PowerShell. Pour des informations complémentaires, consultez la rubrique [Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps).
+Vous pouvez modifier le message électronique qui est envoyé automatiquement aux utilisateurs. Par défaut, l’expéditeur des e-mails sera d’Office 365, mais vous pouvez modifier le nom complet à l’aide de Windows PowerShell. Pour des informations complémentaires, consultez la rubrique [Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps).
 
 ## <a name="what-if-you-dont-want-email-to-be-sent-to-them"></a>Comment procéder si vous ne souhaitez pas leur envoyer de courriers électroniques ?
 

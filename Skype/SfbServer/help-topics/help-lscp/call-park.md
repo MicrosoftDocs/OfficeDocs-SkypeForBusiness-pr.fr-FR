@@ -1,5 +1,6 @@
 ---
 title: Parcage d’appel
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b752617d-554d-470e-b17b-387403ac74ed
 description: Lors de la mise en garde un appel, il est transféré vers un numéro temporaire où l’appel est conservé jusqu'à ce qu’une personne récupère ou qu’il arrive à expiration. Vous devez configurer un tableau avec les plages de numéros de poste que vous réservez pour les appels mis en garde. Ces postes doivent être des postes virtuels (autrement dit, des postes auxquels aucun utilisateur ni téléphone n’est affecté). Chaque pool qui exécute l’application de parcage d’appel peut avoir une ou plusieurs plages d’extensions. Ces plages doivent être globalement uniques dans votre déploiement.
-ms.openlocfilehash: f8dd85eb98c6560a21ab6bf65eafec7e335b6138
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 2470d820b6536fdcd966e25d8719cd89903b4519
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23260047"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878849"
 ---
 # <a name="call-park"></a>parcage d’appel
 

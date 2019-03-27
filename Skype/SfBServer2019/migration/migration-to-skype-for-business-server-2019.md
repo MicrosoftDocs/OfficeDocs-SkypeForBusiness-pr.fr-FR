@@ -1,5 +1,6 @@
 ---
 title: Migration vers Skype pour Business Server 2019
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Les rubriques de cette section vous guident tout au long du processus de migration vers Skype pour Business Server 2019.
-ms.openlocfilehash: 544dd01cdea68971b54374ca6e0e94909e249c82
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 32babd6fedd5defc756f73bbf001716c7c0b8a72
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25027829"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881596"
 ---
 # <a name="migration-to-skype-for-business-server-2019"></a>Migration vers Skype pour Business Server 2019
 
@@ -41,20 +42,20 @@ Cet article définit les termes spécifiés dans la liste suivante.
 
 - [Avant de commencer la migration](before-you-begin-the-migration.md)
     
-- [Phase 1 : Planification de la migration](phase-1-plan-your-migration.md)
+- [Étape 1 : Planifier la migration](phase-1-plan-your-migration.md)
     
-- [Phase 2 : Préparer la migration](phase-2-prepare-for-migration.md)
+- [Étape 2 : Préparer la migration](phase-2-prepare-for-migration.md)
     
-- [Phase 3 : Déployer le pool pilote](phase-3-deploy-pilot-pool.md)
+- [Étape 3 : Déployer un pool pilote](phase-3-deploy-pilot-pool.md)
     
 - [Phase 4 : Déplacer les utilisateurs de test le pool pilote](phase-4-move-test-users-to-the-pilot-pool.md)
     
-- [Phase 5 : Ajouter un serveur de périphérie vers le pool pilote](phase-5-add-edge-server-to-pilot-pool.md)
+- [Étape 5 : Ajouter un serveur Edge au pool pilote](phase-5-add-edge-server-to-pilot-pool.md)
     
-- [Phase 6 : Passer d’un déploiement pilote en production](phase-6-move-from-pilot-deployment-into-production.md)
+- [Phase 6 : Transition d’un déploiement pilote vers un environnement de production](phase-6-move-from-pilot-deployment-into-production.md)
     
-- [Phase 7 : Effectuer des tâches de post-migration](phase-7-complete-post-migration-tasks.md)
+- [Étape 7 : Exécuter les tâches post-migration](phase-7-complete-post-migration-tasks.md)
     
-- [Phase 8 : Mettre hors service les pools hérités](phase-8-decommission-legacy-pools.md)
+- [Étape 8 : Mettre des pools hérités hors service](phase-8-decommission-legacy-pools.md)
     
 

@@ -1,5 +1,6 @@
 ---
 title: Ajouter un magasin SQL Server de stockage de conformité de conversation permanente
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 358b74bd-a97d-4f28-9bed-af633ea0099e
 ROBOTS: NOINDEX, NOFOLLOW
 description: Vous configurez la conformité de sauvegarde que magasins SQL Server qui fournit des bases de données de sauvegarde pour le serveur de conversation permanente ou de la conformité Persistent Chat Server que magasins SQL Server.
-ms.openlocfilehash: 8bdc45551023547375028a1eec10b17456e0441c
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 58e2d8e791b5e22e753887c790275dc8148c9d44
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21063794"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881610"
 ---
 # <a name="add-persistent-chat-compliance-backup-sql-server-store"></a>Ajouter un magasin SQL Server de stockage de conformité de conversation permanente
 

@@ -1,5 +1,6 @@
 ---
 title: Configurer des conférences rendez-vous Skype pour Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 38d9f168-80b8-46f2-a1c0-becd84e58e73
 description: 'Résumé : Lisez cette rubrique pour savoir comment configurer les conférences rendez-vous dans Skype pour Business Server.'
-ms.openlocfilehash: 3c4460761fadd1dee523eb15949da8fc1bf69f14
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: dbd851f416fb3bc91a556753ce33d2ef80976ff2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372401"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881506"
 ---
 # <a name="configure-dial-in-conferencing-in-skype-for-business-server"></a>Configurer des conférences rendez-vous Skype pour Business Server
  
@@ -78,7 +79,7 @@ Utilisez l’applet de commande **Get-CsDialPlan** pour vérifier qu’une régi
 
 1. Ouvrez une session sur l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre du rôle **Cs-VoiceAdministrator**, **Cs-ServerAdministrator** ou **CsAdministrator**.
     
-2. Démarrez Skype Entreprise Server Management Shell : cliquez successivement sur **Démarrer**, **Tous les programmes**, **Skype Entreprise 2015**, puis sur **Skype Entreprise Server Management Shell**.
+2. Démarrez le Skype pour Business Server Management Shell : cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Skype pour Business 2015**, puis cliquez sur **Skype pour Business Server Management Shell**.
     
 3. Exécutez la commande suivante dans l’invite de commandes :
     
@@ -86,7 +87,7 @@ Utilisez l’applet de commande **Get-CsDialPlan** pour vérifier qu’une régi
    Get-CsDialPlan [-Identity <Identifier of the dial plans to be retrieved>]
    ```
 
-   Exemple :
+   Par exemple :
     
    ```
    Get-CsDialPlan
@@ -102,7 +103,7 @@ Pour plus d’informations, voir [Get-CsDialPlan](https://docs.microsoft.com/pow
 
 1. Ouvrez une session sur l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre du rôle **Cs-VoiceAdministrator**, **Cs-ServerAdministrator** ou **CsAdministrator**.
     
-2. Démarrez Skype Entreprise Server Management Shell : cliquez successivement sur **Démarrer**, **Tous les programmes**, **Skype Entreprise 2015**, puis sur **Skype Entreprise Server Management Shell**.
+2. Démarrez le Skype pour Business Server Management Shell : cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Skype pour Business 2015**, puis cliquez sur **Skype pour Business Server Management Shell**.
     
 3. Pour tous les plans de numérotation ne comportant pas de région de conférence rendez-vous, exécutez :
     
@@ -120,7 +121,7 @@ Pour plus d’informations, voir [Get-CsDialPlan](https://docs.microsoft.com/pow
     
 Pour plus d’informations, voir [Set-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/set-csdialplan?view=skype-ps).
   
-## <a name="configure-dial-in-access-numbers"></a>Configurer les numéros d’accès entrant
+## <a name="configure-dial-in-access-numbers"></a>Configuration des numéros d’accès entrant
 <a name="BKMK_ConfigureDialInAccessNumbers"> </a>
 
 Lorsque vous déployez des conférences rendez-vous, vous devez configurer les numéros de téléphone que les utilisateurs peuvent appeler à partir du réseau téléphonique commuté pour participer à la partie audio des conférences. Ces numéros s’affichent dans les invitations à une réunion et sur la page web des paramètres de configuration des conférences rendez-vous.
@@ -135,7 +136,7 @@ Avant de créer des numéros d’accès aux conférences rendez-vous, vous devez
   
 ### <a name="to-create-a-dial-in-access-number"></a>Pour créer un numéro d’accès entrant
 
-1. À partir d’un compte d’utilisateur auquel est affecté un des rôles CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
+1. À partir d’un compte d’utilisateur auquel est affecté le rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
     
 2. Ouvrez le panneau de configuration serveur Business Skype.
     
@@ -194,7 +195,7 @@ Une stratégie de conférence est un paramètre de compte d’utilisateur qui sp
   
 Pour plus d’informations sur la configuration des stratégies de conférence, voir [Gérer les stratégies de conférence de Skype pour Business Server](../../manage/conferencing/conferencing-policies.md).
   
-## <a name="assign-a-line-uri-to-a-user-account"></a>Assign a Line URI to a user account
+## <a name="assign-a-line-uri-to-a-user-account"></a>Affecter un URI de ligne à un compte d’utilisateur
 <a name="BKMK_AssignaLineURI"> </a>
 
 Les utilisateurs d’appels entrants doivent entrer un numéro de téléphone ou de poste, ainsi qu’un code confidentiel pour participer à des conférences en qualité d’utilisateurs authentifiés. L' **URI de ligne** spécifiée sur Skype pour les comptes d’utilisateurs Business Server téléphonique est requis pour l’authentification.

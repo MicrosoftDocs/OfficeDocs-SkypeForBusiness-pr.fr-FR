@@ -1,5 +1,6 @@
 ---
 title: Configurer les options d’archivage pour gérer les échecs dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 31fd4e7c-3c68-48dd-9fad-8863831accd7
 description: 'Résumé : Apprenez à bloquer les sessions par messagerie instantanée et de conférence dans le cas d’un Skype de défaillance du serveur d’entreprise qui empêche l’archivage.'
-ms.openlocfilehash: 952ee82ca3be045fc0407a6ce2f61fdaead12030
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 4fe63319f2b480557c73e238f2b19692df06440f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20998713"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883017"
 ---
 # <a name="configure-archiving-options-to-handle-failures-in-skype-for-business-server"></a>Configurer les options d’archivage pour gérer les échecs dans Skype pour Business Server
 
@@ -30,7 +31,7 @@ Pour préciser si des sessions de communication sont autorisées en cas de panne
     
 2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business. 
     
-3. Dans la barre de navigation de gauche, cliquez sur **Surveillance et archivage**, puis sur **Configuration de l’archivage**.
+3. Dans la barre de navigation de gauche, cliquez sur **surveillance et archivage**, puis cliquez sur **Configuration de l’archivage**.
     
 4. Cliquez sur le nom de la configuration de site, de pool ou globale appropriée dans la liste des configurations d’archivage, puis sur **Modifier**, et enfin sur **Afficher les détails**.
     

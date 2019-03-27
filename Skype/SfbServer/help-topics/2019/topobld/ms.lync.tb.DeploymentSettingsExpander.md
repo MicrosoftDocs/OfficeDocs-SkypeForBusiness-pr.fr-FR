@@ -1,5 +1,6 @@
 ---
 title: Expanseur des paramètres de déploiement
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 7220ec1f-38cb-4297-870e-591a832cd2f2
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Vous pouvez modifier les propriétés d’un déploiement existant à l’aide des sections suivantes :'
-ms.openlocfilehash: 733f71ffbb2f1e49fb73da6727a9df7586273d5b
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: b5e953f165c9e54fa2e7891b7562e840c78b3144
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23255415"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878160"
 ---
 # <a name="deployment-settings-expander"></a>Expanseur des paramètres de déploiement
 
@@ -25,9 +26,9 @@ Vous pouvez modifier les propriétés d’un déploiement existant à l’aide d
 
 - Domaine SIP
 
-- URL simples
+- URL simples 
 
-- Serveur de gestion centralisée
+- serveur de gestion centralisée
 
 ## <a name="sip-domain"></a>Domaine SIP
 
@@ -70,9 +71,9 @@ Le serveur de gestion centralisée peut être changé d’un pool frontal défin
 > [!IMPORTANT]
 > Après avoir défini, publié et déployé le magasin central de gestion pour l’infrastructure, vous ne pouvez pas modifier son emplacement sans redéfinir l’emplacement du magasin central de gestion sur un autre serveur frontal par le biais d’un processus externe.
 
-Pour plus d’informations sur le déplacement du magasin Central de gestion, voir [Move-CsManagementServer](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps) dans la référence d’applet de commande Windows PowerShell.
+Pour plus d’informations sur le déplacement du magasin central de gestion, reportez-vous à la rubrique [Move-CsManagementServer](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps) dans la référence de l’applet de commande Windows PowerShell.
 
 
-Pour plus d’informations sur la définition et la configuration de ces paramètres, voir [Defining and Configuring the Topology](https://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx).
+Pour plus d’informations sur la définition et la configuration de ces paramètres, reportez-vous à la rubrique [Defining and Configuring the Topology](https://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx).
 
 

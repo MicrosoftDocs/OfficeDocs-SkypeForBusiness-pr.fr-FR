@@ -1,5 +1,6 @@
 ---
 title: Stratégie de conférence
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 90eaa64e-369e-448d-bac4-2574c7c598b8
 ROBOTS: NOINDEX, NOFOLLOW
 description: Stratégie de conférence définit les fonctionnalités dont disposent les utilisateurs pendant une conférence (également appelée réunion).
-ms.openlocfilehash: ac53ac12d61680a3cbbb54cd90020d9b91e39e14
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: bb11290a0536f30767dcc979a6d21669ddbb04a3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23255471"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884406"
 ---
 # <a name="conferencing-policy"></a>Stratégie de conférence
 
@@ -74,6 +75,6 @@ La liste ci-dessous décrit les champs de la page.
 
 - **Enregistrement** Vérifiez si la stratégie de conférence Spécifie que l’enregistrement est autorisée dans les conférences.
 
-Pour plus d’informations sur les fonctionnalités de conférence et les fonctionnalités, voir [Vue d’ensemble de la conférence](https://technet.microsoft.com/library/5bb90e69-3d4f-4d59-a1ee-2550de84439f.aspx) dans la documentation de planification. Pour plus d’informations sur l’utilisation des stratégies de conférence, voir [Stratégies de conférence](https://technet.microsoft.com/library/8f92eb7c-ee66-4df6-a726-4bff93b122cb.aspx) dans la documentation des opérations.
+Pour plus d’informations sur les fonctionnalités et les fonctions de conférence, reportez-vous à la rubrique [Overview of Conferencing](https://technet.microsoft.com/library/5bb90e69-3d4f-4d59-a1ee-2550de84439f.aspx) de la documentation de planification. Pour plus d’informations sur l’utilisation des stratégies de conférence, reportez-vous à la rubrique [Conferencing Policies](https://technet.microsoft.com/library/8f92eb7c-ee66-4df6-a726-4bff93b122cb.aspx) de la documentation des opérations.
 
 

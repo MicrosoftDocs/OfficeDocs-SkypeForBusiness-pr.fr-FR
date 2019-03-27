@@ -1,5 +1,6 @@
 ---
 title: Configurer Skype Entreprise Online
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,12 +23,12 @@ ms.custom:
 - Alchemy
 - LIL_Placement
 description: 'Apprenez à configurer votre domaine, les utilisateurs, messagerie instantanée et la présence de votre organisation pour installer Skype pour les entreprises. Voir aussi comment configurer les services d’audioconférence, système téléphonique et Plans de l’appel et diffusion Skype réunion. '
-ms.openlocfilehash: af472553cea8a79f2fe9d918f7924f8884e834b5
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 2a968fa0f5b89351c2a7a2726052b1418f0ac213
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374474"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878683"
 ---
 # <a name="set-up-skype-for-business-online"></a>Configurer Skype Entreprise Online
 

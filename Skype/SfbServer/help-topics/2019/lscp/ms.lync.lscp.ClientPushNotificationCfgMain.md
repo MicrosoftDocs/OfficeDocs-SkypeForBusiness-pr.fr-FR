@@ -1,5 +1,6 @@
 ---
 title: Configuration des notifications Push Client mobile
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: b7a85d75-9d36-4980-b669-2a009799d905
 ROBOTS: NOINDEX, NOFOLLOW
 description: Pour configurer les notifications push Microsoft et les notifications push Apple, vous devez créer une stratégie pour définir les types de notification push que vous avez besoin.
-ms.openlocfilehash: 96f3b65e522df0629a9e3fca6558442bc7de3792
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: a2dafb190d0eb1c29d1dfb7cc07af40a10fb107c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374111"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882431"
 ---
-# <a name="mobile-client-push-notification-configuration"></a>Client mobile : Configuration des notifications Push
+# <a name="mobile-client-push-notification-configuration"></a>Client mobile : configuration des notifications push
  
 Pour configurer les **notifications push Microsoft** et **les notifications push Apple**, vous devez créer une stratégie pour définir les types de notification push que vous avez besoin.
   

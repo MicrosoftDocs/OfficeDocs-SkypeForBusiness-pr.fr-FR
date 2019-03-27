@@ -1,5 +1,6 @@
 ---
 title: Ajouter des fonctionnalités frontales
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 97441ec2-573a-4ba4-ab4c-df4cf6baf321
 ROBOTS: NOINDEX, NOFOLLOW
 description: Sélectionnez chaque fonctionnalité que vous souhaitez activer pour le pool frontal. Au minimum, vous devez déployer la messagerie instantanée (MI), qui est toujours activé et ne peut pas être désactivée. Également, vous avez la possibilité de déployer d’autres fonctionnalités, telles que des conférences, Enterprise Voice et le contrôle d’admission des appels (CAC). Certaines fonctionnalités dépendent de votre topologie.
-ms.openlocfilehash: 9c75e213ccef2bf76d144bddae607a0930b0093a
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 1657c85a4ee7361f7f1d2853ef14f60553eabd70
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23260509"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879510"
 ---
 # <a name="add-front-end-features"></a>Ajouter des fonctionnalités frontales
 

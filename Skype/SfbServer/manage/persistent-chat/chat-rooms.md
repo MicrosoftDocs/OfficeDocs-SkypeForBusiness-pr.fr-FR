@@ -1,5 +1,6 @@
 ---
 title: Gestion des salles de conversation sur un serveur de conversation permanente dans Skype Entreprise Server 2015
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b2e1302-280c-4efe-9ec8-787687b414da
 description: 'Résumé : Découvrez comment gérer les salles de conversation Persistent Chat Server dans Skype pour Business Server 2015.'
-ms.openlocfilehash: 1c197be847d2a1359a3e6203df718cc34f1d9e41
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 8764b40651c9872393867ced205c405cfc2d4046
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372148"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881729"
 ---
 # <a name="manage-chat-rooms-in-persistent-chat-server-in-skype-for-business-server-2015"></a>Gestion des salles de conversation sur un serveur de conversation permanente dans Skype Entreprise Server 2015
  
@@ -54,7 +55,7 @@ Vous pouvez configurer et gérer des salles de conversation en utilisant les app
 |Get-CsPersistentChatRoom  <br/> |Récupérer des informations sur les salles  <br/> |
 |Clear-CsPersistentChatRoom  <br/> |Effacer une salle et les messages d’une salle  <br/> |
 |Remove-CsPersistentChatRoom  <br/> |Supprimer une salle  <br/> |
-|Remove-cspersistentchatmessage ne  <br/> |Supprimer les messages d’une salle  <br/> |
+|Remove-CsPersistentChatMessage  <br/> |Supprimer les messages d’une salle  <br/> |
    
 Utilisez l’applet de commande **New-CsPersistentChatRoom** pour créer des salles de conversation et utilisez l’applet de commande **Set-CsPersistentChatRoom** pour configurer une salle de conversation existante, notamment pour ajouter des utilisateurs à la salle de conversation. Vous pouvez configurer les paramètres suivants pour les salles de conversation :
   
@@ -76,7 +77,7 @@ En plus des paramètres ci-dessus, l’applet de commande **Set-CsPersistentChat
     
 - Presenters. Permet d’affecter des présentateurs à une salle de conversation Auditorium. 
     
-  Pour plus d’informations sur la syntaxe, y compris tous les paramètres, voir [Skype pour Business Server 2015 Management Shell](../management-shell.md).
+  Pour des informations sur la syntaxe, notamment tous les paramètres, voir [Skype for Business Server 2015 Management Shell](../management-shell.md).
   
 ## <a name="create-a-new-room"></a>Créer une salle
 

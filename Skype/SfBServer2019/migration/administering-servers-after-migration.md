@@ -1,5 +1,6 @@
 ---
 title: Administration des serveurs après la migration
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: En règle générale, vous devez utiliser l’outil d’administration qui correspond à la version du serveur que vous souhaitez gérer.
-ms.openlocfilehash: 383c41d66ec79bac0eb35be1feda352767883b85
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 235ceee4bfc3aa79022a97ab0e8be2edc46b8005
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25029390"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882099"
 ---
 # <a name="administering-servers-after-migration"></a>Administration des serveurs après la migration
 

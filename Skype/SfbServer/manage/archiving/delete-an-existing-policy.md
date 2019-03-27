@@ -1,5 +1,6 @@
 ---
 title: Supprimer une stratégie dans Skype d’archivage pour Business Server existante
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8b88bed9-2b37-4caf-b119-48688076e06a
 description: 'Résumé : Découvrez comment supprimer une stratégie d’archivage pour Skype pour Business Server.'
-ms.openlocfilehash: 0446999923b462311f941b6653157b41000b1f43
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 1210dacc85ea28d2968d602431d5a9bdf7bcc4b9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20973100"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878427"
 ---
 # <a name="delete-an-existing-archiving-policy-in-skype-for-business-server"></a>Supprimer une stratégie dans Skype d’archivage pour Business Server existante
 
@@ -28,7 +29,7 @@ Vous pouvez supprimer une stratégie utilisateur ou une stratégie de site mais 
     
 2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business. 
     
-3. Dans la barre de navigation de gauche, cliquez sur **Surveillance et archivage**, puis sur **Stratégie d’archivage**.
+3. Dans la barre de navigation de gauche, cliquez sur **surveillance et archivage**, puis cliquez sur **Stratégie d’archivage**.
     
 4. Dans la liste des stratégies d’archivage, cliquez sur la stratégie utilisateur ou la stratégie de site que vous souhaitez supprimer, cliquez sur **Modifier**, puis sur **Supprimer**.
     

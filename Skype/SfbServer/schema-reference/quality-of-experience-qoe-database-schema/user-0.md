@@ -1,5 +1,6 @@
 ---
 title: Table User
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -9,24 +10,25 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b52047e-286d-47ab-b7bc-a9b266f62d82
-description: La table est une table de prise en charge qui stocke une liste des différents utilisateurs qui ont participé aux sessions enregistrées dans la base de données. Chaque enregistrement de la table représente un utilisateur.
-ms.openlocfilehash: 3261133b8c36fe96fd847c075dce0be2a903c417
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: La table est une table de prise en charge qui stocke une liste de différents utilisateurs qui ont participé à des sessions enregistrées dans la base de données. Chaque enregistrement de la table représente un utilisateur.
+ms.openlocfilehash: fcdc8682b86432613af79d5e4d2abbdb248fef0f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881673"
 ---
 # <a name="user-table"></a>Table User
  
-La table est une table de prise en charge qui stocke une liste des différents utilisateurs qui ont participé aux sessions enregistrées dans la base de données. Chaque enregistrement de la table représente un utilisateur.
+La table est une table de prise en charge qui stocke une liste de différents utilisateurs qui ont participé à des sessions enregistrées dans la base de données. Chaque enregistrement de la table représente un utilisateur.
   
-|**Colonne**|**Type de données**|**Index de la clé**|**Détails**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
 |:-----|:-----|:-----|:-----|
-|**UserKey** <br/> |int  <br/> |Principal  <br/> |Numéro unique identifiant l’utilisateur.  <br/> |
+|**UserKey** <br/> |int  <br/> |Principal  <br/> |Numéro unique identifiant cet utilisateur.  <br/> |
 |**URI** <br/> |nvarchar(450)  <br/> |Unique  <br/> |Chaîne d’URI.  <br/> |
-|**URIType** <br/> |int  <br/> ||1 est inconnu type d’URI.  <br/> 2 est utilisateur URI.  <br/> 4 est la conférence URI.  <br/> 8 est un URI de téléphone.  <br/> |
-|**TenantKey** <br/> |int  <br/> |Étrangère  <br/> |Clients de l’utilisateur, référencé à partir de la table des clients.  <br/> |
-|**LastPoorCallTime** <br/> |DateHeure  <br/> ||Dernier horodatage lorsque l’utilisateur a un appel audio médiocre.  <br/> |
+|**URIType** <br/> |int  <br/> ||1 est type URI inconnu.  <br/> 2 est URI de l’utilisateur.  <br/> 4 est URI de conférence.  <br/> 8 est URI de téléphone.  <br/> |
+|**TenantKey** <br/> |int  <br/> |Étrangère  <br/> |Client de l’utilisateur, référencé à partir de la table clients.  <br/> |
+|**LastPoorCallTime** <br/> |DateHeure  <br/> ||Dernières date et l’heure où l’utilisateur avait un appel audio médiocre.  <br/> |
 |**NextUpdateTS** <br/> |DateHeure  <br/> ||À usage interne uniquement.  <br/> |
    
 

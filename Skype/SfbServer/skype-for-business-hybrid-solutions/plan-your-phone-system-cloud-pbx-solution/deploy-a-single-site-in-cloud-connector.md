@@ -1,5 +1,6 @@
 ---
 title: Déployer un seul site dans Cloud Connector
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,14 +14,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fa8aa499-1188-447e-bc30-89d1f5b198a7
 description: En savoir plus sur le déploiement d’un seul site PSTN dans le nuage connecteur Edition.
-ms.openlocfilehash: 389829373d857d587a1fd904932f13a7a321deec
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 667637fdf7dd42df64c4fdf9aca6b20931da188d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375003"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881140"
 ---
-# <a name="deploy-a-single-site-in-cloud-connector"></a>Déployer un seul site dans Cloud Connector
+# <a name="deploy-a-single-site-in-cloud-connector"></a>Deploy a single site in Cloud Connector
  
 En savoir plus sur le déploiement d’un seul site PSTN dans le nuage connecteur Edition.
   
@@ -34,11 +35,11 @@ Pour déployer la première appliance sur un site, ouvrez une console PowerShell
 Register-CcAppliance
 ```
 
-Suivez les instructions pour spécifier le mot de passe et le nom de compte d'administration du client. Utilisez le compte que vous avez créé pour la gestion en ligne de Cloud Connector. Suivez également les instructions pour spécifier les mots de passe de certificat externe, d'administration de mode sans échec, d'administration de domaine et d'administration d'ordinateur virtuel.  
+Suivez les instructions pour spécifier le mot de passe et le nom de compte d'administration du client. Utiliser le compte que vous avez créé pour la gestion en nuage connecteur en ligne. Suivez également les instructions pour spécifier les mots de passe de certificat externe, d'administration de mode sans échec, d'administration de domaine et d'administration d'ordinateur virtuel. 
   
 Dans la version 1.4.2 et précédemment, également suivre les instructions pour fournir le mot de passe de certificat externe, le mot de passe d’administration en mode sans échec, mot de passe d’administration de domaine et le mot de passe d’administration ordinateur virtuel. 
   
-Dans les versions 2.0 et suivantes, suivez également les instructions pour spécifier les mots de passe de certificat externe, CceService et CABackupFile.
+Dans la version 2.0 et versions ultérieures, également suivre les instructions pour fournir le mot de passe de certificat externe, CceService mot de passe et le mot de passe CABackupFile.
   
 Pour commencer l'installation, ouvrez une console PowerShell en tant qu'administrateur et exécutez l'applet de commande suivante :
   
@@ -71,7 +72,7 @@ Vous pouvez étendre un site existant de nuage connecteur pour prendre en charge
    ```
 
 > [!NOTE]
-> Si l’annuaire de sites a été défini sur un chemin d’accès du dossier local, vous devez définir un partage de fichiers pour ce dossier et d’utiliser un chemin d’accès UNC de l’annuaire de sites sur le nouveau matériel. Vous pouvez laisser l’annuaire de sites appliance premier avec le chemin d’accès local ou modifier pour qu’il utilise le chemin d’accès UNC du partage dans le même dossier. Si l’emplacement de l’annuaire de sites partagés change, n’importe quel appliances précédemment installé doivent être désinstallés et puis réinstallé. > Important : Le mot de passe pour le compte CceService et le compte CABackupFile doit être identiques sur tous les appareils déployés dans le site, afin que les appareils puissent accéder le partage de répertoire du site et le fichier de sauvegarde chiffré autorité de certification dans l’annuaire de sites. 
+> Si l’annuaire de sites a été défini sur un chemin d’accès du dossier local, vous devez définir un partage de fichiers pour ce dossier et d’utiliser un chemin d’accès UNC de l’annuaire de sites sur le nouveau matériel. Vous pouvez laisser l’annuaire de sites appliance premier avec le chemin d’accès local ou modifier pour qu’il utilise le chemin d’accès UNC du partage dans le même dossier. Si l’emplacement de l’annuaire de sites partagés change, n’importe quel appliances précédemment installé doivent être désinstallés et puis réinstallé. > Important : le mot de passe pour le compte CceService et le compte CABackupFile doit être identiques sur tous les appareils déployés dans le site, afin que les appareils puissent accéder le partage de répertoire du site et le fichier de sauvegarde chiffré autorité de certification dans l’annuaire de sites. 
   
 ## <a name="remove-an-appliance-from-an-existing-site"></a>Supprimer une appliance d'un site existant
 

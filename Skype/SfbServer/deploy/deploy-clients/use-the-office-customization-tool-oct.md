@@ -1,5 +1,6 @@
 ---
 title: Utiliser l’outil de personnalisation Office (OPO) dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: chucked
 author: chuckedmonson
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 26647cb6-ba84-4ba7-8b6f-2cf86818e530
 description: 'Résumé : Découvrez comment utiliser l’outil de personnalisation Office avec le Skype pour client d’entreprise.'
-ms.openlocfilehash: 6050a9e9c36fa62aff16994469e63a9689ab5958
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 6530199ce86914feae6b44ae8b73137263fcd6a2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530677"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883580"
 ---
 # <a name="use-the-office-customization-tool-oct-in-skype-for-business-server"></a>Utiliser l’outil de personnalisation Office (OPO) dans Skype pour Business Server
  

@@ -1,5 +1,6 @@
 ---
 title: Définition des règles de normalisation dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Skype pour les règles de normalisation Business Server utiliser des expressions régulières .NET Framework pour traduire des numéros de téléphone composé au format E.164 ; en d’autres termes, les règles de normalisation prennent le numéro de téléphone composé par un utilisateur et convertir ce numéro au format utilisé en interne par Skype pour Business Server. Une ou plusieurs règles de normalisation doivent être affectées à chaque plan de numérotation.
-ms.openlocfilehash: 1304fa24f469b5ea8735858d3b66637eb404ab25
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 8e32ac485763c626d7d4347bb194fb4c4f3dba44
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222932"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882473"
 ---
 # <a name="defining-normalization-rules-in-skype-for-business-server"></a>Définition des règles de normalisation dans Skype pour Business Server
 
@@ -33,7 +34,7 @@ Effectuez les étapes suivantes si vous souhaitez créer ou modifier une règle 
 
 **Pour définir une règle à l’aide de créer une règle de normalisation**
 
-1. Ouvrez une session sur l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre du rôle CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Pour plus d’informations, consultez la rubrique [déléguer des autorisations d’installation](https://technet.microsoft.com/en-us/library/gg412735(v=ocs.15).aspx).
+1. Ouvrez une session l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre du rôle CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Pour plus d’informations, consultez la rubrique [déléguer des autorisations d’installation](https://technet.microsoft.com/en-us/library/gg412735(v=ocs.15).aspx).
 2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le Skype pour Business le panneau de configuration, voir [installer et ouvrir Outils d’administration](../../management-tools/install-and-open-administrative-tools.md).
 3. (Facultatif) Suivez les étapes dans [créer un plan de numérotation](GET LINK AFTER MIGRATION) à l’étape 11 ou de [Modifier un plan de numérotation](GET LINK AFTER MIGRATION) jusqu'à l’étape 10. 
 4. Dans la section **Nouvelle règle de normalisation** ou **Modifier une règle de normalisation**, entrez un nom décrivant le modèle de numéro en cours de normalisation dans le champ **Nom** (par exemple, **5DigitExtension**).
@@ -71,7 +72,7 @@ Effectuez les étapes suivantes si vous souhaitez créer ou modifier une règle 
 
 **Pour définir une règle de normalisation manuellement**
 
-1. Ouvrez une session sur l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre du rôle CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Pour plus d’informations, consultez la rubrique [déléguer des autorisations d’installation](https://technet.microsoft.com/en-us/library/gg412735(v=ocs.15).aspx).
+1. Ouvrez une session l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre du rôle CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Pour plus d’informations, consultez la rubrique [déléguer des autorisations d’installation](https://technet.microsoft.com/en-us/library/gg412735(v=ocs.15).aspx).
 2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le Skype pour Business le panneau de configuration, voir [installer et ouvrir Outils d’administration](../../management-tools/install-and-open-administrative-tools.md).
 3. (Facultatif) Suivez les étapes dans [créer un plan de numérotation](GET LINK AFTER MIGRATION) à l’étape 11 ou de [Modifier un plan de numérotation](GET LINK AFTER MIGRATION) jusqu'à l’étape 10.  
 4. Dans **Nouvelle règle de normalisation** ou **Modifier une règle de normalisation**, entrez un nom qui décrive le modèle de numéro à normaliser dans **Nom** (par exemple, nommez la règle de normalisation **5DigitExtension**).

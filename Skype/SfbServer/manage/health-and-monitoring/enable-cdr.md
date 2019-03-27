@@ -1,5 +1,6 @@
 ---
 title: Activer l’enregistrement des détails des appels dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3b28e432-596f-45a5-a070-577d6fa748d9
 description: 'Résumé : Découvrez comment activer des détails des appels (CDR) enregistrements dans Skype pour Business Server.'
-ms.openlocfilehash: e010f76e25f8ab0894df1dc3a5bbb8a917c93ada
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 8ba053c95dcb9e43b6951671853d2c064ad5542f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23245522"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884511"
 ---
 # <a name="enable-call-detail-recording-in-skype-for-business-server"></a>Activer l’enregistrement des détails des appels dans Skype pour Business Server
 
@@ -74,4 +75,4 @@ Pour plus d’informations, consultez la rubrique d’aide pour l’applet de co
 
 [Planification de la surveillance](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx)
 
-[Déploiement de surveillance](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)
+[Deploying Monitoring](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)

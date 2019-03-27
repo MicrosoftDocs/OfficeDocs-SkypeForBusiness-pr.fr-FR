@@ -1,5 +1,6 @@
 ---
 title: Configuration des plages de ports et une stratégie de qualité de Service pour vos clients
+ms.reviewer: ''
 ms:assetid: 287d5cea-7ada-461c-9b4a-9da2af315e71
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204760(v=OCS.15)
 ms:contentKeyID: 48183694
@@ -12,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Cet article explique comment configurer les plages de ports pour vos clients et la configuration des stratégies de qualité de Service dans Skype pour Business Server pour les clients s’exécutant sur Windows 10.
-ms.openlocfilehash: 112d5a42b3bf4ac89bf7adc98b3ca56e8797482e
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 2e5328406634302a1b076eec8466e7f7b9245150
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223226"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881520"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-clients-in-skype-for-business-server"></a>Configuration des plages de ports et d’une stratégie de qualité de Service pour vos clients dans Skype pour Business Server
 
@@ -218,11 +219,11 @@ Pour une stratégie de transfert de fichier :
 
   - Utiliser la plage de ports précédemment configuré pour l’application. Par exemple, si vous avez réservé ports 42020 par le biais de 42039 pour le partage d’application, définissez la plage de ports à ceci : **42020:42039**.
 
-Les nouvelles stratégies que vous avez créé ne prendra pas effet tant que la stratégie de groupe a été actualisée sur vos ordinateurs clients. La stratégie de groupe s’actualise elle-même régulièrement, mais vous pouvez forcer une actualisation immédiate en exécutant la commande suivante sur chaque ordinateur sur lequel elle doit être actualisée :
+Les nouvelles stratégies que vous avez créé ne prendra pas effet tant que la stratégie de groupe a été actualisée sur vos ordinateurs clients. Bien que la stratégie de groupe est actualisée régulièrement sur son propre, vous pouvez forcer une actualisation immédiate en exécutant la commande suivante sur chaque ordinateur où la stratégie de groupe doivent être actualisées :
 
     Gpudate.exe /force
 
-Cette commande peut être actualisée depuis n’importe quelle fenêtre de commande exécutée avec des informations d’identification d’administrateur. Pour exécuter une fenêtre de commande, cliquez sur **Démarrer**, cliquez avec le bouton droit sur **Invite de commandes**, puis cliquez sur **Exécuter en tant qu’administrateur**.
+Cette commande peut être exécutée à partir de n’importe quelle fenêtre de commande s’exécutant sous les informations d’identification d’administrateur. Pour exécuter une fenêtre de commande sous informations d’identification d’administrateur, cliquez sur **Démarrer**, cliquez sur **invite de commandes**, puis cliquez sur **Exécuter en tant qu’administrateur**.
 
 N’oubliez pas que ces stratégies doivent être ciblés vers vos ordinateurs clients. Ils ne doivent pas être appliquées à des serveurs exécutant Skype pour Business Server.
 

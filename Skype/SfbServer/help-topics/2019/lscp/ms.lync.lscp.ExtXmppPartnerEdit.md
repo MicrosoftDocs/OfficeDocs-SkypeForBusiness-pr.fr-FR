@@ -1,5 +1,6 @@
 ---
 title: Partenaires fédérés XMPP créer une nouvelle ou en modifier une existant
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 7a14552e-96b0-4a3d-bb9b-4813c97dd8e1
 ROBOTS: NOINDEX, NOFOLLOW
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: 9f5f5b887f0da52276ddff80e55c280cc3f9ea23
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 24f37f1ba3324a5b379fb2a12bd3dce1282b686c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23242102"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879615"
 ---
-# <a name="xmpp-federated-partners-create-new-or-edit-existing"></a>Partenaires fédérés XMPP : Créer une nouvelle ou en modifier une existant
+# <a name="xmpp-federated-partners-create-new-or-edit-existing"></a>Partenaires fédérés XMPP : en créer un autre ou en modifier un existant
 
 > [!NOTE]
 > XMPP passerelles et les proxys sont disponibles dans Skype pour Business Server 2015, mais n’est plus pris en charge dans Skype pour Business Server 2019. Pour plus d’informations, voir [la fédération XMPP de migration](../../../../SfBServer2019/migration/migrating-xmpp-federation.md) .

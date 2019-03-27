@@ -1,5 +1,6 @@
 ---
 title: Installer l’outil de planification dans Skype Entreprise Server 2015
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b95b3301-fa1e-4b96-9af4-05b43d39db8d
 description: Avant de commencer la conception et planification de votre Skype pour Business Server 2015 infrastructure à l’aide de la Skype pour l’outil de planification de 2015 Business Server, vous devez d’abord installer l’outil de planification. L’outil de planification ne doit pas être déployé sur une station de travail ou un serveur faisant partie de l’infrastructure ou le domaine où vous prévoyez d’installer Skype pour Business Server 2015. Le fichier Readme qui accompagne l’outil de planification des détails des informations importantes sur l’installation et à l’aide de l’outil. Certaines des informations contenues dans le fichier Lisez-moi sont expliquées ici par souci de clarté.
-ms.openlocfilehash: 2314a9ae548bea70bc13872714ae3215d7439eec
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 616cec026dfc5890cffc3975ea421d98ec13e412
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23244322"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884131"
 ---
 # <a name="install-the-planning-tool-in-skype-for-business-server-2015"></a>Installer l’outil de planification dans Skype Entreprise Server 2015
 
@@ -27,9 +28,9 @@ Avant de commencer la conception et planification de votre Skype pour Business S
 
 Les systèmes d’exploitation pris en charge pour l’installation et l’utilisation de l’outil de planification sont les suivants :
 
-- Windows 10
+- Windows 10
 
-- Windows 8
+- Windows 8
 
 - Windows 8.1
 
@@ -51,7 +52,7 @@ Une fois que les conditions de préinstallation sont remplies, vous pouvez ensui
 
 ## <a name="to-install-the-planning-tool"></a>Pour installer l’outil de planification
 
-1. Ouvrez une session sur l’ordinateur local en tant que membre du groupe Administrateurs.
+1. Ouvrez une session l’ordinateur local en tant que membre du groupe Administrateurs.
 
 2. À l’aide de l’Explorateur Windows ou une fenêtre de commande, recherchez le répertoire où vous avez téléchargé les fichiers d’installation de l’outil de planification.
 
@@ -69,7 +70,7 @@ Une fois que les conditions de préinstallation sont remplies, vous pouvez ensui
 
 9. L’outil de planification est prêt à être utilisé.
 
-## <a name="optional-software"></a>Optional Software
+## <a name="optional-software"></a>Logiciels facultatifs
 <a name="Optional_Software"> </a>
 
 Le Skype pour l’outil de planification de Business Server 2015 conçu pour l’exportation vers Microsoft Excel et Microsoft Visio. Alors que ces applications ne sont pas nécessaires au fonctionnement de l’outil de planification, ils ajoutent une valeur significative pour le déploiement et la documentation de votre conception.
@@ -108,4 +109,4 @@ L’exportation de votre conception vers Microsoft Visio crée un diagramme à 
 ## <a name="see-also"></a>Voir aussi
 <a name="Optional_Software"> </a>
 
-[Installation de l’outil de planification](https://technet.microsoft.com/library/ebdc9e26-4b22-4b02-85b9-7462bcfe7c93.aspx)
+[Installing the Planning Tool](https://technet.microsoft.com/library/ebdc9e26-4b22-4b02-85b9-7462bcfe7c93.aspx)

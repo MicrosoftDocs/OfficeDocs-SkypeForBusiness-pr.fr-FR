@@ -1,5 +1,6 @@
 ---
-title: Supprimer l’association du serveur d’archivage
+title: Supprimer l’association au serveur d’archivage
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Pour supprimer un serveur d’archivage, vous devez modifier ou supprimer la dépendance au pool frontal associé, le serveur frontal, Survivable Branch Appliance et serveur Survivable Branch Server. Vous modifiez les propriétés du pool frontal, serveur frontal et serveur Survivable Branch Server Survivable Branch Appliance pour supprimer la dépendance. Une fois que vous désactivez la dépendance et vous supprimez le serveur dans le Générateur de topologie, vous êtes averti que l’objet de magasin de base de données associée dans le Générateur de topologie est également supprimé.
-ms.openlocfilehash: 7438145f5822de8f95e881f114983fdb9351d4b9
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 15e6b33decb11ce7ed4550b0d84cc346a0baf073
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028872"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884399"
 ---
-# <a name="remove-the-archiving-server-association"></a>Supprimer l’association du serveur d’archivage
+# <a name="remove-the-archiving-server-association"></a>Supprimer l’association au serveur d’archivage
 
 Pour supprimer un serveur d’archivage, vous devez modifier ou supprimer la dépendance associée Front-End pool, serveur frontal, Survivable Branch Appliance, les Survivable Branch Server. Vous modifiez les propriétés du pool frontal, serveur frontal, Survivable Branch Appliance et serveur Survivable Branch Server permet de supprimer la dépendance. Une fois que vous désactivez la dépendance et supprimez le serveur dans le Générateur de topologie, vous êtes averti que l’objet de magasin de base de données associée dans le Générateur de topologie est également supprimé.
   

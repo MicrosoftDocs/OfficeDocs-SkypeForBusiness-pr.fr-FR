@@ -1,5 +1,6 @@
 ---
 title: Documentation sur les outils du Kit de ressources techniques Skype Entreprise Server 2015
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
 description: Cette rubrique décrit les outils dans le Skype pour le Kit de ressources 2015 Business Server, y compris l’objectif de chaque outil et des exemples de son utilisation. Le Skype pour le Kit de ressources Business Server 2015 contribue à simplifier les tâches de routine pour les administrateurs informatiques qui déploient et gèrent Skype pour Business Server 2015. Par exemple, l’outil Web Conf Data permet de contrôler aisément les données téléchargées par les utilisateurs au cours d’une réunion en ligne. L’outil SEFAUtil permet de définir le transfert des appels de délégué et le répondeur automatique pour les utilisateurs. Nous recommandons d’utiliser ces outils pour gérer plus efficacement Skype pour Business Server 2015, les administrateurs informatiques.
-ms.openlocfilehash: d58ba07a06b29ffe03eadc38beb55d3cb623b8cd
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 730ba434a70f49b01b70aaf0d9f1ac889bd2ba75
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533433"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879860"
 ---
 # <a name="skype-for-business-server-2015-resource-kit-tools-documentation"></a>Documentation sur les outils du Kit de ressources techniques Skype Entreprise Server 2015
 
@@ -123,7 +124,7 @@ Administrateurs qui disposent des autorisations requises pour mettre à jour le 
 
 ABSConfig peut être démarré en tapant **ABSConfig.exe** dans une invite de commandes. L’interface utilisateur de l’outil ABSConfig se présente comme suit :
 
-![Outil ABSConfig.exe.](../media/Reskit_2012_Tools_Documentation_ABSConfig.JPG)
+![L’outil ABSConfig.exe.](../media/Reskit_2012_Tools_Documentation_ABSConfig.JPG)
 
 ### <a name="summary"></a>Résumé
 
@@ -253,7 +254,7 @@ La définition de la chronologie permet à l’utilisateur de l’outil de spéc
 
 2. **Date de fin** Date de fin de la chronologie pour laquelle le rapport doit être généré (par exemple, 30 septembre 2010).
 
-     ![Dates de début et de fin de l’utilisation de la bande passante A](../media/Reskit_2012_Tools_Documentation_Image4.jpg)
+     ![Dates de début et fin de l’utilisation de la bande passante A](../media/Reskit_2012_Tools_Documentation_Image4.jpg)
 
 #### <a name="step-2---specify-the-file-directories"></a>Étape 2 - Définition des répertoires de fichiers
 
@@ -263,7 +264,7 @@ Les répertoires de fichiers suivants peuvent être spécifiés par l’utilisat
 
 - **Emplacement de stockage des fichiers temporaires** L’emplacement de fichier temporaire où sont stockés les fichiers intermédiaires pendant que le rapport est généré.
 
-![Répertoires de fichiers dans Bandwidth Utilization Anal](../media/Reskit_2012_Tools_Documentation_Image5.jpg)
+![Répertoires de fichiers dans le Anal l’utilisation de la bande passante](../media/Reskit_2012_Tools_Documentation_Image5.jpg)
 
 > [!NOTE]
 > Vérifiez que l’utilisateur de l’outil dispose d’un accès suffisant aux journaux de serveur et au dossier du magasin des fichiers temporaires.
@@ -272,11 +273,11 @@ Les répertoires de fichiers suivants peuvent être spécifiés par l’utilisat
 
 Pour collecter les journaux et démarrer la visionneuse de rapports, cliquez sur **Execute (Exécuter)** comme indiqué ci-dessous. Cette opération permet de collecter les données requises.
 
-![Collecte de données d’analyse de l’utilisation de la bande passante](../media/Reskit_2012_Tools_Documentation_Image6.jpg)
+![Collecte de données dans le FLUORESCENTS de l’utilisation de la bande passante](../media/Reskit_2012_Tools_Documentation_Image6.jpg)
 
 Une fois le contenu saisi validé, le message suivant apparaît.
 
-![Notifications sur les journaux collectés dans Bandwidth Utili](../media/Reskit_2012_Tools_Documentation_Image7.jpg)
+![Journaux de notification collecte dans la bande passante Utili](../media/Reskit_2012_Tools_Documentation_Image7.jpg)
 
 Cliquez sur **OK**. BandwidthUtilizationAnalyzer.xlsm démarre automatiquement. Suivez les instructions du message. Pour plus d’informations, voir **Utilisation de BandwidthUtilizationAnalyzer.xlsm ** dans la section suivante.
 
@@ -285,7 +286,7 @@ Cliquez sur **OK**. BandwidthUtilizationAnalyzer.xlsm démarre automatiquement. 
 
 1. Une fois BandwidthUtilizationAnalyzer.xlsm démarré automatiquement, cliquez sur **Refresh (Actualiser)**, comme indiqué ci-dessous.
 
-     ![BandwidthUtilizationAnalyzer.xlsm](../media/Reskit_2012_Tools_Documentation_Image8.jpg)
+     ![BandwidthUtilizationAnalyzer.xlsm  ](../media/Reskit_2012_Tools_Documentation_Image8.jpg)
 
 2. Si un dossier de fichiers est ouvert, sélectionnez consolidated.csv à l’emplacement spécifié dans le message, comme indiqué ci-dessous. L’emplacement du répertoire **C:\Temp** est également indiqué.
 
@@ -295,13 +296,13 @@ Cliquez sur **OK**. BandwidthUtilizationAnalyzer.xlsm démarre automatiquement. 
 
 4. La représentation graphique est générée automatiquement. Elle est disponible lorsque le pointeur de traitement en arrière-plan disparaît.
 
-     ![Application de filtres à l’affichage du rapport.](../media/Reskit_2012_Tools_Documentation_Image11.jpg)
+     ![Application de filtres en mode État.](../media/Reskit_2012_Tools_Documentation_Image11.jpg)
 
 #### <a name="applying-filters-to-the-report-view"></a>Application de filtres à l’affichage du rapport
 
 Les filtres suivants peuvent être appliqués à l’affichage du rapport :
 
-![Application de filtres à l’affichage du rapport.](../media/Reskit_2012_Tools_Documentation_Image11.jpg)
+![Application de filtres en mode État.](../media/Reskit_2012_Tools_Documentation_Image11.jpg)
 
 1. **Name (Nom)** Filtrage des liaisons de réseau étendu (le filtre apparaît dans la partie droite du graphique). Le préfixe représente les types de liaisons suivants (voir l’encadré bleu vertical) :
 
@@ -331,27 +332,27 @@ Les figures suivantes présentent les filtres décrits précédemment.
 
 Filtrage sur **Name (Nom)**. Sélectionnez la liste des liaisons devant être affichées dans le graphique.
 
-![Filtrage sur Name (Nom) dans BandwidthUtilizationAnalyzer.](../media/Reskit_2012_Tools_Documentation_Image12.jpg)
+![Filtrage par un nom dans BandwidthUtilizationAnalyzer.](../media/Reskit_2012_Tools_Documentation_Image12.jpg)
 
 Filtrage sur **Exceeded limit (Limite dépassée)**. Sélectionnez **True ** pour appliquer le filtre.
 
-![Filtrage sur Exceeded limit (Limite dépassée).](../media/Reskit_2012_Tools_Documentation_Image13.jpg)
+![Filtrage selon la limite dépassée.](../media/Reskit_2012_Tools_Documentation_Image13.jpg)
 
 Filtrage sur **Critical levels (Niveaux critiques)**. Sélectionnez **True** pour appliquer le filtre.
 
-![Filtrage sur Critical Levels (Niveaux critiques).](../media/Reskit_2012_Tools_Documentation_Image14.jpg)
+![Filtrer à l’aide des niveaux critiques.](../media/Reskit_2012_Tools_Documentation_Image14.jpg)
 
 Filtrage sur **Under utilized (Sous-utilisé)**. Sélectionnez **True** pour appliquer le filtre.
 
-![Filtrage sur Under Utilized (Sous-utilisé).](../media/Reskit_2012_Tools_Documentation_Image15.jpg)
+![Filtrage par sous utilisées.](../media/Reskit_2012_Tools_Documentation_Image15.jpg)
 
 Filtrage sur **Link Type (Type de liaison)**. Sélectionnez le ou les types devant être affichés.
 
-![Filtrage sur Link Type (Type de lien).](../media/Reskit_2012_Tools_Documentation_Image16.jpg)
+![Filtrage par Type de lien.](../media/Reskit_2012_Tools_Documentation_Image16.jpg)
 
 Filtrage sur **Region (Région)**. Sélectionnez la liste des régions pour lesquelles afficher les liaisons.
 
-![Filtrage sur (Region) Région.](../media/Reskit_2012_Tools_Documentation_Image17.jpg)
+![Filtrage par région.](../media/Reskit_2012_Tools_Documentation_Image17.jpg)
 
 ### <a name="requirements"></a>Configuration requise
 
@@ -437,23 +438,23 @@ Integrated Security=false;"/>
 
 Déployé les plages d’orbites : le paramètre -o répertorie toutes les plages d’orbites qui sont configurés pour ce pool comme
 
-![Plages d’orbites dans Call Parkometer.](../media/Reskit_2012_Tools_Documentation_Image18.jpg)
+![Plages d’orbites dans Parkometer appel.](../media/Reskit_2012_Tools_Documentation_Image18.jpg)
 
 Actuellement mis en garde d’appels : le paramètre - n répertorie toutes les orbites actuellement utilisés dans ce pool comme
 
-![Appels actuellement parqués dans Call Parkometer.](../media/Reskit_2012_Tools_Documentation_Image19.jpg)
+![Appels actuellement mis en garde dans Parkometer appel.](../media/Reskit_2012_Tools_Documentation_Image19.jpg)
 
 Nombre d’orbites gratuits : le paramètre -f indique le nombre d’orbites libres dans le pool comme
 
-![Orbites libres dans Call Parkometer.](../media/Reskit_2012_Tools_Documentation_Image20.jpg)
+![Orbites libres dans Parkometer appel.](../media/Reskit_2012_Tools_Documentation_Image20.jpg)
 
 Récemment mis en garde d’appels : - r \<n\> listes de paramètres de la \<n\> dernier parcage d’appels comme
 
-![Appels parqués récemment dans Call Parkometer.](../media/Reskit_2012_Tools_Documentation_Image21.jpg)
+![Appels mis en garde récemment dans Parkometer appel.](../media/Reskit_2012_Tools_Documentation_Image21.jpg)
 
 Réservation de l’orbite de test : -t \<n\> paramètre teste réserver une orbite dans la base de données comme
 
-![Test de réservation d’orbite dans Call Parkometer.](../media/Reskit_2012_Tools_Documentation_Image22.jpg)
+![Réservations d’orbite de test dans l’appel de Parkometer.](../media/Reskit_2012_Tools_Documentation_Image22.jpg)
 
 ### <a name="summary"></a>Résumé
 
@@ -493,9 +494,9 @@ Cet outil génère des rapports sur le Skype pour la base de données Business S
 
 Installer Dbanalyze.exe, copiez-le dans un dossier local, puis exécuter l’outil. Pour utiliser l’outil, exécutez la commande suivante à partir de la ligne de commande. `dbanalyze.exe [/v] [/report:value] [/sqlserver:value] [/user:user@domain.com] [/conf:value][/pstnid:Value] [/maxcontacts:value]`Les descriptions des options de ligne de commande sont présentées ci-dessous.
 
-![Option de ligne de commande pour Dbanalyze.exe.](../media/Reskit_2012_Tools_Documentation_Image35.JPG)
+![Options de ligne de commande pour Dbanalyze.exe.](../media/Reskit_2012_Tools_Documentation_Image35.JPG)
 
-### <a name="requirements"></a>Conditions requises
+### <a name="requirements"></a>Configuration requise
 
  **Ordinateur** DBAnalyze peut être exécutée que sur un ordinateur à un domaine avec Skype pour Business Server 2015 est installé.
 
@@ -544,9 +545,9 @@ Pour la version de Service en ligne, si l’intégrité de la surveillance pack 
 
 Cet outil augmente la charge processeur et d’E/S sur le serveur frontal sur lequel il est exécuté, ainsi que sur les autre serveurs frontaux, si les données n’appartiennent pas au serveur frontal sur lequel l’outil est exécuté. Il est recommandé d’exécuter cet outil lorsque les serveurs frontaux ne sont pas soumis à une charge processeur et d’E/S importante, par exemple en dehors des heures de pointe. Deuxièmement, cet outil peut prendre 2 à 3 minutes pour importer un fichier de données. Vous devez garder cette information à l’esprit lorsque vous cherchez à estimer le délai d’exécution de l’outil. Le fichier journal détaillé généré par l’outil apparaît par défaut dans le magasin de fichiers. Supprimez-le si aucune erreur n’est signalée, car la taille de celui-ci peut atteindre plusieurs Mo, voire davantage.
 
-![Exemple d’événements du journal des événements du serveur de stockage.](../media/Reskit_2012_Tools_Documentation_Image1.jpg)
+![Événements de journal des événements du serveur de stockage exemple.](../media/Reskit_2012_Tools_Documentation_Image1.jpg)
 
-### <a name="requirements"></a>Conditions requises
+### <a name="requirements"></a>Configuration requise
 
 Installez le Skype pour les outils du Kit de ressources Business Server 2015. L’outil s’exécute sur des ordinateurs à un domaine où sont installés Skype pour Business Server et Skype pour Business Server Management Shell. L’outil utilise une applet de commande management shell pour identifier tous les serveurs frontaux du pool. Ensuite, l’outil doit être exécuté à partir d’un ordinateur dans le pool qui a installé la base de données **RtcLocal** . Cette base de données est utilisée par l’outil pour récupérer l’emplacement du partage de fichier WEBSERVICE pour le pool. En outre, avant d’utiliser l’outil, chaque serveur frontal devez d’abord activer Windows PowerShell distante à l’aide de **Enable-PSRemoting** sur chaque serveur frontal, ainsi que l’ordinateur sur lequel l’outil est exécuté. Dans le cas contraire, les commandes Windows PowerShell à distance à partir de cet outil échoue. Accès à distance de Windows PowerShell peut être désactivée sur tous les serveurs frontaux du pool après que l’opération est terminée. Enfin, l’ou les informations d’identification de l’appel de l’outil doivent disposer d’autorisation de lecture/écriture pour le partage de fichiers webservice pour qu’ils sont exécutent cet outil sur le pool de. Dans le cas contraire, l’outil échouera avec des erreurs d’autorisation d’e/s.
 
@@ -875,15 +876,15 @@ Afficher les liaisons de la topologie réseau de contrôle d’admission des app
 
  **Topologie du réseau CAC charge et d’affichage à partir d’un Skype pour le déploiement dans un format graphique Business Server 2015**: Skype pour les administrateurs d’entreprise Server 2015 peut charger et afficher la configuration de topologie réseau CAC sur n’importe quel Skype pour ordinateur Business Server 2015 par à l’aide de l’option de **Configuration du téléchargement du réseau** comme indiqué dans la figure ci-dessous. L’outil ne parvient pas à télécharger ou afficher une configuration lors du déploiement sur un ordinateur qui n’a pas de connectivité à la Skype pour le magasin de configurations Business Server 2015.
 
-![Téléchargement de la configuration réseau.](../media/Reskit_2012_Tools_Documentation_Image23.jpg)
+![Le téléchargement de la configuration réseau.](../media/Reskit_2012_Tools_Documentation_Image23.jpg)
 
  **Charge et affichage CAC topologie du réseau à partir d’un fichier de journal de serveur de stratégie de bande passante dans un format graphique :** Skype pour les serveurs de stratégie de bande passante Business Server 2015 enregistrer la topologie du réseau CAC dans le cadre du mécanisme de journalisation sous le Skype pour l’emplacement de partage de fichier Business Server 2015. Skype pour les administrateurs d’entreprise Server 2015 peut afficher ce fichier dans un format graphique à l’aide de l’option de **Configuration réseau ouvert** comme indiqué ci-dessous.
 
-![Ouverture d’un fichier journal de serveur de stratégie de bande passante.](../media/Reskit_2012_Tools_Documentation_Image24.jpg)
+![Ouverture d’un fichier journal du serveur de stratégie de bande passante.](../media/Reskit_2012_Tools_Documentation_Image24.jpg)
 
 Enregistrer et stocker la topologie du réseau CAC au format XML sur le disque : Skype pour les administrateurs d’entreprise Server 2015 peut enregistrer le fichier de configuration de topologie réseau CAC au format XML à l’aide de l’option **Enregistrer une copie de la Configuration réseau** comme indiqué ci-dessous. Le fichier de configuration enregistré peut ensuite être utilisé en mode hors connexion à des fins d’affichage graphique.
 
-![Enregistrement de la configuration réseau en tant que fichier XML.](../media/Reskit_2012_Tools_Documentation_Image25.jpg)
+![Enregistrement de la configuration réseau dans un fichier XML.](../media/Reskit_2012_Tools_Documentation_Image25.jpg)
 
 Enregistrer et diagramme de topologie réseau CAC magasin au format JPG ou BMP : Skype pour les administrateurs d’entreprise Server 2015 peut enregistrer la configuration de topologie réseau CAC dans un format graphique (formats de fichiers JPG et BMP) à l’aide du diagramme **Enregistrer la Configuration du réseau en tant que image** option comme indiqué ci-dessous.
 
@@ -903,7 +904,7 @@ Enregistrer et diagramme de topologie réseau CAC magasin au format JPG ou BMP 
 
  **Affichage CAC site informations sur la topologie, les informations de région et les stratégies de bande passante mis en service :** Skype pour Business Server 2015 les administrateurs permettre afficher les informations de région réseau CAC, les informations de site et la bande passante CAC mise en service des informations à l’aide des options ci-dessous. (Par exemple, cliquez sur **Info** dans une région de réseau ou d’un objet de site réseau.)
 
-![Définition de connecteurs personnalisés pour votre réseau.](../media/Reskit_2012_Tools_Documentation_Image30.jpg)
+![Définition des connecteurs personnalisés pour votre réseau.](../media/Reskit_2012_Tools_Documentation_Image30.jpg)
 
 ### <a name="summary"></a>Résumé
 
@@ -928,7 +929,7 @@ L’outil Live d’Agent Response Group est basé sur le service Response Group 
 
 La figure suivante illustre l’interface principale de Response Group Agent Live.
 
-![L’outil Response Group Agent Live.](../media/Reskit_2012_Tools_Documentation_Image37.JPG)
+![L’outil Live d’Agent Response Group.](../media/Reskit_2012_Tools_Documentation_Image37.JPG)
 
 Les trois fonctionnalités principales suivantes sont accessibles aux agents dans Response Group Agent Live :
 
@@ -954,7 +955,7 @@ Response Group Agent Live peut être personnalisé selon les préférences indiv
 
 La figure suivante illustre la boîte de dialogue Options qui permet aux agents de configurer l’adresse de l’hôte et les raccourcis clavier. Pour accéder à cette boîte de dialogue, il suffit de cliquer sur le bouton Options dans la partie supérieure droite de l’interface principale.
 
-![La boîte de dialogue Options de l’outil Response Group Agent Live.](../media/Reskit_2012_Tools_Documentation_Image38.JPG)
+![La boîte de dialogue Options de Live de l’Agent Response Group.](../media/Reskit_2012_Tools_Documentation_Image38.JPG)
 
 Les trois paramètres suivants peuvent être personnalisés dans la configuration de Response Group Agent Live :
 
@@ -968,11 +969,11 @@ Les trois paramètres suivants peuvent être personnalisés dans la configuratio
 
 La figure suivante illustre l’appel d’un autre agent ou l’envoi d’un message instantané à un autre agent en cliquant avec le bouton droit sur le contact dans le volet droit.
 
-![Effectuer un appel ou envoyer un message instantané.](../media/Reskit_2012_Tools_Documentation_Image39.JPG)
+![Émission d’un appel ou l’envoi d’un message instantané.](../media/Reskit_2012_Tools_Documentation_Image39.JPG)
 
 La figure suivante illustre l’affichage par Response Group Agent Live du nombre actuel d’appels dans la file d’attente et le délai d’attente le plus long parmi tous les appels entrants.
 
-![Affichage des informations sur la file d’attente.](../media/Reskit_2012_Tools_Documentation_Image40.JPG)
+![Affichage des informations de file d’attente.](../media/Reskit_2012_Tools_Documentation_Image40.JPG)
 
 ### <a name="summary"></a>Résumé
 
@@ -1061,7 +1062,7 @@ L’outil SEFAUtil peut seulement être exécuté sur un ordinateur faisant part
     > Un autre port peut être utilisé au besoin.
     
     > [!NOTE]
-    > Nom de domaine complet de pool : Nom de domaine complet du serveur ou du pool qui hébergera l’application SEFAUtil (généralement un Skype pour le serveur frontal Business > ou du pool).
+    > Nom de domaine complet de pool : Nom de domaine complet du serveur ou du pool qui hébergera l’application SEFAUtil (généralement un Skype > du serveur frontal métiers ou du pool).
     > Registrar nom de domaine complet de pool : Nom de domaine complet de le Skype pour Business frontal ou pool associé à ce pool d’applications.
     > Site de pool : L’ID de Site du site sur lequel ce pool est hébergé.
 
@@ -1498,7 +1499,7 @@ Les principaux éléments de configuration suivants sont requis pour exécuter c
 
 Le script Move-CsAnnouncementConfiguration nécessite les deux paramètres décrits dans le tableau suivant. 
 
-![Paramètres Move-CsAnnouncementConfiguration.](../media/Reskit_2012_Tools_Documentation_Image41.JPG)
+![Paramètres de Move-CsAnnouncementConfiguration.](../media/Reskit_2012_Tools_Documentation_Image41.JPG)
 
 ### <a name="examples"></a>Exemples
 
@@ -1560,7 +1561,7 @@ L’outil doit être exécuté à l’aide de privilèges d’administrateur ave
 
 Le tableau suivant décrit les paramètres (certains d’entre eux sont utilisés dans les exemples).
 
-![Paramètres de l’outil Web Conf Data.](../media/Reskit_2012_Tools_Documentation_Image51.JPG)
+![Paramètres de l’outil de données de conférence Web.](../media/Reskit_2012_Tools_Documentation_Image51.JPG)
 
 ```
 WebConfDataTool.exe /User:user0@contoso.com /Action:query ""/ExpirationDate:08/09/2010 12:00:00""

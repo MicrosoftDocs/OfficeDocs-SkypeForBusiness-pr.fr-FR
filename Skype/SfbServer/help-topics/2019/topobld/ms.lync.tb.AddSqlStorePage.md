@@ -1,5 +1,6 @@
 ---
 title: Ajouter un magasin SQL
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 8ec39dfc-c58d-4fdb-b61e-f71dd691cef8
 ROBOTS: NOINDEX, NOFOLLOW
 description: Pour définir un nouveau magasin SQL, ce qui signifie que vous spécifiez une base de données SQL Server et une instance de SQL Server, une instance par défaut ou une instance nommée, vous spécifiez les options suivantes.
-ms.openlocfilehash: c77174d83253a8df910e63f5e4f8cc50fdb98cf3
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 5f362d66f7764c69e51a3d54c51ba251a93ae5f9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23245159"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878230"
 ---
 # <a name="add-sql-store"></a>Ajouter un magasin SQL
 

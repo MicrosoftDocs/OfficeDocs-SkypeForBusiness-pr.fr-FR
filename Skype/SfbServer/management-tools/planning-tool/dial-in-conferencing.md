@@ -1,5 +1,6 @@
 ---
-title: Accès à distance dans la conférence (outil de planification)
+title: Dial-in Conferencing (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,19 +13,20 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1f79a05-165c-47ec-8593-0bb3d43ee16f
-description: Skype pour les conférences à distance 2015 de serveur d’entreprise permet aux utilisateurs de participer à la partie audio d’un Skype pour Business Server 2015 conférence à l’aide d’un téléphone de réseau téléphonique commuté public sans avoir besoin d’un fournisseur de conférence audio de tiers.
-ms.openlocfilehash: 360c44a16b451ec505bf0dcad27c02f81c6eeb12
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Skype pour la conférence rendez-vous Business Server 2015 permet aux utilisateurs de participer à la partie audio d’un Skype pour Business Server 2015 conférence à l’aide d’un téléphone de réseau téléphonique commuté public sans faire appel à un fournisseur de services d’audioconférence tiers.
+ms.openlocfilehash: 4bca75a791e3bed9fa6a1dc48fd82a313dc7aad5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883534"
 ---
-# <a name="dial-in-conferencing-planning-tool"></a>Accès à distance dans la conférence (outil de planification)
+# <a name="dial-in-conferencing-planning-tool"></a>Dial-in Conferencing (Planning Tool)
  
-Skype pour les conférences à distance 2015 de serveur d’entreprise permet aux utilisateurs de participer à la partie audio d’un Skype pour Business Server 2015 conférence à l’aide d’un téléphone de réseau téléphonique commuté public sans avoir besoin d’un fournisseur de conférence audio de tiers.
+Skype pour la conférence rendez-vous Business Server 2015 permet aux utilisateurs de participer à la partie audio d’un Skype pour Business Server 2015 conférence à l’aide d’un téléphone de réseau téléphonique commuté public sans faire appel à un fournisseur de services d’audioconférence tiers.
   
 Pour des informations sur la planification de l’activation de la conférence rendez-vous dans votre organisation, consultez la rubrique suivante et les rubriques auxquelles elle renvoie : 
   
-- [Plan pour les conférences dans Skype pour Business Server 2015](../../plan-your-deployment/conferencing/conferencing.md)
+- [Plan for conferencing in Skype for Business Server 2015](../../plan-your-deployment/conferencing/conferencing.md)
     
 

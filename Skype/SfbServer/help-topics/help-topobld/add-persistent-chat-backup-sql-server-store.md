@@ -1,5 +1,6 @@
 ---
 title: Ajouter un magasin SQL Server de stockage de conversation permanente
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 106698e4-ce73-4a34-8fc7-e9d3208a17dc
 description: Vous configurez les magasins de sauvegarde SQL Server qui fourniront des bases de données de sauvegarde pour le serveur de conversation permanente ou le pool de serveurs de conversation permanente.
-ms.openlocfilehash: ed7d3196e609a0180fc16df08efcc3ed4230b141
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: ed507b14cf0b03da86eda4b3fbc8491997c801d9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19503878"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880580"
 ---
 # <a name="add-persistent-chat-backup-sql-server-store"></a>Ajouter un magasin SQL Server de stockage de conversation permanente
  
@@ -49,7 +50,7 @@ Cliquez sur **Aide** pour accéder à une aide contextuelle, comme celle de la p
 
 [Planifier un serveur de conversation permanente dans Skype Entreprise Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[Configuration serveur requise pour Skype Entreprise Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
+[Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
   
 [Configuration logicielle et matérielle requise pour le serveur de conversation permanente dans Skype Entreprise Server 2015](../../plan-your-deployment/persistent-chat-server/hardware-and-software-requirements.md)
   

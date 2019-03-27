@@ -1,5 +1,6 @@
 ---
-title: Table de MSMQProcessing
+title: Table MSMQProcessing
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -9,15 +10,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e0415f76-d125-4c15-861b-f5780ac1aef2
-description: La table MSMQProcessing est à usage interne uniquement. Cette table a été introduite dans Skype pour Business Server 2015.
-ms.openlocfilehash: b3953cb2442c351160530567e3a54be8db60d599
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: La table MSMQProcessing est à usage interne uniquement. Ce tableau a été introduit dans Skype pour Business Server 2015.
+ms.openlocfilehash: 922bcc603830de2e2d1d8e1f9b52c3527edbc799
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882134"
 ---
-# <a name="msmqprocessing-table"></a>Table de MSMQProcessing
+# <a name="msmqprocessing-table"></a>Table MSMQProcessing
  
-La table MSMQProcessing est à usage interne uniquement. Cette table a été introduite dans Skype pour Business Server 2015.
+La table MSMQProcessing est à usage interne uniquement. Ce tableau a été introduit dans Skype pour Business Server 2015.
   
 

@@ -1,5 +1,6 @@
 ---
 title: Profil de stratégie de bande passante créer ou modifier une existant
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7c1d072e-a891-48a9-81c0-3696e372f222
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: 3357933613e3c478e599a53627cf8ad9ccaadc73
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 7435e3d9cc0ebc0a75ee6a5da1cf6e32c3b0367d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23253352"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879559"
 ---
-# <a name="bandwidth-policy-profile-create-new-or-edit-existing"></a>Profil de stratégie de bande passante : Créer une nouvelle ou en modifier une existant
+# <a name="bandwidth-policy-profile-create-new-or-edit-existing"></a>Profil de stratégie de bande passante : en créer une autre ou en modifier une existante
 
 Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
 

@@ -1,5 +1,6 @@
 ---
 title: Définition de jonctions supplémentaires dans le Générateur de topologie dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e68b8377-50a2-452a-bf5c-910929e34236
 description: 'Résumé : Découvrez comment définir un tronçon supplémentaire entre un serveur de médiation et un homologue de passerelle dans le Générateur de topologie dans Skype pour Business Server.'
-ms.openlocfilehash: 1f70a1d99ebff1bbc1fbd162b322185b3cd21690
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 874d32053f4c3d91f16818bd34dc11806de8692c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370658"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881959"
 ---
 # <a name="define-additional-trunks-in-topology-builder-in-skype-for-business-server"></a>Définition de jonctions supplémentaires dans le Générateur de topologie dans Skype pour Business Server
  
@@ -57,7 +58,7 @@ Une jonction est une connexion logique entre un serveur de médiation et une pas
     > Plusieurs jonction prend en charge Skype pour Business Server, deux tronçons ayant des noms différents ne peuvent pas être configurés avec le même **port du serveur de médiation associé** et le **Port d’écoute pour passerelle IP/RTC**
   
     > [!NOTE]
-    > Plusieurs jonction prend en charge Skype pour Business Server, SIP plusieurs voies de signalisation peut être définie sur le serveur de médiation pour la communication avec plusieurs homologues. Lors de la définition d’une jonction, le numéro de **port du serveur de médiation associé** doit se trouver dans la plage de ports d’écoute pour le protocole respectif autorisé par le serveur de médiation. Cette plage de ports est définie sous Skype pour les pools Business Server et le serveur de médiation. Le pool de serveur de médiation pertinent d’avec le bouton droit et sélectionnez **Modifier les propriétés**. Spécifiez la plage de ports dans le champ **Ports d’écoute**.
+    > Plusieurs jonction prend en charge Skype pour Business Server, SIP plusieurs voies de signalisation peut être définie sur le serveur de médiation pour la communication avec plusieurs homologues. Lors de la définition d’une jonction, le numéro de **port du serveur de médiation associé** doit se trouver dans la plage de ports d’écoute pour le protocole respectif autorisé par le serveur de médiation. Cette plage de ports est définie sous Skype pour les pools Business Server et le serveur de médiation. Le pool de serveur de médiation pertinent d’avec le bouton droit et sélectionnez **Modifier les propriétés**. Specify the port range in the **Listening ports** field.
   
 7. Cliquez sur **OK**. 
     

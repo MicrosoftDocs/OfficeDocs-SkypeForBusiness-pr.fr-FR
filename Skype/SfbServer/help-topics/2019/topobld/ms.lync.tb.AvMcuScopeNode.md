@@ -1,5 +1,6 @@
 ---
 title: Nœud d’étendue du service MCU audio/vidéo
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 45e90203-2da3-44c3-beaf-02456fa970a1
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Ce nœud affiche le nom de domaine complet (FQDN) et les pools frontaux associés pour ce pool de conférence A/V. Vous pouvez effectuer les actions suivantes :'
-ms.openlocfilehash: 2cd2b92cc89c36d5ee59e830f948d40f3ee82081
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 6ae9471e7b6321e92bd141b90e49941f9f2d6cc1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21065458"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878877"
 ---
 # <a name="av-mcu-scope-node"></a>Nœud d’étendue du service MCU audio/vidéo
  

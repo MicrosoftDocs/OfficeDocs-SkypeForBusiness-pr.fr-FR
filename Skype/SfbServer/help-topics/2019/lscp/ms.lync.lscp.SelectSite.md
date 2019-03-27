@@ -1,5 +1,6 @@
 ---
 title: Sélection d’un site
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 09472310-a40f-4360-b6f1-1a9ac8888965
 ROBOTS: NOINDEX, NOFOLLOW
 description: Utilisez la boîte de dialogue Sélectionner un site pour rechercher des sites disponibles dans votre environnement. Pour utiliser un site existant, sélectionnez un site dans la liste, puis cliquez sur OK.
-ms.openlocfilehash: 6eb2c4ccaeb7b6558af78f655c97f3e549285829
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 930f6bb29e0fb175383cc868ccdfd4ae5ce98b33
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20993612"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884286"
 ---
 # <a name="select-a-site"></a>Sélection d’un site
 

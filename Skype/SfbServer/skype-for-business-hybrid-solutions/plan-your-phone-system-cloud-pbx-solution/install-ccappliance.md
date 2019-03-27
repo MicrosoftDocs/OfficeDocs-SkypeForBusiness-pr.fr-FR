@@ -1,5 +1,6 @@
 ---
 title: Install-CcAppliance
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 385453cd-3a96-4837-8bb4-513aa97a256b
 description: "	L'applet de commande Install-CcAppliance installe l’appliance de la version Cloud Connector de Skype Entreprise, notamment les machines virtuelles de l’AD, du magasin central de gestion, du serveur de médiation et du serveur Edge, sur le serveur hôte. "
-ms.openlocfilehash: d35a102f7d3ade7b64bcf43388eaf03dc455c27b
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 8f1a8b7d99a555006c1d69ee52f2403e9bf0a874
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569986"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880213"
 ---
 # <a name="install-ccappliance"></a>Install-CcAppliance
  
@@ -30,7 +31,7 @@ Install-CcAppliance [-ShowStepsOnly]  [<CommonParameters>]
 ## <a name="examples"></a>Exemples
 <a name="Examples"> </a>
 
-### <a name="example-1"></a>Exemple 1
+### <a name="example-1"></a>Exemple 1
 
 L’exemple suivant installe un nouveau matériel nuage connecteur sur le serveur hôte :
   
@@ -66,7 +67,7 @@ Le paramètre ShowStepsOnly est uniquement dédié à la résolution de problèm
   
 ### <a name="example-5"></a>Exemple 5
 
-L’exemple suivant crée des fichiers de configuration pour chaque étape de déploiement sur le serveur hôte. Fichiers de configuration sont enregistrés dans le \<ApplianceRoot\>\Instances\\< Version\>-dossier default\ExportedConfig sur le serveur hôte :
+L’exemple suivant crée des fichiers de configuration pour chaque étape de déploiement sur le serveur hôte. Fichiers de configuration sont enregistrés dans le \<ApplianceRoot\>\Instances\\<Version\>-dossier default\ExportedConfig sur le serveur hôte :
   
 ```
 Install-CcAppliance -PrepareOnly
@@ -89,14 +90,14 @@ Le paramètre SkipExistingObjects doit être utilisé conjointement avec le para
   
 Pour déterminer les étapes du déploiement, exécutez la commande suivante :
   
-Install-CcAppliance - ShowStepsOnly
+Install-CcAppliance -ShowStepsOnly
   
 ## <a name="detailed-description"></a>Description détaillée
 <a name="DetailedDescription"> </a>
 
 L’applet de commande Install-CcAppliance est utilisé pour déployer dans le nuage connecteur sur un nouveau matériel ou mise à niveau une appliance existante vers la version la plus récente.
   
-Si vous disposez d’une nouvelle appliance, commencez par lire Préparation de votre environnement pour Cloud Connector, exécutez l’applet de commande Register-CcAppliance afin d’enregistrer l’appliance, puis exécutez l’applet de commande Install-CcAppliance. Pour plus d’informations, voir [déployer un seul site dans le nuage connecteur](deploy-a-single-site-in-cloud-connector.md) et le [déploiement de plusieurs sites dans le nuage connecteur](deploy-multiple-sites-in-cloud-connector.md). 
+Si vous disposez d’une nouvelle appliance, commencez par lire Préparation de votre environnement pour Cloud Connector, exécutez l’applet de commande Register-CcAppliance afin d’enregistrer l’appliance, puis exécutez l’applet de commande Install-CcAppliance. Pour plus d’informations, reportez-vous à la rubrique [Deploy a single site in Cloud Connector](deploy-a-single-site-in-cloud-connector.md) et [Deploy multiple sites in Cloud Connector](deploy-multiple-sites-in-cloud-connector.md). 
   
 Si vous disposez d’un déploiement existant du nuage connecteur et que vous souhaitez mettre à niveau, suivez les instructions de [mise à niveau vers une nouvelle version du nuage connecteur](upgrade-to-a-new-version-of-cloud-connector.md).
   
@@ -110,7 +111,7 @@ Si vous disposez d’un déploiement existant du nuage connecteur et que vous so
 |SkipExistingObjects  <br/> |Facultatif  <br/> |System.Management.Automation.SwitchParameter  <br/> |Ce paramètre doit être utilisé conjointement avec le paramètre Étapes. Ce paramètre est uniquement fourni à des fins de résolution de problèmes.  <br/> |
 |Étapes  <br/> |Facultatif  <br/> |System.Array  <br/> |Exécution des étapes de déploiement. Ce paramètre est uniquement fourni à des fins de résolution de problèmes.  <br/> |
 |Mise à niveau  <br/> |Facultatif  <br/> |System.Management.Automation.SwitchParameter  <br/> |Mise à niveau du Cloud Connector existant vers la dernière version.  <br/> |
-|UpdateAllCredentials  <br/> |Facultatif  <br/> |System.Management.Automation.SwitchParameter  <br/> |Supprimer toutes les informations d’identification sur le nuage connecteur dans le cache. Demandez à l’utilisateur de spécifier de nouvelles informations pour l’installation.  <br/> |
+|Mise à jour de toutes les informations  <br/> |Facultatif  <br/> |System.Management.Automation.SwitchParameter  <br/> |Supprimer toutes les informations d’identification sur le nuage connecteur dans le cache. Demandez à l’utilisateur de spécifier de nouvelles informations pour l’installation.  <br/> |
    
 ## <a name="input-types"></a>Types d’entrées
 <a name="InputTypes"> </a>
@@ -125,12 +126,12 @@ Aucun
 ## <a name="see-also"></a>Voir aussi
 <a name="ReturnTypes"> </a>
 
-[CcAppliance publier](publish-ccappliance.md)
+[Publish-CcAppliance](publish-ccappliance.md)
   
 [Register-CcAppliance](register-ccappliance.md)
   
-[CcAppliance annuler l’inscription](unregister-ccappliance.md)
+[Unregister-CcAppliance](unregister-ccappliance.md)
   
-[CcAppliance désinstaller](uninstall-ccappliance.md)
+[Uninstall-CcAppliance](uninstall-ccappliance.md)
   
 

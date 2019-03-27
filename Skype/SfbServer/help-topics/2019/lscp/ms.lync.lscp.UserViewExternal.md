@@ -1,5 +1,6 @@
 ---
 title: Les utilisateurs afficher ou configurer la stratégie d’accès externe
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,18 +13,18 @@ localization_priority: Normal
 ms.assetid: 7065ebf2-15cc-44cf-9282-d64a86e3185a
 ROBOTS: NOINDEX, NOFOLLOW
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: 40f4b427c337e15bcbf5133ed5f336e7da502909
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: a13a13f19243ad6d5335173185dbb457385c675b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23241833"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879741"
 ---
-# <a name="users-view-or-configure-external-access-policy"></a>Utilisateurs : Afficher ou configurer la stratégie d’accès externe
+# <a name="users-view-or-configure-external-access-policy"></a>Utilisateurs : afficher ou configurer la stratégie d’accès externe
 
 Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
 
-- [Configurer la fédération, l’accès des utilisateurs distants et la connectivité PIC pour les utilisateurs](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
+- [Configure Federation, Remote User Access, and Public IM Connectivity for Users](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
 
 
 

@@ -1,5 +1,6 @@
 ---
-title: Ajouter des Associations du serveur Edge
+title: Ajouter des associations de serveur Edge
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a58b6ba8-f491-4c37-ad45-aa46206fac51
 description: Utilisez cette page pour sélectionner les pools frontaux et les serveurs Standard Edition Server utiliseront ce pool Edge a / trafic V.
-ms.openlocfilehash: 5792de61194af7b51cdbd900ce88dbcf2da540a5
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 0547921bfde85cf0f0f99443aece463994c0b13b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21013790"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879678"
 ---
-# <a name="add-edge-server-associations"></a>Ajouter des Associations du serveur Edge
+# <a name="add-edge-server-associations"></a>Ajouter des associations de serveur Edge
  
 Utilisez cette page pour sélectionner les pools frontaux et les serveurs Standard Edition Server utiliseront ce pool Edge a / trafic V. 
   

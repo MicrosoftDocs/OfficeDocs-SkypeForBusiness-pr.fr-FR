@@ -1,5 +1,6 @@
 ---
 title: Enregistrements DNS requis pour les URL simples dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3a3c9b22-892f-45a7-b05c-539d358a1a86
 description: 'Résumé : Passez en revue les considérations d’URL Simple dans cette rubrique avant d’implémenter les enregistrements DNS pour Skype pour Business Server.'
-ms.openlocfilehash: 89100dc91b9b4a69a295bcbf5992b205fafb15ca
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 1fffb1303381797a800a235d3965fe387e4d8eb2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373428"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878549"
 ---
 # <a name="dns-requirements-for-simple-urls-in-skype-for-business-server"></a>Enregistrements DNS requis pour les URL simples dans Skype pour Business Server
 
@@ -66,7 +67,7 @@ Si vous utilisez cette option, vous devez un enregistrement DNS A distinct pour 
 
 | **URL simple** <br/> | **Exemple** <br/>                                                                                                    |
 |:---------------------|:---------------------------------------------------------------------------------------------------------------------|
-| Meet  <br/>          | https://meet.contoso.com, https://meet.fabrikam.com, et ainsi de suite (une pour chaque domaine SIP dans votre organisation)  <br/> |
+| Répondre à  <br/>          | https://meet.contoso.com, https://meet.fabrikam.com, et ainsi de suite (une pour chaque domaine SIP dans votre organisation)  <br/> |
 | Rendez-vous  <br/>       | <https://dialin.contoso.com>  <br/>                                                                                  |
 | Admin  <br/>         | <https://admin.contoso.com>  <br/>                                                                                   |
 
@@ -77,7 +78,7 @@ Avec l’Option 2, les URL simples sont basées sur le nom de domaine SfB2015.co
 
 | **URL simple** <br/> | **Exemple** <br/>                                                                                                                    |
 |:---------------------|:-------------------------------------------------------------------------------------------------------------------------------------|
-| Meet  <br/>          | https://SfB2015.contoso.com/Meet, https://SfB2015.fabrikam.com/Meet, et ainsi de suite (une pour chaque domaine SIP dans votre organisation)  <br/> |
+| Répondre à  <br/>          | https://SfB2015.contoso.com/Meet, https://SfB2015.fabrikam.com/Meet, et ainsi de suite (une pour chaque domaine SIP dans votre organisation)  <br/> |
 | Rendez-vous  <br/>       | <https://SfB2015.contoso.com/Dialin>  <br/>                                                                                          |
 | Admin  <br/>         | <https://SfB2015.contoso.com/Admin>  <br/>                                                                                           |
 
@@ -88,7 +89,7 @@ Option 3 est particulièrement utile si vous possédez plusieurs domaines SIP et
 
 | **URL simple** <br/> | **Exemple** <br/>                                                                                                      |
 |:---------------------|:-----------------------------------------------------------------------------------------------------------------------|
-| Meet  <br/>          | <https://SfB2015.contoso.com/contosoSIPdomain/Meet>  <br/> <https://SfB2015.contoso.com/fabrikamSIPdomain/Meet>  <br/> |
+| Répondre à  <br/>          | <https://SfB2015.contoso.com/contosoSIPdomain/Meet>  <br/> <https://SfB2015.contoso.com/fabrikamSIPdomain/Meet>  <br/> |
 | Rendez-vous  <br/>       | <https://SfB2015.contoso.com/Dialin>  <br/>                                                                            |
 | Admin  <br/>         | <https://SfB2015.contoso.com/Admin>  <br/>                                                                             |
 
@@ -97,7 +98,7 @@ Option 3 est particulièrement utile si vous possédez plusieurs domaines SIP et
 
 Si vous disposez de plusieurs sites qui contiennent des pools frontaux et prend en charge votre fournisseur DNS GeoDNS, vous pouvez configurer vos enregistrements DNS pour les URL simples prendre en charge de la récupération d’urgence, afin que la fonctionnalité d’URL Simple persiste même si un pool frontal entier tombe en panne. Cette fonctionnalité de récupération d’urgence prend en charge les rendez-vous des URL simples Meet.
 
-Pour configurer cette option, créez deux adresses GeoDNS. Chacune d’elles comprend deux enregistrements DNS A ou CNAME qui aboutissent à deux pools couplés à des fins de récupération d’urgence. Une adresse GeoDNS est utilisée pour l’accès interne et aboutit au nom de domaine complet web interne ou à l’adresse IP d’équilibrage de charge des deux pools. L’autre adresse GeoDNS est utilisée pour l’accès externe et aboutit au nom de domaine complet web externe ou à l’adresse IP d’équilibrage de charge des deux pools. L’exemple ci-dessous s’applique à l’URL simple Meet et utilise les noms de domaine complets des pools. 
+Pour ce faire, créez deux adresses GeoDNS. Chaque adresse possède deux enregistrements DNS A ou CNAME qui résolvent les deux pools qui sont associées à des fins de récupération d’urgence. Une adresse GeoDNS est utilisée pour l’accès interne et correspond à le web internes nom de domaine complet charge équilibrage adresse IP ou pour les deux pools. L’autre adresse GeoDNS est utilisé pour l’accès externe et résout web externe complet ou charge d’équilibrage adresse IP pour les deux pools. Voici un exemple d’URL simple de réunion, à l’aide des noms de domaines complets pour les pools. 
 
 ```
 Meet-int.geolb.contoso.com
@@ -111,22 +112,22 @@ Meet-ext.geolb.contoso.com
      Pool2ExternalWebFQDN.contoso.com
 ```
 
-Créez ensuite des enregistrements CNAME qui font aboutir l’URL simple Meet (telles que meet.contoso.com) aux deux adresses GeoDNS.
+Créez ensuite les enregistrements CNAME deux adresses GeoDNS de résoudre l’URL simple Meet (telles que meet.contoso.com).
 
 > [!NOTE]
-> Si votre réseau utilise le hairpinning (routage de l’ensemble du trafic de l’URL simple via le lien externe, dont le trafic en provenance de votre organisation), vous pouvez simplement configurer l’adresse GeoDNS externe et faire aboutir votre adresse URL simple Meet uniquement à cette adresse externe.
+> Si votre réseau utilise hairpinning (routage tout le trafic votre URL Simple via le lien externe, y compris le trafic provenant de votre organisation), puis vous pouvez simplement configurer l’adresse GeoDNS externe et résoudre l’URL simple Meet uniquement que adresse externe.
 
-Lorsque vous utilisez cette méthode, vous pouvez configurer chaque adresse GeoDNS de façon à distribuer les demandes aux deux pools selon la méthode du tourniquet (round robin), ou bien vous connecter principalement à un pool (par exemple, le pool le plus proche géographiquement) et utiliser l’autre pool seulement en cas de problème de connectivité. 
+Lorsque vous utilisez cette méthode, vous pouvez configurer chaque adresse GeoDNS pour utiliser une méthode de tourniquet (round robin) pour distribuer les demandes pour les deux pools, ou pour se connecter principalement à un pool (par exemple, le pool situé géographiquement plus près) et utiliser le pool d’uniquement en cas de Échec de connectivité. 
 
-Vous pouvez définir la même configuration pour l’URL simple Dial-In. Pour ce faire, créer des enregistrements supplémentaires telles que celles dans l’exemple précédent, en remplaçant `dialin` pour `meet` dans les enregistrements DNS. Pour l’URL simple Admin, utilisez l’une des trois options mentionnées plus haut dans cette section.
+Vous pouvez configurer la même configuration de l’URL simple Dial-In. Pour ce faire, créer des enregistrements supplémentaires telles que celles dans l’exemple précédent, en remplaçant `dialin` pour `meet` dans les enregistrements DNS. Pour l’URL simple d’administration, utilisez une des trois options répertoriées plus haut dans cette section.
 
-Après avoir défini cette configuration, vous devez utiliser une application de surveillance pour configurer la recherche de défaillance via la surveillance HTTP. Pour l’accès externe, moniteur pour vous assurer que lyncdiscover obtenir le protocole HTTPS.<sipdomain> demandes au nom de domaine complet ou charge l’adresse IP d’équilibrage de la pour les deux pools web externe réussissent. Par exemple, les requêtes suivantes ne doit pas comporter n’importe quel en-tête **ACCEPT** et doit retourner **200 OK**.
+Une fois cette configuration est configurée, vous devez utiliser une application de surveillance pour configurer la surveillance HTTP pour surveiller les échecs. Pour l’accès externe, moniteur pour vous assurer que lyncdiscover obtenir le protocole HTTPS.<sipdomain> demandes au nom de domaine complet ou charge l’adresse IP d’équilibrage de la pour les deux pools web externe réussissent. Par exemple, les requêtes suivantes ne doit pas comporter n’importe quel en-tête **ACCEPT** et doit retourner **200 OK**.
 
 ```
 HTTPS GET Pool1ExternalWebFQDN.contoso.com/autodiscover/autodiscoverservice.svc/root
 HTTPS GET Pool2ExternalWebFQDN.contoso.com/autodiscover/autodiscoverservice.svc/root
 ```
 
-Pour l’accès interne, vous devez surveiller le port 5061 sur le nom de domaine complet web interne ou l’adresse IP d’équilibrage de charge pour les deux pools. Si des problèmes de connectivité sont détectés, l’adresse IP virtuelle de ces deux pools doit fermer les ports 80, 443 et 4443.
+Pour l’accès interne, vous devez surveiller le port 5061 sur le site web interne nom de domaine complet ou l’adresse IP les deux pools d’équilibrage de charge. Si les éventuels problèmes de connectivité sont détectées, l’adresse IP virtuelle pour ces pools doit fermer les ports 80, 443 et 4443.
 
 

@@ -1,5 +1,6 @@
 ---
 title: Configuration de Version du client créer ou modifier une existant
+ms.reviewer: ''
 ms.author: SerdarS
 author: SerdarSoysal
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 07fec57c-5cd3-422a-829a-0b62cb0092c4
 description: Les paramètres de configuration de version du client sont utilisés pour activer ou désactiver le contrôle de version du client. La configuration de version client globale installe avec Skype pour Business Server et est utilisée pour activer ou désactiver le contrôle de version du client pour le déploiement de serveurs entière. Lorsque la configuration globale est activée, toutes les stratégies de version du client en place prendront effet lorsque les utilisateurs tenteront de se connecter. Vous pouvez désactiver la configuration globale de version du client si vous voulez que la version du client ne soit pas contrôlée.
-ms.openlocfilehash: d02779e64a4f6a4bae812ff374f71f8e95659004
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: eb5471219112f9f388cd7f4478fb3d77b88c5883
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23252716"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878727"
 ---
 # <a name="client-version-configuration-create-new-or-edit-existing"></a>Configuration de version du client : création d’une version ou modification d’une version existante
 
@@ -57,5 +58,5 @@ Les listes ci-dessous décrivent les menus, les commandes, les champs et les pro
 
   - **URL** Si vous avez sélectionné **bloquer avec une URL** ou **Autoriser avec une URL**, vous pouvez spécifier l’URL de téléchargement du client à inclure dans le message d’erreur.
 
-Pour plus d’informations sur l’interopérabilité entre les clients et les versions du client, voir [Client Interoperability in Lync 2013 Preview](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) dans la documentation de planification. Pour plus d’informations sur l’utilisation des configurations de version du client, voir [Modifier l’Action par défaut pour les Clients pas explicitement pris en charge ou restreints](https://technet.microsoft.com/library/548dd0f5-62fe-4c3f-8952-2b9fd4c5fff3.aspx) dans la documentation des opérations.
+Pour plus d’informations sur l’interopérabilité entre les clients et les versions des clients, reportez-vous à la rubrique [Client Interoperability in Lync 2013 Preview](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) de la documentation de planification. Pour plus d’informations sur l’utilisation des configurations de version du client, reportez-vous à la rubrique [Modify the Default Action for Clients Not Explicitly Supported or Restricted](https://technet.microsoft.com/library/548dd0f5-62fe-4c3f-8952-2b9fd4c5fff3.aspx) de la documentation des opérations.
 

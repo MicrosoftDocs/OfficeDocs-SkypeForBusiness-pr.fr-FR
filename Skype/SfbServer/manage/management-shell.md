@@ -1,5 +1,6 @@
 ---
 title: Skype Entreprise Server Management Shell
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 674b523b-c0b7-4ed6-9e67-afa6e8ac7e12
 description: Le Skype pour Business Server Management Shell fournit l’interface de ligne de commande pour la gestion et l’administration des serveurs. Il est basé sur Windows PowerShell et inclut un ensemble complet de la gestion et l’administration des applets de commande qui sont spécifiques à Skype et produits Lync server.
-ms.openlocfilehash: 34bf761cfa6d9cfe648360319084b3a304d9f6e6
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 243ff7a684bb14f73ef9f4836ce00e8048fbb236
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20997355"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884199"
 ---
 # <a name="skype-for-business-server-management-shell"></a>Skype Entreprise Server Management Shell
  
@@ -32,7 +33,7 @@ Skype pour Business Server est fourni avec plus de 700 applets de commande qui p
 Get-Help New-CsVoicePolicy -Full
 ```
 
-La commande précédente récupère l’aide complète disponible pour l’applet de commande **New-CsVoicePolicy** . Pour afficher l’aide d’une applet de commande différents, remplacez **New-CsVoicePolicy** par le nom de l’applet de commande pour laquelle vous souhaitez accéder à l’aide.
+La commande précédente permet d’obtenir de l’aide concernant l’applet de commande **New-CsVoicePolicy**. Pour afficher l’aide d’une cmdlet différente, remplacez **New-CsVoicePolicy** par le nom de l’applet de commande pour laquelle vous souhaitez obtenir de l’aide.
   
 Pour récupérer la liste complète des applets de commande disponibles pour la gestion de Skype Entreprise Server, tapez les éléments suivants à l’invite de commandes shell : 
   
@@ -53,7 +54,7 @@ Choses à savoir sur Windows PowerShell dans Skype pour Business Server :
     
 - Vous pouvez mettre à jour le Skype pour le contenu d’aide Business Server Management Shell en exécutant l’applet de commande [Update-Help](https://technet.microsoft.com/en-us/library/hh849720.aspx) . L’applet de commande Update-Help télécharge et installe les fichiers aide le plus récents disponibles pour tous les modules installés sur votre ordinateur, y compris les mises à jour Skype pour les applets de commande Business.
     
-    Par défaut, l’applet de commande **Update-Help** met à jour tous les modules installés sur votre Skype pour Business Server. Si vous souhaitez mettre à jour uniquement certains modules, vous pouvez utiliser le paramètre _Module_ pour limiter l’étendue de l’applet de commande. L’exemple suivant met à jour uniquement la Skype pour le module d’entreprise.
+    Par défaut, l’applet de commande **Update-Help** met à jour tous les modules installés sur votre Skype pour Business Server. Si vous voulez mettre à jour uniquement certains modules, vous pouvez utiliser le paramètre _Module_ pour limiter la portée de l’applet de commande. L’exemple suivant met à jour uniquement la Skype pour le module d’entreprise.
     
   ```
   Update-Help -Module SkypeforBusiness

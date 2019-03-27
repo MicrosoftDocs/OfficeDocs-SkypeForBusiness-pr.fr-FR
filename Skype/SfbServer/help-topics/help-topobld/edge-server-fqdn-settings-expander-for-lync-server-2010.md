@@ -1,5 +1,6 @@
 ---
-title: Expanseur des paramètres nom de domaine complet du serveur Edge Server pour Lync Server 2010
+title: Développeur des paramètres FQDN du serveur Edge pour Lync Server 2010
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eb57268c-2419-4655-ace1-91cf871f25c7
 description: 'Pour définir les propriétés sous paramètres externes, configurez les options suivantes :'
-ms.openlocfilehash: d925da792e2c2c296707a99d6a4ae6b29c0545a9
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 3ebd98c17f7b32af72809375bd17e55514684e6d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375607"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882347"
 ---
-# <a name="edge-server-fqdn-settings-expander-for-lync-server-2010"></a>Expanseur des paramètres nom de domaine complet du serveur Edge Server pour Lync Server 2010
+# <a name="edge-server-fqdn-settings-expander-for-lync-server-2010"></a>Développeur des paramètres FQDN du serveur Edge pour Lync Server 2010
  
 Pour définir les propriétés sous **paramètres externes**, configurez les options suivantes :
   

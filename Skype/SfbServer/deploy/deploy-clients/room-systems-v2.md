@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Lisez cet article pour en savoir plus sur le déploiement de systèmes de salle Skype v2.
-ms.openlocfilehash: 7d9a24b69c1e91c5193f67b6bdc321981265cda7
-ms.sourcegitcommit: f0dec487e2893a171c7e701bfcf598076f5245b7
+ms.openlocfilehash: 7d80a803038724e8818ab01f6b4ae54b552cabcd
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26539071"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879776"
 ---
 # <a name="deployment-overview"></a>Vue d’ensemble du déploiement
 
@@ -27,7 +27,7 @@ Déploiement de systèmes de salle Skype v2 essentiellement divise en phases :
 - Vous demandant de confirmer que les emplacements de déploiement (salles) satisfont les dépendances de déploiement
 - Création de Skype pour les comptes d’entreprise et Exchange et en leur attribuant sur les périphériques de la console (voir [configurer les comptes pour les systèmes de salle Skype v2](room-systems-v2-configure-accounts.md))
 - Créer de nouvelles images Microsoft Surface tablettes pour fonctionner en tant que consoles v2 de systèmes de salle Skype (voir [configurer une console v2 de systèmes de salle Skype](console.md) ou [guide de déploiement en masse déployer Skype salle systèmes v2](room-systems-scale.md))
-- (Facultatif) Configuration de Microsoft Operations Management Suite pour vos systèmes (voir [gestion v2 de déploiement de systèmes de salle Skype avec OMS](with-oms.md))
+- (Facultatif) Configuration de Microsoft Operations Management Suite pour vos systèmes (voir [déployer Skype salle v2 SMS avec Azure moniteur](azure-monitor.md))
 - Configuration de consoles dans les salles de réunion et connexion des périphériques vous devez (voir la documentation du fabricant de votre jeu de périphériques)
 
 Techniciens AV peuvent être utilisées pour la dernière tâche, mais que votre organisation informatique doit être effectuée les autres parties du processus. 
@@ -143,16 +143,16 @@ Lorsque vous planifiez de déployer Skype salle Systemsv2, vous disposez d’un 
 
 | **Scénario**            | **Approche**         |
 |-------------------------|-----------------------|   
-|Déploiement d’un petit nombre de périphériques de systèmes de salle Skype (< 10). | Si v2 Surface Pro Skype salle systèmes, procédez comme les [instructions d’installation pour un périphérique par installer](console.md). [Cette vidéo pratique vous guide tout au long du processus.](https://content.cloudguides.com/guides/Configure%20the%20Skype%20Room%20Systems%20console) Si vous utilisez une solution intégrée, déployer à l’aide de l’image de fournisseur et configurez les paramètres selon vos besoins. |
+|Déploiement d’un petit nombre de périphériques de systèmes de salle Skype (<10). | Si v2 Surface Pro Skype salle systèmes, procédez comme les [instructions d’installation pour un périphérique par installer](console.md). [Cette vidéo pratique vous guide tout au long du processus.](https://content.cloudguides.com/guides/Configure%20the%20Skype%20Room%20Systems%20console) Si vous utilisez une solution intégrée, déployer à l’aide de l’image de fournisseur et configurez les paramètres selon vos besoins. |
 | Déploiement entre 10 et 50 les périphériques d’un seul fournisseur.     | Créer une image WIM et suspendre après [l’étape 6 dans le Guide de](console.md)capturer une image de distribution à utiliser avec la technologie de distribution clonage.    |
-| Déploiement de plus de 50 périphériques Skype salle systèmes, le déploiement des périphériques à partir de plusieurs fournisseurs ou nécessitant des agents spécifiques d’une organisation dans le cadre du déploiement. | Utilisez une tâche basée sur Séquenceur génération et distribution plate-forme logicielle, tel que [System Center Configuration Manager](with-oms.md).  |
+| Déploiement de plus de 50 périphériques Skype salle systèmes, le déploiement des périphériques à partir de plusieurs fournisseurs ou nécessitant des agents spécifiques d’une organisation dans le cadre du déploiement. | Utilisez une tâche basée sur Séquenceur génération et distribution plate-forme logicielle, tel que [System Center Configuration Manager](room-systems-scale.md).  |
 
 **Conseil pro** - v2 chaque Skype salle systèmes doit avoir un nom d’ordinateur valide et unique sur votre réseau. Nombre de surveillance et d’alerte systèmes affichent le nom de l’ordinateur comme identificateur de clé, il est important de développer une convention d’appellation pour les déploiements de systèmes de salle Skype v2 permettant de localiser aisément les systèmes de salle Skype v2 qui a été marqué comme personnel de support nécessitant une action. Un exemple peut utiliser un modèle de SRS -*Site*-*Nom de la salle* (SRS-LON-CURIE). 
 
 
 Dans le cadre du déploiement, vous devez également prendre en compte votre stratégie pour la gestion et la configuration des [comptes locaux](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0#local-accounts) qui sont créés par le programme d’installation de systèmes de salle Skype application.
 
-Nous fournissent des conseils sur l’utilisation de la [Suite de gestion des opérations Microsoft](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/oms-management) pour surveiller le déploiement de v2 Skype salle systèmes et créer des rapports sur la disponibilité, les erreurs matérielles et logicielles et version de l’application v2 Skype salle systèmes. Si vous décidez d’utiliser Microsoft Operations Management Suite, vous installez l’agent Operations Management Suite dans le cadre du processus d’installation logicielle et configurer les informations de connexion d’espace de travail pour votre espace de travail. 
+Nous fournissent des conseils sur l’utilisation de l' [Analyseur de Microsoft Azure](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/azure-monitor) pour surveiller le déploiement de v2 Skype salle systèmes et de créer des rapports sur la disponibilité, les erreurs matérielles et logicielles et version de l’application v2 Skype salle systèmes. Si vous décidez d’utiliser Microsoft Operations Management Suite, vous installez l’agent Operations Management Suite dans le cadre du processus d’installation logicielle et configurer les informations de connexion d’espace de travail pour votre espace de travail. 
 
 Une considération supplémentaire est si les systèmes de salle Skype v2 doit être joint au domaine. Vous trouverez des informations sur les avantages de l’intégration de domaine considérations sur [rejoindre Skype salle système domaine](domain-joining-considerations.md). 
 
