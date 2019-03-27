@@ -1,5 +1,6 @@
 ---
-title: Ajouter l’adresse IPv4 externe Edge Server
+title: Ajouter l’adresse IPv4 externe du serveur Edge
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,15 +13,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d4f22de3-d825-495e-9e85-99a75b8a20e3
 description: Dans l’adresse IPv4 externe, entrez l’adresse IP externe qui pointe vers le service Edge d’accès, service Edge de conférence Web et A / V Edge service.
-ms.openlocfilehash: 088e7e7ec1dc534957713120ed9267ad3b9ad521
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 56d3c3cca80c095f9af964ccd70790f386909a7c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21011978"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884991"
 ---
-# <a name="add-edge-server-external-ipv4"></a><span data-ttu-id="ede0f-103">Ajouter l’adresse IPv4 externe Edge Server</span><span class="sxs-lookup"><span data-stu-id="ede0f-103">Add Edge Server External IPv4</span></span>
+# <a name="add-edge-server-external-ipv4"></a><span data-ttu-id="b7296-103">Ajouter l’adresse IPv4 externe du serveur Edge</span><span class="sxs-lookup"><span data-stu-id="b7296-103">Add Edge Server External IPv4</span></span>
  
-<span data-ttu-id="ede0f-104">Dans **L’adresse IPv4 externe**, entrez l’adresse IP externe qui pointe vers le service Edge d’accès, service Edge de conférence Web et A / V Edge service.</span><span class="sxs-lookup"><span data-stu-id="ede0f-104">In **External IPv4**, enter the external IP address that points to the Access Edge service, Web Conferencing Edge service, and A/V Edge service.</span></span>
+<span data-ttu-id="b7296-104">Dans **L’adresse IPv4 externe**, entrez l’adresse IP externe qui pointe vers le service Edge d’accès, service Edge de conférence Web et A / V Edge service.</span><span class="sxs-lookup"><span data-stu-id="b7296-104">In **External IPv4**, enter the external IP address that points to the Access Edge service, Web Conferencing Edge service, and A/V Edge service.</span></span>
   
 

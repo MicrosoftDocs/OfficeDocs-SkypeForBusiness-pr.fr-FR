@@ -1,5 +1,6 @@
 ---
-title: Table d’application dans Skype pour Business Server 2015
+title: Table de l’application dans Skype pour Business Server 2015
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -9,20 +10,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 30938426-e2f9-4735-a7f4-59baf7a7d7e6
-description: Cette table stocke des informations sur les divers processus dans Skype pour 2015 de serveur d’entreprise impliqués dans le routage et les connexions.
-ms.openlocfilehash: 92f7609d35d0c669c7eeca0fc641b5df0677eaed
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Cette table stocke des informations sur les divers processus Skype pour Business Server 2015 impliqués dans le routage et les connexions.
+ms.openlocfilehash: 3525943066845b485888bc0d467df7fd478d5bb8
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886822"
 ---
-# <a name="application-table-in-skype-for-business-server-2015"></a><span data-ttu-id="39983-103">Table d’application dans Skype pour Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="39983-103">Application table in Skype for Business Server 2015</span></span>
+# <a name="application-table-in-skype-for-business-server-2015"></a><span data-ttu-id="9fe58-103">Table de l’application dans Skype pour Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="9fe58-103">Application table in Skype for Business Server 2015</span></span>
  
-<span data-ttu-id="39983-104">Cette table stocke des informations sur les divers processus dans Skype pour 2015 de serveur d’entreprise impliqués dans le routage et les connexions.</span><span class="sxs-lookup"><span data-stu-id="39983-104">This table stores information about the various processes within Skype for Business Server 2015 involved in routing and connections.</span></span>
+<span data-ttu-id="9fe58-104">Cette table stocke des informations sur les divers processus Skype pour Business Server 2015 impliqués dans le routage et les connexions.</span><span class="sxs-lookup"><span data-stu-id="9fe58-104">This table stores information about the various processes within Skype for Business Server 2015 involved in routing and connections.</span></span>
   
-|<span data-ttu-id="39983-105">**Colonne**</span><span class="sxs-lookup"><span data-stu-id="39983-105">**Column**</span></span>|<span data-ttu-id="39983-106">**Type de données**</span><span class="sxs-lookup"><span data-stu-id="39983-106">**Data Type**</span></span>|<span data-ttu-id="39983-107">**Index de la clé**</span><span class="sxs-lookup"><span data-stu-id="39983-107">**Key/Index**</span></span>|<span data-ttu-id="39983-108">**Détails**</span><span class="sxs-lookup"><span data-stu-id="39983-108">**Details**</span></span>|
+|<span data-ttu-id="9fe58-105">**Colonne**</span><span class="sxs-lookup"><span data-stu-id="9fe58-105">**Column**</span></span>|<span data-ttu-id="9fe58-106">**Type de données**</span><span class="sxs-lookup"><span data-stu-id="9fe58-106">**Data Type**</span></span>|<span data-ttu-id="9fe58-107">**Clé/Index**</span><span class="sxs-lookup"><span data-stu-id="9fe58-107">**Key/Index**</span></span>|<span data-ttu-id="9fe58-108">**Détails**</span><span class="sxs-lookup"><span data-stu-id="9fe58-108">**Details**</span></span>|
 |:-----|:-----|:-----|:-----|
-|<span data-ttu-id="39983-109">**ApplicationId**</span><span class="sxs-lookup"><span data-stu-id="39983-109">**ApplicationId**</span></span> <br/> |<span data-ttu-id="39983-110">int</span><span class="sxs-lookup"><span data-stu-id="39983-110">int</span></span>  <br/> |<span data-ttu-id="39983-111">Principal</span><span class="sxs-lookup"><span data-stu-id="39983-111">Primary</span></span>  <br/> |<span data-ttu-id="39983-112">Numéro unique identifiant cette application.</span><span class="sxs-lookup"><span data-stu-id="39983-112">Unique number identifying this application.</span></span>  <br/> |
-|<span data-ttu-id="39983-113">**Nom**</span><span class="sxs-lookup"><span data-stu-id="39983-113">**Name**</span></span> <br/> |<span data-ttu-id="39983-114">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="39983-114">nvarchar(256)</span></span>  <br/> | <br/> |<span data-ttu-id="39983-115">Nom du composant serveur.</span><span class="sxs-lookup"><span data-stu-id="39983-115">Name of the server component.</span></span>  <br/> |
+|<span data-ttu-id="9fe58-109">**ApplicationId**</span><span class="sxs-lookup"><span data-stu-id="9fe58-109">**ApplicationId**</span></span> <br/> |<span data-ttu-id="9fe58-110">int</span><span class="sxs-lookup"><span data-stu-id="9fe58-110">int</span></span>  <br/> |<span data-ttu-id="9fe58-111">Principal</span><span class="sxs-lookup"><span data-stu-id="9fe58-111">Primary</span></span>  <br/> |<span data-ttu-id="9fe58-112">Numéro unique identifiant cette application.</span><span class="sxs-lookup"><span data-stu-id="9fe58-112">Unique number identifying this application.</span></span>  <br/> |
+|<span data-ttu-id="9fe58-113">**Nom**</span><span class="sxs-lookup"><span data-stu-id="9fe58-113">**Name**</span></span> <br/> |<span data-ttu-id="9fe58-114">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="9fe58-114">nvarchar(256)</span></span>  <br/> | <br/> |<span data-ttu-id="9fe58-115">Nom du composant du serveur.</span><span class="sxs-lookup"><span data-stu-id="9fe58-115">Name of the server component.</span></span>  <br/> |
    
 

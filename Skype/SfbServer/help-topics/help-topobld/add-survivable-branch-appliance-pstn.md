@@ -1,5 +1,6 @@
 ---
 title: Ajouter la passerelle PSTN pour le Survivable Branch Appliance
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,30 +12,31 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7c55a43d-2589-48f9-972b-1e48a3dca52a
-description: 'Pour définir la passerelle de réseau téléphonique public commuté pour un Survivable Branch Appliance à un site de la succursale, vous devez spécifier les éléments suivants :'
-ms.openlocfilehash: cefdc46eb2f5b7573e5e5bd9acb93cb5ab384622
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Pour définir la passerelle de réseau téléphonique commuté pour un Survivable Branch Appliance sur un site de succursale, spécifiez les éléments suivants :'
+ms.openlocfilehash: df05edb2ee682336cf46fd2fa8a6b7a7b4736696
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888814"
 ---
-# <a name="add-survivable-branch-appliance-pstn"></a><span data-ttu-id="8b4be-103">Ajouter la passerelle PSTN pour le Survivable Branch Appliance</span><span class="sxs-lookup"><span data-stu-id="8b4be-103">Add Survivable Branch Appliance PSTN</span></span>
+# <a name="add-survivable-branch-appliance-pstn"></a><span data-ttu-id="d51cc-103">Ajouter la passerelle PSTN pour le Survivable Branch Appliance</span><span class="sxs-lookup"><span data-stu-id="d51cc-103">Add Survivable Branch Appliance PSTN</span></span>
  
-<span data-ttu-id="8b4be-104">Pour définir la passerelle de réseau téléphonique public commuté pour un Survivable Branch Appliance à un site de la succursale, vous devez spécifier les éléments suivants :</span><span class="sxs-lookup"><span data-stu-id="8b4be-104">To define the public switched telephone network (PSTN) gateway for a Survivable Branch Appliance at a branch site, specify the following:</span></span> 
+<span data-ttu-id="d51cc-104">Pour définir la passerelle de réseau téléphonique commuté pour un Survivable Branch Appliance sur un site de succursale, spécifiez les éléments suivants :</span><span class="sxs-lookup"><span data-stu-id="d51cc-104">To define the public switched telephone network (PSTN) gateway for a Survivable Branch Appliance at a branch site, specify the following:</span></span> 
   
-- <span data-ttu-id="8b4be-105">Un nom de domaine complet (FQDN) ou l’adresse IP de l’homologue de la passerelle que le Survivable Branch Appliance ou le serveur Survivable Branch Server associé pour le routage entrant et sortant RTC appelle.</span><span class="sxs-lookup"><span data-stu-id="8b4be-105">A fully qualified domain name (FQDN) or IP address for the gateway peer that the Survivable Branch Appliance or Survivable Branch Server is associated with for routing inbound and outbound PSTN calls.</span></span>
+- <span data-ttu-id="d51cc-105">Un nom de domaine complet (FQDN) ou l’adresse IP de l’homologue de passerelle que le Survivable Branch Appliance ou serveur Survivable Branch Server est associé pour le routage entrant et sortant d’appels PSTN.</span><span class="sxs-lookup"><span data-stu-id="d51cc-105">A fully qualified domain name (FQDN) or IP address for the gateway peer that the Survivable Branch Appliance or Survivable Branch Server is associated with for routing inbound and outbound PSTN calls.</span></span>
     
     > [!IMPORTANT]
-    > <span data-ttu-id="8b4be-106">Si vous définissez un Survivable Branch Appliance, il s’agit de la passerelle à laquelle le serveur de médiation à l’intérieur de la Survivable Branch Appliance se connectera pour connectivité RTPC.</span><span class="sxs-lookup"><span data-stu-id="8b4be-106">If you are defining a Survivable Branch Appliance, this is the gateway to which the Mediation Server inside the Survivable Branch Appliance will connect for PSTN connectivity.</span></span> 
+    > <span data-ttu-id="d51cc-106">Si vous définissez un Survivable Branch Appliance, il s’agit de la passerelle à laquelle le serveur de médiation à l’intérieur du Survivable Branch Appliance se connectera pour la connectivité PSTN.</span><span class="sxs-lookup"><span data-stu-id="d51cc-106">If you are defining a Survivable Branch Appliance, this is the gateway to which the Mediation Server inside the Survivable Branch Appliance will connect for PSTN connectivity.</span></span> 
   
-- <span data-ttu-id="8b4be-p101">Le port d’écoute à utiliser pour les messages SIP (Session Initiation Protocol). Par défaut, il s’agit des ports 5066 pour le protocole TCP (Transmission Control Protocol) et 5067 pour le protocole TLS (Transport Layer Security) sur une passerelle, un PBX (Private Branch Exchange) ou un contrôleur SBC. Sur un Survivable Branch Appliance sur un site de succursale, les ports par défaut sont le port 5081 pour le protocole TCP et le port 5082 pour le protocole TLS.</span><span class="sxs-lookup"><span data-stu-id="8b4be-p101">The listening port to be used for Session Initiation Protocol (SIP) messages. By default, the ports are 5066 for Transmission Control Protocol (TCP) and 5067 for Transport Layer Security (TLS) on a gateway, private branch exchange (PBX), or Session Border Controller (SBC). On a Survivable Branch Appliance at a branch site, the default ports are 5081 for TCP and 5082 for TLS.</span></span>
+- <span data-ttu-id="d51cc-p101">Le port d’écoute à utiliser pour les messages SIP (Session Initiation Protocol). Par défaut, il s’agit des ports 5066 pour le protocole TCP (Transmission Control Protocol) et 5067 pour le protocole TLS (Transport Layer Security) sur une passerelle, un PBX (Private Branch Exchange) ou un contrôleur SBC. Sur un Survivable Branch Appliance sur un site de succursale, les ports par défaut sont le port 5081 pour le protocole TCP et le port 5082 pour le protocole TLS.</span><span class="sxs-lookup"><span data-stu-id="d51cc-p101">The listening port to be used for Session Initiation Protocol (SIP) messages. By default, the ports are 5066 for Transmission Control Protocol (TCP) and 5067 for Transport Layer Security (TLS) on a gateway, private branch exchange (PBX), or Session Border Controller (SBC). On a Survivable Branch Appliance at a branch site, the default ports are 5081 for TCP and 5082 for TLS.</span></span>
     
-- <span data-ttu-id="8b4be-110">Pour des raisons de sécurité, nous vous conseillons vivement d’utiliser le protocole TLS.</span><span class="sxs-lookup"><span data-stu-id="8b4be-110">For security reasons, we strongly recommend that you use TLS.</span></span> <span data-ttu-id="8b4be-111">Si vous définissez un Survivable Branch Appliance, reportez-vous à la documentation de votre fournisseur Survivable Branch Appliance pour vérifier que votre Survivable Branch Appliance prend en charge le protocole TLS.</span><span class="sxs-lookup"><span data-stu-id="8b4be-111">If you are defining a Survivable Branch Appliance, refer to your Survivable Branch Appliance vendor documentation to verify that your Survivable Branch Appliance supports the TLS protocol.</span></span>
+- <span data-ttu-id="d51cc-110">Pour des raisons de sécurité, nous vous conseillons vivement d’utiliser le protocole TLS.</span><span class="sxs-lookup"><span data-stu-id="d51cc-110">For security reasons, we strongly recommend that you use TLS.</span></span> <span data-ttu-id="d51cc-111">Si vous définissez un Survivable Branch Appliance, reportez-vous à la documentation de votre fournisseur Survivable Branch Appliance pour vérifier que votre serveur Survivable Branch Appliance prend en charge le protocole TLS.</span><span class="sxs-lookup"><span data-stu-id="d51cc-111">If you are defining a Survivable Branch Appliance, refer to your Survivable Branch Appliance vendor documentation to verify that your Survivable Branch Appliance supports the TLS protocol.</span></span>
     
     > [!IMPORTANT]
-    > <span data-ttu-id="8b4be-112">Pour des raisons de sécurité, nous vous recommandons vivement de déployer une passerelle pouvant utiliser le protocole TLS.</span><span class="sxs-lookup"><span data-stu-id="8b4be-112">For security reasons, we strongly recommended that you deploy a gateway that can use TLS.</span></span> 
+    > <span data-ttu-id="d51cc-112">Pour des raisons de sécurité, nous vous recommandons vivement de déployer une passerelle pouvant utiliser le protocole TLS.</span><span class="sxs-lookup"><span data-stu-id="d51cc-112">For security reasons, we strongly recommended that you deploy a gateway that can use TLS.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="8b4be-113">Si vous souhaitez ajouter une passerelle RTC, vous pouvez la configurer ultérieurement, mais son fonctionnement reste limité tant qu’elle n’a pas été définie et configurée.</span><span class="sxs-lookup"><span data-stu-id="8b4be-113">If you want to add a PSTN gateway, you can set it up later, but full functionality will be limited until the PSTN gateway is defined and configured.</span></span> 
+> <span data-ttu-id="d51cc-113">Si vous souhaitez ajouter une passerelle RTC, vous pouvez la configurer ultérieurement, mais son fonctionnement reste limité tant qu’elle n’a pas été définie et configurée.</span><span class="sxs-lookup"><span data-stu-id="d51cc-113">If you want to add a PSTN gateway, you can set it up later, but full functionality will be limited until the PSTN gateway is defined and configured.</span></span> 
   
 
