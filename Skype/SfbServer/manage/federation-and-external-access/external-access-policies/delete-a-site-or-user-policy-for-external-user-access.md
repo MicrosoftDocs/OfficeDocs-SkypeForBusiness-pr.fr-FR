@@ -1,5 +1,6 @@
 ---
 title: Suppression d’une stratégie utilisateur ou de site pour l’accès des utilisateurs externes
+ms.reviewer: ''
 ms:assetid: 6d907507-825b-4354-9c03-337a459f72de
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521013(v=OCS.15)
 ms:contentKeyID: 48184455
@@ -12,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Vous pouvez supprimer toute stratégie de site ou d’utilisateur qui est répertorié dans la Skype pour Business Server Control Panel dans la page Stratégie d’accès externe.
-ms.openlocfilehash: 53087985ee0723a6291582c3a584be0986119918
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 24d26e8668d04f1c11a3039b4b524d25e209e619
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222855"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889803"
 ---
 # <a name="delete-a-site-or-user-policy-for-external-user-access"></a>Suppression d’une stratégie utilisateur ou de site pour l’accès des utilisateurs externes
 
@@ -33,7 +34,7 @@ Vous pouvez supprimer toute stratégie de site ou d’utilisateur qui est réper
 
 ## <a name="to-delete-a-site-or-user-policy-for-external-user-access"></a>Pour supprimer une stratégie de site ou d’utilisateur pour l’accès des utilisateurs externes
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou disposant des mêmes droits) ou affecté au rôle CsAdministrator, ouvrez une session sur un ordinateur qui se trouve sur votre déploiement interne.
+1.  À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou est affecté au rôle CsAdministrator, ouvrez une session sur n’importe quel ordinateur dans votre déploiement interne.
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business. 
 

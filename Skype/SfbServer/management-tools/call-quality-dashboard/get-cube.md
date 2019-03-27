@@ -1,5 +1,6 @@
 ---
-title: Obtenir le Cube
+title: Obtenir un cube
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,27 +11,27 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c8eeb387-dc1e-44e0-bbf9-a566f8bda551
 description: 'Résumé : Découvrez l’opération obtenir un Cube, qui fait partie de l’API de données pour le tableau de bord qualité des appels. Tableau de bord de qualité des appels est un outil de Skype pour Business Server.'
-ms.openlocfilehash: 228ebd8f9bcb6db919f418ef9809bce1b3eb7f90
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 5c0623b92c9169a9e54f92d21358fb377c84a8f8
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532466"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897135"
 ---
-# <a name="get-cube"></a>Obtenir le Cube
+# <a name="get-cube"></a>Obtenir un cube
  
 **Résumé :** Obtenir des informations sur l’opération obtenir un Cube, qui fait partie de l’API de données pour le tableau de bord qualité des appels. Tableau de bord de qualité des appels est un outil de Skype pour Business Server.
   
 L’opération obtenir le Cube fait partie de l’API de données pour le tableau de bord qualité des appels.
   
-## <a name="get-cube"></a>Obtenir le Cube
+## <a name="get-cube"></a>Obtenir un cube
 
 Opération de Cube Get renvoie la liste des dimensions disponibles et des mesures.
   
 
 |**Méthode**|**URI de la demande**|**Version HTTP**|
 |:-----|:-----|:-----|
-|Télécharger  <br/> |https://\<portal\>/QoEDataService/CubeStructure  <br/> |HTTP/1.1.  <br/> |
+|Avoir  <br/> |https://\<portal\>/QoEDataService/CubeStructure  <br/> |HTTP/1.1.  <br/> |
    
  **Paramètres d’URI** - None.
   

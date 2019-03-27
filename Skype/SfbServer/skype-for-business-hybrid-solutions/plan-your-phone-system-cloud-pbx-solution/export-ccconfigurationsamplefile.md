@@ -1,5 +1,6 @@
 ---
-title: Exportation-CcConfigurationSampleFile
+title: Export-CcConfigurationSampleFile
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,13 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0aaacc05-3430-4579-acbf-d7c7670c3864
 description: L’applet de commande Export-CcConfigurationSampleFile exporte un fichier modèle de configuration (.ini) de la version Cloud Connector de Skype Entreprise vers l’annuaire d’appliances d’une appliance de Cloud Connector. Vous pouvez modifier et renommer le fichier à utiliser pour votre déploiement.
-ms.openlocfilehash: f91b9c7eb8ade4e5edcf1c83c5ddef205e0f3721
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 3154ff3492899de244c3033e4e35345132d04f20
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893306"
 ---
-# <a name="export-ccconfigurationsamplefile"></a>Exportation-CcConfigurationSampleFile
+# <a name="export-ccconfigurationsamplefile"></a>Export-CcConfigurationSampleFile
  
 L’applet de commande Export-CcConfigurationSampleFile exporte un fichier modèle de configuration (.ini) de la version Cloud Connector de Skype Entreprise vers l’annuaire d’appliances d’une appliance de Cloud Connector. Vous pouvez modifier et renommer le fichier à utiliser pour votre déploiement.
   
@@ -33,9 +35,9 @@ Aucun
 ## <a name="examples"></a>Exemples
 <a name="Examples"> </a>
 
-### <a name="example-1"></a>Exemple 1
+### <a name="example-1"></a>Exemple 1
 
-L’exemple suivant télécharge un exemple de fichier de configuration à partir du site de Microsoft et l’écrit dans le répertoire de la solution matérielle-logicielle de la solution matérielle-logicielle connecteur de nuage :
+L’exemple suivant télécharge un exemple de fichier de configuration à partir du site de Microsoft et écrit dans le répertoire appliance de la solution de nuage connecteur :
   
 ```
 Export-CcConfigurationSampleFile
@@ -44,9 +46,9 @@ Export-CcConfigurationSampleFile
 ## <a name="detailed-description"></a>Description détaillée
 <a name="DetailedDescription"> </a>
 
-La version actuelle de connecteur de Cloud vous demande de fournir plusieurs paramètres dans le fichier .ini. par exemple, des paramètres, tels que les adresses IP des ordinateurs virtuels pour les composants du connecteur du nuage, noms de composants, paramètres de la passerelle et ainsi de suite.
+La version actuelle du nuage connecteur nécessite de disposer de plusieurs paramètres dans le fichier .ini ; par exemple, des paramètres tels que les adresses IP des ordinateurs virtuels pour les composants du nuage connecteur, les noms de composants, les paramètres de passerelle et ainsi de suite.
   
-Cette applet de commande, lorsqu’il est exécuté sur l’ordinateur hôte du connecteur du nuage, télécharge un exemple de fichier .ini avec des exemples de configuration à partir du site Microsoft. L’applet de commande écrit le fichier dans le répertoire de la solution matérielle-logicielle de la solution matérielle-logicielle connecteur de nuage. L’annuaire d’appliances est précisé en utilisant l’applet de commande Set-CcApplianceDirectory cmdlet.
+Cette applet de commande, en cas d’exécution sur l’ordinateur hôte du nuage connecteur, télécharge un exemple de fichier .ini avec des exemples de configuration à partir du site de Microsoft. L’applet de commande écrit le fichier dans le répertoire appliance de la solution de nuage connecteur. L’annuaire d’appliances est précisé en utilisant l’applet de commande Set-CcApplianceDirectory cmdlet.
   
 ## <a name="input-types"></a>Types d’entrées
 <a name="InputTypes"> </a>
@@ -61,6 +63,6 @@ Aucun
 ## <a name="see-also"></a>Voir aussi
 <a name="ReturnTypes"> </a>
 
-[Ensemble-CcApplianceDirectory](set-ccappliancedirectory.md)
+[Set-CcApplianceDirectory](set-ccappliancedirectory.md)
   
 

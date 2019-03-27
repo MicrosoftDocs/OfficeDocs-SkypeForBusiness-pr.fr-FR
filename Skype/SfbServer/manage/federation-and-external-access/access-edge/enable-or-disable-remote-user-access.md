@@ -1,5 +1,6 @@
 ---
 title: Activation ou désactivation de l’accès des utilisateurs distants
+ms.reviewer: ''
 ms:assetid: cd9d3ddc-4839-457a-86d9-b15413e74002
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182586(v=OCS.15)
 ms:contentKeyID: 48185660
@@ -12,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Si vous activez l’accès des utilisateurs distants pour les utilisateurs distants, pris en charge les utilisateurs distants se connectent via Internet et n’ont pas à se connecter à l’aide d’un réseau privé virtuel pour collaborer avec des utilisateurs internes à l’aide de Skype pour Business Server.
-ms.openlocfilehash: 34733c4d1912461090ef868e24ae24dc1c870a94
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: aea136e6c8758fd646a20b8bc7a64a393d45a3e7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222876"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898915"
 ---
 # <a name="enable-or-disable-remote-user-access-in-skype-for-business-server"></a>Activer ou désactiver l’accès des utilisateurs distants dans Skype pour Business Server
 
@@ -32,7 +33,7 @@ Pour prendre en charge l’accès des utilisateurs distants, vous devez activer 
 
 ## <a name="to-enable-or-disable-remote-user-access-for-your-organization"></a>Pour activer ou désactiver l’accès des utilisateurs distants pour votre organisation
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou disposant des mêmes droits) ou affecté au rôle CsAdministrator, ouvrez une session sur un ordinateur qui se trouve sur votre déploiement interne.
+1.  À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou est affecté au rôle CsAdministrator, ouvrez une session sur n’importe quel ordinateur dans votre déploiement interne.
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business. 
 

@@ -1,5 +1,6 @@
 ---
 title: Modifier les options de base de données d’archivage dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dbebaa0a-f3a2-4dbd-b64e-07a62370f899
 description: 'Résumé : Découvrez comment modifier les options de base de données d’archivage pour Skype pour Business Server.'
-ms.openlocfilehash: 40cb0d6a3e0a55ad5221c55105355a7838835d30
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 8e2c1f0ef90f193f157b1387f1fa65278efea60d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371966"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891229"
 ---
 # <a name="change-archiving-database-options-in-skype-for-business-server"></a>Modifier les options de base de données d’archivage dans Skype pour Business Server
 

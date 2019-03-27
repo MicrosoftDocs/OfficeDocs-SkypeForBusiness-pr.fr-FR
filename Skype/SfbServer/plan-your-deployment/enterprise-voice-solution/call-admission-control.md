@@ -1,5 +1,6 @@
 ---
 title: Planifier le contrôle d’admission des appels d’appel dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -14,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6fda0195-4c89-4dea-82e8-624f03e3d062
 description: Découvrez le contrôle d’admission des appels, qui peut empêcher des appels à partir du lieu si elles auront la qualité des médias médiocre, dans Skype pour Business Server Enterprise Voice.
-ms.openlocfilehash: db4b2f7a77885ff96a4b43b01aa2337996418217
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: f02952c45badf26fa2e02a9d3d8349d087bbe6e8
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883850"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897712"
 ---
 # <a name="plan-for-call-admission-control-in-skype-for-business-server"></a>Planifier le contrôle d’admission des appels d’appel dans Skype pour Business Server
 
@@ -252,7 +253,7 @@ Pour améliorer les performances et faciliter le déploiement, appliquez les rec
 
 - Utilisez les stratégies de bande passante CAC pour compléter les paramètres QoS.
 
-- Si vous souhaitez réacheminer des appels bloqués sur le réseau RTC, vérifiez les fonctionnalités et capacités correspondantes. Pour plus d’informations, voir [Planification de routage des appels sortants](https://technet.microsoft.com/library/37c55fa4-175a-4190-b9e4-c2e5ac7b9261.aspx).
+- Si vous souhaitez réacheminer des appels bloqués sur le réseau RTC, vérifiez les fonctionnalités et capacités correspondantes. Pour plus d’informations, reportez-vous à [Planning Outbound Call Routing](https://technet.microsoft.com/library/37c55fa4-175a-4190-b9e4-c2e5ac7b9261.aspx).
 
     > [!NOTE]
     > La capacité fait référence au nombre de ports à ouvrir pour prendre en charge un éventuel réacheminement vers le réseau RTC.

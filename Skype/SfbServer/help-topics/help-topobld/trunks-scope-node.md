@@ -1,5 +1,6 @@
 ---
 title: Nœud d'étendue des jonctions
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -11,22 +12,23 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4ee527fa-ebec-40a9-a6bf-0cabd098aaa9
-description: 'Puits de clic droit dans le Générateur de topologies pour effectuer les opérations suivantes :'
-ms.openlocfilehash: e164e11c3185e8306146f3558459afbcf9fe52f5
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Avec le bouton droit de jonctions dans le Générateur de topologie pour effectuer les actions suivantes :'
+ms.openlocfilehash: 543c4cb31f87d670ac8b0e0d89d0f87b84927111
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897948"
 ---
-# <a name="trunks-scope-node"></a>Nœud d’étendue des jonctions
+# <a name="trunks-scope-node"></a>Nœud d'étendue des jonctions
  
-Droit de **puits** dans le Générateur de topologies pour effectuer les opérations suivantes :
+Avec le bouton droit de **jonctions** dans le Générateur de topologie pour effectuer les actions suivantes :
   
 - **Nouvelle jonction** : lance l’Assistant **Définition d’une nouvelle jonction** utilisé pour définir une nouvelle jonction SIP.
     
 Outre l’option Nouvelle jonction, vous pouvez effectuer les tâches générales suivantes :
   
-![Nœud d’étendue des jonctions](../../media/Trunks_Scope_Node.jpg)
+![Nœud d'étendue des jonctions](../../media/Trunks_Scope_Node.jpg)
   
 - **Topologie** : vous pouvez utiliser cette option pour définir une nouvelle topologie, ouvrir une topologie existante, télécharger la topologie actuelle, enregistrer une copie de la topologie, publier la topologie, installer une base de données, fusionner des composants des versions antérieures ou supprimer le déploiement.
     

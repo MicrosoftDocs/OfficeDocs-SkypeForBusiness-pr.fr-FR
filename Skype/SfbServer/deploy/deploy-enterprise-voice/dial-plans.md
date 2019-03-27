@@ -1,5 +1,6 @@
 ---
 title: Créer ou modifier un plan de numérotation dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d2fef3d0-7e78-4591-b712-d62ac71d71a5
 description: 'Résumé : Apprenez à créer ou modifier un plan de numérotation à l’aide de la Skype pour le panneau de configuration serveur Business.'
-ms.openlocfilehash: dc60b2b2f922e5f6581f6742d055243ccfe06113
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: b8f2e2831a611679f74aebcf49bcc24086adef7e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371067"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895858"
 ---
 # <a name="create-or-modify-a-dial-plan-in-skype-for-business-server"></a>Créer ou modifier un plan de numérotation dans Skype pour Business Server
 
@@ -44,12 +45,12 @@ ms.locfileid: "25371067"
 4. Si vous créez le plan de numérotation d’un utilisateur, entrez un nom descriptif dans le champ **Nom** de la boîte de dialogue **Nouveau plan de numérotation**. Une fois enregistré, ce nom ne peut pas être modifié.
 
     > [!NOTE]
-    > Pour les plans de numérotation de site, le champ **nom** est prérempli avec le nom du site et ne peut pas être modifié. > pour les plans de numérotation du pool, le champ **nom** est prérempli avec la passerelle PSTN ou le nom du serveur d’inscriptions et ne peut pas être modifié.
+    > Pour les plans de numérotation de site, le champ **nom** est prérempli avec le nom du site et ne peut pas être modifié .> pour le pool plans de numérotation, le champ **nom** est prérempli avec la passerelle PSTN ou le nom du serveur d’inscriptions et ne peut pas être modifié.
 
 5. Le champ **Nom simple** contient déjà le nom qui figure dans le champ **Nom**. Si vous le souhaitez, vous pouvez modifier ce champ pour spécifier un nom qui reflète mieux le site, le service ou l’utilisateur auquel le plan de numérotation s’applique.
 
    > [!IMPORTANT]
-   > Le **nom Simple** doit être unique parmi tous les plans de numérotation de votre déploiement. Il ne peut pas dépasser 256 caractères Unicode, chacun d'entre eux peut être des caractères alphabétiques ou numériques, un trait d’union (-), un point (.) ou un trait de soulignement (_). > caractères **non pris en charge** comprennent les espaces et les caractères réservés comme défini dans RFC 3966 (<http://www.ietf.org/rfc/rfc3966.txt>). Des caractères réservés sont **pas pris en charge** dans le **Nom Simple** sont les suivants : > « ; » « / » « ? » « : » « @ » «&amp;» « = » « + « « $», » »
+   > Le **nom Simple** doit être unique parmi tous les plans de numérotation de votre déploiement. Il ne peut pas dépasser 256 caractères Unicode, chacun d'entre eux peut être un caractère alphabétique ou numérique, un trait d’union (-), un point (.) ou un trait de soulignement (_) .> caractères **non pris en charge** incluent les espaces et les caractères réservés comme défini dans RFC 3966 (<http://www.ietf.org/rfc/rfc3966.txt>). Caractères réservés **non pris en charge** dans le **Nom Simple** sont les suivantes : > « ; » « / » « ? » « : » « @ » «&amp;» « = » « + « « $», » »
 
 6. (Facultatif) Dans le champ **Description**, vous pouvez taper des informations descriptives supplémentaires concernant le plan de numérotation.
 
@@ -81,7 +82,7 @@ ms.locfileid: "25371067"
 10. Vérifiez que les règles de normalisation du plan numérotation sont organisées dans l’ordre correct. Pour modifier la position d’une règle dans la liste, mettez en surbrillance le nom de la règle et cliquez sur l’ou flèche vers le bas.
 
     > [!IMPORTANT]
-    > Skype pour Business Server parcourt la liste des règles de normalisation à partir du haut vers le bas et utilise la première règle qui correspond au numéro composé. Si vous configurez un plan de numérotation de sorte qu’un numéro composé puisse correspondre à plusieurs règles de normalisation, vérifiez que les règles plus restrictives s’affichent au-dessus des règles moins restrictives. > La règle de normalisation par défaut **Conserver tous les** ^(\d{11})$ correspond à n’importe quel numéro à 11 chiffres. Par exemple, si vous ajoutez une règle de normalisation qui correspond à 11 chiffres commençant par 1425, assurez-vous que **Tout conserver** est trié sous le plus restrictif ^(1425\d{7}) règle$.
+    > Skype pour Business Server parcourt la liste des règles de normalisation à partir du haut vers le bas et utilise la première règle qui correspond au numéro composé. Si vous configurez un plan de numérotation de sorte qu’un numéro composé puisse correspondre à plusieurs règles de normalisation, vérifiez que les règles plus restrictives s’affichent au-dessus des règles moins restrictives. > la règle de normalisation par défaut **Conserver tous les** ^(\d{11})$ correspond à n’importe quel numéro à 11 chiffres. Par exemple, si vous ajoutez une règle de normalisation qui correspond à 11 chiffres commençant par 1425, assurez-vous que **Tout conserver** est trié sous le plus restrictif ^(1425\d{7}) règle$.
 
 11. (Facultatif) Entrez un numéro pour tester le plan de numérotation, puis cliquez sur **OK**. Les résultats du test s’affichent sous **Numéro composé à tester**.
 
@@ -108,7 +109,7 @@ ms.locfileid: "25371067"
 5. (Facultatif) Dans **Modifier un plan de numérotation**, modifiez le champ **Nom simple**, qui contient déjà le nom qui s’affiche dans le champ **Nom**, pour spécifier un nom qui reflète mieux le site, le service ou l’utilisateur auquel le plan de numérotation s’applique.
 
     > [!IMPORTANT]
-    > Le **nom Simple** doit être unique parmi tous les plans de numérotation dans le déploiement de Lync Server 2013. Il ne peut pas dépasser 256 caractères Unicode, chacun d'entre eux peut être des caractères alphabétiques ou numériques, un trait d’union (-), un point (.), un signe plus (+) ou un trait de soulignement (_). > espaces ne sont pas autorisés dans le champ **nom Simple** .
+    > Le **nom Simple** doit être unique parmi tous les plans de numérotation dans le déploiement de Lync Server 2013. Il ne peut pas dépasser 256 caractères Unicode, chacun d'entre eux peut être des caractères alphabétiques ou numériques, un trait d’union (-), un point (.), un signe plus (+) ou un trait de soulignement (_) .> les espaces ne sont pas autorisés dans le champ **nom Simple** .
 
 6. (Facultatif) Dans le champ **Description**, entrez des informations descriptives concernant le plan de numérotation.
 
@@ -140,12 +141,12 @@ ms.locfileid: "25371067"
 10. Vérifiez que les règles de normalisation du plan numérotation sont organisées dans l’ordre correct. Pour modifier la position d’une règle dans la liste, mettez en surbrillance le nom de la règle et cliquez sur l’ou flèche vers le bas.
 
     > [!IMPORTANT]
-    > Skype pour Business Server parcourt la liste des règles de normalisation à partir du haut vers le bas et utilise la première règle qui correspond au numéro composé. Si vous configurez un plan de numérotation de sorte qu’un numéro composé puisse correspondre à plusieurs règles de normalisation, vérifiez que les règles plus restrictives s’affichent au-dessus des règles moins restrictives. > La règle de normalisation par défaut **Conserver tous les** ^(\d{11})$ correspond à n’importe quel numéro à 11 chiffres. Si, par exemple, vous ajoutez une règle de normalisation qui correspond à 11 chiffres commençant par 1425, assurez-vous que **Tout conserver** est trié sous le plus restrictif ^(1425\d{7}) règle$.
+    > Skype pour Business Server parcourt la liste des règles de normalisation à partir du haut vers le bas et utilise la première règle qui correspond au numéro composé. Si vous configurez un plan de numérotation de sorte qu’un numéro composé puisse correspondre à plusieurs règles de normalisation, vérifiez que les règles plus restrictives s’affichent au-dessus des règles moins restrictives. > la règle de normalisation par défaut **Conserver tous les** ^(\d{11})$ correspond à n’importe quel numéro à 11 chiffres. Si, par exemple, vous ajoutez une règle de normalisation qui correspond à 11 chiffres commençant par 1425, assurez-vous que **Tout conserver** est trié sous le plus restrictif ^(1425\d{7}) règle$.
 
 11. (Facultatif) Entrez un numéro pour tester le plan de numérotation, puis cliquez sur **OK**. Les résultats du test s’affichent sous **Numéro composé à tester**.
 
     > [!NOTE]
-    > Vous pouvez enregistrer un plan de numérotation n’ayant pas encore passé le test afin de le reconfigurer ultérieurement. Pour plus d’informations, voir [Test de routage des communications vocales](https://technet.microsoft.com/library/d3aae909-fef6-440f-b144-0b62dc82bf5d.aspx).
+    > Vous pouvez enregistrer un plan de numérotation n’ayant pas encore passé le test afin de le reconfigurer ultérieurement. Pour plus d’informations, reportez-vous à [Testing Voice Routing](https://technet.microsoft.com/library/d3aae909-fef6-440f-b144-0b62dc82bf5d.aspx).
 
 12. Cliquez sur **OK**.
 

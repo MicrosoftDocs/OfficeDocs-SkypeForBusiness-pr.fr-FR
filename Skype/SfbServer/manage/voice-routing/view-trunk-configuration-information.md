@@ -1,5 +1,6 @@
 ---
 title: Afficher les informations de configuration de jonction dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Paramètres de configuration de jonction SIP définissent les relations et les fonctionnalités entre un serveur de médiation et la passerelle de réseau téléphonique commuté, un autocommutateur public-IP (PBX) ou un contrôleur de bordure de Session (SBC) au niveau du fournisseur de service.
-ms.openlocfilehash: 9d4890cd70256c6f063653a29d5d41f6e5a301cb
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 6ba97fa4650b8d62be625256ff4d3b9a3bb7cc68
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222715"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892164"
 ---
 # <a name="view-trunk-configuration-information-in-skype-for-business-server"></a>Afficher les informations de configuration de jonction dans Skype pour Business Server
 

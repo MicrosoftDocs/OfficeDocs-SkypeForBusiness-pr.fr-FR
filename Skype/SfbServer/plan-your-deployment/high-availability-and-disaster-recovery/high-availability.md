@@ -1,5 +1,6 @@
 ---
 title: Haute disponibilité et gestion du pool frontal
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 965041b7-3136-49f2-89c1-8b30417cb8ea
 description: En savoir plus sur la gestion de pool frontal dans Skype pour Business Server, notamment la gestion des pools, la perte de quorum et étapes spéciales pour les pools avec seulement deux serveurs frontaux.
-ms.openlocfilehash: ba15e090829256188763a0e7791cebb29f097422
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 43c8e3fffb010bf268f94970b5cca25ecee7cd58
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21005245"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894194"
 ---
 # <a name="front-end-pool-high-availability-and-management"></a>Haute disponibilité et gestion du pool frontal
  

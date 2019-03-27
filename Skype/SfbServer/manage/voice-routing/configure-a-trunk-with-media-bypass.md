@@ -1,5 +1,6 @@
 ---
 title: Configurer une jonction avec contournement de média dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'Pour configurer une jonction avec l’option de déviation du trafic multimédia activée, procédez comme suit. '
-ms.openlocfilehash: 68fd463f5afbde8dafa6ddb305e080374b2925b2
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 468c03668a7097252aee4e0593b8576bebd5c55c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223464"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895208"
 ---
 # <a name="configure-a-trunk-with-media-bypass-in-skype-for-business-server"></a>Configurer une jonction avec contournement de média dans Skype pour Business Server
 
@@ -58,7 +59,7 @@ Une configuration de jonction, décrite ci-dessous, regroupe un ensemble de para
 9. Si l’homologue de jonction prend en charge la réception de demandes SIP REFER à partir du serveur de médiation, activez la case à cocher **permettre l’envoi de faire référence à la passerelle** . 
 
     > [!NOTE] 
-    > Si vous désactivez cette option alors que l’option **Activer la déviation du trafic multimédia** est sélectionnée, des paramètres supplémentaires sont requis. Si l’homologue de jonction ne prend pas en charge réception des demandes SIP REFER à partir de la déviation du trafic de serveur de médiation et les médias est activé, vous devez également exécuter l’applet de commande **Set-CsTrunkConfiguration** pour désactiver RTCP pour les appels actifs et en attente pour prendre en charge les conditions adéquates pour le contournement de média. En guise d’alternative, vous pouvez sélectionner **Activer la référence avec un contrôle d’appel tiers** si vous souhaitez que les appels transférés soient soumis à la déviation du trafic multimédia et que la passerelle ne prend pas en charge les demandes SIP (Session Initiation Protocol) REFER. 
+    > Si vous désactivez cette option alors que l’option **Activer la déviation du trafic multimédia** est sélectionnée, des paramètres supplémentaires sont requis. Si l’homologue de jonction ne prend pas en charge la réception des requêtes SIP (Session Initiation Protocol) REFER du serveur de médiation et si la déviation du trafic multimédia est activée, vous devez également exécuter l’applet de commande **Set-CsTrunkConfiguration** pour désactiver le RTCP pour les appels en cours ou en attente afin de prendre en charge les conditions appropriées à la déviation du trafic multimédia. En guise d’alternative, vous pouvez sélectionner **Activer la référence avec un contrôle d’appel tiers** si vous souhaitez que les appels transférés soient soumis à la déviation du trafic multimédia et que la passerelle ne prend pas en charge les demandes SIP (Session Initiation Protocol) REFER. 
 
 10. (Facultatif) Pour permettre le routage interjonction, associez et configurez les enregistrements d’utilisation RTC à cette configuration de jonction. Les utilisations PSTN associées à cette configuration de jonction seront appliquées pour tous les appels entrants par le biais de la jonction qui n’est pas provenant d’un Skype pour le point de terminaison Business Server. Pour gérer les enregistrements d’utilisation RTC associés à une configuration de jonction, appliquez l’une des méthodes suivantes :
     - Pour sélectionner un ou plusieurs enregistrements d’une liste de tous les enregistrements d’utilisation PSTN disponibles dans votre déploiement d’Enterprise Voice, cliquez sur **Sélectionner**. Sélectionnez les enregistrements à associer à cette configuration de jonction, puis cliquez sur **OK**.
@@ -98,8 +99,8 @@ Une configuration de jonction, décrite ci-dessous, regroupe un ensemble de para
 16. (Facultatif) Associez et configurez les **règles de conversion du numéro d’appel** pour la jonction. Ces règles de traduction s’appliquent au numéro appelant pour les appels sortants.
     - Pour choisir une ou plusieurs règles à partir d’une liste de toutes les règles de traduction qui sont disponibles dans votre déploiement d’Enterprise Voice, cliquez sur **Sélectionner**. Dans **Sélectionner les règles de conversion**, cliquez sur les règles à associer à la jonction, puis cliquez sur **OK**.
     - Pour définir une nouvelle règle de conversion et l’associer à la jonction, cliquez sur **Nouvelle**. Pour plus d’informations sur la définition d’une nouvelle règle, voir [définition des règles de traduction dans Skype pour Business Server](defining-translation-rules.md).
-    - Pour modifier une règle de conversion déjà associée à la jonction, sélectionnez le nom de la règle, puis cliquez sur **Afficher les détails**. Pour plus d’informations, voir [définition des règles de traduction dans Skype pour Business Server](defining-translation-rules.md).
-    - Pour copier une règle de conversion existante à utiliser comme point de départ pour définir une nouvelle règle, sélectionnez le nom de la règle et cliquez sur **Copier**, puis sur **Coller**. Pour plus d’informations, voir [définition des règles de traduction dans Skype pour Business Server](defining-translation-rules.md).
+    - Pour modifier une règle de conversion déjà associée à la jonction, sélectionnez le nom de la règle, puis sur **Afficher les détails**. Pour plus d’informations, voir [définition des règles de traduction dans Skype pour Business Server](defining-translation-rules.md).
+    - Pour copier une règle de conversion existante à utiliser comme point de départ pour définir une nouvelle règle, sélectionnez le nom de la règle, sur **Copier**, puis sur **Coller**. Pour plus d’informations, voir [définition des règles de traduction dans Skype pour Business Server](defining-translation-rules.md).
     - Pour supprimer une règle de conversion de la jonction, sélectionnez le nom de la règle et cliquez sur **Supprimer**.
     > [!Warning]
     > N’associez pas de règles de conversion à une configuration de jonction si vous avez configuré les règles de conversion sur l’homologue de jonction associé, car les deux règles risquent d’entrer en conflit. 
@@ -107,8 +108,8 @@ Une configuration de jonction, décrite ci-dessous, regroupe un ensemble de para
 17. (Facultatif) Associez et configurez les **règles de conversion de numéro appelé** pour la jonction. Les règles de conversion s’appliquent au numéro appelé dans un appel sortant.
     - Pour choisir une ou plusieurs règles à partir d’une liste de toutes les règles de traduction qui sont disponibles dans votre déploiement d’Enterprise Voice, cliquez sur **Sélectionner**. Dans **Sélectionner les règles de conversion**, cliquez sur les règles à associer à la jonction, puis cliquez sur **OK**.
     - Pour définir une nouvelle règle de conversion et l’associer à la jonction, cliquez sur **Nouvelle**. Pour plus d’informations sur la définition d’une nouvelle règle, voir [définition des règles de traduction dans Skype pour Business Server](defining-translation-rules.md).
-    - Pour modifier une règle de conversion déjà associée à la jonction, sélectionnez le nom de la règle, puis cliquez sur **Afficher les détails**. Pour plus d’informations, voir [définition des règles de traduction dans Skype pour Business Server](defining-translation-rules.md).
-    - Pour copier une règle de conversion existante à utiliser comme point de départ pour définir une nouvelle règle, sélectionnez le nom de la règle et cliquez sur **Copier**, puis sur **Coller**. Pour plus d’informations, voir [définition des règles de traduction dans Skype pour Business Server](defining-translation-rules.md).
+    - Pour modifier une règle de conversion déjà associée à la jonction, sélectionnez le nom de la règle, puis sur **Afficher les détails**. Pour plus d’informations, voir [définition des règles de traduction dans Skype pour Business Server](defining-translation-rules.md).
+    - Pour copier une règle de conversion existante à utiliser comme point de départ pour définir une nouvelle règle, sélectionnez le nom de la règle, sur **Copier**, puis sur **Coller**. Pour plus d’informations, voir [définition des règles de traduction dans Skype pour Business Server](defining-translation-rules.md).
     - Pour supprimer une règle de conversion de la jonction, sélectionnez le nom de la règle et cliquez sur **Supprimer**.
 
     > [!Warning] 

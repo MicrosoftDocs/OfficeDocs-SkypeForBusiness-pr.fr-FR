@@ -1,5 +1,6 @@
 ---
-title: Renouveler-CcCACertificate
+title: Renew-CcCACertificate
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -9,16 +10,17 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 44da2f8d-0bf5-4f3e-b2e7-bb181dbbe646
-description: L’applet de commande Renew-CcCACertificate renouvelle le certificat de l’AC racine de Skype Entreprise, version Cloud Connector, qui est sur le point d’expirer ou qui a déjà expiré. Cette commande a été modifiée en CcCACertificate-mise à jour dans le nuage lien 2.0 et versions ultérieures.
-ms.openlocfilehash: bfcf7c69e27af8ebf83c85a8c90cc46491fbc454
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: L’applet de commande Renew-CcCACertificate renouvelle le certificat de l’AC racine de Skype Entreprise, version Cloud Connector, qui est sur le point d’expirer ou qui a déjà expiré. Cette commande a été modifiée pour la mise à jour-CcCACertificate dans le nuage connecteur 2.0 et versions ultérieures.
+ms.openlocfilehash: 616abb35d577b816368854396a201b9f07b40d12
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893861"
 ---
-# <a name="renew-cccacertificate"></a>Renouveler-CcCACertificate
+# <a name="renew-cccacertificate"></a>Renew-CcCACertificate
  
-L’applet de commande Renew-CcCACertificate renouvelle le certificat de l’AC racine de Skype Entreprise, version Cloud Connector, qui est sur le point d’expirer ou qui a déjà expiré. Cette commande a été modifiée en CcCACertificate-mise à jour dans le nuage lien 2.0 et versions ultérieures.
+L’applet de commande Renew-CcCACertificate renouvelle le certificat de l’AC racine de Skype Entreprise, version Cloud Connector, qui est sur le point d’expirer ou qui a déjà expiré. Cette commande a été modifiée pour la mise à jour-CcCACertificate dans le nuage connecteur 2.0 et versions ultérieures.
   
 ```
 Renew-CcCACertificate
@@ -63,10 +65,10 @@ Aucun
 ## <a name="see-also"></a>Voir aussi
 <a name="ReturnTypes"> </a>
 
-[Réinitialisation-CcCACertificate](reset-cccacertificate.md)
+[Reset-CcCACertificate](reset-cccacertificate.md)
   
-[Renouveler-CcServerCertificate](renew-ccservercertificate.md)
+[Renew-CcServerCertificate](renew-ccservercertificate.md)
   
-[Exportation-CcRootCertificate](export-ccrootcertificate.md)
+[Export-CcRootCertificate](export-ccrootcertificate.md)
   
 

@@ -1,5 +1,6 @@
 ---
 title: Données de magasin de fichiers déplacement vers un nouveau magasin de fichiers dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.assetid: 8d1d5819-add2-4f5d-a436-74c00a281df0
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Si vous devez supprimer le serveur de fichiers qui est actuellement agissant en tant que le magasin de fichiers pour votre Skype pour le déploiement de serveur d’entreprise, ou si vous devez effectuer d’autres modifications que le fichier actuel stockent pas disponible, vous devez tout d’abord créer un nouveau partage. Ensuite, procédez comme suit :'
-ms.openlocfilehash: 5051e7ef9c0008fb3b98f7e4b7c67a06a5465d1e
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 0f9552e9de66924524ef2ac5c66d125689061b88
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375921"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890387"
 ---
 # <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server"></a>Données de magasin de fichiers déplacement vers un nouveau magasin de fichiers dans Skype pour Business Server
 
@@ -41,7 +42,7 @@ Si vous devez supprimer le serveur de fichiers qui est actuellement agissant en 
 
 4. Pour chaque pool directeur, directeur, serveur Standard Edition server et le pool frontal qui utilise le magasin de fichiers que vous souhaitez supprimer, sélectionnez le serveur ou pool, cliquez sur **Action**, puis cliquez sur **Arrêter tous les services**.
 
-5. Ouvrez une session sur l’ordinateur sur lequel le Générateur de topologie est installé en tant que membre du groupe Admins du domaine et du groupe RTCUniversalServerAdmins.
+5. Ouvrez une session l’ordinateur où le Générateur de topologie est installé en tant que membre du groupe Admins du domaine et du groupe RTCUniversalServerAdmins.
 
 6. Démarrer le Générateur de topologies : Cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Skype pour Business Server**, puis cliquez sur **Skype pour le Générateur de topologie Business Server**.
 
@@ -54,7 +55,7 @@ Si vous devez supprimer le serveur de fichiers qui est actuellement agissant en 
 10. Dans **Définir un nouveau magasin de fichiers**, sous **Nom de domaine complet du serveur de fichiers**, saisissez le nom de domaine complet du serveur de fichiers. Sous **Partage de fichiers**, saisissez le nom de dossier pour le nouveau partage de fichiers et cliquez sur **OK**.
 
      > [!IMPORTANT]
-     > Cette étape définit un nouveau magasin de fichiers à utiliser dans le Générateur de topologie. Définissez-le une seule fois, non pour chaque serveur. Avant de publier la topologie, vous devez créer le partage de fichiers sur le serveur de fichiers défini. Pour plus d’informations, voir [définir le magasin de fichiers pour le serveur frontal](https://technet.microsoft.com/library/90994400-c4e5-4509-af41-121ac716fbca.aspx).
+     > Cette étape définit un nouveau magasin de fichiers à utiliser dans le Générateur de topologie. Définissez-le une seule fois, non pour chaque serveur. Avant de publier la topologie, vous devez créer le partage de fichiers sur le serveur de fichiers défini. Pour plus d’informations, reportez-vous à la section [Define the File Store for the Front End](https://technet.microsoft.com/library/90994400-c4e5-4509-af41-121ac716fbca.aspx).
 
 11. Pour chaque serveur ou pool qui utilise le magasin de fichiers, procédez comme suit :
 
@@ -62,7 +63,7 @@ Si vous devez supprimer le serveur de fichiers qui est actuellement agissant en 
 
 13. Dans **Modifier les propriétés**, sous **Associations**, dans **Magasin de fichiers**, sélectionnez le nouveau partage de fichiers, puis cliquez sur **OK**.
 
-14. Publier la topologie, vérifiez le statut de réplication et exécutez le Skype pour l’Assistant de déploiement Business Server selon vos besoins. Pour plus d’informations, voir [Procédures communes de suppression de Lync Servers and Components](https://technet.microsoft.com/library/5438ce1e-57fa-4031-8bdb-3af6581d901b.aspx).
+14. Publier la topologie, vérifiez le statut de réplication et exécutez le Skype pour l’Assistant de déploiement Business Server selon vos besoins. Pour plus d’informations, reportez-vous à la section [Common Procedures for Removing Lync Servers and Components](https://technet.microsoft.com/library/5438ce1e-57fa-4031-8bdb-3af6581d901b.aspx).
 
 15. Démarrez une invite de commandes : cliquez sur **Démarrer**, sur **exécuter**, puis tapez cmd.exe.
 
@@ -77,9 +78,9 @@ Si vous devez supprimer le serveur de fichiers qui est actuellement agissant en 
 
 17. Lorsque la copie des données est terminée, dans le panneau de configuration de Lync Server, cliquez sur **la topologie**, puis cliquez sur **état**.
 
-18. Pour chaque serveur et pool sur lesquels vous avez arrêté les services, sélectionnez le serveur ou pool, cliquez sur **Action**, puis sur **Démarrer tous les services**.
+18. Pour chaque serveur et pool sur lesquels vous avez arrêté les services, sélectionnez le serveur ou pool, cliquez sur **Action**, puis sur **Démarrer tous les services**.         
 
-19. Supprimez l’ancien magasin de fichiers de la topologie et publiez la topologie. Pour plus d’informations, voir [Supprimer un magasin de fichiers](https://technet.microsoft.com/library/1ba7eb15-5c87-4357-b4d8-f59409ac7f71.aspx).
+19. Supprimez l’ancien magasin de fichiers de la topologie et publiez la topologie. Pour plus d’informations, reportez-vous à la section [Remove a file store](https://technet.microsoft.com/library/1ba7eb15-5c87-4357-b4d8-f59409ac7f71.aspx).
 
 20. (Facultatif) Connectez-vous à l’ordinateur qui contient le magasin de fichiers que vous venez de supprimer en tant que membre du groupe Administrateurs local ou du groupe Administrateurs de domaines et supprimez le partage de fichiers et le répertoire anciens.
 

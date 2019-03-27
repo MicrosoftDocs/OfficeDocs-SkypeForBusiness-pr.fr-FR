@@ -1,5 +1,6 @@
 ---
 title: Configuration de la présence dans Skype Entreprise Online
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,13 +18,13 @@ f1keywords:
 - O365P_OnlinePresenceDesc
 ms.custom:
 - Setup
-description: 'Learn how to set up Skype for Business so you can see the availability of your co-workers. '
-ms.openlocfilehash: a3d65a3ef79bb24e5f05a5bd761170e618cc2020
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+description: 'Découvrez comment configurer Skype pour les entreprises afin de pouvoir visualiser la disponibilité de vos collègues. '
+ms.openlocfilehash: 5c8d30106397d18957c7866d9b4961cfa1409f83
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23849946"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894156"
 ---
 # <a name="configure-presence-in-skype-for-business-online"></a>Configuration de la présence dans Skype Entreprise Online
 
@@ -43,7 +44,7 @@ En tant qu' **[administrateur](https://support.office.com/article/eac4d046-1afd-
 
 |**Paramètre**|**Qui peut afficher la présence d’un utilisateur**|
 |:-----|:-----|
-|**Afficher automatiquement les informations de présence** <br/> |N’importe quel Skype pour utilisateur professionnel dans votre entreprise qui n’a pas été ajouté à une personne **externe** ou liste **bloqué** sera en mesure de voir la présence en ligne de cette personne. <br/> |
+|**Afficher automatiquement des informations de présence** <br/> |N’importe quel Skype pour utilisateur professionnel dans votre entreprise qui n’a pas été ajouté à une personne **externe** ou liste **bloqué** sera en mesure de voir la présence en ligne de cette personne. <br/> |
 |**Afficher les informations de présence que par les contacts d’un utilisateur** <br/> |Tout le monde dans la liste des Contacts d’une personne qui vous n’avez pas ajouté à leur liste **externe** ou **bloqué** . <br/> Personnes peuvent remplacer les paramètres par défaut dans leur Skype pour l’application de gestion : **paramètres** > **Outils** > **Options**. <br/> |
 
 Pour plus d’informations sur ce que vos utilisateurs peuvent modifier dans Skype pour les entreprises, voir ces articles :

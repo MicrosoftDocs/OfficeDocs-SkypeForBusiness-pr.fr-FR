@@ -1,5 +1,6 @@
 ---
 title: Configurer et résoudre les problèmes de délégation pour Skype Entreprise Online
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Cet article explique comment configurer et dépanner Skype pour la délégation d’entreprise en ligne. Cet article vous donne des conseils pour les étapes de dépannage, meilleures pratiques et recommandations pour le programme d’installation.
-ms.openlocfilehash: e3131b28be1ad01e0965b2739dc152a627826d5e
-ms.sourcegitcommit: 28e0e8043f418505039cd12407c927f454c141f1
+ms.openlocfilehash: 450aee07691a007b976aafffc05d34c3e7ef85f2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25546674"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887834"
 ---
 # <a name="set-up-and-troubleshoot-skype-for-business-online-delegation"></a>Configurer et résoudre les problèmes de délégation pour Skype Entreprise Online
 
@@ -52,11 +53,11 @@ Configuration et l’obtention de la délégation fonctionne correctement dépen
     
 ### <a name="skype-for-business-client-version-support"></a>Skype pour la prise en charge de la version entreprise client
 
-||**Outlook 2013**|**Outlook 2016**|
+||**Outlook 2013**|**Outlook 2016**|
 |:-----|:-----|:-----|
 |**Lync/Skype pour le Client de base Business**| Non pris en charge |Non pris en charge
-|**Skype Entreprise 2015**|Pris en charge| Pris en charge|
-|**Skype pour Business 2016**|Pris en charge| Pris en charge|
+|**Skype Entreprise 2015**|Pris en charge | Pris en charge|
+|**Skype pour Business 2016**|Pris en charge | Pris en charge|
 
    
 ### <a name="licensing-requirements"></a>Conditions de licence
@@ -105,12 +106,12 @@ Pour configurer Skype pour la délégation d’entreprise en ligne, procédez co
     
 ### <a name="verify-success"></a>Vérifier la réussite
 
-Si le programme d’installation se déroule correctement, le délégué doit voir **que vous avez été ajouté en tant que délégué pour < nom >** message et que le groupe de **personnes dont je gérer les appels pour** est créé. La personne qui a délégué doit voir que le groupe de **délégués** est créé.
+Si le programme d’installation se déroule correctement, le délégué doit voir **que vous avez été ajouté en tant que délégué pour < Name>** message et que le groupe de **personnes dont je gérer les appels pour** est créé. La personne qui a délégué doit voir que le groupe de **délégués** est créé.
   
 > [!NOTE]
 > Autorisations de délégation apparaissent généralement dans les 30 minutes au processus d’installation. Toutefois, ce processus peut prendre jusqu'à 24 heures. 
   
-## <a name="troubleshooting"></a>Identification et résolution des problèmes
+## <a name="troubleshooting"></a>Résolution des problèmes
 
 ### <a name="common-issues"></a>Problèmes courants
 

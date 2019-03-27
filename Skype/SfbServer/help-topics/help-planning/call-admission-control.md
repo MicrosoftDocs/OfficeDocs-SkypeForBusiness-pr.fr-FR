@@ -1,5 +1,6 @@
 ---
-title: Appel de contrôle d’Admission (outil de planification)
+title: Call Admission Control (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,16 +14,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b73e678-3e5c-491c-bef1-0eb72cf60398
 description: Le contrôle d’admission des appels détermine, en fonction de la bande passante réseau disponible, si des sessions de communication en temps réel, telles que des appels vocaux ou vidéo, peuvent être établies.
-ms.openlocfilehash: 10750b7f3653eed9051b59ebd0b79174cd92f5c9
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 5341b3dda1e739c649ca859356d61712a7ec8d3a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896147"
 ---
-# <a name="call-admission-control-planning-tool"></a>Appel de contrôle d’Admission (outil de planification)
+# <a name="call-admission-control-planning-tool"></a>Call Admission Control (Planning Tool)
  
 Le contrôle d’admission des appels détermine, en fonction de la bande passante réseau disponible, si des sessions de communication en temps réel, telles que des appels vocaux ou vidéo, peuvent être établies.
   
-Pour plus d’informations sur la planification de l’appel de contrôle d’admission, afficher un [Plan d’appel de contrôle d’admission dans Skype pour Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).
+Pour plus d’informations sur la planification pour le contrôle d’admission des appels, voir [planifier le contrôle d’admission des appels d’appel dans Skype pour Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).
   
 

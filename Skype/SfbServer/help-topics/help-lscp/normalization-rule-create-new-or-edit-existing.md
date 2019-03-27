@@ -1,5 +1,6 @@
 ---
 title: Règle de normalisation créer ou modifier une existant
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,18 +13,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4e4a96c5-200a-41ac-8b55-5155eacafb82
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: ff7e333f33f287ee81a977ece4456bd952f815c5
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: fa06ceca4c4003bc3bac36325b162514afdb7200
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23258241"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897969"
 ---
-# <a name="normalization-rule-create-new-or-edit-existing"></a>Règle de normalisation : Créer une nouvelle ou en modifier une existant
+# <a name="normalization-rule-create-new-or-edit-existing"></a>Règle de normalisation : en créer une autre ou en modifier une existante
 
 Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
 
-- [Création ou modification d’une règle de normalisation dans Skype Entreprise 2015](../../deploy/deploy-enterprise-voice/normalization-rules.md)
+- [Create or modify a normalization rule in Skype for Business 2015](../../deploy/deploy-enterprise-voice/normalization-rules.md)
 
 - [Créer ou modifier une règle de normalisation manuellement](https://technet.microsoft.com/library/fc0335e6-8830-4cfb-8c64-6aeb98c0a992.aspx)
 

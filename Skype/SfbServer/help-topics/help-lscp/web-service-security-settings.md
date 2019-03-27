@@ -1,5 +1,6 @@
 ---
-title: Paramètres de sécurité du Service Web
+title: Paramètres de sécurité du service web
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4ea30583-e5bd-4498-9bd8-38604c61e658
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: 6cf69d5510fe7427d5054d723159d731242d1a25
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 229dc2e2e26f17839e0660e242af746c7ce64eaf
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23247421"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893882"
 ---
-# <a name="web-service-security-settings"></a>Paramètres de sécurité du Service Web
+# <a name="web-service-security-settings"></a>Paramètres de sécurité du service web
 
 Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
 

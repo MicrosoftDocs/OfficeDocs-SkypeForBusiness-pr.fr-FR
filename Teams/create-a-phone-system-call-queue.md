@@ -1,7 +1,7 @@
 ---
-title: Créer une file d’attente d’appels sur le système téléphonique
-ms.author: tonysmit
-author: tonysmit
+title: Créer une file d’attente d’appels de système téléphonique
+ms.author: jambirk
+author: jambirk
 manager: serdars
 ms.reviewer: phans, wasseemh
 ms.topic: article
@@ -20,15 +20,15 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: Découvrez comment configurer le système téléphonique de files d’attente d’Office 365 (en nuage PBX) appel pour vous donner une organisation message d’accueil, une musique d’attente et rediriger les appels pour appeler les agents dans des listes de distribution et les groupes de sécurité. Vous pouvez également définir la taille maximale de file d’attente, délai d’expiration et options de gestion des appels.
-ms.openlocfilehash: f22b840bfde011937305732e61748d8a1feae390
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+description: Découvrez comment configurer le système téléphonique de files d’attente des appels système téléphonique pour vous donner une organisation message d’accueil, une musique d’attente et rediriger les appels pour appeler les agents dans des listes de distribution et les groupes de sécurité. Vous pouvez également définir la taille maximale de file d’attente, délai d’expiration et options de gestion des appels.
+ms.openlocfilehash: 924885ff62bb0e7e2ba0f25cc348dc62eb29ec32
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30633273"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898165"
 ---
-# <a name="create-a-phone-system-call-queue"></a>Créer une file d’attente d’appels sur le système téléphonique
+# <a name="create-a-phone-system-call-queue"></a>Créer une file d’attente d’appels de système téléphonique
 
 Appel de système téléphonique files d’attente contiennent le message d’accueil qui est utilisés lorsqu’une personne appelle un numéro de téléphone pour votre organisation, la possibilité de mettre automatiquement les appels en attente et la capacité de recherche pour l’agent disponible appel suivant gérer l’appel pendant les personnes qui appel Écoutez une musique d’attente. Vous pouvez créer une seule ligne ou plusieurs files d’attente d’appel pour votre organisation.
   
@@ -64,7 +64,7 @@ Pour commencer à l’aide de files d’attente d’appel, il est important de n
     > [!NOTE]
     > Pour rediriger les appels vers des personnes dans votre organisation en ligne, ils doivent disposer d’une licence de **Système téléphonique** et être activés pour Enterprise Voice ou Office 365 appelant Plans. Voir [Assigner de Skype pour les licences d’entreprise](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md) ou [licences attribuer les équipes Microsoft](assign-teams-licenses.md). Pour les activer pour Enterprise Voice, vous pouvez utiliser Windows PowerShell. Par exemple, exécutez :  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
-- Pour en savoir plus sur Office 365 appelant Plans, voir [Quels sont les Plans de l’appel dans Office 365 ?](what-are-calling-plans-in-office-365.md) et [Appel des Plans pour Office 365](calling-plans-for-office-365.md).
+- Pour en savoir plus sur Office 365 appelant Plans, voir le [système téléphonique et Plans de l’appel](calling-plan-landing-page.md) et [Appel des Plans pour Office 365](calling-plans-for-office-365.md).
 
     > [!NOTE]
     > Les utilisateurs hébergés sur site à l’aide de Lync Server 2010 ne sont pas pris en charge comme une file d’attente d’appel Agents.
@@ -108,6 +108,8 @@ Avant de pouvoir créer et configurer les files d'attente, vous devrez transfér
 Si vous configurez également les standards automatiques, vous devrez uniquement affecter un numéro de téléphone pour le compte du service de surveillance automatique principal de la ressource, puis d’appelants directs à votre file d’attente de l’appel. Si tel est le cas, la file d’attente d’appel vous devrez être créé avant de pouvoir créer une option dans le standard automatique de sélectionne la file d’attente de l’appel.
   
 ## <a name="step-3---create-a-new-call-queue"></a>Étape 3 : créer une nouvelle file d’attente d’appel
+
+[!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
 > [!IMPORTANT]
 > Chaque file d’attente de l’appel doit posséder un [compte de ressource](manage-resource-accounts.md)associé. Vous devez d’abord créer le compte de ressources, puis vous pouvez l’associer à la file d’attente de l’appel.

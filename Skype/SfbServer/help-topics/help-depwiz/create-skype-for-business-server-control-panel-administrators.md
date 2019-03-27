@@ -1,5 +1,6 @@
 ---
 title: Créer des administrateurs du Panneau de configuration Skype Entreprise Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,16 +12,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3312926a-4671-4030-bb92-90ac24c778dd
-description: 'Pour accorder l’accès à la Skype pour Business Server 2015, effectuez les opérations suivantes :'
-ms.openlocfilehash: db781611e2df2abf23c071673d3dfe0570f5700b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Pour accorder l’accès à la Skype pour Business Server 2015, procédez comme suit :'
+ms.openlocfilehash: 5d01066da5be34ba53f4eca37d35a3913d07142a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898865"
 ---
 # <a name="create-skype-for-business-server-control-panel-administrators"></a>Créer des administrateurs du Panneau de configuration Skype Entreprise Server
  
-Pour accorder l’accès à la Skype pour Business Server 2015, effectuez les opérations suivantes :
+Pour accorder l’accès à la Skype pour Business Server 2015, procédez comme suit :
   
 1. Ouvrez une session en tant que membre du groupe Administrateurs du domaine ou du groupe RTCUniversalServerAdmins.
     
@@ -33,11 +35,11 @@ Pour accorder l’accès à la Skype pour Business Server 2015, effectuez les op
 5. Sous l’onglet Membre, confirmez que les utilisateurs ou les groupes que vous avez sélectionnés sont présents. Cliquez sur **OK**.
     
 > [!TIP]
-> Le Skype pour le panneau de configuration de Business Server est un outil de contrôle d’accès basé sur les rôles. Appartenance au groupe CsAdministrator donne à l’utilisateur qui utilise le Skype pour le panneau de configuration de Business Server un contrôle total sur toutes les fonctions de configuration disponibles. Il existe d’autres rôles disponibles conçus pour des fonctions spécifiques. Les utilisateurs n’ont pas à activer pour Skype pour Business Server afin de devenir membres des groupes d’administration. 
+> Le Skype pour Business Server Control Panel est un outil de contrôle d’accès basé sur un rôle. L’appartenance au groupe CsAdministrator donne à un utilisateur qui utilise le Skype pour contrôle total Business Server Control Panel pour toutes les fonctions de configuration disponibles. D’autres rôles conçus pour des fonctions spécifiques sont disponibles. Utilisateurs n’ont pas être activé pour Skype pour Business Server afin de devenir membres des groupes d’administration. 
   
-Autres rôles sont les suivants :
+Autres rôles sont les suivantes :
   
-- **CsArchiving :** Les membres de ce groupe peuvent effectuer toutes les fonctions d’archivage, tels que la configuration et la gestion du rôle de serveur d’archivage.
+- **CsArchiving :** Membres de ce groupe peuvent effectuer toutes les fonctions d’archivage, comme la configuration et la gestion du rôle de serveur d’archivage.
     
 - **CsHelpDesk :** les membres de ce groupe peuvent afficher la configuration et le déploiement, y compris les propriétés et stratégies d’utilisateurs. Ils peuvent également effectuer des tâches de dépannage spécifiques.
     
@@ -45,14 +47,14 @@ Autres rôles sont les suivants :
     
 - **CsResponseGroupAdministrator :** les membres peuvent gérer et configurer le service Response Group.
     
-- **CsServerAdministrator :** Les membres peuvent gérer, contrôler et résoudre les problèmes de tous les serveurs exécutant Skype pour Business Server.
+- **CsServerAdministrator :** Les membres peuvent gérer, surveiller et dépanner tous les serveurs exécutant Skype pour Business Server.
     
 - **CsUserAdministrator :** les membres de ce groupe peuvent gérer, activer et désactiver des utilisateurs et assigner des stratégies existantes aux utilisateurs.
     
-- **CsViewOnlyAdministrator :** Les membres peuvent afficher le déploiement et la configuration des informations serveur. Cet abonnement permet à un membre surveiller la santé des serveurs Skype pour Business Server 2015.
+- **CsViewOnlyAdministrator :** Les membres peuvent afficher le déploiement et la configuration des informations de serveur. Cet abonnement permet à un membre afin de surveiller l’intégrité des serveurs exécutant Skype pour Business Server 2015.
     
-- **CsVoiceAdministrator :** Les membres peuvent créer, configurer et gérer les paramètres liés à la voix dans Skype pour Business Server.
+- **CsVoiceAdministrator :** Les membres peuvent créer, configurer et gérer les paramètres de voix dans Skype pour Business Server.
     
-Pour vous aider à assurer la sécurité et intégrité de contrôle d’accès basé sur des rôles, ajouter des utilisateurs aux groupes qui définissent quel rôle de l’utilisateur dans la gestion de la Skype pour le déploiement du serveur de l’entreprise.
+Pour préserver la sécurité et l’intégrité de contrôle d’accès basé sur un rôle, ajouter des utilisateurs aux groupes qui définissent le rôle tenu par l’utilisateur dans la gestion de la Skype pour le déploiement de serveur d’entreprise.
   
 

@@ -1,5 +1,6 @@
 ---
 title: Gérer les emplacements pour les passerelles ELIN dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ced79c13-4e7e-4034-95cd-6fc913f4f222
 description: Décisions nécessaires pour planifier une la base de données d’informations ou une base de données externe similaire, pour un déploiement E9-1-1 dans les passerelles ELIN, Skype pour Business Server Enterprise Voice.
-ms.openlocfilehash: 622593285ef4b1643f19d54f6c7d2f5c1e956c84
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 858493089c6c0e274a45616ea4b93a3fdf69e010
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885663"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894690"
 ---
 # <a name="manage-locations-for-elin-gateways-in-skype-for-business-server"></a>Gérer les emplacements pour les passerelles ELIN dans Skype pour Business Server
 
@@ -32,10 +33,10 @@ Pour que Skype pour Business Server fournisse automatiquement les emplacements p
 
 - Téléchargez les numéros d’identification de l’emplacement en cas d’urgence vers la base de données ALI (Automatic Location Identification) de votre opérateur PSTN.
 
-Pour plus d’informations sur la façon d’effectuer ces tâches, voir [Configure the Location Database](https://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx) dans la documentation de déploiement.
+Pour plus d’informations sur l’exécution de ces tâches, reportez-vous à [Configure the Location Database](https://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx) dans la documentation de déploiement.
 
 > [!NOTE]
-> Emplacements ajoutés à la base de données centrale ne sont pas disponibles pour le client jusqu'à ce qu’ils ont été publiées à l’aide d’un Skype pour commande Business Server Management Shell et répliqués dans les magasins locaux du pool. Pour plus d’informations, voir [la base de données de l’emplacement de publication](https://technet.microsoft.com/library/dd032b5b-df0e-4017-ac46-e17570c1ab1e.aspx) dans la documentation de déploiement.
+> Emplacements ajoutés à la base de données centrale ne sont pas disponibles pour le client jusqu'à ce qu’ils ont été publiées à l’aide d’un Skype pour commande Business Server Management Shell et répliqués dans les magasins locaux du pool. Pour plus d’informations, reportez-vous à [Publishing the Location Database](https://technet.microsoft.com/library/dd032b5b-df0e-4017-ac46-e17570c1ab1e.aspx) dans la documentation de déploiement.
 
 Cette section décrit les éléments à prendre en compte lorsque vous prévoyez de mettre à jour ou maintenir la base de données des emplacements.
 
@@ -85,7 +86,7 @@ Où sont stockées les données et quelles étapes devez-vous suivre pour les co
 
 Pour intégrer avec le service informations d’emplacement, la base de données de tiers doit respecter le Skype pour le schéma de demande/réponse Business emplacement du serveur. Pour plus d’informations, voir [Service Web pour E911 prise en charge de protocole](https://go.microsoft.com/fwlink/p/?linkid=213819). Pour plus d’informations sur le déploiement d’un service informations d’emplacement secondaire, voir [configurer un service d’informations d’emplacement secondaire dans Skype pour Business Server](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md) dans la documentation de déploiement.
 
-Pour plus d’informations sur le renseignement de la base de données d’emplacement, voir [Configure the Location Database](https://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx) dans la documentation de déploiement.
+Pour plus d’informations sur le renseignement de la base de données d’emplacements, reportez-vous à [Configure the Location Database](https://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx) dans la documentation de déploiement.
 
 ## <a name="maintaining-the-location-database"></a>Mise à jour de la base de données d’emplacements
 

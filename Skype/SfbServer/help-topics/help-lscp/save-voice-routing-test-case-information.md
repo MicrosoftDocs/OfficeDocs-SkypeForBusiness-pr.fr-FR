@@ -1,5 +1,6 @@
 ---
-title: Enregistrer les informations de cas de Test de routage des communications vocales
+title: Enregistrer les informations de cas de test de routage des communications vocales
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7874119d-d92b-484e-bbda-62f65241debd
 description: Vous pouvez utiliser la boîte de dialogue Enregistrer les informations de cas de Test de routage des communications vocales pour enregistrer un cas de test de routage voix temporaire. Dans Enregistrer voix cas de Test et les informations de routage, tapez le nom que vous souhaitez donner à ce cas de test dans nom, puis cliquez sur OK.
-ms.openlocfilehash: 50ad181cec9944e56a763a4352e82efec8bfb172
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 3ec9ed0a878f6d6482d2756d929221eb26dccb92
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21012120"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894802"
 ---
-# <a name="save-voice-routing-test-case-information"></a>Enregistrer les informations de cas de Test de routage des communications vocales
+# <a name="save-voice-routing-test-case-information"></a>Enregistrer les informations de cas de test de routage des communications vocales
  
 Vous pouvez utiliser la boîte de dialogue **Enregistrer les informations de cas de Test de routage des communications vocales** pour enregistrer le cas de test routage réceptiond vocale. **Enregistrer les informations de cas de Test de routage des communications vocales**, tapez le nom que vous souhaitez donner à ce cas de test dans **nom** , puis cliquez sur **OK**. 
   

@@ -1,5 +1,6 @@
 ---
 title: Supprimer une configuration d’archivage dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fed12cb5-2c80-476a-af3b-d55b450c5fbc
 description: 'Résumé : Découvrez comment supprimer une configuration d’archivage dans Skype pour Business Server.'
-ms.openlocfilehash: f8cb64cf7523cfaec26006560b4f77f39d904ead
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5e567a08606bb9d0475033515b4b9148deb2f446
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21018934"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895582"
 ---
 # <a name="delete-an-archiving-configuration-in-skype-for-business-server"></a>Supprimer une configuration d’archivage dans Skype pour Business Server
 
@@ -30,7 +31,7 @@ Pour supprimer une configuration d’archivage en utilisant le Panneau de config
     
 2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business. 
     
-3. Dans la barre de navigation de gauche, cliquez sur **Surveillance et archivage**, puis sur **Configuration de l’archivage**.
+3. Dans la barre de navigation de gauche, cliquez sur **surveillance et archivage**, puis cliquez sur **Configuration de l’archivage**.
     
 4. Dans la liste des configurations d’archivage, cliquez sur la configuration de site ou de pool que vous souhaitez supprimer, cliquez sur **Modifier**, puis cliquez sur **Supprimer**.
     

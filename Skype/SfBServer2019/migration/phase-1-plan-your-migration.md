@@ -1,5 +1,6 @@
 ---
 title: Phase 1 planifier votre migration
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Cette section couvre les rubriques de planification pour la migration vers Skype pour Business Server 2019.
-ms.openlocfilehash: 02bac7dc551285d5a4217ba643c0c32bd6ddd4e6
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 71178e0b28297db4782c6244b70f48193f0c53b8
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028648"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898654"
 ---
-# <a name="phase-1-plan-your-migration"></a>Phase 1 : Planification de la migration
+# <a name="phase-1-plan-your-migration"></a>Étape 1 : Planifier la migration
 
 Cette section couvre les rubriques de planification pour la migration vers Skype pour Business Server 2019. 
   

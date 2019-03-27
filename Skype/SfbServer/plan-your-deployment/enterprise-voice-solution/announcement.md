@@ -1,5 +1,6 @@
 ---
 title: Planification de l’application d’annonce dans Skype pour les entreprises
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2abee804-2599-48bb-90b2-15df0bae5e20
 description: Planification de l’application d’annonce dans Skype pour Business Server Enterprise Voice, qui configure comment traiter les appels téléphoniques aux numéros de téléphone non attribués dans votre organisation. Cela inclut les conditions requises pour les fichiers audio.
-ms.openlocfilehash: 2642dc13653f18520371b31c9e5ff41bc6a479d3
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 5e3b9af1a6bdc83081a1a8f17cd4963337efbbb6
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882104"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896559"
 ---
 # <a name="plan-for-the-announcement-application-in-skype-for-business"></a>Planification de l’application d’annonce dans Skype pour les entreprises
 
@@ -43,10 +44,10 @@ Tous les serveurs frontaux ou serveurs Standard Edition qui exécutent l’appli
 L’application d’annonce utilise le **Port 5071** pour les demandes d’écoute SIP.
 
 > [!NOTE]
-> Ce port est le paramètre par défaut, que vous pouvez modifier à l’aide de l’applet de commande **Set-CsApplicationServer** . Pour plus d’informations sur cette applet de commande, voir le Skype pour la documentation sur Business Server Management Shell.
+> Ce port est le paramètre par défaut, que vous pouvez modifier en utilisant l’applet de commande **Set-CsApplicationServer**. Pour plus d’informations sur cette applet de commande, voir le Skype pour la documentation sur Business Server Management Shell.
 
 ### <a name="audio-file-requirements"></a>Conditions requises pour les fichiers audio
 
-L’application d’annonce prend en charge le format de fichier Wave (.wav) et audio Windows Media (.wma) format de fichier de musique et des annonces. Exigences pour l’application d’annonce les fichiers audio sont les mêmes que pour l’application Response Group. Pour plus d’informations, voir [Configuration technique requise pour les groupes de réponses](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
+L’application d’annonce prend en charge le format de fichier Wave (.wav) et audio Windows Media (.wma) format de fichier de musique et des annonces. Exigences pour l’application d’annonce les fichiers audio sont les mêmes que pour l’application Response Group. Pour plus d’informations, reportez-vous à [Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
 
 

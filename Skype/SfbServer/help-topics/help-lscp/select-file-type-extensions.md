@@ -1,5 +1,6 @@
 ---
-title: Sélectionnez les Extensions de fichier
+title: Sélectionner des extensions de type de fichier
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3638cdc8-71dd-4a22-8613-83859af97387
 description: Utilisez la boîte de dialogue Sélectionner des Extensions de Type fichier pour sélectionner les extensions de type de fichier que vous souhaitez bloquer ou autoriser en sélectionnant (bloc) ou en désactivant (pour autoriser) les cases à cocher en regard des extensions de fichier des extensions de type. Cliquez sur la flèche pour développer une catégorie et d’afficher toutes les extensions de type de fichier pour cette catégorie. Si vous souhaitez sélectionner toutes les extensions de type de fichier pour une catégorie, sélectionnez le nom de catégorie.
-ms.openlocfilehash: c1da221a509984f3c1e792c2545e7bab75a9f5cc
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a061bdbfb74ded31f9bd621f9a4d3062318c787d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20974472"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897031"
 ---
-# <a name="select-file-type-extensions"></a>Sélectionnez les Extensions de fichier
+# <a name="select-file-type-extensions"></a>Sélectionner des extensions de type de fichier
  
 Utilisez la boîte de dialogue **Sélectionnez les Extensions de Type de fichier** pour sélectionner les extensions de type de fichier que vous souhaitez bloquer ou autoriser en sélectionnant (bloc) ou en désactivant (pour autoriser) les cases à cocher en regard des extensions sous **extensions de type de fichier**. Cliquez sur la flèche pour développer une catégorie et d’afficher toutes les extensions de type de fichier pour cette catégorie. Si vous souhaitez sélectionner toutes les extensions de type de fichier pour une catégorie, sélectionnez le nom de catégorie. 
   

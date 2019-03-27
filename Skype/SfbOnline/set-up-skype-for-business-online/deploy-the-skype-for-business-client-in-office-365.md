@@ -1,5 +1,6 @@
 ---
 title: Déployer le Skype pour client d’entreprise dans Office 365
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Découvrez comment planifier et déployer Skype pour les entreprises de petites, moyennes et grandes entreprises et la disposition de vos utilisateurs. '
-ms.openlocfilehash: c96d4759e25370997b9af8d42d8130d7964962df
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 6dccd022d82519c1dfdce13f767e5b0a2531eb10
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372570"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896792"
 ---
 # <a name="deploy-the-skype-for-business-client-in-office-365"></a>Déployer le Skype pour client d’entreprise dans Office 365
 
@@ -52,7 +53,7 @@ En tant que l' [administrateur](https://support.office.com/en-us/article/eac4d04
     ![Choisir les logiciels que l’utilisateur à accéder.](../images/91f6f422-2c85-4afd-944f-0021b2f6f109.png)
   
 > [!NOTE]
-> Si vous avez besoin voir quels sont les projets sont affectées à des personnes dans votre organisation, connectez-vous au nouveau centre d’administration Office 365 > **utilisateurs** > **utilisateurs actifs**. Sélectionnez la personne dans la liste, puis recherchez sous **licences de produits**. Si vous utilisez le centre d’administration Office 365 classique, regardez sous **licence affecté**. 
+> Si vous avez besoin voir quels sont les projets sont affectées à des personnes dans votre organisation, connectez-vous à nouveau Office 365 admin center > **utilisateurs** > **utilisateurs actifs**. Sélectionnez la personne dans la liste, puis recherchez sous **licences de produits**. Si vous utilisez le centre d’administration Office 365 classique, regardez sous **licence affecté**. 
   
 ### <a name="manually-deploying-skype-for-business-to-your-users"></a>Déploiement manuel de Skype pour les entreprises à vos utilisateurs
 <a name="bkmk_manual_1"> </a>
@@ -150,7 +151,7 @@ Vous pouvez contrôler la fréquence à laquelle vous obtenez les mises à jour 
   
 ## <a name="related-topics"></a>Rubriques connexes
 
-[Configurer Skype Entreprise Online](set-up-skype-for-business-online.md)
+[Configurer Skype entreprise Online](set-up-skype-for-business-online.md)
   
 [Licences de compléments pour Skype Entreprise et Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
   

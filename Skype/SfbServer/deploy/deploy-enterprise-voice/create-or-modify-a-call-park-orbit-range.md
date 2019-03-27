@@ -1,5 +1,6 @@
 ---
 title: Créer ou modifier une plage d’orbites de parcage d’appel dans Skype pour les entreprises
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 549ec118-eee5-4333-9416-80929ec057e0
 description: Créer ou modifier une table de plage des orbites de parcage d’appel dans Skype pour Business Server Enterprise Voice.
-ms.openlocfilehash: 6892c48c95b7c5e84242a1456855e869a70e532b
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 23de2c42ff7b7e8bf3c020eaf3bb5050524b87d3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370690"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896119"
 ---
 # <a name="create-or-modify-a-call-park-orbit-range-in-skype-for-business"></a>Créer ou modifier une plage d’orbites de parcage d’appel dans Skype pour les entreprises
 
@@ -75,11 +76,11 @@ Pour créer ou modifier une plage d’orbites de parcage d’appel, utilisez l�
 
 1. Ouvrez une session l’ordinateur où Skype pour Business Server Management Shell est installé en tant que membre du groupe RTCUniversalServerAdmins ou avec les droits utilisateur nécessaires comme indiqué dans **Déléguer des autorisations d’installation**.
 
-2. Démarrez Skype Entreprise Server Management Shell : cliquez successivement sur **Démarrer**, **Tous les programmes**, **Skype Entreprise 2015**, puis sur **Skype Entreprise Server Management Shell**.
+2. Démarrez le Skype pour Business Server Management Shell : cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Skype pour Business 2015**, puis cliquez sur **Skype pour Business Server Management Shell**.
 
-3. **New-CsCallParkOrbit** permet de créer une nouvelle plage de numéros d’orbite. **Set-CsCallParkOrbit** permet de modifier une plage de numéros d’orbites existante.
+3. Utilisez **New-CsCallParkOrbit** pour créer une plage de numéros d’orbite. Utilisez **Set-CsCallParkOrbit** pour modifier une plage existante de numéros d’orbite.
 
-    À partir de la ligne de commande, exécutez la commande suivante :
+    Dans la ligne de commande, exécutez la commande suivante :
 
    ```
    New-CsCallParkOrbit -Identity <name of orbit range> -NumberRangeStart <first number in orbit range> -NumberRangeEnd <last number in orbit range> -CallParkService <FQDN or service ID of the Application service that hosts the Call Park application>

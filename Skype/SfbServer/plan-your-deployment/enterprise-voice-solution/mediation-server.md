@@ -1,5 +1,6 @@
 ---
 title: Composant serveur de médiation dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5b19edef-4a54-43c9-aa12-5643b8108355
 description: 'Découvrez les serveurs de médiation Skype pour Business Server, y compris ses topologies prises en charge et ses relations à jonctions m : n, le contournement de média et contrôle d’admission des appels.'
-ms.openlocfilehash: 3f8b1e9fa1c1026c89fb67456e33ee0758140ee7
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 237892f446250332e00616dcc8a08abf9c59d741
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882280"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889167"
 ---
 # <a name="mediation-server-component-in-skype-for-business-server"></a>Composant serveur de médiation dans Skype pour Business Server
  
@@ -125,7 +126,7 @@ La figure suivante illustre une topologie simple où le serveur de médiation es
   
 **Exemple de sites connectés par une liaison de réseau étendu avec un serveur de médiation pour Site 1 et un PBX pour Site 2**
 
-![Topologie vocale - PBX WAN de serveur de médiation](../../media/Plan_LyncServer_Voice_Topo_MedSvrWanPbx.jpg)
+![Vocale PBX WAN de topologie Mediation Server](../../media/Plan_LyncServer_Voice_Topo_MedSvrWanPbx.jpg)
   
 La dernière figure dans cette rubrique illustre une topologie où le serveur de médiation est connecté à la SBC d’un fournisseur de services de téléphonie Internet. 
   
@@ -153,12 +154,12 @@ Si vous avez déployé des passerelles PSTN, IP-PBX ou contrôleurs de frontièr
     
 Vous pouvez utiliser le Microsoft Lync Server 2013, outil de planification pour évaluer si colocaliser le serveur de médiation avec votre pool frontal peut gérer la charge. Si votre environnement ne peut pas ces exigences, vous devez déployer un pool de serveur de médiation autonome.
   
-### <a name="central-site-and-branch-site-considerations"></a>Considérations relatives au site central et aux sites de succursale
+### <a name="central-site-and-branch-site-considerations"></a>Aspects relatifs au site central et aux sites de succursale
 
  Serveurs de médiation sur le site central peuvent servir à acheminer les appels pour IP-PBX ou des passerelles PSTN au niveau des sites de succursale. Toutefois, si vous déployez les jonctions SIP, vous devez déployer un serveur de médiation au niveau du site dans lequel chaque jonction se termine. Ayant un serveur de médiation au niveau du site central acheminer les appels d’un système IP-PBX ou d’une passerelle PSTN sur un site de succursale ne nécessite pas l’utilisation de supports de contournement. Cependant, si vous pouvez l’activer, vous pourrez réduire la latence du chemin d’accès des médias et améliorer la qualité des médias car le chemin d’accès des médias n’est plus nécessaire pour suivre le chemin de signalisation. Le contournement de média réduit également la charge de traitement sur le pool.
   
 > [!NOTE]
-> La déviation du trafic multimédia ne va pas interagir avec chaque passerelle RTC, chaque système IP-PBX et chaque contrôleur SBC. Microsoft a testé un ensemble de passerelles RTC et des contrôleurs SBC avec des partenaires certifiés et a effectué des tests avec des systèmes IP-PBX de Cisco. Le contournement de média est pris en charge uniquement avec les produits et les versions répertoriés au [Unified Communications programme Open Interoperability - Lync Server](https://go.microsoft.com/fwlink/p/?LinkId=268730). 
+> La déviation du trafic multimédia ne fonctionnera pas avec chaque passerelle RTC, système IP-PBX et SBC. Microsoft a testé une série de passerelles RTC et de SBC avec l’aide de partenaires agréés et a réalisé des tests avec les systèmes IP-PBX de Cisco. Le contournement de média est pris en charge uniquement avec les produits et les versions répertoriés au [Unified Communications programme Open Interoperability - Lync Server](https://go.microsoft.com/fwlink/p/?LinkId=268730). 
   
 Si la résilience de site de succursale est requise, un Survivable Branch Appliance ou une combinaison d’un serveur frontal, un serveur de médiation et une passerelle doit être déployé sur le site de succursale. (En partant du principe avec résilience de site de succursale est que de présence et de conférence ne sont pas résistantes au niveau du site.) Pour obtenir des instructions sur le site de succursale planification de voix, voir [Plan for Enterprise Voice resiliency dans Skype pour Business Server](enterprise-voice-resiliency.md).
   

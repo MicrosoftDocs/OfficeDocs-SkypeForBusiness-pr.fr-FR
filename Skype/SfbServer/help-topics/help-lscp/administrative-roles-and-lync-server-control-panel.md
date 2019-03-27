@@ -1,5 +1,6 @@
 ---
 title: Rôles administratifs et panneau de configuration Lync Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7d1ff1e0-eb89-4703-be50-71e94329d8b2
 description: Pour activer vous permet de déléguer des tâches administratives tout en conservant les normes de sécurité strictes, Skype pour Business Server prend en charge le contrôle d’accès basé sur un rôle (RBAC). Avec le contrôle d’accès basé sur un rôle, les droits d’administrateur sont accordés en affectant des rôles administratifs prédéfinis aux utilisateurs. Skype pour Business Server offre un large éventail de rôles d’administration prédéfinis et vous permet également de créer des rôles et de spécifier une liste personnalisée d’applets de commande pour chaque nouveau rôle. Vous pouvez également ajouter des scripts d’applets de commande aux tâches autorisées des rôles RBAC prédéfinis et personnalisés. Pour plus d’informations, y compris les rôles d’administration prédéfinis disponibles dans Skype pour Business Server, voir Role-Based Access Control.
-ms.openlocfilehash: 88a37f7fd6f083c66da22b57916d99aff7a3d0c0
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 7d47218314437320fba8d566cbe1010aab8a90b3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23254591"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896713"
 ---
 # <a name="administrative-roles-and-lync-server-control-panel"></a>Rôles administratifs et panneau de configuration Lync Server
 

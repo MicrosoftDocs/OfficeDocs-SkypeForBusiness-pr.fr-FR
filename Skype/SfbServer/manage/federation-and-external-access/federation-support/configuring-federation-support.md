@@ -1,5 +1,6 @@
 ---
-title: Configuration de prise en charge de la fédération pour un Skype pour les clients professionnels en ligne
+title: Configuration de la prise en charge de la fédération pour un client Skype Entreprise Online
+ms.reviewer: ''
 ms:assetid: e5f7f38d-ede5-4af3-88c2-026e8a78df12
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202193(v=OCS.15)
 ms:contentKeyID: 48185669
@@ -12,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'Si vous déployez Skype pour les entreprises dans votre organisation, vous pouvez vous fédérer avec les domaines d’un ou plusieurs Skype pour les clients professionnels en ligne. '
-ms.openlocfilehash: 978da18a4ae639e52dedd6971c1a2291c94cb9f1
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 70eda58c5d01b09c9f3e00ef8f3ac0391a90ed07
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223366"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899721"
 ---
 # <a name="configuring-federation-support-for-a-skype-for-business-online-customer-in-skype-for-business-server"></a>Configuration de prise en charge de la fédération pour un Skype pour client Business Online dans Skype pour Business Server 
 
@@ -70,7 +71,7 @@ Fédération avec un Skype pour les clients professionnels en ligne, vous devez 
     
       - **Identité** spécifie un identificateur de valeur de chaîne unique pour le fournisseur d’hébergement que vous créez. Notez que la commande échouera si un fournisseur existant a déjà été configuré avec ce paramètre Identity.
     
-      - **ProxyFQDN** Spécifie le nom de domaine complet (FQDN) du serveur proxy utilisé par le fournisseur d’hébergement. Cette valeur ne peut pas être modifiée. Si le fournisseur d’hébergement change de serveur proxy, vous devrez supprimer puis recréer l’entrée pour ce fournisseur.
+      - **ProxyFQDN** spécifie le nom de domaine complet du serveur proxy utilisé par le fournisseur d’hébergement. Cette valeur ne peut pas être modifiée. Si le fournisseur d’hébergement change de serveur proxy, vous devrez supprimer puis recréer l’entrée pour ce fournisseur.
     
       - **VerificationLevel** spécifie comment (ou si) les messages envoyés à partir d’un fournisseur d’hébergement sont vérifiés pour s’assurer qu’ils ont été envoyés par ce fournisseur.
     

@@ -1,5 +1,6 @@
 ---
-title: Sélectionnez le standard automatique de messagerie unifiée Exchange
+title: Sélectionner le standard automatique de la messagerie unifiée Exchange
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ce6764ce-c88f-4050-895e-d1d886106972
 description: Utilisez la boîte de dialogue Sélectionnez standard automatique Exchange UM pour sélectionner un standard automatique Exchange UM qui gèrera les appels entrants à une plage de numéros non attribués.
-ms.openlocfilehash: 376b2a5d4322c162e2c5f99088d8cb74653f9888
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5724c2fbdfc2caca986dfc2fea31d788b6a72955
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21011788"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892398"
 ---
-# <a name="select-exchange-um-auto-attendant"></a>Sélectionnez le standard automatique de messagerie unifiée Exchange
+# <a name="select-exchange-um-auto-attendant"></a>Sélectionner le standard automatique de la messagerie unifiée Exchange
  
 Utilisez la boîte de dialogue **Sélectionnez standard automatique Exchange UM** pour sélectionner un standard automatique Exchange UM qui gèrera les appels entrants à une plage de numéros non attribués.
   

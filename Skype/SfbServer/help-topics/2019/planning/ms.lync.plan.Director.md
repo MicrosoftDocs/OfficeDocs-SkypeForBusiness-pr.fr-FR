@@ -1,5 +1,6 @@
 ---
-title: Directeur (outil de planification)
+title: Director (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,14 +14,14 @@ localization_priority: Normal
 ms.assetid: 02795b46-21ec-4a85-9890-959c91d97df3
 ROBOTS: NOINDEX, NOFOLLOW
 description: Un directeur est un serveur exécutant Skype pour le logiciel de communication Business Server qui peut authentifier les demandes des utilisateurs, mais qui n’héberge pas des comptes d’utilisateurs.
-ms.openlocfilehash: e6210c6c4c6b4f92b99eb9287f82e6268db5df12
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 63af64f9b922d1c96a177498d1d60aa3df171a0b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21058271"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889753"
 ---
-# <a name="director-planning-tool"></a>Directeur (outil de planification)
+# <a name="director-planning-tool"></a>Director (Planning Tool)
  
 Un directeur est un serveur exécutant Skype pour le logiciel de communication Business Server qui peut authentifier les demandes des utilisateurs, mais qui n’héberge pas des comptes d’utilisateurs. 
   

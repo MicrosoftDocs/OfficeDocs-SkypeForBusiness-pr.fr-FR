@@ -1,5 +1,6 @@
 ---
 title: Modifier les paramètres de configuration jonction SIP dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7d68b09c-9ea0-43bd-997c-df887869d607
 description: 'Résumé : Découvrez comment modifier les paramètres de configuration de jonction SIP à l’aide de la Skype pour le panneau de configuration serveur Business.'
-ms.openlocfilehash: 176e685fd0eb2677854329640014528a24d8bebf
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 6fbae1279ec1734cd67269651c65dc7c278ca3a3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23888352"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898697"
 ---
 # <a name="modify-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Modifier les paramètres de configuration jonction SIP dans Skype pour Business Server
  

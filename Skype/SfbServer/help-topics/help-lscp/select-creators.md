@@ -1,5 +1,6 @@
 ---
 title: Sélection des créateurs
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f8d9ed6f-22ba-470e-b0b4-0da3cea5e961
 description: Création et gestion des salles de conversation permanente sont beaucoup plus facile avec l’utilisation correcte des catégories. Un administrateur de conversation permanente peut définir AllowedMembers et créateurs pour chaque catégorie et permettre également définir les paramètres de salle de conversation par défaut et les comportements qui seront appliquées à toutes les salles de conversation créées dans la catégorie. Persistent Chat créer et gérer les catégories à l’aide de Skype pour le panneau de configuration serveur Business ou Windows PowerShell cmdlets.
-ms.openlocfilehash: 11c0f0f0d186a63c3bbb66410227f945ec0c992c
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 85c9a2be4e2afcd28823bc656f18c733594b44b7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23261391"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896399"
 ---
 # <a name="select-creators"></a>Sélection des créateurs
 
@@ -27,9 +28,9 @@ Création et gestion des salles de conversation permanente sont beaucoup plus fa
 
 Dans la page **Sélectionner les créateurs**, vous pouvez effectuer les tâches suivantes :
 
-- [Configurer les catégories](https://technet.microsoft.com/library/4547f514-f0c0-404d-890f-092ddeeac852.aspx)
+- [Configure Categories](https://technet.microsoft.com/library/4547f514-f0c0-404d-890f-092ddeeac852.aspx)
 
-- [Nouvelles fonctionnalités de serveur de conversation permanente](https://technet.microsoft.com/library/c3ec6f33-6261-4bf5-aa31-baa8ab2a87d8.aspx)
+- [New Persistent Chat Server Features](https://technet.microsoft.com/library/c3ec6f33-6261-4bf5-aa31-baa8ab2a87d8.aspx)
 
 Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide de la Skype pour le panneau de configuration serveur Business, voir [Gérer les Skype pour Business Server 2015](../../manage/manage.md).
 
@@ -43,7 +44,7 @@ Pour plus d’informations sur les serveurs de conversation permanente des fonct
 
 ## <a name="see-also"></a>Voir aussi
 
-[Présentation de l’appartenance de conversation permanente](https://technet.microsoft.com/library/900392d6-6e9f-4dae-93d6-39d7474409ef.aspx)
+[Understanding Persistent Chat Membership](https://technet.microsoft.com/library/900392d6-6e9f-4dae-93d6-39d7474409ef.aspx)
 
 [Utilisation des catégories pour administrer le serveur de conversation permanente](https://technet.microsoft.com/library/dfcb3ad1-da90-467e-b08c-f4e68673b7b5.aspx)
 

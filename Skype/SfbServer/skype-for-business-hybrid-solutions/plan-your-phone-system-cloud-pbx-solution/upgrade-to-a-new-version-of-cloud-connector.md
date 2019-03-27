@@ -1,5 +1,6 @@
 ---
 title: Effectuer une mise à niveau vers une nouvelle version de Cloud Connector
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,14 +14,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: efbe25f2-faf5-41c7-8c95-dbc4a835a4a8
 description: Découvrez comment mettre à niveau votre déploiement en nuage connecteur Edition.
-ms.openlocfilehash: c0946cf26181df81327412c2dc0efc227b5a5586
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 5b3ca4b216bc376c9e23424fb978b5cd83e4aa41
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370626"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897649"
 ---
-# <a name="upgrade-to-a-new-version-of-cloud-connector"></a>Effectuer une mise à niveau vers une nouvelle version de Cloud Connector
+# <a name="upgrade-to-a-new-version-of-cloud-connector"></a>Upgrade to a new version of Cloud Connector
  
 Découvrez comment mettre à niveau votre déploiement en nuage connecteur Edition.
   
@@ -61,7 +62,7 @@ Mise à jour automatique requiert que le service nuage connecteur est en cours d
   - Nettoyez l’ancienne appliance puis basculez la connexion réseau vers la nouvelle appliance.
     
 > [!NOTE]
->  Lorsque nuage connecteur mises à jour vers une nouvelle version, cmdlets de connecteur de nuage ne peut pas mis à jour. Cela peut se produire, par exemple, si une fenêtre PowerShell reste ouverte pendant la mise à jour automatique. Pour charger les applets de commande mis à jour, vous pouvez effectuer une des opérations suivantes : > Fermer PowerShell sur le nuage connecteur appliance et rouvrez PowerShell. > ou bien, vous pouvez exécuter Import-Module CloudConnector-Force.
+>  Lorsque nuage connecteur mises à jour vers une nouvelle version, cmdlets de connecteur de nuage ne peut pas mis à jour. Cela peut se produire, par exemple, si une fenêtre PowerShell reste ouverte pendant la mise à jour automatique. Pour charger les applets de commande mis à jour, vous pouvez effectuer une de la fermer PowerShell de > : étapes suivantes sur le matériel de nuage connecteur et puis rouvrez ou PowerShell.>, vous pouvez exécuter Import-Module CloudConnector-Force.
   
 ## <a name="upgrade-a-single-site-to-a-new-version"></a>Mise à niveau d’un site unique vers une nouvelle version
 <a name="BKMK_Upgrade"> </a>
@@ -86,7 +87,7 @@ Si le site comporte un seul équipement que vous souhaitez mettre à niveau, pro
    Start-CcDownload
    ```
 
-6. Exécutez l’applet de commande suivante pour démarrer l’installation : 
+6. Exécutez l’applet de commande suivante pour démarrer l’installation :  
     
    ```
    Install-CcAppliance -Upgrade

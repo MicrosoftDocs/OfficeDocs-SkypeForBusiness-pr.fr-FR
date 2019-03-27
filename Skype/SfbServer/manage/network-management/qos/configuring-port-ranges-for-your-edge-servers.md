@@ -1,5 +1,6 @@
 ---
 title: Configuration des plages de ports et une qualité de Service pour vos serveurs Edge
+ms.reviewer: ''
 ms:assetid: 6f0ae442-6624-4e3f-849a-5b9e387fb8cf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204996(v=OCS.15)
 ms:contentKeyID: 48184469
@@ -12,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Cet article décrit comment configurer les plages de ports pour les serveurs Edge et comment configurer une stratégie de qualité de Service pour votre A / V les serveurs de périphérie.
-ms.openlocfilehash: b0f0b9c974b547004204a624840877aed71a02ff
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 11fdb542c6256c21e169480194bc5154bf1c1428
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223128"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886373"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-edge-servers-in-skype-for-business-server"></a>Configuration des plages de ports et d’une stratégie de qualité de Service pour vos serveurs Edge dans Skype pour Business Server
 
@@ -132,11 +133,11 @@ Si vous décidez de créer une stratégie pour gérer le trafic de partage d’a
 
   - Utiliser la plage de ports précédemment configuré pour le trafic vidéo. Par exemple, si vous avez réservé ports 40803 via et 49 151 partage d’application, définissez la plage de ports à ceci : **40803:49151**.
 
-Les nouvelles stratégies que vous avez créé ne prendra pas effet tant que la stratégie de groupe a été actualisée sur vos serveurs de périphérie. La stratégie de groupe s’actualise elle-même régulièrement, mais vous pouvez forcer une actualisation immédiate en exécutant la commande suivante sur chaque ordinateur sur lequel elle doit être actualisée :
+Les nouvelles stratégies que vous avez créé ne prendra pas effet tant que la stratégie de groupe a été actualisée sur vos serveurs de périphérie. Bien que la stratégie de groupe est actualisée régulièrement sur son propre, vous pouvez forcer une actualisation immédiate en exécutant la commande suivante sur chaque ordinateur où la stratégie de groupe doivent être actualisées :
 
     Gpudate.exe /force
 
-Cette commande peut être exécutée à partir de dans la Skype pour Business Server ou à partir de n’importe quelle fenêtre de commande s’exécutant sous les informations d’identification d’administrateur. Pour exécuter une fenêtre de commande, cliquez sur **Démarrer**, cliquez avec le bouton droit sur **Invite de commandes**, puis cliquez sur **Exécuter en tant qu’administrateur**. Notez que vous devrez peut-être redémarrer le serveur de périphérie même après l’exécution de Gpudate.exe.
+Cette commande peut être exécutée à partir de dans la Skype pour Business Server ou à partir de n’importe quelle fenêtre de commande s’exécutant sous les informations d’identification d’administrateur. Pour exécuter une fenêtre de commande sous informations d’identification d’administrateur, cliquez sur **Démarrer**, cliquez sur **invite de commandes**, puis cliquez sur **Exécuter en tant qu’administrateur**. Notez que vous devrez peut-être redémarrer le serveur de périphérie même après l’exécution de Gpudate.exe.
 
 Pour garantir que les paquets réseau sont marqués avec la valeur DSCP appropriée, vous devez également créer une nouvelle entrée de Registre sur chaque ordinateur en procédant comme suit :
 

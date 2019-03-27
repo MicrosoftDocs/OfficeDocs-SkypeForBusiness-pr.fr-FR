@@ -1,5 +1,6 @@
 ---
 title: Planifier les options Occupé pour Skype Entreprise Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -12,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5f85c6bc-a962-4283-971c-4380d83b3a66
 description: En savoir plus sur la fonctionnalité de disponibilité dans Skype pour Business Server.
-ms.openlocfilehash: 7b71cad7eebaf2d375098abfa0891cdf6b494fe9
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 41e34dbb4eaf4a264ba1cec3756cc53c78992611
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884785"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897976"
 ---
 # <a name="plan-for-busy-options-for-skype-for-business-server"></a>Planifier les options Occupé pour Skype Entreprise Server
  
@@ -27,7 +28,7 @@ Busy Options est une nouvelle stratégie de voix de la mise à jour cumulative d
   
 La stratégie Busy Options est prise en charge pour le basculement et la récupération d’urgence sur les pools frontaux associés et les serveurs Survivable Branch Server.
   
-Cette rubrique décrit la fonctionnalité Busy Options. Pour plus d’informations sur comment installer et configurer les Options de disponibilité, voir [installer et configurer les Options de disponibilité pour Skype pour Business Server](../../deploy/deploy-enterprise-voice/install-and-configure-busy-options.md).
+Cette rubrique décrit la fonctionnalité Busy Options. Pour savoir comment installer et configurer la fonctionnalité Busy Options, reportez-vous à [Install and configure Busy Options for Skype for Business Server](../../deploy/deploy-enterprise-voice/install-and-configure-busy-options.md).
   
 ## <a name="configuration-options"></a>Options de configuration
 

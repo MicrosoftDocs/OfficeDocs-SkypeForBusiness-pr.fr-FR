@@ -1,5 +1,6 @@
 ---
 title: Modification de Configuration journal de périphérique
+ms.reviewer: ''
 ms.author: SerdarS
 author: SerdarSoysal
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e534e6a5-fb3e-40b1-a189-fce64c42f512
 description: Vous pouvez ajouter une configuration de journal de périphérique à la page Modifier la configuration de journal qui détermine la taille maximale du cache du journal, la taille maximale du journal ou la durée pendant laquelle qu'un fichier journal sera conservé avant la purge. Vous pouvez modifier ces paramètres en fonction des besoins de votre organisation.
-ms.openlocfilehash: fac6dd8aae7c1081c268d35ea0336b41eb7c6f55
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 09d0bc24ad61be98864fd1f37964c01f1fba84ba
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20969993"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888265"
 ---
-# <a name="device-log-configuration-edit"></a>Configuration de fichier journal de périphérique : modifier
+# <a name="device-log-configuration-edit"></a>Configuration du fichier journal du périphérique : modifier
  
 Vous pouvez ajouter une configuration de journal de périphérique à la page **Modifier le paramètre de journal** qui détermine la taille maximale du cache du journal, la taille maximale du journal ou la durée pendant laquelle qu'un fichier journal sera conservé avant la purge. Vous pouvez modifier ces paramètres en fonction des besoins de votre organisation.
   

@@ -1,5 +1,6 @@
 ---
 title: Installer les éléments prérequis pour Skype pour Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -14,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2ef91a1e-2899-44c8-8e2c-527cb9114a0a
 description: 'Résumé : En savoir plus sur les serveurs et les rôles de serveur que vous devez configurer avant d’installer Skype pour Business Server. Téléchargez une version d’évaluation gratuite de Skype pour Business Server depuis le centre d’évaluation Microsoft à : https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: 11a4d4240415dc11ce42ceb8f9643b52c91c9e2c
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: 0efa8a7fb06c1577d1b55fe42bfe88ca238e485e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297633"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894662"
 ---
 # <a name="install-prerequisites-for-skype-for-business-server"></a>Installer les éléments prérequis pour Skype pour Business Server
  
@@ -52,13 +53,13 @@ Vous pouvez installer les rôles requis et les fonctionnalités à l’aide du G
 1. Installer les fonctionnalités de logiciels répertoriées dans la [configuration serveur requise pour Skype pour Business Server](../../../SfBServer2019/plan/system-requirements.md). Les logiciels requis doivent se trouver sur le serveur qui exécutera Skype pour Business Server.
     
     > [!CAUTION]
-    > Windows Server 2012 R2 n’installe pas tous les fichiers source pour les fonctionnalités requises par défaut. Si le serveur n’est pas connecté à internet, vous devrez installer le média Windows Server 2012 R2 et sélectionner **Spécifier un autre chemin d’accès source** afin d’installer les fonctionnalités requises. Les fichiers source se trouvent dans le répertoire sources\sxs. Par exemple, si le média Windows Server 2012 R2 se trouve dans le lecteur D, sélectionnez le chemin d’accès vers `d:\sources\sxs`. Il est important que vous ayez les dernières mises à jour de Windows Update. Si vous n’êtes pas connecté à internet, vous devrez installer manuellement toutes les mises à jour appropriées et toutes les conditions préalables pour les mises à jour requises. 
+    > Windows Server 2012 R2 n’installe pas tous les fichiers source pour les fonctionnalités requises par défaut. Si le serveur n’est pas connecté à internet, vous devrez installer le média Windows Server 2012 R2 et sélectionner **Spécifier un autre chemin d’accès source** afin d’installer les fonctionnalités requises. Les fichiers source se trouvent dans le répertoire sources\sxs. Par exemple, si le support de Windows Server 2012 R2 est dans le lecteur D, définir le chemin d’accès `d:\sources\sxs`. Il est important que vous ayez les dernières mises à jour de Windows Update. Si vous n’êtes pas connecté à internet, vous devrez installer manuellement toutes les mises à jour appropriées et toutes les conditions préalables pour les mises à jour requises. 
   
 1. Lorsque la boîte de dialogue indiquera que l’installation a bien été effectuée, vous devrez redémarrer le serveur pour terminer le processus.
     
 1. Réexécutez **Windows Update** pour vérifier les mises à jour pour les rôles et services qui ont été installés.
     
-1. Si vous utilisez Skype pour le panneau de configuration serveur Business sur ce serveur vous devez également installer Silverlight. Pour installer Silverlight, reportez-vous à [Microsoft Silverlight](https://www.microsoft.com/silverlight/).
+1. Si vous utilisez Skype pour le panneau de configuration serveur Business sur ce serveur vous devez également installer Silverlight. Pour installer Silverlight, voir [Microsoft Silverlight](https://www.microsoft.com/silverlight/).
 
 
 > [!IMPORTANT]

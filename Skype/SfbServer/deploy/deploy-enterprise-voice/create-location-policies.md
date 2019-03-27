@@ -1,5 +1,6 @@
 ---
 title: Créer des stratégies d’emplacement dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f1878194-c756-4794-8fa1-15dd2118b4b3
 description: Lisez cette rubrique pour savoir comment configurer améliorée des stratégies d’emplacement de service d’urgence (E9-1-1) dans Skype pour Business Server Enterprise Voice.
-ms.openlocfilehash: 1de62f6ab24002b42afa3f0afeab3f0fe35edd33
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 2e3c25586c09e8cb517f781ec9e9dc33c58d81da
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370744"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897983"
 ---
 # <a name="create-location-policies-in-skype-for-business-server"></a>Créer des stratégies d’emplacement dans Skype pour Business Server
 
@@ -47,14 +48,14 @@ Pour plus d’informations, voir [planifier des stratégies d’emplacement pour
 | PstnUsage  <br/>                          | **EmergencyUsage** <br/>                                                                                                                                                           |
 | EmergencyDialString  <br/>                | **911** <br/>                                                                                                                                                                      |
 | EmergencyDialMask  <br/>                  | **112** <br/>                                                                                                                                                                      |
-| NotificationUri  <br/>                    | <strong>SIP:Security@litwareinc.com</strong> <br/>                                                                                                                                 |
-| ConferenceUri  <br/>                      | <strong>SIP:+14255550123@litwareinc.com</strong> <br/>                                                                                                                             |
+| NotificationUri  <br/>                    | <strong>sip:security@litwareinc.com</strong> <br/>                                                                                                                                 |
+| ConferenceUri  <br/>                      | <strong>sip:+14255550123@litwareinc.com</strong> <br/>                                                                                                                             |
 | ConferenceMode  <br/>                     | **twoway** <br/>                                                                                                                                                                   |
 | LocationRefreshInterval  <br/>            | **2** <br/>                                                                                                                                                                        |
 
 ### <a name="to-create-location-policies"></a>Pour créer des stratégies d’emplacement
 
-1. Démarrez Skype Entreprise Server Management Shell : cliquez successivement sur **Démarrer**, **Tous les programmes**, **Skype Entreprise 2015**, puis sur **Skype Entreprise Server Management Shell**.
+1. Démarrez le Skype pour Business Server Management Shell : cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Skype pour Business 2015**, puis cliquez sur **Skype pour Business Server Management Shell**.
 
     > [!NOTE]
     > CsLocationPolicy échouera si le paramètre pour **PstnUsage** ne figure pas déjà dans la liste Global de PstnUsages.

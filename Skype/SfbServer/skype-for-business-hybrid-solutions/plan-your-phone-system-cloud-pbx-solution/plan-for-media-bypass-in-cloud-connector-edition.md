@@ -1,5 +1,6 @@
 ---
 title: Planification de la déviation du trafic multimédia dans la version Cloud Connector
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e69ac58c-e8fe-40bc-a4c8-f0a0190fbaa7
 description: Consultez cette rubrique pour consulter les facteurs de planification pour implémenter la déviation du trafic multimédia avec les versions 2.0 et suivantes de Cloud Connector. Pour plus d’informations sur le déploiement de médias contournement de média, voir Deploy multimédia dans le nuage connecteur Edition de contournement.
-ms.openlocfilehash: a3cfaea8d963efa4f7774b8b589fcd0ecc61d3bc
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 6ddaec00925d5eea7d7c82d89f0324958c87abb9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371000"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896020"
 ---
 # <a name="plan-for-media-bypass-in-cloud-connector-edition"></a>Planification de la déviation du trafic multimédia dans la version Cloud Connector
  
@@ -32,7 +33,7 @@ La déviation du trafic multimédia peut améliorer la qualité de la voix en di
   
 ## <a name="how-media-bypass-affects-media-and-signaling-pathways"></a>Comment la déviation du trafic multimédia influe sur les médias et les voies de signalisation
 
-Bien que la signalisation prenne le même chemin avec ou sans la déviation du trafic multimédia, le trafic multimédia diffère. Les schémas suivants montrent des médias et des voies de signalisation dans des topologies avec et sans déviation du trafic multimédia.  
+Bien que la signalisation prenne le même chemin avec ou sans la déviation du trafic multimédia, le trafic multimédia diffère. Les schémas suivants montrent des médias et des voies de signalisation dans des topologies avec et sans déviation du trafic multimédia.   
   
 Par exemple, dans la topologie suivante : qui n’ignore pas les médias utilisent — une Skype pour Business client effectue un appel PSTN vers un numéro externe, la signalisation SIP accède à Office 365 et Office 365 puis la dirige le trafic de signalisation en fonction de la voix de l’utilisateur final stratégie. Pour les utilisateurs de nuage connecteur, la stratégie de voix dirige le trafic de signalisation pour le serveur Edge sur le nuage connecteur, puis achemine le trafic de signalisation à un contrôleur de frontière de Session RTC (SBC) ou une passerelle via le serveur de médiation dans le nuage connecteur. Multimédia s’enchaîne de la Skype pour client d’entreprise pour le serveur de médiation dans le nuage connecteur, puis vers le contrôleur SBC ou passerelle, comme indiqué dans le diagramme suivant :
   
@@ -48,7 +49,7 @@ Dans la topologie suivante : qui utilisent le contournement de média : signal
 
 ![signalisation avec déviation du trafic multimédia](../../media/60400c38-4921-4964-89f2-5e53b68fb497.png)
   
-## <a name="multi-site-scenario-and-media-bypass"></a>Scénario multisite et déviation du trafic multimédia
+## <a name="multi-site-scenario-and-media-bypass"></a>Scénario multisite et déviation du trafic multimédia  
 
 Le contournement de média est également utile lorsque vous souhaitez fournir des services de téléphonie sur plusieurs sites à l’aide d’une solution de nuage connecteur unique. Comme dans le nuage connecteur ne peut pas acheminer les appels en fonction de leur source ou de destination, la plupart des entreprises déploient un contrôleur SBC ou une passerelle derrière nuage connecteur pour prendre des décisions de routage. Dans ce scénario, la déviation du trafic multimédia élimine le saut entre le client et le SBC central ou la passerelle centrale, comme indiqué sur le schéma ci-après :
   
@@ -85,7 +86,7 @@ Pour la version actuelle des clients de différents canaux, voir [Release des in
 
 Sans contournement de média et en fonction du matériel — une appliance nuage connecteur peut gérer de 50 à 500 appels simultanés nécessitant multimédia permettent de parcourir un serveur de médiation. Pour plus d’informations, voir [planifier Skype pour l’édition de connecteur Business Cloud](https://technet.microsoft.com/en-us/library/mt605227.aspx). 
   
-Avec la déviation du trafic multimédia activée, les clients internes sur la version prise en charge n'utilisent pas le serveur de médiation, donc le nombre de clients internes peut augmenter de manière significative. 
+Avec la déviation du trafic multimédia activée, les clients internes sur la version prise en charge n'utilisent pas le serveur de médiation, donc le nombre de clients internes peut augmenter de manière significative.  
   
 Comme mentionné ci-dessus, les clients externes ou non prises en charge de clients utilisera les serveurs Edge du connecteur sur le nuage et de médiation pour le média. Lors du calcul de combien d’appliances nuage connecteur doit être placé dans un site, vous devez prendre en compte le trafic en provenance des utilisateurs externes et sur les clients non pris en charge.
   
@@ -108,7 +109,7 @@ Par exemple, dans le diagramme ci-dessous, les utilisateurs en Europe doivent ê
   
 ## <a name="codecs-used-in-media-bypass"></a>Codecs utilisés dans la déviation du trafic multimédia
 
-Lorsque la déviation du trafic multimédia est activée, le trafic multimédia entre un client et un SBC ou une passerelle utilise le codec G.711. 
+Lorsque la déviation du trafic multimédia est activée, le trafic multimédia entre un client et un SBC ou une passerelle utilise le codec G.711.  
   
 ## <a name="see-also"></a>Voir aussi
 

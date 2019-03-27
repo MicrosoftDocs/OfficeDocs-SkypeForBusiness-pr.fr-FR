@@ -1,5 +1,6 @@
 ---
 title: Configuration des certificats et des stratégies d’accès de passerelle XMPP
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'La fédération XMPP définit un déploiement externe en fonction des eXtensible Messaging et présence protocole XMPP (). Une configuration XMPP permet aux utilisateurs d’accéder à des utilisateurs de domaine XMPP par :'
-ms.openlocfilehash: 2ec2440365907632523728238c51cc90e894c84e
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 65ef8904660eaa75ddd10238a6561ea91b9f7278
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25027857"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889972"
 ---
 # <a name="configure-xmpp-gateway-access-policies-and-certificates"></a>Configuration des certificats et des stratégies d’accès de passerelle XMPP
 

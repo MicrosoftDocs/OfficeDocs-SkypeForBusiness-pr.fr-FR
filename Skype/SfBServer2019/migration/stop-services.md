@@ -1,5 +1,6 @@
 ---
 title: Arrêter les services hérités
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Vous pouvez utiliser Skype pour Business Server Control Panel pour démarrer ou arrêter les services hérités en cours d’exécution sur un ordinateur spécifique ou pour démarrer ou arrêter un service spécifique hérité.
-ms.openlocfilehash: b0a0ee72ed78ec024dceacf44acb270d337fe407
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 237d0dcd44855bbea9ea1b084df429946e8f5f15
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25029880"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895789"
 ---
 # <a name="stop-legacy-services"></a>Arrêter les services hérités
 

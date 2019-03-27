@@ -1,5 +1,6 @@
 ---
 title: Connexions SIP directes dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0a37737d-9628-4e36-b27b-c134fa5a3882
 description: Connexions SIP directes sont prises en charge entre Skype pour Business Server et les passerelles PSTN et IP-PBX dans Enterprise Voice.
-ms.openlocfilehash: 041009c5299f441e1b0e1a05c2af1e855f13f2b8
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 1ddcf66fb19f39661ffdd4cffdff754999db90d3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374580"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890128"
 ---
 # <a name="direct-sip-connections-in-skype-for-business-server"></a>Connexions SIP directes dans Skype pour Business Server
 

@@ -1,5 +1,6 @@
 ---
 title: Développeur des paramètres généraux du serveur d’archivage
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 0b820af7-8d00-42e2-979c-dbae17159a08
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Dans le générateur de topologie, vous pouvez modifier les propriétés d’un serveur individuel exécutant l’archivage en cliquant sur le serveur avec le bouton droit dans l’arborescence de la console, puis sur Action dans la barre d’outils ou en cliquant sur une tâche dans le volet Actions, puis sur Modifier les propriétés pour modifier l’une des options suivantes :'
-ms.openlocfilehash: 6419b7b4fff2c533a0dc91ab0819b0a58044447d
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 9f68ed29d1ff58e3c89c5b5e50e83e8a8730a338
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21060111"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899707"
 ---
 # <a name="archiving-server-general-settings-expander"></a>Développeur des paramètres généraux du serveur d’archivage
  

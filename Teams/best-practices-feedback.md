@@ -1,5 +1,6 @@
 ---
 title: Recommandation de méthodes de demande de commentaires des utilisateurs dans Microsoft Teams
+ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -14,19 +15,19 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ee84c8d3c841f7b6e0a8a1ddc6287ecd27c0b898
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: e29c76018f024559d90ff4d07b7dd102a0747b11
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30568447"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892532"
 ---
 <a name="best-practices-for-user-feedback-methods-in-microsoft-teams"></a>Recommandation de méthodes de demande de commentaires des utilisateurs dans Microsoft Teams
 ===========================================================
 
 L'adoption d'une nouvelle expérience de collaboration consiste à modifier le comportement de vos utilisateurs. Le changement du comportement des personnes requiert des formations, des encouragements et des exemples positifs. Il est également essentiel pour les personnes de se sentir écoutées pendant la transition. Si vous avez déjà établi des méthodes de demande de commentaires qui ont fait leurs preuves dans votre organisation, envisagez de les étendre pour inclure votre implémentation de Teams. Si ce n'est pas le cas, envisagez d'appliquer l'une des approches suivantes :
 
--   Création d'une équipe publique dans Microsoft Teams que tout utilisateur peut rejoindre pour fournir des commentaire sur son expérience (n'oubliez pas que les groupes publics sont actuellement limités à 2 500 utilisateurs)
+-   Création d’une équipe public au sein de Microsoft Teams que n’importe quel utilisateur peut rejoindre pour fournir des commentaires sur leur expérience (en gardant à l’esprit que groupes publics est limitée à 5 000 utilisateurs).
 
 -   Utilisation de Yammer pour mettre en place une communauté ouverte pour fournir des meilleures pratique et un support.
 

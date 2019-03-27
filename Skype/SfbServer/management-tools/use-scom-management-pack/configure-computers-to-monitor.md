@@ -1,5 +1,6 @@
 ---
 title: Configuration des ordinateurs Skype Entreprise Server qui seront surveillés
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b24ea184-4b3e-4277-a244-157afb4b368b
 description: 'Résumé : Installez les fichiers de l’agent Operations Manager sur le Skype pour ordinateur Business Server 2015 à surveiller et configurer l’ordinateur d’agir comme un proxy de System Center.'
-ms.openlocfilehash: 047f362cc799f46a000fb8aa3a314bb189305e2c
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 55d862517eeaad6fbfb567fe4327c375fc1ce2e1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23262462"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895019"
 ---
 # <a name="configure-the-skype-for-business-server-computers-that-will-be-monitored"></a>Configuration des ordinateurs Skype Entreprise Server qui seront surveillés
 
@@ -55,7 +56,7 @@ Si vous déployez un agent dans un de ces emplacements, vous devez également de
 
 11. Cliquez sur **Quitter**.
 
-Pour System Center 2012, vous pouvez vérifier que l’agent a été créé en cliquant sur **Démarrer**, sur **Tous les programmes**, cliquez sur **System Center Operations Manager 2012**, puis en cliquant sur **Interface d’Operations Manager 2012**. Dans l’interpréteur de commandes d’Operations Manager, tapez la commande Windows PowerShell suivante, puis appuyez sur Entrée :
+Pour System Center 2012, vous pouvez vérifier que l’agent a été créé en cliquant sur **Démarrer**, sur **Tous les programmes**, cliquez sur **System Center Operations Manager 2012**, puis en cliquant sur **Interface d’Operations Manager 2012**. In the Operations Manager Shell, type the following Windows PowerShell command, and then press ENTER:
 ```
 Get-SCOMAgent
 ```

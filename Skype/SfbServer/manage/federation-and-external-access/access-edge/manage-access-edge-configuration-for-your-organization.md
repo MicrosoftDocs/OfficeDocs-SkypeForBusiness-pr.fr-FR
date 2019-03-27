@@ -1,5 +1,6 @@
 ---
 title: Gestion de la configuration du serveur Edge d’accès pour votre organisation
+ms.reviewer: ''
 ms:assetid: 0145eb08-984f-4ecd-bf9c-364817619c2a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552443(v=OCS.15)
 ms:contentKeyID: 48679555
@@ -12,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Après avoir déployé un ou plusieurs serveurs de périphérie, vous devez activer les types de domaine externe ou fournisseur l’accès, l’accès des utilisateurs distants et l’accès des utilisateurs anonymes aux conférences via les serveurs de périphérie qui sera prise en charge pour votre organisation.
-ms.openlocfilehash: 40fdbd6e728276897e4901c849dc0e2284635ecf
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 8428815a0f3d89124d1b5e681b79924171916f6d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222918"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896916"
 ---
 # <a name="manage-access-edge-configuration-for-your-organization"></a>Gestion de la configuration du serveur Edge d’accès pour votre organisation
 

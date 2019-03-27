@@ -1,5 +1,6 @@
 ---
 title: Configuration du fichier journal du périphérique
+ms.reviewer: ''
 ms.author: SerdarS
 author: SerdarSoysal
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: c9b81f20-ce8c-40f1-8bed-50775cc35e58
 ROBOTS: NOINDEX, NOFOLLOW
 description: Le service web de mise à jour des appareils crée automatiquement des fichiers journaux qui enregistrent l’activité de mise à jour des appareils. Dans le cadre de la stratégie de gestion des données de votre organisation, vous souhaiterez peut-être définir des seuils pour la taille de cache de données, taille du fichier journal ou la durée pendant laquelle qu'un fichier journal sera conservé avant la purge. Vous pouvez modifier ces paramètres en fonction des besoins de votre organisation. Si vous ne souhaitez pas que le service web de mise à jour des appareils supprime définitivement et automatiquement les fichiers journaux, vous pouvez les supprimer manuellement, au besoin. Les paramètres des journaux peuvent être modifiés au niveau global ou par site.
-ms.openlocfilehash: c9e7c28b20309b8de5f2f35466125aa4f863b6d8
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 68e5e7d569f3a0436f80bb081b0785e5278bcb0d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23250751"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892391"
 ---
 # <a name="device-log-configuration"></a>Configuration du fichier journal du périphérique
 
@@ -59,4 +60,4 @@ Les listes ci-dessous décrivent les menus, les commandes, les champs et les pro
 
 ## <a name="see-also"></a>Voir aussi
 
-[Modifier les paramètres pour les fichiers journaux d’activité de mise à jour de périphérique](https://technet.microsoft.com/library/9b57f126-1853-43b3-bbd4-06401e6498bd.aspx)
+[Modify Settings for Log Files of Device Update Activity](https://technet.microsoft.com/library/9b57f126-1853-43b3-bbd4-06401e6498bd.aspx)

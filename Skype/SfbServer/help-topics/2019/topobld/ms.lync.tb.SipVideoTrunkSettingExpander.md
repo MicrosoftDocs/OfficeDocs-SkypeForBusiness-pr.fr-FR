@@ -1,5 +1,6 @@
 ---
 title: Extenseur des paramètres de jonction vidéo SIP (Session Initiation Protocol)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 39e21ee3-3b4e-4ef3-b977-5abeec63bcff
 ROBOTS: NOINDEX, NOFOLLOW
 description: Les étapes nécessaires pour définir un nouveau rapport ou passerelle vidéo dans le Générateur de topologie sont décrites en ligne dans créer un pool VIS dans Skype pour Business Server.
-ms.openlocfilehash: 8c6ec1a98cd9de63b568368b6363f8cdb1fc1ebb
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 01b394a9bd8e3ba304e67b762e81750bddd3af1a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21067577"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895250"
 ---
 # <a name="sip-video-trunk-setting-expander"></a>Extenseur des paramètres de jonction vidéo SIP (Session Initiation Protocol)
  

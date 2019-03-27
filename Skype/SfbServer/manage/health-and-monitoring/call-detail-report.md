@@ -1,5 +1,6 @@
 ---
 title: Rapport détaillé des appels dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 38862e35-3fec-41b9-a035-0b301942d446
 description: 'Résumé : Découvrez les Call Detail Report utilisés dans Skype pour Business Server.'
-ms.openlocfilehash: 3f560a2d4217b5afd61036b39100b39888fe577a
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a0b0836099e1181a25b95bf7adbbe603ef7d5e5f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20978881"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887651"
 ---
 # <a name="call-detail-report-in-skype-for-business-server"></a>Rapport détaillé des appels dans Skype pour Business Server
  

@@ -1,5 +1,6 @@
 ---
 title: Planification de la messagerie instantanée et présence dans Skype Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 70d2151e-9382-485d-ab14-758597571a74
 description: 'Résumé : Découvrez comment planifier pour la messagerie instantanée et présence dans Skype Business Server.'
-ms.openlocfilehash: e68a7b427545105db9ed543e2f1ad77411ba88b7
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 8d26ad08242248f08e2e54ba7e46d2aa112e362a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21002232"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898207"
 ---
 # <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server"></a>Planification de la messagerie instantanée et présence dans Skype Business Server
  
@@ -36,7 +37,7 @@ La messagerie instantanée et la présence s’exécutent en permanence sur les 
   
 ### <a name="enabling-communication-with-external-users"></a>Activation des communications avec les utilisateurs externes
 
-Vous tirerez beaucoup plus profit de votre investissement dans Skype Entreprise Server en permettant à vos utilisateurs de communiquer avec des utilisateurs externes. Exemples d’utilisateurs externes :
+Vous pouvez augmenter considérablement les avantages de votre investissement dans Skype pour Business Server en activant les utilisateurs à communiquer avec des utilisateurs externes. Exemples d’utilisateurs externes :
   
 - Les utilisateurs distants : vos utilisateurs de l’organisation, lorsqu’ils sont trouvent en dehors de vos pare-feu et utilisent leur ordinateur portable ou autres Skype pour les appareils Business Server.
     
@@ -48,16 +49,16 @@ Vous tirerez beaucoup plus profit de votre investissement dans Skype Entreprise 
 > AOL, Yahoo et Google Talk ne sont plus pris en charge. 
   
 > [!NOTE]
-> Pour activer un scénario ou l’ensemble d’entre eux, vous devez déployer un serveur Edge pour renforcer la sécurité des communications entre votre déploiement Skype Entreprise et les utilisateurs externes. Les utilisateurs distants de votre organisation et les utilisateurs dans les organisations fédérées sera en mesure de voir la présence de l’autre et communiquer à l’aide de la messagerie instantanée. 
+> Pour activer un ou plusieurs de ces scénarios, vous devez déployer un serveur Edge pour vous aider à activer les communications sécurisées entre votre Skype pour le déploiement de serveur d’entreprise et les utilisateurs externes. Les utilisateurs distants de votre organisation et les utilisateurs dans les organisations fédérées sera en mesure de voir la présence de l’autre et communiquer à l’aide de la messagerie instantanée. 
   
 > [!NOTE]
 > Le protocole XMPP (Extensible Messaging and Presence Protocol) est pris en charge uniquement pour les scénarios de certification JITC (Joint Interoperability Test Command) UCCP (Unified Capabilities Collaboration Platform). 
   
 ### <a name="archiving-im-content"></a>Archivage du contenu de la messagerie instantanée
 
-Skype Entreprise Server offre des fonctionnalités utiles si votre organisation doit respecter des réglementations en matière de conformité. Vous pouvez utiliser la fonctionnalité d’archivage pour archiver le contenu des messages instantanés soit pour tous les utilisateurs de votre organisation, soit uniquement pour ceux que vous indiquez. Pour plus d’informations, voir [planifier l’archivage dans Skype pour Business Server](archiving/archiving.md). 
+Skype pour Business Server fournit des fonctionnalités que vous pouvez utiliser si votre organisation doit respecter les réglementations de conformité. Vous pouvez utiliser la fonctionnalité d’archivage pour archiver le contenu des messages instantanés soit pour tous les utilisateurs de votre organisation, soit uniquement pour ceux que vous indiquez. Pour plus d’informations, voir [planifier l’archivage dans Skype pour Business Server](archiving/archiving.md). 
   
-Si vous avez également déployé Microsoft Exchange Server 2013, vous pouvez intégrer l’archivage des données Exchange avec l’archivage des données Skype Entreprise Server, puis utiliser le même outil pour effectuer des recherches dans ces deux types de données archivées. Pour plus d’informations, voir [Configurer les Skype pour Business Server utilisant l’archivage d’Exchange Server](../deploy/integrate-with-exchange-server/use-exchange-archiving.md).
+Si vous avez également déployé Microsoft Exchange Server 2013, vous pouvez intégrer l’archivage des données Exchange avec l’archivage des Skype pour les données métiers et utiliser un seul outil pour rechercher les deux types de données archivées. Pour plus d’informations, voir [Configurer les Skype pour Business Server utilisant l’archivage d’Exchange Server](../deploy/integrate-with-exchange-server/use-exchange-archiving.md).
   
 ### <a name="topologies-and-components"></a>Topologies et composants
 

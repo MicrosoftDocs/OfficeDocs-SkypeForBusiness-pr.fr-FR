@@ -1,5 +1,6 @@
 ---
 title: Configurer une jonction sans contournement de média dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3422e93e-7bd2-4470-968c-dc38345b18ca
 description: 'Résumé : Configurez une jonction sans contournement de média activé pour Skype pour Business Server.'
-ms.openlocfilehash: 0efd8452a6e4f227ad05cc667a48d3881f7238c9
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 25bb4a71983fa6f31ac85a1b2a8f4624219b36c9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373201"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886839"
 ---
 # <a name="configure-a-trunk-without-media-bypass-in-skype-for-business-server"></a>Configurer une jonction sans contournement de média dans Skype pour Business Server
 
@@ -45,7 +46,7 @@ Une configuration de jonction, comme indiqué dans la suite de cette rubrique, r
    - **Jonction de pool**: choisissez le nom du segment auquel s’applique cette configuration de jonction dans **Sélectionner un Service** , cliquez sur **OK**. Cette jonction peut être la jonction racine, ou les jonctions supplémentaires définies dans le Générateur de topologie. Notez que si une configuration de tronçon a déjà été créée pour une jonction spécifique, la jonction n’apparaît pas dans la zone **Sélectionner un Service**.
 
      > [!NOTE]
-     > Une fois que l’étendue de la configuration de jonction est sélectionnée, elle ne peut plus être modifiée. > Le champ **nom** est prédéfinie avec le nom d’associé site de la configuration jonction ou service et ne peut pas être modifié.
+     > Une fois que l’étendue de la configuration de jonction est sélectionnée, elle ne peut plus être modifiée. > le champ **nom** est prédéfinie avec le nom d’associé site de la configuration jonction ou service et ne peut pas être modifié.
 
 4. Sélectionnez l’une des options de **Niveau de prise en charge du chiffrement** :
 
@@ -107,7 +108,7 @@ Une configuration de jonction, comme indiqué dans la suite de cette rubrique, r
      > [!IMPORTANT]
      > Il est important d’associer des enregistrements d’utilisation PSTN en fonction de l’homologue du serveur de médiation qui est associé à la jonction en cours de configuration. Si l’homologue du serveur de médiation est une passerelle PSTN ou un contrôleur de Session en périphérie (SBC), il est fortement recommandé que la configuration de jonction n’est pas associée à un enregistrement d’utilisation PSTN qui achemine vers une destination PSTN ou tous les autres systèmes en aval connecté via Skype pour un serveur d’entreprise.
 
-9. Organisez les enregistrements d’utilisation RTC pour obtenir des performances optimales. Pour modifier la position d’un enregistrement dans la liste, sélectionnez l’enregistrement d’utilisation PSTN et cliquez sur l’ou les flèches vers le bas.
+9. Organisez les enregistrements d’utilisation RTC pour bénéficier de performances optimales. Pour modifier la position d’un enregistrement dans la liste, sélectionnez l’enregistrement d’utilisation PSTN et cliquez sur l’ou les flèches vers le bas.
 
     > [!IMPORTANT]
     > L’ordre des enregistrements d’utilisation RTC dans la liste de la configuration de jonction a son importance. Skype pour Business Server parcourt la liste du haut vers le bas.
@@ -126,9 +127,9 @@ Une configuration de jonction, comme indiqué dans la suite de cette rubrique, r
 
     - Pour définir une nouvelle règle de conversion et l’associer à la jonction, cliquez sur **Nouvelle**. Pour plus d’informations sur les règles de traduction, consultez [règles de traduction dans Skype pour Business Server](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md).
 
-    - Pour modifier une règle de conversion déjà associée à la jonction, cliquez sur le nom de la règle, puis sur **Afficher les détails**.
+    - Pour modifier une règle de conversion déjà associée à la jonction, sélectionnez le nom de la règle, puis sur **Afficher les détails**.
 
-    - Pour copier une règle de conversion existante à utiliser comme point de départ pour définir une nouvelle règle, sélectionnez le nom de la règle et cliquez sur **Copier**, puis sur **Coller**.
+    - Pour copier une règle de conversion existante à utiliser comme point de départ pour définir une nouvelle règle, sélectionnez le nom de la règle, sur **Copier**, puis sur **Coller**.
 
     - Pour supprimer une règle de conversion de la jonction, sélectionnez le nom de la règle et cliquez sur **Supprimer**.
 
@@ -141,9 +142,9 @@ Une configuration de jonction, comme indiqué dans la suite de cette rubrique, r
 
     - Pour définir une nouvelle règle de conversion et l’associer à la jonction, cliquez sur **Nouvelle**. Pour plus d’informations sur les règles de traduction, consultez [règles de traduction dans Skype pour Business Server](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md).
 
-    - Pour modifier une règle de conversion déjà associée à la jonction, cliquez sur le nom de la règle, puis sur **Afficher les détails**.
+    - Pour modifier une règle de conversion déjà associée à la jonction, sélectionnez le nom de la règle, puis sur **Afficher les détails**.
 
-    - Pour copier une règle de conversion existante à utiliser comme point de départ pour définir une nouvelle règle, sélectionnez le nom de la règle et cliquez sur **Copier**, puis sur **Coller**.
+    - Pour copier une règle de conversion existante à utiliser comme point de départ pour définir une nouvelle règle, sélectionnez le nom de la règle, sur **Copier**, puis sur **Coller**.
 
     - Pour supprimer une règle de conversion de la jonction, sélectionnez le nom de la règle et cliquez sur **Supprimer**.
 

@@ -1,5 +1,6 @@
 ---
-title: Ajouter une URL Simple
+title: Ajouter une URL simple
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,18 +13,18 @@ localization_priority: Normal
 ms.assetid: 202b9fa2-41ab-4c86-a283-ebc8dece7ddf
 ROBOTS: NOINDEX, NOFOLLOW
 description: Pour ajouter des URL simples supplémentaires à la définition du déploiement, spécifiez l’URL de la nouvelle URL simple.
-ms.openlocfilehash: ef26dc814340f9dd2acfa57290d5493946ba5f15
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 393f5b39ea19a156f814a4c3dc5b0a13aab35fce
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21061156"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898344"
 ---
-# <a name="add-simple-url"></a>Ajouter une URL Simple
+# <a name="add-simple-url"></a>Ajouter une URL simple
  
 Pour ajouter des URL simples supplémentaires à la définition du déploiement, spécifiez l’URL de la nouvelle URL simple. Le format de l’URL est http:// _\<type d’URL simple\>.\< nom de domaine\> _ ou _http://\<nom de domaine\>/\<type d’URL simple\>_, où le type d’URL simple est une des opérations suivantes :
   
-- Meet
+- Répondre à
     
 - Effectuer un appel entrant
     

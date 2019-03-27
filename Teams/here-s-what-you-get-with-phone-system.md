@@ -1,5 +1,6 @@
 ---
 title: Voici les avantages du système téléphonique dans Office 365
+ms.reviewer: ''
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -21,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn about the features, availability, and how to plan and set up a Phone System (Cloud PBX) for your business. '
-ms.openlocfilehash: 3982afffc948d58d6793b13c06fa3d29d8e48ac9
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.openlocfilehash: 4cfb143bc8d86bbd5340cb7dddc203563ec1d093
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30640921"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896084"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Voici les avantages du système téléphonique dans Office 365
 
@@ -51,7 +52,7 @@ Pour plus d’informations, voir [tarification pour le système téléphonique](
 |Mise en attente/récupération  <br/> | Utilisez cette fonction lorsque plusieurs appels sont passés simultanément. Lorsque vous répondez à l'appel entrant suivant ou passez un appel sortant, l'appel actuel est automatiquement mis en attente. <br/> |
 |[Transfert d'un appel Skype Entreprise](https://support.office.com/article/f9f312a3-ccc9-4215-86e8-8928b2df1f97) <br/> |Transfère les appels à une autre personne. Ou, si vous avez besoin de quitter votre bureau, mais souhaitez poursuivre la conversation, vous pouvez transférer les appels à partir de votre téléphone de l’ordinateur ou adresse IP à votre téléphone cellulaire ou votre tablette.  <br/> |
 |ID de l'appelant  <br/> |Les appels internes à l'entreprise indiquent un ID d'appel détaillé, qui extrait des informations depuis le répertoire de l'entreprise, avec la photo et la fonction de l'appelant et pas seulement le numéro de téléphone.  <br/> |
-|[Créer une file d’attente d’appels sur le système téléphonique](/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue) <br/> |Appel de système téléphonique files d’attente contiennent le message d’accueil qui est utilisés lorsqu’une personne appelle un numéro de téléphone pour votre organisation, la possibilité de mettre automatiquement les appels en attente et la capacité de recherche pour l’agent disponible appel suivant gérer l’appel pendant les personnes qui appel Écoutez une musique d’attente.  <br/> |
+|[Créer une file d’attente d’appels de système téléphonique](/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue) <br/> |Appel de système téléphonique files d’attente contiennent le message d’accueil qui est utilisés lorsqu’une personne appelle un numéro de téléphone pour votre organisation, la possibilité de mettre automatiquement les appels en attente et la capacité de recherche pour l’agent disponible appel suivant gérer l’appel pendant les personnes qui appel Écoutez une musique d’attente.  <br/> |
 |[M'avertir en cas de changement de statut d'une personne](https://support.office.com/article/042a13d8-c815-4101-8b41-1e141b6bf6e9) <br/> | Cette fonction permet d'identifier les personnes qui ne sont pas disponibles et d'être prévenu lorsque leur statut de présence change et qu'elles passent des appels téléphoniques. <br/> |
 |Clients pour PC, Mac et Mobile  <br/> | Cela vous donne fonctionnalités d’appel sur des appareils, de tablettes et les téléphones mobiles pour PC et les téléphones de bureau IP. <br/> |
 |Changement de périphériques  <br/> |Permet de passer votre appel ou de tenir une réunion sur un autre périphérique.  <br/> |

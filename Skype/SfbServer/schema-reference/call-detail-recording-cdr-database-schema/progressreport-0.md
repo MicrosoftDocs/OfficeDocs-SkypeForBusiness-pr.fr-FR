@@ -1,5 +1,6 @@
 ---
-title: Vue de ProgressReport
+title: Vue progressreport
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -9,30 +10,31 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b49f3fc7-0e2f-498f-8505-aaaf54e435f9
-description: La vue ProgressReport stocke des informations sur la session terminée. Rapports de progression seront écrites uniquement pour les appels et les sessions qui détermine de Lync Server 2013 peut s’avérer utile à des fins de Diagnostics. Cette vue a été introduite dans Microsoft Lync Server 2013.
-ms.openlocfilehash: 7dab41202eb098e2e49e5d4960b0c7b4e4c6570d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: La vue ProgressReport stocke des informations sur les sessions terminées. Rapports de progression seront écrit uniquement pour les appels et les sessions qui détermine de Lync Server 2013 peut s’avérer utile à des fins de Diagnostics. Cet affichage a été introduit dans Microsoft Lync Server 2013.
+ms.openlocfilehash: 5f7cbba2580b83a65dbce00588f3c567317f4df4
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891116"
 ---
-# <a name="progressreport-view"></a>Vue de ProgressReport
+# <a name="progressreport-view"></a>Vue progressreport
  
-La vue ProgressReport stocke des informations sur la session terminée. Rapports de progression seront écrites uniquement pour les appels et les sessions qui détermine de Lync Server 2013 peut s’avérer utile à des fins de Diagnostics. Cette vue a été introduite dans Microsoft Lync Server 2013.
+La vue ProgressReport stocke des informations sur les sessions terminées. Rapports de progression seront écrit uniquement pour les appels et les sessions qui détermine de Lync Server 2013 peut s’avérer utile à des fins de Diagnostics. Cet affichage a été introduit dans Microsoft Lync Server 2013.
   
 > [!NOTE]
-> Les champs ErrorTime, ErrorReportSeq et ProgressReportSeq ne pas nécessairement référence à erreurs, mais à des messages qui indiquent l’état des messages ou d’appels. 
+> Les champs ErrorTime, ErrorReportSeq et progressreportseq ne font pas nécessairement référence aux erreurs mais aux messages qui indiquent l’état des appels ou des messages. 
   
 |**Colonne**|**Type de données**|**Détails**|
 |:-----|:-----|:-----|
-|**ErrorTime** <br/> |DateHeure  <br/> |Moment de l’erreur s’est produite. Utilisé en association avec ErrorReportSeq pour identifier de manière unique une erreur.  <br/> |
-|**ErrorReportSeq** <br/> |int  <br/> |Numéro d’identification pour identifier l’erreur. Utilisé en association avec ErrorTime pour identifier de manière unique une erreur.  <br/> |
-|**ProgressReportSeq** <br/> |int  <br/> |ID pour identifier le rapport de progression. Permet de distinguer les rapports d’avancement du même rapport d’erreurs.  <br/> |
+|**ErrorTime** <br/> |DateHeure  <br/> |Moment de l’erreur s’est produite. Utilisé conjointement avec ErrorReportSeq pour identifier de manière unique une erreur.  <br/> |
+|**ErrorReportSeq** <br/> |int  <br/> |Numéro d’identification pour identifier l’erreur. Utilisé conjointement avec ErrorTime pour identifier de manière unique une erreur.  <br/> |
+|**Progressreportseq ne font** <br/> |int  <br/> |ID pour identifier le rapport de progression. Utilisé pour distinguer les rapports de progression du même rapport d’erreurs.  <br/> |
 |**MsDiagId** <br/> |int  <br/> |ID de diagnostic pour le rapport d’erreurs.  <br/> |
-|**Source** <br/> |nvarchar(256)  <br/> |Nom du serveur qui a pour origine l’erreur (si le rapport a été envoyé à partir d’un composant de serveur).  <br/> |
-|**Application** <br/> |nvarchar(256)  <br/> |Nom de l’application à l’origine de l’erreur (si le rapport a été envoyé à partir d’un composant de serveur).  <br/> |
-|**TelemetryId** <br/> |uniqueidentifier  <br/> |Identificateur de corrélation des informations de durée de jointure pour les différents composants impliqués dans une conférence.  <br/> |
-|**SessionSetupTime** <br/> |int  <br/> |Durée (en millisecondes) pour un composant spécifique à joindre la conférence.  <br/> |
+|**Source** <br/> |nvarchar(256)  <br/> |Nom du serveur à l’origine de l’erreur (si le rapport a été envoyé à partir d’un composant serveur).  <br/> |
+|**Application** <br/> |nvarchar(256)  <br/> |Nom de l’application à l’origine de l’erreur (si le rapport a été envoyé à partir d’un composant serveur).  <br/> |
+|**TelemetryId** <br/> |uniqueidentifier  <br/> |Identificateur unique corrélant les informations d’heure jointure pour les différents composants impliqués dans une conférence.  <br/> |
+|**SessionSetupTime** <br/> |int  <br/> |Temps (en millisecondes) nécessaire pour un composant spécifique pour participer à une conférence.  <br/> |
 |**MsDiagHeader** <br/> |varchar (max)  <br/> |Informations d’erreur supplémentaires.  <br/> |
    
 

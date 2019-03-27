@@ -1,5 +1,6 @@
 ---
 title: Obtenir le journal d’intégration
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 8856f6bc-5460-4f35-acf2-f7662f01579b
 description: 'Résumé : Découvrez l’opération obtenir les journaux de l’intégration, qui fait partie de l’API de données pour le tableau de bord qualité des appels. Tableau de bord de qualité des appels est un outil de Skype pour Business Server.'
-ms.openlocfilehash: 6408d0a773ee00854f82c4430e4402e79db23fa6
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: e6d449a8ea973132b404e821f6a5d5f156e6ddd6
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531087"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897252"
 ---
 # <a name="get-integration-log"></a>Obtenir le journal d’intégration
  
@@ -32,7 +33,7 @@ Cette opération est désactivée par défaut pour des raisons de sécurité. Lo
 
 |Méthode|**URI de la demande**|**Version HTTP**|
 |:-----|:-----|:-----|
-|Télécharger  <br/> |https://\<portal\>/QoEDataService/IntegrationLog  <br/> |HTTP/1.1.  <br/> |
+|Avoir  <br/> |https://\<portal\>/QoEDataService/IntegrationLog  <br/> |HTTP/1.1.  <br/> |
    
  **Paramètres d’URI** - None.
   

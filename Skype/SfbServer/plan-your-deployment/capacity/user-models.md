@@ -1,5 +1,6 @@
 ---
 title: Modèles utilisateur Skype pour Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c551371c-d740-4372-bada-f0d713ec0d33
 description: Les modèles utilisateur présentés ici servent de base pour la planification de capacité des mesures et recommandations décrites dans la capacité de planification de l’utilisation du modèle utilisateur de Skype pour Business Server.
-ms.openlocfilehash: 4f2c9ed9701b7b90812960c050f27bedcf8aab4d
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 2e636b41187c862ea866b97ea99f6b0275657557
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20987369"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897492"
 ---
 # <a name="user-models-in-skype-for-business-server"></a>Modèles utilisateur Skype pour Business Server
  

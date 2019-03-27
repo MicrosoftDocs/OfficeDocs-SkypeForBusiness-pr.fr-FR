@@ -1,5 +1,6 @@
 ---
-title: Recherche-CcLog
+title: Search-CcLog
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,13 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bbae05f9-d8de-40dc-8968-d225dcde80e4
 description: L’applet de commande Search-CcLog recherche les journaux d’appels sortants et entrants dans l’annuaire d’appliances de la version Cloud Connector de Skype Entreprise.
-ms.openlocfilehash: 3d7d34f2e069b9c4ed728dcc805af5ccf9d13067
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: e11e82ba105ed58efa6892165a19c6a4c4de0429
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892764"
 ---
-# <a name="search-cclog"></a>Recherche-CcLog
+# <a name="search-cclog"></a>Search-CcLog
  
 L’applet de commande Search-CcLog recherche les journaux d’appels sortants et entrants dans l’annuaire d’appliances de la version Cloud Connector de Skype Entreprise.
   
@@ -51,11 +53,11 @@ L’applet de commande  Search-CsClsLogging fournit une option de ligne de comma
 ## <a name="parameters"></a>Paramètres
 <a name="DetailedDescription"> </a>
 
-|**Paramètre**|**Obligatoire**|**Type de**|**Description**|
+|**Paramètre**|**Obligatoire**|**Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-|Heure de début  <br/> | Obligatoire <br/> |System.Datetime  <br/> | Date et heure de début des entrées de journal à rechercher. Spécifiées dans le fuseau horaire local. <br/> |
-|Heure de fin  <br/> |Obligatoire  <br/> |System.Datetime  <br/> |Date et heure de fin des entrées de journal à rechercher. Spécifiées dans le fuseau horaire local.  <br/> |
-|Nom de fichier  <br/> |Obligatoire  <br/> |System.String  <br/> |Spécifie le chemin d’accès complet du fichier texte contenant les résultats de la recherche.  <br/> |
+|StartTime  <br/> | Obligatoire <br/> |System.Datetime  <br/> | Date et heure de début des entrées de journal à rechercher. Spécifiées dans le fuseau horaire local. <br/> |
+|EndTime  <br/> |Obligatoire  <br/> |System.Datetime  <br/> |Date et heure de fin des entrées de journal à rechercher. Spécifiées dans le fuseau horaire local.  <br/> |
+|FileName  <br/> |Obligatoire  <br/> |System.String  <br/> |Spécifie le chemin d’accès complet du fichier texte contenant les résultats de la recherche.  <br/> |
    
 ## <a name="input-types"></a>Types d’entrées
 <a name="InputTypes"> </a>
@@ -70,7 +72,7 @@ Aucun
 ## <a name="see-also"></a>Voir aussi
 <a name="ReturnTypes"> </a>
 
-[Démarrer-CcLogging](start-cclogging.md)
+[Start-CcLogging](start-cclogging.md)
   
 [Stop-CcLogging](stop-cclogging.md)
   

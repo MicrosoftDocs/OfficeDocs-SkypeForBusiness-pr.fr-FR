@@ -1,5 +1,6 @@
 ---
 title: Planification de groupe ou d’appel dans Skype entreprise
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3dc0eca8-c773-463c-96bb-9cd6afa2a840
 description: Planification de groupe d’appel collecte dans Skype pour Business Server Enterprise Voice, qui permet aux utilisateurs répondre aux appels originellement prévues pour d’autres personnes.
-ms.openlocfilehash: 561dc483194b497e06007dfcecfcd43fb62c678a
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: ce00ebcacfe8703bcec6418ea620b3d4fe525a68
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882089"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892870"
 ---
 # <a name="plan-for-group-call-pickup-in-skype-for-business"></a>Planification de groupe ou d’appel dans Skype entreprise
  
@@ -83,9 +84,9 @@ Groupe d’appel collecte est déployé automatiquement lors du déploiement d�
 
 Un des clients suivants peut être utilisé pour répondre aux appels aux membres du groupe d’appel collecte :
   
-- Skype Entreprise
+- Skype Entreprise
     
-- Lync 2013
+- Lync 2013
     
 - Lync 2010
     
@@ -96,7 +97,7 @@ Un des clients suivants peut être utilisé pour répondre aux appels aux membre
   
 Les clients et périphériques suivants ne sont pas pris en charge pour prendre les appels aux membres du groupe d’appel collecte :
   
-- Lync Mobile
+- Lync Mobile
     
 - Application Lync pour Windows 8 et Windows RT
     
@@ -119,7 +120,7 @@ Le tableau suivant décrit le modèle utilisateur collecte d’appel de groupe q
 |:-----|:-----|:-----|
 |Nombre recommandé d’utilisateurs par groupe  <br/> |50  <br/> |50  <br/> |
 |Nombre recommandé de groupes  <br/> |500  <br/> |60  <br/> |
-|Nombre maximum d’utilisateurs par pool autorisé pour la prise d’appel de groupe  <br/> |25 000  <br/> |3 000  <br/> |
+|Nombre maximum d’utilisateurs par pool autorisé pour la prise d’appel de groupe  <br/> |25 000  <br/> |3 000  <br/> |
 |Rapport maximal entre le nombre d’appels entrants et le nombre total d’utilisateurs autorisé pour la prise d’appel de groupe par pool et par minute  <br/> |500  <br/> |60  <br/> |
 |Taux maximal d’appels récupérés par les utilisateurs avec la prise d’appel de groupe par pool et par minute  <br/> |200  <br/> |25  <br/> |
    

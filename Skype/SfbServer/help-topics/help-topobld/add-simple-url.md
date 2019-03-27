@@ -1,5 +1,6 @@
 ---
-title: Ajouter une URL Simple
+title: Ajouter une URL simple
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,18 +13,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 202b9fa2-41ab-4c86-a283-ebc8dece7ddf
 description: Pour ajouter des URL simples supplémentaires à la définition du déploiement, spécifiez l’URL de la nouvelle URL simple.
-ms.openlocfilehash: 20db564e90051ffa274aa46587603273a8ca7581
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 749049f9d4f56321d095aee6d8c25cecd6ae0cb0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21007273"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882982"
 ---
-# <a name="add-simple-url"></a>Ajouter une URL Simple
+# <a name="add-simple-url"></a>Ajouter une URL simple
  
 Pour ajouter des URL simples supplémentaires à la définition du déploiement, spécifiez l’URL de la nouvelle URL simple. Le format de l’URL est http:// _\<type d’URL simple\>.\< nom de domaine\> _ ou _http://\<nom de domaine\>/\<type d’URL simple\>_, où le type d’URL simple est une des opérations suivantes :
   
-- Meet
+- Répondre à
     
 - Effectuer un appel entrant
     

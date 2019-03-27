@@ -1,5 +1,6 @@
 ---
 title: La récupération d’urgence dans Skype fin pool de serveurs frontaux pour Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 142caf34-0f20-47f3-9d32-ce25ab622fad
 description: La récupération d’urgence, Skype pour Business Server offre pool jumelage avec basculement en cas d’un pool tombe en panne.
-ms.openlocfilehash: 4f7be2c41155c25984a3a4892fdabe982384756a
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 56108fe2187b37fd6f3094d68a8cc89bac436bea
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20979890"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897422"
 ---
 # <a name="front-end-pool-disaster-recovery-in-skype-for-business-server"></a>La récupération d’urgence dans Skype fin pool de serveurs frontaux pour Business Server
  

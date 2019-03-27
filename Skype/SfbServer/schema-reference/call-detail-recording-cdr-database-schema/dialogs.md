@@ -1,5 +1,6 @@
 ---
-title: Table de boîtes de dialogue dans Skype pour Business Server 2015
+title: Boîtes de dialogue tableau Skype pour Business Server 2015
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -9,22 +10,23 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 487a430b-af66-4ea6-b28e-4e33cfdb7f9e
-description: La table de boîtes de dialogue est une table de support qui stocke les informations sur les DialogIDs pour les sessions de peer-to-peer.
-ms.openlocfilehash: b2953ff2bec35575221bc0d43785eb6c0d90e2d1
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: La table Dialogs est une table de prise en charge qui stocke les informations sur le Dialogid pour les sessions d’égal à égal.
+ms.openlocfilehash: af7816c202f995e826567391bf32c5c32a2d0d94
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889627"
 ---
-# <a name="dialogs-table-in-skype-for-business-server-2015"></a>Table de boîtes de dialogue dans Skype pour Business Server 2015
+# <a name="dialogs-table-in-skype-for-business-server-2015"></a>Boîtes de dialogue tableau Skype pour Business Server 2015
  
-La table de boîtes de dialogue est une table de support qui stocke les informations sur les DialogIDs pour les sessions de peer-to-peer.
+La table Dialogs est une table de prise en charge qui stocke les informations sur le Dialogid pour les sessions d’égal à égal.
   
-|**Colonne**|**Type de données**|**Index de la clé**|**Détails**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
 |:-----|:-----|:-----|:-----|
-|**SessionIdTime** <br/> |DateHeure  <br/> |Principal  <br/> |Heure de la demande de la session ; utilisé en association avec SessionIDSeq pour identifier de manière unique une session.  <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |Principal  <br/> |Numéro d’ID pour identifier la session. Utilisé en association avec SessionIDTime pour identifier de manière unique une session.  <br/> |
-|**ExternalChecksum** <br/> |int  <br/> | <br/> |Total de contrôle de la ExternalID. Ce champ est utilisé pour augmenter la vitesse des recherches de base de données.  <br/> |
-|**ExternalId** <br/> |varbinary(775)  <br/> | <br/> |ID de boîte de dialogue SIP, stockée sous la forme d’un fichier binaire. Le format de fichier binaire est :  <br/> boîte de dialogue, à partir de balise ; de balise  <br/> Ces données peuvent être converties au format de texte à l’aide de cette syntaxe :  <br/>  `cast(cast(ExternalId as varbinary(max)) as varchar(max))` <br/> |
+|**SessionIdTime** <br/> |DateHeure  <br/> |Principal  <br/> |Heure de la demande de session ; utilisé en conjonction avec SessionIDSeq pour identifier de manière unique une session.  <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |Principal  <br/> |Numéro d’identification pour identifier la session. Utilisé conjointement avec SessionIDTime pour identifier de manière unique une session.  <br/> |
+|**ExternalChecksum** <br/> |int  <br/> | <br/> |Somme de contrôle de la ExternalID. Ce champ est utilisé pour augmenter la vitesse des recherches de base de données.  <br/> |
+|**ExternalId** <br/> |varbinary(775)  <br/> | <br/> |ID de boîte de dialogue SIP, stockée sous forme d’un fichier binaire. Le format de fichier binaire est :  <br/> boîte de dialogue de balise ; pour une balise  <br/> Ces données peuvent être converties au format texte à l’aide de la syntaxe suivante :  <br/>  `cast(cast(ExternalId as varbinary(max)) as varchar(max))` <br/> |
    
 

@@ -1,5 +1,6 @@
 ---
-title: Surveiller le connecteur de nuage à l’aide de la Suite de gestion des opérations (OMS)
+title: Surveiller Cloud Connector avec Operations Management Suite (OMS)
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,14 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: edf4a04c-d4c9-4c05-aacc-9e084618bb55
 description: Lisez cette rubrique pour savoir comment surveiller votre version de nuage connecteur 2.1 et de déploiement ultérieure à l’aide de Microsoft Operations Management Suite (OMS).
-ms.openlocfilehash: 36d70a1504eab085d319e46d03c3c6f0bd9d14f3
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 2077b5525984cc3d9948e7602036dfbb7f0ee4b7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532079"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886077"
 ---
-# <a name="monitor-cloud-connector-using-operations-management-suite-oms"></a>Surveiller le connecteur de nuage à l’aide de la Suite de gestion des opérations (OMS)
+# <a name="monitor-cloud-connector-using-operations-management-suite-oms"></a>Surveiller Cloud Connector avec Operations Management Suite (OMS)
 
 Lisez cette rubrique pour savoir comment surveiller votre version de nuage connecteur 2.1 et de déploiement ultérieure à l’aide de Microsoft Operations Management Suite (OMS).
 
@@ -217,9 +218,9 @@ Le tableau suivant répertorie les services que Microsoft vous recommande de sur
 |Nom de service  <br/> |Rôle de serveur cible  <br/> |Arrêter l’ID d’événement  <br/> |ID d’événement Démarrer  <br/> |
 |:-----|:-----|:-----|:-----|
 |RTCMEDSRV  <br/> |serveur de médiation  <br/> |25003  <br/> |25002  <br/> |
-|RTCSRV  <br/> |Serveur Edge  <br/> |12289  <br/> |12288  <br/> |
-|RTCMRAUTH  <br/> |Serveur Edge  <br/> |19003  <br/> |19002  <br/> |
-|RTCMEDIARELAY  <br/> |Serveur Edge  <br/> |22003  <br/> |22002  <br/> |
+|RTCSRV  <br/> |serveur Edge  <br/> |12289  <br/> |12288  <br/> |
+|RTCMRAUTH  <br/> |serveur Edge  <br/> |19003  <br/> |19002  <br/> |
+|RTCMEDIARELAY  <br/> |serveur Edge  <br/> |22003  <br/> |22002  <br/> |
 
 Le tableau suivant répertorie les problèmes de réseau Microsoft vous recommande de surveillance :
 
@@ -228,7 +229,7 @@ Le tableau suivant répertorie les problèmes de réseau Microsoft vous recomman
 |:-----------------------------------------------------------|:--------------------------|:-----------------------------------|:---------------------------------|:-----------------------|
 | Échec de connectivité de passerelle du serveur de médiation  <br/>    | serveur de médiation  <br/>   | 25062                              |                                  | 25002  <br/>           |
 | Serveur de médiation vers passerelle Échec de fin d’appel  <br/> | serveur de médiation  <br/>   | 25064                              |                                  | 25002  <br/>           |
-| Problèmes de réseau  <br/>                           | Serveur Edge  <br/>        | 14353                              |                                  | 12288  <br/>           |
+| Problèmes de réseau  <br/>                           | serveur Edge  <br/>        | 14353                              |                                  | 12288  <br/>           |
 
 Voici les compteurs de la capacité d’appel qui doivent être surveillées. Ces numéros doit être inférieure 500 pour standard edition de nuage connecteur ; inférieur à 50 pour édition minimale nuage connecteur.
 

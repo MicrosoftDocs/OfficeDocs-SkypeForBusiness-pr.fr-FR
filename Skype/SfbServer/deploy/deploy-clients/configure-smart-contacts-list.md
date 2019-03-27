@@ -1,5 +1,6 @@
 ---
 title: Configurer liste de contacts actives dans Skype pour les clients d’entreprise
+ms.reviewer: ''
 ms.author: chucked
 author: chuckedmonson
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4eecb5f7-3ef7-4582-a6cb-9f4aa068338d
 description: 'Résumé : Découvrez comment activer la fonctionnalité de liste de contacts actives dans le Skype pour client d’entreprise.'
-ms.openlocfilehash: 1aba122df313384fe1680296551ff7689b237d54
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 52de1eb889b1373dc6928c90a9e0e298f467d3fb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374483"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896657"
 ---
 # <a name="configure-smart-contacts-list-in-skype-for-business-clients"></a>Configurer liste de contacts actives dans Skype pour les clients d’entreprise
 
@@ -22,7 +23,7 @@ ms.locfileid: "25374483"
 
 La fonctionnalité de liste de contacts dynamiques permet de remplir automatiquement les listes de contacts pour vos utilisateurs finaux. Sur la première à l’aide de Skype pour les entreprises, votre les utilisateurs verront automatiquement constater des leur responsable et autres personnes de leur équipe. Cette fonctionnalité est activée par défaut pour les utilisateurs d’Office 365, mais vous devez explicitement activer cette fonctionnalité pour vos utilisateurs locaux en configurant le paramètre de stratégie de client.
 
-Lors de la configuration cette fonctionnalité, rappelez-vous des points suivants :
+Lors de la configuration de cette fonctionnalité, rappelez-vous des points suivants :
 
 - Jusqu'à 13, les utilisateurs sont automatiquement ajoutés à la liste des contacts actives dans l’ordre suivant :
 

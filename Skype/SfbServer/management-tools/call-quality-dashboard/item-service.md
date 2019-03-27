@@ -1,5 +1,6 @@
 ---
 title: Service d’élément de tableau de bord qualité appel (CQD)
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b6d7b02a-a34e-4fef-986c-ca442e18fa0c
 description: 'Résumé : En savoir plus sur le Service de l’élément, qui fait partie de l’API de référentiel pour appeler le tableau de bord qualité. Tableau de bord de qualité des appels est un outil de Skype pour Business Server.'
-ms.openlocfilehash: 5e5198afd95d6c9e1de517054053b724a54b1105
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 28a705d488519e439a0fd4c9c9345b1d540fd949
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532597"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895943"
 ---
 # <a name="item-service-for-call-quality-dashboard-cqd"></a>Service d’élément de tableau de bord qualité appel (CQD)
  
@@ -49,10 +50,10 @@ Les opérations REST sont incluses dans le tableau suivant.
 
 |**Opération**|**Description**|
 |:-----|:-----|
-|[Extraire des éléments](get-items.md) <br/> |Obtenir les éléments renvoie tous les éléments dans le référentiel.  <br/> |
-|[Obtenir l’élément](get-item.md) <br/> |Obtenir élément renvoie un élément spécifique.  <br/> |
-|[Obtenir les sous-éléments](get-sub-items.md) <br/> |Obtenez les sous-éléments renvoie les sous-éléments d’un élément spécifique.  <br/> |
-|[Obtenir l’élément ancêtres](get-item-ancestors.md) <br/> |Get élément ancêtres renvoie ancêtres d’un élément spécifique.  <br/> |
-|[Élément de la mise à jour](update-item.md) <br/> |Mettre à jour un élément spécifique dans le référentiel.  <br/> |
+|[Obtenir des éléments](get-items.md) <br/> |Obtenir les éléments renvoie tous les éléments dans le référentiel.  <br/> |
+|[Obtenir un élément](get-item.md) <br/> |Obtenir élément renvoie un élément spécifique.  <br/> |
+|[Obtenir des sous-éléments](get-sub-items.md) <br/> |Obtenez les sous-éléments renvoie les sous-éléments d’un élément spécifique.  <br/> |
+|[Obtenir les ancêtres d’élément](get-item-ancestors.md) <br/> |Get élément ancêtres renvoie ancêtres d’un élément spécifique.  <br/> |
+|[Mettre à jour un élément](update-item.md) <br/> |Mettre à jour un élément spécifique dans le référentiel.  <br/> |
    
 

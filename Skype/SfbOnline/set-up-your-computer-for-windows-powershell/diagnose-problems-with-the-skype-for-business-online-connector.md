@@ -1,5 +1,6 @@
 ---
 title: Diagnostiquer des problèmes de connexion avec le connecteur Skype Entreprise Online
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +18,12 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Résoudre les problèmes de création d’une session PowerShell distante pour se connecter à Skype pour Business Online, notamment Import-Module, shell simultané, Live ID et les erreurs d’autorisation.
-ms.openlocfilehash: 223886b68c22f3713118eaed4a556743df2c7cf1
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 276385a1de2fe79ca03afaeeac3bb6c28945c7f7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532863"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898099"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>Diagnostiquer des problèmes de connexion avec le connecteur Skype Entreprise Online
 

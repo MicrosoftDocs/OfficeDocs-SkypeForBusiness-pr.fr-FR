@@ -1,5 +1,6 @@
 ---
 title: Gérer les stratégies de conférence de Skype pour Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 34ec5e41-6fe6-450b-81b0-0d17b9989839
 description: 'Résumé : Découvrez comment gérer les stratégies de conférence de Skype pour Business Server.'
-ms.openlocfilehash: d5fed0c6615747069d71015fca33144ca41dd64b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 96b2f5e27aa65931f5cd76499e1a3f66b817baa5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20986656"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898143"
 ---
 # <a name="manage-conferencing-policies-in-skype-for-business-server"></a>Gérer les stratégies de conférence de Skype pour Business Server
  
@@ -32,7 +33,7 @@ Une stratégie globale existe par défaut, par conséquent vous ne pouvez pas en
 
 Pour gérer les stratégies de conférence à l’aide de Skype pour le panneau de configuration serveur Business :
   
-1. À partir d’un compte d’utilisateur auquel est affecté un des rôles CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
+1. À partir d’un compte d’utilisateur auquel est affecté le rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
     
 2.  Ouvrez le panneau de configuration serveur Business Skype.
     

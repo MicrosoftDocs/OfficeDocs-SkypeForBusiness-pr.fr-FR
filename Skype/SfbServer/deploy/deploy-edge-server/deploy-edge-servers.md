@@ -1,5 +1,6 @@
 ---
 title: Déployer des serveurs de périphérie dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 63c7251c-080a-4175-99a6-f86d0266d6bc
 description: 'Résumé : Apprenez à déployer des serveurs de périphérie dans votre Skype pour un environnement de serveur d’entreprise.'
-ms.openlocfilehash: 28a3262e49816976110aab0adde07a64c8d126fb
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: e8e3251380c996ca4fea65fd286ef9e2a9d75575
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23890949"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885616"
 ---
 # <a name="deploy-edge-servers-in-skype-for-business-server"></a>Déployer des serveurs de périphérie dans Skype pour Business Server
  
@@ -246,7 +247,7 @@ Vous trouverez les certificats requis pour le serveur de périphérie dans la do
     
 &nbsp;&nbsp;&nbsp;e. Dans la boîte de dialogue composant logiciel enfichable **certificats** , sélectionnez le **compte d’ordinateur**. Cliquez sur **Suivant**.
     
-&nbsp;&nbsp;&nbsp;f. Dans la boîte de dialogue **Sélectionner un ordinateur**, sélectionnez **Ordinateur local : (l’ordinateur sur lequel cette console s’exécute)**. Cliquez sur **Terminer**. Cliquez sur **OK**, et la configuration de la console MMC est terminée.
+&nbsp;&nbsp;&nbsp;f. Dans la boîte de dialogue **Sélectionner un ordinateur**, sélectionnez **Ordinateur local : (l’ordinateur sur lequel cette console s’exécute)**. Cliquez sur **Terminer**. La configuration de la console MMC est terminée.
     
 &nbsp;&nbsp;&nbsp;g. Double-cliquez sur **Certificats (ordinateur local)** pour développer les magasins de certificats. Double-cliquez sur **personnel**, puis cliquez sur **certificats**.
     
@@ -374,7 +375,7 @@ Vous trouverez les certificats requis pour le serveur de périphérie dans la do
     
 &nbsp;&nbsp;&nbsp;e. Dans la boîte de dialogue composant logiciel enfichable **certificats** , sélectionnez le **compte d’ordinateur**. Cliquez sur **Suivant**.
     
-&nbsp;&nbsp;&nbsp;f. Dans la boîte de dialogue **Sélectionner un ordinateur**, sélectionnez **Ordinateur local : (l’ordinateur sur lequel cette console s’exécute)**. Cliquez sur **Terminer**. Cliquez sur **OK**, et la configuration de la console MMC est terminée.
+&nbsp;&nbsp;&nbsp;f. Dans la boîte de dialogue **Sélectionner un ordinateur**, sélectionnez **Ordinateur local : (l’ordinateur sur lequel cette console s’exécute)**. Cliquez sur **Terminer**. La configuration de la console MMC est terminée.
     
 &nbsp;&nbsp;&nbsp;g. Double-cliquez sur **Certificats (ordinateur local)** pour développer les magasins de certificats. Double-cliquez sur **Personnel**, puis sur **Certificats**.
     

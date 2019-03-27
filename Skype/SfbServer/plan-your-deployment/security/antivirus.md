@@ -1,5 +1,6 @@
 ---
 title: Antivirus exclusions d’analyse pour Skype pour Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 5d742259-ef3b-417a-920b-e1fa0e48f043
 description: Vue d’ensemble de l’interopérabilité de scanneur antivirus avec Skype pour Business Server.
-ms.openlocfilehash: 782f7bc6fe004eb5106fa07c93b6f22993849d98
-ms.sourcegitcommit: c864a4b5337960deed01ff8c481326dbbd23c960
+ms.openlocfilehash: 377c9e8fb9de71187978fe541a23f43cc2282749
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2018
-ms.locfileid: "24975193"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895964"
 ---
 # <a name="antivirus-scanning-exclusions-for-skype-for-business-server"></a>Antivirus exclusions d’analyse pour Skype pour Business Server
 
@@ -95,9 +96,9 @@ Pour vous assurer que le scanneur antivirus n’interfère pas avec l’opérati
 
 - Processus d’IIS :
 
-  - %SystemRoot%\system32\inetsrv\w3wp.exe
+  - %systemroot%\system32\inetsrv\w3wp.exe
 
-  - %SystemRoot%\SysWOW64\inetsrv\w3wp.exe
+  - %systemroot%\SysWOW64\inetsrv\w3wp.exe
 
 - Processus du serveur dorsal SQL Server :
 
@@ -124,9 +125,9 @@ Pour vous assurer que le scanneur antivirus n’interfère pas avec l’opérati
 
   - %systemroot%\System32\LogFiles
 
-  - %SystemRoot%\SysWow64\LogFiles
+  - %systemroot%\SysWow64\LogFiles
 
-  - %SystemRoot%\Microsoft.NET\assembly\GAC_MSIL
+  - %systemroot%\Microsoft.NET\assembly\GAC_MSIL
 
     > [!NOTE]
     > Notez que ces chemins d’accès sont spécifiques à Skype pour la version du serveur d’entreprise.
@@ -143,7 +144,7 @@ Pour vous assurer que le scanneur antivirus n’interfère pas avec l’opérati
 
   - Magasin de partage de fichiers (spécifié dans le générateur de topologies). Les magasins de fichiers sont spécifiés dans le générateur de topologies.
 
-  - Fichiers journaux et de données SQL Server, dont ceux pour la base de données principale, le magasin d’utilisateurs, le magasin d’archivage, le magasin de surveillance et le magasin d’applications. Les fichiers journaux et de base de données peuvent être spécifiés dans le générateur de topologies. Pour plus d’informations sur les fichiers journaux et de données pour chaque base de données, y compris les noms par défaut, reportez-vous à la section [emplacement des fichiers journaux et données SQL Server](https://technet.microsoft.com/library/67aa525b-8aa3-474f-827e-8e1d4697f30f.aspx) dans la documentation de déploiement.
+  - Fichiers journaux et de données SQL Server, dont ceux pour la base de données principale, le magasin d’utilisateurs, le magasin d’archivage, le magasin de surveillance et le magasin d’applications. Les fichiers journaux et de base de données peuvent être spécifiés dans le générateur de topologies. Pour plus d’informations sur les fichiers journaux et de données pour chaque base de données, dont les noms par défaut, reportez-vous à la rubrique [SQL Server Data and Log File Placement](https://technet.microsoft.com/library/67aa525b-8aa3-474f-827e-8e1d4697f30f.aspx) dans la documentation relative au déploiement.
 
   - SQL Server données et fichiers journaux, y compris ceux de la base de données frontal Skype pour le magasin Business et magasin RtcDatabase. Ils se trouvent normalement sous %localdrive%\CSData.
 

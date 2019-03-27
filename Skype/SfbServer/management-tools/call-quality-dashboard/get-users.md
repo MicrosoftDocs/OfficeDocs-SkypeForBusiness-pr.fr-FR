@@ -1,5 +1,6 @@
 ---
 title: Obtenir les utilisateurs
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 87d34baf-4c31-468d-b8f7-4faca0bc7a54
 description: 'Résumé : Découvrez l’opération obtenir des utilisateurs, qui fait partie du Service de l’utilisateur. Le Service de l’utilisateur fait partie de l’API de référentiel pour appeler le tableau de bord qualité. Tableau de bord de qualité des appels est un outil de Skype pour Business Server.'
-ms.openlocfilehash: 11c4e8d1230385f51992dac7559d65ddc2ec4ac0
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 24a01f7a149240c3f7bd6830cdfa7a9cb8123396
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531724"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897450"
 ---
 # <a name="get-users"></a>Obtenir les utilisateurs
  
@@ -29,7 +30,7 @@ Obtenir la liste des utilisateurs renvoie les utilisateurs dans le référentiel
   
 |**Méthode**|**URI de la demande**|**Version HTTP**|
 |:-----|:-----|:-----|
-|Télécharger  <br/> |https://\<portal\>/QoERepositoryService/repository/user  <br/> |HTTP/1.1.  <br/> |
+|Avoir  <br/> |https://\<portal\>/QoERepositoryService/repository/user  <br/> |HTTP/1.1.  <br/> |
    
  **Paramètres d’URI** - None.
   

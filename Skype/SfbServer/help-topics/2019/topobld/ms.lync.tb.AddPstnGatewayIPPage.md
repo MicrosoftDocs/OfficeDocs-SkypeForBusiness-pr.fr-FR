@@ -1,5 +1,6 @@
 ---
 title: Définir l’adresse IP de la passerelle IP ou PSTN
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 319fdc9f-7ed6-4ed3-8f3f-b78758a0eb42
 ROBOTS: NOINDEX, NOFOLLOW
 description: Vous définissez les adresses IPv4 ou IPv6 pour la passerelle de réseau téléphonique commuté IP ou le numéro de téléphone en sélectionnant Activer la IPv4 ou IPv6 activer. Vous pouvez choisir de Qu'utiliser toutes les adresses IP configurées ou limiter l’utilisation de service pour les adresses IP sélectionnées.
-ms.openlocfilehash: 78e459ffa35a00234f42e8bb2d471301ab39b615
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 9323db1915388dda5c2fff2da85845fea86a2262
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23248236"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889286"
 ---
 # <a name="define-the-ip-address-of-the-ip-or-pstn-gateway"></a>Définir l’adresse IP de la passerelle IP ou PSTN
 

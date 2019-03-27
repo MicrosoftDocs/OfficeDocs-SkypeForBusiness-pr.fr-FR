@@ -1,5 +1,6 @@
 ---
 title: Paramètres globaux de Configuration réseau
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 93a17c91-816e-4de0-8065-7dec45203355
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: dec319d47fcdff13b8e472393e4c772e8ade4686
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 0b16940eafecc2177ca65fbebe7d818440549bd3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23258472"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887686"
 ---
-# <a name="network-configuration-global-setting"></a>Configuration du réseau : Paramètres globaux
+# <a name="network-configuration-global-setting"></a>Configuration du réseau : paramètres globaux
 
 Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
 

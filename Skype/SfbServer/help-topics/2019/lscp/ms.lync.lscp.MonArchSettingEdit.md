@@ -1,5 +1,6 @@
 ---
 title: Configuration d’archivage créer une nouvelle ou en modifier une existant
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 49096960-c442-4846-be8f-03c167acea41
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Vous utilisez des configurations d’archivage pour contrôler les options d’archivage de votre déploiement. Les configurations d’archivage incluent la configuration globale et, éventuellement, une ou plusieurs configurations de site ou de pool :'
-ms.openlocfilehash: 1e85367566618638da8e8c9a826c56eecad6b029
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 9c48387c18919b4713c57232ee21f5bf5b22adbe
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20974807"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896062"
 ---
 # <a name="archiving-configuration-create-new-or-edit-existing"></a>Configuration de l’archivage : création d’un archivage ou modification d’un archivage existant
  
@@ -35,7 +36,7 @@ Vous utilisez des configurations d’archivage pour contrôler les options d’a
 Pour configurer les paramètres pour une configuration d’archivage nouvelle ou existante, spécifiez les options suivantes :
 - **Nom** Chaque configuration d’archivage requiert un nom. Le nom est déterminé par le type de configuration que vous ajoutez ou modifiez :
     
-  - **Configuration globale** Le nom par défaut est Global. Par exemple, « Organisation Contoso d’Amérique du Nord ».
+  - **Configuration globale** Le nom par défaut est Global. Par exemple, « Organisation Contoso d’Amérique du Nord".
     
   - **Configuration de site** La liste contient les sites disponibles dans votre déploiement. Cliquez sur un site individuel pour le sélectionner. Par exemple, Centre de données de Redmond.
     
@@ -55,9 +56,9 @@ Pour configurer les paramètres pour une configuration d’archivage nouvelle ou
     
   - **Messagerie instantanée** un échec peut être une base de données complète ou d’un problème avec le service de stockage. Dans ce cas, la messagerie instantanée est bloquée pour les utilisateurs activés pour l’archivage.
     
-  - **Conférence** Une défaillance peut être un partage de fichier non disponible ou un problème avec le service de stockage. Dans ce cas, toutes les conférences actives hébergées dans le pool lors de l’échec passent en mode restreint, et l’activation de nouvelles conférences est suspendue.
+  - **Conférence** Une défaillance peut être un partage de fichier non disponible ou un problème avec le service de stockage. Dans ce cas, toutes les conférences actives hébergées dans le pool au moment de la défaillance passent en mode restreint et l’activation de nouvelles conférences est suspendue.
     
-    La récupération des sessions de messagerie instantanée et de conférence est effectué automatiquement après la correction des échecs.
+    La récupération des sessions de messagerie instantanée et de conférence s’effectue automatiquement après la correction des défaillances.
     
 - **Intégration à Microsoft Exchange** Sélectionnez cette option si vous avez des utilisateurs qui sont hébergés sur Exchange. Cette option, Exchange est utilisé pour stocker les données pour les utilisateurs, si leurs boîtes aux lettres ont été mis en blocage sur Place. Si tous vos utilisateurs sont hébergés sur Exchange, il est inutile définir des bases de données SQL Server distincts pour le stockage des données d’archivage.
     

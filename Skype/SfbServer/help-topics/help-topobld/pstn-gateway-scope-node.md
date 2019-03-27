@@ -1,5 +1,6 @@
 ---
 title: Nœud d’étendue de la passerelle PSTN
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,16 +12,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 85a52bf7-98cb-4dd4-892e-2d1ba5669593
-description: 'Ce nœud affiche le nom de domaine pleinement qualifié (FQDN), associé à serveur de médiation et d’autres informations de base sur cette passerelle de réseau téléphonique public commuté. Vous pouvez effectuer les actions suivantes :'
-ms.openlocfilehash: 4b9d34a9decb2989bd82ce5b1c97b10d2b8ad992
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Ce nœud affiche le nom de domaine complet (FQDN), associé à un serveur de médiation et d’autres informations de base sur cette passerelle de réseau téléphonique commuté. Vous pouvez effectuer les actions suivantes :'
+ms.openlocfilehash: 0dcb1632c3c1803f93eaba6a3bc271172cba08a5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892230"
 ---
 # <a name="pstn-gateway-scope-node"></a>Nœud d’étendue de la passerelle PSTN
  
-Ce nœud affiche le nom de domaine pleinement qualifié (FQDN), associé à serveur de médiation et d’autres informations de base sur cette passerelle de réseau téléphonique public commuté. Vous pouvez effectuer les actions suivantes :
+Ce nœud affiche le nom de domaine complet (FQDN), associé à un serveur de médiation et d’autres informations de base sur cette passerelle de réseau téléphonique commuté. Vous pouvez effectuer les actions suivantes :
   
 - **Modifier les propriétés** : affiche la page **Modifier les propriétés** pour cette passerelle, dans laquelle vous pouvez modifier le nom de domaine complet (si la topologie n’est pas encore publiée), le port d’écoute, le protocole de transport et l’adresse IP du média de remplacement.
     

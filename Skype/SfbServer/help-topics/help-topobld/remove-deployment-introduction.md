@@ -1,5 +1,6 @@
 ---
 title: Assistant Suppression du déploiement
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8659fefa-97f1-4d4a-9628-5c6dae86b244
 description: Exécuter l’Assistant Suppression du déploiement uniquement si vous souhaitez retirer de tout votre déploiement. Cet Assistant crée une topologie vide qui se compose d’un seul serveur frontal. Une fois que vous exécutez cet Assistant et publiez la topologie vide, vous ne pouvez pas revenir à votre topologie d’origine.
-ms.openlocfilehash: 0aac4f412a58dc7e636037ebd3775a7636f61476
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a9b58c76ccd027e5a9641fb7b2d2f8bbf6ef58ca
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20967536"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892108"
 ---
 # <a name="remove-deployment-introduction"></a>Assistant Suppression du déploiement
  

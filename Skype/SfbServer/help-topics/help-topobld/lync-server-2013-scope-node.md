@@ -1,5 +1,6 @@
 ---
 title: Nœud d’étendue Lync Server 2013
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 65ff172c-8a27-45ce-8ce1-c1a37798b3a3
 description: Les étapes nécessaires pour définir un nouveau rapport ou passerelle vidéo dans le Générateur de topologie sont décrites en ligne dans créer un pool VIS dans Skype pour Business Server 2015.
-ms.openlocfilehash: dad2c0af53c5065e2ec42e2fdd1dc0f29c22a41e
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: 6fb141ee96ae755891393fd66837b7b4beb08c8e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19503584"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896664"
 ---
 # <a name="lync-server-2013-scope-node"></a>Nœud d’étendue Lync Server 2013
  

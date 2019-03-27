@@ -1,5 +1,6 @@
 ---
 title: Activation du contrôle d’admission des appels
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,21 +9,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: " Après avoir configuré l’appel d’admission des appels (CAC) réseau, vous devez activer CAC appliquer les limitations de bande passante."
-ms.openlocfilehash: 9c264305a38bf4bf9ef3716c5df82d74155e8936
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: a683fe0f437fc1c3fa92784313135d094e43c8b1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222834"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897642"
 ---
-# <a name="enabling-call-admission-control-in-skype-for-business-server"></a>Activer le contrôle d’admission des appels d’appel dans Skype pour Business Server
+# <a name="enabling-call-admission-control-in-skype-for-business-server"></a>Activation du contrôle d’admission des appels dans Skype Entreprise Server
 
 Le contrôle d’admission des appels est un réseau de régions, de sites et de sous-réseaux qui permettant de définir des restrictions pour les transmissions audio et vidéo en fonction de la bande passante disponible. Après avoir configuré le réseau CAC, vous devez activer CAC appliquer les limitations de bande passante. Vous pouvez utiliser la Skype pour Business Server Control Panel pour effectuer cette opération.
 
 
 ## <a name="to-enable-cac-from-the-skype-for-business-server-control-panel"></a>Pour activer CAC à partir de la Skype pour Business Server Control Panel
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou disposant des mêmes droits) ou affecté au rôle CsAdministrator, ouvrez une session sur un ordinateur qui se trouve sur votre déploiement interne.
+1.  À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou est affecté au rôle CsAdministrator, ouvrez une session sur n’importe quel ordinateur dans votre déploiement interne.
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business. 
 

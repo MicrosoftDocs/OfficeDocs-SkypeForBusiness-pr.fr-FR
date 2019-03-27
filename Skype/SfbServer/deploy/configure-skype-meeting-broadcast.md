@@ -1,5 +1,6 @@
 ---
 title: Configuration de votre déploiement local pour la diffusion de réunion Skype
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -14,12 +15,12 @@ ms.collection:
 - IT_Skype4B_Hybrid
 ms.assetid: 2979802e-fc6b-4555-bc43-7cd48f6a1d88
 description: 'Résumé : Découvrez les différentes étapes à effectuer pour configurer la diffusion de réunion Skype pour votre Skype sur site pour le déploiement hybride Business Server.'
-ms.openlocfilehash: 09b99cab45b8832be34a3219a222324d199c5195
-ms.sourcegitcommit: 4967c9b1010a444475dcfbdb6dd3c058494449d9
+ms.openlocfilehash: 10f09fc31f32e2784bb377ba5fe393e5f13a5618
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "30069468"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896884"
 ---
 # <a name="configure-your-on-premises-deployment-for-skype-meeting-broadcast"></a>Configure your on-premises deployment for Skype Meeting Broadcast
  

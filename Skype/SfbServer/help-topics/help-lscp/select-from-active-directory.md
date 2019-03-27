@@ -1,5 +1,6 @@
 ---
 title: Sélection à partir d’Active Directory
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,17 +12,18 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ae1f6ed7-08da-41e1-b327-50e4a22992e6
-description: Utilisez le sélectionner à partir de la boîte de dialogue Active Directory pour rechercher les utilisateurs qui vous souhaitez activer pour Skype pour Business Server. Dans la zone de recherche, tapez l’adresse SIP ou le nom d’affichage de l’utilisateur recherché. Pour extraire tous les utilisateurs disponibles, ne tapez rien dans la zone de recherche.
-ms.openlocfilehash: 0c3dfa1878adb310c30870ede26fada16072c9f3
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Utilisez la sélectionner à partir de la boîte de dialogue Active Directory pour rechercher les utilisateurs auxquels vous souhaitez activer pour Skype pour Business Server. Dans la zone de recherche, tapez l’adresse SIP ou le nom d’affichage de l’utilisateur recherché. Pour extraire tous les utilisateurs disponibles, ne tapez rien dans la zone de recherche.
+ms.openlocfilehash: c9f040c21dc84785a06558c0853cd4f4904c0486
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891612"
 ---
 # <a name="select-from-active-directory"></a>Sélection à partir d’Active Directory
  
-Utilisez la boîte de dialogue **Sélectionner dans Active Directory** pour rechercher les utilisateurs qui vous souhaitez activer pour Skype pour Business Server. Dans la zone de recherche, tapez l’adresse SIP ou le nom d’affichage de l’utilisateur recherché. Pour extraire tous les utilisateurs disponibles, ne tapez rien dans la zone de recherche.
+Utilisez la boîte de dialogue **Sélectionnez à partir d’Active Directory** pour rechercher les utilisateurs auxquels vous souhaitez activer pour Skype pour Business Server. Dans la zone de recherche, tapez l’adresse SIP ou le nom d’affichage de l’utilisateur recherché. Pour extraire tous les utilisateurs disponibles, ne tapez rien dans la zone de recherche.
   
-Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide de la Skype pour Business Server du Panneau de configuration, voir [Gérer les Skype pour Business Server 2015](../../manage/manage.md).
+Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide de la Skype pour le panneau de configuration serveur Business, voir [Gérer les Skype pour Business Server 2015](../../manage/manage.md).
   
 

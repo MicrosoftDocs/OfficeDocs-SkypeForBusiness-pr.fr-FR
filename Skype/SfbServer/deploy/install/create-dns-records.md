@@ -1,5 +1,6 @@
 ---
 title: Créer des enregistrements DNS pour Skype pour Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -14,18 +15,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 798a663c-0b63-4f75-b0a3-9c553cef8c5f
 description: 'Résumé : Découvrez comment configurer DNS et de créer des enregistrements DNS pour une installation de Skype pour Business Server. Téléchargez une version d’évaluation gratuite de Skype pour Business Server depuis le centre d’évaluation Microsoft à : https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: 0090cdd19d0bef8b73ad79bd8c7f0d36a5044a48
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 35e8aecea74cc74cda6ea086a1765642885a091e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885458"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890682"
 ---
 # <a name="create-dns-records-for-skype-for-business-server"></a>Créer des enregistrements DNS pour Skype pour Business Server
  
 **Résumé :** Découvrez comment configurer DNS et créer des enregistrements DNS pour une installation de Skype pour Business Server. Téléchargez une version d’évaluation gratuite de Skype pour Business Server depuis le centre d’évaluation Microsoft à : [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
   
-Pour Skype pour Business Server fonctionne correctement, un nombre de paramètres de nom de domaine DNS (Domain Name System) doit être en place. Il s’agit de sorte que clients savent comment accéder aux services et que les serveurs de savent à propos de l’autre. Ces paramètres doivent être effectuées qu’une seule fois par le déploiement, car une fois que vous assignez une entrée DNS, il est disponible dans le domaine. Vous pouvez effectuer les étapes 1 à 5 dans un ordre quelconque. Cependant, vous devez exécuter les étapes 6, 7 et 8 dans l’ordre et après les étapes 1 à 5 comme indiqué dans le diagramme. Création d’enregistrements DNS comprend l’étape 5 de 8. Pour plus d’informations sur la planification DNS, consultez [exigences pour Skype pour Business Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) ou [configuration serveur requise pour Skype pour Business Server 2019](../../../SfBServer2019/plan/system-requirements.md).
+Pour Skype pour Business Server fonctionne correctement, un nombre de paramètres de nom de domaine DNS (Domain Name System) doit être en place. Il s’agit de sorte que clients savent comment accéder aux services et que les serveurs de savent à propos de l’autre. Ces paramètres doivent être effectuées qu’une seule fois par le déploiement, car une fois que vous assignez une entrée DNS, il est disponible dans le domaine. Vous pouvez effectuer les étapes 1 à 5 dans n’importe quel ordre. Cependant, vous devez suivre les étapes 6,7 et 8 dans l’ordre et après avoir effectué les étapes 1 à 5, comme expliqué dans le diagramme. Création d’enregistrements DNS comprend l’étape 5 de 8. Pour plus d’informations sur la planification DNS, consultez [exigences pour Skype pour Business Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) ou [configuration serveur requise pour Skype pour Business Server 2019](../../../SfBServer2019/plan/system-requirements.md).
   
 > [!IMPORTANT]
 > Il est important de remarquer qu’il ne s’agit que d’un exemple de la création d’enregistrements DNS dans un environnement Windows Server DNS. Il existe plusieurs autres entrées DNS requis pour Skype pour Business Server, et dépend de la procédure de création d’enregistrements DNS sur le système que vous utilisez pour gérer le système DNS dans votre organisation. Pour obtenir une liste complète des conditions requises pour le serveur DNS, voir [configuration DNS requise pour Skype pour Business Server](../../plan-your-deployment/network-requirements/dns.md). 
@@ -49,10 +50,10 @@ Cet exemple utilise un FQDN de DNS à charge équilibrée nommé pool.contoso.lo
 |FQDN du pool  <br/> |A  <br/> |pool.contoso.local  <br/> |Adresse IP du serveur SFB03  <br/> |DNS  <br/> |
 |FQDN SFB03  <br/> |A  <br/> |SFB03.contoso.local  <br/> |Adresse IP du serveur SFB03  <br/> |DNS  <br/> |
 |Fonction de découverte automatique de Skype Entreprise  <br/> |A  <br/> |lyncdiscoverinternal.contoso.local  <br/> |VIP pour les services web internes  <br/> |Logiciel et matériel pris en charge  <br/> |
-|URL simple de réunion  <br/> |A  <br/> |Meet.contoso.local  <br/> |VIP pour les services web internes  <br/> |Logiciel et matériel pris en charge  <br/> |
-|URL simple Dial-in  <br/> |A  <br/> |Dialin.contoso.local  <br/> |VIP pour les services web internes  <br/> |Logiciel et matériel pris en charge  <br/> |
-|URL simple de Web Scheduler  <br/> |A  <br/> |Scheduler.contoso.local  <br/> |VIP pour les services web internes  <br/> |Logiciel et matériel pris en charge  <br/> |
-|URL simple d’administration  <br/> |A  <br/> |Admin.contoso.local  <br/> |VIP pour les services web internes  <br/> |Logiciel et matériel pris en charge  <br/> |
+|URL simple de réunion  <br/> |A  <br/> |meet.contoso.local  <br/> |VIP pour les services web internes  <br/> |Logiciel et matériel pris en charge  <br/> |
+|URL simple Dial-in  <br/> |A  <br/> |dialin.contoso.local  <br/> |VIP pour les services web internes  <br/> |Logiciel et matériel pris en charge  <br/> |
+|URL simple de Web Scheduler  <br/> |A  <br/> |scheduler.contoso.local  <br/> |VIP pour les services web internes  <br/> |Logiciel et matériel pris en charge  <br/> |
+|URL simple d’administration  <br/> |A  <br/> |admin.contoso.local  <br/> |VIP pour les services web internes  <br/> |Logiciel et matériel pris en charge  <br/> |
 |Découverte d’élément hérité  <br/> |SRV  <br/> |_sipinternaltls._tcp.contoso.local  <br/> |FQDN du pool (port 5061)  <br/> |N/A  <br/> |
    
 ### <a name="create-dns-records"></a>Créer des enregistrements DNS

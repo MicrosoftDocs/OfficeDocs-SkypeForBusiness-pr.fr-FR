@@ -1,5 +1,6 @@
 ---
 title: Stratégie de mobilité des clients
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 6ab53530-143d-4f1e-90cd-a92685f98a20
 ROBOTS: NOINDEX, NOFOLLOW
 description: La page Stratégie de mobilité des clients affiche les stratégies de mobilité disponibles dans votre déploiement.
-ms.openlocfilehash: 8dfc3604faa9b1845358bfba4406bfd93bebeb70
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 6aa41d784f59767c62f2dc0d67440b8098009457
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23256685"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894078"
 ---
-# <a name="clients-mobility-policy"></a>Clients : Stratégie de mobilité
+# <a name="clients-mobility-policy"></a>Clients : stratégie de mobilité
 
 La page **Stratégie de mobilité** de **Clients** affiche les stratégies de mobilité disponibles dans votre déploiement.
 

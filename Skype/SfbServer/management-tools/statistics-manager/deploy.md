@@ -1,5 +1,6 @@
 ---
-title: Déployer des statistiques responsable Skype pour Business Server
+title: Déploiement du gestionnaire de statistiques pour Skype Entreprise Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,14 +11,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: 'Résumé : Lisez cette rubrique pour savoir comment déployer des statistiques Manager pour Skype pour Business Server.'
-ms.openlocfilehash: ef2dd51306dc2806161fc0c0d4b11087a2f466ea
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: 901720f87cf1c0bf78f558ed0d031bd41377799a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297698"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898257"
 ---
-# <a name="deploy-statistics-manager-for-skype-for-business-server"></a>Déployer des statistiques responsable Skype pour Business Server
+# <a name="deploy-statistics-manager-for-skype-for-business-server"></a>Déploiement du gestionnaire de statistiques pour Skype Entreprise Server
  
 **Résumé :** Lisez cette rubrique pour savoir comment déployer des statistiques Manager pour Skype pour Business Server.
   
@@ -67,7 +68,7 @@ Pour préparer la machine hôte, vous devez installer le système de mise en cac
     
     Programmes d’installation non signés peuvent être téléchargés à partir de[https://github.com/MSOpenTech/redis/releases](https://github.com/MSOpenTech/redis/releases)
     
-    Si nécessaire, des fichiers binaires signés sont disponibles via les gestionnaires de package populaires suivants : [Nuget](https://www.nuget.org/packages/Redis-64/) et [Choclatey](https://chocolatey.org/packages/redis-64).
+    Si nécessaire, les fichiers binaires signés sont disponibles via responsables du lot populaires : [Nuget](https://www.nuget.org/packages/Redis-64/) et [Choclatey](https://chocolatey.org/packages/redis-64).
     
    - Exécutez le fichier .msi fourni et suivez les invites.
     
@@ -298,8 +299,8 @@ Microsoft recommande vivement d’utiliser un certificat signé par une autorit�
 
 Pour plus d’informations, voir les articles suivants :
   
-- [Planifier Business Server pour le Gestionnaire de statistiques de Skype](plan.md)
+- [Planifier le gestionnaire de statistiques pour Skype Entreprise Server](plan.md)
     
-- [Mise à niveau du Gestionnaire de statistiques pour Skype pour Business Server](upgrade.md)
+- [Mise à niveau du gestionnaire de statistiques pour Skype Entreprise Server](upgrade.md)
     
 - B [résoudre les statistiques du gestionnaire pour Skype pour Business Server](troubleshoot.md)

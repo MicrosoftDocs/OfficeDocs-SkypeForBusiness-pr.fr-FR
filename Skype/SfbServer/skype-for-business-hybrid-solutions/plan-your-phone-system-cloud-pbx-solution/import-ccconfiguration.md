@@ -1,5 +1,6 @@
 ---
 title: Import-CcConfiguration
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 461361a0-9aa9-469d-ace0-dc70b95cd4a3
 description: Importe le Skype pour la configuration du connecteur du nuage Professionnel à partir d’un fichier local vers le serveur hôte nuage connecteur.
-ms.openlocfilehash: c48ce321b4cf40626cc67de8ff32107bf08e5443
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 497568f45fad6b4363581785bf0be95eabfeaebf
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569725"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896622"
 ---
 # <a name="import-ccconfiguration"></a>Import-CcConfiguration
  
@@ -28,7 +29,7 @@ Import-CcConfiguration [-Force] [<CommonParameters>]
 ## <a name="examples"></a>Exemples
 <a name="Examples"> </a>
 
-### <a name="example-1"></a>Exemple 1
+### <a name="example-1"></a>Exemple 1
 
 L’exemple suivant copie la CloudConnector.ini à partir du répertoire d’application de l’instance du nuage connecteur au répertoire %SystemDrive%\ProgramData\CloudConnector :
   

@@ -1,5 +1,6 @@
 ---
 title: Planification pour sites RTC, version Cloud Connector
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: cec2d9bf-2deb-482c-841b-0e3599f94b50
 description: Lisez cette rubrique pour savoir comment planifier vos sites nuage connecteur Edition PSTN pour garantir le routage des appels efficace et économique.
-ms.openlocfilehash: fa224bd4fa3dc1d0be5db8104e414f9a78d01b30
-ms.sourcegitcommit: 58934985891818fa505ae742b1e750edccadd870
+ms.openlocfilehash: 4bf702314e46e1f8281ac6237dd8a7829900440e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2018
-ms.locfileid: "25576518"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897614"
 ---
 # <a name="plan-for-cloud-connector-edition-pstn-sites"></a>Planification pour sites RTC, version Cloud Connector
  

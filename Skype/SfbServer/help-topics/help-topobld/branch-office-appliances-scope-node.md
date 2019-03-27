@@ -1,5 +1,6 @@
 ---
 title: Nœud d’étendue des Branch Office Appliance
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,20 +12,21 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8117b88a-0a34-4bf4-b1dd-ded72b5c9c18
-description: 'Le nœud Survivable Branch Appliances répertorie le Survivable Branch Appliances à ce site de la succursale. Vous pouvez effectuer l’action suivante :'
-ms.openlocfilehash: c31e91d3d6076950b80dae9f34faa97700031c7a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Le nœud Survivable Branch Appliances répertorie le Survivable Branch Appliances sur ce site de succursale. Vous pouvez effectuer l’action suivante :'
+ms.openlocfilehash: 980c2a26787dd1e7f34f3c002771c211aded1f4a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897516"
 ---
 # <a name="branch-office-appliances-scope-node"></a>Nœud d’étendue des Branch Office Appliance
  
-Le nœud **Survivable Branch Appliances** répertorie le Survivable Branch Appliances à ce site de la succursale. Vous pouvez effectuer l’action suivante :
+Le nœud **Survivable Branch Appliances** répertorie le Survivable Branch Appliances sur ce site de succursale. Vous pouvez effectuer l’action suivante :
   
 - **Nouveau Survivable Branch Appliance** Démarre l’Assistant **Définir nouveau Survivable Branch Appliance** , qui vous permet d’ajouter un nouveau Survivable Branch Appliance à ce site.
     
-En plus de l’option Survivable Branch Appliance, vous pouvez effectuer les tâches générales suivantes :
+Outre l’option Survivable Branch Appliance, vous pouvez effectuer les tâches générales suivantes :
   
 - **Topologie** : vous pouvez utiliser cette option pour définir une nouvelle topologie, ouvrir une topologie existante, télécharger la topologie actuelle, enregistrer une copie de la topologie, publier la topologie, installer une base de données, fusionner des composants des versions antérieures ou supprimer le déploiement.
     

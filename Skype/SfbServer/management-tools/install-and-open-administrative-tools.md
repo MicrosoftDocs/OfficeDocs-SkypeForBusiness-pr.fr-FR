@@ -1,5 +1,6 @@
 ---
 title: Installer et ouvrir les outils d’administration
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Cette rubrique décrit comment installer et ouvrir les outils d’administration que vous avez besoin pour déployer et gérer Skype pour les entreprises.
-ms.openlocfilehash: a27f16ab72d8fcdd4a5c440909dfb40baadd2572
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 260d84f071558ff54511b8650868db3ebb56abcb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223163"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899476"
 ---
 # <a name="install-and-open-administrative-tools"></a>Installer et ouvrir les outils d’administration
 
@@ -40,7 +41,7 @@ Utilisez les procédures suivantes pour ouvrir les outils d’administration et 
 
 - [Assistant Déploiement](#deployment-wizard)
 - [Générateur de topologie](#topology-builder) 
-- [Panneau de configuration Skype Entreprise Server](#skype-for-business-server-control-panel)
+- [Skype pour le panneau de configuration serveur Business](#skype-for-business-server-control-panel)
 - [Skype Entreprise Server Management Shell](#skype-for-business-server-management-shell)
 
 ## <a name="deployment-wizard"></a>Assistant Déploiement
@@ -59,13 +60,13 @@ Utilisez la procédure suivante pour ouvrir le Générateur de topologie pour d�
 
 **Pour ouvrir le Skype pour le Générateur de topologie de serveur Business à concevoir la topologie**
 
-1. Ouvrez une session sur l’ordinateur sur lequel le Générateur de topologie est installé en tant que membre du groupe Admins du domaine et du groupe RTCUniversalServerAdmins.
+1. Ouvrez une session l’ordinateur où le Générateur de topologie est installé en tant que membre du groupe Admins du domaine et du groupe RTCUniversalServerAdmins.
     > [!NOTE]
     > Vous pouvez définir une topologie en utilisant un compte qui est un membre du groupe utilisateurs local, mais pour lire, publier ou activer une topologie qui est requis pour installer Skype pour Business Server sur un serveur, vous devez utiliser un compte qui est membre du groupe Admins du domaine et th groupe RTCUniversalServerAdmins de e et qui dispose d’autorisations Contrôle total (autrement dit, lire, écrire et modifier) sur le partage de fichiers que vous allez utiliser pour le magasin de fichiers d’archivage afin que le Générateur de topologie puisse configurer la liste de contrôle d’accès discrétionnaire requises ( DACL), ou d’un compte disposant de droits utilisateur équivalents.
  
 2. Démarrer le Générateur de topologies : Cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Skype pour Business Server**, puis cliquez sur **Skype pour le Générateur de topologie Business Server**.
 
-## <a name="skype-for-business-server-control-panel"></a>Panneau de configuration Skype Entreprise Server 
+## <a name="skype-for-business-server-control-panel"></a>Skype pour le panneau de configuration serveur Business 
 
 Utilisez une des procédures suivantes pour ouvrir le Skype pour Business Server Control Panel gérer la configuration des serveurs, les utilisateurs, clients et périphériques dans votre environnement.
 

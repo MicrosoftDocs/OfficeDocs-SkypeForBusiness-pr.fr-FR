@@ -1,5 +1,6 @@
 ---
 title: Gérer le contrôle d’admission des appels pour les sites d’appel
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Sites de réseau sont les bureaux ou emplacements dans chaque région réseau de contrôle d’admission des appels (CAC), E9-1-1 et les déploiements de contournement de média d’appel.
-ms.openlocfilehash: ecf23a8a052afbd21b02f8ff5507c248d42b7118
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 53140cf03110991f2c757e5d52e30a6c7db1d7de
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223170"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895418"
 ---
-# <a name="managing-call-admission-control-for-sites-in-skype-for-business-server"></a>Gestion de l’appel de contrôle d’admission des sites dans Skype pour Business Server
+# <a name="managing-call-admission-control-for-sites-in-skype-for-business-server"></a>Gestion du contrôle d’admission des appels pour les sites dans Skype Entreprise Server
 
 Sites de réseau sont les bureaux ou emplacements dans chaque région réseau de contrôle d’admission des appels (CAC), E9-1-1 et les déploiements de contournement de média d’appel. Utilisez les procédures décrites dans cet article pour configurer le contrôle d’admission des appels d’appel pour les sites réseau.
 
@@ -69,7 +70,7 @@ Sites de réseau sont les bureaux et emplacements configurés au sein de chaque 
 
 ### <a name="to-view-network-site-information-in-skype-for-business-server-control-panel"></a>Pour afficher les informations de site réseau dans Skype pour Business Server Control Panel
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou disposant des mêmes droits) ou affecté au rôle CsAdministrator, ouvrez une session sur un ordinateur qui se trouve sur votre déploiement interne.
+1.  À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou est affecté au rôle CsAdministrator, ouvrez une session sur n’importe quel ordinateur dans votre déploiement interne.
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business. 
 
@@ -112,7 +113,7 @@ Sites de réseau sont les bureaux et emplacements configurés au sein de chaque 
 
 ### <a name="to-create-a-network-site"></a>Pour créer un site réseau
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou disposant des mêmes droits) ou affecté au rôle CsAdministrator, ouvrez une session sur un ordinateur qui se trouve sur votre déploiement interne.
+1.  À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou est affecté au rôle CsAdministrator, ouvrez une session sur n’importe quel ordinateur dans votre déploiement interne.
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business. 
 
@@ -146,7 +147,7 @@ Sites de réseau sont les bureaux et emplacements configurés au sein de chaque 
 
 ### <a name="to-modify-a-network-site"></a>Pour modifier un site réseau
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou disposant des mêmes droits) ou affecté au rôle CsAdministrator, ouvrez une session sur un ordinateur qui se trouve sur votre déploiement interne.
+1.  À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou est affecté au rôle CsAdministrator, ouvrez une session sur n’importe quel ordinateur dans votre déploiement interne.
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business. 
 
@@ -170,7 +171,7 @@ Sites de réseau sont les bureaux et emplacements configurés au sein de chaque 
 
 ### <a name="to-delete-a-network-site"></a>Pour supprimer un site réseau
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou disposant des mêmes droits) ou affecté au rôle CsAdministrator, ouvrez une session sur un ordinateur qui se trouve sur votre déploiement interne.
+1.  À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou est affecté au rôle CsAdministrator, ouvrez une session sur n’importe quel ordinateur dans votre déploiement interne.
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business. 
 

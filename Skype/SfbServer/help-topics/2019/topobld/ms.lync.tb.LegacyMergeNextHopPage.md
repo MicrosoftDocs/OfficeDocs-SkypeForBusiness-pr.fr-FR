@@ -1,5 +1,6 @@
 ---
-title: 'Tronçon suivant de fusion héritée :'
+title: 'Fusion héritée : tronçon suivant'
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 14c19ac6-f91d-41cb-b6a2-e54ed06b9596
 ROBOTS: NOINDEX, NOFOLLOW
 description: Le nom de domaine complet du tronçon suivant identifie le serveur du tronçon suivant vers lequel le serveur Edge hérité achemine le trafic interne. Tapez le nom de domaine complet (FQDN) du serveur du tronçon suivant vers lequel ce serveur Edge achemine le trafic interne et sélectionnez s’il s’agit d’un pool frontal ou un directeur.
-ms.openlocfilehash: fe86d96182531783ea9a383032a3fcb4640b0a2d
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 8e9cbd2ea197f60c17b05ff2e0d6625d7a3d3ed0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21064984"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886590"
 ---
-# <a name="legacy-merge-next-hop"></a>Tronçon suivant de fusion héritée :
+# <a name="legacy-merge-next-hop"></a>Fusion héritée : tronçon suivant
  
 Le **FQDN de tronçon suivant** identifie le serveur du tronçon suivant vers lequel le serveur Edge hérité achemine le trafic interne. Tapez le nom de domaine complet (FQDN) du serveur du tronçon suivant vers lequel ce serveur Edge achemine le trafic interne et sélectionnez s’il s’agit d’un **pool frontal** ou un **directeur**. 
   

@@ -1,5 +1,6 @@
 ---
 title: Activation ou désactivation des notifications par téléphone mobile
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,12 +19,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: Découvrez comment activer ou désactiver les notifications de téléphone mobile afin que vos utilisateurs peuvent recevoir des alertes sur le courrier entrant, voix et manquées des messages instantanés.
-ms.openlocfilehash: 6ec2dad1a6084db4c83061b06d056382f90787b8
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 40d71ba5a3106e9ae33e5f39a504e1e413a58af1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23854242"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897022"
 ---
 # <a name="turn-on-or-off-mobile-phone-notifications"></a>Activation ou désactivation des notifications par téléphone mobile
 
@@ -38,7 +39,7 @@ Sur les téléphones Android et Windows, les notifications Skype Entreprise s'af
 
 1. Se connecter à Office 365.
     
-2. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.**** > ****
+2. Sélectionnez **Centre d'administration Office 365** > **Skype Entreprise**.
     
 3. Accédez à **Organisation** > **Général**. 
     
@@ -53,7 +54,7 @@ Sur les téléphones Android et Windows, les notifications Skype Entreprise s'af
 - Une fois les notifications Push désactivées, les utilisateurs ne peuvent plus les réactiver.
     
 > [!IMPORTANT]
->  Microsoft utilise d'autres sociétés pour fournir des notifications Skype Entreprise pour appareils mobiles en temps réel aux utilisateurs de Windows Phone, iPhone et iPad. Consultez la [déclaration de confidentialité pour Microsoft Skype pour les produits d’entreprise](https://go.microsoft.com/fwlink/p/?linkid=247732). 
+>  Microsoft uses other companies to provide real-time Skype for Business mobile notifications for Windows Phone, iPhone, and iPad users. See the [Privacy Statement for Microsoft Skype for Business Products](https://go.microsoft.com/fwlink/p/?linkid=247732). 
   
 ## <a name="related-topics"></a>Rubriques connexes
 

@@ -1,5 +1,6 @@
 ---
 title: Préparer le domaine actuel
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: bfcb37ca-34eb-4d0d-9694-6edd2e7fe0f3
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Pour préparer un domaine à héberger des serveurs exécutant Skype pour Business Server ou Skype pour les utilisateurs Business Server, vous devez effectuer étape 5 : préparer le domaine actuel, comme décrit dans la rubrique à l’aide du programme d’installation pour exécuter la préparation du domaine. Pour cela, vous devez être connecté en tant que membre du groupe Administrateurs du domaine dans le domaine que vous préparez ou en tant que membre du groupe Administrateurs d’entreprise de la forêt à laquelle le domaine appartient. Pour préparer le domaine :'
-ms.openlocfilehash: 1cee0b54d4a5329640ddc49a5a696bc7beaf0b84
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 0544381fbb4965bd370f1ac128d2e203de0cb109
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23256279"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896105"
 ---
 # <a name="prepare-current-domain"></a>Préparer le domaine actuel
 

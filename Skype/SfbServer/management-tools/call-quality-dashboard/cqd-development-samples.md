@@ -1,5 +1,6 @@
 ---
 title: Exemples de développement du tableau de bord de qualité des appels
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 8ca9bf7a-2d6f-48d5-a821-531009726525
 description: 'Résumé : Passez en revue un didacticiel et développement les exemples de tableau de bord de qualité des appels. Tableau de bord de qualité des appels est un outil de Skype pour Business Server.'
-ms.openlocfilehash: 994a26af99ec141b531ed3011a42f626c0c62886
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: eb2e195a9eaac54b01af6d0da498fda6fafe374c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531066"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887371"
 ---
 # <a name="cqd-development-samples"></a>Exemples de développement du tableau de bord de qualité des appels
 
@@ -346,14 +347,14 @@ Voici la procédure détaillée permettant d’accéder à la page de la carte d
    ],
    ```
 
-   Voici la dimension `[Scenarios].[ScenarioPair]` est défini sur égale `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]`. Le `[Scenario.][ScenarioPair]` est une dimension spéciale créée afin de simplifier la création de rapports. Elle possède six valeurs : `[FirstIsServer], [SecondIsServer], [FirstInside], [SecondIsServer], [FirstConnectionType], [SecondConnectionType]`. Par exemple, il suffit d’utiliser un filtre au lieu d’une combinaison de six filtres. Dans notre exemple, la valeur `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]` se traduit par le scénario dans lequel : tout d’abord est serveur, sont ensuite n’est pas, est tout d’abord à l’intérieur, la seconde est à l’intérieur, premier type de connexion câblé, et un deuxième type de connexion câblée, qui est la définition exacte de » Serveur-Client-Inside filaire ».
+   Voici la dimension `[Scenarios].[ScenarioPair]` est défini sur égale `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]`. Le `[Scenario.][ScenarioPair]` est une dimension spéciale créée afin de simplifier la création de rapports. Il possède six valeurs correspondant à `[FirstIsServer], [SecondIsServer], [FirstInside], [SecondIsServer], [FirstConnectionType], [SecondConnectionType]`. Par exemple, il suffit d’utiliser un filtre au lieu d’une combinaison de six filtres. Dans notre exemple, la valeur `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]` se traduit par le scénario dans lequel : tout d’abord est serveur, sont ensuite n’est pas, est tout d’abord à l’intérieur, la seconde est à l’intérieur, premier type de connexion câblé, et un deuxième type de connexion câblée, qui est la définition exacte de » Serveur-Client-Inside filaire ».
 
 3. Créez un ensemble de filtres par scénario. Sur la figure, chaque ligne de la carte de performance représente un autre scénario, qui sera un filtre différent (alors que les dimensions et les mesures sont identiques). 
 
 4. Analysez les résultats des appels AJAX pour les placer à la position appropriée dans le tableau. Comme il s’agit principalement de manipulation de code HTML et JavaScript, nous n’entrerons pas ici dans les détails. Le code est disponible à l’annexe A.
 
     > [!NOTE]
-    >  Si le partage de ressources Cross-Origin (CORS) est activé, les utilisateurs peuvent rencontrer des erreurs telles que « aucun en-tête 'Accès contrôle-autoriser-origine' n’est présent sur la ressource demandée. Origine 'null' est donc pas autorisé à accéder ». Pour résoudre le problème, placez le fichier HTML dans le dossier d’installation du portail (par défaut, `%SystemDrive%\Program Files\Skype for Business 2015 CQD\CQD)`). Ensuite accéder le code html à partir de n’importe quel navigateur avec l’URL `http://<servername>/cqd/<html_file_name>`. (L’URL du tableau de bord CQD local par défaut est `http://<servername>/cqd.`) 
+    >  Si le partage de ressources Cross-Origin (CORS) est activé, les utilisateurs peuvent rencontrer des erreurs telles que « aucun en-tête 'Accès contrôle-autoriser-origine' n’est présent sur la ressource demandée. Origine 'null' est donc pas autorisé à accéder ». Pour résoudre le problème, placez le fichier HTML sous le dossier où le portail est installé (par défaut, il doit être `%SystemDrive%\Program Files\Skype for Business 2015 CQD\CQD)`. Ensuite accéder le code html à partir de n’importe quel navigateur avec l’URL `http://<servername>/cqd/<html_file_name>`. (L’URL du tableau de bord CQD local par défaut est `http://<servername>/cqd.`) 
 
 ### <a name="appendix-a"></a>Annexe A
 

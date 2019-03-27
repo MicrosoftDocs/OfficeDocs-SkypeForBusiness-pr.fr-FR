@@ -1,5 +1,6 @@
 ---
 title: Empêcher les nouvelles connexions
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: ''
-ms.openlocfilehash: ec4bc6f9928d709a16eea11250403e5097596c36
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: bc9b4a1e7d6e17f09643ff14ac0e69261c326922
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222736"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889725"
 ---
 # <a name="preventing-new-connections-to-skype-for-business-server-for-server-maintenance"></a>Empêcher les nouvelles connexions à Skype pour Business Server pour la maintenance du serveur
 
@@ -43,7 +44,7 @@ En plus d’empêcher les nouvelles connexions pour tous les services sur un ser
 
 ## <a name="to-prevent-new-connections-to-skype-for-business-server"></a>Pour empêcher les nouvelles connexions à Skype Business Server
 
-1.  Ouvrez une session sur l’ordinateur local en tant que membre du groupe Administrateurs.
+1.  Ouvrez une session l’ordinateur local en tant que membre du groupe Administrateurs.
 
 2.  Ouvrez la console du composant logiciel enfichable Services : cliquez sur **Démarrer**, pointez sur **Tous les programmes**, pointez sur **Outils d’administration**, puis cliquez sur **Services**.
 

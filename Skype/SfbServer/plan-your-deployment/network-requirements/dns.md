@@ -1,5 +1,6 @@
 ---
 title: Enregistrements DNS requis pour Skype pour Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c50e38d2-b1e4-4ebd-8dc3-85d4ae7a76ee
 description: 'Résumé : Passez en revue les considérations relatives au DNS dans cette rubrique avant d’implémenter Skype pour Business Server.'
-ms.openlocfilehash: 649528c21254625b1aac8d2933c59988138b38b1
-ms.sourcegitcommit: 4967c9b1010a444475dcfbdb6dd3c058494449d9
+ms.openlocfilehash: c54f2b8509d0849ee8949dfb4c0275450e533d3f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "30069579"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891986"
 ---
 # <a name="dns-requirements-for-skype-for-business-server"></a>Enregistrements DNS requis pour Skype pour Business Server
 
@@ -26,9 +27,9 @@ ms.locfileid: "30069579"
 
 Cet article traite uniquement la planification de DNS pour Skype pour les déploiements Business Server sur un réseau d’entreprise dans les locaux. Pour Skype pour Business Online consultez « URL d’Office 365 et l’adresse IP plages » à [https://aka.ms/o365ips](https://aka.ms/o365ips).
 
-Serveur DNS service (DNS) mappe les noms d’hôtes (tels que www.<span> </span> Contoso<span></span>.com, vraisemblablement sur un serveur web) sur des adresses IP (par exemple, 10.10.10.10). Il permet la communication entre les clients et les serveurs interdépendants sur le réseau. Lorsque vous configurez une implémentation de Skype pour Business Server 2015, vous devez vous assurer que le mappage de nouveaux noms de serveur (généralement qui reflète le rôle qu’ils prendrons sur) établit une correspondance avec les adresses IP à que sont affectées.
+Serveur DNS service (DNS) mappe les noms d’hôtes (tels que www.<span> </span> Contoso<span></span>.com, vraisemblablement sur un serveur web) sur des adresses IP (par exemple, 10.10.10.10). Il permet aux clients et serveurs interdépendants communiquent entre eux sur le réseau. Lorsque vous configurez une implémentation de Skype pour Business Server 2015, vous devez vous assurer que le mappage de nouveaux noms de serveur (généralement qui reflète le rôle qu’ils prendrons sur) établit une correspondance avec les adresses IP à que sont affectées.
 
-Alors que cela peut sembler un bit complexe dans un premier temps, l’essentiel pour la planification de ce peut être effectuée à l’aide de la [Skype pour l’outil de planification de Business Server 2015](https://www.microsoft.com/en-us/download/details.aspx?id=50357). Après avoir répondu aux questions de l'assistant sur les fonctionnalités que vous prévoyez d'utiliser, vous pouvez, pour chaque site défini, afficher le rapport DNS dans le rapport d'administrateur Edge et utiliser les informations qu'il contient pour créer vos enregistrements DNS. Vous pouvez également modifier divers noms et adresses IP. Pour plus d'informations, reportez-vous à la section [Consulter le rapport DNS](../../management-tools/planning-tool/review-the-administrator-reports.md#DNS_Report). Notez que vous pouvez exporter le rapport d'administrateur Edge vers un tableur Excel ; l'une des feuilles de calcul comprendra le rapport DNS. Cet outil inclut les fonctionnalités [déconseillées de Skype pour Business Server 2019](../../../SfBServer2019/deprecated.md), il peut toujours être utilisé pour créer un plan initial si ces fonctionnalités ne sont pas activées.
+Alors que cela peut sembler un bit complexe dans un premier temps, l’essentiel pour la planification de ce peut être effectuée à l’aide de la [Skype pour l’outil de planification de Business Server 2015](https://www.microsoft.com/en-us/download/details.aspx?id=50357). Une fois que vous avez vérifié les questions de l’Assistant sur les fonctionnalités que vous prévoyez d’utiliser, pour chaque site que vous définissez vous pouvez afficher le rapport DNS dans le rapport et utiliser les informations répertoriées pour créer vos enregistrements DNS. Vous pouvez également ajuster à la plupart des noms et des adresses IP utilisées, pour plus d’informations consultez [examen du rapport DNS](../../management-tools/planning-tool/review-the-administrator-reports.md#DNS_Report). Gardez en vous pouvez exporter le rapport vers une feuille de calcul Excel, et le rapport DNS sera une des feuilles de calcul dans le fichier. Cet outil inclut les fonctionnalités [déconseillées de Skype pour Business Server 2019](../../../SfBServer2019/deprecated.md), il peut toujours être utilisé pour créer un plan initial si ces fonctionnalités ne sont pas activées.
 
 Lorsque vous installez une nouvelle implémentation comme décrit dans [créer des enregistrements DNS pour Skype pour Business Server](../../deploy/install/create-dns-records.md) et de création de votre topologie pour Skype pour Business Server, nous reconnaissons que vous pouvez choisir d’utiliser les fonctionnalités DNS intégrées à Windows Server 2016 ou un package DNS tiers, afin que nous garder les discussions dans cet article général plutôt que spécifique. Nous détaillons les conditions requises et vous laissons décider de la méthode pour les réunir.
 
@@ -49,7 +50,7 @@ Les tableaux suivants indiquent les enregistrements DNS que Skype pour Business 
 |A/AAAA   |FQDN de remplacement de services Web externes pour pool d'entreprise  <br/> *Web-ext<span></span>contoso<span></span>.com*   |Adresse IP virtuelle pour les Services Web externes de serveur frontal  <br/>*68.123.56.90*   |Requis pour permettre le trafic web server, telles que le téléchargement de la Skype pour l’application Web de gestion client. Requis si les clients mobiles résoudront le DNS en interne. Peut être converti en adresse IP Internet ou adresse IP de proxy inverse DMZ.   ||
 |A/AAAA   | Sauvegarder le FQDN du serveur SQL Server de fin <br/> *SQL1. <span> </span>contoso<span></span>.com*   |Adresse IP de serveur  <br/> *192.168.11.90*   |Mappe le nom du serveur SQL server principal fonctionne avec le pool frontal à son adresse IP   ||
 |A/AAAA   |Fin serveur miroir SQL serveur nom de domaine complet  <br/> *SQL2. <span> </span>contoso<span></span>.com*   |Adresse IP de serveur  <br/> *192.168.11.91*   |Mappe le nom du serveur pour un serveur de mise en miroir SQL principale fonctionne avec le pool frontal à son adresse IP   ||
-|A/AAAA   |FQDN du pool de directeurs  <br/>**Remarque :** Non applicable lors de l’utilisation d’un serveur de directeur autonome <br/> *DirPool. <span> </span>contoso<span></span>.com*   |Adresses IP de pool directeur  <br/> Livres DNS *192.168.21.132, 192.168.21.133* , 192.168.21.134   |Équilibrage de la charge DNS de serveurs de pool directeur. Mappages de nom du pool pour le pool directeur à une adresse IP, consultez [Déploiement d’un équilibrage de charge DNS sur les Pools frontaux et directeurs](load-balancing.md#BK_FE_Dir) <br/> Un pool directeur peut authentifier un utilisateur et est facultatif.   ||
+|A/AAAA   |FQDN du pool de directeurs  <br/>**Remarque :** Non applicable lors de l’utilisation d’un serveur de directeur autonome <br/> *DirPool. <span> </span>contoso<span></span>.com*   |Adresses IP de pool directeur  <br/> Livres DNS *192.168.21.132, 192.168.21.133* , 192.168.21.134   |Équilibrage des serveurs du Pool directeur de charge DNS. Mappages de nom du pool pour le pool directeur à une adresse IP, consultez [Déploiement d’un équilibrage de charge DNS sur les Pools frontaux et directeurs](load-balancing.md#BK_FE_Dir) <br/> Un pool directeur peut authentifier un utilisateur et est facultatif.   ||
 |A/AAAA   |FQDN du directeur   |Adresse IP du serveur de chaque serveur directeur   |Mappages de nom du pool pour le directeur à une adresse IP, consultez [Déploiement d’un équilibrage de charge DNS sur les Pools frontaux et directeurs](load-balancing.md#BK_FE_Dir)  ||
 |A/AAAA   |Pool de serveurs de médiation nom de domaine complet   |Adresses IP de pools   |Le rôle du serveur de médiation est facultatif. Vous pouvez colocaliser les services fournis pas un serveur de médiation vers un serveur ou pool frontal. Consultez [l’aide de DNS équilibrage de charge sur les Pools de serveurs de médiation](load-balancing.md#BK_Mediation)  ||
 |A/AAAA   |FQDN du serveur de médiation   |Adresse IP de serveur   |Vous pouvez colocaliser les services fournis pas un serveur de médiation vers un serveur ou pool frontal. Consultez [l’aide de DNS équilibrage de charge sur les Pools de serveurs de médiation](load-balancing.md#BK_Mediation)  ||
@@ -118,7 +119,7 @@ Le diagramme suivant illustre un exemple incluant des enregistrements DNS à la 
 **Split brain DNS** 
  <a name="BK_split"> </a>
 
-DNS Split-Brain est une configuration DNS dans laquelle deux zones DNS ont le même espace de noms. La première zone DNS traite les demandes internes, tandis que la deuxième zone DNS traite les demandes externes. tel qu'indiqué dans les tableaux. Pour plus d'informations, consultez la section [DNS Split-Brain](../../plan-your-deployment/edge-server-deployments/advanced-edge-server-dns.md#SplitBrainDNS).
+Split brain DNS est une configuration DNS où vous avez deux zones DNS avec le même espace de noms. La première zone DNS gère les demandes internes, tandis que la deuxième zone DNS gère les demandes externes, comme indiqué dans les tableaux. Pour plus d’informations, voir [DNS split brain](../../plan-your-deployment/edge-server-deployments/advanced-edge-server-dns.md#SplitBrainDNS).
 
 ## <a name="hybrid-considerations"></a>Remarque sur les environnements hybrides
 <a name="BK_Hybrid"> </a>
@@ -138,7 +139,7 @@ Skype pour Business Server prend en charge trois URL « simples » pour accéd
 
     Avec l'URL simple de réunion, les liens pour participer à des réunions sont faciles à comprendre et à communiquer.
 
-- **Dial-in** permet d'accéder à la page Web Paramètres de conférence rendez-vous. Cette page indique les numéros d'accès aux conférences et les langues dans lesquels ils sont disponibles. Elle présente également les informations relatives aux conférences affectées aux utilisateurs (c'est-à-dire, pour les réunions qui ne doivent pas être planifiées) et comporte des contrôles DTMF à utiliser en cours de conférence. Enfin, elle permet aux utilisateurs de gérer leur code confidentiel et les informations relatives aux conférences qui leur ont été affectées. L'URL simple de numérotation est incluse dans toutes les invitations aux réunions pour que les utilisateurs qui souhaitent se connecter à une réunion puissent accéder au numéro de téléphone et aux informations de code confidentiel nécessaires. Un exemple de l’URL simple Dial-in est https://<span></span>dialin. <span> </span>contoso<span></span>. com.
+- **Rendez-vous** permettant d’accéder à la page web paramètres de conférence rendez-vous. Cette page affiche les numéros rendez-vous conférence avec les langues disponibles, affectées des informations sur la conférence (c'est-à-dire, pour les réunions qui ne doivent pas être planifiées) et les contrôles DTMF pendant les conférences et prend en charge la gestion de (numéro d’identification personnelle Code confidentiel) et affecté les informations de conférence. L’URL simple Dial-in est inclus dans toutes les invitations aux réunions afin que les utilisateurs qui souhaitent se connecter à la réunion peuvent accéder au numéro de téléphone nécessaire et les informations de code confidentiel. Un exemple de l’URL simple Dial-in est https://<span></span>dialin. <span> </span>contoso<span></span>. com.
 
 - **Admin** permet d’accéder rapidement à la Skype pour le panneau de configuration serveur Business. À partir de n’importe quel ordinateur dans le pare-feu de votre organisation, un administrateur peut ouvrir la Skype pour le panneau de configuration serveur Business en tapant l’URL simple d’administration dans un navigateur. L’URL simple Admin est interne à votre organisation. Un exemple de l’URL simple Admin est https://<span></span>Admin. <span> </span>contoso<span></span>. com.
 

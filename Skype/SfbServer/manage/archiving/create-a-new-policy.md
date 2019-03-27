@@ -1,5 +1,6 @@
 ---
 title: Créer une stratégie d’archivage dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50c39731-ba2f-49c2-a571-6dc373f6aaeb
 description: 'Résumé : Découvrez comment créer une stratégie d’archivage pour Skype pour Business Server.'
-ms.openlocfilehash: 70c955d78e6c7b259732d50c47c53e8b3bedf97c
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: b8cd31e1fb921313cdbd53ad67ba55a81dda81ce
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374408"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893440"
 ---
 # <a name="create-a-new-archiving-policy-in-skype-for-business-server"></a>Créer une stratégie d’archivage dans Skype pour Business Server
 
@@ -30,7 +31,7 @@ Pour créer une nouvelle stratégie d’archivage à l’aide du panneau de conf
     
 2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business. 
     
-3. Dans la barre de navigation de gauche, cliquez sur **Surveillance et archivage**, puis sur **Stratégie d’archivage**.
+3. Dans la barre de navigation de gauche, cliquez sur **surveillance et archivage**, puis cliquez sur **Stratégie d’archivage**.
     
 4. Cliquez sur **Nouveau**, puis effectuez l’une des opérations suivantes : 
     

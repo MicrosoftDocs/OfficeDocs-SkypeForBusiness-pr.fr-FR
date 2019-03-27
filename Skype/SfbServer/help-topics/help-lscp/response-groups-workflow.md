@@ -1,5 +1,6 @@
 ---
 title: Workflow Response Groups
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e4ee8abb-e1e5-413c-919d-cd3fb7193840
 description: Groupes de réponses se composent des groupes d’agents, files d’attente et flux de travail. Flux de travail Response Group définissent les actions exécutées lorsque l’application Response Group reçoit un appel téléphonique.
-ms.openlocfilehash: c2b57fd156689b5804e2705d79c515ffe52498b6
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: a86b269b59c04c2f954bc212fa437ebc6e387b4b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23258283"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896528"
 ---
 # <a name="response-groups-workflow"></a>Workflow Response Groups
 

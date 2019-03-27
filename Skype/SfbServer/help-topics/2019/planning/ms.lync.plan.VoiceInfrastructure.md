@@ -1,5 +1,6 @@
 ---
-title: Infrastructure vocale (outil de planification)
+title: Voice Infrastructure (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,14 +14,14 @@ localization_priority: Normal
 ms.assetid: ab341060-3f2e-4a41-9be0-9ee8d29c35c5
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype pour Business Server fournit une connectivité PSTN fiable et évolutive à l’aide de connexions SIP directes à un système PBX, connexions SIP directes à une passerelle PSTN ou jonctions SIP. Pour plus d’informations, voir Plan pour la connectivité PSTN dans Skype for Business Server.
-ms.openlocfilehash: 6bfee9b76505d1d5e4e1131e5df136cee6befa50
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 422d9af716bdb1c2af55860d697d94dc50b4975a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21065275"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893398"
 ---
-# <a name="voice-infrastructure-planning-tool"></a>Infrastructure vocale (outil de planification)
+# <a name="voice-infrastructure-planning-tool"></a>Voice Infrastructure (Planning Tool)
  
 Skype pour Business Server fournit une connectivité PSTN fiable et évolutive à l’aide de connexions SIP directes à un système PBX, connexions SIP directes à une passerelle PSTN ou jonctions SIP. Pour plus d’informations, voir [planifier la connectivité PSTN dans Skype pour Business Server](../../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity-0.md).
   

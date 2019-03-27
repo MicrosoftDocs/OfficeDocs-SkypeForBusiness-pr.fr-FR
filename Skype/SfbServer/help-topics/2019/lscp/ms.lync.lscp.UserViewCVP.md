@@ -1,5 +1,6 @@
 ---
 title: Les utilisateurs afficher ou configurer la stratégie de Version du Client
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 446915b6-462e-4cc1-8584-9f59f7eb8cc8
 ROBOTS: NOINDEX, NOFOLLOW
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: 0a05626a421b2481cf1a7fd22390ff570b5ff1d4
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 16516e6b384a9790d71df70df95c36ee4268f860
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23254584"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899333"
 ---
-# <a name="users-view-or-configure-client-version-policy"></a>Utilisateurs : Afficher ou configurer la stratégie de Version du Client
+# <a name="users-view-or-configure-client-version-policy"></a>Utilisateurs : afficher ou configurer la stratégie de version du client
 
 Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
 

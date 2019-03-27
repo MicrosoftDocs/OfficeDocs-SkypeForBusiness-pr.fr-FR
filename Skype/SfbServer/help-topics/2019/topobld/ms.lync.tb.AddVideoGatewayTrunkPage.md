@@ -1,5 +1,6 @@
 ---
 title: Ajout d’une jonction de passerelle vidéo
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 9485bea9-c646-4eb7-b3d0-dcbc57cdfbda
 ROBOTS: NOINDEX, NOFOLLOW
 description: Les étapes nécessaires pour définir un nouveau rapport ou passerelle vidéo dans le Générateur de topologie sont décrites en ligne dans créer un pool VIS dans Skype pour Business Server.
-ms.openlocfilehash: cb4bfccaf9bef00afd87f9f24b588358b86a3bf1
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: c4222011089aaa1f650b24c1d5cc51f9af9fe3ce
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21082649"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899686"
 ---
 # <a name="add-video-gateway-trunk"></a>Ajout d’une jonction de passerelle vidéo
  

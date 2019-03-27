@@ -1,5 +1,6 @@
 ---
 title: Configuration du serveur d’administration principal
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Résumé : Configurer votre serveur d’administration principal, installer System Center Operations Manager et importer les packs d’administration pour Skype pour Business Server 2019.'
-ms.openlocfilehash: 39ed469227c607084dc030fa003700074a6aae9a
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: a1e77a46b450e7f2e8f706099224ae314618ed78
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26536022"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895676"
 ---
 # <a name="configure-the-primary-management-server"></a>Configuration du serveur d’administration principal
 
@@ -44,9 +45,9 @@ Lors de l’installation de System Center Operations Manager, vous devez install
 
 Pour plus d’informations sur ces produits et leur installation, voir les liens suivants :
 
-- [System Center Operations Manager 2012](https://go.microsoft.com/fwlink/p/?linkid=257527)
+- [System Center Operations Manager 2012](https://go.microsoft.com/fwlink/p/?linkid=257527)
 
-- [System Center Operations Manager 2007](https://technet.microsoft.com/en-us/library/bb735860.aspx)
+- [System Center Operations Manager 2007](https://technet.microsoft.com/en-us/library/bb735860.aspx)
 
 N’oubliez pas que vous pouvez avoir qu’un seul serveur d’administration racine par Skype pour le déploiement de serveur d’entreprise.
 
@@ -57,7 +58,7 @@ Vous pouvez étendre les fonctionnalités de System Center Operations Manager en
 - **Le composant et le Pack d’administration utilisateur** (Microsoft.LS.2019.Monitoring.ComponentAndUser.mp) suit Skype pour les problèmes Business Server enregistré dans les journaux des événements, enregistré par les compteurs de performance ou enregistré dans les enregistrements des détails des appels (CDR) ou les bases de données de qualité de l’expérience (QoE). Pour les problèmes critiques, System Center Operations Manager peut être configuré pour avertir immédiatement les administrateurs par le biais de courrier électronique, messagerie instantanée ou messagerie SMS. (SMS ou Short Message Service, est la technologie utilisée pour envoyer des messages texte à partir d’un appareil mobile à un autre).
 
     > [!NOTE]
-    >  Pour plus d’informations sur la configuration de la notification Operations Manager, voir [Configuration de la notification](https://go.microsoft.com/fwlink/p/?LinkID=268785&amp;amp;clcid=0x409).
+    >  Pour plus d’informations sur la configuration de notification Operations Manager, voir [Configuration des notifications](https://go.microsoft.com/fwlink/p/?LinkID=268785&amp;amp;clcid=0x409).
 
 - **Le Pack d’administration surveillance Active** (Microsoft.LS.2019.Monitoring.ActiveMonitoring.mp) proactive tests clé Skype pour les composants Business Server, comme connectant au système, échanger des messages instantanés ou effectuer des appels à un téléphone situé sur le réseau téléphonique commuté (PSTN ). Ces tests sont effectuées à l’aide de la Skype pour les applets de commande de transaction synthétique Business Server. Par exemple, l’applet de commande **Test-CsIM** est utilisé pour simuler une conversation par messagerie instantanée entre deux utilisateurs test. Si cette conversation simulée échoue, une alerte est générée.
 

@@ -1,5 +1,6 @@
 ---
 title: Table AudioSignal
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0013c8c6-cdf9-4d70-bc2a-cddd1560f66b
 description: Chaque enregistrement représente des mesures de signal audio d’un point de terminaison. En règle générale, chaque appel a deux enregistrements, une est pour l’appelant et une est pour l’appelé.
-ms.openlocfilehash: 0ffab37f49e55f73d8d414258e208265e2b5e9ff
-ms.sourcegitcommit: c12afd4dd5509a4552b2999430953273d36db039
+ms.openlocfilehash: 7a064f13b6f34f61dcfb72169a4b1620cd81b01f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "21781647"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895117"
 ---
 # <a name="audiosignal-table"></a>Table AudioSignal
  

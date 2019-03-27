@@ -1,5 +1,6 @@
 ---
 title: Planification de la sécurité dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: cbc800db-35f6-45c0-b9f6-d8cee0c7e922
 description: Skype pour le contenu de la sécurité Business Server.
-ms.openlocfilehash: 92207917ae14984339d6a25839df2b8f2b53ff41
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ab6a32f6ff4699e258537377c6645dcaece5549e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21006810"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895879"
 ---
 # <a name="plan-for-security-in-skype-for-business-server"></a>Planification de la sécurité dans Skype pour Business Server 
  
@@ -29,7 +30,7 @@ Ce contenu se rapporte à Skype pour la sécurité du serveur d’entreprise. La
     
 - [Fonctionnalités de sécurité clés dans Skype pour Business Server](key-security.md)
     
-- [Menaces fréquentes pour la sécurité dans l’informatique moderne](common-threats.md)
+- [Menaces de sécurité courantes dans modernes réseaux sociaux](common-threats.md)
     
 - [Infrastructure de sécurité pour Skype pour Business Server](security-framework.md)
     

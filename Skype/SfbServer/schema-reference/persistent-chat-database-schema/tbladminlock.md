@@ -1,5 +1,6 @@
 ---
 title: tblAdminLock
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -9,23 +10,24 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 785a43c0-6892-474c-821c-fa9cdbeb99d8
-description: tblAdminLock contient le verrou de l’administrateur qui est nécessaire pour exécuter certaines commandes de l’administrateur.
-ms.openlocfilehash: 919ead84ed9baab859e1e85eb2f30f5ff6902531
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: tblAdminLock contient le verrou d’administrateur nécessaire pour exécuter certaines commandes d’administration.
+ms.openlocfilehash: bf7537b7d1081bd415ff2e8fe3615864c71f593a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898951"
 ---
 # <a name="tbladminlock"></a>tblAdminLock
  
-tblAdminLock contient le verrou de l’administrateur qui est nécessaire pour exécuter certaines commandes de l’administrateur.
+tblAdminLock contient le verrou d’administrateur nécessaire pour exécuter certaines commandes d’administration.
   
 **Colonnes**
 
-|**Colonne**|**Type de**|**Description**|
+|**Colonne**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|lockExpiresTime  <br/> |DateTime, non null  <br/> |Verrou d’expiration date et heure. Le propriétaire peut étendre cette valeur périodiquement.  <br/> |
+|lockExpiresTime  <br/> |DateTime, non null  <br/> |Verrouiller la date d’expiration et l’heure. Le propriétaire peut étendre régulièrement cette valeur.  <br/> |
 |lockServerID  <br/> |int, non null  <br/> |ID du serveur qui détient le verrou.  <br/> |
-|lockActorID  <br/> |int, non null  <br/> |ID de l’entité qui détient le verrou.  <br/> |
+|lockActorID  <br/> |int, non null  <br/> |ID du principal qui détient le verrou.  <br/> |
    
 

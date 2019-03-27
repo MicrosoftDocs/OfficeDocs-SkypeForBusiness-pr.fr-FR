@@ -1,5 +1,6 @@
 ---
-title: Expanseur des paramètres du Service de Front-End médiation pour Lync Server 2010
+title: Développeur des paramètres du service de médiation frontal pour Lync Server 2010
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 37166b87-8a43-42a6-a2aa-5a45bed8a6f3
 description: 'Vous modifiez les propriétés des paramètres de la passerelle PSTN de serveur de médiation dans cette boîte de dialogue. Vous définissez les paramètres suivants :'
-ms.openlocfilehash: a70ec5e569b60c28e8ec91e86d09ac5f5285ee00
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 1a189481eebafc18e925df391c55fa5ced656d91
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371490"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889272"
 ---
-# <a name="front-end-mediation-service-settings-expander-for-lync-server-2010"></a>Expanseur des paramètres du Service de Front-End médiation pour Lync Server 2010
+# <a name="front-end-mediation-service-settings-expander-for-lync-server-2010"></a>Développeur des paramètres du service de médiation frontal pour Lync Server 2010
  
 Vous modifiez les propriétés des paramètres de la **passerelle PSTN de serveur de médiation** dans cette boîte de dialogue. Vous définissez les paramètres suivants :
   

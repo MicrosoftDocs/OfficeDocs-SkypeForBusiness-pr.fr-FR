@@ -1,5 +1,6 @@
 ---
-title: Registre-CcAppliance
+title: Register-CcAppliance
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,13 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 01eed3c5-af68-4db7-90b3-d28ebe7ffef1
 description: L’applet de commande Register-CcAppliance enregistre les informations de l’appliance vers un site RTC dans une configuration client en ligne. Une appliance doit être enregistrée avant d’être déployée et gérée par le service de gestion de Skype Entreprise, version Cloud Connector.
-ms.openlocfilehash: 8f1156ccd32b101e6eab957bc3ce7549a3bcc7d7
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: e753f92c84b880da6aac060b65726bda5f9ba1ae
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892272"
 ---
-# <a name="register-ccappliance"></a>Registre-CcAppliance
+# <a name="register-ccappliance"></a>Register-CcAppliance
  
 L’applet de commande Register-CcAppliance enregistre les informations de l’appliance vers un site RTC dans une configuration client en ligne. Une appliance doit être enregistrée avant d’être déployée et gérée par le service de gestion de Skype Entreprise, version Cloud Connector.
   
@@ -54,13 +56,13 @@ Register-CcAppliance -SiteName Site1 -ApplianceName Appliance1
 ## <a name="detailed-description"></a>Description détaillée
 <a name="DetailedDescription"> </a>
 
-Vous devez fournir le mot de passe et le nom du compte d'administrateur du client. Utiliser le compte que vous avez créé pour la gestion en ligne de connecteur de nuage. 
+Vous devez fournir le mot de passe et le nom du compte d'administrateur du client. Utiliser le compte que vous avez créé pour la gestion en nuage connecteur en ligne. 
   
-Dans la version 1.4.2 et version antérieure, suivez les instructions pour fournir le mot de passe de certificat externe mot de passe administrateur en mode sans échec, mot de passe administrateur de domaine et mot de passe administrateur de machine virtuelle. 
+Dans la version 1.4.2 et version antérieure, suivez les instructions pour fournir le mot de passe de certificat externe, le mot de passe d’administration en mode sans échec, mot de passe d’administration de domaine et le mot de passe d’administration ordinateur virtuel. 
   
-Dans la version 2.0 et ultérieure, suivez les instructions pour fournir le mot de passe de certificat externe, le mot de passe CceService et le mot de passe de CABackupFile.
+Dans la version 2.0 et versions ultérieures, suivez les instructions pour fournir le mot de passe de certificat externe, CceService mot de passe et le mot de passe CABackupFile.
   
-À la fin de l’enregistrement, redémarrez le service de gestion de Cloud connecteur et ouvrez une session sur les services en tant que compte de CceService.
+À la fin de l’inscription, redémarrez le service de gestion en nuage connecteur et ouvrez une session sur les services en tant que compte CceService.
   
 Le nom du site combiné au nom de domaine complet (FQDN) externe du serveur Edge dans le fichier CloudConnector.ini est considéré comme une identité du site RTC. Si ni le nom du site ni le FQDN externe du serveur Edge n’ont été utilisés pour inscrire un site, un nouveau site est créé pour cette appliance dans une configuration de client en ligne. Si une identité de site RTC est trouvée, un site RTC utilise cette identité et l’appliance est enregistrée sur ce site RTC.  
   
@@ -83,10 +85,10 @@ Dans la situation suivante, l’applet de commande échoue et indique que l’ap
 ## <a name="parameters"></a>Paramètres
 <a name="DetailedDescription"> </a>
 
-|**Paramètre**|**Obligatoire**|**Type de**|**Description**|
+|**Paramètre**|**Obligatoire**|**Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-|Nom du site  <br/> |Facultatif  <br/> |System.String  <br/> |Nom du site RTC sur lequel l’appliance est inscrite. La valeur par défaut est la valeur SiteName dans le fichier CloudConnector.ini.   <br/> |
-|ApplianceName  <br/> |Facultatif  <br/> |System.String  <br/> |Nom de l’appliance actuelle. La valeur par défaut est le nom de l’ordinateur du serveur hôte.  <br/> |
+|SiteName  <br/> |Facultatif   <br/> |System.String  <br/> |Nom du site RTC sur lequel l’appliance est inscrite. La valeur par défaut est la valeur SiteName dans le fichier CloudConnector.ini.   <br/> |
+|ApplianceName  <br/> |Facultatif   <br/> |System.String  <br/> |Nom de l’appliance actuelle. La valeur par défaut est le nom de l’ordinateur du serveur hôte.  <br/> |
 |Local  <br/> |Facultatif  <br/> |System.Management.Automation.SwitchParameter  <br/> |Vérification des configurations d’inscription locale sans connexion à la configuration du client en ligne.  <br/> |
    
 ## <a name="input-types"></a>Types d’entrées
@@ -102,12 +104,12 @@ Aucun
 ## <a name="see-also"></a>Voir aussi
 <a name="ReturnTypes"> </a>
 
-[Annuler l’inscription-CcAppliance](unregister-ccappliance.md)
+[Unregister-CcAppliance](unregister-ccappliance.md)
   
-[Publication-CcAppliance](publish-ccappliance.md)
+[Publish-CcAppliance](publish-ccappliance.md)
   
-[Installation-CcAppliance](install-ccappliance.md)
+[Install-CcAppliance](install-ccappliance.md)
   
-[CcAppliance-désinstaller](uninstall-ccappliance.md)
+[Uninstall-CcAppliance](uninstall-ccappliance.md)
   
 

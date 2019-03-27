@@ -1,5 +1,6 @@
 ---
 title: Identification et résolution des problèmes de votre déploiement Cloud Connector
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6cf58cc-dbd9-4f35-a51a-3e2fea71b5a5
 description: Résoudre les problèmes de votre déploiement en nuage connecteur Edition.
-ms.openlocfilehash: 2290d032f1461c37c31d138510388f17a52f5843
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: a80d6977ff565d5d06f2487e5fb3ab8293b5e000
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531904"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894465"
 ---
 # <a name="troubleshoot-your-cloud-connector-deployment"></a>Identification et résolution des problèmes de votre déploiement Cloud Connector
  
@@ -85,11 +86,11 @@ Voici des solutions aux problèmes couramment rencontrés :
 
 - 
     
-    **Problème : après l'installation du serveur et de la forêt Active Directory, le serveur CMS et/ou le serveur de médiation n'ont pas correctement rejoint le domaine.**
+    **Problème : Une fois que le serveur Active Directory et la forêt sont installés, le serveur CMS et/ou le serveur de médiation ne pas joindre le domaine correctement.**
     
     **Résolution :** Pour résoudre ce problème, suivez les étapes suivantes :
     
-  - Connectez-vous au serveur Active Directory et vérifiez que le domaine a été correctement créé.
+  - Ouvrez une session sur le serveur Active Directory et vérifiez que le domaine a été correctement créé.
     
   - Connectez-vous au serveur CMS/de médiation et vérifiez qu’une adresse IP valide est affectée à la NIC du réseau interne, et qu'une adresse IP statique et le DNS sont configurés comme adresse IP du serveur AD.
     
@@ -179,13 +180,13 @@ Voici des solutions aux problèmes couramment rencontrés :
     
 - **Problème : L’applet de commande Get-CcRunningVersion renvoie une valeur vide s’il existe une solution déployée en cours d’exécution sur l’hôte.**
     
-  **Résolution :** Cela peut arriver quand vous passez de la version 1.3.4 ou 1.3.8 à la version 1.4.1. Après l’installation de la 1.4.1 avec le .msi, vous devez exécuter `Register-CcAppliance` avant d’exécuter une quelconque autre applet de commande. `Register-CcAppliance` fera migrer le module du fichier .ini de %UserProfile%\CloudConnector vers %ProgramData%\CloudConnector. Si vous l’avez manqué, un nouveau module .ini sera créé dans le dossier %ProgramData%\CloudConnector et remplacera les informations de la version exécutée ou de sauvegarde pour la version 1.3.4 ou la 1.3.8.
+  **Résolution :** Cela peut se produire lorsque vous mettez à niveau 1.3.4 ou 1.3.8 une à 1.4.1. Après avoir installé la version 1.4.1 avec le fichier .msi, vous devez exécuter `Register-CcAppliance` avant d’exécuter une applet de commande autres. `Register-CcAppliance`le fichier module.ini migrera de %UserProfile%\CloudConnector % ProgramData%\CloudConnector. Si vous l’avez manqué, un nouveau module .ini sera créé dans le dossier %ProgramData%\CloudConnector et remplacera les informations de la version exécutée ou de sauvegarde pour la version 1.3.4 ou la 1.3.8.
     
   Comparez les modules des fichier .ini dans les dossiers %UserProfile%\CloudConnector et %ProgramData%\CloudConnector. S’il existe des différences, supprimez le fichier module.ini %ProgramData%\CloudConnector et relancez `Register-CcAppliance`. Vous pouvez également modifier le fichier manuellement à la version de sauvegarde et le fonctionnement correct.
     
 - **Problème : Après avoir exécuté l’applet de commande commutateur-CcVersion pour basculer vers une ancienne version qui est différente de la version actuelle de script, il n’est aucune prise en charge de haute disponibilité pour cette version ancienne.**
     
-    **Résolution :** Par exemple, vous avez mis à niveau 1.4.1 à 1.4.2. La version actuelle de script, qui peut être déterminée en exécutant `Get-CcVersion`et la version en cours d’exécution, qui peut être déterminée en exécutant `Get-CcRunningVersion` sont les deux 1.4.2. À ce stade, si vous exécutez `Switch-CcVersion` pour faire rebasculer la version exécutée vers la version 1.4.1, la haute disponibilité pour cette ancienne version ne sera pas prise en charge.
+    **Résolution :** Par exemple, vous avez mis à niveau 1.4.1 à 1.4.2. La version actuelle de script, qui peut être déterminée en exécutant `Get-CcVersion`et la version en cours d’exécution, qui peut être déterminée en exécutant `Get-CcRunningVersion` sont les deux 1.4.2. À ce stade, si vous exécutez `Switch-CcVersion` pour activer la version en cours d’exécution 1.4.1, puis il n’y aura aucune prise en charge de haute disponibilité pour cette version ancienne.
     
     Pour que la haute disponibilité soit entièrement prise en charge, veuillez rebasculer vers la version 1.4.2 afin que la version exécutée et celle du script soient les mêmes. Si vous rencontrez des problèmes avec votre déploiement 1.4.2, veuillez désinstaller et réinstaller dès que possible.
     
@@ -274,9 +275,9 @@ Voici des solutions aux problèmes couramment rencontrés :
     
     **Résolution :** Toutes les informations d’identification sur le nuage connecteur sont stockées dans le fichier suivant : « % SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml ». Lorsque le mot de passe sur le serveur hôte change, vous devrez mettre à jour les informations d’identification stockées localement.
     
-    **Si vous exécutez la version 1.4.2 de Cloud Connector,** renouvelez tous les mots de passe Cloud Connector en suivant les étapes suivantes :
+    **Si vous exécutez nuage connecteur version 1.4.2,** régénérez tous les mots de passe dans le nuage connecteur en suivant ces étapes :
     
-  1. redémarrez le serveur hôte.
+  1. Redémarrez le serveur hôte.
     
   2. Supprimez le fichier suivant : « % SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml ».
     
@@ -284,35 +285,35 @@ Voici des solutions aux problèmes couramment rencontrés :
     
      **Si vous exécutez nuage connecteur 2.0 ou version ultérieure,** régénérez tous les mots de passe dans le nuage connecteur en suivant ces étapes :
     
-  4. redémarrez le serveur hôte.
+  4. Redémarrez le serveur hôte.
     
   5. Supprimez le fichier suivant : « % SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml ».
     
   6. Lancer une console PowerShell en tant qu’administrateur et exécutez « Register-CcAppliance-Local » à entrer les mots de passe suivant la description. 
     
-     Si le fichier du mot de passe en mémoire a été généré avec la version 1.4.2 de Cloud Connector, utilisez le mot de passe VMAdmin pour le mot de passe CceService lorsque vous y serez invité. Saisissez le même mot de passe que vous avez saisi pour le déploiement de Cloud Connector pour tous les autres comptes.
+     Si le fichier de mot de passe mis en cache a été généré avec le nuage connecteur version 1.4.2, utilisez le mot de passe VMAdmin pour le mot de passe CceService lorsque vous y êtes invité. Entrez le même mot de que passe avant le déploiement de nuage connecteur pour tous les autres comptes.
     
-     Si le fichier du mot de passe en mémoire a été généré avec la version 1.4.2 de Cloud Connector et que les mots de passe DomainAdmin et VMAdmin sont différents, suivez les étapes suivantes :
+     Si le fichier de mot de passe mis en cache a été généré avec le nuage connecteur version 1.4.2 et les mots de passe DomainAdmin et VMAdmin sont différents, vous devez effectuer les étapes suivantes :
     
-  7. Exécutez Set-CcCredential -AccountType DomainAdmin comme suit :
+  7. Exécutez Set-CcCredential - AccountType DomainAdmin comme suit :
     
-  8. Lorsque vous serez invité à entrer les anciennes informations d'identification du compte, saisissez les informations d'identification que vous avez utilisées pour le mot de passe CceService.
+  8. Pour les informations d’identification du compte ancien à l’invite, entrez les informations d’identification que vous avez utilisé pour le mot de passe CceService.
     
-  9. Lorsque vous serez invité à entrer les nouvelles informations d'identification du compte, saisissez le mot de passe DomainAdmin que vous avez utilisé auparavant.
+  9. Lorsque vous y êtes invité pour les nouvelles informations d’identification du compte, entrez le mot de passe pour le mot de passe DomainAdmin utilisé précédemment.
     
      Si le fichier de mot de passe mis en cache a été généré avec le nuage connecteur version 2.0 ou version ultérieure, par défaut, VmAdmin et DomainAdmin utilisent le même mot de passe en tant que CceService. Si vous avez modifié les mots de passe DomainAdmin et VMAdmin, vous devez effectuer les étapes suivantes :
     
-  10. Exécutez Set-CcCredential -AccountType DomainAdmin comme suit :
+  10. Exécutez Set-CcCredential - AccountType DomainAdmin comme suit :
     
-       1. Lorsque vous serez invité à entrer les anciennes informations d'identification du compte, saisissez les informations d'identification que vous avez utilisées pour le mot de passe CceService
+       1. Pour les informations d’identification du compte ancien à l’invite, entrez les informations d’identification que vous avez utilisé pour le mot de passe CceService
     
-       2. Lorsque vous serez invité à entrer les nouvelles informations d'identification du compte, saisissez le mot de passe DomainAdmin que vous avez utilisé auparavant.
+       2. Lorsque vous y êtes invité pour les nouvelles informations d’identification du compte, entrez le mot de passe pour le mot de passe DomainAdmin utilisé précédemment.
     
-  11. Exécutez Set-CcCredential -AccountType VmAdmin comme suit :
+  11. Exécutez Set-CcCredential - AccountType VmAdmin comme suit :
     
-       1. Lorsque vous serez invité à entrer les anciennes informations d'identification du compte, saisissez les informations d'identification que vous avez utilisées pour le mot de passe CceService
+       1. Pour les informations d’identification du compte ancien à l’invite, entrez les informations d’identification que vous avez utilisé pour le mot de passe CceService
     
-       2. Lorsque vous serez invité à entrer les nouvelles informations d'identification du compte, saisissez le mot de passe VmAdmin que vous avez utilisé auparavant.  
+       2. Lorsque vous y êtes invité pour les nouvelles informations d’identification du compte, entrez le mot de passe pour le mot de passe VmAdmin utilisé précédemment. 
     
 - **Problème : Avec le nuage connecteur version 2.1 et version ultérieure, lors de l’exécution Register-CcAppliance ou autres applets de commande sur le matériel, vous recevez un message d’erreur tel : » pour chaque objet : la propriété « Commune » est introuvable sur cet objet. Vérifiez que la propriété existe. À C:\Program Files\WindowsPowerShell\Modules\CloudConnector\Internal\MtHostCommon.ps1:681 caractère : 14 »**
     

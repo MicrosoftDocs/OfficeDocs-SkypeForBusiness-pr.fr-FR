@@ -1,5 +1,6 @@
 ---
 title: Composants VoIP du serveur frontal pour Skype pour Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 310e81a7-da45-47d4-95d0-92837e386502
 description: Découvrez les composants d’Enterprise Voice qui sont trouvent sur les serveurs frontaux dans Skype pour Business Server, y compris les différents composants de routage et de service de traduction automatique.
-ms.openlocfilehash: 5b99ea77d31f1697b0809c4089c801b2df729a29
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: caeec86f4b4a965570773ee4bc51a4e752e76e46
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23888896"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892800"
 ---
 # <a name="front-end-server-voip-components-for-skype-for-business-server"></a>Composants VoIP du serveur frontal pour Skype pour Business Server
 
@@ -66,7 +67,7 @@ Le composant de routage de messagerie unifiée Exchange gère également le réa
 
 Pour permettre le réacheminement des messages vocaux, nous recommandons que votre administrateur Exchange configurer Exchange UM automatique standard pour accepter uniquement les messages.
 
-Pour plus d’informations sur ces fonctionnalités, voir [On-Premises Exchange Unified Messaging Integration](https://technet.microsoft.com/library/e7c63a71-2d99-4aa9-b649-36c1a431bdf1.aspx) and [Planning for Enterprise Voice Resiliency](https://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx), respectivement.
+Pour plus d’informations sur ces fonctionnalités, reportez-vous aux rubriques [On-Premises Exchange Unified Messaging Integration](https://technet.microsoft.com/library/e7c63a71-2d99-4aa9-b649-36c1a431bdf1.aspx) et [Planning for Enterprise Voice Resiliency](https://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx), respectivement.
 
 ## <a name="intercluster-routing-component"></a>Composant de routage InterCluster
 

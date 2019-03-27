@@ -1,5 +1,6 @@
 ---
-title: Ajouter des Services Web frontaux
+title: Ajouter des services web frontaux
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 99626970-1613-41ca-a36e-24bed1f459d7
 description: L’URL de base correspond à l’identité des services web pour l’URL, moins https://. Par exemple, si l’URL complète pour les Services Web du pool est https://pool01.contoso.net, l’URL de base est pool01.contoso.net.
-ms.openlocfilehash: dbad738a6bce55d308adc1ee48b04b56c2cabb2f
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 20687fd74c90e6394d02ddeb2f6f37f6e4746e53
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21016832"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888964"
 ---
-# <a name="add-front-end-web-services"></a>Ajouter des Services Web frontaux
+# <a name="add-front-end-web-services"></a>Ajouter des services web frontaux
  
 L’URL de base correspond à l’identité des services web pour l’URL, moins https://. Par exemple, si l’URL complète pour les Services Web du pool est https://pool01.contoso.net, l’URL de base est pool01.contoso.net.
   

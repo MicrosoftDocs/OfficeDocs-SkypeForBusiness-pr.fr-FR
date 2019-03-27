@@ -1,5 +1,6 @@
 ---
 title: Table MediaLine
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 414b1d63-ae97-4c27-bac0-c9ad0f808ff0
 description: Chaque enregistrement représente une ligne de média. (Une seule session audio généralement contient une seule ligne de média audio. Un audio et vidéo (A / V) session généralement contient un média audio et une ligne de média vidéo, bien que la session peut contenir deux lignes de média vidéo si un périphérique de conférence est utilisé ou si le mode d’affichage galerie est utilisé.
-ms.openlocfilehash: fdbfc89e4d805ab30a1e870504fba72d2febe60a
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 11c309091211ce0bc480fa032e0f1dbbbbf533cd
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19505083"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896069"
 ---
 # <a name="medialine-table"></a>Table MediaLine
  

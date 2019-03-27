@@ -1,5 +1,6 @@
 ---
 title: Plan de mise à niveau vers Skype Entreprise Server 2015
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -14,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c62b5f6a-bdbe-4ac1-aabf-89e560e64a26
 description: 'Résumé : Découvrez les éléments que vous devez prendre en compte lorsque vous planifiez une mise à niveau vers Skype Business Server 2015. Téléchargez une version d’évaluation gratuite de Skype pour Business Server 2015 depuis le centre d’évaluation Microsoft à : https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: dd62ee7b8b7721b8ace7c3e49dd69df60d3229f7
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 711b675c902824e6aab31ed64266a946a135b7fb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375133"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899164"
 ---
 # <a name="plan-to-upgrade-to-skype-for-business-server-2015"></a>Plan de mise à niveau vers Skype Entreprise Server 2015
  
@@ -39,7 +40,7 @@ Dans le cadre de votre plan de mise à niveau vers Skype pour Business Server 20
   
 |**Version**|**Recommandations**|
 |:-----|:-----|
-|Lync Server 2013  <br/> | Pour mettre à niveau, utilisez le Skype pour le Générateur de topologie Business Server et la nouvelle fonctionnalité de mise à niveau sur Place sur chacun des serveurs associés au pool. Pour obtenir la procédure détaillée, voir [planifier une mise à niveau à partir de Lync Server 2013 pour Skype pour Business Server 2015](upgrade.md#BKMK_PlanUpgradeFromLync2013) et [mise à niveau vers Skype pour Business Server 2015](../deploy/upgrade-to-skype-for-business-server.md) . <br/> |
+|Lync Server 2013  <br/> | Pour mettre à niveau, utilisez le Skype pour le Générateur de topologie Business Server et la nouvelle fonctionnalité de mise à niveau sur Place sur chacun des serveurs associés au pool. Pour obtenir la procédure détaillée, voir [planifier une mise à niveau à partir de Lync Server 2013 pour Skype pour Business Server 2015](upgrade.md#BKMK_PlanUpgradeFromLync2013) et [mise à niveau vers Skype pour Business Server 2015](../deploy/upgrade-to-skype-for-business-server.md) . <br/> |
 |Lync Server 2010 + Lync Server 2013 (mode double)  <br/> |Tout d’abord, mise à niveau vers Lync Server 2013, puis mettre à niveau vers Skype pour Business Server 2015 à l’aide de la nouvelle fonctionnalité de mise à niveau sur Place. En revanche, si votre topologie principale est Lync Server 2010, vous pouvez également rétrograder les composants Lync Server 2013 vers Lync Server 2010, puis mettre à niveau directement vers Skype Entreprise Server 2015. Dans ce cas, vous ne pourrez pas tirer parti de la mise à niveau sur place et utiliserez directement la coexistence entre Lync Server 2010 et Skype Entreprise Server 2015. La tri-existence n’est pas prise en charge, mais la coexistence l’est.  <br/> |
 |Lync Server 2010  <br/> |Ouvrez un nouveau pool Skype Entreprise Server 2015, puis faites migrer les utilisateurs vers ce nouveau pool. Vous pouvez ensuite désactiver l’ancien pool Lync Server 2010. Une mise à niveau de Lync Server 2010 vers Skype Entreprise Server 2015 s’apparente à une mise à niveau de Lync Server 2010 vers Lync Server 2013. Consultez la rubrique [Migration de Lync Server 2010 vers Lync Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=526615).  <br/> |
 |Office Communications Server 2007 R2  <br/> | Choisissez l’une des deux options : <br/>  Configurer un nouveau Skype pour environnement Business Server 2015. <br/>  Ou si vos matériels et logiciels répondent à la configuration requise pour Skype pour Business Server 2015, mise à niveau vers Lync Server 2013, puis mettre à niveau vers Skype pour Business Server 2015 à l’aide de la nouvelle fonctionnalité de mise à niveau sur Place. Pour plus d’informations, voir [configuration du serveur pour Skype pour Business Server 2015](requirements-for-your-environment/server-requirements.md) et [Migration d’Office Communications Server 2007 R2 vers Lync Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=526616).  <br/> |
@@ -147,7 +148,7 @@ Pour utiliser cette méthode, déplacez les utilisateurs vers un autre pool avan
    - Pour les serveurs frontaux, utilisez Start-CSWindowsService.
     
 > [!NOTE]
->  Si vous ne souhaitez pas mettre à niveaux vos bases de données d’archivage et de surveillance existants, supprimez la dépendance avant la mise à niveau de la topologie. Si vous voulez créer de nouvelles bases de données de surveillance et d’archivage, lors de la mise à niveau, vous pouvez créer un nouveau magasin SQL et l’associer au pool. Vous trouverez la procédure à suivre pour procéder ainsi dans la rubrique[mise à niveau vers Skype pour Business Server 2015](../deploy/upgrade-to-skype-for-business-server.md). > Mise à niveau ne gère pas haute disponibilité et récupération d’urgence pour Skype pour Business Server. Pour éviter d’interrompre des services d’utilisateurs, utilisez la [méthode déplacer des utilisateurs (sans interruption de l’utilisateur)](upgrade.md#bkmk_MoveUsersMethod) à la mise à niveau. > au cours du processus de mise à niveau le réplica-xds est placé dans le dossier partagé local sur le lecteur de disque avec le plus d’espace libre. Si ce disque est supprimé par la suite, vous pouvez rencontrer des problèmes, comme des services qui ne démarrent pas.
+>  Si vous ne souhaitez pas mettre à niveaux vos bases de données d’archivage et de surveillance existants, supprimez la dépendance avant la mise à niveau de la topologie. Si vous voulez créer de nouvelles bases de données de surveillance et d’archivage, lors de la mise à niveau, vous pouvez créer un nouveau magasin SQL et l’associer au pool. Vous trouverez la procédure à suivre pour procéder ainsi dans la rubrique[mise à niveau vers Skype pour Business Server 2015](../deploy/upgrade-to-skype-for-business-server.md). mise à niveau sur place > ne gère pas haute disponibilité et récupération d’urgence pour Skype pour Business Server. Pour éviter d’interrompre des services d’utilisateurs, utilisez la [méthode de déplacer des utilisateurs (sans interruption de l’utilisateur)](upgrade.md#bkmk_MoveUsersMethod) à upgrade.> au cours du processus de mise à niveau que le réplica-xds est placé dans le dossier partagé local sur le lecteur de disque avec le plus d’espace libre. Si ce disque est supprimé par la suite, vous pouvez rencontrer des problèmes, comme des services qui ne démarrent pas.
   
 ### <a name="upgrade-order"></a>Séquence de la mise à niveau
 
@@ -186,8 +187,8 @@ Pour les topologies de coexistence de Lync Server 2010 et Lync Server 2013, Alig
 ## <a name="see-also"></a>Voir aussi
 <a name="BKMK_PlanUpgradeFromLync2013"> </a>
 
-[Mise à niveau vers Skype pour Business Server 2015](../deploy/upgrade-to-skype-for-business-server.md)
+[Upgrade to Skype for Business Server 2015](../deploy/upgrade-to-skype-for-business-server.md)
   
-[Conditions préalables d’environnement pour Skype Entreprise Server 2015](requirements-for-your-environment/environmental-requirements.md)
+[Environmental requirements for Skype for Business Server 2015](requirements-for-your-environment/environmental-requirements.md)
   
-[Configuration serveur requise pour Skype Entreprise Server 2015](requirements-for-your-environment/server-requirements.md)
+[Server requirements for Skype for Business Server 2015](requirements-for-your-environment/server-requirements.md)

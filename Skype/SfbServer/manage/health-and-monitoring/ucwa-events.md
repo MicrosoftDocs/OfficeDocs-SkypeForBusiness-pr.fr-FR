@@ -1,5 +1,6 @@
 ---
 title: Événements UCWA dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 26cb409d-f4e4-43c7-873f-b694702d491d
 description: 'Résumé : Découvrez les Unified Communications Web API (UCWA) dans Skype pour Business Server.'
-ms.openlocfilehash: 5a9fa42fa1367cd4afd74bc40f30549ca5777950
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: d4de92466c33ee8d9131e1c087faa871664c0d6e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20981092"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896734"
 ---
 # <a name="ucwa-events-in-skype-for-business-server"></a>Événements UCWA dans Skype pour Business Server
  
@@ -26,7 +27,7 @@ L’API UCWA écrit les enregistrements liés aux opérations en tant qu’évé
   
 |**ID d’événement**|**Type d’événement**|**Résumé**|**Cause et solution**|
 |:-----|:-----|:-----|:-----|
-|20001  <br/> |Information  <br/> |API UCWA initialisée  <br/> |N/A  <br/> N/A  <br/> |
+|20001  <br/> |Information  <br/> |API UCWA initialisée  <br/> |N/A   <br/> N/A   <br/> |
 |20002  <br/> |Erreur  <br/> |L’API UCWA a rencontré une exception inattendue pendant son initialisation.  <br/> |Une erreur inattendue s’est produite pendant l’initialisation.  <br/> Examinez les détails de l’exception dans l’entrée correspondante du journal des événements pour déterminer la cause possible.  <br/> |
 |20003  <br/> |Erreur  <br/> |L’API UCWA a rencontré une exception non traitée.  <br/> |Une exception non traitée s’est produite.  <br/> Redémarrez le serveur. Si le problème persiste, contactez le support technique.  <br/> |
 |20004  <br/> |Erreur  <br/> |Impossible d’accéder à Exchange pour la photo HD  <br/> |La connexion à Exchange n’est pas disponible.  <br/> Vérifiez que la connexion à Exchange est disponible.  <br/> |

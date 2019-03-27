@@ -1,5 +1,6 @@
 ---
 title: Afficher les informations de code confidentiel dans Skype pour Business Server utilisateur
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 59e38117-8112-4851-82ac-a746ffa0f89d
 description: 'Résumé : Permet d’afficher les informations de code confidentiel utilisateur dans Skype pour Business Server.'
-ms.openlocfilehash: 4b0eda76e4429ee5c6d658f4d161783bc4d356a3
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 2960e31a54dd531598254ccea41dda516e9f7335
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21008558"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899693"
 ---
 # <a name="view-user-pin-information-in-skype-for-business-server"></a>Afficher les informations de code confidentiel dans Skype pour Business Server utilisateur
  
@@ -28,7 +29,7 @@ Pour participer à une conférence rendez-vous en tant qu’utilisateur authenti
   
 ### <a name="to-view-a-users-pin-in-skype-for-business-server-control-panel"></a>Pour afficher le code confidentiel d’un utilisateur dans Skype pour Business Server Control Panel
 
-1. À partir d’un compte d’utilisateur auquel est affecté un des rôles CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
+1. À partir d’un compte d’utilisateur auquel est affecté le rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
     
 2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business.  
     
@@ -44,7 +45,7 @@ Pour participer à une conférence rendez-vous en tant qu’utilisateur authenti
     
    a. Cliquez sur **Ajouter un filtre**.
     
-   b. Entrez la propriété utilisateur en tapant son nom ou en cliquant sur la flèche dans la liste déroulante.
+   b. Entrez la propriété utilisateur en tapant son nom ou en cliquant sur la flèche de la liste déroulante.
     
    c. Dans la liste déroulante **Égal à**, cliquez sur l’opérateur (par exemple, **Égal à** ou **Différent de**).
     

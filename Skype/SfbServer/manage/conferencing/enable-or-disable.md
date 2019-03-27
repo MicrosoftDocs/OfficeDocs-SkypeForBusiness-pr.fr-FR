@@ -1,5 +1,6 @@
 ---
 title: Activer ou désactiver la conférence rendez-vous dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1f7cf91-8434-42ec-b09d-7d9d01e0b357
 description: 'Résumé : Découvrez comment utiliser le panneau de configuration ou Management Shell pour activer ou désactiver la conférence rendez-vous dans Skype pour Business Server.'
-ms.openlocfilehash: 47393140e41277aef3ec137ee3f1c6a96fa9efca
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 216973e8d3a887dcae308fc5efa6d67b2415493b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20983860"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895355"
 ---
 # <a name="enable-or-disable-dial-in-conferencing-in-skype-for-business-server"></a>Activer ou désactiver la conférence rendez-vous dans Skype pour Business Server
  
@@ -24,7 +25,7 @@ Vous pouvez activer la conférence rendez-vous à l’aide de Skype pour le pann
   
 ## <a name="enable-or-disable-dial-in-conferencing-by-using-skype-for-business-server-control-panel"></a>Activer ou désactiver la conférence rendez-vous à l’aide de Skype pour Business Server Control Panel
 
-1. À partir d’un compte d’utilisateur auquel est affecté un des rôles CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
+1. À partir d’un compte d’utilisateur auquel est affecté le rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
     
 2.  Ouvrez le panneau de configuration serveur Business Skype.
     

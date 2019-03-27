@@ -1,5 +1,6 @@
 ---
 title: Détails de la table des serveurs de conversation permanente
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c22d4a76-da50-49de-9038-e0ed7b8e1b58
 description: Les rubriques suivantes détaillent les colonnes de chacune des tables de schéma de base de données conversation permanente.
-ms.openlocfilehash: 016974ff261cd862b888158f729e4baaff504366
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5ee15bfab456f2e2e5c1ea535a1b521f9544a352
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20992797"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889652"
 ---
 # <a name="persistent-chat-server-table-details"></a>Détails de la table des serveurs de conversation permanente
  
@@ -47,7 +48,7 @@ Les rubriques suivantes détaillent les colonnes de chacune des tables de schém
     
 - [tblScopePrincipal](tblscopeprincipal.md)
     
-- [table tblPrincipalRole](tblprincipalrole.md)
+- [tblPrincipalRole](tblprincipalrole.md)
     
 - [tblSiopWhiteList](tblsiopwhitelist.md)
     
@@ -59,7 +60,7 @@ Les rubriques suivantes détaillent les colonnes de chacune des tables de schém
     
 - [tblChat](tblchat.md)
     
-- [table tblLastInviteId](tbllastinviteid.md)
+- [tblLastInviteId](tbllastinviteid.md)
     
 - [tblLastChatId](tbllastchatid.md)
     
@@ -71,15 +72,15 @@ Les rubriques suivantes détaillent les colonnes de chacune des tables de schém
     
 - [tblAdminLock](tbladminlock.md)
     
-- [Systemrevision](tblsystemrevision.md)
+- [tblSystemRevision](tblsystemrevision.md)
     
-- [Activepeers](tblactivepeers.md)
+- [tblActivePeers](tblactivepeers.md)
     
 - [tblConfig](tblconfig.md)
     
 - [tblComplianceData](tblcompliancedata.md)
     
-- [la table tblComplianceFanout](tblcompliancefanout.md)
+- [tblComplianceFanout](tblcompliancefanout.md)
     
 - [tblComplianceParticipant](tblcomplianceparticipant.md)
     

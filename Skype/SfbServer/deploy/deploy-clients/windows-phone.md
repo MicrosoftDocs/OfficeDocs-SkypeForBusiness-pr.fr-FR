@@ -1,5 +1,6 @@
 ---
 title: Installation et test de Skype Entreprise pour Windows Phone
+ms.reviewer: ''
 ms.author: chucked
 author: chuckedmonson
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 54289bbe-97e7-44bf-8611-4e740fc5b998
 description: 'Résumé : Découvrez comment installer et tester Skype pour les entreprises sur votre Windows Phone.'
-ms.openlocfilehash: 0e135441a711655e42c37d0a9bd7ff4870da1d0d
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: f944b5d80928bd1454893dedc3bb4d56ba2d3033
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372929"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894956"
 ---
 # <a name="install-and-test-skype-for-business-for-windows-phone"></a>Skype Entreprise Server 2015 : installation et test de Skype Entreprise pour Windows Phone
  

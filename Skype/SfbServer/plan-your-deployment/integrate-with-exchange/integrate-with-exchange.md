@@ -1,5 +1,6 @@
 ---
 title: Planification de l’intégration de Skype Entreprise et d’Exchange
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ea22beb9-c02e-47cb-836d-97a556969052
 description: 'Résumé : Passez en revue cette rubrique pour plus d’informations sur l’intégration de Skype pour Business Server avec Exchange Server 2016 ou Exchange Server 2013.'
-ms.openlocfilehash: 13be5cf29369b84db74052b36dec288220b91395
-ms.sourcegitcommit: 155029842e76cc7ae08da48c55ba7ec827d0505c
+ms.openlocfilehash: 3e94e1ab399e8a8a825826e37a281b377a31037e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "28015339"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892335"
 ---
 # <a name="plan-to-integrate-skype-for-business-and-exchange"></a>Planifier l’intégration de Skype Entreprise et d’Exchange
  
@@ -89,23 +90,23 @@ Le tableau suivant décrit en détail les fonctionnalités prises en charge sous
   
 ||**2013/Exchange 2016/2010 (localement) + Skype pour Business Server (localement)**|**Exchange Online + Skype pour Business Server (localement)**|**Exchange 2010 (localement) + Skype pour Business Online**|**Exchange 2016/2013(on premises) + Skype pour Business Online**|**Exchange Online + Skype pour les entreprises en ligne**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|Présence dans Outlook  <br/> |O  <br/> |O  <br/> |O  <br/> |O  <br/> |O  <br/> |
-|Répondre par messagerie instantanée, appel RTC, appel Skype ou appel vidéo dans un e-mail Outlook  <br/> |O  <br/> |O  <br/> |O  <br/> |O  <br/> |O  <br/> |
-|Planification de réunions en ligne et participation à l’aide d’Outlook  <br/> |O  <br/> |O  <br/> |O  <br/> |O  <br/> |O  <br/> |
-|Présence dans Outlook Web App  <br/> |O  <br/> |O  <br/> |N  <br/> |N  <br/> |O  <br/> |
-|Répondre par messagerie instantanée, appel RTC, appel Skype ou appel vidéo dans un e-mail OWA  <br/> |O  <br/> |O  <br/> |N  <br/> |N  <br/> |O  <br/> |
-|Planification de réunions en ligne et participation via Outlook Web App  <br/> |O  <br/> |O  <br/> |N  <br/> |N  <br/> |O  <br/> |
-|Messagerie instantanée/présence dans les clients mobiles  <br/> |O  <br/> |O  <br/> |O  <br/> |O  <br/> |O  <br/> |
-|Participation à des réunions en ligne dans les clients mobiles  <br/> |O  <br/> |O  <br/> |O  <br/> |O  <br/> |O  <br/> |
-|Publication du statut en fonction des informations de disponibilité du calendrier Outlook  <br/> |O  <br/> |O  <br/> |O  <br/> |O  <br/> |O  <br/> |
-|Liste de contacts (par le biais du magasin de contacts unifié)  <br/> |O (Exchange 2016/2013 requis)  <br/> |O  <br/> |N  <br/> |N  <br/> |O  <br/> |
-|Haute résolution Photo Contact (requiert Lync 2013 ou Skype pour les clients d’entreprise au minimum. Non pris en charge pour LWA, applications mobiles, Lync 2010, Lync pour Mac et autres clients plus anciens.)  <br/> |O (Exchange 2016/2013 requis)  <br/> |O  <br/> |N  <br/> |O  <br/> |O  <br/> |
-|Délégation de réunion  <br/> |O  <br/> |O  <br/> |O  <br/> |O  <br/> |O  <br/> |
-|L’historique des Conversations et journaux d’appels manqués sont écrites dans la boîte aux lettres exchange de l’utilisateur  <br/> |O  <br/> |O  <br/> |O  <br/> |O  <br/> |O  <br/> |
-|Archivage de contenu (messagerie instantanée et réunion) dans Exchange  <br/> |O (Exchange 2016/2013 requis)  <br/> |O  <br/> |N  <br/> |N  <br/> |O  <br/> |
-|Recherche de contenu archivé  <br/> |O (Exchange 2016/2013 requis)  <br/> |O  <br/> |N  <br/> |N  <br/> |O  <br/> |
-|Messagerie vocale unifiée Exchange  <br/> |O  <br/> |O  <br/> |N  <br/> |N  <br/> |N  <br/> |
-|Historique des conversations côté serveur  <br/> |O  <br/> |O  <br/> |N  <br/> |O  <br/> |O  <br/> |
+|Présence dans Outlook  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |
+|Répondre par messagerie instantanée, appel RTC, appel Skype ou appel vidéo dans un e-mail Outlook  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |
+|Planification de réunions en ligne et participation à l’aide d’Outlook  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |
+|Présence dans Outlook Web App  <br/> |Y  <br/> |Y  <br/> |N  <br/> |N  <br/> |Y  <br/> |
+|Répondre par messagerie instantanée, appel RTC, appel Skype ou appel vidéo dans un e-mail OWA  <br/> |Y  <br/> |Y  <br/> |N  <br/> |N  <br/> |Y  <br/> |
+|Planification de réunions en ligne et participation via Outlook Web App  <br/> |Y  <br/> |Y  <br/> |N  <br/> |N  <br/> |Y  <br/> |
+|Messagerie instantanée/présence dans les clients mobiles  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |
+|Participation à des réunions en ligne dans les clients mobiles  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |
+|Publication du statut en fonction des informations de disponibilité du calendrier Outlook  <br/> |O  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |O  <br/> |
+|Liste de contacts (par le biais du magasin de contacts unifié)  <br/> |O (Exchange 2016/2013 requis)  <br/> |Y  <br/> |N  <br/> |N  <br/> |Y  <br/> |
+|Haute résolution Photo Contact (requiert Lync 2013 ou Skype pour les clients d’entreprise au minimum. Non pris en charge pour LWA, applications mobiles, Lync 2010, Lync pour Mac et autres clients plus anciens.)  <br/> |O (Exchange 2016/2013 requis)  <br/> |Y  <br/> |N  <br/> |Y  <br/> |Y  <br/> |
+|Délégation de réunion  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |
+|L’historique des Conversations et journaux d’appels manqués sont écrites dans la boîte aux lettres exchange de l’utilisateur  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |
+|Archivage de contenu (messagerie instantanée et réunion) dans Exchange  <br/> |O (Exchange 2016/2013 requis)  <br/> |Y  <br/> |N  <br/> |N  <br/> |Y  <br/> |
+|Recherche de contenu archivé  <br/> |O (Exchange 2016/2013 requis)  <br/> |Y  <br/> |N  <br/> |N  <br/> |O  <br/> |
+|Messagerie vocale unifiée Exchange  <br/> |Y  <br/> |Y  <br/> |N  <br/> |N  <br/> |N  <br/> |
+|Historique des conversations côté serveur  <br/> |O  <br/> |Y  <br/> |N  <br/> |Y  <br/> |Y  <br/> |
 
 > [!NOTE]
 > Il est un service de messagerie vocale dans le nuage qui est pris en charge pour Skype pour Business Online, Skype pour Business Server 2019, Skype pour Business Server 2015 et Lync Server 2013.

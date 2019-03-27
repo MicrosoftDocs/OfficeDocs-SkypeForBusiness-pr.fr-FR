@@ -1,5 +1,6 @@
 ---
 title: Déployer un groupe de disponibilité toujours actif sur un serveur principal dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c93c01e6-626c-40ad-92dd-373b0fe9189f
 description: Déployer le déploiement (installation) un toujours sur groupe de disponibilité dans votre Skype pour Business Server.
-ms.openlocfilehash: 2877af4d7ccf8fea0087ce67d7e92ecc5e2f8ccd
-ms.sourcegitcommit: 8e5fc1d8c19a7f26f53e40b23dd6476a8c6d805f
+ms.openlocfilehash: fcdae233e81f7c2dde3f1bdb4a79f06c95f640d0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "30800116"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897156"
 ---
 # <a name="deploy-an-always-on-availability-group-on-a-back-end-server-in-skype-for-business-server"></a>Déployer un groupe de disponibilité toujours actif sur un serveur principal dans Skype pour Business Server
  

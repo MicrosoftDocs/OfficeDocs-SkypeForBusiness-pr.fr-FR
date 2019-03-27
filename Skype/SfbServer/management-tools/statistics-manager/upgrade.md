@@ -1,5 +1,6 @@
 ---
-title: Mise à niveau du Gestionnaire de statistiques pour Skype pour Business Server
+title: Mise à niveau du gestionnaire de statistiques pour Skype Entreprise Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,14 +11,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 71f5d0a0-ca81-4ac1-b590-8f854504f21f
 description: 'Résumé : Lisez cette rubrique pour savoir comment mettre à niveau des statistiques de gestionnaire de Skype pour Business Server.'
-ms.openlocfilehash: e2118377fc782af6818d070bc0bd3f5ddacab99e
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: 8ff7eeb9c0abbd0482248f9b69db4013edda6495
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297894"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897128"
 ---
-# <a name="upgrade-statistics-manager-for-skype-for-business-server"></a>Mise à niveau du Gestionnaire de statistiques pour Skype pour Business Server
+# <a name="upgrade-statistics-manager-for-skype-for-business-server"></a>Mise à niveau du gestionnaire de statistiques pour Skype Entreprise Server
  
 **Résumé :** Lisez cette rubrique pour savoir comment mettre à niveau des statistiques de gestionnaire de Skype pour Business Server.
   
@@ -106,8 +107,8 @@ Si, pour une raison ou pour une autre, la mise à niveau automatique échoue, vo
 
 Pour plus d’informations, voir les articles suivants :
   
-- [Planifier Business Server pour le Gestionnaire de statistiques de Skype](plan.md)
+- [Planifier le gestionnaire de statistiques pour Skype Entreprise Server](plan.md)
     
-- [Déployer des statistiques responsable Skype pour Business Server](deploy.md)
+- [Déploiement du gestionnaire de statistiques pour Skype Entreprise Server](deploy.md)
     
-- [Résoudre les statistiques du gestionnaire pour Skype pour Business Server](troubleshoot.md)
+- [Dépannage du gestionnaire de statistiques pour Skype Entreprise Server](troubleshoot.md)

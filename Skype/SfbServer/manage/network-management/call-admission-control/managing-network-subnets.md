@@ -1,5 +1,6 @@
 ---
 title: Gestion des sous-réseaux
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Dans la plupart des déploiements Skype pour Business Server où le contrôle d’admission des appels (CAC) est implémenté, généralement sera un grand nombre de sous-réseaux. Pour cette raison, il est souvent préférable de configurer des sous-réseaux à partir de la Skype pour Business Server Management Shell.
-ms.openlocfilehash: e855805aebc61228c185d04cba1faa9de6700f84
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 3b61ad1b4e1eb7f11d61b32c15e337bcd4ff77c8
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223352"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899749"
 ---
-# <a name="managing-network-subnets-in-skype-for-business-server"></a>Gestion des sous-réseaux dans Skype pour Business Server
+# <a name="managing-network-subnets-in-skype-for-business-server"></a>Gestion des sous-réseaux réseau dans Skype Entreprise Server
 
 Vous pouvez utiliser soit le Skype pour le panneau de configuration serveur Business ou le Skype pour Business Server Management Shell pour gérer les sous-réseaux. Dans la plupart des déploiements Skype pour Business Server où le contrôle d’admission des appels (CAC) est implémenté, généralement sera un grand nombre de sous-réseaux. Pour cette raison, il est souvent préférable de configurer des sous-réseaux à partir de la Skype pour Business Server Management Shell.
 
@@ -27,7 +28,7 @@ Vous pouvez utiliser la procédure suivante pour afficher un sous-réseau de ré
 
 ### <a name="to-view-a-network-subnet"></a>Pour afficher un sous-réseau de réseau
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou disposant des mêmes droits) ou affecté au rôle CsAdministrator, ouvrez une session sur un ordinateur qui se trouve sur votre déploiement interne.
+1.  À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou est affecté au rôle CsAdministrator, ouvrez une session sur n’importe quel ordinateur dans votre déploiement interne.
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business. 
 
@@ -71,7 +72,7 @@ Dans la plupart des déploiements Skype pour Business Server où le contrôle d�
 
 ### <a name="to-create-a-network-subnet"></a>Pour créer un sous-réseau de réseau
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou disposant des mêmes droits) ou affecté au rôle CsAdministrator, ouvrez une session sur un ordinateur qui se trouve sur votre déploiement interne.
+1.  À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou est affecté au rôle CsAdministrator, ouvrez une session sur n’importe quel ordinateur dans votre déploiement interne.
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business. 
 
@@ -95,7 +96,7 @@ Dans la plupart des déploiements Skype pour Business Server où le contrôle d�
 
 ### <a name="to-modify-a-network-subnet"></a>Pour modifier un sous-réseau de réseau
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou disposant des mêmes droits) ou affecté au rôle CsAdministrator, ouvrez une session sur un ordinateur qui se trouve sur votre déploiement interne.
+1.  À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou est affecté au rôle CsAdministrator, ouvrez une session sur n’importe quel ordinateur dans votre déploiement interne.
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business. 
 
@@ -118,7 +119,7 @@ Dans la plupart des déploiements Skype pour Business Server où le contrôle d�
 
 ### <a name="to-delete-a-network-subnet"></a>Pour supprimer un sous-réseau de réseau
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou disposant des mêmes droits) ou affecté au rôle CsAdministrator, ouvrez une session sur un ordinateur qui se trouve sur votre déploiement interne.
+1.  À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou est affecté au rôle CsAdministrator, ouvrez une session sur n’importe quel ordinateur dans votre déploiement interne.
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business. 
 

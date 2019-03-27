@@ -1,5 +1,6 @@
 ---
 title: Gestion des fournisseurs fédérés SIP pour l’organisation
+ms.reviewer: ''
 ms:assetid: c78d7e9b-c496-40c6-9249-06ced9cb87f3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552455(v=OCS.15)
 ms:contentKeyID: 48679566
@@ -12,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Découvrez comment configurer la prise en charge pour les utilisateurs de SIP des fournisseurs fédérés.
-ms.openlocfilehash: 111a71f95f3ae6a6c9dec90f5c0b29df07266fd2
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 1259ae9d2dfd7d829caaa6dba714f0876b5500c4
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222960"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899672"
 ---
 # <a name="manage-sip-federated-providers-for-your-organization-in-skype-for-business-server"></a>Gérer les fournisseurs fédérés SIP de votre organisation dans Skype pour Business Server
 
@@ -42,7 +43,7 @@ Utilisez la procédure suivante pour créer ou modifier des fournisseurs publics
 
 ### <a name="to-create-or-edit-public-providers"></a>Pour créer ou modifier des fournisseurs publics
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou disposant des mêmes droits) ou affecté au rôle CsAdministrator, ouvrez une session sur un ordinateur qui se trouve sur votre déploiement interne.
+1.  À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou est affecté au rôle CsAdministrator, ouvrez une session sur n’importe quel ordinateur dans votre déploiement interne.
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business. 
 
@@ -76,7 +77,7 @@ Utilisez la procédure suivante pour créer ou modifier des fournisseurs héberg
 
 ### <a name="to-create-or-edit-hosted-providers"></a>Pour créer ou modifier des fournisseurs hébergés
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou disposant des mêmes droits) ou affecté au rôle CsAdministrator, ouvrez une session sur un ordinateur qui se trouve sur votre déploiement interne.
+1.  À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou est affecté au rôle CsAdministrator, ouvrez une session sur n’importe quel ordinateur dans votre déploiement interne.
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business. 
 

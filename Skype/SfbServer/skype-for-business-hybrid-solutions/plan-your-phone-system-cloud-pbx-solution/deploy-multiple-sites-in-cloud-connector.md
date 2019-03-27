@@ -1,5 +1,6 @@
 ---
 title: Déployer plusieurs sites dans Cloud Connector
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e62413fd-f68e-4825-8384-c983076bdf23
 description: En savoir plus sur le déploiement de plusieurs sites PSTN dans le nuage connecteur Edition.
-ms.openlocfilehash: 388915d0ab22dc50378d84a82c01291cfd7c99eb
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 194eaf0b68489b37a5ab1fc2d5d501177edd0b35
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532368"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895950"
 ---
 # <a name="deploy-multiple-sites-in-cloud-connector"></a>Déployer plusieurs sites dans Cloud Connector
  
@@ -69,7 +70,7 @@ ExternalMRPublicIPs=104.42.226.134
 Pour chaque site PSTN que vous souhaitez ajouter, suivez les étapes de [déploiement d’un seul site dans le nuage connecteur](deploy-a-single-site-in-cloud-connector.md).
   
 > [!IMPORTANT]
-> Le dossier partagé pour la préparation de la haute disponibilité est par site PSTN. Le dossier partagé **doit** être différente pour les sites PSTN. N’utilisez pas le même dossier partagé pour plusieurs sites. > 
+> Le dossier partagé pour la préparation de la haute disponibilité est par site PSTN. Le dossier partagé **doit** être différente pour les sites PSTN. N’utilisez pas le même dossier partagé pour plusieurs sites.> 
   
 ## <a name="single-site-with-high-availability-ha-compared-to-multi-site-deployments"></a>Site unique à haute disponibilité comparé aux déploiements multi-sites
 <a name="BKMK_SingleSitecomparedtomulti-site"> </a>

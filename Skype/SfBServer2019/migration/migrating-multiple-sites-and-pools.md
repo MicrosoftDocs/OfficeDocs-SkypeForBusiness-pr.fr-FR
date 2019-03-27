@@ -1,5 +1,6 @@
 ---
 title: Migration de plusieurs sites et pools
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'Skype pour Business Server 2019 prend en charge les déploiements sur plusieurs sites et multi-pool. Le processus de migration de plusieurs pools à Skype pour Business Server 2019 nécessite les considérations suivantes :'
-ms.openlocfilehash: 74c622c1cde4a01c51749c6942c898e11e1551f9
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 5e369adb51bf95f4e3c3d12688d1e39611aa5692
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531763"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888660"
 ---
 # <a name="migrating-multiple-sites-and-pools"></a>Migration de plusieurs sites et pools
 

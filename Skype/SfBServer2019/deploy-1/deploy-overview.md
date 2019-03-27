@@ -1,5 +1,6 @@
 ---
 title: Déployer Skype pour Business Server 2019
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -14,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: 'Résumé : Explorez ces liens pour savoir comment installer et configurer Skype pour Business Server 2019.'
-ms.openlocfilehash: a8512e55cdc0062be1548458f2ce6a4aca0296ad
-ms.sourcegitcommit: 6d4b99de7233e91dbab4f08331dac4d88c51d9e4
+ms.openlocfilehash: 8ff29f37fb63f5e174d1811d291fa282f7e67695
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "30058995"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897827"
 ---
 # <a name="deploy-skype-for-business-server-2019"></a>Déployer Skype pour Business Server 2019
  
@@ -37,7 +38,7 @@ Les articles suivants sur la façon d’installer et configurer Skype pour Busin
 |:-----|:-----|:-----|
 |![Icône de la documentation](https://docs.microsoft.com/office/media/icons/paragraph-writing-blue.svg)|[Configuration système requise pour Skype pour Business Server 2019](../plan/system-requirements.md)  <br/> |Découvrez le serveur et les exigences de Skype pour Business Server.  <br/> |
 |![Icône de la documentation](https://docs.microsoft.com/office/media/icons/paragraph-writing-blue.svg)|[Concepts de base de topologie pour Skype pour Business Server](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md) <br/> |En savoir plus sur les options de topologie et des scénarios de colocalisation de serveur pour Skype pour Business Server.  <br/> |
-|![Icône numérique Comment faire](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)|[Installation de Skype Entreprise Server](../../SfbServer/deploy/install/install.md)<br/> |Découvrez comment installer Skype pour Business Server dans diverses topologies, dans des environnements physiques et virtuels.  <br/> |
+|![Icône numérique Comment faire](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)|[Installer Skype Entreprise Server](../../SfbServer/deploy/install/install.md)<br/> |Découvrez comment installer Skype pour Business Server dans diverses topologies, dans des environnements physiques et virtuels.  <br/> |
 |![Icône numérique Comment faire](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)| [Migration vers Skype pour Business Server 2019](../migration/migration-to-skype-for-business-server-2019.md) <br/> |Découvrez comment migrer à partir de versions antérieures de Skype pour Lync Server ou de l’entreprise.  <br/> |
 |![Icône numérique Comment faire](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)|[Configure the client experience with Skype for Business](../../SfbServer/deploy/deploy-clients/configure-the-client-experience.md) <br/> |Découvrez comment configurer l’expérience client.  <br/> |
 |![Icône numérique Comment faire](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)| [Configurer la connectivité hybride entre Skype pour Business Server et Skype pour Business Online](../../SfbHybrid/hybrid/configure-hybrid-connectivity.md) <br/> |Découvrez comment configurer les logiciels prérequis pour un déploiement hybride, puis configurer votre déploiement pour gérer les utilisateurs entre Skype pour Business Server local et Skype pour Business Online.  <br/> |
@@ -51,8 +52,8 @@ Les ressources suivantes sur la planification de Skype pour Business Server sont
   
 ||**Contenu**|**Description**|
 |:-----|:-----|:-----|
-|![Icône de documents](https://docs.microsoft.com/office/media/icons/paragraph-writing-blue.svg)|[Skype Entreprise Server pour les professionnels de l’informatique](https://go.microsoft.com/fwlink/p/?LinkId=527960) <br/> |Visitez le centre de ressources pour les vidéos access, sites de Communauté, documentation, téléchargements et plus d’informations.|
+|![Icône de documents](https://docs.microsoft.com/office/media/icons/paragraph-writing-blue.svg)|[Skype pour Business Server pour les professionnels de l’informatique](https://go.microsoft.com/fwlink/p/?LinkId=527960) <br/> |Visitez le centre de ressources pour les vidéos access, sites de Communauté, documentation, téléchargements et plus d’informations.|
 |![Icône du contenu de développeur](https://docs.microsoft.com/office/media/icons/developer-blue.svg)|[Plateforme de développement Skype](https://go.microsoft.com/fwlink/?LinkId=619775) <br/> |Trouvez des ressources pour les développeurs pour Skype pour Business Server, y compris des exemples de code, des formations et des kits de développement logiciel.  <br/> |
-|![Icône des actualités, blogs, etc.](https://docs.microsoft.com/office/media/icons/blog-site-blue.svg)|[Gestion et adoption des modifications](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Blogs Office](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> [Blog de l’équipe Skype](https://go.microsoft.com/fwlink/p/?LinkId=532818) <br/> |Tenez-vous informé des équipes qui créent et document Skype pour Business Server.  <br/> |
+|![Icône des actualités, blogs, etc.](https://docs.microsoft.com/office/media/icons/blog-site-blue.svg)|[Gestion des modifications et adoption](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Blogs Office](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> [Blog de l’équipe Skype](https://go.microsoft.com/fwlink/p/?LinkId=532818) <br/> |Tenez-vous informé des équipes qui créent et document Skype pour Business Server.  <br/> |
    
 

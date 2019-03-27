@@ -1,5 +1,6 @@
 ---
-title: Ajouter le nom de domaine complet Pool d’applications approuvées
+title: Ajouter un nom de domaine complet du pool d’applications approuvées
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 5d065268-a694-49a1-b285-9be80a09995c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Pour définir un nom de domaine complet du pool Applications approuvées (FQDN), spécifiez les éléments suivants :'
-ms.openlocfilehash: c8241e5e037b4f7993c73e1a10982465ac14dcaf
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 12ea56f285dfffbe78b74c8eece8211a8676333e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21067608"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895830"
 ---
-# <a name="add-trusted-application-pool-fqdn"></a>Ajouter le nom de domaine complet Pool d’applications approuvées
+# <a name="add-trusted-application-pool-fqdn"></a>Ajouter un nom de domaine complet du pool d’applications approuvées
  
 Pour définir un nom de domaine complet du pool Applications approuvées (FQDN), spécifiez les éléments suivants :
   

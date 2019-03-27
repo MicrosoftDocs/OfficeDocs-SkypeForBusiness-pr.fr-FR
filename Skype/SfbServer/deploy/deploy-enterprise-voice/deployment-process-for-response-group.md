@@ -1,5 +1,6 @@
 ---
 title: Processus de déploiement de Response Group dans Skype pour les entreprises
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d390c8a1-dc6e-44d8-b386-2be1fca9877c
 description: Processus de déploiement et les étapes pour Response Group dans Skype pour Business Server Enterprise Voice.
-ms.openlocfilehash: 290db10e0a306217462015c43d9abb68e18ccb8a
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 83438ec17bd78a60afbc08a1c72ef84469218652
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884181"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897934"
 ---
 # <a name="deployment-process-for-response-group-in-skype-for-business"></a>Processus de déploiement de Response Group dans Skype pour les entreprises
 
@@ -105,15 +106,15 @@ Cette section ne vous concerne que si votre organisation doit prendre en charge 
 
 Pour assurer une prise en charge des caractères Yi, Meng ou Zang, vous devez modifier le classement de la base de données Rgsconfig. Modifiez le classement de la colonne **Nom** des tableaux ci-dessous dans chaque base de données Rgsconfig :
 
-- dbo. AgentGroups
+- dbo.AgentGroups
 
-- dbo. BusinessHours
+- dbo.BusinessHours
 
-- dbo. HolidaySets
+- dbo.HolidaySets
 
-- dbo. Files d’attente
+- dbo.Queues
 
-- dbo. Flux de travail
+- dbo.Workflows
 
 Pour SQL Server 2008 R2 et SQL Server 2012, utilisez la Latin_General_100 (accents) classement. Si vous utilisez ce classement, certains noms d’objet ne dépendent pas des minuscules/majuscules.
 
@@ -133,10 +134,10 @@ Vous pouvez modifier le classement à l’aide de Microsoft SQL Server Manageme
 
 |**Phase**|**Étapes**|**Autorisations**|**Documentation de déploiement**|
 |:-----|:-----|:-----|:-----|
-|Permettre aux utilisateurs de Skype pour les entreprises et pour Enterprise Voice  <br/> |Permettre aux utilisateurs qui seront agents pour Skype pour les entreprises et Enterprise Voice. Les utilisateurs doivent être activés pour pouvoir être ajoutés aux groupes d’agents. En règle générale, les utilisateurs sont activés pour Skype pour les entreprises au cours de l’édition entreprise ou d’un déploiement Standard Edition server. Les utilisateurs sont activés pour Enterprise Voice lors du déploiement d’Enterprise Voice.  <br/> |RTCUniversalUserAdmins  <br/> CsUserAdministrator  <br/> CsAdministrator  <br/> |[Activer ou désactiver des utilisateurs pour Lync Server 2013 Preview](https://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx) <br/> [Activer les utilisateurs pour Enterprise Voice sur Skype pour Business Server](enable-users-for-enterprise-voice.md) <br/> |
-|Créer et configurer les groupes Response Group, qui sont composés de groupes d’agents, de files d’attente et de flux de travail  <br/> |1. Utilisez le Skype pour le panneau de configuration serveur Business ou Skype pour Business Server Management Shell pour effectuer les opérations suivantes :  <br/> a. Créez et configurez des groupes d’agents.  <br/> b. Créez et configurez des files d’attente.  <br/> 2. vous pouvez également utiliser Skype pour Business Server Management Shell pour créer une réponse prédéfinie groupe heures et jours fériés.  <br/> 3. Utilisez l’outil de Configuration pour Response Group ou de Skype pour Business Server Management Shell pour créer des workflows (groupes de recherche ou flux d’appels réponse vocale interactive), y compris une réponse personnalisée groupe heures et jours fériés.  <br/> Vous pouvez accéder l’outil de Configuration Response Group via Skype pour le panneau de configuration serveur Business.  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> CsResponseGroupManager  <br/> |[Créer des groupes d’agents Response Group](https://technet.microsoft.com/library/2a80de17-ead0-46e8-8a27-7a4e233dbde0.aspx) <br/> [Créer des files d’attente Response Group](https://technet.microsoft.com/library/49cb86c7-2cfd-4a53-8408-d407475174ed.aspx) <br/> [(Facultatif) Groupe de réponse de définir les heures d’ouverture Skype pour les entreprises](optional-define-response-group-business-hours.md) <br/> [(Facultatif) Définir Response Group de congés dans Skype pour les entreprises](optional-define-response-group-holiday-sets.md) <br/> [Concevoir et créer des flux de travail de groupe de réponse dans Skype pour les entreprises](designing-and-creating-response-group-workflows.md) <br/> |
+|Permettre aux utilisateurs de Skype pour les entreprises et pour Enterprise Voice  <br/> |Permettre aux utilisateurs qui seront agents pour Skype pour les entreprises et Enterprise Voice. Les utilisateurs doivent être activés pour pouvoir être ajoutés aux groupes d’agents. En règle générale, les utilisateurs sont activés pour Skype pour les entreprises au cours de l’édition entreprise ou d’un déploiement Standard Edition server. Les utilisateurs sont activés pour Enterprise Voice lors du déploiement d’Enterprise Voice.  <br/> |RTCUniversalUserAdmins  <br/> CsUserAdministrator  <br/> CsAdministrator  <br/> |[Enable or Disable Users for Lync Server 2013 Preview](https://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx) <br/> [Activer les utilisateurs pour Enterprise Voice sur Skype pour Business Server](enable-users-for-enterprise-voice.md) <br/> |
+|Créer et configurer les groupes Response Group, qui sont composés de groupes d’agents, de files d’attente et de flux de travail  <br/> |1. Utilisez le Skype pour le panneau de configuration serveur Business ou Skype pour Business Server Management Shell pour effectuer les opérations suivantes :  <br/> a. Créez et configurez des groupes d’agents.  <br/> b. Créez et configurez des files d’attente.  <br/> 2. vous pouvez également utiliser Skype pour Business Server Management Shell pour créer une réponse prédéfinie groupe heures et jours fériés.  <br/> 3. Utilisez l’outil de Configuration pour Response Group ou de Skype pour Business Server Management Shell pour créer des workflows (groupes de recherche ou flux d’appels réponse vocale interactive), y compris une réponse personnalisée groupe heures et jours fériés.  <br/> Vous pouvez accéder l’outil de Configuration Response Group via Skype pour le panneau de configuration serveur Business.  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> CsResponseGroupManager  <br/> |[Create Response Group Agent Groups](https://technet.microsoft.com/library/2a80de17-ead0-46e8-8a27-7a4e233dbde0.aspx) <br/> [Create Response Group Queues](https://technet.microsoft.com/library/49cb86c7-2cfd-4a53-8408-d407475174ed.aspx) <br/> [(Facultatif) Groupe de réponse de définir les heures d’ouverture Skype pour les entreprises](optional-define-response-group-business-hours.md) <br/> [(Facultatif) Définir Response Group de congés dans Skype pour les entreprises](optional-define-response-group-holiday-sets.md) <br/> [Concevoir et créer des flux de travail de groupe de réponse dans Skype pour les entreprises](designing-and-creating-response-group-workflows.md) <br/> |
 |(Facultatif) Personnaliser les paramètres au niveau de l’application  <br/> |Utilisez Skype pour Business Server Management Shell pour personnaliser la configuration d’attente musicale par défaut, le fichier audio du attente musicale par défaut, la période de grâce de rappel de l’agent et la configuration de contexte d’appel.  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[Gestion des paramètres de Response Group au niveau de l’application dans Skype pour les entreprises](managing-application-level-response-group-settings.md) <br/> |
-|(Facultatif) Déléguer la gestion des groupes Response Group  <br/> |Affecter des utilisateurs au rôle CsResponseGroupManager pour déléguer la configuration des groupes de réponses. Responsables de groupe de réponse peuvent alors configurer les groupes Response Group qui leur.  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[Planification de contrôle d’accès basé sur un rôle](https://technet.microsoft.com/library/41204ba3-ce5b-41a8-a6c3-b444468fa328.aspx) <br/> |
+|(Facultatif) Déléguer la gestion des groupes Response Group  <br/> |Affecter des utilisateurs au rôle CsResponseGroupManager pour déléguer la configuration des groupes de réponses. Responsables de groupe de réponse peuvent alors configurer les groupes Response Group qui leur.  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[Planning for Role-Based Access Control](https://technet.microsoft.com/library/41204ba3-ce5b-41a8-a6c3-b444468fa328.aspx) <br/> |
 |Vérifier votre déploiement Response Group  <br/> |Testez la réponse aux appels des flux de travail de votre groupe de recherche et de votre système de réponse vocale interactive pour vérifier que la configuration fonctionne comme prévu.  <br/> |-  <br/> |-  <br/> |
 
 ## <a name="overview-of-workflow-creation-scenarios"></a>Vue d’ensemble des scénarios de création de flux de travail

@@ -1,5 +1,6 @@
 ---
 title: Configuration des stratégies de contrôle d’accès des utilisateurs publics
+ms.reviewer: ''
 ms:assetid: 090aea0f-ef0b-49da-9c80-02d9279f2fa6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520946(v=OCS.15)
 ms:contentKeyID: 48183343
@@ -12,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: la connectivité de messagerie instantanée public permet aux utilisateurs de votre organisation d’utiliser la messagerie instantanée pour communiquer avec les utilisateurs des services de messagerie instantanée fournis par des fournisseurs de services de messagerie instantanée publique.
-ms.openlocfilehash: 8ad406957d50f44bd8cee9465549ff86af9a3e6b
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 3ed19bf692ccc7dfc39466e304b3b1371164758c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222869"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899770"
 ---
 # <a name="configure-policies-to-control-public-user-access-in-skype-for-business-server"></a>Configurer des stratégies de contrôle d’accès des utilisateurs publics dans Skype pour Business Server
 
@@ -37,7 +38,7 @@ Utilisez la procédure suivante pour configurer une stratégie pour prendre en c
 
 ## <a name="to-configure-an-external-access-policy-to-support-public-user-access"></a>Pour configurer une stratégie d’accès externe pour prendre en charge l’accès des utilisateurs publics
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou disposant des mêmes droits) ou affecté au rôle CsAdministrator, ouvrez une session sur un ordinateur qui se trouve sur votre déploiement interne.
+1.  À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou est affecté au rôle CsAdministrator, ouvrez une session sur n’importe quel ordinateur dans votre déploiement interne.
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business. 
 
@@ -70,4 +71,4 @@ S’il s’agit d’une stratégie utilisateur, vous devez également appliquer 
 
 ## <a name="see-also"></a>Voir aussi
 
-[Gérer les fournisseurs fédérés SIP pour votre organisation](../sip-providers/manage-sip-federated-providers-for-your-organization.md)
+[Gestion des fournisseurs fédérés SIP pour l’organisation](../sip-providers/manage-sip-federated-providers-for-your-organization.md)

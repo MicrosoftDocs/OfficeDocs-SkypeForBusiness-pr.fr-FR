@@ -1,5 +1,6 @@
 ---
 title: Table ErrorCategory dans Skype pour Business Server 2015
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -9,28 +10,29 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0fde3b73-9a2f-44dd-b8dc-6df512303ff1
-description: 'La table ErrorCategory contient le nom convivial pour chaque Skype pour la classification de diagnostic Business Server 2015. Par défaut, Skype pour Business Server 2015 utilise des classifications suivantes :'
-ms.openlocfilehash: 23df7ecb7e10dc104e6274edb762369ad539f8fe
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'La table ErrorCategory contient le nom convivial pour chaque Skype pour la classification de diagnostic Business Server 2015. Par défaut, Skype pour Business Server 2015 utilise les catégories suivantes :'
+ms.openlocfilehash: 70322d30b516d003fcac015a4eda7382a13cd2be
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886958"
 ---
 # <a name="errorcategory-table-in-skype-for-business-server-2015"></a>Table ErrorCategory dans Skype pour Business Server 2015
  
-La table ErrorCategory contient le nom convivial pour chaque Skype pour la classification de diagnostic Business Server 2015. Par défaut, Skype pour Business Server 2015 utilise des classifications suivantes :
+La table ErrorCategory contient le nom convivial pour chaque Skype pour la classification de diagnostic Business Server 2015. Par défaut, Skype pour Business Server 2015 utilise les catégories suivantes :
   
 - 0 - Réussite
     
-- 1--échec attendu
+- 1 : échec attendu
     
-- 2 - arrêt
+- 2 - Échec inattendu
     
-Cette table a été introduite dans Microsoft Lync Server 2013.
+Ce tableau a été introduit dans Microsoft Lync Server 2013.
   
-|**Colonne**|**Type de données**|**Index de la clé**|**Détails**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
 |:-----|:-----|:-----|:-----|
-|**Code catégorie** <br/> |tinyint  <br/> |Principal  <br/> |Identificateur unique pour la classification.  <br/> |
-|**Nom** <br/> |nvarchar(256)  <br/> || Valeur et le nom convivial attribué à la classification. Les valeurs autorisées sont les suivantes : <br/>  0 - Réussite <br/>  1--échec attendu <br/>  2 - arrêt <br/> |
+|**CategoryId** <br/> |tinyint  <br/> |Principal  <br/> |Identificateur unique pour la classification.  <br/> |
+|**Nom** <br/> |nvarchar(256)  <br/> || Valeur et le nom convivial attribué à la classification. Les valeurs autorisées sont les suivantes : <br/>  0 - Réussite <br/>  1 : échec attendu <br/>  2 - Échec inattendu <br/> |
    
 

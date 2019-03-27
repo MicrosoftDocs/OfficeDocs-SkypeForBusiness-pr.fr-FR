@@ -1,5 +1,6 @@
 ---
-title: Configurer des serveurs d’applications approuvées
+title: Configuration des serveurs d’applications approuvées
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Dans un environnement mixte, si vous créez un nouveau serveur d’applications approuvées, vous devez définir le pool à un Skype pour Business Server 2019 pool du tronçon suivant. Dans un environnement mixte, à la fois le pool hérité et le Skype pour Business Server 2019 pool s’affichent dans la liste déroulante. Sélectionnez le pool hérité n’est pas pris en charge.
-ms.openlocfilehash: d1c79e044145a4739cf1b7bfb3992320be1e4ab3
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 79f4de527008d2d9bf295fcb82eee433d04a1691
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25027745"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890887"
 ---
-# <a name="configure-trusted-application-servers"></a>Configurer des serveurs d’applications approuvées
+# <a name="configure-trusted-application-servers"></a>Configuration des serveurs d’applications approuvées
 
 Dans un environnement mixte, si vous créez un nouveau serveur d’applications approuvées, vous devez définir le pool à un Skype pour Business Server 2019 pool du tronçon suivant. Dans un environnement mixte, à la fois le pool hérité et le Skype pour Business Server 2019 pool s’affichent dans la liste déroulante. Sélectionnez le pool hérité n’est pas pris en charge.
   

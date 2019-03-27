@@ -1,5 +1,6 @@
 ---
 title: Créer des stratégies de conférence dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8c685326-8356-4075-bf95-32324b16ef81
 description: 'Résumé : Apprenez à créer des stratégies de conférence dans Skype pour Business Server.'
-ms.openlocfilehash: 4a481d8853fdb8f022da3539c5ebeb49c3b49402
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 718eacad71ca0264785b9bb42d113c1d54679b50
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372286"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893236"
 ---
 # <a name="create-conferencing-policies-in-skype-for-business-server"></a>Créer des stratégies de conférence dans Skype pour Business Server
  
@@ -24,7 +25,7 @@ Vous pouvez créer des stratégies de conférence à l’aide de Skype pour le p
   
 ## <a name="create-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>Créer des stratégies de conférence à l’aide de Skype pour Business Server Control Panel
 
-1. À partir d’un compte d’utilisateur auquel est affecté un des rôles CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
+1. À partir d’un compte d’utilisateur auquel est affecté le rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
     
 2. Ouvrez le panneau de configuration serveur Business Skype.
     

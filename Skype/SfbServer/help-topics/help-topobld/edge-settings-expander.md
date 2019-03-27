@@ -1,5 +1,6 @@
 ---
 title: Expanseur des paramètres du pool de serveurs Edge
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 description: 'Pour modifier les paramètres d’un pool Edge de serveur unique ou de serveurs multiples, vous disposez des sections suivantes :'
-ms.openlocfilehash: c8c167673151f8fdc5801e31444cd70b1e21b068
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 23162ee4100c077d072d6cc1d72946059611ce7f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23257457"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889160"
 ---
 # <a name="edge-settings-expander"></a>Expanseur des paramètres du pool de serveurs Edge
 
@@ -63,6 +64,6 @@ Si vous déterminez que votre organisation utilisera un nom de domaine complet e
 
 ## <a name="see-also"></a>Voir aussi
 
-Pour plus d’informations sur la définition et la configuration des paramètres des Services Edge, voir [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx).
+Pour plus d’informations sur la définition et la configuration des paramètres des services Edge, reportez-vous à la rubrique[Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx).
 
 

@@ -1,5 +1,6 @@
 ---
 title: Vérifier la topologie dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -14,18 +15,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a4f4bad1-fc59-47ce-a3ea-b1b893769db6
 description: 'Résumé : Découvrez comment vérifier la Skype pour la topologie du serveur d’entreprise et serveurs Active Directory fonctionnent comme prévu. Téléchargez une version d’évaluation gratuite de Skype pour Business Server depuis le centre d’évaluation Microsoft à : https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: ed06860837805886f1d2287f23281edb90c470c1
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 03dfb45c03aa104cc5a9b265a37c347380590877
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23881972"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896420"
 ---
 # <a name="verify-the-topology-in-skype-for-business-server"></a>Vérifier la topologie dans Skype pour Business Server
  
 **Résumé :** Découvrez comment vérifier la Skype pour la topologie du serveur d’entreprise et serveurs Active Directory fonctionnent comme prévu. Téléchargez une version d’évaluation gratuite de Skype pour Business Server à partir du [Centre d’évaluation de Microsoft](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
   
-Une fois que la topologie publiée et la Skype pour les composants du système Business Server installé sur chacun des serveurs dans la topologie, vous êtes prêt à vérifier que la topologie fonctionne comme prévu. Cela inclut de vérifier que la configuration est propagée à tous les serveurs Active Directory pour que la totalité du domaine sache que Skype pour les entreprises est disponible dans le domaine. Vous pouvez effectuer les étapes 1 à 5 dans un ordre quelconque. Cependant, vous devez réaliser les étapes 6, 7 et 8 dans l’ordre stipulé, après les étapes 1 à 5, comme indiqué dans le diagramme. La vérification de la topologie est la 8e des 8 étapes.
+Une fois que la topologie publiée et la Skype pour les composants du système Business Server installé sur chacun des serveurs dans la topologie, vous êtes prêt à vérifier que la topologie fonctionne comme prévu. Cela inclut de vérifier que la configuration est propagée à tous les serveurs Active Directory pour que la totalité du domaine sache que Skype pour les entreprises est disponible dans le domaine. Vous pouvez effectuer les étapes 1 à 5 dans n’importe quel ordre. Cependant, vous devez réaliser les étapes 6, 7 et 8 dans l’ordre stipulé, après les étapes 1 à 5, comme indiqué dans le diagramme. La vérification de la topologie est la 8e des 8 étapes.
   
 ![Schéma de vue d’ensemble.](../../media/c8698b53-1282-4978-a9a6-ca3f7a778f60.png)
   
@@ -59,7 +60,7 @@ L’étape finale consiste à tester le pool frontal et confirmez que Skype pour
     
 9. Dans le volet de résultats, sélectionnez les utilisateurs que vous souhaitez ajouter, puis cliquez sur **OK**.
     
-10. Dans la page **Nouvelle Skype pour l’utilisateur Business Server** , les utilisateurs sélectionnés sont dans l’affichage des **utilisateurs** . Dans la liste **Attribuer des utilisateurs à un pool**, sélectionnez le serveur qui devrait héberger les utilisateurs.
+10. Dans la page **Nouvelle Skype pour l’utilisateur Business Server** , les utilisateurs sélectionnés sont dans l’affichage des **utilisateurs** . In the **Assign users to a pool** list, select the server where the users should reside.
     
     Voici ci-après une liste des options pouvant être utilisées pour configurer les objets.
     
