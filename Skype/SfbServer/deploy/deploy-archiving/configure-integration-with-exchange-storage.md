@@ -1,5 +1,6 @@
 ---
 title: Configurer l’intégration avec le stockage Exchange pour Skype pour Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8f48b87f-a57f-4ed8-8c79-5c75b316b696
 description: 'Résumé : Lisez cette rubrique pour savoir comment configurer l’intégration avec le stockage Exchange dans Skype pour Business Server.'
-ms.openlocfilehash: 35ef648a1076283f63752221a807da21bf4208ca
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: b60924d351114a088910795ec0eb43aa1ed7972f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370619"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891873"
 ---
 # <a name="configure-integration-with-exchange-storage-for-skype-for-business-server"></a>Configurer l’intégration avec le stockage Exchange pour Skype pour Business Server
  
@@ -28,7 +29,7 @@ Si vous utilisez l’intégration de Microsoft Exchange pour tous les utilisateu
     
 2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business. 
     
-3. Dans la barre de navigation de gauche, cliquez sur **Surveillance et archivage**, puis sur **Configuration de l’archivage**.
+3. Dans la barre de navigation de gauche, cliquez sur **surveillance et archivage**, puis cliquez sur **Configuration de l’archivage**.
     
 4. Cliquez sur le nom de la configuration de site, de pool ou globale appropriée dans la liste des configurations d’archivage, puis sur **Modifier**, sur **Afficher les détails** et procédez comme suit :
     

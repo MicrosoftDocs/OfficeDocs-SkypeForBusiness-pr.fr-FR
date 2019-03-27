@@ -1,5 +1,6 @@
 ---
 title: Configurer les paramètres globaux de déviation du trafic multimédia dans Skype pour Business Server utilise des informations de sites et aux régions
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0a21cdf1-f350-49da-b346-70806f256bea
 description: Configurer le contournement de média à utiliser uniquement pour certains sites et régions dans Skype pour Business Server Enterprise Voice.
-ms.openlocfilehash: cb3d29a57fa3ff9719ae26197106005667921ade
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 93cc6bea9a4f130bd4b2c0e455b979b477888eeb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23888671"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892736"
 ---
 # <a name="configure-media-bypass-global-settings-in-skype-for-business-server-to-use-site-and-region-information"></a>Configurer les paramètres globaux de déviation du trafic multimédia dans Skype pour Business Server utilise des informations de sites et aux régions
  

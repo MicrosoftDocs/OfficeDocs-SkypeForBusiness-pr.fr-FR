@@ -1,5 +1,6 @@
 ---
 title: Déployer le pool pilote
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Une des premières étapes requises pour la migration vers Skype pour Business Server 2019 est de déployer un pool pilote. Le pool pilote est où vous testez la coexistence de Skype pour Business Server 2019 avec votre déploiement hérité. La coexistence est un état temporaire qui dure jusqu'à ce que vous avez déplacé tous les utilisateurs et les pools à Skype pour Business Server 2019.
-ms.openlocfilehash: 9a713a567d33121449ca83516bed35b574e0da01
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: e0ac949b0cc7a52e1da5edd9f150e5f59717c08f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25027850"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890654"
 ---
 # <a name="deploy-skype-for-business-server-2019-pilot-pool"></a>Déployer Skype pour le pool pilote Business Server 2019
 
@@ -27,7 +28,7 @@ Lorsque vous déployez un pool pilote, vous utilisez l’Assistant définir un n
   
 ### <a name="to-deploy-a-skype-for-business-server-2019-pilot-pool"></a>Pour déployer un Skype pour le pool pilote Business Server 2019
 
-1. Ouvrez une session sur l’ordinateur sur lequel le Générateur de topologie est installé en tant que membre du groupe Admins du domaine et du groupe RTCUniversalServerAdmins.
+1. Ouvrez une session l’ordinateur où le Générateur de topologie est installé en tant que membre du groupe Admins du domaine et du groupe RTCUniversalServerAdmins.
     
 2. Développez l’arborescence jusqu'à ce que vous atteigniez **Skype pour Business Server 2019** > **pools frontaux Enterprise Edition**.
     

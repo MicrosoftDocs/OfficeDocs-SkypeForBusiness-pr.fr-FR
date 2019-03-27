@@ -1,5 +1,6 @@
 ---
-title: Renouveler-CcServerCertificate
+title: Renew-CcServerCertificate
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -9,16 +10,17 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7844b55e-b7e9-4599-9962-f0322728405a
-description: L’applet de commande Renew-CcServerCertificate renouvelle les certificats pour la version Cloud Connector de Skype Entreprise lorsqu’ils sont sur le point d’expirer ou qu’ils ont déjà expiré. Cette commande a été modifiée en CcServerCertificate-mise à jour dans le nuage lien 2.0 et versions ultérieures.
-ms.openlocfilehash: 3d895a24c4cc8b400aa48ce394324435cfbb3979
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: L’applet de commande Renew-CcServerCertificate renouvelle les certificats pour la version Cloud Connector de Skype Entreprise lorsqu’ils sont sur le point d’expirer ou qu’ils ont déjà expiré. Cette commande a été modifiée pour la mise à jour-CcServerCertificate dans le nuage connecteur 2.0 et versions ultérieures.
+ms.openlocfilehash: ad366bdf7f6c27552a8e7621ee9244762dd864eb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894816"
 ---
-# <a name="renew-ccservercertificate"></a>Renouveler-CcServerCertificate
+# <a name="renew-ccservercertificate"></a>Renew-CcServerCertificate
  
-L’applet de commande Renew-CcServerCertificate renouvelle les certificats pour la version Cloud Connector de Skype Entreprise lorsqu’ils sont sur le point d’expirer ou qu’ils ont déjà expiré. Cette commande a été modifiée en CcServerCertificate-mise à jour dans le nuage lien 2.0 et versions ultérieures. 
+L’applet de commande Renew-CcServerCertificate renouvelle les certificats pour la version Cloud Connector de Skype Entreprise lorsqu’ils sont sur le point d’expirer ou qu’ils ont déjà expiré. Cette commande a été modifiée pour la mise à jour-CcServerCertificate dans le nuage connecteur 2.0 et versions ultérieures. 
   
 ```
 Renew-CcServerCertificate [[-Roles] <array> {Cms | MS | Edge}]
@@ -46,12 +48,12 @@ Renew-CcServerCertificate-Roles @("MS", "Edge")
 ## <a name="detailed-description"></a>Description détaillée
 <a name="DetailedDescription"> </a>
 
-Connecteur de nuage émis des certificats internes pour le magasin Central de gestion, serveur de médiation et serveur de transport Edge sont valides pendant deux ans après que qu’ils sont émis à partir d’un service de l’autorité de certification. Si les certificats sont sur le point d’expirer ou qu’ils ont déjà expiré, exécutez l’applet de commande Renew-CcServerCertificate afin de les renouveler. 
+Nuage connecteur internes certificats émis vers le magasin Central de gestion, le serveur de médiation et le serveur de périphérie sont valides pour les deux ans après que qu’ils sont émis à partir d’un service de l’autorité de certification. Si les certificats sont sur le point d’expirer ou qu’ils ont déjà expiré, exécutez l’applet de commande Renew-CcServerCertificate afin de les renouveler. 
   
 ## <a name="parameters"></a>Paramètres
 <a name="DetailedDescription"> </a>
 
-|**Paramètre**|**Obligatoire**|**Type de**|**Description**|
+|**Paramètre**|**Obligatoire**|**Type**|**Description**|
 |:-----|:-----|:-----|:-----|
 |Rôles  <br/> |Facultatif  <br/> |System.Array  <br/> | Série de rôles des serveurs de Cloud Connector. <br/> |
    
@@ -68,10 +70,10 @@ Aucun
 ## <a name="see-also"></a>Voir aussi
 <a name="ReturnTypes"> </a>
 
-[Réinitialisation-CcCACertificate](reset-cccacertificate.md)
+[Reset-CcCACertificate](reset-cccacertificate.md)
   
-[Renouveler-CcServerCertificate](renew-ccservercertificate.md)
+[Renew-CcServerCertificate](renew-ccservercertificate.md)
   
-[Exportation-CcRootCertificate](export-ccrootcertificate.md)
+[Export-CcRootCertificate](export-ccrootcertificate.md)
   
 

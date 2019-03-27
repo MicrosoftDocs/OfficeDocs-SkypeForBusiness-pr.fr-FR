@@ -1,5 +1,6 @@
 ---
 title: Expanseur des paramètres du serveur
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,11 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bef91d55-a75c-495f-a523-4930797192f6
 description: 'Ce nœud affiche le nom de domaine complet (FQDN) du serveur et la configuration de l’adresse IP de ce serveur. Vous pouvez effectuer les actions suivantes :'
-ms.openlocfilehash: ba6af8ec91f93ecb29bae490f964bd42b33ba67a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 4c07983a9c6c78d375b093e0f602c69160cad9e1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894043"
 ---
 # <a name="server-settings-expander"></a>Expanseur des paramètres du serveur
  

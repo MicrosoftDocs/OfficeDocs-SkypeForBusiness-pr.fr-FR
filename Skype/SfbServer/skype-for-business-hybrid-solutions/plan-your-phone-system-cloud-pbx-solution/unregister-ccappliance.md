@@ -1,5 +1,6 @@
 ---
-title: Annuler l’inscription-CcAppliance
+title: Unregister-CcAppliance
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,13 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3d516e65-fb9b-4a0b-8296-969fc9eda334
 description: L’applet de commande Unregister-CcAppliance annule l’inscription de l’appliance actuelle de la version Cloud Connector de Skype Entreprise à partir d’un site RTC dans la configuration client en ligne.
-ms.openlocfilehash: 21bd0a7dffc6a395f829af68a61dfd7523d2c09a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 6ee21f66c2b189aff8c8aa7d831369536618b18c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892003"
 ---
-# <a name="unregister-ccappliance"></a>Annuler l’inscription-CcAppliance
+# <a name="unregister-ccappliance"></a>Unregister-CcAppliance
  
 L’applet de commande Unregister-CcAppliance annule l’inscription de l’appliance actuelle de la version Cloud Connector de Skype Entreprise à partir d’un site RTC dans la configuration client en ligne.
   
@@ -56,15 +58,15 @@ Unregister-CcAppliance -SiteName Site1 -ApplianceName Appliance1
 
 Identique à l’applet de commande Register-CcAppliance, SiteName associé au FQDN externe du serveur Edge dans le fichier .ini de CloudConnector est considéré comme une identité de site RTC. De même, ApplianceName associé au FQDN du serveur de médiation dans le fichier .ini de CloudConnector est considéré comme une identité d’appliance.
   
-Une fois que la solution matérielle-logicielle est annulée, redémarrez le service de gestion de connecteur de Cloud et le journal sur le compte NetworkService.
+Une fois que l’application est annulée, redémarrez le service de gestion en nuage connecteur et le journal sur le compte NetworkService.
   
 ## <a name="parameters"></a>Paramètres
 <a name="DetailedDescription"> </a>
 
-|**Paramètre**|**Obligatoire**|**Type de**|**Description**|
+|**Paramètre**|**Obligatoire**|**Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| Nom du site <br/> |Facultatif  <br/> |System.String  <br/> |Le nom du site RTC où l’appliance est enregistrée. La valeur par défaut est la valeur SiteName dans le fichier CloudConnector.ini.  <br/> |
-|ApplianceName  <br/> |Facultatif  <br/> |System.String  <br/> |Nom de l’appliance actuelle. La valeur par défaut est le nom de l’ordinateur du serveur hôte.  <br/> |
+| SiteName <br/> |Facultatif   <br/> |System.String  <br/> |Le nom du site RTC où l’appliance est enregistrée. La valeur par défaut est la valeur SiteName dans le fichier CloudConnector.ini.  <br/> |
+|ApplianceName  <br/> |Facultatif   <br/> |System.String  <br/> |Nom de l’appliance actuelle. La valeur par défaut est le nom de l’ordinateur du serveur hôte.  <br/> |
 |Local  <br/> |Facultatif  <br/> |System.Management.Automation.SwitchParameter  <br/> |Vérifiez la configuration d’inscription locale sans connexion à une configuration client en ligne.  <br/> |
    
 ## <a name="input-types"></a>Types d’entrées
@@ -80,12 +82,12 @@ Aucun
 ## <a name="see-also"></a>Voir aussi
 <a name="ReturnTypes"> </a>
 
-[Registre-CcAppliance](register-ccappliance.md)
+[Register-CcAppliance](register-ccappliance.md)
   
-[Installation-CcAppliance](install-ccappliance.md)
+[Install-CcAppliance](install-ccappliance.md)
   
-[CcAppliance-désinstaller](uninstall-ccappliance.md)
+[Uninstall-CcAppliance](uninstall-ccappliance.md)
   
-[Publication-CcAppliance](publish-ccappliance.md)
+[Publish-CcAppliance](publish-ccappliance.md)
   
 

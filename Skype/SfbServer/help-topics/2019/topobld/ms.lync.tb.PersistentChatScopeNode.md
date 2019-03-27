@@ -1,5 +1,6 @@
 ---
 title: Nœud d’étendue de la conversation permanente
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 35dfc16f-7190-4993-9d4a-e0262bf35166
 ROBOTS: NOINDEX, NOFOLLOW
 description: Pour commencer la création d’un nouveau serveur de conversation permanente ou un pool de serveurs de conversation permanente, dans le Générateur de topologie vous cliquez avec le bouton droit sur pools de conversation permanente, puis Nouveau Pool de conversations permanentes
-ms.openlocfilehash: 31239b226ed1a9a07db7613ac2cd10cef579d544
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 940cd2595ecde9fde7894bb16e08bf4d66f7611c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21057396"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891553"
 ---
 # <a name="persistent-chat-scope-node"></a>Nœud d’étendue de la conversation permanente
 

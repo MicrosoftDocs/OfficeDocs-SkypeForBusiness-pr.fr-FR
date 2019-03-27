@@ -1,5 +1,6 @@
 ---
-title: Déployer le serveur Edge pilote
+title: Déploiement d’un serveur Edge pilote
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Cette rubrique présente les paramètres de configuration que vous devez connaître avant de déployer votre Skype pour Business Server 2019 Edge Server. Les processus de déploiement et configuration pour Skype pour Business Server 2019 sont très similaires aux Skype pour Business Server 2015. Cette section met en évidence uniquement les points clés que vous devez prendre en compte dans le cadre de votre déploiement du pool pilote. Pour obtenir la procédure détaillée, consultez Déploiement de l’accès des utilisateurs externes dans Skype pour Business Server 2019 dans la documentation de déploiement, qui décrit le processus de déploiement et fournit également des informations de configuration pour l’accès des utilisateurs externes.
-ms.openlocfilehash: 3ae1508c56ac3240cfb9904415090ff1bdf18677
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5b755d0ba8802c47a176cb3375a87b6523f35fad
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25029859"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876197"
 ---
-# <a name="deploy-pilot-edge-server"></a>Déployer le serveur Edge pilote
+# <a name="deploy-pilot-edge-server"></a>Déploiement d’un serveur Edge pilote
 
 Cette rubrique présente les paramètres de configuration que vous devez connaître avant de déployer votre Skype pour Business Server 2019 Edge Server. Les processus de déploiement et configuration pour Skype pour Business Server 2019 sont très similaires aux Skype pour Business Server 2015. Cette section met en évidence uniquement les points clés que vous devez prendre en compte dans le cadre de votre déploiement du pool pilote. <!-- For detailed steps, see 
  [Deploying external user access in Skype for Business Server 2019](../deployment/deploying-external-user-access/deploying-external-user-access.md) in the Deployment documentation, which describes the deployment process and also gives configuration information for external user access.  -->
@@ -24,7 +25,7 @@ Lorsque vous naviguez dans l’Assistant **Définir un nouveau Pool Edge** , pas
   
 ### <a name="to-define-an-edge-pool"></a>Pour définir un Pool de serveurs Edge
 
-1. Ouvrez une session sur l’ordinateur sur lequel le Générateur de topologie est installé en tant que membre du groupe Admins du domaine et du groupe RTCUniversalServerAdmins.
+1. Ouvrez une session l’ordinateur où le Générateur de topologie est installé en tant que membre du groupe Admins du domaine et du groupe RTCUniversalServerAdmins.
     
 2. Accédez à la Skype Business Server 2019 nœud. **Pools de serveurs Edge**d’avec le bouton droit, puis cliquez sur **pool de serveurs Edge de nouveau**.
     

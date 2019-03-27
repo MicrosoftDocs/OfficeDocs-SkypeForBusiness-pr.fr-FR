@@ -1,5 +1,6 @@
 ---
-title: Modifier les URL simples après la migration
+title: Modification des URL simples après la migration
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,20 +9,20 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Skype pour Business Server prend en charge les URL simples.
-ms.openlocfilehash: 71935aab09de1598b355d2a7b27dfa02fd169216
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 02f4cc729a50459a8125e216265b935d557007c6
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374989"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892708"
 ---
-# <a name="change-simple-urls-after-migration"></a>Modifier les URL simples après la migration
+# <a name="change-simple-urls-after-migration"></a>Modification des URL simples après la migration
 
 Skype pour Business Server prend en charge trois URL simples :
   
 - **Répondre à** est utilisée comme URL de base pour toutes les conférences dans le site ou une organisation. Avec l’URL simple Meet, liens à participer à des réunions sont faciles à comprendre et à communiquer et à distribuer. 
     
-- **Rendez-vous** permettant d’accéder à la page Web paramètres de conférence rendez-vous. L'URL simple de numérotation est incluse dans toutes les invitations aux réunions pour que les utilisateurs qui souhaitent se connecter à une réunion puissent accéder au numéro de téléphone et aux informations de code confidentiel nécessaires. 
+- **Rendez-vous** permettant d’accéder à la page Web paramètres de conférence rendez-vous. L’URL simple Dial-in est inclus dans toutes les invitations aux réunions afin que les utilisateurs qui souhaitent se connecter à la réunion peuvent accéder au numéro de téléphone nécessaire et les informations de code confidentiel. 
     
 - **Admin** permet d’accéder rapidement à la Skype pour le panneau de configuration serveur Business. L’URL simple Admin est interne à votre organisation. 
     

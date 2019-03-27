@@ -1,5 +1,6 @@
 ---
 title: Conditions préalables pour votre environnement Skype Entreprise Server 2015
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,13 +14,13 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 306d3397-f305-4919-bdb1-aa7bb7b5c534
-description: 'Résumé : découvrez les rubriques sur la configuration requise et les conditions requises pour le réseau ou l’infrastructure pour Skype Entreprise Server 2015. Si vous devez installer ou configurer quoi que ce soit en tant que condition requise pour l’installation et le déploiement de Skype Entreprise Server 2015, cela se fera ici.'
-ms.openlocfilehash: 50844d0ed48604796ca2f9c399408c10291f4c10
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+description: 'Résumé : Plan de rubriques relatives à la configuration requise en matière de réseau ou l’infrastructure de Skype pour Business Server 2015. Si vous avez besoin installer ou configurer tout comme condition préalable à l’installation et déploiement de Skype pour Business Server 2015, il sera ici.'
+ms.openlocfilehash: e43fc9bda052abc952bf4a4a1a8921b4ab276427
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883900"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895439"
 ---
 # <a name="requirements-for-your-skype-for-business-2015-environment"></a>Configuration requise pour votre Skype pour environnement Business 2015
  
@@ -31,7 +32,7 @@ Il s’agit de la page d’accueil pour les articles sur la configuration requis
 
 Les deux articles de la configuration requise pour la section de votre environnement décrivent ce que vous devez avoir et/ou configurer avant de pouvoir continuer avance et correctement déployer ou mettre à niveau vers Skype pour Business Server 2015 dans votre environnement de serveur.
   
-### <a name="server-requirements"></a>Configuration serveur requise
+### <a name="server-requirements"></a>Conditions requises des serveurs
 
 [Configuration serveur requise pour Skype pour Business Server 2015](server-requirements.md) sont les éléments que vous devez préparer sur les serveurs individuels que vous avez l’intention à utiliser dans votre déploiement.
   

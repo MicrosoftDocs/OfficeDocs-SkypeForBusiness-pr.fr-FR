@@ -1,5 +1,6 @@
 ---
 title: Activer ou désactiver les commentaires client sur Skype Entreprise
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Vous pouvez activer votre Skype pour les utilisateurs professionnels à utiliser le Skype pour l’outil de commentaires d’applications métiers intégrée pour permettre aux utilisateurs de signaler les problèmes et fournir des commentaires directement à Microsoft sur leur expérience.
-ms.openlocfilehash: 3dcb003c23ca1a96a646851358d21aca5a47e674
-ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
+ms.openlocfilehash: f803c1fe88de564f8fb4870446ef6d1d1058a841
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2018
-ms.locfileid: "26561618"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891430"
 ---
 # <a name="turn-on-or-off-skype-for-business-client-feedback-reporting"></a>Activer ou désactiver les commentaires client sur Skype Entreprise
 

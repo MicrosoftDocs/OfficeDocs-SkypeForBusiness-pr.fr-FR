@@ -1,5 +1,6 @@
 ---
 title: Voix état du routage de validation des modifications de Configuration du routage des communications vocales
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2e5086fb-3c3b-432a-9eab-a9b12cb79d76
 description: Si les modifications ne se sont pas terminées, passez en revue les messages de cette boîte de dialogue, modifiez votre configuration de routage des communications vocales et réessayez.
-ms.openlocfilehash: d2854eb849858680a0f079053eaff3c5fd6eef2b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 6915c92cefeb5b2d9151102fa00d30d6bed91296
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20990321"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885113"
 ---
-# <a name="voice-routing-status-of-commit-changes-for-voice-routing-configuration"></a>Routage des communications vocales : L’état de validation des modifications de Configuration du routage des communications vocales
+# <a name="voice-routing-status-of-commit-changes-for-voice-routing-configuration"></a>Routage des communications vocales : état de la validation des modifications pour la configuration du routage des communications vocales
  
 Si les modifications ne se sont pas terminées, passez en revue les messages de cette boîte de dialogue, modifiez votre configuration de routage des communications vocales et réessayez.
   

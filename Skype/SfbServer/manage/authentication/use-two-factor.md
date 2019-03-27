@@ -1,5 +1,6 @@
 ---
 title: Utiliser l’authentification à deux facteurs avec Skype pour client d’entreprise et Skype pour Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d4136e61-c3ab-4b26-85c8-c1b2c24f5ee3
 description: 'Résumé : Utilisez l’authentification à deux facteurs avec Skype pour Business Server et Skype pour les entreprises.'
-ms.openlocfilehash: 734e63d22610dab44cc221290b462e51e93291f1
-ms.sourcegitcommit: 6251a2c659909c3972ca2ea0a2bcdab4f334df34
+ms.openlocfilehash: 0c66808f22655e3f78a23930adc84dcbc31af6bb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "25694567"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894201"
 ---
 # <a name="use-two-factor-authentication-with-skype-for-business-client-and-skype-for-business-server"></a>Utiliser l’authentification à deux facteurs avec Skype pour client d’entreprise et Skype pour Business Server
  
@@ -49,7 +50,7 @@ Lorsque vous avez terminé d’utiliser Skype pour les entreprises, vous pouvez 
 |:-----|:-----|:-----|
 |Fermer  <br/> |Ferme l’affichage, mais vous permet du Skype pour session Business identifiée par l’utilisateur de votre ID de continuer à exécuter. Cela vous permet de continuer à recevoir des notifications et à interagir avec d’autres personnes. <br/> <br/> Vous pouvez obtenir l’affichage précédent à tout moment en cliquant sur le Skype pour entreprise icône sur la barre des tâches ou de la zone de notification au bas de votre écran.  <br/> | Sur Skype pour la fenêtre principale d’entreprise, effectuez l’une des options suivantes : <br/> 1. Cliquez sur le bouton **Options** , puis sélectionnez le **fichier** > **Fermer**.  <br/> 2. Cliquez sur le bouton **Fermer** (X) dans le coin supérieur droit de la fenêtre. <br/> |
 |Se déconnecter  <br/> |Se termine la session associée à votre nom d’utilisateur, mais Skype pour les entreprises se poursuit en arrière-plan. Lorsque vous vous déconnectez, la fenêtre de connexion s’affiche.  <br/> **Conseil :** Sélectionnez **Supprimer mes informations de connexion** lorsque vous vous déconnectez supprimer l’enregistrement de votre nom d’utilisateur et le mot de passe de l’ordinateur. Cela permet au support technique de résoudre plus facilement les problèmes de connexion. Vos informations de connexion sont mieux sécurisées, car l’ouverture de session avec vos informations d’identification est plus difficile pour des utilisateurs non autorisés. <br/> |Sur Skype pour la fenêtre principale d’entreprise, sélectionnez le bouton **Options** , puis sélectionnez le **fichier** > **Se déconnecter**.  <br/> |
-|Quitter  <br/> |Met fin à votre Skype de session Business et Skype pour les entreprises s’arrête sur votre ordinateur. Après avoir quitté, si vous voulez redémarrer, sélectionnez **Démarrer** > **Tous les programmes** > Skype pour les entreprises. <br/> |Sur Skype pour la fenêtre principale d’entreprise, sélectionnez le bouton **Options** , puis sélectionnez le **fichier** > **Quitter**.  <br/> |
+|Quitter  <br/> |Met fin à votre Skype de session Business et Skype pour les entreprises s’arrête sur votre ordinateur. Après avoir quitté, si vous voulez redémarrer, sélectionnez **Démarrer** > >**Tous les programmes** Skype pour les entreprises. <br/> |Sur Skype pour la fenêtre principale d’entreprise, sélectionnez le bouton **Options** , puis sélectionnez le **fichier** > **Quitter**.  <br/> |
    
 ## <a name="sign-in-to-skype-for-business-with-a-smart-card"></a>Connexion à Skype Entreprise avec une carte à puce
 

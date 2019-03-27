@@ -1,5 +1,6 @@
 ---
 title: Groupes de réponses créer une nouvelle ou en modifier le groupe d’agents existant
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 79eaaf6c-6928-4925-8220-c7ada6b37205
 ROBOTS: NOINDEX, NOFOLLOW
 description: Les groupes d’agents définissent les personnes qui peuvent répondre aux appels adressés à un groupe de réponse (appelées « agents »), ainsi que les paramètres qui s’appliquent à tous les agents du groupe.
-ms.openlocfilehash: e1f7deb40fb36dbd75e9aea37eb6af4b75090c44
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 044fd86109b7c413d414b174a5f9527e8c535d42
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23262931"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892293"
 ---
 # <a name="response-groups-create-new-or-edit-existing-agent-group"></a>Groupes Response Group : création d’un groupe d’agents ou modification d’un groupe d’agents existant
 
@@ -68,6 +69,6 @@ La liste ci-dessous décrit les champs de la page.
 
     Les flèches Haut et Bas déplacent un agent sélectionné vers le haut ou vers le bas dans la liste des agents. L’ordre des agents dans la liste affecte l’ordre dans lequel les agents reçoivent des appels pour le routage en série et de tourniquet.
 
-Pour plus d’informations sur les fonctionnalités de Response Group, consultez [planification de l’application Response Group dans Skype pour Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) dans la documentation de planification. Pour plus d’informations sur l’utilisation des groupes d’agents, voir [Gestion des groupes d’agents](https://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) dans la documentation des opérations.
+Pour plus d’informations sur les fonctionnalités de Response Group, consultez [planification de l’application Response Group dans Skype pour Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) dans la documentation de planification. Pour plus d’informations sur l’utilisation des groupes d’agents, reportez-vous à la rubrique [Managing Agent Groups](https://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) de la documentation des opérations.
 
 

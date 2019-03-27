@@ -1,5 +1,6 @@
 ---
-title: Expanseur des paramètres du serveur d’inscriptions
+title: Expandeur des paramètres du serveur d’inscriptions avancé
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: c7486ab3-61fd-45c6-9edc-a15535f273ff
 ROBOTS: NOINDEX, NOFOLLOW
 description: Résistance fournit une haute disponibilité et récupération d’urgence pour le pool de serveurs d’inscriptions. En fournissant une serveur d’inscriptions de sauvegarde en cas de défaillance d’inscriptions principale, la sauvegarde de serveurs d’inscriptions peut prendre en charge pour le serveur d’inscriptions ayant échoué, permettant aux utilisateurs de se connecter et communiquer. Les utilisateurs peuvent bénéficier potentiellement avec fonctionnalités réduites, selon lequel les systèmes ont échoué avec le serveur d’inscriptions principal.
-ms.openlocfilehash: ff8193ced1f731812cdd4d4095013d1a7cf72cee
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: dff7561a1e461283768601515a52207de1b4140b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21067537"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893082"
 ---
-# <a name="registrar-settings-expander"></a>Expanseur des paramètres du serveur d’inscriptions
+# <a name="registrar-settings-expander"></a>Expandeur des paramètres du serveur d’inscriptions avancé
  
 Résistance fournit une haute disponibilité et récupération d’urgence pour le pool de serveurs d’inscriptions. En fournissant une serveur d’inscriptions de sauvegarde en cas de défaillance d’inscriptions principale, la sauvegarde de serveurs d’inscriptions peut prendre en charge pour le serveur d’inscriptions ayant échoué, permettant aux utilisateurs de se connecter et communiquer. Les utilisateurs peuvent bénéficier potentiellement avec fonctionnalités réduites, selon lequel les systèmes ont échoué avec le serveur d’inscriptions principal.
   

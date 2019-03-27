@@ -1,5 +1,6 @@
 ---
 title: Chiffrement pour Skype pour Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d18c74a6-385b-407b-98eb-0d525fa38fea
 description: Skype pour Business Server utilise TLS et MTLS pour chiffrer les messages instantanés. L’ensemble du trafic serveur à serveur nécessite MTLS, et ce que le trafic soit confiné au réseau interne ou qu’il traverse le périmètre du réseau interne. Lorsque la connexion Skype pour Business Server 3ème systèmes tiers de IPPBX ou jonctions SIP TLS est facultatif mais fortement recommandé entre le serveur de médiation et passerelle multimédia. Si TLS est configuré sur cette liaison, MTLS est requis. Par conséquent, la passerelle doit être configurée avec un certificat à partir d’une autorité de certification approuvée par le serveur de médiation.
-ms.openlocfilehash: 7ed4297ef766b769827b6805087d02f0ad708fe7
-ms.sourcegitcommit: 4967c9b1010a444475dcfbdb6dd3c058494449d9
+ms.openlocfilehash: e4a58cf10d268dedadb34556206e1c7227d4fdf5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "30069631"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879208"
 ---
 # <a name="encryption-for-skype-for-business-server"></a>Chiffrement pour Skype pour Business Server
  

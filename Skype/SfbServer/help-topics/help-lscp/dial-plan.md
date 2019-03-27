@@ -1,5 +1,6 @@
 ---
 title: Plan de numérotation
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,22 +13,22 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eeb31bd9-688e-4767-a47d-6fda1a55f094
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: 571106b5bf7d22abe6d9e6ed90c5804284907587
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: a78768d29a1f3ffcf2e5313c8f7789c5a7b05be9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23255562"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888534"
 ---
 # <a name="dial-plan"></a>Plan de numérotation
 
 Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
 
-- [Création ou modification d’un plan de numérotation dans Skype Entreprise Server 2015](../../deploy/deploy-enterprise-voice/dial-plans.md)
+- [Create or modify a dial plan in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/dial-plans.md)
 
 - [Modifier un Plan de numérotation](https://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx)
 
-- [Création ou modification d’une règle de normalisation dans Skype Entreprise 2015](../../deploy/deploy-enterprise-voice/normalization-rules.md)
+- [Create or modify a normalization rule in Skype for Business 2015](../../deploy/deploy-enterprise-voice/normalization-rules.md)
 
 - [Créer ou modifier une règle de normalisation manuellement](https://technet.microsoft.com/library/fc0335e6-8830-4cfb-8c64-6aeb98c0a992.aspx)
 

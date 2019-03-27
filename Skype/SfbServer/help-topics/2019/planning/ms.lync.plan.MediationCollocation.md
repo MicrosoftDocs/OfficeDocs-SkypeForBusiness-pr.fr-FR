@@ -1,5 +1,6 @@
 ---
-title: Colocalisation de médiation (outil de planification)
+title: Mediation Collocation (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,14 +14,14 @@ localization_priority: Normal
 ms.assetid: 5ddc2ad3-9275-408a-a0ab-cc7a2c2d2fdc
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Par défaut, le serveur de médiation est colocalisé avec le serveur frontal. Le serveur de médiation peut être déployé dans un pool autonome pour des raisons de performances, ou si vous déployez l’acheminement SIP, auquel cas le pool autonome est fortement recommandé. Colocalisation dans Skype pour les fonctions Business Server telle qu’elle a dans Lync Server 2013. Pour obtenir des détails, consultez les rubriques suivantes :'
-ms.openlocfilehash: 845b31a934318e0de2b10189ab6fa4d83be92482
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: effffec9ae375aea95e5286074eb03020ff6b5a1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21066414"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876204"
 ---
-# <a name="mediation-collocation-planning-tool"></a>Colocalisation de médiation (outil de planification)
+# <a name="mediation-collocation-planning-tool"></a>Mediation Collocation (Planning Tool)
  
 Par défaut, le serveur de médiation est colocalisé avec le serveur frontal. Le serveur de médiation peut être déployé dans un pool autonome pour des raisons de performances, ou si vous déployez l’acheminement SIP, auquel cas le pool autonome est fortement recommandé. Colocalisation dans Skype pour les fonctions Business Server telle qu’elle a dans Lync Server 2013. Pour obtenir des détails, consultez les rubriques suivantes :
   

@@ -1,5 +1,6 @@
 ---
 title: Créer ou modifier une règle de traduction pour la présentation des ID de l’appelant dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6a643961-a0a1-41d1-96ba-6c428a89d82e
 description: 'Résumé : Découvrez comment configurer l’ID de l’appelant à l’aide de la Skype pour le panneau de configuration serveur Business.'
-ms.openlocfilehash: 69d5a1d8f04900933b5de4ebd795961d8b450ca7
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: cfd6af9d31d165bc18f45439cf8925b0e47055d5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373586"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890986"
 ---
 # <a name="create-or-modify-a-translation-rule-for-caller-id-presentation-in-skype-for-business-server"></a>Créer ou modifier une règle de traduction pour la présentation des ID de l’appelant dans Skype pour Business Server
 
@@ -42,9 +43,9 @@ Skype pour Business Server également vous offre la possibilité pour traduire �
 
    - Pour définir une nouvelle règle de conversion et l’associer à la jonction, cliquez sur **Nouvelle**. Pour plus d’informations sur la définition d’une nouvelle règle, voir [Defining Translation Rules](https://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx) dans la documentation de déploiement.
 
-   - Pour modifier une règle de conversion déjà associée à la jonction, cliquez sur le nom de la règle, puis sur **Afficher les détails**. Pour plus d’informations, voir [Defining Translation Rules](https://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx) dans la documentation de déploiement.
+   - Pour modifier une règle de conversion déjà associée à la jonction, cliquez sur le nom de la règle, puis sur **Afficher les détails**. Pour plus d’informations, reportez-vous à la rubrique [Defining Translation Rules](https://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx) de la documentation de déploiement.
 
-   - Pour copier une règle de conversion existante à utiliser comme point de départ pour définir une nouvelle règle, sélectionnez le nom de la règle, cliquez sur **Copier**, puis sur **Coller**. Pour plus d’informations, voir [Définition des règles de traduction](https://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx).
+   - Pour copier une règle de conversion existante à utiliser comme point de départ pour définir une nouvelle règle, sélectionnez le nom de la règle, cliquez sur **Copier**, puis sur **Coller**. Pour plus d’informations, reportez-vous à la rubrique [Defining Translation Rules](https://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx).
 
    - Pour supprimer une règle de conversion de la jonction, sélectionnez le nom de la règle et cliquez sur **Supprimer**.
 

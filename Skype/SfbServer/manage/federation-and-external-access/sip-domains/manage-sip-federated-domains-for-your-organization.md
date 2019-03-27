@@ -1,5 +1,6 @@
 ---
 title: Gestion des domaines fédérés SIP pour l’organisation
+ms.reviewer: ''
 ms:assetid: abc48829-e5cf-4651-bc38-899192f5c3bc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552454(v=OCS.15)
 ms:contentKeyID: 48679565
@@ -12,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Découvrez comment gérer et configurer des domaines SIP que vous pouvez vous fédérer avec,
-ms.openlocfilehash: 565971ccf5cd4cbf62f08acc91e15f9615d350f7
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 83623b41e0d9adb1e4539958344214fd2ebe0db9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223086"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892258"
 ---
 # <a name="manage-sip-federated-domains-for-your-organization-in-skype-for-business-server"></a>Gestion des domaines fédérés SIP de votre organisation dans Skype pour Business Server
 
@@ -37,7 +38,7 @@ Si vous avez configuré la prise en charge pour les partenaires fédérés, vous
 
 ### <a name="to-add-an-external-domain-to-the-list-of-allowed-domains"></a>Pour ajouter un domaine externe à la liste des domaines autorisés
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou disposant des mêmes droits) ou affecté au rôle CsAdministrator, ouvrez une session sur un ordinateur qui se trouve sur votre déploiement interne.
+1.  À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou est affecté au rôle CsAdministrator, ouvrez une session sur n’importe quel ordinateur dans votre déploiement interne.
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business. 
 3.  Dans la barre de navigation de gauche, cliquez sur **Accès des utilisateurs externes**, puis cliquez sur **Domaines fédérés**.
 4.  Dans la page **Domaines fédérés** , cliquez sur **Nouveau**, puis cliquez sur **domaine autorisé**.
@@ -67,7 +68,7 @@ Bloquer un ou plusieurs domaines externes de se connecter à votre organisation.
 
 ### <a name="to-add-an-external-domain-to-the-list-of-blocked-domains"></a>Pour ajouter un domaine externe à la liste des domaines bloqués
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou disposant des mêmes droits) ou affecté au rôle CsAdministrator, ouvrez une session sur un ordinateur qui se trouve sur votre déploiement interne.
+1.  À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou est affecté au rôle CsAdministrator, ouvrez une session sur n’importe quel ordinateur dans votre déploiement interne.
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business. 
 3.  Dans la barre de navigation de gauche, cliquez sur **Accès des utilisateurs externes**.
 4.  Cliquez sur **Domaines fédérés**, cliquez sur **Nouveau**, puis cliquez sur **domaine bloqué**.
@@ -90,10 +91,10 @@ En outre, vous devez configurer et appliquer la stratégie aux utilisateurs que 
 
 ## <a name="see-also"></a>Voir aussi
 
-[Configurer des stratégies de contrôle d’accès des utilisateurs fédérés](../external-access-policies/configure-policies-to-control-federated-user-access.md)  
+[Configuration des stratégies pour contrôler l’accès des utilisateurs fédérés](../external-access-policies/configure-policies-to-control-federated-user-access.md)  
 
 [Activation ou désactivation de la fédération et de la connectivité PIC](../access-edge/enable-or-disable-federation-and-public-im-connectivity.md)
 
-[Activer ou désactiver la découverte des partenaires de fédération](../access-edge/enable-or-disable-discovery-of-federation-partners.md)
+[Activation ou désactivation de la découverte de partenaires de fédération](../access-edge/enable-or-disable-discovery-of-federation-partners.md)
   
 

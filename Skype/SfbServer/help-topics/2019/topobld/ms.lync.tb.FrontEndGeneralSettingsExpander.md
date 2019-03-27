@@ -1,5 +1,6 @@
 ---
 title: Expanseur des paramètres généraux du serveur frontal
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 8a5f21d0-f6c8-4907-9958-5ca36f702542
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Pour modifier les paramètres d’un pool frontal existant ou d’un serveur Survivable Branch Server, consultez les sections suivantes :'
-ms.openlocfilehash: 37afa0403dbdf81791233c5ac091d5e07c152a07
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 1b28f3921042bcd8d0f8f99cd0b5950c190ef79d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23243241"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890507"
 ---
 # <a name="front-end-general-settings-expander"></a>Expanseur des paramètres généraux du serveur frontal
 
@@ -33,7 +34,7 @@ Pour modifier les paramètres d’un pool frontal existant ou d’un serveur Sur
 
 ## <a name="front-end-pool"></a>Pool frontal
 
-Dans le cas d’un pool frontal, vous pouvez configurer les paramètres généraux, de résilience, des services web et du serveur de médiation. Pour plus d’informations, reportez-vous aux informations des sous-sections suivantes. Pour plus d’informations sur la définition et la configuration des paramètres pour le pool frontal, consultez [déploiement de serveurs de médiation et définition des homologues](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx).
+Dans le cas d’un pool frontal, vous pouvez configurer les paramètres généraux, de résilience, des services web et du serveur de médiation. Pour plus d’informations, reportez-vous aux informations des sous-sections suivantes. Pour plus d’informations sur la définition et la configuration des paramètres du pool frontal, reportez-vous à la rubrique [Deploying Mediation Servers and Defining Peers](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx).
 
 ### <a name="general-settings"></a>Paramètres généraux
 
@@ -93,7 +94,7 @@ Dans la liste, sélectionnez le pool frontal ou le serveur Standard Edition Serv
 > [!CAUTION]
 > La valeur minimale de l’**intervalle de basculement** ne doit pas être inférieure à 90 secondes. Si vous la définissez sur une valeur inférieure à 90 secondes, une valeur de 90 secondes est utilisée. Le délai de ping entre les clusters est de 30 secondes, et un paramètre inférieur à 90 secondes peut entraîner l’activation et la désactivation du serveur principal et du serveur de secours. Cela aurait un impact négatif sur la production, car les serveurs essaieraient de résoudre le statut utilisable de l’autre. Une durée inférieure à 90 secondes ne suffit pas pour déterminer si le serveur principal est disponible ou non.
 
-### <a name="web-services"></a>Services web
+### <a name="web-services"></a>services web
 
 Pour modifier ou spécifier un autre paramètre pour les services web sur le pool frontal, modifiez ou spécifiez des paramètres dans **Services web internes** et **Services web externes**.
 
@@ -112,7 +113,7 @@ Dans **Services web internes**, spécifiez les éléments suivants :
 
 - Les ports d’écoute et publiés pour HTTP et HTTPS nécessaires à votre déploiement. Les paramètres par défaut, le port 8080 pour le protocole HTTP et le port 4443 pour le protocole HTTPS, sont définis initialement. Vous pouvez modifier ces paramètres pour les ports d’écoute en fonction des exigences de votre proxy inverse et de votre réseau externe. Les ports publiés sont définis par défaut sur le port 80 pour le protocole HTTP et sur le port 443 pour le protocole HTTPS. Ces valeurs déterminent les ports d’écoute du pool pour les demandes entrantes. En règle générale, il est inutile à modifier, sauf s’il existe un conflit de ports requis sur le pool. Il est attendu que les ports publiés internes et externes utilisent les mêmes valeurs de port. Cela n’entraîne aucun conflit.
 
-### <a name="mediation-server"></a>Serveur de médiation
+### <a name="mediation-server"></a>serveur de médiation
 
 Dans **Serveur de médiation**, spécifiez les éléments suivants :
 
@@ -124,11 +125,11 @@ Dans **Serveur de médiation**, spécifiez les éléments suivants :
 
 - Si plusieurs jonctions sont associées à un serveur de médiation, vous pouvez spécifier une jonction par défaut en sélectionnant la passerelle et en cliquant sur **Utiliser par défaut**. Pour désélectionner une passerelle par défaut, cliquez sur **Annuler par défaut**.
 
-Pour plus d’informations sur la définition et la configuration des paramètres pour le pool frontal, consultez [déploiement de serveurs de médiation et définition des homologues](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx).
+Pour plus d’informations sur la définition et la configuration des paramètres du pool frontal, reportez-vous à la rubrique [Deploying Mediation Servers and Defining Peers](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx).
 
 ## <a name="standard-edition-server"></a>Serveur Standard Edition
 
-Dans le cas d’un serveur Standard Edition, vous pouvez configurer des paramètres généraux, de résilience, des services web et du serveur de médiation. Pour plus d’informations, reportez-vous aux informations des sous-sections suivantes. Pour plus d’informations sur la définition et la configuration des paramètres pour le serveur Standard Edition server, consultez [définition et la configuration de la topologie](https://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx) et [déploiement de serveurs de médiation et définition des homologues](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx).
+Dans le cas d’un serveur Standard Edition, vous pouvez configurer des paramètres généraux, de résilience, des services web et du serveur de médiation. Pour plus d’informations, reportez-vous aux informations des sous-sections suivantes. Pour plus d’informations sur la définition et la configuration des paramètres du serveur Standard Edition, reportez-vous aux rubriques [Defining and Configuring the Topology](https://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx) et [Deploying Mediation Servers and Defining Peers](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx).
 
 ### <a name="general-settings"></a>Paramètres généraux
 
@@ -203,6 +204,6 @@ Dans **Serveur de médiation**, vous pouvez spécifier les éléments suivants 
 
 - Si plusieurs passerelles sont associées à un serveur de médiation, vous pouvez spécifier une passerelle par défaut en sélectionnant la passerelle et en cliquant sur **Utiliser par défaut**. Pour désélectionner une passerelle par défaut, cliquez sur **Annuler par défaut**.
 
-Pour plus d’informations sur la définition et la configuration des paramètres pour le serveur Standard Edition server, consultez [définition et la configuration de la topologie](https://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx) et [déploiement de serveurs de médiation et définition des homologues](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx).
+Pour plus d’informations sur la définition et la configuration des paramètres du serveur Standard Edition, reportez-vous aux rubriques [Defining and Configuring the Topology](https://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx) et [Deploying Mediation Servers and Defining Peers](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx).
 
 

@@ -1,5 +1,6 @@
 ---
 title: API de données pour l’appel de tableau de bord qualité (CQD) dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 25c2450a-f7b3-4dd2-987d-64f4246dd019
 description: 'Résumé : Découvrez l’API Rata pour le tableau de bord de qualité des appels. Tableau de bord de qualité des appels est un outil de Skype pour Business Server.'
-ms.openlocfilehash: 0af168c46e8b2732d5c967550391ab52459ddf95
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 8dd04971533a8631b4f95be2f13bad84e41963d7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531756"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881802"
 ---
 # <a name="data-api-for-call-quality-dashboard-cqd-in-skype-for-business-server"></a>API de données pour l’appel de tableau de bord qualité (CQD) dans Skype pour Business Server
  
@@ -32,12 +33,12 @@ Les opérations REST sont incluses dans le tableau suivant.
 
 |**Opération**|**Description**|
 |:-----|:-----|
-|[Obtenir le Cube](get-cube.md) <br/> |Obtenir la liste des dimensions disponibles et des mesures.  <br/> |
-|[Obtenir les membres de Dimension](get-dimension-members.md) <br/> |Opération de membres de Dimension Get renvoie la liste des membres d’une dimension spécifique. Cela donne aussi la possibilité de filtrer la liste des membres et obtenir un sous-ensemble, afin de réduire le coût de transfert filaire.  <br/> |
+|[Obtenir un cube](get-cube.md) <br/> |Obtenir la liste des dimensions disponibles et des mesures.  <br/> |
+|[Obtenir les membres de dimension](get-dimension-members.md) <br/> |Opération de membres de Dimension Get renvoie la liste des membres d’une dimension spécifique. Cela donne aussi la possibilité de filtrer la liste des membres et obtenir un sous-ensemble, afin de réduire le coût de transfert filaire.  <br/> |
 |[Exécuter la requête](run-query.md) <br/> |Exécuter la requête d’opération offre la possibilité d’exécuter une requête sur le cube basé sur des filtres, des mesures et dimensions spécifiées et renvoyer dans les données.  <br/> |
-|[Vider le Cache](clear-cache.md) <br/> |Opération de Cache Clear supprime le cache sur le serveur pour les requêtes et les données. Le cache seront réinitialisés et nous allons les données du cube QoE ultérieurement pour de nouvelles demandes.  <br/> |
+|[Vider le cache](clear-cache.md) <br/> |Opération de Cache Clear supprime le cache sur le serveur pour les requêtes et les données. Le cache seront réinitialisés et nous allons les données du cube QoE ultérieurement pour de nouvelles demandes.  <br/> |
 |[Obtenir le journal d’intégration](get-integration-log.md) <br/> |Obtenir le journal d’intégration opération retourne une liste d’entrées de journal décrivant les activités dans le QoE Cube.  <br/> |
-|[Obtenir des données de l’intégration de la dernières](get-last-integration-data.md) <br/> |Obtenir les dernières données de l’intégration du cube.  <br/> |
+|[Obtenir les données de la dernière intégration](get-last-integration-data.md) <br/> |Obtenir les dernières données de l’intégration du cube.  <br/> |
    
  **Ressources Cross-Origin (CORS) prise en charge pour les API de données de partage**
   

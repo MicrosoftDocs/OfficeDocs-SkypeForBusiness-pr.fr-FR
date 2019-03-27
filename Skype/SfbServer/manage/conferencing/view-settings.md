@@ -1,5 +1,6 @@
 ---
 title: Afficher les paramètres de configuration dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 932c7e2d-6de3-4176-ac6e-ec230f8230f2
 description: 'Résumé : Découvrez comment afficher les paramètres de configuration dans Skype pour Business Server.'
-ms.openlocfilehash: 44154b9cdba4743eed9c2a4153545651657d4e72
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: d7ef617050b31bd85732ee4a30d0faaed41f50d1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20988824"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899397"
 ---
 # <a name="view-meeting-configuration-settings-in-skype-for-business-server"></a>Afficher les paramètres de configuration dans Skype pour Business Server
  
@@ -25,7 +26,7 @@ Vous pouvez afficher les paramètres de configuration de réunion à l’aide de
 ## <a name="view-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Afficher les paramètres de configuration de réunion à l’aide de Skype pour Business Server Control Panel
 <a name="BKMK_ViewJoinSettings"> </a>
 
-1. À partir d’un compte d’utilisateur auquel est affecté un des rôles CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
+1. À partir d’un compte d’utilisateur auquel est affecté le rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
     
 2.  Ouvrez le panneau de configuration serveur Business Skype.
     

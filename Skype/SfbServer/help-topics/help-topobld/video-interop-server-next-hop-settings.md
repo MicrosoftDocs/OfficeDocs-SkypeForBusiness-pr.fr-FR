@@ -1,5 +1,6 @@
 ---
 title: Paramètres du tronçon suivant du serveur d’interopérabilité vidéo (VIS)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5a161404-b294-47fa-ad62-0e12bffcd8e4
 description: Les étapes nécessaires pour définir un nouveau rapport ou passerelle vidéo dans le Générateur de topologie sont décrites en ligne dans créer un pool VIS dans Skype pour Business Server 2015.
-ms.openlocfilehash: 4b13743c658e8c8d03ef647565e4819537770425
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: 4fca7fef3ad8bb048a06e253fb2a794d5e6d765e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19504179"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876386"
 ---
 # <a name="video-interop-server-next-hop-settings"></a>Paramètres du tronçon suivant du serveur d’interopérabilité vidéo (VIS)
  

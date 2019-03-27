@@ -1,5 +1,6 @@
 ---
 title: Supprimer une collection existante de paramètres de configuration jonction SIP dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3b25f14d-884b-42dd-a866-460d276d3e43
 description: 'Résumé : Découvrez comment supprimer une collection de paramètres de configuration de jonction à l’aide de la Skype pour le panneau de configuration serveur Business.'
-ms.openlocfilehash: 27e022588798e848cf690bb643d921e46d827b39
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: da86cbaf45afa47de580c02ab74e3b0b9bb344bf
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23890536"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890549"
 ---
 # <a name="delete-an-existing-collection-of-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Supprimer une collection existante de paramètres de configuration jonction SIP dans Skype pour Business Server
  
@@ -52,7 +53,7 @@ Les administrateurs peuvent aussi créer des paramètres de configuration de jon
     
 5. Dans la boîte de dialogue **Skype pour Business Server le panneau de configuration** , cliquez sur **OK**.
     
-6. Si vous changez d’avis et décidez de ne pas supprimer la collection, cliquez sur **Valider**, puis sur **Annuler toutes les modifications non validées**. Lorsque la boîte de dialogue **Skype pour le panneau de configuration serveur Business** s’affiche, cliquez sur **OK**.
+6. If you change your mind and decide not to delete the collection, click **Commit** and then click **Cancel All Uncommitted Changes**. Lorsque la boîte de dialogue **Skype pour le panneau de configuration serveur Business** s’affiche, cliquez sur **OK**.
     
 ## <a name="removing-trunk-configuration-settings-by-using-skype-for-business-server-management-shell-cmdlets"></a>Suppression des paramètres de Configuration de jonction à l’aide de Skype pour les applets de commande Business Server Management Shell
 

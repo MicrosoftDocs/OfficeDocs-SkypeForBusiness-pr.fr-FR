@@ -1,5 +1,6 @@
 ---
 title: Configurer un contrôleur de frontière de session pour plusieurs clients
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 - M365-voice
 appliesto: Microsoft Teams
 description: Découvrez comment configurer un contrôleur de Session bordure (SBC) pour prendre en charge plusieurs clients.
-ms.openlocfilehash: 166093a628eb7a048c1959554514f74bcb1b0677
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 53cc4d6f9d930c9069ac39d81e304b0265669b5e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569702"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893342"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurer un contrôleur de frontière de session pour plusieurs clients
 

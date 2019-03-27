@@ -1,5 +1,6 @@
 ---
 title: Tester les cas de Test du routage des communications vocales
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d683c9e6-a2e4-4c6c-89d3-b60ed26de592
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: 3452bddefd377fa090b03f255d23b261b2cf74b7
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 61d704a97cf094aa77f3b33fab80d60ade499380
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23254199"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890724"
 ---
-# <a name="test-voice-routing-test-cases"></a>Routage des communications vocales de test : cas de Test
+# <a name="test-voice-routing-test-cases"></a>Tester le routage des communications vocales : cas de test
 
 Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
 

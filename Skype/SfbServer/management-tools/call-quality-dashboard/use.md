@@ -1,5 +1,6 @@
 ---
 title: Utiliser le tableau de bord appel qualité pour Skype pour Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ec62b70f-885e-4272-b9d2-a574ea434b64
 description: 'Résumé : Découvrez comment utiliser le tableau de bord qualité des appels. Tableau de bord de qualité des appels est un outil de Skype pour Business Server.'
-ms.openlocfilehash: 6b431bb34ca6350662fbae720c61d2033d95fba4
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 856035642d1d8a818abe5f0a106c90270d706516
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533426"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891518"
 ---
 # <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>Utiliser le tableau de bord appel qualité pour Skype pour Business Server
  
@@ -200,9 +201,9 @@ CQD n’utilise pas les champs de l’appelant/appelé. Ces ont été renommées
 |:-----|:-----|:-----|:-----|
 |2 (AVMCU)   <br/> |4 (Skype Entreprise)   <br/> |Point de terminaison 1  <br/> |Point de terminaison 2  <br/> |
 |2 (AVMCU)   <br/> |1 (mMediationServer)   <br/> |Point de terminaison 2  <br/> |Point de terminaison 1  <br/> |
-|4 (Skype Entreprise)   <br/> |4 (Skype Entreprise)   <br/> |Appelant dans MediaLine   <br/> |Appelé dans MMediaLine  <br/> |
+|4 (Skype Entreprise)  <br/> |4 (Skype Entreprise)   <br/> |Appelant dans MediaLine   <br/> |Appelé dans MMediaLine  <br/> |
    
-Si les deux points de terminaison sont de même type, CQD convertira l’entrée Appelant en Premier et l’Appelé deviendra Second. Pour plus d’informations, consultez [ce blog](https://blogs.technet.com/b/jenstr/archive/2015/05/22/call-quality-dashboard-tips-and-tricks.aspx).
+Si les deux points de terminaison sont de même type, CQD convertira l’entrée Appelant en Premier et l’Appelé deviendra Second. Consultez [ce blog](https://blogs.technet.com/b/jenstr/archive/2015/05/22/call-quality-dashboard-tips-and-tricks.aspx) pour plus d’informations.
   
 ## <a name="accounting-for-vpn"></a>Représentation du réseau VPN
 

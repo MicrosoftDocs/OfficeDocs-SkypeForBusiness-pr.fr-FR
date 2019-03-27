@@ -1,5 +1,6 @@
 ---
 title: Expanseur des paramètres du contrôle d’admission des appels
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: dc94f75e-9abe-4e02-b835-3c845b317d65
 ROBOTS: NOINDEX, NOFOLLOW
 description: Le contrôle d’admission des appels est un réseau de régions, de sites et de sous-réseaux qui permettant de définir des restrictions pour les transmissions audio et vidéo en fonction de la bande passante disponible. Après avoir configuré le réseau pour le contrôle d’admission des appels, vous devez activer le contrôle d’admission des appels pour appliquer les restrictions de bande passante.
-ms.openlocfilehash: 5a6f1627c2d15b62a9c89c9714ca1fc23b416468
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 9453b29fd8ce52444c265e926663b400b4736c5b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21062163"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895229"
 ---
 # <a name="call-admission-control-settings-expander"></a>Expanseur des paramètres du contrôle d’admission des appels
  

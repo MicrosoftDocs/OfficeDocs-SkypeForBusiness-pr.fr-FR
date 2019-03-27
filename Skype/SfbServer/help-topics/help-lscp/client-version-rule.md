@@ -1,5 +1,6 @@
 ---
 title: Règle de version du client
+ms.reviewer: ''
 ms.author: dianef
 author: dianef77
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6e7e94c2-1475-4334-b8da-716b24a4c255
 description: Une stratégie de version de client est composée d’un ensemble de règles de version de client. Ces règles définissent les actions qui doivent être effectuées lorsque les utilisateurs tentent de se connecter avec des clients et des versions de client spécifiques.
-ms.openlocfilehash: 4c2d82b5868725a0369e92033c92a279823d912d
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: c70d831d88948bd50f14b9591807e2ce1f36611a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23258388"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890100"
 ---
 # <a name="client-version-rule"></a>Règle de version du client
 
@@ -44,7 +45,7 @@ Les listes ci-dessous décrivent les menus, les commandes, les champs et les pro
 |Lync Phone Edition, Office Communicator Phone  <br/> |OCPhone  <br/> |
 |Communicator Phone Edition Platform  <br/> |CPE  <br/> |
 |Unified Communications Platform  <br/> |UCCP  <br/> |
-|Participant Lync 2010  <br/> |AOC  <br/> |
+|Lync 2010 Attendee  <br/> |AOC  <br/> |
 |Complément Live Meeting  <br/> |LiveMeetingAddins  <br/> |
 |Office Live Meeting  <br/> |LMC  <br/> |
 |Windows Messenger  <br/> |WM  <br/> |
@@ -97,5 +98,5 @@ Les listes ci-dessous décrivent les menus, les commandes, les champs et les pro
 
   - **Bloquer avec une URL** : empêche le client de se connecter et affiche un message à l’emplacement de téléchargement d’une autre version du client. Vous devez spécifier l’URL dans le champ **URL**.
 
-Pour plus d’informations sur l’interopérabilité entre les clients et les versions du client, voir [Client Interoperability in Lync 2013 Preview](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) dans la documentation de planification. Pour plus d’informations sur l’utilisation des configurations de version du client, voir [Modifier l’Action par défaut pour les Clients pas explicitement pris en charge ou restreints](https://technet.microsoft.com/library/548dd0f5-62fe-4c3f-8952-2b9fd4c5fff3.aspx) dans la documentation des opérations.
+Pour plus d’informations sur l’interopérabilité entre les clients et les versions des clients, reportez-vous à la rubrique [Client Interoperability in Lync 2013 Preview](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) de la documentation de planification. Pour plus d’informations sur l’utilisation des configurations de version du client, reportez-vous à la rubrique [Modify the Default Action for Clients Not Explicitly Supported or Restricted](https://technet.microsoft.com/library/548dd0f5-62fe-4c3f-8952-2b9fd4c5fff3.aspx) de la documentation des opérations.
 

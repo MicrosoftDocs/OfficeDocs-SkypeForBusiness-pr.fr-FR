@@ -1,5 +1,6 @@
 ---
 title: Informations de configuration d’affichage des détails des appels dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 77bd553f-da89-4c84-a5d0-2f7e91d04383
 description: 'Résumé : Découvrez comment utiliser les appels d’enregistrement des détails dans Skype pour Business Server.'
-ms.openlocfilehash: 6abdd508cdb8ecbd89054596b024e27376c70a38
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: edf3f719ed3d859ff6d7a6c4fcebbf22356277d5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20979412"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896727"
 ---
 # <a name="view-cdr-configuration-information-in-skype-for-business-server"></a>Informations de configuration d’affichage des détails des appels dans Skype pour Business Server
  
@@ -22,7 +23,7 @@ ms.locfileid: "20979412"
   
 L’enregistrement des détails des appels permet d’assurer le suivi des sessions de messagerie instantanée d’égal à égal, des appels téléphoniques VoIP (Voice over Internet Protocol) et des téléconférences. Ces données d’utilisation permettent de savoir qui appelle qui, à quelle heure et la durée de la communication.
   
-Lorsque vous installez Skype pour Business Server, une seule collection globale des paramètres de configuration CDR est créée pour vous. Les administrateurs ont également la possibilité de créer des collections de paramètres personnalisées applicables à des sites individuels. Vous pouvez afficher les paramètres de configuration CDR utilisés dans votre organisation à l’aide de Skype pour le panneau de configuration serveur Business ou l’applet de commande [Get-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/get-cscdrconfiguration?view=skype-ps) .
+Lorsque vous installez Skype pour Business Server, une seule collection globale des paramètres de configuration CDR est créée pour vous. Les administrateurs peuvent également créer des collections de paramètres personnalisés pouvant être appliquées aux sites individuels. Vous pouvez afficher les paramètres de configuration CDR utilisés dans votre organisation à l’aide de Skype pour le panneau de configuration serveur Business ou l’applet de commande [Get-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/get-cscdrconfiguration?view=skype-ps) .
   
 ### <a name="to-view-cdr-configuration-information-by-using-skype-for-business-server-control-panel"></a>Pour afficher les informations de configuration des détails des appels à l’aide de Skype pour Business Server Control Panel
 

@@ -1,5 +1,6 @@
 ---
 title: Afficher les utilisateurs de conversation permanente
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c66c6689-28a2-4758-add1-0d0dff0d3eee
 description: Les membres du rôle CsPersistentChatAdministrator (administrateurs de conversation permanente) peuvent accorder des droits de gestionnaire de salle de conversation et des autorisations à d’autres utilisateurs et à eux-mêmes.
-ms.openlocfilehash: 3fcf75ece119ff8ce11aa09d146df5b481b05efa
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: fda25be9d156c4f2c884fd76518dc09369be7487
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23246995"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888153"
 ---
-# <a name="users-view-persistent-chat"></a>Utilisateurs : Afficher la conversation permanente
+# <a name="users-view-persistent-chat"></a>Utilisateurs : afficher la conversation permanente
 
 Les membres du rôle **CsPersistentChatAdministrator** (administrateurs de conversation permanente) peuvent accorder des droits de gestionnaire de salle de conversation et des autorisations à d’autres utilisateurs et à eux-mêmes.
 
@@ -43,7 +44,7 @@ Vous pouvez effectuer les tâches suivantes sur le **utilisateurs : afficher la
 
 - [Permettre à un utilisateur gérer les catégories, salles de conversation et les autorisations et droits d’utilisateur](https://technet.microsoft.com/library/6c551be3-bc74-4d0e-9008-ddfabd86e940.aspx)
 
-- [Présentation de l’appartenance de conversation permanente](https://technet.microsoft.com/library/900392d6-6e9f-4dae-93d6-39d7474409ef.aspx)
+- [Understanding Persistent Chat Membership](https://technet.microsoft.com/library/900392d6-6e9f-4dae-93d6-39d7474409ef.aspx)
 
 Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide de la Skype pour le panneau de configuration serveur Business, voir [Gérer les Skype pour Business Server 2015](../../manage/manage.md).
 

@@ -1,5 +1,6 @@
 ---
 title: Tester les paramètres de configuration de jonction SIP dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c8712308-0e2d-4e39-8f90-d1a250487a94
 description: 'Résumé : Découvrez comment tester les paramètres de configuration de jonction SIP à l’aide de la Skype pour Business Server Management Shell.'
-ms.openlocfilehash: f6a7cfae4a5591fa9325e7b9ac99f4c2b18ed516
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: d602f24c3342e6c8460cab41d5f14e68ba17188b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883632"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898965"
 ---
 # <a name="test-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Tester les paramètres de configuration de jonction SIP dans Skype pour Business Server
  
@@ -34,7 +35,7 @@ Les paramètres de configuration de jonction SIP (Session Initiation Protocol
     
 Lorsque vous installez Skype pour Business Server, une collection de paramètres de configuration de jonction SIP globale est créée pour vous. En outre, les administrateurs peuvent créer des collections personnalisées sur l’étendue du site ou l’étendue du service (pour le service de passerelle PSTN, uniquement). Les administrateurs peuvent également utiliser l’applet de commande Test-CsTrunkConfiguration pour vérifier qu’une jonction peut convertir un numéro composé par un utilisateur en numéro pouvant être traité par la passerelle.
   
-Paramètres de configuration de jonction ne peuvent être testées à l’aide de Windows PowerShell et l’applet de commande [Test-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/test-cstrunkconfiguration?view=skype-ps) . Cette applet de commande peut être exécutée à partir de la Skype pour Business Server Management Shell ou depuis une session distante de Skype pour Business Server Management Shell.
+Les paramètres de configuration de jonction peuvent uniquement être testés à l’aide de Windows PowerShell et de l’applet de commande [Test-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/test-cstrunkconfiguration?view=skype-ps). Cette applet de commande peut être exécutée à partir de la Skype pour Business Server Management Shell ou depuis une session distante de Skype pour Business Server Management Shell.
   
 ### <a name="to-test-sip-trunk-configuration-settings"></a>Pour tester les paramètres de configuration des jonctions SIP
 

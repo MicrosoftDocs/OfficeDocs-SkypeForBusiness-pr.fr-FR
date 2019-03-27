@@ -1,5 +1,6 @@
 ---
 title: Activation ou désactivation de la fédération et de la connectivité PIC
+ms.reviewer: ''
 ms:assetid: 8ec58f4b-9f6d-47b4-a187-d18a83fe4577
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182549(v=OCS.15)
 ms:contentKeyID: 48184813
@@ -12,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Prise en charge de la fédération est requise pour permettre aux utilisateurs qui disposent d’un compte avec une organisation clients ou partenaires approuvé, y compris les domaines partenaires et les utilisateurs de public de messagerie instantanée (MI) fournisseur utilisateurs, pour collaborer avec des utilisateurs dans votre organisation.
-ms.openlocfilehash: 9e293c70565832944a10e3c6d2533425c747197e
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: c207f409164162f066d1ea49197cbd26fa50273b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222995"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892223"
 ---
 # <a name="enable-or-disable-federation-and-public-im-connectivity-in-skype-for-business-server"></a>Activer ou désactiver la fédération et la connectivité PIC dans Skype pour Business Server
 
@@ -37,7 +38,7 @@ Si vous souhaitez ultérieurement à titre temporaire ou permanent empêcher l�
 
 ## <a name="to-enable-or-disable-federated-user-access-for-your-organization"></a>Pour activer ou désactiver l’accès des utilisateurs fédérés pour votre organisation
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou disposant des mêmes droits) ou affecté au rôle CsAdministrator, ouvrez une session sur un ordinateur qui se trouve sur votre déploiement interne.
+1.  À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou est affecté au rôle CsAdministrator, ouvrez une session sur n’importe quel ordinateur dans votre déploiement interne.
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business. 
 

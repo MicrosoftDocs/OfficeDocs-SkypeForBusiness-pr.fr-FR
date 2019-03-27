@@ -1,5 +1,6 @@
 ---
 title: Créer des administrateurs du Panneau de configuration Skype Entreprise Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 3312926a-4671-4030-bb92-90ac24c778dd
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Pour accorder l’accès à la Skype pour Business Server, procédez comme suit :'
-ms.openlocfilehash: c90290184b461e6662672ef3b6c32096ca63871f
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: c0f30910fb6f39f5e2f81b054ec2ca39dac742e4
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20973086"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897294"
 ---
 # <a name="create-skype-for-business-server-control-panel-administrators"></a>Créer des administrateurs du Panneau de configuration Skype Entreprise Server
  
@@ -34,7 +35,7 @@ Pour accorder l’accès à la Skype pour Business Server, procédez comme suit�
 5. Sous l’onglet Membre, confirmez que les utilisateurs ou les groupes que vous avez sélectionnés sont présents. Cliquez sur **OK**.
     
 > [!TIP]
-> Le Skype pour Business Server Control Panel est un outil de contrôle d’accès basé sur un rôle. L’appartenance au groupe CsAdministrator donne à un utilisateur qui utilise le Skype pour contrôle total Business Server Control Panel pour toutes les fonctions de configuration disponibles. Il existe d’autres rôles disponibles conçus pour des fonctions spécifiques. Utilisateurs n’ont pas être activé pour Skype pour Business Server afin de devenir membres des groupes d’administration. 
+> Le Skype pour Business Server Control Panel est un outil de contrôle d’accès basé sur un rôle. L’appartenance au groupe CsAdministrator donne à un utilisateur qui utilise le Skype pour contrôle total Business Server Control Panel pour toutes les fonctions de configuration disponibles. D’autres rôles conçus pour des fonctions spécifiques sont disponibles. Utilisateurs n’ont pas être activé pour Skype pour Business Server afin de devenir membres des groupes d’administration. 
   
 Autres rôles sont les suivantes :
   

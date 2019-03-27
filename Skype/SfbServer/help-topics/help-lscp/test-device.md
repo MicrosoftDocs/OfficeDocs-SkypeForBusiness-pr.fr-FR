@@ -1,5 +1,6 @@
 ---
 title: Périphérique de test
+ms.reviewer: ''
 ms.author: SerdarS
 author: SerdarSoysal
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a1ea564c-f403-4f61-a36b-5a429708e7ca
 description: Vous pouvez ajouter un périphérique de test à la page Périphérique de test, puis l’utiliser pour vérifier les fonctionnalités des nouvelles mises à jour avant de les déployer sur des périphériques de production. Vous pouvez tester un périphérique globalement (dans tout votre environnement) ou sur un site unique. Vous identifiez un périphérique de test grâce à son adresse MAC (Media Access Control) ou son numéro de série. Lorsque vous ajoutez un périphérique, il s’affiche dans la liste dans la page périphérique de Test de la Skype pour le panneau de configuration serveur Business.
-ms.openlocfilehash: 4a410a5f82c346d88520e7e56f5bf6bf5150480c
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 09a087b9ae370a9ae04265161351df2c32a71d59
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23257107"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888195"
 ---
 # <a name="test-device"></a>Périphérique de test
 
@@ -51,7 +52,7 @@ Les listes ci-dessous décrivent les menus, les commandes, les champs et les pro
 
 - **Actualiser** Vous pouvez actualiser la liste de périphériques de test pour vérifier le statut des options de tous les périphériques de test.
 
-Pour plus d’informations sur le test des périphériques, voir [Ajouter un périphérique pour tester la fonctionnalité de mise à jour](https://technet.microsoft.com/library/ce509fd1-17b3-4b78-b269-fe5d06fe2e1d.aspx) dans la documentation des opérations.
+Pour plus d’informations sur le test des périphériques, reportez-vous à la rubrique [Add a Device to Test Update Functionality](https://technet.microsoft.com/library/ce509fd1-17b3-4b78-b269-fe5d06fe2e1d.aspx) de la documentation des opérations.
 ## <a name="see-also"></a>Voir aussi
 
 [Périphérique de test : création d’un périphérique ou modification d’un périphérique existant](test-device-create-new-or-edit-existing.md)

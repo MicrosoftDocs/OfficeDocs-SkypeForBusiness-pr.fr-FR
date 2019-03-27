@@ -1,5 +1,6 @@
 ---
 title: Activer les utilisateurs pour Enterprise Voice sur Skype pour Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f252b23b-9641-4160-aa81-bf06dc2eced3
 description: 'Résumé : Découvrez comment permettre aux utilisateurs d’émettre et recevoir des appels à l’aide d’Enterprise Voice dans Skype pour Business Server.'
-ms.openlocfilehash: 9e1435c73a175ef40b4962ace41f4c7690f85953
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: b02155f424e8b3f29881caf8c4a29db6f76cb807
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883755"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882968"
 ---
 # <a name="enable-users-for-enterprise-voice-in-skype-for-business-server"></a>Activer les utilisateurs pour Enterprise Voice sur Skype pour Business Server
  
@@ -55,16 +56,16 @@ Après avoir déployé Enterprise Voice ou appel via le bureau, vous pouvez util
     
 9. Cliquez sur **Valider**.
     
-Pour terminer d’activer un utilisateur pour Enterprise Voice, n’oubliez pas que l’utilisateur reçoit une stratégie de voix et un plan de numérotation, nature globale (affectée par défaut) ou spécifiques à l’utilisateur. Par défaut, tous les utilisateurs sont affectés à une stratégie de voix globale et plan de numérotation. S’il existe une stratégie de voix ou un plan de numérotation au niveau du site sur lequel un compte d’utilisateur est hébergé, cette stratégie de site s’applique automatiquement à l’utilisateur. Pour appliquer une stratégie de voix par utilisateur ou de numérotation de plan à un utilisateur, vous devez exécuter les applets de commande **Grant-CsVoicePolicy** et **Grant-CsDialPlan** . Pour plus d’informations, reportez-vous aux procédures suivantes de cette rubrique.
+Pour terminer d’activer un utilisateur pour Enterprise Voice, n’oubliez pas que l’utilisateur reçoit une stratégie de voix et un plan de numérotation, nature globale (affectée par défaut) ou spécifiques à l’utilisateur. Par défaut, tous les utilisateurs sont affectés à une stratégie de voix globale et plan de numérotation. S’il existe une stratégie de voix ou un plan de numérotation au niveau du site sur lequel un compte d’utilisateur est hébergé, cette stratégie de site s’applique automatiquement à l’utilisateur. Pour appliquer une stratégie de voix ou un plan de numérotation à un utilisateur, vous devez exécuter les applets de commande **Grant-CsVoicePolicy** et **Grant-CsDialPlan**. Pour plus d’informations, reportez-vous aux procédures suivantes de cette rubrique.
 ## <a name="voice-policy-assignment"></a>Affectation d’une stratégie de voix
 
 Stratégies de voix globale et au niveau du site sont automatiquement affectés à tous les comptes d’utilisateurs activés pour Enterprise Voice. Vous pouvez également créer des stratégies de voix qui s’appliquent à des utilisateurs ou à des groupes spécifiques. Ces stratégies utilisateur doivent être affectées explicitement à des utilisateurs ou à des groupes. Si vous souhaitez utiliser le modèle global ou site de la stratégie de voix pour tous les utilisateurs activés pour Enterprise Voice, vous pouvez ignorer cette section et passez à la section [Affectation de Plan de numérotation](enable-users-for-enterprise-voice.md#BKMK_DialPlanAssignment) plus loin dans cette rubrique.
   
 ### <a name="to-assign-a-user-specific-voice-policy"></a>Pour affecter une stratégie de voix spécifique à l’utilisateur
 
-1. À partir d’un compte d’utilisateur auquel est affecté un des rôles CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
+1. À partir d’un compte d’utilisateur auquel est affecté le rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
     
-2. Démarrez Skype Entreprise Server Management Shell : cliquez successivement sur **Démarrer**, **Tous les programmes**, **Skype Entreprise 2015**, puis sur **Skype Entreprise Server Management Shell**.
+2. Démarrez le Skype pour Business Server Management Shell : cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Skype pour Business 2015**, puis cliquez sur **Skype pour Business Server Management Shell**.
     
 3. Pour affecter une stratégie de voix utilisateur existante à un utilisateur, exécutez la commande suivante dans l’invite de commandes :
     
@@ -72,7 +73,7 @@ Stratégies de voix globale et au niveau du site sont automatiquement affectés 
    Grant-CsVoicePolicy -Identity <UserIdParameter> -PolicyName <String>
    ```
 
-    Exemple :
+    Par exemple :
     
    ```
    Grant-CsVoicePolicy -Identity "Bob Kelly" -PolicyName VoicePolicyJapan
@@ -87,9 +88,9 @@ Pour terminer la configuration de compte d’utilisateur pour les utilisateurs d
   
 ### <a name="to-assign-a-user-specific-dial-plan"></a>Affectation d’un plan de numérotation propre à un utilisateur
 
-1. À partir d’un compte d’utilisateur auquel est affecté un des rôles CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
+1. À partir d’un compte d’utilisateur auquel est affecté le rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
     
-2. Démarrez Skype Entreprise Server Management Shell : cliquez successivement sur **Démarrer**, **Tous les programmes**, **Skype Entreprise 2015**, puis sur **Skype Entreprise Server Management Shell**.
+2. Démarrez le Skype pour Business Server Management Shell : cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Skype pour Business 2015**, puis cliquez sur **Skype pour Business Server Management Shell**.
     
 3. Pour affecter un plan de numérotation spécifique à un utilisateur, exécutez la commande suivante dans l’invite de commandes :
     

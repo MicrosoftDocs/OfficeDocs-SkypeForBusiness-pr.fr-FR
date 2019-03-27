@@ -1,5 +1,6 @@
 ---
 title: Quelles sont les nouveautés dans Skype pour Business Server 2019 | fonctionnalités
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Résumé : Ces fonctionnalités sont nouvelles dans Skype pour Business Server 2019.'
-ms.openlocfilehash: 4eb674293b152109a9743fce5114fe11e3e97158
-ms.sourcegitcommit: 6d4b99de7233e91dbab4f08331dac4d88c51d9e4
+ms.openlocfilehash: 770cfa8934f40e8ab847b7d77a60f18250c64842
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "30058981"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891779"
 ---
 # <a name="whats-in-skype-for-business-server-2019"></a>Nouveautés dans Skype pour Business Server 2019
 
@@ -22,7 +23,7 @@ ms.locfileid: "30058981"
 
 Nouvelles fonctionnalités de Skype pour Business Server 2019 sont les suivantes :
   
-- Messagerie vocale dans le nuage  
+- Messagerie vocale cloud  
 - Connecteur de données d’appel
 - Migration côte à côte
 

@@ -1,5 +1,6 @@
 ---
 title: Plan pour un appel via le bureau dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a33ec637-9ac8-4cb7-b3b2-88d432efc078
 description: Planification des appels via le bureau dans Skype pour Business Server, ce qui permet l’intégration entre Skype pour les entreprises et votre système téléphonique PBX, afin que les utilisateurs peuvent utiliser Skype pour les entreprises à contrôler leurs téléphones PBX.
-ms.openlocfilehash: b7c1765af7140bdfc1a0e304dd94218231ed41c7
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 3a2452f732d55f305d91cee9cd2b940f7bb3c88e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887918"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891663"
 ---
 # <a name="plan-for-call-via-work-in-skype-for-business-server"></a>Plan pour un appel via le bureau dans Skype pour Business Server
  

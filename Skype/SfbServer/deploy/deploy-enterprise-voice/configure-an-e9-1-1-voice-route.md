@@ -1,5 +1,6 @@
 ---
 title: Configurer une itinéraire des communications vocales E9-1-1 dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6933b840-0e7b-4509-ae43-bc9065677547
 description: Configurer les itinéraires de communications vocales E9-1-1 dans Skype pour Business Server Enterprise Voice.
-ms.openlocfilehash: a465dd40eb79224db4e021a227f46fb0f1f6a129
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 04890782eb9c550428d89c99304c5a7951fc34b7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23890321"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894921"
 ---
 # <a name="configure-an-e9-1-1-voice-route-in-skype-for-business-server"></a>Configurer une itinéraire des communications vocales E9-1-1 dans Skype pour Business Server
  
@@ -33,7 +34,7 @@ Pour déployer E9-1-1, vous devez d’abord configurer un itinéraire des commun
 
 1. Ouvrez une session sur l’ordinateur à l’aide d’un compte membre du groupe RTCUniversalServerAdmins ou du rôle d’administration CsVoiceAdministrator.
     
-2.  Démarrez Skype Entreprise Server Management Shell : cliquez successivement sur **Démarrer**, **Tous les programmes**, **Skype Entreprise 2015**, puis sur **Skype Entreprise Server Management Shell**.
+2.  Démarrez le Skype pour Business Server Management Shell : cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Skype pour Business 2015**, puis cliquez sur **Skype pour Business Server Management Shell**.
     
 3. Exécutez l’applet de commande ci-dessous pour créer un enregistrement d’utilisation RTC. 
     

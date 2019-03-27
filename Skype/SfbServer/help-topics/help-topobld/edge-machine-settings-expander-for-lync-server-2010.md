@@ -1,5 +1,6 @@
 ---
-title: Expanseur des paramètres l’ordinateur Edge pour Lync Server 2010
+title: Développeur des paramètres de l’ordinateur Edge pour Lync Server 2010
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fb72a5b5-70f4-44af-8dfd-c5d32e563882
 description: 'Pour modifier les propriétés pour les ordinateurs de serveur de transport Edge en tant qu’un serveur de périphérie unique ou en tant qu’ordinateurs membres d’un pool de serveurs Edge, vous configurez le nom du serveur et les paramètres de configuration d’adresses IP :'
-ms.openlocfilehash: 10709088aee9d1b5ec247804122520afa3b29dee
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: f0125ba8d9c7ff181aff0a29f69a5077b1ad0818
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373384"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891539"
 ---
-# <a name="edge-machine-settings-expander-for-lync-server-2010"></a>Expanseur des paramètres l’ordinateur Edge pour Lync Server 2010
+# <a name="edge-machine-settings-expander-for-lync-server-2010"></a>Développeur des paramètres de l’ordinateur Edge pour Lync Server 2010
  
 Pour modifier les propriétés pour les ordinateurs de serveur de transport Edge en tant qu’un serveur de périphérie unique ou en tant qu’ordinateurs membres d’un pool de serveurs Edge, configurer les paramètres de **configuration d’adresse IP et de nom de serveur** :
   

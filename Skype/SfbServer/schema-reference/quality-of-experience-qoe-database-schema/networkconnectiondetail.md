@@ -1,5 +1,6 @@
 ---
-title: NetworkConnectionDetail table
+title: Table NetworkConnectionDetail
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -9,20 +10,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b48cc9a6-5232-48b5-bd20-53b68229336b
-description: The NetworkConnectionDetail table maps network connection types to the network connection identifiers used elsewhere in the Quality of Experience database. This table was introduced in Microsoft Lync Server 2013.
-ms.openlocfilehash: cc1eb91d3c633ed9455a0476b613430dfa8e3d6b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: La table NetworkConnectionDetail mappe les types de connexion réseau aux identificateurs de connexion réseau utilisés ailleurs dans la base de données de qualité de l’expérience. Ce tableau a été introduit dans Microsoft Lync Server 2013.
+ms.openlocfilehash: 6df2511c2dfee0158b4633be5dfa8549639cfc6d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889055"
 ---
-# <a name="networkconnectiondetail-table"></a>NetworkConnectionDetail table
+# <a name="networkconnectiondetail-table"></a>Table NetworkConnectionDetail
  
-The NetworkConnectionDetail table maps network connection types to the network connection identifiers used elsewhere in the Quality of Experience database. This table was introduced in Microsoft Lync Server 2013.
+La table NetworkConnectionDetail mappe les types de connexion réseau aux identificateurs de connexion réseau utilisés ailleurs dans la base de données de qualité de l’expérience. Ce tableau a été introduit dans Microsoft Lync Server 2013.
   
-|**Column**|**Data Type**|**Key/Index**|**Détails**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
 |:-----|:-----|:-----|:-----|
-|**NetworkConnectionDetailKey** <br/> |tinyint  <br/> |Principal  <br/> |Unique identifier for the network connection type.  <br/> |
-|**NetworkConnectionDetail** <br/> |varchar(256)  <br/> |Unique  <br/> |Network connection type that corresponds to the NetworkConnectionDetailKey. Les valeurs autorisées sont les suivantes :  <br/> 0 -- Wired  <br/> 1 -- WiFi  <br/> 2 -- Ethernet  <br/> 3 -- MobileBB  <br/> 4 -- Other  <br/> 5 -- Tunnel  <br/> |
+|**NetworkConnectionDetailKey** <br/> |tinyint  <br/> |Principal  <br/> |Identificateur unique pour le type de connexion réseau.  <br/> |
+|**NetworkConnectionDetail** <br/> |varchar(256)  <br/> |Unique  <br/> |Type de connexion réseau qui correspond à la NetworkConnectionDetailKey. Les valeurs autorisées sont les suivantes :  <br/> 0--filaire  <br/> 1--Wi-Fi  <br/> 2--Ethernet  <br/> 3--MobileBB  <br/> 4--autres  <br/> 5--tunnel  <br/> |
    
 

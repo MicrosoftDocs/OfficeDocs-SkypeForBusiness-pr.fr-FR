@@ -1,5 +1,6 @@
 ---
 title: Get-CcCredential
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b2b5aefb-a08d-4bec-9204-76597d413849
 description: 'L’applet de commande Get-CcCredential renvoie les informations du déploiement de la version Cloud Connector de Skype Entreprise. '
-ms.openlocfilehash: cff2ba89f7ebf3151a92a753e4dc6adc490dde05
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 651190f31ad44e0bb2375bbf4a70951c2011e1a7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569993"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898394"
 ---
 # <a name="get-cccredential"></a>Get-CcCredential
  
@@ -61,7 +62,7 @@ Write-Host $text
 
 |**Paramètre**|**Obligatoire**|**Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| AccountType <br/> |Obligatoire  <br/> | System.String <br/> | AccountType valeur peut être une des options suivantes : <br/>  VmAdmin : l’administrateur local d’ordinateurs virtuels de nuage connecteur. <br/>  DomainAdmin : L’administrateur de domaine du domaine de machine virtuelle de Cloud Connector. <br/>  SafeModeAdmin : SafeModeAdmin du contrôleur de domaine de machine virtuelle de Cloud Connector. <br/>  ExternalCert : Compte du certificat externe installé sur le serveur Edge. <br/>  TenantAdmin : Administrateur du client O365. <br/> |
+| AccountType <br/> |Obligatoire  <br/> | System.String <br/> | La valeur AccountType peut être l’une des valeurs suivantes : <br/>  VmAdmin : l’administrateur local d’ordinateurs virtuels de nuage connecteur. <br/>  DomainAdmin : L’administrateur de domaine du domaine de machine virtuelle de Cloud Connector. <br/>  SafeModeAdmin : SafeModeAdmin du contrôleur de domaine de machine virtuelle de Cloud Connector. <br/>  ExternalCert : Compte du certificat externe installé sur le serveur Edge. <br/>  TenantAdmin : Administrateur du client O365. <br/> |
    
 ## <a name="input-types"></a>Types d’entrées
 <a name="InputTypes"> </a>

@@ -1,5 +1,6 @@
 ---
 title: Stratégie de code confidentiel
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 16e5b03c-c313-4792-9353-65f33b5e775a
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: 2fd111f3572d2fba4450e7d71f5bb8d190cec80b
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 93b7aa02ebf850ba1b039769df4797832e50c72c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371437"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890338"
 ---
 # <a name="pin-policy"></a>Stratégie de code confidentiel
 
@@ -31,11 +32,11 @@ Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effect
 - [Suppression d’une stratégie de code confidentiel dans Skype Entreprise Server 2015](../../manage/authentication/delete-a-pin-policy.md)
 
   **Utilisation de la stratégie de code confidentiel pour les conférences rendez-vous** Cette stratégie de code confidentiel permet aux utilisateurs qui disposent d’informations d’identification des Services de domaine Active Directory dans votre organisation à participer à des conférences rendez-vous en tant qu’utilisateurs authentifiés en entrant un code confidentiel.
-- [Créer ou modifier les paramètres de code confidentiel de conférence rendez-vous pour un Site ou un groupe d’utilisateurs](https://technet.microsoft.com/library/c29bab5c-2b93-48e0-ae0b-29564daaff9a.aspx)
+- [Create or Modify Dial-in Conferencing PIN Settings for a Site or Group of Users](https://technet.microsoft.com/library/c29bab5c-2b93-48e0-ae0b-29564daaff9a.aspx)
 
-- [Modifier les paramètres de code confidentiel par défaut dans les conférences rendez-vous](https://technet.microsoft.com/library/2d110e94-ad29-4755-b17f-d8c2da9b78a4.aspx)
+- [Modify the Default Dial-in Conferencing PIN Settings](https://technet.microsoft.com/library/2d110e94-ad29-4755-b17f-d8c2da9b78a4.aspx)
 
-- [Supprimer les paramètres de code confidentiel de conférence rendez-vous pour un Site ou un groupe d’utilisateurs](https://technet.microsoft.com/library/15a9faee-d024-4c0e-b2a0-fe7e7dc00589.aspx)
+- [Delete Dial-in Conferencing PIN Settings for a Site or Group of Users](https://technet.microsoft.com/library/15a9faee-d024-4c0e-b2a0-fe7e7dc00589.aspx)
 
 Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide de la Skype pour le panneau de configuration serveur Business, voir [Gérer les Skype pour Business Server 2015](../../manage/manage.md).
 

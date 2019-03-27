@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b4b1dc313fa1ea223e7c55f066b869b29c098fd2
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: b3aab01d03b3239918c48bfb250df00208f76a7f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460827"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891138"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-high-deployments"></a>Plan pour Microsoft 365 gouvernement - déploiements GCC haute
 
@@ -101,7 +101,7 @@ Pour prendre en compte les exigences de nos clients du nuage gouvernement, il ex
 | | Enregistrement de nuage | Sur la file d’attente pour le gouvernement |
 | | Notes de réunion | Disponibles |
 | | Diffusion des réunions | Sur la file d’attente pour le gouvernement |
-| | Réunions fédérées | Disponibles |
+| | Réunions fédéré intra-nuage (GCCH à GCCH) | Disponibles |
 | | Prise en charge de surface Hub | Sur la file d’attente pour le gouvernement |
 | Appels | Contacts | Disponibles |
 | | Historique | Disponibles |

@@ -1,5 +1,6 @@
 ---
 title: DNS du serveur Edge une planification avancée pour Skype pour Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 ms.audience: ITPro
@@ -12,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: 'Résumé : Examen de scénarios pour Skype pour les options de déploiement de serveur d’entreprise. Si vous souhaitez qu’un seul serveur ou que vous préférez un pool de serveurs DNS ou matérielle, cette rubrique doit contribuer à.'
-ms.openlocfilehash: ce65c0e79b2863bf1e2fb2ccd7f14d6aa7953161
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 88f3da6a006c74393b487a55e85a16aa56bd968b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23889838"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893068"
 ---
 # <a name="advanced-edge-server-dns-planning-for-skype-for-business-server"></a>DNS du serveur Edge une planification avancée pour Skype pour Business Server
  
@@ -126,7 +127,7 @@ Nous allons répertorient les enregistrements DNS pour les zones internes et ext
     
   - Enregistrements DNS A et AAAA (si vous utilisez l’adressage IPv6) et SRV pour Skype pour la configuration automatique des clients Business Server (**facultatif**).
     
-## <a name="automatic-configuration-without-split-brain-dns"></a>Configuration automatique sans DNS split-brain
+## <a name="automatic-configuration-without-split-brain-dns"></a>Configuration automatique sans DNS Split-Brain
 <a name="NoSplitBrainDNS"> </a>
 
 Si vous n’utilisez pas DNS split-brain, interne configuration automatique des clients exécutant Skype pour les entreprises ne fonctionne pas, sauf si vous utilisez une des solutions que nous avons ici. Pourquoi ? Étant donné que Skype pour Business Server nécessite l’URI SIP de l’utilisateur correspondre au domaine du pool frontal désigné pour la configuration automatique. Cela n’a pas changé par rapport aux versions antérieures de Lync Server.
@@ -196,7 +197,7 @@ Maintenant que nous savons que tout, si vous devez exigence automatique pour vot
 > [!NOTE]
 > En outre, les valeurs de nom de domaine complet du pool frontal modifier entre les exemples de contoso.com et fabrikam.com, mais les adresses IP restent les mêmes. C’est parce que les utilisateurs qui vous connectez depuis un domaine SIP utiliseront le même pool frontal pour la configuration automatique. 
   
-## <a name="dns-disaster-recovery"></a>Récupération d’urgence de DNS
+## <a name="dns-disaster-recovery"></a>DNS disaster recovery
 <a name="DNSDR"> </a>
 
 Pour configurer DNS pour rediriger Skype pour le trafic web Business Server à vos sites de basculement et de récupération d’urgence (DR), vous devez utiliser un fournisseur de DNS qui prend en charge GeoDNS. Vous pouvez configurer vos enregistrements DNS pour prendre en charge de la récupération d’urgence, afin que les fonctionnalités qui utilisent les services web continuent même si un pool frontal entier tombe en panne. Cette fonctionnalité DR prend en charge les URL simples de découverte automatique, de réunion et de rendez-vous.
@@ -207,14 +208,14 @@ Tous les enregistrements DNS dans ce tableau sont des exemples.
   
 |**Enregistrement GeoDNS**|**Enregistrements de pool**|**Enregistrements CNAME**|**Paramètres DNS (sélectionnez une option)**|
 |:-----|:-----|:-----|:-----|
-|Réunion-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Meet.contoso.com alias de Pool1InternalWebFQDN.contoso.com  <br/> Meet.contoso.com alias de Pool2InternalWebFQDN.contoso.com  <br/> |Round Robin entre pools  <br/> **SOIT** <br/> Utilisez le principal, se connecter au secondaire en cas de défaillance  <br/> |
-|Réunion-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Meet.contoso.com alias de Pool1ExternalWebFQDN.contoso.com  <br/> Meet.contoso.com alias de Pool2ExternalWebFQDN.contoso.com  <br/> |Round Robin entre pools  <br/> **SOIT** <br/> Utilisation du principal, connexion au secondaire en cas de défaillance  <br/> |
+|Meet-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Meet.contoso.com alias de Pool1InternalWebFQDN.contoso.com  <br/> Meet.contoso.com alias de Pool2InternalWebFQDN.contoso.com  <br/> |Round Robin entre pools  <br/> **SOIT** <br/> Utilisez le principal, se connecter au secondaire en cas de défaillance  <br/> |
+|Meet-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Meet.contoso.com alias de Pool1ExternalWebFQDN.contoso.com  <br/> Meet.contoso.com alias de Pool2ExternalWebFQDN.contoso.com  <br/> |Round Robin entre pools  <br/> **SOIT** <br/> Utilisation du principal, connexion au secondaire en cas de défaillance  <br/> |
 |Dialin-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Dialin.contoso.com alias de Pool1InternalWebFQDN.contoso.com  <br/> Dialin.contoso.com alias de Pool2InternalWebFQDN.contoso.com  <br/> |Round Robin entre pools  <br/> **SOIT** <br/> Utilisation du principal, connexion au secondaire en cas de défaillance  <br/> |
 |Dialin-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Dialin.contoso.com alias de Pool1ExternalWebFQDN.contoso.com  <br/> Dialin.contoso.com alias de Pool2ExternalWebFQDN.contoso.com  <br/> |Round Robin entre pools  <br/> **SOIT** <br/> Utilisation du principal, connexion au secondaire en cas de défaillance  <br/> |
 |Lyncdiscoverint-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Lyncdiscoverinternal.contoso.com alias de Pool1InternalWebFQDN.contoso.com  <br/> Lyncdiscoverinternal.contoso.com alias de Pool2InternalWebFQDN.contoso.com  <br/> |Round Robin entre pools  <br/> **SOIT** <br/> Utilisation du principal, connexion au secondaire en cas de défaillance  <br/> |
 |Lyncdiscover-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Lyncdiscover.contoso.com alias de Pool1ExternalWebFQDN.contoso.com  <br/> Lyncdiscover.contoso.com alias de Pool2ExternalWebFQDN.contoso.com  <br/> |Round Robin entre pools  <br/> **SOIT** <br/> Utilisation du principal, connexion au secondaire en cas de défaillance  <br/> |
-|Planificateur-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Scheduler.contoso.com alias de Pool1InternalWebFQDN.contoso.com  <br/> Scheduler.contoso.com alias de Pool2InternalWebFQDN.contoso.com  <br/> |Round Robin entre pools  <br/> **SOIT** <br/> Utilisation du principal, connexion au secondaire en cas de défaillance  <br/> |
-|Planificateur-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Scheduler.contoso.com alias de Pool1ExternalWebFQDN.contoso.com  <br/> Scheduler.contoso.com alias de Pool2ExternalWebFQDN.contoso.com  <br/> |Round Robin entre pools  <br/> **SOIT** <br/> Utilisation du principal, connexion au secondaire en cas de défaillance  <br/> |
+|Scheduler-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Scheduler.contoso.com alias de Pool1InternalWebFQDN.contoso.com  <br/> Scheduler.contoso.com alias de Pool2InternalWebFQDN.contoso.com  <br/> |Round Robin entre pools  <br/> **SOIT** <br/> Utilisation du principal, connexion au secondaire en cas de défaillance  <br/> |
+|Scheduler-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Scheduler.contoso.com alias de Pool1ExternalWebFQDN.contoso.com  <br/> Scheduler.contoso.com alias de Pool2ExternalWebFQDN.contoso.com  <br/> |Round Robin entre pools  <br/> **SOIT** <br/> Utilisation du principal, connexion au secondaire en cas de défaillance  <br/> |
    
 ## <a name="dns-load-balancing"></a>Équilibrage de charge DNS
 <a name="DNSLB"> </a>

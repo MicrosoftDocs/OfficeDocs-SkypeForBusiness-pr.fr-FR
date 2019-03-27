@@ -1,5 +1,6 @@
 ---
 title: Créer ou modifier une plage de numéros de groupe d’appel collecte dans Skype pour les entreprises
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4b442b98-df6b-4e50-8254-b3be9cde21dd
 description: Créer ou modifier une plage de numéros de groupe d’appel collecte dans Skype pour Business Server Enterprise Voice.
-ms.openlocfilehash: d73b3e72aa7cd5f733406c861d8a3357fe28fe45
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 0032d46507c6cb91629b94662ec67bf9c67b7cc4
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883952"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885595"
 ---
 # <a name="create-or-modify-a-group-call-pickup-number-range-in-skype-for-business"></a>Créer ou modifier une plage de numéros de groupe d’appel collecte dans Skype pour les entreprises
 
@@ -49,11 +50,11 @@ Les plages de numéros de groupe de prise d’appel doivent respecter les règle
 
 1. Ouvrez une session l’ordinateur où Skype pour Business Server Management Shell est installé en tant que membre du groupe RTCUniversalServerAdmins ou avec les droits utilisateur nécessaires comme indiqué dans **Déléguer des autorisations d’installation**.
 
-2. Démarrez Skype Entreprise Server Management Shell : cliquez successivement sur **Démarrer**, **Tous les programmes**, **Skype Entreprise 2015**, puis sur **Skype Entreprise Server Management Shell**.
+2. Démarrez le Skype pour Business Server Management Shell : cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Skype pour Business 2015**, puis cliquez sur **Skype pour Business Server Management Shell**.
 
-3. Utilisez **New-CsCallParkOrbit** pour créer une nouvelle plage de numéros de groupe collecte d’appel. **Set-CsCallParkOrbit** permet de modifier une plage existante de collecte d’appeler des numéros.
+3. Utilisez **New-CsCallParkOrbit** pour créer une plage de numéros de groupe de prise d’appel. Utilisez **Set-CsCallParkOrbit** pour modifier une plage existante de numéros de groupe de prise d’appel.
 
-    À partir de la ligne de commande, exécutez la commande suivante :
+    Dans la ligne de commande, exécutez la commande suivante :
 
    ```
    New-CsCallParkOrbit -Identity <name of call pickup group range> -NumberRangeStart <first number in range> -NumberRangeEnd <last number in range> -CallParkService <FQDN or service ID of the Application service that hosts the Call Park application> -Type GroupPickup

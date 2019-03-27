@@ -1,5 +1,6 @@
 ---
 title: Planifier le routage par emplacement dans Skype pour les entreprises
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4aa494bd-0d66-4335-b9e8-f758d44a7202
 description: Planification du routage par emplacement dans Skype pour Business Server Enterprise Voice, y compris l’interaction avec sonnerie simultanée et la délégation et les scénarios pris en charge pour le routage basé sur l’emplacement.
-ms.openlocfilehash: 1e4f19d96306db31be0606dbfda799e93c2d34e0
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 2e9070e5ecddcf88e5edac8064409177caa82b4d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886097"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874363"
 ---
 # <a name="plan-for-location-based-routing-in-skype-for-business"></a>Planifier le routage par emplacement dans Skype pour les entreprises
 
@@ -123,7 +124,7 @@ Le tableau suivant illustre le scénario d’un Skype pour l’utilisateur d’e
 
 |**Point de terminaison cible du transfert/renvoi de l’appel**|**Skype pour les utilisateurs professionnels dans le même site réseau**|**Skype pour les utilisateurs professionnels dans les sites de réseau**|**Un ou les deux Skype pour les utilisateurs professionnels dans site réseau inconnue ou réseau non activés pour le routage basé sur l’emplacement**|
 |:-----|:-----|:-----|:-----|
-|Point de terminaison RTC  <br/> |Transfert d’appel ou transfert autorisé par la stratégie de routage voix site l’utilisateur transféré  <br/> |Transfert d’appel ou transfert autorisé par la stratégie de routage voix site l’utilisateur transféré  <br/> |Transfert d’appel ou transfert autorisé par la stratégie de voix de l’utilisateur transféré uniquement par le biais de jonctions pas activé pour le routage basé sur l’emplacement  <br/> |
+|Point de terminaison PSTN  <br/> |Transfert d’appel ou transfert autorisé par la stratégie de routage voix site l’utilisateur transféré  <br/> |Transfert d’appel ou transfert autorisé par la stratégie de routage voix site l’utilisateur transféré  <br/> |Transfert d’appel ou transfert autorisé par la stratégie de voix de l’utilisateur transféré uniquement par le biais de jonctions pas activé pour le routage basé sur l’emplacement  <br/> |
 
 Par exemple : une Skype pour l’utilisateur d’entreprise dans un appel avec une autre Skype pour l’utilisateur d’entreprise qui se trouve dans le même site réseau transfère l’appel vers un point de terminaison RTC et le transfert d’appel est autorisé.
 
@@ -145,7 +146,7 @@ Le tableau suivant illustre un appel à partir d’un Skype pour l’utilisateur
 
 |**Cible de la sonnerie simultanée**|**Situé dans le même site réseau que l’appelé**|**Situé dans un autre site réseau que l’appelé**|**Situé dans le site réseau inconnu ou non activés pour le routage basé sur l’emplacement**|
 |:-----|:-----|:-----|:-----|
-|Point de terminaison RTC  <br/> |Sonnerie simultanée autorisée par le biais de stratégie de routage voix site l’appelant  <br/> |Sonnerie simultanée autorisée par le biais de stratégie de routage voix site l’appelant  <br/> |Sonnerie simultanée autorisée par le biais de stratégie de voix de l’appelant à jonctions ne pas activé pour le routage basé sur l’emplacement  <br/> |
+|Point de terminaison PSTN  <br/> |Sonnerie simultanée autorisée par le biais de stratégie de routage voix site l’appelant  <br/> |Sonnerie simultanée autorisée par le biais de stratégie de routage voix site l’appelant  <br/> |Sonnerie simultanée autorisée par le biais de stratégie de voix de l’appelant à jonctions ne pas activé pour le routage basé sur l’emplacement  <br/> |
 
 ### <a name="skype-for-business-cumulative-update-4"></a>Mise à jour cumulative 4 de Skype Entreprise
 
@@ -210,10 +211,10 @@ Le tableau suivant indique les combinaisons de versions et les rôles de serveur
 |**Version du pool**|**Version de serveur de médiation**|**Prise en charge**|
 |:-----|:-----|:-----|
 |Skype pour la mise à jour Cumulative Business Server ou de Lync Server 2013 de février 2013  <br/> |Skype pour la mise à jour Cumulative Business Server ou de Lync Server 2013 de février 2013  <br/> |Oui  <br/> |
-|Skype pour la mise à jour Cumulative Business Server ou de Lync Server 2013 de février 2013  <br/> |Lync Server 2013  <br/> |Non  <br/> |
+|Skype pour la mise à jour Cumulative Business Server ou de Lync Server 2013 de février 2013  <br/> |Lync Server 2013  <br/> |Non  <br/> |
 |Skype pour la mise à jour Cumulative Business Server ou de Lync Server 2013 de février 2013  <br/> |Lync Server 2010  <br/> |Non  <br/> |
 |Skype pour la mise à jour Cumulative Business Server ou de Lync Server 2013 de février 2013  <br/> |Office Communications Server 2007 R2  <br/> |Non  <br/> |
-|Lync Server 2013  <br/> |Quelconque  <br/> |Non  <br/> |
+|Lync Server 2013  <br/> |Quelconque  <br/> |Non  <br/> |
 |Lync Server 2010  <br/> |Quelconque  <br/> |Non  <br/> |
 |Office Communications Server 2007 R2  <br/> |Quelconque  <br/> |Non  <br/> |
 
@@ -225,8 +226,8 @@ Le tableau suivant identifie les clients qui prend en charge le routage basé su
 
 |**Type de client**|**Prise en charge**|**Détails**|
 |:-----|:-----|:-----|
-|Skype Entreprise  <br/> |Oui  <br/> ||
-|Lync 2013  <br/> |Oui  <br/> ||
+|Skype Entreprise  <br/> |Oui  <br/> ||
+|Lync 2013  <br/> |Oui  <br/> ||
 |Lync 2010  <br/> |Oui  <br/> ||
 |Office Communicator 2007 R2  <br/> |Non  <br/> ||
 |Lync Phone Edition  <br/> |Oui  <br/> ||
@@ -236,7 +237,7 @@ Le tableau suivant identifie les clients qui prend en charge le routage basé su
 |Lync Mobile 2010  <br/> |Oui  <br/> ||
 
 > [!NOTE]
-> Pour désactiver VoIP pour Skype pour les clients d’entreprise, attribuer une stratégie de mobilité avec le paramètre IP Audio/vidéo, désactivé pour tous les utilisateurs activés pour le routage basé sur l’emplacement. Pour plus d’informations sur la stratégie de mobilité, voir [New-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/new-csmobilitypolicy?view=skype-ps).
+> Pour désactiver VoIP pour Skype pour les clients d’entreprise, attribuer une stratégie de mobilité avec le paramètre IP Audio/vidéo, désactivé pour tous les utilisateurs activés pour le routage basé sur l’emplacement. Pour plus d’informations sur la stratégie de mobilité, reportez-vous à [New-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/new-csmobilitypolicy?view=skype-ps).
 
 ## <a name="capabilities-not-supported-by-location-based-routing"></a>Fonctionnalités non prises en charge par le routage géodépendant
 

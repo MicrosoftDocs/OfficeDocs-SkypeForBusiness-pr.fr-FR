@@ -1,5 +1,6 @@
 ---
 title: Configurer un lien de région réseau
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a42d2185-efa5-4659-839b-5e67d80de2da
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: 04e22ad74aeaf777b9a082fabd9ea27f327b0ffb
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 5391f96b49f0c3fe29da44781d5f51633de9d128
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23262903"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888985"
 ---
 # <a name="configure-a-network-region-link"></a>Configurer un lien de région réseau
 

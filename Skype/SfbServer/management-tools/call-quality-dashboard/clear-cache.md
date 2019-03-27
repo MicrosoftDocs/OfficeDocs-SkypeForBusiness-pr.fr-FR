@@ -1,5 +1,6 @@
 ---
-title: Vider le Cache
+title: Vider le cache
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,20 +11,20 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 08648b16-7a64-41d8-9577-5000a20fce46
 description: 'Résumé : Découvrez l’opération vider le Cache, qui fait partie de l’API de données pour le tableau de bord qualité des appels. Tableau de bord de qualité des appels est un outil de Skype pour Business Server.'
-ms.openlocfilehash: 745fdff57843c42ebf55c1caee011d4b7f4ed250
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: c2371a7f99eb37e8e01be919bf6c31b0c9a452cb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531287"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889237"
 ---
-# <a name="clear-cache"></a>Vider le Cache
+# <a name="clear-cache"></a>Vider le cache
  
 **Résumé :** Obtenir des informations sur l’opération de vider le Cache, ce qui fait partie de l’API de données pour le tableau de bord qualité des appels. Tableau de bord de qualité des appels est un outil de Skype pour Business Server.
   
 L’opération de vider le Cache fait partie de l’API de données pour le tableau de bord qualité des appels.
   
-## <a name="clear-cache"></a>Vider le Cache
+## <a name="clear-cache"></a>Vider le cache
 
 Opération de Cache Clear supprime le cache sur le serveur pour les requêtes et les données. Le cache seront réinitialisés et nous allons les données du cube QoE ultérieurement pour de nouvelles demandes.
   

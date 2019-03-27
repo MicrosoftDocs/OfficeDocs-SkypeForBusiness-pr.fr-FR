@@ -1,5 +1,6 @@
 ---
 title: Nœud d’étendue d’une application externe
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,11 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dfd21945-331a-4058-97b6-d17690353702
 description: 'Ce nœud affiche le nom de domaine complet (FQDN) du pool, le paramètre de réplication et le pool du tronçon suivant pour ce pool d’applications approuvées. Vous pouvez effectuer les actions suivantes :'
-ms.openlocfilehash: 169abb029187ad610c170b37b20b6b030d266726
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: d1ae8f5f6bfb4d6d517c9889d730b98f7f5d2322
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891201"
 ---
 # <a name="external-application-scope-node"></a>Nœud d’étendue d’une application externe
  

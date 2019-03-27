@@ -1,5 +1,6 @@
 ---
-title: 'Type de serveur Edge fusion héritée :'
+title: 'Fusion hérité : type de serveur Edge'
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 47bedf17-25cb-4fc2-9e23-be695bd86fd0
 ROBOTS: NOINDEX, NOFOLLOW
 description: Pour un serveur Edge unique ou à charge équilibrée consolidée de serveur de périphérie, cliquez sur Suivant pour spécifier les informations de configuration. Pour un serveur Edge développé, configuration de chaque serveur doit être modifiée pour une configuration du serveur Edge consolidée avant qu’il peut être fusionné.
-ms.openlocfilehash: 21a807510c74de92251cc9b415bde71fa85e2ec9
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: e87cb85e8e48a07c96eb1d053dbe2ff602121fc4
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21066523"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893159"
 ---
-# <a name="legacy-merge-edge-type"></a>Type de serveur Edge fusion héritée :
+# <a name="legacy-merge-edge-type"></a>Fusion hérité : type de serveur Edge
  
 Pour un **Serveur de périphérie unique** ou **à charge équilibrée serveur Edge consolidé** du serveur, cliquez sur **suivant** pour spécifier les informations de configuration. Pour un **Bord développé**, configuration de chaque serveur doit être modifiée pour une configuration du serveur Edge consolidée avant qu’il peut être fusionné. 
   

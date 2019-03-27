@@ -1,5 +1,6 @@
 ---
 title: Edge exigences Server dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 ms.audience: ITPro
@@ -12,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 67435465-b4d0-4e38-8e03-56a60b844a34
 description: 'Résumé : Découvrez les exigences pour les serveurs de périphérie de Skype pour Business Server.'
-ms.openlocfilehash: c1a7c9ff9b55d2b5cdf978b87913f50b6521ea77
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: eaa6c1ac5b1d014f6c2bb54a342dabd4c6388c2e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047880"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878813"
 ---
 # <a name="edge-server-environmental-requirements-in-skype-for-business-server"></a>Edge exigences Server dans Skype pour Business Server
  
@@ -125,10 +126,10 @@ Examinons d’autres aspects à prendre en compte lors de la planification.
     Équilibrage de charge DNS est également recommandé si vous êtes fédération avec des sociétés à l’aide de :
 - Skype pour Business Server 2015 :
     - Lync Server 2010
-    - Lync Server 2013
+    - Lync Server 2013
     - Microsoft Office O365
 - Skype pour Business Server 2019 :
-    - Lync Server 2013
+    - Lync Server 2013
     - Skype Entreprise Server 2015
     - Microsoft Office 365.
     
@@ -260,13 +261,13 @@ Il existe d’autres configurations possibles ici :
    
 ### <a name="dns-record-for-federation-all-scenarios"></a>Enregistrement DNS pour la fédération (tous les scénarios)
 
-|**Emplacement**|**Type**|**Port**|**NOM DE DOMAINE COMPLET**|**Enregistrement d’hôte FQDN**|**Remarques**|
+|**Emplacement**|**Type**|**Port**|**FQDN**|**Enregistrement d’hôte FQDN**|**Remarques**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |DNS externe  <br/> |SRV  <br/> |5061  <br/> |_sipfederationtls_tcp.contoso.com  <br/> |sip.contoso.com  <br/> |L’interface externe Edge d’accès SIP nécessaire pour la découverte automatique DNS. Utilisée par vos autres partenaires de fédération potentiels. Elle est également connue sous le nom de « domaines SIP autorisés ». Vous aurez besoin d’une de ces pour chaque domaine SIP avec Skype pour les utilisateurs professionnels.  <br/><br/> **Remarque :** Vous devez cet enregistrement SRV pour la mobilité et les échanges de notifications push. <br/> |
    
 ### <a name="dns-records-for-extensible-messaging-and-presence-protocol"></a>Enregistrements DNS pour le protocole XMPP (Extensible Messaging et Presence Protocol)
 
-|**Emplacement**|**Type**|**Port**|**NOM DE DOMAINE COMPLET**|**Adresse IP ou enregistrement d’hôte FQDN**|**Remarques**|
+|**Emplacement**|**Type**|**Port**|**FQDN**|**Adresse IP ou enregistrement d’hôte FQDN**|**Remarques**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |DNS externe  <br/> |SRV  <br/> |5269  <br/> |_xmpp-server._tcp.contoso.com  <br/> |xmpp.contoso.com  <br/> |L’interface proxy XMPP sur votre service Edge d’accès ou d’un pool de serveurs Edge. Vous devez reprenez cette étape pour tous les domaines SIP internes avec Skype pour les utilisateurs d’entreprise du serveur, où les contacts avec les contacts XMPP est autorisé par le biais de :  <br/> • une stratégie globale  <br/> • une stratégie de site où l’utilisateur de l’extension  <br/> • une stratégie utilisateur de la Skype pour Business Server activé utilisateur  <br/> une stratégie XMPP autorisée doit également être configurée dans la stratégie des utilisateurs fédérés XMPP.  <br/> |
 |DNS externe  <br/> |SRV  <br/> |A  <br/> |xmpp.contoso.com  <br/> |Adresse IP du service Edge d’accès sur le serveur Edge ou le pool de serveurs Edge qui héberge votre service Proxy XMPP  <br/> |Il pointe vers le service Edge d’accès sur le serveur Edge ou le pool de serveurs Edge qui héberge le service Proxy XMPP. En général, l’enregistrement SRV que vous créez pointe vers cet enregistrement hôte (A ou AAAA).  <br/> |
@@ -283,7 +284,7 @@ Nous aborderons séparément les besoins de certificats internes et externes, pu
   
 ### <a name="external-certificates"></a>Certificats externes
 
-Au minimum, le certificat assigné à votre serveur de périphérie des interfaces externe vous devrez être fournie par une autorité de certification publique (CA). Nous ne pouvons pas vous recommander une autorité de certification spécifique, mais nous en possédons une liste d’autorités de certifications, [Partenaires de certification pour les communications unifiées](https://support.microsoft.com/en-us/kb/929395), que vous pouvez consulter pour voir si votre autorité préférée est répertoriée.
+Au minimum, le certificat assigné à votre serveur de périphérie des interfaces externe vous devrez être fournie par une autorité de certification publique (CA). Nous ne pouvons vous recommandons d’une autorité de certification spécifique pour vous, mais nous disposons d’une liste d’autorités de certification, [partenaires de certificat de Communications unifiées](https://support.microsoft.com/en-us/kb/929395) que vous pouvez effectuer un aperçu pour voir si votre autorité de certification par défaut est répertoriée.
   
 Quand aurez-vous besoin d’envoyer une demande à une autorité de certification pour ce certificat public et comment procéder ? Il existe différentes façons de faire :
   

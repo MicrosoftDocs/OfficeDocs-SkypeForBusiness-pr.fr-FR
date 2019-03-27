@@ -1,5 +1,6 @@
 ---
 title: Configuration des stratégies de contrôle d’accès des utilisateurs distants
+ms.reviewer: ''
 ms:assetid: 8f556849-692b-44a0-9514-4468fc9a39d0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398725(v=OCS.15)
 ms:contentKeyID: 48184825
@@ -12,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Vous configurez une ou plusieurs stratégies d’accès utilisateur externe au contrôle si les utilisateurs distants peuvent collaborer avec Skype interne pour les utilisateurs Business Server. Pour contrôler l’accès des utilisateurs distants, vous pouvez configurer des stratégies au niveau global, site et au niveau utilisateur.
-ms.openlocfilehash: 7b8fdd83859b03d659d8fa346e0d2aa459c04ac6
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: f6d316f022e671bc7f7e70ebbe2a801b0b3e312c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222946"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899532"
 ---
 # <a name="configure-policies-to-control-remote-user-access-in-skype-for-business-server"></a>Configurer des stratégies de contrôle d’accès des utilisateurs distants dans Skype pour Business Server
 
@@ -35,7 +36,7 @@ Utilisez la procédure suivante pour configurer chaque stratégie d’accès ext
 
 ## <a name="to-configure-an-external-access-policy-to-support-remote-user-access"></a>Pour configurer une stratégie d’accès externe pour prendre en charge l’accès des utilisateurs distants
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou disposant des mêmes droits) ou affecté au rôle CsAdministrator, ouvrez une session sur un ordinateur qui se trouve sur votre déploiement interne.
+1.  À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou est affecté au rôle CsAdministrator, ouvrez une session sur n’importe quel ordinateur dans votre déploiement interne.
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business. 
 

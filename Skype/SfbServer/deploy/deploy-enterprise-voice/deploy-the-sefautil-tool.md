@@ -1,5 +1,6 @@
 ---
 title: Déploiement de l’outil SEFAUtil dans Skype pour les entreprises
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb556e50-88dd-4404-a3d5-be36f5ba41e6
 description: Déploiement de l’outil SEFAUtil dans Skype pour Business Server.
-ms.openlocfilehash: 1b2f981a438b71b44eb5d4c760e98d1d777f7235
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 64319438604e30ab7187885eb82daf554d176917
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532783"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886815"
 ---
 # <a name="deploy-the-sefautil-tool-in-skype-for-business"></a>Déploiement de l’outil SEFAUtil dans Skype pour les entreprises
  
@@ -38,7 +39,7 @@ Vous pouvez exécuter l’outil SEFAUtil dans n’importe quel pool frontal dans
 
 1. Ouvrez une session l’ordinateur où Skype pour Business Server Management Shell est installé en tant que membre du groupe RTCUniversalServerAdmins ou avec les droits utilisateur nécessaires comme indiqué dans **Déléguer des autorisations d’installation**.
     
-2. Démarrez Skype Entreprise Server Management Shell : cliquez successivement sur **Démarrer**, **Tous les programmes**, **Skype Entreprise 2015**, puis sur **Skype Entreprise Server Management Shell**.
+2. Démarrez le Skype pour Business Server Management Shell : cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Skype pour Business 2015**, puis cliquez sur **Skype pour Business Server Management Shell**.
     
 3. L’outil SEFAUtil ne peut être exécuté que sur un ordinateur qui fait partie d’un pool d’applications approuvées. Si nécessaire, définir un pool d’applications approuvées pour le pool frontal où vous prévoyez d’exécuter SEFAUtil. Sur la ligne de commande, exécutez :
     

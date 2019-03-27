@@ -1,5 +1,6 @@
 ---
-title: Ajouter les détails du Site
+title: Ajouter les détails du site
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: c34def73-c5a1-4e89-80c2-f2c6cd654924
 ROBOTS: NOINDEX, NOFOLLOW
 description: Vous pouvez spécifier les détails de l’emplacement de votre site, y compris un code de pays/région, département/province ou ville. Tous ces informations d’emplacement sont facultatifs.
-ms.openlocfilehash: 2e3b86b02fc59523320ee6fd510dac747731d8fa
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: a8c949671f4c99b635e1e9a2745f0165a3d3c4ee
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21060614"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898788"
 ---
-# <a name="add-site-details"></a>Ajouter les détails du Site
+# <a name="add-site-details"></a>Ajouter les détails du site
  
 Vous pouvez spécifier les détails de l’emplacement de votre site, y compris un code de pays/région, département/province ou ville. Tous ces informations d’emplacement sont facultatifs.
   

@@ -1,5 +1,6 @@
 ---
 title: Déployer une connectivité Skype dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: 'Résumé : Découvrez comment connecter Skype pour Business Server Skype consommateur. Également appelé Skype connectivité.'
-ms.openlocfilehash: 33b24ff4ea609240bbb1a1bbea4a8e25154dc14a
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 3dd48661b230f4e780505be4aeb05bbe9ff82340
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372452"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874506"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>Déployer une connectivité Skype dans Skype pour Business Server
  
@@ -80,7 +81,7 @@ Pour Office 365 petite entreprise Premium : Se connecter à Office 365 et accé
   
 Pour plus d’informations sur l’administration de Skype Entreprise Online, voir :
   
-- [Autoriser les utilisateurs à contacter des utilisateurs externes de Skype Entreprise](../../SfbOnline/set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md)
+- [Autoriser les utilisateurs à contacter des utilisateurs Skype Entreprise externes](../../SfbOnline/set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md)
 
 - [Que faire si vous ne pouvez pas par messagerie instantanée Skype pour les contacts externes Skype ou de l’entreprise ?](https://support.office.com/en-us/article/What-to-try-if-you-cant-IM-Skype-for-Business-Lync-or-Skype-external-contacts-87f6d5d7-3b8c-4196-9c8c-1dabb75f54b8?ui=en-US&amp;rs=en-US&amp;ad=US)
     
@@ -231,18 +232,18 @@ Le tableau ci-dessous décrit l’état d’interopérabilité entre la dernièr
   
 |**Client**|**Recherche dans l’annuaire Skype et ajout de contacts**|**Skype A/V, interopérabilité avec la messagerie instantanée**|
 |:-----|:-----|:-----|
-|Skype Entreprise  <br/> |Oui  <br/> |Oui  <br/> |
+|Skype Entreprise  <br/> |Oui   <br/> |Oui   <br/> |
 |Skype Entreprise sur Mac  <br/> |Ajout possible (pas de recherche)  <br/> |Oui  <br/> |
 |Lync Desktop 2013  <br/> |Ajout possible (pas de recherche)  <br/> |Oui  <br/> |
-|Lync Web App - en ligne et sur site  <br/> |N/A  <br/> |N/A  <br/> |
+|Lync Web App - en ligne et sur site  <br/> |N/A   <br/> |N/A   <br/> |
 |Lync Mobile - Windows Phone  <br/> |Bientôt disponible  <br/> |Oui  <br/> |
 |Lync Mobile - Android  <br/> |Bientôt disponible  <br/> |Oui  <br/> |
 |Lync Mobile - iOS  <br/> |Bientôt disponible  <br/> |Oui  <br/> |
 |Lync Room System  <br/> |Bientôt disponible  <br/> |Oui  <br/> |
-|Lync Modern App (Windows 8.1)  <br/> |Oui  <br/> |Oui  <br/> |
+|Lync Modern App (Windows 8.1)  <br/> |Oui  <br/> |Oui   <br/> |
 |Lync Mac 2011  <br/> |Ajout possible (pas de recherche)  <br/> |Oui  <br/> |
 |Lync Desktop 2010  <br/> |Ajout possible (pas de recherche)  <br/> |Oui  <br/> |
-|Lync Phone Edition  <br/> |N/A  <br/> |N/A  <br/> |
+|Lync Phone Edition  <br/> |N/A   <br/> |N/A   <br/> |
 |Lync Attendant  <br/> |N/A  <br/> |N/A  <br/> |
    
 

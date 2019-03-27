@@ -1,5 +1,6 @@
 ---
 title: Début ou arrêt de la capture dʼun journal CLS dans Skype Entreprise Server 2015
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0512b9ce-7f5b-48eb-a79e-f3498bacf2de
 description: 'Résumé : Découvrez comment démarrer ou arrêter une session de capture des journaux de Service de journalisation centralisée dans Skype pour Business Server 2015.'
-ms.openlocfilehash: d3dc2ca58964908bda0d8c2de845297bb0cb951b
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: 982aecf9da4e8ca08d734a4adb35d8a34a3bb816
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699858"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887329"
 ---
 # <a name="start-or-stop-cls-log-capture-in-skype-for-business-server-2015"></a>Début ou arrêt de la capture dʼun journal CLS dans Skype Entreprise Server 2015
  
@@ -32,7 +33,7 @@ Le Service de journalisation centralisée fournit deux méthodes pour envoyer de
   
 ### <a name="to-run-start-csclslogging-with-windows-powershell-using-basic-commands"></a>Pour exécuter Start-CsClsLogging avec Windows PowerShell à l’aide des commandes de base
 
-1. Démarrez Skype Entreprise Server Management Shell : cliquez successivement sur **Démarrer**, **Tous les programmes**, **Skype Entreprise 2015**, puis sur **Skype Entreprise Server Management Shell**.
+1. Démarrez le Skype pour Business Server Management Shell : cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Skype pour Business 2015**, puis cliquez sur **Skype pour Business Server Management Shell**.
     
 2. Démarrer un scénario de journalisation avec le Service de journalisation centralisée en tapant ce qui suit :
     
@@ -47,7 +48,7 @@ Le Service de journalisation centralisée fournit deux méthodes pour envoyer de
    ```
 
     > [!NOTE]
-    > Le scénario AlwaysOn n’a pas de durée par défaut. Ce scénario s’exécute jusqu'à ce que vous l’interrompiez explicitement avec l’applet de commande **Stop-CsClsLogging** . Pour plus d’informations, voir [Stop-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/stop-csclslogging?view=skype-ps). Pour tous les autres scénarios, la durée par défaut est de 4 heures. 
+    > Le scénario AlwaysOn n’a pas de durée par défaut. Ce scénario s’exécutera jusqu’à ce que l’arrêtiez de façon explicite avec l’applet de commande **Stop-CsClsLogging**. Pour plus d’informations, voir [Stop-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/stop-csclslogging?view=skype-ps). Pour tous les autres scénarios, la durée par défaut est de 4 heures. 
   
 3. Appuyez sur Entrée pour exécuter la commande. 
     
@@ -56,7 +57,7 @@ Le Service de journalisation centralisée fournit deux méthodes pour envoyer de
   
      ![Exécution de Start-CsClsLogging.](../../media/Ops_CLS_Show_and_Start_ClsLogging.jpg)
   
-4. Pour lancer un autre scénario, utilisez l’applet de commande **Start-CsClsLogging** avec le nom de ce scénario à exécuter comme suit (par exemple, le scénario **authentification**) :
+4. Pour lancer un autre scénario, utilisez l’applet de commande **Start-CsClsLogging** associée au nom du scénario supplémentaire à exécuter (par exemple, le scénario **Authentification**) :
     
    ```
    Start-CsClsLogging -Scenario Authentication
@@ -67,7 +68,7 @@ Le Service de journalisation centralisée fournit deux méthodes pour envoyer de
   
 ### <a name="to-run-start-csclslogging-with-windows-powershell-using-advanced-commands"></a>Pour exécuter Start-CsClsLogging avec Windows PowerShell à l’aide de commandes avancées
 
-1. Démarrez Skype Entreprise Server Management Shell : cliquez successivement sur **Démarrer**, **Tous les programmes**, **Skype Entreprise 2015**, puis sur **Skype Entreprise Server Management Shell**.
+1. Démarrez le Skype pour Business Server Management Shell : cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Skype pour Business 2015**, puis cliquez sur **Skype pour Business Server Management Shell**.
     
 2. Il existe d’autres paramètres pour gérer les commandes de journalisation. Vous pouvez utiliser - durée pour régler la durée pendant laquelle le scénario à exécuter. Vous pouvez également définir - ordinateurs, une liste de noms de domaine d’ordinateur pleinement qualifié (FQDN) séparés par une virgule, ou - liste des noms de domaine complets des pools que vous souhaitez exécuter ouverture de session séparés par des Pools, une virgule.
     
@@ -110,7 +111,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 ### <a name="to-stop-a-currently-running-centralized-logging-service-session"></a>Pour arrêter une session de Service de journalisation centralisée actuellement en cours d’exécution
 
-1. Démarrez Skype Entreprise Server Management Shell : cliquez successivement sur **Démarrer**, **Tous les programmes**, **Skype Entreprise 2015**, puis sur **Skype Entreprise Server Management Shell**.
+1. Démarrez le Skype pour Business Server Management Shell : cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Skype pour Business 2015**, puis cliquez sur **Skype pour Business Server Management Shell**.
     
 2. Requête the Centralized Logging Service permettant de savoir quel scénarios sont en cours d’exécution en tapant la commande suivante :
     

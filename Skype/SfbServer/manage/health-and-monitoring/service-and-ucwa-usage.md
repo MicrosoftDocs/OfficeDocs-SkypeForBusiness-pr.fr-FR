@@ -1,5 +1,6 @@
 ---
 title: Surveiller l’utilisation du Service de mobilité et UCWA dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8389b37a-ca3e-4047-8b51-85bc07da87e8
 description: 'Résumé : Gérer le Service de mobilité (Mcx) et le Web de Communications unifiées API (UCWA) dans Skype pour Business Server.'
-ms.openlocfilehash: 6856235e5e5a8179e52836901598f7fbe2852a57
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: 79516ec6cf5371061a0287e70e6ed81f8b2a5395
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "21227015"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884949"
 ---
 # <a name="monitor-mobility-service-and-ucwa-usage-in-skype-for-business-server"></a>Surveiller l’utilisation du Service de mobilité et UCWA dans Skype pour Business Server
  

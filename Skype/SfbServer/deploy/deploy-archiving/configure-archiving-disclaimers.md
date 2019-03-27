@@ -1,5 +1,6 @@
 ---
 title: Configurer des notifications d’exclusion d’archivage pour les utilisateurs externes Skype pour Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 394ac291-05cd-4fa1-acb3-714af538b47f
 description: 'Résumé : Lisez cette rubrique pour savoir comment configurer une notification d’exclusion d’archivage pour Skype pour Business Server.'
-ms.openlocfilehash: cb49135f80c1711e7e71d16b448e51d308f7ebea
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 9511dacb23773a4cd411844abd1d38216026019e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20978668"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881750"
 ---
 # <a name="configure-archiving-disclaimers-for-external-users-in-skype-for-business-server"></a>Configurer des notifications d’exclusion d’archivage pour les utilisateurs externes Skype pour Business Server
  
@@ -28,7 +29,7 @@ Pour permettre aux utilisateurs externes de collaborer avec des utilisateurs dan
   
 ## <a name="enable-or-disable-archiving-disclaimer-using-the-control-panel"></a>Activer ou désactiver une nouvelle notification d’exclusion relative à l’archivage à l’aide du panneau de configuration
 
-1. À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou disposant des mêmes droits) ou affecté au rôle CsAdministrator, ouvrez une session sur un ordinateur qui se trouve sur votre déploiement interne.
+1. À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou est affecté au rôle CsAdministrator, ouvrez une session sur n’importe quel ordinateur dans votre déploiement interne.
     
 2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business. 
     

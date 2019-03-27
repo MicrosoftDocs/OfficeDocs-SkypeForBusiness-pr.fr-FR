@@ -1,5 +1,6 @@
 ---
 title: Expanseur des ordinateurs de conversation permanente
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 15bc1c8f-71bd-4d66-bba1-cac0f2fe90bf
 ROBOTS: NOINDEX, NOFOLLOW
 description: Vous activez ou désactivez un déployés Persistent Chat Server ou un pool de serveurs de conversation permanente à l’aide de serveurs ou pools répertoriés dans les paramètres d’état de Machine. Sélectionnez un serveur ou un pool dans la liste, puis cliquez sur le bouton Rendre actif pour activer un serveur ou un pool.
-ms.openlocfilehash: ab24577f06fea56a2115e3db3c336f05aff472c2
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: dd061a643b5187222956e8b344da6c3a027bb2dc
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21064849"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886534"
 ---
 # <a name="persistent-chat-machines-expander"></a>Expanseur des ordinateurs de conversation permanente
 

@@ -1,5 +1,6 @@
 ---
 title: Définir le nom de domaine complet de la conversation permanente
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: e0123fa6-008b-430e-a68b-61f0cc3fb12e
 ROBOTS: NOINDEX, NOFOLLOW
 description: Vous créez un nouveau serveur de conversation permanente ou un pool de serveurs de conversation permanente à l’aide de l’Assistant définir un nouveau Pool de conversation permanente. Sélectionnez un pool comportant plusieurs ordinateurs ou un pool comportant un seul ordinateur. Lorsque vous sélectionnez un pool comportant un seul ordinateur et qu’ensuite vous avez besoin d’un pool comportant plusieurs ordinateurs, vous devez supprimer le pool comportant un seul ordinateur afin de définir un pool comportant plusieurs ordinateurs.
-ms.openlocfilehash: a7b07fae815b27c1dac031a3694f1effe2193dd4
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: e05eb50751b92c9f4ce6b05c23314683afd5b5dc
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21061112"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898612"
 ---
 # <a name="define-persistent-chat-fqdn"></a>Définir le nom de domaine complet de la conversation permanente
 

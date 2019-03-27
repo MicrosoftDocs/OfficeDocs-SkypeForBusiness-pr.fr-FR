@@ -1,5 +1,6 @@
 ---
 title: (Facultatif) Définir Response Group de congés dans Skype pour les entreprises
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 56c37b3b-6517-49b9-86b7-ae48cc349119
 description: Créer ou modifier les congés Response Group, dans Skype pour Business Server Enterprise Voice.
-ms.openlocfilehash: f959b69462ecc3d3d37d6febfbf043a48f9dd4ad
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: cc34c7a2e3f03b99bc29852766926e6c63c2463f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20974746"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883843"
 ---
 # <a name="optional-define-response-group-holiday-sets-in-skype-for-business"></a>(Facultatif) Définir Response Group de congés dans Skype pour les entreprises
  
@@ -28,9 +29,9 @@ Les paramètres relatifs aux congés définissent les jours de fermeture d’un 
   
 ### <a name="to-create-a-holiday-set"></a>Pour créer une période de congés
 
-1. Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre d’un des rôles d’administrateur prédéfinis qui prennent en charge Response Group.
+1. Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre de l’un des rôles d’administration prédéfinis qui prennent en charge Response Group.
     
-2. Démarrez Skype Entreprise Server Management Shell : cliquez successivement sur **Démarrer**, **Tous les programmes**, **Skype Entreprise 2015**, puis sur **Skype Entreprise Server Management Shell**.
+2. Démarrez le Skype pour Business Server Management Shell : cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Skype pour Business 2015**, puis cliquez sur **Skype pour Business Server Management Shell**.
     
 3. Pour chaque congé que vous souhaitez définir, exécutez :
     

@@ -1,5 +1,6 @@
 ---
 title: Stratégie de conversation permanente
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eb9e95b9-f69d-4545-970f-9dfdd93b0eff
 description: Vous pouvez utiliser la page Stratégie de conversation permanente du groupe Conversation permanente pour gérer les stratégies au niveau utilisateur, site, pool ou global, y compris pour configurer la stratégie globale par défaut et créer une ou plusieurs autres stratégies utilisateur et de site pour votre déploiement. Si le serveur de conversation permanente est activé pour un utilisateur par stratégie, l’environnement de serveur de conversation permanente s’affiche dans le client.
-ms.openlocfilehash: 95020a24cc8f68c33028977cc5e4c3569423b219
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: fc994f74acc0abf8d4d615d3d85ea3662c367904
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375782"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894928"
 ---
 # <a name="persistent-chat-policy"></a>Stratégie de conversation permanente
  
@@ -121,7 +122,7 @@ Utilisez la procédure de cette rubrique pour appliquer une stratégie utilisate
 5. Dans **Modifier l’utilisateur Lync Server** sous **stratégie de conversation permanente**, sélectionnez la stratégie d’utilisateur de conversation permanente que vous souhaitez appliquer.
     
     > [!NOTE]
-    > Le ** \<automatique\> ** paramètres s’appliquent à la stratégie par défaut en cours. Le serveur les applique automatiquement.
+    > Le ** \<automatique\> ** paramètres s’appliquent à la stratégie par défaut en cours. Ces paramètres sont appliqués automatiquement par le serveur.
   
 6. Cliquez sur **Valider**.
     

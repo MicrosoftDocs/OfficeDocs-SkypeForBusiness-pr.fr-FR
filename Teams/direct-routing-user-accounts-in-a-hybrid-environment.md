@@ -1,5 +1,6 @@
 ---
 title: Comptes d’utilisateur dans un environnement hybride avec une connectivité PSTN
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 - M365-voice
 appliesto: Microsoft Teams
 description: Découvrez les différentes combinaisons de création de l’utilisateur et les combinaisons suivantes sont prises en charge ou non pris en charge.
-ms.openlocfilehash: bfa4bef876886b01f7be987aae644e9e4b9169fd
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 88f679d5028cd2626ce4e85f0794aafb38317c9c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569574"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899193"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>Comptes d’utilisateur dans un environnement hybride avec une connectivité PSTN
 

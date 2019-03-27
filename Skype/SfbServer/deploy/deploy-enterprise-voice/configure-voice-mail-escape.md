@@ -1,5 +1,6 @@
 ---
 title: Configurer la redirection vers la messagerie vocale dans Skype pour les entreprises
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a1d19e6c-82ff-4768-8ae5-da981368ce40
 description: 'Résumé : Découvrez comment configurer redirection vers la messagerie vocale Skype pour Business Server à l’aide de la Skype pour Business Server Management Shell.'
-ms.openlocfilehash: 260488701348fdf52eaccb82cc6dc41c19c68339
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 6c1c6977949eb45c28cce482f98be67295ee4eef
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23891264"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891866"
 ---
 # <a name="configure-voice-mail-escape-in-skype-for-business"></a>Configurer la redirection vers la messagerie vocale dans Skype pour les entreprises
 
@@ -30,7 +31,7 @@ Cette configuration est effectuée à l’aide de la Skype pour Business Server 
 
 ### <a name="to-configure-voice-mail-escape"></a>Pour configurer la redirection vers la messagerie vocale
 
-1. Démarrez Skype Entreprise Server Management Shell : cliquez successivement sur **Démarrer**, **Tous les programmes**, **Skype Entreprise 2015**, puis sur **Skype Entreprise Server Management Shell**.
+1. Démarrez le Skype pour Business Server Management Shell : cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Skype pour Business 2015**, puis cliquez sur **Skype pour Business Server Management Shell**.
 
 2. Spécifiez les paramètres ci-dessous sur **Set-CsVoicePolicy** :
 
@@ -47,5 +48,5 @@ Set-CsVoicePolicy -Identity site:SitePolicy -EnableVoiceMailEscapeTimer $true -P
 
 ## <a name="see-also"></a>Voir aussi
 
-[Configuration de stratégies de voix et les enregistrements d’utilisation PSTN pour autoriser les privilèges et les fonctionnalités d’appel](https://technet.microsoft.com/library/63f22010-a3d7-4cbd-86e8-6fc0e13c2b84.aspx)
+[Configuring Voice Policies and PSTN Usage Records to Authorize Calling Features and Privileges](https://technet.microsoft.com/library/63f22010-a3d7-4cbd-86e8-6fc0e13c2b84.aspx)
 

@@ -1,5 +1,6 @@
 ---
 title: Planifier des conférences dans Skype Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 10add1ea-d693-406c-9dc9-853df0ab05da
 description: 'Résumé : Lisez cette rubrique pour en savoir plus sur les fonctionnalités de conférence et des capacités de Skype pour Business Server.'
-ms.openlocfilehash: d1ac78876df97d2420c0951c9c2e1a9a41e451ce
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: cefd631f1750d7eaa4404a2fe2ffa8aa91675824
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375796"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899434"
 ---
 # <a name="plan-for-conferencing-in-skype-for-business-server"></a>Planifier des conférences dans Skype Business Server
  
@@ -133,7 +134,7 @@ La taille des réunions Skype pour Business Server peut prendre en charge dépen
     
 Pour plus d’informations sur la gestion des grandes réunions, voir [planifier des réunions de grande taille dans Skype pour Business Server](large-meetings.md).
   
-Si votre organisation requiert des fonctionnalités de réunion plus grandes, envisagez d’implémenter un environnement hybride qui tire parti de la diffusion de réunion Skype, un service en ligne qui fait partie d’Office 365. La diffusion de réunion Skype permet aux utilisateurs d’héberger et de diffuser des réunions à des réunions en ligne comptant jusqu’à 10 000 participants. L’utilisation de la diffusion de réunion Skype exige que Skype Entreprise Server soit déjà configuré dans une configuration hybride avec un client Office 365 de production. Un client en ligne doit être installé au préalable pour tous les utilisateurs. Si vous êtes intéressé par le déploiement d’une solution hybride qui peut tirer parti de la diffusion de réunion Skype, voir [configurer votre déploiement sur site de diffusion de réunion Skype](../../deploy/configure-skype-meeting-broadcast.md).
+Si votre organisation requiert des fonctionnalités de réunion plus grandes, envisagez d’implémenter un environnement hybride qui tire parti de la diffusion de réunion Skype, un service en ligne qui fait partie d’Office 365. La diffusion de réunion Skype permet aux utilisateurs d’héberger et de diffuser des réunions à des réunions en ligne comptant jusqu’à 10 000 participants. L’utilisation de la diffusion de réunion Skype exige que Skype Entreprise Server soit déjà configuré dans une configuration hybride avec un client Office 365 de production. Un client en ligne doit être installé au préalable pour tous les utilisateurs. Si vous souhaitez déployer une solution hybride pouvant tirer parti de la diffusion de réunion Skype, reportez-vous à la rubrique [Configure your on-premises deployment for Skype Meeting Broadcast](../../deploy/configure-skype-meeting-broadcast.md).
   
 ## <a name="determine-your-organizations-needs"></a>Détermination des besoins de votre organisation
 

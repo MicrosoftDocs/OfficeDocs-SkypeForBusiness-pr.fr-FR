@@ -1,5 +1,6 @@
 ---
 title: Nœud d'étendue des jonctions
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 4ee527fa-ebec-40a9-a6bf-0cabd098aaa9
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Avec le bouton droit de jonctions dans le Générateur de topologie pour effectuer les actions suivantes :'
-ms.openlocfilehash: c30e7eebcbedfca43e42b23f4e496fc866542039
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 40f125e88c93cf3090dff73dcadc07f6154d01f8
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21082565"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891574"
 ---
-# <a name="trunks-scope-node"></a>Nœud d’étendue des jonctions
+# <a name="trunks-scope-node"></a>Nœud d'étendue des jonctions
  
 Avec le bouton droit de **jonctions** dans le Générateur de topologie pour effectuer les actions suivantes :
   
@@ -27,7 +28,7 @@ Avec le bouton droit de **jonctions** dans le Générateur de topologie pour eff
     
 Outre l’option Nouvelle jonction, vous pouvez effectuer les tâches générales suivantes :
   
-![Nœud d’étendue des jonctions](../../../media/Trunks_Scope_Node.jpg)
+![Nœud d'étendue des jonctions](../../../media/Trunks_Scope_Node.jpg)
   
 - **Topologie** : vous pouvez utiliser cette option pour définir une nouvelle topologie, ouvrir une topologie existante, télécharger la topologie actuelle, enregistrer une copie de la topologie, publier la topologie, installer une base de données, fusionner des composants des versions antérieures ou supprimer le déploiement.
     

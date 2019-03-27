@@ -1,5 +1,6 @@
 ---
-title: Expanseur des paramètres du magasin de fichiers
+title: Développeur des paramètres du magasin de fichiers
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4d316ae0-2a37-48b0-a3dc-468616ab4135
 description: 'Pour modifier les propriétés des magasins de fichiers définis :'
-ms.openlocfilehash: 91a5d96b16eb4ad60220c718726ec3d7efef47cf
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 0ea52144525e0f6b4960150214f3db55c8e7520e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20986933"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891387"
 ---
-# <a name="file-store-settings-expander"></a>Expanseur des paramètres du magasin de fichiers
+# <a name="file-store-settings-expander"></a>Développeur des paramètres du magasin de fichiers
  
 Pour modifier les propriétés des magasins de fichiers définis :
   

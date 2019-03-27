@@ -1,5 +1,6 @@
 ---
 title: Planifier des stratégies d’emplacement de Skype pour Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: da3cca7f-f6e5-4b6f-90a1-2008e3dd1ebd
 description: Lisez cette rubrique pour savoir comment planifier des stratégies d’emplacement pour un déploiement de services d’urgence étendus (E9-1-1) dans Skype pour Business Server Enterprise Voice.
-ms.openlocfilehash: ed5eb479224c82757d808c202633cd79f466a543
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 6717d6b7940ccf9cf7de403797d8bd4712f18144
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533214"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878020"
 ---
 # <a name="plan-location-policies-for-skype-for-business-server"></a>Planifier des stratégies d’emplacement de Skype pour Business Server
  

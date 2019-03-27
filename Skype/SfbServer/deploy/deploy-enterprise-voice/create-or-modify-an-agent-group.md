@@ -1,5 +1,6 @@
 ---
 title: Créer ou modifier un groupe d’agents dans Skype pour les entreprises
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f1461fff-51c1-4f4b-9311-8cba02c333fc
 description: Créer ou modifier un groupe d’agents Response Group, dans Skype pour Business Server Enterprise Voice.
-ms.openlocfilehash: 0eb94658abac8d137b915fd5a499364b43b51916
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 16dafbfc3157e08a187be5799c5901115d738b48
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370683"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894535"
 ---
 # <a name="create-or-modify-an-agent-group-in-skype-for-business"></a>Créer ou modifier un groupe d’agents dans Skype pour les entreprises
  
@@ -39,7 +40,7 @@ Pour créer ou modifier un groupe d’agents, utilisez l’une des procédures c
   
 ### <a name="to-use-skype-for-business-server-control-panel-to-create-or-modify-an-agent-group"></a>Utiliser Skype pour Business Server Control Panel pour créer ou modifier un groupe d’agents
 
-1. Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre d’un des rôles d’administrateur prédéfinis qui prennent en charge Response Group.
+1. Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre de l’un des rôles d’administration prédéfinis qui prennent en charge Response Group.
     
     > [!NOTE]
     > Si vous faites partie des responsables de groupes Response Group délégués pour un flux de travail géré, vous pouvez créer des groupes et les utiliser dans les flux de travail que vous gérez. 
@@ -116,11 +117,11 @@ Pour créer ou modifier un groupe d’agents, utilisez l’une des procédures c
     
 ### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-an-agent-group"></a>Utiliser Skype pour Business Server Management Shell pour créer ou modifier un groupe d’agents
 
-1. Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre d’un des rôles d’administrateur prédéfinis qui prennent en charge Response Group.
+1. Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre de l’un des rôles d’administration prédéfinis qui prennent en charge Response Group.
     
-2. Démarrez Skype Entreprise Server Management Shell : cliquez successivement sur **Démarrer**, **Tous les programmes**, **Skype Entreprise 2015**, puis sur **Skype Entreprise Server Management Shell**.
+2. Démarrez le Skype pour Business Server Management Shell : cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Skype pour Business 2015**, puis cliquez sur **Skype pour Business Server Management Shell**.
     
-3. **New-CsRgsAgentGroup** permet de créer un nouveau groupe d’agents. **Set-CsRgsAgentGroup** permet de modifier un groupe d’agents. À partir de la ligne de commande, exécutez la commande suivante :
+3. Utilisez **New-CsRgsAgentGroup** pour créer un groupe d’agents. Utilisez **Set-CsRgsAgentGroup** pour modifier un groupe d’agents existant. Dans la ligne de commande, exécutez la commande suivante :
     
    ```
    New-CsRgsAgentGroup -Name "<agent group name>" -Parent $serviceId [-Description "<agent group description>"] -[AgentAlertTime <# seconds until call is routed to next agent>] [-ParticipationPolicy <Formal | Informal>] [-RoutingMethod <method for routing calls>] [-AgentsByUri("<first agent's SIP address>","<second agent's SIP address>")];

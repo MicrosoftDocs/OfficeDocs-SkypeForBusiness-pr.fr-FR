@@ -1,5 +1,6 @@
 ---
 title: Configuration d’une participation aux réunions sans code confidentiel dans Skype Entreprise Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,18 +10,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c21e8861-bb75-45e8-8485-38daa3b8121c
 description: 'Résumé : Découvrez comment configurer le code confidentiel sans option de jointure dans Skype pour Business Server de la réunion.'
-ms.openlocfilehash: 843ea92a331391faa47e4cbc32191312c6dfbc6b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 4ea20f68b123f6593c5a98fc82dbca62f90f31b1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20985962"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892286"
 ---
 # <a name="configure-pin-less-meeting-join-in-skype-for-business-server"></a>Configuration d’une participation aux réunions sans code confidentiel dans Skype Entreprise Server
  
 **Résumé :** Découvrez comment configurer le code confidentiel sans option de jointure dans Skype pour Business Server de la réunion.
   
-Lorsqu’un appelant rendez-vous tente de participer à une réunion, le service de conférence automatique standard (CAA) place l’appelant dans un stylo d’exploitation est différent de la salle d’attente & #x 2014 ; Si un présentateur n’est pas déjà un appel, et l’appelant entrant n’a pas entré un code confidentiel de l’organisateur. L’option de participation à une réunion sans code confidentiel autorise les appelants à participer à une téléconférence sans entrer de code d’organisateur même s’ils sont les premiers à rejoindre un appel. 
+Lorsqu’un appelant rendez-vous tente de participer à une réunion, le service de conférence automatique standard (CAA) place l’appelant dans un stylo d’exploitation est différent de la salle d’attente de & #x 2014 ; Si un présentateur n’est pas déjà un appel, et l’appelant entrant n’a pas entré un code confidentiel de l’organisateur. L’option de participation à une réunion sans code confidentiel autorise les appelants à participer à une téléconférence sans entrer de code d’organisateur même s’ils sont les premiers à rejoindre un appel. 
   
 Lors de la configuration de cette fonctionnalité, rappelez-vous des points suivants :
   

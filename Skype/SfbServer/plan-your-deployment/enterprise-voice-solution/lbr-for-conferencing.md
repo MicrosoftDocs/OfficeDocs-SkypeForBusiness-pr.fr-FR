@@ -1,5 +1,6 @@
 ---
 title: Routage par emplacement pour les conférences dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8b86740e-db95-4304-bb83-64d0cbb91d47
 description: Planification de routage par emplacement pour les conférences dans Skype pour Business Server Enterprise Voice, y compris appel consultatif transfère.
-ms.openlocfilehash: 810b93d20fe9bdbf0ae057250509b1e9ec612afe
-ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
+ms.openlocfilehash: cdb043aca3f2e2ac4278de1782f756d395016770
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "27240737"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892962"
 ---
 # <a name="location-based-routing-for-conferencing-in-skype-for-business-server"></a>Routage par emplacement pour les conférences dans Skype pour Business Server
 
@@ -66,7 +67,7 @@ Autres caractéristiques de la gamme en fonction de l’application de conféren
 > [!NOTE]
 > Avec la mise à jour cumulative 4 de Skype Entreprise, vous devriez observer le comportement décrit dans le tableau suivant :
 
-|**Utilisateur**|**Autre partie**|**Action**|**Résultat**|
+|**User**|**Autre partie**|**Action**|**Résultat**|
 |:-----|:-----|:-----|:-----|
 |Skype Entreprise Mobile  <br/> |PSTN  <br/> |Skype Entreprise Mobile est en appel RTC. Skype Entreprise Mobile transforme ensuite l'appel en standard automatique des conférences (CAA).  <br/> |L’appel est bloqué, avec un message d’erreur correspondant.  <br/> |
 |Skype Entreprise Mobile  <br/> |Client ou utilisateur fédéré Skype Entreprise  <br/> |Le Client ou un utilisateur fédéré est sur un appel VoIP une Skype pour utilisateur Business Mobile Location-Based routage, et chaque partie est transmise à un CAA.  <br/> |La transformation de l’appel est bloquée, avec un message d’erreur correspondant.  <br/> |
@@ -142,7 +143,7 @@ Par exemple, si l’application « UdcAgent » a une valeur de priorité de «
 
 Après avoir trouvé la valeur de priorité approprié pour le routage basé sur l’emplacement pour l’application de conférence, tapez l’applet de commande pour chaque pool frontal ou serveur Standard Edition Server que les utilisateurs particuliers activés pour le routage basé sur l’emplacement suivant :
 
-New-CsServerApplication-identité Service : Registrar :`<Pool FQDN`> / LBRouting-priorité \<priorité\> -Enabled $true-$true - Uri critique<http://www.microsoft.com/LCS/LBRouting> 
+New-CsServerApplication-identité Service : Registrar :`<Pool FQDN`>/LBRouting - priorité \<priorité\> -Enabled $true-$true - Uri critique<http://www.microsoft.com/LCS/LBRouting> 
 
 Par exemple :
 

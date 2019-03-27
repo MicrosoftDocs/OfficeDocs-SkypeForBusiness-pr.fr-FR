@@ -1,5 +1,6 @@
 ---
-title: Ensemble-CcExternalCertificateFilePath
+title: Set-CcExternalCertificateFilePath
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,13 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 443d071e-633e-4337-b20b-f30cdfbd4aaf
 description: L’applet de commande Set-CcExternalCertificateFilePath spécifie le chemin d’accès dans lequel le certificat pour le serveur de médiation ou le serveur Edge est enregistré.
-ms.openlocfilehash: 89216fb2b56130dd76b711a483c6279ac1073392
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 059d0f2fbf5fee708ceccd0d6e10ad4286fe4f85
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895348"
 ---
-# <a name="set-ccexternalcertificatefilepath"></a>Ensemble-CcExternalCertificateFilePath
+# <a name="set-ccexternalcertificatefilepath"></a>Set-CcExternalCertificateFilePath
  
 L’applet de commande Set-CcExternalCertificateFilePath spécifie le chemin d’accès dans lequel le certificat pour le serveur de médiation ou le serveur Edge est enregistré.
   
@@ -60,14 +62,14 @@ Set-CcExternalCertificateFilePath -Target MediationServer -Path C:\CloudConnecto
 
 Lors du déploiement ou de la modification de la typologie, vous devez spécifier le chemin d’accès pour le certificat du serveur Edge et éventuellement pour le certificat du serveur de médiation. 
   
-Le certificat pour le serveur de médiation est requis si TLS est utilisé entre la ou les passerelle(s) et le serveur de médiation. Lorsque vous déployez une solution de Cloud connecteur et que vous souhaitez déployer TLS, vous ne pouvez spécifier que le chemin d’accès au certificat qui sera déployé sur le serveur de médiation. Cependant, si vous souhaitez mettre à jour le certificat de médiation sur une appliance déjà déployée, vous devez spécifier le chemin d’accès et le paramètre Importation. Pour voir le chemin d’accès, utilisez l’applet de commande Get-CCExternalCertificateFilePath.
+Le certificat pour le serveur de médiation est requis si TLS est utilisé entre la ou les passerelle(s) et le serveur de médiation. Lorsque vous déployez une solution de nuage connecteur et que vous souhaitez déployer TLS, vous pouvez uniquement spécifier le chemin d’accès au certificat qui est déployé sur le serveur de médiation. Cependant, si vous souhaitez mettre à jour le certificat de médiation sur une appliance déjà déployée, vous devez spécifier le chemin d’accès et le paramètre Importation. Pour voir le chemin d’accès, utilisez l’applet de commande Get-CCExternalCertificateFilePath.
   
 ## <a name="parameters"></a>Paramètres
 <a name="DetailedDescription"> </a>
 
-|**Paramètre**|**Obligatoire**|**Type de**|**Description**|
+|**Paramètre**|**Obligatoire**|**Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| Cible <br/> | Obligatoire <br/> |System.String  <br/> |Type de chemin d’accès de fichier requis. Les types comprennent :  <br/> Le serveur Edge (défaut)  <br/> MediationServer  <br/> |
+| Cible <br/> | Obligatoire <br/> |System.String  <br/> |Type de chemin d’accès de fichier requis. Les types comprennent :  <br/> Le serveur Edge (défaut)  <br/> Le serveur de médiation  <br/> |
 |Importation  <br/> |Facultatif  <br/> |System.Management.Automation.SwitchParameter  <br/> |Indique que le certificat doit être importé vers le serveur de médiation. Ce paramètre n'est pas requis si vous déployez une appliance pour la première fois. Le paramètre est requis si vous souhaitez changer le certificat existant sur une version déjà déployée.  <br/> |
    
 ## <a name="input-types"></a>Types d’entrées

@@ -1,5 +1,6 @@
 ---
 title: Assignation de certificat (à partir d’une demande)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5cd7cab0-1826-4d7f-aca6-d30054d2a9ae
-description: La page Affectation de certificat démarre le processus d’attribution d’un certificat à utilisations demandées sur le serveur de rôle. Cliquez sur Afficher les détails de certificat pour afficher le certificat. Vous pouvez sélectionner l’onglet Général, l’onglet Détails ou l’onglet chemin d’accès de Certification. L’onglet Général affiche des informations de base sur le certificat, tels que l’autorité de certification émettrice et l’état d’une clé privée. L’onglet Détails affiche des informations sur le certificat telles que le nom du sujet, les autres noms du sujet et d’autres détails. L’onglet chemin d’accès de Certification affiche le certificatechain de trustfrom le certificat par l’intermédiaire des autorités de certification émettrices ou intermédiaires (le cas échéant) à l’autorité de certification racine.
-ms.openlocfilehash: c90993b1a793a7013a094258be52ca47be54f98f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: La page Assignation de certificat démarre le processus d’assignation d’un certificat aux utilisations requises sur le serveur de rôle. Cliquez sur Afficher les détails du certificat pour afficher le certificat. Vous pouvez sélectionner l’onglet Général, l’onglet Détails ou l’onglet chemin d’accès de Certification. L’onglet Général affiche des informations de base sur le certificat, telles que l’autorité de certification émettrice et l’état d’une clé privée. L’onglet Détails affiche des informations sur le certificat telles que le nom du sujet, les autres noms du sujet et d’autres détails. L’onglet chemin d’accès de Certification affichera le certificatechain de trustfrom le certificat par le biais des autorités de certification émettrice ou intermédiaires (le cas échéant) à l’autorité de certification racine.
+ms.openlocfilehash: 544f101fa68c5dc5a66c522fd2cdbd19352d99d1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892405"
 ---
 # <a name="certificate-assignment-from-request"></a>Assignation de certificat (à partir d’une demande)
  

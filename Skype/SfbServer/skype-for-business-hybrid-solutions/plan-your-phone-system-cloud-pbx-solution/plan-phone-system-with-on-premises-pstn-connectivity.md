@@ -1,5 +1,6 @@
 ---
 title: Planifier Business Server système téléphonique dans Office 365 avec une connectivité PSTN local dans Skype
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -17,12 +18,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: Obtenir des informations sur les considérations de planification pour le système téléphonique dans Office 365 (en nuage PBX) avec une connectivité PSTN sur site.
-ms.openlocfilehash: f0e73b2541bdab8d3e37db02bc023667ae942578
-ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
+ms.openlocfilehash: 3c3dcb8316cdd3665d7570d16777a8b4195c4a82
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30454042"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897913"
 ---
 # <a name="plan-phone-system-in-office-365-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Planifier Business Server système téléphonique dans Office 365 avec une connectivité PSTN local dans Skype
 
@@ -48,7 +49,7 @@ Nuage PBX avec une connectivité PSTN local n’offre pas la même fonctionnalit
 ## <a name="benefits-and-planning-considerations"></a>Avantages et points à prendre en compte en matière de planification
 
 > [!CAUTION]
-> Les appareils Lync Phone Edition DOIVENT être mis à jour vers les microprogrammes minimaux requis dans votre environnement local AVANT de passer à Skype Entreprise Online.
+> Les appareils Lync Phone Edition DOIVENT être mis à jour vers les microprogrammes minimaux requis dans votre environnement local AVANT de passer à Skype Entreprise Online.
 Si vous transférez les utilisateurs de votre déploiement local à la solution en ligne avant la mise à jour du microprogramme, les utilisateurs ne pourront pas se connecter en utilisant leur téléphone. Pour résoudre ce problème, les utilisateurs doivent être transférés à nouveau vers l’environnement local pour que leur téléphone soit mis à jour avec le microprogramme minimal requis. N’ESSAYEZ PAS DE METTRE À JOUR LE MICROPROGRAMME MINIMAL REQUIS OU D’EFFECTUER UNE MISE À JOUR MATÉRIELLE DE VOTRE TÉLÉPHONE AVANT DE REDÉPLACER L’UTILISATEUR VERS VOTRE ENVIRONNEMENT LOCAL.
 Si une réinitialisation matérielle est effectuée alors que la version minimale du microprogramme n’est pas installée sur l’appareil, il utilisera par défaut l’authentification par code confidentiel, qui n’est pas prise en charge dans Skype Entreprise Online. Pour plus d’informations, reportez-vous aux [téléphones mise en route pour Skype pour Business Online](https://support.office.com/en-us/article/Getting-phones-for-Skype-for-Business-Online-91f2d947-45fc-4fab-bd8b-2e313531c477?ui=en-US&amp;rs=en-US&amp;ad=US).
 
@@ -82,9 +83,9 @@ Avant de pouvoir configurer système téléphonique dans Office 365 avec une con
 |:------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------|
 | Fédération Edge\*\*  <br/>                            | Skype Entreprise Server 2015  <br/>                                                                              |
 | Serveur de pool interne de l'itinéraire de fédération pour le tronçon suivant  <br/> | Skype Entreprise Server 2015, mise à jour cumulative 6.0.9319.235 de mars 2016 ou version ultérieure (Frontal ou Directeur)   <br/> |
-| Serveur frontal de l'utilisateur  <br/>                          | Skype Entreprise Server 2015  <br/> Lync Server 2013  <br/>                                                      |
-| Serveur Edge  <br/>                                    | Skype Entreprise Server 2015  <br/>                                                                              |
-| serveur de médiation  <br/>                               | Skype Entreprise Server 2015  <br/> Lync Server 2013  <br/>                                                      |
+| Serveur frontal de l'utilisateur  <br/>                          | Skype Entreprise Server 2015  <br/> Lync Server 2013  <br/>                                                      |
+| serveur Edge  <br/>                                    | Skype Entreprise Server 2015  <br/>                                                                              |
+| serveur de médiation  <br/>                               | Skype Entreprise Server 2015  <br/> Lync Server 2013  <br/>                                                      |
 
 \*Configuration minimale des versions prises en charge sont les suivants :
 
@@ -100,7 +101,7 @@ En outre, vous devez vérifier les éléments suivants :
 
     Si vous utilisez Lync Server 2013, voir [planification de voix entreprise dans Lync Server 2013](https://technet.microsoft.com/library/gg413081%28v=ocs.15%29.aspx) et le [Déploiement d’Enterprise Voice dans Lync Server 2013](https://technet.microsoft.com/EN-US/library/gg412876%28v=ocs.15%29.aspx).
 
-- **Synchronisation Active Directory** Vous devez configurer la synchronisation Active Directory à l’aide d’Azure AD se connecter. Pour plus d'informations, reportez-vous à [Gestion d'Azure AD Connect](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-whats-next/).
+- **Synchronisation Active Directory** Vous devez configurer la synchronisation Active Directory à l’aide d’Azure AD se connecter. Pour plus d’informations, voir [Gestion des Azure AD Connect](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-whats-next/).
 
     > [!NOTE]
     > La version AAD Connect que vous utilisez doit être la version 1.0.9125.0 ou une version ultérieure. Si vous utilisez des outils d'une version antérieure d'AAD Connect ou de DirSync, effectuez une mise à niveau vers la version prise en charge. Vous pouvez mettre à niveau votre installation actuelle et conserver les règles personnalisées définies dans votre environnement. 

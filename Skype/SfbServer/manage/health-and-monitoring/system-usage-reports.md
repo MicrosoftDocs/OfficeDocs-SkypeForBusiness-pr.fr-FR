@@ -1,5 +1,6 @@
 ---
 title: Rapports d’utilisation dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 187d316d-2456-417e-b636-05527a18ef06
 description: 'Résumé : Découvrez les rapports d’utilisation dans Skype pour Business Server.'
-ms.openlocfilehash: 979736f9e5659abc572b5308db55bd082a4be3c7
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5e3bcca092eb1ab8e03a837455924320e3af5e9b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21016766"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896741"
 ---
 # <a name="system-usage-reports-in-skype-for-business-server"></a>Rapports d’utilisation dans Skype pour Business Server
  
@@ -38,7 +39,7 @@ Les rapports d’utilisation fournissent des informations sur l’utilisation de
     
 - [Conférence rapport de synthèse PSTN dans Skype pour Business Server](pstn-conference-summary-report.md)
     
-    Fournit une synthèse de toutes les conférences RTC. Il s’agit de conférences où au moins un utilisateur compose un numéro sur le réseau téléphonique commuté (RTC). Ces conférences sont aussi appelées conférence rendez-vous.
+    Fournit un résumé de toutes les conférences PSTN. Il s’agit des conférences où au moins un utilisateur se connecte à l’aide du réseau téléphonique commuté (RTC), qui est également appelé dans les conférences rendez-vous.
     
 - [Rapport d’utilisation de Response Group dans Skype pour Business Server](response-group-usage-report.md)
     

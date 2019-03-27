@@ -1,5 +1,6 @@
 ---
-title: Vue de NetworkConfigurationSettings
+title: Vue networkconfigurationsettings
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -9,20 +10,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 279ea5d1-5d07-44d4-8133-2557446914ca
-description: La vue NetworkConfigurationSettings stocke des informations sur la configuration du réseau. Cette vue a été introduite dans Microsoft Lync Server 2013.
-ms.openlocfilehash: 7e024a61eb03dc6f60a224d00eec70e1c125bcf4
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: La vue Networkconfigurationsettings stocke des informations sur la configuration réseau. Cet affichage a été introduit dans Microsoft Lync Server 2013.
+ms.openlocfilehash: 8b366d0763ff1754fb41a58b5b32bfd3b2f7d628
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876668"
 ---
-# <a name="networkconfigurationsettings-view"></a>Vue de NetworkConfigurationSettings
+# <a name="networkconfigurationsettings-view"></a>Vue networkconfigurationsettings
  
-La vue NetworkConfigurationSettings stocke des informations sur la configuration du réseau. Cette vue a été introduite dans Microsoft Lync Server 2013.
+La vue Networkconfigurationsettings stocke des informations sur la configuration réseau. Cet affichage a été introduit dans Microsoft Lync Server 2013.
   
 |**Colonne**|**Type de données**|**Détails**|
 |:-----|:-----|:-----|
-|SubnetIP  <br/> |int  <br/> |Adresse IP de sous-réseau (seules les adresses IPv4 sont prises en charge).  <br/> |
+|SubnetIP  <br/> |int  <br/> |Adresse IP du sous-réseau (seules les adresses IPv4 sont prises en charge).  <br/> |
 |UserSiteName  <br/> |nvarchar (128)  <br/> |Nom du site de l’utilisateur.  <br/> |
 |RegionName  <br/> |nvarchar (128)  <br/> |Nom de pays/région de l’utilisateur.  <br/> |
    

@@ -1,5 +1,6 @@
 ---
 title: Récupération d’urgence test dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Effectuer une récupération système pour une Skype pour Business server du pool tester votre processus de récupération d’urgence documentée
-ms.openlocfilehash: d401d27c1cc0f5b04c6e256a1e55f6847c9c35ba
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 876470f0e4193f02efe0a2094be80f7bdf891fdd
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222722"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884963"
 ---
 # <a name="disaster-recovery-testing-in-skype-for-business-server"></a>Récupération d’urgence test dans Skype pour Business Server
 
@@ -45,12 +46,12 @@ Après la restauration de ces données, les utilisateurs peuvent effectivement s
 
 Référencée par les clients à l’aide de la configuration automatique et les enregistrements DNS SRV de la production Skype pour le pool d’entreprise :
 
-- SRV : _sip._tls. \<domaine > /CNAME : SIP. \<domaine >
-- CNAME : SIP. \<domaine > /cvc-pool-1. \<domaine >
+- SRV : _sip._tls. \<domain> /CNAME : SIP. \<domain>
+- CNAME : SIP. \<domain> /cvc-pool-1. \<domain>
 
 Pour faciliter le basculement, cet enregistrement CNAME doit être mis à jour de manière à référencer le nom de domaine complet (FQDN) DROCSPool :
 
-- CNAME : SIP.<domain> / DROCSPool. \<domaine >
-- SIP. \<domaine >
-- Violation d’accès.\<domaine >
-- webconf. \<domaine >
+- CNAME : SIP.<domain> / DROCSPool. \<domain>
+- SIP. \<domain>
+- Violation d’accès.\<domain>
+- webconf. \<domain>

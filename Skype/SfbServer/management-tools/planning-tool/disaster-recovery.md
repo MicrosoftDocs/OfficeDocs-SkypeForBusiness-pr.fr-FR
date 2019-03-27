@@ -1,5 +1,6 @@
 ---
-title: Récupération d’urgence (outil de planification)
+title: Disaster Recovery (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,17 +13,18 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 88ad1820-d4ef-4eb6-831b-a8574c085bd0
-description: Skype pour Business Server 2015 comprend l’urgence des mesures de récupération en vous permettant de paire de pools de Front-End situés dans deux centres de données.
-ms.openlocfilehash: 584a5c82619bc99bb4804bbb36140148fce8b6fe
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Skype pour Business Server 2015 inclut d’urgence des mesures de récupération en vous permettant de paire de pools frontaux situés dans deux centres de données.
+ms.openlocfilehash: a56e9334ad71dee56eaa919200589fc0ae4df6fe
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881450"
 ---
-# <a name="disaster-recovery-planning-tool"></a>Récupération d’urgence (outil de planification)
+# <a name="disaster-recovery-planning-tool"></a>Disaster Recovery (Planning Tool)
  
-Skype pour Business Server 2015 comprend l’urgence des mesures de récupération en vous permettant de paire de pools de Front-End situés dans deux centres de données.
+Skype pour Business Server 2015 inclut d’urgence des mesures de récupération en vous permettant de paire de pools frontaux situés dans deux centres de données.
   
-Pour plus d’informations sur la préparation de votre environnement de reprise après sinistre, consultez [planification de la haute disponibilité et reprise après sinistre dans Skype pour Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
+Pour plus d’informations sur la préparation de votre environnement pour la récupération d’urgence, voir [planifier la haute disponibilité et de récupération d’urgence dans Skype pour Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
   
 

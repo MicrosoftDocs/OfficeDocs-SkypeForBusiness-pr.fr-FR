@@ -1,5 +1,6 @@
 ---
 title: Gestion des itinéraires de région réseau
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Un itinéraire de région réseau définit l’itinéraire entre une paire de régions réseau. Chaque paire de régions de réseau dans votre déploiement du contrôle d’admission des appels nécessite un itinéraire de région réseau.
-ms.openlocfilehash: 98d7f0ce8f6cb89aa443c5dc8863afd34c355ff3
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 12e8d9072df3affdb6e47b6ddb0452e0ee5982a5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223156"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898122"
 ---
-# <a name="managing-network-region-routes-in-skype-for-business-server"></a>La gestion des itinéraires de région réseau dans Skype pour Business Server
+# <a name="managing-network-region-routes-in-skype-for-business-server"></a>Gestion d’itinéraires de région réseau dans Skype Entreprise Server
 
 Un *itinéraire de région réseau* définit l’itinéraire entre une paire de régions réseau. Chaque paire de régions de réseau dans votre déploiement du contrôle d’admission des appels nécessite un itinéraire de région réseau. Cela permet à chaque région réseau incluse dans le déploiement d’accéder à toute autre région. Utilisez les procédures dans cet article pour afficher, créer, modifier ou supprimer des itinéraires de région réseau.
 
@@ -25,7 +26,7 @@ Chaque région au sein d’une configuration d’admission des appels (CAC) de c
 
 ### <a name="to-view-network-region-route-information-in-skype-for-business-server-control-panel"></a>Pour afficher des informations d’itinéraire de région de réseau de Business Server Control Panel dans Skype
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou disposant des mêmes droits) ou affecté au rôle CsAdministrator, ouvrez une session sur un ordinateur qui se trouve sur votre déploiement interne.
+1.  À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou est affecté au rôle CsAdministrator, ouvrez une session sur n’importe quel ordinateur dans votre déploiement interne.
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business. 
 
@@ -68,7 +69,7 @@ Chaque région au sein d’une configuration d’admission des appels (CAC) de c
 
 ### <a name="to-create-a-network-region-route"></a>Pour créer un itinéraire de région réseau
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou disposant des mêmes droits) ou affecté au rôle CsAdministrator, ouvrez une session sur un ordinateur qui se trouve sur votre déploiement interne.
+1.  À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou est affecté au rôle CsAdministrator, ouvrez une session sur n’importe quel ordinateur dans votre déploiement interne.
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business. 
 
@@ -95,7 +96,7 @@ Chaque région au sein d’une configuration d’admission des appels (CAC) de c
 
 ### <a name="to-modify-a-network-region-route"></a>Pour modifier un itinéraire de région réseau
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou disposant des mêmes droits) ou affecté au rôle CsAdministrator, ouvrez une session sur un ordinateur qui se trouve sur votre déploiement interne.
+1.  À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou est affecté au rôle CsAdministrator, ouvrez une session sur n’importe quel ordinateur dans votre déploiement interne.
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business. 
 
@@ -116,7 +117,7 @@ Chaque région au sein d’une configuration d’admission des appels (CAC) de c
 
 ### <a name="to-delete-a-network-region-route"></a>Pour supprimer un itinéraire de région réseau
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou disposant des mêmes droits) ou affecté au rôle CsAdministrator, ouvrez une session sur un ordinateur qui se trouve sur votre déploiement interne.
+1.  À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou est affecté au rôle CsAdministrator, ouvrez une session sur n’importe quel ordinateur dans votre déploiement interne.
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business. 
 
@@ -135,7 +136,7 @@ Chaque région au sein d’une configuration d’admission des appels (CAC) de c
 
 ## <a name="see-also"></a>Voir aussi
 
-[Gestion des régions réseau dans Skype pour Business Server](managing-network-regions.md)
+[Gestion des régions réseau dans Skype Entreprise Server](managing-network-regions.md)
 
 [New-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterRegionRoute)  
 

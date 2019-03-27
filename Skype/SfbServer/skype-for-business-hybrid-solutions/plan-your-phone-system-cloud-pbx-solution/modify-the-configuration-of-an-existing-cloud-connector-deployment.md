@@ -1,5 +1,6 @@
 ---
 title: Modifier la configuration d'un déploiement Cloud Connector existant
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,14 +14,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 90490c65-0e40-4e85-96e1-751f27897e25
 description: Suivez les étapes décrites dans cette rubrique pour modifier la configuration d’un Skype existant pour le nuage connecteur Édition 1.4.1 ou déploiement ultérieur.
-ms.openlocfilehash: be3c7cbbc1395000dbb84bab0c9be0a866fb4403
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: abe7d9be6ec0ae48ff8cbac09475c6a41bf2a49f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375371"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893054"
 ---
-# <a name="modify-the-configuration-of-an-existing-cloud-connector-deployment"></a>Modifier la configuration d'un déploiement Cloud Connector existant
+# <a name="modify-the-configuration-of-an-existing-cloud-connector-deployment"></a>Modify the configuration of an existing Cloud Connector deployment
  
 Suivez les étapes décrites dans cette rubrique pour modifier la configuration d’un Skype existant pour le nuage connecteur Édition 1.4.1 ou déploiement ultérieur. 
   
@@ -155,7 +156,7 @@ Si vous avez désactivé les mises à jour automatiques du système d’exploita
    Set-CsHybridPSTNSite -Identity <SiteName> -BitsUpdateTimeWindow @{add="MidDayOfMonth","WeekdayNight"} -OsUpdateTimeWindow @{replace="Night"}
    ```
 
-## <a name="update-the-dedicated-tenant-admin-credentials"></a>Mettre à jour les informations d'identification d'administrateur client dédié 
+## <a name="update-the-dedicated-tenant-admin-credentials"></a>Mettre à jour les informations d’identification d’administration de client dédié
 <a name="BKMK_MultipleSites"> </a>
 
 Modifications d’administration dans le client Office 365 pour le connecteur sur le nuage sont effectuées à partir d’un compte disposant des autorisations requises. Dans les versions antérieures nuage connecteur 2.0, ce compte est un compte d’administrateur client globale dédié. Dans le nuage connecteur 2.0 et versions ultérieures, ce compte peut être un compte Office 365 avec Skype pour des droits d’administrateur d’entreprise.
@@ -166,7 +167,7 @@ Si vos informations d’identification du compte d’administration changent dan
 Set-CcCredential -AccountType TenantAdmin
 ```
 
-## <a name="update-the-password-for-the-host-server"></a>Mettre à jour le mot de passe pour le serveur hôte 
+## <a name="update-the-password-for-the-host-server"></a>Mettre à jour le mot de passe pour le serveur hôte
 <a name="BKMK_UpdatePassword"> </a>
 
 > [!NOTE]
@@ -176,15 +177,15 @@ Toutes les informations d’identification sur le nuage connecteur sont stockée
   
 Pour mettre à jour les informations d’identification stockées localement sur le matériel de nuage connecteur, utilisez les applets de commande [Get-CcCredential](get-cccredential.md) et [Set-CcCredential](set-cccredential.md) et procédez comme suit :
   
-1. Exécutez les commandes suivantes pour récupérer les mots de passe dont vous aurez besoin plus tard :  
+1. Exécutez les commandes suivantes pour récupérer les mots de passe que vous aurez besoin plus tard : 
     
    - Get-CcCredential - AccountType DomainAdmin - DisplayPassword
     
-   - Get-CcCredential -AccountType VMAdmin -DisplayPassword
+   - Get-CcCredential - AccountType VMAdmin - DisplayPassword
     
    - Get-CcCredential - AccountType CceService - DisplayPassword
     
-2. Modifiez le mot de passe de votre compte sur le serveur hôte.
+2. Modifier le mot de passe de votre compte sur le serveur hôte.
     
 3. Redémarrez le serveur hôte.
     
@@ -192,19 +193,19 @@ Pour mettre à jour les informations d’identification stockées localement sur
     
 5. Lancer une console PowerShell en tant qu’administrateur et exécutez « Register-CcAppliance-Local » à entrer les mots de passe suivant la description. Assurez-vous que vous entrez le même mot de que passe avant le déploiement dans le nuage connecteur.
     
-Par défaut, VmAdmin et DomainAdmin utilisent le même mot de passe que CceService. Si les mots de passe DomainAdmin, VMAdmin et CceService renvoyés à l'étape 1 sont différents, suivez les étapes suivantes :
+Par défaut, VmAdmin et DomainAdmin utilisent le même mot de passe en tant que CceService. Si les mots de passe DomainAdmin, VMAdmin et CceService renvoyées à l’étape 1 sont différents, vous devez effectuer les étapes suivantes :
   
-1. Exécutez Set-CcCredential -AccountType DomainAdmin comme suit :
+1. Exécutez Set-CcCredential - AccountType DomainAdmin comme suit :
     
-1. Lorsque vous serez invité à entrer les anciennes informations d'identification du compte, saisissez les informations d'identification que vous avez utilisées pour le mot de passe CceService.
+1. Pour les informations d’identification du compte ancien à l’invite, entrez les informations d’identification que vous avez utilisé pour le mot de passe CceService.
     
-2. Lorsque vous serez invité à entrer les nouvelles informations d'identification du compte, saisissez le mot de passe DomainAdmin renvoyé à l'étape 1.
+2. Lorsque vous y êtes invité pour les nouvelles informations d’identification du compte, entrez le mot de passe pour le mot de passe DomainAdmin renvoyée à l’étape 1.
     
-2. Exécutez Set-CcCredential -AccountType VmAdmin comme suit :
+2. Exécutez Set-CcCredential - AccountType VmAdmin comme suit :
     
-1. Lorsque vous serez invité à entrer les anciennes informations d'identification du compte, saisissez les informations d'identification que vous avez utilisées pour le mot de passe CceService.
+1. Pour les informations d’identification du compte ancien à l’invite, entrez les informations d’identification que vous avez utilisé pour le mot de passe CceService.
     
-2. Lorsque vous serez invité à entrer les nouvelles informations d'identification du compte, saisissez le mot de passe VmAdmin renvoyé à l'étape 1.  
+2. Lorsque vous y êtes invité pour les nouvelles informations d’identification du compte, entrez le mot de passe pour le mot de passe VmAdmin renvoyée à l’étape 1. 
     
 ## <a name="update-the-password-for-the-cceservice-account"></a>Mettre à jour le mot de passe pour le compte CceService
 <a name="BKMK_UpdatePassword"> </a>
@@ -242,25 +243,25 @@ Pour chaque application qui appartient au même site PSTN, vous devez spécifier
     
 3. Mettre à jour le mot de passe du compte CceService sur le serveur hôte.
     
-4. redémarrez le serveur hôte.
+4. Redémarrez le serveur hôte.
     
 5. Exécutez l’applet de commande Restore-CcCredentials pour entrer de nouveau les mots de passe suivant la description. 
     
     Assurez-vous que vous entrez le même mot de que passe avant le déploiement de nuage connecteur à l’exception du compte CceService. Pour le compte CceService, entrez votre nouveau mot de passe. Assurez-vous que le nouveau mot de passe pour le compte CceService est la même pour tous les matériels dans le site PSTN.
     
-6. Par défaut, VmAdmin et DomainAdmin utilisent le même mot de passe que CceService. Si les mots de passe DomainAdmin, VMAdmin et CceService renvoyés à l'étape 1 sont différents, suivez les étapes suivantes :
+6. Par défaut, VmAdmin et DomainAdmin utilisent le même mot de passe en tant que CceService. Si les mots de passe DomainAdmin, VMAdmin et CceService renvoyées à l’étape 1 sont différents, vous devez effectuer les étapes suivantes :
     
-7. Exécutez Set-CcCredential -AccountType DomainAdmin comme suit :
+7. Exécutez Set-CcCredential - AccountType DomainAdmin comme suit :
     
-   - Lorsque vous serez invité à entrer les anciennes informations d'identification du compte, saisissez les informations d'identification que vous avez utilisées pour le mot de passe CceService.
+   - Pour les informations d’identification du compte ancien à l’invite, entrez les informations d’identification que vous avez utilisé pour le mot de passe CceService.
     
-   - Lorsque vous serez invité à entrer les nouvelles informations d'identification du compte, saisissez le mot de passe DomainAdmin renvoyé à l'étape 1.
+   - Lorsque vous y êtes invité pour les nouvelles informations d’identification du compte, entrez le mot de passe pour le mot de passe DomainAdmin renvoyée à l’étape 1.
     
-8. Exécutez Set-CcCredential -AccountType VmAdmin comme suit :
+8. Exécutez Set-CcCredential - AccountType VmAdmin comme suit :
     
-   - Lorsque vous serez invité à entrer les anciennes informations d'identification du compte, saisissez les informations d'identification que vous avez utilisées pour le mot de passe CceService.
+   - Pour les informations d’identification du compte ancien à l’invite, entrez les informations d’identification que vous avez utilisé pour le mot de passe CceService.
     
-   - Lorsque vous serez invité à entrer les nouvelles informations d'identification du compte, saisissez le mot de passe VmAdmin renvoyé à l'étape 1.  
+   - Lorsque vous y êtes invité pour les nouvelles informations d’identification du compte, entrez le mot de passe pour le mot de passe VmAdmin renvoyée à l’étape 1. 
     
 9. Exécutez l’applet de commande Exit-CcUpdate pour déplacer le matériel en mode maintenance manuelle.
     
@@ -274,7 +275,7 @@ Pour chaque application qui appartient au même site PSTN, vous devez spécifier
     
     - TenantConfigLock_\<nom complet du Pool de Sip externe Edge\>
     
-## <a name="add-a-new-sip-domain"></a>Ajouter un nouveau domaine SIP 
+## <a name="add-a-new-sip-domain"></a>Ajouter un domaine SIP
 <a name="BKMK_UpdatePassword"> </a>
 
 Pour ajouter un domaine SIP (ou plusieurs domaines SIP) à votre déploiement en nuage connecteur existant, procédez comme suit :
@@ -285,7 +286,7 @@ Pour ajouter un domaine SIP (ou plusieurs domaines SIP) à votre déploiement en
     
 3. Demander un nouveau certificat externe Edge avec des noms SAN supplémentaires pour domaine.SIP pour chaque domaine SIP défini dans votre configuration de connecteur dans le nuage. 
     
-4. Définissez le chemin d'accès pour le nouveau certificat Microsoft Edge externe comme suit :
+4. Définir le chemin d’accès pour le nouveau certificat externe Edge comme suit :
     
    ```
    Set-CcExternalCertificateFilePath -Path <Full path to External certificate>
@@ -293,7 +294,7 @@ Pour ajouter un domaine SIP (ou plusieurs domaines SIP) à votre déploiement en
 
 5. 
     
-    suivez les instructions pour [Modifier la configuration d'un seul site](modify-the-configuration-of-an-existing-cloud-connector-deployment.md#BKMK_SIngleSite) ou [Modifier la configuration de plusieurs sites](modify-the-configuration-of-an-existing-cloud-connector-deployment.md#BKMK_MultipleSites).
+    Suivez les instructions pour [Modifier la configuration d’un seul site](modify-the-configuration-of-an-existing-cloud-connector-deployment.md#BKMK_SIngleSite) ou [Modifier la configuration de plusieurs sites](modify-the-configuration-of-an-existing-cloud-connector-deployment.md#BKMK_MultipleSites).
     
 ## <a name="modify-the-primary-sip-domain"></a>Modifier le domaine SIP principal
 <a name="BKMK_UpdatePassword"> </a>
@@ -306,7 +307,7 @@ Si vous devez modifier le domaine SIP principal de votre déploiement en nuage c
     
 3. Demander un nouveau certificat externe Edge avec des noms SAN supplémentaires pour domaine.SIP pour chaque domaine SIP défini dans votre configuration de connecteur dans le nuage. 
     
-4. Définissez le chemin d'accès pour le nouveau certificat Microsoft Edge externe comme suit :
+4. Définir le chemin d’accès pour le nouveau certificat externe Edge comme suit :
     
    ```
    Set-CcExternalCertificateFilePath -Path <Full path to External certificate>
@@ -322,9 +323,7 @@ Si vous devez modifier le domaine SIP principal de votre déploiement en nuage c
 
 6. 
     
-    Supprimez l'inscription du site pour chaque site en exécutant l'applet de commande suivante dans la session PowerShell de Skype Entreprise Online :
-
-
+    Supprimer l’inscription de sites pour chaque site en exécutant la cmdlet suivante dans Skype pour Business Online PowerShell :
     
    ```
    Remove-CsHybridPSTNSite

@@ -1,5 +1,6 @@
 ---
 title: Certificat en attente (introduction)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d95455f3-39d3-4730-89dd-7f988ae5da95
 description: Pour traiter une demande de certificat en ligne en attente, c'est-à-dire, une demande qui a été émise à votre autorité de certification en ligne, mais est définie par un administrateur d’exiger un processus d’approbation manuelle, cliquez sur Suivant.
-ms.openlocfilehash: 1e43faba5809766939af3658f2b6a2bc01b3da15
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 8b474d4b577cbbac90863a291f1c197ccf9f572d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20981844"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895781"
 ---
 # <a name="pending-certificate-intro"></a>Certificat en attente (introduction)
  

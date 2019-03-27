@@ -1,5 +1,6 @@
 ---
 title: Recherche dans les journaux de capture créés par le service de journalisation centralisée dans Skype Entreprise Server 2015
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1b75b218-d84f-47a7-8a0a-b7e016b1cc79
 description: 'Résumé : Découvrez comment rechercher et lire des journaux de Service de journalisation centralisée dans Skype pour Business Server 2015.'
-ms.openlocfilehash: 9429ef0f2c14552c615e4d7f81c497ea9bb546f3
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: b1f049260eff7524e5a728852b3dcd99526d8742
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372218"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895886"
 ---
 # <a name="search-capture-logs-created-by-the-centralized-logging-service-in-skype-for-business-server-2015"></a>Recherche dans les journaux de capture créés par le service de journalisation centralisée dans Skype Entreprise Server 2015
  
@@ -32,7 +33,7 @@ Les fonctionnalités de recherche dans le Service de journalisation centralisée
     
 Le CLSAgent sur chaque ordinateur individuel crée les journaux en fonction du ou des scénarios (deux scénarios par ordinateur peuvent s’exécuter en même temps). Les journaux, ainsi que leurs fichiers d’index et de cache associés, sont gérés par le CLSAgent. Lorsque vous définissez et exécutez une recherche, la commande de recherche indique au CLSAgent quelles informations extraire. Le CLSAgent exécute la requête sur les fichiers journaux, les fichiers de cache et les fichiers d’index et renvoie les résultats de la recherche au CLSController. Le CLSController reçoit les résultats de la recherche en provenance de tous les ordinateurs et pools dans l’étendue de la recherche. Le CLSController regroupe ensuite (combine) les journaux et les classe en fonction de l’écart de temps : l’entrée la plus ancienne en premier et l’entrée la plus récente en dernier.
   
-Après chaque recherche, l’applet de commande **Sync-CsClsLogging** s’exécute et il vidages du cache utilisé par la recherche (à ne pas pour confondre avec les fichiers cache mis à jour par l’et CLSAgent). Le fait de vider le cache permet de garantir que la prochaine opération de recherche bénéficie d’une mémoire tampon nette de capture du fichier journal et du fichier de suivi sur le CLSController.
+Après chaque recherche, l’applet de commande **Sync-CsClsLogging** est exécutée et vide le cache utilisé par les recherches (à ne pas confondre avec les fichiers cache gérés par CLSAgent). Le fait de vider le cache permet de garantir que la prochaine opération de recherche bénéficie d’une mémoire tampon nette de capture du fichier journal et du fichier de suivi sur le CLSController.
   
 Pour tirer le meilleur parti du service de journalisation centralisée, vous avez besoin d’une bonne compréhension de la façon de configurer la recherche pour retourner uniquement les messages de suivi à partir des journaux d’ordinateur et le pool qui sont pertinents pour le problème que vous effectuez une recherche. problèmes
   
@@ -42,7 +43,7 @@ Pour exécuter les fonctions de recherche du Service de journalisation centralis
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Skype for Business Server 2015 cmdlet"}
 ```
 
-Exemple :
+Par exemple :
   
 ```
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
@@ -52,7 +53,7 @@ Le reste de cette rubrique se concentre sur la définition d’une recherche en 
   
 ### <a name="to-run-a-basic-search-by-using-the-centralized-logging-service"></a>Pour exécuter une recherche de base en utilisant le Service de journalisation centralisée
 
-1. Démarrez Skype Entreprise Server Management Shell : cliquez successivement sur **Démarrer**, **Tous les programmes**, **Skype Entreprise 2015**, puis sur **Skype Entreprise Server Management Shell**.
+1. Démarrez le Skype pour Business Server Management Shell : cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Skype pour Business 2015**, puis cliquez sur **Skype pour Business Server Management Shell**.
     
 2. Assurez-vous que le scénario AlwaysOn s’exécute dans votre déploiement au niveau de l’étendue globale, puis tapez ce qui suit dans une invite de commandes :
     
@@ -63,7 +64,7 @@ Le reste de cette rubrique se concentre sur la définition d’une recherche en 
 > [!NOTE]
 > Par défaut, Search-CsClsLogging envoie les résultats de la recherche à la console. Si vous souhaitez enregistrer les résultats de recherche dans un fichier, utilisez - OutputFilePath _ \<chemin d’accès complet chaîne\>_. Pour définir le paramètre - OutputFilePath, indiquez un chemin d’accès et un nom de fichier dans le cadre du paramètre dans un format de chaîne entouré guillemets (par exemple, C:\LogFiles\SearchOutput.txt). Dans cet exemple, vous devez vous assurer que le répertoire C:\LogFiles existe et que vous disposez des autorisations en lecture et en écriture (autorisation NTSF Modifier) sur le dossier. Les résultats sont ajoutés et ne sont pas remplacés. Si vous avez besoin de fichiers séparés, définissez un nom de fichier différent pour chaque recherche. 
   
-Exemple :
+Par exemple :
     
   ```
   Search-CsClsLogging -OutputFilePath "C:\LogFiles\logfile.txt"
@@ -77,7 +78,7 @@ Exemple :
    Search-CsClsLogging -Computers <string value of computer names> -OutputFilePath <string value of path and file to write the output file>
    ```
 
-Exemple :
+Par exemple :
     
   ```
   Search-CsClsLogging -Computers "fe01.contoso.net" -OutputFilePath "C:\LogFiles\logfile.txt"
@@ -99,7 +100,7 @@ Exemple :
 
 4. Lorsque vous utilisez les commandes de recherche, les pools peuvent être n’importe quel pool dans votre déploiement, telles que les pools frontaux, pools de serveurs Edge, les pools de serveurs de conversation permanente ou d’autres personnes qui sont définis comme un pool de votre déploiement.
     
-    Exemple :
+    Par exemple :
     
    ```
    Search-CsClsLogging -Pools "pool01.contoso.net", "pchatpool01.contoso.net", "intedgepool01.contoso.net" -OutputFilePath "C:\Logfiles\logfile.txt"
@@ -107,7 +108,7 @@ Exemple :
 
 ### <a name="to-run-a-search-by-using-time-parameters"></a>Pour exécuter une recherche à l’aide des paramètres d’heure
 
-1. Démarrez Skype Entreprise Server Management Shell : cliquez successivement sur **Démarrer**, **Tous les programmes**, **Skype Entreprise 2015**, puis sur **Skype Entreprise Server Management Shell**.
+1. Démarrez le Skype pour Business Server Management Shell : cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Skype pour Business 2015**, puis cliquez sur **Skype pour Business Server Management Shell**.
     
 2. Par défaut, l’heure de début pour les paramètres temporels d’une recherche est définie sur 25 minutes avant les cinq minutes après l’heure où vous lancez la recherche. En d’autres mots, si nous effectuons une recherche à 16 h 00 00, la recherche s’étendra alors de 15 h 35 00 à 16 h 05 00. Si vous avez besoin rechercher les 60 minutes ou 3 heures avant l’heure actuelle, utilisez le paramètre - StartTime et définir la chaîne de date et heure pour indiquer l’heure à que laquelle démarrer la recherche. 
     
@@ -122,7 +123,7 @@ Exemple :
   
 3. Si vous souhaitez récupérer les journaux commençant à 11:00:00 AM sur 20/11/2012, vous définissez l’heure de début. La plage de temps par défaut pour la recherche est de 30 minutes, sauf si vous définissez une heure de fin - spécifique. La recherche obtenue renverra les journaux des ordinateurs ou pools définis entre 11 h 00 00 et 11 h 30 00.
     
-Exemple :
+Par exemple :
     
   ```
   Search-CsClsLogging -Pools "pool01.contoso.net" -StartTime "11/20/2012 11:00:00 AM" -OutputFilePath "C:\Logfiles\logfile.txt"
@@ -130,7 +131,7 @@ Exemple :
 
 4. Pour effectuer une recherche de journaux au sein d’une période spécifique, définissez une heure de début - et - EndTime. Les journaux entre 13 h 00 et 14 h 45 doivent être présents sur l’ordinateur edge01.contoso.net. 
     
-Exemple :
+Par exemple :
     
   ```
   Search-CsClsLogging -Computers "edge01.contoso.net" -StartTime "11/20/2012 1:00:00 PM" -EndTime "11/20/2012 2:45:00 PM" -OutputFilePath "C:\Logfiles\logfile.txt"
@@ -138,7 +139,7 @@ Exemple :
 
 ### <a name="to-run-an-advanced-search-by-using-other-criteria-and-matching-options"></a>Pour exécuter une recherche avancée à l’aide d’autres critères et options de correspondance
 
-1. Démarrez Skype Entreprise Server Management Shell : cliquez successivement sur **Démarrer**, **Tous les programmes**, **Skype Entreprise 2015**, puis sur **Skype Entreprise Server Management Shell**.
+1. Démarrez le Skype pour Business Server Management Shell : cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Skype pour Business 2015**, puis cliquez sur **Skype pour Business Server Management Shell**.
     
 2. Pour exécuter une commande visant à collecter les suivis pour des composants en particulier, tapez ce qui suit :
     

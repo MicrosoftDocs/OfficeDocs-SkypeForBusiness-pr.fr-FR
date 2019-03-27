@@ -1,5 +1,6 @@
 ---
 title: Créer ou modifier une file d’attente dans Skype pour les entreprises
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b9d6366a-839f-4651-a01d-9254546cadeb
 description: Créer ou modifier une file d’attente Response Group, dans Skype pour Business Server Enterprise Voice.
-ms.openlocfilehash: a77940bae3dd720594619ebffc1858dae2a161ba
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: d564a40f8e650042fe23ff1db6262c6d1c5b93a1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374514"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895512"
 ---
 # <a name="create-or-modify-a-queue-in-skype-for-business"></a>Créer ou modifier une file d’attente dans Skype pour les entreprises
  
@@ -30,7 +31,7 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
   
 ### <a name="to-use-skype-for-business-server-control-panel-to-create-or-modify-a-queue"></a>Utiliser Skype pour Business Server Control Panel pour créer ou modifier une file d’attente
 
-1. Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre d’un des rôles d’administrateur prédéfinis qui prennent en charge Response Group.
+1. Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre de l’un des rôles d’administration prédéfinis qui prennent en charge Response Group.
     
     > [!NOTE]
     > Si vous êtes l’un des responsables des groupes Response Group délégués d’un flux de travail géré, vous pouvez créer ou modifier des files d’attente de groupes Response Group et les affecter aux flux de travail que vous gérez. 
@@ -41,7 +42,7 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
     
 4. Dans la page **File d’attente**, effectuez l’une des opérations suivantes :
     
-   - Pour créer une file d’attente, cliquez sur **Nouveau**. Dans **Sélectionner un Service**, tapez entièrement ou partiellement le nom du service **ApplicationServer** où vous souhaitez ajouter la file d’attente dans le champ de recherche. Dans la liste des services obtenue, cliquez sur le service de votre choix, puis sur **OK**.
+   - Pour créer une file d’attente, cliquez sur **Nouveau**. Dans **Sélectionner un service**, tapez entièrement ou partiellement le nom du service **ApplicationServer** où vous voulez ajouter la file d’attente dans le champ de recherche. Dans la liste des services obtenue, cliquez sur le service de votre choix, puis sur **OK**.
     
    - Pour modifier une file d’attente existante, tapez entièrement ou partiellement le nom de la file d’attente dans le champ de recherche. Dans la liste des files d’attente obtenue, cliquez sur la file d’attente souhaitée, sur **Modifier**, puis sur **Afficher les détails**.
     
@@ -98,12 +99,12 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
     
 ### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-a-queue"></a>Utiliser Skype pour Business Server Management Shell pour créer ou modifier une file d’attente
 
-1. Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre d’un des rôles d’administrateur prédéfinis qui prennent en charge Response Group.
+1. Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre de l’un des rôles d’administration prédéfinis qui prennent en charge Response Group.
     
     > [!NOTE]
     > Si vous êtes l’un des responsables des groupes Response Group délégués d’un flux de travail géré, vous pouvez créer ou modifier des groupes d’agents et des files d’attente, puis affecter des groupes d’agents à des files d’attente. 
   
-2. Démarrez Skype Entreprise Server Management Shell : cliquez successivement sur **Démarrer**, **Tous les programmes**, **Skype Entreprise 2015**, puis sur **Skype Entreprise Server Management Shell**.
+2. Démarrez le Skype pour Business Server Management Shell : cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Skype pour Business 2015**, puis cliquez sur **Skype pour Business Server Management Shell**.
     
 3. Créez le message à lire lorsque le seuil d’expiration de la file d’attente est atteint, puis enregistrez-le dans une variable. À partir de la ligne de commande, exécutez la commande suivante :
     
@@ -111,14 +112,14 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
    $promptTO = New-CsRgsPrompt -TextToSpeechPrompt "<text for TTS prompt>"
    ```
 
-   Exemple :
+   Par exemple :
     
    ```
    "All agents are currently busy. Please call back later."
    ```
 
    > [!NOTE]
-   > Pour utiliser un fichier audio pour l’invite, utilisez la cmdlet **Import-CsRgsAudioFile** . Pour plus d’informations, voir [Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps). 
+   > Pour utiliser un fichier audio pour l’invite, utilisez l’applet de commande **Import-CsRgsAudioFile**. Pour plus d’informations, voir [Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps). 
   
 4. Définissez l’action à exécuter lorsque le seuil d’expiration de la file d’attente est atteint, puis enregistrez-le dans une variable. À partir de la ligne de commande, exécutez la commande suivante :
     
@@ -129,7 +130,7 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
    > [!NOTE]
    > Pour plus d’informations sur les actions possibles et leur syntaxe, voir [New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps). 
   
-    Exemple :
+    Par exemple :
     
    ```
    $action = New-CsRgsCallAction -Prompt $promptTO -Action Terminate
@@ -141,14 +142,14 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
    $promptOV = New-CsRgsPrompt -TextToSpeechPrompt "<text for TTS prompt>"
    ```
 
-   Exemple :
+   Par exemple :
     
    ```
    $promptOV = New-CsRgsPrompt -TextToSpeechPrompt "Too many calls are waiting. Please call back later."
    ```
 
       > [!NOTE]
-      > Pour utiliser un fichier audio pour l’invite, utilisez la cmdlet **Import-CsRgsAudioFile** . Pour plus d’informations, voir [Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps). 
+      > Pour utiliser un fichier audio pour l’invite, utilisez l’applet de commande **Import-CsRgsAudioFile**. Pour plus d’informations, voir [Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps). 
   
 6. Définissez l’action à exécuter lorsque le seuil de saturation de la file d’attente est atteint, puis enregistrez-le dans une variable. À partir de la ligne de commande, exécutez la commande suivante :
     
@@ -159,7 +160,7 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
     > [!NOTE]
     > Pour plus d’informations sur les actions possibles et leur syntaxe, voir [New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps). 
   
-    Exemple :
+    Par exemple :
     
    ```
    $action = New-CsRgsCallAction -Prompt $promptOV -Action Terminate

@@ -1,5 +1,6 @@
 ---
 title: Filtre de fichier créer ou modifier une existant
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2f6e54ef-2ff5-4cac-a3d4-80a101e8d177
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: a203b237e41805828a1cb6d3ed69361e9a5bc0eb
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: d563a33f68a7ebe863bca5109746f69327c1a6c5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23248208"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892370"
 ---
-# <a name="file-filter-create-new-or-edit-existing"></a>Filtre de fichier : Créer une nouvelle ou en modifier une existant
+# <a name="file-filter-create-new-or-edit-existing"></a>Filtre de fichier : en créer une autre ou en modifier une existante
 
 Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
 

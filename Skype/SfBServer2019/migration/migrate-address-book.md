@@ -1,5 +1,6 @@
 ---
 title: Migrer le carnet d’adresses
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'En règle générale, le carnet d’adresses est migré avec le reste de votre topologie. Toutefois, vous devrez peut-être effectuer certaines étapes postérieures à la migration si vous avez personnalisé les éléments suivants dans votre environnement hérité :'
-ms.openlocfilehash: 081246acaaede37ab7f7f204a3f7204d9b25fbcc
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: 728ae97270cd8451178c6ef962f05e0351118119
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27788993"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890647"
 ---
 # <a name="migrate-address-book"></a>Migrer le carnet d’adresses
 

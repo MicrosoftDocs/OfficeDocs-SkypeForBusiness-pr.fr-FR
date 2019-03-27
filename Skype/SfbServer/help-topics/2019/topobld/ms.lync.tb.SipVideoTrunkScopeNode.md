@@ -1,5 +1,6 @@
 ---
 title: Nœud d’étendue des jonctions vidéo SIP (Session Initiation Protocol)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 1dc894e5-e2db-4c4d-9946-1d5f92090113
 ROBOTS: NOINDEX, NOFOLLOW
 description: Les étapes nécessaires pour définir un nouveau rapport ou passerelle vidéo dans le Générateur de topologie sont décrites en ligne dans créer un pool VIS dans Skype pour Business Server.
-ms.openlocfilehash: a41d578365721668e6daeaada543f22ec6e6f4f1
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 30db2f6ea0d39f0883fe781d546cb894780367bc
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21057821"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887385"
 ---
 # <a name="sip-video-trunk-scope-node"></a>Nœud d’étendue des jonctions vidéo SIP (Session Initiation Protocol)
  

@@ -1,5 +1,6 @@
 ---
-title: Migrer les paramètres d’application de parcage d’appel
+title: Migration des paramètres d’application de parcage d’appel
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'La migration de l’application inclut la Skype pour le pool d’entreprise Server 2019 avec n’importe quel musique personnalisée sur les fichiers d’attente qui ont été téléchargés dans l’installation héritée de mise en service le parcage d’appel, la restauration des paramètres de niveau de service et reciblage parcage d’appel toutes les orbites à la Skype pour Business Server 2019 pool. Si les fichiers de musique attente personnalisés ont été configurés dans le pool, ces fichiers doivent être copiés à la nouvelle Skype pour Business Server 2019 pool. En outre, il est recommandé que vous sauvegardez toute mise en garde d’appels personnalisé musique d’attente dans une fichiers à partir d’une autre destination pour conserver une copie de sauvegarde distincte des fichiers musique attente personnalisés qui ont été téléchargés parcage d’appel. Les fichiers de musique attente personnalisés pour l’application de parcage d’appel sont stockés dans le magasin de fichiers du pool. Pour copier les fichiers audio à partir d’un magasin de fichiers du pool vers un Skype Business Server 2019 magasin de fichiers, utilisez la commande Copier (XCOPY) avec les paramètres suivants :'
-ms.openlocfilehash: bcc2da8192f0c94f20d11073b1b18439ccc9df61
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 3d9c2904d66ac5d35bdd94631ec23c67288a5c3a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370993"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887622"
 ---
-# <a name="migrate-call-park-application-settings"></a>Migrer les paramètres d’application de parcage d’appel
+# <a name="migrate-call-park-application-settings"></a>Migration des paramètres d’application de parcage d’appel
 
 La migration de l’application de parcage d’appel inclut la mise en service le Skype pour Business Server 2019 pool avec les fichiers de musique attente personnalisés qui ont été téléchargés dans l’installation héritée, la restauration des paramètres de niveau de service et re-ciblage toutes les orbites de parcage d’appel pour Skype pour Business Server 2019 pool. Si les fichiers de musique attente personnalisés ont été configurés dans le pool, ces fichiers doivent être copiés à la nouvelle Skype pour Business Server 2019 pool. En outre, il est recommandé que vous sauvegardez toute mise en garde d’appels personnalisé des fichiers de musique en attente vers une autre destination pour conserver une copie de sauvegarde distincte des fichiers musique attente personnalisés qui ont été téléchargés parcage d’appel. Les fichiers de musique attente personnalisés pour l’application de parcage d’appel sont stockés dans le magasin de fichiers du pool. Pour copier les fichiers audio à partir d’un magasin de fichiers du pool vers un Skype Business Server 2019 magasin de fichiers, utilisez la commande **Copier (XCOPY)** avec les paramètres suivants : 
 

@@ -1,5 +1,6 @@
 ---
 title: Planification pour Skype Entreprise, version Cloud Connector
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -17,12 +18,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: Obtenez des informations sur la version Cloud Connector de Skype Entreprise, un ensemble de machines virtuelles (VM) qui met en œuvre une connectivité PSTN locale avec un système téléphonique d'Office 365 (Cloud PBX).
-ms.openlocfilehash: 4d03d8ea6936ad906de01a5b478fce01d62113c4
-ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
+ms.openlocfilehash: da594ba2511b7e3a296eb57b825489305d9473d9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30454134"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888751"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>Planification pour Skype Entreprise, version Cloud Connector
 
@@ -49,7 +50,7 @@ Cloud Connector se chargera du routage entre les utilisateurs hébergés localem
 
 Considérez les points suivants lorsque vous planifiez votre déploiement dans le nuage connecteur Edition :
 
-- Pour utiliser le connecteur sur le nuage pour tirer parti des solutions de voix dans le nuage, vous devez inscrire pour un client Office 365 qui inclut le système téléphonique dans Office 365. Si vous ne possédez pas encore de client Office 365, vous pouvez découvrir comment vous inscrire ici : [Office 365 Entreprise](https://products.office.com/en-us/business/office). Notez que vous devez inscrire pour un plan incluant Skype pour Business Online.
+- Pour utiliser le connecteur sur le nuage pour tirer parti des solutions de voix dans le nuage, vous devez inscrire pour un client Office 365 qui inclut le système téléphonique dans Office 365. Si vous n’avez pas encore un client Office 365, vous pouvez découvrir comment Inscrivez-vous ici : [Office 365 pour entreprises](https://products.office.com/en-us/business/office). Notez que vous devez inscrire pour un plan incluant Skype pour Business Online.
 
 - Pour inscrire appliances nuage connecteur avec le Skype pour le service Business Online et exécuter les applets de commande différents, nuage connecteur 2.0 et versions ultérieur nécessite un compte Office 365 dédié avec le Skype pour des droits d’administrateur de client de Business. Les versions de Cloud Connector antérieures à 2.0 requièrent un compte Office 365 dédié disposant des droits d'administrateur client global.
 
@@ -112,7 +113,7 @@ Composants du nuage connecteur fournissent les fonctionnalités suivantes :
 
   - **L’authentification du relais multimédia / MRAS** -génère des jetons d’accès au serveur relais multimédia.
 
-- **Le routage sortant** - fournit équilibrage du trafic entre les passerelles voix ou SBC connecté à un connecteur dans le nuage. Les appels seront répartis équitablement entre tous les SBC et passerelles connectés à l'appliance Cloud Connector.
+- **Le routage sortant** - fournit équilibrage du trafic entre les passerelles voix ou SBC connecté à un connecteur dans le nuage. Les appels seront répartis uniformément entre toutes les passerelles ou SBC connecté au nuage connecteur matériel.
 
     Fournit un routage vers les passerelles en fonction des stratégies. Seules les politiques mondiales dépendant des numéros PSTN de destination (trafic sortant) sont prises en charge.
 
@@ -120,7 +121,7 @@ Composants du nuage connecteur fournissent les fonctionnalités suivantes :
 
 - Le **réplica du magasin central de gestion (CMS)** - synchronise les informations de configuration de la base de données CMS globale sur le serveur de rôle CMS.
 
-- **Contrôleur de domaine** - nuage connecteur Active Directory Domain Services pour stocker tous les paramètres globaux et les groupes nécessaires pour déployer les composants du connecteur sur le nuage. Une forêt sera créée pour chaque application connecteur sur le nuage. Le contrôleur de domaine ne doit pas avoir toutes les connexions à la production de Active Directory. Les services Active Directory comprennent :
+- **Contrôleur de domaine** - nuage connecteur Active Directory Domain Services pour stocker tous les paramètres globaux et les groupes nécessaires pour déployer les composants du connecteur sur le nuage. Une forêt sera créée pour chaque application connecteur sur le nuage. Le contrôleur de domaine ne doit pas avoir toutes les connexions à la production de Active Directory. Services Active Directory sont les suivantes :
 
   - Services de domaine Active Directory
 
@@ -249,7 +250,7 @@ Avant de déployer sur le nuage connecteur Edition, assurez-vous que les paramè
 
 - Système PBX/jonction ou SBC/passerelle qualifié (un minimum de deux passerelles est recommandé).
 
-    Cloud Connector prend en charge les mêmes contrôleurs SBC (Session Border Controller) que ceux certifiés pour Skype Entreprise. Pour plus d'informations, reportez-vous à la rubrique relative à l'[infrastructure téléphonique pour Skype Entreprise](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways).
+    Cloud Connector prend en charge les mêmes contrôleurs SBC (Session Border Controller) que ceux certifiés pour Skype Entreprise. Pour plus d’informations, consultez [Infrastructure de téléphonie pour Skype pour les entreprises](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways).
 
 - Un compte d’administrateur de serveur local avec des autorisations pour installer et configurer Hyper-V sur les serveurs hôtes. Le compte doit disposer des autorisations d'administrateur sur le serveur local sur lequel Hyper V est installé et configuré.
 
@@ -420,11 +421,11 @@ L’ordinateur hôte doit être en mesure d’atteindre des ressources externes 
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Sortant  <br/> |Hôte du connecteur cloud IP  <br/> |indifférente  <br/> |indifférente  <br/> |53  <br/> |TCP/UDP  <br/> |DNS  <br/> |
 |Sortant  <br/> |Hôte du connecteur cloud IP  <br/> |indifférente  <br/> |indifférente  <br/> |80, 443  <br/> |TCP  <br/> |Liste de révocation de certificats (CRL)  <br/> |
-|Sortant  <br/> |Hôte de Connectorr cloud IP  <br/> |indifférente  <br/> |indifférente  <br/> |80, 443  <br/> |TCP  <br/> |Mise à jour du connecteur de nuage  <br/> Skype Entreprise Online  <br/> Administrateur PowerShell  <br/> Windows Update  <br/> |
+|Sortant  <br/> |Hôte de Connectorr cloud IP  <br/> |indifférente  <br/> |indifférente  <br/> |80, 443  <br/> |TCP  <br/> |Mise à jour du connecteur de nuage  <br/> Skype Entreprise Online  <br/> Administrateur PowerShell  <br/> Windows Update  <br/> |
 
 Si des règles plus restrictives sont nécessaires, consultez les URL suivantes sur liste blanche :
 
-- [URL de liste de révocation de certificats ](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) sur [URL et plages d'adresses IP Office 365](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)
+- [URL de liste de révocation de certificats](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) dans [Office 365 URL et plages d’adresses IP](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)
 
 - Mise à jour Windows : [Comment faire pour configurer un pare-feu pour les mises à jour logicielles](https://technet.microsoft.com/en-us/library/bb693717.aspx)
 
@@ -528,7 +529,7 @@ Lorsque vous configurez les informations de la passerelle, gardez à l'esprit le
 |CABackupFile  <br/> Version 2.0 et ultérieures  <br/> |Utilisé pour enregistrer le Service de l’autorité de Certification à partir du serveur Active Directory dans un fichier lors du déploiement de plusieurs applications dans un site dans le nuage connecteur. Assurez-vous d'utiliser le même mot de passe pour toutes les appliances sur un même site Cloud Connector afin d'importer correctement le fichier de sauvegarde AC vers une nouvelle appliance.  <br/> ||
 |CCEService  <br/> Version 2.0 et ultérieures  <br/> |Utilisé pour le service de gestion Cloud Connector ; nécessite l'accès à l'annuaire de site Cloud Connector. Assurez-vous d'utiliser le même mot de passe pour toutes les appliances sur un même site Cloud Connector.   <br/> ||
 |Administrateur client Office 365  <br/> | Le compte est utilisé par Cloud Connector pour mettre à jour et gérer les paramètres du client pour Cloud Connector : <br/>  Version 2.0 et versions ultérieure : les informations d’identification pour un dédié Office 365 compte avec Skype de droits d’administrateur d’entreprise. <br/>  Version antérieure à 2.0 : informations d'identification d'un compte Office 365 dédié disposant des droits d'administrateur client global. <br/> ||
-|Activer la prise en charge de REFER.  <br/> |Cela déterminera si la prise en charge de SIP REFER est activée ou désactivée sur la configuration de la jonction de votre IP/système PBX. La valeur par défaut est True. Si votre passerelle IP/PBX prend en charge REFER, veuillez laisser la valeur True. Si ce n’est pas le cas, cette valeur doit être remplacée par False. Si vous n'êtes pas certain que votre passerelle prend en charge REFER, veuillez vous reporter à la rubrique [IP-PBX et passerelles qualifiés](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways).   <br/> ||
+|Activer la prise en charge de REFER.  <br/> |Cela déterminera si la prise en charge de SIP REFER est activée ou désactivée sur la configuration de la jonction de votre IP/système PBX. La valeur par défaut est True. Si votre passerelle IP/PBX prend en charge la prise en charge de REFER, veuillez laisser la valeur True. Dans le cas contraire, cette valeur doit être redéfinie sur False. Si vous n’êtes pas certain que votre passerelle prend en charge le référencement, consultez [complet IP-PBX et passerelles](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways).   <br/> ||
 |EnableFastFailoverTimer  <br/> Version 2.0 et ultérieures  <br/> |Avec la valeur par défaut « True », si les appels sortants sont sans réponse par la passerelle dans les 10 secondes qu’ils sont acheminés vers la passerelle suivante disponible ; s’il n’existe aucune jonctions supplémentaires l’appel est supprimé automatiquement.  <br/> Cependant, dans une organisation dont les réseaux et les réponses de la passerelle sont lents, ou lorsque la procédure d'établissement d'appel dépasse les 10 secondes, cela peut entraîner l'abandon inutile des appels.  <br/> Lorsque des appels sont passés vers certains pays, par exemple les Émirats arabes unis ou l'Afghanistan, la procédure d'établissement d'appel peut prendre plus de 10 secondes. Si vous rencontrez ces problèmes, vous devrez modifier la valeur en « False ». N'oubliez pas de modifier le paramètre correspondant sur le SBC ou la passerelle connecté(e).  <br/> Les valeurs peuvent être « True » ou « False ». La valeur par défaut est « True ».  <br/> ||
 |ForwardCallHistory  <br/> Version 2.0 et ultérieures  <br/> | Ce paramètre est utilisé pour les en-têtes SIP utilisés pour signaler l'appelant initial dans des scénarios de sonnerie simultanée et de transfert d'appel. Définir le paramètre sur « True » entraîne l'activation de deux en-têtes SIP :<br/>  History-Info <br/>  Referred-By <br/>  L’en-tête de l’historique des Info est utilisé pour le ciblage de nouveau les demandes SIP et « minutieuses un mécanisme standard pour capturer les informations de l’historique de la demande pour activer un large éventail de services pour les réseaux et les utilisateurs finaux » ([RFC 4244 - point 1.1](http://www.ietf.org/rfc/rfc4244.txt)). En ce qui concerne les interfaces de jonction de Cloud Connector, elles sont utilisées dans des scénarios de sonnerie simultanée et de transfert d'appel.  <br/>  Les valeurs peuvent être « True » ou « False ». La valeur par défaut est « False ».<br/> ||
 |Transfert PAI  <br/> Version 2.0 et ultérieures  <br/> |PAI est une extension privée de SIP qui permet aux serveurs SIP de déclarer l'identité des utilisateurs authentifiés. Pour le fournisseur de jonction SIP, PAI peut être utilisé à des fins de facturation, dans les cas où les en-têtes History-Info et Referred-By sont absents. Lorsque le transfert P-Asserted-Identity est activé dans la configuration, le serveur de médiation transmet les en-têtes PAI avec SIP &amp; Tel URI nuage connecteur sur la jonction SIP. Le serveur de médiation transmet les en-têtes PAI avec tel URI &amp; reçus uniquement sur la jonction SIP vers le nuage connecteur les numéros E.164. Le serveur de médiation transférera également tout en-tête Privacy reçu dans l'une des directions. Si le SIP demande envoyés par le serveur de médiation inclut un en-tête de confidentialité de l’écran - « confidentialité : id » en association avec l’en-tête PAI, puis l’identité déclarée doit rester privée en dehors du domaine d’approbation de réseau.  <br/> Les valeurs peuvent être « True » ou « False ». La valeur par défaut est « False ».  <br/> ||
@@ -593,7 +594,7 @@ Si vous utilisez TLS entre la passerelle et le serveur de médiation, vous devre
 ## <a name="dial-plan-considerations"></a>Aspects relatifs au plan de numérotation
 <a name="BKMK_DailPlan"> </a>
 
-Cloud Connector requiert l'utilisation d'un plan de numérotation en ligne. Pour plus d’informations sur la façon de configurer un plan de numérotation en ligne, voir [Quels sont les plans de numérotation ?](/microsoftteams/what-are-dial-plans) 
+Connecteur de nuage requiert l’utilisation d’un plan de numérotation en ligne. Pour plus d’informations sur la façon de configurer un plan de numérotation en ligne, voir [Quels sont les plans de numérotation ?](/microsoftteams/what-are-dial-plans) 
   
 ## <a name="high-availability-considerations"></a>Considérations relatives à la haute disponibilité
 <a name="BKMK_HA"> </a>
@@ -705,11 +706,11 @@ Cloud Connector 2.1 et les versions ultérieures prennent en charge la surveill
 
 Pour plus d’informations, voir les articles suivants :
 
-- [Solutions de téléphonie Microsoft](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)
+- [Détails sur les solutions téléphoniques Microsoft Telephony](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)
 
 - [Configuration et gestion de Skype Entreprise, version Cloud Connector](configure-skype-for-business-cloud-connector-edition.md)
 
-- [Planification de la déviation du trafic multimédia dans la version Cloud Connector](plan-for-media-bypass-in-cloud-connector-edition.md)
+- [Planifier le contournement de média dans Cloud Connector Edition](plan-for-media-bypass-in-cloud-connector-edition.md)
 
 - [Déployer le contournement de média dans le nuage connecteur Edition](deploy-media-bypass-in-cloud-connector.md)
 

@@ -1,5 +1,6 @@
 ---
 title: Fonctionnalités de sécurité clés dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bf2a3b8f-73c6-47e1-8c9e-ca1dc1a502bf
 description: Skype pour Business Server inclut plusieurs fonctionnalités de sécurité, notamment l’authentification serveur à serveur, le contrôle d’accès basé sur un rôle et le stockage centralisé des données de configuration.
-ms.openlocfilehash: c8bc1e9b45f9433c716ab2a803caeaef5f16172f
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5a0a82800be8158b6d54e4e01e7609d3e6b3714d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20981963"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894279"
 ---
 # <a name="key-security-features-in-skype-for-business-server"></a>Fonctionnalités de sécurité clés dans Skype pour Business Server
  
@@ -53,7 +54,7 @@ Skype pour Business Server fournit une interface de gestion puissants, basée su
   
 ### <a name="role-based-access-control-rbac"></a>Contrôle d’accès basé sur un rôle (RBAC)
 
-Skype pour Business Server fournit le contrôle d’accès basé sur un rôle (RBAC) vous permet de déléguer des tâches administratives tout en conservant les normes de sécurité strictes. Vous pouvez utiliser RBAC pour suivre le principe du « privilège minimal, » dans les utilisateurs qui reçoivent uniquement les droits d’administration qui requièrent leurs travaux. Skype pour Business Server offre la possibilité de créer un nouveau rôle et également la possibilité de modifier un rôle existant. 
+Skype pour Business Server fournit le contrôle d’accès basé sur un rôle (RBAC) vous permet de déléguer des tâches administratives tout en conservant les normes de sécurité strictes. You can use RBAC to follow the principle of "least privilege," in which users are given only the administrative rights that their jobs require. Skype pour Business Server offre la possibilité de créer un nouveau rôle et également la possibilité de modifier un rôle existant. 
   
 ## <a name="network-address-translation-nat"></a>Traduction d’adresses réseau (NAT)
 

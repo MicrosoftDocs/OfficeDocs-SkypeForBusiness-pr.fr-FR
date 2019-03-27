@@ -1,5 +1,6 @@
 ---
-title: Migrer des groupes de réponses
+title: Migrer des groupes Response Group
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Une fois que vos utilisateurs sont déplacés vers Skype pour les pools d’entreprise Server 2019, vous pouvez migrer vos groupes Response Group. Migration de Response Group groupes comprend la copie des groupes d’agents, les files d’attente, les flux de travail, les fichiers audio et déplacer les objets de contact de Response Group à partir du déploiement hérité vers le Skype pour Business Server 2019 pool. Après avoir fait migrer vos groupes Response Group hérités, les appels vers les groupes Response Group sont gérés par l’application Response Group dans le Skype pour Business Server 2019 pool. Les appels vers les groupes Response Group sont ne sont plus gérés par le pool hérité.
-ms.openlocfilehash: 89149210e8041fbc84834cec83e1c1fe13d0765c
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 17ba19be3b574436f3a175457264654d8c28ebd0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372936"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876312"
 ---
-# <a name="migrate-response-groups"></a>Migrer des groupes de réponses
+# <a name="migrate-response-groups"></a>Migrer des groupes Response Group
 
 Une fois que vos utilisateurs sont déplacés vers Skype pour les pools d’entreprise Server 2019, vous pouvez migrer vos groupes Response Group. Migration de Response Group groupes comprend la copie des groupes d’agents, les files d’attente, les flux de travail, les fichiers audio et déplacer les objets de contact de Response Group à partir du déploiement hérité vers le Skype pour Business Server 2019 pool. Après avoir fait migrer vos groupes Response Group hérités, les appels vers les groupes Response Group sont gérés par l’application Response Group dans le Skype pour Business Server 2019 pool. Les appels vers les groupes Response Group sont ne sont plus gérés par le pool hérité.
   

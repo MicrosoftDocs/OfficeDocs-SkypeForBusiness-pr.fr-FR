@@ -1,5 +1,6 @@
 ---
-title: Ajouter A / V MCU Pool
+title: Ajouter un pool MCU audio/vidéo
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: e201875e-1e81-4756-942f-c17d177e997b
 ROBOTS: NOINDEX, NOFOLLOW
 description: Tous les serveurs Enterprise Edition frontaux d’un site central qui n’ont pas un colocalisé un service de conférence V peut utiliser le même Stand-Alone A / pool de conférence V. Pour chaque A / pool de conférence V, vous devez spécifier un nom de domaine complet (FQDN) pour le pool et si elle aura uniquement un seul A / V Conferencing Server ou multiples, à charge équilibrée A / V Conferencing Servers.
-ms.openlocfilehash: c58d2e405d642209f91e38d98d5c6cbef924cd2e
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: f88476165ce6affe23e9e5cbb33e03a997c04971
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21060087"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888132"
 ---
-# <a name="add-av-mcu-pool"></a>Ajouter A / V MCU Pool
+# <a name="add-av-mcu-pool"></a>Ajouter un pool MCU audio/vidéo
  
 Tous les serveurs Enterprise Edition frontaux d’un site central qui n’ont pas un colocalisé un service de conférence V peut utiliser le même Stand-Alone A / pool de conférence V. Pour chaque A / pool de conférence V, vous devez spécifier un nom de domaine complet (FQDN) pour le pool et si elle aura uniquement un seul A / V Conferencing Server ou multiples, à charge équilibrée A / V Conferencing Servers.
   

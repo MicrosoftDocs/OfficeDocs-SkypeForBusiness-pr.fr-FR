@@ -1,5 +1,6 @@
 ---
 title: Règles de traduction dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6e067bd4-4931-4385-81ac-2acae45a16d8
 description: En savoir plus sur les règles de traduction et de numérotation de normalisation de chaînes dans Skype pour Business Server Enterprise Voice.
-ms.openlocfilehash: e32cdd3f3dd21ac4aa87dcdd7eecddf8be9153e6
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 5b609701779a80645061036fd04e4a46427261b3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886295"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893632"
 ---
 # <a name="translation-rules-in-skype-for-business-server"></a>Règles de traduction dans Skype pour Business Server
 
@@ -35,11 +36,11 @@ En effectuant une conversion de l’itinéraire sortant sur le serveur, vous pou
 
 Les exemples de règles de conversion suivantes vous montrent comment développer des règles sur le serveur pour convertir des numéros du format E.164 au format local pour un homologue de jonction.
 
-Pour plus d’informations sur l’implémentation des règles de traduction, voir [Defining Translation Rules](https://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx) dans la documentation de déploiement.
+Pour plus d’informations sur l’implémentation des règles de conversion, reportez-vous à [Defining Translation Rules](https://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx) dans la documentation de déploiement.
 
 |**Description**|**Chiffres de début**|**Longueur**|**Chiffres à supprimer**|**Chiffres à ajouter**|**Modèle de correspondance**|**Conversion**|**Exemple**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Numérotation longue distance conventionnelle aux États-Unis  <br/> (signe les '+')  <br/> |+ 1  <br/> |12 exactement  <br/> |1  <br/> |0  <br/> |^\+(1\d{10}) $  <br/> |$1  <br/> |+14255551010 devient 14255551010  <br/> |
+|Numérotation longue distance conventionnelle aux États-Unis  <br/> (signe les '+')  <br/> |+1  <br/> |12 exactement  <br/> |1  <br/> |0  <br/> |^\+(1\d{10}) $  <br/> |$1  <br/> |+14255551010 devient 14255551010  <br/> |
 |Numérotation longue distance internationale aux États-Unis  <br/> (supprimer le signe '+' et ajouter 011)  <br/> |+  <br/> |11 au moins  <br/> |1  <br/> |011  <br/> |^\+(\d{9}\d+)$  <br/> |011$1  <br/> |+441235551010 devient 011441235551010  <br/> |
 
 

@@ -1,5 +1,6 @@
 ---
 title: Nœud d’étendue des Branch Office
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 116d317c-8df0-45a0-83d4-eb10cf525d70
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Le nœud Sites de succursale répertorie les sites de succursale associés à ce site central. Vous pouvez effectuer l’action suivante :'
-ms.openlocfilehash: eedc185129fe73bd073f8d8bae540eb9ab2621a6
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 1bfa56b52f604633937626fd62c3b5bbbc929f35
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21061720"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886169"
 ---
 # <a name="branch-offices-scope-node"></a>Nœud d’étendue des Branch Office
  

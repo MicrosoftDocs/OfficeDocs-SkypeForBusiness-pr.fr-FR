@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Cet article décrit les améliorations cumulatives de systèmes de salle Skype v2.
-ms.openlocfilehash: fefad8a37d53760a81b2ea78e73bbd75069c848f
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.openlocfilehash: b3e6a6341e917b49eed6f1c89dcadfe29bcdaf10
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30645355"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891598"
 ---
 # <a name="release-notes"></a>Notes de publication 
 
@@ -53,9 +53,11 @@ Cet article décrit les améliorations cumulatives de systèmes de salle Skype v
 
 ## <a name="skype-room-systems-v2-feature-introduction-and-issue-resolution"></a>Systèmes de salle Skype v2 fonctionnalité introduction et problème résolution
 
+
 ### <a name="40780-03142018"></a>4.0.78.0 (14/03/2018)
 Introduite dans cette mise à jour :
 - Correctif de bogue « se bloquer au démarrage de l’application » qui est affectée de périphériques sur build Windows 10 RS2 héritée.  
+
 
 ### <a name="40760-03042019"></a>4.0.76.0 (04/03/2019)
 Introduite dans cette mise à jour :
@@ -180,7 +182,7 @@ Introduite dans cette mise à jour :
 ### <a name="2020-03152017"></a>2.0.2.0 (15/03/2017)
 Introduite dans cette mise à jour : 
 - Sélection de l’utilisateur dans l’application de périphériques USB audio et vidéo de salle de réunion
-- Intégré salle console rapports d’état les clients qui utilisent Microsoft Operations Management Suite (voir [planifier Skype salle v2 SMS avec OMS](oms-management.md)) 
+- État de console intégrée salle création de rapports pour les clients qui utilisent Microsoft Operations Management Suite, maintenant Azure moniteur  
 
 ### <a name="release-to-market--1272016"></a>Publication sur le marché (12/7/2016)
 **L’ou les composants :** 

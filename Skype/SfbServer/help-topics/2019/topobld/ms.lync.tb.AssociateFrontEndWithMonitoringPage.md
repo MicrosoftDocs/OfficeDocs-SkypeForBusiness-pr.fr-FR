@@ -1,5 +1,6 @@
 ---
-title: Associer la surveillance frontal
+title: Associer un pool frontal à un serveur de surveillance
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 8ea4474a-7453-49a9-ba38-2c7dc4337b05
 ROBOTS: NOINDEX, NOFOLLOW
 description: Chaque pool frontal et un serveur Survivable Branch Appliance peuvent avoir un seul que serveur de surveillance lui est associé. Lorsque l’analyse est activée pour le site, le serveur de surveillance fournit des détails des appels (CDR) et la collecte de données de qualité de l’expérience (QoE) et la création de rapports.
-ms.openlocfilehash: 6180f7d6fc48db5293ffae8eaba5f95c34267358
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: b6a1f46f24e016fe7fab9b620bf3240c23b0d6b2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21060812"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896899"
 ---
-# <a name="associate-front-end-with-monitoring"></a>Associer la surveillance frontal
+# <a name="associate-front-end-with-monitoring"></a>Associer un pool frontal à un serveur de surveillance
  
 Chaque pool frontal et un serveur Survivable Branch Appliance peuvent avoir un seul que serveur de surveillance lui est associé. Lorsque l’analyse est activée pour le site, le serveur de surveillance fournit des détails des appels (CDR) et la collecte de données de qualité de l’expérience (QoE) et la création de rapports.
   

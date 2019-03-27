@@ -1,5 +1,6 @@
 ---
 title: Gérer un serveur de conversation permanente dans Skype Entreprise Server 2015
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c58ee4f4-563b-4d0c-be91-c62df886caa9
 description: 'Résumé : Découvrez comment gérer les serveurs de conversation permanente dans Skype pour Business Server 2015.'
-ms.openlocfilehash: 2511de09c321c70d73d824f5fc94bf21fa674131
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: f6bd3f9e1364f4dd5b347e65a0a5799e66a97b33
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20967897"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899108"
 ---
 # <a name="manage-persistent-chat-server-in-skype-for-business-server-2015"></a>Gérer un serveur de conversation permanente dans Skype Entreprise Server 2015
  
@@ -36,7 +37,7 @@ Pour utiliser le Panneau de configuration :
     
 3. Dans la barre de navigation de gauche, cliquez sur **Conversation permanente**.
     
-Le tableau suivant récapitule les applets de commande Windows PowerShell disponibles pour vous aider à gérer les serveurs de conversation permanente. Pour plus d’informations sur la syntaxe, y compris tous les paramètres disponibles, voir [Skype pour Business Server 2015 Management Shell](../management-shell.md).
+Le tableau suivant récapitule les applets de commande Windows PowerShell disponibles pour vous aider à gérer les serveurs de conversation permanente. Pour plus de détails sur la syntaxe, notamment tous les paramètres disponibles, voir [Skype for Business Server 2015 Management Shell](../management-shell.md).
   
 
 |**Applet de commande**|**Description**|
@@ -50,7 +51,7 @@ Le tableau suivant récapitule les applets de commande Windows PowerShell dispon
 |Get-CsPersistentChatRoom  <br/> |Récupère des informations sur les salles  <br/> |
 |Clear-CsPersistentChatRoom  <br/> |Efface une salle et les messages d’une salle  <br/> |
 |Remove-CsPersistentChatRoom  <br/> |Supprime une salle  <br/> |
-|Remove-cspersistentchatmessage ne  <br/> |Supprime les messages d’une salle  <br/> |
+|Remove-CsPersistentChatMessage  <br/> |Supprime les messages d’une salle  <br/> |
 |New-CsPersistentChatAddin  <br/> |Crée un complément  <br/> |
 |Set-CsPersistentChatAddin  <br/> |Configure des paramètres pour un complément existant  <br/> |
 |Get-CsPersistentChatAddin  <br/> |Récupère des informations sur les compléments  <br/> |

@@ -1,5 +1,6 @@
 ---
 title: Configuration de la réunion
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 24e8f749-d54c-4315-a8fe-bb9303b356ef
 description: Paramètres de configuration de réunion définissent le type de conférences (également calledmeetings) que les utilisateurs peuvent créer et contrôler comment (ou si) les utilisateurs anonymes et les utilisateurs de conférence rendez-vous peuvent rejoindre ces conférences. Ces paramètres ne concernent que les réunions planifiées. Ils ne concernent pas les réunions ad hoc créées en cliquant sur l’option Conférence maintenant du client.
-ms.openlocfilehash: 7d815877375759a45de4df6543eca8ef82af1481
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 32bbb6861271623e0a4126d98e36c28542ddfc8d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23244208"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885127"
 ---
 # <a name="meeting-configuration"></a>Configuration de la réunion
 
@@ -62,6 +63,6 @@ La liste ci-dessous décrit les champs de la page.
 
 - **Étendue** Identifie l’étendue de la configuration de réunion : globale, site ou pool.
 
-Pour plus d’informations sur l’utilisation des configurations de réunion, voir [créer un ou modifier une Collection de paramètres de Configuration réunion](https://technet.microsoft.com/library/ce6773c1-a0d5-4405-8e32-33a6f3a46a1a.aspx) dans la documentation des opérations.
+Pour plus d’informations sur l’utilisation des configurations de réunion, reportez-vous à la rubrique [Create a or modify a Collection of Meeting Configuration Settings](https://technet.microsoft.com/library/ce6773c1-a0d5-4405-8e32-33a6f3a46a1a.aspx) de la documentation des opérations.
 
 

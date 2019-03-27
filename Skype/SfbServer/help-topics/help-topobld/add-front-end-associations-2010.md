@@ -1,5 +1,6 @@
 ---
-title: Ajouter des Associations frontal 2010
+title: Ajouter des associations au pool frontal 2010
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a01dff6c-50cc-463d-ac08-9f22e044bdc8
 description: 'Vous pouvez activer la prise en charge des fonctionnalités spécifiques qui nécessitent le déploiement des autres serveurs en associant les rôles de serveur au pool frontal pour l’instant. Vous pouvez également associer les rôles serveur et le pool frontal par la suite. Les rôles serveur pouvant être associés à un pool frontal peuvent être les suivants :'
-ms.openlocfilehash: 557299e07761e5f5ef1ac0209576103a31a6b79c
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: c2480b38d7923bba0f6a8f4b575277ebb5cd385f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23260936"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895271"
 ---
-# <a name="add-front-end-associations-2010"></a>Ajouter des Associations frontal 2010
+# <a name="add-front-end-associations-2010"></a>Ajouter des associations au pool frontal 2010
 
 Vous pouvez activer la prise en charge des fonctionnalités spécifiques qui nécessitent le déploiement des autres serveurs en associant les rôles de serveur au pool frontal pour l’instant. Vous pouvez également associer les rôles serveur et le pool frontal par la suite. Les rôles serveur pouvant être associés à un pool frontal peuvent être les suivants :
 

@@ -1,5 +1,6 @@
 ---
 title: (Facultatif) Déploiement d’un groupe de réponse vérifier dans Skype pour les entreprises
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 202ca4ab-8e6d-44a4-b7c8-071133074feb
 description: Vérifier le succès de votre déploiement Response Group, dans Skype pour Business Server Enterprise Voice.
-ms.openlocfilehash: ebf8e9960b26dfa0da256e0ea26e356648cbe356
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 2a0cc58101199183a23d74152a0ef6a05a1fb699
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532175"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893938"
 ---
 # <a name="optional-verify-response-group-deployment-in-skype-for-business"></a>(Facultatif) Déploiement d’un groupe de réponse vérifier dans Skype pour les entreprises
  
@@ -31,7 +32,7 @@ Après avoir configuré Response Group, vous devez vérifier la configuration po
     
 - Un agent hébergé sur Skype pour les entreprises
     
-  **Scenarios**
+  **Scénarios**
   
 - Le Skype pour utilisateur professionnel appelle le service response group.
     

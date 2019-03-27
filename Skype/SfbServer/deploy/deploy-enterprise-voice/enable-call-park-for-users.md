@@ -1,5 +1,6 @@
 ---
 title: Activer le parcage d’appel pour les utilisateurs de Skype pour les entreprises
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9430763f-3394-467c-9c6d-426bf761604e
 description: Activer les utilisateurs pour la mise en garde d’appels dans Skype pour Business Server Enterprise Voice.
-ms.openlocfilehash: b9df6aebba145d71aa6d64d8f192d2ef332e5a7d
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 98b02294beb633e5d9a0147fcce7257a4497753d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883931"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894542"
 ---
 # <a name="enable-call-park-for-users-in-skype-for-business"></a>Activer le parcage d’appel pour les utilisateurs de Skype pour les entreprises
  
@@ -48,7 +49,7 @@ Vous pouvez activer la mise en garde d’appels au niveau global ou au niveau de
 
 1. Connectez-vous à l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre du rôle d’administrateur CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator.
     
-2. Démarrez Skype Entreprise Server Management Shell : cliquez successivement sur **Démarrer**, **Tous les programmes**, **Skype Entreprise 2015**, puis sur **Skype Entreprise Server Management Shell**.
+2. Démarrez le Skype pour Business Server Management Shell : cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Skype pour Business 2015**, puis cliquez sur **Skype pour Business Server Management Shell**.
     
 3. Exécutez :
     

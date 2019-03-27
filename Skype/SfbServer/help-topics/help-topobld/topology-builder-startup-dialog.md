@@ -1,5 +1,6 @@
 ---
 title: Boîte de dialogue de démarrage du Générateur de topologie
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8761008f-b239-4b95-bcd8-1011198dd070
 description: 'Vous démarrez le Générateur de topologie pour configurer les propriétés et la configuration de votre déploiement de Microsoft Lync Server 2013. Au démarrage, le Générateur de topologie affiche une boîte de dialogue qui vous demande quelle sera la source du document de topologie. Vous sélectionnez une des trois options :'
-ms.openlocfilehash: 5140c16f96b641dec74cb6919571365a7751ae0b
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: df784ea76497cb038eb46f929844662066a298aa
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23260824"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891094"
 ---
 # <a name="topology-builder-startup-dialog"></a>Boîte de dialogue de démarrage du Générateur de topologie
 
@@ -35,4 +36,4 @@ Vous démarrez le Générateur de topologie pour configurer les propriétés et 
 
 [Présentation de Lync Server 2013 Preview](https://technet.microsoft.com/library/99dd6b65-e591-421f-852b-ee9fe9588998.aspx)
 
-[Outils d’administration Lync Server](https://technet.microsoft.com/library/9b006f93-4f3d-461d-89b8-e80a34fdb3c5.aspx)
+[Lync Server Administrative Tools](https://technet.microsoft.com/library/9b006f93-4f3d-461d-89b8-e80a34fdb3c5.aspx)

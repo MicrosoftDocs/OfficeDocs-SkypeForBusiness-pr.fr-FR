@@ -1,5 +1,6 @@
 ---
 title: 'Déployer le portail d’administration Web : v1 SRS dans Skype pour Business Server'
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 81822efa-2100-4017-a470-8a5b98c49522
 description: 'Le Skype pour des systèmes métiers Server Skype salle v1 (v1 SRS, anciennement appelé le système Lync salle) portail Web d’administration est un portail web que les organisations peuvent utiliser pour gérer leurs salles de conférence Skype salle systèmes. Les administrateurs peuvent utiliser le portail d’administration Web : v1 SRS pour surveiller la santé du périphérique, par exemple en surveillant les périphériques audio/vidéo. Ils peuvent également collecter à distance des informations de diagnostic pour surveiller l’intégrité des salles de conférence.'
-ms.openlocfilehash: 6aa7b0d4f36fbffe29a27f77209fb6f2cf312c05
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: d6575f83aaf76dee1255c37482cf4435e8e3771c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23248130"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891944"
 ---
 # <a name="deploy-srs-v1-administrative-web-portal-in-skype-for-business-server"></a>Déployer le portail d’administration Web : v1 SRS dans Skype pour Business Server
 
@@ -193,7 +194,7 @@ La section d’intégrité donne une indication visuelle de l’intégrité de l
 ### <a name="additional-notes-about-the-administrative-web-portal"></a>Remarques supplémentaires concernant le portail Web d’administration
 
 > [!NOTE]
->  Modifications des paramètres sont appliquées qu’après redémarrage du système SRS. > Si le mot de passe du compte LRSApp arrive à expiration, vous ne pourrez pas voir le statut des salles. Configurer le mot de passe du compte LRSAppuser afin qu’il expire, jamais ou veillez à mettre à jour le mot de passe lorsqu’il est près d’expiration. > portail web d’administration de la SRS est pris en charge pour les déploiements locaux uniquement.
+>  Modifications des paramètres sont appliquées uniquement une fois que le système SRS est redémarré .> si le mot de passe du compte LRSApp arrive à expiration, vous ne pourrez pas voir le statut les salles. Configurer le mot de passe du compte LRSAppuser afin qu’il expire, jamais ou veillez à mettre à jour le mot de passe lorsqu’il est proche expiration.> le SRS d’administration portail web est pris en charge pour les déploiements locaux uniquement.
 
 ### <a name="bulk-management"></a>Gestion en bloc 
 

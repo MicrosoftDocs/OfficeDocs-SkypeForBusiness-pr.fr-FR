@@ -1,5 +1,6 @@
 ---
 title: Stratégie d’emplacement créer ou modifier une existant
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: d9b30b3b-570b-49a6-b2b4-46b0cf490153
 ROBOTS: NOINDEX, NOFOLLOW
 description: Vous pouvez configurer les stratégies d’emplacement pour déterminer si le service E9-1-1 (Enhanced 9-1-1) est activé et pour savoir comment il est utilisé et comment les informations d’emplacement sont traitées pour les utilisateurs et les contacts.
-ms.openlocfilehash: 794a549d4ad4fc1ecd8845820abbd95ea34107c3
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: d148b7b546b5c0e239c1fbccfdbcf27e0a3840fa
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23263260"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886211"
 ---
 # <a name="location-policy-create-new-or-edit-existing"></a>Stratégie d’emplacement : création d’une stratégie ou modification d’une stratégie existante
 
@@ -65,6 +66,6 @@ La liste ci-dessous décrit les champs de la page.
 
   - **Bidirectionnelle** Spécifie que le tiers peut participer à l’appel entre l’appelant et l’opérateur du centre.
 
-Pour plus d’informations sur les fonctionnalités de service d’urgence Enterprise Voice, voir [vue d’ensemble de E9-1-1](https://technet.microsoft.com/library/c01e6774-bc9f-4c5b-a60b-478b7317b2b7.aspx) dans la documentation de planification. Pour plus d’informations sur l’utilisation des stratégies d’emplacement, voir [Configuration de stratégie d’emplacement](https://technet.microsoft.com/library/14e41bcb-ea0a-49c2-99b3-1f61fc34416d.aspx) dans la documentation des opérations.
+Pour plus d’informations sur les fonctionnalités de service d’urgence Enterprise Voice, voir [vue d’ensemble de E9-1-1](https://technet.microsoft.com/library/c01e6774-bc9f-4c5b-a60b-478b7317b2b7.aspx) dans la documentation de planification. Pour plus d’informations sur l’utilisation des stratégies d’emplacement, reportez-vous à la rubrique [Configuring Location Policy](https://technet.microsoft.com/library/14e41bcb-ea0a-49c2-99b3-1f61fc34416d.aspx) de la documentation des opérations.
 
 

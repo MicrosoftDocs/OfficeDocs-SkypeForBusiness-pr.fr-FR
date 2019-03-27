@@ -1,5 +1,6 @@
 ---
 title: Configuration de la haute disponibilité et de la récupération d’urgence pour le serveur de conversation permanente dans Skype Entreprise Server 2015
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5fb5b189-56c1-49cf-92c8-e4fd6e2fdd5c
 description: 'Résumé : Lisez cette rubrique pour savoir comment configurer une haute disponibilité et récupération d’urgence pour les serveurs de conversation permanente dans Skype pour Business Server 2015.'
-ms.openlocfilehash: c2e4ff1d210e5a8fa5fccbc002ebd1c4ca59a545
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 7bc1ae0b71df3916c36acfdc7fabce91caa297e8
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21004685"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899277"
 ---
 # <a name="configure-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Configuration de la haute disponibilité et de la récupération d’urgence pour le serveur de conversation permanente dans Skype Entreprise Server 2015
  
 **Résumé :** Lisez cette rubrique pour savoir comment configurer une haute disponibilité et récupération d’urgence pour les serveurs de conversation permanente dans Skype pour Business Server 2015.
   
-Skype pour Business Server prend en charge plusieurs modes de haute disponibilité pour vos serveurs principaux, y compris la mise en miroir de base de données. Pour plus d’informations, voir [planifier la haute disponibilité et de récupération d’urgence dans Skype pour Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
+Skype pour Business Server prend en charge plusieurs modes de haute disponibilité pour vos serveurs principaux, y compris la mise en miroir de base de données. Pour plus d'informations, reportez-vous à la rubrique [Plan for high availability and disaster recovery in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
   
 > [!NOTE]
 > Groupes de disponibilité AlwaysOn ne sont pas pris en charge avec les serveurs de conversation permanente. 

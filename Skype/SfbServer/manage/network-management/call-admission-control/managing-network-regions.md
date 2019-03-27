@@ -1,5 +1,6 @@
 ---
 title: Gestion des régions réseau
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Région réseau * sont les concentrateurs réseau ou des dorsales principales utilisées dans la configuration de contournement des médias, E9-1-1 et contrôle d’admission des appels appel.
-ms.openlocfilehash: 3fe6707e6949fa47a9cc5e96703e06132ed8cb2f
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: ea574fe981af679e4d841d786daf04460d1fb7c3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223310"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877628"
 ---
-# <a name="managing-network-regions-in-skype-for-business-server"></a>Gestion des régions réseau dans Skype pour Business Server
+# <a name="managing-network-regions-in-skype-for-business-server"></a>Gestion des régions réseau dans Skype Entreprise Server
 
 *Régions réseau* sont les concentrateurs réseau ou des dorsales principales utilisées dans la configuration de contournement des médias, E9-1-1 et contrôle d’admission des appels appel. Utilisez les procédures suivantes pour afficher, créer ou modifier des régions réseau. Par exemple, si vous avez déjà créé des régions réseau pour une fonctionnalité de voix, il est inutile créer de nouvelles régions de réseau ; autres fonctionnalités voix entreprise utilisera ces mêmes zones réseau. Toutefois, il est possible que vous soyez obligé de modifier la définition d’une région réseau existante pour appliquer des paramètres spécifiques à une fonctionnalité. Par exemple, si vous avez créé des régions réseau pour le service E9-1-1 (régions n’exigeant aucun site central associé), puis que vous déployez le contrôle d’admission des appels, vous devez modifier les définitions des régions réseau afin de spécifier un site central. 
 
@@ -28,7 +29,7 @@ Une région réseau relie des différentes parties d’un réseau entre plusieur
 
 ### <a name="to-view-information-about-a-network-region-with-skype-for-business-server-control-panel"></a>Pour afficher des informations sur une région de réseau avec Skype pour Business Server Control Panel
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou disposant des mêmes droits) ou affecté au rôle CsAdministrator, ouvrez une session sur un ordinateur qui se trouve sur votre déploiement interne.
+1.  À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou est affecté au rôle CsAdministrator, ouvrez une session sur n’importe quel ordinateur dans votre déploiement interne.
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business. 
 
@@ -71,7 +72,7 @@ Une région réseau relie des différentes parties d’un réseau entre plusieur
 
 ### <a name="to-create-a-network-region"></a>Pour créer une région de réseau
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou disposant des mêmes droits) ou affecté au rôle CsAdministrator, ouvrez une session sur un ordinateur qui se trouve sur votre déploiement interne.
+1.  À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou est affecté au rôle CsAdministrator, ouvrez une session sur n’importe quel ordinateur dans votre déploiement interne.
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business. 
 
@@ -95,7 +96,7 @@ La table **sites associés** n’est pas utilisée pour la création d’une ré
 
 ### <a name="to-modify-a-network-region"></a>Pour modifier une région réseau
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou disposant des mêmes droits) ou affecté au rôle CsAdministrator, ouvrez une session sur un ordinateur qui se trouve sur votre déploiement interne.
+1.  À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou est affecté au rôle CsAdministrator, ouvrez une session sur n’importe quel ordinateur dans votre déploiement interne.
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business. 
 
@@ -118,7 +119,7 @@ Une région réseau relie des différentes parties d’un réseau entre plusieur
 
 ### <a name="to-delete-a-network-region"></a>Pour supprimer une région réseau
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou disposant des mêmes droits) ou affecté au rôle CsAdministrator, ouvrez une session sur un ordinateur qui se trouve sur votre déploiement interne.
+1.  À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou est affecté au rôle CsAdministrator, ouvrez une session sur n’importe quel ordinateur dans votre déploiement interne.
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business. 
 

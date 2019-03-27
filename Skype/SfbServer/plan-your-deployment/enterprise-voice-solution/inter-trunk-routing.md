@@ -1,5 +1,6 @@
 ---
 title: Routage entre les jonctions dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f687a548-1f2e-48ed-9745-a13dc1f3698f
 description: Découvrez comment Skype pour Business Server Enterprise Voice prend en charge le routage entre les jonctions.
-ms.openlocfilehash: c8c4232bbb4bb2007aa7d01bce1d26a7c5dd6901
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 281e722898655e463c3db281014421ae224c2cec
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886157"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892659"
 ---
 # <a name="inter-trunk-routing-in-skype-for-business-server"></a>Routage entre les jonctions dans Skype pour Business Server
  

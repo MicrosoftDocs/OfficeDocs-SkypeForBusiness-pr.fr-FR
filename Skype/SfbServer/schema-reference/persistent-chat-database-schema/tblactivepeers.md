@@ -1,5 +1,6 @@
 ---
 title: tblActivePeers
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -9,30 +10,31 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b50c3f4a-bab6-4cb9-b40e-016cf1a9c607
-description: tblActivePeers contient les connexions de pair à pair en cours entre les services de conversation.
-ms.openlocfilehash: 5dc585a8db67c1bbdcc1c3933018b1296fd75484
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Activepeers contient les connexions d’égal à égal actuelles entre les services de conversation.
+ms.openlocfilehash: e921d6faa4f7bcf3e3c6f6dc9859f4bd0db16bc5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884166"
 ---
 # <a name="tblactivepeers"></a>tblActivePeers
  
-tblActivePeers contient les connexions de pair à pair en cours entre les services de conversation.
+Activepeers contient les connexions d’égal à égal actuelles entre les services de conversation.
   
 **Colonnes**
 
-|**Colonne**|**Type de**|**Description**|
+|**Colonne**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|aplServerID  <br/> |int, non null  <br/> |ID du serveur qui a validé l’écriture.  <br/> |
-|aplPeerID  <br/> |int, non null  <br/> |ID de l’hôte auquel est connecté le serveur de validation.  <br/> |
+|aplServerID  <br/> |int, non null  <br/> |ID du serveur ayant publié l’entrée.  <br/> |
+|aplPeerID  <br/> |int, non null  <br/> |ID de l’homologue auquel est connecté le serveur de publication.  <br/> |
    
 **Clés**
 
 |**Colonne**|**Description**|
 |:-----|:-----|
 |\<aplServerID, aplPeerID\>  <br/> |Clé primaire.  <br/> |
-|aplServerID  <br/> |Clé étrangère avec la recherche dans la table de tblServerIdentity.serverID.  <br/> |
-|aplPeerID  <br/> |Clé étrangère avec la recherche dans la table de tblServerIdentity.serverID.  <br/> |
+|aplServerID  <br/> |Clé étrangère avec recherche dans la table tblServerIdentity.serverID.  <br/> |
+|aplPeerID  <br/> |Clé étrangère avec recherche dans la table tblServerIdentity.serverID.  <br/> |
    
 

@@ -1,5 +1,6 @@
 ---
 title: Modification de la topologie dans Skype Entreprise Server 2015
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -11,20 +12,20 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 47425ab1-5645-4d6f-b202-64bcce43e3ef
 description: Après avoir répondu aux questions initiales, vous pouvez modifier le nom de domaine complet et les adresses IP pour le site. Pour cela, sur la page Topologie globale, double-cliquez sur le site que vous souhaitez modifier.
-ms.openlocfilehash: 65b23bf764f802da0f535dcc86cfb5170481161b
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 75f2bd04f09b6638071faff1aa70dc8870d11fea
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "23263815"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895145"
 ---
-# <a name="edit-the-topology-in-skype-for-business-server-2015"></a>Modification de la topologie dans Skype Entreprise Server 2015
+# <a name="edit-the-topology-in-skype-for-business-server-2015"></a>Edit the topology in Skype for Business Server 2015
 
 Après avoir répondu aux questions initiales, vous pouvez modifier le nom de domaine complet et les adresses IP pour le site. Pour cela, sur la page **Topologie globale**, double-cliquez sur le site que vous souhaitez modifier.
 
 L’outil de planification affiche la topologie de site pour le site sélectionné. Le bas de la page du site comporte quatre onglets :
 
-![Outil de planification - Topologie de site](../../media/Planning_Tool_Site_Topology.png)
+![Topologie de Site d’outil de planification](../../media/Planning_Tool_Site_Topology.png)
 
 - Topologie du site - la page actuellement affichée avec une représentation visuelle de la topologie recommandée.
 
@@ -32,7 +33,7 @@ L’outil de planification affiche la topologie de site pour le site sélectionn
 
 - Ce rapport - le rapport contient un total de quatre rapports :
 
-     ![Page Rapport d’administrateur Edge](../../media/Planning_Tool_Summary_Report.png)
+     ![Page de rapport d’administrateur Edge](../../media/Planning_Tool_Summary_Report.png)
 
   - Rapport de synthèse - un rapport général des paramètres pour la configuration réseau du serveur Edge. Si vous calez les valeurs de la page **Diagramme du réseau de périmètre** sur les valeurs des adresses TCP/IP et des noms de domaine complets qui seront utilisées dans la topologie du déploiement, ces adresses et noms seront représentés ici. Sinon, les valeurs par défaut s’afficheront.
 
@@ -52,7 +53,7 @@ L’outil de planification affiche la topologie de site pour le site sélectionn
 
 L’essentiel du travail par un concepteur dans le Skype pour l’outil de planification de 2015 Business Server consiste à définir les entrées pour les adresses IP et les noms de domaine complets (FQDN) pour les écritures sur le réseau de tâches. Les informations entrées sur cette page s’exécute les rapports et autres informations contenues dans l’outil de planification.
 
-![Outil de planification - Diagramme réseau](../../media/Planning_Tool_Network_Diagram.png)
+![Diagramme de réseau de l’outil de planification](../../media/Planning_Tool_Network_Diagram.png)
 
 L’outil de planification crée un diagramme de réseau avec du texte par défaut pour les adresses IP et noms de domaine complets.
 
@@ -81,4 +82,4 @@ Pour enregistrer la conception de l’outil de planification, cliquez sur **fich
 ## <a name="see-also"></a>Voir aussi
 <a name="Edit_Network_diagram"> </a>
 
-[Modification de la conception](https://technet.microsoft.com/library/08f639ba-0e5f-4ae7-9191-c3d96c25b169.aspx)
+[Editing the Design](https://technet.microsoft.com/library/08f639ba-0e5f-4ae7-9191-c3d96c25b169.aspx)

@@ -1,5 +1,6 @@
 ---
-title: Ajouter un Pool directeur
+title: Ajouter un pool directeur
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 751ead48-b97f-4c6f-ba6b-14d446473658
 description: Pour définir le nom de domaine complet du pool directeur, sélectionnez un pool de plusieurs ordinateurs qui se compose de deux ou plusieurs directeurs dans un pool à charge équilibrée, ou un pool à ordinateur unique. Vous devez également taper le nom de domaine complet (FQDN) qui sera utilisé pour se connecter au pool directeur ou nom de domaine complet du directeur unique. Pour un pool d’ordinateurs directeur, il s’agit de l’entrée de nom de domaine DNS (Domain Name System) pour l’adresse IP virtuelle de l’équilibrage de charge matérielle ou l’entrée DNS partagée pour l’équilibrage de charge DNS.
-ms.openlocfilehash: 7ba0efad72094fba880058e81ff701453d9e8252
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 8dfccfdac8ee2651c935b626f2deb0e688488b54
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20992286"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879271"
 ---
-# <a name="add-director-pool"></a>Ajouter un Pool directeur
+# <a name="add-director-pool"></a>Ajouter un pool directeur
  
 Pour **définir le nom de domaine complet du pool directeur**, sélectionnez un **pool de plusieurs ordinateurs** qui se compose de deux ou plusieurs directeurs dans un pool à charge équilibrée ou un **seul ordinateur**. Vous devez également taper le nom de domaine complet (FQDN) qui sera utilisé pour se connecter au pool directeur ou nom de domaine complet du directeur unique. Pour un pool d’ordinateurs directeur, il s’agit de l’entrée de nom de domaine DNS (Domain Name System) pour l’adresse IP virtuelle de l’équilibrage de charge matérielle ou l’entrée DNS partagée pour l’équilibrage de charge DNS.
   

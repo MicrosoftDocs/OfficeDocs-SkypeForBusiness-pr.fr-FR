@@ -1,5 +1,6 @@
 ---
 title: User Activity Report dans Skype pour Business Server 25
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3aa6fef2-ea02-4f0f-93e8-fa2e0a953d79
 description: 'Résumé : Découvrez le User Activity Report dans Skype pour Business Server.'
-ms.openlocfilehash: eecdd9879bf4fbf32c98505684631041332b5e2f
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 3fb69e68052ae5f3b1938de95291fb7fa5a3ac88
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374765"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884697"
 ---
 # <a name="user-activity-report-in-skype-for-business-server"></a>User Activity Report dans Skype pour Business Server
 
@@ -30,13 +31,13 @@ Si vous faites cela, le rapport d’activité utilisateur retourne des informati
 
 - **Ken** burg@litwareinc.com
 
-- **Ken**. Sanchez@litwareinc.com
+- **Ken**.Sanchez@litwareinc.com
 
 - **Ken** nedy@litwareinc.com
 
 Pour que les informations uniquement Ken Myer est retourné, tapez son URI complète (Ken.Myer@litwareinc.com) dans la zone de recherche ou au moins suffisamment type de Ken URI à lui distinguer d’autres utilisateurs de votre organisation. Par exemple :
 
-Ken.My
+Ken.my
 
 ## <a name="to-access-the-user-activity-report"></a>Pour accéder au rapport d’activité de l’utilisateur
 
@@ -121,7 +122,7 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 | **Type d’activité** <br/>    | Type d’activité. Sélectionnez l’une des options suivantes : <br/>  [Tous] <br/>  Égal à égal <br/>  Conférence <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | **Modalité** <br/>         | La modalité disponible varie selon le type d’activité sélectionné. Si le Type d’activité est égal à égal, vous pouvez sélectionner la messagerie instantanée ; Transfert de fichiers ; Application de partage ; Voix ; ou vidéo en tant que la modalité.  <br/> Si le type d’activité est Conférence, vous pouvez sélectionner messagerie instantanée, conférence web, partage d’application; conférence audio/vidéo ou téléconférence.  <br/>                                                                                                                                                                                                                                            |
 | **Catégorie de session** <br/> | Indique si l’activité en question a réussi ou échoué. Sélectionnez l’une des options suivantes : <br/>  [Tous] <br/>  Opération réussie <br/>  Échec attendu <br/>  Échec inattendu <br/>  Un « échec attendu » est un échec prévisible. Par exemple, si un utilisateur a défini son statut sur Ne pas déranger, les appels passés à cet utilisateur échouent. Un « échec inattendu » est un échec qui se produit dans un système sain. Par exemple, un appel n’est pas censé s’interrompre lorsque l’appelant est mis en attente. Si cela se produit, l’incident est marqué comme un échec inattendu. <br/> |
-| **Préfixe URI de l’utilisateur** <br/>  | Adresse SIP pour l’utilisateur. Pour afficher exclusivement les enregistrements de l’utilisateur Ken Myer, vous devez entrer l’adresse SIP de Ken Myer. Par exemple :  <br/> SIP:kenmyer@litwareinc.com  <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| **Préfixe URI de l’utilisateur** <br/>  | Adresse SIP pour l’utilisateur. Pour afficher exclusivement les enregistrements de l’utilisateur Ken Myer, vous devez entrer l’adresse SIP de Ken Myer. Par exemple :  <br/> sip:kenmyer@litwareinc.com  <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 
 ## <a name="metrics-for-peer-to-peer-sessions"></a>Mesures pour sessions P2P
 

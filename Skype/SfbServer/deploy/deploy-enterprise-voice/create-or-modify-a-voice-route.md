@@ -1,5 +1,6 @@
 ---
 title: Créer ou modifier un itinéraire de communications vocales dans Skype pour les entreprises
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d189057d-cc9d-4622-9d10-f5385d703faf
 description: 'Résumé : Apprenez à créer ou modifier un itinéraire de communications vocales dans Skype pour Business Server à l’aide de la Skype pour le panneau de configuration serveur Business.'
-ms.openlocfilehash: d3265f3864e01391598b11ab5466c96f41a123ae
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 166b9635d9ddb50ec65b7cbc4d55aa92c19b55e0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886353"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888569"
 ---
 # <a name="create-or-modify-a-voice-route-in-skype-for-business"></a>Créer ou modifier un itinéraire de communications vocales dans Skype pour les entreprises
  
@@ -57,9 +58,9 @@ ms.locfileid: "23886353"
 11. Pour associer une ou plusieurs utilisations du réseau téléphonique commuté (RTC) à l’itinéraire des communications vocales, cliquez sur **Sélectionner** et sélectionnez un enregistrement dans la liste des enregistrements d’utilisation RTC définis pour votre déploiement de Voix Entreprise.
     
     > [!NOTE]
-    > Pour afficher les propriétés de chacun des enregistrements d’utilisation PSTN disponibles, voir [PSTN afficher les enregistrements d’utilisation dans Skype pour les entreprises](view-pstn-usage-records.md). > Pour créer ou modifier des enregistrements d’utilisation PSTN, voir [créer ou modifier une stratégie de voix et configurer des enregistrements d’utilisation PSTN dans Skype pour les entreprises](voice-policy-and-pstn-usage-records.md)
+    > Pour afficher les propriétés de chacun des enregistrements d’utilisation PSTN disponibles, voir [PSTN afficher les enregistrements d’utilisation dans Skype pour les entreprises](view-pstn-usage-records.md). > pour créer ou modifier des enregistrements d’utilisation PSTN, voir [créer ou modifier une stratégie de voix et configurer des enregistrements d’utilisation PSTN dans Skype pour les entreprises](voice-policy-and-pstn-usage-records.md)
   
-12. Organisez les enregistrements d’utilisation RTC pour obtenir des performances optimales. Pour modifier la position d’un enregistrement dans la liste, mettez en surbrillance le nom de l’enregistrement et cliquez sur la flèche vers le bas.
+12. Organisez les enregistrements d’utilisation RTC pour bénéficier de performances optimales. Pour modifier la position d’un enregistrement dans la liste, mettez en surbrillance le nom de l’enregistrement et cliquez sur la flèche vers le bas.
     
     > [!NOTE]
     > Contrairement à une stratégie de voix, l’ordre dans lequel les enregistrements d’utilisation RTC sont répertoriés dans l’itinéraire des communications vocales n’a pas d’importance. Nous vous recommandons, toutefois, d’organiser la liste par fréquence d’utilisation. Par exemple : RedmondLocal, RedmondLongDist, RedmondInternational, RedmondBackup. (Skype pour Business Server parcourt la liste à partir du haut vers le bas.) 
@@ -91,7 +92,7 @@ ms.locfileid: "23886353"
     
    - Pour utiliser l’outil **Créer un modèle à suivre** afin de générer une expression régulière, entrez les valeurs comme suit. Vous pouvez spécifier deux types de correspondance de modèles :
     
-   - **Chiffres de début des numéros que vous souhaitez autoriser** : entrez les valeurs de préfixe que cet itinéraire doit prendre en compte (y compris le signe « + » à gauche, si nécessaire). Tapez, par exemple, +425, puis cliquez sur **Ajouter**. Recommencez cette procédure pour chaque valeur de préfixe à inclure dans l’itinéraire.
+   - **Démarrage des chiffres pour les numéros que vous souhaitez autoriser**: entrez des valeurs de préfixe cet itinéraire doit prendre en charge (y compris le signe + si nécessaire). Par exemple, tapez +425, puis sur **Ajouter**. Répétez cette procédure pour chaque valeur de préfixe que vous souhaitez inclure dans l’itinéraire.
     
    - **Exceptions**: Si vous souhaitez spécifier une ou plusieurs exceptions pour une valeur de préfixe, le préfixe de mettre en surbrillance et cliquez sur **Exceptions**. Tapez dans une ou plusieurs valeurs pour la mise en correspondance des modèles que vous *not* que vous souhaitez acheminer ce pour prendre en charge. Par exemple, pour exclure les numéros commençant par +425237 de l’itinéraire, entrez une valeur de + 425237 dans le champ **Exceptions** , puis cliquez sur **OK**.
     
@@ -104,9 +105,9 @@ ms.locfileid: "23886353"
 9. Pour associer une ou plusieurs utilisations PSTN à l’itinéraire de communications vocales, cliquez sur **Sélectionner** et choisissez un enregistrement dans la liste des enregistrements d’utilisation PSTN qui ont été définies pour votre déploiement d’Enterprise Voice.
     
     > [!NOTE]
-    > Pour afficher les propriétés de chacun des enregistrements d’utilisation PSTN disponibles, voir [PSTN afficher les enregistrements d’utilisation dans Skype pour les entreprises](view-pstn-usage-records.md). > Pour créer ou modifier des enregistrements d’utilisation PSTN, voir [créer ou modifier une stratégie de voix et configurer des enregistrements d’utilisation PSTN dans Skype pour les entreprises](voice-policy-and-pstn-usage-records.md). 
+    > Pour afficher les propriétés de chacun des enregistrements d’utilisation PSTN disponibles, voir [PSTN afficher les enregistrements d’utilisation dans Skype pour les entreprises](view-pstn-usage-records.md). > pour créer ou modifier des enregistrements d’utilisation PSTN, voir [créer ou modifier une stratégie de voix et configurer des enregistrements d’utilisation PSTN dans Skype pour les entreprises](voice-policy-and-pstn-usage-records.md). 
   
-10. Organisez les enregistrements d’utilisation RTC pour obtenir des performances optimales. Pour modifier la position d’un enregistrement dans la liste, mettez en surbrillance le nom de l’enregistrement et cliquez sur la flèche vers le bas.
+10. Organisez les enregistrements d’utilisation RTC pour bénéficier de performances optimales. Pour modifier la position d’un enregistrement dans la liste, mettez en surbrillance le nom de l’enregistrement et cliquez sur la flèche vers le bas.
     
     > [!NOTE]
     > Contrairement à une stratégie de voix dans laquelle l’ordre d’apparition des enregistrements d’utilisation RTC est important, l’ordre des enregistrements d’utilisation RTC dans un itinéraire des communications vocales n’est pas significatif. Il est toutefois recommandé d’organiser la liste par fréquence d’utilisation, par exemple : RedmondLocal, RedmondLongDist, RedmondInternational, RedmondBackup. (Skype pour Business Server parcourt la liste à partir du haut vers le bas.) 

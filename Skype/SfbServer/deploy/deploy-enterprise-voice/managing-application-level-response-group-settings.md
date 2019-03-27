@@ -1,5 +1,6 @@
 ---
 title: Gestion des paramètres de Response Group au niveau de l’application dans Skype pour les entreprises
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,28 +14,28 @@ ms.collection:
 ms.custom: ''
 ms.assetid: aab749a1-fa2d-4ce8-a6c6-ebcfa37ce02a
 description: Gestion des paramètres de Response Group au niveau des applications, telles que les paramètres attente musicale et de rappel, dans Skype pour Business Server Enterprise Voice.
-ms.openlocfilehash: 4a44ee8988925025b81eac6bd1ee340a3bbef81b
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: ceb59b041918836f00f2a568ab8f93f638ecdac5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23890942"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873695"
 ---
 # <a name="managing-application-level-response-group-settings-in-skype-for-business"></a>Gestion des paramètres de Response Group au niveau de l’application dans Skype pour les entreprises
  
 Gestion des paramètres de Response Group au niveau des applications, telles que les paramètres attente musicale et de rappel, dans Skype pour Business Server Enterprise Voice.
   
-Paramètres de niveau application pour l’application Response Group incluent la configuration d’attente musicale par défaut, le fichier audio du attente musicale par défaut, la période de grâce de rappel de l’agent et la configuration de contexte d’appel. Vous pouvez définir un seul ensemble de paramètres de niveau application par pool. Pour afficher les paramètres de niveau application, utilisez l’applet de commande **Get-CsRgsConfiguration** . Pour modifier les paramètres de niveau application, utilisez l’applet de commande **Set-CsRgsConfiguration** .
+Paramètres de niveau application pour l’application Response Group incluent la configuration d’attente musicale par défaut, le fichier audio du attente musicale par défaut, la période de grâce de rappel de l’agent et la configuration de contexte d’appel. Vous pouvez définir un seul ensemble de paramètres de niveau application par pool. Pour afficher les paramètres de niveau application, utilisez l’applet de commande **Get-CsRgsConfiguration**. Pour modifier les paramètres de niveau application, utilisez l’applet de commande **Set-CsRgsConfiguration**.
   
 L’attente musicale par défaut est lue lorsqu’un appel est mis en attente uniquement si aucune attente musicale personnalisée n’est définie. Le contexte de l’appel est disponible uniquement pour les files d’attentes assignées à des flux de travail interactifs. Si le contexte de l’appel est activé, un agent peut afficher des informations telles que le délai d’attente de l’appelant ou des questions et réponses de flux de travail lorsqu’un appel est reçu.
   
 ### <a name="to-modify-response-group-application-level-settings"></a>Pour modifier les paramètres de niveau application Response Group
 
-1. Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre d’un des rôles d’administrateur prédéfinis qui prennent en charge Response Group.
+1. Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre de l’un des rôles d’administration prédéfinis qui prennent en charge Response Group.
     
-2. Démarrez Skype Entreprise Server Management Shell : cliquez successivement sur **Démarrer**, **Tous les programmes**, **Skype Entreprise 2015**, puis sur **Skype Entreprise Server Management Shell**.
+2. Démarrez le Skype pour Business Server Management Shell : cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Skype pour Business 2015**, puis cliquez sur **Skype pour Business Server Management Shell**.
     
-3. À partir de la ligne de commande, exécutez la commande suivante :
+3. Dans la ligne de commande, exécutez la commande suivante :
     
    ```
    Set-CsRgsConfiguration -Identity <name of service hosting Response Group> [-AgentRingbackGracePeriod <# seconds until call returns to agent after declined>] [-DefaultMusicOnHoldFile <audio file>] [-DisableCallContext <$true | $false>]

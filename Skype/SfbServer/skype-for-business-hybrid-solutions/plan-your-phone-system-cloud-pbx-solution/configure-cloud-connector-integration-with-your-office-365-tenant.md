@@ -1,5 +1,6 @@
 ---
 title: Configurer l’intégration Cloud Connector avec votre client Office 365
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0e2f2395-b890-4d16-aa2d-99d52438b89c
 description: Découvrez comment configurer l’intégration de nuage connecteur avec votre client Office 365.
-ms.openlocfilehash: 837775fea5a128dbbb8d143f15064e08d9267756
-ms.sourcegitcommit: e53749714dcde9f7b184d5ef554bffbc77f54267
+ms.openlocfilehash: 52b66d7870f8416b1dda1a3b5f34f8f028f65557
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28729378"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877894"
 ---
 # <a name="configure-cloud-connector-integration-with-your-office-365-tenant"></a>Configure Cloud Connector integration with your Office 365 tenant
  
@@ -42,7 +43,7 @@ Si vous utilisez TLS entre les serveurs de médiation et les passerelles, vous d
     
 3. Importez le certificat de l’AC racine pour le certificat délivré pour votre passerelle sur les serveurs de médiation. Si vous avez besoin d’obtenir un certificat SSL pour la passerelle, vous pouvez utiliser le service de certification de l’ordinateur ActivePSTNDirectory du CloudPSTNConnector comme suit :
     
-   - Modifier le modèle de serveur Web existant pour permettre aux utilisateurs authentifiés d’inscrire ou créer un nouveau modèle de serveur Web pour configurer d’autres propriétés et permettre aux utilisateurs authentifiés de s’inscrire. Pour obtenir des instructions détaillées, reportez-vous à la page [Modèles de certificats](https://technet.microsoft.com/en-us/library/cc730705.aspx).
+   - Modifier le modèle de serveur Web existant pour permettre aux utilisateurs authentifiés d’inscrire ou créer un nouveau modèle de serveur Web pour configurer d’autres propriétés et permettre aux utilisateurs authentifiés de s’inscrire. Pour obtenir des instructions détaillées, voir [Modèles de certificats](https://technet.microsoft.com/en-us/library/cc730705.aspx).
     
    - Demandez un certificat à l’aide du composant logiciel enfichable Certificats, en sélectionnant le modèle de serveur Web que vous avez autorisé. Assurez-vous d’indiquer le nom commun dans la section Sujet et le nom DNS dans la section Nom alternatif avec le FQDN de la passerelle, et confirmez sur la Clé privée que Rendre la clé privée exportable est bien sélectionné dans les options de clé. 
     
@@ -54,7 +55,7 @@ Assurez-vous d’avoir accompli les étapes pour mettre à jour votre domaine da
   
 ## <a name="add-dns-records-in-office-365-for-your-edge"></a>Ajouter des enregistrements dans Office 365 pour Edge
 
-Ajoutez les enregistrements DNS suivants à votre client Office 365. Pour obtenir des informations sur l'ajout d'enregistrements DNS à votre client Office 365, consultez [Ajouter ou modifier des enregistrements DNS personnalisés dans Office 365](https://support.office.com/en-us/article/Add-or-edit-custom-DNS-records-in-Office-365-AF00A516-DD39-4EDA-AF3E-1EAF686C8DC9?ui=en-US&amp;rs=en-US&amp;ad=US&amp;fromAR=1).
+Ajoutez les enregistrements DNS suivants à votre client Office 365. Pour plus d’informations sur la façon d’ajouter des enregistrements DNS pour votre client Office 365, voir [Ajouter ou modifier des enregistrements DNS personnalisés dans Office 365](https://support.office.com/en-us/article/Add-or-edit-custom-DNS-records-in-Office-365-AF00A516-DD39-4EDA-AF3E-1EAF686C8DC9?ui=en-US&amp;rs=en-US&amp;ad=US&amp;fromAR=1).
   
 1. Ajouter un enregistrement DNS A pour le serveur Edge d’accès.
     
@@ -66,7 +67,7 @@ Ajoutez les enregistrements DNS suivants à votre client Office 365. Pour obten
 
 Pour configurer la connectivité hybride entre votre Skype pour le déploiement dans le nuage connecteur Édition et votre client Office 365, exécutez l’applet de commande suivante dans une session PowerShell distante. Pour savoir comment établir une session PowerShell distante, consultez : [configuration de votre ordinateur pour Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362831%28v=ocs.15%29.aspx).
   
-L’applet de commande définit le nom de domaine complet du serveur dʼaccès Edge. Dans la première des commandes, le \<externe Access Edge FQDN\> doit être l’un pour le rôle de serveur Edge d’accès SIP. Par défaut, il doit s’agir ap.\<nom de domaine\>.
+L’applet de commande définit le FQDN externe du serveur Edge d’accès. Dans la première des commandes, le \<externe Access Edge FQDN\> doit être l’un pour le rôle de serveur Edge d’accès SIP. Par défaut, il doit s’agir ap.\<nom de domaine\>.
   
 ```
 Set-CsTenantHybridConfiguration -PeerDestination <External Access Edge FQDN> -UseOnPremDialPlan $false
@@ -88,7 +89,7 @@ Si vous utilisez TLS entre les serveurs de médiation et les passerelles, vous d
     
 3. Importez le certificat de l’AC racine pour le certificat délivré pour votre passerelle sur les serveurs de médiation. Si vous avez besoin d’obtenir un certificat SSL pour la passerelle, vous pouvez utiliser le service de certification de l’ordinateur ActivePSTNDirectory du CloudPSTNConnector comme suit :
     
-   - Modifiez le modèle Serveur web existant pour permettre aux utilisateurs authentifiés de s’inscrire ou de créer un modèle Serveur web pour configurer d’autres propriétés et permettre aux utilisateurs authentifiés de s’inscrire. Pour obtenir des instructions détaillées, reportez-vous à la page [Modèles de certificats](https://technet.microsoft.com/library/cc730705.aspx).
+   - Modifiez le modèle du serveur Web existant pour autoriser les utilisateurs authentifiés à s’inscrire, ou créez un nouveau modèle de serveur Web pour configurer d’autres propriétés et autoriser les utilisateurs authentifiés à s’inscrire. Pour obtenir des instructions détaillées, voir [Modèles de certificats](https://technet.microsoft.com/library/cc730705.aspx).
     
    - Demandez un certificat à l’aide du composant logiciel enfichable Certificats, en sélectionnant le modèle de serveur Web que vous avez autorisé. Assurez-vous d’indiquer le nom commun dans la section Sujet et le nom DNS dans la section Nom alternatif avec le FQDN de la passerelle, et confirmez sur la Clé privée que Rendre la clé privée exportable est bien sélectionné dans les options de clé. 
     
@@ -111,9 +112,9 @@ Après avoir ajouté vos utilisateurs vers Office 365, activer leur compte de sy
   ```
 
     > [!NOTE]
-    > Vous pouvez également spécifier l’identité d’un utilisateur par son adresse SIP, son nom d’utilisateur principal (UPN), son nom de domaine et nom d’utilisateur (domaine\nom d’utilisateur) et le nom d’affichage dans Active Directory (« Bob Kelly »).  
+    > Vous pouvez également spécifier l’identité d’un utilisateur par son adresse SIP, nom d’utilisateur principal (UPN), nom de domaine et nom d’utilisateur (domaine\nom d’utilisateur) et le nom d’affichage dans Active Directory (« Bob Kelly »).  
   
-Vous pouvez vérifier que les utilisateurs ont été ajoutés et activés à l’aide du script suivant :
+Vous pouvez ensuite vérifier que les utilisateurs ont été ajoutés et activés grâce au script suivant :
   
 ```
 # Input the user name you want to verify
@@ -129,9 +130,9 @@ $user.HostedVoiceMail
 $user.VoicePolicy
 ```
 
-Vous devrez décider si vos utilisateurs peuvent passer des appels internationaux. Par défaut, les appels internationaux sont activés. Vous pouvez désactiver ou activer la numérotation internationale pour des utilisateurs à l’aide du centre d’administration Skype Entreprise Online.
+Vous devrez décider d'autoriser ou non les utilisateurs à passer des appels internationaux. Par défaut, les appels internationaux sont activés. Vous pouvez activer ou désactiver les appels internationaux pour des utilisateurs grâce au centre d’administration Skype Entreprise en ligne.
   
-Pour désactiver la numération internationale pour des utilisateurs spécifiques, exécutez l’applet de commande suivante dans le module Skype Entreprise Online pour PowerShell :
+Pour désactiver les appels internationaux au niveau de l’utilisateur, exécutez l’applet de commande suivante dans PowerShell de Skype Entreprise Online :
   
 ```
 Grant-CsVoiceRoutingPolicy -PolicyName InternationalCallsDisallowed -Identity $user

@@ -1,5 +1,6 @@
 ---
 title: Gérer le mappage des clés pour les commandes DTMF dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f91e80ee-a587-4a1b-ac8f-12fa102c098c
 description: 'Résumé : Découvrez comment gérer le mappage des clés des commandes dual-tone multi-frequency (DTMF) dans Skype pour Business Server.'
-ms.openlocfilehash: c745a621704c677ffb36acb4667021e9734ca398
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 33ab031e6032b6246dd637bc55c9ec6b600f0c82
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374877"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898070"
 ---
 # <a name="manage-key-mapping-for-dtmf-commands-in-skype-for-business-server"></a>Gérer le mappage des clés pour les commandes DTMF dans Skype pour Business Server
  
@@ -30,7 +31,7 @@ Lorsque vous créez des paramètres DTMF pour des sites, les paramètres de site
 
 1. Ouvrez une session sur l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins  ou du rôle Cs-ServerAdministrator  ou CsAdministrator.
     
-2. Démarrez Skype Entreprise Server Management Shell : cliquez successivement sur **Démarrer**, **Tous les programmes**, **Skype Entreprise 2015**, puis sur **Skype Entreprise Server Management Shell**.
+2. Démarrez le Skype pour Business Server Management Shell : cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Skype pour Business 2015**, puis cliquez sur **Skype pour Business Server Management Shell**.
     
 3. Pour afficher les paramètres DTMF utilisés pour la conférence rendez-vous, exécutez la commande ci-dessous dans l’invite de commandes :
     

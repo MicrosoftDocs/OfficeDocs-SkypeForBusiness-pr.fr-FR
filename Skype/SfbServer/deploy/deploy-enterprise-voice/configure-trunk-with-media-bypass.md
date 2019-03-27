@@ -1,5 +1,6 @@
 ---
 title: Configurer une jonction avec contournement de média dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 99d729ea-5a4c-4ff2-a4a3-93a24368da6d
 description: 'Résumé : Configurez une jonction avec contournement de média activé pour Skype pour Business Server. Cela vous permet de réduire le nombre de serveurs de médiation, en supposant que votre fournisseur de jonction SIP prend en charge.'
-ms.openlocfilehash: dd206fa2850219c3737905994fb81bf28d981ea7
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: e63ec28f863f93eed03eb4a1d2955c90434cc6ce
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373084"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892687"
 ---
 # <a name="configure-a-trunk-with-media-bypass-in-skype-for-business-server"></a>Configurer une jonction avec contournement de média dans Skype pour Business Server
 
@@ -52,7 +53,7 @@ Une configuration de jonction, décrite ci-dessous, regroupe un ensemble de para
    - **Jonction de pool**: choisissez le nom du segment auquel s’applique cette configuration de jonction. Cette jonction peut être la jonction racine ou les jonctions supplémentaires définies dans le Générateur de topologie. Dans **Sélectionner un Service**, cliquez sur **OK**. Notez que si une configuration de tronçon a déjà été créée pour une jonction spécifique, la jonction n’apparaît pas dans la zone **Sélectionner un Service**.
 
       > [!NOTE]
-      > Une fois que l’étendue de la configuration de jonction est sélectionnée, elle ne peut plus être modifiée. > Le champ **nom** est prérempli avec le nom d’associé site de la configuration jonction ou service et ne peut pas être modifié.
+      > Une fois que l’étendue de la configuration de jonction est sélectionnée, elle ne peut plus être modifiée. > le champ **nom** est prérempli avec le nom d’associé site de la configuration jonction ou service et ne peut pas être modifié.
 
 4. Spécifiez une valeur dans **Nombre maximal de boîtes de dialogue anticipées prises en charge**. Il s’agit du nombre maximal de réponses dirigées qu’une passerelle RTC, IP-PBX ou qu’un contrôleur SBC (Session Border Controller) d’un fournisseur de services de téléphonie et Internet (ITSP) peut recevoir à une INVITATION envoyée au serveur de médiation. La valeur par défaut est 20.
 
@@ -77,7 +78,7 @@ Une configuration de jonction, décrite ci-dessous, regroupe un ensemble de para
 8. Si l’homologue de jonction prend en charge la réception de demandes SIP REFER à partir du serveur de médiation, activez la case à cocher **permettre l’envoi de faire référence à la passerelle** .
 
     > [!NOTE]
-    > Si vous désactivez cette option alors que l’option **Activer la déviation du trafic multimédia** est sélectionnée, des paramètres supplémentaires sont requis. Si l’homologue de jonction ne prend pas en charge réception des demandes SIP REFER à partir de la déviation du trafic de serveur de médiation et les médias est activé, vous devez également exécuter l’applet de commande **Set-CsTrunkConfiguration** pour désactiver RTCP pour les appels actifs et en attente pour prendre en charge les conditions adéquates pour le contournement de média. En guise d’alternative, vous pouvez sélectionner **Activer la référence avec un contrôle d’appel tiers** si vous souhaitez que les appels transférés soient soumis à la déviation du trafic multimédia et que la passerelle ne prend pas en charge les demandes SIP (Session Initiation Protocol) REFER.
+    > Si vous désactivez cette option alors que l’option **Activer la déviation du trafic multimédia** est sélectionnée, des paramètres supplémentaires sont requis. Si l’homologue de jonction ne prend pas en charge la réception des requêtes SIP (Session Initiation Protocol) REFER du serveur de médiation et si la déviation du trafic multimédia est activée, vous devez également exécuter l’applet de commande **Set-CsTrunkConfiguration** pour désactiver le RTCP pour les appels en cours ou en attente afin de prendre en charge les conditions appropriées à la déviation du trafic multimédia. En guise d’alternative, vous pouvez sélectionner **Activer la référence avec un contrôle d’appel tiers** si vous souhaitez que les appels transférés soient soumis à la déviation du trafic multimédia et que la passerelle ne prend pas en charge les demandes SIP (Session Initiation Protocol) REFER.
 
 9. (Facultatif) Pour permettre le routage interjonction, associez et configurez les enregistrements d’utilisation RTC à cette configuration de jonction. Les utilisations PSTN associées à cette configuration de jonction seront appliquées pour tous les appels entrants par le biais de la jonction qui n’est pas provenant d’un Skype pour le point de terminaison Business Server. Pour gérer les enregistrements d’utilisation RTC associés à une configuration de jonction, appliquez l’une des méthodes suivantes :
 
@@ -125,7 +126,7 @@ Une configuration de jonction, décrite ci-dessous, regroupe un ensemble de para
      > [!IMPORTANT]
      > Il est important d’associer des enregistrements d’utilisation PSTN en fonction de l’homologue du serveur de médiation qui est associé à la jonction en cours de configuration. Si l’homologue du serveur de médiation est une passerelle PSTN ou un contrôleur de Session en périphérie (SBC), il est fortement recommandé que la configuration de jonction n’est pas associée à un enregistrement d’utilisation PSTN qui achemine vers une destination PSTN ou tous les autres systèmes en aval connecté via Skype pour un serveur d’entreprise.
 
-10. Organisez les enregistrements d’utilisation RTC pour obtenir des performances optimales. Pour modifier la position d’un enregistrement dans la liste, sélectionnez l’enregistrement d’utilisation PSTN et cliquez sur l’ou les flèches vers le bas.
+10. Organisez les enregistrements d’utilisation RTC pour bénéficier de performances optimales. Pour modifier la position d’un enregistrement dans la liste, sélectionnez l’enregistrement d’utilisation PSTN et cliquez sur l’ou les flèches vers le bas.
 
     > [!IMPORTANT]
     > L’ordre des enregistrements d’utilisation RTC dans la liste de la configuration de jonction a son importance. Skype pour Business Server parcourt la liste du haut vers le bas.
@@ -144,9 +145,9 @@ Une configuration de jonction, décrite ci-dessous, regroupe un ensemble de para
 
     - Pour définir une nouvelle règle de conversion et l’associer à la jonction, cliquez sur **Nouvelle**. Pour plus d’informations sur les règles de traduction, consultez [règles de traduction dans Skype pour Business Server](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md).
 
-    - Pour modifier une règle de conversion déjà associée à la jonction, cliquez sur le nom de la règle, puis sur **Afficher les détails**.
+    - Pour modifier une règle de conversion déjà associée à la jonction, sélectionnez le nom de la règle, puis sur **Afficher les détails**.
 
-    - Pour copier une règle de conversion existante à utiliser comme point de départ pour définir une nouvelle règle, sélectionnez le nom de la règle et cliquez sur **Copier**, puis sur **Coller**.
+    - Pour copier une règle de conversion existante à utiliser comme point de départ pour définir une nouvelle règle, sélectionnez le nom de la règle, sur **Copier**, puis sur **Coller**.
 
     - Pour supprimer une règle de conversion de la jonction, sélectionnez le nom de la règle et cliquez sur **Supprimer**.
 
@@ -159,9 +160,9 @@ Une configuration de jonction, décrite ci-dessous, regroupe un ensemble de para
 
     - Pour définir une nouvelle règle de conversion et l’associer à la jonction, cliquez sur **Nouvelle**. Pour plus d’informations sur les règles de traduction, consultez [règles de traduction dans Skype pour Business Server](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md).
 
-    - Pour modifier une règle de conversion déjà associée à la jonction, cliquez sur le nom de la règle, puis sur **Afficher les détails**.
+    - Pour modifier une règle de conversion déjà associée à la jonction, sélectionnez le nom de la règle, puis sur **Afficher les détails**.
 
-    - Pour copier une règle de conversion existante à utiliser comme point de départ pour définir une nouvelle règle, sélectionnez le nom de la règle et cliquez sur **Copier**, puis sur **Coller**.
+    - Pour copier une règle de conversion existante à utiliser comme point de départ pour définir une nouvelle règle, sélectionnez le nom de la règle, sur **Copier**, puis sur **Coller**.
 
     - Pour supprimer une règle de conversion de la jonction, sélectionnez le nom de la règle et cliquez sur **Supprimer**.
 

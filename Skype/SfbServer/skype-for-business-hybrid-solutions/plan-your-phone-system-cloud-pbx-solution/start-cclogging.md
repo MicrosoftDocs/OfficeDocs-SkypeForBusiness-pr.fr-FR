@@ -1,5 +1,6 @@
 ---
-title: Démarrer-CcLogging
+title: Start-CcLogging
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,13 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 01b62253-2aaf-43ed-9d63-804e31edc522
 description: "L’applet de commande Start-CcLogging crée le journal d'appels entrants et sortants pour une appliance de la version Cloud Connector de Skype Entreprise. "
-ms.openlocfilehash: 26056f06ed8d7d3982729e9caab69a01eca189d6
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 2a7d859851ae8433bde0b86f797e257de29f74f4
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892503"
 ---
-# <a name="start-cclogging"></a>Démarrer-CcLogging
+# <a name="start-cclogging"></a>Start-CcLogging
  
 L’applet de commande Start-CcLogging crée le journal d'appels entrants et sortants pour une appliance de la version Cloud Connector de Skype Entreprise.  
   
@@ -42,7 +44,7 @@ Start-CcLogging
 ## <a name="detailed-description"></a>Description détaillée
 <a name="DetailedDescription"> </a>
 
-L’applet de commande Start-CcLogging offre un moyen pour les administrateurs lancer la consignation des appels entrants et sortants sur une appliance de connecteur de nuage. Par défaut, le journal est automatiquement interrompu après quatre heures.
+L’applet de commande Start-CcLogging fournit un moyen pour les administrateurs lancer la consignation des appels entrants et sortants dans une solution de nuage connecteur. Par défaut, le journal est automatiquement interrompu après quatre heures.
   
 ## <a name="input-types"></a>Types d’entrées
 <a name="InputTypes"> </a>
@@ -57,7 +59,7 @@ Aucun
 ## <a name="see-also"></a>Voir aussi
 <a name="ReturnTypes"> </a>
 
-[Recherche-CcLog](search-cclog.md)
+[Search-CcLog](search-cclog.md)
   
 [Stop-CcLogging](stop-cclogging.md)
   

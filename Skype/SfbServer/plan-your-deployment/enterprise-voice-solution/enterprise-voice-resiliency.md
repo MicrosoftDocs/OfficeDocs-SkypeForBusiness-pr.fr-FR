@@ -1,5 +1,6 @@
 ---
-title: Planifier la résistance de voix entreprise dans Skype pour Business Server
+title: Plan for Enterprise Voice resiliency in Skype for Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,14 +14,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b3671dcb-6a8b-4a06-84da-0c8837b35099
 description: Découvrez comment prendre en charge la résilience vocale Skype pour Business Server Enterprise Voice, au niveau de sites centraux et sites de succursale. Options de site de succursale incluent le déploiement Survivable Branch Appliances ou serveurs Survivable Branch Server.
-ms.openlocfilehash: b93e93e32baf67b71c2a1eb842455973ee619f80
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 8b6b414cc1667c0764ac8878ea0f06da7468e781
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374758"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887798"
 ---
-# <a name="plan-for-enterprise-voice-resiliency-in-skype-for-business-server"></a>Planifier la résistance de voix entreprise dans Skype pour Business Server
+# <a name="plan-for-enterprise-voice-resiliency-in-skype-for-business-server"></a>Plan for Enterprise Voice resiliency in Skype for Business Server
 
 Découvrez comment prendre en charge la résilience vocale Skype pour Business Server Enterprise Voice, au niveau de sites centraux et sites de succursale. Options de site de succursale incluent le déploiement Survivable Branch Appliances ou serveurs Survivable Branch Server.
 
@@ -219,7 +220,7 @@ La figure suivante montre les topologies recommandées pour la résistance des s
 
 **Options de résistance pour sites de succursale**
 
-![Options de résilience de filiale vocale](../../media/Plan_OCS_Voice_BranchResiliencyOptions.jpg)
+![Options de résilience vocale succursale](../../media/Plan_OCS_Voice_BranchResiliencyOptions.jpg)
 
 #### <a name="survivable-branch-appliance-details"></a>Survivable Branch Appliance en détail
 
@@ -243,7 +244,7 @@ Skype pour Business Server prend en charge jusqu'à deux Survivable Branch Appli
 
 Survivable Branch Appliance est fabriqué par les fabricants en partenariat avec Microsoft et déployé sur leur nom par les détaillants à valeur ajoutée. Ce déploiement doit avoir lieu uniquement une fois que Skype pour Business Server a été déployé sur le site central, une connexion WAN pour le site de succursale est en place et utilisateurs de site de succursale sont activés pour Enterprise Voice.
 
-Pour plus d’informations sur ces étapes, consultez [déploiement d’un serveur Survivable Branch Appliance ou un serveur](https://technet.microsoft.com/library/cb780c14-dc5f-41ba-8092-f20ae905bd16.aspx) dans la documentation de déploiement.
+Pour plus d’informations sur les phases ci-dessous, reportez-vous à [Deploying a Survivable Branch Appliance or Server](https://technet.microsoft.com/library/cb780c14-dc5f-41ba-8092-f20ae905bd16.aspx) dans la documentation de déploiement.
 
 |**Phase**|**Étapes**|**Droits d’utilisateur**|
 |:-----|:-----|:-----|
@@ -279,7 +280,7 @@ Nous vous recommandons de créer une stratégie VoIP (Voice over Internet Protoc
 > [!IMPORTANT]
 > Lorsque vous créez un itinéraire alternatif de succursale, nous vous conseillons d’ajouter deux enregistrements d’utilisation téléphonique RTC à la stratégie utilisateur de succursale et d’affecter des itinéraires distincts à chacun d’entre eux. La première ligne ou principal, itinéraire dirige les appels vers la passerelle associé avec le serveur Survivable Branch Appliance (SBA) ou le serveur de la succursale ; la seconde, ou la sauvegarde, itinéraire dirige les appels vers la passerelle sur le site central. En dirigeant les appels, le SBA ou le serveur de succursale tente tous les itinéraires affectés au premier enregistrement d’utilisation RTC avant d’essayer le deuxième enregistrement.
 
-Pour vous assurer que les appels entrants vers les utilisateurs de site de succursale atteindra ces utilisateurs lors de la passerelle de succursale ou le composant Windows du site Survivable Branch Appliance n’est pas disponible (qui se produit, par exemple, si le serveur Survivable Branch Appliance ou une filiale passerelle ont été vers le bas pour la maintenance), créer un itinéraire de basculement sur la passerelle (ou travail avec votre fournisseur Direct Inward Dialing (DID)) pour rediriger les appels entrants vers le pool de serveurs d’inscriptions de sauvegarde sur le site central. À partir de là, les appels sont routés sur la liaison de réseau étendu (WAN) en direction des utilisateurs de succursale. N’oubliez pas que l’itinéraire traduit les numéros pour se conformer à la passerelle PSTN ou les formats de numéros de téléphone accepté l’autre homologue de jonction. Pour plus d’informations sur la création d’un itinéraire de basculement, voir [configuration d’un itinéraire de basculement](https://technet.microsoft.com/library/76e48df4-3b78-4fb7-b1f7-c1e604b81bad.aspx). De même, créez des plans de numérotation au niveau du service pour la jonction associée à la passerelle du site de succursale afin de normaliser les appels entrants. Si vous avez deux Survivable Branch Appliances sur un site de succursale, vous pouvez créer un plan de numérotation au niveau du site pour les deux, sauf si un plan de niveau de service distinct pour chaque est nécessaire.
+Pour vous assurer que les appels entrants vers les utilisateurs de site de succursale atteindra ces utilisateurs lors de la passerelle de succursale ou le composant Windows du site Survivable Branch Appliance n’est pas disponible (qui se produit, par exemple, si le serveur Survivable Branch Appliance ou une filiale passerelle ont été vers le bas pour la maintenance), créer un itinéraire de basculement sur la passerelle (ou travail avec votre fournisseur Direct Inward Dialing (DID)) pour rediriger les appels entrants vers le pool de serveurs d’inscriptions de sauvegarde sur le site central. À partir de là, les appels sont routés sur la liaison de réseau étendu (WAN) en direction des utilisateurs de succursale. N’oubliez pas que l’itinéraire traduit les numéros pour se conformer à la passerelle PSTN ou les formats de numéros de téléphone accepté l’autre homologue de jonction. Pour plus d’informations sur la création d’un itinéraire de basculement, reportez-vous à [Configuring a Failover Route](https://technet.microsoft.com/library/76e48df4-3b78-4fb7-b1f7-c1e604b81bad.aspx). De même, créez des plans de numérotation au niveau du service pour la jonction associée à la passerelle du site de succursale afin de normaliser les appels entrants. Si vous avez deux Survivable Branch Appliances sur un site de succursale, vous pouvez créer un plan de numérotation au niveau du site pour les deux, sauf si un plan de niveau de service distinct pour chaque est nécessaire.
 
 > [!NOTE]
 > Pour calculer la consommation des ressources du site central par les utilisateurs de site de succursale qui recourent au site central pour accéder aux fonctionnalités de présence, de conférence ou de basculement, nous vous conseillons de considérer chaque utilisateur de site de succursale comme s’il était inscrit sur le site central. Il n’y a aucune limite sur le nombre d’utilisateurs de site de succursale, y compris les utilisateurs auprès d’un serveur Survivable Branch Appliance.
@@ -358,7 +359,7 @@ Enfin, les utilisateurs de site de succursale doivent être configurés pour Ent
 
 #### <a name="requirements-for-survivable-branch-servers"></a>Configuration requise pour les serveurs Survivable Branch Server
 
-La configuration requise pour les serveurs Survivable Branch Server est identique à la configuration requise pour un serveur frontal. Pour plus d’informations, voir [configuration du serveur pour Skype pour Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md).
+La configuration requise pour les serveurs Survivable Branch Server est identique à la configuration requise pour un serveur frontal. Pour plus d’informations, reportez-vous à la rubrique [Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md).
 
 #### <a name="requirements-for-full-scale-skype-for-business-server-branch-site-deployments"></a>Configuration requise pour Skype à grande échelle pour les déploiements de Site de succursale Business Server
 

@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 809e48e4a770906b93642356cc5f37fd03c411c4
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: e68b239d00e67d942f80a259facb87c80ddf2a55
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460331"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886031"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>Activer le routage géodépendant pour le routage direct
 
@@ -39,7 +39,7 @@ Cet article décrit comment activer le routage basé sur un emplacement pour le 
 
 ## <a name="enable-location-based-routing-for-users"></a>Activer le routage emplacement pour les utilisateurs
 
-1. Utiliser le ``Set-CsOnlinePstnUsages`` applet de commande pour définir les utilisations RTC. Pour plusieurs utilisations, séparez chaque d’utilisation par une virgule.
+1. Utilisez l’applet de commande [Set-CsOnlinePstnUsage](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstnusage?view=skype-ps) pour définir les utilisations RTC. Pour plusieurs utilisations, séparez chaque d’utilisation par une virgule.
 
     ```
     Set-CsOnlinePstnUsage -Usage <usages> 
@@ -48,7 +48,7 @@ Cet article décrit comment activer le routage basé sur un emplacement pour le 
     ```
     Set-CsOnlinePstnUsage -Usage "Long Distance", "Local", "Internal" 
     ```
-2. Utiliser le ``New-CsOnlineVoiceRoutingPolicy`` applet de commande pour créer une stratégie de routage voix pour associer l’utilisateur avec les utilisations PSTN appropriées.
+2. Utilisez l’applet de commande [New-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/new-csonlinevoiceroutingpolicy?view=skype-ps) pour créer une stratégie de routage voix pour associer l’utilisateur avec les utilisations PSTN appropriées.
 
     ```
     New-CsOnlineVoiceRoutingPolicy -Identity <voice routing policy ID> -Description <voice routing policy name> -OnlinePstnUsages <usages> 
@@ -71,13 +71,12 @@ Cet article décrit comment activer le routage basé sur un emplacement pour le 
     |ID de stratégie vocale en ligne   |Stratégie de routage Delhi vocale en ligne   |Stratégie de routage Hyderabad vocale en ligne    |
     |Utilisations PSTN en ligne  |Appel longue Distance  |Longue Distance internes, locales  |
 
-    Pour plus d’informations, voir [New-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csonlinevoiceroutingpolicy).
-3. Utiliser le ``Grant-CsOnlineVoiceRoutingPolicy`` applet de commande pour associer en ligne vocale des stratégies de routage pour les utilisateurs qui ont besoin d’appliquer des restrictions de routage.
+3. Utilisez l’applet de commande [Grant-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csonlinevoiceroutingpolicy?view=skype-ps) pour associer des stratégies de routage voix en ligne pour les utilisateurs qui ont besoin d’appliquer des restrictions de routage.
     ```
     Grant-CsOnlineVoiceRoutingPolicy -Identity <User> -Tenant <TenantId>
     ```
 ## <a name="enable-location-based-routing-for-network-sites"></a>Activer le routage emplacement pour les sites réseau
-1.  Utiliser le ``Set-CsTenantNetworkSite`` applet de commande pour activer le routage basé sur l’emplacement et associer les stratégies de routage pour vos sites réseau qui doivent appliquer des restrictions de routage vocale.
+1.  Utilisez l’applet de commande [Set-CsTenantNetworkSite](https://docs.microsoft.com/powershell/module/skype/set-cstenantnetworksite?view=skype-ps) pour activer le routage basé sur l’emplacement et associer des stratégies de routage voix à vos sites réseau qui doivent appliquer des restrictions de routage.
     ```
     Set-CsTenantNetworkSite -Identity <site ID> -EnableLocationBasedRouting <$true|$false>  
     ```
@@ -97,7 +96,7 @@ Cet article décrit comment activer le routage basé sur un emplacement pour le 
     |Sous-réseaux     |Sous-réseau 1 (Delhi)     |Sous-réseau 2 (Hyderabad)     |
 
 ## <a name="enable-location-based-routing-for-gateways"></a>Activer le routage emplacement pour les passerelles
-1. Utiliser le ``New-CsOnlinePstnGateway`` applet de commande pour créer une configuration de passerelle pour chaque site de la passerelle ou le réseau. 
+1. Utilisez l’applet de commande [New-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway?view=skype-ps) pour créer une configuration de passerelle pour chaque site de la passerelle ou le réseau. 
 
     ```
     New-CSOnlinePSTNGateway -Fqdn <FDQN registered for the SBC> -Identity <gateway configuration ID> -SipSignallingPort <listening port used> -Enabled $true 
@@ -110,7 +109,7 @@ Cet article décrit comment activer le routage basé sur un emplacement pour le 
     ```
     Pour plus d’informations, voir [Configurer le routage Direct](direct-routing-configure.md).
     
-2. Utiliser le ``Set-CSOnlinePSTNGateway`` applet de commande pour activer le routage emplacement pour vos passerelles qui doivent appliquer des restrictions de routage. 
+2. Utilisez l’applet de commande [Set-CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway?view=skype-ps) pour activer le routage emplacement pour vos passerelles qui doivent appliquer des restrictions de routage. 
 
     Activer le routage emplacement aux passerelles qui routent les appels vers les passerelles PSTN qui acheminer les appels vers la passerelle PSTN, puis associez le site réseau où se trouve la passerelle.
 
@@ -152,7 +151,7 @@ Cet article décrit comment activer le routage basé sur un emplacement pour le 
 
 Pour appliquer un emplacement de routage pour des utilisateurs spécifiques, configurer la stratégie de voix des utilisateurs afin d’empêcher le numéro payant PTSN contournement de média. 
 
-Utiliser le ``Grant-CsTeamsCallingPolicy`` applet de commande pour activer le routage basé sur l’emplacement en empêchant payant PSTN de contournement.
+Utilisez l’applet de commande [Grant-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy?view=skype-ps) pour activer le routage en fonction d’emplacement en empêchant le contournement de média PSTN payant.
 
 ```
 Grant-CsTeamsCallingPolicy -PolicyName <policy name> -id <user id> 

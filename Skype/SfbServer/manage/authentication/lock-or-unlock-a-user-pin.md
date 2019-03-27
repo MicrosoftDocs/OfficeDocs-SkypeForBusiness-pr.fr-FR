@@ -1,5 +1,6 @@
 ---
 title: Verrouiller ou déverrouiller un code confidentiel dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 3d293a8a-e182-4547-8b06-2603c3c77329
 description: 'Résumé : Verrouiller ou déverrouiller des conférences rendez-vous d’un utilisateur code confidentiel pour Skype pour Business Server.'
-ms.openlocfilehash: 89e971ac8c935c7998c206ce365c8899e0617cc4
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: fb90cd54ac5f339050adc51378e42d2542e489fa
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20986322"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895390"
 ---
 # <a name="lock-or-unlock-a-user-pin-in-skype-for-business-server"></a>Verrouiller ou déverrouiller un code confidentiel dans Skype pour Business Server
  
@@ -25,7 +26,7 @@ Vous pouvez verrouiller ou déverrouiller le code confidentiel d’un utilisateu
   
 ### <a name="to-lock-a-users-pin-in-skype-for-business-server-control-panel"></a>Pour verrouiller le code confidentiel d’un utilisateur dans Skype pour Business Server Control Panel
 
-1. À partir d’un compte d’utilisateur auquel est affecté un des rôles CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
+1. À partir d’un compte d’utilisateur auquel est affecté le rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
     
 2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business.  
     
@@ -41,7 +42,7 @@ Vous pouvez verrouiller ou déverrouiller le code confidentiel d’un utilisateu
     
    a. Cliquez sur **Ajouter un filtre**.
     
-   b. Entrez la propriété utilisateur en tapant son nom ou en cliquant sur la flèche dans la liste déroulante.
+   b. Entrez la propriété utilisateur en tapant son nom ou en cliquant sur la flèche de la liste déroulante.
     
    c. Dans la liste déroulante **Égal à**, cliquez sur l’opérateur (par exemple, **Égal à** ou **Différent de**).
     
@@ -56,7 +57,7 @@ Vous pouvez verrouiller ou déverrouiller le code confidentiel d’un utilisateu
     
 ### <a name="to-unlock-a-users-pin-in-skype-for-business-server-control-panel"></a>Pour déverrouiller le code confidentiel d’un utilisateur dans Skype pour Business Server Control Panel
 
-1. À partir d’un compte d’utilisateur auquel est affecté un des rôles CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
+1. À partir d’un compte d’utilisateur auquel est affecté le rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
     
 2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business.  
     
@@ -72,7 +73,7 @@ Vous pouvez verrouiller ou déverrouiller le code confidentiel d’un utilisateu
     
    a. Cliquez sur **Ajouter un filtre**.
     
-   b. Entrez la propriété utilisateur en tapant son nom ou en cliquant sur la flèche dans la liste déroulante.
+   b. Entrez la propriété utilisateur en tapant son nom ou en cliquant sur la flèche de la liste déroulante.
     
    c. Dans la liste déroulante **Égal à**, cliquez sur l’opérateur (par exemple, **Égal à** ou **Différent de**).
     

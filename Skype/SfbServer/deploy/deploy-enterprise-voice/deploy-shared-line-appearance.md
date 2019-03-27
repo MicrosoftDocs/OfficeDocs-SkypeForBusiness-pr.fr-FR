@@ -1,5 +1,6 @@
 ---
 title: Déploiement du mode partage de lignes dans Skype Entreprise Server 2015
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -14,18 +15,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 474a5e4a-9479-4e86-8607-b9f41a0fa648
 description: Pour découvrir comment déployer le mode partage de lignes dans Skype Entreprise Server 2015, mise à jour cumulative de novembre 2015, reportez-vous à cette rubrique. Le mode partage de lignes est une fonctionnalité permettant de gérer plusieurs appels sur un numéro spécifique appelé « numéro partagé ».
-ms.openlocfilehash: f5c97c94f2e0ed2034ac96864b20dec604708d55
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: c0da29e54f03a5c328f1b65807f438b63c14a68f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372013"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878647"
 ---
 # <a name="deploy-shared-line-appearance-in-skype-for-business-server-2015"></a>Déploiement du mode partage de lignes dans Skype Entreprise Server 2015
 
 Pour découvrir comment déployer le mode partage de lignes dans Skype Entreprise Server 2015, mise à jour cumulative de novembre 2015, reportez-vous à cette rubrique. Le mode partage de lignes est une fonctionnalité permettant de gérer plusieurs appels sur un numéro spécifique appelé « numéro partagé ».
 
-Pour plus d’informations sur cette fonctionnalité, voir [planifier l’apparence de la ligne Shared dans Skype pour Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/shared-line-appearance.md).
+Pour plus d’informations sur cette fonctionnalité, reportez-vous à la rubrique [Plan for Shared Line Appearance in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/shared-line-appearance.md).
 
 Apparence de ligne partagé (SLA) est une nouvelle fonctionnalité dans Skype pour Business Server, novembre 2015 mise à jour Cumulative. Pour activer cette fonctionnalité, vous devez d’abord avoir déployé cette mise à jour cumulative.
 
@@ -57,7 +58,7 @@ Apparence de ligne partagé (SLA) est une nouvelle fonctionnalité dans Skype po
 
 ### <a name="create-an-sla-group-and-add-users-to-it"></a>Créez un groupe de mode partage de lignes et ajoutez-y des utilisateurs.
 
-1. Créer le groupe SLA à l’aide de l’applet de commande [Set-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration?view=skype-ps) :
+1. Créez le groupe de mode partage de lignes à l’aide de l’applet de commande [Set-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration?view=skype-ps) :
 
    ```
    Set-CsSlaConfiguration -Identity <IdentityOfGroup> -MaxNumberOfCalls <Number> -BusyOption <BusyOnBusy|Voicemail|Forward> [-Target <TargetUserOrPhoneNumber>]
@@ -78,7 +79,7 @@ Apparence de ligne partagé (SLA) est une nouvelle fonctionnalité dans Skype po
     > [!NOTE]
     > Notez que ce que vous spécifiez pour `-Identity` doit être un compte d’utilisateur activés pour Enterprise Voice existant valide.
 
-2. Ajoutez les délégués au groupe à l’aide de l’applet de commande [Add-CsSlaDelegates](https://docs.microsoft.com/powershell/module/skype/add-cssladelegates?view=skype-ps) :
+2. Ajoutez des délégués au groupe à l’aide de l’applet de commande [Add-CsSlaDelegates](https://docs.microsoft.com/powershell/module/skype/add-cssladelegates?view=skype-ps) :
 
    ```
    Add-CsSlaDelegates -Identity <IdentityOfGroup> -Delegate
@@ -95,7 +96,7 @@ Apparence de ligne partagé (SLA) est une nouvelle fonctionnalité dans Skype po
 
 ### <a name="configure-the-sla-group-busy-option"></a>Configuration de l’option Occupé du groupe de mode partage de lignes
 
-- Configurer le SLA de groupe Option occupé (e) à l’aide de l’applet de commande [Set-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration?view=skype-ps) :
+- Configurez l’option Occupé du groupe de mode partage de lignes à l’aide de l’applet de commande [Set-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration?view=skype-ps) :
 
   ```
   Set-CsSlaConfiguration -Identity <IdentityOfGroup> -BusyOption <Option> [-Target <TargetUserOrPhoneNumber>]
@@ -109,7 +110,7 @@ Apparence de ligne partagé (SLA) est une nouvelle fonctionnalité dans Skype po
 
 ### <a name="configure-the-sla-group-missed-call-option"></a>Configuration de l’option Appel manqué du groupe de mode partage de lignes
 
-1. Configurer le groupe SLA Option d’appel manqué à l’aide de l’applet de commande [Set-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration?view=skype-ps) :
+1. Configurez l’option Appel manqué du groupe de mode partage de lignes à l’aide de l’applet de commande [Set-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration?view=skype-ps) :
 
    ```
    Set-CsSlaConfiguration -Identity <IdentityOfGroup> -MissedCallOption <Option> -MissedCallForwardTarget <TargetUserOrPhoneNumber> -BusyOption <Option> -MaxNumberofCalls <#> -Target [Target]
@@ -123,7 +124,7 @@ Apparence de ligne partagé (SLA) est une nouvelle fonctionnalité dans Skype po
 
 ### <a name="remove-a-delegate-from-a-group"></a>Suppression d’un délégué d’un groupe
 
-- Supprimer un délégué d’un groupe à l’aide de l’applet de commande [Remove-CsSlaDelegates](https://docs.microsoft.com/powershell/module/skype/remove-cssladelegates?view=skype-ps) :
+- Supprimez un délégué d’un groupe à l’aide de l’applet de commande [Remove-CsSlaDelegates](https://docs.microsoft.com/powershell/module/skype/remove-cssladelegates?view=skype-ps) :
 
   ```
   Remove-CsSlaDelegates -Identity <IdentityOfGroup> -Delegate <NameOfDelegate@domain>
@@ -137,7 +138,7 @@ Apparence de ligne partagé (SLA) est une nouvelle fonctionnalité dans Skype po
 
 ### <a name="delete-an-sla-group"></a>Suppression d’un groupe de mode partage de lignes
 
-- Supprimer un groupe de contrat à l’aide de l’applet de commande [Remove-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csslaconfiguration?view=skype-ps) :
+- Supprimez un groupe de mode partage de lignes à l’aide de l’applet de commande [Remove-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csslaconfiguration?view=skype-ps) :
 
   ```
   Remove-CsSlaConfiguration -Identity <IdentityOfGroup>

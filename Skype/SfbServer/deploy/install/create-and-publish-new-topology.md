@@ -1,5 +1,6 @@
 ---
 title: Créer et publier la nouvelle topologie dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -14,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 451c41a1-b8c5-4dc3-9e48-0da9ed5381a1
 description: 'Résumé : Apprenez à créer, publier et vérifiez une nouvelle topologie avant d’installer Skype pour Business Server. Téléchargez une version d’évaluation gratuite de Skype pour Business Server depuis le centre d’évaluation Microsoft à : https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: c2879b2323ffe85624c852d70028ab2388b4feb7
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: ba141e76732705008ded4e8e03737154bc45b1c6
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371333"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886674"
 ---
 # <a name="create-and-publish-new-topology-in-skype-for-business-server"></a>Créer et publier la nouvelle topologie dans Skype pour Business Server
  
@@ -185,7 +186,7 @@ Vous pouvez utiliser Skype pour Business Server Générateur de topologies pour 
     > Nous vous recommandons d’utiliser l’URL la plus simple possible pour l’URL d’administration. L’option la plus simple est https://admin. _ \<domaine\>_. L’URL d’administration peut être un domaine interne ou externe, par exemple contoso.local ou contoso.com, tant que les enregistrements peuvent être résolus dans un DNS interne. 
   
     > [!IMPORTANT]
-    > Si vous changez une URL simple après son déploiement initial, vous devez savoir quels changements impactent vos enregistrements et certificats DNS pour les URL simples. Si la modification a un impact sur la base d’une URL simple, vous devez modifier les enregistrements DNS et les certificats, trop. Par exemple, en remplaçant https://sfb.contoso.com/Meet à https://meet.contoso.com modifie l’URL de base à partir de sfb.contoso.com à meet.contoso.com, et vous devez donc modifier les enregistrements DNS et les certificats pour faire référence à meet.contoso.com. Si vous avez modifié l’URL simple à partir de https://sfb.contoso.com/Meet à https://sfb.contoso.com/Meetings, l’URL de base de sfb.contoso.com reste identique, donc aucun DNS ou modification de certificat est nécessaires. Lorsque vous modifiez un nom d’URL simple, toutefois, vous devez exécuter l’applet de commande **Enable-CsComputer** sur chaque directeur et du Front-End server pour enregistrer la modification.
+    > Si vous changez une URL simple après son déploiement initial, vous devez savoir quels changements impactent vos enregistrements et certificats DNS pour les URL simples. Si la modification a un impact sur la base d’une URL simple, vous devez modifier les enregistrements DNS et les certificats, trop. Par exemple, en remplaçant https://sfb.contoso.com/Meet à https://meet.contoso.com modifie l’URL de base à partir de sfb.contoso.com à meet.contoso.com, et vous devez donc modifier les enregistrements DNS et les certificats pour faire référence à meet.contoso.com. Si vous avez modifié l’URL simple à partir de https://sfb.contoso.com/Meet à https://sfb.contoso.com/Meetings, l’URL de base de sfb.contoso.com reste identique, donc aucun DNS ou modification de certificat est nécessaires. Quand vous changez le nom d’une URL simple, vous devez par contre exécuter l’applet de commande **Enable-CsComputer** sur chaque pool directeur et frontal pour enregistrer le changement.
   
 ### <a name="publish-and-verify-the-topology"></a>Publier et vérifier la topologie
 
@@ -201,7 +202,7 @@ Vous pouvez utiliser Skype pour Business Server Générateur de topologies pour 
     
     Lorsque vous avez vérifié la topologie et qu’aucune erreur de validation n’a été détectée, vous êtes prêt à publier la topologie. Si des erreurs de validation sont détectées, vous devez les corriger pour publier la topologie.
     
-6. Cliquez avec le bouton droit sur le nœud **Skype Entreprise Server**, puis cliquez sur **Publier la topologie**.
+6. Cliquez sur le nœud **Skype pour Business Server** , puis cliquez sur **Publier la topologie**.
     
 7. Dans la page **Publier la topologie**, cliquez sur **Suivant**.
     

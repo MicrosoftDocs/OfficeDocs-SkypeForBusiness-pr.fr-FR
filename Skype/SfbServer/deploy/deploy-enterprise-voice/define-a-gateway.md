@@ -1,5 +1,6 @@
 ---
 title: Définir une passerelle dans le Générateur de topologie dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 456e5a96-d9f6-42a6-862c-a69464391628
 description: 'Résumé : Découvrez comment définir une passerelle PSTN dans le Générateur de topologie dans Skype pour Business Server.'
-ms.openlocfilehash: 50c5dca09608f6b0ef9046109e434f3ccbbba0d3
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 036c6805ab2c4821ee1bb0544b75553ab40c7100
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886795"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876319"
 ---
 # <a name="define-a-gateway-in-topology-builder-in-skype-for-business-server"></a>Définir une passerelle dans le Générateur de topologie dans Skype pour Business Server
  
@@ -58,10 +59,10 @@ Procédez comme suit pour utiliser le Générateur de topologie pour définir un
 9. Sous **port du serveur de médiation associé**, tapez le port d’écoute du serveur de médiation utilisera pour les messages SIP provenant de la passerelle.
     
     > [!NOTE]
-    > Plusieurs jonction prend en charge Skype pour Business Server, vous pouvez définir plusieurs SIP signalisation ports sur le serveur de médiation pour la communication avec plusieurs passerelles PSTN. Lorsque vous définissez une jonction, le **port du serveur de médiation associé** doit être dans la plage des ports d’écoute pour le protocole respectif autorisé par le serveur de médiation. Cette plage de ports est définie sous Skype pour Business Server et les Pools de médiation. Cliquez sur le pool de serveur de médiation d’intérêt et sélectionnez **Modifier les propriétés**. Spécifiez la plage de ports dans le champ **Ports d’écoute**.
+    > Plusieurs jonction prend en charge Skype pour Business Server, vous pouvez définir plusieurs SIP signalisation ports sur le serveur de médiation pour la communication avec plusieurs passerelles PSTN. Lorsque vous définissez une jonction, le **port du serveur de médiation associé** doit être dans la plage des ports d’écoute pour le protocole respectif autorisé par le serveur de médiation. Cette plage de ports est définie sous Skype pour Business Server et les Pools de médiation. Cliquez sur le pool de serveur de médiation d’intérêt et sélectionnez **Modifier les propriétés**. Specify the port range in the **Listening ports** field.
   
-10. Assurez-vous que l’homologue que vous avez défini est en cours d’exécution et qu’il utilise le nom de domaine complet ou l’adresse IP spécifié, puis cliquez sur **Terminer**
+10. N’oubliez pas que l’homologue que vous avez défini est en cours d’exécution et à l’aide du nom de domaine complet ou l’adresse IP que vous avez spécifié. Puis cliquez sur **Terminer**.
     
-11. Cliquez avec le bouton droit sur le nœud **Skype Entreprise Server**, puis cliquez sur **Publier la topologie**.
+11. Cliquez sur le nœud **Skype pour Business Server** , puis cliquez sur **Publier la topologie**.
     
 

@@ -1,5 +1,6 @@
 ---
 title: Planification de l’application Response Group dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6cc333e7-4029-4372-86b2-016040c415fb
 description: Planification des groupes Response Group dans Skype pour Business Server Enterprise Voice, ce qui permet de configurer le routage des appels vers des groupes d’utilisateurs. Cela inclut les conditions requises pour les fichiers audio.
-ms.openlocfilehash: a5dcf77d2c5c87bf2f3bfa3156795b050591eee5
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 68a693715739d58488e134934416790641dd091e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885584"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894401"
 ---
 # <a name="plan-for-the-response-group-application-in-skype-for-business-server"></a>Planification de l’application Response Group dans Skype pour Business Server
 
@@ -66,7 +67,7 @@ Le tableau suivant décrit les actions Response groupe responsables peuvent et n
 
 Responsables Response Group peuvent utiliser les outils suivants pour gérer leurs groupes Response Group désignés.
 
-- Panneau de configuration Skype Entreprise Server
+- Skype pour le panneau de configuration serveur Business
 
     > [!NOTE]
     > Responsables de Response Group peuvent uniquement gérer les paramètres de Response Group avec cet outil. Autres Skype pour les paramètres du serveur d’entreprise ne sont pas disponibles pour les responsables.
@@ -77,7 +78,7 @@ Responsables Response Group peuvent utiliser les outils suivants pour gérer leu
 
 Échelles de Response Group pour département ou les environnements de groupe de travail (pour plus d’informations, consultez [Planification de la capacité de Response Group](https://technet.microsoft.com/library/a2459a69-1f45-4f2f-bca5-d4f442708e44.aspx)) et peut être déployée dans des installations de téléphonie entièrement nouvelles. Il prend en charge les appels entrants à partir du déploiement d’Enterprise Voice et à partir du réseau de l’opérateur local. Agents peuvent utiliser Skype pour Business, Lync 2013, Lync 2010, Lync 2010 Attendant ou Lync Phone Edition pour prendre les appels acheminés vers eux.
 
-## <a name="deployment-and-requirements"></a>Déploiement et configuration requise
+## <a name="deployment-and-requirements"></a>Déploiement et exigences
 
 L’application Response Group est activée automatiquement lorsque vous déployez Enterprise Voice.
 
@@ -101,7 +102,7 @@ L’application Response Group utilise les ports suivants :
     > Ce port est utilisé pour le service d’établissement des correspondances et est requis lorsque l’application Response Group est déployée dans un pool qui comporte plus d’un serveur frontal.
 
    > [!NOTE]
-   > Ces ports sont les paramètres par défaut que vous pouvez modifier à l’aide de l’applet de commande **Set-CsApplicationServer** . Pour plus d’informations sur cette applet de commande, voir le Skype pour la documentation sur Business Server Management Shell.
+   > Ces ports sont les paramètres par défaut que vous pouvez modifier à l’aide de l’applet de commande **Set-CsApplicationServer**. Pour plus d’informations sur cette applet de commande, voir le Skype pour la documentation sur Business Server Management Shell.
 
 ### <a name="audio-file-requirements"></a>Conditions requises pour les fichiers audio
 
@@ -138,7 +139,7 @@ L’outil de Configuration Response Group prend en charge les combinaisons de sy
 
 **Systèmes d’exploitation et navigateurs web pris en charge**
 
-|**Système d'exploitation**|**Navigateur web**|
+|**Système d’exploitation**|**Navigateur web**|
 |:-----|:-----|
 |Windows Vista avec Service Pack (SP) 2  <br/> |Internet Explorer 7  <br/> Internet Explorer 8 (mode natif)  <br/> Internet Explorer 9 (mode natif)  <br/> |
 |Windows 7  <br/> Windows 7 avec Service Pack 1  <br/> |Internet Explorer 8 (mode natif)  <br/> Internet Explorer 9 (mode natif)  <br/> |
@@ -156,7 +157,7 @@ La console des agents prend en charge les combinaisons de systèmes d’exploita
 
 **Systèmes d’exploitation et navigateurs web pris en charge**
 
-|**Système d'exploitation**|**Navigateur web**|
+|**Système d’exploitation**|**Navigateur web**|
 |:-----|:-----|
 |Windows Vista avec Service Pack (SP) 2  <br/> |Internet Explorer 7  <br/> Internet Explorer 8 (mode natif)  <br/> Internet Explorer 9 (mode natif)  <br/> |
 |Windows 7  <br/> Windows 7 avec Service Pack 1  <br/> |Internet Explorer 8 (mode natif)  <br/> Internet Explorer 9 (mode natif)  <br/> Firefox 10.0  <br/> Chrome 18.0  <br/> |
@@ -175,7 +176,7 @@ L’application Response Group prend en charge les clients suivants :
 
 - Client de bureau Lync 2010
 
-- Intendant Lync 2010
+- Lync 2010 Attendant
 
 - Office Communications Server 2007 R2 Attendant
 
