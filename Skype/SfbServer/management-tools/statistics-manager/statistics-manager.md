@@ -1,5 +1,6 @@
 ---
-title: Gestionnaire de statistiques pour Skype pour Business Server
+title: Gestionnaire de statistiques pour Skype Entreprise Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,25 +12,25 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 3b945656-8241-40ed-a34d-0910bd9d3529
 description: 'Résumé : Lisez cette rubrique pour en savoir plus sur le Gestionnaire de statistiques de Skype pour Business Server, un outil puissant qui vous permet d’afficher Skype pour les données de performances et d’intégrité Business Server en temps réel.'
-ms.openlocfilehash: 8b7020b3e7a173fd2be3aeb5eecb390e43827737
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 976fb8ba808eee6c434934ee9b279ef564605d75
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530825"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891373"
 ---
-# <a name="statistics-manager-for-skype-for-business-server"></a><span data-ttu-id="ddcab-103">Gestionnaire de statistiques pour Skype pour Business Server</span><span class="sxs-lookup"><span data-stu-id="ddcab-103">Statistics Manager for Skype for Business Server</span></span>
+# <a name="statistics-manager-for-skype-for-business-server"></a><span data-ttu-id="520a4-103">Gestionnaire de statistiques pour Skype Entreprise Server</span><span class="sxs-lookup"><span data-stu-id="520a4-103">Statistics Manager for Skype for Business Server</span></span>
  
-<span data-ttu-id="ddcab-104">**Résumé :** Lisez cette rubrique pour en savoir plus sur le Gestionnaire de statistiques de Skype pour Business Server, un outil puissant qui vous permet d’afficher Skype pour les données de performances et d’intégrité Business Server en temps réel.</span><span class="sxs-lookup"><span data-stu-id="ddcab-104">**Summary:** Read this topic to learn about Statistics Manager for Skype for Business Server, a powerful tool that allows you to view Skype for Business Server health and performance data in real time.</span></span>
+<span data-ttu-id="520a4-104">**Résumé :** Lisez cette rubrique pour en savoir plus sur le Gestionnaire de statistiques de Skype pour Business Server, un outil puissant qui vous permet d’afficher Skype pour les données de performances et d’intégrité Business Server en temps réel.</span><span class="sxs-lookup"><span data-stu-id="520a4-104">**Summary:** Read this topic to learn about Statistics Manager for Skype for Business Server, a powerful tool that allows you to view Skype for Business Server health and performance data in real time.</span></span>
   
-<span data-ttu-id="ddcab-105">Cette section contient les rubriques suivantes :</span><span class="sxs-lookup"><span data-stu-id="ddcab-105">This section contains the following topics:</span></span>
+<span data-ttu-id="520a4-105">Cette section contient les rubriques suivantes :</span><span class="sxs-lookup"><span data-stu-id="520a4-105">This section contains the following topics:</span></span>
   
-- [<span data-ttu-id="ddcab-106">Planifier Business Server pour le Gestionnaire de statistiques de Skype</span><span class="sxs-lookup"><span data-stu-id="ddcab-106">Plan for Statistics Manager for Skype for Business Server</span></span>](plan.md)
+- [<span data-ttu-id="520a4-106">Planifier le gestionnaire de statistiques pour Skype Entreprise Server</span><span class="sxs-lookup"><span data-stu-id="520a4-106">Plan for Statistics Manager for Skype for Business Server</span></span>](plan.md)
     
-- [<span data-ttu-id="ddcab-107">Déployer des statistiques responsable Skype pour Business Server</span><span class="sxs-lookup"><span data-stu-id="ddcab-107">Deploy Statistics Manager for Skype for Business Server</span></span>](deploy.md)
+- [<span data-ttu-id="520a4-107">Déploiement du gestionnaire de statistiques pour Skype Entreprise Server</span><span class="sxs-lookup"><span data-stu-id="520a4-107">Deploy Statistics Manager for Skype for Business Server</span></span>](deploy.md)
     
-- [<span data-ttu-id="ddcab-108">Mise à niveau du Gestionnaire de statistiques pour Skype pour Business Server</span><span class="sxs-lookup"><span data-stu-id="ddcab-108">Upgrade Statistics Manager for Skype for Business Server</span></span>](upgrade.md)
+- [<span data-ttu-id="520a4-108">Mise à niveau du gestionnaire de statistiques pour Skype Entreprise Server</span><span class="sxs-lookup"><span data-stu-id="520a4-108">Upgrade Statistics Manager for Skype for Business Server</span></span>](upgrade.md)
     
-- [<span data-ttu-id="ddcab-109">Résoudre les statistiques du gestionnaire pour Skype pour Business Server</span><span class="sxs-lookup"><span data-stu-id="ddcab-109">Troubleshoot Statistics Manager for Skype for Business Server</span></span>](troubleshoot.md)
+- [<span data-ttu-id="520a4-109">Dépannage du gestionnaire de statistiques pour Skype Entreprise Server</span><span class="sxs-lookup"><span data-stu-id="520a4-109">Troubleshoot Statistics Manager for Skype for Business Server</span></span>](troubleshoot.md)
     
 

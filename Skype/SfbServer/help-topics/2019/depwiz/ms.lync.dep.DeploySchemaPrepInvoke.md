@@ -1,5 +1,6 @@
 ---
 title: Préparer un schéma (Invoke)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,17 +13,17 @@ localization_priority: Normal
 ms.assetid: f031eb6d-0749-4247-842c-c1e701027ffb
 ROBOTS: NOINDEX, NOFOLLOW
 description: La page exécution de commandes affiche un résumé des commandes qui sont émises pour étendre le schéma pour Skype pour Business Server.
-ms.openlocfilehash: 629672673a240e66ca097f6a61af4caad7ee32c6
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 2a853daad9694e72dc6d983c37862fb074cbbee3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20974598"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898507"
 ---
-# <a name="prepare-schema-invoke"></a><span data-ttu-id="0b110-103">Préparer un schéma (Invoke)</span><span class="sxs-lookup"><span data-stu-id="0b110-103">Prepare Schema (Invoke)</span></span>
+# <a name="prepare-schema-invoke"></a><span data-ttu-id="b8aaa-103">Préparer un schéma (Invoke)</span><span class="sxs-lookup"><span data-stu-id="b8aaa-103">Prepare Schema (Invoke)</span></span>
  
-<span data-ttu-id="0b110-104">La page **Exécution de commandes** affiche un résumé des commandes qui sont émises pour étendre le schéma pour Skype pour Business Server.</span><span class="sxs-lookup"><span data-stu-id="0b110-104">The **Executing Commands** page displays a summary of the commands that are issued to extend the schema for Skype for Business Server.</span></span> <span data-ttu-id="0b110-105">Lorsque les tâches sont terminées, le volet Résumé indique si elles ont réussi ou échoué.</span><span class="sxs-lookup"><span data-stu-id="0b110-105">When the tasks are complete, the summary pane will indicate if the tasks were successful or if they failed.</span></span> <span data-ttu-id="0b110-106">Consultez l’écran Résumé et assurez-vous que **Statut de la tâche : Terminée** s’affiche dans le volet Résumé.</span><span class="sxs-lookup"><span data-stu-id="0b110-106">Review the summary screen, and make sure that **Task status: Completed** is displayed under the summary pane.</span></span> <span data-ttu-id="0b110-107">La liste déroulante sous le volet Résumé vous permet de sélectionner et de visualiser le fichier journal Préparer le schéma.</span><span class="sxs-lookup"><span data-stu-id="0b110-107">The drop-down list under the summary pane enables you to select and view the log file, Prepare Schema.</span></span> <span data-ttu-id="0b110-108">Cliquez sur **Afficher le journal** pour consulter le fichier journal.</span><span class="sxs-lookup"><span data-stu-id="0b110-108">Click **View Log** to review the log file.</span></span> <span data-ttu-id="0b110-109">Si vous avez obtenu des erreurs pendant la préparation du schéma, elles y sont répertoriées.</span><span class="sxs-lookup"><span data-stu-id="0b110-109">If you received errors during the schema preparation, the errors that the task encountered are logged here.</span></span> <span data-ttu-id="0b110-110">Vous pouvez alors prendre les mesures nécessaires pour corriger les erreurs et exécuter de nouveau la préparation du schéma.</span><span class="sxs-lookup"><span data-stu-id="0b110-110">You can then take action to correct any error and re-run the schema preparation.</span></span>
+<span data-ttu-id="b8aaa-104">La page **Exécution de commandes** affiche un résumé des commandes qui sont émises pour étendre le schéma pour Skype pour Business Server.</span><span class="sxs-lookup"><span data-stu-id="b8aaa-104">The **Executing Commands** page displays a summary of the commands that are issued to extend the schema for Skype for Business Server.</span></span> <span data-ttu-id="b8aaa-105">Lorsque les tâches sont terminées, le volet Résumé indique si elles ont réussi ou échoué.</span><span class="sxs-lookup"><span data-stu-id="b8aaa-105">When the tasks are complete, the summary pane will indicate if the tasks were successful or if they failed.</span></span> <span data-ttu-id="b8aaa-106">Consultez l’écran Résumé et assurez-vous que **Statut de la tâche : Terminée** s’affiche dans le volet Résumé.</span><span class="sxs-lookup"><span data-stu-id="b8aaa-106">Review the summary screen, and make sure that **Task status: Completed** is displayed under the summary pane.</span></span> <span data-ttu-id="b8aaa-107">La liste déroulante sous le volet Résumé vous permet de sélectionner et de visualiser le fichier journal Préparer le schéma.</span><span class="sxs-lookup"><span data-stu-id="b8aaa-107">The drop-down list under the summary pane enables you to select and view the log file, Prepare Schema.</span></span> <span data-ttu-id="b8aaa-108">Cliquez sur **Afficher le journal** pour consulter le fichier journal.</span><span class="sxs-lookup"><span data-stu-id="b8aaa-108">Click **View Log** to review the log file.</span></span> <span data-ttu-id="b8aaa-109">Si vous avez obtenu des erreurs pendant la préparation du schéma, elles y sont répertoriées.</span><span class="sxs-lookup"><span data-stu-id="b8aaa-109">If you received errors during the schema preparation, the errors that the task encountered are logged here.</span></span> <span data-ttu-id="b8aaa-110">Vous pouvez alors prendre les mesures nécessaires pour corriger les erreurs et exécuter de nouveau la préparation du schéma.</span><span class="sxs-lookup"><span data-stu-id="b8aaa-110">You can then take action to correct any error and re-run the schema preparation.</span></span>
   
-<span data-ttu-id="0b110-111">Cliquez sur **Terminer** pour terminer la tâche.</span><span class="sxs-lookup"><span data-stu-id="0b110-111">Click **Finish** to complete the task.</span></span>
+<span data-ttu-id="b8aaa-111">Cliquez sur **Terminer** pour terminer la tâche.</span><span class="sxs-lookup"><span data-stu-id="b8aaa-111">Click **Finish** to complete the task.</span></span>
   
 

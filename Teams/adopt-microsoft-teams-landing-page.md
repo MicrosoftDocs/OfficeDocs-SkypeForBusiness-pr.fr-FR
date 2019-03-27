@@ -1,5 +1,6 @@
 ---
 title: Adopter Microsoft Teams
+ms.reviewer: ''
 description: Utilisez ces ressources d’adoption pour vous aider à planifier et déployer Microsoft Teams dans votre organisation.
 ms.topic: landing-page
 author: karuanag
@@ -15,12 +16,12 @@ MS.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8a06ae959f5372038be00737573e75065adb6f4e
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 7afbc40b97863bf1456f5654aa8a0c0aea4e69b5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464795"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889980"
 ---
 # <a name="adopt-microsoft-teams"></a>Adopter Microsoft Teams
 
@@ -155,8 +156,8 @@ Plans d’adoption peuvent être simples à complexe, en fonction de votre envir
                     <div class="cardText">
                         <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase1">Démarrer</a></h3>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-get-started">Prise en main</a></p>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-understand-teams-and-channels">Comprendre les équipes et les canaux</a></p>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-your-first-teams">Créer votre premières équipes</a></p>
+                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-understand-teams-and-channels">Présentation des équipes et des canaux</a></p>
+                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-your-first-teams">Créer votre première équipe</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-assess-readiness">Évaluez la culture et d’organisation</a></p>
                     </div>
                 </div>
@@ -174,11 +175,11 @@ Plans d’adoption peuvent être simples à complexe, en fonction de votre envir
                     </div>
                     <div class="cardText">
                         <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase2-experiment">Expérience</a></h3>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-create-champions-program">Créer votre programme champions</a></p>
+                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-create-champions-program">Créer votre programme de champions</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-governance-quick-start">Démarrage rapide de la gouvernance</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-define-usage-scenarios">Définir des scénarios d’utilisation</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-onboard-early-adopters">Premiers intégrées et les commentaires de collecter des informations</a></p>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-onboard-support">Prise en charge intégrée</a></p>
+                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-onboard-support">Prise en charge de l’intégration</a></p>
                     </div>
                 </div>
             </div>
@@ -196,9 +197,9 @@ Plans d’adoption peuvent être simples à complexe, en fonction de votre envir
                     <div class="cardText">
                         <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase3-enable">À l’échelle</a></h3>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-define-outcomes">Définir le résultat et la réussite</a></p>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-optimize-feedback-and-reporting">Optimiser les commentaires et création de rapports</a></p>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-drive-awareness">Présentation du lecteur et implémenter la formation</a></p>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-schedule-service-health-reviews">Planifier les analyses d’intégrité de service</a></p>
+                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-optimize-feedback-and-reporting">Optimiser les commentaires et la création de rapports</a></p>
+                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-drive-awareness">Faire connaître et implémenter une formation</a></p>
+                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-schedule-service-health-reviews">Programmer les évaluations de l’intégrité du service</a></p>
                     </div>
                 </div>
             </div>

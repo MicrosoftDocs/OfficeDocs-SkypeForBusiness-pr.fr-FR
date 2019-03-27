@@ -1,5 +1,6 @@
 ---
 title: Skype Entreprise Server 2015
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7bf70a49-a6db-4c93-bcbf-182e171a98e6
 description: 'Résumé : Explorez ces liens pour découvrir comment mettre en œuvre Skype pour Business Server 2015.'
-ms.openlocfilehash: bc7c8f586eaf0312d0a37e814634104dab4df324
-ms.sourcegitcommit: 4967c9b1010a444475dcfbdb6dd3c058494449d9
+ms.openlocfilehash: 4ec6dd19757c4a4d367146582cf9b05205662ed3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "30069638"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899763"
 ---
 # <a name="skype-for-business-server-2015"></a>Skype Entreprise Server 2015
 
@@ -136,7 +137,7 @@ Skype pour les entreprises est une plateforme de collaboration et de communicati
 
 ---
 
-<h2>Articles recommandés</h2>
+<h2>Articles suggérés</h2>
 <ul class="panelContent cardsW">
     <li>
         <div class="cardSize">
@@ -144,9 +145,9 @@ Skype pour les entreprises est une plateforme de collaboration et de communicati
                 <div class="card">
                     <div class="cardText">
                         <h3>Avant de commencer</h3>
-                        <p><a href="/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment" data-raw-source="[Requirements for your environment](/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment)">Requirements for your environment</a></p>
-                        <p><a href="/SkypeForBusiness/plan-your-deployment/network-requirements/network-requirements" data-raw-source="[Network requirements](/SkypeForBusiness/plan-your-deployment/network-requirements/network-requirements)">Conditions de réseau requises</a></p>
-                        <p><a href="/SkypeForBusiness/plan-your-deployment/clients-and-devices/clients-and-devices" data-raw-source="[Clients and devices](/SkypeForBusiness/plan-your-deployment/clients-and-devices/clients-and-devices)">Clients et appareils</a></p>
+                        <p><a href="/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment" data-raw-source="[Requirements for your environment](/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment)">Configuration requise pour votre environnement</a></p>
+                        <p><a href="/SkypeForBusiness/plan-your-deployment/network-requirements/network-requirements" data-raw-source="[Network requirements](/SkypeForBusiness/plan-your-deployment/network-requirements/network-requirements)">Configuration réseau requise</a></p>
+                        <p><a href="/SkypeForBusiness/plan-your-deployment/clients-and-devices/clients-and-devices" data-raw-source="[Clients and devices](/SkypeForBusiness/plan-your-deployment/clients-and-devices/clients-and-devices)">Clients et périphériques</a></p>
                     </div>
                 </div>
             </div>
@@ -158,7 +159,7 @@ Skype pour les entreprises est une plateforme de collaboration et de communicati
                 <div class="card">
                     <div class="cardText">
                         <h3>Installer et gérer</h3>
-                        <p><a href="/SkypeForBusiness/deploy/install/install" data-raw-source="[Install Skype for Business Server](/SkypeForBusiness/deploy/install/install)">Installation de Skype Entreprise Server</a></p>
+                        <p><a href="/SkypeForBusiness/deploy/install/install" data-raw-source="[Install Skype for Business Server](/SkypeForBusiness/deploy/install/install)">Installer Skype Entreprise Server</a></p>
                         <p><a href="/SkypeForBusiness/manage/manage" data-raw-source="[Manage Skype for Business Server](/SkypeForBusiness/manage/manage)">Gérer Skype Entreprise Server</a></p>
                      </div>
                 </div>

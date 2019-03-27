@@ -1,5 +1,6 @@
 ---
 title: 'Fusion héritée : résultats'
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,16 +12,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0ef58717-a7ce-4451-a6f3-1fe5a850ab31
 ROBOTS: NOINDEX, NOFOLLOW
-description: Pour commencer à fusionner un déploiement hérité avec Skype pour Business Server, cliquez sur Suivant. Pour plus d’informations sur l’exécution de l’Assistant Fusion du Générateur de topologies, voir le Générateur de fusion Assistant fusion à l’aide de topologie dans la documentation de Migration.
-ms.openlocfilehash: 965096d462bda1c8180acc91010799f68771a14d
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+description: Pour commencer à fusionner un déploiement hérité avec Skype pour Business Server, cliquez sur Suivant. Pour plus d’informations sur l’exécution de l’Assistant Fusion du générateur de topologie, reportez-vous à la rubrique Merge Using Topology Builder Merge Wizard de la documentation de migration.
+ms.openlocfilehash: 38ed50c5ca10c89a3ede5b610d81ffafa8840dcd
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23253495"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898299"
 ---
-# <a name="legacy-merge-results"></a><span data-ttu-id="299ed-104">Fusion héritée : résultats</span><span class="sxs-lookup"><span data-stu-id="299ed-104">Legacy Merge Results</span></span>
+# <a name="legacy-merge-results"></a><span data-ttu-id="fdba7-104">Fusion héritée : résultats</span><span class="sxs-lookup"><span data-stu-id="fdba7-104">Legacy Merge Results</span></span>
 
-<span data-ttu-id="299ed-105">Pour commencer à fusionner un déploiement hérité avec Skype pour Business Server, cliquez sur **suivant**.</span><span class="sxs-lookup"><span data-stu-id="299ed-105">To begin merging a legacy deployment with Skype for Business Server, click **Next**.</span></span> <span data-ttu-id="299ed-106">Pour plus d’informations sur l’exécution de l’Assistant Fusion du Générateur de topologies, voir [Le Générateur de fusion Assistant fusion à l’aide de topologie](https://technet.microsoft.com/library/c3f3c425-dab6-4dcd-bf0e-d7fde05f2ebf.aspx) dans la documentation de Migration.</span><span class="sxs-lookup"><span data-stu-id="299ed-106">For details about running the Topology Builder merge wizard, see [Merge Using Topology Builder Merge Wizard](https://technet.microsoft.com/library/c3f3c425-dab6-4dcd-bf0e-d7fde05f2ebf.aspx) in the Migration documentation.</span></span>
+<span data-ttu-id="fdba7-105">Pour commencer à fusionner un déploiement hérité avec Skype pour Business Server, cliquez sur **suivant**.</span><span class="sxs-lookup"><span data-stu-id="fdba7-105">To begin merging a legacy deployment with Skype for Business Server, click **Next**.</span></span> <span data-ttu-id="fdba7-106">Pour plus d’informations sur l’exécution de l’Assistant Fusion du générateur de topologie, reportez-vous à la rubrique [Merge Using Topology Builder Merge Wizard](https://technet.microsoft.com/library/c3f3c425-dab6-4dcd-bf0e-d7fde05f2ebf.aspx) de la documentation de migration.</span><span class="sxs-lookup"><span data-stu-id="fdba7-106">For details about running the Topology Builder merge wizard, see [Merge Using Topology Builder Merge Wizard](https://technet.microsoft.com/library/c3f3c425-dab6-4dcd-bf0e-d7fde05f2ebf.aspx) in the Migration documentation.</span></span>
 
 
