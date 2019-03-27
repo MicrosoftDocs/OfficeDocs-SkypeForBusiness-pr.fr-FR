@@ -1,5 +1,6 @@
 ---
 title: Sécurité de l'application mobile Skype Entreprise
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Apprenez à configurer la sécurité des applications mobiles pour vos utilisateurs. '
-ms.openlocfilehash: 03b6575826defd5bd4c8c7739a1975edaabe0752
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 0c07bbbe7d186774c4c8aa13d7fcb08bf81dcb63
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530614"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886830"
 ---
 # <a name="skype-for-business-mobile-app-security"></a>Sécurité de l'application mobile Skype Entreprise
 

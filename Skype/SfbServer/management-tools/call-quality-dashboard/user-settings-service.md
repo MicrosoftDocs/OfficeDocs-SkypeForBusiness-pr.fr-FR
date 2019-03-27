@@ -1,5 +1,6 @@
 ---
 title: Service de paramètres utilisateur pour le tableau de bord qualité appel (CQD)
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: eafeb54a-2574-415b-b991-a0ff0470d8c3
 description: 'Résumé : En savoir plus sur le Service de paramètres utilisateur, qui fait partie de l’API de référentiel pour appeler le tableau de bord qualité. Tableau de bord de qualité des appels est un outil de Skype pour Business Server.'
-ms.openlocfilehash: 00d0662e777ef2f13c9783fe4b79d5c582faa8af
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 8cb30c0f079834c14879e2ce6cbd14201f5bbdcb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531890"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888230"
 ---
 # <a name="user-settings-service-for-call-quality-dashboard-cqd"></a>Service de paramètres utilisateur pour le tableau de bord qualité appel (CQD)
  
@@ -37,7 +38,7 @@ Les opérations REST sont incluses dans le tableau suivant.
 
 |**Opération**|**Description**|
 |:-----|:-----|
-|[Obtenir les paramètres utilisateur](get-user-settings.md) <br/> |Obtenir les paramètres utilisateur renvoie une liste des paramètres pour un utilisateur spécifié.  <br/> |
-|[Obtenir les paramètres utilisateur](get-user-setting.md) <br/> |Obtenir le paramètre utilisateur renvoie un paramètre d’utilisateur unique.  <br/> |
+|[Obtention des paramètres utilisateur](get-user-settings.md) <br/> |Obtenir les paramètres utilisateur renvoie une liste des paramètres pour un utilisateur spécifié.  <br/> |
+|[Obtention d’un paramètre utilisateur](get-user-setting.md) <br/> |Obtenir le paramètre utilisateur renvoie un paramètre d’utilisateur unique.  <br/> |
    
 

@@ -1,5 +1,6 @@
 ---
-title: Table d’application dans Skype pour Business Server 2015
+title: Table de l’application dans Skype pour Business Server 2015
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -9,20 +10,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 30938426-e2f9-4735-a7f4-59baf7a7d7e6
-description: Cette table stocke des informations sur les divers processus dans Skype pour 2015 de serveur d’entreprise impliqués dans le routage et les connexions.
-ms.openlocfilehash: 92f7609d35d0c669c7eeca0fc641b5df0677eaed
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Cette table stocke des informations sur les divers processus Skype pour Business Server 2015 impliqués dans le routage et les connexions.
+ms.openlocfilehash: 3525943066845b485888bc0d467df7fd478d5bb8
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886822"
 ---
-# <a name="application-table-in-skype-for-business-server-2015"></a>Table d’application dans Skype pour Business Server 2015
+# <a name="application-table-in-skype-for-business-server-2015"></a>Table de l’application dans Skype pour Business Server 2015
  
-Cette table stocke des informations sur les divers processus dans Skype pour 2015 de serveur d’entreprise impliqués dans le routage et les connexions.
+Cette table stocke des informations sur les divers processus Skype pour Business Server 2015 impliqués dans le routage et les connexions.
   
-|**Colonne**|**Type de données**|**Index de la clé**|**Détails**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
 |:-----|:-----|:-----|:-----|
 |**ApplicationId** <br/> |int  <br/> |Principal  <br/> |Numéro unique identifiant cette application.  <br/> |
-|**Nom** <br/> |nvarchar(256)  <br/> | <br/> |Nom du composant serveur.  <br/> |
+|**Nom** <br/> |nvarchar(256)  <br/> | <br/> |Nom du composant du serveur.  <br/> |
    
 

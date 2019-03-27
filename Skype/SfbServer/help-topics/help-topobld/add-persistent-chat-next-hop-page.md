@@ -1,5 +1,6 @@
 ---
 title: Page Ajouter un tronçon suivant de la conversation permanente
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,15 +12,16 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a47c824d-a76a-413b-9335-bfe5ffef15db
-description: Cette page permet de définir le tronçon suivant à partir du serveur du serveur de Chat persistant dans votre déploiement. Pour plus d’informations sur le déploiement du serveur de conversation persistant, consultez Déploiement de serveur Chat persistant dans Skype pour Business Server 2015.
-ms.openlocfilehash: 3d45ab9f3fbde35925b7c7061cdae7098b0a1108
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Utilisez cette page pour définir le tronçon suivant à partir du serveur Persistent Chat Server dans votre déploiement. Pour plus d’informations sur le déploiement des serveurs de conversation permanente, voir déployer un serveur de conversation permanente dans Skype pour Business Server 2015.
+ms.openlocfilehash: 960ee8680f8655888a17fc1889309d93e03ef847
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891532"
 ---
 # <a name="add-persistent-chat-next-hop-page"></a>Page Ajouter un tronçon suivant de la conversation permanente
  
-Cette page permet de définir le tronçon suivant à partir du serveur du serveur de Chat persistant dans votre déploiement. Pour plus d’informations sur le déploiement du serveur de conversation persistant, consultez [Déploiement de serveur Chat persistant dans Skype pour Business Server 2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md). 
+Utilisez cette page pour définir le tronçon suivant à partir du serveur Persistent Chat Server dans votre déploiement. Pour plus d’informations sur le déploiement des serveurs de conversation permanente, voir [Déployer un serveur de conversation permanente dans Skype pour Business Server 2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md). 
   
 

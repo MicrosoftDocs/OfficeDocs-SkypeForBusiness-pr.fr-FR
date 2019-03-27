@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Lisez cette rubrique pour en savoir plus sur la gestion des systèmes de salle Skype v2, la nouvelle génération de systèmes de salle Skype.
-ms.openlocfilehash: 4c94ffbcb83e5e208e5cd7278af54e157b9f478c
-ms.sourcegitcommit: ff100b32fa92fc878f1404dace266d956262c24d
+ms.openlocfilehash: 29c3af2b73f9a8b1277abdc6a47afeb69cb26ef2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "30720423"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889321"
 ---
 # <a name="skype-room-systems-v2-maintenance-and-operations"></a>Opérations et maintenance v2 de systèmes de salle de Skype 
  
@@ -23,7 +23,7 @@ Lisez cette rubrique pour en savoir plus sur la gestion des systèmes de salle S
   
 Systèmes de salle Skype v2 est conçue pour transformer la salle de réunion en une riche, collaborative Skype pour une expérience la solution conférence le plus récent de Microsoft. Les utilisateurs apprécieront son interface Skype Entreprise familière, et les administrateurs informatiques approuveront la facilité de déploiement et de gestion de l’application de réunion Skype sous Windows 10. Systèmes de salle Skype v2 est conçu pour tirer parti de l’équipement existant comme panneaux LCD pour faciliter d’installation pour intégrer Skype pour les entreprises à la salle de réunion.
   
-Avec une configuration supplémentaire, gestion à distance est possible à l’aide de la Suite de gestion des opérations Microsoft (OMS) comme décrit dans [Plan Skype salle v2 SMS avec OMS](../../plan-your-deployment/clients-and-devices/oms-management.md), [déployer Skype salle v2 SMS avec OMS](../../deploy/deploy-clients/with-oms.md)et [gérer Périphériques v2 de systèmes de salle Skype avec OMS](oms.md). Vous pouvez également [Manage a Skype Room Systems v2 console settings remotely with an XML configuration file](xml-config-file.md), qui inclut l';application d';un thème d';affichage personnalisé. 
+Avec une configuration supplémentaire, la gestion à distance est possible à l’aide de Microsoft Azure Monitor comme décrit dans [Plan Skype salle v2 SMS avec Azure moniteur](../../plan-your-deployment/clients-and-devices/azure-monitor.md), [déployer Skype salle v2 SMS avec Azure moniteur](../../deploy/deploy-clients/azure-monitor.md), [gérer Périphériques v2 de systèmes de salle Skype avec Azure moniteur](azure-monitor.md). Vous pouvez également [Manage a Skype Room Systems v2 console settings remotely with an XML configuration file](xml-config-file.md), qui inclut l';application d';un thème d';affichage personnalisé. 
   
 ## <a name="collecting-logs-on-skype-room-systems-v2"></a>Collecte de journaux sur Skype Room Systems v2
 <a name="Logs"> </a>

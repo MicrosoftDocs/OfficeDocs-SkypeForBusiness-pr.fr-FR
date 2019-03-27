@@ -1,5 +1,6 @@
 ---
 title: Afficher les utilisateurs une stratégie de voix
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: f259a753-cfdc-4fa7-ba35-6fb812e1552a
 ROBOTS: NOINDEX, NOFOLLOW
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: 9d9030ae9b86d5165114db6ea78184ede8343575
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 5382f4bea05768e744422fef9e7e18a9516336d7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23246023"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890156"
 ---
-# <a name="users-view-voice-policy"></a>Utilisateurs : Afficher une stratégie de voix
+# <a name="users-view-voice-policy"></a>Utilisateurs : afficher une stratégie de voix
 
 Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
 

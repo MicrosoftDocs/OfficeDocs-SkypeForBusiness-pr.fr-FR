@@ -1,5 +1,6 @@
 ---
-title: Élément de la mise à jour
+title: Mettre à jour un élément
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,20 +10,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b1c15c56-cdae-4f3e-838a-52f0940cf729
 description: 'Résumé : Découvrez l’opération élément mise à jour, qui fait partie du Service de l’élément. Le Service de l’élément fait partie de l’API de référentiel pour appeler le tableau de bord qualité. Tableau de bord de qualité des appels est un outil de Skype pour Business Server.'
-ms.openlocfilehash: 5839118dc6e907696d4ce3e9adfbc58504808fac
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 3ac56b8761f565663ffaa689c666e285b2347ed5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532224"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887948"
 ---
-# <a name="update-item"></a>Élément de la mise à jour
+# <a name="update-item"></a>Mettre à jour un élément
  
 **Résumé :** Obtenir des informations sur l’opération élément mise à jour, qui fait partie du Service de l’élément. Le Service de l’élément fait partie de l’API de référentiel pour appeler le tableau de bord qualité. Tableau de bord de qualité des appels est un outil de Skype pour Business Server.
   
 L’opération de mise à jour élément fait partie du Service d’élément dans l’API de référentiel pour appeler le tableau de bord qualité.
   
-## <a name="update-item"></a>Élément de la mise à jour
+## <a name="update-item"></a>Mettre à jour un élément
 
 Élément de la mise à jour met à jour un élément spécifique dans le référentiel.
   

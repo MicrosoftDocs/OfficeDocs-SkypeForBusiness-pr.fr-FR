@@ -1,5 +1,6 @@
 ---
 title: Créez des itinéraires interrégional réseau dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5555262a-a502-4b01-9593-836dd30064f5
 description: Créer ou modifier des itinéraires interrégional réseau, qui sont utilisés par le contrôle d’admission des appels d’appel Enterprise Voice dans Skype pour Business Server.
-ms.openlocfilehash: db3447e28ad038dd9976959da62c347c911234c9
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 5b792a9d1471e8925a44bcc5c0a1026e79aa0a0c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887483"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885567"
 ---
 # <a name="create-network-interregional-routes-in-skype-for-business-server"></a>Créez des itinéraires interrégional réseau dans Skype pour Business Server
  
@@ -32,9 +33,9 @@ Dans l’exemple de topologie, les itinéraires interrégion réseau doivent êt
   
 ### <a name="to-create-network-interregional-routes-by-using-skype-for-business-server-management-shell"></a>Pour créer des itinéraires interrégional réseau à l’aide de Skype pour Business Server Management Shell
 
-1. Démarrez Skype Entreprise Server Management Shell : cliquez successivement sur **Démarrer**, **Tous les programmes**, **Skype Entreprise 2015**, puis sur **Skype Entreprise Server Management Shell**.
+1. Démarrez le Skype pour Business Server Management Shell : cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Skype pour Business 2015**, puis cliquez sur **Skype pour Business Server Management Shell**.
     
-2. Exécutez l’applet de commande **New-CsNetworkInterRegionRoute** pour définir les itinéraires requis. Par exemple, exécutez :
+2. Exécutez l’applet de commande **New-CsNetworkInterRegionRoute** pour définir les itinéraires nécessaires. Par exemple, exécutez :
     
    ```
    New-CsNetworkInterRegionRoute -Identity NorthAmerica_EMEA_Route -NetworkRegionID1 NorthAmerica -NetworkRegionID2 EMEA -NetworkRegionLinkIDs "NA-EMEA-LINK"
@@ -78,7 +79,7 @@ Dans l’exemple de topologie, les itinéraires interrégion réseau doivent êt
     
 ## <a name="see-also"></a>Voir aussi
 
-[Nouvelle-CsNetworkInterRegionRoute.](https://docs.microsoft.com/powershell/module/skype/new-csnetworkinterregionroute?view=skype-ps)
+[New-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/new-csnetworkinterregionroute?view=skype-ps)
   
 [Get-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/get-csnetworkinterregionroute?view=skype-ps)
   

@@ -1,5 +1,6 @@
 ---
 title: Planification du contournement de média dans Skype pour les entreprises
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9ea090b3-f607-46f7-97dd-2510052524e5
 description: Les décisions nécessaires à la planification pour le média de contournement dans Skype pour Business Server Enterprise Voice. Inclut l’interaction avec le contrôle d’admission des appels.
-ms.openlocfilehash: b9cb62e8153f7eb54159637954ea13cda72b6817
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 26cf20fcd7b8378d99da21be46bd6ca219b82196
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885314"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884862"
 ---
 # <a name="plan-for-media-bypass-in-skype-for-business"></a>Planification du contournement de média dans Skype pour les entreprises
 
@@ -71,7 +72,7 @@ Uniquement Lync 2010 ou plus récente des clients et périphériques prend en ch
 
 Vous devez configurer la déviation du trafic multimédia à la fois au niveau global et au niveau de chaque jonction PSTN. Lorsque vous activez la déviation du trafic multimédia au niveau global, vous avez le choix entre deux options : **Toujours ignorer** et **Utiliser la configuration des sites et des régions**.
 
-Comme son nom l’indique, signifie **Toujours ignorer** que contournement sont tentées pour tous les appels PSTN. **Toujours ignorer** est utilisée pour les déploiements où il n’est pas nécessaire pour activer le contrôle d’admission des appels, ni est il nécessaire de spécifier les informations de configuration détaillées concernant l’heure multimédia contournement de média. En outre, **Toujours ignorer** est utilisée lorsqu’il existe une connectivité totale entre les clients et passerelles PSTN. Dans cette configuration, tous les sous-réseaux sont mappés à un et qu’un seul ID de contournement, qui est calculé par le système.
+As the name suggests, **Always Bypass** means that bypass will be attempted for all PSTN calls. **Always Bypass** is used for deployments where there is no need to enable call admission control, nor is there a need to specify detailed configuration information regarding when to attempt media bypass. Furthermore, **Always Bypass** is used when there is full connectivity between clients and PSTN gateways. In this configuration, all subnets are mapped to one and only one bypass ID, which is computed by the system.
 
 L’option **Utiliser la configuration des sites et des régions** associe l’ID de contournement à la configuration de site ou de région chargée de prendre la décision relative au contournement. Cette configuration présente l’avantage d’apporter la flexibilité de configurer le contournement pour la plupart des topologies courantes. Elle permet de contrôler de manière précise quand le contournement doit se produire et prend en charge les interactions avec le contrôle d’admission des appels (CAC). Le système tente de vous faciliter la tâche en affectant automatiquement des ID de contournement comme indiqué ci-dessous.
 
@@ -101,7 +102,7 @@ La déviation du trafic multimédia et le contrôle d’admission des appels fon
 
     Même si le contrôle d’admission des appels est désactivé globalement, la stratégie de bande passante doit être définie pour chaque site et liaison si vous voulez utiliser la configuration site-et-région pour décider d’appliquer le contournement ou non. La valeur réelle de la contrainte de bande passante ou son modalité n’a aucune importance. L’objectif est que le système calcule automatiquement différents ID de contournement à associer à différents emplacements qui ne sont pas correctement connectés. Définir une restriction de bande passante signifie par définition qu’une liaison n’est pas correctement connectée.
 
-- Le contrôle d’admission des appels est activé et la déviation du trafic multimédia n’est pas activée. Cela s’applique uniquement lorsque toutes les passerelles et les PBX IP ne sont pas correctement connectés ou ne remplissent pas toutes les conditions pour la déviation du trafic multimédia. Pour plus d’informations sur la configuration requise pour le contournement de média, voir [Configuration requise pour le contournement de média](https://technet.microsoft.com/library/6162a204-0e7c-460a-8eb2-e592c6590a8a.aspx).
+- Le contrôle d’admission des appels est activé et la déviation du trafic multimédia n’est pas activée. Cela s’applique uniquement lorsque toutes les passerelles et les PBX IP ne sont pas correctement connectés ou ne remplissent pas toutes les conditions pour la déviation du trafic multimédia. Pour plus d’informations sur les conditions requises pour la déviation du trafic multimédia, reportez-vous à [Requirements for Media Bypass](https://technet.microsoft.com/library/6162a204-0e7c-460a-8eb2-e592c6590a8a.aspx).
 
 ## <a name="technical-requirements"></a>Configuration technique requise
 

@@ -1,5 +1,6 @@
 ---
 title: Configurer un lien de région réseau créer une nouvelle ou en modifier une existant
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 4c4225d4-3a51-4f54-a6cb-c262e07c51fd
 ROBOTS: NOINDEX, NOFOLLOW
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: 3fa2ee9effcbdbfd9894375cb3cea2bd42a72daa
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: ac0ce6806f89832507946b8f0d1b1ee4b149f5dd
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23260649"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892017"
 ---
-# <a name="configure-a-network-region-link-create-new-or-edit-existing"></a>Configurer un lien de région réseau : créer une nouvelle ou en modifier une existant
+# <a name="configure-a-network-region-link-create-new-or-edit-existing"></a>Configurer un lien de région réseau : en créer une autre ou en modifier une existante
 
 Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
 

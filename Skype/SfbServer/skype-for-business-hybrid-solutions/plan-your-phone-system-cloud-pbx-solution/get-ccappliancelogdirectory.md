@@ -1,5 +1,6 @@
 ---
 title: Get-CcApplianceLogDirectory
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8f16d8ea-8161-4b07-9c79-d57e786b3e78
 description: L’applet de commande Get-CcApplianceLogDirectory affiche l’annuaire actuel regroupant les journaux de l’appliance de la version Cloud Connector de Skype Entreprise.
-ms.openlocfilehash: 9b7d4853deb9ab16c7ae61279a20a30778774072
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: d1298454bb347356718fdf24d6761acfea1b71b1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890359"
 ---
 # <a name="get-ccappliancelogdirectory"></a>Get-CcApplianceLogDirectory
  
@@ -33,9 +35,9 @@ Aucun
 ## <a name="examples"></a>Exemples
 <a name="Examples"> </a>
 
-### <a name="example-1"></a>Exemple 1
+### <a name="example-1"></a>Exemple 1
 
-L’exemple suivant affiche le dossier en cours où sont stockés les journaux de l’appliance en cours du connecteur du nuage :
+L’exemple suivant montre le dossier actif où sont stockés les journaux de l’application en cours du nuage connecteur :
   
 ```
 Get-CcApplianceLogDirectory
@@ -44,7 +46,7 @@ Get-CcApplianceLogDirectory
 ## <a name="detailed-description"></a>Description détaillée
 <a name="DetailedDescription"> </a>
 
-L’applet de commande Get-CcApplianceLogDirectory affiche le répertoire en cours où sont stockés les journaux pour un appareil de connecteur de nuage. Le dossier par défaut est C:\Users\%userprofile%\CloudConnector\ApplianceRoot\Logs. 
+L’applet de commande Get-CcApplianceLogDirectory indique le répertoire actif où sont stockés les journaux pour une solution de nuage connecteur. Le dossier par défaut est C:\Users\%userprofile%\CloudConnector\ApplianceRoot\Logs. 
   
 Vous pouvez modifier l’annuaire en utilisant l’applet de commande Set-CcApplianceDirectory.  
   
@@ -63,6 +65,6 @@ Cette commande renvoie un chemin d’accès.
 ## <a name="see-also"></a>Voir aussi
 <a name="ReturnTypes"> </a>
 
-[Ensemble-CcApplianceDirectory](set-ccappliancedirectory.md)
+[Set-CcApplianceDirectory](set-ccappliancedirectory.md)
   
 

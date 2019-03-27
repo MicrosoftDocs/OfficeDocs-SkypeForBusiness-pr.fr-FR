@@ -1,5 +1,6 @@
 ---
 title: Inclure le service de sécurité dans Skype pour Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4b1d9125-7488-419b-85dd-a8dd3ab5add3
 description: Planifiez la façon d’inclure le bureau de sécurité de votre organisation dans un déploiement E9-1-1, dans Skype pour Business Server Enterprise Voice.
-ms.openlocfilehash: 96c7342737b755338cd8456f26e7b3aa4b82884f
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 7f6f6fd861f49158e7801ada42052e287ade4f87
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23881839"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884817"
 ---
 # <a name="include-the-security-desk-in-skype-for-business-server"></a>Inclure le service de sécurité dans Skype pour Business Server
  

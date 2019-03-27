@@ -1,5 +1,6 @@
 ---
 title: Autoriser les utilisateurs à contacter des utilisateurs externes de Skype Entreprise
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -26,12 +27,12 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'See how to configure Skype for Business to let users talk to users in another organization, or let outside contacts to them. '
-ms.openlocfilehash: eaac8426677268e526f622b477caff062d81deef
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 24cedb4a9fd612c3aa0c4886a9a35dd89b52fbe7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533197"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887592"
 ---
 # <a name="allow-users-to-contact-external-skype-for-business-users"></a>Autoriser les utilisateurs à contacter des utilisateurs externes de Skype Entreprise
 

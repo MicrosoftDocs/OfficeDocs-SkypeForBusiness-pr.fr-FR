@@ -1,5 +1,6 @@
 ---
 title: Ajouter un magasin de fichiers
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 4e144ad2-6d28-4fad-8f01-2758f23e79db
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Pour définir un nouveau magasin de fichiers, spécifiez les éléments suivants :'
-ms.openlocfilehash: 7ae1c5cf7b4afaaf16550a1917cb7dff3295d6d7
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: fbdbc78c5982172d579912682d5476752f849c55
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21058513"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884802"
 ---
 # <a name="add-file-store"></a>Ajouter un magasin de fichiers
  

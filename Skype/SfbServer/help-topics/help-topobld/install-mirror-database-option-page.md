@@ -1,5 +1,6 @@
 ---
-title: Installer la Page Option de base de données miroir
+title: Page des options Installer une base de données miroir
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7500896a-14ea-4b11-aaee-be3d81314536
 description: 'Vous configurez les paramètres de mise en miroir de base de données en définissant les éléments suivants :'
-ms.openlocfilehash: d87231b21aea86b4d9cee15cd1cc182d6610e0ce
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 2a468333fff6cde69ce96eaf3d9170500bfb6648
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375992"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887535"
 ---
-# <a name="install-mirror-database-option-page"></a>Installer la Page Option de base de données miroir
+# <a name="install-mirror-database-option-page"></a>Page des options Installer une base de données miroir
  
 Vous configurez les **Paramètres de mise en miroir de base de données** en définissant les éléments suivants :
   
@@ -32,7 +33,7 @@ Vous configurez les **Paramètres de mise en miroir de base de données** en dé
   
   **Annuler** : permet d’annuler les modifications et de fermer la boîte de dialogue.
   
-  **Aide** : permet d’afficher cet écran d’aide.
+  **Aide** permet d’afficher cet écran d’aide.
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -1,5 +1,6 @@
 ---
 title: À l’aide de la Skype pour Business Server 2015 Stress and Performance Tool
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 ms.date: 2/13/2018
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 93f42230-24a2-418d-9770-bf4670a9d78f
 description: Afin d’exécuter la Skype pour Business Server 2015 Stress and Performance Tool, vous aurez besoin pour être en mesure de gérer les utilisateurs, contacts et les profils utilisateur, configurer l’outil pour l’exécution et puis examinez la sortie ou les résultats produits par l’outil.
-ms.openlocfilehash: 829bedbd2a042234e67285045ac67cff30064936
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 7ce25ec13af020734e0784392e457f96399a2398
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375438"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884841"
 ---
 # <a name="using-the-skype-for-business-server-2015-stress-and-performance-tool"></a>À l’aide de la Skype pour Business Server 2015 Stress and Performance Tool
  
@@ -296,7 +297,7 @@ Vos options sont les suivants :
 - **Serveur de médiation et RTC-** Chaque serveur de médiation que vous souhaitez utiliser doit son propre simulator PSTN. Une fois que vous avez déterminé le client que vous allez utiliser pour le simulateur, configuration de votre serveur de médiation pour acheminer à l’ordinateur sur le simulateur PSTN vous appelle configuré. Cliquez sur le bouton **Ajouter** pour configurer une valeur pour le serveur de médiation.
     
     > [!NOTE]
-    > Chaque scénario a un bouton Avancé situé en regard de son. Boîtes de dialogue avancées contiennent des paramètres spécifiques pour chaque scénario qui permettent la personnalisation et de modifient le comportement de la Stress and Performance Tool. > Pour chaque scénario sous l’onglet voix scénarios, si la valeur de niveau de charge est **personnalisé**, puis le taux de conversation correspond à l’aide du champ correspondant dans la boîte de dialogue Paramètres avancés. Le nom de champ peut varier en fonction du scénario, mais la description du champ indique : *Remarque Ce numéro sera utilisé uniquement si l’option personnalisé est sélectionnée dans le menu de liste déroulante* .
+    > Chaque scénario a un bouton Avancé situé en regard de son. Boîtes de dialogue avancées contiennent des paramètres spécifiques pour chaque scénario qui permettent la personnalisation et de modifient le comportement de la Stress and Performance Tool. > pour chaque scénario sous l’onglet voix scénarios, si la valeur du niveau de la charge est **personnalisé**, le taux de conversation est calculé à l’aide du champ correspondant dans la boîte de dialogue Paramètres avancés. Le nom de champ peut varier en fonction du scénario, mais la description du champ indique : *Remarque Ce numéro sera utilisé uniquement si l’option personnalisé est sélectionnée dans le menu de liste déroulante* .
   
 #### <a name="web-app-tab"></a>Onglet de l’application Web
 
@@ -315,7 +316,7 @@ Web application prend en charge les scénarios de conférence via le serveur Uni
 - **Conférence vocale-** Sélectionnez une valeur pour le niveau de charge.
     
 > [!NOTE]
-> Chacun des scénarios possède un bouton **d’Options avancées** situé en regard de son. Boîtes de dialogue avancées contiennent des valeurs spécifiques à chaque scénario qui modifient le comportement de la Stress and Performance Tool et activer la personnalisation. > pour chacun des scénarios d’application Web, si le niveau de charge est **personnalisé**, puis la valeur spécifiée dans le ** ConversationsPerHour** champ est utilisé à la place la valeur par défaut.
+> Chacun des scénarios possède un bouton **d’Options avancées** situé en regard de son. Boîtes de dialogue avancées contiennent des valeurs spécifiques à chaque scénario qui modifient le comportement de la Stress and Performance Tool et activer customization.> pour chacun des scénarios d’application Web, si le niveau de charge est **personnalisé**, puis la valeur spécifiée dans le ** ConversationsPerHour** champ est utilisé à la place la valeur par défaut.
   
 #### <a name="mobility-tab"></a>Onglet de mobilité
 
@@ -330,7 +331,7 @@ Les options sont les suivants :
 - **Présence et Audio/P2P instantanée messagerie-** Sélectionnez une valeur pour le niveau de charge activer la simulation de mobilité.
     
 > [!NOTE]
-> Chacun des scénarios possède un bouton **d’Options avancées** situé en regard de son. Boîtes de dialogue avancées contiennent des valeurs spécifiques à chaque scénario qui modifient le comportement de la Stress and Performance Tool et activer la personnalisation. > pour chacun des scénarios de mobilité, si le niveau de charge est **personnalisé**, puis la valeur spécifiée dans le ** ConversationsPerHour** champ est utilisé à la place la valeur par défaut.
+> Chacun des scénarios possède un bouton **d’Options avancées** situé en regard de son. Boîtes de dialogue avancées contiennent des valeurs spécifiques à chaque scénario qui modifient le comportement de la Stress and Performance Tool et activer customization.> pour chacun des scénarios de mobilité, si le niveau de charge est **personnalisé**, puis la valeur spécifiée dans le ** ConversationsPerHour** champ est utilisé à la place la valeur par défaut.
   
 #### <a name="summary-tab"></a>Onglet Résumé
 

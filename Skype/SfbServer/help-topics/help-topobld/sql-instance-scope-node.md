@@ -1,5 +1,6 @@
 ---
 title: Nœud d’étendue d’une instance SQL
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,18 +12,19 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bd270488-ceb9-4920-bef3-ed9fe8eff36c
-description: 'Ce nœud affiche le nom de domaine complet (FQDN) de ce de Microsoft SQL Server et l’instance de SQL Server sur ce serveur et les pools de serveurs qui utilisent ce de SQL Server. Vous pouvez effectuer les actions suivantes :'
-ms.openlocfilehash: bd89b0fa262b24b4d4f64d2cf549c980965cb009
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Ce nœud affiche le nom de domaine complet (FQDN) de Microsoft SQL Server et l’instance de SQL Server sur ce serveur et les pools de serveurs qui utilisent ce serveur SQL Server. Vous pouvez effectuer les actions suivantes :'
+ms.openlocfilehash: 18da478ce1cda34c6ce36c5cfc10141d57878c3b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889335"
 ---
 # <a name="sql-instance-scope-node"></a>Nœud d’étendue d’une instance SQL
  
-Ce nœud affiche le nom de domaine complet (FQDN) de ce de Microsoft SQL Server et l’instance de SQL Server sur ce serveur et les pools de serveurs qui utilisent ce de SQL Server. Vous pouvez effectuer les actions suivantes :
+Ce nœud affiche le nom de domaine complet (FQDN) de Microsoft SQL Server et l’instance de SQL Server sur ce serveur et les pools de serveurs qui utilisent ce serveur SQL Server. Vous pouvez effectuer les actions suivantes :
   
-- **Modifier les propriétés** Ouvre la page **Modifier les propriétés** de ce serveur, où vous pouvez modifier le nom de domaine complet du serveur (si la topologie n’est pas déjà publiée) et l’instance de SQL Server à utiliser.
+- **Modifier les propriétés** Ouvre la page **Modifier les propriétés** de ce serveur, où vous pouvez modifier le nom de domaine complet du serveur (si la topologie n’est pas déjà publiée) et l’instance de SQL Server pour être utilisé.
     
 - **Supprimer** : supprime le serveur de la topologie.
     
