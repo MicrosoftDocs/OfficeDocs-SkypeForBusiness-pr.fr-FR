@@ -1,5 +1,6 @@
 ---
-title: Conversation permanente (outil de planification)
+title: Persistent Chat (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,17 +13,18 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ec111e2e-15dd-4b9b-ba9c-6125139319a1
-description: Serveur de conversation permanent permet aux utilisateurs de participer à des conversations à plusieurs participants, basé sur la rubrique qui persistent dans le temps.
-ms.openlocfilehash: 17cd76ddc620b8afadc49411066ba760b625187f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Serveur de conversation permanente permet aux utilisateurs de participer à des conversations à plusieurs, par sujet qui sont conservées au fil du temps.
+ms.openlocfilehash: 076afe1f1322e8724ddd7d59c147d3ea34c05452
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877971"
 ---
-# <a name="persistent-chat-planning-tool"></a><span data-ttu-id="90d73-103">Conversation permanente (outil de planification)</span><span class="sxs-lookup"><span data-stu-id="90d73-103">Persistent Chat (Planning Tool)</span></span>
+# <a name="persistent-chat-planning-tool"></a><span data-ttu-id="47b3f-103">Persistent Chat (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="47b3f-103">Persistent Chat (Planning Tool)</span></span>
  
-<span data-ttu-id="90d73-104">Serveur de conversation permanent permet aux utilisateurs de participer à des conversations à plusieurs participants, basé sur la rubrique qui persistent dans le temps.</span><span class="sxs-lookup"><span data-stu-id="90d73-104">Persistent Chat Server enables users to participate in multiparty, topic-based conversations that persist over time.</span></span>
+<span data-ttu-id="47b3f-104">Serveur de conversation permanente permet aux utilisateurs de participer à des conversations à plusieurs, par sujet qui sont conservées au fil du temps.</span><span class="sxs-lookup"><span data-stu-id="47b3f-104">Persistent Chat Server enables users to participate in multiparty, topic-based conversations that persist over time.</span></span>
   
-<span data-ttu-id="90d73-105">Pour plus d’informations sur la préparation de votre environnement de serveur de conversation persistant, voir [planification de serveur Chat persistant dans Skype pour Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md).</span><span class="sxs-lookup"><span data-stu-id="90d73-105">For more details about preparing your environment for Persistent Chat Server, see [Plan for Persistent Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md).</span></span>
+<span data-ttu-id="47b3f-105">Pour plus d’informations sur la préparation de votre environnement de serveur de conversation permanente, voir [Plan for Persistent Chat Server dans Skype pour Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md).</span><span class="sxs-lookup"><span data-stu-id="47b3f-105">For more details about preparing your environment for Persistent Chat Server, see [Plan for Persistent Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md).</span></span>
   
 

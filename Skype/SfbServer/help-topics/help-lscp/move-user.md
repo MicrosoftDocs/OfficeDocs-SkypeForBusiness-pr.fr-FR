@@ -1,5 +1,6 @@
 ---
 title: Déplacement d’un utilisateur
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,17 +13,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fb8e30aa-6b3c-4c8f-b22f-02db9e5fb8c0
 description: Dans la boîte de dialogue Déplacer des utilisateurs, vous pouvez sélectionner un pool de destination vers lequel déplacer l’utilisateur sélectionné.
-ms.openlocfilehash: 97c207df2a72f5cf746b0274e213af83a223aa8a
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 16ef7e1b696de03930a9b2930cdee06402bc0d86
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23250996"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874541"
 ---
-# <a name="move-user"></a><span data-ttu-id="9d848-103">Déplacement d’un utilisateur</span><span class="sxs-lookup"><span data-stu-id="9d848-103">Move User</span></span>
+# <a name="move-user"></a><span data-ttu-id="d9d37-103">Déplacement d’un utilisateur</span><span class="sxs-lookup"><span data-stu-id="d9d37-103">Move User</span></span>
 
-<span data-ttu-id="9d848-104">Dans la boîte de dialogue **Déplacer des utilisateurs**, vous pouvez sélectionner un pool de destination vers lequel déplacer l’utilisateur sélectionné.</span><span class="sxs-lookup"><span data-stu-id="9d848-104">On the **Move Users** page, you can select a destination pool to move the selected user to.</span></span>
+<span data-ttu-id="d9d37-104">Dans la boîte de dialogue **Déplacer des utilisateurs**, vous pouvez sélectionner un pool de destination vers lequel déplacer l’utilisateur sélectionné.</span><span class="sxs-lookup"><span data-stu-id="d9d37-104">On the **Move Users** page, you can select a destination pool to move the selected user to.</span></span>
 
-<span data-ttu-id="9d848-105">Pour plus d’informations sur le déplacement d’utilisateurs, voir [Déplacer des utilisateurs vers un autre Pool](https://technet.microsoft.com/library/e7b4968c-0e9d-4d56-b5f1-9edf0f7206f8.aspx).</span><span class="sxs-lookup"><span data-stu-id="9d848-105">For more information about moving users, see [Move Users to Another Pool](https://technet.microsoft.com/library/e7b4968c-0e9d-4d56-b5f1-9edf0f7206f8.aspx).</span></span>
+<span data-ttu-id="d9d37-105">Pour plus d’informations sur le déplacement des utilisateurs, reportez-vous à la rubrique [Move Users to Another Pool](https://technet.microsoft.com/library/e7b4968c-0e9d-4d56-b5f1-9edf0f7206f8.aspx).</span><span class="sxs-lookup"><span data-stu-id="d9d37-105">For more information about moving users, see [Move Users to Another Pool](https://technet.microsoft.com/library/e7b4968c-0e9d-4d56-b5f1-9edf0f7206f8.aspx).</span></span>
 
 

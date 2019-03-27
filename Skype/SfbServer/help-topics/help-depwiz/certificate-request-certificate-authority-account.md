@@ -1,5 +1,6 @@
 ---
-title: Demande de certificat (compte d’autorité de certificat)
+title: Demande de certificat (compte d’autorité de certification)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,15 +13,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6251322d-ac36-4760-b467-bcd543af22aa
 description: Pour soumettre une demande, votre autorité de certification (CA) peut-être nécessiter des informations d’identification autres que ceux de l’utilisateur que vous êtes connecté en tant que. Pour autoriser une demande de certificat en tant qu’utilisateur différent, activez les case à cocher spécifier autres informations d’identification de l’autorité de certification, puis tapez le nom d’utilisateur ou domaine\nom d’utilisateur pour un utilisateur qui peut demander le certificat. Dans la zone de texte mot de passe, tapez le mot de passe pour l’utilisateur que vous avez spécifié. Le nom d’utilisateur et le mot de passe sont ensuite envoyés dans le cadre du processus de demande de certificat, mais pas dans la demande de certificat réel, à une autorité de certification en ligne.
-ms.openlocfilehash: 65824674fb95c3894061f83e6c2a572eaf8b0d78
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 4580b402198da6d11355675d862387e6fdeb80a4
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20995904"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875741"
 ---
-# <a name="certificate-request-certificate-authority-account"></a><span data-ttu-id="188ca-106">Demande de certificat (compte d’autorité de certificat)</span><span class="sxs-lookup"><span data-stu-id="188ca-106">Certificate Request (Certificate Authority Account)</span></span>
+# <a name="certificate-request-certificate-authority-account"></a><span data-ttu-id="5802c-106">Demande de certificat (compte d’autorité de certification)</span><span class="sxs-lookup"><span data-stu-id="5802c-106">Certificate Request (Certificate Authority Account)</span></span>
  
-<span data-ttu-id="188ca-107">Pour soumettre une demande, votre autorité de certification (CA) peut-être nécessiter des informations d’identification autres que ceux de l’utilisateur que vous êtes connecté en tant que.</span><span class="sxs-lookup"><span data-stu-id="188ca-107">To submit a request, your certification authority (CA) may require credentials other than the ones for the user that you are currently logged in as.</span></span> <span data-ttu-id="188ca-108">Pour autoriser une demande de certificat en tant qu’utilisateur différent, activez la case à cocher **spécifier les informations d’identification alternatives pour l’autorité de certification**, puis tapez le nom d’utilisateur ou le _domaine_\ _nom d’utilisateur_ pour un utilisateur qui peut demander le certificat .</span><span class="sxs-lookup"><span data-stu-id="188ca-108">To allow a certificate request as a different user, select the check box **Specify alternate credentials for the certification authority**, and then type the user name or  _domain_\ _username_ for a user who can request the certificate.</span></span> <span data-ttu-id="188ca-109">Dans la zone de texte **mot de passe** , tapez le mot de passe pour l’utilisateur que vous avez spécifié.</span><span class="sxs-lookup"><span data-stu-id="188ca-109">In the **Password** text box, type the password for the user that you specified.</span></span> <span data-ttu-id="188ca-110">Le nom d’utilisateur et le mot de passe sont ensuite envoyés dans le cadre du processus de demande de certificat, mais pas dans la demande de certificat réel, à une autorité de certification en ligne.</span><span class="sxs-lookup"><span data-stu-id="188ca-110">The user name and password are then sent as part of the certificate request process, but not in the actual certificate request, to an online CA.</span></span>
+<span data-ttu-id="5802c-107">Pour soumettre une demande, votre autorité de certification (CA) peut-être nécessiter des informations d’identification autres que ceux de l’utilisateur que vous êtes connecté en tant que.</span><span class="sxs-lookup"><span data-stu-id="5802c-107">To submit a request, your certification authority (CA) may require credentials other than the ones for the user that you are currently logged in as.</span></span> <span data-ttu-id="5802c-108">Pour autoriser une demande de certificat en tant qu’utilisateur différent, activez la case à cocher **spécifier les informations d’identification alternatives pour l’autorité de certification**, puis tapez le nom d’utilisateur ou le _domaine_\ _nom d’utilisateur_ pour un utilisateur qui peut demander le certificat .</span><span class="sxs-lookup"><span data-stu-id="5802c-108">To allow a certificate request as a different user, select the check box **Specify alternate credentials for the certification authority**, and then type the user name or  _domain_\ _username_ for a user who can request the certificate.</span></span> <span data-ttu-id="5802c-109">Dans la zone de texte **mot de passe** , tapez le mot de passe pour l’utilisateur que vous avez spécifié.</span><span class="sxs-lookup"><span data-stu-id="5802c-109">In the **Password** text box, type the password for the user that you specified.</span></span> <span data-ttu-id="5802c-110">Le nom d’utilisateur et le mot de passe sont ensuite envoyés dans le cadre du processus de demande de certificat, mais pas dans la demande de certificat réel, à une autorité de certification en ligne.</span><span class="sxs-lookup"><span data-stu-id="5802c-110">The user name and password are then sent as part of the certificate request process, but not in the actual certificate request, to an online CA.</span></span>
   
 
