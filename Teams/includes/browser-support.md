@@ -1,14 +1,12 @@
-Les équipes prend totalement en charge les navigateurs internet suivants, avec les exceptions indiquées.
+Teams prend en charge les navigateurs suivants, avec quelques exceptions signalées.
 
 |Navigateur  |Remarques  |
 |---------|---------|
-|Internet Explorer 11     |   Les réunions et les appels ne sont pas pris en charge. Pour télécharger le client de bureau équipes sont dirigés les utilisateurs qui essaient de participer à une réunion sur Internet Explorer 11.      |
-|Microsoft Edge    |Appel et réunions pris en charge sur RS2 Edge ou version ultérieure |
-|Chrome, de la dernière version plus de deux versions précédentes     | Réunions pris en charge sur 59 Chrome ou version ultérieure<br>  Prise en charge de l’appel est bientôt disponible     |
-|Firefox, la dernière version ainsi que deux versions précédentes     |   Les réunions et les appels ne sont pas pris en charge. Pour télécharger le client de bureau équipes sont dirigés les utilisateurs qui essaient de participer à une réunion sur Firefox.       |
+|Internet Explorer 11     |   Les Appels et Réunions ne sont pas pris en charge. Les utilisateurs qui essayent de rejoindre une réunion sur Internet Explorer 11 seront dirigés vers le téléchargement du client de bureau Teams.      |
+|Microsoft Edge    |Appels et Réunions pris en charge sous Edge RS2 ou version ultérieure |
+|Chrome, dernière version et les deux versions précédentes     | Réunions prises en charge sous Chrome 59 ou version ultérieure<br>  La prise en charge des appels sera bientôt disponible     |
+|Firefox, dernière version et les deux versions précédentes     |   Les Appels et Réunions ne sont pas pris en charge. Les utilisateurs qui essayent de rejoindre une réunion sur Firefox seront dirigés vers le téléchargement du client de bureau Teams.       |
+|Safari 11.1+     |   Safari est activé sur les versions supérieures à la version 11.1 dans l’aperçu. En mode Aperçu, il existe des [problèmes connus](https://support.office.com/article/safari-browser-support-1aac0a7c-35a8-42c1-a7df-f674afe234df) avec l’Intelligent Tracking Prevention de Safari.|
 
 > [!NOTE]
-> Safari n'est pas pris en charge actuellement. Consultez la [Feuille de route de Teams](https://aka.ms/TeamsRoadmap) pour en savoir plus sur les nouvelles fonctionnalités dans Teams. Les utilisateurs qui essayent d’ouvrir Teams sur Safari seront dirigés vers le téléchargement du client de bureau Teams.
-
-> [!NOTE]
-> Dans la mesure où un système d’exploitation peuvent exécuter les équipes de navigateur pris en charge est pris en charge. Par exemple, Firefox en cours d’exécution sur le système d’exploitation Linux est une option pour l’utilisation d’équipes.
+> Tant qu’un système d’exploitation peut exécuter le navigateur pris en charge, Teams est également pris en charge. Par exemple, exécuter Firefox sur le système d’exploitation Linux constitue une option pour utiliser Teams.
