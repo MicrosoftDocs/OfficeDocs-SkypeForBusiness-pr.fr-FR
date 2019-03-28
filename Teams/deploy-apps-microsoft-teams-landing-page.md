@@ -1,5 +1,6 @@
 ---
 title: Applications, robots et connecteurs dans Microsoft Teams
+ms.reviewer: ''
 description: Utilisez ces ressources de déploiement pour vous aider à déployer des applications dans Microsoft Teams.
 ms.topic: article
 author: LolaJacobsen
@@ -14,20 +15,18 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f7ccc2c489d4423b906aec92dcb594f82a380e40
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 00653ebb796f0b33fa1461327ad173378fed8e28
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460795"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873168"
 ---
 # <a name="apps-bots--connectors-in-microsoft-teams"></a>Applications, robots et connecteurs dans Microsoft Teams
 
 Les applications vous permettent de rechercher du contenu à partir de vos services favoris et de les partager directement dans Teams. Elles vous aident à effectuer des actions telles qu’épingler des services en haut d’un canal, de mener une conversation avec des robots, ou de partager et attribuer des tâches. Pour en savoir plus, voir [Vue d’ensemble sur les applications dans Teams](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0).
 
 Nous vous recommandons d’inclure nos applications proposées (par exemple, le Planificateur) dans votre déploiement initial concernant Teams. Ajoutez d’autres applications, robots et connecteurs pour favoriser l’adoption des services Teams.
-
-
 
 ## <a name="apps-deployment-decisions"></a>Décisions liées au déploiement des applications
 
@@ -39,13 +38,13 @@ Voici les paramètres d’applications que la plupart des organisations veulent 
 
 ### <a name="app-availability-settings"></a>Paramètres de disponibilité des applications 
 
-Teams fournit un certain nombre d'applications premières (fournies par Microsoft) et d'applications tierces pour engager les utilisateurs, soutenir la productivité et intégrer les services métiers couramment utilisés dans Teams. Obtenez les applications à partir du Store Teams. Par défaut, toutes les applications, y compris les applications externes envoyées via le [processus d’approbation du Store Teams](https://docs.microsoft.com/microsoftteams/platform/publishing/apps-publish#microsoft-teams-app-approval-process), sont activées pour tous les utilisateurs. Par exemple, les utilisateurs peuvent utiliser l’application Planificateur pour créer et gérer les tâches d’équipe dans Teams.
+Teams fournit un certain nombre d'applications fournies par Microsoft et d'applications tierces pour engager les utilisateurs, soutenir la productivité et intégrer les services d’entreprise couramment utilisés dans Teams. Obtenez les applications à partir du Store Teams. Par défaut, toutes les applications, y compris les applications personnalisées envoyées via le [processus d’approbation du Store Teams](https://docs.microsoft.com/microsoftteams/platform/publishing/apps-publish#microsoft-teams-app-approval-process), sont activées pour tous les utilisateurs. Par exemple, les utilisateurs peuvent utiliser l’application Planificateur pour créer et gérer les tâches d’équipe dans Teams.
 
-Par défaut, toutes les applications fournies par Microsoft et les applications externes sont disponibles et vous pouvez activer ou désactiver les applications individuelles. Il existe un paramètre global qui vous permet d’activer ou désactiver toutes les applications externes pour toute votre organisation.
+Par défaut, toutes les applications fournies par Microsoft et les applications personnalisées sont disponibles et vous pouvez activer ou désactiver les applications individuelles. Il existe un paramètre global au niveau de l’organisation qui vous permet d’activer ou désactiver toutes les applications personnalisées pour toute votre organisation.
 
 | Posez-vous la question | Action |
 |--------------|--------|
-|Est-ce que vous allez modifier les paramètres par défaut des applications Teams ? | Pour plus d’informations sur la configuration de la disponibilité des applications externes, voir [Paramètres d’administration des applications dans Microsoft Teams](admin-settings.md).|
+|Est-ce que vous allez modifier les paramètres par défaut des applications Teams ? | Pour plus d’informations sur les stratégies et les paramètres que vous pouvez utiliser pour gérer les applications de votre organisation, voir [Paramètres d’administration des applications dans Microsoft Teams](admin-settings.md).|
 |||
 
 ### <a name="app-permissions-and-other-considerations"></a>Autorisations d’applications et autres points à prendre en compte
