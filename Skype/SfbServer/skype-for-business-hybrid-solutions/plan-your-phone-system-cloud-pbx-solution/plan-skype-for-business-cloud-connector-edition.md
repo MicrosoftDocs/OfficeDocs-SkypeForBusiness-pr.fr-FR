@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: Obtenez des informations sur la version Cloud Connector de Skype Entreprise, un ensemble de machines virtuelles (VM) qui met en œuvre une connectivité PSTN locale avec un système téléphonique d'Office 365 (Cloud PBX).
-ms.openlocfilehash: da594ba2511b7e3a296eb57b825489305d9473d9
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 21a37b40b0069df9043c69814e40853ced16ce7e
+ms.sourcegitcommit: 5b33cfc828906917f76b0d2a9ae402c9336388a1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888751"
+ms.locfileid: "30934755"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>Planification pour Skype Entreprise, version Cloud Connector
 
@@ -74,7 +74,7 @@ Considérez les points suivants lorsque vous planifiez votre déploiement dans l
 
 - Cloud Connector 2.1 et les versions ultérieures prennent en charge la surveillance de Cloud Connector avec Operations Management Suite (OMS). Pour plus d’informations, reportez-vous à la rubrique [Monitor Cloud Connector using Operations Management Suite (OMS)](monitor-cloud-connector-using-operations-management-suite-oms.md).
 
-- Nuage connecteur est disponible dans tous les pays où Office 365 entreprise E5 est disponible. Toutefois, en raison des réglementations diverses, nuage connecteur ne peut pas être configurée Si l’emplacement du client est défini à un des pays suivants : Algérie, Bangladesh, Botswana, Brunei, Cameroun, côte d’Ivoire, Ghana, Liban, Macao, Maurice, Namibie, Paraguay, Sénégal.
+- Nuage connecteur est disponible dans tous les pays où Office 365 entreprise E5 est disponible.
 
 Cette rubrique contient les sections suivantes :
 

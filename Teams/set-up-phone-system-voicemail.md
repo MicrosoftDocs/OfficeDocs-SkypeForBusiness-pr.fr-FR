@@ -1,5 +1,5 @@
 ---
-title: Configurer la messagerie vocale du système téléphonique
+title: Configurer la messagerie vocale dans le nuage
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -20,24 +20,24 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: 'Learn how to set up the phone system (Cloud PBX) voicemail for your Skype for Business users. '
-ms.openlocfilehash: e0f966d178fb775ff8f9283c6a8097487e8933a2
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+description: 'Découvrez comment configurer la messagerie vocale dans le nuage pour vos utilisateurs. '
+ms.openlocfilehash: 8219934b8e95962f0e9ea81f4965ad9e5c55fb34
+ms.sourcegitcommit: 5b33cfc828906917f76b0d2a9ae402c9336388a1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541903"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30934771"
 ---
-# <a name="set-up-phone-system-voicemail"></a>Configurer la messagerie vocale du système téléphonique
+# <a name="set-up-cloud-voicemail"></a>Configurer la messagerie vocale dans le nuage
 
-Cet article est pour l' [administration d’Office 365](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) souhaite configurer la fonctionnalité de messagerie vocale système téléphonique pour tout le monde dans l’entreprise.
+Cet article est pour l' [administration d’Office 365](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) souhaite configurer la fonctionnalité de messagerie vocale dans le nuage pour tout le monde dans l’entreprise.
 
 > [!NOTE]
-> Phone System voicemail supports depositing voicemail messages only in an Exchange mailbox and doesn't support any third-party email systems. As a fallback mechanism, Phone System voicemail can resend messages using SMTP, which means users with a mailbox on a third-party email system will receive their voicemail messages with no guaranteed service uptime or other voicemail features, such as changing their greetings and other settings.
+> Messagerie vocale dans le nuage prend en charge des messages vocaux déposer uniquement dans une boîte aux lettres Exchange et ne prend pas en charge les systèmes de messagerie tiers. Comme un mécanisme de secours, la messagerie vocale dans le nuage permet de renvoyer des messages à l’aide de SMTP, ce qui signifie que les utilisateurs avec une boîte aux lettres sur un système de messagerie tiers recevront leurs messages vocaux avec aucun temps de fonctionnement du service garanti ou d’autres fonctionnalités de messagerie vocale, telle que la modification leur le message d’accueil et d’autres paramètres.
 
-## <a name="cloud-only-environments-set-up-phone-system-voicemail"></a>Environnements en nuage uniquement : configurer le système téléphonique de la messagerie vocale
+## <a name="cloud-only-environments-set-up-cloud-voicemail"></a>Environnements en nuage uniquement : configuration de la messagerie vocale dans le nuage
 
-Pour Skype pour les utilisateurs professionnels en ligne et des Plans de l’appel, la messagerie vocale système téléphonique est automatiquement configurée et mis en service pour les utilisateurs une fois que vous leur attribuez une licence de **Système téléphonique** et un numéro de téléphone.
+Pour Skype pour les utilisateurs professionnels en ligne et des Plans de l’appel, la messagerie vocale dans le nuage est automatiquement configurée et mis en service pour les utilisateurs une fois que vous leur attribuez une licence de **Système téléphonique** et un numéro de téléphone.
   
 1. Si la fonctionnalité de système téléphonique n’est pas incluse dans votre plan, vous devrez peut-être acheter des licences de module complémentaire **Système téléphonique** . Vous devrez acheter une licence Exchange Online. Voir [Gestion des licences de module complémentaire équipes Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
     
@@ -47,13 +47,13 @@ Pour Skype pour les utilisateurs professionnels en ligne et des Plans de l’app
 
 ## <a name="phone-system-with-on-premises-environments"></a>Système téléphonique avec environnements locaux
 
-Les informations suivantes concernent la configuration de la messagerie vocale du Système téléphonique pour fonctionner avec les Forfaits d'appels locaux.
+Les informations suivantes sont sur la configuration de la messagerie vocale dans le nuage pour travailler avec les environnements de planifier l’appel local.
   
 1. Si la fonctionnalité de système téléphonique n’est pas incluse dans votre plan, vous devrez peut-être acheter des licences de module complémentaire **Système téléphonique** . Vous devez également acheter une licence Exchange Online. Voir [Gestion des licences de module complémentaire équipes Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
     
 2. [Affecter ou supprimer des licences pour Office 365 pour les entreprises](http://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc), les [licences d’affecter des équipes Microsoft](assign-teams-licenses.md)et les licences Exchange Online pour les personnes figurant dans votre entreprise.
     
-3. Suivez les instructions indiquées dans la section **Activer les utilisateurs pour le système téléphonique vocale et les services de messagerie vocale** du [Configurer de Skype pour édition dans le nuage connecteur guide](https://technet.microsoft.com/library/mt605228.aspx).
+3. Suivez les instructions indiquées dans la section **Activer les utilisateurs pour les services de voix et de la messagerie vocale du système téléphonique** du [Configurer de Skype pour édition dans le nuage connecteur guide](https://technet.microsoft.com/library/mt605228.aspx).
 
 4. Support for voicemail transcription has been added as of March 2017 and is enabled by default for all organizations and users. You can disable transcription for your organization by using Windows PowerShell and following the steps below.
 
@@ -72,7 +72,7 @@ Vous pouvez régler les paramètres pour vos utilisateurs qui utilisent des stra
 
  **PS C:\\> Get-CsOnlineVoicemailPolicy**
   
-![Get-CsOnlineVoiceMailPolicy results window.](media/6cea8310-2d71-4b95-8d36-688472845727.png)
+![Fenêtre Get-CsOnlineVoiceMailPolicy.](media/6cea8310-2d71-4b95-8d36-688472845727.png)
   
 ### <a name="turning-off-transcription-for-your-organization"></a>Désactivation de la transcription pour votre organisation
 
@@ -122,7 +122,7 @@ Nous disposons d’informations sur la formation et des articles pour aider vos 
 - [Formation Skype Entreprise 2016](https://support.office.com/article/eb2081bc-fd0a-4eda-94da-5a39f369ee74)
 
 ## <a name="related-topics"></a>Rubriques connexes
-[Configurer Skype Entreprise Online](/skypeforbusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
+[Configurer Skype entreprise Online](/skypeforbusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
 
 [Voici les avantages du système téléphonique dans Office 365](here-s-what-you-get-with-phone-system.md)
 

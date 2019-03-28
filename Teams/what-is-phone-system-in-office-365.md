@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Découvrez le système téléphonique qui peut faire pour vous. '
-ms.openlocfilehash: 511f5892bad23901e30e1e3e1c5feacf43fa97f0
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 41694fcc91ccb1d7bdf4df38c39a6554851d2a8f
+ms.sourcegitcommit: 5b33cfc828906917f76b0d2a9ae402c9336388a1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884244"
+ms.locfileid: "30934779"
 ---
 # <a name="what-is-phone-system-in-office-365"></a>Système téléphonique dans Office 365
 
@@ -69,7 +69,7 @@ Plans d’appel (internes et nationales et internationales) sont disponibles dan
 
 - **Files d’attente des appels**  Avec un système téléphonique, vous pouvez créer des appels en file d’attente le message d’accueil qui est utilisés lorsqu’une personne appelle un numéro de téléphone de votre organisation. Cela inclut la possibilité de mettre automatiquement les appels en attente et la capacité de recherche pour l’agent disponible appel suivant gérer l’appel pendant les personnes qui écoutent appel une musique d’attente. Vous pouvez créer une seule ligne ou plusieurs files d’attente d’appel pour votre organisation. Consultez la rubrique [créer une file d’attente des appels système téléphonique](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
 
-- **Messagerie vocale** Lorsque vous recevez une licence de système téléphonique pour un utilisateur, cet utilisateur sera en mesure d’obtenir la messagerie vocale qui a été laissée par les appelants. Messagerie vocale du système téléphonique est automatiquement configuré et mis en service pour les utilisateurs une fois que vous leur attribuez une licence de système téléphonique et un numéro de téléphone. Consultez [configurer le système téléphonique de la messagerie vocale](set-up-phone-system-voicemail.md).
+- **Messagerie vocale** Lorsque vous recevez une licence de système téléphonique pour un utilisateur, cet utilisateur sera en mesure d’obtenir la messagerie vocale qui a été laissée par les appelants. Messagerie vocale dans le nuage est automatiquement configuré et mis en service pour les utilisateurs une fois que vous leur attribuez une licence de système téléphonique et un numéro de téléphone. Voir [configuration de la messagerie vocale dans le nuage](set-up-phone-system-voicemail.md).
 
 Si vous êtes prêt à commencer, consultez [la configuration système téléphonique de votre organisation](setting-up-your-phone-system.md).
 
