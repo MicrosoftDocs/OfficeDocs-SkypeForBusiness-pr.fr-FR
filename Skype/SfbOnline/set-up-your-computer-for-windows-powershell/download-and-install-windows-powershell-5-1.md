@@ -1,0 +1,150 @@
+---
+title: Téléchargez et installez Windows PowerShell 5.1
+ms.reviewer: ''
+ms.author: tonysmit
+author: tonysmit
+manager: serdars
+ms.topic: article
+ms.assetid: d739cd71-3c18-42ea-879f-b408bf53b1f4
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+search.appverid: MET150
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+appliesto:
+- Skype for Business
+localization_priority: Normal
+f1keywords: None
+ms.custom:
+- PowerShell
+- LIL_Placement
+description: Télécharger, installer et ensuite utiliser Windows PowerShell 5.1 pour créer une session PowerShell à distance qui se connecte à Skype pour Business Online.
+ms.openlocfilehash: 63f4924a30bfc910679f23a617cc5252ecc5b6aa
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30926697"
+---
+# <a name="download-and-install-windows-powershell-51"></a><span data-ttu-id="583e6-103">Téléchargez et installez Windows PowerShell 5.1</span><span class="sxs-lookup"><span data-stu-id="583e6-103">Download and install Windows PowerShell 5.1</span></span>
+
+<span data-ttu-id="583e6-104">Si vous utilisez la mise à jour de Windows 10 anniversaire de mariage ou Windows Server 2016, vous disposez déjà de Windows PowerShell 5.1.</span><span class="sxs-lookup"><span data-stu-id="583e6-104">If you are using Windows 10 Anniversary Update, or Windows Server 2016, you should already have Windows PowerShell 5.1.</span></span> <span data-ttu-id="583e6-105">Cette application est en effet pré-installée sur ces systèmes d'exploitation.</span><span class="sxs-lookup"><span data-stu-id="583e6-105">That's because this application comes preinstalled with those operating systems.</span></span>
+  
+<span data-ttu-id="583e6-106">Pour déterminer quelle version de Microsoft PowerShelll que vous utilisez, procédez comme suit sur votre ordinateur Windows Server 2008 R2 ou Windows Server 2012 ou de Windows 7 :</span><span class="sxs-lookup"><span data-stu-id="583e6-106">To determine which version of Microsoft PowerShelll you are using, do the following on your Windows 7 or Windows Server 2008 R2 or Windows Server 2012 computer:</span></span>
+  
+1. <span data-ttu-id="583e6-107">Cliquez sur **Démarrer**, **Tous les programmes**, **Accessoires**, **Windows PowerShell** et enfin sur **Windows PowerShell**.</span><span class="sxs-lookup"><span data-stu-id="583e6-107">Click **Start**, click **All Programs**, click **Accessories**, click **Windows PowerShell**, and then click **Windows PowerShell**.</span></span>
+    
+2. <span data-ttu-id="583e6-108">Dans la console PowerShell, tapez la commande suivante et appuyez sur ENTRÉE :</span><span class="sxs-lookup"><span data-stu-id="583e6-108">In the PowerShell console, type the following command and then press ENTER:</span></span>
+    
+   ```
+   Get-Host | Select-Object Version
+   ```
+
+3. <span data-ttu-id="583e6-109">Des informations similaires à celles-présentées ci-dessous doivent s'afficher dans la fenêtre de console :</span><span class="sxs-lookup"><span data-stu-id="583e6-109">Information similar to the following should then be displayed in the console window:</span></span>
+    
+    <pre>
+    Version <BR>
+    ------- <BR>
+    4.0
+    </pre>
+
+    <span data-ttu-id="583e6-110">Si le numéro de Version renvoyé est 5.1, vous exécutez Windows PowerShell 5.1.</span><span class="sxs-lookup"><span data-stu-id="583e6-110">If the returned Version number is 5.1, then you are running Windows PowerShell 5.1.</span></span> <span data-ttu-id="583e6-111">Si le numéro de Version renvoyé n’est pas 5.1, vous devrez installer Windows PowerShell 5.1.</span><span class="sxs-lookup"><span data-stu-id="583e6-111">If the returned Version number is not 5.1, then you'll need to install Windows PowerShell 5.1.</span></span> <span data-ttu-id="583e6-112">Vous pouvez télécharger Windows Management Framework 5.1, qui inclut Windows PowerShell 5.1, à partir du [Centre de téléchargement Microsoft](https://www.microsoft.com/en-us/download/details.aspx?id=54616).</span><span class="sxs-lookup"><span data-stu-id="583e6-112">You can download Windows Management Framework 5.1, which includes Windows PowerShell 5.1, from the [Microsoft Download Center](https://www.microsoft.com/en-us/download/details.aspx?id=54616).</span></span>
+  
+<span data-ttu-id="583e6-113">Une fois que vous avez vérifié que Windows PowerShell 5.1 est installé, il se peut que vous devez vous assurer que PowerShell a été configuré pour l’exécution de scripts à distance.</span><span class="sxs-lookup"><span data-stu-id="583e6-113">After you've verified that Windows PowerShell 5.1 is installed, you must make sure that PowerShell has been configured for running remote scripts.</span></span> <span data-ttu-id="583e6-114">Pour cela, démarrez PowerShell en tant qu’administrateur.</span><span class="sxs-lookup"><span data-stu-id="583e6-114">To do that, start PowerShell as an administrator.</span></span> <span data-ttu-id="583e6-115">Sous Windows 7, Windows Server 2008 R2, Windows Server 2012 ou Windows Server 2012 R2, procédez comme suit :</span><span class="sxs-lookup"><span data-stu-id="583e6-115">On Windows 7, Windows Server 2008 R2, Windows Server 2012, or Windows Server 2012 R2 do the following:</span></span>
+  
+1. <span data-ttu-id="583e6-116">Cliquez sur **Démarrer**, **Tous les programmes**, **Accessoires**, **Windows PowerShell**, faites un clic droit sur **Windows PowerShell** et cliquez sur **Exécuter en tant qu'administrateur**.</span><span class="sxs-lookup"><span data-stu-id="583e6-116">Click **Start**, click **All Programs**, click **Accessories**, click **Windows PowerShell**, right-click **Windows PowerShell**, and then click **Run as administrator**.</span></span>
+    
+2. <span data-ttu-id="583e6-117">Si la boîte de dialoguqe **Contrôle de compte d'utilisateur** apparaît, cliquez sur **Oui** pour confirmer que vous désirer exécuter PowerShell en utilisant les informations du compte administrateur.</span><span class="sxs-lookup"><span data-stu-id="583e6-117">If the **User Account Control** dialog box appears, click **Yes** to verify that you want to run PowerShell under administrator credentials.</span></span>
+    
+<span data-ttu-id="583e6-118">Si vous utilisez Windows 8, effectuer la procédure suivante à la place :</span><span class="sxs-lookup"><span data-stu-id="583e6-118">If you are running Windows 8, complete this procedure instead:</span></span>
+  
+1. <span data-ttu-id="583e6-119">Accédez à la barre des talismans, cliquez sur **Rechercher** puis faites un clic droit sur **Windows PowerShell**.</span><span class="sxs-lookup"><span data-stu-id="583e6-119">Access the Charms bar, click **Search**, and then right-click **Windows PowerShell**.</span></span> <span data-ttu-id="583e6-120">Vous pouvez accéder rapidement à la barre des talismans à partir de n'importe quel ordinateur Windows 8 (tactile ou non) en maintenant la touche Windows et en appuyant sur C.</span><span class="sxs-lookup"><span data-stu-id="583e6-120">You can quickly access the Charms bar on any Windows 8 computer (touch screen or non-touch screen) by holding down the Windows key and pressing C.</span></span>
+    
+2. <span data-ttu-id="583e6-121">Dans la barre d’outils située en bas de l’écran, cliquez sur **Exécuter en tant qu’administrateur**.</span><span class="sxs-lookup"><span data-stu-id="583e6-121">In the toolbar at the bottom of the screen, click **Run as administrator**.</span></span>
+    
+3. <span data-ttu-id="583e6-122">Si la boîte de dialoguqe **Contrôle de compte d'utilisateur** apparaît, cliquez sur **Oui** pour confirmer que vous désirer exécuter PowerShell en utilisant les informations du compte administrateur.</span><span class="sxs-lookup"><span data-stu-id="583e6-122">If the **User Account Control** dialog box appears, click **Yes** to verify that you want to run PowerShell under administrator credentials.</span></span>
+    
+<span data-ttu-id="583e6-123">Après l'exécution de PowerShell, vous devez modifier la politique d'exécution pour permettre l'exécution de scripts distants.</span><span class="sxs-lookup"><span data-stu-id="583e6-123">After PowerShell is running, you must change the execution policy to allow the running of remote scripts.</span></span> <span data-ttu-id="583e6-124">Dans la console PowerShell, tapez la commande suivante et appuyez sur ENTRÉE :</span><span class="sxs-lookup"><span data-stu-id="583e6-124">In the PowerShell console, type the following command and then press ENTER:</span></span>
+```
+Set-ExecutionPolicy RemoteSigned -Force
+```
+   
+ 
+> [!NOTE]
+> <span data-ttu-id="583e6-125">Lorsque vous exécutez la commande précédente, le message d'erreur suivant peut s'afficher : > *Set-ExecutionPolicy : Access to the registry key'HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\PowerShell\\1\\ShellIds\\Micrsoft.PowerShell' is denied.*</span><span class="sxs-lookup"><span data-stu-id="583e6-125">When you run the preceding command, you might receive the following error message:> *Set-ExecutionPolicy : Access to the registry key'HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\PowerShell\\1\\ShellIds\\Micrsoft.PowerShell' is denied.*</span></span> <span data-ttu-id="583e6-126">En règle générale, ce message d’erreur s'affiche si vous n’exécutez pas PowerShell en tant qu'administrateur.</span><span class="sxs-lookup"><span data-stu-id="583e6-126">This error message typically occurs if you are not running PowerShell under administrator credentials.</span></span> <span data-ttu-id="583e6-127">Fermez votre session PowerShell et démarrez une nouvelle session en tant qu’administrateur.</span><span class="sxs-lookup"><span data-stu-id="583e6-127">Close your session of PowerShell, and start a new session as an administrator.</span></span>
+ 
+<span data-ttu-id="583e6-128">Pour vérifier que la politique d’exécution a été configurée correctement, saisissez l'expression suivante dans l’invite PowerShell et appuyez sur ENTRÉE :</span><span class="sxs-lookup"><span data-stu-id="583e6-128">To verify that the execution policy has been configured correctly, type the following at the PowerShell prompt and then press ENTER:</span></span>
+  
+```
+Get-ExecutionPolicy
+```
+
+<span data-ttu-id="583e6-129">Si vous obtenez la valeur suivante, c'est que tout a été configuré correctement :</span><span class="sxs-lookup"><span data-stu-id="583e6-129">If you get back the following value, then everything has been configured correctly:</span></span>
+  
+`RemoteSigned`
+
+<span data-ttu-id="583e6-130">Si vous n’exécutez pas actuellement de Windows PowerShell 5.1, vous devez également télécharger et installer Windows Management Framework 5.1 à partir du Microsoft Download Center.</span><span class="sxs-lookup"><span data-stu-id="583e6-130">If you are not currently running Windows PowerShell 5.1, you'll also need to download and install Windows Management Framework 5.1 from the Microsoft Download Center.</span></span> <span data-ttu-id="583e6-131">Il s’agit d’un package d’installation qui inclut Windows PowerShell 5.1 et Windows Remote Management (WinRM) 3.0.</span><span class="sxs-lookup"><span data-stu-id="583e6-131">This is an installation package that includes Windows PowerShell 5.1 and Windows Remote Management (WinRM) 3.0.</span></span> <span data-ttu-id="583e6-132">Ce package d’installation peut être requis si vous avez, par exemple, Windows 7 SP1 sont en cours d’exécution et n’ont pas encore mis à jour pour Windows PowerShell 5.1.</span><span class="sxs-lookup"><span data-stu-id="583e6-132">This installation package might be required if you, for example, are running Windows 7 SP1 and have not yet updated to Windows PowerShell 5.1.</span></span> <span data-ttu-id="583e6-133">Si vous exécutez Windows Server 2016 ou mise à jour de Windows 10 anniversaires, il doit être sans avoir à installer Windows PowerShell 5.1.</span><span class="sxs-lookup"><span data-stu-id="583e6-133">If you are running Windows Server 2016, or Windows 10 Anniversary Update, there should be no need to install Windows PowerShell 5.1.</span></span> <span data-ttu-id="583e6-134">Windows PowerShell 5.1 est préinstallé sur les systèmes d’exploitation.</span><span class="sxs-lookup"><span data-stu-id="583e6-134">Windows PowerShell 5.1 comes preinstalled on those operating systems.</span></span>
+  
+<span data-ttu-id="583e6-135">Avant d’installer Windows Management Framework 5.1 :</span><span class="sxs-lookup"><span data-stu-id="583e6-135">Before installing Windows Management Framework 5.1:</span></span>
+  
+- <span data-ttu-id="583e6-136">Assurez-vous d'avoir téléchargé la bonne version du package d’installation.</span><span class="sxs-lookup"><span data-stu-id="583e6-136">Make sure you have downloaded the correct version of the installation package.</span></span> <span data-ttu-id="583e6-137">Si vous exécutez la version 64 bits de Windows 7 SP1, téléchargez le fichier Win7AndW2K8R2-KB3191566-x64.ZIP.</span><span class="sxs-lookup"><span data-stu-id="583e6-137">If you are running the 64-bit version of Windows 7 SP1, download the file Win7AndW2K8R2-KB3191566-x64.ZIP.</span></span> <span data-ttu-id="583e6-138">Si vous exécutez la version 32 bits de Windows 7, téléchargez le fichier Win7-KB3191566-x86.ZIP.</span><span class="sxs-lookup"><span data-stu-id="583e6-138">If you are running the 32-bit version of Windows 7, download the file Win7-KB3191566-x86.ZIP.</span></span>
+    
+- <span data-ttu-id="583e6-139">Si vous utilisez Windows 7 sur votre ordinateur, assurez-vous d'avoir installé Windows 7 Service Pack 1.</span><span class="sxs-lookup"><span data-stu-id="583e6-139">If you are running Windows 7 on your computer, make sure that you have installed Windows 7 Service Pack 1.</span></span>
+
+<span data-ttu-id="583e6-140">Si vous n'êtes pas certain de la version de Windows que vous utilisez, ou si vous n'êtes pas sûr d'avoir installé Windows 7 Service Pack 1, cliquez sur **Démarrer**, faites un clic droit sur **Ordinateur** puis cliquez sur **Propriétés**.</span><span class="sxs-lookup"><span data-stu-id="583e6-140">If you aren't sure which version of Windows you are running, or you aren't sure if you've installed Windows 7 Service Pack 1, click **Start**, right-click **Computer**, and then click **Properties**.</span></span> <span data-ttu-id="583e6-141">Ces informations seront mentionnées dans la boîte de dialogue Système.</span><span class="sxs-lookup"><span data-stu-id="583e6-141">This information will be reported in the System dialog box.</span></span>
+  
+<span data-ttu-id="583e6-142">Pour installer Windows Management Framework 5.1, effectuez la procédure dans [installer et configurer le 5.1 WMF](https://docs.microsoft.com/en-us/powershell/wmf/5.1/install-configure)</span><span class="sxs-lookup"><span data-stu-id="583e6-142">To install Windows Management Framework 5.1, complete the procedure in [Install and Configure WMF 5.1](https://docs.microsoft.com/en-us/powershell/wmf/5.1/install-configure)</span></span>
+  
+<span data-ttu-id="583e6-143">Après que l'ordinateur a redémarré, vérifiez que Windows PowerShell démarre correctement et que l'application soit bien exécutée en tant qu'administrateur.</span><span class="sxs-lookup"><span data-stu-id="583e6-143">After the computer has rebooted, verify that Windows PowerShell can start and that the application can be run under administrative credentials.</span></span> <span data-ttu-id="583e6-144">Pour ce faire :</span><span class="sxs-lookup"><span data-stu-id="583e6-144">To do this:</span></span>
+  
+1. <span data-ttu-id="583e6-145">Cliquez sur **Démarrer**, **Tous les programmes**, **Accessoires**, **Windows PowerShell**, faites un clic droit sur **Windows PowerShell** et cliquez sur **Exécuter en tant qu'administrateur**.</span><span class="sxs-lookup"><span data-stu-id="583e6-145">Click **Start**, click **All Programs**, click **Accessories**, click **Windows PowerShell**, right-click **Windows PowerShell** and then click **Run as administrator**.</span></span>
+    
+2. <span data-ttu-id="583e6-146">Si la boîte de dialogue Contrôle de compte d'utilisateur apparaît, cliquez sur **Oui** pour confirmer que vous désirer exécuter PowerShell en utilisant les informations du compte administrateur.</span><span class="sxs-lookup"><span data-stu-id="583e6-146">If the User Account Control dialog box appears, click **Yes** to verify that you want to run PowerShell under administrator credentials.</span></span>
+    
+<span data-ttu-id="583e6-147">Lorsque la console PowerShell s’affiche, vous devez vérifier que le service WinRM soit bien en cours d’exécution et qu’il ait été configuré correctement.</span><span class="sxs-lookup"><span data-stu-id="583e6-147">When the PowerShell console appears, you should then verify that the WinRM service is running and has been configured correctly.</span></span> <span data-ttu-id="583e6-148">Pour vérifier que le service est bien en cours d’exécution, saisissez la commande suivante dans l’invite PowerShell et appuyez sur ENTRÉE :</span><span class="sxs-lookup"><span data-stu-id="583e6-148">To verify that the service is running, type the following command at the PowerShell prompt and then press ENTER:</span></span>
+  
+```
+Get-Service winrm
+```
+
+<span data-ttu-id="583e6-149">Des informations sur le service WinRM s'affichent alors à l’écran :</span><span class="sxs-lookup"><span data-stu-id="583e6-149">Information about the WinRM service will then be displayed on screen:</span></span>
+  
+<pre>
+Status   Name               DisplayName
+------   ----               -----------
+Running  winrm              Windows Remote Management (WS-Manag...
+</pre>
+
+<span data-ttu-id="583e6-150">Si l'état du service n'est pas « En cours d'exécution », démarrez le service WinRM en saisissant la commande suivante, puis cliquez sur ENTRÉE :</span><span class="sxs-lookup"><span data-stu-id="583e6-150">If the service Status does not equal "Running", start the WinRM service by typing the following command and then pressing ENTER:</span></span>
+  
+```
+Start-Service winrm
+```
+
+<span data-ttu-id="583e6-151">Une fois le service démarré, exécutez la commande suivante pour vous assurer que WinRM utilise une authentification de base :</span><span class="sxs-lookup"><span data-stu-id="583e6-151">After the service has started, run the following command to make sure that WinRM is using Basic authentication:</span></span>
+  
+```
+winrm set winrm/config/client/auth '@{Basic="True"}'
+```
+
+<span data-ttu-id="583e6-152">Des informations similaires aux éléments suivants s'affichent alors à l’écran :</span><span class="sxs-lookup"><span data-stu-id="583e6-152">Information similar to the following will be displayed onscreen:</span></span>
+  
+<pre>
+Auth
+    Basic = true
+    Digest = true
+    Kerberos = true
+    Negotiate = true
+    Certificate = true
+    CredSSP = false
+</pre>
+
+<span data-ttu-id="583e6-153">Si l’authentification de base a bien été définie sur true, vous êtes prêt à utiliser PowerShell pour une connexion à Skype Entreprise Online.</span><span class="sxs-lookup"><span data-stu-id="583e6-153">If basic authentication has been set to true, then you're ready to use PowerShell to connect to Skype for Business Online.</span></span>
+  
+[!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
+   
+## <a name="related-topics"></a><span data-ttu-id="583e6-154">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="583e6-154">Related topics</span></span>
+[<span data-ttu-id="583e6-155">Configurer votre ordinateur pour Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="583e6-155">Set up your computer for Windows PowerShell</span></span>](set-up-your-computer-for-windows-powershell.md) 
+
+  
+ 
