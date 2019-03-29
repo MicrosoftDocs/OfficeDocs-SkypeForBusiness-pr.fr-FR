@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4d473408b054d1e7a89ad5ce27c1686cce181d9e
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 98a66e0335daf0e74c96d0a2dad18f89bd1f4c5f
+ms.sourcegitcommit: 4e750efd107dfc9bfd8b09d64abd40e0e27734de
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30568687"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "30948186"
 ---
 # <a name="make-my-service-decisions"></a>Prendre des décisions de mon service
 
@@ -128,14 +128,14 @@ Pour en savoir plus sur les emplacements d’urgence par rapport à l’appelant
 
 ## <a name="voicemail"></a>Messagerie vocale
 
-Messagerie vocale de système téléphonique, grâce aux services de messagerie vocale Azure, prend en charge les dépôts de messagerie vocale pour les boîtes aux lettres Exchange et ne prend pas en charge les systèmes de messagerie tiers.
+Messagerie vocale dans le nuage, grâce aux services de messagerie vocale Azure, prend en charge les dépôts de messagerie vocale pour les boîtes aux lettres Exchange et ne prend pas en charge les systèmes de messagerie tiers.
 
-Par défaut, la messagerie vocale système téléphonique fonctionne avec Exchange Online ; Toutefois il possède un minimum pris en charge Exchange sur site version et le déploiement modèle pour permettre la remise des messages vocaux pour les boîtes aux lettres dans le déploiement d’Exchange sur site.
+Par défaut, la messagerie vocale dans le nuage fonctionne avec Exchange Online ; Toutefois il possède un minimum pris en charge Exchange sur site version et le déploiement modèle pour permettre la remise des messages vocaux pour les boîtes aux lettres dans le déploiement d’Exchange sur site.
 
-La messagerie vocale du système téléphonique inclut la transcription des messages vocaux. Elle est activée par défaut pour tous les utilisateurs de votre organisation. Besoins de votre entreprise peuvent nécessiter que vous désactivez la transcription de la messagerie vocale pour des utilisateurs spécifiques ou tout le monde dans toute l’organisation. Si votre organisation a décidé de conserver la transcription de la messagerie vocale activée, vous devez également prendre en compte si le masquage de la messagerie vocale transcription gratuites doivent être activés. Pour plus d’informations, voir [définition des stratégies de messagerie vocale dans votre organisation](set-up-phone-system-voicemail.md) .
+Messagerie vocale dans le nuage inclut la transcription de la messagerie vocale, qui est activée par défaut pour tous les utilisateurs de votre organisation. Besoins de votre entreprise peuvent nécessiter que vous désactivez la transcription de la messagerie vocale pour des utilisateurs spécifiques ou tout le monde dans toute l’organisation. Si votre organisation a décidé de conserver la transcription de la messagerie vocale activée, vous devez également prendre en compte si le masquage de la messagerie vocale transcription gratuites doivent être activés. Pour plus d’informations, voir [définition des stratégies de messagerie vocale dans votre organisation](set-up-phone-system-voicemail.md) .
 
 >[!NOTE]
-> Un mécanisme de secours a été implémenté, qui permet à la messagerie vocale du système téléphonique de renvoyer les messages via SMTP. Ainsi les utilisateurs qui possèdent une boîte aux lettres sur un système tiers recevront les messages vocaux. Ce mécanisme n’inclut pas les temps de fonctionnement de service garanti ou d’autres fonctionnalités de messagerie vocale, telle que la modification du message d’accueil de la messagerie vocale.
+> Un mécanisme de secours a été implémenté afin que la messagerie vocale dans le nuage permet de renvoyer des messages à l’aide de SMTP, ce qui signifie que les utilisateurs qui disposent d’une boîte aux lettres sur un système de messagerie tiers recevront leurs messages vocaux. Ce mécanisme n’inclut pas les temps de fonctionnement de service garanti ou d’autres fonctionnalités de messagerie vocale, telle que la modification du message d’accueil de la messagerie vocale.
 
 Pour plus d’informations sur la messagerie vocale dans une implémentation du système téléphonique, voir [Système téléphonique avec des Plans de l’appel](calling-plan-landing-page.md).
 
@@ -143,11 +143,11 @@ Pour plus d’informations sur la messagerie vocale dans une implémentation du 
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Décider si vous devez activer la messagerie vocale système téléphonique dans votre implémentation de Plans de l’appel.</li><li>Si l’aide d’Exchange sur site et votre déploiement existant ne répond pas à vos besoins pour prendre en charge le système téléphonique de la messagerie vocale, choisissez parmi les options disponibles (mise à niveau et d’installation pour la prise en charge de système téléphonique de la messagerie vocale, migrer vers Exchange Online ou exploiter les mécanisme de secours décrit plus haut).</li><li>Décider si vous activer ou désactiver la transcription de la messagerie vocale et masquage de gratuites transcription de la messagerie vocale dans toute l’organisation ou des utilisateurs spécifiques.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Étapes suivantes|<ul><li>Le cas échéant, les points de décision Exchange pour prendre en charge le système téléphonique de la messagerie vocale du document.</li><li>Si vous devez activer/désactiver le masquage gratuites de transcription de la messagerie vocale uniquement pour des utilisateurs spécifiques, transcription de la messagerie vocale et de la messagerie vocale, cette liste d’utilisateurs du document.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Décider si vous allez activer la messagerie vocale dans le nuage dans votre implémentation de Plans de l’appel.</li><li>Si l’aide Exchange sur site et votre déploiement existant ne répond pas à vos besoins pour prendre en charge de la messagerie vocale dans le nuage, choisissez parmi les options disponibles (mise à niveau et le programme d’installation pour la prise en charge de la messagerie vocale dans le nuage, migrer vers Exchange Online, ou tirer parti de secours mécanisme décrit plus haut).</li><li>Décider si vous activer ou désactiver la transcription de la messagerie vocale et masquage de gratuites transcription de la messagerie vocale dans toute l’organisation ou des utilisateurs spécifiques.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Étapes suivantes|<ul><li>Le cas échéant, les points de décision Exchange pour prendre en charge de la messagerie vocale dans le nuage du document.</li><li>Si vous devez activer/désactiver le masquage gratuites de transcription de la messagerie vocale uniquement pour des utilisateurs spécifiques, transcription de la messagerie vocale et de la messagerie vocale, cette liste d’utilisateurs du document.</li></ul>|
 
 > [!TIP]
-> Détails de la messagerie vocale du système de téléphone pour le système téléphonique avec l’appel des Plans de mise en œuvre peut être documenté comme suit.
+> Détails de la messagerie vocale dans le nuage pour le système téléphonique avec mise en œuvre des Plans de l’appel peuvent être documentés comme suit.
 > 
 > |Utilisateur |Boîte aux lettres Exchange |Activer la messagerie vocale ? |Transcription de la messagerie vocale |Masquage de la messagerie vocale transcription gratuites |
 > |------------------|------------------|-------------------|----------|----------|

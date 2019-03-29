@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Page d’accueil pour le déploiement de voix dans le nuage dans les équipes
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b9398e7a468c023949a0b7079d2924a9e1f0924
-ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.openlocfilehash: abc8d3e552820ee93b5ccd1fc968e914ac5287ba
+ms.sourcegitcommit: 4e750efd107dfc9bfd8b09d64abd40e0e27734de
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30664917"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "30948376"
 ---
 # <a name="cloud-voice-in-microsoft-teams"></a>Appel vocal dans le nuage dans Microsoft Teams
 
@@ -85,11 +85,11 @@ Vous souhaiterez peut-être modifier les paramètres pour les éléments suivant
 
 ### <a name="voicemail"></a>Messagerie vocale
 
-Messagerie vocale de système téléphonique, grâce aux services de messagerie vocale Azure, prend en charge les dépôts de messagerie vocale pour les boîtes aux lettres Exchange et ne prend pas en charge les systèmes de messagerie tiers. La messagerie vocale du système téléphonique inclut la transcription des messages vocaux. Elle est activée par défaut pour tous les utilisateurs de votre organisation. Besoins de votre entreprise peuvent nécessiter que vous désactivez la transcription de la messagerie vocale pour des utilisateurs spécifiques ou tout le monde dans toute l’organisation.
+Messagerie vocale dans le nuage, grâce aux services de messagerie vocale Azure, prend en charge les dépôts de messagerie vocale pour les boîtes aux lettres Exchange et ne prend pas en charge les systèmes de messagerie tiers. Messagerie vocale dans le nuage inclut la transcription de la messagerie vocale, qui est activée par défaut pour tous les utilisateurs de votre organisation. Besoins de votre entreprise peuvent nécessiter que vous désactivez la transcription de la messagerie vocale pour des utilisateurs spécifiques ou tout le monde dans toute l’organisation.
 
 |Posez-vous la question|Action |
 |:------------|:-------|
-| Je souhaite activer la messagerie vocale système téléphonique ? | Pour les procédures de configuration de la messagerie vocale, voir [configurer le système téléphonique de la messagerie vocale](set-up-phone-system-voicemail.md).
+| Je souhaite activer la messagerie vocale dans le nuage ? | Pour les procédures de configuration de la messagerie vocale, voir [configurer la messagerie vocale dans le nuage](set-up-phone-system-voicemail.md).
 | Je souhaite activer la transcription de la messagerie vocale pour certains ou tous les utilisateurs ? | Pour désactiver la transcription de la messagerie vocale, consultez [définition des stratégies de messagerie vocale dans votre organisation](set-up-phone-system-voicemail.md#setting-voicemail-policies-in-your-organization).</li></ul>|
 |||
 

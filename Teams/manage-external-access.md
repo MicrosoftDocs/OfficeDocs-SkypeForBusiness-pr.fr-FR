@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Votre administrateur informatique peut configurer l’accès externe pour d’autres domaines (fédération) permettre aux utilisateurs de ces domaines de participer à des équipes.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 97b322969d3975b6f9ca2b2079d46fe95ef45e52
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: b04b125f5cb998c71f161bf31809a39097accf6c
+ms.sourcegitcommit: 188c57e6b6c707edb694bb922556dea1c4724846
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30459923"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30955021"
 ---
 <a name="manage-external-access-federation-in-microsoft-teams"></a>Gérez l’accès externe (fédération) dans Microsoft Teams
 ======================================================
@@ -56,7 +56,7 @@ Consultez la table pour une comparaison d’externes et les invités d’accéde
 <sup>2</sup> uniquement par courrier électronique ou l’adresse de protocole SIP (Session Initiation).<br>
 <sup>3</sup> conversation (fédérée) externe est 1:1.
 
-## <a name="turn-on-or-turn-off-external-access"></a>Activer ou désactiver l’accès externe
+## <a name="turn-on-or-turn-off-external-access-users-can-communicate-with-skype-for-business-and-teams-users"></a>Activer ou désactiver l’accès externe (les utilisateurs peuvent communiquer avec Skype pour les utilisateurs professionnels et les équipes)
 
 Vous pouvez utiliser la & Microsoft Teams Skype entreprise centre d’administration pour gérer l’accès externe.
 
@@ -64,7 +64,7 @@ Vous pouvez utiliser la & Microsoft Teams Skype entreprise centre d’administra
 
      ![Capture d’écran de l’accès externe de paramètres à l’échelle de l’organisation](media/manage-external-access-1.png).
 
-2. Activer **ou **désactiver**** l’utilisation de **l’accès externe** .
+2. Basculez **les utilisateurs peuvent communiquer avec Skype pour les utilisateurs professionnels et les équipes** **activé** ou **désactivé**.
 
      ![Capture d’écran de l’option d’accès externe est activée](media/manage-external-access-2.png).
 

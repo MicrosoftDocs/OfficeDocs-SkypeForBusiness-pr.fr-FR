@@ -17,12 +17,12 @@ appliesto:
 f1keywords:
 - ms.teamsadmincenter.meetingpolicies.overview
 description: Découvrez comment inclure votre logo, notification d’exclusion légale et d’autres informations dans vos invitations aux réunions.
-ms.openlocfilehash: 0b5c050e2a7d530348db632bfd0471f2df807422
-ms.sourcegitcommit: 17348a197c8ed76d587f3c3d0ff36c56414183f0
+ms.openlocfilehash: ab42ddbc427ec344b8e4cf0f85e11f1426a5c6c4
+ms.sourcegitcommit: 188c57e6b6c707edb694bb922556dea1c4724846
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30477597"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30955005"
 ---
 # <a name="customize-meeting-invitations-in-microsoft-teams"></a>Personnaliser les invitations aux réunions dans Microsoft Teams
 
@@ -30,11 +30,11 @@ En tant qu’administrateur, vous pouvez vous assurer que les Teams Microsoft to
 
 ## <a name="tips-for-creating-a-logo-for-meeting-invitations"></a>Conseils pour la création d’un logo pour les invitations aux réunions
 
-1. Créez une image qui n’a pas plus de 188 pixels de large par 30 pixels de haut (très petite).
-2. Enregistrez l’image au format JPG.
+1. Créer une image qui n’est pas plus de 188 pixels de large par 30 pixels de haut (il s’agit très petite).
+2. Enregistrer l’image au format JPG ou PNG.
 3. Stocker l’image dans un emplacement central que tout le monde dans votre entreprise permettre accéder, par exemple un partage réseau, partagé OneDrive dossier Professionnel, échange et ainsi de suite.
 
-    Vous pouvez maintenant l’ajouter à vos invitations aux réunions. Voir les étapes suivantes.
+    Maintenant vous pouvez l’ajouter à vos invitations aux réunions. Voir les étapes suivantes.
 
 ## <a name="customize-your-meeting-invitations"></a>Personnaliser vos invitations aux réunions
 
@@ -42,12 +42,12 @@ En tant qu’administrateur, vous pouvez vous assurer que les Teams Microsoft to
 2. À partir du centre d’administration Office 365, choisissez **Admin centres** > **& équipes Skype**.
 3. Dans le centre d’administration Microsoft Teams, choisissez **réunions** > **paramètres de réunion**.
 4. Procédez comme suit :
-    - **URL du logo** - Entrez l’URL où est stockée votre logo. N’oubliez pas qu’il doit être au format JPG !
+    - **URL du logo** - Entrez l’URL où est stockée votre logo. N’oubliez pas qu’elle doit être au format JPG ou PNG !
     - **URL juridique** - si votre organisation dispose d’un site Web juridique souhaitée de personnes pour atteindre si elles ont des implications juridiques, entrez l’URL ici.
     - **URL de l’aide** – si votre organisation dispose d’un site Web que vous souhaitez de personnes pour atteindre s’ils disposent de problèmes, entrez l’URL ici.
     - **Pied de page** , note entrée en lecture seule qui est approprié pour vos utilisateurs.
 5.  Cliquez sur **Enregistrer**.
-6.  Attendez une heure pour que les modifications soient effectuées dans tous les services Office 365. Accédez à Outlook, puis planifiez une réunion Skype pour obtenir un aperçu de vos modifications.
+6.  Attendez une heure pour les modifications sont remplies pour tous les services Office 365. Accédez à Outlook, puis planifier une réunion Skype pour obtenir un aperçu de vos modifications.
 
 ## <a name="related-topics"></a>Rubriques connexes
 

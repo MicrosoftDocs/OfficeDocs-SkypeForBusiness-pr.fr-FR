@@ -1,5 +1,5 @@
 ---
-title: Messagerie vocale pour système téléphonique
+title: Messagerie vocale cloud
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,14 +17,14 @@ appliesto:
 localization_priority: Normal
 f1keywords: None
 ms.custom: None
-description: Découvrez le système téléphonique de la messagerie vocale.
-ms.openlocfilehash: 69e0908552149ff171d41961d8721b4a4f6ab615
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+description: Découvrez la messagerie vocale dans le nuage.
+ms.openlocfilehash: 6c224d3b00234bc65f724f7c255049b3be9edbe8
+ms.sourcegitcommit: 4e750efd107dfc9bfd8b09d64abd40e0e27734de
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23856418"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "30948132"
 ---
-# <a name="phone-system-voicemail"></a>Messagerie vocale pour système téléphonique
+# <a name="cloud-voicemail"></a>Messagerie vocale cloud
 
 

@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Cet article décrit les améliorations cumulatives de systèmes de salle Skype v2.
-ms.openlocfilehash: b3e6a6341e917b49eed6f1c89dcadfe29bcdaf10
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 8de76d085bad4ec8fc7c52c0f46a416d9b1cac82
+ms.sourcegitcommit: 0ea63f45cb31852fea6894cc6ffb0ae1ae444e64
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891598"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "30950255"
 ---
 # <a name="release-notes"></a>Notes de publication 
 
@@ -61,7 +61,7 @@ Introduite dans cette mise à jour :
 
 ### <a name="40760-03042019"></a>4.0.76.0 (04/03/2019)
 Introduite dans cette mise à jour :
-- Clavier DTMF pour les réunions Teams Microsoft. Pour rendre Microsoft Teams votre client appelant par défaut, administrateurs doivent définir IsTeamsDefaultClient sur true
+- Clavier DTMF pour les réunions Microsoft équipes P2P et appels PSTN. Pour rendre Microsoft Teams votre client appelant par défaut, administrateurs doivent définir IsTeamsDefaultClient sur true
 - Épingler vidéo entrant d’un participant à distance en mode plein écran sur le devant de l’affichage de la salle. Utilisez la commande « Pin » à partir de la liste des participants dans la console
 - Améliorations apportées à des notifications de salle d’attente avec ajout de notification avant de salle
 - Avant de l’affichage de la salle supprime l’icône de conversion forcée lors de la balise Bluetooth n’est pas activé sur le périphérique de système de salle

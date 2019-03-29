@@ -1,5 +1,5 @@
 ---
-title: Configurer la conférence pour Microsoft Teams
+title: Configurer Audioconférence pour Microsoft Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,14 +21,14 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 'Découvrez comment configurer des rendez-vous ou de conférence Audio pour les personnes dans votre entreprise qui ont besoin d’utiliser un téléphone pour participer à des téléconférences. '
-ms.openlocfilehash: c5925677889d9a81e15ccb15494163fd28c14639
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 30e79282f04c2d1b4dc7ff01673461b7a18254fd
+ms.sourcegitcommit: 188c57e6b6c707edb694bb922556dea1c4724846
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30635520"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30955029"
 ---
-# <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Configurer la conférence pour Microsoft Teams
+# <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Configurer Audioconférence pour Microsoft Teams
 
 Parfois les personnes dans votre organisation vous devrez utiliser un téléphone pour appeler une réunion. Microsoft Teams inclut la fonctionnalité de conférence audio uniquement cette situation ! Personnes peuvent appeler réunions équipes à l’aide d’un téléphone, au lieu d’utiliser l’application équipes sur un appareil mobile ou un PC. 
   
@@ -51,7 +51,7 @@ Allez à la page [Disponibilité des pays et des régions pour les audioconfére
     >[!NOTE] 
     > Conférence audio est incluse dans les licences d’Office 365 entreprise E5 et en tant que composant additionnel.
         
-2. Une fois que vous avez acheté les licences d’audioconférence, vous devez les attribuer aux personnes qui vont planifier ou animer des réunions. Consultez [l’attribution de licences aux utilisateurs dans Office 365 pour entreprises](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) vous avez acheté pour les personnes de votre organisation qui sont sur le point à des réunions de planification ou responsable.
+2. Une fois que vous achetez les licences de conférence Audio, vous devez les assigner aux personnes de votre organisation qui sont sur le point de planifier ou entraîner des réunions. Consultez [l’attribution de licences aux utilisateurs dans Office 365 pour entreprises](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) vous avez acheté pour les personnes de votre organisation qui sont sur le point à des réunions de planification ou responsable.
     
 3. Nous vous recommandons également d’affecter des licences de crédits de communications (elles ne coûtent rien) aux mêmes personnes à qui vous avez attribué des licences à l’étape précédente. Pour savoir comment configurer les Crédits de communications, voir [Configurer les Crédits de communications pour votre entreprise](set-up-communications-credits-for-your-organization.md).
     
