@@ -1,5 +1,5 @@
 ---
-title: Options de licence en fonction de votre forfait
+title: Options de licence en fonction de votre offre
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,14 +17,14 @@ appliesto:
 localization_priority: Normal
 f1keywords: None
 ms.custom: None
-description: Découvrez le système téléphonique de la messagerie vocale.
-ms.openlocfilehash: faabd4c089227730f1c28e5e19dc9c394bd64473
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+description: Découvrez la messagerie vocale dans le nuage.
+ms.openlocfilehash: eb6065a64bf03c2112747a296a1d0ef955a1506f
+ms.sourcegitcommit: 4e750efd107dfc9bfd8b09d64abd40e0e27734de
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120288"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "30948142"
 ---
-# <a name="license-options-based-on-your-plan"></a>Options de licence en fonction de votre forfait
+# <a name="license-options-based-on-your-plan"></a>Options de licence en fonction de votre offre
 
 
