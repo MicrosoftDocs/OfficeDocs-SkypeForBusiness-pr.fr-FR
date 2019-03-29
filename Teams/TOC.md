@@ -187,26 +187,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-## [Interopérabilité de la vidéo cloud](cloud-video-interop.md)
-
-## Événements en direct
-### [Que sont les événements en direct Teams ?](teams-live-events/what-are-teams-live-events.md)
-### [Offre pour les événements en direct Teams](teams-live-events/plan-for-teams-live-events.md)
-### [Configurer les événements en direct Teams](teams-live-events/set-up-for-teams-live-events.md)
-### [Utiliser PowerShell pour définir les stratégies d’événements en direct Teams](teams-live-events/set-teams-live-events-policies-using-powershell.md)
-### [Configurer les paramètres d’événements en direct Teams](teams-live-events/configure-teams-live-events.md)
-
-<!-- ============================================================ -->
-
 ### Référence
 #### [Langues prises en charge pour l’audioconférence](audio-conferencing-supported-languages.md)
 
@@ -305,6 +285,26 @@
 <!-- ============================================================ -->
 
 
+
+
+
+
+
+
+
+## [Interopérabilité de la vidéo cloud](cloud-video-interop.md)
+
+## Événements en direct
+### [Que sont les événements en direct Teams ?](teams-live-events/what-are-teams-live-events.md)
+### [Offre pour les événements en direct Teams](teams-live-events/plan-for-teams-live-events.md)
+### [Configurer les événements en direct Teams](teams-live-events/set-up-for-teams-live-events.md)
+### [Utiliser PowerShell pour définir les stratégies d’événements en direct Teams](teams-live-events/set-teams-live-events-policies-using-powershell.md)
+### [Configurer les paramètres d’événements en direct Teams](teams-live-events/configure-teams-live-events.md)
+
+<!-- ============================================================ -->
+
+
+
 # [Voix Cloud](cloud-voice-landing-page.md)
 ## Système téléphonique
 ### [Qu’est-ce que le système téléphonique ?](what-is-phone-system-in-office-365.md)
@@ -312,9 +312,9 @@
 ### [Configurer le système téléphonique](setting-up-your-phone-system.md)
 ### [Configurer les téléphones de partie commune](set-up-common-area-phones.md)
 ### Messagerie vocale
-#### [Configurer la messagerie vocale du système téléphonique](set-up-phone-system-voicemail.md)
-#### [Modifier la langue par défaut pour la messagerie vocale](change-the-default-language-for-greetings-and-emails.md)
-#### [Langues pour les messages d’accueil et les messages de la messagerie vocale](languages-for-voicemail-greetings-and-messages.md)
+#### [Configurer la Messagerie vocale cloud](set-up-phone-system-voicemail.md)
+#### [Modifier la langue par défaut de la messagerie vocale](change-the-default-language-for-greetings-and-emails.md)
+#### [Langues pour la messagerie vocale accueil et des messages](languages-for-voicemail-greetings-and-messages.md)
 ### ID de l’appelant
 #### [Utilisation d’un ID d’appelant dans votre organisation](/SkypeForBusiness/what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Définir l’ID d’appelant pour un utilisateur](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
