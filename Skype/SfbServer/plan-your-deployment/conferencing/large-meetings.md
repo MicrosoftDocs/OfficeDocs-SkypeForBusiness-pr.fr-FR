@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 21507e18-bd79-4019-9c3a-0867fccaa3b4
 description: 'Résumé : Lisez cette rubrique pour en savoir plus sur les meilleures pratiques pour l’implémentation et la gestion des grandes réunions dans Skype pour Business Server.'
-ms.openlocfilehash: 3c4b00a961aa8c687ad4a420cade08af908ca102
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 4ef45f5393e389a3c6a1246041d058d1e0b387f1
+ms.sourcegitcommit: 89b866a3c383555f6f89dc77bebd74cddf9e40fb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877908"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31003873"
 ---
 # <a name="plan-for-large-meetings-in-skype-for-business-server"></a>Planifier des réunions de grande taille dans Skype pour Business Server
  
@@ -189,8 +189,14 @@ Créez une stratégie de conférence spécifique aux grandes réunions, puis aff
 > [!NOTE]
 > Prise en charge des grandes réunions dans Skype pour Business Server requiert que le paramètre **AllowLargeMeetings** est définie sur true. Lorsque ce paramètre est défini sur true, le Skype pour une expérience sera optimisé pour les très grandes réunions lorsque les utilisateurs de participer à la réunion. Plus précisément, dans une grande réunion Skype pour les entreprises n’affiche pas l’initial ou la mise à jour de la liste des participants totale de la réunion, qui est un goulot d’étranglement de performances pour le client et Skype pour Business Server. Au lieu de cela, Skype pour les entreprises n’affiche plus d’informations sur l’utilisateur et la liste des présentateurs de la réunion. Skype pour les entreprises affiche toujours le nombre total de participants disponibles dans les réunions de grande taille.
 
+Le paramètre - AllowLargeMeetings $true entraîne les éléments suivants : · Masquer la liste des participants. · Désactive les erreurs dans la fenêtre de messagerie instantanée.
+· Désactiver la vidéo à plusieurs.
+· Désactive la possibilité de désigner un participant présentateur. Vous devez planifier et déclarer tous les présentateurs avant la réunion.
+· Désactive la possibilité d’activer le son des participants individuels.
+· Désactive la possibilité d’appliquer la fonctionnalité de verrouillage vidéo actualités aux participants.
+· Numérotation PSTN dans les utilisateurs ne pourront pas eux-mêmes à l’aide de rétablir le son * 6 personnel Assistance virtuel qui est chargé de DTMF des commandes dans les grandes réunions actives est introuvable.
+· Si l’organisateur de présentateur/planifie une réunion où tout le monde doit être muet tout d’abord (« désactiver tous les »), PSTN utilisateurs sera coupés tout au long de l’appel et ne sera pas en mesure de réactiver leur micro.
 
-  
 À l’exception du paramètre **Taille maximale de la réunion**, tous les autres paramètres de stratégie de conférence spécifiés ici sont nécessaires pour désactiver les fonctions de conférence qui ne sont pas nécessaires pour les grandes réunions.
   
 En outre, vous devez configurer le pool de grande réunion dédié afin que chaque Skype pour utilisateur Business Server hébergés sur le pool et chargé de gérer la planification de la réunion dispose des autorisations appropriées. À cet effet, procédez ainsi :

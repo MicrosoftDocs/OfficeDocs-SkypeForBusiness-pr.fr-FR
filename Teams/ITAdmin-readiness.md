@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Vidéos de formation, des supports de présentation PowerPoint, des didacticiels et autres ressources pour les administrateurs à planifier, déploiement et exécuter Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8294854a3ff4ed7d38b90380b1e1e25230f859d1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 14fea980b7f0cfbb3d8a8218c20ebe503387529a
+ms.sourcegitcommit: 89b866a3c383555f6f89dc77bebd74cddf9e40fb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30872709"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31003819"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Formation à Microsoft Teams pour les administrateurs
 
@@ -92,6 +92,7 @@ Utilisez les ressources de formation pour informer sur les équipes, apprendre �
 | Notions de base - composants principaux | [Video](https://aka.ms/teams-foundations) | [Pont](https://aka.ms/teams-foundations-deck) |
 | Client de bureau Windows | [Video](https://aka.ms/teams-clients) | [Pont](https://aka.ms/teams-clients-deck) |
 | Cycle de vie, la gestion et la gouvernance | [Video](https://aka.ms/teams-governance) | [Pont](https://aka.ms/teams-governance-deck) |
+| Conformité & de sécurité | [Video](https://aka.ms/teams-security-compliance) | [Pont](https://aka.ms/teams-security-compliance-deck) |
 | Planification de réseau | [Video](https://aka.ms/teams-networking) | [Pont](https://aka.ms/teams-networking-deck) |
 | Vue d’ensemble de la qualité des appels | [Video](https://aka.ms/teams-quality) | [Pont](https://aka.ms/teams-quality-deck) |
 | Présentation des réunions | [Video](https://aka.ms/teams-meetings-intro) | [Pont](https://aka.ms/teams-meetings-intro-deck) |

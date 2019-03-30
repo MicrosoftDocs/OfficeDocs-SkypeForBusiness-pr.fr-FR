@@ -1,5 +1,5 @@
 ---
-title: Quelles sont les standards automatiques de système téléphonique ?
+title: Quels sont les standards automatiques du système téléphonique?
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -22,14 +22,14 @@ f1keywords: ms.teamsadmincenter.autoattendants.overview
 ms.custom:
 - Phone System
 description: Découvrez quelles sont les standards automatiques de système téléphonique et comment les utiliser.
-ms.openlocfilehash: 036044f779d964b19db53e7e568bb5df86ff372c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 03eec73f8274ab9b5cbe67624b0ef1158d548a4a
+ms.sourcegitcommit: 89b866a3c383555f6f89dc77bebd74cddf9e40fb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879335"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31003866"
 ---
-# <a name="what-are-phone-system-auto-attendants"></a>Quelles sont les standards automatiques de système téléphonique ?
+# <a name="what-are-phone-system-auto-attendants"></a>Quels sont les standards automatiques du système téléphonique?
 
 Système téléphonique dans Office 365 fournit des standards automatiques, qui peuvent être utilisés pour permettre aux externe et internes appelants déplacement dans un système de menus pour localiser et placer ou transférer des appels vers les utilisateurs de la société ou département au sein de votre organisation.
   
@@ -53,17 +53,22 @@ Un standard automatique de système téléphonique comprend les fonctionnalités
 ## <a name="getting-started"></a>Prise en main
 
 Avant de commencer à utiliser les standards automatiques, il est impératif de noter les points suivants :
-  
-- Vous devez attribuer une licence de système téléphonique à un compte de ressource qui sera associé à votre standard automatique. Pour plus d’informations sur les licences, voir [Gestion des licences de module complémentaire équipes Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+
+- Un standard automatique est nécessaire d’avoir un compte de ressource. Pour plus d’informations sur les comptes de ressources, voir [Gérer les comptes de ressources dans les équipes](manage-resource-accounts.md) .
+- Si vous souhaitez affecter un numéro de routage Direct, vous devez acquérir et affecter les licences suivantes aux comptes ressource \(Office 365 entreprise E1, E3 ou E5, avec le module complémentaire système téléphonique\).
+- Si vous affectez un numéro de service Microsoft au lieu de cela, vous devez acquérir et affecter les licences suivantes à votre compte de ressource \(Office 365 entreprise E1, E3 ou E5, avec le module complémentaire système téléphonique et un Plan d’appel de\).
+
+> [!NOTE] 
+> Microsoft fonctionne sur un modèle de licence approprié pour les applications telles que les standards automatiques de nuage et les files d’attente des appels, maintenant vous devez utiliser le modèle de gestion des licences utilisateur pour.
     
     > [!TIP]
-    > Pour rediriger les appels vers un opérateur ou une option de menu qui est un utilisateur en ligne avec une licence de **Système téléphonique** , vous devez les activer pour Enterprise Voice ou de leur attribuer des Plans de l’appel. Consultez les [licences d’affecter des équipes Microsoft](assign-teams-licenses.md). Vous pouvez aussi utiliser Windows PowerShell. Par exemple, exécutez :  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+    > To redirect calls to an operator or a menu option that is an Online user with a **Phone System** license, you will need to enable them for Enterprise Voice or assign Calling Plans to them. See [Assign Microsoft Teams licenses](assign-teams-licenses.md). You can also use Windows PowerShell. For example run:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
 - Pour obtenir et utiliser des numéros gratuits service pour vos standards automatiques, vous devez configurer les crédits de Communications. Pour ce faire, consultez la rubrique [Quelles sont les Communications crédits ?](what-are-communications-credits.md) et [configurer les Communications crédits pour votre organisation](set-up-communications-credits-for-your-organization.md).
 
     > [!IMPORTANT]
     > Les numéros de téléphone des utilisateurs (abonnés) ne peuvent pas être attribués à des standards automatiques. Seuls les numéros de téléphone gratuits et payants peuvent être utilisés.
-- Un standard automatique est nécessaire d’avoir un compte de ressource. Pour plus d’informations sur les comptes de ressources, voir [Gérer les comptes de ressources dans les équipes](manage-resource-accounts.md) .
+
 - Un système de standard automatique terminée implique généralement plusieurs standards automatiques et nécessitent qu’un numéro de téléphone affecté unique pour le niveau supérieur ou entrée automatique standard. Autres standards automatiques ou les files d’attente des appels dans le système doivent uniquement un numéro de téléphone si vous souhaitez fournir plusieurs points d’entrée dans le système.
 - Il est possible d’appliquer plusieurs numéros de téléphone à un standard automatique de l’association de plusieurs comptes de ressources à un standard automatique.
   
@@ -126,7 +131,7 @@ Les appelants peuvent prononcer les noms dans les formats suivants :
 |Prénom + nom |Complet |Amos Marble |Amos Marble |
 |Nom + prénom |Complet  |Marble Amos |Amos Marble |
 |Prénom |Complet |Amos |Appuyez sur 1 ou dites 1 pour Amos Marble  <br/> Appuyez sur 2 ou dites 1 pour Amos Jones |
-|LastName |Complet |Marble |Appuyez sur 1 ou dites 1 pour Amos Marble  <br/> Appuyez sur 2 ou dites 1 pour Ben Marble |
+|Nom |Complet |Marble |Appuyez sur 1 ou dites 1 pour Amos Marble  <br/> Appuyez sur 2 ou dites 1 pour Ben Marble |
 
 > [!NOTE]
 > Il peut prendre jusqu'à 36 heures pour un nouvel utilisateur à leur nom apparaît dans le répertoire de numérotation par un nom pour la reconnaissance vocale en raison de retard de réplication d’Active Directory.
