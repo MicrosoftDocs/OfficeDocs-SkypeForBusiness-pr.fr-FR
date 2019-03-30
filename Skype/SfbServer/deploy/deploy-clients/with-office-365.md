@@ -1,5 +1,5 @@
 ---
-title: Déploiement de Skype Room Systems v2 avec Office 365
+title: Déployer les équipes Microsoft salles avec Office 365
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,25 +10,26 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
 - Strat_SB_Admin
+- M365-voice
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
-description: Lisez cette rubrique pour plus d’informations sur le déploiement de systèmes de salle Skype v2 avec Office 365.
-ms.openlocfilehash: 05288842a54fd8be7487181582fcc7bd4780fd2e
-ms.sourcegitcommit: 8e5fc1d8c19a7f26f53e40b23dd6476a8c6d805f
+description: Lisez cette rubrique pour plus d’informations sur la façon de déployer Microsoft équipes salles avec Office 365.
+ms.openlocfilehash: 5ef6c4ea8b76a34b19da6a74d82badf8000e007c
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "30800123"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31012939"
 ---
-# <a name="deploy-skype-room-systems-v2-with-office-365"></a>Déploiement de Skype Room Systems v2 avec Office 365 
+# <a name="deploy-microsoft-teams-rooms-with-office-365"></a>Déployer les équipes Microsoft salles avec Office 365
 
-Lisez cette rubrique pour plus d’informations sur le déploiement de systèmes de salle Skype v2 avec Office 365, où Skype pour les entreprises et Exchange sont en ligne.
+Lisez cette rubrique pour plus d’informations sur la façon de déployer Microsoft équipes salles avec Office 365, où Skype pour les entreprises et Exchange sont en ligne.
 
-Pour configurer des comptes d’utilisateurs, la plus simple consiste à configurer à l’aide de Windows PowerShell à distance. Microsoft propose [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), un script qui vous aide à créer des comptes d’utilisateur ou de valider les comptes de ressource existant dont vous disposez afin de vous aider à les transformer en comptes d’utilisateurs v2 Skype salle systèmes compatibles. Si vous préférez, vous pouvez suivre les étapes ci-dessous pour configurer les comptes utilisés par votre appareil v2 de systèmes de salle Skype.
+Pour configurer des comptes d’utilisateurs, la plus simple consiste à configurer à l’aide de Windows PowerShell à distance. Microsoft propose [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), un script qui vous aide à créer des comptes d’utilisateur ou de valider les comptes de ressource existant dont vous disposez afin de vous aider à les transformer en comptes d’utilisateurs locaux des équipes Microsoft compatibles. Si vous préférez, vous pouvez suivre les étapes ci-dessous pour configurer les comptes utilisés par votre périphérique Microsoft équipes salles.
 
 ## <a name="requirements"></a>Configuration requise
 
-Avant de déployer des systèmes de salle Skype v2 avec Office 365, assurez-vous que vous remplissez les conditions. Pour plus d’informations, reportez-vous à la rubrique [Skype Room Systems v2 requirements](../../plan-your-deployment/clients-and-devices/requirements.md).
+Avant de déployer Microsoft équipes salles avec Office 365, assurez-vous que vous remplissez les conditions. Pour plus d’informations, consultez [Configuration requise de salles d’équipes Microsoft](../../plan-your-deployment/clients-and-devices/requirements.md).
 
 Pour activer Skype pour les entreprises, vous devez disposer les éléments suivants :
 
@@ -38,7 +39,7 @@ Pour activer Skype pour les entreprises, vous devez disposer les éléments suiv
 
 - Les utilisateurs de client doivent avoir des boîtes aux lettres Exchange.
 
-- Votre compte v2 de systèmes de salle Skype requiert au minimum un Skype pour licence entreprise Online (Plan 2), mais il ne nécessite pas une licence Exchange Online. Pour plus d’informations, voir [systèmes de salle Skype v2 licences](/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md) .
+- Votre compte Microsoft équipes salles requiert au minimum un Skype pour la licence entreprise Online (Plan 2), mais il ne nécessite pas une licence Exchange Online. Pour plus d’informations, voir [Gestion des licences salles d’équipes Microsoft](/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md) .
 
 Pour plus d’informations sur Skype pour Business Online Plans, voir le [Skype pour Business Online Service Description](https://technet.microsoft.com/library/jj822172.aspx).
 
@@ -164,7 +165,7 @@ Pour plus d’informations sur Skype pour Business Online Plans, voir le [Skype 
 
    Pour obtenir des instructions détaillées, consultez la rubrique [attribution de licences pour les comptes d’utilisateurs avec Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell).
 
-7. Ensuite, vous devez activer le compte de l’appareil avec Skype pour les entreprises. Assurez-vous que votre environnement est conforme à la configuration définie dans [Skype Room Systems v2 requirements](../../plan-your-deployment/clients-and-devices/requirements.md).
+7. Ensuite, vous devez activer le compte de l’appareil avec Skype pour les entreprises. Assurez-vous que votre environnement répond aux exigences définies dans les [salles d’équipes Microsoft requise](../../plan-your-deployment/clients-and-devices/requirements.md).
 
    Démarrer une [session Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) à distance comme suit (veillez à [installer Skype pour les composants Business Online PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector)) :
 
@@ -174,7 +175,7 @@ Pour plus d’informations sur Skype pour Business Online Plans, voir le [Skype 
    Import-PSSession $cssess -AllowClobber
    ```
 
-   Ensuite, activer votre compte v2 de systèmes de salle Skype pour Skype pour Business Server en exécutant l’applet de commande suivante :
+   Ensuite, activer votre compte Microsoft équipes salles pour Skype pour Business Server en exécutant l’applet de commande suivante :
 
    ``` Powershell
    Enable-CsMeetingRoom -Identity $rm -RegistrarPool "sippoolbl20a04.infra.lync.com" -SipAddressType EmailAddress
@@ -189,7 +190,7 @@ Pour plus d’informations sur Skype pour Business Online Plans, voir le [Skype 
     > [!NOTE]
     > Nouveaux comptes d’utilisateur ne peuvent pas être créés sur le même pool de serveurs d’inscriptions en tant que comptes d’utilisateurs existants dans le client. La commande ci-dessus empêchera les erreurs de configuration de compte en raison de cette situation.
 
-Une fois que vous avez terminé les étapes précédentes pour activer votre compte Skype salle systèmes v2 Skype pour Business Online, vous devez attribuer une licence à un appareil v2 de systèmes de salle Skype. À l’aide du portail d’administration d’Office 365, assignez un soit Skype Business Online (Plan 2) ou une Skype licence entreprise Online (Plan 3) à l’appareil.
+Une fois que vous avez terminé les étapes précédentes pour activer votre compte Microsoft équipes salles dans Skype pour Business Online, vous devez attribuer une licence à un périphérique de salles d’équipes Microsoft. À l’aide du portail d’administration d’Office 365, assignez un soit Skype Business Online (Plan 2) ou une Skype licence entreprise Online (Plan 3) à l’appareil.
 
 ### <a name="assign-a-license-to-your-account"></a>Affectation d’une licence à votre compte
 
@@ -197,11 +198,11 @@ Une fois que vous avez terminé les étapes précédentes pour activer votre com
 
 2. Cliquez sur **Utilisateurs et groupes**, puis sur **Ajoutez des utilisateurs, réinitialisez les mots de passe, et plus encore**.
 
-3. Sélectionnez le compte v2 Skype salle systèmes, puis cliquez ou appuyez sur l’icône crayon, ce qui signifie que modifier.
+3. Sélectionnez le compte Microsoft équipes locaux, puis cliquez ou appuyez sur l’icône crayon, ce qui signifie que modifier.
 
 4. Cliquez sur l’option **Licences**.
 
-5. Dans la section **attribution de licences** , vous devez sélectionner Skype pour Business Online (Plan 2) ou Skype pour Business Online (Plan 3), en fonction de vos licences et vous avez décidé en termes de devoir Enterprise Voice. Vous devrez utiliser une licence 3 planifier si vous souhaitez utiliser dans le nuage PBX sur Skype salle systèmes v2. Vous aurez au moins besoin de CloudPBX pour la connectivité vocale. Puis, configurez la voix hybride ou la fonction d’appel RTC sur la méthode de connectivité RTC. Pour plus d’informations, voir [systèmes de salle Skype v2 licences](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2) .
+5. Dans la section **attribution de licences** , vous devez sélectionner Skype pour Business Online (Plan 2) ou Skype pour Business Online (Plan 3), en fonction de vos licences et vous avez décidé en termes de devoir Enterprise Voice. Vous devrez utiliser une licence 3 planifier si vous souhaitez utiliser dans le nuage PBX sur salles d’équipes Microsoft. Vous aurez au moins besoin de CloudPBX pour la connectivité vocale. Puis, configurez la voix hybride ou la fonction d’appel RTC sur la méthode de connectivité RTC. Pour plus d’informations, voir [licences salles d’équipes Microsoft](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2) .
 
 6. Cliquez sur **Enregistrer** pour terminer la tâche.
 
@@ -249,14 +250,14 @@ Pour la validation, vous devez être en mesure d’utiliser n’importe quel Sky
 
 ## <a name="see-also"></a>Voir aussi
 
-[Configurer des comptes pour les systèmes de salle Skype v2](room-systems-v2-configure-accounts.md)
+[Configurer des comptes pour les salles d’équipes Microsoft](room-systems-v2-configure-accounts.md)
 
-[Planification de Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Planifier des équipes Microsoft salles](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
 
-[Déploiement des systèmes Skype Room version 2](room-systems-v2.md)
+[Déployer les équipes Microsoft salles](room-systems-v2.md)
 
-[Configuration d’une console pour les systèmes Skype Room version 2](console.md)
+[Configurer une console Microsoft équipes salles](console.md)
 
-[Gestion des systèmes Skype Room version 2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Gérer les équipes Microsoft salles](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 
-[Gestion des licences de salle Skype systèmes v2](/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)
+[Salles de gestion des licences des équipes de Microsoft](/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)

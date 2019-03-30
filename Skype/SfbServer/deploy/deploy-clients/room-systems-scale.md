@@ -1,5 +1,5 @@
 ---
-title: Déployer des systèmes de salle Skype à l’aide de System Center Configuration Manager
+title: Déployer Microsoft équipes salles à l’aide de System Center Configuration Manager
 author: jambirk
 ms.author: jambirk
 ms.reviewer: Turgayo
@@ -11,30 +11,31 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
-description: Lisez cette rubrique pour en savoir plus sur le déploiement de systèmes de salle Skype v2 sur les déploiements à grande échelle.
-ms.openlocfilehash: 39884e660ca757827570f6c7c4005baa7b59a1b0
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.collection: M365-voice
+description: Lisez cette rubrique pour en savoir plus sur le déploiement de Microsoft équipes salles à des déploiements à grande échelle.
+ms.openlocfilehash: fe6ffee0c6ab86496204ab4e17b86cc84a70a2a7
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880776"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31013035"
 ---
-# <a name="deploy-skype-room-systems-v2-by-using-system-center-configuration-manager"></a>Déployer des systèmes de salle Skype v2 à l’aide de System Center Configuration Manager
+# <a name="deploy-microsoft-teams-rooms-by-using-system-center-configuration-manager"></a>Déployer Microsoft équipes salles à l’aide de System Center Configuration Manager
 
-Cet article vous offre toutes les informations nécessaires pour créer vos déploiements v2 de systèmes de salle Skype à l’aide de System Center Configuration Manager.
+Cet article vous offre toutes les informations nécessaires pour créer vos déploiements Microsoft équipes salles à l’aide de System Center Configuration Manager.
 
 Avec les méthodes d’utilisation fournies par System Center Configuration Manager, vous pouvez déployer le système d’exploitation et autres applications à plusieurs périphériques cible.
 
 Utilisez l’approche illustrée ci-dessous pour vous guider tout au long de votre configuration du Gestionnaire de Configuration et personnaliser les exemples de packages et les scripts fournis dans ce guide, selon les besoins de votre organisation.
 
-![Processus de déploiement v2 Skype salle systèmes à l’aide du Gestionnaire de Configuration](../../media/room-systems-scale-image1.png)
+![Processus de déploiement de Microsoft équipes salles à l’aide du Gestionnaire de Configuration](../../media/room-systems-scale-image1.png)
 
 > [!IMPORTANT]
 > Cette solution a été testée uniquement avec les déploiements basés sur la Surface Pro. Suivez les instructions du fabricant pour les configurations qui ne sont pas basées sur la Surface Pro.
 
 ## <a name="validate-prerequisites"></a>Valider la configuration requise
 
-Pour déployer des systèmes de salle Skype v2 avec le Gestionnaire de Configuration, vérifiez que vous disposez de la configuration requise et conditions préalables suivantes.
+Pour déployer Microsoft équipes salles avec le Gestionnaire de Configuration, vérifiez que vous disposez de la configuration requise et conditions préalables suivantes.
 
 ### <a name="system-center-configuration-manager-requirements"></a>Configuration requise de System Center Configuration Manager
 
@@ -46,11 +47,11 @@ Pour déployer des systèmes de salle Skype v2 avec le Gestionnaire de Configura
 
 -   Un compte d’accès au réseau doit être configuré pour prendre en charge de nouveaux scénarios de déploiement de l’ordinateur (vierge). Pour en savoir plus sur la configuration d’un compte d’accès au réseau, voir [Gérer les comptes pour accéder au contenu dans System Center Configuration Manager](https://docs.microsoft.com/sccm/core/plan-design/hierarchy/manage-accounts-to-access-content#bkmk_NAA).
 
--   Il est recommandé d’activer la [prise en charge multidiffusion](https://docs.microsoft.com/sccm/osd/deploy-use/use-multicast-to-deploy-windows-over-the-network), si vous êtes susceptible de déployer la même image v2 Skype salle systèmes à plusieurs unités en même temps.
+-   Il est recommandé d’activer la [prise en charge multidiffusion](https://docs.microsoft.com/sccm/osd/deploy-use/use-multicast-to-deploy-windows-over-the-network), si vous êtes susceptible de déployer l’image de salles d’équipes Microsoft même plusieurs unités en même temps.
 
 ### <a name="networking-requirements"></a>Exigences de mise en réseau
 
--   Votre réseau doit posséder un serveur DHCP Dynamic Host Configuration Protocol (), configuré pour la distribution automatique des adresses IP pour les sous-réseaux où les systèmes de salle de Skype v2 unités seront déployés.
+-   Votre réseau doit posséder un serveur DHCP Dynamic Host Configuration Protocol (), configuré pour la distribution automatique des adresses IP pour les sous-réseaux où les unités de salles d’équipes Microsoft seront déployées.
 
     > [!NOTE]
     > Durée de bail DHCP doit être définie sur une valeur supérieure à la durée de déploiement d’image. Dans le cas contraire, le déploiement peut échouer.
@@ -80,7 +81,7 @@ Utilisez les instructions suivantes pour vérifier que les fonctionnalités de d
 
 1.  Dans la console Configuration Manager, accédez à **Administration** \> **Points de Distribution**.
 
-2.  Sélectionnez le serveur du point de distribution qui va traiter le déploiement de v2 Skype salle systèmes, puis sélectionnez **Propriétés**.
+2.  Sélectionnez le serveur du point de distribution qui va traiter le déploiement de salles d’équipes Microsoft, puis sélectionnez **Propriétés**.
 
 3.  Sélectionnez l’onglet **PXE** et vérifiez que les paramètres suivants sont activés :
     -   Activer la prise en charge PXE pour les clients
@@ -129,16 +130,16 @@ Pour plus d’informations, voir [Gérer les images de démarrage avec System Ce
 
 ## <a name="create-configuration-manager-packages"></a>Créer des packages de gestionnaire de Configuration
 
-Gestionnaire de configuration requiert un nombre de packages pour déployer et configurer les unités de v2 Skype salle système.
+Gestionnaire de configuration requiert un nombre de packages pour déployer et configurer les unités de salles d’équipes Microsoft.
 
 Vous devez créer et configurer les packages suivants, puis les distribuer aux systèmes de site Configuration Manager qui ont été attribués le rôle de serveur de point de distribution.
 
 | **Nom du package**                     | **Type**               | **Description**                                                                           |
 |--------------------------------------|------------------------|-------------------------------------------------------------------------------------------|
-| SRS v2 - SRS Package d’Application     | Package de logiciels       | Package pour le kit de déploiement de systèmes de salle Skype v2                                      |
-| SRS v2 - Package Sysprep             | Package de logiciels       | Package pour la Unattended.xml personnalisée configurer les unités v2 de systèmes de salle de Skype            |
+| SRS v2 - SRS Package d’Application     | Package de logiciels       | Package pour le kit de déploiement Microsoft équipes salles                                      |
+| SRS v2 - Package Sysprep             | Package de logiciels       | Package pour la Unattended.xml personnalisée configurer les unités de salles d’équipes Microsoft            |
 | SRS v2 - Package Set-SRSComputerName | Package de logiciels       | Package de l’application HTML (HTA) attribuer un nom d’ordinateur au cours du déploiement    |
-| SRS v2 - configurer le programme d’installation SRS         | Package de logiciels       | Package pour configurer le déploiement de l’application v2 de systèmes de salle de Skype                          |
+| SRS v2 - configurer le programme d’installation SRS         | Package de logiciels       | Package pour configurer le déploiement de l’application Microsoft équipes salles                          |
 | Système d’exploitation de SRS v2 - mises à jour de Package          | Package de logiciels       | Package de déploiement des mises à jour du système d’exploitation obligatoire                                      |
 | SRS v2 - Package du certificat racine    | Package de logiciels       | Facultatif : Package pour déployer le certificat racine (non requis pour les unités à un domaine)  |
 | SRS v2 - Microsoft Package de l’Agent de surveillance | Package de logiciels       | Facultatif : Package pour déployer et configurer l’agent Microsoft Operations Management Suite|
@@ -215,7 +216,7 @@ Créez la structure de dossier suivante sur le site administration centrale de S
    ```
 3. Téléchargez les packages de mise à jour Windows obligatoires dans le même dossier.
    > [!NOTE]
-   > Au moment de que cet article a été publié, uniquement [KB4056892](http://download.windowsupdate.com/c/msdownload/update/software/secu/2018/01/windows10.0-kb4056892-x64_a41a378cf9ae609152b505c40e691ca1228e28ea.msu) était requis. Vérifiez [Configure une console v2 de systèmes de salle Skype](console.md), pour voir si des mises à jour sont requises.
+   > Au moment de que cet article a été publié, uniquement [KB4056892](http://download.windowsupdate.com/c/msdownload/update/software/secu/2018/01/windows10.0-kb4056892-x64_a41a378cf9ae609152b505c40e691ca1228e28ea.msu) était requis. Vérifiez de [configurer une console salles des équipes Microsoft](console.md), pour voir si des mises à jour sont requises.
 
 4. Dans la console Configuration Manager, accédez à la **Bibliothèque de logiciels** \> **Gestion des applications** \> **Packages**, puis sélectionnez **Créer un Package**.
 
@@ -235,7 +236,7 @@ Créez la structure de dossier suivante sur le site administration centrale de S
 
 Vous créez ce package pour distribuer le certificat racine pour les périphériques qui ne sont pas être joint à un domaine Active Directory. Créer ce package uniquement si les deux conditions suivantes s’appliquent :
 -   Votre déploiement comprend locale Lync ou Skype pour Business Server.
--   Unités de v2 Skype salle systèmes sont configurées pour fonctionner dans un groupe de travail au lieu d’un membre du domaine.
+-   Unités de salles d’équipes Microsoft sont configurées pour fonctionner dans un groupe de travail au lieu d’un membre du domaine.
 
 1.  Copiez le certificat racine dans le dossier **SRS v2 – Package du certificat racine** .
 
@@ -253,9 +254,9 @@ Vous créez ce package pour distribuer le certificat racine pour les périphéri
 
 6.  Sélectionnez **Fermer**.
 
-### <a name="create-the-skype-room-systems-v2-deployment-kit-package"></a>Créer le package de kit de déploiement v2 Skype salle systèmes
+### <a name="create-the-microsoft-teams-rooms-deployment-kit-package"></a>Créer le package de kit de déploiement Microsoft équipes salles
 
-1.  Télécharger la dernière version du **kit de déploiement de systèmes de salle Skype v2** à partir de <https://go.microsoft.com/fwlink/?linkid=851168>, puis installez-le dans une station de travail.
+1.  Télécharger la dernière version du **kit de déploiement Microsoft équipes salles** à partir de <https://go.microsoft.com/fwlink/?linkid=851168>, puis installez-le dans une station de travail.
 
 2.  Copiez le contenu à partir de **c :\\Program Files (x86)\\Kit de déploiement de système de salle Skype** dans le dossier **SRS v2 - SRS Package d’Application** .
 
@@ -469,10 +470,10 @@ Pour plus d’informations, voir [Gérer les images de système d’exploitation
 
 ### <a name="create-surface-pro-device-driver-packages"></a>Créer des packages de pilote de périphérique Surface Pro
 
-Systèmes de salle Skype v2 est pris en charge pour la Surface Pro et Surface Pro 4. Vous devez créer un package pour chaque modèle de Surface Pro que vous disposez dans votre environnement.
+Salles d’équipes Microsoft est pris en charge pour la Surface Pro et Surface Pro 4. Vous devez créer un package pour chaque modèle de Surface Pro que vous disposez dans votre environnement.
 
 > [!IMPORTANT]
-> Les pilotes doivent être compatibles avec la version entreprise de 10 Windows et la version de kit de déploiement de v2 Skype salle systèmes. Pour plus d’informations, voir [télécharger les derniers microprogrammes et pilotes de périphériques de Surface](https://docs.microsoft.com/surface/deploy-the-latest-firmware-and-drivers-for-surface-devices) et [configurer une console](console.md).
+> Les pilotes doivent être compatibles avec la version entreprise de 10 Windows et la version de kit de déploiement Microsoft équipes salles. Pour plus d’informations, voir [télécharger les derniers microprogrammes et pilotes de périphériques de Surface](https://docs.microsoft.com/surface/deploy-the-latest-firmware-and-drivers-for-surface-devices) et [configurer une console](console.md).
 
 1.  Téléchargez les pilotes et le microprogramme le plus récent.
     -   Pour une Surface Pro :<https://www.microsoft.com/download/details.aspx?id=55484>
@@ -505,7 +506,7 @@ Systèmes de salle Skype v2 est pris en charge pour la Surface Pro et Surface Pr
 > [!NOTE]
 > Répétez les étapes pour les autres modèles de Surface Pro, que vous devrez peut-être. Pour plus d’informations, voir [Gérer les pilotes dans System Center Configuration Manager](https://docs.microsoft.com/sccm/osd/get-started/manage-drivers).
 
-### <a name="create-skype-room-system-configuration-package"></a>Créer le Package de Configuration de système de salle de Skype
+### <a name="create-microsoft-teams-rooms-configuration-package"></a>Créer le Package de Configuration de salles équipes Microsoft
 
 1.  Dans la console Configuration Manager, accédez à la **Bibliothèque de logiciels** \> **Gestion des applications** \> **Packages**, puis sélectionnez **Créer un Package**.
 
@@ -564,13 +565,13 @@ Tous les packages doivent être distribués sur les serveurs qui ont été attri
 > [!NOTE]
 > Distribution de package peut prendre un certain temps, en fonction de la taille du package, le Gestionnaire de Configuration hiérarchie, nombre de serveurs de point de distribution et la bande passante disponible dans votre réseau.
 > 
-> Tous les packages doivent être distribuées avant de pouvoir commencer le déploiement d’une unité de v2 Skype salle systèmes.
+> Tous les packages doivent être distribuées avant de pouvoir commencer le déploiement d’une unité de salles d’équipes Microsoft.
 > 
 > Vous pouvez consulter l’état de la distribution de package dans la console Configuration Manager en accédant à la **surveillance** \> **État de la Distribution** \> **État du contenu**.
 
 ## <a name="configuration-manager-task-sequences"></a>Séquences de tâches Configuration Manager
 
-Vous utilisez séquences de tâches avec System Center Configuration Manager pour automatiser les étapes de déploiement d’une image du système d’exploitation sur un ordinateur de destination. Pour déployer une unité v2 de systèmes de salle Skype de manière automatique, vous créez une séquence de tâches qui fait référence à l’image de démarrage permet de démarrer l’ordinateur de destination Skype salle systèmes v2, l’image du système d’exploitation Windows 10 entreprise que vous voulez installer et les autre contenu supplémentaire, tel que d’autres applications ou les mises à jour logicielles.
+Vous utilisez séquences de tâches avec System Center Configuration Manager pour automatiser les étapes de déploiement d’une image du système d’exploitation sur un ordinateur de destination. Pour déployer une unité de salles d’équipes Microsoft de manière automatique, vous créez une séquence de tâches qui fait référence à l’image de démarrage permet de démarrer l’ordinateur Microsoft équipes salles de destination, l’image du système d’exploitation Windows 10 entreprise que vous voulez installer et les autre contenu supplémentaire, tel que d’autres applications ou les mises à jour logicielles.
 
 ### <a name="import-the-sample-task-sequence"></a>Importer la séquence de tâches exemple
 
@@ -579,7 +580,7 @@ Vous pouvez télécharger facilement importer une séquence de tâches exemple e
 1.  [**Télécharger**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true) l’exemple de séquence de tâches et copiez le fichier .ZIP téléchargé dans un emplacement partagé.
 2.  Dans la console Configuration Manager, accédez à la **Bibliothèque de logiciels** \> **systèmes d’exploitation** \> **Séquences de tâches**, puis sélectionnez **Séquence de tâches d’importation**.
 
-3.  Sélectionnez **Parcourir**, accédez à l’emplacement de dossier partagé que vous avez utilisé à l’étape 1, sélectionnez le fichier **.zip de déploiement (EN-US) Skype salle systèmes v2** , puis cliquez sur **suivant**.
+3.  Sélectionnez **Parcourir**, accédez à l’emplacement de dossier partagé que vous avez utilisé à l’étape 1, sélectionnez le fichier **.zip de Microsoft équipes salles de déploiement (EN-US)** , puis cliquez sur **suivant**.
 
 4.  Définir **l’Action** pour **Créer un nouveau**, puis cliquez sur **suivant**.
 
@@ -591,7 +592,7 @@ Vous pouvez télécharger facilement importer une séquence de tâches exemple e
 
 1. Sélectionnez la séquence de tâches importés, puis sélectionnez **Modifier**.
 
-    L’éditeur de séquence de tâches s’ouvre et affiche chaque étape séquentiel dont vous avez besoin pour déployer et configurer une unité de v2 Skype salle systèmes.
+    L’éditeur de séquence de tâches s’ouvre et affiche chaque étape séquentiel dont vous avez besoin pour déployer et configurer une unité de salles d’équipes Microsoft.
 
 2. Passez en revue chaque étape et effectuer les mises à jour recommandées :
 
@@ -599,7 +600,7 @@ Vous pouvez télécharger facilement importer une séquence de tâches exemple e
 
    2. **Partition de disque 0 – UEFI**: cette étape efface la configuration du disque et crée des partitions en fonction des paramètres configurés. Il est recommandé que vous apportez aucune modification à cette étape.
 
-   3. **Nom de l’ordinateur SRS défini**: cette étape inclut une application HTML pour fournir une interface utilisateur pour définir un nom d’ordinateur de l’unité de v2 Skype salle systèmes lors du déploiement.
+   3. **Nom de l’ordinateur SRS défini**: cette étape inclut une application HTML pour fournir une interface utilisateur pour définir un nom d’ordinateur de l’unité de salles d’équipes Microsoft au cours du déploiement.
       -  Il s’agit d’une étape facultative, mais elle peut être désactivée uniquement si vous souhaitez gérer l’ordinateur d’attribution de noms via un processus de substitution.
       -  Vérifiez que le package **SRS v2 - Set-SRSComputerName** est activée. Si elle n’est pas le cas, accédez au package et sélectionnez-le.
 
@@ -612,7 +613,7 @@ Vous pouvez télécharger facilement importer une séquence de tâches exemple e
 
    6. **Appliquer les paramètres réseau**: cette étape vous permet de spécifier un groupe de travail ou le nom de domaine Active Directory et l’unité d’organisation.
       > [!NOTE]
-      > Pour les mesures recommandées à suivre dans le déploiement des unités de v2 Skype salle systèmes en tant que membres d’un domaine Active Directory, consultez la rubrique [Considérations en matière de système de salle Skype domaine rejoindre](domain-joining-considerations.md) .
+      > Voir [domaine Skype salle système participer à des considérations](domain-joining-considerations.md) pour les mesures recommandées à suivre dans le déploiement des unités de salles d’équipes Microsoft en tant que membres d’un domaine Active Directory.
    7. **Appliquer les pilotes :** Cette étape et ses sous-étapes sont utilisés pour déployer des pilotes de périphériques et de microprogrammes basée sur le modèle de Surface Pro que vous avez. Mettre à jour chaque étape pour spécifier le package de pilotes pertinents associé à ce déploiement.
       -   Chaque package de pilote est configuré pour tirer parti des filtres Windows Management Instrumentation (WMI) pour déployer les pilotes pertinents et microprogramme en fonction de la Surface Pro marque et le modèle.
       -   Nous vous recommandons vivement que vous ne modifiez pas la configuration de ces pilotes, sinon le déploiement peut échouer.
@@ -620,21 +621,21 @@ Vous pouvez télécharger facilement importer une séquence de tâches exemple e
    8. **Configurer Windows et le Gestionnaire de Configuration**: cette étape déploie et configure le client Gestionnaire de Configuration. Mettre à jour cette étape pour spécifier le Package du Client Gestionnaire de Configuration intégrés.
 
    9. **Installer le certificat racine**: cette étape distribue le certificat racine pour les périphériques non joints au domaine et par conséquent est facultative et désactivée par défaut.
-      -   Activer cette étape si vous avez besoin déployer un certificat racine pour les unités de v2 Skype salle systèmes.
+      -   Activer cette étape si vous avez besoin déployer un certificat racine pour les unités de salles d’équipes Microsoft.
       -   Si vous n’avez pas besoin d’effectuer cette étape, vérifiez que le **SRS v2 – Package du certificat racine** et **redirection désactiver les 64 bits du système de fichiers** sont sélectionnés.
 
    10. **Installer et configurer l’Agent de surveillance**: cette étape installe la version 64 bits de l’agent Microsoft Azure Monitor et configure l’agent pour se connecter à votre espace de travail de journal Analytique.
-       -   Cette étape est désactivée par défaut. Activer cette étape uniquement si vous prévoyez d’utiliser l’Agent de surveillance pour surveiller l’intégrité de vos unités de v2 Skype salle systèmes.
+       -   Cette étape est désactivée par défaut. Activez cette étape uniquement si vous prévoyez d’utiliser l’Agent de surveillance pour surveiller l’intégrité de vos unités de salles d’équipes Microsoft.
        -   Modifier cette étape et mettre à jour les paramètres de ligne de commande pour spécifier votre **Clé de l’espace de travail**et **l’ID de l’espace de travail** .
        -   Pour plus d’informations sur l’obtention de l’ID d’espace de travail Suite opérations de gestion et de la clé primaire, voir [configurer les dispositifs de surveillance Azure](azure-monitor.md#configure-test-devices-for-azure-monitoring) .
        -   Vérifiez que le **SRS v2 – Package de l’Agent de surveillance Microsoft** et **redirection désactiver les 64 bits du système de fichiers** sont sélectionnés.
-       -   Pour plus d’informations sur la surveillance de l’intégrité de votre déploiement de v2 Skype salle systèmes, voir [planifier Skype salle v2 SMS avec Azure moniteur](../../plan-your-deployment/clients-and-devices/azure-monitor.md), [déployer Skype salle v2 SMS avec Azure moniteur](azure-monitor.md) et [Gérer Skype salle Périphériques v2 de systèmes avec Azure moniteur](../../manage/skype-room-systems-v2/azure-monitor.md).
+       -   Pour plus d’informations sur la surveillance de l’intégrité de votre déploiement de salles d’équipes Microsoft, voir [gestion de planification Microsoft équipes salles avec Azure moniteur](../../plan-your-deployment/clients-and-devices/azure-monitor.md), [Gestion des salles d’équipes de déploiement Microsoft Azure moniteur](azure-monitor.md) et [gérer Microsoft Des équipes de périphériques de salles avec Azure moniteur](../../manage/skype-room-systems-v2/azure-monitor.md).
 
-   11. **Fichiers de Configuration de copie SRS v2**: cette étape copie les fichiers requis du programme d’installation et de configuration à partir du kit de déploiement de systèmes de salle Skype v2 sur le disque dur local. Aucune personnalisation n’est requise pour cette étape.
+   11. **Fichiers de Configuration de copie SRS v2**: cette étape copie les fichiers requis du programme d’installation et de configuration à partir du kit de déploiement Microsoft équipes salles sur le disque dur local. Aucune personnalisation n’est requise pour cette étape.
        -   Vérifiez que le **SRS v2 – SRS Package d’Application** et **redirection désactiver les 64 bits du système de fichiers** sont sélectionnés.
 
-   12. **Install-SRSv2-OS mises à jour**: cette étape déploie les mises à jour de système d’exploitation obligatoire requis avec le déploiement de v2 Skype salle systèmes. Procédez comme suit :
-       -   Vérifiez la [console Configure un v2 de systèmes de salle Skype](console.md) pour vérifier les mises à jour sont nécessaires.
+   12. **Install-SRSv2-OS mises à jour**: cette étape déploie les mises à jour de système d’exploitation obligatoire requis avec le déploiement de salles d’équipes Microsoft. Procédez comme suit :
+       -   Vérifiez [Configure une console Microsoft équipes salles](console.md) pour voir les mises à jour sont nécessaires.
        -   Vérifiez que votre **SRS v2 – Package de mises à jour du système d’exploitation** inclut toutes les mises à jour requises.
        -   Vérifiez que le **SRS v2 – Package de mises à jour du système d’exploitation** est activée.
        -   Vérifiez que la stratégie d’exécution PowerShell est définie sur **Ignorer**.
@@ -645,9 +646,9 @@ Vous pouvez télécharger facilement importer une séquence de tâches exemple e
 
    15. **Redémarrer l’ordinateur**: cette étape redémarre l’ordinateur après avoir configuré les fonctionnalités de Windows. Aucune personnalisation n’est requise pour cette étape.
 
-   16. **Ajouter un utilisateur Local Skype**: cette étape crée le compte Skype local utilisé pour se connecter à Windows et démarrer l’application v2 de systèmes de salle Skype automatiquement. Cette étape ne possède pas de tout logiciel associé, et aucune personnalisation n’est nécessaire pour qu’il.
+   16. **Ajouter un utilisateur Local Skype**: cette étape crée le compte Skype local utilisé pour se connecter à Windows et démarrer l’application Microsoft équipes salles automatiquement. Cette étape ne possède pas de tout logiciel associé, et aucune personnalisation n’est nécessaire pour qu’il.
 
-   17. **Définir vers le haut et configurer l’application SRS**: cette étape configure l’installation d’applications Skype salle systèmes v2 pour le redémarrage du système d’exploitation.
+   17. **Définir vers le haut et configurer l’application SRS**: cette étape configure l’installation d’application salles d’équipes Microsoft pour le redémarrage du système d’exploitation.
        -   Vérifiez que le **SRS v2 – configurer un Package d’installation SRS** et **redirection désactiver les 64 bits du système de fichiers** sont sélectionnés.
 
 > [!IMPORTANT]
@@ -671,7 +672,7 @@ Vous pouvez télécharger facilement importer une séquence de tâches exemple e
    > [!WARNING]
    > Il est très important que le **rôle** est défini sur **disponible**. Assurez-vous que l' **objet** n’est **pas** la valeur **obligatoire**. Assurez-vous également que vous sélectionnez **uniquement multimédia et PXE** dans le **rendre disponible pour les éléments suivants**.
    >
-   > Définition de ces valeurs à une chose risque de tous les ordinateurs obtenir l’image de déploiement de systèmes de salle Skype lors du démarrage.
+   > Définition de ces valeurs à une chose risque de tous les ordinateurs obtenir l’image de déploiement Microsoft équipes salles lors du démarrage.
 7. Ne pas spécifier un calendrier et cliquez sur **suivant**.
 
 8. Ne pas modifier tous les éléments dans la section **Expérience utilisateur** et cliquez sur **suivant**.
@@ -687,7 +688,7 @@ Vous pouvez télécharger facilement importer une séquence de tâches exemple e
 <a name="validate-and-troubleshoot-the-solution"></a>Valider et résoudre les problèmes de la solution
 --------------------------------------
 
-Après avoir réalisé les séquences de tâches System Center Configuration Manager, vous devez effectuer une série de tests pour valider que la séquence de tâches permettre déployer et configurer des systèmes de salle de Skype v2 unités.
+Après avoir réalisé les séquences de tâches System Center Configuration Manager, vous devez effectuer une série de tests pour valider que la séquence de tâches permettre déployer et configurer des unités de salles d’équipes Microsoft.
 
 1.  Connectez le périphérique de test au réseau câblé à l’aide d’une des cartes Ethernet pris en charge ou à l’aide de la surface d’exposition station d’accueil. Si la fonctionnalité de démarrage PXE n’a pas été configurée pour votre environnement, vous pouvez utiliser l’image de démarrage sur la USB lecteur flash [que vous avez créé précédemment](https://docs.microsoft.com/sccm/osd/deploy-use/create-bootable-media) pour démarrer à partir de USB et se connecter au Gestionnaire de Configuration.
 
@@ -720,13 +721,13 @@ Après avoir réalisé les séquences de tâches System Center Configuration Man
 
 8.  Le reste du processus de déploiement est automatique et ne demandez plus d’entrées utilisateur.
 
-9.  Une fois que la séquence de tâches de déploiement a terminé la configuration du périphérique, vous verrez l’écran configuration suivant qui vous demande de configurer les paramètres d’application v2 Skype salle systèmes.
+9.  Une fois que la séquence de tâches de déploiement a terminé la configuration du périphérique, vous verrez l’écran configuration suivant qui vous demande de configurer les paramètres d’application salles d’équipes Microsoft.
 
-    ![Écran initial d’installation pour l’application v2 de systèmes de salle de Skype](../../media/room-systems-scale-image2.png)
+    ![Écran initial d’installation pour application de salles d’équipes Microsoft](../../media/room-systems-scale-image2.png)
 
-10.  Branchez la Surface Pro dans la console de v2 Skype salle systèmes et configurer les paramètres d’application.
+10.  Branchez la Surface Pro dans la console de salles d’équipes Microsoft et configurez les paramètres d’application.
 
-11.  Valider que les fonctionnalités répertoriées dans [l’aide de systèmes de salle Skype v2](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) fonctionnent sur l’appareil déployé.
+11.  Valider que les fonctionnalités répertoriées dans les [salles d’équipes Microsoft aide](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) fonctionne sur les appareils mobiles déployés.
 
 
 Pour résoudre un échec de l’installation, vérifiez le fichier **SMSTS.log** , qui enregistre toutes les étapes exécutées dans une séquence de tâches du Gestionnaire de Configuration.

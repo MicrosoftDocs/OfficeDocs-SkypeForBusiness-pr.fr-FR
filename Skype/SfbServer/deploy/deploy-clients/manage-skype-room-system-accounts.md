@@ -9,20 +9,21 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b389efc-9685-42e9-9504-be437d20ff57
+ms.collection: M365-voice
 description: Consultez cette rubrique pour apprendre à gérer les comptes Skype Room System.
-ms.openlocfilehash: 715eda137395d2133b6b19dee4a9d2336923c13b
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: 4c276d4acf0cf15df7689fa5c11a0e6e2cde785b
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699243"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31012523"
 ---
 # <a name="manage-skype-room-system-accounts"></a>Gestion des comptes Skype Room System
  
 Consultez cette rubrique pour apprendre à gérer les comptes Skype Room System. 
 
 > [!NOTE]
-> Systèmes de salle Skype v2 est un produit différents avec des dépendances différents et des procédures de déploiement. Pour plus d’informations sur les systèmes de salle Skype v2, voir systèmes de salle Skype v2 [Présentation de la gestion](../../manage/skype-room-systems-v2/skype-room-systems-v2.md).
+> Salles d’équipes Microsoft est un autre produit avec des dépendances différents et des procédures de déploiement. Pour plus d’informations sur les espaces des équipes Microsoft, voir [vue d’ensemble de la gestion des](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)salles d’équipes Microsoft.
   
 ## <a name="move-the-skype-room-system-account-between-pools"></a>Déplacer le compte de système de salle Skype entre pools
 

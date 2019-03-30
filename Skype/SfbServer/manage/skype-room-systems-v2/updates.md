@@ -1,5 +1,5 @@
 ---
-title: Gérer les mises à jour Windows pour salle Skype systèmes v2
+title: Gérer les mises à jour Windows pour les équipes Microsoft salles
 ms.author: jambirk
 author: jambirk
 ms.reviewer: davgroom
@@ -9,18 +9,19 @@ ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
+ms.collection: M365-voice
 ms.assetid: ''
-description: Gérer les mises à jour Windows pour salle Skype systèmes v2
-ms.openlocfilehash: 4b1b0bc27be3f8277fde0c641efe5359ca002d65
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+description: Gérer les mises à jour Windows pour les équipes Microsoft salles
+ms.openlocfilehash: 723ecf20fb835a3d942270e9de6d59416a9cd14a
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532139"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31013101"
 ---
 # <a name="manage-windows-updates"></a>Gérer les mises à jour Windows
 
-Système de salle Skype v2 (SRS v2) s’exécute sur Windows 10 entreprise IoT ou entreprise de 10 Windows (VL) et reçoit les même versions mises à jour Windows et du système d’exploitation de bureau standard.
+Salles d’équipes Microsoft s’exécute sur Windows 10 entreprise IoT ou entreprise de 10 Windows (VL) et reçoit les même versions mises à jour Windows et du système d’exploitation de bureau standard.
 
 Mises à jour Windows peut être géré de différentes manières :
 
@@ -43,8 +44,8 @@ Mises à jour Windows peut être géré de différentes manières :
 
 ### <a name="feature-updates"></a>Mises à jour de la fonctionnalité
 
-Contrairement à la qualité et Non-Deferable mises à jour Windows 10 « Fonctionnalité des mises à jour » (versions majeures du système d’exploitation) sera installé uniquement une fois que Microsoft teste et valide une fonctionnalité donnée de mises à jour avec SRS v2. Même s’il est publié à canal annuel séparées (ou cibles si vous avez des systèmes défini sur ce canal de test) ou même manuellement poussée par votre propre tentatives ou les configurations, il ne permet pas l’installation jusqu'à ce que le bloc de fin est supprimé.
+Contrairement à la qualité et Non-Deferable mises à jour Windows 10 « Fonctionnalité des mises à jour » (versions majeures du système d’exploitation) sera installé uniquement une fois que Microsoft teste et valide une fonctionnalité donnée de mises à jour des espaces d’équipes Microsoft. Même s’il est publié à canal annuel séparées (ou cibles si vous avez des systèmes défini sur ce canal de test) ou même manuellement poussée par votre propre tentatives ou les configurations, il ne permet pas l’installation jusqu'à ce que le bloc de fin est supprimé.
 
-Un SRS v2 « out-of-box », à l’aide de l’approche, mains ne sera pas installer une mise à jour Windows ou redémarrer un appareil automatiquement en raison d’une mise à jour de Windows. Toutefois, les systèmes peuvent télécharger une mise à jour et attendre le prochain redémarrage de l’installer. Sauf si une personne redémarre manuellement, installation doit se produire lors du redémarrage nocturne automatique. Mises à jour Windows doit être transparent dans la salle, l’interface utilisateur ne doit jamais être interrompu par des mises à jour Windows.
+Salle d’équipes Microsoft « out-of-box », à l’aide de l’approche, mains ne sera pas installer une mise à jour Windows ou redémarrer un appareil automatiquement en raison d’une mise à jour de Windows. Toutefois, les systèmes peuvent télécharger une mise à jour et attendre le prochain redémarrage de l’installer. Sauf si une personne redémarre manuellement, installation doit se produire lors du redémarrage nocturne automatique. Mises à jour Windows doit être transparent dans la salle, l’interface utilisateur ne doit jamais être interrompu par des mises à jour Windows.
 
 Si vous choisissez de jonction de domaine, utilisez SCCM ou WSUS et prêtez une attention particulière aux stratégies ou les actions qui peuvent conduire à l’appareil de l’installation d’une mise à jour ou de forcer un redémarrage pendant les heures ouvrées. Si vous avez des systèmes de votre déploiement redémarrage lors de l’utilisation ou d’une alerte sur les mises à jour via l’interface utilisateur, vous devez rechercher dans votre configuration.

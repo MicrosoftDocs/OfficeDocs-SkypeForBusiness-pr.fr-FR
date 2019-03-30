@@ -10,23 +10,24 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
-description: Cet article explique les préparations de l’infrastructure pour le déploiement de systèmes de salle Skype v2.
-ms.openlocfilehash: 89c035816784bf160ad7f1ed821ed0effe916f31
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.collection: M365-voice
+description: Cet article explique les préparations de l’infrastructure pour le déploiement de salles d’équipes Microsoft.
+ms.openlocfilehash: ac1bcfc374350bde38d8e37f8870e1d3223a511c
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876071"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31013000"
 ---
 # <a name="prepare-your-environment"></a>Préparer votre environnement
 
-Cette section contient une vue d’ensemble des étapes requises pour préparer votre Skype pour un environnement d’entreprise afin que vous puissiez utiliser toutes les fonctionnalités de systèmes de salle Skype v2.
+Cette section contient une vue d’ensemble des étapes requises pour préparer votre Skype pour un environnement d’entreprise afin que vous puissiez utiliser toutes les fonctionnalités de salles d’équipes Microsoft.
   
-1. Préparer un compte de périphérique pour chaque console v2 de systèmes de salle Skype. Pour plus d’informations, voir [déployer Skype salle systèmes v2](../../deploy/deploy-clients/room-systems-v2.md) .
+1. Préparer un compte de périphérique pour chaque console salles d’équipes Microsoft. Pour plus d’informations, voir [Déployer Microsoft équipes salles](../../deploy/deploy-clients/room-systems-v2.md) .
     
 2. Vérifiez qu’une connexion réseau/Internet fonctionne et peut être utilisée par l’appareil.  
     
-   - Il doit être en mesure de recevoir une adresse IP à l’aide de DHCP (Remarque : Skype salle systèmes v2 ne peut pas être configuré avec une adresse IP statique au premier démarrage de l’unité)
+   - Il doit être en mesure de recevoir une adresse IP à l’aide de DHCP (Remarque : salles d’équipes Microsoft ne peut pas être configuré avec une adresse IP statique au premier démarrage de l’unité)
     
    - Les ports suivants doivent être ouverts (en plus de l’ouverture des ports normaux pour le support de Skype Entreprise) :
     
@@ -37,7 +38,7 @@ Cette section contient une vue d’ensemble des étapes requises pour préparer 
    - Si votre réseau fonctionne via un proxy, vous aurez également besoin de l’adresse du proxy ou des informations de script.
     
      > [!NOTE]
-     > Systèmes de salle Skype v2 ne prend pas en charge entrée HDCP, qui a été observée pour provoquer des problèmes avec HDMI acquisition des fonctionnalités (vidéo, audio). Veiller à ce que les commutateurs connectés à des systèmes de salle Skype v2 ont options HDCP désactivées. 
+     > Salles d’équipes Microsoft ne gère pas les entrées d’HDCP qui a été observée provoquer problèmes avec HDMI acquisition des fonctionnalités (vidéo, audio). Veiller à ce que commutateurs connectés aux salles d’équipes Microsoft ont options HDCP désactivées. 
   
 3. Pour améliorer votre expérience, Microsoft collecte des données. Pour collecter des données, les sites suivants doivent figurer dans la liste approuvée :
     
@@ -47,46 +48,39 @@ Cette section contient une vue d’ensemble des étapes requises pour préparer 
     
 ### <a name="create-and-test-a-device-account"></a>Création et test d’un compte d’appareil
 
-Un *compte de périphérique* est un compte client Skype salle systèmes v2 utilise pour accéder aux fonctionnalités d’Exchange, comme le calendrier et pour permettre à Skype pour les entreprises. Pour plus d’informations, voir [déployer Skype salle systèmes v2](../../deploy/deploy-clients/room-systems-v2.md) .
+Un *compte de périphérique* est un compte utilisé par le client Microsoft équipes salles d’accéder aux fonctionnalités d’Exchange, comme le calendrier et pour permettre à Skype pour les entreprises. Pour plus d’informations, voir [Déployer Microsoft équipes salles](../../deploy/deploy-clients/room-systems-v2.md) .
   
 ### <a name="check-network-availability"></a>Vérification de la disponibilité du réseau
 
-Pour fonctionner correctement, le périphérique v2 Skype salle systèmes doit avoir accès à un réseau câblé qui répond aux conditions suivantes :
+Pour fonctionner correctement, le périphérique Microsoft équipes salles doit avoir accès à un réseau câblé qui répond aux conditions suivantes :
   
 - Accès à votre instance Active Directory ou Azure Active Directory (Azure AD), ainsi qu’à vos serveurs Microsoft Exchange et Skype Entreprise.
-    
-- Accès à un serveur pouvant fournir une adresse IP à l’aide du protocole DHCP. Systèmes de salle Skype v2 ne peut pas être configuré avec une adresse IP statique.
-    
+- Accès à un serveur pouvant fournir une adresse IP à l’aide du protocole DHCP. Salles d’équipes Microsoft ne peut pas être configuré avec une adresse IP statique.
 - Accès aux ports HTTP 80 et 443.
-    
 - Ports TCP et UDP configurées comme décrit dans les [ports et protocoles requis pour les serveurs](../network-requirements/ports-and-protocols.md) de locales Skype pour des implémentations en entreprise ou [Office 365 URL et plages d’adresses IP](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) pour Skype pour les implémentations d’entreprise en ligne.
-    
+
 > [!IMPORTANT]
-> Veillez à utiliser une connexion réseau câblée de 1 Gbits/s afin d’être sûr de disposer de la bande passante nécessaire.  
+> Veillez à utiliser une connexion réseau câblée de 1 Gbits/s afin d’être sûr de disposer de la bande passante nécessaire. 
   
 ### <a name="certificates"></a>Certificats
 
-Périphérique Skype salle systèmes v2 utilise des certificats pour les Services Web Exchange, Skype pour les entreprises, l’utilisation du réseau et d’authentification. Si des serveurs associés utilisent des certificats publics, ce qui est le cas des déploiements en ligne et de certains sur site, aucune autre action de l’administrateur n’est requise pour l’installation des certificats. En revanche, si l’autorité de certification (CA) est privée (généralement le cas des déploiements sur site), l’appareil devra l’approuver, ce qui implique une installation de certificats en chaîne (CA + CA). L’ajout de l’appareil au domaine peut permettre d’automatiser cette tâche.
+Votre appareil salles d’équipes Microsoft utilise des certificats pour les Services Web Exchange, Skype pour les entreprises, l’utilisation du réseau et d’authentification. Si des serveurs associés utilisent des certificats publics, ce qui est le cas des déploiements en ligne et de certains sur site, aucune autre action de l’administrateur n’est requise pour l’installation des certificats. En revanche, si l’autorité de certification (CA) est privée (généralement le cas des déploiements sur site), l’appareil devra l’approuver, ce qui implique une installation de certificats en chaîne (CA + CA). L’ajout de l’appareil au domaine peut permettre d’automatiser cette tâche.
   
 Vous installerez les certificats comme vous le feriez pour tout autre client Windows.  
   
 > [!NOTE]
-> Certificats peuvent être nécessaire afin que les systèmes de salle Skype v2 utiliser Skype pour Business Server. 
+> Certificats peuvent être nécessaire afin que les salles d’équipes Microsoft utiliser Skype pour Business Server.
   
 ### <a name="proxy"></a>Proxy
 
-Systèmes de salle Skype v2 est conçu pour hériter les paramètres de Proxy à partir du système d’exploitation Windows. Accédez au système d’exploitation Windows de la manière suivante :
+Salles d’équipes Microsoft est conçu pour hériter les paramètres de Proxy à partir du système d’exploitation Windows. Accédez au système d’exploitation Windows de la manière suivante :
   
-1. Dans l’interface utilisateur v2 de systèmes de salle Skype, cliquez sur l’icône d’engrenage de paramètres où vous serez invité pour le mot de passe de l’administrateur local sur l’appareil (le mot de passe par défaut est **sfb**).
-    
+1. Dans l’interface utilisateur salles équipes Microsoft, cliquez sur l’icône d’engrenage de paramètres où vous serez invité pour le mot de passe de l’administrateur local sur l’appareil (le mot de passe par défaut est **sfb**).
 2. Cliquez sur **paramètres de** suivi de cliquer sur le bouton **Atteindre Windows** , puis en cliquant sur le bouton **Atteindre Admin connexion dans** et puis en cliquant sur le bouton de **l’administrateur** (si l’ordinateur est joint au domaine choisissez **Un autre utilisateur,** puis utiliser . \admin comme nom d’utilisateur).
-    
 3. Dans la **Recherche Windows** zone type gauche inférieur regedit (soit long appuyez sur l’écran ou cliquez avec le bouton droit sur et sélectionnez **Exécuter en tant qu’administrateur**).
-    
 4. Cliquez sur le dossier HKEY_USERS (vous verrez une liste de SID de l’utilisateur d’ordinateur), assurez-vous que le dossier racine HKEY_USERS est sélectionné.
        
 5. Cliquez sur fichier, puis choisissez **charger la ruche.**
-    
 6. Parcourir le pour l' **C:\Users\Skype** dossier et tapez le nom de fichier zone NTUSER.dat et appuyez sur le bouton Ouvrir
 
 7. Vous serez invité pour un nom de clé pour votre ruche chargée ; Tapez dans Skype (vous devez maintenant voir les paramètres de Registre de l’utilisateur Skype).
@@ -107,13 +101,13 @@ Systèmes de salle Skype v2 est conçu pour hériter les paramètres de Proxy à
     
 10. Vous pouvez désormais fermer l’éditeur de registre et saisissez déconnexion dans la zone de recherche Windows.
     
-11. De retour dans l’écran de connexion, choisissez l’utilisateur **Skype**. Si toutes les étapes précédentes ont réussi, l’appareil v2 de systèmes de salle Skype système reconnectez-vous avec succès.
+11. De retour dans l’écran de connexion, choisissez l’utilisateur **Skype**. Si toutes les étapes précédentes ont réussi, le périphérique Microsoft équipes salles système reconnectez-vous avec succès.
     
 Pour utiliser cette application, vous devez être en mesure de vous connecter aux points de terminaison décrits ci-après. Pour consulter les adresses IP, développez la section d’adresses IP sous la table de description de flux de trafic.
   
 **Exemple de noms d’hôte/ports de proxy de pare-feu**
 
-|**Objectif**|**Source ou informations d’identification**|**Port source**|**Destination**|**CDN**|**ExpressRoute pour Office 365**|**Adresse IP de destination**|**Port de destination**|
+|Objectif|Source ou informations d’identification|Port source|Destination|CDN|ExpressRoute pour Office 365|Adresse IP de destination|Port de destination|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Authentification et identité  <br/> |Voir [identité et authentification Office 365](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Identity) <br/> |||
 |Portail et services partagés  <br/> |Voir [Office 365 portail et partagés](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Portal-identity) <br/> |||
@@ -139,20 +133,20 @@ Vous allez utiliser des packages de mise en service pour authentifier à Exchang
 Après la jonction du domaine, vous pouvez utiliser la stratégie de groupe ou la gestion de l’ordinateur local pour définir un groupe de sécurité en tant qu’administrateur local comme vous le feriez pour un ordinateur Windows dans votre domaine. Tous les membres de ce groupe de sécurité peuvent saisir leurs informations d’identification et déverrouiller les paramètres.
   
 > [!NOTE]
-> Si votre appareil v2 de systèmes de salle Skype perd approbation avec le domaine (par exemple, si vous supprimez le v2 Skype salle systèmes du domaine une fois qu’il est joint au domaine), vous ne pourrez pas s’authentifier sur le périphérique et ouvrir des paramètres. La méthode de contournement consiste à vous connecter avec le compte d’administrateur local. 
+> Si votre appareil Microsoft équipes salles perd approbation avec le domaine (par exemple, si vous supprimez les salles d’équipes Microsoft du domaine une fois qu’il est joint au domaine), vous ne pourrez pas s’authentifier sur le périphérique et ouvrir des paramètres. La méthode de contournement consiste à vous connecter avec le compte d’administrateur local. 
   
 ## <a name="local-accounts"></a>Comptes locaux
 
-### <a name="skype-room-systems-local-user-account"></a>Compte d’utilisateur local de Skype Room Systems
+### <a name="microsoft-teams-rooms-local-user-account"></a>Compte d’utilisateur Local salles équipes Microsoft
 
 Le compte d’appareil n’utilise généralement pas de mot de passe. Il est possible d’attribuer un mot de passe, mais cela aura un impact, notamment la possibilité d’empêcher les utilisateurs d’accéder à l’application de la console lorsque le mot de passe expire. Par conséquent, l’administrateur doit prendre des mesures pour éviter l’expiration du mot de passe.
   
 ### <a name="admin---local-administrator-account"></a>"Admin" - Compte d’administrateur local
 
-Mot de passe Skype salle systèmes v2 par défaut est défini sur « sfb ». Le mot de passe peut être modifié localement en accédant à paramètres Windows \> Go pour Windows ou dans le fichier AutoUnattend.xml (utilisez le Gestionnaire de l’Image du système Windows à partir de ADK pour que la modification du fichier xml).
+Le mot de passe Microsoft équipes salles par défaut est défini sur « sfb ». Le mot de passe peut être modifié localement en accédant à paramètres Windows \> Go pour Windows ou dans le fichier AutoUnattend.xml (utilisez le Gestionnaire de l’Image du système Windows à partir de ADK pour que la modification du fichier xml).
   
 > [!CAUTION]
-> Veillez à modifier le mot de passe Skype salle systèmes v2 dès que possible. 
+> Veillez à modifier le mot de passe Microsoft équipes salles dès que possible. 
   
 Vous pouvez également gérer le mot de passe de l’administrateur local en configurant une stratégie de groupe qui définit les administrateurs de domaine comme administrateurs locaux.
   
@@ -166,12 +160,12 @@ Beaucoup comme n’importe quel appareil Windows, le nom de l’ordinateur peut 
   
 ## <a name="see-also"></a>Voir aussi
 
-[Plan de salle Skype systèmes v2](skype-room-systems-v2-0.md)
+[Planifier des équipes Microsoft salles](skype-room-systems-v2-0.md)
 
-[Configuration requise pour Skype Room Systems v2](requirements.md)
+[Configuration requise de salles d’équipes Microsoft](requirements.md)
   
-[Déploiement des systèmes Skype Room version 2](../../deploy/deploy-clients/room-systems-v2.md)
+[Déployer les équipes Microsoft salles](../../deploy/deploy-clients/room-systems-v2.md)
   
-[Configuration d’une console pour les systèmes Skype Room version 2](../../deploy/deploy-clients/console.md)
+[Configurer une console Microsoft équipes salles](../../deploy/deploy-clients/console.md)
   
-[Gestion des systèmes Skype Room version 2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Gérer les équipes Microsoft salles](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)

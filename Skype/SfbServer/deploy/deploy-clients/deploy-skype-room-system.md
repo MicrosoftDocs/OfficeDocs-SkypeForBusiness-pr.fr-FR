@@ -9,13 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 99443d60-e64a-4a8a-a7bf-95f790b0ad5c
+ms.collection: M365-voice
 description: En savoir plus sur la façon de déployer Skype salle système, une réunion solution salle consistant intégrée de configuration matérielle et logicielle optimisée pour joindre Skype pour les réunions d’entreprise.
-ms.openlocfilehash: 94a9b1cb7ff3f341a51944cdc678bc66e44831cb
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: 26ce5f6e50d26b408a8bce5d167e4e7b6046e514
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699316"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31012566"
 ---
 # <a name="deployment-planning-for-skype-room-system-in-skype-for-business"></a>Planification du déploiement pour le système de salle Skype dans Skype pour les entreprises
  
@@ -25,7 +26,7 @@ En savoir plus sur la façon de déployer Skype salle système, une réunion sol
 > À des fins de ce contenu, Skype pour les entreprises actives système salle, Crestron RL, et Polycom CX8000 sera désigné en tant que système de salle Skype. 
 
 > [!NOTE]
-> Systèmes de salle Skype v2 est un produit différents avec des dépendances différents et des procédures de déploiement. Pour plus d’informations sur les systèmes de salle Skype v2, voir [planifier Skype salle systèmes v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md).
+> Salles d’équipes Microsoft est un autre produit avec des dépendances différents et des procédures de déploiement. Pour plus d’informations sur les salles d’équipes Microsoft, voir [Planifier Microsoft équipes salles](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md).
   
  Système de salle de Skype est un Skype pour le client de communications unifiées entreprise qui a été optimisée pour Skype pour les réunions d’entreprise dans les salles de conférence physique.
   
@@ -65,9 +66,9 @@ Le tableau suivant indique l’interopérabilité des clients Skype salle systè
 |**Topologie**|**AD**|**Skype Entreprise**|**Exchange**|
 |:-----|:-----|:-----|:-----|
 |En local  <br/> |En local  <br/> |En local  <br/> |En local  <br/> |
-|Office 365 plusieurs clients (O365MT)  <br/> |En ligne  <br/> |En ligne  <br/> |En ligne  <br/> |
-|Office 365 dédié  <br/> (Contactez votre fournisseur de services)  <br/> |En local  <br/> |En ligne  <br/> |En ligne  <br/> |
-|Hybride (domaine fractionné)  <br/> Non prise en charge  <br/> |En local  <br/> En local  <br/> En local  <br/> |En local  <br/> En ligne  <br/> En ligne  <br/> |En ligne  <br/> En ligne  <br/> En local  <br/> |
+|Office 365 plusieurs clients (O365MT)  <br/> |Online  <br/> |Online  <br/> |Online  <br/> |
+|Office 365 dédié  <br/> (Contactez votre fournisseur de services)  <br/> |En local  <br/> |En ligne  <br/> |Online  <br/> |
+|Hybride (domaine fractionné)  <br/> Non prise en charge  <br/> |En local  <br/> En local  <br/> En local  <br/> |En local  <br/> En ligne  <br/> Online  <br/> |Online  <br/> En ligne  <br/> En local  <br/> |
    
 Les versions antérieures à Lync Server 2013 sont partiellement prises en charge. Dans ces scénarios, Skype salle système peuvent participer à Skype pour des conférences (ceux qui sont planifiés par les utilisateurs hébergés sur Lync Server 2010) dans la mesure où les conférences sont « publics », ce qui signifie que les conférences ne sont pas personnalisé pour un accès restreint. 
   
@@ -78,8 +79,8 @@ Le tableau suivant indique la prise en charge du client de système de salle Sky
 
 |**Exchange**|**En local**|**Online**|**Hybride**|
 |:-----|:-----|:-----|:-----|
-|Exchange 2010  <br/> |Oui (une seule forêt)  <br/> |N/A  <br/> |N/A  <br/> |
-|Exchange 2013  <br/> |Oui (prise en charge de plusieurs forêts disponible pour Exchange 2013 CU6 et versions ultérieures)  <br/> |Oui  <br/> |Oui  <br/> |
-|Exchange 2016  <br/> |Oui (plusieurs forêts prise en charge disponible)  <br/> |Oui  <br/> |Oui  <br/> |
+|Exchange 2010  <br/> |Oui (une seule forêt)  <br/> |N/A   <br/> |N/A  <br/> |
+|Exchange 2013  <br/> |Oui (prise en charge de plusieurs forêts disponible pour Exchange 2013 CU6 et versions ultérieures)  <br/> |Oui  <br/> |Oui   <br/> |
+|Exchange 2016  <br/> |Oui (plusieurs forêts prise en charge disponible)  <br/> |Oui   <br/> |Oui  <br/> |
    
 

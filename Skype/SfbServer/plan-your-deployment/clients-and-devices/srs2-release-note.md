@@ -9,17 +9,18 @@ ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Cet article décrit les améliorations cumulatives de systèmes de salle Skype v2.
-ms.openlocfilehash: 8de76d085bad4ec8fc7c52c0f46a416d9b1cac82
-ms.sourcegitcommit: 0ea63f45cb31852fea6894cc6ffb0ae1ae444e64
+ms.collection: M365-voice
+description: Cet article décrit les améliorations cumulatives dans les salles d’équipes Microsoft.
+ms.openlocfilehash: 3d80c1c2e4aa2fcad241f566b832e8ddbc662120
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "30950255"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31012897"
 ---
 # <a name="release-notes"></a>Notes de publication 
 
-Cet article décrit les améliorations cumulatives de systèmes de salle Skype v2.
+Cet article décrit les améliorations cumulatives dans les salles d’équipes Microsoft.
 
 
 ##  <a name="version-history"></a>Historique des versions
@@ -51,7 +52,7 @@ Cet article décrit les améliorations cumulatives de systèmes de salle Skype v
 | RTM (1.0.8) | 12/7/2016  | 
 
 
-## <a name="skype-room-systems-v2-feature-introduction-and-issue-resolution"></a>Systèmes de salle Skype v2 fonctionnalité introduction et problème résolution
+## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Résolution de présentation et des problèmes de fonctionnalité salles d’équipes Microsoft
 
 
 ### <a name="40780-03142018"></a>4.0.78.0 (14/03/2018)
@@ -72,7 +73,7 @@ Introduite dans cette mise à jour :
 Introduite dans cette mise à jour :
 - Afficher le contenu sur les deux salle de frontal (pour) affiche sur les systèmes de salle double écran
 - Améliorations de l’interface utilisateur avant de salle et de thèmes
-- TLS 1.2 prise en charge de côté client. Pour sur les clients du site, l’activation intersites sur TLS 1.2 Skype salle système v2 nécessite Skype pour Business Server 2015 Cummulative mise à jour 9 (cumulative 9) ou Skype pour les entreprises Server 2019 Cummulative mise à jour 1 (CU1).
+- TLS 1.2 prise en charge de côté client. Pour sur les clients du site, l’activation de communication via TLS 1.2 pour les salles d’équipes Microsoft nécessite Skype pour Business Server 2015 Cummulative mise à jour 9 (cumulative 9) ou Skype pour les entreprises Server 2019 Cummulative mise à jour 1 (CU1).
 
 ### <a name="40510-11172018"></a>4.0.51.0 (17/11/2018)
 Introduite dans cette mise à jour :
@@ -84,14 +85,14 @@ Introduite dans cette mise à jour :
 
 ### <a name="40270-1012018"></a>4.0.27.0 (10/1/2018)
 Introduite dans cette mise à jour : 
-- Modifications du code nécessaires pour préparer l’application SRSv2 mise à niveau de Windows 10 Version 1803 ultérieure
+- Modifications du code nécessaires pour préparer l’application Microsoft équipes salles mise à niveau de Windows 10 Version 1803 ultérieure
 - Corriger le problème à la mise en forme avec localisées CLUF - spécifiquement norvégien -, ce qui empêche de passer au-delà de fenêtre de paramètres EULA OOBE
-- Modifications du code nécessaires pour rendre application v2 de systèmes de salle Skype s’exécutent sur les systèmes de salle de Lync. Plus d’informations, consultez la rubrique [ici](https://aka.ms/lrsupgrade).
+- Modifications du code nécessaires pour rendre les applications Microsoft équipes salles s’exécutent sur les systèmes de salle de Lync. Plus d’informations, consultez la rubrique [ici](https://aka.ms/lrsupgrade).
  
 
 ### <a name="40190-8312018"></a>4.0.19.0 (31/8/2018)
 Introduite dans cette mise à jour : 
-- Correctif pour application Crestron ne pas lancer qui serait normalement accessible en appuyant sur le bouton d’application sur les appareils Crestron SR. Redémarrage de l’application SRSv2 requis après l’installation de 4.0.19.0 
+- Correctif pour application Crestron ne pas lancer qui serait normalement accessible en appuyant sur le bouton d’application sur les appareils Crestron SR. Redémarrage de l’application Microsoft équipes salles requis après l’installation de 4.0.19.0. 
 
 ### <a name="40180-08272018"></a>4.0.18.0 (27/08/2018)
 Introduite dans cette mise à jour : 
@@ -163,7 +164,7 @@ Introduite dans cette mise à jour :
 - Prise en charge des [Crestron SR](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system) ancre matériel    
 - Codage OEM tel prise en charge pour les contrôles de l’environnement (Crestron)
     
-La version 64 bits de l’édition entreprise anniversaire de mariage 10 Windows (en anglais, version 1607) n’est plus pris en charge à partir de systèmes de salle Skype v2 version 3.0.12.0 (mise à jour 3). 
+La version 64 bits de Windows 10 entreprise anniversaire edition (en anglais, version 1607) n’est plus pris en charge à compter de salles d’équipes Microsoft version 3.0.12.0 (mise à jour 3). 
 
 ### <a name="3080-842017"></a>3.0.8.0 (8/4/2017) 
 Introduite dans cette mise à jour : 
@@ -217,14 +218,14 @@ Introduite dans cette mise à jour :
 <a name="See"> </a>  
 ## <a name="see-also"></a>Voir aussi
 
-[Systèmes de salle Skype version 2](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+[Aide Microsoft équipes salles](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
-[Préparer votre Skype pour un environnement d’entreprise](srs-v2-prep.md)
+[Préparer votre environnement](srs-v2-prep.md)
 
-[Prise en charge pour les versions de succursale Skype salle systèmes v2 actuelles](srs2-lifecycle-support.md)
+[Prise en charge pour les salles d’équipes Microsoft versions actuelles de succursale](srs2-lifecycle-support.md)
 
-[Problèmes connus de systèmes de salle Skype v2](../../manage/skype-room-systems-v2/known-issues.md)
+[Problèmes connus pour les salles d’équipes Microsoft](../../manage/skype-room-systems-v2/known-issues.md)
 
-[Planification de Skype Room Systems v2](skype-room-systems-v2-0.md)
+[Planifier des équipes Microsoft salles](skype-room-systems-v2-0.md)
 
-[Gestion des systèmes Skype Room version 2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Gérer les équipes Microsoft salles](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)

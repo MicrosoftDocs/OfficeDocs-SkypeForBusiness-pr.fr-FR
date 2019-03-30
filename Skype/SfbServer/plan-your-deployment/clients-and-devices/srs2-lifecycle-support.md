@@ -8,20 +8,21 @@ ms.date: 4/17/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+ms.collection: M365-voice
 localization_priority: Normal
-description: Cet article décrit la prise en charge du cycle de vie pour les systèmes de salle Skype v2.
-ms.openlocfilehash: c1a7daf7d107fc7ad05bdcc6a0fe9c1d113630e9
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+description: Cet article décrit la prise en charge du cycle de vie pour les salles d’équipes Microsoft.
+ms.openlocfilehash: ed973a01987b46dff879ab7b28275f84d55778ea
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965932"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31012925"
 ---
 # <a name="version-support"></a>Prise en charge de la version
  
-Microsoft prévoit de lancer des mises à jour pour les systèmes de salle Skype v2 plusieurs fois par an à chaque mise à jour pris en charge pour douze (12) mois à partir de sa date de publication de disponibilité générale (GA). Support technique est fournie pour les mois entiers douze (12). Toutefois, notre prise en charge de structure est désormais dynamique et évolution en deux phases de maintenance distincts qui dépendent de la disponibilité de la version la plus récente.
+Microsoft prévoit de lancer des mises à jour pour les salles d’équipes Microsoft plusieurs fois par an à chaque mise à jour pris en charge pour douze (12) mois à partir de sa date de publication de disponibilité générale (GA). Support technique est fournie pour les mois entiers douze (12). Toutefois, notre prise en charge de structure est désormais dynamique et évolution en deux phases de maintenance distincts qui dépendent de la disponibilité de la version la plus récente.
 
-Maintenance et la maintenance des mises à jour critiques de la phase lors de la dernière version de Skype salle systèmes v2 en cours d’exécution, vous recevrez des mises à jour régulières, ce qui contiennent la sécurité et met à jour de la maintenance.
+Maintenance et la maintenance des mises à jour critiques de la phase lors de la dernière version de salles d’équipes Microsoft en cours d’exécution, vous recevrez des mises à jour régulières, ce qui contiennent la sécurité et mises à jour de maintenance.
 
 
 Mises à jour de sécurité (uniquement) maintenance phase après le lancement d’une nouvelle version, prend en charge pour les agences antérieurs réduit aux mises à jour de sécurité uniquement pour prendre en charge le reste de la mise à jour douze (12) mois maintenance du cycle de vie.
@@ -32,7 +33,7 @@ Mises à jour de sécurité (uniquement) maintenance phase après le lancement d
 
 Tous les prend en charge se termine une fois le cycle de vie douze (12) mois pour une version a expiré ou si plus de deux mises à jour ont été publiées depuis. À ce stade, vous doivent mettre à jour les clients vers une version prise en charge.
 
-Toutes les versions sont répertoriées dans les [notes de publication de systèmes de salle Skype v2](srs2-release-note.md). 
+Toutes les versions sont répertoriées dans les [notes de publication Microsoft équipes salles](srs2-release-note.md). 
  
 
 
@@ -40,8 +41,8 @@ Toutes les versions sont répertoriées dans les [notes de publication de systè
 <a name="See"> </a>  
 ## <a name="see-also"></a>Voir aussi
 
-[Systèmes de salle Skype version 2](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+[Aide Microsoft équipes salles](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
-[Notes de publication de systèmes de salle Skype v2](srs2-release-note.md)
+[Notes de publication Microsoft équipes de salles](srs2-release-note.md)
 
-[Planification de Skype Room Systems v2](skype-room-systems-v2-0.md)
+[Planifier des équipes Microsoft salles](skype-room-systems-v2-0.md)

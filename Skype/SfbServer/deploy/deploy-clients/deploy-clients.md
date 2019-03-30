@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3d10abf2-d484-4fa0-8f10-4a5f9dfba4f5
 description: 'Résumé : Vue d’ensemble des méthodes d’installation de client entreprise pour Skype pour les entreprises.'
-ms.openlocfilehash: 7b58b712f5b6dec7383bcb8a58e1b17b0ed4d870
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: 49eff64918deefe2ec169993557dd0f9dfbf6955
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699280"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31012538"
 ---
 # <a name="deploy-clients-for-skype-for-business-server"></a>Déploiement de clients pour Skype pour Business Server
  
@@ -25,7 +25,7 @@ Comment déployer Skype pour les entreprises à vos utilisateurs dépend de si v
   
 - **Office 365** Si vous disposez d’un plan Office 365 qui inclut Skype pour les entreprises, la technologie d’installation qui est utilisée est appelée Click-to-Run. Avec Office 365, vous pouvez permettre à vos utilisateurs installer Skype pour les entreprises pour eux-mêmes à partir du portail Office 365. Ou bien, vous pouvez déployer Skype pour les entreprises à vos utilisateurs à télécharger le logiciel sur votre réseau local, puis en utilisant vos outils de déploiement de logiciels existante, comme avec Microsoft System Center Configuration Manager. Pour plus d’informations d’installation sur Skype pour les entreprises qui est fourni avec Office 365, voir [déployer le Skype pour client d’entreprise dans Office 365](https://support.office.com/article/8c563b81-22c9-4024-9efe-9fe28c7bbc96).
     
-- **Avec licence en volume** Si vous disposez d’une version sous licence en volume de la Skype pour Business 2015 ou client 2016, la technologie d’installation qui est utilisée est Windows Installer (MSI). Un package d’installation Windows Installer se compose de plusieurs fichiers .msi. Pour qu’un package MSI principal indépendant de la langue soit complet, il est accompagné d’un ou de plusieurs packages spécifiques à la langue. Le programme d’installation assemble les packages individuels et effectue des tâches de personnalisation et de maintenance pendant et après l’installation d’Office sur les ordinateurs des utilisateurs. Le Skype pour 2019 Business client utilise des programmes d’installation Click-to-Run.
+- **Avec licence en volume** Si vous disposez d’une version sous licence en volume de la Skype pour Business 2015 ou client 2016, la technologie d’installation qui est utilisée est Windows Installer (MSI). Un package d’installation Windows Installer se compose de plusieurs fichiers .msi. Un package MSI indépendante de la langue principale est associé à un ou plusieurs packages propres aux langues pour rendre un produit complet. Le programme d’installation rassemble les différents packages et effectue les tâches de personnalisation et de maintenance pendant et après l’installation d’Office sur les ordinateurs des utilisateurs. Le Skype pour 2019 Business client utilise des programmes d’installation Click-to-Run.
     
 Les rubriques de cette section décrivent comment utiliser et personnaliser le programme d’installation Windows pour déployer le Skype pour client d’entreprise à vos utilisateurs par le biais de vos procédures normales.
   
@@ -45,13 +45,13 @@ Les rubriques de cette section décrivent comment utiliser et personnaliser le p
     
 ## <a name="installing-device-clients"></a>Installation de périphériques clients
 
-- [Install and test Skype for Business for Windows Phone](windows-phone.md)
+- [Skype Entreprise Server 2015 : installation et test de Skype Entreprise pour Windows Phone](windows-phone.md)
     
-- [Install and test Skype for Business for iOS](ios.md)
+- [Installation et test de Skype Entreprise pour iOS](ios.md)
     
 - [Déploiement de Skype Room System dans Skype Entreprise Server](deploy-skype-room-system.md)
     
-- [Déploiement de Skype Room System v2](room-systems-v2.md)
+- [Déployer les équipes Microsoft salles](room-systems-v2.md)
     
 - [Déployer le Lync VDI plug-in avec Skype pour Business Server](deploy-the-lync-vdi-plug-in.md)
     

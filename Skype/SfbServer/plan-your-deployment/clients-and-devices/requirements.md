@@ -1,5 +1,5 @@
 ---
-title: Configuration requise pour Skype Room Systems v2
+title: Configuration requise de salles d’équipes Microsoft
 ms.author: jambirk
 author: jambirk
 ms.reviewer: davgroom
@@ -10,34 +10,35 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
-description: Cet article résume les conditions requises pour prendre en charge les systèmes Skype Room version 2.
-ms.openlocfilehash: bc1cfdfe8d7d470396617421cdcfdc6aab50a9bc
-ms.sourcegitcommit: 3f88e2f1fb4dd84bf6e88e29b89cefeb7a0a954b
+ms.collection: M365-voice
+description: Cet article résume la configuration requise pour la prise en charge des salles d’équipes Microsoft.
+ms.openlocfilehash: aff26f2f69b134569b8792df79c2afa4e4a18318
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "29770419"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31012993"
 ---
-# <a name="skype-room-systems-v2-requirements"></a>Configuration requise pour Skype Room Systems v2
+# <a name="microsoft-teams-rooms-requirements"></a>Configuration requise de salles d’équipes Microsoft
 
-Cet article résume les conditions requises pour prendre en charge les systèmes Skype Room version 2. 
+Cet article résume la configuration requise pour la prise en charge des salles d’équipes Microsoft. 
 
-Votre déploiement impliquera la création d'un compte, tel que décrit dans la rubrique [Déployer des systèmes Skype Room version 2](../../deploy/deploy-clients/room-systems-v2.md) et l’installation d’une console de réunion, tel que décrit dans la rubrique [Configurer une console pour les systèmes Skype Room version 2](../../deploy/deploy-clients/console.md). 
+Votre déploiement implique la création de compte comme décrit dans les [Salles d’équipes Microsoft de déployer](../../deploy/deploy-clients/room-systems-v2.md) et configurer une console comme indiqué dans [Configure une console Microsoft équipes salles](../../deploy/deploy-clients/console.md)de réunion. 
 
 Vous devez également faire référence à :
 
-- [Licences de module complémentaire Skype Entreprise](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
-- [Options en fonction de votre plan de licence : v2 de systèmes de salle de Skype](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
+- [Licences de complément Skype Entreprise](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
+- [Options en fonction de votre plan de licence : salles d’équipes Microsoft](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
 
 > [!NOTE]
-> Les systèmes Skype Room version 2 sont destinés à être utilisés avec Skype Entreprise Server 2019, Skype Entreprise Server 2015, Microsoft Teams ou Skype Entreprise Online.<br><br>Les plateformes antérieures comme Lync Server 2013 ne sont pas supposées fonctionner avec les systèmes Skype Room version 2.
+> Salles d’équipes Microsoft est destiné à utiliser avec Skype pour Business Server 2019, Skype pour Business Server 2015, Microsoft Teams ou Skype pour Business Online. <br><br>Plates-formes de versions antérieures à Lync Server 2013 ne sont pas prévus pour fonctionner avec Microsoft équipes salles.
 
 > [!NOTE]
-> Si vous utilisez un serveur Exchange sur site, les systèmes Skype Room version 2 nécessitent l'utilisation d'Exchange Server 2013 SP1 ou version ultérieure.
+> Si vous utilisez un serveur d’Exchange sur prem, salles d’équipes Microsoft requiert l’utilisation d’Exchange Server 2013 SP1 ou version ultérieure.
 
 ## <a name="hardware-requirements"></a>Configuration matérielle requise
 
-Les systèmes Skype Room version 2 peuvent s’adapter à différentes tailles de salle de réunion, grâce à des accessoires reliés à vos périphériques audio et vidéo. Le matériel répertorié dans cet article prend en charge les modes de réunion Skype et Teams.  Les périphériques audio et vidéo se connectent aux systèmes Skype Room version 2 via une connexion USB ou HDMI sur le périphérique de station d’accueil. Autres éléments nécessaires :
+Salles d’équipes Microsoft peuvent atteindre des tailles différentes salles au moyen d’accessoires selon les périphériques audio et vidéo. Le matériel répertorié dans cet article prend en charge les modes de réunion Skype et Teams.  Les périphériques audio et vidéo se connecter à Microsoft équipes salles via une connexion USB ou HDMI sur le périphérique d’accueil. Autres éléments nécessaires :
 
 - Un disque USB de 32 Go que vous configurerez comme support d’installation de démarrage pour Windows 10 Entreprise. 
 
@@ -73,7 +74,7 @@ Les systèmes Skype Room version 2 peuvent s’adapter à différentes tailles
 
 **Versions de micrologiciel certifiées pour les périphériques USB audio et vidéo**
 
-|Périphériques pour les systèmes Skype Room version 2|Version de micrologiciel certifiée pour les systèmes Skype Room version 2|
+|Périphériques de salles d’équipes Microsoft|Version de microprogramme certifiée pour les salles d’équipes Microsoft|
 |:-----|:-----|
 |[Logitech BRIO](https://www.logitech.com/en-us/product/brio) <br/> |v240|
 |[Logitech MeetUp](http://www.logitech.com/en-us/product/meetup-conferencecam) <br/> |Audio - 1.0.172  <br/> Vidéo - 1.0.156  <br/> |
@@ -108,20 +109,20 @@ Les systèmes Skype Room version 2 peuvent s’adapter à différentes tailles
     > Un téléviseur utilisé comme écran à l’avant de la salle doit prendre en charge/permettre la fonctionnalité CEC (Consumer Electronics Control ) HDMI afin de pouvoir basculer automatiquement sur une source vidéo active depuis le mode veille. Cette fonctionnalité n’est pas prise en charge sur tous les téléviseurs. 
 
 > [!NOTE]
-> Les systèmes Skype Room version 2 n’utilisent pas de clavier. Si nécessaire, l’administrateur doit utiliser le clavier visuel. Un clavier ou une souris USB sera nécessaire lors de la création de l’image du périphérique des systèmes Skype Room version 2. 
+> Salles d’équipes Microsoft n’utilise pas un clavier. Si nécessaire, l’administrateur doit utiliser le clavier visuel. Un clavier ou souris USB seront requise lors de l’appareil Microsoft équipes salles d’imagerie. 
 
 Le tableau suivant fournit des recommandations pour les périphériques en fonction de la taille de la salle :
 
-**Périphériques audio certifiés pour les systèmes Skype Room version 2**
+**Salles d’équipes Microsoft Certified périphériques Audio**
 
 |Type de salle|Nombre de personnes|Distance maximum recommandée du microphone à la personne parlant|Appareil par taille de salle maximum|Commentaires|
 |:-----|:-----|:-----|:-----|:-----|
 |**Focus** <br/> 10' x 9'  <br/> |2-4  <br/> |1,5 m   <br/> |Logitech Connect  <br/> |Les périphériques Logitech Connect comprennent une caméra. Ils doivent donc être placés à l’avant de la salle (pas au centre de la table) pour capturer les participants locaux à la réunion.  <br/> |
 |**Petite** <br/> 16' x 16'  <br/> |4-6  <br/> |2,0 m  <br/> |Jabra 510  <br/> Sennheiser SP20  <br/> |Le volume de lecture peut être limité pour des salles plus grandes.  <br/> |
-|**Moyenne** <br/> 18' x 20'  <br/> |6-12  <br/> |2,4m  <br/> |Jabra 710  <br/> Jabra 810  <br/> Logitech MeetUp  <br/> Logitech Group  <br/> Polycom Trio  <br/> Polycom CX5100  <br/> Sennheiser SP 220 MS  <br/> Yamaha YVC-1000MS  <br/> |Les périphériques Logitech MeetUp comprennent une caméra. Ils doivent donc être placés à l’avant de la salle (pas au centre de la table) pour capturer les participants locaux à la réunion.  <br/> En général, les salles avec des tables longues ou en U peuvent bénéficier de microphones satellitaires supplémentaires.  <br/> SP 220 MS doit être utilisé dans une configuration en chaîne.  <br/> |
+|**Moyenne** <br/> 18' x 20'  <br/> |6-12  <br/> |2,4m  <br/> |Jabra 710  <br/> Jabra 810  <br/> Logitech MeetUp  <br/> Logitech Group  <br/> Polycom Trio  <br/> Polycom CX5100   <br/> Sennheiser SP 220 MS  <br/> Yamaha YVC-1000MS  <br/> |Les périphériques Logitech MeetUp comprennent une caméra. Ils doivent donc être placés à l’avant de la salle (pas au centre de la table) pour capturer les participants locaux à la réunion.  <br/> En général, les salles avec des tables longues ou en U peuvent bénéficier de microphones satellitaires supplémentaires.  <br/> SP 220 MS doit être utilisé dans une configuration en chaîne.  <br/> |
 |**Grande** <br/> 15' x 32'  <br/> |12-16  <br/> |3 m  <br/> La distance s’applique également à la zone couverte par chaque microphone satellite supplémentaire connecté au périphérique audio en question.   <br/> |Logitech Group + microphones satellitaires  <br/> Polycom Trio+ microphones satellitaires  <br/> Polycom CX5100 + microphones satellitaires  <br/> Sennheiser SP 220 MS  <br/> Yamaha YVC-1000MS + microphones satellitaires  <br/> |Tous les périphériques audio répertoriés dans cette ligne prennent en charge les options de microphone satellite.  <br/> CX5100 comprend une caméra 360 degrés intégrée de manière à ce que le périphérique puisse être positionné au centre de la table.  <br/> SP 220 MS doit être utilisé dans une configuration en chaîne.  <br/> |
 
-**Périphériques vidéo certifiés pour les systèmes Skype Room version 2**
+**Salles d’équipes Microsoft certifiés périphériques vidéo**
 
 |Type de salle|Nombre de personnes|Appareil par taille de salle maximale|Commentaires|
 |:-----|:-----|:-----|:-----|
@@ -133,23 +134,23 @@ Le tableau suivant fournit des recommandations pour les périphériques en fonct
  > [!NOTE]
  > La résolution de l'écran à l’avant de la salle doit être définie pour ne pas être supérieure à 1920 x 1080 pixels.
 
-## <a name="required-software-downloads"></a>Téléchargement des logiciels requis
+## <a name="required-software-downloads"></a>Téléchargements de logiciels requis
 
-Pour créer votre propre image de systèmes Skype Room version 2, suivez les instructions de la rubrique [Configurer une console pour les systèmes Skype Room version 2](../../deploy/deploy-clients/console.md). Ces instructions vous guideront dans la procédure de téléchargement de tous les logiciels nécessaire pour le processus d’installation. 
+Pour créer votre propre image salles des équipes Microsoft, suivez les instructions de [configurer une console Microsoft équipes salles](../../deploy/deploy-clients/console.md). Ces instructions vous guideront dans la procédure de téléchargement de tous les logiciels nécessaire pour le processus d’installation. 
 
 > [!NOTE]
 > Des professionnels de l'informatique devront accéder aux fichiers ISO Windows 10 Entreprise via leur contrat de licences en volume.
 
-En outre, vous souhaiterez probablement une copie de [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), utilisé souvent pour provisionner les comptes des systèmes Skype Room version 2.
+En outre, vous souhaiterez probablement une copie de [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), que vous pouvez utiliser pour mettre en service des comptes locaux des équipes Microsoft.
 
 ## <a name="see-also"></a>Voir aussi
 
-[Planification de Skype Room Systems v2](skype-room-systems-v2-0.md)
+[Planifier des équipes Microsoft salles](skype-room-systems-v2-0.md)
 
-[Déploiement des systèmes Skype Room version 2](../../deploy/deploy-clients/room-systems-v2.md)
+[Déployer les équipes Microsoft salles](../../deploy/deploy-clients/room-systems-v2.md)
 
-[Configuration d’une console pour les systèmes Skype Room version 2](../../deploy/deploy-clients/console.md)
+[Configurer une console Microsoft équipes salles](../../deploy/deploy-clients/console.md)
 
-[Gestion des systèmes Skype Room version 2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Gérer les équipes Microsoft salles](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 
 [Licences de module complémentaire Skype Entreprise](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)

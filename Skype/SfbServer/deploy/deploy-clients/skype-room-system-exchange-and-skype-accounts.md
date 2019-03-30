@@ -9,20 +9,21 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fa71a2da-2cc9-4ad1-8ec9-08d1c9c5247a
+ms.collection: M365-voice
 description: Consultez ces rubriques pour découvrir comment mettre en service des comptes Exchange et Skype pour Skype Room System.
-ms.openlocfilehash: ec812f569e096d31fb1085d196037677edf5da37
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: 2da978d84ac763a27bba135e1899e83955b4fb53
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699273"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31012553"
 ---
 # <a name="provisioning-of-skype-room-system-exchange-and-skype-accounts"></a>Mise en service de comptes Exchange et Skype dans Skype Room System
  
 Consultez ces rubriques pour découvrir comment mettre en service des comptes Exchange et Skype pour Skype Room System. 
 
 > [!NOTE]
-> Systèmes de salle Skype v2 est un produit différents avec des dépendances différents et des procédures de déploiement. Pour plus d’informations sur les systèmes de salle Skype v2, voir systèmes de salle Skype v2 [vue d’ensemble du déploiement](room-systems-v2.md).
+> Salles d’équipes Microsoft est un autre produit avec des dépendances différents et des procédures de déploiement. Pour plus d’informations sur les espaces des équipes Microsoft, consultez la [vue d’ensemble du déploiement](room-systems-v2.md)de salles d’équipes Microsoft.
   
 > [!NOTE]
 > Mise en service du compte Skype salle système dépend du type de topologie de votre organisation. Pour en savoir plus sur les topologies Active Directory, consultez [Environmental requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md). 

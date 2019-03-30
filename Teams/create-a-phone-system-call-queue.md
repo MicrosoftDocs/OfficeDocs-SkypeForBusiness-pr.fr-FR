@@ -1,5 +1,5 @@
 ---
-title: Créer une file d’attente d’appels de système téléphonique
+title: Créer une file d’attente d’appel
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -21,14 +21,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Découvrez comment configurer le système téléphonique de files d’attente des appels système téléphonique pour vous donner une organisation message d’accueil, une musique d’attente et rediriger les appels pour appeler les agents dans des listes de distribution et les groupes de sécurité. Vous pouvez également définir la taille maximale de file d’attente, délai d’expiration et options de gestion des appels.
-ms.openlocfilehash: 924885ff62bb0e7e2ba0f25cc348dc62eb29ec32
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: a44bd5b00b47655dc950ee01f82ffd0c0a308466
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898165"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31012972"
 ---
-# <a name="create-a-phone-system-call-queue"></a>Créer une file d’attente d’appels de système téléphonique
+# <a name="create-a-phone-system-call-queue"></a>Créer une file d’attente appel système téléphonique
 
 Appel de système téléphonique files d’attente contiennent le message d’accueil qui est utilisés lorsqu’une personne appelle un numéro de téléphone pour votre organisation, la possibilité de mettre automatiquement les appels en attente et la capacité de recherche pour l’agent disponible appel suivant gérer l’appel pendant les personnes qui appel Écoutez une musique d’attente. Vous pouvez créer une seule ligne ou plusieurs files d’attente d’appel pour votre organisation.
   
@@ -41,10 +41,11 @@ Files d’attente des appels téléphoniques système peuvent fournir :
 
 Lorsqu’une personne appelle un numéro de téléphone qui est associé à une file d’attente des appels par le biais d’un [compte de ressource](manage-resource-accounts.md), elles seront entendre un message d’accueil premier (si une est configuré), puis ils sera placée dans la file d’attente et attendre le prochain agent appel disponible. La personne qui entendront musique pendant qu’ils sont mis en attente en attente et les appels seront proposés aux agents appel par ordre *First In, First Out* (FIFO).
   
-Tous les appels en attente dans la file d’attente seront distribués à l’aide d’un mode de routage standard ou le mode de routage en série :
+Tous les appels en attente dans la file d’attente seront distribués à l’aide d’une des méthodes suivantes :
   
 - Avec le routage standard, le premier appel dans la file d’attente sonnera tous les agents en même temps.
 - Avec le routage en série, le premier appel dans la file d’attente sonnera tous les agents appel un par un.
+- Avec tourniquet, le routage des appels entrants est équilibré afin que chaque agent appel le même nombre d’appels à partir de la file d’attente.
 
     > [!NOTE]
     > Appel des agents qui sont **en mode hors connexion**, ont défini leur présence **ne pas** déranger ou qui ont opté en dehors de la file d’attente de l’appel ne sera pas appelés.
@@ -59,16 +60,18 @@ Tous les appels en attente dans la file d’attente seront distribués à l’ai
 
 Pour commencer à l’aide de files d’attente d’appel, il est important de n’oubliez pas de choses :
   
-- Votre organisation doit avoir (au minimum), une licence entreprise E3 plus **Système téléphonique** ou une licence Enterprise E5. Le nombre de licences utilisateur **Système téléphonique** qui sont assignés affecte le nombre de numéros de service qui sont disponibles pour être utilisés pour les files d’attente de l’appel. Le nombre de files d’attente de l’appel que peut avoir est varie selon le nombre de licences **Système téléphonique** et de **Conférence** qui sont assignés au sein de votre organisation. Pour plus d’informations sur les licences, voir [Skype pour la licence de module complémentaire Business](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing) ou [équipes Microsoft licensing de module complémentaire](teams-add-on-licensing/microsoft-teams-add-on-licensing.md) .
+- Un standard automatique est nécessaire d’avoir un compte de ressource. Pour plus d’informations sur les comptes de ressources, voir [Gérer les comptes de ressources dans les équipes](manage-resource-accounts.md) .
+- Si vous souhaitez affecter un numéro de routage Direct, vous devez acquérir et affecter les licences suivantes aux comptes ressource \(Office 365 entreprise E1, E3 ou E5, avec le module complémentaire système téléphonique\).
+- Si vous affectez un numéro de service Microsoft au lieu de cela, vous devez acquérir et affecter les licences suivantes à votre compte de ressource \(Office 365 entreprise E1, E3 ou E5, avec le module complémentaire système téléphonique et un Plan d’appel de\).
 
-    > [!NOTE]
-    > Pour rediriger les appels vers des personnes dans votre organisation en ligne, ils doivent disposer d’une licence de **Système téléphonique** et être activés pour Enterprise Voice ou Office 365 appelant Plans. Voir [Assigner de Skype pour les licences d’entreprise](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md) ou [licences attribuer les équipes Microsoft](assign-teams-licenses.md). Pour les activer pour Enterprise Voice, vous pouvez utiliser Windows PowerShell. Par exemple, exécutez :  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+> [!NOTE] 
+> Microsoft fonctionne sur un modèle de licence approprié pour les applications telles que les standards automatiques de nuage et les files d’attente des appels, maintenant vous devez utiliser le modèle de gestion des licences utilisateur pour.
+
+> [!NOTE]
+> Pour rediriger les appels vers des personnes dans votre organisation en ligne, ils doivent disposer d’une licence de **Système téléphonique** et être activés pour Enterprise Voice ou Office 365 appelant Plans. Voir [Assigner de Skype pour les licences d’entreprise](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md) ou [licences attribuer les équipes Microsoft](assign-teams-licenses.md). Pour les activer pour Enterprise Voice, vous pouvez utiliser Windows PowerShell. Par exemple, exécutez :  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
 - Pour en savoir plus sur Office 365 appelant Plans, voir le [système téléphonique et Plans de l’appel](calling-plan-landing-page.md) et [Appel des Plans pour Office 365](calling-plans-for-office-365.md).
 
-    > [!NOTE]
-    > Les utilisateurs hébergés sur site à l’aide de Lync Server 2010 ne sont pas pris en charge comme une file d’attente d’appel Agents.
-  
 - Vous pouvez uniquement attribuer payants et les numéros de téléphone gratuit service que vous avez obtenu dans le **Centre d’administration de Microsoft équipes** ou transférés à partir d’un autre fournisseur de services aux files d’attente des appels système téléphonique. Pour obtenir et utiliser des numéros gratuits service, vous devez configurer les crédits de Communications.
 
     > [!NOTE]
@@ -175,9 +178,6 @@ Vous pouvez sélectionner jusqu'à 200 agents appel appartenant à des listes de
 
 - Utilisateurs en ligne avec une licence de **Système téléphonique** et un Plan d’appel qui sont ajoutés à un groupe d’Office 365, une liste de Distribution à extension messagerie ou un groupe de sécurité. Il peut prendre jusqu'à 30 minutes pour un nouvel agent ajouté pour une liste de distribution ou un groupe de sécurité pour commencer à recevoir des appels à partir d’une file d’attente de l’appel. Un groupe de sécurité ou de la liste de distribution nouvellement créé peut prendre jusqu'à 48 heures soit disponible pour être utilisé avec les files d’attente de l’appel. Nouvellement créé Office 365 groupes sont presque immédiatement disponibles.
 
-  > [!NOTE]
-  > Les utilisateurs hébergés sur site à l’aide de Lync Server 2010 ne sont pas pris en charge.
-
 ![Configurer les files d’attente de l’appel.](media/skype-for-business-add-agents-to-call-queue.png)
 
 ![Numéro 2](media/sfbcallout2.png)
@@ -241,10 +241,8 @@ Le paramètre par défaut est de 30 secondes, mais elle peut être définie pour
 
   - **Personne de votre société** Un utilisateur en ligne avec une licence de **Système téléphonique** et être activé pour Enterprise Voice ou possèdent un Plan de l’appel. Vous pouvez le régler pour que la personne appelant soit redirigée vers la messagerie vocale. Pour ce faire, sélectionnez une **personne de votre société** et définissez cette personne pour que leurs appels transférés directement vers la messagerie vocale.
 
-  Pour plus d’informations sur les licences requises pour la messagerie vocale, voir [configurer le système téléphonique de la messagerie vocale](set-up-phone-system-voicemail.md).
+  Pour plus d’informations sur les licences requises pour la messagerie vocale, voir [configuration de la messagerie vocale dans le nuage](set-up-phone-system-voicemail.md).
 
-    > [!Note]
-    > Les utilisateurs hébergés sur site à l’aide de Lync Server 2010 ne sont pas pris en charge.
   - **Application vocale** Sélectionnez le nom de l’une file d’attente de l’appel ou qui a déjà été créée standard automatique.
 
 * * *
@@ -263,16 +261,13 @@ Peut avoir la valeur du délai d’attente en secondes, toutes les 15 secondes. 
 - **Cet appel de redirection** Lorsque vous choisissez cette option, vous devez ces options :
   - **Personne de votre société** Un utilisateur en ligne avec une licence de **Système téléphonique** et être activé pour Enterprise Voice ou possèdent des Plans de l’appel. Vous pouvez le régler pour que la personne appelant soit redirigée vers la messagerie vocale. Pour ce faire, sélectionnez une **personne de votre société** et définissez cette personne pour que leurs appels transférés directement vers la messagerie vocale.
 
-  Pour plus d’informations sur les licences requises pour la messagerie vocale, voir [configurer le système téléphonique de la messagerie vocale](set-up-phone-system-voicemail.md).
-
-    > [!Note]
-    > Les utilisateurs hébergés sur site à l’aide de Lync Server 2010 ne sont pas pris en charge.
+  Pour plus d’informations sur les licences requises pour la messagerie vocale, voir [configuration de la messagerie vocale dans le nuage](set-up-phone-system-voicemail.md).
 
   - **Application vocale** Sélectionnez le nom de l’une file d’attente de l’appel ou qui a déjà été créée standard automatique.
 
-## <a name="changing-a-users-caller-id-to-be-a-call-queues-phone-number"></a>Modification des ID de l’appelant d’un utilisateur pour qu’il soit le numéro de téléphone d’un appel de la file d’attente
+## <a name="changing-a-users-caller-id-for-outbound-calls"></a>Modification des ID de l’appelant d’un utilisateur pour les appels sortants 
 
-Vous pouvez protéger l’identité d’un utilisateur en modifiant son ID d’appelant pour les appels sortants vers une file d’attente de l’appel au lieu de cela en créant une stratégie à l’aide de l’applet de commande **New-CallingLineIdentity** .
+Vous pouvez protéger l’identité d’un utilisateur en modifiant son ID d’appelant pour les appels sortants vers une file d’attente d’appel, de standard automatique ou de n’importe quel nombre de service au lieu de cela en créant une stratégie à l’aide de l’applet de commande **New-CsCallingLineIdentity** .
 
 Pour ce faire, exécutez :
 
@@ -296,13 +291,13 @@ Vous pouvez également utiliser Windows PowerShell pour créer et configurer des
 
 Voici les applets de commande dont vous avez besoin pour gérer une file d’attente de l’appel.
   
-- [Nouvelle CsHuntgroup](https://technet.microsoft.com/en-us/library/mt796459.aspx)
+- [Nouvelle CsCallQueue](https://docs.microsoft.com/powershell/module/skype/new-CsCallQueue?view=skype-ps)
 
-- [Set-CsHuntgroup](https://technet.microsoft.com/en-us/library/mt796457.aspx)
+- [Set-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/set-CsCallQueue?view=skype-ps)
 
-- [Get-CsHuntgroup](https://technet.microsoft.com/en-us/library/mt796458.aspx)
+- [Get-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/get-CsCallQueue?view=skype-ps)
 
-- [Remove-CsHuntgroup](https://technet.microsoft.com/en-us/library/mt796456.aspx)
+- [Remove-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/remove-CsCallQueue?view=skype-ps)
 
 ### <a name="more-about-windows-powershell"></a>Informations supplémentaires sur PowerShell Windows
 
@@ -324,6 +319,6 @@ Voici les applets de commande dont vous avez besoin pour gérer une file d’att
 
 [Obtention de numéros de téléphone de service](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
-[Disponibilité des forfaits d’appels et de l’audioconférence selon les régions et les pays](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[Disponibilité des forfaits d'appels et de l’audioconférence selon les régions et les pays](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
 [Nouvelle CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance?view=skype-ps)

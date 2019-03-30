@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 95f0852e-391d-4345-985f-0a2da50491fa
 description: 'Résumé : clients et applications pris en charge pour Skype Entreprise.'
-ms.openlocfilehash: bde1e70699de8adfdf58a7cc892405d8eee8675c
-ms.sourcegitcommit: f7b706f8ac9647ba854ae3457018d3007edf6f6e
+ms.openlocfilehash: 0aff83afc14401e3b8d165f108415cb32c407e60
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "26993379"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31012746"
 ---
 # <a name="plan-for-clients-and-devices"></a>Planifier des clients et des appareils
 
@@ -78,9 +78,9 @@ Si Skype Entreprise n’est pas installé sur l’ordinateur d'un utilisateur e
 
 Un environnement VDI (Virtual Desktop Infrastructure) est utilisé dans certaines organisations pour lesquelles les aspects liés à la sécurité et à la conformité sont particulièrement cruciaux. Utiliser Skype Entreprise avec les fonctionnalités audio et vidéo intégrales sur une telle connexion implique des charges de traitement audio et vidéo élevées sur le client hébergé sur un bureau virtuel. Un logiciel de plug-in VDI supplémentaire est disponible, qui transfère ce traitement vers l’ordinateur local de l’utilisateur final, ce qui réduit la charge supportée par le bureau virtuel. Consultez la section [Planifier Skype Entreprise dans des environnements VDI](vdi-environments.md) pour en savoir plus sur l’utilisation de ces plug-ins.
 
-### <a name="skype-room-systems-v2"></a>Skype Room System v2
+### <a name="microsoft-teams-rooms"></a>Les équipes Microsoft salles
 
-Skype Room System v2 est la solution de conférence la plus récente de Microsoft. Elle utilise une interface Skype Entreprise classique et elle est déployée et gérée facilement, en utilisant l’équipement existant tel que les écrans LCD pour faciliter l’installation. Skype Room System v2 utilise une application UWP créée à cet effet qui s’exécute sur un Surface Pro 4 ou un Surface Pro en mode console (une fois déployée, l’application UWP est la seule application qui sera exécutée sur l’appareil), et qui requiert son propre compte d’appareil dans votre implémentation de Skype Entreprise. Le logiciel est mis à jour via Windows Store et Windows Update. Reportez-vous à la section https://aka.ms/SRSDocs pour en savoir plus sur l’utilisation de ces consoles de salle dans votre déploiement.
+Salles d’équipes Microsoft est la plus récente conférence solution Microsoft qui utilise une interface familière et facile à déployer et géré, tirer parti du matériel existant comme panneaux LCD facilité d’installation. Salles d’équipes Microsoft utilise une application UWP spécialisée en cours d’exécution sur une Surface Pro 4 ou Surface Pro en mode console (après le déploiement de l’application UWP est la seule application qui s’exécute sur l’appareil) et nécessite son propre compte de périphérique sur votre implémentation. Le logiciel est mis à jour via Windows Store et Windows Update. Reportez-vous à la section https://aka.ms/SRSDocs pour en savoir plus sur l’utilisation de ces consoles de salle dans votre déploiement. 
 
 ### <a name="skype-for-business-on-surface-hub"></a>Skype Entreprise sur Surface Hub
 
@@ -139,7 +139,7 @@ MSI est une méthode d'installation plus traditionnelle, utilisée sur les clien
 
 Skype Entreprise Server 2019 et Skype Entreprise Online prennent en charge les versions précédentes des clients suivantes : Skype Entreprise 2016, Skype Entreprise 2015 et Lync 2013.
 
-Skype Entreprise Server 2015 est compatible avec les clients précédemment lancés : Lync 2013, Lync 2010, Lync 2010 Mobile, Lync Phone Edition et Intendant Lync 2010. Pour plus d'informations sur ces clients lorsqu'ils sont utilisés avec d’autres serveurs, reportez-vous aux [tableaux de comparaison des clients pour Lync Server 2013](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx) et [tableaux de comparaison des clients pour Lync Server 2010](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.14%29.aspx).
+Skype pour Business Server 2015 prend en charge les clients suivants précédemment publiés : Lync 2013, Lync 2010, Lync 2010 Mobile, Lync Phone Edition et Microsoft Lync 2010 Attendant. Pour plus d'informations sur ces clients lorsqu'ils sont utilisés avec d’autres serveurs, reportez-vous aux [tableaux de comparaison des clients pour Lync Server 2013](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx) et [tableaux de comparaison des clients pour Lync Server 2010](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.14%29.aspx).
 
 
 ## <a name="client-system-requirements"></a>Configuration requise pour le client
@@ -165,7 +165,7 @@ Consultez les articles suivants pour connaître les fonctionnalités, les platef
 
 - [Conditions requises pour le client Skype Entreprise pour Mac](mac-requirements.md)
 
-- [Planification de Skype Room Systems v2](skype-room-systems-v2-0.md)
+- [Planifier des équipes Microsoft salles](skype-room-systems-v2-0.md)
 
 - [Planifier Skype Entreprise dans des environnements VDI](vdi-environments.md)
 

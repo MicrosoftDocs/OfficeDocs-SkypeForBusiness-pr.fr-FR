@@ -1,5 +1,5 @@
 ---
-title: Déployer la salle Skype systèmes v2 avec Skype pour Business Server
+title: Déployer les équipes Microsoft salles avec Skype pour Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,31 +10,26 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
 - Strat_SB_Admin
+- M365-voice
 ms.custom: ''
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
-description: Lisez cette rubrique pour plus d’informations sur la façon de déployer des systèmes de salle Skype v2 avec Skype pour Business Server.
-ms.openlocfilehash: 5159d9cc8835ebe2b6e1d74e2f7644ee11232b63
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+description: Lisez cette rubrique pour plus d’informations sur la façon de déployer des salles d’équipes Microsoft avec Skype pour Business Server.
+ms.openlocfilehash: e5ba372a5990f7c63827f1f8b0426e67ae48b620
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30645393"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31012475"
 ---
-# <a name="deploy-skype-room-systems-v2-with-skype-for-business-server"></a>Déployer la salle Skype systèmes v2 avec Skype pour Business Server
+# <a name="deploy-microsoft-teams-rooms-with-skype-for-business-server"></a>Déployer les équipes Microsoft salles avec Skype pour Business Server
   
-Cette rubrique explique comment vous ajoutez un compte de périphériques pour les systèmes de salle Skype v2 lorsque vous avez un déploiement local de forêt unique.
+Cette rubrique explique comment vous ajoutez un compte de périphérique pour les salles d’équipes Microsoft lorsque vous avez un déploiement local de forêt unique.
   
 Si vous avez une forêt unique, le déploiement local avec Exchange 2013 SP1 ou version ultérieure et le Skype pour Business Server 2015 ou version ultérieure, vous pouvez utiliser les scripts Windows PowerShell fournis pour créer des comptes de l’appareil. Si vous utilisez un déploiement à forêts multiples, vous pouvez utiliser les applets de commande équivalente qui produit le même résultat. Ces applets de commande sont décrites dans cette section.
 
-Pour configurer des comptes d’utilisateurs, la plus simple consiste à configurer à l’aide de Windows PowerShell à distance. Microsoft propose [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), un script qui vous aide à créer des comptes d’utilisateur ou de valider les comptes de ressource existant dont vous disposez afin de vous aider à les transformer en comptes d’utilisateurs v2 Skype salle systèmes compatibles. Si vous préférez, vous pouvez suivre les étapes ci-dessous pour configurer les comptes utilisés par votre appareil v2 de systèmes de salle Skype.
-
-## <a name="requirements"></a>Configuration requise
-
-Avant de déployer des systèmes de salle Skype v2 avec Skype pour Business Server, assurez-vous que vous remplissez les conditions. Pour plus d’informations, reportez-vous à la rubrique [Skype Room Systems v2 requirements](../../plan-your-deployment/clients-and-devices/requirements.md).
   
-Avant de commencer à déployer des systèmes de salle Skype v2, assurez-vous que les autorisations appropriées pour exécuter les applets de commande associée.
+Avant de commencer à déployer Microsoft équipes salles, assurez-vous que les autorisations appropriées pour exécuter les applets de commande associée.
   
-1. Démarrer une session Windows PowerShell à distance à partir d’un PC et se connecter à Exchange.
 
    ``` Powershell
    Set-ExecutionPolicy Unrestricted
@@ -49,7 +44,7 @@ Avant de commencer à déployer des systèmes de salle Skype v2, assurez-vous qu
 
    Notez que $strExchangeServer est le nom de domaine complet (FQDN) de votre serveur Exchange et $strLyncFQDN est le nom de domaine complet de votre Skype pour le déploiement de serveur d’entreprise.
 
-2. Après avoir établi une session, vous allez créer une nouvelle boîte aux lettres et activer comme un RoomMailboxAccount, soit modifier les paramètres d’une boîte aux lettres de salle existante. Ainsi, le compte de s’authentifier sur les systèmes de salle Skype v2.
+2. Après avoir établi une session, vous allez créer une nouvelle boîte aux lettres et activer comme un RoomMailboxAccount, soit modifier les paramètres d’une boîte aux lettres de salle existante. Ainsi, le compte de s’authentifier auprès de salles d’équipes Microsoft.
 
     Si vous modifiez une boîte aux lettres de ressource :
 
@@ -79,13 +74,13 @@ Avant de commencer à déployer des systèmes de salle Skype v2, assurez-vous qu
    Set-AdUser $acctUpn -PasswordNeverExpires $true
    ```
 
-5. Activez le compte dans Active Directory pour authentifie à Skype salle systèmes v2.
+5. Activez le compte dans Active Directory pour authentifie salles d’équipes Microsoft.
 
    ``` Powershell
    Set-AdUser $acctUpn -Enabled $true
    ```
 
-6. Activer le compte de l’appareil avec Skype pour Business Server grâce à votre compte d’Active Directory v2 Skype salle systèmes sur un Skype pour le pool de serveurs d’entreprise :
+6. Activer le compte de l’appareil avec Skype pour Business Server grâce à votre compte Microsoft équipes salles Active Directory sur un Skype pour le pool de serveurs d’entreprise :
 
    ``` Powershell
    Enable-CsMeetingRoom -SipAddress sip:PROJECTRIGEL01@contoso.com -DomainController DC-ND-001.contoso.com
@@ -94,7 +89,7 @@ Avant de commencer à déployer des systèmes de salle Skype v2, assurez-vous qu
 
     Vous devrez utiliser l’adresse SIP (Session Initiation Protocol) et le contrôleur de domaine du projet.
 
-7. **Facultatif**. Vous pouvez également permettre Skype salle systèmes v2 émettre et recevoir des appels téléphoniques de réseau téléphonique commuté public en activant Enterprise Voice de votre compte. Enterprise Voice n’est pas une condition requise pour les systèmes de salle Skype v2, mais si vous souhaitez composer le numéro PSTN pour le client de v2 Skype salle systèmes, voici comment l’activer :
+7. **Facultatif**. Vous pouvez également permettre salles d’équipes Microsoft émettre et recevoir des appels téléphoniques de réseau téléphonique commuté public en activant Enterprise Voice de votre compte. Enterprise Voice n’est pas une condition requise pour les salles d’équipes Microsoft, mais si vous souhaitez composer le numéro PSTN pour le client Microsoft équipes salles, voici comment l’activer :
 
    ``` Powershell
    Set-CsMeetingRoom PROJECTRIGEL01 -DomainController DC-ND-001.contoso.com -LineURI "tel:+14255550555;ext=50555"
@@ -123,12 +118,12 @@ Grant-CsDialPlan -PolicyName e15dp2.contoso.com -Identity rigel1
 
 ## <a name="see-also"></a>Voir aussi
 
-[Configurer des comptes pour les systèmes de salle Skype v2](room-systems-v2-configure-accounts.md)
+[Configurer des comptes pour les salles d’équipes Microsoft](room-systems-v2-configure-accounts.md)
 
-[Planification de Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Planifier des équipes Microsoft salles](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
-[Déploiement des systèmes Skype Room version 2](room-systems-v2.md)
+[Déployer les équipes Microsoft salles](room-systems-v2.md)
   
-[Configuration d’une console pour les systèmes Skype Room version 2](console.md)
+[Configurer une console Microsoft équipes salles](console.md)
   
-[Gestion des systèmes Skype Room version 2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Gérer les équipes Microsoft salles](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)

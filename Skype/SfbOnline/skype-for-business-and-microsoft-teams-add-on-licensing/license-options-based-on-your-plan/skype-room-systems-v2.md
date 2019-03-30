@@ -1,5 +1,5 @@
 ---
-title: Skype Room System v2
+title: Les équipes Microsoft salles
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -11,6 +11,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
+- M365-voice
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -19,27 +20,27 @@ f1keywords: None
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 'Découvrez les fonctionnalités disponibles dans les systèmes de salle Skype v2. '
-ms.openlocfilehash: 5cc6f34b7c8f493ef81732d68c2d7af37989ba09
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+description: 'Découvrez les fonctionnalités disponibles dans les salles d’équipes Microsoft. '
+ms.openlocfilehash: bd82311632707de5a8f8d837024da28dbcf9bf26
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30645332"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31012507"
 ---
-# <a name="skype-room-systems-v2"></a>Skype Room System v2
+# <a name="microsoft-teams-rooms-licenses"></a>Licences de salles d’équipes Microsoft
 <a name="bkmk_srs"> </a>
 
-Le tableau suivant répertorie les fonctionnalités utilisées par les systèmes de salle Skype version 2 et les licences que vous devez acheter pour obtenir les.
+Le tableau suivant répertorie les fonctionnalités de dépendants licences sont disponibles dans les salles d’équipes Microsoft et les licences dont vous avez besoin d’acheter pour obtenir les.
   
 > [!NOTE]
 > Ces licences doivent être affectées à la salle configurée et elle doit être un objet utilisateur.
-  
-| Scénario de système de salle Skype |Vous avez actuellement Office 365 Premium, Office 365 ProPlus0 ou Skype pour Business autonome Plan 2. <br/> Voici les compléments que vous devez acheter : |Vous possédez actuellement une offre d'entreprise. <br/> Voici les compléments que vous devez acheter : |Vous possédez Skype Entreprise Server 2015 (sur site ou hybride). <br/> Voici les compléments que vous devez acheter : |
+
+|Scénario de salles d’équipes Microsoft |Vous avez actuellement Office 365 Premium, Office 365 ProPlus0 ou Skype pour Business autonome Plan 2.  <br/> Voici les compléments que vous devez acheter :  |Vous possédez actuellement une offre d'entreprise.  <br/> Voici les compléments que vous devez acheter : |Vous possédez Skype Entreprise Server 2015 (sur site ou hybride). <br/> Voici les compléments que vous devez acheter :|
 |:-----|:-----|:-----|:-----|
-|Participer à une réunion planifiée.   |Plan autonome 1 Skype Entreprise  |E1, 3, 4 ou 5   |Skype Entreprise Licence d'accès client Server standard  |
-|Lancer une réunion ad hoc.  |Plan autonome 2 Skype Entreprise  |E1, 3, 4 ou 5   |Skype Entreprise Licence d'accès client Server standard  <br/> Skype Entreprise Licence d'accès client Server Entreprise   |
-|Lancer une réunion ad hoc et les appels sortants à partir d’une réunion aux numéros de téléphone.   |Skype pour Business, Plan autonome 2 avec les services d’audioconférence  <br/> **Remarque :** Communications crédits sont facultatifs.           |E1 ou E3 avec les services d’audioconférence  <br/> OU  <br/> E5  <br/> |Skype Entreprise Licence d'accès client standard  <br/> Skype Entreprise Licence d'accès client Server Entreprise  |
-|Donner à la salle un numéro de téléphone et émettre ou recevoir un appel à partir de la salle ou participer à une conférence audio à l’aide d’un numéro de téléphone. |Skype pour Business autonome 2 avec Office 365 Phone System et un Plan d’appel  <br/> **Remarque :** Communications crédits sont facultatifs.           |E1 ou E3 avec Office 365 téléphone système et un Plan d’appel Office 365  <br/> OU  <br/> E5  <br/> |Skype Entreprise Licence d'accès client Server standard  <br/> Skype Entreprise Licence d'accès client Server Plus |
-   
- **Utiliser la version appropriée de Windows 10**: pour les clients qui souhaitent déployer Windows 10 images à leurs périphériques, une version spécifique de Windows 10 est requise, et cette version est uniquement disponible pour les clients de licence en volume.  Vous pouvez obtenir une copie à partir du [Centre de gestion des licences en Volume](https://www.microsoft.com/Licensing/servicecenter/). Utiliser les conseils de [configurer une console v2 de systèmes de salle Skype](/Skypeforbusiness/deploy/deploy-clients/console.md) pour créer votre support d’installation de logiciels pour les systèmes de salle Skype version 2.
+|Participer à une réunion planifiée.  |Plan autonome 1 Skype Entreprise |E1, 3, 4 ou 5  |Skype Entreprise Licence d'accès client Server standard  |
+|Lancer une réunion ad hoc. |Plan autonome 2 Skype Entreprise |E1, 3, 4 ou 5 |Skype Entreprise Licence d'accès client Server standard  <br/> Skype Entreprise Licence d'accès client Server Entreprise|
+|Lancer une réunion ad hoc et les appels sortants à partir d’une réunion aux numéros de téléphone. |Skype pour Business, Plan autonome 2 avec les services d’audioconférence  <br/> **Remarque :** Communications crédits sont facultatifs. |E1 ou E3 avec les services d’audioconférence  <br/> OU  <br/> E5  <br/> |Skype Entreprise Licence d'accès client standard  <br/> Skype Entreprise Licence d'accès client Server Entreprise|
+|Donner à la salle un numéro de téléphone et émettre ou recevoir un appel à partir de la salle ou participer à une conférence audio à l’aide d’un numéro de téléphone.  |Skype pour Business autonome 2 avec Office 365 Phone System et un Plan d’appel  <br/> **Remarque :** Communications crédits sont facultatifs.           |E1 ou E3 avec Office 365 téléphone système et un Plan d’appel Office 365  <br/> OU  <br/> E5   |Skype Entreprise Licence d'accès client Server standard  <br/> Skype Entreprise Licence d'accès client Server Plus  |
+
+ **Utiliser la version appropriée de Windows 10**: pour les clients qui souhaitent déployer Windows 10 images dans leurs périphériques, voir [configurer une console Microsoft équipes salles](/Skypeforbusiness/deploy/deploy-clients/console.md).
