@@ -140,8 +140,8 @@ description: Skype Entreprise
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Skype Room System v2</h3>
-                                                    <p>Découvrez comment planifier, déployer et gérer les systèmes Skype Room v2.</p>
+                                                    <h3>Les équipes Microsoft salles</h3>
+                                                    <p>Découvrez comment planifier, déployer et gérer des salles équipes Microsoft.</p>
                                                 </div>
                                             </div>
                                         </div>
