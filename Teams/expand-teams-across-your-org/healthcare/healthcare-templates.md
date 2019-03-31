@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Démarrage avec les modèles Teams pour les organismes de santé
-ms.openlocfilehash: 282c28661de3d2678f7b4b29129de4f80dece491
-ms.sourcegitcommit: 89b866a3c383555f6f89dc77bebd74cddf9e40fb
+ms.openlocfilehash: 5482afa3302085f113a57ec7b6b9f3f188f7cffc
+ms.sourcegitcommit: 355bcdafa58b6349bb6bc771054f4c9c91387a81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013216"
+ms.locfileid: "31013628"
 ---
 # <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>Démarrage avec les modèles Teams pour les organismes de santé
 
@@ -157,3 +157,9 @@ Pour utiliser ces modèles, modifiez simplement la propriété 'template@odata.b
           }
 
 ```
+
+## <a name="related-topics"></a>Rubriques connexes
+
+[Prise en main des modèles Teams](../../get-started-with-teams-templates.md)
+
+[Prendre en main équipes pour les organisations de santé](teams-in-hc.md)

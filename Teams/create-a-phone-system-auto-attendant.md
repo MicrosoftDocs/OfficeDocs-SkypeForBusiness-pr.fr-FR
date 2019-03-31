@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Découvrez comment configurer et tester les standards automatiques de système téléphonique (PBX nuage) pour efficace gestion des appels pour votre organisation.
-ms.openlocfilehash: 8bf33e911e11ab7561cc09e0cd18f4cfaf314d98
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.openlocfilehash: 32fbf066524ec73b6cfa683a493dc93c58932d7c
+ms.sourcegitcommit: 355bcdafa58b6349bb6bc771054f4c9c91387a81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013094"
+ms.locfileid: "31013652"
 ---
 # <a name="set-up-a-phone-system-auto-attendant"></a>Configurer les standards automatiques du système téléphonique
 
@@ -211,7 +211,7 @@ Pour configurer vos options de menu, une fois que vous sélectionnez les touches
   - **Une Personne de votre société** avec une licence de **Système téléphonique** qui est activée pour Voix de l'Entreprise ou affectée à un Plan d’appel dans Office 365. Vous pouvez le régler pour que la personne appelant soit redirigée vers la messagerie vocale. Pour ce faire, sélectionnez la **personne de votre société** et définissez cette personne pour que leurs appels transférés directement vers la messagerie vocale.
 
     > [!Note]
-    > **Une Personne dans votre entreprise** peut être un utilisateur en ligne ou un utilisateur hébergé sur site à l’aide de Skype Professionnel Server 2015 ou Lync Server 2013. Lync Server 2010 n’est pas pris en charge.
+    > **Une Personne dans votre entreprise** peut être un utilisateur en ligne ou un utilisateur hébergé sur site à l’aide de Skype Professionnel Server 2015 ou Lync Server 2013. 
     - Un autre **standard automatique**
 
        Vous pouvez utiliser un standard automatique existant pour créer un second niveau d’options de menu qui contient un sous-menu. Il s’agit des standards automatiques imbriqués. Pour envoyer l’appel vers un standard automatique imbriquées, sélectionnez la **personne dans la société** et affecter un compte de ressource, une ayant déjà un standard automatique associée ou que vous associez à un standard automatique une fois que vous avez terminé la création de ce standard automatique.
@@ -227,8 +227,6 @@ Pour configurer vos options de menu, une fois que vous sélectionnez les touches
 
 **Numérotation par nom** Si vous choisissez cette option, vous activez des personnes appellent pour rechercher des personnes dans votre organisation à l’aide de la recherche dans l’annuaire. Vous pouvez sélectionner les personnes qui seront répertoriées comme disponibles ou non disponibles pour la Numérotation par nom en configurant ces options dans la page de **portée de la numérotation**. Tout utilisateur en ligne disposant d'une licence **   Phone System**  ou de tout utilisateur hébergé sur site à l'aide de Skype Professionnel Server 2015 ou Lync Server 2013 peut être trouvé avec Composer par Nom.
 
-> [!WARNING]
-> Les utilisateurs hébergés sur site à l’aide de Lync 2010 **ne sont pas joignables** avec numérotation par nom.
 
 * * *
 
@@ -280,7 +278,7 @@ Noms des jours fériés peuvent contenir jusqu'à 64 caractères et doivent êtr
   - Une**  Personne de votre société**  disposant  d'une licence de ** Système téléphonique**  qui est activée pour Voix de l'Enterprise ou de plans d'appels associés dans Office 365. Vous pouvez le régler pour que la personne appelant soit redirigée vers la messagerie vocale. Pour ce faire, sélectionnez la **personne de votre société**et définir cette personne pour que leurs appels transférés directement vers la messagerie vocale.
 
     > [!Note]
-    > **Une Personne dans votre entreprise** peut être un utilisateur en ligne ou un utilisateur hébergé sur site à l’aide de Skype Professionnel Server 2015 ou Lync Server 2013. Lync Server 2010 n’est pas pris en charge.
+    > **Une Personne dans votre entreprise** peut être un utilisateur en ligne ou un utilisateur hébergé sur site à l’aide de Skype Professionnel Server 2015 ou Lync Server 2013. 
 
   - Une **file d’attente d’appel** pour transférer l’appel vers une file d’attente appel existant que vous avez configurées.
   - Un autre **standard automatique**, pour créer un second niveau d’options de menu qui contient un sous-menu. Il s’agit des standards automatiques imbriqués.
@@ -301,9 +299,6 @@ Dans cette page, vous pouvez configurer les utilisateurs de votre organisation s
 - **Tous les utilisateurs en ligne** Cette option permet d'inclure toutes les personnes de votre organisation dans la recherche dans l'annuaire. Tous les utilisateurs en ligne avec une licence de **Système téléphonique** , ainsi que les utilisateurs hébergés sur site à l’aide de Skype Professionnel Server 2015 ou Lync Server 2013 qui ont des Plans d’appel dans Office 365, apparaîtront.
 - **Groupe d’utilisateurs personnalisé** Si vous utilisez cette option, vous pouvez rechercher un groupe dans Office 365, liste de distribution ou un groupe de sécurité qui a été créé dans votre organisation et les personnes ajouté à ce groupe dans Office 365, liste de distribution ou groupe de sécurité qui sont soit **utilisateurs en ligne avec un Licence de système téléphonique** ou hébergée sur site à l’aide de Skype pour Business Server 2015 ou Lync Server 2013. Vous pouvez ajouter plusieurs groupes d’Office 365, les listes de distribution et les groupes de sécurité.
 
-  > [!Caution]
-  > Les utilisateurs locaux des déploiements de Lync Server 2010 ne s’affichera lorsqu’un utilisateur recherche l’annuaire à l’aide de la numérotation par nom.
-
 * * *
 
 ![Numéro 2](media/sfbcallout2.png)
@@ -312,9 +307,6 @@ Dans cette page, vous pouvez configurer les utilisateurs de votre organisation s
 
 - **Aucun** Cette option indiquera qu'aucun utilisateur en ligne ne sera exclu de la recherche dans l'annuaire.
 - **Groupe d’utilisateurs personnalisé** Si vous utilisez cette option, vous pouvez rechercher un groupe dans Office 365, liste de distribution ou un groupe de sécurité qui a été créé dans votre organisation, et tous les utilisateurs ajoutés à ce groupe d’Office 365, liste de distribution, ou groupes de sécurité seront exclus de la recherche dans l’annuaire. Vous pouvez ajouter plusieurs groupes d’Office 365, les listes de distribution et les groupes de sécurité.
-
-  > [!Caution]
-  > Les utilisateurs locaux des déploiements de Lync Server 2010 ne s’affichera lorsqu’un utilisateur recherche l’annuaire à l’aide de la numérotation par nom.
 
 > [!NOTE]
 > Cela peut prendre jusqu'à 36 heures pour un nouvel utilisateur à leur nom apparaît dans le répertoire lorsqu’une personne utilise la numérotation par un nom pour la reconnaissance vocale.
@@ -337,24 +329,23 @@ Vous pouvez également utiliser PowerShell Windows pour créer et configurer des
 
 Voici les applets de commande requis pour gérer un standard automatique.
 
- 
-- [Nouvelle CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/new-csautoattendant?view=skype-ps)  
-- [Set-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/set-csautoattendant?view=skype-ps) 
-- [Get-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/get-csautoattendant?view=skype-ps) 
-- [Get-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/get-csautoattendantholidays?view=skype-ps) 
-- [Remove-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/remove-csautoattendant?view=skype-ps) 
-- [Nouvelle CsAutoAttendantMenu](https://docs.microsoft.com/powershell/module/skype/new-csautoattendantmenu?view=skype-ps) 
-- [Nouvelle CsOnlineAudioFile](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineAudioFile?view=skype-ps) 
-- [Nouvelle CsAutoAttendantCallFlow](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallFlow?view=skype-ps) 
-- [Export-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/export-Export-CsAutoAttendantHolidays?view=skype-ps) 
+- [Nouvelle CsOrganizationalAutoAttendant](https://docs.microsoft.com/powershell/module/skype/new-csOrganizationalautoattendant?view=skype-ps)  
+- [Set-CsOrganizationalAutoAttendant](https://docs.microsoft.com/powershell/module/skype/set-csOrganizationalautoattendant?view=skype-ps) 
+- [Get-CsOrganizationalAutoAttendant](https://docs.microsoft.com/powershell/module/skype/get-csOrganizationalautoattendant?view=skype-ps) 
+- [Get-CsOrganizationalAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/get-csOrganizationalautoattendantholidays?view=skype-ps) 
+- [Remove-CsOrganizationalAutoAttendant](https://docs.microsoft.com/powershell/module/skype/remove-csOrganizationalautoattendant?view=skype-ps) 
+- [Nouvelle CsOrganizationalAutoAttendantMenu](https://docs.microsoft.com/powershell/module/skype/new-csOrganizationalautoattendantmenu?view=skype-ps) 
+- [Nouvelle CsOrganizationalOnlineAudioFile](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineAudioFile?view=skype-ps) 
+- [Nouvelle CsOrganizationalAutoAttendantCallFlow](https://docs.microsoft.com/powershell/module/skype/New-CsOrganizationalAutoAttendantCallFlow?view=skype-ps) 
+- [Export-CsOrganizationalAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/export-Export-CsOrganizationalAutoAttendantHolidays?view=skype-ps) 
 - [Nouvelle CsOnlineTimeRange](https://docs.microsoft.com/powershell/module/skype/new-New-CsOnlineTimeRange?view=skype-ps) 
 - [Nouvelle CsOnlineDateTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinedatetimerange?view=skype-ps) 
 - [Nouvelle CsOnlineSchedule](https://docs.microsoft.com/powershell/module/skype/New-CsOnlineSchedule?view=skype-ps) 
-- [Get-CsAutoAttendantSupportedTimeZone](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedTimeZone?view=skype-ps) 
-- [Nouvelle CsAutoAttendantCallHandlingAssociation](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallHandlingAssociation?view=skype-ps) 
-- [Get-CsAutoAttendantSupportedLanguage](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage?view=skype-ps) 
-- [Import-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/import-csautoattendantholidays?view=skype-ps) 
-- [Nouvelle CsAutoAttendantCallableEntity](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallableEntity?view=skype-ps) 
+- [Get-CsOrganizationalAutoAttendantSupportedTimeZone](https://docs.microsoft.com/powershell/module/skype/Get-CsOrganizationalAutoAttendantSupportedTimeZone?view=skype-ps)
+- [Nouvelle CsOrganizationalAutoAttendantCallHandlingAssociation](https://docs.microsoft.com/powershell/module/skype/New-CsOrganizationalAutoAttendantCallHandlingAssociation?view=skype-ps)
+- [Get-CsOrganizationalAutoAttendantSupportedLanguage](https://docs.microsoft.com/powershell/module/skype/Get-CsOrganizationalAutoAttendantSupportedLanguage?view=skype-ps)
+- [Import-CsOrganizationalAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/import-csOrganizationalautoattendantholidays?view=skype-ps) 
+- [Nouvelle CsOrganizationalAutoAttendantCallableEntity](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallableEntity?view=skype-ps) 
 
 ### <a name="more-about-windows-powershell"></a>Informations supplémentaires sur PowerShell Windows
 
@@ -376,10 +367,10 @@ Voici les applets de commande requis pour gérer un standard automatique.
 
 [Obtention de numéros de téléphone de service](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
-[Disponibilité des forfaits d'appels et de l’audioconférence selon les régions et les pays](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
+[Disponibilité des forfaits d’appels et de l’audioconférence selon les régions et les pays](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 
 [Nouvelle CsOrganizationalAutoAttendant](https://docs.microsoft.com/en-us/powershell/module/skype/new-csorganizationalautoattendant?view=skype-ps)  
 
-[Quels sont les standards automatiques du système téléphonique?](what-are-phone-system-auto-attendants.md)
+[Quels sont les standards automatiques du système téléphonique ?](what-are-phone-system-auto-attendants.md)
 
 [Exemple de petite entreprise : configurer un standard automatique](https://docs.microsoft.com/skypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa)  

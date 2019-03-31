@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 95f0852e-391d-4345-985f-0a2da50491fa
 description: 'Résumé : clients et applications pris en charge pour Skype Entreprise.'
-ms.openlocfilehash: 0aff83afc14401e3b8d165f108415cb32c407e60
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.openlocfilehash: 56d397d1cdab0f63c856934c4ff66c834b0b8137
+ms.sourcegitcommit: c355738d09c2697834373e27ffa1a010457ed583
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012746"
+ms.locfileid: "31013548"
 ---
 # <a name="plan-for-clients-and-devices"></a>Planifier des clients et des appareils
 
@@ -80,7 +80,7 @@ Un environnement VDI (Virtual Desktop Infrastructure) est utilisé dans certaine
 
 ### <a name="microsoft-teams-rooms"></a>Les équipes Microsoft salles
 
-Salles d’équipes Microsoft est la plus récente conférence solution Microsoft qui utilise une interface familière et facile à déployer et géré, tirer parti du matériel existant comme panneaux LCD facilité d’installation. Salles d’équipes Microsoft utilise une application UWP spécialisée en cours d’exécution sur une Surface Pro 4 ou Surface Pro en mode console (après le déploiement de l’application UWP est la seule application qui s’exécute sur l’appareil) et nécessite son propre compte de périphérique sur votre implémentation. Le logiciel est mis à jour via Windows Store et Windows Update. Reportez-vous à la section https://aka.ms/SRSDocs pour en savoir plus sur l’utilisation de ces consoles de salle dans votre déploiement. 
+Salles d’équipes Microsoft est la plus récente conférence solution Microsoft qui utilise une interface familière et facile à déployer et géré, tirer parti du matériel existant comme panneaux LCD facilité d’installation. Salles d’équipes Microsoft utilise une application UWP spécialisée en cours d’exécution sur une Surface Pro 4 ou Surface Pro en mode console (après le déploiement de l’application UWP est la seule application qui s’exécute sur l’appareil) et nécessite son propre compte de périphérique sur votre implémentation. Le logiciel est mis à jour via Windows Store et Windows Update. Reportez-vous à la section https://aka.ms/MTRDocs pour en savoir plus sur l’utilisation de ces consoles de salle dans votre déploiement. 
 
 ### <a name="skype-for-business-on-surface-hub"></a>Skype Entreprise sur Surface Hub
 
