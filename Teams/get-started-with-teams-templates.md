@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a41e16b8e813fe3f8acb1a41d9c2751fa7c71e4c
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.openlocfilehash: b620f163f1dc071bde8a0ed43bf7fe546a9bc04a
+ms.sourcegitcommit: 355bcdafa58b6349bb6bc771054f4c9c91387a81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30640937"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31013636"
 ---
 # <a name="get-started-with-teams-templates"></a>Prise en main des modèles Teams 
 
@@ -64,14 +64,14 @@ Par défaut, le modèle de base est défini à **Standard** qui ne contient pas 
 
 | Type de modèle de base | baseTemplateId | Propriétés liées à ce modèle de base |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| Standard | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`standard` | Aucune propriétés et applications supplémentaires |
-| Formation-<br>Équipe de classe | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`educationClass` | Applications :<ul><li>Bloc-notes OneNote de classe (épinglés sur l’onglet **Général** ) </li><li>Application des affectations (épinglée sur l’onglet **Général** )</li></ul> Propriétés de l’équipe :<ul><li>Visibilité de l’équipe définie sur **HiddenMembership** (ne peut pas être modifiée)</li></ul> |
-| Formation-<br>Équipe du personnel | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`educationStaff` | Applications :<ul><li>Bloc-notes OneNote de personnel (épinglés sur l’onglet **Général** )</li></ul> |
-|Formation-<br>Équipe PLC |`https://graph.microsoft.com/beta/teamsTemplates/`<br>`educationProfessionalLearningCommunity` | Applications :<ul><li>Bloc-notes OneNote de PLC (épinglés sur l’onglet **Général** )</ul></li>|
-| Vente au détail-<br>boutique | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`retailStore` | Canaux :<ul><li>Remise MAJ</li><li>Formation</li></ul>Propriétés de l’équipe<ul><li>Visibilité de l’équipe définie sur Public</li></ul>Autorisations de membre<ul><li>Empêcher les membres de création, mise à jour ou suppression de chaînes</li><li>Empêcher les membres d’ajouter ou supprimer des applications</li><li>Empêcher les membres de création, mise à jour ou suppression des connecteurs</li></ul> |
-| Vente au détail-<br>Collaboration de gestionnaire | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`retailManagerCollaboration` | Canaux :<ul><li>Remise MAJ</li><li>Formation</li></ul>Propriétés de l’équipe :<ul><li>Visibilité de l’équipe privée</li></ul>Autorisations de membre :<ul><li>Empêcher les membres de création, mise à jour ou suppression de chaînes</li><li>Empêcher les membres d’ajouter ou supprimer des applications</li><li>Empêcher les membres de création, mise à jour ou suppression des connecteurs</li></ul>|
-| Prestataires-<br>Comté |`https://graph.microsoft.com/beta/teamsTemplates/`<br>`healthcareWard` |Canaux : <ul><li>Annonces\*</li><li>Huddles\*</li><li>Arrondit</li><li>Personnel\*</li><li>Formation\*</li></ul>\*Canaux auto-favorited |
-|Prestataires-<br>Hôpital | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`healthcareHospital` |Canaux :<ul><li>Annonces\*</li><li>Conformité\*</li><li>Garde</li><li>Ressources humaines</li></li><li>Pharmacie</li></ul>\*Canal auto-favorited|
+| Standard | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('standard')` | Aucune propriétés et applications supplémentaires |
+| Formation-<br>Équipe de classe | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationClass')` | Applications :<ul><li>Bloc-notes OneNote de classe (épinglés sur l’onglet **Général** ) </li><li>Application des affectations (épinglée sur l’onglet **Général** )</li></ul> Propriétés de l’équipe :<ul><li>Visibilité de l’équipe définie sur **HiddenMembership** (ne peut pas être modifiée)</li></ul> |
+| Formation-<br>Équipe du personnel | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationStaff')` | Applications :<ul><li>Bloc-notes OneNote de personnel (épinglés sur l’onglet **Général** )</li></ul> |
+|Formation-<br>Équipe PLC |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | Applications :<ul><li>Bloc-notes OneNote de PLC (épinglés sur l’onglet **Général** )</ul></li>|
+| Vente au détail-<br>boutique | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')` | Canaux :<ul><li>Remise MAJ</li><li>Formation</li></ul>Propriétés de l’équipe<ul><li>Visibilité de l’équipe définie sur Public</li></ul>Autorisations de membre<ul><li>Empêcher les membres de création, mise à jour ou suppression de chaînes</li><li>Empêcher les membres d’ajouter ou supprimer des applications</li><li>Empêcher les membres de création, mise à jour ou suppression des connecteurs</li></ul> |
+| Vente au détail-<br>Collaboration de gestionnaire | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')` | Canaux :<ul><li>Remise MAJ</li><li>Formation</li></ul>Propriétés de l’équipe :<ul><li>Visibilité de l’équipe privée</li></ul>Autorisations de membre :<ul><li>Empêcher les membres de création, mise à jour ou suppression de chaînes</li><li>Empêcher les membres d’ajouter ou supprimer des applications</li><li>Empêcher les membres de création, mise à jour ou suppression des connecteurs</li></ul>|
+| Prestataires-<br>Comté |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')` |Canaux : <ul><li>Annonces\*</li><li>Huddles\*</li><li>Arrondit</li><li>Personnel\*</li><li>Formation\*</li></ul>\*Canaux auto-favorited |
+|Prestataires-<br>Hôpital | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')` |Canaux :<ul><li>Annonces\*</li><li>Conformité\*</li><li>Garde</li><li>Ressources humaines</li></li><li>Pharmacie</li></ul>\*Canal auto-favorited|
 |||
 
 > [!NOTE]
@@ -84,4 +84,4 @@ Par défaut, le modèle de base est défini à **Standard** qui ne contient pas 
 - [Nouvelle équipe](https://docs.microsoft.com/powershell/module/teams/New-Team?view=teams-ps)
 - [Formation à Microsoft Teams pour les administrateurs](itadmin-readiness.md)
 - [Prise en main des modèles Équipes de vente au détail](get-started-with-retail-teams-templates.md)
-- [Commencer avec les modèles d’équipe de santé](healthcare/healthcare-templates.md)
+- [Démarrage avec les modèles Teams pour les organismes de santé](expand-teams-across-your-org/healthcare/healthcare-templates.md)
