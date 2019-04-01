@@ -22,9 +22,6 @@
 ## [Meilleurs pratiques d’organisation d’équipe dans Teams](best-practices-organizing.md)
 ## [Créer une équipe à l’échelle de l’organisation dans Teams](create-an-org-wide-team.md)
 ## [Gérer les stratégies de messagerie](messaging-policies-in-teams.md)
-## [Prise en main des modèles Teams](get-started-with-teams-templates.md)
-## [Modèles Teams pour la santé](healthcare/healthcare-templates.md)
-## [Modèles Teams pour la vente au détail](get-started-with-retail-teams-templates.md)
 ## [Présentation de l’appartenance dynamique pour les équipes](dynamic-memberships.md)
 ## [Présence](presence-admins.md)
 ## [Communiquer avec des utilisateurs de Teams dans d’autres organisations](let-your-teams-users-communicate-with-other-people.md)
@@ -590,8 +587,7 @@
 ### [Faire connaître et implémenter une formation](teams-adoption-drive-awareness.md)
 ### [Programmer les évaluations de l’intégrité du service](teams-adoption-schedule-service-health-reviews.md)
 <!-- ============================================================ -->
-#       
-#        
+
 
 <!-- ============================================================ -->
 # [Mise à niveau vers Teams](upgrade-introduction.md)
@@ -626,15 +622,50 @@
 ### [Migration et interopérabilité avec Skype Entreprise](migration-interop-guidance-for-teams-with-skype.md)
 ### [Coexistence avec Skype Entreprise](coexistence-chat-calls-presence.md)
 ### [Expérience client Teams et conformité aux modes coexistence](teams-client-experience-and-conformance-to-coexistence-modes.md)
+
 <!-- ============================================================ -->
-#       
-#        
+# 
+# 
+
+# [Développer Teams au sein de votre organisation](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md) 
+## [Prise en main des modèles Teams](get-started-with-teams-templates.md)
+## [Shifts pour Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
+### [Fin de parcours pour Microsoft StaffHub](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
+### [Fonctionnalités pour l’employé de terrain prochainement disponibles pour Microsoft Teams](expand-teams-across-your-org/shifts/firstline-worker-features-coming-to-teams.md)
+### [Faire passer vos équipes de Microsoft StaffHub vers Shifts dans Teams](expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams.md)
+### [Gérer l’application Shifts pour votre organisation dans Microsoft Teams](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
+
+## [Teams pour la santé publique](expand-teams-across-your-org/teams-for-healthcare-landing-page.md)
+### [Prise en main de Teams pour les organismes de santé](expand-teams-across-your-org/healthcare/teams-in-hc.md)
+### [Démarrage avec les modèles Teams pour les organismes de santé](expand-teams-across-your-org/healthcare/healthcare-templates.md)
+### [Démarrage avec la messagerie sécurisée pour les organismes de santé](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
+
+## [Teams pour l’éducation](expand-teams-across-your-org/teams-for-education-landing-page.md)
+### [Guide de démarrage rapide : administrateurs de Teams pour l’éducation](teams-quick-start-edu.yml)
+### [Administrateurs de ressources Teams pour l’éducation](resources-teams-edu.md)
+### [FAQ sur la gouvernance de Microsoft Éducation pour les administrateurs](plan-teams-governance-edu.md)
+
+## [Teams pour les organismes de vente au détail](expand-teams-across-your-org/teams-for-retail-landing-page.md)
+### [Démarrage avec les modèles Teams pour la vente au détail](get-started-with-retail-teams-templates.md)
+
+## [Teams pour le secteur public](expand-teams-across-your-org/teams-for-government-landing-page.md)
+### [Plan pour Microsoft 365 pour entités publiques - GCC](plan-for-government-gcc.md)
+### [Plan pour Microsoft 365 pour entités publiques - GCC High](plan-for-government-gcc-high.md)
+### [Plan pour Microsoft 365 pour entités publiques - DoD](plan-for-government-dod.md)
+
+<!-- ============================================================ -->
+
+# 
+# 
+
+<!-- ============================================================ -->
 
 # [Formation](training-microsoft-teams-landing-page.md)
 ## [Formation Teams par un instructeur](instructor-led-training-teams-landing-page.md)
 ## [Formation sur Teams pour les administrateurs](itadmin-readiness.md)
 ## [Formation sur Teams pour les utilisateurs finaux](enduser-training.md)
 <!-- ============================================================ -->
+
 
 # Référence
 
@@ -683,20 +714,6 @@
 #### [Activation et utilisation du tableau de bord de qualité des appels](turning-on-and-using-call-quality-dashboard.md)
 #### [Dimensions et mesures disponibles dans le tableau de bord de qualité des appels](dimensions-and-measures-available-in-call-quality-dashboard.md)
 #### [Classification de flux de données dans le tableau de bord de qualité des appels](stream-classification-in-call-quality-dashboard.md)
-
-## Teams pour l’éducation
-### [Guide de démarrage rapide : administrateurs de Teams pour l’éducation](teams-quick-start-edu.yml)
-### [Administrateurs de ressources Teams pour l’éducation](resources-teams-edu.md)
-### [FAQ sur la gouvernance de Microsoft Éducation pour les administrateurs](plan-teams-governance-edu.md)
-
-## Teams pour les employés de terrain
-### [Fin de parcours pour Microsoft StaffHub](teams-for-firstline-workers/microsoft-staffhub-to-be-retired.md)
-### [Gérer l’application Shifts pour votre organisation dans Teams](teams-for-firstline-workers/manage-the-shifts-app-for-your-organization-in-teams.md)
-### [Prise en main des modèles Teams de vente au détail](get-started-with-retail-teams-templates.md)
-
-## [Plan pour Microsoft 365 pour entités publiques - GCC](plan-for-government-gcc.md)
-### [Plan pour Microsoft 365 pour entités publiques - GCC High](plan-for-government-gcc-high.md)
-### [Plan pour Microsoft 365 pour entités publiques - DoD](plan-for-government-dod.md)
 
 ## [Aperçu de Teams PowerShell](teams-powershell-overview.md)
 ### [Référence de cmdlet PowerShell pour Teams](https://docs.microsoft.com/powershell/module/teams)
