@@ -21,14 +21,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Découvrez comment configurer le système téléphonique de files d’attente des appels système téléphonique pour vous donner une organisation message d’accueil, une musique d’attente et rediriger les appels pour appeler les agents dans des listes de distribution et les groupes de sécurité. Vous pouvez également définir la taille maximale de file d’attente, délai d’expiration et options de gestion des appels.
-ms.openlocfilehash: a44bd5b00b47655dc950ee01f82ffd0c0a308466
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.openlocfilehash: be8055dfe1d92caa7e3416740856ab2b6578e799
+ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012972"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31026228"
 ---
-# <a name="create-a-phone-system-call-queue"></a>Créer une file d’attente appel système téléphonique
+# <a name="create-a-phone-system-call-queue"></a>Créer une file d’attente d’appels sur le système téléphonique
 
 Appel de système téléphonique files d’attente contiennent le message d’accueil qui est utilisés lorsqu’une personne appelle un numéro de téléphone pour votre organisation, la possibilité de mettre automatiquement les appels en attente et la capacité de recherche pour l’agent disponible appel suivant gérer l’appel pendant les personnes qui appel Écoutez une musique d’attente. Vous pouvez créer une seule ligne ou plusieurs files d’attente d’appel pour votre organisation.
   
@@ -209,7 +209,7 @@ Pour accéder à l’option exclure, les agents peuvent procédez comme suit :
  3. Dans la page de paramètres utilisateur, cliquez sur **Appeler les files d’attente**, puis désactivez les cases à cocher des files d’attente pour lesquelles ils souhaitent sortir.
 
     > [!NOTE]
-    > Agents à l’aide de Mac, mobile, ou clients Lync 2013 ou les utilisateurs de voix hybride qui sont hébergés sur site à l’aide de Skype pour serveur Business 2015, peut atteindre [https://aka.ms/cqsettings](https://aka.ms/cqsettings) pour accéder à l’abonnement option.
+    > Agents à l’aide de points de terminaison ou des applications autres que Skype pour Business Desktop peut accéder à l’abonnement à l’option à partir du portail de paramètres utilisateur [https://aka.ms/cqsettings](https://aka.ms/cqsettings).
 
 ![N ° 2](media/sfbcallout2.png)
 **paramètre d’alerte de l’Agent**
@@ -319,6 +319,6 @@ Voici les applets de commande dont vous avez besoin pour gérer une file d’att
 
 [Obtention de numéros de téléphone de service](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
-[Disponibilité des forfaits d'appels et de l’audioconférence selon les régions et les pays](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[Disponibilité des forfaits d’appels et de l’audioconférence selon les régions et les pays](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
 [Nouvelle CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance?view=skype-ps)

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: 'Résumé : Apprenez à ajouter, supprimer, correctif ou mettre à jour des serveurs frontaux Skype pour Business Server.'
-ms.openlocfilehash: c7ccaee0ee70c10b855053fb63c39cfead148f4e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: bfd090ab007523ff05795aff012e4a01da4a0175
+ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875221"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31026180"
 ---
 # <a name="manage-front-end-servers-in-skype-for-business-server"></a>Gérer les serveurs frontaux dans Skype pour Business Server
  
@@ -47,6 +47,9 @@ Vous pouvez utiliser la procédure suivante lors de l’ajout ou suppression d�
     
     > [!IMPORTANT]
     > Lorsque vous ajoutez ou que vous supprimez un serveur d’un pool dans votre topologie, puis publiez la topologie mise à jour, cela entraîne le redémarrage de tous les serveurs du pool au même moment. Pendant que les serveurs redémarrent, le pool est hors-ligne, ce qui interrompt le service pour les utilisateurs connectés à ce pool. Pour éviter toute interruption de service, prévoyez de publier la topologie avec le nouveau serveur dans le pool en dehors des heures de bureau. 
+  
+  > [!NOTE]
+> En outre, lorsque vous ajoutez ou supprimez un serveur au pool, vous devez exécuter la Skype pour l’Assistant de déploiement Business Server sur chaque ordinateur ajouté ou supprimé, pour plus d’informations, voir [Installation de Skype pour Business Server sur les serveurs de la topologie](https://docs.microsoft.com/skypeforbusiness/deploy/install/install-skype-for-business-server)
   
 4. Si vous avez modifié le nombre de serveurs dans votre pool frontal dans une des manières suivantes, puis réinitialisez le pool avec en tapant l’applet de commande suivante : Reset-cspoolregistrarstate ne - ResetType FullReset - PoolFqdn 
     

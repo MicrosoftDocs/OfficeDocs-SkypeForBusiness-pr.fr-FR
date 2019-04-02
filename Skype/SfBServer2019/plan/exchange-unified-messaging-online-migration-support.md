@@ -1,5 +1,5 @@
 ---
-title: Prise en charge de migration Exchange Unified Messaging en ligne
+title: Prise en charge de la migration en ligne de la messagerie unifiée Exchange
 ms.author: heidip
 author: heidip
 manager: serdars
@@ -10,14 +10,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft est le retrait Unified Messaging service Exchange Online (ExchUMO) en février 2020. Cet article résume les éléments affectés clients doivent connaître et pour planifier les leur continuité de l’entreprise.
-ms.openlocfilehash: 8d09a9a16104420bfbe225aefefab57399f8dec5
-ms.sourcegitcommit: 6d4b99de7233e91dbab4f08331dac4d88c51d9e4
+ms.openlocfilehash: 2622b95e8bae7d5721665c5691c1c76691207e74
+ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "30059165"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31026243"
 ---
-# <a name="exchange-unified-messaging-online-migration-support"></a>Prise en charge de migration Exchange Unified Messaging en ligne  
+# <a name="exchange-unified-messaging-online-migration-support"></a>Prise en charge de la migration en ligne de la messagerie unifiée Exchange  
 
 Référence à l' [annonce](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) sur 8 février 2019, Microsoft est le retrait Unified Messaging service Exchange Online (ExchUMO) en février 2020. Cet article offre un résumé de ce que les clients concernés doit connaître et pour planifier les leur continuité de l’entreprise. 
  
@@ -66,7 +66,7 @@ Microsoft a identifié les différents déploiements de clients qui utilisent le
 
 3. **Planifier votre migration standard automatique**
     
-    Administrateurs peuvent de démarrer la migration les standards automatiques de ExchUMO vers le standard automatique de nuage à tout moment. Pour plus d’informations, consultez [configurer un standard automatique de système téléphonique](../../SfbOnline/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md) . Microsoft prévoit de proposer des fonctionnalités standard automatique supplémentaires clients envisager critiques pour leur migration par 2019 mars. Administrateurs doivent évaluer l’ensemble des fonctionnalités et migrer les instances de standard automatique en conséquence. Pour une comparaison de la liste des fonctionnalités, consultez la [matrice de fonctionnalité de services en nuage ExchUMO et Azure](#exchumo-and-azure-cloud-based-services-feature-matrix).
+    Administrateurs peuvent de démarrer la migration les standards automatiques de ExchUMO vers le standard automatique de nuage à tout moment. Pour plus d’informations, consultez [configurer un standard automatique de système téléphonique](/MicrosoftTeams/create-a-phone-system-auto-attendant.md) . Microsoft prévoit de proposer des fonctionnalités standard automatique supplémentaires clients envisager critiques pour leur migration par 2019 mars. Administrateurs doivent évaluer l’ensemble des fonctionnalités et migrer les instances de standard automatique en conséquence. Pour une comparaison de la liste des fonctionnalités, consultez la [matrice de fonctionnalité de services en nuage ExchUMO et Azure](#exchumo-and-azure-cloud-based-services-feature-matrix).
 
 4. **Planifier votre validation après la migration de messagerie vocale et de test**
 
@@ -93,7 +93,7 @@ Microsoft a identifié les différents déploiements de clients qui utilisent le
 
 
 
-| Service  | Niveau de fonctionnalité | Fonctionnalité | Remarques  | Ordinateur virtuel sur le nuage/AA  | ExUMO |
+| Service | Niveau de fonctionnalité | Fonctionnalité | Remarques  | Ordinateur virtuel sur le nuage/AA  | ExUMO |
 |---------|-------|--------|----|--------|------|
 | ORDINATEUR VIRTUEL  | Fonctionnalités du service| Prise en charge du système PBX tiers-3 rd    |  | N   | O    |
 | ORDINATEUR VIRTUEL | Fonctionnalités du service  | Prise en charge Skype pour Business Server   |  | Q1CY19 | Y    |
@@ -170,7 +170,7 @@ Lors du test des fonctionnalités de messagerie vocale, une fois que vos utilisa
 
 - Valider l’accès de la messagerie vocale pour tous les types de point de terminaison dans votre organisation : des téléphones IP et les applications. 
 - Valider les utilisateurs qui le message d’accueil personnalisé configuré est diffusé aux appelants.   
-- Si votre organisation a besoin de désactiver la transcription pour les utilisateurs juridiques ou de conformité, assurez-vous qu’il est désactivé après la migration. Pour plus d’informations, voir [configurer le système téléphonique de la messagerie vocale](/microsoftteams/set-up-phone-system-voicemail).
+- Si votre organisation a besoin de désactiver la transcription pour les utilisateurs juridiques ou de conformité, assurez-vous qu’il est désactivé après la migration. Pour plus d’informations, voir [configuration de la messagerie vocale dans le nuage](/microsoftteams/set-up-phone-system-voicemail).
 - Si vous avez précédemment configuré les règles et stratégies de l’ordinateur virtuel Exchange, assurez-vous qu’ils sont efficaces.
 - Familiarisez-vous avec les applets de commande PowerShell de service de la messagerie vocale dans le nuage pour modifier les paramètres utilisateur.  
 
@@ -193,8 +193,8 @@ Voici une vue d’ensemble de l’expérience de la migration utilisateur final 
 
 #### <a name="user-management-and-provisioning-in-cvm"></a>Gestion des utilisateurs et le provisionnement dans CVM 
 
-Skype pour les nouveaux utilisateurs est automatiquement mis en service pour la messagerie vocale dans service CVM lors de la création. Aucun travail d’administration supplémentaire ou une licence n’est nécessaire pour mettre en service les nouveaux utilisateurs pour la messagerie vocale. Voir [configurer le système téléphonique de la messagerie vocale](/microsoftteams/set-up-phone-system-voicemail) pour en savoir plus sur la gestion des stratégies pour les utilisateurs nouveaux et existants.
+Skype pour les nouveaux utilisateurs est automatiquement mis en service pour la messagerie vocale dans service CVM lors de la création. Aucun travail d’administration supplémentaire ou une licence n’est nécessaire pour mettre en service les nouveaux utilisateurs pour la messagerie vocale. Voir [configuration de la messagerie vocale dans le nuage](/microsoftteams/set-up-phone-system-voicemail) pour en savoir plus sur la gestion des stratégies pour les utilisateurs nouveaux et existants.
 
 #### <a name="admin-auto-attendant-management-experience"></a>Expérience de gestion de standard automatique de Admin 
 
-Voir la rubrique [configurer un standard automatique de système téléphonique](../../SfbOnline/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md) pour en savoir plus sur la configuration et la gestion des standards automatiques. 
+Voir la rubrique [configurer un standard automatique de système téléphonique](/MicrosoftTeams/create-a-phone-system-auto-attendant.md) pour en savoir plus sur la configuration et la gestion des standards automatiques. 

@@ -1,5 +1,5 @@
 ---
-title: Activation et utilisation du tableau de bord d’appel de qualité d’appel
+title: Activation et utilisation du tableau de bord de qualité des appels
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -23,12 +23,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Découvrez comment activer et utiliser le Skype pour Business Online Dashboard qualité des appels et obtenir des rapports de synthèse de la qualité des appels. '
-ms.openlocfilehash: 134d0f636719592edca1060d86fbf4fb7c2d9db6
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 38332fdcf8cb2f5e1f26d45b67d85dc17610a42d
+ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30543142"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31026236"
 ---
 # <a name="turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Activation et à l’aide de tableau de bord qualité d’appel pour Microsoft Teams et Skype pour Business Online
 
@@ -77,7 +77,7 @@ Après que vous être connecté, une fois activée, la CQD commencera collecte e
 > [!NOTE]
 > Il peut prendre quelques heures à traiter suffisamment de données pour afficher des résultats pertinents dans les rapports. 
   
-## <a name="features-of-the-call-quality-dashboard-for-skype-for-business-online"></a>Fonctionnalités du tableau de bord qualité appel pour Skype pour les entreprises en ligne
+## <a name="features-of-the-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Fonctionnalités de l’appel qualité du tableau de bord pour les équipes Microsoft et Skype pour les entreprises en ligne 
 <a name="BKMKFeaturesOfTheCQD"> </a>
 
 Les rapports de synthèse CQD fournissent un sous-ensemble des fonctionnalités planifiées pour des rapports détaillés. Les différences entre les deux éditions sont résumées ici :
