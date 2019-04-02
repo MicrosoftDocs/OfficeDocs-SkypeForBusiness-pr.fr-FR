@@ -587,6 +587,8 @@
 ### [Faire connaître et implémenter une formation](teams-adoption-drive-awareness.md)
 ### [Programmer les évaluations de l’intégrité du service](teams-adoption-schedule-service-health-reviews.md)
 <!-- ============================================================ -->
+#       
+#        
 
 
 <!-- ============================================================ -->
