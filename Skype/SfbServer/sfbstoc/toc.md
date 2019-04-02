@@ -15,6 +15,10 @@
 
 ### [Activation des utilisateurs pour le système téléphonique avec une connectivité PSTN en local dans Skype Entreprise Server](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system.md)
 
+#### [Activation des utilisateurs pour le déploiement local de Voix Entreprise](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises.md)
+#### [Affectation d’une stratégie de routage des communications vocales](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/assign-a-voice-routing-policy.md)
+#### [Activation des utilisateurs pour la version en ligne de Voix Entreprise et le Système téléphonique dans la messagerie vocale Office 365](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-enterprise-voice-online-and-phone-system-voicemail.md)
+
 
 ### [Planification pour Skype Entreprise Cloud Connector Edition](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition.md)
 #### [Planification pour sites PSTN Cloud Connector Edition](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-for-cloud-connector-edition-pstn-sites.md)
@@ -100,7 +104,7 @@
 #### [Clients de réunions](../plan-your-deployment/clients-and-devices/meetings-clients.md)
 ##### [Configuration réseau minimale requise pour l’application Réunions Skype](../plan-your-deployment/clients-and-devices/minimum-network-requirements.md)
 #### [Configuration requise pour Windows Phone](../plan-your-deployment/clients-and-devices/requirements-for-windows-phone.md)
-<!-- #### [Skype Room Systems v2](../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+<!-- #### [Microsoft Teams Rooms](../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
 ##### [Support for current branch versions](../plan-your-deployment/clients-and-devices/srs2-lifecycle-support.md)
 ##### [Release notes](../plan-your-deployment/clients-and-devices/srs2-release-note.md)
 ##### [Prepare your Environment](../plan-your-deployment/clients-and-devices/srs-v2-prep.md)
@@ -575,7 +579,7 @@
 
 ### [Partage d’écran vidéo](../manage/video-based-screen-sharing.md)
 
-<!-- ### [Skype Room Systems v2](../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+<!-- ### [Microsoft Teams Rooms](../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 #### [Known issues](../manage/skype-room-systems-v2/known-issues.md)
 #### [OMS](../manage/skype-room-systems-v2/oms.md)
 #### [XML config file](../manage/skype-room-systems-v2/xml-config-file.md)
