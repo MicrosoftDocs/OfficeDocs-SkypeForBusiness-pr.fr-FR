@@ -1,12 +1,11 @@
-# [Skype Room System v2](index.md)
-
-## Offre
-### [Vue d’ensemble de la planification pour Skype Room System v2](../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+# [Salles Microsoft Teams](index.md)
+## Plan
+### [Présentation de la planification des Salles Microsoft Teams](../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
 ### [Prise en charge de la version](../plan-your-deployment/clients-and-devices/srs2-lifecycle-support.md)
 ### [Notes de publication](../plan-your-deployment/clients-and-devices/srs2-release-note.md)
 ### [Préparer votre environnement](../plan-your-deployment/clients-and-devices/srs-v2-prep.md)
 ### [Configuration requise](../plan-your-deployment/clients-and-devices/requirements.md)
-### [Gestion des licences en ligne](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
+### [Gestion des licences en ligne](../../SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)
 ### [Planifier la gestion avec Azure Monitor](../plan-your-deployment/clients-and-devices/azure-monitor.md)
 
 ## Déployer
@@ -19,6 +18,7 @@
 ### [Configurer une console](../deploy/deploy-clients/console.md)
 ### [Avec System Center Configuration Manager](../deploy/deploy-clients/room-systems-scale.md)
 ### [Gestion avec Azure Monitor](../deploy/deploy-clients/azure-monitor.md)
+### [Migrer SRS v1 ou LRS](../deploy/deploy-clients/lrs-migration.md)
 
 ## Gestion
 ### [Vue d’ensemble de la gestion](../manage/skype-room-systems-v2/skype-room-systems-v2.md)
@@ -27,4 +27,4 @@
 ### [Périphériques avec Azure Monitor](../manage/skype-room-systems-v2/azure-monitor.md)
 ### [Paramètres avec un fichier XML](../manage/skype-room-systems-v2/xml-config-file.md)
 ### [Utiliser l’outil de récupération](../manage/skype-room-systems-v2/recovery-tool.md)
-### [Migration](../deploy/deploy-clients/lrs-migration.md)
+

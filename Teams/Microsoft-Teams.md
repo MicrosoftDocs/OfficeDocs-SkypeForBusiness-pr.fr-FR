@@ -13,12 +13,12 @@ f1keywords:
 - ms.teamsadmincenter.dashboard.helparticle.teamsadmindocumentation
 - ms.teamsadmincenter.dashboard.widget.upgrade.complete
 - ms.teamsadmincenter.orgwidesettings.holidays.overview
-ms.openlocfilehash: 4c62c045bde4492ac4035145d3460ea7f7eea5af
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: ca57f4d54f67275f8659f295a6db47c8e6b74d91
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875861"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31012468"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -119,6 +119,25 @@ ms.locfileid: "30875861"
                                             <div class="cardText">
                                                 <h3>Hub d’adoption</h3>
                                                 <P>Obtenez les outils pour soutenir votre déploiement de Teams</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            </li>
+                            <li>
+                                <a href="https://docs.microsoft.com/SkypeForBusiness/room-systems/">
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage">
+                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/tasks-teams.svg" alt="tasks" />
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3>Salles Microsoft Teams</h3>
+                                                <P>Apprenez à planifier, déployer et gérer les Salles Microsoft Teams.</p>
                                             </div>
                                         </div>
                                     </div>

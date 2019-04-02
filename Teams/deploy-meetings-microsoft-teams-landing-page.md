@@ -15,12 +15,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: afd7e15f759caafdc76dc2f20777f4d3ab66d672
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: f4cd3af52b98bb80d7424b84be71416dbceb6250
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889768"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31013057"
 ---
 # <a name="meetings--conferencing-in-microsoft-teams"></a>Réunions et conférences dans Microsoft Teams
 
@@ -156,7 +156,7 @@ Les organisations avec plusieurs salles de conférence peuvent envisager une app
 
 | Posez-vous la question | Action |
 |--------------|--------|
-| Que dois-je faire pour déployer les systèmes de salle de conférence ?|Consultez les articles [Planifier les systèmes pour une salle Skype v2](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).|
+| Que dois-je faire pour déployer les systèmes de salle de conférence ?|Consultez les articles [Planifier les Salles Microsoft Teams](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).|
 |||
 
 ### <a name="cloud-video-interop"></a>Interopérabilité de la vidéo dans le nuage
