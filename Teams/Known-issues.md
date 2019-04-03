@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Liste actuelle des problèmes connus pour l'application client et l'expérience administrateur de Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a9abe6e17a4c11dd2e1943643c7030eadd5bd0ba
-ms.sourcegitcommit: 889295b507c77a93b10b3a5e826f2b0c79c31f75
+ms.openlocfilehash: e3dc7e1797c1e5c1551abad40cf6598f11e01ada
+ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "30771733"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31026102"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problèmes connus pour Microsoft Teams
 
@@ -108,7 +108,8 @@ Cet article répertorie les problèmes connus concernant Microsoft Teams, par f
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
-|Prise en charge du client web par Safari  <br/> |Les utilisateurs qui essayent d'ouvrir le client web de Microsoft Teams dans Safari sont redirigés pour télécharger le client de bureau. Microsoft étudie la prise en charge de Safari et communiquera les mises à jour au moyen de [la Feuille de route de Teams](https://aka.ms/TeamsRoadmap).  <br/> |Utilisez les navigateurs internet pris en charge, qui incluent : Internet Explorer 11+, Microsoft Edge 12+, Chrome 51.0+ et Firefox 47.0+.  <br/> |02/11/2016  <br/> |
+|Prise en charge du client web par Safari  <br/> | Les équipes sont désormais disponibles en mode aperçu sur Safari 11.1 + sur macOS. En mode Aperçu, les utilisateurs peuvent exécuter dans les problèmes liés à la prévention de suivi Safari Intelligent[Problèmes connus Safari](https://go.microsoft.com/fwlink/?linkid=2062082).  <br/> | Tandis que le support des navigateurs Safari est en version préliminaire, accédez à **Préférences > Confidentialité**  et décochez la case du paramètre **Empêcher le suivi intersites**  . Ensuite, fermez votre navigateur et accédez à l’adresse teams.microsoft.com dans Safari. <br/> |02/11/2016  <br/> |
+
 
 ## <a name="channels"></a>Canaux
 
