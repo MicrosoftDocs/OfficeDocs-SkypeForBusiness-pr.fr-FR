@@ -1,5 +1,5 @@
 ---
-title: Configurer la messagerie vocale dans le nuage
+title: Configurer la Messagerie vocale cloud
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -21,19 +21,19 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Découvrez comment configurer la messagerie vocale dans le nuage pour vos utilisateurs. '
-ms.openlocfilehash: 8219934b8e95962f0e9ea81f4965ad9e5c55fb34
-ms.sourcegitcommit: 5b33cfc828906917f76b0d2a9ae402c9336388a1
+ms.openlocfilehash: 26594c9d955cb21dc5751491e1857525660bdcae
+ms.sourcegitcommit: 7ca70e8a2108462afd505258b455169ead30f33f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30934771"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31041933"
 ---
-# <a name="set-up-cloud-voicemail"></a>Configurer la messagerie vocale dans le nuage
+# <a name="set-up-cloud-voicemail"></a>Configurer la Messagerie vocale cloud
 
 Cet article est pour l' [administration d’Office 365](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) souhaite configurer la fonctionnalité de messagerie vocale dans le nuage pour tout le monde dans l’entreprise.
 
 > [!NOTE]
-> Messagerie vocale dans le nuage prend en charge des messages vocaux déposer uniquement dans une boîte aux lettres Exchange et ne prend pas en charge les systèmes de messagerie tiers. Comme un mécanisme de secours, la messagerie vocale dans le nuage permet de renvoyer des messages à l’aide de SMTP, ce qui signifie que les utilisateurs avec une boîte aux lettres sur un système de messagerie tiers recevront leurs messages vocaux avec aucun temps de fonctionnement du service garanti ou d’autres fonctionnalités de messagerie vocale, telle que la modification leur le message d’accueil et d’autres paramètres.
+> Messagerie vocale dans le nuage prend en charge des messages vocaux déposer uniquement dans une boîte aux lettres Exchange et ne prend pas en charge les systèmes de messagerie tiers. 
 
 ## <a name="cloud-only-environments-set-up-cloud-voicemail"></a>Environnements en nuage uniquement : configuration de la messagerie vocale dans le nuage
 
@@ -43,7 +43,7 @@ Pour Skype pour les utilisateurs professionnels en ligne et des Plans de l’app
     
 2. [Affecter ou supprimer des licences pour Office 365 pour les entreprises](http://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc), les [licences d’affecter des équipes Microsoft](assign-teams-licenses.md)et les licences Exchange Online pour les personnes figurant dans votre entreprise. Ceci fait, elles sont en mesure de recevoir des messages vocaux.
     
-3. Support for voicemail transcription has been added as of March 2017 and is enabled by default for all organizations and users. You can disable transcription for your organization by using Windows PowerShell and following the steps below.
+3. Prise en charge de la transcription de la messagerie vocale a été ajouté à compter de mars 2017 et est activée par défaut pour toutes les organisations et les utilisateurs. Vous pouvez désactiver la transcription pour votre organisation à l'aide de Windows PowerShell et en suivant les étapes ci-dessous.
 
 ## <a name="phone-system-with-on-premises-environments"></a>Système téléphonique avec environnements locaux
 
@@ -53,13 +53,16 @@ Les informations suivantes sont sur la configuration de la messagerie vocale dan
     
 2. [Affecter ou supprimer des licences pour Office 365 pour les entreprises](http://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc), les [licences d’affecter des équipes Microsoft](assign-teams-licenses.md)et les licences Exchange Online pour les personnes figurant dans votre entreprise.
     
-3. Suivez les instructions indiquées dans la section **Activer les utilisateurs pour les services de voix et de la messagerie vocale du système téléphonique** du [Configurer de Skype pour édition dans le nuage connecteur guide](https://technet.microsoft.com/library/mt605228.aspx).
+3. Suivez les instructions correspondant à PSTN local appelant solution déployée pour vos utilisateurs. Pour le nuage connecteur Edition, suivez les instructions dans la section **Activer les utilisateurs pour les services de voix et de la messagerie vocale du système téléphonique** du [Configurer de Skype pour édition dans le nuage connecteur guide](https://technet.microsoft.com/library/mt605228.aspx). Pour PSTN d’appel avec Skype pour Business Server, suivez [activez les utilisateurs pour Enterprise Voice sur site](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises). Pour le routage Direct équipes, suivez la section **Activer enterprise voice et configurer le numéro de téléphone et messagerie vocale** de [Configurer le routage Direct](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-configure#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail).
 
-4. Support for voicemail transcription has been added as of March 2017 and is enabled by default for all organizations and users. You can disable transcription for your organization by using Windows PowerShell and following the steps below.
+4. Prise en charge de la transcription de la messagerie vocale a été ajouté à compter de mars 2017 et est activée par défaut pour toutes les organisations et les utilisateurs. Vous pouvez désactiver la transcription pour votre organisation à l'aide de Windows PowerShell et en suivant les étapes ci-dessous.
 
-5. Vous pouvez également consulter le [Support technique de la messagerie vocale Azure PBX pour Exchange Server](https://support.microsoft.com/kb/3195158) pour apprendre à configurer la distribution des messages vocaux Azure pour les utilisateurs du Système téléphonique ayant une boîte aux lettres locale.
+5. Messages de messagerie vocale sont remis à la boîte aux lettres d’utilisateurs Exchange via SMTP acheminé via Exchange Online Protection. Pour activer une remise réussie de ces messages, n’oubliez pas que les connecteurs Exchange sont correctement configurés entre vos serveurs Exchange et les Exchange Online Protection. [Connecteurs utilisés pour configurer le flux de messagerie](https://docs.microsoft.com/en-us/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow).
 
-6. Veuillez également lire et suivre les étapes décrites dans le document suivant : [Assistant Configuration hybride](https://docs.microsoft.com/exchange/hybrid-configuration-wizard)
+6. Pour activer les fonctionnalités de messagerie vocale telles que la personnalisation du message d’accueil, à distance dans access et la messagerie vocale visuelle, connectivité d’Office 365 à la boîte aux lettres du serveur Exchange via les Services Web Exchange est requise. Pour activer cette connectivité, vous devez configurer la nouvelle Oauth Exchange décrivent du protocole d’authentification [OAuth configurer](https://technet.microsoft.com/en-us/library/dn594521(v=exchg.150).aspx) l’authentification entre des organisations Exchange et Exchange Online 
+
+> [!NOTE]
+> L’Assistant hybride d’Exchange exécutées à partir d’Exchange 2013 CU5 ou supérieures gère automatiquement la configuration requise dans les étapes 5 et 6. 
 
 ## <a name="setting-voicemail-policies-in-your-organization"></a>Configuration des stratégies de messagerie vocale pour votre organisation
 

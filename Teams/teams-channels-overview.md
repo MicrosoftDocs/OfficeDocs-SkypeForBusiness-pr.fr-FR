@@ -2,6 +2,7 @@
 title: Présentation des équipes et des canaux dans Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
+ms.reviewer: ''
 manager: serdars
 ms.date: 11/02/2018
 ms.topic: conceptual
@@ -17,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8677354bf6a8e500e1ee138fef65327711e74105
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.openlocfilehash: 8ea532f31bff01ba31e22f9253db157a9466a733
+ms.sourcegitcommit: 27621c3ba369d2a54b092a3fa007e22c8a5030ef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30647440"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31038563"
 ---
 > [!NOTE]
 > Passez en revue les informations suivantes pour comprendre la conversation, les équipes, les canaux, applications & dans les équipes. Ensuite, passez à [déployer conversation, équipes, canaux, applications & dans les équipes](deploy-chat-teams-channels-microsoft-teams-landing-page.md) pour parcourir une liste de décisions importantes à votre déploiement d’équipes.
@@ -97,4 +98,4 @@ Il est possible de créer des équipes alignées sur la structure de l’organis
 
 ## <a name="org-wide-teams"></a>Équipes à l’échelle de l’organisation
 
-Si votre organisation a pas plus de 1 000 utilisateurs, vous pouvez créer une équipe à l’échelle de l’organisation. Les équipes à l’échelle de l’organisation offrent un moyen automatique pour tout le monde dans une organisation doit faire partie d’une équipe unique pour la collaboration. Pour plus d’informations, notamment les meilleures pratiques pour la création et gestion d’une équipe à l’échelle de l’organisation, voir [créer une équipe à l’échelle de l’organisation dans les équipes Microsoft](create-an-org-wide-team.md).
+Si votre organisation a pas plus de 2 500 utilisateurs, vous pouvez créer une équipe à l’échelle de l’organisation. Les équipes à l’échelle de l’organisation offrent un moyen automatique pour tout le monde dans une organisation doit faire partie d’une équipe unique pour la collaboration. Pour plus d’informations, notamment les meilleures pratiques pour la création et gestion d’une équipe à l’échelle de l’organisation, voir [créer une équipe à l’échelle de l’organisation dans les équipes Microsoft](create-an-org-wide-team.md).
