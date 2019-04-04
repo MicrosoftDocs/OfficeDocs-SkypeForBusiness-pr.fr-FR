@@ -1,35 +1,33 @@
 ---
-title: Quel est le statut de mes demandes de transfert ?
+title: Quel est le statut de mes commandes port dans les équipes ?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
-ms.assetid: f651e82d-4237-4e3d-ad74-40fdf11fa8d1
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service: msteams
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-appliesto:
-- Skype for Business
+appliesto: Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1keywords:
 - ms.lync.lac.PortOrderNoOrderHelp
 ms.custom:
 - Calling Plans
-description: 'Learn how to get the status of your port orders, and what the different actions you can take on them. '
-ms.openlocfilehash: e8cc303c503d52a9424c400617c7a982aec99d1f
+description: 'Découvrez comment obtenir le statut de vos commandes port et découvrez les différentes actions que vous pouvez effectuer sur les. '
+ms.openlocfilehash: bf1fc2d6fc58ce2586e768392aac0d6e91c5aaf3
 ms.sourcegitcommit: a37abb5c433012d501ede319fba60e0ae7474fce
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 04/03/2019
-ms.locfileid: "31397047"
+ms.locfileid: "31407749"
 ---
-# <a name="whats-the-status-of-my-port-orders"></a>Quel est le statut de mes demandes de transfert ?
+# <a name="whats-the-status-of-my-port-orders-in-teams"></a>Quel est le statut de mes commandes port dans les équipes ?
 
-Vous pouvez voir le statut de votre commande port en accédant à la **Skype pour le centre d’administration Business** > **vocale** > **commandes Port**. Statut de la commande chaque port apparaît dans la colonne **état** . Si vous avez besoin d’aide, [contactez le support technique pour les produits métiers : aide d’administration](https://docs.microsoft.com/office365/admin/contact-support-for-business-products).
+Vous pouvez voir le statut de votre commande port en accédant au **Centre d’administration de Microsoft équipes** > **portail hérité** > **vocale** > **commandes Port**. Statut de la commande chaque port apparaît dans la colonne **état** . Si vous avez besoin d’aide, [contactez le support pour les produits métiers : aide d’administration](https://docs.microsoft.com/office365/admin/contact-support-for-business-products).
 
 Le tableau suivant répertorie les statuts de commande port, ainsi que les actions à qu'entreprendre si nécessaire.
 
@@ -54,8 +52,8 @@ Le tableau suivant répertorie les statuts de commande port, ainsi que les actio
 
 [Différents types de numéros de téléphone utilisés pour les offres d'appel](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[Conditions générales relatives aux appels d'urgence](/microsoftteams/emergency-calling-terms-and-conditions)
+[Conditions générales d’utilisation des appels d’urgence](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Étiquette de notification d’exclusion relative aux appels d’urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
 
