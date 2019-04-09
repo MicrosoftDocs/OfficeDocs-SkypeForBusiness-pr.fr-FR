@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4865d66d4d3ff1257d0fc4bd355a65c7c1330101
-ms.sourcegitcommit: 5b33cfc828906917f76b0d2a9ae402c9336388a1
+ms.openlocfilehash: 363da62c378a60cb85a9544339dbf7ccd699b7c0
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30934787"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517078"
 ---
 <a name="about-upgrade-basic"></a>
 
@@ -35,7 +35,7 @@ L’objectif des modes de coexistence est de fournir une expérience prévisible
 Lorsqu’un utilisateur est dans un de la Skype pour les modes d’entreprise, toutes les conversations entrantes et les appels sont routés vers Skype l’utilisateur pour client d’entreprise. Pour éviter toute confusion d’utilisateur final et garantir un routage correct, les fonctionnalités d’appel et de conversation dans le client d’équipes sont désactivée lorsqu’un utilisateur est dans un de la Skype pour les modes d’entreprise. De même, planifier des réunions dans les équipes est désactivé lorsque vous êtes dans les modes SfBOnly ou SfBWithTeamsCollab et explicitement activée lorsqu’un utilisateur est en mode SfBWithTeamsCollabAndMeetings.   
 
 ## <a name="how-the-available-functionality-in-teams-client-changes-based-on-mode"></a>Comment les fonctionnalités disponibles dans le client équipes changent selon le mode
-Les fonctionnalités disponibles dans les équipes dependes sur le mode de coexistence de l’utilisateur, tel que défini par TeamsUpgradePolicy. Le tableau ci-dessous résume le comportement :
+Les fonctionnalités disponibles dans les équipes dépendent de mode de coexistence de l’utilisateur, tel que défini par TeamsUpgradePolicy. Le tableau ci-dessous résume le comportement :
 
 |Mode efficace de l’utilisateur|Expérience client d’équipes|
 |---|---|

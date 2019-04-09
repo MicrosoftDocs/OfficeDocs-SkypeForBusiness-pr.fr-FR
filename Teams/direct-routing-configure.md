@@ -14,12 +14,12 @@ ms.collection:
 - M365-voice
 appliesto: Microsoft Teams
 description: Découvrez comment configurer le routage Direct de Microsoft Phone System.
-ms.openlocfilehash: 20bd29bdd2ba83050bd83513f513732ce646cbbe
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: a26972e16758a00e2afc5d39029cfb1504b974c4
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883566"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517262"
 ---
 # <a name="configure-direct-routing"></a>Configurer le routage direct
 
@@ -479,7 +479,7 @@ Stratégie de routage « No Restrictions, » vocale itinéraire « Internatio
    OnlinePstnUsages          : {International} 
    OnlinePstnGatewayList           : {sbc2.contoso.biz, sbc5.contoso.biz}
    Name                            : International
-   SupressCallerId           :
+   SuppressCallerId          :
    AlternateCallerId         :
    </pre>
 3. Ensuite, ne créez une stratégie de routage voix « Aucune restriction ». L’utilisation PSTN « Redmond 1 » et « Redmond » sont réutilisés dans cette stratégie de routage voix pour conserver les appels au numéro « +1 425 XX XXX XX » et « +1 206 XX XXX XX » comme local ou appels locaux de traitement particulier.

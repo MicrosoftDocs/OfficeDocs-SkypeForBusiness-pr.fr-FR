@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b2c950c9-76a5-400a-b146-9b1a22790c12
 description: 'Résumé : Passez en revue la prise en charge de la fonctionnalité pour le client mobile lors de la planification pour Skype pour Business Server.'
-ms.openlocfilehash: f04d0162113db68e2507930e827904110b69066f
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.openlocfilehash: 6d43d5dbadbc11abaabde8858c75273a0190b324
+ms.sourcegitcommit: a505869a3cc2fe6fe4ee18bcbe99bf980aa91a86
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965747"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31520161"
 ---
 # <a name="mobile-client-feature-comparison-for-skype-for-business"></a>Comparaison des fonctionnalités de client mobile pour Skype pour les entreprises
  
@@ -165,7 +165,7 @@ Sur des appareils iOS, Skype pour les entreprises se déconnecte automatiquement
 |Accéder à une liste de réunion détaillée pour les conférences par messagerie instantanée  <br/> |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|
 |Partager le Bureau ou un programme  <br/> |& #x 2714 ;||||
 |Afficher le bureau partagé ou programme (VbSS ou RDP)  <br/> |& #x 2714 ;|& #x 2714 ; & #x 2777 ; |& #x 2714 ; & #x 2777 ; |& #x 2714 ; & #x 2777 ; |
-|Afficher les fichiers PowerPoint partagés  <br/> |& #x 2714 ;|& #x 2714 ; & #x 2777 ; |& #x 2714 ; & #x 2777 ; |& #x 2714 ; & #x 2777 ; |
+|Afficher les fichiers PowerPoint partagés  <br/> |& #x 2714 ;|& #x 2714 ; & #x 2777 ; |& #x 2714 ; & #x 2777 ; & #x 2778 ; |& #x 2714 ; & #x 2777 ; & #x 2778 ;|
 |Charger et présenter des fichiers PowerPoint  <br/> |& #x 2714 ;||& #x 2714 ; & #x 2777 ; |& #x 2714 ; & #x 2777 ; |
 |Utiliser des outils de réunion (utiliser un tableau blanc, mener des enquêtes, partager des fichiers)  <br/> |& #x 2714 ;||||
 |Parcourir une liste de vos réunions  <br/> |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|
@@ -176,6 +176,8 @@ Sur des appareils iOS, Skype pour les entreprises se déconnecte automatiquement
  & #x 2776 ;  Pour les utilisateurs Office 365, cette fonctionnalité nécessite Enterprise Voice, qui fait partie de la licence E5.
   
  & #x 2777 ;  Nécessite une connexion WiFi par défaut.
+ 
+ & #x 2778 ;  Affichage vidéo incorporée dans les présentations PowerPoint n’est pas pris en charge.
   
 ## <a name="telephony-support"></a>Prise en charge de la téléphonie
 
@@ -211,7 +213,7 @@ Sur des appareils iOS, Skype pour les entreprises se déconnecte automatiquement
 |Démarrer une conversation par messagerie instantanée avec un contact fédéré  <br/> |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|
 |Mener des appels à deux avec des utilisateurs externes  <br/> |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|
 |Mener des appels à plusieurs avec des utilisateurs externes  <br/> |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|
-|Utiliser l’appel via le bureau pour joindre un contact fédéré sur son téléphone mobile en appelant leur numéro Professionnel publié par & #x 2776 ;            <br/> ||& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|
+|Utiliser l’appel via le bureau pour joindre un contact fédéré sur son téléphone mobile en appelant leur & de numéro Professionnel publié #x 2776 ;            <br/> ||& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|
    
  & #x 2776 ;  Par défaut, les utilisateurs fédérés ont le niveau de confidentialité Contacts externes. Pour que vous puissiez joindre un contact fédéré sur son téléphone mobile en composant son numéro professionnel publié, le contact fédéré doit manuellement vous assigner le niveau de confidentialité Collègues.
   

@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 'Résumé : Skype pour Business Server 2019 ou Skype pour les administrateurs d’entreprise en ligne peut utiliser ces tables pour comprendre les fonctionnalités sont prises en charge sur les clients.'
-ms.openlocfilehash: 296e96af455b7cea8cddf833acff19a665349933
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: f11a6c5c31267dabd2d8125a604a659a71168d6c
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27789110"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31516925"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2019"></a>Comparaison des fonctionnalités client de bureau pour Skype pour Business Server 2019
 
@@ -29,7 +29,7 @@ ms.locfileid: "27789110"
 
 Certaines fonctionnalités disponibles avec Skype pour Business Server 2019 ne sont pas disponibles dans Skype pour Business Online ; voir [limitations de compte d’utilisateur en ligne ou hybride](feature-comparison.md#Online-Hybrid) de détail. Vous souhaiterez Skype pour les administrateurs de l’entreprise en ligne faire référence à [Skype pour Business Online Service Description](https://technet.microsoft.com/library/skype-for-business-online-service-description.aspx) pour plus d’informations sur les différents plans disponibles pour les.
 
-Les tableaux suivants répertorient les fonctionnalités disponibles avec chaque client qui fonctionne avec Skype pour Business Server 2019 ou Skype pour Business Online. Vous souhaiterez également pour Smartphone et tablette comparaison des fonctionnalités des clients, voir [comparaison des fonctionnalités de client Mobile pour Skype pour les entreprises](../../SfbServer/plan-your-deployment/clients-and-devices/mobile-feature-comparison.md) . Les licences d’accès client ou USL (User Subscription License) qu’achète votre organisation auront également un impact sur les fonctionnalités auxquelles les utilisateurs ont accès. Le déploiement du client complet ou de base pour les utilisateurs dépend de la licence ou de l’offre que votre organisation choisit d’acheter. Consultez le [Guide sur la gestion des licences](https://products.office.com/en-us/skype-for-business/it-pros) pour en savoir plus.
+Les tableaux suivants répertorient les fonctionnalités disponibles avec chaque client qui fonctionne avec Skype pour Business Server 2019 ou Skype pour Business Online. Vous souhaiterez également pour Smartphone et tablette comparaison des fonctionnalités des clients, voir [comparaison des fonctionnalités de client Mobile pour Skype pour les entreprises](../../SfbServer/plan-your-deployment/clients-and-devices/mobile-feature-comparison.md) . Les licences d’accès client ou USL (User Subscription License) qu’achète votre organisation auront également un impact sur les fonctionnalités auxquelles les utilisateurs ont accès. Le déploiement du client complet ou de base pour les utilisateurs dépend de la licence ou de l’offre que votre organisation choisit d’acheter. Consultez le [Guide de gestion des licences](https://products.office.com/en-us/skype-for-business/it-pros) pour plus d’informations.
 
 > [!IMPORTANT]
 > Skype pour Business Server 2019 et Skype pour Business Online prend en charge les clients suivants précédemment publiés : Lync 2013, Skype pour Business 2015 et Skype pour Business 2016, ainsi que la Skype pour Business 2019 client. Pour plus d’informations sur ces clients lorsqu’elle est utilisée avec d’autres serveurs, consultez le [tableau de comparaison des clients pour Lync Server 2013](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx) et la [comparaison des fonctionnalités client de bureau pour Skype pour Business 2015](../../SfbServer/plan-your-deployment/clients-and-devices/desktop-feature-comparison.md). 
@@ -91,7 +91,7 @@ Ce tableau couvre les fonctionnalités liées à la prise en charge de la messag
 |Enregistrer des conversations par messagerie instantanée dans Outlook  |& #x 2714 ;|& #x 2714 ; Si l’historique des conversations côté serveur sont activé.   |& #x 2714 ;|   
 |Vérification de l'orthographe |& #x 2714 ;|& #x 2714 ;||   
 |Recherche de compétences (avec l'intégration de SharePoint Server)   <br/> (On-premises Skype pour Business Server et sur site SharePoint 2013 sont requis pour la recherche de compétences).  |& #x 2714 ;||& #x 2714 ;|
-|Intégration de la conversation permanente (Conversation de groupe)  <br/> (non disponible pour Skype pour Business Online)|& #x 2714 ;||& #x 2714 ;|  
+|Intégration de la conversation permanente (Conversation de groupe)   <br/> (non disponible pour Skype pour Business Online)|& #x 2714 ;||& #x 2714 ;|  
 |Transformer une salle de conversation permanente en réunion Skype Entreprise d'un simple clic   <br/> (non disponible pour Skype pour Business Online) |& #x 2714 ;||& #x 2714 ;| 
 |Images intégrées de l'expéditeur et du destinataire dans la fenêtre de messagerie instantanée |& #x 2714 ;||& #x 2714 ;| 
 |Recevoir des messages manuscrits |& #x 2714 ;||& #x 2714 ;| 
@@ -109,7 +109,7 @@ Ce tableau couvre les fonctionnalités liées à la prise en charge des réunion
 Dans les sessions Skype-à-Skype, un utilisateur du plan 1 de Skype Entreprise Online peut participer au partage de bureau et d'applications s'il est invité par un utilisateur qui a accès aux fonctionnalités de partage.
 Pour plus d’informations, voir le [Skype pour Business Online Service Description](https://technet.microsoft.com/library/jj822172.aspx). 
 
-|Fonctionnalité | Skype pour 2016 Business client | Skype Entreprise sur Mac | Skype Entreprise Web App | Skype pour client Business 2015 | Client Lync 2013 | 
+|Fonctionnalité | Skype pour 2016 Business client | Skype Entreprise sur Mac | Skype pour Business Web App | Skype pour client Business 2015 | Client Lync 2013 | 
 |:-----|:-----|:-----|:-----|:-----|:-----|  
 |Ajouter l'audio de l'ordinateur  |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;(requires plug-in)  |& #x 2714 ;|& #x 2714 ;| 
 |Ajouter la vidéo |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;(requires plug-in) |& #x 2714 ;|& #x 2714 ;| 
@@ -128,7 +128,7 @@ Pour plus d’informations, voir le [Skype pour Business Online Service Descript
 |Ajouter et modifier des notes de réunion OneNote  |& #x 2714 ;||Modifier uniquement (pas ajouter)  |& #x 2714 ;|& #x 2714 ;|
 |Utiliser un tableau blanc |& #x 2714 ;||& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|
 |Mener des sondages |& #x 2714 ;||& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|
-|Télécharger des fichiers pour les partager avec des tiers |& #x 2714 ;||& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|
+|Télécharger des fichiers pour les partager avec des tiers |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|
 |Planifier une réunion ou une conférence |Outlook ou Skype pour Business Web Scheduler  |Outlook ou Skype pour Business Web Scheduler |Skype pour Business Web Scheduler |Outlook ou Skype pour Business Web Scheduler   |Outlook ou Lync Web Scheduler |  
 |Q&amp;un responsable |& #x 2714 ;|||||
 |Désactiver la vidéo des participants |& #x 2714 ;||& #x 2714 ;|||
@@ -141,7 +141,7 @@ Pour plus d’informations, voir le [Skype pour Business Online Service Descript
 |Définir la vidéo à la une (verrouiller la vidéo) |& #x 2714 ;||& #x 2714 ;|& #x 2714 ;|& #x 2714 ;| 
 |Donner/prendre le contrôle du partage d'écran  |& #x 2714 ;||& #x 2714 ;|||
 
- & #x 2776 ;  Participants ne peut pas contrôler les postes de travail qui sont partagées par Skype pour les entreprises sur Mac, Lync pour Mac 2011 ou Office Communicator pour Mac 2011 utilisateurs. Skype pour les entreprises sur Mac, Lync pour Mac 2011 et Office Communicator pour Mac 2011 les utilisateurs ne peuvent pas contrôler les bureaux partagés par les utilisateurs de Windows. Cela ne peut fonctionner pour lʼapplication Skype Entreprise Web sur Max OSX.
+ & #x 2776 ;  Participants ne peut pas contrôler les postes de travail qui sont partagées par Skype pour les entreprises sur Mac, Lync pour Mac 2011 ou Office Communicator pour Mac 2011 utilisateurs. Skype pour les entreprises sur Mac, Lync pour Mac 2011 et Office Communicator pour Mac 2011 les utilisateurs ne peuvent pas contrôler les bureaux partagés par les utilisateurs de Windows. Cela ne fonctionne pour Skype pour Business Web App sur Max OSX.
 
  & #x 2777 ;  Pour Skype pour Business Online, cette fonctionnalité nécessite Microsoft PSTN conférence, la messagerie unifiée Exchange ou un fournisseur de services d’audioconférence tiers.
 
@@ -169,8 +169,8 @@ Ce tableau couvre les fonctionnalités liées à la prise en charge des services
 |Gérer les délégués |& #x 2714 ;|& #x 2714 ;   |& #x 2714 ; & #x 2776 ; |
 |Appeler un groupe Response Group|& #x 2714 ;||& #x 2714 ; & #x 2776 ; |
 |Prendre en charge les services d'urgence (E-911) |& #x 2714 ;|& #x 2714 ; |& #x 2714 ; & #x 2776 ; |
-|Notification de messagerie instantanée aux URI SIP pour un appel E-911 |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|
-|Notification de messagerie instantanée à la liste de distribution pour un appel E-911|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|
+|Notification de messagerie instantanée à URI(s) SIP pour l’appel de E-911 |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|
+|Appels de notification de messagerie instantanée à la liste de distribution pour E-911|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|
 |Se connecter à la messagerie vocale, configurer ou changer le message d'accueil |& #x 2714 ;|& #x 2714 ;|& #x 2714 ; & #x 2776 ; | 
 |Notification des appels manqués |& #x 2714 ;|& #x 2714 ;|& #x 2714 ; & #x 2776 ; | 
 |Passer un appel pour le compte d'un autre contact (scénario responsable/délégué) |& #x 2714 ;|& #x 2714 ;|& #x 2714 ; & #x 2776 ; |
@@ -192,7 +192,7 @@ Ce tableau couvre les fonctionnalités liées à la prise en charge des utilisat
 |:-----|:-----|:-----|:-----|  
 |Démarrer une conversation par messagerie instantanée avec un contact public |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;| 
 |Démarrer une conversation par messagerie instantanée avec un contact fédéré |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;| 
-|Mener des appels à deux ou à plusieurs avec des utilisateurs externes  <br/> (non disponible dans Skype pour Business Online)  |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;| 
+|Mener des appels à deux ou plus avec des utilisateurs externes   <br/> (non disponible dans Skype pour Business Online)  |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;| 
 
 ## <a name="recording-support"></a>Prise en charge de l'enregistrement
 <a name="BKMK_Recording"> </a>
@@ -227,58 +227,58 @@ Authentification moderne requiert également une topologie décrite dans [Skype 
 ## <a name="archiving-compliance-and-logging-support"></a>Prise en charge de l'archivage, de la conformité et de la journalisation
 <a name="BKMK_Archiving"> </a>
 
-Ce tableau couvre les fonctionnalités liées à la prise en charge des fonctionnalités d’archivage et de journalisation.
+Ce tableau présente les fonctionnalités associées à la prise en charge pour l’archivage et fonctions de journalisation.
 
 
  | Fonctionnalité | Skype pour client Business 2015, 2016 ou 2019 | Skype Entreprise sur Mac | Client Lync 2013 |  
 |:-----|:-----|:-----|:-----|  
-|Archivage des conversations par messagerie instantanée dans l’historique des conversations Outlook|& #x 2714 ; & #x 2776 ; |& #x 2714 ; Si l’historique des conversations côté serveur sont activé.  |& #x 2714 ; & #x 2776 ; | 
-|Archivage côté client du son, de la vidéo, du partage d’application, du partage de Bureau et du contenu téléchargé  |& #x 2714 ; & #x 2776 ; ||& #x 2714 ; & #x 2776 ; |
+|L’archivage des conversations par messagerie instantanée dans l’historique des conversations Outlook|& #x 2714 ; & #x 2776 ; |& #x 2714 ; Si l’historique des conversations côté serveur sont activé.  |& #x 2714 ; & #x 2776 ; | 
+|Côté client, l’archivage des données audio, vidéo, partage d’application, le partage du bureau et chargé le contenu  |& #x 2714 ; & #x 2776 ; ||& #x 2714 ; & #x 2776 ; |
 |Archivage côté client des transferts de fichiers, les pages OneNote partagées et les annotations PowerPoint (non disponibles dans Skype pour Business Online)  |& #x 2714 ;||& #x 2714 ;|
 |Connexion journaux d’accès à partir de Skype pour entreprise icône dans la barre des tâches |& #x 2714 ;||& #x 2714 ;|
 
  & #x 2776 ;  Pour Skype pour les utilisateurs professionnels en ligne, cette fonctionnalité requiert Exchange Online et est contrôlée par l’attribut In-Place Hold de boîte aux lettres Exchange de l’utilisateur.
 
-## <a name="client-limitations"></a>Restrictions relatives aux clients 
+## <a name="client-limitations"></a>Limitations du client
 <a name="Types"> </a>
 
-### <a name="basic-client-limitations"></a>Restrictions relatives aux clients de base
+### <a name="basic-client-limitations"></a>Limitations du client de base
 <a name="Full-Basic"> </a>
 
-Les fonctionnalités ci-après sont disponibles avec le client complet. Elles ne sont pas intégrées au client de base :  
+Les fonctionnalités ci-dessous sont disponibles à l’aide du client complète et ne sont pas disponibles avec le client de base : 
 
-- Gérer les paramètres d’appel d’équipe
+- Gérer les paramètres d'appel d'équipe
 
 - Gérer les délégués
 
-- Passer un appel pour le compte d’un autre contact (scénario responsable/délégué)
+- Passer un appel pour le compte d'un autre contact (scénario responsable/délégué)
 
-- Gérer les appels d’une autre personne, si celle-ci est configurée en tant que déléguée
+- Gérer les appels d'une autre personne, si celle-ci est configurée en tant que déléguée
 
-- Gérer un volume d’appels important
+- Gérer un volume important d’appels
 
-- Démarrer un appel à un groupe Response Group
+- Appeler un groupe Response Group
 
-- Parcage d’appel
+- Parcage d'appel
 
-- Changer le message d’accueil
+- Modifier le message d’accueil
 
-- Prise d’appel de groupe
+- Prise d'appel de groupe
 
-### <a name="online-or-hybrid-user-account-limitations"></a>Restrictions relatives aux comptes d’utilisateur en ligne ou hybrides
+### <a name="online-or-hybrid-user-account-limitations"></a>En ligne ou les restrictions de compte d’utilisateur hybride
 <a name="Online-Hybrid"> </a>
 
-Les comptes d’utilisateur peuvent exister en ligne ou dans les locaux, ce qui affectera les fonctionnalités auxquelles l’utilisateur correspondant peut accéder. Les utilisateurs disposant de comptes dans Skype pour Business Online auront pas accès aux fonctionnalités suivantes, même si le client complet : 
+Comptes d’utilisateurs pouvant exister en ligne ou sur site, et qui affecte les fonctionnalités disponibles pour cet utilisateur. Les utilisateurs disposant de comptes dans Skype pour Business Online auront pas accès aux fonctionnalités suivantes, même si le client complet : 
 
-- Présence améliorée : Utiliser une photo à partir d’un site public pour Mon image
+- Présence enrichie : Utiliser une photo à partir de n’importe quel site public pour mon image
 
-- Contacts : Rechercher des groupes Response Group
+- Contacts : Recherche des groupes Response Group
 
-- Prise en charge de la messagerie instantanée : Intégration de la conversation permanente (Conversation de groupe)
+- Prise en charge de la messagerie instantanée : L’intégration de la conversation permanente (conversation de groupe)
 
 - Prise en charge de la messagerie instantanée : Transformer une salle de conversation permanente à un Skype pour une réunion d’affaires en un clic
 
-- Utilisateurs externes : Mener des appels à deux ou à plusieurs avec des utilisateurs externes
+- Les utilisateurs externes : Mener des appels de deux ou à plusieurs avec des utilisateurs externes
 
 ## <a name="see-also"></a>Voir aussi
 <a name="Types"> </a>

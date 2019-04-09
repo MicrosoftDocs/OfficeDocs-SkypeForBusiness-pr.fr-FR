@@ -1,5 +1,5 @@
 ---
-title: Atteindre vos équipes StaffHub équipes dans Microsoft Teams
+title: Déplacer vos équipes de Microsoft StaffHub vers Shifts dans Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
 ms.reviewer: lisawu
@@ -13,21 +13,23 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2eb6e6616d1164dad462e349a80e7ac36cc5ce1e
-ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
+ms.openlocfilehash: fa224306f3d42d4746f8e8f2276b44208fc568bd
+ms.sourcegitcommit: a505869a3cc2fe6fe4ee18bcbe99bf980aa91a86
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "31026212"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31520215"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>Atteindre vos équipes Microsoft StaffHub équipes dans Microsoft Teams
 
 > [!IMPORTANT]
-> Effet 2019, octobre 1, Microsoft StaffHub sera être retirée. Nous créons StaffHub fonctionnalités dans Microsoft Teams. Aujourd'hui, les équipes inclut l’application des équipes de gestion de la planification et des fonctionnalités supplémentaires seront intégrées au fil du temps. StaffHub cessera de fonctionner pour tous les utilisateurs sur le 1 octobre 2019. Toute personne qui essaie d’ouvrir StaffHub s’affichera un message pronom pour télécharger les équipes. Pour plus d’informations, voir [Microsoft StaffHub à retirer](microsoft-staffhub-to-be-retired.md). 
+> Effet 2019, octobre 1, Microsoft StaffHub sera être retirée. Nous créons StaffHub fonctionnalités dans Microsoft Teams. Aujourd'hui, les équipes inclut l’application des équipes de gestion de la planification et des fonctionnalités supplémentaires seront intégrées au fil du temps. StaffHub cessera de fonctionner pour tous les utilisateurs sur le 1 octobre 2019. Toute personne qui essaie d’ouvrir StaffHub s’affichera un message pronom pour télécharger les équipes. Pour plus d’informations, voir [Microsoft StaffHub à retirer](microsoft-staffhub-to-be-retired.md).
+
+> La fonctionnalité abordée dans cet article n’a pas encore été publiée. Il est été annoncé et sera bientôt disponible, vers la fin de 2019 avril. Si vous êtes un administrateur, vous pouvez savoir lorsqu’il sera disponible dans le centre de messages (dans le [Centre d’administration Microsoft 365](https://portal.office.com/adminportal/home)).
 
 L’application d’équipes dans les équipes fournit une approche simple de gérer les planifications et le flux de constant de permutations MAJ et les annulations qui se produisent au quotidien. Membres de l’équipe peuvent accéder à son calendrier et informations MAJ directement dans l’application sur leurs appareils pour définir leurs préférences, gérer leurs calendriers et durée hors de la demande.
 
-Cet article vous explique comment déplacer les équipes StaffHub de votre organisation et planifier les données aux équipes de travail en équipe. Si vous êtes une petite entreprise avec un ou deux équipes StaffHub ou une grande entreprise avec des centaines de StaffHub équipes, vous trouverez les instructions d’administration que vous avez besoin pour réussir votre transition aux équipes réussie. 
+Cet article vous explique comment déplacer les équipes StaffHub de votre organisation et planifier les données aux équipes de travail en équipe. Si vous êtes une petite entreprise avec un ou deux équipes StaffHub ou une grande entreprise avec des centaines de StaffHub équipes, vous trouverez les instructions d’administration que vous avez besoin pour réussir votre transition aux équipes réussie.
 
 Vous devez être un administrateur global pour effectuer les étapes décrites dans cet article. Si vous n’avez pas déjà fait, jetez un œil via le [retrait StaffHub FAQ](microsoft-staffhub-to-be-retired.md) pour obtenir des réponses à des questions, que vous devrez peut-être. 
 
@@ -68,7 +70,7 @@ Chaque responsable et un membre de l’équipe doivent avoir une identité dans 
 
 ### <a name="install-the-staffhub-powershell-module"></a>Installez le module StaffHub PowerShell
 
-Si vous n’avez pas déjà, installez le [module StaffHub PowerShell](https://www.powershellgallery.com/packages/MicrosoftStaffHub/1.0.0-alpha).
+Si vous n’avez pas déjà fait, [installez le module StaffHub PowerShell](install-the-staffhub-powershell-module.md).
 
 Lorsque vous déplacez une équipe StaffHub, la demande de déplacement vérifie les conditions préalables. Voici les raisons de l’échec une demande de déplacement :
 
@@ -92,9 +94,9 @@ Identifier les champions équipes de pilote et les inscrire pour vous aider à f
 
 Champions de l’équipe devraient vous assurer que les membres de l’équipe sont définis par heure dédiant pour tout le monde pour [obtenir les clients d’équipes](../../get-clients.md), se connecter à des équipes et extrayez planifications leurs équipes et démarrer la conversation entre eux. Les utilisateurs qui sont déjà familiarisés avec StaffHub seront en cours d’exécution rapidement en équipe. Vous pouvez également qu’ils pointent vers [Des équipes aide](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b) pour une assistance supplémentaire.
 
-### <a name="move-a-staffhub-team"></a>Déplacer une équipe StaffHub
+### <a name="move-a-staffhub-team-coming-soon"></a>Déplacer une équipe StaffHub (bientôt disponible)
 
-Utilisez ces étapes pour déplacer une équipe StaffHub à la fois. Nous vous recommandons cette approche pour les équipes de votre pilotes. Plus tard, lorsque vous êtes prêt à passer des équipes de StaffHub ensemble de l’entreprise, voir [déplacer vos équipes StaffHub](#move-your-staffhub-teams) pour connaître les étapes sur la façon de déplacer plusieurs équipes à la fois.
+Utilisez ces étapes pour déplacer une équipe StaffHub à la fois. Nous vous recommandons cette approche pour les équipes de votre pilotes. Plus tard, lorsque vous êtes prêt à passer des équipes de StaffHub ensemble de l’entreprise, voir [déplacer vos équipes StaffHub](#move-your-staffhub-teams-coming-soon) pour connaître les étapes sur la façon de déplacer plusieurs équipes à la fois.
 
 Exécutez la commande suivante pour déplacer une équipe StaffHub.
 
@@ -130,11 +132,11 @@ Voici un exemple de la réponse que vous obtenez lorsqu’un déplacement est en
 
 Lorsque vous êtes prêt à aller au-delà de vos équipes pilotes et déplacer les équipes de votre organisation StaffHub aux équipes, il est important de communiquer tout d’abord la modification au sein de votre organisation. Diffusion équipes et la transition vers les équipes pour sensibiliser, générer enthousiasme et d’adoption du lecteur.
 
-### <a name="move-your-staffhub-teams"></a>Déplacer vos équipes StaffHub
+### <a name="move-your-staffhub-teams-coming-soon"></a>Déplacer vos équipes StaffHub (bientôt disponible)
 
-Utilisez ces étapes pour déplacer des équipes StaffHub en bloc. Vous pouvez choisir déplacer les équipes StaffHub ensemble de l’entreprise ou des équipes StaffHub spécifiques. Si vous souhaitez déplacer que les équipes StaffHub un à la fois, voir [déplacer une équipe StaffHub](#move-a-staffhub-team).
+Utilisez ces étapes pour déplacer des équipes StaffHub en bloc. Vous pouvez choisir déplacer les équipes StaffHub ensemble de l’entreprise ou des équipes StaffHub spécifiques. Si vous souhaitez déplacer que les équipes StaffHub un à la fois, voir [déplacer une équipe StaffHub](#move-a-staffhub-team-coming-soon).
 
-#### <a name="move-all-staffhub-teams"></a>Déplacer toutes les équipes StaffHub
+#### <a name="move-all-staffhub-teams-coming-soon"></a>Déplacer toutes les équipes StaffHub (bientôt disponible)
 
 Exécutez ce qui suit pour obtenir une liste de toutes les équipes StaffHub dans votre organisation.
 
@@ -157,7 +159,7 @@ Voici un exemple de la réponse.
         2   TEAM_81b1f191-3e19-45ce-ab32-3ef51f100000   False
 ```
 
-#### <a name="move-specific-staffhub-teams"></a>Déplacer des équipes StaffHub spécifiques
+#### <a name="move-specific-staffhub-teams-coming-soon"></a>Déplacer des équipes StaffHub spécifiques (bientôt disponible)
 
 Exécutez ce qui suit pour obtenir une liste de toutes les équipes StaffHub dans votre organisation.
 

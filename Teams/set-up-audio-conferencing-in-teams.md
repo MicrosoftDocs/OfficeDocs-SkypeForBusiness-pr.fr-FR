@@ -1,5 +1,5 @@
 ---
-title: Configurer Audioconférence pour Microsoft Teams
+title: Configurer la conférence pour Microsoft Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,14 +21,14 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 'Découvrez comment configurer des rendez-vous ou de conférence Audio pour les personnes dans votre entreprise qui ont besoin d’utiliser un téléphone pour participer à des téléconférences. '
-ms.openlocfilehash: 30e79282f04c2d1b4dc7ff01673461b7a18254fd
-ms.sourcegitcommit: 188c57e6b6c707edb694bb922556dea1c4724846
+ms.openlocfilehash: 7ff24dd2b29eabbad46759471b69c3619e4e7b24
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "30955029"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517175"
 ---
-# <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Configurer Audioconférence pour Microsoft Teams
+# <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Configurer la conférence pour Microsoft Teams
 
 Parfois les personnes dans votre organisation vous devrez utiliser un téléphone pour appeler une réunion. Microsoft Teams inclut la fonctionnalité de conférence audio uniquement cette situation ! Personnes peuvent appeler réunions équipes à l’aide d’un téléphone, au lieu d’utiliser l’application équipes sur un appareil mobile ou un PC. 
   
@@ -74,7 +74,7 @@ Pour les audioconférences, vous ne pouvez pas utiliser les numéros de téléph
 
 Une fois que vous obtenez votre numéro payant et/ou de vos numéros de téléphone pour le pont de conférence, vous devez lui assigner les numéros afin qu’ils puissent être utilisées dans les invitations aux réunions.  
 
-Suivez ces stesps pour attribuer un nouveau numéro de téléphone à votre pont de conférence audio.
+Suivez ces étapes pour attribuer un nouveau numéro de téléphone à votre pont de conférence audio.
 
 ![SFB-logo-30x30.png](media/sfb-logo-30x30.png) **à l’aide de la Skype entreprise centre d’administration :**
 

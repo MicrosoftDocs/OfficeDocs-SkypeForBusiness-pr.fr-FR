@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: afe1ce61a5c5f137b5123cb530094d6a651ecf7f
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 48283d2c8ecaf121457197bf09ffb70afc59803b
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541783"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517070"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Configurer les crédits de communication pour votre organisation
 
@@ -76,6 +76,8 @@ Pour plus d’informations, voir [Gestion des licences de module complémentaire
 
       > [!NOTE]
      > Fonds seront appliquées uniquement aux Communications crédits chez Microsoft publié taux lorsque les services sont utilisés. Tout fond non utilisé dans les 12 mois suivant la date d'achat expire et est perdu. 
+     > 
+     > Facturation mensuelle pour la Communication crédits ne sera appliqué si le fonds imparti a été utilisé pour apprendre à vérifier votre utilisation mensuelle, lisez [Skype pour le rapport d’utilisation PSTN Business](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report)
     
 5. Entrez vos informations de paiement, cliquez sur **passer la commande**.
     >[!IMPORTANT]
@@ -83,7 +85,7 @@ Pour plus d’informations, voir [Gestion des licences de module complémentaire
     
 Chaque organisation dispose d’une utilisation différents de volume de l’appel de planifier et taux à prendre en compte. You will need to get this type of usage data from your current service provider. Organisations utilisant déjà Skype pour Business Online déjà comme leur fournisseur de services peuvent obtenir des données d’utilisation consulté dans le **Skype pour le centre d’administration de Business** > **rapports** > rapport de**détails d’utilisation PSTN** .
   
-Lorsque vous configurez Communications générique, vous devez examiner l’utilisation des appels pour votre organisation déterminer les montants que vous devrez mettre dans. Ces informations sont disponibles dans le rapport **Détails de l'utilisation RTC**. Ce rapport permet d’exporter les enregistrements de données d’appel vers Excel si vous souhaitez exporter les données pour le stockage ou créer des rapports personnalisés. Pour l’utilisation, consultez [Skype pour le rapport d’utilisation PSTN Business](/SkypeForBusiness/skype-for-business-online-reporting/pstn-usage-report)
+Lorsque vous configurez Communications générique, vous devez examiner l’utilisation des appels de votre organisation déterminer les montants dont vous avez besoin. Ces informations sont disponibles dans le rapport **Détails de l'utilisation RTC**. Ce rapport permet d’exporter les enregistrements de données d’appel vers Excel si vous souhaitez stocker les données ou la création de rapports personnalisés. Pour plus d’informations, voir Utilisation, lisez [Skype pour le rapport d’utilisation PSTN de l’entreprise](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report).
   
 ## <a name="step-3-assign-a-communications-credits-license-to-users"></a>Étape 3 : Attribuer une licence crédits Communications aux utilisateurs
 
@@ -102,7 +104,7 @@ Lorsque vous configurez Communications générique, vous devez examiner l’util
 
 Vous pouvez voir les plans et les prix à partir d’un des liens suivants :
   
-- [Offres d'appels](https://go.microsoft.com/fwlink/?LinkId=799761 )
+- [Forfaits d’appel](https://go.microsoft.com/fwlink/?LinkId=799761 )
     
 - [Plans de services d’audioconférence](https://go.microsoft.com/fwlink/?LinkId=799762 )
     
@@ -114,9 +116,9 @@ Pour obtenir un tableau avec la licence ou les licences que vous aurez besoin po
   
 ## <a name="related-topics"></a>Rubriques connexes
 
-- [Configurer Skype Entreprise Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
+- [Configurer Skype entreprise Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     
-- [Configurer la messagerie vocale du système téléphonique - Aide pour l'administrateur](set-up-phone-system-voicemail.md)
+- [Configuration de la messagerie vocale Cloud-Aide pour l'administrateur](set-up-phone-system-voicemail.md)
     
 - [Configurer des Forfaits d’appels](set-up-calling-plans.md) et [Forfaits d’appels pour Office 365](calling-plans-for-office-365.md)
     

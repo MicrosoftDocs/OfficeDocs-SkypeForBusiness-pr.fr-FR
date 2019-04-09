@@ -14,12 +14,12 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 description: Ce document décrit le comportement de la conversation, le routage des appels et la présence entre les utilisateurs des équipes et Skype pour les entreprises, de client et fédérés, selon les modes TeamsUpgrade affectés. Il inclut les optimisations de routage, le comportement de présence, ainsi que la modification du mode de TeamsUpgrade par défaut à partir de *hérité* *Îles* et la mise hors service imminente de *hérité*.
-ms.openlocfilehash: c6343b7f62249dab6e02c1e42fce1cc567f5035a
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 44510afdf77510de447bcded2b8a2135b71557a1
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569709"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517215"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Coexistence avec Skype Entreprise
 
@@ -27,8 +27,6 @@ Coexistence et l’interopérabilité entre les utilisateurs et Skype pour les c
 
 Mode TeamsUpgrade, par défaut ou explicitement par l’administrateur système toujours être affecté à un utilisateur donné. La valeur par défaut est *(îles)*. Les utilisateurs de la mise à niveau vers les équipes ont le mode de *TeamsOnly*. *SfBOnly*, *SfBWithTeamsCollab*et *SfBWithTeamsCollabAndMeetings* sont également possibles modes.
 
-> [!NOTE]
-> Mode *hérité* est déconseillé ; les utilisateurs qui ont été mode *hérité* ont été convertis en mode *(îles)* .
 
 ## <a name="routing-parameters"></a>Paramètres de routage
 
@@ -49,9 +47,9 @@ Les paramètres qui déterminent la méthode de routage de thread sont les suiva
 - Si la conversation est nouveau, ou une partie d’un thread existant
 - Si la conversation est fédérés ou de client
 - Si la conversation est possible
-    - Interopérabilité *de client* nécessite que le client est exclusivement en ligne ou Skype pour un environnement hybride Business. Clients purement locaux ne peut pas avoir d’interopérabilité de client.
+    - Interopérabilité *de client* nécessite que le client est exclusivement en ligne ou Skype pour un environnement hybride Business. Purement locale locataires ne peut pas avoir d’interopérabilité de client.
     - *Fédération entre client* requiert toujours Skype approprié pour configuration de fédération Business ainsi que de configuration de fédération équipes correcte dans les deux clients. Skype pour un environnement hybride Business n’est pas nécessaire d’un client.
-    - Si le Skype pour un compte professionnel de l’expéditeur est hébergée sur site, que l’utilisateur ne peut pas utiliser le client d’équipes pour l’interopérabilité in client ou pour la fédération. Cet utilisateur peut utiliser uniquement la Skype pour client d’entreprise pour l’interopérabilité et la fédération.
+    - Si le Skype pour un compte professionnel de l’expéditeur est hébergés sur un système local, que l’utilisateur ne peut pas utiliser le client d’équipes pour l’interopérabilité in client ou pour la fédération. Cet utilisateur peut utiliser uniquement la Skype pour client d’entreprise pour l’interopérabilité et la fédération.
     - Aux équipes de communication équipes est toujours possible de client.
 
 > [!NOTE]
@@ -61,7 +59,7 @@ Les paramètres qui déterminent la méthode de routage de thread sont les suiva
 
 ## <a name="in-tenant-routing-for-new-chats-or-calls"></a>Routage des appels ou conversations nouveau client 
 
-Les tableaux ci-dessous capturer le routage des appels et le client de conversation et sont valides pour les nouveaux appels ou des conversations qui ne sont pas démarrées à partir d’un thread préexistant. Il décrit également le client reçoit un nouvel appel ou une conversation, si à l’origine par un utilisateur à un utilisateur destinataire dans client sur la droite, gauche.
+Les tableaux ci-dessous capturer le routage des appels et le client de conversation et sont valides pour les nouveaux appels ou des conversations qui ne sont pas démarrées à partir d’un thread existant. Il décrit également le client reçoit un nouvel appel ou une conversation, si à l’origine par un utilisateur à un utilisateur destinataire dans client sur la droite, gauche.
 
 Messages envoyés aux utilisateurs TeamsOnly acheminera toujours aux équipes. Les messages envoyés au SfB\* utilisateurs acheminera toujours à Skype pour les entreprises, si la conversation n’est possible, comme indiqué ci-dessus. Messages envoyés aux utilisateurs (îles) achemine toujours sur le même client à partir de laquelle ils ont été envoyés.
 
@@ -178,8 +176,6 @@ Pour savoir quel comportement s’attendre, vous devez comprendre que la présen
     * Équipes, les autres utilisateurs dans un client fédéré verront Skype de l’utilisateur (îles) pour la présence de l’entreprise ; Il est aligné sur la table de routage fédérée ci-dessus
     * À partir de Skype pour les entreprises, les autres utilisateurs verront Skype de l’utilisateur (îles) pour la présence d’entreprise (dans client et fédéré) ; Il est aligné sur les tables de routage ci-dessus
 
-> [!NOTE]
-> Il s’agit d’une modification récente de l’implémentation précédente (appelée présence unifiée) montrant la présence d’un combiné, agrégée des équipes et Skype de la cible pour les clients d’entreprise. Cette approche précédente est la confusion pour les utilisateurs car elle produirait fréquemment dans l’affichage de présence imprécises, c'est-à-dire un utilisateur n’est pas accessible même si leur présence montré les en ligne.
 
 ## <a name="in-tenant-presence"></a>Présence dans le client
 
@@ -216,5 +212,6 @@ Pour aligner la présence et l’accessibilité dans les threads existants, la p
 En particulier, si un destinataire précédemment un thread de conversation interopérabilité permanente avec a été mis à niveau vers des équipes que thread ne reflète plus précis présence et ne pourra plus être routable. Vous devez démarrer un nouveau thread.
 
 ## <a name="related-links"></a>Liens connexes
+[Guide de la migration et de l’interopérabilité pour les organisations qui utilisent Teams avec Skype Entreprise](https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype)
 
 [Vidéo : Gérer la Coexistence et l’interopérabilité entre les équipes et SfB](https://www.youtube.com/watch?v=wEc9u4S3GIA&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl&index=11)

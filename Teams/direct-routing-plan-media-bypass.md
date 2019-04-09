@@ -1,5 +1,5 @@
 ---
-title: Planification du contournement de média avec le routage Direct
+title: Planifier le contournement de média avec un routage direct
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -15,14 +15,14 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Lisez cette rubrique pour savoir comment planifier le contournement de média avec le routage d’un système téléphonique Direct.
-ms.openlocfilehash: 6a152fed20dde9d641abfab1bdba7b211f2dcdb9
-ms.sourcegitcommit: 27cf21fb02632e9f65dfa2f995120fb927114b3d
+ms.openlocfilehash: 308150121733f5f135d248404c663634ddaeea7c
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30649211"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517246"
 ---
-# <a name="plan-for-media-bypass-with-direct-routing"></a>Planification du contournement de média avec le routage Direct
+# <a name="plan-for-media-bypass-with-direct-routing"></a>Planifier le contournement de média avec un routage direct
 
 ## <a name="about-media-bypass-with-direct-routing"></a>Sur le contournement de média avec le routage Direct
 
@@ -47,7 +47,7 @@ Mais supposons qu’un utilisateur est dans la même construction ou réseau en 
 
 ![Affiche la signalisation et les flux multimédias avec contournement de média](media/direct-routing-media-bypass-2.png)
 
-Protocoles exploite appelées établissement ICE (Interactive Connectivity) sur le client d’équipes et ICE clair sur le contrôleur SBC du contournement de média. Ces protocoles permettent de routage Direct à utiliser le chemin d’accès des médias plus directe pour une qualité optimale. ICE et clair ICE sont des normes WebRTC. Pour plus d’informations sur ces protocoles, voir RFC 5245.
+Protocoles exploite appelées établissement ICE (Interactive Connectivity) sur le client d’équipes et ICE clair sur le contrôleur SBC du contournement de média. Ces protocoles permettent de routage Direct à utiliser le chemin d’accès des médias plus directe pour une qualité optimale. ICE et Lite ICE sont des normes WebRTC. Pour plus d’informations sur ces protocoles, voir RFC 5245.
 
 
 ## <a name="call-flow-and-firewall-planning"></a>Flux des appels et la planification de pare-feu
@@ -136,7 +136,7 @@ Dans le chemin d’accès des médias pour les appels non contourné pour les ut
 Dans le chemin d’accès des médias pour les appels ignorés pour les utilisateurs finaux | Jamais | Si le client ne peut pas joindre le contrôleur SBC sur l’adresse IP publique | 
 Dans le chemin d’accès des médias pour les applications vocales | Toujours | Jamais | 
 Peut faire transcodage (B2BUA)\* | Oui | Non, seulement relaie audio entre les points de terminaison | 
-Nombre d’instancess dans le monde et l’emplacement | 8 au total : 2 nous est et l’ouest ; 2 dans Amsterdam et Dublin ; 2 de Hong Kong et Singapour ; 2 au Japon (ajouté dans Q1CY2019)  | Plusieurs
+Nombre d’instances dans le monde et l’emplacement | 8 au total : 2 nous est et l’ouest ; 2 dans Amsterdam et Dublin ; 2 de Hong Kong et Singapour ; 2 au Japon (ajouté dans Q1CY2019)  | Plusieurs
 
 La plage IP est 52.112.0.0 /14 (adresses IP de 52.112.0.1 à 52.115.255.254). 
 
@@ -154,7 +154,7 @@ Relais de Transport d’équipes sont toujours dans le chemin d’accès des mé
 - Appel sur le point d’un utilisateur fédéré d’équipes
 - Appel est transféré ou transféré vers un Skype pour utilisateur professionnel
 
-Enusre votre contrôleur SBC a accès aux relais de Transport comme décrit ci-dessous.    
+Vérifiez que votre contrôleur SBC a accès aux relais de Transport comme décrit ci-dessous.    
 
 
 ## <a name="sip-signaling-fqdns-and-firewall-ports"></a>Signalisation SIP : Noms de domaine complets et les ports du pare-feu
@@ -220,7 +220,7 @@ La plage de ports des équipes Transport relais est indiquée dans le tableau su
 | Trafic | De | À | Port source | Port de destination|
 | :-------- | :-------- |:-----------|:--------|:---------|
 UDP/SRTP | Relais de transport | SBC | 50 000-59 999    | Défini sur le contrôleur SBC |
-| UDP/SRTP | SBC | Relais de transport | Défini sur le contrôleur SBC | 50 000 – 59 9999, 3478, 3479     |
+| UDP/SRTP | SBC | Relais de transport | Défini sur le contrôleur SBC | 50 000 – 59 999, 3478, 3479     |
 
 
 Remarque : Microsoft recommande au moins deux ports par appel simultané sur le contrôleur SBC. Étant donné que Microsoft a deux versions de relais de Transport, les éléments suivants sont requis :
@@ -289,7 +289,7 @@ Si vos utilisateurs préfèrent équipes Web app dans Microsoft Edge, Google Chr
  
 ## <a name="see-also"></a>Voir aussi
 
-[Configurer le contournement de média avec le routage Direct](direct-routing-configure-media-bypass.md)
+[Configurer le contournement de média avec un routage direct](direct-routing-configure-media-bypass.md)
 
 
 

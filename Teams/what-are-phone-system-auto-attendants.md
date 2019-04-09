@@ -1,5 +1,5 @@
 ---
-title: Quels sont les standards automatiques du système téléphonique?
+title: Quelles sont les standards automatiques de système téléphonique ?
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -22,14 +22,14 @@ f1keywords: ms.teamsadmincenter.autoattendants.overview
 ms.custom:
 - Phone System
 description: Découvrez quelles sont les standards automatiques de système téléphonique et comment les utiliser.
-ms.openlocfilehash: 03eec73f8274ab9b5cbe67624b0ef1158d548a4a
-ms.sourcegitcommit: 89b866a3c383555f6f89dc77bebd74cddf9e40fb
+ms.openlocfilehash: 1f5d54308836f0677db26e63003ab04c60ef395a
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31003866"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517254"
 ---
-# <a name="what-are-phone-system-auto-attendants"></a>Quels sont les standards automatiques du système téléphonique?
+# <a name="what-are-phone-system-auto-attendants"></a>Quelles sont les standards automatiques de système téléphonique ?
 
 Système téléphonique dans Office 365 fournit des standards automatiques, qui peuvent être utilisés pour permettre aux externe et internes appelants déplacement dans un système de menus pour localiser et placer ou transférer des appels vers les utilisateurs de la société ou département au sein de votre organisation.
   
@@ -76,7 +76,7 @@ Avant de commencer à utiliser les standards automatiques, il est impératif de 
 
 ### <a name="dial-by-name"></a>Numérotation par nom
 
-Numérotation par nom est une fonctionnalité d’un standard automatique est également appelé recherche dans l’annuaire. Il permet des personnes qui appeler votre standard automatique afin d’utiliser la voix (reconnaissance vocale) ou leurs réponses du pavé numérique (DTMF) téléphone pour entrer un nom complet ou partiel à rechercher l’annuaire d’entreprise, recherchez la personne et puis transférer l’appel correspondantes. Utilisateurs qui ont trouve et atteinte à l’aide de la numérotation par nom **ne sont pas obligatoires pour avoir un numéro de téléphone ou leur appel Plans attribuez, mais ils doivent disposer d’une licence de système téléphonique**. Numérotation par nom pourront même rechercher et transférer des appels aux utilisateurs de Microsoft Teams qui sont hébergées dans plusieurs pays ou régions pour les organisations multinationale.
+Numérotation par nom est une fonctionnalité d’un standard automatique est également appelé recherche dans l’annuaire. Il permet des personnes qui appeler votre standard automatique afin d’utiliser la voix (reconnaissance vocale) ou leurs réponses du pavé numérique (DTMF) téléphone pour entrer un nom complet ou partiel à rechercher l’annuaire d’entreprise, recherchez la personne et puis transférer l’appel correspondantes. Utilisateurs qui ont trouve et atteinte à l’aide de la numérotation par nom **ne sont pas obligatoires pour avoir un numéro de téléphone ou leur appel Plans attribuez, mais ils doivent avoir une licence de système téléphonique si elles sont des utilisateurs en ligne ou EV activé pour local, les utilisateurs**. Numérotation par nom pourront même rechercher et transférer des appels aux utilisateurs de Microsoft Teams qui sont hébergées dans plusieurs pays ou régions pour les organisations multinationale.
 
 ### <a name="maximum-directory-size"></a>Taille de l'annuaire maximale
 

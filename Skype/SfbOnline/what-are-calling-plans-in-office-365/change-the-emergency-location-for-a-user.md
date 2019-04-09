@@ -1,5 +1,5 @@
 ---
-title: Pour affecter ou modifier l’emplacement en cas d’urgence pour un utilisateur
+title: Affectation ou modification d’un emplacement d’urgence pour un utilisateur
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -20,15 +20,15 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 'Learn how to change the emergency location for your users. With an unlimited number of locations, you can change emergency locations as employees move floors or buildings. '
-ms.openlocfilehash: c55f8f51ee7d94ad3b9e0c91c0bb67c319a28c46
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+description: 'Découvrez comment modifier l’emplacement d’urgence pour vos utilisateurs. Avec un nombre illimité d’emplacements, vous pouvez modifier les emplacements d’urgence quand les employés se déplacement dans les étages ou les bâtiments. '
+ms.openlocfilehash: 79ba52d65dc87b36397d4d0a8df121ac1fec8262
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30046495"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31516941"
 ---
-# <a name="assign-or-change-the-emergency-location-for-a-user"></a>Pour affecter ou modifier l’emplacement en cas d’urgence pour un utilisateur
+# <a name="assign-or-change-the-emergency-location-for-a-user"></a>Affectation ou modification d’un emplacement d’urgence pour un utilisateur
 
 Chaque numéro de téléphone active doit disposer d’une adresse d’urgence associée lorsque vous attribuez le numéro de téléphone à un utilisateur. (Vous associez l’adresse lorsque vous recevez un numéro de téléphone dans Office 365, ou lorsque vous transférez un numéro de téléphone). Lorsque vous associez le nombre à une adresse d’urgence, vous pouvez également ajouter un emplacement d’urgence pour fournir un emplacement plus précis au sein d’un emplacement physique. Un emplacement d'urgence peut être l'étage, l'aile d'un bâtiment ou le numéro du bureau où se trouve l'utilisateur. Vous pouvez avoir un nombre illimité d’emplacements pour une adresse donnée en cas d’urgence, et vous pouvez modifier l’emplacement d’urgence si l’utilisateur se déplace vers une autre bureau ou bâtiment — par exemple, si l’utilisateur se déplace de l’étage 34 à l’étage 35.
   
@@ -60,6 +60,9 @@ Pour savoir comment obtenir des Forfaits d’appels dans Office 365 et leur coû
     Si vous souhaitez ajouter un nouvel emplacement en cas d’urgence qui apparaîtra dans la liste, voir [Ajouter, modifier ou supprimer un emplacement en cas d’urgence pour votre organisation](add-change-or-remove-an-emergency-location-for-your-organization.md).
     
 ## <a name="related-topics"></a>Rubriques connexes
+
+[Attribuer une situation d’urgence sites via powershell](https://github.com/MicrosoftDocs/office-docs-powershell/blob/master/skype/skype-ps/skype/Set-CsOnlineVoiceUser.md)
+
 [Ajout ou suppression d'une adresse d'urgence pour votre organisation](add-or-remove-an-emergency-address-for-your-organization.md)
 
 [Ajouter, modifier ou supprimer un emplacement pour votre organisation d'urgence](add-change-or-remove-an-emergency-location-for-your-organization.md)

@@ -19,12 +19,12 @@ search.appverid: MET150
 description: Découvrez les stratégies d’installation des applications dans Microsoft Teams et comment les utiliser pour les applications de code confidentiel pour personnaliser les équipes pour les utilisateurs de votre organisation.
 f1keywords:
 - ms.teamsadmincenter.apppolicies.setup
-ms.openlocfilehash: 5633e5158a3f19ea8960e957b91537547d2580a1
-ms.sourcegitcommit: 5ed00e911a151d3ab834528f121db8653c25dc12
+ms.openlocfilehash: dc5800d6231245be1b562dbedef44608232f04c1
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "30747661"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517102"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Gérer les stratégies de mise en application dans Microsoft Teams
 
@@ -54,11 +54,12 @@ Vous pouvez utiliser le centre d’administration Microsoft Teams pour créer un
 1. Dans la navigation de gauche du centre d’administration Microsoft Teams, accédez aux **applications équipes** > **du programme d’installation de stratégies**.
 2. Sélectionnez **nouvelle stratégie**.
 3. Entrez un nom descriptif pour la stratégie, puis cliquez sur **Ajouter les applications**.
-4. Dans le volet **Ajouter épinglés des applications** , recherchez les applications que vous souhaitez ajouter, puis cliquez sur **Ajouter**. Vous pouvez également filtrer les applications à la stratégie d’autorisation application. Lorsque vous avez choisi votre liste des applications, cliquez sur **Ajouter**.
+4. Activer ou désactiver les **Autoriser à télécharger des applications personnalisées**, selon que vous souhaitez permettent aux utilisateurs de télécharger des applications personnalisées à des équipes.
+5. Dans le volet **Ajouter épinglés des applications** , recherchez les applications que vous souhaitez ajouter, puis cliquez sur **Ajouter**. Vous pouvez également filtrer les applications à la stratégie d’autorisation application. Lorsque vous avez choisi votre liste des applications, cliquez sur **Ajouter**.
 
      ![application-le programme d’installation-stratégies-ajouter-apps.png](media/app-setup-policies-add-apps.png)
 
-5. Organiser les applications dans l’ordre que vous souhaitez qu’il apparaît dans les équipes, puis cliquez sur **Enregistrer**.
+6. Organiser les applications dans l’ordre que vous souhaitez qu’il apparaît dans les équipes, puis cliquez sur **Enregistrer**.
 
     ![App-Setup-Policies-New-Policy-Setup.png](media/app-setup-policies-new-policy-setup.png)
 
@@ -173,6 +174,6 @@ Assurez-vous que vous suivez les instructions du logo avant de soumettre l’app
 
  ## <a name="related-topics"></a>Rubriques connexes
 - [Paramètres d'administration pour les applications dans Microsoft Teams](admin-settings.md)
-- [Gérer les stratégies d’autorisation application dans les équipes](teams-app-permission-policies.md)
-- [Gérer les paramètres dans les équipes et les stratégies d’application personnalisée](teams-custom-app-policies-and-settings.md)
+- [Gérer les stratégies d’autorisation d’application dans Teams](teams-app-permission-policies.md)
+- [Gérer les stratégies d’application personnalisée et les paramètres dans Teams](teams-custom-app-policies-and-settings.md)
 - [Publier une application dans le catalogue d’applications client à partir du client d’équipes](tenant-apps-catalog-teams.md)

@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: Cet article décrit comment configurer la console de salles d’équipes Microsoft et des périphériques.
-ms.openlocfilehash: fc1d50ffe6dd7415848e02571eab1484bd3dfe22
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.openlocfilehash: 9027057314d405788e81d4d27f9ce4e5d5649a48
+ms.sourcegitcommit: a505869a3cc2fe6fe4ee18bcbe99bf980aa91a86
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012612"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31520154"
 ---
 # <a name="configure-a-microsoft-teams-rooms-console"></a>Configurer une console Microsoft équipes salles
 
@@ -51,8 +51,9 @@ Installation de l’application de console Microsoft équipes salles requiert un
 2. Exécutez le script CreateSrsMedia.ps1 à partir d'une invite avec élévation de privilèges sur un ordinateur Windows 10.
 3. Suivez les instructions du script pour créer un disque d’installation de Microsoft équipes salles USB.
 
-> [!CAUTION]
-> Le nom du dossier dans lequel vous exécutez le support de script de création de ne peut pas contenir un espace. S’il existe un espace de nom de dossier, le script échouera.
+
+> [!TIP]
+> Chaque fois que le script CreateSrsMedia.ps1 démarre, la sortie écran inclut le nom d’un fichier journal ou d’une transcription de la session. S’il existe des problèmes liés à l’exécution du script, assurez-vous que vous disposez d’une copie de cette transcription disponible lors de la demande de prise en charge. 
 
 Le script CreateSrsMedia.ps1 automatise les tâches suivantes :
 

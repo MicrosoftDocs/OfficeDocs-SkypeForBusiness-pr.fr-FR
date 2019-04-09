@@ -1,5 +1,5 @@
 ---
-title: Définir les jours fériés dans Microsoft Teams
+title: Configurer des jours fériés dans Microsoft Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,14 +18,14 @@ appliesto:
 localization_priority: Normal
 f1keywords: None
 description: Découvrez comment configurer les jours fériés dans Microsoft Teams et les connecter à votre standard automatique.
-ms.openlocfilehash: ee88135a030aa1a20872b397b2709da40b3ab8e5
-ms.sourcegitcommit: 3d3a296f225ecbbee0b4cea67664ad7ab31ed1c2
+ms.openlocfilehash: 72feed025e43eb7242f75608534db45d74aca9c9
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30537755"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517118"
 ---
-# <a name="set-up-holidays-in-microsoft-teams"></a>Définir les jours fériés dans Microsoft Teams
+# <a name="set-up-holidays-in-microsoft-teams"></a>Configurer des jours fériés dans Microsoft Teams
 
 Vous pouvez utiliser la fonctionnalité de congés des équipes Microsoft pour planifier les dates spécifiques et de lorsque les personnes de votre organisation seront être prenez des congés à partir de travail n’est pas disponible pendant les heures ouvrables. 
 
@@ -55,7 +55,7 @@ Pour plus d’informations sur les standards automatiques, voir [Quelles sont le
 
 9. Cliquez sur **Enregistrer**.
 
-## <a name="change-a-holdiay"></a>Modifier un holdiay
+## <a name="change-a-holiday"></a>Modifier une période de congé
 
 1. Dans le centre d’administration Microsoft Teams, accédez à **paramètres à l’échelle de l’organisation** > **jours fériés**.
 

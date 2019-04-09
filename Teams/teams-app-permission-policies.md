@@ -19,16 +19,16 @@ search.appverid: MET150
 description: Découvrez les stratégies d’autorisation application dans Microsoft Teams et comment les utiliser pour contrôler les applications sont disponibles pour les utilisateurs de votre organisation.
 f1keywords:
 - ms.teamsadmincenter.apppolicies.overview
-ms.openlocfilehash: e88493e5ecb764f207ee0eebd9a46e68db3671cd
-ms.sourcegitcommit: 5ed00e911a151d3ab834528f121db8653c25dc12
+ms.openlocfilehash: 49200d597811d87ce27d94d9bb19577def6355c1
+ms.sourcegitcommit: a505869a3cc2fe6fe4ee18bcbe99bf980aa91a86
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "30747685"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31520223"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Gérer les stratégies d’autorisation d’application dans Microsoft Teams
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
+> [!INCLUDE [feature coming soon](includes/new-feature-coming-soon.md)]
 
 En tant qu’administrateur, vous pouvez utiliser des stratégies d’autorisation application pour contrôler les applications sont accessibles aux utilisateurs de Microsoft Teams dans votre organisation. Vous pouvez autoriser ou bloquer toutes les applications ou des applications spécifiques publiées par Microsoft, les fournisseurs tiers et votre organisation. Lorsque vous bloquez une application, les utilisateurs ne peuvent pas l’installer à partir de l’app store équipes.
 
@@ -178,5 +178,5 @@ Par exemple, lorsqu’une application est bloquée, les utilisateurs ne peut pas
 
  ## <a name="related-topics"></a>Rubriques connexes
 - [Paramètres d'administration pour les applications dans Microsoft Teams](admin-settings.md)
-- [Gérer les stratégies d’installation des applications dans les équipes](teams-app-setup-policies.md)
-- [Gérer les paramètres dans les équipes et les stratégies d’application personnalisée](teams-custom-app-policies-and-settings.md)
+- [Gérer les stratégies de mise en application dans Teams](teams-app-setup-policies.md)
+- [Gérer les stratégies d’application personnalisée et les paramètres dans Teams](teams-custom-app-policies-and-settings.md)

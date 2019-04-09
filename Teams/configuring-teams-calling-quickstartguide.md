@@ -1,5 +1,5 @@
 ---
-title: "Guide de démarrage rapide : Configuration des forfaits d'appels dans Microsoft Teams"
+title: Guide de démarrage rapide - Configuration des forfaits d'appels dans Microsoft Teams
 author: arachmanGitHub
 ms.author: MyAdvisor
 manager: serdars
@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: MyAdvisor, lolaj
 search.appverid: MET150
-description: Guide de démarrage rapide pour la configuration des forfaits d'appels dans Microsoft Teams.
+description: Guide de démarrage rapide pour la configuration des plans d’appel dans Microsoft Teams.
 localization_priority: Normal
 MS.collection:
 - Teams_ITAdmin_PracticalGuidance
@@ -16,43 +16,43 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7cd8f5a2d0402418bb2a8c0e5a2c20bc95aeef68
-ms.sourcegitcommit: 2dd1369e5112b0c4ed7c6b0be8a17489b71f494a
+ms.openlocfilehash: 980bb0ad6602cc25df5743f1932fbc76092e7842
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30469745"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31516822"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>Guide de démarrage rapide : Configuration des forfaits d'appels dans Microsoft Teams
 ==============================================================
 
-Ce guide vous aidera à définir un ensemble d'utilisateurs prêts à utiliser les forfaits d'appels dans Teams.
+Ce guide vous aidera à obtenir un ensemble d’utilisateurs up et en cours d’exécution afin qu’ils peuvent Explorer appelant Plans dans les équipes.
 
-Lisez l'annonce du 12 décembre 2017 sur les forfaits d'appels dans Teams : [Les communications intelligentes passent la vitesse supérieure avec les appels dans Teams](https://aka.ms/ipyqus)
+Lire l’annonce 12 décembre 2017, des Plans de l’appel dans les équipes : [Communications Intelligent prend l’étape suivante avec l’appel dans les équipes](https://aka.ms/ipyqus)
 
 > [!NOTE]
 > Nous vous recommandons, en parallèle avec ce guide de démarrage rapide, lire [Système téléphonique avec des Plans de l’appel](calling-plan-landing-page.md) et [FastTrack](https://aka.ms/cloudvoice) plan et lecteur de réussir votre déploiement.
 
-En ajoutant les forfaits d'appels (une fonction Office 365 avec Skype Entreprise), vous pouvez désormais utiliser Teams pour passer et recevoir des appels téléphoniques de ou vers des lignes fixes et mobiles via le réseau téléphonique commuté (PSTN).
+En ajoutant l’appel Plans - une fonctionnalité Office 365 par Skype pour les entreprises - vous pouvez maintenant utiliser des équipes pour émettre et recevoir des appels téléphoniques vers ou à partir des lignes terrain et téléphones mobiles via le réseau téléphonique commuté (RTC).
 
-![Appel dans Teams](media/Calling_in_Teams.png)
-## <a name="prerequisites-for-enabling-the-calls-tab-in-teams"></a>Prérequis à l'activation de l'onglet **Appels** dans Teams
-Pour activer l’onglet **appels** dans les équipes, les utilisateurs doivent disposer de 1:1 appel activé dans les équipes et à l’aide d’un client équipes qui prend en charge les équipes de 1:1 appel. Pour savoir comment gérer l’appel de 1:1 dans les équipes, consultez [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps). Pour savoir quels clients prennent en charge l’appel, lisez [les spécifications pour les équipes Microsoft et limites](https://docs.microsoft.com/en-us/microsoftteams/limits-specifications-teams).
+![L’appel dans les équipes](media/Calling_in_Teams.png)
+## <a name="prerequisites-for-enabling-the-calls-tab-in-teams"></a>Conditions requises pour l’activation de l’onglet **appels** dans les équipes
+Pour activer l’onglet **appels** dans les équipes, les utilisateurs doivent disposer de 1:1 appel activé dans les équipes et à l’aide d’un client équipes qui prend en charge les équipes de 1:1 appel. Pour savoir comment gérer l’appel de 1:1 dans les équipes, consultez [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps). Pour savoir quels clients prennent en charge l’appel, lisez [les spécifications pour les équipes Microsoft et limites](https://docs.microsoft.com/microsoftteams/limits-specifications-teams).
 
 > [!NOTE]
 > Actuellement, la messagerie vocale ne sera pas disponible dans l’onglet appels, sauf si l’utilisateur est activé pour les appels PSTN. 
 
 ## <a name="prerequisites-for-enabling-the-dial-pad-in-teams"></a>Conditions requises pour l’activation du **Pavé de numérotation** dans les équipes
-Pour activer l’onglet **Pavé de numérotation** dans les équipes et autoriser les utilisateurs à émettre et recevoir des appels PSTN, vous devrez mettre en service des utilisateurs pour le système téléphonique et Plans de l’appel. Pour savoir comment configurer des Plans de l’appel, lisez [configurer des Plans de l’appel](https://docs.microsoft.com/en-us/microsoftteams/set-up-calling-plans).
+Pour activer l’onglet **Pavé de numérotation** dans les équipes et autoriser les utilisateurs à émettre et recevoir des appels PSTN, vous devrez mettre en service des utilisateurs pour le système téléphonique et Plans de l’appel. Pour savoir comment configurer des Plans de l’appel, lisez [configurer des Plans de l’appel](https://docs.microsoft.com/microsoftteams/set-up-calling-plans).
 
 > [!NOTE]
-> Vous pouvez également utiliser le routage Direct pour autoriser les utilisateurs à ext et de recevoir des appels PSTN. Pour savoir comment configurer le routage Direct, consultez [Configurer le routage Direct](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-configure).
+> Vous pouvez également utiliser le routage Direct pour autoriser les utilisateurs à émettre et recevoir des appels PSTN. Pour savoir comment configurer le routage Direct, consultez [Configurer le routage Direct](https://docs.microsoft.com/microsoftteams/direct-routing-configure).
 
 ## <a name="using-teamsupgradepolicy-to-control-where-calls-land"></a>À l’aide de TeamsUpgradePolicy au contrôle où les appels atteindre
 Pour contrôler si les appels entrants (et salles de conversation) atteindre dans des équipes ou Skype pour les entreprises, les administrateurs utilisent TeamsUpgradePolicy, à l’aide d’un [Centre d’administration de Microsoft équipes](https://aka.ms/teamsadmincenter) ou une session Windows PowerShell à distance avec la [Skype pour les entreprises](https://docs.microsoft.com/powershell/module/skype) applets de commande.
 
 
-La configuration par défaut de TeamsUpgradePolicy est le mode (îles), qui est conçu pour s’assurer que des professionnels de flux de travail n’est pas interrompu pendant un déploiement d’équipes. Par défaut, les appels de type Voix sur IP, RTC et fédérés vers vos utilisateurs continuent d'être acheminés vers Skype Entreprise jusqu'à la mise à jour de la stratégie permettant d'activer les appels entrants vers Teams.  Lorsque les destinataires sont en mode (îles) :
+La configuration par défaut de TeamsUpgradePolicy est le mode (îles), qui est conçu pour s’assurer que des professionnels de flux de travail n’est pas interrompu pendant un déploiement d’équipes. Par défaut, VoIP, PSTN et les appels fédérés à vos utilisateurs continuera à être acheminés vers Skype pour les entreprises jusqu'à ce que vous mettez à jour la stratégie pour activer les appels entrants aux équipes.  Lorsque les destinataires sont en mode (îles) :
 
  - VOIP entrant appelle que Skype origine dans for Business toujours terrestre dans Skype du destinataire pour le client d’entreprise.
  - VOIP entrant appelle à l’origine de terrain d’équipes dans les équipes, *Si l’expéditeur et le destinataire sont sur le même client*.
@@ -76,7 +76,7 @@ Pour garantir que les utilisateurs reçoivent tous les appels entrants VOIP et P
 
 [Guide de la migration et de l’interopérabilité pour les organisations qui utilisent Teams avec Skype Entreprise](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)
 
-[Système téléphonique avec forfaits d’appels](calling-plan-landing-page.md)
+[Système téléphonique avec les Plans d’appel](calling-plan-landing-page.md)
 
-[Référence de l'applet de commande PowerShell de Skype Entreprise](https://docs.microsoft.com/powershell/module/skype)
+[Skype pour référence d’applet de commande PowerShell Business](https://docs.microsoft.com/powershell/module/skype)
 

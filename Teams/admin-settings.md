@@ -3,12 +3,12 @@ title: Paramètres d'administration pour les applications dans Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/12/2018
+ms.date: 03/18/2018
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-ms.reviewer: ritikag
-description: Découvrez comment autoriser et activer des applications dans Microsoft Teams, y compris le chargement de version test d'applications externes.
+ms.reviewer: ritikag, lajin
+description: Découvrez les stratégies et les paramètres que vous pouvez utiliser pour gérer les applications pour votre organisation dans Microsoft Teams.
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
@@ -18,54 +18,54 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad61e412bbbe0a880a279179f40124895d6e38a5
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 034ac8eeb5529179013540b1911a7bbc34b49014
+ms.sourcegitcommit: a505869a3cc2fe6fe4ee18bcbe99bf980aa91a86
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30568407"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31520147"
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Paramètres d'administration pour les applications dans Microsoft Teams
 ==========================================
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-Les applications sont des onglets, des connecteurs, des robots ou n’importe quelle combinaison de ces trois fournies par les équipes (applications internes et également appelé applications par défaut) ou par un tiers (également appelées applications externes). Dans le centre d’administration Microsoft 365, vous pouvez activer et désactiver des applications par défaut et configurer les paramètres pour contrôler les applications externes. Ces paramètres vous permettent de spécifier les applications externes sont autorisées et non autorisées, le nouveau comportement de l’application externe, et si les applications côté-chargement est autorisé.
+> [!INCLUDE [feature coming soon](includes/new-feature-coming-soon.md)]
 
- Pour gérer les paramètres d’administration pour les applications dans les équipes, accédez au centre d’administration Microsoft 365 et choisissez **paramètres** > **compléments Services &** > **Équipes Microsoft**. Si vous êtes connecté en tant qu’administrateur d’Office 365, ce lien vous dirige sur cette option :
+Applications fournissent des outils out-of-the-box pour votre organisation obtenir le meilleur parti possible d’équipes. Ces applications de combinent les fonctionnalités des onglets, des extensions de messagerie, connecteurs et des robots fournis par Microsoft, généré par un tiers ou par les développeurs dans votre organisation.
 
-https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns 
+Gérer des applications pour votre organisation dans les **applications d’équipes** dans le centre d’administration Microsoft Teams. Vous pouvez définir des stratégies pour contrôler les applications sont accessibles aux utilisateurs d’équipes au sein de votre organisation, personnaliser les équipes par l’épinglage applications les plus importantes pour vos utilisateurs et spécifier si les utilisateurs peuvent télécharger des applications personnalisées (également appelé chargement de version test). Ces stratégies et paramètres permettent de contrôler avec les applications sont disponibles et comment ils apparaissent dans les équipes qui peut utiliser en fonction des besoins de votre organisation.
 
-Pour en savoir plus sur les paramètres d’administration, regardez la vidéo suivante : 
- 
-|  |  |
-|---------|---------|
-| Gestion de l’expérience des applications dans Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/CHnpw1O7EgM" frameborder="0" allowfullscreen></iframe>     | 
+## <a name="app-permission-policies"></a>Stratégies d’autorisation des applications
 
-## <a name="allow-external-apps-in-teams"></a>Autoriser les applications externes dans Teams
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-Par défaut, le paramètre **Autoriser les applications externes dans Microsoft Teams** est activé avec toutes les applications sélectionnées. Si vous désactivez ce paramètre, toutes les applications tierces externes sont désactivées. 
+Avec les stratégies d’autorisation app, vous pouvez bloquer ou autoriser des applications, à l’échelle de l’organisation ou des utilisateurs spécifiques.  Lorsque vous bloquez une application, toutes les interactions avec cette application sont désactivées et l’application n’apparaît pas dans les équipes pour les utilisateurs.
 
-## <a name="enable-new-external-apps-by-default"></a>Activer les applications externes nouvelles par défaut
+Par exemple, vous pouvez utiliser des stratégies d’autorisation app à :
 
-#### <a name="trophy-best-practice-manage-external-apps-individually"></a>:trophée : meilleure pratique : gérer les applications externes individuellement 
- 
-Pour activer certaines applications (et en désactiver d'autres), désactivez l'option **Autoriser le chargement de version test d'applications externes**. Ensuite, désactivez les applications que vous ne voulez pas que les utilisateurs utilisent. Facultatif : désactivez l'option **Activer les applications externes nouvelles par défaut** (si vous souhaitez contrôler les nouvelles applications). 
+- Désactiver une application qui pose une autorisation ou un risque de perte de données pour votre organisation.
+- Déployer progressivement nouveau tiers ou personnalisées applications intégrées à des utilisateurs spécifiques.
+- Simplifier l’expérience utilisateur, en particulier lorsque vous démarrez présentant des équipes au sein de votre organisation.
 
-> [!NOTE]
-> Applications par défaut, telles que celles créées par Microsoft, ne sont pas affectées par le paramètre **activer de nouvelles applications externes par défaut** . Nouvelles applications sont activées par défaut lorsque l’utilisateur relâche par Microsoft.
+Pour plus d’informations, accédez à des [stratégies d’autorisation Gérer les applications dans les équipes](teams-app-permission-policies.md).
 
-Lorsque ce paramètre est activé, les utilisateurs peuvent activer des nouvelles applications dès qu’elles sont ajoutées au catalogue d’applications équipes. Pour ouvrir le catalogue d'applications Teams, cliquez sur **Store** en bas de Teams et cliquez sur **Applications**. Si vous souhaitez contrôler les applications qui sont disponibles, désactivez ce paramètre. Bien sûr, si vous la désactivez, n'oubliez pas de vérifier régulièrement les nouvelles applications afin que votre organisation ne passe pas à côté de nouvelles applications intéressantes. 
+## <a name="app-setup-policies"></a>Stratégies d’installation des applications
 
-Le chargement de version test consiste à ajouter un application à Teams en chargeant un fichier .zip directement dans une équipe. Le chargement de version test vous permet de tester une application au fur et à mesure qu'elle est développée. Il vous permet également de créer une application à des fins d'utilisation interne uniquement et de la partager avec votre équipe sans l'envoyer dans le catalogue d'applications Teams dans l'Office Store. 
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-Seuls les propriétaires ou membres d'équipes autorisés peuvent charger la version test d'une application dans Teams.  
+Stratégies d’application du programme d’installation vous permettent de personnaliser l’expérience d’application pour vos utilisateurs. Vous choisissez les applications que vous souhaitez ajouter à la barre d’application dans les clients des équipes et l’ordre dans lequel ils apparaissent, sur le web, de bureau et les clients mobiles.
 
-![Capture d’écran de la section applications externes développée.] (media/teams-tenant-wide-settings-external-apps.png "Capture d’écran de la section applications externes développée avec des applications externes")
+Voici quelques exemples d’utilisation des stratégies de paramétrage d’application :
+- Lecteur de sensibilisation et adoption d’applications cœur. Par exemple, ajouter une application de gestion des compétences et de recrutement personnalisée pour les utilisateurs de votre équipe de ressources humaines.
+- Épingler fonctionnalités équipes, telles que la conversation, équipes et appeler de manière sélective. Cela peut vous aider les utilisateurs effectuent des actions spécifiques au sein des équipes.
 
-## <a name="creating-and-uploading-app-packages"></a>Création et chargement de packages d'application 
+Pour plus d’informations, consultez la rubrique [Gérer les stratégies du programme d’installation des applications dans les équipes](teams-app-setup-policies.md).
 
-Pour en savoir plus sur les applications, voir [Develop apps pour les équipes](https://docs.microsoft.com/microsoftteams/platform/concepts/apps/apps-overview). 
+## <a name="custom-app-policies-and-settings"></a>Paramètres et les stratégies d’application personnalisée
 
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
+Les équipes permet aux développeurs de votre organisation à créer, tester et déployer des applications personnalisées à d’autres utilisateurs. Applications personnalisées peuvent être ajoutées aux équipes en les téléchargeant un package d’application dans un fichier .zip directement à une équipe ou dans le contexte de personnel. Vous pouvez utiliser des stratégies de configuration des applications pour contrôler les personnes dans votre organisation peuvent télécharger des applications personnalisées. Vous pouvez également définir des paramètres à l’échelle de l’organisation pour contrôler si les utilisateurs peuvent interagir avec des applications personnalisées spécifiques.
 
+Pour plus d’informations, accédez à [paramètres dans les équipes et gérer les stratégies d’application personnalisée](teams-custom-app-policies-and-settings.md).

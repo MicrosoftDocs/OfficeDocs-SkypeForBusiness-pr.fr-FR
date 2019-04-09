@@ -14,12 +14,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 560e1f81db6e8150bcd8d686747bfb297cbfcf84
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: bdb998587eefd0eb15477b26799d487e041df220
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569981"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31516798"
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Interaction entre Exchange et Microsoft Teams 
 =========================================
@@ -27,7 +27,7 @@ ms.locfileid: "30569981"
 > [!Tip]
 > Regarder la session suivante pour savoir comment les équipes interagit avec Azure Active Directory (DAS), groupes d’Office 365, Exchange, SharePoint et OneDrive for Business : [Notions de base sur les équipes de Microsoft](https://aka.ms/teams-foundations)
 
-Pour profiter pleinement de Microsoft Teams, Exchange Online, SharePoint Online et la création de groupes Office 365 doivent être activés pour chaque utilisateur.
+Pour profiter pleinement de Teams, Exchange Online, SharePoint Online et la création de groupes Office 365 doivent être activés pour chaque utilisateur.
 
 Les boîtes aux lettres Exchange des utilisateurs peuvent être hébergées en ligne ou sur site. Les utilisateurs hébergés sur Exchange Online ou sur vNext Exchange dédié peuvent utiliser toutes les fonctionnalités de Microsoft Teams. Ils peuvent créer et rejoindre des équipes et des canaux, créer et afficher des réunions, participer à des conversations et des appels, modifier les images de profil utilisateur, ajouter et configurer des connecteurs, des onglets et des bots, et participer à des conversations et des appels.
 
@@ -66,13 +66,15 @@ Informations complémentaires :
 
 -   Dans Microsoft Teams, les fonctions de sécurité et de conformité, telles que eDiscovery, la recherche de contenu, l'archivage et la conservation légale sont plus efficaces dans les environnements Exchange Online et SharePoint Online. Dans le cas de conversations de canal, les messages sont journalisés dans la boîte aux lettres du groupe dans Exchange Online et peuvent être utilisés par eDiscovery. Si SharePoint Online et OneDrive Entreprise (avec un compte professionnel ou scolaire) sont activés pour les utilisateurs dans l'organisation, ces fonctionnalités de conformité sont également disponibles pour l'ensemble des fichiers dans Teams.
 
--   Pour Exchange local, vous devez configurer le nouveau protocole d’authentification OAuth Exchange comme décrit dans [l’authentification OAuth configurer entre des organisations Exchange et Exchange Online](https://technet.microsoft.com/en-us/library/dn594521(v=exchg.150).aspx). 
+-   Pour Exchange local, vous devez configurer le nouveau protocole d’authentification OAuth Exchange comme décrit dans [l’authentification OAuth configurer entre des organisations Exchange et Exchange Online](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help). 
+
+-  Contrôler et protéger la configuration des stratégies de conformité dans Exchange à l’aide d’accès conditionnel et les équipes. Pour plus d’informations, voir [comment fonctionnent les stratégies d’accès conditionnel pour les équipes ?](security-compliance-overview.md#how-do-conditional-access-policies-work-for-teams) .
 
 > [!NOTE]
 > Actuellement, si votre organisation a des exigences de conformité exigeant que toutes les discussions en réunion puissent être découvertes, vous devez désactiver les réunions privées si l’organisateur dispose d’une boîte aux lettres sur site Exchange.
 > 
 > [!IMPORTANT]
-> Dans un déploiement Exchange hybride, le contenu des messages de conversation est consultable que participants conversation disposent d’une boîte aux lettres en nuage ou une boîte aux lettres locale. Pour plus d’informations, consultez [recherche basée sur le cloud boîtes aux lettres pour les utilisateurs locaux dans Office 365](https://docs.microsoft.com/en-us/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users). Pour en savoir plus sur la recherche de contenu dans les équipes, lisez la [Recherche de contenu dans le centre de conformité de & Office 365 sécurité](https://docs.microsoft.com/en-us/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups).
+> Dans un déploiement Exchange hybride, le contenu des messages de conversation est consultable que participants conversation disposent d’une boîte aux lettres en nuage ou une boîte aux lettres locale. Pour plus d’informations, consultez [recherche basée sur le cloud boîtes aux lettres pour les utilisateurs locaux dans Office 365](https://docs.microsoft.com/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users). Pour en savoir plus sur la recherche de contenu dans les équipes, lisez la [Recherche de contenu dans le centre de conformité de & Office 365 sécurité](https://docs.microsoft.com/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups).
 > 
 > [!TIP]
 > Pour plus d’informations sur l’utilisation d’Azure AD se connecter à synchroniser avec Azure Active Directory, voir [intégration des identités avec Azure Active Directory local](https://go.microsoft.com/fwlink/?linkid=854600).

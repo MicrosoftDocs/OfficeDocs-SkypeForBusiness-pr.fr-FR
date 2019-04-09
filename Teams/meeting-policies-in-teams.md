@@ -21,17 +21,17 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: Apprenez à gérer les paramètres de stratégie dans les équipes de réunion.
-ms.openlocfilehash: dc2870786c586715164dde94fdd6795f04f567bc
-ms.sourcegitcommit: 5ed00e911a151d3ab834528f121db8653c25dc12
+ms.openlocfilehash: a31f663a7714a0a5af09e6fddd9436e710582fa1
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "30747669"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517199"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gérer les stratégies de la réunion dans les équipes
 
 ::: zone target="docs"
-Stratégies de réunion sont utilisés pour contrôler les fonctionnalités qui sont disponibles pour les participants à des réunions sont planifiées par les utilisateurs de votre organisation. Une fois que vous créez une stratégie et apportez vos modifications, vous pouvez ensuite assigner utilise pour la stratégie. 
+Stratégies de réunion sont utilisés pour contrôler les fonctionnalités qui sont disponibles pour les participants à des réunions sont planifiées par les utilisateurs de votre organisation. Une fois que vous créez une stratégie et apportez vos modifications, vous pouvez ensuite affecter les utilisateurs à la stratégie. 
 
 Par défaut, une stratégie nommée Global (valeur par défaut à l’échelle de l’organisation) est créée. Tous les utilisateurs de votre organisation recevront cette stratégie de réunion par défaut. Apporter des modifications à cette stratégie ou créer un ou plusieurs des stratégies personnalisées et leur affecter des utilisateurs. Lorsque vous créez une stratégie personnalisée, vous pouvez autoriser ou empêcher certaines fonctionnalités disponibles pour vos utilisateurs et puis l’affecter à un ou plusieurs utilisateurs qui possèdent les paramètres qui leur sont appliquées. 
 

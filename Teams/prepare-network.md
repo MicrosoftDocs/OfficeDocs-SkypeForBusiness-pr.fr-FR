@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5d92e30617fb62000cd4b10dac29ec23eee1feaa
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: cf48da12ddd1088c499f9d0703dc229d5b5df605
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882961"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31516790"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Préparer le réseau de votre organisation pour Microsoft Teams
 
@@ -66,9 +66,6 @@ Pour tester les deux segments réseau, vous pouvez utiliser l' [Outil d’évalu
 
 ## <a name="bandwidth-requirements"></a>Bande passante requise
 Teams Microsoft offre les meilleures audio, vidéo et contenu expérience indépendamment de vos conditions réseau. Avec les codecs variables, média peut être négocié dans les environnements de bande passante limitée avec un impact minimal. Mais où la bande passante n’est pas un problème, une expérience peut être optimisée pour la qualité, y compris des résolution vidéo 1080p, jusqu'à 30 i/s pour la vidéo et 15 i/s pour le contenu et les paramètres audio haute fidélité.
-
-Cet article décrit une version concise de la bande passante est utilisée par Microsoft Teams en temps réel audio, vidéo et modalités dans différents cas d’utilisation de partage du bureau. Les équipes est toujours estime sur l’utilisation de la bande passante et peut fournir une qualité vidéo HD dans 1.2Mbps sous.  La consommation de bande passante réelle dans chaque appel audio/vidéo ou la réunion varie en fonction de plusieurs facteurs, tels que la vidéo mise en page, la résolution vidéo et vidéo images par seconde. Lorsque plus de bande passante est disponible qualité et l’utilisation augmente afin d’offrir la meilleure expérience.
-
 
 [!INCLUDE [Bandwidth requirements](includes/bandwidth-requirements.md)]
 

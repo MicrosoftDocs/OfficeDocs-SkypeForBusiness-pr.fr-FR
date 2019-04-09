@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 75710a428273a38954de38ef5b6094d412aa3085
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.openlocfilehash: 0cffa4e5eef3b5b120e38b103d04adbca08bef0e
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30640969"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517086"
 ---
 # <a name="user-presence-in-teams"></a>Présence des utilisateurs dans Teams
 
@@ -64,7 +64,6 @@ Les paramètres d’administration suivants dans Skype pour les entreprises sont
 - Fonctionnalités client ne pas déranger et innovante sont toujours activées pour les utilisateurs dans les équipes.
 - Calendrier (inclut les autres informations du calendrier & OOF) intégration est toujours activée pour les utilisateurs dans les équipes si intégré à Outlook.
 - La *dernière détection* ou *Absent (e) depuis* (le cas dans un environnement double avec Skype pour les entreprises) indicateur est toujours activé pour les utilisateurs dans les équipes.
-- Définir un statut de présence personnalisé n’est pas activé pour les utilisateurs dans les équipes.
 
 > [!NOTE]
 > La capacité d’un administrateur d’équipes pour personnaliser ces paramètres n’est pas actuellement pris en charge.

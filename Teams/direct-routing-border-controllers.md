@@ -14,12 +14,12 @@ ms.collection:
 - M365-voice
 appliesto: Microsoft Teams
 description: Partenaires de Microsoft avec des fournisseurs pour valider leurs SBCs SBC fonctionnent avec le routage Direct.
-ms.openlocfilehash: ec9c3b152858e9e1968340d20d20996bf3dfbfb0
-ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.openlocfilehash: ed394326f56c9647036d2b4785dcf04b59caeba6
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30664723"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517126"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Liste des contrôleurs SBC certifiés pour le routage direct
 
@@ -65,3 +65,5 @@ Le tableau suivant reprend les périphériques certifiés pour le routage direct
 |                                                                                                                   |      PA 6350           |    &#10004;   |   En attente    |     ECZ8.1m1p6  |                                             
 |                                                                                                                    |      ENVIRONNEMENT DE MIGRATION VIRTUEL           |    &#10004;    |   En attente    |     ECZ8.1m1p6   |
 |                     [SYSTÈMES DE NOTE](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      V3.16.2      |
+
+Pour nous faire des commentaires sur le produit sur les équipes, tels que des idées pour les nouvelles fonctionnalités, visitez le site [Uservoice](https://microsoftteams.uservoice.com)
