@@ -482,6 +482,7 @@
 #### [Argentine](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md)
 #### [Australie](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-australia.md)
 #### [Bélarus](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belarus.md)
+#### [Belgique](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belgium.md)
 #### [Belize](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belize.md)
 #### [Bosnie-Herzégovine](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bosnia-and-herzegovina.md)
 #### [Brésil](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brazil.md)
@@ -634,8 +635,9 @@
 ## [Shifts pour Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 ### [Fin de parcours pour Microsoft StaffHub](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
 ### [Fonctionnalités pour l’employé de terrain prochainement disponibles pour Microsoft Teams](expand-teams-across-your-org/shifts/firstline-worker-features-coming-to-teams.md)
+### [Installer le module PowerShell Microsoft StaffHub](expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md)
 ### [Faire passer vos équipes de Microsoft StaffHub vers Shifts dans Teams](expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams.md)
-### [Gérer l’application Shifts pour votre organisation dans Microsoft Teams](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
+### [Gérer l’application Shifts pour votre organisation dans Teams](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
 
 ## [Teams pour la santé publique](expand-teams-across-your-org/teams-for-healthcare-landing-page.md)
 ### [Prise en main de Teams pour les organismes de santé](expand-teams-across-your-org/healthcare/teams-in-hc.md)
