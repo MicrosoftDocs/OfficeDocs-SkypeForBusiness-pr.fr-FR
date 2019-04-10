@@ -19,16 +19,16 @@ search.appverid: MET150
 description: Découvrez les stratégies d’installation des applications dans Microsoft Teams et comment les utiliser pour les applications de code confidentiel pour personnaliser les équipes pour les utilisateurs de votre organisation.
 f1keywords:
 - ms.teamsadmincenter.apppolicies.setup
-ms.openlocfilehash: dc5800d6231245be1b562dbedef44608232f04c1
-ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
+ms.openlocfilehash: 7e4eaf604c075f8ab95cd40ec7588515c428360c
+ms.sourcegitcommit: 9bb2bfd09ca279752dbedf17911ea46568649c4a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31517102"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "31749748"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Gérer les stratégies de mise en application dans Microsoft Teams
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
+> [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 En tant qu’administrateur, vous pouvez utiliser des stratégies d’application du programme d’installation pour personnaliser Microsoft Teams pour mettre en surbrillance les applications qui sont importantes pour vos utilisateurs. Vous choisissez applications pour épingler et définir l’ordre dans lequel ils apparaissent. Stratégies d’application du programme d’installation vous permettent de présenter les applications nécessitant des utilisateurs de votre organisation, y compris celles créées par des tiers ou par les développeurs dans votre organisation. Vous pouvez également utiliser des stratégies de paramétrage d’application pour gérer les fonctionnalités intégrées comment s’affichent.
 

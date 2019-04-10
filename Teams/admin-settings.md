@@ -18,19 +18,17 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 034ac8eeb5529179013540b1911a7bbc34b49014
-ms.sourcegitcommit: a505869a3cc2fe6fe4ee18bcbe99bf980aa91a86
+ms.openlocfilehash: 1caac1d6d96b93f686e4eb0fe71e39248da30f11
+ms.sourcegitcommit: 9bb2bfd09ca279752dbedf17911ea46568649c4a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31520147"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "31749668"
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Paramètres d'administration pour les applications dans Microsoft Teams
 ==========================================
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
-
-> [!INCLUDE [feature coming soon](includes/new-feature-coming-soon.md)]
 
 Applications fournissent des outils out-of-the-box pour votre organisation obtenir le meilleur parti possible d’équipes. Ces applications de combinent les fonctionnalités des onglets, des extensions de messagerie, connecteurs et des robots fournis par Microsoft, généré par un tiers ou par les développeurs dans votre organisation.
 
@@ -38,7 +36,7 @@ Gérer des applications pour votre organisation dans les **applications d’équ
 
 ## <a name="app-permission-policies"></a>Stratégies d’autorisation des applications
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
+> [!INCLUDE [feature coming soon](includes/new-feature-coming-soon-section.md)]
 
 Avec les stratégies d’autorisation app, vous pouvez bloquer ou autoriser des applications, à l’échelle de l’organisation ou des utilisateurs spécifiques.  Lorsque vous bloquez une application, toutes les interactions avec cette application sont désactivées et l’application n’apparaît pas dans les équipes pour les utilisateurs.
 
@@ -52,7 +50,7 @@ Pour plus d’informations, accédez à des [stratégies d’autorisation Gérer
 
 ## <a name="app-setup-policies"></a>Stratégies d’installation des applications
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
+> [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 Stratégies d’application du programme d’installation vous permettent de personnaliser l’expérience d’application pour vos utilisateurs. Vous choisissez les applications que vous souhaitez ajouter à la barre d’application dans les clients des équipes et l’ordre dans lequel ils apparaissent, sur le web, de bureau et les clients mobiles.
 
@@ -64,7 +62,7 @@ Pour plus d’informations, consultez la rubrique [Gérer les stratégies du pro
 
 ## <a name="custom-app-policies-and-settings"></a>Paramètres et les stratégies d’application personnalisée
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
+> [!INCLUDE [feature coming soon](includes/new-feature-coming-soon-section.md)]
 
 Les équipes permet aux développeurs de votre organisation à créer, tester et déployer des applications personnalisées à d’autres utilisateurs. Applications personnalisées peuvent être ajoutées aux équipes en les téléchargeant un package d’application dans un fichier .zip directement à une équipe ou dans le contexte de personnel. Vous pouvez utiliser des stratégies de configuration des applications pour contrôler les personnes dans votre organisation peuvent télécharger des applications personnalisées. Vous pouvez également définir des paramètres à l’échelle de l’organisation pour contrôler si les utilisateurs peuvent interagir avec des applications personnalisées spécifiques.
 

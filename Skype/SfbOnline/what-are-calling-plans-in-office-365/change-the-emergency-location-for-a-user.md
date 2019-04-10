@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Découvrez comment modifier l’emplacement d’urgence pour vos utilisateurs. Avec un nombre illimité d’emplacements, vous pouvez modifier les emplacements d’urgence quand les employés se déplacement dans les étages ou les bâtiments. '
-ms.openlocfilehash: 79ba52d65dc87b36397d4d0a8df121ac1fec8262
-ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
+ms.openlocfilehash: 9e583cf7882b5a269378dd69dbda37311ad08e28
+ms.sourcegitcommit: c40ebb4095fae861295c01af0a518375f32988e1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31516941"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "31744279"
 ---
 # <a name="assign-or-change-the-emergency-location-for-a-user"></a>Affectation ou modification d’un emplacement d’urgence pour un utilisateur
 
@@ -74,6 +74,8 @@ Pour savoir comment obtenir des Forfaits d’appels dans Office 365 et leur coû
 [Conditions générales relatives aux appels d'urgence](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+
+[Applet de commande Set-CsOnlineVoiceUser](https://docs.microsoft.com/en-us/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps)
 
   
  

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft est le retrait Unified Messaging service Exchange Online (ExchUMO) en février 2020. Cet article résume les éléments affectés clients doivent connaître et pour planifier les leur continuité de l’entreprise.
-ms.openlocfilehash: 2622b95e8bae7d5721665c5691c1c76691207e74
-ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
+ms.openlocfilehash: e318e6aac1e4c5ab2b9934fd655dc3112120f36b
+ms.sourcegitcommit: 38b501cedfe5fa4ab0126f58926fe2ce4f0cdd0c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "31026243"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "31740932"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Prise en charge de la migration en ligne de la messagerie unifiée Exchange  
 
@@ -66,7 +66,7 @@ Microsoft a identifié les différents déploiements de clients qui utilisent le
 
 3. **Planifier votre migration standard automatique**
     
-    Administrateurs peuvent de démarrer la migration les standards automatiques de ExchUMO vers le standard automatique de nuage à tout moment. Pour plus d’informations, consultez [configurer un standard automatique de système téléphonique](/MicrosoftTeams/create-a-phone-system-auto-attendant.md) . Microsoft prévoit de proposer des fonctionnalités standard automatique supplémentaires clients envisager critiques pour leur migration par 2019 mars. Administrateurs doivent évaluer l’ensemble des fonctionnalités et migrer les instances de standard automatique en conséquence. Pour une comparaison de la liste des fonctionnalités, consultez la [matrice de fonctionnalité de services en nuage ExchUMO et Azure](#exchumo-and-azure-cloud-based-services-feature-matrix).
+    Administrateurs peuvent de démarrer la migration les standards automatiques de ExchUMO vers le standard automatique de nuage à tout moment. Pour plus d’informations, consultez [configurer un standard automatique de système téléphonique](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant) . Microsoft prévoit de proposer des fonctionnalités standard automatique supplémentaires clients envisager critiques pour leur migration par 2019 mars. Administrateurs doivent évaluer l’ensemble des fonctionnalités et migrer les instances de standard automatique en conséquence. Pour une comparaison de la liste des fonctionnalités, consultez la [matrice de fonctionnalité de services en nuage ExchUMO et Azure](#exchumo-and-azure-cloud-based-services-feature-matrix).
 
 4. **Planifier votre validation après la migration de messagerie vocale et de test**
 
@@ -95,8 +95,8 @@ Microsoft a identifié les différents déploiements de clients qui utilisent le
 
 | Service | Niveau de fonctionnalité | Fonctionnalité | Remarques  | Ordinateur virtuel sur le nuage/AA  | ExUMO |
 |---------|-------|--------|----|--------|------|
-| ORDINATEUR VIRTUEL  | Fonctionnalités du service| Prise en charge du système PBX tiers-3 rd    |  | N   | O    |
-| ORDINATEUR VIRTUEL | Fonctionnalités du service  | Prise en charge Skype pour Business Server   |  | Q1CY19 | Y    |
+| ORDINATEUR VIRTUEL  | Fonctionnalités du service| Prise en charge du système PBX tiers-3 rd    | Y compris toutes les fonctionnalités fournies à 3e partie PBX comme indicateur (indicateur en attente des messages) à l’aide de SIP notifier les messages à partir d’Exchange UM Online | N   | O    |
+| ORDINATEUR VIRTUEL | Fonctionnalités du service  | Prise en charge Skype pour Business Server   |  | O | Y    |
 | ORDINATEUR VIRTUEL | Fonctionnalités du service | Prise en charge des équipes de Microsoft|  | O | N    |
 | ORDINATEUR VIRTUEL | Fonctionnalités du service | Maintenez la découverte électronique  | Sécurité et conformité  | Y | Y    |
 | ORDINATEUR VIRTUEL | Fonctionnalités du service | Prise en charge des règles d’Exchange | Sécurité et conformité  | Y | Y    |
@@ -119,7 +119,7 @@ Microsoft a identifié les différents déploiements de clients qui utilisent le
 | ORDINATEUR VIRTUEL | Fonctionnalités de l’utilisateur | Envoyer un message vocal à un groupe d’utilisateurs  |Diffusion de la messagerie vocale   | N | O   |
 | ORDINATEUR VIRTUEL | Fonctionnalités de l’utilisateur | Notification de messagerie vocale à l’aide de SMS    | Les utilisateurs peuvent recevoir un SMS lorsqu’ils disposent d’une messagerie vocale    | N | O    |
 | ORDINATEUR VIRTUEL | Fonctionnalités de l’utilisateur | Langues prises en charge de message d’accueil | Détails ici :https://docs.microsoft.com/en-us/microsoftteams/what-are-phone-system-auto-attendants | O | Y    |
-| ORDINATEUR VIRTUEL | Fonctionnalités de l’utilisateur | Règles de répondeur automatique |  | Q1CY19 | Y    |
+| ORDINATEUR VIRTUEL | Fonctionnalités de l’utilisateur | Règles de répondeur automatique |  | O | Y    |
 | ORDINATEUR VIRTUEL | Fonctionnalités de l’utilisateur | Émettre au téléphone (PSTN) - pour lire des messages | M’appeler sur mon cellule pour écouter le message vocal  | N | O    |
 | ORDINATEUR VIRTUEL | Fonctionnalités de l’utilisateur | Émettre au téléphone (authentification) - pour lire des messages | M’appeler sur mon appareil authentifié  | O | Y    |
 | ORDINATEUR VIRTUEL | Fonctionnalités de l’utilisateur | Boîte aux lettres partagée entre plusieurs utilisateurs |  | O | Y    |

@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f699352625d512c20e6b0b0b2384a08eafcb1872
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 66a5b4a5ef64f83f61d106a6cd2052516cda95a7
+ms.sourcegitcommit: 9bb2bfd09ca279752dbedf17911ea46568649c4a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891627"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "31749676"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Configuration matérielle requise pour l’application Microsoft Teams
 
@@ -62,6 +62,10 @@ Vous pouvez utiliser Microsoft Teams sur ces plateformes mobiles :
 - Android - nécessite Android 4.4 ou version ultérieure
 
 - iOS - nécessite iOS 10.0 ou version ultérieure. Compatible avec les iPhone, iPad et iPod touch.
+
+## <a name="hardware-requirements-for-the-teams-app-in-a-virtual-desktop-infrastructure-vdi-environment"></a>Configuration matérielle requise pour l’application d’équipes dans un environnement d’Infrastructure VDI (Virtual Desktop)
+
+Voir [équipes pour virtualisé Desktop Infrastructure](teams-for-vdi.md) pour la configuration requise pour l’exécution d’équipes dans un environnement virtualisé. 
 
 ### <a name="related-topics"></a>Rubriques connexes
 - [Obtenir des applications d’équipes](get-clients.md)
