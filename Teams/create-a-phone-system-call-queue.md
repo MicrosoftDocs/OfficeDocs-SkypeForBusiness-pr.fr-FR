@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Découvrez comment configurer le système téléphonique de files d’attente des appels système téléphonique pour vous donner une organisation message d’accueil, une musique d’attente et rediriger les appels pour appeler les agents dans des listes de distribution et les groupes de sécurité. Vous pouvez également définir la taille maximale de file d’attente, délai d’expiration et options de gestion des appels.
-ms.openlocfilehash: be8055dfe1d92caa7e3416740856ab2b6578e799
-ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
+ms.openlocfilehash: 1260f74deecefd93dcb9e8d99c4ea5063918a720
+ms.sourcegitcommit: 7fe8daf07013d7c532f128a3ae3bbf51d1b2aac9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "31026228"
+ms.lasthandoff: 04/11/2019
+ms.locfileid: "31808061"
 ---
 # <a name="create-a-phone-system-call-queue"></a>Créer une file d’attente d’appels sur le système téléphonique
 
@@ -60,9 +60,13 @@ Tous les appels en attente dans la file d’attente seront distribués à l’ai
 
 Pour commencer à l’aide de files d’attente d’appel, il est important de n’oubliez pas de choses :
   
-- Un standard automatique est nécessaire d’avoir un compte de ressource. Pour plus d’informations sur les comptes de ressources, voir [Gérer les comptes de ressources dans les équipes](manage-resource-accounts.md) .
+- Une file d’attente de l’appel est nécessaire pour avoir un compte de ressource. Pour plus d’informations sur les comptes de ressources, voir [Gérer les comptes de ressources dans les équipes](manage-resource-accounts.md) .
 - Si vous souhaitez affecter un numéro de routage Direct, vous devez acquérir et affecter les licences suivantes aux comptes ressource \(Office 365 entreprise E1, E3 ou E5, avec le module complémentaire système téléphonique\).
 - Si vous affectez un numéro de service Microsoft au lieu de cela, vous devez acquérir et affecter les licences suivantes à votre compte de ressource \(Office 365 entreprise E1, E3 ou E5, avec le module complémentaire système téléphonique et un Plan d’appel de\).
+- Vous devez uniquement les comptes de ressources de licence avec un numéro de téléphone assigné. Dans une file imbriqués automatique standard ou un appel, il est inutile pour le reste des standards automatiques de licence ou appeler des files d’attente s’ils n’ont pas de numéros de téléphone associés. 
+
+> [!NOTE] 
+> Directs numéros de service de routage de standard automatiquement et files d’attente des appels sont pris en charge pour les agents et les utilisateurs Microsoft Teams uniquement pour le moment.
 
 > [!NOTE] 
 > Microsoft fonctionne sur un modèle de licence approprié pour les applications telles que les standards automatiques de nuage et les files d’attente des appels, maintenant vous devez utiliser le modèle de gestion des licences utilisateur pour.

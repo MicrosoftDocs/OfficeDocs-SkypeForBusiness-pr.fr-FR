@@ -15,12 +15,12 @@ description: Tâches et activités requises pour la gestion de service d’équi
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cbf0da1cab0f350b9abc7b01e6583e54a996c687
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 47628a52d91c3a9d0492accf9bcb8bce926f3649
+ms.sourcegitcommit: a8f6b70fce1b5073f4743f7f413f7ce9fad8ead1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569478"
+ms.lasthandoff: 04/10/2019
+ms.locfileid: "31765180"
 ---
 # <a name="operate-my-service"></a>Exploiter mon service
 
@@ -440,7 +440,7 @@ Même si vous avez suivi les recommandations précédentes, les utilisateurs de 
 
 4.  **Visitez le site de la Communauté Microsoft Teams :** La [Communauté des équipes Microsoft](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams) offre des espaces dédiés pour les équipes. La Communauté des équipes fournit une liste de discussion, des billets de blog et des annonces centrés sur les équipes. Vous pouvez publier une question ou rechercher des discussions précédentes pour les solutions à votre problème.
 
-5.  **Contactez le support technique de Microsoft :** Vous pouvez contacter le Support Microsoft pour les problèmes avec les équipes en ligne ou par téléphone. Pour plus d’informations, voir [Contact prend en charge pour les équipes Microsoft](https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+5.  **Contactez le support technique de Microsoft :** Vous pouvez contacter le Support Microsoft pour les problèmes avec les équipes en ligne ou par téléphone. Pour plus d’informations, voir [Contact prend en charge pour les produits d’entreprise](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).
     Pour le Premier clients, prise en charge des demandes peuvent être lancées en suivant les conseils à [contactez le support technique pour Microsoft Teams (Premier clients)](https://support.microsoft.com/premier/contacts).
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>Tâches quotidiennes/hebdomadaires/mensuelles/selon les besoins
@@ -465,7 +465,7 @@ Même si vous avez suivi les recommandations précédentes, les utilisateurs de 
 
 [Vérifier l’état du service Microsoft Teams](service-health.md)
 
-[Contacter le support Office 365 pour les entreprises - Aide de l'administrateur](https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+[Contacter le support Office 365 pour les entreprises - Aide de l'administrateur](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 [Support Premier contact](https://support.microsoft.com/premier/contacts)
 
@@ -514,7 +514,7 @@ Pour prendre en charge les utilisateurs, une organisation peut nécessiter un no
 
 Que votre organisation se développe ou des contrats, il est important de planifier la gestion des licences pour les besoins actuels et futurs. Il existe une licence de base équipes, en plus de la gestion des licences pour les fonctionnalités de voix dans le nuage ([Système téléphonique](here-s-what-you-get-with-phone-system.md) et [Conférence Audio](https://products.office.com/skype-for-business/audio-conferencing)).
 
-Pour les équipes, les licences de système téléphonique nécessitent des licences [d’Appel planifier](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365) associés. Appel de Plan de gestion des licences permet d’émettre et recevoir des appels nationaux et/ou internationaux. Ces plans sont basée sur l’utilisation et affichent minutes pools associés. Mise en service des [Communications crédits](what-are-communications-credits.md) permet de garantir que vous exécutez jamais hors service.
+Pour les équipes, licences système téléphonique exigent que [L’appel des Plans de](calling-plan-landing-page.md) licences. Appel de Plan de gestion des licences permet d’émettre et recevoir des appels nationaux et/ou internationaux. Ces plans sont basée sur l’utilisation et affichent minutes pools associés. Mise en service des [Communications crédits](what-are-communications-credits.md) permet de garantir que vous exécutez jamais hors service.
 
 Services d’audioconférence permet tolled dans les conférences rendez-vous et de services de conférence rendez-vous nationales. Conférence rendez-vous gratuite ou les scénarios d’appel sortant non nationaux peuvent entraîner payer des frais supplémentaires pour les [Communications crédits](what-are-communications-credits.md) sont requis.
 

@@ -12,12 +12,12 @@ ms.custom: Strat_SB_Admin
 ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection: M365-voice
 description: Lisez cette rubrique pour plus d’informations sur le déploiement des salles d’équipes Microsoft dans un environnement hybride avec Exchange sur site.
-ms.openlocfilehash: b6c10635180d5707982efbc259eca577c45b1638
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.openlocfilehash: 664f6d210858b42591dcbb4461b858646e5cb933
+ms.sourcegitcommit: 7fe8daf07013d7c532f128a3ae3bbf51d1b2aac9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012516"
+ms.lasthandoff: 04/11/2019
+ms.locfileid: "31807982"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>Déployer Microsoft équipes salles avec Exchange sur site
 
@@ -53,7 +53,7 @@ Si vous déployez Microsoft équipes salles avec Exchange sur site, vous utilise
 
 ### <a name="create-an-account-and-synchronize-with-active-directory"></a>Création d’un compte et synchronisation avec Active Directory
 
-1. Dans l’outil **Active Directory utilisateurs et ordinateurs Active Directory** , avec le bouton droit sur le dossier ou l’unité d’organisation que vos salles d’équipes Microsoft comptes seront créés, cliquez sur **Nouveau**, puis cliquez sur **utilisateur**.
+1. Dans l’outil **utilisateurs et ordinateurs** , avec le bouton droit sur le dossier ou l’unité d’organisation que vos salles d’équipes Microsoft comptes seront créés, cliquez sur **Nouveau**, puis cliquez sur **utilisateur**.
 
 2. Saisissez le nom d’affichage de l’applet de commande précédente dans le champ **Nom complet** et l’alias dans le champ **Nom d’ouverture de session de l’utilisateur**. Cliquez sur **Suivant**.
 

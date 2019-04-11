@@ -22,12 +22,12 @@ f1keywords: ms.teamsadmincenter.autoattendants.overview
 ms.custom:
 - Phone System
 description: Découvrez quelles sont les standards automatiques de système téléphonique et comment les utiliser.
-ms.openlocfilehash: 1f5d54308836f0677db26e63003ab04c60ef395a
-ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
+ms.openlocfilehash: 46828acc60f6960416f8aeb18452da0ae5e31e68
+ms.sourcegitcommit: 7fe8daf07013d7c532f128a3ae3bbf51d1b2aac9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31517254"
+ms.lasthandoff: 04/11/2019
+ms.locfileid: "31808085"
 ---
 # <a name="what-are-phone-system-auto-attendants"></a>Quelles sont les standards automatiques de système téléphonique ?
 
@@ -57,12 +57,16 @@ Avant de commencer à utiliser les standards automatiques, il est impératif de 
 - Un standard automatique est nécessaire d’avoir un compte de ressource. Pour plus d’informations sur les comptes de ressources, voir [Gérer les comptes de ressources dans les équipes](manage-resource-accounts.md) .
 - Si vous souhaitez affecter un numéro de routage Direct, vous devez acquérir et affecter les licences suivantes aux comptes ressource \(Office 365 entreprise E1, E3 ou E5, avec le module complémentaire système téléphonique\).
 - Si vous affectez un numéro de service Microsoft au lieu de cela, vous devez acquérir et affecter les licences suivantes à votre compte de ressource \(Office 365 entreprise E1, E3 ou E5, avec le module complémentaire système téléphonique et un Plan d’appel de\).
+- Vous devez uniquement les comptes de ressources de licence avec un numéro de téléphone assigné. Dans une file imbriqués automatique standard ou un appel, il est inutile pour le reste des standards automatiques de licence ou appeler des files d’attente s’ils n’ont pas de numéros de téléphone associés. 
+
+> [!NOTE]
+> Directs numéros de service de routage de standard automatiquement et files d’attente des appels sont pris en charge pour les agents et les utilisateurs Microsoft Teams uniquement pour le moment.
 
 > [!NOTE] 
 > Microsoft fonctionne sur un modèle de licence approprié pour les applications telles que les standards automatiques de nuage et les files d’attente des appels, maintenant vous devez utiliser le modèle de gestion des licences utilisateur pour.
     
-    > [!TIP]
-    > To redirect calls to an operator or a menu option that is an Online user with a **Phone System** license, you will need to enable them for Enterprise Voice or assign Calling Plans to them. See [Assign Microsoft Teams licenses](assign-teams-licenses.md). You can also use Windows PowerShell. For example run:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+   > [!TIP]
+   > Pour rediriger les appels vers un opérateur ou une option de menu qui est un utilisateur en ligne avec une licence de **Système téléphonique** , vous devez les activer pour Enterprise Voice ou de leur attribuer des Plans de l’appel. Consultez les [licences d’affecter des équipes Microsoft](assign-teams-licenses.md). Vous pouvez aussi utiliser Windows PowerShell. Par exemple, exécutez :  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
 - Pour obtenir et utiliser des numéros gratuits service pour vos standards automatiques, vous devez configurer les crédits de Communications. Pour ce faire, consultez la rubrique [Quelles sont les Communications crédits ?](what-are-communications-credits.md) et [configurer les Communications crédits pour votre organisation](set-up-communications-credits-for-your-organization.md).
 
@@ -131,7 +135,7 @@ Les appelants peuvent prononcer les noms dans les formats suivants :
 |Prénom + nom |Complet |Amos Marble |Amos Marble |
 |Nom + prénom |Complet  |Marble Amos |Amos Marble |
 |Prénom |Complet |Amos |Appuyez sur 1 ou dites 1 pour Amos Marble  <br/> Appuyez sur 2 ou dites 1 pour Amos Jones |
-|Nom |Complet |Marble |Appuyez sur 1 ou dites 1 pour Amos Marble  <br/> Appuyez sur 2 ou dites 1 pour Ben Marble |
+|LastName |Complet |Marble |Appuyez sur 1 ou dites 1 pour Amos Marble  <br/> Appuyez sur 2 ou dites 1 pour Ben Marble |
 
 > [!NOTE]
 > Il peut prendre jusqu'à 36 heures pour un nouvel utilisateur à leur nom apparaît dans le répertoire de numérotation par un nom pour la reconnaissance vocale en raison de retard de réplication d’Active Directory.

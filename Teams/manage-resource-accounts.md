@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: En savoir plus sur la gestion des comptes de ressource dans Microsoft Teams
-ms.openlocfilehash: 055e419e5a82233676e5b66857589216b4dbca6d
-ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
+ms.openlocfilehash: 3e3dbfb43498041296cb9cfb79341a3f40f2eda0
+ms.sourcegitcommit: 7fe8daf07013d7c532f128a3ae3bbf51d1b2aac9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31517231"
+ms.lasthandoff: 04/11/2019
+ms.locfileid: "31808053"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Gérer les comptes de ressources dans Microsoft Teams
 
@@ -41,6 +41,10 @@ Mise en route il est important de garder à l’esprit quelques points :
 - Une file d’attente automatique standard ou un appel est nécessaire pour avoir un compte de ressource. Pour plus d’informations sur les comptes de ressources, voir [Gérer les comptes de ressources dans les équipes](manage-resource-accounts.md) .
 - Si vous souhaitez affecter un numéro de routage Direct, vous devez acquérir et affecter les licences suivantes aux comptes ressource \(Office 365 entreprise E1, E3 ou E5, avec le module complémentaire système téléphonique\).
 - Si vous affectez un numéro de service Microsoft au lieu de cela, vous devez acquérir et affecter les licences suivantes à votre compte de ressource \(Office 365 entreprise E1, E3 ou E5, avec le module complémentaire système téléphonique et un Plan d’appel de\).
+- Vous devez uniquement les comptes de ressources de licence avec un numéro de téléphone assigné. Une imbriqués automatique standard ou appel de file d’attente, vous n’avez pas besoin pour le reste des standards automatiques de licence ou appeler des files d’attente s’ils n’ont pas de numéros de téléphone associés
+
+> [!NOTE] 
+> Numéros de service Routage directs de standard automatiquement et files d’attente de l’appel est pris en charge pour les agents et les utilisateurs Microsoft Teams uniquement pour le moment.
 
 > [!NOTE] 
 > Microsoft fonctionne sur un modèle de licence approprié pour les applications telles que les standards automatiques de nuage et les files d’attente des appels, maintenant vous devez utiliser le modèle de gestion des licences utilisateur pour.
@@ -49,12 +53,12 @@ Mise en route il est important de garder à l’esprit quelques points :
 > Pour rediriger les appels vers des personnes dans votre organisation en ligne, ils doivent disposer d’une licence de **Système téléphonique** et être activés pour Enterprise Voice ou Office 365 appelant Plans. Consultez les [licences d’affecter des équipes Microsoft](assign-teams-licenses.md). Pour les activer pour Enterprise Voice, vous pouvez utiliser Windows PowerShell. Par exemple, exécutez :  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
 - Vous pouvez affecter un numéro hybride de routage Direct à votre compte de ressource.  Pour plus d’informations, voir [Planifier le routage Direct](direct-routing-plan.md) .
-- Pour les plans d’appel Microsoft, vous ne pouvez affecter payants et les numéros de téléphone gratuit service que vous avez obtenu dans le **Centre d’administration de Microsoft équipes** ou transféré à partir d’un autre fournisseur de services vers un compte de ressource. Pour obtenir et utiliser des numéros gratuits service, vous devez configurer les crédits de Communications.
+- Pour les plans d’appel Microsoft, vous ne pouvez affecter payants et les numéros de téléphone du service gratuit qui vous avez dans le **Centre d’administration de Microsoft équipes** ou porté à partir d’un autre fournisseur de services à un compte de ressource. Pour obtenir et utiliser des numéros gratuits service, vous devez configurer les crédits de Communications.
 
 > [!NOTE]
 > Numéros de téléphone de l’utilisateur (abonné) ne peut pas être affectés à un compte de ressource. Numéro payant service ou numéros de téléphone peuvent être utilisées.
 
-Pour affecter un numéro de téléphone à un compte de ressource, vous devez obtenir ou transférer votre appel payant existant ou un service gratuit numéros. Une fois que vous obtenez les numéros de téléphone gratuit service payant, ils s’affichent dans le **Centre d’administration de Microsoft équipes** > **vocale** > **numéros de téléphone**et la volonté de **type numérique** présent figurer en tant que **Service - gratuit**. Pour obtenir vos numéros de service, voir les [numéros de téléphone de mise en service](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) , ou si vous souhaitez transférer un numéro de service existant, voir les [numéros de téléphone transfert vers Office 365](transfer-phone-numbers-to-office-365.md).
+Pour affecter un numéro de téléphone à un compte de ressource, vous devez obtenir ou votre numéro payant existant ou un service gratuit de port numéros. Une fois que vous obtenez les numéros de téléphone gratuit service payant, ils s’affichent dans le **Centre d’administration de Microsoft équipes** > **vocale** > **numéros de téléphone**et la volonté de **type numérique** présent figurer en tant que **Service - gratuit**. Pour obtenir vos numéros de service, voir les [numéros de téléphone de mise en service](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) , ou si vous souhaitez transférer un numéro de service existant, voir les [numéros de téléphone transfert vers Office 365](transfer-phone-numbers-to-office-365.md).
   
 > [!NOTE]
 > Si vous êtes en dehors des États-Unis, vous ne pouvez pas utiliser le centre d’administration Microsoft Teams pour obtenir les numéros de service. Accédez à [Gérer les numéros de téléphone pour votre organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) à la place pour voir comment le faire à partir de l’extérieur des États-Unis.
@@ -71,11 +75,12 @@ Une fois que vous avez créé le compte de ressources et attribué la licence, v
 
 ## <a name="create-a-resource-account-in-powershell"></a>Créer un compte de ressource dans Powershell
 
- Vous souhaite créer un compte de ressource en exécutant l’applet de commande Powershell approprié selon vos besoins (pour un ou plusieurs comptes de ressources), nommez chacune d’elles et ainsi de suite. Il n’existe actuellement aucune option pour la création d’un compte de ressource dans le centre d’administration Microsoft Teams, mais vous pouvez modifier les numéros de téléphone et modifier les appels en file d’attente ou automatique attendant affectations d’un compte de ressource.
+Pour les plans d’appel Microsoft, vous ne pouvez affecter payants et les numéros de téléphone du service gratuit qui vous avez dans le **Centre d’administration de Microsoft équipes** ou porté à partir d’un autre fournisseur de services à un compte de ressource. Pour obtenir et utiliser des numéros gratuits service, vous devez configurer les crédits de Communications.
 
 Selon que votre numéro de téléphone est situé en ligne ou sur site, vous devez vous connecter à l’invite de Powershell approprié avec des privilèges d’administrateur.
 
-- Implémentations hybride (numéros de numéros hébergés sur routage Direct, OPCH et CCE) utilise [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) pour créer un compte de ressource qui est hébergé sur site.  
+
+- Implémentations hybride (numéros hébergés sur routage Direct) utilise [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) pour créer un compte de ressource qui est hébergé sur site.  
 - En ligne uniquement implémentations utilise [New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineApplicationInstance?view=skype-ps) pour avoir un compte de ressource qui est hébergé en ligne.
 
 Voici un exemple d’environnement en ligne de création de compte de la ressource avec un standard automatique ApplicationID. Pour une file d’attente de l’appel, vous pouvez utiliser le suivant ApplicationID 11cd3e2e-fccb-42ad-ad00-878b93575e07 :
