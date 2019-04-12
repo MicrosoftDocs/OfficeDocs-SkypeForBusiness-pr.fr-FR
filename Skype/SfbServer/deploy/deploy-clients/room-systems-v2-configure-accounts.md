@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: Lisez cette rubrique pour en savoir plus sur la configuration de comptes pour les salles d’équipes Microsoft dans Exchange et Skype pour les entreprises.
-ms.openlocfilehash: cbff055a80a156deab0446e5da08fa4fe9bb3808
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.openlocfilehash: 7606f31dde96236111b4a44919427245fa32215d
+ms.sourcegitcommit: 856793c99fc02fb016383d0b6f8411c386d78886
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012890"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "31828950"
 ---
 # <a name="configure-accounts-for-microsoft-teams-rooms"></a>Configurer des comptes pour les salles d’équipes Microsoft
  
@@ -52,7 +52,7 @@ Chaque compte de l’appareil est unique à un seul périphérique Microsoft éq
 - Votre infrastructure doit être configuré pour autoriser les salles d’équipes Microsoft pour valider le compte de l’appareil et de joindre les services Microsoft appropriés.
     
 > [!IMPORTANT]
-> Il est vivement recommandé de créer ce compte bien avant l’installation effective du matériel. Si possible, la préparation du compte devrait commencer 2 à 3 semaines avant l’installation. 
+> Il est vivement recommandé de créer ce compte bien avant l’installation effective du matériel. Si possible, la préparation du compte devrait commencer 2 à 3 semaines avant l’installation. Dans les environnements hybrides, le compte utilisé pour les salles d’équipes Microsoft doit avoir activé dans Sync DAS car l’authentification Microsoft équipes salles requiert une authentification 365 0ffice de synchronisation de mot de passe.
   
 Vous pouvez considérer un compte de périphérique en tant que compte la ressource personnes reconnaissent en tant que compte d’une conférence salle de réunion espace ou. Lorsque vous souhaitez planifier une réunion qui se déroulera dans cette salle de réunion, vous invitez le compte à cette réunion. Pour pouvoir utiliser efficacement salles des équipes Microsoft, vous faire de même avec le compte d’appareil qui est affecté à chacune d’elles.
   

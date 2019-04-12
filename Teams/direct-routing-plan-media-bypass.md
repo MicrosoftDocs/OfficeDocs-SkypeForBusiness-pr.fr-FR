@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Lisez cette rubrique pour savoir comment planifier le contournement de média avec le routage d’un système téléphonique Direct.
-ms.openlocfilehash: 308150121733f5f135d248404c663634ddaeea7c
-ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
+ms.openlocfilehash: b3a31e23ef065840d830c111c64e0618d90aa71b
+ms.sourcegitcommit: 856793c99fc02fb016383d0b6f8411c386d78886
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31517246"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "31827880"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planifier le contournement de média avec un routage direct
 
@@ -66,7 +66,7 @@ Si l’utilisateur dispose d’un accès direct à l’adresse IP publique de le
 
 Le diagramme suivant illustre le flux des appels lorsque le contournement de média est activé, le client est interne et le client peut atteindre l’adresse IP publique de le SBC (media direct) : 
 
-- Les flèches et les valeurs numériques des chemins d’accès respectent le document Microsoft équipes Online flux d’appels.
+- Les flèches et les valeurs numériques des chemins d’accès sont conformément à l’article [équipes Microsoft flux des appels](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows) .
 
 - La signalisation SIP prend toujours les chemins d’accès 4 et 4' (en fonction de la direction du trafic). Support reste local et prend 5 b de chemin d’accès.
 
@@ -87,7 +87,7 @@ Par exemple, supposons que l’utilisateur est externe, et l’administrateur de
 
 Le diagramme suivant illustre le flux des appels lorsque le contournement de média est activé, le client est externe et le client ne peut pas joindre l’adresse IP publique de Session Border Controller (media est relayé par équipes Transport relais).
 
-- Les flèches et les valeurs numériques des chemins d’accès respectent le document Microsoft équipes Online flux d’appels.
+- Les flèches et les valeurs numériques des chemins d’accès sont conformément à l’article [équipes Microsoft flux des appels](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows) .
 
 - Multimédia est relayé par le biais de chemins d’accès 3, 3', 4 et 4'
 
@@ -101,7 +101,7 @@ Le diagramme suivant illustre le flux des appels lorsque le contournement de mé
 
 Le diagramme suivant illustre le flux des appels lorsque le contournement de média est activé, le client est externe et le client peut atteindre l’adresse IP publique de le SBC (media direct).
 
-- Les flèches et les valeurs numériques des chemins d’accès respectent le document Microsoft équipes Online flux d’appels.
+- Les flèches et les valeurs numériques des chemins d’accès sont conformément à l’article [équipes Microsoft flux des appels](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows) .
 
 - La signalisation SIP prend toujours les chemins d’accès 3 et 3 » (en fonction de la direction du trafic). Flux multimédias à l’aide du chemin d’accès de 2.
 
@@ -125,7 +125,7 @@ Le diagramme suivant illustre les deux flux d’appels – avec le contournement
 
 - Le Proxy SIP est un composant qui traduit la signalisation de REST HTTP utilisés dans les équipes pour SIP.    
 
-![Affiche deux flux d’appels – avec le contournement de média activé et désactivé le second avec le contournement de média)](media/direct-routing-media-bypass-6.png)
+![Indique deux flux d’appels – avec le contournement de média activé et le second avec contournement de média désactivé)](media/direct-routing-media-bypass-6.png)
 
 
 Le tableau ci-dessous résume les différences entre les processeurs multimédia et le relais de Transport.
