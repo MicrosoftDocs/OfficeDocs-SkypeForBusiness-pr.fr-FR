@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Réunion Migration MMS (Service) est un service qui s’exécute en arrière-plan et met à jour automatiquement Skype pour les réunions d’entreprise et Teams Microsoft pour les utilisateurs. MMS est conçu pour éliminer le besoin pour les utilisateurs d’exécuter l’outil de Migration de réunion pour mettre à jour leur Skype pour les réunions d’entreprise et Teams Microsoft.
-ms.openlocfilehash: e700725fc95957647bea8fe44d6a73a34bd16ab8
-ms.sourcegitcommit: 2d79898281258e123a86d9a0a2bc1211ee6b039e
+ms.openlocfilehash: 90953f1352f54a8411513a78ccfda8bfb5356883
+ms.sourcegitcommit: 004d9475aa704779f8f70adeaf2db9b36c6828cc
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "28019575"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "31836855"
 ---
 # <a name="using-the-meeting-migration-service-mms"></a>Utilisation du Service de Migration de réunion (MMS)
 
@@ -41,7 +41,7 @@ Le Service de Migration de réunion (MMS) est un service qui met à jour des ré
 Par défaut, MMS est automatiquement déclenché dans chacun de ces cas, bien que les administrateurs peuvent désactiver au niveau du client. En outre, les administrateurs peuvent utiliser une applet de commande PowerShell pour déclencher manuellement la migration de réunion pour un utilisateur donné.
 
 > [!NOTE]
-> La possibilité de convertir Skype pour les réunions d’entreprise à des réunions d’équipes et la possibilité de mettre à jour des réunions d’équipes existantes pour modifier les paramètres de conférence audio est actuellement limitée aux clients TAP uniquement.
+> La possibilité de convertir Skype pour les réunions d’entreprise à des réunions d’équipes et la possibilité de mettre à jour des réunions d’équipes existantes pour modifier les paramètres de conférence audio est actuellement limitée aux clients TAP uniquement. Microsoft prévoit doter cette fonctionnalité à tous les clients dans mai 2019.
 
 **Limitations**: la réunion service de migration ne peut pas être utilisé si une des conditions suivantes est remplie :
 
@@ -113,7 +113,7 @@ Toutes les modifications aux paramètres de conférence audio d’un utilisateur
 ### <a name="updating-meetings-when-assigning-teamsupgradepolicy"></a>Mise à jour des réunions lors de l’affectation TeamsUpgradePolicy
 
 > [!NOTE]
-> Cette section décrit la fonctionnalité qui n’est actuellement disponible pour les clients TAP.
+> Cette section décrit la fonctionnalité qui n’est actuellement disponible pour les clients TAP. Microsoft prévoit doter cette fonctionnalité à tous les clients dans mai 2019.
 
 Par défaut, migration de la réunion sera automatiquement déclenchée lorsqu’un utilisateur est accordé à une instance de `TeamsUpgradePolicy` avec `mode=TeamsOnly` ou `mode= SfBWithTeamsCollabAndMeetings`. Si vous ne souhaitez pas migrer des réunions lors de l’octroi d’un de ces modes, puis spécifiez `MigrateMeetingsToTeams $false` dans `Grant-CsTeamsUpgradePolicy`.
 
@@ -211,6 +211,6 @@ Set-CsOnlineDialInConferencingTenantSettings  -AutomaticallyMigrateUserMeetings 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
-[Tester ou acheter l'audioconférence dans Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Tester ou acheter l’audioconférence dans Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 
 [Déplacer des utilisateurs entre local et le nuage](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
