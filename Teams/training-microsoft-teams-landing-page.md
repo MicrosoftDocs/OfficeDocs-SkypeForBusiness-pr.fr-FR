@@ -1,7 +1,7 @@
 ---
-title: Formation Microsoft Teams
+title: Formation à Microsoft Teams
 ms.reviewer: ''
-description: Utilisez ces ressources de formation dirigée par des instructeurs, pour les administrateurs et les utilisateurs finaux, pour vous aider à tirer le meilleur parti de Microsoft Teams dans votre organisation.
+description: Ces ressources de formation, destinées aux instructeurs, administrateurs et utilisateurs finaux, permettent de tirer le meilleur parti de Microsoft Teams dans une organisation.
 layout: LandingPage
 ms.topic: landing-page
 author: LolaJacobsen
@@ -23,7 +23,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 03/27/2019
 ms.locfileid: "30878885"
 ---
-# <a name="microsoft-teams-training"></a>Formation Microsoft Teams
+# <a name="microsoft-teams-training"></a>Formation à Microsoft Teams
 
 
 
@@ -40,7 +40,7 @@ ms.locfileid: "30878885"
                     </div>
                     <div class="cardText">
                         <h3>Formation des administrateurs</h3>
-                        <p>Utilisez ces didacticiels, vidéos et autres ressources de formation pour en savoir plus sur Teams et commenten encourager l’utilisation dans votre organisation.</p>
+                        <p>Utilisez ces didacticiels, vidéos et autres ressources de formation pour en savoir plus sur Teams et inciter les membres de votre organisation à l’utiliser.</p>
                     </div>
                 </div>
             </div>
@@ -59,7 +59,7 @@ ms.locfileid: "30878885"
                     </div>
                     <div class="cardText">
                         <h3>Formation dirigée par un instructeur</h3>
-                        <p>Les classes formation gratuites en ligne sont hébergés par Microsoft. Elles sont conçues pour aider à vous mettre en marche avec Teams. Rejoignez-nous pour découvrir Teams en action, obtenir des réponses à vos questions et interagir avec nos instructeurs en direct.</p>
+                        <p>Ces formations en ligne gratuites sont hébergées par Microsoft. Elles sont conçues pour accélérer la prise en main de Teams. Rejoignez-nous pour découvrir Teams en action, obtenir des réponses à vos questions et interagir avec nos instructeurs en direct.</p>
                     </div>
                 </div>
             </div>
@@ -78,7 +78,7 @@ ms.locfileid: "30878885"
                     </div>
                     <div class="cardText">
                         <h3>Formation des utilisateurs finaux</h3>
-                        <p>Utilisez ces ressources de formation pour aider les utilisateurs de votre organisation à tirer le meilleur parti de Teams.</p>
+                        <p>Utilisez ces ressources de formation pour aider les membres de votre organisation à tirer le meilleur parti de Teams.</p>
                     </div>
                 </div>
             </div>
@@ -90,14 +90,14 @@ ms.locfileid: "30878885"
 ---
 
 <h2>Ne manquez pas cette formation cruciale</h2>
-Revenez souvent : nous continuerons de mettre à jour cette liste pour que vous soyez toujours au courant des dernières formations les plus récentes, les plus cool et les plus importantes sur Teams.
+Revenez régulièrement : nous continuerons de mettre à jour cette liste pour que vous soyez toujours au courant des dernières formations les plus récentes, les plus passionnantes et les plus importantes sur Teams.
 <ul class="panelContent cardsW">
     <li>
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Migration de Skype Entreprise vers Microsoft Teams</h3>
+                        <h3>Migration de Skype Entreprise vers Teams</h3>
                          <p><a href="tutorial-journey-skypeforbusiness-to-teams.yml">Didacticiel : Migration de Skype Entreprise vers Teams</a></p>
                     </div>
                 </div>
@@ -109,7 +109,7 @@ Revenez souvent : nous continuerons de mettre à jour cette liste pour que vous 
                 <div class="card">
                     <div class="cardText">
                         <h3>Travail d’équipe</h3>
-                         <p><a href="https://aka.ms/edx-cld267x-about">Formation : Le travail en équipe avec Teams</a></p>
+                         <p><a href="https://aka.ms/edx-cld267x-about">Formation : Favoriser le travail d’équipe avec Teams</a></p>
                     </div>
                 </div>
             </div>
@@ -120,7 +120,7 @@ Revenez souvent : nous continuerons de mettre à jour cette liste pour que vous 
                 <div class="card">
                     <div class="cardText">
                         <h3>Certification de spécialiste de l’adoption</h3>
-                        <p><a href="http://aka.ms/AdoptionCert">Le cours de certification sur l’adoption des service Microsoft présente Teams. Découvrez comment favoriser l’adoption des services Microsoft dans votre organisation.</a></p>
+                        <p><a href="http://aka.ms/AdoptionCert">La certification Microsoft Service Adoption Specialist (Spécialiste de l’adoption des services Microsoft) porte également sur Teams. Elle explique comment favoriser l’adoption des services Microsoft dans votre organisation.</a></p>
                     </div>
                 </div>
             </div>
@@ -131,8 +131,8 @@ Revenez souvent : nous continuerons de mettre à jour cette liste pour que vous 
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Présentation du travail en équipe dans Microsoft 365</h3>
-                        <p><a href="https://docs.microsoft.com/learn/modules/intro-to-teamwork-in-m365/index">En savoir plus sur les outils de Microsoft 365 qui favorisent le travail d’équipe pour tous les employés, quel que soit l’endroit où ils se trouvent ou comment ils se connectent à votre organisation. </a></p>
+                        <h3>Présentation du travail d’équipe dans Microsoft 365</h3>
+                        <p><a href="https://docs.microsoft.com/learn/modules/intro-to-teamwork-in-m365/index">En savoir plus sur les outils de Microsoft 365 qui favorisent le travail d’équipe pour tous les employés, quel que soit l’endroit où ils se trouvent ou leur méthode de connexion à votre organisation. </a></p>
                     </div>
                 </div>
             </div>
