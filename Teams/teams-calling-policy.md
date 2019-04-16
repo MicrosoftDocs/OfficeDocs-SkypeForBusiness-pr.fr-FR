@@ -1,9 +1,9 @@
 ---
-title: Appel de stratégie dans Microsoft Teams
+title: Appel de stratégies dans Microsoft Teams
 author: LolaJacobsen
 ms.author: tonysmit
 manager: serdars
-ms.date: 04/12/2019
+ms.date: 04/15/2019
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: jastark
@@ -17,14 +17,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c97fd5ff9228d0761f55f2f56b9a908cc3861c29
-ms.sourcegitcommit: 82490c2ef74900c348c14968b605a313b5bf3078
+ms.openlocfilehash: 20dc75dfeb39fbd7a00e6c389dc923617265cc0b
+ms.sourcegitcommit: 946c77b847c1b2c5c43802ecfb0a918fa4f562d9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2019
-ms.locfileid: "31860260"
+ms.lasthandoff: 04/15/2019
+ms.locfileid: "31869805"
 ---
-<a name="calling-policy-in-microsoft-teams"></a>Appel de stratégie dans Microsoft Teams
+<a name="calling-policies-in-microsoft-teams"></a>Appel de stratégies dans Microsoft Teams
 ==========================================
 
 Dans Microsoft Teams, appel de contrôle des stratégies les appels et les fonctionnalités de transfert d’appel sont disponibles pour les utilisateurs. Les stratégies d’appel déterminent si un utilisateur peut effectuer des appels privées, utilisez le transfert d’appel ou acheminer les appels vers la messagerie vocale, envoyer les appels aux groupes d’appel, sonnerie simultanée à d’autres utilisateurs ou les numéros de téléphone externe, utilisent la délégation pour les appels entrants et sortants, et ainsi de suite. Une stratégie globale par défaut est créée automatiquement, mais les administrateurs peuvent également créer et affecter des stratégies appel personnalisés.
@@ -41,6 +41,14 @@ Dans Microsoft Teams, appel de contrôle des stratégies les appels et les fonct
 |Autoriser la délégation pour les appels entrants et sortants | Permet aux appels entrants destinés à être acheminés vers les délégués ; permet de délégués pour émettre des appels sortants part les utilisateurs pour lesquels ils ont délégué des autorisations. |
 |Empêcher le contournement de média payant et envoyer les appels par le biais de la passerelle PSTN | La valeur **sur** pour envoyer les appels via RTC et provoquer des frais plutôt qu’à passer par le réseau et en contournant le cas. |
 |Occupé (e) sur occupé (e) est disponible dans un appel.| Configure les appels entrants comment sont traités lorsqu’un utilisateur est déjà dans un appel ou une conférence. Nouveaux appels entrants peuvent être rejetées avec un signal occupé (e). |
+
+### <a name="busy-options-busy-on-busy-setting"></a>Options de disponibilité (occupé (e) dans le paramètre occupé (e))
+
+Options de disponibilité est un nouveau paramètre dans les équipes appelant stratégies qui permet de configurer les appels entrants comment sont traités lorsqu’un utilisateur est déjà dans un appel ou une conférence ou a un appel mis en attente. Nouveaux appels entrants peuvent être rejetées avec un signal occupé (e). Vous pouvez activer les options occupé (e) à un niveau client ou à un niveau de l’utilisateur. 
+
+Quelle que soit la configuration des options de leurs disponibilitées, les utilisateurs dans un appel ou conférence ou par un appel en attente ne peuvent pas pas d’initier des nouveaux appels ou des conférences.
+
+Vous pouvez utiliser les informations de disponibilité sur occupé (e) paramètre lors de l’appel des paramètres de stratégie pour configurer les options de disponibilité. Ce paramètre est désactivé par défaut.
 
 ## <a name="create-a-custom-calling-policy"></a>Créer une stratégie personnalisée appelante
 

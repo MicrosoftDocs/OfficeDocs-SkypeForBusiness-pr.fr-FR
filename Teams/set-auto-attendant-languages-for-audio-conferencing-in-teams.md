@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Cette section explique comment sélectionner les langues du standard automatique d’audioconférence d’un numéro d’audioconférence dans Microsoft Teams.
-ms.openlocfilehash: a0ed552599e295f630852971f22b362d2e2f2b1b
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: ce0462dd1e855402aee424a5f677e37efba1a7e3
+ms.sourcegitcommit: 946c77b847c1b2c5c43802ecfb0a918fa4f562d9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463923"
+ms.lasthandoff: 04/15/2019
+ms.locfileid: "31869813"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>Définir les langues du standard automatique d’audioconférence dans Microsoft Teams
 
@@ -46,7 +46,7 @@ Sélectionnez la langue principale et jusqu’à quatre langues secondaires. La 
 
 1. Dans la barre de navigation de gauche, accédez à **Réunions** > **Conference Bridges** (Ponts de conférence).
 
-2. Sélectionnez un numéro de téléphone de conférence audio **Dedidcated** dans la liste, puis en haut de la page, cliquez sur **Modifier**. Il n’est possible de modifier les langues de numéros de conférence audio dédié. L’option **Modifier** ne s’affiche lorsqu’un numéro de conférence audio dédié est sélectionné.
+2. Sélectionnez un numéro de téléphone de conférence audio **dédiée** à partir de la liste, puis en haut de la page, cliquez sur **Modifier**. Il n’est possible de modifier les langues de numéros de conférence audio dédié. L’option **Modifier** ne s’affiche lorsqu’un numéro de conférence audio dédié est sélectionné.
 
 3. Dans le volet de droite, sélectionnez la langue par défaut et les autres langues. 
  
@@ -70,5 +70,5 @@ Voir la [référence PowerShell d’équipes Microsoft](https://docs.microsoft.c
   
 ## <a name="related-topics"></a>Rubriques connexes
 
-[Tester ou acheter l'audioconférence dans Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Tester ou acheter l’audioconférence dans Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
 

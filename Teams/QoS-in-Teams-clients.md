@@ -15,14 +15,14 @@ MS.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b1f80ede0432c3666a1974b1e0c8d7fa3dc2bbfc
-ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
+ms.openlocfilehash: 101deb10cf3d86dbc97116cad269556683d03be4
+ms.sourcegitcommit: 946c77b847c1b2c5c43802ecfb0a918fa4f562d9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "30408266"
+ms.lasthandoff: 04/15/2019
+ms.locfileid: "31869845"
 ---
-# <a name="set-qos-on-windows-clients"></a>Jeu de QoS sur les clients Windows
+# <a name="set-qos-on-windows-clients"></a>Définir la qualité de service sur les clients Windows
 
 Vous pouvez utiliser QoS basée sur les stratégies au sein de la stratégie de groupe pour définir la plage de ports source pour la valeur DSCP prédéfinie dans le client d’équipes. Les plages de ports spécifiés dans le tableau suivant sont un point de départ pour créer une stratégie pour chaque charge de travail.
 
@@ -37,7 +37,7 @@ Type de trafic multimédia| Plage de ports client source |Protocole|Valeur DSCP|
 
 Dans la mesure du possible, configurez les paramètres de QoS basée sur la stratégie au sein d’un objet de stratégie de groupe. Les étapes suivantes sont très similaires à la [Configuration des plages de ports et une stratégie de qualité de Service pour vos clients sur Skype pour Business Server](https://docs.microsoft.com/SkypeForBusiness/manage/network-management/qos/configuring-port-ranges-for-your-skype-clients#configure-quality-of-service-policies-for-clients-running-on-windows-10), qui comprend des informations supplémentaires qui ne peuvent pas être nécessaires.
 
-Pour créer une stratégie audio QoS pour les ordinateurs Windows 10 AccountManagement liés, ouvrez une session un ordinateur sur lequel la gestion des stratégies de groupe a été installée. Ouvrez Gestion des stratégies de groupe (cliquez sur Démarrer, pointez sur Outils d’administration, puis cliquez sur gestion des stratégies de groupe), puis suivez les étapes suivantes :
+Pour créer une stratégie audio QoS pour les ordinateurs de 10 Windows à un domaine, ouvrez une session un ordinateur sur lequel la gestion des stratégies de groupe a été installée. Ouvrez Gestion des stratégies de groupe (cliquez sur Démarrer, pointez sur Outils d’administration, puis cliquez sur gestion des stratégies de groupe), puis suivez les étapes suivantes :
 
 1. Dans Gestion de stratégie de groupe, recherchez le conteneur où la nouvelle stratégie doit être créée. Par exemple, si tous vos ordinateurs clients se trouvent dans une unité d’organisation nommée **Clients**, la nouvelle stratégie doit être créée en l’unité d’organisation du Client.
 
@@ -106,7 +106,7 @@ Pour vérifier que les valeurs de l’objet de stratégie de groupe ont été d�
    |    Nom de l’application    | REG_SZ |  Teams.exe  |
    |       Valeur DSCP       | REG_SZ |     46      |
    |        Adresse IP locale        | REG_SZ |     \*      |
-   | Longueur du préfixe de l’adresse IP locale | REG_SZ |     \*      |
+   | Longueur de préfixe d’adresse IP locale | REG_SZ |     \*      |
    |       Port local       | REG_SZ | 50000-50019 |
    |        Protocole        | REG_SZ |     \*      |
    |       Adresse IP distante        | REG_SZ |     \*      |
