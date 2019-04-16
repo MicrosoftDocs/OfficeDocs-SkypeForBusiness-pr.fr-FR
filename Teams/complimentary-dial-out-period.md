@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Legal
 description: Les clients peuvent utiliser le Forfait d’appels Office 365 et l’Audioconférence Office 365, comme le permettent les conditions d’utilisation des services RTC de Skype Entreprise Online et le contrat de licence en volume du client.
-ms.openlocfilehash: 37e42cfe15e592822286936f6a0994cb9862d5b2
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 4255df94166416a7743a1d9715b465164cdaf627
+ms.sourcegitcommit: 2731231f7e1cb518ce34c81bd00e619c3a1972e3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569638"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "31875020"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>Période complémentaire pour la numérotation de l'audioconférence
 
@@ -35,6 +35,10 @@ ms.locfileid: "30569638"
 
 Customers may use Office 365 Calling Plan and Office 365 Audio Conferencing as permitted in the Skype for Business Online PSTN Services Use Terms and Customer's volume licensing agreement. The PSTN Services Use Terms may be found at [Licensing Terms and Documentation](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=2&amp;Keyword=PSTN).
   
+### <a name="end-of-complimentary-dial-out-period"></a>Fin de période un appel gratuit
+
+La fonctionnalité d’appel sortant gratuite début 1 décembre 2019, se termine. Pour plus d’informations, voir [effectuer des appels sortants d’abonnement de conférence Audio et de m’appeler au bénéfice](audio-conferencing-subscription-dial-out.md) . 
+
 ### <a name="complimentary-dial-out-period-details"></a>Appel gratuit détail de la période
 
 Pour les clients de l’adoption de notre service de conférence Audio Office 365, Microsoft offre un avantage gratuit supplémentaire relatives aux appels sortants à partir des réunions organisées par les utilisateurs attribués une licence d’abonnement Office 365 audioconférence via 2019 juin. Pendant cette période gratuite, Microsoft permet d’organisateurs de réunion ou de participants autorisés comme défini dans les paramètres de stratégie pour effectuer des appels appel sortant à partir de la réunion aux numéros de téléphone non premium 44 pays « Zone A » ci-dessous. Cet avantage est applicable aux licences d’abonnement mensuels audioconférence et ne porte pas sur les licences de salaire par minute de conférence Audio.
