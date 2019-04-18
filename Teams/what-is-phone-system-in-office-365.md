@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Découvrez le système téléphonique qui peut faire pour vous. '
-ms.openlocfilehash: 41694fcc91ccb1d7bdf4df38c39a6554851d2a8f
-ms.sourcegitcommit: 5b33cfc828906917f76b0d2a9ae402c9336388a1
+ms.openlocfilehash: a4ac90d24863ecaf56ca471d412474bf81653a50
+ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30934779"
+ms.lasthandoff: 04/18/2019
+ms.locfileid: "31914619"
 ---
 # <a name="what-is-phone-system-in-office-365"></a>Système téléphonique dans Office 365
 
@@ -65,9 +65,9 @@ Plans d’appel (internes et nationales et internationales) sont disponibles dan
 
 ## <a name="phone-system-with-services"></a>Système téléphonique avec les Services
  Système de téléphone aso peut être utilisé pour les services et de la messagerie vocale :
-- **Standards automatiques**  Système téléphonique dans Office 365 standards automatiques peuvent servir à créer un système de menus pour votre organisation qui permet aux appelants internes et externes passent par un système de menus pour localiser et placer ou transférer des appels vers les utilisateurs de la société ou département au sein de votre organisation. Voir [Quelles sont les standards automatiques de système téléphonique ?](what-are-phone-system-auto-attendants.md)
+- **Standards automatiques**  Système téléphonique dans Office 365 standards automatiques peuvent servir à créer un système de menus pour votre organisation qui permet aux appelants internes et externes passent par un système de menus pour localiser et placer ou transférer des appels vers les utilisateurs de la société ou département au sein de votre organisation. Voir [Quelles sont les standards automatiques de nuage ?](what-are-phone-system-auto-attendants.md)
 
-- **Files d’attente des appels**  Avec un système téléphonique, vous pouvez créer des appels en file d’attente le message d’accueil qui est utilisés lorsqu’une personne appelle un numéro de téléphone de votre organisation. Cela inclut la possibilité de mettre automatiquement les appels en attente et la capacité de recherche pour l’agent disponible appel suivant gérer l’appel pendant les personnes qui écoutent appel une musique d’attente. Vous pouvez créer une seule ligne ou plusieurs files d’attente d’appel pour votre organisation. Consultez la rubrique [créer une file d’attente des appels système téléphonique](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
+- **Files d’attente des appels**  Avec un système téléphonique, vous pouvez créer des appels en file d’attente le message d’accueil qui est utilisés lorsqu’une personne appelle un numéro de téléphone de votre organisation. Cela inclut la possibilité de mettre automatiquement les appels en attente et la capacité de recherche pour l’agent disponible appel suivant gérer l’appel pendant les personnes qui écoutent appel une musique d’attente. Vous pouvez créer une seule ligne ou plusieurs files d’attente d’appel pour votre organisation. Consultez la rubrique [créer une file d’attente des appels dans le nuage](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
 
 - **Messagerie vocale** Lorsque vous recevez une licence de système téléphonique pour un utilisateur, cet utilisateur sera en mesure d’obtenir la messagerie vocale qui a été laissée par les appelants. Messagerie vocale dans le nuage est automatiquement configuré et mis en service pour les utilisateurs une fois que vous leur attribuez une licence de système téléphonique et un numéro de téléphone. Voir [configuration de la messagerie vocale dans le nuage](set-up-phone-system-voicemail.md).
 

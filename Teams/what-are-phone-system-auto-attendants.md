@@ -1,10 +1,10 @@
 ---
-title: Quelles sont les standards automatiques de système téléphonique ?
+title: Quelles sont les standards automatiques de nuage ?
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: makolomi
-ms.date: 9/1/2018
+ms.date: 4/2/2019
 ms.topic: article
 ms.assetid: ab9f05a2-22cb-4692-a585-27f82d1b37c7
 ms.tgt.pltfrm: cloud
@@ -21,23 +21,23 @@ localization_priority: Normal
 f1keywords: ms.teamsadmincenter.autoattendants.overview
 ms.custom:
 - Phone System
-description: Découvrez quelles sont les standards automatiques de système téléphonique et comment les utiliser.
-ms.openlocfilehash: 46828acc60f6960416f8aeb18452da0ae5e31e68
-ms.sourcegitcommit: 7fe8daf07013d7c532f128a3ae3bbf51d1b2aac9
+description: Découvrez quelles sont les standards automatiques de nuage et comment les utiliser.
+ms.openlocfilehash: 1d9c72817b865b323b9d018710c9201b51bb56a3
+ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/11/2019
-ms.locfileid: "31808085"
+ms.lasthandoff: 04/18/2019
+ms.locfileid: "31914627"
 ---
-# <a name="what-are-phone-system-auto-attendants"></a>Quelles sont les standards automatiques de système téléphonique ?
+# <a name="what-are-cloud-auto-attendants"></a>Quelles sont les standards automatiques de nuage ?
 
 Système téléphonique dans Office 365 fournit des standards automatiques, qui peuvent être utilisés pour permettre aux externe et internes appelants déplacement dans un système de menus pour localiser et placer ou transférer des appels vers les utilisateurs de la société ou département au sein de votre organisation.
   
 Un standard automatique est une série d’invites vocales ou les fichiers audio que les appelants entendront au lieu d’un opérateur humain quand ils appellent une organisation. Personnes d’appeler un numéro associé à un standard automatique, leur choix permettre rediriger l’appel à un utilisateur ou rechercher une personne dans votre organisation, puis connectez-vous à cet utilisateur. Ils peuvent express de leur choix et interagir avec le système de menus à l’aide d’un pavé numérique du téléphone (DTMF) ou la reconnaissance vocale.
   
-Pour configurer un standard automatique pour le système téléphonique dans Office 365, accédez à [configurer un standard automatique de système téléphonique](create-a-phone-system-auto-attendant.md).
+Pour configurer un standard automatique pour le système téléphonique dans Office 365, accédez à [configurer un standard automatique de nuage](create-a-phone-system-auto-attendant.md).
   
-Un standard automatique de système téléphonique comprend les fonctionnalités suivantes :
+Un standard automatique de nuage comprend les fonctionnalités suivantes :
   
 - Il propose des messages d'accueil spécifiques de l'entreprise ou à vocation informative.
 - Il propose des menus d'entreprise personnalisés. Vous pouvez personnaliser ces menus afin de disposer de plusieurs niveaux.
@@ -199,7 +199,7 @@ L’opérateur peut être définie sur :
 - Un utilisateur de Microsoft Teams ou un Skype pour des activités à l’utilisateur de site qui est activé pour Enterprise Voice.
   
 - Un autre standard automatique configuré dans votre organisation
-- Une file d'attente existante configurée dans votre organisation. Pour plus d’informations sur les files d’attente des appels, consultez [créer une file d’attente des appels système téléphonique](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
+- Une file d'attente existante configurée dans votre organisation. Pour plus d’informations sur les files d’attente de l’appel, consultez [créer une file d’attente des appels dans le nuage](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
 
 ### <a name="business-hours-and-call-handling"></a>Heures d'ouverture et traitement des appels
 
@@ -212,14 +212,14 @@ Chaque standard automatique comprend des options de gestion des appels qui peuve
   - Rediriger l’appel vers un utilisateur de Microsoft Teams ayant une licence de **Système téléphonique** prenant en charge Enterprise Voice ou a appelant Plans assigné. Vous pouvez le régler pour que la personne appelant soit redirigée vers la messagerie vocale. Pour ce faire, sélectionnez **une personne de votre entreprise** et configurez ses appels pour les rediriger automatiquement vers la messagerie vocale.
 
   
-  - Rediriger l’appel vers une file d’attente de l’appel. Pour plus d’informations sur les files d’attente des appels, consultez [créer une file d’attente des appels système téléphonique](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
+  - Rediriger l’appel vers une file d’attente de l’appel. Pour plus d’informations sur les files d’attente de l’appel, consultez [créer une file d’attente des appels dans le nuage](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
 
   - Rediriger l’appel vers un autre standard automatique que vous avez configurées.
 - Créer des options de menu et activer une invite de menu pour l'appelant. Par exemple : « Appuyez sur 1 pour contacter le département des ventes, appuyez sur 2 pour contacter le département des services. Pour contacter l'opérateur, appuyez sur 0 à tout moment. »
 
 ### <a name="menu-options"></a>Options de menu
 
-Standards automatiques de système téléphonique permettent de créer des invites de menu (« appuyez sur 1 pour la vente, appuyez sur 2 pour les Services ») et définir les options de menu pour acheminer les appels en fonction de ce que l’utilisateur sélectionne. La configuration des options de menu d'un standard automatique permet à une organisation de fournir une assistance interactive pour orienter rapidement l'appelant vers sa destination, sans recourir à un opérateur humain pour la gestion des appels entrants. Invites peuvent être créés à l’aide de la synthèse vocale (invites généré par le système) ou en téléchargeant un fichier audio qui a été enregistré. La reconnaissance vocale utilise des commandes vocales pour naviguer en mode mains libres, mais les appelants peuvent également utiliser leur clavier téléphonique pour parcourir les menus.
+Standards automatiques de nuage permettent de créer des invites de menu (« appuyez sur 1 pour la vente, appuyez sur 2 pour les Services ») et définir les options de menu pour acheminer les appels en fonction de ce que l’utilisateur sélectionne. La configuration des options de menu d'un standard automatique permet à une organisation de fournir une assistance interactive pour orienter rapidement l'appelant vers sa destination, sans recourir à un opérateur humain pour la gestion des appels entrants. Invites peuvent être créés à l’aide de la synthèse vocale (invites généré par le système) ou en téléchargeant un fichier audio qui a été enregistré. La reconnaissance vocale utilise des commandes vocales pour naviguer en mode mains libres, mais les appelants peuvent également utiliser leur clavier téléphonique pour parcourir les menus.
   
 Touches 0 à 9 peuvent être assignés aux **Options de Menu** dans un standard automatique à l’aide de la Skype entreprise centre d’administration. Plusieurs ensembles d'options de menu peuvent être créés pour les heures d'ouverture et de fermeture et vous pouvez activer ou désactiver la fonction Numérotation par nom dans les **Options de menus**. Les touches peuvent être mappées pour transférer les appels vers :
   
@@ -230,7 +230,7 @@ Touches 0 à 9 peuvent être assignés aux **Options de Menu** dans un standard 
   
 Le nom de chaque option de menu devient un mot clé de la reconnaissance vocale si la reconnaissance vocale a été activée. Par exemple, les appelants peuvent prononcer « One » pour sélectionner l’option de menu mappée à la clé 1, ou ils peuvent simplement dire « Sales » pour sélectionner l’option de menu même nommée « Sales ».
   
-Pour configurer un standard automatique et les options de menu, consultez [configurer un standard automatique de système téléphonique](create-a-phone-system-auto-attendant.md).
+Pour configurer un standard automatique et les options de menu, consultez [configurer un standard automatique de nuage](create-a-phone-system-auto-attendant.md).
   
 ### <a name="assigning-phone-numbers-for-an-auto-attendant"></a>Affectation des numéros de téléphone pour un standard automatique
 

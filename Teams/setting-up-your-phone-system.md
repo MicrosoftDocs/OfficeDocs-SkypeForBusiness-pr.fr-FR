@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Découvrez comment configurer le système téléphonique (PBX nuage) pour votre organisation. '
-ms.openlocfilehash: 5423ceb0dcd4de03c95ff956e50442a784de877c
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 7a180817fb4a3885748a5ca80c494ef1b69143a4
+ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30633281"
+ms.lasthandoff: 04/18/2019
+ms.locfileid: "31914651"
 ---
 # <a name="setting-up-phone-system-in-your-organization"></a>Configuration du système téléphonique de votre organisation
 
@@ -207,26 +207,26 @@ Pour les questions fréquemment posées à propos des audioconférences, consult
 
 **Pour plus d’informations sur la conférence Audio, voir [configurer la conférence Audio pour les équipes Microsoft](set-up-audio-conferencing-in-teams.md).**
 
-## <a name="step-7-if-you-want-to-set-up-a-phone-system-call-queue"></a>Étape 7 : Si vous souhaitez configurer une file d’attente des appels système téléphoniques
+## <a name="step-7-if-you-want-to-set-up-a-cloud-call-queue"></a>Étape 7 : Si vous souhaitez configurer une file d’attente des appels dans le nuage
 
-Phone System call queues include greetings that are used when someone calls in to a phone number for your organization, the ability to automatically put the calls on hold, and the ability to search for the next available call agent to handle the call while the people who call are listening to music on hold. You can create single or multiple call queues for your organization.
+Le message d’accueil qui est utilisés lorsqu’une personne appelle un numéro de téléphone pour votre organisation, la possibilité de mettre automatiquement les appels en attente et la capacité de recherche pour l’agent disponible appel suivant gérer l’appel pendant les personnes qui sont des appels sont les files d’attente des appels dans le nuage écoute musicale. Vous pouvez créer une seule ligne ou plusieurs files d’attente d’appel pour votre organisation.
 
 Before you can create and set up your call queues, you will need to get or transfer your existing toll or toll-free service numbers. After you get the toll or toll-free service phone numbers, they will show up in **Skype for Business admin center** > **Voice** > **Phone numbers**, and the **Number type** listed will be listed as **Service - Toll-Free**. To get your service numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers) or if you want to transfer and existing service number, see [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md).
   
 > [!NOTE]
 > If you are outside the United States, you can't use the Skype for Business admin center to get service numbers. Go to [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) instead to see how to do it from the outside of the United States.
 
-Pour créer une nouvelle file d’attente d’appel, dans le **centre d’administration de Skype entreprise**, cliquez sur **routage des appels** > **files d’attente des appels**, cliquez sur **ajouter nouveau**, puis suivez les instructions à l' **étape 3** de [créer une file d’attente des appels système téléphonique](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue#step-3---create-a-new-call-queue).
+Pour créer une nouvelle file d’attente d’appel, dans le **Skype entreprise centre d’administration**, cliquez sur **routage des appels** > **files d’attente des appels**, cliquez sur **Nouveau**, puis suivez les instructions à l' **étape 3** de [créer une file d’attente des appels dans le nuage](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue#step-3---create-a-new-call-queue).
 
-**Pour plus d’informations sur les files d’attente des appels, voir [créer une file d’attente des appels système téléphonique](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).**
+**Pour plus d’informations sur les files d’attente des appels, voir [créer une file d’attente des appels dans le nuage](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).**
 
-## <a name="step-8-if-you-want-to-set-up-a-phone-system-auto-attendant"></a>Étape 8 : Si vous souhaitez configurer un système téléphonique standard automatique
+## <a name="step-8-if-you-want-to-set-up-a-cloud-auto-attendant"></a>Étape 8 : Si vous souhaitez configurer un nuage standard automatique
 
 Auto attendants let people that call in to your organization and navigate a menu system to get them to the right department, call queue, person, or the operator. You can create an auto attendant for your organization by using the Skype for Business admin center.
 
-Pour créer un nouveau standard automatique, dans le centre d’administration de Skype entreprise , cliquez sur **routage des appels** > **standards automatiques**, cliquez sur **ajouter nouveau**, puis suivez les instructions pour chaque page dans l' **étape 2** de [configurer un standard automatique de système téléphonique attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant#step-2---create-a-new-auto-attendant).
+Pour créer un nouveau standard automatique, dans le Skype entreprise centre d’administration, cliquez sur **routage des appels** > **standards automatiques**, cliquez sur **Nouveau**, puis suivez les instructions pour chaque page dans l' **étape 2** de [Set up un standard automatique de nuage ](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant#step-2---create-a-new-auto-attendant).
 
-**Pour plus d’informations sur les standards automatiques de système téléphonique, consultez [configurer un standard automatique de système téléphonique](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant).**
+**Pour plus d’informations sur les standards automatiques de nuage, consultez [configurer un standard automatique de nuage](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant).**
 
 ## <a name="step-9-assign-service-phone-numbers-audio-conferencing-call-queues-auto-attendants"></a>Étape 9 : Affecter les numéros de téléphone des services (services d’audioconférence, files d’attente des appels, standards automatiques)
 
@@ -234,9 +234,9 @@ Once you have your service numbers from **Step 4 above**, you need to assign the
 
 - Pour une audioconférence, vous pouvez affecter un numéro dédié à un pont de conférence en accédant au **Centre d’administration d’Office 365** > **centres Admin** > **Skype pour les entreprises** > **conférence Audio**, puis cliquez sur le pont de conférence ou en consultant la rubrique [Modifier le numéro payant ou gratuit sur le pont de conférence Audio](change-the-phone-numbers-on-your-audio-conferencing-bridge.md).
 
-- For Auto Attendants, you can assign a dedicated number to an auto attendant by going to **Office 365 admin center** > **Admin centers** > **Skype for Business** > **Call routing** > **Auto attendants** and click on the auto attendant. On the **General** page the service number you already have will be listed in the **Phone number** drop down. For details, see [Set up a Phone System Auto Attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant).
+- Pour les standards automatiques, vous pouvez affecter un numéro dédié à un standard automatique en accédant au **Centre d’administration d’Office 365** > **centres Admin** > **Skype pour les entreprises** > **routage des appels** > standards**automatique** et cliquez sur le standard automatique. Dans la page **Général**, le numéro de service que vous avez déjà sera consigné dans le **numéro de téléphone** de la liste déroulante. Pour plus d’informations, consultez [configurer un standard automatique de nuage](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant).
 
-- For Call Queues, you can assign a dedicated number to a call queue by going to **Office 365 admin center** > **Admin centers** > **Skype for Business** > **Call routing** > **Call queues** and click on the call queue. On the **General** page the service number you already have will be listed in the **Phone number** drop down. For details, see [Create a Phone System call queue](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
+- Pour les files d’attente des appels, vous pouvez affecter un numéro dédié à une file d’attente de l’appel en accédant au **Centre d’administration d’Office 365** > **centres Admin** > **Skype pour les entreprises** > **routage des appels** > **files d’attente des appels**, puis cliquez sur la file d’attente de l’appel. Dans la page **Général**, le numéro de service que vous avez déjà sera consigné dans le **numéro de téléphone** de la liste déroulante. Pour plus d’informations, voir [créer une file d’attente des appels dans le nuage](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
 
 **Pour plus d’informations voir [Créer une attente système téléphonique appelée = "undefined" class="unusedGlossaryTerm">](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).**
 

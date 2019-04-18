@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 f1keywords: None
 description: Découvrez comment configurer les jours fériés dans Microsoft Teams et les connecter à votre standard automatique.
-ms.openlocfilehash: 72feed025e43eb7242f75608534db45d74aca9c9
-ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
+ms.openlocfilehash: afec7fc3f1bbe47c907b823711db3b8b8ef3aded
+ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31517118"
+ms.lasthandoff: 04/18/2019
+ms.locfileid: "31914577"
 ---
 # <a name="set-up-holidays-in-microsoft-teams"></a>Configurer des jours fériés dans Microsoft Teams
 
@@ -33,7 +33,7 @@ Vous pouvez lier les congés à standards automatiques que vous créez au sein d
 
 Un bon exemple consiste à créer un congé pour Noël pour lorsque beaucoup de vos employés ne sont pas au bureau. Après avoir créer la période de congé et définir les heures, puis vous devez ajouter le congé à votre principale standard automatique afin que lors de l’appellent de personnes, elles seront entendre un message audio que vous avez créé. Quelque chose comme, « nous effectuons fermés de Noël de 22 décembre via 27 décembre. Laissez nous un message vocal afin que nous pouvons renvoyer votre appel lorsque nous sommes du bureau. »
 
-Pour plus d’informations sur les standards automatiques, voir [Quelles sont les standards automatiques de système téléphonique](what-are-phone-system-auto-attendants.md)?  
+Pour plus d’informations sur les standards automatiques, voir [Quelles sont les standards automatiques de nuage](what-are-phone-system-auto-attendants.md)?  
 
 ## <a name="create-a-holiday"></a>Créer une période de congé
 
@@ -88,4 +88,4 @@ Pour plus d’informations sur les standards automatiques, voir [Quelles sont le
 
 ## <a name="related-topics"></a>Rubriques connexes
 
-[Quelles sont les standards automatiques de système téléphonique](what-are-phone-system-auto-attendants.md)?
+[Quelles sont les standards automatiques de nuage](what-are-phone-system-auto-attendants.md)?

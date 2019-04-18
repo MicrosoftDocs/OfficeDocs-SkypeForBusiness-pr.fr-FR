@@ -20,19 +20,19 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: Découvrez comment configurer le système téléphonique de files d’attente des appels système téléphonique pour vous donner une organisation message d’accueil, une musique d’attente et rediriger les appels pour appeler les agents dans des listes de distribution et les groupes de sécurité. Vous pouvez également définir la taille maximale de file d’attente, délai d’expiration et options de gestion des appels.
-ms.openlocfilehash: 1260f74deecefd93dcb9e8d99c4ea5063918a720
-ms.sourcegitcommit: 7fe8daf07013d7c532f128a3ae3bbf51d1b2aac9
+description: Découvrez comment configurer le système téléphonique de files d’attente des appels dans le nuage pour vous donner une organisation message d’accueil, une musique d’attente et rediriger les appels pour appeler les agents dans des listes de distribution et les groupes de sécurité. Vous pouvez également définir la taille maximale de file d’attente, délai d’expiration et options de gestion des appels.
+ms.openlocfilehash: da178761658460812bc1d0330f3540be43c3e6e6
+ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/11/2019
-ms.locfileid: "31808061"
+ms.lasthandoff: 04/18/2019
+ms.locfileid: "31914643"
 ---
-# <a name="create-a-phone-system-call-queue"></a>Créer une file d’attente d’appels sur le système téléphonique
+# <a name="create-a-cloud-call-queue"></a>Créer une file d’attente des appels dans le nuage
 
-Appel de système téléphonique files d’attente contiennent le message d’accueil qui est utilisés lorsqu’une personne appelle un numéro de téléphone pour votre organisation, la possibilité de mettre automatiquement les appels en attente et la capacité de recherche pour l’agent disponible appel suivant gérer l’appel pendant les personnes qui appel Écoutez une musique d’attente. Vous pouvez créer une seule ligne ou plusieurs files d’attente d’appel pour votre organisation.
+Le message d’accueil qui est utilisés lorsqu’une personne appelle un numéro de téléphone pour votre organisation, la possibilité de mettre automatiquement les appels en attente et la capacité de recherche pour l’agent disponible appel suivant gérer l’appel pendant les personnes qui sont des appels sont les files d’attente des appels dans le nuage écoute musicale. Vous pouvez créer une seule ligne ou plusieurs files d’attente d’appel pour votre organisation.
   
-Files d’attente des appels téléphoniques système peuvent fournir :
+Files d’attente des appels dans le nuage peuvent fournir :
   
 - Un message d’accueil d’organisation.
 - Musique pendant que les utilisateurs sont en attente de suspension.
@@ -76,12 +76,12 @@ Pour commencer à l’aide de files d’attente d’appel, il est important de n
   
 - Pour en savoir plus sur Office 365 appelant Plans, voir le [système téléphonique et Plans de l’appel](calling-plan-landing-page.md) et [Appel des Plans pour Office 365](calling-plans-for-office-365.md).
 
-- Vous pouvez uniquement attribuer payants et les numéros de téléphone gratuit service que vous avez obtenu dans le **Centre d’administration de Microsoft équipes** ou transférés à partir d’un autre fournisseur de services aux files d’attente des appels système téléphonique. Pour obtenir et utiliser des numéros gratuits service, vous devez configurer les crédits de Communications.
+- Vous pouvez uniquement attribuer payants et les numéros de téléphone gratuit service que vous avez obtenu dans le **Centre d’administration de Microsoft équipes** ou transférés à partir d’un autre fournisseur de services aux files d’attente des appels dans le nuage. Pour obtenir et utiliser des numéros gratuits service, vous devez configurer les crédits de Communications.
 
     > [!NOTE]
     > Numéros de téléphone de l’utilisateur (abonné) ne peut pas être affectés à appeler des files d’attente - le service seulement payant ou numéros de téléphone peuvent être utilisés.
   
-- Lorsque vous distribuez les appels entrants à partir d’une file d’attente des appels système téléphonique, ces clients sont pris en charge pour les agents d’appel :
+- Lorsque vous distribuez les appels entrants à partir d’une file d’attente des appels dans le nuage, ces clients sont pris en charge pour les agents d’appel :
 
   - Skype pour le client de bureau Business 2016 (versions 32 et 64 bits)
 
@@ -323,6 +323,6 @@ Voici les applets de commande dont vous avez besoin pour gérer une file d’att
 
 [Obtention de numéros de téléphone de service](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
-[Disponibilité des forfaits d’appels et de l’audioconférence selon les régions et les pays](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[Disponibilité des forfaits d'appels et de l’audioconférence selon les régions et les pays](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
 [Nouvelle CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance?view=skype-ps)

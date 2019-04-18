@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Page d’accueil pour le déploiement de voix dans le nuage dans les équipes
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: abc8d3e552820ee93b5ccd1fc968e914ac5287ba
-ms.sourcegitcommit: 4e750efd107dfc9bfd8b09d64abd40e0e27734de
+ms.openlocfilehash: 47c534eba93c6f5af21a75fa20b5015fac00c674
+ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "30948376"
+ms.lasthandoff: 04/18/2019
+ms.locfileid: "31914611"
 ---
 # <a name="cloud-voice-in-microsoft-teams"></a>Appel vocal dans le nuage dans Microsoft Teams
 
@@ -127,20 +127,20 @@ Quels sont les utilisateurs qui ont besoin d’un plan d’appel personnalisé e
 
 ### <a name="call-queues"></a>Files d'attente des appels
 
-Appel de système téléphonique files d’attente contiennent le message d’accueil qui est utilisés lorsqu’une personne appelle un numéro de téléphone pour votre organisation, la possibilité de mettre automatiquement les appels en attente et la capacité de recherche pour l’agent disponible appel suivant gérer l’appel pendant les personnes qui appel Écoutez une musique d’attente. Vous pouvez créer une seule ligne ou plusieurs files d’attente d’appel pour votre organisation. 
+Le message d’accueil qui est utilisés lorsqu’une personne appelle un numéro de téléphone pour votre organisation, la possibilité de mettre automatiquement les appels en attente et la capacité de recherche pour l’agent disponible appel suivant gérer l’appel pendant les personnes qui sont des appels sont les files d’attente des appels dans le nuage écoute musicale. Vous pouvez créer une seule ligne ou plusieurs files d’attente d’appel pour votre organisation. 
 
 
 |Posez-vous la question|Action |
 |:------------|:-------|
-| Mon organisation devez appelle les files d’attente ? | Pour plus d’informations, voir [créer une file d’attente des appels système téléphonique](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) et [la configuration de votre système téléphonique](setting-up-your-phone-system.md). |
+| Mon organisation devez appelle les files d’attente ? | Pour plus d’informations, voir [créer une file d’attente des appels dans le nuage](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) et [la configuration de votre système téléphonique](setting-up-your-phone-system.md). |
 
 ### <a name="auto-attendants"></a>Standards automatiques
 
-Système téléphonique standards automatiques peuvent servir à créer un système de menus pour votre organisation qui permet aux appelants internes et externes passent par un système de menus pour localiser et placer ou transférer des appels vers les utilisateurs de la société ou département au sein de votre organisation.
+Standards automatiques de nuage peuvent être utilisées pour créer un système de menus pour votre organisation qui vous permet d’externe et internes appelants déplacement dans un système de menus pour localiser et placer ou transférer des appels vers les utilisateurs de la société ou département au sein de votre organisation.
 
 |Posez-vous la question|Action |
 |:------------|:-------|
-| Mon organisation a-t-elle besoin de standards automatiques ? | Pour plus d’informations, voir [les standards automatiques de système téléphonique](what-are-phone-system-auto-attendants.md) et [configurer un standard automatique de système téléphonique](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json). |
+| Mon organisation a-t-elle besoin de standards automatiques ? | Pour plus d’informations, voir [les standards automatiques de nuage](what-are-phone-system-auto-attendants.md) et [configurer un standard automatique de nuage](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json). |
 
 ### <a name="devices"></a>Appareils
 

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft est le retrait Unified Messaging service Exchange Online (ExchUMO) en février 2020. Cet article résume les éléments affectés clients doivent connaître et pour planifier les leur continuité de l’entreprise.
-ms.openlocfilehash: e318e6aac1e4c5ab2b9934fd655dc3112120f36b
-ms.sourcegitcommit: 38b501cedfe5fa4ab0126f58926fe2ce4f0cdd0c
+ms.openlocfilehash: 703c51f3d42c9eea12964230693e602428454754
+ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/09/2019
-ms.locfileid: "31740932"
+ms.lasthandoff: 04/18/2019
+ms.locfileid: "31914676"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Prise en charge de la migration en ligne de la messagerie unifiée Exchange  
 
@@ -66,7 +66,7 @@ Microsoft a identifié les différents déploiements de clients qui utilisent le
 
 3. **Planifier votre migration standard automatique**
     
-    Administrateurs peuvent de démarrer la migration les standards automatiques de ExchUMO vers le standard automatique de nuage à tout moment. Pour plus d’informations, consultez [configurer un standard automatique de système téléphonique](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant) . Microsoft prévoit de proposer des fonctionnalités standard automatique supplémentaires clients envisager critiques pour leur migration par 2019 mars. Administrateurs doivent évaluer l’ensemble des fonctionnalités et migrer les instances de standard automatique en conséquence. Pour une comparaison de la liste des fonctionnalités, consultez la [matrice de fonctionnalité de services en nuage ExchUMO et Azure](#exchumo-and-azure-cloud-based-services-feature-matrix).
+    Administrateurs peuvent de démarrer la migration les standards automatiques de ExchUMO vers le standard automatique de nuage à tout moment. Pour plus d’informations, consultez [configurer un standard automatique de nuage](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant) . Microsoft prévoit de proposer des fonctionnalités standard automatique supplémentaires clients envisager critiques pour leur migration par 2019 mars. Administrateurs doivent évaluer l’ensemble des fonctionnalités et migrer les instances de standard automatique en conséquence. Pour une comparaison de la liste des fonctionnalités, consultez la [matrice de fonctionnalité de services en nuage ExchUMO et Azure](#exchumo-and-azure-cloud-based-services-feature-matrix).
 
 4. **Planifier votre validation après la migration de messagerie vocale et de test**
 
@@ -197,4 +197,4 @@ Skype pour les nouveaux utilisateurs est automatiquement mis en service pour la 
 
 #### <a name="admin-auto-attendant-management-experience"></a>Expérience de gestion de standard automatique de Admin 
 
-Voir la rubrique [configurer un standard automatique de système téléphonique](/MicrosoftTeams/create-a-phone-system-auto-attendant.md) pour en savoir plus sur la configuration et la gestion des standards automatiques. 
+Voir la rubrique [configurer un standard automatique de Cloud](/MicrosoftTeams/create-a-phone-system-auto-attendant.md) pour en savoir plus sur la configuration et la gestion des standards automatiques. 
