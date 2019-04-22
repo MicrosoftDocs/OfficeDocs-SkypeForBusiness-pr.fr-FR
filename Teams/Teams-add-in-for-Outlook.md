@@ -20,7 +20,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: dbe0b72c03d8e85deff538924c17dac8f0d3773c
 ms.sourcegitcommit: daf65bf09ca57554da744602d2551db53caedde5
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 03/09/2019
 ms.locfileid: "30512988"
@@ -35,7 +35,7 @@ Le complément Réunion Teams est installé automatiquement pour les utilisateur
 ![Capture d'écran du complément Teams sur le ruban Outlook.](media/Teams-add-in-for-Outlook.png)
 
 > [!NOTE]
-> Les utilisateurs de Windows 7 doivent installer [mise à jour pour Universal Runtime C dans Windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) pour le complément de réunion équipes pour travailler.
+> Les utilisateurs Windows 7 doivent installer la[mise à jour pour Universal Runtime C dans Windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) pour le complément de réunion Teams afin de l’utiliser.
 
 Si le complément Réunion Teams n'apparaît pas, demandez aux utilisateurs de fermer Outlook et Teams, de redémarrer d'abord le client Teams, de se connecter à Teams puis de redémarrer le client Outlook, dans cet ordre spécifique.
 
@@ -53,16 +53,16 @@ Pour savoir comment configurer l'authentification, reportez-vous à la rubrique 
 
 ## <a name="enable-private-meetings"></a>Activer les réunions privées
 
-Autoriser la planification pour les réunions privées doit être activée dans le centre d’administration Microsoft Teams du plug-in à déployer. Dans le centre d’administration, accédez à des **réunions** > de**Stratégies de réunion**et dans la section **Général** , bascule **Autoriser la planification de réunions privées** on.)
+L'autorisation de planification de réunions privées doit être activée depuis le Centre d'administration Microsoft Teams pour que le plug-in soit déployé. Dans le centre d’administration, accédez à **Réunions** > **Stratégies de la réunion**, puis, dans la section**Général**, définissez**Autoriser la planification des réunions privées ** vers sur.)
 
-![Capture d’écran des paramètres dans le centre d’administration équipes Microsoft.](media/teams-add-in-for-outlook-image1.png)
+![Capture d’écran des paramètres dans le centre d’administration de Microsoft Teams.](media/teams-add-in-for-outlook-image1.png)
 
 Le client Teams installe le complément correct en déterminant si les utilisateurs ont besoin de la version 32 bits ou 64 bits.
 
 > [!NOTE]
 > Il est possible que les utilisateurs doivent redémarrer Outlook après une installation ou mise à niveau de Teams pour obtenir le complément le plus récent.
 
-## <a name="other-considerations"></a>Autres considérations
+## <a name="other-considerations"></a>Autres considérations à prendre en compte
 
 Certaines fonctionnalités du complément Réunion Teams sont encore en cours de création. Tenez compte des points suivants :
 - Certaines fonctionnalités de réunion en ligne, comme l'enregistrement, les sondages et l'utilisation du tableau blanc ne sont pas encore disponibles.
@@ -70,18 +70,18 @@ Certaines fonctionnalités du complément Réunion Teams sont encore en cours de
 - Actuellement, vous pouvez uniquement inviter des personnes de votre entreprise, car les utilisateurs externes ne peuvent pas encore participer aux réunions.
 - Le complément concerne les réunions planifiées avec des participants spécifiques, pas les réunions dans un canal. Les réunions de canal doivent être planifiées au sein de Teams. Actuellement, le complément Réunion Teams dans Outlook est disponible uniquement pour les utilisateurs Windows, mais il sera pris en charge sur Mac prochainement.
 - Le complément ne fonctionnera pas si un proxy d'authentification se trouve dans le chemin d'accès réseau de l'ordinateur de l'utilisateur et des services Teams.
-- Le complément est déployée incrémentielle et peuvent ne pas être disponible pour votre organisation encore.
+- Le complément est déployé de façon incrémentielle et ne peut pas être encore disponible pour votre organisation.
 
 ## <a name="troubleshooting"></a>Résolution des problèmes
 
-Si vous ne peut pas obtenir la réunion équipes de complément pour Outlook pour installer, essayez les étapes de dépannage.
+Si vous ne parvenez pas à obtenir le complément de la réunion Teams pour installer Outlook, essayez de suivre ces étapes de dépannage.
 
-- Vérifiez que toutes les mises à jour disponibles pour le client de bureau Outlook ont été appliquées. 
-- Redémarrez le client de bureau équipes.
-- Déconnectez-vous, puis reconnectez-vous pour le client de bureau équipes.
-- Redémarrez le client de bureau Outlook. (Assurez-vous que Outlook n’est pas en cours d’exécution en mode administrateur).
-- Assurez-vous que le nom du compte utilisateur connecté ne contient-elle pas d’espaces. (Ceci est un problème connu et sera corrigé dans une prochaine mise à jour.)
-- Assurez-vous que l’authentification unique (SSO) est activée.
+- Assurez-vous que toutes les mises à jour disponibles pour le client de bureau Outlook aient été appliquées 
+- Redémarrez le client de bureau Teams.
+- Déconnectez-vous, puis reconnectez-vous pour le client de bureau Teams.
+- Fermez le client Outlook pour ordinateur de bureau. (Veillez à ce qu' Outlook ne soit pas exécuté en mode d’administration.)
+- Vérifiez que le nom du compte utilisateur connecté ne contienne pas d’espaces. (Il s’agit d’un problème connu qui sera corrigé dans une prochaine mise à jour.)
+- Vérifiez que l’authentification unique de Yammer ne soit pas activée.
 
 Pour des orientations générales sur la procédure de désactivation des compléments, consultez la rubrique [Afficher, gérer et installer des compléments dans les programmes Office](https://support.office.com/article/View-manage-and-install-add-ins-in-Office-programs-16278816-1948-4028-91E5-76DCA5380F8D).
 

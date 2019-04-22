@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Utiliser une infrastructure couronné de succès pour voyage au pays de la mise à niveau de votre organisation de Skype pour les entreprises à des équipes
+description: Utiliser une structure ayant fait ses preuves pour aides les équipes de démarche mise à niveau de votre organisation à passer de Skype Entreprise à Teams
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
@@ -17,41 +17,41 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 60094153f0e48187b0437bce1f25077c742ad773
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
-ms.translationtype: MT
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2019
+ms.lasthandoff: 03/19/2019
 ms.locfileid: "30641178"
 ---
-# <a name="skype-for-business-to-microsoft-teams-upgrade"></a>Skype pour les entreprises à la mise à niveau de Microsoft Teams
+# <a name="skype-for-business-to-microsoft-teams-upgrade"></a>Mise à niveau de Skype Entreprise vers Microsoft Teams
 
-Prise en charge la vision de Microsoft communications intelligent, Microsoft Teams est de pivot pour le travail d’équipe, réunissant conversation, réunions, appel, la collaboration, l’intégration d’app et stockage des fichiers. Comme un Skype existante pour le client d’entreprise, vous êtes invité à mettre à niveau vers Teams Microsoft, bénéficient de cette suite complète des fonctionnalités de communication et de collaboration dans une expérience client unique.
+Prenant en charge de la vision de communication intelligente de Microsoft, Microsoft Teams est le hub central pour le travail d’équipe, combinant conversations, réunions, appels, collaboration, intégration à l’application et stockage de fichiers. En tant que client existant de Skype Entreprise, vous êtes invité à mettre à niveau vers Microsoft Teams, pour découvrir l’intégralité des fonctionnalités de communication et de collaboration dans une expérience client unique.
 
-Voyage au pays de votre mise à niveau peut prendre un certain temps, et nous sommes là pour vous aider à chaque étape de la façon dont. Si vous êtes simplement mise en route avec les équipes utilisant déjà des équipes à côté de Skype pour les entreprises, ou prêt à mettre à niveau, s’engage à vous mettre le niveau de conseils pour votre organisation et vous encourage à passer aux étapes suivantes pour commencer à réaliser le valeur équipes peuvent offrir à votre organisation.
+Votre mise à niveau peut prendre du temps, et nous sommes là pour vous épauler à chaque étape du processus. Que ce soit si vous débutez avec Teams, ou vous utilisez déjà Teams en parallèle avec Skype Entreprise, ou vous êtes prêt à mettre à niveau, nous mettons tout en œuvre pour vous fournir le niveau approprié de conseils pour votre organisation et vous encourageons à effectuer les étapes suivantes pour commencer à réaliser le valeur que Teams peut apporter à votre organisation.
 
-Afficher cette [vue d’ensemble](https://aka.ms/UpgradeOverview) pour une introduction à la Skype pour les entreprises à parcours de mise à niveau les équipes, y compris les concepts de base, framework et chemins de mise à niveau.
+Afficher cette [Vue d’ensemble](https://aka.ms/UpgradeOverview) pour découvrir une introduction à la mise à niveau de Skype Entreprise à Teams, y compris les principaux concepts, infrastructure et chemins de mise à niveau.
 
 > [!Tip]
-> Regardez la session pour en savoir plus sur la mise à niveau à partir de Skype pour Business Teams Microsoft suivante :
-> - [Introduction à la mise à niveau](https://aka.ms/teams-upgrade-intro)
+> Regardez la session suivante pour en savoir plus sur la mise à niveau de Skype Entreprise vers Microsoft Teams :
+> - [Présentation de la mise à niveau](https://aka.ms/teams-upgrade-intro) 
 > - [Planifier votre mise à niveau](https://aka.ms/teams-upgrade-plan)
-> - [Interopérabilité et coexistence](https://aka.ms/teams-upgrade-coexistence-interop)
+> - [Coexistence et interopérabilité](https://aka.ms/teams-upgrade-coexistence-interop)
 > - [Expérience de l’administrateur](https://aka.ms/teams-upgrade-admin)
 
-## <a name="upgrade-journey-framework"></a>Infrastructure de mise à niveau voyage
+## <a name="upgrade-journey-framework"></a>Infrastructure de route de la mise à niveau
 
-Pour vous aider à incertitude sur votre parcours de mise à niveau, nous avons employé une infrastructure d’excellence pour avancer, incorporant des conseils, des conseils et des ressources à travers. Chaque étape s’appuie sur la précédente et pour des résultats optimaux, nous vous recommandons de suivre les étapes dans l’ordre.
+Pour vous aider face aux questions que vous vous posez quant à la démarche de mise à niveau, nous avons utilisé une infrastructure ayant fait ses preuves pour favoriser la modification, incorporer les conseils, astuces et ressources dans l’ensemble. Chaque étape s’appuie sur la précédente et pour obtenir de meilleurs résultats, nous vous recommandons de suivre les étapes décrites dans l’ordre.
 
-Comme illustré ci-dessous, une mise à niveau réussie commence par réunissant l’équipe de droite dans la fenêtre de partage des parties prenantes du projet, puis en déplaçant à la définition du projet où l’étendue, les objectifs et chronologie sont solidifiées. Cela permet de créer une base solide pour votre parcours de mise à niveau. À partir de là, il est fondamental pour préparer à la fois la préparation technique _et_ préparation des utilisateurs phases avant de passer au déploiement et d’implémentation. Planifier un projet pilote valider la préparation avant un déploiement à large échelle. Pour une efficacité maximale durant la phase de fonctionnement optimal, établissez un plan de surveillance pour la qualité et accélère l’adoption de l’utilisateur.
+Comme illustré ci-dessous, une mise à niveau réussie commence en assemblant la bonne équipe à l’étape des parties prenantes du projet et en continuant à la définition de projet où sont solidifiés l’étendue, les objectifs et la chronologie. Cela vous permet de créer une base solide pour votre mise à niveau. À partir de là, il est essentiel pour vous préparer pour la compatibilité technique _et_ les étapes de préparation utilisateur avant de passer à un déploiement et à l’implémentation. Planifier un pilote pour valider la préparation avant un large déploiement. Pour un bénéfice maximal pendant l’étape d’Excellence Opérationnelle, établir un plan qui surveille la qualité et accélère l’adoption par les utilisateurs.
 
 > [!Tip]
-> Pour vous aider à naviguer dans votre parcours de mise à niveau, recherchez ce graphique sur les pages associées pour identifier où vous vous trouvez dans le processus. ![S’assurer que votre projet est configuré pour la réussite de l’équipe de projet. Définir la portée du projet, des objectifs et chronologie. Confirmer la disponibilité technique et utilisateur. Exécuter votre plan de déploiement. Mettre à jour dynamique pour optimiser les résultats.] (media/upgrade-banner-main.png "S’assurer que votre projet est configuré pour la réussite de l’équipe de projet. Définir la portée du projet, des objectifs et chronologie. Confirmer la disponibilité technique et utilisateur. Exécuter votre plan de déploiement. Mettre à jour dynamique pour optimiser les résultats.")
+> Pour vous aider à parcourir votre mise à niveau, recherchez ce graphique sur des pages associées pour identifier où vous vous trouvez dans le processus. ![Vérifiez que votre projet est configuré pour réussir avec l’équipe de projet appropriée. Définissez votre objectif général de projet, des objectifs et la chronologie. Confirmez la préparation technique et utilisateur. Exécutez votre plan de déploiement. Conservez l’enthousiasme pour optimiser les résultats. ] (media/upgrade-banner-main.png "Vérifiez que votre projet est configuré pour réussir avec l’équipe de projet appropriée. Définissez votre objectif général de projet, des objectifs et la chronologie. Confirmez la préparation technique et utilisateur. Exécutez votre plan de déploiement. Conservez l’enthousiasme pour optimiser les résultats.")
 
-## <a name="to-get-started"></a>Mise en route...
+## <a name="to-get-started"></a>Pour commencer... 
 
-Bien que les clients ne viennent universelle. Pour plus de souplesse, nous avons organisé l’infrastructure dans deux chemins d’accès : mise à niveau de base et professionnels de l’informatique de mise à niveau. Choisissez le voyage qui répond le mieux aux besoins de votre organisation.
+Nous comprenons que les clients ne sont pas tous les mêmes. Pour une flexibilité supplémentaire, nous avons organisé l’infrastructure en deux chemins : Mise à niveau de base et Mise à niveau Pro. Vous pouvez choisir le plan qui convient le mieux aux besoins de votre organisation.
 
-Sélectionnez une des options suivantes ou les deux pour déterminer le chemin d’accès optimal pour vous explorez. Plus d’informations sera bientôt en ligne au fil du temps, vérifiez au son voyage aux équipes continue de votre organisation. Pour nous aider à mieux comprendre votre mise à niveau et des conseils supplémentaires peuvent être utiles, prenez le temps de <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR-5Km9f5gDtNpbRf-TAnN_NUMzhYOUlNR1QzS1hSS0ZXRzAxVEVVVjg1Mi4u" target="_blank">partager vos commentaires</a>.
+Sélectionnez une des options suivantes ou découvrez les deux pour déterminer le chemin d’accès optimal pour vous. Plus d’informations seront prochainement mises en ligne, donc vérifiez ici tandis que votre organisation continue ses premiers pas avec Teams. Pour nous aider à mieux comprendre votre chemin de mise à niveau et quelles recommandations supplémentaires pourraient être utiles, prenez quelques instants pour nous<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR-5Km9f5gDtNpbRf-TAnN_NUMzhYOUlNR1QzS1hSS0ZXRzAxVEVVVjg1Mi4u" target="_blank">faire part de vos commentaires</a>.
 
 <div class="mx-tableFixed">
 <table>

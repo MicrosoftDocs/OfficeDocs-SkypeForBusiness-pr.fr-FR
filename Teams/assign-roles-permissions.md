@@ -16,10 +16,10 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 0c7343f294f18d5aaacf01059459524cdd2700a2
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
-ms.translationtype: MT
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/14/2019
+ms.lasthandoff: 03/19/2019
 ms.locfileid: "30569957"
 ---
 <a name="assign-team-owners-and-members-in-microsoft-teams"></a>Affecter des propriétaires d’équipe et des membres dans Microsoft Teams
@@ -28,35 +28,35 @@ ms.locfileid: "30569957"
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-Dans Microsoft Teams, il existe deux rôles d’utilisateur : **propriétaire** et des **membres**. Par défaut, un utilisateur qui crée une nouvelle équipe est accordé à l’état de propriétaire. Si une équipe est créée à partir d’un groupe de 365 Office existant, les autorisations sont héritées.
+Microsoft Teams inclut deux rôles : **Propriétaire** et **Membre**. Par défaut, un utilisateur qui crée une équipe a le statut de Propriétaire. Si une équipe est créée à partir d'un groupe existant Office 365, les autorisations sont héritées.
 
-Le tableau ci-dessous indique les différences dans les autorisations d’un propriétaire et un membre.
+Le tableau ci-après présente les différences d'autorisations entre un propriétaire et un membre.
 
 
-|                                   | Propriétaire d'équipe | Membre d'équipe |
+|                                   | Propriétaire d'équipe | Membre de l’équipe |
 |-----------------------------------|------------|-------------|
 |          **Créer une équipe**          |    Oui<sup>1</sup>     |     Non      |
 |          **Quitter une équipe**           |    Oui     |     Oui     |
 |  **Modifier le nom/la description d'une équipe**   |    Oui     |     Non      |
-|          **Supprimer une équipe**          |    Oui     |     Non      |
+|          **Supprimer l’équipe**          |    Oui     |     Non      |
 |          **Ajouter un canal**          |    Oui     |    Oui<sup>2</sup>|
 | **Modifier le nom/la description d'un canal** |    Oui     |    Oui<sup>2</sup>|
 |        **Supprimer un canal**         |    Oui     |    Oui<sup>2</sup>|
-|          **Ajouter des membres**          |  Oui<sup>3</sup>   |     Aucun<sup>4</sup>    |
-|          **Demande d’ajout de membres**          |  N/A   |     Oui<sup>5</sup>     |
+|          **Ajouter des membres**          |  Oui<sup>3</sup>   |     Non<sup>4</sup>    |
+|          **Demande d’ajouter des membres**          |  S/O   |     Oui<sup>5</sup>     |
 |           **Ajouter des onglets**            |    Oui     |    Oui<sup>2</sup>|
 |        **Ajouter des connecteurs**         |    Oui     |    Oui<sup>2</sup>|
 |           **Ajouter des bots**            |    Oui     |    Oui<sup>2</sup>|
 
-<sup>1</sup> les propriétaires de l’équipe peuvent créer des équipes, sauf si elles avoir été restreint de le faire. Consultez « Autorisations pour créer des équipes » ci-dessous.
+<sup>1</sup> les propriétaires des équipes peuvent créer des équipes, sauf s’ils sont restreints. Voir « Autorisations nécessaires pour créer des équipes » ci-dessous.
 >
-<sup>2</sup> ces éléments peuvent être désactivées par un propriétaire à un niveau équipe, auquel cas membres auront pas accès à ces derniers.
+<sup>2</sup> Ces éléments peuvent être désactivés par un propriétaire au niveau d'une équipe, auquel cas les membres n'y auront pas accès.
 
-<sup>3</sup> après l’ajout d’un membre à une équipe, un propriétaire peut également désigner un membre à l’état de propriétaire. Il est également possible, pour un propriétaire à rétrograder le statut de leur propres à un membre.
+<sup>3</sup> après avoir ajouté un membre à une équipe, un propriétaire peut également promouvoir un membre au statut de propriétaire. Il est également possible pour un propriétaire d’abaisser leur propre état pour un membre.
 
-<sup>4</sup> membres de l’équipe peuvent ajouter d’autres membres à une équipe publique.
+<sup>4</sup> les membres de Teams peuvent ajouter d’autres membres à une équipe publique.
 
-<sup>5</sup> pendant un membre d’équipe ne peut pas ajouter directement des membres à une équipe privée, ils peuvent demander une personne à ajouter à une équipe, ils sont déjà membre. Lorsqu’un membre demande une personne à ajouter à une équipe, les propriétaires de l’équipe reçoivent une alerte qu’ils possèdent une demande en attente qu’elles peuvent accepter ou refuser.
+<sup>5</sup> un membre d’équipe ne peut pas ajouter directement des membres à une équipe privée, ils peuvent demander qu’une personne soit ajoutée à une équipe dont ils sont déjà membres. Lorsqu’un membre demande l’ajout d»une personne à une équipe, les propriétaires des équipes reçoivent une alerte de demande en attente qu’ils peuvent accepter ou refuser.
 
 
 
@@ -67,7 +67,7 @@ Le tableau ci-dessous indique les différences dans les autorisations d’un pro
 <a name="permissions-to-create-teams"></a>Autorisations de créations d'équipes
 ---------------------------
 
-Par défaut, tous les utilisateurs avec une boîte aux lettres dans Exchange Online disposent des autorisations pour créer des groupes d’Office 365 et, par conséquent, une équipe au sein de Microsoft Teams. Vous pouvez contrôler plus étroitement et restreindre la création de nouvelles équipes ainsi que la création de nouveaux groupes d’Office 365 en déléguant la création d’un groupe et les droits de gestion pour un ensemble d’utilisateurs. Pour plus d’informations, voir [Manage qui peut créer des groupes d’Office 365](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618).
+Par défaut, tous les utilisateurs avec une boîte aux lettres dans Exchange Online disposent des autorisations pour créer des groupes Office 365 et par conséquent une équipe dans Microsoft Teams. Vous pouvez avoir un contrôle plus étroit et limiter la création d’équipes et par conséquent la création de nouveaux groupes Office 365 en déléguant la gestion des droits et la création de groupes à un ensemble d’utilisateurs. Pour plus d'informations, reportez-vous à l’article[Gérer qui peut créer des Groupes Office 365](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618).
 
 
 ||||

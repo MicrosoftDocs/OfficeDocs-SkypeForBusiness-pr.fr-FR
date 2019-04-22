@@ -1,5 +1,5 @@
 ---
-title: Activer ou désactiver l'accès invité de Microsoft Teams
+title: Activer ou désactiver l'accès invité dans Microsoft Teams
 author: somakbhattacharyya
 ms.author: sbhatta
 manager: serdars
@@ -19,63 +19,63 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 6a4b0013e3e3ca31baea21e4e733a9606f3765c6
 ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 03/27/2019
 ms.locfileid: "30885282"
 ---
-<a name="turn-on-or-off-guest-access-to-microsoft-teams"></a>Activer ou désactiver l'accès invité de Microsoft Teams
+<a name="turn-on-or-off-guest-access-to-microsoft-teams"></a>Activer ou désactiver l'accès invité dans Microsoft Teams
 ======================================
 
 En tant qu'administrateur d'Office 365, vous devez activer la fonctionnalité Invité pour que vous ou les utilisateurs de votre organisation (notamment les propriétaires d'équipe) puissiez ajouter des invités. 
 
-Les paramètres d'invité sont définis dans Azure Active Directory. Il faut environ 2 à 24 heures pour que les modifications prennent effet dans votre organisation Office 365. Si un utilisateur voit le message « Contactez votre administrateur » lorsqu’ils essaient d’ajouter un invité à leur équipe, il est probable que la fonctionnalité invité n’a pas été activée ou que les paramètres ne sont pas encore efficaces.
+Les paramètres d'invité sont définis dans Azure Active Directory. Il faut environ 2 à 24 heures pour que les modifications prennent effet dans votre organisation Office 365. Si un utilisateur voit le message « Contactez votre administrateur » lorsqu'il essaye d'ajouter un invité à son équipe, il est probable que la fonctionnalité d'invité ne soit pas activée ou que les paramètres ne sont pas encore actifs.
 
 > [!IMPORTANT]
 > Pour activer l’expérience complète de la fonctionnalité d’accès invité, il est important de comprendre la dépendance des autorisations principales entre Microsfot Teams, Azure Active Directory et Office 365. Pour plus d'informations, reportez-vous à la rubrique [Autoriser l’accès invité dans Microsoft Teams](Teams-dependencies.md).
 
-## <a name="guest-access-vs-external-access-federation"></a>Accès invité et l’accès externe (fédération)
+## <a name="guest-access-vs-external-access-federation"></a>Accès invité et accès externe (fédération)
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
-## <a name="configure-guest-access-in-the-microsoft-teams-admin-center"></a>Configurer l’accès invité dans le centre d’administration Microsoft Teams
+## <a name="configure-guest-access-in-the-microsoft-teams-admin-center"></a>Configurer l’accès invité dans le centre d’administration de Microsoft Teams
 
-1.  Connectez-vous au centre d’administration Microsoft Teams.
+1.  Se connecter au centre d’administration de Microsoft Teams.
 
-2.  Sélectionnez les **paramètres à l’échelle de la société** > **accès invité**.
+2.  Sélectionnez **paramètres Org-wide** > **accès invité**.
 
-3. La valeur du bouton bascule **Autoriser l’accès invité dans les équipes Microsoft** **sur**.
+3. Mettre le bouton bascule**Autoriser l’accès invité dans Microsoft Teams** sur **On**.
 
-    ![Autoriser le commutateur d’accès invité activé ](media/set-up-guests-image1.png)
+    ![Bouton Autoriser l’accès invité sur On ](media/set-up-guests-image1.png)
 
-4.  La valeur la bascule sous **l’appel**, la **réunion**et **de messagerie** **ou **désactiver**,** selon les fonctionnalités que vous souhaitez autoriser pour les utilisateurs invités.
+4.  Mettre les boutons bascules sous **Appel**, **Réunion**, et **Messagerie** sur **On** ou **Off**, en fonction de la fonctionnalité que vous voulez autoriser pour les utilisateurs invités.
 
-    - **Émettre des appels privées** – activer ce paramètre **sur** pour qu’ils puissent effectuer des appels d’égal à égal.
-    - **IP Autoriser vidéo** - activer ce paramètre **sur** pour qu’ils puissent utiliser la vidéo dans leurs appels et les réunions.
-    - **Mode de partage d’écran** – ce paramètre contrôle la disponibilité de partage pour les utilisateurs invités de l’écran. 
-       - Activer ce paramètre sur **désactivé** pour supprimer la capacité pour les visiteurs à partager leurs écrans dans les équipes. 
-       - Activer ce paramètre pour une **seule application** pour autoriser le partage d’applications individuelles. 
-       - Activer ce paramètre à l' **écran ensemble** pour permettre le partage d’écran terminée.
-    - **Autoriser la conférence maintenant** – activer ce paramètre **sur** pour qu’ils puissent utiliser la fonctionnalité Conférence maintenant dans Microsoft Teams.
-    - **Modifier les messages envoyés** : activer ce paramètre **sur** pour qu’ils puissent modifier les messages qu’ils précédemment envoyés.
-    - **Les invités peuvent supprimer des messages envoyés** – activer ce paramètre **sur** pour qu’ils puissent supprimer les messages qu’ils précédemment envoyé.
-    - **Conversation** – activer ce paramètre **sur** donner invités la possibilité d’utiliser la conversation dans les équipes.
-    - **Utiliser des Giphys dans des conversations** – activer ce paramètre **sur** pour qu’ils puissent utiliser Giphys dans des conversations. Giphy est une base de données en ligne et le moteur de recherche qui permet aux utilisateurs de rechercher et partager les fichiers GIF animés. Chaque Giphy est affecté à une classification de contenu.
-    - **Évaluation du contenu Giphy** – sélectionnez une évaluation dans la liste déroulante :
-       - **Autoriser tout le contenu** - invités pourront insérer tous les Giphys dans les salles de conversation, quelle que soit la classification du contenu.
-       - **Modéré** - invités sera en mesure d’insérer Giphys dans les salles de conversation, mais seront limitées moyennement du contenu pour adultes.
-       - **Strict** – invités sera en mesure d’insérer Giphys dans les salles de conversation, mais seront strictement limitées à partir de l’insertion de contenu pour adultes.
-    - **Utilisez les Memes conversations** - activer ce paramètre **sur** pour qu’ils puissent utiliser Memes dans des conversations.
-    - **Utiliser des autocollants conversations** – activer ce paramètre **sur** pour qu’ils puissent utiliser autocollants dans des conversations. 
+    - **Passer des appels privés** : mettre ce paramètre sur **On** pour permettre aux invités d’effectuer des appels privés.
+    - **Autoriser IP vidéo** : mettre ce paramètre sur**On** pour permettre aux invités d’utiliser la vidéo dans leurs appels et réunions.
+    - **Mode de partage d’écran** : ce paramètre détermine la disponibilité de l’écran de partage pour les utilisateurs invités. 
+       - Mettre ce paramètre sur **Désactivé** pour supprimer la possibilité pour les invités de partager leurs écrans dans Teams. 
+       - Activez ce paramètre sur **Application unique** pour autoriser le partage d’applications individuelles. 
+       - Activez ce paramètre sur **Écran entier** pour autoriser le partage d’écran entier.
+    - **Autoriser Conférence maintenant** : mettre ce paramètre sur **On** pour permettre aux invités d’utiliser la fonctionnalité Conférence maintenant dans Microsoft Teams.
+    - **Modifier les messages envoyés** : mettre ce paramètre sur**On** pour permettre aux invités de modifier les messages électroniques qu’ils ont envoyés précédemment.
+    - **Invités peuvent supprimer les messages envoyés** : mettre ce paramètre sur**On** pour permettre aux invités de supprimer les messages électroniques qu’ils ont envoyés précédemment.
+    - **Conversation** : mettre ce paramètre sur**On** pour donner aux invités la possibilité d’utiliser la conversation dans Teams.
+    - **Utiliser Giphys dans les conversations** : mettre ce paramètre sur **On** pour permettre aux invités d’utiliser des Giphys dans les conversations. Giphy est une base de données en ligne et moteur de recherche qui permet aux utilisateurs de rechercher et partager des fichiers GIF animés. Chaque Giphy est affecté à une évaluation du contenu.
+    - **Évaluation du contenu Giphy** : sélectionner une note dans la liste déroulante :
+       - **Autoriser tout le contenu** : les invités pourront insérer tous les Giphys dans des conversations, quelle que soit l’évaluation du contenu.
+       - **Modéré** : les invités pourront insérer Giphys dans les conversations, mais seront relativement limités pour le contenu adulte.
+       - **Strict** : les invités pourront insérer Giphys dans les conversations, mais seront entièrement limités pour le contenu adulte.
+    - **Utiliser Memes dans les conversations** : mettre ce paramètre sur **On** pour permettre aux invités d’utiliser des Memes dans les conversations.
+    - **Utiliser des Autocollants dans les conversations** : mettre ce paramètre sur **On** pour permettre aux invités d’utiliser des Autocollants dans les conversations. 
 
 
 5.  Cliquez sur **Enregistrer**.
 
-## <a name="use-powershell-to-turn-guest-access-on-or-off"></a>Utilisation de PowerShell pour activer ou désactiver les accès invité
+## <a name="use-powershell-to-turn-guest-access-on-or-off"></a>Utiliser PowerShell pour activer ou désactiver l’accès invité
 
-1.  Télécharger le Skype pour le module Business Online PowerShell à partir dehttps://www.microsoft.com/en-us/download/details.aspx?id=39366
+1.  Télécharger le module PowerShell Skype Entreprise Online à partir de https://www.microsoft.com/en-us/download/details.aspx?id=39366
  
-2.  Se connecter à une session PowerShell à la Skype pour le point de terminaison Business en ligne.
+2.  Connecter une session PowerShell à un point de terminaison Skype Entreprise Online.
 
     ```
     Import-Module SkypeOnlineConnector
@@ -83,7 +83,7 @@ Les paramètres d'invité sont définis dans Azure Active Directory. Il faut e
     $CSSession = New-CsOnlineSession -Credential $Cred
     Import-PSSession -Session $CSSession
     ```
-3.  Vérifiez votre configuration et si `AllowGuestUser` est `$False`, utilisez l’applet de commande [Set-CsTeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps) pour le définir sur `$True`.
+3.  Vérifier votre configuration et si `AllowGuestUser` est `$False`, utilisez l’applet de commande [Ensemble CsTeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps) défini sur `$True`.
 
     ```
     Get-CsTeamsClientConfiguration
@@ -105,11 +105,11 @@ Les paramètres d'invité sont définis dans Azure Active Directory. Il faut e
     
     Set-CsTeamsClientConfiguration -AllowGuestUser $True -Identity Global
     ```
-Vous pouvez maintenant avoir des utilisateurs invités dans les équipes de votre organisation.
+Vous pouvez désormais avoir des utilisateurs invités dans Teams pour votre organisation.
 
 ## <a name="more-information"></a>Plus d’informations
 
-Regardez la vidéo suivante pour plus d’informations sur l’accès invité.
+Regardez la vidéo suivante pour plus de détails à propos de l'accès invité.
 
 |  |  |
 |---------|---------|
