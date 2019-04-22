@@ -1,7 +1,7 @@
 ---
 title: Outils et téléchargements pour l’adoption
 ms.reviewer: ''
-description: Utilisez ces ressources d’adoption pour vous aider à encourager l’adoption des Teams Microsoft et autres services Office 365.
+description: Utilisez ces ressources d’adoption pour vous aider à accélérer l’adoption de Microsoft Teams et d’autres services Office 365.
 ms.topic: landing-page
 author: karuanag
 ms.author: karuanag
@@ -18,14 +18,14 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: c4bd35fc1e52ca8016330686711380b54cbe5e20
 ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 03/27/2019
 ms.locfileid: "30883403"
 ---
-# <a name="tools-for-driving-adoption"></a>Outils pour la conduite d’Adoption 
+# <a name="tools-for-driving-adoption"></a>Outils pour favoriser l’Adoption 
 
-Utilisez les outils ci-dessous pour prendre en charge de chaque phase de votre plan d’adoption de service.  
+Utilisez les outils ci-dessous pour prendre en charge chaque phase de votre plan d’adoption de service.  
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -40,8 +40,8 @@ Utilisez les outils ci-dessous pour prendre en charge de chaque phase de votre p
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Plans de projet d’adoption</h3>
-                        <p>JumpStart votre planification de nos fichiers de plan d’adoption</p>
+                        <h3>Plans de Projet d’Adoption</h3>
+                        <p>Accélérer votre planification avec nos fichiers offre d’adoption</p>
                     </div>
                 </div>
             </div>
@@ -60,8 +60,8 @@ Utilisez les outils ci-dessous pour prendre en charge de chaque phase de votre p
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Personnages exemple et styles de travail</h3>
-                        <p>Utilisez ces modèles pour mapper est important de vos employés<p>
+                        <h3>Exemple de personnages et de styles de travail</h3>
+                        <p>Utilisez ces modèles pour mapper ce qui est important pour vos employés<p>
                     </div>
                 </div>
             </div>
@@ -80,7 +80,7 @@ Utilisez les outils ci-dessous pour prendre en charge de chaque phase de votre p
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Ce modèle permet d’affecter le flux de travail aux membres de l’équipe et communiquer avec les parties prenantes</h3>
+                        <h3>Utilisez ce modèle pour attribuer des flux de travail aux membres de l’équipe clés et communiquer avec les parties prenantes</h3>
                     </div>
                 </div>
             </div>
@@ -99,7 +99,7 @@ Utilisez les outils ci-dessous pour prendre en charge de chaque phase de votre p
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Inspirer vos employés avec ces jour dans la vie quicksheets</h3>
+                        <h3>Inspirez vos employés grâce à l’option «Day in the Life quicksheets»</h3>
                     </div>
                 </div>
             </div>
@@ -117,7 +117,7 @@ Utilisez les outils ci-dessous pour prendre en charge de chaque phase de votre p
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Embeddable ressources vidéo pour les champions et les professionnels de l’informatique</h3>
+                        <h3>Ressources vidéo intégrables pour les spécialistes et les professionnels de l’informatique</h3>
                     </div>
                 </div>
             </div>
@@ -136,7 +136,7 @@ Utilisez les outils ci-dessous pour prendre en charge de chaque phase de votre p
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Préparer le support technique Microsoft Teams</h3>
+                        <h3>Préparez votre réseau pour Microsoft Teams</h3>
                     </div>
                 </div>
             </div>
@@ -145,11 +145,11 @@ Utilisez les outils ci-dessous pour prendre en charge de chaque phase de votre p
     </li></ul>
 
 
-### <a name="office-365-champions-program"></a>Programme de champions Office 365
-Le programme champions Office 365 est un programme gratuit qui permet aux utilisateurs qui souhaitent optimiser Teams Microsoft et d’autres services Office 365. Nous avons combiné notre communauté en ligne de la [Communauté technique Microsoft](https://aka.ms/DriveAdoption) avec les appels de la Communauté mensuel qui met en surbrillance tous les composants de conduite d’adoption de gouvernance pour les meilleures pratiques pour les nouvelles fonctionnalités. Participer à notre communauté https://aka.ms/O365Champions et accéder à la version au plus tôt, entendre d’autres clients et à l’occasion d’experts de Microsoft.  
+### <a name="office-365-champions-program"></a>Programme champions d’Office 365
+Le programme de spécialistes d’Office 365 est un programme gratuit aidant les personnes qui souhaitent tirer le meilleur de Microsoft Teams et d’autres services Office 365. Nous combinons notre communauté en ligne dans la [Communauté Technique Microsoft](https://aka.ms/DriveAdoption) avec des appels Communauté mensuels qui mettent en avant tous les composants afin de favoriser l’adoption de gouvernance pour les meilleures pratiques aux nouvelles fonctionnalités. Rejoignez notre communauté https://aka.ms/O365Champions et accédez aux publications au plus tôt, prenez contacte avec les clients et apprenez auprès d’experts Microsoft.  
 
-### <a name="teams-adoption-guide"></a>Guide d’Adoption d’équipes
-Extraction du [livret d’adoption équipes](https://aka.ms/teamstoolkit), un guide en ligne qui vous aideront à déployer des équipes de votre société. Il inclut de nombreux outils téléchargeables, les modèles et autres ressources pour vous aider au long de votre parcours d’adoption équipes.
+### <a name="teams-adoption-guide"></a>Guide d’adoption de Teams
+Consultez le [livret d’adoption Teams](https://aka.ms/teamstoolkit), un guide en ligne qui vous aidera à mettre en place les équipes de votre entreprise. Il inclut de nombreux outils téléchargeables, des modèles et autres ressources pour vous aider tout au long de vos premiers pas dans l’adoption Teams.
 
-### <a name="teams-customer-success-kit"></a>Kit de réussite client équipes
-Le [Kit de réussite client équipes](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) fournit des outils pour vous aider à déployer des équipes au sein de votre organisation. Elle comprend des modèles de courrier électronique pour les annonces, affiches affichettes, compte à rebours et conseils & astuces. Il inclut également des repères de mise en route pour les administrateurs informatiques et les responsables d’équipe.
+### <a name="teams-customer-success-kit"></a>Kit de réussite des clients de Microsoft Teams
+Le [Kit Succès Client](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) propose des outils pour vous aider à mettre en place Teams dans votre organisation. Ils comprennent des modèles d'e-mails d'annonces, des brochures, des affiches, un compte à rebours et des e-mails de conseils et astuces. Des guides de prise en main sont également inclus et destinés aux responsables d'équipe et administrateurs informatiques.
