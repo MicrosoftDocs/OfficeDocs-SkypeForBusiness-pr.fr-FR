@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Skype pour les règles de normalisation Business Server utiliser des expressions régulières .NET Framework pour traduire des numéros de téléphone composé au format E.164 ; en d’autres termes, les règles de normalisation prennent le numéro de téléphone composé par un utilisateur et convertir ce numéro au format utilisé en interne par Skype pour Business Server. Une ou plusieurs règles de normalisation doivent être affectées à chaque plan de numérotation.
-ms.openlocfilehash: 8e32ac485763c626d7d4347bb194fb4c4f3dba44
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: a1157e9cf435fdd655e9d1772294fa3f57acf3f4
+ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882473"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "31993514"
 ---
 # <a name="defining-normalization-rules-in-skype-for-business-server"></a>Définition des règles de normalisation dans Skype pour Business Server
 
@@ -36,7 +36,7 @@ Effectuez les étapes suivantes si vous souhaitez créer ou modifier une règle 
 
 1. Ouvrez une session l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre du rôle CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Pour plus d’informations, consultez la rubrique [déléguer des autorisations d’installation](https://technet.microsoft.com/en-us/library/gg412735(v=ocs.15).aspx).
 2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le Skype pour Business le panneau de configuration, voir [installer et ouvrir Outils d’administration](../../management-tools/install-and-open-administrative-tools.md).
-3. (Facultatif) Suivez les étapes dans [créer un plan de numérotation](GET LINK AFTER MIGRATION) à l’étape 11 ou de [Modifier un plan de numérotation](GET LINK AFTER MIGRATION) jusqu'à l’étape 10. 
+3. (Facultatif) Suivez les étapes dans [créer un plan de numérotation](https://docs.microsoft.com/skypeforbusiness/deploy/deploy-enterprise-voice/dial-plans#to-create-a-dial-plan) à l’étape 11 ou de [Modifier un plan de numérotation](https://docs.microsoft.com/skypeforbusiness/deploy/deploy-enterprise-voice/dial-plans#to-modify-a-dial-plan) jusqu'à l’étape 10. 
 4. Dans la section **Nouvelle règle de normalisation** ou **Modifier une règle de normalisation**, entrez un nom décrivant le modèle de numéro en cours de normalisation dans le champ **Nom** (par exemple, **5DigitExtension**).
 5. (Facultatif) Dans **Description**, entrez une description de la règle de normalisation (par exemple, « Traduit les postes à 5 chiffres »).
 6. Dans **Créer une règle de normalisation**, entrez les valeurs dans les champs suivants :

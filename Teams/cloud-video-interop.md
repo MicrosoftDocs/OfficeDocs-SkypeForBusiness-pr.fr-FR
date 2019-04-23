@@ -1,6 +1,6 @@
 ---
 title: Interopérabilité de la vidéo cloud de Microsoft Teams
-author: lolaj
+author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.topic: conceptual
@@ -14,12 +14,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d18879bdc983ea245c491f4cfadb38c2e7bd5578
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 9a3da2281ffcc444478a32e3a4980f707acfd25f
+ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569294"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "31993588"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Interopérabilité de la vidéo cloud de Microsoft Teams
 
@@ -68,7 +68,7 @@ Lorsque vous déployez une solution de nuage vidéo Interop, il est important de
 
 ![Déploiement CVI dans votre organisation](media/deploying-cvi.png)
 
-### <a name="plan"></a>Offre
+### <a name="plan"></a>Plan
 
 Pendant la phase de planification, vous devez identifier les périphériques ne seront pas remplacer par un périphérique équipes natif et de trouver un partenaire de nuage vidéo Interop pouvant prendre en charge ces périphériques.  
 

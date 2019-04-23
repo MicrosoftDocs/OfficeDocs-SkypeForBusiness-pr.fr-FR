@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Découvrez les Analytique d’appel et appel du tableau de bord qualité quand et comment les utiliser pour analyser et résoudre les problèmes de qualité des appels.
-ms.openlocfilehash: 057d74a5c0dcda70119eb16eed3a048b459c087c
-ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
+ms.openlocfilehash: c85bcecd31c978616e5394740efac6bb5c28c07c
+ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "31026220"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "31993653"
 ---
 # <a name="call-analytics-and-call-quality-dashboard"></a>Tableau de bord Analyse des appels et Qualité des appels
 
@@ -77,7 +77,7 @@ La qualité des appels médiocres l’utilisateur est peut-être en raison d’u
 ![Capture d’écran des rapports d’emplacement hautement appel qualité du tableau de bord. Les onglets affichés sont vue d’ensemble, bâtiments - filaire, bâtiments - Wi-Fi et Mobile (ETL). Un filtre est appliqué pour afficher le flux de données dans un bâtiment en particulier.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image4.png)
 
 > [!NOTE]
-> Pour activer la construction spécifiques dans CQD, un administrateur doit [télécharger les informations de création](turning-on-and-using-call-quality-dashboard.md#BKMKBuildingInformationUpload) sur la page de téléchargement des données client du CQD.
+> Pour activer les affichages de construction ou spécifiques au point de terminaison dans CQD, un administrateur doit [télécharger un bâtiment ou un point de terminaison des informations](turning-on-and-using-call-quality-dashboard.md#upload-tenant-data-information) sur la page de téléchargement des données client du CQD. 
 
 Si vous souhaitez que non-Admin, tels que les agents du support technique, pour utiliser l’appel du tableau de bord qualité, vous pouvez affecter ces utilisateurs le rôle de **l’Ingénieur du Support technique équipes Communications**, **Spécialiste des équipes Communications prise en charge**ou **Lecteur de rapports** . Les utilisateurs avec les rôles suivants peuvent accéder tableau de bord qualité des appels :
 

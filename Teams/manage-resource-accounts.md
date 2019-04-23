@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: En savoir plus sur la gestion des comptes de ressource dans Microsoft Teams
-ms.openlocfilehash: e8d3da4938a5040972b3c4853434808ca7457c90
-ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
+ms.openlocfilehash: a5b03c8bca7bcc8e012331afe9835a8de6cfe99a
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/18/2019
-ms.locfileid: "31914593"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959504"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Gérer les comptes de ressources dans Microsoft Teams
 
@@ -65,51 +65,65 @@ Pour affecter un numéro de téléphone à un compte de ressource, vous devez ob
 
 ## <a name="create-a-resource-account-in-microsoft-teams-admin-center"></a>Créer un compte de ressource dans le centre d’administration de Microsoft Teams
 
-Pour créer un compte de ressource dans le centre d’administration de Microsoft Teams, accédez à **paramètres à l’échelle de la société** > **comptes de ressources**, puis cliquez sur **+ Ajouter**. Dans la fenêtre contextuelle, indiquez le nom complet et nom d’utilisateur pour le compte de ressources (le nom de domaine doit renseigner automatiquement) puis cliquez sur **Enregistrer**.
+Dans le centre d’administration de Microsoft Teams, accédez à **paramètres à l’échelle de la société** > **comptes de ressources**. 
+
+![ASD](media/r-a-master.png)
+
+![n ° 1](media/sfbcallout1.png)
+
+Pour créer une nouvelle ressource compte, cliquez sur **+ nouveau compte**. Dans la fenêtre contextuelle, indiquez le nom complet et nom d’utilisateur pour le compte de ressources (le nom de domaine doit renseigner automatiquement) puis cliquez sur **Enregistrer**.
 
 ![compte de ressource](media/res-acct.png)
 
-Vous devez également appliquer une licence pour le compte de la ressource, comme indiqué dans [l’attribution de licences aux utilisateurs dans Office 365 pour entreprises](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide)
+Ensuite, vous devez appliquer une licence pour le compte de la ressource, comme indiqué dans [l’attribution de licences aux utilisateurs dans Office 365 pour entreprises](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide)
 
-Une fois que vous avez créé le compte de ressources et attribué la licence, vous pouvez cliquer sur **Attribuer/supprimer l’attribution** pour affecter un numéro de téléphone pour le compte de ressources, ou pour affecter le compte de ressources à une file d’attente standard ou un appel automatique.
+![numéro 3](media/sfbcallout3.png) une fois que vous avez créé le compte de ressources et affecté à la licence, vous pouvez cliquer sur **Affecter/supprimer l’attribution** pour affecter un numéro de téléphone pour le compte de ressources ou affecter la ressource à un standard automatique de compte ou un appel de file d’attente qui déjà existe. Si votre file d’attente d’appel ou de standard automatique doit toujours être créé, vous pouvez lier le compte de ressources lors de sa création. Lorsque vous avez terminé, cliquez sur **Enregistrer** .
+
+![affecter des comptes de ressources](media/r-a-assign.png)
+
+![numéro 2](media/sfbcallout2.png) vous pouvez modifier le nom complet du compte ressource à l’aide de l’option **Modifier** .  Lorsque vous avez terminé, cliquez sur **Enregistrer** .
+![modifier le compte de la ressource](media/r-a-edit.png)
 
 ## <a name="create-a-resource-account-in-powershell"></a>Créer un compte de ressource dans Powershell
 
 Pour les plans d’appel Microsoft, vous ne pouvez affecter payants et les numéros de téléphone du service gratuit qui vous avez dans le **Centre d’administration de Microsoft équipes** ou porté à partir d’un autre fournisseur de services à un compte de ressource. Pour obtenir et utiliser des numéros gratuits service, vous devez configurer les crédits de Communications.
 
-Selon que votre numéro de téléphone est situé en ligne ou sur site, vous devez vous connecter à l’invite de Powershell approprié avec des privilèges d’administrateur.
+Selon que votre compte de la ressource est situé en ligne ou sur site, vous devez vous connecter à l’invite de Powershell approprié avec des privilèges d’administrateur. 
+- Le Powershell suivant exemples d’applet de commande que le compte de la ressource est hébergé en ligne à l’aide de [New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineApplicationInstance?view=skype-ps) pour créer un compte de ressource qui est hébergé en ligne.
 
+- Pour les ressources comptes hébergés localement dans Skype pour Business Server 2019 qui peut être utilisé avec le nuage les files d’attente des appels et les standards automatiques de nuage, voir [Configurer la files d’attente des appels de nuage](/skypeforbusiness/SfbHybrid/hybrid/configure-call-queue.md) ou [Configurer les standards automatiques dans le nuage](/skypeforbusiness/SfbHybrid/hybrid/configure-cloud-auto-attendant.md). Implémentations hybride (numéros hébergés sur routage Direct) utilise [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps).
 
-- Implémentations hybride (numéros hébergés sur routage Direct) utilise [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) pour créer un compte de ressource qui est hébergé sur site.  
-- En ligne uniquement implémentations utilise [New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineApplicationInstance?view=skype-ps) pour avoir un compte de ressource qui est hébergé en ligne.
+ID de l’application que vous devez utiliser lors de la création de l’application sont des instances :
+- **Standard automatique :** ce933385-9390-45d1-9512-c8d228074e07
+- **File d’attente des appels :** 11cd3e2e-fccb-42ad-ad00-878b93575e07
 
-Voici un exemple d’environnement en ligne de création de compte de la ressource avec un standard automatique ApplicationID. Pour une file d’attente de l’appel, vous pouvez utiliser le suivant ApplicationID 11cd3e2e-fccb-42ad-ad00-878b93575e07 :
+> [!NOTE]
+> Si vous souhaitez que la file d’attente de l’appel ou être recherché par les utilisateurs locaux standard automatique, vous devez créer vos ressources comptes locaux, étant donné que les comptes de ressources en ligne ne sont pas synchronisés à Active Directory.
+
+1. Pour créer un compte de ressource en ligne pour utiliser avec une utilisation standard, automatique la commande suivante.  
 
 ``` Powershell
 New-CsOnlineApplicationInstance -UserPrincipalName testra1@contoso.com -ApplicationId “ce933385-9390-45d1-9512-c8d228074e07” -DisplayName "Resource account 1"
-$resacct=Get-MsolUser -UserPrincipalName testra1@contoso.com
 ```
 
-Pour plus d’informations sur cette commande, voir [New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance?view=skype-ps) .
+2. Vous ne serez pas en mesure d’utiliser le compte de ressources jusqu'à ce que vous lui appliquez une licence. Pour savoir comment appliquer une licence à un compte dans le centre d’administration O365, voir [attribuer des licences aux utilisateurs dans Office 365 pour entreprises] (https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide#assign-licenses-to-one-user ainsi que [d’Affecter des Skype pour les licences d’entreprise](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses) .
 
-> [!NOTE]
-> Il est plus facile de définir le numéro de téléphone en ligne à l’aide du centre d’administration Microsoft Teams, comme décrit dans la section suivante. Vous pouvez également utiliser le `Set-CsOnlineVoiceApplicationInstance` commande pour attribuer un numéro de téléphone pour le compte de ressources après sa création initiale comme :
+3. (Facultatif) Une fois que la licence appropriée est appliquée au compte de ressource, vous pouvez définir un numéro de téléphone pour le compte de ressources comme indiqué ci-dessous. Pas de tous les comptes ressource nécessite un numéro de téléphone. Si vous n’avez pas appliqué une licence pour le compte de la ressource, l’affectation de numéros de téléphone échouera.
 
 ``` Powershell
-Set-CsOnlineVoiceApplicationInstance -Identity $resacct.ObjectId
+Set-CsOnlineVoiceApplicationInstance -Identity testra1@contoso.com
  -TelephoneNumber +14255550100
 Get-CsOnlineTelephoneNumber -TelephoneNumber +14255550100
 ```
 
-Si vous n’appliquez pas une licence lors de la création du compte de ressource, l’affectation de numéros de téléphone échouera. 
-
 Pour plus d’informations sur cette commande, voir [Set-CsOnlineVoiceApplicationInstance](https://docs.microsoft.com/powershell/module/skype/set-csonlinevoiceapplicationinstance?view=skype-ps) .
 
-
+> [!NOTE]
+> Il est plus facile de définir le numéro de téléphone en ligne à l’aide du centre d’administration Microsoft Teams, comme décrit précédemment.
 
 ## <a name="manage-resource-account-settings-in-microsoft-teams-admin-center"></a>Gérer les paramètres de compte de ressource dans le centre d’administration de Microsoft Teams
 
-Pour gérer les paramètres de compte de ressource dans le centre d’administration de Microsoft Teams, accédez à **paramètres à l’échelle de la société**  > **comptes de ressources**, sélectionnez le compte de ressources que vous souhaitez modifier les paramètres pour, puis cliquez sur le bouton **Modifier** . dans l’écran **Modifier le compte de la ressource** , vous ne pourrez pas modifier le :
+Pour gérer les paramètres de compte de ressource dans le centre d’administration de Microsoft Teams, accédez à **paramètres à l’échelle de la société**  > **comptes de ressources**, sélectionnez le compte de ressources que vous souhaitez modifier les paramètres pour, puis cliquez sur le bouton **Modifier** . dans l’écran **Modifier le compte de la ressource** , vous ne pourrez pas modifier ces paramètres :
 
 - **Nom d’affichage** pour le compte
 - File d’attente des appels ou qui utilise le compte de standard automatique
@@ -127,13 +141,13 @@ Pour les implémentations qui sont hybride avec Skype pour Business Server :
 
 Pour les implémentations d’équipes ou Skype pour Business Online :
 
-[Quelles sont les standards automatiques de nuage ?](what-are-phone-system-auto-attendants.md)
+[Un standard Cloud automatique, qu’est-ce que c’est ?](what-are-phone-system-auto-attendants.md)
 
-[Configurer un standard automatique de nuage](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
+[Configurer un standard automatique dans le cloud](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
 
 [Exemple de petite entreprise : configurer un standard automatique](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa)
 
-[Créer une file d’attente des appels dans le nuage](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
+[Créer une file d’attente d’appels cloud](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
 
 [Nouvelle CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps)
 

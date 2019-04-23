@@ -1,5 +1,5 @@
 ---
-title: Prendre en main équipes pour les organisations de santé
+title: Prise en main de Teams pour les organismes de santé
 author: jambirk
 ms.author: jambirk
 manager: serdars
@@ -12,15 +12,15 @@ MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: Prendre en main équipes pour les organisations de santé
-ms.openlocfilehash: 9e9d43d5bd4b7f2f0b15727a2f5c52bda6bb7afb
-ms.sourcegitcommit: 355bcdafa58b6349bb6bc771054f4c9c91387a81
+description: Prise en main de Teams pour les organismes de santé
+ms.openlocfilehash: 4ba465c69477f3e9ff6d541ddeb55dc41100b7ec
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013766"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959425"
 ---
-# <a name="get-started-with-teams-for-healthcare-organizations"></a>Prendre en main équipes pour les organisations de santé
+# <a name="get-started-with-teams-for-healthcare-organizations"></a>Prise en main de Teams pour les organismes de santé
 
 Teams Microsoft offre un certain nombre de fonctionnalités utiles pour les hôpitaux et d’autres organisations de santé. Fonctionnalités d’équipes sont en cours de développement à l’aide des hôpitaux avec :
 
@@ -58,4 +58,5 @@ Microsoft Teams s’intègre à Firstline travailleur, qui peut être utilisé p
  Voir les articles suivants :
 
 - [Atteindre vos équipes Microsoft StaffHub équipes dans Microsoft Teams](../shifts/move-staffhub-teams-to-shifts-in-teams.md)
+
 - [Gérer l’application Shifts pour votre organisation dans Microsoft Teams](../shifts/manage-the-shifts-app-for-your-organization-in-teams.md)

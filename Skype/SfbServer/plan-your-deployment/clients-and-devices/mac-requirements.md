@@ -14,22 +14,22 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 790d3e89-2b68-411b-b282-38de5d34dd10
 description: Lisez cette rubrique pour en savoir plus sur la configuration matérielle, logicielle et l’infrastructure pour Skype pour les entreprises en cours d’exécution sur un Mac.
-ms.openlocfilehash: 694f64933f4618b5c2157f7a35acdf9339d52919
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.openlocfilehash: bd8522684131d1119ce91c100a2aeeeec4797a70
+ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965626"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "31993556"
 ---
 # <a name="skype-for-business-on-mac-client-requirements"></a>Skype pour les entreprises sur la configuration requise des clients Mac
  
 Lisez cette rubrique pour en savoir plus sur la configuration matérielle, logicielle et l’infrastructure pour Skype pour les entreprises en cours d’exécution sur un Mac.
   
-Le [Skype pour les entreprises sur le Client Mac](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-3#Mac) est disponible en téléchargement.
+Le [Skype pour les entreprises sur Mac Client](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-3#Mac) est disponible en téléchargement.
   
-## <a name="hardware-and-software-requirements-for-skype-for-business-on-the-mac"></a>Configuration matérielle et logicielle requise pour Skype Entreprise sur Mac
+## <a name="hardware-and-software-requirements-for-skype-for-business-on-mac"></a>Configuration matérielle et logicielle requise pour Skype pour les entreprises sur Mac
 
-Le Skype pour les entreprises sur le client Mac requiert Mac OS X El Capitan et versions ultérieures et utilise au moins 100 Mo d’espace disque. Nous prenons en charge l’utilisation de tous les périphériques audio et vidéo intégrés. Périphériques externes doivent être le [Skype pour le catalogue de Solutions métiers](https://partnersolutions.skypeforbusiness.com/solutionscatalog). 
+Le Skype pour les entreprises sur client Mac requiert Mac OS X El Capitan et versions ultérieures et utilise au moins 100 Mo d’espace disque. Nous prenons en charge l’utilisation de tous les périphériques audio et vidéo intégrés. Périphériques externes doivent être le [Skype pour le catalogue de Solutions métiers](https://partnersolutions.skypeforbusiness.com/solutionscatalog). 
   
 > [!NOTE]
 > Cette liste est préliminaire et certains périphériques peuvent être qualifiés pour Lync, mais pas pris en charge sur Skype pour les entreprises sur le Mac. Reportez-vous à la [configuration système requise](https://products.office.com/en-us/office-system-requirements) pour la configuration matérielle minimale requise.
@@ -44,16 +44,16 @@ Skype pour Business Server 2015 prend également en charge les clients hérités
  
 Ces clients ne sont pas pris en charge par Skype pour Business Server 2019.
    
-## <a name="infrastructure-requirements-for-skype-for-business-on-the-mac"></a>Configuration requise pour l’infrastructure pour Skype Entreprise sur Mac
+## <a name="infrastructure-requirements-for-skype-for-business-on-mac"></a>Conditions d’infrastructure requises pour Skype pour les entreprises sur Mac
 <a name="Infrastructure"> </a>
 
-Le Skype pour les entreprises sur le client Mac s’appuie sur la plate-forme de gestion des Communications (UCMP) unifiée ainsi que l’Unified Communications Web API (UCWA) qui utilisent nos clients de mobilité.
+Le Skype pour les entreprises sur client Mac s’appuie sur la plate-forme de gestion des Communications (UCMP) unifiée ainsi que l’Unified Communications Web API (UCWA) qui utilisent nos clients de mobilité.
   
 Ce client requiert la même configuration que nos clients de mobilité, à savoir un serveur Edge d’accès et un proxy inverse déployés dans une configuration prise en charge. 
   
 ### <a name="authentication"></a>Authentification
 
-Le Skype pour les entreprises sur le client Mac prend en charge l’authentification basée sur les certificats, authentification moderne de Microsoft et l’authentification multifacteur lorsque déployé et activé.
+Le Skype pour les entreprises sur client Mac prend en charge l’authentification basée sur les certificats, authentification moderne de Microsoft et l’authentification multifacteur lorsque déployé et activé.
   
 > [!NOTE]
 > En raison d’une limitation actuelle, les informations d’identification de l’utilisateur Exchange doivent être identique à leur Skype pour les informations d’identification de l’entreprise. 

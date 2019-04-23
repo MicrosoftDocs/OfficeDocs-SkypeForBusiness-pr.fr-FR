@@ -15,12 +15,12 @@ description: Tâches et activités requises pour la gestion de service d’équi
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 47628a52d91c3a9d0492accf9bcb8bce926f3649
-ms.sourcegitcommit: a8f6b70fce1b5073f4743f7f413f7ce9fad8ead1
+ms.openlocfilehash: 45de98935cdba03697c84172ba7a0c081b0811da
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/10/2019
-ms.locfileid: "31765180"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959235"
 ---
 # <a name="operate-my-service"></a>Exploiter mon service
 
@@ -465,7 +465,7 @@ Même si vous avez suivi les recommandations précédentes, les utilisateurs de 
 
 [Vérifier l’état du service Microsoft Teams](service-health.md)
 
-[Contacter le support Office 365 pour les entreprises - Aide de l'administrateur](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+[Contacter le support relatif aux produits d’entreprises- Aide de l’administrateur](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 [Support Premier contact](https://support.microsoft.com/premier/contacts)
 
@@ -480,7 +480,7 @@ Une fois que le service Microsoft Teams a été déployé, vous devez effectuer 
 ### <a name="service-administration"></a>Administration du service
 
 Le service d’équipes dispose de plusieurs paramètres qui peuvent être configurés au niveau du client.
-Les modifications apportées aux paramètres client affectent tous les utilisateurs qui ont été activés pour les équipes. Pour obtenir une liste détaillée de ces paramètres, voir [fonctionnalités de gérer les équipes Microsoft dans votre organisation Office 365](enable-features-office-365.md).
+Les modifications apportées aux paramètres client affectent tous les utilisateurs qui ont été activés pour les équipes. Pour obtenir une liste détaillée de ces paramètres, voir [paramètres gérer les équipes Microsoft pour votre organisation](enable-features-office-365.md).
 
 ### <a name="user-administration"></a>Administration des utilisateurs
 

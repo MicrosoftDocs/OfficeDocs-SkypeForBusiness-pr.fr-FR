@@ -3,7 +3,7 @@ title: Rapport d’activité des utilisateurs de Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.date: 03/11/2019
+ms.date: 04/22/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -16,12 +16,12 @@ MS.collection:
 description: Découvrez comment utiliser le rapport d’activité utilisateur équipes dans le centre d’administration Microsoft Teams pour savoir comment les utilisateurs de votre organisation utilisent équipes.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 671f3cd5632712a9bc5cc08e15c04023a33ec052
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: d5ad6021f03b200e1f3216238a81cc3b691171fd
+ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542630"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "31993596"
 ---
 # <a name="microsoft-teams-user-activity-report"></a>Rapport d’activité des utilisateurs de Microsoft Teams
 
@@ -50,5 +50,5 @@ Le rapport d’activité utilisateur équipes vous donne un aperçu dans les typ
 
 ## <a name="related-topics"></a>Rubriques connexes
 - [Création de rapports et des équipes analytique](teams-reporting-reference.md)
-- [Rapport d’utilisation des équipes](teams-usage-report.md)
-- [Rapport d’utilisation des équipes périphérique](device-usage-report.md)
+- [Rapport d’utilisation Teams](teams-usage-report.md)
+- [Rapport d’utilisation Teams sur des périphériques](device-usage-report.md)

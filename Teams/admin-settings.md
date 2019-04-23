@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1caac1d6d96b93f686e4eb0fe71e39248da30f11
-ms.sourcegitcommit: 9bb2bfd09ca279752dbedf17911ea46568649c4a
+ms.openlocfilehash: c089aed27acb4f7864bf5dc1948b0b55a4643790
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/09/2019
-ms.locfileid: "31749668"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959155"
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Paramètres d'administration pour les applications dans Microsoft Teams
 ==========================================
@@ -49,8 +49,6 @@ Par exemple, vous pouvez utiliser des stratégies d’autorisation app à :
 Pour plus d’informations, accédez à des [stratégies d’autorisation Gérer les applications dans les équipes](teams-app-permission-policies.md).
 
 ## <a name="app-setup-policies"></a>Stratégies d’installation des applications
-
-> [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 Stratégies d’application du programme d’installation vous permettent de personnaliser l’expérience d’application pour vos utilisateurs. Vous choisissez les applications que vous souhaitez ajouter à la barre d’application dans les clients des équipes et l’ordre dans lequel ils apparaissent, sur le web, de bureau et les clients mobiles.
 

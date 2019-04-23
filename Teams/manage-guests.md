@@ -14,19 +14,19 @@ search.appverid: MET150
 description: Les administrateurs informatiques peuvent ajouter des invités au niveau du client, définir et gérer les stratégies d'utilisateurs invités et les autorisations, déterminer quels utilisateurs peuvent convier des invités et extraire des rapports sur l'activité des utilisateurs invités.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5be03fb6e28519c53457b6eaabd050a5d9a6bb3b
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: 601582953136b982245bc7f4b2976c64d37424e7
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30493940"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959243"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>Gérer l'accès invité dans Microsoft Teams
 ======================================
 
 **Invité** est un type de licence d’utilisateur dans Microsoft Teams qui est inclus avec tous les abonnements Office 365 entreprise Premium, Office 365 pour entreprises et Office 365 éducation. Aucune licence Office 365 supplémentaire n'est requise. L'accès invité de Teams est un paramètre de niveau client et est désactivé par défaut. Pour plus d’informations sur la façon d’activer l’accès invité, voir [Activer ou désactiver l’accès invité aux équipes de Microsoft](set-up-guests.md).
 
-Une fois que le type de licence d’utilisateur **invité** est activé, vous pouvez configurer les paramètres pour les invités via les contrôles décrites dans [les fonctionnalités de gérer les équipes Microsoft dans votre organisation Office 365](enable-features-office-365.md) et [gérer des équipes pendant la transition vers le nouveau Microsoft Centre d’administration équipes](manage-teams-skypeforbusiness-admin-center.md).     
+Une fois que le type de licence d’utilisateur **invité** est activé, vous pouvez configurer les paramètres pour les invités via les contrôles décrites dans [les équipes Microsoft gérer les paramètres de votre organisation](enable-features-office-365.md) et [gérer des équipes pendant la transition vers la nouvelle Teams Microsoft Centre d’administration](manage-teams-skypeforbusiness-admin-center.md).     
     
 Les administrateurs informatiques peuvent ajouter des invités au niveau du client, définir et gérer les autorisations et les stratégies d’utilisateur invité et extrait les rapports sur les activités de l’utilisateur invité. Ces contrôles sont disponibles dans le centre d’administration Microsoft Teams. Le contenu et les activités des utilisateurs invités font l'objet de la même protection en matière de conformité et de vérification que le reste d'Office 365.
 
@@ -39,7 +39,7 @@ Vous pouvez utiliser le portail d’Azure Active Directory pour gérer les invit
 > [!NOTE]
 > Microsoft Teams respecte toujours les paramètres externes Azure Active Directory pour autoriser ou empêcher les ajouts d’utilisateur invité au client. Pour plus d’informations, voir [Autoriser l’accès invité dans les équipes Microsoft](Teams-dependencies.md).
   
-## <a name="guest-access-vs-external-access-federation"></a>Accès invité et l’accès externe (fédération)
+## <a name="guest-access-vs-external-access-federation"></a>Accès invité et accès externe (fédération)
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
@@ -57,7 +57,7 @@ Les équipes ne limiter le nombre de visiteurs, vous pouvez ajouter. Toutefois, 
 
 ## <a name="guest-access-latencies"></a>Latences d’accès invité
 
-Les paramètres d'invité sont définis dans Azure Active Directory. Il faut environ 2 à 24 heures pour que les modifications prennent effet dans votre organisation Office 365. Si un utilisateur voit le message « Contactez votre administrateur » lorsqu’ils essaient d’ajouter un invité à leur équipe, il est probable que la fonctionnalité invité n’a pas été activée ou que les paramètres ne sont pas encore efficaces.
+Les paramètres d'invité sont définis dans Azure Active Directory. Il faut environ 2 à 24 heures pour que les modifications prennent effet dans votre organisation Office 365. Si un utilisateur voit le message « Contactez votre administrateur » lorsqu'il essaye d'ajouter un invité à son équipe, il est probable que la fonctionnalité d'invité ne soit pas activée ou que les paramètres ne sont pas encore actifs.
 
 ## <a name="more-information"></a>Plus d’informations
 

@@ -13,12 +13,12 @@ ms.collection:
 description: Découvrez comment utiliser les contrôles de PowerShell pour gérer Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 497aeba1e339e3c079de9eb4a23182e8f727f278
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 1e85261b133d8f1562bcca7d79f83eb21e345be2
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897202"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959361"
 ---
 # <a name="teams-powershell-overview"></a>Vue d’ensemble de PowerShell équipes
 
@@ -27,7 +27,7 @@ Microsoft Teams possède un ensemble d’outils pour les administrateurs informa
 ## <a name="which-modules-do-you-need-to-use"></a>Les modules devez-vous utiliser ?
 
 Les contrôles de PowerShell pour la gestion des équipes se trouvent dans deux modules PowerShell différents : 
-- [Module PowerShell d’équipes Microsoft](https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.5) (version d’évaluation) : module les équipes PowerShell contient toutes les cmdlets, vous devez créer et gérer des équipes.  
+- [Le module PowerShell d’équipes Microsoft](https://www.powershellgallery.com/packages/MicrosoftTeams/) : module les équipes PowerShell contient toutes les cmdlets, vous devez créer et gérer des équipes.  
 - [Skype pour le module PowerShell Business](https://www.microsoft.com/en-us/download/details.aspx?id=39366): le Skype pour le module PowerShell Business contient les applets de commande pour gérer les stratégies, les configurations et autres outils d’équipes. 
 
 La documentation de référence pour les contrôles PowerShell indique quel module contient l’applet de commande que vous êtes étudier. (Éventuellement, les deux modules sont combinés.)
@@ -38,9 +38,9 @@ Lecture des [équipes de Microsoft utiliser les rôles d’administrateur pour g
 
 ## <a name="creating-and-managing-teams-via-powershell"></a>Création et gestion des équipes via PowerShell
 
-Les applets de commande pour la création et la gestion des équipes se trouvent dans le [module PowerShell d’équipes Microsoft](https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.3). 
+Les applets de commande pour la création et la gestion des équipes se trouvent dans le [module PowerShell d’équipes Microsoft](https://www.powershellgallery.com/packages/MicrosoftTeams/). 
 
-Les équipes sont sauvegardés par groupes O365, donc lorsque vous créez une équipe, vous créez un groupe. Il existe un ensemble d’applets de commande fournies pour l’exploitation de l’équipe de base et de ses paramètres (``new-team``, ``get-team``, ``set-teamfunsettings``, ``set-teammessagingsettings``, ``set-teamguestsettings``, ``set-teammembersettings``), la gestion des utilisateurs de l’équipe (``add-teamuser``, ``remove-teamuser``), ainsi que des applets de commande pour gérer les canaux de l’équipe (``new-teamchannel`` , ``remove-teamchannel``). Toutes ces applets de commande peuvent être exécutée en tant que les utilisateurs finaux, mais qu’elles fonctionnent uniquement sur les équipes que vous possédez ou que vous êtes membre. Si vous êtes un administrateur Global ou un administrateur de Service d’équipes, vous serez en mesure d’agir sur toutes les équipes de votre organisation.
+Les équipes sont sauvegardés par groupes O365, donc lorsque vous créez une équipe, vous créez un groupe. Il existe un ensemble d’applets de commande fournies pour l’exploitation de l’équipe de base et de ses paramètres (``new-team``, ``get-team``, ``set-team``), la gestion des utilisateurs de l’équipe (``add-teamuser``, ``remove-teamuser``), ainsi que des applets de commande pour gérer les canaux de l’équipe (``new-teamchannel``, ``remove-teamchannel``). Toutes ces applets de commande peuvent être exécutée en tant que les utilisateurs finaux, mais qu’elles fonctionnent uniquement sur les équipes que vous possédez ou que vous êtes membre. Si vous êtes un administrateur Global ou un administrateur de Service d’équipes, vous serez en mesure d’agir sur toutes les équipes de votre organisation.
 
 > **GroupId** utilisé dans les applets de commande PowerShell d’équipes Microsoft module est identique à la propriété **Identity** retournée par ``Get-UnifiedGroup`` dans le module PowerShell Exchange.
 

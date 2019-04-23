@@ -1,9 +1,9 @@
 ---
 title: Parcage et récupération d’appel dans Microsoft Teams
 ms.author: lolaj
-author: lolaj
+author: LolaJacobsen
 manager: serdars
-ms.date: 01/16/2019
+ms.date: 04/12/2019
 ms.reviewer: srividhc
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Utilisez parcage d’appel et de récupération pour passer un appel en attente dans le service d’équipes dans le nuage.
-ms.openlocfilehash: 416458b1f7c134fca3294107bd82bbd0f2300abc
-ms.sourcegitcommit: 5ed00e911a151d3ab834528f121db8653c25dc12
+ms.openlocfilehash: 798e53ef9a0638be659da8567419b7bd3d3c3555
+ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "30747653"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "31993501"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Parcage et récupération d’appel dans Microsoft Teams
 
@@ -34,7 +34,7 @@ Mise en garde d’appels et de récupération est une fonctionnalité qui permet
 Les scénarios courants d’utilisation de parcage d’appel sont les suivants : 
 
 - Un réceptionniste parcs élevage un appel d’une personne travaillant dans une fabrique. Le réceptionniste annonce puis l’appel et le numéro de code dans le système. L’utilisateur pour l’appel peut sélectionner un téléphone équipes en usine, puis entrez le code pour récupérer l’appel.
-- Un utilisateur parcs élevage un appel sur un appareil mobile, car la batterie de l’appareil manque d’alimentation. L’utilisateur peut entrer puis de code pour récupérer l’appel à partir d’un téléphone de bureau équipes.
+- Un utilisateur parcs élevage un appel sur un appareil mobile, car la batterie de l’appareil manque d’alimentation. L’utilisateur peut entrer ensuite le code pour récupérer l’appel à partir d’un téléphone de bureau équipes.
 - Un parcs représentant prise en charge un client d’appel et envoie une annonce sur un canal d’équipes pour récupérer l’appel et aider le client à un expert. Un expert entre le code dans les clients des équipes pour récupérer l’appel
 
 > [!IMPORTANT]
@@ -52,13 +52,22 @@ Parcage d’appel et de récupérer est actuellement pris en charge par les pér
 |------------|---------------|---------------|----------------------|-----------------------------|----------------|-----------------------------|
 | Mise en garde d’un appel | Oui | Oui | Oui | Oui | Bientôt disponible| Non |
 | Récupérer un appel mis en garde | Oui | Oui | Oui | Oui | Bientôt disponible| Non |
-| Sonnerie d’appel non récupérées précédent | Oui | Oui | Oui | Oui | Bientôt disponible| Non |
+| Sonnerie d’appel non récupéré précédent | Oui | Oui | Oui | Oui | Bientôt disponible| Non |
 
 ## <a name="configuring-call-park-and-retrieve"></a>Configuration de mise en garde d’appels et de récupération
 
-Vous devez être un administrateur de configurer la mise en garde d’appels et de récupération, et la fonctionnalité est désactivée par défaut. Vous pouvez l’activer pour les utilisateurs et créer des groupes d’utilisateurs à l’aide de la stratégie de parcage d’appel. Lorsque vous appliquez la même stratégie à un ensemble d’utilisateurs, ils seront en mesure de mettre en garde et récupérer des appels entre eux. Pour configurer la mise en garde d’appels pour les utilisateurs et créer des groupes d’utilisateurs appel park, suivez la procédure ci-dessous.
+Vous devez être un administrateur de configurer la mise en garde d’appels et de récupération, et la fonctionnalité est désactivée par défaut. Vous pouvez l’activer pour les utilisateurs et créer des groupes d’utilisateurs à l’aide de la stratégie de parcage d’appel. Lorsque vous appliquez la même stratégie à un ensemble d’utilisateurs, ils peuvent mettre en garde et récupérer des appels entre eux. Pour configurer la mise en garde d’appels pour les utilisateurs et créer des groupes d’utilisateurs de parcage d’appel, suivez la procédure [affecter une stratégie de parcage d’appel](#assign-a-call-park-policy) ci-dessous.
 
 Pour plus d’informations sur la façon d’utiliser la mise en garde d’appels et de récupérer la fonctionnalité, voir [mise en garde d’un appel en équipe](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f).
+
+### <a name="enable-a-call-park-policy"></a>Activer une stratégie de parcage d’appel
+
+Procédez comme suit pour activer une stratégie de parcage d’appel :
+
+1. Accédez au **Centre d’administration de Microsoft équipes** > **vocale** > **stratégies parcage d’appel**.
+2. Sélectionnez **nouvelle stratégie**.
+3. Attribuez un nom à la stratégie et basculez **Autoriser Call park** **activé**.
+4. Cliquez sur **Enregistrer**.
 
 ### <a name="assign-a-call-park-policy"></a>Affecter une stratégie de parcage d’appel
 

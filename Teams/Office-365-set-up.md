@@ -1,5 +1,5 @@
 ---
-title: Activer Microsoft Teams dans votre organisation Office 365
+title: Activer Microsoft Teams dans votre organisation Office 365
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e1bf865f9efd7960e7c0df10859d6c821130990b
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: e68746631b6e30aedac347c8fb1c0c3c24d26675
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460923"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959147"
 ---
 # <a name="enable-teams-in-your-organization"></a>Permettent aux équipes de votre organisation
 
@@ -32,7 +32,7 @@ ms.locfileid: "30460923"
 Par défaut, Teams est activé pour toutes les organisations. Si vous utilisiez Teams lors de la période d’évaluation, sa configuration reste identique à celle que vous aviez définie pendant sa période d’évaluation. 
 
 
-En tant qu’administrateur pour votre organisation, vous pouvez attribuer des licences utilisateur pour contrôler l’accès aux équipes individuel, et vous pouvez autoriser ou bloquer les sources de contenu peuvent être utilisées dans les équipes. Pour plus d’informations, voir [fonctionnalités de gérer les équipes Microsoft dans votre organisation Office 365](enable-features-office-365.md) ou des [paramètres d’administration pour les applications dans les équipes Microsoft](admin-settings.md) . 
+En tant qu’administrateur pour votre organisation, vous pouvez attribuer des licences utilisateur pour contrôler l’accès aux équipes individuel, et vous pouvez autoriser ou bloquer les sources de contenu peuvent être utilisées dans les équipes. Pour plus d’informations, voir [les équipes Microsoft gérer les paramètres de votre organisation](enable-features-office-365.md) ou des [paramètres d’administration pour les applications dans les équipes Microsoft](admin-settings.md) . 
 
 
  

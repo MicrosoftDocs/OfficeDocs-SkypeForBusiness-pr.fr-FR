@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2ce14fee8e9039f538d39c61ef4436c69160b222
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.openlocfilehash: 072fc92184841be318e84e7891a204d1b7576215
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30640945"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959520"
 ---
 # <a name="plan-for-governance-in-teams"></a>Planifier la gouvernance dans Teams
 
@@ -117,7 +117,7 @@ Fournit des équipes granulaires pour contrôler la messagerie réunion, appel d
 
 Pour les listes détaillées de tous les paramètres, notamment des instructions techniques sur la façon de les implémenter pour votre organisation, consultez les articles suivants :
 
--   [Gérer les fonctionnalités de Microsoft Teams dans votre organisation Office 365](enable-features-office-365.md)
+-   [Gérer les paramètres Microsoft Teams pour votre organisation](enable-features-office-365.md)
 -   [Gérer Teams lors de la transition vers le nouveau Centre d’administration de Microsoft Teams](manage-teams-skypeforbusiness-admin-center.md)
 -   [Gérer les stratégies de la réunion dans les équipes](meeting-policies-in-teams.md)
 

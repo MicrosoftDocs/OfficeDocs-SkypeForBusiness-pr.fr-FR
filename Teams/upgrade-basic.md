@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e31cfcecf519489f21a99e9e68c14d92639a624c
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: b9c95e8eea5081be4b26732914cff7618b415021
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494164"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959385"
 ---
 <a name="about-upgrade-basic"></a>
 
@@ -64,7 +64,7 @@ Différents directeurs sont responsables de la réussite de l’entreprise ; Ve
 
 <a name="step-2"></a>
 
-## <a name="step-2-prepare-your-organization-for-teams"></a>Étape 2. Préparation de votre organisation pour les équipes
+## <a name="step-2-prepare-your-organization-for-teams"></a>Étape 2. Préparer votre organisation pour Teams
 
 *(Environ quatre à six semaines avant la mise à niveau)*
 
@@ -78,7 +78,7 @@ Différents directeurs sont responsables de la réussite de l’entreprise ; Ve
 - [Présentation de Teams](Teams-overview.md)
 - [En savoir plus sur les équipes et les canaux](teams-channels-overview.md)
 - [Effectuer une planification technique](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
-- [Gérer les systèmes de salle de Skype](https://aka.ms/srsdocs)
+- [Gérer Microsoft Teams Rooms](https://aka.ms/MTRDocs)
 
 [Retour au début](#about-upgrade-basic)
 
@@ -113,7 +113,7 @@ Fournir une notification à vos utilisateurs sera en mesure de fournir les temps
 
 **Ressources :**
 
-- [Gérer les fonctionnalités des équipes au sein de votre organisation.](enable-features-office-365.md)
+- [Gérer les paramètres Microsoft Teams pour votre organisation](enable-features-office-365.md)
 - [Exemple de courrier électronique : annonce aux utilisateurs sur Skype pour les entreprises](upgrade-emails-surveys.md#step-4-email)
 
 [Retour au début](#about-upgrade-basic)
@@ -164,7 +164,7 @@ Nous vous recommandons qu’une fois que tout le monde a été mis à niveau, vo
 
 **Ressources :**
 
-- [Définir votre coexistence et les paramètres de mise à niveau](setting-your-coexistence-and-upgrade-settings.md)
+- [Configuration de vos paramètres de coexistence et de mise à niveau](setting-your-coexistence-and-upgrade-settings.md)
 - [Exemple de courrier électronique : accueillir les utilisateurs à des équipes](upgrade-emails-surveys.md#step-7-email)
 
 [Retour au début](#about-upgrade-basic)

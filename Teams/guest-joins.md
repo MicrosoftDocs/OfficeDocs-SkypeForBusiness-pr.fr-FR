@@ -15,16 +15,16 @@ description: Obtenez une brève présentation générale de la manière dont un 
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: d8bc9eabb467479b0b33793ace9fc0b97d179f93
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2019
+ms.lasthandoff: 04/22/2019
 ms.locfileid: "30640713"
 ---
 <a name="how-a-guest-joins-a-team"></a>Comment un invité rejoint une équipe
 ========================
 
-Dans Microsoft Teams, le propriétaire d'une équipe peut ajouter et gérer des invités dans ses équipes via le client Web ou de bureau. Toute personne possédant un compte de messagerie consommateur ou de l’entreprise, comme Outlook, Gmail ou d’autres personnes, peut participer à en tant qu’invité dans les équipes avec accès total aux conversations de l’équipe, des réunions et des fichiers. Seules des personnes externes à votre organisation, comme des partenaires ou des consultants, peuvent être ajoutées en tant qu'invités. Les personnes au sein de l'organisation peuvent rejoindre une équipe en tant que membres ordinaires.
+Dans Microsoft Teams, le propriétaire d'une équipe peut ajouter et gérer des invités dans ses équipes via le client Web ou de bureau. Toutes les personnes ayant un compte de messagerie professionnel ou de particulier tel que Outlook, Gmail, etc. peuvent participer en tant qu’invitées dans Teams, avec un accès complet aux conversations, réunions et fichiers des équipes. Seules des personnes externes à votre organisation, comme des partenaires ou des consultants, peuvent être ajoutées en tant qu'invités. Les personnes au sein de l'organisation peuvent rejoindre une équipe en tant que membres ordinaires.
   
 > [!NOTE]
 > Pour permettre aux invités de rejoindre une équipe, l'administrateur doit d'abord activer l'accès invité dans Teams. Pour ce faire, consultez la rubrique [Activer ou désactiver l’accès invité pour les équipes Microsoft](set-up-guests.md). 
@@ -44,6 +44,6 @@ Les invités peuvent quitter l'équipe à tout moment via les clients Web ou de 
 > [!NOTE]
 > En laissant l’équipe ne supprime pas le compte invité de l’organisation/client. Comment supprimer de l’organisation, voir [laisser une organisation en tant qu’invité](https://docs.microsoft.com/azure/active-directory/b2b/leave-the-organization) . Administrateur de l’organisation pouvez également supprimer les utilisateurs invités à partir du client.
 
-## <a name="guest-access-vs-external-access-federation"></a>Accès invité et l’accès externe (fédération)
+## <a name="guest-access-vs-external-access-federation"></a>Accès invité et accès externe (fédération)
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]

@@ -14,17 +14,17 @@ search.appverid: MET150
 description: Les connecteurs permettent à votre équipe de rester informée en fournissant directement à votre canal du contenu et des mises à jour provenant des services que vous utilisez fréquemment.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95053dbc4526ca3502ba986414c8e757d2cb7ad3
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: bdb4184ed203994f1275c9c074371655a627b1fe
+ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461131"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "31993438"
 ---
 <a name="use-office-365-and-custom-connectors-in-microsoft-teams"></a>Utiliser des connecteurs Office 365 et personnalisés dans Microsoft Teams
 =======================================================
 
-Les connecteurs permettent à votre équipe de rester informée en fournissant directement à votre canal du contenu et des mises à jour provenant des services que vous utilisez fréquemment. Grâce aux connecteurs, les utilisateurs de Microsoft Teams peuvent recevoir des mises à jour de services populaires, tels que Twitter, Trello, Wunderlist, GitHub et VSTS, dans le flux de conversations de leur équipe.
+Les connecteurs permettent à votre équipe de rester informée en fournissant directement à votre canal du contenu et des mises à jour provenant des services que vous utilisez fréquemment. Avec les connecteurs, vos utilisateurs Microsoft Teams peuvent recevoir des mises à jour de services courants tels que Twitter, Trello, Wunderlist, référentiels et Azure DevOps Services dans le flux de conversation dans leur équipe.
 
 N’importe quel membre d’une équipe peut se connecter leur équipe aux services de cloud populaires avec les connecteurs si l’utilisation de l’équipe des autorisations, et tous les membres de l’équipe sont avertis des activités de ce service. Connecteurs continuent de fonctionner même après le membre qui est initialement le connecteur a quitté le programme d’installation. N’importe quel membre de l’équipe avec les autorisations à ajouter/supprimer peut modifier le programme d’installation de connecteurs par d’autres membres.
 

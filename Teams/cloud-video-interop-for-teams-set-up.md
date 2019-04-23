@@ -1,6 +1,6 @@
 ---
-title: Configurer une interopérabilité vidéo dans le nuage pour Microsoft Teams
-author: lolaj
+title: Mise en place de l’interopérabilité de la vidéo cloud de Microsoft Teams
+author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.topic: article
@@ -14,20 +14,20 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b51bcd5cd5813c317c79a5f89656e11423d91412
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: b171b3fb5e73561ea5aea54e6e4f25bfabe6b0dc
+ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462539"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "31993620"
 ---
-# <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>Configurer une interopérabilité vidéo dans le nuage pour Microsoft Teams
+# <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>Mise en place de l’interopérabilité de la vidéo cloud de Microsoft Teams
 
 Une fois que vous avez [choisi sur vos partenaires interopérabilité vidéo sur le nuage](cloud-video-interop.md), vous devrez planifier votre déploiement, get configurer avec des détails de mise en service et la clé client partenaire et consentement de l’utilisateur à l’application d’interopérabilité vidéo dans votre organisation. Le diagramme suivant présente le processus. 
 
 ![Déploiement CVI dans votre organisation](media/deploying-cvi.png)
 
-## <a name="plan"></a>Planifier
+## <a name="plan"></a>Plan
 
 Pour plus d’informations sur l’identification d’un partenaire ou des partenaires à utiliser dans votre organisation, voir [Interopérabilité vidéo de Cloud pour les équipes Microsoft](cloud-video-interop.md) . 
 

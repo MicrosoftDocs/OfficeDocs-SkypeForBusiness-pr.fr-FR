@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: La nouvelle Skype de zone de rapports du centre d’administration Business affiche vous appeler et audio conférence activité dans votre organisation. Elle vous permet des détails des rapports pour vous donnent plus granulaires sur les activités de chaque utilisateur. Le rapport sur les détails d'utilisation PSTN de Skype Entreprise vous permet par exemple d'afficher le nombre de minutes passées pour des appels entrants ou sortants ainsi que les coûts de ces appels. Vous pouvez afficher les détails d’utilisation PSTN de conférence Audio, y compris le coût de l’appel afin que vous puissiez comprendre l’utilisation et appeler les détails de facturation pour déterminer l’usage au sein de votre organisation.
-ms.openlocfilehash: 9522cf7919808d059146e977de35a5590a05286f
-ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
+ms.openlocfilehash: 2a0db39852169cbb4c1dacab178d2f5b3b96dc7e
+ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30453945"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "31993547"
 ---
 # <a name="pstn-usage-report"></a>Rapport d'utilisation RTC
 
@@ -34,7 +34,7 @@ Consultez la rubrique [vue d’ensemble des rapports](https://support.office.com
 Ce rapport, ainsi que l’autres Skype pour les rapports d’entreprise, vous donne plus d’informations sur l’activité, y compris l’appel d’utilisation au sein de votre organisation. Ces informations sont très utiles lorsque vous analyse, la planification et l’émission d’autres activités décisions pour votre organisation et de configuration [Communications générique](/microsoftteams/what-are-communications-credits)
   
 > [!NOTE]
-> Vous pouvez afficher tous les rapports Skype Entreprise lorsque vous vous connectez en tant qu'administrateur du centre d'administration Office 365. 
+> Vous pouvez accéder à tous les rapports Skype Entreprise lorsque vous vous connectez au centre d'administration d'Office 365 en tant qu'administrateur. 
   
 ## <a name="how-to-get-to-the-skype-for-business-pstn-usage-details-report"></a>Comment obtenir les rapports sur les détails d'utilisation PSTN de Skype Entreprise
 
@@ -98,6 +98,9 @@ Voici une illustration du rapport.
 ***
 > [!NOTE]
 > Vous ne pouvez également voir « aucune donnée » dans certains champs. « Aucune donnée » signifie que le champ n’est pas applicable au type d’appel ou fonctionnalité. 
+***
+> [!NOTE]
+> Si vous disposez d’un plan d’appel Telstra, vous ne verrez pas les enregistrements des détails des appels dans le rapport d’utilisation PSTN. Veuillez contacter Telstra pour vos besoins en matière de création de rapports. 
 ***
 ![Numéro 2](../images/sfbcallout2.png)<br/>Cliquez pour déplacer une colonne vers **Pour regrouper les informations autour d'une colonne en particulier, faites glisser et déplacez l'en-tête de la colonne ici** si vous souhaitez visualiser toutes les données regroupées dans une ou plusieurs colonnes.
  ***

@@ -18,12 +18,12 @@ MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 description: Découvrez comment gérer les paramètres pour les réunions d’équipes qui planifient des utilisateurs dans votre organisation.
-ms.openlocfilehash: ec43fe9c436de612440bbec687868dc4de749191
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: 4ded26dae69b5afef1d9fafb4819a73475c44898
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494252"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959536"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Gérer les paramètres de réunion dans Microsoft Teams
 
@@ -49,7 +49,7 @@ Vous pouvez personnaliser les invitations à des équipes pour répondre aux bes
 ### <a name="tips-for-creating-a-logo-for-meeting-invitations"></a>Conseils pour la création d’un logo pour les invitations aux réunions  
 
 1. Créer une image qui n’est pas plus de 188 pixels de large par 30 pixels de haut (il s’agit très petite).
-2. Enregistrez l’image au format JPG.
+2. Enregistrer l’image au format JPG.
 3. Stocker l’image dans un emplacement central tout le monde dans votre organisation permettre accéder, par exemple un partage réseau.
 
 ### <a name="customize-your-meeting-invitations"></a>Personnaliser vos invitations aux réunions
@@ -98,8 +98,8 @@ Type de trafic multimédia| Plage de ports client source\* |Protocole|Valeur DSC
 |Partage d’application/écran| 50,040 – 50,059      |TCP/UDP |18        |Assured Forwarding (AF21)|
 | | | | |
 
-\*Vous assignez les plages de ports ne peuvent pas se superposer et doivent être adjacentes.
+\*Vous assignez les plages de ports ne peuvent se chevaucher et doivent être adjacentes.
 
-La définition de plages de ports pour différents types de trafic n'est qu’une seule étape dans la gestion des médias en temps réel, consultez [Qualité de Service (QoS) dans les équipes](qos-in-teams.md) de manière plus détaillée. Si vous activez ou modifiez les paramètres dans le centre d’administration équipes, vous devrez [appliquer les paramètres correspondants pour tous les périphériques de l’utilisateur](QoS-in-Teams-clients.md) et les périphériques réseau interne pour implémenter intégralement les modifications apportées à la qualité de service dans les équipes.
+La définition de plages de ports pour différents types de trafic n'est qu’une seule étape dans la gestion des médias en temps réel ; Pour plus de détails, consultez [Qualité de Service (QoS) dans les équipes](qos-in-teams.md) . Si vous activez ou modifiez les paramètres dans le centre d’administration Microsoft Teams, vous devrez [appliquer les paramètres correspondants pour tous les périphériques de l’utilisateur](QoS-in-Teams-clients.md) et les périphériques réseau interne pour implémenter intégralement les modifications apportées à la qualité de service dans les équipes.
 
 Une fois que la qualité de service a été utilisé pendant un certain temps, vous devez obtenir des informations sur la demande de chacun de ces trois charges de travail et vous pouvez choisir les modifications à apporter en fonction de vos besoins spécifiques. [Tableau de bord qualité des appels](turning-on-and-using-call-quality-dashboard.md) seront utiles avec qui.
