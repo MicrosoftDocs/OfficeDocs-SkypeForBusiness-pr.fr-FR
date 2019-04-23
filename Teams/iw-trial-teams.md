@@ -4,7 +4,7 @@ author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
 ms.date: 12/10/2018
-ms.topic: article
+ms.topic: reference
 audience: Admin
 ms.reviewer: annikaelias
 ms.service: msteams
@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c4fdeba0e4540d64e98eb2853b73e6d1edb5110e
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 5633250ce07d0baed78ab98220ea39e76cd691ff
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569614"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959417"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Gérer l’offre d’essai du cloud commercial Microsoft Teams
 =======================================================
@@ -30,7 +30,7 @@ Microsoft Teams est un excellent outil de collaboration pour votre organisation.
 
 ## <a name="whats-in-the-offer"></a>Nouveautés dans l’application Power BI
 
-Cette offre inclut les plans de service suivants :
+Les plans de service inclus dans cette offre sont les suivants :
 
 - Exchange Foundation
 - Flow pour Office 365 (Plan 1)
@@ -48,7 +48,7 @@ La période d’essai accorde un abonnement d’essai d’un an à l’ensemble 
 
 Les utilisateurs doivent être autorisés à s’inscrire aux applications et aux essais (dans le Centre d’administration Office 365). Pour plus d’informations, voir [Gérer l’essai](#manage-the-trial) plus loin dans cet article. 
 
-Les utilisateurs qui n’ont pas de licence Office 365 incluant Teams peuvent bénéficier de l’offre d’essai du cloud commercial Microsoft Teams. Par exemple, un utilisateur disposant d’une licence Office 365 Business (n’incluant pas Teams) est éligible à l’essai.
+Les utilisateurs qui n'ont pas de licence Office 365 incluant Teams peuvent bénéficier de l'offre Microsoft Teams Commercial Cloud Trial. Par exemple, un utilisateur disposant d’une licence Office 365 Entreprise (n’incluant pas Teams) est éligible à l’essai.
 
 ## <a name="who-is-not-eligible"></a>Qui n’est pas éligible
 
@@ -66,7 +66,7 @@ Les utilisateurs éligibles peuvent s’inscrire à l’offre d’essai en se co
 
 ![Capture d’écran de la page d’accueil de l’essai de Teams IW.](media/iw-trial-start-screen.png)
 
-Tous les essais au sein de votre organisation partagent les mêmes dates de début et de fin, c’est-à-dire la date à laquelle le premier utilisateur s’est inscrit à l’essai. Par exemple, si l’utilisateur A commence la première évaluation le 25 janvier 2019 et que l’utilisateur B commence une évaluation le 3 juin 2019, l’évaluation expirera le 25 janvier 2020 pour les deux évaluations.
+Tous les essais au sein de votre organisation partagent les mêmes dates de début et de fin, c'est-à-dire la date à laquelle le premier utilisateur s'est inscrit à l'essai. Par exemple, si l'utilisateur A commence la première évaluation le 2 janvier 2019 et que l'utilisateur B commence une évaluation le 3 juin 2019, l’évaluation expirera le 25 janvier 2020 pour les deux évaluations.
 
 ## <a name="manage-the-trial"></a>Gérer l’essai
 
@@ -124,7 +124,7 @@ Pour désactiver la licence d’évaluation :
 
 ### <a name="manage-teams-for-users-who-have-the-trial-license"></a>Gérer Teams pour les utilisateurs qui possèdent la licence d’évaluation
 
-Vous pouvez gérer les utilisateurs qui ont une licence d’évaluation de la même façon que vous gérez ceux qui ont une licence payante régulière. Pour plus d’informations, consultez [Gérer les fonctionnalités de Microsoft Teams dans votre organisation Office 365](enable-features-office-365.md)
+Vous pouvez gérer les utilisateurs qui ont une licence d’évaluation de la même façon que vous gérez ceux qui ont une licence payante régulière. Pour plus d’informations[Gérer les paramètres de Microsoft Teams pour votre organisation](enable-features-office-365.md).
 
 ### <a name="upgrade-users-from-the-trial-license"></a>Mettre à niveau les utilisateurs à partir de la licence d’évaluation
 
