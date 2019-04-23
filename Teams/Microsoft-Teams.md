@@ -3,8 +3,8 @@ layout: HubPage
 hide_bc: true
 title: Documentation technique de Microsoft Teams
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: lolaj
+author: lolajacobsen
 description: Documentation technique de Microsoft Teams
 ms.topic: hub-page
 localization_priority: Priority
@@ -13,12 +13,12 @@ f1keywords:
 - ms.teamsadmincenter.dashboard.helparticle.teamsadmindocumentation
 - ms.teamsadmincenter.dashboard.widget.upgrade.complete
 - ms.teamsadmincenter.orgwidesettings.holidays.overview
-ms.openlocfilehash: 4c62c045bde4492ac4035145d3460ea7f7eea5af
-ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
+ms.openlocfilehash: 71b751e66f2067c9131aceef13f87c7487495895
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "31026041"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959139"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -44,43 +44,6 @@ ms.locfileid: "31026041"
                                             <div class="cardText">
                                                 <h3>Bienvenue dans Teams</h3>
                                                 <P>Obtenez une vue d’ensemble de Teams et trouvez les conseils techniques dont vous avez besoin en tant qu’administrateur Teams ou que professionnel de l’informatique</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                            </li>
-                           <li>
-                                <a href="https://docs.microsoft.com/MicrosoftTeams/how-to-roll-out-teams"><div class="cardSize">
-                                <div class="cardPadding">
-                                        <div class="card">
-                                            <div class="cardImageOuter">
-                                                <div class="cardImage">
-                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/deploy-teams.svg" alt="Deploy" />
-                                                </div>
-                                            </div>
-                                            <div class="cardText">
-                                                <h3>Procédure de déploiement de Teams</h3>
-                                                <P>Que vous soyez une petite entreprise ou une multinationale, commencez ici pour trouver la marche à suivre appropriée pour déployer Teams</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                            </li> 
-                            <li>
-                                <a href="https://docs.microsoft.com/MicrosoftTeams/get-started-with-teams-quick-start">
-                                <div class="cardSize">
-                                    <div class="cardPadding">
-                                        <div class="card">
-                                            <div class="cardImageOuter">
-                                                <div class="cardImage">
-                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-teams.svg" alt="Get started" />
-                                                </div>
-                                            </div>
-                                            <div class="cardText">
-                                                <h3>Prise en main</h3>
-                                                <P>Utilisez notre guide de démarrage rapide pour être opérationnel en un rien de temps avec quelques équipes et canaux</p>
                                             </div>
                                         </div>
                                     </div>
@@ -144,29 +107,47 @@ ms.locfileid: "31026041"
                                 </div>
                             </a>
                             </li>
+                            <li>
+                                <a href="https://review.docs.microsoft.com/en-us/MicrosoftTeams/teams-architecture-solutions-posters?branch=lolaj-architecture-poster-page">
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage">
+                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/cloud-architecture2.svg" alt="Cloud architecture" />
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3>Posters : Architecture Teams, solutions de téléphonie</h3>
+                                                <P>Obtenir des illustrations imprimables d’architecture IT Teams et solutions de téléphonie</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            </li>
+                            <li>
+                                <a href="https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/expand-teams-across-your-organization-landing-page"><div class="cardSize">
+                                <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage">
+                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/blocks-teams.svg" alt="Blocks" />
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3>Développer Teams au sein de votre organisation</h3>
+                                                <P>Trouver des solutions personnalisées pour votre secteur-y compris les soins de santé, les employés de terrain, la vente au détail, le secteur public et l’éducation</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            </li> 
 <li class="fullSpan">
                   <hr>
                   <br>
                   <ul class="cardsF panelContent singlePanelContent" style="display:flex!important;">
-                        <li>
-                            <a href="https://docs.microsoft.com/microsoftteams/platform/overview">        
-                            <div class="cardSize">
-                                <div class="cardPadding">
-                                    <div class="card">
-                                        <div class="cardImageOuter">
-                                            <div class="cardImage">
-                                                <img src="https://docs.microsoft.com/en-us/office/media/icons/developer-teams.svg" alt="Developer" data-linktype="external">
-                                            </div>
-                                        </div>
-                                        <div class="cardText">
-                                            <h3>Plateforme de développeurs Teams</h3>
-                                            <p>En savoir plus sur la plateforme de développeurs Microsoft Teams et sur la façon dont elle permet de créer des logiciels utiles et puissants</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            </a>
-                        </li>
                         <li>
                             <a href="https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams" target="_blank" data-linktype="external">
                             <div class="cardSize">
@@ -187,24 +168,43 @@ ms.locfileid: "31026041"
                             </a>
                         </li> 
                         <li>
-                            <a href="https://docs.microsoft.com/powershell/module/teams/?view=teams-ps">
+                            <a href="https://support.office.com/Teams">
                             <div class="cardSize">
                                 <div class="cardPadding">
                                     <div class="card">
                                         <div class="cardImageOuter">
                                             <div class="cardImage">
-                                                <img src="https://docs.microsoft.com/en-us/office/media/icons/settings-teams.svg" alt="Settings">
+                                                <img src="https://docs.microsoft.com/en-us/office/media/icons/help.svg" alt="Help">
                                             </div>
                                         </div>
                                         <div class="cardText">
-                                            <h3>Référence de cmdlet PowerShell pour Teams</h3>
-                                            <p>Obtenir les modules PowerShell et les cmdlets pour Teams</p>
+                                            <h3>Aide de l’utilisateur final Teams</h3>
+                                            <p>Accédez à l’aide, aux formations et aux nouveautés pour les utilisateurs finaux</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                         </a>
                                     </li>
+                        <li>
+                            <a href="https://docs.microsoft.com/microsoftteams/platform/overview">        
+                            <div class="cardSize">
+                                <div class="cardPadding">
+                                    <div class="card">
+                                        <div class="cardImageOuter">
+                                            <div class="cardImage">
+                                                <img src="https://docs.microsoft.com/en-us/office/media/icons/developer-teams.svg" alt="Developer" data-linktype="external">
+                                            </div>
+                                        </div>
+                                        <div class="cardText">
+                                            <h3>Plateforme de développeurs Teams</h3>
+                                            <p>En savoir plus sur la plateforme de développeurs Microsoft Teams et sur la façon dont elle permet de créer des logiciels utiles et puissants</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </a>
+                        </li>
                               </ul>
                             </li>
                        </ul>

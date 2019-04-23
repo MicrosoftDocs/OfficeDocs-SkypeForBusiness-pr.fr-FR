@@ -5,7 +5,7 @@ ms.author: lolaj
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
-ms.date: 01/28/2019
+ms.date: 04/18/2019
 ms.reviewer: LolaJ
 description: Rechercher le parcours approprié pour le déploiement de Microsoft Teams dans votre organisation. Découvrez l’infrastructure de Teams et son utilisation avec Office 365.
 localization_priority: Priority
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0cb72d55b41edf6c44b84461d234c42782ee6873
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.openlocfilehash: cf50b6f7acba602ec001c340e2cbe999c610e693
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30649283"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959227"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Bienvenue dans Microsoft Teams
 Si vous êtes l’administrateur de Microsoft Teams dans votre organisation, vous êtes au bon endroit. Lorsque vous êtes prêt à commencer avec Teams, commencez avec [Comment mettre en place Teams](How-to-roll-out-teams.md).
@@ -29,16 +29,20 @@ Si vous débutez avec Teams et que vous voulez en savoir plus, poursuivez votre 
 
 ## <a name="overview-of-teams"></a>Présentation de Teams
 
-Si vous débutez avec Teams, regardez cette courte vidéo, [Bienvenue dans Teams](https://youtu.be/s3aQV3T0D6c). Teams est basé sur les groupes Office 365, Office Graph et le même niveau de sécurité, de conformité et de facilité de gestion que le reste d’Office 365. Teams utilise les identités stockées dans Azure Active Directory (Azure AD). Lorsque vous créez une équipe, voici ce que est créé :
+Si vous débutez avec Teams, regardez cette courte vidéo, [Bienvenue dans Teams](https://youtu.be/s3aQV3T0D6c). Teams est basé sur les groupes Office 365, Office Graph et le même niveau de sécurité, de conformité et de facilité de gestion que le reste d’Office 365. Teams utilise les identités stockées dans Azure Active Directory (Azure AD). Pour afficher l’emplacement où Teams doit être disposé dans le contexte de Microsoft 365, consultez ce poster architecture : [Teams dans le cadre de Microsoft 365](teams-architecture-solutions-posters.md#teams-as-part-of-microsoft-365)
+
+Lorsque vous créez une équipe, voici ce que est créé :
 - Un nouveau [groupe Office 365](office-365-groups.md)
 - Un site [SharePoint Online](sharepoint-onedrive-interact.md) et une bibliothèque de documents pour stocker les fichiers de l’équipe
 - Une boîte aux lettres et un calendrier partagés [Exchange Online](exchange-teams-interact.md)
 - Un bloc-notes OneNote
 - Des liens dans des applications Office 365 telles que le Planificateur et Power BI
 
-Lorsque vous créez une équipe à partir d'un groupe existant, les membres, le site, la boîte aux lettres et le bloc-notes de cette équipe sont transférés dans Teams. Ne manquez pas la nouvelle [équipe à l’échelle de l’organisation](create-an-org-wide-team.md), un type d’équipe spécial qui incorpore chaque utilisateur dans votre organisation et actualise l’appartenance avec Active Directory lorsque les utilisateurs rejoignent et quittent l’organisation. 
+Lorsque vous créez une équipe à partir d'un groupe existant, les membres, le site, la boîte aux lettres et le bloc-notes de cette équipe sont transférés dans Teams. Pour en savoir plus, consultez ce poster : [Groupes dans Microsoft 365 pour les Architectes d’informatique](teams-architecture-solutions-posters.md#groups-in-microsoft-365)
 
-Pour personnaliser et étendre Teams, ajoutez des applications tierces via [des applications, des robots et des connecteurs](deploy-apps-microsoft-teams-landing-page.md). Avec Teams, vous pouvez inclure des personnes de l’extérieur de votre organisation en [les ajoutant en tant qu’invitées](guest-access.md) à une équipe ou un canal. Comme partie intégrante d’Office 365, Teams fournit une [plateforme de développement](https://docs.microsoft.com/fr-FR/microsoftteams/platform) robuste qui vous permet de créer le nœud central pour le travail d’équipe dont vous avez besoin pour votre organisation. 
+Ne manquez pas la nouvelle [équipe à l’échelle de l’organisation](create-an-org-wide-team.md), un type d’équipe spécial qui incorpore chaque utilisateur dans votre organisation et actualise l’appartenance avec Active Directory lorsque les utilisateurs rejoignent et quittent l’organisation. 
+
+Pour personnaliser et étendre Teams, ajoutez des applications tierces via [des applications, des robots et des connecteurs](deploy-apps-microsoft-teams-landing-page.md). Avec Teams, vous pouvez inclure des personnes de l’extérieur de votre organisation en [les ajoutant en tant qu’invitées](guest-access.md) à une équipe ou un canal. Comme partie intégrante d’Office 365, Teams fournit une [plateforme de développement](https://docs.microsoft.com/microsoftteams/platform) robuste qui vous permet de créer le nœud central pour le travail d’équipe dont vous avez besoin pour votre organisation. 
 
 ![Application de bureau et application mobile Teams](media/teams-overview-hub.png)
 
@@ -46,9 +50,10 @@ Pour personnaliser et étendre Teams, ajoutez des applications tierces via [des 
 ## <a name="managing-teams"></a>Gestion de Teams
 
 En tant qu’administrateur, vous allez gérer Teams via le centre d’administration de Microsoft Teams. Pour en savoir plus :
+- [Utiliser des rôles d’administrateur pour gérer Teams](using-admin-roles.md)
 - [Gérer Teams dans le centre d’administration Microsoft Teams](manage-teams-skypeforbusiness-admin-center.md)
 - [Gérer Teams lors de la transition vers le nouveau Centre d’administration de Microsoft Teams](manage-teams-in-modern-portal.md)
-
+- [Activer les fonctionnalités de Teams dans votre organisation Office 365](enable-features-office-365.md)
 
 Pour rester au fait des nouveautés dans Teams et tous les autres produits Office 365 et services dans votre organisation, veillez à consulter le [Centre de messages](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter) et la [Feuille de route Teams](https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters=Microsoft%20Teams%26searchterms=microsoft%2Cteams). Vous serez informé des fonctionnalités nouvelles et mises à jour, des modifications prévues et des problèmes. 
 
