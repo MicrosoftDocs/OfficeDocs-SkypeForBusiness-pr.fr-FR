@@ -12,12 +12,12 @@ ms.collection:
 - Teams_ITAdmin_Training
 - M365-collaboration
 search.appverid: MET150
-description: Vidéos de formation, des supports de présentation PowerPoint, des didacticiels et autres ressources pour les administrateurs à planifier, déploiement et exécuter Microsoft Teams.
+description: Vidéos de formation sur les complexes PowerPoint, les didacticiels et autres ressources pour les administrateurs sur la façon de planifier, déployer et exécuter Microsoft Teams.
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 14fea980b7f0cfbb3d8a8218c20ebe503387529a
 ms.sourcegitcommit: 89b866a3c383555f6f89dc77bebd74cddf9e40fb
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 03/30/2019
 ms.locfileid: "31003819"
@@ -25,7 +25,7 @@ ms.locfileid: "31003819"
 # <a name="admin-training-for-microsoft-teams"></a>Formation à Microsoft Teams pour les administrateurs
 
 
-Utilisez les ressources de formation pour informer sur les équipes, apprendre à d’autres personnes ou exécuter ateliers. Recherchez régulièrement de nouveau contenu. 
+Utilisez les ressources de formation pour vous renseigner sur Teams, enseigner aux autres personnes ou exécuter les ateliers. Recherchez souvent ici pour de nouveau contenu. 
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -39,7 +39,7 @@ Utilisez les ressources de formation pour informer sur les équipes, apprendre �
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Prendre en main rapide deux équipes et canaux</h3>
+                        <h3>Commencez rapidement avec quelques équipes et canaux</h3>
                     </div>
                 </div>
             </div>
@@ -57,7 +57,7 @@ Utilisez les ressources de formation pour informer sur les équipes, apprendre �
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Afficher les meilleures vidéos pratiques et des procédures dans le café dans le canal dans le nuage sur YouTube</h3>
+                        <h3>Afficher les vidéos des meilleures pratiques et des procédures dans le Café dans le Cloud sur YouTube</h3>
                     </div>
                 </div>
             </div>
@@ -87,33 +87,33 @@ Utilisez les ressources de formation pour informer sur les équipes, apprendre �
 
 <h2>Formation technique</h2>
 
-| Module | Vidéo | Pont de PowerPoint |
+| Module | Vidéo | Présentation PowerPoint |
 | ------------ | -------------------- | -------------------- |
-| Notions de base - composants principaux | [Video](https://aka.ms/teams-foundations) | [Pont](https://aka.ms/teams-foundations-deck) |
-| Client de bureau Windows | [Video](https://aka.ms/teams-clients) | [Pont](https://aka.ms/teams-clients-deck) |
-| Cycle de vie, la gestion et la gouvernance | [Video](https://aka.ms/teams-governance) | [Pont](https://aka.ms/teams-governance-deck) |
-| Conformité & de sécurité | [Video](https://aka.ms/teams-security-compliance) | [Pont](https://aka.ms/teams-security-compliance-deck) |
-| Planification de réseau | [Video](https://aka.ms/teams-networking) | [Pont](https://aka.ms/teams-networking-deck) |
-| Vue d’ensemble de la qualité des appels | [Video](https://aka.ms/teams-quality) | [Pont](https://aka.ms/teams-quality-deck) |
-| Présentation des réunions | [Video](https://aka.ms/teams-meetings-intro) | [Pont](https://aka.ms/teams-meetings-intro-deck) |
-| Événements en direct | [Video](https://aka.ms/teams-live-events-session) | [Pont](https://aka.ms/teams-live-events-deck) |
-| Présentation du système téléphonique | [Video](https://aka.ms/teams-phone-system) | [Pont](https://aka.ms/teams-phone-system-deck) |
-| Routage direct | [Video](https://aka.ms/teams-direct-routing) | [Pont](https://aka.ms/teams-direct-routing-deck) |
-| Mise à niveau de Skype Entreprise vers Teams | [Vidéo 1 : Introduction à la mise à niveau](https://aka.ms/teams-upgrade-intro)</br>[Vidéo 2 : Planifier votre mise à niveau](https://aka.ms/teams-upgrade-plan)</br>[Vidéo 3 : Interopérabilité et Coexistence](https://aka.ms/teams-upgrade-coexistence-interop)</br>[Vidéo 4 : L’expérience administrateur](https://aka.ms/teams-upgrade-admin) | [Pont](https://aka.ms/teams-upgrade-deck)|
+| Structures-composants principaux | [Vidéo](https://aka.ms/teams-foundations) | [Support de présentation](https://aka.ms/teams-foundations-deck) |
+| Client de Bureau Windows | [Vidéo](https://aka.ms/teams-clients) | [Support de présentation](https://aka.ms/teams-clients-deck) |
+| Gouvernance, gestion et de cycle de vie | [Vidéo](https://aka.ms/teams-governance) | [Support de présentation](https://aka.ms/teams-governance-deck) |
+| Sécurité et Conformité | [Vidéo](https://aka.ms/teams-security-compliance) | [Support de présentation](https://aka.ms/teams-security-compliance-deck) |
+| Planification de Réseau | [Vidéo](https://aka.ms/teams-networking) | [Support de présentation](https://aka.ms/teams-networking-deck) |
+| Vue d’ensemble de qualité appel | [Vidéo](https://aka.ms/teams-quality) | [Support de présentation](https://aka.ms/teams-quality-deck) |
+| Présentation des réunions | [Vidéo](https://aka.ms/teams-meetings-intro) | [Support de présentation](https://aka.ms/teams-meetings-intro-deck) |
+| Événements en direct | [Vidéo](https://aka.ms/teams-live-events-session) | [Support de présentation](https://aka.ms/teams-live-events-deck) |
+| Présentation du système de téléphone | [Vidéo](https://aka.ms/teams-phone-system) | [Support de présentation](https://aka.ms/teams-phone-system-deck) |
+| Routage direct | [Vidéo](https://aka.ms/teams-direct-routing) | [Support de présentation](https://aka.ms/teams-direct-routing-deck) |
+| Mise à niveau de Skype Entreprise vers Teams | [Vidéo 1: Présentation de la mise à niveau](https://aka.ms/teams-upgrade-intro) </br>[Vidéo 2: Planifier votre mise à niveau](https://aka.ms/teams-upgrade-plan)</br>[Vidéo 3: Coexistence et interopérabilité](https://aka.ms/teams-upgrade-coexistence-interop)</br>[Vidéo 4: Expérience de l’administrateur](https://aka.ms/teams-upgrade-admin) | [Support de présentation](https://aka.ms/teams-upgrade-deck)|
 
 <h2>Guides de démarrage rapide</h2>
 
-- [Démarrage rapide : équipes pour les administrateurs de formation](teams-quick-start-edu.yml)
-- [Démarrage rapide : configuration des Plans de l’appel dans les équipes](configuring-teams-calling-quickstartguide.md)
+- [Guide de démarrage rapide : administrateurs de Teams pour l’éducation](teams-quick-start-edu.yml)
+- [Guide de démarrage rapide : Configuration des forfaits d'appels dans Teams](configuring-teams-calling-quickstartguide.md)
 
 <h2>Didacticiels</h2>
 
 - [Didacticiel : Migration de Skype Entreprise vers Teams](tutorial-journey-skypeforbusiness-to-teams.yml)
 - [Didacticiel : Réunions dans Teams](tutorial-meetings-in-teams.yml)
 - [Didacticiel : Audioconférence dans Teams](tutorial-audio-conferencing.yml)
-- [Didacticiel : Découvrir les appels dans Teams](tutorial-calling-in-teams.yml)
+- [Didacticiel: Comprendre la fonction d'appel dans Microsoft Teams](tutorial-calling-in-teams.yml)
 
 <h2>Cours</h2>
 
-- [L’activation de l’équipe avec les équipes Microsoft](https://aka.ms/edx-cld267x-about)
-- [Spécialiste du Service Microsoft d’Adoption](https://aka.ms/AdoptionCert)
+- [Permettre le travail d’équipe avec Microsoft Teams](https://aka.ms/edx-cld267x-about)
+- [Spécialiste de l’Adoption de Service Microsoft](https://aka.ms/AdoptionCert)
