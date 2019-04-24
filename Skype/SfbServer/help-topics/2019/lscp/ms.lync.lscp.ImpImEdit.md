@@ -14,11 +14,11 @@ ms.assetid: 1406c7c5-eb55-4b6a-8d74-d625ea9e9922
 ROBOTS: NOINDEX, NOFOLLOW
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
 ms.openlocfilehash: 08071375327308da7660e0c225ad3a30408a81bf
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884781"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215716"
 ---
 # <a name="url-filter-create-new-or-edit-existing"></a>Filtre d’URL : en créer une autre ou en modifier une existante
 

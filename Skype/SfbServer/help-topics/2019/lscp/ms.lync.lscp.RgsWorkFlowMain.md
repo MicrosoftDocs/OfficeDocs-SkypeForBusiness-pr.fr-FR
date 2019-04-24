@@ -14,11 +14,11 @@ ms.assetid: e4ee8abb-e1e5-413c-919d-cd3fb7193840
 ROBOTS: NOINDEX, NOFOLLOW
 description: Groupes de réponses se composent des groupes d’agents, files d’attente et flux de travail. Flux de travail Response Group définissent les actions exécutées lorsque l’application Response Group reçoit un appel téléphonique.
 ms.openlocfilehash: fad6e7ac71e36f89df712054d1322f8150bc1083
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899616"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215135"
 ---
 # <a name="response-groups-workflow"></a>Workflow Response Groups
 

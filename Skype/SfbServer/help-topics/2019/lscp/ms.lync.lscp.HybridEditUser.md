@@ -14,11 +14,11 @@ ms.assetid: 57930738-0d43-4e2f-aaa1-bb0801e9ed32
 ROBOTS: NOINDEX, NOFOLLOW
 description: Utilisez l’Assistant Modification des utilisateurs pour modifier les comptes d’utilisateur dans votre déploiement. Pour plus d’informations, voir Use the Hybrid Manageability wizard.
 ms.openlocfilehash: b10fa0e26bbfdda71a2d6c368a38dfc55146ed9f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888101"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215525"
 ---
 # <a name="hybrid-wizard-edit-users"></a>Assistant hybride : modification des utilisateurs
 

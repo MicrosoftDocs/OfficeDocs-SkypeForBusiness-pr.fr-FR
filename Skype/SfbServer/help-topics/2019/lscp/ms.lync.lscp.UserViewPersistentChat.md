@@ -14,11 +14,11 @@ ms.assetid: c66c6689-28a2-4758-add1-0d0dff0d3eee
 ROBOTS: NOINDEX, NOFOLLOW
 description: Les membres du rôle CsPersistentChatAdministrator (administrateurs de conversation permanente) peuvent accorder des droits de gestionnaire de salle de conversation et des autorisations à d’autres utilisateurs et à eux-mêmes.
 ms.openlocfilehash: 601405fb67fb904b2ec71399273205c84e6aa035
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878153"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32221538"
 ---
 # <a name="users-view-persistent-chat"></a>Afficher les utilisateurs de conversation permanente
 

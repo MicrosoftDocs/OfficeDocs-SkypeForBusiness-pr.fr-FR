@@ -14,11 +14,11 @@ ms.assetid: 3638cdc8-71dd-4a22-8613-83859af97387
 ROBOTS: NOINDEX, NOFOLLOW
 description: Utilisez la boîte de dialogue Sélectionner des Extensions de Type fichier pour sélectionner les extensions de type de fichier que vous souhaitez bloquer ou autoriser en sélectionnant (bloc) ou en désactivant (pour autoriser) les cases à cocher en regard des extensions de fichier des extensions de type. Cliquez sur la flèche pour développer une catégorie et d’afficher toutes les extensions de type de fichier pour cette catégorie. Si vous souhaitez sélectionner toutes les extensions de type de fichier pour une catégorie, sélectionnez le nom de catégorie.
 ms.openlocfilehash: 17ded977e4b5d4dc217ca8d2743d1e5ac369c342
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873456"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215569"
 ---
 # <a name="select-file-type-extensions"></a>Sélectionner des extensions de type de fichier
  

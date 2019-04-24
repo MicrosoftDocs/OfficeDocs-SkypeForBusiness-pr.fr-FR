@@ -15,11 +15,11 @@ ms.assetid: 02795b46-21ec-4a85-9890-959c91d97df3
 ROBOTS: NOINDEX, NOFOLLOW
 description: Un directeur est un serveur exécutant Skype pour le logiciel de communication Business Server qui peut authentifier les demandes des utilisateurs, mais qui n’héberge pas des comptes d’utilisateurs.
 ms.openlocfilehash: 63af64f9b922d1c96a177498d1d60aa3df171a0b
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889753"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32221122"
 ---
 # <a name="director-planning-tool"></a>Director (Planning Tool)
  

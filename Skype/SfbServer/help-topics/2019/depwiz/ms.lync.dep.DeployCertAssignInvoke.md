@@ -14,11 +14,11 @@ ms.assetid: 3b7cf7d2-90e1-4c73-bda8-33bdcf19725c
 ROBOTS: NOINDEX, NOFOLLOW
 description: La page exécution de commandes affiche les actions effectuées par les tâches pour assigner le certificat au serveur. Lorsque les tâches sont terminées, vous pouvez afficher le journal qui décrit en détail le processus d’affectation de certificat. Pour afficher le fichier journal, cliquez sur Afficher le journal.
 ms.openlocfilehash: 510f2d7a55530ba4c1a0096ce15aa4481f64e0dc
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899700"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216507"
 ---
 # <a name="certificate-assignment-invoke"></a>Assignation de certificat (appel)
  

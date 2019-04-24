@@ -14,11 +14,11 @@ ms.assetid: a47c824d-a76a-413b-9335-bfe5ffef15db
 ROBOTS: NOINDEX, NOFOLLOW
 description: Utilisez cette page pour définir le tronçon suivant à partir du serveur Persistent Chat Server dans votre déploiement. Pour plus d’informations sur le déploiement des serveurs de conversation permanente, voir déployer un serveur de conversation permanente dans Skype pour Business Server 2015.
 ms.openlocfilehash: 16071d9875f34483477ec68bdc1dfd72e9c55380
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875776"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220810"
 ---
 # <a name="add-persistent-chat-next-hop-page"></a>Page Ajouter un tronçon suivant de la conversation permanente
 

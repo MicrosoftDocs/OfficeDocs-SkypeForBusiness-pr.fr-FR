@@ -18,11 +18,11 @@ ms.assetid: 791026d0-730f-4225-872e-74c9b5c166d7
 ROBOTS: NOINDEX, NOFOLLOW
 description: Utilisez le Skype pour Assistant Business Server hybride facilité de gestion pour vous aider à configurer votre environnement pour l’environnement hybride avec Skype pour Business Online.
 ms.openlocfilehash: efbb21fded9a6ec6445062bc075f9116f963c71c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877076"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215576"
 ---
 # <a name="hybrid-wizard-sign-in-to-office-365"></a>Assistant hybride : connexion à Office 365
 

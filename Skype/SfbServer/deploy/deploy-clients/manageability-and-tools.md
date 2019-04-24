@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: c336ee9a-1ed8-4f64-9f7f-89549ae24c40
 description: Consultez cette rubrique pour en savoir plus sur les outils de gestion de Skype Room System.
 ms.openlocfilehash: 9be385030ad09e73608b461c5a0c05cea70987c0
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699622"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219401"
 ---
 # <a name="skype-room-system-manageability-and-tools"></a>Facilité de gestion et outils Skype Room System
  
@@ -29,7 +29,7 @@ Consultez l’article suivant pour plus d’informations :
   
 - [Déployer le portail d’administration Web : v1 SRS dans Skype pour Business Server](../deploy-conferencing/room-system-v1-administrative-web-portal.md)
     
-## <a name="system-center-operations-manager"></a>System Center Operations Manager
+## <a name="system-center-operations-manager"></a>System Center Operations Manager
 
 Système de salle Skype peuvent être surveillé par le biais de System Center Operations Manager (SCOM) en téléchargeant le [Pack d’administration système Skype salle](https://www.microsoft.com/download/details.aspx?id=42320) et de l’installer sur votre serveur SCOM. SCOM vous permet de définir des alertes, surveiller l’intégrité du système de salle Skype, générer des rapports de temps de fonctionnement et bien plus encore. Système de salle Skype est fourni avec un agent de surveillance préinstallé qui peut être configuré pour pointer vers le serveur SCOM. Consultez le guide d’installation fourni par le fabricant de votre système de salle Skype pour savoir comment configurer l’agent de surveillance sur Skype salle système.
   
@@ -51,7 +51,7 @@ Système de salle Skype peuvent être surveillé par le biais de System Center O
   - Skype pour l’outil d’analyse d’intégrité (Excel)    
   - Skype pour Business Connectivity Analyzer 32 bits ou 64 bits
     
-- Consultez [Nouveaux dépannages et outils d’analyse utiles pour Office 365](https://blogs.technet.microsoft.com/educloud/2013/08/13/useful-new-troubleshooting-and-analysis-tools-for-office-365/). Confirmez avoir un Skype pour le pool d’entreprise et un serveur Office Web Apps et peuvent partager un PowerPoint à l’aide de la Skype pour client d’entreprise.
+- Passez en revue [utile la résolution des problèmes nouveaux outils d’analyse pour Office 365](https://blogs.technet.microsoft.com/educloud/2013/08/13/useful-new-troubleshooting-and-analysis-tools-for-office-365/). Confirmez avoir un Skype pour le pool d’entreprise et un serveur Office Web Apps et peuvent partager un PowerPoint à l’aide de la Skype pour client d’entreprise.
     
 - Si la salle de réunion a déjà une boîte aux lettres de ressources, l’activer Skype pour les entreprises.
     

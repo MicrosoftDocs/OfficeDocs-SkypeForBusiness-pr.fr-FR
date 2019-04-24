@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: de13aab5-ac3c-44ac-9484-f97cafcf203a
 description: Cette documentation est préliminaire et sujette à modification. Des rubriques vides sont incluses comme espaces réservés.
 ms.openlocfilehash: 02f567c8fe1842f2a56a610b2d1d9b9074605b6a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882747"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219218"
 ---
 # <a name="publish-topology-reset-pool-page"></a>Publier la topologie : page Réinitialiser les pools
  

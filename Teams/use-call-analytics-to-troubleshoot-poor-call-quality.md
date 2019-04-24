@@ -1,5 +1,5 @@
 ---
-title: Utiliser l’Analyse des appels pour résoudre les problèmes de qualité des appels
+title: Utiliser l’analyse des appels pour résoudre les problèmes de qualité des appels
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -25,13 +25,13 @@ ms.custom:
 - Reporting
 description: Analytique appeler plus d’informations sur les appareils, les réseaux et connectivité permet de résoudre les problèmes d’utilisateur avec Microsoft Teams et Skype pour les réunions et les appels professionnels.
 ms.openlocfilehash: e437401f759e92aa13c0d6680ef30eabd20ffc56
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30543182"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32218641"
 ---
-# <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>Utiliser l’Analyse des appels pour résoudre les problèmes de qualité des appels
+# <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>Utiliser l’analyse des appels pour résoudre les problèmes de qualité des appels
 
 Appel Analytique vous permet de résoudre les problèmes de connexion ou appel avec Microsoft Teams et Skype pour les entreprises. Appel Analytique affiche des informations détaillées sur les périphériques, les réseaux et connectivité pour les appels et les réunions de chaque utilisateur dans votre compte Office 365. Si la création, de sites et des clients informations ont été ajoutées à appeler Analytique, elle s’affichera également pour chaque appel et de la session. Informations disponibles par le biais d’Analytique appel peuvent vous aider à comprendre pourquoi un utilisateur avait un appel médiocre ou l’expérience de la réunion. 
   
@@ -86,10 +86,10 @@ Pour les sessions audio qui n’ont pas la qualité des données de l’expérie
 |:-----|:-----|:-----|
 |Configuration des appels  <br/> |Session  <br/> |Le code d’erreur Ms-diagnostic 20 à 29 indique l’échec de la configuration de l’appel. L’utilisateur n’a pas pu participer à l’appel ou la réunion.  <br/> |
 |Réseau audio classés d’appels médiocres  <br/> |Session  <br/> |Problèmes de qualité réseau (tels que la perte de paquets, l’instabilité, dégradation NMOS, durée aller-retour ou taux masqué) se sont produites. Pour plus d’informations sur les conditions d’utilisation pour classer les appels médiocres, consultez le [billet de blog de Microsoft](https://go.microsoft.com/fwlink/p/?linkid=852133).  <br/> |
-|Périphérique ne fonctionne ne pas  <br/> |APPAREIL  <br/> | Un périphérique ne fonctionne pas correctement. Périphérique ne fonctionne ne pas ratios est les suivants : <br/>  DeviceRenderNotFunctioningEventRatio > = 0,005 <br/>  DeviceCaptureNotFunctioningEventRatio > = 0,005 <br/> |
+|Périphérique ne fonctionne ne pas  <br/> |Device  <br/> | Un périphérique ne fonctionne pas correctement. Périphérique ne fonctionne ne pas ratios est les suivants : <br/>  DeviceRenderNotFunctioningEventRatio > = 0,005 <br/>  DeviceCaptureNotFunctioningEventRatio > = 0,005 <br/> |
    
-## <a name="related-topics"></a>Rubriques connexes
-[Configurer Analyse des appels](set-up-call-analytics.md)
+## <a name="related-topics"></a>Voir aussi
+[Configurer l’analyse des appels](set-up-call-analytics.md)
 
 [Tableau de bord Analyse des appels et Qualité des appels](difference-between-call-analytics-and-call-quality-dashboard.md)
 

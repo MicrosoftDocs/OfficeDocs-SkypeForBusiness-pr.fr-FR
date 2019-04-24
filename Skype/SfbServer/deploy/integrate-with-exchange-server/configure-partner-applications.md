@@ -13,11 +13,11 @@ ms.collection: IT_Skype16
 ms.assetid: 9c3a3054-6201-433f-b128-4c49d3341370
 description: 'Résumé : Configurez l’authentification de serveur à serveur pour Exchange Server 2016 ou Exchange Server 2013 et Skype pour Business Server.'
 ms.openlocfilehash: d9d2b32b637946555b906f24e7abbd5dda007d7f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878472"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216878"
 ---
 # <a name="configure-partner-applications-in-skype-for-business-server-and-exchange-server"></a>Configurer des applications partenaires Skype pour Business Server et Exchange Server
  

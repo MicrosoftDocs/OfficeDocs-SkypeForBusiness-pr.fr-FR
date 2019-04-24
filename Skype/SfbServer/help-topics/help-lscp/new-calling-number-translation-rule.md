@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 2b6493f1-1be5-45b4-841a-09425cb302e1
 description: 'Vous pouvez utiliser la nouvelle Configuration de jonction : nouvel appel de numéro de règle de traduction pour créer une nouvelle règle de traduction. Pour plus d’informations sur les règles de traduction, reportez-vous aux rubriques suivantes :'
 ms.openlocfilehash: 61843bf106b68bfc16b1f8d55c342ea9d5c68e96
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884626"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220283"
 ---
 # <a name="new-calling-number-translation-rule"></a>Nouvelle règle de conversion de numéros d’appel
 

@@ -21,11 +21,11 @@ ms.custom:
 - Audio Conferencing
 description: Envoyer vos utilisateurs un message électronique avec leurs informations de services d’audioconférence dans Skype pour Business Online.
 ms.openlocfilehash: 80cfbd88b8c933e2b1e66d6348deff111a45f8e3
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373616"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229320"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-skype-for-business-online"></a>Envoyer un courrier électronique à un utilisateur avec leurs informations de conférence Audio dans Skype pour Business Online
 
@@ -60,7 +60,7 @@ Voici un exemple du courrier électronique qui est envoyé :
     
 3. Cliquez sur **utilisateurs**, puis sélectionnez l’utilisateur.
     
-4. Cliquez sur **Utilisateurs d'appels entrants**, sélectionnez l'utilisateur pour lequel vous souhaitez réinitialiser le code confidentiel.
+4. Dans le volet Action, cliquez sur **Envoyer les informations sur la conférence par courrier électronique**.
     
 > [!TIP]
 > Vous pouvez également envoyer des e-mails à l’utilisateur avec les paramètres de conférence audio en modifiant les propriétés de l’utilisateur et puis en cliquant sur **audioconférence** > **Envoyer les informations de conférence par courrier électronique**. 
@@ -121,6 +121,6 @@ Voici un exemple du courrier électronique qui est envoyé :
     > [!NOTE]
     > Le module Windows PowerShell pour Skype Entreprise Online permet de créer une session Windows PowerShell à distance qui se connecte à Skype Entreprise Online. Ce module est pris en charge uniquement sur les systèmes 64 bits. Il peut être téléchargé à partir du Centre de téléchargement Microsoft accessible à l'emplacement suivant : [Module Windows PowerShell pour Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=294688).
   
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
-[Tester ou acheter l'audioconférence dans Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Tester ou acheter l’audioconférence dans Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

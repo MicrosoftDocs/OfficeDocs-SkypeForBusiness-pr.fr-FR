@@ -15,11 +15,11 @@ ms.assetid: df92d228-de60-4025-b249-ad957130ef7b
 ROBOTS: NOINDEX, NOFOLLOW
 description: Vous disposez de trois options lors de la configuration des adresses IP dans Skype pour Business Server. Vous pouvez configurer Skype pour Business Server prendre en charge uniquement IP version 4 (IPv4), seul IP version 6 (IPv6), ou une combinaison des deux (appelé une double pile).
 ms.openlocfilehash: 8b2c83d749dbbcbf6ef171020d625c564258e047
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875927"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32221087"
 ---
 # <a name="ip-version-planning-tool"></a>IP Version (Planning Tool)
  

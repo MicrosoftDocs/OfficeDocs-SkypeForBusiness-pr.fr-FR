@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 8dcd4168-60ed-4787-b6de-2b04268d6d0f
 description: Les étapes nécessaires pour définir un nouveau rapport ou passerelle vidéo dans le Générateur de topologie sont décrites en ligne dans créer un pool VIS dans Skype pour Business Server 2015.
 ms.openlocfilehash: 256691a7e98f2e4968939335b7735e0d1533032a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892129"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219323"
 ---
 # <a name="video-gateway-setting"></a>Paramètre de passerelle vidéo
  

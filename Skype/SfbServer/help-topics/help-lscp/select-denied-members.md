@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: c626b6b4-15f3-4a59-bb1d-55dc8c60f5cb
 description: Un administrateur de conversation permanente peut créer et gérer les catégories de salle de conversation. Dans le cadre de la création et gestion des catégories de salle de conversation, un administrateur de conversation permanente peut configurer principaux (groupes/conteneurs/utilisateurs Active Directory Domain Services) qui ont accès à des membres/créateurs de salles de conversation d’une catégorie spécifique. Un administrateur de conversation permanente peuvent également ajouter des membres refusés à une catégorie et ces deviennent des exclusions explicites à la liste autorisée. Membres refusés remplacent les nouveautés de AllowedMembers.
 ms.openlocfilehash: a4726710bcf331c940c73380dc43b98a6f422c66
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889599"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220206"
 ---
 # <a name="select-denied-members"></a>Sélection des membres refusés
 

@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: 'Résumé : Découvrez comment connecter Skype pour Business Server Skype consommateur. Également appelé Skype connectivité.'
 ms.openlocfilehash: 3dd48661b230f4e780505be4aeb05bbe9ff82340
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874506"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219693"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>Déployer une connectivité Skype dans Skype pour Business Server
  
@@ -232,7 +232,7 @@ Le tableau ci-dessous décrit l’état d’interopérabilité entre la dernièr
   
 |**Client**|**Recherche dans l’annuaire Skype et ajout de contacts**|**Skype A/V, interopérabilité avec la messagerie instantanée**|
 |:-----|:-----|:-----|
-|Skype Entreprise  <br/> |Oui   <br/> |Oui   <br/> |
+|Skype Entreprise  <br/> |Oui  <br/> |Oui  <br/> |
 |Skype Entreprise sur Mac  <br/> |Ajout possible (pas de recherche)  <br/> |Oui  <br/> |
 |Lync Desktop 2013  <br/> |Ajout possible (pas de recherche)  <br/> |Oui  <br/> |
 |Lync Web App - en ligne et sur site  <br/> |N/A   <br/> |N/A   <br/> |
@@ -240,7 +240,7 @@ Le tableau ci-dessous décrit l’état d’interopérabilité entre la dernièr
 |Lync Mobile - Android  <br/> |Bientôt disponible  <br/> |Oui  <br/> |
 |Lync Mobile - iOS  <br/> |Bientôt disponible  <br/> |Oui  <br/> |
 |Lync Room System  <br/> |Bientôt disponible  <br/> |Oui  <br/> |
-|Lync Modern App (Windows 8.1)  <br/> |Oui  <br/> |Oui   <br/> |
+|Lync Modern App (Windows 8.1)  <br/> |Oui  <br/> |Oui  <br/> |
 |Lync Mac 2011  <br/> |Ajout possible (pas de recherche)  <br/> |Oui  <br/> |
 |Lync Desktop 2010  <br/> |Ajout possible (pas de recherche)  <br/> |Oui  <br/> |
 |Lync Phone Edition  <br/> |N/A   <br/> |N/A   <br/> |

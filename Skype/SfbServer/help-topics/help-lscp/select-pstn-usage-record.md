@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 80a5b130-2b36-4318-9870-f5176c8d8f62
 description: Utilisez la boîte de dialogue Sélectionner un enregistrement d’utilisation PSTN pour trouver un enregistrement d’utilisation réseau téléphonique commuté public existant que vous pouvez utiliser.
 ms.openlocfilehash: eb2e16c9809ae1271658de2c66f535572f907be3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874625"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220128"
 ---
 # <a name="select-pstn-usage-record"></a>Sélectionner un enregistrement d’utilisation PSTN
  

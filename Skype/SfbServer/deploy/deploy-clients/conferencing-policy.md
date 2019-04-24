@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 4dd8be28-5156-411b-8ccd-eff7f75cb897
 description: Consultez cette rubrique pour découvrir comment attribuer des stratégies de conférence pour Skype Room System.
 ms.openlocfilehash: a56bf9f6b8ba70a4f9ec1f28e84dfa67b1e71aa9
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699572"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219464"
 ---
 # <a name="conferencing-policy-for-skype-room-system-accounts"></a>Stratégie de conférence pour les comptes Skype Room System
  
@@ -27,28 +27,28 @@ La stratégie de conférence affectée au compte Skype salle système doit avoir
   
 |Fonctionnalité  <br/> |Valeur  <br/> |Commentaire  <br/> |
 |:-----|:-----|:-----|
-|AllowIPAudio  <br/> |TRUE  <br/> |Doit être vraie pour son système de salle de Skype  <br/> |
-|AllowIPVideo  <br/> |TRUE  <br/> |Doit être vraie pour l’audio Skype salle système fonctionnent dans les sessions de tableau blanc (ad hoc) Conférence maintenant dans le système de salle de Skype  <br/> |
-|AllowMultiView  <br/> |TRUE  <br/> |Permet de système de salle Skype restituer MULTIVUE, plusieurs flux vidéo  <br/> |
-|AllowParticipantControl  <br/> |TRUE  <br/> |Affecte des sessions de tableau blanc (ad hoc) Conférence maintenant dans le système de salle de Skype  <br/> |
-|AllowAnnotations  <br/> |TRUE  <br/> |Affecte des sessions de tableau blanc (ad hoc) Conférence maintenant dans le système de salle de Skype  <br/> |
-|DisablePowerPointAnnotations  <br/> |FALSE  <br/> |Affecte des sessions de tableau blanc (ad hoc) Conférence maintenant dans le système de salle de Skype  <br/> |
-|AllowUserToScheduleMeetingsWithAppSharing  <br/> |TRUE  <br/> |Affecte des sessions de tableau blanc (ad hoc) Conférence maintenant dans le système de salle de Skype  <br/> |
-|AllowNonEnterpriseVoiceUsersToDialOut  <br/> |FALSE  <br/> |Varie selon que le compte est Enterprise Voice (EV) activé (voir les comptes système de salle activation Skype pour Skype pour section de l’entreprise)  <br/> |
-|AllowAnonymousUsersToDialOut  <br/> |FALSE  <br/> |Varie selon que le compte est-activé pour Voix Entreprise ou non  <br/> |
-|AllowAnonymousParticipantsInMeetings  <br/> |TRUE  <br/> |Affecte des sessions de tableau blanc (ad hoc) Conférence maintenant dans le système de salle de Skype  <br/> |
-|AllowExternalUsersToSaveContent  <br/> |TRUE  <br/> |Affecte des sessions de tableau blanc (ad hoc) Conférence maintenant dans le système de salle de Skype  <br/> |
-|AllowExternalUserControl  <br/> |FALSE  <br/> |Affecte des sessions de tableau blanc (ad hoc) Conférence maintenant dans le système de salle de Skype  <br/> |
-|AllowExternalUsersToRecordMeeting  <br/> |FALSE  <br/> |Affecte des sessions de tableau blanc (ad hoc) Conférence maintenant dans le système de salle de Skype  <br/> |
-|AllowPolls  <br/> |TRUE  <br/> |N/a (ad hoc) réunions Conférence maintenant, mais Skype salle système peuvent répondre à des sondages dans l’écran au début de la salle  <br/> |
-|AllowSharedNotes  <br/> |TRUE  <br/> |N/a (ad hoc) réunions Conférence maintenant, mais Skype salle système peuvent répondre à des sondages dans l’écran au début de la salle  <br/> |
-|EnableDialInConferencing  <br/> |TRUE  <br/> |Affecte des sessions de tableau blanc (ad hoc) Conférence maintenant dans le système de salle de Skype  <br/> |
+|AllowIPAudio  <br/> |VRAI  <br/> |Doit être vraie pour son système de salle de Skype  <br/> |
+|AllowIPVideo  <br/> |VRAI  <br/> |Doit être vraie pour l’audio Skype salle système fonctionnent dans les sessions de tableau blanc (ad hoc) Conférence maintenant dans le système de salle de Skype  <br/> |
+|AllowMultiView  <br/> |VRAI  <br/> |Permet de système de salle Skype restituer MULTIVUE, plusieurs flux vidéo  <br/> |
+|AllowParticipantControl  <br/> |VRAI  <br/> |Affecte des sessions de tableau blanc (ad hoc) Conférence maintenant dans le système de salle de Skype  <br/> |
+|AllowAnnotations  <br/> |VRAI  <br/> |Affecte des sessions de tableau blanc (ad hoc) Conférence maintenant dans le système de salle de Skype  <br/> |
+|DisablePowerPointAnnotations  <br/> |FAUX  <br/> |Affecte des sessions de tableau blanc (ad hoc) Conférence maintenant dans le système de salle de Skype  <br/> |
+|AllowUserToScheduleMeetingsWithAppSharing  <br/> |VRAI  <br/> |Affecte des sessions de tableau blanc (ad hoc) Conférence maintenant dans le système de salle de Skype  <br/> |
+|AllowNonEnterpriseVoiceUsersToDialOut  <br/> |FAUX  <br/> |Varie selon que le compte est Enterprise Voice (EV) activé (voir les comptes système de salle activation Skype pour Skype pour section de l’entreprise)  <br/> |
+|AllowAnonymousUsersToDialOut  <br/> |FAUX  <br/> |Varie selon que le compte est-activé pour Voix Entreprise ou non  <br/> |
+|AllowAnonymousParticipantsInMeetings  <br/> |VRAI  <br/> |Affecte des sessions de tableau blanc (ad hoc) Conférence maintenant dans le système de salle de Skype  <br/> |
+|AllowExternalUsersToSaveContent  <br/> |VRAI  <br/> |Affecte des sessions de tableau blanc (ad hoc) Conférence maintenant dans le système de salle de Skype  <br/> |
+|AllowExternalUserControl  <br/> |FAUX  <br/> |Affecte des sessions de tableau blanc (ad hoc) Conférence maintenant dans le système de salle de Skype  <br/> |
+|AllowExternalUsersToRecordMeeting  <br/> |FAUX  <br/> |Affecte des sessions de tableau blanc (ad hoc) Conférence maintenant dans le système de salle de Skype  <br/> |
+|AllowPolls  <br/> |VRAI  <br/> |N/a (ad hoc) réunions Conférence maintenant, mais Skype salle système peuvent répondre à des sondages dans l’écran au début de la salle  <br/> |
+|AllowSharedNotes  <br/> |VRAI  <br/> |N/a (ad hoc) réunions Conférence maintenant, mais Skype salle système peuvent répondre à des sondages dans l’écran au début de la salle  <br/> |
+|EnableDialInConferencing  <br/> |VRAI  <br/> |Affecte des sessions de tableau blanc (ad hoc) Conférence maintenant dans le système de salle de Skype  <br/> |
 |EnableAppDesktopSharing  <br/> |Bureau  <br/> |Affecte des sessions de tableau blanc (ad hoc) Conférence maintenant dans le système de salle de Skype  <br/> |
-|AllowConferenceRecording  <br/> |FALSE  <br/> |N/a pour le système de salle Skype. Lorsqu’elle est définie comme TRUE, un interlocuteur distant peut enregistrer  <br/> |
-|EnableP2PRecording  <br/> |FALSE  <br/> |N/a pour le système de salle Skype. Lorsqu’elle est définie comme TRUE, un interlocuteur distant peut enregistrer  <br/> |
-|EnableFileTransfer  <br/> |TRUE  <br/> |N/A  <br/> |
-|EnableP2PFileTransfer  <br/> |TRUE  <br/> |N/A  <br/> |
-|EnableP2PVideo  <br/> |TRUE  <br/> |Permet au client de système de salle Skype participer aux sessions vidéo d’égal à égal  <br/> |
+|AllowConferenceRecording  <br/> |FAUX  <br/> |N/a pour le système de salle Skype. Lorsqu’elle est définie comme TRUE, un interlocuteur distant peut enregistrer  <br/> |
+|EnableP2PRecording  <br/> |FAUX  <br/> |N/a pour le système de salle Skype. Lorsqu’elle est définie comme TRUE, un interlocuteur distant peut enregistrer  <br/> |
+|EnableFileTransfer  <br/> |TRUE  <br/> |S/O  <br/> |
+|EnableP2PFileTransfer  <br/> |TRUE  <br/> |S/O  <br/> |
+|EnableP2PVideo  <br/> |VRAI  <br/> |Permet au client de système de salle Skype participer aux sessions vidéo d’égal à égal  <br/> |
 |AllowLargeMeetings  <br/> |FALSE  <br/> |N/A  <br/> |
 |EnableDataCollaboration  <br/> |TRUE  <br/> |Affecte des sessions de tableau blanc (ad hoc) Conférence maintenant dans le système de salle de Skype  <br/> |
 |MaxVideoConferenceResolution  <br/> |VGA  <br/> |Ignoré par Skype pour Business Server, le système de salle de Skype utilise HD1080  <br/> |

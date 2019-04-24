@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: b0633d75-e0bb-4b4e-9abe-1f1c647a6c7d
 description: 'Pour modifier les propriétés d’un / pool V Conferencing Server que vous avez déjà défini, procédez comme suit :'
 ms.openlocfilehash: 98ddc2a0907a9971e5bbfc1e72b6aad356960763
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875305"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227374"
 ---
 # <a name="av-mcu-settings-expander"></a>Développeur des paramètres du service MCU audio/vidéo
  

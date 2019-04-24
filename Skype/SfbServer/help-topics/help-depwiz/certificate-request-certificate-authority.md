@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: a609f1b0-ae13-44ca-a467-b7fb14ff18a1
 description: 'Lorsque vous faites une demande de certificat auprès d’une autorité de certification en ligne (généralement à des serveurs qui se trouvent sur votre réseau interne) dans la page Choisir une autorité de certification, vous avez le choix entre deux options :'
 ms.openlocfilehash: 5681f570a6c418263545386afecfe4b7329bc45c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880192"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235127"
 ---
 # <a name="certificate-request-certificate-authority"></a>Demande de certificat (autorité de certification)
  

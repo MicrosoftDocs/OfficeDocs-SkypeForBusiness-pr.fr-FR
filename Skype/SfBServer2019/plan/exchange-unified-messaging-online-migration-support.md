@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.collection: ''
 description: Microsoft est le retrait Unified Messaging service Exchange Online (ExchUMO) en février 2020. Cet article résume les éléments affectés clients doivent connaître et pour planifier les leur continuité de l’entreprise.
 ms.openlocfilehash: 703c51f3d42c9eea12964230693e602428454754
-ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/18/2019
-ms.locfileid: "31914676"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32244461"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Prise en charge de la migration en ligne de la messagerie unifiée Exchange  
 
@@ -93,7 +93,7 @@ Microsoft a identifié les différents déploiements de clients qui utilisent le
 
 
 
-| Service | Niveau de fonctionnalité | Fonctionnalité | Remarques  | Ordinateur virtuel sur le nuage/AA  | ExUMO |
+| Service | Niveau de fonctionnalité | Fonctionnalité | Notes  | Ordinateur virtuel sur le nuage/AA  | ExUMO |
 |---------|-------|--------|----|--------|------|
 | ORDINATEUR VIRTUEL  | Fonctionnalités du service| Prise en charge du système PBX tiers-3 rd    | Y compris toutes les fonctionnalités fournies à 3e partie PBX comme indicateur (indicateur en attente des messages) à l’aide de SIP notifier les messages à partir d’Exchange UM Online | N   | O    |
 | ORDINATEUR VIRTUEL | Fonctionnalités du service  | Prise en charge Skype pour Business Server   |  | O | Y    |
@@ -128,13 +128,13 @@ Microsoft a identifié les différents déploiements de clients qui utilisent le
 | ORDINATEUR VIRTUEL | Fonctionnalités de l’appelant  | Détection du silence   |  | N | O    |
 | ORDINATEUR VIRTUEL | Fonctionnalités d’administration des clients | Messagerie vocale protégée au niveau du serveur    | Administrateur du client peut configurer une règle de niveau de service pour marquer les messages vocaux entrant protégé | O | Y    |
 | ORDINATEUR VIRTUEL | Fonctionnalités d’administration des clients | Limite de temps duration modification d’enregistrement  | CVM dur codée à 5 minutes    | N | O    |
-| ORDINATEUR VIRTUEL | Fonctionnalités d’administration des clients | Délai d’expiration de détection de silence modification    |  | N/A    | Y    |
+| ORDINATEUR VIRTUEL | Fonctionnalités d’administration des clients | Délai d’expiration de détection de silence modification    |  | S/O    | Y    |
 | ORDINATEUR VIRTUEL | Fonctionnalités d’administration des clients | Modifier le nombre d’échecs d’entrée | CVM : codés en dur 3 | N | O    |
 | ORDINATEUR VIRTUEL | Fonctionnalités d’administration des clients | Modifier la langue par défaut |  | O | Y    |
 | ORDINATEUR VIRTUEL | Fonctionnalités d’administration des clients | Activer/désactiver transcription |  | O | Y    |
 | ORDINATEUR VIRTUEL | Fonctionnalités d’administration des clients | Activer/désactiver les appels manqués |  | N | O    |
 | ORDINATEUR VIRTUEL | Fonctionnalités d’administration des clients | Améliorer Microsoft Aperçu de messagerie vocale    |  | Y | Y    |
-| ORDINATEUR VIRTUEL | Fonctionnalités d’administration des clients | Personnaliser le message de texte pour les utilisateurs activés|  | N/A    | Y    |
+| ORDINATEUR VIRTUEL | Fonctionnalités d’administration des clients | Personnaliser le message de texte pour les utilisateurs activés|  | S/O    | Y    |
 | ORDINATEUR VIRTUEL | Fonctionnalités d’administration des clients | Masquage de transcription gratuites|  | O | N    |
 | ORDINATEUR VIRTUEL | Fonctionnalités d’administration des clients | Stratégie de messagerie vocale    |   | Y | Y    |
 | ORDINATEUR VIRTUEL | Fonctionnalités d’administration des clients | Administration du portail Web   |  | CY19   | Y    |

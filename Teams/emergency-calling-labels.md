@@ -1,5 +1,5 @@
 ---
-title: Disponibilité des forfaits d'appels et d'audioconférence selon les régions et les pays
+title: Disponibilité des forfaits d’appels et de l’audioconférence selon les régions et les pays
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -21,11 +21,11 @@ ms.custom:
 - Calling Plans
 description: Vous pouvez télécharger ces étiquettes d’appel d’urgence lorsque vous utilisez des Plans de l’appel dans Office 365.
 ms.openlocfilehash: 2b88bfe984aed655a78f69a580fdd1d510f3d8e1
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541999"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32244436"
 ---
 # <a name="emergency-calling-labels"></a>Étiquettes de l’appel d’urgence
 
@@ -35,6 +35,6 @@ Il s’agit d’urgence (911) étiquettes de notification d’exclusion de l’a
 
 ## <a name="related-topics"></a>Rubriques connexes
 
-[Différents types de numéros de téléphone utilisés pour les forfaits d'appels](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Différents types de numéros de téléphone utilisés pour les offres d'appel](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[Conditions générales relatives aux appels d'urgence](emergency-calling-terms-and-conditions.md)
+[Conditions générales d’utilisation des appels d’urgence](emergency-calling-terms-and-conditions.md)

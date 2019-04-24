@@ -14,11 +14,11 @@ ms.custom: Strat_SB_Admin
 ms.assetid: 71299b34-8783-4384-9949-0d3162c8a36e
 description: 'Résumé : Découvrez comment préparer votre environnement pour une installation de Skype pour Business Server. Téléchargez une version d’évaluation gratuite de Skype pour Business Server depuis le centre d’évaluation Microsoft à : https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
 ms.openlocfilehash: 041c60c23e5edc56a0332f7e0321fd1aac5970f8
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898521"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216818"
 ---
 # <a name="install-skype-for-business-server"></a>Installation de Skype Entreprise Server
  

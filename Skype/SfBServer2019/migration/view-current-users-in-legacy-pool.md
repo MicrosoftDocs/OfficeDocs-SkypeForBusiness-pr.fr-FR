@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Avant des différentes manières dont vous pouvez déplacer des utilisateurs entre les pools de formation, nous devons tout d’abord déterminer quels utilisateurs existent dans le pool hérité. Dans l’image ci-dessous, la colonne pool de serveurs d’inscriptions identifie six utilisateurs qui sont configurés pour le pool hérité. Voici les utilisateurs test que nous sont déplacés vers le Skype pour Business Server 2019 pool.
 ms.openlocfilehash: 980c3c48e026f929e95fcd9f9784b7d2a534c6cc
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894472"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231314"
 ---
 # <a name="view-current-users-in-legacy-pool"></a>Afficher les utilisateurs actuels dans le pool hérité
 
