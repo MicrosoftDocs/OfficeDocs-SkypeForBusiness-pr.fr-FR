@@ -11,15 +11,15 @@ localization_priority: Normal
 ms.assetid: ca35c25c-6238-4e98-a8d0-c225fb605058
 description: Rubriques d’Assistant de déploiement
 ms.openlocfilehash: 71f5559c9c645fad026242f56644d5f69f692e49
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877691"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220423"
 ---
-# <a name="help-depwiz"></a><span data-ttu-id="e64c5-103">Help-DepWiz</span><span class="sxs-lookup"><span data-stu-id="e64c5-103">Help-DepWiz</span></span>
+# <a name="help-depwiz"></a><span data-ttu-id="b6ccb-103">Help-DepWiz</span><span class="sxs-lookup"><span data-stu-id="b6ccb-103">Help-DepWiz</span></span>
  
-<span data-ttu-id="e64c5-104">Les rubriques de ce nœud fournissent de l’aide pour le Skype pour l’Assistant de déploiement de serveur d’entreprise.</span><span class="sxs-lookup"><span data-stu-id="e64c5-104">The topics in this node provide help for the Skype for Business Server deployment wizard.</span></span>
+<span data-ttu-id="b6ccb-104">Les rubriques de ce nœud fournissent de l’aide pour le Skype pour l’Assistant de déploiement de serveur d’entreprise.</span><span class="sxs-lookup"><span data-stu-id="b6ccb-104">The topics in this node provide help for the Skype for Business Server deployment wizard.</span></span>
   
 
   
