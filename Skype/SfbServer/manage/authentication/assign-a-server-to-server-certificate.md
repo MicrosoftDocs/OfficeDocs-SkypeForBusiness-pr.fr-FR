@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: c7413954-2504-47f4-a073-44548aff1c0c
 description: 'Résumé : Attribuer un certificat d’authentification de serveur à serveur pour Skype pour Business Server.'
 ms.openlocfilehash: 8d66023a08e3b7e64d7422700e2cac32821e1ee3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887826"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32211890"
 ---
 # <a name="assign-a-server-to-server-authentication-certificate-to-skype-for-business-server"></a>Affecter un certificat d’authentification de serveur à serveur à Skype pour Business Server
 **Résumé :** Attribuer un certificat d’authentification de serveur à serveur pour Skype pour Business Server.

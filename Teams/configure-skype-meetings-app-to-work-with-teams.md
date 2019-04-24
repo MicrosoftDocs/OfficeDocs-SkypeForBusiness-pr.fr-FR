@@ -15,11 +15,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 8071b248219d2e69465ef19e8dc966e87de58754
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891475"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198350"
 ---
 <a name="configure-the-skype-meetings-app-to-work-with-teams"></a>Configurer l’Application Réunions Skype pour fonctionner avec Teams
 ===================================================
@@ -28,7 +28,7 @@ Après qu’un utilisateur est mis à niveau vers Microsoft Teams, administrateu
 
 Pour spécifier la Skype pour application de réunions en tant que l’application par défaut :
 
-1. Connectez-vous au centre d’administration Microsoft Teams.
+1. Se connecter au centre d’administration de Microsoft Teams.
 2. Dans le volet gauche, sous **paramètres de l’organisation**, sélectionnez **les équipes de mise à niveau**.
 3. Sur les équipes de mise à niveau de la page, sous **Préférences de l’application**, sélectionnez **Application de réunions Skype** à partir de la liste déroulante **application par défaut pour les utilisateurs à participer à Skype pour les réunions d’entreprise** .
 

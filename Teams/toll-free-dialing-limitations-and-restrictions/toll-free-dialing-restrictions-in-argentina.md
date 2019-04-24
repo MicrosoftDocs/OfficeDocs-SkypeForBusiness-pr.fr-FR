@@ -24,11 +24,11 @@ ms.custom:
 - Calling Plans
 description: Cela vous permettra de savoir comment composer des numéros gratuits dans chaque pays/région. Une fois que vous sélectionnez la pays/région, il vous dirige vers une page spécifique qui contient des détails plus spécifiques, les restrictions et les limites de la disponibilité du service gratuit où service gratuit est disponible. Le format de numérotation ou formats affichera les codes d’accès requis dans chaque pays/région de composer le numéro d’appel gratuit.
 ms.openlocfilehash: 9a8af805c2c01bd2f4bf1199391a66f77669daeb
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30540839"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204452"
 ---
 # <a name="toll-free-dialing-restrictions-in-argentina"></a>Restrictions de numérotation gratuit en Argentine
 
@@ -45,7 +45,7 @@ ms.locfileid: "30540839"
 |Disponibilité de réseau mobile  <br/> |Oui  <br/> |
 |Commentaires, les restrictions et les problèmes d’accès  <br/> |Accès mobile : Le temps d'accès est facturé.  <br/> |
    
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)

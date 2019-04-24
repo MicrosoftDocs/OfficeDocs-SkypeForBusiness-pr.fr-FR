@@ -1,5 +1,5 @@
 ---
-title: Configurer la conférence pour Microsoft Teams
+title: Configurer Audioconférence pour Microsoft Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,13 +22,13 @@ ms.custom:
 - LIL_Placement
 description: 'Découvrez comment configurer des rendez-vous ou de conférence Audio pour les personnes dans votre entreprise qui ont besoin d’utiliser un téléphone pour participer à des téléconférences. '
 ms.openlocfilehash: 7ff24dd2b29eabbad46759471b69c3619e4e7b24
-ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31517175"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204879"
 ---
-# <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Configurer la conférence pour Microsoft Teams
+# <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Configurer Audioconférence pour Microsoft Teams
 
 Parfois les personnes dans votre organisation vous devrez utiliser un téléphone pour appeler une réunion. Microsoft Teams inclut la fonctionnalité de conférence audio uniquement cette situation ! Personnes peuvent appeler réunions équipes à l’aide d’un téléphone, au lieu d’utiliser l’application équipes sur un appareil mobile ou un PC. 
   

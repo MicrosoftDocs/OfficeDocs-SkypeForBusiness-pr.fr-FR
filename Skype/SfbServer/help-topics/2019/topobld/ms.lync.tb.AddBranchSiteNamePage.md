@@ -14,11 +14,11 @@ ms.assetid: f2830f80-0b64-4b1e-96de-65ee4cddc3d9
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Pour définir un nouveau site de succursale, spécifiez les éléments suivants :'
 ms.openlocfilehash: 5c85079c78bbd39b905f17eed8d7824f36190784
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879264"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202228"
 ---
 # <a name="add-branch-site-name"></a>Ajouter le nom du site de succursale
 

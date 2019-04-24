@@ -14,11 +14,11 @@ description: Découvrez comment utiliser les différents rôles d’administrati
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 677249ba27c79352207a4fffa65480a0a7d484cd
-ms.sourcegitcommit: 188c57e6b6c707edb694bb922556dea1c4724846
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "30955013"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32211807"
 ---
 # <a name="use-microsoft-teams-admin-roles-to-manage-teams"></a>Utiliser des rôles d’administrateur de Microsoft Teams pour gérer Teams
 
@@ -62,7 +62,7 @@ La plupart des outils de PowerShell pour ces rôles d’administrateur live dans
    c. Utilisez **Get-Module** pour identifier le nom de la session importé (il s’agira d’un nom généré de manière aléatoire).<br>
 3. Utilisez **Get-Command - Module** <> de*nom à partir du haut*pour identifier toutes les applets de commande disponibles
 
-### <a name="related-topics"></a>Rubriques connexes
+### <a name="related-topics"></a>Voir aussi
 
 - [Vue d’ensemble d’équipes Microsoft PowerShell](teams-powershell-overview.md)
 - [Les équipes Microsoft PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)

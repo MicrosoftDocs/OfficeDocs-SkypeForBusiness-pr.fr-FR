@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 84489328-64a4-486c-9384-a3e5c8ed9c8b
 description: 'Résumé : Passez en revue le considérations relatives à équilibrage avant d’implémenter Skype pour Business Server.'
 ms.openlocfilehash: a7e8e70088c83276c36334c5d9a1e3be1538ca38
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897889"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206486"
 ---
 # <a name="load-balancing-requirements-for-skype-for-business"></a>Configuration requise pour l’équilibrage de charge pour Skype Entreprise
  

@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 02ce922d-9ca8-4513-b09f-9de51f5c5bdc
 description: 'Résumé : Découvrez comment exporter ou importer un fichier de configuration de routage voix dans Skype pour Business Server à l’aide de la Skype pour le panneau de configuration serveur Business.'
 ms.openlocfilehash: 8f0d8f4e221cbe23ac37c4126a9d26aac46e6d53
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874842"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222471"
 ---
 # <a name="export-or-import-a-voice-route-configuration-file-in-skype-for-business"></a>Exporter ou importer un fichier de configuration d’itinéraire de voix dans Skype pour les entreprises
  

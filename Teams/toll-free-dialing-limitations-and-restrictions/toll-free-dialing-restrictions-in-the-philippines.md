@@ -24,11 +24,11 @@ ms.custom:
 - Calling Plans
 description: Cela vous permettra de savoir comment composer des numéros gratuits dans chaque pays/région. Une fois que vous sélectionnez la pays/région, il vous dirige vers une page spécifique qui contient des détails plus spécifiques, les restrictions et les limites de la disponibilité du service gratuit où service gratuit est disponible. Le format de numérotation ou formats affichera les codes d’accès requis dans chaque pays/région de composer le numéro d’appel gratuit.
 ms.openlocfilehash: afd9a3b3ba7fc82d8da34cc8cd2b1f1519b47572
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569039"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204190"
 ---
 # <a name="toll-free-dialing-restrictions-in-philippines"></a>Restrictions de numérotation gratuit aux Philippines
 
@@ -46,7 +46,7 @@ ms.locfileid: "30569039"
 |Disponibilité de réseau mobile  <br/> |Partiel mais à tarif surtaxé. Voir les commentaires.  <br/> |
 |Commentaires, les restrictions et les problèmes d’accès  <br/> |Disponible via les réseaux Sun Cellular et Smart Mobile.  <br/> |
    
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 

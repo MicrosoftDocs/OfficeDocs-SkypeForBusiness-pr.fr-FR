@@ -14,11 +14,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Découvrez comment configurer la prise en charge pour les utilisateurs de SIP des fournisseurs fédérés.
 ms.openlocfilehash: 1259ae9d2dfd7d829caaa6dba714f0876b5500c4
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899672"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197834"
 ---
 # <a name="manage-sip-federated-providers-for-your-organization-in-skype-for-business-server"></a>Gérer les fournisseurs fédérés SIP de votre organisation dans Skype pour Business Server
 

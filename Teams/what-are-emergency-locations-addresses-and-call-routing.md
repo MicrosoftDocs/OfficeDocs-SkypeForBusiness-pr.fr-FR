@@ -23,11 +23,11 @@ ms.custom:
 - Calling Plans
 description: 'Learn what emergency address, location, and emergency call routing are, and how to plan and assign them to your users. '
 ms.openlocfilehash: 4e9fd0d3fa9fabc1f9b2176a4dc2b7ac59206352
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541983"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32211707"
 ---
 # <a name="what-are-emergency-locations-addresses-and-call-routing"></a>Quels sont les emplacements d’urgence, les adresses et le routage des appels ?
 
@@ -71,7 +71,7 @@ Emplacements et les adresses d’urgence sont utilisés au cours du processus de
 ## <a name="related-topics"></a>Rubriques connexes
 [Qu’est-ce que la validation d’adresse ?](/SkypeForBusiness/what-are-calling-plans-in-office-365/what-is-address-validation)
 
-[Différents types de numéros de téléphone utilisés pour les forfaits d'appels](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Différents types de numéros de téléphone utilisés pour les appels d’offre](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
 [Conditions générales relatives aux appels d'urgence](emergency-calling-terms-and-conditions.md)
 

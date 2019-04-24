@@ -16,11 +16,11 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 55ed1396cd9c16b96e7d230429ccf25c1802473e
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460403"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204635"
 ---
 # <a name="setting-your-coexistence-and-upgrade-settings"></a>Configuration de vos paramètres de coexistence et de mise à niveau
 
@@ -67,7 +67,7 @@ Vous pouvez obtenir une meilleure compréhension des types de modes sont à votr
 4. Si vous sélectionnez un **mode de Coexistence** autres que les **paramètres d’utilisation à l’échelle de l’organisation**, vous avez la possibilité d’activer les notifications de Skype l’utilisateur pour l’application de gestion de mise à niveau pour les équipes est bientôt disponible. Vous pouvez activer cette notification de l’utilisateur à activer l’option **notifier le Skype pour l’utilisateur d’entreprise** .
 5. Une fois que vous apportez vos modifications, cliquez sur **Enregistrer** .
 
-### <a name="related-topics"></a>Rubriques connexes
+### <a name="related-topics"></a>Voir aussi
 [Planifier le voyage](upgrade-plan-journey.md)
 
 [Comprendre la coexistence et la mise à niveau de voyage pour Skype pour professionnels et les équipes](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)

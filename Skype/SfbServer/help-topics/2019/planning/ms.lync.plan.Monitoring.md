@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 9bbe86d0-b51a-4787-9029-d59e73c7906a
 description: Dans Skype pour Business Server, de surveillance est utilisée pour collecter des informations sur l’utilisation et les données de qualité de l’expérience (QoE) sur les sessions de communication nécessaires à vos utilisateurs.
 ms.openlocfilehash: 902a9b5a4c9f4ffacb79ce80328b634362563afa
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880171"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202344"
 ---
 # <a name="monitoring-planning-tool"></a>Monitoring (Planning Tool)
 

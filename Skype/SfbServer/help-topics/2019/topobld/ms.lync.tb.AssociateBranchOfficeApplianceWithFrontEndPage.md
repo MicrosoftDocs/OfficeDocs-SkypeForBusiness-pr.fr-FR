@@ -14,11 +14,11 @@ ms.assetid: 607709a0-1617-44f3-bf68-fec1129250a4
 ROBOTS: NOINDEX, NOFOLLOW
 description: Pour associer le Survivable Branch Appliance ou serveur Survivable Branch Server avec un pool frontal ou un serveur Standard Edition, sur la page Sélectionner le Front End pool, sélectionnez le pool frontal ou un serveur Standard Edition server dans la liste déroulante du pool frontal. Cliquez sur Suivant pour continuer.
 ms.openlocfilehash: 5008aca5f6779e78fd981b96ad18927ae5b177a1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886352"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201940"
 ---
 # <a name="associate-branch-office-appliance-with-front-end"></a>Associer un Branch Office Appliance à un serveur frontal
  

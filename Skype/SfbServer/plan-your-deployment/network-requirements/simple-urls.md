@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 3a3c9b22-892f-45a7-b05c-539d358a1a86
 description: 'Résumé : Passez en revue les considérations d’URL Simple dans cette rubrique avant d’implémenter les enregistrements DNS pour Skype pour Business Server.'
 ms.openlocfilehash: 1fffb1303381797a800a235d3965fe387e4d8eb2
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878549"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213801"
 ---
 # <a name="dns-requirements-for-simple-urls-in-skype-for-business-server"></a>Enregistrements DNS requis pour les URL simples dans Skype pour Business Server
 

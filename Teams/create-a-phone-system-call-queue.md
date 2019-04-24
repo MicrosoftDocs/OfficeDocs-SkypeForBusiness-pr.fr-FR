@@ -22,13 +22,13 @@ ms.custom:
 - Phone System
 description: Découvrez comment configurer le système téléphonique de files d’attente des appels dans le nuage pour vous donner une organisation message d’accueil, une musique d’attente et rediriger les appels pour appeler les agents dans des listes de distribution et les groupes de sécurité. Vous pouvez également définir la taille maximale de file d’attente, délai d’expiration et options de gestion des appels.
 ms.openlocfilehash: da178761658460812bc1d0330f3540be43c3e6e6
-ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/18/2019
-ms.locfileid: "31914643"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199278"
 ---
-# <a name="create-a-cloud-call-queue"></a>Créer une file d’attente des appels dans le nuage
+# <a name="create-a-cloud-call-queue"></a>Créer une file d’attente d’appels cloud
 
 Le message d’accueil qui est utilisés lorsqu’une personne appelle un numéro de téléphone pour votre organisation, la possibilité de mettre automatiquement les appels en attente et la capacité de recherche pour l’agent disponible appel suivant gérer l’appel pendant les personnes qui sont des appels sont les files d’attente des appels dans le nuage écoute musicale. Vous pouvez créer une seule ligne ou plusieurs files d’attente d’appel pour votre organisation.
   
@@ -317,7 +317,7 @@ Voici les applets de commande dont vous avez besoin pour gérer une file d’att
 
   - [Configurer votre ordinateur pour Windows PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Voici les avantages du système téléphonique dans Office 365](here-s-what-you-get-with-phone-system.md)
 

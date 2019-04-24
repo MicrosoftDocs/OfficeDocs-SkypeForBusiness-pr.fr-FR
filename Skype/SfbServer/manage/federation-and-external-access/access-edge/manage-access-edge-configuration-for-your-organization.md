@@ -14,11 +14,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Après avoir déployé un ou plusieurs serveurs de périphérie, vous devez activer les types de domaine externe ou fournisseur l’accès, l’accès des utilisateurs distants et l’accès des utilisateurs anonymes aux conférences via les serveurs de périphérie qui sera prise en charge pour votre organisation.
 ms.openlocfilehash: 8428815a0f3d89124d1b5e681b79924171916f6d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896916"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199919"
 ---
 # <a name="manage-access-edge-configuration-for-your-organization"></a>Gestion de la configuration du serveur Edge d’accès pour votre organisation
 

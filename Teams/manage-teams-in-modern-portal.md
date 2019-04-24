@@ -17,17 +17,16 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5ba19fac66ef4e12e2734948a6695894b52dd3b
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: 2d2903e65e4ef4876f41d367ce961530020e775c
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494036"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202736"
 ---
 <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Gérer les équipes dans le centre d’administration Microsoft Teams
 ==========================================
 
-[!INCLUDE [new-feature-availability](includes/new-feature-availability.md)]
 
 ## <a name="overview"></a>Vue d’ensemble
 
@@ -36,7 +35,7 @@ En tant qu’un administrateur informatique, vous devrez peut-être afficher ou 
 - Administrateur global
 - Administrateur du service Teams
 
-Vous devez également vous assurer que votre compte a été attribué une licence d’équipes non-version d’évaluation pour la gestion. Dans le cadre d’un problème connu, vous devez vous assurer que votre compte qu' **un** administrateur rôle a été attribué.  Vous en apprendrez plus sur les rôles d’administrateur dans Microsoft Teams dans [utiliser des équipes Microsoft des rôles d’administration pour gérer des équipes](using-admin-roles.md), et vous pouvez en savoir plus sur la façon d’utiliser les applets de commande PowerShell pour la gestion des équipes dans la [référence d’applet de commande équipes Microsoft](https://docs.microsoft.com/powershell/teams/?view=teams-ps).  
+Vous en apprendrez plus sur les rôles d’administrateur dans les équipes dans [utiliser des équipes Microsoft des rôles d’administration pour gérer des équipes](using-admin-roles.md), et vous pouvez en savoir plus sur la façon d’utiliser les applets de commande PowerShell pour la gestion des équipes dans la [référence d’applet de commande équipes Microsoft](https://docs.microsoft.com/powershell/teams/?view=teams-ps).  
 
 Cet article fournit une vue d’ensemble des outils de gestion des équipes dans le centre d’administration Microsoft Teams.
 
@@ -44,19 +43,20 @@ Cet article fournit une vue d’ensemble des outils de gestion des équipes dans
 
 Outils de gestion pour les équipes sont sous le nœud **d’équipes** dans le centre d’administration Microsoft Teams. (Dans le centre d’administration, sélectionnez **les équipes** > **Gérer les équipes**.) Chaque équipe bénéficie d’un groupe d’Office 365, et ce nœud fournit une vue des groupes qui ont été Microsoft équipes activées dans votre organisation.
 
-> [!NOTE]
-> Est en cours de renvoi créé précédemment équipes pour vous assurer qu’ils s’affichent dans cette vue.
-
 ![Vue d’ensemble des équipes](media/manage-teams-in-modern-portal-image1.png)  
 
 La grille affiche les propriétés suivantes :
 
-- **Nom de l'équipe**
+- **Nom de l’équipe**
 - **Canaux** - un décompte de tous les canaux de l’équipe, y compris le canal général par défaut.
 - **Utilisateurs** : nombre d’utilisateurs au total, y compris les propriétaires, les invités et membres de votre client.
 - **Propriétaires** - nombre de propriétaires pour cette association.
 - **Les invités** - un décompte d’Azure Active Directory B2B invité utilisateurs sont membres de cette association.
-- **Confidentialité** - le AccessType du groupe sauvegarde Office 365.
+- **Confidentialité** - la visibilité/AccessType du groupe sauvegarde Office 365.
+- **État** - l’archivé ou un statut actif pour cette association.  Pour plus d’informations sur l’archivage des équipes dans l' [Archive ou la restauration d’une équipe](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7).
+- **GroupID** - GroupID unique du groupe de stockage Office 365
+- **Classification** - la classification (si utilisé dans votre organisation) affectée au groupe de sauvegarde Office 365.  Pour plus d’informations sur les classifications à [créer des classifications pour les groupes d’Office dans votre organisation](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-groups-with-powershell#create-classifications-for-office-groups-in-your-organization).
+- **Description** : la description pour le groupe de stockage Office 365
 
 ### <a name="search"></a>Rechercher
 
@@ -83,11 +83,16 @@ Vous pouvez naviguer vers la page de profil de l’équipe de toute l’équipe 
 Vous pouvez modifier les éléments d’une équipe suivants :
 - **Les utilisateurs de l’équipe** : vous pouvez ajouter ou supprimer des membres et promouvoir ou rétrograder des propriétaires de
 - **Canaux** - vous pouvez ajouter de nouvelles voies ou supprimer des canaux existants.  Vous ne pouvez pas supprimer le canal « General » par défaut, une fois créée, vous ne pouvez modifier que le nom de canal, pas de description.
-- **Nom de l'équipe**
+- **Nom de l’équipe**
 - **Description de l’équipe**
 - **Confidentialité de l’équipe** - public ou privé
 - **Classement de l’équipe** - soutenues par vos classifications de groupe Office 365
 - **Paramètres du membre d’équipe** - paramètres du membre d’équipe select
+
+## <a name="other-supported-changes-to-teams"></a>Autres modifications aux équipes pris en charge
+
+- **Supprimer** : suppression d’une équipe est une suppression logicielle de l’équipe et le groupe d’Office 365 correspondant.  Pour restaurer une équipe supprimé par inadvertance, suivez les instructions à [restaurer un groupe de 365 Office supprimé](https://docs.microsoft.com/office365/admin/create-groups/restore-deleted-group?view=o365-worldwide).
+- **Archive** : l’archivage d’une équipe place l’équipe en mode lecture seule dans Microsoft Teams.  En tant qu’administrateur, vous pouvez archiver et réactivation équipes d'archivée au nom de votre organisation via le portail d’administration.
 
 
 Les modifications que vous apportez à une équipe sont consignées. Si vous modifiez les paramètres de groupe (modifier le nom, description, photo, confidentialité, classement ou membres de l’équipe), ces modifications à attribuer à votre via le pipeline d’audit. Si vous effectuez des actions sur les paramètres spécifiques d’équipes, vos modifications seront suivies et attribuer aux vous dans le canal généraux de l’équipe.
@@ -102,7 +107,7 @@ Lorsque vous entrez le centre d’administration Microsoft Teams, sous l’optio
 
 **Solution : Définissez manuellement la propriété à la valeur correcte via MS Graph**
 
-Remplacez **{groupid}** dans la requête de GroupId réel en question, que vous pouvez obtenir via le Exchange Online powershell, l’applet de commande **«[Get-UnifiedGroup](https://docs.microsoft.com/en-us/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps)»** , en tant que l’attribut «**ExternalDirectoryObjectId**».
+Remplacez **{groupid}** dans la requête de GroupId réel en question, que vous pouvez obtenir via le Exchange Online powershell, l’applet de commande **«[Get-UnifiedGroup](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps)»** , en tant que l’attribut «**ExternalDirectoryObjectId**».
 
 1. Accès [graphique Explorer](https://developer.microsoft.com/en-us/graph/graph-explorer)
 

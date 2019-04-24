@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 4f93b974-b460-45c7-a4a8-6f38e34840f5
 description: Planification de vos topologies de jonction SIP pour un déploiement E9-1-1 qui utilise les fournisseurs d’acheminement SIP dans Skype pour Business Server Enterprise Voice.
 ms.openlocfilehash: 25d961c00eb701dce6386ce2a901c1fbe5cf3cde
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893639"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206963"
 ---
 # <a name="design-the-sip-trunk-for-e9-1-1-in-skype-for-business-server"></a>Conception de la jonction SIP pour E9-1-1 dans Skype pour Business Server
  

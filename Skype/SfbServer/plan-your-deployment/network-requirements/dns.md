@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: c50e38d2-b1e4-4ebd-8dc3-85d4ae7a76ee
 description: 'Résumé : Passez en revue les considérations relatives au DNS dans cette rubrique avant d’implémenter Skype pour Business Server.'
 ms.openlocfilehash: c54f2b8509d0849ee8949dfb4c0275450e533d3f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891986"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206500"
 ---
 # <a name="dns-requirements-for-skype-for-business-server"></a>Enregistrements DNS requis pour Skype pour Business Server
 

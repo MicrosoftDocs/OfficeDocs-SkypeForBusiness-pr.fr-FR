@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 description: Fournit aux professionnels de l’informatique des informations sur les dernières mises à jour des versions perpétuelles de Skype Entreprise 2016 pour les clients Entreprise 2015 et Lync 2013
 ms.openlocfilehash: 8b82923625b8ce686a5898a3d271734aeb8e4ab0
-ms.sourcegitcommit: 4175b376cb8b406dcb3c338dcddf9f01c15eca5e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2019
-ms.locfileid: "31398371"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32211974"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>Dernières versions de Skype Entreprise qui utilisent Windows Installer (MSI)
 
@@ -308,6 +308,6 @@ Nom du package|Numéro d’article de la base de connaissances|Date de publicati
 | [Évaluation de Lync 2010 (32 bits)](https://www.microsoft.com/en-us/download/details.aspx?id=5484)  | Novembre 2010 |
 | [Évaluation de Lync 2010 (64 bits)](https://www.microsoft.com/en-us/download/details.aspx?id=10400) | Novembre 2010 |
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 - [Mises à jour de Skype Entreprise Server](sfb-server-updates.md)

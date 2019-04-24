@@ -20,11 +20,11 @@ ms.custom:
 - LIL_Placement
 description: En savoir plus sur les licences de module complémentaire, les fonctionnalités que vous obtenez avec chaque licence, comment acheter les pour votre produit et comment utiliser votre opérateur existante avec eux. Vous pouvez obtenir des informations sur les tarifs et le plan de détails pour Office 365, crédits de Communication, et les plans d’appel.
 ms.openlocfilehash: 497881fc073297df36f0b26280e51694c69babcf
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013065"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204561"
 ---
 # <a name="microsoft-teams-add-on-licensing"></a>Licences de module complémentaire Microsoft Teams
 
@@ -55,7 +55,7 @@ Selon le plan déjà avoir, vous pouvez acheter des licences supplémentaires po
 |**Numéros gratuits pour un accès rendez-vous à vos conférences et possibilité d'accès global aux appels sortants à partir d'une conférence pour ajouter une personne en appelant n'importe quel numéro** <br/> |Si vous ajoutez la fonction d’audioconférence, nous vous recommandons de [Configurer les crédits de communication](../set-up-communications-credits-for-your-organization.md). <br/> |
 |**Système téléphonique** <br/> |Un PBX est un système téléphonique dédié aux entreprises. Système téléphonique dans Office 365 est un service hébergé. Il vous offre des fonctionnalités innovantes de façon simple et économique. [Voici ce que vous obtenez avec un système téléphonique dans Office 365](../here-s-what-you-get-with-phone-system.md).  <br/> Si vous recherchez des procédure bien il les coûts, voir [Système téléphonique](https://products.office.com/microsoft-teams/voice-calling).  <br/> |
 |**Forfaits d’appel** <br/> |Les appels à d’autres utilisateurs d’équipes sont gratuites, mais si vous souhaitez que vos utilisateurs puissent appeler les numéros de téléphone à l’extérieur de votre entreprise, obtient un [Appel de planification](../calling-plans-for-office-365.md). Il existe des forfaits d'appels nationaux et des forfaits d'appels nationaux et internationaux dans Office 365.  <br/> Si vous recherchez façon bien il les coûts, voir [Planifier l’appel de tarification](https://products.office.com/en-us/microsoft-teams/voice-calling).  <br/> |
-|**Les équipes Microsoft salles** <br/> |Ce n'est pas un module complémentaire mais une fonctionnalité qui apporte de la vidéo, de l'audio et du partage de contenu aux salles de conférence. Voir [les équipes Microsoft salles](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2).  <br/> |
+|**Salles Microsoft Teams** <br/> |Ce n'est pas un module complémentaire mais une fonctionnalité qui apporte de la vidéo, de l'audio et du partage de contenu aux salles de conférence. Voir [les équipes Microsoft salles](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2).  <br/> |
 
 Vous souhaitez contacter quelqu'un à propos des options de tous les modules complémentaires ? [Contacter le support Office 365 pour les entreprises - Aide de l'administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
@@ -68,7 +68,7 @@ Les options de licence de module complémentaire à votre disposition dépend de
 - [Office 365 entreprise E1 ou E3](office-365-enterprise-e1-e3.md)
 - [Office 365 Entreprise E5](office-365-enterprise-e5-with-audio-conferencing.md)
 - [Office 365 Entreprise E5 sans Audioconférence](office-365-enterprise-e5-without-audio-conferencing.md)
-- [Les équipes Microsoft salles](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
+- [Salles Microsoft Teams](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
 - [GOV, l’éducation et les organisations à but non lucratif](gov-edu-and-nonprofit-organizations.md)
 
 ## <a name="how-to-see-prices-and-buy-add-on-licenses"></a>Comment connaître les prix et acheter des licences de complément ?
@@ -91,7 +91,7 @@ Pour une documentation complète sur la planification de votre déploiement, not
 <!---
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
 --->
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 - [Configurer des associations](../microsoft-teams.md)
     

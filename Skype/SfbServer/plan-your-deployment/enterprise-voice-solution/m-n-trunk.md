@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: dc4c5d66-297c-48a5-91b9-b9b8ce44a6e0
 description: 'Skype pour Business Server Enterprise Voice prend en charge l’acheminement de m : n entre le serveur de médiation et des composants tels que les passerelles PSTN, les contrôleurs de frontière de session et IP-PBX.'
 ms.openlocfilehash: d37233be20d8cf1a14faa3ca3abe1377127d0803
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892237"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206739"
 ---
 # <a name="mn-trunk-in-skype-for-business-server"></a>Jonction m : n dans Skype pour Business Server
  

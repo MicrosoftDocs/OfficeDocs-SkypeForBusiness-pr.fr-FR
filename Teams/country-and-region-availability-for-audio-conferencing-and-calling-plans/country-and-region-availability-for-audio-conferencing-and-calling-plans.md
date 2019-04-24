@@ -1,6 +1,6 @@
 ---
-title: Disponibilité des forfaits d’appels et de l’audioconférence selon les régions et les pays
-ms.date: 05/23/2018
+title: Disponibilité des forfaits d'appels et de l’audioconférence selon les régions et les pays
+ms.date: 03/18/2019
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -25,14 +25,14 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Vous pouvez sélectionner une pays/région pour voir si la conférence Audio, système, l’appel des Plans, Communications crédits, de téléphone ou non payant et gratuit numéros de téléphone disponibles ou non.
-ms.openlocfilehash: 817b74a0dd98ccb2d580fc71b5efa0a75f3484bc
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 6fd448d3ab2efd8f5337e0f5a080bee9fd644bf0
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569733"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200266"
 ---
-# <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Disponibilité des forfaits d’appels et de l’audioconférence selon les régions et les pays
+# <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Disponibilité des forfaits d'appels et de l’audioconférence selon les régions et les pays
 
 Vous pouvez sélectionner votre pays ou région pour afficher les fonctionnalités vocales de nuage sont disponibles pour votre organisation.
 ***
@@ -139,7 +139,7 @@ Une fois que vous vérifiez si un de la Skype pour les services Microsoft Teams 
 
 ## <a name="want-to-learn-more-about-these-services"></a>Vous souhaitez en savoir plus sur ces services ?
 
-### <a name="audio-conferencing"></a>Audioconférence
+### <a name="audio-conferencing"></a>Audioconférence,
 
 Parfois les personnes dans votre organisation vous devrez utiliser un téléphone pour appeler une réunion. Skype pour les entreprises et Microsoft Teams inclure la fonctionnalité de conférence Audio uniquement cette situation ! Personnes peuvent appeler réunions à l’aide d’un téléphone au lieu d’utiliser le Skype pour les applications métiers et Microsoft Teams sur un appareil mobile ou un PC. Une fois que vous avez décidé de conférence Audio pour votre organisation, vous devez acheter une licence de **Services d’audioconférence** pour chaque personne de votre organisation qui est sur le point d’une réunion audio de planification/hôte.
   
@@ -163,7 +163,7 @@ Connexion à partir d’une réunion à un autre pays/région dans le monde n’
 ### <a name="phone-system"></a>Système téléphonique
 Avec un système téléphonique, vous pouvez créer des standards automatiques et les files d’attente de l’appel (avec un numéro ou un numéro gratuit) pour répondre aux appels entrants pour votre organisation, et lorsque vous ajoutez un appel de Plan pour les utilisateurs, ils peuvent utiliser Skype pour les entreprises pour prendre en charge des tâches de base de contrôle d’appel , telles que l’émission et réception d’appels, le transfert d’appels et les deux États appelle. Les utilisateurs du **Système téléphonique** sur un nom dans leur carnet d’adresses et Skype pour les entreprises place un appel à cette personne. Pour émettre et recevoir des appels, les utilisateurs de **Système téléphonique** peuvent utiliser leurs appareils mobiles, un casque avec un ordinateur portable ou PC ou un des nombreux téléphones IP qui fonctionnent avec Skype pour les entreprises.
 
-Outre l’obtention de numéros de téléphone pour les utilisateurs individuels à partir d’Office 365, il est également possible de rechercher et d’acquérir payant ou des numéros de téléphone des services tels que la conférence Audio (pour les ponts de conférence), les standards automatiques et les files d’attente de l’appel. Il s’agit de numéros de service. Voir les [numéros de téléphone de mise en service](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers) pour obtenir les numéros de téléphone. Mais pour vos utilisateurs, une fois que vous leur attribuez un Plan d’appel, vous pouvez affecter un numéro de téléphone utilisateur afin de pouvoir émettre et recevoir des appels téléphoniques. Pour trouver ces numéros de téléphone, accédez à [l’obtention des numéros de téléphone pour vos utilisateurs](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users). Vous pouvez également voir [affecter, modifier ou supprimer un numéro de téléphone d’un utilisateur](/SkypeForBusiness/what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user). 
+> La disponibilité des numéros de téléphone payant de certains de ces emplacements peut varier à tout moment en fonction des niveaux de stock. Outre l’obtention de numéros de téléphone pour les utilisateurs individuels à partir d’Office 365, il est également possible de rechercher et d’acquérir payant ou des numéros de téléphone des services tels que la conférence Audio (pour les ponts de conférence), les standards automatiques et les files d’attente de l’appel. Il s’agit de numéros de service. Voir les [numéros de téléphone de mise en service](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers) pour obtenir les numéros de téléphone. Mais pour vos utilisateurs, une fois que vous leur attribuez un Plan d’appel, vous pouvez affecter un numéro de téléphone utilisateur afin de pouvoir émettre et recevoir des appels téléphoniques. Pour trouver ces numéros de téléphone, accédez à [l’obtention des numéros de téléphone pour vos utilisateurs](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users). Vous pouvez également voir [affecter, modifier ou supprimer un numéro de téléphone d’un utilisateur](/SkypeForBusiness/what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user). 
 
 [Tarification de système téléphonique](https://products.office.com/skype-for-business/phone-system#Requirements)
 
@@ -173,7 +173,7 @@ Outre l’obtention de numéros de téléphone pour les utilisateurs individuels
 Utilisez la liste déroulante en haut de la page pour rechercher votre pays ou région et quels services sont disponibles.
 
 ### <a name="calling-plans"></a>Offres d'appels
-Avec un système téléphonique, un appel des Plans de laisser les utilisateurs émettre et recevoir des appels téléphoniques. Vous devez d’abord obtenir un utilisateur (abonné) numéro de téléphone (pas un numéro de service) à attribuer à l’utilisateur, puis assigner un Plan d’appel. Il existe deux types de Plans de l’appel : **nationales** et **nationales et internationales**. Voir [Quels sont les Plans de l’appelant ?](../what-are-calling-plans-in-office-365.md) pour plus d’informations.
+Avec un système téléphonique, un appel des Plans de laisser les utilisateurs émettre et recevoir des appels téléphoniques. Vous devez d’abord obtenir un utilisateur (abonné) numéro de téléphone (pas un numéro de service) à attribuer à l’utilisateur, puis assigner un Plan d’appel. Il existe deux types de Plans de l’appel : **nationales** et **nationales et internationales**. Pour plus d’informations, consultez la rubrique [système téléphonique et Plans de l’appel](../calling-plan-landing-page.md) .
 
 Vous pouvez également consulter le [système téléphonique et appel des Plans de gestion des licences](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) pour les informations de licence.
 
