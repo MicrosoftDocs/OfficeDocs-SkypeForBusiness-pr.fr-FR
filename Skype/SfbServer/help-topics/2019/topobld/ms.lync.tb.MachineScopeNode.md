@@ -14,11 +14,11 @@ ms.assetid: 337f5424-5bb4-45ef-83ca-117ada93498c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Ce nœud affiche le nom de domaine complet (FQDN) du serveur et la configuration de l’adresse IP de ce serveur. Vous pouvez effectuer les actions suivantes :'
 ms.openlocfilehash: bb17be142976a98374639af84f498955aef77379
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888408"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201785"
 ---
 # <a name="machine-scope-node"></a>Nœud d’étendue d’ordinateur
  

@@ -15,11 +15,11 @@ ms.assetid: ec111e2e-15dd-4b9b-ba9c-6125139319a1
 ROBOTS: NOINDEX, NOFOLLOW
 description: Serveur de conversation permanente permet aux utilisateurs de participer à des conversations à plusieurs, par sujet qui sont conservées au fil du temps.
 ms.openlocfilehash: 197c5ddc8c5729dabc89c2b2ea08aef22984e014
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895446"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202372"
 ---
 # <a name="persistent-chat-planning-tool"></a>Persistent Chat (Planning Tool)
 

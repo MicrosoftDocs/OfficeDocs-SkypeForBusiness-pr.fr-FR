@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Legal
 description: Les clients peuvent utiliser le Forfait d’appels Office 365 et l’Audioconférence Office 365, comme le permettent les conditions d’utilisation des services RTC de Skype Entreprise Online et le contrat de licence en volume du client.
-ms.openlocfilehash: 4255df94166416a7743a1d9715b465164cdaf627
-ms.sourcegitcommit: 2731231f7e1cb518ce34c81bd00e619c3a1972e3
+ms.openlocfilehash: 2e71c5bc4172ea73f361f97a6c7796b9ab28f310
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "31875020"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198362"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>Période complémentaire pour la numérotation de l'audioconférence
 
@@ -41,7 +41,7 @@ La fonctionnalité d’appel sortant gratuite début 1 décembre 2019, se termin
 
 ### <a name="complimentary-dial-out-period-details"></a>Appel gratuit détail de la période
 
-Pour les clients de l’adoption de notre service de conférence Audio Office 365, Microsoft offre un avantage gratuit supplémentaire relatives aux appels sortants à partir des réunions organisées par les utilisateurs attribués une licence d’abonnement Office 365 audioconférence via 2019 juin. Pendant cette période gratuite, Microsoft permet d’organisateurs de réunion ou de participants autorisés comme défini dans les paramètres de stratégie pour effectuer des appels appel sortant à partir de la réunion aux numéros de téléphone non premium 44 pays « Zone A » ci-dessous. Cet avantage est applicable aux licences d’abonnement mensuels audioconférence et ne porte pas sur les licences de salaire par minute de conférence Audio.
+Pour les clients de l’adoption de notre service de conférence Audio Office 365, Microsoft fournit un avantage gratuit supplémentaire relatives aux appels sortants à partir des réunions organisées par les utilisateurs attribués une licence d’abonnement Office 365 audioconférence par le biais de novembre 2019. Pendant cette période gratuite, Microsoft permet d’organisateurs de réunion ou de participants autorisés comme défini dans les paramètres de stratégie pour effectuer des appels appel sortant à partir de la réunion aux numéros de téléphone non premium 44 pays « Zone A » ci-dessous. Cet avantage est applicable aux licences d’abonnement mensuels audioconférence et ne porte pas sur les licences de salaire par minute de conférence Audio.
 
 En outre, une limite de 900 délimiter minute est pendant la période en tant que telles un appel gratuit :
 

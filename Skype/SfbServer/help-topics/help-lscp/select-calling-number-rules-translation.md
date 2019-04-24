@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: b9009c02-6628-4038-bc80-650c7a2b8741
 description: 'La boîte de dialogue Sélectionner les règles de traduction du numéro d’appel affiche les règles de conversion configurées pour votre déploiement. Pour plus d’informations sur les règles de traduction, reportez-vous aux rubriques suivantes :'
 ms.openlocfilehash: 4a9ac4b6c48f6d4faf30b9527c2e536fb0532caf
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879888"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200547"
 ---
 # <a name="select-calling-number-rules-translation"></a>Sélection des règles de conversion des numéros d’appel
 

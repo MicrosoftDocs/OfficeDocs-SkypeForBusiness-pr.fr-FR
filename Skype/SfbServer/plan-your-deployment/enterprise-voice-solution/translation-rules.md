@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 6e067bd4-4931-4385-81ac-2acae45a16d8
 description: En savoir plus sur les règles de traduction et de numérotation de normalisation de chaînes dans Skype pour Business Server Enterprise Voice.
 ms.openlocfilehash: 5b609701779a80645061036fd04e4a46427261b3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893632"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206458"
 ---
 # <a name="translation-rules-in-skype-for-business-server"></a>Règles de traduction dans Skype pour Business Server
 

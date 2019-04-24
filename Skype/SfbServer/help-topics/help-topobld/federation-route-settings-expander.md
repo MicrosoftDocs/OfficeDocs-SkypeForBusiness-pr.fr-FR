@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 22aa11b8-80ba-4c6a-9396-d11166903066
 description: Pour définir une attribution itinéraire fédération du site, vous devez au préalable avoir fédération activée sur le serveur Edge ou le pool de serveurs Edge. Si la fédération n’est pas activée sur le serveur Edge ou le pool, les paramètres d’affectation fédération itinéraire pour le site ne sera pas disponibles pour la modification.
 ms.openlocfilehash: f166f74a1d49af168a8ce2a9a193bb9cc49da753
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899630"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32194027"
 ---
 # <a name="federation-route-settings-expander"></a>Développeur des paramètres d’itinéraire de fédération
  

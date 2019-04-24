@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
 description: Lisez cette rubrique pour plus d’informations sur la façon de déployer des salles d’équipes Microsoft avec Skype pour Business Server.
 ms.openlocfilehash: e5ba372a5990f7c63827f1f8b0426e67ae48b620
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012475"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207873"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-skype-for-business-server"></a>Déployer les équipes Microsoft salles avec Skype pour Business Server
   
@@ -126,4 +126,4 @@ Grant-CsDialPlan -PolicyName e15dp2.contoso.com -Identity rigel1
   
 [Configurer une console Microsoft équipes salles](console.md)
   
-[Gérer les équipes Microsoft salles](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Gérer Microsoft Teams Rooms](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)

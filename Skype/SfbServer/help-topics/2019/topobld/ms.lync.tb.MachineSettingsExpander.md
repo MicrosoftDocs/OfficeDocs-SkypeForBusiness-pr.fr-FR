@@ -14,11 +14,11 @@ ms.assetid: bef91d55-a75c-495f-a523-4930797192f6
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Ce nœud affiche le nom de domaine complet (FQDN) du serveur et la configuration de l’adresse IP de ce serveur. Vous pouvez effectuer les actions suivantes :'
 ms.openlocfilehash: 3e2e2723dc27fbacbb1376290d0622dd3237060b
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893496"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235440"
 ---
 # <a name="server-settings-expander"></a>Expanseur des paramètres du serveur
  

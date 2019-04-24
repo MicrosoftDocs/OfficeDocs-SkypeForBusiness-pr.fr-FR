@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 2abee804-2599-48bb-90b2-15df0bae5e20
 description: Planification de l’application d’annonce dans Skype pour Business Server Enterprise Voice, qui configure comment traiter les appels téléphoniques aux numéros de téléphone non attribués dans votre organisation. Cela inclut les conditions requises pour les fichiers audio.
 ms.openlocfilehash: 5e3b9af1a6bdc83081a1a8f17cd4963337efbbb6
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896559"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207103"
 ---
 # <a name="plan-for-the-announcement-application-in-skype-for-business"></a>Planification de l’application d’annonce dans Skype pour les entreprises
 

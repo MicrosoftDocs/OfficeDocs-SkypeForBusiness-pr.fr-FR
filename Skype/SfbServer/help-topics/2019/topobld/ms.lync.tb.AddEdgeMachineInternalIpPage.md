@@ -14,11 +14,11 @@ ms.assetid: 34717d03-5ece-4be3-9d05-25497250dc16
 ROBOTS: NOINDEX, NOFOLLOW
 description: Utilisez cette page pour spécifier l’adresse IP interne et le nom interne de domaine complet (FQDN) du serveur de périphérie.
 ms.openlocfilehash: 94a74fd434f1fe9ae62925ddc7ee76f1114f46fb
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30885654"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202179"
 ---
 # <a name="add-edge-machine-internal-ip"></a>Ajouter l’adresse IP interne de l’ordinateur Edge
 

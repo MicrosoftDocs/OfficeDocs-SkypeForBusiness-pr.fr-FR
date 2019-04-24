@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 91a63439-f2a4-47b3-8c4e-29c8f32ee3c5
 description: Utilisez la boîte de dialogue Sélectionner des utilisateurs Enterprise Voice pour rechercher des utilisateurs activés pour Enterprise Voice. Dans la zone Rechercher, tapez l’adresse SIP ou nom complet de l’utilisateur que vous souhaitez rechercher, puis cliquez sur Rechercher. Pour sélectionner un utilisateur, cliquez sur l’utilisateur dans la liste des résultats de recherche, puis cliquez sur OK. Si vous ne trouvez pas l’utilisateur que vous recherchez, que l’utilisateur ne peut pas être activé pour Enterprise Voice.
 ms.openlocfilehash: dbf045a792dd1fb7a27ff745f68b1f86f09f09a6
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890866"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200561"
 ---
 # <a name="select-enterprise-voice-users"></a>Sélectionner des utilisateurs Voix Entreprise
  

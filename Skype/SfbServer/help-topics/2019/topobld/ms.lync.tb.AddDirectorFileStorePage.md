@@ -14,11 +14,11 @@ ms.assetid: a15b69e0-d3d1-4648-af25-1c0f25e5da8e
 ROBOTS: NOINDEX, NOFOLLOW
 description: Vous devez spécifier un partage de fichiers à utiliser comme magasin de fichiers pour les directeurs. Vous pouvez utiliser un partage de fichiers existant pour le magasin de fichiers ou indiquer un nouveau partage de fichiers en spécifiant le nom de domaine complet (FQDN) du serveur de fichiers sur lequel le partage de fichiers doit se trouver et un nom de dossier pour le nouveau partage de fichiers.
 ms.openlocfilehash: a393d64bd353b1f0f93da9046900c3503611fef1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888877"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235497"
 ---
 # <a name="add-director-file-store"></a>Ajouter un magasin de fichiers pour les directeurs
 

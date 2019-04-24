@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: b1cd89fd-6968-4ace-a4aa-c4105231cf7b
 description: L’applet de commande Set-CcSiteDirectory définit le répertoire dans lequel les fichiers de configuration de niveau site pour la version Cloud Connector de Skype Entreprise sont conservés. Le dossier contient les fichiers de configuration de base de VHD et Cloud Connector.
 ms.openlocfilehash: 1c03d0f91b3a724df6ce61d216138bb281fb0b87
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30885581"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32251456"
 ---
 # <a name="set-ccsitedirectory"></a>Set-CcSiteDirectory
  

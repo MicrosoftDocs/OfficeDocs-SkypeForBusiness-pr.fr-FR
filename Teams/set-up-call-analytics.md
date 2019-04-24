@@ -1,5 +1,5 @@
 ---
-title: Configurer Analyse des appels
+title: Configurer l’analyse des appels
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -22,13 +22,13 @@ ms.custom:
 - Reporting
 description: Configurer et utiliser Analytique appeler pour identifier et résoudre les problèmes de Skype pour professionnels et Microsoft Teams problèmes de qualité d’appel.
 ms.openlocfilehash: ebd5ec0ea60a59e50c3ce7137f518d9a596074a5
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542326"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204815"
 ---
-# <a name="set-up-call-analytics"></a>Configurer Analyse des appels
+# <a name="set-up-call-analytics"></a>Configurer l’analyse des appels
 
 En une équipe ou Skype pour administrateur Business Online, vous pouvez utiliser Analytique appeler pour résoudre les problèmes de Skype pour les entreprises et des problèmes de connexion et de qualité des appels Microsoft Teams. Vous pouvez trouver utile de configurer les fonctionnalités suivantes dans l’appel d’Analytique :
   
@@ -89,10 +89,10 @@ Si vous êtes un équipes et Skype pour l’administration de l’entreprise, vo
   
 Si vous créez le fichier .tsv ou .csv à partir de zéro, voir [format et la structure de fichier de données de création de fichiers de données client](turning-on-and-using-call-quality-dashboard.md#BKMKTenantDataFile).
   
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 <a name="BKMK_UploadFiles"> </a>
 
-[Utiliser l’Analyse des appels pour résoudre les problèmes de qualité des appels](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+[Utiliser l’analyse des appels pour résoudre les problèmes de qualité des appels](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 [Tableau de bord Analyse des appels et Qualité des appels](difference-between-call-analytics-and-call-quality-dashboard.md)
 

@@ -14,11 +14,11 @@ ms.assetid: ebd2f120-b57a-4c94-9509-20e098f4b0f4
 ROBOTS: NOINDEX, NOFOLLOW
 description: Une stratégie de conférence définit les fonctionnalités et les fonctions à la disposition des utilisateurs lors d’une conférence (également appelée « réunion »).
 ms.openlocfilehash: d040a10b5e53ed438992b9dc614bd8d61cfaefd0
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879932"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215737"
 ---
 # <a name="conferencing-policy-create-new-or-edit-existing"></a>Stratégie de conférence : création d’une stratégie ou modification d’une création existante
 

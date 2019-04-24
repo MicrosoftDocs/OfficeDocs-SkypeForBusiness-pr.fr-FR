@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: da3cca7f-f6e5-4b6f-90a1-2008e3dd1ebd
 description: Lisez cette rubrique pour savoir comment planifier des stratégies d’emplacement pour un déploiement de services d’urgence étendus (E9-1-1) dans Skype pour Business Server Enterprise Voice.
 ms.openlocfilehash: 6717d6b7940ccf9cf7de403797d8bd4712f18144
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878020"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206760"
 ---
 # <a name="plan-location-policies-for-skype-for-business-server"></a>Planifier des stratégies d’emplacement de Skype pour Business Server
  

@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 3422e93e-7bd2-4470-968c-dc38345b18ca
 description: 'Résumé : Configurez une jonction sans contournement de média activé pour Skype pour Business Server.'
 ms.openlocfilehash: 25bb4a71983fa6f31ac85a1b2a8f4624219b36c9
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886839"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223598"
 ---
 # <a name="configure-a-trunk-without-media-bypass-in-skype-for-business-server"></a>Configurer une jonction sans contournement de média dans Skype pour Business Server
 

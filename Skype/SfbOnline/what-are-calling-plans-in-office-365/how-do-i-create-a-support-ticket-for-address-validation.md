@@ -21,11 +21,11 @@ ms.custom:
 - Calling Plans
 description: La validation des adresses est une partie importante des forfaits d'appels dans Office 365. Elle fournit à un utilisateur de votre organisation une adresse d'appels d'urgence qui peut être utilisée par les services de réponse d'urgence.
 ms.openlocfilehash: bbafd82e985cb3aabec99e73d2d13f7068a7c59d
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374348"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227853"
 ---
 # <a name="how-do-i-create-a-support-ticket-for-address-validation"></a>Comment puis-je créer un ticket d'assistance pour la validation d'une adresse ?
 

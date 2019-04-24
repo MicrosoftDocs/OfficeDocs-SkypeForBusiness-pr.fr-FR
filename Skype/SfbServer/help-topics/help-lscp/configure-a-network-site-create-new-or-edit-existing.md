@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 091aea61-22c2-4363-acd0-ccbc193755dd
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
 ms.openlocfilehash: 13d24593909a77888c793cff2199b18019a6efcc
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892073"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200815"
 ---
 # <a name="configure-a-network-site-create-new-or-edit-existing"></a>Configuration d’un site réseau : en créer une autre ou en modifier une existant
 

@@ -13,11 +13,11 @@ ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection: M365-voice
 description: Cet article explique les préparations de l’infrastructure pour le déploiement de salles d’équipes Microsoft.
 ms.openlocfilehash: ac1bcfc374350bde38d8e37f8870e1d3223a511c
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013000"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214497"
 ---
 # <a name="prepare-your-environment"></a>Préparer votre environnement
 
@@ -38,7 +38,7 @@ Cette section contient une vue d’ensemble des étapes requises pour préparer 
    - Si votre réseau fonctionne via un proxy, vous aurez également besoin de l’adresse du proxy ou des informations de script.
     
      > [!NOTE]
-     > Salles d’équipes Microsoft ne gère pas les entrées d’HDCP qui a été observée provoquer problèmes avec HDMI acquisition des fonctionnalités (vidéo, audio). Veiller à ce que commutateurs connectés aux salles d’équipes Microsoft ont options HDCP désactivées. 
+     > Microsoft Teams Rooms ne prend pas en charge les entrées HDCP, qui entraînent visiblement des problèmes avec la fonctionnalité de réception HDMI (vidéo, audio). Assurez-vous que les options HDCP des commutateurs connectés à Microsoft Teams sont désactivées. 
   
 3. Pour améliorer votre expérience, Microsoft collecte des données. Pour collecter des données, les sites suivants doivent figurer dans la liste approuvée :
     
@@ -133,7 +133,7 @@ Vous allez utiliser des packages de mise en service pour authentifier à Exchang
 Après la jonction du domaine, vous pouvez utiliser la stratégie de groupe ou la gestion de l’ordinateur local pour définir un groupe de sécurité en tant qu’administrateur local comme vous le feriez pour un ordinateur Windows dans votre domaine. Tous les membres de ce groupe de sécurité peuvent saisir leurs informations d’identification et déverrouiller les paramètres.
   
 > [!NOTE]
-> Si votre appareil Microsoft équipes salles perd approbation avec le domaine (par exemple, si vous supprimez les salles d’équipes Microsoft du domaine une fois qu’il est joint au domaine), vous ne pourrez pas s’authentifier sur le périphérique et ouvrir des paramètres. La méthode de contournement consiste à vous connecter avec le compte d’administrateur local. 
+> Si votre appareil Microsoft Teams Rooms n’approuve plus le domaine (par exemple, si vous supprimez Microsoft Teams Rooms du domaine après la jonction), vous ne pourrez pas vous authentifier dans l’appareil et ouvrir les paramètres. La solution consiste à se connecter avec le compte d’administrateur local. 
   
 ## <a name="local-accounts"></a>Comptes locaux
 
@@ -168,4 +168,4 @@ Beaucoup comme n’importe quel appareil Windows, le nom de l’ordinateur peut 
   
 [Configurer une console Microsoft équipes salles](../../deploy/deploy-clients/console.md)
   
-[Gérer les équipes Microsoft salles](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Gérer Microsoft Teams Rooms](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)

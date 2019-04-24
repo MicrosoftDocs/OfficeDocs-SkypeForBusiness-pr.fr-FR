@@ -1,10 +1,10 @@
 ---
-title: Plans d’appel dans Office 365 - code de gestion de réclamation pour la (Royaume-Uni)
+title: Forfaits d’appels dans Office 365 Code de traitement de plainte pour le Royaume-Uni (U.K.)
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, allancar
-ms.topic: article
+ms.topic: reference
 ms.assetid: 6f51ee4a-d939-4ba3-8659-ccf012d069f8
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -22,14 +22,14 @@ ms.custom:
 - Legal
 hideEdit: true
 description: 'Learn how to make a complaint for Skype for business calling services (PSTN Calling in the United Kingdom), what the timelines are for replies, and how to resolve disputes for unresolved complaints. '
-ms.openlocfilehash: 63fed5d4c902669188fb16ef65d48a787e0b2f48
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 207f2f6e9d11182986e0eff9d16ad418586105e2
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542878"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198330"
 ---
-# <a name="calling-plans-in-office-365---complaint-handling-code-for-the-united-kingdom-uk"></a>Plans d’appel dans Office 365 - code de gestion de réclamation pour la (Royaume-Uni)
+# <a name="calling-plans-in-office-365---complaint-handling-code-for-the-united-kingdom-uk"></a>Forfaits d’appels dans Office 365 Code de traitement de plainte pour le Royaume-Uni (U.K.)
 
 Ce Code s’applique aux petites entreprises (organisations avec 10 employés ou moins) dans le Royaume-Uni (Royaume-Uni) en ce qui concerne le service Office 365 appelant planifier (le « Service ») conformément aux réglementations de communications (Royaume-Uni). D'autres services Skype Entreprise sont régis par votre accord de service avec Microsoft et toutes autres conditions applicables à votre utilisation du service particulier.
 

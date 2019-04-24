@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 15354abe-733e-466b-bcd4-a6cfbf58caf8
 description: 'Résumé : Découvrez les composants de sécurité et configuration requis pour Enterprise Voice sur Skype pour Business Server.'
 ms.openlocfilehash: 522252119dd6e3699dc93e0191d50a3c09c023dc
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896573"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212480"
 ---
 # <a name="security-and-configuration-prerequisites-for-enterprise-voice-in-skype-for-business-server"></a>Sécurité et configuration requises pour Enterprise Voice sur Skype pour Business Server
  

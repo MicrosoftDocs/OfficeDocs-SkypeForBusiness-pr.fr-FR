@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: fb39af60-c999-42fb-9538-0bd87098f508
 description: Les notifications Push et le centre d’échanges de notifications Push (Push Notification Clearing House, PNCH) sont deux éléments clés de la fonctionnalité de mobilité. Une notification Push correspond au processus dans lequel un message est envoyé au centre d’échanges de notifications Push. Ce message y est conservé jusqu’à ce qu’il puisse être remis au client mobile ou que le délai d’expiration soit dépassé.
 ms.openlocfilehash: d9c3ae19255e58c9de5874d745107654a93f7a28
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882186"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200785"
 ---
 # <a name="mobile-client-create-or-edit-push-notification-configuration"></a>Client mobile : création ou modification d’une configuration des notifications Push
  

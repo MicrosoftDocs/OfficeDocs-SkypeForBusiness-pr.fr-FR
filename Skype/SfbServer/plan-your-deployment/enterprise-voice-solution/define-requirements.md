@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: d891a212-8ad9-4bfa-9ca7-04921c46fb45
 description: Résume les étapes nécessaires pour activer E9-1-1 dans Skype pour Business Server Enterprise Voice, selon que vous avez un fournisseur de service de E9-1-1 de jonction SIP ou une passerelle ELIN.
 ms.openlocfilehash: 3ddcb25b86689f29831872f24a1893d5ff2f1f4c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30885360"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206977"
 ---
 # <a name="define-your-requirements-for-emergency-calls-in-skype-for-business-server"></a>Définir votre configuration requise pour les appels d’urgence de Skype pour Business Server
  

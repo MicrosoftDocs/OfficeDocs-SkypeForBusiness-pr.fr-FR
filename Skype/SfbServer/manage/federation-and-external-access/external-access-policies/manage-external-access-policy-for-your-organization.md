@@ -14,11 +14,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Après avoir déployé un ou plusieurs serveurs de périphérie, vous devez activer les types d’accès externe qui sera prise en charge pour votre organisation.
 ms.openlocfilehash: bdc1a87476849a6e8383d5561af6e1b3af477869
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892877"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199883"
 ---
 # <a name="manage-external-access-policy-for-your-organization"></a>Gestion de la stratégie d’accès externe pour l’organisation
 

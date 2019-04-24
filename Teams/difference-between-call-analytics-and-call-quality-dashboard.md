@@ -22,11 +22,11 @@ ms.custom:
 - Reporting
 description: Découvrez les Analytique d’appel et appel du tableau de bord qualité quand et comment les utiliser pour analyser et résoudre les problèmes de qualité des appels.
 ms.openlocfilehash: c85bcecd31c978616e5394740efac6bb5c28c07c
-ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
-ms.locfileid: "31993653"
+ms.locfileid: "32199802"
 ---
 # <a name="call-analytics-and-call-quality-dashboard"></a>Tableau de bord Analyse des appels et Qualité des appels
 
@@ -96,7 +96,7 @@ Pour plus d’informations sur ces rôles, voir [rôles d’administrateur sur O
 
 Pour plus d’informations sur CQD, voir [activation et à l’aide d’appels de tableau de bord qualité pour les équipes Microsoft et Skype pour Business Online](turning-on-and-using-call-quality-dashboard.md) et les [Dimensions et mesures disponibles dans les appels de tableau de bord qualité pour les équipes Microsoft et Skype pour Business Online](dimensions-and-measures-available-in-call-quality-dashboard.md).
   
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Vidéo : Vue d’ensemble de la qualité des appels](https://aka.ms/teams-quality)
 

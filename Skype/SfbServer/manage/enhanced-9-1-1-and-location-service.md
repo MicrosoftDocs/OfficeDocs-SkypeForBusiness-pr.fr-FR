@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Skype pour Business Server prend en charge Enhanced 9-1-1 (E9-1-1) l’appel de Skype pour les clients d’entreprise. Lorsque vous configurez Skype pour Business Server pour E9-1-1, les appels d’urgence émis à partir de Skype pour les entreprises contiennent des informations d’emplacement de réponse d’urgence (ERL) à partir de la base de données du service informations d’emplacement.
 ms.openlocfilehash: 31e1d529c8fb60145bc1ab4a22a75660d9f3ef63
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895152"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200301"
 ---
 # <a name="manage-enhanced-9-1-1-and-the-location-service-in-skype-for-busines-server"></a>Gérer les enhanced 9-1-1 et le service d’emplacement dans Skype pour serveur Busines
 

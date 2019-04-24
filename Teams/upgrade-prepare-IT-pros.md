@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 3524e28df5e24fa32655e694def1400db45c5953
-ms.sourcegitcommit: a8f6b70fce1b5073f4743f7f413f7ce9fad8ead1
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/10/2019
-ms.locfileid: "31765204"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32203929"
 ---
 ![Étapes du voyage mise à niveau, en mettant l’accent sur l’étape de préparation technique] (media/upgrade-banner-tech-readiness.png "Étapes du voyage mise à niveau, en mettant l’accent sur l’étape de préparation technique")
 
@@ -38,7 +38,7 @@ Vos administrateurs du client Office 365, les responsables techniques et le supp
 Partager les ressources suivantes avec votre équipe informatique et assurez-vous qu’ils sont prêts à prendre en charge des utilisateurs avant de commencer votre mise à niveau vers les équipes :
 
 - [Formation à Microsoft Teams pour les administrateurs](itadmin-readiness.md)
-- [Contacter le support Office 365 pour les entreprises - Aide de l'administrateur](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+- [Contacter le support relatif aux produits d’entreprises- Aide de l’administrateur](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 - [Résoudre les problèmes de connectivité avec le client de Microsoft Teams](connectivity-issues.md)
 - [Utiliser les fichiers journaux pour le dépannage de Microsoft Teams](log-files.md)
 

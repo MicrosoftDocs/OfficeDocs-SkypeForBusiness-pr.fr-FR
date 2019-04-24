@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 492055c80b844ba4a7aa0091da767214c55dc31a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884054"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32203070"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Présentation de la sécurité et de la conformité dans Microsoft Teams
 ======================================================
@@ -95,15 +95,15 @@ La figure suivante indique le flux d’ingestion des équipes de réunions et de
 En ce qui concerne les fonctionnalités de protection des informations, les abonnements Office 365 et les licences autonomes associées détermineront l'ensemble de fonctionnalités disponibles.
 
 
-| Fonctionnalité de protection des informations | Office 365 Business Essentials | Office 365 Business Premium | Office 365 Entreprise E1 | Office 365 Entreprise E3/E4 | Office 365 Entreprise E5 |
+| Fonctionnalité de protection des informations | Office 365 Business Essentials | Office 365 Business Premium | Office 365 Entreprise E1 | Office 365 Entreprise E3/E4 | Office 365 Entreprise E5 |
 |-----------------------------------|--------------------------------|-----------------------------|--------------------------|-----------------------------|--------------------------|
-|              Archivage              |               -                |              -              |            -             |             Oui              |           Oui             |
-|        eDiscovery en place        |               -                |              -              |            -             |             Oui              |           Oui             |
+|              Archivage              |               -                |              -              |            -             |             Oui             |           Oui            |
+|        eDiscovery en place        |               -                |              -              |            -             |             Oui             |           Oui            |
 |        eDiscovery avancée        |               -                |              -              |            -             |              -              |           Oui            |
-|            Conservation légale             |               -                |              -              |            -             |             Oui              |           Oui             |
-|     Recherche de contenu de conformité     |               -                |             Oui              |           Oui             |             Oui              |           Oui            |
-|      Audit et rapports       |              Oui               |             Oui              |           Oui             |             Oui              |           Oui             |
-|       Accès conditionnel\*        |              Oui                |             Oui              |           Oui             |             Oui              |           Oui            |
+|            Conservation légale             |               -                |              -              |            -             |             Oui             |           Oui            |
+|     Recherche de contenu de conformité     |               -                |             Oui             |           Oui            |             Oui             |           Oui            |
+|      Audit et rapports       |              Oui               |             Oui             |           Oui            |             Oui             |           Oui            |
+|       Accès conditionnel\*        |              Oui               |             Oui             |           Oui            |             Oui             |           Oui            |
 
 > [!NOTE]
 > \*L'accès conditionnel requiert d'autres licences
@@ -154,6 +154,6 @@ En tant que client Office 365, vous possédez et contrôlez vos données. Micro
 
 Extraction d’informations sur la sécurité et de confiance des informations à partir du [Centre de gestion de la confidentialité de Microsoft](https://microsoft.com/trustcenter). Les équipes suit les mêmes instructions et principes comme le Center Trust Microsoft.
 
-<a name="related-topics"></a>Rubriques connexes
+<a name="related-topics"></a>Voir aussi
 ----------------------
 [Office 365 DAV Safe liens](https://docs.microsoft.com/office365/securitycompliance/atp-safe-links#how-to-get-atp-safe-links-protection)

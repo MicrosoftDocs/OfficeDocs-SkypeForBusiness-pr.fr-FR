@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 688a0328-1aa7-449f-b5f7-98c876112ed2
 description: Contrôle d’appel distant est une fonctionnalité dans les versions précédentes de Lync Server qui permettait aux utilisateurs de contrôler leurs téléphones PBX avec Lync Server. Dans Skype pour Business Server, cette fonctionnalité a été remplacée par un appel via le bureau. Dans les versions du client pour Skype pour Business Server 2015 et passer des appels à distance avant le contrôle n’est plus disponible pour configurer dans le client et a été supprimé à utiliser.
 ms.openlocfilehash: 31ee089e5f4142a0db728878d2bd35d86b628804
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879044"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206507"
 ---
 # <a name="plan-for-remote-call-control-in-skype-for-business"></a>Planifier le contrôle d’appel distant dans Skype pour les entreprises
  

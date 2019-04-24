@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 4275ede7-5467-4a97-b8c8-a4b00917bf32
 description: Chaque enregistrement représente un flux vidéo. Généralement, une seule ligne de média vidéo contient deux flux vidéo.
 ms.openlocfilehash: d6eeeb96acc766859d6b57594bd11a5538593da3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881680"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212017"
 ---
 # <a name="videostream-table"></a>Table VideoStream
  

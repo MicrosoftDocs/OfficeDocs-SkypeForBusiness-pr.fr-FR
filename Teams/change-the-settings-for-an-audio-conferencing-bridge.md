@@ -23,11 +23,11 @@ ms.custom:
 - Audio Conferencing
 description: 'Obtenir les étapes que vous devez modifier les paramètres d’un pont de conférence qui permet de demander des appelants et recueillir les noms et les codes confidentiels pour les organisateurs de réunion lorsqu’ils utilisent pas Skype pour les applications Microsoft Teams ou de l’entreprise. '
 ms.openlocfilehash: 2f3f08254409086ee99b3c5f60d243f893fff4e6
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30633232"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198555"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Modifier les paramètres d’un pont d’audioconférence.
 
@@ -132,8 +132,8 @@ Le pont de conférence répond à un appel et demande à l’appelant avec les i
     > [!NOTE]
     > Le module Windows PowerShell pour Skype Entreprise Online permet de créer une session Windows PowerShell à distance qui se connecte à Skype Entreprise Online. Ce module est pris en charge uniquement sur les systèmes 64 bits. Il peut être téléchargé à partir du Centre de téléchargement Microsoft accessible à l'emplacement suivant : [Module Windows PowerShell pour Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=294688).
   
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
-[Configurer la conférence pour Microsoft Teams](set-up-audio-conferencing-in-teams.md)
+[Configurer Audioconférence pour Microsoft Teams](set-up-audio-conferencing-in-teams.md)
 
 [Configuré à la conférence Audio pour Skype pour Business en ligne](/skypeforbusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)

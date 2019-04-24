@@ -13,11 +13,11 @@ ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection: M365-voice
 description: Cet article résume la configuration requise pour la prise en charge des salles d’équipes Microsoft.
 ms.openlocfilehash: aff26f2f69b134569b8792df79c2afa4e4a18318
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012993"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214504"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Configuration requise de salles d’équipes Microsoft
 
@@ -151,6 +151,6 @@ En outre, vous souhaiterez probablement une copie de [SkypeRoomProvisioningScrip
 
 [Configurer une console Microsoft équipes salles](../../deploy/deploy-clients/console.md)
 
-[Gérer les équipes Microsoft salles](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Gérer Microsoft Teams Rooms](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 
 [Licences de module complémentaire Skype Entreprise](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)

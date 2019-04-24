@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 9cdc3e23-3f6a-4e4d-9e04-f038596b6700
 description: 'Résumé : Planifiez votre Skype pour un environnement d’entreprise serveur Edge. Cette rubrique présente les concepts de périphérie et vous permet d’organiser avec notre rubriques plus détaillées.'
 ms.openlocfilehash: e2154abd7e263b92011ca198ddaa1b90f8bd38c7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881652"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207138"
 ---
 # <a name="plan-for-edge-server-deployments-in-skype-for-business-server"></a>Plan de déploiement de serveur de transport Edge dans Skype pour Business Server
  

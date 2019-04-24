@@ -15,11 +15,11 @@ f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 8c2564cc3da4f9df551ee9c9e5155a4cb81e4a37
-ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30664842"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204686"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Que sont les événements en direct Microsoft Teams ?
 
@@ -76,7 +76,7 @@ L’expérience de participant est le plus important d’événements en direct 
 ## <a name="next-steps"></a>Étapes suivantes
 Accédez à [planifier des équipes événements en direct](plan-for-teams-live-events.md).
 
-### <a name="related-topics"></a>Rubriques connexes
+### <a name="related-topics"></a>Voir aussi
 - [Événements en direct entre Microsoft 365 dans Yammer et Microsoft Stream Microsoft Teams](https://docs.microsoft.com/stream/live-event-m365)
 - [Événements en direct dans Microsoft Teams](https://support.office.com/article/microsoft-teams-live-event-overview-d077fec2-a058-483e-9ab5-1494afda578a)
 - [Événements en direct dans Yammer](https://support.office.com/article/live-events-in-yammer-4ece0ee2-c268-4636-bf2a-16e454befe57)

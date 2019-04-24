@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 953c971c39bde9d112619fcaee145008c378f1a3
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: d4089e0e9ff9ce0ecbff63e55a43d2dc9f2ca7d1
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30568439"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32194756"
 ---
 # <a name="cloud-voice-deployment"></a>Déploiement de la fonctionnalité vocale cloud
 
@@ -48,7 +48,7 @@ Système téléphonique est une fonctionnalité d’Office 365 qui offre la poss
 
 Plans d’appel sont un service complémentaire pour la fonctionnalité de système téléphonique, remis par le biais d’équipes et Skype pour Business Online. Plans d’appel requiert que l’utilisateur en question être hébergés sur Skype pour Business Online travailler dans Microsoft Teams. Plans d’appel fournir un numéro de téléphone principal des personnes dans votre entreprise et leur permet d’émettre et recevoir des appels téléphoniques à l’extérieur de votre organisation via le réseau RTC.
 
-Pour plus d’informations, consultez [Voici ce que vous obtenez avec un système téléphonique dans Office 365](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system) et [Quels sont les Plans de l’appel dans Office 365 ?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365)
+Pour plus d’informations, voir [Voici ce que vous obtenez avec un système téléphonique dans Office 365](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system) et [système téléphonique et Plans de l’appel](calling-plan-landing-page.md)
 
 
 ## <a name="phone-system-direct-routing-direct-routing"></a>Système de téléphone Direct routage (« routage Direct »)

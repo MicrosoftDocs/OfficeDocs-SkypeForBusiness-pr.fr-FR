@@ -14,11 +14,11 @@ ms.assetid: 71fb7752-c37f-46bb-a470-b5a8083aa95f
 ROBOTS: NOINDEX, NOFOLLOW
 description: Si l’adresse IP publique de ce pool Edge est traduit par une traduction d’adresses réseau (NAT), vous devez spécifier l’adresse IP publique à traduire. Il doit s’agir de l’adresse IP externe d’A / V Edge service.
 ms.openlocfilehash: 07ad4a5a19b065707aaf48ed1f73368a30e28c3b
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874280"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202186"
 ---
 # <a name="add-edge-machine-nat-ip"></a>Ajouter l’adresse IP NAT de l’ordinateur Edge
  

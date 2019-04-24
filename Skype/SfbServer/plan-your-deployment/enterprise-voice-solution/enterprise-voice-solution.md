@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: f9c6fd1d-c379-47d1-8447-19274ace9951
 description: 'Résumé : Découvrez les options de planification d’une solution de voix et les communications unifiée dans Skype pour Business Server.'
 ms.openlocfilehash: d564c609bdcb869db47986179d18a518c1bcab34
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893646"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206912"
 ---
 # <a name="plan-your-enterprise-voice-solution-in-skype-for-business-server"></a>Planifier votre solution Enterprise Voice dans Skype Business Server
  

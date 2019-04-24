@@ -14,11 +14,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Si un utilisateur a été activé pour Skype pour Business Server, vous pouvez configurer la fédération SIP, l’accès des utilisateurs distants et solution PIC (PIC) dans le Skype pour le panneau de configuration serveur Business en appliquant les stratégies appropriées à des utilisateurs spécifiques.
 ms.openlocfilehash: f07a407fee6f32f4cd4207c93ca19341e409ea78
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881499"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197631"
 ---
 # <a name="assign-an-external-user-access-policy-to-a-skype-for-business-enabled-user"></a>Affecter une stratégie d’accès utilisateur externe à un Skype pour un utilisateur activé
 

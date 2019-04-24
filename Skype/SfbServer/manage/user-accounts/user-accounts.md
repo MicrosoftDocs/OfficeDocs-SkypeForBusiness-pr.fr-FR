@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 2fe7e3a7-bc75-4d4b-94af-a8818722b0d3
 description: Les sections de cet article décrivent comment activer, désactiver temporairement ou supprimer des utilisateurs Active Directory de Skype pour Business Server.
 ms.openlocfilehash: 2140ae4209e0b91e0d1188a01f96d2d81cac27ef
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883685"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214679"
 ---
 # <a name="manage-user-accounts-for-skype-for-business-server"></a>Gérer les comptes d’utilisateurs pour Skype pour Business Server
 

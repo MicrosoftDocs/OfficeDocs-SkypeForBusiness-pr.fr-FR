@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: d972382f-971e-4fa7-b7ee-8ab9d3a5c11d
 description: Tâches que vous devez faire pour configurer Skype pour Business Server 2015 faire des performances et test de charge, à l’aide du Stress and Performance Tool.
 ms.openlocfilehash: 53504b714304b4b3cd18e44397ce0f06fcc59b63
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874590"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32194617"
 ---
 # <a name="performance-scenarios-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Scénarios de performances pour le Skype pour Business Server 2015 Stress and Performance Tool
  

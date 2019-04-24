@@ -21,11 +21,11 @@ ms.custom:
 - Phone System
 description: Appeler le partage et de groupe ou d’appel permettre aux utilisateurs de partager les appels entrants avec vos collègues afin que les appels peuvent être capturés lorsque l’utilisateur n’est pas disponible.
 ms.openlocfilehash: e822d06e48f3d7df548f0fd0d04645e7e9328598
-ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
-ms.locfileid: "31993580"
+ms.locfileid: "32211822"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Partage d’appel et prise d’appel de groupe dans Microsoft Teams
 

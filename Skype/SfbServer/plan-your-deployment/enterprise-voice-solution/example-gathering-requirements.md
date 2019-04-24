@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 3363ac53-b7c4-4a59-aea1-b2f3ee016ae1
 description: Fournit un exemple détaillé de la planification pour le contrôle d’admission des appels dans Skype pour Business Server Enterprise Voice, notamment la collecte d’informations sur les sites de votre réseau, de régions et de bande passante.
 ms.openlocfilehash: b406db2a4ddf2b0ff25128774577407e0e3acaf6
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893910"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207775"
 ---
 # <a name="example-gathering-requirements-for-call-admission-control-in-skype-for-business-server"></a>Exemple : Configuration requise de collecte pour appeler le contrôle d’admission dans Skype pour Business Server
 

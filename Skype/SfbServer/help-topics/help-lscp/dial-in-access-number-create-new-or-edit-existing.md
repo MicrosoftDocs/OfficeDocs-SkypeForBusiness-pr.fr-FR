@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 97a2b794-77da-40c0-9f9a-3c5fe6cc683d
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
 ms.openlocfilehash: e43dcb15932da0ed973c093f16879832a90d7aa8
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889880"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200771"
 ---
 # <a name="dial-in-access-number-create-new-or-edit-existing"></a>Numéro d’accès entrant : création d’un numéro ou modification d’un numéro existant
 

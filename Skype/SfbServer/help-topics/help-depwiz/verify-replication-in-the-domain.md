@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 4846b787-d55e-4364-bdcd-2dee33f0251c
 description: 'Pour vérifier la réplication de la préparation du domaine effectuée dans l’étape 1 : préparation du schéma, il est nécessaire d’exécuter une applet de commande à partir de la Skype pour Business Server Management Shell Lync Server Management Shell. Pour exécuter l’applet de commande Windows PowerShell, ouvrez une session un ordinateur qui est un membre du domaine que vous avez préparé et en tant que membre du groupe Admins du domaine. Procédez comme suit :'
 ms.openlocfilehash: 32a5a315566fcee07f7214c980843829ef8e229f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898640"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32234872"
 ---
 # <a name="verify-replication-in-the-domain"></a>Vérifier la réplication dans le domaine
  

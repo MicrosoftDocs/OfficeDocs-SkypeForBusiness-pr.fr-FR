@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 8a51fd13-1487-4632-b5ec-f7ae2abe8ed4
 description: 'Résumé : En savoir plus sur le serveur rapport qualité des médias tendance dans Skype pour Business Server.'
 ms.openlocfilehash: ca49d800972b238da038631584b7ac7d2879cb07
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883692"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197477"
 ---
 # <a name="server-media-quality-trend-report-in-skype-for-business-server"></a>Serveur rapport qualité des médias tendance dans Skype pour Business Server
  

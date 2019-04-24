@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 459e80bf-5791-49f8-878d-4a5178b3a210
 description: 'Résumé : Découvrez comment gérer les stratégies de code confidentiel pour les conférences rendez-vous dans Skype pour Business Server.'
 ms.openlocfilehash: 29fd3e2fff1628eaa96d7296e8fe9d7b9183d690
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893320"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197820"
 ---
 # <a name="manage-pin-policies-for-dial-in-conferencing-in-skype-for-business-server"></a>Gérer les stratégies de code confidentiel pour les conférences rendez-vous dans Skype pour Business Server
  

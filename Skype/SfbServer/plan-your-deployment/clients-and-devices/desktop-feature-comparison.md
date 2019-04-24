@@ -16,11 +16,11 @@ ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 'Résumé : Skype pour Business Server 2015 ou Skype pour les administrateurs d’entreprise en ligne peut utiliser ces tables pour comprendre les fonctionnalités sont prises en charge sur les clients.'
 ms.openlocfilehash: 498d444fa79b25d2a85f8e7bf04968512b00bf66
-ms.sourcegitcommit: 5cf9b45ad87aebfd46d3f1f757786c01804143ed
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "29635675"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207418"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2015"></a>Comparaison des fonctionnalités client de bureau pour Skype pour Business Server 2015
 
@@ -32,10 +32,10 @@ Certaines fonctionnalités disponibles avec Skype pour Business Server 2015 ne s
 
 Voir [comparaison des fonctionnalités client de bureau pour Skype pour Business 2019](../../../SfBServer2019/plan/feature-comparison.md) pour client prise en charge sur Skype pour Business Server 2019.
   
-Les tableaux suivants répertorient les fonctionnalités disponibles avec chaque client qui fonctionne avec Skype pour Business Server 2015 ou Skype pour Business Online. Vous souhaiterez également pour Smartphone et tablette comparaison des fonctionnalités des clients, voir [comparaison des fonctionnalités de client Mobile pour Skype pour les entreprises](mobile-feature-comparison.md) . Les licences d’accès client ou USL (User Subscription License) qu’achète votre organisation auront également un impact sur les fonctionnalités auxquelles les utilisateurs ont accès. Le déploiement du client complet ou de base pour les utilisateurs dépend de la licence ou de l’offre que votre organisation choisit d’acheter. Consultez le [Guide sur la gestion des licences](https://products.office.com/en-us/skype-for-business/it-pros) pour en savoir plus.
+Les tableaux suivants répertorient les fonctionnalités disponibles avec chaque client qui fonctionne avec Skype pour Business Server 2015 ou Skype pour Business Online. Vous souhaiterez également pour Smartphone et tablette comparaison des fonctionnalités des clients, voir [comparaison des fonctionnalités de client Mobile pour Skype pour les entreprises](mobile-feature-comparison.md) . Les licences d’accès client ou USL (User Subscription License) qu’achète votre organisation auront également un impact sur les fonctionnalités auxquelles les utilisateurs ont accès. Le déploiement du client complet ou de base pour les utilisateurs dépend de la licence ou de l’offre que votre organisation choisit d’acheter. Consultez le [Guide de gestion des licences](https://products.office.com/en-us/skype-for-business/it-pros) pour plus d’informations.
   
 > [!IMPORTANT]
-> Skype pour Business Server 2015 et Skype pour Business Online prend en charge les clients suivants précédemment publiés : Lync 2013, Lync 2010, Lync 2010 Mobile, Lync Phone Edition et Microsoft Lync 2010 Attendant. Pour plus d’informations sur ces clients lorsqu’ils sont utilisés avec d’autres serveurs, consultez les [tableaux de comparaison des clients pour Lync Server 2013](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx) et les [tableaux de comparaison des clients pour Lync Server 2010](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.14%29.aspx).
+> Skype pour Business Server 2015 et Skype pour Business Online prend en charge les clients suivants précédemment publiés : Lync 2013, Lync 2010, Lync 2010 Mobile, Lync Phone Edition et Microsoft Lync 2010 Attendant. Pour plus d’informations sur ces clients lorsqu’elle est utilisée avec d’autres serveurs, voir le [tableau de comparaison des clients pour Lync Server 2013](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx) et le [tableau de comparaison des clients pour Lync Server 2010](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.14%29.aspx).
 
 > [!NOTE]
 > Le client **Lync 2010 Attendant** n’est pas pris en charge dans Skype pour Business Online.
@@ -49,7 +49,7 @@ Les tableaux suivants répertorient les fonctionnalités disponibles avec chaque
 
 Ce tableau couvre les fonctionnalités de présence avancée qui vont plus loin qu’une simple indication spécifiant si un utilisateur est en ligne, hors ligne, occupé, etc.
   
-|Fonctionnalité|Client Skype Entreprise 2015 ou 2016|Skype Entreprise sur Mac|Client Lync 2013|application Lync du Windows Store|Lync 2010 | Intendant Lync 2010|Lync Phone Edition|Communicator pour Mac 2011|Lync pour Mac 2011|
+|Fonctionnalité|Client Skype Entreprise 2015 ou 2016|Skype Entreprise sur Mac|Client Lync 2013|application Lync du Windows Store|Lync 2010 | Lync 2010 Attendant|Lync Phone Edition|Communicator pour Mac 2011|Lync pour Mac 2011|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Publier le statut |& #x 2714 ;|& #x 2714 ; & #x 2776 ; |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ; & #x 2776 ; |& #x 2714 ;|& #x 2714 ;|
 |Afficher le statut   |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|
@@ -66,7 +66,7 @@ Ce tableau couvre les fonctionnalités de présence avancée qui vont plus loin 
 
 Ce tableau couvre les fonctionnalités liées à la gestion des contacts de messagerie instantanée et de présence.
 
-|Fonctionnalité|Client Skype Entreprise 2015 ou 2016|Skype Entreprise sur Mac | Client Lync 2013 | application Lync du Windows Store | Lync 2010 | Intendant Lync 2010 | Lync Phone Edition | Communicator pour Mac 2011 | Lync pour Mac 2011 |
+|Fonctionnalité|Client Skype Entreprise 2015 ou 2016|Skype Entreprise sur Mac | Client Lync 2013 | application Lync du Windows Store | Lync 2010 | Lync 2010 Attendant | Lync Phone Edition | Communicator pour Mac 2011 | Lync pour Mac 2011 |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Liste de contacts préremplie |& #x 2714 ;|||||||||
 |Afficher et modifier la liste des contacts |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|
@@ -90,15 +90,15 @@ Ce tableau couvre les fonctionnalités liées à la gestion des contacts de mess
 
 Ce tableau couvre les fonctionnalités liées à la prise en charge de la messagerie instantanée.
 
-|Fonctionnalité | Client Skype Entreprise 2015 ou 2016 | Skype Entreprise sur Mac | Client Lync 2013 | application Lync du Windows Store | Lync 2010 | Intendant Lync 2010 | Lync Phone Edition | Communicator pour Mac 2011 | Lync pour Mac 2011 |
+|Fonctionnalité | Client Skype Entreprise 2015 ou 2016 | Skype Entreprise sur Mac | Client Lync 2013 | application Lync du Windows Store | Lync 2010 | Lync 2010 Attendant | Lync Phone Edition | Communicator pour Mac 2011 | Lync pour Mac 2011 |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Démarrer une conversation par messagerie instantanée avec un contact |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;||& #x 2714 ;|& #x 2714 ;|
 |Parcourir plusieurs conversations par messagerie instantanée/Suivre plusieurs conversations dans une seule fenêtre avec onglets |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;||& #x 2714 ;|& #x 2714 ;|
-|Enregistrer des conversations par messagerie instantanée dans Outlook |& #x 2714 ;|& #x 2714 ; si l’historique des conversations de côté serveur sont activée  |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;||Enregistré dans Communicator pour Mac |Enregistré dans Lync pour Mac |
-|Utiliser des modèles de conversation existants |||||& #x 2714 ;|& #x 2714 ;||||
+|Enregistrer des conversations par messagerie instantanée dans Outlook |& #x 2714 ;|& #x 2714 ; si l’historique des conversations de côté serveur sont activée  |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;||Enregistré dans Office Communicator pour Mac |Enregistré dans Lync pour Mac |
+|Utiliser des modèles de conversation préparés |||||& #x 2714 ;|& #x 2714 ;||||
 |Vérification de l'orthographe |& #x 2714 ;|& #x 2714 ;||& #x 2714 ;|||||& #x 2714 ;|
 |Recherche de compétences (avec l'intégration de SharePoint Server)   <br/> (On-premises Skype pour Business Server et sur site SharePoint 2013 sont requis pour la recherche de compétences). |& #x 2714 ;||& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;||||
-|Intégration de la conversation permanente (Conversation de groupe)  <br/> (non disponible pour Skype pour Business Online) |& #x 2714 ;||& #x 2714 ;|||||||
+|Intégration de la conversation permanente (Conversation de groupe)   <br/> (non disponible pour Skype pour Business Online) |& #x 2714 ;||& #x 2714 ;|||||||
 |Transformer une salle de conversation permanente en réunion Skype Entreprise d'un simple clic   <br/> (non disponible pour Skype pour Business Online) |& #x 2714 ;||& #x 2714 ;|||||||
 |Images intégrées de l'expéditeur et du destinataire dans la fenêtre de messagerie instantanée |& #x 2714 ;||& #x 2714 ;|& #x 2714 ;||||||
 |Envoyer des messages manuscrits ||||& #x 2714 ;||||||
@@ -118,9 +118,9 @@ Ce tableau couvre les fonctionnalités liées à la prise en charge des réunion
 Dans les sessions Skype-à-Skype, un utilisateur du plan 1 de Skype Entreprise Online peut participer au partage de bureau et d'applications s'il est invité par un utilisateur qui a accès aux fonctionnalités de partage.
 Pour plus d’informations, voir le [Skype pour Business Online Service Description](https://technet.microsoft.com/library/jj822172.aspx).
   
-|Fonctionnalité | Skype pour 2016 Business client | Skype Entreprise sur Mac | Skype Entreprise Web App | Skype pour client Business 2015 | Client Lync 2013 | application Lync du Windows Store | Lync 2010 | Intendant Lync 2010 | Lync Phone Edition | Communicator pour Mac 2011 | Lync pour Mac 2011 |
+|Fonctionnalité | Skype pour 2016 Business client | Skype Entreprise sur Mac | Skype pour Business Web App | Skype pour client Business 2015 | Client Lync 2013 | application Lync du Windows Store | Lync 2010 | Lync 2010 Attendant | Lync Phone Edition | Communicator pour Mac 2011 | Lync pour Mac 2011 |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Ajouter l’audio de l’ordinateur |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;(requires plug-in) |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|
+|Ajouter l'audio de l'ordinateur |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;(requires plug-in) |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|
 |Ajouter la vidéo |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;(requires plug-in) |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|||& #x 2714 ;|& #x 2714 ;|
 |Afficher une vidéo à plusieurs (vue galerie) |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;||||||
 |Partage d'écran vidéo |& #x 2714 ;|& #x 2714 ;|& #x 2714 ; Affichage seul |||||||||
@@ -132,7 +132,7 @@ Pour plus d’informations, voir le [Skype pour Business Online Service Descript
 |Ajouter des participants anonymes (si option activée) |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;||& #x 2714 ;||||& #x 2714 ;|
 |Utiliser les réunions audio rendez-vous |& #x 2714 ; & #x 2777 ; |& #x 2714 ;|& #x 2714 ; & #x 2777 ; |& #x 2714 ;|& #x 2714 ; & #x 2777 ; |& #x 2714 ; & #x 2777 ; |& #x 2714 ;|& #x 2714 ;|||& #x 2714 ;|
 |Démarrer une réunion Conférence maintenant |& #x 2714 ;|& #x 2714 ;||& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;||||& #x 2714 ;|
-|Ajouter et présenter des fichiers Microsoft PowerPoint |& #x 2714 ;| & #x 2778 ; Annotations non disponibles |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|Présence uniquement |& #x 2714 ;|||| & #x 2778 ; Afficher uniquement, annotations non disponibles |
+|Ajouter et présenter des fichiers Microsoft PowerPoint |& #x 2714 ;| & #x 2778 ; Annotations non disponibles |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|Présenter uniquement |& #x 2714 ;|||| & #x 2778 ; Afficher uniquement, annotations non disponibles |
 |Parcourir des fichiers Microsoft PowerPoint |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;||||& #x 2714 ;|
 |Ajouter et modifier des notes de réunion OneNote |& #x 2714 ;||Modifier uniquement (pas ajouter) |& #x 2714 ;|& #x 2714 ;|||||||
 |Utiliser un tableau blanc |& #x 2714 ;||& #x 2714 ;|& #x 2714 ;|& #x 2714 ;||& #x 2714 ;|||||
@@ -150,7 +150,7 @@ Pour plus d’informations, voir le [Skype pour Business Online Service Descript
 |Définir la vidéo à la une (verrouiller la vidéo) |& #x 2714 ;||& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;||& #x 2714 ;|
 |Donner/prendre le contrôle du partage d'écran |& #x 2714 ;||& #x 2714 ;|||||||||
 
- & #x 2776 ;  Participants ne peut pas contrôler les postes de travail qui sont partagées par Skype pour les entreprises sur Mac, Lync pour Mac 2011 ou Office Communicator pour Mac 2011 utilisateurs. Skype pour les entreprises sur Mac, Lync pour Mac 2011 et Office Communicator pour Mac 2011 les utilisateurs ne peuvent pas contrôler les bureaux partagés par les utilisateurs de Windows. Cela ne peut fonctionner pour lʼapplication Skype Entreprise Web sur Max OSX.
+ & #x 2776 ;  Participants ne peut pas contrôler les postes de travail qui sont partagées par Skype pour les entreprises sur Mac, Lync pour Mac 2011 ou Office Communicator pour Mac 2011 utilisateurs. Skype pour les entreprises sur Mac, Lync pour Mac 2011 et Office Communicator pour Mac 2011 les utilisateurs ne peuvent pas contrôler les bureaux partagés par les utilisateurs de Windows. Cela ne fonctionne pour Skype pour Business Web App sur Max OSX.
   
  & #x 2777 ;  Pour Skype pour Business Online, cette fonctionnalité nécessite Microsoft PSTN conférence, la messagerie unifiée Exchange, ou un 3ème partie fournisseur de services d’audioconférence.
   
@@ -165,7 +165,7 @@ Ce tableau couvre les fonctionnalités liées à la prise en charge des services
 > [!NOTE]
 > Skype pour les fonctionnalités de voix entreprise (téléphonie) sont limitées à certain Skype pour Business Online plans d’abonnement. > pour plus d’informations, voir le [Skype pour Business Online Service Description](https://technet.microsoft.com/library/jj822172.aspx).
   
-| Fonctionnalité | Client Skype Entreprise 2015 ou 2016 | Skype Entreprise sur Mac | Client Lync 2013 | application Lync du Windows Store | Lync 2010 | Intendant Lync 2010 | Lync Phone Edition | Communicator pour Mac 2011 | Lync pour Mac 2011 |
+| Fonctionnalité | Client Skype Entreprise 2015 ou 2016 | Skype Entreprise sur Mac | Client Lync 2013 | application Lync du Windows Store | Lync 2010 | Lync 2010 Attendant | Lync Phone Edition | Communicator pour Mac 2011 | Lync pour Mac 2011 |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Démarrer un appel |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|
 |Cliquer pour appeler un contact  |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|
@@ -175,8 +175,8 @@ Ce tableau couvre les fonctionnalités liées à la prise en charge des services
 |Gérer les délégués |& #x 2714 ;|& #x 2714 ; Nécessite Skype pour Business Server 2015 CU4 ou version ultérieure |& #x 2714 ; & #x 2776 ; ||& #x 2714 ;||||& #x 2714 ;|
 |Appeler un groupe Response Group |& #x 2714 ;||& #x 2714 ; & #x 2776 ; ||& #x 2714 ;|& #x 2714 ;||||
 |Prendre en charge les services d'urgence (E-911)  |& #x 2714 ;|& #x 2714 ; Nécessite Skype pour Business Server 2015 CU6 ou version ultérieure |& #x 2714 ; & #x 2776 ; ||& #x 2714 ;|& #x 2714 ;|& #x 2714 ;||& #x 2714 ;|
-|Notification de messagerie instantanée aux URI SIP pour un appel E-911 |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;||& #x 2714 ;|& #x 2714 ;|& #x 2714 ;||& #x 2714 ;|
-|Notification de messagerie instantanée à la liste de distribution pour un appel E-911 |& #x 2714 ;||& #x 2714 ;||& #x 2714 ;|& #x 2714 ;|& #x 2714 ;||& #x 2714 ;|
+|Notification de messagerie instantanée à URI(s) SIP pour l’appel de E-911 |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;||& #x 2714 ;|& #x 2714 ;|& #x 2714 ;||& #x 2714 ;|
+|Appels de notification de messagerie instantanée à la liste de distribution pour E-911 |& #x 2714 ;||& #x 2714 ;||& #x 2714 ;|& #x 2714 ;|& #x 2714 ;||& #x 2714 ;|
 |Se connecter à la messagerie vocale, configurer ou changer le message d'accueil |& #x 2714 ;|& #x 2714 ;|& #x 2714 ; & #x 2776 ; |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|||
 |Notification des appels manqués |& #x 2714 ;|& #x 2714 ;|& #x 2714 ; & #x 2776 ; |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|||
 |Passer un appel pour le compte d'un autre contact (scénario responsable/délégué) |& #x 2714 ;|& #x 2714 ;|& #x 2714 ; & #x 2776 ; ||& #x 2714 ;|||||
@@ -195,11 +195,11 @@ Ce tableau couvre les fonctionnalités liées à la prise en charge des services
 
 Ce tableau couvre les fonctionnalités liées à la prise en charge des utilisateurs externes hébergés sur le PSTN.
 
-|Fonctionnalité | Client Skype Entreprise 2015 ou 2016 | Skype Entreprise sur Mac | Client Lync 2013 | application Lync du Windows Store | Lync 2010 | Intendant Lync 2010 | Lync Phone Edition | Communicator pour Mac 2011 | Lync pour Mac 2011 |
+|Fonctionnalité | Client Skype Entreprise 2015 ou 2016 | Skype Entreprise sur Mac | Client Lync 2013 | application Lync du Windows Store | Lync 2010 | Lync 2010 Attendant | Lync Phone Edition | Communicator pour Mac 2011 | Lync pour Mac 2011 |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Démarrer une conversation par messagerie instantanée avec un contact public  |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;||& #x 2714 ;|& #x 2714 ;|
 |Démarrer une conversation par messagerie instantanée avec un contact fédéré |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;||& #x 2714 ;|& #x 2714 ;|
-|Mener des appels à deux ou à plusieurs avec des utilisateurs externes  <br/> (non disponible dans Skype pour Business Online) |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|
+|Mener des appels à deux ou plus avec des utilisateurs externes   <br/> (non disponible dans Skype pour Business Online) |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|
 
 ## <a name="recording-support"></a>Prise en charge de l'enregistrement
 
@@ -207,9 +207,9 @@ Ce tableau couvre les fonctionnalités liées à la prise en charge des utilisat
 
 Ce tableau couvre les fonctionnalités liées à la prise en charge de l’enregistrement des réunions.
   
-| Futur / fonctionnalité ** | Client Skype Entreprise 2015 ou 2016 | Skype Entreprise sur Mac | Client Lync 2013 | application Lync du Windows Store | Lync 2010 | Intendant Lync 2010 | Lync Phone Edition | Communicator pour Mac 2011 | Lync pour Mac 2011 |
+| Futur / fonctionnalité ** | Client Skype Entreprise 2015 ou 2016 | Skype Entreprise sur Mac | Client Lync 2013 | application Lync du Windows Store | Lync 2010 | Lync 2010 Attendant | Lync Phone Edition | Communicator pour Mac 2011 | Lync pour Mac 2011 |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Enregistrement côté client du son, de la vidéo, du partage d’application, du partage de Bureau et du contenu téléchargé |& #x 2714 ; & #x 2776 ; ||& #x 2714 ; & #x 2776 ; ||& #x 2714 ;|||||
+|Enregistrement côté client du son, de la vidéo, du partage d'application, du partage de bureau et du contenu téléchargé |& #x 2714 ; & #x 2776 ; ||& #x 2714 ; & #x 2776 ; ||& #x 2714 ;|||||
 |Enregistrement côté client des transferts de fichiers, des pages OneNote partagées et des annotations PowerPoint |& #x 2714 ; & #x 2777 ; ||& #x 2714 ; & #x 2777 ; ||& #x 2714 ;|||||
 |Sélection de la résolution d'enregistrement préférée |& #x 2714 ;||& #x 2714 ;|||||||
 
@@ -225,7 +225,7 @@ Ce tableau couvre les fonctionnalités qui requièrent la prise en charge de l'a
   
 Authentification moderne requiert également une topologie décrite dans [Skype pour les topologies métiers pris en charge avec l’authentification moderne](../../plan-your-deployment/modern-authentication/topologies-supported.md).
 
-| Fonctionnalité | Client Skype Entreprise 2015 ou 2016 | Skype Entreprise sur Mac | Client Lync 2013 | application Lync du Windows Store | Lync 2010 | Intendant Lync 2010 | Lync Phone Edition | Communicator pour Mac 2011 | Lync pour Mac 2011 |
+| Fonctionnalité | Client Skype Entreprise 2015 ou 2016 | Skype Entreprise sur Mac | Client Lync 2013 | application Lync du Windows Store | Lync 2010 | Lync 2010 Attendant | Lync Phone Edition | Communicator pour Mac 2011 | Lync pour Mac 2011 |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Authentification moderne |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|||||||
 |Authentification multifacteur  |& #x 2714 ;|& #x 2714 ;|& #x 2714 ;|||||||
@@ -236,48 +236,48 @@ Authentification moderne requiert également une topologie décrite dans [Skype 
 
 <a name="BKMK_Archiving"> </a>
 
-Ce tableau couvre les fonctionnalités liées à la prise en charge des fonctionnalités d’archivage et de journalisation.
+Ce tableau présente les fonctionnalités associées à la prise en charge pour l’archivage et fonctions de journalisation.
 
-| Fonctionnalité | Client Skype Entreprise 2015 ou 2016 | Skype Entreprise sur Mac | Client Lync 2013 | application Lync du Windows Store | Lync 2010 | Intendant Lync 2010 | Lync Phone Edition | **Communicator pour Mac 2011** | Lync pour Mac 2011 |
+| Fonctionnalité | Client Skype Entreprise 2015 ou 2016 | Skype Entreprise sur Mac | Client Lync 2013 | application Lync du Windows Store | Lync 2010 | Lync 2010 Attendant | Lync Phone Edition | **Communicator pour Mac 2011** | Lync pour Mac 2011 |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Archivage des conversations par messagerie instantanée dans l’historique des conversations Outlook |& #x 2714 ; & #x 2776 ; |& #x 2714 ; si l’historique des conversations de côté serveur sont activée. |& #x 2714 ; & #x 2776 ; |& #x 2714 ; & #x 2776 ; |& #x 2714 ;|& #x 2714 ;||Enregistré dans Communicator pour Mac |Enregistré dans Lync pour Mac |
-|Archivage côté client du son, de la vidéo, du partage d’application, du partage de Bureau et du contenu téléchargé |& #x 2714 ; & #x 2776 ; ||& #x 2714 ; & #x 2776 ; ||& #x 2714 ;|||||
-|Archivage côté client des transferts de fichiers, des pages OneNote partagées et des annotations PowerPoint  <br/> (non disponible dans Skype pour Business Online)|& #x 2714 ;||& #x 2714 ;||& #x 2714 ;|||||
+|L’archivage des conversations par messagerie instantanée dans l’historique des conversations Outlook |& #x 2714 ; & #x 2776 ; |& #x 2714 ; si l’historique des conversations de côté serveur sont activée. |& #x 2714 ; & #x 2776 ; |& #x 2714 ; & #x 2776 ; |& #x 2714 ;|& #x 2714 ;||Enregistré dans Office Communicator pour Mac |Enregistré dans Lync pour Mac |
+|Côté client, l’archivage des données audio, vidéo, partage d’application, le partage du bureau et chargé le contenu |& #x 2714 ; & #x 2776 ; ||& #x 2714 ; & #x 2776 ; ||& #x 2714 ;|||||
+|Archivage côté client des transferts de fichiers, les pages OneNote partagés et annotations PowerPoint  <br/> (non disponible dans Skype pour Business Online)|& #x 2714 ;||& #x 2714 ;||& #x 2714 ;|||||
 |Connexion journaux d’accès à partir de Skype pour entreprise icône dans la barre des tâches |& #x 2714 ;||& #x 2714 ;|||||||
 
  & #x 2776 ;  Pour Skype pour les utilisateurs professionnels en ligne, cette fonctionnalité requiert Exchange Online et est contrôlée par l’attribut In-Place Hold de boîte aux lettres Exchange de l’utilisateur.
   
-## <a name="client-limitations"></a>Restrictions relatives aux clients 
+## <a name="client-limitations"></a>Limitations du client
 
 <a name="Types"> </a>
 
-### <a name="basic-client-limitations"></a>Restrictions relatives aux clients de base
+### <a name="basic-client-limitations"></a>Limitations du client de base
 
 <a name="Full-Basic"> </a>
 
-Les fonctionnalités ci-après sont disponibles avec le client complet. Elles ne sont pas intégrées au client de base : 
+Les fonctionnalités ci-dessous sont disponibles à l’aide du client complète et ne sont pas disponibles avec le client de base :
 
-- Gérer les paramètres d’appel d’équipe
+- Gérer les paramètres d'appel d'équipe
 - Gérer les délégués
-- Gérer les appels d’une autre personne, si celle-ci est configurée en tant que déléguée
-- Gérer un volume d’appels important
-- Démarrer un appel à un groupe Response Group
-- Parcage d’appel
-- Changer le message d’accueil
-- Prise d’appel de groupe
+- Gérer les appels d'une autre personne, si celle-ci est configurée en tant que déléguée
+- Gérer un volume important d’appels
+- Appeler un groupe Response Group
+- Parcage d'appel
+- Modifier le message d’accueil
+- Prise d'appel de groupe
 - Messages de notification d’appel manqué ne sont pas générés lorsque le statut d’un utilisateur est désactivé de la messagerie unifiée et qu’ils utilisent un Client Outlook hérité (2013 ou version antérieure)
 
-### <a name="online-or-hybrid-user-account-limitations"></a>Restrictions relatives aux comptes d’utilisateur en ligne ou hybrides
+### <a name="online-or-hybrid-user-account-limitations"></a>En ligne ou les restrictions de compte d’utilisateur hybride
 
 <a name="Online-Hybrid"> </a>
 
-Les comptes d’utilisateur peuvent exister en ligne ou dans les locaux, ce qui affectera les fonctionnalités auxquelles l’utilisateur correspondant peut accéder. Les utilisateurs disposant de comptes dans Skype pour Business Online auront pas accès aux fonctionnalités suivantes, même si le client complet :
+Comptes d’utilisateurs pouvant exister en ligne ou sur site, et qui affecte les fonctionnalités disponibles pour cet utilisateur. Les utilisateurs disposant de comptes dans Skype pour Business Online auront pas accès aux fonctionnalités suivantes, même si le client complet :
   
-- Présence améliorée : Utiliser une photo à partir d’un site public pour Mon image
-- Contacts : Rechercher des groupes Response Group
-- Prise en charge de la messagerie instantanée : Intégration de la conversation permanente (Conversation de groupe)
+- Présence enrichie : Utiliser une photo à partir de n’importe quel site public pour mon image
+- Contacts : Recherche des groupes Response Group
+- Prise en charge de la messagerie instantanée : L’intégration de la conversation permanente (conversation de groupe)
 - Prise en charge de la messagerie instantanée : Transformer une salle de conversation permanente à un Skype pour une réunion d’affaires en un clic
-- Utilisateurs externes : Mener des appels à deux ou à plusieurs avec des utilisateurs externes
+- Les utilisateurs externes : Mener des appels de deux ou à plusieurs avec des utilisateurs externes
 
 ## <a name="see-also"></a>Voir aussi
 

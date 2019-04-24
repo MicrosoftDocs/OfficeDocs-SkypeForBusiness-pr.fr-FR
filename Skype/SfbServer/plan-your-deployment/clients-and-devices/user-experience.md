@@ -16,17 +16,17 @@ ms.custom: ''
 ms.assetid: 0df4fd9e-370b-4b9d-a595-f1199fbc9f81
 description: 'Résumé : Découvrez la nouvelle Skype pour les entreprises et les étapes à suivre pour préparer votre environnement et vos utilisateurs pour la mise à jour, si vous utilisez Skype pour Business Online, Skype pour Business Server 2019, Skype pour Business Server 2015, Lync Server 2013, ou Lync Server 2010.'
 ms.openlocfilehash: 351582e7a7619541d5401acfb46854f61c9e052d
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531166"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207257"
 ---
 # <a name="plan-the-skype-for-business-2015-client-experience-for-your-users"></a>Planifier la Skype pour l’expérience client Business 2015 pour vos utilisateurs
  
 **Résumé :** En savoir plus sur la nouvelle Skype pour les entreprises et les étapes à que suivre pour préparer votre environnement et vos utilisateurs pour la mise à jour, si vous utilisez Skype pour Business Online, Skype pour Business Server 2019, Skype pour Business Server 2015, Lync Server 2013 et Lync Server 2010.
   
-14 avril 2015 Office mise à jour pour Lync 2013 inclut la nouvelle Skype pour l’interface utilisateur d’entreprise. Cette mise à jour permet aux administrateurs de contrôler l’apparence du client et indiquez si vous souhaitez conserver l’expérience du client Lync 2013 ou utiliser le Skype améliorée pour une expérience client. Le Skype pour client Business remplacé le client Lync 2013 et ajouté la possibilité pour les administrateurs de choisir entre l’expérience du client Lync existant et le nouveau Skype pour une expérience client. Pour plus d’informations sur cette mise à jour, reportez-vous à l’article [Mise à jour du 14 avril 2015 pour Lync 2013 (Skype Entreprise) (KB2889923)](https://support.microsoft.com/en-us/kb/2889923/).
+14 avril 2015 Office mise à jour pour Lync 2013 inclut la nouvelle Skype pour l’interface utilisateur d’entreprise. Cette mise à jour permet aux administrateurs de contrôler l’apparence du client et indiquez si vous souhaitez conserver l’expérience du client Lync 2013 ou utiliser le Skype améliorée pour une expérience client. Le Skype pour client Business remplacé le client Lync 2013 et ajouté la possibilité pour les administrateurs de choisir entre l’expérience du client Lync existant et le nouveau Skype pour une expérience client. Pour plus d’informations sur cette mise à jour, consultez [14 avril 2015, mettre à jour pour Lync 2013 (Skype pour les entreprises) (KB2889923)](https://support.microsoft.com/en-us/kb/2889923/).
   
 Sur 12 mai 2015, il y aura une autre mise à jour tous les mois à partir d’Office qui inclut la mise à jour Skype pour client d’entreprise. De nombreux clients qui n’a pas appliqué la mise à jour sera Décrochez le 12 mai avril mise à jour pour Office 2013. Les informations de cette rubrique vous aideront à préparer votre organisation, votre environnement et vos utilisateurs pour la mise à jour du client. Pour faciliter cette transition pour vos utilisateurs et vos équipes de support, utilisez les informations de cette rubrique pour mieux déterminer l’expérience client que vous souhaitez utiliser et apportez les modifications nécessaires à votre environnement avant de déployer la mise à jour du client dans votre organisation.
   
@@ -52,7 +52,7 @@ En plus de toutes les fonctionnalités de Lync, Skype pour les entreprises fourn
   
 ### <a name="lync-client-experience"></a>Expérience client Lync
 
-L’expérience client Lync est très similaire à l’expérience client Lync 2013 que vos utilisateurs connaissent déjà, mais voici quelques modifications que vous voudrez sûrement présenter à vos utilisateurs. Pour connaître les différences entre l’expérience client Lync et l’expérience client Lync 2013, reportez-vous à l’article [Pourquoi « Skype Entreprise » s’affiche-t-il lorsque j’utilise Lync ?](https://go.microsoft.com/fwlink/p/?LinkId=544712) et les liens supplémentaires dans la suite de cette rubrique.
+L’expérience client Lync est très similaire à l’expérience client Lync 2013 que vos utilisateurs connaissent déjà, mais voici quelques modifications que vous voudrez sûrement présenter à vos utilisateurs. Pour vérifier quelle est la différence entre l’expérience du client Lync et le client Lync 2013, voir [Pourquoi voir Skype pour les entreprises lors de l’utilisation de Lync ?](https://go.microsoft.com/fwlink/p/?LinkId=544712) et les liens supplémentaires plus loin dans cette rubrique.
   
 ## <a name="prepare-your-environment-for-the-skype-for-business-client"></a>Préparation de votre environnement pour le client Skype Entreprise
 <a name="usinglync"> </a>
@@ -65,7 +65,7 @@ Vous souhaiterez apporter ces modifications avant la mise à jour du client est 
   
 |**Deployment**|**Expérience client Skype Entreprise**|**Expérience client Lync**|
 |:-----|:-----|:-----|
-|Skype Entreprise Online  <br/> |En dehors du déploiement de la version 4711.1002 (avril 2015) ou ultérieure du client, il n’y a pas étape supplémentaire.  <br/> |[Utilisation de l’expérience client Lync avec Skype Entreprise Online](user-experience.md#LyncwithSfBO) <br/> |
+|Skype Entreprise Online  <br/> |En dehors du déploiement de la version 4711.1002 (avril 2015) ou ultérieure du client, il n’y a pas étape supplémentaire.  <br/> |[Utilisation de l’expérience client Lync avec Skype Entreprise Online](user-experience.md#LyncwithSfBO) <br/> |
 |Skype Entreprise Server 2015  <br/> |En dehors du déploiement de la version 4711.1002 (avril 2015) ou ultérieure du client, il n’y a pas étape supplémentaire.  <br/> |[Utilisation de l’expérience client Lync avec Skype Entreprise Server en local](user-experience.md#LyncwithSfBServer) <br/> |
 |Lync Server 2013 et Lync Server 2010  <br/> |[Utilisez l’expérience du client Skype avec Lync Server 2013 ou de Lync Server 2010 sur site](user-experience.md#SkypewithLynconprem) <br/> |[Utilisez l’expérience du client Lync avec Lync Server 2013 ou de Lync Server 2010 sur site](user-experience.md#LyncwithLynconprem) <br/> |
    
@@ -76,7 +76,7 @@ Suivez la procédure décrite dans cette section si vous voulez configurer l’e
   
  **Étape 1 :** Tout d’abord, assurez-vous que vous exécutez une version de Lync Server qui prend en charge les paramètres de stratégie de client.
   
-- **Lync Server 2013** - vous devez exécuter la 2014 décembre mise à jour Cumulative (5.0.8308.857) pour Lync Server 2013 ou une mise à jour ultérieur. Pour en savoir plus, voir [Mises à jour pour Lync Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=532772).
+- **Lync Server 2013** - vous devez exécuter la 2014 décembre mise à jour Cumulative (5.0.8308.857) pour Lync Server 2013 ou une mise à jour ultérieur. Pour plus d’informations, voir [mises à jour pour Lync Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=532772).
     
 - **Lync Server 2010** - vous devez exécuter la février 2015 mise à jour Cumulative (4.0.7577.710) pour Lync Server 2010 ou d’une mise à jour ultérieur. Pour plus d’informations, voir [mises à jour pour Lync Server 2010](https://go.microsoft.com/fwlink/p/?LinkId=532771).
     
@@ -190,14 +190,14 @@ Pour plus d’informations sur la façon de configurer le client expérience ave
 
 Pour faire de votre organisation et préparer la transition, nous disposons de nombreuses ressources supplémentaires disponibles pour vous aider à planifier, former et prendre part aux utilisateurs finaux.
   
-- [Vidéo : présentation de Skypeo Entreprise](https://go.microsoft.com/fwlink/p/?LinkId=544819) (contenu éventuellement en anglais)
+- [Vidéo : Présentation de Skype pour les entreprises](https://go.microsoft.com/fwlink/p/?LinkId=544819)
     
-- [Guides de démarrage rapide Skype Entreprise (Télécharger)](https://go.microsoft.com/fwlink/p/?LinkId=544818)
+- [Skype pour les professionnels des Guides de démarrage rapide (télécharger)](https://go.microsoft.com/fwlink/p/?LinkId=544818)
     
 - [Lync est désormais Skype pour les entreprises, voir Nouveautés](https://go.microsoft.com/fwlink/p/?LinkID=529224)
     
 - [Skype pour les entreprises : guide pas à pas pour les nouveaux utilisateurs](https://go.microsoft.com/fwlink/p/?LinkId=544815)
     
-- [Pourquoi Skype Entreprise s’affiche-t-il lorsque j’utilise Lync ?](https://go.microsoft.com/fwlink/p/?LinkID=544712)
+- [Pourquoi voir Skype pour les entreprises lors de l’utilisation de Lync ?](https://go.microsoft.com/fwlink/p/?LinkID=544712)
     
 

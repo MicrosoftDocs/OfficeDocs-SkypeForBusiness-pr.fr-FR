@@ -14,11 +14,11 @@ ms.assetid: aefc9f51-a171-4a58-be65-7accb470cb2a
 ROBOTS: NOINDEX, NOFOLLOW
 description: Dans le Générateur de topologie, vous pouvez modifier les paramètres de port utilisés pour les deux vos services web internes et externes. En outre, et si vous déployez l’équilibrage de charge de nom de domaine DNS (Domain Name System), vous pouvez utiliser le Générateur de topologie pour configurer le nom de domaine complet (FQDN) du pool qui résout les adresses IP physique de tous les serveurs de ce pool.
 ms.openlocfilehash: 75d73a81ec649c97149fd03125887116c947144c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889174"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201458"
 ---
 # <a name="web-services-settings-expander"></a>Expanseur des paramètres des services web
  

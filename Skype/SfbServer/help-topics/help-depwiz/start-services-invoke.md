@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 7992440b-8545-4af9-b3ac-ea200b9de084
 description: Le volet Résumé dans le volet exécution de commandes affiche l’état des tâches émis pour démarrer les services pour le Skype pour serveur Business Server 2015 rôle que vous déployez. Le résumé dans le volet des tâches ne représente pas une indication en temps réel du démarrage du service. Parmi le Skype pour les services Business Server peut prendre longtemps pour lancer le processus de démarrage initial. Les tâches exécutent la commande de démarrage, mais n’attendent pas de savoir si le service est lancé avec succès. Si vous devez surveiller le démarrage et l’état du service, utilisez la console MMC (Microsoft Management Console) Services Windows.
 ms.openlocfilehash: 48d94dabe5e584fed8bc10b7e7b19efd5b068a1c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888139"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201152"
 ---
 # <a name="start-services-invoke"></a>Démarrer les services (Invoke)
  

@@ -26,11 +26,11 @@ ms.custom:
 - Calling Plans
 description: Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour Monaco.
 ms.openlocfilehash: ce71880ba25554e727da7c8472dcfe8d65541090
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541367"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32203688"
 ---
 # <a name="availability-in-monaco"></a>Disponibilité à Monaco
 

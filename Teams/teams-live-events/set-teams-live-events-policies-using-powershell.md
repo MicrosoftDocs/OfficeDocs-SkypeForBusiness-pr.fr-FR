@@ -15,15 +15,14 @@ MS.collection:
 description: Exemples illustrant comment utiliser PowerShell pour définir des stratégies dans les équipes pour contrôler qui peut contenir des événements en direct dans votre organisation et les fonctionnalités qui sont disponibles dans les événements qu’ils créent
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 23cf75c8e764920a2d77c3bbe6c0cb3711c22f04
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 8858b8572a06aede2fa1de98ce9cfc14ed1745bd
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30459627"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204569"
 ---
 # <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>Utiliser PowerShell pour définir les stratégies d’événements en direct dans Microsoft Teams
-> [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
 
 Vous pouvez utiliser les applets de commande Windows PowerShell suivante pour configurer et affecter des paramètres de stratégie pour les événements en temps réel dans les équipes : 
 - [Get-CsTeamsMeetingBroadcastPolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamsmeetingbroadcastpolicy?view=skype-ps)
@@ -139,7 +138,7 @@ Définir la stratégie globale pour activer transcription et traduction sur des 
 Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastTranscription $true 
 ```
 
-### <a name="related-topics"></a>Rubriques connexes
-- [Configurer des équipes événements en direct](set-up-for-teams-live-events.md)
+### <a name="related-topics"></a>Voir aussi
+- [Configurer les événements en direct Teams](set-up-for-teams-live-events.md)
 
 

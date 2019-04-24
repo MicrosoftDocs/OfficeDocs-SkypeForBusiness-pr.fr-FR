@@ -16,15 +16,16 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: e85d6e44c37b1b7a56b2b525d28fdbeab266d4b8
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461939"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32211287"
 ---
-# <a name="quality-of-experience-review-guide"></a>Qualité de consulter le Guide de l’expérience
+# <a name="quality-of-experience-review-guide"></a>Guide d’examen de l’expérience de qualité
 
-<!-- Note that this link to the Word doc is intentionally NOT the aka.ms/qerquide link -->Ce guide est à la phase de valeur lecteur pour Microsoft Teams et Skype pour Business Online. Vous pouvez [télécharger une version de Word](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true) de ce guide.
+<!-- Note that this link to the Word doc is intentionally NOT the aka.ms/qerquide link -->
+Ce guide est à la phase de valeur lecteur pour Microsoft Teams et Skype pour Business Online. Vous pouvez [télécharger une version de Word](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true) de ce guide.
 
 ## <a name="introduction"></a>Introduction
 
@@ -1051,7 +1052,7 @@ _Tableau 10 - courantes collaborateurs à haute qui_
 | Mise à jour                              | Aide                         |
 |------------------------------------------|----------------------------------|
 | **Réseaux**                                 | **Congestion**: un utilisation excessive ou configurées sous réseau peut entraîner des problèmes avec la qualité des médias. Travail avec l’équipe réseau pour déterminer si les connexions réseau à partir de l’utilisateur à la sortie internet point a suffisamment de bande passante pour prendre en charge multimédia. Le [Planificateur de réseau](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) peut vous aider à mieux comprendre les besoins en bande passante de votre organisation.<br><br>**Effectuer une évaluation de préparation du réseau**: une évaluation réseau fournit des détails sur l’utilisation de la bande passante attendue, comment faire face à la bande passante et réseau change, réseau pratiques recommandées pour les équipes et Skype pour les entreprises. À l’aide du tableau précédent comme source, vous disposez d’une liste de bâtiments ou les sous-réseaux qui sont une excellente candidats pour une évaluation.<ul><li>[Évaluation de préparation du réseau équipes Microsoft](3-envision-evaluate-my-environment.md#test-the-network)</li><li>[Skype pour l’évaluation de préparation du réseau Business](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers/?pageState=NetworkReadiness)</li></ul><br>**Outil d’évaluation de Microsoft Network :** Utilisez cet outil pour un simple test des performances du réseau pour déterminer comment exécuter le réseau pour une équipes ou Skype pour les appels professionnels en ligne. L’outil vous permet d’évaluer les performances d’un sous-réseau et valider la préparation du réseau par rapport à des [exigences](https://aka.ms/performancerequirements)de performances Microsoft.<ul><li>[Télécharger l’outil d’évaluation réseau](https://www.microsoft.com/download/details.aspx?id=53885)</li></ul><br> |
-| **Qualité de Service (QoS)**  | QoS est un outil éprouvé pour aider à définir la priorité des paquets sur un réseau saturé pour s’assurer qu’ils arrivent à destination intacte et sur le temps. Envisagez d’implémenter la qualité de service au sein de votre organisation afin d’optimiser la qualité de l’expérience utilisateur dans lequel la bande passante est limitée. QoS vous aideront à résoudre les problèmes généralement associés avec un niveau élevé de perte de paquets, et, dans une moindre mesure : temps de gigue et aller-retour.<ul><li>[Conseils de QoS des équipes Microsoft](qos-in-teams.md)</li><li>[Skype pour obtenir des instructions Business QoS](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_8)</li></ul> |
+| **Qualité de service (QoS)**  | QoS est un outil éprouvé pour aider à définir la priorité des paquets sur un réseau saturé pour s’assurer qu’ils arrivent à destination intacte et sur le temps. Envisagez d’implémenter la qualité de service au sein de votre organisation afin d’optimiser la qualité de l’expérience utilisateur dans lequel la bande passante est limitée. QoS vous aideront à résoudre les problèmes généralement associés avec un niveau élevé de perte de paquets, et, dans une moindre mesure : temps de gigue et aller-retour.<ul><li>[Conseils de QoS des équipes Microsoft](qos-in-teams.md)</li><li>[Skype pour obtenir des instructions Business QoS](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_8)</li></ul> |
 | **Wi-Fi**               | Wi-Fi peut avoir un impact significatif sur la qualité des appels. Déploiements Wi-Fi ne généralement prennent en considération la configuration réseau requise pour les services VoIP et sont souvent une source de qualité médiocre. Pour plus d’informations sur l’optimisation de votre infrastructure Wi-Fi, consultez [cet article sur la planification de Wi-Fi](/skypeforbusiness/certification/plan-wifi).<br><br>**Pilote sans fil**: s’assurer que les pilotes sans fil sont à jour. Cela permettra d’atténuer les expérience utilisateur médiocre lié à un pilote obsolète. Bon nombre d’organisations n’incluez pas pilotes sans fil dans leur cycle de correctif et ces pilotes peuvent atteindre des années. De nombreux problèmes sans fil sont résolus en vérifiant que les pilotes sans fil sont à jour.<br><br>**WMM**: Extensions de sans fil multimédia (WMM), également appelé Wi-Fi multimédia, fournit les fonctionnalités de QoS base aux réseaux sans fil. Les réseaux sans fil modernes doivent prendre en charge de nombreux périphériques. Ces périphériques en concurrence pour la bande passante et peuvent entraîner des problèmes de qualité des services VoIP, où la vitesse et la latence sont essentielles. Consultez votre fournisseur sans fil pour caractéristiques et implémentez WMM sur votre réseau sans fil pour classer par priorité Skype pour professionnels et les équipes de support.<br><br>**Densité du point d’accès**: points d’accès peuvent être trop éloignés ou non dans un emplacement idéal. Pour réduire l’interférence potentielle, placez les points d’accès supplémentaires dans les salles de conférence et dans les emplacements qui ne sont pas coupés par les murs ou d’autres objets où le signal Wi-Fi est faible.<br><br>**2,4 GHz et 5 GHz**: 5 GHz fournit moins interférences d’arrière-plan et le plus rapidement et priorité lors du déploiement VoIP en Wi-Fi. Toutefois, 5 GHz n’est pas aussi forte que 2,4 GHz et ne traversent les murs aussi facilement. Passez en revue votre mise en page de construction pour déterminer quelle fréquence dépendent de la meilleure connexion. |
 |**Périphérique de réseau** | Organisations de grande taille peuvent avoir des centaines de périphériques répartis sur le réseau. Travailler avec votre équipe réseau afin de vous assurer que les périphériques réseau à partir de l’utilisateur à internet sont gérées et à jour. |
 | **VPN**  | Appareils VPN ne sont pas généralement conçus pour gérer les charges de travail de médias en temps réel. Certaines configurations VPN interdisent l’utilisation de UDP (qui est le protocole par défaut pour les médias), ils s’appuient sur TCP uniquement. Envisagez d’implémenter une [solution de fractionnement-tunnel VPN](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_9) pour réduire VPN en tant que source de qualité médiocre. |
@@ -1237,7 +1238,7 @@ Vous pouvez trouver les numéros de version de Skype pour les entreprises via le
 
 -   [Publication des informations mises à jour pour Office ProPlus](https://docs.microsoft.com/officeupdates/release-notes-office365-proplus)
 -   [Historique de mise à jour pour Office 365 ProPlus](https://docs.microsoft.com/officeupdates/update-history-office365-proplus-by-date)
--   [Skype pour les entreprises télécharge et met à jour](/SkypeForBusiness/software-updates)
+-   [Téléchargements et mises à jour de Skype Entreprise](/SkypeForBusiness/software-updates)
 
 ### <a name="devices"></a>Appareils
 
@@ -1316,13 +1317,13 @@ La qualité des médias en temps réel (audio, vidéo et partage d’application
 
 _Le tableau 12 - des exigences de performances réseau_
 
-| Mesure                            | Client vers Microsoft Edge           | Périphérie client vers Microsoft Edge    |
+| Mesure                            | Client Microsoft Edge           | Côté client pour Microsoft Edge    |
 |-----------------------------------|------------------------------------|------------------------------------|
 | Latence (unidirectionnelle)                 | \<50 ms                            | \<30 ms                            |
 | Latence (temps d’aller-retour ou durée aller-retour) | \<100 ms                           | \<60 ms                            |
 | Perte de paquets en rafale                 | \<10 % au cours de l’intervalle de 200-ms   | \<1 % au cours de l’intervalle de 200-ms    |
 | Perte de paquets                       | \<1 % au cours de l’intervalle de 15-s    | \<0,1 % au cours de l’intervalle de 15-s  |
-| Gigue entre les arrivées de paquets       | \<30 ms pendant l’intervalle de 15-s | \<15 ms pendant l’intervalle de 15-s |
+| Gigue arrivée entre des batteries de paquets       | \<30 ms pendant l’intervalle de 15-s | \<15 ms pendant l’intervalle de 15-s |
 | Réorganisation des paquets                    | \<paquets d’ordre 0,05 %       | \<paquets d’ordre 0,01 %      |
 
 Pour plus d’informations, consultez [cet article sur média qualité et les performances réseau](https://aka.ms/performancerequirements) pour les équipes et Skype pour Business Online.
@@ -1345,11 +1346,11 @@ Pour plus d’informations, consultez [cet article sur média qualité et les pe
 
 -   [Présentation Analytique d’appel](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Introducing-Call-Analytics/ba-p/57309)
 
--   [Configurer Analyse des appels](set-up-call-analytics.md)
+-   [Configurer l’analyse des appels](set-up-call-analytics.md)
 
 -   [En quoi l'analyse des appels et le tableau de bord de qualité des appels sont-ils différents ?](difference-between-call-analytics-and-call-quality-dashboard.md)
 
--   [Utiliser l’Analyse des appels pour résoudre les problèmes de qualité des appels](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+-   [Utiliser l’analyse des appels pour résoudre les problèmes de qualité des appels](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 ### <a name="call-analytics-support"></a>Appelez le support technique Analytique
 

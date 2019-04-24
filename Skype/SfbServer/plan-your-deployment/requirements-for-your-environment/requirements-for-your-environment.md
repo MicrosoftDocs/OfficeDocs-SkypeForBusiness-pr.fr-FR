@@ -16,11 +16,11 @@ ms.custom: ''
 ms.assetid: 306d3397-f305-4919-bdb1-aa7bb7b5c534
 description: 'Résumé : Plan de rubriques relatives à la configuration requise en matière de réseau ou l’infrastructure de Skype pour Business Server 2015. Si vous avez besoin installer ou configurer tout comme condition préalable à l’installation et déploiement de Skype pour Business Server 2015, il sera ici.'
 ms.openlocfilehash: e43fc9bda052abc952bf4a4a1a8921b4ab276427
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895439"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206161"
 ---
 # <a name="requirements-for-your-skype-for-business-2015-environment"></a>Configuration requise pour votre Skype pour environnement Business 2015
  

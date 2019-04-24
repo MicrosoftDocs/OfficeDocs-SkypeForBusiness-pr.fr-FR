@@ -19,11 +19,11 @@ ms.custom:
 hideEdit: true
 description: Comment utiliser un compte de relais IP pour le Canada.
 ms.openlocfilehash: b5f6d268db302b4b0446c5f692bb7e27daa60b17
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23863030"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32224191"
 ---
 # <a name="ip-relay-in-canada---user-guide"></a>Relais IP au Canada - guide de l’utilisateur
 
@@ -80,9 +80,9 @@ Veuillez contacter des projets spécifiques à [specialprojects@northern911.com]
 > [!IMPORTANT]
 > Northern911 gère le service de relais IP pour le compte Microsoft.
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
-[Relais IP au Canada - s’inscrire](ip-relay-canada-email-signup.md)
+[Relais IP au Canada - inscription](ip-relay-canada-email-signup.md)
 
 
 

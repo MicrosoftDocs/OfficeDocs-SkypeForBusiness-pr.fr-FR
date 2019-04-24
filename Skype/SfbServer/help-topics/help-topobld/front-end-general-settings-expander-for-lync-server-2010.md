@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 58269c38-98d9-499f-ab69-6a63a6e5530e
 description: 'Vous modifiez les propriétés du pool frontal ou serveur frontal en modification ou en configurant les attributs suivants. La page de configuration est divisée en les sections suivantes :'
 ms.openlocfilehash: 34f026b6e802bb83c550d2a81e5630a64765e27d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897415"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32180374"
 ---
 # <a name="front-end-general-settings-expander-for-lync-server-2010"></a>Développeur des paramètres généraux du serveur frontal pour Lync Server 2010
 

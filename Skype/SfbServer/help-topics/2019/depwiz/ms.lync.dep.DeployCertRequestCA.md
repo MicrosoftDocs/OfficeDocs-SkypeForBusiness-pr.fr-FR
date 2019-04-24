@@ -14,11 +14,11 @@ ms.assetid: a609f1b0-ae13-44ca-a467-b7fb14ff18a1
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Lorsque vous faites une demande de certificat auprès d’une autorité de certification en ligne (généralement à des serveurs qui se trouvent sur votre réseau interne) dans la page Choisir une autorité de certification, vous avez le choix entre deux options :'
 ms.openlocfilehash: 64e4b5b52f0ebf6eb5dab6b60c7aa9c140ada080
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897055"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216871"
 ---
 # <a name="certificate-request-certificate-authority"></a>Demande de certificat (autorité de certification)
  

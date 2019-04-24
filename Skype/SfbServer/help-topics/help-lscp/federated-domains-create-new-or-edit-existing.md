@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 90979ccd-7439-4a66-b82d-222df1554d66
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
 ms.openlocfilehash: fb858569f3f5891151dc0e473974d1ba6f9c1627
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882557"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200778"
 ---
 # <a name="federated-domains-create-new-or-edit-existing"></a>Domaines fédérés : création d’un domaine ou modification d’un domaine existant
 

@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: f252b23b-9641-4160-aa81-bf06dc2eced3
 description: 'Résumé : Découvrez comment permettre aux utilisateurs d’émettre et recevoir des appels à l’aide d’Enterprise Voice dans Skype pour Business Server.'
 ms.openlocfilehash: b02155f424e8b3f29881caf8c4a29db6f76cb807
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882968"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212473"
 ---
 # <a name="enable-users-for-enterprise-voice-in-skype-for-business-server"></a>Activer les utilisateurs pour Enterprise Voice sur Skype pour Business Server
  

@@ -14,11 +14,11 @@ ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: 'Résumé : Examen de scénarios pour Skype pour les options de déploiement de serveur d’entreprise. Si vous souhaitez qu’un seul serveur ou que vous préférez un pool de serveurs DNS ou matérielle, cette rubrique doit contribuer à.'
 ms.openlocfilehash: 88f3da6a006c74393b487a55e85a16aa56bd968b
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893068"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206316"
 ---
 # <a name="advanced-edge-server-dns-planning-for-skype-for-business-server"></a>DNS du serveur Edge une planification avancée pour Skype pour Business Server
  

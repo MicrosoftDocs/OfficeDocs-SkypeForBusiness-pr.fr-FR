@@ -14,11 +14,11 @@ ms.assetid: e1068706-ff61-4a98-8e51-4202111d936a
 ROBOTS: NOINDEX, NOFOLLOW
 description: Vous devez indiquer un partage de fichiers à utiliser comme magasin de fichiers pour le serveur Standard Edition ou le pool frontal Enterprise Edition. Vous pouvez utiliser un partage de fichiers existant pour le magasin de fichiers ou spécifier un nouveau partage de fichiers en spécifiant le nom de domaine complet (FQDN) du serveur de fichiers sur lequel le partage de fichiers doit se trouver et un nom de dossier pour le nouveau partage de fichiers.
 ms.openlocfilehash: 65876bd22127b37bf5e1103e9ef305e81b86a20f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899129"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202004"
 ---
 # <a name="add-persistent-chat-file-store"></a>Ajouter un magasin de fichiers de conversation permanente
 

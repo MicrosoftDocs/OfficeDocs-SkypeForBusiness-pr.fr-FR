@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 363da62c378a60cb85a9544339dbf7ccd699b7c0
-ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
+ms.openlocfilehash: e62dd8a19e2207f6b40864cab19a3fda48d184fe
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31517078"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204654"
 ---
 <a name="about-upgrade-basic"></a>
 
@@ -39,9 +39,9 @@ Les fonctionnalités disponibles dans les équipes dépendent de mode de coexist
 
 |Mode efficace de l’utilisateur|Expérience client d’équipes|
 |---|---|
-|N’importe quel Skype pour le mode d’entreprise|L’appel et de conversation<sup>1</sup> sont désactivées.|
+|N’importe quel Skype pour le mode d’entreprise|Appel et conversation sont désactivées.|
 |SfBWithTeamsCollabAndMeetings|Planification de la réunion est disponible|
-|SfBWithTeamsCollab ou SfBOnly<sup>2</sup>|Planification de la réunion n’est pas disponible|
+|SfBWithTeamsCollab ou SfBOnly<sup>1</sup>|Planification de la réunion n’est pas disponible|
 |||
 
 Les captures d’écran suivantes illustrent la différence entre le mode TeamsOnly ou (îles) et tous les autres modes. Notez que les icônes de conversation et d’appel sont disponibles avec TeamsOnly ou (îles) mode (capture d’écran de gauche), mais pas avec les autres modes (capture d’écran droite) :
@@ -50,10 +50,8 @@ Les captures d’écran suivantes illustrent la différence entre le mode TeamsO
 
 
  
-**Remarques :**
-<sup>1</sup> session est toujours disponible.
-
-<sup>2</sup> pour l’instant, SfBwithTeamsCollab et SfBOnly ont les mêmes, mais l’objectif est de mode SfBOnly également désactiver la fonctionnalité de canaux et les fichiers dans les équipes ; Toutefois, il n’existe actuellement aucun paramètre qui permet cette fonctionnalité dans les équipes à désactiver.
+**Remarque :**
+<sup>1</sup> pour l’instant, SfBwithTeamsCollab et SfBOnly ont le même comportement, mais le but est pour le mode SfBOnly également désactiver la fonctionnalité de canaux et les fichiers dans les équipes ; Toutefois, il n’existe actuellement aucun paramètre qui permet cette fonctionnalité dans les équipes à désactiver.
 
 
 ## <a name="impact-of-mode-on-other-policy-settings"></a>Impact du Mode d’autres paramètres de stratégie
@@ -75,7 +73,7 @@ Les administrateurs doivent *pas* explicitement définies avant de ces paramètr
 |SfBWithTeamsCollab ou SfBOnly|Désactivé|Désactivé|Désactivé|Désactivé|
 ||||||
 
-Dans un avenir proche, le `Grant-CsTeamsUpgradePolicy` cmdlet vérifiera la configuration des paramètres correspondants dans TeamsMessagingPolicy, TeamsCallingPolicy et TeamsMeetingPolicy pour déterminer si ces paramètres seront être remplacés par TeamsUpgradePolicy et dans ce cas, un message d’information est fournie dans PowerShell.  Comme mentionné ci-dessus, n’est plus nécessaire de définir les autres paramètres de stratégie. Voici un exemple de quel l’avertissement PowerShell ressemble à :
+Lors de l’utilisation de PowerShell, la `Grant-CsTeamsUpgradePolicy` cmdlet vérifie la configuration des paramètres correspondants dans TeamsMessagingPolicy, TeamsCallingPolicy et TeamsMeetingPolicy pour déterminer si ces paramètres doit être remplacés par TeamsUpgradePolicy et dans ce cas, un message d’information est fournie dans PowerShell.  Comme mentionné ci-dessus, n’est plus nécessaire de définir les autres paramètres de stratégie. Voici un exemple de quel l’avertissement PowerShell ressemble à :
 
 `Grant-CsTeamsUpgradePolicy -Identity user1@contoso.com -PolicyName SfBWithTeamsCollab`
 
@@ -83,7 +81,7 @@ Dans un avenir proche, le `Grant-CsTeamsUpgradePolicy` cmdlet vérifiera la conf
 
 
 
-# <a name="related-topics"></a>Rubriques connexes
+# <a name="related-topics"></a>Voir aussi
 
 [Guide de la migration et de l’interopérabilité pour les organisations qui utilisent Teams avec Skype Entreprise](https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype)
 

@@ -1,5 +1,5 @@
 ---
-title: Qu’est-ce que les crédits de communication ?
+title: Qu'est-ce que les crédits de communication ?
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -21,14 +21,14 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. '
-ms.openlocfilehash: d113731d9b2c8f387e543a8d1733abcee12b2fcf
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.openlocfilehash: 8fa06f22d1fb31f592f520ba3b1d17c8fcaf0ccb
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30649187"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32211768"
 ---
-# <a name="what-are-communications-credits"></a>Qu’est-ce que les crédits de communication ?
+# <a name="what-are-communications-credits"></a>Qu'est-ce que les crédits de communication ?
 
 Communications crédits sont un moyen pratique de payer minutes d’audioconférence et planifier l’appel. Il permet de garantir que vous et vos utilisateurs ne sont jamais interceptées n’est pas en mesure de :
   
@@ -61,7 +61,7 @@ Pour utiliser des numéros gratuits dans Skype pour les entreprises, crédits Co
 > [!NOTE]
 > Vous devez configurer les Communications crédits et affecter une licence crédits Communications pour chaque utilisateur dans le **Centre d’administration Office 365** > **utilisateurs** > **Utilisateurs actifs**. 
   
-Il est recommandé d’évaluer avec soin l’utilisation des services de PSTN de votre organisation afin de comprendre la configuration de meilleures pour les Communications générique. Vous pouvez voir plus d’informations sur les services PSTN en lisant l’article [Quels sont les Plans de l’appel dans Office 365 ?](what-are-calling-plans-in-office-365.md) et [questions fréquentes de conférence Audio](Audio-Conferencing-common-questions.md).
+Il est recommandé d’évaluer avec soin l’utilisation des services de PSTN de votre organisation afin de comprendre la configuration de meilleures pour les Communications générique. Vous pouvez voir plus d’informations sur les services PSTN en lisant l’article [système téléphonique et Plans de l’appel](calling-plan-landing-page.md) et [questions fréquentes de conférence Audio](Audio-Conferencing-common-questions.md).
   
 Vous pouvez configurer la facturation consommation à l’aide d’un **financement unique** de l' équilibre préalable payante **ou** en configurant un montant **recharge automatique** ( **recommandé** ) avec un équilibre minimal qui déclenchera un achat pour ce montant recharge. À l’origine, il est recommandé de configurer les chiffres de recharge automatique qui vous permettent de surveiller l’activité réelle et recherchez le droit automatique seuils recharge qui répondent à vos besoins et les modèles d’utilisation. Communications crédits doivent être surveillées au fil du temps et puis ajustez les montants équilibrer et recharge minimales nécessaire pour être adapté aux besoins de chaque organisation.
   
@@ -88,7 +88,7 @@ Vous pouvez voir les plans et les prix à partir d’un des liens suivants :
   
 - [Forfaits d’appel](https://go.microsoft.com/fwlink/?linkid=799761)
     
-- [Audioconférence,](https://go.microsoft.com/fwlink/?linkid=799762)
+- [Services d’audioconférence](https://go.microsoft.com/fwlink/?linkid=799762)
     
 - [Système téléphonique](https://go.microsoft.com/fwlink/?linkid=799763 )
     
@@ -96,7 +96,7 @@ Vous pouvez également voir des informations sur les prix en [vous connectant au
   
 Pour obtenir un tableau avec la licence ou les licences que vous aurez besoin pour chaque fonctionnalité, voir [Gestion des licences de module complémentaire équipes Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 [Rapport d'utilisation de la conférence RTC Skype Entreprise](/SkypeForBusiness/skype-for-business-online-reporting/pstn-usage-report)
 
   

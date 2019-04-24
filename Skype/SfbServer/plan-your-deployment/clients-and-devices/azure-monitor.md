@@ -12,11 +12,11 @@ ms.assetid: 9fd16866-27eb-47a9-b335-2f6bc9044a80
 ms.collection: M365-voice
 description: Cet article décrit les considérations de planification pour l’utilisation du moniteur d’Azure pour administrer les périphériques de salles d’équipes Microsoft dans votre Skype pour l’implémentation des équipes ou de l’entreprise.
 ms.openlocfilehash: dfa65435da63eb9783422e1e7ee10e66ba33b891
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012986"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214570"
 ---
 # <a name="plan-microsoft-teams-rooms-management-with-azure-monitor"></a>Planifier la gestion des salles d’équipes Microsoft Azure moniteur
  

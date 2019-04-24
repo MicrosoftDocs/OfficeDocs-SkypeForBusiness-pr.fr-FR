@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: f09c9b3e-1f5f-4486-8113-e62c10cff138
 description: Chaque pool frontal ne peut être associé qu’à un seul serveur Edge ou pool de serveurs Edge. Lorsque vous permettez à un utilisateur externe d’accéder à un site, vous pouvez fournir une prise en charge des utilisateurs distants. Vous pouvez également autoriser la prise en charge des utilisateurs fédérés, qui peut inclure la prise en charge des utilisateurs de fournisseurs de connectivité PIC (Public Instant Messaging) spécifiques (comme Windows Live), ainsi que la prise en charge des utilisateurs anonymes.
 ms.openlocfilehash: 719a9375cfab8c5e8b6f102315eaf12b4f30ff97
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879229"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227402"
 ---
 # <a name="associate-front-end-with-edge"></a>Associer un pool frontal à un serveur Edge
 

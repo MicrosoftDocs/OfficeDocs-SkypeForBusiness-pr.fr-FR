@@ -19,14 +19,14 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Découvrez comment acheter pour les plans Office 365 entreprise E1 et E3, des fonctionnalités et des licences supplémentaires. '
-ms.openlocfilehash: 853cc90b8c0e6a0a5fd42a104ae9c972437995d7
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: fc3dfc987a36f458f0480fbec03d340f730d51e3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541423"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204514"
 ---
-# <a name="office-365-enterprise-e1-and-e3"></a>E3 et office 365 entreprise E1
+# <a name="office-365-enterprise-e1-and-e3"></a>Office 365 Entreprise E1 et E3
 
 Si vous avez déjà acheté le plan [Office 365 entreprise E1](https://products.office.com/en-us/business/office-365-enterprise-e1-business-software) ou [E3](https://products.office.com/en-us/business/office-365-enterprise-e3-business-software) , voici les licences de module complémentaire que vous devez acheter pour obtenir davantage de fonctionnalités Microsoft Teams.
 
@@ -35,7 +35,7 @@ Si vous avez déjà acheté le plan [Office 365 entreprise E1](https://products.
 |Audioconférence, <br/> <br/> |Acheter le **module complémentaire de conférence Audio**. <br/>Acheter 1 licence de conférence Audio pour chaque personne qui est sur le point de planifier ou de conférence rendez-vous. Les participants n'ont pas besoin de licences.<br/> Une fois la licence achetée, Microsoft sera votre fournisseur d’audioconférence. |
 |Numéros de téléphone gratuits pour l’accès entrant à vos réunions et la possibilité d’effectuer des appels sortants à partir d’une réunion pour ajouter une personne en appelant le numéro de téléphone dans le monde<br/> | Achetez [crédits Communications](../add-funds-and-manage-communications-credits.md).|
 |Système téléphonique <br/> |<ol><li>Acheter le module complémentaire Microsoft Office 365 Phone System. </li><li>Acheter un [Plan de l’appel](../calling-plans-for-office-365.md) pour Office 365.</li></ul>Ou bien, utilisez le [service de téléphone de votre fournisseur existant](microsoft-teams-add-on-licensing.md#bkmk_existing).  <br/> |
-|Messagerie vocale pour système téléphonique<br/> |Pour les plans E1, acheter Exchange Online Plan 2. <br/>ou choisissez une suite Office fournie avec Exchange Online Plan 2, comme Office 365 E3. |
+|Messagerie vocale cloud<br/> |Pour les plans E1, acheter Exchange Online Plan 2. <br/>ou choisissez une suite Office fournie avec Exchange Online Plan 2, comme Office 365 E3. |
 |Offres d'appels<br/> |<ol><li>Acheter le module complémentaire Système téléphonique.</li><li>Acheter un [Appel de Plan](../calling-plans-for-office-365.md): cela acheter uniquement une fois que vous achetez le module complémentaire **Système téléphonique** .</li></ol> <br/> |
    
   

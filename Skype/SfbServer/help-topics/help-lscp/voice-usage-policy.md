@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: cf6a2441-d8ad-4e45-8049-8d83f1fb5f28
 description: Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide de la Skype pour le panneau de configuration serveur Business, voir gérer les Skype pour Business Server 2015.
 ms.openlocfilehash: bd302f835c35ca716c80ec1430e0b06aaa8e7b39
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887231"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200343"
 ---
 # <a name="voice-usage-policy"></a>Stratégie d’utilisation de la voix
  

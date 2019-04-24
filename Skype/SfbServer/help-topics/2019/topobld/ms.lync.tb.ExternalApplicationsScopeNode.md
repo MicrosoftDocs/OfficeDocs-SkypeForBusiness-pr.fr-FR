@@ -14,11 +14,11 @@ ms.assetid: 73b422d6-1582-4a76-aceb-690004fa02a3
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Le nœud Serveurs d’applications approuvées répertorie les pools d’applications approuvées sur ce site. Pools d’applications approuvées contiennent des serveurs d’exécuter des applications de Communications unifiées de Microsoft approuvées, mais n’exécutent pas Skype pour les rôles de serveur d’entreprise. Vous pouvez effectuer l’action suivante :'
 ms.openlocfilehash: 7c61306e8466daa8d543f02c9a1de99a129cc40a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890219"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201806"
 ---
 # <a name="external-applications-scope-node"></a>Nœud d’étendue des applications externes
  

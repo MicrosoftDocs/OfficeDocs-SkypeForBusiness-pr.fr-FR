@@ -19,11 +19,11 @@ localization_priority: Normal
 f1keywords: None
 description: Découvrez comment configurer les jours fériés dans Microsoft Teams et les connecter à votre standard automatique.
 ms.openlocfilehash: afec7fc3f1bbe47c907b823711db3b8b8ef3aded
-ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/18/2019
-ms.locfileid: "31914577"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204775"
 ---
 # <a name="set-up-holidays-in-microsoft-teams"></a>Configurer des jours fériés dans Microsoft Teams
 
@@ -86,6 +86,6 @@ Pour plus d’informations sur les standards automatiques, voir [Quelles sont le
     Pour rediriger l’appel, sélectionnez **rediriger l’appel**, puis sélectionnez la personne qui recevra l’appel redirigé à partir de la liste déroulante ou de la recherche pour la personne par nom complet.
 8. Cliquez sur **Enregistrer**.
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Quelles sont les standards automatiques de nuage](what-are-phone-system-auto-attendants.md)?

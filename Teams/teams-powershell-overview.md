@@ -1,5 +1,5 @@
 ---
-title: Vue d’ensemble de PowerShell équipes
+title: Aperçu de Teams PowerShell
 ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
@@ -14,13 +14,13 @@ description: Découvrez comment utiliser les contrôles de PowerShell pour gére
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 1e85261b133d8f1562bcca7d79f83eb21e345be2
-ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31959361"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204468"
 ---
-# <a name="teams-powershell-overview"></a>Vue d’ensemble de PowerShell équipes
+# <a name="teams-powershell-overview"></a>Aperçu de Teams PowerShell
 
 Microsoft Teams possède un ensemble d’outils pour les administrateurs informatiques à gérer le produit via le centre d’administration de Microsoft Teams, les contrôles de PowerShell et API de graphique. Ce guide explique comment nous structure notre applets de commande PowerShell pour les administrateurs informatiques à utiliser et fournit des pointeurs vers la documentation supplémentaire. Notez que les différents rôles d’administrateur équipes ont accès aux applets de commande différents. Pour plus d’informations, voir [utiliser les équipes Microsoft rôles d’administrateur pour gérer les équipes](using-admin-roles.md).
 

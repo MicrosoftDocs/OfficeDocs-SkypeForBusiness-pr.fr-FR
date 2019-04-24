@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 6933b840-0e7b-4509-ae43-bc9065677547
 description: Configurer les itinéraires de communications vocales E9-1-1 dans Skype pour Business Server Enterprise Voice.
 ms.openlocfilehash: 04890782eb9c550428d89c99304c5a7951fc34b7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894921"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223703"
 ---
 # <a name="configure-an-e9-1-1-voice-route-in-skype-for-business-server"></a>Configurer une itinéraire des communications vocales E9-1-1 dans Skype pour Business Server
  

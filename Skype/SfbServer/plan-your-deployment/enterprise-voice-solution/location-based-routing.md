@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 4aa494bd-0d66-4335-b9e8-f758d44a7202
 description: Planification du routage par emplacement dans Skype pour Business Server Enterprise Voice, y compris l’interaction avec sonnerie simultanée et la délégation et les scénarios pris en charge pour le routage basé sur l’emplacement.
 ms.openlocfilehash: 2e9070e5ecddcf88e5edac8064409177caa82b4d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874363"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206788"
 ---
 # <a name="plan-for-location-based-routing-in-skype-for-business"></a>Planifier le routage par emplacement dans Skype pour les entreprises
 

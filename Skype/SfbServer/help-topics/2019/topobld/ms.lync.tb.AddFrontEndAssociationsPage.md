@@ -14,11 +14,11 @@ ms.assetid: 95620425-defd-47fd-a5c0-e4a283d812a5
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Vous pouvez activer la prise en charge de fonctionnalités spécifiques impliquant de déployer d’autres serveurs en associant maintenant les rôles serveur et les pools frontaux. Vous pouvez également associer les rôles serveur et le pool frontal par la suite. Les rôles serveur pouvant être associés à un pool frontal peuvent être les suivants :'
 ms.openlocfilehash: 112c9c4d843e7b51ff52ccbb79eec0cd9df1bc40
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882375"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202070"
 ---
 # <a name="add-front-end-associations"></a>Ajouter des associations au pool frontal
 

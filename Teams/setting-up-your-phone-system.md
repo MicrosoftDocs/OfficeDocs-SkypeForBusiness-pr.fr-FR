@@ -1,5 +1,5 @@
 ---
-title: Configuration du système téléphonique de votre organisation
+title: La configuration système téléphonique de votre organisation
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -21,13 +21,13 @@ ms.custom:
 - Phone System
 description: 'Découvrez comment configurer le système téléphonique (PBX nuage) pour votre organisation. '
 ms.openlocfilehash: 7a180817fb4a3885748a5ca80c494ef1b69143a4
-ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/18/2019
-ms.locfileid: "31914651"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32205538"
 ---
-# <a name="setting-up-phone-system-in-your-organization"></a>Configuration du système téléphonique de votre organisation
+# <a name="setting-up-phone-system-in-your-organization"></a>La configuration système téléphonique de votre organisation
 
 The following is a step-by-step guide for setting up Phone System in Office 365. Links to additional, detailed information are available at the end of each step.
 
@@ -276,7 +276,7 @@ You will need to set up Communications Credits if you would like to use toll-fre
 
 **Pour plus d’informations sur l’attribution de licences Communications crédits, voir [configurer les Communications crédits pour votre organisation](set-up-communications-credits-for-your-organization.md).**
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 [Voici les avantages du système téléphonique dans Office 365](here-s-what-you-get-with-phone-system.md)
 
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)

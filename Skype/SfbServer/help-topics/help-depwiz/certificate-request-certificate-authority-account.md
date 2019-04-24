@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 6251322d-ac36-4760-b467-bcd543af22aa
 description: Pour soumettre une demande, votre autorité de certification (CA) peut-être nécessiter des informations d’identification autres que ceux de l’utilisateur que vous êtes connecté en tant que. Pour autoriser une demande de certificat en tant qu’utilisateur différent, activez les case à cocher spécifier autres informations d’identification de l’autorité de certification, puis tapez le nom d’utilisateur ou domaine\nom d’utilisateur pour un utilisateur qui peut demander le certificat. Dans la zone de texte mot de passe, tapez le mot de passe pour l’utilisateur que vous avez spécifié. Le nom d’utilisateur et le mot de passe sont ensuite envoyés dans le cadre du processus de demande de certificat, mais pas dans la demande de certificat réel, à une autorité de certification en ligne.
 ms.openlocfilehash: 4580b402198da6d11355675d862387e6fdeb80a4
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875741"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201435"
 ---
 # <a name="certificate-request-certificate-authority-account"></a>Demande de certificat (compte d’autorité de certification)
  

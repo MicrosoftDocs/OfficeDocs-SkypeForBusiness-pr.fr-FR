@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 7f05529c-794d-41ed-bca4-2e85b87b2dec
 description: Chaque enregistrement représente une session impliquant audio ou audio et vidéo. Il contient des informations générales sur la session. Une session est définie comme une boîte de dialogue protocole SIP (Session Initiation) audio ou vidéo entre deux points de terminaison.
 ms.openlocfilehash: 7a0ea3f9753529c22299ef46017b863c314319b5
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881377"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212375"
 ---
 # <a name="session-table"></a>Table Session
  

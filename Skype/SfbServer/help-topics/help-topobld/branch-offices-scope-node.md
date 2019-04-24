@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 116d317c-8df0-45a0-83d4-eb10cf525d70
 description: 'Le nœud Sites de succursale répertorie les sites de succursale associés à ce site central. Vous pouvez effectuer l’action suivante :'
 ms.openlocfilehash: 52d971b14f058a5284d84a710257f61794b5f091
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895159"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226867"
 ---
 # <a name="branch-offices-scope-node"></a>Nœud d’étendue des Branch Office
  

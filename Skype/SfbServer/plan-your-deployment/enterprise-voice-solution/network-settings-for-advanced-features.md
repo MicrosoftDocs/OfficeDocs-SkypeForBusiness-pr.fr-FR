@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 7f6de9e4-c8a4-44e4-8d14-21fe8c45283a
 description: Découvrez les régions réseau, les sites réseau et les sous-réseaux IP. Tous ces doivent être configurés pour déployer le Plan du contournement de média dans Skype pour les entreprises, planifier appel de contrôle d’admission des appels dans Skype pour Business Server), ou une planification pour les services d’urgence dans Skype pour Business Server dans Skype pour Business Server Enterprise Voice.
 ms.openlocfilehash: a37cf9aea2ef400a61a0b457e1973b05d079ec74
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882312"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206556"
 ---
 # <a name="network-settings-for-the-advanced-enterprise-voice-features-in-skype-for-business-server"></a>Paramètres réseau pour les fonctionnalités Enterprise Voice dans Skype pour Business Server
 

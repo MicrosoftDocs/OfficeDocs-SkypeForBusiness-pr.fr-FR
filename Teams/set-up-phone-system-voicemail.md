@@ -1,5 +1,5 @@
 ---
-title: Configurer la Messagerie vocale cloud
+title: Configuration Messagerie vocale Cloud
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -22,13 +22,13 @@ ms.custom:
 - Phone System
 description: 'Découvrez comment configurer la messagerie vocale dans le nuage pour vos utilisateurs. '
 ms.openlocfilehash: 3f8729c9737bcbf0e7731ac61b38d56d708e15dc
-ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31517151"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204795"
 ---
-# <a name="set-up-cloud-voicemail"></a>Configurer la Messagerie vocale cloud
+# <a name="set-up-cloud-voicemail"></a>Configuration Messagerie vocale Cloud
 
 Cet article est pour l' [administration d’Office 365](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) souhaite configurer la fonctionnalité de messagerie vocale dans le nuage pour tout le monde dans l’entreprise.
 
@@ -124,7 +124,7 @@ Nous disposons d’informations sur la formation et des articles pour aider vos 
 
 - [Formation Skype Entreprise 2016](https://support.office.com/article/eb2081bc-fd0a-4eda-94da-5a39f369ee74)
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 [Configurer Skype entreprise Online](/skypeforbusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
 
 [Voici les avantages du système téléphonique dans Office 365](here-s-what-you-get-with-phone-system.md)

@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: b6730e92-6d74-4fa7-a83f-50b7bdadbffa
 description: 'Résumé : En savoir plus sur le Service de mobilité (Mcx) dans Skype pour Business Server 2015 prise en charge pour les clients hérités.'
 ms.openlocfilehash: 6c885c441531dc02e149ee1fb37f0001d252811f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873463"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199683"
 ---
 # <a name="monitoring-iis-request-tracing-log-files-in-skype-for-business-server-2015"></a>Surveillance des fichiers journaux de suivi des demandes de services Internet (IIS) dans Skype Entreprise Server 2015
  

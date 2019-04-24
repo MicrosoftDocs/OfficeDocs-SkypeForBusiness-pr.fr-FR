@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 6cc333e7-4029-4372-86b2-016040c415fb
 description: Planification des groupes Response Group dans Skype pour Business Server Enterprise Voice, ce qui permet de configurer le routage des appels vers des groupes d’utilisateurs. Cela inclut les conditions requises pour les fichiers audio.
 ms.openlocfilehash: 68a693715739d58488e134934416790641dd091e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894401"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206493"
 ---
 # <a name="plan-for-the-response-group-application-in-skype-for-business-server"></a>Planification de l’application Response Group dans Skype pour Business Server
 

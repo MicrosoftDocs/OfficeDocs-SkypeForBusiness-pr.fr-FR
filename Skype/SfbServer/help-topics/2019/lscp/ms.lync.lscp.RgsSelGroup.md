@@ -14,11 +14,11 @@ ms.assetid: d780f676-c2c5-4f57-90dd-df5fcd204d76
 ROBOTS: NOINDEX, NOFOLLOW
 description: Files d’attente les appels vers les groupes Response Group jusqu'à ce qu’un agent répond à l’appel. Files d’attente ont affecté les groupes d’agents. Lorsque vous créez ou modifiez une file d’attente, vous utilisez la boîte de dialogue Sélectionner des groupes pour sélectionner un ou plusieurs groupes d’agents à affecter à la file d’attente.
 ms.openlocfilehash: 1ea3d43241d5cdac2ebcc860333ab326d45fd274
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880320"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215184"
 ---
 # <a name="select-groups"></a>Sélectionner des groupes
 

@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'Pour configurer une jonction avec l’option de déviation du trafic multimédia activée, procédez comme suit. '
 ms.openlocfilehash: 623de0439e6c6297808e54eb2ae050aa95f6533d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881931"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214665"
 ---
 # <a name="configure-a-trunk-without-media-bypass-in-skype-for-business-server"></a>Configurer une jonction sans contournement de média dans Skype pour Business Server
 

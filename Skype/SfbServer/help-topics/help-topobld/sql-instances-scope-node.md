@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 399dce5b-bd51-4693-89d9-3463c1d73ded
 description: 'Le SQL stocke les listes de nœuds les bases de données SQL Server dans votre topologie. Vous pouvez effectuer l’action suivante :'
 ms.openlocfilehash: c9ff02ca1514d1b77d2d633aaff02a5269ca0693
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891222"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219077"
 ---
 # <a name="sql-instances-scope-node"></a>Nœud d’étendue des instances SQL
  

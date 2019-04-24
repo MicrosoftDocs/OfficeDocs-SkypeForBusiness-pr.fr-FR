@@ -15,11 +15,11 @@ description: Les connecteurs permettent à votre équipe de rester informée en 
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: bdb4184ed203994f1275c9c074371655a627b1fe
-ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
-ms.locfileid: "31993438"
+ms.locfileid: "32195094"
 ---
 <a name="use-office-365-and-custom-connectors-in-microsoft-teams"></a>Utiliser des connecteurs Office 365 et personnalisés dans Microsoft Teams
 =======================================================

@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 747456dd-d237-44e6-9e64-63b0e7212a08
 description: 'Pour modifier les propriétés d’un serveur dans un pool de serveurs de périphérie, procédez comme suit :'
 ms.openlocfilehash: 3d24eba1a24cf54da26b00b7b84b5b1b9fe52b61
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876235"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32203150"
 ---
 # <a name="edge-machine-settings-expander"></a>Développeur des paramètres de l’ordinateur Edge
  

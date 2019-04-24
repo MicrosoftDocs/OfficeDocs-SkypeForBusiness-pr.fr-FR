@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: d18ed85a-673d-4695-aa3f-ac83a38ab90a
 description: 'Résumé : Découvrez les compteurs de performance que vous pouvez utiliser pour analyser les serveurs exécutant l’API de Web Communications (UCWA) unifiée et le Skype pour Service de mobilité Business Server Mcx.'
 ms.openlocfilehash: 4d55dab133b7006f8a239560efb084fd2c61b917
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887955"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197652"
 ---
 # <a name="mobility-performance-counters-in-skype-for-business-server"></a>Compteurs de performances de mobilité dans Skype pour Business Server
  

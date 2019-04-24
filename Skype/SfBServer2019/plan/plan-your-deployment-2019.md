@@ -16,19 +16,19 @@ ms.custom: ''
 ms.assetid: ''
 description: 'Résumé : Explorez ces liens pour découvrir comment développer conceptuelles, logiques et physiques conceptions pour la configuration de Skype pour les fonctionnalités Business Server 2019, des serveurs et des topologies.'
 ms.openlocfilehash: 89d4dade1bf166cfd3f3e5156f4281acbdb8ff98
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883871"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32195676"
 ---
 # <a name="plan-for-your-skype-for-business-server-2019-deployment"></a>Planifier votre Skype pour le déploiement de Business Server 2019
  
 **Résumé :** Explorez ces liens pour découvrir comment développer conceptuelles, logiques et physiques conceptions pour la configuration de Skype pour les fonctionnalités Business Server 2019, des serveurs et des topologies.
   
-Skype pour Business Server propose la messagerie instantanée, présence, conférence, vidéo et les solutions de téléphonie pouvant prendre en charge les besoins de collaboration au niveau de l’entreprise. Cette rubrique fournit des liens vers des informations sur la façon de planifier une réussite Skype pour le déploiement de serveur d’entreprise. 
+Skype Entreprise Server offre des solutions de messagerie instantanée (MI), de présence, de conférence et de téléphonie capables de répondre aux besoins de collaboration des entreprises. Cette rubrique fournit des liens vers des informations sur la façon de planifier une réussite Skype pour le déploiement de serveur d’entreprise. 
   
-Les rédacteurs mettent à jour les articles en continu au fur et à mesure que de nouvelles informations sont disponibles et en fonction des retours des utilisateurs. Cette page étant mise à jour régulièrement, consultez-la souvent.
+Les rédacteurs mettent régulièrement à jour les articles au fur et à mesure que de nouvelles informations sont disponibles et que les utilisateurs fournissent des commentaires. Cette page étant mise à jour régulièrement, consultez-la souvent.
 ## <a name="visual-resources-about-how-to-plan-for-skype-for-business-server"></a>Ressources Visual sur la planification de Skype pour Business Server
 
 Afficher les ressources suivantes pour plus d’informations sur la planification de votre Skype pour le déploiement de serveur d’entreprise.
@@ -52,12 +52,12 @@ Les articles suivants sur la planification de Skype pour Business Server sont di
 |**[Planifier des conférences dans Skype Business Server](../../SfbServer/plan-your-deployment/conferencing/conferencing.md)** <br/><br/> Quelles sont les exigences de conférence pour votre organisation ? Read about web conferencing, A/V conferencing, and dial-in conferencing features and requirements.   |**[Planification de la sécurité dans Skype pour Business Server](../../SfbServer/plan-your-deployment/security/security.md)** <br/><br/>Trouvez des ressources sur l’authentification des utilisateurs, l’authentification de serveur à serveur et d’authentification d’application pour vous aider à comprendre et planifier l’authentification dans Skype pour Business Server.   |
 |**[Planification de la connectivité hybride](../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)**  <br/><br/>Les utilisateurs hébergés sur Skype locale pour Business Server et Skype pour Business Online avez-vous besoin ? If so, read about how you can set up a hybrid deployment that synchronizes both on-premises and online users across a single domain.   
    
-## <a name="additional-resources-about-planning-for-skype-for-business-server"></a>Ressources supplémentaires sur la planification de Skype pour Business Server
+## <a name="additional-resources-about-planning-for-skype-for-business-server"></a>Ressources supplémentaires sur la planification de Skype Entreprise Server
 
-Les ressources suivantes sur la planification de Skype pour Business Server sont disponibles auprès d’autres experts techniques. 
+Les ressources suivantes sur la planification de Skype Entreprise Server sont disponibles auprès d’autres experts techniques. 
   
 |&nbsp;&nbsp;&nbsp;|Contenu|Description|
 |:--- |:--- |:--- |
-|![Icône de DMC](../media/paragraph_writing.png)| [Skype pour Business Server pour les professionnels de l’informatique](https://go.microsoft.com/fwlink/p/?LinkId=527960)   |Visitez les centres de docs.microsoft.com et des ressources pour les vidéos access, sites de Communauté, documentation, téléchargements et plus d’informations.    |
-|![Icône du contenu de développeur](../media/developer.png)|[Plateforme de développement Skype](https://go.microsoft.com/fwlink/?LinkId=619775)   | Trouvez des ressources pour les développeurs pour Skype pour Business Server, y compris des exemples de code, des formations et des kits de développement logiciel.    |
-|![Icône des actualités, blogs, etc.](../media/blog_site.png) | <UL><LI>[Gestion des modifications et adoption](https://go.microsoft.com/fwlink/p/?LinkId=532796) </LI><LI>   [Blogs Office](https://go.microsoft.com/fwlink/p/?LinkId=528899) </li><li>[Blog technique Office 365](https://go.microsoft.com/fwlink/p/?LinkId=532798.aspx) </li><li>  [Blog de l’équipe Skype](https://go.microsoft.com/fwlink/p/?LinkId=532818) </li></ul>  |Tenez-vous informé des équipes qui créent et document Skype pour Business Server.    |
+|![Icône de DMC](../media/paragraph_writing.png)| [Skype Entreprise Server pour les professionnels de l’informatique](https://go.microsoft.com/fwlink/p/?LinkId=527960)   |Visitez les centres de docs.microsoft.com et des ressources pour les vidéos access, sites de Communauté, documentation, téléchargements et plus d’informations.    |
+|![Icône du contenu de développeur](../media/developer.png)|[Plateforme de développeur Skype](https://go.microsoft.com/fwlink/?LinkId=619775)   | Recherchez des ressources destinées aux développeurs pour Skype Entreprise Server, y compris des exemples de code, des formations et des kits de développement logiciel (SDK).    |
+|![Icône des actualités, blogs, etc.](../media/blog_site.png) | <UL><LI>[Adoption/gestion des changements](https://go.microsoft.com/fwlink/p/?LinkId=532796) </LI><LI>   [Blogs Office](https://go.microsoft.com/fwlink/p/?LinkId=528899) </li><li>[Blog technique Office 365](https://go.microsoft.com/fwlink/p/?LinkId=532798.aspx) </li><li>  [Blog de l'équipe Lync](https://go.microsoft.com/fwlink/p/?LinkId=532818) </li></ul>  |Suivez l’actualité des équipes qui créent et documentent Skype Entreprise Server.    |

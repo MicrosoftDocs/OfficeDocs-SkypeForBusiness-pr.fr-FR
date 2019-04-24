@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 6f729574-944e-4968-bdb8-eb483ff0ca88
 description: Cette documentation est préliminaire et sujette à modification. Des rubriques vides sont incluses comme espaces réservés.
 ms.openlocfilehash: 77cf1b98fba80a3e2b7ffdbe256a5374148cf6ce
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899588"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200322"
 ---
 # <a name="install-database-create-mirror-database-page"></a>Page Installer une base de données : créer une base de données miroir
  

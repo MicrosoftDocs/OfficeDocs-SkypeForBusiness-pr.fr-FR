@@ -14,11 +14,11 @@ ms.assetid: 11f5e359-97eb-45f7-a730-9ddbbaa40b83
 ROBOTS: NOINDEX, NOFOLLOW
 description: Pour préparer la forêt des Services de domaine Active Directory, vous devez correctement étendre le schéma, comme décrit dans la rubrique Préparation du schéma en cours d’exécution et vous assurer que le schéma a été répliqué.
 ms.openlocfilehash: 2e21b1b3ad2fbfd5ea4194b47710a09366707f64
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882228"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216675"
 ---
 # <a name="prepare-current-forest"></a>Préparer la forêt actuelle
 

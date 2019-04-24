@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 description: 'Pour modifier les paramètres d’un pool Edge de serveur unique ou de serveurs multiples, vous disposez des sections suivantes :'
 ms.openlocfilehash: 23162ee4100c077d072d6cc1d72946059611ce7f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889160"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32203115"
 ---
 # <a name="edge-settings-expander"></a>Expanseur des paramètres du pool de serveurs Edge
 

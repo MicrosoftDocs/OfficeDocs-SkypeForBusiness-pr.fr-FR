@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 4d316ae0-2a37-48b0-a3dc-468616ab4135
 description: 'Pour modifier les propriétés des magasins de fichiers définis :'
 ms.openlocfilehash: 0ea52144525e0f6b4960150214f3db55c8e7520e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891387"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32194048"
 ---
 # <a name="file-store-settings-expander"></a>Développeur des paramètres du magasin de fichiers
  

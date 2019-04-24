@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 9ff2c8fc-4ae8-4f22-96a8-1f4d5eecbf2d
 description: 'La table PurgeSettings contient des informations qui indiquent si (et quand) des détails des appels obsolètes seront automatiquement supprimés de la base de données CDR. Notez que le vidage-informations peuvent également être obtenues dans le Skype pour Business Server 2015 en exécutant la commande suivante :'
 ms.openlocfilehash: 10dd9c6969f84453c880de130222b3b9d71db77a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890894"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212837"
 ---
 # <a name="purgesettings-table"></a>Table PurgeSettings
  

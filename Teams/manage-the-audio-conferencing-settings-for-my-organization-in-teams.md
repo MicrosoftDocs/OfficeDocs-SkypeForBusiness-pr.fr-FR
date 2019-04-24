@@ -22,11 +22,11 @@ ms.custom:
 - Audio Conferencing
 description: 'Cette section explique la procédure d’attribution d’une licence de conférence rendez-vous et d’un ID de conférence Microsoft Teams à un utilisateur, ainsi que les autres paramètres de conférence rendez-vous. '
 ms.openlocfilehash: 201da13370852b6506fe7aa32f695d973bcc637a
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463891"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202764"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>Gérer les paramètres d'audioconférence de votre organisation dans Microsoft Teams.
 
@@ -110,7 +110,7 @@ Consultez la rubrique [Réinitialiser le code confidentiel de conférence Audio]
     > [!NOTE]
     > Lorsque vous faites cela, la conférence audio code confidentiel n’est pas envoyé à l’utilisateur. 
 
-Dans ce cas, le code confidentiel de conférence rendez-vous n'est pas envoyé à l'utilisateur.
+Reportez-vous à la rubrique [Envoyer un message électronique à un utilisateur avec leurs informations de conférence Audio](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md).
   
 ## <a name="set-the-phone-numbers-included-on-invites"></a>Définir les numéros de téléphone inclus dans les invitations
 
@@ -129,7 +129,7 @@ Voir [l’invite inclus sur les numéros de téléphone](set-the-phone-numbers-i
   
 ## <a name="choose-audio-conferencing-bridge-settings"></a>Choisir les paramètres de pont de conférence audio
 
-Configuration des paramètres du pont de conférence rendez-vous
+**Définir l’expérience lorsque les appelants participer à une réunion**
 
 ![les équipes-logo-30x30.png](media/teams-logo-30x30.png) **à l’aide du centre d’administration Microsoft équipes**
 
@@ -161,7 +161,7 @@ Voir [Modifier les paramètres d'un pont d'Audioconférence](change-the-settings
     Le code confidentiel doit comporter entre 4 et 12 chiffres. La valeur par défaut est 5.
 
     
-Le code confidentiel doit comporter de 4 à 12 chiffres. La valeur par défaut est 5.
+Voir [Modifier les paramètres d'un pont d'Audioconférence](change-the-settings-for-an-audio-conferencing-bridge.md).
   
  **Reportez-vous à la rubrique **Modification des paramètres d'un pont de conférence rendez-vous Microsoft**.**
 
@@ -192,7 +192,7 @@ Reportez-vous à la rubrique [Envoyer un message électronique à un utilisateur
 4. Cliquez sur **Enregistrer**.
 
 
-Vous pouvez également définir la langue principale et les langues secondaires prises en charge lorsque vous sélectionnez Microsoft comme fournisseur de conférences rendez-vous. L'ordre que vous sélectionnez dans les listes déroulantes correspondra à l'ordre dans lequel les langues sont proposées aux appelants.
+Reportez-vous à la rubrique [Définir les langues du standard automatique pour les conférences Audio](set-auto-attendant-languages-for-audio-conferencing-in-teams.md).
   
 ## <a name="see-audio-conferencing-dial-in-numbers"></a>Voir les numéros de services d’audioconférence rendez-vous
 
@@ -223,6 +223,6 @@ Pour plus d’informations sur Windows PowerShell, consultez la rubrique [Micros
     
 ## <a name="related-topics"></a>Rubriques connexes
 
-[Gérer les paramètres d'audioconférence d'un utilisateur](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
+[Gestion des paramètres d'audioconférence d'un utilisateur](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
 
 

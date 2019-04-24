@@ -15,11 +15,11 @@ description: Découvrez les outils disponibles pour qu'un administrateur ajoute 
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 27f1f344313111561c9f1c3a5e57dc1bd0ae20cb
-ms.sourcegitcommit: 7ca70e8a2108462afd505258b455169ead30f33f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "31041901"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202871"
 ---
 <a name="add-a-guest-to-a-team"></a>Ajouter un invité à une équipe
 =====================
@@ -41,7 +41,7 @@ Les utilisateurs invités que vous avez déjà été ajoutés par le biais d’A
 
 Vous pouvez suivre l'ajout d'invités dans Azure Active Directory ou dans le Centre de sécurité &amp; conformité d'Office 365. L'ajout d'un invité dans Microsoft Teams est audité et journalisé comme activité d'administration de groupe Azure AD « Membre ajouté au groupe ». Pour plus de détails, reportez-vous aux documents [Audit et création de rapports relatifs à un utilisateur B2B Collaboration](https://go.microsoft.com/fwlink/p/?linkid=858884) et [Effectuer des recherches dans le journal d'audit dans le Centre de sécurité &amp; conformité d'Office 365](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security--Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c).
 
-## <a name="guest-access-vs-external-access-federation"></a>Accès invité et l’accès externe (fédération)
+## <a name="guest-access-vs-external-access-federation"></a>Accès invité et accès externe (fédération)
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 

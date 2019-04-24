@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: e87b2255-3a00-4c74-b3d0-e0c3da702e3a
 description: Vous préparez à installer et activer ou désactiver et désinstaller Skype pour les composants Business Server 2015. Les processus qui s’exécutent sont définis par la configuration actuelle de la définition publiée dans le magasin de gestion centrale. Pour effectuer les tâches, vous devez être connecté en tant que membre du groupe Administrateurs local et, au minimum, vous devez être en mesure de lire les Services de domaine Active Directory.
 ms.openlocfilehash: 70ecb485bf1a642636aeca57c693b0f6357be2ec
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897544"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201180"
 ---
 # <a name="setup-or-remove-skype-for-business-server-components-intro"></a>Installer ou supprimer des composants Skype Entreprise Server (Introduction)
  
