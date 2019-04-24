@@ -14,14 +14,14 @@ localization_priority: Normal
 ms.assetid: 3dbf1649-3a4f-488b-85b3-70533939fe1c
 description: Pour définir les ordinateurs qui composent le pool de serveurs Edge, entrez le nom de domaine complet (FQDN) d’au moins un ordinateur appartenant au pool de serveurs Edge consolidé avec charge équilibrée.
 ms.openlocfilehash: f5e4eaf0fed8f7f8e41c60abac35685e3e2a9d6c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897287"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200207"
 ---
-# <a name="legacy-merge-add-machine"></a><span data-ttu-id="eaa85-103">Fusion héritée : ajouter un ordinateur</span><span class="sxs-lookup"><span data-stu-id="eaa85-103">Legacy Merge Add Machine</span></span>
+# <a name="legacy-merge-add-machine"></a><span data-ttu-id="06f10-103">Fusion héritée : ajouter un ordinateur</span><span class="sxs-lookup"><span data-stu-id="06f10-103">Legacy Merge Add Machine</span></span>
  
-<span data-ttu-id="eaa85-104">Pour définir les ordinateurs qui composent le pool de serveurs Edge, entrez le nom de domaine complet (FQDN) d’au moins un ordinateur appartenant au pool de serveurs Edge consolidé avec charge équilibrée.</span><span class="sxs-lookup"><span data-stu-id="eaa85-104">To define the computers that make up the Edge Server pool, enter the fully qualified domain name (FQDN) of at least one computer that is part of the legacy load-balanced, consolidated Edge pool.</span></span> 
+<span data-ttu-id="06f10-104">Pour définir les ordinateurs qui composent le pool de serveurs Edge, entrez le nom de domaine complet (FQDN) d’au moins un ordinateur appartenant au pool de serveurs Edge consolidé avec charge équilibrée.</span><span class="sxs-lookup"><span data-stu-id="06f10-104">To define the computers that make up the Edge Server pool, enter the fully qualified domain name (FQDN) of at least one computer that is part of the legacy load-balanced, consolidated Edge pool.</span></span> 
   
 

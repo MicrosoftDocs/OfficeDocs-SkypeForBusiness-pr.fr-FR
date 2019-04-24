@@ -1,6 +1,6 @@
 ---
-title: Les équipes Microsoft salles
-ms.reviewer: null
+title: Salles Microsoft Teams
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,9 +12,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Les considérations de planification pertinentes pour le déploiement de salles d’équipes Microsoft et comment déployer et gérer le système.
+ms.openlocfilehash: 078554d7d480507f7966abe844ce9aa8eef8c851
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206196"
 ---
-
-<h2>Les équipes Microsoft salles</h2>
+<h2>Salles Microsoft Teams</h2>
 <ul class="panelContent cardsW cols cols2">
     <li>
         <div class="cardSize">
@@ -56,7 +61,7 @@ description: Les considérations de planification pertinentes pour le déploieme
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Offre</h3>
+                        <h3>Plan</h3>
                     </div>
                 </div>
             </div>
