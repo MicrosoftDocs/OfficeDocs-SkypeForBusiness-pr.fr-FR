@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: 5ca71746-ead6-4e8c-90b1-461e846d1f4a
 description: Cet article explique comment utiliser modernes d’authentification (qui est basé sur la bibliothèque de l’authentification Active Directory (ADAL) et OAuth 2.0) qui peuvent se trouver dans le 2016 mars mise à jour Cumulative pour Skype pour les entreprises pour Skype pour Business Server 2015.
 ms.openlocfilehash: d6e78d60371b56c3a2cc959ded0ec7d7394d82cb
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894071"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32191522"
 ---
 # <a name="how-to-use-modern-authentication-adal-with-skype-for-business"></a>Comment utiliser l’authentification moderne (ADAL) avec Skype Entreprise
  
