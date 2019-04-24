@@ -14,11 +14,11 @@ ms.collection: IT_Skype16
 ms.assetid: 3543eb40-54f4-49ef-a058-03aceed4773a
 description: Skype pour Business Server offre une haute disponibilité avec le pool, la récupération d’urgence de jumelage des pools et plusieurs modes de haute disponibilité du serveur principal, y compris les groupes de disponibilité AlwaysOn, la mise en miroir de base de données et le clustering de basculement SQL de serveur.
 ms.openlocfilehash: 9e48fa65572dea5c0e6a297397d2a502cefcdc36
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875256"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214060"
 ---
 # <a name="plan-for-high-availability-and-disaster-recovery-in-skype-for-business-server"></a>Planification de la haute disponibilité et récupération d’urgence dans Skype Business Server
  

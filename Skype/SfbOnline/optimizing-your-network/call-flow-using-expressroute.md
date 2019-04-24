@@ -20,11 +20,11 @@ ms.custom:
 - Optimization
 description: Cet article décrit les principes du flux d'appels pour Skype Entreprise Online et ExpressRoute, et vous présente des exemples détaillés de flux d'appels afin de vous permettre de comprendre et de planifier correctement.
 ms.openlocfilehash: 2406badc671fec8ede36039ebf230115a5920e97
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23861076"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213022"
 ---
 # <a name="call-flow-using-expressroute"></a>Flux d'appels avec ExpressRoute
 
@@ -231,7 +231,7 @@ Les utilisateurs qui se connectent à la version Cloud Connector sont tous domic
 |Appel RTC  <br/> |Utilisateur en ligne sur votre réseau utilisant la version Cloud Connector.  <br/> |local  <br/> |local  <br/> |[Appel RTC utilisant Skype Entreprise version Cloud Connector](call-flow-using-expressroute.md#bk_Figure6) <br/> ||
 |Appel RTC  <br/> |Utilisateur en ligne sur Internet utilisant la version Cloud Connector.  <br/> |Internet  <br/> |Internet  <br/> |Combinaison de [serveur Edge sur site avec Office 365 hébergé des conférences](call-flow-using-expressroute.md#bk_Figure5) et [PSTN d’appel à l’aide de Skype pour l’édition de connecteur Business Cloud](call-flow-using-expressroute.md#bk_Figure6).  <br/> |Les utilisateurs sur Internet se connecteront via le serveur Edge inclus dans Cloud Connector, et Cloud Connector se connectera au réseau RTC.  <br/> |
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Documentation ExpressRoute](https://go.microsoft.com/fwlink/?LinkId=690285)
 

@@ -17,13 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-- Skype for Business Online
-ms.openlocfilehash: d8365792ead4422786d8e54c2541ff42d79f35b6
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 3f97e3a22122b08c9b554d0c1a395a8d714d92e1
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464315"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227617"
 ---
 <a name="upgrade-microsoft-teams-free-to-office-365-subscription-version"></a>Mettre à niveau la version gratuite de Microsoft Teams vers la version avec abonnement d'Office 365
 ======================================================
@@ -95,4 +94,5 @@ Une fois la mise à niveau terminée, voir [prendre en main les équipes Microso
 - Pour en savoir plus sur les versions des équipes et leurs fonctionnalités, voir [équipes comparer les plans](https://products.office.com/microsoft-teams/free).
 - Pour plus d’informations sur la mise à niveau vers la version complète d’équipes, consultez [mise à niveau des équipes libres d’équipes](https://support.office.com/article/Upgrade-from-Teams-free-to-Teams-29475bbd-a34f-4175-9b33-d44430f8ad39).
 - Pour les tâches d’administration supplémentaires associées à la mise à niveau des utilisateurs, y compris l’ajout de licences d’utilisateur, modification du nom d’utilisateur et l’attribution de mots de passe temporaires, voir [pour les administrateurs mise à niveau des équipes gratuites en abonnement payant](https://support.office.com/article/for-admins-upgrading-from-teams-free-to-a-paid-subscription-75a95e7f-001e-42d0-a787-ae8b992d5a52).
+- Pour plus d’informations sur la gestion des équipes libres dans votre organisation, voir [Gérer la version gratuite d’équipes Microsoft](manage-freemium.md).
 

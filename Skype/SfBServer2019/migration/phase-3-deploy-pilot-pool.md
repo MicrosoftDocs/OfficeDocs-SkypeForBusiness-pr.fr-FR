@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: f12b1517-fb56-4ded-8323-57aa9fc9ea48
 description: Cette section décrit les étapes nécessaires pour déployer un pool pilote de Skype pour Business Server 2019. Le déploiement de Skype pour Business Server 2019 nécessite à l’aide du Générateur de topologie pour définir votre topologie et les composants que vous souhaitez déployer, préparation de votre environnement pour le déploiement de la Skype pour les composants Business Server 2019 publier votre topologie conception sur le premier serveur frontal, puis l’installation et en configurant Skype pour le logiciel Business Server 2019 pour les composants requis pour votre déploiement. Une fois terminé, votre Skype pour le déploiement du pool pilote Business Server 2019 vont coexister avec un pool hérité existant.
 ms.openlocfilehash: 457b2daad926b3e2f15c1673cadea5cd249cf99f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880270"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231552"
 ---
 # <a name="phase-3-deploy-skype-for-business-server-2019-pilot-pool"></a>Phase 3 : Déploiement Skype pour le pool pilote Business Server 2019
 

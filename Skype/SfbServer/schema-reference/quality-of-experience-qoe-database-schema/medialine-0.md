@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 414b1d63-ae97-4c27-bac0-c9ad0f808ff0
 description: Chaque enregistrement représente une ligne de média. (Une seule session audio généralement contient une seule ligne de média audio. Un audio et vidéo (A / V) session généralement contient un média audio et une ligne de média vidéo, bien que la session peut contenir deux lignes de média vidéo si un périphérique de conférence est utilisé ou si le mode d’affichage galerie est utilisé.
 ms.openlocfilehash: 11c309091211ce0bc480fa032e0f1dbbbbf533cd
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896069"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212543"
 ---
 # <a name="medialine-table"></a>Table MediaLine
  

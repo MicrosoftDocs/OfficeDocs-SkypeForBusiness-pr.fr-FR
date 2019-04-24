@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Effectuer une récupération système pour une Skype pour Business server du pool tester votre processus de récupération d’urgence documentée
 ms.openlocfilehash: 876470f0e4193f02efe0a2094be80f7bdf891fdd
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884963"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214735"
 ---
 # <a name="disaster-recovery-testing-in-skype-for-business-server"></a>Récupération d’urgence test dans Skype pour Business Server
 

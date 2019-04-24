@@ -20,11 +20,11 @@ ms.custom:
 - Optimization
 description: 'Learn about using Azure ExpressRoute to have a network with bandwidth requirements and Quality of Service capability for a business class user experience. '
 ms.openlocfilehash: 81cc2f0c959bb4c611abc7ff198e6c5befc58c21
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23865266"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32210855"
 ---
 # <a name="expressroute-and-qos-in-skype-for-business-online"></a>ExpressRoute et qualité de service (QoS) dans Skype Entreprise Online
 
@@ -149,11 +149,11 @@ Pour Dewey Law LLC, nous avons défini trois rôles : « Cadre/Partenaire », «
   
  **Personnages et profils d'utilisation (colonnes A à P de la feuille de travail « Persona »)**
   
-|**Personnage**|**Messagerie instantanée/Présence**|**Sessions P2P audio**|**Sessions P2P vidéo**|**Conférences audio**|**Conférences vidéo**|**Partage de Bureau**|**Audioconférence**|**Lync 2010 RTV_Type**|**Utilisateurs distants**|**Lync 2013 Contenu audio stéréo**|**Lync 2013 Qualité vidéo**|**Lync 2013 Fenêtre Comportement des utilisateurs pour les sessions P2P vidéo**|**Lync 2013 Utilisation des vues multiples**|
+|**Personnage**|**Messagerie instantanée/Présence**|**Sessions P2P audio**|**Sessions P2P vidéo**|**Conférences audio**|**Conférences vidéo**|**Partage de Bureau**|**Audioconférence,**|**Lync 2010 RTV_Type**|**Utilisateurs distants**|**Lync 2013 Contenu audio stéréo**|**Lync 2013 Qualité vidéo**|**Lync 2013 Fenêtre Comportement des utilisateurs pour les sessions P2P vidéo**|**Lync 2013 Utilisation des vues multiples**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Cadre/ Partenaire  <br/> |Haut  <br/> |Moyen  <br/> |Bas  <br/> |Moyen  <br/> |Moyen  <br/> |Aucun  <br/> |Moyen  <br/> |CIF  <br/> |0 %  <br/> |0 %  <br/> |Optimal  <br/> |Classique  <br/> |Classique  <br/> |
-|Associé/ Assistant juridique  <br/> |Haut  <br/> |Moyen  <br/> |Bas  <br/> |Moyen  <br/> |Haut  <br/> |Haut  <br/> |Moyen  <br/> |CIF  <br/> |0 %  <br/> |0 %  <br/> |Moyen  <br/> |Classique  <br/> |Classique  <br/> |
-|Administrateurs informatiques  <br/> |Haut  <br/> |Moyen  <br/> |Aucun  <br/> |Bas  <br/> |Aucun  <br/> |Aucun  <br/> |Moyen  <br/> |CIF  <br/> |0 %  <br/> |0 %  <br/> |Moyen  <br/> |Classique  <br/> |Classique  <br/> |
+|Cadre/ Partenaire  <br/> |Haut  <br/> |Moyen  <br/> |Bas  <br/> |Moyenne  <br/> |Moyenne  <br/> |Aucun  <br/> |Moyen  <br/> |CIF  <br/> |0%  <br/> |0 %  <br/> |Optimal  <br/> |Classique  <br/> |Classique  <br/> |
+|Associé/ Assistant juridique  <br/> |Élevée  <br/> |Moyen  <br/> |Bas  <br/> |Moyen  <br/> |Haut  <br/> |Élevée  <br/> |Moyen  <br/> |CIF  <br/> |0%  <br/> |0 %  <br/> |Moyen  <br/> |Classique  <br/> |Classique  <br/> |
+|Administrateurs informatiques  <br/> |Haut  <br/> |Moyen  <br/> |Aucun  <br/> |Bas  <br/> |Aucun  <br/> |Aucun  <br/> |Moyen  <br/> |CIF  <br/> |0%  <br/> |0 %  <br/> |Moyen  <br/> |Classique  <br/> |Classique  <br/> |
    
 Vous devrez saisir les informations dans le tableau **Répartition des utilisateurs par emplacements et postes** ci-dessus dans la feuille de calcul « Sites » de l'outil de calcul de bande passante Lync 2010 et Lync 2013. Comme le nombre d'utilisateurs est identique dans les bureaux régionaux, les utilisateurs sont affectés au même site, auquel trois instances sont associées. La même approche s'applique aux grandes et aux petites succursales comptant respectivement 24 et 50 utilisateurs par site.
   
@@ -322,7 +322,7 @@ La norme IEEE 802.1p utilise un point de code de priorité (PCP) 3 bits pour ide
 |:-----|:-----|:-----|:-----|
 |7  <br/> |7  <br/> |NC  <br/> |Contrôle du réseau  <br/> |
 |6  <br/> |6  <br/> |IC  <br/> |Contrôle inter réseau  <br/> |
-|5  <br/> |5  <br/> |VO  <br/> |Voix  <br/> |
+|5  <br/> |5  <br/> |VO  <br/> |Audio  <br/> |
 |4  <br/> |4  <br/> |VI  <br/> |Vidéo  <br/> |
 |3  <br/> |3  <br/> |CA  <br/> |Applications critiques  <br/> |
 |2  <br/> |2  <br/> |EE  <br/> |Excellent effort  <br/> |
@@ -401,7 +401,7 @@ La fourniture constante de services voix et vidéo en temps réel de qualité pr
   
 Des outils d'entreprise efficaces doivent avoir un fonctionnement fiable et homogène et fournir une expérience encourageant les utilisateurs à les adapter. D'un point de vue réseau, cela signifie qu'il faut disposer d'une infrastructure réseau, à la fois locale et globale, fixe et mobile, permettant cela. La planification, la conception, la mise en œuvre et la maintenance de cette infrastructure ne sont pas toujours aisées. Le matériel, les outils et les services réseau qui permettent d'y parvenir sont disponibles aujourd'hui, mais les informaticiens doivent être conscients que ceux-ci sont conçus, mis en œuvre et maintenus d'une manière qui garantit que les utilisateurs bénéficient d'un ensemble de services de communication et de collaboration qui leur permettent de travailler efficacement et que l'organisation peut tirer pleinement profit des possibilités de cette technologie. 
   
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Documentation ExpressRoute](https://go.microsoft.com/fwlink/?LinkId=690285)
 

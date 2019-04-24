@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Si vous avez déployé le serveur d’archivage et le serveur de surveillance dans votre environnement hérité, vous pouvez déployer ces serveurs dans votre Skype pour Business Server 2019 environnement après avoir fait migrer vos pools frontaux. Toutefois, si l’archivage et la fonctionnalité d’analyse sont critiques pour votre organisation, vous devez ajouter l’archivage et d’analyse à votre Skype pour le pool pilote Business Server 2019 avant de migrer afin que la fonctionnalité est disponible pendant le processus de migration.
 ms.openlocfilehash: 24dc3e3007fd9a58c23f9c15a31cccc766d45e83
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896091"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231643"
 ---
 # <a name="migrating-archiving-and-monitoring-servers"></a>Migration des serveurs d’archivage et de surveillance
 

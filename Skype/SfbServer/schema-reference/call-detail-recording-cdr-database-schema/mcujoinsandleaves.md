@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 4e073366-0b5d-45b4-a3f6-d63dd5fd9f25
 description: Chaque enregistrement de cette table contient des détails des appels sur une combinaison d’un serveur de participation ou laissez et de conférence utilisateur. Par exemple, si un utilisateur joint à une conférence qui inclut les éléments audio/vidéo et conférence web, un enregistrement doit être créé pour participer à une conférence de l’utilisateur web et un autre enregistrement doit être créé pour participer à une conférence audio/vidéo de l’utilisateur.
 ms.openlocfilehash: 7a31564ed770c956baa0ef7e968d0fba1dc3fd7d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894949"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212979"
 ---
 # <a name="mcujoinsandleaves-table-in-skype-for-business-server-2015"></a>Table McuJoinsAndLeaves dans Skype pour Business Server 2015
  

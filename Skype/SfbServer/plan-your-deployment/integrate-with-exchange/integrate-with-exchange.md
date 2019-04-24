@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: ea22beb9-c02e-47cb-836d-97a556969052
 description: 'Résumé : Passez en revue cette rubrique pour plus d’informations sur l’intégration de Skype pour Business Server avec Exchange Server 2016 ou Exchange Server 2013.'
 ms.openlocfilehash: 3e94e1ab399e8a8a825826e37a281b377a31037e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892335"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213927"
 ---
 # <a name="plan-to-integrate-skype-for-business-and-exchange"></a>Planifier l’intégration de Skype Entreprise et d’Exchange
  

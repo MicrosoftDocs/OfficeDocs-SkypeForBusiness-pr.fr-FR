@@ -14,11 +14,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Cet article décrit comment configurer les plages de ports pour les serveurs Edge et comment configurer une stratégie de qualité de Service pour votre A / V les serveurs de périphérie.
 ms.openlocfilehash: 11fdb542c6256c21e169480194bc5154bf1c1428
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886373"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214932"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-edge-servers-in-skype-for-business-server"></a>Configuration des plages de ports et d’une stratégie de qualité de Service pour vos serveurs Edge dans Skype pour Business Server
 

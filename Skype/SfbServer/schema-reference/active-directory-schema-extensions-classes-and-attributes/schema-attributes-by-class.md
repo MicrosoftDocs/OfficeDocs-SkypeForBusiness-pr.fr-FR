@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 72726b43-f1ea-458c-9304-a26e8a12128c
 description: Cette section répertorie les attributs de schéma qui peuvent être inclus dans chaque Skype pour Business Server classe et les classes qui peuvent être contenus dans d’autres classes. Pour obtenir la liste de toutes les classes et leurs descriptions, voir classes de schéma et les descriptions de Skype pour Business Server. Pour obtenir la liste de tous les attributs et leurs descriptions, voir attributs de schéma et les descriptions de Skype pour Business Server.
 ms.openlocfilehash: a2dc6ee09730c1245a3242f88ad25ad07f9b582a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880888"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213367"
 ---
 # <a name="schema-attributes-by-class-in-skype-for-business-server"></a>Attributs de schéma par classe dans Skype pour Business Server
  

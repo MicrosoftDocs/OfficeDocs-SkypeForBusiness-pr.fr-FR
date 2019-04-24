@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: fa6fef59-9d3a-4bda-acda-960734e4cb1a
 description: Avant de commencer votre migration vers Skype pour Business Server 2019, suivez les étapes décrites dans cette section.
 ms.openlocfilehash: 2895472119aa7effe5562817713b29cefe338dcc
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878378"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231566"
 ---
 # <a name="phase-2-prepare-for-migration"></a>Étape 2 : Préparer la migration
 

@@ -30,11 +30,11 @@ ms.custom:
 - Licensing
 description: 'Apprenez à payer pour les crédits de Communication (consommation PSTN) Skype pour les services et voir plans pour conserver vos utilisateurs avec un accès système téléphonique continue. '
 ms.openlocfilehash: 0305e432534188f0dd8276fb29c9c764cc26bfeb
-ms.sourcegitcommit: 4e750efd107dfc9bfd8b09d64abd40e0e27734de
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "30948340"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231805"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>Ajouter des fonds et gérer les Crédits de Communications
 
@@ -80,11 +80,11 @@ Vous pouvez également voir des informations en [vous connectant au centre d’a
   
 Pour obtenir un tableau avec la licence ou les licences que vous aurez besoin pour chaque fonctionnalité, voir [Gestion des licences de module complémentaire équipes Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 - [Configurer Skype entreprise Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     
-- [Configurer la messagerie vocale dans le nuage - aide d’administration](set-up-phone-system-voicemail.md)
+- [Configuration de la messagerie vocale Cloud-Aide pour l'administrateur](set-up-phone-system-voicemail.md)
     
 - [Configurer des Forfaits d’appels](set-up-calling-plans.md) et [Forfaits d’appels pour Office 365](calling-plans-for-office-365.md)
         

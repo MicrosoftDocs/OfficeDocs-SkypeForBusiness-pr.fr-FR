@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: ea024a26-37b3-410e-961b-83ab85c07540
 description: 'Résumé : Lisez cette rubrique pour en savoir plus sur la planification des conférences rendez-vous dans Skype pour Business Server.'
 ms.openlocfilehash: 5ea5b6db3c04d9827502a2b7632b409ac7b8ebdc
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893278"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214399"
 ---
 # <a name="plan-for-dial-in-conferencing-in-skype-for-business-server"></a>Planifier des conférences rendez-vous dans Skype Business Server
  

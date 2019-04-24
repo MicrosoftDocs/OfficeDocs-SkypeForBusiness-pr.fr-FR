@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Les rubriques de cette section expliquent comment ajouter un Skype pour Business Server 2019 Edge Server pour le déploiement du pool pilote. Les rubriques fournissent des instructions de configuration et de vérification lors de l’exécution de l’Assistant déployer un nouveau Edge du pool.
 ms.openlocfilehash: c7da85f000fad55b27ed376d40bed957edf8dd6c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898989"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231517"
 ---
 # <a name="phase-5-add-skype-for-business-server-2019-edge-server-to-pilot-pool"></a>Phase 5 : Ajoutez Skype pour Business Server 2019 Edge Server vers le pool pilote
 

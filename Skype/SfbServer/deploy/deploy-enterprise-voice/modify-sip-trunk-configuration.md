@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 7d68b09c-9ea0-43bd-997c-df887869d607
 description: 'Résumé : Découvrez comment modifier les paramètres de configuration de jonction SIP à l’aide de la Skype pour le panneau de configuration serveur Business.'
 ms.openlocfilehash: 6fbae1279ec1734cd67269651c65dc7c278ca3a3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898697"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223026"
 ---
 # <a name="modify-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Modifier les paramètres de configuration jonction SIP dans Skype pour Business Server
  
@@ -51,12 +51,12 @@ Lorsque vous modifiez les paramètres de configuration de jonction SIP à l’ai
 |Activer les données de transfert P-Asserted-Identity  <br/> |ForwardPAI  <br/> |Indique si l’en-tête P-Asserted-Identity (PAI) sera transféré avec l’appel. L’en-tête PAI permet de vérifier l’identité de l’appelant.  <br/> |
 |Activer le minuteur de basculement de routage de trafic sortant  <br/> |EnableFastFailoverTimer  <br/> |Indique si les appels sortants auxquels la passerelle ne répond pas dans les 10 secondes seront routés vers la jonction suivante disponible. En l’absence d’autre jonction, l’appel est abandonné automatiquement. Dans une organisation avec des réponses de passerelle ou réseau lentes, cela peut entraîner l’abandon de nombreux appels.  <br/> |
 |Utilisations RTC associées  <br/> |PSTNUsages  <br/> |Collection d’utilisations RTC affectées à la jonction.  <br/> |
-|Numéro converti à tester  <br/> |N/A  <br/> |Numéro de téléphone pouvant être utilisé pour effectuer un test ad hoc des paramètres de configuration des jonctions.  <br/> |
+|Numéro converti à tester  <br/> |S/O  <br/> |Numéro de téléphone pouvant être utilisé pour effectuer un test ad hoc des paramètres de configuration des jonctions.  <br/> |
 |Règles de conversion associées  <br/> |OutboundTranslationRulesList  <br/> |Collection de règles de conversion de numéros de téléphone qui s’appliquent aux appels gérés par le routage sortant (appels routés vers les destinations PBX ou RTC).  <br/> |
 |Règles de conversion du numéro appelé  <br/> |OutboundCallingNumberTranslationRulesList  <br/> |Collection de règles de conversion de numéro d’appel sortant affectées à la jonction.  <br/> |
-|Numéro de téléphone à tester  <br/> |N/A  <br/> |Numéro de téléphone pouvant être utilisé pour effectuer un test ad hoc des règles de conversion.  <br/> |
-|Numéro appelant  <br/> |N/A  <br/> |Indique que le numéro de téléphone à tester est celui de l’appelant.  <br/> |
-|Numéro appelé  <br/> |N/A  <br/> |Indique que le numéro de téléphone à tester est celui de la personne appelée.  <br/> |
+|Numéro de téléphone à tester  <br/> |S/O  <br/> |Numéro de téléphone pouvant être utilisé pour effectuer un test ad hoc des règles de conversion.  <br/> |
+|Numéro appelant  <br/> |S/O  <br/> |Indique que le numéro de téléphone à tester est celui de l’appelant.  <br/> |
+|Numéro appelé  <br/> |S/O  <br/> |Indique que le numéro de téléphone à tester est celui de la personne appelée.  <br/> |
    
 > [!NOTE]
 > Les applets de commande Lync Server CsTrunkConfiguration prend en charge les propriétés supplémentaires non affichées dans le panneau de configuration Lync Server. Pour plus d’informations, consultez la rubrique d’aide pour l’applet de commande [Set-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cstrunkconfiguration?view=skype-ps) .
