@@ -25,11 +25,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: a6fe072d3ffa8764b0c5f86347db4c187e18b046
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30649235"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223069"
 ---
 # <a name="upgrade-to-teams"></a>Mise à niveau vers Teams
 
@@ -43,7 +43,7 @@ Félicitations pour votre mise à niveau en attente de Skype pour les entreprise
 
 > [!Tip]
 > Regardez les sessions suivantes pour en savoir plus sur la mise à niveau à partir de Skype pour Business Teams Microsoft :
-> - [Introduction à la mise à niveau](https://aka.ms/teams-upgrade-intro)
+> - [Présentation de la mise à niveau](https://aka.ms/teams-upgrade-intro) 
 > - [Planifier votre mise à niveau](https://aka.ms/teams-upgrade-plan)
-> - [Interopérabilité et coexistence](https://aka.ms/teams-upgrade-coexistence-interop)
+> - [Coexistence et interopérabilité](https://aka.ms/teams-upgrade-coexistence-interop)
 > - [Expérience de l’administrateur](https://aka.ms/teams-upgrade-admin)

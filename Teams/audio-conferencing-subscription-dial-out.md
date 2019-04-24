@@ -1,5 +1,5 @@
 ---
-title: Abonnement de conférence audio « Rendez-vous » / « Appel m’au » avantages
+title: Avantage de l’abonnement conférence audio « Appel sortant » / « Appeler Moi à »
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,13 +22,13 @@ ms.custom:
 - Licensing
 description: 'Les clients ont été fournies à une fonctionnalité d’appel sortant gratuite qui se termine le 30 novembre 2019.  Début 1 décembre 2019, chaque abonnement de services d’audioconférence fournit 60 minutes par utilisateur et par mois à n’importe lequel des pays Zone A comme décrit dans ce document. '
 ms.openlocfilehash: 890441987eb0f08d67afe8a7f231c9a534c59a7f
-ms.sourcegitcommit: 7fe8daf07013d7c532f128a3ae3bbf51d1b2aac9
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/11/2019
-ms.locfileid: "31809426"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198615"
 ---
-# <a name="audio-conferencing-subscription-dial-outcall-me-at-benefit"></a>Abonnement de conférence audio « Rendez-vous » / « Appel m’au » avantages
+# <a name="audio-conferencing-subscription-dial-outcall-me-at-benefit"></a>Avantage de l’abonnement conférence audio « Appel sortant » / « Appeler Moi à »
 
 ## <a name="microsoft-teams-and-skype-for-business-pstn-audio-conferencing"></a>Les équipes Microsoft et Skype pour la conférence Audio PSTN de métiers
 

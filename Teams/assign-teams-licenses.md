@@ -15,11 +15,11 @@ description: Découvrez comment attribuer des licences pour des fonctionnalités
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 46966b7cad855ef6336b501564cde89dffd6b2b2
-ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
-ms.locfileid: "31993628"
+ms.locfileid: "32198736"
 ---
 # <a name="assign-microsoft-teams-licenses"></a>Affecter des licences Microsoft Teams
 
@@ -190,7 +190,7 @@ Les étapes sont les mêmes que pour affecter un licence Office 365. Consultez l
 
 Jetez un œil à l’exemple de script pour l’attribution de licences de conférence Audio. Mettre à jour avec les informations de l’attribution de licences crédits Communications.
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Configurer des forfaits d'appels](set-up-calling-plans.md)
 </br>

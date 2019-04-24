@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: cb07d783-e084-4256-a928-a67a6ac006cb
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
 ms.openlocfilehash: 4463b5bcf8c5cbc34b33de5f2d33063d6a2b3ec8
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891215"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200357"
 ---
 # <a name="voice-policy-create-new-or-edit-existing"></a>Stratégie de la voix : en créer une autre ou en modifier une existante
 

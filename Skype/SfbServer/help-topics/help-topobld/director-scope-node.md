@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 790396f1-9821-45cd-906d-80c1f170f5ef
 description: 'Ce nœud affiche le nom de domaine complet (FQDN), les ports et le magasin de fichiers associé pour ce pool directeur. Vous pouvez effectuer les actions suivantes :'
 ms.openlocfilehash: e69f2dfca8799ed8627fe7f1dc3f37db124185ba
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882078"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227528"
 ---
 # <a name="director-scope-node"></a>Nœud d’étendue du directeur
  

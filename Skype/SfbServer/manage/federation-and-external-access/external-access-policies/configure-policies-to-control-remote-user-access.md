@@ -14,11 +14,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Vous configurez une ou plusieurs stratégies d’accès utilisateur externe au contrôle si les utilisateurs distants peuvent collaborer avec Skype interne pour les utilisateurs Business Server. Pour contrôler l’accès des utilisateurs distants, vous pouvez configurer des stratégies au niveau global, site et au niveau utilisateur.
 ms.openlocfilehash: f6d316f022e671bc7f7e70ebbe2a801b0b3e312c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899532"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199890"
 ---
 # <a name="configure-policies-to-control-remote-user-access-in-skype-for-business-server"></a>Configurer des stratégies de contrôle d’accès des utilisateurs distants dans Skype pour Business Server
 

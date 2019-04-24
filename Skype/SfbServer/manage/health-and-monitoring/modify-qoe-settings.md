@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: a6b41de2-1466-4240-8a70-14ce6f0f3ddc
 description: 'Résumé : Découvrez comment spécifier la conservation des données QoE dans Skype pour Business Server.'
 ms.openlocfilehash: 4a2197d3d66a5b871682ba187bf607480f2da175
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887455"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197764"
 ---
 # <a name="modify-quality-of-experience-settings-in-skype-for-business-server"></a>Modifier les paramètres de qualité de l’expérience dans Skype pour Business Server
 

@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 4e4a96c5-200a-41ac-8b55-5155eacafb82
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
 ms.openlocfilehash: fa06ceca4c4003bc3bac36325b162514afdb7200
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897969"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200754"
 ---
 # <a name="normalization-rule-create-new-or-edit-existing"></a>Règle de normalisation : en créer une autre ou en modifier une existante
 

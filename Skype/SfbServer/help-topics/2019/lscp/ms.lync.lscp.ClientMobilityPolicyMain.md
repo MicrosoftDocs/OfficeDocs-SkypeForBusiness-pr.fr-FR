@@ -14,11 +14,11 @@ ms.assetid: 6ab53530-143d-4f1e-90cd-a92685f98a20
 ROBOTS: NOINDEX, NOFOLLOW
 description: La page Stratégie de mobilité des clients affiche les stratégies de mobilité disponibles dans votre déploiement.
 ms.openlocfilehash: 6aa41d784f59767c62f2dc0d67440b8098009457
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894078"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215821"
 ---
 # <a name="clients-mobility-policy"></a>Clients : stratégie de mobilité
 

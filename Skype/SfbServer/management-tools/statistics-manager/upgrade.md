@@ -12,17 +12,17 @@ ms.collection: IT_Skype16
 ms.assetid: 71f5d0a0-ca81-4ac1-b590-8f854504f21f
 description: 'Résumé : Lisez cette rubrique pour savoir comment mettre à niveau des statistiques de gestionnaire de Skype pour Business Server.'
 ms.openlocfilehash: 8ff7eeb9c0abbd0482248f9b69db4013edda6495
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897128"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198453"
 ---
 # <a name="upgrade-statistics-manager-for-skype-for-business-server"></a>Mise à niveau du gestionnaire de statistiques pour Skype Entreprise Server
  
 **Résumé :** Lisez cette rubrique pour savoir comment mettre à niveau des statistiques de gestionnaire de Skype pour Business Server.
   
-Cette rubrique décrit comment mettre à niveau une installation existante du Gestionnaire de statistiques de Skype pour Business Server, un outil puissant qui vous permet d’afficher Skype pour les données de performances et d’intégrité Business Server en temps réel. Vous pouvez interroger les données de performance sur des centaines de serveurs après quelques secondes et afficher les résultats instantanément sur le site Web de gestionnaire de statistiques. 
+Cette rubrique décrit comment mettre à niveau une installation existante du Gestionnaire de statistiques de Skype pour Business Server, un outil puissant qui vous permet d’afficher Skype pour les données de performances et d’intégrité Business Server en temps réel. Vous pouvez interroger les données de performances sur des centaines de serveurs à des intervalles de quelques secondes et afficher les résultats instantanément sur le site Web de Gestionnaire de Statistiques. 
   
 Pour plus d’informations sur les statistiques Manager et les nouvelles fonctionnalités dans la version 2.0, voir [Planifier pour le Gestionnaire de statistiques de Skype pour Business Server](plan.md) et [Déployer des statistiques responsable Skype pour Business Server](deploy.md).
   
@@ -102,10 +102,10 @@ Si, pour une raison ou pour une autre, la mise à niveau automatique échoue, vo
 2. 	Installez les nouvelles versions de ces composants, y compris les valeurs que vous avez enregistrées précédemment lorsqu’elles vous sont demandées. Pour plus d’informations sur l’installation des composants, consultez la rubrique [Deploy Statistics Manager](deploy.md#BKMK_Deploy)
 
     
-## <a name="for-more-information"></a>Pour plus d’informations
+## <a name="for-more-information"></a>Pour plus d'informations
 <a name="BKMK_Fixed"> </a>
 
-Pour plus d’informations, voir les articles suivants :
+Pour plus d'informations, voir les articles suivants :
   
 - [Planifier le gestionnaire de statistiques pour Skype Entreprise Server](plan.md)
     

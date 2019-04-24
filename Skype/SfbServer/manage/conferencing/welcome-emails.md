@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 5507827b-6f8d-4ea4-94e6-1cf72c1d38eb
 description: 'Résumé : Découvrez comment Bienvenue aux utilisateurs de conférence rendez-vous dans Skype pour Business Server.'
 ms.openlocfilehash: 51c4dbc04b44cb33e27cbe09f22608836485e9ad
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898493"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197736"
 ---
 # <a name="send-welcome-email-to-dial-in-users-in-skype-for-business-server"></a>Envoyer un message électronique de Bienvenue à distance en les utilisateurs de Skype pour Business Server
  

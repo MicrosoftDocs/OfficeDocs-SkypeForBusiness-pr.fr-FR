@@ -21,11 +21,11 @@ ms.custom:
 - Audio Conferencing
 description: Découvrez comment sélectionner les langues du standard automatique d’audioconférence pour un numéro d’audioconférence dans Skype Entreprise Online.
 ms.openlocfilehash: 393ba3433ba7241ca5c992114de02191b7fb1044
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27788984"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229213"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-skype-for-business-online"></a>Définir les langues du standard automatique pour l’Audioconférence dans Skype Entreprise Online
 
@@ -34,7 +34,7 @@ ms.locfileid: "27788984"
 
 Le standard automatique d’audioconférence pour Skype Entreprise permet d’accueillir les appelants dans un certain nombre de langues différentes lorsqu’ils rejoignent une réunion.
   
-Choisir une langue principale et jusqu’à quatre langues secondaires. La langue principale que vous avez définie est utilisée en premier et les langues secondaires seront utilisés par le standard automatique que vous sélectionnez. 
+Choose one primary language and up to four secondary languages. The primary language that you set will be used first and the secondary languages will be used by the auto-attendant in order that you select. 
   
 > [!NOTE]
 >  Vous pouvez uniquement modifier les langues de numéros de conférence audio de la catégorie dédiée. Les langues du nombre de services d’audioconférence partagés ne peut pas être modifiés.
@@ -71,6 +71,6 @@ Pour automatiser cette étape, vous pouvez utiliser les applets de commande [Set
   
 Pour plus d’informations, voir [L’aide de Windows PowerShell faire Skype courantes pour les tâches de gestion en ligne Business](https://go.microsoft.com/fwlink/?LinkId=525038)
   
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
-[Tester ou acheter l'audioconférence dans Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Tester ou acheter l’audioconférence dans Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

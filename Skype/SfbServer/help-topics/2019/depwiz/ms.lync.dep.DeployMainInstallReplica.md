@@ -14,11 +14,11 @@ ms.assetid: d9c4bcc2-11a7-4d4d-858d-224db217ad32
 ROBOTS: NOINDEX, NOFOLLOW
 description: Pour commencer l’installation d’un nouveau Skype pour le serveur de rôle de serveur d’entreprise, vous devez d’abord installer le serveur SQL local qui va héberger le magasin de configurations local. Le magasin de configurations local agira comme un réplica en lecture seule de la Skype pour le magasin Central de gestion de Business Server (CMS).
 ms.openlocfilehash: 5030cb426582ca849b01cea7995401eca276021c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888971"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216129"
 ---
 # <a name="install-local-configuration-store"></a>Installer le magasin de configurations local
 

@@ -19,11 +19,11 @@ ms.custom:
 - Setup
 description: 'Découvrez les causes fréquentes de Skype pour Business Online pour les erreurs de connexion et de travail par le biais de ces problèmes. '
 ms.openlocfilehash: 369dc9347903335227641b1afebb1fd199d64541
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886994"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32195500"
 ---
 # <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>Dépannage Skype pour les erreurs de connexion Business Online pour les administrateurs
 
@@ -143,7 +143,7 @@ Pour installer un certificat SSL de tiers sur votre serveur Active domaine Feder
 
 Cette procédure est un correctif pour le message d’erreur **problème l’acquisition d’un certificat personnel requis pour vous connecter**.
 
-Pour éliminer les éventuels problèmes de certificat ou des informations d’identification, tout d’abord renouveler le certificat de l’utilisateur dans le Gestionnaire de certificats Windows. Pour ce faire, procédez comme suit :
+Pour éliminer les éventuels problèmes de certificat ou des informations d’identification, tout d’abord renouveler le certificat de l’utilisateur dans le Gestionnaire de certificats Windows. Pour cela, procédez comme suit :
 
 1. Ouvrez le Gestionnaire de certificats Windows. Pour ce faire, cliquez sur **Démarrer**, sur **exécuter**, tapez **certmgr.msc**, puis cliquez sur **OK**.
 
@@ -153,7 +153,7 @@ Pour éliminer les éventuels problèmes de certificat ou des informations d’i
 
 4. Cliquez sur le certificat, puis cliquez sur **Supprimer**.
 
-Ensuite, si l’utilisateur exécute Windows 7, supprimer leurs informations d’identification stockées dans le Gestionnaire d’informations d’identification Windows. Pour ce faire, procédez comme suit :
+Ensuite, si l’utilisateur exécute Windows 7, supprimer leurs informations d’identification stockées dans le Gestionnaire d’informations d’identification Windows. Pour cela, procédez comme suit :
 
 1. Cliquez sur **Démarrer**, cliquez sur **Le panneau de configuration**, puis cliquez sur **Gestionnaire d’informations d’identification**.
 
@@ -205,7 +205,7 @@ Si vous n’êtes toujours pas en mesure de résoudre les problèmes de connexio
 ## <a name="collect-more-information-and-seek-additional-help"></a>Recueillir plus d’informations et pour obtenir une assistance supplémentaire
 <a name="collect-more-information"> </a>
 
-Si vous avez suivi les instructions ci-dessus et toujours ne peut pas résoudre vos problèmes de connexion, vous devez recueillir des informations supplémentaires et contactez le support technique. Pour ce faire, procédez comme suit :
+Si vous avez suivi les instructions ci-dessus et toujours ne peut pas résoudre vos problèmes de connexion, vous devez recueillir des informations supplémentaires et contactez le support technique. Pour cela, procédez comme suit :
 
 1. Obtenir les fichiers journaux et les détails du journal des événements Windows à partir de l’ordinateur de l’utilisateur. Pour obtenir des instructions pas à pas, consultez la rubrique d’aide pour l’utilisateur final [Activer les journaux d’erreurs dans Lync](https://support.office.com/article/eaf6602b-95e0-4c27-869f-36017475806c).
 
@@ -215,7 +215,7 @@ Vous pouvez être invité à fournir des informations de diagnostic supplémenta
 
 Pour résoudre les Skype pour les erreurs de connexion en ligne Business, démarrez en éliminant les causes les plus courantes des difficultés de connexion. Si nécessaire, vous pouvez alors suivre les étapes en fonction du type d’erreur de résolution spécifique. Si l’utilisateur toujours ne peut pas se connecter, recueillir des informations supplémentaires, puis demander une assistance supplémentaire.
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 [Configurer Skype Entreprise Online](set-up-skype-for-business-online.md)
 
 [Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype](let-skype-for-business-users-add-skype-contacts.md)

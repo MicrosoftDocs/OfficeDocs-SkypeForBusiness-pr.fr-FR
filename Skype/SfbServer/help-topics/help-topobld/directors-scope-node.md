@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 0c725237-2e43-4ba2-a7ad-dce0057d265f
 description: 'Le nœud Pools directeurs répertorie les pools directeurs de votre topologie. Vous pouvez effectuer l’action suivante :'
 ms.openlocfilehash: c3625bc35e57616783bdea7801c1b56e9715edae
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877495"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200235"
 ---
 # <a name="directors-scope-node"></a>Nœud d’étendue des directeurs
  

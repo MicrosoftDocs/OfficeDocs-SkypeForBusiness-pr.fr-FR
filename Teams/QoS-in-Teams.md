@@ -17,11 +17,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: e72b4b4fdfdbe6d31ca3543d23b67cb515568e4f
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494028"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32194538"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Implémenter la qualité de Service (QoS) dans les équipes Microsoft
 
@@ -47,7 +47,7 @@ Dans la plupart des cas, le réseau de connexion de votre entreprise vers le nua
 
 ## <a name="verify-your-network-is-ready"></a>Vérifiez que votre réseau est prêt
 
-Si vous envisagez une implémentation de qualité de service, vous devez déjà avoir déterminé vos besoins en bande passante et les autres [exigences de réseau](prepare-network.md). Les calculs de bande passante pour Microsoft Teams sont complexes et une calculatrice a été créée à cet effet. Pour accéder à la Calculatrice, accédez au [Planificateur réseau](https://aka.ms/bwcalc/) dans MyAdvisor.
+Si vous envisagez une implémentation de qualité de service, vous devez déjà avoir déterminé vos besoins en bande passante et les autres [exigences de réseau](prepare-network.md). Calculs de bande passante pour Microsoft Teams sont complexes et pour aider, une calculatrice a été créée. Pour accéder à la Calculatrice, accédez au [Planificateur réseau](https://aka.ms/bwcalc/) dans MyAdvisor.
   
   Encombrement du trafic réseau considérablement impact sur la qualité des médias. Un manque de bande passante entraîne une dégradation des performances et une expérience utilisateur médiocre. À mesure que l’utilisation et à l’adoption des équipes augmente, utiliser des rapports, [appelez Analytique et appelez le tableau de bord qualité](difference-between-call-analytics-and-call-quality-dashboard.md) pour identifier les problèmes et puis procédez aux ajustements à l’aide de la qualité de service et des ajouts de bande passante sélective.
 
@@ -185,7 +185,7 @@ Le Moniteur réseau est un outil que vous pouvez [télécharger à partir de Mic
 
 4. Dans le champ de **Filtre d’affichage** , utilisez l’adresse IP source de l’ordinateur qui effectue l’appel et affiner le filtre en définissant la valeur DSCP 46 (hex d’arrêt 0xb8) comme critères de recherche, comme illustré dans l’exemple suivant :
 
-    Source == "192.168.137.201" AND IPv4.DifferentiatedServicesField == 0xb8
+    Source == « 192.168.137.201 » et IPv4.DifferentiatedServicesField == d’arrêt 0xb8
 
     ![Capture d’écran de la boîte de dialogue filtre d’affichage dans le Moniteur réseau, affichant des filtres à appliquer.] (media/Qos-in-Teams-Image4.png "Capture d’écran de la boîte de dialogue filtre d’affichage dans le Moniteur réseau, affichant des filtres à appliquer.")
 
@@ -199,7 +199,7 @@ Le Moniteur réseau est un outil que vous pouvez [télécharger à partir de Mic
 
 Dans cet exemple, la valeur DSCP est définie à 46. Cela est correct, car le port source utilisé est 50019, qui indique qu’il s’agit d’une charge de travail voix.
 
-Répétez cette vérification pour chaque charge de travail qui a été marquée par l’objet de stratégie de groupe.
+Répétez la vérification pour chaque charge de travail qui a été marquée par la stratégie de groupe.
 
 ## <a name="more-information"></a>Plus d’informations
 

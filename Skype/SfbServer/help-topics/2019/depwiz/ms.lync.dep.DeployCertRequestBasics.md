@@ -14,11 +14,11 @@ ms.assetid: 2c6b40d5-207a-4ca9-a090-e43350f4968f
 ROBOTS: NOINDEX, NOFOLLOW
 description: La page Nom et paramètres de sécurité fournit une zone de texte pour définir le nom convivial, une liste déroulante pour la longueur en bits de la paire de clés privée et publique et une case à cocher qui vous permet de marquer la clé privée du certificat comme exportable.
 ms.openlocfilehash: abc022cd9126b90fb83244657dfb32ac214a62c8
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874800"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216395"
 ---
 # <a name="certificate-request-basic"></a>Demande de certificat (élémentaire)
  

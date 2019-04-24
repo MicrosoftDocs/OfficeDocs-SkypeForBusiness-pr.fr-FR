@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 11d1f9ac-0029-429b-be2b-d7591abfc192
 description: 'Résumé : Découvrez comment modifier les paramètres de configuration dans Skype pour Business Server.'
 ms.openlocfilehash: 73127bfce04c8c124ce8036222d755de6bc37058
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876047"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199954"
 ---
 # <a name="modify-meeting-configuration-settings-in-skype-for-business-server"></a>Modifier les paramètres de configuration dans Skype pour Business Server
  

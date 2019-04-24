@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 7500896a-14ea-4b11-aaee-be3d81314536
 description: 'Vous configurez les paramètres de mise en miroir de base de données en définissant les éléments suivants :'
 ms.openlocfilehash: 2a468333fff6cde69ce96eaf3d9170500bfb6648
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887535"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200228"
 ---
 # <a name="install-mirror-database-option-page"></a>Page des options Installer une base de données miroir
  

@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 47bedf17-25cb-4fc2-9e23-be695bd86fd0
 description: Pour un serveur Edge unique ou à charge équilibrée consolidée de serveur de périphérie, cliquez sur Suivant pour spécifier les informations de configuration. Pour un serveur Edge développé, configuration de chaque serveur doit être modifiée pour une configuration du serveur Edge consolidée avant qu’il peut être fusionné avec Lync Server 2013.
 ms.openlocfilehash: c7bc67f8114eaaa37646e5d5c7dcc307217413a0
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875087"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200200"
 ---
 # <a name="legacy-merge-edge-type"></a>Fusion hérité : type de serveur Edge
  

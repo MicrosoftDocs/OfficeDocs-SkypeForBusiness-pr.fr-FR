@@ -14,11 +14,11 @@ ms.assetid: b9771b53-e19a-4a12-bf01-24bae6f7e482
 ROBOTS: NOINDEX, NOFOLLOW
 description: Vous configurez la magasins SQL Server de conformité qui fournit des bases de données pour le serveur de conversation permanente ou la fonctionnalité de conformité Persistent Chat Server.
 ms.openlocfilehash: 08ca69ab6a949a906da800b677b3f63213686803
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896006"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202018"
 ---
 # <a name="add-persistent-chat-compliance-sql-server-store"></a>Ajouter un magasin SQL Server de conformité de conversation permanente
 

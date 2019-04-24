@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: c8712308-0e2d-4e39-8f90-d1a250487a94
 description: 'Résumé : Découvrez comment tester les paramètres de configuration de jonction SIP à l’aide de la Skype pour Business Server Management Shell.'
 ms.openlocfilehash: d602f24c3342e6c8460cab41d5f14e68ba17188b
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898965"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222848"
 ---
 # <a name="test-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Tester les paramètres de configuration de jonction SIP dans Skype pour Business Server
  

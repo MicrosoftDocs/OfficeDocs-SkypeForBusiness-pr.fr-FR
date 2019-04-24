@@ -14,11 +14,11 @@ ms.assetid: d00ed98f-46f2-4367-b34c-513e5eafdd06
 ROBOTS: NOINDEX, NOFOLLOW
 description: La page Spécifier un autre modèle de certificat vous permet de définir un modèle de certificat autre que le modèle de certificat WebServer qui est utilisé par défaut. Activez la case à cocher Utiliser un autre modèle de certificat pour l’autorité de certification sélectionnée, puis définissez le nom de l’autre modèle de certification dans la zone de texte Nom du modèle de certificat. Vous devez utiliser le nom du modèle tel qu’il est défini dans l’autorité de certification. Cliquez sur Précédent pour revenir à la page précédente. Cliquez sur Annuler pour terminer le processus de demande de certificat.
 ms.openlocfilehash: 3940162eb8369942828018c84d0de69107110b37
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894788"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216290"
 ---
 # <a name="certificate-request-specify-termplate"></a>Demande de certificat (spécification d’un modèle)
  

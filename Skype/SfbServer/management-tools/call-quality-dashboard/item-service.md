@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: b6d7b02a-a34e-4fef-986c-ca442e18fa0c
 description: 'Résumé : En savoir plus sur le Service de l’élément, qui fait partie de l’API de référentiel pour appeler le tableau de bord qualité. Tableau de bord de qualité des appels est un outil de Skype pour Business Server.'
 ms.openlocfilehash: 28a705d488519e439a0fd4c9c9345b1d540fd949
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895943"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32217816"
 ---
 # <a name="item-service-for-call-quality-dashboard-cqd"></a>Service d’élément de tableau de bord qualité appel (CQD)
  

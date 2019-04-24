@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 7065ebf2-15cc-44cf-9282-d64a86e3185a
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
 ms.openlocfilehash: 862ab5d30c21f4e05a59a0de9d27db324839ba53
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892328"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200371"
 ---
 # <a name="users-view-or-configure-external-access-policy"></a>Utilisateurs : afficher ou configurer la stratégie d’accès externe
 

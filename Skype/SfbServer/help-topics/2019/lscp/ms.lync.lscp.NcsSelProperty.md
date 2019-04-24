@@ -14,11 +14,11 @@ ms.assetid: 50c799a3-90a0-4d58-8f8b-17eea56144dc
 ROBOTS: NOINDEX, NOFOLLOW
 description: Utilisez la boîte de dialogue affecter des propriétés pour spécifier un ID de site description et réseau à plusieurs sous-réseaux à la fois. Dans la zone Description, tapez la description que vous souhaitez utiliser pour les sous-réseaux que vous avez sélectionné. Dans l’ID de site réseau, sélectionnez l’ID de site réseau que vous souhaitez attribuer aux sous-réseaux que vous avez sélectionné. Pour affecter ces propriétés pour les sous-réseaux que vous avez sélectionné, cliquez sur OK.
 ms.openlocfilehash: af104b9bb86817690175c8c82ddef94d8b0431b9
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899389"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215268"
 ---
 # <a name="assign-properties"></a>Affecter des propriétés
  

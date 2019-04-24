@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 3ced887e-a8f2-4c77-9093-cdf0afc4cb97
 description: Utilisez l’une boîte de dialogue de file d’attente de délai d’expiration pour sélectionner une file d’attente dans laquelle les appels seront transférés à leur expiration.
 ms.openlocfilehash: e8ed73e7d6988fcff48946785c0cfd2317f337c2
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886531"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200512"
 ---
 # <a name="select-time-out-queue"></a>Sélectionner une file d’attente d’expiration
  

@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 0ac397a7ba54a81a2d92cf4823144da2b0c56a3c
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30649451"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222540"
 ---
 ![Étapes du voyage mise à niveau, en insistant sur la phase de préparation des utilisateurs] (media/upgrade-banner-user-readiness.png "Étapes du voyage mise à niveau, en insistant sur la phase de préparation des utilisateurs")
 
@@ -110,7 +110,7 @@ Pour tirer le meilleur parti des équipes, créer une stratégie de travail d’
 
 **Travail centrées sur le projet d’équipe : événement de lancement de produit** (par exemple : est prise en main de lancer un nouveau produit sur le marché et prévoit un événement promotionnel large pour la prise de conscience du lecteur, générer des leads et encourager les ventes de votre organisation).
 
-| Considération | Remarques |
+| Considération | Notes |
 |----|---|
 | Attributs principaux |<ul><li>Parties prenantes entre les équipes avec différents flux de travail de projet</li><li>Réunions fréquentes ciblées</li><li>Beaucoup de pièces/personnes rassemblent (budget, planifications, présentations, d’enregistrement, etc.)</li></ul> |
 | Défis équipe aujourd'hui |<ul><li>Flux de travail fonctionne avec l’état général du projet de visibilité limitée dans les silos ou des efforts entre les équipes :<br><ul><li>Conversations déconnectées et l’absence de « activité » </li><li>Informations de suivi dans divers emplacements avec aucune visibilité entre les équipes</li></ul><li>Perte de productivité du temps lors de mettre un nouveau membre de Conseil ou durent de manquant une réunion</li></ul>|
@@ -121,7 +121,7 @@ Prise en charge l’intégration d’app ou alignement dans des équipes de <sup
 
 **Équipe centrées sur les personnes : équipe commerciale** (par exemple : vos ventes régional dispersés doit rester connecté de déplacement, de rester aligné sur le pipeline de l’équipe et découvrez les offres clés et les initiatives qui peuvent aider à lecteur vers les cibles de quota annuel)
 
-| Considération | Remarques |
+| Considération | Notes |
 |----|---|
 | Attributs principaux | <ul><li>Travailler à distance (sur le déplacement, hôtels, les sites des clients)</li><li>Relation destinées – principaux externe</li></ul> |
 | Défis équipe aujourd'hui |<ul><li>Conversations répétées avec plusieurs responsables de champ (conversation, les appels, réunions, etc.) – ne peuvent pas obtenir tout le monde ensemble en une seule fois</li><li>Manquées opportunités d’apprentissage de ventes « wins » – bouche partage uniquement</li><li>Permutation en permanence entre des applications :<ul><li>Pipeline des ventes dans Excel</li><li>Analyse des tendances dans Power BI</li><li>Matériel de vente dans le message électronique</li><li>Ressources de démonstration client sur SharePoint</li><li>1:1 conversations et réunions point-à-temps</li><li>Ventes de proximité dans Yammer</li></ul></ul> |

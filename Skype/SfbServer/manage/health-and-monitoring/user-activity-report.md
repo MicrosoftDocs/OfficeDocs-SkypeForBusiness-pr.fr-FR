@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 3aa6fef2-ea02-4f0f-93e8-fa2e0a953d79
 description: 'Résumé : Découvrez le User Activity Report dans Skype pour Business Server.'
 ms.openlocfilehash: 3fb69e68052ae5f3b1938de95291fb7fa5a3ac88
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884697"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198024"
 ---
 # <a name="user-activity-report-in-skype-for-business-server"></a>User Activity Report dans Skype pour Business Server
 

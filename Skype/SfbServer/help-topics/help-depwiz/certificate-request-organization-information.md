@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 1ca030ad-82bd-40b2-9b2a-67d80e516f9c
 description: Le volet d’informations sur l’organisation vous permet de spécifier le nom de votre organisation et une unité d’organisation (UO) (généralement la division ou un service) qui demande le certificat. Les informations que vous tapez dans l’organisation et les zones de texte d’unité d’organisation s’affiche sur le certificat et sert à identifier qui a demandé le certificat, lorsque le certificat est affiché par d’autres utilisateurs.
 ms.openlocfilehash: ac5906177e6ae23bd1b703b7b79339bf9d54f866
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894050"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201359"
 ---
 # <a name="certificate-request-organization-information"></a>Demande de certificat (informations sur l’organisation)
  

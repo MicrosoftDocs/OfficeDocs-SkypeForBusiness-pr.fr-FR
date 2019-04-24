@@ -14,11 +14,11 @@ ms.assetid: a26f7d86-1811-4d72-afee-a577a1898cc8
 ROBOTS: NOINDEX, NOFOLLOW
 description: Utilisez la boîte de dialogue Lien de région pour rechercher les liens de région disponibles dans votre environnement. Pour utiliser un lien de région existant, cliquez sur un lien de région dans la liste, puis sur OK.
 ms.openlocfilehash: 512171611a11572f1e3be385b04d566011155e9a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30885504"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215289"
 ---
 # <a name="select-a-region-link"></a>Sélection d’un lien de région
  

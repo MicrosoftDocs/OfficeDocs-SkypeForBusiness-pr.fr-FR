@@ -14,11 +14,11 @@ ms.assetid: 1af294a0-5aa1-40a4-b460-231dd4b2f3dc
 ROBOTS: NOINDEX, NOFOLLOW
 description: Dans la page Paramètre du domaine SIP sur les autres noms du sujet, vous devez activer la case à cocher pour votre domaine SIP principal, ainsi que tout autre domaine SIP si votre infrastructure et votre déploiement sont conformes aux conditions répertoriées.
 ms.openlocfilehash: 14d0b1f5a74e8707653af774ab569dd70e79afdf
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891560"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216339"
 ---
 # <a name="certificate-request-sip-domains"></a>Demande de certificat (domaines SIP)
  

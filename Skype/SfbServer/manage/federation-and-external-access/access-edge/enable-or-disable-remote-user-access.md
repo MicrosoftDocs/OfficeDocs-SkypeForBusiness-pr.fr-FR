@@ -14,11 +14,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Si vous activez l’accès des utilisateurs distants pour les utilisateurs distants, pris en charge les utilisateurs distants se connectent via Internet et n’ont pas à se connecter à l’aide d’un réseau privé virtuel pour collaborer avec des utilisateurs internes à l’aide de Skype pour Business Server.
 ms.openlocfilehash: aea136e6c8758fd646a20b8bc7a64a393d45a3e7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898915"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199926"
 ---
 # <a name="enable-or-disable-remote-user-access-in-skype-for-business-server"></a>Activer ou désactiver l’accès des utilisateurs distants dans Skype pour Business Server
 

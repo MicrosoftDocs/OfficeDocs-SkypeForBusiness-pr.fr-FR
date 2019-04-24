@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Pour supprimer les bases de données Microsoft SQL Server, instances après avoir supprimé les serveurs exécutant qui dépendent les, ou une fois que vous reconfigurez les serveurs pour utiliser une autre base de données. Vous devez effectuer la procédure dans cette rubrique lorsque vous retirer le serveur SQL Server en cours ou reconfigurez le serveur actuel de telle sorte qu’il s’affiche les bases de données obsolètes ou non disponible.
 ms.openlocfilehash: 531d4c06daa7dacd2a616244c13207b3e79dca4c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898739"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231503"
 ---
 # <a name="remove-sql-server-instances-and-databases-on-the-back-end-server"></a>Suppression des instances et des bases de données SQL Server sur le serveur principal
 

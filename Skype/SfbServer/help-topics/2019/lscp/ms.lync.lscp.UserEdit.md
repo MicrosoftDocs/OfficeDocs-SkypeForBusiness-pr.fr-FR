@@ -14,11 +14,11 @@ ms.assetid: e687e12e-efae-4b8c-a716-c29c41ee7b75
 ROBOTS: NOINDEX, NOFOLLOW
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
 ms.openlocfilehash: 291d1f8f908b772cdc92c108706b5b19fcf6bef4
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887336"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215016"
 ---
 # <a name="users-edit-user"></a>Utilisateurs : modifier l’utilisateur
 

@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: cbdde536-8668-4a08-9862-8615e8691fd7
 description: Files d’attente les appels vers un groupe de réponse jusqu'à ce qu’un agent répond à l’appel.
 ms.openlocfilehash: d00d43ab50060990341a2071ea68126ebc445a21
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897684"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200582"
 ---
 # <a name="response-groups-queue-create-new-or-edit-existing"></a>File d’attente Response Group : création d’une file d’attente ou modification d’une file d’attente existante
 

@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: f259a753-cfdc-4fa7-ba35-6fb812e1552a
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
 ms.openlocfilehash: 35755f34867dd5e2194dd7a26afb2ade988d3e8d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30926510"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200385"
 ---
 # <a name="users-view-voice-policy"></a>Utilisateurs : afficher une stratégie de voix
 

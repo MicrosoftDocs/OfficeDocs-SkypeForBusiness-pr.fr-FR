@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: e1148124-e04a-4ae6-b601-ed48df69d194
 description: Une configuration de périphérique est une collection de paramètres utilisés pour gérer les Skype pour les appareils de téléphone professionnel, global ou au sein d’un site. Ces paramètres vous permettent de configurer le mode de sécurité requis, le niveau de journalisation de l’appareil, les paramètres de qualité de service des communications vocales et de savoir si les téléphones doivent ou non se verrouiller automatiquement après une période d’inactivité donnée.
 ms.openlocfilehash: 20f288ab601fb53aa9d4dbb622170da8964fc9e3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890803"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200764"
 ---
 # <a name="device-configuration"></a>Configuration du périphérique
  

@@ -14,11 +14,11 @@ ms.assetid: aa97fd0e-48b9-4a66-b55a-12291641c967
 ROBOTS: NOINDEX, NOFOLLOW
 description: L’adresse IP publique est l’adresse IP utilisée par la traduction d’adresses réseau (NAT). L’adresse IP doit être publiquement routable. Cela est nécessaire parce que vous avez sélectionné l’adresse IP externe de ce pool est traduit par option NAT dans la page Sélectionner les fonctionnalités de cet Assistant de bord.
 ms.openlocfilehash: b8bd7db50c860b7d4215da8a45d3a8087e036714
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876463"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220947"
 ---
 # <a name="add-edge-server-nat-ip"></a>Ajouter l’adresse IP NAT du serveur Edge
 

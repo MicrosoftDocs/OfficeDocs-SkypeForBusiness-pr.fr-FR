@@ -24,11 +24,11 @@ ms.custom:
 - Calling Plans
 description: Cela vous permettra de savoir comment composer des numéros gratuits dans chaque pays/région. Une fois que vous sélectionnez la pays/région, il vous dirige vers une page spécifique qui contient des détails plus spécifiques, les restrictions et les limites de la disponibilité du service gratuit où service gratuit est disponible. Le format de numérotation ou formats affichera les codes d’accès requis dans chaque pays/région de composer le numéro d’appel gratuit.
 ms.openlocfilehash: 28c7b39fb9d049938410ae876ffa3aba65f2be1b
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569063"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223288"
 ---
 # <a name="toll-free-dialing-restrictions-in-croatia"></a>Restrictions de numérotation gratuit en Croatie
 
@@ -39,14 +39,14 @@ ms.locfileid: "30569063"
 |:-----|:-----|
 |Est gratuit appelant disponibles ?  <br/> |Oui  <br/> |
 |Formats de numérotation  <br/> | 0800 XXX XXX <br/>  0800 XXXX <br/> |
-|Code de pays/région ISO  <br/> |RH  <br/> |
+|Code de pays/région ISO  <br/> |HR  <br/> |
 |Île/territoire couvert  <br/> |Non applicable  <br/> |
 |Île/territoire non couvert  <br/> |Non applicable  <br/> |
 |Disponibilité de la ligne filaire/fixe  <br/> |Oui  <br/> |
 |Disponibilité de réseau mobile  <br/> |Oui  <br/> |
 |Commentaires, les restrictions et les problèmes d’accès  <br/> |Accès mobile : Aucun temps d'accès facturé.  <br/> |
    
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 

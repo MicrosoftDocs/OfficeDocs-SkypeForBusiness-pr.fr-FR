@@ -14,11 +14,11 @@ ms.assetid: 94e87632-7c28-43df-9238-f5a47c1c43c0
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Pour confirmer que la réplication du catalogue Global et la création d’objets pendant la préparation de la forêt a été effectuée, procédez comme suit :'
 ms.openlocfilehash: 77b7265ce101b7428f6bfde1ed5840dac9e0a99e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880650"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216038"
 ---
 # <a name="verify-replication-of-forest-preparation"></a>Vérifier la réplication de la préparation de la forêt
  

@@ -26,11 +26,11 @@ ms.custom:
 - Calling Plans
 description: Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour l’Argentine.
 ms.openlocfilehash: c87e8578597d9e185cec60f332af5ac758a3047c
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542702"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198424"
 ---
 # <a name="availability-in-argentina"></a>Disponibilité en Argentine
 
@@ -67,7 +67,7 @@ Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft
 
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
-|Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?   | <ul><li>Buenos Aires <li>Cordoba <li>La Plata <li>Mar Del Plata <li>Mendoza <br/>  <li>San Miguel de Tucuman <br/> |
+|Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?   | <ul><li>Buenos Aires <li>Cordoba <li>La Plata <li>Mar Plata SUPPR. <li>Mendoza <br/>  <li>SAN Miguel de Tucuman <br/> |
 |Les numéros payants sont-ils disponibles ?  <br/> |Oui  <br/> |
 |Numéros gratuits sont disponibles ?  <br/> |Oui  <br/> |
    

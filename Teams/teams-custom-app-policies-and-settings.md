@@ -18,11 +18,11 @@ localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment gérer les stratégies des applications personnalisées et les paramètres pour contrôler les personnes dans votre organisation peuvent télécharger des applications personnalisées dans Microsoft Teams.
 ms.openlocfilehash: 3cbd517cdfe8066eebff0164457c8e2e3aa37a5d
-ms.sourcegitcommit: 9bb2bfd09ca279752dbedf17911ea46568649c4a
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/09/2019
-ms.locfileid: "31749756"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32224621"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>Gérer les stratégies d’application personnalisée et les paramètres dans Microsoft Teams
 
@@ -125,7 +125,7 @@ Par exemple, par exemple, que vous souhaitez autoriser uniquement les propriéta
 | Activé     | Activé     | Désactivé         | L’utilisateur ne peuvent pas télécharger des applications personnalisées.       |
 | Activé    | Activé        | Activé        | L’utilisateur peut télécharger des applications personnalisées à l’équipe, même si l’utilisateur est un propriétaire de l’équipe. L’utilisateur peut télécharger des applications personnalisées dans le contexte de personnel.       |
 
- ## <a name="related-topics"></a>Rubriques connexes
+ ## <a name="related-topics"></a>Voir aussi
 - [Paramètres d'administration pour les applications dans Microsoft Teams](admin-settings.md)
 - [Gérer les stratégies de mise en application dans Microsoft Teams](teams-app-setup-policies.md)
 - [Gérer les stratégies d’autorisation d’application dans Microsoft Teams](teams-app-permission-policies.md)

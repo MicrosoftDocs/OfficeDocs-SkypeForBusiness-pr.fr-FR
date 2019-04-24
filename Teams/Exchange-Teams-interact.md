@@ -15,11 +15,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: bdb998587eefd0eb15477b26799d487e041df220
-ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31516798"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32180367"
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Interaction entre Exchange et Microsoft Teams 
 =========================================
@@ -40,9 +40,9 @@ Le tableau suivant fournit des informations aux utilisateurs pour lesquels Excha
 | La boîte aux lettres de l'utilisateur est hébergée dans : | eDiscovery| Juridique&nbsp;attente | Rétention| Gestion de l’équipe et de canal |Créer et afficher des réunions| Modifier une image de profil utilisateur | Historique des appels | Gérer des Contacts | Accéder aux contacts Outlook | Messagerie vocale |Ajouter et configurer des connecteurs|Ajouter et configurer des onglets|Ajouter et configurer des bots| 
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |**Exchange Online**|Oui <sup>2</sup>|Oui <sup>2</sup>|Oui |Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui|Oui |Oui|
-|**vNext Exchange Online dédié**|Oui <sup>2</sup>|Oui <sup>2</sup>|Oui |Oui |Oui|Oui|Oui |Oui|Oui|Oui|Oui |Oui |Oui |
-|**Exchange Online dédié– hérité** (Synchronisation avec Azure AD requise)|Oui <sup>2</sup>|Oui <sup>2,3</sup>|Oui <sup>4|Oui|Non|Non|Oui|Oui |Non|Oui <sup>5|Oui |Oui |Oui|
-|**Exchange sur site** (Synchronisation avec Azure AD requise)|Oui <sup>2</sup>| Oui <sup>2,3</sup> |Oui <sup>4|Oui|Oui (Exchange 2016 CU3 +)|Oui (Exchange 2016 CU3 +)|Oui |Oui |Non|Oui <sup>5|Oui |Oui |Oui |
+|**vNext Exchange Online dédié**|Oui <sup>2</sup>|Oui <sup>2</sup>|Oui |Oui |Oui|Oui|Oui |Oui|Oui|Oui|Oui |Oui |Oui|
+|**Exchange Online dédié– hérité** (Synchronisation avec Azure AD requise)|Oui <sup>2</sup>|Oui <sup>2,3</sup>|Oui <sup>4|Oui|Non|Non|Oui|Oui|Non|Oui <sup>5|Oui |Oui |Oui|
+|**Exchange sur site** (Synchronisation avec Azure AD requise)|Oui <sup>2</sup>| Oui <sup>2,3</sup> |Oui <sup>4|Oui|Oui (Exchange 2016 CU3 +)|Oui (Exchange 2016 CU3 +)|Oui |Oui|Non|Oui <sup>5|Oui |Oui |Oui|
 
 <sup>1</sup> exchange CU3 2016 et ci-dessus pris en charge  
 <sup>2</sup> eDiscovery et juridiques pour la conformité des messages de canal est pris en charge pour toutes les options d’hébergement.  

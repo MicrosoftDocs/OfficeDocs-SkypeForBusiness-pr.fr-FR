@@ -14,11 +14,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Découvrez comment gérer et configurer des domaines SIP que vous pouvez vous fédérer avec,
 ms.openlocfilehash: 83623b41e0d9adb1e4539958344214fd2ebe0db9
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892258"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199832"
 ---
 # <a name="manage-sip-federated-domains-for-your-organization-in-skype-for-business-server"></a>Gestion des domaines fédérés SIP de votre organisation dans Skype pour Business Server
 

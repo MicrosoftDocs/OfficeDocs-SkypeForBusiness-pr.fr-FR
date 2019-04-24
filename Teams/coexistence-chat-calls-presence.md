@@ -15,11 +15,11 @@ appliesto:
 - Microsoft Teams
 description: Ce document décrit le comportement de la conversation, le routage des appels et la présence entre les utilisateurs des équipes et Skype pour les entreprises, de client et fédérés, selon les modes TeamsUpgrade affectés. Il inclut les optimisations de routage, le comportement de présence, ainsi que la modification du mode de TeamsUpgrade par défaut à partir de *hérité* *Îles* et la mise hors service imminente de *hérité*.
 ms.openlocfilehash: 44510afdf77510de447bcded2b8a2135b71557a1
-ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31517215"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198783"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Coexistence avec Skype Entreprise
 

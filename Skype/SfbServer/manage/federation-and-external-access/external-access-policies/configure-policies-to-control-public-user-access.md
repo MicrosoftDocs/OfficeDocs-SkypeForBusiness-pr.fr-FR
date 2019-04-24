@@ -14,11 +14,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: la connectivité de messagerie instantanée public permet aux utilisateurs de votre organisation d’utiliser la messagerie instantanée pour communiquer avec les utilisateurs des services de messagerie instantanée fournis par des fournisseurs de services de messagerie instantanée publique.
 ms.openlocfilehash: 3ed19bf692ccc7dfc39466e304b3b1371164758c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899770"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197610"
 ---
 # <a name="configure-policies-to-control-public-user-access-in-skype-for-business-server"></a>Configurer des stratégies de contrôle d’accès des utilisateurs publics dans Skype pour Business Server
 

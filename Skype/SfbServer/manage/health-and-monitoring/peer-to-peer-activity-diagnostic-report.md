@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 025e8ab4-2e64-4a6b-8f52-caf756a5cac3
 description: 'Résumé : Découvrez le rapport de Diagnostic activités d’égal à égal dans Skype pour Business Server.'
 ms.openlocfilehash: 097b323d2a9484e14dd056196b7344b61b412339
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880608"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198112"
 ---
 # <a name="peer-to-peer-activity-diagnostic-report-in-skype-for-business-server"></a>Rapport de Diagnostic activités d’égal à égal dans Skype pour Business Server
  

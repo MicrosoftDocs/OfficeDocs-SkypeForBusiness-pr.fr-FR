@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 64392c68-998d-4fb7-9286-4b0c0364dab2
 description: 'Ce nœud affiche l’un des sites définis dans votre topologie. Vous pouvez effectuer les actions suivantes :'
 ms.openlocfilehash: 74b031df3e88222c7f23e1c3a8b43a67ba6dc669
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878965"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219035"
 ---
 # <a name="test---skype-for-business-server-site-scope-node"></a>Nœud d’étendue du site Lync Server
  

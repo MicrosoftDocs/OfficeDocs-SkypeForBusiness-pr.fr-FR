@@ -14,11 +14,11 @@ ms.assetid: 7d1ff1e0-eb89-4703-be50-71e94329d8b2
 ROBOTS: NOINDEX, NOFOLLOW
 description: Pour activer vous permet de déléguer des tâches administratives tout en conservant les normes de sécurité strictes, Skype pour Business Server prend en charge le contrôle d’accès basé sur un rôle (RBAC).
 ms.openlocfilehash: 928b0c9602c309e63c3fb6a61bdbcceeb2d9f539
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881666"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215548"
 ---
 # <a name="administrative-roles-and-skype-for-business-server-control-panel"></a>Rôles d’administration et Skype pour le panneau de configuration serveur Business
 

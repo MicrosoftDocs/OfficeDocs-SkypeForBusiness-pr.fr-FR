@@ -14,11 +14,11 @@ ms.assetid: 0d49587e-5079-4fe0-a9b9-fb0853811fca
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Le nœud Pool de serveurs Edge répertorie les pools de serveurs Edge de votre topologie. Vous pouvez effectuer l’action suivante :'
 ms.openlocfilehash: 4dc1741ed0f545aeaff12629c62a229b8107c963
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882501"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220629"
 ---
 # <a name="edge-servers-scope-node"></a>Nœud d’étendue des serveurs Edge
  

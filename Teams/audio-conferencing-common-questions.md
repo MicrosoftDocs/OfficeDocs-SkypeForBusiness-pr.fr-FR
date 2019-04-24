@@ -1,10 +1,10 @@
 ---
-title: Questions fréquentes à propos de l'audioconférence
+title: Questions fréquentes à propos de l’audioconférence
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr
-ms.topic: article
+ms.topic: conceptual
 ms.assetid: a90ea695-aabf-4f10-ae92-24b3f6b27c56
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -22,14 +22,14 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Voici quelques-unes des principales questions que nous obtenir à partir de nos clients qui souhaitent utiliser la conférence Audio.
-ms.openlocfilehash: 104f4affe4eb5459d8647174fea1801af4bff826
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: e66b9d7abbed35cf73119b05d283aa0d408f3b8a
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465219"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198775"
 ---
-# <a name="audio-conferencing-common-questions"></a>Questions fréquentes à propos de l'audioconférence
+# <a name="audio-conferencing-common-questions"></a>Questions fréquentes à propos de l’audioconférence
 
 Voici quelques-unes des principales questions que nous obtenir à partir de nos clients qui souhaitent utiliser la conférence Audio. 
   
@@ -147,11 +147,11 @@ Planification d’une réunion qui est connectée à tous les participants à l�
 
 - **Option 1**: par défaut, si l’organisateur de la réunion et tous les participants sont à une réunion à l’aide d’un téléphone, l’organisateur de la réunion doit saisir son son code confidentiel de conférence pour le démarrer. Les appelants obtient demandés s’il souhaite s’authentifier en tant que l’organisateur d’une réunion donnée lorsqu’ils composer le numéro de téléphone d’une réunion en ligne. Tous les participants qui rejoignent la réunion via le rendez-vous avant le démarrage de l’organisateur est placé dans la salle d’attente et écoutera une musique en attente. Une fois que l’organisateur démarre en saisissant son code confidentiel Audio conférence, tous les participants dans la salle d’attente seront automatiquement joindre la réunion.
 
-- **Option 2**: si le paramètre « Autoriser non authentifié les appelants sont les premiers à une réunion » (désactivé par défaut) est activé pour un organisateur donné, puis toutes les réunions planifiées par l’utilisateur pourra être démarré sans devoir l’organisateur d’entrée est ou son code confidentiel de conférence Audio. Lorsque ce paramètre est activé, la réunion démarre dès que le premier participant joint via un numéro de téléphone et qu’il n’est pas placée dans la salle d’attente. Pour plus d’informations, consultez [conférence gérer les paramètres pour un utilisateur dans les équipes Microsoft](manage-the-audio-conferencing-settings-for-a-user-in-teams.md) ou [conférence gérer les paramètres pour un utilisateur dans Skype pour Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user).
+- **Option 2**: si le paramètre « Autoriser non authentifié les appelants sont les premiers à une réunion » (désactivé par défaut) est activé pour un organisateur donné, puis toutes les réunions planifiées par l’utilisateur pourra être démarré sans devoir l’organisateur d’entrée son ou son code confidentiel de conférence Audio. Lorsque ce paramètre est activé, la réunion démarre dès que le premier participant joint via un numéro de téléphone et qu’il n’est pas placée dans la salle d’attente. Pour plus d’informations, consultez [conférence gérer les paramètres pour un utilisateur dans les équipes Microsoft](manage-the-audio-conferencing-settings-for-a-user-in-teams.md) ou [conférence gérer les paramètres pour un utilisateur dans Skype pour Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user).
    
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
-[Configurer Skype Entreprise Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
+[Configurer Skype entreprise Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
   
 [Numéros de téléphone pour l’audioconférence dans Microsoft Teams](phone-numbers-for-audio-conferencing-in-teams.md) 
 

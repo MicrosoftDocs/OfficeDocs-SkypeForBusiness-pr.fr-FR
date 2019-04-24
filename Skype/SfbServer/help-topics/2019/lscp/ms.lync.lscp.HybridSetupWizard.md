@@ -14,11 +14,11 @@ ms.assetid: c8600c4e-dc54-4af2-a72e-c1b997d83443
 ROBOTS: NOINDEX, NOFOLLOW
 description: Vous pouvez utiliser l’Assistant de la gestion hybride pour effectuer certaines tâches de configuration nécessaires pour configurer un déploiement hybride avec Skype pour Business Online. Pour plus d’informations sur la configuration de votre déploiement hybride, consultez Configurer votre environnement avec l’Assistant de la gestion hybride.
 ms.openlocfilehash: d0770e193d84337189cdd7a24fdb471faa275b9b
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890775"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215562"
 ---
 # <a name="hybrid-manageability-wizard"></a>Assistant de facilité de gestion hybride
 
