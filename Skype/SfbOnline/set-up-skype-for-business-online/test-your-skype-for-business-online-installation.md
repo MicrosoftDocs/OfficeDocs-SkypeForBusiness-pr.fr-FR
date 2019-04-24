@@ -19,11 +19,11 @@ ms.custom:
 - Setup
 description: 'Learn to save time, support calls and increase satisfaction by setting up test accounts and computers, and testing dial-in conferencing, online features such as person-to-person calls, conferencing, and sign in and out. '
 ms.openlocfilehash: 2cdb08634ce16b3ba6e09148daee57191e8c6988
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883542"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237775"
 ---
 # <a name="test-your-skype-for-business-online-installation"></a>Test de votre installation de Skype Entreprise Online
 
@@ -136,7 +136,7 @@ Vous ne parvenez pas à vous connecter ? Accédez à [Dépannage des problèmes 
 |[Présentation de diapositives PowerPoint dans une réunion Skype Entreprise (Lync)](https://support.office.com/article/3910a2b2-01df-4b97-9451-322b598ede7e) <br/> |Votre présentation PowerPoint est affichée sur l'ordinateur de tous les utilisateurs dans la fenêtre de partage de réunion Skype Entreprise.  <br/> |
 |[Transfert d'un fichier dans une réunion Skype Entreprise (Lync)](https://support.office.com/article/f6942910-bc1d-4a48-bf18-385778f08088) <br/> |Une fois la pièce jointe téléchargée, tous les participants à la réunion peuvent l'afficher et la télécharger.  <br/> |
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 [Configurer Skype Entreprise Online](set-up-skype-for-business-online.md)
 
 [Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype](let-skype-for-business-users-add-skype-contacts.md)

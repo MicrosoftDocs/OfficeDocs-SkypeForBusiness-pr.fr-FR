@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Cette rubrique vous guide tout au long du processus de suppression d’un pool frontal ou un serveur Standard Edition serveur frontal. Lorsque vous supprimez un pool frontal, vous supprimez chaque serveur frontal qui appartient au pool dans le cadre du processus de suppression de pool. Lorsque vous supprimez un serveur Standard Edition serveur frontal, vous devez supprimer la définition d’un magasin SQL du Générateur de topologie.
 ms.openlocfilehash: 394edcd6f5c89478ed98abebe0be29720d009107
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30872716"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231545"
 ---
 # <a name="remove-front-end-pool-or-standard-edition-server"></a>Supprimer un pool frontal ou un serveur Standard Edition
 

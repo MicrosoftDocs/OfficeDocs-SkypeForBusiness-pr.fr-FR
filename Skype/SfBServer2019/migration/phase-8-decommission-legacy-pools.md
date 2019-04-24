@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.custom: httpsfix
 description: La rubrique suivante fournit des instructions pour la mise à jour des entrées DNS, déplacement du serveur de gestion de contenu, mise hors service des pools, désactivation et suppression de serveurs et les pools d’un déploiement hérité. Toutes les procédures répertoriées dans cette section sont requis. Lisez la documentation et déterminer quelle procédure mise hors service à utiliser.
 ms.openlocfilehash: 2363b90f1bcc71c3c8c1ee42d258101240bcacb7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880259"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231510"
 ---
 # <a name="phase-8-decommission-legacy-pools"></a>Étape 8 : Mettre des pools hérités hors service
 
