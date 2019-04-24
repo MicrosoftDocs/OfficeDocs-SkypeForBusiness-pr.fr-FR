@@ -10,26 +10,26 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Cette section couvre les rubriques de planification pour la migration vers Skype pour Business Server 2019.
 ms.openlocfilehash: 71178e0b28297db4782c6244b70f48193f0c53b8
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898654"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231580"
 ---
-# <a name="phase-1-plan-your-migration"></a><span data-ttu-id="e476a-103">Étape 1 : Planifier la migration</span><span class="sxs-lookup"><span data-stu-id="e476a-103">Phase 1: Plan your migration</span></span>
+# <a name="phase-1-plan-your-migration"></a><span data-ttu-id="d0be2-103">Étape 1 : Planifier la migration</span><span class="sxs-lookup"><span data-stu-id="d0be2-103">Phase 1: Plan your migration</span></span>
 
-<span data-ttu-id="e476a-104">Cette section couvre les rubriques de planification pour la migration vers Skype pour Business Server 2019.</span><span class="sxs-lookup"><span data-stu-id="e476a-104">This section covers planning topics for migrating to Skype for Business Server 2019.</span></span> 
+<span data-ttu-id="d0be2-104">Cette section couvre les rubriques de planification pour la migration vers Skype pour Business Server 2019.</span><span class="sxs-lookup"><span data-stu-id="d0be2-104">This section covers planning topics for migrating to Skype for Business Server 2019.</span></span> 
   
-## <a name="in-this-section"></a><span data-ttu-id="e476a-105">Contenu de cette section</span><span class="sxs-lookup"><span data-stu-id="e476a-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="d0be2-105">Contenu de cette section</span><span class="sxs-lookup"><span data-stu-id="d0be2-105">In this section</span></span>
 
-- [<span data-ttu-id="e476a-106">Migration des utilisateurs</span><span class="sxs-lookup"><span data-stu-id="e476a-106">User migration</span></span>](user-migration.md)
+- [<span data-ttu-id="d0be2-106">Migration des utilisateurs</span><span class="sxs-lookup"><span data-stu-id="d0be2-106">User migration</span></span>](user-migration.md)
     
-- [<span data-ttu-id="e476a-107">Migration des serveurs d’archivage et de surveillance</span><span class="sxs-lookup"><span data-stu-id="e476a-107">Migrating Archiving and Monitoring Servers</span></span>](migrating-archiving-and-monitoring-servers.md)
+- [<span data-ttu-id="d0be2-107">Migration des serveurs d’archivage et de surveillance</span><span class="sxs-lookup"><span data-stu-id="d0be2-107">Migrating Archiving and Monitoring Servers</span></span>](migrating-archiving-and-monitoring-servers.md)
     
-- [<span data-ttu-id="e476a-108">Administration des serveurs après la migration</span><span class="sxs-lookup"><span data-stu-id="e476a-108">Administering servers after migration</span></span>](administering-servers-after-migration.md)
+- [<span data-ttu-id="d0be2-108">Administration des serveurs après la migration</span><span class="sxs-lookup"><span data-stu-id="d0be2-108">Administering servers after migration</span></span>](administering-servers-after-migration.md)
     
-- [<span data-ttu-id="e476a-109">Migration de plusieurs sites et pools</span><span class="sxs-lookup"><span data-stu-id="e476a-109">Migrating multiple sites and pools</span></span>](migrating-multiple-sites-and-pools.md)
+- [<span data-ttu-id="d0be2-109">Migration de plusieurs sites et pools</span><span class="sxs-lookup"><span data-stu-id="d0be2-109">Migrating multiple sites and pools</span></span>](migrating-multiple-sites-and-pools.md)
     
-- [<span data-ttu-id="e476a-110">Migration de la fédération XMPP</span><span class="sxs-lookup"><span data-stu-id="e476a-110">Migrating XMPP federation</span></span>](migrating-xmpp-federation.md)
+- [<span data-ttu-id="d0be2-110">Migration de la fédération XMPP</span><span class="sxs-lookup"><span data-stu-id="d0be2-110">Migrating XMPP federation</span></span>](migrating-xmpp-federation.md)
     
 
