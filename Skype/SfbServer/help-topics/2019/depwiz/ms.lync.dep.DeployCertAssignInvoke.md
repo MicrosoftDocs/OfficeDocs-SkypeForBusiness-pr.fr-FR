@@ -14,14 +14,14 @@ ms.assetid: 3b7cf7d2-90e1-4c73-bda8-33bdcf19725c
 ROBOTS: NOINDEX, NOFOLLOW
 description: La page exécution de commandes affiche les actions effectuées par les tâches pour assigner le certificat au serveur. Lorsque les tâches sont terminées, vous pouvez afficher le journal qui décrit en détail le processus d’affectation de certificat. Pour afficher le fichier journal, cliquez sur Afficher le journal.
 ms.openlocfilehash: 510f2d7a55530ba4c1a0096ce15aa4481f64e0dc
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899700"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216507"
 ---
-# <a name="certificate-assignment-invoke"></a><span data-ttu-id="3c8c8-105">Assignation de certificat (appel)</span><span class="sxs-lookup"><span data-stu-id="3c8c8-105">Certificate Assignment (Invoke)</span></span>
+# <a name="certificate-assignment-invoke"></a><span data-ttu-id="3464a-105">Assignation de certificat (appel)</span><span class="sxs-lookup"><span data-stu-id="3464a-105">Certificate Assignment (Invoke)</span></span>
  
-<span data-ttu-id="3c8c8-106">La page **Exécution de commandes** affiche les actions effectuées par les tâches pour assigner le certificat au serveur.</span><span class="sxs-lookup"><span data-stu-id="3c8c8-106">The **Executing Commands** page displays the actions taken by the tasks to assign the certificate to the server.</span></span> <span data-ttu-id="3c8c8-107">Lorsque les tâches sont terminées, vous pouvez afficher le journal qui décrit en détail le processus d’affectation de certificat.</span><span class="sxs-lookup"><span data-stu-id="3c8c8-107">When the tasks are complete, you can view the log that details the certificate assignment process.</span></span> <span data-ttu-id="3c8c8-108">Pour afficher le fichier journal, cliquez sur **Afficher le journal**.</span><span class="sxs-lookup"><span data-stu-id="3c8c8-108">To view the log file, click **View Log**.</span></span>
+<span data-ttu-id="3464a-106">La page **Exécution de commandes** affiche les actions effectuées par les tâches pour assigner le certificat au serveur.</span><span class="sxs-lookup"><span data-stu-id="3464a-106">The **Executing Commands** page displays the actions taken by the tasks to assign the certificate to the server.</span></span> <span data-ttu-id="3464a-107">Lorsque les tâches sont terminées, vous pouvez afficher le journal qui décrit en détail le processus d’affectation de certificat.</span><span class="sxs-lookup"><span data-stu-id="3464a-107">When the tasks are complete, you can view the log that details the certificate assignment process.</span></span> <span data-ttu-id="3464a-108">Pour afficher le fichier journal, cliquez sur **Afficher le journal**.</span><span class="sxs-lookup"><span data-stu-id="3464a-108">To view the log file, click **View Log**.</span></span>
   
 

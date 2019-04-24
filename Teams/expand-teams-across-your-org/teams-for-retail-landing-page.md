@@ -1,5 +1,5 @@
 ---
-title: Équipes de vente au détail
+title: Teams pour les organismes de vente au détail
 description: Utilisez ces ressources pour gérer les équipes de votre organisation de vente au détail.
 layout: LandingPage
 ms.topic: landing-page
@@ -12,16 +12,16 @@ ms.collection: Strat_MT_TeamsAdmin
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 60c0d5bfb1eae3705fe9a1936985a086629026f6
-ms.sourcegitcommit: 89b866a3c383555f6f89dc77bebd74cddf9e40fb
+ms.openlocfilehash: ddf825a1d0fac734f9418c6f7a0b7933de322424
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013168"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245729"
 ---
-# <a name="teams-for-retail"></a>Équipes de vente au détail
+# <a name="teams-for-retail"></a>Teams pour les organismes de vente au détail
 
-Utilisez les ressources d’administration ici pour gérer et tirer le meilleur des équipes pour vos magasins de vente au détail et le personnel.
+Utilisez les ressources d’administration ici pour gérer et tirer le meilleur parti des équipes pour vos magasins de vente au détail et le personnel.
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -35,7 +35,7 @@ Utilisez les ressources d’administration ici pour gérer et tirer le meilleur 
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Prise en main des modèles Équipes de vente au détail</h3>
+                        <h3>Démarrage avec les modèles Teams pour la vente au détail</h3>
                     </div>
                 </div>
             </div>

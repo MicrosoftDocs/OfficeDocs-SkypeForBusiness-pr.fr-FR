@@ -14,18 +14,18 @@ ms.assetid: d136adcd-6659-4113-941c-cca75033318e
 ROBOTS: NOINDEX, NOFOLLOW
 description: Utilisez la boîte de dialogue Sélectionner des itinéraires pour trouver des itinéraires existants que vous pouvez utiliser.
 ms.openlocfilehash: 2c2f1d34976ed1f709e948af74f83999a368933e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874457"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32221157"
 ---
-# <a name="select-routes"></a><span data-ttu-id="37de6-103">Sélectionner des itinéraires</span><span class="sxs-lookup"><span data-stu-id="37de6-103">Select Routes</span></span>
+# <a name="select-routes"></a><span data-ttu-id="735d8-103">Sélectionner des itinéraires</span><span class="sxs-lookup"><span data-stu-id="735d8-103">Select Routes</span></span>
  
-<span data-ttu-id="37de6-104">Utilisez la boîte de dialogue **Sélectionner des itinéraires** pour trouver des itinéraires existants que vous pouvez utiliser.</span><span class="sxs-lookup"><span data-stu-id="37de6-104">Use the **Select Routes** dialog box to find existing voice routes that you can use.</span></span>
+<span data-ttu-id="735d8-104">Utilisez la boîte de dialogue **Sélectionner des itinéraires** pour trouver des itinéraires existants que vous pouvez utiliser.</span><span class="sxs-lookup"><span data-stu-id="735d8-104">Use the **Select Routes** dialog box to find existing voice routes that you can use.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="37de6-105">Pour récupérer tous les itinéraires de communications vocales disponibles, ne pas tapez rien dans la zone de recherche et puis cliquez sur l’icône de recherche.</span><span class="sxs-lookup"><span data-stu-id="37de6-105">To retrieve all available voice routes, do not type anything in the search box and then click the search icon.</span></span> 
+> <span data-ttu-id="735d8-105">Pour récupérer tous les itinéraires de communications vocales disponibles, ne pas tapez rien dans la zone de recherche et puis cliquez sur l’icône de recherche.</span><span class="sxs-lookup"><span data-stu-id="735d8-105">To retrieve all available voice routes, do not type anything in the search box and then click the search icon.</span></span> 
   
  
   
