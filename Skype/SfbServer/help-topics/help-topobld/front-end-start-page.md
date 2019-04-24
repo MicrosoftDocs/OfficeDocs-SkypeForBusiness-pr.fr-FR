@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 3f6e69ed-4add-4dc8-acb8-dfe050819f5a
 description: Utilisez cet Assistant pour définir un nouveau pool frontal pour un site. Chaque site doit avoir au moins un pool Enterprise Edition ou Standard Edition server. Pour plus d’informations sur la configuration requise pour l’utilisation de l’Assistant pour créer un nouveau pool frontal, voir Define and Configure a Front End Pool dans la documentation de déploiement.
 ms.openlocfilehash: b516f85a899968f135d02948c50e46d070ded376
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894978"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32176558"
 ---
 # <a name="front-end-start-page"></a>Page de création du pool frontal
 

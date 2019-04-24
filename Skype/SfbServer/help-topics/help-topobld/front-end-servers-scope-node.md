@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 99c8c4b6-eb12-4c6b-b32c-3977d17fc8fa
 description: 'Le nœud des pools frontaux Enterprise Edition répertorie les pools frontaux sur ce site, tandis que les nœuds des serveurs frontaux Standard Edition répertorient les serveurs Standard Edition sur ce site. Vous pouvez effectuer l’action suivante :'
 ms.openlocfilehash: cce9e2d52b20ad9b439435f12111fdc1e9bf7b8b
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896671"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32177440"
 ---
 # <a name="front-end-servers-scope-node"></a>Nœud d’étendue des serveurs frontaux
  

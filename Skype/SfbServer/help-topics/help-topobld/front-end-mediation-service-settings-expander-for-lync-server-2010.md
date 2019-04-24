@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 37166b87-8a43-42a6-a2aa-5a45bed8a6f3
 description: 'Vous modifiez les propriétés des paramètres de la passerelle PSTN de serveur de médiation dans cette boîte de dialogue. Vous définissez les paramètres suivants :'
 ms.openlocfilehash: 1a189481eebafc18e925df391c55fa5ced656d91
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889272"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32180175"
 ---
 # <a name="front-end-mediation-service-settings-expander-for-lync-server-2010"></a>Développeur des paramètres du service de médiation frontal pour Lync Server 2010
  

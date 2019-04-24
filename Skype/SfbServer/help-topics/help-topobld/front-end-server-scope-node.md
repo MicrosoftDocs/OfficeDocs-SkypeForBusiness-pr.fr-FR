@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 16f6382d-1cbd-4656-b9cb-1adda13b97ae
 description: 'Ce nœud affiche les informations sur la configuration de ce pool frontal ou de ce serveur Standard Edition Server. Vous pouvez effectuer les actions suivantes :'
 ms.openlocfilehash: 4c21a0f2d27c86f1b457105786e17876b26bee8e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887584"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32173183"
 ---
 # <a name="front-end-server-scope-node"></a>Nœud d’étendue du serveur frontal
  
