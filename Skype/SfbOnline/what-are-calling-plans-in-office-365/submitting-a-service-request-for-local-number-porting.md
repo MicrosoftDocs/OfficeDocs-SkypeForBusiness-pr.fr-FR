@@ -22,29 +22,29 @@ ms.custom:
 - Calling Plans
 description: 'If you have more than 999 phone numbers to transferred to Skype for Business, learn how to submit a port order service request to get them moved. '
 ms.openlocfilehash: 7d6e8e6709a885e65888d330ef543556c5fa05b0
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958080"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229679"
 ---
-# <a name="submitting-a-service-request-for-local-number-porting"></a><span data-ttu-id="a641b-103">Envoi d'une demande de service concernant le transfert d'un numéro local</span><span class="sxs-lookup"><span data-stu-id="a641b-103">Submitting a service request for local number porting</span></span>
+# <a name="submitting-a-service-request-for-local-number-porting"></a><span data-ttu-id="52fae-103">Envoi d'une demande de service concernant le transfert d'un numéro local</span><span class="sxs-lookup"><span data-stu-id="52fae-103">Submitting a service request for local number porting</span></span>
 
-<span data-ttu-id="a641b-104">Si vous devez transférer plus de 999 numéros de téléphone (des utilisateurs ou des numéros de service, y compris payant ou numéro gratuit) à Skype pour Business Online, voir [Gérer les numéros de téléphone pour votre organisation](/microsoftteams/manage-phone-numbers-for-your-organization).</span><span class="sxs-lookup"><span data-stu-id="a641b-104">If you need to transfer more than 999 phone numbers (for users, or service numbers including toll or toll-free) to Skype for Business Online, see [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization).</span></span>
+<span data-ttu-id="52fae-104">Si vous devez transférer plus de 999 numéros de téléphone (des utilisateurs ou des numéros de service, y compris payant ou numéro gratuit) à Skype pour Business Online, voir [Gérer les numéros de téléphone pour votre organisation](/microsoftteams/manage-phone-numbers-for-your-organization).</span><span class="sxs-lookup"><span data-stu-id="52fae-104">If you need to transfer more than 999 phone numbers (for users, or service numbers including toll or toll-free) to Skype for Business Online, see [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization).</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="a641b-105">Si vous devez obtenir davantage de numéros de téléphone, veuillez [contacter le support pour les entreprises - Aide de l'administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span><span class="sxs-lookup"><span data-stu-id="a641b-105">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
+> <span data-ttu-id="52fae-105">Si vous devez obtenir davantage de numéros de téléphone, veuillez [contacter le support pour les entreprises - Aide de l'administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span><span class="sxs-lookup"><span data-stu-id="52fae-105">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
   
-## <a name="related-topics"></a><span data-ttu-id="a641b-106">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="a641b-106">Related topics</span></span>
-[<span data-ttu-id="a641b-107">Questions fréquentes à propos du transfert de numéros de téléphone</span><span class="sxs-lookup"><span data-stu-id="a641b-107">Transferring phone numbers common questions</span></span>](/microsoftteams/transferring-phone-numbers-common-questions)
+## <a name="related-topics"></a><span data-ttu-id="52fae-106">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="52fae-106">Related topics</span></span>
+[<span data-ttu-id="52fae-107">Questions fréquentes à propos du transfert de numéros de téléphone</span><span class="sxs-lookup"><span data-stu-id="52fae-107">Transferring phone numbers common questions</span></span>](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[<span data-ttu-id="a641b-108">Différents types de numéros de téléphone utilisés pour les offres d'appel</span><span class="sxs-lookup"><span data-stu-id="a641b-108">Different kinds of phone numbers used for Calling Plans</span></span>](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
+[<span data-ttu-id="52fae-108">Différents types de numéros de téléphone utilisés pour les offres d'appel</span><span class="sxs-lookup"><span data-stu-id="52fae-108">Different kinds of phone numbers used for Calling Plans</span></span>](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[<span data-ttu-id="a641b-109">Gérer des numéros de téléphone pour votre entreprise</span><span class="sxs-lookup"><span data-stu-id="a641b-109">Manage phone numbers for your organization</span></span>](/microsoftteams/manage-phone-numbers-for-your-organization)
+[<span data-ttu-id="52fae-109">Gérer des numéros de téléphone pour votre entreprise</span><span class="sxs-lookup"><span data-stu-id="52fae-109">Manage phone numbers for your organization</span></span>](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[<span data-ttu-id="a641b-110">Conditions générales relatives aux appels d'urgence</span><span class="sxs-lookup"><span data-stu-id="a641b-110">Emergency calling terms and conditions</span></span>](/microsoftteams/emergency-calling-terms-and-conditions)
+[<span data-ttu-id="52fae-110">Conditions générales relatives aux appels d'urgence</span><span class="sxs-lookup"><span data-stu-id="52fae-110">Emergency calling terms and conditions</span></span>](/microsoftteams/emergency-calling-terms-and-conditions)
 
-<span data-ttu-id="a641b-111">[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="a641b-111">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
+<span data-ttu-id="52fae-111">[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="52fae-111">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
   
   
  

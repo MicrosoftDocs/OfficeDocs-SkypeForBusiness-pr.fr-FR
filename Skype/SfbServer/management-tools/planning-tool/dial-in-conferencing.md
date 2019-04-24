@@ -15,18 +15,18 @@ localization_priority: Normal
 ms.assetid: c1f79a05-165c-47ec-8593-0bb3d43ee16f
 description: Skype pour la conférence rendez-vous Business Server 2015 permet aux utilisateurs de participer à la partie audio d’un Skype pour Business Server 2015 conférence à l’aide d’un téléphone de réseau téléphonique commuté public sans faire appel à un fournisseur de services d’audioconférence tiers.
 ms.openlocfilehash: 4bca75a791e3bed9fa6a1dc48fd82a313dc7aad5
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883534"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222676"
 ---
-# <a name="dial-in-conferencing-planning-tool"></a><span data-ttu-id="cbb9e-103">Dial-in Conferencing (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="cbb9e-103">Dial-in Conferencing (Planning Tool)</span></span>
+# <a name="dial-in-conferencing-planning-tool"></a><span data-ttu-id="3a1a4-103">Dial-in Conferencing (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="3a1a4-103">Dial-in Conferencing (Planning Tool)</span></span>
  
-<span data-ttu-id="cbb9e-104">Skype pour la conférence rendez-vous Business Server 2015 permet aux utilisateurs de participer à la partie audio d’un Skype pour Business Server 2015 conférence à l’aide d’un téléphone de réseau téléphonique commuté public sans faire appel à un fournisseur de services d’audioconférence tiers.</span><span class="sxs-lookup"><span data-stu-id="cbb9e-104">Skype for Business Server 2015 dial-in conferencing enables users to join the audio portion of a Skype for Business Server 2015 conference by using a public switched telephone network (PSTN) phone without requiring a third-party audio conferencing provider.</span></span>
+<span data-ttu-id="3a1a4-104">Skype pour la conférence rendez-vous Business Server 2015 permet aux utilisateurs de participer à la partie audio d’un Skype pour Business Server 2015 conférence à l’aide d’un téléphone de réseau téléphonique commuté public sans faire appel à un fournisseur de services d’audioconférence tiers.</span><span class="sxs-lookup"><span data-stu-id="3a1a4-104">Skype for Business Server 2015 dial-in conferencing enables users to join the audio portion of a Skype for Business Server 2015 conference by using a public switched telephone network (PSTN) phone without requiring a third-party audio conferencing provider.</span></span>
   
-<span data-ttu-id="cbb9e-105">Pour des informations sur la planification de l’activation de la conférence rendez-vous dans votre organisation, consultez la rubrique suivante et les rubriques auxquelles elle renvoie :</span><span class="sxs-lookup"><span data-stu-id="cbb9e-105">For planning details about enabling dial-in conferencing for your organization, see the following topic and the topics it links to:</span></span> 
+<span data-ttu-id="3a1a4-105">Pour des informations sur la planification de l’activation de la conférence rendez-vous dans votre organisation, consultez la rubrique suivante et les rubriques auxquelles elle renvoie :</span><span class="sxs-lookup"><span data-stu-id="3a1a4-105">For planning details about enabling dial-in conferencing for your organization, see the following topic and the topics it links to:</span></span> 
   
-- [<span data-ttu-id="cbb9e-106">Plan for conferencing in Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="cbb9e-106">Plan for conferencing in Skype for Business Server 2015</span></span>](../../plan-your-deployment/conferencing/conferencing.md)
+- [<span data-ttu-id="3a1a4-106">Plan for conferencing in Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="3a1a4-106">Plan for conferencing in Skype for Business Server 2015</span></span>](../../plan-your-deployment/conferencing/conferencing.md)
     
 
