@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 041705e1-7290-464f-95f8-96256cfa2e3e
 description: La table SessionCorrelation est une table de prise en charge. Chaque enregistrement représente un ID de corrélation qui sert à corréler plusieurs sessions.
 ms.openlocfilehash: 8c41ab5c52c6b4d06a3c3953e8d969488680e8d3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884662"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212115"
 ---
 # <a name="sessioncorrelation-table"></a>Table SessionCorrelation
  

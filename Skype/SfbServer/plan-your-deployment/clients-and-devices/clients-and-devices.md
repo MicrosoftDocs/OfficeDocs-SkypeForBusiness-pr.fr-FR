@@ -16,11 +16,11 @@ ms.custom: ''
 ms.assetid: 95f0852e-391d-4345-985f-0a2da50491fa
 description: 'Résumé : clients et applications pris en charge pour Skype Entreprise.'
 ms.openlocfilehash: 4d8230969a7fa5383f72d504e426638d09ee998b
-ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
-ms.locfileid: "31993383"
+ms.locfileid: "32207495"
 ---
 # <a name="plan-for-clients-and-devices"></a>Planifier des clients et des appareils
 

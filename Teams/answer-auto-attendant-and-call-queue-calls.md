@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 8a94f8220cca2058e993f73241e62ff3ad0ea4f2
-ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/18/2019
-ms.locfileid: "31914543"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32210930"
 ---
 <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>Répondre aux appels dans la file d’attente ou du standard automatique directement à partir de Teams
 ===========================================================
@@ -59,10 +59,10 @@ Prise en charge pour les appels de file d’attente standard et appel automatiqu
 
 Pour recevoir le standard automatique et appels de file d’attente sur Microsoft Teams, vous devez configurer votre stratégie d’interopérabilité et mise à niveau de stratégie. Examinez la [Migration et interopérabilité pour les organisations à l’aide des équipes avec Skype pour les entreprises](migration-interop-guidance-for-teams-with-skype.md). Si vous n’avez pas de standard automatique ou la file d’attente d’appel configuré et qu’il souhaite faire, voir [définir un standard automatique de nuage](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant) et [créer une file d’attente des appels dans le nuage](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 -   [Quel est le système téléphonique dans Office 365](what-is-phone-system-in-office-365.md)
--   [Créer une file d’attente des appels dans le nuage](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
--   [Quelles sont les standards automatiques de nuage ?](what-are-phone-system-auto-attendants.md)
--   [Configurer un standard automatique de nuage](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
+-   [Créer une file d’attente d’appels cloud](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
+-   [Un standard Cloud automatique, qu’est-ce que c’est ?](what-are-phone-system-auto-attendants.md)
+-   [Configurer un standard automatique dans le cloud](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
 

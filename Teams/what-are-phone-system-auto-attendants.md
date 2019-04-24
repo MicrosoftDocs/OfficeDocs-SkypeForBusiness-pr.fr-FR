@@ -22,12 +22,12 @@ f1keywords: ms.teamsadmincenter.autoattendants.overview
 ms.custom:
 - Phone System
 description: Découvrez quelles sont les standards automatiques de nuage et comment les utiliser.
-ms.openlocfilehash: 1d9c72817b865b323b9d018710c9201b51bb56a3
-ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
+ms.openlocfilehash: 99310e44fbab43e16d0816acdb8a85815863b286
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/18/2019
-ms.locfileid: "31914627"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32211692"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>Quelles sont les standards automatiques de nuage ?
 
@@ -62,7 +62,7 @@ Avant de commencer à utiliser les standards automatiques, il est impératif de 
 > [!NOTE]
 > Directs numéros de service de routage de standard automatiquement et files d’attente des appels sont pris en charge pour les agents et les utilisateurs Microsoft Teams uniquement pour le moment.
 
-> [!NOTE] 
+> [!NOTE]
 > Microsoft fonctionne sur un modèle de licence approprié pour les applications telles que les standards automatiques de nuage et les files d’attente des appels, maintenant vous devez utiliser le modèle de gestion des licences utilisateur pour.
     
    > [!TIP]
@@ -241,7 +241,7 @@ Pour affecter un numéro de service, vous devez obtenir ou transférer votre app
 > [!NOTE]
 > Si vous êtes en dehors des États-Unis, vous ne pouvez pas utiliser le centre d’administration Microsoft Teams pour obtenir les numéros de service. Accédez [Gérer les numéros de téléphone pour votre organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) à la place pour voir comment le faire.
   
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Voici les avantages du système téléphonique dans Office 365](here-s-what-you-get-with-phone-system.md)
 

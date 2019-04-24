@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 9ea090b3-f607-46f7-97dd-2510052524e5
 description: Les décisions nécessaires à la planification pour le média de contournement dans Skype pour Business Server Enterprise Voice. Inclut l’interaction avec le contrôle d’admission des appels.
 ms.openlocfilehash: 26cf20fcd7b8378d99da21be46bd6ca219b82196
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884862"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206991"
 ---
 # <a name="plan-for-media-bypass-in-skype-for-business"></a>Planification du contournement de média dans Skype pour les entreprises
 

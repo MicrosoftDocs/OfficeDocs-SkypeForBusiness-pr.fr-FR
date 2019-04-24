@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: ac3a1046-b438-4e21-9d4f-3b0057dd685d
 description: Comprendre les méthodes que vous pouvez accéder à Skype pour les fonctionnalités d’Outlook et d’autres applications Microsoft Office.
 ms.openlocfilehash: c5636b5c7e41b480a9c8aa5532a22523c3554a54
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965662"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207474"
 ---
 # <a name="skype-for-business-compatibility-with-office-apps"></a>Skype pour assurer la compatibilité avec les applications Office Business
  
@@ -33,17 +33,17 @@ Le tableau suivant décrit le Skype pour les fonctionnalités qui sont prises en
   
 **Skype pour les entreprises et de compatibilité Microsoft Office**
 
-|**Fonctionnalité**|**Microsoft Office 2010**|**Microsoft Office 2013, 2015 et 2016**|**2016 Office pour Mac** & #x 2776 ; |
+|**Fonctionnalité**|**Microsoft Office 2010**|**Microsoft Office 2013, 2015 et 2016**|_AMP_ **2016 Office pour Mac** #x 2776 ; |
 |:-----|:-----|:-----|:-----|
 |**Fonctionnalités Outlook** ||||
-|Personnaliser les invitations aux réunions Outlook (ajouter un logo, une URL d’aide, une clause d’exclusion de responsabilité ou un texte de pied de page)  |Non  |Oui   |Oui|
+|Personnaliser les invitations aux réunions Outlook (ajouter un logo, une URL d’aide, une clause d’exclusion de responsabilité ou un texte de pied de page)  |Non  |Oui    |Oui|
 |Configurer une option de réunion pour désactiver le micro et la vidéo par défaut    |Non    |Oui    |Non    |
 |Magasin de contacts unifié pour la gestion des listes de Contacts dans Office et Skype pour les entreprises    |Non    |Oui (nécessite Exchange 2013 ou version supérieure)    |Oui    |
 |Images de profil haute résolution    |Non    |Oui (nécessite Exchange 2013 ou version supérieure)    |Oui    |
-|Statut de présence dans le Microsoft Outlook à partir de, à et Cc champs    |Oui    |Oui    |Oui    |
+|Statut de présence dans le Microsoft Outlook à partir de, à et Cc champs    |Oui     |Oui     |Oui    |
 |Répondre avec la messagerie instantanée ou un appel à partir du menu disponibilité    |Oui (depuis la carte de visite)    |Oui (depuis la carte de visite)    |Oui (depuis la carte de visite)    |
-|Statut de présence dans une demande de réunion sous l’onglet Assistant Planification.    |Oui    |Oui    |Non    |
-|Répondre par messagerie instantanée ou un appel à partir de la barre d’outils ou le ruban dans un message électronique reçu    |Oui    |Oui    |Oui    |
+|Statut de présence dans une demande de réunion sous l’onglet Assistant Planification.    |Oui     |Oui    |Non    |
+|Répondre par messagerie instantanée ou un appel à partir de la barre d’outils ou le ruban dans un message électronique reçu    |Oui     |Oui     |Oui    |
 |**Autres applications Office**   ||||
 |Notes partagées OneNote    |Non    |Oui    |Non    |
 |Configuration intégrée au programme d’installation d’Office    |Non    |Oui    |Non    |

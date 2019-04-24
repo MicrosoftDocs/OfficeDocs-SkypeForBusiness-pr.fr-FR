@@ -1,5 +1,5 @@
 ---
-title: Qu'est-ce que les plans de numérotation ?
+title: Qu’est-ce que les plans de numérotation ?
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -22,13 +22,13 @@ ms.custom:
 - Calling Plans
 description: 'Découvrez comment choisir votre organisation et quel type de numérotation appelant plans (plans de numérotation appel PSTN) sont disponibles avec Office 365.  '
 ms.openlocfilehash: 8dc0bb49d37c2df1903332eb71809869d9ebf66a
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542406"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32211780"
 ---
-# <a name="what-are-dial-plans"></a>Qu'est-ce que les plans de numérotation ?
+# <a name="what-are-dial-plans"></a>Qu’est-ce que les plans de numérotation ?
 
 Un plan de numérotation est un jeu nommé de règles de normalisation qui convertissent les numéros de téléphones appelés par un utilisateur individuel dans un autre format (typiquement E.164) pour l'autorisation et le routage des appels.
 
@@ -147,7 +147,7 @@ Le tableau ci-dessous illustre des exemples de règles de normalisation écrites
 > Les noms des règles de normalisation indiqués dans le tableau précédent n'incluent pas d'espaces, mais c'est une question de choix. Le premier nom du tableau, par exemple, aurait pu s'écrire « 5 digit extension » ou « 5-digit Extension » et être toujours valide. 
 
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Créer et gérer les plans de numérotation](create-and-manage-dial-plans.md)
 

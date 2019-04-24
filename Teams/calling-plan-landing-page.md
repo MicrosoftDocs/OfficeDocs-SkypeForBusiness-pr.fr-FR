@@ -1,5 +1,5 @@
 ---
-title: Plans d’appel dans les équipes Microsoft
+title: Plans d’appel dans Microsoft Teams
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -16,13 +16,13 @@ description: Appel de Plan de page d’accueil
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 412797a52e82c03937670e895fea7b42a3ce7b4a
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460755"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32211982"
 ---
-# <a name="phone-system-with-calling-plans"></a>Système téléphonique avec forfaits d’appels 
+# <a name="phone-system-with-calling-plans"></a>Système téléphonique avec les Plans d’appel 
 
 Vous avez terminé la [mise en route](get-started-with-teams-quick-start.md). Vous avez déployé Teams avec [des conversations, des équipes, des canaux et des applications](deploy-chat-teams-channels-microsoft-teams-landing-page.md) au sein de votre organisation. Peut-être que vous avez déployé la [conférence & de réunions](deploy-meetings-microsoft-teams-landing-page.md). Vous êtes maintenant prêt à ajouter des charges de travail de voix dans le cloud, et vous avez décidé d’utiliser le système téléphonique de Microsoft avec l’appel de planifier pour se connecter à la Public téléphone réseau commuté (RTC). 
 
@@ -33,8 +33,8 @@ Cet article décrit les décisions de déploiement principaux pour appeler des P
 
 Les articles suivants fournissent plus d’informations sur le déploiement et à l’aide de l’appel des Plans de Microsoft :
 
-- [Système téléphonique d'Office 365](what-is-phone-system-in-office-365.md)
-- [Plans d’appel dans Office 365](calling-plans-for-office-365.md)
+- [Système téléphonique dans Office 365](what-is-phone-system-in-office-365.md)
+- [Forfaits d’appel dans Office 365](calling-plans-for-office-365.md)
 - [Configurer des forfaits d'appels](set-up-calling-plans.md)
 
 
@@ -69,7 +69,7 @@ Avec des Plans de l’appel dans Office 365, tous les utilisateurs de votre orga
 |Niveau de détail voulez-vous les informations d’adresse et l’emplacement d’urgence à ? |Pour plus d’informations, voir [Quels sont les emplacements d’urgence, les adresses et le routage des appels ?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing).
 
 
-### <a name="calling-identity"></a>Identité d'appel
+### <a name="calling-identity"></a>Identité de l’appelant
 
 Par défaut, tous les appels sortants utilisent le numéro de téléphone affecté comme identité de l’appelante (ID de l’appelant). Le destinataire de l'appel peut rapidement identifier l'appelant et décider d'accepter ou de refuser l'appel.
 

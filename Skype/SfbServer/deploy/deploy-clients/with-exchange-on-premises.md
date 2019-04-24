@@ -13,11 +13,11 @@ ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection: M365-voice
 description: Lisez cette rubrique pour plus d’informations sur le déploiement des salles d’équipes Microsoft dans un environnement hybride avec Exchange sur site.
 ms.openlocfilehash: 664f6d210858b42591dcbb4461b858646e5cb933
-ms.sourcegitcommit: 7fe8daf07013d7c532f128a3ae3bbf51d1b2aac9
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/11/2019
-ms.locfileid: "31807982"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207887"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>Déployer Microsoft équipes salles avec Exchange sur site
 
@@ -169,4 +169,4 @@ Pour la validation, vous devez être en mesure d’utiliser n’importe quel Sky
   
 [Configurer une console Microsoft équipes salles](console.md)
   
-[Gérer les équipes Microsoft salles](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Gérer Microsoft Teams Rooms](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)

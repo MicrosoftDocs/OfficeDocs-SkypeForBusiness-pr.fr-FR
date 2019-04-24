@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: ed843ed7-371f-46cc-969a-f8062c06fc55
 description: En savoir plus sur les services de Enhanced 9-1-1 (E9-1-1) dans Skype pour Business Server Enterprise Voice, y compris l’acquisition de l’emplacement et le routage des appels.
 ms.openlocfilehash: 4dba79c1c1b1b1fed0f60ea4f4c4a9a1d1baea92
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893809"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207642"
 ---
 # <a name="plan-for-emergency-services-in-skype-for-business-server"></a>Planifier les services d’urgence dans Skype pour Business Server
 

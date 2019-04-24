@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: d8211c64-0b63-4193-a074-673da7d14287
 description: 'Résumé : Étape AV et OAuth certificats pour Skype pour Business Server.'
 ms.openlocfilehash: ec2187ddf75d3725646ed9ea732a65552d432364
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889097"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32211092"
 ---
 # <a name="assign-a-per-user-pin-policy-in-skype-for-business-server"></a>Affecter une stratégie de code confidentiel par utilisateur dans Skype pour Business Server
 

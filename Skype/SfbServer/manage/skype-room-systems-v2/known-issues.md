@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.collection: M365-voice
 description: Cet article répertorie les problèmes connus concernant Microsoft Teams Rooms, par fonctionnalité spécifique.
 ms.openlocfilehash: d71b209784f4737ac4433e2eececb1f9ada3ebc8
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013086"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32246296"
 ---
 # <a name="known-issues"></a>Problèmes connus 
  

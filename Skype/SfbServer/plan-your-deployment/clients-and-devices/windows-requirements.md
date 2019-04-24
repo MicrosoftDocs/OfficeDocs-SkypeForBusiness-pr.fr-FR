@@ -16,11 +16,11 @@ ms.custom: ''
 ms.assetid: a6851e38-ba9a-4f19-9aa7-d8accf4d62b3
 description: 'Résumé : Passez en revue les exigences de prise en charge du client Windows lors de la planification Skype pour Business Server.'
 ms.openlocfilehash: fec7996bccddf68fdeb59b8f9e0a185d5c5f18c7
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965633"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207222"
 ---
 # <a name="windows-client-requirements-and-software-support"></a>Configuration requise des clients Windows et prise en charge logicielle
  
@@ -35,13 +35,13 @@ Cette section récapitule les logiciels requis pour prendre en charge la Skype p
 
 |**Composant système**|**Versions prises en charge**|
 |:-----|:-----|
-|Système d’exploitation Windows  <br/> |Windows 10  <br/> Windows 8.1  <br/> Windows 8  <br/> système d’exploitation Windows 7  <br/> Windows Server 2008 R2 ou versions ultérieures avec le service pack le plus récent  <br/> **Remarque :** Skype pour les entreprises et le complément de réunion en ligne pour Skype pour les entreprises ne sont pas pris en charge sur Windows Vista ou Windows XP (n’importe quelle version). <br/> |
+|Système d’exploitation Windows  <br/> |Windows 10  <br/> Windows 8.1  <br/> Windows 8  <br/> Système d’exploitation Windows 7  <br/> Windows Server 2008 R2 ou versions ultérieures avec le service pack le plus récent  <br/> **Remarque :** Skype pour les entreprises et le complément de réunion en ligne pour Skype pour les entreprises ne sont pas pris en charge sur Windows Vista ou Windows XP (n’importe quelle version). <br/> |
 |Installation et mises à jour  <br/> |Droits et autorisations d’administrateur  <br/> |
 |Navigateur  <br/> |Microsoft Edge  <br/> Navigateur Internet d’Internet Explorer 11  <br/>  Navigateur Internet d’Internet Explorer 10 <br/> Navigateur Internet d’Internet Explorer 9  <br/> Navigateur Internet d’Internet Explorer 8  <br/> Navigateur Internet d’Internet Explorer 7  <br/> Navigateur web Mozilla Firefox  <br/>  Navigateur Google Chrome  <br/>**Remarque :** Si vous utilisez Skype pour les entreprises avec Microsoft Exchange Online et votre organisation a déployé un proxy HTTP d’authentification, Internet Explorer 8 ou version ultérieure est requis.           |
 |Intégration à Microsoft Office  <br/> | Outlook 2010 ou version ultérieure |
 |Intégration à Microsoft Exchange  <br/> | Microsoft Exchange Server 2010 ou version ultérieure  | 
    
-## <a name="hardware"></a>Configuration matérielle
+## <a name="hardware"></a>Matériel
 
 Reportez-vous à la [Configuration requise pour](https://products.office.com/en-us/office-system-requirements) Office 365 pour le matériel requis pour exécuter le Skype pour le client Business.
   
