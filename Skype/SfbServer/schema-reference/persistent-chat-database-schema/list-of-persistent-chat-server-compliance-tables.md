@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 8563446e-90cc-47cc-8a8e-4883decfe195
 description: Le schéma de base de données de conformité conversation permanente comprend les tables suivantes.
 ms.openlocfilehash: 18c35cc71da43dcf25bb477e81a2471b483ee86d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874314"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212697"
 ---
 # <a name="list-of-persistent-chat-server-compliance-tables-in-skype-for-business-server"></a>Liste des tables de conformité Persistent Chat Server dans Skype pour Business Server
  

@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Avant de déployer Skype pour Business Server 2019 dans un état de coexistence, vous devez effectuer certaines tâches Active Directory supplémentaires pour configurer le schéma, la forêt et domaine pour Skype pour Business Server 2019. Les extensions de schéma ajoutent les classes Active Directory et les attributs qui sont requis par Skype pour Business Server 2019. Pour plus d’informations, consultez la rubrique Préparation d’Active Directory Domain Services pour Skype pour Business Server 2019.
 ms.openlocfilehash: 290919f0c3ac1c58a92e00ba6d3403b6d2fb9069
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874723"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231531"
 ---
 # <a name="prepare-active-directory-for-skype-for-business-server"></a>Préparer Active Directory pour Skype pour Business Server
 

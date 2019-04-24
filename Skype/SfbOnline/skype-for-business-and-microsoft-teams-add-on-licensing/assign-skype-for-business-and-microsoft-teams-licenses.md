@@ -21,11 +21,11 @@ ms.custom:
 - Licensing
 description: "Apprenez comment affecter des licences Skype Entreprise pour le Système téléphonique, l'Audioconférence, les Plans d'appel et les Crédits de communications. "
 ms.openlocfilehash: e81c4c4d2fc11202ac114912ca309d93b00f2062
-ms.sourcegitcommit: f9a9a7e4b7f6c821a3372f7dcb966a8a6d458752
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "30952464"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226119"
 ---
 # <a name="assign-skype-for-business-licenses"></a>Attribuer des licences Skype Entreprise
 
@@ -174,7 +174,7 @@ foreach ($user in $users)
 
 |**Nom du produit**|**Référence**|
 |:-----|:-----|
-|Audioconférence  <br/> |MCOMEETADV  <br/> |
+|Audioconférence,  <br/> |MCOMEETADV  <br/> |
 |Plan autonome 2 de Skype Entreprise Online  <br/> |MCOSTANDARD  <br/> |
 |Entreprise E1  <br/> |STANDARDPACK  <br/> |
 |Entreprise E3  <br/> |ENTERPRISEPACK  <br/> |
@@ -197,7 +197,7 @@ The steps are the same as assigning an Office 365 license. See [Assign or remove
 
 Take a look at the sample script for assigning **Audio Conferencing** licenses. Update it with the info for assigning **Communications Credits** licenses.
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
   
 [Configurer des forfaits d'appels](/microsoftteams/set-up-calling-plans)
   

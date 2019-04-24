@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 98e6372e-90e3-4939-b681-640f00d98ff1
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
 ms.openlocfilehash: c4388950e5241ea14fb40b486b1db3c9c3de2eca
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879075"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32234603"
 ---
 # <a name="dial-plan-create-new-or-edit-existing"></a>Plan de numérotation : en créer une autre ou en modifier une existante
 

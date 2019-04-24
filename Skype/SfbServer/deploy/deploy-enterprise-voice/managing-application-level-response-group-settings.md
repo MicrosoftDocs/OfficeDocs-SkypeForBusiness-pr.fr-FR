@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: aab749a1-fa2d-4ce8-a6c6-ebcfa37ce02a
 description: Gestion des paramètres de Response Group au niveau des applications, telles que les paramètres attente musicale et de rappel, dans Skype pour Business Server Enterprise Voice.
 ms.openlocfilehash: ceb59b041918836f00f2a568ab8f93f638ecdac5
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873695"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223033"
 ---
 # <a name="managing-application-level-response-group-settings-in-skype-for-business"></a>Gestion des paramètres de Response Group au niveau de l’application dans Skype pour les entreprises
  

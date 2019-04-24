@@ -18,17 +18,17 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Optimization
-description: Les conditions requises suivantes sont particulièrement importantes pour la garantie de l'intégrité et du bon fonctionnement à long terme de l'ensemble des fonctionnalités Skype Entreprise Online que vous configurez pour votre organisation. Ce document s'adresse aux utilisateurs occupant un poste très technique, mais nous savons que tous les utilisateurs ne le sont pas. Si vous avez besoin d'aide pour configurer Skype Entreprise Online, vous devez lire ce document pour vous familiariser avec les éléments que vous devez prendre en compte. Il vous fournira également certains points sur lesquels échanger lorsque vous collaborez avec le Microsoft FastTrack Center, vos équipes Microsoft Services et de comptes Microsoft, ou avec des partenaires Microsoft pour savoir comment répondre à ces exigences.
+description: Les conditions requises suivantes sont particulièrement importantes pour la garantie de l'intégrité et du bon fonctionnement à long terme de l'ensemble des fonctionnalités Skype Entreprise Online que vous configurez pour votre organisation. Ce document s'adresse aux utilisateurs occupant un poste très technique, mais nous savons que tous les utilisateurs ne le sont pas. Si vous avez besoin d'aide pour configurer Skype Entreprise Online, vous devez lire ce document pour vous familiariser avec les éléments que vous devez prendre en compte. Il vous donnera également à aborder lorsque vous travaillez avec le Center FastTrack Microsoft, vos équipes de compte et les Services de Microsoft ou avec des partenaires Microsoft pour savoir comment vous pouvez répondre à ces exigences.
 ms.openlocfilehash: aac6a85b78df7477a6e62ddbf766015182bb7a2b
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23851494"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32234527"
 ---
 # <a name="optimizing-your-network-for-skype-for-business-online"></a>Optimisation de votre réseau pour Skype Entreprise Online
 
-[] Les conditions requises suivantes sont particulièrement importantes pour la garantie de l'intégrité et du bon fonctionnement à long terme de l'ensemble des fonctionnalités Skype Entreprise Online que vous configurez pour votre organisation. Ce document s'adresse aux utilisateurs occupant un poste très technique, mais nous savons que tous les utilisateurs ne le sont pas. Si vous avez besoin d'aide pour configurer Skype Entreprise Online, vous devez lire ce document pour vous familiariser avec les éléments que vous devez prendre en compte. Il vous fournira également certains points sur lesquels échanger lorsque vous collaborez avec le [Microsoft FastTrack Center](https://fasttrack.microsoft.com/office), vos équipes Microsoft Services et de comptes Microsoft, ou avec des [partenaires Microsoft](https://partnercenter.microsoft.com/en-us/pcv/search) pour savoir comment répondre à ces exigences.
+Les conditions requises suivantes sont particulièrement importantes pour la garantie de l'intégrité et du bon fonctionnement à long terme de l'ensemble des fonctionnalités Skype Entreprise Online que vous configurez pour votre organisation. Ce document s'adresse aux utilisateurs occupant un poste très technique, mais nous savons que tous les utilisateurs ne le sont pas. Si vous avez besoin d'aide pour configurer Skype Entreprise Online, vous devez lire ce document pour vous familiariser avec les éléments que vous devez prendre en compte. Il vous donnera également à aborder lorsque vous travaillez avec le [Centre de FastTrack](https://fasttrack.microsoft.com/office), vos équipes de compte et les Services Microsoft, ou avec des [partenaires Microsoft](https://partnercenter.microsoft.com/en-us/pcv/search) pour savoir comment vous pouvez répondre à ces exigences.
   
 ## <a name="a-quick-overview"></a>Aperçu rapide
 
@@ -58,7 +58,7 @@ En plus des présentes informations, d'autres ressources peuvent vous aider à p
   
 - [Flux d'appels avec ExpressRoute](call-flow-using-expressroute.md)
     
-- [ExpressRoute et qualité de service (QoS) dans Skype Entreprise Online](expressroute-and-qos-in-skype-for-business-online.md)
+- [ExpressRoute et QoS dans Skype Entreprise Online](expressroute-and-qos-in-skype-for-business-online.md)
     
 - [Qualité des médias et performances de connectivité réseau dans Skype Entreprise Online](media-quality-and-network-connectivity-performance.md)
     
@@ -68,7 +68,7 @@ Avant d'accéder à Skype Entreprise Online, vous devez examiner la capacité de
   
 Le trafic en temps réel de Skype Entreprise est sensible à la perte de paquets, au retard et à la gigue, qui surviennent fréquemment sur des réseaux encombrés. La qualité de service (QoS), parfois dénommée Classe de service, doit également être déployée sur des réseaux WAN externes gérés, des réseaux LAN internes gérés, et des réseaux Wi-Fi d'entreprise. Cela permettra de hiérarchiser correctement les priorités du trafic en temps réel de Skype Entreprise, tel que le trafic audio et vidéo par rapport au trafic en temps différé sur des réseaux locaux et WAN, créant ainsi une meilleure expérience pour les utilisateurs finaux.
   
-Le système audio de Skype Entreprise doit être déployé dans la file d'attente Acheminement accéléré (Expedited Forwarding ou EF - DSCP 46) et le système vidéo de Skype Entreprise doit être déployé dans la file d'attente Acheminement assuré 41 (Assured Forwarding ou AF - DSCP 34). Cela s'applique également au trafic d'égal à égal et de conférence, que PBX cloud ou d'autres fonctionnalités téléphoniques soient déployés ou non.
+Le système audio de Skype Entreprise doit être déployé dans la file d'attente Acheminement accéléré (Expedited Forwarding ou EF - DSCP 46) et le système vidéo de Skype Entreprise doit être déployé dans la file d'attente Acheminement assuré 41 (Assured Forwarding ou AF - DSCP 34). Cela est vrai même pour le trafic d’égal à égal et de conférence, quel que soit ou non système téléphonique dans Office 365 ou autres fonctionnalités de téléphonie sont déployées.
   
 Bien que des stratégies de QoS existantes peuvent être déjà appliquées aux réseaux LAN et WAN pour d'autres produits de téléphonie IP, Skype Entreprise permet aux utilisateurs d'être mobiles et de se déplacer d'un site à l'autre tout en utilisant le service. Par conséquent, les stratégies de QoS doivent être marquées sur les réseaux LAN, WAN et sans fil afin d'assurer que l'ensemble du trafic de Skype Entreprise est traité en priorité sur les réseaux gérés.
   
@@ -76,7 +76,7 @@ Pour vous aider à déterminer la taille de votre réseau, téléchargez l'[outi
   
 Pour en savoir plus sur la qualité multimédia et la QoS, reportez-vous à la rubrique [Qualité des médias et performances de connectivité réseau dans Skype Entreprise Online](media-quality-and-network-connectivity-performance.md).
   
-Pour en savoir plus sur la configuration et la gestion de la QoS, reportez-vous à la rubrique [Gestion de la qualité de service](https://technet.microsoft.com/en-us/library/gg425841.aspx).
+Pour plus d’informations sur la configuration et la gestion de QoS, consultez [Gestion de la qualité de Service](https://technet.microsoft.com/en-us/library/gg425841.aspx).
   
 ## <a name="bypass-proxies-and-wan-optimization-devices"></a>Contournement des proxys et des périphériques d'optimisation du réseau WAN
 
@@ -144,7 +144,7 @@ Pour obtenir une image plus claire d’utilisation de l’expérience audio et v
   
 ![Testing audio in the Skype for Business client.](../images/1730a71e-a09d-4702-8eb6-ef1346a091fa.png)
   
-## <a name="related-topics"></a>Rubriques connexes 
+## <a name="related-topics"></a>Voir aussi 
 
 [ExpressRoute et qualité de service (QoS) dans Skype Entreprise Online](expressroute-and-qos-in-skype-for-business-online.md)
   

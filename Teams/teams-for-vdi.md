@@ -1,5 +1,5 @@
 ---
-title: Équipes pour l’Infrastructure de bureau virtualisé
+title: Teams pour une infrastructure bureau virtualisée(VDI)
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -16,13 +16,13 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: c351e0cefc5e4de4ff74a175af4dee064bf96f3f
-ms.sourcegitcommit: 946c77b847c1b2c5c43802ecfb0a918fa4f562d9
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/15/2019
-ms.locfileid: "31869829"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223423"
 ---
-# <a name="teams-for-virtualized-desktop-infrastructure"></a>Équipes pour l’Infrastructure de bureau virtualisé
+# <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams pour une infrastructure bureau virtualisée(VDI)
 
 Cet article décrit les exigences et les limitations de l’utilisation de Microsoft Teams dans un environnement virtualisé.
 
@@ -220,6 +220,6 @@ Les éléments suivants sont problèmes connus et limitations pour les équipes 
 
 Pour les équipes qui ne sont pas liés à VDI problèmes connus, voir [problèmes connus relatifs aux équipes Microsoft](Known-issues.md).
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 - [Installer Microsoft Teams à l’aide de MSI](msi-deployment.md)

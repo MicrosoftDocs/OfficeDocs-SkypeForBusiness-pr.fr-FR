@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: 56c37b3b-6517-49b9-86b7-ae48cc349119
 description: Créer ou modifier les congés Response Group, dans Skype pour Business Server Enterprise Voice.
 ms.openlocfilehash: cc34c7a2e3f03b99bc29852766926e6c63c2463f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883843"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225645"
 ---
 # <a name="optional-define-response-group-holiday-sets-in-skype-for-business"></a>(Facultatif) Définir Response Group de congés dans Skype pour les entreprises
  

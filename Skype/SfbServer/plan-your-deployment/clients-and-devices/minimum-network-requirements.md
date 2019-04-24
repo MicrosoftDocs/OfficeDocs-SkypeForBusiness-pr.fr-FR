@@ -16,11 +16,11 @@ ms.custom: ''
 ms.assetid: d9666787-e72b-41e1-ba37-aec5fb849a10
 description: 'Résumé : Informations pour les organisations qui n’utilisent Office 365 et accéder aux réunions hébergées par les organisations qui effectuent.'
 ms.openlocfilehash: 00862a4acecb8a5e6555f44d9416a2efa5834e61
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965904"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214511"
 ---
 # <a name="skype-meetings-app-minimum-network-requirements"></a>Configuration réseau minimale requise pour l'application Réunions Skype
  

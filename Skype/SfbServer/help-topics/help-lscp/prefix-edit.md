@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: a6e63c33-7927-4813-81cc-9624c2098177
 description: Pour définir les préfixes ou à partir des chiffres, ajouter des préfixes des numéros qui doit gérer cet itinéraire, y compris le + si nécessaire. Par exemple, vous pouvez associer tous les numéros commençant par +123.
 ms.openlocfilehash: a6c2856395104a00535e3792c9c79254f1510ded
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889711"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220346"
 ---
 # <a name="prefix-edit"></a>Edition du préfixe
  

@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: "Vous pouvez déplacer un seul utilisateur ou groupes d’utilisateurs à votre nouveau Skype Microsoft Business Server 2019 déploiement à l’aide de le des deux méthodes suivantes : Skype pour le panneau de configuration serveur Business et Skype pour Business Server Management Shell. Les rubriques de cette section décrivent les tâches à qu'effectuer lors du déploiement pilote, ainsi qu’avant de faire passer votre déploiement de Skype pour Business Server 2019 d’un déploiement pilote à un déploiement en environnement de production."
 ms.openlocfilehash: 69278cb325209823136a21e03b9261baf680ab73
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875460"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231559"
 ---
 # <a name="phase-4-move-test-users-to-the-pilot-pool"></a>Phase 4 : Déplacer les utilisateurs de test le pool pilote
 

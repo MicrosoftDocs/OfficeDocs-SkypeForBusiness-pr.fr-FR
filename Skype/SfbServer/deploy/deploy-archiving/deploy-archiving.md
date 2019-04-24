@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 50fa535c-7347-4e33-80a3-296748ef6666
 description: 'Résumé : Lisez cette rubrique pour savoir comment déployer l’archivage pour Skype pour Business Server.'
 ms.openlocfilehash: 0598d1a35523cc38d85320206b065b85e025687e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895068"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32233216"
 ---
 # <a name="deploy-archiving-for-skype-for-business-server"></a>Déployer l’archivage pour Skype pour Business Server
  

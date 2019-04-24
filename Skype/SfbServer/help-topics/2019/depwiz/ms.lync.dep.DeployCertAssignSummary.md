@@ -14,11 +14,11 @@ ms.assetid: e9478bf4-4e1a-46a2-bf76-3ff08a193523
 ROBOTS: NOINDEX, NOFOLLOW
 description: Avant la fin de l’affectation du certificat, vous permettent de résumé de l’affectation un certificat qui répertorie les détails du certificat qui seront affectés. Passez en revue les informations pour vous assurer que le nom du sujet et les noms de sujet sont corrects. Lorsque vous avez terminé de consulter le résumé du certificat, cliquez sur Suivant.
 ms.openlocfilehash: 4d86ce216ffcd611c303ec721be105c4144a9754
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30885932"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216521"
 ---
 # <a name="certificate-assignment-summary"></a>Assignation de certificat (résumé)
  

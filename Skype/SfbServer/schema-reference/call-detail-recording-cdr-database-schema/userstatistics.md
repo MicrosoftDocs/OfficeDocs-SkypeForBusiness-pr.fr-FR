@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: cfaf803b-1679-4169-92d3-533fad3e56ed
 description: La table UserStatistics est une table de prise en charge. Chaque enregistrement de la table stocke des informations sur l’utilisation d’un utilisateur individuel du système. Ce tableau a été introduit dans Microsoft Lync Server 2013.
 ms.openlocfilehash: 45f34a1e8905d19b5ce48d94824591f25ec1ef28
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883594"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213038"
 ---
 # <a name="userstatistics-table"></a>Table UserStatistics
  

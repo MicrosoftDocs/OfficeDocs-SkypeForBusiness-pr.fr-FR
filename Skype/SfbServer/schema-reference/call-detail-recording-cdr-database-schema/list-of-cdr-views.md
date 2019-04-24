@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 2f72aead-d1da-4185-b75c-f6c31d76a6b3
 description: Affichages fournissent un moyen facile pour accéder aux informations sur les scénarios les plus courantes utilisées pour renvoyer des données à partir de la base de données CDR. Il est recommandé d’utiliser des affichages pour la création de rapports personnalisés au lieu d’utiliser le CDR réel des tables de base de données ; C’est parce que les vues de base de données sont davantage de chances de conserver la compatibilité avec les futures versions à compatibilité descendante.
 ms.openlocfilehash: 7767a80069201e5ec07ea68d4bdef3a6a5977e4d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876858"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213007"
 ---
 # <a name="list-of-cdr-views"></a>Liste des vues CDR
  

@@ -26,11 +26,11 @@ ms.custom:
 - Calling Plans
 description: Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour Corée du Sud.
 ms.openlocfilehash: 4d16939a13e1d33732c5630594f043e287dda434
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542374"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32221978"
 ---
 # <a name="availability-in-south-korea"></a>Disponibilité en Corée du Sud
 

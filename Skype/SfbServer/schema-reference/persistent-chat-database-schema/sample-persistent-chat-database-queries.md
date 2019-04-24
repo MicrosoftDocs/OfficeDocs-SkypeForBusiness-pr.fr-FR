@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 545b1a93-9758-4344-98cc-aa0e559d494f
 description: Cette section contient des exemples de requêtes pour la base de données de conversation permanente.
 ms.openlocfilehash: 9dace51aa882402cd7f4f6c58c9444c21263333c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881558"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212683"
 ---
 # <a name="sample-persistent-chat-database-queries"></a>Exemples de requêtes de base de données de conversation permanente
  

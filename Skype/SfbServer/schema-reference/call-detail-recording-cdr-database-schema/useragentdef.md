@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 96c49239-d999-4045-8b64-9d1940cce8ff
 description: La table UserAgentDef mappe les identificateurs d’agents utilisateurs aux noms descriptifs des agents. Agents utilisateurs sont des clients logiciels utilisés pour se connecter à Skype pour Business Server 2015. Ce tableau a été introduit dans Microsoft Lync Server 2013.
 ms.openlocfilehash: 6248c2ec24052c2a1349decdc2fd294ca1ca8415
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896055"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212781"
 ---
 # <a name="useragentdef-table"></a>Table UserAgentDef
  

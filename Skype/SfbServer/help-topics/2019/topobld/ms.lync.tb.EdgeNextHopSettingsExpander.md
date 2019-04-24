@@ -14,11 +14,11 @@ ms.assetid: 7bb385b7-18c2-42a3-b8a9-cea7bf0c8fc9
 ROBOTS: NOINDEX, NOFOLLOW
 description: Pour configurer ou modifier le pool du tronçon suivant utilisé par les serveurs Edge pour communiquer avec l’infrastructure interne, sélectionnez Directeur, Pool directeur, Serveur frontal ou pool de Serveurs frontaux dans la liste. Uniquement les directeurs ou les serveurs frontaux qui ont été configurés dans le Générateur de topologie apparaissent dans la liste.
 ms.openlocfilehash: 1a090b8e1e740d81bfcfbcda3717c949ce2dd443
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893461"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220697"
 ---
 # <a name="edge-next-hop-settings-expander"></a>Expanseur des paramètres du tronçon suivant du serveur Edge
 

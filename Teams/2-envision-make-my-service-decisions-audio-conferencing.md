@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 9b6bd854de7af09ebea6b66a6393beb751f11770
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569997"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32241539"
 ---
 # <a name="make-my-service-decisions"></a>Prendre des décisions de mon service
 
@@ -76,10 +76,10 @@ Après avoir confirmé que votre organisation est éligible pour obtenir le serv
 > 
 > |Bureau   |Emplacement |Service de conférence PSTN  |
 > |---------|---------|---------|
-> |1 Eppîng Road|Australie|Audioconférence|
+> |1 Eppîng Road|Australie|Audioconférence,|
 > |100 Cyberport Road|Hong Kong R.A.S.|Conférence PSTN héritée|
-> |1 Marina Boulevard|Singapour|Audioconférence|
-> |32 London Bridge Street|Royaume-Uni|Audioconférence|
+> |1 Marina Boulevard|Singapour|Audioconférence,|
+> |32 London Bridge Street|Royaume-Uni|Audioconférence,|
 > |39 quai du Président Roosevelt|France|Audioconférence|
 
 <!--ENDOFSECTION-->
@@ -161,7 +161,7 @@ Si vous devez transférer existant numéros de téléphone de pont de conférenc
 
 Pour en savoir plus sur les numéros de téléphone de pont de conférence, consultez les articles suivants :
 
--   [Configurer la conférence pour Microsoft Teams](set-up-audio-conferencing-in-teams.md)
+-   [Configurer Audioconférence pour Microsoft Teams](set-up-audio-conferencing-in-teams.md)
 
 -   [Numéros de téléphone pour l’audioconférence](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)
 

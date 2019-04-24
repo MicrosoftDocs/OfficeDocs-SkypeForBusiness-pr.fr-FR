@@ -12,11 +12,11 @@ ms.assetid: 99443d60-e64a-4a8a-a7bf-95f790b0ad5c
 ms.collection: M365-voice
 description: En savoir plus sur la façon de déployer Skype salle système, une réunion solution salle consistant intégrée de configuration matérielle et logicielle optimisée pour joindre Skype pour les réunions d’entreprise.
 ms.openlocfilehash: 26ce5f6e50d26b408a8bce5d167e4e7b6046e514
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012566"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212725"
 ---
 # <a name="deployment-planning-for-skype-room-system-in-skype-for-business"></a>Planification du déploiement pour le système de salle Skype dans Skype pour les entreprises
  
@@ -80,7 +80,7 @@ Le tableau suivant indique la prise en charge du client de système de salle Sky
 |**Exchange**|**En local**|**Online**|**Hybride**|
 |:-----|:-----|:-----|:-----|
 |Exchange 2010  <br/> |Oui (une seule forêt)  <br/> |N/A   <br/> |N/A  <br/> |
-|Exchange 2013  <br/> |Oui (prise en charge de plusieurs forêts disponible pour Exchange 2013 CU6 et versions ultérieures)  <br/> |Oui  <br/> |Oui   <br/> |
-|Exchange 2016  <br/> |Oui (plusieurs forêts prise en charge disponible)  <br/> |Oui   <br/> |Oui  <br/> |
+|Exchange 2013  <br/> |Oui (prise en charge de plusieurs forêts disponible pour Exchange 2013 CU6 et versions ultérieures)  <br/> |Oui  <br/> |Oui  <br/> |
+|Exchange 2016  <br/> |Oui (plusieurs forêts prise en charge disponible)  <br/> |Oui  <br/> |Oui  <br/> |
    
 

@@ -15,11 +15,11 @@ ms.collection:
 appliesto: Microsoft Teams
 description: Lisez cette rubrique pour savoir comment gérer les basculements de jonction pour les appels sortants à partir des équipes pour le contrôleur de Session en périphérie (SBC).
 ms.openlocfilehash: 1a40cc3fa94bfba3c637769774f5f5b829d29ed4
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30351105"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32232642"
 ---
 # <a name="trunk-failover-on-outbound-calls"></a>Basculement de jonction sur les appels sortants
 

@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 1a7b2e59-082e-4188-98ae-48ae9bd3494a
 description: La vue Media stocke des informations sur un type de support utilisé dans une session d’égal à égal. Une session est représentée par plusieurs enregistrements dans le tableau, si plus d’un type de média est utilisé. Cet affichage a été introduit dans Microsoft Lync Server 2013.
 ms.openlocfilehash: 148f74117ba42849d58e4012e4e963b3ef1b7a3c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898042"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212922"
 ---
 # <a name="media-view"></a>Vue média
  

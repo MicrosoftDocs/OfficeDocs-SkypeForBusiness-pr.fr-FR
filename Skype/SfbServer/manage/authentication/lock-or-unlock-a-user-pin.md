@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: 3d293a8a-e182-4547-8b06-2603c3c77329
 description: 'Résumé : Verrouiller ou déverrouiller des conférences rendez-vous d’un utilisateur code confidentiel pour Skype pour Business Server.'
 ms.openlocfilehash: fb90cd54ac5f339050adc51378e42d2542e489fa
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895390"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32217907"
 ---
 # <a name="lock-or-unlock-a-user-pin-in-skype-for-business-server"></a>Verrouiller ou déverrouiller un code confidentiel dans Skype pour Business Server
  

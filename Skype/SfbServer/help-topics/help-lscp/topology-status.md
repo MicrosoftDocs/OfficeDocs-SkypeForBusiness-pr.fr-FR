@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: d5f858f5-df8e-43a9-80aa-6ba1ddb27459
 description: 'La page Topologie : Statut affiche le statut des serveurs dans votre topologie Skype Entreprise.'
 ms.openlocfilehash: 9e448dd4916671be04aa02b66f37a58d8735f962
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30885075"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220020"
 ---
 # <a name="topology-status"></a>Topologie : statut
 

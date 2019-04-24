@@ -16,11 +16,11 @@ ms.custom: ''
 ms.assetid: a4f4bad1-fc59-47ce-a3ea-b1b893769db6
 description: 'Résumé : Découvrez comment vérifier la Skype pour la topologie du serveur d’entreprise et serveurs Active Directory fonctionnent comme prévu. Téléchargez une version d’évaluation gratuite de Skype pour Business Server depuis le centre d’évaluation Microsoft à : https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
 ms.openlocfilehash: 03dfb45c03aa104cc5a9b265a37c347380590877
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896420"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32210794"
 ---
 # <a name="verify-the-topology-in-skype-for-business-server"></a>Vérifier la topologie dans Skype pour Business Server
  

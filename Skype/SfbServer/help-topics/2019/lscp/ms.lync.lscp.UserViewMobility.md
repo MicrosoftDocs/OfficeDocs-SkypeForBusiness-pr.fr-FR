@@ -14,11 +14,11 @@ ms.assetid: a6df69e2-c374-4a80-8197-5152b7d0b5d2
 ROBOTS: NOINDEX, NOFOLLOW
 description: La vue - boîte de dialogue Stratégie de mobilité affiche les propriétés de la stratégie de mobilité sélectionnée.
 ms.openlocfilehash: d5e706c50a8a63c2278e910638c85c9d41bcbd84
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892904"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32221559"
 ---
 # <a name="users-view-mobility-policy"></a>Utilisateurs : afficher une stratégie de mobilité
 

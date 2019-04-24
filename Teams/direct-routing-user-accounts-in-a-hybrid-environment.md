@@ -15,11 +15,11 @@ ms.collection:
 appliesto: Microsoft Teams
 description: Découvrez les différentes combinaisons de création de l’utilisateur et les combinaisons suivantes sont prises en charge ou non pris en charge.
 ms.openlocfilehash: 88f679d5028cd2626ce4e85f0794aafb38317c9c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899193"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32232618"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>Comptes d’utilisateur dans un environnement hybride avec une connectivité PSTN
 
@@ -58,10 +58,10 @@ Un Skype pour un environnement hybride avec une connectivité PSTN flexibilité 
 | ------------ | --------- | --------- | --------- | -------- |
 |Sur le site AD| En local |Skype Entreprise   | Voix Entreprise   |Oui|
 |Sur le site AD|Online| Skype Entreprise  | Connectivité de voix hybride   |Oui |
-|Sur le site AD|Online |Microsoft Teams |Routage direct  |Oui |
+|Sur le site AD|Online |Microsoft Teams |Routage direct  |Oui |
 |**Combinaisons non pris en charge**    | |         |         |      |
 |Azure AD| Sur le site/en ligne | Skype pour les équipes/Microsoft Business|Enterprise Voice de voix hybride/connectivité/Direct routage  |Non, l’objet utilisateur doit être créé dans AD sur site tout d’abord |
-|Sur le site AD  |En local| Microsoft Teams| Enterprise Voice de voix hybride/connectivité/Direct routage   |Non, client Microsoft Teams n’est pas pris en charge avec Skype sur site pour les entreprises |     
+|Sur le site AD  |En local| Microsoft Teams| Enterprise Voice de voix hybride/connectivité/Direct routage   |Non, client Microsoft Teams n’est pas pris en charge avec Skype sur site pour les entreprises |     
 |Sur le site AD  |Online |Skype Entreprise  | Routage direct  |Non, routage Direct n'est pas pris en charge avec Skype pour Business client et utilisateur doit être activé pour Enterprise Voice sur Skype pour les entreprises tout d’abord  |
 
 

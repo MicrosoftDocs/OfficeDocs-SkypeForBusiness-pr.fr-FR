@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: d07996e6-b0a5-4ff8-9512-ab707762b4e2
 description: 'Résumé : Découvrez la qualité mesures du rapport de Distribution médias dans Skype pour Business Server.'
 ms.openlocfilehash: 621619380db224faeadfb496e89ea6ec5337386c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887504"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32218965"
 ---
 # <a name="the-media-quality-metrics-distribution-report-in-skype-for-business-server"></a>Media Quality Metrics Distribution Report dans Skype pour Business Server 
  

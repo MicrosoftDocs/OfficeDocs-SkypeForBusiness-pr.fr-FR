@@ -1,5 +1,6 @@
 ---
 title: Affectation d’une stratégie de routage des communications vocales
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -16,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c7f78f23-b74f-402f-bedb-4cc308718f5b
 description: 'Résumé : Lisez cette rubrique pour savoir comment attribuer une stratégie de voix pour les utilisateurs à l’aide du système téléphonique dans Office 365 avec une connectivité PSTN sur site.'
-ms.openlocfilehash: 12e74a6ea4a0adf652cc4e9477d20f91b4e13732
-ms.sourcegitcommit: 7ca7f5cd38742b6a1967bd792113348dfe689850
+ms.openlocfilehash: 489e4988d21d7d22f4bcfe0756c4f0d462a1906e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30657439"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32234452"
 ---
 # <a name="assign-a-voice-routing-policy"></a>Affectation d’une stratégie de routage des communications vocales
  

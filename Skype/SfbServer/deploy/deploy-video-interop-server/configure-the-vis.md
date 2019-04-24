@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: 0fde142b-70b1-46c6-b1f9-f9d70115371d
 description: 'Résumé : Configurez le rôle de serveur d’interopérabilité vidéo (VIS) dans Skype pour Business Server.'
 ms.openlocfilehash: 1cdc03fea116b5c41eaca13b4349ffc340dbc061
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880185"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219606"
 ---
 # <a name="configure-the-video-interop-server-in-skype-for-business-server"></a>Configurer le serveur d’interopérabilité vidéo dans Skype pour Business Server
  

@@ -14,11 +14,11 @@ ms.assetid: 8659fefa-97f1-4d4a-9628-5c6dae86b244
 ROBOTS: NOINDEX, NOFOLLOW
 description: Exécuter l’Assistant Suppression du déploiement uniquement si vous souhaitez retirer de tout votre déploiement. Cet Assistant crée une topologie vide qui se compose d’un seul serveur frontal. Une fois que vous exécutez cet Assistant et publiez la topologie vide, vous ne pouvez pas revenir à votre topologie d’origine.
 ms.openlocfilehash: f1e86c15e92db308796bf2a76cf1ca4fcf9bd2a8
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877474"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235233"
 ---
 # <a name="remove-deployment-introduction"></a>Assistant Suppression du déploiement
  

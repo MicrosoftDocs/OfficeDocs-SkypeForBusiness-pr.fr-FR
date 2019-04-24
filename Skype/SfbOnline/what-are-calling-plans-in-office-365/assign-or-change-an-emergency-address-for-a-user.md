@@ -20,13 +20,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: Learn how to set up an emergency address and phone number for each of your users that works with the Public Switched Telephone Network (PSTN).
+description: Découvrez comment configurer une adresse et un numéro de téléphone d’urgence pour chacun de vos utilisateurs qui fonctionne avec les publics téléphone réseau commuté (RTCP).
 ms.openlocfilehash: 4778009ddcd004f37c5ed0f0566d64dae6648997
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29753435"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32233251"
 ---
 # <a name="assign-or-change-an-emergency-address-for-a-user"></a>Affectation ou modification d'une adresse d'urgence pour un utilisateur
 
@@ -58,11 +58,11 @@ Pour savoir comment obtenir des Forfaits d’appels dans Office 365 et leur coû
     
 8. Sélectionnez l’adresse d’urgence à partir de la liste déroulante d’adresses, puis cliquez sur **Enregistrer**. 
     
-## <a name="related-topics"></a>Rubriques connexes
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Voir aussi
 [Ajouter, modifier ou supprimer une adresse d’urgence pour votre organisation](add-or-remove-an-emergency-address-for-your-organization.md)
 
-[Ajouter, modifier ou supprimer un emplacement pour votre organisation d'urgence](add-change-or-remove-an-emergency-location-for-your-organization.md)
+[Ajouter, modifier ou supprimer un emplacement d’urgence pour votre organisation](add-change-or-remove-an-emergency-location-for-your-organization.md)
 
 [Qu’est-ce que la validation d’adresse ?](what-is-address-validation.md)
 

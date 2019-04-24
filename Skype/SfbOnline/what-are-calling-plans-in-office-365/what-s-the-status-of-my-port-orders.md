@@ -21,11 +21,11 @@ ms.custom:
 - Calling Plans
 description: 'Learn how to get the status of your port orders, and what the different actions you can take on them. '
 ms.openlocfilehash: e8cc303c503d52a9424c400617c7a982aec99d1f
-ms.sourcegitcommit: a37abb5c433012d501ede319fba60e0ae7474fce
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2019
-ms.locfileid: "31397047"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229574"
 ---
 # <a name="whats-the-status-of-my-port-orders"></a>Quel est le statut de mes demandes de transfert ?
 
@@ -39,7 +39,7 @@ Le tableau suivant répertorie les statuts de commande port, ainsi que les actio
 |**Contacter le support** <br/> |Oui  <br/> |Non  <br/> |Oui  <br/> |Non  <br/> |La commande a été reçue et approuvée par Microsoft, et nous effectuons utilisation de l’opérateur de perdre pour obtenir l’approuver.  <br/> |
 |**Transfert approuvé** <br/> |Oui  <br/> |Ordre ferme Commitment(FOC)  <br/> |Oui  <br/> |Non  <br/> |La commande a été acceptée par l’opérateur de perdre, et la date de produits gratuits a été définie.  <br/> |
 |**Transfert en attente** <br/> |Oui  <br/> |Non  <br/> |Non  <br/> |Non  <br/> |Le transfert est inférieure à vingt-quatre heures absent (e), de sorte que l’ordre ne peut être modifié ou annulé.  <br/> |
-|**Error** <br/> |Non  <br/> |Oui  <br/> |Oui   <br/> |Oui (à ce stade, vous ne pouvez pas supprimer l’ordre de port si une erreur se produit. L’ordre de port doit être recréée, ou vous devez [contacter](https://docs.microsoft.com/office365/admin/contact-support-for-business-products)le support technique pour les produits métiers : aide d’administration.  <br/> |L’opérateur de perdre a refusé l’ordre.  <br/> |
+|**Error** <br/> |Non  <br/> |Oui  <br/> |Oui  <br/> |Oui (à ce stade, vous ne pouvez pas supprimer l’ordre de port si une erreur se produit. L’ordre de port doit être recréée, ou vous devez [contacter](https://docs.microsoft.com/office365/admin/contact-support-for-business-products)le support technique pour les produits métiers : aide d’administration.  <br/> |L’opérateur de perdre a refusé l’ordre.  <br/> |
 |**Terminé** <br/> |Oui  <br/> |Non  <br/> |Non  <br/> |Non  <br/> |Les numéros ont été transférés.  <br/> |
 |**Annulé** <br/> |Non  <br/> |Oui  <br/> |Non  <br/> |Non  <br/> |L’administrateur a annulé l’ordre.  <br/> |
    

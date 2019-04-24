@@ -18,11 +18,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: dd0bf20219b8d213c354f5fc239ae3924a0d21c0
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30649387"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226638"
 ---
 # <a name="teams-only-mode-considerations"></a>Considérations relatives au mode Teams uniquement
 
@@ -53,7 +53,7 @@ Alors que des milliers de clients ont été mis à niveau vers Microsoft Teams, 
 
 **Considérations spécifiques à l’utilisateur**: certains scénarios utilisateur évoluent, et les administrateurs peuvent choisir de temporairement différer la mise à niveau de certains utilisateurs lors de la mise à niveau d’autres utilisateurs dans l’organisation. Nous sommes en train d’adressage ces scénarios ; Contrôlez dans le site de la [Feuille de route Office 365](https://www.microsoft.com/en-us/microsoft-365/roadmap) pour les annonces.
 
-| Scénario | Remarques |
+| Scénario | Notes |
 |----------|-------|
 |Appareil de travail principal de l’utilisateur est un Mac et l’utilisateur doit voir disponibilité des collègues dans Outlook. | Présence Outlook dans les équipes n'est pas encore entièrement pris en charge pour les périphériques Mac. |
 | Utilisateur est régulièrement organiser des réunions avec des clients ou partenaires externes dans différentes régions internationale. | Messagerie instantanée ne voyez pas les participants externes dont le client réside dans une autre géolocalisation conversation dans une réunion **fédérés** . Les participants peuvent tout de même rejoindre la réunion en tant qu’utilisateurs anonymes. |

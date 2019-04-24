@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 532e2280-4bbc-4a6c-93da-45d9f80a30a0
 description: Le tableau des périphériques est une table de prise en charge. Chaque enregistrement stocke des informations sur un périphérique (téléphone de bureau).
 ms.openlocfilehash: f770f19fb94bf25bdb4c13e74dc41e05f6674788
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881701"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213164"
 ---
 # <a name="devices-table-in-skype-for-business-server-2015"></a>Table Devices dans Skype pour Business Server 2015
  

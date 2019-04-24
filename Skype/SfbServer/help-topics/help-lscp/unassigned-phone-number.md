@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 24eca749-a9f3-40e7-839b-d21c3ef7d533
 description: Les numéros non attribués sont des numéros de téléphone valides pour votre organisation, mais qui ne sont pas attribués à un utilisateur ou à un téléphone. Le tableau des numéros non attribués identifie le mode de traitement des appels vers les numéros non attribués.
 ms.openlocfilehash: fcb94ca101f2a2380c1d458ae740a492d6cd60c1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897719"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219921"
 ---
 # <a name="unassigned-phone-number"></a>Numéro de téléphone non attribué
 

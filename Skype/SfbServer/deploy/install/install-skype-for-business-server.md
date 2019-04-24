@@ -16,11 +16,11 @@ ms.custom: ''
 ms.assetid: defd6b2c-f267-4f8c-bc94-8894e2a429b6
 description: 'Résumé : Découvrez comment installer le Skype pour les composants du système Business Server sur chaque serveur de la topologie. Téléchargez une version d’évaluation gratuite de Skype pour Business Server depuis le centre d’évaluation Microsoft à : https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
 ms.openlocfilehash: caa933e3469227fe0fa2aab680f53ddee445256e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891901"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32210989"
 ---
 # <a name="install-skype-for-business-server-on-servers-in-the-topology"></a>Installation de Skype Entreprise Server sur des serveurs de la topologie
  

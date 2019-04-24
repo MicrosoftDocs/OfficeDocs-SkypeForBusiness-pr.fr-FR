@@ -19,11 +19,11 @@ ms.custom:
 - SMB
 description: Unfortunately, there are certain user licenses that are blocked when user go to https://broadcast.skype.com and want to use Skype Meeting Broadcast. If a user sees this message, they have one of the blocked licenses assigned to them. If you still want them to use it, assign them another Office 365 license.
 ms.openlocfilehash: b20334a525aa7942af90439cf05add7c49fc1f8b
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27788964"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226362"
 ---
 # <a name="blocked-user-licenses-for-hosting-skype-meeting-broadcast"></a>Bloqué des licences utilisateur pour l’hébergement de diffusion de réunion Skype
 
@@ -58,7 +58,7 @@ Hébergement des événements de diffusion de réunion Skype est bloquée si une
 - Avantages d’utiliser Microsoft 365 A1 étudiant
 
     
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Présentation de Windows PowerShell et de Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525039)
   

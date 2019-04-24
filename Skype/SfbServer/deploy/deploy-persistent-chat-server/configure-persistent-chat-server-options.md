@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 19ced8de-8867-4152-b38a-891f3bc2a5ea
 description: 'Résumé : Apprenez à configurer les options de serveur de conversation permanente au niveau global, site ou au niveau du pool Skype pour Business Server 2015.'
 ms.openlocfilehash: fd4d9ed10c2629f714d336190e5c85b2dfe1621e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883755"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225440"
 ---
 # <a name="configure-persistent-chat-server-options-in-skype-for-business-server-2015"></a>Configuration des options de serveur de conversation permanente dans Skype Entreprise Server 2015
  

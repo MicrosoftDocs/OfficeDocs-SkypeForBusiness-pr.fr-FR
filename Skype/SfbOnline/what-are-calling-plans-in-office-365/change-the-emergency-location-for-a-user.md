@@ -22,11 +22,11 @@ ms.custom:
 - Calling Plans
 description: 'Découvrez comment modifier l’emplacement d’urgence pour vos utilisateurs. Avec un nombre illimité d’emplacements, vous pouvez modifier les emplacements d’urgence quand les employés se déplacement dans les étages ou les bâtiments. '
 ms.openlocfilehash: 9e583cf7882b5a269378dd69dbda37311ad08e28
-ms.sourcegitcommit: c40ebb4095fae861295c01af0a518375f32988e1
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/09/2019
-ms.locfileid: "31744279"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32233207"
 ---
 # <a name="assign-or-change-the-emergency-location-for-a-user"></a>Affectation ou modification d’un emplacement d’urgence pour un utilisateur
 
@@ -59,7 +59,7 @@ Pour savoir comment obtenir des Forfaits d’appels dans Office 365 et leur coû
     
     Si vous souhaitez ajouter un nouvel emplacement en cas d’urgence qui apparaîtra dans la liste, voir [Ajouter, modifier ou supprimer un emplacement en cas d’urgence pour votre organisation](add-change-or-remove-an-emergency-location-for-your-organization.md).
     
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Attribuer une situation d’urgence sites via powershell](https://github.com/MicrosoftDocs/office-docs-powershell/blob/master/skype/skype-ps/skype/Set-CsOnlineVoiceUser.md)
 

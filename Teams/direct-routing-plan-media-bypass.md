@@ -16,11 +16,11 @@ appliesto:
 - Microsoft Teams
 description: Lisez cette rubrique pour savoir comment planifier le contournement de média avec le routage d’un système téléphonique Direct.
 ms.openlocfilehash: b3a31e23ef065840d830c111c64e0618d90aa71b
-ms.sourcegitcommit: 856793c99fc02fb016383d0b6f8411c386d78886
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "31827880"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32232771"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planifier le contournement de média avec un routage direct
 

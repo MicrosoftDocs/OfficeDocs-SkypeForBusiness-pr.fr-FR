@@ -26,11 +26,11 @@ ms.custom:
 - Calling Plans
 description: Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour le Qatar.
 ms.openlocfilehash: ded2cf603f0db3cb43f2523f418838f002be9a49
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542007"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214820"
 ---
 # <a name="availability-in-qatar"></a>Disponibilité au Qatar
 

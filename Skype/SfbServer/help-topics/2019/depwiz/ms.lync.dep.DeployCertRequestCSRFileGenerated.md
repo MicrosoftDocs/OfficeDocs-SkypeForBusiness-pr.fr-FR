@@ -14,11 +14,11 @@ ms.assetid: 728f6a92-8df8-40c9-8054-cd7306d7d60f
 ROBOTS: NOINDEX, NOFOLLOW
 description: La page fichier de demande de certificat s’affiche après avoir terminé une demande de certificat hors connexion. Pour afficher la demande de certificat et de préparer son envoi à votre autorité de certification en mode hors connexion (CA) ou l’autorité de certification publique, cliquez sur le bouton Afficher. La demande de certificat s’affiche dans le bloc-notes Windows (par défaut). Vous pouvez copier et coller la demande de certificat codé à partir de cet affichage ou terminer le traitement de la demande de certificat en suivant les instructions de vos autorité de certification en mode hors connexion ou l’autorité de certification publique. Cliquez sur Terminer pour continuer.
 ms.openlocfilehash: 6bfb972cf2ccd79d5fd05ac89696862d6e8d2fcc
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891000"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216332"
 ---
 # <a name="certificate-request-certificate-signing-request-generated"></a>Demande de certificat (demande de signature de certificat générée)
  

@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 500f330d-4d7d-4e88-b1cc-fef9a9de6b5c
 description: Le tableau du point de terminaison est une table de prise en charge qui stocke des informations sur les points de terminaison qui ont participé à des sessions enregistrées dans la base de données. Chaque enregistrement de la table représente un point de terminaison.
 ms.openlocfilehash: f9c304408006ef9caf5521b8f0bbe28c2d917abe
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882996"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212241"
 ---
 # <a name="endpoint-table"></a>Table Endpoint
  

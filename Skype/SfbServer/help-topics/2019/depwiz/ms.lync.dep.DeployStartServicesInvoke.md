@@ -14,11 +14,11 @@ ms.assetid: 7992440b-8545-4af9-b3ac-ea200b9de084
 ROBOTS: NOINDEX, NOFOLLOW
 description: Le volet Résumé dans le volet exécution de commandes affiche l’état des tâches émis pour démarrer les services pour le Skype pour Business rôle serveur que vous déployez.
 ms.openlocfilehash: db2e0282e15b1995aa6b83bcfdd4ecbecd922207
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887850"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215954"
 ---
 # <a name="start-services-invoke"></a>Démarrer les services (Invoke)
  

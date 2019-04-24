@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: adfacb74-7ea5-4c53-934e-ba7ec59879eb
 description: 'Résumé : Découvrez comment afficher des informations sur les jonctions SIP dans Skype pour Business Server.'
 ms.openlocfilehash: 105d093b302bc61816464ed3998ab985769f5e54
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898633"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222525"
 ---
 # <a name="view-information-about-individual-sip-trunks-in-skype-for-business-server"></a>Afficher des informations sur les jonctions SIP individuelles dans Skype pour Business Server
  

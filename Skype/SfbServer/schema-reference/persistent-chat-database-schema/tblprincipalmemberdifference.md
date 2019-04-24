@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 0b94f555-6888-4fe0-a048-4660a2513276
 description: tblPrincipalMemberDifference contient le groupe d’appartenance modifications (à la fois membres ajoutés et supprimés) qui n’ont pas encore été traitées par les étapes ultérieures de la synchronisation des Services de domaine Active Directory.
 ms.openlocfilehash: 77b246e96dbd13464b5655fe87d5a10861db30c7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30885553"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212445"
 ---
 # <a name="tblprincipalmemberdifference"></a>tblPrincipalMemberDifference
  

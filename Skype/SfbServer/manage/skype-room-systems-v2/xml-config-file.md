@@ -13,11 +13,11 @@ ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
 ms.collection: M365-voice
 description: Cet article décrit la gestion à distance des paramètres par défaut utilisé par un périphérique de salles d’équipes Microsoft, y compris l’application d’un thème personnalisé.
 ms.openlocfilehash: 2dc99046647fc1cbda8fcb7643dbdf06d2d24c82
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013028"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214742"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>Gérer les paramètres de console de salles d’équipes Microsoft à distance avec un fichier de configuration XML
  
@@ -132,6 +132,6 @@ Le fichier de configuration XML doit être mis à jour lors du démarrage de l'a
 ## <a name="see-also"></a>Voir aussi
 
 
-[Gérer les équipes Microsoft salles](skype-room-systems-v2.md)
+[Gérer Microsoft Teams Rooms](skype-room-systems-v2.md)
 
 [Configurer un élément de fichier](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)

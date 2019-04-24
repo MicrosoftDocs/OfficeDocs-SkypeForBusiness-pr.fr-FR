@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: e6f0212c-67e9-4061-8720-d0296e855991
 description: Chaque enregistrement de cette table contient les informations de détails sur la participation d’un utilisateur et les informations de congé pour une conférence. Chaque conférence est représenté dans ce tableau par un enregistrement pour chaque fois qu’un utilisateur se joint et quitte la conférence.
 ms.openlocfilehash: dea6ae9e66416da41c9ca5df0d6a8c3e61550238
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881227"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213080"
 ---
 # <a name="focusjoinsandleaves-table-in-skype-for-business-server-2015"></a>Table FocusJoinsAndLeaves dans Skype pour Business Server 2015
  

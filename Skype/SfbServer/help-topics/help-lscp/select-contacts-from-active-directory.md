@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 8732867c-4f78-454a-a4cc-49c3e76ce40c
 description: Utilisez la sélectionner à partir de la boîte de dialogue Active Directory pour rechercher des contacts auxquels vous souhaitez activer pour Skype pour les entreprises. Dans la zone de recherche, tapez l’adresse SIP ou le nom d’affichage du contact recherché. Pour extraire tous les contacts disponibles, ne tapez rien dans la zone de recherche.
 ms.openlocfilehash: e40d56bfff967780d83d8b1f29c280339615f979
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874653"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220142"
 ---
 # <a name="select-contacts-from-active-directory"></a>Sélection des contacts à partir d’Active Directory
  

@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: 902ab23e-94d6-482a-9d6e-c0b28dc3e03d
 description: Cet article fournit des instructions sur le nombre de serveurs vous avez besoin sur un site pour le nombre d’utilisateurs sur le site, en fonction de l’utilisation décrite dans modèles utilisateur Skype pour Business Server.
 ms.openlocfilehash: 13c7a1bdbbfc20f13dec2c6d9999b80caf4078dd
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886232"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32228399"
 ---
 # <a name="capacity-planning-user-model-usage-for-skype-for-business-server"></a>Planification de capacité l’utilisation du modèle utilisateur pour Skype pour Business Server
 

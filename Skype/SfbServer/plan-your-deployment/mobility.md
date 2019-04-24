@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: 7117eff5-6860-4673-b366-afe0756c4bb2
 description: Planifier votre implémentation de la mobilité pour Skype pour Business Server.
 ms.openlocfilehash: 6616560afbea5a2aed30fbf671035ae46d6ed8b7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878181"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213920"
 ---
 # <a name="plan-for-mobility-for-skype-for-business-server"></a>Planifier pour la mobilité Skype pour Business Server
  

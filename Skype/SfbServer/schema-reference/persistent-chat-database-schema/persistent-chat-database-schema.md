@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 58d7d94f-42f5-4c3e-8fe5-901fbe92152e
 description: Documente le schéma de la base de données de conversation permanente dans Skype pour Business Server.
 ms.openlocfilehash: 37b22077157def7ea25a5cf70b23a0272a58956e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874049"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212690"
 ---
 # <a name="persistent-chat-database-schema"></a>Schéma de base de données de conversation permanente
  

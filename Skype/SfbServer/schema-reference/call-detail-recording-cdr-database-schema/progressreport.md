@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 38e5f060-5e9b-4185-87b2-7ef61c4bb75f
 description: Rapports de progression sont basées sur les données téléchargées par le client à la base de données après qu’un appel ou une session est terminée. Rapports de progression seront écrit uniquement pour les appels et les sessions Skype pour Business Server 2015 détermine peut s’avérer utile à des fins de Diagnostics.
 ms.openlocfilehash: 6d638411f39956664c977e87785a1269ee788a5f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899756"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212865"
 ---
 # <a name="progressreport-table"></a>Table ProgressReport
  

@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: b6086162-8a41-4e75-afa3-7d1889ffdc90
 description: Utilisez la boîte de dialogue Sélectionner un service pour rechercher les services disponibles dans votre environnement. Pour utiliser un service existant, sélectionnez un service dans la liste, puis cliquez sur OK.
 ms.openlocfilehash: cc5a65521cc8f7b508abd06256026fb769be47e8
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880545"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220156"
 ---
 # <a name="select-a-service"></a>Sélection d’un service
 

@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: ea328c6f-cf22-48dd-8f7f-f1666c9148c8
 description: La vue SessionDetails stocke des informations sur les sessions d’égal à égal, qui peut être un appel VoIP-VoIP, par messagerie instantanée deux ou tout autre type de session. Cet affichage a été introduit dans Microsoft Lync Server 2013.
 ms.openlocfilehash: c62f6e2c1bb505bf00d56898a562db2c00d298d0
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896027"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212816"
 ---
 # <a name="sessiondetails-view"></a>Vue SessionDetails
  

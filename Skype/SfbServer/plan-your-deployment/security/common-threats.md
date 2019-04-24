@@ -13,11 +13,11 @@ ms.collection: IT_Skype16
 ms.assetid: 56d22197-e8e2-46b8-b3a3-507bd663700e
 description: Skype pour Business Server étant un système de communications d’entreprise, vous devez être conscient des attaques de sécurité courantes susceptibles d’affecter son infrastructure et les communications.
 ms.openlocfilehash: 15c5f71db846ad51fa0df70396cb7ca1252dd4dc
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30885863"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213647"
 ---
 # <a name="common-security-threats-in-modern-day-computing"></a>Menaces fréquentes pour la sécurité dans l’informatique moderne
  

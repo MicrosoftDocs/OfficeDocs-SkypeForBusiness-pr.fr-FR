@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: Cet article décrit comment configurer la console de salles d’équipes Microsoft et des périphériques.
-ms.openlocfilehash: 9027057314d405788e81d4d27f9ce4e5d5649a48
-ms.sourcegitcommit: a505869a3cc2fe6fe4ee18bcbe99bf980aa91a86
+ms.openlocfilehash: 2d3d9acdc3c72754232304364812fd2af9f3f6cb
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31520154"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212753"
 ---
 # <a name="configure-a-microsoft-teams-rooms-console"></a>Configurer une console Microsoft équipes salles
 
@@ -259,4 +259,4 @@ Utilisez la liste de vérification suivante tout en effectuant une vérification
   
 [Configurer une console Microsoft équipes salles](console.md)
   
-[Gérer les équipes Microsoft salles](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Gérer Microsoft Teams Rooms](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)

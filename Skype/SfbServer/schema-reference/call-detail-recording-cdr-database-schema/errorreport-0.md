@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: ca873f7e-b18b-4eaf-8db0-5f9d5a9b60a1
 description: La vue ErrorReport stocke des informations sur les erreurs signalés. Chaque enregistrement est une occurrence de l’erreur. Les erreurs sont capturés par l’agent CDR en cours d’exécution sur le serveur frontal ou envoyé à partir du client. Cet affichage a été introduit dans Microsoft Lync Server 2013.
 ms.openlocfilehash: 8d72ad73b5894e73b7d95b1b11bc10dffcabc5f7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874178"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213122"
 ---
 # <a name="errorreport-view"></a>Vue errorreport
  

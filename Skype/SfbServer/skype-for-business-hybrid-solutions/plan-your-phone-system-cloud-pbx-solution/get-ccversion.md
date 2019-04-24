@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 7d370abd-0c01-4490-88a1-55b42e51b663
 description: Retourne la version de la solution de nuage connecteur. Get-CCVersion utilisable uniquement sur l’ordinateur hôte du nuage connecteur.
 ms.openlocfilehash: 5e5428e53d53eec66bafa9eb566059ef1b5a5833
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881332"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32233756"
 ---
 # <a name="get-ccversion"></a>Get-CcVersion
  
