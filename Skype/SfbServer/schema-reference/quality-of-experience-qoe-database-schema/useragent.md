@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: d6bda1c0-b053-457a-9ffa-2ae859788775
 description: La table UserAgent est une table de prise en charge qui stocke une liste des agents utilisateurs différents qui ont participé à des sessions enregistrées dans la base de données. Chaque enregistrement de la table représente un agent utilisateur
 ms.openlocfilehash: 17cb395569e8a634925be27705b878b104a3b70a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893103"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212058"
 ---
 # <a name="useragent-table"></a>Table UserAgent
  

@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 0b9b44c4-06ad-4b89-b87d-62448f936ab8
 description: 'Résumé : Découvrez les tâches de configuration de surveillance et d’intégrité dans Skype pour Business Server.'
 ms.openlocfilehash: 10b81a6950e0f30e74d9d47c59223952d41ee7d8
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888936"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197484"
 ---
 # <a name="manage-health-and-monitoring-in-skype-for-business-server"></a>Gérer l’intégrité et surveillance dans Skype pour Business Server
 

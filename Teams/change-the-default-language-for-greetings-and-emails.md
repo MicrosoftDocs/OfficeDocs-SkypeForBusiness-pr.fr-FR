@@ -22,11 +22,11 @@ ms.custom:
 - Phone System
 description: 'Découvrez comment configurer Skype Entreprise afin d’utiliser une autre langue pour le message d’accueil vocal par défaut de votre organisation. '
 ms.openlocfilehash: 6de73212df6be8a1f0d52cff8065536442085783
-ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30664858"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198476"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>Modifier la langue par défaut des messages d'accueil et des courriers électroniques
 
@@ -63,7 +63,7 @@ Si vous êtes un [administrateur général d'Office 365](https://support.office
     
 ## <a name="related-articles-for-the-admin"></a>Articles connexes pour l'administrateur
 
-- [Système téléphonique et Plans d’appel](calling-plan-landing-page.md)
+- [Système téléphonique et forfaits d’appels](calling-plan-landing-page.md)
     
 - [Configurer des forfaits d'appels](set-up-calling-plans.md)
     

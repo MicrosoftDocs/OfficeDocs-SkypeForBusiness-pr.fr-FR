@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: bbae05f9-d8de-40dc-8968-d225dcde80e4
 description: L’applet de commande Search-CcLog recherche les journaux d’appels sortants et entrants dans l’annuaire d’appliances de la version Cloud Connector de Skype Entreprise.
 ms.openlocfilehash: e11e82ba105ed58efa6892165a19c6a4c4de0429
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892764"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32250888"
 ---
 # <a name="search-cclog"></a>Search-CcLog
  

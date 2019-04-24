@@ -16,11 +16,11 @@ ms.custom: ''
 ms.assetid: 74ce73bc-356b-4705-83b1-341ee010fd19
 description: 'Résumé : Découvrez comment mettre à niveau à partir de Lync Server 2013 Skype pour Business Server 2015. Téléchargez une version d’évaluation gratuite de Skype pour Business Server 2015 depuis le centre d’évaluation Microsoft à : https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
 ms.openlocfilehash: 0a09de79bd60917667dfb2e7ca33310da3b04ddd
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878188"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32211634"
 ---
 # <a name="upgrade-to-skype-for-business-server-2015"></a>Upgrade to Skype for Business Server 2015
  
@@ -247,4 +247,4 @@ En cas d’échec de la mise à niveau sur Place sur les **composants requis man
   
 [Installation des composants prérequis pour Skype Entreprise Server 2015](install/install-prerequisites.md)
   
-[Installer Skype Entreprise Server 2015](install/install.md)
+[Installer Skype Entreprise Server 2015](install/install.md)
