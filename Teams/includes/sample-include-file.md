@@ -1,1 +1,1 @@
-<span data-ttu-id="70bba-101">Modèle de fichier - remplacez simplement ce texte par le vôtre.</span><span class="sxs-lookup"><span data-stu-id="70bba-101">Sample include file - just replace this text with your own.</span></span>
+<span data-ttu-id="d4691-101">Modèle de fichier - remplacez simplement ce texte par le vôtre.</span><span class="sxs-lookup"><span data-stu-id="d4691-101">Sample include file - just replace this text with your own.</span></span>

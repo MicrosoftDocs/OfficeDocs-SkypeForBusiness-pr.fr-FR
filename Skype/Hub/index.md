@@ -1,11 +1,17 @@
---- 
+---
 layout: HubPage
 hide_bc: true
-title: "Skype\_Entreprise"
-ms.reviewer: null
+title: Skype Entreprise
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 description: Skype Entreprise
+ms.openlocfilehash: a08b6ecdaf09ade237332e08a23ddbfeb9c5eb64
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32195014"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -140,8 +146,8 @@ description: Skype Entreprise
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Les équipes Microsoft salles</h3>
-                                                    <p>Découvrez comment planifier, déployer et gérer des salles équipes Microsoft.</p>
+                                                    <h3>Salles Microsoft Teams</h3>
+                                                    <p>Apprenez à planifier, déployer et gérer les Salles Microsoft Teams.</p>
                                                 </div>
                                             </div>
                                         </div>

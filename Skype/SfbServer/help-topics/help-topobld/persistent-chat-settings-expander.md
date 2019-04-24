@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 12da11ea-3aca-4ef1-8367-f3f8a959f033
 ms.openlocfilehash: 2fd1c82c6fdd4edc2264905b279b71e7f6db9a08
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899052"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219239"
 ---
-# <a name="persistent-chat-settings-expander"></a><span data-ttu-id="7fa36-102">Expandeur des paramètres de conversation permanente</span><span class="sxs-lookup"><span data-stu-id="7fa36-102">Persistent Chat Settings Expander</span></span>
+# <a name="persistent-chat-settings-expander"></a><span data-ttu-id="63656-102">Expandeur des paramètres de conversation permanente</span><span class="sxs-lookup"><span data-stu-id="63656-102">Persistent Chat Settings Expander</span></span>
  
 

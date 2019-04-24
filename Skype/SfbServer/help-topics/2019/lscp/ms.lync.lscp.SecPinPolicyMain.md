@@ -14,29 +14,29 @@ ms.assetid: 16e5b03c-c313-4792-9353-65f33b5e775a
 ROBOTS: NOINDEX, NOFOLLOW
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
 ms.openlocfilehash: 560bcc70f2f2702c0ab75b6e7f61bad55e758405
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886471"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215681"
 ---
-# <a name="pin-policy"></a><span data-ttu-id="dfdd9-104">Stratégie de code confidentiel</span><span class="sxs-lookup"><span data-stu-id="dfdd9-104">PIN Policy</span></span>
+# <a name="pin-policy"></a><span data-ttu-id="98be6-104">Stratégie de code confidentiel</span><span class="sxs-lookup"><span data-stu-id="98be6-104">PIN Policy</span></span>
 
-<span data-ttu-id="dfdd9-105">Que voulez-vous faire ?</span><span class="sxs-lookup"><span data-stu-id="dfdd9-105">What do you want to do?</span></span> <span data-ttu-id="dfdd9-106">Cliquez sur le lien de la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="dfdd9-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="98be6-105">Que voulez-vous faire ?</span><span class="sxs-lookup"><span data-stu-id="98be6-105">What do you want to do?</span></span> <span data-ttu-id="98be6-106">Cliquez sur le lien de la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="98be6-106">Click the link to the task that you want to perform.</span></span>
 
- <span data-ttu-id="dfdd9-107">**Utilisation de la stratégie de code confidentiel pour les téléphones IP** Cette stratégie (PIN) de numéro d’identification personnelle prend en charge l’authentification pour les utilisateurs qui se connectent à Skype pour Business Server à l’aide d’un téléphone IP.</span><span class="sxs-lookup"><span data-stu-id="dfdd9-107">**Work with PIN policy for IP phones**This personal identification number (PIN) policy supports authentication for users who connect to Skype for Business Server by using an IP phone.</span></span>
-- [<span data-ttu-id="dfdd9-108">Créer une nouvelle stratégie de code confidentiel dans Skype pour Business Server</span><span class="sxs-lookup"><span data-stu-id="dfdd9-108">Create a new PIN policy in Skype for Business Server</span></span>](../../../manage/authentication/create-a-new-pin-policy.md)
+ <span data-ttu-id="98be6-107">**Utilisation de la stratégie de code confidentiel pour les téléphones IP** Cette stratégie (PIN) de numéro d’identification personnelle prend en charge l’authentification pour les utilisateurs qui se connectent à Skype pour Business Server à l’aide d’un téléphone IP.</span><span class="sxs-lookup"><span data-stu-id="98be6-107">**Work with PIN policy for IP phones**This personal identification number (PIN) policy supports authentication for users who connect to Skype for Business Server by using an IP phone.</span></span>
+- [<span data-ttu-id="98be6-108">Créer une nouvelle stratégie de code confidentiel dans Skype pour Business Server</span><span class="sxs-lookup"><span data-stu-id="98be6-108">Create a new PIN policy in Skype for Business Server</span></span>](../../../manage/authentication/create-a-new-pin-policy.md)
 
-- [<span data-ttu-id="dfdd9-109">Modifier une stratégie de code confidentiel existante dans Skype pour Business Server</span><span class="sxs-lookup"><span data-stu-id="dfdd9-109">Modify an existing PIN policy in Skype for Business Server</span></span>](../../../manage/authentication/modify-an-existing-pin-policy.md)
+- [<span data-ttu-id="98be6-109">Modifier une stratégie de code confidentiel existante dans Skype pour Business Server</span><span class="sxs-lookup"><span data-stu-id="98be6-109">Modify an existing PIN policy in Skype for Business Server</span></span>](../../../manage/authentication/modify-an-existing-pin-policy.md)
 
-- [<span data-ttu-id="dfdd9-110">Supprimer une stratégie de code confidentiel dans Skype pour Business Server</span><span class="sxs-lookup"><span data-stu-id="dfdd9-110">Delete a PIN policy in Skype for Business Server</span></span>](../../../manage/authentication/delete-a-pin-policy.md)
+- [<span data-ttu-id="98be6-110">Supprimer une stratégie de code confidentiel dans Skype pour Business Server</span><span class="sxs-lookup"><span data-stu-id="98be6-110">Delete a PIN policy in Skype for Business Server</span></span>](../../../manage/authentication/delete-a-pin-policy.md)
 
-  <span data-ttu-id="dfdd9-111">**Utilisation de la stratégie de code confidentiel pour les conférences rendez-vous** Cette stratégie de code confidentiel permet aux utilisateurs qui disposent d’informations d’identification des Services de domaine Active Directory dans votre organisation à participer à des conférences rendez-vous en tant qu’utilisateurs authentifiés en entrant un code confidentiel.</span><span class="sxs-lookup"><span data-stu-id="dfdd9-111">**Work with PIN policy for dial-in conferencing**This PIN policy allows users who have Active Directory Domain Services credentials in your organization to join dial-in conferences as authenticated users by entering a PIN.</span></span>
-- [<span data-ttu-id="dfdd9-112">Create or Modify Dial-in Conferencing PIN Settings for a Site or Group of Users</span><span class="sxs-lookup"><span data-stu-id="dfdd9-112">Create or Modify Dial-in Conferencing PIN Settings for a Site or Group of Users</span></span>](https://technet.microsoft.com/library/c29bab5c-2b93-48e0-ae0b-29564daaff9a.aspx)
+  <span data-ttu-id="98be6-111">**Utilisation de la stratégie de code confidentiel pour les conférences rendez-vous** Cette stratégie de code confidentiel permet aux utilisateurs qui disposent d’informations d’identification des Services de domaine Active Directory dans votre organisation à participer à des conférences rendez-vous en tant qu’utilisateurs authentifiés en entrant un code confidentiel.</span><span class="sxs-lookup"><span data-stu-id="98be6-111">**Work with PIN policy for dial-in conferencing**This PIN policy allows users who have Active Directory Domain Services credentials in your organization to join dial-in conferences as authenticated users by entering a PIN.</span></span>
+- [<span data-ttu-id="98be6-112">Create or Modify Dial-in Conferencing PIN Settings for a Site or Group of Users</span><span class="sxs-lookup"><span data-stu-id="98be6-112">Create or Modify Dial-in Conferencing PIN Settings for a Site or Group of Users</span></span>](https://technet.microsoft.com/library/c29bab5c-2b93-48e0-ae0b-29564daaff9a.aspx)
 
-- [<span data-ttu-id="dfdd9-113">Modify the Default Dial-in Conferencing PIN Settings</span><span class="sxs-lookup"><span data-stu-id="dfdd9-113">Modify the Default Dial-in Conferencing PIN Settings</span></span>](https://technet.microsoft.com/library/2d110e94-ad29-4755-b17f-d8c2da9b78a4.aspx)
+- [<span data-ttu-id="98be6-113">Modify the Default Dial-in Conferencing PIN Settings</span><span class="sxs-lookup"><span data-stu-id="98be6-113">Modify the Default Dial-in Conferencing PIN Settings</span></span>](https://technet.microsoft.com/library/2d110e94-ad29-4755-b17f-d8c2da9b78a4.aspx)
 
-- [<span data-ttu-id="dfdd9-114">Delete Dial-in Conferencing PIN Settings for a Site or Group of Users</span><span class="sxs-lookup"><span data-stu-id="dfdd9-114">Delete Dial-in Conferencing PIN Settings for a Site or Group of Users</span></span>](https://technet.microsoft.com/library/15a9faee-d024-4c0e-b2a0-fe7e7dc00589.aspx)
+- [<span data-ttu-id="98be6-114">Delete Dial-in Conferencing PIN Settings for a Site or Group of Users</span><span class="sxs-lookup"><span data-stu-id="98be6-114">Delete Dial-in Conferencing PIN Settings for a Site or Group of Users</span></span>](https://technet.microsoft.com/library/15a9faee-d024-4c0e-b2a0-fe7e7dc00589.aspx)
 
 
 
