@@ -16,12 +16,12 @@ search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: Découvrez les stratégies de messagerie et comment ils peuvent être utilisés pour contrôler la conversation de messagerie dans les équipes.
-ms.openlocfilehash: 20c1354f168b5476733c95b49d3344364b8a6008
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f0dd52dac1bd2563a0ef5c500714ab63eeadf84d
+ms.sourcegitcommit: ee3f79ce1b6da0885e1096f9fba894bcff1814da
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231782"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33298452"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Gérer les stratégies de messagerie dans Teams
 
@@ -86,7 +86,7 @@ Pour modifier la stratégie globale de messagerie ou de créer une nouvelle stra
 - **Autoriser les URL aperçus** Utilisez ce paramètre pour activer automatique URL aperçu activé ou désactivé dans les messages.
 - **Autoriser les utilisateurs à convertir des messages** Activez ce paramètre pour permettre aux utilisateurs de traduire automatiquement des messages d’équipes dans la langue spécifiée par leurs paramètres personnels de langue pour Office 365.
 - **Autoriser la lecture immersive pour l’affichage des messages** Désactiver ce paramètre à permettre aux utilisateurs affichage des messages dans Microsoft Reader immersif. Lecteur immersif est un outil de formation qui fournit un expérience pour améliorer la lisibilité du texte de lecture en plein écran.
-- **Les utilisateurs peuvent envoyer des notifications de priorité** Si vous activez ce, les utilisateurs peuvent indiquer la priorité du message.
+- **Les utilisateurs peuvent envoyer des notifications de priorité** Si vous activez ce, les utilisateurs peuvent envoyer un message qui utilise des notifications de priorité. Notifications de priorité avertir les utilisateurs à plusieurs reprises pour une période de 20 minutes ou jusqu'à ce que les messages sont récupérés et lu par le destinataire, optimisation de la probabilité que le message est choisie et traité en temps voulu.
 - **Création de message vocal** 
     - **Autorisés dans les salles de conversation et de canaux** Cela signifie que les utilisateurs peuvent laisser des messages vocaux dans les salles de conversation et de canaux.
     - **Autorisé dans conversations uniquement** Cela signifie que les utilisateurs peuvent laisser des messages vocaux dans les salles de conversation, mais pas dans les canaux.

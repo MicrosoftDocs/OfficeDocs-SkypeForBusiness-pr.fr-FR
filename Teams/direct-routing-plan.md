@@ -12,14 +12,15 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-appliesto: Microsoft Teams
+appliesto:
+- Microsoft Teams
 description: Lisez cette rubrique pour savoir comment Microsoft Phone System Direct routage vous permet de connecter une prise en charge, fournie par le client Session contrôleur périphérie (SBC) au système téléphonique de Microsoft.
-ms.openlocfilehash: 202b25903a3e48b0a2a2f32853f061eb8ca73cc8
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: e2b09d4aef25569e1112983b5f62bf2ba3758387
+ms.sourcegitcommit: ee3f79ce1b6da0885e1096f9fba894bcff1814da
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569941"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33298571"
 ---
 # <a name="plan-direct-routing"></a>Planifier le routage direct
 
@@ -44,7 +45,7 @@ Microsoft propose également des solutions voix tout-en nuage, tels que l’appe
 - Votre organisation nécessite une connexion à des périphériques analogiques tiers, centres d’appel et ainsi de suite. 
 - Votre organisation dispose d’un contrat existant avec un opérateur RTC.
 
-Routage direct prend également en charge les utilisateurs qui disposent de la licence supplémentaire pour le Plan d’appel de Microsoft. Pour plus d’informations, voir [Appel Plans dans Office 365](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365) et les [licences et les autres composants requis](#licensing-and-other-requirements). 
+Routage direct prend également en charge les utilisateurs qui disposent de la licence supplémentaire pour le Plan d’appel de Microsoft. Pour plus d’informations, voir le [système téléphonique et Plans de l’appel](calling-plan-landing-page.md). 
 
 Avec le routage Direct, lorsque les utilisateurs participent à une conférence planifiée, le numéro d’accès est fourni par le service de conférence Microsoft, ce qui nécessite la gestion des licences approprié.  Pour les appels sortants, le service de conférence Microsoft passe l’appel en utilisant les fonctions d’appel en ligne, ce qui nécessite la gestion des licences approprié. (Notez que la connexion n’est pas réacheminé par le biais de routage Direct). Pour plus d’informations, voir [Les réunions en ligne avec des équipes](https://products.office.com/microsoft-teams/online-meeting-solutions). 
  
@@ -85,7 +86,7 @@ Adresses IP de pare-feu et les ports pour le média Microsoft Teams |Pour plus d
 Les utilisateurs de routage Direct doivent disposer les licences suivantes affectés dans Office 365 : 
 
 - Système téléphonique de Microsoft 
-- Microsoft Teams 
+- Microsoft Teams 
 - Conférence Audio Microsoft 
 
 La licence de conférence Audio est obligatoire pour ajouter des participants externes aux réunions planifiées, par un appel sortant leur ou en fournissant le numéro d’accès. 
