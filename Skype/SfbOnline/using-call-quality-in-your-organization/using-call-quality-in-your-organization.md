@@ -1,5 +1,5 @@
 ---
-title: Utiliser la qualité d'appel dans votre organisation
+title: À l’aide de la qualité des appels au sein de votre organisation.
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,12 +20,12 @@ ms.custom:
 - Reporting
 description: Configurer et utiliser Analytique appeler pour identifier et résoudre les problèmes de Skype pour professionnels et Microsoft Teams problèmes de qualité d’appel.
 ms.openlocfilehash: 5ba24a8c4d8f74a2a43f28f3f42280a1be40f814
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23861208"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227287"
 ---
-# <a name="using-call-quality-in-your-organization"></a><span data-ttu-id="f951d-103">Utiliser la qualité d'appel dans votre organisation</span><span class="sxs-lookup"><span data-stu-id="f951d-103">Using Call Quality in your organization</span></span>
+# <a name="using-call-quality-in-your-organization"></a><span data-ttu-id="6d686-103">À l’aide de la qualité des appels au sein de votre organisation.</span><span class="sxs-lookup"><span data-stu-id="6d686-103">Using Call Quality in your organization</span></span>
 
 

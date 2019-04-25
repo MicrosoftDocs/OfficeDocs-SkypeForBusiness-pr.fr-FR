@@ -1,5 +1,5 @@
 ---
-title: Déplacements pour les équipes
+title: Shifts pour Teams
 description: Obtenez des conseils d’administration que nécessaires pour configurer et gérer des équipes, l’outil de gestion de planification, dans les équipes.
 layout: LandingPage
 ms.topic: landing-page
@@ -13,13 +13,13 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: e1d8336719e8858819f81f6e174c20dac09aa429
-ms.sourcegitcommit: 89b866a3c383555f6f89dc77bebd74cddf9e40fb
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013200"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245907"
 ---
-# <a name="shifts-for-teams"></a>Déplacements pour les équipes
+# <a name="shifts-for-teams"></a>Shifts pour Teams
 
 Équipes offre Firstline travailleurs dans votre organisation les outils dont ils ont besoin pour communiquer et collaborer efficacement et effectuer leur travail meilleures. Vous trouverez les conseils d’administration que vous devez configurer et gérer des équipes, l’outil de gestion de planification, dans les équipes.
 
