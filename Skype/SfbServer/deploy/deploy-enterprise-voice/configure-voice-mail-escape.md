@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: a1d19e6c-82ff-4768-8ae5-da981368ce40
 description: 'Résumé : Découvrez comment configurer redirection vers la messagerie vocale Skype pour Business Server à l’aide de la Skype pour Business Server Management Shell.'
 ms.openlocfilehash: 6c1c6977949eb45c28cce482f98be67295ee4eef
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891866"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223507"
 ---
 # <a name="configure-voice-mail-escape-in-skype-for-business"></a>Configurer la redirection vers la messagerie vocale dans Skype pour les entreprises
 

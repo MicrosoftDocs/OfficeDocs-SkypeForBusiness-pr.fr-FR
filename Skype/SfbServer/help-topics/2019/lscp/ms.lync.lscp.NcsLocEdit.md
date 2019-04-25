@@ -14,11 +14,11 @@ ms.assetid: d9b30b3b-570b-49a6-b2b4-46b0cf490153
 ROBOTS: NOINDEX, NOFOLLOW
 description: Vous pouvez configurer les stratégies d’emplacement pour déterminer si le service E9-1-1 (Enhanced 9-1-1) est activé et pour savoir comment il est utilisé et comment les informations d’emplacement sont traitées pour les utilisateurs et les contacts.
 ms.openlocfilehash: d148b7b546b5c0e239c1fbccfdbcf27e0a3840fa
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886211"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215429"
 ---
 # <a name="location-policy-create-new-or-edit-existing"></a>Stratégie d’emplacement : création d’une stratégie ou modification d’une stratégie existante
 

@@ -16,11 +16,11 @@ ms.collection:
 ms.topic: landing-page
 ms.author: dearbeen
 ms.openlocfilehash: 5bc3f744ff3bf04388de1ba19c02c4ad64f6263f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891109"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226892"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Formation à Microsoft Teams pour les administrateurs
 
@@ -110,7 +110,7 @@ Découvrez comment gérer les équipes de votre organisation.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Transition de Skype Entreprise à Teams</h3>
+                        <h3>Migration de Skype Entreprise vers Teams</h3>
                     </div>
                 </div>
             </div>

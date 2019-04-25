@@ -22,11 +22,11 @@ ms.custom:
 - Calling Plans
 description: La validation des adresses est une partie importante des forfaits d'appels dans Office 365. Elle fournit à un utilisateur de votre organisation une adresse d'appels d'urgence qui peut être utilisée par les services de réponse d'urgence.
 ms.openlocfilehash: 8cb2e7b9f901ce4ab1db13e2869d002c62529537
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371651"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229564"
 ---
 # <a name="why-has-number-activation-failed"></a>Pourquoi l’activation de numéro a-t-elle échoué ?
 La validation des adresses est une partie importante des forfaits d'appels dans Office 365. Si pour une raison quelconque, un numéro de téléphone n’est pas activé en raison de la validation des adresses, vous devrez créer une demande de service. La procédure dépend de la taille de votre organisation.
@@ -105,6 +105,6 @@ La validation des adresses est une partie importante des forfaits d'appels dans 
 
 [Conditions générales relatives aux appels d'urgence](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
   
  

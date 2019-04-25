@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Vous pouvez utiliser Skype pour Business Server Control Panel pour démarrer ou arrêter les services hérités en cours d’exécution sur un ordinateur spécifique ou pour démarrer ou arrêter un service spécifique hérité.
 ms.openlocfilehash: 237d0dcd44855bbea9ea1b084df429946e8f5f15
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895789"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231408"
 ---
 # <a name="stop-legacy-services"></a>Arrêter les services hérités
 

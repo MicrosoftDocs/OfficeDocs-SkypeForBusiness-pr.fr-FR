@@ -16,11 +16,11 @@ ms.custom: ''
 ms.assetid: ''
 description: Lisez cette rubrique pour en savoir plus sur la configuration de comptes pour les salles d’équipes Microsoft dans Exchange et Skype pour les entreprises.
 ms.openlocfilehash: 7606f31dde96236111b4a44919427245fa32215d
-ms.sourcegitcommit: 856793c99fc02fb016383d0b6f8411c386d78886
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "31828950"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214883"
 ---
 # <a name="configure-accounts-for-microsoft-teams-rooms"></a>Configurer des comptes pour les salles d’équipes Microsoft
  
@@ -88,5 +88,5 @@ Si vous préférez utiliser l’interface utilisateur d’Office 365 sur les app
   
 [Configurer une console Microsoft équipes salles](console.md)
   
-[Gérer les équipes Microsoft salles](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Gérer Microsoft Teams Rooms](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 

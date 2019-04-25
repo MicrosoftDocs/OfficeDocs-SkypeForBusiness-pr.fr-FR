@@ -14,11 +14,11 @@ MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 14f94428ddeba7b5a648b4b8dbd7bd5ef8fae0e4
-ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31959481"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32246099"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>Atteindre vos équipes Microsoft StaffHub équipes dans Microsoft Teams
 
@@ -202,7 +202,7 @@ Get-StaffHubTeamsForTenant -ManagedBy "Teams"
 
 Rapports d’utilisation peuvent vous aider à mieux comprendre les modèles d’utilisation et vous donner des idées permettant de hiérarchiser les efforts de formation et de communication au sein de votre organisation. Équipes étant une application dans les équipes, vous pouvez afficher l’utilisation par le biais de rapports d’équipes. Pour plus d’informations, voir [équipes de création de rapports dans le centre d’administration Microsoft équipes](../../teams-analytics-and-reports/teams-reporting-reference.md) et des [rapports d’activité équipes dans le centre d’administration Microsoft 365](../../teams-activity-reports.md).
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 - [Fin de parcours pour Microsoft StaffHub](microsoft-staffhub-to-be-retired.md)
 - [Gérer l’application Shifts pour votre organisation dans Microsoft Teams](manage-the-shifts-app-for-your-organization-in-teams.md)
 - [Référence StaffHub PowerShell](https://docs.microsoft.com/powershell/module/staffhub/?view=staffhub-ps)

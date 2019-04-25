@@ -23,15 +23,15 @@ ms.custom:
 - Audio Conferencing
 description: 'Apprenez comment essayer ou acheter des licences d’audioconférence (conférence RTC) pour Office 365 afin de mettre en place des conférences téléphoniques auxquelles les gens peuvent se connecter. '
 ms.openlocfilehash: b474a5c905566b3ee0c01249f7b20f11e3dbabfc
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460979"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223169"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-microsoft-teams"></a>Essayer ou acheter les audioconférences dans Office 365 pour Skype pour Microsoft Teams.
 
-Parfois, les membres de votre organisation devront utiliser un téléphone pour composer le numéro de la réunion. Microsoft Teams inclut la fonctionnalité de conférence Audio uniquement cette situation ! Personnes peuvent appeler réunions Teams Microsoft à l’aide d’un téléphone, au lieu d’utiliser l’application Microsoft Teams sur un appareil mobile ou un PC.
+Parfois les personnes dans votre organisation vous devrez utiliser un téléphone pour appeler une réunion. Microsoft Teams inclut la fonctionnalité de conférence Audio uniquement cette situation ! Personnes peuvent appeler réunions Teams Microsoft à l’aide d’un téléphone, au lieu d’utiliser l’application Microsoft Teams sur un appareil mobile ou un PC.
 
 Vous devez configurer les services d’audioconférence pour les personnes qui envisagent de planifier ou entraîner des réunions uniquement. Les participants à la réunion qui se connectent par téléphone n’ont pas besoin de licence ou de configuration particulière.
 
@@ -95,10 +95,10 @@ Les étapes suivantes sont **facultatives**, mais un grand nombre d’administra
 > [!NOTE]
 > Cette fonctionnalité n’est pas encore disponible pour les clients utilisant Office 365 géré par 21Vianet en Chine. Pour plus d’informations, consulter la rubrique [En savoir plus à propos d’Office 365 géré par 21Vianet](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE).
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Permettent aux équipes de votre organisation](office-365-set-up.md)
 
-[Numéros de téléphone pour l'audioconférence](phone-numbers-for-audio-conferencing-in-teams.md)
+[Numéros de téléphone pour l’audioconférence](phone-numbers-for-audio-conferencing-in-teams.md)
 
 [Définition des options pour les réunions en ligne et les téléconférences](https://support.office.com/article/DCD1CA39-0C1F-466C-9573-F04138FEF5E2)

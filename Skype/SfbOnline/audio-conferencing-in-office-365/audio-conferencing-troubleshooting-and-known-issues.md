@@ -21,11 +21,11 @@ ms.custom:
 - Audio Conferencing
 description: 'Obtenir la liste des problèmes connus lors de l’utilisation de Microsoft en tant que leur fournisseur de conférence rendez-vous, l’état et des solutions. '
 ms.openlocfilehash: 997cc5007df35b307cb714b891bc60764bd4a645
-ms.sourcegitcommit: d21e7ef1d4e36f4aced606e11837c693e8fd6410
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/19/2018
-ms.locfileid: "23999173"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229183"
 ---
 # <a name="audio-conferencing-troubleshooting-and-known-issues"></a>Problèmes connus et dépannage à propos de l'audioconférence
 
@@ -44,6 +44,6 @@ Pour l’instant, à utiliser comme référence lorsque vous essayez de résoudr
 |Appels de conférence audio peuvent prendre jusqu'à 24 heures à afficher dans les rapports d’utilisation.  <br/> |Nous attendons améliorer de cette zone service futures mises à jour.  <br/> |Aucune solution.  <br/> |30/8/2017  <br/> |
 |Lorsqu’un appelant appelle un pont de conférence après que la réunion a été verrouillée par une Skype pour l’utilisateur d’entreprise, il n’existe pas de notification dans le Skype pour Business application indiquant que l’utilisateur est en attente dans la salle d’attente.  <br/> |Cette fonctionnalité est actuellement à l'étude, mais nous avons recueilli les derniers commentaires afin de la mettre en œuvre dans les prochaines mises à jour de service.  <br/> |Aucune solution.  <br/> |30/8/2017  <br/> |
    
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
-[Tester ou acheter l'audioconférence dans Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Tester ou acheter l’audioconférence dans Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

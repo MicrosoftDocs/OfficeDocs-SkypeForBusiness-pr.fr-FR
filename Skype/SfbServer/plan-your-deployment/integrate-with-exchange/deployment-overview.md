@@ -13,11 +13,11 @@ ms.collection: IT_Skype16
 ms.assetid: 1bcadf0a-ca3d-436f-a2a0-09329d487b18
 description: 'Résumé : Passez en revue cette rubrique lors de la planification intégrer Skype pour Business Server avec Exchange 2013 ou 2016.'
 ms.openlocfilehash: f2c76dd4708246f5eff124c7d04cff459531a24e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878083"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213962"
 ---
 # <a name="deployment-process-overview-for-integrating-on-premises-unified-messaging-and-skype-for-business"></a>Vue d’ensemble de la procédure de déploiement pour l’intégration de la messagerie unifiée locale et de Skype Entreprise
  

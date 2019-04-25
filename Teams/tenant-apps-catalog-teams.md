@@ -17,11 +17,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: ebc26292e41328589f302127980f4a303efd46a2
-ms.sourcegitcommit: 889295b507c77a93b10b3a5e826f2b0c79c31f75
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "30771757"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226700"
 ---
 <a name="publish-apps-to-the-microsoft-teams-tenant-apps-catalog"></a>Publier des applications dans le catalogue d’applications de locataire Microsoft Teams
 =======================================================

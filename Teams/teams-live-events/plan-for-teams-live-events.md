@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Découvrez les facteurs à prendre en compte avant de configurer des événements en temps réel dans Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4c249c6e63b8342b524b54afc2a6d30be3e92b25
-ms.sourcegitcommit: 889295b507c77a93b10b3a5e826f2b0c79c31f75
+ms.openlocfilehash: 427a0dc26ef3c5b9901ddbe9cefe1288c905ccbb
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "30771765"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223375"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planifier des événements en direct dans Microsoft Teams
 
@@ -44,7 +44,7 @@ L’utilisateur doit avoir :
 - Partage de vidéos activé dans les réunions des équipes (*- AllowIPVideo TeamsMeetingPolicy le paramètre = True*).
 - Partage d’écran activé dans les réunions des équipes (*- ScreenSharingMode TeamsMeetingPolicy le paramètre = EntireScreen*).
 - Live planification d’événements dans les équipes activés (*- AllowBroadcastScheduling TeamsMeetingBroadcastPolicy le paramètre = True*).
-- Autorisations pour créer des événements en temps réel dans Microsoft Stream (pour la [production de codage externe](#production)).
+- Autorisations pour créer des événements en temps réel dans Microsoft Stream (pour la production de codage externe).
 
 > [!IMPORTANT]
 > Office 365 invités, les utilisateurs fédérés et anonymes ne peuvent pas être invitées en tant que producteurs ou présentateurs dans les événements live équipes. Invité Office 365 et les utilisateurs fédérés peuvent regarder uniquement anonymement événements en direct. 
@@ -75,13 +75,13 @@ Le tableau suivant met en évidence les fonctionnalités principales et les fonc
 |Client producteur sur Windows |& #x 2714 ; (Skype pour les entreprises) |& #x 2714 ; (Équipes) |& #x 2714 ; (Incorporer des équipes via le flux de flux) |
 |Client producteur sur Mac |X  | & #x 2714 ; (Équipes) |& #x 2714 ; (Incorporer des équipes via le flux de flux) |
 |Nombre de participants dans l’interface utilisateur producteur |X  |& #x 2714 ; (Équipes) |& #x 2714 ; (Incorporer des équipes via le flux de flux) |
-|Permet à plusieurs présentateurs |& #x 2714 ; (Skype pour les entreprises) |& #x 2714 ; (Équipes) |N/A  |
-|Inviter un présentateur au cours de la réunion |& #x 2714 ; (Skype pour les entreprises) |X |N/A |
-|Jointure présentateur sur le Web et Mobile |& #x 2714 ; (Skype pour les entreprises)  |X |N/A |
-|_AMP_ fédérées invité présentateurs/participants |& #x 2714 ; (Skype pour les entreprises)  | (bientôt disponible) |N/A |
-|Présentateur – accès PSTN |X |& #x 2714 ; (Équipes) |N/A |
-|Présenter un écran |X |& #x 2714 ; (Équipes) |N/A |
-|Présenter un fichier PowerPoint (PPT partage) |& #x 2714 ; |X (atténué via le partage d’écran) |N/A |
+|Permet à plusieurs présentateurs |& #x 2714 ; (Skype pour les entreprises) |& #x 2714 ; (Équipes) |S/O  |
+|Inviter un présentateur au cours de la réunion |& #x 2714 ; (Skype pour les entreprises) |X |S/O |
+|Jointure présentateur sur le Web et Mobile |& #x 2714 ; (Skype pour les entreprises)  |X |S/O |
+|_AMP_ fédérées invité présentateurs/participants |& #x 2714 ; (Skype pour les entreprises)  | (bientôt disponible) |S/O |
+|Présentateur – accès PSTN |X |& #x 2714 ; (Équipes) |S/O |
+|Présenter un écran |X |& #x 2714 ; (Équipes) |S/O |
+|Présenter un fichier PowerPoint (PPT partage) |& #x 2714 ; |X (atténué via le partage d’écran) |S/O |
 |Enregistrement de la réunion en fonction de nuage |& #x 2714 ; |& #x 2714 ; |& #x 2714 ; |
 |Automatique publier un enregistrement dans le flux de Microsoft |X |X |& #x 2714 ; |
 |Traduction et légendes en temps réel |& #x 2714 ; |& #x 2714 ; (bientôt disponible) |X |
@@ -113,7 +113,7 @@ Vous pouvez utiliser événements live équipes dans plusieurs régions du monde
 ## <a name="next-steps"></a>Étapes suivantes
 Accédez à [configurer pour les événements live équipes](set-up-for-teams-live-events.md).
 
-### <a name="related-topics"></a>Rubriques connexes
+### <a name="related-topics"></a>Voir aussi
 - [Que sont les événements en direct Teams ?](what-are-teams-live-events.md)
 - [Configurer les événements en direct Teams](set-up-for-teams-live-events.md)
 - [Configurer les paramètres d’événements en direct dans les équipes](configure-teams-live-events.md)

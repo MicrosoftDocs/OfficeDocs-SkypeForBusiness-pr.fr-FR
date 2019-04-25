@@ -21,11 +21,11 @@ ms.custom:
 - Audio Conferencing
 description: 'Découvrez les étapes pour réinitialiser un utilisateur de l’ID de la réunion Conférence dans Skype pour Business Online et get fournit des liens vers les outils de migration et mise à jour de la réunion. '
 ms.openlocfilehash: 748664ec8e6584adcbcb0630147f1bcd60be9482
-ms.sourcegitcommit: 17348a197c8ed76d587f3c3d0ff36c56414183f0
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30475794"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229270"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-skype-for-business-online"></a>Réinitialiser un ID de conférence pour un utilisateur dans Skype pour Business Online
 
@@ -75,14 +75,14 @@ Un ID de conférence dynamique est inclus dans la partie inférieure des invitat
     
   - [Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 depuis un seul point d'administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-- Windows PowerShell offre de nombreux avantages en matière de rapidité, de simplicité et de productivité par rapport à l’utilisation du centre d’administration Office 365 uniquement, par exemple lorsque vous modifiez des paramètres pour un grand nombre d’utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes :
+- Windows PowerShell offre de nombreux avantages en matière de rapidité, de simplicité et de productivité par rapport à l'utilisation du centre d'administration Office 365 uniquement, par exemple lorsque vous modifiez des paramètres pour un grand nombre d'utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes :
     
-  - [Meilleures méthodes de gestion d’Office 365 avec Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Meilleures méthodes de gestion d'Office 365 avec Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
   - [Utilisation de Windows PowerShell pour gérer Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525453)
     
   - [Utilisation de Windows PowerShell pour effectuer les tâches de gestion courantes de Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
-[Réinitialiser le code confidentiel de conférence Audio](reset-the-audio-conferencing-pin.md)
+[Réinitialiser le code confidentiel d’audioconférence](reset-the-audio-conferencing-pin.md)

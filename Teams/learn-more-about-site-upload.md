@@ -19,11 +19,11 @@ f1keywords: ms.teamsadmincenter.locations.overview
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: a84b022c7b5553a15ff8862a175ba5f856cdd149
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494076"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222316"
 ---
 <a name="adding-and-updating-locations-data"></a>Ajout et mise à jour des données d’emplacements
 ============================
@@ -48,15 +48,15 @@ Vous pouvez utiliser l’exemple suivant permet de créer votre fichier de donn�
 
 |Réseau|Nom de réseau|Plage réseau|Nom de création|Type de propriété|Type de construction|Type de construction Office|Ville|Code postal|Pays|État|Région|Intérieur Corp|Itinéraire Express|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|
-|10.0.128.0 |SVC-1|32|USCAMTV001|Connexion en bail Contoso RE&F|Office|RE&F|Mountain View|94043|NOUS|CA|NOUS|1|1|
-|10.0.130.0 |SVC-1|32|USCAMTV001|Connexion en bail Contoso RE&F|Office|RE&F|Mountain View|94043|NOUS|CA|NOUS|1|1|
-|10.0.131.0 |SVC-1|32|USCAMTV001|Connexion en bail Contoso RE&F|Office|RE&F|Mountain View|94043|NOUS|CA|NOUS|1|1|
-|10.0.132.0 |SVC-1|32|USCAMTV001|Connexion en bail Contoso RE&F|Office|RE&F|Mountain View|94043|NOUS|CA|NOUS|1|1|
+|10.0.128.0 |SVC-1|32|USCAMTV001|Connexion en bail Contoso RE&F|Bureau|RE&F|Mountain View|94043|NOUS|CA|NOUS|1|1|
+|10.0.130.0 |SVC-1|32|USCAMTV001|Connexion en bail Contoso RE&F|Bureau|RE&F|Mountain View|94043|NOUS|CA|NOUS|1|1|
+|10.0.131.0 |SVC-1|32|USCAMTV001|Connexion en bail Contoso RE&F|Bureau|RE&F|Mountain View|94043|NOUS|CA|NOUS|1|1|
+|10.0.132.0 |SVC-1|32|USCAMTV001|Connexion en bail Contoso RE&F|Bureau|RE&F|Mountain View|94043|NOUS|CA|NOUS|1|1|
 
 
 Pour plus d’informations sur la mise en forme de votre fichier de données, voir [format et la structure de fichier de données de création de fichiers de données client](turning-on-and-using-call-quality-dashboard.md#tenant-data-file-format-and-building-data-file-structure).
 
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
-[Configurer Analyse des appels](set-up-call-analytics.md)
+[Configurer l’analyse des appels](set-up-call-analytics.md)

@@ -19,11 +19,11 @@ ms.custom:
 - PowerShell
 description: Utiliser Windows PowerShell et les applets de commande Get-CsTenant et Get-CsTenantLicensingConfiguration pour obtenir des informations sur votre Skype pour client d’entreprise en ligne.
 ms.openlocfilehash: b71c89967ab34909fa461f71fc5f67c1cf99a408
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896550"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32224444"
 ---
 # <a name="manage-skype-for-business-online-organizations"></a>Gérer les Skype pour les organisations Business en ligne
 
@@ -47,7 +47,7 @@ La valeur du paramètre _ID client sur_ est requise lors de l’exécution des a
   
 Pour savoir si des informations de licence pour le client spécifié sont disponibles dans le Skype pour le centre d’administration Business en ligne, utilisez l’applet de commande [Get-CsTenantLicensingConfiguration](https://go.microsoft.com/fwlink/p/?linkid=849606) .
   
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 [Configurer votre ordinateur pour Skype pour la gestion en ligne à l’aide de Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
   

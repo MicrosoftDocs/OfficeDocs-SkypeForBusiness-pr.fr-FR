@@ -22,11 +22,11 @@ ms.custom:
 - Audio Conferencing
 description: Réunion Migration MMS (Service) est un service qui s’exécute en arrière-plan et met à jour automatiquement Skype pour les réunions d’entreprise et Teams Microsoft pour les utilisateurs. MMS est conçu pour éliminer le besoin pour les utilisateurs d’exécuter l’outil de Migration de réunion pour mettre à jour leur Skype pour les réunions d’entreprise et Teams Microsoft.
 ms.openlocfilehash: 90953f1352f54a8411513a78ccfda8bfb5356883
-ms.sourcegitcommit: 004d9475aa704779f8f70adeaf2db9b36c6828cc
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "31836855"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229240"
 ---
 # <a name="using-the-meeting-migration-service-mms"></a>Utilisation du Service de Migration de réunion (MMS)
 
@@ -209,7 +209,7 @@ Si MMS est activé dans l’organisation et que vous souhaitez vérifier si elle
 Set-CsOnlineDialInConferencingTenantSettings  -AutomaticallyMigrateUserMeetings $false
 ```
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Tester ou acheter l’audioconférence dans Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 

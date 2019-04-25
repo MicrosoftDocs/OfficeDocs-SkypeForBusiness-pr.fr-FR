@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 81072ae1-6a20-4695-aba7-c05b91f81799
 description: Dans la page Résumé du certificat importation, se succèdent un résumé du nom de fichier, le chemin d’accès et la présence d’une clé privée. Après avoir consulté le résumé, cliquez sur Suivant pour continuer.
 ms.openlocfilehash: 52ae6c49ac8ff1131167e39e0b6cfe95dc5da0fd
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883791"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235050"
 ---
 # <a name="import-certificate-summary"></a>Importer un certificat (résumé)
  

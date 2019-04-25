@@ -15,11 +15,11 @@ description: Votre administrateur informatique peut configurer l’accès extern
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: b04b125f5cb998c71f161bf31809a39097accf6c
-ms.sourcegitcommit: 188c57e6b6c707edb694bb922556dea1c4724846
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "30955021"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245568"
 ---
 <a name="manage-external-access-federation-in-microsoft-teams"></a>Gérez l’accès externe (fédération) dans Microsoft Teams
 ======================================================
@@ -36,17 +36,17 @@ Consultez la table pour une comparaison d’externes et les invités d’accéde
 
 | Fonctionnalité | Utilisateurs de l’accès externe | Utilisateurs de l’accès invité |
 |---------|-----------------------|--------------------|
-| Utilisateur peut converser avec une personne dans une autre société | Oui |Oui  |
-| L’utilisateur peut appeler une personne dans une autre société | Oui | Oui  |
+| Utilisateur peut converser avec une personne dans une autre société | Oui |Oui |
+| L’utilisateur peut appeler une personne dans une autre société | Oui | Oui |
 | Les utilisateurs peuvent afficher si une personne à partir d’une autre société est disponible pour un appel ou une conversation | Oui | Oui<sup>1</sup> |
 | Utilisateur peut rechercher des utilisateurs dans les clients externes | Oui<sup>2</sup> | Non |
 | Utilisateur peut partager des fichiers | Non | Oui |
 | Utilisateur peut accéder aux ressources d’équipes | Non | Oui |
 | Utilisateur peut être ajouté à une conversation de groupe | Non | Oui |
-| Utilisateur peut être ajouté à une réunion | Oui | Oui  |
-| Utilisateurs supplémentaires peuvent être ajoutés à une conversation avec un utilisateur externe | Aucun<sup>3</sup> | N/A |
-| Utilisateur est identifié comme une partie externe | Oui | Oui  |
-| Affichage de la présence | Oui | Oui  |
+| Utilisateur peut être ajouté à une réunion | Oui | Oui |
+| Utilisateurs supplémentaires peuvent être ajoutés à une conversation avec un utilisateur externe | Aucun<sup>3</sup> | S/O |
+| Utilisateur est identifié comme une partie externe | Oui | Oui |
+| Affichage de la présence | Oui | Oui |
 | Absent message s’affiche. | Non | Oui |
 | Les utilisateurs individuels peuvent être bloquées. | Non | Oui |
 | @mentions sont pris en charge | Non | Oui |
@@ -87,7 +87,7 @@ Suivez ces étapes pour ajouter un domaine ou de désactiver l’accès externe 
 
 3. Sous **Ajouter un domaine**, tapez le nom du domaine ; par exemple, tapez Contoso.com.
 
-4. Sélectionnez **autorisées** ou **bloquées**. Vous pouvez modifier ce paramètre à tout moment.
+4. Sélectionnez **Autorisés** ou **Bloqués**. Vous pouvez modifier ce paramètre à tout moment.
 
 2. Cliquez sur **terminé**.
 

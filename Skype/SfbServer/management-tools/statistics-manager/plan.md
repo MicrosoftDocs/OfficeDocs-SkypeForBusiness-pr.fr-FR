@@ -12,17 +12,17 @@ ms.collection: IT_Skype16
 ms.assetid: f0ec68e1-de01-4a92-b67d-703149b05caf
 description: 'Résumé : Lisez cette rubrique pour en savoir plus sur le Gestionnaire de statistiques de Skype pour Business Server.'
 ms.openlocfilehash: 7e086dda9bfea755265d2c77413989f8cc634df7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893987"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32236147"
 ---
 # <a name="plan-for-statistics-manager-for-skype-for-business-server"></a>Planifier le gestionnaire de statistiques pour Skype Entreprise Server
 
 **Résumé :** Lisez cette rubrique pour en savoir plus sur le Gestionnaire de statistiques de Skype pour Business Server.
 
- Gestionnaire de statistiques pour Skype pour Business Server est un outil puissant qui vous permet d’afficher Skype pour les données de performances et d’intégrité Business Server en temps réel. Vous pouvez interroger les données de performance sur des centaines de serveurs après quelques secondes et afficher les résultats instantanément sur le site Web de gestionnaire de statistiques.
+ Le Gestionnaire de statistiques pour Skype Entreprise Server est un outil puissant qui permet de consulter Skype pour l’état et les performances des données entreprise Server en temps réel. Vous pouvez interroger les données de performances sur des centaines de serveurs à des intervalles de quelques secondes et afficher les résultats instantanément sur le site Web de Gestionnaire de Statistiques.
 
 Vous pouvez utiliser le Gestionnaire de statistiques pour identifier les problèmes de performances en cours, afficher les résultats d’une modification planifiée dans votre environnement, effectuer le suivi de la résolution des pannes et bien plus encore. L’emploi, Gestionnaire de statistiques est configuré avec les seuils d’indicateur de l’intégrité de clé (KHI) et peuvent être personnalisé en fonction des besoins de votre déploiement.
 
@@ -172,10 +172,10 @@ Tout le trafic entre les serveurs est chiffré.
 
 - L’Agent commence la transmission de données de performances sur la connexion à l’écouteur.
 
-## <a name="for-more-information"></a>Pour plus d’informations
+## <a name="for-more-information"></a>Pour plus d'informations
 <a name="BKMK_Security"> </a>
 
-Pour plus d’informations, voir les articles suivants :
+Pour plus d'informations, voir les articles suivants :
 
 - [Déploiement du gestionnaire de statistiques pour Skype Entreprise Server](deploy.md)
 

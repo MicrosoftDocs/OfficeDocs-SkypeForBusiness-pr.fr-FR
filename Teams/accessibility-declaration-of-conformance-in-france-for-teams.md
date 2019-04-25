@@ -20,11 +20,11 @@ ms.custom:
 hideEdit: true
 description: "Microsoft Teams est l'outil de conversation collaboratif d'Office 365 qui intègre toutes les personnes, contenus et outils ne votre équipe un besoin pour être plus l’impliquée et efficace. "
 ms.openlocfilehash: 3c3d7f364f53e7317b90388642a5bd18d4c0cab2
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569869"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231797"
 ---
 # <a name="en-301-549-dclaration-de-conformit-en-matire-daccessibilit"></a>Fr-fr 301 549 Déclaration de conformité en matière d'accessibilité
 
@@ -205,6 +205,6 @@ Le présent document n’est pas la norme EN 301 549 v 1.1.2 (2015-04) et ne doi
 
 Le présent document est fourni à titre indicatif. MICROSOFT EQ FOURNIT AUCUNE GARANTIE, EXPRESSE OU TACITE, DANS LE PRÉSENT DOCUMENT.
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Solutions pour l'accessibilité de Skype Entreprise Online en France](https://docs.microsoft.com/SkypeForBusiness/legal-and-regulatory/accessibility-solutions-in-france)

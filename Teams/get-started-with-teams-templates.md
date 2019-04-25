@@ -19,11 +19,11 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: b620f163f1dc071bde8a0ed43bf7fe546a9bc04a
-ms.sourcegitcommit: 355bcdafa58b6349bb6bc771054f4c9c91387a81
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013636"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245592"
 ---
 # <a name="get-started-with-teams-templates"></a>Prise en main des modèles Teams 
 
@@ -78,10 +78,10 @@ Par défaut, le modèle de base est défini à **Standard** qui ne contient pas 
 > Nous allons ajouter d’autres modèle de base de types dans les futures versions de Microsoft Teams, afin de rechercher dans les informations les plus récentes sur les propriétés prises en charge.
 
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 - [Équipe de création](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta) (en aperçu)
 - [Nouvelle équipe](https://docs.microsoft.com/powershell/module/teams/New-Team?view=teams-ps)
 - [Formation à Microsoft Teams pour les administrateurs](itadmin-readiness.md)
-- [Prise en main des modèles Équipes de vente au détail](get-started-with-retail-teams-templates.md)
+- [Démarrage avec les modèles Teams pour la vente au détail](get-started-with-retail-teams-templates.md)
 - [Démarrage avec les modèles Teams pour les organismes de santé](expand-teams-across-your-org/healthcare/healthcare-templates.md)

@@ -1,5 +1,5 @@
 ---
-title: Prendre en main messagerie sécurisée pour les organisations de santé
+title: Démarrage avec la messagerie sécurisée pour les organismes de santé
 author: jambirk
 ms.author: jambirk
 manager: serdars
@@ -12,15 +12,15 @@ MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: Prendre en main messagerie sécurisée pour les organisations de santé
-ms.openlocfilehash: 58e19cd5f8e39e05b2b2178bcf4062260546e509
-ms.sourcegitcommit: 355bcdafa58b6349bb6bc771054f4c9c91387a81
+description: Démarrage avec la messagerie sécurisée pour les organismes de santé
+ms.openlocfilehash: 2de10ef2d36dce991e6f1cd122a624e17ff7a918
+ms.sourcegitcommit: ee3f79ce1b6da0885e1096f9fba894bcff1814da
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013768"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33298683"
 ---
-# <a name="get-started-with-secure-messaging-for-healthcare-organizations"></a>Prendre en main messagerie sécurisée pour les organisations de santé
+# <a name="get-started-with-secure-messaging-for-healthcare-organizations"></a>Démarrage avec la messagerie sécurisée pour les organismes de santé
 
 Stratégies de messagerie sont utilisés pour contrôler les conversation et le canal des fonctionnalités de messagerie sont disponibles pour les utilisateurs de Microsoft Teams et font partie du déploiement global de messagerie sécurisée pour les organisations de santé hôpitaux, stages ou bureaux médecin, où recevoir un message choisie et traités en temps voulu est primordial, comme est de savoir lorsque des messages indispensables sont lus.
 
@@ -36,6 +36,8 @@ Pour modifier la stratégie de messagerie par défaut existante pour votre organ
 
 Les paramètres suivants sont particulièrement intéressant pour les applications de santé et doivent être considérés lors de la conception d’une stratégie personnalisée utilisée dans le domaine de la santé :
 
+## <a name="read-reciepts"></a>Encaissements en lecture
+
 - ![un numéro](../../media/sfbcallout1.png) confirmations de lecture des **confirmations de lecture** permet à l’expéditeur d’un message de conversation à connaître lorsque le message a été lu par le destinataire. Utilisez ce paramètre pour spécifier si des confirmations de lecture utilisateur contrôlée, activée pour tout le monde ou désactivée pour tout le monde. Message lu confirmations sont importantes dans les organisations de santé car elles suppriment sans certitude sur indique si un message a été lu.
 
   Pour les applications de santé, choisissez **utilisateur contrôlé** ou **activé pour tout le monde**. Gardez à l’esprit que lorsque vous utilisez le paramètre **activé pour tout le monde** , le seul moyen pour définir les confirmations du client entière est de n'avoir qu’une seule stratégie de messagerie pour le client entière (la stratégie par défaut nommé « Global (valeur par défaut à l’échelle de l’organisation) ») ou pour que tous les échanges stratégies dans le client utilisent les mêmes paramètres pour les reçus.
@@ -47,6 +49,8 @@ Les paramètres suivants sont particulièrement intéressant pour les applicatio
 
   *Exemple d’utilisation avec des confirmations de lecture :* Jakob Roth, un patient risque élevé, est admis à l’hôpital.Sofia Krause est infirmier fonctionne dans le cadre de l’équipe interdisciplinaires (IDT) des travailleurs médicales, y compris les spécialistes différents, est affecté comme coordinateur de soins primaires responsable de ce dernier.  Sofia commence une conversation de groupe avec un ensemble de médecins et autres personnel qui contactera le patient pour coordonner des soins et démarre un triage d’urgence.Le personnel et les médecins communiquent et collaborent sur le plan de soins tout au long du processus de coordination de soins.  Important et d’urgent messages sont transmis par le biais de 1:1 et des conversations de groupe. Sofia utilise la fonctionnalité confirmations de lecture pour déterminer si les messages envoyés demande de prise en charge sont remis et lus par les médecins ciblés ou personnel. Des patients Jakob sont presque optimale et il accède personnel plus tôt, car son équipe de soins communique comme prévu.
 
+## <a name="priority-notifications"></a>Notifications de priorité
+
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
 - ![chiffre deux](../../media/sfbcallout2.png) **les utilisateurs peuvent envoyer des notifications de priorité** d’utiliser ce paramètre pour permettre aux utilisateurs d’envoyer des messages de conversation de priorité à d’autres utilisateurs. Cette fonctionnalité permet de personnel hospitalier eux d’alerte lorsqu’un incident grave requiert une attention particulière. Contrairement aux messages « importants » régulières, les notifications de priorité avertir les utilisateurs à plusieurs reprises pour une période de 20 minutes ou jusqu'à ce que les messages sont récupérés et lu par le destinataire, optimisation de la probabilité que le message est choisie et traité en temps voulu.
@@ -55,7 +59,7 @@ Les paramètres suivants sont particulièrement intéressant pour les applicatio
 
   *Exemple d’utilisation :* Sofia Krause est pourraitent un patient à haut risque, Jakob Roth. Manuela Carstens, un médecin, est le médecin soins primaires de ce dernier.  Sofia envoie qu'un message à Manuela marqué comme « Haute priorité » et nécessitant une exécution de l’aide avec triage de Jakob.  Téléphone de Manuela reçoit le message, mais Manuela sentiment vibrations téléphone et ne répond pas. Les équipes nouveau avertit Manuela et continuera à persistant avertir de nouveau jusqu'à ce qu’elle lit le message. Si la lecture confirmations sont également activées, Sofia peut être conscient que le message a été lu par Manuela, même avant Manuela décide comment répondre.
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 - [Gérer les stratégies de messagerie dans Teams](../../messaging-policies-in-teams.md)
-- [Prendre en main équipes pour les organisations de santé](teams-in-hc.md)
+- [Prise en main de Teams pour les organismes de santé](teams-in-hc.md)

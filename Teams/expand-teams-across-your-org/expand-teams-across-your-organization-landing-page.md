@@ -1,5 +1,5 @@
 ---
-title: Développez Teams Microsoft au sein de votre organisation.
+title: Développer Microsoft Teams au sein de votre organisation
 description: Utilisez ces ressources pour tirer le meilleur parti des équipes au sein de votre organisation.
 layout: LandingPage
 ms.topic: landing-page
@@ -13,13 +13,13 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 1772131042c80ca34991e44352ebf501527ac337
-ms.sourcegitcommit: 89b866a3c383555f6f89dc77bebd74cddf9e40fb
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013152"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32246177"
 ---
-# <a name="expand-microsoft-teams-across-your-organization"></a>Développez Teams Microsoft au sein de votre organisation.
+# <a name="expand-microsoft-teams-across-your-organization"></a>Développer Microsoft Teams au sein de votre organisation
 
 <br>
 <ul class="panelContent cardsFTitle">
@@ -34,7 +34,7 @@ ms.locfileid: "31013152"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Déplacements pour les équipes</h3>
+                        <h3>Shifts pour Teams</h3>
                     </div>
                 </div>
             </div>
@@ -52,7 +52,7 @@ ms.locfileid: "31013152"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Équipes de santé</h3>
+                        <h3>Teams pour la santé publique</h3>
                     </div>
                 </div>
             </div>
@@ -88,7 +88,7 @@ ms.locfileid: "31013152"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Équipes de vente au détail</h3>
+                        <h3>Teams pour les organismes de vente au détail</h3>
                     </div>
                 </div>
             </div>
@@ -106,7 +106,7 @@ ms.locfileid: "31013152"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Équipes pour le gouvernement</h3>
+                        <h3>Teams pour le secteur public</h3>
                     </div>
                 </div>
             </div>

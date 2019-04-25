@@ -19,11 +19,11 @@ ms.custom:
 - Reporting
 description: La nouvelle Skype de zone de rapports du centre d’administration Business affiche vous appeler et audio conférence activité dans votre organisation. Elle vous permet des détails des rapports pour vous donnent plus granulaires sur les activités de chaque utilisateur. Par exemple, vous pouvez utiliser la Skype pour rapport de pools minute Business PSTN pour afficher le nombre de minutes consommées au cours du mois au sein de votre organisation.
 ms.openlocfilehash: 903ea97fa5cd187e49db89d0e4db32ad7b851a41
-ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30454015"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32239897"
 ---
 # <a name="pstn-minute-pools-report"></a>Rapport du nombre de minutes RTC
 
@@ -37,7 +37,7 @@ Consultez la rubrique [vue d’ensemble des rapports](https://support.office.com
 Ce rapport, ainsi que l’autres Skype pour les rapports d’entreprise, vous donne plus d’informations sur l’activité au sein de votre organisation. Ces informations sont très utiles lors de l’analyse, la planification et les décisions autres pour votre organisation et de configuration [Communications générique](/microsoftteams/what-are-communications-credits)
   
 > [!NOTE]
-> Vous pouvez afficher tous les rapports Skype Entreprise lorsque vous vous connectez en tant qu'administrateur du centre d'administration Office 365. 
+> Vous pouvez accéder à tous les rapports Skype Entreprise lorsque vous vous connectez au centre d'administration d'Office 365 en tant qu'administrateur. 
   
 ## <a name="how-to-get-to-the-skype-for-business-pstn-minute-pools-report"></a>Comment obtenir le Skype pour rapport de pools minute Business PSTN
 
@@ -92,7 +92,7 @@ Voici une illustration du rapport.
 
 - [Skype pour le rapport de détails de session Business](session-details-report.md) Vous pouvez voir plus d’informations sur les expériences d’appel d’un utilisateur individuel.
     
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 [Rapports d'activité dans le centre d’administration Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

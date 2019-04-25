@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Après la transition de l’itinéraire de fédération pour le Skype pour le serveur de périphérie 2019 Business Server, vous devez effectuer des tests fonctionnels pour vérifier que la fédération fonctionne comme prévu. Tests pour l’accès des utilisateurs externes doivent inclure chaque type d’utilisateur externe prenant en charge votre organisation, dont un ou plusieurs des options suivantes.
 ms.openlocfilehash: 3a520b39d76ab93f4ec7fcaacd139b3f83a3326a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876696"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231349"
 ---
 # <a name="verify-federation-and-remote-access-for-external-users"></a>Vérifier la fédération et l’accès à distance pour les utilisateurs externes
 

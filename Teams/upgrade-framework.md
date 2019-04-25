@@ -7,7 +7,7 @@ ms.date: 12/18/2018
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Utiliser une infrastructure couronné de succès pour voyage au pays de la mise à niveau de votre organisation de Skype pour les entreprises à des équipes
+description: Utiliser une structure ayant fait ses preuves pour aides les équipes de démarche mise à niveau de votre organisation à passer de Skype Entreprise à Teams
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
@@ -17,11 +17,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: cf114075b4c35b19beeab9a4c28a1ade97330300
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30649275"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227652"
 ---
 # <a name="about-the-upgrade-framework"></a>À propos du cadre de mise à niveau
 

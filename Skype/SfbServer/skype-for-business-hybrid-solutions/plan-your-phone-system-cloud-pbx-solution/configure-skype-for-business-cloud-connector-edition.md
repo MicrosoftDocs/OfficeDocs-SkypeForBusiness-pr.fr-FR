@@ -19,11 +19,11 @@ ms.custom: ''
 ms.assetid: ce323f4b-24e4-4ddf-84a3-67da82bb0c87
 description: Découvrez comment configurer Skype pour l’édition de connecteur Business Cloud, une topologie minimale locale pour activer l’intégration de votre infrastructure de voix sur site avec un système téléphonique dans Office 365 (en nuage PBX) des services de téléphonie dans Skype pour Business Online.
 ms.openlocfilehash: 5d057a299e51bfb83bd6711fcf1fbe8b4ee98f02
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897997"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227914"
 ---
 # <a name="configure-and-manage-skype-for-business-cloud-connector-edition"></a>Configuration et gestion de Skype Entreprise, version Cloud Connector
  

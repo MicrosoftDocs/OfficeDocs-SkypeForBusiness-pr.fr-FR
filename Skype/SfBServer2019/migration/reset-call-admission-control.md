@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Si un pool frontal hérité héberge le contrôle d’admission des appels (CAC), vous devez déplacer CAC hébergement à un Skype pour Business Server 2019 pool avant de pouvoir supprimer le pool frontal hérité.
 ms.openlocfilehash: 3b94322b86feb2c647f88102617ab1dcc9d5f8bc
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895774"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231389"
 ---
 # <a name="reset-call-admission-control"></a>Réinitialisation du contrôle d’admission des appels
 

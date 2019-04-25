@@ -13,11 +13,11 @@ ms.collection: IT_Skype16
 ms.assetid: 6a197ecf-b56b-45e0-8e7c-f532ec5164ff
 description: 'Résumé : Découvrez comment configurer des fournisseurs de scénario pour le Service de journalisation centralisée Skype pour Business Server 2015.'
 ms.openlocfilehash: 36eb16eb1aea584e1ca28670ea75bd3a262ceb1a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882207"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32217501"
 ---
 # <a name="configure-providers-for-centralized-logging-service-in-skype-for-business-server-2015"></a>Configuration des fournisseurs pour le service de journalisation centralisée dans Skype Entreprise Server 2015
  

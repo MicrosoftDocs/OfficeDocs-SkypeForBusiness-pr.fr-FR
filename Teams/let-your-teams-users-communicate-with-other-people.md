@@ -19,11 +19,11 @@ localization_priority: Normal
 f1keywords: ms.teamsadmincenter.externalaccess.overview
 description: Découvrez comment configurer des équipes pour permettre aux utilisateurs de communiquer avec les utilisateurs d’une autre organisation.
 ms.openlocfilehash: c3faf65dd3f36c193a75e74e73d90bf5e9be11df
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894187"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222370"
 ---
 # <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>Laissez votre conversation d’utilisateurs équipes et communiquer avec les utilisateurs d’une autre organisation d’équipes
 
@@ -93,7 +93,7 @@ Disposer de l’administrateur dans cette organisation procédez comme suit :
     
 4. Sous **bloqué ou des domaines autorisés**, choisissez **+** et ajoutez le nom du domaine que vous souhaitez autoriser. Assurez-vous que l’administrateur de l’autre organisation est la même procédure. Par exemple, dans sa liste de **domaines autorisés**, l'administrateur de l'autre organisation doit entrer le domaine de votre entreprise.
     
-### <a name="related-topics"></a>Rubriques connexes
+### <a name="related-topics"></a>Voir aussi
 
 [Se connecter à Microsoft Teams](sign-in-teams.md)
 [utilisateur final de formation pour les équipes](enduser-training.md)

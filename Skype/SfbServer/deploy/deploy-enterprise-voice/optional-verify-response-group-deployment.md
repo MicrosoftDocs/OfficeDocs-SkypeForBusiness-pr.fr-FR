@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: 202ca4ab-8e6d-44a4-b7c8-071133074feb
 description: Vérifier le succès de votre déploiement Response Group, dans Skype pour Business Server Enterprise Voice.
 ms.openlocfilehash: 2a0cc58101199183a23d74152a0ef6a05a1fb699
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893938"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225624"
 ---
 # <a name="optional-verify-response-group-deployment-in-skype-for-business"></a>(Facultatif) Déploiement d’un groupe de réponse vérifier dans Skype pour les entreprises
  

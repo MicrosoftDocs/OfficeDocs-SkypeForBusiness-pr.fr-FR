@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Une application approuvée est une application basée sur le Kit de développement Microsoft Unified Communications Managed API (UCMA) 3.0 Core approuvé par Skype pour Business Server.
 ms.openlocfilehash: 3ca8621148a4b6ce3530f23a61312f63f3d3cd30
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882141"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214672"
 ---
 # <a name="manage-trusted-applications-in-skype-for-business-server"></a>Gérer les applications approuvées dans Skype pour Business Server
 

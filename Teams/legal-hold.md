@@ -15,11 +15,11 @@ description: Découvrez comment placer un utilisateur ou une équipe Microsoft 
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: eec053649cedfa3e29738dd1679d88b43ee54770
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461603"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32233045"
 ---
 <a name="place-a-microsoft-teams-user-or-team-on-legal-hold"></a>Placer un utilisateur ou une équipe Microsoft Teams en conservation légale
 ==================================================
@@ -30,7 +30,7 @@ Pour placer un utilisateur ou une équipe en conservation légale, accédez au [
 > Placer un utilisateur en conservation n'implique pas automatiquement le placement d'un groupe en conservation, et inversement.
 
 > [!IMPORTANT]
-> Lorsqu'un utilisateur ou un groupe est placé en conservation, toutes les copies de message seront conservées. Exemple : Clay a publié un message dans un canal, puis l'a modifié. Dans un scénario de conservation, les deux copies du message sont conservées. Sans la conservation légale, seul le dernier message est conservé.
+> Lorsqu’un utilisateur ou un groupe est mis en attente, toutes les copies du message sont conservés. Exemple : Clay a publié un message dans un canal, puis l'a modifié. Dans un scénario de conservation, les deux copies du message sont conservées. Sans la conservation légale, seul le dernier message est conservé.
 
 
 

@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: cc6a656a-6043-4b9b-85c2-5708b9bb1c06
 description: Déployer E9-1-1 dans Skype pour Business Server Enterprise Voice. Cela Inclut les conditions préalables et la liste de vérification de la procédure de déploiement.
 ms.openlocfilehash: b24bdfdd40787c8be57b541f3a163e3c21f3012a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888646"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223126"
 ---
 # <a name="deploy-emergency-services-in-skype-for-business-server"></a>Déployer des services d’urgence dans Skype pour Business Server
  

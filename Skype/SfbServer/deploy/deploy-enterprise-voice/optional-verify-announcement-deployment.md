@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: 54da13fb-cf5e-40d0-88fb-aee1658f67eb
 description: Vérification de votre déploiement d’application d’annonce dans Skype pour Business Server Enterprise Voice. Cela affecte le traitement des appels à des numéros non attribués.
 ms.openlocfilehash: 8f20c9d35a8349c0e02af7a5c3d67532ec2d9236
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896308"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225638"
 ---
 # <a name="optional-verify-announcement-deployment-in-skype-for-business"></a>(Facultatif) Vérifier le déploiement des annonces dans Skype pour les entreprises
  

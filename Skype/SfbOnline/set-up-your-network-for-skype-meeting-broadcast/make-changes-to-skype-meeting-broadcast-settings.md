@@ -20,11 +20,11 @@ ms.custom:
 - SMB
 description: Vous pouvez activer la diffusion de réunion Skype et apporter des modifications aux paramètres et les stratégies pour les réunions.
 ms.openlocfilehash: 7145f246ff7b3b6edbcae84f2ca2f5bc381ea501
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23851702"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226273"
 ---
 # <a name="make-changes-to-skype-meeting-broadcast-settings-for-your-organization"></a>Modifier les paramètres de diffusion de réunion Skype pour votre organisation
 
@@ -40,7 +40,7 @@ Vous pouvez activer la diffusion de réunion Skype et apporter des modifications
     
 - **Support technique en charge d’URL pour les participants** Entrez un lien pour les participants de diffusion à utiliser s’ils ont besoin d’aide pour se connecter ou participation à une réunion de diffusion.
     
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Configurer votre réseau pour la diffusion de réunion Skype](set-up-your-network-for-skype-meeting-broadcast.md)
 

@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 49dc1a92-970b-4372-a3a2-2c714a52b1c3
 description: Le serveur Office Web Apps Server fournit des services similaires au téléchargement d’un document par un présentateur, qui sera utilisé lors d’une réunion, et comporte des fonctions supplémentaires qui n’existaient pas dans les versions antérieures.
 ms.openlocfilehash: 925a27d4b1ddffd40038f71b5cc9d7a3404efba3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897558"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227388"
 ---
 # <a name="associate-front-end-with-office-web-apps-server-page"></a>Page Associer un pool frontal à Office Web Apps Server
 

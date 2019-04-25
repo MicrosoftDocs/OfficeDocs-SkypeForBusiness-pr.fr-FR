@@ -12,14 +12,15 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-appliesto: Microsoft Teams
+appliesto:
+- Microsoft Teams
 description: Découvrez ce qui est nécessaire pour migrer vers routage Direct à partir d’un Skype pour Business en ligne et la perspective de configuration d’équipes.
-ms.openlocfilehash: 46533a17ced1bfaf808bcc5b17e4dd8f2e73ef51
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 995883bd6f62607cd156f82e2c86255bab182303
+ms.sourcegitcommit: ee3f79ce1b6da0885e1096f9fba894bcff1814da
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32233522"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33298643"
 ---
 # <a name="migrate-to-direct-routing"></a>Migrer vers un routage direct
 

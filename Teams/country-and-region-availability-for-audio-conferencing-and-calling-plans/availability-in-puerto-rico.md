@@ -26,11 +26,11 @@ ms.custom:
 - Calling Plans
 description: Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour Porto Rico.
 ms.openlocfilehash: 8a245f67e4542f532ec7282abaea429a0a3b95f5
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542830"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32232705"
 ---
 # <a name="availability-in-puerto-rico"></a>Disponibilité à Puerto Rico
 
@@ -60,7 +60,7 @@ Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
 |Les forfaits d'appels sont-ils disponibles à l'achat ?  <br/> |Oui  <br/> |
-|Minutes disponibles pour les forfaits d'appels  <br/> |3000 minutes nationales ou 600 minutes internationales (en fonction de ce qui arrive en premier par mois civil). Les appels nationaux aux États-Unis incluent ceux à destination de l'ensemble des 50 États des États-Unis et de Porto Rico. Les utilisateurs ayant reçu l'emplacement d'utilisation sous licence des États-Unis et/ou de Porto Rico partagent le même nombre de minutes.  <br/> |
+|Minutes disponibles pour les forfaits d'appels  <br/> |3000 minutes nationales ou 600 minutes internationales (en fonction de ce qui arrive en premier par mois civil). Appel interne États-Unis comprend des appels à tous les États US 50 et Porto Rico. Les utilisateurs affectés à l’emplacement de l’utilisation de licence des États-Unis et/ou Porto Rico partagent le même pool de minutes.  <br/> |
 |Peut passer des appels sortants vers les numéros ? <br/> | Non pris en charge pour l’instant. <br/> |
 |Est-il possible de passer des appels sortants ?  <br/> | Vers 196 pays, dont [ :](users-can-make-outbound-calls-to-these-countries-and-regions.md).  <br/> |
    
@@ -68,7 +68,7 @@ Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft
 
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
-|Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?  <br/> |San Juan  <br/> |
+|Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?  <br/> |SAN Juan  <br/> |
 |Les numéros payants sont-ils disponibles ?  <br/> |Oui  <br/> |
 |Les numéros gratuits sont-ils disponibles ?  <br/> |Oui  <br/> |
    

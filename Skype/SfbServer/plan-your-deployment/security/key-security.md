@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: bf2a3b8f-73c6-47e1-8c9e-ca1dc1a502bf
 description: Skype pour Business Server inclut plusieurs fonctionnalités de sécurité, notamment l’authentification serveur à serveur, le contrôle d’accès basé sur un rôle et le stockage centralisé des données de configuration.
 ms.openlocfilehash: 5a0a82800be8158b6d54e4e01e7609d3e6b3714d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894279"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213605"
 ---
 # <a name="key-security-features-in-skype-for-business-server"></a>Fonctionnalités de sécurité clés dans Skype pour Business Server
  

@@ -19,11 +19,11 @@ ms.custom:
 - PowerShell
 description: Utiliser PowerShell pour gérer les fonctionnalités de la messagerie unifiée Exchange tels que le standard automatique et accès abonné et messagerie vocale hébergée dans Skype pour Business Online.
 ms.openlocfilehash: 02fda8c315807899983741f94c1f825de1ebf1a9
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873510"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32224397"
 ---
 # <a name="manage-exchange-unified-messaging-and-hosted-voicemail"></a>Gérer la messagerie unifiée Exchange et la messagerie vocale hébergée
 
@@ -39,7 +39,7 @@ Les applets de commande suivantes peuvent être utilisées pour gérer la messag
 | [Get-CsExUmContact](https://go.microsoft.com/fwlink/p/?linkid=849628) <br/><br/> [New-CsExUmContact](https://go.microsoft.com/fwlink/p/?linkid=849629) <br/> <br/>[Remove-CsExUmContact](https://go.microsoft.com/fwlink/p/?linkid=849630) <br/> <br/>[Set-CsExUmContact](https://go.microsoft.com/fwlink/p/?linkid=849631) <br/> | Crée et gère les objets contacts utilisés pour les services de standard automatique et accès abonné, lors de la messagerie unifiée Exchange est un service hébergé.  <br/><br/> Skype pour Business Online fonctionne avec la messagerie unifiée Exchange pour fournir plusieurs fonctionnalités vocales, y compris l’accès abonné et standard automatique. Standard automatique fournit un moyen d’appels automatiquement une réponse et acheminé à la bonne personne. L’accès abonné permet aux utilisateurs de se connecter à la messagerie unifiée Exchange et extraire le courrier électronique, les messages vocaux, les contacts et les informations de calendrier.  <br/><br/> Lorsque la messagerie unifiée Exchange est fournie en tant que service hébergé, les objets contacts utilisés pour les services de standard automatique et accès abonné doivent être créés à l’aide de Microsoft PowerShell. Ces objets sont créés et gérés à l’aide des applets de commande **CsExUmContact** . <br/> |
 | [Get-CSHostedVoicemailPolicy](https://go.microsoft.com/fwlink/p/?linkid=849633) <br/> <br/>[Grant-CSHostedVoicemailPolicy](https://go.microsoft.com/fwlink/p/?linkid=849602) <br/>                                                                                                                                                | Gère les stratégies de messagerie vocale hébergée utilisées dans l’organisation. Stratégies de messagerie vocale hébergée spécifient comment sans réponse les appels sont routés vers le service de messagerie unifiée Exchange. Ces stratégies affectent uniquement les utilisateurs qui ont été activés pour la messagerie vocale de la messagerie unifiée Exchange hébergé.  <br/><br/> Pour vérifier si un utilisateur est activé pour la messagerie vocale hébergée, exécutez une commande semblable à ce qui suit à l’invite de PowerShell.  <br/> \`Get-CsOnlineUser-Identity « kenmyer@litwareinc.com »                                                                                                                                                                                                                                                                                                                                                           |
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 [Configurer votre ordinateur pour Skype pour la gestion en ligne à l’aide de Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
   

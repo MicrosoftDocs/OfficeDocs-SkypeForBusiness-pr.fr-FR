@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: e69ac58c-e8fe-40bc-a4c8-f0a0190fbaa7
 description: Consultez cette rubrique pour consulter les facteurs de planification pour implémenter la déviation du trafic multimédia avec les versions 2.0 et suivantes de Cloud Connector. Pour plus d’informations sur le déploiement de médias contournement de média, voir Deploy multimédia dans le nuage connecteur Edition de contournement.
 ms.openlocfilehash: 6ddaec00925d5eea7d7c82d89f0324958c87abb9
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896020"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238825"
 ---
 # <a name="plan-for-media-bypass-in-cloud-connector-edition"></a>Planification de la déviation du trafic multimédia dans la version Cloud Connector
  

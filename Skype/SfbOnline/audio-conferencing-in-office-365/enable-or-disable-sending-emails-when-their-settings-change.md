@@ -21,11 +21,11 @@ ms.custom:
 - Audio Conferencing
 description: 'Learn how to enable or disable Skype from sending emails to users when settings such as pin changes or the default conferencing number changes. '
 ms.openlocfilehash: a9100de01fc835916af54d08b84dbd03a06ec1d6
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370872"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229816"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-skype-for-business-online"></a>Activer ou désactiver l’envoi de messages électroniques lorsque les paramètres de conférence Audio changent dans Skype pour Business Online
 
@@ -59,7 +59,7 @@ Voici un exemple du courrier électronique qui est envoyé aux utilisateurs lors
 
 ## <a name="enable-or-disable-email-from-being-sent-to-users"></a>Activer ou désactiver la messagerie d’être envoyés aux utilisateurs
 
-Activation ou désactivation de l'envoi de messages électroniques aux utilisateurs d'appels entrants
+Vous pouvez utiliser la Skype entreprise centre d’administration ou de Windows PowerShell pour activer ou désactiver le courrier envoyé aux utilisateurs.
 
  
 ![SFB-logo-30x30.png](../images/sfb-logo-30x30.png) **à l’aide de la Skype entreprise centre d’administration**
@@ -76,7 +76,7 @@ Activation ou désactivation de l'envoi de messages électroniques aux utilisate
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
-**Utilisation de Windows PowerShell**
+**Reportez-vous à la rubrique **Envoyer un message électronique à un utilisateur avec leurs informations de conférence Audio**.**
   
 - Exécutez la procédure suivante pour désactiver l’envoi de messages électroniques : 
     
@@ -121,7 +121,7 @@ Activation ou désactivation de l'envoi de messages électroniques aux utilisate
     > [!NOTE]
     > Le module Windows PowerShell pour Skype Entreprise Online permet de créer une session Windows PowerShell à distance qui se connecte à Skype Entreprise Online. Ce module est pris en charge uniquement sur les systèmes 64 bits. Il peut être téléchargé à partir du Centre de téléchargement Microsoft accessible à l'emplacement suivant : [Module Windows PowerShell pour Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=294688).
   
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Messages électroniques envoyés aux utilisateurs lorsque modifient leurs paramètres de conférence Audio](emails-sent-to-users-when-their-settings-change.md)
 

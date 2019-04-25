@@ -19,11 +19,11 @@ ms.custom:
 - Setup
 description: Skype pour Business Online vous permet de créer des stratégies d’accès externe supplémentaires. Contrairement aux stratégies de client ou de conférence, où vous pouvez avoir plusieurs combinaisons, il existe trois stratégies d’accès externe prédéfini qui peuvent couvrir la plupart des scénarios.
 ms.openlocfilehash: b368c7d30e74225f7808f9f3728691040e75016f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878776"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237527"
 ---
 # <a name="create-custom-external-access-policies"></a>Créer des stratégies d'accès externe personnalisées
 
@@ -110,7 +110,7 @@ Pour ce faire, exécutez :
     
   - [Utilisation de Windows PowerShell pour effectuer les tâches de gestion courantes de Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 [Bloquer les transferts de fichiers de point à point](block-point-to-point-file-transfers.md)
 
 [Configurer les stratégies client pour votre organisation](set-up-client-policies-for-your-organization.md)

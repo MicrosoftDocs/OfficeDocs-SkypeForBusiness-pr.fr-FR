@@ -22,13 +22,13 @@ f1keywords:
 - ms.lync.lac.VASAMissingGeoCodes
 ms.custom:
 - Calling Plans
-description: Les instructions pour obtenir des numéros de téléphone pour les utilisateurs de Skype Entreprise et Microsoft Teams sont différentes selon le pays ou la région. Suivez le lien d’accès à votre pays ou région ci-dessous pour obtenir les informations nécessaires.
+description: Each country or region has different instructions for getting phone numbers for users in Skype for Business Online and Microsoft Teams. Follow the link to your country or region below to get the information you need.
 ms.openlocfilehash: dd4bb74172736ae3b82bef00a4b4b11c7285ee1f
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30543126"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245277"
 ---
 # <a name="manage-phone-numbers-for-your-organization"></a>Gérer les numéros de téléphone de votre organisation
 Il existe trois façons d’obtenir les numéros d'utilisateur et service (payants et gratuits) pour votre organisation.
@@ -37,7 +37,7 @@ Il existe trois façons d’obtenir les numéros d'utilisateur et service (payan
 - Transférez-nous, par exemple par « portage », vos numéros existants.
 
 > [!IMPORTANT]
-> Dans **Belgique, Irlande, Allemagne et les pays-bas**, vous ne peuvent pas obtenir les nouveaux numéros de téléphone téléphone à l’aide de la **Skype entreprise centre d’administration**; Vous devez télécharger et remplir un formulaire. Pour les nouveaux numéros de téléphone en Australie, voir [Services de téléphonie Telstra](https://aka.ms/TelstraVoicePlan).
+> In **Belgium, Ireland, Germany, and the Netherlands**, you can't get phone new phone numbers using the **Skype for Business admin center**; you have to download and fill out a form. For new phone numbers in Australia, see [Telstra Voice Services](https://aka.ms/TelstraVoicePlan).
 
 ***
 Si vous connaissez les types de formulaires que vous cherchez, utilisez la liste déroulante pour sélectionner la pays / la région pour lequel/laquelle vous souhaitez obtenir des numéros.
@@ -53,7 +53,7 @@ Si vous connaissez les types de formulaires que vous cherchez, utilisez la liste
 > - [Pays-Bas](phone-number-management-for-the-netherlands.md)
 > - [Espagne](phone-number-management-for-spain.md)
 > - [Royaume-Uni](phone-number-management-for-the-u-k.md)
-> - [États-Unis (Porto Rico)](phone-number-management-for-the-u-s.md)
+> - [US (Porto Rico)](phone-number-management-for-the-u-s.md)
 
 ***
 ## <a name="heres-a-bit-more-information-about-these-number-request-forms"></a>Voici un peu plus d’informations sur les formulaires de demande de numéro
@@ -62,29 +62,29 @@ Chaque pays ou région a des instructions différentes, différents types de num
 
 Parfois (en fonction de votre pays/région) vous ne pourrez pas obtenir le nouvel utilisateur (abonné) ou service (numéro payant ou gratuit) nombres à l’aide de la **Skype entreprise centre d’administration**, ou vous devrez peut-être numéros de téléphone spécifiques ou les codes de zone.
 
-Dans ce cas, vous devez télécharger le formulaire PDF (par pays/région et type de numéros) et nous l’envoyer. Notre service d’assistance prendra à partir de là et vous permettent de savoir à propos de l’état d’avancement ou votre commande.
+If so, you will need to download the correct PDF form (per country/region and the type of numbers) and send it back to us. Our service desk will take it from there and will let you know about the progress or your order.
 
 ### <a name="letters-of-authorization-loas-for-transferring-numbers"></a>Lettres de l’autorisation (LA) pour le transfert de numéros
-Si vous devez transférer des numéros de téléphone, vous devez télécharger une **Lettre d’autorisation (LA)**, qui nous donne l’autorisation de demander, en votre nom, le transfert de numéro(s) existant(s) à partir d’un autre fournisseur de services en cas de litige. Utilisez une lettre d’autorisation, si vous avez :
+If you need to transfer phone numbers, you'll to download a **Letter of Authorization (LOA)**, which gives us permission to request, on your behalf, transferring the existing number(s) from a different service provider in case of a dispute. Use an LOA if you have:
 - Des numéros d’utilisateur chez un autre prestataire.
 - Des numéros de service (payants) de ponts de conférence audio, de standards automatiques ou de files d’attente d’appel.
 - Des numéros de service (gratuits).
 - Si vous devez transférer plus de 999 numéros de téléphone d'utilisateurs, mais n'y parvenez pas à l'aide de l' **Assistant de portage de numéros locaux** du centre d’administration dans le Skype entreprise.
 
 ## <a name="if-you-still-need-help-and-arent-sure-what-to-do"></a>Si vous avez besoin d’aide et ne savez pas comment faire...
-Si vous avez besoin d’aide, faites nous savoir comment nous pouvons vous aider. Dans votre demande d’aide, mentionnez des détails tels que votre ID d’organisation, vos domaines, les types de numéros pour lesquels vous avez besoin d'assistance, le nombre de numéros que vous souhaitez obtenir, l'administrateur du compte et les détails importants concernant votre problème.
+If you still need help, please let us know how we can help you. In your Help request, include details such as your organization ID, domains, what types of numbers you need help with, how many numbers you want, authorizing person on the account and other important details about your issue.
 - Pour obtenir de l'assistance pour des numéros de téléphone au sein des États-Unis, [envoyez votre demande ici](mailto:ptn@microsoft.com).
 - Pour obtenir de l'assistance pour des numéros de téléphone en dehors des États-Unis, [envoyez votre demande ici](mailto:ptneu@microsoft.com).
 
 #### <a name="additional-resources"></a>Ressources supplémentaires :
-- Pour savoir si des forfaits d’appels sont disponibles dans votre pays ou région, consultez la rubrique [Disponibilité des forfaits d'appels et d'audioconférence selon les régions et les pays](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-- Pour vous aider à sélectionner le type de numéro de téléphone dont vous avez besoin, reportez-vous à la rubrique [Différents types de numéros de téléphone utilisés pour les forfaits d'appels](../different-kinds-of-phone-numbers-used-for-calling-plans.md).
+- Pour vérifier si l’appel des Plans sont disponibles dans votre pays ou région, voir [pays et disponibilité dans la région de conférence Audio et des Plans de l’appel](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+- Pour vous aider à choisir le type de numéro de téléphone que vous avez besoin, lire les [différents types de numéros de téléphone utilisés pour les Plans de l’appel](../different-kinds-of-phone-numbers-used-for-calling-plans.md).
 - Pour plus d’informations sur l’obtention de numéros de téléphone d'utilisateurs dans le centre d’administration, lisez [Obtenir des numéros de téléphone pour vos utilisateurs](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users).
 - Pour obtenir la configuration des numéros de téléphone pour votre organisation, [contactez le support technique pour les produits métiers : aide d’administration](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
   
     
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Conditions générales relatives aux appels d'urgence](../emergency-calling-terms-and-conditions.md)
 
-[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)

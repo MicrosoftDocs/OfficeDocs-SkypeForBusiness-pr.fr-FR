@@ -19,11 +19,11 @@ ms.custom:
 - Setup
 description: Vous pouvez joindre des fichiers à un Skype pour une réunion d’affaires, les participants peuvent ensuite ouvrir et téléchargent. Fichiers joints à Skype pour les réunions d’entreprise sont conservés dans les boîtes aux lettres de n’importe quel participant de boîte aux lettres est mis en attente pour litige, qui a une stratégie de rétention Office 365 ou est placé sur une suspension associée à un cas de découverte électronique de sécurité Office 365 &amp; Centre de conformité. Ce contenu est enregistré dans les dossiers d’éléments récupérables des participants dans leurs boîtes aux lettres.
 ms.openlocfilehash: f9a18aaf556427ccc1fad2700b40f40ff057be6a
-ms.sourcegitcommit: baa4ecf69bdcf499b5b724246f3e9f45c6ca3b7b
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/08/2018
-ms.locfileid: "25450455"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237517"
 ---
 # <a name="retaining-large-files-attached-to-a-skype-for-business-meeting"></a>Conservation des fichiers volumineux attachés à un Skype pour la réunion d’entreprise
 
@@ -36,7 +36,7 @@ Fichiers qui sont conservés dans les boîtes aux lettres en attente sont index�
   
 Boîtes aux lettres qui ne sont pas en attente n’auront pas toutes les données réunion enregistrées. Par exemple, dans une réunion de trois personnes dans, dont les boîtes aux lettres de deux participants sont marqués pour la conservation des données de la réunion sont enregistrées dans les boîtes aux lettres de ces deux participants, mais pas la boîte aux lettres du troisième participant, boîte aux lettres n’est pas sur Maintenez.
   
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 [Créer des stratégies d'accès externe personnalisées](create-custom-external-access-policies.md)
 
 [Bloquer les transferts de fichiers de point à point](block-point-to-point-file-transfers.md)

@@ -3,7 +3,7 @@ title: Activation et utilisation du tableau de bord de qualité des appels
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
-ms.reviewer: mikedav, wlooney, gageames
+ms.reviewer: mikedav, siunies, gageames
 ms.topic: article
 ms.assetid: 553fa13c-92d2-4d5c-a3d5-41a073cb047c
 ms.tgt.pltfrm: cloud
@@ -23,12 +23,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Découvrez comment activer et utiliser le Skype pour Business Online Dashboard qualité des appels et obtenir des rapports de synthèse de la qualité des appels. '
-ms.openlocfilehash: 38332fdcf8cb2f5e1f26d45b67d85dc17610a42d
-ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
+ms.openlocfilehash: bfbca275afb6da9dbe0f809906e6053f87e960e8
+ms.sourcegitcommit: ee3f79ce1b6da0885e1096f9fba894bcff1814da
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "31026236"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33298667"
 ---
 # <a name="turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Activation et à l’aide de tableau de bord qualité d’appel pour Microsoft Teams et Skype pour Business Online
 
@@ -73,7 +73,21 @@ Avant de pouvoir commencer à l’aide de la CQD, vous devez l’activer pour vo
      ![Connexion CQD](media/ac4c1699-d8c1-4bda-af30-0fec35b5fd22.png)
   
 Après que vous être connecté, une fois activée, la CQD commencera collecte et traitement des données.
+
+![les équipes-logo-30x30.png](media/teams-logo-30x30.png) **à l’aide du centre d’administration Microsoft équipes**
+ 
+1. Connectez-vous à votre organisation Office 365 à l’aide du compte d’administrateur de service Microsoft Teams, puis sélectionnez la vignette **Admin** pour ouvrir le centre d’administration.
+    
+2. Dans le volet gauche, sous **Centre d’administration**, sélectionnez **Les équipes Microsoft** pour ouvrir le centre d’administration Microsoft Teams.
+    
+3. Dans le centre d’administration Microsoft Teams, sélectionnez **tableau de bord qualité des appels** dans le volet gauche.
+    
   
+4. Dans la page qui s’ouvre, connectez-vous avec votre compte d’administrateur Global ou le compte d’administrateur du Service Microsoft équipes, puis fournissez les informations d’identification du compte lorsque vous y êtes invité.
+    
+     ![Connexion CQD](media/ac4c1699-d8c1-4bda-af30-0fec35b5fd22.png)
+  
+Après que vous être connecté, une fois activée, la CQD commencera collecte et traitement des données.  
 > [!NOTE]
 > Il peut prendre quelques heures à traiter suffisamment de données pour afficher des résultats pertinents dans les rapports. 
   
@@ -85,17 +99,18 @@ Les rapports de synthèse CQD fournissent un sous-ensemble des fonctionnalités 
 |**Fonctionnalité**|**Rapports de synthèse**|**Rapports détaillés**|
 |:-----|:-----|:-----|
 |Mesure de partage d’application  <br/> |Non  <br/> |Oui  <br/> |
-|Prise en charge des informations de création de client  <br/> |Oui  <br/> |Oui   <br/> |
+|Prise en charge des informations de création de client  <br/> |Oui  <br/> |Oui  <br/> |
+|Prise en charge des informations de point de terminaison client  <br/> |Qu’en cqd.teams.microsoft.com  <br/> |Qu’en cqd.teams.microsoft.com  <br/> |
 |Prise en charge de l’analyse de l’exploration  <br/> |Non  <br/> |Oui  <br/> |
 |Mesures de la fiabilité du média  <br/> |Non  <br/> |Oui  <br/> |
-|Rapports out-of-the-box  <br/> |Oui  <br/> |Oui   <br/> |
-|Vue d’ensemble des rapports  <br/> |Oui  <br/> |Oui   <br/> |
+|Rapports out-of-the-box  <br/> |Oui  <br/> |Oui  <br/> |
+|Vue d’ensemble des rapports  <br/> |Oui  <br/> |Oui  <br/> |
 |Jeu de rapports par utilisateur  <br/> |Non  <br/> |Oui  <br/> |
 |Rapport définie personnalisation (ajouter, supprimer, modifier des rapports)  <br/> |Non  <br/> |Oui  <br/> |
 |Partage des mesures d’écran vidéo  <br/> |Non  <br/> |Oui  <br/> |
 |Mesures vidéo  <br/> |Non  <br/> |Oui  <br/> |
 |Quantité de données disponibles  <br/> |6 derniers mois  <br/> |6 derniers mois  <br/> |
-|Données Microsoft Teams  <br/> |Oui  <br/> |Oui   <br/> |
+|Données Microsoft Teams  <br/> |Oui  <br/> |Oui  <br/> |
    
 ### <a name="out-of-the-box-reports"></a>Rapports out-of-the-box
 
@@ -174,20 +189,22 @@ Dans le résumé et emplacement améliorée des rapports, vous pouvez utiliser l
   
 Dans des rapports détaillés, vous pouvez utiliser la dimension **Équipes est** pour filtrer les données à Microsoft Teams ou Skype pour les données métiers en ligne dans le cadre de la définition du rapport.
   
-## <a name="upload-building-information"></a>Informations de création de téléchargement
-<a name="BKMKBuildingInformationUpload"></a>
+## <a name="upload-tenant-data-information"></a>Téléchargement de données client
+<a name="BKMKTenantDataInformationUpload"></a>
 
-Le tableau de bord des rapports de synthèse CQD comprend une page **De téléchargement de données client** , accédée en sélectionnant le **Téléchargement des données client** dans le menu Paramètres dans le coin supérieur droit. Cette page est utilisée pour les administrateurs de télécharger leurs propres informations, telles que le mappage des informations géographiques, adresse IP et le mappage de chaque point d’accès sans fil et son adresse MAC, etc..
+Le tableau de bord des rapports de synthèse CQD comprend une page **De téléchargement de données client** , accédée en sélectionnant le **Téléchargement des données client** dans le menu Paramètres dans le coin supérieur droit. Cette page permet de télécharger leurs propres informations, telles que le mappage de l’adresse IP et les informations géographiques, le mappage de chaque point d’accès sans fil et son adresse MAC, mappage du point de terminaison au point de terminaison de création / / Type de modèle, etc. pour les administrateurs.
   
 ![Tableau de bord CQD](media/839c9ab4-0246-46c9-8402-aafd83a0bc63.png)
   
-1. Dans la page **De téléchargement de données client** , utilisez le menu déroulant pour choisir un type de fichier de données pour le téléchargement. Le type de données de fichier désigne le contenu du fichier (par exemple, « Building » fait référence à la mise en correspondance d’adresse IP et de la création ainsi que d’autres informations géographiques). Actuellement nous effectuons uniquement en charge le type de données « Création ». Quelques autres types de données seront ajoutées à des versions ultérieures.
+1. Dans la page **De téléchargement de données client** , utilisez le menu déroulant pour choisir un type de fichier de données pour le téléchargement. Le type de données de fichier désigne le contenu du fichier (par exemple, « Building » fait référence à un mappage d’adresse IP et création ainsi que d’autres informations géographiques, « Endpoint » fait référence au mappage du nom du point de terminaison au point de terminaison création / / Type de modèle... informations). Actuellement nous prennent en charge les types de données « Building » et « Endpoint » de téléchargement pour cqd.teams.microsoft.com (dans la fenêtre Aperçu et ne pouvez pas officiellement encore), prend uniquement en charge cqd.lync.com télécharger un type de données « Création ». Quelques autres types de données seront ajoutées à des versions ultérieures.
     
 2. Après avoir sélectionné le type de données de fichier, cliquez sur **Parcourir** pour choisir un fichier de données.
     
    - Le fichier de données doit être un fichier .tsv (valeurs séparées par des tabulations) ou .csv (valeurs séparées par des virgules). Si vous utilisez un fichier .csv, un champ qui contient une virgule doivent être entourées de guillemets ou que la virgule supprimée. Par exemple, si votre nom est NY, NY, dans le fichier .csv elle doit être saisie comme « NY, NY ».
     
    - Le fichier de données doit être non supérieur à 50 Mo.
+
+   - Fichier téléchargé vers cqd.teams.microsoft.com a développé la limite des lignes de 1 000 000 pour accélérer les performances des requêtes. Nous pouvons imposer cette limite sur cqd.lync.com également.
     
    - Pour chaque fichier de données, chaque colonne dans le fichier doit correspondre à un type de données prédéfini, décrit plus loin dans cette rubrique.
     
@@ -205,10 +222,11 @@ Le tableau de bord des rapports de synthèse CQD comprend une page **De téléch
     
      ![Chargement de mes CQD de table](media/4168a883-bbea-461a-80b1-42eedf2e7732.png)
   
-### <a name="tenant-data-file-format-and-building-data-file-structure"></a>Format de fichier de données client et la structure de fichier de données de création
+### <a name="tenant-data-file-format-and-structure"></a>Structure et le format de fichier de données client
 <a name="BKMKTenantDataFile"> </a>
 
-Le format du fichier de données que vous téléchargez doit répondre à la commande suivante pour transmettre le contrôle de validation avant le téléchargement.
+### <a name="building-data-file"></a>Fichier de données de création
+CQD utilise la création de fichier de données en premier dérivent de colonne sous-réseau développée réseau + NetworkRange colonne, puis rejoindre sous-réseau à la colonne du premier Subnet/Second sous-réseau de l’enregistrement d’appel pour afficher la construction/ville/pays/région... plus d’informations. Le format du fichier de données que vous téléchargez doit répondre à la commande suivante pour transmettre le contrôle de validation avant le téléchargement.
   
 - Le fichier doit être un fichier .tsv, ce qui signifie, dans chaque ligne, les colonnes sont séparées par une tabulation, ou un fichier .csv avec chaque colonne séparé par une virgule.
     
@@ -239,7 +257,35 @@ Le format du fichier de données que vous téléchargez doit répondre à la com
    
 > [!IMPORTANT]
 > La plage réseau peut être utilisée pour représenter un supernet (combinaison de plusieurs sous-réseaux avec un préfixe de routage unique). Tous les téléchargements de construction nouvelle seront vérifiées pour toutes les plages qui se chevauchent. Si vous avez déjà chargé un fichier de construction, téléchargez le fichier en cours et téléchargez de nouveau pour identifier les chevauchements et corriger le problème avant de le télécharger à nouveau. Les mappages de sous-réseaux aux bâtiments dans les rapports incorrectes peut entraîner un chevauchement des fichiers téléchargés précédemment. Certaines implémentations VPN ne signalent pas correctement les informations de sous-réseau. Il est recommandé que lors de l’ajout d’un sous-réseau de réseau privé virtuel pour la création du fichier, au lieu d’une entrée pour le sous-réseau, des entrées sont ajoutées pour chaque adresse de sous-réseau de réseau privé virtuel comme un réseau distinct de 32 bits. Chaque ligne peut avoir les mêmes métadonnées de construction. Par exemple, au lieu d’une ligne pour 172.16.18.0/24, vous devez disposer de 256 lignes, avec une ligne pour chaque adresse entre 172.16.18.0/32 et 172.16.18.255/32, inclus. 
-  
+
+### <a name="endpoint-data-file"></a>Fichier de données du point de terminaison
+CQD utilise le fichier de données du point de terminaison en joignant sa colonne EndpointName à la colonne du nom du point de terminaison Client premier Client du point de terminaison Name/Second de l’enregistrement d’appel pour afficher les informations de point de terminaison création / / Type de modèle. Le format du fichier de données que vous téléchargez doit répondre à la commande suivante pour transmettre le contrôle de validation avant le téléchargement.
+
+- Le fichier doit être un fichier .tsv, ce qui signifie, dans chaque ligne, les colonnes sont séparées par une tabulation, ou un fichier .csv avec chaque colonne séparé par une virgule.
+
+- Le contenu du fichier de données n’inclut pas les en-têtes de tableau. Cela signifie que la première ligne du fichier de données doit être des données réelles, pas les en-têtes comme « EndpointName », etc..
+
+- Pour chaque colonne, le type de données peut uniquement être chaîne et il doit avoir pas plus de 64 caractères, qui est maximal longueur autorisée.
+
+- Pour chaque colonne, les données ne peuvent être vides (mais doivent toujours être séparées par un séparateur approprié (autrement dit, un onglet ou une virgule). Cela affecte uniquement ce champ une valeur de chaîne vide.
+
+- Il doit y avoir 7 colonnes pour chaque ligne et les colonnes doivent être dans l’ordre indiqué dans le tableau suivant.
+
+- EndpointName doit être unique dans le cas contraire le transfert échoue en raison d’une ligne en double dans la mesure où elle rejoindre incorrecte.
+
+-  EndpointLabel1, EndpointLabel2, EndpointLable3 sont étiquettes personnalisable utilisateur, ils peuvent être des chaînes vides ou les utilisateurs de valeur préfèrent tel que « Informatique désigné 2018 portables », « étiquette 5678"... etc..
+
+|**Nom de la colonne**|**Type de données**|**Exemple**|
+|:-----|:-----|:-----|
+|EndpointName  <br/> |String  <br/> |1409W3534  <br/> |
+|EndpointMake  <br/> |String  <br/> |Fabrikam Inc  <br/> |
+|EndpointModel  <br/> |String  <br/> |Modèle de Fabrikam 123  <br/> |
+|EndpointType   <br/> |String  <br/> |Ordinateur portable  <br/> |
+|EndpointLabel1  <br/> |String  <br/> |IT désigné 2018 portables  <br/> |
+|EndpointLabel2  <br/> |String  <br/> |Numéro d’identification 5678  <br/> |
+|EndpointLabel3  <br/> |String  <br/> |Achat 2018   <br/> |
+
+
 ## <a name="selecting-media-type-in-detailed-reports"></a>Sélection de type de média dans des rapports détaillés
 <a name="BKMKMediaType"></a>
 
@@ -251,7 +297,7 @@ Si vous souhaitez afficher les dimensions et les mesures à prendre pour un seul
   
 ![Nombre de flux Total du tableau de bord qualité des appels.](media/21d5d0dc-2321-415e-8ef2-cea06165601c.png)
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 [Configurer l'analyse des appels Skype Entreprise](set-up-call-analytics.md)
 
 [Permet de résoudre les problèmes de qualité médiocre appel Analytique d’appel](use-call-analytics-to-troubleshoot-poor-call-quality.md)

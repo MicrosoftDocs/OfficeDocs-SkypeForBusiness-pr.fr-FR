@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Utilisez les procédures décrites dans cet article pour activer ou désactiver le contournement de média à l’aide de la Skype pour le panneau de configuration serveur Business.
 ms.openlocfilehash: eebbc111f0d205be8dced9ec8ddb5150deff8119
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874285"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226241"
 ---
 # <a name="enabling-and-disabling-media-bypass-in-skype-for-business-server"></a>Activation et désactivation du contournement de média dans Skype Entreprise Server
 

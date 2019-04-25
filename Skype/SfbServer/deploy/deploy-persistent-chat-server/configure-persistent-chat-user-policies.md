@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: e5862480-95f8-4d76-a2b5-940cd995e93c
 description: 'Résumé : Lisez cette rubrique pour savoir comment créer des stratégies utilisateur initial for Persistent Chat Server dans Skype pour Business Server 2015. Les stratégies utilisateur Chat permanentes déterminent si les utilisateurs sont autorisés à accéder aux salles de conversation.'
 ms.openlocfilehash: e082898d92e622827e2543316b07a8be224c56c3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883706"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225454"
 ---
 # <a name="configure-persistent-chat-user-policies-in-skype-for-business-server-2015"></a>Configuration des stratégies utilisateur de conversation permanente dans Skype Entreprise Server 2015
  

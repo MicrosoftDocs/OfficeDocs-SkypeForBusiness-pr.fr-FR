@@ -22,11 +22,11 @@ ms.custom:
 - Calling Plans
 description: 'Découvrez que faire si votre opérateur n’est pas répertorié dans Skype pour les entreprises. '
 ms.openlocfilehash: 638d222231ca0f092684ebde2fab74cc034af70c
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372829"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229651"
 ---
 # <a name="what-if-my-phone-carrier-isnt-listed-as-the-source-carrier"></a>Qu’en est-il si mon opérateur de téléphonie n’est pas répertorié en tant qu’opérateur source ?
 
@@ -47,7 +47,7 @@ Voici un exemple :
 
 [Conditions générales relatives aux appels d'urgence](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

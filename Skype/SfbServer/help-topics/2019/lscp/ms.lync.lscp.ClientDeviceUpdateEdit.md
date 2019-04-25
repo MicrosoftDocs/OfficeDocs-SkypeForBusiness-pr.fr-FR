@@ -14,11 +14,11 @@ ms.assetid: e534e6a5-fb3e-40b1-a189-fce64c42f512
 ROBOTS: NOINDEX, NOFOLLOW
 description: Vous pouvez ajouter une configuration de journal de périphérique à la page Modifier la configuration de journal qui détermine la taille maximale du cache du journal, la taille maximale du journal ou la durée pendant laquelle qu'un fichier journal sera conservé avant la purge. Vous pouvez modifier ces paramètres en fonction des besoins de votre organisation.
 ms.openlocfilehash: ac8e30dced9c5383ab88068d27a6a44444312da1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890972"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215870"
 ---
 # <a name="device-log-configuration-edit"></a>Configuration du fichier journal du périphérique : modifier
  

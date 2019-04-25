@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 24e36ea3-fb8a-45a4-b6b7-38c2e256b218
 description: 'Résumé : Découvrez comment configurer le service de conformité de serveur de conversation permanente dans Skype pour Business Server 2015.'
 ms.openlocfilehash: 8364719f7d42b0627de579c7a0aa94c1e6370c45
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886450"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222079"
 ---
 # <a name="configure-the-compliance-service-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Configuration du service de conformité du serveur de conversation permanente dans Skype Entreprise Server 2015
 

@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: ff941d0b-fb4b-47d2-b866-6d990ac66b81
 description: 'Résumé : Apprenez à vérifier, publier ou annuler les modifications de configuration routage des communications vocales dans Skype pour Business Server à l’aide de la Skype pour le panneau de configuration serveur Business.'
 ms.openlocfilehash: 9878e719234a5d7eff2e7321fa71e30c094d489a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897705"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222456"
 ---
 # <a name="publish-pending-changes-to-the-voice-routing-configuration-in-skype-for-business"></a>Publier des modifications en attente de la configuration de routage voix dans Skype pour les entreprises
  

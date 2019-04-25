@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: d8803c4f4135b620d0ab654415546a7419f9e4f1
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461931"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223091"
 ---
 ![Étapes du voyage mise à niveau, en mettant l’accent sur l’étape de préparation technique] (media/upgrade-banner-tech-readiness.png "Étapes du voyage mise à niveau, en mettant l’accent sur l’étape de préparation technique")
 
@@ -157,7 +157,7 @@ Utilisez le tableau suivant pour capturer les détails des clients et des points
 > | Quel système d’exploitation de bureau les utilisateurs utilisent-ils ? | <input type="checkbox">Windows XP <br/> <input type="checkbox">Windows 7 <br/> <input type="checkbox">Windows 8 <br/> <input type="checkbox">10 Windows <br/> <input type="checkbox">Mac (spécifier la version dans la colonne de commentaires). <br/> <input type="checkbox">Autres (Notez les informations dans la colonne commentaires.) | |
 > | Quelle version de Microsoft Office est déployée. <br>pour ces périphériques ? | <input type="checkbox">Office 2003 <br/> <input type="checkbox">Office 2007 <br/> <input type="checkbox">Office 2010 <br/> <input type="checkbox">Office 2013 <br/> <input type="checkbox">Office 2016 <br/> <input type="checkbox">Office pour Mac 2011 <br/> <input type="checkbox">Office pour Mac 2016 <br/> <input type="checkbox">Autres (Notez les informations dans la colonne commentaires.) | |
 > | La technologie de déploiement d’Office est en cours d’utilisation <br>dans votre organisation ? | <input type="checkbox">MSI <br/> <input type="checkbox">Click-to-Run | |
-> | Que sont les autorisés et pris en charge mobile <br>plateformes en cours d’utilisation ? <br/>Sélectionnez toutes les cases qui s’appliquent. | <input type="checkbox">Windows <br/> <input type="checkbox"> Mobile <br/> <input type="checkbox">iOS <br/> <input type="checkbox">Android <br/> <input type="checkbox">Autres (Notez les informations dans la colonne commentaires.) | |
+> | Que sont les autorisés et pris en charge mobile <br>plateformes en cours d’utilisation ? <br/>Sélectionnez toutes les cases qui s’appliquent. | <input type="checkbox">Windows <br/> <input type="checkbox">Mobile <br/> <input type="checkbox">iOS <br/> <input type="checkbox">Android <br/> <input type="checkbox">Autres (Notez les informations dans la colonne commentaires.) | |
 > | Comment les appareils mobiles sont-ils fournis ? <br/>Sélectionnez toutes les cases qui s’appliquent. | <input type="checkbox">Périphériques de l’entreprise <br/> <input type="checkbox">Mettre votre propre périphérique | |
 > | Quels appareils faire les utilisateurs actuellement utilisés pour accéder à <br>services de voix et de conférence <br>(téléphones, casques, téléphones, vidéo) ? | | |
 

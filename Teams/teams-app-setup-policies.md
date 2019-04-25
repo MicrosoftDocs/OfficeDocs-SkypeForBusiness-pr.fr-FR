@@ -19,16 +19,17 @@ search.appverid: MET150
 description: Découvrez les stratégies d’installation des applications dans Microsoft Teams et comment les utiliser pour les applications de code confidentiel pour personnaliser les équipes pour les utilisateurs de votre organisation.
 f1keywords:
 - ms.teamsadmincenter.apppolicies.setup
-ms.openlocfilehash: 7e4eaf604c075f8ab95cd40ec7588515c428360c
-ms.sourcegitcommit: 9bb2bfd09ca279752dbedf17911ea46568649c4a
+ms.openlocfilehash: b38a381e95855380e017050441885474934cbe8f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/09/2019
-ms.locfileid: "31749748"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227236"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Gérer les stratégies de mise en application dans Microsoft Teams
 
-> [!INCLUDE [preview-feature](includes/preview-feature.md)]
+> [!NOTE]
+> Si vous avez activé le paramètre de stratégie d’autorisation application à l’échelle de l’organisation, **Autoriser l’interaction avec des applications personnalisées**, vous ne pouvez pas voir stratégies encore dans le centre d’administration Microsoft Teams le programme d’installation des applications. Elle est actuellement déployée et sera disponible prochainement dans votre organisation.
 
 En tant qu’administrateur, vous pouvez utiliser des stratégies d’application du programme d’installation pour personnaliser Microsoft Teams pour mettre en surbrillance les applications qui sont importantes pour vos utilisateurs. Vous choisissez applications pour épingler et définir l’ordre dans lequel ils apparaissent. Stratégies d’application du programme d’installation vous permettent de présenter les applications nécessitant des utilisateurs de votre organisation, y compris celles créées par des tiers ou par les développeurs dans votre organisation. Vous pouvez également utiliser des stratégies de paramétrage d’application pour gérer les fonctionnalités intégrées comment s’affichent.
 
@@ -40,12 +41,12 @@ Les applications sont épinglées sur la barre de l’application. Il s’agit d
 
 Gérer les stratégies d’installation des applications dans le centre d’administration Microsoft Teams. Vous pouvez utiliser la stratégie globale (valeur par défaut à l’échelle de l’organisation) ou créer des stratégies personnalisées et les attribuer aux utilisateurs. Les utilisateurs dans votre organisation reçoivent automatiquement la stratégie globale, sauf si vous créez et attribuez une stratégie personnalisée.
 
-Vous pouvez modifier les paramètres de la stratégie globale pour inclure les applications que vous souhaitez. Si vous souhaitez personnaliser les équipes pour différents groupes d’utilisateurs de votre organisation, créer et affecter une ou plusieurs stratégies personnalisées.
+Vous pouvez modifier les paramètres de la stratégie globale pour inclure les applications que vous souhaitez. Si vous souhaitez personnaliser les équipes pour différents groupes d’utilisateurs de votre organisation, créer et affecter une ou plusieurs stratégies personnalisées. Si un utilisateur est affecté à une stratégie personnalisée, cette stratégie s’applique à l’utilisateur. Si un utilisateur n’est pas attribué une stratégie personnalisée, la stratégie globale s’applique à l’utilisateur.
 
 ![le programme d’installation-application-policies.png](media/app-setup-policies.png)
 
 > [!NOTE]
-> Si un utilisateur est affecté à une stratégie personnalisée, cette stratégie s’applique à l’utilisateur. Si un utilisateur n’est pas attribué une stratégie personnalisée, la stratégie globale s’applique à l’utilisateur.
+> Si vous avez des équipes pour l’éducation, il est important de savoir que l’application d’affectations est épinglée par défaut dans la stratégie globale, même si actuellement, il ne se qu'affiche dans la stratégie globale. Il s’agit de l’application dans la liste des applications épinglées sur les clients des équipes quatrième.
 
 ## <a name="create-a-custom-app-setup-policy"></a>Créer une stratégie du programme d’installation d’application personnalisée
 
@@ -172,7 +173,7 @@ Actuellement, les utilisateurs peuvent modifier l’ordre de leurs applications 
 
 Assurez-vous que vous suivez les instructions du logo avant de soumettre l’application. Pour plus d’informations, voir [liste de vérification pour l’envoi du tableau de bord vendeur](https://docs.microsoft.com/microsoftteams/platform/publishing/office-store-checklist). 
 
- ## <a name="related-topics"></a>Rubriques connexes
+ ## <a name="related-topics"></a>Voir aussi
 - [Paramètres d'administration pour les applications dans Microsoft Teams](admin-settings.md)
 - [Gérer les stratégies d’autorisation d’application dans Teams](teams-app-permission-policies.md)
 - [Gérer les stratégies d’application personnalisée et les paramètres dans Teams](teams-custom-app-policies-and-settings.md)

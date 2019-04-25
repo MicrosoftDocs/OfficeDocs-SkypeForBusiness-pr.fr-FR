@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: fb72a5b5-70f4-44af-8dfd-c5d32e563882
 description: 'Pour modifier les propriétés pour les ordinateurs de serveur de transport Edge en tant qu’un serveur de périphérie unique ou en tant qu’ordinateurs membres d’un pool de serveurs Edge, vous configurez le nom du serveur et les paramètres de configuration d’adresses IP :'
 ms.openlocfilehash: f0125ba8d9c7ff181aff0a29f69a5077b1ad0818
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891539"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225362"
 ---
 # <a name="edge-machine-settings-expander-for-lync-server-2010"></a>Développeur des paramètres de l’ordinateur Edge pour Lync Server 2010
  

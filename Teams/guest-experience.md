@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 041bd5db6f0579a21dbdff15136e91a70e5a8d21
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30641080"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32236420"
 ---
 <a name="what-the-guest-experience-is-like"></a>À quoi ressemble l'expérience des invités
 =================================
@@ -56,19 +56,19 @@ Le tableau suivant montre les fonctionnalités de réunion et appel disponibles 
 
 | Fonctionnalité d’appel | Invités | E1 et E3 utilisateur | Utilisateur E5 et EV |
 | --------------- | ----- | -------------- | -------------- |
-| Appel VOIP | Oui | Oui  | Oui  |
-| Appel d’un groupe | Oui | Oui  | Oui  |
-| Contrôles d’appel principaux pris en charge (suspension, activé/désactivé, partage d’écran le vidéo désactiver le microphone) | Oui | Oui  | Oui  |
-| Cible de transfert | Oui | Oui  | Oui  |
-| Pouvez transférer un appel | Oui | Oui  | Oui  |
-| Peut transfert consultatif | Oui | Oui  | Oui  |
-| Peut ajouter d’autres utilisateurs à un appel VoIP | Oui | Oui  | Oui  |
+| Appel VOIP | Oui | Oui | Oui |
+| Appel d’un groupe | Oui | Oui | Oui |
+| Contrôles d’appel principaux pris en charge (suspension, activé/désactivé, partage d’écran le vidéo désactiver le microphone) | Oui | Oui | Oui |
+| Cible de transfert | Oui | Oui | Oui |
+| Pouvez transférer un appel | Oui | Oui | Oui |
+| Peut transfert consultatif | Oui | Oui | Oui |
+| Peut ajouter d’autres utilisateurs à un appel VoIP | Oui | Oui | Oui |
 | Peut ajouter des utilisateurs par numéro de téléphone à un appel | Non | Non | Oui |
-| Transférer cible | Non | Oui | Oui  |
-| Appel de groupe cible | Non | Oui | Oui  |
-| Cible sans réponse | Non | Oui | Oui  |
-| Peut être la cible d’un appel fédéré | Non | Oui | Oui  |
-| Peut émettre un appel fédéré | Non | Oui | Oui  |
+| Transférer cible | Non | Oui | Oui |
+| Appel de groupe cible | Non | Oui | Oui |
+| Cible sans réponse | Non | Oui | Oui |
+| Peut être la cible d’un appel fédéré | Non | Oui | Oui |
+| Peut émettre un appel fédéré | Non | Oui | Oui |
 | Peuvent transférer immédiatement leurs appels | Non | Non | Oui |
 | Peut faire sonner simultanément les appels | Non | Non | Oui |
 | Peut acheminer les appels sans réponse | Non | Non | Oui |
@@ -88,26 +88,26 @@ Le tableau suivant montre les fonctionnalités de réunion et appel disponibles 
 > [!NOTE]
 > Les administrateurs d'Office 365 contrôlent les fonctionnalités disponibles pour les invités. 
  
-## <a name="guest-access-vs-external-access-federation"></a>Accès invité et l’accès externe (fédération)
+## <a name="guest-access-vs-external-access-federation"></a>Accès invité et accès externe (fédération)
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
  
 ## <a name="frequently-asked-questions"></a>Forum aux questions
   
 Q. Les invités ont des mêmes fonctionnalités que les membres de l’équipe ?<br>
-A. Non Pour plus d’informations sur un rôle Invité peut et ne peut pas faire, accédez à [fonctionnalités invité dans les équipes](https://support.office.com/article/guest-capabilities-in-teams-d03fdf5b-1a6e-48e4-8e07-b13e1350ec7b).
+A. Non. Pour plus d’informations sur un rôle Invité peut et ne peut pas faire, accédez à [fonctionnalités invité dans les équipes](https://support.office.com/article/guest-capabilities-in-teams-d03fdf5b-1a6e-48e4-8e07-b13e1350ec7b).
 
 Q. Les invités combien puis-je inviter ?<br>
 A. Vous pouvez ajouter jusqu'à 5 invités par l’utilisateur sous licence.
 
 Q. Invités ont accès à OneDrive entreprise ?<br>
-A. Non
+A. Non.
 
 Q. Invités ont accès aux fichiers SharePoint ?<br>
 A. Oui.
 
 Q. Les invités peuvent rechercher dans les fichiers ?<br>
-A. Non
+A. Non.
 
 Q. Les invités peuvent joindre des fichiers ?<br>
 A. Oui, invité permettre joindre des fichiers de ces deux manières : • sélectionnez fichiers dans le volet gauche, puis accédez à l’emplacement du fichier.

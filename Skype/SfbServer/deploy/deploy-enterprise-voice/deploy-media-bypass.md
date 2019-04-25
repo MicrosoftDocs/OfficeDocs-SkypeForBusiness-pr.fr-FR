@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 1bd35f90-8587-48a1-b0c2-095a4053fc77
 description: Déployer le contournement de média dans Skype pour Business Server Enterprise Voice. Cela Inclut les conditions préalables et la liste de vérification de la procédure de déploiement.
 ms.openlocfilehash: 307c3ff66adf042a984c544a722517d2709154d0
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30872901"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223105"
 ---
 # <a name="deploy-media-bypass-in-skype-for-business-server"></a>Déployer le contournement de média dans Skype pour Business Server
  

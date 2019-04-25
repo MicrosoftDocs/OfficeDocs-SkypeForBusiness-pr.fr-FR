@@ -19,11 +19,11 @@ ms.custom:
 - SMB
 description: Learn about the Skype Meeting Broadcast feature of Skype for Business Online that enables you to schedule, produce, and broadcast meetings or events to large online audiences up to 10,000 attendees.
 ms.openlocfilehash: b29ec51ddcb672f6727f7bc43958872962245ebb
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27788974"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226161"
 ---
 # <a name="set-up-your-network-for-skype-meeting-broadcast"></a>Configurer votre réseau pour la Diffusion de réunion Skype
 
@@ -95,11 +95,11 @@ La deuxième étape du processus d’installation est vous permet d’ajouter de
 
 Si vous avez un Skype pour l’organisation d’entreprise en ligne et d’un déploiement local de Lync Server 2010, Microsoft Lync Server 2013 et Skype pour Business Server 2015 et avez des utilisateurs à la fois en ligne et sur site, il existe des autres étapes de configuration que vous devrez faire dans Outre celles ci-dessus pour permettre à votre organisation locale communiquer avec Skype pour Business Online et permettre à tous vos utilisateurs à participer à une réunion Skype de diffusion. Pour voir quelles sont les conditions requises, voir [configuration de votre déploiement sur site de diffusion de réunion Skype](https://go.microsoft.com/fwlink/?LinkId=617070).
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
-[Autoriser la diffusion de réunion Skype](enable-skype-meeting-broadcast.md)
+[Activer une diffusion de réunion Skype](enable-skype-meeting-broadcast.md)
 
-[URL et plages d'adresses IP Office 365](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)
+[URL et plages d’adresses IP Office 365](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)
 
 [Configurer Skype Entreprise Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
 

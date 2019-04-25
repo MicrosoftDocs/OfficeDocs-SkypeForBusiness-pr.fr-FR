@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 4832be7a89bbfc337fc481e213c67f69b179935e
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460251"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227582"
 ---
 # <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>Les messages électroniques exemples et enquêtes pour les communications de mise à niveau de base
 
@@ -200,7 +200,7 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 Indiquez comment qualifiés sont à effectuer les activités suivantes dans les équipes et s’il existe une ou plusieurs activités que vous souhaitez en savoir plus sur.
 
-| &nbsp; | Très bon | Quelque peu qualifiés | Pas aucune difficulté à tous | Pour en savoir plus | N/A | Pas sûr familière | | | | |
+| &nbsp; | Très bon | Quelque peu qualifiés | Pas aucune difficulté à tous | Pour en savoir plus | S/O | Pas sûr familière | | | | |
 |---|---|---|---|---|---|---|---|---|---|---|
 | Utiliser des équipes pour/conversation par messagerie instantanée avec d’autres personnes | | | | | | | | | | |
 | Utiliser des équipes pour les réunions en ligne | | | | | | | | | | |
@@ -222,7 +222,7 @@ Indiquez comment qualifiés sont à effectuer les activités suivantes dans les 
 
 **Quelle est la probabilité que vous recommandiez Teams Microsoft à un ami/collègue ? (0 ne = pas du tout prêt... 10 = très probablement)**
 
-| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |  10 |
+| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
 | ---| --- | ---|---|---|---|---|---|---|---|---|
 |&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |
 

@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 3d78e6f9-a4ae-49f4-a89f-4515acb49dac
 description: Personnaliser la mise en garde d’appels musicale dans Skype pour Business Server Enterprise Voice.
 ms.openlocfilehash: e3d1ccdf70278173bf5a3a448e5330a24879d117
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895432"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223183"
 ---
 # <a name="customize-call-park-music-on-hold-inskype-for-business"></a>Personnaliser une musique de parcage d’appel d’attente inSkype pour les entreprises
  

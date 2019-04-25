@@ -1,5 +1,5 @@
 ---
-title: Flux des appels Microsoft Teams
+title: Carrousel Microsoft Teams
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -17,13 +17,13 @@ appliesto:
 - Microsoft Teams
 description: Décrit comment les équipes utilise Office 365 flux dans diverses topologies.
 ms.openlocfilehash: ecdeb6dc4e1e7219dc8c01c710877437661e0ceb
-ms.sourcegitcommit: 856793c99fc02fb016383d0b6f8411c386d78886
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "31828936"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32232090"
 ---
-# <a name="microsoft-teams-call-flows"></a>Flux des appels Microsoft Teams
+# <a name="microsoft-teams-call-flows"></a>Carrousel Microsoft Teams
 
 > [!Tip]
 > Regarder la session suivante pour savoir comment les équipes s’appuie sur votre réseau et la planification de la connectivité réseau optimale : [Planification des équipes réseau](https://aka.ms/teams-networking)

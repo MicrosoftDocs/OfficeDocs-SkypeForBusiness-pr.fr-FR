@@ -14,11 +14,11 @@ ms.assetid: e834d485-d25a-4eec-9090-2b8534ecf65d
 ROBOTS: NOINDEX, NOFOLLOW
 description: Plages de numéros de parcage d’appel définissent les numéros temporaires où mis en garde d’appels sont conservés jusqu'à ce que quelqu'un les récupère ou qu’ils délai d’expiration.
 ms.openlocfilehash: 466dc1d02ee15ae25e6c8fe6e9e8a0006298a60d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879377"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32221337"
 ---
 # <a name="call-park-create-new-or-edit-existing"></a>Parcage d’appel : création d’un parcage ou modification d’un parcage existant
 

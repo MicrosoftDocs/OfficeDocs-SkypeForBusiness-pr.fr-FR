@@ -1,5 +1,5 @@
 ---
-title: Serveurs proxy pour Skype Entreprise Online et Teams
+title: Serveurs proxy pour les équipes ou Skype pour Business Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,13 @@ ms.custom:
 - Optimization
 description: Cet article fournit des informations sur l’utilisation d’un serveur proxy avec des équipes ou Skype pour les entreprises.
 ms.openlocfilehash: a09a1bf53fe4d1a38742856c051a80e5928f36ef
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30640897"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32246117"
 ---
-# <a name="proxy-servers-for-teams-or-skype-for-business-online"></a>Serveurs proxy pour Skype Entreprise Online et Teams
+# <a name="proxy-servers-for-teams-or-skype-for-business-online"></a>Serveurs proxy pour les équipes ou Skype pour Business Online
 
 Cet article fournit des instructions sur l’utilisation d’un serveur proxy avec des équipes ou Skype pour les entreprises.
   
@@ -56,7 +56,7 @@ Microsoft recommande également :
     
 Ces conseils devraient limiter l'apparition de problèmes.
   
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Optimisation de votre réseau pour Skype Entreprise Online](https://support.office.com/en-us/article/Optimizing-your-network-for-Skype-for-Business-Online-b363bdca-b00d-4150-96c3-ec7eab5a8a43)
 

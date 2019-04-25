@@ -21,11 +21,11 @@ ms.custom:
 - Calling Plans
 description: 'Découvrez comment configurer des numéros de téléphone lorsque vous les au port Skype pour les entreprises. '
 ms.openlocfilehash: 62f9fb98378bfa7802013399d3d9b005047e663d
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374086"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229876"
 ---
 # <a name="how-should-i-enter-the-phone-numbers"></a>Comment dois-je entrer les numéros de téléphone ?
 
@@ -42,7 +42,7 @@ Lorsque vous procédez au portage numéros de téléphone, vous devez les entrer
     
   - Pour un numéro à 11 chiffres : **1\*() (\*&amp;42&amp;\*() (\*&amp;55550649** sera corrigé pour **+14255550649**.
     
-  - Toutes les balises seront ignorées s’il y a 10 ou 11 chiffres. Par exemple, ** \<div > 4255551234\</div >** sera **+ 14255551234**.
+  - Toutes les balises seront ignorées s’il y a 10 ou 11 chiffres. Par exemple, ** \<div> 4255551234\</div>** sera **+ 14255551234**.
     
   - «- », l’espace et une parenthèse seront ignorée. Par exemple :
     
@@ -97,7 +97,7 @@ Lorsque vous procédez au portage numéros de téléphone, vous devez les entrer
 
 [Conditions générales relatives aux appels d'urgence](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

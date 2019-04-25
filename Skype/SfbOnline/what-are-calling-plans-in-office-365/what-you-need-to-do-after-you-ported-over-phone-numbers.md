@@ -22,11 +22,11 @@ ms.custom:
 - Calling Plans
 description: Voir ce que vous devez effectuer après que vous avez adapté à vos numéros de téléphone à Skype pour les entreprises.
 ms.openlocfilehash: edcf796be766f62a99686c2182091daa13d3a810
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958320"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229585"
 ---
 # <a name="what-do-you-need-to-do-after-you-have-ported-over-your-phone-numbers"></a>Ce que vous devez faire une fois que vous avez portées vos numéros de téléphone ?
 
@@ -38,7 +38,7 @@ Une fois que vous avez soumis votre commande port, nous contacter votre opérate
     
 - Si vos numéros de téléphone ont déjà une adresse d’urgence, [Ajouter, modifier ou supprimer un emplacement en cas d’urgence pour votre organisation](add-change-or-remove-an-emergency-location-for-your-organization.md).
     
-- [Attribuer, modifier ou supprimer un numéro de téléphone pour un utilisateur](assign-change-or-remove-a-phone-number-for-a-user.md)
+- [Affectation, modification ou suppression du numéro de téléphone d’un utilisateur](assign-change-or-remove-a-phone-number-for-a-user.md)
 
 > [!NOTE]
 > Si vous devez obtenir davantage de numéros de téléphone, veuillez [contacter le support pour les entreprises - Aide de l'administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
@@ -51,7 +51,7 @@ Une fois que vous avez soumis votre commande port, nous contacter votre opérate
 
 [Conditions générales relatives aux appels d'urgence](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

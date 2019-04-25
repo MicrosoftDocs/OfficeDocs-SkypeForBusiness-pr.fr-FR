@@ -20,19 +20,19 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 'See how to search for phone numbers you can assign to your users, by country/region, state/region, or city, and specify the quantity of numbers you need. '
+description: 'Découvrez comment rechercher des numéros de téléphone à attribuer à vos utilisateurs, par pays/région, département/région ou ville et indiquer le nombre de numéros dont vous avez besoin. '
 ms.openlocfilehash: eeae7ad4bcafea1f8a1f86d36e59d2f57a2edff1
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29753515"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32230058"
 ---
 # <a name="search-for-phone-numbers-for-users"></a>Rechercher des numéros de téléphone pour les utilisateurs
 
-Lorsque vous configurez les utilisateurs dans votre organisation pour émettre et recevoir des appels téléphoniques, vous devez utiliser le **Skype entreprise centre d’administration** et tout d’abord obtenir les numéros de téléphone qui peuvent être affectés aux utilisateurs. Le numéro de téléphone que vous attribuez à un utilisateur sera un numéro de téléphone que vous avez choisi pour votre organisation et apparaît dans la liste déroulante lorsque vous modifiez les propriétés de l’utilisateur et cliquez sur **affecter**.
+When you are setting up users in your organization to make and receive phone calls, you must use the **Skype for Business admin center** and first get phone numbers that can be assigned to users. The phone number you assign to a user will be a phone number that you have chosen for your organization and will be listed in the drop-down list when you edit the properties of the user and click **Assign**.
   
-Avant de pouvoir affecter des numéros de téléphone à vos utilisateurs, vous devez utiliser la **nouveaux numéros de** page pour rechercher des numéros qui sont disponibles pour vous dans une zone. Vous pouvez rechercher par **pays/région**, **état**et **Ville**et puis entrez le nombre de numéros de téléphone que vous aurez besoin pour vos utilisateurs. 
+Before you can assign phone numbers to your users, you must use the **New numbers** page to search for numbers that are available for you within an area. You can search by **Country/region**, **State**, and **City**, and then enter the number of phone numbers you will need for your users. 
   
 Si vous avez besoin d’aide pour l’obtention des numéros de téléphone, vous pouvez consulter [Gérer les numéros de téléphone pour votre organisation](/microsoftteams/manage-phone-numbers-for-your-organization) ou [Contacter le support pour les produits métiers : aide d’administration](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
   
@@ -54,17 +54,17 @@ Si vous avez besoin d’aide pour l’obtention des numéros de téléphone, vou
     
 4. Dans la page **Ajouter de nouveaux numéros d’utilisateur**, cliquez sur les listes de **Pays** et **d’État** pour sélectionner l’état pour lequel vous souhaitez sélectionner des numéros, puis sélectionnez l’indicatif régional pour la ville dans la liste **Ville**.
     
-5.  Sous **quantité**, entrez le nombre de numéros de téléphone que vous souhaitez pour votre organisation et cliquez sur **Ajouter** pour créer une réservation. Vous avez 10 minutes pour sélectionner vos numéros de téléphone. Si vous prenez plus de 10 minutes, les numéros seront retournées au pool de numéros de téléphone.
+5.  Under **Quantity**, enter the number of phone numbers that you want for your organization and click **Add** to create a reservation. You have 10 minutes to select your phone numbers. If you take more than 10 minutes, the numbers will be returned to the pool of phone numbers.
     
     > [!NOTE]
     > Vous pouvez voir le nombre de numéros de téléphone, lequel sont basés sur le nombre de licences, figurant en regard des **numéros de nombre Total d’utilisateurs que vous pouvez vous procurer**. 
   
-6. Cliquez sur **Afficher les numéros** pour consulter la liste complète des numéros de téléphone. Cela est utile si vous ne souhaitez pas sélectionner un numéro de téléphone spécifique dans la liste.
+6. You can click **Show numbers** to see the full list of phone numbers. Cela est utile si vous ne souhaitez pas sélectionner un numéro de téléphone spécifique dans la liste.
     
-7. Sélectionnez les numéros de téléphone appropriés, puis cliquez sur **Acquérir les numéros**.
+7. Sélectionnez les numéros de téléphone, puis cliquez sur **les numéros d’acquisition**.
     
     > [!IMPORTANT]
-    > Vous pouvez acquérir plus de numéros de téléphone que le nombre de licences en votre possession. Pour déterminer le nombre de numéros de téléphone que vous pouvez acquérir, prenez votre nombre de licences, augmentez ce nombre de 10 pour cent, puis ajoutez encore 10. Par exemple, si vous avez 100 licences **Nationales appelant planifier** et/ou **International appelant planifier** , vous pouvez réserver 120 numéros de téléphone, en partant du principe que vous n’avez pas déjà acquis certains numéros de téléphone pour ces 100 utilisateurs. Pour plus d’informations, consultez la rubrique [Combien de numéros de téléphone pouvez-vous obtenir ?](/microsoftteams/how-many-phone-numbers-can-you-get)
+    > You can acquire more phone numbers than you have licenses. To determine how many phone numbers you can acquire, take your number of licenses, add 10 percent of the number of licenses, and then add 10. For example, if you have 100 **Domestic Calling Plan** and/or **International Calling Plan** licenses, you can reserve 120 phone numbers, assuming that you have not already acquired some phone numbers for those 100 users. For more details, see [How many phone numbers can you get?](/microsoftteams/how-many-phone-numbers-can-you-get)
 
 ## <a name="related-topics"></a>Rubriques connexes
 [Questions fréquentes à propos du transfert de numéros de téléphone](/microsoftteams/transferring-phone-numbers-common-questions)
@@ -75,7 +75,7 @@ Si vous avez besoin d’aide pour l’obtention des numéros de téléphone, vou
 
 [Conditions générales relatives aux appels d'urgence](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

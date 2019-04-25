@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 8632ddaa-9572-4129-9db4-de0f13438d43
 description: 'Ce nœud affiche le nom de domaine complet (FQDN), associé à pools et des serveurs et des informations de résistance sur ce Survivable Branch Appliance. Vous pouvez effectuer les actions suivantes :'
 ms.openlocfilehash: 71063adcf5e7a69210e0576851539e960c70a639
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886583"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226868"
 ---
 # <a name="branch-office-appliance-scope-node"></a>Nœud d’étendue d’un Branch Office Appliance
  

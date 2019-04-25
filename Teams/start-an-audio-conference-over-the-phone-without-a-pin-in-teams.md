@@ -21,11 +21,11 @@ ms.custom:
 - Audio Conferencing
 description: 'Découvrez comment empêcher ou autoriser ou empêcher les appelants anonymes à participer à une réunion depuis le Centre d’administration de Teams. '
 ms.openlocfilehash: 5f2dbd84b71058e75b710f37994e41c9adb488ef
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542422"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227094"
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-microsoft-teams"></a>Démarrer une audioconférence par téléphone sans code confidentiel dans Microsoft Teams
 

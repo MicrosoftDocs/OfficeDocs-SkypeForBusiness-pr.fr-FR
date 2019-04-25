@@ -3,10 +3,10 @@ title: Gérer l’offre d’essai du cloud commercial Microsoft Teams
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 12/10/2018
+ms.date: 04/23/2019
 ms.topic: reference
 audience: Admin
-ms.reviewer: annikaelias
+ms.reviewer: marubins
 ms.service: msteams
 search.appverid: MET150
 localization_priority: Priority
@@ -16,17 +16,20 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5633250ce07d0baed78ab98220ea39e76cd691ff
-ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
+ms.openlocfilehash: baad7614cbcb622017de7629fa62799be330dc88
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31959417"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222429"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Gérer l’offre d’essai du cloud commercial Microsoft Teams
 =======================================================
 
 Microsoft Teams est un excellent outil de collaboration pour votre organisation. Il permet aux personnes et aux équipes de discuter, d’innover et de partager des idées grâce à la puissance d’Office 365. L’essai du cloud commercial Microsoft Teams offre aux utilisateurs d’Office 365 de votre entreprise qui ne sont pas titulaires d’une licence Microsoft Teams la possibilité de bénéficier d’une période d’évaluation d’un an du produit. Les administrateurs peuvent activer ou désactiver cette fonctionnalité pour les utilisateurs de leur organisation.
+
+> [!IMPORTANT]
+> L’essai cloud commercial de Microsoft Teams a été mis à jour pour inclure des plans de service additionnel pour accroître la fonctionnalité de Teams et est désormais possédé et contrôlé par l’administrateur de facturation de votre organisation. Ceci facilite la gestion de la version d’évaluation et permet de la rendre cohérente avec les autres offres Microsoft 365. Les utilisateurs existants de l’essai cloud commercial de Teams seront migrés vers la nouvelle offre.
 
 ## <a name="whats-in-the-offer"></a>Nouveautés dans l’application Power BI
 
@@ -34,13 +37,16 @@ Les plans de service inclus dans cette offre sont les suivants :
 
 - Exchange Foundation
 - Flow pour Office 365 (Plan 1)
+- Formulaires
 - Microsoft Planner
 - Microsoft Teams (Teams1, Teams IW)
 - Office Online
 - PowerApps pour Office 365 (Plan 1)
 - SharePoint Online Kiosk
+- Stream
 - Sway
-- Yammer Entreprise
+- Tableau blanc
+- Yammer Entreprise 
 
 La période d’essai accorde un abonnement d’essai d’un an à l’ensemble de votre organisation. L’essai permet d’attribuer 500 000 licences. Pour chaque licence attribuée, la version d’évaluation alloue 2 Go de stockage en ligne SharePoint. 
 
@@ -48,15 +54,11 @@ La période d’essai accorde un abonnement d’essai d’un an à l’ensemble 
 
 Les utilisateurs doivent être autorisés à s’inscrire aux applications et aux essais (dans le Centre d’administration Office 365). Pour plus d’informations, voir [Gérer l’essai](#manage-the-trial) plus loin dans cet article. 
 
-Les utilisateurs qui n'ont pas de licence Office 365 incluant Teams peuvent bénéficier de l'offre Microsoft Teams Commercial Cloud Trial. Par exemple, un utilisateur disposant d’une licence Office 365 Entreprise (n’incluant pas Teams) est éligible à l’essai.
+Les utilisateurs qui n’ont pas de licence Office 365 incluant Teams peuvent bénéficier de l’offre d’essai du cloud commercial Microsoft Teams. Par exemple, un utilisateur disposant d’une licence Office 365 Entreprise (n’incluant pas Teams) est éligible à l’essai.
 
 ## <a name="who-is-not-eligible"></a>Qui n’est pas éligible
 
-Votre organisation n’est pas éligible à l’essai dans les cas suivants : 
-
-- Vous êtes un client partenaire de syndication
-- Vous êtes un client partenaire revendeur
-- Vous êtes un client EDU ou travaillez dans le secteur public
+Votre organisation n’est pas éligible pour l’essai si vous êtes un client partenaire de syndication ou si vous êtes un client GCC, GCC élevé, DoD ou EDU.
 
 Si votre organisation n’est pas éligible à l’offre d’essai du cloud commercial Microsoft Teams, le bouton bascule **Laisser les utilisateurs installer les applications et services d’essai** ne s’affiche pas.
 
@@ -70,7 +72,7 @@ Tous les essais au sein de votre organisation partagent les mêmes dates de déb
 
 ## <a name="manage-the-trial"></a>Gérer l’essai
 
-Les administrateurs peuvent gérer les licences pour les utilisateurs qui se sont inscrits. 
+Les licences d’essai sont assignées de la même manière que toute autre abonnement acquis par un administrateur. Pour obtenir plus d’informations, consultez l’article [Attribuer des licences aux utilisateurs dans Office 365 pour les entreprises](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide). 
 
 De plus, les administrateurs peuvent désactiver la possibilité pour les utilisateurs finaux de réclamer des applications et services à l’essai au sein de leur organisation. Actuellement, l’essai décrit dans cet article est seul dans cette catégorie, mais il pourrait s’appliquer à d’autres programmes similaires à l’avenir. 
 
@@ -137,3 +139,6 @@ Pour mettre à niveau les utilisateurs détenteurs de la licence d’évaluation
 3. Affectez la licence nouvellement achetée.
 
 Pour plus d’informations, voir [Gestion des licences Office 365 pour Microsoft Teams](Office-365-licensing.md).
+
+> [!NOTE]
+> Si l’essai se termine et un utilisateur n’est pas immédiatement mis à niveau à un abonnement qui inclut Teams, les données des utilisateurs ne sont pas supprimées. L’utilisateur existe toujours dans Azure Active Directory et toutes les données au sein de Teams sont disponibles. Une fois qu’une nouvelle licence est attribuée à l’utilisateur pour activer la fonctionnalité Teams de nouveau, tout le contenu existera encore. 

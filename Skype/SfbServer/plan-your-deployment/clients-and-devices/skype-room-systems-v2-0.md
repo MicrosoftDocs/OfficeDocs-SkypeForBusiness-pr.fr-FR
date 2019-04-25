@@ -13,11 +13,11 @@ ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection: M365-voice
 description: Cet article explique les considérations de planification pertinentes pour le déploiement de salles d’équipes Microsoft, la nouvelle génération de systèmes de salle Skype.
 ms.openlocfilehash: 7de824eee31b29b4b229d7b4d1b8eb7d60f5a632
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013049"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214544"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>Planifier des équipes Microsoft salles
 

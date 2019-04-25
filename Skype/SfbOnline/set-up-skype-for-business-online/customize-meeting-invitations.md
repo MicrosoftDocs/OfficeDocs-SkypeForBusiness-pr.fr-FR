@@ -21,11 +21,11 @@ ms.custom:
 - Setup
 description: 'Personnaliser les invitations aux réunions de Skype avec graphiques logos, aide et juridiques URL et le texte de pied de page. '
 ms.openlocfilehash: 3d01d23172d7c187d09930c644390bdbf7a273b2
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897333"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237889"
 ---
 # <a name="customize-meeting-invitations"></a>Personnaliser les invitations aux réunions
 
@@ -72,10 +72,10 @@ En tant qu’administrateur, vous pouvez vous assurer que tous les Skype pour le
     
     ![Voici une invitation personnalisée aspect, sans le graphique](../images/ebb5c03c-c23d-4da7-97f1-9b13e26a6cf8.png)
   
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 <a name="__top"> </a>
 
-[Tester ou acheter l'audioconférence dans Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Tester ou acheter l’audioconférence dans Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 
   
  

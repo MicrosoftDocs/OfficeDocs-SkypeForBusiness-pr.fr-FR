@@ -14,11 +14,11 @@ ms.assetid: cb17314e-b89e-4821-8855-12f8fd2edc9b
 ROBOTS: NOINDEX, NOFOLLOW
 description: Outre la spécification de la version des clients que vous souhaitez prendre en charge dans votre environnement, vous pouvez également spécifier une action par défaut pour les clients qui n’ont pas encore définie une stratégie de version. Cela permet de limiter les versions du client sont utilisées dans votre environnement, qui peut vous aider à contrôler les coûts associés à la prise en charge de plusieurs versions du client.
 ms.openlocfilehash: c83dc832d6ea866a7f29f0a98213ea25853cd2f7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879839"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215919"
 ---
 # <a name="client-version-configuration"></a>Configuration de version du client
 

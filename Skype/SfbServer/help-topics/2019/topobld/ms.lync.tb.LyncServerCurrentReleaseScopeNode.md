@@ -14,11 +14,11 @@ ms.assetid: 13e95afe-87bc-43bf-b842-0e25b3fce2da
 ROBOTS: NOINDEX, NOFOLLOW
 description: Vous pouvez créer de nouveaux rôles de serveur dans le nœud du Générateur de topologie Lync Server 2013 en cliquant avec le bouton droit sur Lync Server 2013, sélectionnez Nouveau, puis sélectionnez le rôle de serveur à créer.
 ms.openlocfilehash: aa53e7a373a95e8f264a64aaac82bbcab47b0dcc
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875727"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235419"
 ---
 # <a name="skype-for-business-server-create-new-expander"></a>Créer un nouvel expanseur Skype pour Business Server
  

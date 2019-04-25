@@ -21,11 +21,11 @@ ms.custom:
 - Audio Conferencing
 description: 'En savoir plus sur les informations est envoyé automatiquement aux utilisateurs par courrier électronique lorsque leurs paramètres de conférence rendez-vous modifier dans Skype pour Business Online. '
 ms.openlocfilehash: f3b4a530e204524dcf183ac671124c6d6ff8df03
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374069"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32230903"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-skype-for-business-online"></a>Messages électroniques envoyés aux utilisateurs lorsque les paramètres changent dans Skype pour Business Online
 
@@ -103,7 +103,7 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
 > [!NOTE]
 >  Si vous souhaitez modifier les informations d’adresse de messagerie, vous devez vous assurer que les stratégies de courrier électronique entrant de votre environnement autorisent les messages électroniques qui proviennent de personnalisé d’adresse spécifié. Si vous décidez de remplacer les informations *de* contact, vous devez vérifier que les messages électroniques sont correctement envoyés aux utilisateurs. Pour cela, ce test avec un seul utilisateur dans votre organisation.
   
-Si vous souhaitez modifier les informations de l'adresse électronique, vous devez vous assurer que les stratégies de courrier électronique entrant de votre entreprise autorisent les messages électroniques provenant de l'adresse électronique personnalisée.
+Vous pouvez utiliser l’applet de commande [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) pour gérer les autres paramètres pour votre organisation, y compris le courrier électronique.
   
 ## <a name="what-if-you-dont-want-email-to-be-sent-to-them"></a>Comment procéder si vous ne souhaitez pas leur envoyer de courriers électroniques ?
 
@@ -122,7 +122,7 @@ Par défaut, les messages électroniques sont envoyés à vos utilisateurs, mais
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
-**Utilisation de Windows PowerShell**
+**Reportez-vous à la rubrique **Envoyer un message électronique à un utilisateur avec leurs informations de conférence Audio**.**
   
 1. Pour désactiver l'envoi de courrier électronique à tous vos utilisateurs, exécutez la commande suivante :
     
@@ -130,7 +130,7 @@ Par défaut, les messages électroniques sont envoyés à vos utilisateurs, mais
    Set-CsOnlineDialInConferencingTenantSetting -AutomaticallySendEmailsToUsers $false
    ```
 
-Si vous souhaitez modifier les informations de l'adresse électronique, vous devez vous assurer que les stratégies de courrier électronique entrant de votre entreprise autorisent les messages électroniques provenant de l'adresse électronique personnalisée.
+Vous pouvez utiliser l’applet de commande [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) pour gérer les autres paramètres pour votre organisation, y compris le courrier électronique.
   
 ## <a name="what-else-should-you-know-about-this-email"></a>Que devez-vous savoir d'autre sur les courriers électroniques ?
 
@@ -163,7 +163,7 @@ Si vous souhaitez modifier les informations de l'adresse électronique, vous dev
     > [!NOTE]
     > Le module Windows PowerShell pour Skype Entreprise Online permet de créer une session Windows PowerShell à distance qui se connecte à Skype Entreprise Online. Ce module est pris en charge uniquement sur les systèmes 64 bits. Il peut être téléchargé à partir du Centre de téléchargement Microsoft accessible à l'emplacement suivant : [Module Windows PowerShell pour Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=294688).
   
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Activer ou désactiver l'envoi de messages électroniques lorsque modifient les paramètres de conférence Audio](enable-or-disable-sending-emails-when-their-settings-change.md)
   

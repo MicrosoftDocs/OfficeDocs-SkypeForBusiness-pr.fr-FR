@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: " Après avoir configuré l’appel d’admission des appels (CAC) réseau, vous devez activer CAC appliquer les limitations de bande passante."
 ms.openlocfilehash: a683fe0f437fc1c3fa92784313135d094e43c8b1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897642"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32228406"
 ---
 # <a name="enabling-call-admission-control-in-skype-for-business-server"></a>Activation du contrôle d’admission des appels dans Skype Entreprise Server
 

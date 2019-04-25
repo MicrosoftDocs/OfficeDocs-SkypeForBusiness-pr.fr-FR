@@ -1,5 +1,5 @@
 ---
-title: Liste de vérification Microsoft Teams invité access
+title: Liste de contrôle de l’accès invité Microsoft Teams
 author: somakbhattacharyya
 ms.author: sbhatta
 manager: serdars
@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 68beeba403f6a64e194594d5bd40b985c8051dc6
-ms.sourcegitcommit: fba1151c968aa2c43d0c5b42b889b2cdd8dba3cd
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2019
-ms.locfileid: "30795585"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237547"
 ---
 <a name="teams-guest-access-checklist"></a>Liste de contrôle l’accès aux équipes invité
 ==========================================
@@ -42,7 +42,7 @@ L’expérience de l’invité présente les limitations par sa conception. Assu
 
 Pour plus d’informations, voir [Nouveautés de l’expérience de l’invité](guest-experience.md) et [l’accès invité dans des groupes d’Office 365](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6).
 
-### <a name="guest-access-vs-external-access-federation"></a>Accès invité et l’accès externe (fédération)
+### <a name="guest-access-vs-external-access-federation"></a>Accès invité et accès externe (fédération)
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 

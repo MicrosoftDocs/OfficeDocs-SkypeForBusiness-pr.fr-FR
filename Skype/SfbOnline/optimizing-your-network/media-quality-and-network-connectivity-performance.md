@@ -20,11 +20,11 @@ ms.custom:
 - Optimization
 description: Cette rubrique définit l’ensemble des exigences de performances réseau pour Skype pour des services professionnels en ligne et comment vous pouvez choisir d’utiliser Internet ou ExpressRoute pour la connectivité entre votre réseau et de Skype pour Business Online en fonction de votre évaluation du réseau connectivité. Si vous avez décidé de déployer ExpressRoute Azure pour la connectivité dédiée à Office 365, ce document fournit également des instructions sur la planification de vos connexions ExpressRoute dans différents Skype pour les scénarios de déploiement en ligne Business.
 ms.openlocfilehash: 00d77bc72cbfd99d496bf458e008cce3da7970c3
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533232"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32236922"
 ---
 # <a name="media-quality-and-network-connectivity-performance-in-skype-for-business-online"></a>Qualité multimédia et performances de connectivité réseau dans Skype Entreprise Online
 
@@ -43,7 +43,7 @@ ExpressRoute Azure n’est pas une condition requise pour les services Office 36
 
 Il existe de nombreux facteurs qui contribuent à Skype pour la connectivité réseau, l’environnement et la qualité des médias (partage d’application, audio et vidéo) en ligne en temps réel de métier qui incluent les périphériques qui sont utilisés. 
   
-#### <a name="devices"></a>Périphériques
+#### <a name="devices"></a>Appareils
 
 Dans une session multimédia en temps réel, media capture et le rendu des périphériques qui sont utilisés par tous les participants, tels que les casques et les webcams ont un impact important sur l’ensemble qualité audio et vidéo. Les périphériques de qualité inférieure ou dont les pilotes sont incorrects produiront globalement des sons et des images de moins bonne qualité. Les périphériques certifiés ou de bonne qualité, en revanche, améliorent l'annulation d'écho, le filtrage du bruit et la résolution vidéo, et réduisent les temps de latence.
   
@@ -126,13 +126,13 @@ Skype optimale pour la qualité des médias, les objectifs de mesures de perform
   
 |||
 |:-----|:-----|
-|**Mesure** <br/> |**Cible ** <br/> |
-|Latence (unidirectionnelle)  <br/> |< 50 ms  <br/> |
-|Latence (RTT or durée de l'aller-retour)  <br/> |< 100 ms  <br/> |
-|Perte de paquets en rafale  <br/> |< 10 % sur un intervalle de 200 ms  <br/> |
-|Perte de paquets  <br/> |< 1 % sur un intervalle de 15 s  <br/> |
-|Gigue entre les arrivées de paquets  <br/> |< 30 ms sur un intervalle de 15 s  <br/> |
-|Réorganisation des paquets  <br/> |< 0,05 % paquets désorganisés  <br/> |
+|**Mesure** <br/> |**Cible** <br/> |
+|Latence (unidirectionnelle)  <br/> |< aller-retour de 50 millisecondes  <br/> |
+|Latence (durée aller-retour ou temps d’aller-retour)  <br/> |< 100 millisecondes  <br/> |
+|Perte de paquets en rafale  <br/> |<10 % au cours de l’intervalle de 200 MS  <br/> |
+|Perte de paquets  <br/> |<1 % au cours des 15 s intervalle  <br/> |
+|Gigue arrivée entre des batteries de paquets  <br/> |<30ms pendant les 15 s intervalle  <br/> |
+|Réorganisation des paquets  <br/> |paquets d’ordre <0.05%  <br/> |
    
  **Autres exigences de cibles de performances :**
   
@@ -152,13 +152,13 @@ Voici les objectifs de performances réseau ou les seuils qui sont requis pour l
   
 |||
 |:-----|:-----|
-|**Mesure** <br/> |**Cible ** <br/> |
-|Latence (unidirectionnelle)  <br/> |< 30 ms  <br/> |
-|Latence (durée aller-retour)  <br/> |< 60 ms  <br/> |
-|Perte de paquets en rafale  <br/> |< 1 % sur un intervalle de 200 ms  <br/> |
-|Perte de paquets  <br/> |< 0,1 % sur un intervalle de 15 s  <br/> |
-|Gigue entre les arrivées de paquets  <br/> |< 15 ms sur un intervalle de 15 s  <br/> |
-|Réorganisation des paquets  <br/> |< 0,01% paquets désorganisés  <br/> |
+|**Mesure** <br/> |**Cible** <br/> |
+|Latence (unidirectionnelle)  <br/> |< 30ms  <br/> |
+|Latence (durée aller-retour)  <br/> |< 60 MS  <br/> |
+|Perte de paquets en rafale  <br/> |<1 % au cours de l’intervalle de 200 ms  <br/> |
+|Perte de paquets  <br/> |<0.1% pendant les 15 s intervalle  <br/> |
+|Gigue arrivée entre des batteries de paquets  <br/> |<15ms pendant les 15 s intervalle  <br/> |
+|Réorganisation des paquets  <br/> |paquets d’ordre <0.01%  <br/> |
    
  **Autres exigences de cibles de performances :**
   
@@ -336,7 +336,7 @@ Voici une autre option de déploiement de Contoso. Dans ce cas, a décidé de co
   
 ![Connecteur de nuage ExpressRoute deux.](../images/06d967a9-64f5-4d7d-98ed-3f3add1b7c2b.png)
   
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [ExpressRoute et qualité de service (QoS) dans Skype Entreprise Online](expressroute-and-qos-in-skype-for-business-online.md)
 

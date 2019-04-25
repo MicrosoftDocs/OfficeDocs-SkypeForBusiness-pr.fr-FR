@@ -3,7 +3,7 @@ title: Gérer les stratégies de réunion
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
-ms.date: 03/22/2019
+ms.date: 04/18/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
@@ -21,12 +21,12 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: Apprenez à gérer les paramètres de stratégie dans les équipes de réunion.
-ms.openlocfilehash: a31f663a7714a0a5af09e6fddd9436e710582fa1
-ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
+ms.openlocfilehash: 01d4ec8265c069d5fdbd6d8bb64ab89ec991956a
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31517199"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231813"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gérer les stratégies de la réunion dans les équipes
 
@@ -84,9 +84,9 @@ Lorsque vous sélectionnez une stratégie existante dans la page de **stratégie
 
 <a name="bkgeneral"> </a>
 ### <a name="general"></a>Général
-   - **Autoriser la conférence maintenant** Activer cette fonctionnalité permet la fonctionnalité Conférence maintenant être accessibles aux utilisateurs qui participer à des réunions.
+   - **Autoriser Conférence maintenant dans les canaux** Activer cette fonctionnalité permet la fonctionnalité Conférence maintenant être disponible pour les utilisateurs de participer à des réunions.
    - **Autoriser le complément Outlook** Activer cette fonctionnalité permet aux utilisateurs affectés à la stratégie de disposer le complément Outlook disponible lorsqu’ils planifient des réunions.
-   - **Planifier des réunions canal autoriser** Activer cette fonctionnalité permet de planifier des réunions de canal.
+   - **Planifier des réunions autoriser canal** Activer cette fonctionnalité permet de planifier des réunions de canal.
    - **Autoriser la planification de réunions privées** Activer cette fonctionnalité permet aux utilisateurs qui participer à une réunion pour organiser des réunions privées.
 
 <a name="bkaudioandvideo"> </a>
@@ -110,10 +110,15 @@ Lorsque vous sélectionnez une stratégie existante dans la page de **stratégie
 <a name="bkparticipantsandguests"> </a>
 
 ### <a name="participants--guests"></a>Invités & des participants
-   - **Autoriser les utilisateurs qui se connectent à démarrer une réunion** Si vous souhaitez autoriser les utilisateurs qui n’ont pas été authentifiés, car ils ont composé à l’aide de leur téléphone pour démarrer une réunion, vous pouvez activer ou désactiver.
-   - **Accepter automatiquement des personnes** Détermine quel types de participants seront automatiquement être ajoutée aux réunions organisées par cet utilisateur. Définir sur « Tout le monde dans l’organisation » si vous souhaitez que les réunions pour placer tous les utilisateurs externes dans la salle d’attente, en autorisant tous les utilisateurs de la société à joindre la réunion immédiatement. Définir sur « Tout le monde » si vous souhaitez autoriser les utilisateurs anonymes par défaut. Définir sur « Tout le monde dans votre organisation et les organisations fédérées » si vous souhaitez que les réunions pour autoriser les utilisateurs fédérés puissent participer aux tels que des utilisateurs de votre société, mais placer tous les autres utilisateurs externes dans une salle d’attente.
+   - **Autoriser les utilisateurs qui se connectent à démarrer une réunion** Si vous souhaitez permettre aux personnes qui n’ont pas été authentifiés, car ils composé à l’aide de leur téléphone pour démarrer une réunion, vous pouvez activer ou désactiver.
+   - **Accepter automatiquement des personnes** Détermine quel types de participants seront automatiquement être ajoutée aux réunions organisées par cet utilisateur. Attribuez à **tout le monde dans votre organisation** si vous souhaitez que les réunions pour placer tous les utilisateurs externes dans la salle d’attente, en autorisant tous les utilisateurs de la société à joindre la réunion immédiatement. Attribuez à **tout le monde** si vous souhaitez autoriser les utilisateurs anonymes par défaut. Attribuez à **tout le monde dans votre organisation et les organisations fédérées** si vous souhaitez que les réunions pour autoriser les utilisateurs fédérés puissent participer aux tels que des utilisateurs de votre société, mais placer tous les autres utilisateurs externes dans une salle d’attente.
+   - **Autoriser rendez-vous aux utilisateurs de la salle d’attente** Si vous souhaitez autoriser les utilisateurs qui se sont connectés à l’aide de leur téléphone pour contourner la salle d’attente et de joindre la réunion, vous pouvez activer ou désactiver.
+   - **Permettre aux organisateurs d’écraser les paramètres de la salle d’attente** Activer ce paramètre pour permettre aux organisateurs de réunions d’ignorer les paramètres de la salle d’attente pour accepter des utilisateurs à des réunions.
+   - **Autoriser Conférence maintenant dans les réunions privées** Activer ce paramètre pour autoriser les participants à une réunion répondre à écouter Chat avant le début de la réunion. 
+   - **Activer les légendes live** Activez ce paramètre pour afficher les légendes dans les langues prises en charge lors d’une réunion. 
+   - **Conversation autoriser dans les réunions** Activez ce paramètre pour permettre des salles de conversation pendant une réunion. Cela est utile si les utilisateurs ont des questions ou want insérer un lien hypertexte ou une note au cours d’une discussion, mais ils ne souhaitent pas interrompre la conversation.
 
 [Article complet](meeting-policies-in-teams.md)
 
-### <a name="related-topics"></a>Rubriques connexes
+### <a name="related-topics"></a>Voir aussi
 [Stratégies de messagerie dans les équipes](messaging-policies-in-teams.md)

@@ -1,5 +1,5 @@
 ---
-title: Se préparer pour Microsoft 365 Secteur public - Déploiements DoD - Microsoft Teams
+title: 'Se préparer pour Microsoft 365 Secteur public : Déploiements DoD : Microsoft Teams'
 author: lolajacobsen
 ms.author: lolaj
 manager: serdars
@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 239996abd87c52905758d6bff5ddeb6bf7805e89
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 06f3371233b4ff16be8d55813e1621c3b08566d9
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462763"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32247102"
 ---
 # <a name="plan-for-microsoft-365-government---dod-deployments"></a>Plan pour Microsoft 365 gouvernement - déploiements DoD
 
@@ -100,7 +100,7 @@ Pour prendre en compte les exigences de nos clients du nuage gouvernement, il ex
 | | Enregistrement de nuage | Sur la file d’attente pour le gouvernement |
 | | Notes de réunion | Disponibles |
 | | Diffusion des réunions | Sur la file d’attente pour le gouvernement |
-| | Réunions fédérées | Disponibles |
+| | Intra-nuage (DoD à DoD) fédérés réunions | Disponibles |
 | | Prise en charge de surface Hub | Sur la file d’attente pour le gouvernement |
 | Appels | Contacts | Disponibles |
 | | Historique | Disponibles |
@@ -126,7 +126,7 @@ Pour prendre en compte les exigences de nos clients du nuage gouvernement, il ex
 | | Standard automatique d’organisation | Sur la file d’attente pour le gouvernement |
 | | Consommateur de Skype - prise en charge des appels aux équipes | Non disponibles |
 | Fichiers | Récents | Disponibles |
-| | Microsoft Teams | Disponibles |
+| | Microsoft Teams | Disponibles |
 | boutique | Magasin d’applications | Non disponibles |
 | Rechercher | Messages | Disponibles |
 | | Personnes | Disponibles |

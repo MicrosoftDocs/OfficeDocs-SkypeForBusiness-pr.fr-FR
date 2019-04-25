@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 44a215c96c85c6681ba4dcfda82e7193a48b95c9
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.openlocfilehash: 8f9f992b31dcdade2d5ba0dd85757ce99980fb80
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30649411"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32233008"
 ---
 ![Étapes du voyage mise à niveau, en insistant sur la phase d’Excellence opérationnelle] (media/upgrade-banner-op-excellence.png "Étapes du voyage mise à niveau, en insistant sur la phase d’Excellence opérationnelle")
 
@@ -438,7 +438,7 @@ Même si vous avez suivi les recommandations précédentes, les utilisateurs de 
 
 4. **Visitez le site de la Communauté Microsoft Teams :** La [Communauté des équipes Microsoft](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams) offre des espaces dédiés pour les équipes. La Communauté des équipes fournit une liste de discussion, des billets de blog et des annonces centrés sur les équipes. Vous pouvez publier une question ou rechercher des discussions précédentes pour les solutions à votre problème.
 
-5. **Contactez le support technique de Microsoft :** Vous pouvez contacter le Support Microsoft pour les problèmes avec les équipes en ligne ou par téléphone. Pour plus d’informations, voir [Contact prend en charge pour les équipes Microsoft](https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). Pour le Premier clients, prise en charge des demandes peuvent être lancées en suivant les conseils à [contactez le support technique pour Microsoft Teams (Premier clients)](https://support.microsoft.com/premier/contacts).
+5. **Contactez le support technique de Microsoft :** Vous pouvez contacter le Support Microsoft pour les problèmes avec les équipes en ligne ou par téléphone. Pour plus d’informations, voir [Contact prend en charge pour les produits d’entreprise](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json). Pour le Premier clients, prise en charge des demandes peuvent être lancées en suivant les conseils à [contactez le support technique pour Microsoft Teams (Premier clients)](https://support.microsoft.com/premier/contacts).
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>Tâches quotidiennes/hebdomadaires/mensuelles/selon les besoins
 
@@ -454,7 +454,7 @@ Même si vous avez suivi les recommandations précédentes, les utilisateurs de 
 
 [URL et plages d’adresses IP Office 365](https://aka.ms/o365ips)
 
-[Obtenir des clients pour Microsoft Teams](get-clients.md)
+[Obtenir des clients pour Microsoft Teams](get-clients.md)
 
 [Communauté Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams)
 
@@ -462,7 +462,7 @@ Même si vous avez suivi les recommandations précédentes, les utilisateurs de 
 
 [Vérifier l’état du service Microsoft Teams](service-health.md)
 
-[Contacter le support Office 365 pour les entreprises - Aide de l'administrateur](https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+[Contacter le support relatif aux produits d’entreprises- Aide de l’administrateur](https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 
 [Support Premier contact](https://support.microsoft.com/premier/contacts)
 
@@ -477,7 +477,7 @@ Une fois que le service Microsoft Teams a été déployé, vous devez effectuer 
 ### <a name="service-administration"></a>Administration du service
 
 Le service d’équipes dispose de plusieurs paramètres qui peuvent être configurés au niveau du client.
-Les modifications apportées aux paramètres client affectent tous les utilisateurs qui ont été activés pour les équipes. Pour obtenir une liste détaillée de ces paramètres, voir [fonctionnalités de gérer les équipes Microsoft dans votre organisation Office 365](enable-features-office-365.md).
+Les modifications apportées aux paramètres client affectent tous les utilisateurs qui ont été activés pour les équipes. Pour obtenir une liste détaillée de ces paramètres, voir [paramètres gérer les équipes Microsoft pour votre organisation](enable-features-office-365.md).
 
 ### <a name="user-administration"></a>Administration des utilisateurs
 

@@ -20,17 +20,17 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 'Learn to add, change, or remove an emergency location used by  Skype for Business on Public Switched Telephone Networks (PSTN) for your organization. '
+description: 'Apprenez à ajouter, modifier ou supprimer un emplacement d’urgence utilisé par Skype Entreprise sur le réseau téléphonique commuté public (RTCP) pour votre organisation. '
 ms.openlocfilehash: 39d3d530c4bfc3729e7711333bb804055d97378f
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048955"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225778"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>Ajouter, modifier ou supprimer un emplacement pour votre organisation d'urgence
 
-Selon le nombre d’emplacements physiques au sein de votre organisation, vous pouvez créer des emplacements d’urgence pour des bâtiments, des étages et des bureaux pour créer une adresse d’urgence plus spécifique. Voir [Quels sont les emplacements d’urgence, les adresses et le routage des appels ?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing) pour plus d’informations. 
+Depending on the number of physical locations in your organization, you can create emergency locations for buildings, floors, and offices to create a more specific emergency address. See [What are emergency locations, addresses and call routing?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing) for more information. 
   
 Pour savoir comment obtenir un Plan d’appel et leur coût, consultez la rubrique [Skype pour les licences d’entreprise et les équipes Microsoft module complémentaire](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
@@ -79,14 +79,14 @@ Pour savoir comment obtenir un Plan d’appel et leur coût, consultez la rubriq
     
 6. Cliquez sur **Enregistrer**.
     
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 [Qu’est-ce que la validation d’adresse ?](what-is-address-validation.md)
 
 [Gérer des numéros de téléphone pour votre entreprise](/microsoftteams/manage-phone-numbers-for-your-organization)
 
 [Conditions générales relatives aux appels d'urgence](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

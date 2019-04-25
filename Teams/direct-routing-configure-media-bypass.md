@@ -1,5 +1,5 @@
 ---
-title: Configurer le contournement de média avec le routage Direct
+title: Configurer le contournement de média avec un routage direct
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -15,14 +15,14 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Lisez cette rubrique pour savoir comment configurer le contournement de média avec le routage d’un système téléphonique Direct.
-ms.openlocfilehash: 405f71fd0a1e0ea3e8fec6ee1061786c93fabf1b
-ms.sourcegitcommit: 260635a24b282fbdf4a4aeffdb0f4f9be5407ec6
+ms.openlocfilehash: 459ebd80a175fbf2c213a016436a2bf130ae9982
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30631042"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32232693"
 ---
-# <a name="configure-media-bypass-with-direct-routing"></a>Configurer le contournement de média avec le routage Direct
+# <a name="configure-media-bypass-with-direct-routing"></a>Configurer le contournement de média avec un routage direct
 
 Avant de configurer le contournement de média avec le routage Direct, veillez à ce que vous avez lu [Plan pour le média de contournement de média avec le routage Direct](direct-routing-plan-media-bypass.md).
 
@@ -53,16 +53,8 @@ Pour obtenir des instructions sur la façon de configurer les jonctions et effec
 - Ruban
 - NOTE-Systems (AnyNode)    
 
-Au moment de cette annonce, les SBCs suivantes sont entièrement testées et certifiées pour fonctionner avec le contournement de média :
+Pour obtenir la liste de contrôleurs de frontière de Session (SBC) certifié pour le routage Direct, voir [liste de Session Broder contrôleurs certifiés pour le routage Direct](direct-routing-border-controllers.md).
 
-- AudioCodes 9000 V7.20A.204.222, AudioCodes M800B-SBC / V7.20A.250.003
-
--   Ruban
-    - 5210 v06.02.xx-xxx 
-    - 5400, v06.02.xx-xxx
-    - 5110, v06.02.xx-xxx
-
--   Système de note AnyNode v 3.16.2 
 
 
 ## <a name="see-also"></a>Voir aussi

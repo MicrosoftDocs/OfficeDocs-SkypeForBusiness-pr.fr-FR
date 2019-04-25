@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: f384d19b-0950-4ec6-9d93-2c5958b83e71
 description: 'Résumé : Découvrez comment attribuer des stratégies de conférence de Skype pour Business Server.'
 ms.openlocfilehash: 44e29842fd11d600aa5a692e98b5ddbb72149ade
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892631"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222869"
 ---
 # <a name="assign-conferencing-policies-in-skype-for-business-server"></a>Affecter des stratégies de conférence dans Skype pour Business Server
  

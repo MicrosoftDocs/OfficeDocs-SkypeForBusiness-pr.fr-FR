@@ -13,11 +13,11 @@ ms.collection: IT_Skype16
 ms.assetid: 47425ab1-5645-4d6f-b202-64bcce43e3ef
 description: Après avoir répondu aux questions initiales, vous pouvez modifier le nom de domaine complet et les adresses IP pour le site. Pour cela, sur la page Topologie globale, double-cliquez sur le site que vous souhaitez modifier.
 ms.openlocfilehash: 75f2bd04f09b6638071faff1aa70dc8870d11fea
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895145"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222773"
 ---
 # <a name="edit-the-topology-in-skype-for-business-server-2015"></a>Edit the topology in Skype for Business Server 2015
 

@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: ba112df8-3bb4-48e4-a353-4bf9110ccd71
 description: 'Résumé : Découvrez comment définir une règle de traduction à l’aide de la version un outil de la règle de traduction dans Skype pour Business Server.'
 ms.openlocfilehash: 947dc6a76482fc5b00efaeb71463b35eab9f9cea
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897691"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223746"
 ---
 # <a name="create-or-modify-a-translation-rule-for-called-id-presentation-in-skype-for-business-server"></a>Créer ou modifier une règle de traduction pour présentation ID appelée Skype pour Business Server
 

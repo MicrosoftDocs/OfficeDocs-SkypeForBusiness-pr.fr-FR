@@ -20,11 +20,11 @@ ms.custom:
 - Setup
 description: Découvrez comment activer ou désactiver les notifications de téléphone mobile afin que vos utilisateurs peuvent recevoir des alertes sur le courrier entrant, voix et manquées des messages instantanés.
 ms.openlocfilehash: 40d71ba5a3106e9ae33e5f39a504e1e413a58af1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897022"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226396"
 ---
 # <a name="turn-on-or-off-mobile-phone-notifications"></a>Activation ou désactivation des notifications par téléphone mobile
 
@@ -56,7 +56,7 @@ Sur les téléphones Android et Windows, les notifications Skype Entreprise s'af
 > [!IMPORTANT]
 >  Microsoft uses other companies to provide real-time Skype for Business mobile notifications for Windows Phone, iPhone, and iPad users. See the [Privacy Statement for Microsoft Skype for Business Products](https://go.microsoft.com/fwlink/p/?linkid=247732). 
   
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Configurer Skype Entreprise Online](set-up-skype-for-business-online.md)
 

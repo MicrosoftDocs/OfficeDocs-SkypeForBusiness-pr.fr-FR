@@ -14,11 +14,11 @@ ms.assetid: 676f4d80-6826-4fa0-9430-4ebdb4b5a03e
 ROBOTS: NOINDEX, NOFOLLOW
 description: Utilisez l’une boîte de dialogue Service d’annonce pour sélectionner un service d’annonce qui gèrera les appels entrants à une plage de numéros non attribués.
 ms.openlocfilehash: e307ce4caa0f2f68807ea0a5bd663b3993dfdcd7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882841"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32221330"
 ---
 # <a name="select-an-announcement-service"></a>Sélectionner un service d’annonce
  

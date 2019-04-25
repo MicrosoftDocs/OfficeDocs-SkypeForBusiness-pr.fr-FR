@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Après la migration vers Microsoft Skype pour Business Server 2019, vous devez effectuer certaines tâches pour configurer Skype pour Business Server 2019 travailler avec System Center Operations Manager.
 ms.openlocfilehash: 80ef737c57006550111331db7f46fd607f7cf1ed
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887413"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238722"
 ---
 # <a name="configure-scom-monitoring"></a>Configuration de la surveillance SCOM
 

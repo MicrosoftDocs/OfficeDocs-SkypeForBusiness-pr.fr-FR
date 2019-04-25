@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: 9e189a48-4944-4f93-88d7-9d56b56770a6
 description: 'Résumé : Découvrez l’opération obtenir les éléments, ce qui fait partie du Service de l’élément. Le Service de l’élément fait partie de l’API de référentiel pour appeler le tableau de bord qualité. Tableau de bord de qualité des appels est un outil de Skype pour Business Server.'
 ms.openlocfilehash: ad4be2c09de9d71499cd7592989334ccf4cf17c9
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874982"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235729"
 ---
 # <a name="get-items"></a>Obtenir des éléments
  

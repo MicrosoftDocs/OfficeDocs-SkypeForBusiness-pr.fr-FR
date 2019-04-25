@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 505d9619-adab-4cc4-b054-89286e18a19b
 description: Vous pouvez utiliser les procédures décrites dans cette section pour modifier les propriétés du compte d’utilisateur individuel.
 ms.openlocfilehash: 5162cb187538b5288f13f25beae96f3775faa594
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880867"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214834"
 ---
 # <a name="customize-user-account-properties-for-skype-for-business-server"></a>Personnaliser les propriétés du compte d’utilisateur pour Skype pour Business Server
  

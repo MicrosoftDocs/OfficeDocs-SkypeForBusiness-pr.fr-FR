@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: d6ea5158-aaa0-4c2f-aeac-c0dfa1718d7c
 description: Pour commencer l’installation, ou pour mettre à jour un déploiement existant de Skype pour Business Server 2015, cliquez sur Installer ou mettre à jour les Skype pour Business Server. Les étapes décrites dans cette section va installer les composants spécifiques à un rôle de serveur donné, basé sur le document le Générateur de topologie. Avant de commencer cette série d’étapes, vous devez définir le déploiement dans le Générateur de topologie. Vous devez être connecté à l’ordinateur que vous déployez en tant qu’administrateur local et membre du groupe Administrateurs du domaine dans le domaine où le serveur se situe. L’ordinateur doit être ajouté au domaine avant d’effectuer cette étape.
 ms.openlocfilehash: 98b727f8e1890837a110656b5c0628a696019ed8
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883829"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235120"
 ---
 # <a name="install-or-update-skype-for-business-server-system"></a>Installer ou mettre à jour le système Skype Entreprise Server
 

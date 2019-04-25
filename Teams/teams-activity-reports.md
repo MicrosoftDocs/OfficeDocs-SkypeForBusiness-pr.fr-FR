@@ -17,11 +17,11 @@ description: Découvrez comment utiliser les rapports d’activité pour voir co
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 34ae95d405e9ab1f35c81db0d61ee48ba18141cf
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463371"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32224476"
 ---
 <a name="use-activity-reports-for-microsoft-teams"></a>Rapports d’activité de l’utilisateur Microsoft Teams 
 ========================================
@@ -56,7 +56,7 @@ Vous pouvez obtenir une vue dans l’activité utilisateur équipes en examinant
 |Légende |Description  |
 |--------|-------------|
 |**1**   |Le rapport d’activité utilisateur équipes peut être affiché pour les tendances sur les 7 derniers jours, 30 jours, de 90 jours ou 180 jours. Toutefois, si vous cliquez sur dans une période donnée dans le rapport, le tableau (7) affiche données pendant 30 jours, jusqu'à la date (2) pour lorsque le rapport a été généré. |
-|**2**   |Chaque rapport comporte la date à laquelle il a été généré. Les rapports reflètent généralement une latence de 24 à 48 heures par rapport à l'heure de l'activité. |
+|**2**   |Chaque rapport comporte la date à laquelle il a été généré. Les rapports reflètent généralement une latence de 24 à 48 heures par rapport à l’heure de l’activité. |
 |**3**   |L’affichage de **l’activité** vous indique le nombre d’activités Microsoft Teams par type d’activité. Les types d’activité sont un nombres de messages de conversation de l’équipe, les messages de conversation privée, les appels et les réunions. |
 |**4**   |La vue des **utilisateurs** vous indique le nombre d’utilisateurs par type d’activité. Les types d’activité sont un nombres de messages de conversation de l’équipe, les messages de conversation privée, les appels et les réunions. |
 |**5**   |L’axe des X dans les graphiques sont la plage de dates sélectionnée pour le rapport spécifique. <ul><li>Dans le graphique de **l’activité** , l’axe des Y sont le nombre de l’activité spécifiée.</ul></li> <ul><li>Dans le graphique **d’utilisateurs** , l’axe des Y sont le nombre d’utilisateurs de participer à des conversations d’équipes, salles de conversation privées, appels ou réunions.</ul></li> |
@@ -80,7 +80,7 @@ Vous pouvez obtenir une vue de l’utilisation du périphérique équipes en exa
 |Légende |Description  |
 |--------|-------------|
 |**1**   |Le rapport de périphérique équipes peut être affiché pour les tendances sur les 7 derniers jours, 30 jours, de 90 jours ou 180 jours. Toutefois, si vous cliquez sur dans une période donnée dans le rapport, le tableau (7) affiche données pendant 30 jours, jusqu'à la date (2) pour lorsque le rapport a été généré. |
-|**2**   |Chaque rapport comporte la date à laquelle il a été généré. Les rapports reflètent généralement une latence de 24 à 48 heures par rapport à l'heure de l'activité. |
+|**2**   |Chaque rapport comporte la date à laquelle il a été généré. Les rapports reflètent généralement une latence de 24 à 48 heures par rapport à l’heure de l’activité. |
 |**3**   |La vue des **utilisateurs** vous indique le nombre d’utilisateurs quotidiens par type de périphérique. |
 |**4**   |L’affichage de la **Distribution** présente du nombre d’utilisateurs par périphérique pendant la période sélectionnée.  |
 |**5**   | <ul><li>Dans le graphique **d’utilisateurs** , l’axe des X sont la plage de dates sélectionnée pour le rapport et l’axe des Y sont le nombre d’utilisateurs par type de périphérique.</ul></li> <ul><li>Sur le graphique de la **Distribution** , l’axe des X indique les différents appareils utilisés pour se connecter à des équipes et de l’axe des Y est le nombre d’utilisateurs à l’aide de l’appareil.</ul></li> |

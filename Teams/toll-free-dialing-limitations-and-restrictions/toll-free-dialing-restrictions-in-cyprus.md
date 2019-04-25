@@ -24,11 +24,11 @@ ms.custom:
 - Calling Plans
 description: Cela vous permettra de savoir comment composer des numéros gratuits dans chaque pays/région. Une fois que vous sélectionnez la pays/région, il vous dirige vers une page spécifique qui contient des détails plus spécifiques, les restrictions et les limites de la disponibilité du service gratuit où service gratuit est disponible. Le format de numérotation ou formats affichera les codes d’accès requis dans chaque pays/région de composer le numéro d’appel gratuit.
 ms.openlocfilehash: 451b71f2a711d54dea75526d96359ed43e47dbbd
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569598"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223367"
 ---
 # <a name="toll-free-dialing-restrictions-in-cyprus"></a>Restrictions de numérotation gratuit Chypre
 
@@ -46,7 +46,7 @@ ms.locfileid: "30569598"
 |Disponibilité de réseau mobile  <br/> |Oui  <br/> |
 |Commentaires, les restrictions et les problèmes d’accès  <br/> |Accès mobile : Aucun temps d'accès facturé.  <br/> |
    
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 

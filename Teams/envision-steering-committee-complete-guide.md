@@ -1,5 +1,5 @@
 ---
-title: Comité directeur pour le déploiement d’Enterprise voice Teams Microsoft cloud
+title: Comité directeur pour le déploiement de la fonctionnalité vocale dans le cloud de Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 010d4e2b7a9f64ca57e38b185b013d92b4d7c1ca
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464283"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235375"
 ---
 # <a name="steering-committee"></a>Comité directeur
 
@@ -71,7 +71,7 @@ Chaque comité doit rigoureux et définition des rôles et responsabilités. Pou
 | Business Decision Maker(s) | Représenter le projet, assurez-vous que la direction reste en alignement avec la mission de l’organisation | | |
 | Architecte | Vérifiez que les décisions technologiques sont disponibles et s’alignent à un accord sur les résultats commerciaux. | | |
 | Équipe de projet principale | Fournir plus d’informations sur n’importe quel composant spécifique, soit technique ou non (telles que la gestion d’adoption et de modification) | | |
-| Ambassadeur de la qualité | Être responsable de la mise en place les mesures de qualité. | | |
+| Champion de qualité | Être responsable de la mise en place les mesures de qualité. | | |
 | Responsable de programme/de projet | Prendre la responsabilité de la présentation et de la collection de commentaires à incorporer dans le projet. | | |
 | Équipe du compte partenaire | Fournissez des commentaires à partir de du partenaire point de vue du point de vue plus large, autres activités partenaire. | | |
 | Équipe de projet de partenaire | Fournissez des commentaires à partir de du partenaire point de vue concernant la remise du projet | | |

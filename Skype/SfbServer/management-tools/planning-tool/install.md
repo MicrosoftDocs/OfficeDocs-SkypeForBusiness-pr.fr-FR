@@ -13,11 +13,11 @@ ms.collection: IT_Skype16
 ms.assetid: b95b3301-fa1e-4b96-9af4-05b43d39db8d
 description: Avant de commencer la conception et planification de votre Skype pour Business Server 2015 infrastructure à l’aide de la Skype pour l’outil de planification de 2015 Business Server, vous devez d’abord installer l’outil de planification. L’outil de planification ne doit pas être déployé sur une station de travail ou un serveur faisant partie de l’infrastructure ou le domaine où vous prévoyez d’installer Skype pour Business Server 2015. Le fichier Readme qui accompagne l’outil de planification des détails des informations importantes sur l’installation et à l’aide de l’outil. Certaines des informations contenues dans le fichier Lisez-moi sont expliquées ici par souci de clarté.
 ms.openlocfilehash: 616cec026dfc5890cffc3975ea421d98ec13e412
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884131"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32217298"
 ---
 # <a name="install-the-planning-tool-in-skype-for-business-server-2015"></a>Installer l’outil de planification dans Skype Entreprise Server 2015
 

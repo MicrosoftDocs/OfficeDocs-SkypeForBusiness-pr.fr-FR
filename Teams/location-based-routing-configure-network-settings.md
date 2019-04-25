@@ -17,11 +17,11 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 60af1c90cd1dbd7855da7686950ffd135d1da5dc
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876767"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222362"
 ---
 # <a name="configure-network-settings-for-location-based-routing"></a>Configurer les paramètres de réseau pour le routage géodépendant
 
@@ -106,6 +106,6 @@ New-CsTenantTrustedIPAddress -IPAddress 167.220.2.206 -MaskBits 30 -Description 
 ## <a name="next-steps"></a>Étapes suivantes
 Accédez à [Activer le routage par emplacement pour le routage Direct](location-based-routing-enable.md).
 
-### <a name="related-topics"></a>Rubriques connexes
+### <a name="related-topics"></a>Voir aussi
 - [Planifier le routage géodépendant pour le routage direct](location-based-routing-plan.md)
 - [Terminologie du routage géodépendant](location-based-routing-terminology.md)

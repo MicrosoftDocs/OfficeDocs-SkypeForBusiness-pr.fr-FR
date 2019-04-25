@@ -26,11 +26,11 @@ ms.custom:
 - Calling Plans
 description: Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour la France.
 ms.openlocfilehash: 883a6e7119a27871a93830783d6eae4bd68d1ad3
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541679"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226336"
 ---
 # <a name="availability-in-france"></a>Disponibilité en France
 
@@ -68,7 +68,7 @@ Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft
 
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
-|Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?  <br/> | <ul><li>Angers <li>  Bordeaux <li>  Carcassonne <li>  Dijon <li>  Grenoble <li>  Le Havre <li>  Lille <li>  Lyon <li>  Marseille <li>  Montpellier <li>  Nantes <li>  Nice <li>  Paris <li>  Reims <li>  Rennes <li>  Saint-Étienne <li>  Strasbourg <li>  Toulon <li>  Toulouse </ul> |
+|Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?  <br/> | <ul><li>Angers <li>  Bordeaux <li>  Carcassonne <li>  Dijonnais <li>  Grenoble <li>  Le Havre <li>  Lille <li>  Lyon <li>  Marseille <li>  Montpellier <li>  Nantes <li>  Agréable <li>  Paris <li>  REIMS <li>  Rennes <li>  Saint-Etienne <li>  Strasbourg <li>  Toulon <li>  Toulouse </ul> |
 |Les numéros payants sont-ils disponibles ?  <br/> |Oui  <br/> |
 |Les numéros gratuits sont-ils disponibles ?  <br/> |Oui  <br/> |
    

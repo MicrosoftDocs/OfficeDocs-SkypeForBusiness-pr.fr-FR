@@ -22,11 +22,11 @@ ms.custom:
 - Calling Plans
 description: ID de l’appelant peut être contrôlé pour les appels entrants et sortants pour les utilisateurs du système téléphonique à l’aide d’une stratégie appelée CallingLineIdentity.
 ms.openlocfilehash: df6c7c053b5dce4ffb1d121a1adbf829efda9943
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047896"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229886"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>Comment utiliser un ID d'appelant dans votre organisation
 
@@ -49,7 +49,7 @@ Trois options sont disponibles pour l'ID d'appelant RTC sortant :
   
 - Le numéro de téléphone attribué à l’utilisateur, qui est la valeur par défaut.
     
-- Un numéro de téléphone considéré comme un numéro *de service* et *gratuit* dans votre stock de numéros de téléphones de vos Forfaits d’appels dans Office 365. Il est généralement attribué à un standard automatique d’organisation ou à une file d’appels.
+- A telephone number that is classified as a *service* and *toll-free* number in your Calling Plans in Office 365 telephone number inventory. It is usually assigned to an organizational auto attendant or call queue.
     
 - Défini sur Anonyme.
     
@@ -63,7 +63,7 @@ Pour définir l'ID d'appelant sortant, reportez-vous à la rubrique [Définir l'
   
 ### <a name="end-user-control-of-outbound-caller-id"></a>Contrôle de l'ID d'appelant sortant par l'utilisateur final
 
-L'attribut EnableUserOverride permet à un ou plusieurs utilisateurs de modifier leur paramètre d'ID d'appelant pour le définir sur **Anonyme**. Cela s'applique uniquement lorsqu'une stratégie CallingLineIdentity est configurée avec un paramètre CallingIDSubstitute défini sur LineURI ou Substitute. La valeur par défaut de EnableUserOverride est False.
+The EnableUserOverride attribute enables single or multiple users to change their Caller ID setting to **Anonymous**. This only applies when a CallingLineIdentity policy is configured with a CallingIDSubstitute parameter of either LineURI or Substitute. The default value of EnableUserOverride is False.
   
 Vos utilisateurs finaux peuvent définir leur ID d’appelant **anonyme** à l’aide de l’onglet **paramètres** dans le Skype pour le client de bureau d’entreprise, sélectionnez **un utilisateur final d’appels** (si activée par l’administrateur), sélectionnez **Masquer mon téléphone les informations de nombre et le profil pour tous les appels **.
   
@@ -78,7 +78,7 @@ Vos utilisateurs finaux peuvent définir leur ID d’appelant **anonyme** à l�
    
 ## <a name="inbound-caller-id"></a>ID d'appelant entrant
 
-L'attribut BlockIncomingCallerID permet de bloquer l'ID d'appelant dans les appels RTC entrants. Vous pouvez définir cet attribut, mais il n’est pas disponible pour les utilisateurs finaux dans la page de paramètres utilisateur. Pour le moment, il est disponible uniquement avec la connectivité RTC en ligne.
+The BlockIncomingCallerID attribute allows for blocking the caller ID on incoming PSTN calls. You can set this attribute, but it isn't available to your end users on the user settings page. And it is currently available only with Online PSTN connectivity.
   
 Pour définir l'ID d'appelant sortant, reportez-vous à la rubrique [Définir l'ID d'appelant d'un utilisateur](set-the-caller-id-for-a-user.md).
   
@@ -91,7 +91,7 @@ Pour définir l'ID d'appelant sortant, reportez-vous à la rubrique [Définir l'
 
 [Conditions générales relatives aux appels d'urgence](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

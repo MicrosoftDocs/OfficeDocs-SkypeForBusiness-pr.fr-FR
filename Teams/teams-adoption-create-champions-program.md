@@ -18,11 +18,11 @@ description: Découvrez comment former une équipe de champions pour promouvoir 
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: f5f708ee518915c7462be7aa8c8494f72e7edd17
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30647520"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227601"
 ---
 # <a name="create-your-champions-program-for-microsoft-teams"></a>Créer votre programme d’ambassadeurs de Microsoft Teams
 

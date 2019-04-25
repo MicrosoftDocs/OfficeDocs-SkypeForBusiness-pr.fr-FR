@@ -14,11 +14,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Découvrez comment activer QoS pour les appareils utilisés dans votre organisation qui utilisent un système d’exploitation autre que Windows.
 ms.openlocfilehash: b1f3dae2d2b499b334995d7754282c56872ce111
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887119"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32232712"
 ---
 # <a name="enabling-qos-in-skype-for-business-server-for-devices-that-are-not-based-on-windows"></a>Activation de QoS dans Skype pour Business Server pour les périphériques qui ne sont pas basés sur Windows
 

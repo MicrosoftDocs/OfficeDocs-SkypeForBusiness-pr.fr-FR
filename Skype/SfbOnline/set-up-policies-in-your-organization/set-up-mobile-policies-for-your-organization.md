@@ -19,11 +19,11 @@ ms.custom:
 - Setup
 description: Vous pouvez configurer comment vos utilisateurs se connectent à Skype pour Business Online à l’aide de la Skype pour application de gestion sur des appareils mobiles, tels que d’une fonctionnalité qui permet aux utilisateurs d’émettre et recevoir des appels téléphoniques sur son téléphone mobile à l’aide de leur numéro de téléphone professionnel plutôt que de leur nu téléphone mobile bre. Des stratégies de mobilité peuvent également être utilisées pour exiger des connexions Wi-Fi lorsque les utilisateurs passent ou reçoivent des appels.
 ms.openlocfilehash: 73416cb6e0c9c349c58e26b70760f6490e283e4f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897185"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237459"
 ---
 # <a name="set-up-mobile-policies-for-your-organization"></a>Configurer les stratégies mobiles pour votre organisation
 
@@ -138,7 +138,7 @@ Si vous avez déjà créé une stratégie, vous pouvez utiliser l’applet de co
     
   - [Utilisation de Windows PowerShell pour effectuer les tâches de gestion courantes de Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 [Créer des stratégies d'accès externe personnalisées](create-custom-external-access-policies.md)
 
 [Bloquer les transferts de fichiers de point à point](block-point-to-point-file-transfers.md)

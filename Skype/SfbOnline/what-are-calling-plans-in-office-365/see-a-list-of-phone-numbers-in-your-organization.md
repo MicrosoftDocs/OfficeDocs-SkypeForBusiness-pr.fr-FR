@@ -22,11 +22,11 @@ ms.custom:
 - Calling Plans
 description: Découvrez comment afficher une liste de tous les numéros de téléphone dans votre organisation, tous les numéros affectés aux utilisateurs et tous les numéros qui sont affectées aux utilisateurs de voix à partir de la Skype entreprise centre d’administration.
 ms.openlocfilehash: 7cda5c0ae791436d9f584cc4af802bfbc3649fcc
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29753481"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229943"
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>Affichage de la liste des numéros de téléphone de votre organisation
 
@@ -78,7 +78,7 @@ Lorsque vous configurez des utilisateurs, vous voudrez peut-être afficher uniqu
     > [!IMPORTANT]
     > Vous permet de voir l’option de **voix** dans le volet de navigation gauche dans le Skype entreprise centre d’administration, vous devez d’abord acheter une licence de module complémentaire de **Conférence Audio** , une licence de module complémentaire **Système téléphonique** ou au moins une **licence Enterprise E5**.
     
-4. Vous pouvez filtrer l’affichage pour les numéros de téléphone qui sont affectés à des utilisateurs ou des numéros de téléphone que vous pouvez affecter à un utilisateur. Vous pouvez filtrer par :
+4. You can filter your view for phone numbers that are assigned to users or phone numbers that you can assign to a user. You can filter by:
     
    - **Tous** les numéros de téléphone y compris les numéros de service
     
@@ -102,7 +102,7 @@ Lorsque vous configurez des utilisateurs de votre organisation pour passer et re
     > [!IMPORTANT]
     > Vous permet de voir l’option de **voix** dans le volet de navigation gauche dans le Skype entreprise centre d’administration, vous devez d’abord acheter une licence de module complémentaire de **Conférence Audio** , une licence de module complémentaire **Système téléphonique** ou au moins une **licence Enterprise E5**.
     
-4. Si l’utilisateur est en ligne ou sur site, ou l’état et le type de licence pour un utilisateur, vous pouvez utiliser la liste déroulante pour filtrer l’affichage pour les utilisateurs actifs. Vous pouvez filtrer par :
+4. You can use the drop-down list to filter your view for active users, whether the user is Online or on-premises, or the state and type of licensing for a user. You can filter by:
     
    - **Utilisateurs actifs** et utilisateurs en ligne ou sur site
     
@@ -117,6 +117,6 @@ Lorsque vous configurez des utilisateurs de votre organisation pour passer et re
 
 [Conditions générales relatives aux appels d'urgence](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
   
  

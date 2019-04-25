@@ -15,11 +15,11 @@ description: Découvrez comment un administrateur peut modifier les informations
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 897e11084908d6f07ca94d7b67df25a1dfa054e6
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460211"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32234664"
 ---
 <a name="edit-guest-user-information"></a>Modifier les informations d'un utilisateur invité
 ===========================
@@ -28,6 +28,6 @@ Pour modifier les comptes des invités (le nom d'affichage ou la photo de profil
 
 Actuellement, vous ne pouvez pas modifier les informations d’invité à partir du centre d’administration Microsoft Teams, le centre d’administration Microsoft 365 ou le centre d’administration Exchange.
 
-## <a name="guest-access-vs-external-access-federation"></a>Accès invité et l’accès externe (fédération)
+## <a name="guest-access-vs-external-access-federation"></a>Accès invité et accès externe (fédération)
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]

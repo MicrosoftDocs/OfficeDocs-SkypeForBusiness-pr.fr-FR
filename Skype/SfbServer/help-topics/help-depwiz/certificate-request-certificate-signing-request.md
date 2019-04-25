@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: f0541273-92b4-41d6-aa24-34ee5c549db8
 description: Pour créer une demande hors connexion, vous devez d’abord créer un certificat (CSR) de demande de signature. Dans la zone de texte Nom de fichier, tapez le chemin d’accès et le nom pour le service clientèle. Vous pouvez cliquer sur Parcourir pour choisir un emplacement pour créer le service clientèle. Cliquez sur Suivant pour continuer.
 ms.openlocfilehash: aae9882d81c8772becac2eb93e66eddaf22fed37
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899581"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235086"
 ---
 # <a name="certificate-request-certificate-signing-request"></a>Demande de certificat (demande de signature de certificat)
  
