@@ -17,11 +17,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: b3aab01d03b3239918c48bfb250df00208f76a7f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891138"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32246289"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-high-deployments"></a>Plan pour Microsoft 365 gouvernement - déploiements GCC haute
 
@@ -127,7 +127,7 @@ Pour prendre en compte les exigences de nos clients du nuage gouvernement, il ex
 | | Standard automatique d’organisation | Sur la file d’attente pour le gouvernement |
 | | Consommateur de Skype - prise en charge des appels aux équipes | Non disponibles |
 | Fichiers | Récents | Disponibles |
-| | Microsoft Teams | Disponibles |
+| | Microsoft Teams | Disponibles |
 | boutique | Magasin d’applications | Non disponibles |
 | Rechercher | Messages | Disponibles |
 | | Personnes | Disponibles |

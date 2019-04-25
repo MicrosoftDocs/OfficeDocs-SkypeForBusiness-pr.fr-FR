@@ -1,7 +1,7 @@
 ---
 title: FAQ sur la gouvernance de Microsoft Éducation pour les informaticiens - Microsoft Teams
 author: rmw2890
-ms.author: MyAdvisor
+ms.author: Rowille
 manager: serdars
 ms.date: 08/10/2018
 ms.topic: article
@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5058347677b1c5baef6f01fefb1f8eca3ac4384
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: e2be87b8d48970c9f33a4a49ae9970bee6fb3da3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461179"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32246161"
 ---
-# <a name="microsoft-education-governance-faq-for-admins"></a>Gouvernance Microsoft Education FAQ pour les administrateurs
+# <a name="microsoft-education-governance-faq-for-admins"></a>FAQ sur la gouvernance de Microsoft Éducation pour les administrateurs
 
 > [!Tip]
 > Regarder la session suivante pour en savoir plus sur la gestion de Microsoft Teams : [cycle de vie dans les équipes Microsoft, la gestion et la gouvernance](https://aka.ms/teams-governance)
@@ -113,7 +113,7 @@ L' [Interface API Microsoft Graph (bêta)](https://developer.microsoft.com/graph
 
 Oui. Vous pouvez utiliser des stratégies pour contrôler la messagerie spécifiques, réunion, appel et live vos utilisateurs ont accès aux fonctionnalités d’événement. Vous pouvez utiliser les paramètres au niveau du client pour appliquer les mêmes paramètres à tous ou appliquer des stratégies au niveau de l’utilisateur si nécessaire. 
 
-Pour plus d’informations sur les stratégies d’équipes, voir [fonctionnalités de gestion des équipes Microsoft dans votre organisation Office 365](enable-features-office-365.md).
+Pour plus d’informations sur les stratégies d’équipes, voir [les équipes Microsoft gérer les paramètres de votre organisation](enable-features-office-365.md).
  
 ## <a name="can-i-control-what-external-parties-my-faculty-and-students-collaborate-with"></a>Puis-je contrôler les enseignants et des étudiants collaborent avec des parties externes ?
 

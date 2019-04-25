@@ -1,7 +1,7 @@
 ---
 title: Prendre des décisions pour le service de systèmes téléphoniques avec forfaits d’appels - Microsoft Teams
 author: rmw2890
-ms.author: MyAdvisor
+ms.author: Rowille
 manager: serdars
 ms.date: 03/13/2018
 ms.topic: conceptual
@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 98a66e0335daf0e74c96d0a2dad18f89bd1f4c5f
-ms.sourcegitcommit: 4e750efd107dfc9bfd8b09d64abd40e0e27734de
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "30948186"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32242416"
 ---
 # <a name="make-my-service-decisions"></a>Prendre des décisions de mon service
 
@@ -154,9 +154,9 @@ Pour plus d’informations sur la messagerie vocale dans une implémentation du 
 > |Emily Braun      |Online      |Oui |Activé |Activé |
 > |Lidia Holloway   |Online      |Oui |Activé |Désactivé |
 > |Louis Lahr       |Sur site |Oui |Activé |Activé |
-> |Marcel Beauchamp |Sur site |Oui |Désactivé |N/A |
-> |Rachelle Cormier |Online      |Oui |Désactivé |N/A |
-> |Isabell Potvin   |Sur site |Oui |Désactivé |N/A |
+> |Marcel Beauchamp |Sur site |Oui |Désactivé |S/O |
+> |Rachelle Cormier |Online      |Oui |Désactivé |S/O |
+> |Isabell Potvin   |Sur site |Oui |Désactivé |S/O |
 
 <!--ENDOFSECTION-->
 

@@ -21,11 +21,11 @@ ms.custom:
 - Reporting
 description: Get detailed information about the dimensions and measures exposed by the Call Quality Dashboard for Microsoft Teams and Skype for Business Online.
 ms.openlocfilehash: 1510ab20ebce38c9610f4edb537f932dfd40567f
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569853"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32232666"
 ---
 # <a name="dimensions-and-measures-available-in-call-quality-dashboard"></a>Dimensions et mesures disponibles dans le tableau de bord de qualité des appels
 
@@ -502,7 +502,7 @@ Le tableau suivant indique les mesures actuellement disponibles dans le tableau 
 |Media Failed Due To Firewall DPI Stream Count  <br/> |Nombre de flux  <br/> |Nombre de flux ne pouvant pas être établis à cause d'un équipement réseau qui bloque l'accès parce que l'inspection approfondie des paquets n'autorise pas le trafic de Skype Entreprise. Ces problèmes indiquent généralement qu'un proxy, un pare-feu ou un autre élément de sécurité du réseau n'est pas correctement configuré pour accéder à l'adresse IP et aux ports utilisés par Skype Entreprise dans Office 365.  <br/> |
 |Firewall DPI Media Failure Percentage  <br/> |Pourcentage  <br/> |Pourcentage de flux ne pouvant pas être établis à cause d'un équipement réseau qui bloque l'accès parce que l'inspection approfondie des paquets n'autorise pas le trafic de Skype Entreprise. Ces problèmes indiquent généralement qu'un proxy, un pare-feu ou un autre élément de sécurité du réseau n'est pas correctement configuré pour accéder à l'adresse IP et aux ports utilisés par Skype Entreprise dans Office 365.  <br/> |
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 [Configurer l'analyse des appels Skype Entreprise](set-up-call-analytics.md)
 
 [Utiliser l'analyse des appels pour résoudre les problèmes liés à la qualité médiocre des appels Skype Entreprise](use-call-analytics-to-troubleshoot-poor-call-quality.md)

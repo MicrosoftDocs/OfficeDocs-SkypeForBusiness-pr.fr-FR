@@ -18,11 +18,11 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.overview
 description: Découvrez comment inclure votre logo, notification d’exclusion légale et d’autres informations dans vos invitations aux réunions.
 ms.openlocfilehash: ab42ddbc427ec344b8e4cf0f85e11f1426a5c6c4
-ms.sourcegitcommit: 188c57e6b6c707edb694bb922556dea1c4724846
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "30955005"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32236045"
 ---
 # <a name="customize-meeting-invitations-in-microsoft-teams"></a>Personnaliser les invitations aux réunions dans Microsoft Teams
 
@@ -49,6 +49,6 @@ En tant qu’administrateur, vous pouvez vous assurer que les Teams Microsoft to
 5.  Cliquez sur **Enregistrer**.
 6.  Attendez une heure pour les modifications sont remplies pour tous les services Office 365. Accédez à Outlook, puis planifier une réunion Skype pour obtenir un aperçu de vos modifications.
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Gérer les paramètres de réunion dans Microsoft Teams](meeting-settings-in-teams.md)

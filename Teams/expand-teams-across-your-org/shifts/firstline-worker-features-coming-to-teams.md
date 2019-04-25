@@ -1,5 +1,5 @@
 ---
-title: Fonctionnalités de travail Firstline bientôt disponible pour Microsoft Teams
+title: Fonctionnalités pour l’employé de terrain prochainement disponibles pour Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
 ms.reviewer: lisawu
@@ -14,13 +14,13 @@ MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: c96510d0015e8ff026dee28567c7626196007fd6
-ms.sourcegitcommit: 89b866a3c383555f6f89dc77bebd74cddf9e40fb
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013192"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245815"
 ---
-# <a name="firstline-worker-features-coming-soon-to-microsoft-teams"></a>Fonctionnalités de travail Firstline bientôt disponible pour Microsoft Teams
+# <a name="firstline-worker-features-coming-soon-to-microsoft-teams"></a>Fonctionnalités pour l’employé de terrain prochainement disponibles pour Microsoft Teams
 
 > [!IMPORTANT]
 > Effet 2019, octobre 1, Microsoft StaffHub sera être retirée. Nous créons StaffHub fonctionnalités dans Microsoft Teams. Aujourd'hui, les équipes inclut l’application des équipes de gestion de la planification et des fonctionnalités supplémentaires seront intégrées au fil du temps. StaffHub cessera de fonctionner pour tous les utilisateurs sur le 1 octobre 2019. Toute personne qui essaie d’ouvrir StaffHub s’affichera un message pronom pour télécharger les équipes. Pour plus d’informations, voir [Microsoft StaffHub à retirer](microsoft-staffhub-to-be-retired.md).
@@ -47,7 +47,7 @@ En raison de la structure de plateforme unique dans les équipes, les fonctionna
 
 Nous nous sommes engagés à la génération de fonctionnalités pour répondre aux besoins de votre personnel Firstline et souhaitez entendre, envoyez-nous vos commentaires [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public-preview/category/182881-developer-platform).
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 - [Fin de parcours pour Microsoft StaffHub](microsoft-staffhub-to-be-retired.md)
-- [Atteindre vos équipes Microsoft StaffHub équipes de travail en équipe](move-staffhub-teams-to-shifts-in-teams.md)
+- [Faire passer vos équipes de Microsoft StaffHub vers Shifts dans Teams](move-staffhub-teams-to-shifts-in-teams.md)

@@ -1,5 +1,5 @@
 ---
-title: Équipes pour le gouvernement
+title: Teams pour le secteur public
 description: Découvrez comment planifier et déployer des équipes dans des environnements Microsoft 365 gouvernement.
 layout: LandingPage
 ms.topic: landing-page
@@ -13,13 +13,13 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: a43c2b0c04ed76c26c8aa0434a35f2e8b462559a
-ms.sourcegitcommit: 89b866a3c383555f6f89dc77bebd74cddf9e40fb
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013176"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32246383"
 ---
-# <a name="teams-for-government"></a>Équipes pour le gouvernement
+# <a name="teams-for-government"></a>Teams pour le secteur public
 
 Utilisez ces ressources pour planifier et déployer des équipes dans des environnements Microsoft 365 gouvernement.
 

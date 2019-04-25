@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3fcd7fcbc2de14f5ecf90ceffdaaafccab8ce2fc
-ms.sourcegitcommit: c011e4ab6f936a9e26d304835634293b1cedc57d
+ms.openlocfilehash: d5e9857a04d1499e7ca9527044a2a66320291ac8
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2019
-ms.locfileid: "31043412"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245873"
 ---
 # <a name="microsoft-staffhub-to-be-retired"></a>Fin de parcours pour Microsoft StaffHub
 
@@ -32,7 +32,7 @@ Ces modifications font partie des efforts pour permettre aux employés avec Micr
 
 #### <a name="when-will-staffhub-be-retired"></a>Lorsque StaffHub être retirée ?
 
-À partir du milieu de 2019 avril, Microsoft StaffHub ne sera plus disponible pour les nouveaux clients et vous ne sera plus en mesure d’accéder à l’application depuis le lancement d’application Office 365. Les utilisateurs en cours sera toujours en mesure d’utiliser le service octobre 1,2019, mais aucuns fonctionnalités supplémentaires ne seront disponibles.
+À partir du milieu de 2019 avril, Microsoft StaffHub ne sera plus disponible pour les nouveaux clients et vous ne sera plus en mesure d’accéder à l’application depuis le lancement d’application Office 365. Les utilisateurs en cours sera toujours en mesure d’utiliser le service jusqu'à octobre 1, 2019, fonctionnalités toutefois ne supplémentaires seront disponibles.
 
 #### <a name="what-will-happen-once-staffhub-is-retired"></a>Que se passe-t-il lorsque StaffHub est obsolète ?
 
@@ -64,7 +64,7 @@ L’application d’équipes dans les équipes est un outil de gestion de planif
 
 Déplacements est disponible sans coût supplémentaire des plans de composant d’équipes dans les éléments suivants :
 
-- Office 365 Business Premium 
+- Office 365 Business Premium 
 - Office 365 entreprise F1, E5 E1, E3,
 - Office 365 pour l’éducation
 - Microsoft 365 F1, E1, E3, E5

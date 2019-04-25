@@ -21,11 +21,11 @@ ms.custom:
 - Audio Conferencing
 description: Cette section présente les informations nécessaires et explique comment les organisateurs de réunions peuvent composer le numéro d’autres personnes par le biais de Teams.
 ms.openlocfilehash: 37f44eb96a33307b12eef485e2fdabf985ab8562
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30543271"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32236085"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>Passer un appel sortant depuis une réunion Microsoft Teams pour permettre à d'autres personnes d’y participer
 
@@ -56,8 +56,8 @@ La mise en conférence n'est disponible que vers certains pays ou certaines rég
 
 Si vous recherchez des instructions sur la façon de permettre à vos utilisateurs de se connecter à une réunion d’équipes, consultez les [numéros de téléphone pour les conférences Audio dans les équipes Microsoft](phone-numbers-for-audio-conferencing-in-teams.md).
 
-## <a name="want-to-know-more-about-audio-conferencing"></a>Vous souhaitez en savoir plus sur les conférences rendez-vous ?
+## <a name="want-to-know-more-about-audio-conferencing"></a>Vous souhaitez en savoir plus sur les services d’audioconférence ?
 
-[Tester ou acheter l'audioconférence dans Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
+[Tester ou acheter l’audioconférence dans Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
     
 [Licences de module complémentaire Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)

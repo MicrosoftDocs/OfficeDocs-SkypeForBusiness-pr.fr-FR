@@ -19,11 +19,11 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 66a5b4a5ef64f83f61d106a6cd2052516cda95a7
-ms.sourcegitcommit: 9bb2bfd09ca279752dbedf17911ea46568649c4a
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/09/2019
-ms.locfileid: "31749676"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235014"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Configuration matérielle requise pour l’application Microsoft Teams
 
@@ -67,7 +67,7 @@ Vous pouvez utiliser Microsoft Teams sur ces plateformes mobiles :
 
 Voir [équipes pour virtualisé Desktop Infrastructure](teams-for-vdi.md) pour la configuration requise pour l’exécution d’équipes dans un environnement virtualisé. 
 
-### <a name="related-topics"></a>Rubriques connexes
+### <a name="related-topics"></a>Voir aussi
 - [Obtenir des applications d’équipes](get-clients.md)
 - [Microsoft Teams sur des appareils mobiles](https://support.office.com/article/Microsoft-Teams-on-mobile-devices-2ACBCF73-8FD4-4929-9B31-AE403B88C2D3)
 - [Installer l’application Microsoft Teams à l’aide d’un fichier MSI](msi-deployment.md)

@@ -17,11 +17,11 @@ ms.collection:
 localization_priority: Normal
 description: Cet article traite de la liste des téléphones qui sont certifiées pour Teams Microsoft et les fonctionnalités prises en charge dans les téléphones certifiés pour Microsoft Teams.
 ms.openlocfilehash: a5ac86ee1eb5e6ae87c25f9a2151efb092635323
-ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31517207"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32246624"
 ---
 # <a name="phones-for-microsoft-teams"></a>Téléphones pour Microsoft Teams
 
@@ -38,26 +38,26 @@ Un ensemble de fonctionnalités prises en charge dans les équipes certifié des
 |Fonctionnalités |Téléphone de bureau (Mode personnel) |Téléphone de salle de conférence (Mode partagé)|
 |---------|---------|---------|
 |**Authentification** | |  |
-|Se connecter à l'aide des informations de connexion de l'utilisateur |  Oui  | Oui |
+|Se connecter à l'aide des informations de connexion de l'utilisateur |  Oui  | Oui|
 |Se connecter à l’aide de PC/Smartphone.  | Oui  |Oui|
-|Authentification moderne | Oui  |Oui  |
+|Authentification moderne | Oui  |Oui |
 |Verrouiller/déverrouiller le téléphone | Oui |Non |
 |**Appels** |  |  |
-|Appels P2P entrant/sortant | Oui   |Oui  |
-|Contrôles via l’interface utilisateur (Muet, attente/reprendre, transfert, fin de l’appel) d’appel| Oui   |Oui  |
-|Appels PSTN| Oui   |Oui  |
+|Appels P2P entrant/sortant | Oui   |Oui |
+|Contrôles via l’interface utilisateur (Muet, attente/reprendre, transfert, fin de l’appel) d’appel| Oui   |Oui |
+|Appels PSTN| Oui   |Oui |
 |Messagerie vocale visuelle | Oui | Non |
-|prise en charge 911  | Oui   |Oui  |
+|prise en charge 911  | Oui   |Oui |
 |**Calendrier et la présence**|   | |
-|Accès au calendrier et les détails de la réunion|Oui  |Oui |
-|Intégration de la présence |Oui|Oui |
-|Intégration du calendrier Exchange |Oui |Oui |
-|Intégration de l'image des contacts  |Oui |Oui |
-|Accès à l’annuaire d’entreprise | Oui |Oui |
+|Accès au calendrier et les détails de la réunion|Oui  |Oui|
+|Intégration de la présence |Oui|Oui|
+|Intégration du calendrier Exchange |Oui |Oui|
+|Intégration de l'image des contacts  |Oui |Oui|
+|Accès à l’annuaire d’entreprise | Oui |Oui|
 |**Réunions**|   ||
-|Participer à un seul clic pour les réunions  | Oui   |Oui  |
-|Joindre Skype pour les réunions d’entreprise | Oui   | Oui |
-|Contrôles d’appel de réunion (Activer/désactiver, attente/reprendre raccrocher, ajouter/supprimer un participant)|Oui |Oui |
+|Participer à un seul clic pour les réunions  | Oui   |Oui |
+|Joindre Skype pour les réunions d’entreprise | Oui   | Oui|
+|Contrôles d’appel de réunion (Activer/désactiver, attente/reprendre raccrocher, ajouter/supprimer un participant)|Oui |Oui|
 |Détails de la réunion|Oui|Non|
 
 Nous sommes en train de pour ajouter des fonctionnalités pour aider les utilisateurs à améliorer leurs équipes sur les téléphones en continu. Les captures d’écran ci-dessous illustrent quelques-unes des expériences que nous prennent en charge aujourd'hui.

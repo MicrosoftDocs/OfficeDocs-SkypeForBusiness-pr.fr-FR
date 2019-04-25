@@ -3,7 +3,7 @@ title: Créer vos premiers canaux et équipes dans Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.date: 11/06/2018
+ms.date: 03/22/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: lolaj
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3870482a3c9d0322952c09815dc91aa0aebfd9ad
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: ca0cbc4e79e43eca70b46970196f30b91bbf43f4
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465227"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32246323"
 ---
 # <a name="create-your-first-teams-and-channels-in-microsoft-teams"></a>Créer vos premiers canaux et équipes dans Microsoft Teams
 
@@ -49,7 +49,7 @@ Voici une structure suggérée pour l’équipe.
 | Support | Si quelque chose ne fonctionne pas comme prévu, utilisez ce canal pour obtenir de l’aide. ||
 
 ## <a name="get-your-first-teams-up-and-running"></a>Préparez vos premières équipes et mettez-les en route
-En tant qu’administrateur, vous pouvez créer et gérer des équipes et des canaux dans le client Teams ou avec le centre d’administration de Microsoft Teams. Vous pouvez créer des équipes publiques ou privées. Vous pouvez également créer une équipe à l’échelle de l’organisation. N’importe quel utilisateur de Teams dans votre organisation peut rejoindre une équipe publique. Pour les équipes privés, c’est le propriétaire de l’équipe qui gère les inscriptions à l’équipe. Et pour une équipe à l’échelle de l’organisation, tous les membres de votre organisation sont automatiquement ajoutés à l’équipe. 
+En tant qu’administrateur, vous pouvez créer et gérer des équipes et des canaux dans le client Teams ou avec le centre d’administration de Microsoft Teams. Vous pouvez créer des équipes publiques ou privées. Vous pouvez également créer une [équipe à l’échelle de l’organisation](create-an-org-wide-team.md). N’importe quel utilisateur de Teams dans votre organisation peut rejoindre une équipe publique. Pour les équipes privés, c’est le propriétaire de l’équipe qui gère les inscriptions à l’équipe. Et pour une équipe à l’échelle de l’organisation, tous les membres de votre organisation sont automatiquement ajoutés à l’équipe. 
 
 Pour commencer, nous vous recommandons de créer des équipes privées et d’ajouter un autre propriétaire pour gérer les inscriptions et les paramètres de l’équipe. 
 
@@ -58,7 +58,7 @@ Pour commencer, nous vous recommandons de créer des équipes privées et d’aj
 
 ### <a name="create-a-team"></a>Créer une équipe
 
-Sur le côté gauche de l’écran de Teams, cliquez sur **Équipes**, puis en bas de la liste des équipes, cliquez sur **Rejoindre ou créer une équipe**. Sur la vignette **Créer une équipe**, cliquez sur **Créer une équipe**.
+Sur le côté gauche de l’écran de Teams, cliquez sur **Équipes**, puis, en bas de la liste des équipes, cliquez sur **Rejoindre ou créer une équipe**, puis sur **Créer une équipe**.
 
 Une fois que vous avez créé l’équipe, invitez des personnes à la rejoindre. Vous pouvez ajouter des utilisateurs individuels, des groupes et même des groupes complets de contacts (anciennement appelés des « listes de distribution »). 
 
@@ -68,7 +68,7 @@ Une fois que vous avez créé l’équipe, invitez des personnes à la rejoindre
 Recherchez l’équipe que vous avez créée, cliquez sur **Plus options ˙˙˙** > **Gérer l’équipe**. Accédez à l’onglet **Membres**. Recherchez les personnes que vous voulez désigner comme propriétaires de l’équipe. Sous **Rôle**, cliquez sur **Propriétaire**.
 
 ### <a name="create-a-channel-in-a-team"></a>Créer un canal dans une équipe
-Recherchez l’équipe que vous avez créée, cliquez sur **Plus options ˙˙˙** > **Ajouter un canal**. Vous pouvez également cliquer sur **Gérer l’équipe** et ajouter un canal dans l’onglet **Canaux**. 
+Recherchez l’équipe que vous avez créée, puis cliquez sur **Autres options...** > **Ajouter un canal**. Vous pouvez également cliquer sur **Gérer l’équipe** et ajouter un canal dans l’onglet **Canaux**. 
 
 ![Ajouter un canal à une équipe](media/get-started-with-teams-add-channel.png "Capture d’écran des options Ajouter un canal, Gérer l’équipe et autres options disponibles lorsque vous cliquez sur Plus d’options pour une équipe") 
 

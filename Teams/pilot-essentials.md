@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: de8041bb9557ec224c2ab2b3a5fa4f92de1280cf
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463579"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32236729"
 ---
 ![Étapes du voyage mise à niveau, en mettant l’accent sur le déploiement et la phase d’implémentation] (media/upgrade-banner-deployment.png "Étapes du voyage mise à niveau, en mettant l’accent sur le déploiement et la phase d’implémentation")
 
@@ -33,7 +33,7 @@ Cet article fait partie de la phase de déploiement et l’implémentation de vo
 - [Préparer votre environnement](https://aka.ms/SkypeToTeams-TechnicalReadiness)
 - [Préparation de votre organisation](https://aka.ms/SkypeToTeams-UserReadiness)
 
-# <a name="conduct-a-user-pilot"></a>Réaliser un pilote d’utilisateur
+# <a name="conduct-a-user-pilot"></a>Réaliser un pilote utilisateur
 
 En déployant des nouvelles technologies, votre organisation peut réaliser économique telles que la réduction des coûts, de conformité de la sécurité, satisfaction des employés et l’efficacité opérationnelle, mais il peut également affecter la productivité et l’infrastructure d’organisation (vos utilisateurs votre réseau). Avant d’activer la nouvelle technologie au sein de votre organisation, mener un projet pilote utilisateur formel. Comme vous souhaiteriez peindre un petit correctif de couleur sur un mur avant peindre la salle entière, vous tester un déploiement à large échelle sur une petite échelle en effectuant un pilote pour valider la technique et la préparation des utilisateurs, identifier et atténuer les problèmes et garantir la réussite implémentation de l’échelle de l’organisation.
 

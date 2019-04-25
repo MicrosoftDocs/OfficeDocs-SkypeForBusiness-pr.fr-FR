@@ -1,5 +1,5 @@
 ---
-title: Les modèles d’équipe de vente au détail en main
+title: Prise en main des modèles Teams de vente au détail
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -19,13 +19,13 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: e463061dca0633480124bbe91fb2e8e6f9f926f6
-ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30664707"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245745"
 ---
-# <a name="get-started-with-teams-templates-in-retail"></a>Les modèles d’équipe de vente au détail en main 
+# <a name="get-started-with-teams-templates-in-retail"></a>Prise en main des modèles Teams de vente au détail 
 
 Les modèles d’équipe permettent de rapidement et facilement créer des équipes en fournissant un modèle prédéfini de paramètres, les canaux et applications préinstallées.
 

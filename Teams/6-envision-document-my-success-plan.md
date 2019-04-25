@@ -1,7 +1,7 @@
 ---
 title: Documenter votre plan de réussite Microsoft Teams
 author: rmw2890
-ms.author: MyAdvisor
+ms.author: Rowille
 manager: serdars
 ms.date: 03/13/2018
 ms.topic: conceptual
@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: b0a10f56c29ca2218d5dde2c98fb3285c3907b1d
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30568471"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32241531"
 ---
 # <a name="document-my-success-plan"></a>Documenter mon plan de réussite
 
@@ -85,7 +85,7 @@ Si votre organisation a uniquement un ou deux sites, vous devrez pas un plan d�
 
 Voici un exemple d’un plan d’exécution trimestriels pour la phase de prévoir d’une implémentation de la voix dans le nuage.
 
-| Site/division                            | Nombre d’employés | Audioconférence | Système téléphonique                    | Trimestre à exécuter |
+| Site/division                            | Nombre d’employés | Audioconférence, | Système téléphonique                    | Trimestre à exécuter |
 |------------------------------------------|---------------------|--------------------|---------------------------------|--------------------|
 | États-Unis : New York                             | 2000                | Oui                | Système téléphonique avec les Plans d’appel | T1 CY2018          |
 | Irlande : Dublin                          | 300                 | Oui                | Système téléphonique avec les Plans d’appel | T1 CY2018          |
