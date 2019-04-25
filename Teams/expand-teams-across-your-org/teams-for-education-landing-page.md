@@ -10,18 +10,19 @@ ms.date: 03/01/2019
 ms.service: msteams
 ms.collection: Strat_MT_TeamsAdmin
 search.appverid: MET150
+f1keywords: ms.teamsadmincenter.assignments.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8704f1d3cae6bb6e0f8d26befb2a21d71d5460cf
-ms.sourcegitcommit: 89b866a3c383555f6f89dc77bebd74cddf9e40fb
+ms.openlocfilehash: f44f5d5ad76da0385fa63203d61da3a82923047d
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013184"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245721"
 ---
 # <a name="teams-for-education"></a>Teams pour l’éducation
 
-Avec les équipes, votre école ou l’établissement peut créer des classes de collaboration, se connecter dans les Communautés de formation professionnelle et communiquer avec l’école. Utilisez les ressources d’administration ici pour vous aider à déployer avec succès, adoptent et gérer des équipes de votre établissement.  
+Avec les équipes, enseignants et enseignant peuvent créer des classes collaboratives, se connecter dans les Communautés de formation professionnelle et communiquer avec des étudiants et enseignants. Utilisez les ressources d’administration ici pour vous aider à déployer avec succès, adoptent et gèrent les équipes de votre école ou l’établissement. 
 
 <ul class="panelContent cardsFTitle">
     <li>
