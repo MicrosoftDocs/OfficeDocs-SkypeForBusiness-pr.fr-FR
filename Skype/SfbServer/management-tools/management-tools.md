@@ -13,11 +13,11 @@ ms.collection: IT_Skype16
 ms.assetid: 4e956558-8cba-47d9-b96a-537d7f6ed938
 description: 'Résumé : Découvrez les outils de gestion de service dans Skype pour Business Server 2015.'
 ms.openlocfilehash: 0d3a4ec86fd1110fbbb75da399db990f1694e5cd
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875249"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32217614"
 ---
 # <a name="skype-for-business-server-2015-management-tools"></a>Outils de gestion Skype Entreprise Server 2015
  

@@ -18,11 +18,11 @@ description: Découvrez les rapports des équipes qui sont disponibles dans le c
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: c674f9256d30e4b4a4f5a6f8e336e7d03f551df0
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541503"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225015"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Analyses et rapports Microsoft Teams
 
@@ -43,9 +43,9 @@ Nous allons amélioration continue les équipes expérience de création de rapp
 
 |Rapport  |Quelles données sont mesurées ? |
 |---------|---------|
-|[Rapport d’utilisation des équipes](teams-usage-report.md)  |  Utilisateurs actifs<br/>Utilisateurs actifs dans les canaux et les équipes<br/>Canaux actifs<br/>Messages<br/>Paramètre de confidentialité d’équipes<br/>Invités dans une équipe   |
-|[Rapport d’activité utilisateur équipes](user-activity-report.md)  |  un utilisateur qui a participé à des appels de 1:1<br/>Un utilisateur de messages publiés dans une conversation de l’équipe<br/>Un utilisateur de messages publiés dans une conversation privée<br/>Dernière date d’activité d’un utilisateur     |
-|[Rapport d’utilisation des équipes périphérique](device-usage-report.md)   |  Utilisateurs de Windows<br/>Utilisateurs Macintosh<br/>utilisateurs iOS<br/>Utilisateurs de téléphones Android     |
+|[Rapport d’utilisation Teams](teams-usage-report.md)  |  Utilisateurs actifs<br/>Utilisateurs actifs dans les canaux et les équipes<br/>Canaux actifs<br/>Messages<br/>Paramètre de confidentialité d’équipes<br/>Invités dans une équipe   |
+|[Rapport d’activité d’utilisateur Teams](user-activity-report.md)  |  un utilisateur qui a participé à des appels de 1:1<br/>Un utilisateur de messages publiés dans une conversation de l’équipe<br/>Un utilisateur de messages publiés dans une conversation privée<br/>Dernière date d’activité d’un utilisateur     |
+|[Rapport d’utilisation Teams sur des périphériques](device-usage-report.md)   |  Utilisateurs de Windows<br/>Utilisateurs Macintosh<br/>utilisateurs iOS<br/>Utilisateurs de téléphones Android     |
 
 > [!NOTE]
 > Les rapports d’équipes affichent les données des utilisateurs actifs et les équipes actives. Par exemple, si un utilisateur de votre organisation n’est pas actif dans les équipes au cours de la plage de dates que vous avez spécifié pour un état, les données de cet utilisateur n’est pas incluses dans ce rapport.

@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: 1d48b060-d77f-44ee-b70f-3ce128aedac4
 description: 'Résumé : Afficher les informations de stratégie code confidentiel d’un utilisateur pour Skype pour Business Server.'
 ms.openlocfilehash: 5fdd042f01c325bfffedbfa32fa14d9e667ef7be
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888922"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222855"
 ---
 # <a name="view-pin-policy-information-in-skype-for-business-server"></a>Afficher les informations de stratégie de code confidentiel dans Skype pour Business Server
  

@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: d760cb93-77d4-4d64-adb7-416b808f36f8
 description: Avant de déployer et utiliser Skype pour Business Server, vous devez préparer les Services de domaine Active Directory en étendant le schéma. Les extensions de schéma ajoutent les classes et attributs requis par Skype pour Business Server.
 ms.openlocfilehash: ba76f57197e9cd812163c8abac5f51005933eace
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874639"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213353"
 ---
 # <a name="schema-changes-in-skype-for-business-server"></a>Modifications de schéma dans Skype pour Business Server
  
