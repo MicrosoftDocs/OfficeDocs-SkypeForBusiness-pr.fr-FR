@@ -1,7 +1,7 @@
 ---
 title: Préparer le déploiement du service vocal cloud de Microsoft Teams
 author: rmw2890
-ms.author: MyAdvisor
+ms.author: Rowille
 manager: serdars
 ms.date: 03/18/2019
 ms.topic: conceptual
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 886fb0d851112fbb76ca20aeb6b4c1b35e736757
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b800dc410eb6a6d506d3c3ad7ad4719485df84c2
+ms.sourcegitcommit: 16b3ee042e8f0efacc92811ff8be093b240df9fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32241369"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33304820"
 ---
 # <a name="prepare-my-service"></a>Préparer mon service
 

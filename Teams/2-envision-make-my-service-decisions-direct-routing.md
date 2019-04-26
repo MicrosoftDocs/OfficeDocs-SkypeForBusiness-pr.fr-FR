@@ -1,7 +1,7 @@
 ---
 title: Prendre des décisions pour le service de systèmes téléphoniques avec forfaits d’appels -Microsoft Teams
 author: rmw2890
-ms.author: MyAdvisor
+ms.author: Rowille
 manager: serdars
 ms.date: 07/09/2018
 ms.topic: conceptual
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aca4fc24cb39fd1dc607825a73b9f3751992de3d
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 8a2371c72f24b19b9e3c4fe836a59cbc800ad1c4
+ms.sourcegitcommit: 16b3ee042e8f0efacc92811ff8be093b240df9fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569765"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33304716"
 ---
 # <a name="make-my-service-decisions"></a>Prendre des décisions de mon service
 
@@ -87,28 +87,28 @@ Système téléphonique, chaque utilisateur dans votre organisation doit dispose
 
 ## <a name="voicemail"></a>Messagerie vocale
 
-Messagerie vocale de système téléphonique, grâce aux services de messagerie vocale Azure, prend en charge les dépôts de messagerie vocale pour les boîtes aux lettres Exchange et ne prend pas en charge les systèmes de messagerie tiers.
+Messagerie vocale dans le nuage, grâce aux services de messagerie vocale Azure, prend en charge les dépôts de messagerie vocale pour les boîtes aux lettres Exchange et ne prend pas en charge les systèmes de messagerie tiers.
 
-La messagerie vocale du système téléphonique inclut la transcription des messages vocaux. Elle est activée par défaut pour tous les utilisateurs de votre organisation. Besoins de votre entreprise peuvent nécessiter que vous désactivez la transcription de la messagerie vocale pour des utilisateurs spécifiques ou tout le monde dans toute l’organisation. Si votre organisation a décidé de conserver la transcription de la messagerie vocale activée, vous devez également prendre en compte si le masquage de la messagerie vocale transcription gratuites doit être activée. Pour plus d’informations, voir [définition des stratégies de messagerie vocale dans votre organisation](set-up-phone-system-voicemail.md) .
+Messagerie vocale dans le nuage inclut la transcription de la messagerie vocale, qui est activée par défaut pour tous les utilisateurs de votre organisation. Besoins de votre entreprise peuvent nécessiter que vous désactivez la transcription de la messagerie vocale pour des utilisateurs spécifiques ou tout le monde dans toute l’organisation. Si votre organisation a décidé de conserver la transcription de la messagerie vocale activée, vous devez également prendre en compte si le masquage de la messagerie vocale transcription gratuites doit être activée. Pour plus d’informations, voir [définition des stratégies de messagerie vocale dans votre organisation](set-up-phone-system-voicemail.md) .
 
-Pour plus d’informations sur la messagerie vocale dans une implémentation du système téléphonique, voir [configurer le système téléphonique de la messagerie vocale](set-up-phone-system-voicemail.md).
+Pour plus d’informations sur la messagerie vocale dans une implémentation du système téléphonique, voir [configuration de la messagerie vocale dans le nuage](set-up-phone-system-voicemail.md).
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Décider si vous devez activer la messagerie vocale système téléphonique dans votre implémentation de routage Direct.<li>Décider si vous activer ou désactiver la transcription de la messagerie vocale et masquage de gratuites transcription de la messagerie vocale dans toute l’organisation ou des utilisateurs spécifiques.</ul>|
-|<img src="media/audio_conferencing_image9.png" />|Étapes suivantes|<ul><li>Le cas échéant, les points de décision pour prendre en charge le système téléphonique de la messagerie vocale du document.<li>Si vous devez activer ou désactiver la messagerie vocale, la transcription de la messagerie vocale et masquage de gratuites transcription de la messagerie vocale uniquement pour des utilisateurs spécifiques, cette liste d’utilisateurs du document.</ul>|
+|<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Décider si vous devez activer la messagerie vocale dans le nuage dans votre implémentation de routage Direct.<li>Décider si vous activer ou désactiver la transcription de la messagerie vocale et masquage de gratuites transcription de la messagerie vocale dans toute l’organisation ou des utilisateurs spécifiques.</ul>|
+|<img src="media/audio_conferencing_image9.png" />|Étapes suivantes|<ul><li>Le cas échéant, les points de décision pour prendre en charge de la messagerie vocale dans le nuage du document.<li>Si vous devez activer ou désactiver la messagerie vocale, la transcription de la messagerie vocale et masquage de gratuites transcription de la messagerie vocale uniquement pour des utilisateurs spécifiques, cette liste d’utilisateurs du document.</ul>|
 
 > [!TIP]
-> Téléphone les détails du système de la messagerie vocale pour l’implémentation des Plans de l’appel peuvent être documentés comme dans le tableau suivant.
+> Détails de la messagerie vocale dans le nuage pour l’implémentation des Plans de l’appel peuvent être documentés comme dans le tableau suivant.
 > 
 > | **User**         | **Boîte aux lettres Exchange** | **Activer la messagerie vocale ?** | **Transcription de la messagerie vocale** | **Masquage de la messagerie vocale transcription gratuites** |
 > |------------------|----------------------|-----------------------|-----------------------------|-----------------------------------------------|
 > | Emily Braun      | Online               | Oui                   | Activé                     | Activé                                       |
 > | Lidia Holloway   | Online               | Oui                   | Activé                     | Désactivé                                      |
 > | Louis Lahr       | Sur site          | Oui                   | Activé                     | Activé                                       |
-> | Marcel Beauchamp | Sur site          | Oui                   | Désactivé                    | N/A                                           |
-> | Rachelle Cormier | Online               | Oui                   | Désactivé                    | N/A                                           |
-> | Isabell Potvin   | Sur site          | Oui                   | Désactivé                    | N/A                                           |
+> | Marcel Beauchamp | Sur site          | Oui                   | Désactivé                    | S/O                                           |
+> | Rachelle Cormier | Online               | Oui                   | Désactivé                    | S/O                                           |
+> | Isabell Potvin   | Sur site          | Oui                   | Désactivé                    | S/O                                           |
 > 
 > [!NOTE]
 > Pour utiliser la messagerie vocale et les équipes, vos utilisateurs doivent disposer de boîtes aux lettres Exchange. Pour plus d’informations, voir [comment Exchange et les équipes Microsoft interagir](exchange-teams-interact.md) .
@@ -121,9 +121,9 @@ Si votre organisation envisage d’utiliser le routage Direct, vous devez obteni
 
 -   Système téléphonique de Microsoft
 
--   Microsoft Teams
+-   Microsoft Teams
 
--   Audioconférence
+-   Audioconférence,
 
 Licence de conférence audio est obligatoire pour ajouter des participants externes aux réunions planifiées, par un appel sortant leur ou en fournissant le numéro d’accès. Lorsqu’un participant externe est composé à, le service de conférence Audio passe l’appel à l’aide des fonctionnalités d’appel en ligne. Licence de conférence audio est facultative et requis uniquement pour les utilisateurs qui seront à organiser des équipes de conférences qui incluent l’audioconférence.
 
