@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Lorsque vous créez un Skype pour Business Server 2019 pool, vous allez utiliser le magasin Central de gestion qui est associé à l’installation héritée. Lorsque vous démarrez le Générateur de topologie à la première utilisation et les sessions d’édition, vous êtes invité à entrer l’emplacement où vous souhaitez le Générateur de topologie pour charger le document en cours de configuration. Étant donné que déjà avoir une topologie définie et avoir établi le magasin Central de gestion, vous devez choisir de télécharger une topologie d’un déploiement existant. Le Générateur de topologie sont alors lues de la base de données et récupérer la définition actuelle.
 ms.openlocfilehash: 35c0d7163d58c17db16678ba14fd8c7b6b400c9f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896757"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238470"
 ---
 # <a name="download-topology-from-existing-deployment"></a>Téléchargement de la topologie à partir d’un déploiement existant
 

@@ -19,11 +19,11 @@ ms.custom:
 - Reporting
 description: 'Use this reference guide to learn about Skype for Business Online reporting and what info is available. '
 ms.openlocfilehash: b6e7dd3d109dfd9fab169b1cb8ec37e28f35bbc0
-ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30453985"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238140"
 ---
 # <a name="skype-for-business-online-reporting"></a>Création de rapports Skype Entreprise Online
 
@@ -57,7 +57,7 @@ Dans Office 365 et Skype pour les centres d’administration Business, vous pouv
 |[Skype pour minute Business PSTN pools de rapport](pstn-minute-pools-report.md) <br/> | Fonctionnalité est le plan de licence/service utilisé pour l’appel. <br/> Type de licence <br/> Description de la capacité <br/> Pays Minute Pool  <br/> Minutes utilisés <br/> Nombre total de Minutes <br/> Pourcentage de temps en minutes pour le mois <br/> |
 |[Skype pour le rapport de détails de session Business](session-details-report.md) <br/> | Alias de l’utilisateur <br/> ID de la boîte de dialogue  <br/> Types de média  <br/> Heures de début et de fin <br/> Avec des URI <br/> URL de la conférence <br/> Numéro de téléphone <br/> |
  
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 [Rapports d'activité dans le centre d’administration Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

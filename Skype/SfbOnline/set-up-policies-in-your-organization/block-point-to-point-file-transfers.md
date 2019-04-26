@@ -19,11 +19,11 @@ ms.custom:
 - Setup
 description: Dans Skype pour Business Online, vous avez capacité à contrôler les transferts de fichiers point à point (P2P) dans le cadre des paramètres de stratégie de conférence existante. Toutefois, ceci permet ou bloque pour les utilisateurs si elles sont transfert de fichiers à un utilisateur qui se trouve dans la même organisation ou à un utilisateur fédéré à partir d’une autre organisation, les transferts de fichiers. Suivant les étapes ci-dessous, vous pouvez bloquer les transferts de fichiers P2P avec les organisations fédérées ou des partenaires.
 ms.openlocfilehash: 9b7d229c7f0ea0565dc3174286b4117984a2b606
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883242"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237537"
 ---
 # <a name="block-point-to-point-file-transfers"></a>Bloquer les transferts de fichiers point à point
 
@@ -120,7 +120,7 @@ Vous pouvez appliquer cette à un utilisateur en créant une nouvelle stratégie
     
   - [Utilisation de Windows PowerShell pour effectuer les tâches de gestion courantes de Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 [Créer des stratégies d'accès externe personnalisées](create-custom-external-access-policies.md)
 
 [Configurer les stratégies client pour votre organisation](set-up-client-policies-for-your-organization.md)

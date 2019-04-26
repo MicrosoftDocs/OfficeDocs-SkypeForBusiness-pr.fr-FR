@@ -20,11 +20,11 @@ ms.custom:
 - Setup
 description: 'Ce résumé de Skype pour les paramètres d’organisation et des utilisateurs professionnels peut vous aider à en savoir plus sur la connectivité PIC, les invitations aux réunions, d’enregistrement des appels et des réunions et plus encore.  '
 ms.openlocfilehash: df16f6893da94e456bc873a74c8e0a1639eda3db
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876062"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237247"
 ---
 # <a name="skype-for-business-online-settings-summary"></a>Résumé des paramètres Skype Entreprise Online
 
@@ -54,7 +54,7 @@ Le **Skype entreprise centre d’administration** contient des paramètres pour 
 |Appel sortant de participant anonyme  <br/> |Permet d'autoriser les participants anonymes à des réunions Skype Entreprise Online à se connecter en demandant au fournisseur de services de conférence de les appeler.  <br/> |Activé  <br/> |[Administrateurs : Configuration des paramètres de Skype Entreprise pour les utilisateurs individuels](configure-skype-for-business-settings-for-individual-users.md) <br/> |
 |Désactiver les fonctionnalités non archivées  <br/> | Désactive les fonctionnalités qui ne sont pas capturées lors de l’organisation a configuré un [Ajouter des éléments à des sources de cas et le lieu de blocage dans le centre eDiscovery](https://go.microsoft.com/fwlink/?LinkId=529482) dans le centre d’administration Exchange : <br/>  transfert de fichier avec la messagerie instantanée <br/>  Pages OneNote partagées <br/>  Annotations PowerPoint <br/>  Sélectionnez cette option si vous êtes légalement tenu de conserver les informations stockées électroniquement. <br/> |Désactivé  <br/> |[Administrateurs : Configuration des paramètres de Skype Entreprise pour les utilisateurs individuels](configure-skype-for-business-settings-for-individual-users.md) <br/> |
    
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 [Configurer Skype Entreprise Online](set-up-skype-for-business-online.md)
 
 [Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype](let-skype-for-business-users-add-skype-contacts.md)

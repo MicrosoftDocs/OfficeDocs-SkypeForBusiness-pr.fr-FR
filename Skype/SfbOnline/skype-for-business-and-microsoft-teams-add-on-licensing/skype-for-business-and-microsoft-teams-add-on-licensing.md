@@ -23,11 +23,11 @@ ms.custom:
 - LIL_Placement
 description: "Learn about add-on licenses, what features you'll get with it, how to buy them for your product, and how to use your existing carrier with them. You can get information on pricing and plan details for Office 365, Communication Credits, and Calling plans. "
 ms.openlocfilehash: ada45384ed7eb1328954105334523b51825f4bcb
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012483"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238316"
 ---
 # <a name="skype-for-business-add-on-licensing"></a>Licences de module complémentaire Skype Entreprise
 
@@ -56,11 +56,11 @@ Selon l'offre dont vous disposez, vous pouvez acheter des licences de complémen
 |||
 |:-----|:-----|
 |**Fonctionnalité** <br/> |**Description** <br/> |
-|**Services d’audioconférence** <br/> |Parfois les personnes dans votre organisation vous devrez utiliser un téléphone pour appeler un Skype pour une réunion professionnelle, au lieu d’utiliser leur ordinateur. Dans ce cas, utilisez la fonctionnalité de conférence Audio.  <br/> Consultez cet article pour savoir si l’audioconférence est disponible dans votre pays ou région : [Disponibilité de l'audioconférence et des forfaits d'appels selon les régions et les pays](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans). <br/> Pour les informations de tarification, consultez [Configuration requise pour l’audioconférence](https://products.office.com/en-us/skype-for-business/audio-conferencing#requirements).  <br/> |
+|**Audioconférence,** <br/> |Parfois les personnes dans votre organisation vous devrez utiliser un téléphone pour appeler un Skype pour une réunion professionnelle, au lieu d’utiliser leur ordinateur. Dans ce cas, utilisez la fonctionnalité de conférence Audio.  <br/> Consultez cet article pour savoir si l’audioconférence est disponible dans votre pays ou région : [Disponibilité de l'audioconférence et des forfaits d'appels selon les régions et les pays](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans). <br/> Pour les informations de tarification, consultez [Configuration requise pour l’audioconférence](https://products.office.com/en-us/skype-for-business/audio-conferencing#requirements).  <br/> |
 |**Numéros gratuits pour un accès rendez-vous à vos conférences et possibilité d'accès global aux appels sortants à partir d'une conférence pour ajouter une personne en appelant n'importe quel numéro** <br/> |Si vous ajoutez la fonction d’audioconférence, nous vous recommandons de [Configurer les crédits de communication](/microsoftteams/set-up-communications-credits-for-your-organization). <br/> |
 |**Système téléphonique** <br/> |Un PBX est un système téléphonique dédié aux entreprises. Système téléphonique dans Office 365 est un service hébergé. Il vous offre des fonctionnalités innovantes de façon simple et économique. [Voici ce que vous obtenez avec un système téléphonique dans Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system).  <br/> Pour les informations de tarification, consultez [Configuration requise pour le système téléphonique](https://products.office.com/en-us/skype-for-business/cloud-pbx#requirements).  <br/> |
 |**Forfaits d’appel** <br/> |Calls to other Skype for Business users are free, but if you want your users to be able to call any phone numbers outside of your business, get a [Calling Plan](/MicrosoftTeams/calling-plans-for-office-365). There are Domestic Calling Plans and Domestic and International Calling Plans in Office 365.  <br/> Pour les informations de tarification, consultez [Configuration requise pour les forfaits d’appels](https://products.office.com/en-us/skype-for-business/pstn-calling-plans#requirements).  <br/> |
-|**Les équipes Microsoft salles** <br/> |Ce n'est pas un module complémentaire mais une fonctionnalité qui apporte de la vidéo, de l'audio et du partage de contenu aux salles de conférence. Voir [les équipes Microsoft salles](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md).  <br/> |
+|**Salles Microsoft Teams** <br/> |Ce n'est pas un module complémentaire mais une fonctionnalité qui apporte de la vidéo, de l'audio et du partage de contenu aux salles de conférence. Voir [les équipes Microsoft salles](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md).  <br/> |
 
 Need to talk to someone about all the add-on options? [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
@@ -73,7 +73,7 @@ The add-on licensing options available to you depends on your Office 365 or Skyp
 - [Office 365 Entreprise E1, E3 et E4](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e1-e3-e4.md)
 - [Office 365 Entreprise E5](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing.md)
 - [Office 365 Entreprise E5 sans Audioconférence](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-without-audio-conferencing.md)
-- [Les équipes Microsoft salles](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)
+- [Salles Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)
 - [GOV, EDU et Organisations à but non lucratif](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/gov-edu-and-nonprofit-organizations.md)
 
 Pour une liste détaillée des fonctionnalités et des comparaisons pour chaque Skype pour le plan d’entreprise, voir le [Skype pour Business Online Service Description](https://go.microsoft.com/fwlink/?LinkId=730729).
@@ -99,7 +99,7 @@ Pour une documentation complète sur la planification de votre déploiement, not
 
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 - [Configurer Skype entreprise Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
     

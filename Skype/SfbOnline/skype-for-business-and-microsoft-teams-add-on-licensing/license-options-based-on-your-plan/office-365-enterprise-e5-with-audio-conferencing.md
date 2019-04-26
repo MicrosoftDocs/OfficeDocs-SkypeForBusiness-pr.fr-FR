@@ -21,13 +21,13 @@ ms.custom:
 - LIL_Placement
 description: 'Découvrez comment acheter pour les plans Office 365 pour entreprises, des fonctionnalités et des licences supplémentaires. '
 ms.openlocfilehash: 084d60a2c21712e119657005a52dc0af11bce9a0
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120346"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238363"
 ---
-# <a name="office-365-enterprise-e5"></a>Office 365 Entreprise E5
+# <a name="office-365-enterprise-e5"></a>Office 365 Entreprise E5
 
 Le plan [Office 365 Entreprise E5](https://products.office.com/en-us/business/office-365-enterprise-e5-business-software) inclut la plupart des fonctionnalités Skype Entreprise. Quelques options supplémentaires ont été ajoutées.
   

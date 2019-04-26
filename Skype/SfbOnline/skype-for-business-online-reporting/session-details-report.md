@@ -19,22 +19,22 @@ ms.custom:
 - Reporting
 description: Rapports, le nouveau tableau de bord d'Office 365, vous donne une vue d'ensemble de l'activité de tous les produits Office 365 dans votre organisation. Il vous permet d'explorer les rapports au niveau de chaque produit pour obtenir une vue d'ensemble plus précise des activités qu'ils contiennent.
 ms.openlocfilehash: c4f3040c759deefc222c6243d80de393e18befe9
-ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30454033"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32240604"
 ---
 # <a name="session-details-report"></a>Rapport détaillé de session
 
-**Rapports**, le nouveau tableau de bord d'Office 365, vous donne une vue d'ensemble de l'activité de tous les produits Office 365 dans votre organisation. Il vous permet d'explorer les rapports au niveau de chaque produit pour obtenir une vue d'ensemble plus précise des activités qu'ils contiennent. Par exemple, vous pouvez utiliser le rapport **Skype pour plus d’informations de Session Business** pour afficher plus d’informations sur des expériences utilisateur appel.
+Le nouveau tableau de bord **Rapports** d'Office 365 vous donne une vue d'ensemble de l'activité de tous les produits Office 365 dans votre organisation. Il vous permet d'explorer les rapports au niveau de chaque produit pour obtenir une vue d'ensemble plus précise des activités qu'ils contiennent. Par exemple, vous pouvez utiliser le rapport **Skype pour plus d’informations de Session Business** pour afficher plus d’informations sur des expériences utilisateur appel.
   
 Consultez la rubrique [vue d’ensemble des rapports](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) pour plusieurs rapports qui sont disponibles.
   
 Ce rapport, ainsi que l’autres Skype pour les rapports d’entreprise vous donnent plus d’informations sur l’activité, notamment des informations de session au sein de votre organisation. Ces informations sont très utiles lorsque vous analyse, la planification et l’émission d’autres activités décisions pour votre organisation et de configuration [Communications générique](/microsoftteams/what-are-communications-credits).
   
 > [!NOTE]
-> Vous pouvez afficher tous les rapports Skype Entreprise lorsque vous vous connectez en tant qu'administrateur du centre d'administration Office 365. 
+> Vous pouvez accéder à tous les rapports Skype Entreprise lorsque vous vous connectez au centre d'administration d'Office 365 en tant qu'administrateur. 
   
 ## <a name="how-to-get-to-the-skype-for-business-session-details-report"></a>Comment obtenir le Skype pour le rapport de détails de Session de l’entreprise
 
@@ -99,7 +99,7 @@ Pour chaque session, une table sub avec des données différentes est disponible
 ***
 ![Numéro 6](../images/sfbcallout6.png)<br/>Vous pouvez également exporter les données du rapport vers un fichier Excel .csv, en cliquant ou en appuyant sur le bouton **Exporter vers Excel**. <br/><br/> Cela exportera les données de tous les utilisateurs et vous permettra de trier et de filtrer plus simplement pour une analyse ultérieure. Si vous avez moins de 2 000 utilisateurs, vous pouvez trier et filtrer directement dans le tableau du rapport. Si vous avez plus de 2 000 utilisateurs, vous devrez exporter les données pour pouvoir les trier et les filtrer.  
    
-## <a name="want-to-see-other-skype-for-business-reports"></a>Autres rapports d'activité Skype Entreprise
+## <a name="want-to-see-other-skype-for-business-reports"></a>Vous souhaitez voir d’autres Skype pour les rapports d’entreprise ?
 
 - [Skype pour le rapport des activités](activity-report.md) Vous pouvez voir combien vos utilisateurs sont à l’aide d’égal à égal, organisé et participé à des sessions de conférence.
     
@@ -117,7 +117,7 @@ Pour chaque session, une table sub avec des données différentes est disponible
 
 - [Skype pour rapport de pools minute Business PSTN](pstn-minute-pools-report.md) , vous pouvez voir le nombre de minutes consommées au cours du mois au sein de votre organisation.
     
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 [Rapports d'activité dans le centre d’administration Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

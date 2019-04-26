@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: La fédération est une relation d’approbation entre deux ou plusieurs domaines SIP qui permet aux utilisateurs d’entreprises distinctes de communiquer au-delà des frontières du réseau. Après avoir migré vers votre pool pilote, vous devez transition à partir de l’itinéraire de fédération de vos serveurs Edge de versions antérieures à l’itinéraire de fédération de votre Skype pour les serveurs de périphérie 2019 Business Server.
 ms.openlocfilehash: 607d98c3c831ae9fd911b9fd2782490dcfb0e4f4
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880227"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238743"
 ---
 # <a name="configure-federation-routes-and-media-traffic"></a>Configuration des itinéraires de fédération et du trafic multimédia
 

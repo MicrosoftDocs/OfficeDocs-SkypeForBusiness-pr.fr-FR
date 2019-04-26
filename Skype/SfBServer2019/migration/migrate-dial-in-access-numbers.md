@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Migration numéros d’accès à distance à Skype pour Business Server 2019 nécessitent l’exécution de l’applet de commande Move-CsApplicationEndpoint pour migrer les objets de contact. Lors de l’installation héritée et Skype pour la période de coexistence Business Server 2019, les numéros d’accès que vous avez créé dans Skype pour Business Server 2019 agissent comme les numéros d’accès que vous créez dans l’installation héritée, comme décrit dans ce section.
 ms.openlocfilehash: 7f7aef113018a27e70b88e166d365195c07dce9c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874709"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32239582"
 ---
 # <a name="migrate-dial-in-access-numbers"></a>Migrer les numéros d’accès entrant
 

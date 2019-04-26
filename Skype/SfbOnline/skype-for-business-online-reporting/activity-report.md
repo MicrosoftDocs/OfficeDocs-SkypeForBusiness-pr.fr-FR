@@ -1,5 +1,5 @@
 ---
-title: Rapport d'activités
+title: Rapport d’activité
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,15 +20,15 @@ ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Activity reports, what it contains, and how to interpret the data. '
 ms.openlocfilehash: 3d78d2e155c5364baf9c2650466022a27cc4ed9b
-ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30453995"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32241985"
 ---
-# <a name="activity-report"></a>Rapport d'activités
+# <a name="activity-report"></a>Rapport d’activité
 
-**Rapports**, le nouveau tableau de bord d'Office 365, vous donne une vue d'ensemble de l'activité de tous les produits Office 365 dans votre organisation. Elle vous permet à extraire différents rapports au niveau du produit pour vous donnent plus granulaires sur les activités de chaque produit. Par exemple, vous permet le rapport **Skype pour activité** voir combien vos utilisateurs sont à l’aide d’égal à égal ou organisé des sessions de conférence ou combien ils sont impliqués dans les sessions de conférence. 
+Le nouveau tableau de bord **Rapports** d'Office 365 vous donne une vue d'ensemble de l'activité de tous les produits Office 365 dans votre organisation. Elle vous permet à extraire différents rapports au niveau du produit pour vous donnent plus granulaires sur les activités de chaque produit. Par exemple, vous permet le rapport **Skype pour activité** voir combien vos utilisateurs sont à l’aide d’égal à égal ou organisé des sessions de conférence ou combien ils sont impliqués dans les sessions de conférence. 
 
 Consultez la [vue d’ensemble des rapports](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) pour en savoir plus.
   
@@ -81,7 +81,7 @@ Chaque graphique a un axe « X » (horizontal) et « Y » (vertical).
 L'axe X sur les deux graphiques représente la plage de dates sélectionnée pour ce rapport particulier. 
 ***
 ![N ° 7](../images/sfbcallout7.png)<br/>
-Le tableau présente une répartition de toutes les activités de conférence par utilisateur. Affiche tous les utilisateurs disposant de Skype pour les entreprises affecté et leurs activités de conférence. Vous pouvez ajouter des colonnes supplémentaires dans ce tableau.
+Le tableau présente une répartition de toutes les activités de conférence par utilisateur. Affiche tous les utilisateurs disposant de Skype pour les entreprises affecté et leurs activités de conférence. Vous pouvez ajouter des colonnes supplémentaires au tableau.
 * **Nom d’utilisateur** est le nom de l’utilisateur.
 * **Supprimé** indique que la licence de l'utilisateur a été supprimée.<br/><br/>
   > [!NOTE]
@@ -119,7 +119,7 @@ Vous pouvez également exporter les données du rapport vers un fichier Excel .c
 - [Skype pour le rapport de détails de session Business](session-details-report.md) Vous pouvez voir plus d’informations sur les expériences d’appel d’un utilisateur individuel.
 
     
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 [Rapports d'activité dans le centre d’administration Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

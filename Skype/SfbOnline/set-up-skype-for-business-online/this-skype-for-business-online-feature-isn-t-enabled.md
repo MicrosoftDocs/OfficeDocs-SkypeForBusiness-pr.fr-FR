@@ -21,11 +21,11 @@ ms.custom:
 - Setup
 description: 'Recherchez les causes possibles et les suggestions d’action lorsque vous récupérez une Skype pour la fonctionnalité d’entreprise en ligne n’est pas activé erreur. '
 ms.openlocfilehash: 0688bcc572c90c776bb1db6413825436f2ba8930
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881573"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237172"
 ---
 # <a name="this-skype-for-business-online-feature-isnt-enabled"></a>Cette Skype pour la fonctionnalité d’entreprise en ligne n’est pas activé.
 
@@ -37,7 +37,7 @@ Désolé, il semble que l’utilisateur n’est pas une licence de cette fonctio
 |L’utilisateur est dans un emplacement où cette fonctionnalité n’est pas disponible.  <br/> |Si possible, accédez au **Centre d’administration Office 365** > **utilisateurs actifs** et affectez à cet utilisateur vers un emplacement où la fonctionnalité est disponible. <br/> |
 |La fonctionnalité n’a pas été activée pour votre organisation.  <br/> |Accédez au **Centre d’administration Office 365** > **Skype pour les entreprises** et activer la fonctionnalité pour toute votre organisation. <br/> |
    
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 [Configurer Skype Entreprise Online](set-up-skype-for-business-online.md)
 
 [Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype](let-skype-for-business-users-add-skype-contacts.md)

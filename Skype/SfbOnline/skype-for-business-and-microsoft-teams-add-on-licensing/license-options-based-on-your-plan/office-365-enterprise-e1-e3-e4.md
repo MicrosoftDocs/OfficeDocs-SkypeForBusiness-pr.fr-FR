@@ -21,11 +21,11 @@ ms.custom:
 - LIL_Placement
 description: 'Découvrez les licences, les fonctionnalités des modules complémentaires, et comment acheter pour les offres Office 365 Entreprise, E1, E3 et E4. '
 ms.openlocfilehash: 74518e09344136e399ed0307ff7bff110ac8e9d9
-ms.sourcegitcommit: 4e750efd107dfc9bfd8b09d64abd40e0e27734de
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "30948204"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32239229"
 ---
 # <a name="office-365-enterprise-e1-e3-and-e4"></a>Office 365 Entreprise E1, E3 et E4
 
@@ -34,7 +34,7 @@ Si vous avez déjà acheté l'offre [Office 365 Entreprise E1](https://products.
 |||
 |:-----|:-----|
 |**Pour ajouter cette fonctionnalité** <br/> |**Voici les compléments que vous devez acheter :** <br/> |
-|**Audioconférence** <br/> Buy 1 **Audio Conferencing** license for each person who is going to schedule or host a dial-in meeting. Attendees do not need licenses. <br/> |Complément **Audioconférence** <br/>Une fois la licence achetée, Microsoft sera votre fournisseur d’audioconférence. |
+|**Audioconférence,** <br/> Buy 1 **Audio Conferencing** license for each person who is going to schedule or host a dial-in meeting. Attendees do not need licenses. <br/> |Complément **Audioconférence** <br/>Une fois la licence achetée, Microsoft sera votre fournisseur d’audioconférence. |
 |**Numéros de téléphone gratuits pour l’accès entrant à vos réunions et la possibilité d’effectuer des appels sortants à partir d’une réunion pour ajouter une personne en appelant le numéro de téléphone dans le monde** <br/> |[Crédits de communication](/microsoftteams/add-funds-and-manage-communications-credits)|
 |**Système téléphonique** <br/> |1. module complémentaire **Système téléphonique de office 365** <br/> 2. Forfaits d’appels : achetez un [Forfait d’appels](/MicrosoftTeams/calling-plans-for-office-365) d’Office 365. <br/>  Ou bien, utilisez le [service de téléphone de votre fournisseur existant](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing).  <br/> |
 |**Messagerie vocale cloud** <br/> |Pour les offres E1 et E4, achetez Exchange Online Plan 2 <br/>ou choisissez une suite Office fournie avec Exchange Online Plan 2, comme Office 365 E3. |

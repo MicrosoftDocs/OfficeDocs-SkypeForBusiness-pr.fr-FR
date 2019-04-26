@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: aaa6b123-b8cd-4b22-846b-8e02beb428b9
 description: Pour assigner un certificat, sélectionnez un certificat dans le magasin de certificats local. Cliquez sur Suivant pour continuer.
 ms.openlocfilehash: 3b8f18c84bbd0b7efba201430255f057556268cf
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883734"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235156"
 ---
 # <a name="certificate-list"></a>Liste de certificats
  

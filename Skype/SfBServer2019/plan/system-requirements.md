@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.collection: ''
 description: 'Résumé : Préparez votre Skype Business Server 2019 serveurs et l’infrastructure de domaine avec cette rubrique. Configuration matérielle, du système d’exploitation, bases de données, logiciel, tous les la configuration système requise et recommandations, ainsi que les certificats DNS, partage de fichiers et informations Active Directory, sont ici afin de garantir une installation réussie et le déploiement de votre batterie de serveurs.'
 ms.openlocfilehash: 86ef54a5a269a47fb1e2b8dff04808bf85b5b296
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875643"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32242004"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>Configuration système requise pour Skype pour Business Server 2019
  
@@ -23,7 +23,7 @@ ms.locfileid: "30875643"
   
 Comme vous pouvez le supposer, il existe certaines préparations à effectuer avant de commencer le déploiement de Skype pour Business Server 2019. Cet article vous guide à travers la procédure de planification comme suit :
   
-- [Configuration matérielle](system-requirements.md#Hardware)
+- [Matériel](system-requirements.md#Hardware)
   
 - [Systèmes d’exploitation](system-requirements.md#OS)
   

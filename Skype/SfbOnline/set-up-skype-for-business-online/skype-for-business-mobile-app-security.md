@@ -19,11 +19,11 @@ ms.custom:
 - Setup
 description: 'Apprenez à configurer la sécurité des applications mobiles pour vos utilisateurs. '
 ms.openlocfilehash: 0c07bbbe7d186774c4c8aa13d7fcb08bf81dcb63
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886830"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237257"
 ---
 # <a name="skype-for-business-mobile-app-security"></a>Sécurité de l'application mobile Skype Entreprise
 
@@ -40,7 +40,7 @@ Cet article contient des informations relatives au chiffrement des données dans
    
 **Remarque :** Reportez-vous à [cette documentation publique](https://docs.microsoft.com/InTune/deploy-use/introduction-to-device-compliance-policies-in-microsoft-intune) pour l’application de code confidentiel périphérique disponible sur chacun des plateformes mobiles ci-dessus
   
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 [Configurer Skype Entreprise Online](set-up-skype-for-business-online.md)
 
 [Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype](let-skype-for-business-users-add-skype-contacts.md)

@@ -20,15 +20,15 @@ ms.custom:
 - Reporting
 description: Rapports, le nouveau tableau de bord d'Office 365, vous donne une vue d'ensemble de l'activité de tous les produits Office 365 dans votre organisation. Il vous permet d'explorer les rapports au niveau de chaque produit pour obtenir une vue d'ensemble plus précise des activités qu'ils contiennent. Par exemple, vous pouvez utiliser la Skype pour le rapport d’utilisation des périphériques Business pour afficher les périphériques, y compris les systèmes d’exploitation Windows et les appareils mobiles, dont le Skype pour l’application de gestion installés et utilisent pour la messagerie instantanée et réunions. Consultez la rubrique Rapports sur les activités dans le centre d’administration d’Office 365 pour en savoir plus.
 ms.openlocfilehash: 343d5db93ebf3ea104bc74cd5f8d17d349653fa6
-ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30453965"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32241975"
 ---
 # <a name="device-usage-report"></a>Rapport d'utilisation de dispositif
 
-**Rapports**, le nouveau tableau de bord d'Office 365, vous donne une vue d'ensemble de l'activité de tous les produits Office 365 dans votre organisation. Il vous permet d'explorer les rapports au niveau de chaque produit pour obtenir une vue d'ensemble plus précise des activités qu'ils contiennent. Par exemple, vous pouvez utiliser le rapport **Skype pour l’utilisation du périphérique Business** pour afficher les périphériques, y compris les systèmes d’exploitation Windows et les appareils mobiles, dont le Skype pour l’application de gestion installés et utilisent pour la messagerie instantanée et réunions. 
+Le nouveau tableau de bord **Rapports** d'Office 365 vous donne une vue d'ensemble de l'activité de tous les produits Office 365 dans votre organisation. Il vous permet d'explorer les rapports au niveau de chaque produit pour obtenir une vue d'ensemble plus précise des activités qu'ils contiennent. Par exemple, vous pouvez utiliser le rapport **Skype pour l’utilisation du périphérique Business** pour afficher les périphériques, y compris les systèmes d’exploitation Windows et les appareils mobiles, dont le Skype pour l’application de gestion installés et utilisent pour la messagerie instantanée et réunions. 
 
 Consultez la [vue d’ensemble des rapports](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) pour en savoir plus.
   
@@ -90,7 +90,7 @@ Si les stratégies de votre organisation vous empêche l’affichage des rapport
 ***
 ![Nombre 9](../images/sfbcallout9.png)<br/>Vous pouvez également exporter les données du rapport vers un fichier Excel .csv, en cliquant ou en appuyant sur **Exporter**.           <br/> ![Bouton Exporter les Skype pour les rapports d’entreprise.](../images/de7e2ab7-d70c-422f-a0ec-178b10f7dd51.png)<br/>Cela exportera les données de tous les utilisateurs et vous permettra de trier et de filtrer plus simplement pour une analyse ultérieure. Si vous avez moins de 2 000 utilisateurs, vous pouvez trier et filtrer directement dans le tableau du rapport. Si vous avez plus de 2 000 utilisateurs, vous devrez exporter les données pour pouvoir les trier et les filtrer. 
    
-## <a name="want-to-see-other-skype-for-business-reports"></a>Autres rapports d'activité Skype Entreprise
+## <a name="want-to-see-other-skype-for-business-reports"></a>Vous souhaitez voir d’autres Skype pour les rapports d’entreprise ?
 
 - [Skype pour le rapport des activités](activity-report.md) Vous pouvez voir combien vos utilisateurs sont à l’aide d’égal à égal, organisé et participé à des sessions de conférence.
     
@@ -108,7 +108,7 @@ Si les stratégies de votre organisation vous empêche l’affichage des rapport
 
 - [Skype pour le rapport de détails de session Business](session-details-report.md) Vous pouvez voir plus d’informations sur les expériences d’appel d’un utilisateur individuel.
     
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 [Rapports d'activité dans le centre d’administration Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

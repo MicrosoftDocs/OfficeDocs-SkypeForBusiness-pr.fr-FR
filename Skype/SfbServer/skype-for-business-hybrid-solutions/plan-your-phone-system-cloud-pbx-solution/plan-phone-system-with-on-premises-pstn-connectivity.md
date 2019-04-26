@@ -19,11 +19,11 @@ ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: Obtenir des informations sur les considérations de planification pour le système téléphonique dans Office 365 (en nuage PBX) avec une connectivité PSTN sur site.
 ms.openlocfilehash: 3c3dcb8316cdd3665d7570d16777a8b4195c4a82
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897913"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237584"
 ---
 # <a name="plan-phone-system-in-office-365-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Planifier Business Server système téléphonique dans Office 365 avec une connectivité PSTN local dans Skype
 

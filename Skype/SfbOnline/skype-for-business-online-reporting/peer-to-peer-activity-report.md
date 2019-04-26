@@ -22,15 +22,15 @@ ms.custom:
 - Reporting
 description: 'Get a Skype for Business Peer-to-peer activity report, and learn how to interpret and customize it for your needs. '
 ms.openlocfilehash: 7610f8c97dcab5536f8c02420e4aff83cb4aaefe
-ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30453975"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32242226"
 ---
 # <a name="peer-to-peer-activity-report"></a>Rapport d'activités pair à pair
 
-**Rapports**, le nouveau tableau de bord d'Office 365, vous donne une vue d'ensemble de l'activité de tous les produits Office 365 dans votre organisation. Il vous permet d'explorer les rapports au niveau de chaque produit pour obtenir une vue d'ensemble plus précise des activités qu'ils contiennent. Par exemple, vous pouvez utiliser le rapport **Skype pour l’activité d’égal à égal** pour voir combien vos utilisateurs sont à l’aide de messagerie instantanée, application d’audio, vidéo, partage et transfert de fichiers. 
+Le nouveau tableau de bord **Rapports** d'Office 365 vous donne une vue d'ensemble de l'activité de tous les produits Office 365 dans votre organisation. Il vous permet d'explorer les rapports au niveau de chaque produit pour obtenir une vue d'ensemble plus précise des activités qu'ils contiennent. Par exemple, vous pouvez utiliser le rapport **Skype pour l’activité d’égal à égal** pour voir combien vos utilisateurs sont à l’aide de messagerie instantanée, application d’audio, vidéo, partage et transfert de fichiers. 
 
 Consultez la rubrique [vue d’ensemble des rapports](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263).
   
@@ -117,7 +117,7 @@ Si les stratégies de votre organisation vous empêche l’affichage des rapport
 
 - [Skype pour le rapport de détails de session Business](session-details-report.md) Vous pouvez voir plus d’informations sur les expériences d’appel d’un utilisateur individuel.
     
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 [Rapports d'activité dans le centre d’administration Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

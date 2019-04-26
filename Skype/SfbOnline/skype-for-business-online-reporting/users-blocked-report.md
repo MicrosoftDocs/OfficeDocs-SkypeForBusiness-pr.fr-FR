@@ -19,11 +19,11 @@ ms.custom:
 - Reporting
 description: 'Ce rapport, ainsi que d’autres Skype pour les rapports d’entreprise, vous donne plus d’informations sur l’activité, y compris l’utilisation PSTN au sein de votre organisation. '
 ms.openlocfilehash: 2cd12c19911df796ae33bd841e8fd15b987cf366
-ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30453955"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32239838"
 ---
 # <a name="users-blocked-report"></a>Rapport d'utilisateurs bloqués
 
@@ -84,7 +84,7 @@ Cela exportera les données de tous les utilisateurs et vous permettra de trier 
 
 - [Skype pour le rapport de détails de session Business](session-details-report.md) Vous pouvez voir plus d’informations sur les expériences d’appel d’un utilisateur individuel.
    
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 [Rapports d'activité dans le centre d’administration Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

@@ -21,15 +21,15 @@ ms.custom:
 - Security
 description: Guide de sécurité pour Skype Entreprise Online <add description>
 ms.openlocfilehash: 555a7bd3e4a57c637c0375ea406caeca3c221be7
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30493913"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32247999"
 ---
 # <a name="security-and-skype-for-business-online"></a>Sécurité et Skype pour les entreprises en ligne
 
-Skype for Business Online (SfBO), as part of the Office 365 service, follows all the security best practices and procedures such as service-level security through defense-in-depth, customer controls within the service, security hardening and operational best practices. Pour plus d’informations, consultez le Center Trust Microsoft (https://microsoft.com/trustcenter).
+Skype Entreprise Online (SfBO), en tant qu’élément du service Office 365, observe toutes les meilleures pratiques et procédures de sécurité comme la sécurité au niveau des services, la défense en profondeur, les contrôles clients au sein du service, la sécurité renforcée et les meilleures pratiques opérationnelles. Pour plus d’informations, consultez le Center Trust Microsoft (https://microsoft.com/trustcenter).
 
 ## <a name="trustworthy-by-design"></a>Fiable par conception
 Skype for Business Online is designed and developed in compliance with the Microsoft Trustworthy Computing Security Development Lifecycle (SDL), which is described at https://www.microsoft.com/en-us/sdl/default.aspx. The first step in creating a more secure unified communications system was to design threat models and test each feature as it was designed. Multiple security-related improvements were built into the coding process and practices. Build-time tools detect buffer overruns and other potential security threats before the code is checked in to the final product. Of course, it is impossible to design against all unknown security threats. No system can guarantee complete security. However, because product development embraced secure design principles from the start, Skype for Business Online incorporates industry standard security technologies as a fundamental part of its architecture. 
@@ -55,7 +55,7 @@ The denial-of-service attack occurs when the attacker prevents normal network us
 SfBO atténue les attaques en exécutant la protection du réseau par déni Azure et par la limitation de requêtes client à partir des mêmes points de terminaison, sous-réseaux, les entités fédérées.
 
 ### <a name="eavesdropping"></a>Protection contre l’écoute
-Eavesdropping can occur when an attacker gains access to the data path in a network and has the ability to monitor and read the traffic. This is also called sniffing or snooping. If the traffic is in plain text, the attacker can read the traffic when the attacker gains access to the path. An example is an attack performed by controlling a router on the data path. 
+Une attaque par écoute peut se produire lorsqu’une personne malveillante parvient à accéder au chemin d’accès des données d’un réseau et qu’elle peut ainsi surveiller et lire le trafic. Cette attaque est également appelée reniflage (« sniffing ») ou surveillance (« snooping »). Si le trafic consiste en du texte simple, l’intrus peut lire le trafic lorsqu’il accède au chemin d’accès des données. Par exemple, une attaque peut être lancée en contrôlant un routeur sur le chemin de données. 
 
 SfBO uses mutual TLS (MTLS) for server communications within O365 and TLS from clients to the service, rendering this attack very difficult to impossible to achieve within the time period in which a given conversation could be attacked. TLS authenticates all parties and encrypts all traffic. This does not prevent eavesdropping, but the attacker cannot read the traffic unless the encryption is broken.
 
@@ -77,7 +77,7 @@ Une attaque de l’intercepteur peut également se produire avec le trafic multi
 A replay attack occurs when a valid media transmission between two parties is intercepted and retransmitted for malicious purposes. SfBO uses SRTP in conjunction with a secure signaling protocol that protects transmissions from replay attacks by enabling the receiver to maintain an index of already received RTP packets and compare each new packet with those already listed in the index.
 
 ### <a name="spim"></a>Messages instantanés indésirables (Spim)
-Spim is unsolicited commercial instant messages or presence subscription requests. While not by itself a compromise of the network, it is annoying in the least, can reduce resource availability and production, and can possibly lead to a compromise of the network. An example of this is users spimming each other by sending requests. Users can block each other to prevent this, but with federation, if a coordinated spim attack is established, this can be difficult to overcome unless you disable federation for the partner.
+Le spim correspond à des messages instantanés commerciaux ou des demandes d’abonnement aux informations de présence non sollicités. S’il ne constitue pas à lui seul une menace envers le réseau, il peut néanmoins perturber les activités des utilisateurs et avoir un impact négatif sur la disponibilité des ressources et la production. Il représente donc un risque potentiel pour le réseau. Prenons le cas d’utilisateurs qui génèrent du spim en s’envoyant mutuellement des demandes. Un utilisateur peut en bloquer un autre pour ne plus recevoir de messages instantanés indésirables. Toutefois, dans le cas de la fédération, il peut s’avérer difficile de faire face à une attaque de spim coordonnée, à moins de désactiver la fédération pour le partenaire.
 
 ### <a name="viruses-and-worms"></a>Virus et vers
 Un virus est une unité de code ayant pour finalité la reproduction d’unités de code similaires supplémentaires. Pour fonctionner, un virus a besoin d’un hôte, par exemple un fichier, un e-mail ou un programme. Comme un virus, un ver est une unité de code codée pour reproduire des unités de code similaires, mais contrairement à un virus, il n’a pas besoin d’hôte. Les virus et les vers apparaissent principalement lors des transferts de fichiers entre clients ou lorsque des URL sont envoyées par d’autres utilisateurs. Si vous avez un virus sur votre ordinateur, il peut, par exemple, utiliser votre identité et envoyer des messages instantanés en votre nom. Les meilleures pratiques standard de sécurité client, telles que la recherche périodique de virus, peuvent atténuer ce problème. 
@@ -203,7 +203,7 @@ For media authentication, the ICE and TURN protocols also use the Digest challen
 Les certificats clients permettent également aux utilisateurs d’être authentifiés par SfBO. Au lieu d’un nom d’utilisateur et le mot de passe, les utilisateurs ont un certificat et la clé privée correspondant au certificat est requis pour résoudre un défi de chiffrement. 
 
 ### <a name="windows-powershell-and-sfbo-management-tools"></a>Outils de gestion Windows PowerShell et SfBO
-Dans SFBO, les administrateurs informatiques peuvent gérer leur service via le portail d’administration d’O365 ou en utilisant TRPS (Tenant Remote PowerShell). Les administrateurs de clients utilisent l’authentification moderne pour s’authentifier auprès de TRPS.
+Dans SFBO, les administrateurs informatiques peuvent gérer leur service via le portail d’administration d’O365 ou en utilisant TRPS (Tenant Remote PowerShell). Administrateurs du client permet de s’authentifier auprès de TRPS authentification moderne.
 
 ### <a name="configuring-access-to-sfbo-at-your-internet-boundary"></a>Configuration de l'accès à SfBO à votre frontière Internet
 Pour SfBO fonctionne correctement (les utilisateurs peuvent participer à des réunions, etc.), les clients devoir configurer leur accès à internet afin que le trafic UDP et TCP sortant pour les services dans le SfBO cloud est autorisée. Pour plus d’informations, voir ici :https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_lyo 
@@ -237,7 +237,7 @@ Enabling external users and internal users to exchange media requires an Access 
 4. Entre le client et A / V Conferencing Server, une connexion media est négocié et le programme d’installation sur SRTP.
 5. A user receives an email containing an invitation to join an SfBO meeting. The email contains a conference key and a HTTP-based URL linking to the conference. Both the key and the URL are unique for a particular meeting.
 
-### <a name="federation-safeguards-for-sfbo"></a>Protections de la fédération pour SFBO
+### <a name="federation-safeguards-for-sfbo"></a>Protections de la fédération pour SfBO
 La fédération fournit à votre organisation la possibilité de communiquer avec d’autres organisations pour partager la messagerie instantanée et la présence. Dans SFBO, la fédération est activée par défaut. Cependant, les administrateurs de clients ont la possibilité de contrôler cela à travers le portail d’administration d’O365. En savoir plus.
 
 ## <a name="addressing-threats-to-sfbo-conferences"></a>Répondre aux menaces pesant sur les conférences SFBO
@@ -285,6 +285,6 @@ Meeting organizers control whether participants can present during a meeting. Ea
 - **Tout le monde, y compris les personnes extérieures à mon entreprise**&nbsp;&nbsp;tout le monde (aucune restriction) qui rejoint la réunion peut faire une présentation.
 - **Les personnes que je choisis**&nbsp;&nbsp;L’organisateur de la réunion précise quels utilisateurs peuvent présenter en les ajoutant à une liste de présentateurs.
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 [Centre de gestion de la confidentialité de Microsoft](https://microsoft.com/trustcenter)
 

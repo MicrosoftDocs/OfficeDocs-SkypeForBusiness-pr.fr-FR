@@ -24,11 +24,11 @@ ms.custom:
 - LIL_Placement
 description: 'Apprenez à configurer votre domaine, les utilisateurs, messagerie instantanée et la présence de votre organisation pour installer Skype pour les entreprises. Voir aussi comment configurer les services d’audioconférence, système téléphonique et Plans de l’appel et diffusion Skype réunion. '
 ms.openlocfilehash: 2a968fa0f5b89351c2a7a2726052b1418f0ac213
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878683"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237823"
 ---
 # <a name="set-up-skype-for-business-online"></a>Configurer Skype Entreprise Online
 
@@ -172,7 +172,7 @@ La qualité de l'image, du son et du partage d'applications dans Skype Entrepris
 
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 <a name="bkmk_more"> </a>
 
 [Planifier une connectivité hybride entre Skype Entreprise Server et Skype Entreprise Online](https://go.microsoft.com/fwlink/p/?linkid=400791)

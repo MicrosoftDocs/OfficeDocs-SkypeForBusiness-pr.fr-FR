@@ -19,11 +19,11 @@ ms.custom:
 - Setup
 description: 'Découvrez comment planifier et déployer Skype pour les entreprises de petites, moyennes et grandes entreprises et la disposition de vos utilisateurs. '
 ms.openlocfilehash: 6dccd022d82519c1dfdce13f767e5b0a2531eb10
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896792"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237691"
 ---
 # <a name="deploy-the-skype-for-business-client-in-office-365"></a>Déployer le Skype pour client d’entreprise dans Office 365
 
@@ -149,7 +149,7 @@ Pour certaines organisations, qu’ils souhaitent tester les nouvelles fonctionn
   
 Vous pouvez contrôler la fréquence à laquelle vous obtenez les mises à jour de la fonctionnalité à l’aide de l’outil déploiement d’Office ou de la stratégie de groupe pour configurer le canal de mise à jour. Le permet de canal mensuel vous fonctionnalités mises à jour tous les mois (environ), tandis que le canal annuel séparées offre des fonctionnalités mises à jour tous les six mois. Pour plus d’informations sur les canaux, voir [vue d’ensemble des canaux de mise à jour pour Office 365 ProPlus](https://support.office.com/article/9ccf0f13-28ff-4975-9bd2-7e4ea2fefef4).
   
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Configurer Skype entreprise Online](set-up-skype-for-business-online.md)
   

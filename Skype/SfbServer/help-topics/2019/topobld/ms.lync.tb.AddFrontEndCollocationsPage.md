@@ -14,11 +14,11 @@ ms.assetid: 23e3bda7-a8bf-4da4-88e5-098ae2aa268f
 ROBOTS: NOINDEX, NOFOLLOW
 description: Pour un déploiement Enterprise Edition, A / service de conférence de V est colocalisé sur le pool frontal. Vous pouvez également colocaliser le serveur de médiation sur le pool frontal, ou vous pouvez le déployer en tant que serveur autonome. A / service de conférence de V est toujours colocalisé si la conférence est activée.
 ms.openlocfilehash: a9f0f46cbd93681b068ef7d87e269c5ff4024385
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875382"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235504"
 ---
 # <a name="add-front-end-server-collocations"></a>Ajouter des colocalisations du serveur frontal
 

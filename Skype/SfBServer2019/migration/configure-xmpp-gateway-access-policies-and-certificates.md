@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'La fédération XMPP définit un déploiement externe en fonction des eXtensible Messaging et présence protocole XMPP (). Une configuration XMPP permet aux utilisateurs d’accéder à des utilisateurs de domaine XMPP par :'
 ms.openlocfilehash: 65ef8904660eaa75ddd10238a6561ea91b9f7278
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889972"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238660"
 ---
 # <a name="configure-xmpp-gateway-access-policies-and-certificates"></a>Configuration des certificats et des stratégies d’accès de passerelle XMPP
 

@@ -1,5 +1,5 @@
 ---
-title: Affecter, modifier ou supprimer un numéro de téléphone d’un utilisateur
+title: Affectation, modification ou suppression du numéro de téléphone d’un utilisateur
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -20,15 +20,15 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: Learn how to assign, change, or remove a work phone number to your Skype for Business users so outside businesses and clients can call in.
+description: Découvrez comment attribuer, modifier ou supprimer le numéro de téléphone professionnel de vos utilisateurs Skype Entreprise pour que les entreprises et les clients extérieurs puissent appeler.
 ms.openlocfilehash: 0e354956d1077b2f81de7b889d8085f05db038c4
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047747"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235691"
 ---
-# <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Affecter, modifier ou supprimer un numéro de téléphone d’un utilisateur
+# <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Affectation, modification ou suppression du numéro de téléphone d’un utilisateur
 
 Lorsque vous configurez des Plans de l’appel dans Office 365, vous assignez les numéros de téléphone à vos utilisateurs. 
 
@@ -50,9 +50,9 @@ Lorsque vous configurez les utilisateurs afin qu’ils peuvent émettre et recev
 Pour savoir comment obtenir des Forfaits d’appels dans Office 365 et leur coût, consultez la rubrique [Licences de modules complémentaires pour Skype Entreprise et Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
 > [!NOTE]
-> Pour savoir si un utilisateur possède une licence est en accédant à **Skype pour le centre d’administration Business** > **vocale** > **utilisateurs Enterprise Voice** et en sélectionnant l’utilisateur. Si une licence est attribuée, il est indiqué sous **licence affecté**. Vous pouvez également utiliser le centre d’administration Office 365. 
+> One way to see whether a user has a license assigned is by going to **Skype for Business admin center** > **Voice** > **Voice users** and selecting the user. If a license is assigned, it will be noted under **Assigned license**. You also can use the Office 365 admin center. 
   
- ## <a name="assign-a-phone-number-to-a-user"></a>Attribution d'un numéro de téléphone à un utilisateur
+ ## <a name="assign-a-phone-number-to-a-user"></a>Affecter un numéro de téléphone à un utilisateur
  
 ![SFB-logo-30x30.png](../images/sfb-logo-30x30.png) **à l’aide de la Skype entreprise centre d’administration**
  
@@ -80,7 +80,7 @@ Pour savoir comment obtenir des Forfaits d’appels dans Office 365 et leur coû
 8. Après avoir choisi le numéro de téléphone et l'adresse de secours, cliquez sur **Enregistrer**.
     
     > [!NOTE]
-    > En raison de la latence entre Office 365 et Skype pour Business Online, il peut éventuellement prendre jusqu'à 24 heures pour les utilisateurs à activer. Si après 24 heures, si le numéro de téléphone n’est pas correctement affecté, veuillez [contacter le support technique pour les produits métiers : aide d’administration](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). Nous sommes là pour vous aider ! 
+    > Because of the latency between Office 365 and Skype for Business Online, it can possibly take up to 24 hours for users to be enabled. If after 24 hours, if the phone number isn't assigned correctly, please [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). We're here to help! 
   
 
 
@@ -125,14 +125,14 @@ Pour savoir comment obtenir des Forfaits d’appels dans Office 365 et leur coû
 6. Dans la page **Supprimer le numéro sélectionné attribué ?**, cliquez sur **Oui**.
     
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 [Qu’est-ce que la validation d’adresse ?](what-is-address-validation.md)
 
 [Gérer des numéros de téléphone pour votre entreprise](/microsoftteams/manage-phone-numbers-for-your-organization)
 
 [Conditions générales relatives aux appels d'urgence](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

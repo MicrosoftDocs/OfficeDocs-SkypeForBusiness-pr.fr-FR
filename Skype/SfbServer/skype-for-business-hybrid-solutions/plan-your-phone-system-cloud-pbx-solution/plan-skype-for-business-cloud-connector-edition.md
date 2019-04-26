@@ -19,11 +19,11 @@ ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: Obtenez des informations sur la version Cloud Connector de Skype Entreprise, un ensemble de machines virtuelles (VM) qui met en œuvre une connectivité PSTN locale avec un système téléphonique d'Office 365 (Cloud PBX).
 ms.openlocfilehash: 21a37b40b0069df9043c69814e40853ced16ce7e
-ms.sourcegitcommit: 5b33cfc828906917f76b0d2a9ae402c9336388a1
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30934755"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32242096"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>Planification pour Skype Entreprise, version Cloud Connector
 
@@ -704,7 +704,7 @@ Cloud Connector 2.1 et les versions ultérieures prennent en charge la surveill
 ## <a name="for-more-information"></a>Pour plus d'informations
 <a name="BKMK_MoreInfo"> </a>
 
-Pour plus d’informations, voir les articles suivants :
+Pour plus d'informations, voir les articles suivants :
 
 - [Détails sur les solutions téléphoniques Microsoft Telephony](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)
 

@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Après avoir déployé Skype pour Business Server 2019, vous devez configurer un itinéraire de fédération pour votre site. Pour pouvoir utiliser l’itinéraire fédéré utilisé par l’installation héritée, Skype pour Business Server 2019 doit être configuré pour utiliser cet itinéraire.
 ms.openlocfilehash: 5a3498041b4af762d184cd56e3883a90612b13e0
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874744"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238667"
 ---
 # <a name="connect-pilot-pool-to-legacy-edge-servers"></a>Connexion du pool pilote aux serveurs Edge hérités
 

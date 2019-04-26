@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Lorsqu’un utilisateur clique sur un lien de la réunion dans une demande de réunion, la réunion page de participation aux détecte que le client est déjà installé sur l’ordinateur de l’utilisateur. Si un client est déjà installé, que le client s’ouvre et rejoint la réunion. Si un client n’est pas installé, par défaut l’application Web s’ouvre.
 ms.openlocfilehash: 88ae915318505efef6ae716a17217aaa1e7b12df
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879939"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238715"
 ---
 # <a name="configure-the-meeting-join-page"></a>Configuration de la page de participation à une réunion
 

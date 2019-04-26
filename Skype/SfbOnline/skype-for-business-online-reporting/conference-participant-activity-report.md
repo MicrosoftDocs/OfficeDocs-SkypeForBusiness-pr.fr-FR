@@ -20,11 +20,11 @@ ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Conference Participant Activity report, and how to interpret and customize it. '
 ms.openlocfilehash: 44427c5ed40d44c9ad82223dd468f869dcbeec0c
-ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30454065"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32242020"
 ---
 # <a name="conference-participant-activity-report"></a>Rapport d'activités de participant à la conférence
 
@@ -111,7 +111,7 @@ Si les stratégies de votre organisation vous empêche l’affichage des rapport
 
 - [Skype pour le rapport de détails de session Business](session-details-report.md) Vous pouvez voir plus d’informations sur les expériences d’appel d’un utilisateur individuel.
     
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 [Rapports d'activité dans le centre d’administration Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

@@ -1,5 +1,5 @@
 ---
-title: 'Skype pour retraite Business Online Plan 1 '
+title: 'Skype Entreprise Online - Déclassement de l’offre 1 '
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,13 @@ ms.custom:
 - Licensing
 description: 'Le Skype pour Business Online Plan 1 a été retirée. Toutefois, si vous avez un abonnement à Skype pour Business Online Plan 1, cette modification n’affecte pas vous immédiatement. Lorsque vous êtes prêt à déplacer vers un nouveau plan : maintenant ou au cours du renouvellement, vous avez trois options.'
 ms.openlocfilehash: d8468fa2d070e98cb19a1f41fff6884ac7c3517e
-ms.sourcegitcommit: 6212645c485c41aafe1206bf7d39171ce35837b2
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "24968601"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32248712"
 ---
-# <a name="skype-for-business-online-plan-1-retirement"></a>Skype pour retraite Business Online Plan 1 
+# <a name="skype-for-business-online-plan-1-retirement"></a>Skype Entreprise Online - Déclassement de l’offre 1 
 
 Le Skype pour Business Online Plan 1 a été retirée. Toutefois, si vous avez un abonnement à Skype pour Business Online Plan 1, cette modification n’affecte pas vous immédiatement. En tant qu’un administrateur global d’Office 365, vous recevoir des mises à jour de courrier électronique et afficher les publications dans le centre de messages (partie du centre d’administration Office 365) avec des informations sur lorsque vous devez effectuer une action. En attendant, vous pouvez continuer à utiliser votre Skype existant pour les licences Business Online Plan 1.
 

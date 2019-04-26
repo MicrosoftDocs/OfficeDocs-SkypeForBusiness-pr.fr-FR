@@ -1,5 +1,5 @@
 ---
-title: Les équipes Microsoft salles
+title: Salles Microsoft Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,11 +22,11 @@ ms.custom:
 - LIL_Placement
 description: 'Découvrez les fonctionnalités disponibles dans les salles d’équipes Microsoft. '
 ms.openlocfilehash: bd82311632707de5a8f8d837024da28dbcf9bf26
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012507"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238324"
 ---
 # <a name="microsoft-teams-rooms-licenses"></a>Licences de salles d’équipes Microsoft
 <a name="bkmk_srs"> </a>
