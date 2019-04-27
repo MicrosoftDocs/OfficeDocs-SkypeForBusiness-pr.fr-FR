@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c559aacb-4e1d-4e78-9582-41f966ad418d
 description: Découvrez les options de haute disponibilité du serveur principal prises en charge dans Skype pour Business Server, y compris les groupes de disponibilité AlwaysOn, Instances de Cluster de basculement AlwaysOn, la mise en miroir de base de données et le clustering avec basculement SQL.
-ms.openlocfilehash: 5f95ea1a1a856db945e1d0fac5683b1fb8c4c02e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b6a466c398e5b25793d7e07f9e07815ba5387140
+ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32214102"
+ms.lasthandoff: 04/26/2019
+ms.locfileid: "33356217"
 ---
 # <a name="back-end-server-high-availability-in-skype-for-business-server"></a>Arrière serveur haute disponibilité dans Skype pour Business Server
  
@@ -50,7 +50,7 @@ Skype pour Business Server prend en charge la mise en miroir avec le logiciel de
     
 
 > [!NOTE]
-> SQL Server 2016 est la seule version prise en charge par Skype pour Business Server 2019.
+> La mise en miroir SQL est disponible dans Skype pour Business Server 2015 mais n’est plus pris en charge dans Skype pour Business Server 2019. Les méthodes de clustering avec basculement SQL, les Instances de Cluster de basculement AlwaysOn (FCI) et les groupes de disponibilité AlwaysOn sont préférés avec Skype pour Business Server 2019.
     
 La mise en miroir de base de données asynchrone n’est pas pris en charge pour la haute disponibilité de serveur principal dans Skype pour Business Server. Dans le reste du document, sauf mention explicite, la mise en miroir sous-entend une mise en miroir synchrone. 
   
