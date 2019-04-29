@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour les États-Unis.
-ms.openlocfilehash: 7974ce4ecd20793b3523a14f501247568d2962bc
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: fff28a277df0513728463a1415ed3acedbf08910
+ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541959"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33402546"
 ---
 # <a name="availability-in-the-united-states-us"></a>Disponibilité aux États-Unis
 
@@ -63,15 +63,17 @@ Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft
 | Minutes disponibles pour les Plans de l’appel.              | Il existe quatre options de plan par mois : <ul><li>120 minutes nationales appelant planifier de (disponibilité est limitée)</li><li>240 minutes nationales appelant planifier de (disponibilité est limitée)</li></li><li>3000 minute de planifier l’appel interne </li></li><li>Nationales et internationales appelant planifier : 3000 minutes d’intérieurs - ou-600 minutes d’appels internationaux (si elle est atteinte premier dans le mois)</li></li> |
 | Peut passer des appels sortants vers les numéros ? <br/> | Non pris en charge pour l’instant. <br/>                                                                                                                                                                                                                                                                                               |
 | Est-il possible de passer des appels sortants ?  <br/>                | Vers 196 pays, dont [ :](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/>                                                                                                                                                                                                                      |
+> [!Note]
+> Les appels au Canada sont considérés comme des appels nationaux.
 
 >[!Note] 
-> Les appels nationaux aux États-Unis incluent ceux à destination de l'ensemble des 50 États des États-Unis et de Porto Rico. Les utilisateurs ayant reçu l'emplacement d'utilisation sous licence des États-Unis et/ou de Porto Rico partagent le même nombre de minutes.
+> Appel interne États-Unis comprend des appels à tous les États US 50 et Porto Rico. Les utilisateurs affectés à l’emplacement de l’utilisation de licence des États-Unis et/ou Porto Rico partagent le même pool de minutes.
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Numéros payants et gratuits pour les services
 
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
-|Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?  <br/> |<ul><li>Alabama, Birmingham <li>  Arizona, Phoenix <li>  Arkansas, Little Rock <li> Californie, Los Angeles <li> Californie, San Francisco <li>  Colorado, Denver <li>  Columbia, Washington DC <li>  Connecticut, Hartford <li>  Delaware, Wilmington <li>Floride, Miami <li>  Géorgie, Atlanta <li> Hawaii, Honolulu <li> Idaho, Boise <li> Illinois, Aurora <li> Illinois, Chicago <li> Illinois, Cicero<li>  Indiana, Indianapolis <li>  Iowa, Iowa City <li>  Kansas, Wichita <li> Kentucky, Louisville <li>  Louisiane, Nouvelle-Orléans <li> Maine, Portland <li> Maryland, Baltimore <li>  Massachusetts, Boston <li> Michigan, Pontiac <li> Minnesota, Minneapolis <li> Minnesota, St. Paul <li> Mississippi, Jackson <li>  Missouri, Kansas City <li>Missouri, St. Louis <li>  Montana, Billings <li> Caroline du Nord, Charlotte<li>Dakota du Nord, Fargo <li> Nebraska, Omaha <li> Nevada, Las Vegas <li>  New Hampshire, Manchester <li> New Jersey, Newark <li> Nouveau-Mexique, Albuquerque <li>  New York, New York City <li>Ohio, Columbus <li>Oklahoma, Oklahoma City <li> Oregon, Portland <li> Pennsylvanie, Philadelphia <li> Rhode Island, Providence <li>  Caroline du Sud, Charleston <li>Dakota du Sud, Sioux Falls <li>  Tennessee, Memphis <li> Texas, Dallas <li>  Texas, Houston <li> Utah, Salt Lake City <li> Vermont, Brattleboro<li> Virginie, Richmond <li> Washington, Seattle <li>  Virginie-Occidentale, Charleston<li>  Wisconsin, Milwaukee <li> Wyoming, Laramie</ul> |
+|Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?  <br/> |<ul><li>Les équipes, Birmingham <li>  Islande, Nice <li>  Arkansas, petit Rock <li> Los Angeles, Californie <li> Californie, San Francisco <li>  Colorado, Denver <li>  Colombie, Washington DC <li>  Connecticut, Hartford <li>  Delaware, Wilmington <li>Floride, Miami <li>  Géorgie, Atlanta <li> Hawaï, Honolulu <li> Idaho, Boise <li> (Illinois), Aurora <li> (Illinois), Chicago <li> (Illinois), Cicero<li>  Indiana, Indianapolis <li>  Ville Iowa, Iowa <li>  Kansas, Wichita <li> Texas, Louisville <li>  Louisiane, Nouvelle Orléans <li> Maine, Portland <li> Maryland, Baltimore <li>  Massachusetts, Boston <li> Michigan, Pontiac <li> Minnesota, Minneapolis <li> Minnesota, Saint Paul <li> Mississippi, Jackson <li>  Missouri, Kansas City <li>Missouri, Carcassonne <li>  Montana, facturation <li> Charlotte, en Caroline du Nord<li>Hérault, Fargo <li> Nebraska, Omaha <li> Nevada, Las Vegas <li>  Finistère, tours <li> New Jersey, Newark <li> Nouveau Mexique, Albuquerque <li>  Ville de New York, États-Unis <li>Ohio, Columbus <li>Oklahoma, Oklahoma City <li> Oregon, Portland <li> Pennsylvanie, Philadelphie <li> Rhode Providence, (îles) <li>  Caroline du Sud, Charleston <li>Loir, Sioux appartient <li>  Tennessee, Memphis <li> Texas, Dallas <li>  Texas, Houston <li> Traiter Rouen <li> Vermont, Brattleboro<li> Virgin, Richmond <li> Washington, Seattle <li>  Virginie, Charleston<li>  Wisconsin, Milwaukee <li> Wyoming, Laramie</ul> |
 |Les numéros payants sont-ils disponibles ?  <br/> |Oui  <br/> |
 |Les numéros gratuits sont-ils disponibles ?  <br/> |Oui  <br/> |
 

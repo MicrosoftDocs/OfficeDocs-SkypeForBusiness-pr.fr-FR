@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 8a2371c72f24b19b9e3c4fe836a59cbc800ad1c4
-ms.sourcegitcommit: 16b3ee042e8f0efacc92811ff8be093b240df9fd
+ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/25/2019
-ms.locfileid: "33304716"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33401789"
 ---
 # <a name="make-my-service-decisions"></a>Prendre des décisions de mon service
 

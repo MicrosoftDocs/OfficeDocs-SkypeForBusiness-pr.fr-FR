@@ -1,5 +1,5 @@
 ---
-title: Aperçu de Teams PowerShell
+title: Vue d’ensemble de PowerShell équipes
 ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
@@ -13,14 +13,14 @@ ms.collection:
 description: Découvrez comment utiliser les contrôles de PowerShell pour gérer Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e85261b133d8f1562bcca7d79f83eb21e345be2
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a56783a4958038710440fc899081abfdd24f1dec
+ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204468"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33401629"
 ---
-# <a name="teams-powershell-overview"></a>Aperçu de Teams PowerShell
+# <a name="teams-powershell-overview"></a>Vue d’ensemble de PowerShell équipes
 
 Microsoft Teams possède un ensemble d’outils pour les administrateurs informatiques à gérer le produit via le centre d’administration de Microsoft Teams, les contrôles de PowerShell et API de graphique. Ce guide explique comment nous structure notre applets de commande PowerShell pour les administrateurs informatiques à utiliser et fournit des pointeurs vers la documentation supplémentaire. Notez que les différents rôles d’administrateur équipes ont accès aux applets de commande différents. Pour plus d’informations, voir [utiliser les équipes Microsoft rôles d’administrateur pour gérer les équipes](using-admin-roles.md).
 
@@ -43,6 +43,37 @@ Les applets de commande pour la création et la gestion des équipes se trouvent
 Les équipes sont sauvegardés par groupes O365, donc lorsque vous créez une équipe, vous créez un groupe. Il existe un ensemble d’applets de commande fournies pour l’exploitation de l’équipe de base et de ses paramètres (``new-team``, ``get-team``, ``set-team``), la gestion des utilisateurs de l’équipe (``add-teamuser``, ``remove-teamuser``), ainsi que des applets de commande pour gérer les canaux de l’équipe (``new-teamchannel``, ``remove-teamchannel``). Toutes ces applets de commande peuvent être exécutée en tant que les utilisateurs finaux, mais qu’elles fonctionnent uniquement sur les équipes que vous possédez ou que vous êtes membre. Si vous êtes un administrateur Global ou un administrateur de Service d’équipes, vous serez en mesure d’agir sur toutes les équipes de votre organisation.
 
 > **GroupId** utilisé dans les applets de commande PowerShell d’équipes Microsoft module est identique à la propriété **Identity** retournée par ``Get-UnifiedGroup`` dans le module PowerShell Exchange.
+
+### <a name="differences-between-preview-and-generally-available-microsoft-teams-powershell-module"></a>Différences entre Preview et les équipes Microsoft sont généralement disponibles le Module PowerShell
+
+Lors de la publication notre version généralement disponible de notre module PowerShell, certaines applets de commande ont été gauche dans le module bêta uniquement, comme décrit dans le tableau ci-dessous.
+
+| Applet de commande | Disponible en mode Aperçu | Disponible dans 1.0 |
+|------- | -------------------- | ------------------------------ |
+| TeamUser ajouter | Oui | Oui |
+| MicrosoftTeams se connecter | Oui | Oui |
+| MicrosoftTeams se déconnecter | Oui | Oui |
+| Get-équipe | Oui | Oui |
+| Get-TeamChannel | Oui | Oui |
+| Get-TeamFunSettings | Avant la 1.0 version uniquement | Non |
+| Get-TeamGuestSettings | Avant la 1.0 version uniquement | Non |
+| Get-TeamHelp | Oui | Oui |
+| Get-TeamMemberSettings | Avant la 1.0 version uniquement | Non |
+| Get-TeamMessagingSettings | Avant la 1.0 version uniquement | Non |
+| Get-TeamUser | Oui | Oui |
+| Nouvelle équipe | Oui | Oui |
+| Nouvelle TeamChannel | Oui | Oui |
+| Remove-équipe | Oui | Oui |
+| Remove-TeamChannel | Oui | Oui |
+| Remove-TeamUser | Oui | Oui |
+| Set-équipe | Oui | Oui |
+| Set-TeamChannel | Oui | Oui |
+| Set-TeamFunSettings | Avant la 1.0 version uniquement | Non |
+| Set-TeamGuestSettings | Avant la 1.0 version uniquement | Non |
+| Set-TeamMemberSettings | Avant la 1.0 version uniquement | Non |
+| Set-TeamMessagingSettings | Avant la 1.0 version uniquement | Non |
+| Set-TeamPicture | Oui | Non, planifié |
+
 
 ## <a name="managing-policies-via-powershell"></a>Gestion des stratégies via PowerShell
 

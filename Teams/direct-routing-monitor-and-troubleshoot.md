@@ -16,11 +16,11 @@ appliesto:
 - Microsoft Teams
 description: Cet article décrit comment analyser et résoudre les problèmes de votre configuration de routage Direct.
 ms.openlocfilehash: e21d3e020f477fd1518017e0d6fc484e7ea10344
-ms.sourcegitcommit: ee3f79ce1b6da0885e1096f9fba894bcff1814da
+ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/25/2019
-ms.locfileid: "33298659"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33402445"
 ---
 # <a name="monitor-and-troubleshoot-direct-routing"></a>Contrôler et dépanner le routage direct
 
