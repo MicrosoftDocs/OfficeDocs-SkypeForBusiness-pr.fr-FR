@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 60e6d6b02719bf1055b5f8e9faa3c31febdf0bcb
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.openlocfilehash: 0f0337fb71e766b96f7648c15b46d665d846e1fb
+ms.sourcegitcommit: fa7d93551f65b2e23f9407e10a33282f71982e85
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30647552"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "33470668"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>Faire connaître et implémenter une formation à Microsoft Teams
 
@@ -65,6 +65,6 @@ Comme avec les communications et la campagne d’adoption, vous voudrez identifi
 
 Partager les informations que vous obtenir à partir de vos canaux de commentaires avec la hashtag #TeamsStories pour faciliter la recherche. Partagez une #TeamsStory par mois sur votre intranet pour mettre en avant les employés qui adhèrent au changement afin d’accroître la productivité et la collaboration dans votre environnement. Également les partager avec nous dans notre forum Adoption conduite sur la Communauté technique Microsoft. Partage de ces exemples réels au sein de votre société est particulièrement utile pour réaliser la bonne modification au fil du temps avec votre communauté d’utilisateurs.
 
-[Pour plus d’informations sur les rapports d’utilisation de Microsoft Teams dans le centre d’administration d’Office 365.](teams-activity-reports.md)
+[Pour plus d’informations sur les rapports d’utilisation de Microsoft Teams dans le centre d’administration Microsoft 365.](teams-activity-reports.md)
 
 ![Icône d’étapes suivante](media/teams-adoption-next-icon.png) suivant : [passe en revue de l’intégrité du service planification](teams-adoption-schedule-service-health-reviews.md)

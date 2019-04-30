@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5f1df731f7ff21d246f9b92e028fe3e7ae367509
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: bc8f7cf66d13f78b685505d41e9e5b1342931923
+ms.sourcegitcommit: fa7d93551f65b2e23f9407e10a33282f71982e85
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33400938"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "33470644"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Implémenter la qualité de Service (QoS) dans les équipes Microsoft
 
@@ -160,7 +160,7 @@ Pour plus d’informations sur la configuration des ports de pare-feu, accédez 
 
 ## <a name="managing-source-ports-in-the-teams-admin-center"></a>Gestion des ports source dans le centre d’administration équipes
 
-Les équipes, QoS source les ports utilisés par les différentes charges de travail doivent être activement gérés et ajustées si nécessaire. En vous référant au tableau de [plages de ports et d’un marquage DSCP](#port-ranges-and-dscp-markings), les plages de ports sont variables, mais le marquage DSCP n’est pas configurables. Une fois que vous avez implémenté ces paramètres, vous pouvez constater que les ports plus ou moins sont nécessaires pour un type de média donné. [Analytique d’appel et appel du tableau de bord qualité](difference-between-call-analytics-and-call-quality-dashboard.md) doivent être utilisés dans une prise de décision pour ajuster les plages de ports après l’implémentation d’équipes, et régulièrement en fonction des besoins.
+Les équipes, QoS source les ports utilisés par les différentes charges de travail doivent être activement gérés et ajustées si nécessaire. En vous référant au tableau [Choisir les plages de ports initiale pour chaque type de média](#choose-initial-port-ranges-for-each-media-type), les plages de ports sont variables, mais le marquage DSCP n’est pas configurables. Une fois que vous avez implémenté ces paramètres, vous pouvez constater que les ports plus ou moins sont nécessaires pour un type de média donné. [Analytique d’appel et appel du tableau de bord qualité](difference-between-call-analytics-and-call-quality-dashboard.md) doivent être utilisés dans une prise de décision pour ajuster les plages de ports après l’implémentation d’équipes, et régulièrement en fonction des besoins.
 
 > [!NOTE]
 > Si vous avez déjà configuré QoS basée sur les plages de ports source et des marquages DSCP pour Skype pour Business en ligne, la même configuration s’applique aux équipes et aucune autre client ou les modifications du réseau pour le mappage sera nécessaires si vous avez à [défini les plages utilisé dans le centre d’administration équipes](meeting-settings-in-teams.md#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings) pour correspondre à ce qui a été configuré pour Skype pour Business Online.

@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8f9f992b31dcdade2d5ba0dd85757ce99980fb80
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a3418de96bc08de90ce09faaba1b5d7ed9b959ec
+ms.sourcegitcommit: fa7d93551f65b2e23f9407e10a33282f71982e85
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32233008"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "33470593"
 ---
 ![Étapes du voyage mise à niveau, en insistant sur la phase d’Excellence opérationnelle] (media/upgrade-banner-op-excellence.png "Étapes du voyage mise à niveau, en insistant sur la phase d’Excellence opérationnelle")
 
@@ -240,7 +240,7 @@ Révision d’utilisation fréquemment au début du déploiement vous donne la p
 
 Si l’utilisation n’est pas le résultat escompté, il peut s’agir d’un problème de déploiement ou le plan d’adoption n’est pas en cours exécutée correctement, ou tout autre problème. Selon la raison réelle derrière la peu, l’administrateur de service doit collaborer avec les équipes connexes pour vous aider à supprimer les obstacles d’utilisation.
 
-### <a name="measuring-usage-with-the-office-365-admin-center"></a>Mesure de l’utilisation avec le centre d’administration Office 365
+### <a name="measuring-usage-with-the-microsoft-365-admin-center"></a>Mesure de l’utilisation avec le centre d’administration Microsoft 365
 
 Les données d’utilisation des équipes sont disponibles dans le tableau de bord de création de rapports. Vous trouverez les données d’utilisation des équipes dans trois différents rapports. Le premier rapport fournit une vue d’entre les produits d’aux utilisateurs comment communiquent et collaborent à l’aide de divers services dans Office 365. Ce rapport se trouvent ici : [rapport d’utilisateurs actifs Office 365](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Active-Users-FC1CF1D0-CD84-43FD-ADB7-A4C4DFA8112D)
 
@@ -281,9 +281,9 @@ Identifier tout d’abord, s’il s’agit d’un problème technique ou un kit 
 
 ### <a name="references"></a>Références
 
-[Sur le centre d’administration Office 365](https://support.office.com/article/About-the-Office-365-admin-center-758befc4-0888-4009-9f14-0d147402fd23)
+[À propos du centre d’administration de Microsoft 365](https://support.office.com/article/About-the-Office-365-admin-center-758befc4-0888-4009-9f14-0d147402fd23)
 
-[Rapports d'activité dans le centre d’administration Office 365](https://support.office.com/article/Activity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
+[Rapports sur les activités dans le centre d’administration Microsoft 365](https://support.office.com/article/Activity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
 
 <!--ENDOFSECTION-->
 
