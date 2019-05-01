@@ -16,12 +16,12 @@ MS.collection:
 description: Découvrez comment utiliser le rapport utilisation Teams dans le centre d’administration de Microsoft Teams pour obtenir une vue d’ensemble de l’activité des équipes dans votre organisation.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8915b544dd2f1b2e07eaac94ef17abbee93a8caa
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
-ms.translationtype: HT
+ms.openlocfilehash: abd56a961d3e976ff5810b9dc8b8e8e01b424dd4
+ms.sourcegitcommit: f29c0c41dc40f7e968a675d2cf10ef17d7e784da
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33402554"
+ms.lasthandoff: 04/30/2019
+ms.locfileid: "33495920"
 ---
 # <a name="microsoft-teams-usage-report"></a>Rapport d’utilisation de Microsoft Teams
 
@@ -43,10 +43,10 @@ Le rapport de l’utilisation Teams dans le centre d’administration de Microso
 |**1**   |Le rapport d’activité Teams permet d’observer des tendances sur les 7 ou 28 derniers jours. |
 |**2**   |Chaque rapport comporte la date à laquelle il a été généré. Les rapports reflètent généralement une latence de 24 à 48 heures par rapport à l’heure de l’activité. |
 |**3**   |<ul><li>L’axe X représente la plage de dates sélectionnée pour ce rapport.</li> <li> L’axe Y indique le nombre d’éléments ou activités actif(ve)s.</li> </ul>Pointez sur le point représentant un élément ou une activité à une date donnée pour voir le nombre d’instances de cet élément ou activité à cette date.|
-|**4**   |Vous pouvez filtrer ce qui est affiché dans le tableau en cliquant sur un élément dans la légende. Par exemple, cliquez sur **Total d’utilisateurs actifs**, **Utilisateurs actifs Teams et canaux**, **Canaux actifs**, ou **Messages** pour afficher uniquement les informations correspondantes. La modification de cette sélection ne modifie pas les informations du tableau lui-même. |
-|**5**   |Le tableau présente une répartition de l’utilisation par équipe. <ul><li>**Nom d’affichage** indique le nom complet de l’équipe. Vous pouvez cliquer sur le nom d’affichage pour accéder à la page de paramètres de l’équipe dans le centre d’administration de Microsoft Teams. </li> <li>**Confidentialité** indique si l’équipe est une équipe privée ou publique.</li> <li>**Utilisateurs actifs** correspond au nombre d’utilisateurs actifs dans l’équipe pour la période spécifiée.</li><li>**Invités** correspond au nombre d’invités dans l’équipe pour la période spécifiée.</li> </li> </ul>Pour afficher les informations que vous souhaitez dans le tableau, veillez à ajouter les colonnes correspondantes au tableau. |
-|**6**   |Sélectionnez **Modifier les colonnes** pour ajouter ou supprimer des colonnes dans le tableau. 
-|**7**   |Sélectionnez **˙˙˙**, puis **Imprimer le graphique** pour imprimer le graphique. |
+|**4**   |Vous pouvez filtrer ce qui est affiché dans le tableau en cliquant sur un élément dans la légende. Par exemple, cliquez sur **nombre Total d’utilisateurs actif**, **équipes & canaux d’utilisateurs actifs**, **canaux Active**ou **Messages** pour afficher uniquement les informations relatives à chacun d’eux. La modification de cette sélection ne modifie pas les informations du tableau lui-même. |
+|**5**   |Le tableau présente une répartition de l’utilisation par équipe. <ul><li>**Nom de l’équipe** est le nom complet de l’équipe. Vous pouvez cliquer sur le nom de l’équipe pour accéder à la page Paramètres de l’équipe dans le centre d’administration Microsoft Teams. </li> <li>**Confidentialité** indique si l’équipe est une équipe privée ou publique.</li> <li>**Utilisateurs actifs** correspond au nombre d’utilisateurs actifs dans l’équipe pour la période spécifiée.</li><li>**Invités** correspond au nombre d’invités dans l’équipe pour la période spécifiée.</li> </li> </ul>Pour afficher les informations que vous souhaitez dans le tableau, veillez à ajouter les colonnes correspondantes au tableau. |
+|**6**   |Sélectionnez **Modifier les colonnes** pour ajouter ou supprimer des colonnes dans le tableau.|
+|**7**   |Vous pouvez exporter le rapport dans un fichier CSV pour l’analyse en mode hors connexion. Cliquez sur **Exporter vers Excel**, puis sur l’onglet **Downloads** , cliquez sur **Télécharger** pour télécharger le rapport lorsque celle-ci est prête.<br>![Capture d’écran de l’onglet Downloads affichant exportés pour télécharger les rapports](../media/teams-reports-export-to-csv.png)|
 
 ## <a name="related-topics"></a>Voir aussi
 - [Analyses et rapports Teams](teams-reporting-reference.md)

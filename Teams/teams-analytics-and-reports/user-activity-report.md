@@ -16,12 +16,12 @@ MS.collection:
 description: Découvrez comment utiliser le rapport d’activité utilisateur équipes dans le centre d’administration Microsoft Teams pour savoir comment les utilisateurs de votre organisation utilisent équipes.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5ad6021f03b200e1f3216238a81cc3b691171fd
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: dcb4511463a8866448739cafb1661c55481718b2
+ms.sourcegitcommit: f29c0c41dc40f7e968a675d2cf10ef17d7e784da
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32225031"
+ms.lasthandoff: 04/30/2019
+ms.locfileid: "33495860"
 ---
 # <a name="microsoft-teams-user-activity-report"></a>Rapport d’activité des utilisateurs de Microsoft Teams
 
@@ -46,7 +46,7 @@ Le rapport d’activité utilisateur équipes vous donne un aperçu dans les typ
 |**4**   |Vous pouvez filtrer ce qui est affiché dans le tableau en cliquant sur un élément dans la légende. Par exemple, cliquez sur **appels 1:1**, les **messages de canal**ou **les messages de conversation** pour afficher uniquement les informations relatives à chacun d’eux. Modification de la sélection ne change pas les informations contenues dans le tableau. |
 |**5**   |Le tableau donne une répartition de l’utilisation par l’utilisateur.   <ul><li>**Nom complet** est le nom complet de l’utilisateur. Vous pouvez cliquer sur le nom complet pour accéder à la page Paramètres de l’utilisateur dans le centre d’administration Microsoft Teams.</li><li>**appels de 1:1** est le nombre d’appels de 1:1 ayant participé à l’utilisateur pendant la période spécifiée.</li><li>**Messages de canal** est le nombre de messages uniques que l’utilisateur est publié dans une conversation de l’équipe au cours de la période spécifiée.</li> <li>**Messages de conversation** est le nombre de messages uniques que l’utilisateur validées privé conversation au cours de la période spécifiée.</li>  <li>**Dernière activité** est la dernière date (UTC) que l’utilisateur a participé à une activité équipes.</li> </ul>Pour afficher les informations que vous souhaitez dans le tableau, veillez à ajouter les colonnes correspondantes au tableau.
 |**6**   |Sélectionnez **Modifier les colonnes** pour ajouter ou supprimer des colonnes dans le tableau. |
-|**7**   |Sélectionnez **˙˙˙**, puis **Imprimer le graphique** pour imprimer le graphique. |
+|**7**   |Vous pouvez exporter le rapport dans un fichier CSV pour l’analyse en mode hors connexion. Cliquez sur **Exporter vers Excel**, puis sur l’onglet **Downloads** , cliquez sur **Télécharger** pour télécharger le rapport lorsque celle-ci est prête.<br>![Capture d’écran de l’onglet Downloads affichant exportés pour télécharger les rapports](../media/teams-reports-export-to-csv.png)||
 
 ## <a name="related-topics"></a>Voir aussi
 - [Analyses et rapports Teams](teams-reporting-reference.md)

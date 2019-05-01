@@ -16,12 +16,12 @@ MS.collection:
 description: Découvrez comment utiliser le rapport d’utilisation du périphérique équipes dans le centre d’administration Microsoft Teams pour afficher le mode de connexion des utilisateurs de votre organisation aux équipes.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c1cd1ec97732b851246e03f6fcd56382ccdedf59
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: df5b912a9a4d76fd1be2947cea6dd2750ddbaa49
+ms.sourcegitcommit: f29c0c41dc40f7e968a675d2cf10ef17d7e784da
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33401411"
+ms.lasthandoff: 04/30/2019
+ms.locfileid: "33495896"
 ---
 # <a name="microsoft-teams-device-usage-report"></a>Rapport d’utilisation des périphériques de Microsoft Teams
 
@@ -45,7 +45,7 @@ Le rapport d’utilisation du périphérique dans le centre d’administration M
 |**3**   |<ul><li>L’axe X du graphique représente les différents appareils (**Windows**, **Mac**, **iOS**, **Téléphone Android**) utilisées pour se connecter aux équipes. </li><li>L’axe des Y sont le nombre d’utilisateurs à l’aide de l’appareil sur la période sélectionnée.</li> </ul>Pointez sur la barre représentant un périphérique pour afficher le nombre d’utilisateurs à l’aide de l’appareil pour se connecter à des équipes.|
 |**4**   |Le tableau donne une répartition de l’utilisation de périphériques par utilisateur. <ul><li>**Nom complet** est le nom complet de l’utilisateur. Vous pouvez cliquer sur le nom complet pour accéder à la page Paramètres de l’utilisateur dans le centre d’administration Microsoft Teams. </li><li>**Windows** est activée si l’utilisateur a été actif dans le client de bureau équipes sur un ordinateur fonctionnant sous Windows.</li><li>**Mac** est sélectionnée si l’utilisateur a été actif dans le client de bureau équipes sur un ordinateur Mac OS. </li> <li>**iOS** est activée si l’utilisateur a été actif sur le client mobile équipes pour iOS.</li><li>**Téléphone Android** est activée si l’utilisateur a été actif sur le client mobile équipes pour Android. <li>**Dernière activité** est la dernière date (UTC) que l’utilisateur a participé à une activité équipes.</li> </ul> Pour afficher les informations que vous souhaitez dans le tableau, veillez à ajouter les colonnes correspondantes au tableau. |
 |**5**   |Sélectionnez **Modifier les colonnes** pour ajouter ou supprimer des colonnes dans le tableau. |
-|**6**   |Sélectionnez **˙˙˙**, puis **Imprimer le graphique** pour imprimer le graphique. |
+|**6**   |Vous pouvez exporter le rapport dans un fichier CSV pour l’analyse en mode hors connexion. Cliquez sur **Exporter vers Excel**, puis sur l’onglet **Downloads** , cliquez sur **Télécharger** pour télécharger le rapport lorsque celle-ci est prête.<br>![Capture d’écran de l’onglet Downloads affichant exportés pour télécharger les rapports](../media/teams-reports-export-to-csv.png)|
 
 ## <a name="related-topics"></a>Voir aussi
 - [Analyses et rapports Teams](teams-reporting-reference.md)

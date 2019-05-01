@@ -17,14 +17,16 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment contrôler si les équipes privées pouvant être découvert par les utilisateurs de Microsoft Teams via les suggestions dans les résultats de recherche et de la galerie de l’équipe.
-ms.openlocfilehash: 70d5b81bba719a9e6cc6a51d38d58fd309e07a3b
-ms.sourcegitcommit: 9329d740a2060f9c055c5c0c03107a9268c0df5b
+ms.openlocfilehash: 3609a592c3c940e9f7cbec6ca5c58fd072322c46
+ms.sourcegitcommit: 0bb55cad74b15fc821ae916799aa8c0cb13dd31d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/24/2019
-ms.locfileid: "33262753"
+ms.lasthandoff: 04/30/2019
+ms.locfileid: "33497952"
 ---
 # <a name="manage-discovery-of-private-teams-in-microsoft-teams"></a>Gérer la découverte des équipes privées dans Microsoft Teams
+
+> [!INCLUDE [preview feature](includes/preview-feature.md)] 
 
 Les propriétaires de l’équipe et les administrateurs peuvent contrôler si les équipes privées pouvant être découvert par les utilisateurs Microsoft Teams dans votre organisation. Lorsqu’une équipe privée est détectable, il s’affiche dans les résultats de recherche et est inclus dans les propositions dans la galerie de l’équipe avec des équipes publics dans les équipes. Cela facilite pour les utilisateurs à rechercher pour trouver les équipes privés qu’ils souhaitent joindre. Les utilisateurs peuvent demander à participer à une équipe privée qui un propriétaire de l’équipe puis approuver ou refuser.
 
@@ -62,7 +64,7 @@ Dans les équipes, accédez à l’équipe privée, cliquez sur **plus d’optio
 
 ![paramètre de découverte pour les équipes privées existantes](media/private-team-discovery-existing-team.png)
 
-### <a name="using-powershell"></a>À l’aide de PowerShell
+### <a name="using-powershell-coming-soon"></a>À l’aide de PowerShell (bientôt disponible)
 
 Pour désactiver ou activer le paramètre de découverte pour une équipe privée existante, utilisez l’applet de commande **Set-équipe** . Voici un exemple illustrant comment rendre une équipe détectable :
 
