@@ -13,19 +13,19 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 14f94428ddeba7b5a648b4b8dbd7bd5ef8fae0e4
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 8ca4249c88ce5793cd04eb2e2cc1ed3035915975
+ms.sourcegitcommit: 790ca37e2b12e4c8adcc526b1695017161749f51
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32246099"
+ms.lasthandoff: 05/01/2019
+ms.locfileid: "33526855"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>Atteindre vos équipes Microsoft StaffHub équipes dans Microsoft Teams
 
 > [!IMPORTANT]
 > Effet 2019, octobre 1, Microsoft StaffHub sera être retirée. Nous créons StaffHub fonctionnalités dans Microsoft Teams. Aujourd'hui, les équipes inclut l’application des équipes de gestion de la planification et des fonctionnalités supplémentaires seront intégrées au fil du temps. StaffHub cessera de fonctionner pour tous les utilisateurs sur le 1 octobre 2019. Toute personne qui essaie d’ouvrir StaffHub s’affichera un message pronom pour télécharger les équipes. Pour plus d’informations, voir [Microsoft StaffHub à retirer](microsoft-staffhub-to-be-retired.md).
 
-> La fonctionnalité abordée dans cet article n’a pas encore été publiée. Il est été annoncé et sera bientôt disponible, vers la fin de 2019 avril. Si vous êtes un administrateur, vous pouvez savoir lorsqu’il sera disponible dans le centre de messages (dans le [Centre d’administration Microsoft 365](https://portal.office.com/adminportal/home)).
+> La fonctionnalité abordée dans cet article n’a pas encore été publiée. Il est été annoncé et sera bientôt disponible, vers le milieu de mai 2019. Si vous êtes un administrateur, vous pouvez savoir lorsqu’il sera disponible dans le centre de messages (dans le [Centre d’administration Microsoft 365](https://portal.office.com/adminportal/home)).
 
 L’application d’équipes dans les équipes fournit une approche simple de gérer les planifications et le flux de constant de permutations MAJ et les annulations qui se produisent au quotidien. Membres de l’équipe peuvent accéder à son calendrier et informations MAJ directement dans l’application sur leurs appareils pour définir leurs préférences, gérer leurs calendriers et durée hors de la demande.
 
