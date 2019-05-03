@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c8694abbec22e577983889bdf6cdc3d6038d3c80
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 5ad250e133ebe3d9a203a1439f04a8f1f3cc41d9
+ms.sourcegitcommit: ceba3ec2d5618fceaa57e18f7ca6858e8d5d5ee5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245604"
+ms.lasthandoff: 05/01/2019
+ms.locfileid: "33509683"
 ---
 # <a name="get-started-with-microsoft-teams"></a>Prise en main de Microsoft Teams
 
@@ -44,7 +44,15 @@ Si vous êtes une petite entreprise, vous pourrez utiliser ce guide de prise en 
 
 ## <a name="before-you-get-started"></a>Avant de commencer
 
-Vérifiez que tout le monde a bien les licences Teams appropriées. Consultez l’article [Comparaison des offres Teams](https://products.office.com/microsoft-teams/free) et [Gestion des licences Office 365 pour Teams](office-365-licensing.md). 
+Avant de commencer, planifiez le déploiement de Teams en procédant comme suit :
+
+- [Vérifier la préparation de votre environnement pour Microsoft Teams](environment-readiness.md)
+- [Préparer le réseau de votre organisation pour Microsoft Teams](prepare-network.md)
+- [En savoir plus sur les avantages de l’installation de clients de bureau, web et mobiles](get-clients.md)
+
+Vous devez également vérifier que tout le monde a bien les licences Teams. Consultez l’article [Comparaison des offres Teams](https://products.office.com/microsoft-teams/free) et [Gestion des licences Office 365 pour Teams](office-365-licensing.md). 
+
+
 
 ## <a name="next-steps"></a>Étapes suivantes
 [Créer vos premiers canaux et premières équipes](get-started-with-teams-create-your-first-teams-and-channels.md).
