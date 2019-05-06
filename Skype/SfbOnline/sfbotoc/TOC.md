@@ -232,7 +232,8 @@
 ### [La configuration système téléphonique de votre organisation](/microsoftteams/setting-up-your-phone-system?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Un standard Cloud automatique, qu’est-ce que c’est ?](/microsoftteams/what-are-phone-system-auto-attendants?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 #### [Configurer un standard automatique dans le cloud](/microsoftteams/set-up-a-phone-system-auto-attendant?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
-#### [Exemple de petite entreprise : configurer un standard automatique](../what-is-phone-system-in-office-365/tutorial-org-aa.yml)  
+#### [Exemple de petite entreprise : configurer un standard automatique](../what-is-phone-system-in-office-365/tutorial-org-aa.yml?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)  
+#### [Exemple de petite entreprise : configurer une file d’attente des appels](../what-is-phone-system-in-office-365/tutorial-cq.yml?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Créer une file d’attente d’appels cloud](/microsoftteams/create-a-phone-system-call-queue?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 
 
