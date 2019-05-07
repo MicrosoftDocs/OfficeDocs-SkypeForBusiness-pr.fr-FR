@@ -14,12 +14,12 @@ description: Découvrez comment live événements permettent aux utilisateurs de
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8c2564cc3da4f9df551ee9c9e5155a4cb81e4a37
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 01dfa91c13625e1f1f18fdce5840cf6ba2baeb79
+ms.sourcegitcommit: 47e5f6a0440f646d67bc3ca7c232df9558f78040
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204686"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "33641492"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Que sont les événements en direct Microsoft Teams ?
 
@@ -36,6 +36,9 @@ Les équipes live événements sont considérés comme étant la prochaine versi
 Par conséquent, nous allons commencer. Tout d’abord, examinez le diagramme suivant qui présente les composants de niveau élevés impliquées dans 365 Microsoft les événements en direct et comment ils sont connectés. 
 
 ![Diagramme présentant les composants clés d’événements en direct, planification, de production, flux Microsoft plateforme, certifié fournisseurs tiers eCDN] (../media/teams-live-events.png  "Diagramme présentant les composants clés d’événements en direct, planification, de production, flux Microsoft plateforme, certifié fournisseurs tiers eCDN")
+
+### <a name="event-group-roles"></a>Rôles de groupe d’événements
+Événements en direct dans les équipes permet à plusieurs rôles (organisateur, producteur, présentateur et participant) pour la diffusion avec succès et de participer à un événement. Pour plus d’informations, voir [rôles de groupe d’événements](https://support.office.com/article/get-started-with-microsoft-teams-live-events-d077fec2-a058-483e-9ab5-1494afda578a?ui=en-US&rs=en-US&ad=US#bkmk_roles).
 
 ## <a name="key-components"></a>Principaux composants
 Par conséquent, vous pouvez le voir dans l’image ci-dessus, il existe quatre composants clés qui sont utilisés avec les événements en temps réel dans les équipes.
