@@ -16,12 +16,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 83d2b0710b811431546f0df9931d3a0b867d2b2b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 82e36e768b3e9edbf79204141540034344fb5aec
+ms.sourcegitcommit: d1b14268efe334aa93a6889f25fcfe46e07d5daa
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32205831"
+ms.lasthandoff: 05/06/2019
+ms.locfileid: "33584232"
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>Gérer l'accès des utilisateurs à Microsoft Teams
 =====================================
@@ -35,9 +35,9 @@ Utilisez les stratégies de messagerie, gérés à partir du centre d’administ
 > [!NOTE]
 >Microsoft recommande que vous allumez équipes pour tous les utilisateurs d’une entreprise afin que les équipes peuvent être créées selon pour les projets et autres initiatives dynamiques. Même si vous décidez au pilote, il peut toujours être utile de conserver les équipes activés pour tous les utilisateurs, mais uniquement cibler communications dans le groupe pilote d’utilisateurs.
 
-## <a name="manage-teams-through-the-office-365-admin-center"></a>Gérer les équipes via le centre d’administration Office 365
+## <a name="manage-teams-through-the-microsoft-365-admin-center"></a>Gérer les équipes via le centre d’administration Microsoft 365
 
-Licences d’équipes au niveau utilisateur sont gérés directement via les interfaces de gestion Office 365 admin center utilisateur. Un administrateur peut affecter des licences pour les nouveaux utilisateurs lors de la création de nouveaux comptes d’utilisateurs ou aux utilisateurs disposant de comptes existants. L’administrateur doit disposer de privilèges d’administrateur Global de Office 365 ou administrateur de gestion des utilisateurs pour gérer les licences Microsoft Teams.
+Licences d’équipes au niveau utilisateur sont gérés directement via les interfaces de gestion Microsoft 365 admin center utilisateur. Un administrateur peut affecter des licences pour les nouveaux utilisateurs lors de la création de nouveaux comptes d’utilisateurs ou aux utilisateurs disposant de comptes existants. L’administrateur doit disposer de privilèges d’administrateur Global de Office 365 ou administrateur de gestion des utilisateurs pour gérer les licences Microsoft Teams.
 
 Lorsqu'une référence (SKU) de licence telle que Entreprise E3 ou E5 est affectée à un utilisateur, une licence Microsoft Teams est automatiquement affectée et le produit est activé pour l'utilisateur. Les administrateurs peuvent disposer d'un contrôle précis sur les services et licences Office 365 ; la licence Microsoft Teams peut être activée ou désactivée pour un utilisateur ou un groupe d'utilisateurs.
 

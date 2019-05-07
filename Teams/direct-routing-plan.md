@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Lisez cette rubrique pour savoir comment Microsoft Phone System Direct routage vous permet de connecter une prise en charge, fournie par le client Session contrôleur périphérie (SBC) au système téléphonique de Microsoft.
-ms.openlocfilehash: e2b09d4aef25569e1112983b5f62bf2ba3758387
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 3ed03225105e7c265687d6659cb98d162da85f91
+ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33402461"
+ms.lasthandoff: 05/06/2019
+ms.locfileid: "33632209"
 ---
 # <a name="plan-direct-routing"></a>Planifier le routage direct
 
@@ -207,6 +207,7 @@ Le tableau ci-dessous récapitule les relations entre les centres de données pr
 |||||
 
 ## <a name="media-traffic-port-ranges"></a>Le trafic multimédia : plages de ports
+Notez les conditions ci-dessous s’appliquent si vous souhaitez déployer routage Direct sans contournement de média. Pour les exigences du pare-feu pour le contournement de média, reportez-vous à [planifier le contournement de média avec le routage Direct](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-plan-media-bypass)
 
 Le trafic multimédia est disposé vers et à partir d’un service séparé dans le Cloud de Microsoft. La plage d’IP pour le trafic multimédia :
 - 52.112.0.0 /14 (adresses IP de 52.112.0.1 à 52.115.255.254).

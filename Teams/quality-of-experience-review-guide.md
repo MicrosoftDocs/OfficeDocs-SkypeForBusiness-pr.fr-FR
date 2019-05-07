@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e85d6e44c37b1b7a56b2b525d28fdbeab266d4b8
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 0252a138fd34e26d6fd2f1237a2fdbfd9b5f5410
+ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32211287"
+ms.lasthandoff: 05/06/2019
+ms.locfileid: "33632265"
 ---
 # <a name="quality-of-experience-review-guide"></a>Guide d’examen de l’expérience de qualité
 
@@ -74,7 +74,7 @@ Avant d’utiliser ce guide, assurez-vous que vous avez le client appropriée le
 
 Autrement, vous pouvez affecter le rôle suivant à un compte d’utilisateur Office 365 pour autoriser l’accès aux fonctionnalités de création de rapports uniquement.
 
--   **Rapports lecteur :** Peuvent afficher tous les [rapports d’activité](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) dans le centre d’administration Office 365, les rapports à partir du [pack de contenu Office 365 Adoption](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f)et des rapports CQD.
+-   **Rapports lecteur :** Peuvent afficher tous les [rapports d’activité](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) dans le centre d’administration Office 365, les rapports à partir du [pack de contenu Microsoft 365 Adoption](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f)et des rapports CQD.
 
 ## <a name="what-is-quality"></a>Quelle est la qualité ?
 
@@ -823,9 +823,9 @@ _Tableau 6 - alertes de Diagnostic_
 
 ### <a name="message-center"></a>Centre de messages
 
-Le centre de message vous avertit des nouvelles mises à jour, des fonctionnalités ou des problèmes. Le centre de messages est disponible dans le centre d’administration Office 365 pour les administrateurs de service. Chaque publication fournit une vue d’ensemble de la mise à jour, la fonctionnalité ou l’émission affecte les utilisateurs et fournit des liens vers des informations plus détaillées.
+Le centre de message vous avertit des nouvelles mises à jour, des fonctionnalités ou des problèmes. Le centre de messages est disponible dans le centre d’administration Microsoft 365 pour les administrateurs de service. Chaque publication fournit une vue d’ensemble de la mise à jour, la fonctionnalité ou l’émission affecte les utilisateurs et fournit des liens vers des informations plus détaillées.
 
-Pour ouvrir le centre de messages, dans le centre d’administration d’Office 365, accédez à **la santé** > **Centre de messages**, ou sélectionnez la fiche centre de message **d’accueil** du tableau de bord. Le tableau de bord affiche les trois derniers messages qui ont été publiés et les liens à la page Centre de message complet.
+Pour ouvrir le centre de messages, dans le centre d’administration Microsoft 365, accédez à **la santé** > **Centre de messages**, ou sélectionnez la fiche centre de message **d’accueil** du tableau de bord. Le tableau de bord affiche les trois derniers messages qui ont été publiés et les liens à la page Centre de message complet.
  
 
 ![La carte de centre de message affiche les trois derniers messages qui ont été validées](media/qerguide-image-messagecentercard.png)
@@ -1350,7 +1350,7 @@ Pour plus d’informations, consultez [cet article sur média qualité et les pe
 
 -   [En quoi l'analyse des appels et le tableau de bord de qualité des appels sont-ils différents ?](difference-between-call-analytics-and-call-quality-dashboard.md)
 
--   [Utiliser l’analyse des appels pour résoudre les problèmes de qualité des appels](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+-   [Utiliser l’Analyse des appels pour résoudre les problèmes de qualité des appels](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 ### <a name="call-analytics-support"></a>Appelez le support technique Analytique
 

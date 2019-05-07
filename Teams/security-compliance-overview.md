@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 492055c80b844ba4a7aa0091da767214c55dc31a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 85678529f25e46b7c75c08976d86870fc4566694
+ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32203070"
+ms.lasthandoff: 05/06/2019
+ms.locfileid: "33632313"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Présentation de la sécurité et de la conformité dans Microsoft Teams
 ======================================================
@@ -114,7 +114,7 @@ En ce qui concerne les fonctionnalités de protection des informations, les abon
 |![Icône Point de décision.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |Point de décision         |Votre organisation dispose-t-elle des licences requises pour satisfaire les besoins en matière de sécurité et de conformité ?         |
 |![Icône Étapes suivantes.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)    |Étapes suivantes         |Passez en revue la licence actuelle de votre organisation et confirmez qu’il répond à tous les besoins de sécurité et de conformité.         |
 
-Avant d’activer une de ces fonctionnalités, assurez-vous de qu'avoir accès à la sécurité de & centre de conformité dans le centre d’administration d’Office 365. Par défaut, les administrateurs de clients y ont accès.
+Avant d’activer une de ces fonctionnalités, assurez-vous de qu'avoir accès à la sécurité de & centre de conformité dans le centre d’administration Microsoft 365. Par défaut, les administrateurs de clients y ont accès.
 
 Contenu de recherche et de découverte électronique ne nécessitent pas d’activation dans le centre de conformité de & sécurité.
 
@@ -132,7 +132,7 @@ Pour plus d’informations sur la délégation des données Canada pour les équ
 
 Pour en savoir plus sur le lancement de la délégation de données Australie et Japon pour les équipes, lisez le billet de blog de Varun Sagar [Microsoft équipes lance Australie et Japon données délégation ](https://go.microsoft.com/fwlink/?linkid=867773). 
 
-Pour afficher la zone contient des données pour votre client, accédez au [Centre d’administration Office 365](https://portal.office.com/adminportal/home) > **paramètres** > **profil d’organisation**. Défilez jusqu’à la section **Emplacement des données**. 
+Pour afficher la zone contient des données pour votre client, accédez au [Centre d’administration Microsoft 365](https://portal.office.com/adminportal/home) > **paramètres** > **profil d’organisation**. Défilez jusqu’à la section **Emplacement des données**. 
 
 ![Capture d’écran de la table de magasin de données, y compris les équipes, dans le centre d’administration d’Office 365.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
 

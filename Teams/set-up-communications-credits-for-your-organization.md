@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: 48283d2c8ecaf121457197bf09ffb70afc59803b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e759fe9981728c97914c271dba69bfca6aebdd2b
+ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204714"
+ms.lasthandoff: 05/06/2019
+ms.locfileid: "33632249"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Configurer les crédits de communication pour votre organisation
 
@@ -58,7 +58,7 @@ Pour plus d’informations, voir [Gestion des licences de module complémentaire
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
-2. Dans la navigation de gauche du centre d’administration Office 365, accédez à la **facturation** > **abonnements** > **abonnements ajouter**.
+2. Dans la navigation de gauche du centre d’administration Microsoft 365, accédez à la **facturation** > **abonnements** > **abonnements ajouter**.
 
 3. Développez les **abonnements au module complémentaire**et choisissez **Crédits Communications** > **Acheter maintenant**.
     
@@ -91,7 +91,7 @@ Lorsque vous configurez Communications générique, vous devez examiner l’util
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
-2. Dans la navigation de gauche du centre d’administration Office 365, accédez aux **utilisateurs** > **utilisateurs actifs**, puis sélectionnez un ou plusieurs utilisateurs dans la liste.
+2. Dans la navigation de gauche du centre d’administration Microsoft 365, accédez aux **utilisateurs** > **utilisateurs actifs**, puis sélectionnez un ou plusieurs utilisateurs dans la liste.
     
 3. Dans le volet Action, sous **Licences de produit**, cliquez sur **Modifier**.
     
@@ -110,7 +110,7 @@ Vous pouvez voir les plans et les prix à partir d’un des liens suivants :
     
 - [Plans de système téléphonique](https://go.microsoft.com/fwlink/?LinkId=799763)
     
-Vous pouvez également voir des informations en [vous connectant au centre d’administration Office 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) et **facturation** > **abonnements** > **abonnements ajouter**.
+Vous pouvez également voir des informations en [vous connectant au centre d’administration Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) et **facturation** > **abonnements** > **abonnements ajouter**.
   
 Pour obtenir un tableau avec la licence ou les licences que vous aurez besoin pour chaque fonctionnalité, voir [Gestion des licences de module complémentaire équipes Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   

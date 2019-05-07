@@ -3,7 +3,7 @@ title: Stratégies de conservation dans Microsoft Teams
 author: LolaJacobsen
 ms.author: tonysmit
 manager: serdars
-ms.date: 04/15/2019
+ms.date: 05/06/2019
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: jastark
@@ -17,15 +17,15 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6e56f0c89859b940a82e76f8de35ff524a757ec9
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 007bea10d8e452a2198c869ab545592b29c591c1
+ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32224999"
+ms.lasthandoff: 05/06/2019
+ms.locfileid: "33632368"
 ---
 <a name="calling-policies-in-microsoft-teams"></a>Stratégies de conservation dans Microsoft Teams
-==========================================
+===================================
 
 Dans Microsoft Teams, appel de contrôle des stratégies les appels et les fonctionnalités de transfert d’appel sont disponibles pour les utilisateurs. Les stratégies d’appel déterminent si un utilisateur peut effectuer des appels privées, utilisez le transfert d’appel ou acheminer les appels vers la messagerie vocale, envoyer les appels aux groupes d’appel, sonnerie simultanée à d’autres utilisateurs ou les numéros de téléphone externe, utilisent la délégation pour les appels entrants et sortants, et ainsi de suite. Une stratégie globale par défaut est créée automatiquement, mais les administrateurs peuvent également créer et affecter des stratégies appel personnalisés.
 
@@ -97,5 +97,8 @@ La valeur **sur** pour envoyer les appels via le réseau RTC et provoquer des fr
 
 ### <a name="busy-on-busy-is-available-while-in-a-call"></a>Occupé (e) sur occupé (e) est disponible pendant un appel
 
-Occupé (e) sur occupé (e) (Options occupé (e))) est un nouveau paramètre dans les équipes appelant stratégies qui permet de configurer les appels entrants comment sont traités lorsqu’un utilisateur est déjà dans un appel ou une conférence ou a un appel mis en attente. Nouveaux appels entrants peuvent être rejetées avec un signal occupé (e). Vous pouvez activer les options occupé (e) à un niveau client ou à un niveau de l’utilisateur. Quelle que soit la configuration des options de leurs disponibilitées, les utilisateurs dans un appel ou conférence ou par un appel en attente ne peuvent pas pas d’initier des nouveaux appels ou des conférences. Ce paramètre est désactivé par défaut.
+Occupé (e) sur occupé (e) (Options occupé (e))) est un nouveau paramètre dans les équipes stratégies appelant qui vous permet de configurer les appels entrants comment sont traités lorsqu’un utilisateur est déjà dans un appel ou une conférence ou a un appel mis en attente. Nouveaux appels entrants peuvent être rejetées avec un signal occupé (e). Vous pouvez activer les options de disponibilité au niveau du client ou au niveau de l’utilisateur. Quelle que soit la configuration des options de leurs disponibilitées, les utilisateurs dans un appel ou conférence ou par un appel en attente ne peuvent pas pas d’initier des nouveaux appels ou des conférences. Ce paramètre est désactivé par défaut.
 
+## <a name="see-also"></a>Voir aussi
+
+[Set-CSTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)

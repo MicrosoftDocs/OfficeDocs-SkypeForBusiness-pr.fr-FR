@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Découvrez comment configurer des téléphones en zone commune pour les salles d’attente, les zones de réception et les salles de conférence '
-ms.openlocfilehash: 74806d3dfc66c27c144d6c3a4e1ddd5c6c7e7c60
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 9e68d5bc4ef0355e80e1fe6359385c10a339c0fe
+ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204859"
+ms.lasthandoff: 05/06/2019
+ms.locfileid: "33632376"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Configurer la licence de téléphone de partie commune pour Microsoft Teams
 
@@ -38,7 +38,7 @@ Premières choses que vous devez faire est achat une licence de téléphone de z
 
 ## <a name="step-1---buy-the-licenses"></a>Étape 1 - Acheter les licences
 
-1. Dans le centre d’administration Office 365, accédez à la **facturation** > **services d’achat** , puis développez **autres plans**.
+1. Dans le centre d’administration Microsoft 365, accédez à la **facturation** > **services d’achat** , puis développez **autres plans**.
 
     ![Capture d’écran indiquant la vignette de téléphone en zone commune](media/set-up-common-area-phone-image1.png)
 
@@ -55,7 +55,7 @@ Pour plus d’informations sur les licences, voir [Gestion des licences de modul
 
 ## <a name="step-2---create-a-new-user-account-for-the-phone-and-assign-the-licenses"></a>Étape 2 - Créer un nouveau compte utilisateur pour le téléphone et attribuer les licences
 
-1. Dans le centre d’administration Office 365, accédez aux **utilisateurs** > **utilisateurs actifs** > **Ajouter un utilisateur**.
+1. Dans le centre d’administration Microsoft 365, accédez aux **utilisateurs** > **utilisateurs actifs** > **Ajouter un utilisateur**.
 
 2. Entrez un nom d’utilisateur comme « Main » pour le prénom et le « Réception » pour le nom du deuxième.
 

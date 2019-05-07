@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Découvrez comment configurer le système téléphonique (PBX nuage) pour votre organisation. '
-ms.openlocfilehash: 7a180817fb4a3885748a5ca80c494ef1b69143a4
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: d37771863ae2146567e338fa7ee2395e452561d5
+ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32205538"
+ms.lasthandoff: 05/06/2019
+ms.locfileid: "33632257"
 ---
 # <a name="setting-up-phone-system-in-your-organization"></a>La configuration système téléphonique de votre organisation
 
@@ -58,9 +58,9 @@ You must use the **Add new user numbers** page to see, search, acquire, and rese
  
 ![SFB-logo-30x30.png](media/sfb-logo-30x30.png) **à l’aide de la Skype entreprise centre d’administration**
 
-1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
+1. Connectez-vous à Microsoft 365 avec votre compte professionnel ou de l’école.
 
-2. Sélectionnez **Centre d'administration Office 365** > **Skype Entreprise**.
+2. Accéder au **Centre d’administration Microsoft 365** > **Skype pour les entreprises**.
     
 3. Dans le volet de navigation gauche, accédez à **voix** > **numéros de téléphone**, cliquez sur **Ajouter un nouveau numéro** ![Ajouter bouton ](media/c224fbd0-f0f5-46ce-a1a7-73adf4540ef7.png), puis cliquez sur**nouveaux numéros utilisateur**.
     
@@ -87,7 +87,7 @@ In addition to getting phone numbers for your users from Office 365, you can sea
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
 
-2. Sélectionnez **Centre d'administration Office 365** > **Skype Entreprise**.
+2. Accéder au **Centre d’administration Microsoft 365** > **Skype pour les entreprises**.
 
 3. Dans le volet de navigation gauche, accédez à **voix** > **numéros de téléphone** > **Ajouter un nouveau numéro**, puis cliquez sur **nouveau numéro de service**.
 
@@ -232,11 +232,11 @@ Pour créer un nouveau standard automatique, dans le Skype entreprise centre d�
 
 Once you have your service numbers from **Step 4 above**, you need to assign them to each type of service that you want. For example, if you want a dedicated service phone number (toll or toll-free), you will need to assign the number to the conferencing bridge.
 
-- Pour une audioconférence, vous pouvez affecter un numéro dédié à un pont de conférence en accédant au **Centre d’administration d’Office 365** > **centres Admin** > **Skype pour les entreprises** > **conférence Audio**, puis cliquez sur le pont de conférence ou en consultant la rubrique [Modifier le numéro payant ou gratuit sur le pont de conférence Audio](change-the-phone-numbers-on-your-audio-conferencing-bridge.md).
+- Pour une audioconférence, vous pouvez affecter un numéro dédié à un pont de conférence en accédant au **Centre d’administration de Microsoft 365** > **Admin centres** > **Skype pour les entreprises** > **conférence Audio** , puis cliquez sur le pont de conférence ou en consultant la rubrique [Modifier le numéro payant ou les numéros gratuits sur le pont de conférence Audio](change-the-phone-numbers-on-your-audio-conferencing-bridge.md).
 
-- Pour les standards automatiques, vous pouvez affecter un numéro dédié à un standard automatique en accédant au **Centre d’administration d’Office 365** > **centres Admin** > **Skype pour les entreprises** > **routage des appels** > standards**automatique** et cliquez sur le standard automatique. Dans la page **Général**, le numéro de service que vous avez déjà sera consigné dans le **numéro de téléphone** de la liste déroulante. Pour plus d’informations, consultez [configurer un standard automatique de nuage](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant).
+- Pour les standards automatiques, vous pouvez affecter un numéro dédié à un standard automatique en accédant au **Centre d’administration de Microsoft 365** > **Admin centres** > **Skype pour les entreprises** > **routage des appels** > standards**automatique **et cliquez sur le standard automatique. Dans la page **Général**, le numéro de service que vous avez déjà sera consigné dans le **numéro de téléphone** de la liste déroulante. Pour plus d’informations, consultez [configurer un standard automatique de nuage](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant).
 
-- Pour les files d’attente des appels, vous pouvez affecter un numéro dédié à une file d’attente de l’appel en accédant au **Centre d’administration d’Office 365** > **centres Admin** > **Skype pour les entreprises** > **routage des appels** > **files d’attente des appels**, puis cliquez sur la file d’attente de l’appel. Dans la page **Général**, le numéro de service que vous avez déjà sera consigné dans le **numéro de téléphone** de la liste déroulante. Pour plus d’informations, voir [créer une file d’attente des appels dans le nuage](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
+- Pour les files d’attente des appels, vous pouvez affecter un numéro dédié à une file d’attente de l’appel en accédant au **Centre d’administration de Microsoft 365** > **Admin centres** > **Skype pour les entreprises** > **routage des appels** > **files d’attente des appels** , puis cliquez sur sur la file d’attente de l’appel. Dans la page **Général**, le numéro de service que vous avez déjà sera consigné dans le **numéro de téléphone** de la liste déroulante. Pour plus d’informations, voir [créer une file d’attente des appels dans le nuage](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
 
 **Pour plus d’informations voir [Créer une attente système téléphonique appelée = "undefined" class="unusedGlossaryTerm">](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).**
 
@@ -249,7 +249,7 @@ You will need to set up Communications Credits if you would like to use toll-fre
 
 ### <a name="to-set-up-communications-credits"></a>Pour configurer les Communications crédits
 
-1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
+1. Connectez-vous à Microsoft 365 avec votre compte professionnel ou de l’école.
 
 2. Dans la navigation de gauche du centre d’administration Office 365, accédez à la **facturation** > **abonnements** > **modules complémentaires** > **acheter des modules complémentaires**, puis choisissez **Crédits Communications** > **Acheter maintenant**.
 
@@ -265,7 +265,7 @@ You will need to set up Communications Credits if you would like to use toll-fre
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
 
-2. Dans la navigation de gauche du centre d’administration Office 365, accédez aux **utilisateurs** > **utilisateurs actifs**, puis sélectionnez un ou plusieurs utilisateurs dans la liste.
+2. Dans la navigation de gauche du centre d’administration Microsoft 365, accédez aux **utilisateurs** > **utilisateurs actifs**, puis sélectionnez un ou plusieurs utilisateurs dans la liste.
 
 3. Dans le volet Action, sous **Licences de produit**, cliquez sur **Modifier**.
 
