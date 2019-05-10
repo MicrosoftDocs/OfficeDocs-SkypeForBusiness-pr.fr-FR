@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 80ae1944a2208393a38032bd6a988e807f803938
-ms.sourcegitcommit: b072148ea13f4d4f6035204a48bedd287fb90ebd
+ms.openlocfilehash: 0273a9b6c308d8d53fdb640bac6787568398c5be
+ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/08/2019
-ms.locfileid: "33827660"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33865097"
 ---
 <a name="teams-guest-access-checklist"></a>Liste de contrôle l’accès aux équipes invité
 ==========================================
@@ -123,7 +123,7 @@ Assurez-vous que les utilisateurs peuvent ajouter des invités. Voici comment :
 
 ## <a name="-step-5-verify-sharing-setting-in-sharepoint"></a>□ Étape 5 : Vérifiez le paramètre partage dans SharePoint
 
-1. Connectez-vous au Centre d'administration Office 365.
+1. Connectez-vous au centre d’administration Microsoft 365.
 2. Cliquez sur **Centre d’administration**, puis sélectionnez **SharePoint**.
 3. Dans le centre d’administration SharePoint, sélectionnez le **partage**.
 4. Assurez-vous que l’option pour **ne pas autoriser le partage en dehors de votre organisation** n’est *pas* sélectionnée.
