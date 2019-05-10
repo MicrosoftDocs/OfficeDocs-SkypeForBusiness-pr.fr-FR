@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 82577b8e8102baca9ea9681bb94d4a0c73f8b01e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: bc1334e019abadb030199518df15b0dde74dde52
+ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32218676"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33835334"
 ---
 ![Étapes du voyage mise à niveau, en mettant l’accent sur le déploiement et la phase d’implémentation] (media/upgrade-banner-deployment.png "Étapes du voyage mise à niveau, en mettant l’accent sur le déploiement et la phase d’implémentation")
 
@@ -43,7 +43,7 @@ Suivez les instructions de cet article si vous avez déployé entièrement Skype
 
 ## <a name="assign-the-coexistence-and-upgrade-mode"></a>Affecter le mode de mise à niveau et de coexistence
 
-Vous pouvez mettre à niveau vos utilisateurs par les équipes en affectant le mode TeamsOnly de TeamsUpgradePolicy, qui peut être effectuée à l’aide du centre d’administration Microsoft Teams ou un Skype pour la session Windows Powershell à distance Business.
+Vous pouvez mettre à niveau vos utilisateurs en mode TeamsOnly en affectant l’instance UpgradeToTeams de TeamsUpgradePolicy, qui peut être effectuée à l’aide du centre d’administration Microsoft Teams ou un Skype pour la session Windows Powershell à distance Business. Vous pouvez le faire par utilisateur, soit sur un client à l’échelle si vous souhaitez de mise à niveau du client entier en une seule étape. 
 
 Pour plus d’informations, voir [configuration de votre coexistence et de paramètres de mise à niveau](https://aka.ms/SkypeToTeams-SetCoexistence) et [TeamsUpgradePolicy : gestion de migration et coexistence](migration-interop-guidance-for-teams-with-skype.md#teamsupgradepolicy-managing-migration-and-co-existence).
 
@@ -51,45 +51,48 @@ Pour plus d’informations, voir [configuration de votre coexistence et de param
 
 Suivez ces étapes pour mettre à niveau tous les utilisateurs à des équipes en même temps.
 
-### <a name="step-1-notify-the-users-of-the-change"></a>Étape 1 : Avertir les utilisateurs de la modification
+### <a name="step-1-notify-the-users-of-the-change-optional"></a>Étape 1 : Avertir les utilisateurs de la modification (facultative)
 
 1. Dans le centre d’administration Microsoft Teams, sélectionnez **paramètres à l’échelle de la société** > **équipes de mise à niveau**.
 2. Sous **mode de Coexistence**, remplacez le commutateur **Skype de notification pour les utilisateurs qu’une mise à niveau pour les équipes est disponible** **sur**.
 
-### <a name="step-2-set-the-coexistence-mode-for-the-users"></a>Étape 2 : Définir le mode de coexistence pour les utilisateurs
+### <a name="step-2-set-the-coexistence-mode-to-teamsonly-for-the-organization"></a>Étape 2 : Définir le mode de coexistence pour TeamsOnly pour l’organisation
 
 1. Dans le centre d’administration Microsoft Teams, sélectionnez **paramètres de l’organisation**.
 2. Sélectionnez mode **d’Équipes uniquement** à partir de la liste déroulante **mode de Coexistence** .
 
 ## <a name="upgrade-users-in-stages"></a>Mise à niveau par étapes
 
-Si vous souhaitez mise à niveau progressive de vos utilisateurs à des équipes, procédez comme suit.
+Si vous souhaitez mettre à niveau progressive vos utilisateurs vers TeamsOnly, procédez comme suit.
 
-### <a name="step-1-create-your-user-cohorts-for-the-upgrade"></a>Étape 1 : Créer votre cohortes utilisateur pour la mise à niveau
+### <a name="step-1-identify-groups-of-users-for-upgrade"></a>Étape 1 : Identifier les groupes d’utilisateurs pour la mise à niveau
 
-Cohortes utilisateur sont des groupes d’utilisateurs qui seront déplacées vers le mode équipes uniquement en même temps.
+Souvent, les organisations peuvent choisir de mettre à niveau leurs organisations vagues de réussite des utilisateurs.  Vous souhaiterez identifier ces utilisateurs en premier afin que vous pouvez facilement les rechercher dans le centre d’administration Microsoft Teams. Vous pouvez également utiliser PowerShell pour effectuer cette opération plus efficacement. Une fois que vous avez identifié l’ensemble des utilisateurs d’une vague de mise à niveau donnée, continuez avec les étapes restantes.
 
-Pour créer votre cohortes utilisateur (ajouter un lien vers la page de sélection de l’utilisateur)
+### <a name="step-2-set-notification-for-the-users-in-the-current-ugprade-wave-optional"></a>Étape 2 : Configurer la notification pour les utilisateurs de la vague de mise à niveau en cours (facultatif)
 
-### <a name="step-2-set-the-user-mode-to-islands"></a>Étape 2 : Définir le mode utilisateur pour (îles)
+Si vous utilisez le centre d’administration Microsoft Teams, vous pouvez configurer pour l’utilisateur jusqu'à 20 des TeamsUpgradePolicy :
+1. Dans le centre d’administration Microsoft Teams, sélectionnez **les utilisateurs**et de rechercher et de sélectionner plusieurs la case à cocher pour jusqu'à 20 utilisateurs qui doivent être mis à niveau. 
+2. Dans le coin supérieur gauche de la liste affichée, sélectionnez **Modifier les paramètres** . 
+3. Dans le volet de droite, sous **mise à niveau des équipes**, **Modifier les paramètres** modifier commutateur **notifier le Skype pour utilisateur professionnel** **activé**. Remarque : Si la valeur du mode de coexistence est « paramètres d’utilisation à l’échelle de l’organisation », vous ne verrez pas ce commutateur, il vous faudra donc tout d’abord définir explicitement le mode de Coexistence pour les utilisateurs à tout ce qui est la valeur par défaut pour l’organigramme.
 
-1. Dans le centre d’administration Microsoft Teams, sélectionnez **utilisateurs**, puis sélectionnez un cohorte utilisateur.
-2. En regard de **mise à niveau des équipes**, sélectionnez **Modifier**.
-3. Dans le volet de **Mise à niveau des équipes** , sous **mode de Coexistence**, sélectionnez **(îles)** dans la liste déroulante.
+Autrement, il peut plus facile activer les notifications pour les groupes d’utilisateurs à la fois à l’aide de PowerShell. 
 
-### <a name="step-3-set-notification-for-the-user-optional"></a>Étape 3 : Configurer la notification de l’utilisateur (facultatif)
+### <a name="step-3-set-the-coexistence-mode-for-users-to-teams-only"></a>Étape 3 : Définir le mode de coexistence pour les utilisateurs à des équipes uniquement
 
-1. Dans le centre d’administration Microsoft Teams, sélectionnez **les utilisateurs**et sélectionnez un cohorte utilisateur.
-2. En regard de **mise à niveau des équipes**, sélectionnez **Modifier**.
-3. Dans le volet de **Mise à niveau des équipes** , sous **mode de Coexistence**, modifier commutateur **notifier le Skype pour utilisateur professionnel** **activé**.
+Lorsque vous êtes prêt à mettre à niveau les utilisateurs de la génération actuelle pour utiliser des équipes comme leur application uniquement, définissez le mode de Coexistence pour les utilisateurs à des équipes uniquement.
 
-### <a name="step-4-set-the-user-mode-to-teams-only"></a>Étape 4 : Définissez le mode utilisateur pour les équipes uniquement
+Si vous utilisez le centre d’administration Microsoft Teams, vous pouvez configurer pour l’utilisateur jusqu'à 20 des TeamsUpgradePolicy :
+1. Dans le centre d’administration Microsoft Teams, sélectionnez **les utilisateurs**, puis activez la case à cocher pour jusqu'à 20 utilisateurs.
+2. Dans le coin supérieur gauche de la liste affichée, sélectionnez **Modifier les paramètres** .
+3. Dans le volet **Modifier les paramètres** sur la droite, sous la section **mise à niveau des équipes** , définissez le mode de coexistence pour **Les équipes uniquement** dans la liste déroulante.
 
-Lorsque vous êtes prêt à mettre à niveau des utilisateurs afin d’utiliser des équipes comme leur application uniquement, définissez le mode de Coexistence pour l’utilisateur d’équipes uniquement.
+Sinon, vous souhaiterez plus faciles à mettre à niveau des groupes d’utilisateurs à la fois à l’aide de PowerShell. 
 
-1. Dans le centre d’administration Microsoft Teams, sélectionnez **utilisateurs**, puis sélectionnez un cohorte utilisateur.
-2. En regard de **mise à niveau des équipes**, sélectionnez **Modifier**.
-3. Dans le volet de **Mise à niveau des équipes** , sous **mode de Coexistence**, sélectionnez **Équipes uniquement** dans la liste déroulante.
+### <a name="step-4-repeat-steps-1-3-for-successive-waves-of-users"></a>Étape 4 : Répétez les étapes 1 à 3 pour par vagues successives d’utilisateurs
+
+Lorsque vous validez votre mise à niveau vers le mode équipes uniquement et que vous êtes prêt à développer, répétez les étapes précédentes pour appliquer TeamsOnly à d’autres utilisateurs.  
+
 
 ## <a name="phone-system-and-teams-upgrade"></a>Mise à niveau système téléphonique et les équipes
 

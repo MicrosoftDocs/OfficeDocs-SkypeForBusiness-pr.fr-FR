@@ -17,12 +17,12 @@ appliesto:
 f1keywords:
 - ms.teamsadmincenter.meetingpolicies.overview
 description: Découvrez comment inclure votre logo, notification d’exclusion légale et d’autres informations dans vos invitations aux réunions.
-ms.openlocfilehash: ab42ddbc427ec344b8e4cf0f85e11f1426a5c6c4
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: cb6c535011e6ef1f6f7fe8fcd141646a34827e67
+ms.sourcegitcommit: ca7a22da082ac5336f31ffd76f3d4aef6c76285b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32236045"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "33868831"
 ---
 # <a name="customize-meeting-invitations-in-microsoft-teams"></a>Personnaliser les invitations aux réunions dans Microsoft Teams
 
@@ -39,7 +39,7 @@ En tant qu’administrateur, vous pouvez vous assurer que les Teams Microsoft to
 ## <a name="customize-your-meeting-invitations"></a>Personnaliser vos invitations aux réunions
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
-2. À partir du centre d’administration Office 365, choisissez **Admin centres** > **& équipes Skype**.
+2. À partir du centre d’administration Microsoft 365, choisissez **Admin centres** > **& équipes Skype**.
 3. Dans le centre d’administration Microsoft Teams, choisissez **réunions** > **paramètres de réunion**.
 4. Procédez comme suit :
     - **URL du logo** - Entrez l’URL où est stockée votre logo. N’oubliez pas qu’elle doit être au format JPG ou PNG !

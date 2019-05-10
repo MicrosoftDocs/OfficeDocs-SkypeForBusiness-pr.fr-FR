@@ -1,5 +1,5 @@
 ---
-title: Quelles sont les standards automatiques de nuage ?
+title: Un standard Cloud automatique, qu’est-ce que c’est ?
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -22,14 +22,14 @@ f1keywords: ms.teamsadmincenter.autoattendants.overview
 ms.custom:
 - Phone System
 description: Découvrez quelles sont les standards automatiques de nuage et comment les utiliser.
-ms.openlocfilehash: 99310e44fbab43e16d0816acdb8a85815863b286
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 4ab2ffd0803df57db437e2597db9a95b44d9be75
+ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32211692"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33865147"
 ---
-# <a name="what-are-cloud-auto-attendants"></a>Quelles sont les standards automatiques de nuage ?
+# <a name="what-are-cloud-auto-attendants"></a>Un standard Cloud automatique, qu’est-ce que c’est ?
 
 Système téléphonique dans Office 365 fournit des standards automatiques, qui peuvent être utilisés pour permettre aux externe et internes appelants déplacement dans un système de menus pour localiser et placer ou transférer des appels vers les utilisateurs de la société ou département au sein de votre organisation.
   
@@ -60,7 +60,7 @@ Avant de commencer à utiliser les standards automatiques, il est impératif de 
 - Vous devez uniquement les comptes de ressources de licence avec un numéro de téléphone assigné. Dans une file imbriqués automatique standard ou un appel, il est inutile pour le reste des standards automatiques de licence ou appeler des files d’attente s’ils n’ont pas de numéros de téléphone associés. 
 
 > [!NOTE]
-> Directs numéros de service de routage de standard automatiquement et files d’attente des appels sont pris en charge pour les agents et les utilisateurs Microsoft Teams uniquement pour le moment.
+> Numéros de service de routage directs des files d’attente standard et appel automatique sont prises en charge pour les utilisateurs de Microsoft Teams et agents uniquement.
 
 > [!NOTE]
 > Microsoft fonctionne sur un modèle de licence approprié pour les applications telles que les standards automatiques de nuage et les files d’attente des appels, maintenant vous devez utiliser le modèle de gestion des licences utilisateur pour.

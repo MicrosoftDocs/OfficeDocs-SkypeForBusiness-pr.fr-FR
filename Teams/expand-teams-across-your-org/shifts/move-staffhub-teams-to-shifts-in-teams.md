@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8ca4249c88ce5793cd04eb2e2cc1ed3035915975
-ms.sourcegitcommit: 790ca37e2b12e4c8adcc526b1695017161749f51
+ms.openlocfilehash: 74a9b23479f5357c0014ef5ef88b3f5da03ace7f
+ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/01/2019
-ms.locfileid: "33526855"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33865049"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>Atteindre vos équipes Microsoft StaffHub équipes dans Microsoft Teams
 
@@ -45,7 +45,15 @@ Détails de l’utilisateur, les informations de planification et données conve
 
 Chaque équipe StaffHub a besoin d’un groupe de 365 Office correspondant. Si une équipe StaffHub ne possède pas un groupe d’Office 365 lui est associé, une est automatiquement créée pour prendre en charge la transition. Étant donné la différence de l’équipe et le groupe d’affectation de noms entre les équipes et StaffHub, vous pouvez voir un nom différent de l’équipe dans les équipes.
 
-Transition entre les équipes de StaffHub aux équipes, les utilisateurs n’aura plus accès à leurs planifications dans StaffHub et sont redirigés vers les équipes de travail en équipe. Nous vous recommandons de que vous communiquez ce changement dans votre organisation pour réduire l’interruption et encourager les utilisateurs à adopter et Explorer les équipes.
+Transition entre les équipes de StaffHub aux équipes, les utilisateurs n’aura plus accès à leurs planifications dans StaffHub et sont redirigés vers les équipes de travail en équipe. Nous vous recommandons de que vous communiquez ce changement dans votre organisation pour réduire l’interruption et encourager les utilisateurs à adopter et Explorer les équipes. Si vous avez Azure AD Premium, vous pouvez [exécuter un rapport](run-report-to-show-staffhub-usage.md) pour obtenir une liste d’utilisateurs StaffHub dans votre organisation qui ont besoin de savoir à propos de ce changement.  
+
+Il n’existe aucune option de restauration après avoir déplacé une équipe StaffHub aux équipes.
+
+### <a name="user-experience-when-you-move-a-team"></a>Expérience utilisateur lorsque vous déplacez une équipe
+
+Il est temps d’arrêt minimal (moins d’une seconde, le cas échéant) pour les utilisateurs lors de leur équipe est commutée de StaffHub aux équipes de travail en équipe. Les utilisateurs peuvent continuer à l’aide de StaffHub jusqu'à ce que le déplacement aux équipes est terminé. Le déplacement est terminé, membres de l’équipe seront affiche un message pour l’informer que dont ils ont besoin commencer à utiliser des déplacements dans les équipes pour accéder à leur planification d’équipe. Voici un exemple du message que les utilisateurs voient.
+
+![Exemple du message que les utilisateurs voient dans StaffHub une fois que l’équipe StaffHub est déplacé vers équipes.] (../../media/move-staffhub-teams-to-shifts-in-teams-message-to-users.png "Exemple du message que les utilisateurs voient dans StaffHub une fois que l’équipe StaffHub est déplacé vers les équipes")
 
 ## <a name="prepare"></a>Préparer
 

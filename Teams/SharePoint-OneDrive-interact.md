@@ -3,7 +3,7 @@ title: Interaction de SharePoint Online et OneDrive Entreprise avec Microsoft�
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 11/12/2018
+ms.date: 05/08/2019
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: snigdhav
@@ -15,15 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 169008f7af8f52be60c7f15d7a4613f77ed161df
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f790a01050811ee46526fe37a4d6c14f107491b5
+ms.sourcegitcommit: b072148ea13f4d4f6035204a48bedd287fb90ebd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226458"
+ms.lasthandoff: 05/08/2019
+ms.locfileid: "33827739"
 ---
-<a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>Interaction de SharePoint Online et OneDrive Entreprise avec Microsoft Teams
-=============================================================================
+# <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>Interaction de SharePoint Online et OneDrive Entreprise avec Microsoft Teams
 
 > [!Tip]
 > Regarder la session suivante pour savoir comment les équipes interagit avec Azure Active Directory (DAS), groupes d’Office 365, Exchange, SharePoint et OneDrive for Business : [Notions de base sur les équipes de Microsoft](https://aka.ms/teams-foundations)
@@ -37,7 +36,7 @@ Si les utilisateurs ne sont pas affectés et activés avec SharePoint Online lic
 En stockant les fichiers dans la bibliothèque de documents SharePoint Online et dans OneDrive Entreprise, toutes les règles de conformité configurées au niveau du client seront appliquées. 
 
 > [!NOTE]
-> Intégration Sharepoint sur site n’est pas pris en charge pour Microsoft Teams à ce stade.
+> Intégration SharePoint sur site n’est pas pris en charge pour Microsoft Teams à ce stade.
 
 Voici un exemple de relations entre une équipe, un canal et une bibliothèque de documents.
 
@@ -58,8 +57,29 @@ Pour chaque utilisateur, le dossier OneDrive **Fichiers de conversation Microsof
 
 ![Diagramme du dossier OneDrive nommé Fichiers de conversation Microsoft Teams pour les conversations de chaque utilisateur.](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image2.png)
 
-<a name="more-information"></a>Plus d’informations
-----------------
+## <a name="channel-files-tab"></a>Onglet fichiers de canal
+
+> [!INCLUDE [new feature coming soon](includes/new-feature-coming-soon-section.md)]
+
+L’onglet **fichiers** dans les équipes ressemble à l’affichage de documents SharePoint. Sous l’onglet **fichiers** , les utilisateurs peuvent :
+
+- Afficher d’autres options dans le menu fichier de **Nouveau** .
+- Synchronisation de fichiers sur leur lecteur local.
+- Dans le menu de **Tous les Documents** , passer d’affichage de **liste** à **liste Compact** à la vue **mosaïques** .
+- Identifier les fichiers qui nécessitent une attention ou qu’un programme malveillant.
+- Voir immédiatement si un fichier est en lecture seule ou checked out.
+- Extraire et archiver des fichiers.
+- Épingler et désépingler modifier l’ordre de tri des fichiers.
+- Identifier les fichiers qui nécessitent des métadonnées
+- Choisissez à partir de nombreuses autres options de filtre.
+- Fichiers de groupe basées sur les en-têtes de colonne.
+- Modifier les paramètres de colonne (déplacer vers la gauche ou droite, masquer) et la largeur de colonne.
+
+## <a name="default-link-type-setting"></a>Type de lien par défaut
+
+SharePoint et OneDrive ont un paramètre d’administration pour spécifier le type de lien par défaut pour les liens qui sont créées pour un fichier. Les équipes adopte cette même approche en réutilisant les paramètres que l’administrateur définit pour SharePoint et OneDrive. Plus d’informations sur cette approche sont décrits dans [Modifier le type de liaison par défaut lorsque les utilisateurs obtiennent des liens pour le partage](https://docs.microsoft.com/sharepoint/change-default-sharing-link). 
+
+## <a name="more-information"></a>Plus d’informations
 
 Pour plus d’informations sur le fonctionne de SharePoint avec des équipes, voir [SharePoint et les équipes : une association efficace](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/SharePoint-and-Teams-Better-Together/ba-p/189593).
 

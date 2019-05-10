@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Découvrez comment configurer la messagerie vocale dans le nuage pour vos utilisateurs. '
-ms.openlocfilehash: 3f8729c9737bcbf0e7731ac61b38d56d708e15dc
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a4d992ac4f42dca1bffe7a4c3d7ae01400b8e635
+ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204795"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33865005"
 ---
 # <a name="set-up-cloud-voicemail"></a>Configuration Messagerie vocale Cloud
 
@@ -65,6 +65,9 @@ Les informations suivantes sont sur la configuration de la messagerie vocale dan
 > L’Assistant hybride d’Exchange exécutées à partir d’Exchange 2013 CU5 ou supérieures gère automatiquement la configuration requise dans les étapes 5 et 6. 
 
 ## <a name="setting-voicemail-policies-in-your-organization"></a>Configuration des stratégies de messagerie vocale pour votre organisation
+
+> [!WARNING]
+> Pour Skype pour les entreprises, la désactivation de la messagerie vocale via un Teams Microsoft appelant stratégie peut-être également désactiver le service de messagerie vocale pour votre Skype pour les utilisateurs professionnels.
 
 La transcription de la messagerie vocale est activée par défaut et le masquage de la transcription est désactivé par défaut pour toutes les organisations et les utilisateurs ; toutefois, vous pouvez les contrôler à l’aide des applets de commande [Set-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798310.aspx) et [Grant-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798311.aspx).
 

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Résumé : Ces fonctionnalités sont nouvelles dans Skype pour Business Server 2019.'
-ms.openlocfilehash: 770cfa8934f40e8ab847b7d77a60f18250c64842
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 68b6a2c3e3115df58c44603817e2adfc0c83f67c
+ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32239575"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33835238"
 ---
 # <a name="whats-in-skype-for-business-server-2019"></a>Nouveautés dans Skype pour Business Server 2019
 
@@ -29,7 +29,7 @@ Nouvelles fonctionnalités de Skype pour Business Server 2019 sont les suivantes
 
 ## <a name="unified-messaging-services-cloud-voicemail"></a>Les services de messagerie unifiés : messagerie vocale dans le nuage
 
-Messagerie unifiée Exchange reste disponible dans Skype pour Business Server 2019 lorsque vous intégrez Skype pour les entreprises 2019 avec Exchange 2013 ou 2016 Exchange. En raison des modifications apportées à la prise en charge dans Exchange 2019, l’intégration de la messagerie unifiée Exchange est la déduplication emphasised au profit des fonctionnalités de la messagerie vocale dans le nuage et de standard automatique de nuage.  
+Messagerie unifiée Exchange reste disponible dans Skype pour Business Server 2019 lorsque vous intégrez Skype pour les entreprises 2019 avec Exchange 2013 ou 2016 Exchange. En raison des modifications apportées à la prise en charge dans Exchange 2019, l’intégration de la messagerie unifiée Exchange est mis en évidence au profit des fonctionnalités de la messagerie vocale dans le nuage et de standard automatique de nuage.  
 
 Messagerie vocale dans le nuage permet à tous vos Skype pour Business 2019 users& #x 2014 ; si elles sont hébergés sur site ou online& #x 2014 ; pour accéder au même service de messagerie vocale dans le Cloud Microsoft. Messagerie vocale dans le nuage offre les avantages suivants pour vos utilisateurs en ligne et sur site :
 

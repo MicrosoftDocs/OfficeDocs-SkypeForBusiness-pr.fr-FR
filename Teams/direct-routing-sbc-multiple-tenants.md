@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Découvrez comment configurer un contrôleur de Session bordure (SBC) pour prendre en charge plusieurs clients.
-ms.openlocfilehash: 5338046724cc3768929b41dceb060aec1cee0bd6
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 83173a1972906629d7213d80e1290d789e021a87
+ms.sourcegitcommit: ca7a22da082ac5336f31ffd76f3d4aef6c76285b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33401487"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "33868655"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurer un contrôleur de frontière de session pour plusieurs clients
 
@@ -103,7 +103,7 @@ Pour configurer la base et les sous-domaines, suivez les étapes décrites ci-de
 
 ### <a name="ensure-that-you-have-appropriate-rights-in-the-carrier-tenant"></a>Vérifiez que vous disposez des droits appropriés dans le client de l’opérateur
 
-Vous pouvez ajouter de nouveaux domaines uniquement si vous vous êtes le centre d’administration Office 365 en tant qu’administrateur Global. 
+Vous pouvez ajouter de nouveaux domaines uniquement si vous vous êtes le centre d’administration Microsoft 365 en tant qu’administrateur Global. 
 
 Pour valider le rôle que vous avez, connectez-vous au centre d’administration Microsoft 365 (https://portal.office.com), accédez aux **utilisateurs** > **Utilisateurs actifs**, puis vérifiez que vous disposez d’un rôle Administrateur général. 
 
@@ -144,7 +144,7 @@ Vous devez créer un nom de sous-domaine unique pour chaque client. Dans cet exe
 
 ### <a name="ensure-that-you-have-appropriate-rights-in-the-customer-tenant"></a>Vérifiez que vous disposez des droits appropriés dans le client du client
 
-Vous pouvez ajouter de nouveaux domaines uniquement si vous vous êtes le centre d’administration Office 365 en tant qu’administrateur Global. 
+Vous pouvez ajouter de nouveaux domaines uniquement si vous vous êtes le centre d’administration Microsoft 365 en tant qu’administrateur Global. 
 
 Pour valider le rôle que vous avez, connectez-vous au centre d’administration Microsoft 365 (https://portal.office.com), accédez aux **utilisateurs** > **Utilisateurs actifs**, puis vérifiez que vous disposez d’un rôle Administrateur général. 
 

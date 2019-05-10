@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: Cette section présente les pays et régions qui ont des numéros de conférence rendez-vous et explique comment ils sont attribués automatiquement.
-ms.openlocfilehash: 3997d6e6337f88d84a39239100c4a973280ddc02
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 3fdd94a8ff0bf867f71a1e02c5ae84cf17bac0d8
+ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32246281"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33835082"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-microsoft-teams"></a>Numéros de téléphone pour l’audioconférence dans Microsoft Teams
 
@@ -36,7 +36,7 @@ Lorsque vous configurez l’**audioconférence** pour Microsoft Teams, des num�
   
 ## <a name="audio-conferencing-coverage-and-pricing"></a>Couverture et tarifs de l’audioconférence
 
-Pour obtenir la liste complète des pays/régions et des villes où l’audioconférence est disponible, reportez-vous à la section [Disponibilité des offres d'appels et d'audioconférence selon les régions et les pays](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). Pour des informations sur les tarifs, consultez la section [Tarifs pour l'audioconférence](https://products.office.com/skype-for-business/audio-conferencing#Requirements).
+Pour obtenir la liste complète des pays/régions et des villes où l’audioconférence est disponible, reportez-vous à la section [Disponibilité des offres d'appels et d'audioconférence selon les régions et les pays](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). Pour des informations sur les tarifs, consultez la section [Tarifs pour l'audioconférence](https://go.microsoft.com/fwlink/?linkid=799762).
   
 ## <a name="dial-in-phone-numbers-in-a-meeting-invite"></a>Numéros de téléphone de connexion figurant dans l'invitation à participer à une réunion
 
@@ -60,7 +60,7 @@ Des numéros de téléphone d’audioconférence partagés sont attribués autom
 Pour voir une liste des pays/régions qui ont des numéros de téléphone automatiquement affectés aux organisations, voir [Disponibilité par pays et par région de l'Audioconférence et des Plans d’appels](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
     
 > [!NOTE]
-> Vous trouverez l'emplacement du pays ou de la région de votre organisation en vous connectant au **centre d’administration d’Office 365** et en recherchant le **profil de l’organisation**. 
+> Vous trouverez l’emplacement pays ou région de votre organisation en vous connectant au **Centre d’administration Microsoft 365** et en regardant sous le **Profil d’organisation**. 
   
 > [!CAUTION]
 > En raison de la disponibilité limitée des numéros gratuits au Venezuela, en Indonésie et aux Émirats Arabes Unis, les organisations situées dans ces pays/régions ne se verront pas attribuer automatiquement un numéro gratuit d’audioconférence. Des numéros gratuits pour ces lieux sont disponibles en fonction d'un inventaire mis à disposition. 

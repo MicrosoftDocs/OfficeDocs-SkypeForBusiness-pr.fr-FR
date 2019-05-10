@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 68beeba403f6a64e194594d5bd40b985c8051dc6
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 80ae1944a2208393a38032bd6a988e807f803938
+ms.sourcegitcommit: b072148ea13f4d4f6035204a48bedd287fb90ebd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32237547"
+ms.lasthandoff: 05/08/2019
+ms.locfileid: "33827660"
 ---
 <a name="teams-guest-access-checklist"></a>Liste de contrôle l’accès aux équipes invité
 ==========================================
@@ -59,7 +59,7 @@ N’oubliez pas les opérations suivantes :
 
 ## <a name="--step-1-configure-settings-in-azure-ad-business-to-business"></a>□ Étape 1 : configurer les paramètres dans Azure AD pour entreprises
 
-1. Se connecter à https://portal.azure.com.
+1. Se connecter àhttps://portal.azure.com
 2. Dans le volet gauche, cliquez sur **Azure Active directory** .
 3. Sous **Gérer**, cliquez sur **paramètres de l’utilisateur**.
 4. Dans la liste **des utilisateurs externes**, cliquez sur **externe gérer les paramètres de collaboration**.

@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: 'Résumé : consultez cette rubrique pour connaître la procédure de déploiement du gestionnaire de statistiques de Skype Entreprise Serveur.'
-ms.openlocfilehash: 901720f87cf1c0bf78f558ed0d031bd41377799a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
-ms.translationtype: HT
+ms.openlocfilehash: c70bb596914142fb03e87ccd7e2f1df606aac31f
+ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898257"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33864903"
 ---
 # <a name="deploy-statistics-manager-for-skype-for-business-server"></a>Déployer le Gestionnaire de Statistiques pour Skype Entreprise Server
  
@@ -118,7 +118,7 @@ Pour valider l’installation, procédez comme suit :
     
    - Si la page de vérification d’intégrité s’affiche, l’écouteur a été correctement installé.
     
-   - Si la valeur KnownServersCount est définie sur 1 ou un nombre supérieur, la connexion à Redis est établie.
+   - Si la KnownServerCount est supérieur ou égal à 1, Redis la connexion est établie.
     
    - Après l’installation d’au moins un agent, patientez quelques minutes et vérifiez que le compteur ValuesWritten augmente.
     

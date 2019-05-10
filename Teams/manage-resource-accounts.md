@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: En savoir plus sur la gestion des comptes de ressource dans Microsoft Teams
-ms.openlocfilehash: a5b03c8bca7bcc8e012331afe9835a8de6cfe99a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: dea4a154e25c719ddabc572ba26ddb7d25c43d71
+ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32203292"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33835417"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Gérer les comptes de ressources dans Microsoft Teams
 
@@ -44,7 +44,7 @@ Mise en route il est important de garder à l’esprit quelques points :
 - Vous devez uniquement les comptes de ressources de licence avec un numéro de téléphone assigné. Une imbriqués automatique standard ou appel de file d’attente, vous n’avez pas besoin pour le reste des standards automatiques de licence ou appeler des files d’attente s’ils n’ont pas de numéros de téléphone associés
 
 > [!NOTE] 
-> Numéros de service Routage directs de standard automatiquement et files d’attente de l’appel est pris en charge pour les agents et les utilisateurs Microsoft Teams uniquement pour le moment.
+> Numéros de service de routage direct des files d’attente standard et appel automatique sont prise en charge pour les utilisateurs de Microsoft Teams et agents uniquement.
 
 > [!NOTE] 
 > Microsoft fonctionne sur un modèle de licence approprié pour les applications telles que les standards automatiques de nuage et les files d’attente des appels, maintenant vous devez utiliser le modèle de gestion des licences utilisateur pour.
@@ -77,7 +77,7 @@ Pour créer une nouvelle ressource compte, cliquez sur **+ nouveau compte**. Dan
 
 Ensuite, vous devez appliquer une licence pour le compte de la ressource, comme indiqué dans [l’attribution de licences aux utilisateurs dans Office 365 pour entreprises](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide)
 
-![numéro 3](media/sfbcallout3.png) une fois que vous avez créé le compte de ressources et affecté à la licence, vous pouvez cliquer sur **Affecter/supprimer l’attribution** pour affecter un numéro de téléphone pour le compte de ressources ou affecter la ressource à un standard automatique de compte ou un appel de file d’attente qui déjà existe. Si votre file d’attente d’appel ou de standard automatique doit toujours être créé, vous pouvez lier le compte de ressources lors de sa création. Lorsque vous avez terminé, cliquez sur **Enregistrer** .
+![numéro 3](media/sfbcallout3.png) une fois que vous avez créé le compte de ressources et affecté à la licence, vous pouvez cliquer sur **Attribuer/supprimer l’attribution** pour affecter un numéro de service appelant planifier pour le compte de ressources, ou affecter le compte de ressources à une file d’attente automatique standard ou un appel Il existe déjà. Affectation d’un numéro de routage direct peut être effectuée uniquement à l’aide des applets de commande. Si votre file d’attente d’appel ou de standard automatique doit toujours être créé, vous pouvez lier le compte de ressources lors de sa création. Lorsque vous avez terminé, cliquez sur **Enregistrer** .
 
 ![affecter des comptes de ressources](media/r-a-assign.png)
 
@@ -106,7 +106,7 @@ ID de l’application que vous devez utiliser lors de la création de l’applic
 New-CsOnlineApplicationInstance -UserPrincipalName testra1@contoso.com -ApplicationId “ce933385-9390-45d1-9512-c8d228074e07” -DisplayName "Resource account 1"
 ```
 
-2. Vous ne serez pas en mesure d’utiliser le compte de ressources jusqu'à ce que vous lui appliquez une licence. Pour savoir comment appliquer une licence à un compte dans le centre d’administration O365, voir [attribuer des licences aux utilisateurs dans Office 365 pour entreprises] (https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide#assign-licenses-to-one-user ainsi que [d’Affecter des Skype pour les licences d’entreprise](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses) .
+2. Vous ne serez pas en mesure d’utiliser le compte de ressources jusqu'à ce que vous lui appliquez une licence. Pour savoir comment appliquer une licence à un compte dans le centre d’administration O365, voir [attribuer des licences aux utilisateurs dans Office 365 pour entreprises](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide#assign-licenses-to-one-user) ainsi que les [Assigner de Skype pour les licences de l’entreprise](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses).
 
 3. (Facultatif) Une fois que la licence appropriée est appliquée au compte de ressource, vous pouvez définir un numéro de téléphone pour le compte de ressources comme indiqué ci-dessous. Pas de tous les comptes ressource nécessite un numéro de téléphone. Si vous n’avez pas appliqué une licence pour le compte de la ressource, l’affectation de numéros de téléphone échouera.
 
@@ -130,6 +130,17 @@ Pour gérer les paramètres de compte de ressource dans le centre d’administra
 - Numéro de téléphone affectée au compte
 
 Lorsque vous avez terminé, cliquez sur **Enregistrer**.
+
+## <a name="delete-a-resource-account"></a>Supprimer un compte de ressource
+
+Assurez-vous que vous permet de dissocier le numéro de téléphone à partir du compte de ressources avant de le supprimer, pour éviter d’obtenir votre numéro de service bloqué en mode d’attente. Vous pouvez le faire à l’aide de l’applet de commande suivante : 
+
+``` Powershell
+Set-csonlinevoiceapplicationinstance -identity <Resource Account oid> -TelephoneNumber $null
+```
+                
+Une fois que vous procédez ainsi, vous pouvez supprimer le compte de ressources à partir du portail d’administration O365, sous l’onglet utilisateurs.
+
 
 ## <a name="related-information"></a>Informations connexes
 

@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dcce9f30784e717052b494ad99e4fb25788455bf
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 58b2548e4c1c409314146d1675bbc06b2f95f7e5
+ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33402081"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33835458"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>Guide de la migration et de l’interopérabilité pour les organisations qui utilisent Teams avec Skype Entreprise
 
@@ -49,7 +49,7 @@ Une organisation avec Skype pour les entreprises au démarrage d’adopter les �
 
 7.  Mise à niveau d’un utilisateur vers le mode TeamsOnly garantit que tous les appels et les conversations entrantes seront toujours atteindre dans le client de l’utilisateur équipes, quel que soit le client provient de. Ces utilisateurs seront également planifier toutes les réunions dans les équipes. Pour être en mode TeamsOnly, un utilisateur doit être hébergé en ligne dans Skype pour les entreprises. Cette opération est obligatoire pour garantir l’interopérabilité, la fédération et l’administration complète de l’utilisateur d’équipes. Mise à niveau un utilisateur vers TeamsOnly :
     - Si l’utilisateur est hébergé dans Skype pour les entreprises en ligne (ou jamais eu de n’importe quel compte Skype), leur accorder TeamsUpgradePolicy avec Mode = TeamsOnly à l’aide de l’instance de « UpgradeToTeams » à l’aide de PowerShell, ou utiliser le centre d’administration équipes pour sélectionner le mode TeamsOnly.
-    - Si l’utilisateur est hébergés localement, utilisez `Move-CsUser` à partir de l’environnement local administrateur des outils pour déplacer vers le premier l’utilisateur de Skype pour Business Online.  Si vous avez Skype pour Business Server 2019 ou CU8 pour Skype pour Business Server 2015, vous pouvez spécifier le `-MoveToTeams` basculer dans `Move-CsUser` pour déplacer l’utilisateur directement aux équipes dans le cadre du déplacement en ligne. Cette option sera également migrer des réunions de l’utilisateur aux équipes (bien que pour l’instant, migration de réunion ne fonctionne uniquement pour les clients TAP). Si `-MoveToTeams` n’est pas spécifié ou n’est disponible, puis après `Move-CsUser` se termine, affectez TeamsOnly mode à cet utilisateur à l’aide de PowerShell ou le centre d’administration équipes. Pour plus d’informations, voir [déplacer des utilisateurs entre locaux et en nuage](https://docs.microsoft.com/en-us/skypeforbusiness/hybrid/move-users-between-on-premises-and-cloud).  Pour plus d’informations sur la migration de la réunion, reportez-vous [à l’aide de la réunion Migration MMS (Service)](https://docs.microsoft.com/en-us/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
+    - Si l’utilisateur est hébergés localement, utilisez `Move-CsUser` à partir de l’environnement local administrateur des outils pour déplacer vers le premier l’utilisateur de Skype pour Business Online.  Si vous avez Skype pour Business Server 2019 ou CU8 pour Skype pour Business Server 2015, vous pouvez spécifier le `-MoveToTeams` basculer dans `Move-CsUser` pour déplacer l’utilisateur directement aux équipes dans le cadre du déplacement en ligne. Cette option sera également migrer des réunions de l’utilisateur aux équipes. Si `-MoveToTeams` n’est pas spécifié ou n’est disponible, puis après `Move-CsUser` se termine, affectez TeamsOnly mode à cet utilisateur à l’aide de PowerShell ou le centre d’administration équipes. Pour plus d’informations, voir [déplacer des utilisateurs entre locaux et en nuage](https://docs.microsoft.com/en-us/skypeforbusiness/hybrid/move-users-between-on-premises-and-cloud).  Pour plus d’informations sur la migration de la réunion, reportez-vous [à l’aide de la réunion Migration MMS (Service)](https://docs.microsoft.com/en-us/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
 
 8.  Pour utiliser les fonctionnalités de système téléphonique d’équipes avec les équipes, les utilisateurs doivent être en mode TeamsOnly (autrement dit, hébergés dans Skype pour Business Online et mis à niveau vers les équipes), et ils doivent être configurés pour le système téléphonique de Microsoft [Routage Direct](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-is-now-Generally-Available/ba-p/210359#M1277) (qui vous permet d’utiliser le système téléphonique avec vos propres jonctions SIP et SBC) ou possèdent un Office 365 appelant Plan de.   
 
@@ -81,11 +81,11 @@ Les modes sont répertoriés ci-dessous.
 
 |Mode|Appel et conversation|Planification de réunion<sup>1</sup>|Les équipes & canaux|Cas d’utilisation|
 |---|---|---|---|---|
-|**TeamsOnly**</br>*Nécessite d’accueil dans Skype pour Business en ligne*|Teams|Teams|Oui|L’état final de la mise à niveau. Également la valeur par défaut pour les nouveaux clients avec <500 sièges.|
+|**TeamsOnly<sup>2</sup>**</br>*Nécessite d’accueil dans Skype pour Business en ligne*|Teams|Teams|Oui|L’état final de la mise à niveau. Également la valeur par défaut pour les nouveaux clients avec <500 sièges.|
 |(Îles)|Soit|Soit|Oui|Configuration par défaut. Permet à un utilisateur unique à évaluer les deux clients côte à côte. Conversations et les appels peuvent atteindre dans un client, afin que les utilisateurs doivent toujours exécuter les deux clients.|
-|SfBWithTeamsCollabAndMeetings|Skype Entreprise|Équipes|Oui|« Réunions premier ». Principalement pour des organisations locales afin de bénéficier de fonctionnalités de réunion équipes, s’ils ne sont pas encore prêts à passer l’appel vers le nuage.|
+|SfBWithTeamsCollabAndMeetings<sup>2</sup>|Skype Entreprise|Équipes|Oui|« Réunions premier ». Principalement pour des organisations locales afin de bénéficier de fonctionnalités de réunion équipes, s’ils ne sont pas encore prêts à passer l’appel vers le nuage.|
 |SfBWithTeamsCollab|Skype Entreprise|Skype Entreprise|Oui|Autre point de départ pour les organisations complexes nécessitant une plus forte du contrôle administratif.|
-|SfBOnly|Skype Entreprise|Skype Entreprise|Aucun<sup>2</sup>|Spécialisés scénario pour les organisations ayant de strictes exigences de contrôle de données. Les équipes est utilisée uniquement pour participer à des réunions planifiées par d’autres personnes.|
+|SfBOnly|Skype Entreprise|Skype Entreprise|Aucun<sup>3</sup>|Spécialisés scénario pour les organisations ayant de strictes exigences de contrôle de données. Les équipes est utilisée uniquement pour participer à des réunions planifiées par d’autres personnes.|
 ||||||
 
 </br>
@@ -95,7 +95,9 @@ Les modes sont répertoriés ci-dessous.
 
 <sup>1</sup> la possibilité de participer à une réunion existante (si planifiées dans des équipes ou Skype pour les entreprises) n’est pas régie par le mode. Par défaut, les utilisateurs peuvent toujours participer à des réunions qu’ils ont été invités.
 
-<sup>2</sup> actuellement, les équipes ne dispose pas la possibilité de désactiver la fonctionnalité équipes et canaux afin que cela reste activé pour l’instant.
+<sup>2</sup> par défaut, lorsque vous affectez TeamsOnly ou SfbWithTeamsCollabAndMeetings à un utilisateur individuel, n’importe quel Skype existant pour les réunions Business prévues par l’utilisateur dans le futur sont convertis en réunions d’équipes. Si vous le souhaitez, vous pouvez laisser quitter ces réunions en tant que Skype pour les réunions d’entreprise soit en spécifiant `-MigrateMeetingsToTeams $false` lorsque vous accordez TeamsUpgradePolicy ou en désélectionnant la case à cocher dans le portail d’administration des équipes.   Notez que la possibilité de convertir réunions Skype pour les entreprises d’équipes n’est pas disque lors de l’octroi de TeamsUpgradePolicy sur un client à l’échelle. 
+
+<sup>3</sup> actuellement, les équipes ne dispose pas la possibilité de désactiver la fonctionnalité équipes et canaux afin que cela reste activé pour l’instant.
 
 
 
@@ -190,4 +192,4 @@ TeamsInteropPolicy a été remplacée par TeamsUpgradePolicy. Tous les composant
 
 [Set-CsTeamsUpgradeConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsupgradeconfiguration?view=skype-ps)
 
-
+[Utilisation du Service de Migration de réunion (MMS)](https://docs.microsoft.com/en-us/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)

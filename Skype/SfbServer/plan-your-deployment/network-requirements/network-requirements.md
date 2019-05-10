@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 35c7bb3f-8e0f-48b7-8a2c-857d4b42a4c4
 description: 'Résumé : Passez en revue les considérations de composant réseau ci-dessous avant d’implémenter Skype pour Business Server.'
-ms.openlocfilehash: 338a2d273fbba2bd006c5ed5acdd878338333b8a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 631de0031a027ab8364f987f20b7e10e3f2e47f0
+ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32206260"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33834972"
 ---
 # <a name="plan-network-requirements-for-skype-for-business"></a>Plan network requirements for Skype for Business
 
@@ -128,6 +128,9 @@ L'utilisation de la bande passante par le trafic multimédia peut être difficil
 |SILK bande large  <br/> |Égal à égal  <br/> |26.0  <br/> |42.0  <br/> |54.0  <br/> |80.0  <br/> |
 |SILK bande large  <br/> |Égal à égal  <br/> |20.0  <br/> |36.0  <br/> |48.0  <br/> |68.0  <br/> |
 |Large bande/à bande étroite soie  <br/> |Égal à égal  <br/> |13.0  <br/> |29.0  <br/> |41.0  <br/> |54.0  <br/> |
+
+> [!NOTE]
+> Appels PSTN à partir de la Skype pour client d’entreprise utilisent généralement le codec G.711, ce qui nécessite une bande passante élevée. Si la bande passante requise n’est pas disponible pour ce codec, puis appels peuvent échouer avec une erreur semblable au suivant dans les journaux des fonctions multimédias : **au moins un codec doit être activé, hr : c0042004**. Journaux des fonctions multimédias (fichiers .blog) sont chiffrées et peuvent être décodées uniquement par le personnel du support technique Microsoft.
 
 Les valeurs de bande passante contenues dans le tableau ci-dessus reposent sur la mise en paquets 20 ms (50 paquets par seconde) et pour Siren et G.722 incluent le protocole SRTP (Secure Real-Time Transport Protocol) en plus des scénarios de conférence et supposent que le flux est entièrement actif. La correction d'erreur de transfert (FEC) est utilisée dynamiquement en cas de perte de paquet sur la liaison afin de maintenir la qualité du flux audio. 
 

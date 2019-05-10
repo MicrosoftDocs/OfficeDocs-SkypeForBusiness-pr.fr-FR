@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 007bea10d8e452a2198c869ab545592b29c591c1
-ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
+ms.openlocfilehash: c35c2455c3164f04dd9fdbbb210e20809a719bc6
+ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2019
-ms.locfileid: "33632368"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33835326"
 ---
 <a name="calling-policies-in-microsoft-teams"></a>Stratégies de conservation dans Microsoft Teams
 ===================================
@@ -85,11 +85,16 @@ Ce paramètre active les appels entrants destinés à être envoyés vers la mes
 
 ### <a name="inbound-calls-can-be-routed-to-call-groups"></a>Les appels entrants peuvent être acheminés pour appeler des groupes 
 
+> [!Include [feature preview](includes/preview-feature.md)]
+
 Ce paramètre contrôle si les appels entrants peuvent être transférés vers un groupe d’appel.
 
 ### <a name="allow-delegation-for-inbound-and-outbound-calls"></a>Autoriser la délégation pour les appels entrants et sortants
 
+> [!Include [feature preview](includes/preview-feature.md)]
+
 Ce paramètre active les appels entrants destinés à être acheminés vers les délégués, les délégués pour émettre des appels sortants part les utilisateurs pour lesquels ils ont délégué des autorisations. Pour plus d’informations, voir [partager une ligne téléphonique avec un délégué](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8).
+
 
 ### <a name="prevent-toll-bypass-and-send-calls-through-the-pstn"></a>Empêcher le contournement de média payant et envoyer les appels par le biais de la passerelle PSTN 
 

@@ -1,5 +1,5 @@
 ---
-title: Licences de salles d’équipes Microsoft
+title: Licences Salles Microsoft Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,22 +21,23 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Découvrez les fonctionnalités disponibles dans les salles d’équipes Microsoft. '
-ms.openlocfilehash: c25234fa6a5a83e71398fa9138a6a84e65c2d883
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: cef845197d8b76dfc6248f1976f08879680ace5f
+ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2019
-ms.locfileid: "33362748"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33865021"
 ---
-# <a name="microsoft-teams-rooms-licenses"></a>Licences de salles d’équipes Microsoft
+# <a name="microsoft-teams-rooms-licenses"></a>Licences Salles Microsoft Teams
 <a name="bkmk_srs"> </a>
 
 Le tableau suivant répertorie les fonctionnalités de dépendants licences sont disponibles dans les salles d’équipes Microsoft et les licences dont vous avez besoin d’acheter pour obtenir les.
   
 > [!NOTE]
 > Ces licences doivent être affectées à la salle configurée et elle doit être un objet utilisateur.
+> La nouvelle salle de réunion licence est maintenant disponible dans Office 365.
 
-|Scénario de salles d’équipes Microsoft |Vous avez actuellement Office 365 Premium, Office 365 ProPlus0 ou Skype pour Business autonome Plan 2.  <br/> Voici les compléments que vous devez acheter :  |Vous possédez actuellement une offre d'entreprise.  <br/> Voici les compléments que vous devez acheter : |Vous possédez Skype Entreprise Server 2015 (sur site ou hybride). <br/> Voici les compléments que vous devez acheter :|
+|Scénario de salles d’équipes Microsoft |Vous avez actuellement Office 365 Premium, Office 365 ProPlus ou Skype pour Business autonome Plan 2.  <br/> Voici les compléments que vous devez acheter :  |Vous possédez actuellement une offre d'entreprise.  <br/> Voici les compléments que vous devez acheter : |Vous possédez Skype Entreprise Server 2015 (sur site ou hybride). <br/> Voici les compléments que vous devez acheter :|
 |:-----|:-----|:-----|:-----|
 |Participer à une réunion planifiée.  |Plan autonome 1 Skype Entreprise |E1, 3, 4 ou 5  |Skype Entreprise Licence d'accès client Server standard  |
 |Lancer une réunion ad hoc. |Plan autonome 2 Skype Entreprise |E1, 3, 4 ou 5 |Skype Entreprise Licence d'accès client Server standard  <br/> Skype Entreprise Licence d'accès client Server Entreprise|

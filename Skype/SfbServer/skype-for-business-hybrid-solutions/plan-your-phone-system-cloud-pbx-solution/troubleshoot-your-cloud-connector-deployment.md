@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6cf58cc-dbd9-4f35-a51a-3e2fea71b5a5
 description: Résoudre les problèmes de votre déploiement en nuage connecteur Edition.
-ms.openlocfilehash: a80d6977ff565d5d06f2487e5fb3ab8293b5e000
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b9ade46f46898d22bab862c3044e045de441b007
+ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32240749"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33864917"
 ---
 # <a name="troubleshoot-your-cloud-connector-deployment"></a>Identification et résolution des problèmes de votre déploiement Cloud Connector
  
@@ -204,7 +204,11 @@ Voici des solutions aux problèmes couramment rencontrés :
     **Si les certificats d’autorité de certification sont compromises et s’il n'existe qu’une seule application dans le site,** effectuez les opérations suivantes :
     
 1. Exécutez l’applet de commande Enter-CcUpdate afin d’épuiser les services et de mettre l’appliance en mode maintenance.
-    
+   
+   ```
+   Enter-CcUpdate
+   ```
+   
 2. Exécutez les applets de commande suivantes afin de réinitialiser et de créer les nouveaux certificats de l’autorité de certification et tous les certificats du serveur interne :
     
     Pour les versions de nuage connecteur avant 2.0 :
@@ -222,20 +226,37 @@ Voici des solutions aux problèmes couramment rencontrés :
     Update-CcServerCertificate 
     Remove-CcLegacyServerCertificate 
     ```
+    
+3. Si TLS est utilisé entre la passerelle et le serveur de médiation, exécutez l’applet de commande Export-CcRootCertificate à partir de l’application, puis installez le certificat exporté dans vos passerelles PSTN. Il peut également être nécessaire émettre à nouveau le certificat sur votre passerelle.
 
-3. Exécutez l’applet de commande Exit-CcUpdate pour démarrer les services et quitter le mode maintenance.
-    
-4. Exécutez l’applet de commande Export-CcRootCertificate sur le fichier local dans l’appliance, puis copiez et installez le certificat exporté vers vos passerelles RTC.
-    
+   ```
+   Export-CcRootCertificate
+   ```
+
+4. Exécutez l’applet de commande Exit-CcUpdate pour démarrer les services et quitter le mode maintenance.
+
+   ```
+   Exit-CcUpdate
+   ```
+
+
     **Si les certificats d’autorité de certification sont compromises et qu’il existe plusieurs applications dans le site,** procédez comme suit séquentiel sur chaque appliance dans le site.
     
     Microsoft recommande que vous suivez ces étapes pendant les heures non pics d’utilisation.
     
-   - Sur la première application, exécutez l’applet de commande Remove-CcCertificationAuthorityFile pour le nettoyage de l’autorité de certification sauvegarder des fichiers dans le \<SiteRoot\> directory.
+1. Sur la première application, exécutez l’applet de commande Remove-CcCertificationAuthorityFile pour le nettoyage de l’autorité de certification sauvegarder des fichiers dans le \<SiteRoot\> directory.
+
+     ```
+     Remove-CcCertificationAuthorityFile
+     ```
     
-   - Exécutez l’applet de commande entrée-CcUpdate pour décharger les services et placer chaque application en mode maintenance.
+2. Exécutez l’applet de commande entrée-CcUpdate pour décharger les services et placer chaque application en mode maintenance.
+
+     ```
+     Enter-CcUpdate
+     ```
     
-   - Exécutez les applets de commande suivantes afin de réinitialiser et de créer les nouveaux certificats de l’autorité de certification et tous les certificats du serveur interne :
+3. Sur la première application, exécutez les applets de commande suivante pour réinitialiser et de créer de nouveaux certificats d’autorité de certification et tous les certificats de serveur interne :
     
      Pour les versions de nuage connecteur avant 2.0 :
     
@@ -253,15 +274,32 @@ Voici des solutions aux problèmes couramment rencontrés :
      Remove-CcLegacyServerCertificate 
      ```
 
-   - Sur la première application, exécutez la cmdlet suivante pour sauvegarder les fichiers de l’autorité de certification pour le \<SiteRoot\> dossier. Ultérieurement, sur tous les autres matériels dans le même site, l’applet de commande Reset-CcCACertificate consomme automatiquement les fichiers de sauvegarde d’autorité de certification et équipements utiliseront le même certificat racine.
+4. Sur la première application, exécutez la cmdlet suivante pour sauvegarder les fichiers de l’autorité de certification pour le \<SiteRoot\> dossier.
     
      ```
      Backup-CcCertificationAuthority
      ```
+   
+5. Sur tous les autres l’application dans le même site, exécutez les commandes suivantes pour utiliser les fichiers de sauvegarde de l’autorité de certification, de sorte que les appareils utilisent tous le même certificat racine, puis demander de nouveaux certificats. 
+   
+     ```
+     Reset-CcCACertificate
+     Update-CcServerCertificate
+     Remove-CcLegacyServerCertificate 
+     ```
+     
+6. Si TLS est utilisé entre la passerelle et le serveur de médiation, exécutez l’applet de commande Export-CcRootCertificate à partir de n’importe quel matériel dans le site, puis installez le certificat exporté dans vos passerelles PSTN. Il peut également être nécessaire émettre à nouveau le certificat sur votre passerelle.
+  
+     ```
+     Export-CcRootCertificate
+     ```
+     
+7. Exécutez l’applet de commande Exit-CcUpdate pour démarrer les services et quitter le mode maintenance. 
 
-   - Exécutez l’applet de commande Exit-CcUpdate pour démarrer les services et quitter le mode maintenance. 
+     ```
+     Exit-CcUpdate
+     ```
     
-   - Si TLS est utilisé entre la passerelle et le serveur de médiation, exécutez l’applet de commande Export-CcRootCertificate à partir de n’importe quel matériel dans le site, puis installez le certificat exporté dans vos passerelles PSTN. 
     
 - **Problème : Vous recevez le message d’erreur suivant dans le journal du Service de gestion de connecteur dans le nuage, « C:\Program Files\Skype pour Business nuage connecteur Edition\ManagementService\CceManagementService.log » : erreur CceService : 0 : exception inattendue lorsque rapports d’état en ligne : System.Management.Automation.CmdletInvocationException : Échec de l’ouverture de session de l’utilisateur \<administrateur client Global\>. Créez un nouvel objet d’informations d’identification, en veillant à ce que vous avez utilisé le nom d’utilisateur et le mot de passe. ---\>**
     

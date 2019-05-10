@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn about the features, availability, and how to plan and set up a Phone System (Cloud PBX) for your business. '
-ms.openlocfilehash: a8660693fefdca2ecfdfe327927e89431d0fe5db
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 6827f750f9e4161cc5747015bad2ce832497fcb9
+ms.sourcegitcommit: ca7a22da082ac5336f31ffd76f3d4aef6c76285b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245528"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "33868671"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Voici les avantages du système téléphonique dans Office 365
 
@@ -66,6 +66,7 @@ Pour plus d’informations, voir [tarification pour le système téléphonique](
 |[Définir les options de transfert d'appel dans Skype Entreprise](https://support.office.com/article/1ec2e7fb-471c-4c35-bc90-a35991b3f532) <br/> |Envoie vos appels à votre équipe, immédiatement ou après un délai défini.  <br/> |
 |[Émission et réception d'un appel vidéo dans Skype Entreprise](https://support.office.com/article/abf62493-670f-4b0d-b2cf-fe03b49caf42) <br/> | Vous pouvez voir le nom du présentateur et le flux vidéo dans une petite fenêtre flottante, pour être toujours prêt à répondre à une question. <br/> |
 |[Consultation de la messagerie vocale et des options de Skype Entreprise](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8) <br/> |Voici comment fonctionne la messagerie vocale dans le nuage : lorsqu’un utilisateur reçoit un message vocal, il est remis à leur boîte aux lettres en tant qu’un message électronique avec le message vocal en pièce jointe. Ils peuvent également écouter leurs messages sur leur Skype certifié téléphone de bureau, tous les Skype pour les applications métier ou Lync pour Mac 2011.  <br/> Messagerie vocale dans le nuage inclut le message d’accueil personnalisé, indicateur de message en attente et répondre par un appel. Vous pouvez configurer votre messagerie vocale pour que tous les messages soient stockés dans des boîtes aux lettres et disponibles via Skype Entreprise sur votre ordinateur, appareil mobile ou téléphone IP.  <br/> |
+|Attente musicale | Disponible en juin 2019, système téléphonique sera la musique par défaut définis par le service lorsqu’un appel externe à partir du Public téléphone réseau commuté (RTC) est mis en attente.  Cette fonctionnalité fonctionne pour les appels RTC-à-équipes conversation en plus des appels vers une file d’attente de l’appel. Cette fonctionnalité offre attente notification parité avec d’autres plates-formes. (Toutes les autres plateformes donnent une indication visuelle lorsqu’un utilisateur est mis en attente, mais n’a aucun moyen de l’appelant PSTN).  Sur la première version, cette fonctionnalité n’est pas configurable par l’administrateur.| 
    
 ## <a name="plan-and-set-up-the-phone-system-in-office-365"></a>Planifier et configurer le système téléphonique dans Office 365
 <a name="bkmk_setup"> </a>

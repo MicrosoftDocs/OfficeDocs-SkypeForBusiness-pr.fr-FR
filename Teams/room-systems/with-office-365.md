@@ -1,5 +1,5 @@
 ---
-title: Déployer les équipes Microsoft salles avec Office 365
+title: Déployer des Salles Microsoft Teams avec Office 365 ProPlus
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -14,14 +14,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Lisez cette rubrique pour plus d’informations sur la façon de déployer Microsoft équipes salles avec Office 365.
-ms.openlocfilehash: 16d0fad14bd52a13fa6735ec0b786cb15f3ce8c1
-ms.sourcegitcommit: 728507d34031d01f663d9b551cd4794867244854
+ms.openlocfilehash: 05b6bc05200bd6664fc597b937d2a45fba1c9e2b
+ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "33467533"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33835254"
 ---
-# <a name="deploy-microsoft-teams-rooms-with-office-365"></a>Déployer les équipes Microsoft salles avec Office 365
+# <a name="deploy-microsoft-teams-rooms-with-office-365"></a>Déployer des Salles Microsoft Teams avec Office 365 ProPlus
 
 Lisez cette rubrique pour plus d’informations sur la façon de déployer Microsoft équipes salles avec Office 365, où Microsoft Teams ou Skype pour les entreprises et Exchange sont en ligne.
 
@@ -108,8 +108,12 @@ Pour plus d’informations sur Skype pour Business Online Plans, voir le [Skype 
 
    Pour détaillées sur la syntaxe et les informations sur les paramètres, voir [Set-CalendarProcessing](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing).
 
-4. Se connecter à MS Online PowerShell pour rendre les paramètres Active Directory en exécutant la `Connect-MsolService -Credential $cred` applet de commande powershell.   Pour plus d’informations sur Active Directory, voir [Azure Active Directory (MSOnline) 1.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-1.0). <!-- or [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-2.0) for the new module -->  
-    1. Si vous ne souhaitez pas que le mot de passe à expiration, utilisez la syntaxe suivante :
+4. Se connecter à MS Online PowerShell pour rendre les paramètres Active Directory en exécutant la `Connect-MsolService -Credential $cred` applet de commande powershell.   Pour plus d’informations sur Active Directory, voir [Azure Active Directory (MSOnline) 1.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-1.0). 
+
+   > [!NOTE]
+   > [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-2.0) n’est pas pris en charge. 
+
+5. Si vous ne souhaitez pas que le mot de passe à expiration, utilisez la syntaxe suivante :
 
     ``` PowerShell
     Set-MsolUser -UserPrincipalName $acctUpn -PasswordNeverExpires $true

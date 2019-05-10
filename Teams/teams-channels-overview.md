@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 415f4d94cf64de76ed3d7b4a7243d419d092999c
-ms.sourcegitcommit: c011e4ab6f936a9e26d304835634293b1cedc57d
-ms.translationtype: HT
+ms.openlocfilehash: 039838172bf155d5c050fbb59fd4cc260fdbb4c3
+ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2019
-ms.locfileid: "31043364"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33864896"
 ---
 > [!NOTE]
 > Passez en revue les informations suivantes pour mieux comprendre la conversation, les équipes, les canaux et les applications dans Teams. Accédez ensuite à [Déployer la conversation, les équipes, les canaux et les applications dans Teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md) pour procéder à une liste des décisions importantes pour votre déploiement Teams.
@@ -41,11 +41,11 @@ Commençons par nous pencher sur la façon dont Microsoft Teams permet aux équ
     
     Une équipe est destinée à réunir un groupe de personnes qui travaillent en étroite collaboration pour atteindre leurs objectifs. Les équipes peuvent être dynamiques pour un travail de projet (lancer un produit ou créer un centre de crise numérique par exemple) et être courantes, pour refléter la structure interne de votre organisation (services et bureaux par exemple). Les conversations, les fichiers et les notes ne sont visibles que pour les membres de l’équipe.
 
--   Les **canaux** sont des sections dédiées dans une équipe pour stocker des conversations organisées par sujets, projets et disciplines spécifiques ; à votre équipe de décider !
+-   Les **canaux** sont des sections dédiées dans une équipe pour stocker des conversations organisées par sujets, projets et disciplines spécifiques ; à votre équipe de décider ! Fichiers que vous partagez dans un canal d’échange (sous l’onglet fichiers) sont stockés dans SharePoint. Pour plus d’informations, consultez [comment SharePoint Online et OneDrive entreprise interagissent avec les équipes](SharePoint-OneDrive-interact.md).
 
-    -   Les canaux d'une équipe sont des endroits où chaque membre dans l'équipe peut mener des conversations ouvertes. Les discussions privées ne sont accessibles qu'aux personnes qui participent à cette conversation.
+    -   Canaux d’équipe sont les endroits où tous les membres de l’équipe peuvent avoir des conversations façon ouverte. Conversations privées sont visibles uniquement par les personnes dans la salle de conversation (et les fichiers que vous partagez dans une conversation sont stockés dans OneDrive entreprise). 
 
-    -   Les canaux sont particulièrement utiles lorsque des applications incluant des onglets, des connecteurs et des robots y sont ajoutés, qui apportent une valeur ajoutée pour les membres de l’équipe.
+    -   Les canaux sont particulièrement utiles lorsque des applications incluant des onglets, des connecteurs et des robots y sont ajoutés, qui apportent une valeur ajoutée pour les membres de l’équipe. Pour plus d’informations, voir [applications, des robots, des connecteurs & dans les équipes](deploy-apps-microsoft-teams-landing-page.md).
 
 Affichez cette courte vidéo pour en savoir plus sur les meilleures pratiques pour la création d’équipes et canaux.
 

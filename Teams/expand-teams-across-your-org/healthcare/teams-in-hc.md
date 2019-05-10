@@ -13,12 +13,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Prise en main de Teams pour les organismes de santé
-ms.openlocfilehash: 7f68a21e835edb3b5ebcd8ff794f4fd3d0716bee
-ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
+ms.openlocfilehash: b2e7019183da06484b533fe66fd092c588c65e3f
+ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2019
-ms.locfileid: "33632289"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33835440"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Prise en main de Teams pour les organismes de santé
 
@@ -91,10 +91,13 @@ Sécuriser la messagerie prend en charge la collaboration au sein des équipes d
 
 - Un expéditeur du message peut définir une priorité spéciale pour leur message, afin que le destinataire est informé à plusieurs reprises jusqu'à ce qu’ils lire le message.
 - Un expéditeur du message peut demander une confirmation de lecture, afin qu’ils sont avertis lorsqu’un messages a été lu par le destinataire du message.
+- 
 
 Ensemble, ces fonctionnalités permettent attention plus rapide aux messages urgents et que le message a été reçu et lecture de confiance. Nouvelle soignant à l’aide de ces fonctionnalités peut être créées sur une base par patient. Ces fonctionnalités sont basés sur la stratégie et peuvent être affectées aux utilisateurs individuels ou des équipes entières.
 
 Pour plus d’informations, voir [stratégies de messagerie sécurisée pour les organisations de santé en main](messaging-policies-hc.md) .
+
+Également liées pour sécuriser la messagerie est la possibilité d’autres clients fédérés par les organisations de santé, autorisant les communications entre locataires plus riche. (voir [Manage external access (fédération) dans les équipes Microsoft](../../manage-external-access.md)).
 
 ## <a name="firstline-worker-integration"></a>Intégration de travail Firstline
 
