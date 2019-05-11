@@ -1,8 +1,8 @@
 ---
 title: Demande de certificat (autres noms du sujet)
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,17 +13,17 @@ localization_priority: Normal
 ms.assetid: 3485f663-e114-43d7-8fe3-fcc4e5ae71ce
 ROBOTS: NOINDEX, NOFOLLOW
 description: Le nom du sujet / page noms de sujet présente un résumé du nom du sujet et tous les noms de sujet qui remplira le certificat. Les noms présentés pour le nom du sujet et les noms de sujet sont collectées à partir du document de définition, telle qu’elle a été créée lorsque vous avez défini le déploiement dans le Générateur de topologie.
-ms.openlocfilehash: c3de09f21ee0b1121d5bb081c33a5d4d32ea7518
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 8808fc8aa0ec6fd2112b9fa6c315165cf32bd358
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32216465"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33893769"
 ---
-# <a name="certificate-request-subject-alternate-names"></a><span data-ttu-id="2a782-104">Demande de certificat (autres noms du sujet)</span><span class="sxs-lookup"><span data-stu-id="2a782-104">Certificate Request (Subject Alternate Names)</span></span>
+# <a name="certificate-request-subject-alternate-names"></a><span data-ttu-id="abb27-104">Demande de certificat (autres noms du sujet)</span><span class="sxs-lookup"><span data-stu-id="abb27-104">Certificate Request (Subject Alternate Names)</span></span>
  
-<span data-ttu-id="2a782-105">Le **nom du sujet / autres noms de sujet** page présente un résumé du nom du sujet et tous les noms de sujet qui remplira le certificat.</span><span class="sxs-lookup"><span data-stu-id="2a782-105">The **Subject Name / Subject Alternative Names** page presents a summary of the subject name and all subject alternative names that will populate the certificate.</span></span> <span data-ttu-id="2a782-106">Les noms présentés pour le nom du sujet et les noms de sujet sont collectées à partir du document de définition, telle qu’elle a été créée lorsque vous avez défini le déploiement dans le Générateur de topologie.</span><span class="sxs-lookup"><span data-stu-id="2a782-106">The names presented for subject name and subject alternative names are gathered from the definition document, as it was created when you defined the deployment in Topology Builder.</span></span>
+<span data-ttu-id="abb27-105">Le **nom du sujet / autres noms de sujet** page présente un résumé du nom du sujet et tous les noms de sujet qui remplira le certificat.</span><span class="sxs-lookup"><span data-stu-id="abb27-105">The **Subject Name / Subject Alternative Names** page presents a summary of the subject name and all subject alternative names that will populate the certificate.</span></span> <span data-ttu-id="abb27-106">Les noms présentés pour le nom du sujet et les noms de sujet sont collectées à partir du document de définition, telle qu’elle a été créée lorsque vous avez défini le déploiement dans le Générateur de topologie.</span><span class="sxs-lookup"><span data-stu-id="abb27-106">The names presented for subject name and subject alternative names are gathered from the definition document, as it was created when you defined the deployment in Topology Builder.</span></span>
   
-<span data-ttu-id="2a782-107">Si vous devez apporter des modifications pour le nom du sujet ou des noms de sujet, cliquez sur **Annuler** pour quitter l’Assistant demande de certificat et exécutez de nouveau le Générateur de topologie.</span><span class="sxs-lookup"><span data-stu-id="2a782-107">If you must make changes to the subject name or any of the subject alternative names, click **Cancel** to exit the Certificate Request Wizard and rerun Topology Builder.</span></span> <span data-ttu-id="2a782-108">Republiez puis la nouvelle configuration avec l’objet correctement définie et les noms de sujet.</span><span class="sxs-lookup"><span data-stu-id="2a782-108">Then republish the new configuration with the correctly defined subject and subject alternative names.</span></span>
+<span data-ttu-id="abb27-107">Si vous devez apporter des modifications pour le nom du sujet ou des noms de sujet, cliquez sur **Annuler** pour quitter l’Assistant demande de certificat et exécutez de nouveau le Générateur de topologie.</span><span class="sxs-lookup"><span data-stu-id="abb27-107">If you must make changes to the subject name or any of the subject alternative names, click **Cancel** to exit the Certificate Request Wizard and rerun Topology Builder.</span></span> <span data-ttu-id="abb27-108">Republiez puis la nouvelle configuration avec l’objet correctement définie et les noms de sujet.</span><span class="sxs-lookup"><span data-stu-id="abb27-108">Then republish the new configuration with the correctly defined subject and subject alternative names.</span></span>
   
 

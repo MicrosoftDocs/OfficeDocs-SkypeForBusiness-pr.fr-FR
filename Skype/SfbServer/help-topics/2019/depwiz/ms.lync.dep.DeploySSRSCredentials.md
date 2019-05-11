@@ -1,8 +1,8 @@
 ---
 title: SQL Server Reporting Services (informations d’identification)
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,22 +13,22 @@ localization_priority: Normal
 ms.assetid: 033906cd-385f-4b04-9607-376888ec414d
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Pour spécifier les informations d’identification pour le SQL Server Reporting Services (SSRS) pour accéder à la base de données de surveillance, procédez comme suit :'
-ms.openlocfilehash: 02287bd96f37886dcfdbf36aabe20409d6fee5c6
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: bac3e7173a964160970eb9c6f7359e90dd244bd5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32216031"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33892061"
 ---
-# <a name="sql-server-reporting-services-credentials"></a><span data-ttu-id="cb5bb-103">SQL Server Reporting Services (informations d’identification)</span><span class="sxs-lookup"><span data-stu-id="cb5bb-103">SQL Server Reporting Services (Credentials)</span></span>
+# <a name="sql-server-reporting-services-credentials"></a><span data-ttu-id="d18d2-103">SQL Server Reporting Services (informations d’identification)</span><span class="sxs-lookup"><span data-stu-id="d18d2-103">SQL Server Reporting Services (Credentials)</span></span>
  
-<span data-ttu-id="cb5bb-104">Pour spécifier les informations d’identification pour le SQL Server Reporting Services (SSRS) pour accéder à la base de données de surveillance, procédez comme suit :</span><span class="sxs-lookup"><span data-stu-id="cb5bb-104">To specify the credentials for the SQL Server Reporting Services (SSRS) to access the Monitoring database, do the following:</span></span>
+<span data-ttu-id="d18d2-104">Pour spécifier les informations d’identification pour le SQL Server Reporting Services (SSRS) pour accéder à la base de données de surveillance, procédez comme suit :</span><span class="sxs-lookup"><span data-stu-id="d18d2-104">To specify the credentials for the SQL Server Reporting Services (SSRS) to access the Monitoring database, do the following:</span></span>
   
-<span data-ttu-id="cb5bb-105">Dans la **Page spécifier des informations d’identification**, spécifiez les informations d’identification utilisateur que vous souhaitez utiliser pour accéder à la base de données de surveillance (QoEMetrics et LcsCDR).</span><span class="sxs-lookup"><span data-stu-id="cb5bb-105">In the **Specify Credential Page**, specify the user credentials that you want to use to access the Monitoring database (QoEMetrics and LcsCDR).</span></span> 
+<span data-ttu-id="d18d2-105">Dans la **Page spécifier des informations d’identification**, spécifiez les informations d’identification utilisateur que vous souhaitez utiliser pour accéder à la base de données de surveillance (QoEMetrics et LcsCDR).</span><span class="sxs-lookup"><span data-stu-id="d18d2-105">In the **Specify Credential Page**, specify the user credentials that you want to use to access the Monitoring database (QoEMetrics and LcsCDR).</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="cb5bb-106">Pour plus d’informations, voir « Spécification d’informations d’identification et connexion informations pour rapport données Sources (SSRS) » à [https://go.microsoft.com/fwlink/p/?LinkId=263431](https://go.microsoft.com/fwlink/p/?LinkId=263431).</span><span class="sxs-lookup"><span data-stu-id="cb5bb-106">For details, see "Specifying Credential and Connection Information for Report Data Sources (SSRS)" at [https://go.microsoft.com/fwlink/p/?LinkId=263431](https://go.microsoft.com/fwlink/p/?LinkId=263431).</span></span> 
+> <span data-ttu-id="d18d2-106">Pour plus d’informations, voir « Spécification d’informations d’identification et connexion informations pour rapport données Sources (SSRS) » à [https://go.microsoft.com/fwlink/p/?LinkId=263431](https://go.microsoft.com/fwlink/p/?LinkId=263431).</span><span class="sxs-lookup"><span data-stu-id="d18d2-106">For details, see "Specifying Credential and Connection Information for Report Data Sources (SSRS)" at [https://go.microsoft.com/fwlink/p/?LinkId=263431](https://go.microsoft.com/fwlink/p/?LinkId=263431).</span></span> 
   
-<span data-ttu-id="cb5bb-107">Pour plus d’informations sur le déploiement des rapports Reporting Services pour le serveur de surveillance, voir [Installer des rapports de surveillance dans Skype pour Business Server](../../../deploy/deploy-monitoring/install-monitoring-reports.md).</span><span class="sxs-lookup"><span data-stu-id="cb5bb-107">For details about deploying the Reporting Services reports for the server running Monitoring, see [Install Monitoring Reports in Skype for Business Server](../../../deploy/deploy-monitoring/install-monitoring-reports.md).</span></span>
+<span data-ttu-id="d18d2-107">Pour plus d’informations sur le déploiement des rapports Reporting Services pour le serveur de surveillance, voir [Installer des rapports de surveillance dans Skype pour Business Server](../../../deploy/deploy-monitoring/install-monitoring-reports.md).</span><span class="sxs-lookup"><span data-stu-id="d18d2-107">For details about deploying the Reporting Services reports for the server running Monitoring, see [Install Monitoring Reports in Skype for Business Server](../../../deploy/deploy-monitoring/install-monitoring-reports.md).</span></span>
   
 
