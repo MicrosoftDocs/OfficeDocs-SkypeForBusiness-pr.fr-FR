@@ -1,8 +1,8 @@
 ---
 title: Modifier les paramètres de qualité de l’expérience dans Skype pour Business Server
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a6b41de2-1466-4240-8a70-14ce6f0f3ddc
 description: 'Résumé : Découvrez comment spécifier la conservation des données QoE dans Skype pour Business Server.'
-ms.openlocfilehash: 4a2197d3d66a5b871682ba187bf607480f2da175
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 19342bb3f24f9e93919d0f1a292153d553f4c450
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32197764"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33929510"
 ---
 # <a name="modify-quality-of-experience-settings-in-skype-for-business-server"></a>Modifier les paramètres de qualité de l’expérience dans Skype pour Business Server
 

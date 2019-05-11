@@ -1,8 +1,8 @@
 ---
 title: Déployer du gestionnaire de statistiques pour Skype Entreprise Server
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: 'Résumé : consultez cette rubrique pour connaître la procédure de déploiement du gestionnaire de statistiques de Skype Entreprise Serveur.'
-ms.openlocfilehash: c70bb596914142fb03e87ccd7e2f1df606aac31f
-ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
+ms.openlocfilehash: 8313a242cc2016f3155314d76dd36be486d4d6ac
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "33864903"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33901759"
 ---
 # <a name="deploy-statistics-manager-for-skype-for-business-server"></a>Déployer le Gestionnaire de Statistiques pour Skype Entreprise Server
  

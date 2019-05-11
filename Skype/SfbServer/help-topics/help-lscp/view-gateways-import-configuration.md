@@ -1,8 +1,8 @@
 ---
 title: Afficher les passerelles (importer la configuration)
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0cdb0a42-c682-42f7-907e-667f934cb7e0
 description: Dans passerelle déployée, cliquez sur la passerelle où vous souhaitez importer le fichier de configuration de voix que vous avez sélectionné.
-ms.openlocfilehash: c4166854fda1508b24cc1ec0bc0adbc964ef3ad0
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 0d796d8fe9122aa64ba4414e3b8f2180d3fd2eba
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200364"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33888295"
 ---
 # <a name="view-gateways-import-configuration"></a>Afficher les passerelles (importer la configuration)
  

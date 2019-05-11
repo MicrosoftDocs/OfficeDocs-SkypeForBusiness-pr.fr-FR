@@ -1,8 +1,8 @@
 ---
 title: Planification de désactiver les méthodes d’authentification Legacy internes et externes à votre réseau
 ms.reviewer: ''
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -12,12 +12,12 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: ''
 description: Cet article plans les applets de commande qui offrent des administrateurs plus de contrôle des méthodes d’authentification utilisée à l’intérieur et en dehors d’une entreprise. Les administrateurs peuvent activer des méthodes d’authentification soit désactivée en interne ou externe à leur réseau.
-ms.openlocfilehash: 08f8b850fbde99f85f804494eab79a9a3531d009
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ab50913b2a8a784193f30b124f9a212da29fa5bf
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32213899"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33929202"
 ---
 # <a name="planning-to-turn-off-legacy-authentication-methods-internally-and-externally-to-your-network"></a>Envisagez de désactiver les méthodes d’authentification Legacy internes et externes à votre réseau.
 

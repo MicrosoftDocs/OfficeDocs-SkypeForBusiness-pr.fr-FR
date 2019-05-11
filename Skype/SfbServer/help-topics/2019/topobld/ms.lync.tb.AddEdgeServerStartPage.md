@@ -1,8 +1,8 @@
 ---
 title: Ajouter la prise en charge du serveur Edge
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: f7f90070-fcdc-4ec5-9551-cc7da2ed271c
 ROBOTS: NOINDEX, NOFOLLOW
 description: Vous pouvez ajouter la prise en charge pour l’accès des utilisateurs externes lorsque vous déployez votre topologie initiale ou à une date ultérieure. Pour plus d’informations sur l’ajout de serveurs Edge à une topologie existante, reportez-vous à la rubrique Define Your Edge Topology de la documentation de déploiement des serveurs Edge.
-ms.openlocfilehash: 78aab30b5fc0f1fefe2b42a5f1d04affcdb73244
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ad12fa4ec2907f8cd9a7e847c30edbcb76f80036
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32202130"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33889030"
 ---
 # <a name="add-edge-server-support"></a>Ajouter la prise en charge du serveur Edge
 

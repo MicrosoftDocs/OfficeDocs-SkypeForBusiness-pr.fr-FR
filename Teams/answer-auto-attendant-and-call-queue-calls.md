@@ -1,6 +1,6 @@
 ---
 title: Répondre aux appels dans la file d’attente ou du standard automatique directement à partir de Teams
-ms.reviewer: ''
+ms.reviewer: waseemh
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8a94f8220cca2058e993f73241e62ff3ad0ea4f2
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: beb4b043798ba5348da1d460f49ff93e6aff55e1
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32210930"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33900929"
 ---
 <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>Répondre aux appels dans la file d’attente ou du standard automatique directement à partir de Teams
 ===========================================================

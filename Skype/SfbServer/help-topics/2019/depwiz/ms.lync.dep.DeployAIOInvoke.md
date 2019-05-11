@@ -1,8 +1,8 @@
 ---
 title: Préparer le serveur Standard Edition (appel)
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 5da0aa73-8bf8-41f3-81e7-94f955cda541
 ROBOTS: NOINDEX, NOFOLLOW
 description: Dans la page de commandes en cours d’exécution, les tâches d’installation de SQL Server Express et de configuration pour agir en tant que magasin Central de gestion peuvent être affichés dans le volet Office. Par défaut, une instance d’une base de données basée sur SQL Server nommée RTC est créée. Règles de pare-feu sont également créés pour autoriser l’accès entrant et sortant pour les serveurs et clients de communiquer avec la base de données et l’instance. Une fois la tâche terminée, vous pouvez sélectionner le fichier journal dans la liste déroulante. Le fichier journal est nommé d’amorçage ordinateur local. Après avoir sélectionné le fichier journal, cliquez sur Afficher le journal. Passez en revue le fichier journal pour les erreurs et avertissements. Lorsque vous êtes prêt à continuer, cliquez sur Terminer. Vous devez maintenant définir votre topologie avec le Générateur de topologie si vous n’avez pas déjà fait.
-ms.openlocfilehash: b4c1807f383e6933e15d49b6e486978d3afc087f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 8031f1d1bceb81e0aadf8df2756ff1ad47f8d369
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32216549"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33894035"
 ---
 # <a name="prepare-single-standard-edition-server-invoke"></a>Préparer le serveur Standard Edition (appel)
  

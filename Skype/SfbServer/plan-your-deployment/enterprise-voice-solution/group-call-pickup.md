@@ -1,8 +1,8 @@
 ---
 title: Planification de groupe ou d’appel dans Skype entreprise
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3dc0eca8-c773-463c-96bb-9cd6afa2a840
 description: Planification de groupe d’appel collecte dans Skype pour Business Server Enterprise Voice, qui permet aux utilisateurs répondre aux appels originellement prévues pour d’autres personnes.
-ms.openlocfilehash: ce00ebcacfe8703bcec6418ea620b3d4fe525a68
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b62a6fae7f2e7e145332db242eb8793692205adf
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32206858"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33924233"
 ---
 # <a name="plan-for-group-call-pickup-in-skype-for-business"></a>Planification de groupe ou d’appel dans Skype entreprise
  

@@ -1,8 +1,8 @@
 ---
 title: Importer un certificat (résumé)
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 81072ae1-6a20-4695-aba7-c05b91f81799
 ROBOTS: NOINDEX, NOFOLLOW
 description: Dans la page Résumé du certificat importation, se succèdent un résumé du nom de fichier, le chemin d’accès et la présence d’une clé privée. Après avoir consulté le résumé, cliquez sur Suivant pour continuer.
-ms.openlocfilehash: 0a0bb6baa672386fc55a7b572a69d8322edda4cc
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b0ce87ea6ba09efe9294f54dc6de58e5bda9e003
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32216605"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33893951"
 ---
 # <a name="import-certificate-summary"></a>Importer un certificat (résumé)
  

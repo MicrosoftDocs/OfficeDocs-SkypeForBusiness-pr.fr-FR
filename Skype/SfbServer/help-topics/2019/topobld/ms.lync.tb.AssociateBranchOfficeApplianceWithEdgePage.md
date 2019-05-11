@@ -1,8 +1,8 @@
 ---
 title: Associer un Branch Office Appliance à un serveur Edge
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 3f02e4bd-f86f-4a84-9c04-28d2a53b10b1
 ROBOTS: NOINDEX, NOFOLLOW
 description: Si vous avez déployé des serveurs de périphérie et devez fournir des services de support pour une utilisation externe, choisissez le serveur de périphérie ou le pool qui est associée à le Survivable Branch Appliance ou un serveur Survivable Branch Server en la sélectionnant dans la liste déroulante. Cliquez sur Suivant pour continuer.
-ms.openlocfilehash: ba98cbbed88251511d789137e6af716642749973
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f5f59af45d104f111ff6c2fd02c5e0734bf22520
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32220655"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33887110"
 ---
 # <a name="associate-branch-office-appliance-with-edge"></a>Associer un Branch Office Appliance à un serveur Edge
  

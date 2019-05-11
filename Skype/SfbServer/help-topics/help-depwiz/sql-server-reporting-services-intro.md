@@ -1,8 +1,8 @@
 ---
 title: SQL Server Reporting Services (introduction)
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f3cda686-6301-419c-af68-b49cc785e5fc
 description: Chaque pool frontal et un serveur Survivable Branch Appliance peuvent avoir un seul que serveur de surveillance lui est associé. Lorsque l’analyse est activée pour le site, le serveur de surveillance fournit des détails des appels (CDR) et la collecte de données de qualité de l’expérience (QoE) et la création de rapports.
-ms.openlocfilehash: acbaa205472cacad13c32086b2e93017c8b9dcec
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a64444ca5b47de4527c27b7e08d4011646c604dd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32234908"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33925122"
 ---
 # <a name="sql-server-reporting-services-intro"></a>SQL Server Reporting Services (introduction)
  

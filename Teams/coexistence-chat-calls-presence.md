@@ -1,7 +1,7 @@
 ---
 title: Coexistence avec Skype Entreprise
-author: jambirk
-ms.author: francoid
+author: kenwith
+ms.author: kenwith
 manager: Serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -14,12 +14,12 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 description: Ce document décrit le comportement de la conversation, le routage des appels et la présence entre les utilisateurs des équipes et Skype pour les entreprises, de client et fédérés, selon les modes TeamsUpgrade affectés. Il inclut les optimisations de routage, le comportement de présence, ainsi que la modification du mode de TeamsUpgrade par défaut à partir de *hérité* *Îles* et la mise hors service imminente de *hérité*.
-ms.openlocfilehash: 44510afdf77510de447bcded2b8a2135b71557a1
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 3c88bd93805e6c2a33eb2f5c03ee04d4e7d55535
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32198783"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33929104"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Coexistence avec Skype Entreprise
 

@@ -1,8 +1,8 @@
 ---
 title: 'Lync Server 2010 : créer un expandeur'
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ef810ad3-1689-4c21-b995-d45e5486f8b0
 description: Vous pouvez créer de nouveaux rôles de serveur dans le nœud du Générateur de topologies Lync Server 2010 en cliquant avec le bouton droit sur Lync Server 2010, sélectionnez Nouveau, puis sélectionnez le rôle de serveur à créer.
-ms.openlocfilehash: 6f4e42e891768cdc9d75cb006939ff7ec6a9c4d5
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 94bcb7c825c9e1f7bcfc006701c4a2652793e0af
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200115"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33888512"
 ---
 # <a name="lync-server-2010-create-new-expander"></a>Lync Server 2010 : créer un expandeur
  

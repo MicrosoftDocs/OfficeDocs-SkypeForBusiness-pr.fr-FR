@@ -1,8 +1,8 @@
 ---
 title: Accéder à l’outil de planification dans Skype Entreprise Server 2015
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 4/5/2016
 ms.audience: ITPro
@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 01d28e07-7fdc-41f9-9b6d-75dad8c14f6a
 description: Vous accédez le Skype pour l’outil de planification de 2015 Business Server à l’aide d’une combinaison d’une barre d’outils, les boutons spécifiques à la page et les liens et les volets spécifique au contexte. Les volets contextuels fournissent des informations conceptuelles sur la planification et la capacité appropriées pour les options de sélection sur une page spécifique.
-ms.openlocfilehash: 64e8157c6511316d047709a47009769843f95958
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e26e14589756c33a6de5cd64d82a6801dfd0dbb4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32217352"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33914148"
 ---
 # <a name="navigate-the-planning-tool-in-skype-for-business-server-2015"></a>Navigate the Planning Tool in Skype for Business Server 2015
 

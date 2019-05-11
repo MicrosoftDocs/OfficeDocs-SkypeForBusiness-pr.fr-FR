@@ -1,8 +1,8 @@
 ---
 title: Modifications apportées par la préparation du domaine dans Skype pour Business Server
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/9/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9191221e-6166-4c2b-837e-fa73d90fdf80
 description: Le tableau suivant répertorie les entrées de contrôle d’accès (ACE) par la préparation du domaine sur le domaine racine. Toutes les ACE sont héritées, sauf indication contraire.
-ms.openlocfilehash: 5cf239e37badafee9980140d08fd20a11e3c233d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ccb05f122e60c66bccefa3e8504e60639612cba0
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32213451"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33907142"
 ---
 # <a name="changes-made-by-domain-preparation-in-skype-for-business-server"></a>Modifications apportées par la préparation du domaine dans Skype pour Business Server
  
