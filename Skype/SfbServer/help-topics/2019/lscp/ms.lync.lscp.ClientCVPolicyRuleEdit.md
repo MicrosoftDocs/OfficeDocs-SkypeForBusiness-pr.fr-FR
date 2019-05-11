@@ -1,8 +1,8 @@
 ---
 title: Règle de version du client
 ms.reviewer: ''
-ms.author: dianef
-author: dianef77
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 6e7e94c2-1475-4334-b8da-716b24a4c255
 ROBOTS: NOINDEX, NOFOLLOW
 description: Une stratégie de version de client est composée d’un ensemble de règles de version de client. Ces règles définissent les actions qui doivent être effectuées lorsque les utilisateurs tentent de se connecter avec des clients et des versions de client spécifiques.
-ms.openlocfilehash: d1de600a3907d3e981bb1f706cdedbff05e965f0
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 918d32b82a3f4fffddccdccc8ffe9671ad4b8a15
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215898"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891879"
 ---
 # <a name="client-version-rule"></a>Règle de version du client
 

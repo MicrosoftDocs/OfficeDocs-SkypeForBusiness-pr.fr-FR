@@ -1,7 +1,7 @@
 ---
 title: Liste de contrôle intégration de configuration des charges de travail des fonctionnalités vocales dans le cloud de Microsoft Teams
-author: rmw2890
-ms.author: Rowille
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3da65a7203f8597824a43be15d5980a5ab53cb2f
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 416cf03d07918834ebd06dbfd717bd28b7edff2d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33400843"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33899052"
 ---
 # <a name="configure-cloud-voice-workloads-in-microsoft-teams"></a>Configurer des charges de travail dans le nuage vocale dans Microsoft Teams
 
@@ -50,7 +50,7 @@ ms.locfileid: "33400843"
 | 4  | Configurer des plans de numérotation | Un plan de numérotation permet aux utilisateurs de composer des numéros de téléphone de la façon dont ils sont utilisés, comme l’omission de l’indicatif régional pour les appels locaux, en omettant le code du pays pour les appels nationaux ou même à l’aide de short chiffres composer le numéro à composer des autres utilisateurs pendant une conférence. <br/><br/>Le plan de numérotation de service, la valeur par défaut, est basé sur l’emplacement d’utilisation d’un utilisateur Office 365 et ne peut pas être modifié. <br/><br/>Si le plan de service par défaut ne répond pas à vos besoins, vous pouvez configurer des plans de numérotation client au niveau du client ou de l’utilisateur. Vérifiez si vous déjà effectué cette étape pour une audioconférence. | | [Système téléphonique avec les Plans d’appel](calling-plan-landing-page.md) <br/><br/>[Plans de numérotation appelant Plan Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans) |
 | 5  | Configurer des emplacements d’urgence | Pour affecter un numéro à un utilisateur de voix, vous devez également affecter les un emplacement E.911 à des fins d’urgence. <br/><br/>Nous recommandons l’utilisation de PowerShell pour automatiser la création de services de localisation.| | [Emplacements d’urgence, les adresses et le routage des appels](what-are-emergency-locations-addresses-and-call-routing.md) |
 | 6  | Attribuer des licences, numéros de téléphone, plan de numérotation utilisateur client et emplacements d’urgence pour les utilisateurs | Attribution de licences de E5 à vos utilisateurs. Si vous utilisez E3/E4 SKU, puis affecter le module complémentaire système téléphonique aux utilisateurs finaux. <br/><br/>Une fois que vous affectez des licences, continuer en affectant des numéros de téléphone, plans de numérotation et emplacements d’urgence. Scripts d’activation utilisateur permet de facilement configurer plusieurs utilisateurs à la fois. | | [MyAdvisor – scripts d’activation utilisateur](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_2_0_6,5_2_0_3)|
-| 7  | Configurer la messagerie vocale Azure | Si les boîtes aux lettres de vos utilisateurs sont hébergés sur Exchange Online, leurs boîtes aux lettres voix seront automatiquement mis en service. <br/><br/>Toutefois, pour un déploiement sur site d’Exchange Server, vous devez vérifiez que vous disposez de la version prise en charge et la topologie. Suivez les étapes décrites dans la colonne **des informations supplémentaires** . Vous pouvez activer la transcription de la messagerie vocale activé ou désactivé pour votre organisation.| | [Prise en charge de la messagerie vocale PBX Azure pour Exchange Server](https://support.microsoft.com/help/3195158/customer-issues-between-exum-and-azure-voicemail) <br/><br/>[Configurer la Messagerie vocale cloud](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail) |
+| 7  | Configurer la messagerie vocale Azure | Si les boîtes aux lettres de vos utilisateurs sont hébergés sur Exchange Online, leurs boîtes aux lettres voix seront automatiquement mis en service. <br/><br/>Toutefois, pour un déploiement sur site d’Exchange Server, vous devez vérifiez que vous disposez de la version prise en charge et la topologie. Suivez les étapes décrites dans la colonne **des informations supplémentaires** . Vous pouvez activer la transcription de la messagerie vocale activé ou désactivé pour votre organisation.| | [Prise en charge de la messagerie vocale PBX Azure pour Exchange Server](https://support.microsoft.com/help/3195158/customer-issues-between-exum-and-azure-voicemail) <br/><br/>[Configuration Messagerie vocale Cloud](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail) |
 | 8  | FACULTATIF : Configurez l’ID de l’appelant pour les appels entrants et sortants | Par défaut, tous les appels sortants utilisent le numéro de téléphone attribué pour appeler l’identité (ID de l’appelant). <br/><br/>Vous pouvez éventuellement modifier ou bloquer l’ID d’appelant pour un utilisateur. <br/><br/>**Remarque :** Les appels d’urgence toujours envoyer le numéro de téléphone en tant que l’ID de l’appelant. | | [Comment ID de l’appelant peut être utilisée dans votre organisation ?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization.md) <br/><br/>[Définir l’ID d’appelant pour un utilisateur](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user)|
 | 9  | FACULTATIF : Configurer l’interopérabilité avec Skype pour les entreprises | Configurez les stratégies d’interopérabilité si votre organisation migre de Skype pour les entreprises aux équipes. <br/><br/>Interopérabilité permet Skype pour les utilisateurs professionnels et les équipes à une conversation et appeler l’autre. <br/><br/>Votre déploiement existant et votre stratégie de déploiement prévue pour les équipes affectent vos plans. Passez en revue les options d’interopérabilité, configuration requise et limitations et configurer des stratégies en conséquence. <br/><br/>**Remarque :** Ces étapes s’appliquent uniquement si votre organisation héberge toujours des utilisateurs sur Skype pour Business Online. | | [Interopérabilité entre Microsoft Teams et Skype Entreprise](https://docs.microsoft.com/microsoftteams/teams-and-skypeforbusiness-coexistence-and-interoperability) <br/><br/>[Guide de démarrage rapide : Configuration des forfaits d'appels dans Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/configuring-teams-calling-quickstartguide) |
 | 10 | Préparer et exécuter des tests d’acceptation utilisateur | Préparer et exécuter des tests d’acceptation utilisateur, y compris de scénarios rendez-vous entrants et sortants. | | [Plan de test pour le système téléphonique](https://docs.microsoft.com/MicrosoftTeams/onboarding-test-plan-for-enterprises-phone-system) |
