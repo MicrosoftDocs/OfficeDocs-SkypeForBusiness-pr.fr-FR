@@ -1,8 +1,8 @@
 ---
 title: Ajouter des colocalisations du serveur frontal
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 23e3bda7-a8bf-4da4-88e5-098ae2aa268f
 ROBOTS: NOINDEX, NOFOLLOW
 description: Pour un déploiement Enterprise Edition, A / service de conférence de V est colocalisé sur le pool frontal. Vous pouvez également colocaliser le serveur de médiation sur le pool frontal, ou vous pouvez le déployer en tant que serveur autonome. A / service de conférence de V est toujours colocalisé si la conférence est activée.
-ms.openlocfilehash: a9f0f46cbd93681b068ef7d87e269c5ff4024385
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a24cc4114efed4db6249e4cc8c8ce28abd2a42d3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32235504"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33897736"
 ---
 # <a name="add-front-end-server-collocations"></a>Ajouter des colocalisations du serveur frontal
 

@@ -1,8 +1,8 @@
 ---
 title: Configurer un itinéraire de région réseau créer une nouvelle ou en modifier une existant
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 694b3260-770f-489e-b2dd-cb8e026afdbe
 ROBOTS: NOINDEX, NOFOLLOW
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: fdf1beb2d62e2d2879b3a47884feb3fa23669e00
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 4210bfcc8c8250a49f638fc9180e307c1fe082de
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215466"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891368"
 ---
 # <a name="configure-a-network-region-route-create-new-or-edit-existing"></a>Configurer un itinéraire de région réseau : en créer une autre ou en modifier une existante
 

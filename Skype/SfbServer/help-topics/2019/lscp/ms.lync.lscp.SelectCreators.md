@@ -1,8 +1,8 @@
 ---
 title: Sélection des créateurs
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: f8d9ed6f-22ba-470e-b0b4-0da3cea5e961
 ROBOTS: NOINDEX, NOFOLLOW
 description: Création et gestion des salles de conversation permanente sont beaucoup plus facile avec l’utilisation correcte des catégories. Un administrateur de conversation permanente peut définir AllowedMembers et créateurs pour chaque catégorie et permettre également définir les paramètres de salle de conversation par défaut et les comportements qui seront appliquées à toutes les salles de conversation créées dans la catégorie. Persistent Chat créer et gérer les catégories à l’aide de Skype pour le panneau de configuration serveur Business ou Windows PowerShell cmdlets.
-ms.openlocfilehash: df8092a77edd0d66563f1c963bdbc3906875d98a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 8bf0cd164e5779206d05322b962c57eb9a3eeaa4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215072"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891067"
 ---
 # <a name="select-creators"></a>Sélection des créateurs
 

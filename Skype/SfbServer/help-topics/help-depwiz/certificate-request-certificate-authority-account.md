@@ -1,8 +1,8 @@
 ---
 title: Demande de certificat (compte d’autorité de certification)
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6251322d-ac36-4760-b467-bcd543af22aa
 description: Pour soumettre une demande, votre autorité de certification (CA) peut-être nécessiter des informations d’identification autres que ceux de l’utilisateur que vous êtes connecté en tant que. Pour autoriser une demande de certificat en tant qu’utilisateur différent, activez les case à cocher spécifier autres informations d’identification de l’autorité de certification, puis tapez le nom d’utilisateur ou domaine\nom d’utilisateur pour un utilisateur qui peut demander le certificat. Dans la zone de texte mot de passe, tapez le mot de passe pour l’utilisateur que vous avez spécifié. Le nom d’utilisateur et le mot de passe sont ensuite envoyés dans le cadre du processus de demande de certificat, mais pas dans la demande de certificat réel, à une autorité de certification en ligne.
-ms.openlocfilehash: 4580b402198da6d11355675d862387e6fdeb80a4
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b921b19fe2844887827c9d0ea0903ab8279e835a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32201435"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33911183"
 ---
 # <a name="certificate-request-certificate-authority-account"></a>Demande de certificat (compte d’autorité de certification)
  

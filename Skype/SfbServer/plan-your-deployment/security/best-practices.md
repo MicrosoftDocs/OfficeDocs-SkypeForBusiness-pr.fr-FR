@@ -1,8 +1,8 @@
 ---
 title: Meilleures pratiques pour votre infrastructure principale dans Skype pour Business Server
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 44aff88d-536c-4613-a81e-5398c9c6a648
 description: Vous avez probablement déjà pris des mesures pour intégrer la tolérance de pannes dans votre système, en utilisant des pratiques telles que la garantie de la redondance matérielle, la prévention de la perte d'alimentation, l'installation régulière des mises à jour, l'établissement des mesures de sécurité antivirus et la surveillance de l'activité du serveur. Ces pratiques sont bénéfiques non seulement votre Skype pour l’infrastructure de serveur d’entreprise, mais aussi tout votre réseau. Si vous n’avez pas implémenté ces pratiques, nous vous recommandons de le faire avant de déployer Skype pour Business Server.
-ms.openlocfilehash: 86d18e1d9d34b5f65f4cb938e13a9829af1646bb
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 66725331c84e3f2d24e496489e0db8ef9866d0e8
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32213626"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33896353"
 ---
 # <a name="best-practices-for-your-core-infrastructure-in-skype-for-business-server"></a>Meilleures pratiques pour votre infrastructure principale dans Skype pour Business Server
  

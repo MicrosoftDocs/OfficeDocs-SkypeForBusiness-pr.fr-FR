@@ -1,20 +1,20 @@
 ---
 title: Définition des règles de normalisation dans Skype pour Business Server
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Skype pour les règles de normalisation Business Server utiliser des expressions régulières .NET Framework pour traduire des numéros de téléphone composé au format E.164 ; en d’autres termes, les règles de normalisation prennent le numéro de téléphone composé par un utilisateur et convertir ce numéro au format utilisé en interne par Skype pour Business Server. Une ou plusieurs règles de normalisation doivent être affectées à chaque plan de numérotation.
-ms.openlocfilehash: a1157e9cf435fdd655e9d1772294fa3f57acf3f4
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: dbf8b2a764d5a9370d1e117360a5773f20d6d9cb
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32214658"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33896410"
 ---
 # <a name="defining-normalization-rules-in-skype-for-business-server"></a>Définition des règles de normalisation dans Skype pour Business Server
 

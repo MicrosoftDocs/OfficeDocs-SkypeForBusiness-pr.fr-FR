@@ -1,8 +1,8 @@
 ---
 title: Plan de numérotation de créer une nouvelle ou en modifier une existant
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 98e6372e-90e3-4939-b681-640f00d98ff1
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: c4388950e5241ea14fb40b486b1db3c9c3de2eca
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 8bff26c3802d674cef661acb262e52a87b42e23c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32234603"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33901493"
 ---
 # <a name="dial-plan-create-new-or-edit-existing"></a>Plan de numérotation : en créer une autre ou en modifier une existante
 

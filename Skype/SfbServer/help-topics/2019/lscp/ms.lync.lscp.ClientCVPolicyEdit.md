@@ -1,8 +1,8 @@
 ---
 title: Stratégie de Version du client créer ou modifier une existant
 ms.reviewer: ''
-ms.author: SerdarS
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: e32c6712-6dc9-4de9-8d74-9fdccf3de1ba
 ROBOTS: NOINDEX, NOFOLLOW
 description: Vous pouvez spécifier la version des clients pris en charge dans votre environnement. Quand deux clients exécutant des versions distinctes interagissent, les fonctionnalités disponibles pour l’un des clients peuvent être restreintes par les fonctions de l’autre client.
-ms.openlocfilehash: 5648d96e69869171d78a3a28634bdb2b0221a234
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 298610084be12606eedf09331ad39beea8add9ae
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32216402"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891907"
 ---
 # <a name="client-version-policy-create-new-or-edit-existing"></a>Stratégie de version du client : création d’une stratégie ou modification d’une stratégie existante
 

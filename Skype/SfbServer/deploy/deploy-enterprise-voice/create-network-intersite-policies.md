@@ -1,8 +1,8 @@
 ---
 title: Créer des stratégies inter-sites réseau dans Skype pour Business Server
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b0714aae-55dc-4587-b718-34a03f596b22
 description: Créer des stratégies inter-sites, qui sont utilisés par le contrôle d’admission des appels d’appel Enterprise Voice dans Skype pour Business Server réseau.
-ms.openlocfilehash: 6619787bf071afe719c715de39e23b992d6e6ede
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 455caaf624c463bdb1c32ca8fbce70c88626c774
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32223470"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33892964"
 ---
 # <a name="create-network-intersite-policies-in-skype-for-business-server"></a>Créer des stratégies inter-sites réseau dans Skype pour Business Server
  

@@ -1,8 +1,8 @@
 ---
 title: Processus de déploiement de Response Group dans Skype pour les entreprises
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d390c8a1-dc6e-44d8-b386-2be1fca9877c
 description: Processus de déploiement et les étapes pour Response Group dans Skype pour Business Server Enterprise Voice.
-ms.openlocfilehash: 83438ec17bd78a60afbc08a1c72ef84469218652
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b06508f5e9e6ff32c11d69ccc91ac34fedd4042d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32223047"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33892586"
 ---
 # <a name="deployment-process-for-response-group-in-skype-for-business"></a>Processus de déploiement de Response Group dans Skype pour les entreprises
 

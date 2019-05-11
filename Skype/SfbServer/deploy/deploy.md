@@ -1,8 +1,8 @@
 ---
 title: Déployer Skype Entreprise Server 2015
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 12/20/2018
 ms.audience: ITPro
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0cf43c54-e544-40c5-8659-a876f614a3b3
 description: 'Résumé : utilisez ces liens pour savoir comment installer et configurer Skype Entreprise Server 2015 et effectuer une mise à niveau à partir de versions précédentes de Lync Server.'
-ms.openlocfilehash: 129106e6d7affdc097a1f5601831307e706e8903
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
-ms.translationtype: HT
+ms.openlocfilehash: b23576bb8f56522522a3fd9011f8583b9c847463
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879982"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33892005"
 ---
 # <a name="deploy-skype-for-business-server-2015"></a>Déployer Skype Entreprise Server 2015
  

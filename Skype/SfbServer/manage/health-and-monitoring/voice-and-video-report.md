@@ -1,8 +1,8 @@
 ---
 title: Égal à égal rapport vocal et vidéo dans Skype pour Business Server
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e17c36b5-5a2f-4673-9696-3b2d31c2bb2f
 description: 'Résumé : Découvrez le pair à pair rapport vocal et vidéo dans Skype pour Business Server.'
-ms.openlocfilehash: a4572d23a4c41ce423bdc96634ed8a3b9a9b1042
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 74ab2f5056c66bbd819834a573a307bd8cf82773
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897621"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33898037"
 ---
 # <a name="peer-to-peer-voice-and-video-report-in-skype-for-business-server"></a>Égal à égal rapport vocal et vidéo dans Skype pour Business Server
  

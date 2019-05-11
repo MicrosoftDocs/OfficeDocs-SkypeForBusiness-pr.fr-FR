@@ -1,8 +1,8 @@
 ---
 title: Assistant Certificat
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 6ab661d7-5741-4cad-bbe4-62cf862ded85
 ROBOTS: NOINDEX, NOFOLLOW
 description: Pour Demander, Assigner, Supprimer ou Afficher des certificats, utilisez l’Assistant Certificat. Vous devez être connecté en tant que membre du groupe RTCUniversalServerAdmins. Pour demander un certificat à une autorité de certification publique, il n’est pas nécessaire que vous soyez membre d’autres groupes. Pour demander un certificat à partir clé publique de votre organisation (PKI), vous devez vérifier que supplémentaires, le cas échéant, vous aurez besoin des appartenances de groupe. Au cours de la tâche de demande, vous pouvez entrer les informations d’identification de substitution qui seront utilisées pour demander que le certificat à partir de votre infrastructure à clé publique de l’autorité de certification.
-ms.openlocfilehash: afa36085fb4e8a1937facac204d78d5c0c61af9b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 7c85272d9bddb0c25dae4e7623f57aafde670539
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32216297"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33893790"
 ---
 # <a name="certificate-wizard"></a>Assistant Certificat
  

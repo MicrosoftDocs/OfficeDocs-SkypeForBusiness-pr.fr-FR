@@ -1,8 +1,8 @@
 ---
 title: Demande de certificat (élémentaire)
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 2c6b40d5-207a-4ca9-a090-e43350f4968f
 ROBOTS: NOINDEX, NOFOLLOW
 description: La page Nom et paramètres de sécurité fournit une zone de texte pour définir le nom convivial, une liste déroulante pour la longueur en bits de la paire de clés privée et publique et une case à cocher qui vous permet de marquer la clé privée du certificat comme exportable.
-ms.openlocfilehash: abc022cd9126b90fb83244657dfb32ac214a62c8
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 7a2c166ff8e5949eea23a237b3d06d968565cb1c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32216395"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33893776"
 ---
 # <a name="certificate-request-basic"></a>Demande de certificat (élémentaire)
  
