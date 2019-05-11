@@ -1,7 +1,7 @@
 ---
 title: Configuration requise pour Skype Entreprise pour Windows Phone
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 12/20/2018
@@ -15,28 +15,28 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c4bc0e45-7877-466c-b187-2c35c851a98d
 description: 'Résumé : Passez en revue la configuration de périphérique du système client lors de la planification pour Skype pour Business Server.'
-ms.openlocfilehash: 494b6ab9cbd962e8e03ac225ded5aaf248287317
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 47eab0a97a5615b8df32a51ab91dc2f0132fc42b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32207292"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33886458"
 ---
-# <a name="system-requirements-for-skype-for-business-for-windows-phone"></a><span data-ttu-id="7f48a-103">Configuration requise pour Skype Entreprise pour Windows Phone</span><span class="sxs-lookup"><span data-stu-id="7f48a-103">System requirements for Skype for Business for Windows Phone</span></span>
+# <a name="system-requirements-for-skype-for-business-for-windows-phone"></a><span data-ttu-id="09c0b-103">Configuration requise pour Skype Entreprise pour Windows Phone</span><span class="sxs-lookup"><span data-stu-id="09c0b-103">System requirements for Skype for Business for Windows Phone</span></span>
  
  
-<span data-ttu-id="7f48a-104">Microsoft Skype pour Business pour Windows Phone fournit la messagerie instantanée, présence enrichie et téléphonie aux utilisateurs de votre organisation qui sont connectent à partir d’un smartphone ou un appareil mobile Windows Professionnel.</span><span class="sxs-lookup"><span data-stu-id="7f48a-104">Microsoft Skype for Business for Windows Phone provides instant messaging (IM), enhanced presence, and telephony for users in your organization who are connecting from a smartphone or a Windows Professional mobile device.</span></span> <span data-ttu-id="7f48a-105">Les appareils mobiles permettent aux utilisateurs d’étendre la portée de Skype pour les entreprises.</span><span class="sxs-lookup"><span data-stu-id="7f48a-105">Mobile devices enable users to extend the reach of Skype for Business.</span></span> <span data-ttu-id="7f48a-106">Cette rubrique décrit les considérations de planification pour Skype pour Business pour Windows Phone qui incluent l’identification des conditions préalables et les exigences techniques, les composants requis et déploiement.</span><span class="sxs-lookup"><span data-stu-id="7f48a-106">This topic describes planning considerations for Skype for Business for Windows Phone that include identifying prerequisites and technical requirements, required components, and deployment guidance.</span></span>
+<span data-ttu-id="09c0b-104">Microsoft Skype pour Business pour Windows Phone fournit la messagerie instantanée, présence enrichie et téléphonie aux utilisateurs de votre organisation qui sont connectent à partir d’un smartphone ou un appareil mobile Windows Professionnel.</span><span class="sxs-lookup"><span data-stu-id="09c0b-104">Microsoft Skype for Business for Windows Phone provides instant messaging (IM), enhanced presence, and telephony for users in your organization who are connecting from a smartphone or a Windows Professional mobile device.</span></span> <span data-ttu-id="09c0b-105">Les appareils mobiles permettent aux utilisateurs d’étendre la portée de Skype pour les entreprises.</span><span class="sxs-lookup"><span data-stu-id="09c0b-105">Mobile devices enable users to extend the reach of Skype for Business.</span></span> <span data-ttu-id="09c0b-106">Cette rubrique décrit les considérations de planification pour Skype pour Business pour Windows Phone qui incluent l’identification des conditions préalables et les exigences techniques, les composants requis et déploiement.</span><span class="sxs-lookup"><span data-stu-id="09c0b-106">This topic describes planning considerations for Skype for Business for Windows Phone that include identifying prerequisites and technical requirements, required components, and deployment guidance.</span></span>
   
-## <a name="skype-for-business-for-windows-phone-prerequisites"></a><span data-ttu-id="7f48a-107">Configuration requise pour Skype Entreprise pour Windows Phone</span><span class="sxs-lookup"><span data-stu-id="7f48a-107">Skype for Business for Windows Phone Prerequisites</span></span>
+## <a name="skype-for-business-for-windows-phone-prerequisites"></a><span data-ttu-id="09c0b-107">Configuration requise pour Skype Entreprise pour Windows Phone</span><span class="sxs-lookup"><span data-stu-id="09c0b-107">Skype for Business for Windows Phone Prerequisites</span></span>
 
-<span data-ttu-id="7f48a-108">Vous trouverez ci-dessous la Skype pour les composants requis Business pour Windows Phone.</span><span class="sxs-lookup"><span data-stu-id="7f48a-108">Following are the Skype for Business for Windows Phone prerequisites.</span></span>
+<span data-ttu-id="09c0b-108">Vous trouverez ci-dessous la Skype pour les composants requis Business pour Windows Phone.</span><span class="sxs-lookup"><span data-stu-id="09c0b-108">Following are the Skype for Business for Windows Phone prerequisites.</span></span>
   
-- <span data-ttu-id="7f48a-109">Windows Phone 8.1 ou version ultérieure.</span><span class="sxs-lookup"><span data-stu-id="7f48a-109">Windows Phone 8.1 or later.</span></span>
+- <span data-ttu-id="09c0b-109">Windows Phone 8.1 ou version ultérieure.</span><span class="sxs-lookup"><span data-stu-id="09c0b-109">Windows Phone 8.1 or later.</span></span>
     
-- <span data-ttu-id="7f48a-110">Les dernières mises à jour Microsoft doivent être installées sur l’appareil Windows Phone.</span><span class="sxs-lookup"><span data-stu-id="7f48a-110">The Windows Phone device must have the latest updates available from Microsoft.</span></span> <span data-ttu-id="7f48a-111">Pour plus d’informations, consultez la section Windows Phone 8.1 à [Windows Phone 8 mise à jour de l’historique](https://go.microsoft.com/fwlink/p/?LinkID=281961).</span><span class="sxs-lookup"><span data-stu-id="7f48a-111">For details, see the Windows Phone 8.1 section at [Windows Phone 8 update history](https://go.microsoft.com/fwlink/p/?LinkID=281961).</span></span>
+- <span data-ttu-id="09c0b-110">Les dernières mises à jour Microsoft doivent être installées sur l’appareil Windows Phone.</span><span class="sxs-lookup"><span data-stu-id="09c0b-110">The Windows Phone device must have the latest updates available from Microsoft.</span></span> <span data-ttu-id="09c0b-111">Pour plus d’informations, consultez la section Windows Phone 8.1 à [Windows Phone 8 mise à jour de l’historique](https://go.microsoft.com/fwlink/p/?LinkID=281961).</span><span class="sxs-lookup"><span data-stu-id="09c0b-111">For details, see the Windows Phone 8.1 section at [Windows Phone 8 update history](https://go.microsoft.com/fwlink/p/?LinkID=281961).</span></span>
     
-- <span data-ttu-id="7f48a-112">L’appareil doit disposer d’au moins 22 Mo d’espace disque disponible.</span><span class="sxs-lookup"><span data-stu-id="7f48a-112">The device must have 22 MB of available disk space.</span></span>
+- <span data-ttu-id="09c0b-112">L’appareil doit disposer d’au moins 22 Mo d’espace disque disponible.</span><span class="sxs-lookup"><span data-stu-id="09c0b-112">The device must have 22 MB of available disk space.</span></span>
     
-- <span data-ttu-id="7f48a-113">L’utilisateur doit avoir souscrit un plan de données et de communications vocales auprès d’un fournisseur.</span><span class="sxs-lookup"><span data-stu-id="7f48a-113">The user must have a voice and data plan from a carrier.</span></span>
+- <span data-ttu-id="09c0b-113">L’utilisateur doit avoir souscrit un plan de données et de communications vocales auprès d’un fournisseur.</span><span class="sxs-lookup"><span data-stu-id="09c0b-113">The user must have a voice and data plan from a carrier.</span></span>
     
 

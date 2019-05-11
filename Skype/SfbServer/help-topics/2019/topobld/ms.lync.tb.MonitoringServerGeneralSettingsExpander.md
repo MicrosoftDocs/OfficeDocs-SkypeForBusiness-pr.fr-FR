@@ -1,8 +1,8 @@
 ---
 title: Expanseur des paramètres généraux du serveur de surveillance
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,19 +13,19 @@ localization_priority: Normal
 ms.assetid: b45e4b2f-a6e8-4919-979e-1ba74fd46028
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Dans le générateur de topologie, vous pouvez modifier les propriétés d’un serveur de surveillance individuel en cliquant avec le bouton droit sur le serveur de surveillance dans l’arborescence de la console, en cliquant sur Action dans la barre d’outils ou en cliquant sur une tâche dans le volet Actions. Cliquez ensuite sur Modifier les propriétés pour modifier l’une des options suivantes :'
-ms.openlocfilehash: 4dfdc81b92ca1c0ebf1b8fd0cf3e2541f702697c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 02241287b2d45742484c88defc272445a81cd36c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32235367"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33885566"
 ---
-# <a name="monitoring-server-general-settings-expander"></a><span data-ttu-id="5bc4a-103">Expanseur des paramètres généraux du serveur de surveillance</span><span class="sxs-lookup"><span data-stu-id="5bc4a-103">Monitoring Server General Settings Expander</span></span>
+# <a name="monitoring-server-general-settings-expander"></a><span data-ttu-id="4a12b-103">Expanseur des paramètres généraux du serveur de surveillance</span><span class="sxs-lookup"><span data-stu-id="4a12b-103">Monitoring Server General Settings Expander</span></span>
  
-<span data-ttu-id="5bc4a-104">Dans le générateur de topologie, vous pouvez modifier les propriétés d’un serveur de surveillance individuel en cliquant avec le bouton droit sur le serveur de surveillance dans l’arborescence de la console, en cliquant sur **Action** dans la barre d’outils ou en cliquant sur une tâche dans le volet Actions. Cliquez ensuite sur **Modifier les propriétés** pour modifier l’une des options suivantes :</span><span class="sxs-lookup"><span data-stu-id="5bc4a-104">In Topology Builder, you can edit the properties for an individual Monitoring Server either by right-clicking the Monitoring Server in the console tree and then clicking **Action** in the toolbar, or by clicking a task in the Actions pane and then clicking **Edit Properties**, and changing any of the following options:</span></span>
+<span data-ttu-id="4a12b-104">Dans le générateur de topologie, vous pouvez modifier les propriétés d’un serveur de surveillance individuel en cliquant avec le bouton droit sur le serveur de surveillance dans l’arborescence de la console, en cliquant sur **Action** dans la barre d’outils ou en cliquant sur une tâche dans le volet Actions. Cliquez ensuite sur **Modifier les propriétés** pour modifier l’une des options suivantes :</span><span class="sxs-lookup"><span data-stu-id="4a12b-104">In Topology Builder, you can edit the properties for an individual Monitoring Server either by right-clicking the Monitoring Server in the console tree and then clicking **Action** in the toolbar, or by clicking a task in the Actions pane and then clicking **Edit Properties**, and changing any of the following options:</span></span>
   
-- <span data-ttu-id="5bc4a-105">**Nom de domaine complet (FQDN)**  : permet de modifier le nom de domaine complet (FQDN) du serveur à déployer comme serveur de surveillance.</span><span class="sxs-lookup"><span data-stu-id="5bc4a-105">**FQDN**, to change the fully qualified domain name (FQDN) of the server that you want to deploy as a Monitoring Server.</span></span>
+- <span data-ttu-id="4a12b-105">**Nom de domaine complet (FQDN)**  : permet de modifier le nom de domaine complet (FQDN) du serveur à déployer comme serveur de surveillance.</span><span class="sxs-lookup"><span data-stu-id="4a12b-105">**FQDN**, to change the fully qualified domain name (FQDN) of the server that you want to deploy as a Monitoring Server.</span></span>
     
-- <span data-ttu-id="5bc4a-p101">**Magasin SQL** : permet de modifier l’instance SQL Server à utiliser pour la base de données SQL Server de surveillance. Si vous modifiez la base de données SQL Server d’un serveur de surveillance, vous devez redémarrer le serveur de surveillance pour que la modification prenne effet.</span><span class="sxs-lookup"><span data-stu-id="5bc4a-p101">**SQL store**, to change the instance of SQL Server to be used for the monitoring SQL Server database. If you change the SQL Server database of a Monitoring Server, you must restart the Monitoring Server for the change to take effect.</span></span>
+- <span data-ttu-id="4a12b-p101">**Magasin SQL** : permet de modifier l’instance SQL Server à utiliser pour la base de données SQL Server de surveillance. Si vous modifiez la base de données SQL Server d’un serveur de surveillance, vous devez redémarrer le serveur de surveillance pour que la modification prenne effet.</span><span class="sxs-lookup"><span data-stu-id="4a12b-p101">**SQL store**, to change the instance of SQL Server to be used for the monitoring SQL Server database. If you change the SQL Server database of a Monitoring Server, you must restart the Monitoring Server for the change to take effect.</span></span>
     
 
