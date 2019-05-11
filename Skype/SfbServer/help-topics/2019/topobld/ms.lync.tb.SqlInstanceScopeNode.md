@@ -1,8 +1,8 @@
 ---
 title: Nœud d’étendue d’une instance SQL
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: bd270488-ceb9-4920-bef3-ed9fe8eff36c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Ce nœud affiche le nom de domaine complet (FQDN) de Microsoft SQL Server et l’instance de SQL Server sur ce serveur et les pools de serveurs qui utilisent ce serveur SQL Server. Vous pouvez effectuer les actions suivantes :'
-ms.openlocfilehash: 2c87deeb0e49b23572e7b8c8cf2b330703c5835f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: d234826338ce6add18302a12df4d9788021ba1cd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32235212"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33896440"
 ---
 # <a name="sql-instance-scope-node"></a>Nœud d’étendue d’une instance SQL
  

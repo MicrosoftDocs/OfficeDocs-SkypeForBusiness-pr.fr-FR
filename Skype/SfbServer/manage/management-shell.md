@@ -1,8 +1,8 @@
 ---
 title: Skype Entreprise Server Management Shell
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 674b523b-c0b7-4ed6-9e67-afa6e8ac7e12
 description: Le Skype pour Business Server Management Shell fournit l’interface de ligne de commande pour la gestion et l’administration des serveurs. Il est basé sur Windows PowerShell et inclut un ensemble complet de la gestion et l’administration des applets de commande qui sont spécifiques à Skype et produits Lync server.
-ms.openlocfilehash: 243ff7a684bb14f73ef9f4836ce00e8048fbb236
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 1daf83ea401501f6607a30aa7710f1d338c47af9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32199230"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33888344"
 ---
 # <a name="skype-for-business-server-management-shell"></a>Skype Entreprise Server Management Shell
  

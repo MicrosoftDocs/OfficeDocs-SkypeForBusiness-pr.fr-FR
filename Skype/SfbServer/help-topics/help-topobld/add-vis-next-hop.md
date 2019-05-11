@@ -1,8 +1,8 @@
 ---
 title: Ajout du tronçon suivant du serveur d’interopérabilité vidéo (VIS)
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 2/8/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8c25449d-375b-477b-b8d0-ed19e6775906
 description: Les étapes nécessaires pour définir un nouveau rapport ou passerelle vidéo dans le Générateur de topologie sont décrites en ligne dans créer un pool VIS dans Skype pour Business Server 2015.
-ms.openlocfilehash: cb38288922d222dc7e3affc973aa94f55595c34d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 7287431d2309625473587c60b449c53ec11bf667
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874429"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33906689"
 ---
 # <a name="add-vis-next-hop"></a>Ajout du tronçon suivant du serveur d’interopérabilité vidéo (VIS)
  

@@ -1,8 +1,8 @@
 ---
 title: Installer et créer des bases de données
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 515754ad-1344-42dc-8219-ee973de2e4c4
 description: Vous sélectionnez les bases de données que vous souhaitez créer pour votre déploiement. Par défaut, la base de données sera créée sur le serveur SQL définies dans le site défini et sera automatiquement déployer et configurer les fichiers de base de données basés sur le serveur SQL que vous placez sur les bases de données.
-ms.openlocfilehash: 997b7f988796240911301c352c5317d463688dcf
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 94c16a4bc0e51c10939949e02d07d8233744b40f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200242"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33888603"
 ---
 # <a name="install-and-create-databases"></a>Installer et créer des bases de données
 

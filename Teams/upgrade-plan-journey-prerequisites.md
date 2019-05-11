@@ -1,11 +1,11 @@
 ---
 title: Conditions préalables des équipes Microsoft | Mise à niveau de dépendances d’Adoption
-author: turgayo
-ms.author: turgayo
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: turgayo
+ms.reviewer: dearbeen
 description: Utilisez ce guide pour en savoir plus sur les conditions préalables et les dépendances de l’environnement pour déployer des équipes au sein de votre organisation.
 localization_priority: Normal
 search.appverid: MET150
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 39483e7b3c8e511f2081f907b187d97dbbaf526f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 784c2ac08ca6dbfece5cdc8c99fee2b308325576
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32203340"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33895932"
 ---
 ![Étapes du voyage mise à niveau, en mettant l’accent sur l’étape de préparation technique] (media/upgrade-banner-tech-readiness.png "Étapes du voyage mise à niveau, en mettant l’accent sur l’étape de préparation technique")
 
