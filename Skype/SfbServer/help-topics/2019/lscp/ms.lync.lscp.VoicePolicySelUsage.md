@@ -1,8 +1,8 @@
 ---
 title: Sélectionner un enregistrement d’utilisation PSTN
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,19 +13,19 @@ localization_priority: Normal
 ms.assetid: 80a5b130-2b36-4318-9870-f5176c8d8f62
 ROBOTS: NOINDEX, NOFOLLOW
 description: Utilisez la boîte de dialogue Sélectionner un enregistrement d’utilisation PSTN pour trouver un enregistrement d’utilisation réseau téléphonique commuté public existant que vous pouvez utiliser.
-ms.openlocfilehash: 5dc662b2a1c1327e64e74ca987e8f6c433b55438
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b5d25f08cf10a2c691c63c1da4d02b19fd31b2db
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32221242"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33890563"
 ---
-# <a name="select-pstn-usage-record"></a><span data-ttu-id="d17bc-103">Sélectionner un enregistrement d’utilisation PSTN</span><span class="sxs-lookup"><span data-stu-id="d17bc-103">Select PSTN Usage Record</span></span>
+# <a name="select-pstn-usage-record"></a><span data-ttu-id="858ff-103">Sélectionner un enregistrement d’utilisation PSTN</span><span class="sxs-lookup"><span data-stu-id="858ff-103">Select PSTN Usage Record</span></span>
  
-<span data-ttu-id="d17bc-104">Utilisez la boîte de dialogue **Sélectionner un enregistrement d’utilisation PSTN** pour trouver un enregistrement d’utilisation réseau téléphonique commuté public existant que vous pouvez utiliser.</span><span class="sxs-lookup"><span data-stu-id="d17bc-104">Use the **Select PSTN Usage Record** dialog box to find an existing public switched telephone network (PSTN) usage record that you can use.</span></span>
+<span data-ttu-id="858ff-104">Utilisez la boîte de dialogue **Sélectionner un enregistrement d’utilisation PSTN** pour trouver un enregistrement d’utilisation réseau téléphonique commuté public existant que vous pouvez utiliser.</span><span class="sxs-lookup"><span data-stu-id="858ff-104">Use the **Select PSTN Usage Record** dialog box to find an existing public switched telephone network (PSTN) usage record that you can use.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="d17bc-105">Pour récupérer tous les enregistrements d’utilisation PSTN disponibles, ne tapez rien dans la zone de recherche et puis cliquez sur l’icône de recherche.</span><span class="sxs-lookup"><span data-stu-id="d17bc-105">To retrieve all available PSTN usage records, do not type anything in the search box, and then click the search icon.</span></span> 
+> <span data-ttu-id="858ff-105">Pour récupérer tous les enregistrements d’utilisation PSTN disponibles, ne tapez rien dans la zone de recherche et puis cliquez sur l’icône de recherche.</span><span class="sxs-lookup"><span data-stu-id="858ff-105">To retrieve all available PSTN usage records, do not type anything in the search box, and then click the search icon.</span></span> 
   
  
   

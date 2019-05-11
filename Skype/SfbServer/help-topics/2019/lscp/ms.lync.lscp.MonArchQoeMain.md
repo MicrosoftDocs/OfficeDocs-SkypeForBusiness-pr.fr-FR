@@ -1,8 +1,8 @@
 ---
 title: Données de qualité de l’expérience (QoE)
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,22 +13,22 @@ localization_priority: Normal
 ms.assetid: 2b030ced-0aae-4023-bb26-544d14bdd2f0
 ROBOTS: NOINDEX, NOFOLLOW
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: 9d877d8b63d8d7ebfd7f5e0bdae2f074822dc59d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b6875f5595518edccae185b2da9d205620fed7f9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215415"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891193"
 ---
-# <a name="quality-of-experience-qoe-data"></a><span data-ttu-id="93030-104">Données de qualité de l’expérience (QoE)</span><span class="sxs-lookup"><span data-stu-id="93030-104">Quality of Experience (QoE) Data</span></span>
+# <a name="quality-of-experience-qoe-data"></a><span data-ttu-id="230bb-104">Données de qualité de l’expérience (QoE)</span><span class="sxs-lookup"><span data-stu-id="230bb-104">Quality of Experience (QoE) Data</span></span>
  
-<span data-ttu-id="93030-105">Que voulez-vous faire ?</span><span class="sxs-lookup"><span data-stu-id="93030-105">What do you want to do?</span></span> <span data-ttu-id="93030-106">Cliquez sur le lien de la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="93030-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="230bb-105">Que voulez-vous faire ?</span><span class="sxs-lookup"><span data-stu-id="230bb-105">What do you want to do?</span></span> <span data-ttu-id="230bb-106">Cliquez sur le lien de la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="230bb-106">Click the link to the task that you want to perform.</span></span>
   
-- [<span data-ttu-id="93030-107">Activer la qualité de l’expérience dans Skype pour Business Server</span><span class="sxs-lookup"><span data-stu-id="93030-107">Enable Quality of Experience in Skype for Business Server</span></span>](../../../manage/health-and-monitoring/enable-qoe.md)
+- [<span data-ttu-id="230bb-107">Activer la qualité de l’expérience dans Skype pour Business Server</span><span class="sxs-lookup"><span data-stu-id="230bb-107">Enable Quality of Experience in Skype for Business Server</span></span>](../../../manage/health-and-monitoring/enable-qoe.md)
     
-- [<span data-ttu-id="93030-108">Modifier les paramètres de qualité de l’expérience dans Skype pour Business Server</span><span class="sxs-lookup"><span data-stu-id="93030-108">Modify Quality of Experience settings in Skype for Business Server</span></span>](../../../manage/health-and-monitoring/modify-qoe-settings.md)
+- [<span data-ttu-id="230bb-108">Modifier les paramètres de qualité de l’expérience dans Skype pour Business Server</span><span class="sxs-lookup"><span data-stu-id="230bb-108">Modify Quality of Experience settings in Skype for Business Server</span></span>](../../../manage/health-and-monitoring/modify-qoe-settings.md)
     
-- [<span data-ttu-id="93030-109">Créer des paramètres de configuration de la qualité de l’expérience dans Skype pour Business Server</span><span class="sxs-lookup"><span data-stu-id="93030-109">Create Quality of Experience configuration settings in Skype for Business Server</span></span>](../../../manage/health-and-monitoring/create-qoe-configuration-settings.md)
+- [<span data-ttu-id="230bb-109">Créer des paramètres de configuration de la qualité de l’expérience dans Skype pour Business Server</span><span class="sxs-lookup"><span data-stu-id="230bb-109">Create Quality of Experience configuration settings in Skype for Business Server</span></span>](../../../manage/health-and-monitoring/create-qoe-configuration-settings.md)
     
  
 

@@ -1,8 +1,8 @@
 ---
 title: SQL Server Reporting Services (introduction)
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,17 +13,17 @@ localization_priority: Normal
 ms.assetid: f3cda686-6301-419c-af68-b49cc785e5fc
 ROBOTS: NOINDEX, NOFOLLOW
 description: Chaque pool frontal et un serveur Survivable Branch Appliance peuvent avoir un seul que serveur de surveillance lui est associé. Lorsque l’analyse est activée pour le site, le serveur de surveillance fournit des détails des appels (CDR) et la collecte de données de qualité de l’expérience (QoE) et la création de rapports.
-ms.openlocfilehash: 95a16d0d634f115a06e1fd48a105dbad45a29048
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 58a4d55cada8fcb18f42e45d1bea686de9e4e4cb
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32216003"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33892033"
 ---
-# <a name="sql-server-reporting-services-intro"></a><span data-ttu-id="96458-104">SQL Server Reporting Services (introduction)</span><span class="sxs-lookup"><span data-stu-id="96458-104">SQL Server Reporting Services (Intro)</span></span>
+# <a name="sql-server-reporting-services-intro"></a><span data-ttu-id="3786f-104">SQL Server Reporting Services (introduction)</span><span class="sxs-lookup"><span data-stu-id="3786f-104">SQL Server Reporting Services (Intro)</span></span>
  
-<span data-ttu-id="96458-105">Chaque pool frontal et un serveur Survivable Branch Appliance peuvent avoir un seul que serveur de surveillance lui est associé.</span><span class="sxs-lookup"><span data-stu-id="96458-105">Each Front End pool and Survivable Branch Appliance can have only one Monitoring Server associated with it.</span></span> <span data-ttu-id="96458-106">Lorsque l’analyse est activée pour le site, le serveur de surveillance fournit des détails des appels (CDR) et la collecte de données de qualité de l’expérience (QoE) et la création de rapports.</span><span class="sxs-lookup"><span data-stu-id="96458-106">When monitoring is enabled for the site, Monitoring Server provides call detail recording (CDR) and Quality of Experience (QoE) data collection and reporting.</span></span>
+<span data-ttu-id="3786f-105">Chaque pool frontal et un serveur Survivable Branch Appliance peuvent avoir un seul que serveur de surveillance lui est associé.</span><span class="sxs-lookup"><span data-stu-id="3786f-105">Each Front End pool and Survivable Branch Appliance can have only one Monitoring Server associated with it.</span></span> <span data-ttu-id="3786f-106">Lorsque l’analyse est activée pour le site, le serveur de surveillance fournit des détails des appels (CDR) et la collecte de données de qualité de l’expérience (QoE) et la création de rapports.</span><span class="sxs-lookup"><span data-stu-id="3786f-106">When monitoring is enabled for the site, Monitoring Server provides call detail recording (CDR) and Quality of Experience (QoE) data collection and reporting.</span></span>
   
-<span data-ttu-id="96458-107">Tous les pools d’un site et les pools de sites centraux multiples peuvent utiliser le même serveur de surveillance, si l’utilisation ne dépasse pas la capacité du serveur de surveillance.</span><span class="sxs-lookup"><span data-stu-id="96458-107">All pools at a site and the pools of multiple central sites can use the same Monitoring Server, if usage does not exceed the capacity of the Monitoring Server.</span></span> <span data-ttu-id="96458-108">Pour plus d’informations sur la conception d’une topologie pour prendre en charge la surveillance, voir [associer un magasin de surveillance avec un pool frontal dans Skype pour Business Server](../../../deploy/deploy-monitoring/associate-a-monitoring-store.md) dans la documentation de déploiement.</span><span class="sxs-lookup"><span data-stu-id="96458-108">For details about designing a topology to support monitoring, see [Associate a monitoring store with a Front End pool in Skype for Business Server](../../../deploy/deploy-monitoring/associate-a-monitoring-store.md) in the Deployment documentation.</span></span>
+<span data-ttu-id="3786f-107">Tous les pools d’un site et les pools de sites centraux multiples peuvent utiliser le même serveur de surveillance, si l’utilisation ne dépasse pas la capacité du serveur de surveillance.</span><span class="sxs-lookup"><span data-stu-id="3786f-107">All pools at a site and the pools of multiple central sites can use the same Monitoring Server, if usage does not exceed the capacity of the Monitoring Server.</span></span> <span data-ttu-id="3786f-108">Pour plus d’informations sur la conception d’une topologie pour prendre en charge la surveillance, voir [associer un magasin de surveillance avec un pool frontal dans Skype pour Business Server](../../../deploy/deploy-monitoring/associate-a-monitoring-store.md) dans la documentation de déploiement.</span><span class="sxs-lookup"><span data-stu-id="3786f-108">For details about designing a topology to support monitoring, see [Associate a monitoring store with a Front End pool in Skype for Business Server](../../../deploy/deploy-monitoring/associate-a-monitoring-store.md) in the Deployment documentation.</span></span>
   
 

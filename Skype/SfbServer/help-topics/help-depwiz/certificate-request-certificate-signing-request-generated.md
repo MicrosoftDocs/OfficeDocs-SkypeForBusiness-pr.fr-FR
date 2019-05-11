@@ -1,8 +1,8 @@
 ---
 title: Demande de certificat (demande de signature de certificat générée)
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,15 +13,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 728f6a92-8df8-40c9-8054-cd7306d7d60f
 description: La page fichier de demande de certificat s’affiche après avoir terminé une demande de certificat hors connexion. Pour afficher la demande de certificat et de préparer son envoi à votre autorité de certification en mode hors connexion (CA) ou l’autorité de certification publique, cliquez sur le bouton Afficher. La demande de certificat s’affiche dans le bloc-notes Windows (par défaut). Vous pouvez copier et coller la demande de certificat codé à partir de cet affichage ou terminer le traitement de la demande de certificat en suivant les instructions de vos autorité de certification en mode hors connexion ou l’autorité de certification publique. Cliquez sur Terminer pour continuer.
-ms.openlocfilehash: 64e1ea86fbfa9b6ed029c8e0dba5f27948e401d0
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 3d893d2818a29cc444ea5047e6a612c213889265
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32201405"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33911204"
 ---
-# <a name="certificate-request-certificate-signing-request-generated"></a><span data-ttu-id="952bb-107">Demande de certificat (demande de signature de certificat générée)</span><span class="sxs-lookup"><span data-stu-id="952bb-107">Certificate Request (Certificate Signing Request Generated)</span></span>
+# <a name="certificate-request-certificate-signing-request-generated"></a><span data-ttu-id="9c4af-107">Demande de certificat (demande de signature de certificat générée)</span><span class="sxs-lookup"><span data-stu-id="9c4af-107">Certificate Request (Certificate Signing Request Generated)</span></span>
  
-<span data-ttu-id="952bb-108">La page **Fichier de demande de certificat** s’affiche après avoir terminé une demande de certificat hors connexion.</span><span class="sxs-lookup"><span data-stu-id="952bb-108">The **Certificate Request File** page is displayed after you have completed an offline request for a certificate.</span></span> <span data-ttu-id="952bb-109">Pour afficher la demande de certificat et de préparer son envoi à votre autorité de certification en mode hors connexion (CA) ou l’autorité de certification publique, cliquez sur le bouton **Afficher** .</span><span class="sxs-lookup"><span data-stu-id="952bb-109">To display the certificate request and prepare to send it to your offline certification authority (CA) or public CA, click the **View** button.</span></span> <span data-ttu-id="952bb-110">La demande de certificat s’affiche dans le bloc-notes Windows (par défaut).</span><span class="sxs-lookup"><span data-stu-id="952bb-110">The certificate request is displayed in Windows Notepad (by default).</span></span> <span data-ttu-id="952bb-111">Vous pouvez copier et coller la demande de certificat codé à partir de cet affichage ou terminer le traitement de la demande de certificat en suivant les instructions de vos autorité de certification en mode hors connexion ou l’autorité de certification publique.</span><span class="sxs-lookup"><span data-stu-id="952bb-111">You can copy and paste the encoded certificate request from this display, or finish the processing of the certificate request by following the directions from your chosen offline CA or public CA.</span></span> <span data-ttu-id="952bb-112">Cliquez sur **Terminer** pour continuer.</span><span class="sxs-lookup"><span data-stu-id="952bb-112">Click **Finish** to continue.</span></span>
+<span data-ttu-id="9c4af-108">La page **Fichier de demande de certificat** s’affiche après avoir terminé une demande de certificat hors connexion.</span><span class="sxs-lookup"><span data-stu-id="9c4af-108">The **Certificate Request File** page is displayed after you have completed an offline request for a certificate.</span></span> <span data-ttu-id="9c4af-109">Pour afficher la demande de certificat et de préparer son envoi à votre autorité de certification en mode hors connexion (CA) ou l’autorité de certification publique, cliquez sur le bouton **Afficher** .</span><span class="sxs-lookup"><span data-stu-id="9c4af-109">To display the certificate request and prepare to send it to your offline certification authority (CA) or public CA, click the **View** button.</span></span> <span data-ttu-id="9c4af-110">La demande de certificat s’affiche dans le bloc-notes Windows (par défaut).</span><span class="sxs-lookup"><span data-stu-id="9c4af-110">The certificate request is displayed in Windows Notepad (by default).</span></span> <span data-ttu-id="9c4af-111">Vous pouvez copier et coller la demande de certificat codé à partir de cet affichage ou terminer le traitement de la demande de certificat en suivant les instructions de vos autorité de certification en mode hors connexion ou l’autorité de certification publique.</span><span class="sxs-lookup"><span data-stu-id="9c4af-111">You can copy and paste the encoded certificate request from this display, or finish the processing of the certificate request by following the directions from your chosen offline CA or public CA.</span></span> <span data-ttu-id="9c4af-112">Cliquez sur **Terminer** pour continuer.</span><span class="sxs-lookup"><span data-stu-id="9c4af-112">Click **Finish** to continue.</span></span>
   
 
