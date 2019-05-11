@@ -1,8 +1,8 @@
 ---
 title: Vue conferences
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/9/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c0e5c4db-c135-401f-9296-e9a49f6499a1
 description: L’affichage de conférences stocke des informations sur les conférences. Cet affichage a été introduit dans Microsoft Lync Server 2013.
-ms.openlocfilehash: 42bdbed9cceb8d50e2de8ddbe29ba406e4a0a2f5
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 008895e43fb62377f256cb64fdd5f1b24ed0768e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32213269"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33901344"
 ---
 # <a name="conferences-view"></a>Vue conferences
  

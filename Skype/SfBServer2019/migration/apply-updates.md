@@ -3,16 +3,17 @@ title: Appliquer des mises à jour
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+manager: serdars
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Avant de migrer les mises à jour doivent être appliquées à votre environnement. Pour obtenir les informations les plus récentes, voir le centre de ressources de mises à jour à https://go.microsoft.com/fwlink/p/?linkid=232630.
-ms.openlocfilehash: 5042b5da2b01a1191b4c9c441b0652f76e53a63a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 880a29e8f08f0d5d3ca5fc8081befee05688491e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32238788"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33906931"
 ---
 # <a name="apply-updates"></a>Appliquer des mises à jour
 

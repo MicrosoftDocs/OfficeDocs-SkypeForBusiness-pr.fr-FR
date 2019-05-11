@@ -1,8 +1,8 @@
 ---
 title: Sélection d’un service
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: b6086162-8a41-4e75-afa3-7d1889ffdc90
 ROBOTS: NOINDEX, NOFOLLOW
 description: Utilisez la boîte de dialogue Sélectionner un service pour rechercher les services disponibles dans votre environnement. Pour utiliser un service existant, sélectionnez un service dans la liste, puis cliquez sur OK.
-ms.openlocfilehash: 0482dd0832d76d1b0e56c7aa978073e514b62090
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: c858e7024e08613fd812b4ee412a95315cd8316b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215093"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891095"
 ---
 # <a name="select-a-service"></a>Sélection d’un service
 
