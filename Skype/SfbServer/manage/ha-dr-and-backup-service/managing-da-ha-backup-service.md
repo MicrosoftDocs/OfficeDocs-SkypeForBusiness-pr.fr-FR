@@ -1,19 +1,20 @@
 ---
 title: Gestion de Service de sauvegarde, haute disponibilité et la récupération d’urgence
 ms.reviewer: ''
-author: heidip
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Découvrez les procédures pour les opérations de récupération d’urgence, ainsi que pour gérer le Service de sauvegarde qui synchronise les données dans des pools frontaux couplés.
-ms.openlocfilehash: 103e0aa274e40fd997981bd6de595ceca089b710
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 9215dba11b388b3ffbd3e5c0f3de4ccf1cb85c7d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32199825"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33903129"
 ---
 # <a name="managing-skype-for-business-server-disaster-recovery-high-availability-and-backup-service"></a>Gestion de Skype pour le Service de sauvegarde, haute disponibilité et la récupération d’urgence Business Server
 

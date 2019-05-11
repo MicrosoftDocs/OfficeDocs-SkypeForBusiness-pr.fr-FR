@@ -1,8 +1,8 @@
 ---
 title: Domaines fédérés créer ou modifier une existant
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/23/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 90979ccd-7439-4a66-b82d-222df1554d66
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: fb858569f3f5891151dc0e473974d1ba6f9c1627
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 29f95b5c4ef166e383165f1799e1316c8fb912d9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200778"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33920263"
 ---
 # <a name="federated-domains-create-new-or-edit-existing"></a>Domaines fédérés : création d’un domaine ou modification d’un domaine existant
 

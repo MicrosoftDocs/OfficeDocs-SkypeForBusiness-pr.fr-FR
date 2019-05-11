@@ -1,8 +1,8 @@
 ---
 title: Demander, installer ou assigner des certificats
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 332ec40f-78be-440a-8c1d-ada6114897db
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'L’Étape 3 : Demander, installer ou assigner les certificats démarre l’Assistant Certificat lorsque vous cliquez sur Exécuter. Les certificats sont configurés par le biais de l’Assistant sont basées sur la définition de la Skype pour la topologie de serveur d’entreprise qui est configurée et publiée par le Générateur de topologie dans le magasin Central de gestion. Pour exécuter correctement l’Assistant Certificat pour une autorité de certification en ligne dans votre organisation, vous devez être connecté à un ordinateur en tant que membre du groupe Administrateurs local de cet ordinateur. Vous devez également être un utilisateur de domaine authentifié dans le domaine où l’ordinateur et l’autorité de certification existent. L’Assistant certificat ne fournit pas la possibilité de spécifier d’autres informations d’identification pour l’accès autorité de certification de votre organisation.'
-ms.openlocfilehash: c281855a786a7f497b39515711bd8af36b3a62b2
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 46e5deebb4bcdaa7cfb55b07d46cee89d2af9c25
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32216178"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33893650"
 ---
 # <a name="request-install-or-assign-certificates"></a>Demander, installer ou assigner des certificats
  

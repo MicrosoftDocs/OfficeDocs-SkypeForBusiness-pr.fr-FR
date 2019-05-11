@@ -1,8 +1,8 @@
 ---
 title: Expanseur des paramètres de port du serveur d’interopérabilité vidéo (VIS)
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 2/8/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 416ba609-5a32-4c60-b346-ef3119932c91
 description: Les étapes nécessaires pour définir un nouveau rapport ou passerelle vidéo dans le Générateur de topologie sont décrites en ligne dans créer un pool VIS dans Skype pour Business Server 2015.
-ms.openlocfilehash: be0ef406f94cc16ba53acad545b38a4010c1ba4f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e347c178d0bac5e8d4890f147218ca32b41440ed
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32219000"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33903340"
 ---
 # <a name="video-interop-server-port-settings-expander"></a>Expanseur des paramètres de port du serveur d’interopérabilité vidéo (VIS)
  

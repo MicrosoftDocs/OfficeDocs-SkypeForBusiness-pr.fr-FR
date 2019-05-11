@@ -1,8 +1,8 @@
 ---
 title: Utilisateurs afficher ou configurer le Plan de numérotation
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 8780aaad-1318-4e7a-945c-5e1863761034
 ROBOTS: NOINDEX, NOFOLLOW
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: b831ee19b09e38b456c251e1aacb3390274446a2
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 0dfbf85a3c371e7376241936326d36dd3ec24623
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894935"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33890808"
 ---
 # <a name="users-view-or-configure-dial-plan"></a>Utilisateurs : afficher ou configurer le plan de numérotation
 

@@ -1,8 +1,8 @@
 ---
 title: Nœud d’étendue des Branch Office
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/25/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 116d317c-8df0-45a0-83d4-eb10cf525d70
 description: 'Le nœud Sites de succursale répertorie les sites de succursale associés à ce site central. Vous pouvez effectuer l’action suivante :'
-ms.openlocfilehash: 52d971b14f058a5284d84a710257f61794b5f091
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 0baee2c21006dc1ddd656b12b37d4bbe68570bb1
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226867"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33930826"
 ---
 # <a name="branch-offices-scope-node"></a>Nœud d’étendue des Branch Office
  

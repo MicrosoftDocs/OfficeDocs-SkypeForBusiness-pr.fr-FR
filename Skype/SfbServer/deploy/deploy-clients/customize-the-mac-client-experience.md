@@ -1,7 +1,7 @@
 ---
 title: Personnaliser l'expérience de client Mac dans Skype Entreprise
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.reviewer: PhillipGarding
 ms.audience: ITPro
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d1d9cfec-e923-4d02-a306-ee40a9114cb8
 description: Cet article décrit les préférences et valeurs par défaut disponibles pour le client Skype Entreprise sur un client Mac ainsi que leur modification hors de l'application.
-ms.openlocfilehash: dd2f9b1d69e24f17cf76f33896804e5f50cd0ad3
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ac398ec928ac4f00b107a2fb9bff1dda8e65cd68
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212746"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33893489"
 ---
 # <a name="customize-the-mac-client-experience-in-skype-for-business"></a>Personnaliser l'expérience de client Mac dans Skype Entreprise
  

@@ -1,8 +1,8 @@
 ---
 title: Sélectionner un préfixe de lien hypertexte
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bfa55f83-70b4-4790-9b9f-8d849dd94909
 description: Utilisez la boîte de dialogue Sélectionner un préfixe de lien hypertexte pour sélectionner les types de liens hypertexte que vous souhaitez bloquer, envoyer un message d’avertissement ou autoriser en sélectionnant (à bloquer ou envoyer un message d’avertissement) ou en désactivant (pour autoriser) les cases à cocher pour leurs extensions dans les catégories sous Préfixes de liens hypertexte. Cliquez sur la flèche pour développer une catégorie et d’afficher tous les préfixes de liens hypertexte pour cette catégorie. Si vous souhaitez sélectionner tous les préfixes de liens hypertexte pour une catégorie, sélectionnez le nom de catégorie.
-ms.openlocfilehash: d0811bab0d7e44e7e7fb2fec116b9aa65a78a530
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 752112ee5af16079dfd15b9714e54e931e9ac965
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32220121"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33924618"
 ---
 # <a name="select-hyperlink-prefix"></a>Sélectionner un préfixe de lien hypertexte
  

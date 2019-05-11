@@ -1,8 +1,8 @@
 ---
 title: Stratégie de conférence créer ou modifier une existant
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: ebd2f120-b57a-4c94-9509-20e098f4b0f4
 ROBOTS: NOINDEX, NOFOLLOW
 description: Une stratégie de conférence définit les fonctionnalités et les fonctions à la disposition des utilisateurs lors d’une conférence (également appelée « réunion »).
-ms.openlocfilehash: d040a10b5e53ed438992b9dc614bd8d61cfaefd0
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 7a4970267781829729c9edd52fc8295be5453c46
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215737"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891598"
 ---
 # <a name="conferencing-policy-create-new-or-edit-existing"></a>Stratégie de conférence : création d’une stratégie ou modification d’une création existante
 

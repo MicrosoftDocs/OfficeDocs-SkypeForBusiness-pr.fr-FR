@@ -1,8 +1,8 @@
 ---
 title: Numéro d’accès entrant à créer une nouvelle ou modifier une existant
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 97a2b794-77da-40c0-9f9a-3c5fe6cc683d
 ROBOTS: NOINDEX, NOFOLLOW
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: c588c76c9e84a8f384c404de5aaee6640b21f063
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 96d4597c3b147474f79935a11bfcc112248aea3d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215779"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891620"
 ---
 # <a name="dial-in-access-number-create-new-or-edit-existing"></a>Numéro d’accès entrant : création d’un numéro ou modification d’un numéro existant
 

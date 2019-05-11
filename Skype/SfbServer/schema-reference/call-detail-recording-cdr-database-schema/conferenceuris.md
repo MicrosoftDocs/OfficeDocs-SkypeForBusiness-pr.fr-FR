@@ -1,8 +1,8 @@
 ---
 title: Table ConferenceUris dans Skype pour Business Server 2015
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/9/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b1721d52-3c65-45ea-8997-06af8fef93fc
 description: Le tableau ConfereneUris est une table de prise en charge qui stocke une liste de la conférence différents URI qui ont participé à des sessions de conférence enregistrées dans la base de données. Chaque enregistrement de la table représente une URI de conférence.
-ms.openlocfilehash: 6f373774b652e9858af84dd4c16b51fcb3c5d493
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 70cb3ccecf1c63dd128cbffd6ac205e77c771835
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32213213"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33901065"
 ---
 # <a name="conferenceuris-table-in-skype-for-business-server-2015"></a>Table ConferenceUris dans Skype pour Business Server 2015
  

@@ -1,7 +1,7 @@
 ---
 title: Gérer les périphériques de salles d’équipes Microsoft Azure moniteur
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 ms.reviewer: davgroom
 manager: serdars
 ms.audience: ITPro
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.assetid: f8109905-3279-475f-a64b-31d37af48bfe
 ms.collection: M365-voice
 description: Cet article explique comment gérer les périphériques Microsoft équipes salles d’une manière intégrée, de bout en bout pour l’utilisation du moniteur Azure.
-ms.openlocfilehash: 4606bdde4e47eb2662e73434d1026d47093fb1e1
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: b53d40cec750c56fd8d288ca10ab5f6151141b92
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2019
-ms.locfileid: "33362742"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33916474"
 ---
 # <a name="manage-microsoft-teams-rooms-devices-with-azure-monitor"></a>Gérer les périphériques de salles d’équipes Microsoft Azure moniteur
 

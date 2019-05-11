@@ -1,8 +1,8 @@
 ---
 title: Enregistrer les informations de cas de test de routage des communications vocales
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 7874119d-d92b-484e-bbda-62f65241debd
 ROBOTS: NOINDEX, NOFOLLOW
 description: Vous pouvez utiliser la boîte de dialogue Enregistrer les informations de cas de Test de routage des communications vocales pour enregistrer un cas de test de routage voix temporaire. Dans Enregistrer voix cas de Test et les informations de routage, tapez le nom que vous souhaitez donner à ce cas de test dans nom, puis cliquez sur OK.
-ms.openlocfilehash: 7e1c3eb48930ac1a227c3ad95da5074de0cb9c3f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 9cc5ee41c16004c6667a7e3ff999a8108b2a7610
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32221510"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33890773"
 ---
 # <a name="save-voice-routing-test-case-information"></a>Enregistrer les informations de cas de test de routage des communications vocales
  

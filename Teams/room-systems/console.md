@@ -1,7 +1,7 @@
 ---
 title: Configurer une console Microsoft équipes salles
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 ms.reviewer: Travis-Snoozy
 manager: serdars
 ms.audience: ITPro
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: Cet article décrit comment configurer la console de salles d’équipes Microsoft et des périphériques.
-ms.openlocfilehash: d862c184ea724331cecdc34fea37e9b1252399d9
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 644006b3fe5a26af6c32830902ec138f953464c8
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2019
-ms.locfileid: "33362740"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33916565"
 ---
 # <a name="configure-a-microsoft-teams-rooms-console"></a>Configurer une console Microsoft équipes salles
 

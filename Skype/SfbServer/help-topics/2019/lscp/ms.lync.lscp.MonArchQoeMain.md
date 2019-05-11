@@ -1,8 +1,8 @@
 ---
 title: Données de qualité de l’expérience (QoE)
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 2b030ced-0aae-4023-bb26-544d14bdd2f0
 ROBOTS: NOINDEX, NOFOLLOW
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: 9d877d8b63d8d7ebfd7f5e0bdae2f074822dc59d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b6875f5595518edccae185b2da9d205620fed7f9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215415"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891193"
 ---
 # <a name="quality-of-experience-qoe-data"></a>Données de qualité de l’expérience (QoE)
  

@@ -1,8 +1,8 @@
 ---
 title: Groupes de Response Group
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b8bd4c3f-3d32-42b2-9712-2d0f159577d8
 description: Groupes de réponses se composent des groupes d’agents, files d’attente et flux de travail. Un groupe d’agents est un groupe de personnes désignées pour répondre aux appels Response Group.
-ms.openlocfilehash: 9f7e28aad186467938df9d0ec64e7a5de151d7aa
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 0df7e5bc37c89e84b661285511fb6fd65dd352c8
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200617"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33924373"
 ---
 # <a name="response-groups-group"></a>Services Response Group : groupe
 

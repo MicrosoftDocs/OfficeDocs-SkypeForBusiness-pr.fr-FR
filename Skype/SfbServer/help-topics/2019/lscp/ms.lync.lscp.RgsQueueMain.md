@@ -1,8 +1,8 @@
 ---
 title: File d’attente de groupes Response Groups
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 29bde940-6107-494f-9bee-b6ebfa135e41
 ROBOTS: NOINDEX, NOFOLLOW
 description: Groupes de réponses se composent des groupes d’agents, files d’attente et flux de travail. Files d’attente les appels vers un groupe de réponse jusqu'à ce qu’un agent répond à l’appel.
-ms.openlocfilehash: 1c4d8418623b61d82a0ccb3b0bc942ebbc5f07f3
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f7f87a28075bc4da02a742772d657ce45ac825d5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215212"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891403"
 ---
 # <a name="response-groups-queue"></a>File d’attente de groupes Response Groups
 

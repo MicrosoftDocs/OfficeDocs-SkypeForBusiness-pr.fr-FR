@@ -1,10 +1,10 @@
 ---
 title: Outils et téléchargements pour l’adoption
-ms.reviewer: ''
+ms.reviewer: karuanag
 description: Utilisez ces ressources d’adoption pour vous aider à accélérer l’adoption de Microsoft Teams et d’autres services Office 365.
 ms.topic: landing-page
-author: karuanag
-ms.author: karuanag
+author: kenwith
+ms.author: kenwith
 manager: serdars
 layout: LandingPage
 ms.date: 11/20/2018
@@ -16,12 +16,12 @@ MS.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c4bd35fc1e52ca8016330686711380b54cbe5e20
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
-ms.translationtype: HT
+ms.openlocfilehash: b32ef752923beeb2d38dfc25443a7d3a9ad4d195
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883403"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33902847"
 ---
 # <a name="tools-for-driving-adoption"></a>Outils pour favoriser l’Adoption 
 

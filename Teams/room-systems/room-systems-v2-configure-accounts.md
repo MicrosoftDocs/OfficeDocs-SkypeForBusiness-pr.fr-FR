@@ -1,7 +1,7 @@
 ---
 title: Configurer des comptes pour les salles d’équipes Microsoft
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 5/10/2018
 ms.audience: ITPro
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: Lisez cette rubrique pour en savoir plus sur la configuration de comptes pour les salles d’équipes Microsoft dans Exchange et Skype pour les entreprises.
-ms.openlocfilehash: f276510e633e30d248d5c5d46277e04deaf043b0
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 284f55b7902ed97b86ebbcedaee049626fb51a26
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2019
-ms.locfileid: "33362751"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33916394"
 ---
 # <a name="configure-accounts-for-microsoft-teams-rooms"></a>Configurer des comptes pour les salles d’équipes Microsoft
  
