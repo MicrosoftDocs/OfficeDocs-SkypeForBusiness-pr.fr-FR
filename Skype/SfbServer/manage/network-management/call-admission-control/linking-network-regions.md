@@ -1,20 +1,20 @@
 ---
 title: Liaison des régions réseau
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'Vous pouvez configurer des liens entre deux régions de réseau dans le cadre du contrôle d’admission des appels (CAC). '
-ms.openlocfilehash: 4ea6ddcc72d2cadea32608288d1db93ba8505aee
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 30d4a020826b24c3615ce059809645481466efc3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884683"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33888351"
 ---
 # <a name="linking-network-regions-in-skype-for-business-server"></a>Liaison des régions réseau dans Skype Entreprise Server
 

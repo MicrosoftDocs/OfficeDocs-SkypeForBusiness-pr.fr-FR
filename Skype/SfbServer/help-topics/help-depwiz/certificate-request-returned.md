@@ -1,8 +1,8 @@
 ---
 title: Demande de certificat (retournée)
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 4/1/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4ada9045-0fdf-4470-8574-2fa08bab9392
 description: 'La page État de demande de certificat en ligne vous présente des informations importantes qui résulte de la création et l’émission de la demande de certificat en ligne. Cette page fournit l’empreinte de certificat qui identifie de manière unique le certificat. Par défaut, la case à cocher attribuer ce certificat Skype pour utilisations de certificat Business Server est sélectionnée. Si vous cliquez sur Terminer, le certificat sera automatiquement assigné à Lync Server 2013 à des fins que vous avez définis dans la procédure de création de la demande de certificat. Par défaut, les besoins le certificat sera attribué sont les suivants :'
-ms.openlocfilehash: 61e62216cd582a07b95a51d05033482699ca2f3d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: bedc5137085a36a296518048e5f0917e60dbe980
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32201352"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33911085"
 ---
 # <a name="certificate-request-returned"></a>Demande de certificat (retournée)
  

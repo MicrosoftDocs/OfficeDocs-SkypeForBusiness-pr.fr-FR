@@ -1,8 +1,8 @@
 ---
 title: Utilisateurs afficher ou configurer la stratégie d’archivage
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b1d6ec29-178e-4325-8901-ee6cf0e91759
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: 705abc05d50c23a76f047cb039d5e3e7d96d2fbf
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e52aa2c205c39adf9ccaf7026bd8a8eb774f1995
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200421"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33924331"
 ---
 # <a name="users-view-or-configure-archiving-policy"></a>Utilisateurs : afficher ou configurer la stratégie d’archivage
 

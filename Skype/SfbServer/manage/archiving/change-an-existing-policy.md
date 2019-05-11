@@ -1,8 +1,8 @@
 ---
 title: Modifier une stratégie dans Skype d’archivage pour Business Server existante
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4cf600be-ba3d-4bce-aa22-e158b9ccf8a9
 description: 'Résumé : Découvrez comment modifier l’utilisateur, les stratégies d’archivage pour Skype pour Business Server.'
-ms.openlocfilehash: 66365ea489f0450f0489c03bf0e273731d5526a8
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 7e8cc208802af324690ff61cad971023d3a20232
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884335"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33885002"
 ---
 # <a name="change-an-existing-archiving-policy-in-skype-for-business-server"></a>Modifier une stratégie dans Skype d’archivage pour Business Server existante
  

@@ -1,8 +1,8 @@
 ---
 title: Assistant hybride se connecter à Office 365
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 2/8/2018
 ms.audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 - IT_Skype4B_Hybrid
 ms.assetid: 791026d0-730f-4225-872e-74c9b5c166d7
 description: Utilisez le Skype pour Assistant Business Server hybride facilité de gestion pour vous aider à configurer votre environnement pour l’environnement hybride avec Skype pour Business Online.
-ms.openlocfilehash: 00e01132f1f8330ba46fe25bcfe2d08db41a2410
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 1e0a9e87e4ddeb32223fbc9b5c7d92ab4210e1ad
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200799"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33910924"
 ---
 # <a name="hybrid-wizard-sign-in-to-office-365"></a>Assistant hybride : connexion à Office 365
 

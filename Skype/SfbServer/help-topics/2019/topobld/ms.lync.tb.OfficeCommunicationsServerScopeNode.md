@@ -1,8 +1,8 @@
 ---
 title: Nœud d’étendue d’Office Communications Server
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: ec5088ec-71b5-42cb-9f04-242716877178
 ROBOTS: NOINDEX, NOFOLLOW
 description: Cette documentation est préliminaire et sujette à modification. Des rubriques vides sont incluses comme espaces réservés.
-ms.openlocfilehash: d64e64ad5caed89d2249e8da1cd8125a52316bb5
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: bab53d772733f633e4f66e9b32c10f62e15c1842
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32201699"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33885598"
 ---
 # <a name="office-communications-server-scope-node"></a>Nœud d’étendue d’Office Communications Server
 

@@ -1,7 +1,7 @@
 ---
 title: Accès invité dans Microsoft Teams
-author: somakbhattacharyya
-ms.author: sbhatta
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 11/25/2018
 ms.topic: conceptual
@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ae1f3149ca915e2fd5a9ddf59fdb0bfad2be2ca2
-ms.sourcegitcommit: a8f6b70fce1b5073f4743f7f413f7ce9fad8ead1
-ms.translationtype: HT
+ms.openlocfilehash: f6d77c44cb7d7d5ba5dd5fd3448b118c60c0d908
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/10/2019
-ms.locfileid: "31765148"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33919023"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Accès invité dans Microsoft Teams
 ======================================
@@ -37,7 +37,7 @@ L’accès Invité est l’une des fonctions les plus demandées par les clients
 
 L’accès invité permet aux équipes de votre organisation de collaborer avec des personnes à l’extérieur de votre organisation en leur accordant l'accès aux équipes et aux canaux. Toutes les personnes ayant un compte de messagerie professionnel ou de particulier tel que Outlook, Gmail, etc. peuvent participer en tant qu’invitées dans Teams, avec un accès complet aux conversations, réunions et fichiers des équipes.
 
-L'accès invité est fourni avec tous les abonnements Office 365 Business Premium, Office 365 Entreprise et Office 365 Education sans demande de licence supplémentaire. Vous pouvez avoir jusqu'à 5 invités par utilisateur sous licence sur votre client. Pour plus d’informations sur les licences, voir [le guide de licence de collaboration Azure Active Directory B2B](https://docs.microsoft.com/fr-FR/azure/active-directory/b2b/licensing-guidance). 
+L'accès invité est fourni avec tous les abonnements Office 365 Business Premium, Office 365 Entreprise et Office 365 Education sans demande de licence supplémentaire. Vous pouvez avoir jusqu'à 5 invités par utilisateur sous licence sur votre client. Pour plus d’informations sur les licences, voir [le guide de licence de collaboration Azure Active Directory B2B](https://docs.microsoft.com/en-us/azure/active-directory/b2b/licensing-guidance). 
 
 L'accès invité est un paramètre de niveau client dans Microsoft Teams, désactivé par défaut. L’accès invité est soumis à Azure AD et aux limites de service Office 365.
 

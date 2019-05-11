@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn about the features, availability, and how to plan and set up a Phone System (Cloud PBX) for your business. '
-ms.openlocfilehash: 6827f750f9e4161cc5747015bad2ce832497fcb9
-ms.sourcegitcommit: ca7a22da082ac5336f31ffd76f3d4aef6c76285b
+ms.openlocfilehash: 325d25bf8019a1e58c62867d3e558769ddc64da8
+ms.sourcegitcommit: a46dad8dfc685534d81bb011f3c099c6f59ce2e0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 05/10/2019
-ms.locfileid: "33868671"
+ms.locfileid: "33882900"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Voici les avantages du système téléphonique dans Office 365
 
@@ -61,7 +61,6 @@ Pour plus d’informations, voir [tarification pour le système téléphonique](
 |Le routage des appels de calendrier d’entreprise  <br/> |Le routage des appels de calendrier d’entreprise vous permet d’utiliser votre calendrier Exchange heures pour activer ou désactiver le transfert d’appel et la sonnerie simultanée dans Skype pour les entreprises.  <br/> |
 |Clavier numérique intégré  <br/> | Composez le nom ou le numéro n'importe où dans la barre de recherche et avec le clavier numérique, ce qui permet de passer des appels externes plus rapidement. <br/> |
 |[Passer un appel Skype Entreprise avec votre téléphone de bureau](https://support.office.com/article/6a316c11-a05e-460c-b969-32ff0ad848e6) <br/> |Lorsque votre téléphone de bureau est configuré pour inscrire à Skype pour Business en ligne avec vos informations d’identification Office 365, vous pouvez appeler des personnes dans votre organisation à l’aide de votre téléphone de bureau avec le système audio de l’appel via le téléphone.  <br/>  |
-|Attente musicale  <br/> |Lit la musique lorsque vous placez un appel en attente, afin que les appelants sachent que vous êtes toujours là et que l'appel n'a pas été interrompu par inadvertance.  <br/> |
 |Skype et appel fédéré  <br/> |Vous pouvez rechercher tout le monde dans le répertoire Skype, puis en toute sécurité se connecter, communiquer et collaborer avec les.  <br/> |
 |[Définir les options de transfert d'appel dans Skype Entreprise](https://support.office.com/article/1ec2e7fb-471c-4c35-bc90-a35991b3f532) <br/> |Envoie vos appels à votre équipe, immédiatement ou après un délai défini.  <br/> |
 |[Émission et réception d'un appel vidéo dans Skype Entreprise](https://support.office.com/article/abf62493-670f-4b0d-b2cf-fe03b49caf42) <br/> | Vous pouvez voir le nom du présentateur et le flux vidéo dans une petite fenêtre flottante, pour être toujours prêt à répondre à une question. <br/> |

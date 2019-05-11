@@ -1,8 +1,8 @@
 ---
 title: Expanseur des paramètres des services web
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: aefc9f51-a171-4a58-be65-7accb470cb2a
 ROBOTS: NOINDEX, NOFOLLOW
 description: Dans le Générateur de topologie, vous pouvez modifier les paramètres de port utilisés pour les deux vos services web internes et externes. En outre, et si vous déployez l’équilibrage de charge de nom de domaine DNS (Domain Name System), vous pouvez utiliser le Générateur de topologie pour configurer le nom de domaine complet (FQDN) du pool qui résout les adresses IP physique de tous les serveurs de ce pool.
-ms.openlocfilehash: 75d73a81ec649c97149fd03125887116c947144c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ac13b7ac1138f9ae5044935db803bcb910d5a4ca
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32201458"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33911288"
 ---
 # <a name="web-services-settings-expander"></a>Expanseur des paramètres des services web
  

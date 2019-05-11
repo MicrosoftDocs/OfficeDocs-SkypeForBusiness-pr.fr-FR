@@ -1,8 +1,8 @@
 ---
 title: Liste de vérification de première exécution pour le panneau de configuration de Skype Entreprise Server
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/23/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4d0c7306-e87e-464a-82ad-a5537f141500
 description: Bienvenue dans le Skype pour Business Server le panneau de configuration, l’interface utilisateur web pour l’administration et la gestion de Skype pour Business Server. Vous pouvez utiliser le panneau de configuration pour effectuer des types de tâche administrative effectuées en utilisant la console d’administration Microsoft.
-ms.openlocfilehash: 510838c2924f32ca532bfc075cc2c457f12cf3de
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b229fb3cac258b5b24a315a5193131308f61efb7
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200729"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33910966"
 ---
 # <a name="first-run-checklist-for-skype-for-business-server-control-panel"></a>Liste de vérification de première exécution pour le panneau de configuration de Skype Entreprise Server
 

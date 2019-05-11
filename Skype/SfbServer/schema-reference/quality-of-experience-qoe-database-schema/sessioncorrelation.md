@@ -1,8 +1,8 @@
 ---
 title: Table SessionCorrelation
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 2/1/2018
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 041705e1-7290-464f-95f8-96256cfa2e3e
 description: La table SessionCorrelation est une table de prise en charge. Chaque enregistrement représente un ID de corrélation qui sert à corréler plusieurs sessions.
-ms.openlocfilehash: 8c41ab5c52c6b4d06a3c3953e8d969488680e8d3
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 4efd1aeba45fb12aee646c401f492450f375aa20
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212115"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33907079"
 ---
 # <a name="sessioncorrelation-table"></a>Table SessionCorrelation
  

@@ -1,8 +1,8 @@
 ---
 title: Paramètres réseau pour les fonctionnalités Enterprise Voice dans Skype pour Business Server
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7f6de9e4-c8a4-44e4-8d14-21fe8c45283a
 description: Découvrez les régions réseau, les sites réseau et les sous-réseaux IP. Tous ces doivent être configurés pour déployer le Plan du contournement de média dans Skype pour les entreprises, planifier appel de contrôle d’admission des appels dans Skype pour Business Server), ou une planification pour les services d’urgence dans Skype pour Business Server dans Skype pour Business Server Enterprise Voice.
-ms.openlocfilehash: a37cf9aea2ef400a61a0b457e1973b05d079ec74
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 979f90beb012bb0ff05077f7236dfdf39a74a69c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32206556"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33913679"
 ---
 # <a name="network-settings-for-the-advanced-enterprise-voice-features-in-skype-for-business-server"></a>Paramètres réseau pour les fonctionnalités Enterprise Voice dans Skype pour Business Server
 

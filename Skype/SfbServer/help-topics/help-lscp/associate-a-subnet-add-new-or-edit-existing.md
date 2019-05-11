@@ -1,8 +1,8 @@
 ---
 title: Associer un sous-réseau ajouter de nouveaux ou modifier une existant
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e08a6a2d-1f88-4a84-b6e5-b84dcded4a86
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: 2ca5ad983f49e15a4e20ff1d175cab2a545849ef
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 25317c58b55bf5c55e90324420f08b3fb08fc15c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200955"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33887194"
 ---
 # <a name="associate-a-subnet-add-new-or-edit-existing"></a>Associer un sous-réseau : en ajouter un nouveau ou en modifier un existant
 

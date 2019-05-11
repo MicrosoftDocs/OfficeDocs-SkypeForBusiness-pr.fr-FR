@@ -1,8 +1,8 @@
 ---
 title: Fusion héritée
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 085fde15-e33a-4d95-8d06-4da1d5d7c770
 description: Le nom de domaine complet externe conférence Web permet aux utilisateurs externes de participer à des réunions sur site. Entrez le nom de domaine complet (FQDN) de l’interface externe de conférence web du serveur Edge hérité.
-ms.openlocfilehash: a6bb1ee83496e98f6097905fdf24c62d20d657ae
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b67ea667f2b354f7981d3bc289e63b0cf8b4e704
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200136"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33888575"
 ---
 # <a name="legacy-merge"></a>Fusion héritée
 

@@ -1,8 +1,8 @@
 ---
 title: Table SessionDetails
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 2/1/2018
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 783d2508-e31f-4b54-be0c-63aa5ec21c04
 description: Chaque enregistrement représente une session d’égal à égal, qui peut être un appel VoIP-VoIP, par messagerie instantanée deux ou tout autre type de session. Vous pouvez effectuer une jointure de tables avec la table Media pour rechercher les détails de chaque support impliqué dans cette session.
-ms.openlocfilehash: e499c8d443742bacfcdbe9c129e884cae4dd96a0
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: bd4603811dd699bfe856f7151841c5f8021c2703
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212802"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33888043"
 ---
 # <a name="sessiondetails-table"></a>Table SessionDetails
  

@@ -13,12 +13,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Prise en main de Teams pour les organismes de santé
-ms.openlocfilehash: 0a169a61471e2c0c74024012b777fbf0bf2dc0cb
-ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
+ms.openlocfilehash: 40eccf379af8c0acd318cb3a8b1b647357f6cf7c
+ms.sourcegitcommit: a46dad8dfc685534d81bb011f3c099c6f59ce2e0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "33865029"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "33882892"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Prise en main de Teams pour les organismes de santé
 
@@ -27,14 +27,16 @@ Teams Microsoft offre un certain nombre de fonctionnalités utiles pour les hôp
 - Coordination de soins et de collaboration
 - Messagerie sécurisée
 - Télésanté
+- Intégration de santé Record (EHR) électronique 
+- Intégration du système Firstline travail 
 
-via l’intégration d’enregistrement de santé électroniques (EHR) et l’intégration de système Firstline collaborateur ainsi que d’autres les fonctionnalités de Microsoft Teams comme réunions/appel et la messagerie. 
+Cela vient s’ajouter aux fonctionnalités de Microsoft Teams comme réunions/appel et la messagerie. 
 
 ## <a name="care-coordination---microsoft-teams-patients-app"></a>Application de Patients des équipes de Coordination de soins - Microsoft
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
-Microsoft Teams a maintenant une solution de coordination de soins spécifique aux organisations de santé pour les aider à répondre à leur but ultime de fournir la meilleure patients. L’essentiel de la solution de coordination de soins, l’application Microsoft équipes Patients, est une premier onglet application tiers qui s’intègre avec les systèmes (EHR) enregistrements électronique d’intégrité à l’aide d’une interface Fast les prestataires de ressources d’interopérabilité ([FHIR](https://www.hl7.org/fhir/)) afin de précieuses informations médicales dans Microsoft Teams dans un contexte pour permettre la communication et collaboration clinique.  
+Microsoft Teams a maintenant une solution de coordination de soins spécifique aux organisations de santé pour leur permettre de fournir les meilleures patients. L’essentiel de la solution de coordination de soins, l’application Microsoft équipes Patients, est une premier onglet application tiers qui s’intègre avec les systèmes (EHR) enregistrements électronique d’intégrité à l’aide d’une interface Fast les prestataires de ressources d’interopérabilité ([FHIR](https://www.hl7.org/fhir/)) afin de précieuses informations médicales dans Microsoft Teams dans un contexte pour permettre la communication et collaboration clinique.  
 
 La solution de coordination de soins peut communiquer avec les meilleurs éditeurs de logiciels indépendants (ISV) qui peuvent se connecter l’application de Patients à vos systèmes DMI à l’aide des normes de données d’intégrité existantes, telles que HL7v2 et FHIR. Partenaires de Microsoft avec les leaders suivantes pour établir une relation d’intégrité électronique enregistrement intégration des équipes :
 
@@ -92,7 +94,7 @@ Sécuriser la messagerie prend en charge la collaboration au sein des équipes d
 
 - Un expéditeur du message peut définir une priorité spéciale pour leur message, afin que le destinataire est informé à plusieurs reprises jusqu'à ce qu’ils lire le message.
 - Un expéditeur du message peut demander une confirmation de lecture, afin qu’ils sont avertis lorsqu’un messages a été lu par le destinataire du message.
-- 
+
 
 Ensemble, ces fonctionnalités permettent attention plus rapide aux messages urgents et que le message a été reçu et lecture de confiance. Nouvelle soignant à l’aide de ces fonctionnalités peut être créées sur une base par patient. Ces fonctionnalités sont basés sur la stratégie et peuvent être affectées aux utilisateurs individuels ou des équipes entières.
 

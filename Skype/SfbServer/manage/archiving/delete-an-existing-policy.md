@@ -1,8 +1,8 @@
 ---
 title: Supprimer une stratégie dans Skype d’archivage pour Business Server existante
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8b88bed9-2b37-4caf-b119-48688076e06a
 description: 'Résumé : Découvrez comment supprimer une stratégie d’archivage pour Skype pour Business Server.'
-ms.openlocfilehash: 1210dacc85ea28d2968d602431d5a9bdf7bcc4b9
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: ca78224b485cb842fe8c794a2975a418239d9583
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878427"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33885037"
 ---
 # <a name="delete-an-existing-archiving-policy-in-skype-for-business-server"></a>Supprimer une stratégie dans Skype d’archivage pour Business Server existante
 

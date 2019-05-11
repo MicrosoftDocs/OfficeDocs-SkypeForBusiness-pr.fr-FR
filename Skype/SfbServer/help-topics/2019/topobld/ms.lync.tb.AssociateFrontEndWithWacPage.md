@@ -1,8 +1,8 @@
 ---
 title: Page Associer un pool frontal à Office Web Apps Server
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 49dc1a92-970b-4372-a3a2-2c714a52b1c3
 ROBOTS: NOINDEX, NOFOLLOW
 description: Le serveur Office Web Apps Server fournit des services similaires au téléchargement d’un document par un présentateur, qui sera utilisé lors d’une réunion, et comporte des fonctions supplémentaires qui n’existaient pas dans les versions antérieures.
-ms.openlocfilehash: 2f00851409411f7b2a0ddd01378943c5af4f46ee
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b7276ad33bac5e3e1051e3b5f58bd55600954bb1
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32220761"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33885652"
 ---
 # <a name="associate-front-end-with-office-web-apps-server-page"></a>Page Associer un pool frontal à Office Web Apps Server
 

@@ -1,8 +1,8 @@
 ---
 title: Nœud d’étendue des serveurs d’archivage
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/25/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0c5f46c7-67bf-4daa-b7a9-4b59fd7792a0
 description: 'Dans le générateur de topologie, vous pouvez effectuer des tâches liées à un serveur d’archivage individuel en cliquant avec le bouton droit sur le serveur d’archivage dans l’arborescence de la console et en cliquant sur Action dans la barre d’outils ou en cliquant sur une tâche dans le volet Actions, puis en cliquant sur l’option du serveur d’archivage suivante :'
-ms.openlocfilehash: 60f79b174f992718488a7eacb2d578dc05bf472f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 116b1695dbc97ad81b3840ff43e7ed930d5b269f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32227466"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33885631"
 ---
 # <a name="archiving-servers-scope-node"></a>Nœud d’étendue des serveurs d’archivage
  

@@ -1,8 +1,8 @@
 ---
 title: Ajouter des fonctionnalités de directeur
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9c8b1c8e-5a3e-499b-9035-7d2f8e07b389
 description: Si vous souhaitez que le pool directeur pour inclure le serveur de surveillance, sélectionnez Activer la surveillance (CDR et mesures QoE).
-ms.openlocfilehash: 0826de05690f92460e7948b9ba55b65b540ff31c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 1ba32a5e75b73dabe49689575bb5310f9ffa7ab3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888807"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33886599"
 ---
 # <a name="add-director-features"></a>Ajouter des fonctionnalités de directeur
 

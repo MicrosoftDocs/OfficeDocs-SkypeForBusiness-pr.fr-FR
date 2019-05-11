@@ -1,8 +1,8 @@
 ---
 title: Nœud d’étendue des serveurs frontaux
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/25/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 99c8c4b6-eb12-4c6b-b32c-3977d17fc8fa
 description: 'Le nœud des pools frontaux Enterprise Edition répertorie les pools frontaux sur ce site, tandis que les nœuds des serveurs frontaux Standard Edition répertorient les serveurs Standard Edition sur ce site. Vous pouvez effectuer l’action suivante :'
-ms.openlocfilehash: cce9e2d52b20ad9b439435f12111fdc1e9bf7b8b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e18561e6b065f464255c072908d5cdb6be456cc9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32177440"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33888652"
 ---
 # <a name="front-end-servers-scope-node"></a>Nœud d’étendue des serveurs frontaux
  

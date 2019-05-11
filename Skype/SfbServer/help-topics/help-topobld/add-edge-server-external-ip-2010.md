@@ -1,8 +1,8 @@
 ---
 title: Ajouter l’adresse IP externe 2010 du serveur Edge
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: adb2778d-fd46-4ab9-899d-f97f71493659
 description: Vous pouvez configurer les propriétés de cette page pour faire pointer le serveur de périphérie vers les emplacements externes du service Edge d’accès, service Edge de conférence Web et A / V Edge service.
-ms.openlocfilehash: a6a589c909d8b807049e3b0c40aefd852dd31f7f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: cc417e8b0003badd3b1d1040a5ad0dc5c2687381
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874569"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33886402"
 ---
 # <a name="add-edge-server-external-ip-2010"></a>Ajouter l’adresse IP externe 2010 du serveur Edge
 

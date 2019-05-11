@@ -1,8 +1,8 @@
 ---
 title: Déplacement de tous les utilisateurs
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 48bf9dad-bc51-4996-9417-8f15c1d476ad
 description: Dans la boîte de dialogue Déplacer des utilisateurs, vous pouvez sélectionner les pools source et de destination pour déplacer des comptes d’utilisateur d’un pool vers un autre dans votre déploiement.
-ms.openlocfilehash: 2ef78e35bbe05318c91332654c1b6ec86c8075e8
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 4c7d31536421ec6a0ebfa4c8afc00765e1c89c5d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200708"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33911050"
 ---
 # <a name="move-all-users"></a>Déplacement de tous les utilisateurs
 

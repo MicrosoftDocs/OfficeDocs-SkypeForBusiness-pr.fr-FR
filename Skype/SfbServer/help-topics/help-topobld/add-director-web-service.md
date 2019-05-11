@@ -1,8 +1,8 @@
 ---
 title: 'Service web : ajouter un directeur'
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3ed3bdde-c3b5-4fe9-a96b-37099cbd6234
 description: L’URL de base correspond à l’identité des services web pour l’URL, moins https://. Par exemple, si l’URL complète pour les Services Web du pool est https://pool01.contoso.net, l’URL de base est pool01.contoso.net.
-ms.openlocfilehash: d87f4948fd2e619ce6aba99b556a9ed0af0fd098
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 8fac9baf89f36dd90d0e98e235b6c8b297672616
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30926531"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33886542"
 ---
 # <a name="add-director-web-service"></a>Service web : ajouter un directeur
  

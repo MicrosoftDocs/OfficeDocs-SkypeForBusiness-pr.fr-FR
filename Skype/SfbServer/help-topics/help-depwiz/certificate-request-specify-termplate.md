@@ -1,8 +1,8 @@
 ---
 title: Demande de certificat (spécification d’un modèle)
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/26/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d00ed98f-46f2-4367-b34c-513e5eafdd06
 description: La page Spécifier un autre modèle de certificat vous permet de définir un modèle de certificat autre que le modèle de certificat WebServer qui est utilisé par défaut. Activez la case à cocher Utiliser un autre modèle de certificat pour l’autorité de certification sélectionnée, puis définissez le nom de l’autre modèle de certification dans la zone de texte Nom du modèle de certificat. Vous devez utiliser le nom du modèle tel qu’il est défini dans l’autorité de certification. Cliquez sur Précédent pour revenir à la page précédente. Cliquez sur Annuler pour terminer le processus de demande de certificat.
-ms.openlocfilehash: 18b5e54ef99a4c26e32aa1e6b826f69ca2db0555
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ea1563d41094a9bef0ad68a4d905de3bf4d376be
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32235090"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33911078"
 ---
 # <a name="certificate-request-specify-termplate"></a>Demande de certificat (spécification d’un modèle)
  
