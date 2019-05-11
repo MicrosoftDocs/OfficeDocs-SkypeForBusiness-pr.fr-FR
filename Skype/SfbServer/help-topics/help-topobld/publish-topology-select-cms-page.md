@@ -1,8 +1,8 @@
 ---
 title: 'Publier la topologie : page Sélectionner un CMS'
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,19 +13,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: df447066-2840-431b-bc4e-acf8aa692d71
 description: Vous publiez la topologie que vous avez configurées à l’aide du Générateur de topologie. Vous êtes invité à sélectionner à partir d’une liste pool frontal ou serveur frontal assumeront le rôle de contenir le magasin Central de gestion. Qu’un seul pool frontal ou serveur frontal peut contenir ce rôle à un moment donné.
-ms.openlocfilehash: a2f37afe8b654562a98255be42b621b1290bbb67
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 196749458bcae93e040e5ed9039a588d3959fb30
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32219211"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33910447"
 ---
-# <a name="publish-topology-select-cms-page"></a><span data-ttu-id="f45ec-105">Publier la topologie : page Sélectionner un CMS</span><span class="sxs-lookup"><span data-stu-id="f45ec-105">Publish Topology Select CMS Page</span></span>
+# <a name="publish-topology-select-cms-page"></a><span data-ttu-id="6757b-105">Publier la topologie : page Sélectionner un CMS</span><span class="sxs-lookup"><span data-stu-id="6757b-105">Publish Topology Select CMS Page</span></span>
 
-<span data-ttu-id="f45ec-106">Vous publiez la topologie que vous avez configurées à l’aide du Générateur de topologie.</span><span class="sxs-lookup"><span data-stu-id="f45ec-106">You publish the topology that you have configured using Topology Builder.</span></span> <span data-ttu-id="f45ec-107">Vous êtes invité à sélectionner à partir d’une liste pool frontal ou serveur frontal assumeront le rôle de contenir le magasin Central de gestion.</span><span class="sxs-lookup"><span data-stu-id="f45ec-107">You are asked to select from a list which Front End Server or Front End pool will assume the role of holding the Central Management store.</span></span> <span data-ttu-id="f45ec-108">Qu’un seul pool frontal ou serveur frontal peut contenir ce rôle à un moment donné.</span><span class="sxs-lookup"><span data-stu-id="f45ec-108">Only one Front End Server or Front End pool can hold this role at any given time.</span></span>
+<span data-ttu-id="6757b-106">Vous publiez la topologie que vous avez configurées à l’aide du Générateur de topologie.</span><span class="sxs-lookup"><span data-stu-id="6757b-106">You publish the topology that you have configured using Topology Builder.</span></span> <span data-ttu-id="6757b-107">Vous êtes invité à sélectionner à partir d’une liste pool frontal ou serveur frontal assumeront le rôle de contenir le magasin Central de gestion.</span><span class="sxs-lookup"><span data-stu-id="6757b-107">You are asked to select from a list which Front End Server or Front End pool will assume the role of holding the Central Management store.</span></span> <span data-ttu-id="6757b-108">Qu’un seul pool frontal ou serveur frontal peut contenir ce rôle à un moment donné.</span><span class="sxs-lookup"><span data-stu-id="6757b-108">Only one Front End Server or Front End pool can hold this role at any given time.</span></span>
 
-<span data-ttu-id="f45ec-109">Pour plus d’informations sur le magasin Central de gestion est, voir [déplacer le serveur de gestion centrale de Lync Server 2010 vers Lync Server 2013](https://technet.microsoft.com/library/30cc98f2-1916-4dbe-99d0-8df5368ed3ec.aspx).</span><span class="sxs-lookup"><span data-stu-id="f45ec-109">For more information on what the Central Management store is, see [Move the Lync Server 2010 Central Management Server to Lync Server 2013](https://technet.microsoft.com/library/30cc98f2-1916-4dbe-99d0-8df5368ed3ec.aspx).</span></span>
+<span data-ttu-id="6757b-109">Pour plus d’informations sur le magasin Central de gestion est, voir [déplacer le serveur de gestion centrale de Lync Server 2010 vers Lync Server 2013](https://technet.microsoft.com/library/30cc98f2-1916-4dbe-99d0-8df5368ed3ec.aspx).</span><span class="sxs-lookup"><span data-stu-id="6757b-109">For more information on what the Central Management store is, see [Move the Lync Server 2010 Central Management Server to Lync Server 2013](https://technet.microsoft.com/library/30cc98f2-1916-4dbe-99d0-8df5368ed3ec.aspx).</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="f45ec-110">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="f45ec-110">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="6757b-110">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="6757b-110">See also</span></span>
 
-[<span data-ttu-id="f45ec-111">Move-CsManagementServer</span><span class="sxs-lookup"><span data-stu-id="f45ec-111">Move-CsManagementServer</span></span>](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps)
+[<span data-ttu-id="6757b-111">Move-CsManagementServer</span><span class="sxs-lookup"><span data-stu-id="6757b-111">Move-CsManagementServer</span></span>](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps)

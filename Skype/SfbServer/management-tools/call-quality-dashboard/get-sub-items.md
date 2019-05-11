@@ -1,8 +1,8 @@
 ---
 title: Obtenir des sous-éléments
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -11,44 +11,44 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0542eba9-3dda-40de-bba8-095d22825e4e
 description: 'Résumé : Découvrez l’opération obtenir les sous-éléments, qui fait partie du Service de l’élément. Le Service de l’élément fait partie de l’API de référentiel pour appeler le tableau de bord qualité. Tableau de bord de qualité des appels est un outil de Skype pour Business Server.'
-ms.openlocfilehash: 41287978338bce49d8d8c30d1d6b91b9b2498acc
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 4d0e5c19a4bfb5d66db95738cab5b0c2eaf33985
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889006"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33930678"
 ---
-# <a name="get-sub-items"></a><span data-ttu-id="9c5db-105">Obtenir des sous-éléments</span><span class="sxs-lookup"><span data-stu-id="9c5db-105">Get Sub-Items</span></span>
+# <a name="get-sub-items"></a><span data-ttu-id="e4301-105">Obtenir des sous-éléments</span><span class="sxs-lookup"><span data-stu-id="e4301-105">Get Sub-Items</span></span>
  
-<span data-ttu-id="9c5db-106">**Résumé :** Obtenir des informations sur l’opération obtenir les sous-éléments, qui fait partie du Service de l’élément.</span><span class="sxs-lookup"><span data-stu-id="9c5db-106">**Summary:** Learn about the Get Sub-Items operation, which is part of the Item Service.</span></span> <span data-ttu-id="9c5db-107">Le Service de l’élément fait partie de l’API de référentiel pour appeler le tableau de bord qualité.</span><span class="sxs-lookup"><span data-stu-id="9c5db-107">The Item Service is part of the Repository API for Call Quality Dashboard.</span></span> <span data-ttu-id="9c5db-108">Tableau de bord de qualité des appels est un outil de Skype pour Business Server.</span><span class="sxs-lookup"><span data-stu-id="9c5db-108">Call Quality Dashboard is a tool for Skype for Business Server.</span></span>
+<span data-ttu-id="e4301-106">**Résumé :** Obtenir des informations sur l’opération obtenir les sous-éléments, qui fait partie du Service de l’élément.</span><span class="sxs-lookup"><span data-stu-id="e4301-106">**Summary:** Learn about the Get Sub-Items operation, which is part of the Item Service.</span></span> <span data-ttu-id="e4301-107">Le Service de l’élément fait partie de l’API de référentiel pour appeler le tableau de bord qualité.</span><span class="sxs-lookup"><span data-stu-id="e4301-107">The Item Service is part of the Repository API for Call Quality Dashboard.</span></span> <span data-ttu-id="e4301-108">Tableau de bord de qualité des appels est un outil de Skype pour Business Server.</span><span class="sxs-lookup"><span data-stu-id="e4301-108">Call Quality Dashboard is a tool for Skype for Business Server.</span></span>
   
-<span data-ttu-id="9c5db-109">L’opération obtenir les sous-éléments fait partie du Service d’élément dans l’API de référentiel pour appeler le tableau de bord qualité.</span><span class="sxs-lookup"><span data-stu-id="9c5db-109">The Get Sub-Items operation is part of the Item Service in the Repository API for Call Quality Dashboard.</span></span>
+<span data-ttu-id="e4301-109">L’opération obtenir les sous-éléments fait partie du Service d’élément dans l’API de référentiel pour appeler le tableau de bord qualité.</span><span class="sxs-lookup"><span data-stu-id="e4301-109">The Get Sub-Items operation is part of the Item Service in the Repository API for Call Quality Dashboard.</span></span>
   
-## <a name="get-sub-items"></a><span data-ttu-id="9c5db-110">Obtenir des sous-éléments</span><span class="sxs-lookup"><span data-stu-id="9c5db-110">Get Sub-Items</span></span>
+## <a name="get-sub-items"></a><span data-ttu-id="e4301-110">Obtenir des sous-éléments</span><span class="sxs-lookup"><span data-stu-id="e4301-110">Get Sub-Items</span></span>
 
-<span data-ttu-id="9c5db-111">Obtenez les sous-éléments renvoie les sous-éléments d’un élément spécifique.</span><span class="sxs-lookup"><span data-stu-id="9c5db-111">Get Sub-Items returns a specific Item's sub-items.</span></span>
+<span data-ttu-id="e4301-111">Obtenez les sous-éléments renvoie les sous-éléments d’un élément spécifique.</span><span class="sxs-lookup"><span data-stu-id="e4301-111">Get Sub-Items returns a specific Item's sub-items.</span></span>
   
 
-|<span data-ttu-id="9c5db-112">**Méthode**</span><span class="sxs-lookup"><span data-stu-id="9c5db-112">**Method**</span></span>|<span data-ttu-id="9c5db-113">**URI de la demande**</span><span class="sxs-lookup"><span data-stu-id="9c5db-113">**Request URI**</span></span>|<span data-ttu-id="9c5db-114">**Version HTTP**</span><span class="sxs-lookup"><span data-stu-id="9c5db-114">**HTTP Version**</span></span>|
+|<span data-ttu-id="e4301-112">**Méthode**</span><span class="sxs-lookup"><span data-stu-id="e4301-112">**Method**</span></span>|<span data-ttu-id="e4301-113">**URI de la demande**</span><span class="sxs-lookup"><span data-stu-id="e4301-113">**Request URI**</span></span>|<span data-ttu-id="e4301-114">**Version HTTP**</span><span class="sxs-lookup"><span data-stu-id="e4301-114">**HTTP Version**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="9c5db-115">Avoir</span><span class="sxs-lookup"><span data-stu-id="9c5db-115">GET</span></span>  <br/> |<span data-ttu-id="9c5db-116">https://\<portal\>/QoERepositoryService/référentiel/élément / {itemId} / sous-éléments</span><span class="sxs-lookup"><span data-stu-id="9c5db-116">https://\<portal\>/QoERepositoryService/repository/item/{itemId}/subitem</span></span>  <br/> |<span data-ttu-id="9c5db-117">HTTP/1.1.</span><span class="sxs-lookup"><span data-stu-id="9c5db-117">HTTP/1.1</span></span>  <br/> |
+|<span data-ttu-id="e4301-115">Avoir</span><span class="sxs-lookup"><span data-stu-id="e4301-115">GET</span></span>  <br/> |<span data-ttu-id="e4301-116">https://\<portal\>/QoERepositoryService/référentiel/élément / {itemId} / sous-éléments</span><span class="sxs-lookup"><span data-stu-id="e4301-116">https://\<portal\>/QoERepositoryService/repository/item/{itemId}/subitem</span></span>  <br/> |<span data-ttu-id="e4301-117">HTTP/1.1.</span><span class="sxs-lookup"><span data-stu-id="e4301-117">HTTP/1.1</span></span>  <br/> |
    
- <span data-ttu-id="9c5db-118">**Paramètres d’URI** - None.</span><span class="sxs-lookup"><span data-stu-id="9c5db-118">**URI Parameters** - None.</span></span>
+ <span data-ttu-id="e4301-118">**Paramètres d’URI** - None.</span><span class="sxs-lookup"><span data-stu-id="e4301-118">**URI Parameters** - None.</span></span>
   
- <span data-ttu-id="9c5db-119">**En-têtes de demande** - aucun en-tête supplémentaire.</span><span class="sxs-lookup"><span data-stu-id="9c5db-119">**Request Headers** - No additional headers.</span></span>
+ <span data-ttu-id="e4301-119">**En-têtes de demande** - aucun en-tête supplémentaire.</span><span class="sxs-lookup"><span data-stu-id="e4301-119">**Request Headers** - No additional headers.</span></span>
   
- <span data-ttu-id="9c5db-120">**Corps de requête** - None.</span><span class="sxs-lookup"><span data-stu-id="9c5db-120">**Request Body** - None.</span></span>
+ <span data-ttu-id="e4301-120">**Corps de requête** - None.</span><span class="sxs-lookup"><span data-stu-id="e4301-120">**Request Body** - None.</span></span>
   
- <span data-ttu-id="9c5db-121">**Réponse** - la réponse inclut un code d’état HTTP et un ensemble d’en-têtes de réponse.</span><span class="sxs-lookup"><span data-stu-id="9c5db-121">**Response** - The response includes an HTTP status code and a set of response headers.</span></span>
+ <span data-ttu-id="e4301-121">**Réponse** - la réponse inclut un code d’état HTTP et un ensemble d’en-têtes de réponse.</span><span class="sxs-lookup"><span data-stu-id="e4301-121">**Response** - The response includes an HTTP status code and a set of response headers.</span></span>
   
- <span data-ttu-id="9c5db-122">**Code d’état** - une opération réussie retourne un code d’état 200 (OK).</span><span class="sxs-lookup"><span data-stu-id="9c5db-122">**Status Code** - A successful operation returns status code 200 (OK).</span></span> <span data-ttu-id="9c5db-123">Si un utilisateur spécifié QU'ID est introuvable, elle renvoie le code d’état 404 (introuvable).</span><span class="sxs-lookup"><span data-stu-id="9c5db-123">If a specified user ID is not found, it returns status code 404 (Not Found).</span></span>
+ <span data-ttu-id="e4301-122">**Code d’état** - une opération réussie retourne un code d’état 200 (OK).</span><span class="sxs-lookup"><span data-stu-id="e4301-122">**Status Code** - A successful operation returns status code 200 (OK).</span></span> <span data-ttu-id="e4301-123">Si un utilisateur spécifié QU'ID est introuvable, elle renvoie le code d’état 404 (introuvable).</span><span class="sxs-lookup"><span data-stu-id="e4301-123">If a specified user ID is not found, it returns status code 404 (Not Found).</span></span>
   
- <span data-ttu-id="9c5db-124">**En-têtes de réponse** - aucun en-tête supplémentaire.</span><span class="sxs-lookup"><span data-stu-id="9c5db-124">**Response Headers** - No additional headers.</span></span>
+ <span data-ttu-id="e4301-124">**En-têtes de réponse** - aucun en-tête supplémentaire.</span><span class="sxs-lookup"><span data-stu-id="e4301-124">**Response Headers** - No additional headers.</span></span>
   
- <span data-ttu-id="9c5db-125">**Corps de réponse** - vous trouverez ci-dessous une charge utile d’exemple réponse au format JSON.</span><span class="sxs-lookup"><span data-stu-id="9c5db-125">**Response Body** - Below is a sample response payload in JSON.</span></span>
+ <span data-ttu-id="e4301-125">**Corps de réponse** - vous trouverez ci-dessous une charge utile d’exemple réponse au format JSON.</span><span class="sxs-lookup"><span data-stu-id="e4301-125">**Response Body** - Below is a sample response payload in JSON.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="9c5db-126">Un tableau de l’objet Item est renvoyé.</span><span class="sxs-lookup"><span data-stu-id="9c5db-126">An array of Item object is returned.</span></span> 
+> <span data-ttu-id="e4301-126">Un tableau de l’objet Item est renvoyé.</span><span class="sxs-lookup"><span data-stu-id="e4301-126">An array of Item object is returned.</span></span> 
   
 ```
 [{
@@ -63,15 +63,15 @@ ms.locfileid: "30889006"
 }]
 ```
 
-<span data-ttu-id="9c5db-127">L’objet renvoyé par opération sous-éléments contient uniquement les trois champs suivants.</span><span class="sxs-lookup"><span data-stu-id="9c5db-127">The Item object returned by Sub-Items operation only contains the following three fields.</span></span> 
+<span data-ttu-id="e4301-127">L’objet renvoyé par opération sous-éléments contient uniquement les trois champs suivants.</span><span class="sxs-lookup"><span data-stu-id="e4301-127">The Item object returned by Sub-Items operation only contains the following three fields.</span></span> 
   
- <span data-ttu-id="9c5db-128">*itemId* - ID de l’élément.</span><span class="sxs-lookup"><span data-stu-id="9c5db-128">*itemId*  - ID of the item.</span></span>
+ <span data-ttu-id="e4301-128">*itemId* - ID de l’élément.</span><span class="sxs-lookup"><span data-stu-id="e4301-128">*itemId*  - ID of the item.</span></span>
   
- <span data-ttu-id="9c5db-129">*userId* - ID de l’utilisateur qui possède cet article.</span><span class="sxs-lookup"><span data-stu-id="9c5db-129">*userId*  - ID of the User who owns this Item.</span></span>
+ <span data-ttu-id="e4301-129">*userId* - ID de l’utilisateur qui possède cet article.</span><span class="sxs-lookup"><span data-stu-id="e4301-129">*userId*  - ID of the User who owns this Item.</span></span>
   
- <span data-ttu-id="9c5db-130">*type* : le type de contenu.</span><span class="sxs-lookup"><span data-stu-id="9c5db-130">*type*  - The type of the content.</span></span> <span data-ttu-id="9c5db-131">Ce champ est défini par les applications.</span><span class="sxs-lookup"><span data-stu-id="9c5db-131">This field is set by the applications.</span></span>
+ <span data-ttu-id="e4301-130">*type* : le type de contenu.</span><span class="sxs-lookup"><span data-stu-id="e4301-130">*type*  - The type of the content.</span></span> <span data-ttu-id="e4301-131">Ce champ est défini par les applications.</span><span class="sxs-lookup"><span data-stu-id="e4301-131">This field is set by the applications.</span></span>
   
 > [!NOTE]
->  <span data-ttu-id="9c5db-132">`Content`et `subItems` champs ne sont pas inclus dans la réponse afin de réduire la quantité de données transmises via le réseau.</span><span class="sxs-lookup"><span data-stu-id="9c5db-132">`Content` and `subItems` fields are not included in the response to reduce the amount of data transmitted over the network.</span></span>
+>  <span data-ttu-id="e4301-132">`Content`et `subItems` champs ne sont pas inclus dans la réponse afin de réduire la quantité de données transmises via le réseau.</span><span class="sxs-lookup"><span data-stu-id="e4301-132">`Content` and `subItems` fields are not included in the response to reduce the amount of data transmitted over the network.</span></span>
   
 

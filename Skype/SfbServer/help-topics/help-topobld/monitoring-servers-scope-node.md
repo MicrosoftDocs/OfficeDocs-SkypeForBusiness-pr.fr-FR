@@ -1,8 +1,8 @@
 ---
 title: Nœud d’étendue des serveurs de surveillance
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,25 +13,25 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 16fa839b-8eb5-4b81-82c5-65fe9a00614b
 description: 'Le nœud serveurs de surveillance répertorie les serveurs de surveillance dans votre topologie. Vous pouvez effectuer l’action suivante :'
-ms.openlocfilehash: 166ceeef9ce17b2a1ffad8b6270e61f631fd22b9
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: eb29fdaf5dc0ea8bf3ef3bdd485bf40f505d9d90
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32199993"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33930713"
 ---
-# <a name="monitoring-servers-scope-node"></a><span data-ttu-id="c1107-104">Nœud d’étendue des serveurs de surveillance</span><span class="sxs-lookup"><span data-stu-id="c1107-104">Monitoring Servers Scope Node</span></span>
+# <a name="monitoring-servers-scope-node"></a><span data-ttu-id="66b80-104">Nœud d’étendue des serveurs de surveillance</span><span class="sxs-lookup"><span data-stu-id="66b80-104">Monitoring Servers Scope Node</span></span>
  
-<span data-ttu-id="c1107-105">Le nœud **Serveurs de surveillance** répertorie les serveurs de surveillance dans votre topologie.</span><span class="sxs-lookup"><span data-stu-id="c1107-105">The **Monitoring Servers** node lists the Monitoring Servers in your topology.</span></span> <span data-ttu-id="c1107-106">Vous pouvez effectuer l’action suivante :</span><span class="sxs-lookup"><span data-stu-id="c1107-106">You can perform the following action:</span></span>
+<span data-ttu-id="66b80-105">Le nœud **Serveurs de surveillance** répertorie les serveurs de surveillance dans votre topologie.</span><span class="sxs-lookup"><span data-stu-id="66b80-105">The **Monitoring Servers** node lists the Monitoring Servers in your topology.</span></span> <span data-ttu-id="66b80-106">Vous pouvez effectuer l’action suivante :</span><span class="sxs-lookup"><span data-stu-id="66b80-106">You can perform the following action:</span></span>
   
-- <span data-ttu-id="c1107-107">**Nouveau serveur de surveillance**.</span><span class="sxs-lookup"><span data-stu-id="c1107-107">**New Monitoring Server**.</span></span> <span data-ttu-id="c1107-108">Démarre l’Assistant **Définir un nouveau serveur de surveillance** , qui vous permet d’ajouter un nouveau serveur de surveillance à la topologie.</span><span class="sxs-lookup"><span data-stu-id="c1107-108">Starts the **Define New Monitoring Server** wizard, which you use to add a new Monitoring Server to the topology.</span></span>
+- <span data-ttu-id="66b80-107">**Nouveau serveur de surveillance**.</span><span class="sxs-lookup"><span data-stu-id="66b80-107">**New Monitoring Server**.</span></span> <span data-ttu-id="66b80-108">Démarre l’Assistant **Définir un nouveau serveur de surveillance** , qui vous permet d’ajouter un nouveau serveur de surveillance à la topologie.</span><span class="sxs-lookup"><span data-stu-id="66b80-108">Starts the **Define New Monitoring Server** wizard, which you use to add a new Monitoring Server to the topology.</span></span>
     
-<span data-ttu-id="c1107-109">Outre les options de serveur de surveillance, vous pouvez effectuer les tâches générales suivantes :</span><span class="sxs-lookup"><span data-stu-id="c1107-109">In addition to the Monitoring Server options, you can perform the following general tasks:</span></span>
+<span data-ttu-id="66b80-109">Outre les options de serveur de surveillance, vous pouvez effectuer les tâches générales suivantes :</span><span class="sxs-lookup"><span data-stu-id="66b80-109">In addition to the Monitoring Server options, you can perform the following general tasks:</span></span>
   
-- <span data-ttu-id="c1107-110">**Topologie**</span><span class="sxs-lookup"><span data-stu-id="c1107-110">**Topology**.</span></span> <span data-ttu-id="c1107-111">Vous pouvez utiliser cette option pour définir une nouvelle topologie, ouvrez une topologie existante, télécharger la topologie actuelle, enregistrer une copie de la topologie, publiez la topologie, installer une base de données, fusionner les composants à partir de versions précédentes d’Office Communications Server ou supprimer le déploiement.</span><span class="sxs-lookup"><span data-stu-id="c1107-111">You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components from previous versions of Office Communications Server, or remove the deployment.</span></span>
+- <span data-ttu-id="66b80-110">**Topologie**</span><span class="sxs-lookup"><span data-stu-id="66b80-110">**Topology**.</span></span> <span data-ttu-id="66b80-111">Vous pouvez utiliser cette option pour définir une nouvelle topologie, ouvrez une topologie existante, télécharger la topologie actuelle, enregistrer une copie de la topologie, publiez la topologie, installer une base de données, fusionner les composants à partir de versions précédentes d’Office Communications Server ou supprimer le déploiement.</span><span class="sxs-lookup"><span data-stu-id="66b80-111">You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components from previous versions of Office Communications Server, or remove the deployment.</span></span>
     
-- <span data-ttu-id="c1107-p105">**Afficher** : vous pouvez utiliser cette option pour personnaliser l’affichage du générateur de topologie en sélectionnant les éléments à afficher et à masquer dans l’arborescence de la console.</span><span class="sxs-lookup"><span data-stu-id="c1107-p105">**View**. You can use this option to customize the view of in Topology Builder by selecting the items to show and hide in the console tree views.</span></span>
+- <span data-ttu-id="66b80-p105">**Afficher** : vous pouvez utiliser cette option pour personnaliser l’affichage du générateur de topologie en sélectionnant les éléments à afficher et à masquer dans l’arborescence de la console.</span><span class="sxs-lookup"><span data-stu-id="66b80-p105">**View**. You can use this option to customize the view of in Topology Builder by selecting the items to show and hide in the console tree views.</span></span>
     
-- <span data-ttu-id="c1107-p106">**Aide** : vous pouvez utiliser cette option pour accéder à l’Aide pour le nœud actif.</span><span class="sxs-lookup"><span data-stu-id="c1107-p106">**Help**. You can use this option to access Help for the active node.</span></span>
+- <span data-ttu-id="66b80-p106">**Aide** : vous pouvez utiliser cette option pour accéder à l’Aide pour le nœud actif.</span><span class="sxs-lookup"><span data-stu-id="66b80-p106">**Help**. You can use this option to access Help for the active node.</span></span>
     
 

@@ -1,25 +1,26 @@
 ---
 title: Help-DepWiz
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 ms.date: 1/1/1900
+manager: serdars
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ca35c25c-6238-4e98-a8d0-c225fb605058
 description: Rubriques d’Assistant de déploiement
-ms.openlocfilehash: 71f5559c9c645fad026242f56644d5f69f692e49
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 77ad3b77981f8b688819e207f9a1f6107bc89909
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32220423"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33921005"
 ---
-# <a name="help-depwiz"></a><span data-ttu-id="b6ccb-103">Help-DepWiz</span><span class="sxs-lookup"><span data-stu-id="b6ccb-103">Help-DepWiz</span></span>
+# <a name="help-depwiz"></a><span data-ttu-id="db071-103">Help-DepWiz</span><span class="sxs-lookup"><span data-stu-id="db071-103">Help-DepWiz</span></span>
  
-<span data-ttu-id="b6ccb-104">Les rubriques de ce nœud fournissent de l’aide pour le Skype pour l’Assistant de déploiement de serveur d’entreprise.</span><span class="sxs-lookup"><span data-stu-id="b6ccb-104">The topics in this node provide help for the Skype for Business Server deployment wizard.</span></span>
+<span data-ttu-id="db071-104">Les rubriques de ce nœud fournissent de l’aide pour le Skype pour l’Assistant de déploiement de serveur d’entreprise.</span><span class="sxs-lookup"><span data-stu-id="db071-104">The topics in this node provide help for the Skype for Business Server deployment wizard.</span></span>
   
 
   
