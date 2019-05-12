@@ -1,8 +1,8 @@
 ---
 title: Modifier le développeur des paramètres de l’ordinateur Edge pour Lync Server 2010
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 74a66817-7092-4b2f-a2af-bc1a2c9e5fed
 description: 'Vous modifiez les paramètres pour le serveur Edge ou le pool de serveurs Edge en configurant les propriétés suivantes :'
-ms.openlocfilehash: a4ad88aa6ff565ac7c1ebb5134d476d34625418f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 6dcd602742ffcc93bf3b323c89304daf5f301eeb
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32203129"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33926816"
 ---
 # <a name="edit-edge-settings-expander-for-lync-server-2010"></a>Modifier le développeur des paramètres de l’ordinateur Edge pour Lync Server 2010
  

@@ -1,8 +1,8 @@
 ---
 title: Table VideoClientEvent
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 2/1/2018
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e8ab963b-fe1d-45b3-b9bd-66a5f44c1629
 description: Chaque enregistrement contient un événement client pour un point de terminaison dans un appel vidéo. En règle générale, un seul appel a deux enregistrements, l’autre pour l’appelant et l’autre pour l’appelé.
-ms.openlocfilehash: 314e4df9313a3d111d71b6eaa06565edcbb765d1
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 58179630534733985e062bbe0fafa1bbfd8499db
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212038"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33906825"
 ---
 # <a name="videoclientevent-table"></a>Table VideoClientEvent
  

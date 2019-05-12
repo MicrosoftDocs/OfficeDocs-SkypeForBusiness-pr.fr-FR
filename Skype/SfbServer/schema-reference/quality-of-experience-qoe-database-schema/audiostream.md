@@ -1,8 +1,8 @@
 ---
 title: Table AudioStream
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/9/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49ccbbc3-2f73-45fc-80a6-e612535cbc10
 description: Chaque enregistrement représente un seul flux audio. Généralement, une seule ligne de média audio contient deux flux audio.
-ms.openlocfilehash: 7c1e7ae70a04aabc7db704aaaad873bc5b2100c9
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b2360cc4e15a4c54508951d492e664493e983f0b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212347"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33920158"
 ---
 # <a name="audiostream-table"></a>Table AudioStream
  

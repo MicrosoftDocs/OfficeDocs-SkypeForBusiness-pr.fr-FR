@@ -1,8 +1,8 @@
 ---
 title: Demande de certificat (introduction)
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e1d0844b-168e-4474-a432-ce83925a4fe1
 description: Pour poursuivre le processus de demande de certificat, cliquez sur Suivant. Pour quitter le processus sans apporter de modifications au système, cliquez sur Annuler.
-ms.openlocfilehash: e26eb313f272c0aa9a3d4133e5d3f23ade975e9f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b1dd46a7b731441e2dcdffc76df881621ca2862d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32235106"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33911169"
 ---
 # <a name="certificate-request-intro"></a>Demande de certificat (introduction)
  
