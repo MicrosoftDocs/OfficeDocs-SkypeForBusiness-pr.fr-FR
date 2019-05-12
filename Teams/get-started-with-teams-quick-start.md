@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5ad250e133ebe3d9a203a1439f04a8f1f3cc41d9
-ms.sourcegitcommit: ceba3ec2d5618fceaa57e18f7ca6858e8d5d5ee5
+ms.openlocfilehash: 870dcc05d174dd7f2e7b14f05b4be56ad1ce86ea
+ms.sourcegitcommit: b072148ea13f4d4f6035204a48bedd287fb90ebd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/01/2019
-ms.locfileid: "33509683"
+ms.lasthandoff: 05/08/2019
+ms.locfileid: "33827724"
 ---
 # <a name="get-started-with-microsoft-teams"></a>Prise en main de Microsoft Teams
 
@@ -50,7 +50,7 @@ Avant de commencer, planifiez le déploiement de Teams en procédant comme suit�
 - [Préparer le réseau de votre organisation pour Microsoft Teams](prepare-network.md)
 - [En savoir plus sur les avantages de l’installation de clients de bureau, web et mobiles](get-clients.md)
 
-Vous devez également vérifier que tout le monde a bien les licences Teams. Consultez l’article [Comparaison des offres Teams](https://products.office.com/microsoft-teams/free) et [Gestion des licences Office 365 pour Teams](office-365-licensing.md). 
+Vous devez également vérifier que vous avez des licences Teams pour tout le monde. Consultez l’article [Comparaison des offres Teams](https://products.office.com/microsoft-teams/free) et [Gestion des licences Office 365 pour Teams](office-365-licensing.md). 
 
 
 
