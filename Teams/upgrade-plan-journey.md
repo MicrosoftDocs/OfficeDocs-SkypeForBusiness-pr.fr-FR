@@ -1,7 +1,7 @@
 ---
 title: Envisagez de mise à niveau de Microsoft Teams Skype pour les entreprises | Infrastructure d’adoption
-author: dearbeen
-ms.author: dearbeen
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4810e98910186e3c4c5a9b2fb7e4cf62df6876c7
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ad023ae7495bd91db248d133198075dfd5a75ce3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32222937"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33885617"
 ---
 ![S’assurer que votre projet est configuré pour la réussite de l’équipe de projet. Définir la portée du projet, des objectifs et chronologie. Confirmer la disponibilité technique et utilisateur. Exécuter votre plan de déploiement. Mettre à jour dynamique pour optimiser les résultats.] (media/upgrade-banner-main.png "Commencez votre parcours de mise à niveau")
 

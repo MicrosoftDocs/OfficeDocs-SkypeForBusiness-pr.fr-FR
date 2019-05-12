@@ -1,8 +1,8 @@
 ---
 title: Exemples de requêtes de base de données de conversation permanente
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 545b1a93-9758-4344-98cc-aa0e559d494f
 description: Cette section contient des exemples de requêtes pour la base de données de conversation permanente.
-ms.openlocfilehash: 9dace51aa882402cd7f4f6c58c9444c21263333c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e81400e357044d215103131a626cd584d2f3fffc
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212683"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33930014"
 ---
 # <a name="sample-persistent-chat-database-queries"></a>Exemples de requêtes de base de données de conversation permanente
  

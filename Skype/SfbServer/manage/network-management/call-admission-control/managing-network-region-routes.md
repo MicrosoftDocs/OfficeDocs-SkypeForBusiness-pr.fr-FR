@@ -1,20 +1,20 @@
 ---
 title: Gestion des itinéraires de région réseau
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Un itinéraire de région réseau définit l’itinéraire entre une paire de régions réseau. Chaque paire de régions de réseau dans votre déploiement du contrôle d’admission des appels nécessite un itinéraire de région réseau.
-ms.openlocfilehash: 12e8d9072df3affdb6e47b6ddb0452e0ee5982a5
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 53b6383e08196fb22784f3fcd1e8d797c9b138de
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898122"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33888848"
 ---
 # <a name="managing-network-region-routes-in-skype-for-business-server"></a>Gestion d’itinéraires de région réseau dans Skype Entreprise Server
 

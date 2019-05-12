@@ -1,8 +1,8 @@
 ---
 title: Nœud d'étendue des jonctions
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/27/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4ee527fa-ebec-40a9-a6bf-0cabd098aaa9
 description: 'Avec le bouton droit de jonctions dans le Générateur de topologie pour effectuer les actions suivantes :'
-ms.openlocfilehash: 543c4cb31f87d670ac8b0e0d89d0f87b84927111
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: c3cf204f8f646e1727df9869c4177d22f1dae085
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32219098"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33903431"
 ---
 # <a name="trunks-scope-node"></a>Nœud d'étendue des jonctions
  

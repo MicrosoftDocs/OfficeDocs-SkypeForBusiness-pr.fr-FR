@@ -1,7 +1,7 @@
 ---
 title: Installation et test de Skype Entreprise pour iOS
-ms.author: chucked
-author: chuckedmonson
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.reviewer: PhillipGarding
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 142abc98-608d-40c7-ab4d-66acc010426b
 description: 'Résumé : Découvrez comment installer et tester la Skype pour les entreprises pour une application iOS.'
-ms.openlocfilehash: 1bc8f876c8273d5c967701c283766abbb149bb39
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 395ca6f27b373aff981cebc79567a05e7ab72696
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32219422"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33895208"
 ---
 # <a name="install-and-test-skype-for-business-for-ios"></a>Installation et test de Skype Entreprise pour iOS
  

@@ -1,7 +1,7 @@
 ---
 title: Optimiser les retours d’expérience et les comptes-rendus pour votre adoption de Microsoft Teams
-author: karuanag
-ms.author: karuanag
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 692c7b8feaad0289177d144b697068ed4ad6dcd0
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 02c7958e37f93d254e6f10c09bccc225e8141978
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32227551"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33930387"
 ---
 # <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>Optimiser les retours d’expérience et les comptes-rendus pour votre adoption de Microsoft Teams
 

@@ -1,20 +1,20 @@
 ---
 title: Test de droits d’administrateur topologie dans Skype pour Business Server
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Comment tester les droits de topologie dans Skype pour Business Server
-ms.openlocfilehash: ad65d42a49d7b85c324766e208e44d6b5e1b632f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 239c35eba451166f4e9fb5755535cf15999cdaea
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32214869"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33910367"
 ---
 # <a name="testing-admin-topology-rights-in-skype-for-business-server"></a>Test de droits d’administrateur topologie dans Skype pour Business Server
 
