@@ -1,8 +1,8 @@
 ---
 title: SQL Server Reporting Services (Appel)
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 12/20/2018
 ms.audience: ITPro
@@ -13,22 +13,22 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4a4ba8d6-ba43-45b3-b834-372d092561e7
 description: Après avoir fourni les informations requises pour le déploiement du serveur de surveillance indique le Microsoft SQL Server 2008 R2, ou pour les Services de rapport Microsoft SQL Server 2012, la page exécuter des commandes affiche un résumé des commandes sont émises pour installer le rapports SQL Server Reporting Services.
-ms.openlocfilehash: f1cc4ee2f2a53ea8e6d3ba1f1fcd24c59c915990
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: bb73c456e062a4fc6e3c045db907e6e889d958d9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32234901"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33925101"
 ---
-# <a name="sql-server-reporting-services-invoke"></a><span data-ttu-id="ba1e9-103">SQL Server Reporting Services (Appel)</span><span class="sxs-lookup"><span data-stu-id="ba1e9-103">SQL Server Reporting Services (Invoke)</span></span>
+# <a name="sql-server-reporting-services-invoke"></a><span data-ttu-id="7b455-103">SQL Server Reporting Services (Appel)</span><span class="sxs-lookup"><span data-stu-id="7b455-103">SQL Server Reporting Services (Invoke)</span></span>
  
-<span data-ttu-id="ba1e9-104">Après avoir fourni les informations requises pour le déploiement du serveur de surveillance indique le Microsoft SQL Server 2008 R2, ou pour les Services de rapport Microsoft SQL Server 2012, la page exécuter des commandes affiche un résumé des commandes sont émises pour installer le rapports SQL Server Reporting Services.</span><span class="sxs-lookup"><span data-stu-id="ba1e9-104">After supplying the required information for the deployment of the Monitoring Server reports to the Microsoft SQL Server 2008 R2, or to Microsoft SQL Server 2012 Report Services, the page Execute Commands displays a summary of commands that are issued to install the reports to the SQL Server Reporting Services.</span></span>
+<span data-ttu-id="7b455-104">Après avoir fourni les informations requises pour le déploiement du serveur de surveillance indique le Microsoft SQL Server 2008 R2, ou pour les Services de rapport Microsoft SQL Server 2012, la page exécuter des commandes affiche un résumé des commandes sont émises pour installer le rapports SQL Server Reporting Services.</span><span class="sxs-lookup"><span data-stu-id="7b455-104">After supplying the required information for the deployment of the Monitoring Server reports to the Microsoft SQL Server 2008 R2, or to Microsoft SQL Server 2012 Report Services, the page Execute Commands displays a summary of commands that are issued to install the reports to the SQL Server Reporting Services.</span></span>
   
-<span data-ttu-id="ba1e9-p101">Passez en revue le résumé des commandes et notez les messages d’erreur ou d’avertissement affichés à partir des commandes. Si un fichier journal est généré, sélectionnez-le dans la liste déroulante sous la fenêtre du résumé, puis cliquez sur **Afficher le journal** pour afficher le fichier journal.</span><span class="sxs-lookup"><span data-stu-id="ba1e9-p101">Review the summary of commands and note any error or warning messages displayed from the commands. If a log file is generated, select the log file from the drop-down list under the summary window, and click **View Log** to display the log file.</span></span>
+<span data-ttu-id="7b455-p101">Passez en revue le résumé des commandes et notez les messages d’erreur ou d’avertissement affichés à partir des commandes. Si un fichier journal est généré, sélectionnez-le dans la liste déroulante sous la fenêtre du résumé, puis cliquez sur **Afficher le journal** pour afficher le fichier journal.</span><span class="sxs-lookup"><span data-stu-id="7b455-p101">Review the summary of commands and note any error or warning messages displayed from the commands. If a log file is generated, select the log file from the drop-down list under the summary window, and click **View Log** to display the log file.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="ba1e9-107">Pour les rapports Reporting Services pour déployer avec succès et pour accéder aux rapports après le déploiement est terminé, vous devez avoir TCP/IP d’ouvrir le port 80 (et le cas échéant, le port TCP 443 pour SSL, si vous assignez un certificat à Reporting Services) dans le pare-feu Windows avec fonctions avancées de sécurité sur le serveur SQL.</span><span class="sxs-lookup"><span data-stu-id="ba1e9-107">For the Reporting Services reports to deploy successfully, and to access the reports after deployment is complete, you must have TCP/IP port 80 (and optionally, TCP port 443 for SSL, if you assign a certificate to the Reporting Services) open in the Windows Firewall with Advanced Security on the SQL Server.</span></span> <span data-ttu-id="ba1e9-108">Pour plus d’informations, voir [configurer le pare-feu Windows pour autoriser l’accès à SQL Server](https://go.microsoft.com/fwlink/p/?linkId=218031) pour Microsoft SQL Server 2008 R2.</span><span class="sxs-lookup"><span data-stu-id="ba1e9-108">For details, see [Configure the Windows Firewall to Allow SQL Server Access](https://go.microsoft.com/fwlink/p/?linkId=218031) for Microsoft SQL Server 2008 R2.</span></span>
+> <span data-ttu-id="7b455-107">Pour les rapports Reporting Services pour déployer avec succès et pour accéder aux rapports après le déploiement est terminé, vous devez avoir TCP/IP d’ouvrir le port 80 (et le cas échéant, le port TCP 443 pour SSL, si vous assignez un certificat à Reporting Services) dans le pare-feu Windows avec fonctions avancées de sécurité sur le serveur SQL.</span><span class="sxs-lookup"><span data-stu-id="7b455-107">For the Reporting Services reports to deploy successfully, and to access the reports after deployment is complete, you must have TCP/IP port 80 (and optionally, TCP port 443 for SSL, if you assign a certificate to the Reporting Services) open in the Windows Firewall with Advanced Security on the SQL Server.</span></span> <span data-ttu-id="7b455-108">Pour plus d’informations, voir [configurer le pare-feu Windows pour autoriser l’accès à SQL Server](https://go.microsoft.com/fwlink/p/?linkId=218031) pour Microsoft SQL Server 2008 R2.</span><span class="sxs-lookup"><span data-stu-id="7b455-108">For details, see [Configure the Windows Firewall to Allow SQL Server Access](https://go.microsoft.com/fwlink/p/?linkId=218031) for Microsoft SQL Server 2008 R2.</span></span>
   
-<span data-ttu-id="ba1e9-109">Après avoir passé en revue le résumé, cliquez sur **Terminer** pour terminer l’installation des rapports dans SQL Server Reporting Services.</span><span class="sxs-lookup"><span data-stu-id="ba1e9-109">After reviewing the summary, click **Finish** to complete the installation of the reports to the SQL Server Reporting Services.</span></span>
+<span data-ttu-id="7b455-109">Après avoir passé en revue le résumé, cliquez sur **Terminer** pour terminer l’installation des rapports dans SQL Server Reporting Services.</span><span class="sxs-lookup"><span data-stu-id="7b455-109">After reviewing the summary, click **Finish** to complete the installation of the reports to the SQL Server Reporting Services.</span></span>
   
 

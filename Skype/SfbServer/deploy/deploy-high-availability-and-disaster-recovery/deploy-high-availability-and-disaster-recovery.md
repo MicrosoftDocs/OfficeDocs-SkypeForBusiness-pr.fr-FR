@@ -1,41 +1,42 @@
 ---
 title: Déployer la haute disponibilité et la récupération d’urgence
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
+manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 21007bad-62ce-4553-98e0-02aaa1345781
 description: Skype pour Business Server offre une haute disponibilité avec le pool, la récupération d’urgence de jumelage des pools et plusieurs modes de haute disponibilité du serveur principal, y compris les groupes de disponibilité AlwaysOn, la mise en miroir de base de données et le clustering de basculement SQL de serveur.
-ms.openlocfilehash: bbd3c4092962e757a7565f1da054c82438a79ded
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 96e1f0614aac72197f0b34b8432b65d2c859c4ed
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32225496"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33894590"
 ---
-# <a name="deploy-high-availability-and-disaster-recovery"></a><span data-ttu-id="ff5fe-103">Déployer la haute disponibilité et la récupération d’urgence</span><span class="sxs-lookup"><span data-stu-id="ff5fe-103">Deploy high availability and disaster recovery</span></span>
+# <a name="deploy-high-availability-and-disaster-recovery"></a><span data-ttu-id="f8969-103">Déployer la haute disponibilité et la récupération d’urgence</span><span class="sxs-lookup"><span data-stu-id="f8969-103">Deploy high availability and disaster recovery</span></span>
  
-<span data-ttu-id="ff5fe-104">Skype pour Business Server offre une haute disponibilité avec le pool, la récupération d’urgence de jumelage des pools et plusieurs modes de haute disponibilité du serveur principal, y compris les groupes de disponibilité AlwaysOn, la mise en miroir de base de données et le clustering de basculement SQL de serveur.</span><span class="sxs-lookup"><span data-stu-id="ff5fe-104">Skype for Business Server offers high availability with server pooling, disaster recovery with pool pairing, and several modes of Back End Server high availability, including AlwaysOn Availability groups, database mirroring, and SQL failover clustering.</span></span> 
+<span data-ttu-id="f8969-104">Skype pour Business Server offre une haute disponibilité avec le pool, la récupération d’urgence de jumelage des pools et plusieurs modes de haute disponibilité du serveur principal, y compris les groupes de disponibilité AlwaysOn, la mise en miroir de base de données et le clustering de basculement SQL de serveur.</span><span class="sxs-lookup"><span data-stu-id="f8969-104">Skype for Business Server offers high availability with server pooling, disaster recovery with pool pairing, and several modes of Back End Server high availability, including AlwaysOn Availability groups, database mirroring, and SQL failover clustering.</span></span> 
   
-<span data-ttu-id="ff5fe-105">Haute disponibilité fait référence à s’assurer que Skype pour les services Business Server sont disponibles, même si un ou plusieurs serveurs tombe en panne. Récupération d’urgence fait référence à des services de conservation accédant en cas d’incident physique ou a provoqué l’homme et conserver autant de données à partir d’avant la reprise après sinistre que possible.</span><span class="sxs-lookup"><span data-stu-id="ff5fe-105">High availability refers to making sure that Skype for Business Server services are available even if one or more servers goes down.Disaster recovery refers to keeping services going in the event of a natural or human-caused disaster, and preserving as much data from before the disaster as possible.</span></span>
+<span data-ttu-id="f8969-105">Haute disponibilité fait référence à s’assurer que Skype pour les services Business Server sont disponibles, même si un ou plusieurs serveurs tombe en panne. Récupération d’urgence fait référence à des services de conservation accédant en cas d’incident physique ou a provoqué l’homme et conserver autant de données à partir d’avant la reprise après sinistre que possible.</span><span class="sxs-lookup"><span data-stu-id="f8969-105">High availability refers to making sure that Skype for Business Server services are available even if one or more servers goes down.Disaster recovery refers to keeping services going in the event of a natural or human-caused disaster, and preserving as much data from before the disaster as possible.</span></span>
   
-<span data-ttu-id="ff5fe-106">Cette section indique comment déployer ces fonctionnalités et aborde également les mesures que vous pouvez prendre dans le cadre de la haute disponibilité et de la récupération d’urgence pour certains autres rôles serveur.</span><span class="sxs-lookup"><span data-stu-id="ff5fe-106">This section tells how to deploy these features, and also covers what steps you can take for high availability and disaster recovery for some of your other server roles.</span></span>
+<span data-ttu-id="f8969-106">Cette section indique comment déployer ces fonctionnalités et aborde également les mesures que vous pouvez prendre dans le cadre de la haute disponibilité et de la récupération d’urgence pour certains autres rôles serveur.</span><span class="sxs-lookup"><span data-stu-id="f8969-106">This section tells how to deploy these features, and also covers what steps you can take for high availability and disaster recovery for some of your other server roles.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="ff5fe-107">La mise en miroir SQL est disponible dans Skype pour Business Server 2015 mais n’est plus pris en charge dans Skype pour Business Server 2019.</span><span class="sxs-lookup"><span data-stu-id="ff5fe-107">SQL Mirroring is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="ff5fe-108">Les méthodes de clustering avec basculement SQL, les Instances de Cluster de basculement AlwaysOn (FCI) et les groupes de disponibilité AlwaysOn sont préférés avec Skype pour Business Server 2019.</span><span class="sxs-lookup"><span data-stu-id="ff5fe-108">The  AlwaysOn Availability Groups, AlwaysOn Failover Cluster Instances (FCI), and SQL failover clustering methods are preferred with Skype for Business Server 2019.</span></span>
+> <span data-ttu-id="f8969-107">La mise en miroir SQL est disponible dans Skype pour Business Server 2015 mais n’est plus pris en charge dans Skype pour Business Server 2019.</span><span class="sxs-lookup"><span data-stu-id="f8969-107">SQL Mirroring is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="f8969-108">Les méthodes de clustering avec basculement SQL, les Instances de Cluster de basculement AlwaysOn (FCI) et les groupes de disponibilité AlwaysOn sont préférés avec Skype pour Business Server 2019.</span><span class="sxs-lookup"><span data-stu-id="f8969-108">The  AlwaysOn Availability Groups, AlwaysOn Failover Cluster Instances (FCI), and SQL failover clustering methods are preferred with Skype for Business Server 2019.</span></span>
   
-## <a name="related-sections"></a><span data-ttu-id="ff5fe-109">Sections connexes</span><span class="sxs-lookup"><span data-stu-id="ff5fe-109">Related sections</span></span>
+## <a name="related-sections"></a><span data-ttu-id="f8969-109">Sections connexes</span><span class="sxs-lookup"><span data-stu-id="f8969-109">Related sections</span></span>
 
-[<span data-ttu-id="ff5fe-110">Planification de la haute disponibilité et récupération d’urgence dans Skype Business Server</span><span class="sxs-lookup"><span data-stu-id="ff5fe-110">Plan for high availability and disaster recovery in Skype for Business Server</span></span>](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)
+[<span data-ttu-id="f8969-110">Planification de la haute disponibilité et récupération d’urgence dans Skype Business Server</span><span class="sxs-lookup"><span data-stu-id="f8969-110">Plan for high availability and disaster recovery in Skype for Business Server</span></span>](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)
   
-## <a name="see-also"></a><span data-ttu-id="ff5fe-111">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="ff5fe-111">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f8969-111">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="f8969-111">See also</span></span>
 
-[<span data-ttu-id="ff5fe-112">Déployer un groupe de disponibilité AlwaysOn sur un serveur principal dans Skype pour Business Server</span><span class="sxs-lookup"><span data-stu-id="ff5fe-112">Deploy an AlwaysOn Availability Group on a Back End Server in Skype for Business Server</span></span>](alwayson-availability-group.md)
+[<span data-ttu-id="f8969-112">Déployer un groupe de disponibilité AlwaysOn sur un serveur principal dans Skype pour Business Server</span><span class="sxs-lookup"><span data-stu-id="f8969-112">Deploy an AlwaysOn Availability Group on a Back End Server in Skype for Business Server</span></span>](alwayson-availability-group.md)
 
-[<span data-ttu-id="ff5fe-113">Déployer les pools frontaux couplés pour la récupération d’urgence dans Skype pour Business Server</span><span class="sxs-lookup"><span data-stu-id="ff5fe-113">Deploy paired Front End pools for disaster recovery in Skype for Business Server</span></span>](front-end-pools-for-disaster-recovery.md)
+[<span data-ttu-id="f8969-113">Déployer les pools frontaux couplés pour la récupération d’urgence dans Skype pour Business Server</span><span class="sxs-lookup"><span data-stu-id="f8969-113">Deploy paired Front End pools for disaster recovery in Skype for Business Server</span></span>](front-end-pools-for-disaster-recovery.md)
   
-[<span data-ttu-id="ff5fe-114">Déployer la mise en miroir SQL pour la haute disponibilité des serveurs principaux dans Skype Entreprise Server 2015</span><span class="sxs-lookup"><span data-stu-id="ff5fe-114">Deploy SQL mirroring for Back End Server high availability in Skype for Business Server 2015</span></span>](sql-mirroring-for-high-availability.md)
+[<span data-ttu-id="f8969-114">Déployer la mise en miroir SQL pour la haute disponibilité des serveurs principaux dans Skype Entreprise Server 2015</span><span class="sxs-lookup"><span data-stu-id="f8969-114">Deploy SQL mirroring for Back End Server high availability in Skype for Business Server 2015</span></span>](sql-mirroring-for-high-availability.md)
   
