@@ -1,7 +1,7 @@
 ---
 title: Lancement de modèles de courrier d’adoption utilisateur pour Microsoft Teams ou Skype Entreprise
-author: dearbeen
-ms.author: Rowille
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 03/31/2018
 ms.topic: article
@@ -15,28 +15,28 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 891b8e87e5e907adf2d669a8c15a5f566f6ff6a3
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 85a4dbbbfa49642000c3badc6faaa15f18887d8f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33401435"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33898659"
 ---
-# <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a><span data-ttu-id="21e8b-103">Faciliter l’adoption par les utilisateurs de votre nouveau système de téléphone en ligne</span><span class="sxs-lookup"><span data-stu-id="21e8b-103">Facilitate user adoption of your new online phone system</span></span>
+# <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a><span data-ttu-id="75e8d-103">Faciliter l’adoption par les utilisateurs de votre nouveau système de téléphone en ligne</span><span class="sxs-lookup"><span data-stu-id="75e8d-103">Facilitate user adoption of your new online phone system</span></span>
 
-<span data-ttu-id="21e8b-104">Un téléphone peut être la ligne de vie d’un utilisateur.</span><span class="sxs-lookup"><span data-stu-id="21e8b-104">A phone can be a user’s lifeline.</span></span> <span data-ttu-id="21e8b-105">Passage d’un système téléphonique traditionnel à un téléphone en ligne système représente une importante modifier dans la façon dont les utilisateurs travaillent, peuvent affecter négativement la productivité.</span><span class="sxs-lookup"><span data-stu-id="21e8b-105">Switching from a traditional phone system to an online phone system represents a significant change in the way users work, and can negatively affect productivity.</span></span> <span data-ttu-id="21e8b-106">Prise de temps pour les informer, guide et prise en charge des utilisateurs par le biais de cette modification peuvent aider à garantir une expérience utilisateur positive et optimiser le retour sur investissement.</span><span class="sxs-lookup"><span data-stu-id="21e8b-106">Taking time to inform, guide, and support users through this change can help ensure a positive user experience and maximize your return on investment.</span></span>
+<span data-ttu-id="75e8d-104">Un téléphone peut être la ligne de vie d’un utilisateur.</span><span class="sxs-lookup"><span data-stu-id="75e8d-104">A phone can be a user’s lifeline.</span></span> <span data-ttu-id="75e8d-105">Passage d’un système téléphonique traditionnel à un téléphone en ligne système représente une importante modifier dans la façon dont les utilisateurs travaillent, peuvent affecter négativement la productivité.</span><span class="sxs-lookup"><span data-stu-id="75e8d-105">Switching from a traditional phone system to an online phone system represents a significant change in the way users work, and can negatively affect productivity.</span></span> <span data-ttu-id="75e8d-106">Prise de temps pour les informer, guide et prise en charge des utilisateurs par le biais de cette modification peuvent aider à garantir une expérience utilisateur positive et optimiser le retour sur investissement.</span><span class="sxs-lookup"><span data-stu-id="75e8d-106">Taking time to inform, guide, and support users through this change can help ensure a positive user experience and maximize your return on investment.</span></span>
 
-<span data-ttu-id="21e8b-107">Cet article contient les modèles de courrier électronique personnalisable pour vous aider à informer les utilisateurs sur leur nouveau système téléphonique.</span><span class="sxs-lookup"><span data-stu-id="21e8b-107">This article contains customizable email templates to help inform users about their new phone system.</span></span> <span data-ttu-id="21e8b-108">Personnaliser et envoyer les e-mails appropriés pour aligner avec votre déploiement de voix spécifique.</span><span class="sxs-lookup"><span data-stu-id="21e8b-108">Customize and send the appropriate emails to align with your specific voice deployment.</span></span> <span data-ttu-id="21e8b-109">Nous avons utilisé entre parenthèses pour indiquer les sections pour la personnalisation facile, mais il est recommandé que vous ajoutez pour rendre l’annonce plus pertinents pour les utilisateurs de messagerie spécifiques à l’organisation.</span><span class="sxs-lookup"><span data-stu-id="21e8b-109">We’ve used brackets to indicate sections for easy personalization, but we recommend that you add organization-specific messaging to make the announcement most relevant for your users.</span></span> <span data-ttu-id="21e8b-110">Le cas échéant pour votre déploiement, remplacez toutes les références à « Équipes » par « Skype pour les entreprises. »</span><span class="sxs-lookup"><span data-stu-id="21e8b-110">If applicable for your deployment, replace all references to “Teams” with “Skype for Business.”</span></span>
+<span data-ttu-id="75e8d-107">Cet article contient les modèles de courrier électronique personnalisable pour vous aider à informer les utilisateurs sur leur nouveau système téléphonique.</span><span class="sxs-lookup"><span data-stu-id="75e8d-107">This article contains customizable email templates to help inform users about their new phone system.</span></span> <span data-ttu-id="75e8d-108">Personnaliser et envoyer les e-mails appropriés pour aligner avec votre déploiement de voix spécifique.</span><span class="sxs-lookup"><span data-stu-id="75e8d-108">Customize and send the appropriate emails to align with your specific voice deployment.</span></span> <span data-ttu-id="75e8d-109">Nous avons utilisé entre parenthèses pour indiquer les sections pour la personnalisation facile, mais il est recommandé que vous ajoutez pour rendre l’annonce plus pertinents pour les utilisateurs de messagerie spécifiques à l’organisation.</span><span class="sxs-lookup"><span data-stu-id="75e8d-109">We’ve used brackets to indicate sections for easy personalization, but we recommend that you add organization-specific messaging to make the announcement most relevant for your users.</span></span> <span data-ttu-id="75e8d-110">Le cas échéant pour votre déploiement, remplacez toutes les références à « Équipes » par « Skype pour les entreprises. »</span><span class="sxs-lookup"><span data-stu-id="75e8d-110">If applicable for your deployment, replace all references to “Teams” with “Skype for Business.”</span></span>
 
-## <a name="email-number-1-send-three-weeks-before-launch"></a><span data-ttu-id="21e8b-111">Courrier électronique n ° 1 : envoyer trois semaines avant le lancement</span><span class="sxs-lookup"><span data-stu-id="21e8b-111">Email number 1: Send three weeks before launch</span></span>
+## <a name="email-number-1-send-three-weeks-before-launch"></a><span data-ttu-id="75e8d-111">Courrier électronique n ° 1 : envoyer trois semaines avant le lancement</span><span class="sxs-lookup"><span data-stu-id="75e8d-111">Email number 1: Send three weeks before launch</span></span>
 
-<span data-ttu-id="21e8b-112">Ligne d’objet :</span><span class="sxs-lookup"><span data-stu-id="21e8b-112">Subject line:</span></span>
+<span data-ttu-id="75e8d-112">Ligne d’objet :</span><span class="sxs-lookup"><span data-stu-id="75e8d-112">Subject line:</span></span>
 
 ```
 IMPORTANT ANNOUNCEMENT about your office desk phone
 ```
 
-<span data-ttu-id="21e8b-113">Corps du message :</span><span class="sxs-lookup"><span data-stu-id="21e8b-113">Body of email:</span></span>
+<span data-ttu-id="75e8d-113">Corps du message :</span><span class="sxs-lookup"><span data-stu-id="75e8d-113">Body of email:</span></span>
 
 ```
 Instant messaging and online meetings have become a common way to communicate
@@ -93,15 +93,15 @@ If you have questions concerning this change, contact <INSERT NAME/EMAIL>.
 <INSERT NAME OF EXECUTIVE SPONSOR>
 ```
 
-## <a name="email-number-2-send-one-week-before-launch"></a><span data-ttu-id="21e8b-114">Courrier électronique n ° 2 : envoyer une semaine avant le lancement</span><span class="sxs-lookup"><span data-stu-id="21e8b-114">Email number 2: Send one week before launch</span></span>
+## <a name="email-number-2-send-one-week-before-launch"></a><span data-ttu-id="75e8d-114">Courrier électronique n ° 2 : envoyer une semaine avant le lancement</span><span class="sxs-lookup"><span data-stu-id="75e8d-114">Email number 2: Send one week before launch</span></span>
 
-<span data-ttu-id="21e8b-115">Ligne d’objet :</span><span class="sxs-lookup"><span data-stu-id="21e8b-115">Subject line:</span></span>
+<span data-ttu-id="75e8d-115">Ligne d’objet :</span><span class="sxs-lookup"><span data-stu-id="75e8d-115">Subject line:</span></span>
 
 ```
 ACTION REQUESTED: Are you ready for your new phone system?
 ```
 
-<span data-ttu-id="21e8b-116">Corps du message :</span><span class="sxs-lookup"><span data-stu-id="21e8b-116">Body of email:</span></span>
+<span data-ttu-id="75e8d-116">Corps du message :</span><span class="sxs-lookup"><span data-stu-id="75e8d-116">Body of email:</span></span>
 
 ```
 Your new phone calling capabilities are almost here. As explained in our initial
@@ -137,15 +137,15 @@ Regards,
 <INSERT NAME OF DEPARTMENT MANAGER>
 ```
 
-## <a name="email-number-3-send-on-launch-day"></a><span data-ttu-id="21e8b-117">Courrier électronique n ° 3 : envoyer le jour de la barre de lancement</span><span class="sxs-lookup"><span data-stu-id="21e8b-117">Email number 3: Send on launch day</span></span>
+## <a name="email-number-3-send-on-launch-day"></a><span data-ttu-id="75e8d-117">Courrier électronique n ° 3 : envoyer le jour de la barre de lancement</span><span class="sxs-lookup"><span data-stu-id="75e8d-117">Email number 3: Send on launch day</span></span>
 
-<span data-ttu-id="21e8b-118">Ligne d’objet :</span><span class="sxs-lookup"><span data-stu-id="21e8b-118">Subject line:</span></span>
+<span data-ttu-id="75e8d-118">Ligne d’objet :</span><span class="sxs-lookup"><span data-stu-id="75e8d-118">Subject line:</span></span>
 
 ```
 IMPORTANT NOTICE: Your new phone system is live
 ```
 
-<span data-ttu-id="21e8b-119">Corps du message :</span><span class="sxs-lookup"><span data-stu-id="21e8b-119">Body of email:</span></span>
+<span data-ttu-id="75e8d-119">Corps du message :</span><span class="sxs-lookup"><span data-stu-id="75e8d-119">Body of email:</span></span>
 
 ```
 Welcome to your new phone system. Your Microsoft Teams application
@@ -174,15 +174,15 @@ Regards,
 <INSERT NAME OF DEPARTMENT MANAGER OR EXECUTIVE SPONSOR>
 ```
 
-## <a name="email-number-4-send-two-weeks-after-launch"></a><span data-ttu-id="21e8b-120">Courrier électronique n ° 4 : envoyer deux semaines après le lancement</span><span class="sxs-lookup"><span data-stu-id="21e8b-120">Email number 4: Send two weeks after launch</span></span>
+## <a name="email-number-4-send-two-weeks-after-launch"></a><span data-ttu-id="75e8d-120">Courrier électronique n ° 4 : envoyer deux semaines après le lancement</span><span class="sxs-lookup"><span data-stu-id="75e8d-120">Email number 4: Send two weeks after launch</span></span>
 
-<span data-ttu-id="21e8b-121">Ligne d’objet :</span><span class="sxs-lookup"><span data-stu-id="21e8b-121">Subject line:</span></span>
+<span data-ttu-id="75e8d-121">Ligne d’objet :</span><span class="sxs-lookup"><span data-stu-id="75e8d-121">Subject line:</span></span>
 
 ```
 FEEDBACK REQUESTED: Your new phone system
 ```
 
-<span data-ttu-id="21e8b-122">Corps du message :</span><span class="sxs-lookup"><span data-stu-id="21e8b-122">Body of email:</span></span>
+<span data-ttu-id="75e8d-122">Corps du message :</span><span class="sxs-lookup"><span data-stu-id="75e8d-122">Body of email:</span></span>
 
 ```
 It's been a few weeks since you started using Microsoft Teams to
