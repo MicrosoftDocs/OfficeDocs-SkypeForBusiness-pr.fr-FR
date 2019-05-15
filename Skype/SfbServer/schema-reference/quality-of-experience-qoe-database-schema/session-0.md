@@ -1,8 +1,8 @@
 ---
 title: Affichage de la session
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 10/20/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49e33f5b-45d0-4146-a5a4-76954d895a98
 description: L’affichage de la Session stocke des informations sur les sessions disposant d’enregistrements dans la base de données. Cet affichage a été introduit dans Microsoft Lync Server 2013.
-ms.openlocfilehash: c72773b4ff87786ab5b4e73b67e89032dc393fa1
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e30bdb31457e9e70984b66bef75c898cadd9aeb1
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212101"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33919997"
 ---
 # <a name="session-view"></a>Affichage de la session
  

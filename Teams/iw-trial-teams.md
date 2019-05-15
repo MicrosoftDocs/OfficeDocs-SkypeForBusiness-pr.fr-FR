@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 04/23/2019
 ms.topic: reference
 audience: Admin
-ms.reviewer: marubins
+ms.reviewer: annikaelias
 ms.service: msteams
 search.appverid: MET150
 localization_priority: Priority
@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: baad7614cbcb622017de7629fa62799be330dc88
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 654db34de9160c0e858fd8972d00487291fd1653
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33402514"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33921251"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Gérer l’offre d’essai du cloud commercial Microsoft Teams
 =======================================================
@@ -52,7 +52,7 @@ La période d’essai accorde un abonnement d’essai d’un an à l’ensemble 
 
 ## <a name="who-is-eligible"></a>Qui est éligible
 
-Les utilisateurs doivent être autorisés à s’inscrire aux applications et aux essais (dans le Centre d’administration Office 365). Pour plus d’informations, voir [Gérer l’essai](#manage-the-trial) plus loin dans cet article. 
+Les utilisateurs doivent être autorisés à s’inscrire aux applications et aux essais (dans le Centre d’administration Microsoft 365). Pour plus d’informations, voir [Gérer l’essai](#manage-the-trial) plus loin dans cet article. 
 
 Les utilisateurs qui n’ont pas de licence Office 365 incluant Teams peuvent bénéficier de l’offre d’essai du cloud commercial Microsoft Teams. Par exemple, un utilisateur disposant d’une licence Office 365 Entreprise (n’incluant pas Teams) est éligible à l’essai.
 

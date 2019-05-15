@@ -1,8 +1,8 @@
 ---
 title: Nœud d’étendue d’un Branch Office Appliance
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/26/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8632ddaa-9572-4129-9db4-de0f13438d43
 description: 'Ce nœud affiche le nom de domaine complet (FQDN), associé à pools et des serveurs et des informations de résistance sur ce Survivable Branch Appliance. Vous pouvez effectuer les actions suivantes :'
-ms.openlocfilehash: 71063adcf5e7a69210e0576851539e960c70a639
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 580a0f941743f0f98a250396884d3935b310718f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226868"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33912374"
 ---
 # <a name="branch-office-appliance-scope-node"></a>Nœud d’étendue d’un Branch Office Appliance
  

@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e53ed44f4377d90ae0d43b8c8971f651d940b839
-ms.sourcegitcommit: ee3f79ce1b6da0885e1096f9fba894bcff1814da
+ms.openlocfilehash: 0447e006bfb276858d2fcdf02524bb1d2f0f1227
+ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/25/2019
-ms.locfileid: "33298476"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33865179"
 ---
 # <a name="monitor-usage-and-feedback-in-microsoft-teams"></a>Surveiller l’utilisation et les commentaires dans Microsoft Teams
 Il est important de savoir comment les utilisateurs utilisent Teams et quelle est leur expérience avec Teams. Les rapports d’utilisation peuvent vous aider à mieux comprendre les modèles d’utilisation et, avec les commentaires des utilisateurs, vous donne la perspective nécessaire pour procéder au déploiement à plus large échelle et savoir où hiérarchiser les efforts de formation et de communication.
@@ -51,10 +51,10 @@ Pour afficher ces rapports, vous devez être un administrateur général dans Of
 
 Pour en savoir plus, consultez l’article [Rapports analytiques et création de rapports](teams-analytics-and-reports/teams-reporting-reference.md). 
 
-### <a name="teams-activity-reports-office-365-admin-center"></a>Rapports d’activité des équipes (centre d’administration Office 365)
-Vous pouvez également consulter l’activité des équipes avec des rapports qui sont disponibles à partir du centre d’administration Office 365. Ces rapports font partie des rapports Office 365 dans le centre d’administration Office 365 et fournissent des informations sur l’activité des utilisateurs et l’utilisation des périphériques. 
+### <a name="teams-activity-reports-microsoft-365-admin-center"></a>Rapports d’activité Teams (centre d’administration Microsoft 365)
+Vous pouvez également consulter l’activité des équipes avec des rapports qui sont disponibles dans le centre d’administration Microsoft 365. Ces rapports font partie des rapports Office 365 dans le centre d’administration Microsoft 365 et fournissent des informations sur l’activité des utilisateurs et l’utilisation des périphériques. 
 
-Pour afficher ces rapports, accédez au centre d’administration Office 365, cliquez sur **Rapports** > **Utilisation**. Sous **Sélectionner un rapport**, cliquez sur **Microsoft Teams**. À partir de là, sélectionnez le rapport que vous voulez afficher.
+Pour afficher ces rapports, accédez au centre d’administration Microsoft 365, cliquez sur **Rapports** > **Utilisation**. Sous **Sélectionner un rapport**, cliquez sur **Microsoft Teams**. À partir de là, sélectionnez le rapport que vous voulez afficher.
 
 Pour plus d’informations, voir [Utiliser des rapports d’activité pour Teams](teams-activity-reports.md).
 

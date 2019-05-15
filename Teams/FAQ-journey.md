@@ -1,7 +1,7 @@
 ---
 title: FAQ sur Microsoft Teams | Réunions, Conférence, fonctionnalités d’appel
-author: dearbeen
-ms.author: dearbeen
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 069c7f067ee1d408ad92cb980d81b807bce0d880
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 278e6359c77859a1fc34f9842b78e2b84222191f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32180587"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33885097"
 ---
 # <a name="faq---upgrading-from-skype-for-business-to-microsoft-teams"></a>FAQ - Mise à niveau de Skype Entreprise vers Microsoft Teams
 
@@ -202,7 +202,7 @@ La version V1 des systèmes Skype Room (précédemment appelés systèmes Lync
 
 ### <a name="whats-planned-for-new-management-experiences"></a>Qu’est-il prévu pour les nouvelles expériences de gestion ?
 
-Microsoft a lancé le [Centre d’administration de Microsoft Teams](https://admin.teams.microsoft.com/) pour les informaticiens au sein du Centre d'administration Office 365. Tout comme la Console d'administration Skype Entreprise, ce nouveau portail constituera un emplacement unique pour gérer nos nouvelles expériences. La version initiale du portail, prévue pour le premier trimestre de 2018, est conçue pour prendre en charge l'administration par le biais d'un modèle de stratégie adapté aux entreprises pour les utilisateurs de Teams uniquement, et remplacera l'interface d'administration actuelle de Teams. Grâce à ce portail, nous pourrons créer des stratégies de présence personnalisée, de conversation, d'application, de réunion et vocale et les affecter aux utilisateurs de Teams.
+Microsoft a créé le [centre d’administration Microsoft Teams](https://admin.teams.microsoft.com/) pour les professionnels de l’informatique et l’a intégré au centre d'administration Microsoft 365. Tout comme la Console d'administration Skype Entreprise, ce nouveau portail constituera un emplacement unique pour gérer nos nouvelles expériences. La version initiale du portail, prévue pour le premier trimestre de 2018, est conçue pour prendre en charge l'administration par le biais d'un modèle de stratégie adapté aux entreprises pour les utilisateurs de Teams uniquement, et remplacera l'interface d'administration actuelle de Teams. Grâce à ce portail, nous pourrons créer des stratégies de présence personnalisée, de conversation, d'application, de réunion et vocale et les affecter aux utilisateurs de Teams.
 
 ## <a name="device-compatibility"></a>Compatibilité des périphériques
 

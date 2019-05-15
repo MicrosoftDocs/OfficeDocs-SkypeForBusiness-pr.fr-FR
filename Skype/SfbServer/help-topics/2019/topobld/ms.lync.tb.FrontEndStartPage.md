@@ -1,8 +1,8 @@
 ---
 title: Page de création du pool frontal
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 3f6e69ed-4add-4dc8-acb8-dfe050819f5a
 ROBOTS: NOINDEX, NOFOLLOW
 description: Utilisez cet Assistant pour définir un nouveau pool frontal pour un site. Chaque site doit avoir au moins un pool Enterprise Edition ou Standard Edition server. Pour plus d’informations sur la configuration requise pour l’utilisation de l’Assistant pour créer un nouveau pool frontal, voir Define and Configure a Front End Pool dans la documentation de déploiement.
-ms.openlocfilehash: a2dc972898a970f63468a8402148b1fa4c021c04
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 2e56d1495a809f804f16ce1b679c3964e664c436
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32220451"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33919864"
 ---
 # <a name="front-end-start-page"></a>Page de création du pool frontal
 

@@ -1,8 +1,8 @@
 ---
 title: Vue MediaLine
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/9/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 132eca13-8913-4218-9eff-4960ced8c3dc
 description: La vue MediaLine stocke des informations sur chaque ligne de média dans la base de données. Une session audio contient généralement une seule ligne de média audio. Un audio et vidéo (A / V) session contient généralement un média audio et une ligne de média vidéo ; Toutefois, la session peut contenir deux lignes de média vidéo si un périphérique de conférence est utilisé ou si le mode d’affichage galerie est utilisé. Cet affichage a été introduit dans Microsoft Lync Server 2013.
-ms.openlocfilehash: 04037bae4b2f04058667d42205a2e0b33abacb4f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 4fcfa22c17cc47c37e33d1f68bdab9815840c332
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212199"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33920137"
 ---
 # <a name="medialine-view"></a>Vue MediaLine
  

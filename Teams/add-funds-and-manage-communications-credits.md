@@ -29,12 +29,12 @@ f1keywords:
 ms.custom:
 - Licensing
 description: 'Apprenez à payer pour les crédits de Communication (consommation PSTN) Skype pour les services et voir plans pour conserver vos utilisateurs avec un accès système téléphonique continue. '
-ms.openlocfilehash: 0305e432534188f0dd8276fb29c9c764cc26bfeb
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: aceb1fab6cfffeaca174c156b1f54ffd9bcd09bb
+ms.sourcegitcommit: 2449c6dbda4a63aefe5291558cfa41ad7ccf9e39
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231805"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "33970283"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>Ajouter des fonds et gérer les Crédits de Communications
 
@@ -76,7 +76,7 @@ Vous pouvez voir les plans et les prix à partir d’un des liens suivants :
     
 - [Plans de système téléphonique](https://go.microsoft.com/fwlink/?LinkId=799763)
     
-Vous pouvez également voir des informations en [vous connectant au centre d’administration Office 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) et **facturation** > **abonnements** > **abonnements ajouter**.
+Vous pouvez également voir des informations en [vous connectant au centre d’administration Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) et **facturation** > **abonnements** > **abonnements ajouter**.
   
 Pour obtenir un tableau avec la licence ou les licences que vous aurez besoin pour chaque fonctionnalité, voir [Gestion des licences de module complémentaire équipes Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
