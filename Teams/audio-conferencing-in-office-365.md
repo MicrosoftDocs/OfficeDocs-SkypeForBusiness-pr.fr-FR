@@ -21,12 +21,12 @@ localization_priority: Normal
 f1keywords: ms.teamsadmincenter.audioconferencing.overview
 ms.custom:
 - Audio Conferencing
-ms.openlocfilehash: 24a85ab6fced284fc264db5bcc394769e4a0bfca
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 7213b3b8a8155e8b23b8f710d241af4425a8dbe4
+ms.sourcegitcommit: 2449c6dbda4a63aefe5291558cfa41ad7ccf9e39
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32198593"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "33970299"
 ---
 # <a name="audio-conferencing-in-office-365"></a>Audioconférence dans Office 365
 Services d’audioconférence dans Office 365 permet aux utilisateurs d’appel à des réunions à partir de leurs téléphones. Services d’audioconférence permet jusqu'à 250 participants téléphone.
@@ -75,7 +75,7 @@ Pour plus d’informations, voir les [numéros de téléphone pour une audioconf
 Shared téléphone de conférence audio numéros sont automatiquement affectés à des organisations lorsqu’elles sont activées pour l’audioconférence. Lorsque les numéros de téléphone sont affectés, un numéro de téléphone est affecté comme numéro de téléphone par défaut au pont de conférence Microsoft. Le numéro de téléphone affecté comme numéro par défaut du pont dépend du pays/de la région de l'organisation.
   
 > [!NOTE]
-> Vous trouverez l’emplacement pays ou région de votre organisation en vous connectant au **Centre d’administration Office 365** et en regardant sous le **Profil d’organisation**. 
+> Vous trouverez l’emplacement pays ou région de votre organisation en vous connectant au **Centre d’administration Microsoft 365** et en regardant sous le **Profil d’organisation**. 
   
 > [!CAUTION]
 > En raison de la disponibilité limitée de numéros de téléphone payant Venezuela, Indonésie et Émirats arabes unis (Émirats Arabes Unis), les organisations à partir de ces pays/régions n’auront un numéro de conférence Audio automatiquement affecté. Les numéros gratuits pour ces lieux sont disponibles en fonction d'un inventaire mis à disposition. 

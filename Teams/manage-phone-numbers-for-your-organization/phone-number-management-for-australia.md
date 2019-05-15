@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Utilisez ce tableau pour trouver des informations sur l’obtention et la gestion des numéros de téléphone en Australie pour Skype pour Business Online et Microsoft Teams.
-ms.openlocfilehash: b576aa51d3fa5d773b054b8fe8eeb44db3d2b520
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 23a1b5a3a672685d7e9cb78a5fcb69892f82ab42
+ms.sourcegitcommit: 85b135cf622c9e9eb1857ef953bc618dc2cdb51e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245536"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34036651"
 ---
 # <a name="phone-number-management-for-australia"></a>Gestion des numéros de téléphone pour l’Australie
 Nous sommes associés en Australie avec Telstra pour l’achat et la configuration des forfaits d’appels. Telstra vend des forfaits d’appel et fournit la prise en charge pour la gestion des numéros de téléphone pour les numéros d’utilisateur et de service pour les standards automatiques et les files d’attente d'appel. Toutefois, les numéros de service et des licences pour une audioconférence seront toujours être vendus et gérées par Office 365.
@@ -44,7 +44,7 @@ Pour plus d’informations, voir [Gérer les numéros de téléphone pour votre 
 |Obtenir les numéros de téléphone transférés vers Office 365 pour les utilisateurs et les standards automatiques de files d’attente de l’appel.  <br/> |Veuillez contacter [Telstra Calling pour Office 365](https://aka.ms/TelstraVoicePlan) pour transférer des numéros de téléphone. Ils ajouteront alors ces numéros à votre organisation.  <br/> |
 |Obtenir les numéros de téléphone transférés vers Office 365 pour une utilisation avec l’audioconférence.  |[Veuillez nous contacter](mailto:ptnapac@microsoft.com) |
 |Modification d’adressage d'urgence attribué à des utilisateurs qui ont un numéro de téléphone avec forfait d'appel. |Veuillez contacter [Telstra Calling pour Office 365](https://aka.ms/TelstraVoicePlan) pour modifier l’adresse d’urgence. Ils peuvent mettre à jour ces informations pour vous.|
-|Modifier un numéro de l’utilisateur à un numéro de service. |Ce service de type n’est pas pris en charge en Australie.
+|Modifier un numéro de l’utilisateur à un numéro de service. |Prise en charge lors de l’utilisation d’appel Telstra pour Office 365.
 
 ## <a name="related-topics"></a>Rubriques connexes
 

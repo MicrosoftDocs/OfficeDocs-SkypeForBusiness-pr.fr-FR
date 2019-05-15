@@ -3,7 +3,7 @@ title: Barrières à l’information dans Microsoft Teams preview
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 04/30/2019
+ms.date: 05/14/2019
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
@@ -12,12 +12,12 @@ ms.reviewer: vikramju
 description: Découvrez les barrières à l’information et la façon dont ils affectent les équipes.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 71c547ac13f63c9357dfb6e8a0cbe34d748646d3
-ms.sourcegitcommit: b072148ea13f4d4f6035204a48bedd287fb90ebd
+ms.openlocfilehash: 5cf9891e44df3e656255da90dc495d8f0bda8c72
+ms.sourcegitcommit: 9a99be1365df439f9443f31240aa5311782458df
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/08/2019
-ms.locfileid: "33827787"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "33993920"
 ---
 # <a name="information-barriers-in-microsoft-teams-preview"></a>Barrières à l’information dans Microsoft Teams preview
 
@@ -27,7 +27,8 @@ Barrières à l’information sont des stratégies que l’administrateur peut c
 
 > [!NOTE]
 > - Impossible de créer des groupes barrière entre les clients.
-> - Pour ajouter des utilisateurs à l’aide de robots n’est pas pris en charge pour la version 1.
+> - Pour ajouter des utilisateurs à l’aide de robots n’est pas pris en charge dans la version 1.
+> - Version des informations sur les barrières 1 n’inclut pas la prise en charge pour SharePoint et OneDrive for Business. Nous se trouvent sur l’activation de la fonctionnalité dans SharePoint et communique dès qu’elle est disponible.
 
 Stratégies aisée des informations empêchent également découverte et des recherches. Cela signifie que si vous tentez de communiquer avec une personne que vous ne devez pas communiquer avec, vous ne trouverez pas que l’utilisateur dans le sélecteur de personnes.
 

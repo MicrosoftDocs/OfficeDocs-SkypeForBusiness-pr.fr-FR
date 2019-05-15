@@ -18,16 +18,16 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: 'Télécharger, installer et ensuite utiliser la Skype pour Business Connector en ligne pour créer une session Windows PowerShell à distance qui se connecte à Skype pour Business Online. '
-ms.openlocfilehash: f7b7fa418b31a7b826319fc75c943819193161ea
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a93cf1d3d09910001f25619969b6d504e23ec36f
+ms.sourcegitcommit: 85b135cf622c9e9eb1857ef953bc618dc2cdb51e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32225812"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34036691"
 ---
 # <a name="download-and-install-the-skype-for-business-online-connector-module"></a>Téléchargez et installez le Skype pour le module Business Connector en ligne
 
-Le Skype pour le module Business Connector Online inclut l’applet de commande **New-CsOnlineSession** , qui vous permet de créer une session Windows PowerShell à distance qui se connecte à Skype pour Business Online. Ce module, qui est pris en charge uniquement sur les ordinateurs 64 bits (pour plus d’informations, voir [configurer votre ordinateur pour Skype pour la gestion de l’entreprise en ligne à l’aide de Windows PowerShell](set-up-your-computer-for-windows-powershell.md) ), peut être téléchargé depuis le Center Download Microsoft à [https://www.microsoft.com/en-us/download/details.aspx?id=39366](https://www.microsoft.com/en-us/download/details.aspx?id=39366). Téléchargez le fichier SkypeOnlinePowershell.exe et puis procédez comme suit :
+Le Skype pour le module Business Connector Online inclut l’applet de commande **New-CsOnlineSession** , qui vous permet de créer une session Windows PowerShell à distance qui se connecte à Skype pour Business Online. Ce module, qui est pris en charge uniquement sur les ordinateurs 64 bits (pour plus d’informations, voir [configurer votre ordinateur pour Skype pour la gestion de l’entreprise en ligne à l’aide de Windows PowerShell](set-up-your-computer-for-windows-powershell.md) ), peut être téléchargé depuis le Center Download Microsoft à [https://www.microsoft.com/download/details.aspx?id=39366](https://www.microsoft.com/download/details.aspx?id=39366). Téléchargez le fichier SkypeOnlinePowershell.exe et puis procédez comme suit :
   
 1. Double-cliquez sur le fichier **SkypeOnlinePowershell.exe** .
     

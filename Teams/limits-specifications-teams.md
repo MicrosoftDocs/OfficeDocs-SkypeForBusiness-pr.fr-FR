@@ -15,12 +15,12 @@ MS.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a151ca7e35f6b512064bc1554b754e9aefdef358
-ms.sourcegitcommit: c011e4ab6f936a9e26d304835634293b1cedc57d
-ms.translationtype: HT
+ms.openlocfilehash: 514348d0f861ae2bda4d146de4851f788b703444
+ms.sourcegitcommit: 9a99be1365df439f9443f31240aa5311782458df
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2019
-ms.locfileid: "31043356"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "33993863"
 ---
 <a name="limits-and-specifications-for-microsoft-teams"></a>Limites et spécifications de Microsoft Teams
 =============================================
@@ -86,6 +86,9 @@ Fonction de conversation de Microsoft Teams fonctionne sur un serveur principal 
 &dagger; Si le message excède cette limite, un aperçu du message est généré et l’utilisateur est invité à afficher/télécharger le message d’origine à partir du lien fourni.
 
 &Dagger; Si le nombre de pièces jointes ou images excède cette limite, le message ne sera pas traité et un message électronique de notification d’échec est envoyé à l’expéditeur pour l’avertir de l’erreur.
+
+> [!NOTE]
+> La taille du message, pièces jointes et limites d’images en ligne sont les mêmes sur toutes les licences d’Office 365.
 
 Pour plus d’informations, voir [Limites d’Exchange Online](https://technet.microsoft.com/library/exchange-online-limits.aspx).
 
