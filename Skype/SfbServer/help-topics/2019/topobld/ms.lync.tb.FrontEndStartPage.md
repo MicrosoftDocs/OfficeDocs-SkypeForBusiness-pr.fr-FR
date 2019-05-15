@@ -1,8 +1,8 @@
 ---
 title: Page de création du pool frontal
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,15 +13,15 @@ localization_priority: Normal
 ms.assetid: 3f6e69ed-4add-4dc8-acb8-dfe050819f5a
 ROBOTS: NOINDEX, NOFOLLOW
 description: Utilisez cet Assistant pour définir un nouveau pool frontal pour un site. Chaque site doit avoir au moins un pool Enterprise Edition ou Standard Edition server. Pour plus d’informations sur la configuration requise pour l’utilisation de l’Assistant pour créer un nouveau pool frontal, voir Define and Configure a Front End Pool dans la documentation de déploiement.
-ms.openlocfilehash: a2dc972898a970f63468a8402148b1fa4c021c04
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 2e56d1495a809f804f16ce1b679c3964e664c436
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32220451"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33919864"
 ---
-# <a name="front-end-start-page"></a><span data-ttu-id="cfe15-105">Page de création du pool frontal</span><span class="sxs-lookup"><span data-stu-id="cfe15-105">Front End Start Page</span></span>
+# <a name="front-end-start-page"></a><span data-ttu-id="1204e-105">Page de création du pool frontal</span><span class="sxs-lookup"><span data-stu-id="1204e-105">Front End Start Page</span></span>
 
-<span data-ttu-id="cfe15-106">Utilisez cet Assistant pour définir un nouveau pool frontal pour un site.</span><span class="sxs-lookup"><span data-stu-id="cfe15-106">Use this wizard to define a new Front End pool for a site.</span></span> <span data-ttu-id="cfe15-107">Chaque site doit avoir au moins un pool Enterprise Edition ou Standard Edition server.</span><span class="sxs-lookup"><span data-stu-id="cfe15-107">Each site must have at least one Enterprise Edition pool or Standard Edition server.</span></span> <span data-ttu-id="cfe15-108">Pour plus d’informations sur la configuration requise pour l’utilisation de l’Assistant pour créer un nouveau pool frontal, voir [Define and Configure a Front End Pool](https://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx) dans la documentation de déploiement.</span><span class="sxs-lookup"><span data-stu-id="cfe15-108">For details about the requirements for using the wizard to create a new Front End pool, see [Define and Configure a Front End Pool](https://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx) in the Deployment documentation.</span></span>
+<span data-ttu-id="1204e-106">Utilisez cet Assistant pour définir un nouveau pool frontal pour un site.</span><span class="sxs-lookup"><span data-stu-id="1204e-106">Use this wizard to define a new Front End pool for a site.</span></span> <span data-ttu-id="1204e-107">Chaque site doit avoir au moins un pool Enterprise Edition ou Standard Edition server.</span><span class="sxs-lookup"><span data-stu-id="1204e-107">Each site must have at least one Enterprise Edition pool or Standard Edition server.</span></span> <span data-ttu-id="1204e-108">Pour plus d’informations sur la configuration requise pour l’utilisation de l’Assistant pour créer un nouveau pool frontal, voir [Define and Configure a Front End Pool](https://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx) dans la documentation de déploiement.</span><span class="sxs-lookup"><span data-stu-id="1204e-108">For details about the requirements for using the wizard to create a new Front End pool, see [Define and Configure a Front End Pool](https://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx) in the Deployment documentation.</span></span>
 
 
