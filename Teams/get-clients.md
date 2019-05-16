@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 378abc8f49e15a0ef8cb4084ef7968fd8b3ed327
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: b4c18bdd39e7978258c90bd4c757eb3e2e86a3b3
+ms.sourcegitcommit: 751035e1d35fc79a6b74955d7c6c46ecea0645e5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33402104"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "34082664"
 ---
 <a name="get-clients-for-microsoft-teams"></a>Obtenir des clients pour Microsoft Teams 
 ===========================
@@ -41,7 +41,7 @@ Microsoft Teams dispose de clients Web, de bureau (Windows et Mac) et mobiles (
 > [!Tip]
 > Regardez la session suivante pour en savoir plus sur les avantages du client bureau Windows, comment il le planifier et comment déployer : [Windows Teams Client de bureau](https://aka.ms/teams-clients)
 
-Le client de bureau Microsoft Teams est une application autonome et actuellement ne faisant pas partie d’Office 365 ProPlus. Teams est disponible pour Windows (7 +), dans les versions 32 bits et 64 bits et macOS (10.10 +). Sous Windows, Teams requiert .NET Framework 4.5 ou version ultérieure ; le programme d’installation Teams propose de l’installer pour vous si vous ne l’avez pas. 
+Le client de bureau Microsoft Teams est une application autonome et est également [disponible dans Office 365 ProPlus](https://docs.microsoft.com/en-us/deployoffice/teams-install). Teams est disponible pour Windows (7 +), dans les versions 32 bits et 64 bits et macOS (10.10 +). Sous Windows, Teams requiert .NET Framework 4.5 ou version ultérieure ; le programme d’installation Teams propose de l’installer pour vous si vous ne l’avez pas. 
 
 Les clients de bureau fournissent la prise en charge de communications en temps réel (audio, vidéo, et partage de contenu) pour les réunions d'équipe, les appels de groupes et les appels en tête-à-tête.
 

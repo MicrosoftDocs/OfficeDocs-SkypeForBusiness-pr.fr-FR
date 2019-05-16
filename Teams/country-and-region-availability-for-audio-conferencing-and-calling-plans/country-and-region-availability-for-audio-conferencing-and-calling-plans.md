@@ -1,5 +1,5 @@
 ---
-title: Disponibilité des forfaits d'appels et de l’audioconférence selon les régions et les pays
+title: Disponibilité des forfaits d’appels et de l’audioconférence selon les régions et les pays
 ms.date: 03/18/2019
 ms.author: crowe
 author: CarolynRowe
@@ -25,14 +25,14 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Vous pouvez sélectionner une pays/région pour voir si la conférence Audio, système, l’appel des Plans, Communications crédits, de téléphone ou non payant et gratuit numéros de téléphone disponibles ou non.
-ms.openlocfilehash: 6fd448d3ab2efd8f5337e0f5a080bee9fd644bf0
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 400d202d32f6c539a9750f5c035ff49e8abbaee4
+ms.sourcegitcommit: 751035e1d35fc79a6b74955d7c6c46ecea0645e5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200266"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "34082729"
 ---
-# <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Disponibilité des forfaits d'appels et de l’audioconférence selon les régions et les pays
+# <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Disponibilité des forfaits d’appels et de l’audioconférence selon les régions et les pays
 
 Vous pouvez sélectionner votre pays ou région pour afficher les fonctionnalités vocales de nuage sont disponibles pour votre organisation.
 ***
@@ -178,7 +178,7 @@ Avec un système téléphonique, un appel des Plans de laisser les utilisateurs 
 Vous pouvez également consulter le [système téléphonique et appel des Plans de gestion des licences](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) pour les informations de licence.
 
 > [!NOTE]
-> Pays/région est basée sur l’emplacement de la licence de l’utilisateur dans le **Centre d’administration Office 365** > **Utilisateurs actifs** et l’adresse de facturation n’apparaît **pas** sous le **Profil d’organisation** dans le centre d’administration **Office 365 **. 
+> Pays/région est basée sur l’emplacement de la licence de l’utilisateur dans le **Centre d’administration Microsoft 365** > **Utilisateurs actifs** et l’adresse de facturation n’apparaît **pas** sous le **Profil d’organisation** dans l’administrateur **Microsoft 365 Centre de**. 
   
 ### <a name="toll-and-toll-free-phone-numbers-for-services"></a>Payants et les numéros de téléphone pour les services
 

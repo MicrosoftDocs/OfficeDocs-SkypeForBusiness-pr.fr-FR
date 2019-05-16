@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Découvrez les Analytique d’appel et appel du tableau de bord qualité quand et comment les utiliser pour analyser et résoudre les problèmes de qualité des appels.
-ms.openlocfilehash: 410b8a55fb2e0860f9b888ffc7ec26513a2d91fd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6165a4473e8770e20a595e368402ff1cf5bfe6e0
+ms.sourcegitcommit: 751035e1d35fc79a6b74955d7c6c46ecea0645e5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33902674"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "34082737"
 ---
 # <a name="call-analytics-and-call-quality-dashboard"></a>Tableau de bord Analyse des appels et Qualité des appels
 
@@ -82,6 +82,7 @@ La qualité des appels médiocres l’utilisateur est peut-être en raison d’u
 Si vous souhaitez que non-Admin, tels que les agents du support technique, pour utiliser l’appel du tableau de bord qualité, vous pouvez affecter ces utilisateurs le rôle de **l’Ingénieur du Support technique équipes Communications**, **Spécialiste des équipes Communications prise en charge**ou **Lecteur de rapports** . Les utilisateurs avec les rôles suivants peuvent accéder tableau de bord qualité des appels :
 
 - Administrateur global
+- Lecteur global
 - Skype pour administrateur
 - Administrateur du service Teams
 - Administrateur des communications Teams

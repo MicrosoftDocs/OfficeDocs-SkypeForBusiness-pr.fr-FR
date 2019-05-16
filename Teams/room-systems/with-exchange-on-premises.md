@@ -12,12 +12,12 @@ ms.custom: Strat_SB_Admin
 ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection: M365-voice
 description: Lisez cette rubrique pour plus d’informations sur le déploiement des salles d’équipes Microsoft dans un environnement hybride avec Exchange sur site.
-ms.openlocfilehash: 1c1dd5ad49cedb2aee41b036f71bbc6b840aed96
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7ab9a582e26db15159677343d9edddd6bd9c45f9
+ms.sourcegitcommit: 751035e1d35fc79a6b74955d7c6c46ecea0645e5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33916210"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "34082721"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>Déployer Microsoft équipes salles avec Exchange sur site
 
@@ -62,7 +62,7 @@ Si vous déployez Microsoft équipes salles avec Exchange sur site, vous utilise
     > [!NOTE]
     > Sélection de **mot de passe n’expire jamais** est une condition requise pour Skype pour Business Server dans les salles d’équipes Microsoft. Il est possible que des règles de votre domaine interdisent la non-expiration des mots de passe. Dans ce cas, vous devez créer une exception pour chaque compte de périphérique salles d’équipes Microsoft.
   
-4. Une fois le compte créé, exécutez une synchronisation de répertoire. Lorsqu’elle est terminée, accédez à la page utilisateurs dans votre centre d’administration d’Office 365 et vérifiez que le compte créé lors des étapes précédentes a fusionné à en ligne.
+4. Une fois le compte créé, exécutez une synchronisation de répertoire. Lorsqu’elle est terminée, accédez à la page utilisateurs dans votre centre d’administration de Microsoft 365 et vérifiez que le compte créé lors des étapes précédentes a fusionné à en ligne.
 
 ### <a name="enable-the-remote-mailbox-and-set-properties"></a>Activation de la boîte aux lettres distante et définition des propriétés
 

@@ -1,7 +1,7 @@
 ---
 title: Opérations pour les équipes Microsoft | Gestion des services | Qualité
-author: turgayo
-ms.author: turgayo
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a3418de96bc08de90ce09faaba1b5d7ed9b959ec
-ms.sourcegitcommit: fa7d93551f65b2e23f9407e10a33282f71982e85
+ms.openlocfilehash: 9b9c596636d3d3a70c2f5865d772208f01b79f2b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "33470593"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33920402"
 ---
 ![Étapes du voyage mise à niveau, en insistant sur la phase d’Excellence opérationnelle] (media/upgrade-banner-op-excellence.png "Étapes du voyage mise à niveau, en insistant sur la phase d’Excellence opérationnelle")
 
