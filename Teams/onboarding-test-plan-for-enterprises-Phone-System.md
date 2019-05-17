@@ -1,7 +1,7 @@
 ---
 title: Plan de test d’entreprise du système téléphonique avec forfaits d'appels dans Microsoft Teams
-author: rmw2890
-ms.author: Rowille
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2cb95414940cbea6eb47945e43d96eb35f4de8bd
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 1534c1b327e7fda146894430ca750f01c53e8fa4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33401015"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33898753"
 ---
 <a name="define-and-document-your-phone-system-with-calling-plans-in-teams-test-plan-for-enterprises"></a>Définissez et documentez votre système téléphonique avec des Plans de l’appel dans le plan de test des équipes pour les entreprises 
 ============================================================================================
