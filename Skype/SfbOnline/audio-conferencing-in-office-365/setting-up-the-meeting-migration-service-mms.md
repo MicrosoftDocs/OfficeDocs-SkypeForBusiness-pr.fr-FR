@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Réunion Migration MMS (Service) est un service qui s’exécute en arrière-plan et met à jour automatiquement Skype pour les réunions d’entreprise et Teams Microsoft pour les utilisateurs. MMS est conçu pour éliminer le besoin pour les utilisateurs d’exécuter l’outil de Migration de réunion pour mettre à jour leur Skype pour les réunions d’entreprise et Teams Microsoft.
-ms.openlocfilehash: 9a133cb2a91e50ad21b263009f8f2c64cd3d8ccb
-ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
+ms.openlocfilehash: da1b21b65794354a023632e785c463b494cc38f5
+ms.sourcegitcommit: ee05fe02fe68b5bd6ee38dd4a3ad69da3d37c492
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "33835118"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34106173"
 ---
 # <a name="using-the-meeting-migration-service-mms"></a>Utilisation du Service de Migration de réunion (MMS)
 
@@ -83,7 +83,7 @@ Cette section décrit ce qui se produit lors du déclenchement MMS dans chacun d
 
 Il s’agit du scénario le plus courant où MMS permet de créer une transition simplifiée pour vos utilisateurs. Sans migration de réunions, existantes réunions organisées par un utilisateur dans Skype pour Business Server locaux ne fonctionnent plus une fois que l’utilisateur est déplacé en ligne. Par conséquent, lorsque vous utilisez les outils d’administration locale (soit `Move-CsUser` ou le panneau de configuration d’administration) pour déplacer un utilisateur vers le nuage, réunions existantes sont automatiquement déplacées vers le nuage comme suit :
 
-- Si le `MoveToTeams` basculer dans `Move-CsUser` est spécifié, les réunions sont migrées directement aux équipes et l’utilisateur sera en mode TeamsOnly. L’utilisation de ce commutateur nécessite Skype pour Business Server avec CU8 ou version ultérieure. Ces utilisateurs peuvent tout de même rejoindre n’importe quel Skype de réunion Business qu’ils peuvent être invités à, à l’aide de la Skype pour client d’entreprise ou l’application de réunion Skype.
+- Si le `MoveToTeams` basculer dans `Move-CsUser` est spécifié, les réunions sont migrées directement aux équipes et l’utilisateur sera en mode TeamsOnly. L’utilisation de ce commutateur nécessite Skype pour Business Server 2015 avec CU8 ou version ultérieure. Ces utilisateurs peuvent tout de même rejoindre n’importe quel Skype de réunion Business qu’ils peuvent être invités à, à l’aide de la Skype pour client d’entreprise ou l’application de réunion Skype.
 - Dans le cas contraire les réunions sont migrées vers Skype pour Business Online.
 
 Dans les deux cas, si l’utilisateur a été attribué une licence de conférence Audio avant d’être déplacés vers le nuage, les réunions seront créées avec les coordonnées du rendez-vous. Si vous déplacez un utilisateur sur site vers le nuage et que vous avez l’intention de cet utilisateur à utiliser l’audioconférence, nous vous recommandons de tout d’abord affecter la conférence audio avant de déplacer l’utilisateur afin que la migration de réunion uniquement 1 est déclenchée.

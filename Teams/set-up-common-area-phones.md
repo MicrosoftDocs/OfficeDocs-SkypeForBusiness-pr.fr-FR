@@ -21,14 +21,16 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Découvrez comment configurer des téléphones en zone commune pour les salles d’attente, les zones de réception et les salles de conférence '
-ms.openlocfilehash: 9e68d5bc4ef0355e80e1fe6359385c10a339c0fe
-ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
+ms.openlocfilehash: 66f84cb1ce768cc86a7c31a6ac345f0fcc135726
+ms.sourcegitcommit: d4b007b88469a820595ecdcf2a90854ecefe2809
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2019
-ms.locfileid: "33632376"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34108746"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Configurer la licence de téléphone de partie commune pour Microsoft Teams
+> [!NOTE]
+> Téléphones de partie commune ne prennent pas en charge de la messagerie vocale.
 
 Un téléphone en zone commune est généralement placé dans une zone comme une salle d’attente ou une autre zone qui est disponible à plusieurs personnes pour émettre un appel ; par exemple, une réception zone, salle d’attente ou une conférence téléphonique. Téléphones de partie commune sont configurés en tant que périphériques plutôt que des utilisateurs et peuvent vous connecter automatiquement à un réseau.
 

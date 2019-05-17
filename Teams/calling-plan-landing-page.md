@@ -15,14 +15,14 @@ search.appverid: MET150
 description: Appel de Plan de page d’accueil
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 412797a52e82c03937670e895fea7b42a3ce7b4a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: d85546df76b7699986d28152ff08003612df8331
+ms.sourcegitcommit: d4b007b88469a820595ecdcf2a90854ecefe2809
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32211982"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34108754"
 ---
-# <a name="phone-system-with-calling-plans"></a>Système téléphonique avec les Plans d’appel 
+# <a name="which-calling-plan-is-right-for-you"></a>Planifier les appel est fait pour vous ? 
 
 Vous avez terminé la [mise en route](get-started-with-teams-quick-start.md). Vous avez déployé Teams avec [des conversations, des équipes, des canaux et des applications](deploy-chat-teams-channels-microsoft-teams-landing-page.md) au sein de votre organisation. Peut-être que vous avez déployé la [conférence & de réunions](deploy-meetings-microsoft-teams-landing-page.md). Vous êtes maintenant prêt à ajouter des charges de travail de voix dans le cloud, et vous avez décidé d’utiliser le système téléphonique de Microsoft avec l’appel de planifier pour se connecter à la Public téléphone réseau commuté (RTC). 
 

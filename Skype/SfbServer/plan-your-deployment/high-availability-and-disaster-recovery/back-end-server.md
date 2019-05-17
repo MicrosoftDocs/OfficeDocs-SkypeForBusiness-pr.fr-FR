@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c559aacb-4e1d-4e78-9582-41f966ad418d
 description: Découvrez les options de haute disponibilité du serveur principal prises en charge dans Skype pour Business Server, y compris les groupes de disponibilité AlwaysOn, Instances de Cluster de basculement AlwaysOn, la mise en miroir de base de données et le clustering avec basculement SQL.
-ms.openlocfilehash: d40ceb237ff52434074de29363704fdb1de5b78c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c200596ac43099d92b7fd37e850a524cf92a24ce
+ms.sourcegitcommit: ee05fe02fe68b5bd6ee38dd4a3ad69da3d37c492
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33916557"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34106298"
 ---
 # <a name="back-end-server-high-availability-in-skype-for-business-server"></a>Arrière serveur haute disponibilité dans Skype pour Business Server
  
@@ -42,6 +42,8 @@ Si vous utilisez une haute disponibilité du serveur principal sur un pool front
 
 Skype pour Business Server prend en charge la mise en miroir avec le logiciel de base de données suivantes :
   
+- SQL Server 2017, Enterprise Edition et Standard Edition
+
 - SQL Server 2016, Enterprise Edition et Standard Edition
 
 - SQL Server 2014, Enterprise Edition et Standard Edition
@@ -100,9 +102,29 @@ Si le serveur principal et les serveurs principaux en miroir tombent en panne, o
   
 ## <a name="alwayson-availability-groups-and-alwayson-failover-cluster-instances"></a>Groupes de disponibilité AlwaysOn et instances de cluster de basculement AlwaysOn
 
-Groupes de disponibilité AlwaysOn et des Instances de Cluster de basculement AlwaysOn sont pris en charge uniquement sur SQL Server 2014 Enterprise Edition et SQL Server 2012 Enterprise Edition. Skype pour Business Server prend en charge les groupes de disponibilité AlwaysOn uniquement en tant que clusters actif/passif, actif/actif. 
+Skype pour Business Server prend en charge les groupes de disponibilité AlwaysOn uniquement en tant que clusters actif/passif, actif/actif. 
   
 Pour utiliser des groupes de disponibilité AlwaysOn ou des Instances de Cluster de basculement AlwaysOn, vous d’abord utilisez SQL Server pour installer et configurer la solution de haute disponibilité. Vous pouvez ensuite utiliser le Générateur de topologie pour associer un pool frontal.
+
+Skype pour Business Server prend en charge AlwaysOn avec le logiciel de base de données suivantes :
+
+- SQL Server 2017 Enterprise Edition
+
+- SQL Server 2017 Standard Edition avec limitations, voir Remarque ci-dessous
+
+- SQL Server 2016 Enterprise Edition
+
+- SQL Server 2016 Standard Edition avec limitations, voir Remarque ci-dessous
+
+- SQL Server 2014 Enterprise Edition
+    
+- SQL Server 2012 SP2 et CU2 Enterprise Edition
+
+> [!NOTE]
+> SQL Server 2017 et SQL Server 2016 sont les seules versions prises en charge par Skype pour Business Server 2019.
+
+> [!NOTE]
+> Toujours sur les groupes de disponibilité est **pas** pris en charge dans SQL 2016 2017 éditions et Standard, mais vous pouvez utiliser toujours sur le basculement Instances de Cluster. Voir [éditions et fonctionnalités prises en charge de SQL Server 2016](https://docs.microsoft.com/sql/sql-server/editions-and-components-of-sql-server-2016?view=sql-server-2017) pour en savoir plus.
   
 > [!IMPORTANT]
 > Noms d’instance pour plusieurs instances du groupe de disponibilité AlwaysOn doivent être identiques. 
