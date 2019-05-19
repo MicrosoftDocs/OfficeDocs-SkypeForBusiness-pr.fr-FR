@@ -21,26 +21,26 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'What it means when your port order has been accepted, and what you need to do next to finish your Skype for Business set up. '
-ms.openlocfilehash: 450781d2318b11e7f199c6c68041aaf6bc66b21c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 56656e85f23a4c6c7082bebff628c12aea9843b4
+ms.sourcegitcommit: d7c8d03883d4ae4e37af88625dd74ab037eac914
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229514"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34159183"
 ---
 # <a name="your-port-order-was-accepted"></a>Votre demande de transfert a été acceptée
 
-Votre commande port est approuvée ! Recherchez vos numéros de téléphone dans la **Skype pour le centre d’administration Business** > **vocale** > **numéros de téléphone**.
+Votre demande de transfert est approuvée. Recherchez vos numéros de téléphone dans les**numéros de téléphone****vocaux** > du >  **Centre d’administration Skype entreprise**.
   
  **IMPORTANT**: pour que l'option **Voix** apparaisse dans le volet de navigation gauche du Centre d'administration Skype Entreprise, vous devez d'abord acheter au moins une **licence Entreprise E5**, une licence de composant additionnel **Système téléphonique**, ou une licence de composant additionnel **Audioconférence**.
   
-Maintenant que celle-ci est approuvée et vos numéros de téléphone sont prêts, vous devrez effectuer quelques opérations pour obtenir tout configurer.
+Maintenant qu’il est approuvé et que vos numéros de téléphone sont prêts, vous devez effectuer les actions suivantes pour préparer tout le processus.
   
-- Assurez-vous que vous [Skype pour les licences d’entreprise et les équipes Microsoft module complémentaire](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md). Vous aurez besoin d’un **Système téléphonique** et **Planifier l’appel interne** ou **International appelant planifier**.
+- Assurez-vous que vous disposez de [licences de modules complémentaires Skype entreprise et Microsoft teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md). Vous aurez besoin d’un **système téléphonique** et d’un **plan** d’appels nationaux ou d’un **forfait d’appels internationaux**.
     
-- Créer votre [Ajouter ou supprimer une situation d’urgence d’adresses pour votre organisation](add-or-remove-an-emergency-address-for-your-organization.md) et, si vous souhaitez que votre d'[Ajouter, modifier ou supprimer un emplacement pour votre organisation en cas d’urgence](add-change-or-remove-an-emergency-location-for-your-organization.md) (dans certains pays/régions, vous obtenez une adresse d’urgence avec le numéro de téléphone).
+- Créer [ou supprimer une adresse de secours pour votre organisation](add-or-remove-an-emergency-address-for-your-organization.md) , et si vous le souhaitez, vous pouvez[Ajouter, modifier ou supprimer un emplacement d’urgence pour votre organisation](add-change-or-remove-an-emergency-location-for-your-organization.md) (dans certains pays ou régions, vous obtenez une adresse d’urgence avec le numéro de téléphone).
     
-- Continuez et [affecter, modifier ou supprimer un numéro de téléphone d’un utilisateur](assign-change-or-remove-a-phone-number-for-a-user.md).
+- Allez-y [, attribution, modification ou suppression du numéro de téléphone d’un utilisateur](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user).
 
 > [!NOTE]
 > Si vous devez obtenir davantage de numéros de téléphone, veuillez [contacter le support pour les entreprises - Aide de l'administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)

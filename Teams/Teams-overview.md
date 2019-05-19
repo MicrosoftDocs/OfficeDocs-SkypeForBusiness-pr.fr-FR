@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cf50b6f7acba602ec001c340e2cbe999c610e693
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 2908c7f16f353d49ca25db0ef297601cc82db371
+ms.sourcegitcommit: 64cb4e9db6c83d25c2f5de0cc8b835675af80f0b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226153"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "34100864"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Bienvenue dans Microsoft Teams
 Si vous êtes l’administrateur de Microsoft Teams dans votre organisation, vous êtes au bon endroit. Lorsque vous êtes prêt à commencer avec Teams, commencez avec [Comment mettre en place Teams](How-to-roll-out-teams.md).
@@ -78,6 +78,10 @@ Lorsque vous choisissez les applications et services Office 365 que vous allez 
 - **Yammer** pour connecter les personnes de l’organisation. Proposez des initiatives à l’échelle de l’entreprise, partagez les meilleures pratiques et créez des communautés autour de sujets d’intérêt, domaines ou pratiques communs. Échangez des idées pour favoriser des discussions ouvertes avec les personnes de l’entreprise.
 
 - Les **applications Office** sont tous les outils familiers que les personnes connaissent et utilisent régulièrement, incluant Word, Excel, PowerPoint et OneNote. 
+
+## <a name="teams-content-updates"></a>Mises à jour de contenu Teams
+
+Consultez la [liste hebdomadaire des sujets Teams qui ont été mis à jour](teams-updates.md).
 
 ## <a name="teams-known-issues"></a>Problèmes connus dans Teams
 
