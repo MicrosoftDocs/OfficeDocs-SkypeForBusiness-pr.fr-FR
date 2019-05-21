@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -22,35 +22,35 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: Cela vous permettra de savoir comment composer des numéros gratuits dans chaque pays/région. Une fois que vous sélectionnez la pays/région, il vous dirige vers une page spécifique qui contient des détails plus spécifiques, les restrictions et les limites de la disponibilité du service gratuit où service gratuit est disponible. Le format de numérotation ou formats affichera les codes d’accès requis dans chaque pays/région de composer le numéro d’appel gratuit.
-ms.openlocfilehash: 89c04b3190d76ca2e8b66b360dcfe7975504bcfc
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Vous pourrez ainsi découvrir comment composer un numéro gratuit dans chaque pays ou région. Lorsque vous sélectionnez le pays ou la région, vous êtes dirigé vers une page qui contient des détails, restrictions et limites spécifiques pour la disponibilité du service gratuit où le service gratuit est disponible. Le ou les formats de numérotation vous montrent les codes d’accès requis au sein de chaque pays/région pour composer le numéro gratuit.
+ms.openlocfilehash: 72be8baf1d2244e3fe104bbdcbcb3d88d0b70ac5
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32223391"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305212"
 ---
-# <a name="toll-free-dialing-restrictions-in-peru"></a><span data-ttu-id="c2866-105">Restrictions de numérotation gratuit au Pérou</span><span class="sxs-lookup"><span data-stu-id="c2866-105">Toll-free dialing restrictions in Peru</span></span>
+# <a name="toll-free-dialing-restrictions-in-peru"></a><span data-ttu-id="989ed-105">Restrictions de numérotation gratuit au Pérou</span><span class="sxs-lookup"><span data-stu-id="989ed-105">Toll-free dialing restrictions in Peru</span></span>
 
-<span data-ttu-id="c2866-106">[Trouver un autre pays ou région](../toll-free-dialing-limitations-and-restrictions.md), ou en savoir plus sur les restrictions et les limitations de composer le numéro gratuit.</span><span class="sxs-lookup"><span data-stu-id="c2866-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
+<span data-ttu-id="989ed-106">[Recherchez un autre pays ou une autre région](../toll-free-dialing-limitations-and-restrictions.md)ou en savoir plus sur les limitations et restrictions de numérotation sans frais.</span><span class="sxs-lookup"><span data-stu-id="989ed-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
 
 
-|<span data-ttu-id="c2866-107">**Détails**</span><span class="sxs-lookup"><span data-stu-id="c2866-107">**Details**</span></span>|<span data-ttu-id="c2866-108">**Description**</span><span class="sxs-lookup"><span data-stu-id="c2866-108">**Description**</span></span>|
+|<span data-ttu-id="989ed-107">**Détails**</span><span class="sxs-lookup"><span data-stu-id="989ed-107">**Details**</span></span>|<span data-ttu-id="989ed-108">**Description**</span><span class="sxs-lookup"><span data-stu-id="989ed-108">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="c2866-109">Est gratuit appelant disponibles ?</span><span class="sxs-lookup"><span data-stu-id="c2866-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="c2866-110">Oui</span><span class="sxs-lookup"><span data-stu-id="c2866-110">Yes</span></span>  <br/> |
-|<span data-ttu-id="c2866-111">Formats de numérotation</span><span class="sxs-lookup"><span data-stu-id="c2866-111">Dialing format(s)</span></span>  <br/> |<span data-ttu-id="c2866-112">0 800 XX XXX</span><span class="sxs-lookup"><span data-stu-id="c2866-112">0 800 XX XXX</span></span>  <br/> |
-|<span data-ttu-id="c2866-113">Code de pays/région ISO</span><span class="sxs-lookup"><span data-stu-id="c2866-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="c2866-114">PE</span><span class="sxs-lookup"><span data-stu-id="c2866-114">PE</span></span>  <br/> |
-|<span data-ttu-id="c2866-115">Île/territoire couvert</span><span class="sxs-lookup"><span data-stu-id="c2866-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="c2866-116">Non applicable</span><span class="sxs-lookup"><span data-stu-id="c2866-116">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="c2866-117">Île/territoire non couvert</span><span class="sxs-lookup"><span data-stu-id="c2866-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="c2866-118">Non applicable</span><span class="sxs-lookup"><span data-stu-id="c2866-118">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="c2866-119">Disponibilité de la ligne filaire/fixe</span><span class="sxs-lookup"><span data-stu-id="c2866-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="c2866-120">Oui</span><span class="sxs-lookup"><span data-stu-id="c2866-120">Yes</span></span>  <br/> |
-|<span data-ttu-id="c2866-121">Disponibilité de réseau mobile</span><span class="sxs-lookup"><span data-stu-id="c2866-121">Mobile network availability</span></span>  <br/> |<span data-ttu-id="c2866-122">Non</span><span class="sxs-lookup"><span data-stu-id="c2866-122">No</span></span>  <br/> |
-|<span data-ttu-id="c2866-123">Commentaires, les restrictions et les problèmes d’accès</span><span class="sxs-lookup"><span data-stu-id="c2866-123">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="c2866-124">Aucun</span><span class="sxs-lookup"><span data-stu-id="c2866-124">None</span></span>  <br/> |
+|<span data-ttu-id="989ed-109">Est-ce que l’appel gratuit est disponible?</span><span class="sxs-lookup"><span data-stu-id="989ed-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="989ed-110">Oui</span><span class="sxs-lookup"><span data-stu-id="989ed-110">Yes</span></span>  <br/> |
+|<span data-ttu-id="989ed-111">Format (s) de numérotation</span><span class="sxs-lookup"><span data-stu-id="989ed-111">Dialing format(s)</span></span>  <br/> |<span data-ttu-id="989ed-112">0 800 XX XXX</span><span class="sxs-lookup"><span data-stu-id="989ed-112">0 800 XX XXX</span></span>  <br/> |
+|<span data-ttu-id="989ed-113">Code ISO pays/région</span><span class="sxs-lookup"><span data-stu-id="989ed-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="989ed-114">PE</span><span class="sxs-lookup"><span data-stu-id="989ed-114">PE</span></span>  <br/> |
+|<span data-ttu-id="989ed-115">Île/territoire couvert</span><span class="sxs-lookup"><span data-stu-id="989ed-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="989ed-116">Non applicable</span><span class="sxs-lookup"><span data-stu-id="989ed-116">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="989ed-117">Île/territoire non couvert</span><span class="sxs-lookup"><span data-stu-id="989ed-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="989ed-118">Non applicable</span><span class="sxs-lookup"><span data-stu-id="989ed-118">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="989ed-119">Disponibilité de ligne filaire/fixe</span><span class="sxs-lookup"><span data-stu-id="989ed-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="989ed-120">Oui</span><span class="sxs-lookup"><span data-stu-id="989ed-120">Yes</span></span>  <br/> |
+|<span data-ttu-id="989ed-121">Disponibilité de réseau mobile</span><span class="sxs-lookup"><span data-stu-id="989ed-121">Mobile network availability</span></span>  <br/> |<span data-ttu-id="989ed-122">Non</span><span class="sxs-lookup"><span data-stu-id="989ed-122">No</span></span>  <br/> |
+|<span data-ttu-id="989ed-123">Commentaires, restrictions et problèmes d’accès</span><span class="sxs-lookup"><span data-stu-id="989ed-123">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="989ed-124">Aucun</span><span class="sxs-lookup"><span data-stu-id="989ed-124">None</span></span>  <br/> |
    
-## <a name="related-topics"></a><span data-ttu-id="c2866-125">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="c2866-125">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="989ed-125">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="989ed-125">Related topics</span></span>
 
-[<span data-ttu-id="c2866-126">Limitations et restrictions concernant la composition de numéros verts</span><span class="sxs-lookup"><span data-stu-id="c2866-126">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
+[<span data-ttu-id="989ed-126">Limitations et restrictions concernant la composition de numéros verts</span><span class="sxs-lookup"><span data-stu-id="989ed-126">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
 
-[<span data-ttu-id="c2866-127">Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="c2866-127">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
+[<span data-ttu-id="989ed-127">Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="989ed-127">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
 
   
  

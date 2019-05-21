@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -19,28 +19,28 @@ localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1keywords:
 - ms.teamsadmincenter.policies.naming.error
-description: Voir existe avec des caractères spéciaux dans les noms des stratégies et ce que vous pouvez faire pour résoudre des problèmes.
-ms.openlocfilehash: 12d89c4956b2d076f7279506ccf32737d18d50e0
-ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
+description: Découvrez les problèmes liés aux caractères spéciaux dans les noms de stratégies et ce que vous pouvez faire pour résoudre ce problème.
+ms.openlocfilehash: 03858de420cf77f8a8088f86c8c5feae5828c21a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2019
-ms.locfileid: "33632233"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298601"
 ---
-# <a name="what-are-the-special-character-restrictions-in-teams-policies"></a><span data-ttu-id="5c705-103">Quelles sont les restrictions d’un caractère spécial dans les stratégies Teams ?</span><span class="sxs-lookup"><span data-stu-id="5c705-103">What are the special character restrictions in Teams policies?</span></span>
+# <a name="what-are-the-special-character-restrictions-in-teams-policies"></a><span data-ttu-id="8fb24-103">Quelles sont les restrictions d’un caractère spécial dans les stratégies Teams ?</span><span class="sxs-lookup"><span data-stu-id="8fb24-103">What are the special character restrictions in Teams policies?</span></span>
 
-<span data-ttu-id="5c705-104">**Vous ne pouvez pas créer ou des stratégies de modifier (pour la messagerie, réunions, etc.) qui ont un caractère spécial dans le nom de l’administrateur des équipes Microsoft Centre**.</span><span class="sxs-lookup"><span data-stu-id="5c705-104">**You can't create or edit policies (for messaging, meetings, etc.) that have a special character in the name in the Microsoft Teams admin center**.</span></span> 
+<span data-ttu-id="8fb24-104">**Vous ne pouvez pas créer ou modifier des stratégies (pour la messagerie, les réunions, etc.) dont le nom contient un caractère spécial dans le centre d’administration Microsoft teams**.</span><span class="sxs-lookup"><span data-stu-id="8fb24-104">**You can't create or edit policies (for messaging, meetings, etc.) that have a special character in the name in the Microsoft Teams admin center**.</span></span> 
 
-<span data-ttu-id="5c705-105">Si un nom de stratégie contient des caractères spéciaux, vous serez limité dans la gestion de ces stratégies dans le centre d’administration Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="5c705-105">If a policy name contains special characters, you will be limited in managing these policies in the Microsoft Teams admin center.</span></span> <span data-ttu-id="5c705-106">**Par conséquent, il est fortement recommandé que les noms de stratégie ne pas inclure des caractères spéciaux**.</span><span class="sxs-lookup"><span data-stu-id="5c705-106">**As such, we strongly recommend that policy names don't include special characters**.</span></span> 
+<span data-ttu-id="8fb24-105">Si le nom d’une stratégie contient des caractères spéciaux, vous ne serez plus limité à la gestion de ces stratégies dans le centre d’administration Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="8fb24-105">If a policy name contains special characters, you will be limited in managing these policies in the Microsoft Teams admin center.</span></span> <span data-ttu-id="8fb24-106">Par **exemple, nous vous recommandons vivement de ne pas inclure de caractères spéciaux dans les noms de stratégie**.</span><span class="sxs-lookup"><span data-stu-id="8fb24-106">**As such, we strongly recommend that policy names don't include special characters**.</span></span> 
 
-<span data-ttu-id="5c705-107">Les noms de stratégie qui ont été créés à l’aide de PowerShell pour les réunions et messagerie dans les équipes peuvent avoir des caractères spéciaux tels que @, #, $.</span><span class="sxs-lookup"><span data-stu-id="5c705-107">Policy names that have been created using PowerShell for meetings and messaging in Teams can have special characters such as @,#,$.</span></span> <span data-ttu-id="5c705-108">Toutefois, si vous souhaitez apporter des modifications à la stratégie dans le centre d’administration Microsoft Teams, vous ne pourrez.</span><span class="sxs-lookup"><span data-stu-id="5c705-108">However, if you are wanting to make changes to the policy in the Microsoft Teams admin center,you won't be able to.</span></span> 
+<span data-ttu-id="8fb24-107">Les noms de stratégie qui ont été créés à l’aide de PowerShell pour les réunions et la messagerie dans teams peuvent avoir des caractères spéciaux tels que @, #, $.</span><span class="sxs-lookup"><span data-stu-id="8fb24-107">Policy names that have been created using PowerShell for meetings and messaging in Teams can have special characters such as @,#,$.</span></span> <span data-ttu-id="8fb24-108">Toutefois, si vous souhaitez apporter des modifications à la stratégie dans le centre d’administration Microsoft Teams, vous ne serez pas en mesure de le faire.</span><span class="sxs-lookup"><span data-stu-id="8fb24-108">However, if you are wanting to make changes to the policy in the Microsoft Teams admin center,you won't be able to.</span></span> 
 
-<span data-ttu-id="5c705-109">Si vous disposez d’une stratégie avec des caractères spéciaux, vous devrez soit modifier la stratégie à l’aide de Windows PowerShell (toujours) ou créer une nouvelle stratégie dans le centre d’administration Microsoft Teams avec les mêmes paramètres que l’ancienne stratégie et l’affecter au même groupe d’utilisateurs.</span><span class="sxs-lookup"><span data-stu-id="5c705-109">If you have a policy with special characters, you will need to either edit the policy using Windows PowerShell (forever) or create a new policy in the Microsoft Teams admin center with the same settings as the old policy and assign it to the same group of users.</span></span>
+<span data-ttu-id="8fb24-109">Si vous disposez d’une stratégie contenant des caractères spéciaux, vous devez modifier la stratégie à l’aide de Windows PowerShell (Forever) ou créer une nouvelle stratégie dans le centre d’administration Microsoft teams avec les mêmes paramètres que l’ancienne stratégie et l’affecter au même groupe d’utilisateurs.</span><span class="sxs-lookup"><span data-stu-id="8fb24-109">If you have a policy with special characters, you will need to either edit the policy using Windows PowerShell (forever) or create a new policy in the Microsoft Teams admin center with the same settings as the old policy and assign it to the same group of users.</span></span>
 
-## <a name="to-remove-special-characters"></a><span data-ttu-id="5c705-110">Pour supprimer les caractères spéciaux</span><span class="sxs-lookup"><span data-stu-id="5c705-110">To remove special characters</span></span>
+## <a name="to-remove-special-characters"></a><span data-ttu-id="8fb24-110">Pour supprimer des caractères spéciaux</span><span class="sxs-lookup"><span data-stu-id="8fb24-110">To remove special characters</span></span>
 
-<span data-ttu-id="5c705-111">**Étape 1 : établir une connexion à distance PowerShell.** 
- [Configurer votre ordinateur pour Windows PowerShell](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) si vous n’avez pas encore.</span><span class="sxs-lookup"><span data-stu-id="5c705-111">**Step 1 - Make a remote connection with PowerShell.**
+<span data-ttu-id="8fb24-111">**Étape 1: créer une connexion à distance avec PowerShell.** 
+Si ce n’est déjà fait, configurez [votre ordinateur pour Windows PowerShell](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) .</span><span class="sxs-lookup"><span data-stu-id="8fb24-111">**Step 1 - Make a remote connection with PowerShell.**
 [Set up your computer for Windows PowerShell](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) if you haven't yet.</span></span>
 ```
  Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
@@ -50,61 +50,61 @@ ms.locfileid: "33632233"
 ```
 
 
-<span data-ttu-id="5c705-112">**Étape 2 : obtenir les paramètres de l’ancienne stratégie et capturer la sortie.**</span><span class="sxs-lookup"><span data-stu-id="5c705-112">**Step 2 - Get the settings for the old policy and capture the output.**</span></span>
+<span data-ttu-id="8fb24-112">**Étape 2: obtenir les paramètres de l’ancienne stratégie et capturer la sortie.**</span><span class="sxs-lookup"><span data-stu-id="8fb24-112">**Step 2 - Get the settings for the old policy and capture the output.**</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="5c705-113">Cet exemple est destiné à une stratégie de [messagerie](https://docs.microsoft.com/powershell/module/skype/get-csteamsmessagingpolicy?view=skype-ps) .</span><span class="sxs-lookup"><span data-stu-id="5c705-113">This example is for a [Messaging](https://docs.microsoft.com/powershell/module/skype/get-csteamsmessagingpolicy?view=skype-ps) policy.</span></span>  <span data-ttu-id="5c705-114">Les étapes serait identique pour d’autres types de stratégie, mais vous devez utiliser l’applet de commande correct.</span><span class="sxs-lookup"><span data-stu-id="5c705-114">The steps would be the same for other policy types but you must use the correct cmdlet.</span></span> 
+> <span data-ttu-id="8fb24-113">Cet exemple s’utilise pour une stratégie de [messagerie](https://docs.microsoft.com/powershell/module/skype/get-csteamsmessagingpolicy?view=skype-ps) .</span><span class="sxs-lookup"><span data-stu-id="8fb24-113">This example is for a [Messaging](https://docs.microsoft.com/powershell/module/skype/get-csteamsmessagingpolicy?view=skype-ps) policy.</span></span>  <span data-ttu-id="8fb24-114">Les étapes sont identiques pour les autres types de stratégies, mais vous devez utiliser l’applet de cmdlet correcte.</span><span class="sxs-lookup"><span data-stu-id="8fb24-114">The steps would be the same for other policy types but you must use the correct cmdlet.</span></span> 
 
   ```
   Get-CsTeamsMessagingPolicy -id <old_policy_name>
   ```
 
 
-<span data-ttu-id="5c705-115">**Étape 3 : créer une nouvelle stratégie.**</span><span class="sxs-lookup"><span data-stu-id="5c705-115">**Step 3 - Create a new policy.**</span></span>
+<span data-ttu-id="8fb24-115">**Étape 3: créer une nouvelle stratégie.**</span><span class="sxs-lookup"><span data-stu-id="8fb24-115">**Step 3 - Create a new policy.**</span></span>
 
-<span data-ttu-id="5c705-116">Vous pouvez créer la nouvelle stratégie avec le même paramètre à l’aide du centre d’administration de Microsoft Teams ou de PowerShell.</span><span class="sxs-lookup"><span data-stu-id="5c705-116">You can either create the new policy with the same setting by using the Microsoft Teams admin center or PowerShell.</span></span>
+<span data-ttu-id="8fb24-116">Vous pouvez créer une nouvelle stratégie avec le même paramètre à l’aide du centre d’administration Microsoft teams ou de PowerShell.</span><span class="sxs-lookup"><span data-stu-id="8fb24-116">You can either create the new policy with the same setting by using the Microsoft Teams admin center or PowerShell.</span></span>
 
-<span data-ttu-id="5c705-117">Exécuter cette crée une nouvelle stratégie pour vous, mais vous devez ajouter les paramètres corrects en consultant la rubrique [Set-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) et puis de l’exécuter :</span><span class="sxs-lookup"><span data-stu-id="5c705-117">Running this will create a new policy for you but you will need to add the correct settings by seeing [Set-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) and then running it:</span></span>
+<span data-ttu-id="8fb24-117">L’exécution de cette opération entraîne la création d’une stratégie pour vous, mais vous devrez ajouter les paramètres appropriés en vérifiant [Set-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) , puis en exécutant celle-ci:</span><span class="sxs-lookup"><span data-stu-id="8fb24-117">Running this will create a new policy for you but you will need to add the correct settings by seeing [Set-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) and then running it:</span></span>
 
   ```
   Set-CsTeamsMessagingPolicy -id <new_policy_name>
  ```
-<span data-ttu-id="5c705-118">**Étape 4 : attribuer la stratégie.**</span><span class="sxs-lookup"><span data-stu-id="5c705-118">**Step 4 - Assign the policy.**</span></span>
+<span data-ttu-id="8fb24-118">**Étape 4: affecter la stratégie.**</span><span class="sxs-lookup"><span data-stu-id="8fb24-118">**Step 4 - Assign the policy.**</span></span>
  ```
 Grant-CsTeamsMessagingPolicy -Policy <new_policy_name>
  ```
-<span data-ttu-id="5c705-119">Voir [Grant-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmessagingpolicy?view=skype-ps) pour plus d’informations sur cette applet de commande.</span><span class="sxs-lookup"><span data-stu-id="5c705-119">See, [Grant-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmessagingpolicy?view=skype-ps) for more information on this cmdlet.</span></span>
+<span data-ttu-id="8fb24-119">Pour plus d’informations sur cette cmdlet, voir [Grant-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmessagingpolicy?view=skype-ps) .</span><span class="sxs-lookup"><span data-stu-id="8fb24-119">See, [Grant-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmessagingpolicy?view=skype-ps) for more information on this cmdlet.</span></span>
 
-<span data-ttu-id="5c705-120">**Étape 5 - supprimer l’ancienne stratégie.**</span><span class="sxs-lookup"><span data-stu-id="5c705-120">**Step 5 - Delete the old policy.**</span></span>
+<span data-ttu-id="8fb24-120">**Étape 5: supprimer l’ancienne stratégie.**</span><span class="sxs-lookup"><span data-stu-id="8fb24-120">**Step 5 - Delete the old policy.**</span></span>
 
-<span data-ttu-id="5c705-121">Cette opération supprime l’ancienne stratégie avec des caractères spéciaux.</span><span class="sxs-lookup"><span data-stu-id="5c705-121">This will delete the old policy with the special characters.</span></span>
+<span data-ttu-id="8fb24-121">Cette opération a pour effet de supprimer l’ancienne stratégie qui contient les caractères spéciaux.</span><span class="sxs-lookup"><span data-stu-id="8fb24-121">This will delete the old policy with the special characters.</span></span>
   ```
   Remove-CsTeamsMessagingPolicy -identity <old_policy_name>
   ```
-<span data-ttu-id="5c705-122">[Remove-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/remove-csteamsmessagingpolicy?view=skype-ps) pour plus d’informations sur cette applet de commande, voir.</span><span class="sxs-lookup"><span data-stu-id="5c705-122">See, [Remove-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/remove-csteamsmessagingpolicy?view=skype-ps) for more information on this cmdlet.</span></span>
+<span data-ttu-id="8fb24-122">Pour plus d’informations sur cette cmdlet, voir [Remove-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/remove-csteamsmessagingpolicy?view=skype-ps) .</span><span class="sxs-lookup"><span data-stu-id="8fb24-122">See, [Remove-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/remove-csteamsmessagingpolicy?view=skype-ps) for more information on this cmdlet.</span></span>
 
-<span data-ttu-id="5c705-123">Si cette commande réussit, vous avez terminé.</span><span class="sxs-lookup"><span data-stu-id="5c705-123">If this command succeeds, you're done.</span></span> <span data-ttu-id="5c705-124">Si la commande ci-dessus retourne une erreur, il est car l’ancienne stratégie est affectée aux utilisateurs afin que vous devez exécuter pour supprimer tous les utilisateurs affectés de la stratégie :</span><span class="sxs-lookup"><span data-stu-id="5c705-124">If the above command returns an error, it is because the old policy is assigned to users so you need to run to remove all assigned users from the policy:</span></span>
+<span data-ttu-id="8fb24-123">Si cette commande aboutit, vous avez terminé.</span><span class="sxs-lookup"><span data-stu-id="8fb24-123">If this command succeeds, you're done.</span></span> <span data-ttu-id="8fb24-124">Si la commande ci-dessus renvoie une erreur, c’est parce que l’ancienne stratégie est affectée aux utilisateurs et que vous devez les exécuter pour supprimer tous les utilisateurs assignés de la stratégie:</span><span class="sxs-lookup"><span data-stu-id="8fb24-124">If the above command returns an error, it is because the old policy is assigned to users so you need to run to remove all assigned users from the policy:</span></span>
 
 ```
 Grant-CsMessagingPolicy -Policy <old_policy_name> $null
 ```
-### <a name="want-to-know-how-to-manage-with-windows-powershell"></a><span data-ttu-id="5c705-125">Comment utiliser Windows PowerShell pour gérer cette fonction ?</span><span class="sxs-lookup"><span data-stu-id="5c705-125">Want to know how to manage with Windows PowerShell?</span></span>
+### <a name="want-to-know-how-to-manage-with-windows-powershell"></a><span data-ttu-id="8fb24-125">Comment utiliser Windows PowerShell pour gérer cette fonction ?</span><span class="sxs-lookup"><span data-stu-id="8fb24-125">Want to know how to manage with Windows PowerShell?</span></span>
 
-<span data-ttu-id="5c705-p105">Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 depuis un seul point d'administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :</span><span class="sxs-lookup"><span data-stu-id="5c705-p105">Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:</span></span>
+<span data-ttu-id="8fb24-p105">Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 depuis un seul point d'administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :</span><span class="sxs-lookup"><span data-stu-id="8fb24-p105">Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:</span></span>
     
-  - [<span data-ttu-id="5c705-129">Pourquoi vous devez utiliser Office 365 PowerShell ?</span><span class="sxs-lookup"><span data-stu-id="5c705-129">Why you need to use Office 365 PowerShell?</span></span>](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [<span data-ttu-id="8fb24-129">Pourquoi avez-vous besoin d’utiliser Office 365 PowerShell?</span><span class="sxs-lookup"><span data-stu-id="8fb24-129">Why you need to use Office 365 PowerShell?</span></span>](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [<span data-ttu-id="5c705-130">Meilleures méthodes de gestion d'Office 365 avec Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="5c705-130">Best ways to manage Office 365 with Windows PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [<span data-ttu-id="8fb24-130">Meilleures méthodes de gestion d'Office 365 avec Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="8fb24-130">Best ways to manage Office 365 with Windows PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- <span data-ttu-id="5c705-131">Windows PowerShell présente de nombreux avantages dans vitesse, la simplicité et la productivité sur qu’à l’aide du centre d’administration Microsoft 365, tels que lorsque vous modifiez les paramètres pour de nombreux utilisateurs en même temps.</span><span class="sxs-lookup"><span data-stu-id="5c705-131">Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Microsoft 365 admin center, such as when you are making settings changes for many users at one time.</span></span> <span data-ttu-id="5c705-132">Découvrez ces avantages dans les rubriques suivantes :</span><span class="sxs-lookup"><span data-stu-id="5c705-132">Learn about these advantages in the following topics:</span></span>
+- <span data-ttu-id="8fb24-131">Windows PowerShell dispose de nombreux avantages de la vitesse, de la simplicité et de la productivité qui consiste à utiliser le centre d’administration Microsoft 365, par exemple, lorsque vous modifiez les paramètres de nombreux utilisateurs en même temps.</span><span class="sxs-lookup"><span data-stu-id="8fb24-131">Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Microsoft 365 admin center, such as when you are making settings changes for many users at one time.</span></span> <span data-ttu-id="8fb24-132">Découvrez ces avantages dans les rubriques suivantes :</span><span class="sxs-lookup"><span data-stu-id="8fb24-132">Learn about these advantages in the following topics:</span></span>
     
-  - [<span data-ttu-id="5c705-133">Présentation de Windows PowerShell et Skype Entreprise Online</span><span class="sxs-lookup"><span data-stu-id="5c705-133">An introduction to Windows PowerShell and Skype for Business Online</span></span>](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [<span data-ttu-id="8fb24-133">Présentation de Windows PowerShell et Skype Entreprise Online</span><span class="sxs-lookup"><span data-stu-id="8fb24-133">An introduction to Windows PowerShell and Skype for Business Online</span></span>](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-    [<span data-ttu-id="5c705-134">Utilisation de Windows PowerShell pour gérer Skype Entreprise Online</span><span class="sxs-lookup"><span data-stu-id="5c705-134">Using Windows PowerShell to manage Skype for Business Online</span></span>](https://go.microsoft.com/fwlink/?LinkId=525453)
+    [<span data-ttu-id="8fb24-134">Utilisation de Windows PowerShell pour gérer Skype Entreprise Online</span><span class="sxs-lookup"><span data-stu-id="8fb24-134">Using Windows PowerShell to manage Skype for Business Online</span></span>](https://go.microsoft.com/fwlink/?LinkId=525453)
     
-  - [<span data-ttu-id="5c705-135">Utilisation de Windows PowerShell pour effectuer les tâches de gestion courantes de Skype Entreprise Online</span><span class="sxs-lookup"><span data-stu-id="5c705-135">Using Windows PowerShell to do common Skype for Business Online management tasks</span></span>](https://go.microsoft.com/fwlink/?LinkId=525038)
+  - [<span data-ttu-id="8fb24-135">Utilisation de Windows PowerShell pour effectuer les tâches de gestion courantes de Skype Entreprise Online</span><span class="sxs-lookup"><span data-stu-id="8fb24-135">Using Windows PowerShell to do common Skype for Business Online management tasks</span></span>](https://go.microsoft.com/fwlink/?LinkId=525038)
     
     > [!NOTE]
-    > <span data-ttu-id="5c705-136">Le module Windows PowerShell pour Skype pour Business Online permet de vous permet de créer une session Windows PowerShell à distance qui se connecte à Skype pour Business Online et Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="5c705-136">The Windows PowerShell module for Skype for Business Online enables you to create a remote Windows PowerShell session that connects to Skype for Business Online and Microsoft Teams.</span></span> <span data-ttu-id="5c705-137">Ce module, qui est pris en charge uniquement sur les ordinateurs 64 bits, peut être téléchargé depuis le Center Download Microsoft à [le Module Windows PowerShell pour Skype pour Business Online.](https://go.microsoft.com/fwlink/?LinkId=294688)</span><span class="sxs-lookup"><span data-stu-id="5c705-137">This module, which is supported only on 64-bit computers, can be downloaded from the Microsoft Download Center at [Windows PowerShell Module for Skype for Business Online.](https://go.microsoft.com/fwlink/?LinkId=294688)</span></span>
+    > <span data-ttu-id="8fb24-136">Le module Windows PowerShell pour Skype entreprise Online vous permet de créer une session Windows PowerShell distante qui se connecte à Skype entreprise Online et Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="8fb24-136">The Windows PowerShell module for Skype for Business Online enables you to create a remote Windows PowerShell session that connects to Skype for Business Online and Microsoft Teams.</span></span> <span data-ttu-id="8fb24-137">Ce module, qui est pris en charge uniquement sur les ordinateurs 64 bits, peut être téléchargé à partir du centre de téléchargement Microsoft dans le [module Windows PowerShell pour Skype entreprise online.](https://go.microsoft.com/fwlink/?LinkId=294688)</span><span class="sxs-lookup"><span data-stu-id="8fb24-137">This module, which is supported only on 64-bit computers, can be downloaded from the Microsoft Download Center at [Windows PowerShell Module for Skype for Business Online.](https://go.microsoft.com/fwlink/?LinkId=294688)</span></span>
   
 
