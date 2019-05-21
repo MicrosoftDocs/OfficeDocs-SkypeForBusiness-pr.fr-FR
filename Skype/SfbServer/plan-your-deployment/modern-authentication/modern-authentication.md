@@ -3,36 +3,36 @@ title: Planifier l'authentification moderne dans Skype Entreprise
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 manager: serdars
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 25e68396-96dc-4e4b-8a65-d30ea80d1bc9
-description: Rubriques de planification pour l’authentification et d’autorisation pour Skype pour Business Server, y compris l’intégration avec d’autres produits
-ms.openlocfilehash: 1a7f20fe10a757001fb3eb819371b81f24d6901e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Rubriques de planification pour l’authentification et l’autorisation de Skype entreprise Server, y compris l’intégration avec d’autres produits
+ms.openlocfilehash: 922b53b26bd77be4f7d49e7c594d337f7961703d
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33907156"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297301"
 ---
-# <a name="discussing-authentication-and-authorization-in-skype-for-business"></a>Discuter d’authentification et autorisation dans Skype pour les entreprises
+# <a name="discussing-authentication-and-authorization-in-skype-for-business"></a>Aborder l’authentification et l’autorisation dans Skype entreprise
 
-Authentification et autorisation sont des concepts liés, mais faire travail différente (même si les deux sont nécessaires). Mettre en termes simples, authenciation (authentification) dépend des clés secrètes uniquement un utilisateur valid sait ou a, et qui peut être un mot de passe, code, empreinte, certificat, une combinaison de revendications relatives à l’utilisateur qui sont remplies ou une combinaison de ces facteurs utilisés conjointement. Authentification est un processus en prouver que vous êtes qui vous dites que vous êtes.
+L’authentification et l’autorisation sont des concepts associés, mais le fonctionnement est différent pour vous (les deux sont nécessaires). Placées en termes simples, authenciation (Authn) dépend de secrets uniquement qu’un utilisateur valide connaît ou a et qu’il peut s’agir d’un mot de passe, d’un code, d’une empreinte, d’un certificat, d’une combinaison de plaintes sur l’utilisateur qui sont vraies ou d’une combinaison de ces éléments utilisés ensemble. Authn est un processus qui prouve que vous êtes le nom de votre interlocuteur.
 
-Autorisation (AuthZ) concerne ce que vous avez accès à une fois que vous avez prouvé qui vous êtes. Il détermine ce que vous avez été autorisé à voir, modifier et dans le cas contraire. Par exemple, avoir puissants accès administrateur de Collection de sites vers SharePoint Online, mais si vous passez à une autre charge de travail en ligne, comme Skype pour Business Online, peut avoir les privilèges pour résoudre les problèmes de l’utilisateur, pas modifier la configuration de la ou les serveurs. Dans une charge de travail tiers, tels que Exchange Online, peut-être uniquement accès au moyen de l’utilisateur. AuthZ vérifie les et dans quelle proportion accès à des services/worloads, des applications, fichiers et autres données.
+Les autorisations (auth) concernent les personnes auxquelles vous avez accès lorsque vous avez prouvé votre identité. Elle détermine ce que vous êtes autorisé à consulter, modifier et autrement accès. Par exemple, vous pouvez avoir accès à un administrateur de collection de sites puissant pour accéder à SharePoint Online, mais si vous basculez vers une autre charge de travail en ligne (par exemple, Skype entreprise Online), il est possible que vous disposiez des privilèges appropriés pour résoudre les problèmes des utilisateurs et ne pas modifier la configuration du serveur ou serveurs. Dans un troisième travail de charge de travail, tel qu’Exchange Online, vous ne disposez pas de l’accès moyen pour l’utilisateur. Authz vérifie le niveau d’accès dont vous avez besoin aux services/worloads, aux applications, aux fichiers et aux autres données.
 
-Nos exemples impliquent online propriétés telles que SharePoint et Exchange online, mais les processus d’authentification et AuthZ fonctionnent sur site et dans un environnement local hybride la même manière. En définitive, les outils tels que DAS se connecter et ADFS impliqués dans l’article et d’authentification et AuthZ par synchronisation comptes locaux et mots de passe dans le nuage de l’annonce (c'est-à-dire Azure AD dans le cas d’Office 365 ou Azure), ou y converser dans le flux de AuthZ ainsi que un utilisateur n’est pas fréquemment invité à entrer leurs informations d’identification, par exemple lorsque vous basculez entre les charges de travail dans le nuage, création de scénarios Single Sign-On. Mais ils ne sont pas, en soi, seul responsable ou AuthZ, une partie seulement des mécanismes.
+Nos exemples impliquent des propriétés en ligne telles que SharePoint et Exchange Online, mais les processus de Authn et de auth-site travaillent localement et dans un environnement hybride de la même manière. Pour finir, les outils tels que AAD Connect et les services ADFS sont impliqués dans l’histoire d’Authn et de authz en synchronisant des comptes et des mots de passe locaux dans la publicité du Cloud (qui est Azure AD dans le cas d’Office 365 ou Azure), ou par une intrusion dans le flux d’autorisation de sorte que un utilisateur n’est pas fréquemment invité à entrer ses informations d’identification, par exemple lorsque vous basculez entre les charges de travail dans le Cloud et créez des scénarios d’authentification unique. Toutefois, elles ne sont pas, en soi, d’auth ou d’auth responsable, qu’il s’agit d’une seule et même partie de la mécanique.
 
-Aujourd'hui, les technologies de prendre en compte ces processus (et d’authentification et AuthZ) à un mécanisme, et vous entendez de références à des processus d’authentification qui incluent également l’autorisation dans les. Il est important de noter que la première étape de l’accès des utilisateurs est le seul, prouver que vous êtes qui vous dites que vous avez, et que AuthZ utilise la base de connaissances qui est l’utilisateur pour déterminer quel qu’il a accès aux (comme vous verrez avec Open Authorization ou OAuth).
+Aujourd’hui, bon nombre de technologies envisagent ces processus (Authn et authz) comme un mécanisme unique et vous entendez de nombreuses références au processus d’authentification qui incluent également une autorisation. Il est important de garder à l’esprit que la première étape de l’accès utilisateur est Authn, en vous prouvant qu’il s’agit de votre identité et qu’elle utilise les connaissances de la personne à laquelle l’utilisateur a accès (comme le montre avec l’autorisation Open ou OAuth).
 
   
-## <a name="authentication-and-authorization-planning-topics"></a>Rubriques de l’authentification et autorisation de planification
+## <a name="authentication-and-authorization-planning-topics"></a>Rubriques relatives à l’authentification et à la planification de l’autorisation
 
 [How to use Modern Authentication (ADAL) with Skype for Business](plan-adal.md)
 
 [Skype for Business topologies supported with Modern Authentication](topologies-supported.md)
 
-[Envisagez de désactiver les méthodes d’authentification Legacy internes et externes à votre réseau.](turn-on-modern-auth.md)
+[Planification de la désactivation de méthodes d’authentification héritées internes et externes à votre réseau.](turn-on-modern-auth.md)
 

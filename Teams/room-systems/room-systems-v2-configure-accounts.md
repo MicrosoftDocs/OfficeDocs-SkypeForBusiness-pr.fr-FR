@@ -1,10 +1,10 @@
 ---
-title: Configurer des comptes pour les salles d’équipes Microsoft
+title: Configurer des comptes pour les salles de Microsoft teams
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 5/10/2018
-ms.audience: ITPro
+audience: ITPro
 ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,79 +14,79 @@ ms.collection:
 - M365-voice
 ms.custom: ''
 ms.assetid: ''
-description: Lisez cette rubrique pour en savoir plus sur la configuration de comptes pour les salles d’équipes Microsoft dans Exchange et Skype pour les entreprises.
-ms.openlocfilehash: 284f55b7902ed97b86ebbcedaee049626fb51a26
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Consultez cette rubrique pour en savoir plus sur la configuration des comptes pour les salles Microsoft teams dans Exchange et Skype entreprise.
+ms.openlocfilehash: 2c826be24ab9051c3dd206e2f4bbc7bdc832e250
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33916394"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305400"
 ---
-# <a name="configure-accounts-for-microsoft-teams-rooms"></a>Configurer des comptes pour les salles d’équipes Microsoft
+# <a name="configure-accounts-for-microsoft-teams-rooms"></a>Configurer des comptes pour les salles de Microsoft teams
  
-Lisez cette rubrique pour en savoir plus sur les salles d’équipes Microsoft et comment il s’intègre à Exchange et Skype pour les entreprises.
+Consultez cette rubrique pour en savoir plus sur les salles de Microsoft teams et son intégration à Exchange et Skype entreprise.
   
-Cette rubrique explique comment créer les comptes utilisés par les salles d’équipes Microsoft dans Microsoft Exchange et Skype pour les entreprises. Instructions de déploiement pour les appareils Microsoft équipes salles est décrite dans [Configure une console Microsoft équipes salles](console.md). Votre infrastructure peut correspondre à l’une des configurations suivantes :
+Cette rubrique présente la création de comptes utilisés par des salles Microsoft teams dans Microsoft Exchange et Skype entreprise. Pour obtenir des instructions sur le déploiement des appareils de Microsoft Teams, reportez-vous à [la configuration d’une console Microsoft teams](console.md). Votre infrastructure peut correspondre à l’une des configurations suivantes :
   
-- Déploiement en ligne : environnement de votre organisation est déployé entièrement sur Office 365. Pour plus d’informations, voir [Déployer des salles équipes Microsoft avec Office 365](with-office-365.md).
+- Déploiement en ligne: l’environnement de votre organisation est déployé entièrement sur Office 365. Pour plus d’informations, reportez-vous à la rubrique [déploiement de salles Microsoft teams avec Office 365](with-office-365.md).
     
-- Déploiement sur site : votre organisation dispose de serveurs qu’il contrôle, où sont hébergées Skype pour Business Server, Exchange et Active Directory. Pour plus d’informations, voir [Déployer Microsoft équipes salles avec Skype pour Business Server](with-skype-for-business-server-2015.md)
+- Déploiement local: votre organisation dispose de serveurs qui contrôlent la façon dont Active Directory, Exchange et Skype entreprise Server sont hébergés. Pour plus d’informations, reportez-vous à la rubrique [déploiement de salles de Microsoft teams avec Skype entreprise Server](with-skype-for-business-server-2015.md)
     
-- Déploiements hybrides : votre organisation possède un mélange de services, avec certains hébergés sur site et certaines hébergé en ligne via Office 365. Des espaces d’équipes Microsoft, les scénarios hybrides suivants sont pris en charge : 
+- Déploiements hybrides: votre organisation a une combinaison de services, avec une partie hébergée en local et une partie hébergée en ligne via Office 365. Grâce aux salles de Microsoft Teams, les scénarios hybrides suivants sont pris en charge: 
     
-  - Exchange Online avec Skype pour Business Server localement. Pour plus d’informations, voir [Déployer Microsoft équipes salles avec Exchange Online (hybride)](with-exchange-online.md).
+  - Exchange Online avec Skype entreprise Server en local. Pour plus d’informations, reportez-vous à la rubrique [déploiement de salles Microsoft teams avec Exchange Online (hybride)](with-exchange-online.md).
     
-  - Exchange sur site avec Microsoft Teams ou Skype pour Business en ligne. Pour plus d’informations, voir [Déployer Microsoft équipes salles avec Exchange sur site (hybride)](with-exchange-on-premises.md).
+  - Échangez en local avec Microsoft teams ou Skype entreprise online. Pour plus d’informations, reportez-vous à la rubrique [déploiement de salles de Microsoft teams avec Exchange en local (hybride)](with-exchange-on-premises.md).
     
 La procédure de préparation de l’installation de l’appareil dépend de votre type de configuration.
   
-Salles d’équipes Microsoft doit être affecté à un compte « périphériques » dans Active Directory, Exchange et Skype pour les entreprises. Le compte est utilisé pour accéder à son calendrier de la réunion et établir Teams Microsoft ou Skype pour Business connectivity. Les utilisateurs peuvent réserver ce compte en planifiant une réunion à l’aide de celui-ci. Salles d’équipes Microsoft sera en mesure de participer à cette réunion et fournir des fonctionnalités différentes aux participants à la réunion.
+Les salles de Microsoft teams doivent disposer d’un «compte d’appareil» dans Active Directory, d’Exchange et de Skype entreprise. Le compte est utilisé pour accéder à son calendrier de réunion et établir une connectivité Microsoft teams ou Skype entreprise. Les utilisateurs peuvent réserver ce compte en planifiant une réunion à l’aide de celui-ci. Les salles de Microsoft teams seront en mesure de rejoindre cette réunion et de proposer diverses fonctionnalités aux participants de la réunion.
   
 > [!IMPORTANT]
-> Sans un compte d’appareil, aucune de ces fonctionnalités fonctionnera. 
+> Sans compte d’appareil, aucune de ces fonctionnalités ne fonctionne. 
   
-Chaque compte de l’appareil est unique à un seul périphérique Microsoft équipes salles et configurer :
+Chaque compte d’appareil est unique pour une seule salle Microsoft teams et nécessite une configuration:
   
-- Le compte de l’appareil doit être configuré correctement.
+- Le compte de l’appareil doit être correctement configuré.
     
-- Votre infrastructure doit être configuré pour autoriser les salles d’équipes Microsoft pour valider le compte de l’appareil et de joindre les services Microsoft appropriés.
+- Votre infrastructure doit être configurée pour permettre aux salles de Microsoft teams de valider le compte de l’appareil et d’accéder aux services Microsoft appropriés.
     
 > [!IMPORTANT]
-> Il est vivement recommandé de créer ce compte bien avant l’installation effective du matériel. Si possible, la préparation du compte devrait commencer 2 à 3 semaines avant l’installation. Dans les environnements hybrides, le compte utilisé pour les salles d’équipes Microsoft doit avoir activé dans Sync DAS car l’authentification Microsoft équipes salles requiert une authentification 365 0ffice de synchronisation de mot de passe.
+> Il est vivement recommandé de créer ce compte bien avant l’installation effective du matériel. Si possible, la préparation du compte devrait commencer 2 à 3 semaines avant l’installation. Dans les environnements hybrides, le compte utilisé pour les salles de Microsoft teams doit disposer de la synchronisation de mot de passe activée dans la synchronisation AAD, car l’authentification par Microsoft teams pièces nécessite l’authentification 365 0ffice.
   
-Vous pouvez considérer un compte de périphérique en tant que compte la ressource personnes reconnaissent en tant que compte d’une conférence salle de réunion espace ou. Lorsque vous souhaitez planifier une réunion qui se déroulera dans cette salle de réunion, vous invitez le compte à cette réunion. Pour pouvoir utiliser efficacement salles des équipes Microsoft, vous faire de même avec le compte d’appareil qui est affecté à chacune d’elles.
+Vous pouvez considérer un compte d’appareil comme le compte de ressources reconnu par les utilisateurs comme une salle de conférence ou un compte d’espace de réunion. Lorsque vous souhaitez planifier une réunion qui se déroulera dans cette salle de réunion, vous invitez le compte à cette réunion. Pour utiliser la plupart des salles de Microsoft Teams, vous devez procéder de la même façon avec le compte d’appareil qui est attribué à chacun d’eux.
   
-Si vous disposez déjà d’un compte de boîte aux lettres de ressources défini pour l’espace de réunion dans lequel vous installez salles des équipes Microsoft, vous pouvez modifier ce compte de ressource à un compte de l’appareil. Une fois cette opération effectuée, il vous souhaitez est ajouter le compte de périphérique pour un périphérique de salles d’équipes Microsoft. Voir exemples de paramètres compte périphérique ci-dessous.
+Si vous disposez déjà d’un compte de boîte aux lettres de ressources configuré pour l’espace de réunion dans lequel vous installez les salles de Microsoft Teams, vous pouvez changer ce compte en compte d’appareil. Une fois cette opération terminée, il vous suffit d’ajouter le compte de l’appareil à un appareil Microsoft Teams. Voir exemples de configuration de compte d’appareil fourni ci-dessous.
   
-Avec une configuration supplémentaire, la gestion à distance est possible à l’aide de Microsoft Azure Monitor comme décrit dans la [gestion de planification Microsoft équipes salles avec Azure moniteur](azure-monitor-plan.md), la [gestion de déployer Microsoft équipes salles avec Azure moniteur](azure-monitor-deploy.md)et [ Gérer les périphériques de salles d’équipes Microsoft Azure moniteur](azure-monitor-manage.md). 
+Dans le cadre de la configuration supplémentaire, la gestion à distance est possible à l’aide de l’outil Moniteur Microsoft Azure, comme décrit dans la rubrique planification de la [gestion des salles de Microsoft teams avec Azure Monitor](azure-monitor-plan.md), déploiement de la [gestion de](azure-monitor-deploy.md) [Microsoft teams Gestion des appareils Microsoft teams](azure-monitor-manage.md) 
   
 ## <a name="basic-configuration"></a>Configuration de base
 
-Ces propriétés représentent la configuration minimale pour un compte de périphérique fonctionner avec Microsoft équipes salles. Votre compte de périphérique peut nécessiter plus poussée du programme d’installation.
+Ces propriétés représentent la configuration minimale d’un compte d’appareil pour fonctionner avec les salles de Microsoft Teams. Votre compte d’appareil doit nécessiter une configuration supplémentaire.
   
 |**Propriété**|**Objectif**|
 |:-----|:-----|
-|Boîte aux lettres Exchange (Exchange 2013 SP1 ou version ultérieure, ou Exchange Online)  <br/> |Activation du compte avec une boîte aux lettres Exchange permet le compte de périphérique pour recevoir et envoyer des messages et demandes de réunion et afficher un calendrier des réunions sur l’appareil de salles d’équipes Microsoft. La boîte aux lettres Microsoft équipes salles doit correspondre à une boîte aux lettres de salle.  <br/> |
-|Skype pour les entreprises est activé.  <br/> |Skype pour les entreprises doit être activé pour pouvoir utiliser les diverses fonctionnalités de conférence, comme les appels vidéo, messagerie instantanée et le partage d’écran. Skype pour Business Online et Skype pour Business Server sont prises en charge.  <br/> |
-|Activation par mot de passe  <br/> |Le compte de l’appareil doit être activé par un mot de passe, ou il ne peut pas authentifier avec Exchange ou Skype pour Business Server.  <br/> |
+|Boîte aux lettres Exchange (Exchange 2013 SP1 ou version ultérieure, ou Exchange Online)  <br/> |Le fait d’activer le compte auprès d’une boîte aux lettres Exchange donne au compte de l’appareil la possibilité de recevoir et d’envoyer des demandes de messages et de réunion, et d’afficher un calendrier de réunions sur l’appareil Microsoft Teams. La boîte aux lettres de Microsoft teams doit être une boîte aux lettres de salle.  <br/> |
+|Skype entreprise est activé  <br/> |Skype entreprise doit être activé pour pouvoir utiliser différentes fonctions de conférence, comme les appels vidéo, la messagerie instantanée et le partage d’écran. La prise en charge de Skype entreprise Online et de Skype entreprise Server est prise en charge.  <br/> |
+|Activation par mot de passe  <br/> |Le compte de l’appareil doit être activé avec un mot de passe, ou il ne peut pas s’authentifier auprès d’Exchange ou de Skype entreprise Server.  <br/> |
    
 ## <a name="advanced-configuration"></a>Configuration avancée
 
-Pendant les propriétés pour la configuration de base autorisera le compte de l’appareil à être configurée dans un environnement simple, il est possible de votre environnement comporte d’autres restrictions sur les comptes de répertoire qui doivent être remplies pour les salles d’équipes Microsoft utiliser correctement le compte de l’appareil.
+Si les propriétés de la configuration de base permettent de configurer le compte de l’appareil dans un environnement simple, il est possible que votre environnement dispose d’autres restrictions sur les comptes d’annuaire qui doivent être remplies pour que Microsoft teams utilise correctement le compte d’appareil.
   
 |**Propriété**|**Objectif**|
 |:-----|:-----|
-|Authentification basée sur un certificat  <br/> |Certificats peuvent être requis pour Exchange et Skype pour Business Server. Pour déployer les certificats, vous devez les charger lorsque vous vous connectez en tant qu’administrateur.  <br/> |
+|Authentification basée sur un certificat  <br/> |Des certificats sont requis pour Exchange et Skype entreprise Server. Pour déployer les certificats, vous devez les charger lorsque vous vous connectez en tant qu’administrateur.  <br/> |
    
-Pour configurer les comptes de périphérique, la plus simple consiste à configurer à l’aide de Windows PowerShell à distance. Microsoft propose [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), un script permettant de créer des comptes d’appareil ou valider des comptes ressource existante dont vous disposez pour vous aider à les transformer en comptes de périphériques compatibles avec Microsoft équipes salles.
+Le moyen le plus simple de configurer des comptes de périphériques consiste à les configurer à l’aide de Windows PowerShell distant. Microsoft fournit [SkypeRoomProvisioningScript. ps1](https://go.microsoft.com/fwlink/?linkid=870105), un script permettant de créer de nouveaux comptes d’appareils, ou de valider des comptes de ressources existants dont vous avez besoin pour vous aider à les convertir en comptes d’appareils Microsoft teams compatibles.
   
-Si vous préférez utiliser l’interface utilisateur d’Office 365 sur les applets de commande Windows PowerShell, certaines étapes peuvent être effectuées manuellement. Consultez [Création d’un compte de périphérique à l’aide d’Office 365](https://docs.microsoft.com/surface-hub/create-a-device-account-using-office-365).
+Si vous préférez utiliser l’interface utilisateur d’Office 365 sur des cmdlets Windows PowerShell, certaines étapes peuvent être effectuées manuellement. Voir [création d’un compte d’appareil à l’aide d’Office 365](https://docs.microsoft.com/surface-hub/create-a-device-account-using-office-365).
   
 ## <a name="see-also"></a>Voir aussi
 
-[Planifier des équipes Microsoft salles](skype-room-systems-v2-0.md)
+[Plan pour les salles de Microsoft teams](skype-room-systems-v2-0.md)
   
-[Configurer une console Microsoft équipes salles](console.md)
+[Configurer une console de salle Microsoft teams](console.md)
   
 [Gérer Microsoft Teams Rooms](skype-room-systems-v2.md)
 

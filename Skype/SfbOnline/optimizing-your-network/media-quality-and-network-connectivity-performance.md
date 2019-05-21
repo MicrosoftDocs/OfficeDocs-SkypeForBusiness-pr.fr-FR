@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -18,323 +18,323 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Optimization
-description: Cette rubrique définit l’ensemble des exigences de performances réseau pour Skype pour des services professionnels en ligne et comment vous pouvez choisir d’utiliser Internet ou ExpressRoute pour la connectivité entre votre réseau et de Skype pour Business Online en fonction de votre évaluation du réseau connectivité. Si vous avez décidé de déployer ExpressRoute Azure pour la connectivité dédiée à Office 365, ce document fournit également des instructions sur la planification de vos connexions ExpressRoute dans différents Skype pour les scénarios de déploiement en ligne Business.
-ms.openlocfilehash: 00d77bc72cbfd99d496bf458e008cce3da7970c3
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Cette rubrique définit l’ensemble des exigences de performances réseau pour les services Skype entreprise Online et la façon dont vous pouvez choisir d’utiliser Internet ou ExpressRoute pour la connectivité entre votre réseau et Skype entreprise Online en fonction de votre évaluation du réseau. Connectivity. Si vous avez décidé de déployer Azure ExpressRoute pour une connectivité dédiée à Office 365, ce document fournit également des instructions sur la planification de vos connexions ExpressRoute dans différents scénarios de déploiement de Skype entreprise online.
+ms.openlocfilehash: 2ec74fb3137b8eac048187ac4015f857428b0851
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32236922"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297835"
 ---
 # <a name="media-quality-and-network-connectivity-performance-in-skype-for-business-online"></a>Qualité multimédia et performances de connectivité réseau dans Skype Entreprise Online
 
-Cette rubrique définit l’ensemble des exigences de performances réseau pour Skype pour des services professionnels en ligne et comment vous pouvez choisir d’utiliser Internet ou ExpressRoute pour la connectivité entre votre réseau et de Skype pour Business Online en fonction de votre évaluation du réseau connectivité. Si vous avez décidé de déployer ExpressRoute Azure pour la connectivité dédiée à Office 365, ce document fournit également des instructions sur la planification de vos connexions ExpressRoute dans différents Skype pour les scénarios de déploiement en ligne Business.
+Cette rubrique définit l’ensemble des exigences de performances réseau pour les services Skype entreprise Online et la façon dont vous pouvez choisir d’utiliser Internet ou ExpressRoute pour la connectivité entre votre réseau et Skype entreprise Online en fonction de votre évaluation du réseau. Connectivity. Si vous avez décidé de déployer Azure ExpressRoute pour une connectivité dédiée à Office 365, ce document fournit également des instructions sur la planification de vos connexions ExpressRoute dans différents scénarios de déploiement de Skype entreprise online.
   
-La qualité des médias en temps réel (audio, vidéo et partage d’application) sur IP est considérablement affectée par la qualité de la connectivité réseau de bout en bout. Pour bénéficier d'une qualité optimale pour Skype Entreprise Online, assurez-vous de la bonne qualité de la connexion entre votre réseau d'entreprise et Skype Entreprise Online. La meilleure façon d'y parvenir est de configurer la connectivité du réseau interne et du cloud en fonction de la capacité de votre réseau à s'adapter au volume du trafic maximal de Skype Entreprise Online sur l'ensemble des connexions.
+La qualité des contenus multimédias en temps réel (audio, vidéo et de partage d’application) sur IP est fortement affectée par la qualité de la connectivité réseau de bout en bout. Pour bénéficier d'une qualité optimale pour Skype Entreprise Online, assurez-vous de la bonne qualité de la connexion entre votre réseau d'entreprise et Skype Entreprise Online. La meilleure façon d'y parvenir est de configurer la connectivité du réseau interne et du cloud en fonction de la capacité de votre réseau à s'adapter au volume du trafic maximal de Skype Entreprise Online sur l'ensemble des connexions.
   
-ExpressRoute Azure n’est pas une condition requise pour les services Office 365, notamment Skype pour Business en ligne. Toutefois, ExpressRoute Azure est un du déploiement options disponibles qui aideront à vous assurer que connectivité à Office 365 respecte la Skype pour les besoins de performances réseau et garantit la plus optimale Skype pour le support d’entreprise en ligne expérience de qualité.
+Azure ExpressRoute n’est pas requis pour les services Office 365, dont Skype entreprise online. Toutefois, Azure ExpressRoute est l’une des options de déploiement disponibles qui vous aideront à vous assurer que la connectivité à Office 365 répond aux exigences de performance réseau de Skype entreprise et à garantir le contenu multimédia de Skype entreprise Online le plus optimal. qualité.
   
 > [!TIP]
-> Bien que cette rubrique fournit des conseils pour les performances réseau global, Guide d’évaluation du réseau est à l’extérieur de l’étendue de ce document. Pour obtenir la liste de Skype pour les partenaires professionnels en ligne qui peuvent vous aider avec les mesures de performances réseau dans le cadre d’une évaluation du réseau et complet, visitez le site [Skype pour des Solutions professionnelles partenaire](http://partnersolutions.skypeforbusiness.com/). 
+> Même si cette rubrique vous présente les conseils relatifs aux performances globales du réseau, des instructions complètes pour l’analyse du réseau ne sont pas du cadre de ce document. Pour obtenir la liste des partenaires de Skype entreprise Online qui peuvent vous aider à utiliser les mesures de performance du réseau dans le cadre d’une évaluation complète du réseau, consultez la rubrique [solutions de partenariat Skype entreprise](http://partnersolutions.skypeforbusiness.com/). 
   
-## <a name="network-connectivity-requirements-to-skype-for-business-online"></a>Exigences de connectivité réseau à Skype pour Business Online
+## <a name="network-connectivity-requirements-to-skype-for-business-online"></a>Exigences de connectivité réseau pour Skype entreprise Online
 
-### <a name="factors-that-impact-skype-for-business-online-media-quality"></a>Facteurs qui influent sur Skype pour la qualité des médias Business en ligne
+### <a name="factors-that-impact-skype-for-business-online-media-quality"></a>Facteurs ayant un impact sur la qualité multimédia de Skype entreprise Online
 
-Il existe de nombreux facteurs qui contribuent à Skype pour la connectivité réseau, l’environnement et la qualité des médias (partage d’application, audio et vidéo) en ligne en temps réel de métier qui incluent les périphériques qui sont utilisés. 
+Il existe de nombreux facteurs différents pour la qualité de média en temps réel de Skype entreprise Online (audio, vidéo et partage d’application) qui inclut les périphériques utilisés, l’environnement et la connectivité réseau. 
   
 #### <a name="devices"></a>Appareils
 
-Dans une session multimédia en temps réel, media capture et le rendu des périphériques qui sont utilisés par tous les participants, tels que les casques et les webcams ont un impact important sur l’ensemble qualité audio et vidéo. Les périphériques de qualité inférieure ou dont les pilotes sont incorrects produiront globalement des sons et des images de moins bonne qualité. Les périphériques certifiés ou de bonne qualité, en revanche, améliorent l'annulation d'écho, le filtrage du bruit et la résolution vidéo, et réduisent les temps de latence.
+Dans une session multimédia en temps réel, la capture multimédia et le rendu des appareils utilisés par tous les participants, tels que les casques et les webcams ont un impact important sur la qualité globale de l’audio et de la vidéo. Les périphériques de qualité inférieure ou dont les pilotes sont incorrects produiront globalement des sons et des images de moins bonne qualité. Les périphériques certifiés ou de bonne qualité, en revanche, améliorent l'annulation d'écho, le filtrage du bruit et la résolution vidéo, et réduisent les temps de latence.
   
-Bien que certifié médias audio et vidéo ne sont pas obligatoires, il est vivement recommandé de périphériques certifié pour Skype pour les entreprises pour l’expérience multimédia optimale. Pour obtenir la liste de tous les Skype pour les entreprises certifiées d’appareils, voir [téléphones et appareils pour Skype pour les entreprises](https://technet.microsoft.com/en-us/office/dn947482). Vous pouvez utiliser la [Skype pour Business Online Dashboard qualité des appels](/microsoftteams/turning-on-and-using-call-quality-dashboard), trouvés dans **Skype pour Business admin center**, pour vérifier le fonctionnement des périphériques en cours d’utilisation et surveiller la qualité des médias audio et vidéo.
+Même si les périphériques audio et vidéo certifiés ne sont pas requis, il est fortement recommandé d’avoir une certification Skype entreprise pour une qualité multimédia optimale. Pour obtenir la liste des appareils certifiés Skype entreprise, reportez-vous à la rubrique [téléphones et périphériques pour Skype entreprise](https://technet.microsoft.com/en-us/office/dn947482). Vous pouvez utiliser le [tableau de bord de qualité des appels de Skype entreprise Online](/microsoftteams/turning-on-and-using-call-quality-dashboard)dans le **Centre d’administration de Skype entreprise**pour vérifier le fonctionnement correct des appareils utilisés et surveiller la qualité des médias audio et vidéo.
   
 > [!TIP]
-> **Un périphérique certifié est requis pour la plus optimale Skype pour Business qualité multimédias**.
+> **Un périphérique certifié est requis pour garantir une qualité multimédia optimale sur Skype entreprise**.
   
-Il est important de noter que tous les périphériques multimédia, Skype pour les clients d’entreprise et Skype des serveurs d’entreprise via le flux de médias en temps réel, introduisent certains de latence. Le périphérique et les logiciels de traitement latence, ainsi que de la latence du réseau, ayant un impact important sur et contribuent à la latence globale de bout en bout et l’expérience de l’utilisateur final.
+Il est important de garder à l’esprit que les appareils multimédias, les clients Skype entreprise et les serveurs Skype entreprise via lesquels des flux multimédia en temps réel présentent un certain temps de latence. Le temps de latence du processus et du périphérique, en plus de la latence du réseau, a un impact important sur la latence globale globale et sur l’utilisation de l’utilisateur final.
   
 #### <a name="environment"></a>Environnement
 
 L'environnement des locaux dans lesquels les utilisateurs se rencontrent et utilisent des périphériques audio et vidéo est un autre facteur important pour la qualité audio et vidéo. Les utilisateurs qui appellent à partir d'un environnement bruyant produiront des échos et un son audio sourd et difficilement audible. Les utilisateurs dans un environnement sombre ou de luminosité faible ne seront pas en mesure de produire une qualité d'image lumineuse et nette pour la vidéo. Dans une salle de conférence, l'emplacement du microphone et du périphérique vidéo ont un impact direct sur la qualité du son et de l'image que les participants recevront.
   
-Pour obtenir une image plus claire d’utilisation de l’expérience audio et vidéo d’un utilisateur le Skype pour l’application de gestion des **Outils** > **Options** > **Périphérique Audio** ou **Périphérique vidéo** pour apporter des modifications à l’appareil en cours d’utilisation et de personnaliser ses paramètres.
+Pour obtenir une image plus claire de l’utilisation de l’audio et de la vidéo d’un utilisateur, utilisez le**périphérique audio** ou**** > le **périphérique vidéo** des **Outils** > de l’application Skype entreprise pour modifier les paramètres de l’appareil.
 
 #### <a name="network"></a>Réseau
 
-La qualité des médias en temps réel via le réseau IP est considérablement affectée par la qualité de la connectivité réseau, mais surtout par la quantité de :
+La qualité multimédia en temps réel sur le réseau IP est fortement affectée par la qualité de la connectivité du réseau, mais surtout par la quantité de:
   
-- **Latence** Il s’agit du temps que nécessaire pour obtenir un paquet IP à partir d’un point à point B sur le réseau. Ce délai de propagation de réseau est essentiellement lié à distance physique entre les deux points et la vitesse de la lumière, y compris une surcharge supplémentaire prise par les routeurs différents entre les deux. Latence est exprimée en tant qu’heure à sens unique ou aller-retour (durée aller-retour).
+- **Latence** Il s’agit du temps nécessaire à l’obtention d’un paquet IP du point A au point B sur le réseau. Ce délai de propagation du réseau est essentiellement lié à la distance physique entre les deux points et la vitesse de la lumière, y compris la surcharge supplémentaire prélevée par les différents routeurs entre eux. La latence est mesurée comme une seule ou même durée de boucle (RTT).
     
-- **Perte de paquets** Il est souvent définie sous forme de pourcentage des paquets sont perdus dans une fenêtre de temps donnée. Perte de paquets affecte directement la qualité audio, de petite, individuel perdu paquets n’ayant pratiquement aucune incidence, pertes rafale DOS à DOS provoquer complète Couper-sortie audio.
+- **Perte de paquets** Il s’agit généralement d’un pourcentage de paquets perdus dans une période donnée. La perte de paquets affecte directement la qualité audio (par rapport aux petits paquets perdus individuels qui n’ont presque aucun impact, en raison d’une perte de Burst en retour en continu qui engendre une coupure audio complète).
     
-- **Arrivée entre les paquets gigue ou simplement gigue** Il s’agit de la variation moyenne de retard entre les paquets successives. Plus modernes VoIP logicielle notamment Skype pour les entreprises permettre s’adapter à certains niveaux de gigue par le biais de mise en mémoire tampon. Il est uniquement lorsque la gigue dépasse la mise en mémoire tampon qu’un participant remarqueront les effets de gigue.
+- Scintillement du son **entre les paquets ou** inversement Il s’agit de la modification moyenne du délai entre les paquets successifs. La plupart des logiciels VoIP modernes, dont Skype entreprise, peuvent s’adapter à certains niveaux de scintillement par le biais de la mise en mémoire tampon. C’est uniquement lorsque l’instabilité est supérieure à la mise en mémoire tampon qu’un participant notera les effets de gigue.
     
 > [!NOTE]
->  Mise en mémoire tampon de gigue augmente la latence de bout en bout.
+>  La mise en mémoire tampon pour le scintillement permettra d’augmenter la latence de bout en bout.
   
-Avec nombreux Skype simultanés pour les sessions de support en ligne en temps réel de Business, ainsi que le trafic réseau généré par les autres applications et d’autres services Office 365, s’assurer qu’il y a suffisamment de bande passante sur le chemin d’accès de l’ensemble du réseau qui connecte votre réseau à le Skype pour Business Online service est fondamental pour éviter la congestion du réseau et assurez-vous multimédia excellente qualité des médias en temps réel (partage d’application, audio et vidéo). 
+Avec beaucoup de sessions multimédias en temps réel Skype entreprise Online, ainsi que le trafic réseau généré par d’autres services 365 d’Office et d’autres applications métier, assurez-vous qu’il y a suffisamment de bande passante pour le chemin réseau complet. Il est essentiel de connecter votre réseau au service de Skype entreprise Online afin d’éviter la congestion du réseau et de garantir une qualité de média en temps réel (audio, vidéo et de partage d’application). 
   
-#### <a name="implementing-quality-of-service-qos-across-congested-networks"></a>L’implémentation de qualité de Service (QoS) sur des réseaux saturées
+#### <a name="implementing-quality-of-service-qos-across-congested-networks"></a>Mise en œuvre de la qualité de service (QoS) sur des réseaux encombrés
 
-En outre, congestion du trafic réseau considérablement impact sur la qualité des médias. Pour permettre aux paquets audio et vidéos pour le réseau plus rapidement en déplacement et la priorité sur le trafic réseau dans un réseau saturé, qualité de Service (QoS) peut être utilisée afin d’offrir une expérience utilisateur optimale pour les communications audio et vidéos.
+De plus, la congestion du trafic sur un réseau aura un impact considérable sur la qualité multimédia. Pour autoriser les paquets audio et vidéo à voyager du réseau plus rapidement et aux priorités sur le trafic réseau d’un réseau encombré, il est possible d’utiliser la qualité de service (QoS) pour fournir une utilisation optimale des communications audio et vidéo.
   
-QoS permet d’assigner priorité supérieure aux paquets réseau sont exécution des données audio ou vidéo. En attribuant une priorité plus élevée à ces paquets, communications audio et vidéos sont susceptibles de se déplacent sur le réseau plus rapide et moins interruption, que les sessions de réseau impliquant des transferts de fichiers, navigation sur le web ou des sauvegardes de base de données. C’est parce que les paquets réseau utilisés pour les transferts de fichiers ou des sauvegardes de base de données par défaut sont affectés « best effort » comme une priorité et une surcharge réseau ne sont pas en tant qu’impact important. Si vous n’attribuer une priorité plus élevée aux paquets multimédia (partage d’application, audio et vidéo) et les laisser également affecté comme « best effort », ils seront trop traités ainsi que tout autre trafic réseau. Selon la quantité de congestion du réseau, il potentiellement finissent dans une expérience de qualité audio et vidéo de global inférieure pour vos utilisateurs.
+La fonction QoS fournit un moyen d’affecter des priorités plus élevées aux paquets réseau qui transportent des données audio ou vidéo. En attribuant une priorité plus élevée à ces paquets, les communications audio et vidéo sont susceptibles d’être acheminées sur le réseau plus rapidement et avec moins d’interruption, qu’il s’agissait de sessions réseau impliquant des transferts de fichiers, de navigation sur le Web ou des sauvegardes de bases de données. En effet, les paquets réseau utilisés pour les transferts de fichiers ou de base de données par défaut sont attribués en priorité et la congestion du réseau n’aura pas le même impact. Si vous n’affectez pas une priorité plus élevée aux paquets de médias (audio, vidéo et de partage d’application), et que vous les laissez également affectés en tant que «meilleur effort», ils sont également traités avec le trafic réseau. En fonction de la quantité de congestion du réseau, le niveau de qualité audio et vidéo peut être inférieur à celui de vos utilisateurs.
   
-Il est vivement recommandé de mettre en œuvre QoS sur votre réseau pour vous assurer que la congestion du réseau au sein de votre réseau ne sont pas avoir un impact. Toutefois, pour cette option pour que l’incidence maximale, tous les points de terminaison de mise en réseau doivent prendre en charge QoS, ce qui signifie que tous les points de terminaison doivent respecter le marquage de QoS et hiérarchisation des paquets. Skype pour les services en ligne Business respectent le marquage qualité de service et définition des priorités au sein du réseau Microsoft. Toutefois, le trafic acheminé via une connexion à Internet depuis votre réseau d’entreprise pour le réseau Microsoft publique ne conserve les marques de qualité de service et hiérarchisation des paquets. Connexions à partir de votre réseau vers Office 365 à l’aide [d’Azure ExpressRoute](https://azure.microsoft.com/services/expressroute/) offrent une solution de déploiement qui conserve le marquage QoS et hiérarchisation des paquets qui à son tour augmente globale audio et la qualité vidéo pour vos utilisateurs finaux.
+Il est vivement recommandé de mettre en œuvre la qualité de service (QoS) sur votre réseau pour vous assurer que la congestion du réseau au sein de votre réseau n’aura aucun impact. Toutefois, pour que cela ait un impact maximal, tous les points de terminaison réseau doivent prendre en charge la qualité de service (QoS), ce qui signifie que tous les points de terminaison doivent respecter le marquage QoS et la priorité des paquets. Les services Skype entreprise Online respectent le marquage QoS et la hiérarchisation au sein du réseau Microsoft. Toutefois, le trafic acheminé au sein d’une connexion publique telle que Internet de votre réseau d’entreprise vers le réseau Microsoft ne conserve pas les marques de QoS et la hiérarchisation des paquets. Les connexions privées entre votre réseau et Office 365 à l’aide d' [Azure ExpressRoute](https://azure.microsoft.com/services/expressroute/) proposent une solution de déploiement qui préserve les marques de QoS et la hiérarchisation des paquets pour améliorer la qualité audio et vidéo globale de vos utilisateurs finaux.
   
-## <a name="network-performance-requirements-to-connect-to-skype-for-business-online"></a>Exigences de performances réseau pour se connecter à Skype pour Business Online
+## <a name="network-performance-requirements-to-connect-to-skype-for-business-online"></a>Conditions requises de performances réseau pour une connexion à Skype entreprise Online
 <a name="bkNetworkPerf"> </a>
 
-Skype pour les médias en temps réel Business transite par le biais de nombreux périphériques différents, applications clientes, logiciel du serveur et à travers différents réseaux. La latence de bout en bout de médias en temps réel est la quantité totale de la latence est une nouveauté dans tous les composants et les segments réseau. La qualité de la connexion réseau de bout en bout est déterminée par le segment de réseau avec la plus mauvaise qualité. Ce segment joue un goulot d’étranglement pour ce trafic réseau.
+Le contenu multimédia en temps réel de Skype entreprise est parcouru par divers appareils, applications clientes, logiciels serveur et sur différents réseaux. La latence de bout en bout de média en temps réel correspond au volume total de latence présenté sur l’ensemble des composants et des segments réseau. La qualité de la connexion réseau de bout en bout est déterminée par le segment réseau ayant la mauvaise qualité. Ce segment agit comme un goulet d’étranglement pour ce trafic réseau.
   
-Le diagramme suivant illustre le flux audio à sens unique dans une conférence à partir d’un Skype participant d’entreprise à l’autre.
+Le diagramme suivant illustre le flux audio unidirectionnel d’une conférence entre un participant Skype entreprise et un autre.
   
 ![Flux d’appels ExpressRoute.](../images/c026e8e5-ba09-42c0-9e03-60fbfda1cb02.png)
   
-Dans ce scénario de conférence, le chemin d’accès des médias se compose entre les segments réseau suivants :
+Dans ce scénario de conférence, le chemin multimédia est constitué des segments réseau suivants:
   
-1. **Connexion de l’utilisateur 1 et le bord du réseau Microsoft** Cela inclut généralement une connexion de réseau telles que la connexion Internet de votre réseau de périphérie réseau Microsoft Edge Wi-Fi ou Ethernet et la connexion WAN de l’utilisateur 1 pour le point de sortie Internet (votre périphérique de périphérie réseau).
+1. **Connexion de l’utilisateur 1 au bord du réseau Microsoft** Il s’agit généralement d’une connexion réseau telle que WiFi ou Ethernet, de la connexion WAN de l’utilisateur 1 au point de sortie Internet (votre appareil de périmètre réseau) et de la connexion Internet entre le périmètre réseau et le réseau de périmètre Microsoft.
     
-2. **Connexion au sein du réseau Microsoft** Il s’agit entre le Microsoft Edge à Skype pour le centre de données métiers en ligne, où A / V Conferencing serveurs sont utilisés.
+2. **Connexion au sein du réseau Microsoft** C’est entre le Microsoft Edge et le centre de données Skype entreprise Online dans lequel les serveurs de conférence A/V sont utilisés.
     
-3. **Connexion au sein du réseau Microsoft** Il s’agit entre le Skype pour le centre de données métiers en ligne et le réseau Microsoft Edge.
+3. **Connexion au sein du réseau Microsoft** C’est entre le centre de données Skype entreprise Online et le réseau de périmètre Microsoft.
     
-4. **Connexion à partir du côté du réseau Microsoft à l’utilisateur 2** Cela inclut la connexion Internet de votre réseau de périphérie réseau Microsoft Edge, la connexion WAN à partir de l’utilisateur 2 pour le point de sortie Internet (votre réseau Edge) et la connexion réseau comme un Wi-Fi ou Ethernet.
+4. **Connexion du Microsoft Network Edge à l’utilisateur 2** Cela inclut la connexion Internet entre le périmètre réseau et le réseau de périmètre Microsoft, la connexion WAN de l’utilisateur 2 au point de sortie Internet (votre périmètre réseau) et la connexion réseau telle qu’un réseau Wi-Fi ou Ethernet.
     
-Le diagramme suivant illustre la répartition des composants et des segments réseaux d’un Skype pour appel PSTN en ligne d’entreprise :
+Le schéma suivant illustre la répartition des composants et des segments réseau d’un appel RTC de Skype entreprise Online:
   
-![Flux d’appels PSTN ExpressRoute opérateur.](../images/768a88df-c8a9-4171-a158-565a698f0193.png)
+![Flux d’appels d’opérateur RTC ExpressRoute.](../images/768a88df-c8a9-4171-a158-565a698f0193.png)
   
-Dans un scénario d’appel RTC, le chemin d’accès des médias coupe les segments réseau suivants :
+Dans un scénario d’appel RTC, le chemin multimédia passe par les segments réseau suivants:
   
-1. **Connexion à partir d’un Skype pour Business client de l’appelant vers le bord du réseau Microsoft** Cela inclut généralement une connexion de réseau telles que la connexion Internet de votre réseau de périphérie réseau Microsoft Edge Wi-Fi ou Ethernet et la connexion WAN à partir de la Skype pour l’appelant de client d’entreprise pour le point de sortie Internet (votre périphérique de périphérie réseau).
+1. **Connexion d’un client appelant Skype entreprise au bord du réseau Microsoft** Il s’agit généralement d’une connexion réseau telle que WiFi ou Ethernet, de la connexion WAN de l’appelant du client Skype entreprise au point de sortie Internet (votre appareil de périmètre réseau) et de la connexion Internet à partir du réseau de périmètre Microsoft.
     
-2. **Connexion au sein du réseau Microsoft** Il s’agit entre le Microsoft Edge à Skype pour le centre de données métiers en ligne, où un serveur de médiation est utilisé.
+2. **Connexion au sein du réseau Microsoft** Entre le Microsoft Edge et le centre de données Skype entreprise Online, dans lequel un serveur de médiation est utilisé.
     
-3. **Connexion au sein du réseau Microsoft** Il s’agit entre le Skype pour le centre de données métiers en ligne et le réseau Microsoft Edge.
+3. **Connexion au sein du réseau Microsoft** C’est entre le centre de données Skype entreprise Online et le réseau de périmètre Microsoft.
     
-4. **Connexion entre le réseau Microsoft et les partenaires de fournisseur de service RTC** Il s’agit de la connexion qui existe pour émettre un appel RTC à partir de la Skype pour client d’entreprise se trouvant en dehors du réseau de Microsoft.
+4. **Connexion entre le réseau de Microsoft et les partenaires du fournisseur de services RTC** Il s’agit de la connexion qui permet de passer un appel RTC à partir du client Skype entreprise hors du réseau Microsoft.
     
-### <a name="network-performance-requirements-from-a-skype-for-business-client-to-microsoft-network-edge"></a>Exigences de performances réseau à partir d’un Skype pour client d’entreprise au réseau Microsoft Edge
+### <a name="network-performance-requirements-from-a-skype-for-business-client-to-microsoft-network-edge"></a>Conditions requises de performances réseau entre un client Skype entreprise et le réseau de périmètre Microsoft
 <a name="bkSfBClienttoEdge"></a>
 
-Skype optimale pour la qualité des médias, les objectifs de mesures de performances réseau ou les seuils suivants sont requis pour une connexion de réseau de votre société à Microsoft network Edge. Ce segment de réseau comprend votre réseau interne, cela inclut toutes les connexions Wi-Fi et Ethernet, le trafic de n’importe quel site à société via une connexion WAN, par exemple commutation étiquette multiprotocole (MPLS), ainsi que le partenaire Internet ou ExpressRoute connexions au réseau Microsoft Edge.
+Pour garantir une qualité multimédia optimale, vous devez disposer des cibles ou des seuils de mesure de performance réseau suivantes pour une connexion entre le réseau de votre entreprise et le réseau de périmètre Microsoft. Ce segment du réseau inclut votre réseau interne, ainsi que toutes les connexions Wi-Fi et Ethernet, le trafic site-à-site d’une entreprise sur une connexion WAN, par exemple le changement d’étiquette multiprotocole (MPLS), ainsi que le partenaire Internet ou ExpressRoute connexions au Microsoft Edge Network.
   
 > [!CAUTION]
-> **La connectivité entre un Skype pour client d’entreprise sur votre réseau d’entreprise aux services Office 365 doit répondre à ces exigences de performances réseau suivants et les seuils.**
+> **La connectivité entre un client Skype entreprise sur votre réseau d’entreprise et les services 365 Office doit répondre aux exigences et aux seuils de performances réseau suivantes.**
   
 |||
 |:-----|:-----|
 |**Mesure** <br/> |**Cible** <br/> |
-|Latence (unidirectionnelle)  <br/> |< aller-retour de 50 millisecondes  <br/> |
-|Latence (durée aller-retour ou temps d’aller-retour)  <br/> |< 100 millisecondes  <br/> |
-|Perte de paquets en rafale  <br/> |<10 % au cours de l’intervalle de 200 MS  <br/> |
-|Perte de paquets  <br/> |<1 % au cours des 15 s intervalle  <br/> |
-|Gigue arrivée entre des batteries de paquets  <br/> |<30ms pendant les 15 s intervalle  <br/> |
-|Réorganisation des paquets  <br/> |paquets d’ordre <0.05%  <br/> |
+|Latence (unidirectionnelle)  <br/> |< elle  <br/> |
+|Latence (RTT ou durée de l’aller-retour)  <br/> |100 millions de <  <br/> |
+|Perte de paquets en rafale  <br/> |<10% pendant tout intervalle de 200 millions  <br/> |
+|Perte de paquets  <br/> |<1% pendant tout intervalle 15s  <br/> |
+|Gigue entre les arrivées de paquets  <br/> |<30ms pendant tout intervalle 15s  <br/> |
+|Réorganisation des paquets  <br/> |< 0,05% de paquets en souffrance  <br/> |
    
- **Autres exigences de cibles de performances :**
+ **Autres objectifs de performances requis:**
   
-- Le réseau Microsoft a plus de 160 emplacements Edge dans le monde entier. Travail avec les principaux fournisseurs de services Internet (fournisseurs) dans le monde par le biais de ces sites Edge. La cible de métrique latence suppose que votre site de l’entreprise ou les sites et les Edges Microsoft sont sur le même continent.
+- Microsoft Network possède plus de 160 emplacements dans le monde. Nous travaillons avec des fournisseurs de services Internet importants dans le monde entier par le biais de ces sites latéraux. La cible métrique de latence suppose que le site ou les sites de votre entreprise et les bords Microsoft se trouvent sur le même continent.
     
-- Votre société ou des sites pour le réseau Microsoft connexion Edge incluent le premier accès tronçon réseau, qui peut être Wi-Fi ou une autre technologie sans fil. 
+- Le site ou les sites de votre entreprise vers la connexion au réseau de périmètre Microsoft inclut un accès réseau de premier saut, qui peut être WiFi ou une autre technologie sans fil. 
     
-- La cible de performance réseau suppose que la bande passante appropriée et/ou de la qualité de la planification du service. En d’autres termes, cela s’applique directement à Skype pour le trafic multimédia en temps réel Business lorsque la connexion réseau est soumis à une charge maximale.
+- Le ciblage des performances du réseau adopte une bande passante et/ou une qualité de service correcte. En d’autres termes, cela s’applique directement au trafic multimédia en temps réel de Skype entreprise lorsque la connexion réseau est en retard.
     
-### <a name="network-performance-requirements-from-your-network-edge-to-microsoft-network-edge"></a>Exigences de performances réseau de votre réseau de périphérie réseau Microsoft Edge
+### <a name="network-performance-requirements-from-your-network-edge-to-microsoft-network-edge"></a>Conditions requises de performances réseau entre le périmètre réseau et le réseau de périmètre Microsoft
 <a name="bkYourNetworkEdge"> </a>
 
-Voici les objectifs de performances réseau ou les seuils qui sont requis pour la connexion entre votre réseau de périphérie et le réseau Microsoft Edge. Ce segment de réseau exclut le réseau interne du client ou sur des liaisons réseau étendu et est destiné à des instructions lorsque vous testez le trafic réseau qui est envoyé via Internet ou via un réseau de partenaire ExpressRoute et peut également être utilisé lors de la négociation de performances Niveau de contrat service (SLA) avec votre fournisseur de ExpressRoute.
+Vous trouverez ci-après les cibles de performance réseau ou les seuils requis pour la connexion entre le périmètre réseau et le réseau de périmètre Microsoft. Ce segment du réseau exclut le réseau interne du client ou le WAN, et est destiné aux recommandations en matière de test du trafic réseau envoyé via Internet ou par le biais d’un réseau de partenariat ExpressRoute et peut également être utilisé lors de la négociation d’une performance. Contrat de niveau de service (SLA) avec votre fournisseur de services de ExpressRoute.
   
 > [!CAUTION]
-> **La connectivité entre votre réseau d’entreprise Edge et le bord du réseau Microsoft doit répondre à ces exigences de performances réseau suivants et les seuils.**
+> **La connectivité entre le périmètre de votre réseau d’entreprise et le réseau de périmètre Microsoft doit répondre aux exigences et aux seuils de performances réseau suivantes.**
   
 |||
 |:-----|:-----|
 |**Mesure** <br/> |**Cible** <br/> |
 |Latence (unidirectionnelle)  <br/> |< 30ms  <br/> |
-|Latence (durée aller-retour)  <br/> |< 60 MS  <br/> |
-|Perte de paquets en rafale  <br/> |<1 % au cours de l’intervalle de 200 ms  <br/> |
-|Perte de paquets  <br/> |<0.1% pendant les 15 s intervalle  <br/> |
-|Gigue arrivée entre des batteries de paquets  <br/> |<15ms pendant les 15 s intervalle  <br/> |
-|Réorganisation des paquets  <br/> |paquets d’ordre <0.01%  <br/> |
+|Latence (RTT)  <br/> |< 60ms  <br/> |
+|Perte de paquets en rafale  <br/> |<1% pendant un intervalle de MS 200  <br/> |
+|Perte de paquets  <br/> |< 0,1% pendant tout intervalle 15s  <br/> |
+|Gigue entre les arrivées de paquets  <br/> |<15ms pendant tout intervalle 15s  <br/> |
+|Réorganisation des paquets  <br/> |< 0,01% de paquets en souffrance  <br/> |
    
- **Autres exigences de cibles de performances :**
+ **Autres objectifs de performances requis:**
   
-- La cible de performance nécessite une connexion entre un réseau de votre société Edge et son réseau de Microsoft le plus proche Edge, soit sur le même continent.
+- L’objectif de performance nécessite une connexion entre l’un des bords du réseau de votre entreprise et le réseau de périmètre Microsoft le plus proche, qui se trouve sur le même continent.
     
-- La cible de performance réseau suppose que la bande passante appropriée et/ou de la qualité de la planification du service. Cela s’applique également à Skype pour le trafic multimédia en temps réel Business lorsque la connexion réseau est soumis à une charge maximale. Pour la bande passante appropriée et planification QoS, reportez-vous à [ExpressRoute et QoS dans Skype pour Business Online](https://support.office.com/en-us/article/ExpressRoute-and-QoS-in-Skype-for-Business-Online-20c654da-30ee-4e4f-a764-8b7d8844431d?ui=en-US&amp;rs=en-US&amp;ad=US).
+- Le ciblage des performances du réseau adopte une bande passante et/ou une qualité de service correcte. Cela s’applique également au trafic multimédia en temps réel de Skype entreprise lorsque la connexion réseau est en retard. Pour obtenir une bande passante et une planification de qualité de service appropriées, consultez la [ExpressRoute et la qualité de service (QoS) dans Skype entreprise Online](https://support.office.com/en-us/article/ExpressRoute-and-QoS-in-Skype-for-Business-Online-20c654da-30ee-4e4f-a764-8b7d8844431d?ui=en-US&amp;rs=en-US&amp;ad=US).
     
-## <a name="measuring-network-performance"></a>Mesure des performances réseau
+## <a name="measuring-network-performance"></a>Mesure des performances du réseau
 <a name="bkNetworkPerf"> </a>
 
-Pour mesurer les performances réseau, en particulier pour la latence et la perte de paquets, d’un site de réseau d’entreprise à un réseau de périphérie, vous pouvez utiliser des outils tels que ping, test par rapport à un ensemble de Skype pour les services de relais multimédia en cours d’exécution à partir des données et Microsoft Edge sites centre. 
+Pour mesurer les performances réelles du réseau, en particulier pour la latence et la perte de paquets, de tout site du réseau d’entreprise à un réseau d’entreprise, vous pouvez utiliser des outils tels que ping, test avec un ensemble de services de relais de médias Skype entreprise exécutés à partir de Microsoft Edge et données. Center sites. 
   
-Pour tester les connexions réseau Microsoft Internet, il est recommandé de tester les VIP suivantes de la Skype pour relais multimédia de Business. L' *Adresse IP virtuelle de diffusion aléatoire* résout l’adresse IP d’un serveur relais multimédia dans un site de périphérie réseau Microsoft le plus proche de l’emplacement de test.
+Pour tester les connexions Internet au réseau Microsoft, il est recommandé d’effectuer des tests par rapport aux VIP suivantes des relais multimédias Skype entreprise. Le protocole *VIP de anycast* sera résolu en une adresse IP d’un relais multimédia dans un site Microsoft Edge Network le plus proche de l’emplacement de test.
   
 ||||
 |:-----|:-----|:-----|
 |**Adresse IP** <br/> |**Type** <br/> |**Emplacement** <br/> |
-|13.107.8.2  <br/> |ADRESSE IP VIRTUELLE  <br/> |IP de diffusion aléatoire à l’échelle mondiale  <br/> |
+|13.107.8.2  <br/> |VIRTUELLE  <br/> |IP anycast dans le monde  <br/> |
    
- **Voici quelques recommandations à suivre pour évaluer les performances réseau de haut niveau :**
+ **Voici quelques recommandations générales à suivre pour évaluer les performances du réseau:**
   
-- Vous devez évaluer votre réseau interne, ainsi que les connexions à Office 365.
+- Vous devez évaluer votre réseau interne ainsi que les connexions à Office 365.
     
-- Vous devez évaluer et recueillir des données sur une longue période de temps pour tous les réseaux. Nous vous recommandons d’effectuer les tests des performances du réseau au moins une semaine, afin que vous pouvez voir les modèles d’utilisation pour tous les jours et heures. Vous verrez heures de pointe.
+- Vous devez évaluer et recueillir des données pour tous vos réseaux sur une longue période. Nous vous recommandons d’effectuer des tests sur les performances du réseau pour une durée d’une semaine minimum, afin que vous puissiez voir les modèles d’utilisation pour tous les jours et heures de travail. Cela vous permettra de montrer les heures de pointe.
     
-- Vous devez prendre plusieurs exemples de mesures de performances réseau. Nous vous recommandons d’effectuer une mesure 10 minutes à partir d’un site de l’entreprise pendant toute la durée de temps que sont collecte de données. Pour comparer la Skype pour des exigences de performances réseau en ligne Business, prendre le 90e centile de mesure à partir de cet ensemble de données exemple. 
+- Vous devez prendre plusieurs exemples de mesures de performance réseau. Nous vous recommandons de suivre une mesure toutes les 10 minutes du site d’une entreprise au cours de la période pendant laquelle vous rassemblez les données. Pour comparer les exigences en matière de performances réseau de Skype entreprise Online, prenez la valeur de mesure de quatre-dixièmes à partir de cet exemple de jeu de données. 
     
-- Vous devez évaluer en permanence des performances du réseau. L’utilisation du réseau varie au fil du temps en raison des modifications de modèle d’utilisation, nouvelles applications entreprise qui utilisent une grande quantité de bande passante et les modifications apportées à vos emplacements d’organisation ou physique de la société. Il est important de surveiller les performances de votre réseau par rapport à ces exigences de performances réseau et les cibles/seuils et effectuer des ajustements en temps voulu pour garantir la qualité des médias en temps réel optimale en continu. 
+- Vous devez en permanence évaluer les performances du réseau. L’utilisation du réseau varie en fonction de la proportion d’utilisation, des nouvelles applications d’entreprise qui utilisent une grande quantité de bande passante et des modifications apportées à vos emplacements d’entreprise ou physiques. Il est important de surveiller en continu les performances de votre réseau par rapport aux exigences et aux seuils de performances de votre réseau et de procéder à des ajustements adaptés pour garantir une qualité multimédia optimale en temps réel. 
     
-## <a name="measuring-network-performance-using-azure-vms"></a>Mesure des performances réseau à l’aide de machines virtuelles Azure
+## <a name="measuring-network-performance-using-azure-vms"></a>Mesure des performances du réseau à l’aide d’Azure VM
 <a name="bkNetworkPerf"> </a>
 
-Au lieu de tester les sites de périphérie réseau Microsoft, il existe de solutions d’évaluation de réseau de Skype pour les entreprises et les partenaires qui tirent parti de test du programme d’installation pour les services dans le nuage Microsoft Azure. Dans ces solutions, les outils d’évaluation réseau tester la latence, la perte de paquets et la gigue par rapport à des points de terminaison personnalisés définis en tant que service dans le nuage Azure. Par conséquent, le trafic réseau test transite par un segment de réseau supplémentaires, qui est la connexion au sein du réseau Microsoft entre les bords du réseau et les centres de données Azure qui héberge le service d’évaluation de réseau.
+Au lieu d’effectuer des tests sur les sites Microsoft Network Edge, il existe des solutions d’évaluation du réseau pour les clients Skype entreprise et les partenaires qui exploitent la configuration des tests pour les services dans Microsoft Azure Cloud. Dans ces solutions, les outils d’évaluation réseau latence de test, de perte de paquets et de gigue par rapport aux points de terminaison personnalisés configurés en tant que service dans le Cloud Azure. Par conséquent, le trafic réseau de test traverse un segment réseau supplémentaire, qui est la connexion au sein du réseau Microsoft entre les bords du réseau et les centres de données Azure qui héberge le service d’analyse du réseau.
   
-Pour ces réseau solutions évaluation basées sur Azure hébergée services tests. Nous vous recommandons d’effectuer l’évaluation de réseau au sein des pays ou région. Par exemple, pour les sites des clients aux États-Unis east, l’évaluation doit être effectuée par rapport à une instance du service de test hébergée dans east de Azure région de centre de données américain. 
+Pour les solutions d’évaluation réseau basées sur des services de tests hébergés par Azure. Nous vous recommandons d’effectuer l’évaluation du réseau dans le pays ou la région. Par exemple, pour les sites de clients résidant aux États-Unis, l’analyse doit être effectuée sur une instance de service de test hébergée dans la région du centre de données américaine d’Azure. 
   
-Vous trouverez ci-dessous la latence cibles (durée aller-retour) pour l’installation d’évaluation de réseau Azure service basé. Les cibles de latence à sens unique sera la moitié des cibles durée aller-retour correspondants. Les objectifs de gigue et de perte de paquets reste la même que ceux définis pour le relais multimédia Skype en fonction de test.
+Vous trouverez ci-dessous les cibles de latence (RTT) pour la configuration de l’analyse réseau basée sur Azure service. Les cibles de latence à sens unique seront la moitié des cibles RTT correspondantes. Les objectifs de perte de paquets et de gigue restent les mêmes que ceux définis pour les tests basés sur le relais multimédia Skype.
   
 |||||
 |:-----|:-----|:-----|:-----|
-|**Région client** <br/> |**Région Azure** <br/> |**Votre réseau de périphérie - temps durée (Azure aller-retour aller-retour)** <br/> |**Votre Site : temps d’aller-retour Azure (durée aller-retour)** <br/> |
-|États-Unis centre  <br/> |États-Unis centre  <br/> |99  <br/> |139  <br/> |
-|Asie US  <br/> |Asie US  <br/> |86  <br/> |126  <br/> |
-|États-Unis centre nord  <br/> |États-Unis centre nord  <br/> |97  <br/> |137  <br/> |
-|États-Unis centre sud  <br/> |États-Unis centre sud  <br/> |94  <br/> |134  <br/> |
-|États-Unis Ouest  <br/> |États-Unis Ouest  <br/> |94  <br/> |134  <br/> |
-|Hawaï US  <br/> |États-Unis Ouest  <br/> |116  <br/> |156  <br/> |
-|Canada Central  <br/> |Canada Central  <br/> |138  <br/> |178  <br/> |
-|East Canada  <br/> |East Canada  <br/> |131  <br/> |171  <br/> |
+|**Région du client** <br/> |**Région Azure** <br/> |**Votre périmètre réseau-Azure Round-Trip Time (RTT)** <br/> |**Votre site-Azure Round-Trip Time (RTT)** <br/> |
+|Centre des États-Unis  <br/> |Centre des États-Unis  <br/> |99  <br/> |139  <br/> |
+|Est américaine  <br/> |Est américaine  <br/> |86  <br/> |126  <br/> |
+|Centre Nord des États-Unis  <br/> |Centre Nord des États-Unis  <br/> |97  <br/> |137  <br/> |
+|Centre Sud des États-Unis  <br/> |Centre Sud des États-Unis  <br/> |94  <br/> |134  <br/> |
+|Ouest des États-Unis  <br/> |Ouest des États-Unis  <br/> |94  <br/> |134  <br/> |
+|Hawaï États-Unis  <br/> |Ouest des États-Unis  <br/> |116  <br/> |156  <br/> |
+|Centre Canada  <br/> |Centre Canada  <br/> |138  <br/> |178  <br/> |
+|Canada est  <br/> |Canada est  <br/> |131  <br/> |171  <br/> |
 |Europe du Nord  <br/> |Europe du Nord  <br/> |99  <br/> |139  <br/> |
 |Europe de l’ouest  <br/> |Europe de l’ouest  <br/> |95  <br/> |135  <br/> |
 |Asie de l’est  <br/> |Asie de l’est  <br/> |118  <br/> |158  <br/> |
-|Asie du Sud-est  <br/> |Asie du Sud-est  <br/> |97  <br/> |137  <br/> |
-|East Japon  <br/> |East Japon  <br/> |111  <br/> |151  <br/> |
-|Ouest Japon  <br/> |Ouest Japon  <br/> |118  <br/> |158  <br/> |
-|Brésil sud  <br/> |Brésil sud  <br/> |70  <br/> |110  <br/> |
-|Asie de l’Australie  <br/> |Asie de l’Australie  <br/> |124  <br/> |164  <br/> |
-|Sud-est Australie  <br/> |Sud-est Australie  <br/> |124  <br/> |164  <br/> |
-|Inde centrale  <br/> |Inde centrale  <br/> |103  <br/> |143  <br/> |
-|Inde du Sud  <br/> |Inde du Sud  <br/> |103  <br/> |143  <br/> |
-|Inde ouest  <br/> |Inde ouest  <br/> |103  <br/> |143  <br/> |
-|East Chine  <br/> |East Chine  <br/> |120  <br/> |160  <br/> |
-|Amérique Chine  <br/> |Amérique Chine  <br/> |120  <br/> |160  <br/> |
+|Asie du sud-est  <br/> |Asie du sud-est  <br/> |97  <br/> |137  <br/> |
+|Japon est  <br/> |Japon est  <br/> |111  <br/> |151  <br/> |
+|Japon ouest  <br/> |Japon ouest  <br/> |118  <br/> |158  <br/> |
+|Sud du Brésil  <br/> |Sud du Brésil  <br/> |70  <br/> |110  <br/> |
+|Australie est  <br/> |Australie est  <br/> |124  <br/> |164  <br/> |
+|Australie sud-est  <br/> |Australie sud-est  <br/> |124  <br/> |164  <br/> |
+|Centre de l’Inde  <br/> |Centre de l’Inde  <br/> |103  <br/> |143  <br/> |
+|Sud de l’Inde  <br/> |Sud de l’Inde  <br/> |103  <br/> |143  <br/> |
+|Inde de l’ouest  <br/> |Inde de l’ouest  <br/> |103  <br/> |143  <br/> |
+|Chine orientale  <br/> |Chine orientale  <br/> |120  <br/> |160  <br/> |
+|Nord de la Chine  <br/> |Nord de la Chine  <br/> |120  <br/> |160  <br/> |
    
-## <a name="media-quality-and-expressroute"></a>La qualité des médias et ExpressRoute
+## <a name="media-quality-and-expressroute"></a>Qualité multimédia et ExpressRoute
 <a name="bkNetworkPerf"> </a>
 
-ExpressRoute Azure pour Office 365 est une connexion réseau dédiée pour se connecter à Office 365. Elle offre aux clients la possibilité de contrôler le chemin d’accès leur Office 365 prend le trafic réseau. Ils n’ont plus être concernés par le routage imprévisible qui se trouve sur Internet où les données a lieu par des opérateurs inconnus, les fournisseurs et les fournisseurs de services Internet. Le trafic réseau qui est envoyé par le biais de ExpressRoute est envoyé directement sur le réseau du partenaire ExpressRoute au réseau de Microsoft. Cela permet aux clients traiter Office 365 comme s’il se trouve dans leur propre centre de données hors site avec une connexion dédiée.
+Azure ExpressRoute pour Office 365 est une connexion réseau dédiée pour la connexion à Office 365. Il offre aux utilisateurs la possibilité de contrôler la trajectoire du trafic réseau d’Office 365. Ils ne doivent plus être préoccupés du routage inattendable qui se produit sur Internet, où les données sont transmises par des opérateurs, fournisseurs et FAI inconnus. Le trafic réseau envoyé via ExpressRoute est envoyé directement par le biais du réseau du partenaire ExpressRoute sur le réseau de Microsoft. Cela permet aux utilisateurs de traiter Office 365 comme s’il se trouve dans leur propre centre de données extérieur-site avec une connexion dédiée.
   
-ExpressRoute Azure est disponible pour toutes les offres de gestion des licences Office 365. Toutefois, le module complémentaire de Azure ExpressRoute Premium est requis pour Office 365 activer le routage global. Les clients Office 365 au moins 500 utilisateurs qui implémentent ExpressRoute peuvent obtenir le requis *Complémentaire ExpressRoute* sans frais supplémentaires.
+Azure ExpressRoute est disponible pour toutes les offre de licences Office 365. Toutefois, le module complémentaire Azure ExpressRoute Premium est requis pour que Office 365 active le routage global. Les clients Office 365 possédant au moins 500 sièges qui implémentent ExpressRoute peuvent obtenir le *module complémentaire ExpressRoute Premium* requis sans frais supplémentaires.
   
-### <a name="is-expressroute-required-for-good-media-quality"></a>ExpressRoute est requis pour la qualité des médias bonne ?
+### <a name="is-expressroute-required-for-good-media-quality"></a>ExpressRoute est-il requis pour obtenir une bonne qualité multimédia?
 
-ExpressRoute Azure n’est pas une condition requise pour l’obtention de la plus optimale Skype pour la qualité des médias Business en ligne. Il est toutefois un du déploiement options qui vous aident à vérifier que votre connectivity nuage répond à la Skype pour les objectifs de performances réseau Business ou les seuils.
+Azure ExpressRoute n’est pas une obligation pour obtenir la meilleure qualité multimédia de Skype entreprise online. Il s’agit toutefois de l’une des options de déploiement qui vous permettent de vous assurer que votre connectivité Cloud répond aux objectifs ou aux seuils de performances réseau de Skype entreprise.
   
-Office 365 est un service d’informations sécurisé qui utilise Internet et hautes performances. Nous continuer à investir dans des nouvelles fonctionnalités de sécurité et les nœuds Edge locaux pour améliorer les performances et la sécurité en continu. ExpressRoute Azure n’est pas une condition requise pour les services Office 365, notamment Skype pour Business en ligne. ExpressRoute Azure est un du déploiement options disponibles qui aideront à vous assurer que connectivité à Office 365 respecte la Skype pour les besoins de performances réseau et garantit la plus optimale Skype pour la qualité des médias Business en ligne expérience.
+Office 365 est un service de grande performance et sécurisé qui utilise Internet. Nous continuons à investir dans de nouvelles fonctionnalités de sécurité et de nœuds de bordure régionale pour améliorer en permanence la sécurité et les performances. Azure ExpressRoute n’est pas requis pour les services Office 365, dont Skype entreprise online. Azure ExpressRoute est l’une des options de déploiement disponibles qui vous aideront à vous assurer que la connectivité à Office 365 répond aux exigences de performance réseau de Skype entreprise et à garantir une qualité multimédia optimale de Skype entreprise online. expérimenté.
   
-Skype pour la qualité des médias Business en ligne, il est important que la connexion entre les sites de votre entreprise et les bords du réseau Microsoft satisfait les objectifs de performances exigences [performances réseau à partir d’un Skype pour client d’entreprise de Microsoft network Edge](media-quality-and-network-connectivity-performance.md#bkSfBClienttoEdge) et que la connexion entre les bords de votre réseau et les bords du réseau Microsoft satisfait les objectifs de performances dans [des exigences de performances réseau de votre réseau de périphérie réseau Microsoft Edge](media-quality-and-network-connectivity-performance.md#bkYourNetworkEdge).  
+Pour la qualité multimédia de Skype entreprise Online, il est important que la connexion entre les sites de votre entreprise et les bords du réseau Microsoft réponde aux objectifs de performances [réseau en termes de performances réseau, d’un client Skype entreprise à un réseau Microsoft. Edge](media-quality-and-network-connectivity-performance.md#bkSfBClienttoEdge) , et que la connexion entre les bords de votre réseau et les bords du réseau Microsoft répond aux cibles de performance dans les [exigences des performances réseau du réseau de périmètre](media-quality-and-network-connectivity-performance.md#bkYourNetworkEdge)du réseau Microsoft.  
   
-Il est également important que connectivité réseau physique de votre société, y compris la capacité de connectivité réseau et nuage interne prendre en charge le volume de trafic multimédia de pointe. Azure ExpressRoute est une des façons qui permettra aux clients de vérifier leur Skype pour la connectivité de cloud Business Online répond à toutes ces exigences de performances.
+Il est également important que la connectivité réseau physique de votre entreprise, y compris la capacité de votre réseau interne et de la connectivité Cloud, atteigne le volume de trafic multimédia maximal. Azure ExpressRoute est l’un des nombreux moyens qui permettront aux clients de s’assurer que leur connectivité Cloud Skype entreprise Online répond à toutes ces exigences de performances.
   
-### <a name="is-expressroute-required-for-voice-quality-sla"></a>ExpressRoute est requis pour SLA de qualité vocale ?
+### <a name="is-expressroute-required-for-voice-quality-sla"></a>ExpressRoute est-il requis pour le SLA de qualité vocale?
 
-Non, ExpressRoute n’est pas requis pour Skype pour SLA de qualité vocale en ligne Business. Le [Skype pour SLA de qualité vocale en ligne Business](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=37) s’applique à n’importe quel appel éligible par n’importe quel Skype pour l’utilisateur du service voix entreprise en ligne au sein de la licence correcte et d’abonnement qui permet à cet utilisateur d’effectuer n’importe quel type d’appel VoIP ou PSTN. Un contrat de qualité de voix doit comprendre que toutes les conditions suivantes sont résolus :
+Non, ExpressRoute n’est pas requis pour le SLA de qualité vocale de Skype entreprise online. Le [SLA de qualité vocale de Skype entreprise Online](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=37) s’applique aux appels éligibles placés par n’importe quel utilisateur du service vocal de Skype entreprise Online dans le cadre de la licence et de l’abonnement appropriés qui permettent à l’utilisateur de passer des appels VoIP ou PSTN. Un SLA de qualité vocale devrait inclure toutes les conditions suivantes:
   
-- Les appels à partir de Microsoft certified téléphones IP.
+- Appels à partir de téléphones IP certifiés Microsoft.
     
-- Connexions Ethernet câblées.
+- Connexions Ethernet filaires.
     
-- Problèmes de qualité vocale en raison de problèmes de Microsoft Network.
+- Problèmes de qualité vocale liés à des problèmes liés au réseau Microsoft.
     
 > [!NOTE]
-> Le SLA de qualité vocale exclut ces appels où la qualité des appels faible est dû à des problèmes dans les réseaux non Microsoft, y compris le partenaire ExpressRoute et autres réseaux. 
+> Le SLA de qualité vocale exclut les appels dont la mauvaise qualité est causée par des problèmes provenant de réseaux non Microsoft, y compris le partenaire ExpressRoute et d’autres réseaux. 
   
-### <a name="internet-or-azure-expressroute"></a>Internet ou ExpressRoute Azure ?
+### <a name="internet-or-azure-expressroute"></a>Internet ou Azure ExpressRoute?
 
-Avant de prendre une décision sur des réseaux options de connectivité à Skype pour Business Online, les clients doivent évaluer leur réseau et les cours selon les exigences de performances réseau décrites dans [des exigences de performances réseau pour la connectivité Internet se connecter à Skype pour Business Online](media-quality-and-network-connectivity-performance.md#bkNetworkPerf).
+Avant de prendre une décision quant aux options de connectivité réseau dans Skype entreprise Online, les clients doivent valider leur réseau et la connectivité Internet actuelle en fonction des exigences de performances réseau décrites dans la section [exigences des performances réseau pour se connecter à Skype entreprise Online](media-quality-and-network-connectivity-performance.md#bkNetworkPerf).
   
-Si les performances réseau via la connexion Internet en cours sont définie pour une capacité suffisante pendant les heures de pointe et qui il répond aux exigences de performances réseau à partir de sites aux bords du réseau Microsoft et de votre réseau des contours bords du réseau Microsoft, vous pouvez continuer à utiliser votre connexion Internet existante pour se connecter à Skype pour Business Online.
+Si les performances réseau sur la connexion Internet actuelle sont configurées sur une capacité suffisante au moment du temps de pointe et qu’elle répond aux exigences de performances réseau des sites aux bords du réseau Microsoft et des bords du réseau aux bords du réseau Microsoft, vous pouvez Continuez à utiliser votre connexion Internet existante pour vous connecter à Skype entreprise online.
   
-Pour les sites de la société où les exigences de performances réseau ne sont pas respectées, nous vous recommandons vivement de tout d’abord collaborer avec vos fournisseurs de services réseau existant pour améliorer les performances générales de votre réseau. Toutefois, si elles ne sont pas encore remplies, à l’aide d’Azure ExpressRoute peut aider à garantir votre Skype pour la connectivité de cloud Business Online peut vous aider à satisfaire les exigences de performances réseau.
+Pour les sites d’entreprise pour lesquels les exigences de performances réseau ne sont pas satisfaites, nous vous recommandons vivement de commencer par collaborer avec vos prestataires de services réseau existants pour améliorer les performances globales de votre réseau. Toutefois, s’ils ne sont pas encore satisfaits, l’utilisation d’Azure ExpressRoute peut vous aider à garantir que votre connectivité Cloud Skype entreprise online peut vous aider à répondre aux exigences en matière de performances réseau.
   
-ExpressRoute Azure offre les avantages supplémentaires suivants :
+Azure ExpressRoute offre les avantages supplémentaires suivants:
   
-- Un niveau accord de service (SLA) sur la disponibilité de la connexion entre votre réseau et Microsoft. ExpressRoute possède une garantie SLA de disponibilité de 99,9 %.
+- Un contrat de niveau de service (SLA) sur la disponibilité de la connexion entre votre réseau et Microsoft Network. ExpressRoute a un SLA de disponibilité garantie de 99,9%.
     
-- Planifié et garantie la bande passante requise pour les services Office 365. Vous pouvez effectuer cette opération en envoyant uniquement le trafic d’Office 365 ou Skype pour le trafic d’entreprise à l’aide de la ExpressRoute, puis tous les autres Internet que le trafic passe par les autres points de sortie/entrée Internet pour votre réseau.
+- Bande passante planifiée et garantie requise pour les services Office 365. Pour cela, il vous suffit d’envoyer uniquement du trafic Office 365 ou du trafic Skype entreprise à l’aide du ExpressRoute et de faire en sorte que tout le trafic Internet passe par d’autres points de sortie Internet/entrants pour votre réseau.
     
-- ExpressRoute est conçu pour conserver le marquage DSCP QoS entre votre réseau et Microsoft Network.
+- ExpressRoute est conçu pour préserver les marquages de la qualité de service DSCP entre votre réseau et celui de Microsoft.
     
-Pour plus d’informations sur la planification de capacité et ExpressRoute QoS, reportez-vous à [ExpressRoute et QoS dans Skype pour Business Online](https://support.office.com/en-us/article/ExpressRoute-and-QoS-in-Skype-for-Business-Online-20c654da-30ee-4e4f-a764-8b7d8844431d?ui=en-US&amp;rs=en-US&amp;ad=US).
+Pour plus d’informations sur la QoS ExpressRoute et la planification des capacités, reportez-vous à la rubrique [ExpressRoute et QoS dans Skype entreprise Online](https://support.office.com/en-us/article/ExpressRoute-and-QoS-in-Skype-for-Business-Online-20c654da-30ee-4e4f-a764-8b7d8844431d?ui=en-US&amp;rs=en-US&amp;ad=US).
   
-### <a name="can-i-setup-azure-expressroute-for-skype-for-business-online-only"></a>Puis-je configurer Azure ExpressRoute pour Skype pour Business Online uniquement ?
+### <a name="can-i-setup-azure-expressroute-for-skype-for-business-online-only"></a>Puis-je configurer Azure ExpressRoute pour Skype entreprise Online uniquement?
 
-Oui, vous pouvez configurer Azure ExpressRoute pour garantir la connectivité réseau excellente entre le réseau de votre entreprise et Skype uniquement pour Business Online. Cela permettra la qualité des médias en temps réel optimale pour vos utilisateurs, mais vous pouvez ensuite continuer à se connecter à d’autres services Office 365 via Internet.
+Oui, vous pouvez configurer Azure ExpressRoute pour garantir une excellente connectivité réseau du réseau de votre entreprise à Skype entreprise online. La qualité multimédia en temps réel sera ainsi optimale pour vos utilisateurs, mais vous pourrez continuer à vous connecter à d’autres services Office 365 via Internet.
   
-Le protocole BGP (Border Gateway) est un protocole de routage sur Internet, qui est utilisé pour acheminer le trafic réseau via Internet. Il est conçu pour échanger des informations de routage entre des systèmes autonomes (AS) trouvées sur Internet. Les valeurs de communautés BGP sont des balises d’attribut qui peuvent être appliqués aux itinéraires entrants ou sortants. Communautés BGP sont souvent utilisées pour signaler à la réception en tant que le lien sortant à utiliser pour atteindre une destination donnée en fonction de géographie, type de service ou d’autres critères.
+Le protocole BGP (Border Gateway Protocol) est un protocole de routage sur Internet qui est utilisé pour acheminer le trafic réseau sur Internet. Il est conçu pour échanger des informations de routage entre les systèmes autonomes disponibles sur Internet. Communautés BGP les valeurs sont des balises d’attribut qui peuvent être appliquées aux itinéraires entrants ou sortants. Les communautés BGP sont souvent utilisées pour signaler la réception en tant que lien sortant à utiliser pour atteindre une destination donnée en fonction de la géographie, du type de service ou d’autres critères.
   
-Avec prise en charge des Communautés BGP, Microsoft permet d’identifier les itinéraires et les préfixes avec les valeurs de la Communauté BGP appropriés basés sur le service qu'auquel ils appartiennent. Microsoft permet d’identifier les préfixes publiés par le biais de peering public et Microsoft homologue avec les valeurs de la Communauté BGP appropriées indiquant la région hébergées dans les préfixes. Vous pouvez compter sur les valeurs de la Communauté pour prendre des décisions de routage appropriées pour offrir un routage optimales. Vous pouvez utiliser la Skype pour la valeur de la Communauté Business Online BGP pour le programme d’installation d’une connexion ExpressRoute uniquement pour Skype pour Business Online. Vous trouverez plus d’informations sur [les exigences de gamme ExpressRoute](https://azure.microsoft.com/documentation/articles/expressroute-routing/).
+Grâce à la prise en charge des communautés BGP, Microsoft marque les préfixes et itinéraires avec les valeurs de la communauté BGP appropriées en fonction du service auquel elles appartiennent. Microsoft balise les préfixes annoncés par le biais de l’homologation publique et de l’homologation Microsoft avec des valeurs de communauté BGP appropriées indiquant la région dans laquelle les préfixes sont hébergés. Vous pouvez compter sur les valeurs de la communauté pour prendre des décisions de routage appropriées afin de fournir un routage optimal. Vous pouvez utiliser la valeur de la communauté BGP de Skype entreprise Online pour configurer une connexion ExpressRoute uniquement pour Skype entreprise online. Vous pouvez en savoir plus sur la [Configuration requise](https://azure.microsoft.com/documentation/articles/expressroute-routing/)pour le routage de ExpressRoute.
   
-## <a name="expressroute-connectivity-scenarios-for-skype-for-business-online"></a>Scénarios de connectivité ExpressRoute pour Skype pour Business Online
+## <a name="expressroute-connectivity-scenarios-for-skype-for-business-online"></a>Scénarios de connectivité ExpressRoute pour Skype entreprise Online
 <a name="bkNetworkPerf"> </a>
 
-Si vous avez décidé que ExpressRoute fondée sur les recommandations ci-dessus pour vous, voici les recommandations sur l’emplacement et le nombre de connexions ExpressRoute, vous devez obtenir.
+Si vous décidez que ExpressRoute en fonction des recommandations ci-dessus est pour vous, Voici les recommandations sur l’emplacement et le nombre de connexions ExpressRoute à obtenir.
   
-### <a name="online-only-deployment---single-site"></a>Déploiement en ligne - uniquement sur le même site
+### <a name="online-only-deployment---single-site"></a>Déploiement en ligne uniquement-site unique
 
-Si tous vos utilisateurs utilisent le Skype pour le service Business en ligne et si vos sites sont centrés sur un seul emplacement physique et que vous décidez de déployer ExpressRoute Azure, vous devez configurer la connexion ExpressRoute unique entre le site de votre société à la plus proche [Emplacement homologation ExpressRoute](https://azure.microsoft.com/documentation/articles/expressroute-locations/).
+Si tous vos utilisateurs utilisent le service Skype entreprise Online et si vos bureaux sont centrés sur un emplacement physique unique et que vous décidez de déployer Azure ExpressRoute, vous devez configurer une connexion ExpressRoute unique entre le site de votre entreprise et le plus proche. [Emplacement d’homologation ExpressRoute](https://azure.microsoft.com/documentation/articles/expressroute-locations/).
   
-Le graphique suivant montre un exemple de ce type de déploiement. Cet exemple, Contoso est une université située dans Orlando, Floride. Contoso a 10 000 enseignants et étudiants. Les tests d’Internet à partir de leur emplacement aux sites de bord de Microsoft a montré supérieures à 5 % de perte de paquets pendant les heures de pointe classe. L’avez décidé d’obtenir une connexion à Office 365 à l’aide de ExpressRoute avec une bande passante excédentaire mis en service afin qu’ils ne la congestion du réseau pour Office 365 en particulier pour Skype pour le trafic en temps réel Online Business dédiée. Ils se connectent au cloud Microsoft par le biais de ExpressRoute au niveau du site de rendez-vous réalisant un Atlanta, GA.
+Le graphique suivant montre un exemple de ce type de déploiement. Pour cet exemple, contoso est une université située à Orlando, FL. Contoso a 10 000 membres de l’Université et étudiants. Les tests Internet de leur emplacement vers des sites Microsoft Edge montrent une perte de paquets de 5% au cours des heures de cours de la période. L’utilisateur a décidé d’obtenir une connexion dédiée à Office 365 à l’aide de ExpressRoute et de la bande passante déployée afin d’éviter la congestion du réseau pour Office 365 en particulier pour le trafic en temps réel de Skype entreprise online. Ils se connectent à Microsoft Cloud via ExpressRoute à partir du site MeetMe d’Atlanta, disponible en Géorgie.
   
-![Site ExpressRoute unique.](../images/59fbca3c-a3ea-4568-8da5-3281096a7453.png)
+![Site unique ExpressRoute.](../images/59fbca3c-a3ea-4568-8da5-3281096a7453.png)
   
-### <a name="online-only-deployment---multiple-sites-on-the-same-continent"></a>Déploiement en ligne - plusieurs sites sur le même continent
+### <a name="online-only-deployment---multiple-sites-on-the-same-continent"></a>Déploiement en ligne uniquement-plusieurs sites sur le même continent
 
-Si votre société à l’aide Skype pour des services professionnels en ligne à partir de plusieurs bureaux dans la même zone ou continent et que vous décidez d’implémenter ExpressRoute Azure, il est recommandé pour connecter votre site principal via ExpressRoute et éventuellement ajouter puis supplémentaires ExpressRoute peering pour d’autres emplacements qui ne remplissent pas les objectifs de performances réseau recommandés.
+Si votre entreprise utilise les services Skype entreprise Online de plusieurs bureaux au sein d’une même région ou de votre continent et que vous avez choisi d’implémenter Azure ExpressRoute, il est recommandé de connecter votre site principal via ExpressRoute, puis d’ajouter d’autres options Homologation ExpressRoute pour d’autres emplacements qui ne satisfont pas aux cibles de performances réseau recommandées.
   
-Dans l’exemple suivant, Contoso est une société de services de déplacements US qui est basée à New York, mais dispose d’autres bureaux ensemble des États-Unis. Leurs bureaux sont reliées entre elles via un réseau étendu qui utilise MPLS pour se connecter à Office 365. Ils initialement configurer une connexion ExpressRoute à partir de leur routeur Internet dans Hoboken, New Jersey au site rendez-vous réalisant un New York. 
+Dans l’exemple ci-dessous, contoso est une société américaine de voyages qui est implanté à New York mais qui a d’autres bureaux aux États-Unis. Leurs bureaux sont connectés via un réseau WAN qui utilise MPLS pour la connexion à Office 365. Il a initialement configuré une connexion ExpressRoute à partir de son routeur Internet dans Hoboken, New Jersey vers le site New York MeetMe. 
   
-Dans cette configuration, le trafic réseau à partir de la plupart de leurs sites à Microsoft Network (site de New York Edge) peut répondre à la Skype pour Business client connexion réseau performances cibles décrites dans [des exigences de performances du réseau à partir d’un Skype pour client d’entreprise réseau Microsoft Edge](media-quality-and-network-connectivity-performance.md#bkSfBClienttoEdge). Toutefois, la latence entre bureaux d’ouest de Contoso à New York va sur aller-retour de 50 millisecondes à sens unique. En outre, Honolulu est la deuxième plus grande office pour Contoso, la latence de Honolulu de New York dépasse 80ms à sens unique. Pour garantir la qualité des médias bonne pour les utilisateurs dans les succursales, Contoso a décidé d’ajouter ouest ExpressRoute connexion entre leurs sites San Jose et rendez-vous réalisant un ExpressRoute de Silicon Valley.
+Dans le cadre de ce programme d’installation, le trafic réseau de la plupart de ses sites vers le réseau Microsoft (site de New York) peut correspondre aux cibles de performance réseau de connexion du client Skype entreprise décrites dans la rubrique [exigences des performances réseau d’un client Skype entreprise à Microsoft Network Edge](media-quality-and-network-connectivity-performance.md#bkSfBClienttoEdge). Toutefois, la latence entre les bureaux de la côte ouest de contoso et celle de New York va de elle à sens unique. En outre, Honolulu est le deuxième bureau Office pour Contoso le plus important, la latence de Honolulu à New York dépasse 80ms à sens unique. Pour garantir une qualité multimédia optimale pour les utilisateurs de ces bureaux, Contoso a décidé d’ajouter une connexion ExpressRoute Coast West entre son site San José et le site MeetMe Silicon Vallée ExpressRoute.
   
-![Express multisites routeur sur le même continent.](../images/bf57a473-01e1-4271-9675-385767bc58e1.png)
+![Routeur rapide sur plusieurs sites sur le même continent.](../images/bf57a473-01e1-4271-9675-385767bc58e1.png)
   
-### <a name="online-only-deployment---multiple-sites-on-different-continents"></a>Déploiement en ligne - plusieurs sites sur différents continents
+### <a name="online-only-deployment---multiple-sites-on-different-continents"></a>Déploiement en ligne uniquement-plusieurs sites sur différents continents
 
-Si tous vos utilisateurs à l’aide Skype pour le service Business en ligne, et si vos sites sont dans plusieurs emplacements physiques sur plusieurs continents, si vous décidez de déployer ExpressRoute Azure, vous devez configurer au moins une connexion ExpressRoute pour chaque continent entre les sites de principale de chaque continent à son [emplacement homologation ExpressRoute](https://azure.microsoft.com/documentation/articles/expressroute-locations/)le plus proche. En fonction des coûts et avantages, vous pouvez choisir de déployer des connexions ExpressRoute supplémentaires à partir de sites où les objectifs de performances réseau ne sont pas remplies.
+Si tous vos utilisateurs utilisent le service Skype entreprise Online et si vos bureaux se trouvent à plusieurs endroits physiques sur plusieurs continents, si vous décidez de déployer Azure ExpressRoute, vous devez configurer au moins une connexion ExpressRoute pour chaque continent. entre chaque site principal de continent et l’emplacement d' [homologation ExpressRoute](https://azure.microsoft.com/documentation/articles/expressroute-locations/)le plus proche. En fonction du coût et de l’avantage, vous pouvez choisir de déployer des connexions ExpressRoute supplémentaires à partir des sites dans lesquels les cibles de performance réseau ne sont pas satisfaites.
   
-Dans l’exemple suivant, Contoso est un cabinet d’entreprise volumineux avec des bureaux en grandes villes Amérique du Nord et Europe. En fonction de leur connexion Internet et de leur évaluation des performances réseau interne, Contoso a décidé de déployer les deux connexions ExpressRoute en Amérique du Nord et circuit ExpressRoute unique pour toutes leurs bureaux en Europe.
+Dans l’exemple ci-dessous, contoso est une entreprise de grande législation pour les entreprises qui dispose de bureaux dans les principales villes des États-Unis et de l’Europe. Sur la base de la connexion Internet et de l’évaluation de ses performances réseau interne, Contoso a décidé de déployer deux connexions ExpressRoute en Amérique du Nord et un circuit ExpressRoute unique pour tous leurs bureaux européens.
   
 ![ExpressRoute avec plusieurs sites et continents.](../images/c967550b-dc85-4b37-a7bc-cd825ec86854.png)
   
 ### <a name="hybrid-deployment"></a>Déploiement hybride
 
-Si vous avez un Lync locaux ou Skype pour le déploiement d’entreprise et choisissez d’implémenter une hybride Skype pour l’intégration de l’entreprise en ligne, il est recommandé que si vous décidez de déployer ExpressRoute Azure, vous devez avoir au moins une connexion ExpressRoute pour chacun local Lync ou Skype pour le site de bord d’entreprise et au moins une connexion ExpressRoute pour chaque continent avec des bureaux. En fonction des coûts et avantages, pour chaque continent vous pouvez choisir de déployer des connexions ExpressRoute supplémentaires à partir de bureaux où les objectifs de performances réseau ne sont pas remplies.
+Si vous avez un déploiement Lync local ou Skype entreprise et que vous décidez de mettre en œuvre une intégration de Skype entreprise Online hybride, nous vous conseillons d’avoir au moins une connexion ExpressRoute pour chaque site. site Lync local ou Skype entreprise Edge et au moins une connexion ExpressRoute pour chaque continent avec les bureaux. En fonction du coût et de l’avantage, pour chaque continent, vous pouvez choisir de déployer des connexions ExpressRoute supplémentaires à partir de bureaux dans lesquels les cibles de performance réseau ne sont pas satisfaites.
   
-Si vous avez un Skype sur site pour le déploiement d’entreprise, vous devez suivre [Guide de déploiement et de planification de serveur Edge](https://technet.microsoft.com/en-us/library/mt346417.aspx). Plus précisément, les serveurs de périphérie doivent être accessibles à partir d’en dehors de votre réseau. Cela est généralement effectuée en affectant une adresse IP publique routable sur le serveur Edge ou en utilisant la traduction d’adresses réseau (NAT).
+Si vous disposez d’un déploiement Skype entreprise local, vous devez suivre le Guide de [planification et de déploiement de Edge Server](https://technet.microsoft.com/en-us/library/mt346417.aspx). Plus précisément, les serveurs Edge doivent être accessibles à partir de l’extérieur de votre réseau. Pour ce faire, vous devez attribuer une adresse IP publique routable au serveur Edge, ou à l’aide de la traduction d’adresses réseau (NAT).
   
-Dans l’exemple suivant, Contoso possède un Skype local existant pour le déploiement de voix entreprise. Ils souhaitent migrer les utilisateurs locaux vers Office 365 online services. Il est également décidé d’utiliser un déploiement hybride afin qu’ils peuvent continuer à utiliser leur infrastructure PSTN existante pour tous les utilisateurs en ligne et en local. Centre de données sur site et les Skype pour les serveurs de périphérie Business de Contoso sont à Chicago. Pour leur déploiement, Contoso a décidé de configurer une connexion ExpressRoute entre leurs centres de données de Chicago et la ExpressRoute Chicago. Ils également ajouté un ouest connexion ExpressRoute pour améliorer leur office Honolulu.
+Dans l’exemple suivant, contoso dispose d’un déploiement de voix entreprise Skype entreprise local. Ils souhaitent migrer des utilisateurs locaux vers les services en ligne d’Office 365. Ils ont également décidé d’utiliser un déploiement hybride pour pouvoir continuer à utiliser leur infrastructure RTC existante pour tous les utilisateurs locaux et en ligne. Le centre de données sur site de contoso et les serveurs Edge Skype entreprise sont situés à Chicago. Dans le cadre de leur déploiement, Contoso a décidé de configurer une connexion ExpressRoute entre le centre de données de Chicago et l’ExpressRoute Chicago. Ils ont également ajouté une connexion ExpressRoute Coast West pour améliorer leur bureau Honolulu.
   
 ![ExpressRoute hybride.](../images/a7467c56-642f-44e5-adfb-ecca91ba2dd3.png)
   
-### <a name="online-deployment-with-cloud-connector-edition"></a>Déploiement en ligne avec le nuage connecteur Edition
+### <a name="online-deployment-with-cloud-connector-edition"></a>Déploiement de Online avec la version Cloud Connector
 
-Skype pour l’édition Business Online nuage connecteur est un hybride offre qui se compose d’un ensemble de marchandises Machines virtuelles (VM) qui implémentent une connectivité PSTN sur site. En déployant un Skype minimal pour la topologie Business Server dans un environnement virtualisé, vous serez en mesure d’envoyer et recevoir des appels avec des réseaux terrestres et téléphones mobiles par le biais de l’infrastructure vocale PSTN locale existante.
+Skype entreprise Online Cloud Connector Edition est une offre hybride composée d’un ensemble d’ordinateurs virtuels empaquetés qui implémentent une connectivité PSTN locale. Le déploiement d’une topologie de serveur Skype entreprise minimale dans un environnement virtualisé vous permet d’envoyer et de recevoir des appels avec des téléphones fixes et mobiles dans l’infrastructure RTC RTC locale.
   
-Si vous décidez de déployer ExpressRoute Azure et le nuage connecteur Edition, que nous vous recommandons de configurer au moins une connexion itinéraire Express pour chaque continent entre le site principal de chaque continent à son plus proche [emplacement homologation ExpressRoute](https://azure.microsoft.com/documentation/articles/expressroute-locations/). En fonction des coûts et avantages, pour chaque continent vous pouvez choisir de déployer des connexions ExpressRoute supplémentaires à partir de sites où les objectifs de performances réseau ne sont pas remplies.
+Si vous décidez de déployer Azure ExpressRoute et la version Cloud Connector, nous vous recommandons de configurer au moins une connexion de routage rapide pour chaque continent entre le site principal de chaque continent et l’emplacement d' [homologation](https://azure.microsoft.com/documentation/articles/expressroute-locations/)le plus proche ExpressRoute. En fonction du coût et de l’avantage, pour chaque continent, vous pouvez choisir de déployer des connexions ExpressRoute supplémentaires à partir des sites dans lesquels les cibles de performance réseau ne sont pas satisfaites.
   
-Si vous avez un Skype sur site pour le déploiement d’entreprise, vous devez suivre le [Guide de planification pour Skype pour l’édition de connecteur Business Cloud](https://technet.microsoft.com/EN-US/library/mt605227.aspx). Plus précisément, le serveur Edge d’accès et A / services Edge V doivent être affectées à des adresses IP publiques et est accessible à partir de centres de données Office 365.
+Si vous disposez d’un déploiement Skype entreprise local, vous devez suivre le [Guide de planification de Skype entreprise version Cloud Connector](https://technet.microsoft.com/EN-US/library/mt605227.aspx). Plus précisément, il convient d’attribuer des adresses IP publiques aux services Edge d’accès et aux services Edge A/V et de joindre les centres de données Office 365.
   
-Dans l’exemple suivant, Contoso est une entreprise comptable européenne dont la présence dans certains pays principales et villes. Lors de leur inscription pour Skype pour Business Online pour tous leurs besoins en matière de collaboration, ils décidé de mettre un connecteur dans le nuage pour chaque pays qu’ils ont un emplacement physique pour continuer à utiliser leur infrastructure PSTN et les contrats de support qui existent déjà. En fonction de leur test à partir de tous leurs sites et réseau Microsoft Edge, ils déterminé qu’une seule connexion ExpressRoute à Londres aider le Skype pour Business client connexion réseau performances cibles décrites dans [performances réseau configuration requise d’un Skype pour client d’entreprise à Microsoft réseau Edge](media-quality-and-network-connectivity-performance.md#bkSfBClienttoEdge).
+Dans l’exemple suivant, contoso est une entreprise comptable européenne ayant une présence dans quelques pays et villes importants. Lorsqu’il s’inscrit à Skype entreprise Online pour tous ses besoins en matière de collaboration, il a décidé de mettre en place un connecteur Cloud pour chaque pays où il possède un emplacement physique pour continuer à utiliser ses contrats d’infrastructure PSTN et de transporteur qui existent déjà. D’après les tests effectués sur tous leurs sites et sur le réseau de réseau Microsoft, il a déterminé qu’une seule connexion ExpressRoute à Londres sera adaptée aux cibles de performance réseau de connexion client Skype entreprise décrites dans [performances du réseau. Configuration requise entre un client Skype entreprise et le réseau de périmètre Microsoft](media-quality-and-network-connectivity-performance.md#bkSfBClienttoEdge).
   
-![Un connecteur d’ExpressRoute Cloud.](../images/ebdc96e5-b22a-4bf2-b668-062460b4b890.png)
+![ExpressRoute Cloud Connector One.](../images/ebdc96e5-b22a-4bf2-b668-062460b4b890.png)
   
-Voici une autre option de déploiement de Contoso. Dans ce cas, a décidé de configurer une connexion ExpressRoute sur chaque site où un connecteur dans le nuage est déployé. 
+Vous trouverez ci-dessous une autre option de déploiement pour contoso. Le cas échéant, il a décidé de configurer une connexion ExpressRoute sur chaque site sur lequel un connecteur Cloud est déployé. 
   
-![Connecteur de nuage ExpressRoute deux.](../images/06d967a9-64f5-4d7d-98ed-3f3add1b7c2b.png)
+![ExpressRoute Cloud Connector 2.](../images/06d967a9-64f5-4d7d-98ed-3f3add1b7c2b.png)
   
 ## <a name="related-topics"></a>Voir aussi
 

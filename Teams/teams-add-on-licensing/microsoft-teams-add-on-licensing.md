@@ -11,57 +11,57 @@ search.appverid: MET150
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
-description: En savoir plus sur les licences de module complémentaire, les fonctionnalités que vous obtenez avec chaque licence, comment acheter les pour votre produit et comment utiliser votre opérateur existante avec eux. Vous pouvez obtenir des informations sur les tarifs et le plan de détails pour Office 365, crédits de Communication, et les plans d’appel.
-ms.openlocfilehash: 497881fc073297df36f0b26280e51694c69babcf
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Apprenez-en davantage sur les licences de complément, les fonctionnalités que vous allez obtenir avec chaque licence, comment les acheter pour votre produit et comment utiliser votre opérateur existant avec eux. Vous pouvez obtenir des informations sur les tarifs et les détails de votre plan pour Office 365, les crédits de communication et les offres d’appels.
+ms.openlocfilehash: 19dc2b9714d3a2c5881b68d880891c8155b32fc1
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204561"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298578"
 ---
 # <a name="microsoft-teams-add-on-licensing"></a>Licences de module complémentaire Microsoft Teams
 
 ## <a name="what-are-add-on-licenses"></a>Qu'est-ce qu'une licence de complément ?
 
-Licences supplémentaires sont des licences pour certaines fonctionnalités de Microsoft Teams. Certaines entreprises souhaitent avoir la possibilité d'acheter uniquement certaines fonctionnalités à un prix compétitif. Pour ajouter une fonctionnalité, acheter une licence supplémentaire pour chaque utilisateur qui vont l’utiliser.
+Les licences de compléments sont des licences de fonctionnalités spécifiques de Microsoft Teams. Certaines entreprises souhaitent avoir la possibilité d'acheter uniquement certaines fonctionnalités à un prix compétitif. Pour ajouter une fonctionnalité, vous devez acheter une licence de complément pour chaque utilisateur qui l’utilisera.
 
-La gestion des licences Microsoft Teams sont conçu pour vous donner la quantité maximale de souplesse. Par exemple, après l’utilisation des fonctionnalités de base équipes pendant un certain temps, vous pouvez acheter des licences supplémentaires lorsque vous êtes prêt à utiliser davantage de fonctionnalités, telles que la conférence Audio ou le système téléphonique dans Office 365.
+La gestion des licences Microsoft teams est conçue pour vous offrir une marge d’une taille maximale. Par exemple, après avoir utilisé les fonctionnalités de base d’équipes depuis un certain temps, vous pouvez acheter des licences de complément lorsque vous êtes prêt à utiliser d’autres fonctionnalités, telles que l’audioconférence ou le système téléphonique dans Office 365.
 
 ## <a name="how-does-add-on-licensing-affect-cost"></a>Quel est l'impact des licences de complément sur les coûts ?
 
-Pour la plupart des entreprises, l'achat d'une offre groupée de logiciels dans le cadre d'une offre d'entreprise entraîne des coûts globaux moindres. En règle générale, lorsque vous achetez des licences supplémentaires plusieurs individuellement au lieu de dans le cadre d’un plan, vous faudra avec coût combiné supérieur.
+Pour la plupart des entreprises, l'achat d'une offre groupée de logiciels dans le cadre d'une offre d'entreprise entraîne des coûts globaux moindres. En règle générale, si vous achetez plusieurs licences de compléments individuellement au lieu d’une offre, vous risquez d’obtenir une augmentation des coûts combinés.
 
-Pour plus d’informations sur les coûts, voir une des valeurs suivantes :
+Pour plus d’informations sur les coûts, voir l’une des rubriques suivantes:
 
-- [Tarification de services d’audioconférence](https://products.office.com/microsoft-teams/online-meeting-solutions)
+- [Tarifs pour les conférences audio](https://products.office.com/microsoft-teams/online-meeting-solutions)
 
-- [Tarification de système téléphonique et Plans d’appel](https://products.office.com/microsoft-teams/voice-calling)
+- [Tarifs pour le système téléphonique et les offres d’appels](https://products.office.com/microsoft-teams/voice-calling)
 
 ## <a name="what-features-can-i-get-with-add-on-licenses"></a>Quelles fonctionnalités puis-je obtenir avec des licences de complément ?
 
-Selon le plan déjà avoir, vous pouvez acheter des licences supplémentaires pour les fonctionnalités de Microsoft Teams suivantes :
+En fonction de l’offre dont vous disposez, vous pouvez acheter des licences de complément pour les fonctionnalités suivantes de Microsoft teams:
 
 |||
 |:-----|:-----|
 |**Fonctionnalité** <br/> |**Description** <br/> |
-|**Services d’audioconférence** <br/> |Parfois les personnes dans votre organisation vous devrez utiliser un téléphone pour appeler une réunion d’équipes, au lieu d’utiliser leur ordinateur. Dans ce cas, utilisez la fonctionnalité de conférence Audio.  <br/> Consultez cet article pour savoir si l’audioconférence est disponible dans votre pays ou région : [Disponibilité de l'audioconférence et des forfaits d'appels selon les régions et les pays](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). <br/> Si vous recherchez des procédure bien il les coûts, voir [tarification pour une audioconférence](https://products.office.com/microsoft-teams/online-meeting-solutions).  <br/> |
+|**Audioconférence** <br/> |Parfois, les personnes de votre organisation devront utiliser un téléphone pour appeler une réunion teams au lieu d’utiliser leur ordinateur. Utilisez la fonctionnalité de conférence audio pour cette situation.  <br/> Consultez cet article pour savoir si l’audioconférence est disponible dans votre pays ou région : [Disponibilité de l'audioconférence et des forfaits d'appels selon les régions et les pays](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). <br/> Pour plus d’informations sur la manière dont vous avez besoin, voir [tarifs pour les conférences audio](https://products.office.com/microsoft-teams/online-meeting-solutions).  <br/> |
 |**Numéros gratuits pour un accès rendez-vous à vos conférences et possibilité d'accès global aux appels sortants à partir d'une conférence pour ajouter une personne en appelant n'importe quel numéro** <br/> |Si vous ajoutez la fonction d’audioconférence, nous vous recommandons de [Configurer les crédits de communication](../set-up-communications-credits-for-your-organization.md). <br/> |
-|**Système téléphonique** <br/> |Un PBX est un système téléphonique dédié aux entreprises. Système téléphonique dans Office 365 est un service hébergé. Il vous offre des fonctionnalités innovantes de façon simple et économique. [Voici ce que vous obtenez avec un système téléphonique dans Office 365](../here-s-what-you-get-with-phone-system.md).  <br/> Si vous recherchez des procédure bien il les coûts, voir [Système téléphonique](https://products.office.com/microsoft-teams/voice-calling).  <br/> |
-|**Forfaits d’appel** <br/> |Les appels à d’autres utilisateurs d’équipes sont gratuites, mais si vous souhaitez que vos utilisateurs puissent appeler les numéros de téléphone à l’extérieur de votre entreprise, obtient un [Appel de planification](../calling-plans-for-office-365.md). Il existe des forfaits d'appels nationaux et des forfaits d'appels nationaux et internationaux dans Office 365.  <br/> Si vous recherchez façon bien il les coûts, voir [Planifier l’appel de tarification](https://products.office.com/en-us/microsoft-teams/voice-calling).  <br/> |
-|**Salles Microsoft Teams** <br/> |Ce n'est pas un module complémentaire mais une fonctionnalité qui apporte de la vidéo, de l'audio et du partage de contenu aux salles de conférence. Voir [les équipes Microsoft salles](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2).  <br/> |
+|**Système téléphonique** <br/> |Un PBX est un système téléphonique dédié aux entreprises. Le système téléphonique dans Office 365 est un service téléphonique hébergé. Il vous offre des fonctionnalités innovantes de façon simple et économique. [Voici ce que vous pouvez obtenir avec le système téléphonique dans Office 365](../here-s-what-you-get-with-phone-system.md).  <br/> Pour plus d’informations, consultez la section [système téléphonique](https://products.office.com/microsoft-teams/voice-calling).  <br/> |
+|**Forfaits d’appel** <br/> |Les appels vers les autres utilisateurs d’équipes sont gratuits, mais si vous souhaitez que vos utilisateurs puissent appeler n’importe quel numéro de téléphone en dehors de votre entreprise, vous pouvez obtenir un [plan](../calling-plans-for-office-365.md)d’appels. Il existe des forfaits d'appels nationaux et des forfaits d'appels nationaux et internationaux dans Office 365.  <br/> Pour plus d’informations sur le coût de l’appel, voir [tarifs du plan d’appel](https://products.office.com/en-us/microsoft-teams/voice-calling).  <br/> |
+|**Salles Microsoft Teams** <br/> |Ce n'est pas un module complémentaire mais une fonctionnalité qui apporte de la vidéo, de l'audio et du partage de contenu aux salles de conférence. Voir les [salles de Microsoft teams](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2).  <br/> |
 
 Vous souhaitez contacter quelqu'un à propos des options de tous les modules complémentaires ? [Contacter le support Office 365 pour les entreprises - Aide de l'administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
 ## <a name="license-options-based-on-your-plan"></a>Options de licence en fonction de votre forfait 
 
-Les options de licence de module complémentaire à votre disposition dépend de votre plan Office 365. Consultez les rubriques suivantes pour plus d’informations, de fonctionnalités et d’options spécifiques à votre forfait.
+Les options de licence d’extension disponibles dépendent de votre plan Office 365. Consultez les rubriques suivantes pour plus d’informations, de fonctionnalités et d’options spécifiques à votre forfait.
 
 - [Office 365 Business Premium](office-365-business-premium.md)
 - [Office 365 ProPlus](office-365-premium-pro-plus.md)
@@ -80,24 +80,24 @@ En fonction des modules complémentaires que vous souhaitez acquérir, nous vous
 
 Consultez les détails de votre forfait sous « Options de licence en fonction de votre forfait » pour plus d’informations sur quelles licences acheter et comment consulter les prix et acheter des licences de modules complémentaires.
 
-## <a name="how-do-i-use-my-existing-calling-plans-with-teams"></a>Comment utiliser Mes Plans de l’appel existant avec les équipes ?
+## <a name="how-do-i-use-my-existing-calling-plans-with-teams"></a>Comment puis-je utiliser mes offres d’appel existantes avec teams?
 <a name="bkmk_existing"></a>
 <!---
 If you want to use your existing Calling Plan, buy the **Phone System** add-on and use it with the **[free Cloud connector](https://technet.microsoft.com/en-us/library/mt605227.aspx)**.
 --->
-Si vous utilisez une connectivité PSTN sur site pour les utilisateurs hybride, vous *uniquement* attribuer des licences de **Système téléphonique** à vos utilisateurs. **NE** leur assignez PAS également un Forfait d’appels.
+Si vous utilisez une connectivité PSTN locale pour les utilisateurs hybrides, vous devez attribuer des licences de **système téléphonique** *uniquement* à vos utilisateurs. **NE** leur assignez PAS également un Forfait d’appels.
 
-Pour une documentation complète sur la planification de votre déploiement, notamment le système téléphonique avec une connectivité PSTN sur site, voir [solutions de téléphonie Microsoft](https://docs.microsoft.com/skypeforbusiness/hybrid/msft-telephony-solutions).
+Pour obtenir une documentation complète sur la planification de votre déploiement, y compris le système téléphonique avec une connectivité PSTN locale, voir [solutions de téléphonie Microsoft](https://docs.microsoft.com/skypeforbusiness/hybrid/msft-telephony-solutions).
 <!---
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
 --->
 ## <a name="related-topics"></a>Voir aussi
 
-- [Configurer des associations](../microsoft-teams.md)
+- [Configurer teams](../microsoft-teams.md)
     
 - [Configuration de la messagerie vocale Cloud-Aide pour l'administrateur](../set-up-phone-system-voicemail.md)
     
-- [Appel de Plans pour Office 365](../calling-plans-for-office-365.md) et [configurer des Plans de l’appel](../set-up-calling-plans.md)
+- [Forfaits d’appels pour Office 365](../calling-plans-for-office-365.md) et [configurer les offres d’appels](../set-up-calling-plans.md)
     
 - [Ajouter des fonds et gérer les Crédits de Communications](../add-funds-and-manage-communications-credits.md)
 <!---    

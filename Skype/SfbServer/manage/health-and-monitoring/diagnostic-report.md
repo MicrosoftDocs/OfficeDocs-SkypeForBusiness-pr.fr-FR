@@ -1,25 +1,25 @@
 ---
-title: Rapport de diagnostic dans Skype pour Business Server
+title: Rapport de diagnostic dans Skype entreprise Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b389dbd9-f2e8-4184-93d0-2e504796ac16
-description: 'Résumé : Découvrez le rapport de Diagnostic dans Skype pour Business Server.'
-ms.openlocfilehash: b50be1733eb085bc8a3323cf3fcad028e2f0c6b4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Résumé: en savoir plus sur le rapport de diagnostic dans Skype entreprise Server.'
+ms.openlocfilehash: d71906f2407a0daadc04417ab60a23c86f5eeb52
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926563"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305772"
 ---
-# <a name="diagnostic-report-in-skype-for-business-server"></a>Rapport de diagnostic dans Skype pour Business Server
+# <a name="diagnostic-report-in-skype-for-business-server"></a>Rapport de diagnostic dans Skype entreprise Server
  
-**Résumé :** Obtenir des informations sur le rapport de Diagnostic dans Skype pour Business Server.
+**Résumé:** En savoir plus sur le rapport de diagnostic dans Skype entreprise Server.
   
 Le Rapport de diagnostic fournit des informations de diagnostic et d’identification et de résolution des problèmes pour les sessions ayant échoué. Ces informations incluent à la fois l’ID de diagnostic et l’en-tête de diagnostic qui ont été signalés lorsque la session a échoué. L’ID de diagnostic est un identificateur unique (sous la forme d’un en-tête ms-diagnostics) qui est joint à un message SIP, tandis que l’en-tête de diagnostic fournit une description d’accompagnement pour l’ID de diagnostic. Ce rapport peut également contenir des informations d’identification et de résolution des problèmes précieuses qui sont connues par le composant de rapport. Par exemple :
   
@@ -31,7 +31,7 @@ Le Rapport de diagnostic fournit des informations de diagnostic et d’identific
     
 ## <a name="accessing-the-diagnostic-report"></a>Accès au Rapport de diagnostic
 
-Le rapport de Diagnostic est accessible en cliquant sur la mesure rapport de Diagnostic (détail) sur le [rapport détaillé de Session d’égal à égal dans Skype pour Business Server](peer-to-peer-session-detail-report.md) ou le rapport détaillé de conférence.
+Le rapport de diagnostic est accessible en cliquant sur la métrique du rapport de diagnostic (détail) sur le [rapport détaillé de la session d’égal à égal dans Skype entreprise Server](peer-to-peer-session-detail-report.md) ou sur le rapport Détails de la Conférence.
   
 ## <a name="filters"></a>Filtres
 
@@ -58,6 +58,6 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de dia
 |**Temps de connexion à la conférence (ms)** <br/> |Non  <br/> |Temps (en millisecondes) utilisé pour que l’utilisateur rejoigne la conférence.  <br/> |
 |**En-tête de diagnostic** <br/> |Non  <br/> |Description de l’ID de diagnostic.  <br/> |
    
-Vous trouverez une liste des erreurs de diagnostics sur la [page d’en-tête Ms-Diagnostics](https://msdn.microsoft.com/en-us/library/gg132446%28v=office.12%29.aspx).
+La liste des erreurs de diagnostic est disponible sur la [page d’en-tête MS-Diagnostics](https://msdn.microsoft.com/en-us/library/gg132446%28v=office.12%29.aspx).
   
 

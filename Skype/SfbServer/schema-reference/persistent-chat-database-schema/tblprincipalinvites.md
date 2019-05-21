@@ -5,38 +5,38 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 548ec156-4d1a-469d-a804-62cff226e5c2
-description: tblPrincipalInvites contient des invitations pour tous les utilisateurs configurés pour tous les nœuds d’invitation automatique activée.
-ms.openlocfilehash: 5008158dcb1c62c766162595d9bffe1875d56514
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: tblPrincipalInvites contient des invitations pour tous les utilisateurs approvisionnés pour tous les nœuds avec l’invitation automatique activé.
+ms.openlocfilehash: 21344cfc34ce046a1dffdf7cd3ee9557da20a7ef
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924422"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295292"
 ---
 # <a name="tblprincipalinvites"></a>tblPrincipalInvites
  
-tblPrincipalInvites contient des invitations pour tous les utilisateurs configurés pour tous les nœuds d’invitation automatique activée.
+tblPrincipalInvites contient des invitations pour tous les utilisateurs approvisionnés pour tous les nœuds avec l’invitation automatique activé.
   
-**Colonnes**
+**Celles**
 
 |**Colonne**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|prinID  <br/> |int, non null  <br/> |ID principal.  <br/> |
-|invID  <br/> |int, non null  <br/> |Numéro séquentiel unique (par ID principal) généré depuis la table tblLastInviteId.  <br/> |
-|nodeID  <br/> |int, non null  <br/> |ID de nœud (salle de conversation uniquement).  <br/> |
-|Créé  <br/> |DateTime, non null  <br/> |Heure de création.  <br/> |
+|prinID  <br/> |ent, non null  <br/> |ID du principal.  <br/> |
+|invID  <br/> |ent, non null  <br/> |Numéro séquentiel unique (par ID principal) généré à partir de la table tblLastInviteId.  <br/> |
+|ID  <br/> |ent, non null  <br/> |ID de nœud (salle de conversation uniquement).  <br/> |
+|Created  <br/> |DATEHEURE, pas null  <br/> |Heure de création  <br/> |
    
-**Clés**
+**Permettent**
 
 |**Colonne**|**Description**|
 |:-----|:-----|
 |\<prinID, nodeID\>  <br/> |Clé primaire.  <br/> |
-|prinID  <br/> |Clé étrangère avec recherche dans la table tblPrincipal.prinID.  <br/> |
-|nodeID  <br/> |Clé étrangère avec recherche dans la table tblNode.nodeID.  <br/> |
+|prinID  <br/> |Clé étrangère avec recherche dans la table tblPrincipal. prinID.  <br/> |
+|ID  <br/> |Clé étrangère avec recherche dans la table tblNode. nodeID.  <br/> |
    
 

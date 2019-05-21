@@ -4,23 +4,23 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Pour supprimer les bases de données Microsoft SQL Server, instances après avoir supprimé les serveurs exécutant qui dépendent les, ou une fois que vous reconfigurez les serveurs pour utiliser une autre base de données. Vous devez effectuer la procédure dans cette rubrique lorsque vous retirer le serveur SQL Server en cours ou reconfigurez le serveur actuel de telle sorte qu’il s’affiche les bases de données obsolètes ou non disponible.
-ms.openlocfilehash: 531d4c06daa7dacd2a616244c13207b3e79dca4c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Vous supprimez les bases de données et les instances Microsoft SQL Server après avoir supprimé les serveurs qui en dépendent ou après avoir reconfiguré les serveurs pour utiliser une autre base de données. Vous devez effectuer la procédure décrite dans cette rubrique lorsque vous supprimez le serveur SQL Server actuel ou que vous reconfigurez le serveur actuel de telle sorte qu’il affiche les bases de données obsolètes ou indisponibles.
+ms.openlocfilehash: 2d0902293c675143609dd720cd33734edd538d87
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231503"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34301117"
 ---
 # <a name="remove-sql-server-instances-and-databases-on-the-back-end-server"></a>Suppression des instances et des bases de données SQL Server sur le serveur principal
 
-Pour supprimer les bases de données Microsoft SQL Server, instances après avoir supprimé les serveurs exécutant qui dépendent les, ou une fois que vous reconfigurez les serveurs pour utiliser une autre base de données. Vous devez effectuer la procédure dans cette rubrique lorsque vous retirer le serveur SQL Server en cours ou reconfigurez le serveur actuel de telle sorte qu’il s’affiche les bases de données obsolètes ou non disponible.
+Vous supprimez les bases de données et les instances Microsoft SQL Server après avoir supprimé les serveurs qui en dépendent ou après avoir reconfiguré les serveurs pour utiliser une autre base de données. Vous devez effectuer la procédure décrite dans cette rubrique lorsque vous supprimez le serveur SQL Server actuel ou que vous reconfigurez le serveur actuel de telle sorte qu’il affiche les bases de données obsolètes ou indisponibles.
   
-Pour supprimer les bases de données ou les instances de serveur d’archivage ou un serveur de surveillance, vous devez d’abord supprimer le rôle de serveur. De même, pour supprimer les instances de bases de données pour un pool frontal, vous devez tout d’abord supprimer ou reconfigurer le rôle de serveur qui en dépendent. Ces procédures font pas de distinction entre les bases de données COLOCALISÉES ou instances distinctes pour les serveurs. Les procédures ne sont pas affectés par la colocalisation des bases de données.
+Pour supprimer les bases de données ou les instances du serveur d’archivage ou du serveur de surveillance, vous devez d’abord supprimer le rôle de serveur. De même, pour supprimer les instances ou bases de données du pool frontal, vous devez d’abord supprimer ou reconfigurer le rôle de serveur dépendant. Ces procédures n’effectuent aucune distinction entre les bases de données colocalisées ou les instances distinctes pour les serveurs. Les procédures ne sont pas affectées par la colocalisation des bases de données.
   
 ## <a name="in-this-section"></a>Contenu de cette section
 

@@ -5,32 +5,32 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1e1b427f-59b5-4564-bde5-1002a80439ee
-description: Chaque enregistrement représente un type de média utilisé dans une session d’égal à égal. Une session est représentée par plusieurs enregistrements dans le tableau, si plus d’un type de média est utilisé.
-ms.openlocfilehash: 76441c350241415aacac150e1e5dec2638302075
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Chaque enregistrement représente un type de média utilisé dans une session d’égal à égal. Une session serait représentée par plusieurs enregistrements dans la table, si plusieurs types de média sont utilisés.
+ms.openlocfilehash: 181a78a9fc3fabe8c166f4cdc8c452b5a16b016b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930643"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34296006"
 ---
 # <a name="media-table"></a>Table Media
  
-Chaque enregistrement représente un type de média utilisé dans une session d’égal à égal. Une session est représentée par plusieurs enregistrements dans le tableau, si plus d’un type de média est utilisé.
+Chaque enregistrement représente un type de média utilisé dans une session d’égal à égal. Une session serait représentée par plusieurs enregistrements dans la table, si plusieurs types de média sont utilisés.
   
 > [!NOTE]
-> La table Media ne doit pas être utilisée pour calculer la durée d’une session multimédia. Cette table contient les détails de signalisation d’échanges multimédias dans une session. Échanges multimédias est effectué à la demande d’invitation et StartTime indique l’heure à laquelle l’invitation a été envoyée. Le temps d’inviter ne signifie pas nécessairement que le support de démarrage, car media commence uniquement une fois que le sessionee accepte la session. L’heure de fin signifie généralement que l’heure de fin de cette session. 
+> La table multimédia ne doit pas être utilisée pour calculer la durée du média pour une session. Ce tableau contient les détails de signalisation d’échange de médias dans une session. L’échange de média est effectué par la demande d’invitation, et la durée de StartTime indique l’heure d’envoi de l’invitation. La durée d’invitation ne correspond pas nécessairement à l’heure de début du média, car le contenu multimédia ne démarre qu’après que la session de la session a été acceptée. Le heure_fin correspond généralement à l’heure de fin de la session. 
   
 |**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
 |:-----|:-----|:-----|:-----|
-|**SessionIdTime** <br/> |DateHeure  <br/> |Primaire, étrangère  <br/> |Heure de la demande de session. Utilisé en conjonction avec **SessionIdSeq** pour identifier de manière unique une session. Consultez le [tableau dans Skype pour Business Server 2015 des boîtes de dialogue](dialogs.md) pour plus d’informations. <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |Primaire, étrangère  <br/> |Numéro d’identification pour identifier la session. Utilisé conjointement avec **SessionIdTime** pour identifier de manière unique une session. Consultez le [tableau dans Skype pour Business Server 2015 des boîtes de dialogue](dialogs.md) pour plus d’informations. <br/> |
-|**MediaId** <br/> |tinyint  <br/> |Primaire, étrangère  <br/> |Numéro unique identifiant ce type de média. Consultez la [table MediaList](medialist.md) pour plus d’informations. <br/> |
-|**StartTime** <br/> |DateHeure  <br/> |Principal  <br/> |Il s’agit de l’heure à laquelle une demande de support a été envoyée, heure de début non au support réel. **StartTime** inclut la durée de configuration de session. <br/> |
+|**SessionIdTime** <br/> |DateHeure  <br/> |Etranger principal  <br/> |Durée de la demande de session. Utilisé conjointement avec **SessionIdSeq** pour identifier une session de manière unique. Pour plus d’informations, voir le [tableau des boîtes de dialogue dans Skype entreprise Server 2015](dialogs.md) . <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |Etranger principal  <br/> |IDENTIFIant de la session. Utilisé conjointement avec **SessionIdTime** pour identifier une session de manière unique. Pour plus d’informations, voir le [tableau des boîtes de dialogue dans Skype entreprise Server 2015](dialogs.md) . <br/> |
+|**MediaId** <br/> |tinyint  <br/> |Etranger principal  <br/> |Numéro unique identifiant ce type de média. Pour plus d’informations, reportez-vous à la [table](medialist.md) de médiane. <br/> |
+|**StartTime** <br/> |DateHeure  <br/> |Principal  <br/> |Il s’agit du temps d’envoi d’une demande de média et non de l’heure de début réelle du média. **StartTime** inclut le temps de configuration de la session. <br/> |
 |**EndTime** <br/> |DateHeure  <br/> ||Il s’agit de l’heure de fin de la session.  <br/> |
    
 

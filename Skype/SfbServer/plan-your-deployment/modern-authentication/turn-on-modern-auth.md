@@ -1,105 +1,105 @@
 ---
-title: Planification de désactiver les méthodes d’authentification Legacy internes et externes à votre réseau
+title: Planification de la désactivation de méthodes d’authentification héritées internes et externes à votre réseau
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: ''
-description: Cet article plans les applets de commande qui offrent des administrateurs plus de contrôle des méthodes d’authentification utilisée à l’intérieur et en dehors d’une entreprise. Les administrateurs peuvent activer des méthodes d’authentification soit désactivée en interne ou externe à leur réseau.
-ms.openlocfilehash: ab50913b2a8a784193f30b124f9a212da29fa5bf
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Cet article présente des applets de commande qui fournissent aux administrateurs davantage de contrôle sur les méthodes d’authentification utilisées à l’intérieur et à l’extérieur d’une entreprise. Les administrateurs peuvent activer ou désactiver les méthodes d’authentification en interne, ou en externe sur leur réseau.
+ms.openlocfilehash: aaee46b04832cc114f895f905c180fe089d7349d
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33929202"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297266"
 ---
-# <a name="planning-to-turn-off-legacy-authentication-methods-internally-and-externally-to-your-network"></a>Envisagez de désactiver les méthodes d’authentification Legacy internes et externes à votre réseau.
+# <a name="planning-to-turn-off-legacy-authentication-methods-internally-and-externally-to-your-network"></a>Planification de la désactivation de méthodes d’authentification héritées internes et externes à votre réseau.
 
 > [!NOTE]
-> Si vous êtes sur le point de lire cet article, vous devez déjà connaître à propos des topologies d’authentification moderne pris en charge, ADAL, et sur la configuration de l’authentification moderne, mais, au cas où vous n’avez pas, voici les articles que vous avez besoin pour commencer : 
+> Si vous êtes sur le point de lire cet article, vous devez en savoir plus sur les topologies d’authentification modernes prises en charge, les ADAL et la configuration de l’authentification moderne, mais si ce n’est pas le cas, Voici les articles dont vous avez besoin pour commencer: 
 >  + [https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/modern-authentication/topologies-supported](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/modern-authentication/topologies-supported)
 >  + [https://docs.microsoft.com/skypeforbusiness/manage/authentication/use-adal](https://docs.microsoft.com/skypeforbusiness/manage/authentication/use-adal)
   
-Authentification moderne n’activer simplement le plus sécurisés méthodes d’authentification, telles que l’authentification à deux facteurs ou authentification basée sur les certificats, il peut exécuter l’autorisation de l’utilisateur sans avoir besoin d’un nom d’utilisateur ou le mot de passe trop. Il est très pratique.
+L’authentification moderne n’autorise pas seulement les méthodes d’authentification plus sécurisées, telles que l’authentification à deux facteurs ou l’authentification par certificat, elle peut également faire l’autorisation de l’utilisateur sans avoir besoin d’un nom d’utilisateur ou d’un mot de passe. C’est très pratique.
 
-Cet article vous permettra de trous plug qui ont été exploitées pour les attaques par déni de Service (DOS) sur Skype pour des serveurs d’entreprise, en désactivant les anciennes méthodes utilisées pour l’authentification, en externe, en interne, ou les deux, à votre réseau. Par exemple, une bonne méthode pour empêcher les attaques par déni de service serait pour désactiver l’authentification intégrée Windows (qui inclut NTLM et Kerberos). Désactivation de NTLM en externe et dépend de l’authentification par certificat permettent de protéger les mots de passe de l’exposition. Il s’agit, car NTLM utilise les informations d’identification de mot de passe pour authentifier les utilisateurs, mais ne pas de certificat d’authentification--activée par Auth moderne--. Que signifie une solution idéale pour réduire les attaques de déni de service consiste à bloquer NTLM en externe et utiliser uniquement l’authentification avec certificat, au lieu de cela.
+Cet article vous aide à brancher des trous qui ont été exploités pour les attaques de déni de service (DOS) sur les serveurs Skype entreprise, en désactivant les méthodes plus anciennes utilisées pour l’authentification, l’extérieur, en interne, ou les deux, à votre réseau. Par exemple, il est conseillé de désactiver l’authentification intégrée Windows (qui inclut NTLM et Kerberos) pour empêcher les attaques par déni de compte. La désactivation de NTLM en externe et l’authentification par certificat vous aide à protéger les mots de passe de l’exposition. En effet, NTLM utilise les informations d’identification d’un mot de passe pour authentifier les utilisateurs, mais ce n’est pas le cas pour l’authentification basée sur le certificat. En d’autres termes, une option idéale pour réduire les attaques par déni de fonction consiste à bloquer l’utilisation de NTLM en externe et à plutôt utiliser cette méthode d’authentification basée sur les certificats.
 
-Tous les droits, nous allons commencer.
+C’est parti!
 
-## <a name="what-would-you-be-changing"></a>Ce qui souhaiteriez vous modifier ? 
+## <a name="what-would-you-be-changing"></a>Que voulez-vous changer? 
 
-Ces applets de commande fonctionnent pour SIP et des Services Web des points d’accès. Même si ces deux canaux utiliser les méthodes d’accès différentes, allant de la gamme NTLM et Kerberos pour l’accès anonyme, toutes les méthodes standards utilisés par Skype pour les entreprises ont été prises en considération.
+Ces applets de action fonctionnent pour les points d’accès SIP et Web services. Bien que ces deux canaux utilisent des méthodes d’accès différentes, qui exécutent la gamme de protocoles NTLM et Kerberos en accès anonyme, toutes les méthodes standard utilisées par Skype entreprise sont prises en compte.
 
-## <a name="how-to-get-the-get--and-set-csauthconfig-cmdlets"></a>Comment obtenir les applets de commande Get - et Set-CsAuthConfig
+## <a name="how-to-get-the-get--and-set-csauthconfig-cmdlets"></a>Comment obtenir les applets de applet Get et Set-CsAuthConfig
 
-Ces applets de commande ne sera installés publier juillet 2018 mise à jour cumulative (6.0.9319.534) pour Microsoft Skype pour Business Server 2015, et vous avez une variété de topologies pouvant être déployés pour votre Skype pour Business server.
+Ces applets de applet ne seront installés qu’après la mise à jour cumulative de juillet 2018 (6.0.9319.534) pour Microsoft Skype entreprise Server 2015, et vous disposez de diverses topologies qui peuvent être déployées pour votre serveur Skype entreprise.
 
 ## <a name="topologies"></a>Topologies
 
-Il est important de garder à l’esprit qu’il s’agit les Topologies prises en charge impliquée dans ce scénario. Si vous avez besoin accéder à la prise en charge pour vous aider à bloquer une méthode, par exemple, vous devrez disposent d’une configuration entre les types ci-dessous. 
+Il est important de garder à l’esprit que ces topologies sont prises en charge dans ce scénario. Si vous avez besoin d’aide pour bloquer une méthode, par exemple, vous devrez disposer d’une configuration parmi les types ci-dessous. 
 
 > [!IMPORTANT]
-> Dans la table et les descriptions ci-dessous, __MA__ abréviation est utilisée pour *L’authentification moderne* et *L’authentification Windows intégrée* est abrégé en tant que __Win__. Pour rappel, l’authentification Windows intégrée est composée de deux méthodes : l’authentification NTLM et Kerberos. Vous devez connaître pour lire la table correctement !
+> Dans la table et les descriptions ci-dessous, l' *authentification moderne* est abrégée en __ma__ et *l’authentification intégrée de Windows* est abrégée par __Win__. Pour rappel, l’authentification intégrée de Windows est composée de deux méthodes: authentification NTLM et Kerberos. Vous devez en savoir plus pour lire correctement le tableau.
 
 
 |       |En externe  |En interne  |Paramètre  |
 |---------|:---------|:---------|---------|
-|__Type 1__   |  MA + Win       | MA + Win         |  AllowAllExternallyAndInternally       |
-|__Type 2__   |  AGENT DE GESTION       | MA + Win         | BlockWindowsAuthExternally        |
-|__Type 3__   |  AGENT DE GESTION       | AGENT DE GESTION        | BlockWindowsAuthExternallyAndInternally        |
-|__Type 4__   |  AGENT DE GESTION       | Win        | BlockWindowsAuthExternallyAndModernAuthInternally    |
-|__Type 5__   |  MA + Win       | Win        | BlockModernAuthInternally         |
+|__Taper 1__   |  MA + Win       | MA + Win         |  AllowAllExternallyAndInternally       |
+|__Tapez 2__   |  TÉLÉPHONIQUE       | MA + Win         | BlockWindowsAuthExternally        |
+|__Tapez 3__   |  TÉLÉPHONIQUE       | TÉLÉPHONIQUE        | BlockWindowsAuthExternallyAndInternally        |
+|__Taper 4__   |  TÉLÉPHONIQUE       | Êtes        | BlockWindowsAuthExternallyAndModernAuthInternally    |
+|__Tapez 5__   |  MA + Win       | Êtes        | BlockModernAuthInternally         |
 
-__Tapez 1 Description :__ Il s’agit de la valeur par défaut __scénario lorsque MA est activé pour Skype pour Business Server__ . En d’autres termes, il s’agit du *point de départ* lorsque MA est configurée.
+__Tapez 1 Description:__ Il s’agit du scénario par défaut lorsque MA ____ société est activée pour Skype entreprise Server. En d’autres termes, il s’agit du *point de départ* lorsque ma est configuré.
 
-__Description du type 2 :__ Cette topologie bloque NTLM *en externe*, tout en autorisant NTLM ou Kerberos (pour les clients qui ne prennent pas en charge ADAL) fonctionne *en interne*. Si vos clients ne prennent pas en charge ADAL ils utiliseront MA en interne.
+__Tapez 2 Description:__ Cette topologie bloque NTLM de manière *externe*, mais autorise NTLM ou Kerberos (pour les clients qui ne prennent pas en charge Adal) pour fonctionner en *interne*. Si vos clients prennent en charge ADAL, ils utiliseront le MA en interne.
 
-__Description du type 3 :__ Cette topologie nécessite un agent de gestion pour tous les utilisateurs. Tous les clients compatibles ADAL fonctionneront dans cette topologie, et les mots de passe ne seront pas exploitées si, par exemple, vous désactivez l’utilisation de mots de passe avec l’authentification basée sur certificat
+__Tapez 3 Description:__ Cette topologie nécessite le MA pour tous les utilisateurs. Tous vos clients compatibles ADAL fonctionneront dans cette topologie, et les mots de passe ne seront pas utilisés si, par exemple, vous désactivez l’utilisation des mots de passe avec l’authentification par certificat.
 
-__Description du type 4 :__ Cette topologie bloque NTLM *en externe* et MA en interne. Il permet à *tous les clients* à utiliser l’authentification hérité méthodes *en interne* (même compatibles ADAL clients).
+__Tapez 4 Description:__ Cette topologie bloque NTLM en *externe* et ma topologie en interne. Il permet à *tous les clients* d’utiliser les méthodes d’authentification héritées en *interne* (même les clients compatibles avec Adal).
 
-__Description du type 5 :__ *En externe*, vos clients ADAL modernes utiliseront MA et les clients qui ne prennent pas en charge ADAL utilisera des méthodes d’authentification hérité. Mais, *en interne* *tous les clients* utiliseront l’authentification héritée (y compris tous les clients compatibles ADAL).
+__Tapez 5 Description:__ En *externe*, vos clients Adal modernes utilisent ma et les clients qui ne prennent pas en charge Adal utiliseront les méthodes d’authentification héritées. Toutefois, ** *tous les clients* utilisent en interne l’authentification héritée (y compris tous les clients compatibles Adal).
 
-Il est facile de perdre la trace de l’objectif de la protection de votre mot de passe dans les options disponibles. N’oubliez pas l’idéal consiste à utiliser MA en externe (par exemple, en configuration basée sur certificat auth), pour éviter les attaques par déni de service. Si vous en faites en interne pour vos clients modernes, vous aurez également durable votre réseau concernant Skype pour les attaques de déni de service Business Server.
+C’est très facile de savoir comment protéger vos mots de passe dans les options disponibles. Gardez à l’esprit que la situation idéale consiste à utiliser l’extérieur de manière externe (par exemple, en configurant l’authentification par certificat) pour éviter les attaques par déni de compte. Si vous utilisez l’application en interne pour vos clients modernes, vous devez également vérifier votre réseau en ce qui concerne les attaques par déni de service de Skype entreprise Server.
 
-## <a name="why-to-use-set-csauthconfig-at-the-global-level"></a>Pourquoi utiliser Set-CsAuthConfig au niveau Global
+## <a name="why-to-use-set-csauthconfig-at-the-global-level"></a>Pourquoi utiliser SET-CsAuthConfig au niveau global
 
-Le `Set-CsAuthConfig` cmdlet effets configuration sur le serveur d’inscriptions et les rôles de Services Web.
+La `Set-CsAuthConfig` configuration des effets d’applet de passe sur les rôles Bureau d’enregistrement et services Web.
 
-Cette applet de commande est destinée à être exécutée au niveau Global de votre Skype pour Business server. Il *peut* être exécuté sur le niveau du Pool, mais qui est *pas recommandé* car la complexité est ajouté à votre installation. En exécutant les commandes suivantes au niveau du Pool, si votre Pool ne possède pas tous les rôles inclus (par exemple, il ne possède pas les Services Web), les paramètres n’est définies pour le rôle de serveur d’inscriptions. Dans ce cas, les Services Web seront poursuivre avec les paramètres de niveau Global, qui peut être difficile de comportement (en particulier lorsque cette opération est effectuée par inadvertance).
+Ce cmdlet est censé être exécuté au niveau global de votre serveur Skype entreprise. Il *peut* être exécuté au niveau du pool, mais cela n’est *pas recommandé* , car il ajoute de la complexité à votre installation. En exécutant ces commandes au niveau du pool, si vous n’avez pas ajouté tous les rôles (par exemple, si la liste ne comporte pas de services Web), les paramètres ne sont définis que pour le rôle Bureau d’enregistrement. Dans ce cas, les services Web utiliseront des paramètres du niveau global, ce qui peut être un comportement confus (en particulier, lorsque cela est réalisé involontairement).
 
-Si un client utilise les paramètres du serveur d’inscriptions d’un pool et les paramètres des Services Web à partir d’un autre pool et les paramètres d’authentification sont dans un état instable, yous clients peuvent être impossible de se connecter.
+Si un client utilise les paramètres du Bureau d’enregistrement d’un pool et les paramètres de services Web d’un autre pool et les paramètres d’authentification sont dans un état incohérent, il est possible que les clients yous ne puissent pas se connecter.
 
-En outre, s’il n'existe qu’un seul rôle pour un pool : 
-* Set-vont définie uniquement les paramètres qui correspondent au rôle qui existe. Aucun avertissement spéciaux ne recevront car certains paramètres n’est *pas* la valeur. 
-* Get-sera retourne le paramètre qui correspond au rôle qui existe et les paramètres globaux pour le rôle qui n’existe pas.
-* Si aucun rôle n’est présent pour un pool, les deux seront Set et Get retourne un message d’erreur.
-* Si les deux rôles sont présents pour un pool, mais les stratégies ne sont pas définis au niveau du pool, Get-sera retourne un message d’erreur.
+Par ailleurs, s’il n’y a qu’un seul rôle pour une liste: 
+* Set-définira uniquement les paramètres correspondant au rôle existant. Aucun avertissement spécial n’est accordé car certains paramètres n’ont *pas* été définis. 
+* Get-renverra le paramètre correspondant au rôle existant et les paramètres globaux pour le rôle qui n’existe pas.
+* Si aucun de ses rôles n’est présent pour un pool, la fonction Set et Get-renverra un message d’erreur.
+* Si les deux rôles sont présents pour un pool mais que les stratégies ne sont pas définies au niveau du pool, Get-renverra un message d’erreur.
 
-Il peut être préférable d’effectuer un Get-pour ces valeurs et pour la capture d’écran ou d’enregistrer leur état initial avant d’apporter des modifications. Vous pouvez également envisager de conserver un journal des modifications apportées dans un OneNote.
+Il est recommandé d’effectuer une opération Get pour obtenir ces valeurs et d’effectuer une capture d’écran ou d’enregistrer leur état de départ avant d’apporter des modifications. Vous pouvez également envisager de consigner les modifications dans OneNote.
 
 > [!NOTE]
 > 
-> Remarque : Après avoir configuré le CsAuthConfig, vous devez exécuter Enable-CsComputer sur chaque ordinateur pour que les paramètres prennent effet.
+> Remarque: après avoir configuré le CsAuthConfig, vous devez exécuter Enable-CsComputer sur chaque ordinateur pour que les paramètres soient pris en compte.
 
 > [!IMPORTANT]
-> Si vous utilisez Lync Web Access (LWA) et que vous devez utiliser Access basée sur les formulaires (FBA) pour l’accès externe, reconfigurez LWA afin que les clients puissent y accéder avec un accès anonyme pour prendre en charge ces scénarios. De même, si vous utilisez le code d’appel confidentiel, FBA est bloquée pour les utilisateurs externes. S’ils ont besoin de modifier leur code confidentiel, ils seront doivent se connecter à leur entreprise à le faire en interne.
+> Si vous utilisez Lync Web Access (LWA) et devez utiliser l’accès basée sur les formulaires (FBA) pour l’accès externe, reconfigurez LWA de sorte que les clients puissent y accéder avec l’accès anonyme pour prendre en charge ces scénarios. De même, si vous utilisez un code confidentiel de conférence rendez-vous, le FBA est bloqué uniquement pour les utilisateurs externes. S’il a besoin de modifier son code confidentiel, il doit se connecter à son entreprise pour le faire en interne.
 
 ## <a name="links"></a>Liens 
-- Pour plus d’informations PowerShell :
+- Pour plus d’informations sur PowerShell:
     -  [Get-CsAuthConfig](https://docs.microsoft.com/powershell/module/skype/get-csauthconfig?view=skype-ps)
     -  [Set-CsAuthConfig](https://docs.microsoft.com/en-us/powershell/module/skype/set-csauthconfig?view=skype-ps)
 
-- Pour plus d’instructions sur la façon d’utiliser les commandes ou sur la mise à jour Cumulative nécessaires pour les installer :
-    - [Applets de commande exécutif](https://support.microsoft.com/en-us/help/4346673/new-cmdlets-to-manage-skype-for-business-server-2015-authentication)
-    - [Mises à jour pour Skype pour Business Server 2015](https://support.microsoft.com/en-us/help/3061064/updates-for-skype-for-business-server-2015) (Général)
-    - Le [juillet 2018 Skype pour Business Server 2015, mise à jour Cumulative des composants de base](https://support.microsoft.com/en-us/help/4340903/july-2018-cumulative-update-6-0-9319-534-for-skype-for-business-server) (6.0.9319.534)
+- Pour plus d’informations sur l’utilisation des commandes ou sur la fonction CU requise pour les installer, procédez comme suit:
+    - [Briefing des cmdlets](https://support.microsoft.com/en-us/help/4346673/new-cmdlets-to-manage-skype-for-business-server-2015-authentication)
+    - [Mises à jour de Skype entreprise Server 2015](https://support.microsoft.com/en-us/help/3061064/updates-for-skype-for-business-server-2015) Feuille
+    - Le [2018 de juillet, Skype entreprise Server 2015, composants principaux de Cu](https://support.microsoft.com/en-us/help/4340903/july-2018-cumulative-update-6-0-9319-534-for-skype-for-business-server) (6.0.9319.534)
 
 
  

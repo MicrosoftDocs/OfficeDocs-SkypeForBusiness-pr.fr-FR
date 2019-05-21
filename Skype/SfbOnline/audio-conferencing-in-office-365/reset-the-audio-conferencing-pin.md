@@ -1,5 +1,5 @@
 ---
-title: Réinitialiser le code confidentiel dans Skype de conférence Audio pour les entreprises en ligne
+title: Réinitialiser le code confidentiel de l’audioconférence dans Skype entreprise Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -12,22 +12,22 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 'Découvrez ce que vous devez savoir sur les codes confidentiels et comment les réinitialiser dans Skype pour Business Online. '
-ms.openlocfilehash: 0b2c6ae7a26d23fbcb0f18da45886ba13853037f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Découvrez ce que vous devez savoir sur les codes confidentiels et la manière de les réinitialiser dans Skype entreprise online. '
+ms.openlocfilehash: 11fafd6d79236fdddf3f73f384e9c339a5a775fc
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33906795"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299085"
 ---
-# <a name="reset-the-audio-conferencing-pin-in-skype-for-business-online"></a>Réinitialiser le code confidentiel dans Skype de conférence Audio pour les entreprises en ligne
+# <a name="reset-the-audio-conferencing-pin-in-skype-for-business-online"></a>Réinitialiser le code confidentiel de l’audioconférence dans Skype entreprise Online
 
 > [!Note]
 > Pour plus d’informations sur la réinitialisation des codes confidentiels des audioconférences dans Microsoft Teams, consultez la rubrique [Réinitialiser le code confidentiel des audioconférences dans Microsoft Teams](/MicrosoftTeams/reset-the-audio-conferencing-pin-in-teams).
@@ -40,11 +40,11 @@ Meetings can be started when an authenticated user joins using the Skype for Bus
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
-2. Accéder au **Centre d’administration Office 365** > **Skype pour les entreprises**, dans la navigation de gauche, cliquez sur **conférence Audio**.
+2. Accédez au >  **Centre d’administration Office 365****Skype entreprise**, puis, dans le volet de navigation de gauche, cliquez sur **audioconférence**.
     
-3. Cliquez sur **utilisateurs**, sélectionnez l’utilisateur que vous souhaitez réinitialiser le code confidentiel pour.
+3. Cliquez sur **utilisateurs**, sélectionnez l’utilisateur pour lequel vous souhaitez réinitialiser le code confidentiel.
     
-4. Dans le volet Actions, sous **code confidentiel**, cliquez sur **Réinitialiser**.
+4. Dans le volet action, sous **code confidentiel**, cliquez sur **Réinitialiser**.
  
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -65,7 +65,7 @@ A user can reset a PIN by using the **Reset PIN** option on the **Dial-in Confer
     
 - Lorsqu'une réunion commence, tous les utilisateurs qui se trouvent dans la salle d'attente participent automatiquement à l'événement. Par exemple, si deux participants tentent de participer à une réunion avant qu'elle ait commencé, ils sont placés dans la salle d'attente et entendent de la musique pour patienter. Lorsque l'organisateur saisit son code confidentiel sur le clavier du téléphone, il commence la réunion, ce qui permet aux utilisateurs jusqu'alors en salle d'attente d'y participer.
     
-- Le paramètre par défaut n’autorise ne pas une réunion doit être démarré par les appelants anonymes.
+- Par défaut, les appelants anonymes ne permettent pas de démarrer une réunion.
     
 - When you enable a user for audio conferencing, by default they are sent emails that include conferencing information and their PIN. The user must have an Office 365 mailbox, because when a PIN is reset, a new PIN will be sent to the user in email to their primary SMTP address (alias) that is set for the user.
     

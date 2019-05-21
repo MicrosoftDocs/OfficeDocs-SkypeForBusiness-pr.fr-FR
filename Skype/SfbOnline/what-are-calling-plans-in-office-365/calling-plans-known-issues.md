@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -18,25 +18,25 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Learn known issues with the calling plan for Office 365 (PSTN Calling) and what you can do about them. '
-ms.openlocfilehash: 01a49749f472b6a3e591295cff7184dc26fd564a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 9a6f97a93aa6c7b4e847ba1cb3280a21c473db0c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32233224"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299523"
 ---
 # <a name="calling-plans-known-issues"></a>Problèmes connus relatifs aux forfaits d’appel
 
-Plans d’appel dans Office 365 sont une nouvelle fonctionnalité trouvée dans Skype pour l’entreprise en ligne. Voici les problèmes en cours qui sont suivis et activement analysés. Ils seront potentiellement résolues lorsque la fonctionnalité est mis à jour dans les versions futures dans Office 365 et Skype pour Business Online.
+Les forfaits d’appels dans Office 365 sont une nouvelle fonctionnalité de Skype entreprise online. Vous trouverez ci-après les problèmes actuellement suivis et examinés activement. Ils seront potentiellement résolus lorsque la fonctionnalité sera mise à jour dans les versions ultérieures d’Office 365 et de Skype entreprise online.
   
 ## <a name="calling-plans-known-issues"></a>Problèmes connus relatifs aux forfaits d’appel
 
 |**Problème connu**|**Commentaires**|
 |:-----|:-----|
-|Transition d’aperçu technique des licences pour les licences de production pour l’appel des Plans de ne pas mettre automatiquement à jour la licence.  <br/> |Commencez par acheter vos nouvelles licences afin qu'elles soient prêtes pour être affectées à vos utilisateurs. Supprimer la licence de promotion (aperçu technique) d’un utilisateur, puis affecter les nouvelles licences **Nationales appelant planifier** et/ou **national et International appelant planifier** **immédiatement** à l’utilisateur. <br/> Si vous supprimez et ajoutez des licences pour plusieurs utilisateurs, il est très important de supprimer les licences de tous les utilisateurs à l'aide de Windows PowerShell, puis de leur affecter **IMMÉDIATEMENT** les nouvelles licences en utilisant là encore Windows PowerShell. Cela permet de garantir qu’il n’existe aucune interruption de service lors de la gestion des volumes importants d’affectations de licence utilisateur. Pour des exemples de scripts PowerShell, voir [Attribuer de Skype pour les professionnels et les équipes Microsoft de licences](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).  <br/> **Remarque :** Si vous utilisez une connectivité PSTN sur site pour les utilisateurs hybride, vous *seulement* devez attribuer une licence de **Système téléphonique** . Il ne doit **pas** également attribuer une voix planifier l’appel. Toutefois, si vous activez des Plans de l’appel dans Office 365 pour les utilisateurs qui se trouvent dans Office 365, vous devez toujours attribuer un **Intérieur appelant planifier** ou une licence **national et International appelant planifier** pour les utilisateurs. Voir [Assigner de Skype pour les professionnels et les équipes Microsoft de licences](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
+|La transition des licences Tech Preview aux licences de production pour les offres d’appels ne met pas automatiquement à jour la licence.  <br/> |Commencez par acheter vos nouvelles licences afin qu'elles soient prêtes pour être affectées à vos utilisateurs. Supprimez la licence promotion (Technical Preview) d’un utilisateur, puis affectez **immédiatement** le nouveau **plan d’appels nationaux** et/ou les licences de **plan d’appels nationaux et internationaux** à l’utilisateur. <br/> Si vous supprimez et ajoutez des licences pour plusieurs utilisateurs, il est très important de supprimer les licences de tous les utilisateurs à l'aide de Windows PowerShell, puis de leur affecter **IMMÉDIATEMENT** les nouvelles licences en utilisant là encore Windows PowerShell. Ainsi, vous garantirez qu’il n’y a aucune perturbation en service lors de la gestion d’un grand nombre d’attributions de licences utilisateur. Pour obtenir des exemples de scripts PowerShell, consultez la rubrique [affectation de licences Skype entreprise et Microsoft teams](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).  <br/> **Remarque:** Si vous utilisez une connectivité PSTN locale pour les utilisateurs hybrides, il ** vous suffit d’affecter une licence de **système téléphonique** . Vous ne devez **pas non** plus affecter de plan d’appels vocaux. Toutefois, si vous activez les offres d’appels dans Office 365 pour les utilisateurs qui se trouvent dans Office 365, vous devez quand même affecter une licence de **plan** d’appel **national** ou international pour ces utilisateurs. Consultez la rubrique [affectation de licences Skype entreprise et Microsoft teams](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
 
 > [!NOTE]
-> Si vous avez besoin obtenir les numéros de téléphone plus grand que cette, contactez le [support pour les produits métiers : aide d’administration](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)         |
+> Si vous avez besoin d’obtenir plus de numéros de téléphone, [Contactez le support technique pour les produits pour les entreprises-aide de l’administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)         |
    
 ## <a name="related-topics"></a>Rubriques connexes
 [Questions fréquentes à propos du transfert de numéros de téléphone](/microsoftteams/transferring-phone-numbers-common-questions)

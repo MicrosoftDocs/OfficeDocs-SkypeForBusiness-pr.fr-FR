@@ -5,22 +5,22 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f10f0796-3c09-4cb8-bd0d-15f783835f03
-description: Les sections suivantes détaillent les colonnes de chacune des tables du schéma de base de données qualité de l’expérience (QoE).
-ms.openlocfilehash: cd8a1f063fdfe5f13aecdaa62eb71225e753adfb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Les sections suivantes décrivent en détail les colonnes dans chaque table de schéma de la base de données de qualité de l’interface (QoE).
+ms.openlocfilehash: 371fdd6f3d61ef799fd45f08e7cb4a8a1fea03f0
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33920116"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34294781"
 ---
 # <a name="qoe-table-details"></a>Détails des tables QoE
  
-Les sections suivantes détaillent les colonnes de chacune des tables du schéma de base de données qualité de l’expérience (QoE).
+Les sections suivantes décrivent en détail les colonnes dans chaque table de schéma de la base de données de qualité de l’interface (QoE).
   
 - [Table AppliedBandwidthSource](appliedbandwidthsource.md)
     
@@ -64,7 +64,7 @@ Les sections suivantes détaillent les colonnes de chacune des tables du schéma
     
 - [Table Pool](pool.md)
     
-- [Table PurgeSettings (QoE)](purgesettings-qoe.md)
+- [Table PurgeSettings](purgesettings-qoe.md)
     
 - [Table Region](region.md)
     
@@ -82,7 +82,7 @@ Les sections suivantes détaillent les colonnes de chacune des tables du schéma
     
 - [Table UserAgent](useragent.md)
     
-- [Table UserAgentDef (QoE)](useragentdef-qoe.md)
+- [Table UserAgentDef](useragentdef-qoe.md)
     
 - [Table UserSite](usersite.md)
     

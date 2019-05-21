@@ -5,57 +5,57 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/1/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 579bfa5a-9443-46dd-9a8e-07d00ba2824d
-description: 'Cette section de référence inclut les informations suivantes :'
-ms.openlocfilehash: dc2d147791317134ee9abd3de723f1c53f8f625b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Cette section de référence contient les informations suivantes:'
+ms.openlocfilehash: 5934c9ffab8055de86cdaf3bcf507fa9c806f245
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33907100"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34296741"
 ---
 # <a name="active-directory-schema-extensions-classes-and-attributes"></a>Attributs, classes et extensions des schémas Active Directory
  
-Cette section de référence inclut les informations suivantes : 
+Cette section de référence contient les informations suivantes: 
   
-- Extensions de schéma Active Directory qui sont nouvelles ou modifiées pour Skype pour Business Server
+- Extensions de schéma Active Directory nouvelles ou modifiées pour Skype entreprise Server
     
-    Le schéma Active Directory contient des définitions formelles de chaque classe d’objet pouvant être créés dans une forêt Active Directory. Le schéma contient également des définitions formelles de chaque attribut pouvant exister dans un objet Active Directory. Le catalogue global Active Directory contient les réplicas de tous les objets de la forêt, ainsi qu’un sous-ensemble d’attributs pour chaque objet. Cette section décrit les classes et les attributs qui sont nouvelles ou modifiées dans Skype pour Business Server.
+    Le schéma Active Directory contient des définitions formels de toutes les classes d’objets qui peuvent être créées dans une forêt Active Directory. Le schéma contient également des définitions formels de chaque attribut qui peut exister sur un objet Active Directory. Le catalogue global Active Directory contient des réplicas de tous les objets pour la forêt, ainsi qu’un sous-ensemble des attributs de chaque objet. Cette section décrit les classes et attributs qui sont nouveaux ou modifiés dans Skype entreprise Server.
     
-- Toutes les classes utilisées par Skype pour Business Server, avec une description de chacun d’eux
+- Toutes les classes utilisées par Skype entreprise Server, avec une description de chaque
     
-- Tous les attributs utilisés par Skype pour Business Server, avec une description de chacun d’eux
+- Tous les attributs utilisés par Skype entreprise Server, avec une description de chaque
     
-- Une liste des classes utilisées par Skype pour Business Server, avec les attributs peut contenir
+- Une liste des classes utilisées par Skype entreprise Server, avec les attributs qu’il contient
     
-- Les paramètres globaux et objets, outre les groupes universels de service et d’administration qui sont créés pendant la préparation de la forêt
+- Paramètres globaux et objets, en plus du service universel et des groupes d’administration créés lors de la préparation de la forêt
     
-- Entrées de contrôle d’accès (ACE) qui sont créées sur les domaine racine et les conteneurs intégrés pendant la préparation du domaine
+- Entrées de contrôle d’accès (ACE) créées sur la racine de domaine et les conteneurs intégrés lors de la préparation du domaine
     
-- Modifications effectuées dans une unité d’organisation (OU) Active Directory par l’applet de commande Grant_CsSetupPermission.
+- Modifications effectuées sur une unité d’organisation Active Directory par l’applet de contrôle Grant_CsSetupPermission.
     
-- Modifications effectuées dans une unité d’organisation Active Directory par l’applet de commande Grant_CsOUPermission.
+- Les modifications apportées sur une unité d’organisation Active Directory par l’applet de contrôle Grant_CsOUPermission.
     
 ## <a name="in-this-section"></a>Dans cette section
 
-- [Modifications de schéma dans Skype pour Business Server](schema-changes.md)
+- [Modifications de schéma dans Skype entreprise Server](schema-changes.md)
     
-- [Classes de schéma et les descriptions de Skype pour Business Server](schema-classes-and-descriptions.md)
+- [Classes et descriptions de schéma dans Skype entreprise Server](schema-classes-and-descriptions.md)
     
-- [Attributs de schéma et les descriptions de Skype pour Business Server](schema-attributes-and-descriptions.md)
+- [Attributs et descriptions de schéma dans Skype entreprise Server](schema-attributes-and-descriptions.md)
     
-- [Attributs de schéma par classe dans Skype pour Business Server](schema-attributes-by-class.md)
+- [Attributs de schéma par classe dans Skype entreprise Server](schema-attributes-by-class.md)
     
-- [Modifications apportées par la préparation de la forêt dans Skype pour Business Server](changes-made-by-forest-preparation.md)
+- [Modifications apportées par la préparation de la forêt dans Skype entreprise Server](changes-made-by-forest-preparation.md)
     
-- [Modifications apportées par la préparation du domaine dans Skype pour Business Server](changes-made-by-domain-preparation.md)
+- [Modifications apportées par la préparation du domaine dans Skype entreprise Server](changes-made-by-domain-preparation.md)
     
-- [Modifications apportées par Grant-CsSetupPermission dans Skype pour Business Server](changes-made-by-grant-cssetuppermission.md)
+- [Modifications apportées par Grant-CsSetupPermission dans Skype entreprise Server](changes-made-by-grant-cssetuppermission.md)
     
-- [Modifications apportées par Grant-CsOUPermission dans Skype pour Business Server](changes-made-by-grant-csoupermission.md)
+- [Modifications apportées par Grant-CsOUPermission dans Skype entreprise Server](changes-made-by-grant-csoupermission.md)
     
 

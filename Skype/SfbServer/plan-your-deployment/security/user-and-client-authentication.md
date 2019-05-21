@@ -1,38 +1,38 @@
 ---
-title: Authentification utilisateur et client pour Skype pour Business Server
+title: Authentification des utilisateurs et des clients pour Skype entreprise Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 77f4b62a-f75c-424d-8f02-a6519090015d
-description: Un utilisateur approuvé est un dont les informations d’identification ont été authentifiées par un serveur approuvé dans Skype pour Business Server. Ce serveur est généralement un serveur Standard Edition, Enterprise Edition serveur frontal ou un directeur. Skype pour Business Server s’appuie sur les Services de domaine Active Directory comme référentiel principal unique approuvé, des informations d’identification de l’utilisateur.
-ms.openlocfilehash: 6d6a796f521ce79fe3c78c7becb48a495eafd473
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Un utilisateur approuvé est une personne dont les informations d’identification ont été authentifiées par un serveur approuvé dans Skype entreprise Server. Il s’agit généralement d’un serveur frontal Standard Edition Server Enterprise Edition ou Director. Skype entreprise Server repose sur les services de domaine Active Directory comme le référentiel principal de confiance des informations d’identification de l’utilisateur.
+ms.openlocfilehash: 35d1c6861ba8863e308939997fd802d4abcea404
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33885460"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34296867"
 ---
-# <a name="user-and-client-authentication-for-skype-for-business-server"></a>Authentification utilisateur et client pour Skype pour Business Server
+# <a name="user-and-client-authentication-for-skype-for-business-server"></a>Authentification des utilisateurs et des clients pour Skype entreprise Server
  
-Un utilisateur approuvé est un dont les informations d’identification ont été authentifiées par un serveur approuvé dans Skype pour Business Server. Ce serveur est généralement un serveur Standard Edition, Enterprise Edition serveur frontal ou un directeur. Skype pour Business Server s’appuie sur les Services de domaine Active Directory comme référentiel principal unique approuvé, des informations d’identification de l’utilisateur.
+Un utilisateur approuvé est une personne dont les informations d’identification ont été authentifiées par un serveur approuvé dans Skype entreprise Server. Il s’agit généralement d’un serveur frontal Standard Edition Server Enterprise Edition ou Director. Skype entreprise Server repose sur les services de domaine Active Directory comme le référentiel principal de confiance des informations d’identification de l’utilisateur.
   
-L’authentification consiste à fournir des informations d’identification d’utilisateur à un serveur approuvé. Skype pour Business Server utilise les protocoles d’authentification suivants, selon l’état et l’emplacement de l’utilisateur.
+L’authentification consiste à fournir des informations d’identification d’utilisateur à un serveur approuvé. Skype entreprise Server utilise les protocoles d’authentification suivants, en fonction de l’État et de l’emplacement de l’utilisateur.
   
-- **Protocole de MIT Kerberos version 5 de sécurité** pour les utilisateurs internes avec des informations d’identification Active Directory. Kerberos nécessite une connexion de client à Active Directory Domain Services, c’est pourquoi il ne peut pas être utilisé pour authentifier les clients à l’extérieur du pare-feu d’entreprise.
+- **Protocole de sécurité MIT Kerberos version 5** pour les utilisateurs internes disposant d’informations d’identification Active Directory. Kerberos nécessite une connectivité client aux services de domaine Active Directory (AD FS), ce qui explique pourquoi il ne peut pas être utilisé pour authentifier les clients extérieurs au pare-feu de l’entreprise.
     
-- **Protocole NTLM** pour les utilisateurs avec des informations d’identification Active Directory qui sont connectent à partir d’un point de terminaison à l’extérieur du pare-feu d’entreprise. Le service Edge d’accès transmet les demandes de connexion à un directeur, s’il est présent, ou un serveur frontal pour l’authentification. Le service Edge d’accès lui-même n’effectue aucune authentification.
+- **Protocole NTLM** pour les utilisateurs disposant d’informations d’identification Active Directory qui se connectent à partir d’un point de terminaison extérieur au pare-feu d’entreprise. Le service Edge d’accès transmet les demandes d’ouverture de session à un réalisateur, le cas échéant, ou à un serveur frontal pour l’authentification. Le service Edge d’accès n’effectue aucune authentification.
     
     > [!NOTE]
-    > Le protocole NTLM offrant une protection plus faible que Kerberos contre les attaques, certaines organisations minimisent l’utilisation de NTLM. Par conséquent, peuvent restreindre l’accès aux Skype pour Business Server interne ou clients connectés via une connexion VPN ou DirectAccess. 
+    > Le protocole NTLM offrant une protection plus faible que Kerberos contre les attaques, certaines organisations minimisent l’utilisation de NTLM. Par conséquent, l’accès à Skype entreprise Server peut être limité à un réseau interne ou à un client connecté par le biais d’une connexion VPN ou DirectAccess. 
   
 - **Protocole Digest** pour utilisateurs anonymes. Les utilisateurs anonymes sont des utilisateurs externes qui ne disposent pas d’informations d’identification Active Directory reconnues mais qui ont été invités à une conférence sur site et qui possèdent une clé de conférence valide. L’authentification Digest n’est pas utilisée pour d’autres interactions clients.
     
-Skype pour l’authentification de serveur d’entreprise se compose de deux phases :
+L’authentification de Skype entreprise Server comporte deux phases:
   
 1. Une association de sécurité est établie entre le client et le serveur.
     
@@ -44,13 +44,13 @@ Les utilisateurs disposant d’informations d’identification valides émises p
   
 Les protocoles ICE et TURN utilisent également le défi Digest tel que décrit dans le RFC TURN de l’IETF.
   
-Les certificats clients permettent également aux utilisateurs d’être authentifiés par Skype pour Business Server. Au lieu de fournir un nom d’utilisateur et un mot de passe, les utilisateurs disposent d’un certificat et d’une clé privée correspondant au certificat requis pour résoudre un défi cryptographique. (Ce certificat doit avoir un nom du sujet ou le nom du sujet qui identifie l’utilisateur et doit être émis par une autorité de certification racine approuvée par les serveurs exécutant Skype pour Business Server, dans la période de validité du certificat, pas avoir été révoqué). Pour être authentifié, les utilisateurs doivent taper dans un code confidentiel (PIN). Les certificats s’avèrent particulièrement utiles pour les téléphones, les téléphones mobiles et autres appareils où il est difficile de saisir un nom d’utilisateur et un mot de passe.
+Les certificats clients permettent aux utilisateurs d’être authentifiés de manière alternative par Skype entreprise Server. Au lieu de fournir un nom d’utilisateur et un mot de passe, les utilisateurs disposent d’un certificat et d’une clé privée correspondant au certificat requis pour résoudre un défi cryptographique. (Ce certificat doit avoir un nom de sujet ou un autre nom d’objet identifiant l’utilisateur et doit être émis par une autorité de certification racine qui est approuvée par les serveurs exécutant Skype entreprise Server, qu’il n’ait pas été révoqué.) Pour être authentifié, les utilisateurs doivent uniquement saisir un code confidentiel (PIN). Les certificats s’avèrent particulièrement utiles pour les téléphones, les téléphones mobiles et autres appareils où il est difficile de saisir un nom d’utilisateur et un mot de passe.
   
-### <a name="cryptographic-requirements-due-to-asp-net-45"></a>Exigences de chiffrement en raison d’ASP .NET 4.5 
+### <a name="cryptographic-requirements-due-to-asp-net-45"></a>Configuration requise pour la cryptographie en raison d’ASP .NET 4,5 
 
-À compter de Skype pour Business Server 2015 CU5, AES n’est pas pris en charge pour ASP.NET 4.6 et cela peut entraîner Skype réunions application Échec de démarrage. Si un client utilise AES en tant que la valeur de validation de la clé d’ordinateur, vous devrez rétablir la valeur de clé d’ordinateur SHA-1 ou un autre algorithme pris en charge au niveau du site d’application de réunions Skype sur IIS. Si nécessaire, consultez [Gestion de la Configuration IIS 8.0 ASP.NET](https://docs.microsoft.com/iis/get-started/whats-new-in-iis-8/iis-80-aspnet-configuration-management) pour obtenir des instructions.
+À partir de Skype entreprise Server 2015 CU5, AES n’est pas pris en charge pour ASP.NET 4,6 et cela peut entraîner le démarrage de l’application réunions Skype. Si un client utilise la valeur AES comme clé de validation de la clé d’ordinateur, vous devez redéfinir la valeur de la clé d’ordinateur sur SHA-1 ou un autre algorithme pris en charge sur le niveau du site de l’application réunions Skype sur IIS. Le cas échéant, voir [gestion des configurations d’IIS 8,0 ASP.net](https://docs.microsoft.com/iis/get-started/whats-new-in-iis-8/iis-80-aspnet-configuration-management) pour obtenir des instructions.
   
-Autres valeurs prises en charge sont :
+Les autres valeurs prises en charge sont les suivantes:
   
 - HMACSHA256
     
@@ -58,5 +58,5 @@ Autres valeurs prises en charge sont :
     
 - HMACSHA512
     
-  Les valeurs MD5, 3DES et AES ne sont plus autorisées, comme une seule fois dans ASP.NET 4. [Améliorations de chiffrement dans ASP.NET 4.5, pt 2](https://blogs.msdn.microsoft.com/webdev/2012/10/23/cryptographic-improvements-in-asp-net-4-5-pt-2/) a plus de détails.
+  Les valeurs AES, 3DES et MD5 ne sont plus autorisées, car elles se trouvaient auparavant dans ASP.NET 4. Pour plus d’informations, reportez-vous [à la ASP.NET 4,5, PT. 2](https://blogs.msdn.microsoft.com/webdev/2012/10/23/cryptographic-improvements-in-asp-net-4-5-pt-2/) .
   

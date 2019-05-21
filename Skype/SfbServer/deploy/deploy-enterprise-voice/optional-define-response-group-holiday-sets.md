@@ -1,26 +1,26 @@
 ---
-title: (Facultatif) Définir Response Group de congés dans Skype pour les entreprises
+title: Facultatif Définir des jeux de vacances de groupe de réponse dans Skype entreprise
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 56c37b3b-6517-49b9-86b7-ae48cc349119
-description: Créer ou modifier les congés Response Group, dans Skype pour Business Server Enterprise Voice.
-ms.openlocfilehash: d78eaeee9b447dfd0c9f4f7250b6f34aee298594
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Créer ou modifier des ensembles de jours fériés de Response Group dans Skype entreprise Server Voice.
+ms.openlocfilehash: cd277412a9cef2c474b8ba60459e216482f2d872
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894704"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34304488"
 ---
-# <a name="optional-define-response-group-holiday-sets-in-skype-for-business"></a>(Facultatif) Définir Response Group de congés dans Skype pour les entreprises
+# <a name="optional-define-response-group-holiday-sets-in-skype-for-business"></a>Facultatif Définir des jeux de vacances de groupe de réponse dans Skype entreprise
  
-Créer ou modifier les congés Response Group, dans Skype pour Business Server Enterprise Voice.
+Créer ou modifier des ensembles de jours fériés de Response Group dans Skype entreprise Server Voice.
   
 Les paramètres relatifs aux congés définissent les jours de fermeture d’un groupe Response Group et spécifient l’action à effectuer pendant ces jours. Une période de congé est un ensemble de congés, qui s’applique à un groupe Response Group.
   
@@ -29,9 +29,9 @@ Les paramètres relatifs aux congés définissent les jours de fermeture d’un 
   
 ### <a name="to-create-a-holiday-set"></a>Pour créer une période de congés
 
-1. Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre de l’un des rôles d’administration prédéfinis qui prennent en charge Response Group.
+1. Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre de l’un des rôles d’administration prédéfinis prenant en charge Response Group.
     
-2. Démarrez le Skype pour Business Server Management Shell : cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Skype pour Business 2015**, puis cliquez sur **Skype pour Business Server Management Shell**.
+2. Démarrez Skype entreprise Server Management Shell: cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
     
 3. Pour chaque congé que vous souhaitez définir, exécutez :
     
@@ -55,8 +55,8 @@ Les paramètres relatifs aux congés définissent les jours de fermeture d’un 
 
 ## <a name="see-also"></a>Voir aussi
 
-[Concevoir et créer des flux de travail de groupe de réponse dans Skype pour les entreprises](designing-and-creating-response-group-workflows.md)
+[Conception et création de flux de travail de groupe de réponse dans Skype entreprise](designing-and-creating-response-group-workflows.md)
 
-[New-CsRgsHoliday](https://docs.microsoft.com/powershell/module/skype/new-csrgsholiday?view=skype-ps)
+[Nouveau-CsRgsHoliday](https://docs.microsoft.com/powershell/module/skype/new-csrgsholiday?view=skype-ps)
 
 [New-CsRgsHolidaySet](https://docs.microsoft.com/powershell/module/skype/new-csrgsholidayset?view=skype-ps)

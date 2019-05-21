@@ -1,26 +1,26 @@
 ---
-title: Infrastructure à clé publique pour Skype pour Business Server
+title: Infrastructure à clé publique pour Skype entreprise Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 737c8a25-23e9-4494-ab76-5a7b729b44ca
-description: Skype pour Business Server repose sur les certificats pour l’authentification de serveur et d’établir une chaîne d’approbation entre les clients et serveurs et entre les différents rôles de serveur. Le Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 et Windows Server 2008 Public Key Infrastructure (PKI) fournit l’infrastructure pour établir et de valider cette chaîne d’approbation.
-ms.openlocfilehash: 7ff0c2b7d40b2e650dd7c66ecfe23d4981e6f7af
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Skype entreprise Server repose sur des certificats pour l’authentification du serveur et établit une chaîne de confiance entre les clients et les serveurs et entre les différents rôles de serveur. Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 et l’infrastructure à clé publique (PKI) Windows Server 2008 fournit l’infrastructure nécessaire pour établir et valider cette chaîne de confiance.
+ms.openlocfilehash: 381afce84c1a58d15187547c9cb8fd6f98e84790
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33897463"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34296853"
 ---
-# <a name="public-key-infrastructure-for-skype-for-business-server"></a>Infrastructure à clé publique pour Skype pour Business Server
+# <a name="public-key-infrastructure-for-skype-for-business-server"></a>Infrastructure à clé publique pour Skype entreprise Server
  
-Skype pour Business Server repose sur les certificats pour l’authentification de serveur et d’établir une chaîne d’approbation entre les clients et serveurs et entre les différents rôles de serveur. Le Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 et Windows Server 2008 Public Key Infrastructure (PKI) fournit l’infrastructure pour établir et de valider cette chaîne d’approbation.
+Skype entreprise Server repose sur des certificats pour l’authentification du serveur et établit une chaîne de confiance entre les clients et les serveurs et entre les différents rôles de serveur. Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 et l’infrastructure à clé publique (PKI) Windows Server 2008 fournit l’infrastructure nécessaire pour établir et valider cette chaîne de confiance.
   
 Les certificats sont des ID numériques. Ils identifient un serveur par son nom et indiquent ses propriétés. Afin de garantir que les informations d’un certificat sont valides, celui-ci doit être émis par une autorité de certification (CA) approuvée par les clients ou d’autres serveurs qui se connectent au serveur. Si le serveur se connecte uniquement avec d’autres clients et serveurs sur un réseau privé, la CA peut être une CA d’entreprise. Si le serveur interagit avec des entités en dehors du réseau privé, une CA publique peut être requise.
   
@@ -29,14 +29,14 @@ Même si les informations du certificat sont valides, il doit exister un moyen d
 Chaque certificat est lié à une clé publique. Le serveur nommé sur le certificat contient une clé privée correspondante que lui seul connaît. Un client ou serveur se connectant utilise la clé publique pour chiffrer une information aléatoire et l’envoie au serveur. Si le serveur déchiffre l’information et la retourne sous forme de texte simple, l’entité se connectant peut ainsi être sûre que le serveur contient la clé privée du certificat et qu’il s’agit donc du serveur nommé sur le certificat.
   
 > [!NOTE]
-> Pas de toutes les autorités de certification publiques respectent les exigences de Skype pour les certificats de serveur d’entreprise. Nous vous conseillons de vous reporter à la liste des autorités de certification publiques approuvées pour vos besoins de certificats publics. Pour plus d’informations, voir [Partenaires de certificat de Communications unifiées](https://go.microsoft.com/fwlink/p/?LinkId=140898). 
+> Toutes les autorités de certification publiques ne respectent pas les exigences des certificats de Skype entreprise Server. Nous vous conseillons de vous reporter à la liste des autorités de certification publiques approuvées pour vos besoins de certificats publics. Pour plus d’informations, reportez-vous à la rubrique [partenaires de certification Unified Communications](https://go.microsoft.com/fwlink/p/?LinkId=140898) 
   
 ## <a name="crl-distribution-points"></a>Points de distribution de liste de révocation de certificats
 
-Skype pour Business Server requiert tous les certificats de serveur pour contenir un ou plusieurs points de distribution de liste de révocation de certificats (CRL). Les points de distribution CRL (CDP) sont des emplacements à partir desquels les CRL peuvent être téléchargés en vue de vérifier que le certificat n’a pas été révoqué depuis son émission et qu’il est toujours dans sa période de validité. Un point de distribution CRL est indiqué dans les propriétés du certificat sous forme d’URL et il s’agit généralement d’une adresse HTTP sécurisée.
+Skype entreprise Server nécessite que tous les certificats de serveur contiennent un ou plusieurs points de distribution de la liste de révocation de certificats. Les points de distribution CRL (CDP) sont des emplacements à partir desquels les CRL peuvent être téléchargés en vue de vérifier que le certificat n’a pas été révoqué depuis son émission et qu’il est toujours dans sa période de validité. Un point de distribution CRL est indiqué dans les propriétés du certificat sous forme d’URL et il s’agit généralement d’une adresse HTTP sécurisée.
   
 ## <a name="enhanced-key-usage"></a>Utilisation améliorée de la clé
 
-Skype pour Business Server requiert tous les certificats de serveur pour prendre en charge d’utilisation avancée de la clé (EKU) pour les besoins de l’authentification de serveur. La configuration du champ EKU pour l’authentification du serveur signifie que le certificat est valide pour l’authentification des serveurs. Cette EKU est essentielle pour MTLS. Il est possible d’avoir plusieurs entrées dans l’EKU, ce qui permet au certificat d’avoir plusieurs rôles.
+Skype entreprise Server nécessite que tous les certificats de serveur prennent en charge l’utilisation améliorée de la clé (EKU) dans le cadre de l’authentification du serveur. La configuration du champ EKU pour l’authentification du serveur signifie que le certificat est valide pour l’authentification des serveurs. Cette EKU est essentielle pour MTLS. Il est possible d’avoir plusieurs entrées dans l’EKU, ce qui permet au certificat d’avoir plusieurs rôles.
   
 

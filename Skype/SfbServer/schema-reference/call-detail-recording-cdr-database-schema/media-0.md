@@ -1,36 +1,36 @@
 ---
-title: Vue média
+title: Vue multimédia
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1a7b2e59-082e-4188-98ae-48ae9bd3494a
-description: La vue Media stocke des informations sur un type de support utilisé dans une session d’égal à égal. Une session est représentée par plusieurs enregistrements dans le tableau, si plus d’un type de média est utilisé. Cet affichage a été introduit dans Microsoft Lync Server 2013.
-ms.openlocfilehash: 83caf609efae4e97961e7c62c3a1ed6c6004e8e8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Le mode multimédia stocke les informations relatives à un type de média utilisé dans une session d’égal à égal. Une session serait représentée par plusieurs enregistrements dans la table, si plusieurs types de média sont utilisés. Cet affichage a été présenté dans Microsoft Lync Server 2013.
+ms.openlocfilehash: 044a31381d4e1e48c465f7ee6de89acab10ab54e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930692"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295999"
 ---
-# <a name="media-view"></a>Vue média
+# <a name="media-view"></a>Vue multimédia
  
-La vue Media stocke des informations sur un type de support utilisé dans une session d’égal à égal. Une session est représentée par plusieurs enregistrements dans le tableau, si plus d’un type de média est utilisé. Cet affichage a été introduit dans Microsoft Lync Server 2013.
+Le mode multimédia stocke les informations relatives à un type de média utilisé dans une session d’égal à égal. Une session serait représentée par plusieurs enregistrements dans la table, si plusieurs types de média sont utilisés. Cet affichage a été présenté dans Microsoft Lync Server 2013.
   
 > [!NOTE]
-> La vue Media ne doit pas être utilisée pour calculer la durée d’une session multimédia. Cet affichage contient les détails de signalisation d’échanges multimédias dans une session. Échanges multimédias est effectué à la demande d’invitation et StartTime indique l’heure à laquelle l’invitation a été envoyée. Le temps d’inviter ne signifie pas nécessairement que le support de démarrage, car media commence uniquement une fois que la session est acceptée. 
+> Le mode multimédia ne doit pas être utilisé pour calculer la durée du média pour une session. Cet affichage contient les détails de signalisation d’échange de médias dans une session. L’échange de média est effectué par la demande d’invitation, et la durée de StartTime indique l’heure d’envoi de l’invitation. La durée d’invitation ne correspond pas nécessairement à l’heure de début du média, car le contenu multimédia ne démarre qu’après acceptation de la session. 
   
-La vue Media contient toutes les colonnes de [SessionDetails view](sessiondetails-0.md) en plus celles répertoriées ci-dessous.
+La vue multimédia contient toutes les colonnes de la [vue SessionDetails](sessiondetails-0.md) , en plus de celles répertoriées ci-dessous.
   
 |**Colonne**|**Type de données**|**Détails**|
 |:-----|:-----|:-----|
-|**Media** <br/> |nvarchar(256)  <br/> |Type de média. Consultez la [table MediaList](medialist.md) pour plus d’informations. <br/> |
-|**MediaStartTime** <br/> |DateHeure  <br/> |Heure à laquelle une demande de support a été envoyée.  <br/> |
+|**Media** <br/> |nvarchar(256)  <br/> |Type de média. Pour plus d’informations, reportez-vous à la [table](medialist.md) de médiane. <br/> |
+|**MediaStartTime** <br/> |DateHeure  <br/> |Temps d’envoi d’une demande de média.  <br/> |
 |**MediaEndTime** <br/> |DateHeure  <br/> |Heure de fin de la session.  <br/> |
    
 

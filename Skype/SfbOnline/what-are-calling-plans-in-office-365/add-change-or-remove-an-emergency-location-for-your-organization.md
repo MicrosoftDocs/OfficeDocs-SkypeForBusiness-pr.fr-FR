@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,31 +21,31 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Apprenez à ajouter, modifier ou supprimer un emplacement d’urgence utilisé par Skype Entreprise sur le réseau téléphonique commuté public (RTCP) pour votre organisation. '
-ms.openlocfilehash: 39d3d530c4bfc3729e7711333bb804055d97378f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: feaad24649c44be0561a90b568f023fd54ccc8f7
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32225778"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299551"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>Ajouter, modifier ou supprimer un emplacement pour votre organisation d'urgence
 
 Depending on the number of physical locations in your organization, you can create emergency locations for buildings, floors, and offices to create a more specific emergency address. See [What are emergency locations, addresses and call routing?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing) for more information. 
   
-Pour savoir comment obtenir un Plan d’appel et leur coût, consultez la rubrique [Skype pour les licences d’entreprise et les équipes Microsoft module complémentaire](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+Pour plus d’informations sur la façon d’obtenir un plan d’appels et son coût, reportez-vous à la rubrique [licences de module complémentaire Skype entreprise et Microsoft teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
 ## <a name="add-an-emergency-location-to-an-emergency-address"></a>Ajout d'un emplacement d'urgence à une adresse de secours
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
-2. Accéder au **Centre d’administration de Microsoft équipes** > **portail hérité**.
+2. Accédez au > **portail hérité**du **Centre d’administration Microsoft teams**.
     
-3. Dans la navigation de gauche, accédez à la **voix** > **emplacements d’urgence**, puis sélectionnez l’adresse d’urgence que vous souhaitez ajouter un emplacement pour.
+3. Dans le volet de navigation de gauche, accédez à**emplacements de secours** **vocaux** > , puis sélectionnez l’adresse de secours à laquelle vous souhaitez ajouter un emplacement.
     
     > [!Important]
-    > Vous permet de voir l’option de **voix** dans le volet de navigation gauche dans le Skype entreprise centre d’administration, vous devez d’abord acheter une licence de module complémentaire de **Conférence Audio** , une licence de module complémentaire **Système téléphonique** ou au moins une **licence Enterprise E5**.
+    > Pour que l’option **voix** s’affiche dans le volet de navigation gauche du centre d’administration de Skype entreprise, vous devez d’abord acheter au moins une licence **entreprise E5**, une licence de composant additionnel du **système téléphonique** ou une licence du composant additionnel **audioconférence** .
     
-4. Dans le volet Actions, en regard des **emplacements associés**, cliquez sur **Modifier**.
+4. Dans le volet action, en regard de **emplacements associés**, cliquez sur **modifier**.
     
 5. Dans **Emplacements associés avec**, cliquez sur **Ajouter nouveau**, entrez un autre emplacement associé (par exemple, entrez « Bâtiment 64 étage 1 »), puis cliquez sur **Envoyer**.
     
@@ -55,11 +55,11 @@ Pour savoir comment obtenir un Plan d’appel et leur coût, consultez la rubriq
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
-2. Accéder au **Centre d’administration de Microsoft équipes** > **portail hérité**.
+2. Accédez au > **portail hérité**du **Centre d’administration Microsoft teams**.
     
-3. Dans la navigation de gauche, accédez à la **voix** > **emplacements d’urgence**, puis sélectionnez l’adresse d’urgence pour lequel vous souhaitez modifier un emplacement.
+3. Dans le volet de navigation de gauche, sélectionnez**emplacements de secours** **vocaux** > , puis sélectionnez l’adresse de secours pour laquelle vous voulez modifier un emplacement.
     
-4. Dans le volet Actions, en regard des **emplacements associés**, cliquez sur **Modifier**.
+4. Dans le volet action, en regard de **emplacements associés**, cliquez sur **modifier**.
     
 5. Sous **Emplacements associés avec**, cliquez sur le lien de l’emplacement dans la liste, entrez les nouvelles informations de l’emplacement dans **Modifier les informations de l’emplacement associé**, puis cliquez sur **Envoyer**.
     
@@ -69,13 +69,13 @@ Pour savoir comment obtenir un Plan d’appel et leur coût, consultez la rubriq
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
-2. Accéder au **Centre d’administration de Microsoft équipes** > **portail hérité**.
+2. Accédez au > **portail hérité**du **Centre d’administration Microsoft teams**.
     
-3. Dans la navigation de gauche, accédez à la **voix** > **emplacements d’urgence**, puis sélectionnez l’adresse d’urgence que vous souhaitez supprimer un emplacement pour.
+3. Dans le volet de navigation de gauche, sélectionnez**emplacements d’urgence**de la **voix** > , puis sélectionnez l’adresse de secours pour laquelle vous souhaitez supprimer un emplacement.
     
-4. Dans le volet Actions, en regard des **emplacements associés**, cliquez sur **Modifier**.
+4. Dans le volet action, en regard de **emplacements associés**, cliquez sur **modifier**.
     
-5. Sous **emplacements associés**, en regard de la liaison pour l’emplacement, cliquez sur **Supprimer**.
+5. Sous **emplacements associés à**, en regard du lien de l’emplacement, cliquez sur **supprimer**.
     
 6. Cliquez sur **Enregistrer**.
     

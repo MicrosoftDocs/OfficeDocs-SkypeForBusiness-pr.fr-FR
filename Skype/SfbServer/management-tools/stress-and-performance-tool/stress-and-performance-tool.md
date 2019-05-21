@@ -5,77 +5,77 @@ ms.author: v-lanac
 author: lanachin
 ms.date: 4/6/2016
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f2f7d19b-18c8-4a41-9b17-80d35b73d742
-description: Le Skype pour Business Server 2015 Stress and Performance Tool est utilisé lors de la planification de capacité et de réglage des performances dans un environnement hors production ou de test.
-ms.openlocfilehash: 7705e92c8389e0377e805bd7d8e09aee454d9160
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: L’outil de stress et de performance de Skype entreprise Server 2015 est utilisé lors de la planification de la capacité et de l’optimisation des performances dans les environnements hors production et de test.
+ms.openlocfilehash: d82d5ed33e6dca1303aed9f49150dd6b56fc4e1a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33904572"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299515"
 ---
 # <a name="skype-for-business-server-2015-stress-and-performance-tool"></a>Skype for Business Server 2015 Stress and Performance Tool
  
-Le Skype pour Business Server 2015 Stress and Performance Tool est utilisé lors de la planification de capacité et de réglage des performances dans un environnement hors production ou de test.
+L’outil de stress et de performance de Skype entreprise Server 2015 est utilisé lors de la planification de la capacité et de l’optimisation des performances dans les environnements hors production et de test.
   
-Le Skype pour Business Server 2015 Stress and Performance Tool inclut des outils qui simplifient votre planification de capacité pour Skype pour Business Server 2015. Le Skype pour Business Server 2015 Stress and Performance Tool vous aideront à :
+L’outil de stress et de performance de Skype entreprise Server 2015 inclut des outils qui simplifient la planification de la capacité de Skype entreprise Server 2015. L’outil de stress et de performance de Skype entreprise Server 2015 vous aide à effectuer les opérations suivantes:
   
-- Simplifiez votre matériel planification de Skype pour Business Server
+- Simplification de la planification de votre matériel pour Skype entreprise Server
     
-- Améliorent la base de connaissances et meilleures pratiques pour l’optimisation des performances
+- Vous offrir des connaissances et des meilleures pratiques en matière d’optimisation des performances
     
-- Mesurer les performances de votre Skype pour les déploiements de serveur d’entreprise
+- Mesurer les performances de vos déploiements Skype entreprise Server
     
-Vous utiliserez généralement cet outil après que le [Skype pour l’outil de planification de 2015 Business Server](../../management-tools/planning-tool/planning-tool.md) vous permet de concevoir la topologie et affiner la topologie avec le [Skype pour Business Server 2015 planification des capacités](../../management-tools/capacity-planning-calculator.md). 
+En règle générale, vous devez utiliser cet outil après l’utilisation de l' [outil de planification de Skype entreprise server 2015](../../management-tools/planning-tool/planning-tool.md) pour concevoir la topologie et affiner la topologie avec le [calculateur de planification de capacité de skype entreprise Server 2015](../../management-tools/capacity-planning-calculator.md). 
 
 > [!NOTE]
-> Cet outil ne système pas mis à jour pour Skype pour Business Server 2019.
+> Cet outil ne sera pas mis à jour pour Skype entreprise Server 2019.
   
 ## <a name="tests"></a>Tests
 
-Le Stress and Performance Tool peuvent de simuler ces types de charge utilisateur :
+L’outil de stress et de performance peut simuler les types de charge utilisateur suivants:
   
 |||
 |:-----|:-----|
 |Messagerie instantanée et présence  <br/> |Audioconférence  <br/> |
-|Partage d'application  <br/> |Voix sur IP (VoIP), y compris le réseau téléphonique commuté simulation (PTSN)  <br/> |
-|Conférences Web Client Access  <br/> |Standard automatique de conférence  <br/> |
-|Groupes de réponses  <br/> |Développement de listes de distribution  <br/> |
-|Téléchargement du carnet d’adresses et l’interrogation du carnet d’adresses  <br/> |Enhanced 911 (E911) appels et le profil d’emplacement (plan de numérotation)  <br/> |
-|MultiView  <br/> |Collaboration de données  <br/> |
+|Partage d'application  <br/> |Voix sur IP (VoIP), y compris la simulation de réseau téléphonique commuté (PTSN)  <br/> |
+|Conférences de clients d’accès Web  <br/> |Standard automatique de conférences  <br/> |
+|Response Groups  <br/> |Extension de liste de distribution  <br/> |
+|Requête de téléchargement du carnet d’adresses et du carnet d’adresses  <br/> |Le profil d’emplacement et les appels 911 (E911)  <br/> |
+|Multivue  <br/> |Collaboration sur les données  <br/> |
 |Mobilité  <br/> ||
    
-## <a name="applications-and-files-included-with-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Applications et fichiers inclus dans le Skype pour Business Server 2015 Stress and Performance Tool
+## <a name="applications-and-files-included-with-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Applications et fichiers inclus dans l’outil de stress et de performance de Skype entreprise Server 2015
 
-Ces applications font partie de la Skype pour Business Server Stress and Performance Tool :
+Ces applications font partie intégrante de l’outil de stress et de performance de Skype entreprise Server:
   
-|**Outil**|**Description**|
+|**Il**|**Description**|
 |:-----|:-----|
-|UserProvisioningTool.exe  <br/> |Cet outil est utilisé pour créer des utilisateurs et des contacts.  <br/> |
-|UserProfileGenerator.exe  <br/> |Utilisé pour configurer les caractéristiques de la charge utilisateur que vous êtes simulation.  <br/> |
-|LyncPerfTool.exe  <br/> |L’outil qui simule la charge utilisateur.  <br/> |
-|Default.TMX  <br/> |Requis pour utiliser le Skype pour l’outil de journalisation Business Server 2015.  <br/> |
-|Exemples de scripts de mise en service  <br/> |Utilisé pour configurer la topologie pour l’exécution des tests de charge basés sur des scénarios spécifiques. Vous devrez probablement les modifier pour qu’elles soient adaptées à votre environnement.  <br/> |
+|UserProvisioningTool. exe  <br/> |Cet outil permet de créer des utilisateurs et des contacts.  <br/> |
+|UserProfileGenerator. exe  <br/> |Permet de configurer les caractéristiques de la charge utilisateur que vous simulez.  <br/> |
+|LyncPerfTool. exe  <br/> |Outil simulant la charge utilisateur.  <br/> |
+|Default. TMX  <br/> |Requis pour utiliser l’outil de journalisation de Skype entreprise Server 2015.  <br/> |
+|Exemples de script de mise en service  <br/> |Utilisé pour configurer la topologie pour exécuter des tests de charge, en fonction de scénarios spécifiques. Vous devrez peut-être les modifier pour qu’elles soient pertinentes pour votre environnement particulier.  <br/> |
    
 ## <a name="topics-in-this-section"></a>Rubriques de cette section
 
-Si vous avez besoin pour en savoir plus, consultez les articles suivants :
+Pour en savoir plus, consultez les articles suivants:
   
 - [Conditions préalables et configuration pour l'outil Stress and Performance de Skype Entreprise](prerequisites-and-setup.md)
     
-- [Scénarios de performances pour le Skype pour Business Server 2015 Stress and Performance Tool](scenarios.md)
+- [Scénarios de performances de l’outil de stress et de performances de Skype entreprise Server 2015](scenarios.md)
     
-  - [Mise en service de la topologie pour exécuter la charge dans les scénarios de Stress and Performance](provisioning-the-topology-to-run-load.md)
+  - [Approvisionnement de la topologie pour exécuter des scénarios de stress et de performance](provisioning-the-topology-to-run-load.md)
     
-  - [Configuration des stratégies pour le Skype pour Business Server 2015 Stress and Performance Tool](configuring-policies.md)
+  - [Configuration des stratégies de l’outil de stress et de performance de Skype entreprise Server 2015](configuring-policies.md)
     
-- [À l’aide de la Skype pour Business Server 2015 Stress and Performance Tool](using-the-tool.md)
+- [Utilisation de l’outil de stress et de performance 2015 de Skype entreprise Server](using-the-tool.md)
     
-- [Forum aux questions concernant la Skype pour Business Server 2015 Stress and Performance Tool](faq.md)
+- [FAQ sur l’outil de stress et de performances de Skype entreprise Server 2015](faq.md)
     
 

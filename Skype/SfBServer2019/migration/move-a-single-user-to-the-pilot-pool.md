@@ -1,46 +1,46 @@
 ---
-title: Déplacement d’un utilisateur vers le pool pilote
+title: Déplacer un utilisateur unique vers le pool de pilotes
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Vous pouvez déplacer un utilisateur à partir de votre pool hérité vers votre Skype pour le pool pilote Business Server 2019 à l’aide de Skype pour Business Server 2019 le panneau de configuration ou Skype pour Business Server 2019 Management Shell. Dans l’exemple ci-dessous, dans la colonne pool de serveurs d’inscriptions, pool01.contoso.net est le pool hérité et tous les six de ces utilisateurs sont connectés à ce pool. Utilisez les procédures suivantes pour déplacer un utilisateur à votre Skype pour Business Server 2019 pool à l’aide de Skype pour Business Server 2019 le panneau de configuration et Skype pour Business Server Management Shell.
-ms.openlocfilehash: 94896ce2ea05a3102d5a7643e3f26430e74bfe19
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Vous pouvez déplacer un utilisateur de votre liste héritée vers votre pool de pilotes Skype entreprise Server 2019 à l’aide de Skype entreprise Server 2019 le panneau de configuration ou de Skype entreprise Server 2019 Management Shell. Dans l’exemple ci-dessous, dans la colonne pool d’inscriptions, pool01.contoso.net est le pool hérité, et les six de ces utilisateurs sont connectés à ce pool. Utilisez les procédures suivantes pour déplacer un utilisateur vers votre pool Skype entreprise Server 2019 à l’aide de Skype entreprise Server 2019 le panneau de configuration et de Skype entreprise Server Management Shell.
+ms.openlocfilehash: 23ce56f8bcf759aeeaa9e9a9b64820958c656c6a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231594"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298133"
 ---
-# <a name="move-a-single-user-to-the-pilot-pool"></a>Déplacement d’un utilisateur vers le pool pilote
+# <a name="move-a-single-user-to-the-pilot-pool"></a>Déplacer un utilisateur unique vers le pool de pilotes
 
-Vous pouvez déplacer un utilisateur à partir de votre pool hérité vers votre Skype pour le pool pilote Business Server 2019 à l’aide de Skype pour Business Server 2019 le panneau de configuration ou Skype pour Business Server 2019 Management Shell. Dans l’exemple ci-dessous, dans la colonne **pool de serveurs d’inscriptions** , **pool01.contoso.net** est le pool hérité et tous les six de ces utilisateurs sont connectés à ce pool. Utilisez les procédures suivantes pour déplacer un utilisateur à votre Skype pour Business Server 2019 pool à l’aide de Skype pour Business Server 2019 le panneau de configuration et Skype pour Business Server Management Shell. 
+Vous pouvez déplacer un utilisateur de votre liste héritée vers votre pool de pilotes Skype entreprise Server 2019 à l’aide de Skype entreprise Server 2019 le panneau de configuration ou de Skype entreprise Server 2019 Management Shell. Dans l’exemple ci-dessous, dans la colonne **pool d’inscriptions** , **pool01.contoso.net** est le pool hérité, et les six de ces utilisateurs sont connectés à ce pool. Utilisez les procédures suivantes pour déplacer un utilisateur vers votre pool Skype entreprise Server 2019 à l’aide de Skype entreprise Server 2019 le panneau de configuration et de Skype entreprise Server Management Shell. 
   
-## <a name="to-move-a-user-by-using-the-skype-for-business-server-2019-control-panel"></a>Pour déplacer un utilisateur à l’aide de la Skype pour Business Server 2019 le panneau de configuration
+## <a name="to-move-a-user-by-using-the-skype-for-business-server-2019-control-panel"></a>Pour déplacer un utilisateur à l’aide du panneau de configuration Skype entreprise Server 2019
   
 1. Ouvrez une session sur le serveur frontal avec un compte membre du groupe RTCUniversalServerAdmins ou du rôle d’admistrateur CsAdministrator ou CsUserAdministrator.
     
-2. Ouvrez **Skype pour le panneau de configuration serveur Business**.
+2. Ouvrez **le panneau de configuration Skype entreprise Server**.
     
-3. Cliquez sur **utilisateurs**, cliquez sur **Rechercher**, puis cliquez sur **Rechercher**.
+3. Cliquez sur **utilisateurs**, sur **recherche**, puis sur **Rechercher**.
     
-4. Sélectionnez un utilisateur que vous souhaitez déplacer vers le Skype pour Business Server 2019 pool. Dans l’exemple suivant, nous déplacerons l’utilisateur Sara Davis.
+4. Sélectionnez l’utilisateur que vous voulez déplacer vers le pool 2019 de Skype entreprise Server. Dans l’exemple suivant, nous déplacerons l’utilisateur Sara Davis.
     
 5. Dans le menu **Action**, sélectionnez **Déplacer les utilisateurs sélectionnés vers le pool**.
     
-6. Dans la liste déroulante, sélectionnez le Skype pour Business Server 2019 pool.
+6. Dans la liste déroulante, sélectionnez le pool Skype entreprise Server 2019.
     
-7. Cliquez sur **Action**, puis cliquez sur **déplacer les utilisateurs sélectionnés vers le pool**. Cliquez sur **OK**.
+7. Cliquez sur **action**, puis sur **déplacer les utilisateurs sélectionnés vers le pool**. Cliquez sur **OK**.
   
-8. Vérifiez que la colonne **pool de serveurs d’inscriptions** de l’utilisateur contient maintenant le Skype pour Business Server 2019 pool, ce qui indique que l’utilisateur a été déplacé avec succès. 
+8. Vérifiez que la colonne **pool d’inscriptions** pour l’utilisateur contient désormais le pool 2019 de Skype entreprise Server, qui indique que l’utilisateur a été déplacée avec succès. 
     
-## <a name="to-move-a-user-by-using-the-skype-for-business-server-2019-management-shell"></a>Pour déplacer un utilisateur à l’aide de la Skype pour Business Server 2019 Management Shell
+## <a name="to-move-a-user-by-using-the-skype-for-business-server-2019-management-shell"></a>Pour déplacer un utilisateur à l’aide de Skype entreprise Server 2019 Management Shell
 
-1. Ouvrez le Skype pour Business Server Management Shell.
+1. Ouvrez Skype entreprise Server Management Shell.
     
 2. Dans la ligne de commande, tapez ce qui suit : 
     
@@ -48,15 +48,15 @@ Vous pouvez déplacer un utilisateur à partir de votre pool hérité vers votre
    Move-CsUser -Identity "David Pelton" -Target "pool02.contoso.net"
    ```
 
-3. Ensuite, à l’invite de commandes, tapez ce qui suit : 
+3. Ensuite, dans la ligne de commande, tapez ce qui suit: 
     
    ```
    Get-CsUser -Identity "David Pelton"
    ```
 
-4. L’identité **RegistrarPool** pointe désormais vers le Skype pour Business Server 2019 pool. La présence de cette identité confirme que l’utilisateur a été déplacé avec succès. 
+4. L’identité **RegistrarPool** pointe désormais vers le pool Skype entreprise Server 2019. La présence de cette identité confirme que l’utilisateur a bien été déplacé. 
 
     > [!NOTE]
-    > Pour plus d’informations sur l’applet de commande **Get-CsUser** , exécutez : **Get-Help Get-CsUser-détaillées**
+    > Pour plus d’informations sur l’applet de connexion **Get-Csuser** , exécutez: **Get-Help Get-Csuser-detailed**
   
 

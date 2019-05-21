@@ -9,7 +9,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -17,25 +17,25 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: Découvrez pourquoi vous devez ajouter une personne qui peut modifier le compte lorsque vous utilisez l’Assistant Nouvel ordre de Port numéro Local.
-ms.openlocfilehash: 846abfd5b6973a02ad1a7388b45a79ec709695a0
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Découvrez pourquoi vous devez ajouter une personne autorisée pouvant apporter des modifications au compte lorsque vous utilisez l’Assistant Nouvelle demande de transfert de numéros locaux.
+ms.openlocfilehash: e77176b978cb33df2bc4efebae11fb218c3932a5
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229866"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34293765"
 ---
 # <a name="more-about-calling-line-id-and-calling-party-name"></a>Plus d’informations sur le nom de l’appelant et l’ID de ligne d’appel
 
-CallerID, comme il est généralement appelée, se compose de deux éléments identifiables perçues par les utilisateurs des informations :
-    - Un numéro de téléphone (généralement appelé comme CLID ou en appelant des ID de ligne) 
-    - L’appel de nom (généralement appelé CNAM) qui peut être jusqu'à 15 caractères. 
+Appelant, car elle est généralement désignée, consiste en fait de deux éléments d’information identifiables par l’utilisateur:
+    - Un numéro de téléphone (généralement appelé CLID ou ID de ligne d’appel); 
+    - Nom de l’appelant (généralement appelé CNAMe) qui peut comporter jusqu’à 15 caractères. 
 
-Lorsqu’un appel est effectué, le CLID (numéro de téléphone) est dirigé vers l’opérateur de destination (également appelé l’opérateur fin). Les informations de CNAM pour l’appel peuvent ou peuvent être acheminées pas avec l’appel comme cela dépend comment le pays a implémenté CNAM (si). La fiabilité de livraison CNAM avec l’appel varie selon le pays et les opérateurs qui gère l’appel soit comme un intermédiaire et/ou un opérateur rencontrée. 
+Lors d’un appel, le CLID (numéro de téléphone) est routé vers l’opérateur de destination (également appelé opérateur de terminaison). Les informations CNAMe de l’appel sont susceptibles de ne pas être acheminées en fonction de l’appel, car le pays a implémenté CNAMe (le cas échéant). La fiabilité de la fourniture de CNAMe avec l’appel varie en fonction du pays et du transporteur qui gèrent l’appel en tant qu’intermédiaire et/ou opérateur de résiliation. 
 
-Transmission de CNAM & CLID est la responsabilité de l’opérateur de fin dans la mesure où l’opérateur rencontrée doit prendre en charge CLID & CNAM fonctionnalité ainsi que fournir des enregistrements à jour pour les deux valeurs. Microsoft fournit fiable valeurs CLID lorsque les appels d’origine, mais ces valeurs ne peuvent pas être conservées intactes une fois qu’ils transitent par un opérateur intermédiaire ou l’opérateur de fin. Malheureusement, la valeur CLID est modifiée, omise ou tronquée par l’opérateur intermédiaire ou de fin, Microsoft n’a peu recours à aucune Pour corriger ces problèmes dans le réseau téléphonique public.
+CLID & la transmission CNAMe incombe à l’opérateur de résiliation, dans la mesure où l’opérateur de terminaison doit prendre en charge les fonctionnalités de fonction CNAMe &, ainsi que les enregistrements à jour pour les deux valeurs. Microsoft fournit des valeurs de CLID lors des appels d’origine, mais ces valeurs ne peuvent pas être conservées intactes une fois transmises par le biais d’un transporteur intermédiaire ou du transporteur de terminaison. Malheureusement, en cas de modification de la valeur de l’élément CLID, qu’il ait été omis ou tronqué par l’intermédiaire du transporteur ou de l’arrêt du son, Microsoft ne peut pas être modifié dans le cadre de la résolution de ces problèmes sur le réseau téléphonique public.
 
-Incohérences de CNAM peuvent être dû retards dans les opérateurs intermédiaires ou rencontrées l’actualisation des informations CNAM dans les bases de données faisant autorités comme dans le cas des États-Unis. Dans les pays où il n’y a aucune base de données faisant autorité pour CNAM, pratiques opérateur individuel peuvent également entraîner des problèmes avec les informations CNAM arrivant intacts avec l’appel. Microsoft n’autorise pas actuellement d’informations CNAM origine dans des pays autres que les États-Unis. »
+Les incohérences dans CNAMe peuvent être provoquées par des retards dans les opérateurs intermédiaires ou de terminaison qui actualisent les informations CNAMe dans les bases de données faisant autorité, comme dans le cas des États-Unis. Dans les pays dans lesquels il n’existe aucune base de données faisant autorité pour CNAMe, des pratiques de transporteur individuelles peuvent également poser des problèmes avec les informations CNAMe qui arrivent de façon insuffisante lors de l’appel. Microsoft ne prend actuellement pas en charge les informations CNAMe d’origine dans les pays autres que les États-Unis.
 
 ## <a name="related-topics"></a>Voir aussi
 

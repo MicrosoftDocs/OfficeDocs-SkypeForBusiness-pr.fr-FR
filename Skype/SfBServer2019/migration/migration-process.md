@@ -4,27 +4,27 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: La procédure de migration pris en charge et recommandé de Skype pour Business Server 2019 est migration côte à côte. Cette rubrique explique pourquoi vous devez utiliser migration côte à côte et contient également des informations sur le test de coexistence.
-ms.openlocfilehash: e14226721cbc09bd1f0ac66b47dbd1710712eb17
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: La procédure de migration recommandée et prise en charge pour Skype entreprise Server 2019 est une migration côte à côte. Cette rubrique décrit les raisons pour lesquelles vous devez utiliser la migration côte à côte et inclut des informations sur les tests de coexistence.
+ms.openlocfilehash: 179ad56dcf4c31abe8b94fb7131dd27dc68bfd96
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231615"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298154"
 ---
 # <a name="migration-process"></a>Processus de migration
 
-La procédure de migration pris en charge et recommandé de Skype pour Business Server 2019 est migration côte à côte. Cette rubrique explique pourquoi vous devez utiliser migration côte à côte et contient également des informations sur le test de coexistence.
+La procédure de migration recommandée et prise en charge pour Skype entreprise Server 2019 est une migration côte à côte. Cette rubrique décrit les raisons pour lesquelles vous devez utiliser la migration côte à côte et inclut des informations sur les tests de coexistence.
   
 ## <a name="side-by-side-migration"></a>Migration côte à côte
 
-Dans pratiquement tous migration, vous devez utiliser le chemin d’accès de la migration côte à côte. Dans une migration côte à côte, vous déployez un nouveau serveur avec Skype pour Business Server 2019 parallèlement à un serveur qui exécute une version précédente correspondant et opérations transférez vers le nouveau serveur. Si vous devez revenir à la version précédente, vous devez uniquement retransférer les opérations vers les serveurs d’origine. N’oubliez pas que les nouvelles réunions planifiées avec des clients mis à niveau ne fonctionnent pas dans ce cas, et les clients doivent également être mis à niveau.
+Dans presque chaque migration, utilisez le chemin de migration côte à côte. Dans le cas d’une migration côte à côte, vous déployez un nouveau serveur avec Skype entreprise Server 2019, parallèlement à un serveur correspondant exécutant une version antérieure, puis transférez les opérations vers le nouveau serveur. S’il est nécessaire de revenir à la version précédente, il est nécessaire de basculer vers les serveurs d’origine. Notez que dans ce cas, toutes les réunions planifiées avec des clients mis à niveau ne fonctionneront pas et les clients devront également être mis à niveau vers une version antérieure.
   
-## <a name="coexistence-testing"></a>Test de coexistence
+## <a name="coexistence-testing"></a>Tests de coexistence
 
-Une fois que vous avez déployé Skype pour Business Server 2019 parallèlement à la version précédente, le déploiement représente une coexistence test état de Skype pour Business Server 2019 et la version précédente. Dans cet état, il est important de tester et vérifier que les services sont démarrés et chaque site peut être administré, et les clients peuvent communiquer avec des utilisateurs actuels et hérités. Avant la migration de tous les utilisateurs, il est très important de connaître l’état de chaque déploiement et assurez-vous que chaque déploiement est fonctionnel et qu’elle fonctionne correctement. En règle générale, la phase de test de coexistence existe dans le test pilote du Skype pour Business Server 2019. Les utilisateurs hérités sont déplacés vers Skype pour Business Server 2019 pour une période de temps pour assurer la compatibilité des applications et les fonctions et fonctionnalités fonctionnent correctement. Après le test pilote, les utilisateurs et les applications sont déplacées vers la version de production de Skype pour Business Server 2019 et les pools hérités et les applications de la version précédente sont supprimées.
+Après avoir déployé Skype entreprise Server 2019 parallèlement à la version précédente, le déploiement représente un état de test de coexistence de Skype entreprise Server 2019 et la version précédente. Dans cet État, il est important de tester et de veiller à ce que les services soient démarrés, chaque site peut être administré et les clients peuvent communiquer avec leurs utilisateurs actuels et propriétaires. Avant de procéder à la migration de tous les utilisateurs, il est très important de comprendre l’état de chacun d’eux et de garantir le fonctionnement correct de chaque déploiement. En règle générale, la phase de test de coexistence existe tout au long des tests pilotes de Skype entreprise Server 2019. Les anciens utilisateurs sont déplacés vers Skype entreprise Server 2019 pendant un certain temps pour garantir la compatibilité et les fonctionnalités de l’application. Après le test pilote, les utilisateurs et les applications sont déplacés vers la version de production de Skype entreprise Server 2019, et les applications et les pools hérités de la version précédente sont obsolètes.
   

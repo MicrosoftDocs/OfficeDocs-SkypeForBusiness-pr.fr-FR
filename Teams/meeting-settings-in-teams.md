@@ -7,7 +7,7 @@ ms.reviewer: sonua
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
@@ -17,89 +17,89 @@ f1keywords:
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-description: Découvrez comment gérer les paramètres pour les réunions d’équipes qui planifient des utilisateurs dans votre organisation.
-ms.openlocfilehash: 4ded26dae69b5afef1d9fafb4819a73475c44898
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Découvrez comment gérer les paramètres des réunions d’équipes planifiées par les utilisateurs au sein de votre organisation.
+ms.openlocfilehash: 9dab34c518b4c0c5c25e55d894a1dacf4e0a773e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231887"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298118"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Gérer les paramètres de réunion dans Microsoft Teams
 
-En tant qu’administrateur, vous utilisez les paramètres de réunion équipes pour contrôler si les utilisateurs anonymes peuvent participer à des réunions d’équipes, personnaliser les invitations aux réunions et si vous souhaitez activer la qualité de Service (QoS), définissez des plages de ports pour le trafic en temps réel. Ces paramètres s’appliquent à toutes les réunions d’équipes cette planification, les utilisateurs de votre organisation. Vous gérer ces paramètres à partir de **réunions** > **paramètres de réunion** dans le centre d’administration Microsoft Teams.
+En tant qu’administrateur, vous pouvez utiliser les paramètres de réunion d’équipes pour contrôler si les utilisateurs anonymes peuvent participer à des réunions d’équipes, personnaliser les invitations aux réunions et, si vous souhaitez activer la qualité de service (QoS), définir des plages de ports pour le trafic en temps réel. Ces paramètres s’appliquent à toutes les réunions d’équipes planifiées par les utilisateurs dans votre organisation. Vous gérez ces paramètres à partir des**paramètres de réunion** **réunions** > dans le centre d’administration Microsoft Teams.
 
 ## <a name="allow-anonymous-users-to-join-meetings"></a>Autoriser les utilisateurs anonymes à participer à des réunions
 
-Avec la participation anonyme, tout le monde peut joindre la réunion en tant qu’utilisateur anonyme en cliquant sur le lien dans l’invitation à la réunion.
+Avec Join anonyme, n’importe qui peut rejoindre la réunion en tant qu’utilisateur anonyme en cliquant sur le lien dans l’invitation à la réunion.
 
-![les équipes-logo-30x30.png](media/teams-logo-30x30.png) **à l’aide du centre d’administration Microsoft équipes**
+![teams-logo-30x30. png](media/teams-logo-30x30.png) **à l’aide du centre d’administration Microsoft teams**
 
-1. Dans la navigation de gauche, accédez à des **réunions** > **paramètres de réunion**.
-2. Sous **Participants**, activez **les utilisateurs anonymes peuvent participer à une réunion**.
+1. Dans le volet de navigation gauche, accédez à paramètres de la**réunion** **réunions** > .
+2. Sous **participants**, activez **les utilisateurs anonymes peuvent participer à une réunion**.
 
-    ![réunion-paramètres-participants.png] (media/meeting-settings-participants.png "Capture d’écran des paramètres des participants pour les réunions d’équipes dans le centre d’administration Microsoft équipes")
+    ![Meeting-Settings-participants. png] (media/meeting-settings-participants.png "Capture d’écran des paramètres des participants pour les réunions teams dans le centre d’administration Microsoft teams")
 
-Si vous ne voulez pas que les utilisateurs anonymes à participer à des réunions planifiées par les utilisateurs de votre organisation, désactivez ce paramètre.
+Si vous ne souhaitez pas que les utilisateurs anonymes puissent participer aux réunions planifiées par les utilisateurs de votre organisation, désactivez ce paramètre.
 
 ## <a name="customize-meeting-invitations"></a>Personnaliser les invitations aux réunions
 
-Vous pouvez personnaliser les invitations à des équipes pour répondre aux besoins de votre organisation. Vous pouvez ajouter le logo de votre organisation et inclure des informations utiles, telles que des liens vers votre site Web de support et exclusion de responsabilité et un pied de page en lecture seule.
+Vous pouvez personnaliser les invitations aux réunions teams selon les besoins de votre organisation. Vous pouvez ajouter le logo de votre organisation et inclure des informations utiles, telles que des liens vers le site Web de l’assistance et l’exclusion de responsabilité, et un pied de page uniquement.
 
 ### <a name="tips-for-creating-a-logo-for-meeting-invitations"></a>Conseils pour la création d’un logo pour les invitations aux réunions  
 
-1. Créer une image qui n’est pas plus de 188 pixels de large par 30 pixels de haut (il s’agit très petite).
-2. Enregistrer l’image au format JPG.
-3. Stocker l’image dans un emplacement central tout le monde dans votre organisation permettre accéder, par exemple un partage réseau.
+1. Créez une image de plus de 188 pixels de large par 30 pixels de hauteur (c’est assez petit).
+2. Enregistrez l’image au format JPG.
+3. Stockez l’image dans un emplacement central accessible par tous les membres de votre organisation, par exemple un partage réseau.
 
-### <a name="customize-your-meeting-invitations"></a>Personnaliser vos invitations aux réunions
+### <a name="customize-your-meeting-invitations"></a>Personnaliser les invitations aux réunions
 
-![les équipes-logo-30x30.png](media/teams-logo-30x30.png) **à l’aide du centre d’administration Microsoft équipes**
+![teams-logo-30x30. png](media/teams-logo-30x30.png) **à l’aide du centre d’administration Microsoft teams**
 
-1. Dans la navigation de gauche, accédez à des **réunions** > **paramètres de réunion**.
-2. Sous **invitation par courrier électronique**, procédez comme suit :
+1. Dans le volet de navigation gauche, accédez à paramètres de la**réunion** **réunions** > .
+2. Sous **invitation électronique**, procédez comme suit:
 
-    ![réunion-paramètres-invitation.png] (media/meeting-settings-invitation.png "Capture d’écran de la réunion paramètres de l’invitation que vous pouvez personnaliser pour les réunions des équipes")
+    ![Meeting-Settings-invitation. png] (media/meeting-settings-invitation.png "Capture d’écran des paramètres d’invitation à une réunion que vous pouvez personnaliser pour les réunions teams")
 
-    - **URL du logo** Entrez l’URL où est stockée votre logo.
-    - **URL juridique** Si votre organisation dispose d’un site Web juridique que vous souhaitez communiquer à atteindre pour n’importe quel des implications juridiques, entrez l’URL ici.
-    - **URL de l’aide** Si votre organisation dispose d’un site Web que vous souhaitez atteindre en cas de problèmes de personnes, entrez l’URL ici.
-    - **Pied de page** Entrez le texte que vous souhaitez inclure dans le pied de page.
-3. Attendez une heure pour propager les modifications. Planifier une réunion équipes pour afficher un aperçu de l’invitation à la réunion.  
+    - **URL du logo** Entrez l’URL de stockage de votre logo.
+    - **URL légale** Si votre organisation dispose d’un site Web légal auquel vous souhaitez que les personnes accèdent en cas de problèmes légaux, entrez l’URL ici.
+    - **URL de l’aide** Si votre organisation dispose d’un site Web de support auquel vous souhaitez que les personnes accèdent en cas de problème, entrez l’URL ici.
+    - **Pied de page** Entrez le texte que vous souhaitez inclure comme pied de page.
+3. Attendez une heure pour que les modifications soient propagées. Planifiez une réunion teams pour voir à quoi ressemble l’invitation à la réunion.  
 
-## <a name="set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings"></a>Définir la manière dont vous souhaitez gérer le trafic multimédia en temps réel pour les réunions d’équipes
+## <a name="set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings"></a>Définir la manière dont vous souhaitez gérer le trafic multimédia en temps réel pour les réunions teams
 
 <a name="bknetwork"> </a>
 
-Si vous utilisez la qualité de Service [(QoS)](qos-in-teams.md) pour définir la priorité du trafic réseau, vous pouvez activer les indicateurs de qualité de service et vous pouvez définir des plages de ports pour chaque type de trafic multimédia.
+Si vous utilisez la qualité de service [(QoS)](qos-in-teams.md) pour définir la priorité du trafic réseau, vous pouvez activer les marqueurs de QoS et vous pouvez définir des plages de ports pour chaque type de trafic multimédia.
 
- ![les équipes-logo-30x30.png](media/teams-logo-30x30.png) **à l’aide du centre d’administration Microsoft équipes**
+ ![teams-logo-30x30. png](media/teams-logo-30x30.png) **à l’aide du centre d’administration Microsoft teams**
 
-1. Dans la navigation de gauche, accédez à des **réunions** > **paramètres de réunion**.
-2. Sous **réseau**, procédez comme suit :
+1. Dans le volet de navigation gauche, accédez à paramètres de la**réunion** **réunions** > .
+2. Sous **réseau**, procédez comme suit:
 
-    ![réunion-paramètres-network.png] (media/meeting-settings-network.png "Capture d’écran des paramètres du réseau pour les réunions d’équipes dans le centre d’administration Microsoft équipes")
+    ![Meeting-Settings-Network. png] (media/meeting-settings-network.png "Capture d’écran de la page Paramètres du réseau pour les réunions teams dans le centre d’administration Microsoft teams")
 
-    - Pour autoriser le marquage DSCP à utiliser pour QoS, activer **marqueurs insérer qualité de Service (QoS) pour le trafic multimédia en temps réel**. Vous pouvez uniquement l’utilisation des marques ou non ; Vous ne pouvez pas définir marqueurs personnalisés pour chaque type de trafic. Pour plus de marqueurs DSCP sur, voir [Sélectionnez une méthode de mise en œuvre QoS](QoS-in-Teams.md#select-a-qos-implementation-method) .
-    - Pour spécifier les plages de ports, en regard de **Sélectionner une plage de ports pour chaque type de trafic multimédia en temps réel**, sélectionnez **spécifier les plages de ports**, puis entrez les ports de départ et de fin pour l’audio, vidéo et partage d’écran. Cette option est requis pour implémenter QoS.
+    - Pour autoriser l’utilisation de la marque DSCP pour la qualité de service (QoS), activez insérer des marqueurs de **qualité de service (QoS) pour le trafic multimédia en temps réel**. Vous avez la possibilité d’utiliser des marqueurs uniquement. vous ne pouvez pas définir de marqueurs personnalisés pour chaque type de trafic. Pour plus d’informations sur les marqueurs DSCP, voir [Sélectionner une méthode d’implémentation QoS](QoS-in-Teams.md#select-a-qos-implementation-method) .
+    - Pour spécifier des plages de ports, en regard de l' **option Sélectionner une plage de ports pour chaque type de trafic multimédia en temps réel**, sélectionnez **spécifier les plages de ports**, puis entrez les ports de début et de fin pour le partage d’écran, audio et vidéo. Sélectionner cette option est requis pour implémenter QoS.
     > [!IMPORTANT]
-    > Si vous choisissez **d’utiliser automatiquement les ports disponibles**, les ports disponibles entre 1024 et 65535 sont utilisés. Utilisez cette option uniquement lorsque ne pas l’implémentation de QoS.
+    > Si vous sélectionnez **utiliser automatiquement tout port disponible, les**ports disponibles entre 1024 et 65535 sont utilisés. Utilisez cette option uniquement en cas de non-application de QoS.
     >
-    > Sélection d’une plage de ports est trop étroite entraîne appels abandonnés et appel de mauvaise qualité. Les recommandations ci-dessous doivent être un minimum.
+    > Le fait de sélectionner une plage de port trop étroite entraînera des appels interrompus et une mauvaise qualité d’appel. Les recommandations ci-dessous doivent être minimales.
 
- Si vous ne savez pas quel port plages pour l’utiliser dans votre environnement, les paramètres suivants sont un bon point de départ. Pour en savoir plus, lisez [Implémenter la qualité de Service (QoS) dans les équipes Microsoft](QoS-in-Teams.md). Voici les marques DSCP requis et le média correspondant suggéré le port utilisés par les équipes et ExpressRoute des plages.
+ Si vous ne savez pas quelles plages de ports utiliser dans votre environnement, les paramètres suivants constituent un bon point de départ. Pour en savoir plus, voir implémenter la [qualité de service (QoS) dans Microsoft teams](QoS-in-Teams.md). Il s’agit des marques DSCP requises et des plages de ports multimédias correspondant aux suggestions utilisées par teams et ExpressRoute.
 
-_Plages de ports et d’un marquage DSCP_
+_Plages de port et marques DSCP_
 
-Type de trafic multimédia| Plage de ports client source\* |Protocole|Valeur DSCP|Classe DSCP|
+Type de trafic multimédia| Plage de ports sources du client\* |Protocole|Valeur DSCP|Classe DSCP|
 |:---             |:---                         |:---    |:---      |:---      |
-|Audio            | 50 000 – 50,019               |TCP/UDP |46        |Acheminement accéléré (EF)|
-|Vidéo            | 50,020 – 50,039               |TCP/UDP |34        |Acheminement assuré (AF41)|
-|Partage d’application/écran| 50,040 – 50,059      |TCP/UDP |18        |Assured Forwarding (AF21)|
+|Audio            | 50000 – 50019               |TCP/UDP |46        |Acheminement accéléré (EF)|
+|Vidéo            | 50,020 – 50039               |TCP/UDP |34        |Acheminement assuré (AF41)|
+|Partage d’écran ou d’application| 50,040 – 50059      |TCP/UDP |19        |Transfert assuré (AF21)|
 | | | | |
 
-\*Vous assignez les plages de ports ne peuvent se chevaucher et doivent être adjacentes.
+\*Les plages de port que vous attribuez ne peuvent pas se chevaucher et doivent être adjacentes les unes aux autres.
 
-La définition de plages de ports pour différents types de trafic n'est qu’une seule étape dans la gestion des médias en temps réel ; Pour plus de détails, consultez [Qualité de Service (QoS) dans les équipes](qos-in-teams.md) . Si vous activez ou modifiez les paramètres dans le centre d’administration Microsoft Teams, vous devrez [appliquer les paramètres correspondants pour tous les périphériques de l’utilisateur](QoS-in-Teams-clients.md) et les périphériques réseau interne pour implémenter intégralement les modifications apportées à la qualité de service dans les équipes.
+La définition de plages de ports pour différents types de trafic est une étape de la gestion du contenu multimédia en temps réel. Pour plus de détails, voir [qualité de service (QoS) dans teams](qos-in-teams.md) . Si vous activez ou modifiez les paramètres dans le centre d’administration de Microsoft Teams, vous devez [appliquer des paramètres de correspondance à tous les appareils](QoS-in-Teams-clients.md) et périphériques réseau internes pour appliquer les modifications à QoS dans Teams.
 
-Une fois que la qualité de service a été utilisé pendant un certain temps, vous devez obtenir des informations sur la demande de chacun de ces trois charges de travail et vous pouvez choisir les modifications à apporter en fonction de vos besoins spécifiques. [Tableau de bord qualité des appels](turning-on-and-using-call-quality-dashboard.md) seront utiles avec qui.
+Lorsque la qualité de service (QoS) est utilisée depuis un certain temps, vous disposez des informations d’utilisation à la demande de chacune de ces trois charges de travail, vous pouvez choisir les modifications à apporter en fonction de vos besoins spécifiques. Le [tableau de bord de qualité des appels](turning-on-and-using-call-quality-dashboard.md) sera utile.

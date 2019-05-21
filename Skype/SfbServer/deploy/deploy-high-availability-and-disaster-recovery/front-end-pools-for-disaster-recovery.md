@@ -1,33 +1,33 @@
 ---
-title: Déployer les pools frontaux couplés pour la récupération d’urgence dans Skype pour Business Server
+title: Déploiement de pools frontaux couplés pour une reprise après sinistre dans Skype entreprise Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2f12467c-8b90-43e6-831b-a0b096427f17
 description: Vous pouvez décider d'utiliser des pools frontaux couplés pour assurer une protection en cas de récupération d’urgence, bien que ceci ne soit pas nécessaire.
-ms.openlocfilehash: b281b8d0e9453de2f3faeab5abad88c846633f12
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 49af49a4a8ff3dd0f543de6f1b13bfbe5b571788
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894548"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298507"
 ---
-# <a name="deploy-paired-front-end-pools-for-disaster-recovery-in-skype-for-business-server"></a>Déployer les pools frontaux couplés pour la récupération d’urgence dans Skype pour Business Server
+# <a name="deploy-paired-front-end-pools-for-disaster-recovery-in-skype-for-business-server"></a>Déploiement de pools frontaux couplés pour une reprise après sinistre dans Skype entreprise Server
  
 Vous pouvez décider d'utiliser des pools frontaux couplés pour assurer une protection en cas de récupération d’urgence, bien que ceci ne soit pas nécessaire.
   
-Vous pouvez facilement déployer la topologie de récupération d’urgence des paires pools frontaux à l’aide du Générateur de topologie. 
+Vous pouvez facilement déployer la topologie de reprise après sinistre des pools front-end couplés à l’aide du générateur de topologie. 
   
 ## <a name="to-deploy-a-pair-of-front-end-pools"></a>Pour déployer une paire de pools de serveurs frontaux
 
-1. Si les pools sont nouveaux et pas encore définis, utilisez le Générateur de topologie pour créer les pools.
+1. Si les pools sont nouveaux et ne sont pas encore définis, utilisez le générateur de topologie pour créer les pools.
     
-2. Dans le Générateur de topologie, cliquez sur une des deux pools, puis cliquez sur **Modifier les propriétés**.
+2. Dans le générateur de topologie, cliquez avec le bouton droit sur l’un des deux pools, puis cliquez sur **modifier les propriétés**.
     
 3. Cliquez sur **Résistance** dans le volet gauche, puis sélectionnez **Pool de stockage associé** dans le volet droit.
     
@@ -37,7 +37,7 @@ Vous pouvez facilement déployer la topologie de récupération d’urgence des 
     
     Quand vous affichez les détails de ce pool, le pool associé s’affiche dans le volet droit sous **Résistance**.  
     
-6. Utilisez le Générateur de topologie pour publier la topologie.
+6. Utilisez le générateur de topologie pour publier la topologie.
     
 7. Si les deux pools n’étaient pas déjà déployés, déployez-les maintenant pour terminer la configuration. Vous pouvez ignorer les deux dernières étapes de cette procédure.
     
@@ -51,7 +51,7 @@ Vous pouvez facilement déployer la topologie de récupération d’urgence des 
 
     Cela permet de configurer les autres services requis pour un fonctionnement correct du jumelage de sauvegarde.
     
-9. À partir d’un Skype pour l’invite de commandes Business Server Management Shell, exécutez la commande suivante : 
+9. À partir d’une invite de commandes de Skype entreprise Server Management Shell, exécutez la commande suivante: 
     
    ```
    Start-CsWindowsService -Name LYNCBACKUP
@@ -78,8 +78,8 @@ Vous pouvez facilement déployer la topologie de récupération d’urgence des 
     ```
 
 > [!NOTE]
-> L’option de **basculement automatique et restauration pour la voix** et les intervalles de temps associé dans le Générateur de topologie s’appliquent uniquement aux fonctionnalités de résilience vocale qui ont été introduites dans Lync Server. La sélection de cette option ne signifie pas que le basculement du pool mentionné dans ce document est automatique. Le basculement et la restauration du pool requiert l’intervention manuelle d’un administrateur pour appeler respectivement les applets de commande de basculement et de restauration.
+> L’option **reprise automatique et retour automatique pour les appels vocaux** et les intervalles de temps associés dans le générateur de topologie ne s’appliquent qu’aux fonctionnalités de résilience vocale introduites dans Lync Server. La sélection de cette option ne signifie pas que le basculement du pool mentionné dans ce document est automatique. Le basculement et la restauration du pool requiert l’intervention manuelle d’un administrateur pour appeler respectivement les applets de commande de basculement et de restauration.
   
 ## <a name="see-also"></a>Voir aussi
 
-[La récupération d’urgence dans Skype fin pool de serveurs frontaux pour Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/disaster-recovery.md)
+[Reprise après sinistre de la liste frontale dans Skype entreprise Server](../../plan-your-deployment/high-availability-and-disaster-recovery/disaster-recovery.md)

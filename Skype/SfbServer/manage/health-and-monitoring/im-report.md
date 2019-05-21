@@ -1,31 +1,31 @@
 ---
-title: Rapport de messagerie instantanée d’égal à égal dans Skype pour Business Server
+title: Rapport de messagerie instantanée d’égal à égal dans Skype entreprise Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 19ec0145-2398-437b-8989-f780c179b798
-description: 'Résumé : Découvrez l’état de la messagerie instantanée d’égal à égal dans Skype pour Business Server.'
-ms.openlocfilehash: 8937f9b0342613ae0253fc75b1c54962bd670ed8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Résumé: en savoir plus sur le rapport de messagerie instantanée d’égal à égal dans Skype entreprise Server.'
+ms.openlocfilehash: abe6321f6c4432270ecec325a94608d2e3117954
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926584"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305653"
 ---
-# <a name="peer-to-peer-im-report-in-skype-for-business-server"></a>Rapport de messagerie instantanée d’égal à égal dans Skype pour Business Server
+# <a name="peer-to-peer-im-report-in-skype-for-business-server"></a>Rapport de messagerie instantanée d’égal à égal dans Skype entreprise Server
  
-**Résumé :** Obtenir des informations sur l’état de la messagerie instantanée d’égal à égal dans Skype pour Business Server.
+**Résumé:** En savoir plus sur le rapport de messagerie instantanée d’égal à égal dans Skype entreprise Server.
   
 Le rapport de messagerie instantanée P2P fournit les tendances des sessions de messagerie instantanée P2P, par pool et par type d’authentification. Le rapport peut afficher le nombre total de sessions tenues pendant une période donnée (par exemple, jour par jour ou heure par heure) ou le nombre total de messages instantanés envoyés au cours de cette période.
   
 ## <a name="accessing-the-peer-to-peer-im-report"></a>Accès au rapport de messagerie instantanée P2P
 
-Vous pouvez accéder à l’état de la messagerie instantanée d’égal à égal uniquement en ouvrant le [rapport de synthèse de l’activité d’égal à égal dans Skype pour Business Server](peer-to-peer-activity-summary-report.md) et puis en cliquant sur une des mesures suivantes :
+Vous pouvez accéder au rapport de messagerie instantanée d’égal à égal uniquement en ouvrant le [rapport de synthèse des activités d’égal à égal dans Skype entreprise Server](peer-to-peer-activity-summary-report.md) , puis en cliquant sur l’une des mesures suivantes:
   
 - Nombre total de sessions de messagerie instantanée P2P
     
@@ -56,7 +56,7 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de mes
 
 |**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
-|**Pool** <br/> |Non  <br/> |Nom du pool de serveurs d’inscriptions ou du serveur Edge.  <br/> |
+|**Pool** <br/> |Non  <br/> |Nom du pool d’inscriptions ou du serveur Edge.  <br/> |
 |**Date/Heure** <br/> |Non  <br/> |Date et heure des sessions.  <br/> |
 |**Total** <br/> |Non  <br/> |Nombre total de sessions ou de messages.  <br/> |
    

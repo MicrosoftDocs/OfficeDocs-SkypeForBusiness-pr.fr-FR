@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 8/17/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -14,30 +14,30 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 306d3397-f305-4919-bdb1-aa7bb7b5c534
-description: 'Résumé : Plan de rubriques relatives à la configuration requise en matière de réseau ou l’infrastructure de Skype pour Business Server 2015. Si vous avez besoin installer ou configurer tout comme condition préalable à l’installation et déploiement de Skype pour Business Server 2015, il sera ici.'
-ms.openlocfilehash: 67c79cc5386a46f80e31f2cf9c30d8a0aa73ca95
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Résumé: cet article décrit la configuration requise et les exigences en matière de réseau ou d’infrastructure pour Skype entreprise Server 2015. Si vous avez besoin d’installer ou de configurer un élément requis pour l’installation et le déploiement de Skype entreprise Server 2015, c’est ici.'
+ms.openlocfilehash: d28f550b9279b579f357517ffdfd0c6beea22f23
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33929370"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34296811"
 ---
-# <a name="requirements-for-your-skype-for-business-2015-environment"></a>Configuration requise pour votre Skype pour environnement Business 2015
+# <a name="requirements-for-your-skype-for-business-2015-environment"></a>Configuration requise pour votre environnement Skype entreprise 2015
  
 **Résumé :** découvrez les rubriques sur la configuration requise et les conditions requises pour le réseau ou l’infrastructure pour Skype Entreprise Server 2015. Si vous devez installer ou configurer quoi que ce soit en tant que condition requise pour l’installation et le déploiement de Skype Entreprise Server 2015, cela se fera ici.
   
-Il s’agit de la page d’accueil pour les articles sur la configuration requise autour d’un Skype pour le déploiement de Business Server 2015. Cela inclut des spécifications du serveur et des éléments plus générales pour préparer, y compris votre domaine réseau structure et certificats.
+Voici la page d’accueil des articles sur la configuration requise pour un déploiement 2015 de Skype entreprise Server. Cela inclut la configuration requise du serveur ainsi que les éléments généraux à préparer, y compris votre domaine et la structure de votre réseau et vos certificats.
   
 ## <a name="whats-in-this-topic"></a>Contenu de cet article
 
-Les deux articles de la configuration requise pour la section de votre environnement décrivent ce que vous devez avoir et/ou configurer avant de pouvoir continuer avance et correctement déployer ou mettre à niveau vers Skype pour Business Server 2015 dans votre environnement de serveur.
+Les deux articles dans la section Configuration requise pour votre environnement vous décrivent ce que vous devez faire et/ou configurer avant de pouvoir déployer ou effectuer une mise à niveau vers Skype entreprise Server 2015 dans l’environnement serveur de votre organisation.
   
 ### <a name="server-requirements"></a>Conditions requises des serveurs
 
-[Configuration serveur requise pour Skype pour Business Server 2015](server-requirements.md) sont les éléments que vous devez préparer sur les serveurs individuels que vous avez l’intention à utiliser dans votre déploiement.
+La [Configuration requise pour le serveur Skype entreprise Server 2015](server-requirements.md) est l’un des éléments dont vous avez besoin pour vous préparer aux serveurs que vous avez l’intention d’utiliser dans votre déploiement.
   
 ### <a name="environmental-requirements"></a>Conditions préalables d’environnement
 
-[Exigences pour Skype pour Business Server 2015](environmental-requirements.md) est un plus grand nombre d’éléments qui doivent être prêt dans votre infrastructure avant de déployer Skype pour Business Server 2015.
+La [Configuration requise pour l’environnement Skype entreprise server 2015](environmental-requirements.md) est une gamme d’éléments qui doivent être prêts dans votre infrastructure avant le déploiement de Skype entreprise Server 2015.
   
 

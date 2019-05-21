@@ -5,24 +5,24 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/24/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.SelectDeniedMembers
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c626b6b4-15f3-4a59-bb1d-55dc8c60f5cb
-description: Un administrateur de conversation permanente peut créer et gérer les catégories de salle de conversation. Dans le cadre de la création et gestion des catégories de salle de conversation, un administrateur de conversation permanente peut configurer principaux (groupes/conteneurs/utilisateurs Active Directory Domain Services) qui ont accès à des membres/créateurs de salles de conversation d’une catégorie spécifique. Un administrateur de conversation permanente peuvent également ajouter des membres refusés à une catégorie et ces deviennent des exclusions explicites à la liste autorisée. Membres refusés remplacent les nouveautés de AllowedMembers.
-ms.openlocfilehash: 7f87177d02a639ae32f3841298466b455ed5d538
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Un administrateur de chat permanent peut créer et gérer des catégories de salle de conversation. Dans le cadre de la création et de la gestion des catégories de salle de conversation, un administrateur de chat permanent peut configurer des principaux (services de domaine Active Directory) qui peuvent être membres/créateurs de salles de conversation d’une catégorie spécifique. Un administrateur de chat permanent peut également ajouter des DeniedMembers à une catégorie, qui deviennent des exclusions explicites de la liste autorisée. DeniedMembers remplacer ce qui est dans AllowedMembers.
+ms.openlocfilehash: bbf54bfb05a2c3a54c9515d77ae6fb93b22a62ec
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33929552"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34294079"
 ---
 # <a name="select-denied-members"></a>Sélection des membres refusés
 
-Un administrateur de conversation permanente peut créer et gérer les catégories de salle de conversation. Dans le cadre de la création et gestion des catégories de salle de conversation, un administrateur de conversation permanente peut configurer principaux (groupes/conteneurs/utilisateurs Active Directory Domain Services) qui ont accès à des membres/créateurs de salles de conversation d’une catégorie spécifique. Un administrateur de conversation permanente peuvent également ajouter des membres refusés à une catégorie et ces deviennent des exclusions explicites à la liste autorisée. Membres refusés remplacent les nouveautés de AllowedMembers.
+Un administrateur de chat permanent peut créer et gérer des catégories de salle de conversation. Dans le cadre de la création et de la gestion des catégories de salle de conversation, un administrateur de chat permanent peut configurer des principaux (services de domaine Active Directory) qui peuvent être membres/créateurs de salles de conversation d’une catégorie spécifique. Un administrateur de chat permanent peut également ajouter des DeniedMembers à une catégorie, qui deviennent des exclusions explicites de la liste autorisée. DeniedMembers remplacer ce qui est dans AllowedMembers.
 
 ## <a name="tasks-that-you-can-perform"></a>Tâches que vous pouvez effectuer
 
@@ -32,14 +32,14 @@ Dans la page **Sélectionner les membres refusés**, vous pouvez effectuer les t
 
 - [New Persistent Chat Server Features](https://technet.microsoft.com/library/c3ec6f33-6261-4bf5-aa31-baa8ab2a87d8.aspx)
 
-Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide de la Skype pour le panneau de configuration serveur Business, voir [Gérer les Skype pour Business Server 2015](../../manage/manage.md).
+Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du panneau de configuration Skype entreprise Server, reportez-vous à la rubrique [gestion de Skype entreprise server 2015](../../manage/manage.md).
 
 ## <a name="to-configure-categories-for-chat-rooms"></a>Pour configurer les catégories des salles de conversation
 
-Dans **l’appartenance**, dans la section **membres refusés** , ajouter ou supprimer des utilisateurs et autres principaux Active Directory associées aux membres refusées à partir de la salle.
+Dans **appartenance**(membership), dans la section **membres refusés** , ajoutez ou supprimez des utilisateurs et d’autres entités Active Directory associées aux membres refusés à partir de la salle.
 
 
-Pour plus d’informations sur les serveurs de conversation permanente des fonctionnalités, voir [Vue d’ensemble de Persistent Chat Server](https://technet.microsoft.com/library/23f7c886-304d-495a-ae70-3cbb44241acd.aspx) dans la documentation de planification. Pour plus d’informations sur l’utilisation des configurations de serveur de conversation permanente, voir [Configuring Persistent Chat Server](https://technet.microsoft.com/library/d90a4049-b268-4e8e-9f24-0cef08c8d9ed.aspx) dans la documentation de déploiement et la [gestion de Lync Server 2013, Persistent Chat Server](https://technet.microsoft.com/library/82befdc6-5d32-45f1-bfd7-aaedffed1ab8.aspx) dans la documentation des opérations.
+Pour plus d’informations sur les fonctionnalités et les fonctionnalités du serveur Chat permanent, voir [vue d’ensemble du serveur de chat permanent](https://technet.microsoft.com/library/23f7c886-304d-495a-ae70-3cbb44241acd.aspx) dans la documentation de planification. Pour plus d’informations sur l’utilisation des configurations serveur de chat permanent, voir [configuration du serveur de chat permanent](https://technet.microsoft.com/library/d90a4049-b268-4e8e-9f24-0cef08c8d9ed.aspx) dans la documentation de déploiement et [gestion de Lync Server 2013, serveur de chat permanent](https://technet.microsoft.com/library/82befdc6-5d32-45f1-bfd7-aaedffed1ab8.aspx) dans la documentation des opérations.
 
 ## <a name="see-also"></a>Voir aussi
 

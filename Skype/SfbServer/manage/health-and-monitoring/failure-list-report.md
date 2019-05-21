@@ -1,31 +1,31 @@
 ---
-title: Failure List Report dans Skype pour Business Server
+title: Rapport de liste des échecs dans Skype entreprise Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6f3a605-e0c6-461e-b17a-41d8039ace9d
-description: 'Résumé : Découvrez le Failure List Report dans Skype pour Business Server.'
-ms.openlocfilehash: 67c02e9b0366bcf850139717eedf5c3946183988
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Résumé: en savoir plus sur le rapport de liste des échecs dans Skype entreprise Server.'
+ms.openlocfilehash: 72637863d7a15d26ea997de8a9c3526279afc57f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926598"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305758"
 ---
-# <a name="failure-list-report-in-skype-for-business-server"></a>Failure List Report dans Skype pour Business Server 
+# <a name="failure-list-report-in-skype-for-business-server"></a>Rapport de liste des échecs dans Skype entreprise Server 
  
-**Résumé :** Découvrez le Failure List Report dans Skype pour Business Server.
+**Résumé:** En savoir plus sur le rapport de liste des échecs dans Skype entreprise Server.
   
 Le Rapport des listes d’échecs fournit des informations sur les participants individuels à une session P2P ou session de conférence ayant échoué. Ces informations incluent l’URI de l’utilisateur qui a rencontré le problème, ainsi que le code de réponse SIP et l’ID de diagnostic associés à l’échec.
   
 ## <a name="accessing-the-failure-list-report"></a>Accès au Rapport des listes d’échecs
 
-Le rapport liste des défaillances est accessible en cliquant sur une des mesures suivantes dans le [Rapport de répartition dans Skype pour Business Server](failure-distribution-report.md):
+Le rapport de la liste des échecs est accessible en cliquant sur l’une des mesures suivantes dans le [rapport de distribution des échecs de Skype entreprise Server](failure-distribution-report.md):
   
 - Motifs de diagnostic principaux (sessions)
     
@@ -43,7 +43,7 @@ Le rapport liste des défaillances est accessible en cliquant sur une des mesure
     
 - Agents utilisateurs émetteurs principaux (sessions)
     
-Dans le rapport liste des défaillances, vous pouvez accéder le [rapport détaillé de Session d’égal à égal dans Skype pour Business Server](peer-to-peer-session-detail-report.md) en cliquant sur la mesure détail de Session pour une session d’égal à égal. Vous pouvez également accéder au Rapport détaillé de conférence en cliquant sur la mesure Conférence pour une conférence.
+Dans le rapport de la liste des pannes, vous pouvez accéder au [rapport détaillé de la session d’égal à égal dans Skype entreprise Server](peer-to-peer-session-detail-report.md) en cliquant sur la métrique détails de la session pour une session d’égal à égal. Vous pouvez également accéder au Rapport détaillé de conférence en cliquant sur la mesure Conférence pour une conférence.
   
 ## <a name="making-the-best-use-of-the-failure-list-report"></a>Exploitation optimale du Rapport des listes d’échecs
 
@@ -51,7 +51,7 @@ Le Rapport des listes d’échecs vous permet d’afficher une description de ch
   
 Erreur du serveur interne lors de la création du média pour l’utilisateur.
   
-Il est important de noter que le Rapport des listes d’échecs ne fournit pas une méthode simple de récupérer directement une liste de tous les utilisateurs qui ont participé à au moins une session ayant échoué, et qu’il ne permet pas non plus de déterminer les utilisateurs qui sont le plus souvent impliqués dans une session ayant échoué. (Pour une chose, le Failure List Report ne possède aucuns possibilités de filtrage) Toutefois, si vous exportez les données, puis la convertir un fichier de valeurs séparées par des virgules, vous pouvez utiliser Windows PowerShell pour trouver les réponses aux questions telles que celles. Par exemple, supposons que vous enregistrez les données dans un fichier .CSV nommé C:\Data\Failure_List.csv. En fonction des données enregistrées dans ce fichier, la commande suivante répertorie tous les utilisateurs qui ont été impliqués dans au moins une session ayant échoué : 
+Il est important de noter que le Rapport des listes d’échecs ne fournit pas une méthode simple de récupérer directement une liste de tous les utilisateurs qui ont participé à au moins une session ayant échoué, et qu’il ne permet pas non plus de déterminer les utilisateurs qui sont le plus souvent impliqués dans une session ayant échoué. (Pour une chose, le rapport de la liste des échecs n’a pas de fonctionnalités de filtrage.) Toutefois, si vous exportez les données et que vous les convertissez en fichier de valeurs séparées par des virgules, vous pouvez utiliser Windows PowerShell pour trouver les réponses à des questions comme celles-ci. Par exemple, supposons que vous enregistrez les données dans un fichier .CSV nommé C:\Data\Failure_List.csv. En fonction des données enregistrées dans ce fichier, la commande suivante répertorie tous les utilisateurs qui ont été impliqués dans au moins une session ayant échoué : 
   
 ```
 $failures = Import-Csv -Path " C:\Data\Failure_List.csv"

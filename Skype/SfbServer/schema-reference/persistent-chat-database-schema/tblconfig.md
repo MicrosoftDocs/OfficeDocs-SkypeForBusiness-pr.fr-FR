@@ -5,30 +5,30 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7445e7db-c574-46fa-b964-8640d77047a8
-description: tblConfig contient une configuration non prise en charge Persistent Chat Server, dans une seule ligne.
-ms.openlocfilehash: 79cd7e2303210bb07f35fa2c6b7ecc5c86b7e8cc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: tblConfig contient certaines configurations du serveur de chat permanent non prises en charge, en une seule ligne.
+ms.openlocfilehash: 244eebcb88c67b521022f9d64888678f221d2369
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930021"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295453"
 ---
 # <a name="tblconfig"></a>tblConfig
  
-tblConfig contient une configuration non prise en charge Persistent Chat Server, dans une seule ligne.
+tblConfig contient certaines configurations du serveur de chat permanent non prises en charge, en une seule ligne.
   
-**Colonnes**
+**Celles**
 
 |**Colonne**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|configLabel  <br/> |nvarchar (255), non null  <br/> |Contient « pool ».  <br/> |
-|configContent  <br/> |nvarchar (max)  <br/> |Contenu de la configuration.  <br/> |
-|configPoolID  <br/> |GUID, non null  <br/> |ID unique de l’instance de base de données.  <br/> |
+|configLabel  <br/> |nvarchar (255), pas null  <br/> |Contient «pool».  <br/> |
+|configContent  <br/> |nvarchar (max)  <br/> |Contenu de configuration.  <br/> |
+|configPoolID  <br/> |GUID, pas null  <br/> |ID unique de l’instance de base de données.  <br/> |
    
 **Clé**
 

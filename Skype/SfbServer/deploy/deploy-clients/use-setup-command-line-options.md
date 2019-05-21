@@ -1,27 +1,27 @@
 ---
-title: Utilisez les options de ligne de commande du programme d’installation avec Skype pour les clients d’entreprise
+title: Utiliser les options de la ligne de commande du programme d’installation avec les clients Skype entreprise
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 99878c3c-ff31-48e2-8424-580d7b07a7bf
-description: 'Résumé : Découvrez les opérations de ligne de commande Setup.exe dans le programme d’installation Office.'
-ms.openlocfilehash: 924ecab4a53c6ec591416661bc98078e8e48381c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Résumé: Découvrez les opérations de ligne de commande Setup. exe dans le programme d’installation d’Office.'
+ms.openlocfilehash: 2eee24f9ae79ed2f73e23c68883f2552902fb672
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33895060"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306481"
 ---
-# <a name="use-setup-command-line-options-with-skype-for-business-clients"></a>Utilisez les options de ligne de commande du programme d’installation avec Skype pour les clients d’entreprise
+# <a name="use-setup-command-line-options-with-skype-for-business-clients"></a>Utiliser les options de la ligne de commande du programme d’installation avec les clients Skype entreprise
  
-**Résumé :** Découvrez les opérations de ligne de commande Setup.exe dans le programme d’installation Office.
+**Résumé:** En savoir plus sur les opérations de ligne de commande Setup. exe dans le programme d’installation d’Office.
   
-La ligne de commande Setup.exe est utilisée pour très peu d’opérations dans le programme d’installation d’Office. Au lieu d’utiliser les options de ligne de commande du programme d’installation, vous allez généralement utiliser l’outil de personnalisation Office et le fichier Config.xml pour la personnalisation du programme d’installation et de la fonctionnalité de produit.
+La ligne de commande Setup.exe est utilisée pour très peu d’opérations dans le programme d’installation d’Office. Au lieu d’utiliser les options de ligne de commande du programme d’installation, vous utiliserez généralement l’outil de personnalisation Office et le fichier config. xml pour la configuration du produit et la personnalisation des fonctionnalités.
   
 La ligne de commande de Setup.exe reconnaît les options de ligne de commande décrites dans le tableau suivant.
   
@@ -31,10 +31,10 @@ La ligne de commande de Setup.exe reconnaît les options de ligne de commande d�
 |:-----|:-----|
 |/admin  <br/> |Exécute l’outil de personnalisation Office pour créer un fichier de personnalisation de l’installation (fichier .msp).  <br/> |
 |/adminfile [chemin]  <br/> |Applique le fichier de personnalisation de l’installation spécifié à l’installation. Vous pouvez spécifier un chemin d’accès à un fichier de personnalisation spécifique (fichier .msp) ou au dossier dans lequel vous stockez les fichiers de personnalisation.  <br/> |
-|/config [chemin]  <br/> |Spécifie le fichier Config.xml utilisé par le programme d’installation lors de l’installation. Utilisez l’option /config pour spécifier le fichier Config.xml que vous avez personnalisé pour Skype pour les installations d’entreprise, par exemple :`/config \\server\share\Skype15\Skype.WW\Config.xml` <br/> |
-|/modify Skype  <br/> |Utilisée avec un fichier Config.xml modifié, cette option permet d’exécuter le programme d’installation en mode maintenance et d’apporter des modifications à une installation Office existante. Par exemple, vous pouvez utiliser l’option pour ajouter ou supprimer des Skype pour les fonctionnalités d’entreprise / modify.  <br/> |
-|/repair Skype  <br/> |Exécute le programme d’installation à partir de l’ordinateur de l’utilisateur pour réparer Skype pour les entreprises.  <br/> |
-|/uninstall Skype  <br/> |Exécute le programme d’installation pour supprimer Skype pour les entreprises à partir de l’ordinateur de l’utilisateur.  <br/> |
+|/config [chemin]  <br/> |Spécifie le fichier Config.xml utilisé par le programme d’installation lors de l’installation. Utilisez l’option/config pour spécifier le fichier config. XML que vous avez personnalisé pour les installations Skype entreprise, par exemple:`/config \\server\share\Skype15\Skype.WW\Config.xml` <br/> |
+|/modify Skype  <br/> |Utilisée avec un fichier Config.xml modifié, cette option permet d’exécuter le programme d’installation en mode maintenance et d’apporter des modifications à une installation Office existante. Par exemple, vous pouvez utiliser l’option/Modify pour ajouter ou supprimer des fonctionnalités Skype entreprise.  <br/> |
+|/repair Skype  <br/> |Exécute le programme d’installation à partir de l’ordinateur de l’utilisateur pour réparer Skype entreprise.  <br/> |
+|/uninstall Skype  <br/> |Exécute le programme d’installation pour supprimer Skype entreprise de l’ordinateur de l’utilisateur.  <br/> |
    
 
 

@@ -5,29 +5,29 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ea82e56c-3cca-4d89-b4e6-6bcaeb1f2830
-description: tblComplianceState contient des informations d’état de conformité au niveau du pool.
-ms.openlocfilehash: 6f6b3891638fc3d769c0b0f4f4a42ca5f94a5a54
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: tblComplianceState contient des informations sur l’état de compatibilité à l’échelle du pool.
+ms.openlocfilehash: 1c5571d7150c3859978f8d217f0264f67ee993d5
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33929846"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295474"
 ---
 # <a name="tblcompliancestate"></a>tblComplianceState
  
-tblComplianceState contient des informations d’état de conformité au niveau du pool.
+tblComplianceState contient des informations sur l’état de compatibilité à l’échelle du pool.
   
-**Colonnes**
+**Celles**
 
 |**Colonne**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|lastProcessedEntryID  <br/> |bigint, non null  <br/> |ID du dernier événement de conformité traité.  <br/> |
-|activeServerID  <br/> |int, non null  <br/> |ID du serveur de conformité qui détient le verrou exclusif sur la base de données, ou -1 si aucun.  <br/> |
-|lockExpirationTime  <br/> |dateheure2, non null  <br/> |Verrouiller le délai d’expiration (si activeServerID est différent de -1).  <br/> |
+|lastProcessedEntryID  <br/> |bigint, pas null  <br/> |ID de l’événement de conformité traité le plus récent.  <br/> |
+|activeServerID  <br/> |ent, non null  <br/> |ID du serveur de conformité qui détient le verrou exclusif sur la base de données, ou-1 si aucun.  <br/> |
+|lockExpirationTime  <br/> |datetime2, pas null  <br/> |Durée d’expiration du verrouillage (si activeServerID n’est pas-1).  <br/> |
    
 

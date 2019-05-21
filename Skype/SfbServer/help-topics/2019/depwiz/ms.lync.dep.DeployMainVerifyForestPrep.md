@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.dep.DeployMainVerifyForestPrep
@@ -12,27 +12,27 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 94e87632-7c28-43df-9238-f5a47c1c43c0
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Pour confirmer que la réplication du catalogue Global et la création d’objets pendant la préparation de la forêt a été effectuée, procédez comme suit :'
-ms.openlocfilehash: b755aeb6d7d9fe79940472b7b5883d1fdacaeee9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Pour vérifier que la réplication du catalogue global et la création des objets lors de la préparation de la forêt ont abouti, procédez comme suit:'
+ms.openlocfilehash: c7fe425dcbecf2bfba02d4862bc3a29b75e16910
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893622"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34303342"
 ---
 # <a name="verify-replication-of-forest-preparation"></a>Vérifier la réplication de la préparation de la forêt
  
-Pour confirmer que la réplication du catalogue Global et la création d’objets pendant la préparation de la forêt a été effectuée, procédez comme suit :
+Pour vérifier que la réplication du catalogue global et la création des objets lors de la préparation de la forêt ont abouti, procédez comme suit:
   
 1. Sur un contrôleur de domaine (de préférence sur un site distant par rapport aux autres contrôleurs de domaine), dans la forêt où la préparation de la forêt a été effectuée, ouvrez **Utilisateurs et ordinateurs Active Directory**.
     
 2. Dans **Utilisateurs et ordinateurs Active Directory**, développez le nom de domaine de votre forêt ou un domaine enfant.
     
-3. Cliquez sur le conteneur **utilisateurs** dans le volet de gauche, recherchez le groupe universel CsAdministrator dans le volet de droite. Si CsAdministrator (parmi les huit autres nouveaux groupes universels qui commencent par Cs) est présent, la réplication de la préparation de la forêt a été effectuée.
+3. Cliquez sur le conteneur **utilisateurs** dans le volet gauche, puis recherchez l’CsAdministrator de groupe universel dans le volet droit. S’il s’agit de CsAdministrator (entre huit nouveaux groupes universels qui commencent par CS), la réplication de la préparation de la forêt a abouti.
     
-4. Si le (s) n’est pas encore présent, forcez la réplication ou attendez 15 minutes et actualisez le volet de droite. Lorsque les groupes apparaissent, la réplication est terminée.
+4. Si le ou les groupes ne sont pas encore présents, vous pouvez le faire ou patienter 15 minutes et actualiser le volet de droite. Lorsque les groupes apparaissent, la réplication est terminée.
     
 > [!TIP]
-> Si vous souhaitez consulter les fichiers journaux qui sont créés par le Skype pour l’Assistant de déploiement Business Server, vous pouvez trouver les sur l’ordinateur où a été exécuté l’Assistant déploiement, dans le répertoire des utilisateurs de l’utilisateur des Services de domaine Active Directory qui a exécuté l’étape. Par exemple, si l’utilisateur est connecté en tant qu’administrateur de domaine dans le domaine Contoso.net, les fichiers journaux se trouvent dans : C:\Users\Administrator.Contoso\AppData\Local\Temp 
+> Si vous souhaitez consulter les fichiers journaux créés par l’Assistant Déploiement de Skype entreprise, vous pouvez les retrouver sur l’ordinateur sur lequel l’Assistant déploiement a été exécuté, dans l’annuaire utilisateurs de l’utilisateur services de domaine Active Directory (AD FS) qui a exécuté l’étape. Par exemple, si l’utilisateur connecté en tant qu’administrateur de domaine dans le domaine Contoso.net, les fichiers journaux se trouvent dans: C:\Users\Administrator.Contoso\AppData\Local\Temp 
   
 

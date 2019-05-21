@@ -5,30 +5,30 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5411c9bc-b0b3-41fc-8b7e-fa71cccd770b
-description: tblServerIdentity contient les serveurs de conversation actifs dans le pool de serveurs de conversation permanente.
-ms.openlocfilehash: d780c2153b2e7f9f1ed5aad20217228e44f29504
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: tblServerIdentity contient les serveurs de chat actifs dans le pool de serveurs de chat permanent.
+ms.openlocfilehash: b35960bd1deef5470724f580bce2375b2e034cb9
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924807"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295187"
 ---
 # <a name="tblserveridentity"></a>tblServerIdentity
  
-tblServerIdentity contient les serveurs de conversation actifs dans le pool de serveurs de conversation permanente.
+tblServerIdentity contient les serveurs de chat actifs dans le pool de serveurs de chat permanent.
   
-**Colonnes**
+**Celles**
 
 |**Colonne**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|serverID  <br/> |int, non null  <br/> |ID du serveur. Correspond à l’ID de l’instance du magasin Central de gestion.  <br/> |
-|serverAddress  <br/> |nvarchar (256), non null  <br/> |Adresse du serveur à l’aide de l’adresse Windows Communication Foundation.  <br/> |
-|serverLastPingTime  <br/> |DateHeure  <br/> |La dernière heure à laquelle le serveur de canal mis à jour cette ligne pour faire la preuve de son exécution.  <br/> |
+|serverID  <br/> |ent, non null  <br/> |ID du serveur. Correspond à l’ID de l’instance du magasin central de gestion.  <br/> |
+|serverAddress  <br/> |nvarchar (256), pas null  <br/> |Adresse du serveur à l’aide de l’adresse Windows Communication Foundation.  <br/> |
+|serverLastPingTime  <br/> |DateHeure  <br/> |Dernière mise à jour de cette ligne par le serveur de canal pour indiquer qu’il est en cours d’exécution.  <br/> |
    
 **Clé**
 

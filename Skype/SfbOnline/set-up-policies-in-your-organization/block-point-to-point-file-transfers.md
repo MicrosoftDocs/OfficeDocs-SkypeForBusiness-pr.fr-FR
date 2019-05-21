@@ -10,45 +10,45 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Setup
-description: Dans Skype pour Business Online, vous avez capacité à contrôler les transferts de fichiers point à point (P2P) dans le cadre des paramètres de stratégie de conférence existante. Toutefois, ceci permet ou bloque pour les utilisateurs si elles sont transfert de fichiers à un utilisateur qui se trouve dans la même organisation ou à un utilisateur fédéré à partir d’une autre organisation, les transferts de fichiers. Suivant les étapes ci-dessous, vous pouvez bloquer les transferts de fichiers P2P avec les organisations fédérées ou des partenaires.
-ms.openlocfilehash: 9b7d229c7f0ea0565dc3174286b4117984a2b606
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Dans Skype entreprise Online, vous pouvez contrôler les transferts de fichiers point à point (P2P) dans le cadre des paramètres de stratégie de conférence existants. Toutefois, cela permet à un utilisateur de transférer des fichiers ou d’en bloquer les transferts de fichiers à des utilisateurs au sein de la même organisation ou à un utilisateur fédéré d’une autre organisation. En suivant les étapes ci-dessous, vous pouvez bloquer les transferts de fichiers P2P avec des organisations ou partenaires fédérés.
+ms.openlocfilehash: 8b45067cf0c717fdcda144fc44750b7cf3d0f7f7
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32237537"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297815"
 ---
 # <a name="block-point-to-point-file-transfers"></a>Bloquer les transferts de fichiers point à point
 
-Dans Skype pour Business Online, vous avez capacité à contrôler les transferts de fichiers point à point (P2P) dans le cadre des paramètres de stratégie de conférence existante. Toutefois, ceci permet ou bloque pour les utilisateurs si elles sont transfert de fichiers à un utilisateur qui se trouve dans la même organisation ou à un utilisateur fédéré à partir d’une autre organisation, les transferts de fichiers. Suivant les étapes ci-dessous, vous pouvez bloquer les transferts de fichiers P2P avec les organisations fédérées ou des partenaires.
+Dans Skype entreprise Online, vous pouvez contrôler les transferts de fichiers point à point (P2P) dans le cadre des paramètres de stratégie de conférence existants. Toutefois, cela permet à un utilisateur de transférer des fichiers ou d’en bloquer les transferts de fichiers à des utilisateurs au sein de la même organisation ou à un utilisateur fédéré d’une autre organisation. En suivant les étapes ci-dessous, vous pouvez bloquer les transferts de fichiers P2P avec des organisations ou partenaires fédérés.
   
- Un scénario très fréquent est lorsque vous souhaitez autoriser les utilisateurs internes à utiliser P2P le transfert de fichiers, mais le transfert de fichiers bloquées avec les partenaires fédérés. Dans ce scénario, vous devez faire :
+ Le scénario le plus courant est que vous souhaitez autoriser les utilisateurs internes à utiliser le transfert de fichiers P2P, mais bloquer le transfert de fichiers avec des partenaires fédérés. Pour ce scénario, vous devez effectuer les opérations suivantes:
   
-- Affecter une stratégie de conférence P2P transfert de fichiers activé (_EnableP2PFileTransfer_ la valeur _True_) pour les utilisateurs de votre organisation.
+- Assigner une stratégie de conférence avec le transfert de fichiers P2P activée (_EnableP2PFileTransfer_ défini sur _true_) aux utilisateurs de votre organisation.
     
-- Créer une stratégie de communication utilisateur externe globale définie pour bloquer les transferts de fichiers externes P2P (_EnableP2PFileTransfer_ définie sur _False_) et l’affecter à un utilisateur de votre organisation. 
+- Créer une stratégie de communication utilisateur externe globale définie pour bloquer les transferts de fichiers P2P externes (_EnableP2PFileTransfer_ défini sur _false_) et l’affecter à un utilisateur de votre organisation. 
     
-Vous trouverez plus d’informations sur ces paramètres [ici](https://technet.microsoft.com/en-us/library/mt228132.aspx).
+Vous pouvez en savoir plus sur ces paramètres [](https://technet.microsoft.com/en-us/library/mt228132.aspx).
   
-Si un utilisateur fédéré à l’extérieur de votre organisation tente d’envoyer un fichier à un utilisateur dont la stratégie a été appliquée, ils recevront une erreur **Échec de transfert** . Et si un utilisateur tente d’envoyer un fichier, ils reçoivent une erreur de **transfert de fichiers est désactivé** .
+Si un utilisateur fédéré extérieur à votre organisation tente d’envoyer un fichier à un utilisateur dans lequel la stratégie a été appliquée, il reçoit une erreur de **transfert** . Si un utilisateur tente d’envoyer un fichier, il recevra une erreur de **transfert de fichier** .
   
-Pour ce faire, l’utilisateur doit utiliser une version prise en charge d’un Skype de Click-to-Run 2016 pour l’application de gestion qui prend en charge. La version minimale suivante Skype pour Business 2016 Click-to-Run client est requise :
+Pour ce faire, l’utilisateur doit utiliser une version prise en charge d’une application Skype entreprise «démarrer en un clic» de 2016. La version minimum suivante du client «démarrer en un clic» Skype entreprise 2016 est requise:
   
-|**Type**|**Date de publication**|**Version**|**Build**|
+|**Type**|**Date de publication**|**Version**|**Appui**|
 |:-----|:-----|:-----|:-----|
-|Première version de canal en cours  <br/> |17/11/2016  <br/> |16.0.7571.2006  <br/> |Version 1611 (version 7571.2006)  <br/> |
-|Canal actuel  <br/> |12/6/2016  <br/> |16.0.7571.2072  <br/> |Version 1611 (version 7571.2072)  <br/> |
-|Canal différée  <br/> |22/2/2017  <br/> |16.0.7369.2118  <br/> |Version 1609 (version 7369.2118)  <br/> |
+|First Release pour canal actuel  <br/> |11/17/2016  <br/> |16.0.7571.2006  <br/> |Version 1611 (Build 7571,2006)  <br/> |
+|Canal actuel  <br/> |12/6/2016  <br/> |16.0.7571.2072  <br/> |Version 1611 (Build 7571,2072)  <br/> |
+|Canal différé  <br/> |2/22/2017  <br/> |16.0.7369.2118  <br/> |Version 1609 (Build 7369,2118)  <br/> |
    
 > [!CAUTION]
-> Les utilisateurs qui utilisent des versions antérieures de Skype pour les applications métiers Windows ou Mac pourront transférer des fichiers. 
+> Les utilisateurs qui utilisent des versions plus anciennes de Skype entreprise Windows ou les clients Mac pourront toujours transférer des fichiers. 
   
 ## <a name="verify-and-start-windows-powershell"></a>Vérifier et démarrer Windows PowerShell
 
@@ -56,7 +56,7 @@ Pour ce faire, l’utilisateur doit utiliser une version prise en charge d’un 
     
 1. Pour vérifier que vous exécutez la version 3.0 ou une version ultérieure : **Menu Démarrer** > **Windows PowerShell**.
     
-2. Vérifier la version en tapant _l’Obtention de l’hôte_ dans la fenêtre **Windows PowerShell** .
+2. Vérifiez la version en entrant _Get-Host_ dans la fenêtre **Windows PowerShell** .
     
 3. Si vous n'utilisez pas la version 3.0 ou une version ultérieure, vous devez télécharger et installer les mises à jour de Windows PowerShell. Pour télécharger et mettre à jour Windows PowerShell vers la version 4.0, consultez [Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845). Redémarrez votre ordinateur lorsque vous y êtes invité.
     
@@ -80,21 +80,21 @@ Pour ce faire, l’utilisateur doit utiliser une version prise en charge d’un 
     Import-PSSession $session
    ```
 
-   Si vous souhaitez plus d’informations sur le démarrage de Windows PowerShell, voir [se connecter à tous les services Office 365 dans une seule fenêtre Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) ou [configurer votre ordinateur pour Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
+   Pour plus d’informations sur le démarrage de Windows PowerShell, voir [se connecter à tous les services Office 365 dans une seule fenêtre Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) ou [configurer votre ordinateur pour Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
     
 ## <a name="disable-p2p-file-transfers-for-your-organization"></a>Désactiver les transferts de fichiers P2P pour votre organisation
 
-Par défaut, _EnableP2PFileTransfer_ est activée sur la stratégie globale de l’organisation. Lors de sa création, vos utilisateurs ont été affectés à la stratégie _BposSAllModality_ .
+Par défaut, _EnableP2PFileTransfer_ est activé sur la politique globale de l’organisation. Lors de la création de ce dernier, vos utilisateurs ont reçu la stratégie _BposSAllModality_ .
   
-Pour autoriser les transferts P2P pour à l’intérieur de votre organisation, mais bloquer les transferts de fichiers externes à une autre organisation, il vous suffit de la modifier à un niveau global. Pour cela, exécutez :
+Pour autoriser les transferts P2P au sein de votre organisation, mais bloquer les transferts de fichiers externes vers une autre organisation, il vous suffit de le modifier à un niveau global. Pour cela, exécutez:
     
   ```
   Set-CsExternalUserCommunicationPolicy -EnableP2PFileTransfer $False
   ```
 
-## <a name="disable-p2p-file-transfers-for-a-user"></a>Désactiver les transferts de fichiers P2P pour un utilisateur
+## <a name="disable-p2p-file-transfers-for-a-user"></a>Désactiver le transfert de fichiers P2P pour un utilisateur
 
-Vous pouvez appliquer cette à un utilisateur en créant une nouvelle stratégie et lui accorder à cet utilisateur. Pour cela, exécutez : 
+Vous pouvez l’appliquer à un utilisateur en créant une nouvelle stratégie et en l’accordant à cet utilisateur. Pour cela, exécutez: 
 > 
 >   ```
 >   New-CsExternalUserCommunicationPolicy -Identity BlockExternalFT -EnableP2PFileTransfer $False
@@ -125,7 +125,7 @@ Vous pouvez appliquer cette à un utilisateur en créant une nouvelle stratégie
 
 [Configurer les stratégies client pour votre organisation](set-up-client-policies-for-your-organization.md)
 
-[Configurer des stratégies de conférence dans votre organisation](set-up-conferencing-policies-for-your-organization.md)
+[Configuration des stratégies de conférence au sein de votre organisation](set-up-conferencing-policies-for-your-organization.md)
 
   
  

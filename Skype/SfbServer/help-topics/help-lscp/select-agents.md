@@ -5,24 +5,24 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/24/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.RgsSelAgent
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b5cf912b-8273-4c2c-a1e5-f25530b264d0
-description: Les agents sont les utilisateurs désignés pour répondre aux appels Response Group. Les groupes de réponse doivent disposer d’un groupe d’agents attribué, qui identifie les agents pouvant recevoir des appels pour le groupe de réponse. Pour créer un groupe d’agents, définissez un groupe personnalisé en sélectionnant des utilisateurs éligibles. Utilisateurs sont activés pour Skype pour Business Server et Enterprise Voice.
-ms.openlocfilehash: f3e820287a998df827eb751c209ea69d292a4c0f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Les agents sont des utilisateurs désignés pour répondre aux appels de groupe de réponse. Les groupes de réponse doivent disposer d’un groupe d’agents attribué, qui identifie les agents pouvant recevoir des appels pour le groupe de réponse. Pour créer un groupe d’agents, définissez un groupe personnalisé en sélectionnant des utilisateurs éligibles. Les utilisateurs éligibles sont activés pour Skype entreprise Server et voix entreprise.
+ms.openlocfilehash: 4e80e99403b6b736722cf94ce37798a651402d03
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924254"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297658"
 ---
 # <a name="select-agents"></a>Sélection des agents
 
-Les agents sont les utilisateurs désignés pour répondre aux appels Response Group. Les groupes de réponse doivent disposer d’un groupe d’agents attribué, qui identifie les agents pouvant recevoir des appels pour le groupe de réponse. Pour créer un groupe d’agents, définissez un groupe personnalisé en sélectionnant des utilisateurs éligibles. Utilisateurs sont activés pour Skype pour Business Server et Enterprise Voice.
+Les agents sont des utilisateurs désignés pour répondre aux appels de groupe de réponse. Les groupes de réponse doivent disposer d’un groupe d’agents attribué, qui identifie les agents pouvant recevoir des appels pour le groupe de réponse. Pour créer un groupe d’agents, définissez un groupe personnalisé en sélectionnant des utilisateurs éligibles. Les utilisateurs éligibles sont activés pour Skype entreprise Server et voix entreprise.
 
 Vous pouvez utiliser la boîte de dialogue **Sélectionner des agents** pour sélectionner les utilisateurs à ajouter à un groupe d’agents.
 
@@ -30,19 +30,19 @@ Vous pouvez utiliser la boîte de dialogue **Sélectionner des agents** pour sé
 
 La liste ci-dessous décrit les contrôles figurant dans la boîte de dialogue **Sélectionner des agents**.
 
-- **Rechercher** Recherche le SIP adresse ou nom complet pour un utilisateur. Entrez tout ou partie du nom ou adresse. Renseignez la zone de recherche pour afficher tous les utilisateurs activés pour Skype pour Business Server et Enterprise Voice.
+- **Recherchez** Recherche l’adresse SIP ou le nom d’affichage d’un utilisateur. Entrez tout ou partie de l’adresse ou du nom. Laissez la zone de recherche vide pour afficher tous les utilisateurs qui sont activés pour Skype entreprise Server et voix entreprise.
 
-- **Nombre maximal d’utilisateurs à afficher** Modifie le nombre de résultats renvoyés qui sont affichés. Ce compteur permet de limiter la recherche, si vous prévoyez de résultats.
+- **Nombre maximal d’utilisateurs à afficher** Change le nombre de résultats retournés qui s’affichent. Utilisez ce compteur pour limiter la recherche si vous prévoyez de nombreux résultats.
 
 La liste ci-dessous décrit les champs figurant dans la boîte de dialogue **Sélectionner des agents**.
 
-- **Agent** Affiche les noms d’utilisateur retournés par la recherche.
+- **Agent** Affiche le nom d’utilisateur retourné par la recherche.
 
-- **Adresse SIP** Affiche les adresses SIP renvoyés par la recherche.
+- **Adresse SIP** Affiche les adresses SIP de l’utilisateur renvoyées par la recherche.
 
-- **Téléphonie** Affiche la valeur du champ **téléphonie** définie pour les utilisateurs.
+- **Téléphonie** Affiche la valeur du champ de **téléphonie** défini pour les utilisateurs.
 
-- **Activé** Affiche la valeur du champ **activé pour Lync Server** définie pour les utilisateurs.
+- **Activée** Affiche la valeur du champ **activé pour Lync Server** défini pour les utilisateurs.
 
 Pour plus d’informations sur l’utilisation des groupes d’agents, reportez-vous à la rubrique [Managing Agent Groups](https://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) de la documentation des opérations.
 

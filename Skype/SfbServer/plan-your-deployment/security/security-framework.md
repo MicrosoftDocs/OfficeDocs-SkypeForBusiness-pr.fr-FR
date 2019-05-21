@@ -1,30 +1,30 @@
 ---
-title: Infrastructure de sécurité pour Skype pour Business Server
+title: Infrastructure de sécurité pour Skype entreprise Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 01131e28-b38e-40d9-8524-06725b9c6608
-description: Cette section fournit une vue d’ensemble des éléments fondamentaux qui constituent l’infrastructure de sécurité de Skype pour Business Server. Il est essentiel pour les décisions adéquates sur la sécurisation de votre Skype particulier pour le déploiement de serveur d’entreprise de comprendre comment ces éléments fonctionnent ensemble.
-ms.openlocfilehash: 2ffede0ab2e6dab012ee578f764b3f1ea3f42db6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Cette section fournit une vue d’ensemble des éléments fondamentaux qui constituent l’infrastructure de sécurité de Skype entreprise Server. Le fait de comprendre le fonctionnement de ces éléments est essentiel pour prendre des décisions éclairées sur la sécurisation de votre déploiement de Skype entreprise Server particulier.
+ms.openlocfilehash: 8b82b09a8220139abe62ac4503ad8a7eddc28e99
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33914127"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34296874"
 ---
-# <a name="security-framework-for-skype-for-business-server"></a>Infrastructure de sécurité pour Skype pour Business Server
+# <a name="security-framework-for-skype-for-business-server"></a>Infrastructure de sécurité pour Skype entreprise Server
  
-Cette section fournit une vue d’ensemble des éléments fondamentaux qui constituent l’infrastructure de sécurité de Skype pour Business Server. Il est essentiel pour les décisions adéquates sur la sécurisation de votre Skype particulier pour le déploiement de serveur d’entreprise de comprendre comment ces éléments fonctionnent ensemble.
+Cette section fournit une vue d’ensemble des éléments fondamentaux qui constituent l’infrastructure de sécurité de Skype entreprise Server. Le fait de comprendre le fonctionnement de ces éléments est essentiel pour prendre des décisions éclairées sur la sécurisation de votre déploiement de Skype entreprise Server particulier.
   
 Ces éléments sont les suivants :
   
-- Services de domaine Active Directory (AD DS) fournit un référentiel centralisé approuvé unique pour les comptes d’utilisateurs et les ressources réseau.
+- Les services de domaine Active Directory (AD DS) fournissent un référentiel principal approuvé unique pour les comptes d’utilisateurs et les ressources réseau.
     
 - RBAC (Contrôle d’accès basé sur un rôle) vous permet de déléguer les tâches d’administration tout en maintenant des normes élevées en matière de sécurité.
     
@@ -34,26 +34,26 @@ Ces éléments sont les suivants :
     
 - Protocoles standard d’authentification des utilisateurs, le cas échéant.
     
-- Windows PowerShell propose des fonctionnalités de sécurité qui sont activées par défaut afin que les utilisateurs ne peuvent pas facilement ou sans le savoir exécuter les scripts.
+- Windows PowerShell fournit des fonctionnalités de sécurité qui sont activées par défaut, de sorte que les utilisateurs ne peuvent pas facilement exécuter des scripts.
     
-Ces éléments fondamentaux de la sécurité fonctionnent ensemble pour définir les utilisateurs approuvés, serveurs, connexions et opérations pour garantir sécurisées pour Skype pour Business Server.
+Ces éléments de sécurité fondamentaux collaborent pour définir des utilisateurs, des serveurs, des connexions et des opérations de confiance pour garantir une base sécurisée pour Skype entreprise Server.
   
 ## <a name="in-this-section"></a>Contenu de cette section
 
-Les rubriques de cette section décrivent comment chacun de ces éléments fondamentaux pour améliorer la sécurité de votre Skype pour l’infrastructure de serveur d’entreprise.
+Les rubriques de cette section expliquent comment chacun de ces éléments fondamentaux fonctionne pour renforcer la sécurité de votre infrastructure serveur Skype entreprise.
   
-- [Services de domaine Active Directory pour Skype pour Business Server](active-directory-domain-services.md)
+- [Services de domaine Active Directory pour Skype entreprise Server](active-directory-domain-services.md)
     
-- [Contrôle d’accès basé sur un rôle (RBAC) pour Skype pour Business Server](role-based-access-control-rbac.md)
+- [Contrôle d’accès basé sur les rôles (RBAC) pour Skype entreprise Server](role-based-access-control-rbac.md)
     
-- [Infrastructure à clé publique pour Skype pour Business Server](public-key-infrastructure-for-skype.md)
+- [Infrastructure à clé publique pour Skype entreprise Server](public-key-infrastructure-for-skype.md)
     
-- [TLS et MTLS pour Skype pour Business Server](tls-and-mtls.md)
+- [TLS et MTLS pour Skype entreprise Server](tls-and-mtls.md)
     
-- [Chiffrement pour Skype pour Business Server](encryption.md)
+- [Chiffrement pour Skype entreprise Server](encryption.md)
     
-- [Authentification utilisateur et client pour Skype pour Business Server](user-and-client-authentication.md)
+- [Authentification des utilisateurs et des clients pour Skype entreprise Server](user-and-client-authentication.md)
     
-- [Windows PowerShell et Skype pour les outils de gestion de serveur d’entreprise](management-tools.md)
+- [Outils de gestion de Windows PowerShell et de Skype entreprise Server](management-tools.md)
     
 

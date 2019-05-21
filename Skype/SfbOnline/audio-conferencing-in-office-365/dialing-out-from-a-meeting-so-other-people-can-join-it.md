@@ -1,5 +1,5 @@
 ---
-title: Appels sortants à partir d’un Skype pour une réunion professionnelle afin que les autres personnes peut joindre
+title: Appel sortant d’une réunion Skype entreprise pour permettre à d’autres personnes de participer à celle-ci
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -20,25 +20,25 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Découvrez ce dont vous avez besoin et comment les organisateurs de réunion peuvent appeler d’autres personnes avec Skype Entreprise.
-ms.openlocfilehash: 49130a14391e014d1e7aea21c62abaf2385296d8
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 4f46315c7817ad7e8e529fabff9a3a333527a266
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229534"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306119"
 ---
-# <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>Appels sortants à partir d’un Skype pour une réunion professionnelle afin que les autres personnes peut joindre
+# <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>Appel sortant d’une réunion Skype entreprise pour permettre à d’autres personnes de participer à celle-ci
 
 > [!NOTE]
 > Si vous recherchez des informations sur les appels sortants depuis une réunion Teams, voir [Appels sortants à partir d’une réunion Teams afin que d’autres personnes la rejoignent](/MicrosoftTeams/dialing-out-from-a-teams-meeting-so-other-people-can-join-it).
 
 As the meeting organizer, you can dial out using the Skype for Business app to let other people join the same meeting using their phone. Although it's not required, when you are dialing out to someone, it's recommended that you dial the full number, including the country/region code. To get dial-out to work:
   
-- Vous pouvez composer en sortie uniquement si vous participez à une réunion en utilisant un Skype pour l’application de gestion.
+- Vous ne pouvez passer un appel sortant que si vous participez à une réunion par le biais d’une application Skype entreprise.
     
-- Vous en tant qu’organisateur de la réunion avez été activés pour l’audioconférence.
+- En tant qu’organisateur de la réunion, vous avez été activé pour la conférence audio.
 
-Pour ajouter d’autres participants par le biais d’appel sortant aux réunions de votre organisation, au moins un utilisateur authentifié à partir de la même organisation que l’organisateur (votre organisation) doit être présent dans la réunion afin de permettre l’ajout d’autres participants via un appel sortant. 
+Pour ajouter d’autres participants par le biais d’un appel sortant aux réunions de votre organisation, il est nécessaire de disposer d’au moins un utilisateur authentifié de la même organisation que l’organisateur (votre organisation) pour pouvoir ajouter d’autres participants à la réunion. par numéro de téléphone. 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -53,9 +53,9 @@ Pour ajouter d’autres participants par le biais d’appel sortant aux réunion
   
 ## <a name="supported-countries-and-regions"></a>Pays et régions pris en charge
 
-La mise en conférence n'est disponible que vers certains pays ou certaines régions. Pour la liste complète, voir [disponibilité pays et aux régions de conférence Audio et des Plans de l’appel](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
+La mise en conférence n'est disponible que vers certains pays ou certaines régions. Pour obtenir la liste complète, voir [disponibilité du pays et de la région pour les offres d’appels et de services d’audioconférence](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
   
-## <a name="want-to-know-more-about-audio-conferencing"></a>Vous souhaitez en savoir plus sur les services d’audioconférence ?
+## <a name="want-to-know-more-about-audio-conferencing"></a>Vous voulez en savoir plus sur les conférences audio?
 
 [Tester ou acheter l’audioconférence dans Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
     

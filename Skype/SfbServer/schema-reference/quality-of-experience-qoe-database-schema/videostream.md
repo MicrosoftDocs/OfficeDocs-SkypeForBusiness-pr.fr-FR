@@ -5,99 +5,99 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/1/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4275ede7-5467-4a97-b8c8-a4b00917bf32
-description: Chaque enregistrement représente un flux vidéo. Généralement, une seule ligne de média vidéo contient deux flux vidéo.
-ms.openlocfilehash: 59d0d0979513dc016912d7f4482f740c4ceeccd8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Chaque enregistrement représente un flux vidéo. Une ligne de média vidéo contient généralement deux flux vidéo.
+ms.openlocfilehash: 678f8b14fb3746ddd50a83ebd68c3878237908e4
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33925256"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34294522"
 ---
 # <a name="videostream-table"></a>Table VideoStream
  
-Chaque enregistrement représente un flux vidéo. Généralement, une seule ligne de média vidéo contient deux flux vidéo.
+Chaque enregistrement représente un flux vidéo. Une ligne de média vidéo contient généralement deux flux vidéo.
   
 |**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
 |:-----|:-----|:-----|:-----|
-|**Paramètre ConferenceDateTime** <br/> |DateHeure  <br/> |Principal  <br/> |Référencé depuis la [MediaLine table](medialine-0.md).  <br/> |
-|**SessionSeq** <br/> |int  <br/> |Principal  <br/> |R référencé depuis la [MediaLine table](medialine-0.md).  <br/> |
-|**MediaLineLabel** <br/> |tinyint  <br/> |Principal  <br/> |Référencé depuis la [MediaLine table](medialine-0.md).  <br/> |
-|**StreamID** <br/> |int  <br/> |Principal  <br/> |ID unique au sein d’une ligne de média.  <br/> |
-|**VideoPayloadDescription** <br/> |smallint  <br/> |Étrangère, primaire  <br/> |Description de la charge utile. Consultez la [table PayloadDescription](payloaddescription.md) pour plus d’informations. <br/> |
-|**JitterInterArrival** <br/> |int  <br/> | <br/> |Gigue réseau moyenne à partir des statistiques de contrôle protocole RTCP (Real Time).  <br/> |
-|**JitterInterArrivalMax** <br/> |int  <br/> | <br/> |Gigue réseau maximum au cours de la session vidéo.  <br/> |
-|**RoundTrip** <br/> |int  <br/> | <br/> |Durée d’aller-retour d’après les statistiques RTCP.  <br/> |
-|**RoundTripMax** <br/> |int  <br/> | <br/> |Durée d’aller-retour maximale pour le flux vidéo.  <br/> |
-|**PacketLossRate** <br/> |Decimal(5,4)  <br/> | <br/> |Taux de perte de paquets moyenne pendant l’appel.  <br/> |
-|**PacketLossRateMax** <br/> |Decimal(5,4)  <br/> | <br/> |Perte maximale de paquets observée pendant l’appel.  <br/> |
+|**ConferenceDateTime** <br/> |DateHeure  <br/> |Principal  <br/> |Fait référence à partir de la [table MediaLine](medialine-0.md).  <br/> |
+|**SessionSeq** <br/> |int  <br/> |Principal  <br/> |R référencé à partir de la [table MediaLine](medialine-0.md).  <br/> |
+|**MediaLineLabel** <br/> |tinyint  <br/> |Principal  <br/> |Fait référence à partir de la [table MediaLine](medialine-0.md).  <br/> |
+|**StreamID** <br/> |int  <br/> |Principal  <br/> |IDENTIFIant unique dans une ligne de médias.  <br/> |
+|**VideoPayloadDescription** <br/> |type  <br/> |Étranger, primaire  <br/> |Description de la charge utile. Pour plus d’informations, voir la [table PayloadDescription](payloaddescription.md) . <br/> |
+|**JitterInterArrival** <br/> |int  <br/> | <br/> |Gigue réseau moyenne des statistiques de protocole RTCP (Real Time Control Protocol).  <br/> |
+|**JitterInterArrivalMax** <br/> |int  <br/> | <br/> |Scintillement du réseau maximum lors de la session vidéo.  <br/> |
+|**RoundTrip** <br/> |int  <br/> | <br/> |Durée de l’aller-retour des statistiques RTCP.  <br/> |
+|**RoundTripMax** <br/> |int  <br/> | <br/> |Durée de l’aller-retour maximal pour le flux vidéo.  <br/> |
+|**PacketLossRate** <br/> |décimale (5; 4)  <br/> | <br/> |Taux moyen de perte de paquets lors de l’appel.  <br/> |
+|**PacketLossRateMax** <br/> |décimale (5; 4)  <br/> | <br/> |Perte de paquets maximum observée pendant l’appel.  <br/> |
 |**PacketUtilization** <br/> |int  <br/> | <br/> |Nombre de paquets pour le flux vidéo (Real Time Transport Protocol, RTP).  <br/> |
-|**BandwidthEst** <br/> |int  <br/> | <br/> |Estimations de la bande passante pour le flux vidéo.  <br/> |
-|**VideoResolution** <br/> |char (9)  <br/> | <br/> |Résolution de la vidéo en pixels de large multiplié par pixels de haut. Indiqué sous forme de chaîne.  <br/> |
+|**Bande passante** <br/> |int  <br/> | <br/> |Estimations de bande passante pour le flux vidéo.  <br/> |
+|**VideoResolution** <br/> |car (9)  <br/> | <br/> |Résolution de la vidéo, en pixels, de largeur multipliée par la hauteur en pixels. Signalée en tant que chaîne.  <br/> |
 |**VideoBitRateAvg** <br/> |int  <br/> | <br/> |Vitesse de transmission moyenne du flux vidéo.  <br/> |
-|**InboundVideoFrameRateAvg** <br/> |Decimal(9,4)  <br/> | <br/> |Fréquence d’images vidéo reçue.  <br/> |
-|**OutboundVideoFrameRateAvg** <br/> |Decimal(9,4)  <br/> | <br/> |Fréquence d’images vidéo envoyée.  <br/> |
-|**VideoBitRateMax** <br/> |int  <br/> | <br/> |Vitesse de transmission vidéo maximale au cours de la session vidéo.  <br/> |
-|**VideoFrameLossRate** <br/> |Decimal(9,4)  <br/> | <br/> |Pourcentage du total des images vidéo perdues.  <br/> |
-|**VideoFEC** <br/> |bit  <br/> | <br/> |N’est pas disponible.  <br/> |
-|**VideoLocalFrameLossPercentageAvg** <br/> |Decimal(9,4)  <br/> ||Pourcentage du total des images vidéo perdues.  <br/> |
-|**CIFQualityRatio** <br/> |tinyint  <br/> ||Pourcentage de l’appel qui était à la résolution Interchange Format CIF (Common).  <br/> |
-|**VGAQualityRatio** <br/> |tinyint  <br/> ||Pourcentage de l’appel qui était à la résolution VGA.  <br/> |
-|**HD720QualityRatio** <br/> |tinyint  <br/> ||Pourcentage de l’appel qui était à la résolution HD720.  <br/> |
-|**NoneDropRatio** <br/> |tinyint  <br/> ||Pourcentage de la durée de l’appel avec suppression d’images.  <br/> |
-|**BDropRatio** <br/> |tinyint  <br/> ||Pourcentage de la durée de l’appel avec suppression d’images B.  <br/> |
-|**BPDropRatio** <br/> |tinyint  <br/> ||Pourcentage de la durée de l’appel avec images BP.  <br/> |
-|**BPSPDropRatio** <br/> |tinyint  <br/> ||Pourcentage de la durée de l’appel avec images bpsp.  <br/> |
-|**BPSPIDropRatio** <br/> |tinyint  <br/> ||Pourcentage de la durée de l’appel avec images bpspi.  <br/> |
-|**Trafic entrant** <br/> |bit  <br/> | <br/> |Données de flux du côté récepteur reçues.  <br/> |
-|**Sortant** <br/> |bit  <br/> | <br/> |Données de flux côté expéditeur reçues.  <br/> |
-|**SenderIsCallerPAI** <br/> |bit  <br/> | <br/> |1 signifie que la direction du flux va de l’appelant vers l’appelé.  <br/> 0 signifie que la direction du flux va de l’appelé à l’appelant.  <br/> |
-|**LossCongestionPercent** <br/> |float  <br/> ||Indique le pourcentage de l’heure de l’appel dans un état de congestion de perte.  <br/> Cette colonne est une nouveauté dans Microsoft Lync Server 2013.  <br/> |
-|**DelayCongestionPercent** <br/> |float  <br/> ||Indique le pourcentage de l’appel au cours de laquelle la congestion a été provoquée par l’arrivée en retard des paquets réseau.  <br/> Cette colonne est une nouveauté dans Microsoft Lync Server 2013.  <br/> |
-|**ContentionDetectedPercent** <br/> |float  <br/> ||Indique le pourcentage du temps lorsque l’appel a été concurrentes des ressources réseau.  <br/> Cette colonne est une nouveauté dans Microsoft Lync Server 2013.  <br/> |
-|**BandwidthEstMin** <br/> |int  <br/> ||Quantité minimale de l’estimation de la bande passante mesurée pendant l’appel.  <br/> Cette colonne est une nouveauté dans Microsoft Lync Server 2013.  <br/> |
-|**BandwidthEstMax** <br/> |int  <br/> ||Quantité maximale de l’estimation de la bande passante mesurée pendant l’appel.  <br/> Cette colonne est une nouveauté dans Microsoft Lync Server 2013.  <br/> |
-|**BandwidthEstStdDev** <br/> |int  <br/> ||Écart-type de l’estimation de bande passante mesurée pendant l’appel.  <br/> Cette colonne est une nouveauté dans Microsoft Lync Server 2013.  <br/> |
-|**BandwidthEstAvge** <br/> |int  <br/> ||Quantité moyenne de l’estimation de la bande passante mesurée pendant l’appel.  <br/> Cette colonne est une nouveauté dans Microsoft Lync Server 2013.  <br/> |
-|**LowBandwidthForMultiview** <br/> |float  <br/> ||Pourcentage de l’appel où le point de terminaison déterminé que la connexion réseau ne peut pas en charge la vidéo.  <br/> Cette colonne est une nouveauté dans Microsoft Lync Server 2013.  <br/> |
-|**RelativeOneWayTotal** <br/> |float  <br/> ||Quantité totale de la latence à sens unique. Latence à sens unique relative mesure le délai entre le client et le serveur.  <br/> Cette colonne est une nouveauté dans Microsoft Lync Server 2013.  <br/> |
-|**RelativeOneWayAverage** <br/> |float  <br/> ||Quantité moyenne de latence à sens unique. Latence à sens unique relative mesure le délai entre le client et le serveur.  <br/> Cette colonne est une nouveauté dans Microsoft Lync Server 2013.  <br/> |
-|**RelativeOneWayMax** <br/> |float  <br/> ||Quantité maximale de latence à sens unique. Latence à sens unique relative mesure le délai entre le client et le serveur.  <br/> Cette colonne est une nouveauté dans Microsoft Lync Server 2013.  <br/> |
-|**RelativeOneWayBurstOccurrences** <br/> |int  <br/> ||Occurrences de rafales à sens unique total. Une transmission « rafales » est une transmission où flux de données en rafales imprévisibles au lieu d’un flux continu. Cette mesure exhaustive de flux de données entre le client et le serveur.  <br/> Cette colonne est une nouveauté dans Microsoft Lync Server 2013.  <br/> |
-|**RelativeOneWayBurstDensity** <br/> |int  <br/> ||Densité des rafales à sens unique total. Une transmission « rafales » est une transmission où flux de données en rafales imprévisibles au lieu d’un flux continu. Cette mesure exhaustive de flux de données entre le client et le serveur.  <br/> Cette colonne est une nouveauté dans Microsoft Lync Server 2013.  <br/> |
-|**RelativeOneWayBurstDuration** <br/> |float  <br/> ||Durée totale rafale à sens unique. Une transmission « rafales » est une transmission où flux de données en rafales imprévisibles au lieu d’un flux continu. Cette mesure exhaustive de flux de données entre le client et le serveur.  <br/> Cette colonne est une nouveauté dans Microsoft Lync Server 2013.  <br/> |
-|**RelativeOneWayGapOccurrences** <br/> |int  <br/> ||Occurrences d’intervalles à sens unique total. Une transmission « rafales » est une transmission où flux de données en rafales imprévisibles au lieu d’un flux continu ; intervalles indiquent les retards entre ces rafales. Cette mesure exhaustive de flux de données entre le client et le serveur.  <br/> Cette colonne est une nouveauté dans Microsoft Lync Server 2013.  <br/> |
-|**RelativeOneWayGapDensity** <br/> |float  <br/> ||Densité d’intervalles à sens unique total. Une transmission « rafales » est une transmission où flux de données en rafales imprévisibles au lieu d’un flux continu ; intervalles indiquent les retards entre ces rafales. Cette mesure exhaustive de flux de données entre le client et le serveur.  <br/> Cette colonne est une nouveauté dans Microsoft Lync Server 2013.  <br/> |
-|**RelativeOneWayGapDuration** <br/> |float  <br/> ||Durée des intervalles à sens unique total. Une transmission « rafales » est une transmission où flux de données en rafales imprévisibles au lieu d’un flux continu ; intervalles indiquent les retards entre ces rafales. Cette mesure exhaustive de flux de données entre le client et le serveur.  <br/> Cette colonne est une nouveauté dans Microsoft Lync Server 2013.  <br/> |
-|**VideoPacketLossRate** <br/> |Decimal(9,4)  <br/> ||Fréquence à laquelle les paquets vidéo ont été perdues.  <br/> Cette colonne est une nouveauté dans Microsoft Lync Server 2013.  <br/> |
-|**VideoAllocateBWAvg** <br/> |int  <br/> ||Quantité moyenne de bande passante allouée à la vidéo.  <br/> Cette colonne est une nouveauté dans Microsoft Lync Server 2013.  <br/> |
-|**SendCodecTypes** <br/> |smallint  <br/> |Étrangère  <br/> |Type de codec vidéo utilisé par l’expéditeur. Consultez la [table CodecDescription](codecdescription.md) pour plus d’informations. <br/> Cette colonne est une nouveauté dans Microsoft Lync Server 2013.  <br/> |
-|**SendResolutionWidth** <br/> |int  <br/> ||Largeur de résolution utilisée par l’expéditeur.  <br/> Cette colonne est une nouveauté dans Microsoft Lync Server 2013.  <br/> |
-|**SendResolutionHeight** <br/> |int  <br/> ||Hauteur de résolution utilisée par l’expéditeur.  <br/> Cette colonne est une nouveauté dans Microsoft Lync Server 2013.  <br/> |
-|**SendFrameRateAverage** <br/> |float  <br/> ||Transmission de débit d’images vidéo moyenne utilisée par l’expéditeur.  <br/> Cette colonne est une nouveauté dans Microsoft Lync Server 2013.  <br/> |
-|**SendBitRateMaximum** <br/> |int  <br/> ||Vitesse de transmission maximale pour l’expéditeur.  <br/> Cette colonne est une nouveauté dans Microsoft Lync Server 2013.  <br/> |
-|**SendBitRateAverage** <br/> |int  <br/> ||Vitesse de transmission moyenne pour l’expéditeur.  <br/> |
-|**SendVideoStreamsMax** <br/> |int  <br/> ||Nombre maximal de flux vidéo utilisés par l’expéditeur.  <br/> Cette colonne est une nouveauté dans Microsoft Lync Server 2013.  <br/> |
-|**RecvCodecTypes** <br/> |smallint  <br/> |Étrangère  <br/> |Codes vidéo utilisées par le récepteur. Consultez la [table CodecDescription](codecdescription.md) pour plus d’informations. <br/> Cette colonne est une nouveauté dans Microsoft Lync Server 2013.  <br/> |
-|**RecvResolutionWidth** <br/> |int  <br/> ||Largeur de résolution utilisée par le récepteur.  <br/> Cette colonne est une nouveauté dans Microsoft Lync Server 2013.  <br/> |
-|**RecvResolutionHeight** <br/> |int  <br/> ||Hauteur de résolution utilisée par le récepteur.  <br/> Cette colonne est une nouveauté dans Microsoft Lync Server 2013.  <br/> |
-|**RecvFrameRateAverage** <br/> |float  <br/> ||Fréquence d’images vidéo moyenne utilisée par le récepteur.  <br/> Cette colonne est une nouveauté dans Microsoft Lync Server 2013.  <br/> |
-|**RecvBitRateMaximum** <br/> |int  <br/> ||Vitesse de transmission maximale pour le récepteur.  <br/> Cette colonne est une nouveauté dans Microsoft Lync Server 2013.  <br/> |
-|**RecvBitRateAverage** <br/> |int  <br/> ||Vitesse de transmission moyenne pour le récepteur.  <br/> Cette colonne est une nouveauté dans Microsoft Lync Server 2013.  <br/> |
-|**RecvVideoStreamsMax** <br/> |int  <br/> ||Flux vidéo maximaux pour le récepteur.  <br/> Cette colonne est une nouveauté dans Microsoft Lync Server 2013.  <br/> |
-|**RecvVideoStreamsMin** <br/> |int  <br/> ||Flux vidéo minimales pour le récepteur.  <br/> Cette colonne est une nouveauté dans Microsoft Lync Server 2013.  <br/> |
-|**RecvVideoStreamsMode** <br/> |int  <br/> ||Mode vidéo (par exemple, galerie ou flux unique) pour le récepteur.  <br/> Cette colonne est une nouveauté dans Microsoft Lync Server 2013.  <br/> |
-|**VideoPostFECPLR** <br/> |float  <br/> ||Taux de perte de paquets après que la correction d’erreur de transfert a été appliquée.  <br/> Cette colonne est une nouveauté dans Microsoft Lync Server 2013.  <br/> |
-|**DynamicCapabilityPercent** <br/> |float  <br/> ||Pourcentage de temps que l’indicateur de capacité dynamique a été actif.  <br/> Cette colonne est une nouveauté dans Microsoft Lync Server 2013.  <br/> |
-|**ResolutionMin** <br/> |char (9)  <br/> ||Résolution minimale mesurée pendant l’appel.  <br/> Cette colonne est une nouveauté dans Microsoft Lync Server 2013.  <br/> |
-|**LowBitRateCallPercent** <br/> |float  <br/> ||Pourcentage de l’appel inférieur au seuil de taux de transmission faible (70 kilobits par seconde).  <br/> Cette colonne est une nouveauté dans Microsoft Lync Server 2013.  <br/> |
-|**LowFrameRateCallPercent** <br/> |float  <br/> ||Pourcentage de l’appel inférieur au seuil de fréquence d’images basse (7,5 images par seconde, entrantes).  <br/> Cette colonne est une nouveauté dans Microsoft Lync Server 2013.  <br/> |
-|**LowResolutionCallPercent** <br/> |float  <br/> ||Pourcentage de l’appel qui était la plus faible résolution.  <br/> Cette colonne est une nouveauté dans Microsoft Lync Server 2013.  <br/> Cette colonne est une nouveauté dans Microsoft Lync Server 2013.  <br/> |
-|**DurationSeconds** <br/> |float  <br/> ||Durée de l’appel en secondes.  <br/> Cette colonne est une nouveauté dans Microsoft Lync Server 2013.  <br/> |
-|**IsAggregatedData** <br/> |bit  <br/> ||Indique si les données ont été collectées à partir de plusieurs appels.  <br/> Cette colonne est une nouveauté dans Microsoft Lync Server 2013.  <br/> |
+|**InboundVideoFrameRateAvg** <br/> |décimale (9; 4)  <br/> | <br/> |Fréquence d’images vidéo reçues.  <br/> |
+|**OutboundVideoFrameRateAvg** <br/> |décimale (9; 4)  <br/> | <br/> |Fréquence d’images vidéo envoyées.  <br/> |
+|**VideoBitRateMax** <br/> |int  <br/> | <br/> |Débit vidéo maximum lors de la session vidéo.  <br/> |
+|**VideoFrameLossRate** <br/> |décimale (9; 4)  <br/> | <br/> |Pourcentage du nombre total de trames vidéo perdues.  <br/> |
+|**VideoFEC** <br/> |bit  <br/> | <br/> |Non disponible.  <br/> |
+|**VideoLocalFrameLossPercentageAvg** <br/> |décimale (9; 4)  <br/> ||Pourcentage du nombre total de trames vidéo perdues.  <br/> |
+|**CIFQualityRatio** <br/> |tinyint  <br/> ||Pourcentage de l’appel à la résolution CAF (Common Interchange Format).  <br/> |
+|**VGAQualityRatio** <br/> |tinyint  <br/> ||Pourcentage de l’appel à la résolution VGA.  <br/> |
+|**HD720QualityRatio** <br/> |tinyint  <br/> ||Pourcentage de l’appel passé à la résolution HD720.  <br/> |
+|**NoneDropRatio** <br/> |tinyint  <br/> ||Pourcentage de la durée de l’appel sans cadre.  <br/> |
+|**BDropRatio** <br/> |tinyint  <br/> ||Pourcentage de la durée de l’appel avec la dépose de l’image B.  <br/> |
+|**BPDropRatio** <br/> |tinyint  <br/> ||Pourcentage de la durée de l’appel avec la liste déroulante.  <br/> |
+|**BPSPDropRatio** <br/> |tinyint  <br/> ||Pourcentage de la durée de l’appel avec BPSP Frame.  <br/> |
+|**BPSPIDropRatio** <br/> |tinyint  <br/> ||Pourcentage de la durée de l’appel avec BPSPI Frame.  <br/> |
+|**Entrant** <br/> |bit  <br/> | <br/> |Des données de flux sur le côté du destinataire sont reçues.  <br/> |
+|**Sortant** <br/> |bit  <br/> | <br/> |Les données du flux du côté de l’expéditeur sont reçues.  <br/> |
+|**SenderIsCallerPAI** <br/> |bit  <br/> | <br/> |1 signifie que le sens du flux provient de l’appelant vers l’appel.  <br/> 0: le sens du flux provient de l’appelant.  <br/> |
+|**LossCongestionPercent** <br/> |float  <br/> ||Indique le pourcentage du temps pendant lequel l’appel a été dans un état de congestion de perte.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
+|**DelayCongestionPercent** <br/> |float  <br/> ||Indique le pourcentage de l’appel au cours duquel une congestion est causée par le retard de paquets réseau.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
+|**ContentionDetectedPercent** <br/> |float  <br/> ||Indique le pourcentage de temps pendant lequel l’appel a été compétitif pour les ressources réseau.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
+|**BandwidthEstMin** <br/> |int  <br/> ||Quantité minimale d’estimation de la bande passante mesurée lors de l’appel.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
+|**BandwidthEstMax** <br/> |int  <br/> ||Quantité maximale d’estimation de la bande passante mesurée lors de l’appel.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
+|**BandwidthEstStdDev** <br/> |int  <br/> ||Écart type de l’estimation de la bande passante mesurée lors de l’appel.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
+|**BandwidthEstAvge** <br/> |int  <br/> ||Quantité moyenne d’estimation de bande passante mesurée lors de l’appel.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
+|**LowBandwidthForMultiview** <br/> |float  <br/> ||Pourcentage de l’appel où le point de terminaison a déterminé que la connexion réseau n’a pas pu prendre en charge la vidéo multivue.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
+|**RelativeOneWayTotal** <br/> |float  <br/> ||Quantité totale de latence à sens unique. Latence relative à sens unique, mesure du délai entre le client et le serveur.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
+|**Moyenne unidirectionnelle relative** <br/> |float  <br/> ||Quantité moyenne de latence à sens unique. Latence relative à sens unique, mesure du délai entre le client et le serveur.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
+|**RelativeOneWayMax** <br/> |float  <br/> ||Quantité maximale de latence à sens unique. Latence relative à sens unique, mesure du délai entre le client et le serveur.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
+|**RelativeOneWayBurstOccurrences** <br/> |int  <br/> ||Nombre total d’occurrences de rafales à sens unique. Une transmission «Burst» est une transmission dans laquelle les données sont transmises en rafales inattendus plutôt qu’à un flux continu. Cette métrique mesure le flux de données entre le client et le serveur.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
+|**RelativeOneWayBurstDensity** <br/> |int  <br/> ||Densité du Burst total unidirectionnel. Une transmission «Burst» est une transmission dans laquelle les données sont transmises en rafales inattendus plutôt qu’à un flux continu. Cette métrique mesure le flux de données entre le client et le serveur.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
+|**RelativeOneWayBurstDuration** <br/> |float  <br/> ||Durée totale du Burst. Une transmission «Burst» est une transmission dans laquelle les données sont transmises en rafales inattendus plutôt qu’à un flux continu. Cette métrique mesure le flux de données entre le client et le serveur.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
+|**RelativeOneWayGapOccurrences** <br/> |int  <br/> ||Nombre total d’occurrences de l’espacement unidirectionnel. Une transmission «Burst» est une transmission dans laquelle les données sont transmises en rafales inattendues au lieu d’un flux continu; les intervalles indiquent les retards entre ces rafales. Cette métrique mesure le flux de données entre le client et le serveur.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
+|**RelativeOneWayGapDensity** <br/> |float  <br/> ||Densité de l’intervalle total à sens unique. Une transmission «Burst» est une transmission dans laquelle les données sont transmises en rafales inattendues au lieu d’un flux continu; les intervalles indiquent les retards entre ces rafales. Cette métrique mesure le flux de données entre le client et le serveur.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
+|**RelativeOneWayGapDuration** <br/> |float  <br/> ||Durée totale de l’intervalle. Une transmission «Burst» est une transmission dans laquelle les données sont transmises en rafales inattendues au lieu d’un flux continu; les intervalles indiquent les retards entre ces rafales. Cette métrique mesure le flux de données entre le client et le serveur.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
+|**Cause du taux** <br/> |décimale (9; 4)  <br/> ||Taux d’interruption des paquets vidéo.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
+|**VideoAllocateBWAvg** <br/> |int  <br/> ||Quantité moyenne de bande passante allouée pour la vidéo.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
+|**SendCodecTypes** <br/> |type  <br/> |Externes  <br/> |Type de codecs vidéo utilisés par l’expéditeur. Pour plus d’informations, voir la [table CodecDescription](codecdescription.md) . <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
+|**SendResolutionWidth** <br/> |int  <br/> ||Largeur de résolution utilisée par l’expéditeur.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
+|**SendResolutionHeight** <br/> |int  <br/> ||Hauteur de résolution utilisée par l’expéditeur.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
+|**SendFrameRateAverage** <br/> |float  <br/> ||Transmission moyenne de la fréquence d’images vidéo utilisée par l’expéditeur.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
+|**SendBitRateMaximum** <br/> |int  <br/> ||Taux de bits maximal pour l’expéditeur.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
+|**SendBitRateAverage** <br/> |int  <br/> ||Taux de bits moyen pour l’expéditeur.  <br/> |
+|**SendVideoStreamsMax** <br/> |int  <br/> ||Nombre maximal de flux vidéo utilisés par l’expéditeur.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
+|**RecvCodecTypes** <br/> |type  <br/> |Externes  <br/> |Codes vidéo utilisés par le destinataire. Pour plus d’informations, voir la [table CodecDescription](codecdescription.md) . <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
+|**RecvResolutionWidth** <br/> |int  <br/> ||Largeur de résolution utilisée par le destinataire.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
+|**RecvResolutionHeight** <br/> |int  <br/> ||Hauteur de résolution utilisée par le destinataire.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
+|**Cause reçues** <br/> |float  <br/> ||Fréquence d’images vidéo moyenne utilisée par le destinataire.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
+|**RecvBitRateMaximum** <br/> |int  <br/> ||Vitesse de transmission maximale du destinataire.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
+|**RecvBitRateAverage** <br/> |int  <br/> ||Taux de bits moyen pour le destinataire.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
+|**RecvVideoStreamsMax** <br/> |int  <br/> ||Flux vidéo maximal pour le destinataire.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
+|**RecvVideoStreamsMin** <br/> |int  <br/> ||Flux vidéo minimal pour le destinataire.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
+|**RecvVideoStreamsMode** <br/> |int  <br/> ||Mode vidéo (par exemple, Galerie ou flux unique) pour le destinataire.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
+|**VideoPostFECPLR** <br/> |float  <br/> ||Taux de perte de paquets après application de la correction d’erreur de transfert.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
+|**Cause du pourcentage** <br/> |float  <br/> ||Pourcentage de temps pendant lequel l’indicateur de capacité dynamique a été actif.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
+|**ResolutionMin** <br/> |car (9)  <br/> ||Résolution minimale mesurée lors de l’appel.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
+|**LowBitRateCallPercent** <br/> |float  <br/> ||Pourcentage de l’appel inférieur au seuil de faible taux de bits (70 kilobits par seconde).  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
+|**Cause du pourcentage** <br/> |float  <br/> ||Pourcentage de l’appel inférieur au seuil de fréquence d’images faible (7,5 images par seconde, entrant).  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
+|**Cause du pourcentage** <br/> |float  <br/> ||Pourcentage de l’appel qui s’est produit à la résolution la plus basse.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
+|**DurationSeconds** <br/> |float  <br/> ||Durée de l’appel en secondes.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
+|**IsAggregatedData** <br/> |bit  <br/> ||Indique si les données ont été agrégées à partir de plusieurs appels.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
    
 

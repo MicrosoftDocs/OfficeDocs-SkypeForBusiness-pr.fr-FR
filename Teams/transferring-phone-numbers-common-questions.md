@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -20,23 +20,23 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: Les éléments suivants sont questions fréquemment posées sur le transfert des numéros de téléphone à Skype pour les entreprises. Après avoir examiné les réponses, vous devez être prêt à créer un ordre de port et de transférer vos numéros de téléphone. Voir les numéros de téléphone transfert vers Office 365 pour obtenir des instructions.
-ms.openlocfilehash: 311eaa78920b3853947df5dd375c6471cab4d8aa
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Vous trouverez ci-après les questions fréquemment posées sur le transfert de numéros de téléphone vers Skype entreprise. Après avoir examiné les réponses, vous devez être prêt à créer une demande de transfert et à transférer vos numéros de téléphone. Pour obtenir des instructions, voir transférer des numéros de téléphone vers Office 365.
+ms.openlocfilehash: 889a74a0648e7a7ae7f3e1b6e286fd368ff86d2c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204129"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34293878"
 ---
 # <a name="transferring-phone-numbers-common-questions"></a>Transfert des questions fréquemment posées numéros de téléphone
 
-Les éléments suivants sont questions fréquemment posées sur le transfert des numéros de téléphone à Skype pour les entreprises. Après avoir examiné les réponses, vous devez être prêt à créer un ordre de port et de transférer vos numéros de téléphone. Pour plus d’informations, voir [transférer des numéros de téléphone vers Office 365](transfer-phone-numbers-to-office-365.md) .
+Vous trouverez ci-après les questions fréquemment posées sur le transfert de numéros de téléphone vers Skype entreprise. Après avoir examiné les réponses, vous devez être prêt à créer une demande de transfert et à transférer vos numéros de téléphone. Pour obtenir des instructions, voir [transférer des numéros de téléphone vers Office 365](transfer-phone-numbers-to-office-365.md) .
   
 ## <a name="what-countriesregions-support-number-porting"></a>Quels pays/régions prennent en charge le transfert de numéro ?
 
-Vous pouvez transférer les numéros de téléphone dans tous les pays ou régions pris en charge, cependant la manière d'envoyer la demande de transfert dépend du pays ou de la région d'origine des numéros de téléphone. Vous pouvez voir une liste des pays/régions sont pris en charge par [pays et disponibilité dans la région de conférence Audio et des Plans de l’appel](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). 
+Vous pouvez transférer les numéros de téléphone dans tous les pays ou régions pris en charge, cependant la manière d'envoyer la demande de transfert dépend du pays ou de la région d'origine des numéros de téléphone. Vous pouvez afficher la liste des pays/régions pris en charge par les [pays et les régions disponibles pour les offres de conférence et d’appels audio](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). 
 
-Lorsque vous effectuez les tâches de gestion numéros téléphonique telles que le transfert de nombres (portage) ou lors de l’obtention des numéros de téléphone qui sont ne sont pas disponibles dans le Skype entreprise centre d’administration, voir [Gérer les numéros de téléphone pour votre organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+Lorsque vous effectuez des tâches de gestion des numéros de téléphone, telles que le transfert de numéros ou la réception de numéros de téléphone qui ne sont pas disponibles dans le centre d’administration Skype entreprise, voir [gérer les numéros de téléphone pour votre organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
   
 ## <a name="what-numbers-can-be-transferred"></a>Quels sont les numéros qui peuvent être transférés ?
 
@@ -56,7 +56,7 @@ En général, vous pouvez transférer n'importe quel numéro de téléphone qui 
 - des numéros de téléphone gratuits ;
     
     > [!NOTE]
-    > Nombre de gratuit universel International (UIFN) ne peuvent être transférées à nous. 
+    > Le numéro de téléphone universel international (UIFN) ne peut pas être transféré vers les États-Unis. 
   
 - des numéros de téléphone de service, comme ceux utilisés pour les ponts de conférence, les standards automatiques, etc. ;
     
@@ -64,18 +64,18 @@ En général, vous pouvez transférer n'importe quel numéro de téléphone qui 
     
 - des numéros de téléphone VoIP provenant d'un fournisseur de téléphone, comme Vonage ou RingCentral.
     
-- Skype pour les numéros de téléphone professionnels hybride. Si vous souhaitez transférer ces numéros, vous devez envoyer à nous <ptn@microsoft.com>.
+- Numéros de téléphone hybrides Skype entreprise. Pour transférer ces numéros, vous avez besoin d’envoyer des courriers électroniques à <ptn@microsoft.com>l’adresse.
     
   **ÉLÉMENTS IMPOSSIBLES À TRANSFÉRER**:
   
 > [!NOTE]
-> À ce stade, vous ne pouvez pas transférer de n’importe quel numéro de téléphone ou les numéros qui ne proviennent pas d’une pays/région pris en charge, y compris les numéros de téléphone d’un fournisseur de téléphone VoIP. Pour afficher une liste de pays/régions pris en charge, voir [disponibilité pays et aux régions de conférence Audio et des Plans de l’appel](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+> Pour le moment, vous ne pouvez pas transférer de numéros de téléphone ou de numéros qui ne sont pas dans un pays/une région pris en charge, y compris les numéros de téléphone d’un fournisseur de téléphone VoIP. Pour afficher une liste des pays/régions pris en charge, voir [disponibilité du pays et de la région pour les offres de conférence et d’appels audio](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) .
   
 - des numéros de téléphone utilisés pour les connexions de données, comme les lignes DSL ou les connexions Internet haut débit ;
     
 - des numéros de téléphone dédiés à la télécopie.
     
-    Si vous avez des numéros de téléphone dédiés existants qui sont utilisés pour la télécopie, vous  *pouvez*  les transférer vers Skype Entreprise, mais vos services de télécopie ne continueront pas à fonctionner comme prévu. Services de télécopie ne sont pas disponibles pour Skype pour les entreprises, même si vous possédez des licences pour **Système téléphonique**, **Planifier l’appel interne** ou **International appelant planifier**.
+    Si vous avez des numéros de téléphone dédiés existants qui sont utilisés pour la télécopie, vous  *pouvez*  les transférer vers Skype Entreprise, mais vos services de télécopie ne continueront pas à fonctionner comme prévu. Les services de télécopie ne sont pas disponibles pour les clients Skype entreprise, même si vous disposez de licences pour un **système téléphonique**, un **forfait d’appels nationaux** ou un **forfait d’appels internationaux**.
     
     Si vous transférez un numéro de téléphone Skype Entreprise, vous pouvez affecter ce numéro de téléphone à un utilisateur de votre organisation au lieu de l'utiliser pour la télécopie.
     
@@ -90,13 +90,13 @@ Vous devez disposer de toutes les informations de compte de votre opérateur act
 
 Lorsque vous transférez les numéros de téléphone vers Office 365, vous avez le choix de les exporter dans leur totalité ou seulement en partie.
   
-- **Transfert complet**: action réalisée lorsque vous transférez tous vos numéros de votre fournisseur de services actuel vers Skype Entreprise Online. Lorsque vous êtes invité pour les numéros de téléphone que vous souhaitez transférer, vous *devez inclure* le numéro de téléphone de facturation ainsi que tous les autres numéros de téléphone de votre compte.
+- **Transfert complet**: action réalisée lorsque vous transférez tous vos numéros de votre fournisseur de services actuel vers Skype Entreprise Online. Lorsque vous êtes invité à entrer les numéros de téléphone que vous souhaitez transférer, vous *devez inclure* le numéro de téléphone de facturation ainsi que tous les autres numéros de téléphone de votre compte.
     
-    Par exemple, supposons que votre numéro de téléphone de facturation est *+1 425-555-1234* et que vous souhaitez port tous vos numéros de 25 téléphone (*+1 425-555-1235 via 1259*). Lorsque vous suivez les instructions ci-dessous pour transférer vos numéros, vous devez saisir : **+14255551234 - +14255551259**.
+    Par exemple, imaginons que votre numéro de téléphone de facturation est *+ 1 425-555-1234* et que vous souhaitez porter tous vos 25 numéros de téléphone (*+ 1 425-555-1235 à 1259*). Lorsque vous suivez les instructions ci-dessous pour transférer vos numéros, vous devez saisir : **+14255551234 - +14255551259**.
     
 - **Transfert partiel**: action réalisée lorsque vous ne transférez qu'une partie de vos numéros de téléphone de votre fournisseur de services actuel vers Skype Entreprise Online. Lorsque vous souhaitez transférer certains numéros de téléphone liés au même numéro de facturation, vous ** *ne devez pas inclure* ** le numéro de facturation avec les autres numéros sur votre compte.
     
-    Par exemple, supposons que votre numéro de téléphone de facturation (bouton) est *+1 425-555-1234* et que vous souhaitez le port 5 vos numéros de 25 téléphone (*+1 425-555-1235 via 1259*). Lorsque vous suivez les instructions ci-dessous pour transférer vos numéros, vous devez saisir **+1 425 555 1235 - +1 425 555 1239**.
+    Par exemple, imaginons que votre numéro de téléphone de facturation (BTN) est *+ 1 425-555-1234* et que vous souhaitez uniquement porter plus de 5 numéros de téléphone (*+ 1 425-555-1235 à 1259*). Lorsque vous suivez les instructions ci-dessous pour transférer vos numéros, vous devez saisir **+1 425 555 1235 - +1 425 555 1239**.
     
 ## <a name="can-i-submit-a-single-number-porting-request-for-all-of-my-numbers-at-one-time"></a>Puis-je envoyer une demande de transfert de numéro unique pour tous mes numéros à la fois ?
 <a name="bkmk_type_1"> </a>
@@ -111,15 +111,15 @@ Vous devez par exemple envoyer une demande de transfert de numéro unique pour c
     
 - les numéros de téléphone mobile et
     
-- Numéros de service qui peuvent être utilisés pour une audioconférence dans Office 365.
+- Les numéros de service pouvant être utilisés pour les conférences audio dans Office 365.
     
 Voici des informations supplémentaires concernant l'envoi des demandes de transfert de numéro pour ces différents types de numéro :
   
 - Les **numéros de téléphone** fournis par différents opérateurs requièrent une demande de transfert unique pour les numéros avec chaque opérateur.
     
-- Les **numéros de téléphone gratuits** incluant l'un des indicatifs suivants : 800, 844, 855, 866, 877 et 888 ; ces indicatifs ne peuvent pas être inclus dans une demande de transfert de numéro avec d'autres types de numéros. Pour ces numéros d’appel payant de port, vous devez [manuellement pour soumettre une demande de service personnalisé](/SkypeForBusiness/what-are-calling-plans-in-office-365/manually-submit-a-custom-service-request); ils ne peuvent pas être présentés dans le Skype entreprise centre d’administration. Voir [Gérer les numéros de téléphone pour votre organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+- Les **numéros de téléphone gratuits** incluant l'un des indicatifs suivants : 800, 844, 855, 866, 877 et 888 ; ces indicatifs ne peuvent pas être inclus dans une demande de transfert de numéro avec d'autres types de numéros. Pour porter ces numéros gratuits, vous devez [demander manuellement une demande de service personnalisée](/SkypeForBusiness/what-are-calling-plans-in-office-365/manually-submit-a-custom-service-request). ils ne peuvent pas être envoyés dans le centre d’administration Skype entreprise. Voir [gérer les numéros de téléphone pour votre organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
     
-    Il est très important d'utiliser le LOA approprié pour le pays et le type de numéros de téléphone que vous souhaitez transférer. Vous pouvez télécharger la lettre d’accord que vous devez [Télécharger la lettre d’autorisation (lettre d’accord) dont vous avez besoin ici](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+    Il est très important d'utiliser le LOA approprié pour le pays et le type de numéros de téléphone que vous souhaitez transférer. Vous pouvez télécharger le LOA dont vous avez besoin pour [Télécharger la lettre d’autorisation (LOA) dont vous avez besoin ici](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
     
 - Les **numéros de téléphone mobile** nécessitent un code confidentiel pour autoriser le transfert. Ils doivent donc faire l'objet d'une demande de transfert de numéro distincte.
     
@@ -135,7 +135,7 @@ Vous pouvez vérifier l'état de votre demande de transfert en accédant au Cent
 ## <a name="can-user-subscriber-phone-numbers-be-converted-to-service-numbers"></a>Les numéros de téléphone des utilisateurs (abonnés) peuvent-ils être convertis en numéros de service ?
 <a name="bkmk_type_1"> </a>
 
-Oui. Il vous suffit d'envoyer une demande de service incluant le GUID de client de votre organisation et les numéros de téléphone que vous souhaitez convertir. Faire ceci accédez voir [Gérer les numéros de téléphone pour votre organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md). 
+Oui. Il vous suffit d'envoyer une demande de service incluant le GUID de client de votre organisation et les numéros de téléphone que vous souhaitez convertir. Pour cela, voir [gérer les numéros de téléphone pour votre organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md). 
   
 ## <a name="common-mistakes-to-watch-out-for"></a>Erreurs courantes à surveiller
 <a name="bkmk_type_1"> </a>
@@ -162,10 +162,10 @@ Voici les erreurs le plus fréquentes commises lors des transferts de numéros. 
     
 - Assurez-vous que votre service est actif. Le fait de figer le compte empêche la modification des opérateurs téléphoniques sur le compte. L'utilisateur autorisé doit soumettre une demande à l'opérateur téléphonique actuel pour annuler le gel. Ce processus peut prendre entre une et trois semaines selon l'opérateur.
     
-## <a name="can-you-transfer-or-port-out-numbers"></a>Peuvent transférer ou numéros de port ?
+## <a name="can-you-transfer-or-port-out-numbers"></a>Est-il possible de transférer ou de transférer des numéros?
 <a name="bkmk_type_1"> </a>
 
-Pour transférer ou *port des* numéros de téléphone à partir de Skype pour Business Online vers un autre fournisseur de services de téléphone ou opérateur, vous devez définir un code confidentiel. Une fois que vous définissez le code confidentiel, vous devez inclure lorsque vous demandez à un numéro de téléphone à des ports. Pour savoir comment configurer votre code confidentiel, voir [définir votre code confidentiel pour le transfert des numéros à un fournisseur de services](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider).
+Pour transférer ou *Exporter* des numéros de téléphone de Skype entreprise Online vers un autre fournisseur ou opérateur de services téléphoniques, vous devez définir un code confidentiel. Après avoir défini le code confidentiel, vous devez l’inclure lorsque vous demandez à transférer un numéro de téléphone. Pour savoir comment configurer votre code confidentiel, reportez-vous à [la rubrique Configuration de votre code confidentiel pour le transfert de numéros vers un nouveau fournisseur de services](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider).
 
 > [!NOTE]
 > Si vous devez obtenir davantage de numéros de téléphone, veuillez [contacter le support pour les entreprises - Aide de l'administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)

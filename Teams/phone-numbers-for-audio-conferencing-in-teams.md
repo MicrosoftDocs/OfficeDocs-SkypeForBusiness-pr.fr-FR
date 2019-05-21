@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
@@ -22,16 +22,16 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: Cette section présente les pays et régions qui ont des numéros de conférence rendez-vous et explique comment ils sont attribués automatiquement.
-ms.openlocfilehash: 3fdd94a8ff0bf867f71a1e02c5ae84cf17bac0d8
-ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
+ms.openlocfilehash: e5644ab613fec588a901691632d27ebf25e9e80a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "33835082"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299468"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-microsoft-teams"></a>Numéros de téléphone pour l’audioconférence dans Microsoft Teams
 
-Lorsque vous configurez l’**audioconférence** pour Microsoft Teams, des numéros de téléphone de connexion sont attribués automatiquement à votre organisation. Pour voir le téléphone, les numéros affectés pour le pont de conférence audio, dans le centre d’administration Microsoft Teams, accédez à des **réunions** > **ponts de conférence**. Pour plus d’informations, accédez à [Afficher la liste des numéros de conférence Audio](see-a-list-of-audio-conferencing-numbers-in-teams.md).
+Lorsque vous configurez l’**audioconférence** pour Microsoft Teams, des numéros de téléphone de connexion sont attribués automatiquement à votre organisation. Pour afficher les numéros de téléphone affectés à votre pont de conférence audio, dans le centre d’administration Microsoft Teams, **** > accédez à la section**ponts de conférences**de conférences. Pour plus d’informations, [consultez la liste des numéros de conférence audio](see-a-list-of-audio-conferencing-numbers-in-teams.md).
   
   
 ## <a name="audio-conferencing-coverage-and-pricing"></a>Couverture et tarifs de l’audioconférence
@@ -40,7 +40,7 @@ Pour obtenir la liste complète des pays/régions et des villes où l’audiocon
   
 ## <a name="dial-in-phone-numbers-in-a-meeting-invite"></a>Numéros de téléphone de connexion figurant dans l'invitation à participer à une réunion
 
-Lorsqu'un utilisateur de Microsoft Teams planifie une réunion dans Outlook ou Outlook Web App, le numéro d’audioconférence par défaut défini pour l'utilisateur est inclus dans l'invitation à participer à la réunion. Si vous souhaitez sélectionner un numéro par défaut différent pour un ou plusieurs utilisateurs, vous pouvez modifier qui en accédant aux **utilisateurs**, sélectionnez l’utilisateur et modification des paramètres de conférence Audio de l’utilisateur. Reportez-vous à la section [Définir les numéros de téléphone inclus dans les invitations](set-the-phone-numbers-included-on-invites-in-teams.md)
+Lorsqu'un utilisateur de Microsoft Teams planifie une réunion dans Outlook ou Outlook Web App, le numéro d’audioconférence par défaut défini pour l'utilisateur est inclus dans l'invitation à participer à la réunion. Si vous voulez sélectionner un autre numéro par défaut pour un ou plusieurs utilisateurs, vous pouvez le modifier en accédant à **utilisateurs**, en sélectionnant l’utilisateur et en modifiant les paramètres d’audioconférence de l’utilisateur. Reportez-vous à la section [Définir les numéros de téléphone inclus dans les invitations](set-the-phone-numbers-included-on-invites-in-teams.md)
   
   
 ## <a name="dial-in-phone-numbers-set-on-an-audio-conferencing-bridge"></a>Numéros de téléphone d'accès définis sur un pont d’audioconférence
@@ -60,7 +60,7 @@ Des numéros de téléphone d’audioconférence partagés sont attribués autom
 Pour voir une liste des pays/régions qui ont des numéros de téléphone automatiquement affectés aux organisations, voir [Disponibilité par pays et par région de l'Audioconférence et des Plans d’appels](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
     
 > [!NOTE]
-> Vous trouverez l’emplacement pays ou région de votre organisation en vous connectant au **Centre d’administration Microsoft 365** et en regardant sous le **Profil d’organisation**. 
+> Vous pouvez trouver l’emplacement du pays ou de la région de votre organisation en vous connectant au **Centre d’administration 365 Microsoft** et en regardant sous profil de l' **organisation**. 
   
 > [!CAUTION]
 > En raison de la disponibilité limitée des numéros gratuits au Venezuela, en Indonésie et aux Émirats Arabes Unis, les organisations situées dans ces pays/régions ne se verront pas attribuer automatiquement un numéro gratuit d’audioconférence. Des numéros gratuits pour ces lieux sont disponibles en fonction d'un inventaire mis à disposition. 
