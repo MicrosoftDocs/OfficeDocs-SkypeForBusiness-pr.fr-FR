@@ -1,5 +1,5 @@
 ---
-title: Skype l’utilisateur pour le plan de service Business Online n’est pas valide
+title: Le plan de service de l’utilisateur Skype entreprise Online n’est pas valide
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -19,24 +19,24 @@ f1keywords:
 - ms.lync.lac.ServicePlanNotValid
 ms.custom:
 - Setup
-description: 'Consultez la rubrique assigner un plan de service valide pour un utilisateur une fois un Skype pour le plan de service Business Online n’est pas valide. '
-ms.openlocfilehash: a6e42e26b9a0257005d735b0e5cda13af6f11b67
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Vous pouvez affecter un plan de services valide à un utilisateur après l’affichage d’une erreur «le plan de service de Skype entreprise Online n’est pas valide». '
+ms.openlocfilehash: bae00d6d7646abb82931f9293444e7c86fc5a59a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32237192"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285063"
 ---
-# <a name="the-users-skype-for-business-online-service-plan-isnt-valid"></a><span data-ttu-id="87eef-103">Skype l’utilisateur pour le plan de service Business Online n’est pas valide</span><span class="sxs-lookup"><span data-stu-id="87eef-103">The user's Skype for Business Online service plan isn't valid</span></span>
+# <a name="the-users-skype-for-business-online-service-plan-isnt-valid"></a><span data-ttu-id="6af8e-103">Le plan de service de l’utilisateur Skype entreprise Online n’est pas valide</span><span class="sxs-lookup"><span data-stu-id="6af8e-103">The user's Skype for Business Online service plan isn't valid</span></span>
 
-<span data-ttu-id="87eef-104">Désolé, le Skype pour Business Online service plan attribué à cet utilisateur n’est pas reconnue ou n’est pas valide.</span><span class="sxs-lookup"><span data-stu-id="87eef-104">Sorry, the Skype for Business Online service plan assigned to this user is not recognized, or is invalid.</span></span>
+<span data-ttu-id="6af8e-104">Désolé, le plan de service de Skype entreprise Online attribué à cet utilisateur n’est pas reconnu ou n’est pas valide.</span><span class="sxs-lookup"><span data-stu-id="6af8e-104">Sorry, the Skype for Business Online service plan assigned to this user is not recognized, or is invalid.</span></span>
   
-<span data-ttu-id="87eef-105">Accéder au **Centre d’administration Office 365** > **utilisateurs actifs** et affecter un service valid planifier à cet utilisateur.</span><span class="sxs-lookup"><span data-stu-id="87eef-105">Go to the **Office 365 admin center** > **Active users** and assign a valid service plan to this user.</span></span>
+<span data-ttu-id="6af8e-105">Accédez au >  **Centre d’administration Office 365\*\*\*\*utilisateurs actifs** et attribuez un plan de services valide à cet utilisateur.</span><span class="sxs-lookup"><span data-stu-id="6af8e-105">Go to the **Office 365 admin center** > **Active users** and assign a valid service plan to this user.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="87eef-106">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="87eef-106">Related topics</span></span>
-[<span data-ttu-id="87eef-107">Configurer Skype Entreprise Online</span><span class="sxs-lookup"><span data-stu-id="87eef-107">Set up Skype for Business Online</span></span>](set-up-skype-for-business-online.md)
+## <a name="related-topics"></a><span data-ttu-id="6af8e-106">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="6af8e-106">Related topics</span></span>
+[<span data-ttu-id="6af8e-107">Configurer Skype Entreprise Online</span><span class="sxs-lookup"><span data-stu-id="6af8e-107">Set up Skype for Business Online</span></span>](set-up-skype-for-business-online.md)
 
-[<span data-ttu-id="87eef-108">Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype</span><span class="sxs-lookup"><span data-stu-id="87eef-108">Let Skype for Business users add Skype contacts</span></span>](let-skype-for-business-users-add-skype-contacts.md)
+[<span data-ttu-id="6af8e-108">Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype</span><span class="sxs-lookup"><span data-stu-id="6af8e-108">Let Skype for Business users add Skype contacts</span></span>](let-skype-for-business-users-add-skype-contacts.md)
   
   
  
