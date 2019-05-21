@@ -1,10 +1,10 @@
 ---
-title: Activer les utilisateurs pour E9-1-1 dans Skype pour Business Server
+title: Permettre aux utilisateurs de E9-1-1 dans Skype entreprise Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,25 +13,25 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 3cc64f5b-492e-4c47-9713-3c376f2aad02
-description: Décisions nécessaires pour la stratégie d’emplacement pour un déploiement E9-1-1 dans Skype pour Business Server Enterprise Voice, y compris les utilisateurs à activer et comment prendre en charge des utilisateurs itinérants.
-ms.openlocfilehash: aa4aa46530376f83ba55a44dd485e201d57a0d2c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Décisions nécessaires pour la politique d’emplacement pour un déploiement E9-1-1 dans Skype entreprise Server Voice, y compris les utilisateurs à activer et à prendre en charge les utilisateurs itinérants.
+ms.openlocfilehash: 1e714e5296e8176c9052b50a5d4ce4f2c0d6184b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924569"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34276900"
 ---
-# <a name="enable-users-for-e9-1-1-in-skype-for-business-server"></a>Activer les utilisateurs pour E9-1-1 dans Skype pour Business Server
+# <a name="enable-users-for-e9-1-1-in-skype-for-business-server"></a>Permettre aux utilisateurs de E9-1-1 dans Skype entreprise Server
  
-Décisions nécessaires pour la stratégie d’emplacement pour un déploiement E9-1-1 dans Skype pour Business Server Enterprise Voice, y compris les utilisateurs à activer et comment prendre en charge des utilisateurs itinérants.
+Décisions nécessaires pour la politique d’emplacement pour un déploiement E9-1-1 dans Skype entreprise Server Voice, y compris les utilisateurs à activer et à prendre en charge les utilisateurs itinérants.
   
-Lors de l’inscription du client, Skype pour Business Server utilise une stratégie d’emplacement pour configurer les propriétés E9-1-1 pour les utilisateurs Enterprise Voice. Cette stratégie contient les paramètres qui définissent le mode d’implémentation E9-1-1. Par exemple, la stratégie d’emplacement contient des informations telles que la chaîne de numérotation et si un utilisateur est invité à entrer manuellement un emplacement si le service informations d’emplacement ne sont pas automatiquement en fournir un. Pour une définition complète d’une stratégie d’emplacement, voir [planifier des stratégies d’emplacement pour Skype pour Business Server](location-policies.md).
+Lors de l’enregistrement du client, Skype entreprise Server utilise une stratégie d’emplacement pour configurer les propriétés E9-1-1 pour les utilisateurs d’Enterprise Voice. Cette stratégie contient les paramètres qui déterminent la façon dont E9-1-1 est implémenté. Par exemple, la stratégie d’emplacement contient des informations telles que la chaîne de numérotation d’urgence, et si un utilisateur est tenu d’entrer manuellement un emplacement si le service d’information d’emplacement n’en a pas fourni automatiquement un. Pour obtenir une définition complète d’une stratégie d’emplacement, reportez-vous à la rubrique [planification de stratégies d’emplacement pour Skype entreprise Server](location-policies.md).
   
-Skype pour Business Server peut affecter une stratégie d’emplacement aux clients en fonction de sous-réseau ou aux utilisateurs selon un global par site ou stratégie par utilisateur. Pour vous aider à prendre une décision quant au mode d’activation des utilisateurs, commencez par répondre aux questions suivantes.
+Skype entreprise Server peut affecter une stratégie d’emplacement aux clients en fonction du sous-réseau, ou à des utilisateurs basés sur une stratégie globale, par site ou par utilisateur. Pour vous aider à prendre une décision quant au mode d’activation des utilisateurs, commencez par répondre aux questions suivantes.
   
  **Envisagez-vous d’activer tous les utilisateurs ou de limiter la prise en charge à des zones géographiques spécifiques de l’entreprise ?**
   
-> Vous pouvez affecter un emplacement à tous les utilisateurs de votre entreprise à l’aide d’une stratégie d’emplacement globale. Toutefois, par l’affectation d’une stratégie d’emplacement à un Skype pour le site de réseau Business Server, puis ajouter des sous-réseaux au site, vous pouvez limiter la prise en charge E9-1-1 pour les emplacements sélectionnés au sein de l’entreprise et spécifier le comportement du routage E9-1-1 sur site par site. 
+> Vous pouvez affecter un emplacement à tous les utilisateurs de votre entreprise à l’aide d’une stratégie d’emplacement globale. En revanche, en attribuant une stratégie d’emplacement à un site réseau Skype entreprise Server, puis en ajoutant des sous-réseaux au site, vous pouvez limiter le support de E9-1-1 à des emplacements sélectionnés au sein de l’entreprise et spécifier le comportement de routage de E9-1-1 pour chaque site. 
     
  **Envisagez-vous d’activer des utilisateurs individuels par le biais d’une stratégie utilisateur ?**
   
@@ -39,6 +39,6 @@ Skype pour Business Server peut affecter une stratégie d’emplacement aux clie
     
  **Quand des clients se trouvent en dehors du réseau ou se connectent à partir d’un sous-réseau non défini, doivent-ils bénéficier du service E9-1-1 ?**
   
-> Si les utilisateurs sont affectés global, site, ou de la stratégie d’emplacement par utilisateur, ils peuvent être requis pour entrer manuellement un emplacement dans le client, si le client n’est pas situé dans un sous-réseau défini ou si aucun emplacement n’a été trouvée par le service informations d’emplacement. Pour plus d’informations, voir [définir l’expérience utilisateur pour acquérir manuellement un emplacement dans Skype pour Business Server](manually-acquiring-a-location.md).
+> Si des utilisateurs se voient attribuer une stratégie d’emplacement globale, de site ou par utilisateur, ils peuvent être obligés d’entrer manuellement un emplacement dans le client si le client ne se trouve pas dans un sous-réseau défini ou s’il n’y a pas de localisation trouvée par le service d’informations d’emplacement. Pour plus d’informations, reportez-vous à [la rubrique définition de l’interface utilisateur pour l’achat manuel d’un emplacement dans Skype entreprise Server](manually-acquiring-a-location.md).
     
 

@@ -1,10 +1,10 @@
 ---
-title: Supprimer une collection existante de paramètres de configuration jonction SIP dans Skype pour Business Server
+title: Supprimer une collection existante de paramètres de configuration de Trunk SIP dans Skype entreprise Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,17 +13,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 3b25f14d-884b-42dd-a866-460d276d3e43
-description: 'Résumé : Découvrez comment supprimer une collection de paramètres de configuration de jonction à l’aide de la Skype pour le panneau de configuration serveur Business.'
-ms.openlocfilehash: 8e960e72b6ac29e12e1cf220978f5c8b44c2691f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Résumé: Découvrez comment supprimer une collection de paramètres de configuration de Trunk en utilisant le panneau de configuration Skype entreprise Server.'
+ms.openlocfilehash: 830f5c42e26c4ef7a5ffca0a57fc7e70c2509f83
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892789"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280459"
 ---
-# <a name="delete-an-existing-collection-of-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Supprimer une collection existante de paramètres de configuration jonction SIP dans Skype pour Business Server
+# <a name="delete-an-existing-collection-of-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Supprimer une collection existante de paramètres de configuration de Trunk SIP dans Skype entreprise Server
  
-**Résumé :** Découvrez comment supprimer une collection de paramètres de configuration de jonction à l’aide de la Skype pour le panneau de configuration serveur Business.
+**Résumé:** Découvrez comment supprimer une collection de paramètres de configuration de Trunk en utilisant le panneau de configuration Skype entreprise Server.
   
 Les paramètres de configuration de jonction SIP (Session Initiation Protocol) définissent la relation et les possibilités entre un serveur de médiation et la passerelle du réseau téléphonique commuté (RTC), un autocommutateur privé IP (PBX) ou le contrôleur SBC (Session Border Controller) du côté fournisseur de services. Ces paramètres spécifient, par exemple :
   
@@ -33,7 +33,7 @@ Les paramètres de configuration de jonction SIP (Session Initiation Protocol
     
 - si le chiffrement SRTP (Secure Real-Time Protocol ) est requis ou non sur chaque jonction.
     
-Lorsque vous installez Skype pour Business Server, une collection de paramètres de configuration de jonction SIP globale est créée pour vous. Cette collection de paramètres globale ne peuvent pas être supprimée. Toutefois, vous pouvez utiliser la Skype pour le panneau de configuration serveur Business ou l’applet de commande [Remove-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-cstrunkconfiguration?view=skype-ps) « réinitialiser » les propriétés dans la collection globale à leurs valeurs par défaut. Par exemple, si vous avez défini la propriété Enable3pccRefer la valeur True, lorsque vous réinitialisez la collection globale, la propriété Enable3pccRefer est rétabli à sa valeur par défaut False.
+Lorsque vous installez Skype entreprise Server, une collection globale de paramètres de configuration SIP Trunk est créée pour vous. Cette collection globale de paramètres ne peut pas être supprimée. Toutefois, vous pouvez utiliser le panneau de configuration Skype entreprise Server ou l’applet de commande [Remove-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-cstrunkconfiguration?view=skype-ps) pour «réinitialiser» les propriétés de la collection globale à leurs valeurs par défaut. Par exemple, si vous avez défini la propriété Enable3pccRefer sur true, lorsque vous réinitialisez la collection globale, la propriété Enable3pccRefer rétablira sa valeur par défaut false.
   
 Les administrateurs peuvent aussi créer des paramètres de configuration de jonction personnalisés étendus à un site ou un service (pour une passerelle RTC individuelle). Ces paramètres personnalisés peuvent être supprimés. Lors de la suppression de ces paramètres personnalisés, tenez compte des points suivants :
   
@@ -41,9 +41,9 @@ Les administrateurs peuvent aussi créer des paramètres de configuration de jon
     
 - Si vous supprimez des paramètres étendus à un site, les jonctions SIP (Session Initiation Protocol) gérées par ces paramètres sont alors gérées par la collection globale de paramètres de configuration de jonction.
     
-### <a name="to-remove-trunk-configuration-settings-with-skype-for-business-server-control-panel"></a>Pour supprimer les paramètres de configuration de jonction avec Skype pour le panneau de configuration serveur Business
+### <a name="to-remove-trunk-configuration-settings-with-skype-for-business-server-control-panel"></a>Pour supprimer les paramètres de configuration de Trunk avec le panneau de configuration Skype entreprise Server
 
-1. Dans Skype pour Business Server le panneau de configuration, cliquez sur **Routage des communications vocales** , puis cliquez sur **Configuration de jonction**.
+1. Dans le panneau de configuration Skype entreprise Server, cliquez sur **routage des communications vocales** , puis cliquez sur **configuration de Trunk**.
     
 2. Sous l’onglet **Configuration de la jonction**, sélectionnez la collection de paramètres de configuration de jonction SIP (Session Initiation Protocol) à supprimer, cliquez sur **Modifier**, puis sur **Supprimer**. Pour supprimer plusieurs collections en une seule opération, cliquez sur la première collection à supprimer, maintenez la touche Ctrl enfoncée et cliquez sur les autres collections à supprimer.
     
@@ -51,13 +51,13 @@ Les administrateurs peuvent aussi créer des paramètres de configuration de jon
     
 4. Dans la boîte de dialogue **Paramètres de configuration de la voix non validés**, cliquez sur **OK**.
     
-5. Dans la boîte de dialogue **Skype pour Business Server le panneau de configuration** , cliquez sur **OK**.
+5. Dans la boîte de dialogue **panneau de configuration Skype entreprise Server** , cliquez sur **OK**.
     
-6. If you change your mind and decide not to delete the collection, click **Commit** and then click **Cancel All Uncommitted Changes**. Lorsque la boîte de dialogue **Skype pour le panneau de configuration serveur Business** s’affiche, cliquez sur **OK**.
+6. If you change your mind and decide not to delete the collection, click **Commit** and then click **Cancel All Uncommitted Changes**. Lorsque la boîte de dialogue **panneau de configuration Skype entreprise Server** s’affiche, cliquez sur **OK**.
     
-## <a name="removing-trunk-configuration-settings-by-using-skype-for-business-server-management-shell-cmdlets"></a>Suppression des paramètres de Configuration de jonction à l’aide de Skype pour les applets de commande Business Server Management Shell
+## <a name="removing-trunk-configuration-settings-by-using-skype-for-business-server-management-shell-cmdlets"></a>Supprimer les paramètres de configuration de ligne à l’aide des applets de applet Skype entreprise Server Management Shell
 
-Vous pouvez supprimer les paramètres de configuration de jonction à l’aide de Skype pour Business Server Management Shell et l’applet de commande **Remove-CsTrunkConfiguration** . Vous pouvez exécuter cette applet de commande que ce soit par le Skype pour Business Server Management Shell ou d’une session à distance de Skype pour Business Server Management Shell.
+Vous pouvez supprimer des paramètres de configuration de Trunk en utilisant Skype entreprise Server Management Shell et l’applet de passe **Remove-CsTrunkConfiguration** . Vous pouvez exécuter cette applet de commande à partir de Skype entreprise Server Management Shell ou d’une session à distance de Skype entreprise Server Management Shell.
   
 ### <a name="to-remove-a-specified-collection-of-settings"></a>Pour supprimer une collection de paramètres spécifiée
 
@@ -83,6 +83,6 @@ Vous pouvez supprimer les paramètres de configuration de jonction à l’aide d
   Get-CsTrunkConfiguration | Where-Object {$_.EnableBypass -eq $True} | Remove-CsTrunkConfiguration
   ```
 
-Pour plus d’informations, consultez la rubrique d’aide pour l’applet de commande [Remove-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-cstrunkconfiguration?view=skype-ps) .
+Pour plus d’informations, reportez-vous à la rubrique d’aide relative à l’applet de passe [Remove-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-cstrunkconfiguration?view=skype-ps) .
   
 

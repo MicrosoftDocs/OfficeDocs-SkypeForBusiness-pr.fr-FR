@@ -4,21 +4,21 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: 'La migration de l’application inclut la Skype pour le pool d’entreprise Server 2019 avec n’importe quel musique personnalisée sur les fichiers d’attente qui ont été téléchargés dans l’installation héritée de mise en service le parcage d’appel, la restauration des paramètres de niveau de service et reciblage parcage d’appel toutes les orbites à la Skype pour Business Server 2019 pool. Si les fichiers de musique attente personnalisés ont été configurés dans le pool, ces fichiers doivent être copiés à la nouvelle Skype pour Business Server 2019 pool. En outre, il est recommandé que vous sauvegardez toute mise en garde d’appels personnalisé musique d’attente dans une fichiers à partir d’une autre destination pour conserver une copie de sauvegarde distincte des fichiers musique attente personnalisés qui ont été téléchargés parcage d’appel. Les fichiers de musique attente personnalisés pour l’application de parcage d’appel sont stockés dans le magasin de fichiers du pool. Pour copier les fichiers audio à partir d’un magasin de fichiers du pool vers un Skype Business Server 2019 magasin de fichiers, utilisez la commande Copier (XCOPY) avec les paramètres suivants :'
-ms.openlocfilehash: 3d9c2904d66ac5d35bdd94631ec23c67288a5c3a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'La migration de l’application de parc d’appels inclut la mise en service du pool Skype entreprise Server 2019 avec n’importe quel fichier de musique personnalisé sur les fichiers qui ont été téléchargés dans l’installation héritée, en restaurant les paramètres de niveau de service et en reciblant toutes les orbites du parc d’appels sur le Pool 2019 de Skype entreprise Server. Si des fichiers personnalisés de musique en attente ont été configurés dans la liste, ces fichiers doivent être copiés dans le nouveau pool Skype entreprise Server 2019. Par ailleurs, il est recommandé de sauvegarder les fichiers de conservation de musique personnalisés de votre parc d’appels à partir d’une autre destination pour conserver une copie de sauvegarde distincte de tous les fichiers de conservation de la musique personnalisés qui ont été téléchargés pour le parc d’appels. Les fichiers de conservation de musique personnalisés pour l’application de parc d’appels sont stockés dans le magasin de fichiers du pool. Pour copier les fichiers audio à partir d’un magasin de fichiers de réserve dans un magasin de fichiers 2019 Skype entreprise Server, utilisez la commande xcopy avec les paramètres suivants:'
+ms.openlocfilehash: aa4ac3cfbe6802b8853a8ec8886f8fffe1a20a51
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32238372"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280829"
 ---
 # <a name="migrate-call-park-application-settings"></a>Migration des paramètres d’application de parcage d’appel
 
-La migration de l’application de parcage d’appel inclut la mise en service le Skype pour Business Server 2019 pool avec les fichiers de musique attente personnalisés qui ont été téléchargés dans l’installation héritée, la restauration des paramètres de niveau de service et re-ciblage toutes les orbites de parcage d’appel pour Skype pour Business Server 2019 pool. Si les fichiers de musique attente personnalisés ont été configurés dans le pool, ces fichiers doivent être copiés à la nouvelle Skype pour Business Server 2019 pool. En outre, il est recommandé que vous sauvegardez toute mise en garde d’appels personnalisé des fichiers de musique en attente vers une autre destination pour conserver une copie de sauvegarde distincte des fichiers musique attente personnalisés qui ont été téléchargés parcage d’appel. Les fichiers de musique attente personnalisés pour l’application de parcage d’appel sont stockés dans le magasin de fichiers du pool. Pour copier les fichiers audio à partir d’un magasin de fichiers du pool vers un Skype Business Server 2019 magasin de fichiers, utilisez la commande **Copier (XCOPY)** avec les paramètres suivants : 
+La migration de l’application de parc d’appels inclut la mise en service du pool Skype entreprise Server 2019 avec des fichiers personnalisés de conservation de la musique qui ont été téléchargés dans l’installation héritée, en restaurant les paramètres de niveau de service et en reciblant tout le parc d’appels. au pool 2019 de Skype entreprise Server. Si des fichiers personnalisés de musique en attente ont été configurés dans la liste, ces fichiers doivent être copiés dans le nouveau pool Skype entreprise Server 2019. Par ailleurs, il est recommandé de sauvegarder les fichiers de mise en attente personnalisés de votre parc d’appels dans une autre destination pour conserver une copie de sauvegarde distincte de tous les fichiers de conservation de la musique personnalisés qui ont été téléchargés pour le parc d’appels. Les fichiers de conservation de musique personnalisés pour l’application de parc d’appels sont stockés dans le magasin de fichiers du pool. Pour copier les fichiers audio à partir d’un magasin de fichiers de réserve dans un magasin de fichiers 2019 Skype entreprise Server, utilisez la commande **xcopy** avec les paramètres suivants: 
 
 ```
 Xcopy <Source: legacy Pool CPS File Store Path> <Destination: Skype for Business Server 2019 Pool CPS File Store Path>
@@ -28,40 +28,40 @@ Xcopy <Source: legacy Pool CPS File Store Path> <Destination: Skype for Business
 Example usage:  Xcopy "<legacy File Store Path>\OcsFileStore\coX-ApplicationServer-X\AppServerFiles\CPS\"  "<Skype for Business Server 2019 File Store Path>\OcsFileStore\coX-ApplicationServer-X\AppServerFiles\CPS\" 
 ```
 
-Lorsque tous les fichiers audio personnalisés ont été copiés vers la Skype Business Server 2019 magasin de fichiers, les paramètres d’application de parcage d’appel de la Skype pour Business Server 2019 pool doit être configuré et la mise en garde d’appels orbite plages associés avec le pool hérité doit être réaffecté à la Skype pour Business Server 2019 pool.
+Lorsque tous les fichiers audio personnalisés ont été copiés dans le magasin de fichiers 2019 Skype entreprise Server, les paramètres d’application de parc d’appels du pool 2019 du serveur Skype entreprise doivent être configurés et les plages d’orbites du parc d’appels associées au pool hérité. doit être réaffecté au pool 2019 de Skype entreprise Server.
 
-Les paramètres d’application de parcage d’appel incluent le seuil de délai d’expiration pickup, activation ou désactivation d’une musique d’attente, les tentatives de collecte de nombre maximal d’appels et la demande de délai d’expiration. Vous devez gérer les paramètres de l’application parcage d’appel à l’aide de la Skype pour Business Server Management Shell pour exécuter l’applet de commande **Set-CsCpsConfiguration** . Vous ne pouvez pas gérer les paramètres d’application de parcage d’appel à l’aide de la Skype pour le panneau de configuration serveur Business. 
+Les paramètres de l’application de parc d’appels incluent le seuil de délai d’attente de capture, l’activation ou la désactivation de la musique en attente, le nombre maximal de tentatives de sélection d’appels et la demande d’expiration. Vous devez gérer les paramètres de l’application parc d’appels à l’aide de Skype entreprise Server Management Shell pour exécuter l’applet de demande **Set-CsCpsConfiguration** . Vous ne pouvez pas gérer les paramètres de l’application parc d’appels à l’aide du panneau de configuration Skype entreprise Server. 
 
-## <a name="reconfigure-the-call-park-service-settings"></a>Reconfigurer les paramètres de Service de parcage d’appel
+## <a name="reconfigure-the-call-park-service-settings"></a>Reconfigurer les paramètres du service de parc d’appels
 
-1. Skype pour Business Server 2019 serveur frontal, ouvrez le Skype pour Business Server Management Shell.
+1. À partir du serveur frontal Skype entreprise Server 2019, ouvrez Skype entreprise Server Management Shell.
 
 2. Dans la ligne de commande, tapez ce qui suit :
 
     > [!NOTE]
-    > Si votre Skype pour les paramètres de l’application Business Server 2019 Call Park est identique aux paramètres hérités, vous pouvez ignorer cette étape. Si les paramètres de l’application parcage d’appel sont différentes pour le Skype pour Business Server 2019 et environnements hérités, utilisez l’applet de commande ci-dessous en tant que modèle pour mettre à jour ces modifications. 
+    > Si vos paramètres d’application de parc d’appels Skype entreprise Server 2019 sont identiques à ceux de l’anciennement, vous pouvez ignorer cette étape. Si les paramètres de l’application de parc d’appels diffèrent pour les environnements 2019 et hérités de Skype entreprise Server, utilisez l’applet de cmdlet ci-dessous en tant que modèle pour mettre à jour ces modifications. 
 
    ```
    Set-CsCpsConfiguration -Identity "<LS2013 Call Park Service ID>" -CallPickupTimeoutThreshold "<LS2010 CPS TimeSpan>" -EnableMusicOnHold "<LS2010 CPS value>" -MaxCallPickupAttempts "<LS2010 CPS pickup attempts>" -OnTimeoutURI "<LS2010 CPS timeout URI>"
    ```
 
-Pour réaffecter toutes les plages d’orbites parcage d’appel du pool hérité vers le Skype pour Business Server 2019 pool, vous pouvez utiliser la Skype pour le panneau de configuration serveur Business soit le Skype pour Business Server Management Shell. 
+Pour réattribuer toutes les plages d’orbites du parc d’appels à la liste de ressources partagées Skype entreprise Server 2019, vous pouvez utiliser le panneau de configuration Skype entreprise Server ou Skype entreprise Server Management Shell. 
 
-## <a name="reassign-all-call-park-orbit-ranges-using-skype-for-business-server-control-panel"></a>Réaffecter toutes les plages d’orbites parcage d’appel à l’aide de Skype pour Business Server Control Panel
+## <a name="reassign-all-call-park-orbit-ranges-using-skype-for-business-server-control-panel"></a>Réaffecter toutes les plages d’orbites du parc d’appels à l’aide de Skype entreprise Server panneau de configuration
 
-1. Ouvrez le panneau de configuration serveur Business Skype.
+1. Ouvrez le panneau de configuration Skype entreprise Server.
 
-2. Dans le volet gauche, sélectionnez **Fonctionnalités vocales**.
+2. Dans le volet gauche, sélectionnez **fonctions vocales**.
 
-3. Sélectionnez l’onglet **Mise en garde d’appels** . 
+3. Sélectionnez l’onglet **parc d’appels** . 
 
-4. Pour chaque plage d’orbites de parcage d’appel affecté à un pool hérité, modifiez le paramètre de **nom de domaine complet du serveur de destination** et sélectionnez le Skype pour le pool d’entreprise Server 2019 qui traitera les demandes de parcage d’appel. 
+4. Pour chaque gamme de parking d’appel attribuée à un pool hérité, modifiez le paramètre **de nom de domaine complet du serveur de destination** et sélectionnez le pool Skype entreprise Server 2019 qui traitera les demandes de parc d’appels. 
 
-5. Sélectionnez **Valider** pour enregistrer les modifications. 
+5. Sélectionnez **valider** pour enregistrer les modifications. 
 
-## <a name="reassign-all-call-park-orbit-ranges-using-skype-for-business-server-management-shell"></a>Réaffecter toutes les plages d’orbites parcage d’appel à l’aide de Skype pour Business Server Management Shell
+## <a name="reassign-all-call-park-orbit-ranges-using-skype-for-business-server-management-shell"></a>Réaffecter toutes les plages d’orbites du parc d’appels à l’aide de Skype entreprise Server Management Shell
 
-1. Ouvrez Skype pour Business Server Management Shell.
+1. Ouvrez Skype entreprise Server Management Shell.
 
 2. Dans la ligne de commande, tapez ce qui suit :
 
@@ -69,14 +69,14 @@ Pour réaffecter toutes les plages d’orbites parcage d’appel du pool hérit�
    Get-CsCallParkOrbit
    ```
 
-    Cette applet de commande répertorie toutes les plages d’orbites de parcage d’appel dans le déploiement. Toutes les orbites de parcage d’appel dont les paramètres **CallParkServiceId** et **CallParkServerFqdn** en tant que le pool hérité doivent être réaffectés. 
+    Cette cmdlet recense toutes les plages d’orbites du parc d’appels du déploiement. Toutes les orbites du parc d’appels avec les paramètres **CallParkServiceId** et **CallParkServerFqdn** définis comme le pool hérité doivent être réaffectées. 
 
-    Pour réaffecter l’orbite de parcage d’appel hérité des plages à le Skype pour le pool d’entreprise Server 2019, sur la ligne de commande, tapez ce qui suit :
+    Pour réaffecter les plages d’orbites du parc d’appels à la liste de commande 2019 du serveur Skype entreprise, dans la ligne de commande, tapez les informations suivantes:
 
    ```
    Set-CsCallParkOrbit -Identity "<Call Park Orbit Identity>" -CallParkService "service:ApplicationServer:<Skype for Business Server 2019 Pool FQDN>"
    ```
 
-Après avoir réaffecté toutes les plages d’orbites de parcage d’appel à la Skype pour Business Server 2019 pool, le processus de migration pour l’application de parcage d’appel se termine et le Skype pour le pool d’entreprise Server 2019 gère toutes les futures demandes de parcage d’appel.
+Après avoir réaffecté toutes les plages d’orbite du parc téléphonique au pool 2019 de Skype entreprise Server, le processus de migration de l’application de parc d’appels sera exécuté et le pool de 2019 du serveur Skype entreprise gérera toutes les futures demandes de parc d’appels.
 
 

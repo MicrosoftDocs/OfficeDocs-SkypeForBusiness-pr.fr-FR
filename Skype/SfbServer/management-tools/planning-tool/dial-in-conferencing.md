@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 4/6/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.plan.Dialin
@@ -13,17 +13,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1f79a05-165c-47ec-8593-0bb3d43ee16f
-description: Skype pour la conférence rendez-vous Business Server 2015 permet aux utilisateurs de participer à la partie audio d’un Skype pour Business Server 2015 conférence à l’aide d’un téléphone de réseau téléphonique commuté public sans faire appel à un fournisseur de services d’audioconférence tiers.
-ms.openlocfilehash: 2842667287b653b0e1e595625e78b2c7d986ac5c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Les conférences rendez-vous Skype entreprise Server 2015 permettent aux utilisateurs d’accéder à la partie audio d’une conférence Skype entreprise Server 2015 à l’aide d’un téléphone réseau téléphonique commuté (PSTN) sans nécessiter un fournisseur de services d’audioconférence tiers.
+ms.openlocfilehash: 43df7e851ce51a169cd98dec1361872dee17282f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33915051"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274271"
 ---
 # <a name="dial-in-conferencing-planning-tool"></a>Dial-in Conferencing (Planning Tool)
  
-Skype pour la conférence rendez-vous Business Server 2015 permet aux utilisateurs de participer à la partie audio d’un Skype pour Business Server 2015 conférence à l’aide d’un téléphone de réseau téléphonique commuté public sans faire appel à un fournisseur de services d’audioconférence tiers.
+Les conférences rendez-vous Skype entreprise Server 2015 permettent aux utilisateurs d’accéder à la partie audio d’une conférence Skype entreprise Server 2015 à l’aide d’un téléphone réseau téléphonique commuté (PSTN) sans nécessiter un fournisseur de services d’audioconférence tiers.
   
 Pour des informations sur la planification de l’activation de la conférence rendez-vous dans votre organisation, consultez la rubrique suivante et les rubriques auxquelles elle renvoie : 
   

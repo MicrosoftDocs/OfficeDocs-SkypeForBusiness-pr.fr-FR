@@ -1,10 +1,10 @@
 ---
-title: Gérer les emplacements pour les fournisseurs de services de jonction SIP dans Skype pour Business Server
+title: Gestion des emplacements pour les fournisseurs de service SIP Trunk dans Skype entreprise Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,30 +13,30 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: d9b33b56-66c2-4dee-b056-faaf98925bf2
-description: Décisions nécessaires pour planifier une la base de données d’informations ou une base de données externe similaire, pour un déploiement E9-1-1 à l’aide de fournisseurs d’acheminement SIP dans Skype pour Business Server Enterprise Voice.
-ms.openlocfilehash: b92d0d13797e50cf4b538b6bd96e304658a7585e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Les décisions nécessaires pour la planification d’une base de données d’informations d’emplacement ou d’une base de données externe similaire pour un déploiement E9-1-1 à l’aide de fournisseurs de trunking SIP dans Skype entreprise Server Voice.
+ms.openlocfilehash: aafe35f4978ac18897d11aa55f229df501d555ed
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924170"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34276725"
 ---
-# <a name="manage-locations-for-sip-trunk-service-providers-in-skype-for-business-server"></a>Gérer les emplacements pour les fournisseurs de services de jonction SIP dans Skype pour Business Server
+# <a name="manage-locations-for-sip-trunk-service-providers-in-skype-for-business-server"></a>Gestion des emplacements pour les fournisseurs de service SIP Trunk dans Skype entreprise Server
 
-Décisions nécessaires pour planifier une la base de données d’informations ou une base de données externe similaire, pour un déploiement E9-1-1 à l’aide de fournisseurs d’acheminement SIP dans Skype pour Business Server Enterprise Voice.
+Les décisions nécessaires pour la planification d’une base de données d’informations d’emplacement ou d’une base de données externe similaire pour un déploiement E9-1-1 à l’aide de fournisseurs de trunking SIP dans Skype entreprise Server Voice.
 
-Pour configurer Skype pour Business Server détecte automatiquement les clients au sein d’un réseau, vous devez remplir la base de données du service informations d’emplacement avec un schéma de câblage réseau et les emplacements de publication, soit lien vers une base de données externe qui contient déjà les mappages corrects. Dans le cadre de ce processus, vous devez valider les adresses géographiques des emplacements avec votre fournisseur de services E9-1-1. Pour plus d’informations, reportez-vous à [Configure the Location Database](https://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx) dans la documentation de déploiement.
+Pour configurer Skype entreprise Server de façon à ce qu’il détecte automatiquement les clients au sein d’un réseau, vous devez remplir la base de données de service des informations d’emplacement auprès d’un réseau de Wiremap et publier les emplacements, ou créer un lien vers une base de données externe contenant déjà mappages appropriés. Dans le cadre de ce processus, vous devez valider les adresses géographiques des emplacements avec votre fournisseur de services E9-1-1. Pour plus d’informations, reportez-vous à [Configure the Location Database](https://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx) dans la documentation de déploiement.
 
-Renseignez la base de données du service Informations d’emplacement avec un emplacement d’intervention d’urgence (ERL), composé d’une adresse géographique et de l’adresse spécifique au sein d’un bâtiment. Le champ **d’emplacement** de service informations d’emplacement, qui est l’emplacement spécifique dans un bâtiment, a une longueur maximale de 20 caractères (espaces compris). En respectant cette limite, essayez d’inclure les éléments suivants :
+Renseignez la base de données du service Informations d’emplacement avec un emplacement d’intervention d’urgence (ERL), composé d’une adresse géographique et de l’adresse spécifique au sein d’un bâtiment. Le champ d' **emplacement** du service des informations d’emplacement, qui correspond à un emplacement spécifique au sein d’un immeuble, a une longueur maximale de 20 caractères (espaces compris). En respectant cette limite, essayez d’inclure les éléments suivants :
 
 - Nom facile à comprendre qui identifie l’emplacement de l’appelant 911 pour s’assurer que les agents des services d’urgence trouvent l’emplacement spécifique rapidement lorsqu’ils arrivent à l’adresse géographique. Ce nom d’emplacement peut inclure un numéro d’immeuble, un numéro d’étage, un indicateur d’aile, un numéro de chambre, etc. Évitez les surnoms connus des seuls employés, qui peuvent induire les agents des services d’urgence en erreur.
 
-- Un identificateur d’emplacement qui permet aux utilisateurs de voir facilement que leur Skype pour client Business choisie à l’emplacement correct. Le Skype pour client Business concaténé automatiquement et affiche les champs **emplacement** et **ville** découverts dans son en-tête. Une bonne pratique consiste à ajouter l’adresse postale du bâtiment à l’identificateur de chaque emplacement (par exemple, « 1er étage <street number>»). Sans l’adresse postale, un identificateur d’emplacement générique tel que « 1er étage » peut s’appliquer à n’importe quel immeuble de la ville.
+- Un identificateur d’emplacement qui permet aux utilisateurs de voir facilement que leur client Skype entreprise a choisi le bon emplacement. Le client Skype entreprise concatène automatiquement et affiche les champs **emplacement** et **ville** détectés dans son en-tête. Il est recommandé d’ajouter l’adresse postale du bâtiment à chaque identificateur d’emplacement (par exemple, «1er étage <street number>»). Sans l’adresse postale, un identificateur d’emplacement générique tel que « 1er étage » peut s’appliquer à n’importe quel immeuble de la ville.
 
-- Si l’emplacement est approximatif car il est déterminé par un point d’accès sans fil, vous pouvez ajouter le mot **[près]** (par exemple, « proximité du 1er étage 1234 »).
+- Si l’emplacement est approximativement déterminé par un point d’accès sans fil, vous pouvez ajouter le mot **[proche]** (par exemple, «1er étage 1234»).
 
 > [!NOTE]
-> Emplacements ajoutés à la base de données centrale ne sont pas disponibles pour le client jusqu'à ce qu’ils sont publiés à l’aide d’un Skype pour commande Business Server Management Shell et répliqués dans les magasins locaux du pool. Pour plus d’informations, reportez-vous à [Publishing the Location Database](https://technet.microsoft.com/library/dd032b5b-df0e-4017-ac46-e17570c1ab1e.aspx) dans la documentation de déploiement.
+> Les emplacements ajoutés à la base de données d’emplacement central ne sont pas disponibles pour le client tant qu’ils n’ont pas été publiés à l’aide d’une commande Skype entreprise Server Management Shell et répliqués dans les boutiques locales du pool. Pour plus d’informations, reportez-vous à [Publishing the Location Database](https://technet.microsoft.com/library/dd032b5b-df0e-4017-ac46-e17570c1ab1e.aspx) dans la documentation de déploiement.
 
 Les sections suivantes abordent les points à prendre en considération lorsque vous remplissez et mettez à jour la base de données des emplacements.
 
@@ -50,9 +50,9 @@ Où sont stockées les données et quelles étapes devez-vous suivre pour les co
 
  **Disposez-vous d’une base de données tierce qui contient déjà un mappage des emplacements ?**
 
-À l’aide de l’option de service informations d’emplacement secondaire pour se connecter à une base de données tiers, vous pouvez regrouper et gérer les emplacements à l’aide d’une plate-forme en mode hors connexion. Outre la possibilité d’associer des emplacements à des identificateurs réseau, cette approche vous offre l’avantage d’associer des emplacements à un utilisateur. Cela signifie que le service informations d’emplacement peut retourner plusieurs adresses, provenant du service informations d’emplacement secondaire, à un Skype pour client d’entreprise. L’utilisateur peut alors choisir l’emplacement le plus approprié.
+À l’aide de l’option de service des informations de lieu secondaire pour vous connecter à une base de données tierce, vous pouvez regrouper et gérer les emplacements à l’aide d’une plateforme hors connexion. Outre la possibilité d’associer des emplacements à des identificateurs réseau, cette approche vous offre l’avantage d’associer des emplacements à un utilisateur. Cela signifie que le service d’information d’emplacement peut retourner plusieurs adresses à partir du service d’information d’emplacement secondaire, vers un client Skype entreprise. L’utilisateur peut alors choisir l’emplacement le plus approprié.
 
-Pour intégrer avec le service informations d’emplacement, la base de données de tiers doit respecter le schéma de Lync Server emplacement demande/réponse. Pour plus d’informations, voir [» [MS-E911WS] : Service Web pour la spécification du protocole E911 prise en charge »](https://go.microsoft.com/fwlink/p/?linkid=213819). Pour plus d’informations sur le déploiement d’un service informations d’emplacement secondaire, voir [configurer un service d’informations d’emplacement secondaire dans Skype pour Business Server](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md) dans la documentation de déploiement.
+Pour être intégré au service d’information d’emplacement, la base de données tierce doit suivre le schéma de requête/réponse d’emplacement du serveur Lync. Pour plus d’informations, consultez [«[MS-E911WS]: service Web pour E911 support Protocol Specification»](https://go.microsoft.com/fwlink/p/?linkid=213819). Pour plus d’informations sur le déploiement d’un service d’information d’emplacement secondaire, voir [configurer un service d’information d’emplacement secondaire dans Skype entreprise Server](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md) dans la documentation de déploiement.
 
 Pour plus d’informations sur le renseignement de la base de données d’emplacements, reportez-vous à [Configure the Location Database](https://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx) dans la documentation de déploiement.
 
@@ -66,6 +66,6 @@ L’ajout de points d’accès sans fil, le recâblage du bureau (qui implique d
 
  **Ferez-vous appel à une application SNMP pour associer des adresses MAC de client Lync aux identificateurs de port et de commutateur ?**
 
-Si vous utilisez une application SNMP, vous devez développer un processus manuel permettant de garder les informations de châssis de commutateur et de port cohérentes entre l’application SNMP et la base de données des emplacements. Si l’application SNMP renvoie un ID d’IP châssis adresse ou un port qui n’est pas inclus dans la base de données, le service informations d’emplacement ne sera pas en mesure de retourner un emplacement pour le client.
+Si vous utilisez une application SNMP, vous devez développer un processus manuel permettant de garder les informations de châssis de commutateur et de port cohérentes entre l’application SNMP et la base de données des emplacements. Si l’application SNMP renvoie une adresse IP du châssis ou un ID de port qui n’est pas inclus dans la base de données, le service d’information d’emplacement n’est pas en mesure de renvoyer un emplacement au client.
 
 

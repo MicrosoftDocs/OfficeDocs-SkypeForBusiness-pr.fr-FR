@@ -5,69 +5,69 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/1/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 975718a0-f3e3-404d-9453-6224e73bfdd0
-description: 'Résumé : Découvrez les composants de service et les paramètres de configuration pour le Service centralisé de journalisation dans Skype pour Business Server 2015.'
-ms.openlocfilehash: 3c5a90c89d09d4172090d4cb3ddc22158c3dc068
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Résumé: en savoir plus sur les composants et les paramètres de configuration du service de journalisation centralisé dans Skype entreprise Server 2015.'
+ms.openlocfilehash: a02d2a283716dd01572e0cbd8cccf075b29fd9b8
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33915254"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274512"
 ---
 # <a name="centralized-logging-service-in-skype-for-business-2015"></a>Service de journalisation centralisée pour Skype Entreprise 2015
  
-**Résumé :** Découvrez les composants de service et les paramètres de configuration pour le Service centralisé de journalisation dans Skype pour Business Server 2015.
+**Résumé:** En savoir plus sur les composants de service et les paramètres de configuration pour le service de journalisation centralisé dans Skype entreprise Server 2015.
   
-Le Service de journalisation centralisée peut : 
+Le service de journalisation centralisé peut: 
   
-- Démarrer ou arrêter la journalisation sur un ou plusieurs ordinateurs et pools avec une seule commande à partir d’un emplacement central.
+- Démarrez ou arrêtez la journalisation sur un ou plusieurs ordinateurs et pools avec une seule commande à partir d’un emplacement centralisé.
     
-- Rechercher des journaux sur un ou plusieurs ordinateurs et pools. Vous pouvez adapter la recherche pour retourner tous les journaux sur tous les ordinateurs ou renvoyer des résultats plus court.
+- Rechercher des journaux sur un ou plusieurs ordinateurs et pools. Vous pouvez personnaliser la recherche pour renvoyer tous les journaux sur tous les ordinateurs ou renvoyer des résultats plus concis.
     
 - Configurer les sessions de journalisation comme suit :
     
-  - Définir un **Scenario** ou utiliser un scénario par défaut. Un scénario dans le Service de journalisation centralisée est composé d’étendue (globale ou site), un nom de scénario pour identifier le but du scénario et un ou plusieurs fournisseurs. Vous pouvez exécuter le scénario par défaut et un scénario défini à un moment donné sur un ordinateur.
+  - Définir un **Scenario** ou utiliser un scénario par défaut. Dans le cadre du service de journalisation centralisé, un scénario est constitué d’une étendue (globale ou de site), d’un nom de scénario permettant d’identifier l’objet du scénario et d’un ou de plusieurs fournisseurs. Vous pouvez exécuter le scénario par défaut et un scénario défini à tout moment sur un ordinateur.
     
-  - Utiliser un fournisseur existant ou créer un nouveau fournisseur. Aprovider définit ce que la session de journalisation collecte, quel niveau de détail, les composants pour le suivi et les indicateurs sont appliquées.
+  - Utiliser un fournisseur existant ou créer un nouveau fournisseur. Aprovider définit ce que la session de journalisation collecte, le niveau de détail, les composants à suivre et les indicateurs appliqués.
     
     > [!TIP]
-    >  Si vous êtes familiarisé avec OCSLogger, le termproviders fait référence à la collection de **composants** (par exemple, S4, SIPStack), un **type de journalisation** (par exemple, logfile WPP, EventLog ou IIS), un **niveau de suivi** (par exemple, debug verbose, All) et les **indicateurs** (par exemple, TF_COMPONENT, TF_DIAG). Ces éléments sont définies dans le fournisseur (variable Windows PowerShell) et passées dans la commande de Service de journalisation centralisée.
+    >  Si vous avez l’habitude d’utiliser OCSLogger, termproviders fait référence à la collection de **composants** (par exemple, S4, SIPStack), un **type** de journalisation (par exemple, WPP, EventLog ou journal d’information d’IIS), un **niveau de suivi** (par exemple, tous, détaillé, débogage) et **indicateurs** (par exemple, TF_COMPONENT, TF_DIAG). Ces éléments sont définis dans le fournisseur (une variable Windows PowerShell) et transférés dans la commande service de journalisation centralisée.
   
-  - Configurer des journaux pour des ordinateurs spécifiques et les pools.
+  - Configurez les journaux pour des ordinateurs et des groupes spécifiques.
     
   - Définir lʼétendue de la session de journalisation à partir des options **Site** (pour exécuter des captures de journalisation sur des ordinateurs de ce site uniquement), ou **Global** (pour exécuter des captures de journalisation sur tous les ordinateurs du déploiement).
     
-Le Service de journalisation centralisée est un puissant outil de dépannage pour les problèmes de petites ou grandes, à partir de l’analyse des causes des problèmes de performances. Tous les exemples figurent à l’aide de la Skype pour Business Server Management Shell. Aide est fournie pour l’outil de ligne de commande par le biais de l’outil lui-même, mais il est un ensemble limité de fonctions que vous pouvez exécuter à partir de la ligne de commande. À l’aide de Skype pour Business Server Management Shell, vous avez accès à un jeu de fonctionnalités, plus grand et beaucoup plus souple qui doivent toujours être votre premier choix. 
+Le service de journalisation centralisé est un outil puissant qui vous permet de résoudre les problèmes de performances, d’une analyse de cause racine aux problèmes de performances. Tous les exemples sont affichés avec Skype entreprise Server Management Shell. Vous pouvez obtenir de l’aide pour l’outil de ligne de commande par le biais de l’outil proprement dit, mais il existe un ensemble limité de fonctions que vous pouvez exécuter à partir de la ligne de commande. L’utilisation de Skype entreprise Server Management Shell vous permet d’accéder à un ensemble de fonctionnalités plus volumineux et beaucoup plus configurable; il devrait donc toujours s’avérer votre premier choix. 
   
 ## <a name="logging-service-components"></a>Composants du service de journalisation
 
- Le Service de journalisation centralisée s’exécute sur tous les serveurs de votre déploiement et est composé des agents et des services suivants :
+ Le service de journalisation centralisé s’exécute sur tous les serveurs dans votre déploiement et est constitué des agents et services suivants:
   
-- La journalisation centralisée et ClsAgent l’Agent de Service s’exécute sur chaque ordinateur avec Skype pour Business Server est déployé. Il écoute (ports **TCP 50001-50003**) pour les commandes à partir de ClsController sur WCF et envoie des réponses vers le contrôleur. Il gère les sessions de connexion (Démarrer/Arrêter/mise à jour) et recherche les journaux. Il exécute également des opérations de nettoyage telles que lʼarchivage et la purge de journaux. 
+- Le ClsAgent agent de connexion centralisé s’exécute sur tous les ordinateurs sur lesquels Skype entreprise Server est déployé. Il écoute (sur les ports **TCP 50001-50003**) les commandes de CLSCONTROLLER sur WCF et renvoie les réponses au contrôleur. Il gère les sessions du journal (Démarrer/arrêter/mettre à jour), ainsi que les journaux de recherche. Il exécute également des opérations de nettoyage telles que lʼarchivage et la purge de journaux. 
     
-- Centralisée journalisation Service contrôleur d’applets de commande du Skype pour Business Server Management Shell envoie des commandes Démarrer, arrêter, Flush et recherche les et clsagent. Lorsque les commandes de recherche sont envoyés, les journaux qui en résulte sont renvoyés à le ClsControllerLib.dll et agrégées. Le contrôleur envoie des commandes à l’agent, reçoit l’état de ces commandes et gère les données du fichier journal recherche tel qu’il est renvoyé à partir de tous les agents sur n’importe quel ordinateur dans la zone de recherche et regroupe les données du journal dans un ensemble de sortie significative et ordonnée. Les informations contenues dans les rubriques suivantes se concentre sur l’utilisation de la Skype pour Business Server Management Shell.
+- Applets de commande de service de journalisation centralisée le shell de gestion de l’interface du serveur Skype entreprise Server Management Shell envoie des commandes de démarrage, d’arrêt, de vidage et de recherche à ClsAgent. Lorsque les commandes de recherche sont envoyées, les journaux obtenus sont renvoyés à ClsControllerLib. dll et agrégés. Le contrôleur envoie des commandes à l’agent, reçoit l’état de ces commandes et gère les données du fichier du journal de recherche tel qu’il est renvoyé par tous les agents sur n’importe quel ordinateur dans l’étendue de la recherche, et agrège les données du journal dans un ensemble de sorties ordonné et réglé. Les informations contenues dans les rubriques suivantes portent sur l’utilisation de Skype entreprise Server Management Shell.
     
 **Communications entre ClsController et ClsAgent**
 
 ![Relation entre CLSController et CLSAgent.](../../media/Ops_CLS_Architecture.jpg)
   
-Vous envoyer des commandes à l’aide de l’interface de ligne de commande de Windows Server ou le Skype pour Business Server Management Shell. Les commandes sont exécutées sur lʼordinateur auquel vous êtes connecté et envoyées au ClsAgent localement ou à dʼautres ordinateurs et pools dans votre déploiement.
+Vous émettez des commandes à l’aide de l’interface de ligne de commande Windows Server ou de Skype entreprise Server Management Shell. Les commandes sont exécutées sur lʼordinateur auquel vous êtes connecté et envoyées au ClsAgent localement ou à dʼautres ordinateurs et pools dans votre déploiement.
   
 ClsAgent maintient un fichier d’index de tous les fichiers .CACHE dont il dispose sur l’ordinateur local. ClsAgent les alloue de sorte qu’ils soient distribuées de manière égale parmi les volumes définis par l’option CacheFileLocalFolders, en ne consommant jamais plus de 80 % de chaque volume (autrement dit, l’emplacement du cache local et le pourcentage sont configurables à l’aide de l’applet de commande  **Set-CsClsConfiguration**). ClsAgent est également responsable de la suppression des anciens fichiers journaux de suivi d’événements mis en cache (.etl) sur l’ordinateur local. Après deux semaines (le délai est configurable à l’aide de l’applet de commande  **Set-CsClsConfiguration**), ces fichiers sont copiés sur un partage de fichiers et supprimés de l’ordinateur local. Pour plus d’informations, voir [Set-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csclsconfiguration?view=skype-ps). Lors de la réception d’une demande de recherche, les critères de recherche sont utilisés pour sélectionner le jeu de fichiers .etl mis en cache afin d’effectuer la recherche en fonction des valeurs dans l’index conservé par l’agent.
   
 > [!NOTE]
 > Les fichiers déplacés vers le partage de fichiers à partir de l’ordinateur local peuvent être consultés par ClsAgent. Une fois que ClsAgent a déplacé les fichiers vers le partage, le vieillissement et la suppression des fichiers ne sont pas conservés par ClsAgent. Vous devez définir une tâche d’administration pour contrôler la taille des fichiers sur le partage de fichiers et les supprimer ou les archiver. 
   
-Les fichiers journaux résultants peuvent être lus et analysés à l’aide de divers outils, notamment **Snooper.exe** et tout outil capable de lire un fichier texte, tel que **Notepad.exe**. Snooper.exe fait partie de la Skype pour les outils de débogage Business Server 2015 et est disponible en [téléchargement Web](https://go.microsoft.com/fwlink/p/?LinkId=285257).
+Les fichiers journaux résultants peuvent être lus et analysés à l’aide de divers outils, notamment **Snooper.exe** et tout outil capable de lire un fichier texte, tel que **Notepad.exe**. Snooper. exe fait partie des outils de débogage de Skype entreprise Server 2015 et est disponible en [Téléchargement](https://go.microsoft.com/fwlink/p/?LinkId=285257)sur le Web.
   
-Comme OCSLogger, le Service de journalisation centralisée a suivi par rapport à plusieurs composants et fournit des options pour sélectionner des indicateurs, telles que TF_COMPONENT et TF_DIAG. Service de journalisation centralisée conserve également les options de niveau de journalisation de OCSLogger.
+Comme OCSLogger, le service de journalisation centralisé dispose de plusieurs composants à suivre, et fournit des options permettant de sélectionner des indicateurs, tels que TF_COMPONENT et TF_DIAG. Le service de journalisation centralisé conserve également les options de niveau de journalisation de OCSLogger.
   
-Le principal avantage de l’utilisation de la Skype pour Business Server Management Shell sur la ligne de commande ClsController est que vous pouvez configurer et définir les nouveaux scénarios à l’aide de fournisseurs sélectionnés qui ciblent l’espace de problème, les indicateurs personnalisés et les niveaux de journalisation. Les scénarios accessibles à ClsController se limitent à ceux définis pour l’exécutable.
+L’avantage le plus important de l’utilisation de Skype entreprise Server Management Shell par le biais de l’interface de ligne de commande ClsController est que vous pouvez configurer et définir de nouveaux scénarios à l’aide de fournisseurs sélectionnés qui ciblent l’espace problématique, les indicateurs personnalisés et les niveaux de connexion. Les scénarios accessibles à ClsController se limitent à ceux définis pour l’exécutable.
   
 Dans les versions précédentes, OCSLogger.exe était fourni afin de permettre aux administrateurs et au personnel de support technique de recueillir des fichiers de suivi à partir d’ordinateurs du déploiement. Malgré tous ses atouts, il présentait toutefois un inconvénient : on ne pouvait recueillir des journaux que sur un seul ordinateur à la fois. Il était possible de se connecter à plusieurs ordinateurs à l’aide de copies distinctes d’OCSLogger, mais on se retrouvait alors avec plusieurs journaux et nulle méthode aisée pour agréger les résultats.
   
@@ -76,22 +76,22 @@ Quand un utilisateur demande une recherche de journal, ClsController détermine 
 Lorsque vous commencez une session de journalisation, vous spécifiez des scénarios adaptés au problème que vous tentez de résoudre. Vous pouvez exécuter deux scénarios simultanément. L’un d’entre eux doit être le scénario AlwaysOn. Comme son nom l’indique, il doit toujours être en cours d’exécution dans votre déploiement et recueillir des informations sur tous les ordinateurs, pools et composants.
   
 > [!IMPORTANT]
-> Par défaut, le scénario AlwaysOn ne s’exécute pas dans votre déploiement. Vous devez le démarrer de manière explicite. Une fois démarré, il continue à s’exécuter jusqu’à ce que vous l’arrêtiez de manière explicite et l’état d’exécution est conservé entre les redémarrages de l’ordinateur. Pour plus d’informations sur le démarrage et arrêt de scénarios, voir [Démarrer ou arrêter la capture de journal CLS dans Skype pour Business Server 2015](start-or-stop-log-capture.md). 
+> Par défaut, le scénario AlwaysOn ne s’exécute pas dans votre déploiement. Vous devez le démarrer de manière explicite. Une fois démarré, il continue à s’exécuter jusqu’à ce que vous l’arrêtiez de manière explicite et l’état d’exécution est conservé entre les redémarrages de l’ordinateur. Pour plus d’informations sur les scénarios de démarrage et d’arrêt, voir [Démarrer ou arrêter la capture du journal CLS dans Skype entreprise Server 2015](start-or-stop-log-capture.md). 
   
 Lorsqu’un problème survient, démarrez un second scénario en rapport avec le problème signalé. Reproduisez le problème et arrêtez la journalisation pour le second scénario. Commencez vos recherches de journaux relatives au problème signalé. La collection agrégée de journaux génère un fichier journal qui contient des messages de suivi issus de tous les ordinateurs de l’étendue globale ou de site de votre déploiement. Si la recherche renvoie plus de données que vous ne pouvez raisonnablement en analyser (rapport signal-bruit où le bruit est trop élevé), exécutez une autre recherche avec des paramètres affinés. À ce stade, vous commencerez peut-être à remarquer certains modèles qui peuvent vous aider à appréhender plus étroitement le problème. Après deux ou trois recherches affinées, vous finirez par trouver des données pertinentes au problème et en déterminer la cause racine.
   
 > [!TIP]
-> Lorsque vous présente un scénario de problème dans Skype pour Business Server, commencez par vous demandez « Quel déjà savoir sur le problème ? » Si vous quantifier les limites de problème, vous pouvez éliminer une grande partie des entités opérationnelles dans Skype pour Business Server. 
+> Lorsque vous avez présenté une erreur dans le cadre d’un scénario de Skype entreprise Server, commencez par vous poser la question ci-dessous. Si vous quantifiez les limites du problème, vous pouvez éliminer une partie importante des entités opérationnelles dans Skype entreprise Server. 
   
-Considérez un exemple de scénario dans lequel vous savez que les utilisateurs n’obtiennent pas de résultats à jour lors de la recherche d’un contact. Il est inutile de rechercher les problèmes dans les composants multimédia, Enterprise Voice, la conférence et un nombre d’autres composants. Vous ignorez peut-être toutefois où réside réellement le problème : sur le client ou du côté serveur ? Les contacts sont collectées à partir d’Active Directory par le réplicateur d’utilisateurs et remis au client par le serveur de carnet d’adresses (ABServer). La ABServer obtient ses mises à jour à partir de la base de données RTC (où le réplicateur d’utilisateurs écrit les) et collecte les dans les fichiers de carnet d’adresses, par défaut - 1 h 30. Le Skype pour les clients Business Server récupérer le nouveau carnet d’adresses selon une planification aléatoire. Étant donné que vous connaissez le fonctionnement du processus, vous pouvez réduire la recherche de l’origine pour un problème lié à des données collectées à partir d’Active Directory par le réplicateur d’utilisateurs, la ABServer pas récupérer et en créant les fichiers de carnet d’adresses ou les clients ne pas Télécharger le fichier de carnet d’adresses.
+Considérez un exemple de scénario dans lequel vous savez que les utilisateurs n’obtiennent pas de résultats à jour lors de la recherche d’un contact. Il n’est pas possible de rechercher les problèmes liés aux composants multimédias, à la voix entreprise, aux conférences et à un certain nombre d’autres composants. Vous ignorez peut-être toutefois où réside réellement le problème : sur le client ou du côté serveur ? Les contacts sont collectés auprès d’Active Directory par le réplicateur d’utilisateurs et remis au client par le biais du serveur du carnet d’adresses. La propriété obtient ses mises à jour à partir de la base de données RTC (où le réplicateur d’utilisateurs les a écrits) et les recueille dans les fichiers du carnet d’adresses, par défaut-1:30 AM. Les clients Skype entreprise Server récupèrent le nouveau carnet d’adresses sur une planification aléatoire. Étant donné que vous savez le fonctionnement du processus, vous pouvez limiter votre recherche à la cause potentielle d’un problème lié aux données collectées auprès d’Active Directory par le réplicateur d’utilisateurs, l’élément absent ne récupérant pas les fichiers du carnet d’adresses, ou les clients non Téléchargement du fichier du carnet d’adresses.
   
 ## <a name="current-configuration"></a>Configuration actuelle
 
-Le Service de journalisation centralisée est configuré pour définir ce que le service de journalisation est destiné à collecter, comment recueillies, où il sera recueillons et quels sont les paramètres du journal. Ces paramètres sont définis de manière globale (cʼest-à-dire pour lʼensemble du déploiement) ou au niveau d’un site (c’est-à-dire un site déterminé dans votre déploiement). La journalisation que vous définissez utilise les paramètres appropriés à l’identité utilisée pour les commandes de démarrage, d’arrêt, de vidage et de recherche de journaux.
+Le service de journalisation centralisé est configuré pour définir ce que le service de journalisation doit collecter, la manière dont il recueille l’emplacement et les paramètres de journalisation. Ces paramètres sont définis de manière globale (cʼest-à-dire pour lʼensemble du déploiement) ou au niveau d’un site (c’est-à-dire un site déterminé dans votre déploiement). La journalisation que vous définissez utilise les paramètres appropriés à l’identité utilisée pour les commandes de démarrage, d’arrêt, de vidage et de recherche de journaux.
   
-### <a name="to-display-the-current-centralized-logging-service-configuration"></a>Pour afficher la configuration actuelle du Service de journalisation centralisée
+### <a name="to-display-the-current-centralized-logging-service-configuration"></a>Pour afficher la configuration actuelle du service de journalisation centralisée
 
-1. Démarrez le Skype pour Business Server Management Shell : cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Skype pour Business 2015**, puis cliquez sur **Skype pour Business Server Management Shell**.
+1. Démarrez Skype entreprise Server Management Shell: cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
     
 2. Tapez ce qui suit dans une invite de ligne de commande :
     
@@ -100,18 +100,18 @@ Le Service de journalisation centralisée est configuré pour définir ce que le
    ```
 
     > [!TIP]
-    > Vous pouvez réduire ou développer la portée des paramètres de configuration qui sont renvoyées par la définition de `-Identity` et une étendue, tel que « Site : Redmond » pour renvoyer uniquement la CsClsConfiguration pour le site de Redmond. Si vous souhaitez plus d’informations sur une partie de la configuration donnée, vous pouvez canaliser la sortie dans une autre cmdlet Windows PowerShell. Par exemple, pour obtenir plus d’informations sur les scénarios définis dans la configuration pour le site « Redmond », tapez :`Get-CsClsConfiguration -Identity "site:Redmond" | Select-Object -ExpandProperty Scenarios`
+    > Vous pouvez réduire ou développer l’étendue des paramètres de configuration renvoyés par la définition `-Identity` et une étendue, par exemple, «site: Redmond» pour renvoyer uniquement le CsClsConfiguration pour le site Redmond. Si vous souhaitez obtenir des détails sur une partie donnée de la configuration, vous pouvez canaler la sortie dans une autre applet de cmdlet Windows PowerShell. Par exemple, pour obtenir des informations sur les scénarios définis dans la configuration du site «Redmond», tapez:`Get-CsClsConfiguration -Identity "site:Redmond" | Select-Object -ExpandProperty Scenarios`
   
      ![Exemple de sortie de Get-CsClsConfiguration.](../../media/Ops_Get-CsClsConfiguration_Basic.jpg)
   
-    Le résultat de l’applet de commande affiche la configuration actuelle du Service de journalisation centralisée.
+    Le résultat de l’applet de connexion affiche la configuration actuelle du service de journalisation centralisé.
     
 |**Paramètre de configuration**|**Description**|
 |:-----|:-----|
 |**Identity** <br/> |Identifie lʼétendue et le nom de cette configuration. Il existe une seule configuration globale et une seule configuration par site.  <br/> |
 |**Scenarios** <br/> |Liste de tous les scénarios définis pour cette configuration.  <br/> |
-|**SearchTerms** <br/> |Termes de recherche définis pour la configuration. Office 365, pas les déploiements sur site.  <br/> |
-|**SecurityGroups** <br/> |Groupes de sécurité définis déterminant les personnes (c’est-à-dire, les membres des groupes de sécurité) autorisées à voir les ordinateurs du sur lequel elles se trouvent. Site, dans ce contexte, est celui défini dans le Générateur de topologie.  <br/> |
+|**SearchTerms** <br/> |Termes de recherche définis pour la configuration. Office 365, et non des déploiements sur site.  <br/> |
+|**SecurityGroups** <br/> |Groupes de sécurité définis déterminant les personnes (c’est-à-dire, les membres des groupes de sécurité) autorisées à voir les ordinateurs du sur lequel elles se trouvent. Le site, dans ce contexte, est le site tel qu’il est défini dans le générateur de topologie.  <br/> |
 |**Regions** <br/> |Les régions définies servent à collecter les groupes de sécurité (SecurityGroups) dans une région, par exemple, EMEA (Europe/Moyen-Orient/Afrique).  <br/> |
 |**EtlFileRolloverSizeMB** <br/> |Ce paramètre indique la taille maximale du fichier journal au-delà de laquelle un nouveau fichier journal de suivi d’événements (.etl) est créé. Un nouveau fichier journal est créé quand la taille définie est atteinte, même si la durée maximale définie dans EtlFileRolloverMinutes n’a pas encore été atteinte.  <br/> |
 |**EtlFileRolloverMinutes** <br/> |Durée maximale définie en minutes au-delà de laquelle un nouveau fichier .etl est créé. Un nouveau fichier local est créé quand le minuteur arrive à expiration, même si la taille maximale définie dans EtlFileRolloverSizeMB n’a pas encore été atteinte.  <br/> |

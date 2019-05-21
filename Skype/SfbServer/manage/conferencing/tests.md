@@ -1,25 +1,25 @@
 ---
-title: Conférence rendez-vous test dans Skype pour Business Server
+title: Test de la Conférence rendez-vous dans Skype entreprise Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f4ccbfd4-6075-466f-b459-20561318803d
-description: 'Résumé : Découvrez comment tester la conférence rendez-vous dans Skype pour Business Server.'
-ms.openlocfilehash: 410cbaa9319130dcf4a98c23360362211869e52f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Résumé: Découvrez comment tester les conférences rendez-vous dans Skype entreprise Server.'
+ms.openlocfilehash: cd1192950ff7c8b609655d78bbc57dfdbc4c1710
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924884"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280361"
 ---
-# <a name="test-dial-in-conferencing-in-skype-for-business-server"></a>Conférence rendez-vous test dans Skype pour Business Server
+# <a name="test-dial-in-conferencing-in-skype-for-business-server"></a>Test de la Conférence rendez-vous dans Skype entreprise Server
  
-**Résumé :** Découvrez comment tester la conférence rendez-vous dans Skype pour Business Server.
+**Résumé:** Découvrez comment tester les conférences rendez-vous dans Skype entreprise Server.
   
 Pour terminer la vérification de votre configuration de conférence rendez-vous, vous pouvez chercher des plans de numérotation dont la région de conférence rendez-vous n’est utilisée par aucun numéro d’accès et des numéros d’accès que vous n’avez pas spécifiés dans une région de conférence rendez-vous. Vous devez également vérifier que la page web Paramètres de conférence rendez-vous et les numéros d’accès entrants fonctionnent correctement.
   
@@ -27,7 +27,7 @@ Pour terminer la vérification de votre configuration de conférence rendez-vous
 
 1. Ouvrez une session sur l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins  ou du rôle Cs-ServerAdministrator  ou CsAdministrator.
     
-2. Démarrez le Skype pour Business Server Management Shell : cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Skype pour Business 2015**, puis cliquez sur **Skype pour Business Server Management Shell**.
+2. Démarrez Skype entreprise Server Management Shell: cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
     
 3. Exécutez la commande suivante dans l’invite de commandes :
     
@@ -37,13 +37,13 @@ Pour terminer la vérification de votre configuration de conférence rendez-vous
 
     Cette applet de commande renvoie tous les plans de numérotation dont la région de conférence rendez-vous n’est pas utilisée par un numéro d’accès.
     
-Pour plus d’informations, voir [Get-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps).
+Pour plus d’informations, consultez la rubrique [Get-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps).
   
 ## <a name="find-access-numbers-without-assigned-regions"></a>REcherche de numéros d’accès sans région affectée
 
 1. Ouvrez une session sur l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins  ou du rôle Cs-ServerAdministrator  ou CsAdministrator.
     
-2. Démarrez le Skype pour Business Server Management Shell : cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Skype pour Business 2015**, puis cliquez sur **Skype pour Business Server Management Shell**.
+2. Démarrez Skype entreprise Server Management Shell: cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
     
 3. Exécutez la commande suivante dans l’invite de commandes :
     
@@ -53,7 +53,7 @@ Pour plus d’informations, voir [Get-CsDialInConferencingAccessNumber](https://
 
     Cette applet de commande renvoie tous les numéros d’accès de conférences rendez-vous qui ne sont pas associés à une région.
     
-Pour plus d’informations, voir [Get-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps).
+Pour plus d’informations, consultez la rubrique [Get-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps).
   
 ## <a name="test-webpage-and-access-numbers"></a>Test de la page web et des numéros d’accès
 
@@ -67,7 +67,7 @@ Pour vérifier que la page web Paramètres de conférence rendez-vous et les num
 
 1. Ouvrez une session sur l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins  ou du rôle Cs-ServerAdministrator  ou CsAdministrator.
     
-2. Démarrez le Skype pour Business Server Management Shell : cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Skype pour Business 2015**, puis cliquez sur **Skype pour Business Server Management Shell**.
+2. Démarrez Skype entreprise Server Management Shell: cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
     
 3. Exécutez la commande suivante dans l’invite de commandes :
     
@@ -78,8 +78,8 @@ Pour vérifier que la page web Paramètres de conférence rendez-vous et les num
    Test-CsDialInConferencing -UserSipAddress sip:testuser1@contoso.com -UserCredential $credentials -TargetFqdn <serverName>.<domainName>.com -Verbose
    ```
 
-    Le rapport obtenu indique Opération réussie ou Échec ainsi que des informations de diagnostic. -Verbose indicateur fournit plus d’informations sur l’accès combien numéros ont été détectés et plus d’informations sur les.
+    Le rapport obtenu indique Opération réussie ou Échec ainsi que des informations de diagnostic. L’indicateur-verbose fournit des informations plus détaillées sur le nombre de numéros d’accès qui ont été trouvés et leur détails.
     
-Pour plus d’informations, voir [Test-CsDialInConferencing](https://docs.microsoft.com/powershell/module/skype/test-csdialinconferencing?view=skype-ps).
+Pour plus d’informations, consultez la rubrique [test-CsDialInConferencing](https://docs.microsoft.com/powershell/module/skype/test-csdialinconferencing?view=skype-ps).
   
 

@@ -1,44 +1,44 @@
 ---
-title: Service de paramètres utilisateur pour le tableau de bord qualité appel (CQD)
+title: Service des paramètres utilisateur pour le tableau de bord de qualité des appels (bord)
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: eafeb54a-2574-415b-b991-a0ff0470d8c3
-description: 'Résumé : En savoir plus sur le Service de paramètres utilisateur, qui fait partie de l’API de référentiel pour appeler le tableau de bord qualité. Tableau de bord de qualité des appels est un outil de Skype pour Business Server.'
-ms.openlocfilehash: ae87fcb28babbe3d9a480092d73e9c4cad2e1a76
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Résumé: en savoir plus sur le service des paramètres d’utilisateur, qui fait partie de l’API du référentiel pour le tableau de bord de qualité des appels. Le tableau de bord de qualité des appels est un outil pour Skype entreprise Server.'
+ms.openlocfilehash: e5e068d66adb325900b055a19aedcfaeabf4f2bc
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33914995"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274484"
 ---
-# <a name="user-settings-service-for-call-quality-dashboard-cqd"></a>Service de paramètres utilisateur pour le tableau de bord qualité appel (CQD)
+# <a name="user-settings-service-for-call-quality-dashboard-cqd"></a>Service des paramètres utilisateur pour le tableau de bord de qualité des appels (bord)
  
-**Résumé :** Obtenir des informations sur le Service de paramètres utilisateur, qui fait partie de l’API de référentiel pour appeler le tableau de bord qualité. Tableau de bord de qualité des appels est un outil de Skype pour Business Server.
+**Résumé:** En savoir plus sur le service des paramètres d’utilisateur, qui fait partie de l’API du référentiel pour le tableau de bord de qualité des appels. Le tableau de bord de qualité des appels est un outil pour Skype entreprise Server.
   
-Le Service de paramètres utilisateur fait partie de l’API de référentiel pour appeler le tableau de bord qualité.
+Le service de paramètres utilisateur fait partie de l’API du référentiel pour le tableau de bord de qualité des appels.
   
 ## <a name="user-settings-service"></a>Service de paramètres utilisateur
 
-Paramètres de l’utilisateur sont des paires clé-valeur que les applications peuvent utiliser pour stocker les métadonnées à des fins diverses, notamment la personnalisation de l’application à la fois par utilisateur comportements. Chaque utilisateur reçoit un stockage pour les paramètres utilisateur. Seuls les propriétaires peuvent ajouter, modifier et supprimer les paramètres utilisateur.
+Les paramètres utilisateur sont des paires clé-valeur que les applications peuvent utiliser pour stocker des métadonnées pour différentes raisons, notamment la personnalisation des comportements d’application par utilisateur. Chaque utilisateur reçoit un espace de stockage pour les paramètres utilisateur. Seuls les propriétaires peuvent ajouter, modifier et supprimer des paramètres utilisateur.
   
  **Paramètres globaux**
   
-Les paramètres globaux sont les paramètres utilisateur appartenant à l’utilisateur du système et tous les utilisateurs ont accès en lecture seule pour les. Les paramètres globaux sont des constantes : ils sont créés pendant la création du référentiel, et ils ne changent jamais.
+Les paramètres globaux sont les paramètres utilisateur appartenant à l’utilisateur système, et tous les utilisateurs y ont accès en lecture seule. Les paramètres globaux sont des constantes: elles sont créées lors de la création du référentiel et ne changent jamais.
   
-Chaque utilisateur peut remplacer les paramètres globaux en créant des paramètres utilisateur avec les mêmes clés. Lorsque l’application demande les paramètres utilisateur effectif, l’API renvoie un ensemble de paramètres globaux fusionnés avec les paramètres utilisateur, avec chaque paramètre de l’utilisateur remplaçant la respectifs paramètre global si les clés sont les mêmes. L’API peut aussi renvoyer uniquement les paramètres utilisateur, afin que les applications peuvent savoir quels paramètres sont remplacés. 
+Chaque utilisateur peut remplacer les paramètres globaux en créant des paramètres utilisateur avec les mêmes clés. Lorsque l’application demande les paramètres d’utilisateur efficaces, l’API renvoie un ensemble de paramètres globaux fusionnés avec les paramètres utilisateur, et chaque paramètre utilisateur remplace le paramètre global correspondant si les clés sont identiques. L’API peut également renvoyer uniquement les paramètres utilisateur de sorte que les applications puissent savoir quels paramètres sont remplacés. 
   
-Les opérations REST sont incluses dans le tableau suivant.
+Les opérations REST sont comprises dans le tableau suivant.
 
 |**Opération**|**Description**|
 |:-----|:-----|
-|[Obtention des paramètres utilisateur](get-user-settings.md) <br/> |Obtenir les paramètres utilisateur renvoie une liste des paramètres pour un utilisateur spécifié.  <br/> |
-|[Obtention d’un paramètre utilisateur](get-user-setting.md) <br/> |Obtenir le paramètre utilisateur renvoie un paramètre d’utilisateur unique.  <br/> |
+|[Obtention des paramètres utilisateur](get-user-settings.md) <br/> |Obtenir les paramètres d’utilisateur renvoie une liste de paramètres pour un utilisateur spécifié.  <br/> |
+|[Obtention d’un paramètre utilisateur](get-user-setting.md) <br/> |Le paramètre Get est un paramètre utilisateur unique.  <br/> |
    
 

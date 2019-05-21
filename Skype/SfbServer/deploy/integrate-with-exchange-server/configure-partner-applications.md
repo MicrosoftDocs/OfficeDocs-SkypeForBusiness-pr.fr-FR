@@ -1,83 +1,83 @@
 ---
-title: Configurer des applications partenaires Skype pour Business Server 2015 et Exchange Server
+title: Configurer les applications partenaires dans Skype entreprise Server 2015 et Exchange Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 12/20/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 9c3a3054-6201-433f-b128-4c49d3341370
-description: 'Résumé : Configurez l’authentification de serveur à serveur pour Exchange Server 2016 ou Exchange Server 2013 et Skype pour Business Server.'
-ms.openlocfilehash: 70433d0a6f3b6d9c30e510e116003a4efb5ba9b5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Résumé: configurez l’authentification de serveur à serveur pour Exchange Server 2016 ou Exchange Server 2013 et Skype entreprise Server.'
+ms.openlocfilehash: 4c7c8a0efb2432403422e33140c1a2fdf3551dd1
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894336"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306733"
 ---
-# <a name="configure-partner-applications-in-skype-for-business-server-and-exchange-server"></a>Configurer des applications partenaires Skype pour Business Server et Exchange Server
+# <a name="configure-partner-applications-in-skype-for-business-server-and-exchange-server"></a>Configurer les applications partenaires dans Skype entreprise Server et Exchange Server
  
-**Résumé :** Configurer l’authentification de serveur à serveur pour Exchange Server 2016 ou Exchange Server 2013 et Skype pour Business Server.
+**Résumé:** Configurer l’authentification de serveur à serveur pour Exchange Server 2016 ou Exchange Server 2013 et Skype entreprise Server.
   
-L’authentification serveur à serveur requiert généralement deux serveurs qui doivent communiquer l’un avec l’autre et un serveur d’émission de jetons de sécurité tiers. Si le serveur A et serveur B doivent communiquer, puis les deux de ces serveurs généralement démarrer à contacter un serveur de jetons et d’obtenir un jeton de sécurité mutuellement approuvés. Le Serveur A présente ensuite ce jeton de sécurité au Serveur B (et inversement) afin de prouver son authenticité et sa fiabilité.
+L’authentification serveur à serveur requiert généralement deux serveurs qui doivent communiquer l’un avec l’autre et un serveur d’émission de jetons de sécurité tiers. Si les serveurs A et B doivent communiquer, les deux serveurs sont généralement à l’aide d’un serveur de jetons et de l’obtention d’un jeton de sécurité digne de confiance. Le Serveur A présente ensuite ce jeton de sécurité au Serveur B (et inversement) afin de prouver son authenticité et sa fiabilité.
   
-Toutefois, qui est une règle générale. Skype pour Business Server, Exchange Server 2016, Exchange Server 2013 et SharePoint Server 2013 n’avez pas besoin d’utiliser un serveur de jetons tiers lors de la communication entre eux ; C’est parce que ces produits serveur peuvent créer des jetons de sécurité qui peuvent être acceptées par l’autre, sans la nécessité d’un serveur de jetons distinct. (Cette fonctionnalité est uniquement disponible dans Skype pour Business Server, Exchange Server 2016, Exchange Server 2013 et SharePoint Server 2013. Si vous avez besoin configurer l’authentification de serveur à serveur avec d’autres serveurs, y compris d’autres produits serveur Microsoft, puis vous devrez le faire à l’aide d’un serveur de jetons tierce.)
+Néanmoins, il s’agit d’une règle générale. Skype entreprise Server, Exchange Server 2016, Exchange Server 2013 et SharePoint Server 2013 n’ont pas besoin d’utiliser un serveur à jeton tiers pour communiquer entre eux. ce n’est pas parce que ces produits serveur peuvent créer des jetons de sécurité qui peuvent être acceptés l’un de l’autre sans qu’il soit nécessaire de recourir à un serveur jeton distinct. (Cette fonctionnalité est disponible uniquement dans Skype entreprise Server, Exchange Server 2016, Exchange Server 2013 et SharePoint Server 2013. Si vous avez besoin de configurer l’authentification serveur à serveur avec d’autres serveurs, y compris d’autres produits Microsoft Server, vous devez le faire à l’aide d’un serveur de jetons tiers.)
   
-Pour configurer l’authentification de serveur à serveur entre Skype pour Business Server et Exchange Server, vous devez effectuer deux opérations : 1) vous devez assigner les certificats appropriés à chaque serveur ; et, 2) vous devez configurer chaque serveur pour une application partenaire de l’autre serveur : cela signifie que vous devez configurer Skype pour Business Server comme application partenaire pour Exchange Server, et vous devez configurer Exchange Server pour une application partenaire pour Skype pour un serveur d’entreprise.
+Pour configurer l’authentification de serveur à serveur entre Skype entreprise Server et Exchange Server, vous devez effectuer deux opérations: 1) vous devez attribuer les certificats appropriés à chaque serveur. et 2) vous devez configurer chaque serveur pour qu’il s’agit d’une application partenaire de l’autre serveur: cela signifie que vous devez configurer Skype entreprise Server en tant qu’application partenaire pour Exchange Server et que vous devez configurer Exchange Server en tant qu’application partenaire pour Skype. pour Business Server.
   
-## <a name="configuring-skype-for-business-server-to-be-a-partner-application-for-exchange-server"></a>Configuration de Skype pour Business Server comme Application partenaire pour Exchange Server
+## <a name="configuring-skype-for-business-server-to-be-a-partner-application-for-exchange-server"></a>Configuration de Skype entreprise Server en tant qu’application partenaire pour Exchange Server
 
-Pour configurer Skype pour Business Server comme application partenaire avec Exchange Server 2016 ou Exchange Server 2013, la plus simple consiste à exécuter le script Configure-enterprisepartnerapplication.ps1, un script Windows PowerShell qui est fourni avec Exchange Server. Pour exécuter ce script, vous devez fournir l’URL pour le Skype pour le document de métadonnées d’authentification Business Server ; Il sera généralement le nom de domaine complet de le Skype pour Business Server pool suivi du suffixe /metadata/json/1. Par exemple :
+Le moyen le plus simple de configurer Skype entreprise Server en tant qu’application partenaire avec Exchange Server 2016 ou Exchange Server 2013 consiste à exécuter le script Configure-EnterprisePartnerApplication. ps1, un script Windows PowerShell fourni avec Exchange Server. Pour exécuter ce script, vous devez indiquer l’URL du document de métadonnées d’authentification de Skype entreprise Server. Il s’agit généralement du nom de domaine complet du pool Skype entreprise Server suivi du suffixe/Metadata/JSON/1. Par exemple :
   
 ```
 https://atl-cs-001.litwareinc.com/metadata/json/1
 ```
 
-Pour configurer Business Server comme application partenaire Skype, ouvrez Exchange Management Shell et exécutez une commande similaire à celle-ci (en supposant que Exchange a été installé sur le lecteur c, et qu’elle utilise le chemin d’accès du dossier par défaut) :
+Pour configurer Skype entreprise Server en tant qu’application partenaire, ouvrez Exchange Management Shell et exécutez une commande similaire à celle-ci (en partant du principe que Exchange a été installé sur le lecteur C, et qu’il utilise le chemin d’accès du dossier par défaut):
   
 ```
 "C:\Program Files\Microsoft\Exchange Server\V15\Scripts\Configure-EnterprisePartnerApplication.ps1 -AuthMetaDataUrl 'https://atl-cs-001.litwareinc.com/metadata/json/1' -ApplicationType Lync"
 ```
 
-Après avoir configuré l’application partenaire, il est recommandé que vous arrêtez et redémarrez Internet Information Services (IIS) sur vos serveurs d’accès client et boîte aux lettres Exchange. Vous pouvez redémarrer IIS à l’aide d’une commande semblable à la suivante, qui redémarre le service sur l’ordinateur atl-exchange-001 :
+Après avoir configuré l’application partenaire, il est recommandé d’arrêter et de redémarrer Internet Information Services (IIS) sur votre boîte aux lettres Exchange et les serveurs d’accès au client. Vous pouvez redémarrer IIS à l’aide d’une commande semblable à la suivante, qui redémarre le service sur l’ordinateur atl-exchange-001 :
   
 ```
 iisreset atl-exchange-001
 ```
 
-Cette commande peut être exécutée à partir de l’environnement Exchange Management Shell ou depuis toute fenêtre de commande s’exécutent sous privilèges d’administrateur.
+Vous pouvez exécuter cette commande à partir de Exchange Management Shell ou de n’importe quelle autre fenêtre de commande sous privilèges d’administrateur.
   
-## <a name="configuring-exchange-server-to-be-a-partner-application-for-skype-for-business-server"></a>Configuration d’Exchange Server pour une Application partenaire pour Skype pour Business Server
+## <a name="configuring-exchange-server-to-be-a-partner-application-for-skype-for-business-server"></a>Configuration d’Exchange Server en tant qu’application partenaire pour Skype entreprise Server
 
-Une fois que vous avez configuré Skype pour Business Server comme application partenaire pour Exchange Server 2016 ou Exchange Server 2013, vous devez ensuite configurer Exchange Server pour une application partenaire pour Skype pour Business Server. Cela en utilisant la Skype pour Business Server Management Shell et en spécifiant le document de métadonnées d’authentification pour Exchange ; Il s’agit généralement de l’URI du service de découverte automatique Exchange suivi par le suffixe /metadata/json/1. Par exemple :
+Une fois que vous avez configuré Skype entreprise Server comme application partenaire pour Exchange Server 2016 ou Exchange Server 2013, vous devez alors configurer Exchange Server comme application partenaire pour Skype entreprise Server. Vous pouvez effectuer cette opération à l’aide de Skype entreprise Server Management Shell et en spécifiant le document de métadonnées d’authentification pour Exchange. Il s’agit généralement de l’URI du service de découverte automatique Exchange suivi du suffixe/Metadata/JSON/1. Par exemple :
   
 ```
 https://autodiscover.litwareinc.com/autodiscover/metadata/json/1
 ```
 
-Dans Skype pour Business Server, les applications partenaires sont configurées à l’aide de l’applet de commande [New-CsPartnerApplication](https://docs.microsoft.com/powershell/module/skype/new-cspartnerapplication?view=skype-ps) . Outre la spécification de l’URI de métadonnées vous devez également définir l’approbation d’application au niveau Full ; Cela permettra Exchange représenter elle-même et n’importe quel utilisateur autorisé dans le domaine. Par exemple :
+Dans Skype entreprise Server, les applications partenaires sont configurées à l’aide de l’applet [de nouvelle applet de nouveau-CsPartnerApplication](https://docs.microsoft.com/powershell/module/skype/new-cspartnerapplication?view=skype-ps) . En plus de spécifier l’URI de métadonnées, vous devez également définir le niveau de confiance application sur complet. Cela permet à Exchange de représenter eux-mêmes et tout utilisateur autorisé du domaine. Par exemple :
   
 ```
 New-CsPartnerApplication -Identity Exchange -ApplicationTrustLevel Full -MetadataUrl "https://autodiscover.litwareinc.com/autodiscover/metadata/json/1"
 ```
 
-Sinon, vous pouvez créer une application partenaire en copiant et modification du code de script, voir le Skype pour la documentation d’authentification de serveur à serveur Business Server. Consultez l’article [gérer l’authentification de serveur à serveur (OAuth) et des applications partenaires dans Skype pour Business Server](../../manage/authentication/server-to-server-and-partner-applications.md) pour plus d’informations.
+Vous pouvez également créer une application partenaire en copiant et en modifiant le code de script figurant dans la documentation relative à l’authentification de serveur à serveur Skype entreprise Server. Pour plus d’informations, reportez-vous à la section [gérer l’authentification de serveur à serveur (OAuth) et aux applications partenaires dans l’article Skype entreprise Server](../../manage/authentication/server-to-server-and-partner-applications.md) .
   
-Si vous avez configuré correctement les applications partenaires pour les deux Skype pour Business Server et Exchange Server, vous avez également correctement configuré l’authentification de serveur à serveur entre les deux produits. Skype pour Business Server inclut une applet de commande Windows PowerShell, [Test-CsExStorageConnectivity](https://docs.microsoft.com/powershell/module/skype/test-csexstorageconnectivity?view=skype-ps) qui vous permet de vérifier que l’authentification de serveur à serveur a été correctement configurée et que la Skype pour le Service de stockage Business Server peut Connectez-vous au serveur Exchange. L’applet de commande effectue cette action en se connectant à la boîte aux lettres d’un utilisateur Exchange Server, écriture d’un élément dans le dossier historique des conversations de cet utilisateur, puis supprimez (le cas échéant) que cet élément.
+Si vous avez correctement configuré des applications de partenariat pour Skype entreprise Server et Exchange Server, vous avez correctement configuré l’authentification de serveur à serveur entre les deux produits. Skype entreprise Server inclut une cmdlet Windows PowerShell, [test-CsExStorageConnectivity](https://docs.microsoft.com/powershell/module/skype/test-csexstorageconnectivity?view=skype-ps) qui vous permet de vérifier que l’authentification de serveur à serveur est correctement configurée et que le service de stockage Skype entreprise Server peut se connecter au serveur Exchange. Cette applet de commande permet de se connecter à la boîte aux lettres d’un utilisateur du serveur Exchange, de l’écrire dans le dossier historique des conversations de cet utilisateur, puis de le supprimer.
   
-Pour tester l’intégration de Skype pour Business Server et Exchange Server, exécutez une commande semblable à ce qui suit à partir de la Skype pour Business Server Management Shell :
+Pour tester l’intégration de Skype entreprise Server et Exchange Server, exécutez une commande similaire à celle qui suit dans Skype entreprise Server Management Shell:
   
 ```
 Test-CsExStorageConnectivity -SipUri "sip:kenmyer@litwareinc.com"
 ```
 
-Dans la commande précédente, SipUri représente l’adresse SIP d’un utilisateur avec un compte sur le serveur Exchange. votre commande échouera dans ce n’est pas un compte d’utilisateur valide.
+Dans la commande précédente, SipUri représente l’adresse SIP d’un utilisateur disposant d’un compte sur le serveur Exchange Server. Il n’existe pas de compte d’utilisateur valide pour votre commande.
   
 > [!NOTE]
-> Si vous recevez une réponse 401 à partir de cette applet de commande, c’est probablement que la configuration par défaut pour Exchange n’inclut pas de prise en charge pour accepter les jetons Oauth. Pour plus d’informations sur l’utilisation d’Oauth dans Exchange, voir [authentification OAuth configurer avec SharePoint 2013 et Skype pour Business Server](https://go.microsoft.com/fwlink/p/?LinkId=513103). 
+> Si vous recevez une réponse 401 de cette cmdlet, c’est probablement parce que la configuration par défaut pour Exchange n’inclut pas de prise en charge de l’acceptation des jetons OAuth. Pour plus d’informations sur l’utilisation de OAuth dans Exchange, voir [configurer l’authentification OAuth avec SharePoint 2013 et Skype entreprise Server](https://go.microsoft.com/fwlink/p/?LinkId=513103). 
   
 Si le test réussit et que la connectivité a été établie, vous pouvez passer à la configuration de fonctionnalités facultatives telles que l’intégration de l’archivage et le magasin de contacts unifié.

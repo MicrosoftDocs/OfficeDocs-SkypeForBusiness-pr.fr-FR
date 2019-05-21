@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.dep.DeployCertRequestReturned
@@ -12,29 +12,29 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4ada9045-0fdf-4470-8574-2fa08bab9392
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'La page État de demande de certificat en ligne vous présente des informations importantes qui résulte de la création et l’émission de la demande de certificat en ligne. Cette page fournit l’empreinte de certificat qui identifie de manière unique le certificat. Par défaut, la case à cocher attribuer ce certificat Skype pour utilisations de certificat Business Server est sélectionnée. Si vous cliquez sur Terminer, le certificat est automatiquement affecté à Skype pour Business Server à des fins que vous avez définis dans la procédure de création de la demande de certificat. Par défaut, les besoins le certificat sera attribué sont les suivants :'
-ms.openlocfilehash: f9d4094cb42690dfc6db252cbd8d7ad82fbab2a8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'La page État de la demande de certificat en ligne présente des informations importantes qui résultent de la création réussie et de l’envoi de la demande de certificat en ligne. Cette page fournit l’empreinte numérique du certificat qui identifie de manière unique le certificat. Par défaut, la case à cocher affecter ce certificat aux utilisations des certificats de Skype entreprise Server est activée. Si vous cliquez sur terminer, le certificat est automatiquement attribué à Skype entreprise Server aux fins que vous avez définies au cours des étapes de création de la demande de certificat. Par défaut, le certificat est affecté par défaut:'
+ms.openlocfilehash: 02d114ff55360f3e88a866485759510ce5f107c4
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893900"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34278020"
 ---
 # <a name="certificate-request-returned"></a>Demande de certificat (retournée)
  
-La page **État de la demande de certificat en ligne** vous présente des informations importantes qui résulte de la création et l’émission de la demande de certificat en ligne. Cette page fournit l’empreinte de certificat qui identifie de manière unique le certificat. Par défaut, la case à cocher **attribuer ce certificat Skype pour utilisations de certificat Business Server** est sélectionnée. Si vous cliquez sur **Terminer**, le certificat est automatiquement affecté à Skype pour Business Server à des fins que vous avez définis dans la procédure de création de la demande de certificat. Par défaut, les besoins le certificat sera attribué sont les suivants :
+La page État de la **demande de certificat en ligne** présente des informations importantes qui résultent de la création réussie et de l’envoi de la demande de certificat en ligne. Cette page fournit l’empreinte numérique du certificat qui identifie de manière unique le certificat. Par défaut, la case à cocher **affecter ce certificat aux utilisations des certificats de Skype entreprise Server** est activée. Si vous cliquez sur **Terminer**, le certificat est automatiquement attribué à Skype entreprise Server aux fins que vous avez définies au cours des étapes de création de la demande de certificat. Par défaut, le certificat est affecté par défaut:
   
-- Serveur par défaut pour MTLS Mutual Transport Layer Security () - connexions vers les clients et autres serveurs
+- Serveur par défaut de Mutual Transport Layer Security (MTLS)-connexions aux clients et autres serveurs
     
-- Services Web internes - connexions Client et serveur sur le site Web interne services pour Transport Layer Security/Secure Sockets Layer (SSL/TLS)
+- Services Web internes-client et connexions serveur sur le site des services Web interne pour le protocole TLS/SSL (Transport Layer Security/Secure Sockets Layer)
     
-- Services Web externes - connexions Client et serveur sur le site Web externe services pour TLS/SSL
+- Services Web externes-client et connexions serveur sur le site des services Web externes pour TLS/SSL
     
-Cliquez sur **Afficher les détails du certificat** pour afficher le certificat pour confirmer que les propriétés du certificat sont correctes, et que le certificat est prêt à être appliquée et mis en service sur le serveur.
+Cliquez sur le bouton **afficher les détails du certificat** pour afficher le certificat pour vérifier que les propriétés du certificat vous conviennent et que le certificat est prêt à être appliqué et mis en place sur le serveur.
   
-Cliquez sur **Terminer** pour terminer le processus de demande de certificat en ligne. Si vous avez sélectionné la case à cocher **attribuer ce certificat Skype pour les utilisations de certificat de serveur d’entreprise**, le certificat sera automatiquement assigné. Si vous avez choisi de désactiver cette case à cocher, vous devez assigner le certificat dans une étape distincte. 
+Cliquez sur **Terminer** pour terminer le processus de demande de certificat en ligne. Si vous avez coché la case **affecter ce certificat aux utilisations des certificats de Skype entreprise Server**, le certificat est automatiquement attribué. Si vous avez choisi de désactiver cette case à cocher, vous devez affecter le certificat dans une étape distincte. 
   
 > [!IMPORTANT]
-> Si le certificat racine d’autorité de certification émettrice certification ne figure pas dans le magasin de l’ordinateur autorité de Certification racine de confiance, ou si les certificats d’autorité de certification intermédiaires ne sont pas dans le magasin approprié, vous verrez le statut de synthèse, comme illustré dans l’image suivante. Vous n’avez pas l’option pour assigner le certificat. Pour terminer le processus d’affectation de certificat, vous devez importer le certificat racine Autorité de certification émettrice et les certificats d’autorité de certification intermédiaires et puis assigner le certificat en cliquant sur **affecter** sur la page Assistant Certificat principale.
+> Si le certificat racine de l’autorité de certification émettrice ne se trouve pas dans le magasin d’autorités de certification de confiance de l’ordinateur ou s’il ne se trouve pas dans le magasin approprié, vous verrez le statut de synthèse, comme illustré dans l’image suivante. Vous n’avez pas la possibilité d’attribuer le certificat. Pour finaliser le processus d’attribution de certificats, vous devez importer le certificat racine de l’autorité de certification émettrice et les certificats d’autorité de certification intermédiaires, puis attribuer le certificat en cliquant sur **affecter** dans la page de l’Assistant certificat principal.
   
 

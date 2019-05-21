@@ -1,24 +1,24 @@
 ---
-title: Phase 4 utilisateurs de test de déplacement vers le pool pilote
+title: Étape 4 déplacer les utilisateurs du test vers le pool de pilotes
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: "Vous pouvez déplacer un seul utilisateur ou groupes d’utilisateurs à votre nouveau Skype Microsoft Business Server 2019 déploiement à l’aide de le des deux méthodes suivantes : Skype pour le panneau de configuration serveur Business et Skype pour Business Server Management Shell. Les rubriques de cette section décrivent les tâches à qu'effectuer lors du déploiement pilote, ainsi qu’avant de faire passer votre déploiement de Skype pour Business Server 2019 d’un déploiement pilote à un déploiement en environnement de production."
-ms.openlocfilehash: 69278cb325209823136a21e03b9261baf680ab73
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Vous pouvez déplacer un ou plusieurs utilisateurs vers votre nouveau déploiement de Microsoft Skype entreprise Server 2019 selon les deux méthodes suivantes: le panneau de configuration Skype entreprise Server et Skype entreprise Server Management Shell. Les rubriques de cette section décrit les tâches que vous devez effectuer au cours du déploiement pilote, ainsi que avant de migrer votre déploiement de Skype entreprise Server 2019 d’un déploiement pilote vers un déploiement de niveau production.'
+ms.openlocfilehash: ae9c2de289759ae3e57dfd8337dd7cc4171aba61
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231559"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34273930"
 ---
-# <a name="phase-4-move-test-users-to-the-pilot-pool"></a>Phase 4 : Déplacer les utilisateurs de test le pool pilote
+# <a name="phase-4-move-test-users-to-the-pilot-pool"></a>Étape 4: déplacer les utilisateurs de test vers le pool de pilotes
 
-Vous pouvez déplacer un seul utilisateur ou groupes d’utilisateurs à votre nouveau Skype Microsoft Business Server 2019 déploiement à l’aide de le des deux méthodes suivantes : Skype pour le panneau de configuration serveur Business et Skype pour Business Server Management Shell. Les rubriques de cette section décrivent les tâches à qu'effectuer lors du déploiement pilote, ainsi qu’avant de faire passer votre déploiement de Skype pour Business Server 2019 d’un déploiement pilote à un déploiement en environnement de production.
+Vous pouvez déplacer un ou plusieurs utilisateurs vers votre nouveau déploiement de Microsoft Skype entreprise Server 2019 selon les deux méthodes suivantes: le panneau de configuration Skype entreprise Server et Skype entreprise Server Management Shell. Les rubriques de cette section décrit les tâches que vous devez effectuer au cours du déploiement pilote, ainsi que avant de migrer votre déploiement de Skype entreprise Server 2019 d’un déploiement pilote vers un déploiement de niveau production.
   
 ## <a name="in-this-section"></a>Contenu de cette section
 
@@ -26,8 +26,8 @@ Vous pouvez déplacer un seul utilisateur ou groupes d’utilisateurs à votre n
     
 - [Vérifier que la réplication utilisateur est terminée](verify-user-replication-has-completed.md)
     
-- [Déplacement d’un utilisateur vers le pool pilote](move-a-single-user-to-the-pilot-pool.md)
+- [Déplacer un utilisateur unique vers le pool de pilotes](move-a-single-user-to-the-pilot-pool.md)
     
-- [Déplacer plusieurs utilisateurs vers le pool pilote](move-multiple-users-to-the-pilot-pool.md)
+- [Déplacer plusieurs utilisateurs vers le pool de pilotes](move-multiple-users-to-the-pilot-pool.md)
     
 

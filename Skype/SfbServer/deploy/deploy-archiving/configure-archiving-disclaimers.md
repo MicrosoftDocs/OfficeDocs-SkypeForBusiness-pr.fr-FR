@@ -1,37 +1,37 @@
 ---
-title: Configurer des notifications d’exclusion d’archivage pour les utilisateurs externes Skype pour Business Server
+title: Configuration de l’archivage des demandes d’incentive pour les utilisateurs externes dans Skype entreprise Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 394ac291-05cd-4fa1-acb3-714af538b47f
-description: 'Résumé : Lisez cette rubrique pour savoir comment configurer une notification d’exclusion d’archivage pour Skype pour Business Server.'
-ms.openlocfilehash: 7cc1c5c770a20c9ccd4d1473eeca4147042fde95
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Résumé: cette rubrique vous explique comment configurer un déni d’utilisation de l’archivage pour Skype entreprise Server.'
+ms.openlocfilehash: 86430ac80d85ed166ae091119f4261cdc5e1ff9b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894154"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34278982"
 ---
-# <a name="configure-archiving-disclaimers-for-external-users-in-skype-for-business-server"></a>Configurer des notifications d’exclusion d’archivage pour les utilisateurs externes Skype pour Business Server
+# <a name="configure-archiving-disclaimers-for-external-users-in-skype-for-business-server"></a>Configuration de l’archivage des demandes d’incentive pour les utilisateurs externes dans Skype entreprise Server
  
-**Résumé :** Lisez cette rubrique pour savoir comment configurer une notification d’exclusion d’archivage pour Skype pour Business Server.
+**Résumé:** Pour plus d’informations sur la configuration d’un déni d’utilisation pour Skype entreprise Server, reportez-vous à cette rubrique.
   
-Si votre organisation communique avec des partenaires externes, vous devez leur faire savoir que vous archivez vos communications. Lorsque vous déployez un serveur de périphérie et activez la fédération pour votre organisation, vous êtes invité si vous souhaitez envoyer automatiquement une notification d’exclusion d’archivage aux partenaires externes. 
+Si votre organisation communique avec des partenaires externes, vous devez leur faire savoir que vous archivez vos communications. Lorsque vous déployez un serveur Edge et activez la Fédération pour votre organisation, vous êtes invité à indiquer si vous souhaitez envoyer automatiquement une exclusion d’autorisation à des partenaires externes. 
   
-Si vous devez modifier cette configuration, vous pouvez utiliser la Skype pour le panneau de configuration serveur Business ou l’applet de commande Windows PowerShell **Set-CsAccessEdgeConfiguration** . Applets de commande peut être exécutée à partir de la Skype pour le shell de gestion Business Server ou à partir d’une session à distance de Windows PowerShell.
+Si vous devez modifier cette configuration, vous pouvez utiliser le panneau de configuration Skype entreprise Server ou l’applet de commande Windows PowerShell **Set-CsAccessEdgeConfiguration** . Les applets de commande peuvent être exécutées à partir de Skype entreprise Server Management Shell ou à partir d’une session distante de Windows PowerShell.
   
-Pour permettre aux utilisateurs externes de collaborer avec des utilisateurs dans votre Skype pour le déploiement de serveur d’entreprise, vous devez également configurer au moins une stratégie d’accès externe pour prendre en charge l’accès des utilisateurs externes. Pour plus d’informations, voir Manage XMPP Federated Partners for Your Organization. Pour plus d’informations sur le contrôle d’accès de domaines fédérés spécifiques, reportez-vous à Control Access by Individual Federated Domains.
+Pour permettre aux utilisateurs externes de collaborer avec des utilisateurs dans le déploiement de Skype entreprise Server, vous devez également configurer au moins une stratégie d’accès externe pour prendre en charge l’accès des utilisateurs externes. Pour plus d’informations, reportez-vous à la rubrique gérer les partenaires fédérés fédérés pour votre organisation. Pour plus d’informations sur le contrôle d’accès de domaines fédérés spécifiques, reportez-vous à Control Access by Individual Federated Domains.
   
 ## <a name="enable-or-disable-archiving-disclaimer-using-the-control-panel"></a>Activer ou désactiver une nouvelle notification d’exclusion relative à l’archivage à l’aide du panneau de configuration
 
-1. À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou est affecté au rôle CsAdministrator, ouvrez une session sur n’importe quel ordinateur dans votre déploiement interne.
+1. À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affectées au rôle CsAdministrator, connectez-vous à n’importe quel ordinateur dans votre déploiement interne.
     
-2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business. 
+2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration Skype entreprise Server. 
     
 3. Dans la barre de navigation de gauche, cliquez sur **Fédération et accès externe**, puis sur **Configuration du serveur Edge d’accès**.
     

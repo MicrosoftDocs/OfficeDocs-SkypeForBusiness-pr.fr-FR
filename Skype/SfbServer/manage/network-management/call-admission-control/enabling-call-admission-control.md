@@ -4,43 +4,43 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: " Après avoir configuré l’appel d’admission des appels (CAC) réseau, vous devez activer CAC appliquer les limitations de bande passante."
-ms.openlocfilehash: a819f3a42078c094c0fc8bf10f788bbaf3361e20
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: " Après avoir configuré le réseau CAC (Call Admission Control), vous devez activer le CAC pour appliquer les limitations de bande passante."
+ms.openlocfilehash: cbe3ad690f7061611a91474ce6df1fe39d84b0fd
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33888330"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279549"
 ---
 # <a name="enabling-call-admission-control-in-skype-for-business-server"></a>Activation du contrôle d’admission des appels dans Skype Entreprise Server
 
-Le contrôle d’admission des appels est un réseau de régions, de sites et de sous-réseaux qui permettant de définir des restrictions pour les transmissions audio et vidéo en fonction de la bande passante disponible. Après avoir configuré le réseau CAC, vous devez activer CAC appliquer les limitations de bande passante. Vous pouvez utiliser la Skype pour Business Server Control Panel pour effectuer cette opération.
+Le contrôle d’admission des appels est un réseau de régions, de sites et de sous-réseaux qui permettant de définir des restrictions pour les transmissions audio et vidéo en fonction de la bande passante disponible. Après avoir configuré le réseau CAC, vous devez activer le CAC pour appliquer les limitations de bande passante. Pour cela, vous pouvez utiliser le panneau de configuration Skype entreprise Server.
 
 
-## <a name="to-enable-cac-from-the-skype-for-business-server-control-panel"></a>Pour activer CAC à partir de la Skype pour Business Server Control Panel
+## <a name="to-enable-cac-from-the-skype-for-business-server-control-panel"></a>Pour activer le CAC dans le panneau de configuration Skype entreprise Server
 
-1.  À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou est affecté au rôle CsAdministrator, ouvrez une session sur n’importe quel ordinateur dans votre déploiement interne.
+1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affectées au rôle CsAdministrator, connectez-vous à n’importe quel ordinateur dans votre déploiement interne.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business. 
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration Skype entreprise Server. 
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Configuration réseau**, puis cliquez sur **Global**.
+3.  Dans la barre de navigation de gauche, cliquez sur **configuration du réseau**, puis sur **Global**.
 
-4.  Dans la page **globale** , cliquez sur la configuration **globale** .
+4.  Dans la page **Global** , cliquez sur configuration **globale** .
    
     > [!NOTE]  
-    > Seul réseau peut être configuré pour n’importe quel Skype pour le déploiement de serveur d’entreprise, il y aura jamais plus d’une configuration réseau dans la liste. Vous ne pouvez pas renommer la configuration globale.
+    > Un seul réseau peut être configuré pour n’importe quel déploiement de Skype entreprise Server, de sorte qu’il ne reste jamais plus d’une configuration réseau dans la liste. Vous ne pouvez pas renommer la configuration globale.
 
 5.  Dans le menu **Edition**, cliquez sur **Afficher les détails**.
 
-6.  Dans la page **Modifier la configuration globale** , activez la case à cocher **Activer le contrôle d’admission des appels** , puis cliquez sur **Valider**.
+6.  Dans la page **modifier le paramètre global** , activez la case à cocher **activer le contrôle d’admission des appels** , puis cliquez sur **valider**.
 
-Lorsque vous cliquez sur **Valider**, vous exécutez un test de la configuration. Ferme la boîte de dialogue **Modifier les paramètres globaux** , vous revenez à la page **Global** . Vous recevrez un avertissement si des erreurs ou des incohérences sont découvertes dans la configuration de votre réseau qui l’empêche de fonctionner correctement (par exemple, si chaque région n’est pas connectée à toutes les autres régions via un itinéraire inter-région).
+Lorsque vous cliquez sur **valider**, vous effectuez un test de la configuration. La boîte de dialogue **modifier les paramètres globaux** se ferme et vous permet de revenir à la page **globale** . Vous recevez un avertissement en cas d’erreurs ou d’éventuelles incohérences détectées dans votre configuration réseau qui empêche celle-ci de fonctionner correctement (par exemple, si chaque région n’est pas connectée à une autre région par le biais d’un itinéraire interrégion).
 
-Si vous apportez des modifications à la configuration de votre réseau, vous pouvez exécuter à nouveau le contrôle de validation en ouvrant la configuration globale et en cliquant sur **Valider**. Vous n’avez pas besoin de désactiver CAC tout d’abord : laissez la case à cocher activée et cliquez sur **Valider**. Vous pouvez le faire à tout moment sans apporter de modifications de configuration.
+Si vous apportez des modifications à la configuration de votre réseau, vous pouvez exécuter de nouveau le contrôle de validation en ouvrant la configuration globale et en cliquant sur **valider**. Vous n’avez pas besoin de désactiver le CAC d’abord: laissez la case à cocher activée, puis cliquez sur **valider**. Vous pouvez le faire à tout moment sans apporter de modifications à la configuration.
 
 ## <a name="see-also"></a>Voir aussi
 
@@ -48,8 +48,8 @@ Si vous apportez des modifications à la configuration de votre réseau, vous po
  
 [Déploiement du contrôle d’admission des appels](../../../deploy/deploy-enterprise-voice/deploy-call-admission-control.md) 
 
-[Get-CsNetworkConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkConfiguration)  
+[Get-Csnetworkconfiguration permettent](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkConfiguration)  
 
-[Set-CsNetworkConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkConfiguration)  
+[Set-Csnetworkconfiguration permettent](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkConfiguration)  
 
-[Remove-CsNetworkConfiguration](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkConfiguration)  
+[Remove-Csnetworkconfiguration permettent](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkConfiguration)  

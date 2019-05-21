@@ -1,10 +1,10 @@
 ---
-title: Planifier des fonctionnalités de gestion des appels dans Skype pour les entreprises
+title: Planifier les fonctionnalités de gestion des appels dans Skype entreprise
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,25 +13,25 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 5f557345-5a04-45d6-b274-c02dbfe41b33
-description: Vue d’ensemble des fonctionnalités de gestion des appels pris en charge dans Skype pour Business Server Enterprise Voice.
-ms.openlocfilehash: bc7e37034d61d9c5c6b8ab7a266382b8405fa6bf
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Présentation des fonctionnalités de gestion des appels prises en charge dans Skype entreprise Server Voice.
+ms.openlocfilehash: 9c1bdc73ea4656fa2e0d352988f61d6db428a80c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33909266"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34277061"
 ---
-# <a name="plan-for-call-management-features-in-skype-for-business"></a>Planifier des fonctionnalités de gestion des appels dans Skype pour les entreprises
+# <a name="plan-for-call-management-features-in-skype-for-business"></a>Planifier les fonctionnalités de gestion des appels dans Skype entreprise
 
-Vue d’ensemble des fonctionnalités de gestion des appels pris en charge dans Skype pour Business Server Enterprise Voice.
+Présentation des fonctionnalités de gestion des appels prises en charge dans Skype entreprise Server Voice.
 
-Appel d’Enterprise Voice fonctionnalités de gestion de contrôlent la façon dont les appels entrants sont acheminés et y répondre. Skype pour Business Server fournit des fonctionnalités de gestion de l’appel suivant :
+Les fonctionnalités de gestion des appels voix entreprise contrôlent la façon dont les appels entrants sont routés et répondent. Skype entreprise Server inclut les fonctionnalités de gestion des appels suivantes:
 
-- **Parcage d’appel**: permet aux utilisateurs voix parquer temporairement un appel, puis de le reprendre depuis le même ou un autre téléphone.
+- **Parc d’appels**: permet aux utilisateurs de la voix de parcer temporairement un appel et de le décrocher du même numéro ou d’un autre téléphone.
 
-- **Collecte de groupe**: permet aux utilisateurs de voix identifier les appels sont simultanée pour d’autres utilisateurs de voix qui sont attribués à l’appel des groupes de collecte.
+- **Enlèvement de groupe**: permet aux utilisateurs de la voix de décrocher les appels qui sonnent pour d’autres utilisateurs vocaux disposant de groupes de cueillette d’appel.
 
-- **Response Group**: achemine les appels entrants vers des groupes d’agents à l’aide de groupes ou vocale interactive (IVR) questions et réponses réponse postes.
+- **Response Group**: route les appels entrants vers des groupes d’agents en utilisant des groupes de recherche ou des questions et réponses de réponse vocale interactives.
 
 - **Annonce** : lit un message pour les appels passés à un numéro non attribué et/ou achemine l’appel vers un autre emplacement.
 

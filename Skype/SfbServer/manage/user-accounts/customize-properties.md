@@ -1,170 +1,170 @@
 ---
-title: Personnaliser les propriétés du compte d’utilisateur pour Skype pour Business Server
+title: Personnaliser des propriétés de compte d’utilisateur pour Skype entreprise Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 505d9619-adab-4cc4-b054-89286e18a19b
-description: Vous pouvez utiliser les procédures décrites dans cette section pour modifier les propriétés du compte d’utilisateur individuel.
-ms.openlocfilehash: 1f2039180a2bfa44b3379f7cf6bf095e2d0a7c14
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Vous pouvez utiliser les procédures décrites dans cette section pour modifier des propriétés de compte d’utilisateur individuelles.
+ms.openlocfilehash: d0e1a3ac02f5696e91e07c0f08cf0cf10e09f98e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33911832"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34275072"
 ---
-# <a name="customize-user-account-properties-for-skype-for-business-server"></a>Personnaliser les propriétés du compte d’utilisateur pour Skype pour Business Server
+# <a name="customize-user-account-properties-for-skype-for-business-server"></a>Personnaliser des propriétés de compte d’utilisateur pour Skype entreprise Server
  
-Vous pouvez utiliser les procédures décrites dans cette section pour modifier les propriétés du compte d’utilisateur individuel.
+Vous pouvez utiliser les procédures décrites dans cette section pour modifier des propriétés de compte d’utilisateur individuelles.
   
-Il existe deux opérations de base qui peuvent être effectuées au niveau de chaque utilisateur :
+Deux opérations de base peuvent être effectuées au niveau utilisateur individuel:
   
 - [Configurer les options de téléphonie pour un compte d’utilisateur spécifique](customize-properties.md#Tel_Op)
     
-- [Déplacer les utilisateurs vers un autre pool](customize-properties.md#Move_Users)
+- [Déplacer des utilisateurs vers un autre pool](customize-properties.md#Move_Users)
     
 ## <a name="configure-telephony-options-for-a-specific-user-account"></a>Configurer les options de téléphonie pour un compte d’utilisateur spécifique
 <a name="Tel_Op"> </a>
 
-Vous pouvez personnaliser les paramètres de téléphonie pour un utilisateur spécifique (tant que l’utilisateur a été activé pour Skype pour Business Server et l’organisation prend en charge la téléphonie).
+Vous pouvez personnaliser les paramètres de téléphonie pour un utilisateur spécifique (tant que l’utilisateur individuel a été activé pour Skype entreprise Server et l’Organisation prend en charge la téléphonie).
   
-Skype pour les options de téléphonie utilisateur Business Server sont les suivantes :
+Les options de téléphonie de l’utilisateur Skype entreprise Server incluent les éléments suivants:
   
-- **Audio/vidéo désactivé** L’utilisateur ne peut pas émettre des appels avec audio et vidéo.
+- **Audio/vidéo désactivé** L’utilisateur ne peut pas passer d’appels à l’aide de l’audio et de la vidéo.
     
-- **PC à PC uniquement** L’utilisateur peut effectuer uniquement aux appels de PC à PC audio ou vidéo.
+- **PC à PC uniquement** L’utilisateur peut passer des appels audio ou vidéo de PC à PC.
     
-- **Voix entreprise** L’utilisateur peut utiliser le Skype pour infrastructure Business Server pour acheminer tous les appels entrants et sortants. L’utilisateur peut aussi passer des appels de PC à PC.
+- **Voix entreprise** L’utilisateur peut utiliser l’infrastructure du serveur Skype entreprise pour acheminer tous les appels entrants et sortants. L’utilisateur peut également passer des appels de PC à PC.
     
-- **Contrôle d’appel distant** L’utilisateur peut utiliser Skype pour Business Server pour contrôler le téléphone de bureau et peut aussi passer des appels de PC à PC.
+- **Contrôle d’appel distant** L’utilisateur peut utiliser Skype entreprise Server pour contrôler le téléphone de bureau et peut également passer des appels de PC à PC.
     
-Pour plus d’informations sur la configuration de téléphonie dans une organisation, voir [Activer les utilisateurs pour Enterprise Voice dans Skype pour Business Server](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md) et le [Déploiement d’Enterprise Voice dans Skype pour Business Server](../../deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) dans la documentation de déploiement.
+Pour plus d’informations sur la configuration de la téléphonie pour une organisation, reportez-vous à la rubrique [activer les utilisateurs d’Enterprise Voice dans Skype entreprise Server](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md) et [déployer Enterprise Voice dans Skype entreprise Server](../../deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) dans la documentation de déploiement.
   
 1. À partir d’un compte d’utilisateur auquel est affecté le rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
     
-2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business. 
+2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration Skype entreprise Server. 
     
 3. Dans la barre de navigation de gauche, cliquez sur **Utilisateurs**.
     
-4. Dans la zone **Rechercher des utilisateurs** , tapez tout ou la première partie du nom complet, prénom, dernier nom, nom de compte Gestionnaire de comptes de sécurité (SAM), adresse SIP ou au trait identificateur URI (Uniform Resource) du compte d’utilisateur que vous souhaitez, puis cliquez sur **Rechercher **.
+4. Dans la boîte de dialogue **Rechercher des utilisateurs** , entrez tout ou la première partie du nom complet, prénom, nom, nom du compte de comptes de sécurité, adresse SIP ou URI (Uniform Resource Identifier) du compte d’utilisateur que vous souhaitez, puis cliquez sur **Rechercher. **.
     
-5. Dans le tableau, cliquez sur le compte d’utilisateur que vous souhaitez modifier.
+5. Dans la table, cliquez sur le compte d’utilisateur que vous voulez modifier.
     
-6. Dans le menu **Edition** , cliquez sur **Modifier**.
+6. Dans le menu **édition** , cliquez sur **modifier**.
     
-7. En **téléphonie**, procédez comme suit :
+7. En **téléphonie**, procédez comme suit:
     
-   - Pour désactiver les appels audio et vidéo pour l’utilisateur, cliquez sur **Audio/vidéo désactivé**.
+   - Pour désactiver les appels audio et vidéo pour l’utilisateur, cliquez sur **audio/vidéo désactivé**.
     
-   - Pour activer les communications audio de PC à PC pour l’utilisateur, mais pas le contrôle d’appel ou un Enterprise Voice, cliquez sur **PC à PC uniquement**. Spécifiez une valeur pour **URI de ligne** pour le téléphone de l’utilisateur pour les communications audio de PC à PC.
+   - Pour activer les communications audio de PC à ordinateur pour l’utilisateur, mais pas le contrôle d’appel distant ni la voix entreprise, cliquez sur **PC à PC uniquement**. Spécifiez une valeur pour **URI ligne** pour le téléphone utilisée par l’utilisateur pour les communications audio de PC à PC.
     
-   - Pour acheminer les appels téléphoniques de l’utilisateur à l’aide de la Skype pour l’infrastructure d’entreprise, conformément à la classe de stratégie de service, y compris les communications audio de PC à PC, cliquez sur **Enterprise Voice**. Dans **URI de ligne**, spécifiez le numéro de téléphone pour Enterprise Voice. Dans **stratégie de plan de numérotation** et **la stratégie de voix**, spécifiez les stratégies appropriées pour l’utilisateur. Pour spécifier les règles de normalisation pour traduire les numéros de téléphone composés par l’utilisateur au format E.164, sélectionnez le profil d’emplacement approprié dans la **stratégie d’emplacement**.
+   - Pour acheminer les appels téléphoniques de l’utilisateur à l’aide de l’infrastructure Skype entreprise conformément à la classe de la politique de service, y compris la communication audio de PC à PC, cliquez sur **voix entreprise**. Dans **URI de ligne**, spécifiez le numéro de téléphone d’entreprise voix. Dans **politique de plan** de numérotation et de **stratégie vocale**, spécifiez les stratégies appropriées pour l’utilisateur. Pour spécifier les règles de normalisation pour la traduction des numéros de téléphone numérotés par l’utilisateur au format E. 164, sélectionnez le profil d’emplacement approprié dans la **politique d’emplacement**.
     
-   - Pour permettre d’appel distant contrôle, qui permet aux utilisateurs de contrôler la ligne de leur téléphone de bureau à partir de Skype pour émettre des appels de PC à PC et PC à téléphone Business Server, cliquez sur **le contrôle d’appel distant**. Dans **URI de ligne**, spécifiez le numéro de téléphone pour le contrôle d’appel distant. L’utilisateur doit avoir une connexion à exchange (PBX) autocommutateur privé pour le routage des appels et le téléphone de bureau.
+   - Pour activer le contrôle d’appel distant, qui permet aux utilisateurs de contrôler leur ligne téléphonique de bureau dans Skype entreprise Server afin de passer des appels de PC à PC et des appels de PC à téléphone, cliquez sur **contrôle d’appel distant**. Dans **URI de ligne**, spécifiez le numéro de téléphone du contrôle d’appel distant. Pour le routage des appels, l’utilisateur doit avoir un téléphone de bureau et une connexion PBX (Private Branch Exchange).
     
-## <a name="move-users-to-another-pool"></a>Déplacer les utilisateurs vers un autre pool
+## <a name="move-users-to-another-pool"></a>Déplacer des utilisateurs vers un autre pool
 <a name="Move_Users"> </a>
 
-Vous pouvez utiliser Skype pour Business Server Control Panel pour affecter des utilisateurs à un serveur spécifique ou un pool.
+Vous pouvez utiliser le panneau de configuration Skype entreprise Server pour attribuer des utilisateurs à un serveur ou un pool spécifique.
   
 > [!TIP]
-> Déplacement de tous les utilisateurs existants à partir d’un pool source exécutant Lync Server 2010 ou version antérieure vers un Skype pour le pool de destination Business Server dans un environnement Active Directory complexe peut entraîner la réplication Active Directory plus lente. Pour éviter ce problème, vous pouvez utiliser des filtres de recherche pour déplacer des utilisateurs à partir des pools qui exécutent Lync Server 2010 ou précédemment séparément, ou vous pouvez utiliser Skype pour Business Server Management Shell pour déplacer des utilisateurs avec les applets de commande. En outre, la fonctionnalité de filtre fonctionne avec Skype pour les utilisateurs Business Server. 
+> Le déplacement de tous les utilisateurs existants à partir d’un pool de sources qui exécute Lync Server 2010 ou une version antérieure vers un pool de destination Skype entreprise Server dans un environnement Active Directory complexe peut ralentir la réplication Active Directory. Pour éviter ce problème, vous pouvez utiliser des filtres de recherche pour déplacer des utilisateurs de pools exécutant Lync Server 2010 ou une version antérieure séparément, ou vous pouvez utiliser Skype entreprise Server Management Shell pour déplacer des utilisateurs avec des cmdlets. Par ailleurs, la fonctionnalité filtre fonctionne avec les utilisateurs de Skype entreprise Server. 
   
-### <a name="to-move-selected-users-to-a-different-server-or-pool"></a>Pour déplacer les utilisateurs sélectionnés vers un autre serveur ou un pool
+### <a name="to-move-selected-users-to-a-different-server-or-pool"></a>Pour déplacer des utilisateurs sélectionnés vers un autre serveur ou pool
 
 1. À partir d’un compte d’utilisateur auquel est affecté le rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
     
-2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business.  
+2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration Skype entreprise Server.  
     
 3. Dans la barre de navigation de gauche, cliquez sur **Utilisateurs**.
     
-4. Dans la zone **Rechercher des utilisateurs** , tapez tout ou la première partie du nom complet, prénom, dernier nom, nom de compte Gestionnaire de comptes de sécurité (SAM), adresse SIP ou au trait identificateur URI (Uniform Resource) du compte d’utilisateur que vous souhaitez, puis cliquez sur **Rechercher **. 
+4. Dans la boîte de dialogue **Rechercher des utilisateurs** , entrez tout ou la première partie du nom complet, prénom, nom, nom du compte de comptes de sécurité, adresse SIP ou URI (Uniform Resource Identifier) du compte d’utilisateur que vous souhaitez, puis cliquez sur **Rechercher. **. 
     
-5. Dans le tableau, sélectionnez un ou plusieurs utilisateurs dans la liste. 
+5. Dans le tableau, sélectionnez un utilisateur ou des utilisateurs spécifiques dans la liste. 
     
-6. Dans le menu **Action** , cliquez sur **déplacer les utilisateurs sélectionnés vers le pool**.
+6. Dans le menu **action** , cliquez sur **déplacer les utilisateurs sélectionnés vers le pool**.
     
-7. Dans **Déplacer des utilisateurs**, sélectionnez le pool que vous souhaitez déplacer les utilisateurs dans le **pool de serveurs d’inscriptions de Destination**.
+7. Dans **déplacer les utilisateurs**, sélectionnez le groupe dans lequel vous souhaitez déplacer les utilisateurs dans le **pool d’inscriptions de destination**.
     
-8. (Facultatif) Si le serveur de destination ou le pool n’est pas disponible, activez la case à cocher **forcer** .
+8. Facultatif Si le serveur de destination ou le pool n’est pas disponible, activez la case à cocher **forcer** .
     
     > [!CAUTION]
-    > Si vous sélectionnez **Force**, le compte d’utilisateur est déplacé, mais toutes les données utilisateur associé sont supprimées (par exemple, l’utilisateur a planifié des conférences). Si vous n’activez pas le, le compte et les données associées sont déplacées. 
+    > Si vous sélectionnez l’option **force**, le compte d’utilisateur est déplacé, mais les données utilisateur associées sont supprimées (par exemple, conférences que l’utilisateur a planifiées). Si vous ne la sélectionnez pas, le compte et les données associées sont déplacés. 
   
-### <a name="to-move-all-users-from-one-server-or-pool-to-a-different-server-or-pool"></a>Pour déplacer tous les utilisateurs d’un serveur ou pool vers un autre serveur ou un pool
+### <a name="to-move-all-users-from-one-server-or-pool-to-a-different-server-or-pool"></a>Pour déplacer tous les utilisateurs d’un serveur ou d’un pool vers un autre serveur ou pool
 
 1. À partir d’un compte d’utilisateur auquel est affecté le rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
     
-2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business.  
+2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration Skype entreprise Server.  
     
 3. Dans la barre de navigation de gauche, cliquez sur **Utilisateurs**.
     
-4. Dans le menu **Action** , cliquez sur **déplacer tous les utilisateurs vers le pool**.
+4. Dans le menu **action** , cliquez sur **déplacer tous les utilisateurs vers le pool**.
     
-5. Dans **Déplacer des utilisateurs**, sélectionnez le pool contenant les comptes d’utilisateur que vous souhaitez déplacer dans un **pool de serveurs d’inscriptions Source**.
+5. Dans **déplacer les utilisateurs**, sélectionnez le groupe qui contient les comptes d’utilisateurs que vous voulez déplacer dans le **pool d’inscriptions sources**.
     
-6. Dans le **pool de serveurs d’inscriptions de Destination**, sélectionnez le pool que vous souhaitez déplacer les utilisateurs.
+6. Dans la **liste de bureaux**d’enregistrement de destination, sélectionnez le groupe auquel vous voulez déplacer les utilisateurs.
     
-7. (Facultatif) Si le serveur de destination ou le pool n’est pas disponible, activez la case à cocher **forcer** .
+7. Facultatif Si le serveur de destination ou le pool n’est pas disponible, activez la case à cocher **forcer** .
     
     > [!CAUTION]
-    > Si vous sélectionnez **Force**, le compte d’utilisateur est déplacé, mais toutes les données utilisateur associé sont supprimées (par exemple, l’utilisateur a planifié des conférences). Si vous n’activez pas le, le compte et les données associées sont déplacées. 
+    > Si vous sélectionnez l’option **force**, le compte d’utilisateur est déplacé, mais les données utilisateur associées sont supprimées (par exemple, conférences que l’utilisateur a planifiées). Si vous ne la sélectionnez pas, le compte et les données associées sont déplacés. 
   
-### <a name="to-move-users-from-one-pool-to-a-different-pool-by-using-a-filter"></a>Pour déplacer des utilisateurs d’un pool vers un autre pool à l’aide d’un filtre
+### <a name="to-move-users-from-one-pool-to-a-different-pool-by-using-a-filter"></a>Pour déplacer des utilisateurs d’un groupe vers un autre à l’aide d’un filtre
 
 1. À partir d’un compte d’utilisateur auquel est affecté le rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
     
-2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business. 
+2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration Skype entreprise Server. 
     
 3. Dans la barre de navigation de gauche, cliquez sur **Utilisateurs**.
     
-4. Dans la **Recherche d’un utilisateur**, cliquez sur **Rechercher**, puis cliquez sur **Ajouter un filtre**.
+4. Dans la **recherche d’utilisateur**, cliquez sur **Rechercher**, puis sur Ajouter un **filtre**.
     
-5. Dans les critères de recherche, sélectionnez **Pool de serveurs d’inscriptions**, sélectionnez **égal à**, sélectionnez **Actif nom complet du Pool**, puis cliquez sur **Rechercher**.
+5. Dans les critères de recherche, sélectionnez **pool de bureaux**d’enregistrement, sélectionnez **égal à**, sélectionnez **nom de domaine complet du pool actuel**, puis cliquez sur **Rechercher**.
     
-6. Dans le menu **Action** , cliquez sur **déplacer tous les utilisateurs vers le pool**.
+6. Dans le menu **action** , cliquez sur **déplacer tous les utilisateurs vers le pool**.
     
     > [!NOTE]
-    > Lorsqu’un filtre est appliqué à un ensemble existant d’utilisateurs, l’option **déplacer tous les utilisateurs vers le pool** est dans le contexte du sous-ensemble d’utilisateurs, **tous les** utilisateurs possibles pas filtré.
+    > Lorsque vous appliquez un filtre à un ensemble d’utilisateurs existant, l’option **déplacer tous les utilisateurs vers le pool** est dans le contexte du sous-ensemble filtré d’utilisateurs, et non de **tous** les utilisateurs possibles.
   
-7. Dans **Déplacer des utilisateurs**, sélectionnez le pool contenant les comptes d’utilisateur que vous souhaitez déplacer dans un **pool de serveurs d’inscriptions Source**.
+7. Dans **déplacer les utilisateurs**, sélectionnez le groupe qui contient les comptes d’utilisateurs que vous voulez déplacer dans le **pool d’inscriptions sources**.
     
-8. Dans le **pool de serveurs d’inscriptions de Destination**, sélectionnez le pool dans lequel vous souhaitez déplacer les utilisateurs.
+8. Dans la **liste de bureaux**d’enregistrement de destination, sélectionnez le pool dans lequel vous voulez déplacer les utilisateurs.
     
-9. (Facultatif) Si le serveur de destination ou le pool n’est pas disponible, activez la case à cocher **forcer** .
+9. Facultatif Si le serveur de destination ou le pool n’est pas disponible, activez la case à cocher **forcer** .
     
     > [!CAUTION]
-    > Si vous sélectionnez **Force**, le compte d’utilisateur est déplacé, mais toutes les données utilisateur associé sont supprimées (par exemple, l’utilisateur a planifié des conférences et les contacts). Si vous n’activez pas le, le compte et les données associées sont déplacées. 
+    > Si vous sélectionnez l’option **force**, le compte d’utilisateur est déplacé, mais toutes les données utilisateur associées sont supprimées (par exemple, les conférences que l’utilisateur a planifiées et les contacts). Si vous ne la sélectionnez pas, le compte et les données associées sont déplacés. 
   
-### <a name="to-move-users-from-one-pool-to-another-using-windows-powershell-cmdlets"></a>Pour déplacer les utilisateurs d’un pool vers un autre à l’aide des applets de commande Windows Powershell
+### <a name="to-move-users-from-one-pool-to-another-using-windows-powershell-cmdlets"></a>Pour déplacer des utilisateurs d’un pool à un autre à l’aide des cmdlets Windows PowerShell
 
-1. Selon si vous exécutez les commandes Windows PowerShell (c'est-à-dire, localement ou à distance), vous devez ouvrir une session en tant que membre de la Skype correcte des rôles d’administration Business Server comme suit :
+1. En fonction de la manière dont vous exécutez les commandes Windows PowerShell (c’est-à-dire, localement ou à distance), vous devez vous connecter en tant que membre des rôles d’administrateur de Skype entreprise Server appropriés comme suit:
     
-   a. Si vous exécutez les commandes sur l’ordinateur local (par exemple, vous connecter directement à un serveur frontal) : ouvrez une session sur l’ordinateur où Skype pour Business Server Management Shell est installé en tant que membre du groupe RTCUniversalServerAdmins ou disposant des nécessaires droits d’utilisateur tels que décrits dans **Delegate Setup Permissions**.
+   a. Si vous exécutez les commandes sur l’ordinateur local (par exemple, si vous vous connectez directement à un serveur frontal): Connectez-vous à l’ordinateur sur lequel Skype entreprise Server Management Shell est installé en tant que membre du groupe RTCUniversalServerAdmins ou avec la configuration nécessaire. droits d’utilisateur, tels que décrits dans **autorisations de configuration de délégué**.
     
-   b. Si vous exécutez les commandes à distance sur un autre ordinateur (par exemple, vous ouvrez une session sur votre ordinateur et exécutez les commandes à distance sur un serveur Standard Edition serveur frontal) : à partir d’un compte d’utilisateur auquel est affecté le rôle CsUserAdministrator ou le CsAdministrator Role, ouvrez une session sur n’importe quel ordinateur dans votre déploiement interne.
+   b. Si vous exécutez les commandes à distance sur un autre ordinateur (par exemple, si vous ouvrez une session sur votre ordinateur et exécutez les commandes à distance sur un serveur frontal Standard Edition): à partir d’un compte d’utilisateur affecté au rôle CsUserAdministrator ou à CsAdministrator pour vous connecter à n’importe quel ordinateur dans votre déploiement interne.
     
-2. Démarrez le Skype pour Business Server Management Shell : cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Skype pour les entreprises**, puis cliquez sur **Skype pour Business Server Management Shell**.
+2. Démarrer Skype entreprise Server Management Shell: cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise**, puis cliquez sur **Skype entreprise Server Management Shell**.
     
-3. Pour déplacer des utilisateurs individuels, utilisez l’applet de commande Move-CsUser comme suit :
+3. Pour déplacer des utilisateurs uniques, utilisez l’applet de passe Move-CsUser en procédant comme suit:
     
     ```
     Move-CsUser -Identity "Pilar Ackerman" -Target "pool01.contoso.net"
     ```
 
-    Où l’utilisateur à déplacer est l’utilisateur Pilar Ackerman et l’utilisateur sera déplacé à partir de leur pool d’accueil actuellement affecté vers le pool pool01.contoso.net
+    Lorsque l’utilisateur se déplace, c’est l’utilisateur Pilar Arès, et l’utilisateur est déplacé de sa liste de ressources personnelles actuellement affectées au pool pool01.contoso.net
     
-4. Pour déplacer un grand nombre d’utilisateurs, utilisez des filtres avec l’applet de commande **Get-CsUser** et passez l’ensemble d’utilisateurs obtenu vers **Move-CsUser**:
+4. Pour déplacer un grand nombre d’utilisateurs, utilisez des filtres avec l’applet de passe **Get-Csuser** et transmettez le jeu d’utilisateurs obtenu à **Move-Csuser**:
     
     ```
     Get-CsUser -Filter {RegistrarPool -eq "CurrentPoolFqdn"} | Move-CsUser -Target "TargetPoolFQDN"
     ```
 
-    Cela peuvent entraîner les commandes combinées des **Get-CsUser** et **Move-CsUser** :
+    Les commandes combinées de **Get-Csuser** et **Move-Csuser** peuvent être à l’origine:
     
     ```
     Get-CsUser -Filter {RegistrarPool -eq "pool02.contoso.net"} | Move-CsUser -Target "pool01.contoso.net"

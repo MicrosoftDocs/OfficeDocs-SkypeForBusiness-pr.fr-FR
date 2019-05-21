@@ -8,51 +8,51 @@ mtps_version: v=OCS.15
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Vous ne pouvez pas supprimer complètement une stratégie globale. À l’aide de l’option **Supprimer** de la stratégie globale réinitialise uniquement la stratégie globale pour les paramètres par défaut, qui ne comportent pas de prise en charge pour les options d’accès utilisateur externe.
-ms.openlocfilehash: c2f938219a35de97088c26f81d9d59e46e799ebb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Vous ne pouvez pas supprimer complètement une stratégie globale. L’utilisation de l’option **supprimer** dans la stratégie globale rétablit uniquement les paramètres par défaut de la stratégie globale, qui ne prennent pas en charge les options d’accès des utilisateurs externes.
+ms.openlocfilehash: 339ad22e1d049510416bfc3433c6c8a104455504
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33923173"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280144"
 ---
-# <a name="reset-the-global-policy-for-external-user-access-in-skype-for-business-server"></a>Réinitialiser la stratégie globale pour l’accès des utilisateurs externes dans Skype pour Business Server 
+# <a name="reset-the-global-policy-for-external-user-access-in-skype-for-business-server"></a>Réinitialisation de la stratégie globale pour l’accès des utilisateurs externes dans Skype entreprise Server 
 
-Si vous avez créé ou configuré des stratégies d’accès utilisateur externe que vous ne souhaitez plus utiliser, procédez comme suit :
+Si vous avez créé ou configuré des stratégies d’accès des utilisateurs externes que vous ne souhaitez plus utiliser, vous pouvez procéder comme suit:
 
-  - Supprimer une stratégie de site ou d’utilisateur que vous avez créé.
+  - Supprimez les stratégies de site ou d’utilisateur que vous avez créées.
 
-  - Réinitialiser la stratégie globale pour les paramètres par défaut. Les paramètres de stratégie globale par défaut refuser tout accès des utilisateurs externes. Impossible de supprimer la stratégie globale.
+  - Rétablir les paramètres par défaut de la stratégie globale. Les paramètres de stratégie globale par défaut refusent tout accès utilisateur externe. La stratégie globale ne peut pas être supprimée.
 
-Vous ne pouvez pas supprimer complètement une stratégie globale. À l’aide de l’option **Supprimer** de la stratégie globale réinitialise uniquement la stratégie globale pour les paramètres par défaut, qui ne comportent pas de prise en charge pour les options d’accès utilisateur externe.
+Vous ne pouvez pas supprimer complètement une stratégie globale. L’utilisation de l’option **supprimer** dans la stratégie globale rétablit uniquement les paramètres par défaut de la stratégie globale, qui ne prennent pas en charge les options d’accès des utilisateurs externes.
 
-## <a name="to-reset-the-global-policy-to-the-default-settings"></a>Pour réinitialiser la stratégie globale pour les paramètres par défaut
+## <a name="to-reset-the-global-policy-to-the-default-settings"></a>Pour rétablir les paramètres par défaut de la stratégie globale
 
-1.  À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou est affecté au rôle CsAdministrator, ouvrez une session sur n’importe quel ordinateur dans votre déploiement interne.
+1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affectées au rôle CsAdministrator, connectez-vous à n’importe quel ordinateur dans votre déploiement interne.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business.
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration Skype entreprise Server.
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Accès des utilisateurs externes**, cliquez sur **Stratégie d’accès externe**.
+3.  Dans la barre de navigation de gauche, cliquez sur **accès utilisateur externe**, puis sur **stratégie d’accès externe**.
 
-4.  Sous l’onglet **Stratégie d’accès externe** , cliquez sur la stratégie globale, cliquez sur **Modifier**, puis cliquez sur **Supprimer**.
+4.  Dans l’onglet **stratégie d’accès externe** , cliquez sur politique globale, cliquez sur **modifier**, puis cliquez sur **supprimer**.
 
-5.  Lorsque vous y êtes invité à confirmer la suppression, cliquez sur **OK**. Un message s’affiche en haut de la page pour vous informer que la stratégie globale a été réinitialisée.
+5.  Lorsque vous êtes invité à confirmer la suppression, cliquez sur **OK**. Un message s’affiche en haut de la page vous informant que la stratégie globale a été réinitialisée.
 
 
-## <a name="resetting-the-global-external-access-policy-by-using-windows-powershell-cmdlets"></a>Redéfinition de la stratégie d’accès externe globale à l’aide des applets de commande Windows PowerShell
+## <a name="resetting-the-global-external-access-policy-by-using-windows-powershell-cmdlets"></a>Réinitialisation de la stratégie d’accès externe globale à l’aide des cmdlets Windows PowerShell
 
-La stratégie d’accès externe globale peut être réinitialisée à l’aide de Windows PowerShell et l’applet de commande Remove-CsExternalAccessPolicy. Cette applet de commande peut être exécutée à partir de la Skype pour Business Server Management Shell ou à partir d’une session Windows PowerShell à distance. 
+La stratégie d’accès externe globale peut être réinitialisée à l’aide de Windows PowerShell et de l’applet de passe Remove-CsExternalAccessPolicy. Cette applet de commande peut être exécutée à partir de Skype entreprise Server Management Shell ou d’une session distante Windows PowerShell. 
 
 ## <a name="to-reset-the-global-external-access-policy"></a>Pour réinitialiser la stratégie d’accès externe globale
 
-  - Cette commande réinitialise la stratégie d’accès externe globale :
+  - Cette commande réinitialise la stratégie globale d’accès externe:
     
         Remove-CsExternalAccessPolicy -Identity "global"
 
-Pour plus d’informations, consultez la rubrique d’aide pour l’applet de commande [Remove-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsExternalAccessPolicy) .
+Pour plus d’informations, reportez-vous à la rubrique d’aide relative à l’applet de passe [Remove-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsExternalAccessPolicy) .
 
 

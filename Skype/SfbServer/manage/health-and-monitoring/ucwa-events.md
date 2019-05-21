@@ -1,27 +1,27 @@
 ---
-title: Événements UCWA dans Skype pour Business Server
+title: Événements UCWA dans Skype entreprise Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 26cb409d-f4e4-43c7-873f-b694702d491d
-description: 'Résumé : Découvrez les Unified Communications Web API (UCWA) dans Skype pour Business Server.'
-ms.openlocfilehash: f675c16903301412c0c78981b0c17bb9bcc7b24b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Résumé: en savoir plus sur l’API Web de communications unifiées (UCWA) dans Skype entreprise Server.'
+ms.openlocfilehash: bbded70318190fb4fa68ab524a696183c97ff07d
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33897988"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279696"
 ---
-# <a name="ucwa-events-in-skype-for-business-server"></a>Événements UCWA dans Skype pour Business Server
+# <a name="ucwa-events-in-skype-for-business-server"></a>Événements UCWA dans Skype entreprise Server
  
-**Résumé :** Découvrez les Unified Communications Web API (UCWA) dans Skype pour Business Server.
+**Résumé:** En savoir plus sur l’API Unified Communications Web API (UCWA) dans Skype entreprise Server.
   
-Skype pour Business Server utilise l’API de Web Communications (UCWA) unifiée pour un certain nombre de besoins, d’accéder à Microsoft Exchange pour les recherches de contact pour la mise à jour de présence pour les clients mobiles.
+Skype entreprise Server utilise l’API Unified Communications Web API (UCWA) à diverses fins, d’un point de vue de l’accès à Microsoft Exchange pour les recherches de contacts pour la mise à jour de la présence pour les clients mobiles.
   
 L’API UCWA écrit les enregistrements liés aux opérations en tant qu’événements de type information, avertissement ou erreur. Le tableau suivant décrit les événements pouvant être écrits par les composants de l’API UCWA.
   

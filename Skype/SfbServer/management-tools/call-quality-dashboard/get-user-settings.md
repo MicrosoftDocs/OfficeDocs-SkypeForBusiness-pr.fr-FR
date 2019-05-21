@@ -4,50 +4,50 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bdfe063b-e808-4f3c-884a-acbbabb9be0a
-description: 'Résumé : Découvrez l’opération obtenir les paramètres utilisateur, qui fait partie du Service de paramètres utilisateur. Le Service de paramètres utilisateur fait partie de l’API de référentiel pour appeler le tableau de bord qualité. Tableau de bord de qualité des appels est un outil de Skype pour Business Server.'
-ms.openlocfilehash: cef6eef88f4fa7a7410f4967ad698972f98d7c5f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Résumé: en savoir plus sur l’opération obtenir les paramètres d’utilisateur, qui fait partie du service des paramètres utilisateur. Le service de paramètres utilisateur fait partie de l’API du référentiel pour le tableau de bord de qualité des appels. Le tableau de bord de qualité des appels est un outil pour Skype entreprise Server.'
+ms.openlocfilehash: 8d1bb1da9e9a186cbc10f0c8ba36275348bb7267
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930587"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274617"
 ---
 # <a name="get-user-settings"></a>Obtention des paramètres utilisateur
  
-**Résumé :** Obtenir des informations sur l’opération obtenir les paramètres utilisateur, qui fait partie du Service de paramètres utilisateur. Le Service de paramètres utilisateur fait partie de l’API de référentiel pour appeler le tableau de bord qualité. Tableau de bord de qualité des appels est un outil de Skype pour Business Server.
+**Résumé:** En savoir plus sur l’opération obtenir les paramètres d’utilisateur, qui fait partie du service des paramètres utilisateur. Le service de paramètres utilisateur fait partie de l’API du référentiel pour le tableau de bord de qualité des appels. Le tableau de bord de qualité des appels est un outil pour Skype entreprise Server.
   
-L’opération obtenir les paramètres utilisateur fait partie du Service de paramètres utilisateur de l’API de référentiel pour appeler le tableau de bord qualité.
+L’opération obtenir les paramètres utilisateur fait partie du service de paramètres utilisateur de l’API du référentiel pour le tableau de bord de qualité des appels.
   
 ## <a name="get-user-settings"></a>Obtention des paramètres utilisateur
 
-Obtenir les paramètres utilisateur renvoie une liste des paramètres pour un utilisateur spécifié.
+Obtenir les paramètres d’utilisateur renvoie une liste de paramètres pour un utilisateur spécifié.
   
 
-|**Méthode**|**URI de la demande**|**Version HTTP**|
+|**Méthode**|**URI de la requête**|**Version HTTP**|
 |:-----|:-----|:-----|
-|Avoir  <br/> |https://\<portal\>/QoERepositoryService/référentiel/utilisateur / {userId} / définition  <br/> |HTTP/1.1.  <br/> |
+|Télécharger  <br/> |https://\<Portal\>/QoERepositoryService/Repository/User/{userid}/Setting  <br/> |HTTP/1.1  <br/> |
    
- **Paramètres de l’URI**
+ **Paramètres d’URI**
   
-- *efficace* : facultatif. Ce paramètre s’applique uniquement lorsque la valeur par défaut des ID utilisateur spécial est utilisé. Dans les autres cas, il sera ignoré. `True`Renvoie les paramètres utilisateur efficaces et `false` renvoie uniquement les paramètres utilisateur (par défaut).
+- *effective* -facultatif. Ce paramètre s’applique uniquement lorsque la valeur par défaut de l’ID utilisateur spécial est utilisée. Dans les autres cas, elle est ignorée. `True`renvoie des paramètres utilisateur efficaces `false` et renvoie des paramètres utilisateur uniquement (par défaut).
     
-  **En-têtes de demande** - aucun en-tête supplémentaire.
+  **En-têtes de requête** -aucun en-tête supplémentaire.
   
-  **Corps de requête** - None.
+  Le corps de la **requête** .
   
-  **Réponse** - la réponse inclut un code d’état HTTP et un ensemble d’en-têtes de réponse.
+  **Réponse** : la réponse comprend un code d’État http et un ensemble d’en-têtes de réponse.
   
-  **Code d’état** - une opération réussie retourne un code d’état 200 (OK).
+  **Code d’État** -une opération réussie renvoie le code d’état 200 (OK).
   
-  **En-têtes de réponse** - aucun en-tête supplémentaire.
+  **En-têtes de réponse** : aucun en-tête supplémentaire.
   
-  **Corps de réponse** - vous trouverez ci-dessous une charge utile d’exemple réponse au format JSON.
+  Le corps de la **réponse** : Voici un exemple de charge utile de réponse dans JSON.
   
 ```
 [{

@@ -1,10 +1,10 @@
 ---
-title: Gérer les emplacements pour les passerelles ELIN dans Skype pour Business Server
+title: Gestion des emplacements pour les passerelles ELIN dans Skype entreprise Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,21 +13,21 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ced79c13-4e7e-4034-95cd-6fc913f4f222
-description: Décisions nécessaires pour planifier une la base de données d’informations ou une base de données externe similaire, pour un déploiement E9-1-1 dans les passerelles ELIN, Skype pour Business Server Enterprise Voice.
-ms.openlocfilehash: 9e01ab2c3d3d332f83f1c46329fef5b5c9cc45d4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Décisions nécessaires à la planification d’une base de données d’informations d’emplacement ou d’une base de données externe similaire pour un déploiement E9-1-1 à l’aide de passerelles ELIN dans Skype entreprise Server Voice.
+ms.openlocfilehash: e1645be8ed1c6188d1976d794727d0668b79c12e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924737"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34276928"
 ---
-# <a name="manage-locations-for-elin-gateways-in-skype-for-business-server"></a>Gérer les emplacements pour les passerelles ELIN dans Skype pour Business Server
+# <a name="manage-locations-for-elin-gateways-in-skype-for-business-server"></a>Gestion des emplacements pour les passerelles ELIN dans Skype entreprise Server
 
-Décisions nécessaires pour planifier une la base de données d’informations ou une base de données externe similaire, pour un déploiement E9-1-1 dans les passerelles ELIN, Skype pour Business Server Enterprise Voice.
+Décisions nécessaires à la planification d’une base de données d’informations d’emplacement ou d’une base de données externe similaire pour un déploiement E9-1-1 à l’aide de passerelles ELIN dans Skype entreprise Server Voice.
 
-Pour que Skype pour Business Server fournisse automatiquement les emplacements pour les clients au sein d’un réseau, vous devez effectuer les tâches suivantes :
+Pour que Skype entreprise Server fournisse automatiquement des emplacements pour les clients au sein d’un réseau, vous devez effectuer les tâches suivantes:
 
-- Remplir la base de données du service informations d’emplacement avec un schéma de câblage réseau et incluez les numéros d’Identification d’urgence emplacement (en cas) dans le champ CompanyName.
+- Remplissez la base de données de service informations d’emplacement auprès d’un réseau de Wiremap, puis incluez les numéros d’identification d’emplacement d’urgence (ELINs) dans le champ CompanyName.
 
 - Publiez les emplacements afin qu’ils soient disponibles pour les clients dans votre réseau.
 
@@ -36,23 +36,23 @@ Pour que Skype pour Business Server fournisse automatiquement les emplacements p
 Pour plus d’informations sur l’exécution de ces tâches, reportez-vous à [Configure the Location Database](https://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx) dans la documentation de déploiement.
 
 > [!NOTE]
-> Emplacements ajoutés à la base de données centrale ne sont pas disponibles pour le client jusqu'à ce qu’ils ont été publiées à l’aide d’un Skype pour commande Business Server Management Shell et répliqués dans les magasins locaux du pool. Pour plus d’informations, reportez-vous à [Publishing the Location Database](https://technet.microsoft.com/library/dd032b5b-df0e-4017-ac46-e17570c1ab1e.aspx) dans la documentation de déploiement.
+> Les emplacements ajoutés à la base de données d’emplacement central ne sont pas disponibles pour le client tant qu’ils n’ont pas été publiés à l’aide d’une commande Skype entreprise Server Management Shell et répliqués dans les boutiques locales du pool. Pour plus d’informations, reportez-vous à [Publishing the Location Database](https://technet.microsoft.com/library/dd032b5b-df0e-4017-ac46-e17570c1ab1e.aspx) dans la documentation de déploiement.
 
 Cette section décrit les éléments à prendre en compte lorsque vous prévoyez de mettre à jour ou maintenir la base de données des emplacements.
 
 ## <a name="planning-emergency-locations"></a>Planification des emplacements d’urgence
 
-Lorsque vous utilisez les passerelles ELIN, vous remplissez la base de données du service informations d’emplacement avec l’adresse postale, un emplacement spécifique au sein d’un bâtiment et au moins un ELIN pour chaque emplacement. Durant la phase de planification, il est recommandé de décider du nom des emplacements et de l’affectation des numéros d’identification de l’emplacement en cas d’urgence.
+Lorsque vous utilisez des passerelles ELIN, vous remplissez la base de données de service des informations d’emplacement à l’aide de l’adresse postale, d’un emplacement spécifique au sein d’un bâtiment et au moins un ELIN pour chaque emplacement. Durant la phase de planification, il est recommandé de décider du nom des emplacements et de l’affectation des numéros d’identification de l’emplacement en cas d’urgence.
 
 ### <a name="planning-location-names"></a>Planification des noms d’emplacement
 
-Le champ **d’emplacement** de service informations d’emplacement, qui contient l’emplacement spécifique dans un bâtiment, a une longueur maximale de 20 caractères (espaces compris). En respectant cette limite, essayez d’inclure les éléments suivants :
+Le champ d' **emplacement** du service des informations d’emplacement, qui contient l’emplacement spécifique au sein d’un immeuble, a une longueur maximale de 20 caractères (espaces compris). En respectant cette limite, essayez d’inclure les éléments suivants :
 
 - Nom facile à comprendre qui identifie l’emplacement de l’appelant 911 pour s’assurer que les agents des services d’urgence trouvent l’emplacement spécifique rapidement lorsqu’ils arrivent à l’adresse géographique. Ce nom d’emplacement peut inclure un numéro d’immeuble, un numéro d’étage, un indicateur d’aile, un numéro de chambre, etc. Évitez les surnoms connus des seuls employés, qui peuvent induire les agents des services d’urgence en erreur.
 
-- Identificateur d’emplacement qui aide les utilisateurs à vérifier que leur client a sélectionné l’emplacement correct. Le Skype pour client Business concaténé automatiquement et affiche les champs **emplacement** et **ville** découverts dans son en-tête. Une bonne pratique consiste à ajouter l’adresse postale du bâtiment à l’identificateur de chaque emplacement (par exemple, « 1er étage <street number>»). Sans l’adresse postale, un identificateur d’emplacement générique tel que « 1er étage » peut s’appliquer à n’importe quel immeuble de la ville.
+- Identificateur d’emplacement qui aide les utilisateurs à vérifier que leur client a sélectionné l’emplacement correct. Le client Skype entreprise concatène automatiquement et affiche les champs **emplacement** et **ville** détectés dans son en-tête. Il est recommandé d’ajouter l’adresse postale du bâtiment à chaque identificateur d’emplacement (par exemple, «1er étage <street number>»). Sans l’adresse postale, un identificateur d’emplacement générique tel que « 1er étage » peut s’appliquer à n’importe quel immeuble de la ville.
 
-- Si l’emplacement est approximatif car il est déterminé par un point d’accès sans fil, il pouvez que vous souhaitez ajouter le mot **[près]** (par exemple, « proximité du 1er étage 1234 »).
+- Si l’emplacement est approximativement déterminé par un point d’accès sans fil, il est possible que vous souhaitiez ajouter le mot **[proche]** (par exemple, «bientôt 1er étage 1234»).
 
 ### <a name="planning-elins"></a>Planification des numéros d’identification de l’emplacement en cas d’urgence (ELIN)
 
@@ -82,9 +82,9 @@ Où sont stockées les données et quelles étapes devez-vous suivre pour les co
 
  **Disposez-vous d’une base de données tierce qui contient déjà un mappage des emplacements ?**
 
-À l’aide de l’option de service informations d’emplacement secondaire pour se connecter à une base de données tiers, vous pouvez regrouper et gérer les emplacements à l’aide d’une plate-forme en mode hors connexion. Outre la possibilité d’associer des emplacements à des identificateurs réseau, cette approche vous offre l’avantage d’associer des emplacements à un utilisateur. Cela signifie que le service informations d’emplacement peut retourner plusieurs adresses, provenant du service informations d’emplacement secondaire, à un Skype pour client d’entreprise. L’utilisateur peut alors choisir l’emplacement le plus approprié.
+À l’aide de l’option de service des informations de lieu secondaire pour vous connecter à une base de données tierce, vous pouvez regrouper et gérer les emplacements à l’aide d’une plateforme hors connexion. Outre la possibilité d’associer des emplacements à des identificateurs réseau, cette approche vous offre l’avantage d’associer des emplacements à un utilisateur. Cela signifie que le service d’information d’emplacement peut retourner plusieurs adresses à partir du service d’information d’emplacement secondaire, vers un client Skype entreprise. L’utilisateur peut alors choisir l’emplacement le plus approprié.
 
-Pour intégrer avec le service informations d’emplacement, la base de données de tiers doit respecter le Skype pour le schéma de demande/réponse Business emplacement du serveur. Pour plus d’informations, voir [Service Web pour E911 prise en charge de protocole](https://go.microsoft.com/fwlink/p/?linkid=213819). Pour plus d’informations sur le déploiement d’un service informations d’emplacement secondaire, voir [configurer un service d’informations d’emplacement secondaire dans Skype pour Business Server](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md) dans la documentation de déploiement.
+Pour être intégré au service d’information d’emplacement, la base de données tierce doit suivre le schéma de demande/réponse d’emplacement du serveur Skype entreprise Server. Pour plus d’informations, consultez [service Web pour le protocole de support E911](https://go.microsoft.com/fwlink/p/?linkid=213819). Pour plus d’informations sur le déploiement d’un service d’information d’emplacement secondaire, voir [configurer un service d’information d’emplacement secondaire dans Skype entreprise Server](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md) dans la documentation de déploiement.
 
 Pour plus d’informations sur le renseignement de la base de données d’emplacements, reportez-vous à [Configure the Location Database](https://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx) dans la documentation de déploiement.
 
@@ -96,8 +96,8 @@ Une fois que vous avez renseigné la base de données des emplacements, vous dev
 
 L’ajout de points d’accès sans fil, le recâblage du bureau (qui implique des affectations de commutateur différentes) et l’extension des sous-réseaux font partie des nombreux scénarios qui requièrent la mise à jour de la base de données des emplacements. Mettrez-vous directement à jour chaque emplacement individuel ou effectuerez-vous une mise à jour en bloc de tous les emplacements en utilisant un fichier CSV ?
 
- **Allez-vous utiliser une application SNMP pour associer Skype pour les adresses MAC de client Business au port et de commutateur des identificateurs ?**
+ **Allez-vous utiliser une application SNMP pour faire correspondre les adresses MAC client Skype entreprise et les identificateurs de ports et de switches?**
 
-Si vous utilisez une application SNMP, vous devez développer un processus manuel permettant de garder les informations de châssis de commutateur et de port cohérentes entre l’application SNMP et la base de données des emplacements. Si l’application SNMP renvoie un ID d’IP châssis adresse ou un port qui n’est pas inclus dans la base de données, le service informations d’emplacement ne sera pas en mesure de retourner un emplacement pour le client.
+Si vous utilisez une application SNMP, vous devez développer un processus manuel permettant de garder les informations de châssis de commutateur et de port cohérentes entre l’application SNMP et la base de données des emplacements. Si l’application SNMP renvoie une adresse IP du châssis ou un ID de port qui n’est pas inclus dans la base de données, le service d’information d’emplacement n’est pas en mesure de renvoyer un emplacement au client.
 
 

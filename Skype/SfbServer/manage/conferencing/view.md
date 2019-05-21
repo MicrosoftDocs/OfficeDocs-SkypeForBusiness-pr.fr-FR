@@ -1,33 +1,33 @@
 ---
-title: Afficher les stratégies de conférence dans Skype pour Business Server
+title: Afficher les stratégies de conférence dans Skype entreprise Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1c0976e-2bfb-475b-9255-ed6b093d8798
-description: 'Résumé : Découvrez comment afficher les stratégies de conférence dans Skype pour Business Server.'
-ms.openlocfilehash: ccf149aaf7565c5c5f39fbeee53b5669020ee54d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Résumé: Découvrez comment afficher les stratégies de conférence dans Skype entreprise Server.'
+ms.openlocfilehash: 1f1545761838cf176abd88fa12abd9ef5a1d8136
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33888057"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280319"
 ---
-# <a name="view-conferencing-policies-in-skype-for-business-server"></a>Afficher les stratégies de conférence dans Skype pour Business Server
+# <a name="view-conferencing-policies-in-skype-for-business-server"></a>Afficher les stratégies de conférence dans Skype entreprise Server
  
-**Résumé :** Découvrez comment afficher les stratégies de conférence dans Skype pour Business Server.
+**Résumé:** Découvrez comment afficher les stratégies de conférence dans Skype entreprise Server.
   
-Vous pouvez afficher les stratégies de conférence à l’aide de Skype pour le panneau de configuration serveur Business ou à l’aide de Skype pour Business Server Management Shell.
+Vous pouvez afficher les stratégies de conférence en utilisant le panneau de configuration Skype entreprise Server ou en utilisant Skype entreprise Server Management Shell.
   
-## <a name="view-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>Afficher les stratégies de conférence à l’aide de Skype pour Business Server Control Panel
+## <a name="view-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>Afficher les stratégies de conférence à l’aide du panneau de configuration Skype entreprise Server
 
 1. À partir d’un compte d’utilisateur auquel est affecté le rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
     
-2.  Ouvrez le panneau de configuration serveur Business Skype.
+2.  Ouvrez le panneau de configuration Skype entreprise Server.
     
 3. Dans la barre de navigation de gauche, cliquez sur **Conférence**, puis sur **Stratégie de conférence**.
     
@@ -35,11 +35,11 @@ Vous pouvez afficher les stratégies de conférence à l’aide de Skype pour le
     
 5. Dans **Modifier le filtre de fichier**, sélectionnez la case à cocher **Afficher les détails**.
     
-    **Modifier la stratégie de conférence - \<stratégie\> ** s’ouvre et affiche les paramètres de la stratégie sélectionnée.
+    **Modifier une stratégie de \<Conférence\> :** ouvre l’affichage des paramètres pour la stratégie sélectionnée.
     
-    Pour plus d’informations sur la configuration des paramètres, consultez la rubrique [créer des stratégies de conférence de Skype pour Business Server](create-policies.md).
+    Pour plus d’informations sur la configuration des paramètres, consultez la rubrique [créer des stratégies de conférence dans Skype entreprise Server](create-policies.md).
     
-## <a name="view-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Afficher les stratégies de conférence à l’aide de Skype pour Business Server Management Shell
+## <a name="view-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Afficher les stratégies de conférence à l’aide de Skype entreprise Server Management Shell
 
 Pour afficher les stratégies de conférence, utilisez l’applet de commande **Get-Cs ConferencingPolicy** :
   
@@ -86,6 +86,6 @@ TotalReceiveVideoBitRateKb                : 6000
 EnableMultiViewJoin                       : True
 </pre>
 
-Pour plus d’informations, y compris une description de la syntaxe complète et une liste des paramètres, voir [Get-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/get-csconferencingpolicy?view=skype-ps).
+Pour plus d’informations, y compris une description complète de la syntaxe et la liste des paramètres, consultez la rubrique [Get-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/get-csconferencingpolicy?view=skype-ps).
   
 

@@ -4,50 +4,50 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 9e189a48-4944-4f93-88d7-9d56b56770a6
-description: 'Résumé : Découvrez l’opération obtenir les éléments, ce qui fait partie du Service de l’élément. Le Service de l’élément fait partie de l’API de référentiel pour appeler le tableau de bord qualité. Tableau de bord de qualité des appels est un outil de Skype pour Business Server.'
-ms.openlocfilehash: fe8d4f9a64e0855c90ee9f2accb67424ac3edb9c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Résumé: en savoir plus sur l’opération obtenir des éléments, qui fait partie du service d’élément. Le service d’élément fait partie de l’API du référentiel pour le tableau de bord de qualité des appels. Le tableau de bord de qualité des appels est un outil pour Skype entreprise Server.'
+ms.openlocfilehash: a1e7e8525df77cd5aacafb6d41316a985fbe9694
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926121"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274701"
 ---
 # <a name="get-items"></a>Obtenir des éléments
  
-**Résumé :** Obtenir des informations sur l’opération obtenir les éléments, ce qui fait partie du Service de l’élément. Le Service de l’élément fait partie de l’API de référentiel pour appeler le tableau de bord qualité. Tableau de bord de qualité des appels est un outil de Skype pour Business Server.
+**Résumé:** En savoir plus sur l’opération obtenir les éléments, qui fait partie du service d’élément. Le service d’élément fait partie de l’API du référentiel pour le tableau de bord de qualité des appels. Le tableau de bord de qualité des appels est un outil pour Skype entreprise Server.
   
-L’opération obtenir les éléments fait partie du Service d’élément dans l’API de référentiel pour appeler le tableau de bord qualité.
+L’opération obtenir les éléments fait partie du service d’élément dans l’API du référentiel pour le tableau de bord de qualité des appels.
   
 ## <a name="get-items"></a>Obtenir des éléments
 
-Obtenir les éléments renvoie tous les éléments dans le référentiel.
+Get renvoie tous les éléments du référentiel.
   
-|**Méthode**|**URI de la demande**|**Version HTTP**|
+|**Méthode**|**URI de la requête**|**Version HTTP**|
 |:-----|:-----|:-----|
-|Avoir  <br/> |https://\<portal\>/QoERepositoryService/repository/item  <br/> |HTTP/1.1.  <br/> |
+|Télécharger  <br/> |https://\<Portal\>/QoERepositoryService/Repository/Item  <br/> |HTTP/1.1  <br/> |
    
- **Paramètres d’URI** - None.
+ **Paramètres d’URI** -aucun.
   
- **En-têtes de demande** - aucun en-tête supplémentaire.
+ **En-têtes de requête** -aucun en-tête supplémentaire.
   
- **Corps de requête** - None.
+ Le corps de la **requête** .
   
- **Réponse** - la réponse inclut un code d’état HTTP et un ensemble d’en-têtes de réponse.
+ **Réponse** : la réponse comprend un code d’État http et un ensemble d’en-têtes de réponse.
   
- **Code d’état** - une opération réussie retourne un code d’état 200 (OK).
+ **Code d’État** -une opération réussie renvoie le code d’état 200 (OK).
   
- **En-têtes de réponse** - aucun en-tête supplémentaire.
+ **En-têtes de réponse** : aucun en-tête supplémentaire.
   
- **Corps de réponse** - vous trouverez ci-dessous une charge utile d’exemple réponse au format JSON.
+ Le corps de la **réponse** : Voici un exemple de charge utile de réponse dans JSON.
   
 > [!NOTE]
-> Un tableau d’objets d’élément est renvoyé. Pour plus d’informations sur l’objet d’élément, voir obtenir un élément. 
+> Un tableau d’objets Item est retourné. Pour plus d’informations sur l’objet élément, voir obtenir un élément. 
   
 ```
 [{

@@ -5,23 +5,23 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/25/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1eaf8cdf-3dcd-4d6e-ae68-b6f6f9431ad8
-description: 'Résumé : Découvrez comment utiliser le journal du Service de journalisation centralisée (CLS) Skype pour Business Server 2015.'
-ms.openlocfilehash: 9edaf9d8528e03577fa54bb02f876aac017a4146
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Résumé: Découvrez comment utiliser le journal CLS (central Logging Service) dans Skype entreprise Server 2015.'
+ms.openlocfilehash: 496f30bdcedeb491bd5bfa211f08c04853b49bf8
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33915002"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274463"
 ---
 # <a name="cls-logger-for-skype-for-business-server-2015"></a>CLS Logger pour Skype Entreprise Server 2015
  
-**Résumé :** Découvrez comment utiliser le journal du Service de journalisation centralisée (CLS) Skype pour Business Server 2015.
+**Résumé:** Découvrez comment utiliser le journal CLS (central Logging Service) dans Skype entreprise Server 2015.
   
 CLS Logger est un outil qui vous permet de gérer les journauxdu Service de journalisation centralisée (CLS).
   
@@ -37,7 +37,7 @@ Afin de pouvoir utiliser CLS Logger, veillez à ce que les conditions suivantes 
 
 Utiliser les commandes suivantes pour vérifier le statut de journalisation :
   
-1. Dans l’onglet « Scénarios Start/Stop », sélectionnez un regroupement de Pools ou d’ordinateurs dans l’arborescence de la topologie.
+1. Dans l’onglet «démarrer/arrêter les scénarios», sélectionnez un groupe de pools et/ou d’ordinateurs dans l’arborescence.
     
 2. Cliquez sur le bouton Statut de journalisation.
     
@@ -47,7 +47,7 @@ Utiliser les commandes suivantes pour vérifier le statut de journalisation :
 
 Pour lancer un scénario existant :
   
-1. Dans l’onglet « Scénarios Start/Stop », sélectionnez un scénario existant dans le menu déroulant de scénarios.
+1. Dans l’onglet «démarrer/arrêter les scénarios», sélectionnez un scénario existant dans le menu déroulant scénarios.
     
 2. Sélectionnez un groupe de pools et/ou d’ordinateurs dans l’arborescence Topologie.
     
@@ -61,7 +61,7 @@ Pour lancer un scénario existant :
 
 Pour arrêter un scénario existant :
   
-1. Dans l’onglet « Scénarios Start/Stop », sélectionnez un scénario existant dans le menu déroulant de scénarios.
+1. Dans l’onglet «démarrer/arrêter les scénarios», sélectionnez un scénario existant dans le menu déroulant scénarios.
     
 2. Sélectionnez un groupe de pools et/ou d’ordinateurs dans l’arborescence Topologie.
     
@@ -73,7 +73,7 @@ Pour arrêter un scénario existant :
   
 ## <a name="search-for-logs"></a>Recherche dans les journaux
 
-Afin de rechercher des journaux, sélectionnez l’onglet « Recherche CLS journaux », cliquez sur le bouton « Recherche journaux » après avoir sélectionné les champs affichés comme indiqué ci-dessous :
+Pour rechercher des journaux, sélectionnez l’onglet «Rechercher les journaux CLS» et cliquez sur le bouton «Rechercher dans les journaux» après avoir rempli les champs affichés comme décrit ci-dessous:
   
 > **Dossier des fichiers journaux** Dossier d’enregistrement des résultats de la recherche de journaux (obligatoire).
 > 
@@ -111,7 +111,7 @@ Afin de rechercher des journaux, sélectionnez l’onglet « Recherche CLS jour
   
 ## <a name="create-a-scenario"></a>Création d’un scénario
 
-1. Dans l’onglet **Modifier de scénarios** , cliquez sur le bouton **Créer un scénario** .
+1. Dans l’onglet **modifier les scénarios** , cliquez sur le bouton créer un **scénario** .
     
     > [!NOTE]
     > La création d’un scénario duplique la configuration du scénario actuellement sélectionné. Si vous cliquez sur **Effacer les paramètres** avant de créer un scénario, l’opération est effectuée sans que des composants et des indicateurs soient sélectionnés.

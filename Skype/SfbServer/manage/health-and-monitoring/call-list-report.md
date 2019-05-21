@@ -1,27 +1,27 @@
 ---
-title: Rapport de liste d’appels Response Group dans Skype pour Business Server
+title: Rapport de liste des appels de Response Group dans Skype entreprise Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a2d3e08b-511b-4507-abba-8ff71aa27c8e
-description: 'Résumé : Découvrez l’application Response Group dans Skype pour Business Server.'
-ms.openlocfilehash: 1e2a44c73b0748bb7904b26aec952c5fca475520
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Résumé: en savoir plus sur l’application Response Group dans Skype entreprise Server.'
+ms.openlocfilehash: 216f07a81beaa962bf091e815c797611f9e236ac
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33902732"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289335"
 ---
-# <a name="response-group-call-list-report-in-skype-for-business-server"></a>Rapport de liste d’appels Response Group dans Skype pour Business Server
+# <a name="response-group-call-list-report-in-skype-for-business-server"></a>Rapport de liste des appels de Response Group dans Skype entreprise Server
 
-**Résumé :** Découvrez l’application Response Group dans Skype pour Business Server.
+**Résumé:** En savoir plus sur l’application Response Group dans Skype entreprise Server.
 
-L’application Response Group offre un moyen de Skype pour Business Server répondre et acheminer les appels téléphoniques basé sur le numéro qui a été composé et, le cas échéant, les réponses de l’appelant à une série de questions. En règle générale, les appels Response Group ne sont pas acheminés vers une personne, mais vers un ensemble de personnes connu sous le nom de groupe d’agents. Par exemple, si une personne appelle le numéro de téléphone pour votre support technique, Skype pour Business Server peut acheminer automatiquement appel au premier agent de bureau d’aide disponibles. Vous pouvez également Skype pour Business Server peut demander une série de questions (« appuyez sur 1 si vous rencontrez des problèmes de matériel. Appuyez sur 2 pour des problèmes logiciels. Appuyez sur 3 Si vous rencontrez des problèmes réseau. ») puis d’acheminer l’appel vers l’agent d’assistance aide plus approprié en fonction de la réponse à ces questions.
+L’application Response Group permet à Skype entreprise Server de répondre aux appels téléphoniques et de les acheminer en fonction du numéro composé et, éventuellement, des réponses de l’appelant à une série de questions. En règle générale, les appels Response Group ne sont pas acheminés vers une personne, mais vers un ensemble de personnes connu sous le nom de groupe d’agents. Par exemple, si une personne appelle le numéro de téléphone de votre support technique, Skype entreprise Server peut automatiquement diriger l’appel vers le premier agent de support technique disponible. Par ailleurs, Skype entreprise Server peut poser une série de questions (en appuyant sur 1 si vous rencontrez des problèmes de matériel. Appuyez sur 2 pour des problèmes logiciels. Tapez 3 Si vous rencontrez des problèmes de réseau. puis Routez l’appel vers l’agent de support technique le plus approprié en fonction de la réponse à ces questions.
 
 Le Rapport des listes d’appels Response Group représente une collection d’appels effectués pendant une période spécifiée et pour un type d’appel spécifié. Le Rapport d’utilisation de Response Group (qui doit être ouvert au préalable pour que vous puissiez ouvrir le Rapport des listes d’appels Response Group) reconnaît les types d’appels suivants :
 
@@ -39,7 +39,7 @@ Le Rapport des listes d’appels Response Group représente une collection d’a
 
 ## <a name="accessing-the-response-group-call-list-report"></a>Accès au Rapport des listes d’appels Response Group
 
-Le rapport de la liste des appels Response Group est uniquement accessible en cliquant sur une des mesures suivantes que qui se trouvés dans le [Rapport d’utilisation de Response Group dans Skype pour Business Server](response-group-usage-report.md):
+Pour accéder au rapport de la liste des appels de Response Group, vous pouvez uniquement cliquer sur l’une des mesures suivantes figurant sur le [rapport d’utilisation du groupe de réponses dans Skype entreprise Server](response-group-usage-report.md):
 
 - Appels reçus
 
@@ -55,7 +55,7 @@ Le rapport de la liste des appels Response Group est uniquement accessible en cl
 
 Le Rapport des listes d’appels Response Group vous permet de limiter les données affichées aux appels impliquant un flux de travail Response Group particulier. Pour cela, vous devez entrer l’URI de flux de travail (l’adresse SIP du flux de travail) dans la zone URI du flux de travail. Avant cela, vous devez cependant être en mesure de voir cette zone URI du flux de travail. Pour afficher les options de filtrage du Rapport des listes d’appels Response Group, cliquez sur le bouton Afficher / Masquer les paramètres dans la partie supérieure gauche de la fenêtre de rapport.
 
-Notez que le Rapport des listes d’appels Response Group n’affiche pas d’informations relatives au code de réponse ou à l’ID de diagnostic si vous maintenez le pointeur de la souris sur l’une de ces mesures. Si vous avez besoin de plus d’informations, vous pourrez Notez l’ID de Diagnostic et/ou le code de réponse, puis recherchez ces valeurs dans le [Rapport des principales défaillances dans Skype pour Business Server](top-failures-report.md).
+Notez que le Rapport des listes d’appels Response Group n’affiche pas d’informations relatives au code de réponse ou à l’ID de diagnostic si vous maintenez le pointeur de la souris sur l’une de ces mesures. Si vous avez besoin d’informations supplémentaires, vous pouvez noter le code de réponse et/ou l’ID de diagnostic, puis rechercher ces valeurs dans le [rapport principales échecs de Skype entreprise Server](top-failures-report.md).
 
 Si vous souhaitez obtenir la réponse à une question telle que « Quel est le flux de travail ayant reçu le plus d’appels ? », vous pouvez procéder comme suit :
 

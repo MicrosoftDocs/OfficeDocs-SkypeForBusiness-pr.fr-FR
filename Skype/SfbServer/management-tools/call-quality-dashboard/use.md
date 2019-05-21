@@ -1,26 +1,26 @@
 ---
-title: Utiliser le tableau de bord appel qualité pour Skype pour Business Server
+title: Utiliser le tableau de bord de qualité des appels pour Skype entreprise Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ec62b70f-885e-4272-b9d2-a574ea434b64
-description: 'Résumé : Découvrez comment utiliser le tableau de bord qualité des appels. Tableau de bord de qualité des appels est un outil de Skype pour Business Server.'
-ms.openlocfilehash: 91df986e985a9ccfafd17d3fc082e6786ad52657
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Résumé: Découvrez comment utiliser le tableau de bord de qualité des appels. Le tableau de bord de qualité des appels est un outil pour Skype entreprise Server.'
+ms.openlocfilehash: b89f766cfcbfbc9fe2c700162f3c0b4e69a7e6bd
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33915009"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274554"
 ---
-# <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>Utiliser le tableau de bord appel qualité pour Skype pour Business Server
+# <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>Utiliser le tableau de bord de qualité des appels pour Skype entreprise Server
  
-**Résumé :** Découvrez comment utiliser le tableau de bord qualité des appels. Tableau de bord de qualité des appels est un outil de Skype pour Business Server.
+**Résumé:** Apprenez-en davantage sur l’utilisation du tableau de bord de qualité des appels. Le tableau de bord de qualité des appels est un outil pour Skype entreprise Server.
   
 Le Tableau de bord de la qualité des appels permet aux professionnels de l’informatique d’utiliser des données agrégées pour identifier des secteurs cibles dans leur environnement rencontrant des problèmes de qualité multimédia. Il permet à un professionnel de l’informatique de comparer des statistiques de différents groupes d’utilisateurs et d’identifier des tendances et modèles. Le tableau n’est pas utilisé pour résoudre des problèmes d’appel spécifiques, mais pour identifier les problèmes et les solutions qui concernent de nombreux utilisateurs dans un environnement donné.
   
@@ -34,33 +34,33 @@ Lorsqu’un utilisateur visite le Tableau de bord de la qualité des appels, voi
   
 ![Utiliser CQD](../../media/1e061858-db6f-452b-9ae4-eab507220371.png)
   
-1. Le volet « Résumé » est où se trouve le contexte de la « rapport définir » (à droite). 
+1. Le «volet de synthèse» est l’endroit où se trouve le contexte du «jeu de rapports» (à droite). 
     
-2. Propriétés de niveau de jeu de rapport (y compris la hauteur de l’axe des y) peuvent être définies en cliquant sur « Modifier » dans le volet Résumé.
+2. Vous pouvez définir les propriétés de niveau de l’ensemble de rapports (y compris la hauteur de l’axe Y) en cliquant sur «modifier» dans le volet Résumé.
     
 3. La Barre de navigation aide les utilisateurs à identifier leur emplacement actuel dans la hiérarchie des rapports.  
     
 4. Les rapports possédant des sous-rapports sont indiqués par un lien bleu. Cliquer sur ces liens permet de dérouler la structure des rapports enfants.  
     
-Déplacer la souris sur les graphiques à barres et les lignes de tendance permet d’afficher les valeurs détaillées. L’état qui a le focus affiche le menu action : « Modifier », « Clone », « Supprimer » et « Télécharger ». 
+Déplacer la souris sur les graphiques à barres et les lignes de tendance permet d’afficher les valeurs détaillées. Le rapport sur lequel le focus est affiché affiche le menu d’action: «modifier», «Clone», «supprimer» et «télécharger». 
   
 ### <a name="default-reports"></a>Rapports par défaut
 
 Lorsqu’un utilisateur accède au portail CQD pour la première fois, un ensemble de rapports par défaut est créé automatiquement. Ces rapports sont parfois désignés sous le nom de rapports système. L’utilisateur peut librement les modifier ou les supprimer. Généralement, ils servent de base de création de rapports parents ou enfants.  
   
-Au niveau supérieur, l’état « Tendance mensuel flux Audio » indique la tendance mensuelle pour tous les flux audio. Déplacer la souris sur les barres d’un graphique affiche une vue plus détaillée des données correspondantes. Cliquez sur le titre du rapport de tendance mensuel du flux Audio atteindre l’état « Géré par rapport à des flux Audio non managé », où les rapports sont divisées entre gérés et non gérés. Les appels gérés sont des appels passés depuis le réseau local filaire au travers d’un pare-feu. Les appels non gérés comprennent les appels passés à l’extérieur du pare-feu et les appels passés sur la connexion Wi-Fi.
+Au niveau supérieur, le rapport «flux audio de Trend mois» montre la tendance mensuelle de tous les flux audio. Déplacer la souris sur les barres d’un graphique affiche une vue plus détaillée des données correspondantes. Le fait de cliquer sur le titre du rapport de tendances des flux audio vous permet de consulter le rapport «gérer les flux audio gérés et non gérés», qui permet de fractionner les rapports entre les appels gérés et non gérés. Les appels gérés sont des appels passés depuis le réseau local filaire au travers d’un pare-feu. Les appels non gérés comprennent les appels passés à l’extérieur du pare-feu et les appels passés sur la connexion Wi-Fi.
   
-L’autre rapport de niveau supérieur est appelé le « signalés par les utilisateurs appel qualité évaluation histogramme. » Les classements de la qualité des appels sont des valeurs que les utilisateurs Skype Entreprise attribuent à la fin d’un appel pour indiquer la qualité de celui-ci. Les valeurs attribuées vont de 1 à 5, 1 correspondant à la qualité minimale, et 5 correspondant à la qualité maximale. L’histogramme indique le nombre d’appels audio ayant fait l’objet d’une notation dans un même mois. 
+L’autre rapport de niveau supérieur est appelé «histogramme de qualité d’appel» signalé par l’utilisateur.» Les classements de la qualité des appels sont des valeurs que les utilisateurs Skype Entreprise attribuent à la fin d’un appel pour indiquer la qualité de celui-ci. Les valeurs attribuées vont de 1 à 5, 1 correspondant à la qualité minimale, et 5 correspondant à la qualité maximale. L’histogramme indique le nombre d’appels audio ayant fait l’objet d’une notation dans un même mois. 
   
 En général, cliquer sur le titre d’un des rapports permet d’accéder à des rapports comprenant des filtres supplémentaires appliqués aux données. Dans les rapports système, chaque rapport enfant affiche un sous-ensemble des données disponibles dans le rapport parent. Cette approche de diagnostic simple vise à étendre la recherche des données et tendances posant problème aux sous-rapports pour une efficacité maximale. En créant des sous-rapports, les utilisateurs peuvent vérifier leurs hypothèses en s’appuyant sur des tendances de données propres.
   
 ### <a name="creating-and-editing-reports"></a>Création et modification de rapports
 
-Lorsque vous cliquez sur « Modifier » dans le menu action d’un état, les utilisateurs voient l’éditeur de rapport. Chaque rapport est complété par une requête effectuée dans le cube. Il s’agit de la visualisation des données renvoyées par la requête. L’Éditeur de rapport est une interface utilisateur permettant de modifier ces requêtes ainsi que les options d’affichage du rapport. Lorsqu’un utilisateur ouvre l’Éditeur de rapport, voici ce qu’il voit :
+Lorsque vous cliquez sur «modifier» dans le menu d’action d’un État, les utilisateurs voient l’éditeur de rapport. Chaque rapport est complété par une requête effectuée dans le cube. Il s’agit de la visualisation des données renvoyées par la requête. L’Éditeur de rapport est une interface utilisateur permettant de modifier ces requêtes ainsi que les options d’affichage du rapport. Lorsqu’un utilisateur ouvre l’Éditeur de rapport, voici ce qu’il voit :
   
 ![Utiliser CQD](../../media/e8969625-e6f9-4d67-873f-93e78dd12b35.png)
   
-1. Les dimensions, les mesures et les filtres sont sélectionnés dans le volet gauche. Pointant sur une des valeurs existantes affiche un bouton « x » qui permet à la valeur à supprimer. Cliquez sur le bouton « plus » en regard d’un titre s’ouvre la boîte de dialogue pour ajouter une nouvelle dimension, mesure ou un filtre. 
+1. Les dimensions, les mesures et les filtres sont sélectionnés dans le volet gauche. Pointez sur l’une des valeurs existantes pour afficher un bouton «x» permettant de supprimer la valeur. Cliquer sur le bouton «plus» en regard d’un titre permet d’ouvrir la boîte de dialogue permettant d’ajouter une nouvelle dimension, mesure ou filtre. 
     
 2. Les options de personnalisation de graphique figurent en haut.
     
@@ -74,7 +74,7 @@ Lorsque StartDate.Month est ajouté en tant que dimension et que les données so
   
 ![Utiliser CQD](../../media/fe6b18d7-b8cf-472a-9c93-0f7703f5a700.png)
   
-Pour les graphiques à barres et les graphiques sparkline puisse s’affichent, la case à cocher « Afficher les graphiques sparkline » en haut de l’éditeur de rapport doit être vérifiée. L’option Tendance est alors sélectionnée et le mois devient la dernière dimension, ce qui peut également être effectué manuellement en cliquant sur Mois et en utilisant les flèches vers le haut et vers le bas pour déplacer StartDate.Month dans la direction souhaitée. 
+Pour que les graphiques à barres et les graphiques sparkline apparaissent, la case à cocher «Afficher les graphiques sparkline» en haut de l’éditeur de rapport doit être activée. L’option Tendance est alors sélectionnée et le mois devient la dernière dimension, ce qui peut également être effectué manuellement en cliquant sur Mois et en utilisant les flèches vers le haut et vers le bas pour déplacer StartDate.Month dans la direction souhaitée. 
   
 ### <a name="settings"></a>Paramètres
 
@@ -82,9 +82,9 @@ Dans l’angle supérieur droit du tableau de bord, le menu des paramètres cont
   
 ![Utiliser CQD](../../media/0e9ae123-e231-4fea-94e1-5788e8f3e1d3.png)
   
-Pour afficher les descriptions et horodatage dépend des utilisateurs individuels, et ces paramètres affectent uniquement la version de la personne du tableau de bord, pas ne modifie pas définie le rapport ou voient d’autres utilisateurs. Le vidage du cache entraîne le rechargement des données du cube par les requêtes, tandis que la restauration du paramétrage par défaut supprime les rapports créés ou modifiés par les utilisateurs et recrée les rapports système, c’est-à-dire les ressources qui sont proposées à l’utilisateur lors de la connexion initiale.
+L’affichage des descriptions et des horodatages par des utilisateurs individuels, et de ces paramètres uniquement pour la version individuelle du tableau de bord, ne modifie pas le jeu de rapports ou les autres utilisateurs. Le vidage du cache entraîne le rechargement des données du cube par les requêtes, tandis que la restauration du paramétrage par défaut supprime les rapports créés ou modifiés par les utilisateurs et recrée les rapports système, c’est-à-dire les ressources qui sont proposées à l’utilisateur lors de la connexion initiale.
   
-Le lien Tableau de bord des utilisateurs présente une page contenant la liste des autres utilisateurs de CQD et permet de parcourir leurs rapports. Pour partager un ensemble de rapports avec un utilisateur, il suffit de copier le lien dans une barre d’URL. Ce lien sera la même que celui autres que les utilisateurs se voir dans la page lien de tableau de bord d’utilisateurs sous le nom d’utilisateur.
+Le lien Tableau de bord des utilisateurs présente une page contenant la liste des autres utilisateurs de CQD et permet de parcourir leurs rapports. Pour partager un ensemble de rapports avec un utilisateur, il suffit de copier le lien dans une barre d’URL. Ce lien est identique à celui que les autres utilisateurs verront dans la page de liens du tableau de bord des utilisateurs sous le nom d’utilisateur de l’utilisateur.
   
 ### <a name="supplying-subnet-information"></a>Informations de sous-réseau
 
@@ -129,7 +129,7 @@ Le schéma de ces tables se présente ainsi :
 |BuildingKey  <br/> |int  <br/> |Oui  <br/> |Clé étrangère qui doit correspondre à l’une des entrées de la table CqdBuilding.  <br/> |
 |UpdatedDate  <br/> |DateHeure  <br/> |Non  <br/> |Valeur d’horodatage de la dernière mise à jour de l’entrée.  <br/> |
    
-Par défaut, le tableau suivant a une entrée ('Inconnu' 0).
+Par défaut, la table suivante comporte une entrée (0, 'inconnu').
   
 **CqdBuildingType**
 
@@ -138,7 +138,7 @@ Par défaut, le tableau suivant a une entrée ('Inconnu' 0).
 |BuildingTypeId  <br/> |int  <br/> |Non  <br/> |Clé primaire de la table CqdBuildingType.  <br/> |
 |BuildingTypeDesc  <br/> |char(18)  <br/> |Non  <br/> |Description du type de bâtiment.  <br/> |
    
-Par défaut, le tableau suivant avec une seule entrée (0, 'inconnu', 0, null).
+Par défaut, la table suivante comporte une entrée (0, 'inconnu', 0, null).
   
 **CqdBuildingOwnershipType**
 
@@ -149,7 +149,7 @@ Par défaut, le tableau suivant avec une seule entrée (0, 'inconnu', 0, null).
 |LeaseInd  <br/> |tinyint  <br/> |Oui  <br/> |Index faisant référence à une autre ligne de la table CqdBuildingOwnershipType permettant d’identifier les bâtiments loués.  <br/> |
 |Propriétaire  <br/> |varchar(50)  <br/> |Oui  <br/> |Propriétaire du bâtiment.  <br/> |
    
-Par défaut, le tableau suivant avec une seule entrée (0, 'inconnu', 0, null).
+Par défaut, la table suivante comporte une entrée (0, 'inconnu', 0, null).
   
 **CqdBssid**
 
@@ -167,7 +167,7 @@ Un flux CQD peut être satisfaisant, médiocre ou non classé. CQM 1.5 utilise 
   
 - Un flux médiocre correspond à une combinaison de mesures d’appel médiocre dépassant un seuil.
     
-- Lorsqu’un flux dans un appel est médiocre, les deux flux de l’appel est médiocres avec indicateur. Dans les conférences, chaque participant est considérée comme un appel unique et est indiqué sur indépendamment de tous les autres.
+- Lorsque le flux d’un appel est médiocre, les deux flux de l’appel présentent un indicateur médiocre. Dans le cadre de conférences, chaque participant est considéré comme un appel unique et est signalé indépendamment de tous les autres.
     
 - Les flux non classés ne comprennent aucune mesure de qualité (transactions synthétiques, appels de courte durée).
     
@@ -189,7 +189,7 @@ Définition JPDR = définition appel médiocre moins RatioConcealedSamplesAvg
   
 ## <a name="where-is-callercallee"></a>Où est l’appelant/l’appelé ?
 
-CQD n’utilise pas les champs de l’appelant/appelé. Ces ont été renommées « Premier » et « Seconde », car il existe des étapes intermédiaires entre l’appelant et l’appelé.
+BORD n’utilise pas de champs appelant ou appelé. Elles ont été renommées «First» et «second», car il existe des étapes intermédiaires entre l’appelant et le demandeur.
   
  **Premier** sera toujours le point de terminaison du serveur (par ex. : AV MCU ; serveur de médiation) si un serveur est impliqué dans le flux.
   
@@ -203,11 +203,11 @@ CQD n’utilise pas les champs de l’appelant/appelé. Ces ont été renommées
 |2 (AVMCU)   <br/> |1 (mMediationServer)   <br/> |Point de terminaison 2  <br/> |Point de terminaison 1  <br/> |
 |4 (Skype Entreprise)  <br/> |4 (Skype Entreprise)   <br/> |Appelant dans MediaLine   <br/> |Appelé dans MMediaLine  <br/> |
    
-Si les deux points de terminaison sont de même type, CQD convertira l’entrée Appelant en Premier et l’Appelé deviendra Second. Consultez [ce blog](https://blogs.technet.com/b/jenstr/archive/2015/05/22/call-quality-dashboard-tips-and-tricks.aspx) pour plus d’informations.
+Si les deux points de terminaison sont de même type, CQD convertira l’entrée Appelant en Premier et l’Appelé deviendra Second. Pour plus d’informations, consultez [ce blog](https://blogs.technet.com/b/jenstr/archive/2015/05/22/call-quality-dashboard-tips-and-tricks.aspx) .
   
 ## <a name="accounting-for-vpn"></a>Représentation du réseau VPN
 
-Si la solution VPN est connue pour définir correctement indicateur VPN, vous pouvez commencer. Si ce n’est pas le cas, utilisez l’une des méthodes ci-dessous :
+S’il s’agit de la solution VPN, il est possible de définir précisément l’indicateur VPN. Si ce n’est pas le cas, utilisez l’une des méthodes ci-dessous :
   
 - Créez un type de réseau appelé VPN (préféré), puis associez des sous-réseaux VPN à ce nouveau type.
     

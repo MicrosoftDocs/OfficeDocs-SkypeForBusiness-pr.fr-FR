@@ -5,7 +5,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 9/25/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -16,27 +16,27 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
-description: Découvrez comment activer le système téléphonique dans les services de téléphonie Office 365 pour votre Skype pour les utilisateurs professionnels.
-ms.openlocfilehash: f7ba1c4e259d68ab423ec2bde8aee3604035d125
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Découvrez comment activer le système téléphonique dans les services vocaux Office 365 pour vos utilisateurs Skype entreprise.
+ms.openlocfilehash: 1305f4045d4de86a65e0286938d22490f577507c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32234253"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287502"
 ---
 # <a name="enable-users-for-enterprise-voice-online-and-phone-system-in-office-365-voicemail"></a>Activation des utilisateurs pour la version en ligne de Voix Entreprise et le Système téléphonique dans la messagerie vocale Office 365
  
-Découvrez comment activer le système téléphonique dans les services de téléphonie Office 365 pour votre Skype pour les utilisateurs professionnels.
+Découvrez comment activer le système téléphonique dans les services vocaux Office 365 pour vos utilisateurs Skype entreprise.
   
-La dernière étape de déploiement système téléphonique dans Office 365 avec une connectivité PSTN local doit permettre à vos utilisateurs pour le système téléphonique dans Office 365 et de la messagerie vocale. Pour activer ces fonctionnalités, vous devez disposer du rôle d’administrateur global Office 365, puis exécuter une session PowerShell distante. Vous devez suivre la procédure présentée dans cette rubrique pour les comptes d’utilisateur pour lesquels la fonctionnalité Voix Entreprise n’est pas activée dans Skype Entreprise Online.
+La dernière étape du déploiement du système téléphonique dans Office 365 avec la connectivité PSTN locale consiste à activer vos utilisateurs pour le système téléphonique dans Office 365 et la messagerie vocale. Pour activer ces fonctionnalités, vous devez disposer du rôle d’administrateur global Office 365, puis exécuter une session PowerShell distante. Vous devez suivre la procédure présentée dans cette rubrique pour les comptes d’utilisateur pour lesquels la fonctionnalité Voix Entreprise n’est pas activée dans Skype Entreprise Online.
   
-## <a name="enable-phone-system-in-office-365-voice-services"></a>Activer le système téléphonique dans les services de téléphonie Office 365
+## <a name="enable-phone-system-in-office-365-voice-services"></a>Activer le système téléphonique dans les services vocaux Office 365
 
-Pour activer un utilisateur pour le système téléphonique dans Office 365 Voice et de la messagerie vocale, vous devez effectuer certaines étapes initiales, comme la vérification de voir si le Skype pour Business Connector en ligne est déployé sur vos serveurs et de permettre à vos utilisateurs pour la messagerie vocale hébergée.
+Pour permettre à un utilisateur de système téléphonique dans Office 365 de voix et de boîte vocale, vous devez effectuer certaines étapes initiales, comme vérifier si le connecteur Skype entreprise Online est déployé sur vos serveurs et permettre à vos utilisateurs d’avoir une boîte vocale hébergée.
   
-### <a name="to-enable-your-users-for-phone-system-in-office-365-voice-and-voicemail"></a>Pour autoriser les utilisateurs pour le système téléphonique dans la messagerie vocale et vocale d’Office 365
+### <a name="to-enable-your-users-for-phone-system-in-office-365-voice-and-voicemail"></a>Pour permettre à vos utilisateurs de disposer d’un système téléphonique dans Office 365 de voix et de messagerie vocale
 
-1. Avant de commencer, vérifiez que le Skype pour Business Connector en ligne (module Windows PowerShell) est déployée sur vos serveurs frontaux. S’il n’est pas le cas, vous pouvez le télécharger à partir [du centre de téléchargement](https://www.microsoft.com/en-us/download/details.aspx?id=39366). Vous trouverez plus d’informations sur l’utilisation de ce module sur la [configuration de votre ordinateur pour Skype pour la gestion de l’entreprise en ligne](https://technet.microsoft.com/en-us/library/dn362839%28v=ocs.15%29.aspx).
+1. Avant de commencer, assurez-vous que le connecteur Skype entreprise Online (module Windows PowerShell) est déployé sur votre serveur frontal. Si ce n’est pas le cas, vous pouvez le télécharger à partir [du centre de téléchargement](https://www.microsoft.com/en-us/download/details.aspx?id=39366). Pour plus d’informations sur l’utilisation de ce module, voir [configurer votre ordinateur pour la gestion de Skype entreprise Online](https://technet.microsoft.com/en-us/library/dn362839%28v=ocs.15%29.aspx).
     
 2. Démarrez Windows PowerShell en tant qu’administrateur.
     
@@ -68,7 +68,7 @@ Pour activer un utilisateur pour le système téléphonique dans Office 365 Voic
    Import-PSSession $Session -AllowClobber
    ```
 
-    Lors de l’exécution de PowerShell sur un Skype pour Business Server, le Skype local pour les applets de commande Business sont déjà chargés lorsque vous ouvrez PowerShell. Vous devez spécifier le paramètre - AllowClobber pour autoriser les applets de commande en ligne remplacer les applets de commande locale portant le même nom.
+    Lorsque vous exécutez PowerShell sur un serveur Skype entreprise, les applets de configuration Skype entreprise locales sont déjà chargées lorsque vous ouvrez PowerShell. Vous devez spécifier le paramètre-AllowClobber pour permettre aux cmdlets en ligne d’écraser les applets de connexion locales portant le même nom.
     
 8. Utilisez l’applet de commande Set-CsUser pour affecter les propriétés $EnterpriseVoiceEnabled et $HostedVoiceMail à votre utilisateur comme suit :
     
@@ -85,9 +85,9 @@ Pour activer un utilisateur pour le système téléphonique dans Office 365 Voic
     > [!NOTE]
     > Vous pouvez également spécifier un utilisateur par son adresse SIP, nom d’utilisateur principal (UPN), nom de domaine et nom d’utilisateur (domaine\nom d’utilisateur) et le nom d’affichage dans Active Directory (« Bob Kelly »). 
   
-## <a name="update-the-line-uri-and-dial-plan-for-users-enabled-for-phone-system-in-office-365"></a>Mettre à jour de l’URI de ligne et de numérotation de plan pour les utilisateurs activés pour le système téléphonique dans Office 365
+## <a name="update-the-line-uri-and-dial-plan-for-users-enabled-for-phone-system-in-office-365"></a>Mettre à jour l’URI de ligne et le plan de numérotation pour les utilisateurs activés pour le système téléphonique dans Office 365
 
-Cette section décrit comment mettre à jour l’URI de ligne et de numérotation de plan pour les utilisateurs activés pour le système téléphonique dans Office 365. 
+Cette section explique comment mettre à jour l’URI de ligne et le plan de numérotation pour les utilisateurs autorisés à utiliser le système téléphonique dans Office 365. 
   
 ### <a name="to-update-the-line-uri"></a>Pour mettre à jour l’URI de ligne
 
@@ -108,11 +108,11 @@ Cette section décrit comment mettre à jour l’URI de ligne et de numérotatio
     
 ## <a name="update-the-dial-plan-using-on-premises-windows-powershell-cmdlets"></a>Mise à jour du plan de numérotation à l’aide d’applets de commande Windows PowerShell locales
 
-Plans de numérotation avec Windows PowerShell et l’applet de commande [Grant-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps) , vous pouvez assigner par utilisateur. Vous pouvez exécuter cette applet de commande à partir de la Skype pour Business Server 2015 ou d’une session à distance de Windows PowerShell.
+Vous pouvez affecter des plans de numérotation par utilisateur avec Windows PowerShell et l’applet [de connexion Grant-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps) . Vous pouvez exécuter cette applet de commande à partir de Skype entreprise Server 2015 ou d’une session à distance de Windows PowerShell.
   
 ### <a name="to-assign-a-per-user-dial-plan-to-a-single-user"></a>Pour affecter un plan de numérotation par utilisateur à un seul utilisateur
 
-- Utilisez l’applet de commande [Grant-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps) pour affecter le plan de numérotation par utilisateur RedmondDialPlan à l’utilisateur Ken Myer :
+- Utilisez l’applet de connexion [Grant-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps) pour attribuer le plan de numérotation de l’utilisateur RedmondDialPlan à l’utilisateur Ken Myer:
     
   ```
   Grant-CsDialPlan -Identity "Ken Myer" -PolicyName "RedmondDialPlan"
@@ -120,7 +120,7 @@ Plans de numérotation avec Windows PowerShell et l’applet de commande [Grant-
 
 ### <a name="to-assign-a-per-user-dial-plan-to-multiple-users"></a>Pour affecter un plan de numérotation par utilisateur à plusieurs utilisateurs
 
-- La commande suivante affecte le plan de numérotation par utilisateur RedmondDialPlan à tous les utilisateurs qui travaillent dans la ville de Redmond. Pour plus d’informations sur le paramètre LdapFilter utilisé dans cette commande, voir la documentation de l’applet de commande [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps) :
+- La commande suivante affecte le plan de numérotation par utilisateur RedmondDialPlan à tous les utilisateurs qui travaillent dans la ville de Redmond. Pour plus d’informations sur le paramètre LdapFilter utilisé dans cette commande, consultez la documentation de l’applet de commande [Get-Csuser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps) :
     
   ```
   Get-CsUser -LdapFilter "l=Redmond" | Grant-CsDialPlan -PolicyName "RedmondDialPlan"
@@ -131,7 +131,7 @@ Plans de numérotation avec Windows PowerShell et l’applet de commande [Grant-
   
 ### <a name="to-unassign-a-per-user-dial-plan"></a>Pour annuler l’affectation d’un plan de numérotation par utilisateur
 
-- Utilisez l’applet de commande [Grant-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps) pour annuler l’affectation d’un plan de numérotation par utilisateur préalablement attribuée à Ken Myer. Une fois l’affectation du plan de numérotation par utilisateur annulée, Ken Myer sera géré automatiquement à l’aide du plan de numérotation global ou du plan de numérotation à l’échelle du service affecté à son serveur d’inscriptions ou à sa passerelle PSTN. Un plan de numérotation à l’échelle du service est prioritaire par rapport à tout plan de numérotation global.
+- Utilisez l’applet de connexion [Grant-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps) pour annuler l’affectation d’un plan de numérotation par utilisateur précédemment attribué à Ken Myer. Une fois l’affectation du plan de numérotation par utilisateur annulée, Ken Myer sera géré automatiquement à l’aide du plan de numérotation global ou du plan de numérotation à l’échelle du service affecté à son serveur d’inscriptions ou à sa passerelle PSTN. Un plan de numérotation à l’échelle du service est prioritaire par rapport à tout plan de numérotation global.
     
   ```
   Grant-CsDialPlan -Identity "Ken Myer" -PolicyName $Null
@@ -139,16 +139,16 @@ Plans de numérotation avec Windows PowerShell et l’applet de commande [Grant-
 
 ## <a name="update-the-voice-routing-policies-using-on-premises-windows-powershell-cmdlets"></a>Mise à jour des stratégies de routage des communications vocales à l’aide d’applets de commande locales Windows PowerShell
 
-Cette section décrit comment mettre à jour des stratégies de routage voix pour les utilisateurs activés pour le système téléphonique dans Office 365.
+Cette section explique comment mettre à jour les stratégies de routage vocal pour les utilisateurs activés pour le système téléphonique dans Office 365.
   
-Système téléphonique dans la zone utilisateurs Office 365 doit avoir une stratégie de routage voix affectée pour acheminer correctement les appels. Cette affectation diffère de l’affectation d’une stratégie de voix aux utilisateurs professionnels de communications vocales, également nécessaire pour que les appels soient acheminés correctement. La stratégie de routage voix doit contenir les utilisations PSTN qui définissent des appels autorisés et les itinéraires pour le système téléphonique dans les utilisateurs d’Office 365. Vous pouvez copier les utilisations PSTN des stratégies de voix existantes pour les nouvelles stratégies de routage des communications vocales. Pour plus d’informations, consultez la rubrique [New-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps).
+Système téléphonique dans Office 365 les utilisateurs doivent disposer d’une stratégie de routage de la voix pour les appels vers les itinéraires réussis. Cette affectation diffère de l’affectation d’une stratégie de voix aux utilisateurs professionnels de communications vocales, également nécessaire pour que les appels soient acheminés correctement. La stratégie de routage de la voix doit contenir des utilisations PSTN qui définissent les appels et itinéraires autorisés pour le système téléphonique des utilisateurs d’Office 365. Vous pouvez copier les utilisations PSTN des stratégies de voix existantes pour les nouvelles stratégies de routage des communications vocales. Pour plus d’informations, consultez la rubrique [New-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps).
   
 > [!NOTE]
-> Tous les système téléphonique dans Office 365 des utilisateurs sont affectés à la même stratégie de voix en ligne nommé BusinessVoice qui définit les fonctionnalités d’appel autorisées ; par exemple, autoriser la sonnerie simultanée. 
+> Tout le système téléphonique dans Office 365 les utilisateurs reçoivent la même stratégie vocale en ligne nommée BusinessVoice qui définit les fonctionnalités d’appel autorisées. par exemple, autorisez la sonnerie simultanée. 
   
 ### <a name="to-assign-a-per-user-voice-routing-policy-to-a-single-user"></a>Pour affecter une stratégie de routage des communications vocales par utilisateur à un seul utilisateur
 
-- Utilisez l’applet de commande [Grant-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csvoiceroutingpolicy?view=skype-ps) pour attribuer la stratégie de routage RedmondVoiceRoutingPolicy voix par utilisateur à l’utilisateur Ken Myer :
+- Utilisez l’applet de passe [Grant-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csvoiceroutingpolicy?view=skype-ps) pour affecter la stratégie de routage vocale par utilisateur RedmondVoiceRoutingPolicy à l’utilisateur Ken Myer:
     
   ```
   Grant-CsVoiceRoutingPolicy -Identity "Ken Myer" -PolicyName "RedmondVoiceRoutingPolicy"
@@ -156,7 +156,7 @@ Système téléphonique dans la zone utilisateurs Office 365 doit avoir une stra
 
 ### <a name="to-assign-a-per-user-voice-routing-policy-to-multiple-users"></a>Pour affecter une stratégie de routage des communications vocales par utilisateur à plusieurs utilisateurs
 
-- La commande suivante affecte la stratégie de routage des communications vocales par utilisateur RedmondVoiceRoutingPolicy à tous les utilisateurs travaillant dans la ville de Redmond. Pour plus d’informations sur le paramètre LdapFilter utilisé dans cette commande, voir [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps).
+- La commande suivante affecte la stratégie de routage des communications vocales par utilisateur RedmondVoiceRoutingPolicy à tous les utilisateurs travaillant dans la ville de Redmond. Pour plus d’informations sur le paramètre LdapFilter utilisé dans cette commande, voir [Get-Csuser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps).
     
   ```
   Get-CsUser -LdapFilter "l=Redmond" | Grant-CsVoiceRoutingPolicy -PolicyName "RedmondVoiceRoutingPolicy"
@@ -167,7 +167,7 @@ Système téléphonique dans la zone utilisateurs Office 365 doit avoir une stra
   
 ### <a name="to-unassign-a-per-user-voice-routing-policy"></a>Pour annuler l’affectation d’une stratégie de routage des communications vocales par utilisateur
 
-- Utilisez le Grant-CsVoiceRoutingPolicy pour annuler l’affectation de toute stratégie de routage voix par utilisateur préalablement attribuée à Ken Myer. Une fois l’affectation de la stratégie de routage des communications vocales par utilisateur annulée, Ken Myer sera automatiquement géré à l’aide de la stratégie globale de routage des communications vocales.
+- Utilisez la fonction Grant-CsVoiceRoutingPolicy pour retirer toutes les stratégies de routage vocal par utilisateur précédemment affectées à Ken Myer. Une fois l’affectation de la stratégie de routage des communications vocales par utilisateur annulée, Ken Myer sera automatiquement géré à l’aide de la stratégie globale de routage des communications vocales.
     
   ```
   Grant-CsVoiceRoutingPolicy -Identity "Ken Myer" -PolicyName $Null

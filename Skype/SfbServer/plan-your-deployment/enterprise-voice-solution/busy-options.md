@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -12,17 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 5f85c6bc-a962-4283-971c-4380d83b3a66
-description: En savoir plus sur la fonctionnalité de disponibilité dans Skype pour Business Server.
-ms.openlocfilehash: a95604c929cc2c73962f252584def364307dd425
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: En savoir plus sur la fonctionnalité options occupées dans Skype entreprise Server.
+ms.openlocfilehash: 8e88b4bf3b92c7fea9bcf79822e2711ff3bee7de
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33895544"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34277103"
 ---
 # <a name="plan-for-busy-options-for-skype-for-business-server"></a>Planifier les options Occupé pour Skype Entreprise Server
  
-En savoir plus sur la fonctionnalité de disponibilité dans Skype pour Business Server.
+En savoir plus sur la fonctionnalité options occupées dans Skype entreprise Server.
   
 Busy Options est une nouvelle stratégie de voix de la mise à jour cumulative de juillet 2016, qui vous permet de configurer la manière dont les appels entrants sont gérés lorsqu'un utilisateur participe déjà à un appel ou à une conférence, ou lorsqu'il a mis un appel en attente. Les nouveaux appels ou les appels entrants peuvent être rejetés avec une tonalité d’occupation ou sont transférés vers la messagerie vocale. 
   
@@ -38,15 +38,15 @@ Si Busy Options est activée pour l'organisation, l'ensemble des utilisateurs de
     
 - Voicemail on Busy : les nouveaux appels entrants seront transférés vers la messagerie si l'utilisateur est occupé.
     
-La fonctionnalité Busy Option fournit une capacité de basculement. Si un problème se produit et les utilisateurs basculement vers un autre serveur frontal ou vers un autre pool dans Skype pour Business Server, leurs paramètres Options occupé (e) seront préservées.
+La fonctionnalité Busy Option fournit une capacité de basculement. Dans le cas où un problème se produit et que les utilisateurs basculent vers un autre serveur frontal ou vers un autre pool dans Skype entreprise Server, leurs paramètres d’options occupés seront conservés.
   
 Quelle que soit la manière dont ils ont configuré Busy Option, les utilisateurs participant à un appel ou une conférence, ou ceux ayant mis un appel en absence, peuvent toujours lancer de nouveaux appels ou de nouvelles conférences.   
   
-Après la configuration, le paramètre Options occupé (e) est en vigueur pour Skype de tous les utilisateurs pour les clients et périphériques d’appel Business. En fonction des paramètres de la fonctionnalité Busy Option des utilisateurs, la sonnerie de l'appel qui est rejeté ou transféré vers la messagerie vocale ne retentira pas sur le dispositif d'appel de l'utilisateur (que ce soit Macintosh, Bureau Windows, clients mobiles ou téléphones IP) sur lequel il est connecté. 
+Après la configuration, le paramètre options de disponibilité est activé pour tous les appareils et clients de l’utilisateur Skype entreprise. En fonction des paramètres de la fonctionnalité Busy Option des utilisateurs, la sonnerie de l'appel qui est rejeté ou transféré vers la messagerie vocale ne retentira pas sur le dispositif d'appel de l'utilisateur (que ce soit Macintosh, Bureau Windows, clients mobiles ou téléphones IP) sur lequel il est connecté. 
   
-Les utilisateurs verront les notifications d’appels manqués sur leur Skype pour les clients professionnels et les appareils, et ils seront avertis par courrier électronique ainsi que. Une notification s'affichera sur le client Skype Entreprise des appelants dont l'appel a été rejeté en raison du statut Busy on Busy, les informant que l'utilisateur qu'ils ont tenté de joindre est déjà en communication.
+Les utilisateurs verront les notifications d’appel manqué sur leurs clients et appareils Skype entreprise et ils seront également avertis par e-mail. Une notification s'affichera sur le client Skype Entreprise des appelants dont l'appel a été rejeté en raison du statut Busy on Busy, les informant que l'utilisateur qu'ils ont tenté de joindre est déjà en communication.
   
-Vous pouvez configurer la fonctionnalité de disponibilité à l’aide de Skype pour les applets de commande PowerShell de l’entreprise :
+Vous pouvez configurer la fonctionnalité d’options occupées en utilisant les cmdlets PowerShell Skype entreprise pour:
   
 - Activer ou désactiver la stratégie de voix Busy Options pour l'entreprise.
     
@@ -60,7 +60,7 @@ Vous pouvez configurer la fonctionnalité de disponibilité à l’aide de Skype
     
 ## <a name="interoperability-with-voice-applications"></a>Interopérabilité avec les applications Voix
 
-Options de disponibilité fournit une interopérabilité avec les applications vocales suivantes dans Skype pour les entreprises :
+Les options occupées permettent l’interopérabilité avec les applications vocales suivantes dans Skype entreprise:
   
 - Response Groups (RGS)
     
@@ -74,7 +74,7 @@ Options de disponibilité fournit une interopérabilité avec les applications v
     
 - Appel d’équipe
     
-  - Les appels entrants vers les utilisateurs qui sont définies pour un appel d’équipe seront prioritaires pour ignorer occupé (e) sur occupé (e) et la messagerie vocale sur les paramètres occupé (e).
+  - Les appels entrants vers des utilisateurs qui sont configurés pour un appel d’équipe sont classés par ordre de priorité pour ignorer les valeurs occupées et les messages vocaux sur les paramètres occupés.
     
   - L'expérience actuelle de l'appel d'équipe restera inchangée avec la fonctionnalité Busy Options définie pour les utilisateurs.
     
@@ -82,7 +82,7 @@ Options de disponibilité fournit une interopérabilité avec les applications v
     
 - Délégation patron/administrateur  
     
-  - Les appels entrants vers les utilisateurs qui sont configurés pour une délégation/administration du responsable soit en tant que directeur ou un administrateur qui seront prioritaires pour ignorer occupé (e) sur occupé (e) et la messagerie vocale sur les paramètres occupé (e).
+  - Les appels entrants vers des utilisateurs qui sont configurés pour un responsable/une délégation d’administration, en tant que patron ou administrateur, sont classés par ordre de priorité pour ignorer les disponibilités et les messages vocaux sur les paramètres occupés.
     
   - L'expérience actuelle de délégation patron/administrateur restera inchangée avec la fonctionnalité Busy Options définie pour les administrateurs ou les patrons.
     
@@ -92,7 +92,7 @@ Options de disponibilité fournit une interopérabilité avec les applications v
     
   - Les paramètres Busy Options sur les comptes d'utilisateur configurés pour le mode partage de ligne seront ignorés.  
     
-  - Informations de disponibilité native de partagé apparence de la ligne sur occupé (e) et la messagerie vocale sur les options de disponibilité sont honorées à la place.
+  - Le champ natif occupé de la ligne en fonction de la disponibilité et de la boîte vocale est accepté à la place.
     
 - Service de parcage des appels  
     

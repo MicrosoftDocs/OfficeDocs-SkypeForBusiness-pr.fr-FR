@@ -1,10 +1,10 @@
 ---
-title: Définir les éléments de réseau permet de déterminer l’emplacement dans Skype Business Server
+title: Définir les éléments réseau utilisés pour déterminer l’emplacement dans Skype entreprise Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,19 +13,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 7538779d-055d-44ed-8dd7-11c45fc1b9f5
-description: Décisions nécessaires pour planifier les composants réseau que vous allez utiliser pour mapper les appelants à des emplacements pour le déploiement de E9-1-1 dans Skype pour Business Server Enterprise Voice.
-ms.openlocfilehash: 795856b1377fc4a29744b7fdf1dd285359798a2f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Les décisions nécessaires pour planifier les composants réseau que vous allez utiliser pour mapper les appelants vers des emplacements pour le déploiement de E9-1-1 dans Skype entreprise Server Voice.
+ms.openlocfilehash: a68f1517d038f82e62a7aca3ef909e4e67d25e4e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33913731"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34276690"
 ---
-# <a name="define-the-network-elements-used-to-determine-location-in-skype-for-business-server"></a>Définir les éléments de réseau permet de déterminer l’emplacement dans Skype Business Server
+# <a name="define-the-network-elements-used-to-determine-location-in-skype-for-business-server"></a>Définir les éléments réseau utilisés pour déterminer l’emplacement dans Skype entreprise Server
  
-Décisions nécessaires pour planifier les composants réseau que vous allez utiliser pour mapper les appelants à des emplacements pour le déploiement de E9-1-1 dans Skype pour Business Server Enterprise Voice.
+Les décisions nécessaires pour planifier les composants réseau que vous allez utiliser pour mapper les appelants vers des emplacements pour le déploiement de E9-1-1 dans Skype entreprise Server Voice.
   
-Si vous configurez votre Skype pour infrastructure Business Server pour prendre en charge la détection automatique des clients de l’emplacement, vous devez d’abord décider quel réseau éléments que vous allez utiliser pour mapper les appelants à des emplacements. Dans Skype pour Business Server, vous pouvez associer les éléments suivants de réseau Layer 2 et 3 emplacements :
+Si vous configurez votre infrastructure du serveur Skype entreprise pour prendre en charge la détection automatique de l’emplacement du client, vous devez d’abord choisir les éléments réseau que vous allez utiliser pour mapper les appelants vers des emplacements. Dans Skype entreprise Server, vous pouvez associer les éléments réseau Layer 2 et Layer 3 suivants à des emplacements:
   
 - Adresses BSSID (Basic Service Set Identification) des points d’accès sans fil (WAP) (couche 2)
     
@@ -37,29 +37,29 @@ Si vous configurez votre Skype pour infrastructure Business Server pour prendre 
     
 - Adresses MAC des clients (couche 2)
     
-Les éléments réseau sont répertoriés par ordre de priorité. Si un client peut se trouver à l’aide de plusieurs éléments réseau, Skype pour Business Server utilise l’ordre de priorité pour déterminer quel mécanisme à utiliser. 
+Les éléments réseau sont répertoriés par ordre de priorité. Si un client peut être localisé à l’aide de plusieurs éléments réseau, Skype entreprise Server utilise l’ordre de priorité pour déterminer le mécanisme à utiliser. 
   
 Les sections suivantes abordent plus en détail l’utilisation de chaque élément réseau.
   
 > [!IMPORTANT]
-> Lorsque vous utilisez des éléments réseau pour mapper les appelants à des emplacements, il est primordiale conserver la base de données du service informations d’emplacement à jour. Par exemple, si vous ajoutez ou modifiez un élément réseau, comme un point d’accès sans fil, vous devez supprimer l’ancienne entrée et ajouter la nouvelle entrée dans la base de données d’emplacements. 
+> Lorsque vous utilisez des éléments réseau pour mapper les appelants aux emplacements, il est très important que vous maintienez la base de données de service des informations d’emplacement à jour. Par exemple, si vous ajoutez ou modifiez un élément réseau, comme un point d’accès sans fil, vous devez supprimer l’ancienne entrée et ajouter la nouvelle entrée dans la base de données d’emplacements. 
   
 ## <a name="wireless-access-point"></a>Point d’accès sans fil
 
-Lorsqu’un client se connecte au réseau via une liaison sans fil, la demande d’emplacement utilise l’adresse BSSID du point d’accès sans fil pour déterminer son emplacement. Si le client est en itinérance, le WAP indiqué peut ne pas être celui le plus proche, et il est même possible de sélectionner un point d’accès qui se trouve sur un autre étage du bâtiment. Pour indiquer que l’emplacement est approximatif, vous pouvez ajouter la valeur d’emplacement avec un descripteur de **[près]** ou **[Fermer pour]** .
+Lorsqu’un client se connecte au réseau via une liaison sans fil, la demande d’emplacement utilise l’adresse BSSID du point d’accès sans fil pour déterminer son emplacement. Si le client est en itinérance, le WAP indiqué peut ne pas être le plus proche, et il est même possible de décrocher un WAP sur un étage différent du bâtiment. Pour indiquer que l’emplacement est approximatif, vous pouvez faire précéder la valeur de l’emplacement d’un descripteur **[near]** ou **[armoireo]** .
   
-Cette méthode d’emplacement part du principe que le BSSID de chaque point d’accès sans fil est statique. Toutefois, si votre fournisseur WAP utilise BSSID affectées de manière dynamique, le BSSID est obtenu à partir d’un point d’accès peut changer (qui peut se produire après un changement de configuration WAP) et les clients sans fil peuvent se retrouver dans une situation où ils ne reçoivent pas un emplacement. Pour éviter cette possibilité, vous devez remplir la base de données service informations d’emplacement avec Erl de toutes les adresses BSSID possibles utilisés par chaque WAP. 
+Cette méthode d’emplacement part du principe que le BSSID de chaque point d’accès sans fil est statique. Toutefois, si votre fournisseur de WAP utilise BSSIDs de manière dynamique, le BSSID obtenu à partir d’un WAP peut changer (cela peut se produire suite à une modification de configuration de WAP), et les clients sans fil peuvent être laissés dans une situation où ils ne reçoivent aucun emplacement. Pour éviter ce problème, vous devez remplir la base de données de service informations d’emplacement avec ERLs pour toutes les adresses BSSID possibles utilisées par chaque WAP. 
   
 ## <a name="lldp-ports-and-switches"></a>Ports et commutateurs LLDP
 
 Les commutateurs Ethernet gérés qui prennent en charge le protocole LLDP-MED (Link Layer Discovery Protocol-Media Endpoint Discover) peuvent annoncer leur identité et leurs informations de port aux clients compatibles LLDP-MED, lesquelles peuvent alors faire l’objet d’une requête dans la base de données d’emplacements afin de fournir l’emplacement du périphérique. Vous pouvez associer des ERL uniquement sur l’ID du châssis commuté, ou les mapper au niveau du port.
   
 > [!NOTE]
-> Skype pour Business Server prend en charge les LLDP-MED pour déterminer les emplacements uniquement des appareils Lync Phone Edition et Skype pour les clients d’entreprise s’exécutant sur Windows 8. Si vous avez besoin utiliser les données de couche 2 au niveau du commutateur pour déterminer l’emplacement des autres câblé Skype sur PC pour les clients Business Server, vous devez utiliser la méthode d’adresse MAC client. 
+> Skype entreprise Server prend en charge l’utilisation de LLDP-MED pour déterminer les emplacements uniquement des appareils Lync Phone Edition et Skype entreprise s’exécutant sur Windows 8. Si vous avez besoin d’utiliser des données de couche 2 de niveau commutateur pour déterminer l’emplacement d’autres clients câblés de Skype entreprise sur un PC, vous devez utiliser la méthode d’adresse MAC du client. 
   
 ## <a name="subnet"></a>Sous-réseau
 
-Sous-réseaux IP de couche 3 fournissent un mécanisme pris en charge par tous les Skype pour les clients Business Server qui peuvent être utilisés pour détecter automatiquement emplacement du client. L’utilisation de sous-réseaux IP constitue la méthode d’emplacement la plus simple pour configurer et gérer des clients câblés. Avant d’opter pour l’utilisation de sous-réseaux, en revanche, répondez aux questions suivantes pour déterminer si la spécificité de l’emplacement du sous-réseau est suffisamment fine pour rechercher un client avec précision :
+Les sous-réseaux IP de Layer 3 fournissent un mécanisme pris en charge par tous les clients Skype entreprise Server qui peuvent être utilisés pour détecter automatiquement l’emplacement du client. L’utilisation de sous-réseaux IP constitue la méthode d’emplacement la plus simple pour configurer et gérer des clients câblés. Avant d’opter pour l’utilisation de sous-réseaux, en revanche, répondez aux questions suivantes pour déterminer si la spécificité de l’emplacement du sous-réseau est suffisamment fine pour rechercher un client avec précision :
   
 - Un ou plusieurs sous-réseaux des clients couvrent-ils plusieurs étages ?
     
@@ -71,9 +71,9 @@ Si le sous-réseau couvre une zone trop vaste, vous devrez envisager d’utilise
   
 ## <a name="client-mac-address"></a>Adresse MAC d’un client
 
-Pour utiliser l’adresse MAC de l’ordinateur client pour localiser un appelant, vous devez les commutateurs Ethernet gérés, et vous devez déployer une solution SNMP tiers qui peut découvrir les adresses MAC de Skype pour les clients professionnels connectés à (ou via) les commutateurs. La solution SNMP interroge continuellement les commutateurs gérés pour obtenir les mappages actuels des adresses MAC de point de terminaison connectées à chaque port et obtient les IP de port correspondants. Pendant une Skype pour demande de clients au service informations d’emplacement, le service informations d’emplacement interroge l’application tierce à l’aide de l’adresse du client MAC, puis renvoie des adresses IP de commutateur correspondantes et des ID de port. Le service informations d’emplacement utilise ces informations pour interroger le schéma de câblage couche 2 publié pour correspondre à un enregistrement et renvoie l’emplacement pour le client. Si vous utilisez cette option, vérifiez que les identifiants de port de commutateur sont cohérents entre l’application SNMP et les enregistrements de la base de données d’emplacements publiés.
+Pour utiliser l’adresse MAC d’un ordinateur client pour localiser un appelant, vous avez besoin de commutateurs Ethernet gérés et vous devez déployer une solution SNMP tierce capable de détecter les adresses MAC des clients Skype entreprise connectés (ou par le biais de) ces commutateurs. La solution SNMP interroge continuellement les commutateurs gérés pour obtenir les mappages actuels des adresses MAC de point de terminaison connectées à chaque port et obtient les IP de port correspondants. Dans le cadre d’une demande de client Skype entreprise adressée au service d’information d’emplacement, le service d’information d’emplacement interroge l’application tierce en utilisant l’adresse MAC du client, puis renvoie les adresses IP et ID de port correspondants. Le service des informations d’emplacement utilise ces informations pour interroger son Wiremap Layer 2 publié pour un enregistrement de correspondance et renvoie l’emplacement au client. Si vous utilisez cette option, vérifiez que les identifiants de port de commutateur sont cohérents entre l’application SNMP et les enregistrements de la base de données d’emplacements publiés.
   
 > [!NOTE]
-> Certaines solutions de SNMP tiers peuvent prendre en charge les commutateurs d’accès non managé ; Si le commutateur que les services du Skype pour client d’entreprise n’est pas géré mais a une liaison à un commutateur de distribution gérées, le commutateur géré permettre compte-rendu à l’application SNMP les adresses MAC des clients connectés au commutateur access. Ces informations permettent le service informations d’emplacement identifier l’emplacement de l’utilisateur. Cependant, il est possible d’affecter un seul ERL à tous les ports sur le commutateur non géré afin que la spécificité de l’emplacement soit disponible uniquement au niveau du châssis du commutateur d’accès, et non au niveau du port. 
+> Certaines solutions SNMP tierces peuvent prendre en charge des commutateurs d’accès non gérés; Si le commutateur de services Skype entreprise n’est pas géré par le client et qu’il dispose d’un lien vers un commutateur de distribution géré, le commutateur géré peut signaler à l’application SNMP les adresses MAC des clients connectés au commutateur d’accès. Ces informations permettent au service d’information d’emplacement d’identifier l’emplacement de l’utilisateur. Cependant, il est possible d’affecter un seul ERL à tous les ports sur le commutateur non géré afin que la spécificité de l’emplacement soit disponible uniquement au niveau du châssis du commutateur d’accès, et non au niveau du port. 
   
 

@@ -1,10 +1,10 @@
 ---
-title: Plan pour un appel via le bureau dans Skype pour Business Server
+title: Planifier un appel via le travail dans Skype entreprise Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,93 +13,93 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a33ec637-9ac8-4cb7-b3b2-88d432efc078
-description: Planification des appels via le bureau dans Skype pour Business Server, ce qui permet l’intégration entre Skype pour les entreprises et votre système téléphonique PBX, afin que les utilisateurs peuvent utiliser Skype pour les entreprises à contrôler leurs téléphones PBX.
-ms.openlocfilehash: 248a6111d03539d23d4262762caa5c0a5b213460
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Planifiez vos appels via le travail dans Skype entreprise Server, qui permet d’intégrer Skype entreprise et votre système téléphonique PBX, de sorte que les utilisateurs puissent utiliser Skype entreprise pour contrôler leurs téléphones PBX.
+ms.openlocfilehash: b2f0e57a33f6e194dc981b623a641850ed3c8de5
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33909112"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34277026"
 ---
-# <a name="plan-for-call-via-work-in-skype-for-business-server"></a>Plan pour un appel via le bureau dans Skype pour Business Server
+# <a name="plan-for-call-via-work-in-skype-for-business-server"></a>Planifier un appel via le travail dans Skype entreprise Server
  
-Planification des appels via le bureau dans Skype pour Business Server, ce qui permet l’intégration entre Skype pour les entreprises et votre système téléphonique PBX, afin que les utilisateurs peuvent utiliser Skype pour les entreprises à contrôler leurs téléphones PBX.
+Planifiez vos appels via le travail dans Skype entreprise Server, qui permet d’intégrer Skype entreprise et votre système téléphonique PBX, de sorte que les utilisateurs puissent utiliser Skype entreprise pour contrôler leurs téléphones PBX.
   
- **Appel via le bureau** est une nouvelle fonctionnalité dans Skype pour Business Server qui vous permet d’intégrer votre Skype pour une solution d’entreprise avec vos systèmes de téléphone PBX existants. Un utilisateur activé pour l’appel via le bureau, cliquez Skype pour les entreprises à appeler un autre utilisateur, soit au sein de votre déploiement ou d’un utilisateur externe. L’appel est effectué via le téléphone PBX de l’utilisateur. Cela permet à un utilisateur avec un téléphone PBX à inclure les paramètres audio dans leur riche Skype pour des conversations. Dans les versions précédentes d’appel distant Lync Server contrôle est une fonctionnalité qui permettait aux utilisateurs de contrôler leurs téléphones PBX avec Lync Server. Dans Skype pour Business Server, cette fonctionnalité a été remplacée par un appel via le bureau.
+ L' **appel par le biais du travail** est une nouvelle fonctionnalité de Skype entreprise Server qui vous permet d’intégrer votre solution Skype entreprise à vos systèmes de téléphonie PBX existants. Un utilisateur ayant activé les appels via le travail peut cliquer dans Skype entreprise pour appeler un autre utilisateur, au sein de votre déploiement ou d’un utilisateur externe. L’appel est effectué via le téléphone PBX de l’utilisateur. Cela permet à l’utilisateur d’un téléphone PBX d’inclure le son dans ses conversations Skype entreprise complètes. Dans les versions précédentes du contrôle d’appel distant de Lync Server est une fonctionnalité qui permettait aux utilisateurs de contrôler leurs téléphones PBX avec Lync Server. Dans Skype entreprise Server, cette fonction a été remplacée par un appel via le travail.
   
-Appel via le bureau permet à ce qui suit pour les utilisateurs de téléphone PBX
+L’appel par le biais de votre bureau permet aux utilisateurs de téléphones PBX de procéder comme suit:
   
 - Expérience cliquer pour appeler grâce à la fonctionnalité audio du téléphone PBX.
     
-- Présence, recherche d’un utilisateur et l’intégration de messagerie instantanée--, par exemple, deux utilisateurs appel via le bureau dans une conversation par messagerie instantanée peuvent ajouter audio à sa session, avec le système audio fourni par le biais de téléphones PBX.
+- Présence, recherche utilisateur et intégration de la messagerie instantanée (par exemple, deux appels via les utilisateurs professionnels dans une session de messagerie instantanée) peuvent ajouter de l’audio à leur session en utilisant le son fourni par les téléphones PBX.
     
-- Possibilité d’ajouter la messagerie instantanée, le partage d’application et le transfert de fichiers à un appel appel via le bureau.
+- La possibilité d’ajouter la messagerie instantanée, le partage d’application et le transfert de fichiers à un appel via un appel de bureau.
     
 - Participation à la réunion en un clic
     
 ## <a name="how-it-works"></a>Mode de fonctionnement
 
-Appel via le bureau utilise Unified Communications Web API (UCWA) en tant que l’agent utilisateur DOS à DOS (B2BUA) entre le système PBX et votre Skype pour le déploiement de serveur d’entreprise, afin qu’aucune passerelle d’application (CSTA) informatique de télécommunications n’est nécessaire pour se connecter Skype pour Business Server avec votre système PBX. UCWA est un service introduit dans les versions précédentes de Lync Server pour activer la connectivité mobile et les clients web et est automatiquement installé sur chaque serveur frontal.
+Appel par travail utilise l’API UCWA (Unified Communications Web API) en tant qu’agent utilisateur principal (B2BUA) entre le système PBX et votre déploiement Skype entreprise Server, de sorte qu’aucune passerelle CSTA (User-Supported Telecommunication application) n’est nécessaire pour se connecter. Skype entreprise Server avec votre système PBX. UCWA est un service présenté dans les versions précédentes de Lync Server pour permettre la connectivité avec les clients mobiles et Web, et est automatiquement installé sur chaque serveur frontal.
   
-### <a name="call-workflow-for-a-call-via-work-call"></a>Appel de flux de travail pour un appel appel via le bureau
+### <a name="call-workflow-for-a-call-via-work-call"></a>Flux de travail d’appel pour un appel via un appel
 
-L’exemple suivant illustre comment un utilisateur activé pour l’appel via le bureau permettre utiliser le Skype pour Business Server pour émettre un appel :
+L’exemple suivant illustre la manière dont un utilisateur a activé les appels via le travail peut utiliser Skype entreprise Server pour passer un appel:
   
 ![Affiche les étapes pendant un Appel via le bureau : l’appelant clique pour passer un appel à l’aide du client Skype Entreprise, puis UCWA fait sonner le téléphone de l’appelant. Lorsque celui-ci décroche, le destinataire est appelé.](../../media/050e88ed-e18e-40c0-84d5-b17fe40c305a.jpg)
   
-1. L’utilisateur sélectionne un utilisateur dans leur Skype pour client d’entreprise et clique sur l’icône téléphone pour appeler. Ou bien, durant une conversation de MI, l’utilisateur clique sur l’utilisateur avec lequel il partage la session.
+1. L’utilisateur sélectionne un utilisateur dans son client Skype entreprise, puis clique sur l’icône du téléphone pour l’appeler. Ou bien, durant une conversation de MI, l’utilisateur clique sur l’utilisateur avec lequel il partage la session.
     
-2. Le téléphone PBX de l’appelant commence à sonner. L’ID d’appelant pour ce téléphone affiche un numéro de téléphone globale dont vous avez configuré à afficher dans l’ID d’appelant de passer des appels de l’appel via le bureau de tous les utilisateurs. Ce numéro de téléphone global n’est pas un véritable numéro correspondant au téléphone d’un individu. Il s’agit d’un signal visuel indiquant à un utilisateur que l’appel sortant lui appartient et ne correspond pas à un appel entrant survenant simultanément. Lorsque vous déployez des appels via le bureau, vous devez former les utilisateurs sur ce numéro de téléphone global et ce que signifie.
+2. Le téléphone PBX de l’appelant commence à sonner. L’identification de l’appelant pour ce téléphone affiche un numéro de téléphone global que vous avez configuré pour afficher l’ID d’appelant de tous les utilisateurs qui placent un appel par le biais d’appels professionnels. Ce numéro de téléphone global n’est pas un véritable numéro correspondant au téléphone d’un individu. Il s’agit d’un signal visuel indiquant à un utilisateur que l’appel sortant lui appartient et ne correspond pas à un appel entrant survenant simultanément. Lorsque vous déployez un appel par le biais de votre entreprise, vous devez éduquer les utilisateurs sur ce numéro de téléphone global et ce qu’il signifie.
     
-3. L’utilisateur appelant décroche son téléphone PBX. Skype pour les entreprises lance ensuite l’appel vocal à l’appelé. 
+3. L’utilisateur appelant décroche son téléphone PBX. Skype entreprise appelle alors l’appel vocal pour l’appelant. 
     
 4. Lorsque l’appelant décroche, l’appel vocal commence. Si les deux utilisateurs étaient déjà dans une session de MI, elle peut se poursuivre.
     
 ### <a name="joining-a-conference-with-call-via-work"></a>Participation à une téléconférence via le bureau
 
-Un utilisateur de l’appel via le bureau permettre participer à une réunion planifiée en cliquant sur l’URL de la réunion. Skype pour les entreprises affiche ensuite un message de **connexion à** jusqu'à ce que le service de conférence compose le téléphone PBX de l’utilisateur. L’utilisateur de l’appel via le bureau puis sélectionne le téléphone PBX et rejoint la réunion.
+Un appel via le Bureau peut rejoindre une réunion planifiée en cliquant sur l’URL de la réunion. Skype entreprise affiche alors un message **de numérotation jusqu’à** ce que le service de réunion appelle le téléphone PBX de l’utilisateur. L’appel via l’utilisateur professionnel sélectionne alors le téléphone PBX et joint la réunion.
   
-Un utilisateur de l’appel via le bureau peut également utiliser l’option **Conférence maintenant** dans Skype pour les entreprises pour créer des réunions Conférence maintenant. L’utilisateur voit alors le message **Appel sortant** et le téléphone PBX sonne.
+Un appel via l’utilisateur professionnel peut également utiliser l’option **Conférence maintenant** dans Skype entreprise pour créer des réunions Conférence maintenant. L’utilisateur voit alors le message **Appel sortant** et le téléphone PBX sonne.
   
-Un utilisateur de l’appel via le bureau peut également se connecter à une réunion en appelant le numéro de pont de conférence à partir de Skype pour les entreprises. Si un code PIN de conférence est requis, l’utilisateur doit le composer sur son téléphone PBX.
+Un appel via l’utilisateur professionnel peut également appeler une réunion en appelant son numéro dans Skype entreprise. Si un code PIN de conférence est requis, l’utilisateur doit le composer sur son téléphone PBX.
   
 ### <a name="incoming-calls"></a>Appels entrants
 
-Lorsqu’un utilisateur activé pour appel via le bureau reçoit un Skype pour l’appel de l’entreprise, le téléphone PBX et Skype de l’utilisateur pour les clients professionnels que tous les faire sonner simultanément (si l’utilisateur a configuré la sonnerie simultanée). L’utilisateur peut accepter l’appel en décrochant le téléphone PBX ou en cliquant sur **Accepter** dans la Skype pour Business notification. Si l’utilisateur accepte l’appel à l’aide de Skype pour les entreprises, le Skype pour la fenêtre d’entreprise pour l’appel reste ouverte. Mais si l’utilisateur accepte l’appel en décrochant le téléphone PBX, puis ferme le Skype pour la fenêtre de notification d’entreprise et il n’existe aucune Skype pour la session de l’entreprise, uniquement l’appel vocal sur le téléphone PBX.
+Lorsqu’un utilisateur a activé l’appel par le biais du travail, il reçoit un appel Skype entreprise, le téléphone PBX ainsi que les clients Skype entreprise de l’utilisateur, tous les anneaux en même temps. L’utilisateur peut accepter l’appel en décrochant le téléphone PBX ou en cliquant sur **accepter** dans la notification Skype entreprise. Si l’utilisateur accepte l’appel avec Skype entreprise, la fenêtre Skype entreprise pour l’appel reste ouverte. Si l’utilisateur accepte l’appel en décrochant le téléphone PBX, la fenêtre de notification de Skype entreprise se ferme et il n’y a pas de session Skype entreprise, seul l’appel vocal sur le téléphone PBX.
   
-Lorsqu’un utilisateur activé pour l’appel via le bureau reçoit un appel PBX, uniquement les sonneries de téléphone PBX.
+Lorsqu’un utilisateur a activé l’appel via le Bureau reçoit un appel PBX, seul le téléphone PBX sonne.
   
-## <a name="limitations-of-call-via-work"></a>Limitations de l’appel via le bureau
+## <a name="limitations-of-call-via-work"></a>Limitations d’appel via le Bureau
 
-Appel via le bureau est une solution vocale qui requiert la configuration matérielle peu, mais présente des limites par rapport aux fonctionnalités disponibles dans complète Enterprise Voice ou contrôle d’appel distant. Appel via le bureau présente les limitations suivantes :
+L’appel par le biais du Bureau est une solution vocale qui nécessite un minimum de configuration matérielle, mais qui comporte des limitations par rapport aux fonctionnalités disponibles dans le contrôle voix ou appels distant complet de l’entreprise. Les appels via le bureau sont soumis aux limitations suivantes:
   
-- Si un utilisateur de l’appel via le bureau a configuré le transfert d’appel pour le numéro de rappel appel via le bureau et que quelqu'un essaie d’inviter cet utilisateur à une réunion par numéro de téléphone de l’utilisateur, l’invitation atteindra pas l’utilisateur. Vous devez recommander à vos utilisateurs de se servir des noms et non pas des numéros de téléphone pour adresser des invitations. 
+- Si un appel via le téléphone de bureau a configuré le renvoi d’appel via le numéro de rappel professionnel et qu’une personne tente d’inviter cet utilisateur à une réunion à l’aide du numéro de téléphone de l’utilisateur, l’invitation n’atteint pas l’utilisateur. Vous devez recommander à vos utilisateurs de se servir des noms et non pas des numéros de téléphone pour adresser des invitations. 
     
-- Fonctionnalité 911 améliorée et suivi des appels malveillants ne sont pas disponibles pendant un appel appel via le bureau.
+- La fonctionnalité 911 améliorée et le suivi des appels malveillants ne sont pas disponibles lors de vos appels passés par le biais d’appels professionnels.
     
-- Les utilisateurs activés pour l’appel via le bureau ne peut pas utiliser la délégation, l’appel d’équipe ou les fonctionnalités de groupe de réponse.
+- Les utilisateurs activés pour les appels via le travail ne peuvent pas utiliser les fonctionnalités délégation, appel d’équipe ou Response Group.
     
-- Les utilisateurs d’appeler via le travail ne peut pas utiliser Skype pour les entreprises pour enregistrer une réunion, désactiver ou activer le son de l’appel, maintenez la touche ou transférer l’appel ou mise en garde d’appels.
+- Les utilisateurs de l’appel via le Bureau ne peuvent pas utiliser Skype entreprise pour enregistrer une réunion, désactiver ou activer le son de l’appel, mettre en attente ou transférer l’appel ou utiliser le parc d’appels.
     
-- Les utilisateurs ne peuvent pas utiliser appel via le bureau pour accéder à leurs messages de messagerie vocale PBX.
+- Les utilisateurs ne peuvent pas utiliser les appels via le Bureau pour accéder à leurs messages vocaux PBX.
     
-- Les utilisateurs d’appeler via le travail ne peuvent pas transformer une session en route en tant qu’un appel vocal à une conférence de collaboration qui inclut des communications comme tableau blanc vidéo, Powerpoint, ou une Note.
+- Les utilisateurs de l’appel via le Bureau ne peuvent pas remonter une session qui a commencé en tant qu’appel vocal pour une réunion de collaboration qui inclut des communications telles que la vidéo, PowerPoint, le tableau blanc ou une note.
     
-- Les utilisateurs d’appeler via le travail ne peut pas ajouter d’autres utilisateurs à un appel de personne-2.
+- Les utilisateurs de l’appel via le Bureau ne peuvent pas ajouter des utilisateurs à un appel de 2 personnes.
     
 - Pas de prise en charge de l’appariement de téléphone de bureau ou de plug-in VDI.
     
-- Si un utilisateur effectue ou répond à un appel en utilisant le téléphone PBX (et ne pas à l’aide de la Skype pour la fenêtre de l’entreprise), il n’y aura aucun journal de l’appel.
+- Si un utilisateur effectue ou répond à un appel à l’aide du téléphone PBX (sans utiliser la fenêtre Skype entreprise), il n’y a aucun journal de l’appel.
     
-- Si votre système PBX ne prend pas en charge **REFER with Replaces**, voici ce qui se produit. Sur un appel appel via le bureau, si l’utilisateur transfère l’appel en cours à partir du téléphone PBX, la fenêtre d’appel disparaîtra pas à partir de leur Skype pour la fenêtre de l’entreprise. Si l’utilisateur ferme ensuite la fenêtre d’appel, l’appel entre la cible de transfert et le cessionnaire prend fin. 
+- Si votre système PBX ne prend pas en charge **REFER with Replaces**, voici ce qui se produit. Lorsque l’utilisateur transfère l’appel en cours sur un téléphone PBX lors d’un appel, la fenêtre d’appel ne disparaîtra pas de sa fenêtre Skype entreprise. Si l’utilisateur ferme ensuite la fenêtre d’appel, l’appel entre la cible de transfert et le cessionnaire prend fin. 
     
-## <a name="prerequisites-for-call-via-work"></a>Conditions requises pour l’appel via le bureau
+## <a name="prerequisites-for-call-via-work"></a>Prérequis pour les appels via le Bureau
 
-Pour activer des utilisateurs pour un appel via le bureau, vous devez disposer de certaines conditions préalables en place. Pour plus d’informations sur ces conditions préalables et pour savoir comment activer les utilisateurs pour l’appel via le bureau, voir [Déployer des appels via le bureau dans Skype pour Business Server 2015](../../deploy/deploy-call-via-work.md). 
+Pour permettre aux utilisateurs d’appeler via le bureau, vous devez disposer de conditions préalables en vigueur. Pour plus d’informations sur ces éléments requis et pour savoir comment permettre aux utilisateurs d’appeler via le travail, voir [déployer des appels via le travail dans Skype entreprise Server 2015](../../deploy/deploy-call-via-work.md). 
   
 ## <a name="see-also"></a>Voir aussi
 
-[Planifier le contrôle d’appel distant dans Skype pour les entreprises](remote-call-control.md)
+[Planifier le contrôle d’appel distant dans Skype entreprise](remote-call-control.md)
   
 [Déployer l’appel via le bureau dans Skype Entreprise Server 2015](../../deploy/deploy-call-via-work.md)
 

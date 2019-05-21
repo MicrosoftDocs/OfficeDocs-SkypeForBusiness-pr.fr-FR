@@ -4,49 +4,49 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Vous pouvez utiliser Skype pour Business Server Control Panel pour démarrer ou arrêter les services hérités en cours d’exécution sur un ordinateur spécifique ou pour démarrer ou arrêter un service spécifique hérité.
-ms.openlocfilehash: 237d0dcd44855bbea9ea1b084df429946e8f5f15
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Vous pouvez utiliser le panneau de configuration Skype entreprise Server pour démarrer ou arrêter l’exécution de tous les services hérités sur un ordinateur spécifique ou pour démarrer ou arrêter un service hérité spécifique.
+ms.openlocfilehash: 90cd9c0c7d2fbd87a4ae796c94f025b60d1a1f87
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231408"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34307090"
 ---
 # <a name="stop-legacy-services"></a>Arrêter les services hérités
 
-Vous pouvez utiliser Skype pour Business Server Control Panel pour démarrer ou arrêter les services hérités en cours d’exécution sur un ordinateur spécifique ou pour démarrer ou arrêter un service spécifique hérité.
+Vous pouvez utiliser le panneau de configuration Skype entreprise Server pour démarrer ou arrêter l’exécution de tous les services hérités sur un ordinateur spécifique ou pour démarrer ou arrêter un service hérité spécifique.
   
-## <a name="to-start-or-stop-all-skype-for-business-server-services-on-a-computer"></a>Pour démarrer ou arrêter tous les Skype pour les services Business Server sur un ordinateur
+## <a name="to-start-or-stop-all-skype-for-business-server-services-on-a-computer"></a>Pour démarrer ou arrêter tous les services Skype entreprise Server sur un ordinateur
 
-1. Ouvrez le panneau de configuration serveur Business Skype.
+1. Ouvrez le panneau de configuration Skype entreprise Server.
     
 2. Dans la barre de navigation de gauche, cliquez sur **Topologie**, puis sur **État**. 
     
-3. Sur la page **d’état** , de tri ou de recherche par le biais de la liste pour trouver l’ordinateur qui exécute les services que vous souhaitez démarrer ou arrêter, puis cliquez dessus. 
+3. Dans la page **État** , triez ou effectuez une recherche dans la liste selon vos besoins pour trouver l’ordinateur exécutant les services que vous voulez démarrer ou arrêter, puis cliquez dessus. 
     
-4. Cliquez sur **Action**.
+4. Cliquez sur **action**.
     
-5. Cliquez sur **Démarrer tous les services** ou **Arrêter tous les services**.
+5. Cliquez sur **Démarrer tout le service** ou **arrêter tous les services**.
     
 ## <a name="to-start-or-stop-a-specific-service"></a>Pour démarrer ou arrêter un service spécifique
 
-1. Ouvrez le panneau de configuration serveur Business Skype.
+1. Ouvrez le panneau de configuration Skype entreprise Server.
     
 2. Dans la barre de navigation de gauche, cliquez sur **Topologie**, puis sur **État**. 
     
-3. Sur la page **d’état** , de tri ou de recherche par le biais de la liste selon vos besoins pour rechercher l’ordinateur qui exécute le service que vous souhaitez démarrer ou arrêter, puis cliquez dessus. 
+3. Dans la page **État** , triez ou effectuez une recherche dans la liste selon vos besoins pour trouver l’ordinateur exécutant le service que vous voulez démarrer ou arrêter, puis cliquez dessus. 
     
 4. Cliquez sur **Propriétés**.
     
-5. Triez la liste des services, si nécessaire, cliquez sur le service que vous souhaitez démarrer ou arrêter.
+5. Triez la liste des services, si nécessaire, puis cliquez sur le service que vous voulez démarrer ou arrêter.
     
-6. Cliquez sur **Action**.
+6. Cliquez sur **action**.
     
-7. Cliquez sur **Démarrer le service** ou **Arrêter le service**.
+7. Cliquez sur **Démarrer le service** ou arrêter le **service**.
     
 8. Cliquez sur **Fermer**.
     

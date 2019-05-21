@@ -1,10 +1,10 @@
 ---
-title: Créez des itinéraires interrégional réseau dans Skype pour Business Server
+title: Créer des itinéraires réseau interrégionals dans Skype entreprise Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,17 +13,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 5555262a-a502-4b01-9593-836dd30064f5
-description: Créer ou modifier des itinéraires interrégional réseau, qui sont utilisés par le contrôle d’admission des appels d’appel Enterprise Voice dans Skype pour Business Server.
-ms.openlocfilehash: b12f2f7d413be0031fd914157af4e9541095fd7f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Créez ou modifiez des itinéraires interrégions réseau qui sont utilisés par le contrôle d’admission des appels vocaux d’entreprise dans Skype entreprise Server.
+ms.openlocfilehash: aec289143e2b6dd54e2b52cfc231239fe5d73b7a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892971"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286368"
 ---
-# <a name="create-network-interregional-routes-in-skype-for-business-server"></a>Créez des itinéraires interrégional réseau dans Skype pour Business Server
+# <a name="create-network-interregional-routes-in-skype-for-business-server"></a>Créer des itinéraires réseau interrégionals dans Skype entreprise Server
  
-Créer ou modifier des itinéraires interrégional réseau, qui sont utilisés par le contrôle d’admission des appels d’appel Enterprise Voice dans Skype pour Business Server. 
+Créez ou modifiez des itinéraires interrégions réseau qui sont utilisés par le contrôle d’admission des appels vocaux d’entreprise dans Skype entreprise Server. 
   
 Un itinéraire interrégion réseau définit l’itinéraire entre deux régions réseau. Chaque paire de régions réseau dans votre déploiement de contrôle d’admission des appels nécessite un itinéraire interrégion réseau. Cela permet à chaque région réseau incluse dans le déploiement d’accéder à toute autre région.
   
@@ -31,9 +31,9 @@ Alors que les liens de région définissent les limitations de bande passante su
   
 Dans l’exemple de topologie, les itinéraires interrégion réseau doivent être définis pour chacune des trois paires de régions : Amérique du Nord/EMEA, EMEA/APAC et Amérique du Nord/APAC. 
   
-### <a name="to-create-network-interregional-routes-by-using-skype-for-business-server-management-shell"></a>Pour créer des itinéraires interrégional réseau à l’aide de Skype pour Business Server Management Shell
+### <a name="to-create-network-interregional-routes-by-using-skype-for-business-server-management-shell"></a>Pour créer des itinéraires interrégions du réseau à l’aide de Skype entreprise Server Management Shell
 
-1. Démarrez le Skype pour Business Server Management Shell : cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Skype pour Business 2015**, puis cliquez sur **Skype pour Business Server Management Shell**.
+1. Démarrez Skype entreprise Server Management Shell: cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
     
 2. Exécutez l’applet de commande **New-CsNetworkInterRegionRoute** pour définir les itinéraires nécessaires. Par exemple, exécutez :
     
@@ -52,9 +52,9 @@ Dans l’exemple de topologie, les itinéraires interrégion réseau doivent êt
     > [!NOTE]
     > L’itinéraire interrégion réseau Amérique du Nord/APAC nécessite deux liens de région réseau, car il n’existe aucun lien de région réseau direct entre elles. 
   
-### <a name="to-create-network-interregional-routes-by-using-skype-for-business-server-control-panel"></a>Pour créer des itinéraires interrégional réseau à l’aide de Skype pour Business Server Control Panel
+### <a name="to-create-network-interregional-routes-by-using-skype-for-business-server-control-panel"></a>Pour créer des itinéraires interrégions du réseau à l’aide de Skype entreprise Server panneau de configuration
 
-1. Ouvrez le panneau de configuration serveur Business Skype.
+1. Ouvrez le panneau de configuration Skype entreprise Server.
     
 2. Dans la barre de navigation de gauche, cliquez sur **Configuration réseau**.
     

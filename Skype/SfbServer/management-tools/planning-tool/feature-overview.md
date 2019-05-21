@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 4/6/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.plan.FeatureOverview
@@ -14,18 +14,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 description: Outil de planification de Skype Entreprise Server 2015
-ms.openlocfilehash: 19f84f9d20ade5f4f7bd8bac1395d3d2070f65d4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: fddf71cef6dc54045c657ca466137b4adb650d9d
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33929573"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274176"
 ---
 # <a name="feature-overview-planning-tool"></a>Feature Overview (Planning Tool)
  
 Outil de planification de Skype Entreprise Server 2015
   
-Vous pouvez utiliser la page **Sites centraux** de l’outil de planification pour concevoir le Skype pour le déploiement de serveur d’entreprise. Vous pouvez créer deux types de déploiement : centralisé ou distribué. Un déploiement centralisé n’a qu’un site central, qui héberge tous les Skype pour les utilisateurs professionnels de votre organisation. Un déploiement distribué comprend plusieurs sites centraux. Si vous déployez Skype pour Business Server sur plusieurs sites centraux, vous serez entrer le nombre d’utilisateurs sur chaque site central dans l’outil de planification.
+Vous pouvez utiliser la page **sites centraux** de l’outil planification pour concevoir le déploiement de Skype entreprise Server. Vous pouvez créer deux types de déploiement : centralisé ou distribué. Un déploiement centralisé dispose d’un seul site central, qui est l’un des utilisateurs Skype entreprise de votre organisation. Un déploiement distribué comprend plusieurs sites centraux. Si vous déployez Skype entreprise Server sur plusieurs sites centraux, vous devez entrer le nombre d’utilisateurs dans chaque site central de l’outil de planification.
   
 Pour finaliser la définition du site central, vous devez tout d’abord fournir les informations suivantes :
   
@@ -33,10 +33,10 @@ Pour finaliser la définition du site central, vous devez tout d’abord fournir
     
 - **Nombre d’utilisateurs** Entrez le nombre d’utilisateurs, y compris les utilisateurs des sites de succursales qui sont hébergés sur le site central.
     
-- **Nuage hébergés les utilisateurs** Entrez le nombre d’utilisateurs qui sont hébergés dans le site central à partir de Skype pour Business Online.
+- **Utilisateurs à domicile** dans le Cloud Entrez le nombre d’utilisateurs hébergés sur le site central à partir de Skype entreprise online.
     
 > [!NOTE]
-> Cet outil ne système pas mis à jour pour Skype pour Business Server 2019.
+> Cet outil ne sera pas mis à jour pour Skype entreprise Server 2019.
 
 ## <a name="ui-elements"></a>Éléments d’interface utilisateur
 
@@ -48,7 +48,7 @@ Les autres éléments ont été remplis avec les réponses fournies aux question
   
 - **Messagerie instantanée et présence**
     
-    La messagerie instantanée permet aux utilisateurs de communiquer en temps réel les uns avec les autres sur leurs ordinateurs à l’aide des messages textuels. Les sessions de messagerie unifiée à deux ou à plusieurs personnes sont prises en charge. La présence fournit aux utilisateurs des informations sur le statut de présence des autres utilisateurs sur le réseau. Statut de présence d’un utilisateur fournit des informations pour aider les autres à déterminer si l’utilisateur est en ligne et comment mieux contacter l’utilisateur. Par exemple, il est préférable de contacter un utilisateur qui est en réunion par e-mail.
+    La messagerie instantanée permet aux utilisateurs de communiquer en temps réel les uns avec les autres sur leurs ordinateurs à l’aide des messages textuels. Les sessions de messagerie unifiée à deux ou à plusieurs personnes sont prises en charge. La présence fournit aux utilisateurs des informations sur le statut de présence des autres utilisateurs sur le réseau. Le statut de présence d’un utilisateur fournit des informations pour aider les autres à déterminer si l’utilisateur est en ligne et comment contacter au mieux l’utilisateur. Par exemple, il est préférable de contacter un utilisateur qui est en réunion par e-mail.
     
 - **Conférence audio et vidéo**
     
@@ -80,18 +80,18 @@ Les autres éléments ont été remplis avec les réponses fournies aux question
     
 - **Fédération avec les fournisseurs de services XMPP**
     
-    Skype pour Business Server 2015 présente un proxy XMPP entièrement intégré (déployés sur les serveurs de périphérie) et une passerelle XMPP déployée sur vos serveurs frontaux. Vous pouvez déployer Ajout et la configuration du serveur proxy XMPP et la passerelle XMPP autorisera votre Skype pour les utilisateurs Business Server 2015 ajouter des contacts à partir de la présence et les partenaires basés sur XMPP pour la messagerie instantanée (IM).
+    Skype entreprise Server 2015 introduit un proxy XMPP entièrement intégré (déployé sur les serveurs Edge) et une passerelle XMPP déployée sur votre serveur frontal. Vous pouvez déployer l’ajout et la configuration du proxy XMPP et de la passerelle XMPP, afin que vos utilisateurs de Skype entreprise Server 2015 puissent ajouter des contacts des partenaires de XMPP pour la messagerie instantanée et la présence.
 
 > [!NOTE]
-> XMPP passerelles et les proxys sont disponibles dans Skype pour Business Server 2015, mais n’est plus pris en charge dans Skype pour Business Server 2019. Pour plus d’informations, voir [la fédération XMPP de migration](../../../SfBServer2019/migration/migrating-xmpp-federation.md) .
+> Les passerelles et les proxys XMPP sont disponibles dans Skype entreprise Server 2015, mais ne sont plus pris en charge dans Skype entreprise Server 2019. Pour plus d’informations, consultez la section migration de la [Fédération XMPP](../../../SfBServer2019/migration/migrating-xmpp-federation.md) .
     
 - **Mobilité**
     
-    Lorsque vous déployez le Skype pour le Service de mobilité 2015 Business Server, les utilisateurs peuvent utiliser pris en charge Apple iOS, Android, Windows Phone ou les appareils mobiles Nokia pour effectuer ces activités en tant que l’envoi et réception de messages instantanés, l’affichage des contacts et affichage de la présence.
+    Lorsque vous déployez le service de mobilité Skype entreprise Server 2015, les utilisateurs peuvent utiliser les appareils mobiles Apple iOS, Android, Windows Phone ou Nokia pour effectuer des opérations telles que l’envoi et la réception de messages instantanés, l’affichage de contacts et l’affichage de la présence.
     
 - **Boîte aux lettres Exchange W15**
     
-    Skype pour Business Server 2015 permet à votre messagerie vocale stockés dans Exchange messagerie unifiée (MU) ; Ces messages de messagerie vocale seront affiche alors en tant que messages électroniques dans la boîte de réception de vos utilisateurs.
+    Skype entreprise Server 2015 vous permet de disposer de messages vocaux stockés dans la messagerie unifiée Exchange (MU); ces messages vocaux apparaissent alors sous forme de courriers dans les boîtes de réception de vos utilisateurs.
     
 ### <a name="voice"></a>Audio
 
@@ -99,11 +99,11 @@ Les autres éléments ont été remplis avec les réponses fournies aux question
   
 - **Voix Entreprise**
     
-    Enterprise voice est la solution VoIP par logiciel de Microsoft. Voix entreprise permet aux utilisateurs d’utiliser Skype pour les entreprises pour passer un appel téléphonique à partir de leur ordinateur.
+    Enterprise Voice est une solution VoIP basée sur le logiciel. Voix entreprise permet aux utilisateurs d’utiliser Skype entreprise pour passer un appel à partir de leur ordinateur.
     
 - **Messagerie unifiée Exchange**
     
-    Messagerie unifiée Exchange (MU) combine la messagerie vocale et électronique en une seule infrastructure de messagerie. Skype pour Business Server 2015 utilise la messagerie unifiée Exchange pour fournir la réponse aux appels, l’accès abonné, notification d’appel et services de standard automatique. Si vous utilisez ces services, vous devrez intégrer la messagerie unifiée Exchange et Skype pour Business Server dans une topologie Active Directory partagée.
+    La messagerie unifiée Exchange combine la messagerie vocale et le courrier électronique en une seule infrastructure de messagerie. Skype entreprise Server 2015 utilise la messagerie unifiée Exchange pour fournir des réponses aux appels, des accès abonnés, des notifications d’appel et des services de standard automatique. Si vous utilisez ces services, vous devez intégrer Exchange UM et Skype entreprise Server dans une topologie Active Directory partagée.
     
 ### <a name="additional-deployment-options"></a>Options de déploiement supplémentaires
 
@@ -115,11 +115,11 @@ Les autres éléments ont été remplis avec les réponses fournies aux question
     
 - **Récupération d’urgence**
     
-    Mesures de récupération d’urgence vous permettent de paire Front End pools situés dans deux centres de données.
+    Les mesures de reprise après sinistre vous permettent de jumeler les pools front-end situés dans deux centres de données.
     
 - **Analyse**
     
-    La surveillance capture des enregistrements détaillés liés aux sessions de communication. Elle collecte également des métriques des sessions audio et vidéo aux points de terminaison des participants. Le serveur de surveillance fournit les statistiques d’utilisation, les tendances et les statistiques de qualité des médias.
+    La surveillance capture des enregistrements détaillés liés aux sessions de communication. Elle collecte également des métriques des sessions audio et vidéo aux points de terminaison des participants. La surveillance du serveur fournit des statistiques d’utilisation, des tendances et des statistiques de qualité multimédia.
     
 - **Archivage**
     
@@ -127,7 +127,7 @@ Les autres éléments ont été remplis avec les réponses fournies aux question
     
 - **Intégration de l’archivage Exchange**
     
-    Si vous avez des utilisateurs qui sont hébergés sur Exchange 2013 et leurs boîtes aux lettres ont été placées en blocage sur Place, vous pouvez sélectionner l’option intégrer Skype pour le stockage des Business Server 2015 avec le stockage Exchange.
+    Si vous avez des utilisateurs hébergés sur Exchange 2013 et que leurs boîtes aux lettres ont été placées sur place, vous pouvez sélectionner l’option d’intégration de l’espace de stockage de Skype entreprise Server 2015 avec le stockage Exchange.
     
 - **IPv4**
     
@@ -139,7 +139,7 @@ Les autres éléments ont été remplis avec les réponses fournies aux question
     
 - **service web de mise à jour des périphériques**
     
-    Le service Web de mise à jour des périphériques permet de mettre à jour tous les périphériques, tels que Skype pour Business pour Windows Phone, qui sont déployés à l’extérieur de votre organisation.
+    Le service Web de mise à jour des appareils fournit un moyen automatisé de mettre à jour tous les appareils, tels que Skype entreprise pour Windows Phone, déployés en dehors de votre organisation.
     
 ### <a name="server-applications"></a>Applications serveur
 
@@ -147,23 +147,23 @@ Les autres éléments ont été remplis avec les réponses fournies aux question
   
 - **Response Group**
     
-    L’application Response Group répond automatiquement et distribue les appels vers un agent de support technique disponibles.
+    L’application Response Group répond automatiquement et distribue les appels à un agent de support technique disponible.
     
 - **Annonce**
     
-    Si vous prévoyez de déployer Enterprise Voice, vous souhaitez être en mesure de configurer la gestion des appels téléphoniques si le numéro composé est valide mais pas attribué à une zone commune utilisateur. Les administrateurs peuvent configurer le service d’annonce afin que ces appels soient transférés à une destination prédéterminée (numéro de téléphone ou URI SIP) ou qu’une annonce audio soit lue ou les deux. Le recours au service d’annonce évite toute situation inopportune, notamment quand un appelant compose un mauvais numéro et entend une tonalité de ligne occupée ou lorsque le client SIP reçoit un message d’erreur. La fonctionnalité de service d’annonce est une fonctionnalité PBX. 
+    Si vous envisagez de déployer Enterprise Voice, vous souhaiterez peut-être configurer la gestion des appels téléphoniques Si le numéro composé est valide, mais n’est pas attribué à une zone commune de l’utilisateur. Les administrateurs peuvent configurer le service d’annonce afin que ces appels soient transférés à une destination prédéterminée (numéro de téléphone ou URI SIP) ou qu’une annonce audio soit lue ou les deux. Le recours au service d’annonce évite toute situation inopportune, notamment quand un appelant compose un mauvais numéro et entend une tonalité de ligne occupée ou lorsque le client SIP reçoit un message d’erreur. La fonctionnalité de service d’annonce est une fonctionnalité PBX. 
     
 - **parcage d’appel**
     
-    Permet aux applications de parcage d’appel un utilisateur Enterprise Voice pour mettre un appel en attente à partir d’un téléphone, puis recevoir l’appel à partir d’un autre téléphone sans bloquer les ressources sur le téléphone qui a reçu l’appel. Application parcage d’appel est utile lorsqu’un utilisateur a besoin transférer un appel, mais le destinataire spécifique est inconnu. 
+    L’application de stationnement d’appel permet à un utilisateur de voix entreprise de mettre un appel en attente à partir d’un téléphone, puis de réceptionner l’appel d’un autre téléphone sans mettre en place des ressources sur le téléphone ayant reçu l’appel. L’application de parc d’appels est utile lorsqu’un utilisateur doit transférer un appel, mais qu’il n’est pas connu. 
     
 - **Intendant Conférence**
     
-    Application intendant Conférence fournit les fonctionnalités de conférence audio pour les utilisateurs de téléphones sans le service d’un fournisseur de services d’audioconférence tiers.
+    L’application de surveillance des conférences fournit des fonctionnalités d’audioconférence aux utilisateurs de téléphone sans le service d’un fournisseur de services d’audioconférence tiers.
     
 - **Annonce de conférence**
     
-    Annonce de conférence application génère des tonalités qui indiquent que les utilisateurs entrent ou quittent une conférence, ainsi que des notifications aux utilisateurs de téléphone lorsqu’ils sont activés ou désactivés.
+    L’application annonce d’annonce génère des tonalités indiquant que les utilisateurs entrent ou quittent une conférence, ainsi que des notifications aux utilisateurs du téléphone quand ils sont en sourdine ou en mode muet.
     
 - **Contrôle d’admission des appels**
     

@@ -8,59 +8,59 @@ mtps_version: v=OCS.15
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: ''
-ms.openlocfilehash: 6bc424dc0b26f794d45c5a601b468bbb78c92ef6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a368a364f39fe8178e9ce4f17a17bea96fea7b23
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919450"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280270"
 ---
-# <a name="enable-or-disable-anonymous-user-access-in-skype-for-business-server"></a>Activer ou désactiver l’accès utilisateur anonyme dans Skype pour Business Server
+# <a name="enable-or-disable-anonymous-user-access-in-skype-for-business-server"></a>Activation ou désactivation de l’accès anonyme aux utilisateurs dans Skype entreprise Server
 
-Les utilisateurs anonymes sont des utilisateurs qui n’ont pas d’un compte d’utilisateur dans des Services votre organisation de domaine Active Directory ou dans un domaine fédéré pris en charge, mais peuvent être invités à participer à une conférence sur site à distance. En autorisant la participation anonyme aux réunions, vous activez les utilisateurs anonymes (autrement dit, les utilisateurs dont l’identité est vérifiée au moyen de la clé de réunion ou une conférence uniquement) à participer à des réunions. Permettant la participation anonyme nécessite l’activation de votre organisation.
+Les utilisateurs anonymes sont des utilisateurs qui n’ont pas de compte d’utilisateur dans les services de domaine Active Directory de votre organisation ou qui sont invités à participer à distance dans une conférence locale. La participation anonyme aux réunions vous permet d’activer les utilisateurs anonymes (c’est-à-dire les utilisateurs dont l’identité est vérifiée uniquement via la réunion ou la clé de conférence) pour participer aux réunions. L’activation de la participation anonyme exige de l’activer pour votre organisation.
 
-Si vous souhaitez ultérieurement à titre temporaire ou permanent empêcher l’accès des utilisateurs anonymes, vous pouvez le désactiver pour votre organisation. Utilisez la procédure de cette section pour activer ou désactiver l’accès utilisateur anonyme pour votre organisation.
+Si vous souhaitez suspendre temporairement ou définitivement l’accès par des utilisateurs anonymes, vous pouvez le désactiver pour votre organisation. Pour activer ou désactiver l’accès anonyme aux utilisateurs de votre organisation, suivez la procédure décrite dans cette section.
 
 > [!NOTE]  
-> En autorisant l’accès utilisateur anonyme pour votre organisation, vous pouvez uniquement définir que vos serveurs exécutant le service Edge d’accès prennent en charge l’accès des utilisateurs anonymes. Les utilisateurs anonymes ne peuvent pas participer à des réunions dans votre organisation jusqu'à ce que vous également configurez au moins une stratégie de conférence et l’appliquez à un ou plusieurs utilisateurs ou groupes d’utilisateurs. Les seuls utilisateurs qui peuvent inviter des utilisateurs anonymes aux réunions sont des utilisateurs qui sont affectés à une stratégie de conférence qui est configurée pour prendre en charge les utilisateurs anonymes. Pour plus d’informations sur la configuration des stratégies de conférence pour prendre en charge d’inviter des utilisateurs anonymes, voir [Gérer les stratégies de conférence](../../conferencing/conferencing-policies.md).
+> L’activation de l’accès anonyme aux utilisateurs de votre organisation consiste uniquement à indiquer que vos serveurs exécutant le service Edge d’accès prennent en charge l’accès par des utilisateurs anonymes. Les utilisateurs anonymes ne peuvent pas participer à une réunion au sein de votre organisation tant que vous n’avez pas configuré au moins une stratégie de conférence et que vous l’appliquez à un ou plusieurs utilisateurs ou groupes d’utilisateurs. Les seuls utilisateurs qui peuvent inviter des utilisateurs anonymes à des réunions sont les utilisateurs auxquels une stratégie de conférence est affectée et qui est configurée pour prendre en charge les utilisateurs anonymes. Pour plus d’informations sur la configuration des stratégies de conférence pour la prise en charge de l’invitation d’utilisateurs anonymes, voir [gérer les stratégies de conférence](../../conferencing/conferencing-policies.md).
 
-## <a name="to-enable-or-disable-anonymous-user-access-for-your-organization"></a>Pour activer ou désactiver l’accès utilisateur anonyme pour votre organisation
+## <a name="to-enable-or-disable-anonymous-user-access-for-your-organization"></a>Pour activer ou désactiver l’accès anonyme aux utilisateurs de votre organisation
 
-1.  À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou est affecté au rôle CsAdministrator, ouvrez une session sur n’importe quel ordinateur dans votre déploiement interne.
+1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affectées au rôle CsAdministrator, connectez-vous à n’importe quel ordinateur dans votre déploiement interne.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business. 
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration Skype entreprise Server. 
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Accès des utilisateurs externes**, puis cliquez sur **Configuration du serveur Edge d’accès**.
+3.  Dans la barre de navigation de gauche, cliquez sur **accès utilisateur externe**, puis cliquez sur **configuration d’Access Edge**.
 
-4.  Dans la page **Configuration du serveur Edge d’accès** , cliquez sur **Global**, cliquez sur **Modifier**, puis cliquez sur **Afficher les détails**.
+4.  Dans la page **configuration de Microsoft Edge** , cliquez sur **Global**, sur **modifier**, puis sur **afficher les détails**.
 
-5.  Dans **Modifier la Configuration Edge accès**, effectuez l’une des options suivantes :
+5.  Dans **modification de la configuration d’Access Edge**, effectuez l’une des opérations suivantes:
     
-      - Pour activer l’accès utilisateur anonyme pour votre organisation, activez la case à cocher **Activer les communications avec les utilisateurs anonymes** .
+      - Pour activer l’accès anonyme aux utilisateurs de votre organisation, activez la case à cocher **activer les communications avec les utilisateurs anonymes** .
     
-      - Pour désactiver l’accès utilisateur anonyme pour votre organisation, désactivez la case à cocher **Activer les communications avec les utilisateurs anonymes** .
+      - Pour désactiver l’accès anonyme aux utilisateurs de votre organisation, décochez la case **activer les communications avec les utilisateurs anonymes** .
 
 6.  Cliquez sur **Valider**.
 
 
-## <a name="enabling-or-disabling-anonymous-user-access-by-using-windows-powershell-cmdlets"></a>Activation ou désactivation de l’accès utilisateur anonyme à l’aide des applets de commande Windows PowerShell
+## <a name="enabling-or-disabling-anonymous-user-access-by-using-windows-powershell-cmdlets"></a>Activation ou désactivation de l’accès utilisateur anonyme à l’aide des cmdlets Windows PowerShell
 
-Vous pouvez gérer l’accès utilisateur anonyme à l’aide de Windows PowerShell et l’applet de commande **Set-CsAccessEdgeConfiguration** . Vous pouvez exécuter cette applet de commande à partir de la Skype pour Business Server Management Shell ou d’une session à distance de Windows PowerShell. 
+Vous pouvez gérer l’accès utilisateur anonyme à l’aide de Windows PowerShell et de l’applet **de connexion Set-CsAccessEdgeConfiguration** . Vous pouvez exécuter cette applet de commande à partir de Skype entreprise Server Management Shell ou d’une session distante de Windows PowerShell. 
 
-## <a name="to-enable-anonymous-user-access"></a>Pour activer l’accès utilisateur anonyme
+## <a name="to-enable-anonymous-user-access"></a>Pour autoriser l’accès des utilisateurs anonymes
 
-  - Pour activer l’accès utilisateur anonyme, définissez la valeur de la propriété **AllowAnonymousUsers** sur True ($True) :
+  - Pour autoriser l’accès des utilisateurs anonymes, définissez la valeur de la propriété **AllowAnonymousUsers** sur True ($true):
     
         Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $True
 
-## <a name="to-disable-anonymous-user-access"></a>Pour désactiver l’accès utilisateur anonyme
+## <a name="to-disable-anonymous-user-access"></a>Pour désactiver l’accès des utilisateurs anonymes
 
-  - Pour désactiver l’accès utilisateur anonyme, définissez la valeur de la propriété **AllowAnonymousUsers** sur False ($False) :
+  - Pour désactiver l’accès utilisateur anonyme, définissez la valeur de la propriété **AllowAnonymousUsers** sur false ($false):
     
         Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $False
 

@@ -1,26 +1,26 @@
 ---
-title: Afficher des informations sur les jonctions SIP individuelles dans Skype pour Business Server
+title: Afficher des informations sur les circuits SIP individuels dans Skype entreprise Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Dans Skype pour Business Server, vous pouvant assigner plusieurs jonctions à une seule passerelle PSTN ; Cela signifie que les passerelles et les jonctions ne sont pas les mêmes, et les administrateurs doivent utiliser l’applet de commande Get-CsTrunk pour afficher des informations sur une jonction SIP individuelle.
-ms.openlocfilehash: bf9229dba17b7b2e49eb9a05d9469f42c0b9b998
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Dans Skype entreprise Server, plusieurs Trunks peuvent être affectées à une seule passerelle RTC; Cela signifie que les passerelles et les Trunks ne sont pas les mêmes et qu’ils doivent utiliser l’applet de cmdlet Get-CsTrunk pour afficher des informations sur un Trunk SIP individuel.
+ms.openlocfilehash: f9199936dd4c9580c95c8b9708df04dcac13e1e8
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930819"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274876"
 ---
-# <a name="view-information-about-individual-sip-trunks-in-skype-for-business-server"></a>Afficher des informations sur les jonctions SIP individuelles dans Skype pour Business Server
+# <a name="view-information-about-individual-sip-trunks-in-skype-for-business-server"></a>Afficher des informations sur les circuits SIP individuels dans Skype entreprise Server
 
-Dans Skype pour Business Server, vous pouvant assigner plusieurs jonctions à une seule passerelle PSTN ; Cela signifie que les passerelles et jonctions ne sont pas les mêmes, et que les administrateurs doivent utiliser l’applet de commande [Get-CsTrunk](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTrunk) pour afficher des informations sur une jonction SIP individuelle.
+Dans Skype entreprise Server, plusieurs Trunks peuvent être affectées à une seule passerelle RTC; Cela signifie que les passerelles et les Trunks ne sont pas les mêmes que les passerelles et les administrateurs doivent utiliser l’applet de passe [Get-CsTrunk](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTrunk) pour afficher des informations sur un Trunk SIP individuel.
 
-L’applet de commande Get-CsTrunk peut être exécutée à partir de la Skype pour Business Server Management Shell ou à partir d’une session à distance de Windows PowerShell.
+Vous pouvez exécuter l’applet de commande Get-CsTrunk à partir de Skype entreprise Server Management Shell ou à partir d’une session distante de Windows PowerShell.
 
 **Pour afficher des informations sur toutes vos jonctions SIP**
 
@@ -34,7 +34,7 @@ La commande suivante retourne uniquement les informations relatives à la joncti
 
 `Get-CsTrunk -Identity "PstnGateway:192.168.0.240"`
 
-**Affichage des informations pour toutes les jonctions SIP affectées à un Pool**
+**Affichage des informations pour toutes les lignes SIP attribuées à un pool**
 
 Dans cet exemple, les informations relatives à toutes les jonctions SIP affectées au pool atl-cs-001.litwareinc.com sont retournées :
 

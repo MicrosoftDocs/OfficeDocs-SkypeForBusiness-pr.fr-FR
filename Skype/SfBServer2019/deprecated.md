@@ -1,78 +1,78 @@
 ---
-title: Ce qui est déconseillé de Skype pour Business Server 2019
+title: Ce qui est déconseillé dans Skype entreprise Server 2019
 ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: overview
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
-description: 'Résumé : Ces fonctionnalités ont été supprimées de Skype pour Business Server 2019.'
-ms.openlocfilehash: 0dd7edda344ec41cc37e5013d18755c29d16c9a9
-ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
+description: 'Résumé: les fonctionnalités suivantes ont été supprimées de Skype entreprise Server 2019.'
+ms.openlocfilehash: a342f98d1a3191064d1678190a0d4b743b40a37f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "33835173"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34278111"
 ---
-# <a name="whats-deprecated-from-skype-for-business-server-2019"></a>Ce qui est déconseillé de Skype pour Business Server 2019
+# <a name="whats-deprecated-from-skype-for-business-server-2019"></a>Ce qui est déconseillé dans Skype entreprise Server 2019
 
-Découvrez les fonctionnalités qui sont déconseillées dans Skype pour Business Server 2019. Pour plus d’informations sur les nouvelles fonctionnalités dans Skype pour Business Server 2019, voir [Nouveautés de Skype pour Business Server 2019](whats-new.md).
+Découvrez les fonctionnalités déconseillées dans Skype entreprise Server 2019. Pour plus d’informations sur les nouvelles fonctionnalités de Skype entreprise Server 2019, voir [qu’est-ce que Skype entreprise server 2019](whats-new.md).
 
-Certaines fonctionnalités en évidence sont incluses dans Skype pour Business Server 2019 pour la compatibilité avec les versions antérieures du produit.
+Certaines fonctions inversées sont incluses dans Skype entreprise Server 2019 à des fins de compatibilité avec les versions antérieures du produit.
 
-## <a name="features-deprecated-in-skype-for-business-server-2019"></a>Fonctionnalités déconseillées dans Skype pour Business Server 2019 
+## <a name="features-deprecated-in-skype-for-business-server-2019"></a>Fonctionnalités déconseillées dans Skype entreprise Server 2019 
 
     The following features and functionality have been deprecated in Skype for Business Server 2019.
 
-### <a name="xmpp-gateways-for-skype-for-business-server"></a>Passerelles XMPP pour Skype pour Business Server
+### <a name="xmpp-gateways-for-skype-for-business-server"></a>Passerelles XMPP pour Skype entreprise Server
 
-Skype pour Business Server 2015 et ses prédécesseurs autorisés vous permet de configurer un proxy XMPP et de présence Protocol (XMPP) sur le serveur de périphérie et une passerelle XMPP sur le pool frontal ou serveur frontal. Cette fonctionnalité n’est plus disponible dans Skype pour Business Server 2019.
+Skype entreprise Server 2015 et ses prédécesseurs vous permettaient de configurer un proxy de messagerie électronique et de présence sur le serveur Edge et une passerelle XMPP sur le serveur frontal ou le pool frontal. Cette fonctionnalité n’est plus disponible dans Skype entreprise Server 2019.
 
-### <a name="persistent-chat-for-skype-for-business-server"></a>Conversation permanente pour Skype pour Business Server
+### <a name="persistent-chat-for-skype-for-business-server"></a>Conversation permanente pour Skype entreprise Server
 
-Serveur de conversation permanente est un rôle facultatif qui permet à plusieurs utilisateurs dans votre organisation participer à des conversations de salle de conversation persistant. Conversation permanente ne peuvent pas être déployée avec Skype pour Business Server 2019. Ce rôle de serveur est supprimé du Générateur de topologie, ainsi que du code. 
+Le serveur Chat permanent est un rôle facultatif qui permet à plusieurs utilisateurs de votre organisation de participer à des conversations de salles de conversation qui persistent dans le temps. La conversation permanente ne peut pas être déployée avec Skype entreprise Server 2019. Ce rôle de serveur est supprimé du générateur de topologie, ainsi que du code. 
 
-La même fonctionnalité est disponible dans les équipes. Pour plus d’informations, voir [parcours de Skype pour les entreprises aux équipes de Microsoft](/microsoftteams/journey-skypeforbusiness-teams).
+La même fonctionnalité est disponible dans Microsoft Teams. Pour plus d’informations, reportez-vous à la rubrique [voyage de Skype entreprise à Microsoft teams](/microsoftteams/journey-skypeforbusiness-teams).
 
-### <a name="sql-mirroring-for-skype-for-business-server"></a>Mise en miroir de SQL pour Skype pour Business Server
+### <a name="sql-mirroring-for-skype-for-business-server"></a>Mise en miroir SQL pour Skype entreprise Server
 
-La mise en miroir SQL ne peut pas être déployé avec Skype pour Business Server 2019. Autres options pour fournir une haute disponibilité et récupération d’urgence sont toujours supportées et vous devez choisir parmi les. Voir [planifier la haute disponibilité et de récupération d’urgence dans Skype pour Business Server](../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md) pour passer en revue les options.
+La mise en miroir SQL ne peut pas être déployée avec Skype entreprise Server 2019. D’autres options de fourniture d’une haute disponibilité et de récupération d’urgence sont toujours prises en charge, et vous devez choisir entre elles. Pour plus d’informations, consultez l’offre [pour une haute disponibilité et une reprise après sinistre dans Skype entreprise Server](../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md) .
 
 ### <a name="in-place-upgrades"></a>Mises à niveau sur place 
 
-Mises à niveau sur place étaient disponibles dans Skype pour Business Server 2015, mais n’est plus pris en charge dans Skype pour Business Server 2019. Côte à côte mise à niveau et la coexistence, consultez [Migration vers Skype pour Business Server 2019](migration/migration-to-skype-for-business-server-2019.md) pour plus d’informations.
+Les mises à niveau sur place étaient disponibles dans Skype entreprise Server 2015, mais ne sont plus prises en charge dans Skype entreprise Server 2019. La mise à niveau et la coexistence côte à côte sont prises en charge pour plus d’informations, reportez-vous à la rubrique [migration vers Skype entreprise Server 2019](migration/migration-to-skype-for-business-server-2019.md) .
 
-### <a name="mobility-service-mcx"></a>Service de mobilité (Mcx)
+### <a name="mobility-service-mcx"></a>Service de mobilité (MCX)
 
-Prise en charge du Service Mobility utilisé par les clients hérités mobiles n’est plus disponible dans Skype pour Business Server 2019. Il a été précédemment annoncé dans Skype pour Business Server 2015.
+La prise en charge des services de mobilité par les anciens clients mobiles n’est plus disponible dans Skype entreprise Server 2019. Il s’est déjà annoncé dans Skype entreprise Server 2015.
 
-Tous les Skype en cours pour les clients mobiles métiers utilisent déjà Unified Communications Web API (UCWA) pour prendre en charge la messagerie instantanée, présence et les contacts. Les utilisateurs avec les clients hérités Mcx doivent mettre à niveau vers un client actuel.
+Tous les clients mobiles Skype entreprise actuels utilisent déjà UCWA (Unified Communications Web API) pour la prise en charge de la messagerie instantanée, de la présence et des contacts. Les utilisateurs des clients hérités utilisant MCX doivent effectuer une mise à niveau vers un client actuel.
 
-Pour plus d’informations, voir [planifier la mobilité Skype pour Business Server](../SfbServer/plan-your-deployment/mobility.md) et [comparaison des fonctionnalités de client Mobile pour Skype pour les entreprises](../SfbServer/plan-your-deployment/clients-and-devices/mobile-feature-comparison.md).
+Pour plus d’informations, reportez-vous à la rubrique [planification de la mobilité pour Skype entreprise Server](../SfbServer/plan-your-deployment/mobility.md) et [comparaison des fonctionnalités du client mobile pour Skype entreprise](../SfbServer/plan-your-deployment/clients-and-devices/mobile-feature-comparison.md).
 
-## <a name="tools"></a>Outils
+## <a name="tools"></a>Utilitaires
 
-Les outils suivants ne sera pas disponibles pour la version initiale de Skype pour Business Server 2019 :
+Les outils suivants ne seront pas disponibles lors de la publication initiale de Skype entreprise Server 2019:
 
 - Calculateur de planification de la capacité Skype Entreprise Server
-- Skype pour Business Server Outils de débogage
-- Skype pour les outils du Kit de ressources Business Server (certains outils seront supprimés)
+- Outils de débogage de Skype entreprise Server
+- Outils du kit de ressources Skype entreprise Server (certains outils seront supprimés)
     - Call Parkometer
     - Console utilisateur de recherche
-    - Numéro non attribué Migration annonce
+    - Migration d’annonce de numéro non affectée
 
-Les outils suivants ne sont pas pris en charge avec Skype pour Business Server 2019 :
+Les outils suivants ne sont pas pris en charge avec Skype entreprise Server 2019:
 
-- Méthodologie de la qualité des appels (mais pas appeler de tableau de bord qualité)
-- Carte de performance Microsoft appel qualité méthodologie, v1.5
+- Méthodologie de qualité d’appel (mais pas de tableau de bord de qualité d’appel)
+- Carte de performance de méthodologie de qualité d’appel Microsoft, v 1.5
 - Outil de planification de Skype Entreprise Server 2015
 - Skype for Business Server 2015 Stress and Performance Tool
 
 ### <a name="see-also"></a>Voir aussi
 
-[Quelles sont les nouveautés dans Skype pour Business Server 2019](whats-new.md)
+[Nouveautés de Skype entreprise Server 2019](whats-new.md)
 
 [Migration de la fédération XMPP](migration/migrating-xmpp-federation.md)

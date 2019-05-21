@@ -5,19 +5,19 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 4/5/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 47425ab1-5645-4d6f-b202-64bcce43e3ef
 description: Après avoir répondu aux questions initiales, vous pouvez modifier le nom de domaine complet et les adresses IP pour le site. Pour cela, sur la page Topologie globale, double-cliquez sur le site que vous souhaitez modifier.
-ms.openlocfilehash: 9dcc8f2f69843de5d824ad3df614631ea0d50c20
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 91a7ad51c66d810255fcc3239d25298bd370501f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33915058"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274288"
 ---
 # <a name="edit-the-topology-in-skype-for-business-server-2015"></a>Edit the topology in Skype for Business Server 2015
 
@@ -25,25 +25,25 @@ Après avoir répondu aux questions initiales, vous pouvez modifier le nom de do
 
 L’outil de planification affiche la topologie de site pour le site sélectionné. Le bas de la page du site comporte quatre onglets :
 
-![Topologie de Site d’outil de planification](../../media/Planning_Tool_Site_Topology.png)
+![Topologie de site outil de planification](../../media/Planning_Tool_Site_Topology.png)
 
-- Topologie du site - la page actuellement affichée avec une représentation visuelle de la topologie recommandée.
+- Topologie de site: page actuellement affichée avec une vue d’ensemble visuelle de la topologie recommandée.
 
-- Organigramme Edge - la page de diagramme de réseau de périphérie est où le concepteur effectue la plupart du travail de l’outil de planification. Le diagramme affiche la configuration réseau pour un Skype recommandée pour la topologie Business Server 2015, avec des entrées modifiables pour IP adresses et noms de domaine complets pour les serveurs, pool et les configurations matérielle et le nom de domaine DNS (Domain Name System) équilibreurs de charge.
+- Diagramme de réseau Edge: la page réseau de tâches Edge est l’endroit où le concepteur effectue la majeure partie du travail dans l’outil de planification. Le diagramme affiche la configuration du réseau pour une topologie 2015 de Skype entreprise Server, avec des entrées modifiables pour les adresses IP et les noms de domaine complets pour les serveurs, le pool, et les équilibreurs de charge de matériel et de système de noms de domaine (DNS).
 
-- Ce rapport - le rapport contient un total de quatre rapports :
+- Rapport d’administration Edge: le rapport d’administration Edge comporte au total quatre rapports:
 
-     ![Page de rapport d’administrateur Edge](../../media/Planning_Tool_Summary_Report.png)
+     ![Page rapport d’administration Edge](../../media/Planning_Tool_Summary_Report.png)
 
-  - Rapport de synthèse - un rapport général des paramètres pour la configuration réseau du serveur Edge. Si vous calez les valeurs de la page **Diagramme du réseau de périmètre** sur les valeurs des adresses TCP/IP et des noms de domaine complets qui seront utilisées dans la topologie du déploiement, ces adresses et noms seront représentés ici. Sinon, les valeurs par défaut s’afficheront.
+  - Rapport de synthèse-un rapport général sur les paramètres de configuration du réseau Edge. Si vous calez les valeurs de la page **Diagramme du réseau de périmètre** sur les valeurs des adresses TCP/IP et des noms de domaine complets qui seront utilisées dans la topologie du déploiement, ces adresses et noms seront représentés ici. Sinon, les valeurs par défaut s’afficheront.
 
-  - Certificat de rapports - le certificat ce rapport répertorie le nom du sujet et les noms de sujet pour les certificats requis pour la topologie.
+  - Rapport de certification-le rapport de certificat indique le nom de l’objet et les noms de remplacement de l’objet pour les certificats requis pour la topologie.
 
-  - Rapport de pare-feu - du rapport de pare-feu répertorie les informations nécessaires pour configurer le pare-feu de périmètre dans l’infrastructure. Il s’agit des adresses IP (valeurs par défaut ou valeurs modifiées), des rôles serveur, des ports et adresses IP source et de destination, des protocoles de transport, des protocoles d’application et de remarques pertinentes.
+  - Rapport de pare-feu-le rapport de pare-feu recense les informations nécessaires à la configuration des pare-feux de périmètre dans l’infrastructure. Il s’agit des adresses IP (valeurs par défaut ou valeurs modifiées), des rôles serveur, des ports et adresses IP source et de destination, des protocoles de transport, des protocoles d’application et de remarques pertinentes.
 
-  - Rapport DNS - le rapport DNS répertorie les informations pertinentes pour les entrées DNS que vous devez créer. Il s’agit du type d’enregistrement, du nom de domaine complet, de l’adresse IP et de commentaires nécessaires pour le bon fonctionnement du déploiement.
+  - Rapport DNS-le rapport DNS recense les informations pertinentes pour les entrées DNS que vous devez créer. Il s’agit du type d’enregistrement, du nom de domaine complet, de l’adresse IP et de commentaires nécessaires pour le bon fonctionnement du déploiement.
 
-- Résumé du site - le résumé du site présente une vue d’ensemble des options que vous avez apportées en réponse aux questions initiale ou en renseignant les valeurs de **Concevoir des Sites**. Les informations de capacité sont également présentées.
+- Résumé du site-le résumé du site offre une vue d’ensemble des sélections que vous avez apportées en répondant aux questions d’une interview initiale ou en remplissant les valeurs des **sites de conception**. Les informations de capacité sont également présentées.
 
     > [!NOTE]
     > Les informations sur la page Résumé du site sont propres à chaque conception. Par conséquent, certaines sections et informations détaillées ici peuvent ne pas s’afficher pour certaines conceptions.
@@ -51,11 +51,11 @@ L’outil de planification affiche la topologie de site pour le site sélectionn
 ## <a name="edit-the-network-configuration-diagram"></a>Modifier le diagramme de configuration du réseau
 <a name="Edit_Network_diagram"> </a>
 
-L’essentiel du travail par un concepteur dans le Skype pour l’outil de planification de 2015 Business Server consiste à définir les entrées pour les adresses IP et les noms de domaine complets (FQDN) pour les écritures sur le réseau de tâches. Les informations entrées sur cette page s’exécute les rapports et autres informations contenues dans l’outil de planification.
+La plupart des tâches que le concepteur effectue dans l’outil de planification de Skype entreprise Server 2015 consiste à définir les entrées pour les adresses IP et les noms de domaine complets (FQDN) pour les entrées sur le réseau de tâches. Les informations entrées dans cette page sont incluses dans les rapports et autres informations contenus dans l’outil de planification.
 
-![Diagramme de réseau de l’outil de planification](../../media/Planning_Tool_Network_Diagram.png)
+![Diagramme du réseau d’outils de planification](../../media/Planning_Tool_Network_Diagram.png)
 
-L’outil de planification crée un diagramme de réseau avec du texte par défaut pour les adresses IP et noms de domaine complets.
+L’outil de planification crée un diagramme de réseau avec le texte par défaut pour les adresses IP et les noms de domaine complets.
 
 Pour modifier le diagramme de réseau et les valeurs entrées :
 
@@ -77,7 +77,7 @@ Une fonction utile de l’outil de planification est la possibilité d’affecte
 
 Une fois toutes les modifications terminées, enregistrez la topologie en procédant comme suit :
 
-Pour enregistrer la conception de l’outil de planification, cliquez sur **fichier**, puis cliquez sur **Enregistrer la topologie** ou **Enregistrer la topologie sous**. Si une boîte de dialogue **Enregistrer l’outil de planification sous** s’affiche, tapez un nom pour le fichier dans **Nom de fichier**, puis cliquez sur **Enregistrer**.
+Pour enregistrer la conception de l’outil de planification, cliquez sur **fichier**, puis sur **enregistrer la topologie** ou **enregistrer la topologie sous**. Si une boîte de dialogue **Enregistrer l’outil de planification sous** s’affiche, tapez un nom pour le fichier dans **Nom de fichier**, puis cliquez sur **Enregistrer**.
 
 ## <a name="see-also"></a>Voir aussi
 <a name="Edit_Network_diagram"> </a>

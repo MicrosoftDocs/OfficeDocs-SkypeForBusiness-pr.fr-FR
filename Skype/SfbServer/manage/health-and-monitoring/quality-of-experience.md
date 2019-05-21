@@ -1,40 +1,40 @@
 ---
-title: Qualité de l’expérience (QoE) dans Skype pour Business Server
+title: Qualité de l’expertise dans Skype entreprise Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 097fb65e-4a3e-45ff-a88c-d6022dc8f872
-description: 'Résumé : Gérer la qualité de l’expérience (QoE) dans Skype pour Business Server.'
-ms.openlocfilehash: d549ef233935008b1469cd244a9ef1b31354cfa6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Résumé: gérez la qualité de l’expertise (QoE) dans Skype entreprise Server.'
+ms.openlocfilehash: 18e18562824fc129b2e14fff919f0684f59471b6
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33925151"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279864"
 ---
-# <a name="quality-of-experience-qoe-in-skype-for-business-server"></a>Qualité de l’expérience (QoE) dans Skype pour Business Server
+# <a name="quality-of-experience-qoe-in-skype-for-business-server"></a>Qualité de l’expertise dans Skype entreprise Server
  
-**Résumé :** Gérer la qualité de l’expérience (QoE) dans Skype pour Business Server.
+**Résumé:** Gestion de la qualité de l’expertise (QoE) dans Skype entreprise Server.
   
-La qualité de l’expérience (QoE) enregistre des données numériques qui indiquent la qualité du média, ainsi que les informations sur les participants, les noms des appareils, les pilotes, les adresses IP et les types de point de terminaison impliqués dans les appels et les sessions. Lorsque vous installez Skype pour Business Server, vous allez installer également une collection de paramètres de configuration globaux pour QoE prédéfinie. Consultez les rubriques de cette section pour configurer les paramètres QoE. 
+La qualité de l’expérience (QoE) enregistre des données numériques qui indiquent la qualité du média, ainsi que les informations sur les participants, les noms des appareils, les pilotes, les adresses IP et les types de point de terminaison impliqués dans les appels et les sessions. Lorsque vous installez Skype entreprise Server, vous devez également installer une collection prédéfinie de paramètres de configuration globale pour QoE. Consultez les rubriques de cette section pour configurer les paramètres QoE. 
   
 ## <a name="in-this-section"></a>Contenu de cette section
 
-- [Créer des paramètres de configuration de la qualité de l’expérience dans Skype pour Business Server](create-qoe-configuration-settings.md)
+- [Créer des paramètres de configuration de qualité de l’interface dans Skype entreprise Server](create-qoe-configuration-settings.md)
     
-- [Activer la qualité de l’expérience dans Skype pour Business Server](enable-qoe.md)
+- [Profitez d’une qualité d’expertise dans Skype entreprise Server](enable-qoe.md)
     
-- [Modifier les paramètres de qualité de l’expérience dans Skype pour Business Server](modify-qoe-settings.md)
+- [Modification des paramètres de qualité de l’expertise dans Skype entreprise Server](modify-qoe-settings.md)
     
-- [Supprimer les paramètres de configuration de la qualité de l’expérience dans Skype pour Business Server](delete-qoe-configuration-settings.md)
+- [Supprimer les paramètres de configuration de qualité de l’interface dans Skype entreprise Server](delete-qoe-configuration-settings.md)
     
-- [Vider manuellement l’enregistrement des détails des appels et les bases de données de qualité de l’expérience dans Skype pour Business Server](../../deploy/deploy-monitoring/purgecall-detail-recording-and-qoe.md)
+- [Effacement manuel des bases de données de l’enregistrement des détails des appels et de la qualité de l’activité dans Skype entreprise Server](../../deploy/deploy-monitoring/purgecall-detail-recording-and-qoe.md)
     
 ## <a name="see-also"></a>Voir aussi
 
-[Configurer un enregistrement des détails des appels et les paramètres de qualité de l’expérience dans Skype pour Business Server](../../deploy/deploy-monitoring/call-detail-recording-and-qoe.md)
+[Configurer les paramètres d’enregistrement des détails des appels et de qualité de l’expertise dans Skype entreprise Server](../../deploy/deploy-monitoring/call-detail-recording-and-qoe.md)

@@ -5,18 +5,18 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 7/18/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 01eed3c5-af68-4db7-90b3-d28ebe7ffef1
 description: L’applet de commande Register-CcAppliance enregistre les informations de l’appliance vers un site RTC dans une configuration client en ligne. Une appliance doit être enregistrée avant d’être déployée et gérée par le service de gestion de Skype Entreprise, version Cloud Connector.
-ms.openlocfilehash: e753f92c84b880da6aac060b65726bda5f9ba1ae
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 9e15d7b8227bf9ee657d197041056703505ca7c8
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892272"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287124"
 ---
 # <a name="register-ccappliance"></a>Register-CcAppliance
  
@@ -56,13 +56,13 @@ Register-CcAppliance -SiteName Site1 -ApplianceName Appliance1
 ## <a name="detailed-description"></a>Description détaillée
 <a name="DetailedDescription"> </a>
 
-Vous devez fournir le mot de passe et le nom du compte d'administrateur du client. Utiliser le compte que vous avez créé pour la gestion en nuage connecteur en ligne. 
+Vous devez fournir le mot de passe et le nom du compte d'administrateur du client. Utilisez le compte que vous avez créé pour la gestion en ligne dans Cloud Connector. 
   
-Dans la version 1.4.2 et version antérieure, suivez les instructions pour fournir le mot de passe de certificat externe, le mot de passe d’administration en mode sans échec, mot de passe d’administration de domaine et le mot de passe d’administration ordinateur virtuel. 
+Dans la version 1.4.2 et les versions antérieures, suivez les instructions pour fournir le mot de passe du certificat externe, le mot de passe d’administrateur du mode sans échec, le mot de passe d’administrateur de domaine et le mot de passe d’administrateur 
   
-Dans la version 2.0 et versions ultérieures, suivez les instructions pour fournir le mot de passe de certificat externe, CceService mot de passe et le mot de passe CABackupFile.
+Dans la version 2,0 et les versions ultérieures, suivez les instructions pour fournir le mot de passe du certificat externe, le mot de passe CceService et le mot de passe CABackupFile.
   
-À la fin de l’inscription, redémarrez le service de gestion en nuage connecteur et ouvrez une session sur les services en tant que compte CceService.
+À la fin de l’enregistrement, redémarrez le service de gestion des connecteurs Cloud et connectez-vous aux services en tant que compte CceService.
   
 Le nom du site combiné au nom de domaine complet (FQDN) externe du serveur Edge dans le fichier CloudConnector.ini est considéré comme une identité du site RTC. Si ni le nom du site ni le FQDN externe du serveur Edge n’ont été utilisés pour inscrire un site, un nouveau site est créé pour cette appliance dans une configuration de client en ligne. Si une identité de site RTC est trouvée, un site RTC utilise cette identité et l’appliance est enregistrée sur ce site RTC.  
   

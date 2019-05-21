@@ -4,41 +4,41 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Dans un environnement mixte, si vous créez un nouveau serveur d’applications approuvées, vous devez définir le pool à un Skype pour Business Server 2019 pool du tronçon suivant. Dans un environnement mixte, à la fois le pool hérité et le Skype pour Business Server 2019 pool s’affichent dans la liste déroulante. Sélectionnez le pool hérité n’est pas pris en charge.
-ms.openlocfilehash: 79f4de527008d2d9bf295fcb82eee433d04a1691
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Dans un environnement mixte, si vous créez un nouveau serveur d’applications de confiance, vous devez définir le pool de prochains tronçons comme un pool Skype entreprise Server 2019. Dans un environnement mixte, le pool hérité et le pool 2019 de Skype entreprise Server apparaissent dans la liste déroulante. La sélection du pool hérité n’est pas prise en charge.
+ms.openlocfilehash: b0dfb9ba1e4744ba3e0ea0c376f67a224e70376a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32238681"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289598"
 ---
 # <a name="configure-trusted-application-servers"></a>Configuration des serveurs d’applications approuvées
 
-Dans un environnement mixte, si vous créez un nouveau serveur d’applications approuvées, vous devez définir le pool à un Skype pour Business Server 2019 pool du tronçon suivant. Dans un environnement mixte, à la fois le pool hérité et le Skype pour Business Server 2019 pool s’affichent dans la liste déroulante. Sélectionnez le pool hérité n’est pas pris en charge.
+Dans un environnement mixte, si vous créez un nouveau serveur d’applications de confiance, vous devez définir le pool de prochains tronçons comme un pool Skype entreprise Server 2019. Dans un environnement mixte, le pool hérité et le pool 2019 de Skype entreprise Server apparaissent dans la liste déroulante. La sélection du pool hérité n’est pas prise en charge.
   
 > [!IMPORTANT]
-> Si vous migrez un serveur d’applications approuvées, vous devez également mettre à jour la version d’UCMA que vous utilisez. Si vous créez un nouveau Pool d’applications approuvées pour Skype pour Business Server 2019, vous devez mettre à jour UCMA pour la version qui est incluse avec Skype pour Business Server 2019 ou la version la plus récente. 
+> Si vous migrez un serveur d’application de confiance, vous devez également mettre à jour la version de UCMA que vous utilisez. Si vous créez un nouveau pool d’applications approuvé pour Skype entreprise Server 2019, vous devez mettre à jour UCMA vers la version incluse dans Skype entreprise Server 2019 ou la dernière version disponible. 
   
-### <a name="select-skype-for-business-server-2019-as-next-hop-when-creating-a-trusted-application-server"></a>Sélectionnez Skype pour Business Server 2019 comme tronçon suivant lors de la création d’un serveur d’applications approuvées
+### <a name="select-skype-for-business-server-2019-as-next-hop-when-creating-a-trusted-application-server"></a>Sélectionner Skype entreprise Server 2019 comme tronçon suivant lors de la création d’un serveur d’applications de confiance
 
-1. Ouvrez le Générateur de topologie.
+1. Ouvrez le générateur de topologie.
     
-2. Dans le volet gauche, cliquez sur **serveurs d’applications approuvées** , cliquez sur **Nouveau Pool d’applications approuvées**.
+2. Dans le volet de gauche, cliquez avec le bouton droit sur **serveurs d’applications de confiance** , puis cliquez sur **nouveau pool d’applications de confiance**.
     
-3. Entrez le **Nom complet du Pool** du pool d’applications approuvées et indiquez s’il s’agira serveur unique ou de plusieurs serveurs. 
+3. Entrez le **nom de domaine complet (FQDN)** du pool d’applications de confiance et sélectionnez s’il s’agit d’un serveur unique ou d’un serveur multiple. 
     
 4. Cliquez sur **Suivant**.
     
-5. Dans la page **Sélectionner le tronçon suivant** , dans la liste, sélectionnez le Skype pour Business Server 2019 un pool frontal. 
+5. Dans la page **Sélectionner le tronçon suivant** , dans la liste, sélectionnez le pool frontal Skype entreprise Server 2019. 
     
 6. Cliquez sur **Terminer**.
     
-7. Sélectionnez le nœud supérieur **Skype pour Business Server**, dans le menu **Action** , sélectionnez **Publier**.
+7. Sélectionnez le nœud supérieur **Skype entreprise Server**, puis, dans le menu **action** , sélectionnez **publier**.
     
-    Vérifiez que le **Pool d’applications approuvées** a été créé avec succès et associé au pool frontal correct. 
+    Vérifiez que le **pool d’applications approuvé** a été créé avec succès et est associé au pool frontal approprié. 
     
 

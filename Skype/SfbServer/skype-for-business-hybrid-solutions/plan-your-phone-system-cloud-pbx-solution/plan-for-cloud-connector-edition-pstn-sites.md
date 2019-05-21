@@ -5,7 +5,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 3/30/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,35 +13,35 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: cec2d9bf-2deb-482c-841b-0e3599f94b50
-description: Lisez cette rubrique pour savoir comment planifier vos sites nuage connecteur Edition PSTN pour garantir le routage des appels efficace et économique.
-ms.openlocfilehash: 4bf702314e46e1f8281ac6237dd8a7829900440e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Pour plus d’informations sur la planification de vos sites RTC dans le Cloud Connector, consultez cette rubrique pour en savoir plus sur le routage des appels, qui est efficace et rentable.
+ms.openlocfilehash: 7afc5ac09e80edf6b1502e9d169aee77b3bd69b6
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32237710"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287033"
 ---
 # <a name="plan-for-cloud-connector-edition-pstn-sites"></a>Planification pour sites RTC, version Cloud Connector
  
-Lisez cette rubrique pour savoir comment planifier vos sites nuage connecteur Edition PSTN pour garantir le routage des appels efficace et économique.
+Pour plus d’informations sur la planification de vos sites RTC dans le Cloud Connector, consultez cette rubrique pour en savoir plus sur le routage des appels, qui est efficace et rentable.
   
-Cette rubrique décrit ce que vous devez savoir à propos de nuage connecteur Edition et le routage de sorte que vous pouvez planifier vos sites de nuage connecteur PSTN d’appel. Un site RTC est une combinaison de matériel de nuage connecteur, déployé au même emplacement et avec les passerelles PSTN courantes connectés. Cette rubrique se concentre sur la façon de configurer votre topologie de sites dans le nuage connecteur pour vous assurer que vos sites nuage connecteur peuvent gérer le routage entrant et sortant pour tous les utilisateurs affectés à un site dans la plupart coût moyen efficace possible. Pour plus d’informations sur le nuage connecteur et les avantages des sites PSTN, veillez à lire [planifier Skype pour l’édition de connecteur Business Cloud](plan-skype-for-business-cloud-connector-edition.md). 
+Cette rubrique décrit ce que vous devez savoir sur l’édition Cloud Connector et sur le routage des appels pour vous permettre de planifier les sites RTC de votre Cloud Connector. Un site RTC est une combinaison d’appareils de connexion Cloud, déployée au même emplacement et avec des passerelles RTC communes connectées. Cette rubrique vous explique comment configurer la topologie de votre site Cloud Connector pour vous assurer que vos sites Cloud Connector peuvent gérer le routage de trafic entrant et sortant de tous les utilisateurs attribués à un site de la façon la plus rentable et efficace possible. Pour plus d’informations sur le Cloud Connector et les avantages des sites RTC, consultez l’offre [pour Skype entreprise version Cloud Connector](plan-skype-for-business-cloud-connector-edition.md). 
   
 ## <a name="cloud-connector-pstn-sites-and-call-routing"></a>Acheminement des appels et sites RTC Cloud Connector
 
-Nuage connecteur PSTN sites sont une construction de la topologie créée afin d’éviter inutile longue distance et tarifs entre pays et pour s’assurer que les appels d’urgence sortants sont routés vers la jonction appropriée. Pour vous assurer d’un acheminement des appels efficace et rentable, y compris des appels aux services d’urgence, vous devez planifier soigneusement vos sites RTC et la manière dont les utilisateurs sont affectés à chaque site. 
+Les sites RTC Cloud est une construction de topologie créée pour éviter des tarifs inutiles vers des distances et des pays tiers et garantir que les appels d’urgence sortants sont routés vers le Trunk approprié. Pour vous assurer d’un acheminement des appels efficace et rentable, y compris des appels aux services d’urgence, vous devez planifier soigneusement vos sites RTC et la manière dont les utilisateurs sont affectés à chaque site. 
   
-Dans le cadre de votre planification pour Cloud Connector, il est essentiel que vous indiquiez à vos opérateurs l’emplacement de vos bureaux et de vos utilisateurs et où les jonctions RTC de l’opérateur se terminent. Vous avez besoin travailler avec vos opérateurs afin de déterminer comment emergency appelle peuvent être acheminés et ensuite utiliser ces informations pour définir des sites de nuage connecteur PSTN et affecter des utilisateurs aux sites appropriés. Par exemple, vous devrez vous assurer que les jonctions qui se terminent au centre de données où le site RTC est étiré sont configurées pour traiter l’acheminement entrant et sortant de tous les numéros affectés aux utilisateurs de ce site. 
+Dans le cadre de votre planification pour Cloud Connector, il est essentiel que vous indiquiez à vos opérateurs l’emplacement de vos bureaux et de vos utilisateurs et où les jonctions RTC de l’opérateur se terminent. Vous devez utiliser vos opérateurs pour déterminer la façon dont les appels d’urgence peuvent être routés, puis les utiliser pour définir des sites RTC Cloud Connector et affecter des utilisateurs aux sites appropriés. Par exemple, vous devrez vous assurer que les jonctions qui se terminent au centre de données où le site RTC est étiré sont configurées pour traiter l’acheminement entrant et sortant de tous les numéros affectés aux utilisateurs de ce site. 
   
-Chaque application de nuage connecteur peut être connectée à plusieurs passerelles IP, PBX IP ou contrôleurs de frontière de Session (SBC). Étant donné que les passerelles et PBX est connectés à jonctions télécommunications (PRI ou SIP jonctions), appliances nuage connecteur sont logiquement connectés à jonctions PSTN pour les appels entrants et sortants. Avec Cloud Connector et la connectivité RTC sur site, vous obtenez la jonction et les numéros de téléphone associés de votre opérateur local. Si votre entreprise est une grande entreprise, vous aurez peut-être plus d’un opérateur, surtout si votre entreprise s’étend sur plus d’une ville, d’un état ou d’un pays. Étant donné que votre opérateur est propriétaire du numéro de téléphone, il est responsable du traitement des appels d’urgence.
+Chaque appareil Cloud Connector peut être connecté à plusieurs passerelles IP, PBX IP ou contrôleurs de frontière de session (SBCs). Dans la mesure où les passerelles et PBX sont connectés à des Trunks d’Telco (Trunk ou SIP), les appareils de connexion Cloud sont logiquement connectés aux Trunks RTC pour les appels entrants et sortants. Avec Cloud Connector et la connectivité RTC sur site, vous obtenez la jonction et les numéros de téléphone associés de votre opérateur local. Si votre entreprise est une grande entreprise, vous aurez peut-être plus d’un opérateur, surtout si votre entreprise s’étend sur plus d’une ville, d’un état ou d’un pays. Étant donné que votre opérateur est propriétaire du numéro de téléphone, il est responsable du traitement des appels d’urgence.
   
-Skype pour Business Online traite tous les appareils de nuage connecteur dans un site de manière égale et route les appels sortants par rotation aux solutions de nuage connecteur dans le même site. Chaque Cloud Connector dans un site est inter-connecté au même ensemble de jonctions RTC (entièrement maillées). Étant donné que chaque utilisateur est associé à un site dans le nuage connecteur RTC, tout appel à partir de cet utilisateur (normal ou d’urgence) sera attribué à l’une des applications dans le nuage connecteur dans le site PSTN qui est associé à l’utilisateur. 
+Dans Skype entreprise Online, tous les appareils de connecteur Cloud d’un site le traitent de la même façon, et les appels sortants sont dirigés vers des appareils Cloud Connector sur le même site. Chaque Cloud Connector dans un site est inter-connecté au même ensemble de jonctions RTC (entièrement maillées). Dans la mesure où chaque utilisateur est associé à un site RTC dans le Cloud Connector, tous les appels sortants de cet utilisateur (normal ou d’urgence) seront attribués à l’un des appareils Cloud Connector sur le site RTC auquel l’utilisateur est associé. 
   
-Cloud Connector effectue l’acheminement des appels vers ses passerelles IP jointes, IP-PBX, SBC ou jonctions RTC directes. Cloud Connector n’est pas encore capable d’acheminement dynamique vers une jonction basée sur la destination (pour l’acheminement à moindre coût) ou basée sur l’origine (appels d’urgence dynamique ou statique). Les appels entrants ne sont pas un problème étant donné que l’appel peut uniquement provenir d’une jonction associée au numéro. Les appels sortants, toutefois, pouvant accéder à n’importe quel appareil nuage connecteur dans un site (et par extension les jonctions PSTN connectées à ce connecteur de nuage) qui peut entraîner des appels longue distance indésirables. En outre, les appels d’urgence pas passeront si le site sur le nuage connecteur PSTN est étiré sur les centres de données avec différents codes de zone ou les opérateurs.
+Cloud Connector effectue l’acheminement des appels vers ses passerelles IP jointes, IP-PBX, SBC ou jonctions RTC directes. Cloud Connector n’est pas encore capable d’acheminement dynamique vers une jonction basée sur la destination (pour l’acheminement à moindre coût) ou basée sur l’origine (appels d’urgence dynamique ou statique). Les appels entrants ne sont pas un problème étant donné que l’appel peut uniquement provenir d’une jonction associée au numéro. Toutefois, les appels sortants peuvent être dirigés vers n’importe quel appareil Cloud Connector dans un site (et par extension des Trunks RTC attachés à ce matériel de connecteur Cloud), ce qui peut entraîner des appels longue distance indésirables. De plus, les appels d’urgence ne sont pas passés par le biais du fait que le site RTC du Cloud Connector est étendu dans les centres de donnes avec différents indicatifs ou opérateurs.
   
 ## <a name="an-example"></a>Un exemple
 
-L’exemple suivant montre comment grouper les jonctions aux sites PSTN et comment affecter des utilisateurs aux sites. Pour l’entreprise Contoso, supposez ce qui suit :
+L’exemple suivant montre comment grouper des Trunks vers des sites RTC et comment affecter des utilisateurs aux sites. Pour l’entreprise Contoso, supposez ce qui suit :
   
 - Pour ces quatre utilisateurs :   
     
@@ -51,9 +51,9 @@ L’exemple suivant montre comment grouper les jonctions aux sites PSTN et comme
     
   - Utilisateur C à Centralia, Washington (É-U)
     
-  - Utilisateur D dans Portland OR (États-Unis)
+  - Utilisateur D de Portland ou (États-Unis)
     
-- Opérateur A fournit des numéros de téléphone et des jonctions dans :
+- Le transporteur A fournit des numéros de téléphone et des lignes en:
     
   - Redmond (indicatif régional 425)
     
@@ -61,13 +61,13 @@ L’exemple suivant montre comment grouper les jonctions aux sites PSTN et comme
     
   - Centralia (indicatif régional 360)
     
-- Opérateur B fournit des numéros de téléphone et des jonctions dans :
+- Le transporteur B fournit des numéros de téléphone et des lignes de téléphone:
     
   -  Portland (indicatif régional 503)
     
-Étant utilisateur A à Redmond (centre de données A) et l’utilisateur B à Bellevue (B du centre de données) dans banlieues en regard de l’autre et dans le même indicatif régional (425), opérateur A doit être en mesure d’effectuer un appel d’urgence de l’utilisateur A à Redmond sur la jonction à Bellevue. 
+Dans la mesure où l’utilisateur A à Redmond (Centre de données A) et l’utilisateur B dans Bellevue (Centre de données B) se trouvent dans banlieue parisienne en regard des uns des autres et dans le même code de zone (425), le transporteur A devrait être en mesure de passer un appel d’urgence de l’utilisateur A à Redmond sur le Trunk dans Bellevue. 
   
-Par conséquent, les utilisateurs A et B et les jonctions nuage connecteur pour Bellevue et Redmond, peuvent sera probablement dans le même site nuage connecteur PSTN comme indiqué dans le diagramme suivant. Les appels d’urgence des utilisateurs dans un bureau peuvent être acheminés vers les jonctions dans l’autre. Toutefois, vérifiez auprès de votre opérateur que cela fonctionne.
+Par conséquent, les utilisateurs A et B et les Trunks de connecteur Cloud pour Bellevue et Redmond peuvent se trouver dans le même site PSTN du Cloud Connector, comme le montre le diagramme suivant. Les appels d’urgence des utilisateurs dans un bureau peuvent être acheminés vers les jonctions dans l’autre. Néanmoins, vous devez vérifier que votre opérateur fonctionne.
   
 ![Procédure de configuration de sites RTC](../../media/2659caa7-9c18-4d4f-9c7a-61d0e6a07dc3.png)
   
@@ -75,8 +75,8 @@ Considérez également les exemples suivants :
   
 - L’utilisateur C à Centralia, dont le numéro est fourni par l’opérateur A,est à deux heures de route et a un indicatif régional différent (360), des autres utilisateurs de l’opérateur A avec l’indicatif régional 425 de Bellevue et Redmond.   
     
-    Par conséquent, même si l’opérateur A proviennent d’un appel, il est possible qu’appel de l’opérateur logiciel de routage dans le code de zone Centralia 360 peut rejeter d’urgence entrante appel provenant de l’utilisateur B dans Bellevue indicatif 425. Dans ce cas, il est essentiel que l’opérateur confirmer que nuage connecteur et son jonctions associées dans les sites Centralia PSTN peuvent gérer les appels entre les distances et les codes de zone.
+    Par conséquent, même si un appel provient du transporteur a, il est possible que le logiciel de routage des appels de l’opérateur dans Centralia 360 code de zone soit rejeté un appel d’urgence entrant provenant de l’utilisateur B dans Bellevue code de zone 425. Dans le cas présent, il est essentiel que l’opérateur confirme que le connecteur Cloud et ses lignes associées dans les sites RTC Centralia peuvent gérer les appels sur les distances et les indicatifs.
     
-- Utilisateur D Portland utilise un numéro et jonction fournie par l’opérateur B, il est très peu probable que B opérateur prendra un appel d’urgence à partir d’un numéro de téléphone qui détenue par l’opérateur A. Afin que l’utilisateur D et l’appliance nuage connecteur et jonctions associées à Portland doivent se trouver dans un autre site PSTN.
+- Dans le cas contraire, l’utilisateur de Portland utilise un numéro et un Trunk fourni par l’opérateur B, de sorte qu’il est très improbable que le transporteur A un appel d’urgence à partir d’un numéro de téléphone possédé par le transporteur A. C’est pourquoi l’appliance D et l’appareil de connexion Cloud et les liaisons associées dans Portland doivent se trouver sur un site PSTN différent.
     
 

@@ -4,50 +4,50 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: 'Vous pouvez configurer des liens entre deux régions de réseau dans le cadre du contrôle d’admission des appels (CAC). '
-ms.openlocfilehash: 30d4a020826b24c3615ce059809645481466efc3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Vous pouvez configurer des liens entre deux régions réseau dans le cadre de la commande d’admission des appels (CAC). '
+ms.openlocfilehash: b9ffa45c8a0a09ba4a7f9f0ebf6402b87116f01f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33888351"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279556"
 ---
 # <a name="linking-network-regions-in-skype-for-business-server"></a>Liaison des régions réseau dans Skype Entreprise Server
 
-Vous pouvez configurer des liens entre deux régions de réseau dans le cadre du contrôle d’admission des appels (CAC). Utilisez les sections de cet article pour afficher les informations de lien de région PERIPHERIE, configurer ou supprimer des liens de région réseau. 
+Vous pouvez configurer des liens entre deux régions réseau dans le cadre de la commande d’admission des appels (CAC). Les sections de cet article vous permettent d’afficher des informations sur le lien de la région newtwork ou de configurer ou supprimer des liens vers des régions Netwrok. 
 
-## <a name="view-network-region-link-information"></a>Affichage des informations de lien de région de réseau 
+## <a name="view-network-region-link-information"></a>Afficher les informations sur le lien de la région de réseau 
 
-Vous pouvez afficher les liens entre deux régions de réseau dans le cadre du contrôle d’admission des appels (CAC). Régions au sein d’un réseau sont liées par le biais de connectivité de réseau (étendu WAN) étendu physique. Vous pouvez utiliser la Skype pour Business Server Control Panel pour afficher un lien entre deux régions de réseau. 
+Vous pouvez afficher les liens entre deux régions réseau dans le cadre du contrôle d’admission des appels (CAC). Les régions d’un réseau sont liées par le biais de la connectivité du réseau étendu (WAN) physique. Le panneau de configuration Skype entreprise Server vous permet d’afficher un lien existant entre deux régions du réseau. 
 
 
-### <a name="to-view-a-network-region-link-in-skype-for-business-server-control-panel"></a>Pour afficher un lien de région réseau dans Skype pour Business Server Control Panel
+### <a name="to-view-a-network-region-link-in-skype-for-business-server-control-panel"></a>Pour afficher un lien de région réseau dans le panneau de configuration Skype entreprise Server
 
-1.  À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou est affecté au rôle CsAdministrator, ouvrez une session sur n’importe quel ordinateur dans votre déploiement interne.
+1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affectées au rôle CsAdministrator, connectez-vous à n’importe quel ordinateur dans votre déploiement interne.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business. 
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration Skype entreprise Server. 
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Configuration réseau**, puis cliquez sur le **Lien de région**.
+3.  Dans la barre de navigation de gauche, cliquez sur **configuration du réseau**, puis sur **liaison de région**.
 
-4.  Dans la page **Lien de région** , cliquez sur le lien de région que vous souhaitez afficher.
+4.  Dans la page de liaison de la **zone** , cliquez sur le lien de la région que vous souhaitez afficher.
     
     > [!NOTE]  
-    > Vous ne pouvez afficher des informations sur un lien de région à la fois.
+    > Vous pouvez uniquement afficher des informations sur un lien de région à la fois.
 
-5.  Dans le menu **Edition** , sélectionnez **Afficher les détails**.
+5.  Dans le menu **édition** , cliquez sur **afficher les détails**.
 
-### <a name="view-network-region-link-information-by-using-windows-powershell-cmdlets"></a>Afficher les informations de lien de région réseau à l’aide des applets de commande Windows PowerShell
+### <a name="view-network-region-link-information-by-using-windows-powershell-cmdlets"></a>Afficher les informations sur les liens de région réseau à l’aide d’applets de requête Windows PowerShell
 
-Vous pouvez afficher les liens de région réseau à l’aide de Windows PowerShell et l’applet de commande **Get-CsNetworkRegionLink** . Vous pouvez exécuter cette applet de commande à partir de la Skype pour Business Server Management Shell ou d’une session à distance de Windows PowerShell. 
+Vous pouvez afficher les liens de région réseau à l’aide de Windows PowerShell et de l’applet **de requête get-CsNetworkRegionLink** . Vous pouvez exécuter cette applet de commande dans Skype entreprise Server Management Shell ou à partir d’une session distante de Windows PowerShell. 
 
 
-### <a name="to-view-network-region-link-information"></a>Pour afficher les informations de lien de région réseau
+### <a name="to-view-network-region-link-information"></a>Pour afficher les informations sur le lien dans la région réseau
 
-  - Pour afficher des informations sur tous les liens de région réseau, tapez la commande suivante dans le Skype pour Business Server Management Shell, puis appuyez sur ENTRÉE :
+  - Pour afficher des informations sur tous les liens de votre région réseau, tapez la commande suivante dans Skype entreprise Server Management Shell, puis appuyez sur entrée:
     
         Get-CsNetworkRegionLink
     
@@ -60,71 +60,71 @@ Vous pouvez afficher les liens de région réseau à l’aide de Windows PowerSh
         NetworkRegionID2    : California
 
 
-Pour plus d’informations, voir [Get-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink).
+Pour plus d’informations, consultez la rubrique [Get-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink).
 
 
 ## <a name="configure-network-region-links"></a>Configurer les liens de région réseau 
 
-Vous pouvez configurer des liens entre deux régions de réseau dans le cadre du contrôle d’admission des appels (CAC). Régions au sein d’un réseau sont liées par le biais de connectivité de réseau (étendu WAN) étendu physique. Vous pouvez utiliser la Skype pour Business Server Control Panel pour définir un lien entre deux régions de réseau et les limitations de bande passante sur les connexions audio et vidéo entre ces régions.
+Vous pouvez configurer des liens entre deux régions réseau dans le cadre de la commande d’admission des appels (CAC). Les régions d’un réseau sont liées par le biais de la connectivité du réseau étendu (WAN) physique. Le panneau de configuration Skype entreprise Server vous permet de définir un lien entre deux régions du réseau et de définir les limites de bande passante pour les connexions audio et vidéo entre ces régions.
 
 ### <a name="to-create-a-network-region-link"></a>Pour créer un lien de région réseau
 
-1.  À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou est affecté au rôle CsAdministrator, ouvrez une session sur n’importe quel ordinateur dans votre déploiement interne.
+1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affectées au rôle CsAdministrator, connectez-vous à n’importe quel ordinateur dans votre déploiement interne.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business. 
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration Skype entreprise Server. 
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Configuration réseau**, puis cliquez sur le **Lien de région**.
+3.  Dans la barre de navigation de gauche, cliquez sur **configuration du réseau**, puis sur **liaison de région**.
 
-4.  Dans la page **Lien de région** , cliquez sur **Nouveau**.
+4.  Dans la page de **liaison région** , cliquez sur **nouveau**.
 
-5.  Dans le **Nouveau lien de région**, tapez une valeur dans le champ **nom** .
+5.  Dans le **lien nouvelle zone**, tapez une valeur dans le champ **nom** .
  
     > [!NOTE]  
-    > Cette valeur doit être unique au sein de votre Skype pour le déploiement de serveur d’entreprise.
+    > Cette valeur doit être unique dans le cadre de votre déploiement Skype entreprise Server.
 
-6.  À partir de la **région réseau \#1** liste déroulante, sélectionnez une des deux régions à lier.
+6.  Dans la liste déroulante ** \#région réseau 1** , sélectionnez l’une des deux régions à lier.
 
-7.  À partir de la **région réseau \#2** liste déroulante, sélectionnez l’autre région à lier. Cette zone doit être différente de la région sélectionnée pour la région de réseau \#1.
+7.  Dans la liste déroulante ** \#région de réseau 2** , sélectionnez la autre zone à lier. Cette région doit être différente de la région sélectionnée pour la région \#réseau 1.
 
-8.  (Facultatif) Si vous souhaitez placer des restrictions de bande passante pour les appels audio ou vidéos entre ces régions, sélectionnez un profil de stratégie de bande passante dans la liste déroulante **stratégie de bande passante** .
+8.  Facultatif Si vous voulez appliquer des limitations de bande passante aux appels audio et vidéo entre ces régions, sélectionnez un profil de stratégie de bande passante dans la liste déroulante **stratégie de bande passante** .
 
 9.  Cliquez sur **Valider**.
 
 ### <a name="to-modify-a-network-region-link"></a>Pour modifier un lien de région réseau
 
-1.  À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou est affecté au rôle CsAdministrator, ouvrez une session sur n’importe quel ordinateur dans votre déploiement interne.
+1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affectées au rôle CsAdministrator, connectez-vous à n’importe quel ordinateur dans votre déploiement interne.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business. 
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration Skype entreprise Server. 
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Configuration réseau**, puis cliquez sur le **Lien de région**.
+3.  Dans la barre de navigation de gauche, cliquez sur **configuration du réseau**, puis sur **liaison de région**.
 
-4.  Dans la page **Lien de région** , cliquez sur le lien de région que vous souhaitez modifier.
+4.  Dans la page de liaison de la **zone** , cliquez sur le lien dans la région que vous voulez modifier.
 
 5.  Dans le menu **Edition**, cliquez sur **Afficher les détails**.
 
-6.  Dans **Modifier un lien de région**, vous pouvez modifier les régions liées ou le profil de stratégie de bande passante pour ce lien.
+6.  Dans le **lien modifier la région**, vous pouvez modifier les régions liées ou le profil de la stratégie de bande passante pour ce lien.
 
 7.  Cliquez sur **Valider**.
 
 
-## <a name="delete-network-region-links"></a>Supprimer les liens de région réseau
+## <a name="delete-network-region-links"></a>Supprimer des liens de région réseau
 
-Vous pouvez configurer des liens entre deux régions de réseau dans le cadre du contrôle d’admission des appels (CAC). Régions au sein d’un réseau sont liées par le biais de connectivité de réseau (étendu WAN) étendu physique. Vous pouvez utiliser la Skype pour Business Server Control Panel pour supprimer un lien entre deux régions de réseau. 
+Vous pouvez configurer des liens entre deux régions réseau dans le cadre de la commande d’admission des appels (CAC). Les régions d’un réseau sont liées par le biais de la connectivité du réseau étendu (WAN) physique. Le panneau de configuration Skype entreprise Server vous permet de supprimer un lien existant entre deux régions du réseau. 
 
-### <a name="to-delete-a-network-region-link"></a>Pour supprimer un lien de région réseau
+### <a name="to-delete-a-network-region-link"></a>Pour supprimer un lien de zone réseau
 
-1.  À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou est affecté au rôle CsAdministrator, ouvrez une session sur n’importe quel ordinateur dans votre déploiement interne.
+1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affectées au rôle CsAdministrator, connectez-vous à n’importe quel ordinateur dans votre déploiement interne.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business. 
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration Skype entreprise Server. 
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Configuration réseau**, puis cliquez sur le **Lien de région**.
+3.  Dans la barre de navigation de gauche, cliquez sur **configuration du réseau**, puis sur **liaison de région**.
 
-4.  Dans la page **Lien de région** , cliquez sur le lien de région que vous souhaitez supprimer.
+4.  Dans la page de liaison de la **zone** , cliquez sur le lien dans la région que vous voulez supprimer.
  
     > [!NOTE]  
-    > Vous pouvez supprimer plus d’un lien de région à la fois. Pour ce faire, appuyez sur la touche CTRL ENFONCÉE et sélectionnez plusieurs liens de région tout en maintenant la touche CTRL enfoncée. Ou, pour sélectionner tous les liens de région, cliquez sur <STRONG>Sélectionner tout</STRONG> dans le menu <STRONG>Edition</STRONG> .
+    > Vous pouvez supprimer plusieurs liens vers une région à la fois. Pour cela, appuyez sur CTRL et sélectionnez les liens de plusieurs régions tout en maintenant la touche CTRL enfoncée. Pour sélectionner tous les liens de région, cliquez sur <STRONG>Sélectionner tout</STRONG> dans le menu <STRONG>Edition</STRONG> .
 
-5.  Dans le menu **Edition** , sélectionnez **Supprimer**.
+5.  Dans le menu **modifier** , sélectionnez **supprimer**.
 
 6.  Cliquez sur **OK**.
 

@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.dep.DeployReplicaInvoke
@@ -12,18 +12,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6a3cb2e6-e253-4a3d-b1d7-2b93b3cfc36a
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Le volet exécution de commandes affiche l’état des tâches pour l’installation du réplica local en lecture seule du magasin Central de gestion. Lors de l’exécutant des tâches, le volet de tâches est mis à jour les commandes sont exécutées. Vérifiez l’état des tâches et notez les erreurs ou avertissements sont affichés. Lorsque les tâches sont terminées, le statut du message : terminé s’affiche, et la liste déroulante pour les fichiers journaux affiche les noms des fichiers journaux. Pour afficher les fichiers journaux qui ont été créés, choisissez un fichier journal à afficher, cliquez sur Afficher le journal. Passez en revue tous les fichiers journaux pour la réussite, les erreurs et les messages d’avertissement.'
-ms.openlocfilehash: efed7afa9943eb2682096be5216fbe7d9d42261d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Le volet exécuter les commandes affiche l’état des tâches relatives à l’installation du réplica local en lecture seule du magasin central de gestion. Pendant l’exécution des tâches, le volet Office est mis à jour à mesure que les commandes s’exécutent. Vous devez examiner l’état de la tâche et noter les erreurs ou avertissements qui s’affichent. Lorsque les tâches sont terminées, l’état des tâches message: terminé s’affiche, et la liste déroulante des fichiers journaux affiche les noms des fichiers journaux. Pour afficher les fichiers journaux créés, sélectionnez un fichier journal à afficher, puis cliquez sur Afficher le journal. Examinez tous les fichiers journaux de réussite, d’erreurs et de messages d’avertissement.'
+ms.openlocfilehash: e9d6c8567853eac167a6407a02f42297d2065986
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893594"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34278006"
 ---
 # <a name="install-local-configuration-store-invoke"></a>Installer le magasin de configurations local (appel)
  
-Le volet **Exécution de commandes** affiche l’état des tâches pour l’installation du réplica local en lecture seule du magasin Central de gestion. Lors de l’exécutant des tâches, le volet de tâches est mis à jour les commandes sont exécutées. Vérifiez l’état des tâches et notez les erreurs ou avertissements sont affichés. Lorsque les tâches sont terminées, le message **état de la tâche : terminée** s’affiche, et la liste déroulante pour les fichiers journaux affiche les noms des fichiers journaux. Pour afficher les fichiers journaux qui ont été créés, choisissez un fichier journal à afficher, cliquez sur **Afficher le journal**. Passez en revue tous les fichiers journaux pour la réussite, les erreurs et les messages d’avertissement.
+Le volet **exécuter les commandes** affiche l’état des tâches relatives à l’installation du réplica local en lecture seule du magasin central de gestion. Pendant l’exécution des tâches, le volet Office est mis à jour à mesure que les commandes s’exécutent. Vous devez examiner l’état de la tâche et noter les erreurs ou avertissements qui s’affichent. Lorsque les tâches sont terminées, l' **État des tâches message: terminé** s’affiche, et la liste déroulante des fichiers journaux affiche les noms des fichiers journaux. Pour afficher les fichiers journaux créés, sélectionnez un fichier journal à afficher, puis cliquez sur **afficher le journal**. Examinez tous les fichiers journaux de réussite, d’erreurs et de messages d’avertissement.
   
-Après avoir consulté les fichiers journaux, cliquez sur **Terminer** pour terminer l’installation du magasin de configurations local.
+Après avoir examiné les fichiers journaux, cliquez sur **Terminer** pour terminer l’installation du magasin de configuration local.
   
 

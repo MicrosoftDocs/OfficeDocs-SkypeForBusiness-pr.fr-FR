@@ -12,37 +12,37 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 'Obtenir la liste des problèmes connus lors de l’utilisation de Microsoft en tant que leur fournisseur de conférence rendez-vous, l’état et des solutions. '
-ms.openlocfilehash: 997cc5007df35b307cb714b891bc60764bd4a645
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Obtenez une liste des problèmes connus liés à l’utilisation de Microsoft comme fournisseur de conférences rendez-vous, ainsi que des solutions de contournement. '
+ms.openlocfilehash: 9b70cfcdeeb80be43cd0ecc99ca7eced71bb9319
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229183"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289582"
 ---
 # <a name="audio-conferencing-troubleshooting-and-known-issues"></a>Problèmes connus et dépannage à propos de l'audioconférence
 
- **Cet article est destiné Skype pour les utilisateurs professionnels à l’aide de Microsoft en tant que leur fournisseur de services d’audioconférence. Il ne s’applique pas aux clients qui utilisent un fournisseur de services d’audioconférence tiers (ACP).**
+ **Cet article est destiné aux utilisateurs de Skype entreprise qui utilisent Microsoft comme fournisseur de services d’audioconférence. Cela ne s’applique pas aux clients qui utilisent un fournisseur de services d’audioconférence tiers.**
   
 ## <a name="troubleshooting-and-known-issues"></a>Dépannage et problèmes connus
 
 Les audioconférences qui utilisent Microsoft comme fournisseur d'audioconférence présentent des problèmes actuels qui font l'objet d'un suivi et d'une enquête active, et qui pourraient être résolus lorsque la fonctionnalité sera mise à jour dans les versions futures d'Office 365.
   
-Pour l’instant, à utiliser comme référence lorsque vous essayez de résoudre les problèmes potentiels avec l’obtention de conférence Audio configurer et d’utilisation pour les personnes à l’aide de Skype pour les entreprises dans votre organisation.
+Pour le moment, utilisez la documentation comme référence lorsque vous résolvez des problèmes potentiels liés à la configuration et à l’utilisation de Skype entreprise dans votre organisation.
 
 |**Problème**|**Comportement/symptômes**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
-|Notifications d’entrée et de sortie sont activées lorsque démarre une réunion, mais ils sont désactivés peu après le démarrage de la réunion.  <br/> |Par défaut, les notifications d’entrée et de sortie sont désactivées pour les réunions où les participants rejoignent à partir de deux Skype pour les applications métier et lorsqu’ils se connecter. Vous pouvez activer les annonces dans les **Options de réunion Skype** le Skype pour l’application de gestion. Dans le cadre d'une réunion où tous les participants doivent composer le numéro et rejoindre la réunion, les notifications d'entrée et de sortie sont activées par défaut, car les participants n'ont pas tous accès à la liste des participants. Lorsque une réunion a démarré avec uniquement les participants appel dans l’entrée et sortie notifications seront activées, mais lorsqu’un participant jointures à l’aide d’un Skype pour l’application de gestion, les notifications sera désactivé. Lorsque désactivée, les notifications peuvent être activées à l’aide **Des Options de réunion Skype** dans le Skype pour l’application de gestion. <br/> |Aucune solution.  <br/> |30/8/2017  <br/> |
-|Si un utilisateur est mis en service la première fois par une licence E5 assignée, il est possible pour le message électronique de bienvenue audioconférence ne pas être remis à l’utilisateur si la boîte aux lettres n’est pas activé.  <br/> |Dans ce cas, vous pouvez toujours renvoyer les informations de conférence audio de l’utilisateur à l’aide de **conférence Audio** dans le Skype pour entreprise centre d’administration ou à l’aide de PowerShell. Consultez la rubrique [Activer ou désactiver l’envoi de messages électroniques lors de la modifient des paramètres de conférence Audio](enable-or-disable-sending-emails-when-their-settings-change.md).  <br/> **Remarque :** Afin de renvoyer le code confidentiel de conférence audio à l’utilisateur, le code confidentiel doit être réinitialisé. Il est également possible à l’aide de **conférence Audio** dans le Skype pour entreprise centre d’administration ou à l’aide de PowerShell.          |Aucune solution.  <br/> |30/8/2017  <br/> |
-|Appels de conférence audio peuvent prendre jusqu'à 24 heures à afficher dans les rapports d’utilisation.  <br/> |Nous attendons améliorer de cette zone service futures mises à jour.  <br/> |Aucune solution.  <br/> |30/8/2017  <br/> |
-|Lorsqu’un appelant appelle un pont de conférence après que la réunion a été verrouillée par une Skype pour l’utilisateur d’entreprise, il n’existe pas de notification dans le Skype pour Business application indiquant que l’utilisateur est en attente dans la salle d’attente.  <br/> |Cette fonctionnalité est actuellement à l'étude, mais nous avons recueilli les derniers commentaires afin de la mettre en œuvre dans les prochaines mises à jour de service.  <br/> |Aucune solution.  <br/> |30/8/2017  <br/> |
+|Les notifications d’entrée et de sortie sont activées lorsqu’une réunion commence, mais elles sont désactivées peu après le début de la réunion.  <br/> |Par défaut, les notifications d’entrée et de sortie sont désactivées pour les réunions auxquelles les participants participent à partir des applications Skype entreprise et lors de leur numérotation. Vous pouvez activer les annonces dans les **options de réunion Skype** dans l’application Skype entreprise. Dans le cadre d'une réunion où tous les participants doivent composer le numéro et rejoindre la réunion, les notifications d'entrée et de sortie sont activées par défaut, car les participants n'ont pas tous accès à la liste des participants. Lorsqu’une réunion a commencé avec uniquement les participants qui se connectent, les notifications d’entrée et de sortie sont activées, mais quand un participant se connecte à l’aide d’une application Skype entreprise, les notifications sont désactivées. Lorsque cette option est désactivée, les notifications peuvent être activées en utilisant les **options de réunion Skype** dans l’application Skype entreprise. <br/> |Aucune solution.  <br/> |30/8/2017  <br/> |
+|Si un utilisateur est approvisionné pour la première fois en ayant reçu une licence E5, il est possible que le message de bienvenue de l’audioconférence ne soit pas remis à l’utilisateur si la boîte aux lettres n’est pas activée.  <br/> |Si tel est le cas, vous pouvez toujours renvoyer les informations de l’audioconférence de l’utilisateur à l’aide de l' **audioconférence** dans le centre d’administration Skype entreprise ou à l’aide de PowerShell. Voir [activer ou désactiver l’envoi de courriers lorsque les paramètres de conférence audio changent](enable-or-disable-sending-emails-when-their-settings-change.md).  <br/> **Remarque:** Pour envoyer à l’utilisateur le code confidentiel de l’audioconférence, le code confidentiel doit être réinitialisé. Vous pouvez également effectuer cette opération à l’aide de l' **audioconférence** dans le centre d’administration Skype entreprise ou à l’aide de PowerShell.          |Aucune solution.  <br/> |30/8/2017  <br/> |
+|Les appels d’audioconférence peuvent être affichés dans les rapports d’utilisation jusqu’à 24 heures.  <br/> |Nous espérons apporter des améliorations à cette zone dans les prochaines mises à jour de service.  <br/> |Aucune solution.  <br/> |30/8/2017  <br/> |
+|Lorsqu’un utilisateur appelle un pont de conférence une fois que la réunion a été verrouillée par un utilisateur de Skype entreprise, il n’y a pas de notification dans l’application Skype entreprise indiquant que l’utilisateur se trouve dans la salle d’attente.  <br/> |Cette fonctionnalité est actuellement à l'étude, mais nous avons recueilli les derniers commentaires afin de la mettre en œuvre dans les prochaines mises à jour de service.  <br/> |Aucune solution.  <br/> |30/8/2017  <br/> |
    
 ## <a name="related-topics"></a>Voir aussi
 

@@ -1,10 +1,10 @@
 ---
-title: Planifier des stratégies d’emplacement de Skype pour Business Server
+title: Planifier des politiques d’emplacement pour Skype entreprise Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,28 +13,28 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: da3cca7f-f6e5-4b6f-90a1-2008e3dd1ebd
-description: Lisez cette rubrique pour savoir comment planifier des stratégies d’emplacement pour un déploiement de services d’urgence étendus (E9-1-1) dans Skype pour Business Server Enterprise Voice.
-ms.openlocfilehash: 7bb92559f79be7cb2f8c62f89620f4b93f76cb8f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Pour plus d’informations sur la planification de stratégies de géolocalisation pour un déploiement Enhanced Emergency Services (E9-1-1) dans Skype entreprise Server, voir la rubrique voix.
+ms.openlocfilehash: 8f21a5a0f54fbeaca4c46ed51bf4dafe4c2a3dcb
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924205"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34276753"
 ---
-# <a name="plan-location-policies-for-skype-for-business-server"></a>Planifier des stratégies d’emplacement de Skype pour Business Server
+# <a name="plan-location-policies-for-skype-for-business-server"></a>Planifier des politiques d’emplacement pour Skype entreprise Server
  
-Lisez cette rubrique pour savoir comment planifier des stratégies d’emplacement pour un déploiement de services d’urgence étendus (E9-1-1) dans Skype pour Business Server Enterprise Voice. 
+Pour plus d’informations sur la planification de stratégies de géolocalisation pour un déploiement Enhanced Emergency Services (E9-1-1) dans Skype entreprise Server, voir la rubrique voix. 
   
 > [!NOTE]
-> Skype pour Business Server prend désormais en charge la configuration de plusieurs numéros d’urgence pour un client. Si vous souhaitez configurer plusieurs numéros d’urgence, vous devez suivre les informations de [planifier plusieurs numéros d’urgence dans Skype pour Business Server](multiple-emergency-numbers.md) et [configurer plusieurs numéros d’urgence dans Skype pour les entreprises](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md). 
+> Skype entreprise Server prend désormais en charge la configuration de plusieurs numéros d’urgence pour un client. Si vous voulez configurer plusieurs numéros d’urgence, vous devez suivre les informations de l’offre [plan pour plusieurs numéros d’urgence dans Skype entreprise Server](multiple-emergency-numbers.md) et [configurer plusieurs numéros d’urgence dans Skype entreprise](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md). 
   
-Vous créez des stratégies d’emplacement à l’aide de la Skype pour Business le panneau de configuration ou à l’aide de l’applet de commande [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps) . Pour plus d’informations, voir [Create stratégies d’emplacement Skype pour Business Server](../../deploy/deploy-enterprise-voice/create-location-policies.md).
+Vous pouvez créer des stratégies d’emplacement à l’aide du panneau de configuration Skype pour les entreprises ou à l’aide de l’applet [de commande New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps) . Pour plus d’informations, reportez-vous à la rubrique [création de stratégies d’emplacement dans Skype entreprise Server](../../deploy/deploy-enterprise-voice/create-location-policies.md).
   
 Chaque stratégie d’emplacement renferme les informations suivantes :
   
  **Activation d'Enhanced 9-1-1**
   
-Si cette valeur est activée, le client est activé pour les services d’urgence étendus (E9-1-1). Lorsqu’un client enregistre, il essaie d’acquisition d’un emplacement à partir du service informations d’emplacement et inclut les informations d’emplacement dans le cadre d’un appel d’urgence.
+Si cette valeur est activée, le client est activé pour les services d’urgence étendus (E9-1-1). Lors de l’inscription d’un client, ce dernier tente d’acquérir un emplacement auprès du service d’information d’emplacement et inclut les informations d’emplacement dans le cadre d’un appel d’urgence.
   
  **Emplacement**
   
@@ -53,25 +53,25 @@ Vous pouvez configurer le paramètre **Emplacement** pour définir le comporteme
   
  **Clause d’exclusion de responsabilité du service d’urgence**
   
-Ce paramètre spécifie la clause d’exclusion de responsabilité qui s’affiche si les utilisateurs ignorent l’invite pour un emplacement. Dans Skype pour Business Server, vous pouvez utiliser la stratégie d’emplacement pour définir les clauses d’exclusion différentes pour différents groupes d’utilisateurs ou de différents paramètres régionaux.
+Ce paramètre spécifie la clause d’exclusion de responsabilité qui s’affiche si les utilisateurs ignorent l’invite pour un emplacement. Dans Skype entreprise Server, vous pouvez utiliser la stratégie d’emplacement pour définir différentes exclusions de responsabilité pour différentes régions ou ensembles d’utilisateurs différents.
   
  **Chaîne de numérotation d’urgence (numéro E9-1-1)**
   
-Cette chaîne de numérotation (moins le signe « + », mais y compris les normalisation effectuée par le Plan de numérotation de l’utilisateur) signifie qu’un appel est un appel d’urgence. La **chaîne de numérotation d’urgence** oblige le client à inclure dans l’appel les informations d’emplacement et de rappel.
+Cette chaîne de numérotation (moins le "+" au début, mais y compris la normalisation réalisée par le plan de numérotation de l’utilisateur) signifie qu’un appel est un appel d’urgence. La **chaîne de numérotation d’urgence** oblige le client à inclure dans l’appel les informations d’emplacement et de rappel.
   
 > [!NOTE]
-> Si votre organisation n’utilise pas un préfixe d’accès de ligne externe, il est inutile créer une règle correspondante normalisation Plan de numérotation qui ajoute un « + » à la chaîne 911 avant l’envoi de l’appel vers le routage sortant sur un serveur exécutant Skype pour Business Server ; le « + » est automatiquement ajoutée à la Skype pour client d’entreprise à la suite de la stratégie d’emplacement. Toutefois, si votre site utilise un préfixe d’accès externe, vous devez ajouter une règle de normalisation à la stratégie de Plan de numérotation applicable qui supprime le préfixe d’accès externe et ajoute le « + ». Par exemple, si votre emplacement utilise un préfixe d’accès externe de 9 et un utilisateur compose 9 911 pour mettre un appel d’urgence, le client utilisera sa stratégie de Plan de numérotation pour normaliser cela à +911 avant le numéro composé est évalué par les itinéraires dans le profil d’emplacement de l’appelant. 
+> Si votre organisation n’utilise pas un préfixe d’accès aux lignes externes, vous n’avez pas besoin de créer une règle de normalisation de plan de numérotation correspondante qui ajoute «+» à la chaîne 911 avant d’envoyer l’appel vers le routage sortant sur un serveur exécutant Skype entreprise Server. le "+" sera automatiquement ajouté par le client Skype entreprise en raison de la stratégie d’emplacement. Toutefois, si votre site utilise un préfixe d’accès externe, vous devez ajouter une règle de normalisation à la stratégie de plan de numérotation appropriée qui élimine le préfixe d’accès externe et ajoute le signe «+». Par exemple, si votre emplacement utilise un préfixe d’accès externe de 9 et qu’un utilisateur compose 9 911 pour passer un appel d’urgence, le client utilisera sa stratégie de plan de numérotation pour normaliser cette opération sur + 911 avant que le numéro composé soit évalué par les itinéraires dans le profil de l’appelant. 
   
  **Masques de chaîne de numérotation d’urgence (masque E9-1-1)**
   
-Séparées par des points-virgules liste de chaînes de numérotation est converti en la **Chaîne de numérotation d’urgence**spécifiée. Par exemple, vous souhaiterez peut-être ajouter 112, qui est le numéro de service d’urgence pour la plupart des Europe. Une visite Skype pour utilisateur Business Europe ne savez ne peut-être pas 911 est le numéro d’urgence américain, mais ils peuvent composer 112 et obtenir le même résultat. Comme avec la chaîne de numérotation d’urgence, n’incluez ne pas « + » avant chaque numéro, et si vous utilisez les codes d’accès de ligne externe, assurez-vous que règles de normalisation dans la stratégie de Plan de numérotation de l’utilisateur à supprimer désactive le chiffre du code d’accès.
+Liste séparée par des virgules des chaînes de numérotation traduites dans la chaîne de numérotation de **secours**spécifiée. Par exemple, vous souhaiterez peut-être ajouter 112, qui est le numéro de service d’urgence pour la plupart des services d’Europe. Un utilisateur de Skype entreprise en Europe ne sait pas que 911 correspond au numéro d’urgence des États-Unis, mais il peut composer 112 et obtenir le même résultat. Comme pour la chaîne de numérotation d’urgence, n’incluez pas de "+" devant chaque numéro et, si vous utilisez des codes d’accès de ligne externe, assurez-vous que la stratégie de plan de numérotation de l’utilisateur dispose de règles de normalisation pour supprimer le code d’accès.
   
  **Utilisation PSTN**
   
 Nom de l’utilisation PSTN qui contient les chemins de routage qui déterminent la jonction SIP, la passerelle PSTN ou la passerelle ELIN vers laquelle les appels seront acheminés.
   
 > [!NOTE]
-> Seule une utilisation peut être affectée à une stratégie d’emplacement. Cette utilisation PSTN remplace les utilisations PSTN assignées à la stratégie de voix de l’utilisateur, mais s’applique uniquement aux appels passés à la chaîne de numérotation d’urgence ou à l’un des masques de chaîne de numérotation d’urgence. 
+> Seule une utilisation peut être affectée à une stratégie d’emplacement. Cette utilisation PSTN remplace les utilisations RTC attribuées à la stratégie vocale de l’utilisateur, mais ne s’applique qu’aux appels passés à la chaîne de numérotation d’urgence ou à un des masques de chaînes de numérotation d’urgence. 
   
  **URI de notification**
   
@@ -87,6 +87,6 @@ Indique si l’URI de conférence participera à l’appel d’urgence via une c
   
  **Intervalle d’actualisation d’emplacement**
   
-Spécifie la quantité de temps (en heures) entre les demandes des clients pour une mise à jour de l’emplacement du service informations d’emplacement. La valeur peut être comprise entre 1 et 12. La valeur par défaut est 4.
+Spécifie la durée (en heures) entre les demandes des clients pour une mise à jour de l’emplacement du service d’informations d’emplacement. La valeur peut être comprise entre 1 et 12. La valeur par défaut est 4.
   
 

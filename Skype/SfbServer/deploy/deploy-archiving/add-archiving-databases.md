@@ -1,40 +1,40 @@
 ---
-title: Ajouter des bases de données d’archivage à un déploiement existant dans Skype pour Business Server
+title: Ajouter des bases de données d’archivage à un déploiement existant dans Skype entreprise Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3b67df85-181d-45ca-ba48-bb74a439f242
-description: 'Résumé : Lisez cette rubrique pour savoir comment ajouter des bases de données d’archivage à votre Skype pour le déploiement de serveur d’entreprise.'
-ms.openlocfilehash: a437da69db0fc1c57c39a1fa1a61f7dead1fdaa4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Résumé: cette rubrique vous explique comment ajouter des bases de données d’archivage à votre déploiement Skype entreprise Server.'
+ms.openlocfilehash: 2110a6c82aed473fdc07e5796075aabdb50c7086
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894168"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34278996"
 ---
-# <a name="add-archiving-databases-to-an-existing-deployment-in-skype-for-business-server"></a>Ajouter des bases de données d’archivage à un déploiement existant dans Skype pour Business Server
+# <a name="add-archiving-databases-to-an-existing-deployment-in-skype-for-business-server"></a>Ajouter des bases de données d’archivage à un déploiement existant dans Skype entreprise Server
  
-**Résumé :** Lisez cette rubrique pour savoir comment ajouter des bases de données d’archivage à votre Skype pour le déploiement de serveur d’entreprise.
+**Résumé:** Consultez cette rubrique pour découvrir comment ajouter des bases de données d’archivage à votre déploiement de Skype entreprise Server.
   
-Vous devez incorporer l’archivage dans votre topologie avant de configurer votre déploiement pour qu’il prenne en charge l’archivage. Les informations contenues dans cette rubrique expliquent comment utiliser le Générateur de topologie pour :
+Vous devez incorporer l’archivage dans votre topologie avant de configurer votre déploiement pour qu’il prenne en charge l’archivage. Les informations contenues dans cet article vous expliquent comment utiliser le générateur de topologie pour:
   
 - Ajouter une base de données d’archivage à votre topologie.
     
-- Publier la topologie mise à jour pour ajouter la base de données d’archivage à votre Skype pour le déploiement de serveur d’entreprise.
+- Publiez la topologie mise à jour pour ajouter la base de données d’archivage à votre déploiement de Skype entreprise Server.
     
 > [!NOTE]
-> Si vous souhaitez utiliser l’intégration de Microsoft Exchange pour stocker les données d’archivage et de fichiers sur des serveurs Exchange pour tous vos utilisateurs dans votre déploiement, ne spécifiez pas les informations de **magasin SQL Server de l’archivage** ou **la mise en miroir d’utiliser un magasin SQL Server** .
+> Si vous souhaitez utiliser l’intégration de Microsoft Exchange pour stocker les données et fichiers d’archivage sur les serveurs Exchange pour tous les utilisateurs de votre déploiement, ne spécifiez pas **l’archivage de SQL Server Store** ou les informations de **mise en miroir SQL Server Store** .
   
 ### <a name="add-an-archiving-database-to-your-topology"></a>Ajouter une base de données d’archivage à votre topologie
 
-1. Sur un ordinateur qui exécute Skype pour Business Server ou sur lequel le Skype pour les outils d’administration Business Server sont installés, ouvrez une session en utilisant un compte qui est membre du groupe utilisateurs local (ou un compte disposant de droits utilisateur équivalents).
+1. Sur un ordinateur exécutant Skype entreprise Server ou sur lequel sont installés les outils d’administration de Skype entreprise Server, connectez-vous à l’aide d’un compte membre du groupe utilisateurs locaux (ou d’un compte possédant des droits d’utilisateur similaires).
     
-2. Démarrez le Générateur de topologie.
+2. Démarrer le générateur de topologie.
     
 3. Dans l’arborescence de la console, accédez au pool frontal dans lequel vous voulez déployer l’archivage, puis cliquez sur le nom de ce pool frontal.
     
@@ -46,61 +46,61 @@ Vous devez incorporer l’archivage dans votre topologie avant de configurer vot
     
 7. Activez la case à cocher **Archivage**.
     
-8. Sous **magasin de SQL Server d’archivage,** effectuez l’une des options suivantes :
+8. Sous **archivage de SQL Server Store,** effectuez l’une des opérations suivantes:
     
-   - Pour utiliser un magasin SQL Server existant, dans la zone de liste déroulante, cliquez sur le nom du magasin SQL Server que vous voulez utiliser. Si tous les utilisateurs sont hébergés sur Microsoft Exchange Server 2013 ou au-dessus, vous pouvez archiver Skype pour les communications d’entreprise pour tous vos utilisateurs dans Exchange. Dans ce cas, vous n’avez pas besoin de configurer le service banque d’archivage de serveur SQL.
+   - Pour utiliser un magasin SQL Server existant, dans la zone de liste déroulante, cliquez sur le nom du magasin SQL Server que vous voulez utiliser. Si tous vos utilisateurs sont hébergés sur Microsoft Exchange Server 2013 ou une version ultérieure, vous pouvez archiver les communications Skype entreprise pour tous vos utilisateurs en échange. Dans ce cas, vous n’avez pas besoin de configurer le magasin SQL Server d’archivage.
     
-   - Pour spécifier un nouveau magasin SQL Server, cliquez sur **Nouveau**, puis dans la boîte de dialogue **Définir nouveau magasin SQL Server** , procédez comme suit :
+   - Pour spécifier un nouveau SQL Server Store, cliquez sur **nouveau**puis, dans la boîte de dialogue **définir un nouveau SQL Server Store** , procédez comme suit:
     
-   - Dans **Nom de domaine complet de SQL Server**, spécifiez le nom de domaine complet du serveur sur lequel vous souhaitez créer le nouveau magasin SQL Server.
+   - Dans **FQDN SQL Server**, spécifiez le nom de domaine complet (FQDN) du serveur sur lequel vous souhaitez créer le nouveau SQL Server Store.
     
    - Cliquez sur **Instance par défaut** pour utiliser l’instance par défaut ou, pour définir une instance différente, cliquez sur **Instance nommée** et spécifiez l’instance à utiliser.
     
-   - Si l’instance SQL Server spécifiée se trouve dans une relation de mise en miroir, activez la case à cocher **cette instance SQL se trouve dans la relation de mise en miroir** , puis, dans le **numéro de port de mise en miroir**, spécifiez le numéro de port.
+   - Si l’instance SQL Server spécifiée se trouve dans une relation de mise en miroir, activez la case à cocher **cette instance SQL est dans une relation en miroir** , puis, dans numéro de port **en miroir**, spécifiez le numéro de port.
     
-9. Si vous souhaitez utiliser la mise en miroir du magasin SQL Server, sélectionnez **la mise en miroir d’activer un magasin SQL Server**, puis procédez comme suit :
+9. Si vous souhaitez utiliser la mise en miroir SQL Server Store, sélectionnez **activer la mise en miroir SQL Server Store**, puis procédez comme suit:
     
-   - Pour utiliser un magasin SQL Server pour la mise en miroir, dans la zone de liste déroulante **miroir du magasin SQL Server d’archivage** , cliquez sur le nom du magasin SQL Server que vous souhaitez utiliser pour la mise en miroir.
+   - Pour utiliser un magasin SQL Server existant pour la mise en miroir, dans la zone de liste déroulante archivage de **SQL Server Store** , cliquez sur le nom du magasin SQL Server que vous voulez utiliser pour la mise en miroir.
     
-   - Pour spécifier un nouveau magasin SQL Server pour la mise en miroir, cliquez sur **Nouveau**, puis dans la boîte de dialogue **Définir nouveau magasin SQL Server** , effectuez l’une des options suivantes :
+   - Pour spécifier un nouveau magasin SQL Server pour la mise en miroir, cliquez sur **nouveau**puis, dans la boîte de dialogue **définir un nouveau SQL Server Store** , effectuez l’une des opérations suivantes:
     
-     a. Dans **Nom de domaine complet de SQL Server**, spécifiez le nom de domaine complet du serveur SQL sur lequel vous souhaitez créer le nouveau magasin SQL Server.
+     a. Dans **nom de domaine complet SQL Server**, spécifiez le nom de domaine complet (FQDN) du serveur SQL sur lequel vous souhaitez créer le nouveau SQL Server Store.
     
      b. Cliquez sur **Instance par défaut** pour utiliser l’instance par défaut ou, pour définir une instance différente, cliquez sur **Instance nommée** et spécifiez l’instance à utiliser.
     
-     c. Si l’instance SQL Server spécifiée se trouve dans une relation de mise en miroir, activez la case à cocher **cette instance SQL se trouve dans la relation de mise en miroir** , puis, dans le **numéro de port de mise en miroir**, spécifiez le numéro de port.
+     c. Si l’instance SQL Server spécifiée se trouve dans une relation de mise en miroir, activez la case à cocher **cette instance SQL est dans une relation en miroir** , puis, dans numéro de port **en miroir**, spécifiez le numéro de port.
     
-   - Si vous activez la mise en miroir SQL Server et que vous souhaitez inclure un témoin (une troisième et distincte instance SQL Server qui peut détecter l’intégrité des instances de SQL Server et miroir principales) de la mise en miroir de SQL Server, sélectionnez le **témoin de mise en miroir utiliser SQL Server pour activer automatique basculement** case à cocher, puis effectuez l’une des opérations suivantes :
+   - Si vous activez la mise en miroir SQL Server et souhaitez inclure un témoin de mise en miroir SQL Server (troisième instance SQL Server distincte capable de détecter l’état du serveur SQL Server et des instances miroir principales), sélectionnez le **témoin de mise en miroir SQL Server pour activer le service automatique. **activez le basculement, puis effectuez l’une des opérations suivantes:
     
-     a. Dans **Nom de domaine complet de SQL Server**, spécifiez le nom de domaine complet du serveur sur lequel vous souhaitez créer le nouveau serveur SQL témoin de mise en miroir.
+     a. Dans **FQDN SQL Server**, spécifiez le nom de domaine complet (FQDN) du serveur sur lequel vous souhaitez créer le nouveau témoin de mise en miroir SQL Server.
     
      b. Cliquez sur **Instance par défaut** pour utiliser l’instance par défaut ou sur **Instance nommée** pour définir une instance différente, puis spécifiez l’instance à utiliser comme témoin de mise en miroir.
     
-     c. Si l’instance SQL Server spécifiée se trouve dans une relation de mise en miroir, activez la case à cocher **cette instance SQL se trouve dans la relation de mise en miroir** , puis, dans le **numéro de port de mise en miroir**, spécifiez le numéro de port.
+     c. Si l’instance SQL Server spécifiée se trouve dans une relation de mise en miroir, activez la case à cocher **cette instance SQL est dans une relation en miroir** , puis, dans numéro de port **en miroir**, spécifiez le numéro de port.
     
 10. Pour enregistrer la configuration, cliquez sur **OK**.
     
 ### <a name="publish-the-updated-topology-to-add-an-archiving-database-to-your-deployment"></a>Publier la topologie mise à jour pour ajouter une base de données d’archivage à votre déploiement
 
-1. Sur un ordinateur qui exécute Skype pour Business Server ou sur lequel le Skype pour les outils d’administration Business Server sont installés, ouvrez une session en utilisant un compte qui est membre du groupe utilisateurs local (ou un compte disposant de droits utilisateur équivalents).
+1. Sur un ordinateur exécutant Skype entreprise Server ou sur lequel sont installés les outils d’administration de Skype entreprise Server, connectez-vous à l’aide d’un compte qui est membre du groupe utilisateurs local (ou d’un compte disposant de droits d’utilisateur équivalents).
     
     > [!NOTE]
-    > Vous pouvez définir une topologie en utilisant un compte qui est un membre du groupe utilisateurs local, mais pour publier une topologie qui est nécessaire pour ajouter un serveur à la topologie, vous devez utiliser un compte qui est membre du groupe **Admins** du domaine et le **RTCUniversalServer Administrateurs** groupe et qui dispose d’autorisations Contrôle total (lire, écrire et modifier) sur le partage de fichiers que vous utilisez pour le Skype pour le magasin de fichiers Business Server (afin que le Générateur de topologie puisse configurer la liste de contrôle d’accès discrétionnaire requises (DACL), ou une compte disposant de droits équivalents.
+    > Vous pouvez définir une topologie à l’aide d’un compte membre du groupe utilisateurs locaux, mais pour publier une topologie, qui est nécessaire pour ajouter un serveur à la topologie, vous devez utiliser un compte membre du groupe **administrateurs de domaine** et de la **RTCUniversalServer. Groupe administrateurs** et qui dispose des autorisations contrôle total (lecture, écriture et modification) sur le partage de fichiers que vous utilisez pour le stockage de fichiers Skype entreprise Server (de sorte que le générateur de topologie puisse configurer la liste de contrôle d’accès discrétionnaire (DACL) requise ou un compte avec des droits équivalents.
   
-2. Ouvrez la topologie que vous avez créé dans la section précédente à l’aide du Générateur de topologie.
+2. Ouvrez la topologie que vous avez créée dans la section précédente à l’aide du générateur de topologie.
     
-3. Dans l’arborescence de la console, avec le bouton droit **Skype pour Business Server**, puis cliquez sur **Publier la topologie**.
+3. Dans l’arborescence de la console, cliquez avec le bouton droit sur **Skype entreprise Server**, puis cliquez sur **publier la topologie**.
     
 4. Dans la page **Publier la topologie**, cliquez sur **Suivant**.
     
 5. Dans la page **Créer des bases de données**, vérifiez que la base de données est sélectionnée, puis cliquez sur **Suivant**. 
     
     > [!NOTE]
-    > Si vous ne disposez pas des autorisations appropriées pour créer des bases de données, vous pouvez annuler la sélection de la base de données et laisser une autre personne dotée des autorisations nécessaires la créer. > des bases de données uniquement sur les serveurs SQL dédié peuvent être installés à l’aide du Générateur de topologie. Les bases de données situées sur des serveurs SQL colocalisés avec d’autres composants serveur doivent être installées via une installation locale sur l’ordinateur concerné. 
+    > Si vous ne disposez pas des autorisations appropriées pour créer des bases de données, vous pouvez annuler la sélection de la base de données et laisser une autre personne dotée des autorisations nécessaires la créer. > uniquement les bases de données sur les serveurs SQL dédiés peuvent être installées à l’aide du générateur de topologie. Les bases de données situées sur des serveurs SQL colocalisés avec d’autres composants serveur doivent être installées via une installation locale sur l’ordinateur concerné. 
   
 6. Dans la page **Assistant Publication terminé**, assurez-vous que la topologie a été publiée correctement, puis cliquez sur **Terminer**.
     
     > [!IMPORTANT]
-    > Une fois la topologie publiée, vous devez configurer les options et les stratégies relatives à l’archivage pour permettre l’archivage du contenu. Pour plus d’informations, voir [configurer les options de Skype pour Business Server d’archivage](configure-archiving-options.md) et de [configurer des stratégies pour Skype pour Business Server d’archivage](configure-archiving-policies.md). 
+    > Une fois la topologie publiée, vous devez configurer les options et les stratégies relatives à l’archivage pour permettre l’archivage du contenu. Pour plus d’informations, reportez-vous à la rubrique [Configuration des options d’archivage de Skype entreprise Server](configure-archiving-options.md) et [Configuration des stratégies d’archivage de Skype entreprise Server](configure-archiving-policies.md). 
   
 

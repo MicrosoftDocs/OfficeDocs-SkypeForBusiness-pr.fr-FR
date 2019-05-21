@@ -5,32 +5,32 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/8/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.LyncServer2013ScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 65ff172c-8a27-45ce-8ce1-c1a37798b3a3
-description: Les étapes nécessaires pour définir un nouveau rapport ou passerelle vidéo dans le Générateur de topologie sont décrites en ligne dans créer un pool VIS dans Skype pour Business Server 2015.
-ms.openlocfilehash: 9fb639982b094d4480dd7f7481f539d69f140440
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Les étapes nécessaires pour définir une nouvelle fonction ou passerelle vidéo dans le générateur de topologie sont décrites en ligne dans créer un pool de ressources dans Skype entreprise Server 2015.
+ms.openlocfilehash: 73cf9e07cf0239ca7edb546e8b7aaacbb1679e95
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33888519"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34276195"
 ---
 # <a name="lync-server-2013-scope-node"></a>Nœud d’étendue Lync Server 2013
  
-Les étapes nécessaires pour définir un nouveau rapport ou passerelle vidéo dans le Générateur de topologie sont décrites en ligne dans [créer un pool VIS dans Skype pour Business Server 2015](../../deploy/deploy-video-interop-server/create-a-vis-pool.md).
+Les étapes nécessaires pour définir une nouvelle fonction ou passerelle vidéo dans le générateur de topologie sont décrites en ligne dans [créer un pool de ressources dans Skype entreprise Server 2015](../../deploy/deploy-video-interop-server/create-a-vis-pool.md).
   
-Les étapes nécessaires pour attribuer un rôle de serveur d’interopérabilité vidéo sur un serveur à l’aide de Windows PowerShell sont décrites en ligne à [déployer le rôle de serveur VIS Skype pour Business Server 2015](../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md)
+Les étapes nécessaires à l’affectation d’un rôle serveur du serveur d’interopérabilité sur un serveur à l’aide de Windows PowerShell sont décrites en ligne dans [la section déploiement du rôle serveur dans Skype entreprise Server 2015](../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md)
   
-Les étapes de configuration pour un nouveau serveur d’interopérabilité vidéo à l’aide de Windows PowerShell sont décrites en ligne à [configurer le serveur d’interopérabilité vidéo dans Skype pour Business Server 2015](../../deploy/deploy-video-interop-server/configure-the-vis.md).
+Les étapes de configuration d’un nouveau serveur vidéo à l’aide de Windows PowerShell sont décrites en ligne dans [configurer le serveur Video Interop dans Skype entreprise server 2015](../../deploy/deploy-video-interop-server/configure-the-vis.md).
   
- Les paramètres d’une passerelle vidéo qui doit être définie dans l’interface utilisateur Cisco pour l’interopérabilité avec une VIS sont décrites en ligne à [Configurer les CUCM pour l’interopérabilité avec Skype pour Business Server 2015](../../deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md).
+ Les paramètres d’une passerelle vidéo qui doivent être définis dans l’interface utilisateur Cisco pour l’interopérabilité avec une VIS sont décrits en ligne à l’adresse [configurer CUCM pour l’interopérabilité avec Skype entreprise Server 2015](../../deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md).
   
- Les paramètres pour un VTC qui doit être définie dans l’interface utilisateur Cisco pour l’interopérabilité avec une passerelle de vidéo et un rapport sont décrites en ligne à [configurer un VTC pour l’interopérabilité avec Skype pour Business Server 2015](../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md).
+ Les paramètres d’un VTC qui doivent être définis dans l’interface utilisateur Cisco pour l’interopérabilité avec une passerelle vidéo et une VIS sont décrits en ligne sur la [configuration d’un VTC pour l’interopérabilité avec Skype entreprise Server 2015](../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md).
   
 ## <a name="see-also"></a>Voir aussi
 

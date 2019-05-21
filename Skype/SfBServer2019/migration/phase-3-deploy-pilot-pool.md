@@ -1,33 +1,33 @@
 ---
-title: Phase 3 déployer Skype pour le pool pilote Business Server 2019
+title: Phase 3 de déploiement du pool de pilotes Skype entreprise Server 2019
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f12b1517-fb56-4ded-8323-57aa9fc9ea48
-description: Cette section décrit les étapes nécessaires pour déployer un pool pilote de Skype pour Business Server 2019. Le déploiement de Skype pour Business Server 2019 nécessite à l’aide du Générateur de topologie pour définir votre topologie et les composants que vous souhaitez déployer, préparation de votre environnement pour le déploiement de la Skype pour les composants Business Server 2019 publier votre topologie conception sur le premier serveur frontal, puis l’installation et en configurant Skype pour le logiciel Business Server 2019 pour les composants requis pour votre déploiement. Une fois terminé, votre Skype pour le déploiement du pool pilote Business Server 2019 vont coexister avec un pool hérité existant.
-ms.openlocfilehash: 457b2daad926b3e2f15c1673cadea5cd249cf99f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Cette section présente les étapes nécessaires au déploiement d’un pool de pilotes de Skype entreprise Server 2019. Le déploiement de Skype entreprise Server 2019 nécessite l’utilisation du générateur de topologie pour définir votre topologie et les composants que vous voulez déployer, en préparant votre environnement pour le déploiement des composants 2019 de Skype entreprise Server et la publication de votre topologie Concevez sur le premier serveur frontal, puis installez et configurez le logiciel 2019 de Skype entreprise Server pour les composants de votre déploiement. Lorsque vous avez terminé, votre déploiement de la liste de pilotes de déploiement 2019 de Skype entreprise Server peut cohabiter avec un pool hérité existant.
+ms.openlocfilehash: d8524d74364bac111182182ecd1f6e22972fb898
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231552"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34273923"
 ---
-# <a name="phase-3-deploy-skype-for-business-server-2019-pilot-pool"></a>Phase 3 : Déploiement Skype pour le pool pilote Business Server 2019
+# <a name="phase-3-deploy-skype-for-business-server-2019-pilot-pool"></a>Étape 3: déploiement du pool de pilotes Skype entreprise Server 2019
 
-Cette section décrit les étapes nécessaires pour déployer un pool pilote de Skype pour Business Server 2019. Le déploiement de Skype pour Business Server 2019 nécessite à l’aide du Générateur de topologie pour définir votre topologie et les composants que vous souhaitez déployer, préparation de votre environnement pour le déploiement de la Skype pour les composants Business Server 2019 publier votre topologie conception sur le premier serveur frontal, puis l’installation et en configurant Skype pour le logiciel Business Server 2019 pour les composants requis pour votre déploiement. Une fois terminé, votre Skype pour le déploiement du pool pilote Business Server 2019 vont coexister avec un pool hérité existant.
+Cette section présente les étapes nécessaires au déploiement d’un pool de pilotes de Skype entreprise Server 2019. Le déploiement de Skype entreprise Server 2019 nécessite l’utilisation du générateur de topologie pour définir votre topologie et les composants que vous voulez déployer, en préparant votre environnement pour le déploiement des composants 2019 de Skype entreprise Server et la publication de votre topologie Concevez sur le premier serveur frontal, puis installez et configurez le logiciel 2019 de Skype entreprise Server pour les composants de votre déploiement. Lorsque vous avez terminé, votre déploiement de la liste de pilotes de déploiement 2019 de Skype entreprise Server peut cohabiter avec un pool hérité existant.
   
 ## <a name="in-this-section"></a>Contenu de cette section
 
-- [Préparer Active Directory pour Skype pour Business Server](prepare-active-directory.md)
+- [Préparer Active Directory pour Skype entreprise Server](prepare-active-directory.md)
     
 - [Téléchargement de la topologie à partir d’un déploiement existant](download-topology-from-existing-deployment.md)
     
-- [Déployer Skype pour le pool pilote Business Server 2019](deploy-pilot-pool.md)
+- [Déploiement du pool de pilotes Skype entreprise Server 2019](deploy-pilot-pool.md)
     
 - [Vérification de la coexistence du pool pilote avec le pool hérité](verify-pilot-pool-coexistence-with-legacy-pool.md)
     

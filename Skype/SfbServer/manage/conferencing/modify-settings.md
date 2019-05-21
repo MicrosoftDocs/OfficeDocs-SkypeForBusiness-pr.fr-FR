@@ -1,33 +1,33 @@
 ---
-title: Modifier les paramètres de configuration dans Skype pour Business Server
+title: Modifier les paramètres de configuration de la réunion dans Skype entreprise Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 11d1f9ac-0029-429b-be2b-d7591abfc192
-description: 'Résumé : Découvrez comment modifier les paramètres de configuration dans Skype pour Business Server.'
-ms.openlocfilehash: 0562758b16418ab79349a27d8eadb509a9f5f6ca
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Résumé: Découvrez comment modifier les paramètres de configuration de la réunion dans Skype entreprise Server.'
+ms.openlocfilehash: 6e2566a5bc48e081c1912753586aef2213e1c727
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33884995"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280396"
 ---
-# <a name="modify-meeting-configuration-settings-in-skype-for-business-server"></a>Modifier les paramètres de configuration dans Skype pour Business Server
+# <a name="modify-meeting-configuration-settings-in-skype-for-business-server"></a>Modifier les paramètres de configuration de la réunion dans Skype entreprise Server
  
-**Résumé :** Découvrez comment modifier les paramètres de configuration dans Skype pour Business Server.
+**Résumé:** Découvrez comment modifier les paramètres de configuration de la réunion dans Skype entreprise Server.
   
-Vous pouvez modifier les paramètres de configuration de réunion à l’aide de Skype pour le panneau de configuration serveur Business ou à l’aide de Skype pour Business Server Management Shell.
+Vous pouvez modifier les paramètres de configuration de la réunion à l’aide du panneau de configuration Skype entreprise Server ou en utilisant Skype entreprise Server Management Shell.
   
-## <a name="modify-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Modifier les paramètres de configuration de réunion à l’aide de Skype pour Business Server Control Panel
+## <a name="modify-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Modifier les paramètres de configuration de la réunion à l’aide du panneau de configuration Skype entreprise Server
 
 1. À partir d’un compte d’utilisateur auquel est affecté le rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
     
-2.  Ouvrez le panneau de configuration serveur Business Skype.
+2.  Ouvrez le panneau de configuration Skype entreprise Server.
     
 3. Dans la barre de navigation de gauche, cliquez sur **Conférence**, puis sur **Configuration de la réunion**.
     
@@ -37,7 +37,7 @@ Vous pouvez modifier les paramètres de configuration de réunion à l’aide de
     
 6. Cliquez sur **Valider**.
     
-## <a name="modify-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Modifier les paramètres de configuration de réunion à l’aide de Skype pour Business Server Management Shell
+## <a name="modify-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Modifier les paramètres de configuration de la réunion à l’aide de Skype entreprise Server Management Shell
 
 Pour modifier les paramètres de configuration de réunion, utilisez l’applet de commande ** Set-CsMeetingConfiguration**.
   
@@ -47,6 +47,6 @@ La commande de l’exemple ci-dessous modifie les paramètres de configuration d
 Set-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone"
 ```
 
-Pour plus d’informations, notamment une liste complète des paramètres, voir [Set-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmeetingconfiguration?view=skype-ps).
+Pour plus d’informations, y compris une liste complète des paramètres, consultez la rubrique [Set-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmeetingconfiguration?view=skype-ps).
   
 

@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,26 +24,26 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour le Royaume-Uni.
-ms.openlocfilehash: cd423d4e96db8fa61c7913ba43c1b19b40f11eb3
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+description: Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibles pour le Royaume-Uni.
+ms.openlocfilehash: 869c23879442480ac2db7bb6fd733b451c089281
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542942"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286752"
 ---
 # <a name="availability-in-the-united-kingdom-uk"></a>Disponibilité au Royaume-Uni
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ou renseignez-vous sur la disponibilité des forfaits d'appels et d'audioconférence selon les régions et les pays.
 
-Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour le Royaume-Uni.
+Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibles pour le Royaume-Uni.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
 |L'audioconférence est-elle disponible à l'achat ?  <br/> |Oui  <br/> |
-|Les numéros de téléphone sont-ils attribués automatiquement pour l'audioconférence ?  <br/> |Oui, pour : <br/><ul><li> Londres</ul>Si vous souhaitez obtenir des numéros de téléphone dédiés, reportez-vous à la rubrique [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).  <br/> |
+|Les numéros de téléphone sont-ils attribués automatiquement pour l'audioconférence ?  <br/> |Oui, pour: <br/><ul><li> Londres</ul>Si vous souhaitez obtenir des numéros de téléphone dédiés, reportez-vous à la rubrique [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).  <br/> |
 |Fonction de numérotation à l'aide de la fonctionnalité M'appeler  <br/> |Disponibles  <br/> |
    
 ## <a name="phone-system"></a>Système téléphonique
@@ -60,15 +60,15 @@ Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
 |Les forfaits d'appels sont-ils disponibles à l'achat ?  <br/> |Oui  <br/> |
-|Minutes disponibles pour les Plans de l’appel. |Il existe quatre options de plan par mois : <ul><li>120 minutes planifier l’appel interne </li><li>240 minutes planifier l’appel interne</li></li><li>1200 minute de planifier l’appel interne </li></li><li>Nationales et internationales appelant planifier : 1200 minutes d’intérieurs - ou-600 minutes d’appels internationaux (si elle est atteinte premier dans le mois)</li></li> 
-|Peut passer des appels sortants vers les numéros ? <br/> | Partiellement pris en charge : appels partagé des numéros de coûts (préfixes 44843, 44844, 44845, 44870, 44871, 44872) sont pris en charge à l’aide de Communications crédits à payer par minute.  Les appels vers les préfixes 449XX ne sont pas pris en charge. <br/> |
+|Minutes disponibles pour les offres d’appels. |Il existe quatre options de plan disponibles par mois civil: <ul><li>Forfait d’appels nationaux de 120 minutes </li><li>Forfait d’appels nationaux de 240 minutes</li></li><li>Forfait d’appels nationaux de 1200 minutes </li></li><li>Forfait d’appels nationaux et internationaux: 1200 minutes d’appel international ou de 600 minutes d’appels internationaux (selon la première atteinte du mois civil)</li></li> 
+|Est-il possible de passer des appels sortants vers des numéros payants? <br/> | Partiellement pris en charge: les appels vers des numéros de coûts partagés (préfixes 44843, 44844, 44845, 44870, 44871, 44872) sont pris en charge à l’aide de crédits de communication pour payer à la minute.  Les appels vers les préfixes 449XX ne sont pas pris en charge. <br/> |
 |Est-il possible de passer des appels sortants ?  <br/> | Vers 196 pays, dont [ :](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Numéros payants et gratuits pour les services
 
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
-|Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?  <br/> |<ul><li>Birmingham <li>  Bolton <li>  Bournemouth <li>  Bradford <li>  Brighton <li>  Bristol <li>  Coventry <li>  Hull <li>  Leeds <li>  Leicester <li>  Liverpool <li>  Londres <li>  Manchester <li>  Newcastle <li>  Nottingham <li>  Plymouth <li>  Sheffield <li>  Stoke-on-Trent <li>  Teesside (Middlesbrough) </ul> |
+|Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?  <br/> |<ul><li>Birmingham <li>  Bolton <li>  Bournemouth <li>  Bradford <li>  Brighton <li>  Bristol <li>  Coventry <li>  Mond <li>  Leeds <li>  Leicester <li>  Lyon <li>  Londres <li>  Tours <li>  Maladie <li>  Nottingham <li>  Plymouth <li>  SDL <li>  Stoke-sur-Trent <li>  Teesside (Middlesbrough) </ul> |
 |Les numéros payants sont-ils disponibles ?  <br/> |Oui  <br/> |
 |Les numéros gratuits sont-ils disponibles ?  <br/> |Oui  <br/> |
    

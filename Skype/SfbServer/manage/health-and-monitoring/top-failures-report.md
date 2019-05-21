@@ -1,41 +1,41 @@
 ---
-title: Rapport des principales défaillances dans Skype pour Business Server
+title: Rapport sur les principaux échecs dans Skype entreprise Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 438942e2-580a-4b67-9d42-f116111fb26a
-description: 'Résumé : Découvrez le rapport des principales défaillances dans Skype pour Business Server.'
-ms.openlocfilehash: 71a97c9d01e079f59df2658bb137b27794fcb1d7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Résumé: en savoir plus sur le rapport sur les principaux échecs dans Skype entreprise Server.'
+ms.openlocfilehash: a1b3337a65e3193324b30f5d83f6858ef996111a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33915380"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279717"
 ---
-# <a name="top-failures-report-in-skype-for-business-server"></a>Rapport des principales défaillances dans Skype pour Business Server
+# <a name="top-failures-report-in-skype-for-business-server"></a>Rapport sur les principaux échecs dans Skype entreprise Server
  
-**Résumé :** Découvrez le rapport des principales défaillances dans Skype pour Business Server.
+**Résumé:** En savoir plus sur le rapport sur les principaux échecs dans Skype entreprise Server.
   
 Le rapport des principales défaillances expose les défaillances les plus fréquentes et leur évolution dans le temps. Les défaillances sont basées sur une combinaison des deux métriques suivantes :
   
 - **ID de diagnostic**. Identificateur unique (sous la forme d’un en-tête ms-diagnostics) joint à un message SIP. Les ID de diagnostic fournissent des informations utiles pour résoudre les problèmes liés aux appels.
     
-- **Code de réponse**. Codes de réponse sont utilisés dans les sessions de communication SIP pour répondre aux demandes SIP. Par exemple, supposons que Ken envoie la demande d’invitation à Pilar Ackerman (autrement dit, supposons que Ken Myer appelle Pilar Ackerman). Si Pilar répond, son téléphone envoie le code de réponse 200 (OK), informer téléphone de Ken que Pilar a répondu à. Le rapport des principales défaillances inclut uniquement les codes de réponse qui ont été envoyés en réponse à un échec d’appel ; Skype pour Business Server ne pas un suivi de tous les codes de réponse émis au cours d’un appel.
+- **Code de réponse**. Les codes de réponse sont utilisés dans les sessions de communication SIP pour répondre aux demandes SIP. Par exemple, supposons que Ken envoie la demande d’invitation à Pilar Arès (autrement dit, il appelle Ken Myer Pilar Arès). Si Pilar répond, son numéro envoie le code de réponse 200 (OK), en laissant le téléphone de Ken savoir que Pilar a répondu. Le rapport pannes principales inclut uniquement les codes de réponse envoyés en réponse à un échec de l’appel. Skype entreprise Server ne permet pas d’effectuer le suivi de tous les codes de réponse émis pendant un appel.
     
 Les informations sont signalées pour le nombre total de sessions où une défaillance s’est produite, ainsi que pour le nombre total d’utilisateurs affectés par la panne.
   
 ## <a name="accessing-the-top-failures-report"></a>Accès au rapport des principales défaillances
 
-Le rapport des principales défaillances est accessible à partir de la page d’accueil Rapports de surveillance. En cliquant sur la mesure de sessions déclaré vous dirige vers le [Rapport de répartition dans Skype pour Business Server](failure-distribution-report.md).
+Le rapport des principales défaillances est accessible à partir de la page d’accueil Rapports de surveillance. Le fait de cliquer sur la métrique de sessions signalées vous permet d’atteindre le [rapport de distribution des échecs dans Skype entreprise Server](failure-distribution-report.md).
   
 ## <a name="making-the-best-use-of-the-top-failures-report"></a>Optimisation de l’utilisation du rapport des principales défaillances
 
-Le rapport des principales défaillances est particulier : il vous permet de filtrer jusqu’à 5 ID de diagnostic à la fois. (Généralement vous pouvez seulement filtrer sur un élément - comme adresse SIP un - à la fois.) Pour filtrer sur plusieurs ID de diagnostic, entrez simplement chacun d’eux dans la zone ID de Diagnostic, en séparant les ID par des virgules. (Si vous le souhaitez, vous pouvez laisser un espace vide après chaque virgule.) Par exemple :
+Le rapport des principales défaillances est particulier : il vous permet de filtrer jusqu’à 5 ID de diagnostic à la fois. (En règle générale, vous pouvez uniquement filtrer sur un élément (par exemple, adresse SIP de l’utilisateur). Pour filtrer sur plusieurs ID de diagnostics, il suffit d’entrer chacun d’eux dans la boîte de réception ID de diagnostic en séparant les ID à l’aide de virgules. (Si vous le souhaitez, vous pouvez laisser un espace après chaque virgule.) Par exemple:
   
 1011, 2412, 1033, 52116, 1008
   

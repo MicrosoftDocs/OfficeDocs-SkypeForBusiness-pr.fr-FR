@@ -14,19 +14,19 @@ ms.reviewer: lucarras
 description: Découvrez comment ajouter des bots dans Microsoft Teams pour des conversations et des canaux privés, créer des bots personnalisés et charger une version test de votre propre bot pour une conversation privée.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a4e921ea668fc59b520fdb068355db82bfe24481
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 62ecd17e7aa5f4c814aadcfd0dfa01eb9fcdbb7f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33400537"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34278170"
 ---
 <a name="add-bots-for-private-chats-and-channels-in-microsoft-teams"></a>Ajouter des bots à des conversations et des canaux privés dans Microsoft Teams
 ==========================================================
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-Les robots sont des programmes automatisés qui répondent aux requêtes ou fournissent des mises à jour et des notifications relatives aux détails que les utilisateurs trouvent intéressants ou veulent suivre. Robots permettent aux utilisateurs d’interagir avec les services de cloud comme la gestion de la tâche, la planification et l’interrogation, par le biais des conversations dans Microsoft Teams. Robots pour Teams Microsoft reposent sur l' [Infrastructure de robot de Microsoft](https://go.microsoft.com/fwlink/?linkid=854370). Robots qui sont développées à l’aide de cette infrastructure peuvent être facilement activés pour Microsoft Teams. Pour plus d’informations[Gérer les paramètres de Microsoft Teams pour votre organisation](enable-features-office-365.md).
+Les robots sont des programmes automatisés qui répondent aux requêtes ou fournissent des mises à jour et des notifications relatives aux détails que les utilisateurs trouvent intéressants ou veulent suivre. Les robots permettent aux utilisateurs d’interagir avec les services Cloud, par exemple, la gestion des tâches, la planification et l’interrogation, par le biais de conversations par messagerie instantanée dans Microsoft Teams. Les robots de Microsoft teams sont basés sur l' [infrastructure Microsoft bot](https://go.microsoft.com/fwlink/?linkid=854370). Les robots développés à l’aide de cette infrastructure peuvent être facilement activés pour Microsoft Teams. Pour plus d’informations[Gérer les paramètres de Microsoft Teams pour votre organisation](enable-features-office-365.md).
 
 Actuellement, Microsoft Teams prend en charge les bots dans les conversations et canaux privés dans une équipe. Les administrateurs peuvent contrôler l'autorisation ou l'interdiction de l'utilisation de bots dans le client Office 365.<span id="_T-Bot" class="anchor"></span>
 
@@ -34,8 +34,8 @@ Les bots développés par la communauté peuvent être utilisés dans Microsoft�
 
 Pour plus d'informations, reportez-vous à la section « Utilisation des bots » dans la rubrique [Applications et services](https://support.office.com/article/Apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b). 
 
-
-
+> [!IMPORTANT]
+> L’ajout d’un bot par le biais d’un GUID, qui n’a pas d’effet de test, n’est pas recommandé. Cela limite sérieusement la fonctionnalité d’un bot. Les robots en production doivent être ajoutés aux équipes dans le cadre d’une application. Voir [créer un bot](https://docs.microsoft.com/microsoftteams/platform/concepts/bots/bots-create) et [tester et déboguer votre bot Microsoft teams](https://docs.microsoft.com/microsoftteams/platform/concepts/bots/bots-test)
 
 <a name="create-custom-bots-for-microsoft-teams"></a>Création de bots personnalisés pour Microsoft Teams
 --------------------------------------
@@ -49,7 +49,7 @@ Les bots peuvent être testés à l'aide de l'[émulateur Bot Framework](https:/
 <a name="side-load-your-own-bot-for-private-chat"></a>Chargement de version test de votre propre bot pour une conversation privée
 ---------------------------------------
 
-1. Après avoir créé votre robot, les **Paramètres de l’Application** pour le composant WebBot que vous avez développé, puis sous **paramètres de l’application**, copiez la valeur du paramètre **MicrosoftAppId** . ![Page de paramètres de capture d’écran de l’Application pour un robot avec l’ID d’application de Microsoft en surbrillance.](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image5.png)
+1. Après avoir créé votre bot, accédez aux paramètres de l' **application** du robot que vous avez développé, puis sous paramètres de l' **application**, copiez la valeur du paramètre **MicrosoftAppId** . ![Capture d’écran de la page des paramètres d’application pour un bot avec l’ID de l’application Microsoft en surbrillance.](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image5.png)
 
 
 
@@ -59,19 +59,19 @@ Les bots peuvent être testés à l'aide de l'[émulateur Bot Framework](https:/
 
 3.  L'ID d'application sera converti en **nom de bot** et vous pourrez démarrer une conversation avec ce bot.
 
-<a name="side-load-your-bot-for-channels"></a>Côté charger votre robot pour les canaux
+<a name="side-load-your-bot-for-channels"></a>Chargement latéral de votre bot pour les canaux
 -----------------------------------
 
-Si vous souhaitez partager votre robot avec vos collègues, voici comment procéder pour l’ajouter à des canaux de différentes équipes :
+Si vous voulez partager votre bot avec vos collègues, vous pouvez l’ajouter à des canaux d’équipes différentes en procédant comme suit:
 
-1. Une fois que vous avez [créé un package d’application pour votre robot](https://docs.microsoft.com/microsoftteams/platform/concepts/apps/apps-upload), ouvrez équipes et accédez à l’équipe dans lequel vous allez être côté-chargement du robot.
-2. Ajoutez **[Studio d’application](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio)**, application aux équipes de Microsoft.
-3. Dans application Studio, sélectionnez l’onglet **Éditeur de manifeste** ![manifeste de capture d’écran onglet Éditeur.](media/Adding_Bot_To_Teams.png)
-4. Pour ajouter votre robot, fonctionnalités, sélectionnez robot et avez choisi d’ajouter un robot existant, puis vous avez la possibilité de choix d’un robot existant dans une liste déroulante ou entrez l’Id de l’un de vos composants WebBot existant.
-![Sélectionnez votre robot que vous avez déjà créé.](media/Select_Existing_Bot.png)
-5. Accédez à l’emplacement de votre package d’application, sélectionnez-le, puis cliquez sur **Ouvrir**.
-6. Sélectionnez le nom de votre robot (n’oubliez pas de case à cocher « D’équipe » dans la section étendue)
-7. Sélectionnez le Test et distribuer option.
-8. Sélectionnez l’équipe dont vous souhaitez vous connecter votre robot à dans la boîte de dialogue qui s’affiche.
+1. Une fois que vous avez [créé un package d’application pour votre bot](https://docs.microsoft.com/microsoftteams/platform/concepts/apps/apps-upload), ouvrez teams et naviguez jusqu’à l’équipe dans laquelle vous allez charger le robot.
+2. Ajoutez **[app Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio)**, l’application à Microsoft Teams.
+3. Dans App Studio, sélectionnez l’onglet **éditeur** de manifeste ![. capture d’écran de l’onglet Éditeur de manifeste.](media/Adding_Bot_To_Teams.png)
+4. Pour ajouter votre bot, dans capacités, sélectionnez bot et choisissez d’ajouter un bot existant, vous avez la possibilité de choisir un robot existant à partir d’une goutte ou d’entrer l’ID de l’un de vos robots existants.
+![Sélectionnez votre bot que vous avez déjà créé.](media/Select_Existing_Bot.png)
+5. Naviguez jusqu’à l’emplacement de votre package d’application, sélectionnez-le, puis cliquez sur **ouvrir**.
+6. Sélectionnez le nom de votre bot (n’oubliez pas de cocher la case "équipe" dans la section étendue)
+7. Sélectionnez l’option tester et distribuer.
+8. Dans la boîte de dialogue qui s’affiche, sélectionnez l’équipe dans laquelle vous voulez connecter votre bot.
 
-Dans ce cas, votre robot sera disponible dans l’équipe de votre Team Microsoft.
+Le robot sera alors disponible dans l’équipe de Microsoft Teams.

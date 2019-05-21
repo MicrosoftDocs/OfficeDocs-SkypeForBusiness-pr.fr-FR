@@ -1,27 +1,27 @@
 ---
-title: Rapport de performances du serveur dans Skype pour Business Server
+title: Rapport sur les performances du serveur dans Skype entreprise Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 942bb39a-1790-498e-9d99-8f6ce2d155c3
-description: 'Résumé : Découvrez le Server Performance Report dans Skype pour Business Server.'
-ms.openlocfilehash: a326af691d461d64f0dcbc1fe4f6451db9b34cdd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Résumé: en savoir plus sur le rapport sur les performances du serveur dans Skype entreprise Server.'
+ms.openlocfilehash: c2956910384c1e48fc9d38a9084bf1a4afe48539
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33887222"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279787"
 ---
-# <a name="server-performance-report-in-skype-for-business-server"></a>Rapport de performances du serveur dans Skype pour Business Server
+# <a name="server-performance-report-in-skype-for-business-server"></a>Rapport sur les performances du serveur dans Skype entreprise Server
  
-**Résumé :** Découvrez le Server Performance Report dans Skype pour Business Server.
+**Résumé:** En savoir plus sur le rapport sur les performances du serveur dans Skype entreprise Server.
   
-Server Performance Report fournit une liste de Skype pour les serveurs Business Server qui ont rencontré le plus fort pourcentage d’appels médiocres. Ce rapport est décomposé en fonction des types de serveur, et propose des statistiques distinctes pour les types suivants :
+Le rapport sur les performances du serveur fournit une liste de serveurs Skype entreprise Server ayant constaté le pourcentage le plus élevé d’appels médiocres. Ce rapport est décomposé en fonction des types de serveur, et propose des statistiques distinctes pour les types suivants :
   
 - Serveur de médiation
     
@@ -37,11 +37,11 @@ Server Performance Report fournit une liste de Skype pour les serveurs Business 
     
 - Partage d’application (y compris les mesures de partage d’application pour les serveurs de conférence A/V et les serveurs Edge A/V)
     
-Il est important de noter que le classement indiqué dans cet état en tant que classement respectif. Par exemple, supposons que le serveur ayant les pires performances a reçu un appel médiocre sur les 1 000 passés. Ce pourcentage de 0,1 est plus qu’acceptable. Cependant, s’il s’agit du serveur ayant les pires performances (c’est-à-dire que les autres serveurs ont un pourcentage d’appels médiocres inférieur à 0,1 %), ce serveur s’affichera dans le rapport de performances du serveur.
+Il est important de noter que le classement affiché dans ce rapport en tant que classements relatifs. Par exemple, supposons que le serveur ayant les pires performances a reçu un appel médiocre sur les 1 000 passés. Ce pourcentage de 0,1 est plus qu’acceptable. Cependant, s’il s’agit du serveur ayant les pires performances (c’est-à-dire que les autres serveurs ont un pourcentage d’appels médiocres inférieur à 0,1 %), ce serveur s’affichera dans le rapport de performances du serveur.
   
 ## <a name="accessing-the-server-performance-report"></a>Accès au rapport de performances du serveur
 
-Le rapport de performances du serveur est accessible à partir de la page d’accueil Rapports de surveillance. Vous pouvez accéder au [Rapport liste des appels dans Skype pour Business Server](call-list-report-0.md) en cliquant sur une des mesures suivantes :
+Le rapport de performances du serveur est accessible à partir de la page d’accueil Rapports de surveillance. Vous pouvez explorer le rapport de la [liste d’appels dans Skype entreprise Server](call-list-report-0.md) en cliquant sur l’une des mesures suivantes:
   
 - Volume d’appels
     
@@ -67,11 +67,11 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 |:-----|:-----|
 |**De** <br/> |Date/heure de début de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de début comme suit :  <br/> 07/07/2015 13:00  <br/> Si vous ne précisez aucune heure de début, le rapport commence automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 07/07/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 03/07/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
 |**À** <br/> |Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :  <br/> 07/07/2015 13:00  <br/> Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 07/07/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 03/07/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
-|**Type de serveur** <br/> |Indique le type de serveur dont les performances doivent être rapportées. Sélectionnez l’une des options suivantes :  <br/> [All] Serveur de médiation A / V Conferencing Server A / V Edge Server |
-|**N premiers** <br/> |Indique le nombre de serveurs (sur la base du pourcentage d’appels médiocres) à afficher dans chaque catégorie. Par exemple, si vous sélectionnez **5**, les cinq serveurs ayant les performances les plus médiocres sont affichés. Sélectionnez l’une des options suivantes :<br/> [All] 10 5 |
-|**Type d’accès** <br/> |Indique si le client était connecté au réseau interne ou au réseau externe au moment de passer l’appel. Sélectionnez l’une des options suivantes :  <br/> [All] Interne externe |
-|**Type de réseau** <br/> |Indique le type de réseau auquel le client était connecté au moment où l’appel a été émis. Sélectionnez l’une des options suivantes :  <br/> [All] Filaire et sans fil |
-|**VPN** <br/> |Indique si un client externe utilisait une connexion de réseau privé virtuel (VPN) au moment d’effectuer l’appel. Sélectionnez l’une des options suivantes :  <br/> [All] Non VPN VPN |
+|**Type de serveur** <br/> |Indique le type de serveur dont les performances doivent être rapportées. Sélectionnez l’une des options suivantes :  <br/> Ses Serveur de médiation serveur de conférence A/V Conferencing Server A/V Edge Server |
+|**N premiers** <br/> |Indique le nombre de serveurs (sur la base du pourcentage d’appels médiocres) à afficher dans chaque catégorie. Par exemple, si vous sélectionnez **5**, les cinq serveurs ayant les performances les plus médiocres sont affichés. Sélectionnez l’une des options suivantes :<br/> [Tous] 5 10 |
+|**Type d’accès** <br/> |Indique si le client était connecté au réseau interne ou au réseau externe au moment de passer l’appel. Sélectionnez l’une des options suivantes :  <br/> Ses Externes internes |
+|**Type de réseau** <br/> |Indique le type de réseau auquel le client était connecté au moment où l’appel a été émis. Sélectionnez l’une des options suivantes :  <br/> Ses Connexion filaire sans fil |
+|**VPN** <br/> |Indique si un client externe utilisait une connexion de réseau privé virtuel (VPN) au moment d’effectuer l’appel. Sélectionnez l’une des options suivantes :  <br/> Ses VPN non VPN |
    
 ## <a name="metrics"></a>Mesures
 
@@ -85,7 +85,7 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de per
 |**Volume d’appels** <br/> |Non  <br/> |Nombre total d’appels effectués.  <br/> |
 |**Pourcentage d’appels médiocres** <br/> |Non  <br/> |Nombre total d’appels jugés et classés comme étant médiocres. Un appel médiocre désigne un appel dont l’une des valeurs mesurées est supérieure à la valeur autorisée (par exemple, un appel soumis à un phénomène de gigue excessive).  <br/> |
 |**Boucle (ms)** <br/> |Oui  <br/> |Temps moyen (en millisecondes) nécessaire à un package RTP (Real-Time Transport Protocol) pour effectuer un aller-retour vers un autre point de terminaison. Des boucles de 100 millisecondes ou moins sont considérées qualitativement acceptables.  <br/> Des boucles de durée plus élevée peuvent être causées par le routage international des appels, une mauvaise configuration du routage ou un serveur multimédia surchargé. Les durées d’aller-retour élevées créent des difficultés dans le cadre de conversations audio bidirectionnelles réalisées en temps réel.  <br/> |
-|**Dégradation (MOS)** <br/> |Oui  <br/> |Taux moyen de dégradation de la note moyenne d’opinion (MOS) observé au cours d’un appel. Les valeurs de dégradation peuvent aller de 0,0 (la plus faible) à 5,0 (la plus élevée). Une valeur de 0,5 ou moins signifie une dégradation acceptable. Traditionnellement, les notes moyennes d’opinion sont calculées en demandant aux utilisateurs d’évaluer la qualité d’un appel sur une échelle de 1 à 5. Dans Skype pour Business Server, le serveur de surveillance utilise un ensemble d’algorithmes pour prévoir la façon dont les utilisateurs est comme un appel.  <br/> Les valeurs de dégradation élevées peuvent provenir d’une congestion, d’un dépassement de la bande passante disponible, d’une congestion/interférence dans la liaison sans fil ou bien d’un serveur multimédia ou d’un point de terminaison surchargé, ce qui se traduit par une distorsion ou une perte de l’audio.  <br/> |
+|**Dégradation (MOS)** <br/> |Oui  <br/> |Taux moyen de dégradation de la note moyenne d’opinion (MOS) observé au cours d’un appel. Les valeurs de dégradation peuvent aller de 0,0 (la plus faible) à 5,0 (la plus élevée). Une valeur de 0,5 ou moins signifie une dégradation acceptable. Traditionnellement, les notes moyennes d’opinion sont calculées en demandant aux utilisateurs d’évaluer la qualité d’un appel sur une échelle de 1 à 5. Dans Skype entreprise Server, le serveur de surveillance utilise un ensemble d’algorithmes pour prévoir la façon dont les utilisateurs auraient noté un appel.  <br/> Les valeurs de dégradation élevées peuvent provenir d’une congestion, d’un dépassement de la bande passante disponible, d’une congestion/interférence dans la liaison sans fil ou bien d’un serveur multimédia ou d’un point de terminaison surchargé, ce qui se traduit par une distorsion ou une perte de l’audio.  <br/> |
 |**Perte de paquets** <br/> |Oui  <br/> |Taux moyen de pertes de paquets RTP. (La perte de paquets survient lorsque des paquets RTP, protocole employé pour la transmission audio et vidéo sur Internet, n’atteignent pas leur point de destination.) Les valeurs de perte élevées peuvent provenir d’une congestion, d’un dépassement de la bande passante disponible, d’une congestion/interférence dans la liaison sans fil ou d’un serveur multimédia surchargé, ce qui se traduit par une distorsion ou une perte de l’audio.  <br/> |
 |**Gigue (ms)** <br/> |Oui  <br/> |Gigue moyenne détectée entre les arrivées de paquets RTP. (La gigue permet de mesurer les fluctuations d’un appel.) Les valeurs de gigue élevées peuvent provenir d’une congestion ou d’un serveur multimédia surchargé, ce qui se traduit par une distorsion ou une perte de l’audio.  <br/> |
 |**Taux de masquage de la réparation** <br/> |Oui  <br/> |Ratio moyen d’échantillons audio masqués par rapport au nombre total d’échantillons. (Un échantillon audio masqué est une technique employée pour adoucir les effets de transition violents généralement causés par des paquets réseau perdus.) Des valeurs élevées indiquent des niveaux importants de masquage des pertes appliqués suite à la perte de paquets ou des phénomènes de gigue. Elles se traduisent par une distorsion ou une perte de l’audio.  <br/> |
@@ -105,7 +105,7 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de per
 |**Vitesse de transmission moyenne (Kbit/s)** <br/> |Non  <br/> |Vitesse de transmission vidéo moyenne (en kilobits par seconde).  <br/> |
 |**Vitesse de transmission faible (%)** <br/> |Non  <br/> |Pourcentage de l’appel où la vitesse de transmission était faible.  <br/> |
 |**Perte de paquets sortante** <br/> |Non  <br/> |Perte de paquets RTP (Real-Time Transport Protocol) pour les paquets sortants. (La perte de paquets survient lorsque des paquets RTP, protocole employé pour la transmission audio et vidéo sur Internet, n’atteignent pas leur point de destination.) Les valeurs de perte élevées peuvent provenir d’une congestion, d’un dépassement de la bande passante disponible, d’une congestion/interférence dans la liaison sans fil ou d’un serveur multimédia surchargé, ce qui se traduit par une distorsion ou une perte de l’audio.  <br/> |
-|**Image figée (%)** <br/> |Non  <br/> |Pourcentage de trames « figer ». Dans une image figée, la vidéo cesse d’avancer tandis que la partie audio de l’appel continue.  <br/> |
+|**Image figée (%)** <br/> |Non  <br/> |Pourcentage de trames «figées». Dans une image figée, la vidéo cesse d’avancer tandis que la partie audio de l’appel continue.  <br/> |
 |**Fréquence d’images moyenne sortante** <br/> |Non  <br/> |Fréquence d’images moyenne pour les transmissions sortantes pendant l’appel.  <br/> |
 |**Fréquence d’images moyenne entrante** <br/> |Non  <br/> |Fréquence d’images moyenne pour les transmissions entrantes pendant l’appel.  <br/> |
 |**Fréquence d’images basse entrante (%)** <br/> |Non  <br/> |Pourcentage de l’appel où la vitesse de transmission pour la vidéo entrante était faible.  <br/> |

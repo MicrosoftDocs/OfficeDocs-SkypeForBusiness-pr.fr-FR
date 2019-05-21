@@ -5,29 +5,29 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/28/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1037909-0750-411a-98c1-3a327eed4ae8
-description: 'Résumé : Découvrez comment configurer des compléments pour les salles de conversation Persistent Chat Server Skype pour Business Server 2015.'
-ms.openlocfilehash: 146f05b181998f995b6e15b0717034a55f518d7f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Résumé: Découvrez comment configurer des compléments pour les salles de conversation serveur de chat permanent dans Skype entreprise Server 2015.'
+ms.openlocfilehash: 08e71ab989734572d9d44f0bdb42c01511e47f4c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33910255"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279325"
 ---
 # <a name="configure-add-ins-for-persistent-chat-rooms-in-skype-for-business-server-2015"></a>Configuration des compléments des salles de conversation permanente dans Skype Entreprise Server 2015
  
-**Résumé :** Découvrez comment configurer des compléments pour les salles de conversation Persistent Chat Server Skype pour Business Server 2015.
+**Résumé:** Découvrez comment configurer des compléments pour les salles de conversation serveur Chat permanent dans Skype entreprise Server 2015.
   
-Les compléments servent à étendre l’expérience dans la salle en associant des URL à des salles de conversation. Ces URL apparaissent dans le volet d’extensibilité de conversation client. Un complément typique peut contenir une URL pointant vers une application Silverlight qui intercepte lorsqu’un téléscripteur est publié dans une salle de conversation et affiche l’historique des actions dans le volet de l’extensibilité. En guise d’autre exemple, citons l’incorporation d’une URL OneNote 2013 dans la salle de conversation en tant que complément servant à inclure un contexte partagé, comme « Tête de liste » ou « Sujet du jour ».
+Les compléments servent à étendre l’expérience dans la salle en associant des URL à des salles de conversation. Ces URL apparaissent dans le volet d’extensibilité de conversation client. Un complément classique peut inclure une URL pointant vers une application Silverlight qui intercepte quand un code d’action est publié dans une salle de conversation et affiche l’historique des actions dans le volet extensibilité. En guise d’autre exemple, citons l’incorporation d’une URL OneNote 2013 dans la salle de conversation en tant que complément servant à inclure un contexte partagé, comme « Tête de liste » ou « Sujet du jour ».
   
  Avant que les utilisateurs puissent voir un complément dans le client, vous devez ajouter le complément à la liste des compléments enregistrés, et les responsables ou créateurs de salles de conversation doivent associer des salles au complément.
   
 > [!NOTE]
-> Conversation permanente est disponible dans Skype pour Business Server 2015, mais n’est plus pris en charge dans Skype pour Business Server 2019. La même fonctionnalité est disponible dans les équipes. Pour plus d’informations, voir [parcours de Skype pour les entreprises aux équipes de Microsoft](/microsoftteams/journey-skypeforbusiness-teams). Si vous devez utiliser la conversation permanente, vos choix est pour migrer les utilisateurs ayant besoin de cette fonctionnalité aux équipes, ou pour continuer à utiliser Skype pour Business Server 2015. 
+> La conversation permanente est disponible dans Skype entreprise Server 2015, mais n’est plus prise en charge dans Skype entreprise Server 2019. La même fonctionnalité est disponible dans Microsoft Teams. Pour plus d’informations, reportez-vous à la rubrique [voyage de Skype entreprise à Microsoft teams](/microsoftteams/journey-skypeforbusiness-teams). Si vous avez besoin d’utiliser la conversation permanente, vous pouvez migrer les utilisateurs qui ont besoin de cette fonctionnalité pour teams ou continuer à utiliser Skype entreprise Server 2015. 
 
 ## <a name="configure-add-ins-for-chat-rooms-by-using-the-control-panel"></a>Configurer des compléments pour les salles de conversation en utilisant le Panneau de configuration
 
@@ -35,15 +35,15 @@ Pour configurer compléments pour les salles de conversation en utilisant le Pan
   
 1. À partir d’un compte auquel le rôle CsPersistentChatAdministrator ou CsAdministrator est affecté, connectez-vous à n’importe quel un ordinateur de votre déploiement interne.
     
-2. Dans le menu **Démarrer** , sélectionnez le Skype pour le panneau de configuration serveur Business ou ouvrir une fenêtre de navigateur, puis entrez l’URL d’administration.
+2. Dans le menu **Démarrer** , sélectionnez le panneau de configuration Skype entreprise Server ou ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration.
     
 3. Dans la barre de navigation de gauche, cliquez sur **Conversation permanente**, puis sur **Complément**.
     
-    Pour les déploiements de plusieurs pools de serveurs de conversation permanente, sélectionnez le pool approprié dans la liste déroulante.
+    Dans la liste déroulante des déploiements de pools de serveurs de chat permanent, sélectionnez le pool approprié.
     
 4. Dans la page **Complément**, cliquez sur **Créer**.
     
-5. Dans **Sélectionner un Service**, sélectionnez le service correspondant au pool de serveurs de conversation permanente où vous avez besoin pour créer le complément. Les compléments ne peuvent pas être déplacés d’un pool vers un autre ou partagés entre les différents pools.
+5. Dans **Sélectionner un service**, sélectionnez le service correspondant au pool de serveurs de chat permanent pour lequel vous devez créer le complément. Les compléments ne peuvent pas être déplacés d’un pool vers un autre ou partagés entre les différents pools.
     
 6. Dans **Nouveau complément**, procédez comme suit :
     
@@ -67,9 +67,9 @@ Vous pouvez configurer des compléments pour les salles de conversation en utili
    
 ### <a name="create-a-new-add-in"></a>Créer un complément
 
-Vous pouvez créer un complément à l’aide de l’applet de commande **New-CsPersistentChatAddin** .
+Vous pouvez créer un nouveau complément à l’aide de l’applet **de nouvelle cmdlet New-CsPersistentChatAddin** .
   
-Par exemple, la commande suivante crée un nouveau complément (avec le nom ITPersistentChatAddin) pour le pool atl-cs-001.contoso.com. Le paramètre URL et la valeur du paramètre http://atl-cs-001.contoso.com/itchat spécifiez l’emplacement de la page de la macro complémentaire :
+Par exemple, la commande suivante crée un nouveau complément (avec le nom ITPersistentChatAddin) pour le pool atl-cs-001.contoso.com. Le paramètre URL et la valeur http://atl-cs-001.contoso.com/itchat de paramètre spécifient l’emplacement de la page Web du complément:
   
 ```
 New-CsPersistentChatAddin -Name "ITPersistentChatAddin" -PersistentChatPoolFqdn "atl-cs-001.contoso.com" -Url "http://atl-cs-001.contoso.com/itchat"
@@ -77,7 +77,7 @@ New-CsPersistentChatAddin -Name "ITPersistentChatAddin" -PersistentChatPoolFqdn 
 
 ### <a name="configure-settings-for-an-existing-add-in"></a>Configurer des paramètres pour un complément existant
 
-Vous pouvez configurer les paramètres d’un complément existant en utilisant l’applet de commande **Set-CsPersistentChatAddIn**. Par exemple, la commande suivante modifie l’URL affecté au complément Conversation permanente ITPersistentChatAddin. Dans ce cas, l’URL est remplacée parhttp://atl-cs-001.contoso.com/itchat2:
+Vous pouvez configurer les paramètres d’un complément existant en utilisant l’applet de commande **Set-CsPersistentChatAddIn**. Par exemple, la commande suivante modifie l’URL affecté au complément Conversation permanente ITPersistentChatAddin. Dans le cas présent, l’URL est remplacée parhttp://atl-cs-001.contoso.com/itchat2:
   
 ```
 Set-CsPersistentChatAddin -Identity "atl-cs-001.contoso.com\ITPersistentChatAddin" -Url "http://atl-cs-001.contoso.com/itchat2"
@@ -93,7 +93,7 @@ Get-CsPersistentChatAddin
 
 ### <a name="remove-an-add-in"></a>Supprimer un complément
 
-Vous pouvez supprimer un complément à l’aide de l’applet de commande **Remove-CsPersistentChatAddIn** . Par exemple, la commande suivante supprime le complément Conversation permanente ITChatAddin trouvé dans le pool atl-cs-001.contoso.com :
+Vous pouvez supprimer un complément à l’aide de l’applet de passe **Remove-CsPersistentChatAddIn** . Par exemple, la commande suivante supprime le complément Conversation permanente ITChatAddin trouvé dans le pool atl-cs-001.contoso.com :
   
 ```
 Remove-CsPersistentChatAddin -Identity "atl-cs-001.contoso.com\ITChatAddin"

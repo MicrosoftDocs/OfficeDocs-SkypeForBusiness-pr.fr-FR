@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.BranchOfficeApplianceScopeNode
@@ -12,19 +12,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8632ddaa-9572-4129-9db4-de0f13438d43
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Ce nœud affiche le nom de domaine complet (FQDN), associé à pools et des serveurs et des informations de résistance sur ce Survivable Branch Appliance. Vous pouvez effectuer les actions suivantes :'
-ms.openlocfilehash: 95e736bb9c49fdddfa960ae08d32431348257f8c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Ce nœud affiche le nom de domaine complet (FQDN), les pools et les serveurs associés, ainsi que des informations de résilience sur cette branche Survivable. Vous pouvez effectuer les actions suivantes :'
+ms.openlocfilehash: 0a3128a18fe663ecef040ef774c873c5e8bd1d07
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33916006"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34275898"
 ---
 # <a name="branch-office-appliance-scope-node"></a>Nœud d’étendue d’un Branch Office Appliance
  
-Ce nœud affiche le nom de domaine complet (FQDN), associé à pools et des serveurs et des informations de résistance sur ce Survivable Branch Appliance. Vous pouvez effectuer les actions suivantes :
+Ce nœud affiche le nom de domaine complet (FQDN), les pools et les serveurs associés, ainsi que des informations de résilience sur cette branche Survivable. Vous pouvez effectuer les actions suivantes :
   
-- **Modifier les propriétés** Ouvre la page **Modifier les propriétés** de ce Survivable Branch Appliance, où vous pouvez modifier le nom de domaine complet (si la topologie n’est pas déjà publiée), les associations et les paramètres de résistance.
+- **Modifier les propriétés** Ouvre la page **modifier les propriétés** pour cette branche Survivable, dans laquelle vous pouvez modifier le nom de domaine complet (si la topologie n’est pas déjà publiée), les associations et les paramètres de résilience.
     
 - **Supprimer** : supprime le serveur de la topologie.
     

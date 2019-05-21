@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/27/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.TrunkSettingsExpander
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3d00e8f4-e599-4094-a4a1-34fd6e8a5580
 description: 'Pour modifier les paramètres d’une jonction SIP, procédez comme suit :'
-ms.openlocfilehash: f36de72ee845f9e41f51a6982ef85de76bd8be55
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5b6c0384e2297f8bfd93ea493416fc7eea271033
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33906832"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34282216"
 ---
 # <a name="trunk-settings-expander"></a>Expanseur des paramètres de la jonction
 
@@ -32,17 +32,17 @@ Pour modifier les paramètres d’une jonction SIP, procédez comme suit :
 
  **Protocole de transport SIP** : le protocole utilisé est le protocole TCP ou le protocole TLS. Le protocole TLS est le protocole par défaut. Pour connaître la prise en charge de la passerelle, reportez-vous à la documentation du fournisseur de la passerelle. Le protocole par défaut, le protocole TLS, est un choix plus sécurisé si la passerelle le prend en charge.
 
- **Serveur de médiation associé**: sélectionnez un serveur de médiation existant dans le déploiement à associer à la jonction SIP.
+ **Serveur de médiation associé**: sélectionnez un serveur de médiation existant du déploiement à associer à la ligne SIP.
 
 > [!NOTE]
-> Seule une jonction racine peut être associée à un serveur de médiation Lync Server 2013 ou de Lync Server 2010.
+> Seule l’agrégation racine peut être associée à un serveur de médiation Lync Server 2010 ou Lync Server 2013.
 
- **Port du serveur de médiation associé**: valeur requise, il est défini par la valeur que le serveur de médiation est configuré pour écouter sur.
+ **Port du serveur de médiation associé**: une valeur requise, qui est définie sur la valeur sur laquelle le serveur de médiation est configuré pour l’écoute.
 
 ![Expanseur des paramètres de la jonction](../../media/Trunk_Settings_Expander.jpg)
 
 ## <a name="see-also"></a>Voir aussi
 
-[Liste de vérification du déploiement acheminement SIP](https://technet.microsoft.com/library/94f4f03e-19d5-4198-92be-e4076dbb959a.aspx)
+[Liste de vérification du déploiement SIP](https://technet.microsoft.com/library/94f4f03e-19d5-4198-92be-e4076dbb959a.aspx)
 
-[Composants et Topologies pour la jonction SIP](https://technet.microsoft.com/library/8ed9a9d0-517e-4f36-a131-22cdafa257fa.aspx)
+[Composants et topologies pour le trunking SIP](https://technet.microsoft.com/library/8ed9a9d0-517e-4f36-a131-22cdafa257fa.aspx)

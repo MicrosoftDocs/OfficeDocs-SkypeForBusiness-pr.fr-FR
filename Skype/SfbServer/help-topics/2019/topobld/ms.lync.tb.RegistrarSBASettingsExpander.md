@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.RegistrarSBASettingsExpander
@@ -12,26 +12,26 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 68ea1fc0-9cd1-4e0a-995e-b53845493477
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Modifier les paramètres de résilience et de configurer les propriétés suivantes :'
-ms.openlocfilehash: 48d5219d690a383ba46065a1287efbadcb455fef
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Vous modifiez les paramètres de résilience et configurez les propriétés suivantes:'
+ms.openlocfilehash: 03a8027caa63c8c4eb357048aae7c0e47b0f85c7
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919793"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34277859"
 ---
 # <a name="registrar-sba-settings-expander"></a>Expandeur des paramètres SBA du serveur d’inscriptions avancé
 
-Modifier les paramètres de **résilience** et de configurer les propriétés suivantes :
+Vous modifiez les paramètres de **résilience** et configurez les propriétés suivantes:
 
-- Sélectionnez le **pool de serveurs d’inscriptions de sauvegarde et de service utilisateur associé** dans la liste.
+- Dans la liste **, sélectionnez service d’utilisateurs associé et pool d’inscriptions de sauvegarde** .
 
-    Facultativement, activez la case à cocher **basculement automatique et restauration pour la voix** .
+    Vous pouvez également activer la case à cocher **basculement et retour automatique pour la voix** .
 
-    Configurer l' **intervalle de détection de panne voix (s)** et l' **intervalle de la restauration de voix (s)**. Par défaut, les intervalles sont 120 pour détecter une défaillance voix et 240 secondes pour la restauration automatique de la voix.
+    Configurer l' **intervalle de détection de panne vocale (s)** et l’intervalle de restauration de la **voix (s)**. Par défaut, les intervalles sont de 120 secondes pour la détection de la panne vocale et 240 secondes pour le rétablissement de la voix.
 
     > [!CAUTION]
-    > Le nombre de secondes que vous définissez pour les intervalles de basculement et de restauration doit être testé avec soin pour vous assurer que la résilience fonctionne comme prévu. Définir l’intervalle à faible (autrement dit, moins de 120 secondes) ou le basculement et la restauration définir trop près peuvent entraîner le basculement réel et la restauration automatique ne fonctionne ne pas comme prévu.
+    > Le nombre de secondes que vous définissez pour les intervalles de basculement et de restauration automatique doit être soigneusement testé pour s’assurer que la résilience fonctionne comme prévu. Le fait de définir l’intervalle sur faible (c’est-à-dire inférieur à 120 secondes), le basculement et la restauration automatique risquent de provoquer le basculement réel et le rétablissement ne fonctionne pas comme prévu.
 
   **OK** : permet d’accepter et de valider les modifications de la boîte de dialogue.
 
@@ -41,4 +41,4 @@ Modifier les paramètres de **résilience** et de configurer les propriétés su
 
 ## <a name="see-also"></a>Voir aussi
 
-[Planification de voix Entrerprise](https://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx)
+[Planification de la résilience vocale entreprise](https://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx)

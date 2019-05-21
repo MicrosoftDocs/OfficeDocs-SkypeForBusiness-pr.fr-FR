@@ -5,26 +5,26 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 1/31/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 24e36ea3-fb8a-45a4-b6b7-38c2e256b218
-description: 'Résumé : Découvrez comment configurer le service de conformité de serveur de conversation permanente dans Skype pour Business Server 2015.'
-ms.openlocfilehash: 07d1f69b6448dc215f97cffb96d5e86f1ab148be
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Résumé: Découvrez comment configurer le service de conformité permanent Chat Server dans Skype entreprise Server 2015.'
+ms.openlocfilehash: 81fcd9281efa0e897074ea154e9ae29a81aeb854
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33910395"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279311"
 ---
 # <a name="configure-the-compliance-service-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Configuration du service de conformité du serveur de conversation permanente dans Skype Entreprise Server 2015
 
-**Résumé :** Découvrez comment configurer le service de conformité de serveur de conversation permanente dans Skype pour Business Server 2015.
+**Résumé:** Apprenez à configurer le service de conformité du serveur Chat permanent dans Skype entreprise Server 2015.
 
-La conformité de conversation permanente permet aux administrateurs d’archiver les messages de conversation permanente, ainsi que les activités. Le service de conformité enregistre et archive les données relatives à chaque serveur de conversation permanente, y compris lorsqu’un participant :
+La conformité de conversation permanente permet aux administrateurs d’archiver les messages de conversation permanente, ainsi que les activités. Le service de conformité enregistre et archive les données relatives à chaque conversation du serveur de chat permanent, y compris le moment où un participant:
 
-- Rejoint une salle de conversation permanente
+- Rejoindre une salle de conversation permanente
 
 - Quitte une salle de conversation
 
@@ -39,7 +39,7 @@ La conformité de conversation permanente permet aux administrateurs d’archive
 Ces informations sont récupérables au besoin à partir de la base de données SQL de conformité. 
 
 > [!NOTE]
-> Conversation permanente est disponible dans Skype pour Business Server 2015, mais n’est plus pris en charge dans Skype pour Business Server 2019. La même fonctionnalité est disponible dans les équipes. Pour plus d’informations, voir [parcours de Skype pour les entreprises aux équipes de Microsoft](/microsoftteams/journey-skypeforbusiness-teams). Si vous devez utiliser la conversation permanente, vos choix est pour migrer les utilisateurs ayant besoin de cette fonctionnalité aux équipes, ou pour continuer à utiliser Skype pour Business Server 2015. 
+> La conversation permanente est disponible dans Skype entreprise Server 2015, mais n’est plus prise en charge dans Skype entreprise Server 2019. La même fonctionnalité est disponible dans Microsoft Teams. Pour plus d’informations, reportez-vous à la rubrique [voyage de Skype entreprise à Microsoft teams](/microsoftteams/journey-skypeforbusiness-teams). Si vous avez besoin d’utiliser la conversation permanente, vous pouvez migrer les utilisateurs qui ont besoin de cette fonctionnalité pour teams ou continuer à utiliser Skype entreprise Server 2015. 
 
 ## <a name="configure-the-compliance-service-by-using-windows-powershell"></a>Configurez le service de conformité à l’aide de Windows PowerShell
 
@@ -59,7 +59,7 @@ Vous pouvez définir les paramètres suivants :
 
 - AdapterType : permet de définir le type d’adaptateur. Un adaptateur est un produit tiers qui convertit les données dans la base de données de conformité dans un format spécifique. XML est le format par défaut.
 
-- OneChatRoomPerOutputFile - ce paramètre vous permet de spécifier que des rapports doivent être créés pour chaque salle de conversation.
+- OneChatRoomPerOutputFile-ce paramètre vous permet de spécifier la création de rapports séparés pour chaque salle de conversation.
 
 - AddChatRoomDetails : lorsque ce paramètre est activé, des détails supplémentaires sont enregistrés sur chaque salle de conversation dans la base de données. Comme ce paramètre peut considérablement augmenter la taille de la base de données, il est désactivé par défaut.
 
@@ -71,23 +71,23 @@ Vous pouvez définir les paramètres suivants :
 
 ## <a name="use-a-customized-compliance-adapter"></a>Utilisez un adaptateur de conformité personnalisé
 
-Vous pouvez écrire un adaptateur personnalisé au lieu d’utiliser XmlAdapter qui est installé avec le serveur de conversation permanente. Pour ce faire, vous devez fournir un assembly .NET Framework contenant une classe publique qui implémente l’interface **IComplianceAdapter**. Vous devez placer cet assembly dans le dossier d’installation de serveur de conversation permanente de chaque serveur dans votre pool de serveurs de conversation permanente. Chacun des serveurs de conformité peut fournir des données de conformité à votre adaptateur, mais ils ne délivrent aucun duplicata des données de conformité à plusieurs instances de votre adaptateur.
+Vous pouvez écrire un adaptateur personnalisé au lieu d’utiliser le XmlAdapter qui est installé avec le serveur de chat permanent. Pour ce faire, vous devez fournir un assembly .NET Framework contenant une classe publique qui implémente l’interface **IComplianceAdapter**. Dans le dossier d’installation serveur Chat permanent de chaque serveur dans votre pool de serveurs chat permanent, vous devez l’installer. Chacun des serveurs de conformité peut fournir des données de conformité à votre adaptateur, mais ils ne délivrent aucun duplicata des données de conformité à plusieurs instances de votre adaptateur.
 
-L’interface est définie dans l’assembly Compliance.dll dans l’espace de noms `Microsoft.Rtc.Internal.Chat.Server.Compliance`. Elle définit deux méthodes que votre adaptateur personnalisé doit implémenter.
+L’interface est définie dans l’espace de noms `Microsoft.Rtc.Internal.Chat.Server.Compliance`Compliance. dll. Elle définit deux méthodes que votre adaptateur personnalisé doit implémenter.
 
-Le serveur de conformité de conversation permanente appelle la méthode suivante lors du premier charge de la carte. Le `AdapterConfig` contient la configuration de conformité de conversation permanente correspondant à la carte de conformité :
+Le serveur de conformité des conversations permanent appelle la méthode suivante lors du premier chargement de la carte. Le `AdapterConfig` contient la configuration de compatibilité de conversation permanente pertinente pour la carte de conformité:
 
 ```
 void SetConfig(AdapterConfig config)
 ```
 
-Le serveur de conformité de conversation permanente appelle la méthode suivante à intervalles réguliers tant que nouvelles données à traduire. Cet intervalle de temps est égal à la `RunInterval` tels que définis dans la configuration de conformité de conversation permanente :
+Le serveur de conformité des conversations permanent appelle la méthode suivante à intervalles réguliers tant qu’il existe de nouvelles données à traduire. Cet intervalle de temps est égal à `RunInterval` celui défini dans la configuration de conformité des conversations permanentes:
 
 ```
 void Translate(ConversationCollection conversations)
 ```
 
-Le `ConversationCollection` contient les informations de conversation qui ont été collectées à partir de la dernière fois que cette méthode a été appelée.
+Le `ConversationCollection` contient les informations de conversation collectées à partir de la dernière fois que cette méthode a été appelée.
 
 ## <a name="customize-the-xslt-definition-file"></a>Personnaliser le fichier de définition XSLT
 
@@ -147,14 +147,14 @@ Chaque élément Sender contient cinq attributs : username, ID, email, internal
 |**Attribut**|**Description**|**Facultatif/obligatoire**|
 |:-----|:-----|:-----|
 |Nom d’utilisateur  <br/> |Nom de l’expéditeur.  <br/> |Facultatif  <br/> |
-|ID  <br/> |ID unique de. l’expéditeur  <br/> |Obligatoire  <br/> |
+|ID  <br/> |ID unique de l’expéditeur.  <br/> |Obligatoire  <br/> |
 |Email  <br/> |Adresse de messagerie de l’expéditeur.  <br/> |Facultatif  <br/> |
 |Interne  <br/> |Détermine si l’utilisateur est un utilisateur interne ou fédéré. Si la valeur est Vraie, l’utilisateur est interne.  <br/> |Facultatif  <br/> |
 |Uri  <br/> |URI SIP de l’utilisateur.  <br/> |Obligatoire  <br/> |
 
-Les exemples suivants montrent les types de messages que l’élément Messages peut contenir. Elle fournit également des exemples de la manière avec laquelle chaque élément est utilisé.
+Les exemples suivants illustrent les types de messages que l’élément message peut contenir. Elle fournit également des exemples de la manière avec laquelle chaque élément est utilisé.
 
-Jointure - un utilisateur rejoint une salle de conversation.
+Joindre-un utilisateur rejoint une salle de conversation.
 
 ```
 <Message type="JOIN" content="" id="0">
@@ -163,7 +163,7 @@ Jointure - un utilisateur rejoint une salle de conversation.
 </Message
 ```
 
-Composant - un utilisateur quitte une salle de conversation.
+Partie: un utilisateur quitte une salle de conversation.
 
 ```
 <Message type="PART" content="" id="0">
@@ -172,7 +172,7 @@ Composant - un utilisateur quitte une salle de conversation.
 </Message>
 ```
 
-Conversation - adresse de messagerie de l’expéditeur.
+Chat: adresse de messagerie de l’expéditeur.
 
 ```
 <Message type="CHAT" content="hello" id="1">
@@ -181,7 +181,7 @@ Conversation - adresse de messagerie de l’expéditeur.
 </Message>
 ```
 
-Sauvegarde de conversation - un utilisateur demande du contenu à partir de l’historique des conversations.
+Messagerie instantanée: un utilisateur demande du contenu à partir de l’historique des conversations.
 
 ```
 <Message type="BACKCHAT" content="backchatcontent" id="0">
@@ -190,7 +190,7 @@ Sauvegarde de conversation - un utilisateur demande du contenu à partir de l’
 </Message>
 ```
 
-Téléchargement de fichier - un utilisateur télécharge un fichier.
+Chargement de fichiers: un utilisateur charge un fichier.
 
 ```
 <Message type="FILEUPLOAD" content="0988239a-bb66-4616-90a4-b07771a2097c.txt" id="0">
@@ -199,7 +199,7 @@ Téléchargement de fichier - un utilisateur télécharge un fichier.
 </Message>
 ```
 
-Téléchargement de fichier - un utilisateur télécharge un fichier.
+Téléchargement de fichier-un utilisateur télécharge un fichier.
 
 ```
 <Message type="FILEDOWNLOAD" content="006074ca-24f0-4b35-8bd8-98006a2d1aa8.txt" id="0">
@@ -208,7 +208,7 @@ Téléchargement de fichier - un utilisateur télécharge un fichier.
 </Message>
 ```
 
-### <a name="default-persistent-chat-output-xsd-and-example-xsl-transform"></a>Conversation permanente sortie XSD et exemple de transformation XSL par défaut
+### <a name="default-persistent-chat-output-xsd-and-example-xsl-transform"></a>Conversion par défaut de la sortie de conversation permanente et transformation XSL
 
 L’exemple de code suivant contient la sortie par défaut du serveur de conformité :
 

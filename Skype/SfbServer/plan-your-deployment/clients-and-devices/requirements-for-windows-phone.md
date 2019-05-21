@@ -5,7 +5,7 @@ author: lanachin
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 12/20/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -14,26 +14,26 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: c4bc0e45-7877-466c-b187-2c35c851a98d
-description: 'Résumé : Passez en revue la configuration de périphérique du système client lors de la planification pour Skype pour Business Server.'
-ms.openlocfilehash: 47eab0a97a5615b8df32a51ab91dc2f0132fc42b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Résumé: Examinez la configuration système requise pour l’appareil client lors de la planification de Skype entreprise Server.'
+ms.openlocfilehash: 3e57646eb42ce3671ebe08ac6b6df9e6d179e367
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33886458"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34277299"
 ---
 # <a name="system-requirements-for-skype-for-business-for-windows-phone"></a>Configuration requise pour Skype Entreprise pour Windows Phone
  
  
-Microsoft Skype pour Business pour Windows Phone fournit la messagerie instantanée, présence enrichie et téléphonie aux utilisateurs de votre organisation qui sont connectent à partir d’un smartphone ou un appareil mobile Windows Professionnel. Les appareils mobiles permettent aux utilisateurs d’étendre la portée de Skype pour les entreprises. Cette rubrique décrit les considérations de planification pour Skype pour Business pour Windows Phone qui incluent l’identification des conditions préalables et les exigences techniques, les composants requis et déploiement.
+Microsoft Skype entreprise pour Windows Phone fournit des fonctionnalités de messagerie instantanée, de présence améliorée et de téléphonie pour les utilisateurs de votre organisation qui se connectent à partir d’un smartphone ou d’un appareil mobile Windows professionnel. Les appareils mobiles permettent aux utilisateurs de prolonger la portée de Skype entreprise. Cette rubrique décrit les considérations en matière de planification pour Skype entreprise pour Windows Phone qui incluent l’identification des éléments requis et des exigences techniques, des composants requis et des instructions de déploiement.
   
 ## <a name="skype-for-business-for-windows-phone-prerequisites"></a>Configuration requise pour Skype Entreprise pour Windows Phone
 
-Vous trouverez ci-dessous la Skype pour les composants requis Business pour Windows Phone.
+Vous trouverez ci-après les conditions préalables pour Skype entreprise pour Windows Phone.
   
 - Windows Phone 8.1 ou version ultérieure.
     
-- Les dernières mises à jour Microsoft doivent être installées sur l’appareil Windows Phone. Pour plus d’informations, consultez la section Windows Phone 8.1 à [Windows Phone 8 mise à jour de l’historique](https://go.microsoft.com/fwlink/p/?LinkID=281961).
+- Les dernières mises à jour Microsoft doivent être installées sur l’appareil Windows Phone. Pour plus d’informations, reportez-vous à la section Windows Phone 8,1 dans l' [historique des mises à jour Windows Phone 8](https://go.microsoft.com/fwlink/p/?LinkID=281961).
     
 - L’appareil doit disposer d’au moins 22 Mo d’espace disque disponible.
     

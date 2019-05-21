@@ -1,10 +1,10 @@
 ---
-title: Planification du contournement de média dans Skype pour les entreprises
+title: Plan de contournement de médias dans Skype entreprise
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,25 +13,25 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 9ea090b3-f607-46f7-97dd-2510052524e5
-description: Les décisions nécessaires à la planification pour le média de contournement dans Skype pour Business Server Enterprise Voice. Inclut l’interaction avec le contrôle d’admission des appels.
-ms.openlocfilehash: 11631fb92d8e1763bb4e7d090caf54385527c984
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Décisions nécessaires à la planification d’une dérivation multimédia dans Skype entreprise Server Voice. Inclut l’interaction avec le contrôle d’admission des appels.
+ms.openlocfilehash: 9db3d9aec6af0cccec951faa3b103d7660a6944b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924156"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34276704"
 ---
-# <a name="plan-for-media-bypass-in-skype-for-business"></a>Planification du contournement de média dans Skype pour les entreprises
+# <a name="plan-for-media-bypass-in-skype-for-business"></a>Plan de contournement de médias dans Skype entreprise
 
-Les décisions nécessaires à la planification pour le média de contournement dans Skype pour Business Server Enterprise Voice. Inclut l’interaction avec le contrôle d’admission des appels.
+Décisions nécessaires à la planification d’une dérivation multimédia dans Skype entreprise Server Voice. Inclut l’interaction avec le contrôle d’admission des appels.
 
-Le contournement de média fait référence à la suppression du serveur de médiation dans le chemin d’accès des médias autant que possible pour les appels dont la signalisation traverse le serveur de médiation.
+La dérivation multimédia désigne la suppression du serveur de médiation du chemin multimédia dans la mesure du possible pour les appels dont le signalement traverse le serveur de médiation.
 
-La déviation du trafic multimédia peut améliorer la qualité de la voix en diminuant la latence, les conversions inutiles, la perte de paquets possible et le nombre de points de défaillance éventuels. L’évolutivité peut être améliorée, car la suppression de supports de traitement pour les appels ignorés réduit la charge sur le serveur de médiation. Cette réduction de la charge complète de la capacité du serveur de médiation pour contrôler plusieurs passerelles.
+La déviation du trafic multimédia peut améliorer la qualité de la voix en diminuant la latence, les conversions inutiles, la perte de paquets possible et le nombre de points de défaillance éventuels. L’évolutivité peut être améliorée, car la suppression du traitement multimédia pour les appels ignorés réduit la charge sur le serveur de médiation. Cette réduction du chargement complète les fonctionnalités du serveur de médiation pour contrôler plusieurs passerelles.
 
- Lorsqu’un site de succursale sans un serveur de médiation est connecté à un site central par un ou plusieurs liaisons réseau étendu à bande passante restreinte, le contournement de média réduit les besoins en bande passante en autorisant le média à partir d’un client sur un site de succursale directement à la passerelle locale sans tout d’abord avoir flux WAN lier à un serveur de médiation sur le site central et sauvegarder.
+ Dans le cas où un site de succursale ne disposant pas d’un serveur de médiation est connecté à un site central par le biais d’une ou de plusieurs liaisons WAN avec une bande passante restreinte, le contournement de média diminue la bande passante en autorisant les contenus multimédias d’un client sur un site de succursale à circuler directement vers sa passerelle locale sans tout d’abord, le lien réseau étendu doit être transmis à un serveur de médiation sur le site central.
 
-En libérant le serveur de médiation du traitement multimédia, le contournement de média peut également réduire le nombre de serveurs de médiation qui requiert une infrastructure Enterprise Voice. En règle générale, essayez d’activer la déviation du trafic multimédia quand cela est possible.
+Le fait de soulager le serveur de médiation contre la transformation de média, le contournement de médias risque également de réduire le nombre de serveurs de médiation requis par une infrastructure vocale d’entreprise. En règle générale, essayez d’activer la déviation du trafic multimédia quand cela est possible.
 
 La figure suivante montre des médias de base et des voies de signalisation dans des topologies avec et sans déviation du trafic multimédia.
 
@@ -39,13 +39,13 @@ La figure suivante montre des médias de base et des voies de signalisation dans
 
 ![Application de connexion de contournement de média CAC vocal](../../media/Plan_CS_VoiceCAC_enforcementofconnectionstoPSTN.jpg)
 
-Le contournement de média est utile lorsque vous souhaitez réduire le nombre de serveurs de médiation déployés. En règle générale, un pool de serveurs de médiation sera déployé sur un site central, et il contrôle passerelles sur les sites de succursale. L’activation de la déviation du trafic multimédia permet aux médias de passer des appels PSTN (réseau téléphonique commuté) depuis des clients situés sur les sites de succursale directement par les passerelles de ces sites. Skype pour les stratégies Enterprise Voice et les itinéraires d’appels sortants Business Server doit être configuré correctement afin que les appels PSTN à partir de clients sur un site de succursale sont routés vers la passerelle appropriée.
+La dérivation de média est utile lorsque vous voulez réduire le nombre de serveurs de médiation déployés. En règle générale, un pool de serveurs de médiation est déployé sur un site central et contrôle les passerelles dans les sites de succursales. L’activation de la déviation du trafic multimédia permet aux médias de passer des appels PSTN (réseau téléphonique commuté) depuis des clients situés sur les sites de succursale directement par les passerelles de ces sites. Les itinéraires des appels sortants de Skype entreprise Server et les stratégies voix entreprise doivent être correctement configurés de sorte que les appels RTC de clients sur un site de succursale soient routés vers la passerelle appropriée.
 
 Les réseaux Wi-Fi subissent généralement plus de pertes de paquets que les réseaux câblés. La récupération de cette perte de paquets n’est habituellement pas très bien supportée par les passerelles. C’est pourquoi nous vous conseillons d’évaluer la qualité d’un réseau Wi-Fi avant de déterminer si le contournement doit être activé pour un sous-réseau sans fil. Il convient également de tenir compte d’un compromis entre diminution de la latence et récupération de perte de paquets. RTAudio, un codec disponible pour les appels qui ne contournent pas le serveur de médiation, convient davantage à la gestion de la perte de paquets.
 
 ## <a name="planning-your-media-bypass-deployment"></a>Planification de votre déploiement de contournement de média
 
-Une fois votre structure Enterprise Voice, la planification du contournement de média est simple.
+Une fois que votre structure vocale d’entreprise est en place, il est facile de planifier une dérivation multimédia.
 
 - Si vous avez une topologie centralisée sans liaison de réseau distant vers les sites de succursale, vous pouvez activer la déviation du trafic multimédia car il n’est pas nécessaire d’affiner le contrôle.
 
@@ -59,11 +59,11 @@ Une fois votre structure Enterprise Voice, la planification du contournement de 
 
 Lorsque vous activez la déviation du trafic multimédia, un ID unique de contournement est généré automatiquement pour une région réseau et pour tous les sites réseau sans restrictions de bande passante au sein de cette région. Les sites avec restrictions de bande passante dans la région et les sites connectés à la région sur les liaisons du réseau étendu se voient attribués à chacun un ID de contournement unique.
 
-Lorsqu’un utilisateur effectue un appel vers la passerelle PSTN, le serveur de médiation compare l’ID de contournement du sous-réseau client avec l’ID de contournement du sous-réseau passerelle. Si les deux ID de contournement concordent, la déviation du trafic multimédia est utilisée pour l’appel. Si le contournement de média ID ne correspondent pas, média pour l’appel doit passer par le serveur de médiation.
+Lorsqu’un utilisateur effectue un appel vers le RTC, le serveur de médiation compare l’ID de contournement du sous-réseau du client à l’ID de contournement du sous-réseau de la passerelle. Si les deux ID de contournement concordent, la déviation du trafic multimédia est utilisée pour l’appel. Si les ID de contournement ne correspondent pas, le média de l’appel doit être acheminé via le serveur de médiation.
 
-Lorsqu’un utilisateur reçoit un appel à partir de la passerelle PSTN, le client de l’utilisateur compare son ID de contournement à celle de la passerelle PSTN. Si les deux correspondance d’ID de contournement, les données multimédias transitent directement à partir de la passerelle pour le client, sans passer par le serveur de médiation.
+Lorsqu’un utilisateur reçoit un appel à partir du RTC, le client de l’utilisateur compare son ID de contournement à celui de la passerelle PSTN. Si les deux ID de contournement correspondent, les flux multimédias sont directement de la passerelle au client, en ignorant le serveur de médiation.
 
-Uniquement Lync 2010 ou plus récente des clients et périphériques prend en charge les interactions de déviation du trafic multimédia avec un serveur de médiation.
+Seuls Lync 2010 ou les clients et appareils plus récents prennent en charge les interactions de contournement de média avec un serveur de médiation.
 
 > [!IMPORTANT]
 > En plus d’autoriser la déviation du trafic multimédia global, vous devez autoriser la déviation du trafic multimédia individuellement sur chaque jonction PSTN. Si le contournement est autorisé globalement mais ne l’est pas pour une jonction PSTN donnée, la déviation du trafic multimédia ne sera appelée pour aucun appel impliquant cette jonction PSTN. En outre, lorsque la déviation du trafic multimédia est définie sur **Utiliser les informations de site et de région**, vous devez associer tous les sous-réseaux routables aux sites sur lesquels ils se situent. Si un site compte des sous-réseaux routables pour lesquels le contournement n’est pas souhaité, ces sous-réseaux devront être regroupés dans un nouveau site avant d’autoriser la déviation du trafic multimédia. Vous êtes ainsi assuré que les sous-réseaux non routables recevront un ID de contournement distinct.
@@ -90,7 +90,7 @@ La déviation du trafic multimédia et le contrôle d’admission des appels fon
 
 - La déviation du trafic multimédia et le contrôle d’admission des appels sont tous les deux activés. La déviation du trafic multimédia doit être définie sur **Utiliser les informations de site et de région**. Ces informations sont les mêmes que celles utilisées pour le contrôle d’admission des appels.
 
-    Si vous activez le contrôle d’admission des appels, vous ne pouvez pas sélectionner **Toujours ignorer** et inversement, car les deux configurations s’excluent mutuellement. C’est-à-dire, qu’une seule configuration s’appliquera à un appel PSTN donné. D’abord, une vérification a lieu pour déterminer si la déviation du trafic multimédia s’applique à l’appel. Si c’est le cas, le contrôle d’admission des appels n’est pas utilisé. Cela est logique, car si la déviation du trafic multimédia peut être appliquée à l’appel, celui-ci utilise par définition une connexion où le contrôle d’admission des appels n’est pas nécessaire. Si le contournement de média ne peut pas être appliqué à l’appel (autrement dit, si du client et la passerelle de contournement ID ne correspondent pas), puis CAC est appliquée à l’appel.
+    Si vous activez le contrôle d’admission des appels, vous ne pouvez pas sélectionner **Toujours ignorer** et inversement, car les deux configurations s’excluent mutuellement. C’est-à-dire, qu’une seule configuration s’appliquera à un appel PSTN donné. D’abord, une vérification a lieu pour déterminer si la déviation du trafic multimédia s’applique à l’appel. Si c’est le cas, le contrôle d’admission des appels n’est pas utilisé. Cela est logique, car si la déviation du trafic multimédia peut être appliquée à l’appel, celui-ci utilise par définition une connexion où le contrôle d’admission des appels n’est pas nécessaire. Si la contournement ne peut pas être appliquée à l’appel (c’est-à-dire si les ID de contournement du client et de la passerelle ne correspondent pas), le CAC est appliqué à l’appel.
 
 - Contrôle d’admission des appels non activé et déviation du trafic multimédia définie sur **Toujours ignorer**.
 
@@ -98,22 +98,22 @@ La déviation du trafic multimédia et le contrôle d’admission des appels fon
 
 - Contrôle d’admission des appels non activé et déviation du trafic multimédia définie sur **Utiliser les informations de site et de région**.
 
-    Lorsque **Utiliser les informations de site et de région** est activé, la vérification pour déterminer si le contournement doit s’appliquer fonctionne essentiellement de la même manière, que le contrôle d’admission des appels soit activé ou non. Autrement dit, pour un appel RTC donné, le sous-réseau du client est mappé sur un site particulier, et l’ID de contournement pour ce sous-réseau est extraite. De même, sous-réseau de la passerelle est mappé sur un site particulier, et l’ID de contournement pour ce sous-réseau est extraite. Le contournement aura lieu pour l’appel uniquement si les deux ID de contournement sont identiques. Si ce n’est pas le cas, la déviation du trafic multimédia n’aura pas lieu.
+    Lorsque **Utiliser les informations de site et de région** est activé, la vérification pour déterminer si le contournement doit s’appliquer fonctionne essentiellement de la même manière, que le contrôle d’admission des appels soit activé ou non. C’est-à-dire pour tout appel RTC donné, le sous-réseau du client est mappé à un site particulier et l’ID de contournement pour ce sous-réseau est extrait. De même, le sous-réseau de la passerelle est mappé à un site particulier et l’ID de contournement pour ce sous-réseau est extrait. Le contournement aura lieu pour l’appel uniquement si les deux ID de contournement sont identiques. Si ce n’est pas le cas, la déviation du trafic multimédia n’aura pas lieu.
 
-    Même si le contrôle d’admission des appels est désactivé globalement, la stratégie de bande passante doit être définie pour chaque site et liaison si vous voulez utiliser la configuration site-et-région pour décider d’appliquer le contournement ou non. La valeur réelle de la contrainte de bande passante ou son modalité n’a aucune importance. L’objectif est que le système calcule automatiquement différents ID de contournement à associer à différents emplacements qui ne sont pas correctement connectés. Définir une restriction de bande passante signifie par définition qu’une liaison n’est pas correctement connectée.
+    Même si le contrôle d’admission des appels est désactivé globalement, la stratégie de bande passante doit être définie pour chaque site et liaison si vous voulez utiliser la configuration site-et-région pour décider d’appliquer le contournement ou non. La valeur réelle de la contrainte de bande passante n’a pas d’importance. L’objectif est que le système calcule automatiquement différents ID de contournement à associer à différents emplacements qui ne sont pas correctement connectés. Définir une restriction de bande passante signifie par définition qu’une liaison n’est pas correctement connectée.
 
 - Le contrôle d’admission des appels est activé et la déviation du trafic multimédia n’est pas activée. Cela s’applique uniquement lorsque toutes les passerelles et les PBX IP ne sont pas correctement connectés ou ne remplissent pas toutes les conditions pour la déviation du trafic multimédia. Pour plus d’informations sur les conditions requises pour la déviation du trafic multimédia, reportez-vous à [Requirements for Media Bypass](https://technet.microsoft.com/library/6162a204-0e7c-460a-8eb2-e592c6590a8a.aspx).
 
 ## <a name="technical-requirements"></a>Configuration technique requise
 
-Pour chaque appel à la passerelle PSTN, le serveur de médiation détermine si les supports depuis la Skype pour le point de terminaison Business d’origine peuvent être envoyés directement à un homologue du serveur de médiation sans parcourir le serveur de médiation. L’homologue peut être une passerelle PSTN, un système IP-PBX ou un contrôleur SBC (Session Border Controller) pour un fournisseur de services de téléphonie Internet (ITSP) associé à la jonction entre le serveur de médiation où l’appel est routé.
+Pour chaque appel au RTC, le serveur de médiation détermine si les éléments multimédias du point de terminaison Skype entreprise de l’origine peuvent être envoyés directement à un homologue du serveur de médiation sans traverser le serveur de médiation. L’homologue peut être une passerelle PSTN, un système IP-PBX ou un contrôleur SBC (Session Border Controller) pour un fournisseur de services de téléphonie Internet (ITSP) associé à la jonction entre le serveur de médiation où l’appel est routé.
 
 La déviation du trafic multimédia peut être utilisée lorsque les conditions suivantes sont remplies :
 
-- Un homologue du serveur de médiation doit prendre en charge les fonctionnalités nécessaires pour le contournement de média, la plus importante en cours la possibilité de gérer plusieurs réponses dirigées (appelés « boîtes de dialogue préliminaires »). Contactez le fabricant de votre passerelle ou système PBX, ou votre fournisseur ITSP, pour obtenir la valeur du nombre maximal de boîtes de dialogue préliminaires que la passerelle, PBX ou SBC peut accepter.
+- Un homologue de serveur de médiation doit prendre en charge les fonctionnalités nécessaires à la dérivation de média multimédia, c’est la possibilité de gérer plusieurs réponses correspondantes (appelées «boîtes de dialogue précoce»). Contactez le fabricant de votre passerelle ou système PBX, ou votre fournisseur ITSP, pour obtenir la valeur du nombre maximal de boîtes de dialogue préliminaires que la passerelle, PBX ou SBC peut accepter.
 
-- L’homologue du serveur de médiation doit accepter le trafic multimédia directement à partir de Skype pour systèmes d’extrémité Business. ITSPs nombreux autoriser leur SBC recevoir le trafic uniquement à partir du serveur de médiation. Contactez votre fournisseur ITSP pour déterminer si son SBC accepte le trafic multimédia directement à partir de Skype pour systèmes d’extrémité Business.
+- Le serveur de médiation doit accepter le trafic multimédia directement depuis les points de terminaison Skype entreprise. De nombreux ITSPs permettent à l’SBC de recevoir le trafic uniquement à partir du serveur de médiation. Contactez votre ITSP pour déterminer si l’SBC accepte le trafic multimédia directement depuis les points de terminaison Skype entreprise.
 
-- Skype pour les clients d’entreprise et un serveur de médiation entre homologues doivent être bien connectés, ce qui signifie que qu’ils se trouvent soit dans la même région de réseau ou au réseau de sites qui se connectent à la région via des liaisons réseau étendu qui lie n’ont aucune contrainte de bande passante
+- Les clients Skype entreprise et un serveur de médiation doivent être bien connectés, ce qui signifie qu’ils se trouvent dans la même région réseau ou sur des sites réseau qui se connectent à la région sur des liens WAN sans contraintes de bande passante.
 
 

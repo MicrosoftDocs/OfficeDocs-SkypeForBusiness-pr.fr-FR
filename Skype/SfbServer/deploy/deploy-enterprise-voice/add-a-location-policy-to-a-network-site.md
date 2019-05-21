@@ -1,10 +1,10 @@
 ---
-title: Ajouter une stratégie d’emplacement à un site réseau dans Skype pour Business Server
+title: Ajouter une stratégie d’emplacement à un site réseau dans Skype entreprise Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,21 +13,21 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 43bfab8a-3d6b-4ca4-8425-879fd910502e
-description: Affecter des stratégies d’emplacement E9-1-1 aux sites du réseau dans Skype pour Business Server Enterprise Voice.
-ms.openlocfilehash: d30f9295b633ccfa7439e697931b13bd92b1cc0b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Attribuez des stratégies d’emplacement E9-1-1 aux sites réseau dans Skype entreprise Server Voice.
+ms.openlocfilehash: 3653811298e7ce5659d4d416798010b3ac427732
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893174"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306873"
 ---
-# <a name="add-a-location-policy-to-a-network-site-in-skype-for-business-server"></a>Ajouter une stratégie d’emplacement à un site réseau dans Skype pour Business Server
+# <a name="add-a-location-policy-to-a-network-site-in-skype-for-business-server"></a>Ajouter une stratégie d’emplacement à un site réseau dans Skype entreprise Server
  
-Affecter des stratégies d’emplacement E9-1-1 aux sites du réseau dans Skype pour Business Server Enterprise Voice. 
+Attribuez des stratégies d’emplacement E9-1-1 aux sites réseau dans Skype entreprise Server Voice. 
   
-Les exemples suivants montrent comment ajouter la stratégie d’emplacement **Redmond** définie dans les [stratégies d’emplacement créer Skype pour Business Server](create-location-policies.md) à un site réseau existant et comment créer un nouveau site réseau qui utilise la stratégie d’emplacement **Redmond** .
+Les exemples suivants montrent comment ajouter la stratégie d’emplacement de **Redmond** définie dans [créer des stratégies d’emplacement dans Skype entreprise Server](create-location-policies.md) à un site réseau existant et comment créer un site réseau qui utilise la politique de localisation de **Redmond** .
   
-Pour plus d’informations sur l’utilisation des sites réseau, voir la documentation de Lync Server Management Shell pour les applets de commande suivantes :
+Pour plus d’informations sur l’utilisation des sites réseau, voir la documentation Lync Server Management Shell pour les applets de commande suivantes:
   
 - **New-CsNetworkSite**
     
@@ -39,7 +39,7 @@ Pour plus d’informations sur l’utilisation des sites réseau, voir la docume
     
 ### <a name="to-assign-a-location-policy-to-an-existing-network-site"></a>Pour affecter une stratégie d’emplacement à un site réseau existant
 
-1. Démarrez le Skype pour Business Server Management Shell : cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Skype pour Business 2015**, puis cliquez sur **Skype pour Business Server Management Shell**.
+1. Démarrez Skype entreprise Server Management Shell: cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
     
 2. Exécutez les applets de commande suivantes pour modifier un site réseau existant.
     
@@ -51,7 +51,7 @@ Pour plus d’informations sur l’utilisation des sites réseau, voir la docume
 
 ### <a name="to-assign-a-location-policy-to-a-new-network-site"></a>Pour affecter une stratégie d’emplacement à un nouveau site réseau
 
-1. Démarrez le Skype pour Business Server Management Shell : cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Skype pour Business 2015**, puis cliquez sur **Skype pour Business Server Management Shell**.
+1. Démarrez Skype entreprise Server Management Shell: cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
     
 2. Exécutez l’applet de commande suivante pour créer un nouveau site réseau.
     

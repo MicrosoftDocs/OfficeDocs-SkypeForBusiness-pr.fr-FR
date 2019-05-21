@@ -1,25 +1,25 @@
 ---
-title: Créer une configuration d’archivage dans Skype pour Business Server
+title: Créer une configuration d’archivage dans Skype entreprise Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dc574afa-0b7d-404f-99b3-c812430b7c70
-description: 'Résumé : Découvrez comment créer une configuration d’archivage pour Skype pour Business Server.'
-ms.openlocfilehash: 3f20b763644f74b0b2265706d4190d27b28ddffd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Résumé: Découvrez comment créer une configuration d’archivage pour Skype entreprise Server.'
+ms.openlocfilehash: 58d817cea4c1caceff37bd132cd4f5a61445cdb0
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33885023"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286217"
 ---
-# <a name="create-an-archiving-configuration-in-skype-for-business-server"></a>Créer une configuration d’archivage dans Skype pour Business Server
+# <a name="create-an-archiving-configuration-in-skype-for-business-server"></a>Créer une configuration d’archivage dans Skype entreprise Server
 
-**Résumé :** Découvrez comment créer une configuration d’archivage pour Skype pour Business Server.
+**Résumé:** Découvrez comment créer une configuration d’archivage pour Skype entreprise Server.
   
 ## <a name="configure-archiving-options-by-using-the-control-panel"></a>Configurer les options d’archivage à l’aide du panneau de configuration
 
@@ -27,9 +27,9 @@ Pour configurer des options d’archivage pour un site ou un pool :
   
 1. À partir d’un compte d’utilisateur auquel est affecté un des rôles CsArchivingAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne. 
     
-2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business. 
+2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration Skype entreprise Server. 
     
-3. Dans la barre de navigation de gauche, cliquez sur **surveillance et archivage**, puis cliquez sur **Configuration de l’archivage**.
+3. Dans la barre de navigation gauche, cliquez sur **surveillance et archivage**, puis cliquez sur **configuration de l’archivage**.
     
 4. Dans la page **Configuration de l’archivage**, cliquez sur **Nouveau**, puis effectuez l’une des opérations suivantes : 
     
@@ -49,7 +49,7 @@ Pour configurer des options d’archivage pour un site ou un pool :
     
    - Pour bloquer toute activité si l’archivage n’est pas disponible, cochez la case **Bloquer les sessions de messagerie instantanée ou de conférence Web en cas d’échec de l’archivage**.
     
-   - Pour utiliser Microsoft Exchange Server pour stocker les données d’archivage, cliquez sur la case à cocher **intégration de Microsoft Exchange** .
+   - Pour utiliser Microsoft Exchange Server pour stocker des données d’archivage, activez la case à cocher **intégration Microsoft Exchange** .
     
    - Pour activer la fonctionnalité de vidage des données, cochez la case **Activer le vidage des données d’archivage**, puis effectuez l’une des opérations suivantes :
     
@@ -83,4 +83,4 @@ Vous pouvez modifier plusieurs valeurs de propriétés en incluant plusieurs par
 New-CsArchivingConfiguration -Identity "site:Redmond" -EnableArchiving "ImOnly" -BlockOnArchiveFailure $True
 ```
 
-Pour plus d’informations, consultez la rubrique d’aide pour l’applet de commande [New-CsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csarchivingconfiguration?view=skype-ps) .
+Pour plus d’informations, consultez la rubrique d’aide relative à l’applet de [nouvelle-CsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csarchivingconfiguration?view=skype-ps) .

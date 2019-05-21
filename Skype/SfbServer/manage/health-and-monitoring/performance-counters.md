@@ -1,34 +1,34 @@
 ---
-title: Compteurs de performances de mobilité dans Skype pour Business Server
+title: Compteurs de performance de mobilité dans Skype entreprise Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d18ed85a-673d-4695-aa3f-ac83a38ab90a
-description: 'Résumé : Découvrez les compteurs de performance que vous pouvez utiliser pour analyser les serveurs exécutant l’API de Web Communications (UCWA) unifiée et le Skype pour Service de mobilité Business Server Mcx.'
-ms.openlocfilehash: a529161b62cf47ad7666ace07cc2d030fc7922d2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Résumé: Découvrez les compteurs de performance que vous pouvez utiliser pour surveiller les serveurs exécutant l’API Unified Communications Web API (UCWA) et le service de mobilité Skype entreprise Server MCX.'
+ms.openlocfilehash: 91ca77b9719dc6b76ea9bb054856abf82bb3ebd4
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33897638"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279906"
 ---
-# <a name="mobility-performance-counters-in-skype-for-business-server"></a>Compteurs de performances de mobilité dans Skype pour Business Server
+# <a name="mobility-performance-counters-in-skype-for-business-server"></a>Compteurs de performance de mobilité dans Skype entreprise Server
  
-**Résumé :** Obtenir des informations sur les compteurs de performance que vous pouvez utiliser pour analyser les serveurs exécutant l’API de Web Communications (UCWA) unifiée et le Skype pour Service de mobilité Business Server Mcx.
+**Résumé:** Apprenez-en davantage sur les compteurs de performance que vous pouvez utiliser pour surveiller les serveurs exécutant l’API Unified Communications Web API (UCWA) et le service de mobilité Skype entreprise Server MCX.
   
-Les tableaux suivants répertorient les noms et descriptions des compteurs de performance que vous pouvez utiliser pour analyser les serveurs exécutant l’API de Web Communications (UCWA) unifiée et le Skype pour Service de mobilité Business Server Mcx. 
+Les tableaux suivants répertorient les noms et descriptions des compteurs de performance que vous pouvez utiliser pour surveiller les serveurs exécutant l’API Unified Communications Web API (UCWA) et le service de mobilité Skype entreprise Server MCX. 
   
-Le nom de catégorie pour les compteurs de la table UCWA est **LS:WEB - UCWA**.
+Le nom de la catégorie pour les compteurs dans la table UCWA est **ls: Web-UCWA**.
   
 Le nom de la catégorie pour les compteurs dans le tableau Service de mobilité Mcx est **LS:WEB - Mobile Communication Service**.
 
 > [!NOTE]
-> Prise en charge MCX (Service de mobilité) pour les clients mobiles hérités n’est plus disponible dans Skype pour Business Server 2019. Tous les Skype en cours pour les clients mobiles métiers utilisent déjà Unified Communications Web API (UCWA) pour prendre en charge la messagerie instantanée, présence et les contacts. Les utilisateurs avec les clients hérités MCX doivent mettre à niveau vers un client actuel.
+> La prise en charge de MCX (service de mobilité) pour les clients mobiles hérités n’est plus disponible dans Skype entreprise Server 2019. Tous les clients mobiles Skype entreprise actuels utilisent déjà UCWA (Unified Communications Web API) pour la prise en charge de la messagerie instantanée, de la présence et des contacts. Les utilisateurs des clients hérités utilisant MCX doivent effectuer une mise à niveau vers un client actuel.
   
 ## <a name="performance-counters-for-ucwa"></a>Compteurs de performances pour UCWA
 
@@ -60,7 +60,7 @@ Le nom de la catégorie pour les compteurs dans le tableau Service de mobilité 
 |Number of Active Directory Photo Get Failures  <br/> |Nombre d’échecs de récupération de photos du répertoire actif  <br/> |
 |Number of Contact Search failures  <br/> |Nombre total d’échecs de recherche de contacts dans Exchange  <br/> |
 |Number of Deserialization Failures  <br/> |Nombre total d’échecs de désérialisation  <br/> |
-|Nombre d’échecs de Get HD Photo  <br/> |Nombre total d’échecs de récupération de photos HD depuis Exchange  <br/> |
+|Nombre d’échecs de photo HD  <br/> |Nombre total d’échecs de récupération de photos HD depuis Exchange  <br/> |
 |Over The Maximum Subscriptions Per Application  <br/> |Nombre de requêtes d’abonnement dépassant le nombre maximal autorisé par application  <br/> |
 |Over The Maximum Subscriptions Per Batch  <br/> |Nombre de requêtes d’abonnement dépassant le nombre maximal autorisé par lot  <br/> |
 |Presence Subscription Failures  <br/> |Nombre d’échecs d’abonnement de présence  <br/> |
@@ -115,4 +115,4 @@ Le nom de la catégorie pour les compteurs dans le tableau Service de mobilité 
 |Nombre total d’appels vocaux sortants réussis  <br/> |Nombre total d’appels vocaux sortants ayant été réussis  <br/> |
    
 > [!NOTE]
-> Prise en charge MCX (Service de mobilité) pour les clients mobiles hérités n’est plus disponible dans Skype pour Business Server 2019. Tous les Skype en cours pour les clients mobiles métiers utilisent déjà Unified Communications Web API (UCWA) pour prendre en charge la messagerie instantanée, présence et les contacts. Les utilisateurs avec les clients hérités MCX doivent mettre à niveau vers un client actuel.
+> La prise en charge de MCX (service de mobilité) pour les clients mobiles hérités n’est plus disponible dans Skype entreprise Server 2019. Tous les clients mobiles Skype entreprise actuels utilisent déjà UCWA (Unified Communications Web API) pour la prise en charge de la messagerie instantanée, de la présence et des contacts. Les utilisateurs des clients hérités utilisant MCX doivent effectuer une mise à niveau vers un client actuel.

@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.EdgeSettingsExpander
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Pour modifier les paramètres d’un pool Edge de serveur unique ou de serveurs multiples, vous disposez des sections suivantes :'
-ms.openlocfilehash: 769633001beba3f4f982507155c788b8dd4896b7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 02ee1db9019e6a12b9c166cbb766e8a90ac55da2
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33910755"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34281233"
 ---
 # <a name="edge-settings-expander"></a>Expanseur des paramètres du pool de serveurs Edge
 
@@ -35,13 +35,13 @@ Pour modifier les paramètres d’un pool Edge de serveur unique ou de serveurs 
 
 Nom de domaine complet (FQDN) du pool interne pour le pool de serveurs Edge. Modifiez le nom de domaine complet du pool pour changer ce paramètre.
 
-Activez la case à cocher **Activer la fédération pour ce pool Edge (Port 5061)** si vous configurez une fédération avec un Skype pour serveur Business Server 2015.
+Activez la case à cocher **activer la Fédération pour ce pool Edge (Port 5061)** si vous configurez la Fédération avec un serveur 2015 de Skype entreprise Server.
 
 Spécifiez le numéro de port pour **Port de réplication de configuration interne (HTTPS)**.
 
 ## <a name="next-hop-selection-settings"></a>Paramètres de sélection du tronçon suivant
 
-Pour configurer ou modifier le **pool du tronçon suivant** utilisé par les serveurs Edge pour communiquer avec l’infrastructure interne, sélectionnez un directeur, un pool directeur, un serveur frontal ou un pool de serveurs frontaux dans la zone de liste déroulante. Seules les directeurs ou frontaux qui ont été configurés dans le Générateur de topologie s’affiche pour la sélection.
+Pour configurer ou modifier le **pool du tronçon suivant** utilisé par les serveurs Edge pour communiquer avec l’infrastructure interne, sélectionnez un directeur, un pool directeur, un serveur frontal ou un pool de serveurs frontaux dans la zone de liste déroulante. Seuls les directeurs ou les extrémités prédéfinis qui ont été configurés dans le générateur de topologie s’afficheront pour le choix.
 
 ## <a name="edge-server-configuration"></a>Configuration du serveur Edge
 

@@ -1,30 +1,30 @@
 ---
-title: Configurer le magasin de contacts personnels sur les ordinateurs clients de Lync 2010
+title: Configurer le magasin de contacts personnels sur les ordinateurs clients Lync 2010
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 1/29/2019
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ec69a6cb-07f2-4057-9544-55035f83eeae
-description: 'Résumé : Configurez le magasin de contacts personnel utilisé par les clients hérités.'
-ms.openlocfilehash: 5545f3c0f993b1974f59e90c0b6672f3ebd246e5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Résumé: configurez le magasin de contacts personnel utilisé par les clients hérités.'
+ms.openlocfilehash: ba9cb7ee485f94162a642f8e877213a7bcd47c55
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894259"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34278083"
 ---
-# <a name="configure-the-personal-contacts-store-on-lync-2010-client-computers"></a>Configurer le magasin de contacts personnels sur les ordinateurs clients de Lync 2010
+# <a name="configure-the-personal-contacts-store-on-lync-2010-client-computers"></a>Configurer le magasin de contacts personnels sur les ordinateurs clients Lync 2010
   
-Si vous intégrez Skype pour Business Server 2015 et Exchange Server 2016 ou Exchange Server 2013, vous devez configurer le magasin de contacts personnel utilisé par les clients. En particulier, vous devez configurer Skype pour les entreprises utilisent Exchange comme le magasin de contacts personnel et, en même temps, assurez-vous que les utilisateurs ne sont pas en mesure de remplacer cette décision. Vous pouvez faire cela en créant et en configurant une valeur Registre sur chaque ordinateur client.
+Si vous intégrez Skype entreprise Server 2015 et Exchange Server 2016 ou Exchange Server 2013, vous devez configurer le magasin de contacts personnel utilisé par les clients. Par exemple, vous devez configurer Skype entreprise pour qu’il utilise Exchange comme magasin de contacts personnel et, en même temps, veiller à ce que les utilisateurs ne puissent pas ignorer cette décision. Vous pouvez faire cela en créant et en configurant une valeur Registre sur chaque ordinateur client.
   
 > [!NOTE]
-> La procédure suivante n’est nécessaire pour les clients à l’aide du client Lync 2010 ou une version antérieure. Le client Lync 2013 et tous les Skype pour les clients d’entreprise n’aura pas la possibilité de remplacer les paramètres du magasin de contacts.
+> La procédure suivante est uniquement nécessaire pour les clients qui utilisent le client Lync 2010 ou une version antérieure. Le client Lync 2013 et tous les clients Skype entreprise n’ont pas la possibilité de remplacer les paramètres du magasin de contacts.
   
 Pour configurer cette valeur sur un ordinateur unique, procédez comme suit :
   
@@ -35,5 +35,5 @@ Pour configurer cette valeur sur un ordinateur unique, procédez comme suit :
 5. Une fois la nouvelle valeur créée, tapez PersonalContactStoreOverride, puis appuyez sur Entrée pour renommer la valeur.
 6. Vérifiez que la valeur de PersonalContactStoreOverride est définie sur 0, puis fermez l’Éditeur du Registre.
 
-Si vous devez effectuer le même changement sur plusieurs ordinateurs, vous pouvez le faire en créant un objet Stratégie de groupe personnalisé. Pour plus d’informations sur cette opération dans Windows 10, voir l’article [créer un objet de stratégie de groupe](https://docs.microsoft.com/windows/security/threat-protection/windows-firewall/create-a-group-policy-object) .
+Si vous devez effectuer le même changement sur plusieurs ordinateurs, vous pouvez le faire en créant un objet Stratégie de groupe personnalisé. Pour en savoir plus sur Windows 10, voir l’article [créer un objet de stratégie de groupe](https://docs.microsoft.com/windows/security/threat-protection/windows-firewall/create-a-group-policy-object) .
   

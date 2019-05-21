@@ -1,80 +1,80 @@
 ---
-title: Activation et désactivation du contournement de média
+title: Activation et désactivation de la contournement du contenu multimédia
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Utilisez les procédures décrites dans cet article pour activer ou désactiver le contournement de média à l’aide de la Skype pour le panneau de configuration serveur Business.
-ms.openlocfilehash: 57d0c601775861d948c950db4b429aca4d988da7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Suivez les procédures décrites dans cet article pour activer ou désactiver la contournement du contenu multimédia à l’aide du panneau de configuration Skype entreprise Server.
+ms.openlocfilehash: acfa963e71f3c3b89d0e79648d00871b1ab44616
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33888435"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279584"
 ---
 # <a name="enabling-and-disabling-media-bypass-in-skype-for-business-server"></a>Activation et désactivation du contournement de média dans Skype Entreprise Server
 
-Utilisez les procédures décrites dans cet article pour activer ou désactiver le contournement de média à l’aide de la Skype pour le panneau de configuration serveur Business.
+Suivez les procédures décrites dans cet article pour activer ou désactiver la contournement du contenu multimédia à l’aide du panneau de configuration Skype entreprise Server.
 
-## <a name="enable-network-media-bypass"></a>Activer le contournement de média réseau 
+## <a name="enable-network-media-bypass"></a>Activer la dérivation de média réseau 
 
-Paramètres de déviation du trafic multimédia s’appliquent globalement un Skype pour le déploiement de serveur d’entreprise. Le contournement de média autorise les appels à ignorer le serveur de médiation. Pour plus d’informations sur l’utilisation de Media contournement de média, voir [Plan pour le média de contournement](../../../plan-your-deployment/enterprise-voice-solution/media-bypass.md).
+Les paramètres de contournement de média s’appliquent à un déploiement global de Skype entreprise Server. Bypass Media accepte les appels pour ignorer le serveur de médiation. Pour plus d’informations sur l’utilisation du contournement du contenu multimédia, voir [planifier la dérivation de médias](../../../plan-your-deployment/enterprise-voice-solution/media-bypass.md).
 
-Vous pouvez activer et configurer le contournement de média à partir de la Skype pour le panneau de configuration serveur Business.
+Vous pouvez activer et configurer le contournement multimédia dans le panneau de configuration Skype entreprise Server.
 
 
-### <a name="to-enable-and-configure-media-bypass"></a>Pour activer et configurer le contournement de média
+### <a name="to-enable-and-configure-media-bypass"></a>Pour activer et configurer le contournement multimédia
 
-1.  À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou est affecté au rôle CsAdministrator, ouvrez une session sur n’importe quel ordinateur dans votre déploiement interne.
+1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affectées au rôle CsAdministrator, connectez-vous à n’importe quel ordinateur dans votre déploiement interne.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business. 
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration Skype entreprise Server. 
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Configuration réseau**, puis cliquez sur **Global**.
+3.  Dans la barre de navigation de gauche, cliquez sur **configuration du réseau**, puis sur **Global**.
 
-4.  Dans la page **globale** , cliquez sur la configuration **globale** . Il y a toujours qu’une seule configuration, et il est toujours nommé Global.
+4.  Dans la page **Global** , cliquez sur configuration **globale** . Il n’y a toujours qu’une seule configuration et elle est toujours nommée global.
 
-5.  Dans le menu **Edition** , cliquez sur **Afficher les détails**.
+5.  Dans le menu **édition** , cliquez sur **afficher les détails**.
 
-6.  Dans la page **Modifier la configuration globale** , cliquez sur la case à cocher **Activer le contournement de média** .
+6.  Dans la page **modifier le paramètre global** , activez la case à cocher **activer le contournement du contenu multimédia** .
 
-7.  Sélectionnez une des options suivantes :
+7.  Sélectionnez l’une des options suivantes:
     
-      - **Toujours contourner**   Sélectionnez cette option pour essayer de médias contournement de média sur tous les appels. Cette option n’est pas disponible si le contrôle d’admission des appels (CAC) est activé. Si CAC n’est pas activé, sélectionnez cette option dans les situations suivantes :
+      - **Toujours ignorer**   sélectionnez cette option pour essayer la dérivation multimédia sur tous les appels. Cette option n’est pas disponible si le contrôle d’admission des appels (CAC) est activé. Si le CAC n’est pas activé, sélectionnez cette option dans les situations suivantes:
         
-          - Il n’est pas nécessaire de contrôler la bande passante.
+          - Le contrôle de la bande passante n’est pas nécessaire.
         
-          - Il n’est pas nécessaire d’affiner la configuration déterminer si la déviation doit avoir lieu.
+          - Il n’est pas nécessaire de disposer d’une configuration précise pour déterminer le moment où un contournement se produit.
         
-          - Connectivité est complète entre passerelles et clients.
+          - Il existe une connectivité complète entre les passerelles et les clients.
     
-      - **Utiliser les sites et la configuration de la zone**   si CAC est activé, cette option est sélectionnée par défaut et ne peut pas être modifiée. Lorsque cette option est sélectionnée, sites de configuration réseau et les régions seront utilisées pour déterminer quand le contournement de média est possible. Si vous sélectionnez cette option, vous pouvez choisir d’activer le contournement de média pour les sites qui ne sont pas associés. Cliquez sur la case à cocher **Activer le contournement de média pour les sites non mappés** uniquement si vous avez un ou plusieurs sites de grande taille associés à la même région qui n’ont pas de contraintes de bande passante (par exemple, un site central volumineux) et vous avez également certains sites de succursale associés à la zone qui ont des contraintes de bande passante. Lorsque vous activez le contournement de média pour les sites non mappés, configuration est simple puisque vous spécifiez uniquement les sous-réseaux associés avec les sites de succursale, plutôt que d’avoir à spécifier tous les sous-réseaux associés à tous les sites. Il est recommandé que vous ne sélectionnez pas la case à cocher **Activer le contournement de média pour les sites non mappés** si CAC est activé.
+      - **Utiliser la configuration**   des sites et des régions si le CAC est activé, cette option est activée par défaut et ne peut pas être modifiée. Lorsque cette option est sélectionnée, les sites et les régions de configuration réseau sont utilisés pour déterminer à quel moment une dérivation de média est possible. Si vous sélectionnez cette option, vous pouvez choisir d’activer le contournement pour les sites qui ne sont pas mappés. Activez la case à cocher **activer le contournement pour les sites non mappés** uniquement si vous avez un ou plusieurs sites de grande taille associés à la même région qui n’ont pas de contraintes de bande passante (par exemple, un site central de grande taille) et si des sites de succursales sont également associés au même région qui comporte des contraintes de bande passante. Lorsque vous activez le contournement pour les sites non mappés, la configuration est simplifiée, car vous spécifiez uniquement les sous-réseaux associés aux sites de succursale plutôt que d’indiquer tous les sous-réseaux associés à tous les sites. Nous vous recommandons de ne pas activer la case à cocher **activer le contournement pour les sites non mappés** si le CAC est activé.
 
-8.  Cliquez sur **Valider** pour enregistrer vos modifications.
+8.  Cliquez sur **valider** pour enregistrer vos modifications.
 
 
 ## <a name="disable-network-media-bypass"></a>Désactiver le contournement de média réseau
 
-Paramètres de déviation du trafic multimédia s’appliquent globalement un Skype pour le déploiement de serveur d’entreprise. Le contournement de média autorise les appels à ignorer le serveur de médiation. Pour plus d’informations sur l’utilisation de Media contournement de média, voir [Plan pour le média de contournement](../../../plan-your-deployment/enterprise-voice-solution/media-bypass.md). Vous pouvez désactiver le contournement de média à partir de la Skype pour le panneau de configuration serveur Business. 
+Les paramètres de contournement de média s’appliquent à un déploiement global de Skype entreprise Server. Bypass Media accepte les appels pour ignorer le serveur de médiation. Pour plus d’informations sur l’utilisation du contournement du contenu multimédia, voir [planifier la dérivation de médias](../../../plan-your-deployment/enterprise-voice-solution/media-bypass.md). Vous pouvez désactiver la dérivation multimédia du panneau de configuration Skype entreprise Server. 
 
 
-### <a name="to-disable-media-bypass"></a>Pour désactiver le contournement de média
+### <a name="to-disable-media-bypass"></a>Pour désactiver la dérivation multimédia
 
-1.  À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou est affecté au rôle CsAdministrator, ouvrez une session sur n’importe quel ordinateur dans votre déploiement interne.
+1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affectées au rôle CsAdministrator, connectez-vous à n’importe quel ordinateur dans votre déploiement interne.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business. 
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration Skype entreprise Server. 
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Configuration réseau**, puis cliquez sur **Global**.
+3.  Dans la barre de navigation de gauche, cliquez sur **configuration du réseau**, puis sur **Global**.
 
-4.  Dans la page **globale** , cliquez sur la configuration **globale** . Il y a toujours qu’une seule configuration, et il est toujours nommé Global.
+4.  Dans la page **Global** , cliquez sur configuration **globale** . Il n’y a toujours qu’une seule configuration et elle est toujours nommée global.
 
-5.  Dans le menu **Edition** , cliquez sur **Afficher les détails**.
+5.  Dans le menu **édition** , cliquez sur **afficher les détails**.
 
-6.  Dans la page **Modifier la configuration globale** , désactivez la case à cocher **Activer le contournement de média** .
+6.  Dans la page **modifier le paramètre global** , décochez la case **activer le contournement multimédia** .
 
-7.  Cliquez sur **Valider** pour enregistrer vos modifications.
+7.  Cliquez sur **valider** pour enregistrer vos modifications.
 
   
