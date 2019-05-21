@@ -10,28 +10,28 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Setup
-description: Vous pouvez activer votre Skype pour les utilisateurs professionnels à utiliser le Skype pour l’outil de commentaires d’applications métiers intégrée pour permettre aux utilisateurs de signaler les problèmes et fournir des commentaires directement à Microsoft sur leur expérience.
-ms.openlocfilehash: f803c1fe88de564f8fb4870446ef6d1d1058a841
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Vous pouvez permettre aux utilisateurs de Skype entreprise d’utiliser l’outil de commentaires d’applications Skype entreprise intégré pour permettre aux utilisateurs de signaler les problèmes et de fournir des commentaires directement à Microsoft sur leur utilisation.
+ms.openlocfilehash: 052b7c3b801c05c361435392fa7086825faad755
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226670"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34284913"
 ---
 # <a name="turn-on-or-off-skype-for-business-client-feedback-reporting"></a>Activer ou désactiver les commentaires client sur Skype Entreprise
 
-Vous pouvez activer votre Skype pour les utilisateurs professionnels en ligne à utiliser le Skype pour l’outil de commentaires d’applications métiers intégrée pour permettre aux utilisateurs de signaler les problèmes et fournir des commentaires directement à Microsoft sur leur expérience. 
+Vous pouvez permettre aux utilisateurs de Skype entreprise Online d’utiliser l’outil de commentaires d’applications Skype entreprise intégré pour permettre aux utilisateurs de signaler les problèmes et de fournir des commentaires directement à Microsoft sur leur utilisation. 
   
 ![Skype for Business client reporting.](../images/eac13837-04d9-4da1-8e80-54612cf6650d.png)
   
-À l’aide de cet outil, un utilisateur peut copier les journaux de l’application sur leur appareil pour permettre à Microsoft de mieux étudier et résoudre les problèmes qu’ils pourraient avoir. 
+À l’aide de cet outil, un utilisateur peut copier les journaux de l’application sur leur périphérique afin d’aider Microsoft à examiner et résoudre les problèmes qu’ils peuvent rencontrer. 
   
 ![Skype for Business client reporting.](../images/2dfb5603-1d69-41fc-a43e-91a3379acbe0.png)
   
@@ -40,7 +40,7 @@ Vous pouvez également utiliser le paramètre  _EnableOnlineFeedbackScreenshot_,
 ![Skype for Business client reporting form.](../images/d859578d-8116-4d4b-a08f-c0cae28b8b76.png)
   
 > [!IMPORTANT]
-> Seront stockés les journaux collectées par l’outil de commentaires de l’application pour un maximum de 90 jours aux États-Unis pendant le problème est en cours d’étude. Pour cette raison, n'activez pas cet outil de commentaires si cela enfreint la politique de protection des données de votre organisation. 
+> Les journaux collectés par l’outil de commentaires de l’application seront stockés pour un maximum de 90 jours aux États-Unis pendant que le problème est examiné. Pour cette raison, n'activez pas cet outil de commentaires si cela enfreint la politique de protection des données de votre organisation. 
   
 ## <a name="verify-and-start-windows-powershell"></a>Vérifier et démarrer Windows PowerShell
 
@@ -71,11 +71,11 @@ Pour en savoir plus, voir [Se connecter à tous les services Office 365 dans une
     $session = New-CsOnlineSession -Credential $credential
     Import-PSSession $session
    ```
-   Si vous souhaitez plus d’informations sur le démarrage de Windows PowerShell, voir [se connecter à tous les services Office 365 dans une seule fenêtre Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) ou[configurer votre ordinateur pour Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
+   Pour plus d’informations sur le démarrage de Windows PowerShell, voir [se connecter à tous les services Office 365 dans une seule fenêtre Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) ou[configurer votre ordinateur pour Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
     
 ## <a name="turn-on-client-app-feedback-reporting-for-all-the-users-in-your-organization"></a>Activer l'outil de commentaires client de l'application pour tous les utilisateurs au sein de votre organisation
 
-Pour activer les commentaires de création de rapports pour les utilisateurs de votre organisation et les autoriser à soumettre des captures d’écran de périphérique, exécutez :
+Pour activer le rapport de commentaires pour les utilisateurs de votre organisation et leur permettre d’envoyer des captures d’écran de l’appareil, exécutez:
  
   ```
   Set-CsClientPolicy -Identity EnableOnlineFeedback -EnableOnlineFeedback $true -EnableOnlineFeedbackScreenshots $true

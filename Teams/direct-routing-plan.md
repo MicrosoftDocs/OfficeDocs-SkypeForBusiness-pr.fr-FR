@@ -3,7 +3,7 @@ title: Planifier le routage direct
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.reviewer: NMuravlyannikov
 ms.topic: conceptual
 ms.service: msteams
@@ -14,170 +14,170 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-description: Lisez cette rubrique pour savoir comment Microsoft Phone System Direct routage vous permet de connecter une prise en charge, fournie par le client Session contrôleur périphérie (SBC) au système téléphonique de Microsoft.
-ms.openlocfilehash: 3ed03225105e7c265687d6659cb98d162da85f91
-ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
+description: Consultez cette rubrique pour découvrir comment le routage direct du système Microsoft Phone vous permet de connecter un contrôleur de bordure de session pris en charge par le client (SBC) au système Microsoft Phone.
+ms.openlocfilehash: 31f7723a98a1a94089dec74cda776ea30e09c014
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2019
-ms.locfileid: "33632209"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290385"
 ---
 # <a name="plan-direct-routing"></a>Planifier le routage direct
 
 > [!Tip]
-> Regarder la session suivante pour en savoir plus sur les avantages de Direct routage, comment planifier et comment le déployer : [Routage Direct dans les équipes Microsoft](https://aka.ms/teams-direct-routing)
+> Regardez la session suivante pour en savoir plus sur les avantages du routage direct, la planification et le déploiement: [routage direct dans Microsoft teams](https://aka.ms/teams-direct-routing)
 
-Routage Direct de Microsoft Phone système vous permet de connecter une prise en charge, fournie par le client Session contrôleur périphérie (SBC) au système téléphonique de Microsoft.  Avec cette fonctionnalité, par exemple, vous pouvez configurer une connectivité PSTN sur site avec le client Microsoft Teams, comme illustré dans le diagramme suivant : 
+Le routage direct du système Microsoft Phone vous permet de connecter un contrôleur de bordure de session (SBC) fourni par le client au système Microsoft Phone.  Grâce à cette fonctionnalité, vous pouvez par exemple configurer une connectivité PSTN locale avec le client Microsoft Teams, comme illustré dans le schéma suivant: 
 
-![Affiche la configuration d’une connectivité PSTN sur site avec le client Microsoft Teams](media/PlanDirectRouting1-PSTNwithTeams.png)
+![Décrit la configuration de la connectivité PSTN locale avec le client Microsoft teams](media/PlanDirectRouting1-PSTNwithTeams.png)
 
   > [!NOTE]
-  > Skype pour Business Online vous permet également de paire un SBC fournie par le client, mais cela nécessite une Skype sur site pour le déploiement de serveurs d’entreprise ou Édition spéciale de Skype pour les entreprises, appelé connecteur sur le nuage, entre le contrôleur SBC et le Cloud Microsoft. Ce scénario est appelé voix hybride. En revanche, le routage Direct permet une connexion directe entre le contrôleur SBC pris en charge et le Cloud Microsoft. 
+  > Skype entreprise Online vous permet également de jumeler une SBC fournie par l’utilisateur, mais cela nécessite un déploiement sur site de Skype entreprise Server ou une édition spéciale de Skype entreprise, appelée Cloud Connector, entre SBC et Microsoft Cloud. Ce scénario est connu sous le nom de voix hybride. En revanche, le routage direct autorise une connexion directe entre SBC et Microsoft Cloud. 
 
-Avec le routage Direct, vous pouvez connecter votre contrôleur SBC quasiment n’importe quel jonction de téléphonie ou interconnect avec des équipements tiers-Public réseau de téléphonique commuté (RTC). Routage direct vous permet de : 
+Grâce au routage direct, vous pouvez connecter votre SBC à presque n’importe quel réseau téléphonique commuté (PSTN) ou interconnecter à votre interlocuteur. Le routage direct vous permet d’effectuer les opérations suivantes: 
 
-- Utilisez n’importe quel jonction PSTN avec système téléphonique de Microsoft. 
-- Configurer l’interopérabilité entre les équipements appartenant à un client de téléphonie, comme un tiers autocommutateur privé (PBX), les périphériques analogiques et système téléphonique de Microsoft.
+- Utilisez virtuellement n’importe quel Trunk RTC avec un système Microsoft Phone. 
+- Configurer l’interopérabilité entre les équipements de téléphonie qui appartiennent au client, tels qu’un système PBX tiers, des appareils analogiques et un système Microsoft Phone.
 
-Microsoft propose également des solutions voix tout-en nuage, tels que l’appel de la planification.  Toutefois, une solution de voix hybride peut être adaptée à votre organisation si : 
+Microsoft propose également une solution vocale tout-en-un, comme un forfait d’appels.  Toutefois, une solution vocale hybride peut s’avérer particulièrement adaptée à votre organisation dans les cas suivants: 
 
-- Appel de Plan de Microsoft n’est pas disponible dans votre pays. 
-- Votre organisation nécessite une connexion à des périphériques analogiques tiers, centres d’appel et ainsi de suite. 
-- Votre organisation dispose d’un contrat existant avec un opérateur RTC.
+- Le plan d’appel Microsoft n’est pas disponible dans votre pays. 
+- Votre organisation nécessite une connexion à des appareils analogiques tiers, des centres d’appels, etc. 
+- Votre organisation dispose d’un contrat avec un opérateur PSTN.
 
-Routage direct prend également en charge les utilisateurs qui disposent de la licence supplémentaire pour le Plan d’appel de Microsoft. Pour plus d’informations, voir le [système téléphonique et Plans de l’appel](calling-plan-landing-page.md). 
+Le routage direct prend également en charge les utilisateurs dotés de la licence supplémentaire pour le forfait d’appel Microsoft. Pour plus d’informations, consultez la section [système téléphonique et forfaits d’appels](calling-plan-landing-page.md). 
 
-Avec le routage Direct, lorsque les utilisateurs participent à une conférence planifiée, le numéro d’accès est fourni par le service de conférence Microsoft, ce qui nécessite la gestion des licences approprié.  Pour les appels sortants, le service de conférence Microsoft passe l’appel en utilisant les fonctions d’appel en ligne, ce qui nécessite la gestion des licences approprié. (Notez que la connexion n’est pas réacheminé par le biais de routage Direct). Pour plus d’informations, voir [Les réunions en ligne avec des équipes](https://products.office.com/microsoft-teams/online-meeting-solutions). 
+Lorsque les utilisateurs participent à une conférence planifiée, le numéro d’accès est fourni par le service de conférence rendez-vous de Microsoft, qui nécessite des licences appropriées.  Lors d’un appel sortant, le service de conférence rendez-vous de Microsoft passe l’appel à l’aide des fonctionnalités d’appel en ligne, qui nécessitent une gestion appropriée des licences. (Notez que la numérotation n’est pas routée via le routage direct.) Pour plus d’informations, reportez-vous à la rubrique [réunions en ligne avec teams](https://products.office.com/microsoft-teams/online-meeting-solutions). 
  
-Planification de votre déploiement de routage Direct est une implémentation réussie. Cet article décrit l’infrastructure et des conditions de licence et fournit des informations sur la connectivité SBC : 
+La planification de votre déploiement du routage direct est essentiel pour une implémentation réussie. Cet article décrit les exigences en matière d’infrastructure et de gestion des licences et fournit des informations sur la connectivité SBC: 
 
 - [Conditions requises pour l'infrastructure](#infrastructure-requirements)
-- [Gestion des licences et autres composants requis](#licensing-and-other-requirements)
+- [Gestion des licences et autres conditions requises](#licensing-and-other-requirements)
 - [Noms de domaine SBC](#sbc-domain-names)
-- [Certificat de confiance public pour le contrôleur SBC](#public-trusted-certificate-for-the-sbc)
-- [Signalisation SIP : Noms de domaine complets et les ports du pare-feu](#sip-signaling-fqdns-and-firewall-ports)
-- [Le trafic multimédia : plages de ports](#media-traffic-port-ranges)
-- [SBC pris en charge](#supported-session-border-controllers-sbcs)
+- [Certificat de confiance public pour l’SBC](#public-trusted-certificate-for-the-sbc)
+- [Signalisation SIP: FQDN et ports de pare-feu](#sip-signaling-fqdns-and-firewall-ports)
+- [Trafic multimédia: plages de ports](#media-traffic-port-ranges)
+- [SBCs prises en charge](#supported-session-border-controllers-sbcs)
 
-Pour plus d’informations sur la configuration de routage Direct, consultez [Configurer le routage Direct](direct-routing-configure.md).
+Pour plus d’informations sur la configuration du routage direct, voir [configurer le routage direct](direct-routing-configure.md).
 
 ## <a name="infrastructure-requirements"></a>Conditions d’infrastructure requises
-Exigences d’infrastructure pour le SBCs pris en charge, les domaines et les autres exigences de connectivité réseau pour déployer le routage Direct sont répertoriées dans le tableau suivant :  
+Les exigences d’infrastructure pour les domaines SBCs et de connectivité réseau pris en charge pour le déploiement du routage direct sont indiquées dans le tableau suivant:  
 
-|**Spécification de l’infrastructure**|**Vous devez les éléments suivants**|
+|**Exigence d’infrastructure**|**Vous avez besoin des éléments suivants:**|
 |:--- |:--- |
-|Contrôleur de session en périphérie (SBC)|Un SBC pris en charge. Pour plus d’informations, voir [SBCs pris en charge](#supported-session-border-controllers-sbcs).|
-|Le contrôleur SBC connecté jonctions de téléphonie|Une ou plusieurs jonctions téléphonie connectés pour le contrôleur SBC. À une extrémité, le contrôleur SBC se connecte au système téléphonique Microsoft via le routage Direct. Le contrôleur SBC permettre également se connecter à des entités de téléphonie tiers, telles que les systèmes PBX, cartes de téléphonie analogique et ainsi de suite. Toute option de connectivité PSTN le contrôleur SBC connectée ne fonctionne pas. (Remarque : pour la configuration des jonctions PSTN à SBC, veuillez consulter le fournisseurs SBC ou les fournisseurs de jonction.)|
-|Client Office 365|Client Office 365 que vous utilisez pour héberger des utilisateurs Microsoft Teams et la configuration et la connexion pour le contrôleur SBC.|
-|Serveurs d’inscriptions de l’utilisateur|Utilisateur doit être hébergé dans Office 365.<br/>Si votre société possède une Skype local pour un environnement Lync ou de l’entreprise avec connectivité hybride à Office 365, vous ne pouvez pas activer voice dans les équipes pour un utilisateur hébergé sur site.<br/><br/>Pour vérifier le serveur d’inscriptions d’un utilisateur, utilisez la Skype suivante pour l’applet de commande PowerShell en ligne d’entreprise :<br/><code>Get-CsOnlineUser -Identity \<user> \| fl HostingProvider</code> <br/><br/>Le résultat de l’applet de commande doit s’afficher :<br/><code>HostingProvider : sipfed.online.lync.com</code>|
-|Domaines|Un ou plusieurs domaines ajoutés à vos clients d’Office 365.<br/><br/>**Remarque :** Vous ne pouvez pas utiliser le domaine par défaut, *. onmicrosoft.com, qui est automatiquement créée pour votre client.<br/><br/>Pour afficher les domaines, vous pouvez utiliser la Skype suivante pour l’applet de commande PowerShell Online Business :<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>Pour plus d’informations sur les domaines et les clients Office 365, voir [Le Forum aux questions sur les domaines](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a).|
-|Adresse IP publique pour le contrôleur SBC|Une adresse IP publique qui peut être utilisée pour se connecter à la SBC. En fonction du type de SBC, le contrôleur SBC peut utiliser NAT.|
-|Nom de domaine complet (FQDN) pour le contrôleur SBC|Un nom de domaine complet du contrôleur SBC, où la partie domaine de nom de domaine complet est un des domaines de votre client Office 365. Pour plus d’informations, voir [les noms de domaine SBC](#sbc-domain-names).|
-|Publique entrée DNS pour le contrôleur SBC |Une entrée DNS publique le FQDN SBC à mapper sur l’adresse IP publique. |
-|Certificat de confiance public pour le contrôleur SBC |Un certificat pour le contrôleur SBC à utiliser pour toutes les communications avec le routage Direct. Pour plus d’informations, consultez la rubrique [Public certificat approuvé pour le contrôleur SBC](#public-trusted-certificate-for-the-sbc).|
-|Points de connexion pour le routage Direct |Les points de connexion pour le routage Direct sont les noms de domaine trois complets suivants :<br/><br/>`sip.pstnhub.microsoft.com`– Nom de domaine complet global, doit être tenté en premier.<br/>`sip2.pstnhub.microsoft.com`– Nom de domaine complet secondaire, géographiquement mappe à la seconde région priorité.<br/>`sip3.pstnhub.microsoft.com`– Nom de domaine complet de troisième niveau, mappe géographiquement à la région de priorité de la troisième.<br/><br/>Pour plus d’informations sur la configuration requise, voir [de signalisation SIP : noms de domaine complets et les ports de pare-feu](#sip-signaling-fqdns-and-firewall-ports).|
-|Adresses IP de pare-feu et les ports pour le média routage Direct |Le contrôleur SBC communique avec les services suivants dans le nuage :<br/><br/>Proxy qui gère la signalisation SIP<br/>Processeur multimédia, qui gère les données multimédias-sauf lorsque le contournement de média est activé<br/><br/>Ces deux services ont des adresses IP séparées dans le Cloud Microsoft, décrit plus loin dans ce document.<br/><br/>Pour plus d’informations, voir la [section équipes Microsoft](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) dans [Office 365 URL et plages d’adresses IP](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
-|Profil de Transport de média|TCP/RTP/SAVP <br/>RTP/UDP/SAVP|
-Adresses IP de pare-feu et les ports pour le média Microsoft Teams |Pour plus d’informations, voir [Office 365 URL et plages d’adresses IP](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
+|Contrôleur de bordure de session (SBC)|SBC pris en charge. Pour plus d’informations, voir [SBCS prises en charge](#supported-session-border-controllers-sbcs).|
+|Lignes de téléphonie connectées à l’SBC|Un ou plusieurs Trunks de téléphonie connectés à l’SBC. À la fin, l’SBC se connecte au système Microsoft Phone via le routage direct. Les SBC peuvent également se connecter à des entités de téléphonie tierces, telles que des PBX, des adaptateurs de téléphonie analogique, etc. Toute option de connectivité PSTN qui est connectée à l’SBC fonctionne. (Remarque: pour la configuration des Trunks RTC sur SBC, veuillez consulter les fournisseurs ou les fournisseurs de lignes SBC.)|
+|Client Office 365|Un client Office 365 que vous utilisez pour utiliser les utilisateurs de Microsoft Teams, ainsi que la configuration et la connexion au SBC.|
+|Bureau d’enregistrement de noms d’utilisateur|L’utilisateur doit être hébergé dans Office 365.<br/>Si votre entreprise possède un environnement Skype entreprise ou Lync local avec une connectivité hybride à Office 365, vous ne pouvez pas activer la voix dans teams pour un utilisateur hébergé sur site.<br/><br/>Pour vérifier le Bureau d’enregistrement d’un utilisateur, utilisez l’applet de commande PowerShell Skype entreprise Online suivante:<br/><code>Get-CsOnlineUser -Identity \<user> \| fl HostingProvider</code> <br/><br/>La sortie de l’applet de cmdlet doit afficher les éléments suivants:<br/><code>HostingProvider : sipfed.online.lync.com</code>|
+|Domaines|Un ou plusieurs domaines ajoutés à vos clients Office 365.<br/><br/>**Remarque:** Vous ne pouvez pas utiliser le domaine par défaut *. onmicrosoft.com, qui est automatiquement créé pour votre client.<br/><br/>Pour afficher les domaines, vous pouvez utiliser l’applet de commande PowerShell de Skype entreprise Online suivante:<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>Pour plus d’informations sur les domaines et les clients 365 Office, voir [FAQ sur les domaines](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a).|
+|Adresse IP publique de l’SBC|Une adresse IP publique qui peut être utilisée pour se connecter à l’SBC. En fonction du type de SBC, l’SBC peut utiliser la traduction d’adresses réseau (NAT).|
+|Nom de domaine complet (FQDN) pour l’SBC|Nom de domaine complet pour l’SBC, où la partie Domain du nom de domaine complet (FQDN) est l’un des domaines inscrits dans votre client Office 365. Pour plus d’informations, consultez la section [noms de domaine SBC](#sbc-domain-names).|
+|Entrée DNS publique pour l’SBC |Une entrée DNS publique qui mappe le nom de domaine complet du SBC à l’adresse IP publique. |
+|Certificat de confiance public pour l’SBC |Certificat de l’SBC à utiliser pour toutes les communications avec le routage direct. Pour plus d’informations, voir [certificat de confiance public pour l’SBC](#public-trusted-certificate-for-the-sbc).|
+|Points de connexion pour le routage direct |Les points de connexion pour le routage direct sont les trois noms de domaine complets suivants:<br/><br/>`sip.pstnhub.microsoft.com`-Nom de domaine complet (FQDN) global, doit d’abord être essayé.<br/>`sip2.pstnhub.microsoft.com`– Nom de domaine complet secondaire, géographiquement correspond à la deuxième région de priorité.<br/>`sip3.pstnhub.microsoft.com`– Nom de domaine complet (FQDN), qui correspond à la troisième région de priorité.<br/><br/>Pour plus d’informations sur la configuration requise, reportez-vous à la section [signalisation SIP: FQDN et port de pare-feu](#sip-signaling-fqdns-and-firewall-ports).|
+|Adresses IP et ports du pare-feu pour le média de routage direct |Le SBC communique avec les services suivants dans le Cloud:<br/><br/>Proxy SIP, qui gère le signalement<br/>Processeur multimédia, qui gère les éléments multimédias, sauf lorsque la dérivation multimédia est activée<br/><br/>Ces deux services ont des adresses IP distinctes dans le Cloud Microsoft, décrites plus loin dans ce document.<br/><br/>Pour plus d’informations, reportez-vous à la [section Microsoft teams](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) dans les [URL et plages d’adresses IP Office 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
+|Profil de transport de média|TCP/RTP/SAVP <br/>UDP/RTP/SAVP|
+Adresses IP et ports pour le pare-feu pour les éléments multimédias de Microsoft teams |Pour plus d’informations, voir [URL et plages d’adresses IP Office 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
 |||
 
-## <a name="licensing-and-other-requirements"></a>Gestion des licences et autres composants requis 
+## <a name="licensing-and-other-requirements"></a>Gestion des licences et autres conditions requises 
 
-Les utilisateurs de routage Direct doivent disposer les licences suivantes affectés dans Office 365 : 
+Les utilisateurs du routage direct doivent avoir les licences suivantes affectées dans Office 365: 
 
-- Système téléphonique de Microsoft 
+- Système Microsoft Phone 
 - Microsoft Teams 
-- Conférence Audio Microsoft 
+- Audioconférence Microsoft 
 
-La licence de conférence Audio est obligatoire pour ajouter des participants externes aux réunions planifiées, par un appel sortant leur ou en fournissant le numéro d’accès. 
+La licence d’audioconférence est nécessaire pour ajouter des participants externes à des réunions planifiées en les appelant ou en fournissant un numéro de connexion. 
  
   > [!NOTE]
-  > La licence E5 inclut le système téléphonique et conférence.   
+  > La licence E5 inclut le système téléphonique et l’audioconférence.   
 
-En outre, vous devez vérifier les éléments suivants :
+Par ailleurs, vous devez vous assurer que les suivants:
  
 - CsOnlineVoiceRoutingPolicy est affectée à l’utilisateur. 
-- Autoriser que l’appel privé est activé au niveau du client pour Microsoft Teams. 
+- L’option autoriser les appels privés est activée au niveau du client de Microsoft Teams. 
 
-Routage direct prend également en charge les utilisateurs possédant une licence pour l’appel de Plan de Microsoft. Système téléphonique de Microsoft avec le Plan de l’appel peut acheminer des appels à l’aide de l’interface de routage Direct. Toutefois, les numéros de téléphone de l’utilisateur doivent être acquis en ligne ou prise en charge par Microsoft.  
+Le routage direct prend également en charge les utilisateurs disposant d’une licence pour un forfait d’appel Microsoft. Le système Microsoft Phone avec un plan d’appels peut acheminer certains appels à l’aide de l’interface de routage directe. Toutefois, les numéros de téléphone des utilisateurs doivent être acquis en ligne ou transférés vers Microsoft.  
 
-Combinaison de connectivité de l’appel de planifier et de routage Direct pour le même utilisateur est facultatif, mais peut être utile, par exemple, lorsque l’utilisateur est affecté à un Plan de l’appel Microsoft mais souhaite acheminer des appels via le contrôleur SBC. Un des scénarios plus courants sont des appels à des systèmes PBX tiers.  Avec les systèmes PBX tiers, tous les appels, à l’exception des appels vers les téléphones connectés à ce PBX sont routés via l’appel de Plan de Microsoft ; mais les appels vers les téléphones connectés au PBX tiers sur le contrôleur SBC, par conséquent rester dans le réseau d’entreprise et non pas au réseau téléphonique commuté. 
+Le mélange d’un plan d’appel et de la connectivité de routage directe pour le même utilisateur est facultatif, mais peut être utile, par exemple, lorsque l’utilisateur dispose d’un plan d’appel Microsoft et veut diriger certains appels via SBC. L’un des scénarios les plus courants est l’appel vers des PBX tiers.  Avec les PBX tiers, tous les appels, à l’exception de ceux qui sont connectés à ces PBX, sont routés via un forfait d’appel Microsoft; Toutefois, les appels vers les téléphones connectés à des PBX tiers accèdent à la SBC, ce qui permet de rester au sein du réseau d’entreprise et non au PSTN. 
 
-Pour plus d’informations sur les licences de système téléphonique, voir [Options de Plan Office 365](https://technet.microsoft.com/library/office-365-plan-options.aspx)et de [tirer le meilleur parti d’Office avec Office 365](https://products.office.com/compare-all-microsoft-office-products?tab=2) . 
+Pour plus d’informations sur les licences de système téléphonique, voir [tirer le meilleur parti d’Office avec les options de](https://products.office.com/compare-all-microsoft-office-products?tab=2) Plan Office 365 et [Office 365](https://technet.microsoft.com/library/office-365-plan-options.aspx). 
 
-Pour plus d’informations sur les licences de système téléphonique, voir [Gestion des licences de module complémentaire équipes Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md). 
+Pour plus d’informations sur la gestion des licences de système téléphonique, voir [licences de complément Microsoft teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md). 
 
 ## <a name="sbc-domain-names"></a>Noms de domaine SBC
 
-Le nom de domaine SBC doit être parmi les noms enregistrés dans « Domaines » du client. Vous ne pouvez pas utiliser le *. onmicrosoft.com client pour le nom complet de le SBC.
+Le nom de domaine de SBC doit être issu de l’un des noms inscrits dans «Domains» pour le client. Vous ne pouvez pas utiliser le client *. onmicrosoft.com pour le nom de domaine complet de l’SBC.
 
-Le tableau suivant montre des exemples de noms DNS enregistrés pour le client, si le nom peut être utilisé comme un nom de domaine complet pour le contrôleur SBC et des exemples de noms de nom de domaine complet valides :
+Le tableau suivant montre des exemples de noms DNS enregistrés pour le client, que le nom puisse être utilisé comme nom de domaine complet pour l’SBC et des exemples de noms de domaine complets valides:
 
-|**Nom DNS**|**Peut être utilisé pour SBC FQDN**|**Exemples de noms de domaine complets**|
+|**Nom DNS**|**Peut être utilisé pour le nom de domaine complet SBC**|**Exemples de noms de FQDN**|
 |:--- |:--- |:--- |
-contoso.com|Oui|**Noms valides :**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.com<br/>Europe.contoso.com|
-|Contoso.onmicrosoft.com|Non|<br/>À l’aide de *. onmicrosoft.com domaines n’est pas pris en charge pour les noms de SBC
+contoso.com|Oui|**Noms valides:**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.com<br/>europe.contoso.com|
+|contoso.onmicrosoft.com|Non|<br/>L’utilisation des domaines *. onmicrosoft.com n’est pas prise en charge pour les noms SBC
 
-Supposons que vous souhaitez utiliser un nouveau nom de domaine. Par exemple, votre client a contoso.com comme un nom de domaine enregistré dans votre client, et que vous souhaitez utiliser sbc1.sip.contoso.com. Avant de vous pouvez coupler un contrôleur SBC avec le nom sbc1.sip.contoso.com, vous devez enregistrer le sip.contoso.com de nom de domaine dans « Domaines » dans votre client. Si vous essayez de jumelage un contrôleur SBC avec sbc1.sip.contoso.com avant d’enregistrer le nom de domaine, vous obtiendrez le message d’erreur suivant : « Impossible d’utiliser le domaine « sbc1.sip.contoso.com » comme il n’a pas été configuré pour ce client. »
-Après avoir ajouté le nom de domaine, vous devez également créer un utilisateur avec l’UPN user@sip.contoso.com et attribuez une licence « Équipes ». Il peut prendre jusqu'à 24 heures pour mettre entièrement en service après le nom de domaine est ajouté à « Domaines » de votre client, un utilisateur avec un nouveau nom est créé et une licence est attribuée à l’utilisateur. 
+Supposons que vous vouliez utiliser un nouveau nom de domaine. Par exemple, votre locataire a contoso.com comme nom de domaine enregistré dans votre client et vous souhaitez utiliser sbc1.sip.contoso.com. Avant de pouvoir coupler une SBC avec le nom sbc1.sip.contoso.com, vous devez inscrire le nom de domaine sip.contoso.com dans «Domains» dans votre client. Si vous essayez de jumeler une SBC avec sbc1.sip.contoso.com avant d’inscrire le nom de domaine, vous obtiendrez le message d’erreur suivant: «impossible d’utiliser le domaine «sbc1.sip.contoso.com» tel qu’il n’a pas été configuré pour ce client».
+Après avoir ajouté le nom de domaine, vous devez également créer un utilisateur avec UPN user@sip.contoso.com et attribuer une licence «Teams». Il peut s’écouler jusqu’à 24 heures pour pouvoir mettre en service le nom de domaine après avoir été ajouté à «domaines» de votre client, un utilisateur avec un nouveau nom est créé et une licence est affectée à l’utilisateur. 
 
-Il est possible qu’une société peut avoir plusieurs espaces d’adressage SIP dans un client. Par exemple, une société pourrait avoir contoso.com en tant qu’un espace d’adressage SIP et fabrikam.com comme le deuxième espace d’adresse SIP. Certains utilisateurs ont user@contoso.com adresse et certains utilisateurs ont user@fabrikam.com adresse. 
+Il est possible qu’une entreprise puisse avoir plusieurs espaces d’adresse SIP au sein d’un client. Par exemple, une société peut avoir contoso.com en tant qu’espace d’adressage SIP et fabrikam.com comme second espace d’adressage SIP. Certains utilisateurs ont l’adresse user@contoso.com et certains utilisateurs ont l’adresse user@fabrikam.com. 
 
-Le contrôleur SBC uniquement a besoin d’un nom de domaine complet et peut intervenir sur les utilisateurs à partir de n’importe quel espace d’adressage dans le client associé. Par exemple, un contrôleur SBC avec le nom sbc1.contoso.com peut recevoir et envoyer le trafic PSTN pour les utilisateurs avec des adresses user@contoso.com et user@fabrikam.com dans la mesure où ces espaces d’adressage SIP sont enregistrées dans le même client.  
+Le SBC a uniquement besoin d’un nom de domaine complet et peut faire service aux utilisateurs de tout espace d’adresse dans le client couplé. Par exemple, un SBC doté du nom sbc1.contoso.com peut recevoir et envoyer le trafic RTC pour les utilisateurs disposant d’adresses user@contoso.com et user@fabrikam.com tant qu’ils sont enregistrés dans le même client.  
 
-## <a name="public-trusted-certificate-for-the-sbc"></a>Certificat de confiance public pour le contrôleur SBC
+## <a name="public-trusted-certificate-for-the-sbc"></a>Certificat de confiance public pour l’SBC
 
-Microsoft recommande vivement que vous demandez le certificat pour le contrôleur SBC en générant une certification signing request (CSR). Pour obtenir des instructions spécifiques sur la création d’une demande CSR pour un contrôleur SBC, reportez-vous à la documentation fournie par vos fournisseurs SBC les instructions d’interconnexion. 
+Microsoft vous recommande fortement de demander le certificat pour la SBC en générant une demande de signature de certification (CSR). Pour obtenir des instructions spécifiques sur la génération d’un CSR pour une SBC, voir les instructions ou la documentation d’interconnexion fournie par vos fournisseurs d’SBC. 
 
   > [!NOTE]
-  > La plupart des autorités de certification (CA) nécessitent la taille de la clé privée pour être d’au moins 2048. Gardez à l’esprit lors de la génération de la CSR.
+  > La plupart des autorités de certification doivent avoir une taille de clé privée d’au moins 2048. Gardez à l’esprit ce qui suit lors de la génération du conseiller.
 
-Le certificat doit avoir le FQDN SBC dans l’objet, nom commun ou champs de l’autre nom du sujet.
+Le certificat doit contenir le nom de domaine complet de l’SBC dans les champs objet, nom usuel ou nom de substitution de l’objet.
 
-Vous pouvez également routage Direct prend en charge un caractère générique dans le SAN et le caractère générique doit être conforme à la norme [RFC HTTP sur TLS](https://tools.ietf.org/html/rfc2818#section-3.1). Utilise un exemple *. contoso.com SAN, qui correspond à la sbc.contoso.com FQDN SBC, mais ne correspond au sbc.test.contoso.com.
+Par ailleurs, le routage direct prend en charge un caractère générique dans le SAN et le caractère générique doit se conformer au standard [RFC http sur TLS](https://tools.ietf.org/html/rfc2818#section-3.1). Par exemple, utilisez *. contoso.com dans le SAN, qui correspondait à l’élément de nom de domaine complet SBC sbc.contoso.com, mais ne correspondait pas à sbc.test.contoso.com.
 
-Le certificat doit être généré par un des autorités de certification racine suivantes :
+Le certificat doit être généré par l’une des autorités de certification racines suivantes:
 
 - AffirmTrust
-- AddTrust externe autorité de certification racine
+- Racine de l’autorité de certification externe AddTrust
 - Certificat racine de CyberTrust Baltimore
 - Buypass
 - Cybertrust
-- Autorité de Certification publique principale de classe 3
-- Autorité de certification racine sécurisé Comodo
+- Autorité de certification principale publique de classe 3
+- Comodo de l’autorité de certification racine sécurisée
 - Deutsche Telekom 
 - Autorité de certification racine globale DigiCert
-- Autorité de certification racine DigiCert High Assurance EV
-- Confier
+- CA racine EV haute garantie DigiCert
+- Entrust
 - GlobalSign
-- Go daddy
+- Go Daddy
 - GeoTrust
 - VeriSign, Inc. 
-- Étoiles 
-- Racine Mobile Symantec Enterprise pour Microsoft 
+- Starfield 
+- Racine de l’application mobile Symantec entreprise pour Microsoft 
 - SwissSign
-- Horodatage Thawte autorité de certification
+- Autorité de certification Thawte d’horodatage
 - Trustwave
-- Ou TeliaSonera 
+- TeliaSonera 
 - T-Systems International GmbH (Deutsche Telekom)
 - QuoVadis
 
-Microsoft travaille sur l’ajout d’autorités de certification supplémentaires selon les demandes des clients. 
+Microsoft travaille actuellement à l’ajout d’autorités de certification basées sur les demandes des clients. 
 
-## <a name="sip-signaling-fqdns-and-firewall-ports"></a>Signalisation SIP : Noms de domaine complets et les ports du pare-feu 
+## <a name="sip-signaling-fqdns-and-firewall-ports"></a>Signalisation SIP: FQDN et ports de pare-feu 
 
-Le point de connexion pour le routage Direct sont les noms de domaine trois complets suivants :
+Le point de connexion pour le routage direct est le trois noms de domaine complets suivants:
 
-- **sip.pstnhub.microsoft.com** – Global FQDN – doit être tenté en premier. Lorsque le contrôleur SBC envoie une demande pour résoudre ce nom, les serveurs DNS de Microsoft Azure renvoient une adresse IP pointant vers le centre de données Azure principal affecté à la SBC. L’affectation est basée sur des mesures de performances des centres de données et le contrôleur SBC proximité géographique. L’adresse IP retournée correspond au nom de domaine complet principal.
-- **sip2.pstnhub.microsoft.com** – FQDN secondaire – géographiquement mappe à la seconde région priorité.
-- **sip3.pstnhub.microsoft.com** – nom de domaine complet de troisième niveau – géographiquement correspond à la région de priorité de la troisième.
+- **SIP.pstnhub.Microsoft.com** -nom de domaine complet (FQDN) global, doit d’abord être essayé. Lorsque le SBC envoie une demande pour résoudre ce nom, les serveurs DNS Microsoft Azure renvoient une adresse IP pointant vers le centre de noms principal Azure attribué à l’SBC. Cette affectation est basée sur les métriques de performance des centres de donnes et de proximité géographique de l’SBC. L’adresse IP renvoyée correspond au FQDN principal.
+- **sip2.pstnhub.Microsoft.com** -nom de domaine complet (FQDN): il correspond à la deuxième région de priorité.
+- nom de domaine complet (FQDN) **sip3.pstnhub.Microsoft.com** : il correspond géographiquement à la troisième région de priorité.
 
-Placer ces trois noms de domaines complets dans l’ordre est nécessaire pour :
+Il est nécessaire de placer ces trois noms de domaine complets dans l’ordre suivant:
 
-- Offrent une expérience optimale (moins chargée et le plus proche du centre de données SBC affectée en interrogeant le premier nom de domaine complet).
-- Fournir le basculement lors de la connexion à partir d’un contrôleur SBC est établie avec un centre de données qui rencontre un problème temporaire. Pour plus d’informations, voir le [mécanisme de basculement](#failover-mechanism-for-sip-signaling) ci-dessous.  
+- Offrir une plus meilleure version (moins chargée et la plus proche du centre de divertissement SBC attribué en interrogeant le premier nom de domaine complet).
+- Faire basculer lorsque la connexion à partir d’un SBC est établie à un centre de donne-établi qui rencontre un problème temporaire. Pour plus d’informations, consultez la section [mécanisme](#failover-mechanism-for-sip-signaling) de basculement ci-dessous.  
 
-Les noms de domaine complets (sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com et sip3.pstnhub.microsoft.com) sera résolus sur une des adresses IP suivantes :
+Les noms de domaine complets – sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com et sip3.pstnhub.microsoft.com, sont résolus à l’une des adresses IP suivantes:
 
 - 52.114.148.0
 - 52.114.132.46 
@@ -186,67 +186,67 @@ Les noms de domaine complets (sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.
 - 52.114.7.24 
 - 52.114.14.70
 
-Vous devez ouvrir des ports pour toutes les adresses IP dans votre pare-feu pour permettre le trafic entrant et sortant vers et depuis les adresses de signalisation.  Si votre pare-feu prend en charge les noms DNS, le nom de domaine complet sip-all.pstnhub.microsoft.com résout toutes les adresses IP ci-dessus.  Vous devez utiliser les ports suivants :
+Pour autoriser le trafic entrant et sortant vers et à partir de l’adresse de signalisation, vous devez ouvrir ports pour toutes ces adresses IP sur votre pare-feu.  Si votre pare-feu prend en charge les noms DNS, le nom de domaine complet sip-all.pstnhub.microsoft.com est résolu sur toutes les adresses IP ci-dessus.  Vous devez utiliser les ports suivants:
 
 |**Trafic**|**De**|**À**|**Port source**|**Port de destination**|
 |:--- |:--- |:--- |:--- |:--- |
-|SIP/TLS|Proxy SIP|SBC|1024 – 65535|Défini sur le contrôleur SBC|
-SIP/TLS|SBC|Proxy SIP|Défini sur le contrôleur SBC|5061|
+|SIP/TLS|Proxy SIP|SBC|1024 – 65535|Définie sur l’SBC|
+SIP/TLS|SBC|Proxy SIP|Définie sur l’SBC|5061|
 ||||||
 
 ### <a name="failover-mechanism-for-sip-signaling"></a>Mécanisme de basculement pour la signalisation SIP
 
-Le contrôleur SBC effectue une requête DNS pour résoudre sip.pstnhub.microsoft.com. Selon l’emplacement SBC et les mesures de performances du centre de données, le centre de données principal est sélectionnée. Si le centre de données principal rencontre un problème, le contrôleur SBC essaiera sip2.pstnhub.microsoft.com, ce qui correspond à la deuxième centre de données affectée, et, dans le cas rare que centres de données dans les deux régions ne sont pas disponibles, le contrôleur SBC réessayer la dernière (nom de domaine complet sip3.pstnhub.Microsoft.com), qui fournit l’adresse IP de centre de données de troisième rang.
+L’SBC crée une requête DNS pour résoudre sip.pstnhub.microsoft.com. Le centre de donnees principal est sélectionné en fonction de l’emplacement de l’SBC et des métriques de performances du centre de donnees. Si le centre de noms principal rencontre un problème, l’SBC essaiera le sip2.pstnhub.microsoft.com, qui est résolu vers le second centre de noms attribué et, dans le cas où les centres de noms de deux régions ne sont pas disponibles, le SBC tente de se servir du dernier nom de domaine complet ( sip3.pstnhub.microsoft.com), qui fournit l’adresse IP du datacenter tertiaire.
 
-Le tableau ci-dessous récapitule les relations entre les centres de données primaire, secondaire et tertiaire :
+Le tableau ci-dessous résume les relations entre les centres de donneaux principal, secondaire et tertiaire:
 
-|**Si le centre de données principal est**|**EMEA**|**NOAM**|**ASIE**|
+|**Si le centre de donnees principal est**|**EMEA**|**NOAM**|**RÉGIONS**|
 |:--- |:--- |:--- |:--- |
-|Le centre de données secondaire (sip2.pstnhub.microsoft.com)|NOUS|UNION EUROPÉENNE|NOUS|
-|Le centre de données tertiaire (sip3.pstnhub.microsoft.com)|ASIE|ASIE|UNION EUROPÉENNE|
+|Centre de la secondaire (sip2.pstnhub.microsoft.com)|Nous|COMMUNAUTAIRES|Nous|
+|Le troisième centre de sip3.pstnhub.microsoft.com|RÉGIONS|RÉGIONS|COMMUNAUTAIRES|
 |||||
 
-## <a name="media-traffic-port-ranges"></a>Le trafic multimédia : plages de ports
-Notez les conditions ci-dessous s’appliquent si vous souhaitez déployer routage Direct sans contournement de média. Pour les exigences du pare-feu pour le contournement de média, reportez-vous à [planifier le contournement de média avec le routage Direct](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-plan-media-bypass)
+## <a name="media-traffic-port-ranges"></a>Trafic multimédia: plages de ports
+Notez que les conditions ci-dessous s’appliquent si vous souhaitez déployer le routage direct sans dérivation multimédia. Pour connaître la configuration requise pour le pare-feu, consultez [la rubrique planification pour la dérivation de médias avec le routage direct](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-plan-media-bypass)
 
-Le trafic multimédia est disposé vers et à partir d’un service séparé dans le Cloud de Microsoft. La plage d’IP pour le trafic multimédia :
-- 52.112.0.0 /14 (adresses IP de 52.112.0.1 à 52.115.255.254).
+Le trafic de média est acheminé vers et à partir d’un service distinct dans le Cloud Microsoft. Plage d’adresses IP du trafic multimédia:
+- 52.112.0.0/14 (adresses IP de 52.112.0.1 à 52.115.255.254).
 
-La plage de ports des processeurs multimédia est indiquée dans le tableau suivant : 
+Le tableau suivant indique la portée de port des processeurs multimédias: 
 
 |**Trafic**|**De**|**À**|**Port source**|**Port de destination**|
 |:--- |:--- |:--- |:--- |:--- |
-|UDP/SRTP|Processeur média|SBC|49 152 – 53 247|Défini sur le contrôleur SBC|
-|UDP/SRTP|SBC|Processeur média|Défini sur le contrôleur SBC|49 152 – 53 247|
+|UDP/SRTP|Processeur de média|SBC|49 152 – 53 247|Définie sur l’SBC|
+|UDP/SRTP|SBC|Processeur de média|Définie sur l’SBC|49 152 – 53 247|
 |
 
   > [!NOTE]
-  > Microsoft recommande au moins deux ports par appel simultané sur le contrôleur SBC.
+  > Microsoft recommande au moins deux ports par appel simultané sur l’SBC.
 
-## <a name="media-traffic-codecs"></a>Le trafic multimédia : Codecs
+## <a name="media-traffic-codecs"></a>Trafic multimédia: codecs
 
-### <a name="leg-between-sbc-and-cloud-media-processor-or-microsoft-teams-client"></a>Segment entre le client SBC et processeur média de nuage ou Teams Microsoft.
-S’applique aux cas de déviation du trafic multimédia et sans contournement cas
+### <a name="leg-between-sbc-and-cloud-media-processor-or-microsoft-teams-client"></a>Jambe entre le processeur de médias SBC et Cloud ou le client Microsoft Teams.
+S’applique aux cas de contournement de média et de non-contournement du contenu multimédia
 
-L’interface de routage Direct sur le segment entre le contrôleur de Session en périphérie et le processeur de médias dans le nuage (sans le contournement de média) ou entre le client d’équipes et le contrôleur SBC (si le contournement de média activé) peut utiliser les codecs suivants :
-- Non-le contournement de média (SBC au processeur de médias dans le nuage) : soie, G.711, G.722, G, 729
-- Le contournement de média (SBC client équipes) : soie, G.711, G.722, G, 729, signature
+L’interface de routage directe sur la jambe entre le contrôleur de bordure de session et le processeur de média Cloud (sans contournement de média), ou entre le client teams et l’SBC (si le contournement de média est activé) peut utiliser les codecs suivants:
+- Contournement non multimédia (SBC pour le processeur de média Cloud): soie, G. 711, G. 722, G, 729
+- Contournement multimédia (SBC vers le client Teams): soie, G. 711, G. 722, G, 729, OPUS
 
-Vous pouvez forcer l’utilisation du codec spécifique sur la Session Border Controller par codecs indésirables à exclure de l’offre.
+Vous pouvez forcer l’utilisation du codec spécifique sur le contrôleur de bordure de session en excluant les codecs indésirables de l’offrant.
 
-### <a name="leg-between-microsoft-teams-client--and-cloud-media-processor"></a>Segment entre les équipes Microsoft Client et processeur de média sur le nuage
-S’applique aux non-le contournement de média cas uniquement. Avec le contournement de média les flux multimédias directement entre le client d’équipes et SBC
+### <a name="leg-between-microsoft-teams-client--and-cloud-media-processor"></a>Leg entre le client Microsoft teams et le processeur de média Cloud
+S’applique uniquement aux cas de contournement non multimédia. Utiliser les flux multimédias de contournement de média directement entre le client teams et SBC
 
-Sur le segment entre le processeur de média sur le nuage et le client Microsoft Teams soie ou G.722 utilisé. Le choix de codec sur ce segment basé sur les algorithmes de Microsoft, qui prennent en considération plusieurs paramètres. 
+Sur la jambe entre le processeur Cloud Cloud et le client Microsoft Teams, soie ou G. 722 utilisé. Le choix du codec sur cette jambe en fonction des algorithmes Microsoft, qui prennent en compte plusieurs paramètres. 
 
 
-## <a name="supported-session-border-controllers-sbcs"></a>Prise en charge des contrôleurs de frontière de Session (SBC)
+## <a name="supported-session-border-controllers-sbcs"></a>Contrôleurs de bordure de session pris en charge (SBCs)
 
-Microsoft prend uniquement en charge SBCs certifiées pour établir une association avec le routage Direct. Enterprise Voice est essentielle pour les entreprises, Microsoft exécute des tests intensives avec les SBCs sélectionnés et fonctionne avec les fournisseurs SBC pour garantir les deux systèmes est compatibles. 
+Microsoft ne prend en charge que la certification SBCs pour jumeler le routage direct. Dans la mesure où Enterprise Voice est essentiel pour les entreprises, Microsoft exécute des tests intensifs avec l’option SBCs sélectionnée et utilise les fournisseurs de SBC pour vérifier la compatibilité de ces deux systèmes. 
 
-Les périphériques qui ont été validées sont répertoriés comme certifié pour les équipes de routage Direct. Les périphériques certifiés sont garanties pour fonctionner dans tous les scénarios. 
+Les appareils qui ont été validés apparaissent comme certifiés pour le routage direct de teams. Les appareils certifiés sont assurés de fonctionner dans tous les scénarios. 
 
-Pour plus d’informations sur SBCs pris en charge, voir [liste de contrôleurs de frontière de Session certifié pour le routage Direct](direct-routing-border-controllers.md).
+Pour plus d’informations sur les éléments SBCs pris en charge, voir [liste des contrôleurs de bordure de session certifiés pour le routage direct](direct-routing-border-controllers.md).
 
  
 ## <a name="see-also"></a>Voir aussi

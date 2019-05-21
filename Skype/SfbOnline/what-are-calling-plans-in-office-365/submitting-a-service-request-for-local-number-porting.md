@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,16 +21,16 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'If you have more than 999 phone numbers to transferred to Skype for Business, learn how to submit a port order service request to get them moved. '
-ms.openlocfilehash: 7d6e8e6709a885e65888d330ef543556c5fa05b0
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 0a12ee82d2a568a563408a2dc29971e9b3766da0
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229679"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290825"
 ---
 # <a name="submitting-a-service-request-for-local-number-porting"></a>Envoi d'une demande de service concernant le transfert d'un numéro local
 
-Si vous devez transférer plus de 999 numéros de téléphone (des utilisateurs ou des numéros de service, y compris payant ou numéro gratuit) à Skype pour Business Online, voir [Gérer les numéros de téléphone pour votre organisation](/microsoftteams/manage-phone-numbers-for-your-organization).
+Si vous avez besoin de transférer plus de numéros de téléphone 999 (pour les utilisateurs ou les numéros de service, dont les numéros payants ou les numéros gratuits) dans Skype entreprise Online, reportez-vous à [la rubrique gestion des numéros de téléphone pour votre organisation](/microsoftteams/manage-phone-numbers-for-your-organization).
 
 > [!NOTE]
 > Si vous devez obtenir davantage de numéros de téléphone, veuillez [contacter le support pour les entreprises - Aide de l'administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)

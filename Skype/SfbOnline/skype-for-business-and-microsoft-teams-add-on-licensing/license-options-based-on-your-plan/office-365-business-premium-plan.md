@@ -11,7 +11,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -20,12 +20,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'En savoir plus sur les licences de modules complémentaires, les fonctionnalités et comment souscrire à des forfaits pour Office 365 Business Premium. '
-ms.openlocfilehash: 272039c0a7cf0f568efd523f94c42348cba743fd
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b4f501d3a047e0408a484065e38ab23f98b850ab
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32238933"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290072"
 ---
 # <a name="office-365-business-premium"></a>Office 365 Business Premium
 
@@ -52,11 +52,11 @@ Si vous possédez [Office 365 Business Premium](https://products.office.com/en/b
 
 2. Acheter le module complémentaire **Système téléphonique**.
     
-3. Acheter un [Appel de planification pour Office 365](/MicrosoftTeams/calling-plans-for-office-365): cela acheter uniquement une fois que vous achetez le module complémentaire **Système téléphonique** .
+3. Acheter un [plan d’appel pour Office 365](/MicrosoftTeams/calling-plans-for-office-365): vous pouvez l’acheter uniquement après l’acquisition du complément de votre **système téléphonique** .
     
     Cette option est idéale pour les entreprises où quelques personnes passent et reçoivent des appels téléphoniques extérieurs.
 
-## <a name="how-to-see-prices-and-buy"></a>Comment consulter les prix et acheter
+## <a name="how-to-see-prices-and-buy"></a>Comment connaître les prix et procéder à l’achat
 <a name="bkmk_buypremium"> </a>
 
  **Pour obtenir les Audioconférences et des Crédits de Communication :**
@@ -65,7 +65,7 @@ Si vous possédez [Office 365 Business Premium](https://products.office.com/en/b
 
 2. Accédez à **Facturation** > **Abonnements** > **Modules complémentaires** > **Acheter des modules complémentaires**.
 
-   ![Pour acheter une licence de module complémentaire, cliquez sur modules complémentaires acheter.](../../images/fc4d7506-4ee9-4e39-be54-0622edffb77a.png)
+   ![Pour acheter une licence de complément, sélectionnez acheter des modules complémentaires.](../../images/fc4d7506-4ee9-4e39-be54-0622edffb77a.png)
 
 3. Vous allez maintenant voir les prix et l’option d’achat d’audioconférence et configurer des Crédits de Communications.
 
@@ -77,4 +77,4 @@ Si vous possédez [Office 365 Business Premium](https://products.office.com/en/b
 
 3. Choose **Add-ons**. You'll now see the prices for Phone System, and the option to buy it.
 
-4. Une fois que vous achetez une licence de **Système téléphonique** , vous verrez le prix et l’option d’acheter un Plan de l’appel.
+4. Après avoir acheté une licence de **système téléphonique** , vous verrez le prix et l’option d’achat d’un forfait d’appels.

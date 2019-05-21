@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,16 +21,16 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: La validation des adresses est une partie importante des forfaits d'appels dans Office 365. Elle fournit à un utilisateur de votre organisation une adresse d'appels d'urgence qui peut être utilisée par les services de réponse d'urgence.
-ms.openlocfilehash: bcc4ad06d922c4d0f65dc4f98a7d0780904e1d18
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 5648855dc13225dfcb525ddfc82b31a13e90c862
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229554"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290554"
 ---
 # <a name="why-is-number-activation-listed-as-incomplete"></a>Pourquoi l’activation de numéro est-elle indiquée comme étant incomplète ?
 
-La validation des adresses est une partie importante des forfaits d'appels dans Office 365. Si pour une raison quelconque, un numéro de téléphone n’est pas activé et est répertorié comme **incomplète** en raison de la validation des adresses, vous devez créer et soumettre une demande de service. La procédure dépend de la taille de votre organisation.
+La validation des adresses est une partie importante des forfaits d'appels dans Office 365. Si, pour une raison quelconque, un numéro de téléphone n’est **** pas activé et est répertorié comme incomplet en raison de la validation de l’adresse, vous devez créer et renvoyer une demande de service. La procédure dépend de la taille de votre organisation.
   
 ## <a name="for-organizations-150-or-less-follow-these-steps"></a>Pour les organisations comprenant 150 personnes au maximum, suivez la procédure suivante
 1. Dans le **Centre d'administration d'Office 365**, sélectionnez **Besoin d'aide ?**

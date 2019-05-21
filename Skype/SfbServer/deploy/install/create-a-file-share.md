@@ -1,11 +1,11 @@
 ---
-title: Créer un partage de fichiers dans Skype pour Business Server
+title: Création d’un partage de fichiers dans Skype entreprise Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 12/20/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -14,28 +14,28 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 053076b0-441c-44d9-8dbc-7a36d8ecafe4
-description: 'Résumé : Découvrez comment créer un partage de fichiers Windows Server dans le cadre de l’installation de Skype pour Business Server. Téléchargez une version d’évaluation gratuite de Skype pour Business Server depuis le centre d’évaluation Microsoft à : https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: 36b965e829e3bd02e884f55127e202d1c27eff50
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Résumé: Découvrez comment créer un partage de fichiers Windows Server dans le cadre de l’installation de Skype entreprise Server. Télécharger une version d’évaluation gratuite de Skype entreprise Server à partir du centre d’évaluation https://www.microsoft.com/evalcenter/evaluate-skype-for-business-serverMicrosoft pour:.'
+ms.openlocfilehash: d6a34ad4807948a5580fc572628a4fd6333dd9f8
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33891956"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34292164"
 ---
-# <a name="create-a-file-share-in-skype-for-business-server"></a>Créer un partage de fichiers dans Skype pour Business Server
+# <a name="create-a-file-share-in-skype-for-business-server"></a>Création d’un partage de fichiers dans Skype entreprise Server
  
-**Résumé :** Découvrez comment créer un partage de fichiers Windows Server dans le cadre de l’installation de Skype pour Business Server. Téléchargez une version d’évaluation gratuite de Skype pour Business Server depuis le centre d’évaluation Microsoft à :[https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
+**Résumé:** Découvrez comment créer un partage de fichiers Windows Server dans le cadre de l’installation de Skype entreprise Server. Télécharger une version d’évaluation gratuite de Skype entreprise Server à partir du centre d’évaluation[https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)Microsoft pour:.
   
-Skype pour Business Server requiert un partage de fichiers afin que tous les ordinateurs de la topologie peuvent échanger des fichiers. Création d’un partage de fichiers est l’étape 2 de 8 dans le processus d’installation pour Skype pour Business Server. Vous pouvez effectuer les étapes 1 à 5 dans n’importe quel ordre. Cependant, vous devez exécuter les étapes 6, 7 et 8 dans l’ordre, et après les étapes 1 à 5 comme indiqué sur le diagramme. Pour plus d’informations sur le partage de fichiers la planification, consultez [exigences pour Skype pour Business Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) ou [configuration serveur requise pour Skype pour Business Server 2019](../../../SfBServer2019/plan/system-requirements.md).
+Pour pouvoir échanger des fichiers, Skype entreprise Server a besoin d’un partage de fichiers. La création d’un partage de fichiers est l’étape 2 sur 8 du processus d’installation de Skype entreprise Server. Vous pouvez effectuer les étapes 1 à 5 dans n’importe quel ordre. Cependant, vous devez exécuter les étapes 6, 7 et 8 dans l’ordre, et après les étapes 1 à 5 comme indiqué sur le diagramme. Pour plus d’informations sur la planification du partage de fichiers, voir la [Configuration requise pour Skype entreprise Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) ou [serveur requise pour skype entreprise Server 2019](../../../SfBServer2019/plan/system-requirements.md).
   
 ![Schéma de vue d’ensemble](../../media/e69de059-3040-45ab-9379-1932f9fbb37f.png)
   
 ## <a name="create-a-basic-file-share"></a>Créer un partage de fichiers basique
 
-Cette section vous indique comment créer un partage de fichiers Serveur Windows basique. Un partage de fichiers Windows Server base est pris en charge avec Skype pour Business Server. Toutefois, il ne fournit pas explicitement une haute disponibilité. Pour un environnement à haute disponibilité, un partage de fichiers Système de fichiers distribué DFS est recommandé. Pour plus d’informations sur un partage de fichiers haute disponibilité et de DFS, voir [planifier la haute disponibilité et de récupération d’urgence dans Skype pour Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
+Cette section vous indique comment créer un partage de fichiers Serveur Windows basique. Un partage de fichiers Windows Server de base est pris en charge avec Skype entreprise Server. Toutefois, elle ne fournit pas explicitement une haute disponibilité. Pour un environnement à haute disponibilité, un partage de fichiers Système de fichiers distribué DFS est recommandé. Pour plus d’informations sur le partage de fichiers et le système de fichiers DFS de haute disponibilité, voir [planifier une disponibilité élevée et une reprise après sinistre dans Skype entreprise Server](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
   
 > [!NOTE]
-> Windows Server 2012 R2 a effectué un bond de géant en offrant des solutions de partage de fichiers de type SAN (Storage Area Network) à l’aide de la plateforme Windows Server. Comparée à un dispositif SAN traditionnel, une solution de stockage Windows Server 2012 R2 permet de diviser les coûts par deux sans réelles incidences sur les performances. Pour plus d’informations sur les options de partage de fichiers dans Windows Server 2012 R2, voir le livre blanc [Stockage de Windows Server 2012 R2](https://download.microsoft.com/download/9/4/A/94A15682-02D6-47AD-B209-79D6E2758A24/Windows_Server_2012_R2_Storage_White_Paper.pdf). 
+> Windows Server 2012 R2 a effectué un bond de géant en offrant des solutions de partage de fichiers de type SAN (Storage Area Network) à l’aide de la plateforme Windows Server. Comparée à un dispositif SAN traditionnel, une solution de stockage Windows Server 2012 R2 permet de diviser les coûts par deux sans réelles incidences sur les performances. Pour plus d’informations sur les options de partage de fichiers dans Windows Server 2012 R2, voir le livre blanc téléchargeable [Windows server 2012 R2 Storage](https://download.microsoft.com/download/9/4/A/94A15682-02D6-47AD-B209-79D6E2758A24/Windows_Server_2012_R2_Storage_White_Paper.pdf). 
   
 Regardez la vidéo des étapes pour **créer un partage de fichiers** :
   
@@ -62,12 +62,12 @@ Regardez la vidéo des étapes pour **créer un partage de fichiers** :
      ![Partage d’onglets pour partager des dossiers.](../../media/78fe8441-dead-43ed-9a04-3c7c8c657c15.png)
   
 > [!NOTE]
->Si le magasin de fichiers est hébergé sur un DFS partager, recevra l’avertissement suivant :
+>Si le magasin de fichiers est hébergé sur un partage DFS, le message d’avertissement suivant est reçu:
 
-Avertissement : Impossible d’accéder aux autorisations de partage pour «\\<domain>\<share> ».
+AVERTISSEMENT: impossible d’accéder aux autorisations de partage\\<domain>\<pour «share>».
 
->Si vous n’êtes pas un administrateur sur le serveur de fichiers ou s’il s’agit d’un partage de système de fichiers distribués (DFS) est attendu. Si les autorisations de partage ont déjà été configurées, cet avertissement peut être ignoré. S’il s’agit d’un nouveau partage, reportez-vous à la documentation pour plus d’informations sur la configuration manuelle des autorisations de partage.
+>Cela peut se produire si vous n’êtes pas administrateur sur le serveur de fichiers ou s’il s’agit d’un partage du système de fichiers DFS. Si les autorisations de partage ont déjà été configurées, cet avertissement peut être ignoré. S’il s’agit d’un nouveau partage, reportez-vous à la documentation pour plus d’informations sur la configuration manuelle des autorisations de partage.
 
->En raison de l’impossibilité d’accéder aux autorisations de partage sur un partage DFS, Skype pour Business Server ne pourront pas définir explicitement des groupes sur le partage de fichiers. Pour garantir que le partage de fichiers avec les autorisations appropriées peut accéder à Skype pour les composants Business Server, vérifiez que les groupes RTC suivants sont ajoutés à modifier les autorisations au niveau de partage en plus des administrateurs locaux avec les autorisations de partage contrôle total.
+>En raison de l’incapacité d’accéder aux autorisations de partage sur un partage DFS, Skype entreprise Server ne peut pas définir explicitement les groupes sur le partage de fichiers. Pour vous assurer que les composants de Skype entreprise Server peuvent accéder au partage de fichiers avec les autorisations appropriées, assurez-vous que les groupes RTC suivants sont ajoutés en plus des autorisations de partage de niveau supérieur.
 
 RTCHSUniversalServices RTCComponentUniversalServices RTCUniversalServerAdmins

@@ -5,7 +5,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 2/15/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,17 +13,17 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 90490c65-0e40-4e85-96e1-751f27897e25
-description: Suivez les étapes décrites dans cette rubrique pour modifier la configuration d’un Skype existant pour le nuage connecteur Édition 1.4.1 ou déploiement ultérieur.
-ms.openlocfilehash: abe7d9be6ec0ae48ff8cbac09475c6a41bf2a49f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Suivez les étapes décrites dans cette rubrique pour modifier la configuration d’une version actuelle de Skype entreprise Cloud Connector, ou d’une version ultérieure.
+ms.openlocfilehash: 7e46d614a5aaf3c34d9401e2ec53ba72e8adba71
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32237608"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287047"
 ---
 # <a name="modify-the-configuration-of-an-existing-cloud-connector-deployment"></a>Modify the configuration of an existing Cloud Connector deployment
  
-Suivez les étapes décrites dans cette rubrique pour modifier la configuration d’un Skype existant pour le nuage connecteur Édition 1.4.1 ou déploiement ultérieur. 
+Suivez les étapes décrites dans cette rubrique pour modifier la configuration d’une version actuelle de Skype entreprise Cloud Connector, ou d’une version ultérieure. 
   
 ## <a name="modify-the-configuration-of-a-single-site"></a>Modifier la configuration d'un seul site
 <a name="BKMK_SIngleSite"> </a>
@@ -44,7 +44,7 @@ Si le site ne comporte qu'une seule appliance, lorsque vous souhaitez modifier l
 
 3. Mettez le fichier CloudConnector.ini à jour dans l'annuaire d'appliances.
     
-4. Exécutez la cmdlet suivante pour mettre à jour la configuration : (cette étape n’est applicable que pour la version 2 ; pour les versions antérieures, passez à l’étape suivante).
+4. Exécutez l’applet de commande suivante pour mettre à jour la configuration: (cette étape s’applique uniquement à la version 2; pour les versions précédentes, passez à l’étape suivante.)
     
    ```
    Import-CcConfiguration 
@@ -64,7 +64,7 @@ Si le site ne comporte qu'une seule appliance, lorsque vous souhaitez modifier l
 
 Si le site comporte plusieurs appliances, vous devez suivre ces étapes, modifier le fichier CloudConnector.ini et redéployer les appliances une par une.
   
-1. Exécutez l’applet de commande suivante pour désinstaller tous les ordinateurs virtuels existants dans l’application en cours : 
+1. Exécutez l’applet de commande suivante pour désinstaller toutes les machines virtuelles existantes sur le matériel actuel: 
     
    ```
    Uninstall-CcAppliance
@@ -78,7 +78,7 @@ Si le site comporte plusieurs appliances, vous devez suivre ces étapes, modifie
 
 3. Mettez le fichier CloudConnector.ini à jour dans l'annuaire d'appliances.
     
-4. Exécutez la cmdlet suivante pour mettre à jour la configuration : (cette étape n’est applicable que pour la version 2 ; pour les versions antérieures, passez à l’étape suivante).
+4. Exécutez l’applet de commande suivante pour mettre à jour la configuration: (cette étape s’applique uniquement à la version 2; pour les versions précédentes, passez à l’étape suivante.)
     
    ```
    Import-CcConfiguration 
@@ -96,7 +96,7 @@ Si le site comporte plusieurs appliances, vous devez suivre ces étapes, modifie
    Publish-CcAppliance
    ```
 
-7. Exécutez l’applet de commande suivante pour redéployer nuage connecteur sur le matériel en cours :
+7. Exécutez l’applet de commande suivante pour redéployer le Cloud Connector sur le matériel actuel:
     
    ```
    Install-CcAppliance
@@ -105,14 +105,14 @@ Si le site comporte plusieurs appliances, vous devez suivre ces étapes, modifie
 ## <a name="modify-the-configuration-of-multiple-sites"></a>Modifier la configuration de plusieurs sites
 <a name="BKMK_MultipleSites"> </a>
 
-Pour modifier la configuration pour plusieurs sites dans un déploiement, suivez les étapes d’un seul site, mise à jour d’un site à la fois.
+Pour modifier la configuration de plusieurs sites dans un déploiement, suivez les étapes d’un seul site pour mettre à jour un site à la fois.
   
-## <a name="modify-the-configuration-of-your-office-365-tenant-to-enable-automatic-updates"></a>Modifier la configuration de votre client Office 365 pour activer les mises à jour automatiques
+## <a name="modify-the-configuration-of-your-office-365-tenant-to-enable-automatic-updates"></a>Modification de la configuration de votre client Office 365 pour activer les mises à jour automatiques
 <a name="BKMK_MultipleSites"> </a>
 
-Pour activer les mises à jour automatiques du système d’exploitation et les mises à jour automatiques de Bits, vous devez utiliser le Skype pour le compte d’administrateur client Business pour la gestion en ligne et l’utilisation de PowerShell à distance des clients comme suit.
+Pour activer les mises à jour automatiques du système d’exploitation et les mises à jour automatiques bits, vous devez utiliser le compte d’administrateur de clients Skype entreprise pour une gestion en ligne et utiliser PowerShell distant client comme suit.
   
-Si vous avez désactivé les mises à jour automatiques du système d’exploitation ou des mises à jour automatiques des fichiers binaires, votre hôte et la machine virtuelle peuvent manquer des mises à jour importantes et nuage connecteur ne seront pas modifiés automatiquement vers la nouvelle version. Il est vivement recommandé de d’activer les mises à jour automatiques.
+Si vous avez désactivé les mises à jour automatiques du système d’exploitation ou les mises à jour automatiques bits, il est possible que votre hôte et votre ordinateur virtuel manquent de nouvelles mises à jour Windows, et que Cloud Connector ne sera pas automatiquement mis à niveau vers la nouvelle version. Il est vivement recommandé de d’activer les mises à jour automatiques.
   
 1. La propriété EnableAutoUpdate du site doit être définie sur true (valeur par défaut). Exécutez l’applet de commande suivante pour vous assurer que EnableAutoUpdate est définie sur True :
     
@@ -148,84 +148,84 @@ Si vous avez désactivé les mises à jour automatiques du système d’exploita
    New-CsTenantUpdateTimeWindow -Identity MidDayOfMonth -Monthly -DayOfMonth 15 -StartTime 0:00 -Duration 1.00:00
    ```
 
-   - Affecter des périodes de mise à jour sur le site. 
+   - Attribuez des heures de mise à jour à votre site. 
     
-     Les fenêtres temporelles de mises à jour d'OS et de Bits sont configurées séparément. OS et Bits peuvent recevoir une seule fenêtre temporelle ou plusieurs. Chaque fenêtre temporelle peut être affectée à différents sites et pour différents objectifs (mise à jour de Bits et d'OS). Exécutez l’applet de commande suivante pour définir la fenêtre de temps pour le site : 
+     Les fenêtres temporelles de mises à jour d'OS et de Bits sont configurées séparément. OS et Bits peuvent recevoir une seule fenêtre temporelle ou plusieurs. Chaque fenêtre temporelle peut être affectée à différents sites et pour différents objectifs (mise à jour de Bits et d'OS). Exécutez l’applet de commande suivante pour définir la fenêtre délai pour le site: 
     
    ```
    Set-CsHybridPSTNSite -Identity <SiteName> -BitsUpdateTimeWindow @{add="MidDayOfMonth","WeekdayNight"} -OsUpdateTimeWindow @{replace="Night"}
    ```
 
-## <a name="update-the-dedicated-tenant-admin-credentials"></a>Mettre à jour les informations d’identification d’administration de client dédié
+## <a name="update-the-dedicated-tenant-admin-credentials"></a>Mettre à jour les informations d’identification d’administrateur de clients dédiées
 <a name="BKMK_MultipleSites"> </a>
 
-Modifications d’administration dans le client Office 365 pour le connecteur sur le nuage sont effectuées à partir d’un compte disposant des autorisations requises. Dans les versions antérieures nuage connecteur 2.0, ce compte est un compte d’administrateur client globale dédié. Dans le nuage connecteur 2.0 et versions ultérieures, ce compte peut être un compte Office 365 avec Skype pour des droits d’administrateur d’entreprise.
+Les modifications d’administration apportées au client 365 pour le Cloud Connector sont effectuées à partir d’un compte disposant des autorisations nécessaires. Dans les versions Cloud Connector antérieures à 2,0, ce compte est un compte d’administrateur de clients global dédié. Dans Cloud Connector versions 2,0 et ultérieures, ce compte peut être un compte Office 365 avec des droits d’administrateur Skype entreprise.
   
-Si vos informations d’identification du compte d’administration changent dans Office 365, vous devez également mettre à jour les informations d’identification mises en cache localement dans le nuage connecteur en exécutant la commande administrateur PowerShell suivante sur chaque appliance nuage connecteur que vous avez déployé :
+Si les informations d’identification de votre compte d’administrateur sont modifiées dans Office 365, vous devez également mettre à jour les informations d’identification mises en cache localement dans Cloud Connector en exécutant la commande PowerShell d’administration suivante sur chacun des appareils Cloud Connector:
   
 ```
 Set-CcCredential -AccountType TenantAdmin
 ```
 
-## <a name="update-the-password-for-the-host-server"></a>Mettre à jour le mot de passe pour le serveur hôte
+## <a name="update-the-password-for-the-host-server"></a>Mettre à jour le mot de passe du serveur hôte
 <a name="BKMK_UpdatePassword"> </a>
 
 > [!NOTE]
-> Cette section est applicable à la version en nuage connecteur 2.0 et versions ultérieures. 
+> Cette section s’applique à la version 2,0 et les versions ultérieures du connecteur Cloud. 
   
-Toutes les informations d’identification sur le nuage connecteur sont stockées dans le fichier suivant : « % SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml ». Lorsque le mot de passe sur le serveur hôte change, vous devrez mettre à jour les informations d’identification stockées localement.
+Les informations d’identification de tous les connecteurs Cloud sont stockées dans le fichier suivant: «%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>. xml ". Lorsque le mot de passe du serveur hôte change, vous devrez mettre à jour les informations d’identification stockées localement.
   
-Pour mettre à jour les informations d’identification stockées localement sur le matériel de nuage connecteur, utilisez les applets de commande [Get-CcCredential](get-cccredential.md) et [Set-CcCredential](set-cccredential.md) et procédez comme suit :
+Pour mettre à jour les informations d’identification stockées localement sur le périphérique Cloud Connector, utilisez les applets de connexion [Get-CcCredential](get-cccredential.md) et [Set-CcCredential](set-cccredential.md) , et procédez comme suit:
   
-1. Exécutez les commandes suivantes pour récupérer les mots de passe que vous aurez besoin plus tard : 
+1. Pour récupérer les mots de passe dont vous aurez besoin plus tard, exécutez les commandes suivantes: 
     
-   - Get-CcCredential - AccountType DomainAdmin - DisplayPassword
+   - Get-CcCredential-AccountType DomainAdmin-DisplayPassword
     
-   - Get-CcCredential - AccountType VMAdmin - DisplayPassword
+   - Get-CcCredential-AccountType VMAdmin-DisplayPassword
     
-   - Get-CcCredential - AccountType CceService - DisplayPassword
+   - Get-CcCredential-AccountType CceService-DisplayPassword
     
-2. Modifier le mot de passe de votre compte sur le serveur hôte.
+2. Modifiez le mot de passe de votre compte sur le serveur hôte.
     
 3. Redémarrez le serveur hôte.
     
-4. Supprimez le fichier suivant : « % SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml ».
+4. Supprimez le fichier suivant: «%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>. xml ".
     
-5. Lancer une console PowerShell en tant qu’administrateur et exécutez « Register-CcAppliance-Local » à entrer les mots de passe suivant la description. Assurez-vous que vous entrez le même mot de que passe avant le déploiement dans le nuage connecteur.
+5. Lancez une console PowerShell en tant qu’administrateur, puis exécutez «Register-CcAppliance-local» pour entrer de nouveau le mot de passe suivi de la description. Assurez-vous d’entrer le mot de passe que vous avez entré auparavant pour le déploiement Cloud Connector.
     
-Par défaut, VmAdmin et DomainAdmin utilisent le même mot de passe en tant que CceService. Si les mots de passe DomainAdmin, VMAdmin et CceService renvoyées à l’étape 1 sont différents, vous devez effectuer les étapes suivantes :
+Par défaut, VmAdmin et DomainAdmin utilisent le même mot de passe que CceService. Si le mot de passe DomainAdmin, VMAdmin et CceService renvoyé à l’étape 1 est différent, vous devez effectuer les étapes suivantes:
   
-1. Exécutez Set-CcCredential - AccountType DomainAdmin comme suit :
+1. Exécutez Set-CcCredential-AccountType DomainAdmin comme suit:
     
-1. Pour les informations d’identification du compte ancien à l’invite, entrez les informations d’identification que vous avez utilisé pour le mot de passe CceService.
+1. Lorsque vous êtes invité à entrer les informations d’identification de l’ancien compte, entrez les informations d’identification utilisées pour le mot de passe CceService.
     
-2. Lorsque vous y êtes invité pour les nouvelles informations d’identification du compte, entrez le mot de passe pour le mot de passe DomainAdmin renvoyée à l’étape 1.
+2. Lorsque vous êtes invité à entrer les informations d’identification du nouveau compte, entrez le mot de passe du mot de passe DomainAdmin renvoyé à l’étape 1.
     
-2. Exécutez Set-CcCredential - AccountType VmAdmin comme suit :
+2. Exécutez Set-CcCredential-AccountType VmAdmin comme suit:
     
-1. Pour les informations d’identification du compte ancien à l’invite, entrez les informations d’identification que vous avez utilisé pour le mot de passe CceService.
+1. Lorsque vous êtes invité à entrer les informations d’identification de l’ancien compte, entrez les informations d’identification utilisées pour le mot de passe CceService.
     
-2. Lorsque vous y êtes invité pour les nouvelles informations d’identification du compte, entrez le mot de passe pour le mot de passe VmAdmin renvoyée à l’étape 1. 
+2. Lorsque vous êtes invité à entrer les informations d’identification du nouveau compte, entrez le mot de passe du mot de passe VmAdmin renvoyé à l’étape 1. 
     
-## <a name="update-the-password-for-the-cceservice-account"></a>Mettre à jour le mot de passe pour le compte CceService
+## <a name="update-the-password-for-the-cceservice-account"></a>Mettez à jour le mot de passe du compte CceService
 <a name="BKMK_UpdatePassword"> </a>
 
 > [!NOTE]
-> Cette section est applicable à la version en nuage connecteur 2.0.1 et versions ultérieures. 
+> Cette section s’applique à Cloud Connector version 2.0.1 et versions ultérieures. 
   
-Le service de nuage connecteur s’exécute le service de gestion du connecteur sur le nuage. Le compte CceService est créé au cours du déploiement en nuage connecteur Edition et stocké dans les fichiers suivants : « % SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml » et « % SystemDrive%\Programdata\Cloudconnector\credentials... CceService.xml ».
+Le service Cloud Connector exécute le service de gestion de connecteurs Cloud. Le compte CceService est créé lors du déploiement de l’édition Cloud Connector et est stocké dans les fichiers suivants: «%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>. xml "et"%SystemDrive%\Programdata\Cloudconnector\credentials.. CceService. Xml».
   
-Pour vous assurer que tous les appareils peuvent accéder au partage de répertoire de site, le mot de passe pour le compte CceService doit être identiques sur tous les appareils déployés au sein du site. Tenez compte des points suivants :
+Pour vous assurer que tous les appareils peuvent accéder au partage de l’annuaire de sites, le mot de passe du compte CceService doit être le même sur tous les appareils déployés dans le site. Tenez compte des points suivants :
   
-- Par défaut, le compte CceService est configuré comme « Le mot de passe n’expire jamais ». Lorsque vous mettez à jour le mot de passe, Microsoft recommande de cette configuration.
+- Par défaut, le compte CceService est configuré comme «le mot de passe n’expire jamais». Lorsque vous mettez à jour le mot de passe, Microsoft vous recommande de le protéger.
     
-- Vous devez mettre à jour le mot de passe pendant les périodes d’utilisation de pointe et en dehors des périodes de mise à jour automatique pour les mises à jour de Windows ou de bits. Lorsque vous mettez à jour le mot de passe, l’appliance doit être drainés et redémarré, qui prend un certain temps. Redémarrage de l’appliance interrompt les opérations de mise à jour automatique. 
+- Vous devez mettre à jour le mot de passe pendant les périodes d’utilisation sans pointe et en dehors des mises à jour automatiques de Windows pour les bits ou les mises à jour Windows. Lorsque vous mettez à jour le mot de passe, l’application doit être vidée et redémarrée, ce qui prend du temps. Le redémarrage de l’application interrompt les opérations de mise à jour automatique. 
     
-- Lorsque vous modifiez le mot de passe du compte CceService, vous devez spécifier les informations d’identification et les mettre à jour dans le fichier stocké localement. 
+- Lorsque vous modifiez le mot de passe du compte CceService, vous devez spécifier toutes les informations d’identification et les mettre à jour dans le fichier stocké localement. 
     
-Pour chaque application qui appartient au même site PSTN, vous devez spécifier les éléments suivants : 
+Pour chaque appareil qui appartient au même site RTC, vous devez spécifier les éléments suivants: 
   
-1. Exécutez les commandes suivantes pour récupérer les noms de compte et les mots de passe que vous utiliserez plus tard :
+1. Pour récupérer les noms de compte et mots de passe que vous utiliserez plus tard, exécutez les commandes suivantes:
     
    ```
    Get-CcCredential -AccountType TenantAdmin -DisplayPassword
@@ -239,54 +239,54 @@ Pour chaque application qui appartient au même site PSTN, vous devez spécifier
    Get-CcCredential -AccountType DomainAdmin -DisplayPassword
    ```
 
-2. Exécutez l’applet de commande entrée-CcUpdate pour décharger le matériel et la déplacer en mode maintenance manuelle.
+2. Exécutez l’applet de conduite Enter-CcUpdate pour décharger l’appareil et le déplacer vers le mode de maintenance manuelle.
     
-3. Mettre à jour le mot de passe du compte CceService sur le serveur hôte.
+3. Mettez à jour le mot de passe du compte CceService sur le serveur hôte.
     
 4. Redémarrez le serveur hôte.
     
-5. Exécutez l’applet de commande Restore-CcCredentials pour entrer de nouveau les mots de passe suivant la description. 
+5. Exécutez l’applet de commande Restore-CcCredentials pour entrer de nouveau le mot de passe suivant la description. 
     
-    Assurez-vous que vous entrez le même mot de que passe avant le déploiement de nuage connecteur à l’exception du compte CceService. Pour le compte CceService, entrez votre nouveau mot de passe. Assurez-vous que le nouveau mot de passe pour le compte CceService est la même pour tous les matériels dans le site PSTN.
+    Assurez-vous d’entrer le mot de passe que vous avez entré précédemment pour le déploiement du Cloud Connector, sauf pour le compte CceService. Pour le compte CceService, entrez votre nouveau mot de passe. Vérifiez que le nouveau mot de passe du compte CceService est le même pour tous les appareils du site PSTN.
     
-6. Par défaut, VmAdmin et DomainAdmin utilisent le même mot de passe en tant que CceService. Si les mots de passe DomainAdmin, VMAdmin et CceService renvoyées à l’étape 1 sont différents, vous devez effectuer les étapes suivantes :
+6. Par défaut, VmAdmin et DomainAdmin utilisent le même mot de passe que CceService. Si le mot de passe DomainAdmin, VMAdmin et CceService renvoyé à l’étape 1 est différent, vous devez effectuer les étapes suivantes:
     
-7. Exécutez Set-CcCredential - AccountType DomainAdmin comme suit :
+7. Exécutez Set-CcCredential-AccountType DomainAdmin comme suit:
     
-   - Pour les informations d’identification du compte ancien à l’invite, entrez les informations d’identification que vous avez utilisé pour le mot de passe CceService.
+   - Lorsque vous êtes invité à entrer les informations d’identification de l’ancien compte, entrez les informations d’identification utilisées pour le mot de passe CceService.
     
-   - Lorsque vous y êtes invité pour les nouvelles informations d’identification du compte, entrez le mot de passe pour le mot de passe DomainAdmin renvoyée à l’étape 1.
+   - Lorsque vous êtes invité à entrer les informations d’identification du nouveau compte, entrez le mot de passe du mot de passe DomainAdmin renvoyé à l’étape 1.
     
-8. Exécutez Set-CcCredential - AccountType VmAdmin comme suit :
+8. Exécutez Set-CcCredential-AccountType VmAdmin comme suit:
     
-   - Pour les informations d’identification du compte ancien à l’invite, entrez les informations d’identification que vous avez utilisé pour le mot de passe CceService.
+   - Lorsque vous êtes invité à entrer les informations d’identification de l’ancien compte, entrez les informations d’identification utilisées pour le mot de passe CceService.
     
-   - Lorsque vous y êtes invité pour les nouvelles informations d’identification du compte, entrez le mot de passe pour le mot de passe VmAdmin renvoyée à l’étape 1. 
+   - Lorsque vous êtes invité à entrer les informations d’identification du nouveau compte, entrez le mot de passe du mot de passe VmAdmin renvoyé à l’étape 1. 
     
-9. Exécutez l’applet de commande Exit-CcUpdate pour déplacer le matériel en mode maintenance manuelle.
+9. Exécutez l’applet de connexion Exit-CcUpdate pour éloigner l’application du mode de maintenance manuelle.
     
-10. Après avoir terminé ces étapes sur tous les appareils dans le même site PSTN, supprimez les fichiers suivants dans le répertoire racine du site :
+10. Après avoir effectué ces étapes sur tous les appareils du même site RTC, supprimez les fichiers suivants dans le répertoire racine du site:
     
     - CcLockFile
     
-    - Site_\<nom complet du Pool de Sip externe Edge\>
+    - FQDN\<du pool SIP externe Site_ Edge\>
     
-    - Tenant_\<nom complet du Pool de Sip externe Edge\>
+    - FQDN\<du pool SIP externe Tenant_ Edge\>
     
-    - TenantConfigLock_\<nom complet du Pool de Sip externe Edge\>
+    - FQDN\<du pool SIP externe TenantConfigLock_ Edge\>
     
-## <a name="add-a-new-sip-domain"></a>Ajouter un domaine SIP
+## <a name="add-a-new-sip-domain"></a>Ajouter un nouveau domaine SIP
 <a name="BKMK_UpdatePassword"> </a>
 
-Pour ajouter un domaine SIP (ou plusieurs domaines SIP) à votre déploiement en nuage connecteur existant, procédez comme suit :
+Pour ajouter un nouveau domaine SIP (ou plusieurs domaines SIP) à votre déploiement Cloud Cloud actuel, procédez comme suit:
   
-1. Assurez-vous que vous avez effectué les étapes pour mettre à jour votre domaine dans Office 365 et ont la possibilité d’ajouter des enregistrements DNS. Pour plus d’informations sur la façon de configurer votre domaine dans Office 365, voir [Ajouter un domaine à Office 365](https://support.office.com/en-us/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611).
+1. Vérifiez que vous avez terminé les étapes de mise à jour de votre domaine dans Office 365 et que vous avez la possibilité d’ajouter des enregistrements DNS. Pour plus d’informations sur la configuration de votre domaine dans Office 365, voir [Ajouter un domaine à office 365](https://support.office.com/en-us/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611).
     
-2. Mettre à jour le fichier de configuration du connecteur sur le nuage avec le nouveau domaine SIP ou des domaines.
+2. Mettez à jour le fichier de configuration du connecteur Cloud avec le nouveau domaine ou domaines SIP.
     
-3. Demander un nouveau certificat externe Edge avec des noms SAN supplémentaires pour domaine.SIP pour chaque domaine SIP défini dans votre configuration de connecteur dans le nuage. 
+3. Demandez un nouveau certificat externe avec des noms de réseau SIP supplémentaires pour SIP. domain pour chaque domaine SIP défini dans votre configuration Cloud Connector. 
     
-4. Définir le chemin d’accès pour le nouveau certificat externe Edge comme suit :
+4. Définissez le chemin pour le nouveau certificat externe du périmètre comme suit:
     
    ```
    Set-CcExternalCertificateFilePath -Path <Full path to External certificate>
@@ -294,20 +294,20 @@ Pour ajouter un domaine SIP (ou plusieurs domaines SIP) à votre déploiement en
 
 5. 
     
-    Suivez les instructions pour [Modifier la configuration d’un seul site](modify-the-configuration-of-an-existing-cloud-connector-deployment.md#BKMK_SIngleSite) ou [Modifier la configuration de plusieurs sites](modify-the-configuration-of-an-existing-cloud-connector-deployment.md#BKMK_MultipleSites).
+    Suivez les instructions pour [modifier la configuration d’un site unique](modify-the-configuration-of-an-existing-cloud-connector-deployment.md#BKMK_SIngleSite) ou pour [modifier la configuration de plusieurs sites](modify-the-configuration-of-an-existing-cloud-connector-deployment.md#BKMK_MultipleSites).
     
 ## <a name="modify-the-primary-sip-domain"></a>Modifier le domaine SIP principal
 <a name="BKMK_UpdatePassword"> </a>
 
-Si vous devez modifier le domaine SIP principal de votre déploiement en nuage connecteur, procédez comme suit :
+Si vous devez modifier le domaine SIP principal dans votre déploiement Cloud Connector, procédez comme suit:
   
-1. Assurez-vous que vous avez effectué les étapes pour mettre à jour votre domaine dans Office 365 et ont la possibilité d’ajouter des enregistrements DNS. Pour plus d’informations sur la façon de configurer votre domaine dans Office 365, voir [Ajouter un domaine à Office 365](https://support.office.com/en-us/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611).
+1. Vérifiez que vous avez terminé les étapes de mise à jour de votre domaine dans Office 365 et que vous avez la possibilité d’ajouter des enregistrements DNS. Pour plus d’informations sur la configuration de votre domaine dans Office 365, voir [Ajouter un domaine à office 365](https://support.office.com/en-us/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611).
     
-2. Mettre à jour le fichier de configuration du connecteur sur le nuage avec le nouveau domaine SIP.
+2. Mettez à jour le fichier de configuration du connecteur Cloud avec le nouveau domaine SIP.
     
-3. Demander un nouveau certificat externe Edge avec des noms SAN supplémentaires pour domaine.SIP pour chaque domaine SIP défini dans votre configuration de connecteur dans le nuage. 
+3. Demandez un nouveau certificat externe avec des noms de réseau SIP supplémentaires pour SIP. domain pour chaque domaine SIP défini dans votre configuration Cloud Connector. 
     
-4. Définir le chemin d’accès pour le nouveau certificat externe Edge comme suit :
+4. Définissez le chemin pour le nouveau certificat externe du périmètre comme suit:
     
    ```
    Set-CcExternalCertificateFilePath -Path <Full path to External certificate>
@@ -315,7 +315,7 @@ Si vous devez modifier le domaine SIP principal de votre déploiement en nuage c
 
 5. 
     
-    Supprimer l’inscription du client pour chaque application dans un site en exécutant l’applet de commande suivante dans l’administrateur PowerShell sur le nuage connecteur :
+    Supprimez l’inscription de locataire pour chaque application dans un site en exécutant l’applet de commande suivante dans PowerShell PowerShell sur le Cloud Connector:
     
    ```
    Unregister-CcAppliance
@@ -323,7 +323,7 @@ Si vous devez modifier le domaine SIP principal de votre déploiement en nuage c
 
 6. 
     
-    Supprimer l’inscription de sites pour chaque site en exécutant la cmdlet suivante dans Skype pour Business Online PowerShell :
+    Supprimez l’inscription de site pour chaque site en exécutant l’applet de commande suivante dans Skype entreprise Online PowerShell:
     
    ```
    Remove-CsHybridPSTNSite
@@ -331,7 +331,7 @@ Si vous devez modifier le domaine SIP principal de votre déploiement en nuage c
 
 7. 
     
-    Désinstaller chaque appliance en exécutant la cmdlet suivante dans administrateur PowerShell sur le nuage connecteur :
+    Désinstallez chaque application en exécutant l’applet de commande suivante dans PowerShell PowerShell dans Cloud Connector:
     
    ```
    Uninstall-CcAppliance
@@ -339,7 +339,7 @@ Si vous devez modifier le domaine SIP principal de votre déploiement en nuage c
 
 8. 
     
-     Enregistrer chaque appliance en exécutant la cmdlet suivante dans administrateur PowerShell sur le nuage connecteur :
+     Enregistrez chaque application en exécutant l’applet de commande suivante dans PowerShell PowerShell dans Cloud Connector:
     
    ```
    Register-ccAppliance
@@ -347,18 +347,18 @@ Si vous devez modifier le domaine SIP principal de votre déploiement en nuage c
 
 9. 
     
-     Installer chaque matériel, un par un, en exécutant la cmdlet suivante dans administrateur PowerShell sur le nuage connecteur :
+     Installez chaque application, une par une, en exécutant l’applet de commande suivante dans PowerShell PowerShell sur le Cloud Connector:
     
    ```
    Install-CcAppliance
    ```
 
-## <a name="replace-the-external-edge-certificate-with-a-new-certificate"></a>Remplacer le certificat de serveur Edge externe avec un nouveau certificat
+## <a name="replace-the-external-edge-certificate-with-a-new-certificate"></a>Remplacer le certificat de bord externe par un nouveau certificat
 <a name="BKMK_UpdatePassword"> </a>
 
-Lorsque vous devez remplacer le certificat de serveur Edge externe sur vos applications dans le nuage connecteur, vous devez obtenir un nouveau certificat de serveur Edge, préparer le fichier PFX contenant la chaîne de certificats complète et la clé privée, puis procédez comme suit sur chaque appliance :
+Lorsque vous avez besoin de remplacer le certificat de frontière externe sur vos appareils Cloud Connector, vous devez obtenir un nouveau certificat de bord, préparer le fichier PFX contenant la clé privée et la chaîne de certificats complète, puis effectuer les opérations suivantes sur chaque application:
   
-1. Placer l’application en mode maintenance à l’aide de l’applet de commande entrée-CcUpdate.
+1. Placez l’application en mode de maintenance à l’aide de l’applet de passe Enter-CcUpdate.
     
 2. Exécutez la commande suivante : 
     
@@ -368,8 +368,8 @@ Lorsque vous devez remplacer le certificat de serveur Edge externe sur vos appli
 
 3. 
     
-    Si le mot de passe du nouveau certificat est identique à l’ancien, l’importation sera réussie. Si le mot de passe est différent, vous obtenez une erreur que le mot de passe est incorrect, et vous devez réinitialiser le mot de passe en exécutant l’applet de commande Register-CcAppliance avec le paramètre - Local, et puis répéter l’étape 2. 
+    Si le mot de passe du nouveau certificat est identique à l’ancien, l’importation est réussie. Si le mot de passe est différent, vous recevez un message d’erreur indiquant que le mot de passe est incorrect, et vous devez réinitialiser le mot de passe en exécutant l’applet de passe Register-CcAppliance à l’aide du paramètre-local, puis répéter l’étape 2. 
     
-4. Prendre l’appliance en mode maintenance à l’aide de l’applet de commande Exit - CcUpdate.
+4. Emportez l’application en mode de maintenance à l’aide de l’applet de connexion Exit-CcUpdate.
     
 

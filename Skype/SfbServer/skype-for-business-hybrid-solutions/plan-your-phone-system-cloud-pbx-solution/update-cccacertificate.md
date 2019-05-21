@@ -5,22 +5,22 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 7/11/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5b474789-75de-443c-89bd-de89be55a1dd
-description: L’applet de commande Update-CcCACertificate renouvelle le Skype pour certificat d’autorité de certification racine nuage connecteur édition bientôt expirer ou déjà arrivé à expiration.
-ms.openlocfilehash: d123474240fb18ffcb6c1c037cc5407eb4c6c4e3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+description: L’applet de connexion Update-CcCACertificate renouvelle le certificat de l’autorité de certification racine Skype entreprise Cloud Connector qui est proche de l’expiration ou qui est déjà expiré.
+ms.openlocfilehash: e32b910d07aa4f2370af72d0a04bb939b80b3034
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877932"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286844"
 ---
 # <a name="update-cccacertificate"></a>Update-CcCACertificate
  
-L’applet de commande Update-CcCACertificate renouvelle le Skype pour certificat d’autorité de certification racine nuage connecteur édition bientôt expirer ou déjà arrivé à expiration. 
+L’applet de connexion Update-CcCACertificate renouvelle le certificat de l’autorité de certification racine Skype entreprise Cloud Connector qui est proche de l’expiration ou qui est déjà expiré. 
   
 ```
 Update-CcCACertificate
@@ -46,18 +46,18 @@ Update-CcCACertificate
 
 Le certificat de l’AC racine de Cloud Connector est valide cinq ans à partir de la date d’installation du service d’autorité de certification.
   
-Si le certificat racine est proche d’expiration ou déjà expirés, exécutez l’applet de commande Update-CcCACertificate pour renouveler le certificat. Après le renouvellement du certificat racine, le serveur AD, le magasin central de gestion et le serveur Edge fournissent automatiquement de nouveaux certificats.
+Si le certificat racine est proche de l’expiration ou a déjà expiré, exécutez l’applet de certification Update-CcCACertificate pour renouveler le certificat. Après le renouvellement du certificat racine, le serveur AD, le magasin central de gestion et le serveur Edge fournissent automatiquement de nouveaux certificats.
   
-S’il existe plusieurs applications dans le même site PSTN, exécutez l’applet de commande Update-CcCACertificate dans tous les appareils du même site PSTN.
+S’il existe plusieurs applications sur le même site RTC, exécutez l’applet de l’applet de mise à jour-CcCACertificate dans tous les appareils du même site PSTN.
   
 Comme dernière étape, exécutez Export-CcRootCertificate afin d’exporter le certificat racine vers un fichier local dans la première appliance, puis copiez et installez le certificat exporté vers vos passerelles RTC.
   
-Cette commande remplace l’applet de commande renouveler-CcCACertificate dans le nuage connecteur 2.0 et versions ultérieures.
+Cette commande remplace l’applet de commande Renew-CcCACertificate dans Cloud Connector 2,0 et les versions ultérieures.
   
 ## <a name="input-types"></a>Types d’entrées
 <a name="InputTypes"> </a>
 
-Aucun. L’applet de commande Update-CcCACertificate n’accepte pas la saisie de données redirigées.
+Aucun. L’applet de commande Update-CcCACertificate n’accepte pas les entrées pipelines.
   
 ## <a name="return-types"></a>Types de retours
 <a name="ReturnTypes"> </a>

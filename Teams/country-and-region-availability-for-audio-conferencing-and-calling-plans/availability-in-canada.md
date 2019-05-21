@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Office 365 pour Skype Entreprise et Microsoft Teams disponibles au Canada.
-ms.openlocfilehash: 6b90ae826c24bf3af3d05ba0f65a3208b54cee1c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 485a491acbce57b5ef1503f7d14ba60804fb43a6
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32248200"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283169"
 ---
 # <a name="availability-in-canada"></a>Disponibilité au Canada
 
@@ -43,7 +43,7 @@ Voici les services Office 365 pour Skype Entreprise et Microsoft Teams disponi
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
 |L'audioconférence est-elle disponible à l'achat ?  <br/> |Oui  <br/> |
-|Les numéros de téléphone sont-ils attribués automatiquement pour l'audioconférence ?  <br/> |Oui, pour :<br/><ul><li> Toronto</ul>Si vous souhaitez obtenir des numéros de téléphone dédiés, reportez-vous à la rubrique [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).  <br/> |
+|Les numéros de téléphone sont-ils attribués automatiquement pour l'audioconférence ?  <br/> |Oui, pour:<br/><ul><li> Toronto</ul>Si vous souhaitez obtenir des numéros de téléphone dédiés, reportez-vous à la rubrique [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).  <br/> |
 |Fonction de numérotation à l'aide de la fonctionnalité M'appeler  <br/> |Disponibles  <br/> |
 
 ## <a name="phone-system"></a>Système téléphonique
@@ -60,12 +60,12 @@ Voici les services Office 365 pour Skype Entreprise et Microsoft Teams disponi
 | **Fonctionnalité**                                        | **Détails**                                                                                                                                                                                                                                                                 |
 |:---------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Les forfaits d'appels sont-ils disponibles à l'achat ?  <br/>    | Oui  <br/>                                                                                                                                                                                                                                                                  |
-| Minutes disponibles pour les Plans de l’appel.               | Il existe quatre options de plan par mois : <ul><li>120 minutes planifier l’appel interne </li><li>240 minutes planifier l’appel interne</li></li><li>3000 minute de planifier l’appel interne</li></li><li>Nationales et internationales appelant planifier : 3000 minutes d’intérieurs - ou-600 minutes d’appels internationaux (si elle est atteinte premier dans le mois)</li>|
-| Peut passer des appels sortants vers les numéros ?  <br/> | Non pris en charge pour l’instant.<br/>                                                                                                                                                                                                                                            |
+| Minutes disponibles pour les offres d’appels.               | Il existe quatre options de plan disponibles par mois civil: <ul><li>Forfait d’appels nationaux de 120 minutes </li><li>Forfait d’appels nationaux de 240 minutes</li></li><li>Forfait d’appels nationaux de 3000 minutes</li></li><li>Forfait d’appels nationaux et internationaux: 3000 minutes d’appel international ou de 600 minutes d’appels internationaux (selon la première atteinte du mois civil)</li>|
+| Est-il possible de passer des appels sortants vers des numéros payants?  <br/> | Non prise en charge pour le moment.<br/>                                                                                                                                                                                                                                            |
 | Est-il possible de passer des appels sortants ?  <br/>                 | Vers 196 pays, dont [ :](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/>                                                                                                                                                                  |
 
 > [!Note]
-> Les appels vers les États-Unis sont considérés comme des appels nationaux.
+> Les appels vers les États-Unis sont traités comme des appels nationaux.
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Numéros payants et gratuits pour les services
 
@@ -78,7 +78,7 @@ Voici les services Office 365 pour Skype Entreprise et Microsoft Teams disponi
  Si vous souhaitez obtenir des numéros de téléphone payants et gratuits pour l'audioconférence, les standards automatiques et les files d'attente des appels, reportez-vous à la rubrique [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).
 
 > [!Note] 
-> Lorsqu’un appel de Plan de (nationale ou nationales et internationales) utilisateur aux États-Unis compose un numéro de téléphone au Canada, il est considéré comme un appel national. C’est également le cas lorsqu’un utilisateur au Canada effectue un appel vers un numéro US.
+> Lorsqu’un utilisateur d’un plan d’appels (domestique ou national et international) aux États-Unis compose un numéro de téléphone au Canada, il sera considéré comme un appel national. C’est également le cas lorsqu’un utilisateur au Canada va appeler un numéro aux États-Unis.
 
 ## <a name="communications-credits"></a>Crédits de communication
 

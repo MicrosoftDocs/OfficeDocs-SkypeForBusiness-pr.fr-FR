@@ -1,10 +1,10 @@
 ---
-title: Créer ou modifier un groupe d’agents dans Skype pour les entreprises
+title: Créer ou modifier un groupe d’agents dans Skype entreprise
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,39 +13,39 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f1461fff-51c1-4f4b-9311-8cba02c333fc
-description: Créer ou modifier un groupe d’agents Response Group, dans Skype pour Business Server Enterprise Voice.
-ms.openlocfilehash: 43d4abba518b99a52b67a1c3bfe22abdea28d679
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Créez ou modifiez un groupe d’agents dans Response Group dans Skype entreprise Server Voice.
+ms.openlocfilehash: 0481e8048245908c757cf0dd1ecaed5d69291cb3
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892901"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286203"
 ---
-# <a name="create-or-modify-an-agent-group-in-skype-for-business"></a>Créer ou modifier un groupe d’agents dans Skype pour les entreprises
+# <a name="create-or-modify-an-agent-group-in-skype-for-business"></a>Créer ou modifier un groupe d’agents dans Skype entreprise
  
-Créer ou modifier un groupe d’agents Response Group, dans Skype pour Business Server Enterprise Voice.
+Créez ou modifiez un groupe d’agents dans Response Group dans Skype entreprise Server Voice.
   
 Lorsque vous créez un groupe d’agents, vous sélectionnez les agents affectés au groupe, spécifiez différents autres paramètres du groupe, comme la méthode de routage des appels, et indiquez si un agent peut se connecter au groupe et s’en déconnecter. 
   
-Un agent qui doit se connecter ou se déconnecter du groupe qui est différent de signature s’en déconnecter Skype pour les entreprises, est appelé agent formel. Les agents formels doivent être connectés au groupe pour recevoir des appels routés vers le groupe. Cela peut s’avérer utile pour les agents qui répondent à temps partiel aux appels du groupe. Les agents formels se connecter ou se déconnecter de leurs groupes en cliquant sur un élément de menu dans Skype pour les entreprises ouvrir le navigateur Internet Windows Internet Explorer et afficher une page Web console.
+Un agent qui doit se connecter ou se déconnecter du groupe, qui est différent de la connexion ou de la déconnexion de Skype entreprise, est appelé agent formel. Les agents formels doivent être connectés au groupe pour recevoir des appels routés vers le groupe. Cela peut s’avérer utile pour les agents qui répondent à temps partiel aux appels du groupe. Les agents formels se connectent à leur groupe en cliquant sur un élément de menu dans Skype entreprise pour ouvrir le navigateur Internet de Windows Internet Explorer et afficher une console de pages Web.
   
-Un agent qui ne doit pas se connecter le dans ou hors du groupe est appelé agent informel. Les agents informels sont automatiquement connectés au groupe lorsqu’ils se connectent à Skype pour les entreprises, et ils ne peuvent pas vous déconnecter du groupe.
+Un agent qui ne se connecte pas ou n’utilise pas le groupe est appelé agent informel. Les agents informels sont automatiquement connectés au groupe lorsqu’ils se connectent à Skype entreprise et ne peuvent pas se déconnecter du groupe.
   
-Seuls les utilisateurs locaux peuvent être des agents. Si un agent est déplacé sur site vers online, appels Response Group ne seront pas acheminés à cet agent.
+Seuls les utilisateurs locaux peuvent être des agents. Si un agent est déplacé de local vers en ligne, les appels de groupe de réponse ne seront pas routés vers cet agent.
   
 Pour créer ou modifier un groupe d’agents, utilisez l’une des procédures ci-dessous.
   
 > [!IMPORTANT]
 > Lorsque vous affectez des utilisateurs comme agents de groupe de réponse, informez-les que, si leur mode de confidentialité est activé, ils doivent rechercher des contacts « RGS Presence Watcher » et les rajouter à leur liste de contacts. Les agents dont le mode de confidentialité est activé, mais qui n’ont aucun contact « RGS Presence Watcher » dans leur liste de contacts, ne peuvent pas recevoir d’appels vers le groupe de réponse. Les agents dont le mode de confidentialité n’est pas activé ne seront pas affectés. 
   
-### <a name="to-use-skype-for-business-server-control-panel-to-create-or-modify-an-agent-group"></a>Utiliser Skype pour Business Server Control Panel pour créer ou modifier un groupe d’agents
+### <a name="to-use-skype-for-business-server-control-panel-to-create-or-modify-an-agent-group"></a>Pour utiliser le panneau de configuration Skype entreprise Server pour créer ou modifier un groupe d’agents
 
-1. Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre de l’un des rôles d’administration prédéfinis qui prennent en charge Response Group.
+1. Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre de l’un des rôles d’administration prédéfinis prenant en charge Response Group.
     
     > [!NOTE]
     > Si vous faites partie des responsables de groupes Response Group délégués pour un flux de travail géré, vous pouvez créer des groupes et les utiliser dans les flux de travail que vous gérez. 
   
-2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business.  
+2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration Skype entreprise Server.  
     
 3. Dans la barre de navigation de gauche, cliquez sur **Groupes Response Group**, puis cliquez sur **Groupe**.
     
@@ -61,9 +61,9 @@ Pour créer ou modifier un groupe d’agents, utilisez l’une des procédures c
     
 7. Dans **Stratégie de participation**, sélectionnez l’une des options ci-dessous pour définir le comportement de connexion du groupe :
     
-   - Sélectionnez **Informel** pour spécifier que les agents du groupe n’ont pas besoin de se connecter au groupe ou de s’en déconnecter. Les agents sont automatiquement connectés au groupe lorsqu’ils se connectent à Skype pour les entreprises.
+   - Sélectionnez **Informel** pour spécifier que les agents du groupe n’ont pas besoin de se connecter au groupe ou de s’en déconnecter. Les agents sont automatiquement connectés au groupe lorsqu’ils se connectent à Skype entreprise.
     
-   - Sélectionnez **Formel** pour spécifier que les agents du groupe doivent se connecter au groupe et s’en déconnecter. Lorsque vous sélectionnez cette option, les agents, cliquez sur un élément de menu dans Skype pour les entreprises, ouvrez Internet Explorer et afficher une console de page Web pour la signature et s’en déconnecter du groupe.
+   - Sélectionnez **Formel** pour spécifier que les agents du groupe doivent se connecter au groupe et s’en déconnecter. Lorsque vous sélectionnez cette option, l’agent clique sur un élément de menu dans Skype entreprise pour ouvrir Internet Explorer et afficher une console de pages Web pour vous connecter et se déconnecter du groupe.
     
 8. Dans **Temps d’alerte (secondes)**, spécifiez la durée (en secondes) pendant laquelle un appel doit sonner pour qu’il soit transmis à un agent disponible si l’agent auquel l’appel était destiné initialement ne peut pas y répondre (la durée par défaut est de 20 secondes).
     
@@ -72,7 +72,7 @@ Pour créer ou modifier un groupe d’agents, utilisez l’une des procédures c
   
 9. Dans **Méthode de routage**, sélectionnez la méthode de transmission des appels aux agents dans le groupe, comme suit :
     
-   - Pour présenter un nouvel appel d’abord à l’agent qui a été inactif le plus longtemps (dispose la présence était **disponible** ou **inactif/Inactive** dans Skype pour les entreprises la plus longue), cliquez sur **plus long inactif**. 
+   - Pour vous permettre d’appeler tout d’abord l’agent qui est resté inactif le plus longtemps (a été **disponible** ou inactif dans Skype entreprise le plus longtemps), cliquez sur plus **longtemps**. **** 
     
    - Pour qu’un nouvel appel soit présenté simultanément à tous les agents disponibles, cliquez sur **Parallèle**. L’appel est envoyé au premier agent qui l’accepte.
     
@@ -80,7 +80,7 @@ Pour créer ou modifier un groupe d’agents, utilisez l’une des procédures c
     
    - Pour qu’un nouvel appel soit toujours présenté aux agents dans l’ordre dans lequel ils s’affichent dans la liste **Agents**, cliquez sur **Série**. 
     
-   - Pour proposer un nouvel appel à tous les agents qui sont connecté Skype pour les entreprises et l’application Response Group en même temps, indépendamment de leur présence en cours, cliquez sur **standard**. Les utilisateurs configurés comme agents peuvent voir tous les appels en attente et y répondre, dans l’ordre qui leur convient. L’appel est envoyé au premier agent qui l’accepte, et les autres agents ne peuvent alors plus voir l’appel.
+   - Pour effectuer un nouvel appel vers tous les agents qui sont connectés à Skype entreprise et l’application Response Group en même temps, quelle que soit leur présence actuelle, cliquez sur **surveillant**. Les utilisateurs configurés comme agents peuvent voir tous les appels en attente et y répondre, dans l’ordre qui leur convient. L’appel est envoyé au premier agent qui l’accepte, et les autres agents ne peuvent alors plus voir l’appel.
     
 10. Dans **Agents**, spécifiez la méthode de création de votre liste d’agents :
     
@@ -105,21 +105,21 @@ Pour créer ou modifier un groupe d’agents, utilisez l’une des procédures c
       - Si la liste de distribution contient des utilisateurs pour lesquels Lync Server 2010 est activé mais pas Voix Entreprise, ces utilisateurs sont ajoutés au groupe d’agent comme agents dysfonctionnels. Assurez-vous que Voix Entreprise est activé pour le compte d’utilisateurs de tous les membres de la liste de distribution.
     
     > [!IMPORTANT]
-    > Si vous utilisez une liste de distribution de courrier électronique, les appartenances masquées ou les listes masquées peuvent devenir visibles aux utilisateurs ou administrateur de Response Group. 
+    > Si vous utilisez une liste de distribution de courrier électronique, il est possible que les appartenances ou les listes masquées soient visibles pour l’administrateur du groupe de réponse ou les utilisateurs. 
   
     Les appartenances au groupe d’agents masquées ou les listes masquées peuvent devenir visibles, comme suit :
     
-     - Si une liste de distribution a été configurée de sorte que l’appartenance est masquée et l’administrateur de groupe de réponse affecte la liste de distribution à la liste d’agents, les utilisateurs peuvent appeler le groupe permettant de savoir quels sont les membres. 
+     - Si une liste de distribution a été configurée de telle sorte que l’appartenance est masquée et que l’administrateur du groupe de réponse affecte la liste de distribution à la liste des agents, les utilisateurs peuvent appeler le groupe pour savoir qui en est les membres. 
     
-     - Si une liste de distribution a été configurée afin qu’il est masqué dans la liste d’adresses globale Exchange, l’administrateur de Response Group peut être en mesure de voir la distribution de liste et l’assigner à la liste d’agents si le processus de Response Group possède les droits d’utilisateur appropriés et autorisations, même si l’administrateur n’a pas les droits d’utilisateur appropriés et les autorisations.
+     - Si une liste de distribution a été configurée de façon à être cachée dans la liste d’adresses globale Exchange, l’administrateur du groupe de réponse peut voir la liste de distribution et l’affecter à la liste des agents si le processus de groupe de réponse dispose des droits d’utilisateur appropriés et les autorisations, même si l’administrateur ne possède pas les droits d’utilisateur et les autorisations appropriés.
     
 11. Cliquez sur **Valider**.
     
-### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-an-agent-group"></a>Utiliser Skype pour Business Server Management Shell pour créer ou modifier un groupe d’agents
+### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-an-agent-group"></a>Pour utiliser Skype entreprise Server Management Shell pour créer ou modifier un groupe d’agents
 
-1. Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre de l’un des rôles d’administration prédéfinis qui prennent en charge Response Group.
+1. Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre de l’un des rôles d’administration prédéfinis prenant en charge Response Group.
     
-2. Démarrez le Skype pour Business Server Management Shell : cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Skype pour Business 2015**, puis cliquez sur **Skype pour Business Server Management Shell**.
+2. Démarrez Skype entreprise Server Management Shell: cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
     
 3. Utilisez **New-CsRgsAgentGroup** pour créer un groupe d’agents. Utilisez **Set-CsRgsAgentGroup** pour modifier un groupe d’agents existant. Dans la ligne de commande, exécutez la commande suivante :
     
@@ -146,7 +146,7 @@ Pour créer ou modifier un groupe d’agents, utilisez l’une des procédures c
 
 [Get-CsService](https://docs.microsoft.com/powershell/module/skype/get-csservice?view=skype-ps)
   
-[New-CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/new-csrgsagentgroup?view=skype-ps)
+[Nouveau-CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/new-csrgsagentgroup?view=skype-ps)
   
 [Set-CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/set-csrgsagentgroup?view=skype-ps)
   
