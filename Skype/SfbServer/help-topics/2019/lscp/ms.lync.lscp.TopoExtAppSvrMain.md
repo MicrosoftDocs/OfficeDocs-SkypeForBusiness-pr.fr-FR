@@ -1,10 +1,10 @@
 ---
-title: Application approuvée de topologie
+title: Application de confiance Topology
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.TopoExtAppSvrMain
@@ -13,18 +13,18 @@ localization_priority: Normal
 ms.assetid: eb6185c3-c162-4250-9ec3-11cdd8191287
 ROBOTS: NOINDEX, NOFOLLOW
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: 0b7df7d7a8b3654d545c0b31938a82cdfb66f57c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 612393419baca9718a593ad04dec5ab6e562e68b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33890948"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34275950"
 ---
 # <a name="topology-trusted-application"></a>Topologie : application approuvée
 
 Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
 
-- [Afficher la liste des Applications approuvées](https://technet.microsoft.com/library/f09300b3-67cf-4e70-a51a-23d62479b913.aspx)
+- [Afficher une liste des applications approuvées](https://technet.microsoft.com/library/f09300b3-67cf-4e70-a51a-23d62479b913.aspx)
 
 
 

@@ -4,40 +4,40 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: 'Vous pouvez déplacer des utilisateurs vers le nouveau Skype pour Business Server 2019 déploiement à l’aide de deux Skype pour le panneau de configuration serveur Business ou Skype pour Business Server Management Shell. Vous devez satisfaire des exigences d’assurer une transition en douceur vers Skype à Business Server 2019. Pour plus d’informations sur les conditions préalables pour les procédures de cette rubrique, consultez Configurer les clients pour la migration. Pour obtenir la procédure détaillée sur le déplacement d’utilisateurs, voir Phase 4 : test de déplacer les utilisateurs vers le pool pilote.'
-ms.openlocfilehash: 9f984b7fac919decce521c6dafc587a4ac86de50
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Vous pouvez déplacer des utilisateurs vers le nouveau déploiement de Skype entreprise Server 2019 à l’aide du panneau de configuration Skype entreprise Server ou de Skype entreprise Server Management Shell. Vous devez respecter certaines exigences pour garantir une transition fluide vers Skype entreprise Server 2019. Pour plus d’informations sur les conditions préalables à l’exécution des procédures décrites dans cette rubrique, voir Configurer des clients pour la migration. Pour plus d’informations sur le déplacement des utilisateurs, voir phase 4: déplacer les utilisateurs de test vers le pool de pilotes.'
+ms.openlocfilehash: 67bc2d3b239e65b5b1c83e2dcda81a1610d5a31c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231587"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34273958"
 ---
-# <a name="move-remaining-users-to-skype-for-business-server-2019"></a>Déplacer les utilisateurs restants vers Skype pour Business Server 2019
+# <a name="move-remaining-users-to-skype-for-business-server-2019"></a>Déplacer les utilisateurs restants vers Skype entreprise Server 2019
 
-Vous pouvez déplacer des utilisateurs vers le nouveau Skype pour Business Server 2019 déploiement à l’aide de deux Skype pour le panneau de configuration serveur Business ou Skype pour Business Server Management Shell. Vous devez satisfaire des exigences d’assurer une transition en douceur vers Skype à Business Server 2019. Pour plus d’informations sur les conditions préalables pour les procédures de cette rubrique, consultez [configurer les clients pour la migration](configure-clients-for-migration.md). Pour obtenir la procédure détaillée sur le déplacement d’utilisateurs, voir [Phase 4 : test de déplacer les utilisateurs vers le pool pilote](phase-4-move-test-users-to-the-pilot-pool.md).
+Vous pouvez déplacer des utilisateurs vers le nouveau déploiement de Skype entreprise Server 2019 à l’aide du panneau de configuration Skype entreprise Server ou de Skype entreprise Server Management Shell. Vous devez respecter certaines exigences pour garantir une transition fluide vers Skype entreprise Server 2019. Pour plus d’informations sur les conditions préalables à l’exécution des procédures décrites dans cette rubrique, voir [configurer des clients pour la migration](configure-clients-for-migration.md). Pour plus d’informations sur le déplacement des utilisateurs, voir [phase 4: déplacer les utilisateurs de test vers le pool de pilotes](phase-4-move-test-users-to-the-pilot-pool.md).
   
 > [!IMPORTANT]
-> Vous ne pouvez pas utiliser le composant logiciel enfichable Utilisateurs et ordinateurs ou les outils d’administration hérités pour déplacer les utilisateurs de votre environnement hérité vers Skype pour Business Server 2019. 
+> Vous ne pouvez pas utiliser le composant logiciel enfichable utilisateurs et ordinateurs Active Directory ou les outils d’administration hérités pour déplacer des utilisateurs de votre environnement hérité vers Skype entreprise Server 2019. 
   
-Lorsque vous déplacez un utilisateur vers un Skype pour Business Server 2019 pool, les données de l’utilisateur sont déplacées vers la base de données principale associée au nouveau pool. 
+Lorsque vous déplacez un utilisateur vers un pool Skype entreprise Server 2019, les données de l’utilisateur sont déplacées vers la base de données principale associée au nouveau pool. 
   
 > [!IMPORTANT]
-> Cela inclut les réunions actives créées par l’utilisateur hérité. Par exemple, si un utilisateur hérité a configuré une conférence **Ma réunion** , cette conférence sera toujours disponible dans la nouvelle Skype pour Business Server 2019 pool après que l’utilisateur a été déplacé. Les détails pour accéder à cette réunion sera toujours le même **ID de conférence et les URL de la conférence**. La seule différence est que la conférence est maintenant hébergée dans le Skype pour le pool d’entreprise Server 2019 et non dans le pool hérité. 
+> Cela inclut les réunions actives créées par l’ancien utilisateur. Par exemple, si un utilisateur hérité a configuré une conférence **ma réunion** , celle-ci sera toujours disponible dans le nouveau pool Skype entreprise Server 2019 après que l’utilisateur a été déplacé. Les détails permettant d’accéder à cette réunion seront toujours les mêmes **URL et ID de conférence**. La seule différence réside dans le fait que la Conférence est désormais hébergée dans le pool 2019 de Skype entreprise Server et non dans le pool hérité. 
   
 > [!NOTE]
-> Simultané des utilisateurs sur Skype pour Business Server 2019 ne nécessite pas de déployer des clients mis à niveau en même temps. Nouvelle fonctionnalité sera disponible pour les utilisateurs uniquement lorsqu’ils ont mis à niveau vers le nouveau logiciel client. 
+> L’hébergement d’utilisateurs sur Skype entreprise Server 2019 ne nécessite pas le déploiement simultané de clients mis à niveau. Les nouvelles fonctionnalités ne seront accessibles qu’aux utilisateurs qui ont procédé à la mise à niveau vers le nouveau logiciel client. 
   
-### <a name="post-migration-task"></a>Tâche post-migration
+### <a name="post-migration-task"></a>Tâche après migration
 
-1. Une fois que vous déplacez des utilisateurs, vérifiez la stratégie de conférence qui leur est attribuée. 
+1. Après le déplacement des utilisateurs, vérifiez la stratégie de conférence qui leur est affectée. 
     
-2. Pour vous assurer que les réunions organisées par les utilisateurs hébergement sur Skype pour Business Server 2019 travailler en toute transparence avec les utilisateurs fédérés qui sont hébergés sur installation héritée, la stratégie de conférence assignée aux utilisateurs migrés doit autoriser des participants anonymes.
+2. Pour vous assurer que les réunions organisées par les utilisateurs hébergés sur Skype entreprise Server 2019 fonctionnent en toute transparence avec les utilisateurs fédérés qui sont hébergés sur une installation héritée, la stratégie de conférence affectée aux utilisateurs migrés devrait permettre aux participants anonymes.
     
-3. Stratégies de conférence qui autorisent les participants anonymes ont **Autoriser les participants à inviter des utilisateurs anonymes** sélectionné dans Skype pour Business Server 2019 le panneau de configuration et **AllowAnonymousParticipantsInMeetings** définissent sur **True** dans le sortie de l’applet de commande **Get-CsConferencingPolicy** dans la Skype pour Business Server Management Shell. 
+3. Les stratégies de conférence autorisant les participants anonymes ont autorisé les participants à inviter les utilisateurs anonymes sélectionnés dans Skype entreprise 2019 Server AllowAnonymousParticipantsInMeetings panneau de configuration et ont configuré sur true dans la sortie de l’applet de passe **Get-CsConferencingPolicy** dans Skype entreprise Server Management Shell. 
     
 <!-- 4. For details about configuring conferencing policy by using Skype for Business Server Management Shell, see 
  [Set-CsConferencingPolicy](../../lync-server-management-shell/lync-server-2013-cmdlets-by-category/set-csconferencingpolicy.md) in the Skype for Business Server Management Shell documentation.  -->

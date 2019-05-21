@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,26 +24,26 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour la Nouvelle Zélande.
-ms.openlocfilehash: d68c0ecaf898a92d41a10dd10df94bfa03b24241
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibles en Nouvelle-Zélande.
+ms.openlocfilehash: 727b0eee570a2b5c959d66f5998d95f31aa186a9
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32203592"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34282753"
 ---
 # <a name="availability-in-new-zealand"></a>Disponibilité en Nouvelle-Zélande
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ou renseignez-vous sur la disponibilité des forfaits d'appels et d'audioconférence selon les régions et les pays.
 
-Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour la Nouvelle Zélande.
+Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibles en Nouvelle-Zélande.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
 |L'audioconférence est-elle disponible à l'achat ?  <br/> |Oui  <br/> |
-|Les numéros de téléphone sont-ils attribués automatiquement pour l'audioconférence ?  <br/> |Oui, pour :<br/><ul><li> Wellington</ul> Si vous souhaitez obtenir des numéros de téléphone dédiés, reportez-vous à la rubrique [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).  <br/> |
+|Les numéros de téléphone sont-ils attribués automatiquement pour l'audioconférence ?  <br/> |Oui, pour:<br/><ul><li> Wellington</ul> Si vous souhaitez obtenir des numéros de téléphone dédiés, reportez-vous à la rubrique [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).  <br/> |
 |Fonction de numérotation à l'aide de la fonctionnalité M'appeler  <br/> |Disponibles  <br/> |
    
 ## <a name="phone-system"></a>Système téléphonique

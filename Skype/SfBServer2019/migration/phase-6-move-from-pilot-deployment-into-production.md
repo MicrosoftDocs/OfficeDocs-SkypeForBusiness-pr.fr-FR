@@ -1,24 +1,24 @@
 ---
-title: Phase 6 déplacement d’un déploiement pilote en production
+title: Phase 6 passage du déploiement pilote en production
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Les rubriques de cette section décrivent les tâches que vous devez effectuer avant de faire passer votre déploiement de Skype pour Business Server 2019 d’un déploiement pilote à un déploiement en environnement de production.
-ms.openlocfilehash: 92e74af1881da85b84a7886965986c42d6e6d955
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Les rubriques de cette section décrit les tâches que vous devez effectuer avant de migrer votre déploiement de Skype entreprise Server 2019 d’un déploiement pilote vers un déploiement de niveau production.
+ms.openlocfilehash: cc101ae93bbea9cf3fa7366bdf83676970ad450c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231524"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34273888"
 ---
 # <a name="phase-6-move-from-pilot-deployment-into-production"></a>Phase 6 : Transition d’un déploiement pilote vers un environnement de production
 
-Les rubriques de cette section décrivent les tâches que vous devez effectuer avant de passer votre déploiement de Skype pour Business Server 2019 d’un déploiement pilote à un déploiement en environnement de production.
+Les rubriques de cette section décrit les tâches que vous devez effectuer avant de migrer votre déploiement de Skype entreprise Server 2019 d’un déploiement pilote vers un déploiement de niveau production.
   
 ## <a name="in-this-section"></a>Contenu de cette section
 
@@ -28,6 +28,6 @@ Les rubriques de cette section décrivent les tâches que vous devez effectuer a
     
 - [Modification des URL simples après la migration](change-simple-urls-after-migration.md)
     
-- [Déplacer les utilisateurs restants vers Skype pour Business Server 2019](move-remaining-users.md)
+- [Déplacer les utilisateurs restants vers Skype entreprise Server 2019](move-remaining-users.md)
     
 

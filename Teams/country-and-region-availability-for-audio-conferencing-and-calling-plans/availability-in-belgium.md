@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,26 +24,26 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour la Belgique.
-ms.openlocfilehash: f35778ec30195236f6abdb88ca84b4199296fb07
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibles en Belgique.
+ms.openlocfilehash: 4907156223edf6757ce3b0826c6319051081bdc3
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32232822"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283273"
 ---
 # <a name="availability-in-belgium"></a>Disponibilité en Belgique
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ou renseignez-vous sur la disponibilité des forfaits d'appels et d'audioconférence selon les régions et les pays.
 
-Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour la Belgique.
+Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibles en Belgique.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
 |L'audioconférence est-elle disponible à l'achat ?  <br/> |Oui  <br/> |
-|Les numéros de téléphone sont-ils attribués automatiquement pour l'audioconférence ?  <br/> |Oui, pour :<br/><ul><li> Bruxelles</ul>Si vous souhaitez obtenir des numéros de téléphone dédiés, reportez-vous à la rubrique [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).  <br/> |
+|Les numéros de téléphone sont-ils attribués automatiquement pour l'audioconférence ?  <br/> |Oui, pour:<br/><ul><li> Luxembourg</ul>Si vous souhaitez obtenir des numéros de téléphone dédiés, reportez-vous à la rubrique [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).  <br/> |
 |Fonction de numérotation à l'aide de la fonctionnalité M'appeler  <br/> |Disponibles  <br/> |
    
 ## <a name="phone-system"></a>Système téléphonique
@@ -60,19 +60,19 @@ Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
 |Les forfaits d'appels sont-ils disponibles à l'achat ?  <br/> |Oui  <br/> |
-|Minutes disponibles pour les Plans de l’appel. |Il existe quatre options de plan par mois : <ul><li>120 minutes planifier l’appel interne </li><li>240 minutes planifier l’appel interne</li></li><li>1200 minute de planifier l’appel interne </li></li><li>minute 600 national et International des Plans de l’appel</li></li> 
-|Peut passer des appels sortants vers les numéros ?  <br/> | Non pris en charge pour l’instant. <br/> |
+|Minutes disponibles pour les offres d’appels. |Il existe quatre options de plan disponibles par mois civil: <ul><li>Forfait d’appels nationaux de 120 minutes </li><li>Forfait d’appels nationaux de 240 minutes</li></li><li>Forfait d’appels nationaux de 1200 minutes </li></li><li>600 minutes pour les forfaits d’appels nationaux et internationaux</li></li> 
+|Est-il possible de passer des appels sortants vers des numéros payants?  <br/> | Non prise en charge pour le moment. <br/> |
 |Est-il possible de passer des appels sortants ?  <br/> | Vers 196 pays, dont [ :](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Numéros payants et gratuits pour les services
 
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
-|Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?  <br/> | <ul><li>Bruges<li>  Bruxelles <li>Charleroi <li>  Technologies <li>  LIEGE <li>  : Namur </ul> |
+|Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?  <br/> | <ul><li>Bruges<li>  Luxembourg <li>Charleroi <li>  Ghent <li>  Liege <li>  Namur </ul> |
 |Les numéros payants sont-ils disponibles ?  <br/> |Oui  <br/> |
 |Les numéros gratuits sont-ils disponibles ?  <br/> |Oui  <br/> |
    
- Si vous souhaitez obtenir payants et les numéros de téléphone pour une audioconférence, standard automatique et les files d’attente des appels, voir [numéros de téléphone de service de mise en route pour Skype pour les professionnels et les équipes Microsoft](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).
+ Si vous souhaitez obtenir des numéros de téléphone payants et gratuits pour les conférences audio, le standard automatique et les files d’attente d’appels, reportez-vous à la rubrique [obtention de numéros de téléphone de service pour Skype entreprise et Microsoft teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).
   
 ## <a name="communications-credits"></a>Crédits de communication
 

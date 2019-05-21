@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,26 +24,26 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour la Croatie.
-ms.openlocfilehash: 93005cc68bbd7f668b344dbf968c3ce42a67e114
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+description: Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibles pour la Croatie.
+ms.openlocfilehash: bc66aad83168c32cb336fb8fce6ec51b1f89ca3a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541207"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283097"
 ---
 # <a name="availability-in-croatia"></a>Disponibilité en Croatie
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ou renseignez-vous sur la disponibilité des forfaits d'appels et d'audioconférence selon les régions et les pays.
 
-Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour la Croatie.
+Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibles pour la Croatie.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
 |L'audioconférence est-elle disponible à l'achat ?  <br/> |Oui  <br/> |
-|Les numéros de téléphone sont-ils attribués automatiquement pour l'audioconférence ?  <br/> |Oui, pour :<br/><ul><li> Zagreb</ul>Si vous souhaitez obtenir des numéros de téléphone dédiés, reportez-vous à la rubrique [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).  <br/> |
+|Les numéros de téléphone sont-ils attribués automatiquement pour l'audioconférence ?  <br/> |Oui, pour:<br/><ul><li> Zagreb</ul>Si vous souhaitez obtenir des numéros de téléphone dédiés, reportez-vous à la rubrique [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).  <br/> |
 |Fonction de numérotation à l'aide de la fonctionnalité M'appeler  <br/> |Disponibles  <br/> |
    
 ## <a name="phone-system"></a>Système téléphonique
@@ -67,7 +67,7 @@ Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft
 
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
-|Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?  <br/> | <ul><li>Osijek <li>  Rijeka <li>  Split <li>  Zadar <li>  Zagreb </ul> |
+|Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?  <br/> | <ul><li>Osijek <li>  Rijeka <li>  Divisé <li>  Zadar <li>  Zagreb </ul> |
 |Les numéros payants sont-ils disponibles ?  <br/> |Oui  <br/> |
 |Les numéros gratuits sont-ils disponibles ?  <br/> |Oui  <br/> |
    

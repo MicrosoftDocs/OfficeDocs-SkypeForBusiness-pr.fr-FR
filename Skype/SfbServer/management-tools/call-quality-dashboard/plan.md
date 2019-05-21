@@ -1,247 +1,247 @@
 ---
-title: Planifier pour le tableau de bord qualité appel Skype pour Business Server
+title: Planifier le tableau de bord de qualité des appels pour Skype entreprise Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
-description: 'Résumé : Découvrez les éléments à prendre en compte lorsque vous planifiez le tableau de bord qualité des appels.'
-ms.openlocfilehash: 8f26ecd90a9804a68656f76080c3865f5cb7360b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Résumé: Découvrez les éléments à prendre en compte lorsque vous planifiez le tableau de bord de qualité des appels.'
+ms.openlocfilehash: 84fa8672e561cbf91714b3d18276de401f2ab377
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33915345"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274666"
 ---
-# <a name="plan-for-call-quality-dashboard-for-skype-for-business-server"></a>Planifier pour le tableau de bord qualité appel Skype pour Business Server 
+# <a name="plan-for-call-quality-dashboard-for-skype-for-business-server"></a>Planifier le tableau de bord de qualité des appels pour Skype entreprise Server 
  
-**Résumé :** Découvrez les éléments à prendre en compte lorsque vous planifiez le tableau de bord qualité des appels.
+**Résumé:** Découvrez les points à prendre en considération lorsque vous planifiez le tableau de bord de qualité des appels.
   
-## <a name="overview-of-the-skype-for-business-server-call-quality-dashboard"></a>Vue d’ensemble de la Skype pour le tableau de bord qualité Business Server appel
+## <a name="overview-of-the-skype-for-business-server-call-quality-dashboard"></a>Vue d’ensemble du tableau de bord de qualité des appels de Skype entreprise Server
 
-Le Skype pour le module Business Server appeler qualité du tableau de bord (CQD) est une couche de création de rapports sur la qualité de l’expérience de base de données dans le serveur de surveillance dans Skype pour Business Server. CQD utilise Microsoft SQL Server Analysis Services pour fournir l’utilisation d’agrégat et informations sur la qualité ainsi que pour le filtrage et pivotant sur le jeu de données d’appel. Fonctionnalités CQD sont les suivantes :
+Le tableau de bord de qualité des appels de Skype entreprise Server (bord) est une couche de rapport sur la qualité de la base de données du serveur de surveillance dans Skype entreprise Server. BORD utilise Microsoft SQL Server Analysis Services pour fournir des informations sur l’utilisation agrégée et la qualité des appels, ainsi que pour le filtrage et le glissement du jeu de données. Les fonctionnalités de bord sont les suivantes:
   
-- **Archivage des données de QoE via le composant QoE Archive de CQD.** Le composant QoE Archive peut stocker les données QoE beaucoup plus longtemps que le serveur de surveillance peut. Ainsi, pour l’analyse des tendances et création de rapports pour jusqu'à sept mois de données à la fois, avec la possibilité de la fenêtre de création de rapports autant back que la diapositive donnée.
+- **Stockage d’archivage des données QoE via le composant d’archive QoE de bord.** Le composant d’archive QoE peut stocker des données QoE pour une durée bien plus longue que celle du serveur de surveillance. Cela permet de passer des tendances et de signaler jusqu’à sept mois de données à la fois, grâce auquel vous pouvez faire glisser la fenêtre de création de rapports dans le temps.
     
-- **Création de rapports et d’analyse à l’aide de la puissance et la vitesse de Microsoft SQL Server Analysis Services.** CQD utilise Microsoft SQL Analysis Services pour fournir résumé rapide, filtrer et glissement des fonctionnalités d’alimenter le tableau de bord par le biais d’un Cube Analysis. Vitesse d’exécution et la possibilité de consulter les données de création de rapports peut réduire les temps d’analyse considérablement.
+- **Rapports et analyse grâce à la puissance et à la vitesse de Microsoft SQL Server Analysis Services.** BORD utilise Microsoft SQL Analysis Services pour fournir des fonctionnalités de synthèse, de filtrage et de tableau croisé dynamique rapides pour alimenter le tableau de bord via un cube d’analyse. Le signalement de la vitesse d’exécution et la possibilité de descendre dans les données peuvent réduire considérablement les temps d’analyse.
     
-- **Nouveau schéma de données optimisé pour les rapports de qualité des appels.** Le Cube possède un schéma conçu pour les rapports de qualité vocale et d’enquêtes. Les utilisateurs du portail peuvent se concentrer sur les tâches de création de rapports au lieu d’essayer de comprendre comment les mesures QoE de base de données des mappages de schéma pour les affichages dont ils ont besoin. La combinaison de le QoE Archive et le Cube fournit une abstraction qui simplifie la création de rapports et analyses via CQD. Le schéma de base de données QoE Archive contient également des tables qui peuvent être remplis avec des données spécifiques au déploiement pour améliorer la valeur globale des données.
+- **Nouveau schéma de données optimisé pour la création de rapports sur la qualité des appels.** Le cube possède un schéma conçu pour le rapport qualité de la voix et les investigations. Les utilisateurs du portail peuvent se consacrer aux tâches de création de rapports au lieu de déterminer comment le schéma de base de données de la fonction QoE est mappé sur les vues dont ils ont besoin. La combinaison de l’archive QoE et du cube fournit une abstraction qui réduit la complexité des rapports et analyses via bord. Le schéma de base de données d’archive QoE contient également des tables qui peuvent être renseignées à l’aide de données spécifiques de déploiement pour améliorer la valeur globale des données.
     
-- **Concepteur de rapports intégrées et de modification de l’état sur place.** Le composant de portail est livré avec plusieurs rapports intégrés basé sur la méthodologie de qualité des appels. Les utilisateurs du portail peuvent modifier les rapports et créer des rapports par le biais de la fonctionnalité d’édition du portail.
+- **Concepteur de rapports intégré et modification de rapport inaltérable.** Le composant portail est fourni avec plusieurs rapports prédéfinis modélisés selon la méthode de qualité d’appel. Les utilisateurs du portail peuvent modifier les rapports et créer des rapports à l’aide de la fonctionnalité d’édition du portail.
     
-- **Accès Web API à la Structure de rapports et analyse les données de Cube.** L’infrastructure de création de rapports de tableau de bord n’est pas le seul moyen pour afficher les données du cube. CQD fournit plusieurs exemples d’utilisation de code HTML et JavaScript pour récupérer des données à partir de l’API Web CQD et afficher les données dans un format personnalisé. La combinaison de l’éditeur de rapport et de l’API Web CQD permet de prototypage de rapports et de mise en page de rapport personnalisé.
+- **API Web: accès à la structure du rapport et aux données du cube d’analyse.** L’infrastructure de création de tableaux de bord n’est pas la seule façon d’afficher les données du cube. BORD fournit plusieurs exemples d’utilisation de HTML et JavaScript pour récupérer les données des API Web bord et afficher les données dans un format personnalisé. La combinaison de l’éditeur de rapport et des API Web bord permet un prototypage rapide des rapports et de la disposition de rapport personnalisée.
     
-## <a name="cqd-design-goals"></a>Objectifs de conception CQD
+## <a name="cqd-design-goals"></a>Objectifs de conception de bord
 
 Le Tableau de bord de la qualité des appels permet aux professionnels de l’informatique d’utiliser des données agrégées pour identifier des secteurs cibles dans leur environnement rencontrant des problèmes de qualité multimédia. Il permet à un professionnel de l’informatique de comparer des statistiques de différents groupes d’utilisateurs et d’identifier des tendances et modèles. Le tableau n’est pas utilisé pour résoudre des problèmes d’appel spécifiques, mais pour identifier les problèmes et les solutions qui concernent de nombreux utilisateurs dans un environnement donné. 
   
-## <a name="call-quality-dashboard-components"></a>Composants du tableau de bord qualité des appels
+## <a name="call-quality-dashboard-components"></a>Composants du tableau de bord de qualité des appels
 
-Le tableau de bord qualité des appels se compose de plusieurs bases de données, Microsoft SQL Agent travaux, des processus et des applications web. Les travaux de l’Agent Microsoft SQL copier régulièrement des données à partir de la base de données des mesures QoE dans la base de données QoE Archive et les processus du Cube avec les données de la base de données QoE Archive. La base de données de référentiel stocke les définitions de rapport que le portail d’alimentation. Le portail fournit l’accès navigateur pour les données du Cube. 
+Le tableau de bord de qualité des appels se compose de plusieurs bases de données, de tâches d’agent Microsoft SQL, de processus et d’applications Web. Les tâches de l’agent Microsoft SQL copient périodiquement les données de la base de données de valeurs QoE dans la base de données d’archive QoE et traite le cube avec les données dans la base de données d’archive QoE. La base de données du référentiel stocke les définitions de rapport qui alimentent le portail. Le portail fournit l’accès du navigateur aux données du cube. 
   
-Les composants CQD, y compris les bases de données de référentiel, Cube et QoE archivage peuvent être installés sur le serveur de surveillance, installés sur son propre serveur ou installés sur plusieurs serveurs. Les exigences de performances de CQD ainsi que l’impact à d’autres processus sur les mêmes serveurs dépend de la méthode d’installation particulière. Pour plus d’informations, reportez-vous à la section « Composants et topologies pour CQD » plus loin dans cet article.
+Les composants bord, notamment les bases de données d’archive QoE, de cube et de référentiel, peuvent être installés sur le serveur de surveillance, installés sur leur propre serveur ou installés sur plusieurs serveurs. La méthode d’installation particulière dépend des besoins en matière de performances de bord ainsi que de l’impact sur d’autres processus sur les mêmes serveurs. Pour plus d’informations, reportez-vous à la section «composants et topologies pour bord», plus loin dans cet article.
   
-### <a name="architectural-overview"></a>Présentation de l’architecture
+### <a name="architectural-overview"></a>Présentation architecturale
 
-Pour résumer, CQD nécessite les éléments suivants :
+Pour résumer, bord nécessite les éléments suivants:
   
-- Deux bases de données : une base de données d’archivage et d’une base de données de référentiel.
+- Deux bases de données: une base de données d’archive et une base de données de référentiel.
     
-- Visualisation d’un Cube SSAS données agrégées 
+- Un cube SSA qui Visualisez les données agrégées 
     
-- IIS héberge le portail Web : CQD
+- Portail Web bord d’hébergement de services Internet
     
 ![Composants CQD](../../media/ef3359b1-c98b-4cc5-a549-c84c6e03c011.png)
   
-La même architecture CQD prend en charge Lync Server 2013 et Skype pour les entreprises. 
+La même architecture bord prend en charge Lync Server 2013 et Skype entreprise. 
   
-### <a name="cqd-and-skype-for-business-vs-lync-2013"></a>CQD et Skype pour professionnels et Lync 2013
+### <a name="cqd-and-skype-for-business-vs-lync-2013"></a>BORD et Skype entreprise par rapport à Lync 2013
 
- Dans un Skype pour un environnement d’entreprise, les fonctionnalités suivantes sont disponibles :
+ Dans un environnement Skype entreprise uniquement, les fonctionnalités suivantes sont disponibles:
   
-- Création de rapports Wi-Fi de puissance du Signal
+- Signalisation Wi-Fi de la force du signal
     
-- Création de rapports Wi-Fi de pilotes
+- Rapports Wi-Fi des pilotes de chipset
     
-- Taux de mes données d’appel 
+- Évaluer les données de mon appel 
     
-## <a name="information-available-through-cqd"></a>Informations disponibles par le biais de CQD
+## <a name="information-available-through-cqd"></a>Informations disponibles par le biais de bord
 
-CQD peut afficher Skype pour Business Server audio, vidéo et le nombre de flux et le nombre de bonne par rapport à des appels incorrectes ainsi que des rapports des appels incorrects pour une bonne de partage d’application. Les affichages peuvent être découpés et filtrés par le nombre de dimensions différente. CQD extrait les données à partir de la base de données mesures QoE Monitoring Server. Les données sont ensuite fusionnées avec toutes les données fournies par le client, telles que le mappage du sous-réseau-création de réseau pour faire des rapports, tels que « Appel qualité par Building ». 
+BORD est en mesure d’afficher le nombre de flux de partage d’application et audio de Skype entreprise Server, et le nombre de flux de partage d’application et de rapports d’appels incorrects. Les vues peuvent être coupées en tranches et filtrées selon de nombreuses dimensions différentes. BORD dessine les données de la base de données de métriques QoE dans le serveur de surveillance. Les données sont ensuite fusionnées avec les données fournies par le client, telles que le mappage de sous-réseau à bâtiment pour créer des rapports tels que «qualité d’appel par bâtiment» possible. 
   
-CQD nombreux les caractéristiques de données QoE internes tel que « appelant » et « appelé » extrait également afin que l’utilisateur puisse se concentrer sur la création d’affichages de rapport autour de « serveur » et « client ». La suite de la méthodologie de qualité des appels, CQD est simple pour vous aider à identifier les conditions poches d’appels médiocres ont en commun, un des principes pour améliorer la qualité des appels.
+BORD soustrait également de nombreuses spécificités de l’utilisation des données de QoE (par exemple, «appelant» et «appelé»), de telle sorte que l’utilisateur puisse se concentrer sur la création de vues de rapport concernant «serveur» et «client». Après la méthodologie de qualité d’appel, bord est rationalisé pour faciliter l’identification des poches d’appels médiocres en commun, l’un des principes d’amélioration de la qualité des appels.
   
-## <a name="viewing-data-in-cqd"></a>Affichage des données dans CQD
+## <a name="viewing-data-in-cqd"></a>Affichage de données dans bord
 
-Les données CQD peuvent être visionnées via le portail CQD et accessibles par le biais d’appels de l’API REST.
+Les données bord peuvent être affichées via le portail bord et accessibles via les appels d’API REST.
   
-### <a name="cqd-portal"></a>Portail CQD
+### <a name="cqd-portal"></a>Portail bord
 
-Le portail est le moyen le plus rapide pour afficher les données dans le Cube. Le portail est livré avec plusieurs rapports intégrés qui sont utilisables immédiatement. Les rapports intégrés sont liées de manière structurée pour guider l’utilisateur à successivement les plus petits segments de données d’appel. Les rapports intégrés également en surbrillance les différentes méthodes que les données peuvent être affichées en montrant une combinaison des graphiques et des tableaux avec différents tableaux croisés dynamiques, des filtres et des mesures. Chaque utilisateur qui accède au portail peut avoir son propre ensemble de rapports qui il peut modifier et partager. Pour plus d’informations sur l’utilisation du portail Web CQD, voir [Utilisation d’appel qualité de tableau de bord pour Skype pour Business Server](use.md).
+Le portail est le moyen le plus rapide d’afficher les données dans le cube. Le portail est fourni avec plusieurs rapports prédéfinis utilisables immédiatement. Les rapports intégrés sont liés de manière structurée afin de guider l’utilisateur vers des secteurs plus petits et plus petits des données d’appel. Les rapports intégrés présentent également les différentes méthodes d’affichage des données en montrant une combinaison de graphiques et de tableaux avec différents tableaux croisés dynamiques, filtres et mesures. Chaque utilisateur qui accède au portail peut avoir son propre jeu de rapports qu’il peut modifier et partager. Pour plus d’informations sur l’utilisation du portail Web bord, voir [utiliser le tableau de bord de qualité des appels pour Skype entreprise Server](use.md).
   
-Prise en charge des systèmes d’exploitation pour CQD Portal : Windows 8.1, Windows 8, Windows Server 2012 R2, Windows Server 2012 et Windows Server 2016 (Skype pour Business Server 2019 CQD uniquement).
+Systèmes d’exploitation pris en charge pour le portail bord: Windows 8,1, Windows 8, Windows Server 2012 R2, Windows Server 2012 et Windows Server 2016 (Skype entreprise Server 2019 bord uniquement).
   
-Navigateurs pris en charge pour CQD Portal : Internet Explorer 11, Internet Explorer 10 et Internet Explorer 9.
+Navigateurs pris en charge pour le portail bord: Internet Explorer 11, Internet Explorer 10 et Internet Explorer 9.
   
 ### <a name="rest-apis"></a>API REST
 
-Les données du Cube sont également accessibles via des appels d’API REST. Les données récupérées par le biais de l’API REST peuvent être affichées par le biais des pages HTML. Utilisateurs peuvent tirer parti de la vitesse de requête et le schéma de haut niveau de CQD pendant toujours créer des rapports personnalisés adaptés à leurs besoins. Pour plus d’informations sur les API et les exemples, voir [Développer appeler tableau de bord qualité pour Skype pour Business Server](develop.md). 
+Vous pouvez également accéder aux données du cube via les appels d’API REST. Les données récupérées par le biais des appels d’API REST peuvent être affichées dans des pages HTML. Les utilisateurs peuvent tirer parti de la vitesse de requête et du schéma de haut niveau de bord tout en créant des rapports personnalisés adaptés aux besoins de leurs entreprises. Pour plus d’informations sur l’API et les exemples, voir [développer le tableau de bord de qualité des appels pour Skype entreprise Server](develop.md). 
   
-## <a name="defining-your-organizations-requirements-for-cqd"></a>Définition des besoins de votre organisation pour CQD
+## <a name="defining-your-organizations-requirements-for-cqd"></a>Définition des exigences de votre organisation pour bord
 
-CQD fournit QoE données d’archivage et rapide et approfondie l’analyse de données de qualité des appels. Le guide suivant vous aide à décider quand et pourquoi vous devez déployer CQD.
+BORD fournit un archivage de données QoE et une analyse rapide et complète des données de qualité d’appel. Le guide suivant vous aide à déterminer quand et pourquoi vous devez déployer bord.
   
-### <a name="when-to-deploy-cqd"></a>Quand déployer CQD
+### <a name="when-to-deploy-cqd"></a>Moment du déploiement de bord
 
- **CQD peut être déployé pour établir une mesure de qualité appel planifié, même si une organisation ne rencontrer des problèmes de qualité d’appel.** Établissement d’une mesure de qualité d’appel planifié est important parce que chaque organisation possède une autre combinaison de Wi-Fi et câblé et à distance et employés. En cas de problèmes de qualité des appels, les mesures de qualité d’appel plus récentes peuvent être comparées à des intervalles de temps précédente. Fonctionnalités des tendances de CQD permettent de faciliter la détection des modifications dans la qualité des appels au fil du temps.
+ **BORD peut être déployé pour établir une mesure de qualité des appels de base, même si une organisation n’a pas de problème de qualité des appels.** Il est important de définir une mesure de qualité des appels de base, car chaque organisation a une combinaison de réseaux Wi-Fi et de personnes distantes et distantes. En cas de problème de qualité d’appel, les mesures de qualité d’appel les plus récentes peuvent être comparées à des intervalles de temps précédents. Les fonctionnalités de courbe de bord vous permettent de détecter facilement les changements de qualité d’appel au fil du temps.
   
- **CQD peut être déployé pour identifier de manière proactive les problèmes qui peuvent avoir un impact sur la qualité des appels.** Même si l’appel de la moyenne qualité pour une organisation peut atteindre les objectifs de l’organisation, il pourrait poches des problèmes de qualité d’appel qui sont masqués derrière les mesures moyennes. CQD permet de répartition de sous forme de tableau croisé dynamique des mesures de qualité d’appel par le nombre de dimensions dans la base de données QoEMetrics. SPOTTING valeurs extrêmes dans des groupes de l’homologue est un moyen rapide de localiser proactive des problèmes de qualité d’appel.
+ **BORD peut être déployé pour détecter de manière proactive des zones de problèmes qui peuvent avoir un impact sur la qualité des appels.** Même si la qualité d’appel moyenne d’une entreprise est susceptible de correspondre aux cibles définies par l’organisation, il est possible qu’il y ait des poches de problèmes de qualité d’appel qui sont masqués par des métriques moyennes. BORD autorise la répartition de type tableau croisé dynamique des métriques de qualité d’appel selon de nombreux axes de la base de données QoEMetrics. Le fait de détecter les éléments non-errants dans les groupes d’homologues permet de rechercher rapidement les problèmes de qualité d’appel.
   
- **CQD doit être déployé s’il y a appel problèmes de qualité de l’organisation afin de réduire le temps nécessaire pour résoudre les problèmes.** CQD peut simplifier les enquêtes de qualité appel existant en proposant la génération de rapports rapide des performances et exploration dynamique des fonctionnalités. CQD est conçu pour de nombreux types de flux de travail dans l’appel de qualité enquêtes validation des réparations à l’environnement.
+ **BORD doit être déployé s’il rencontre des problèmes de qualité d’appel au sein de l’organisation afin de réduire le temps nécessaire à la résolution des problèmes.** BORD peut simplifier les enquêtes sur la qualité des appels, en offrant des performances de rapport rapide et des fonctionnalités d’exploration dynamique. BORD est conçu pour de nombreux types de flux de travail dans les enquêtes de qualité d’appel pour la validation des réparations dans l’environnement.
   
-### <a name="why-deploy-cqd"></a>Raisons pour lesquelles déployer CQD
+### <a name="why-deploy-cqd"></a>Pourquoi déployer bord
 
- **CQD doit être déployé si la création de rapports QoE doit se produire pendant plus de 3 mois de données.** Rapports du serveur de surveillance et de la base de données QoEMetrics sont conçus pour conserver et un petit jeu de données de rapport. La base de données des mesures QoE est optimisé pour les insertions rapides et par conséquent création de rapports de performances peuvent être confrontés à un volume important d’appels ou concurrents l’accès à la base de données création de rapports. Base de données QoE Archive de CQD fournit une deuxième copie des données avec des capacités de rétention beaucoup plues mesures QoE. Le portail est également optimisé pour afficher jusqu'à 7 mois de données à la fois et permettre créer des rapports sur toutes les données dans le QoE Archive selon vos besoins.
+ **BORD doit être déployé si le rapport QoE doit se produire pendant plus de 3 mois de données.** Les rapports sur le serveur de base de données et de surveillance de QoEMetrics permettent de conserver et de signaler un ensemble réduit de données. La base de données des métriques QoE est optimisée pour les insertions rapides, et par conséquent, la création de rapports sur la base de données peut être entravée par un grand nombre d’appels ou le signalement d’un rapport compétitif. La base de données d’archive QoE d’bord fournit une seconde copie des données de mesure QoE avec des capacités de rétention bien plus longues. Le portail est également optimisé pour afficher jusqu’à 7 mois de données à la fois et peut signaler toutes les données de l’archive QoE selon les besoins.
   
- **CQD doit être déployé si les rapports QoE personnalisés sont nécessaires.** Le portail a une fonctionnalité d’éditeur de rapport pour les rapports de création et de prototypage rapidement et facilement. En outre, les API REST disponibles pour l’accès par programme aux données du Cube, permettant la présentation personnalisée à l’aide HTML/JavaScript ou nombreuses autres infrastructures. Il n’est plus nécessaire créer des requêtes SQL afin de créer des vues de données personnalisées pour les rapports.
+ **BORD doit être déployé si des rapports QoE personnalisés sont nécessaires.** Le portail est doté d’une fonctionnalité d’éditeur de rapports permettant de créer et de créer des rapports rapidement et facilement. Il rend également disponibles les API REST disponibles pour l’accès par programmation aux données du cube, permettant ainsi une présentation personnalisée en HTML/JavaScript ou bien d’autres infrastructures. Il n’est plus nécessaire de créer de nouvelles requêtes SQL dans le but de créer des vues de données personnalisées pour la création de rapports.
   
- **CQD doit être déployé si QoE existante de rapport proprement dites ne respecte pas la vitesse ou la profondeur requise par l’organisation.** CQD est fourni avec de nombreux rapports intégrés. Les rapports sont utiles immédiatement et montrer comment progressivement l’extraction des données peut offrir des informations supplémentaires à chaque niveau. La hiérarchie des rapports également vous aide à la gestion des nombreux rapports de manière logique et elle favorise la création de nombreux rapports plus facilement accessibles et compréhensibles. CQD n’offre pas seulement la vitesse et la flexibilité, mais également est optimisé pour les flux de travail développé par la méthodologie de qualité des appels.
+ **BORD doit être déployé si la fonctionnalité de création de rapports QoE existante ne correspond pas à la vitesse ou à la profondeur requise par l’organisation.** BORD est fourni avec de nombreux rapports intégrés. Les rapports sont immédiatement utiles et montrent la manière dont les données de perçage progressivement dans les données peuvent vous permettre d’accéder à des informations supplémentaires à chaque niveau. La hiérarchie de rapports facilite également la gestion des nombreux rapports d’une manière logique et favorise la création de nombreux rapports facilement accessibles et compréhensibles. BORD ne propose pas uniquement de vitesse et de flexibilité, mais il est également optimisé pour les flux de travail développés par la méthodologie de qualité des appels.
   
-## <a name="components-and-topologies-for-cqd"></a>Composants et topologies pour CQD
+## <a name="components-and-topologies-for-cqd"></a>Composants et topologies pour bord
 
-CQD est fourni avec plusieurs composants, et il est utile de comprendre les exigences de chaque composant et leurs relations entre eux pour obtenir la plus simple et mieux réaliser le déploiement de l’outil. Le tableau suivant décrit le composant dépendant pour chaque composant CQD.
+BORD est fourni avec plusieurs composants, et il permet de comprendre les exigences de chaque composant et leur relation pour obtenir le déploiement le plus simple et le plus simple de l’outil. Le tableau suivant décrit le composant dépendant de chaque composant bord.
   
 
 |**Nom du composant**|**Composant dépendant**|
 |:-----|:-----|
-|QoE Archive  <br/> |Microsoft SQL Server  <br/> |
-|Cube  <br/> |Microsoft SQL Server Analysis Services  <br/> |
-|Portail  <br/> |Services Microsoft  <br/> |
-|Référentiel Service (partie de l’installation de portail)  <br/> |Microsoft SQL Server  <br/> |
+|Archive QoE  <br/> |Microsoft SQL Server  <br/> |
+|OLAP  <br/> |Microsoft SQL Server Analysis Services  <br/> |
+|Portail  <br/> |Services d’information Microsoft  <br/> |
+|Service du référentiel (partie de l’installation du portail)  <br/> |Microsoft SQL Server  <br/> |
    
 > [!NOTE]
-> QoE Archive et du Cube, certaines options de déploiement nécessitent des éditions Business Intelligence ou Enterprise de Microsoft SQL Server. Reportez-vous à la section [conditions d’Infrastructure requises pour CQD](plan.md#Infrastructure_Req) ci-dessous pour plus d’informations.
+> Dans le cas d’une archive et d’un cube QoE, certaines options de déploiement nécessitent des éditions d’aide à la décision ou des éditions Enterprise de Microsoft SQL Server. Pour plus d’informations, reportez-vous à la section [exigences d’infrastructure pour bord](plan.md#Infrastructure_Req) ci-dessous.
   
 ![Composants CQD](../../media/a52f2e6c-a4dd-4de3-879c-47295d2366c3.png)
   
-### <a name="single-server-configuration"></a>Configuration de serveur unique
+### <a name="single-server-configuration"></a>Configuration d’un serveur unique
 
-Tous les composants CQD et dépendant peut être installé sur un ordinateur. La configuration d’une zone unique est la configuration la plus simple et CQD à être autonomes. CQD devez uniquement accès à la base de données de mesures QoE sur le serveur de surveillance. Le serveur CQD peut être un ordinateur autonome, un ordinateur virtuel, ou il peut même être le serveur de surveillance, selon les ressources disponibles de l’ordinateur hôte et les exigences de performances. 
+Tous les composants bord et composants dépendants peuvent être installés sur un ordinateur. La configuration à une seule boîte est la configuration la plus simple et permet à bord d’être autonome. BORD n’aura besoin d’accéder à la base de données de valeurs QoE sur le serveur de surveillance. Le serveur bord peut être un ordinateur autonome, une machine virtuelle ou peut même être le serveur de surveillance, en fonction des ressources disponibles de l’ordinateur hôte et des besoins en termes de performances. 
   
-Pendant l’installation, l’utilisateur effectue que l’installation doit simplement fournir Microsoft SQL Server et les instances de Microsoft SQL Server Analysis Services qui ont été définies sur l’ordinateur où le CQD doit être installé. Pour plus d’informations, reportez-vous à [Déployer appeler tableau de bord qualité pour Skype pour Business Server](deploy-0.md) .
+Lors de l’installation, l’utilisateur qui effectue l’installation doit simplement fournir les instances Microsoft SQL Server et Microsoft SQL Server Analysis Services qui ont été précédemment configurées sur l’ordinateur sur lequel bord doit être installé. Pour plus d’informations, reportez-vous à la rubrique [déploiement du tableau de bord de qualité des appels pour Skype entreprise Server](deploy-0.md) .
   
 ### <a name="multiserver-configuration"></a>Configuration multiserveur
 
-Dans une configuration multiserveur, le QoE Archive, Cube et portail peuvent tous être sur des ordinateurs différents. Il existe deux utilisations principales pour la configuration multiserveur :
+Dans une configuration multiserveur, l’archive, le cube et le portail QoE peuvent tous être sur des ordinateurs différents. Il existe deux utilisations principales de la configuration multiserveur:
   
-- Hébergement de portail Web : CQD et CQD Cube sur différents serveurs.
+- Hébergement d’un portail Web bord et d’un cube bord sur différents serveurs.
     
-- Hébergement d’un portail séparé de portail « production » « développement ». 
+- Hébergement d’un portail de «développement» distinct du portail «de production». 
     
-  **Hébergement de portail Web : CQD et CQD Cube sur des ordinateurs différents.** Les organisations qui peuvent avoir des exigences pour séparer le portail de CQD à partir de l’installation de SQL Server ou qui peut à combiner des éditions de SQL Server pour l’instance SQL Server et l’instance de SQL Server Analysis Services peuvent choisir d’installer le portail de CQD et Cube CQD sur des ordinateurs différents. Le composant QoE Archive peut également être le composant CQD unique qui est installé, si l’organisation souhaite simplement d’avoir une méthode durable à archiver sans atteindre les limites de performances sur le serveur de surveillance QoE.
+  **Hébergement d’un portail Web bord et d’un cube bord sur différentes machines.** Les organisations susceptibles de disposer de la configuration requise pour séparer le portail bord de l’installation de SQL Server, ou celles susceptibles de mélanger et de faire correspondre les éditions SQL Server pour l’instance SQL Server et l’instance SQL Server Analysis Services peuvent choisir d’installer le portail bord et BORD cube sur différentes machines. Le composant d’archive QoE peut également être le seul composant bord installé si l’organisation veut simplement disposer d’une méthode viable pour archiver les données QoE sans atteindre de limites de performance sur le serveur de surveillance.
   
 ![CQD mono-serveur](../../media/f65be6f3-6bba-4c3d-b3ae-c05e03551b5b.png)
   
- **Hébergement d’un portail séparé de portail « production » « développement ».** Les organisations qui développent leurs propres rapports (par le biais de l’API REST) pourrait être préférable de déployer d’autres instances du portail (CQD) à côté de la production portail auxquels les utilisateurs régulières accès pour la surveillance de qualité appel ou enquêtes. Le portail de développement peut être isolées les modifications apportées au portail à partir de l’environnement de production. Les portails web supplémentaires peuvent être déployés sur des ordinateurs différents (voir ci-dessous) ou déployés sur des répertoires web différente sur le même ordinateur (non illustré). Pour accomplir cette dernière, le portail web : CQD supplémentaire doit être copié sur l’ordinateur de production manuellement, car le processus d’installation CQD déploie toujours le portail Web : CQD au site web par défaut avec des noms d’application web prédéfinis.
+ **Hébergement d’un portail de «développement» distinct du portail «de production».** Les organisations qui développent leurs propres rapports personnalisés (via les API REST) peuvent être amenés à déployer des instances de portail supplémentaires (bord) en plus du portail de production, qui permet aux utilisateurs d’accéder à des enquêtes ou à la qualité des appels. Le portail de développement peut isoler les modifications apportées au portail de l’environnement de production. Vous pouvez déployer des portails Web supplémentaires sur différentes machines (comme illustré ci-dessous) ou les déployer sur différents répertoires Web sur le même ordinateur (non affiché). Pour ce faire, le portail Web bord supplémentaire doit être copié sur l’ordinateur de production manuellement, car le processus de configuration d’bord déploie toujours le portail Web bord vers le site Web par défaut avec les noms des applications Web prédéfinies.
   
 ![Planification de multi-serveur CQD](../../media/2326e61e-b485-43e6-9f82-145237ba89cf.png)
   
 ### <a name="supported-topologies"></a>Topologies prises en charge
 
-CQD ne fusionne pas les données à partir de plusieurs bases de données QoEMetrics, comme dans le cas où il existe plusieurs Skype pour les topologies de serveur d’entreprise, chacun avec son propre serveur de surveillance. Chaque instance CQD doit pointer sur une base de données QoEMetrics. Toutefois, car CQD sont déplacés de la charge de travail de création de rapports sur le serveur de surveillance, grandes organisations qui nécessaires pour déployer un serveur de surveillance par Skype pour la topologie du serveur d’entreprise doivent prendre en compte à l’aide d’un serveur de surveillance pour toutes les topologies.
+BORD ne fusionne pas les données de plusieurs bases de données QoEMetrics, comme dans le cas où il existe plusieurs topologies serveur Skype entreprise, chacune avec son propre serveur de surveillance. Chaque instance bord doit pointer vers une base de données QoEMetrics. Toutefois, étant donné que bord démontera considérablement la charge de travail de création de rapports du serveur de surveillance, il est préférable d’utiliser un serveur de surveillance pour toutes les topologies pour le déploiement d’un serveur de surveillance par topologie Skype entreprise Server.
   
-## <a name="infrastructure-requirements-for-cqd"></a>Conditions d’infrastructure requises pour CQD
+## <a name="infrastructure-requirements-for-cqd"></a>Exigences d’infrastructure pour bord
 <a name="Infrastructure_Req"> </a>
 
-CQD, y compris tous ses composants et composants dépendants, peut être déployé sur un ordinateur virtuel, un seul ordinateur ou sur plusieurs ordinateurs. La configuration logicielle et matérielle minimale requise est répertoriée ci-dessous. Disponibilité des données et les performances peuvent varier de quelques minutes, heures, selon le nombre de Skype active les utilisateurs Business Server et de matériel et de configuration, de requête sont des mesures de performances sont indiquées ci-dessous.
+BORD, y compris tous ses composants et composants dépendants, peuvent être déployés sur une machine virtuelle, sur un seul ordinateur ou sur plusieurs machines. La configuration minimale requise pour les logiciels et les logiciels est indiquée ci-dessous. La disponibilité des données et des performances de requête peut varier d’un nombre de minutes à une heure, en fonction du nombre d’utilisateurs et de configurations du serveur Skype entreprise actifs, de sorte que certaines mesures de performance sont fournies ci-dessous.
   
 |||
 |:-----|:-----|
 |Systèmes d’exploitation pris en charge  <br/> |Windows Server 2008 R2, Windows Server 2012, Windows Server 2012 R2  <br/> |
-|Prise en charge de SQL Server  <br/> |SQL Server 2012, SQL Server 2014, SQL Server 2016  <br/> |
+|SQL Server pris en charge  <br/> |SQL Server 2012, SQL Server 2014, SQL Server 2016  <br/> |
    
-CQD utilise Microsoft SQL Server, Microsoft SQL Server Analysis Services et Microsoft Internet Information Services afin de CQD configuration matérielle et logicielle requise est les mêmes que ces composants dépendants. Toutefois, en fonction des besoins de l’organisation autour de degré d’actualisation des données (qui dépend en partie du volume de données QoE que génère l’organisation) et les coûts de déploiement, autres aspects du déploiement doivent être effectuées.
+BORD utilise Microsoft SQL Server, Microsoft SQL Server Analysis Services et Microsoft Internet Information Services, de sorte que les configurations matérielles et logicielles minimales d’bord sont les mêmes que celles de ces composants dépendants. Toutefois, en fonction des besoins de l’organisation en matière de fraîcheur des données (qui dépendront en partie du volume de données QoE générées par l’entreprise) et du coût de déploiement, des considérations en matière de déploiement supplémentaires doivent être prises en compte.
   
-Traitement des données dans CQD est divisée en deux étapes principales : 
+Le traitement des données dans bord est divisée en deux étapes principales: 
   
-- Processus d’archivage QoE
+- Processus d’archive QoE
     
-- Traitement du Cube CQD
+- Traitement de cube bord
     
-  **QoE Archive de traitement.** La tâche de traitement de le QoE Archive copie des données à partir de la base de données de mesures QoE sur le serveur de surveillance dans cette base de données QoE. Il existe deux situations où le temps de traitement de la tâche aurait des caractéristiques de performances fondamentalement différentes. Le premier est après l’installation initiale de CQD. Lorsque la tâche est exécutée pour la première fois après une nouvelle installation, la tâche de traitement de le QoE Archive copie toutes les données qui se trouve dans la base de données de mesures QoE dans la base de données QoE Archive. Le second est le traitement périodique après cette phase initiale. Le QoE Archive tâche de traitement exécute toutes les 15 minutes et traiter les nouveaux enregistrements QoE qui se trouvent dans la base de données des mesures QoE. En règle générale, le temps de traitement initial n’est pas un problème car elle est exécutée uniquement la première fois, lors de l’installation CQD. Toutefois, si le serveur CQD est strictement sous-mis en service, cette tâche peut prendre plusieurs heures. Consultez le tableau ci-dessous par exemple initiale QoE Archive temps de traitement.
+  **Traitement d’archive QoE.** La tâche de traitement d’archive QoE copie les données de la base de données QoE Metrics du serveur de surveillance dans la base de données d’archive QoE. Il existe deux situations dans lesquelles le temps de traitement de la tâche a fondamentalement différentes caractéristiques de performances. Le premier est après l’installation initiale de bord. Lorsque la tâche est exécutée pour la première fois après une nouvelle installation, la tâche de traitement d’archive QoE copie toutes les données de la base de données QoE Metrics dans la base de données d’archive QoE. Le deuxième est le traitement périodique après cet arrondi initial. La tâche de traitement d’archive QoE sera exécutée toutes les 15 minutes et traitera les nouveaux enregistrements QoE qui se trouvent dans la base de données des métriques QoE. En règle générale, le délai de traitement initial n’est pas un problème, car il n’est pas exécuté pour la première fois, lorsque bord est installé. Toutefois, si le serveur bord est sérieusement en service, cette tâche peut prendre plusieurs heures. Consultez le tableau ci-dessous pour obtenir un exemple du temps de traitement initial d’archive QoE.
   
-  **Traitement du Cube CQD.** La tâche de traitement de Cube regroupe les données à partir de la base de données QoE Archive dans le Cube. Les temps de traitement initial et le temps de traitement suivantes sont déterminées par l’édition de SQL Server Analysis Services utilisée pour le Cube CQD. Si la version Standard edition est utilisée, il n’existe aucune différence entre le temps de traitement du cube initial et le temps de traitement, car chaque fois que les données du Cube sont actualisées de cube suivant, sera toujours un traitement complet de toutes les données disponibles. (Cela signifie que le temps de traitement du Cube accroît à mesure que la quantité de données dans le QoE Archive à l’augmentation de la base de données). Car le Business Intelligence Edition et Enterprise Edition de SQL Server partition prend en charge, si l’édition est utilisé, seulement l’exécution initiale va traiter toutes les données dans cette base de données QoE. Dans des exécutions ultérieures, lorsque la tâche est déclenchée toutes les 15 minutes, la tâche traitera uniquement les nouveaux enregistrements ajoutés à la base de données QoE Archive depuis la dernière exécution de la tâche. Une fois par jour, il sera également un traitement complet sur la partition qui contient les données du mois en cours.
+  **Traitement de cube bord.** La tâche de traitement du cube agrège les données de la base de données d’archive QoE dans le cube. Le temps de traitement initial du cube et le temps de traitement du cube ultérieur sont déterminés par l’édition SQL Server Analysis Services utilisée pour le cube bord. Si l’édition standard est utilisée, il n’y a pas de différence entre le temps de traitement initial du cube et la durée de traitement du cube suivante, car chaque fois que les données sont actualisées, il sera toujours entièrement traité de toutes les données disponibles. (Cela signifie que le temps de traitement du cube augmente à mesure que le volume de données dans la base de données d’archive QoE augmente.) Dans la mesure où l’édition entreprise et l’édition Enterprise de SQL Server disposent d’une prise en charge de partitions, si l’une des éditions est utilisée, seule la première exécution traitera toutes les données de la base de données d’archive QoE. Dans les exécutions suivantes, lorsque la tâche est déclenchée toutes les 15 minutes, la tâche traite uniquement les nouveaux enregistrements ajoutés à la base de données d’archive QoE depuis la dernière exécution de la tâche. Une fois par jour, il y aura également un traitement complet sur la partition qui contient les données du mois actuel.
   
-Les caractéristiques de l’ordinateur physique peuvent affecter les performances de CQD, ainsi que les fonctionnalités logicielles qui sont disponibles dans les composants SQL Server. Le composant QoE Archive seront beaucoup plus de disque par rapport à d’autres composants, tandis que le composant de Cube sera plus du processeur et mémoire. Tous ces facteurs contribuent à temps du CQD traitement des données total, qui affecte directement la disponibilité et le degré d’actualisation des données. Les organisations doivent prendre des décisions sur les matériels et logiciels selon les besoins spécifiques de l’organisation. 
+Les caractéristiques de l’ordinateur physique peuvent affecter les performances de bord ainsi que les fonctionnalités logicielles disponibles dans les composants SQL Server. Le composant d’archive QoE sera plus gourmand en ressources sur le disque par rapport aux autres composants, alors que le composant cube sera plus gourmand en ressources du processeur et de la mémoire. Chacun de ces facteurs contribue au temps total de traitement des données de bord, qui affecte directement la disponibilité et la disponibilité des données. Les organisations doivent prendre des décisions sur le matériel et les logiciels en fonction des besoins spécifiques de l’organisation. 
   
-### <a name="tested-hardware-configurations"></a>Configurations matérielle testée
+### <a name="tested-hardware-configurations"></a>Configurations matérielles testées
 
-Cette section, en partant du principe qu’il existe une seule base de données QoEMetrics dans l’environnement. 
+Cette section suppose qu’il existe une seule QoEMetrics DB dans l’environnement. 
   
-**Profils de l’ordinateur**
+**Profils d’ordinateur**
 
-|**Machine**|**Cœurs de processeur**|**RAM**|**QoE Archive et Cube sur le même disque**|**QoE Archive et la base de données SQL Temp sur le même disque**|
+|**Postes**|**Cœurs d’UC**|**RAM**|**Archive QoE et cube sur le même disque**|**Archive QoE et BD SQL Temp sur le même disque**|
 |:-----|:-----|:-----|:-----|:-----|
-|Ordinateur virtuel  <br/> |4  <br/> |7 GO  <br/> |Oui   <br/> |Oui  <br/> |
+|Machine virtuelle  <br/> |4  <br/> |7 GO  <br/> |Oui   <br/> |Oui  <br/> |
 |4 cœurs  <br/> |4  <br/> |20 GO  <br/> |Oui  <br/> |Non  <br/> |
-|8 principaux  <br/> |8  <br/> |32 GO  <br/> |Oui  <br/> |Non  <br/> |
-|16 cœurs  <br/> |16  <br/> |128 GO  <br/> |Non  <br/> |Non  <br/> |
+|8 cœurs  <br/> |version8  <br/> |32 GO  <br/> |Oui  <br/> |Non  <br/> |
+|16 cœurs  <br/> |Seiz  <br/> |128 GO  <br/> |Non  <br/> |Non  <br/> |
    
-**Résultats des performances**
+**Résultats de performance**
 
-|**Machine**|**Taille de la base de données les mesures QoE**|**Partitions SQL**|**Type de disque**|**Nombre de flux**|**Processus d’archivage initiales**|**Processus de Cube initial**|**Les processus d’archivage**|**Les processus de Cube**|
+|**Postes**|**Taille de la BDD métrique de QoE**|**Partitions SQL**|**Type de disque**|**Nombre de flux**|**Processus d’archivage initial**|**Processus de cube initial**|**Processus d’archivage ultérieur**|**Processus de cube ultérieur**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Ordinateur virtuel  <br/> |900 MO  <br/> |Unique  <br/> |Disque dur virtuel (taille de la variable)  <br/> |.5 M  <br/> |30 m  <br/> |2 m  <br/> |30 s  <br/> |1 m  <br/> |
-|Ordinateur virtuel  <br/> |9 GO  <br/> |Unique  <br/> |Disque dur virtuel (taille de la variable)  <br/> |5 M  <br/> |4 h  <br/> |15 m  <br/> |1 m  <br/> |5 m  <br/> |
-|Ordinateur virtuel  <br/> |9 GO  <br/> |Unique  <br/> |Disque dur virtuel (taille fixe)  <br/> |5 M  <br/> |2 h  <br/> |5 m  <br/> |1 m  <br/> |5 m  <br/> |
-|Ordinateur virtuel  <br/> |30 GO  <br/> |Unique  <br/> |Disque dur virtuel (taille fixe)  <br/> |10 M  <br/> |15 h  <br/> |20 m  <br/> |2 m  <br/> |45 m  <br/> |
-|8 principaux  <br/> |9 GO  <br/> |Unique  <br/> |Plusieurs disques  <br/> |5 M  <br/> |2 h  <br/> |5 m  <br/> |25 s  <br/> |5 m  <br/> |
-|8 principaux  <br/> |9 GO  <br/> |Plusieurs  <br/> |Plusieurs disques  <br/> |5 M  <br/> |2 h  <br/> |15 m  <br/> |35 s  <br/> |2 m  <br/> |
-|8 principaux  <br/> |30 GO  <br/> |Unique  <br/> |Plusieurs disques  <br/> |20 M  <br/> |9 h  <br/> |20 m  <br/> |1 m  <br/> |20 m  <br/> |
-|8 principaux  <br/> |30 GO  <br/> |Plusieurs  <br/> |Plusieurs disques  <br/> |20 M  <br/> |9 h  <br/> |30 m  <br/> |2 m  <br/> |2 m  <br/> |
-|4 cœurs  <br/> |200 GO  <br/> |Unique  <br/> |Plusieurs disques  <br/> |125 M  <br/> |6 + jours  <br/> |7 h  <br/> |2 m  <br/> |6 h  <br/> |
-|16 cœurs  <br/> |500 GO  <br/> |Plusieurs  <br/> |Plusieurs piles de disque  <br/> |250 MO  <br/> |8 jours  <br/> |2 h  <br/> |2 m  <br/> |10 m  <br/> |
+|Machine virtuelle  <br/> |900 MO  <br/> |Donné  <br/> |VHD (taille variable)  <br/> |0,5 M  <br/> |30 m  <br/> |2 m  <br/> |30 s  <br/> |1 m  <br/> |
+|Machine virtuelle  <br/> |9 GO  <br/> |Donné  <br/> |VHD (taille variable)  <br/> |5 M  <br/> |4 h  <br/> |15 m  <br/> |1 m  <br/> |5 m  <br/> |
+|Machine virtuelle  <br/> |9 GO  <br/> |Donné  <br/> |VHD (taille fixe)  <br/> |5 M  <br/> |2 h  <br/> |5 m  <br/> |1 m  <br/> |5 m  <br/> |
+|Machine virtuelle  <br/> |30 + GO  <br/> |Donné  <br/> |VHD (taille fixe)  <br/> |10 M  <br/> |15 h  <br/> |20 m  <br/> |2 m  <br/> |45 m  <br/> |
+|8 cœurs  <br/> |9 GO  <br/> |Donné  <br/> |Plusieurs disques  <br/> |5 M  <br/> |2 h  <br/> |5 m  <br/> |25 s  <br/> |5 m  <br/> |
+|8 cœurs  <br/> |9 GO  <br/> |Multiples  <br/> |Plusieurs disques  <br/> |5 M  <br/> |2 h  <br/> |15 m  <br/> |35 s  <br/> |2 m  <br/> |
+|8 cœurs  <br/> |30 + GO  <br/> |Donné  <br/> |Plusieurs disques  <br/> |20 M  <br/> |9 h  <br/> |20 m  <br/> |1 m  <br/> |20 m  <br/> |
+|8 cœurs  <br/> |30 + GO  <br/> |Multiples  <br/> |Plusieurs disques  <br/> |20 M  <br/> |9 h  <br/> |30 m  <br/> |2 m  <br/> |2 m  <br/> |
+|4 cœurs  <br/> |200 GO  <br/> |Donné  <br/> |Plusieurs disques  <br/> |125 M  <br/> |6 + jours  <br/> |7 h  <br/> |2 m  <br/> |6 h  <br/> |
+|16 cœurs  <br/> |500 GO  <br/> |Multiples  <br/> |Plusieurs piles  <br/> |250 M  <br/> |8 jours  <br/> |2 h  <br/> |2 m  <br/> |10 m  <br/> |
    
-\*Ils ne devraient pas être rencontrés dans les déploiements réels, car la base de données des mesures QoE aurait besoin 9 et 18 mois de données, respectivement, mais elles sont fournies ici par souci d’intégralité.
+\*Celles-ci ne sont pas censées être rencontrées dans de véritables déploiements, car la base de données de mesures de QoE doit avoir 9 et 18 mois de données, mais elles sont fournies ici pour l’exhaustivité.
   
-### <a name="service-account-requirements"></a>Exigences de compte de service
+### <a name="service-account-requirements"></a>Exigences relatives au compte de service
 
-Vous devez un compte que l’Agent SQL sur le serveur CQD peut utiliser pour l’importation de données vers le QoEArchiveDB (avec un accès en lecture à QoEMetrics).
+Vous aurez besoin d’un compte (avec accès en lecture à QoEMetrics) que l’agent SQL sur le serveur bord peut utiliser pour importer des données dans le QoEArchiveDB.
   
-Vous devez également configurer un compte distinct pour une tâche SSAS pour extraire des données à partir de QoEArchiveDB (il s’agit d’un processus facultatif).
+Vous devrez peut-être également configurer un compte distinct pour qu’une tâche SSAS récupère des données à partir de QoEArchiveDB (il s’agit d’un processus facultatif).
   
-IIS utilise le Service réseau en tant qu’identité du Pool d’application plus fréquemment, mais peut être configuré pour un compte de Service.
+IIS utilise le plus souvent le service réseau en tant qu’identité du pool d’applications, mais peut être configuré sur un compte de service.
   
 ### <a name="portal-access-control"></a>Contrôle d’accès au portail
 
-Par défaut, tout utilisateur authentifié a accès. Cela peut être modifiée à l’aide de règles d’autorisation d’IIS pour limiter à un groupe spécifique.
+Par défaut, un utilisateur authentifié a accès. Ce problème peut être modifié à l’aide de règles d’autorisation IIS pour restreindre un groupe spécifique.
   
 ### <a name="pre-install-requirements"></a>Conditions préalables à l’installation
 
-Ces instructions supposent qu’une base de données des mesures QoE a déjà été installé et est en cours d’exécution dans le Skype pour la topologie du serveur d’entreprise.
+Ces instructions partent du principe qu’une base de données de métriques QoE a déjà été installée et qu’elle s’exécute dans la topologie de Skype entreprise Server.
   
 #### <a name="hardware-requirements"></a>Configuration matérielle requise
 
-CQD utilise Microsoft Internet Information Server, Microsoft SQL Server et Microsoft SQL Server Analysis afin de CQD configuration matérielle et logicielle requise est les mêmes que ces composants dépendants. Toutefois, en fonction des besoins de l’organisation autour de degré d’actualisation des données (qui dépend en partie du volume de données QoE que génère l’organisation) et les coûts de déploiement, autres aspects du déploiement doivent être effectuées.
+BORD utilise Microsoft SQL Server, Microsoft SQL Analysis Server et Microsoft Internet Information Server de telle sorte que les exigences matérielles et logicielles de bord sont les mêmes que celles de ces composants dépendants. Toutefois, en fonction des besoins de l’organisation en matière de fraîcheur des données (qui dépendront en partie du volume de données QoE générées par l’entreprise) et du coût de déploiement, des considérations en matière de déploiement supplémentaires doivent être prises en compte.
   
 #### <a name="software-requirements"></a>Configuration logicielle requise
 
-Les systèmes d’exploitation suivants sont requis pour CQD :
+Les systèmes d’exploitation suivants sont requis pour bord:
   
-- Windows Server 2008 R2 avec IIS 7.5
+- Windows Server 2008 R2 avec IIS 7,5
     
-- Windows Server 2012 avec IIS 8.0
+- Windows Server 2012 avec IIS 8,0
     
 - Windows Server 2012 R2 avec IIS 8,5
 
-- Windows Server 2016 avec IIS 10.0 (Skype pour Business Server 2019 CQD uniquement)
+- Windows Server 2016 avec IIS 10,0 (Skype entreprise Server 2019 bord uniquement)
     
-Voici les services de rôle IIS requis (par ordre hiérarchique) :
+Vous trouverez ci-après les services de rôles IIS requis (dans l’ordre hiérarchique):
   
 - Serveur Web
     
@@ -257,7 +257,7 @@ Voici les services de rôle IIS requis (par ordre hiérarchique) :
     
   - Filtres ISAPI
     
-  - Intégrité &amp; Diagnostics
+  - Diagnostics d’intégrité &amp;
     
   - Journalisation HTTP
     
@@ -272,9 +272,9 @@ Voici les services de rôle IIS requis (par ordre hiérarchique) :
   - Console de gestion des services Internet (IIS)
     
 > [!NOTE]
->  Notez ce qui suit pour la configuration requise ci-dessus : > 3.5 et les versions du .net framework 4.5 sont disponibles. Les deux sont requis (plus précisément, 3.5 SP1 est requis) .> dans certains systèmes, si ASP.NET est le programme d’installation avant l’installation d’IIS, ASP.NET ne peut pas être inscrit dans IIS. Le problème se manifeste par le biais de l’absence de pools d’applications pour la version correspondante de .net et pas la version CLR .NET dans la configuration du pool d’applications. Pour corriger ce problème dans Windows Server 2008 R2, vous devez exécuter `%systemroot%\Microsoft.NET\Framework64\4.0.30319\aspnet_regiis.exe -iru`. Sur Windows Server 2012 et Windows Server 2012 R2, exécutez `dism /online /enable-Feature /all /FeatureName:WCF-HTTP-Activation45` suivi en supprimant la « ServiceModel « module à partir du Site Web par défaut dans les outils de gestion d’IIS Manager.> est facultatif, mais recommandé.
+>  Remarque: pour les exigences ci-dessus, les versions 3,5 et 4,5 de .NET Framework sont disponibles. Les deux sont obligatoires (plus précisément, 3,5 SP1 est requis). > dans certains systèmes, si ASP.NET est configuré avant l’installation d’IIS, ASP.NET risque de ne pas être enregistré dans IIS. Le problème se manifeste par l’absence de pools d’applications pour la version .net correspondante et de la version CLR .NET dans la configuration du pool d’applications. Pour résoudre ce problème sur Windows Server 2008 R2, exécutez `%systemroot%\Microsoft.NET\Framework64\4.0.30319\aspnet_regiis.exe -iru`. Sur Windows Server 2012 et Windows Server 2012 R2, exécutez `dism /online /enable-Feature /all /FeatureName:WCF-HTTP-Activation45` le suivi en supprimant le module «ServiceModel» dans le site Web par défaut dans le gestionnaire des services Internet (IIS). > outils de gestion est facultatif, mais recommandé.
   
-Pour installer ces exigences à l’aide de PowerShell, exécutez la commande suivante :
+Pour installer ces exigences via PowerShell, exécutez la commande suivante:
   
 ```
 import-module servermanager
@@ -284,7 +284,7 @@ import-module servermanager
 add-windowsfeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Asp-Net, Web-Asp-Net45, Web-Net-Ext, Web-Net-Ext45, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Url-Auth, Web-Windows-Auth, Web-Mgmt-Console
 ```
 
-Les versions suivantes de SQL Server sont prises en charge :
+Les versions suivantes de SQL Server sont prises en charge:
   
 - SQL Server 2012
     
@@ -294,47 +294,47 @@ Les versions suivantes de SQL Server sont prises en charge :
 
 - SQL Server 2017
     
-Business Intelligence ou Enterprise edition est recommandée pour des raisons de performances. Ces éditions autorisent l’utilisation de plusieurs fichiers de partition qui peuvent être traités en parallèle, ce qui est utile pour le traitement des données répartis sur plusieurs mois ou plus. 
+Business Intelligence ou Enterprise Edition est recommandé pour des raisons de performances. Ces éditions autorisent l’utilisation de plusieurs fichiers de partitions qui peuvent être traités en parallèle, ce qui est utile pour le traitement des données qui s’étalent sur plusieurs mois ou plus. 
   
-Alors que non recommandé, Standard edition est également pris en charge. Traitement s’être limité à une seule partition (qui doit être configuré lors de l’installation). 
+Il n’est pas recommandé d’être pris en charge par Standard Edition. Le traitement sera limité à une seule partition (qui doit être configurée lors de l’installation). 
   
-Dans tous les cas, « Services du moteur de base de données » et « Analysis Services » doivent être installés. Il est recommandé, mais pas nécessaire d’installer également la fonctionnalité « Outils de gestion - terminer », qui ajoute la prise en charge de SQL Server Management Studio pour Analysis Services. Écran de sélection de fonctionnalité doit ressembler à la figure.
+Dans tous les cas, «services du moteur de base de données» et «Analysis Services» doivent être installés. Nous vous conseillons de ne pas avoir besoin de l’installation de la fonctionnalité «outils de gestion-complète», qui ajoute la prise en charge de SQL Server Management Studio pour Analysis Services. L’écran de sélection de fonctionnalité doit ressembler à l’illustration.
   
 ![Configuration requise pour les fonctionnalités SQL Server](../../media/37f2f64b-49c8-4620-94ba-f6d1ae9abf83.png)
   
-Lorsque vous configurez l’installation SSAS, dans la Configuration d’Analysis Services, la valeur « Mode serveur » à « Multidimensionnelle et données exploration Mode ». 
+Lorsque vous configurez le programme d’installation de SSAS dans le cadre de la configuration d’Analysis Services, définissez «mode serveur» sur «multidimensionnel et mode d’exploration de données». 
   
-Pour plus d’informations d’installation et de configuration des fonctions de SQL Server Business Intelligence, voir [Installer Analysis Services dans multidimensionnel et Mode d’exploration de données](https://msdn.microsoft.com/en-us/library/ms143708%28v=sql.110%29.aspx).
+Pour obtenir de l’aide supplémentaire sur l’installation et la configuration des fonctionnalités d’aide à la décision SQL Server, voir [installer Analysis Services en mode multidimensionnel et Data Mining](https://msdn.microsoft.com/en-us/library/ms143708%28v=sql.110%29.aspx).
   
-#### <a name="account-requirements"></a>Configuration requise
+#### <a name="account-requirements"></a>Configuration requise pour le compte
 
-Sur le principe des privilèges minimum, trois comptes de service de domaine sont recommandées : 
+Trois comptes de service de domaine sont recommandés selon le principe des privilèges minimum: 
   
-- Une qui dispose déjà d’une entité de sécurité de connexion de base de données des mesures QoE (avec des privilèges db_datareader) et d’une entité de sécurité de connexion dans QoE Archive Instance de SQL Server (nécessaire pour créer un objet de serveur lié lors de l’installation). Ce compte est utilisé pour exécuter l’étape « Archive les données QoE » de la tâche de l’Agent SQL Server.
+- L’un d’eux comporte déjà un principal de sécurité de la connexion à la base de données de la fonction QoE Metrics (avec des privilèges db_datareader) et un principal de sécurité de connexion dans l’instance d’archive SQL Server d’archive (nécessaire pour créer un objet serveur lié lors de l’installation). Ce compte sera utilisé pour exécuter l’étape «données d’archive QoE» du travail de l’agent SQL Server.
     
-- Une qui sera utilisé pour exécuter l’étape « Traiter le Cube » de la tâche de l’Agent SQL Server. Le programme d’installation créera un compte de connexion à la base de données QoE Archive entité de sécurité (avec lire et écrire des privilèges), ainsi qu’un membre du rôle QoE (avec l’autorisation contrôle total) pour le Cube.
+- Il s’agit d’un outil qui sera utilisé pour exécuter l’étape «traiter le cube» du travail de l’agent SQL Server. Le programme d’installation crée un principal de sécurité de connexion dans la base de données d’archive QoE (avec privilèges de lecture et d’écriture) et crée également un membre du rôle QoE (avec le privilège contrôle total) pour le cube.
     
-- Une qui sera utilisé pour exécuter le processus de travail IIS pour les portails web web API. Le programme d’installation crée un compte de connexion entité de sécurité de base de données QoE Archive (avec des privilèges de lecture), une entité de sécurité de connexion à la base de données de référentiel (avec lire et écrire des privilèges) et un membre dans QoERole (avec l’autorisation contrôle total) pour le Cube. 
+- L’un qui sera utilisé pour exécuter le processus de travail IIS pour les portails Web et les API Web. Le programme d’installation crée un principal de sécurité de connexion dans la base de données d’archive QoE (avec le privilège lecture), un principal de sécurité de connexion à la base de données du référentiel (avec les privilèges de lecture et d’écriture) et un membre de QoERole (avec le privilège contrôle total) pour le cube. 
     
     > [!NOTE]
-    > Lors de la base de données QoE Archive et de base de données de référentiel sont hébergées dans le même serveur SQL Server, qu’une sécurité de connexion principale avec deux mappages utilisateur est créée. 
+    > Lorsque la base de données d’archive QoE et la base de données du référentiel sont hébergées sur le même serveur SQL Server, un seul principal de sécurité de connexion avec deux mappages utilisateur est créé. 
   
-Les deux premiers comptes peuvent être logiquement considérés comme « comptes de service principal » et le dernier compte est un « compte de service frontal ». Alors que non recommandé, il est possible d’utiliser un compte unique dans tous les cas.
+Les deux premiers comptes peuvent être considérés comme un «compte de service principal» et le dernier compte «compte de service frontal». Bien qu’il soit déconseillé, il est possible d’utiliser un seul compte dans tous les cas.
   
 > [!NOTE]
-> Le compte d’utilisateur lançant l’installation doit accéder en lecture à la base de données de mesures QoE ainsi (outre ayant des droits d’administrateur de machine sur le serveur de base de données Archive QoE où l’installation doit avoir lieu). 
+> Le compte d’utilisateur à l’origine de l’installation doit disposer d’un accès en lecture à la base de connaissance des métriques QoE également (en plus des droits d’administrateur d’ordinateur sur le serveur de base d’archive QoE sur lequel l’installation doit avoir lieu). 
   
 ## <a name="capacity-planning"></a>Planification de la capacité
 <a name="Infrastructure_Req"> </a>
 
-CQD est conçu pour un Impact minimal sur QoEMetrics : le code a été optimisé pour ne verrouiller pas les données et les travaux d’importation sont ajustables.
+BORD est conçu pour un impact minimal sur QoEMetrics: le code a été optimisé pour ne pas verrouiller les données et les tâches d’importation sont ajustables.
   
-Le type de matériel à utiliser dépend de votre configuration requise pour la vitesse des synchronisations doivent s’exécuter. Dimensionnement de disque est la suivante :
+Le type de matériel à utiliser dépend de vos exigences relatives à la manière dont les synchronisations rapides doivent s’exécuter. Le dimensionnement du disque est le suivant:
   
-- QoEArchive est supérieure à la base de données QoEMetrics ~1.5x initialement
+- QoEArchive est ~ 1,5 x plus grand que QoEMetrics DB au départ
     
-- Cube SSIS compresse les données presque 10 x par rapport à la base de données
+- Le cube SSIS compresse les données en presque 10x par rapport à la base de données
     
-- Les données sont partitionnées tous les mois ; les partitions peuvent être supprimées.
+- Les données sont partitionnées par mois; les partitions peuvent être supprimées
     
 

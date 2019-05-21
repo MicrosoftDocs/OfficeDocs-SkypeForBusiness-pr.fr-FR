@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Découvrez les paramètres de longueur et les conditions requises pour les codes confidentiels et comment définir la longueur des réunions dans Skype Entreprise.
-ms.openlocfilehash: c5add9cff2855fd969b76d96647f05e6e6dab290
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 95bc1c69e59e125d451a68eeee23ea15febd420f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229290"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283809"
 ---
 # <a name="set-the-pin-length-for-audio-conferencing-meetings-in-skype-for-business-online"></a>Définir la longueur du code confidentiel pour les réunions en audioconférence dans Skype Entreprise Online
 
@@ -42,14 +42,14 @@ The audio conferencing bridge answers a call for people who are dialing in to a 
   
 ## <a name="setting-the-pin-length"></a>Définir la longueur du code confidentiel
  
-1. Dans la **Skype entreprise centre d’administration**, dans la navigation de gauche, accédez à la **conférence Audio** > **paramètres de pont de Microsoft**.
+1. Dans le **Centre d’administration de Skype entreprise**, dans le volet de navigation gauche, accédez à**paramètres du pont Microsoft** **Conferencing** > .
     
-2. Sous **sécurité** > **longueur du code confidentiel**, sélectionnez le nombre de chiffres pour le code confidentiel, puis cliquez sur **Enregistrer**.
+2. Sous longueur du**code confidentiel**, sélectionnez le nombre de chiffres que vous voulez utiliser pour le code confidentiel, puis cliquez sur **Enregistrer**. **** > 
     
 > [!NOTE]
 > Un code confidentiel est différent d'un ID de conférence. Les ID de conférence sont utilisés par les appelants lorsqu'ils rejoignent la réunion. Ils permettent d'identifier la réunion. Le code confidentiel est utilisé pour authentifier un appelant en tant qu'organisateur de la réunion. 
 
-## <a name="want-to-know-more-about-pin-settings"></a>Vous souhaitez en savoir plus sur les paramètres de code confidentiel ?
+## <a name="want-to-know-more-about-pin-settings"></a>Vous voulez en savoir plus sur les paramètres de code confidentiel?
 
 - PINs can be from 4 to 12 digits; the default is 5. Numbers are only used when creating PINs. Letters and special characters aren't used.
     

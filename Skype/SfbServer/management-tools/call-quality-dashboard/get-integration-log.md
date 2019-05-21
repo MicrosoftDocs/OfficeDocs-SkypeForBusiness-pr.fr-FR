@@ -4,50 +4,50 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 8856f6bc-5460-4f35-acf2-f7662f01579b
-description: 'Résumé : Découvrez l’opération obtenir les journaux de l’intégration, qui fait partie de l’API de données pour le tableau de bord qualité des appels. Tableau de bord de qualité des appels est un outil de Skype pour Business Server.'
-ms.openlocfilehash: 450122266caa21359b424e3abb76a13476f386c0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Résumé: Découvrez l’opération d’obtention du journal d’intégration, qui fait partie de l’API de données pour le tableau de bord de qualité des appels. Le tableau de bord de qualité des appels est un outil pour Skype entreprise Server.'
+ms.openlocfilehash: 58be983ff3b282c94a4b42619a6c37c6270afcb5
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926099"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274757"
 ---
 # <a name="get-integration-log"></a>Obtenir le journal d’intégration
  
-**Résumé :** Obtenir des informations sur l’opération obtenir les journaux de l’intégration, qui fait partie de l’API de données pour le tableau de bord qualité des appels. Tableau de bord de qualité des appels est un outil de Skype pour Business Server.
+**Résumé:** Découvrez l’opération d’obtention du journal d’intégration, qui fait partie de l’API de données pour le tableau de bord de qualité des appels. Le tableau de bord de qualité des appels est un outil pour Skype entreprise Server.
   
-L’opération obtenir un journal intégration fait partie de l’API de données pour le tableau de bord qualité des appels
+L’opération obtenir le journal d’intégration fait partie de l’API de données pour le tableau de bord de qualité des appels
   
 ## <a name="get-integration-log"></a>Obtenir le journal d’intégration
 
-Obtenir le journal d’intégration opération retourne une liste d’entrées de journal décrivant les activités dans le QoE Cube.
+L’opération d’obtention du journal d’intégration renvoie une liste des entrées du journal décrivant les activités du traitement du cube QoE.
   
-Cette opération est désactivée par défaut pour des raisons de sécurité. Lorsque désactivée, elle renvoie une chaîne vide. Pour activer cette opération, les administrateurs doivent configurer le fichier web.config pour l’application web de l’API de données hôte.
+Cette opération est désactivée par défaut pour des raisons de sécurité. Lorsqu’elle est désactivée, elle renvoie une chaîne vide. Pour activer cette opération, les administrateurs doivent configurer le fichier Web. config de l’application Web hôte de l’API de données.
   
 
-|Méthode|**URI de la demande**|**Version HTTP**|
+|Méthode|**URI de la requête**|**Version HTTP**|
 |:-----|:-----|:-----|
-|Avoir  <br/> |https://\<portal\>/QoEDataService/IntegrationLog  <br/> |HTTP/1.1.  <br/> |
+|Télécharger  <br/> |https://\<Portal\>/QoEDataService/IntegrationLog  <br/> |HTTP/1.1  <br/> |
    
- **Paramètres d’URI** - None.
+ **Paramètres d’URI** -aucun.
   
- **En-têtes de demande** - aucun en-tête supplémentaire.
+ **En-têtes de requête** -aucun en-tête supplémentaire.
   
- **Corps de requête** - None.
+ Le corps de la **requête** .
   
- **Réponse** - la réponse inclut un code d’état HTTP et un ensemble d’en-têtes de réponse.
+ **Réponse** : la réponse comprend un code d’État http et un ensemble d’en-têtes de réponse.
   
- **Code d’état** - une opération réussie retourne un code d’état 200 (OK).
+ **Code d’État** -une opération réussie renvoie le code d’état 200 (OK).
   
- **En-têtes de réponse** - aucun en-tête supplémentaire.
+ **En-têtes de réponse** : aucun en-tête supplémentaire.
   
- **Corps de réponse** - Voici un exemple de structure des entrées du journal.
+ **Corps** de la réponse: Voici un exemple de structure d’entrées du journal.
   
 ```
 [

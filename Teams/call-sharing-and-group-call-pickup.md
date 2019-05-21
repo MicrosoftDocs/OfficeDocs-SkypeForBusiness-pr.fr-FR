@@ -12,48 +12,48 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: Appeler le partage et de groupe ou d’appel permettre aux utilisateurs de partager les appels entrants avec vos collègues afin que les appels peuvent être capturés lorsque l’utilisateur n’est pas disponible.
-ms.openlocfilehash: e822d06e48f3d7df548f0fd0d04645e7e9328598
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Les appels de partage et de groupe permettent aux utilisateurs de partager des appels entrants avec des collègues, de sorte que les appels puissent être capturés quand l’utilisateur n’est pas disponible.
+ms.openlocfilehash: 02c6605f3a5ea1df3457eaadea9956727431a827
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32211822"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283478"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Partage d’appel et prise d’appel de groupe dans Microsoft Teams
 
-L’appel de partage et le groupe d’appel pickup fonctionnalités de partage permettent aux utilisateurs de Microsoft Teams appels leur entrants avec vos collègues afin que les collègues peuvent répondre aux appels qui se produisent lorsque l’utilisateur n’est pas disponible.
+Les fonctionnalités de partage d’appel et de cueillette de groupe de Microsoft teams permettent aux utilisateurs de partager leurs appels entrants avec leurs collègues pour permettre aux collègues de répondre aux appels qui se produisent alors que l’utilisateur n’est pas disponible.
 
-Groupe ou d’appel est moins gênants aux destinataires que les autres types d’appel de partage (comme le transfert d’appel ou la sonnerie simultanée), car les utilisateurs peuvent configurer qu’ils veulent être averti d’un appel entrant partagé (via la notification audio et vidéo, visual uniquement, ou des bannières dans l’application équipes), et ils peuvent décider s’il faut répondre à l’appel.
+Le prélèvement d’appels de groupe est moins gênant pour les destinataires que les autres formes de partage d’appel (par exemple, le transfert d’appel ou la sonnerie simultanée), car les utilisateurs peuvent configurer la façon dont ils veulent être avertis d’un appel partagé entrant (via une notification audio et visuelle, visuel uniquement) ou une bannière dans l’application Teams) et choisir d’y répondre.
 
-Pour partager des appels avec d’autres personnes, un utilisateur crée un groupe d’appel et ajoute les utilisateurs qu’ils souhaitent partager leurs appels avec. Puis ils choisir une sonnerie simultanée ou transférer le paramètre. Pour plus d’informations, voir [l’appel de sonnerie simultanée et de transfert dans les équipes](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e) .
+Pour partager les appels, un utilisateur crée un groupe d’appels et ajoute les utilisateurs avec lesquels vous souhaitez partager leurs appels. Ils choisissent alors un paramètre de sonnerie ou de transfert simultané. Pour [en savoir plus, voir transfert d’appel et sonnerie simultanée dans teams](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e) .
 
 > [!IMPORTANT]
-> Les utilisateurs, le propriétaire du groupe appel et membres du groupe d’appel doivent être en mode de déploiement équipes uniquement. Pour plus d’informations sur les modes de déploiement d’équipes, voir [comprendre les équipes Microsoft et Skype pour l’interopérabilité et coexistence d’entreprise](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+> Les utilisateurs, le propriétaire du groupe d’appels et les membres du groupe d’appels doivent être en mode déploiement d’équipes uniquement. Pour plus d’informations sur les modes de déploiement d’équipes, voir comprendre les modes de déploiement de Microsoft Teams, ainsi [que la coexistence et l’interopérabilité de Skype entreprise](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 
 ## <a name="license-required"></a>Licence requise
 
-Les utilisateurs doivent être Enterprise Voice est activé pour configurer et utiliser le partage d’appel et de groupe ou d’appel. Pour plus d’informations sur le modèle de licence, voir [Gestion des licences Office 365 pour les équipes Microsoft](office-365-licensing.md).
+Les utilisateurs doivent être compatibles voix entreprise pour configurer et utiliser le partage d’appel et le regroupement d’appels de groupe. Pour plus d’informations sur le modèle de gestion des licences, voir gestion [des licences Office 365 pour Microsoft teams](office-365-licensing.md).
 
-## <a name="configure-group-call-pickup"></a>Configurer le groupe ou d’appel
+## <a name="configure-group-call-pickup"></a>Configurer le prélèvement d’appels de groupe
 
-Pour configurer le groupe ou d’appel, un utilisateur configure d’abord un groupe d’appel (il n’est pas le même en tant qu’un groupe de sécurité ou un groupe d’Office 365), puis ajoute les utilisateurs qu’ils souhaitent partager leurs appels avec. Ensuite, ils choisir une sonnerie simultanée ou paramètres de transfert d’appel. Pour plus d’informations et procédures pas à pas, voir [appel sonnerie simultanée et de transfert dans les équipes](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e).
+Pour configurer la fonction d’appel de groupe, un utilisateur configure d’abord un groupe d’appels (il est différent d’un groupe de sécurité ou d’un groupe Office 365), puis ajoute les utilisateurs avec lesquels vous souhaitez partager leurs appels. Elle choisit ensuite un paramètre de sonnerie simultanée ou de transfert d’appel. Pour plus d’informations et pour obtenir des procédures pas à pas, voir [transfert d’appel et sonnerie simultanée dans teams](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e).
 
-Appels création d’un groupe et notification préférences sont effectuées par les utilisateurs des fonctionnalités ; les administrateurs inutile de configurer ces fonctionnalités pour les utilisateurs. Groupes d’appel ne peut pas être créés à partir des groupes de sécurité ou Office 365 ; ils doivent être créés dans les équipes.
+Les préférences de création et de notification de groupe d’appels sont des fonctionnalités définies par l’utilisateur. les administrateurs n’ont pas besoin de configurer ces fonctionnalités pour leurs utilisateurs. Les groupes d’appels ne peuvent pas être créés à partir de groupes de sécurité ou de groupes Office 365; ils doivent être créés dans Teams.
 
-Administrateurs doivent activer les groupes d’appel via le paramètre **TeamsCallingPolicy AllowCallGroups** pour un utilisateur. Les administrateurs peuvent contrôler uniquement si cet utilisateur peut configurer des groupes d’appel. Une fois que le bit est défini sur true, administrateurs ne peuvent pas empêcher les utilisateurs de configuration et en ajoutant les utilisateurs de groupe d’appel de leur choix.
+Les administrateurs doivent activer les groupes d’appels via le paramètre **TeamsCallingPolicy AllowCallGroups** pour un utilisateur. Les administrateurs peuvent uniquement contrôler si cet utilisateur peut configurer des groupes d’appels. Une fois que le bit est défini sur true, les administrateurs ne peuvent pas empêcher l’utilisateur de configurer et d’ajouter les utilisateurs du groupe d’appels de leur choix.
 
-## <a name="limitations"></a>Limitations
+## <a name="limitations"></a>Conditions
 
-Un client peut contenir un maximum de groupes d’appel 32 768. Il peut y avoir un maximum de 5 utilisateurs de chaque groupe d’appel. 
+Un locataire peut contenir un maximum de groupes d’appels 32 768. Il peut y avoir un maximum de 5 utilisateurs dans chaque groupe d’appels. 
 
 ## <a name="more-information"></a>Plus d’informations
 
-[Transfert d’appel et la sonnerie simultanée dans les équipes](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e)
+[Transfert d’appel et sonnerie simultanée dans teams](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e)

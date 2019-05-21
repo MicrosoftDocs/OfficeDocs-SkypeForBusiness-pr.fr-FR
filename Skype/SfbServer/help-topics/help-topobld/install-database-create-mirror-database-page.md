@@ -5,26 +5,26 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.InstallDatabaseCreateMirrorDatabasePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6f729574-944e-4968-bdb8-eb483ff0ca88
-description: Cette documentation est préliminaire et sujette à modification. Des rubriques vides sont incluses comme espaces réservés.
-ms.openlocfilehash: a4ce2c9ab578111cb261d2857c65d3264e9dd436
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Il s’agit d’une documentation préliminaire susceptible d’être modifiée. Des rubriques vides sont incluses sous forme d’espaces réservés.
+ms.openlocfilehash: 27df8977f9651ac363493d57a306c4355da3aebb
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33888582"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34284304"
 ---
 # <a name="install-database-create-mirror-database-page"></a>Page Installer une base de données : créer une base de données miroir
  
-Cette documentation est préliminaire et sujette à modification. Des rubriques vides sont incluses comme espaces réservés.
+Il s’agit d’une documentation préliminaire susceptible d’être modifiée. Des rubriques vides sont incluses sous forme d’espaces réservés.
   
-Si vous choisissez ne pas à installer les bases de données miroir SQL Server pendant le processus de publication, vous installez à l’aide **d’Installer la base de données** à partir d’un clic droit sur n’importe quel nœud dans le Générateur de topologie. Vous sélectionnez le magasin miroir à installer. Cliquez sur **paramètres** pour définir les paramètres avancés.
+Si vous avez choisi de ne pas installer les bases de données miroir SQL Server lors du processus de publication, vous devez les installer à l’aide **de la base de données d’installation** en cliquant avec le bouton droit sur n’importe quel nœud dans le générateur de topologie. Vous sélectionnez le magasin en miroir à installer. Pour définir des paramètres avancés, cliquez sur **paramètres** .
   
 ## <a name="see-also"></a>Voir aussi
 

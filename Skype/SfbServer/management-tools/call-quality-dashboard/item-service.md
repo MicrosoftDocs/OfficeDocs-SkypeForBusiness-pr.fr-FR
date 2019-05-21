@@ -1,59 +1,59 @@
 ---
-title: Service d’élément de tableau de bord qualité appel (CQD)
+title: Service d’article pour le tableau de bord de qualité des appels (bord)
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b6d7b02a-a34e-4fef-986c-ca442e18fa0c
-description: 'Résumé : En savoir plus sur le Service de l’élément, qui fait partie de l’API de référentiel pour appeler le tableau de bord qualité. Tableau de bord de qualité des appels est un outil de Skype pour Business Server.'
-ms.openlocfilehash: cbebdcfcac62eae375c13785b8d9866d055c2b50
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Résumé: en savoir plus sur le service des éléments, qui fait partie de l’API du référentiel pour le tableau de bord de qualité des appels. Le tableau de bord de qualité des appels est un outil pour Skype entreprise Server.'
+ms.openlocfilehash: 585ba97d9dedbfcbbd572069a792a121e6156afe
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33897498"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274610"
 ---
-# <a name="item-service-for-call-quality-dashboard-cqd"></a>Service d’élément de tableau de bord qualité appel (CQD)
+# <a name="item-service-for-call-quality-dashboard-cqd"></a>Service d’article pour le tableau de bord de qualité des appels (bord)
  
-**Résumé :** Obtenir des informations sur le Service de l’élément, qui fait partie de l’API de référentiel pour appeler le tableau de bord qualité. Tableau de bord de qualité des appels est un outil de Skype pour Business Server.
+**Résumé:** En savoir plus sur le service d’élément, qui fait partie de l’API de référentiel pour le tableau de bord de qualité des appels. Le tableau de bord de qualité des appels est un outil pour Skype entreprise Server.
   
-Le Service de l’élément fait partie de l’API de référentiel pour appeler le tableau de bord qualité.
+Le service d’élément fait partie de l’API du référentiel pour le tableau de bord de qualité des appels.
   
 ## <a name="item-service"></a>Service d’article
 
-API de référentiel offre un service de gestion de contenu simple, appelé service d’élément, qui peut être utilisé pour le stockage de contenu défini par l’application pour les utilisateurs. 
+L’API du référentiel propose un service de gestion de contenu simple, connu sous le nom de service des éléments, qui peut être utilisé pour stocker des contenus définis par l’application pour les utilisateurs. 
   
-Le contenu du système est détenus par l’utilisateur du système et partagé par tous les utilisateurs avec accès en lecture seule. Contenu utilisateur dédié appartiennent par les utilisateurs standard et seuls les propriétaires peuvent modifier ou supprimer les, mais tous les utilisateurs ont toujours accès en lecture seule pour les.
+Le contenu du système appartient à l’utilisateur système et est partagé par tous les utilisateurs disposant d’un accès en lecture seule. Le contenu utilisateur dédié est possédé par des utilisateurs normaux et seuls les propriétaires peuvent modifier ou supprimer des éléments, mais tous les utilisateurs disposent toujours d’un accès en lecture seule.
   
 > [!NOTE]
-> Cette documentation de l’API traite des opérations en lecture seule de l’API de référentiel. 
+> Cette documentation sur les API décrit les opérations en lecture seule de l’API du référentiel. 
   
-Tableau de bord qualité appel enregistre des rapports et des requêtes en tant qu’éléments dans la base de données de référentiel. Un élément peut avoir les sous-éléments facultatifs, et appelez le tableau de bord qualité organise des rapports et des requêtes dans une structure hiérarchique à l’aide de la fonctionnalité sous-éléments.
+Le tableau de bord de qualité des appels enregistre des rapports et des requêtes en tant qu’éléments dans la base de données du référentiel. Un élément peut avoir des sous-éléments facultatifs et le tableau de bord de qualité des appels organise les rapports et les requêtes dans une structure hiérarchique à l’aide de la fonctionnalité sous-éléments.
   
-Élément comprend les concepts suivants :
+Le service des éléments inclut les concepts suivants:
   
-- **Élément** - l’élément de base du référentiel. Chaque élément appartient à un seul utilisateur.
+- **Élément** : élément de base du référentiel. Chaque élément est possédé par un seul utilisateur.
     
-- **Sous-élément** - les mécanismes d’organisation de base du référentiel. Élément peut avoir zéro, une ou plusieurs des éléments subordonnés.
+- **Sous-élément** : la mécanique de base du référentiel. Un élément peut avoir zéro, un ou plusieurs éléments subordonnés.
     
-- **Élément ancêtres** - la liste des éléments, en commençant à partir de l’élément de niveau supérieur, qui est la valeur par défaut de l’élément de l’utilisateur, conduisant à un élément donné.
+- **Ancêtres d’élément** : liste d’éléments, à partir de l’élément le plus élevé, qui est l’élément par défaut de l’utilisateur, conduisant à un élément donné.
     
-- **Contenu de l’élément** - le contenu spécifique à l’application stocké dans les éléments. Tableau de bord qualité appel enregistre représentations JSON de rapports et de requêtes de contenu.
+- **Contenu** de l’élément: contenu spécifique à l’application stocké dans les éléments. Le tableau de bord de qualité des appels enregistre les représentations JSON des rapports et des requêtes dans le contenu.
     
-Les opérations REST sont incluses dans le tableau suivant.
+Les opérations REST sont comprises dans le tableau suivant.
   
 
 |**Opération**|**Description**|
 |:-----|:-----|
-|[Obtenir des éléments](get-items.md) <br/> |Obtenir les éléments renvoie tous les éléments dans le référentiel.  <br/> |
-|[Obtenir un élément](get-item.md) <br/> |Obtenir élément renvoie un élément spécifique.  <br/> |
-|[Obtenir des sous-éléments](get-sub-items.md) <br/> |Obtenez les sous-éléments renvoie les sous-éléments d’un élément spécifique.  <br/> |
-|[Obtenir les ancêtres d’élément](get-item-ancestors.md) <br/> |Get élément ancêtres renvoie ancêtres d’un élément spécifique.  <br/> |
-|[Mettre à jour un élément](update-item.md) <br/> |Mettre à jour un élément spécifique dans le référentiel.  <br/> |
+|[Obtenir des éléments](get-items.md) <br/> |Get renvoie tous les éléments du référentiel.  <br/> |
+|[Obtenir un élément](get-item.md) <br/> |Obtenir renvoie un élément spécifique.  <br/> |
+|[Obtenir des sous-éléments](get-sub-items.md) <br/> |L’option obtenir des sous-éléments renvoie les sous-éléments d’un élément spécifiques.  <br/> |
+|[Obtenir les ancêtres d’élément](get-item-ancestors.md) <br/> |Obtient les ancêtres qui renvoient les ancêtres des éléments spécifiques.  <br/> |
+|[Mettre à jour un élément](update-item.md) <br/> |Mettre à jour un élément spécifique du référentiel.  <br/> |
    
 

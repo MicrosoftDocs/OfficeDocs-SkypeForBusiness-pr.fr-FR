@@ -4,47 +4,47 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: e77bf649-d62a-4d94-80de-066ba47730cd
-description: 'Résumé : Découvrez l’opération obtenir un élément, qui fait partie du Service de l’élément. Le Service de l’élément fait partie de l’API de référentiel pour appeler le tableau de bord qualité. Tableau de bord de qualité des appels est un outil de Skype pour Business Server.'
-ms.openlocfilehash: cd72eb583ff0e0813e4197031b119200ecf4b2fc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Résumé: en savoir plus sur l’opération obtenir un élément qui fait partie du service d’article. Le service d’élément fait partie de l’API du référentiel pour le tableau de bord de qualité des appels. Le tableau de bord de qualité des appels est un outil pour Skype entreprise Server.'
+ms.openlocfilehash: bfd5015603ac73fb48c4e30635cf8ae0fb14bf13
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926078"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274715"
 ---
 # <a name="get-item"></a>Obtenir un élément
  
-**Résumé :** Obtenir des informations sur l’opération obtenir un élément, qui fait partie du Service de l’élément. Le Service de l’élément fait partie de l’API de référentiel pour appeler le tableau de bord qualité. Tableau de bord de qualité des appels est un outil de Skype pour Business Server.
+**Résumé:** En savoir plus sur l’opération obtenir l’élément, qui fait partie du service d’élément. Le service d’élément fait partie de l’API du référentiel pour le tableau de bord de qualité des appels. Le tableau de bord de qualité des appels est un outil pour Skype entreprise Server.
   
-L’opération obtenir un élément fait partie du Service d’élément dans l’API de référentiel pour appeler le tableau de bord qualité.
+L’opération obtenir l’élément fait partie du service d’élément dans l’API du référentiel pour le tableau de bord de qualité des appels.
   
 ## <a name="get-item"></a>Obtenir un élément
 
-Obtenir élément renvoie un élément spécifique dans le référentiel.
+Obtient l’élément renvoie un élément spécifique du référentiel.
   
-|**Méthode**|**URI de la demande**|**Version HTTP**|
+|**Méthode**|**URI de la requête**|**Version HTTP**|
 |:-----|:-----|:-----|
-|Avoir  <br/> |https://\<portal\>/QoERepositoryService/référentiel/élément / {itemId}  <br/> |HTTP/1.1.  <br/> |
+|Télécharger  <br/> |https://\<Portal\>/QoERepositoryService/Repository/Item/{ItemId}  <br/> |HTTP/1.1  <br/> |
    
- **Paramètres d’URI** - None.
+ **Paramètres d’URI** -aucun.
   
- **En-têtes de demande** - aucun en-tête supplémentaire.
+ **En-têtes de requête** -aucun en-tête supplémentaire.
   
- **Corps de requête** - None.
+ Le corps de la **requête** .
   
- **Réponse** - la réponse inclut un code d’état HTTP et un ensemble d’en-têtes de réponse.
+ **Réponse** : la réponse comprend un code d’État http et un ensemble d’en-têtes de réponse.
   
- **Code d’état** - une opération réussie retourne un code d’état 200 (OK). Si un ID de l’élément spécifié est introuvable, elle renvoie le code d’état 404 (introuvable).
+ **Code d’État** -une opération réussie renvoie le code d’état 200 (OK). Si aucun ID d’élément spécifié n’est trouvé, il renvoie le code d’État 404 (introuvable).
   
- **En-têtes de réponse** - aucun en-tête supplémentaire.
+ **En-têtes de réponse** : aucun en-tête supplémentaire.
   
- **Corps de réponse** - vous trouverez ci-dessous une charge utile d’exemple réponse au format JSON.
+ Le corps de la **réponse** : Voici un exemple de charge utile de réponse dans JSON.
   
 ```
 {
@@ -56,14 +56,14 @@ Obtenir élément renvoie un élément spécifique dans le référentiel.
 }
 ```
 
- *itemId* - ID de l’élément.
+ ** ID de l’élément.
   
- *userId* - ID de l’utilisateur qui possède cet article.
+ ** ID d’utilisateur de l’utilisateur propriétaire de cet élément.
   
- *contenu* - le contenu spécifique à l’application.
+ *content* : contenu spécifique à l’application.
   
- *type* : le type de contenu. Ce champ est défini par les applications.
+ *tapez* le type du contenu. Ce champ est défini par les applications.
   
- *subItemIds* - identifiants des sous-éléments, le cas échéant. Il s’agit d’un court-circuit d’opération obtenir les sous-éléments pour enregistrer un appel. Les applications peuvent également obtenir les mêmes informations à l’aide d’opération obtenir les sous-éléments.
+ *subItemIds* -ID des sous-éléments, le cas échéant. Il s’agit d’un court-circuit d’opération de commande de sous-éléments permettant d’enregistrer un appel. Les applications peuvent également obtenir les mêmes informations à l’aide de l’opération utiliser les sous-éléments.
   
 

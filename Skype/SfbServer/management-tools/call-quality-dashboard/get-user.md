@@ -4,47 +4,47 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 52b89a4b-a0bd-493d-bb5e-e21904eb8e48
-description: 'Résumé : Découvrez l’opération obtenir un utilisateur, qui fait partie du Service de l’utilisateur. Le Service de l’utilisateur fait partie de l’API de référentiel pour appeler le tableau de bord qualité. Tableau de bord de qualité des appels est un outil de Skype pour Business Server.'
-ms.openlocfilehash: da07290582c6ccd0ca4f8f331d22e1b51e124a6a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Résumé: Découvrez la procédure d’obtention d’un utilisateur, qui fait partie du service utilisateur. Le service d’utilisateur fait partie de l’API du référentiel pour le tableau de bord de qualité des appels. Le tableau de bord de qualité des appels est un outil pour Skype entreprise Server.'
+ms.openlocfilehash: 6c38bb2db2bef1a21dfc5c4791de7a163c57ff5f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930664"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274596"
 ---
 # <a name="get-user"></a>Obtenir un utilisateur
  
-**Résumé :** Obtenir des informations sur l’opération obtenir un utilisateur, qui fait partie du Service de l’utilisateur. Le Service de l’utilisateur fait partie de l’API de référentiel pour appeler le tableau de bord qualité. Tableau de bord de qualité des appels est un outil de Skype pour Business Server.
+**Résumé:** En savoir plus sur l’opération obtenir l’utilisateur, qui fait partie du service utilisateur. Le service d’utilisateur fait partie de l’API du référentiel pour le tableau de bord de qualité des appels. Le tableau de bord de qualité des appels est un outil pour Skype entreprise Server.
   
-L’opération obtenir des utilisateurs fait partie du Service utilisateur dans l’API de référentiel pour appeler le tableau de bord qualité.
+L’opération obtenir les utilisateurs fait partie du service utilisateur dans l’API du référentiel pour le tableau de bord de qualité des appels.
   
 ## <a name="get-user"></a>Obtenir un utilisateur
 
-Obtenez renvoie utilisateur un enregistrement d’utilisateur à partir du référentiel.
+Obtenir renvoie un enregistrement utilisateur du référentiel.
   
-|**Méthode**|**URI de la demande**|**Version HTTP**|
+|**Méthode**|**URI de la requête**|**Version HTTP**|
 |:-----|:-----|:-----|
-|Avoir  <br/> |https://\<portal\>/QoERepositoryService/référentiel/utilisateur / {userId}  <br/> |HTTP/1.1.  <br/> |
+|Télécharger  <br/> |https://\<Portal\>/QoERepositoryService/Repository/User/{userid}  <br/> |HTTP/1.1  <br/> |
    
- **Paramètres d’URI** - None.
+ **Paramètres d’URI** -aucun.
   
- **En-têtes de demande** - aucun en-tête supplémentaire.
+ **En-têtes de requête** -aucun en-tête supplémentaire.
   
- **Corps de requête** - None.
+ Le corps de la **requête** .
   
- **Réponse** - la réponse inclut un code d’état HTTP et un ensemble d’en-têtes de réponse.
+ **Réponse** : la réponse comprend un code d’État http et un ensemble d’en-têtes de réponse.
   
- **Code d’état** - une opération réussie retourne un code d’état 200 (OK). Si un utilisateur spécifié QU'ID est introuvable, elle renvoie le code d’état 404 (introuvable).
+ **Code d’État** -une opération réussie renvoie le code d’état 200 (OK). Si vous n’avez pas trouvé d’ID utilisateur spécifié, le code d’État 404 (introuvable) est renvoyé.
   
- **En-têtes de réponse** - aucun en-tête supplémentaire.
+ **En-têtes de réponse** : aucun en-tête supplémentaire.
   
- **Corps de réponse** - vous trouverez ci-dessous une charge utile d’exemple réponse au format JSON.
+ Le corps de la **réponse** : Voici un exemple de charge utile de réponse dans JSON.
   
 ```
 {
@@ -54,13 +54,13 @@ Obtenez renvoie utilisateur un enregistrement d’utilisateur à partir du réf�
 }
 ```
 
- *userId* - ID de l’utilisateur.
+ ** ID de l’utilisateur.
   
- *loginName* - identification des utilisateurs externes pour les utilisateurs classiques. Si l’authentification Windows est utilisée pour authentifier les utilisateurs, cela peut être un nom de domaine complet de l’utilisateur.
+ *LoginName* -identification de l’utilisateur externe pour les utilisateurs normaux. Si l’authentification Windows est utilisée pour authentifier les utilisateurs, il peut s’agir d’un nom de domaine complet (FQDN) de l’utilisateur.
   
- *defaultItemId* - ID de l’élément par défaut pour cet utilisateur. L’élément par défaut est l’élément de niveau supérieur qui est associé à l’utilisateur. Tous les autres éléments qui qu'appartiennent à cet utilisateur peuvent traverser, de l’élément par défaut.
+ *defaultItemId* -ID de l’élément par défaut de cet utilisateur. L’élément par défaut est l’élément le plus élevé qui est associé à l’utilisateur. Pour accéder à l’élément par défaut, vous pouvez accéder à tous les autres éléments de l’utilisateur.
   
 > [!NOTE]
-> Fournir le `defaultItemId` valeur pour obtenir un élément operation pour récupérer les détails de l’élément par défaut.
+> Fournissez `defaultItemId` la valeur pour obtenir l’opération d’élément permettant de récupérer les détails de l’élément par défaut.
   
 

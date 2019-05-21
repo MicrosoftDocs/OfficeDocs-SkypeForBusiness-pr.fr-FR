@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Cette rubrique contient tous les pays et régions que les utilisateurs peuvent effectuer des appels sortants vers s’ils disposent d’un Plan de l’appel.
-ms.openlocfilehash: 70c0a0631f4f01ab87ef185b96b6c3fb00b14e6e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Cette rubrique contient tous les pays ou régions dans lesquels les utilisateurs peuvent effectuer des appels sortants s’ils ont un plan d’appels.
+ms.openlocfilehash: 3f6ff1f7bb3d9659ec9429b3eb48a8ae9968d636
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200250"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34281900"
 ---
 # <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>Utilisateurs peuvent passer des appels sortants à ces pays et régions
 
-### <a name="see-what-countriesregions-users-can-make-outbound-calls-to-if-the-user-has-the-domestic-and-international-calling-plan-license"></a>Voir quels utilisateurs pays/régions peuvent passer des appels sortants à si l’utilisateur dispose de la licence national et International appelant planifier
+### <a name="see-what-countriesregions-users-can-make-outbound-calls-to-if-the-user-has-the-domestic-and-international-calling-plan-license"></a>Découvrez les pays/régions dans lesquels les utilisateurs peuvent effectuer des appels sortants si l’utilisateur possède la licence de plan d’appel national et international.
 
-|**A - D**| **E - H**|**I - L**|**M - O**|**P - S**|**T - Z**|
+|**A-D**| **E-H**|**I-L**|**M-O**|**P-S**|**T-Z**|
 ---|---|---|---|---|---|
 |Afghanistan|Équateur |Islande |Macau |Pakistan |Taïwan   |
 |Albanie|Égypte |Inde |Macédoine |Les Palaos |Tadjikistan   |

@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour l’Australie.
-ms.openlocfilehash: 3035cd55a3fb255b143390bdd6d368d87f23ddbe
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibles pour l’Australie.
+ms.openlocfilehash: 0ced5fd869b54366b5b3214f76b9dee1f8f5782f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32244999"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283353"
 ---
 # <a name="availability-in-australia"></a>Disponibilité en Australie
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ou renseignez-vous sur la disponibilité des forfaits d'appels et d'audioconférence selon les régions et les pays.
 
-Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour l’Australie.
+Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibles pour l’Australie.
 
 ## <a name="audio-conferencing"></a>Audioconférence
 
@@ -57,28 +57,28 @@ Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft
 
 ## <a name="calling-plans"></a>Forfaits d'appels
 > [!IMPORTANT]
-> Disponible uniquement via Telstra pour des clients australien. Pour plus d’informations, voir [Telstra Calling pour Office 365](https://aka.ms/TelstraVoicePlan).
+> Disponible uniquement via Telstra pour les clients australiens. Pour plus d’informations, voir [Telstra Calling pour Office 365](https://aka.ms/TelstraVoicePlan).
 
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
-|Les forfaits d'appels sont-ils disponibles à l'achat ?  <br/> |Oui, voir [Telstra d’appel pour Office 365](https://aka.ms/TelstraVoicePlan).  <br/> |
-|Minutes disponibles pour les forfaits d'appels  <br/> |Voir [Telstra d’appel pour Office 365](https://aka.ms/TelstraVoicePlan). <br/> |
-|Est-il possible de passer des appels sortants ?  <br/> |Voir [Telstra d’appel pour Office 365](https://aka.ms/TelstraVoicePlan). <br/> |
+|Les forfaits d'appels sont-ils disponibles à l'achat ?  <br/> |Oui, voir [appels Telstra pour Office 365](https://aka.ms/TelstraVoicePlan).  <br/> |
+|Minutes disponibles pour les forfaits d'appels  <br/> |Voir [appels Telstra pour Office 365](https://aka.ms/TelstraVoicePlan). <br/> |
+|Est-il possible de passer des appels sortants ?  <br/> |Voir [appels Telstra pour Office 365](https://aka.ms/TelstraVoicePlan). <br/> |
 
 > [!IMPORTANT]
-> Contactez Telstra directement aux numéros de supprimer un abonné australien (fournis par Telstra).
-> Pour mettre à jour les informations d’adresse d’urgence pour les numéros d’abonné australien (fournis par Telstra) contacter directement Telstra.
+> Pour supprimer les numéros d’abonnés australiens (fournis par Telstra), contactez directement Telstra.
+> Pour mettre à jour les informations relatives à l’adresse d’urgence des numéros d’abonnés australiens (fournies par Telstra), contactez Telstra directement.
 > Pour plus d’informations, voir [Telstra Calling pour Office 365](https://aka.ms/TelstraVoicePlan).
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Numéros payants et gratuits pour les services
 
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
-|Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?  <br/> | <ul><li>Adélaïde <li>Brisbane <li>  Canberra <li>Darwin <li>Melbourne <li>Newcastle <li> Perth <li>Sydney <li>Wollongong  |
+|Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?  <br/> | <ul><li>Adélaïde <li>Brisbane <li>  Canberra <li>Darwin <li>Melbourne <li>Maladie <li> Perth <li>Sydney <li>Wollongong  |
 |Les numéros payants sont-ils disponibles ?  <br/> |Oui  <br/> |
 |Les numéros gratuits sont-ils disponibles ?  <br/> |Oui  <br/> |
 
-Si vous souhaitez obtenir payants et les numéros de téléphone pour les standards automatiques, appelez files d’attente ou les numéros de service de conférence audio, [Contactez-nous](mailto:ptnapac@microsoft.com).
+Si vous souhaitez obtenir des numéros de téléphone payants et gratuits pour les standards automatiques, des files d’attente ou des numéros de service d’audioconférence, [veuillez nous contacter](mailto:ptnapac@microsoft.com).
 
 ## <a name="communications-credits"></a>Crédits de communication
 

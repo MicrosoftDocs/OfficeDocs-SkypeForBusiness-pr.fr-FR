@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -20,55 +20,55 @@ f1keywords:
 - ms.lync.lac.PortOrderAccountInfo
 ms.custom:
 - Calling Plans
-description: 'Connaître les informations de compte que vous avez besoin lorsque vous travaillez avec un Assistant Nouvelle commande de Port numéro Local. '
-ms.openlocfilehash: 404bef2ad18728de90ac0a296c213e841719984b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Découvrez les informations de compte requises lors de l’utilisation de l’Assistant demande de transfert de nouveaux numéros locaux. '
+ms.openlocfilehash: 4d1ac6831287281b5e9dfa691e09807d2887aaf4
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229846"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280705"
 ---
 # <a name="port-order-account-information"></a>Informations sur le compte de demande de transfert
 
-Lorsque vous utilisez la page **informations de compte** dans l’Assistant **Nouvel ordre de Port numéro Local** pour envoyer une commande de port, vous devez presque toutes les mêmes informations que vous devez fournir de la lettre d’accord, y compris :
+Lorsque vous utilisez la page **informations sur le compte** de l’Assistant Nouvelle demande de transfert de **numéros locaux** pour soumettre une demande de transfert, vous avez besoin de la quasi-totalité des informations que vous fournissez dans le Loa, y compris:
   
-- Numéro de compte pour le fournisseur de services ou d’un opérateur
+- Numéro de compte de l’opérateur ou du fournisseur de services
     
 - Numéro de téléphone de facturation (BTN)
     
-- Code confidentiel - si requis par votre fournisseur de services en cours ou un opérateur
+- Code confidentiel: si nécessaire pour votre fournisseur de services ou votre opérateur actuel.
     
 - Nom de la société
     
     > [!NOTE]
-    > Il n’accepte que les 25 caractères, espaces compris. Si le nom de la société comporte plus de 25 caractères, les 25 premiers caractères sont envoyés et la demande de transfert est traitée malgré tout. 
+    > Cela n’accepte que 25 caractères, espaces compris. Si le nom de la société comporte plus de 25 caractères, les 25 premiers caractères sont envoyés et la demande de transfert est traitée malgré tout. 
   
 - Nom de l'utilisateur autorisé
     
     > [!NOTE]
-    > Il n’accepte que 15 caractères, espaces compris. Si le nom de la personne autorisant contient plus de 15 caractères, les 15 premiers caractères sont envoyés et la demande de transfert est traitée malgré tout. 
+    > Cela n’accepte que 15 caractères, y compris des espaces. Si le nom de la personne autorisant contient plus de 15 caractères, les 15 premiers caractères sont envoyés et la demande de transfert est traitée malgré tout. 
   
 - Adresse du service
     
-- Ville, état et code postal de l’adresse de facturation
+- Ville, État et code postal de l’adresse de facturation
     
     > [!NOTE]
-    > Vous n’aurez plus besoin de signature de la personne à autoriser. 
+    > Vous n’avez pas besoin de la signature de la personne autorisée. 
   
-Pour rendre l’envoi de la commande port facile et éviter les erreurs, assurez-vous que vous effectuez les opérations suivantes :
+Pour faciliter l’envoi d’une demande de transfert et éviter les erreurs, assurez-vous d’effectuer les opérations suivantes:
   
-- Supprimer toutes les fonctionnalités (telles que les groupements de postes) associées à vos numéros. N’Assurez-vous qu’aucune fonctionnalité de contrôle avancée des appels, tels que les postes d’appel ou une sonnerie distincte, activé sur ces numéros de téléphone.
+- Supprimez les fonctions (telles que les groupes de recherche) associées à vos numéros. Assurez-vous qu’aucune fonctionnalité de contrôle d’appel avancée, par exemple la recherche d’appel ou la sonnerie distincte, n’est activée sur ces numéros de téléphone.
     
-- Assurez-vous que vous n’avez pas placés de nouvelles commandes service ou déconnecte avec votre fournisseur de services en cours.
+- Assurez-vous que vous n’avez pas adressé de nouvelles commandes de service ou de demandes de résiliation à votre fournisseur de services actuel.
     
 - Assurez-vous que tous les numéros sont issus du même opérateur et du même compte.
     
-- Assurez-vous que les informations de compte que vous indiquez correspondent exactement à celles enregistrées par votre opérateur téléphonique. Les informations qui ne correspond pas sont les plus courantes entraîner des erreurs et peuvent retarder votre commande port.
+- Assurez-vous que les informations de compte que vous indiquez correspondent exactement à celles enregistrées par votre opérateur téléphonique. Les informations non satisfaites sont la cause la plus fréquente d’erreurs et peuvent différer votre demande de transfert.
     
 > [!CAUTION]
 > **Ne résiliez pas vos services auprès de votre opérateur ou fournisseur de services.**> **Votre service précédent doit rester actif pour que vos numéros de téléphone puissent être portés vers Skype Entreprise Online.**> **Ne suspendez pas votre compte auprès de votre opérateur ou fournisseur de services. Cela aurait pour effet d'empêcher le changement d'opérateurs sur le compte. L'utilisateur autorisé devra envoyer une commande à l'opérateur actuel pour rétablir le compte suspendu. Cette procédure peut prendre de 1 à 3 semaines selon l'opérateur.**> 
   
- **Pour obtenir des instructions complètes, voir [transférer des numéros de téléphone vers Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
+ **Pour obtenir des instructions complètes détaillées, consultez la rubrique [transférer des numéros de téléphone vers Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
 
  > [!NOTE]
 > Si vous devez obtenir davantage de numéros de téléphone, veuillez [contacter le support pour les entreprises - Aide de l'administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)

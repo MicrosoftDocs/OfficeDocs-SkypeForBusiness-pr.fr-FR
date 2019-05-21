@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,27 +24,27 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour l’Ukraine.
-ms.openlocfilehash: a6fb2b0c48756afdf594a9f2ae091ef6706e3530
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+description: Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibles pour l’Ukraine.
+ms.openlocfilehash: 5b987540ec0ba0bb02346bb21394740afa8cd09c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30543094"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34281954"
 ---
 # <a name="availability-in-the-ukraine"></a>Disponibilité en Ukraine
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ou renseignez-vous sur la disponibilité des forfaits d'appels et d'audioconférence selon les régions et les pays.
 
-Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour l’Ukraine.
+Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibles pour l’Ukraine.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
 |L'audioconférence est-elle disponible à l'achat ?  <br/> |Oui  <br/> |
-|Les numéros de téléphone sont-ils attribués automatiquement pour l'audioconférence ?  <br/> |Les numéros de téléphone ne sont pas liés à une ville ou à un lieu spécifique. Si vous souhaitez obtenir des numéros de téléphone dédiés, reportez-vous à la rubrique [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).  <br/> |
-|Fonction de numérotation à l'aide de la fonctionnalité M'appeler  <br/> |Requiert les crédits de communication  <br/> |
+|Les numéros de téléphone sont-ils attribués automatiquement pour l'audioconférence ?  <br/> |Les numéros de téléphone ne sont pas liés à une ville ou à un lieu spécifiques. Si vous souhaitez obtenir des numéros de téléphone dédiés, reportez-vous à la rubrique [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).  <br/> |
+|Fonction de numérotation à l'aide de la fonctionnalité M'appeler  <br/> |Nécessite des crédits de communication  <br/> |
    
 ## <a name="phone-system"></a>Système téléphonique
 
@@ -67,7 +67,7 @@ Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft
 
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
-|Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?  <br/> |Les numéros de téléphone ne sont pas liés à une ville ou à un lieu spécifique.  <br/> |
+|Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?  <br/> |Les numéros de téléphone ne sont pas liés à une ville ou à un lieu spécifiques.  <br/> |
 |Les numéros payants sont-ils disponibles ?  <br/> |Oui  <br/> |
 |Les numéros gratuits sont-ils disponibles ?  <br/> |Non  <br/> |
    

@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,68 +21,68 @@ localization_priority: Normal
 f1keywords: ms.teamsadmincenter.audioconferencing.bridgesettings
 ms.custom:
 - Audio Conferencing
-description: 'Obtenir les étapes que vous devez modifier les paramètres d’un pont de conférence qui permet de demander des appelants et recueillir les noms et les codes confidentiels pour les organisateurs de réunion lorsqu’ils utilisent pas Skype pour les applications Microsoft Teams ou de l’entreprise. '
-ms.openlocfilehash: 7483a584e3ecd70f9ec34eb5a12d95860c23c36b
-ms.sourcegitcommit: 9a99be1365df439f9443f31240aa5311782458df
+description: 'Découvrez les étapes dont vous avez besoin pour modifier les paramètres d’un pont de conférence qui est utilisé pour inviter les appelants et rassembler des noms et des codes confidentiels pour les organisateurs de la réunion lorsque ces derniers n’utilisent pas les applications Skype entreprise ou Microsoft Teams. '
+ms.openlocfilehash: d77d614b0b9e41d5948c3f9f9322df168a452bec
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/14/2019
-ms.locfileid: "33995054"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283440"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Modifier les paramètres d’un pont d’audioconférence.
 
-Lorsque vous configurez les services d’audioconférence dans Office 365, vous recevrez des numéros de téléphone pour vos utilisateurs à partir de ce que l'on appelle un pont de conférence audio. Un pont de conférence peut comporter un ou plusieurs numéros de téléphone. Ces numéros de téléphone sont utilisés lorsque les appelants se connectent à une réunion. Le numéro de téléphone est inclus en bas de la Skype pour l’invitation à la réunion Microsoft Teams ou de l’entreprise.
+Lorsque vous configurez l’audioconférence dans Office 365, vous recevez des numéros de téléphone pour vos utilisateurs à partir d’un pont de conférence audio. Un pont de conférence peut comporter un ou plusieurs numéros de téléphone. Ces numéros de téléphone permettent aux appelants de se connecter à une réunion. Le numéro de téléphone est inclus en bas de l’invitation à la réunion Skype entreprise ou Microsoft Teams.
   
-Le pont de conférence répond à un appel et demande à l’appelant avec les invites vocales à l’aide d’un standard automatique de réunion standard, puis, en fonction de vos paramètres, il peut lire des notifications, poser aux appelants à enregistrer leur nom et contrôler les paramètres de code confidentiel. Codes confidentiels accordées aux organisateurs de réunions pour leur permettre de pour démarrer une réunion lorsqu’ils sont ne sont pas à l’aide un Skype pour l’application Microsoft Teams ou de l’entreprise.
+Le pont de conférence répond à un appel et invite l’appelant à utiliser les invites vocales à l’aide d’un standard automatique de réunion, puis, en fonction de vos paramètres, il peut lire les notifications, demander aux appelants d’enregistrer leur nom et de contrôler les paramètres de code confidentiel. Des broches sont fournies aux organisateurs de la réunion pour leur permettre de démarrer une réunion lorsqu’elles ne sont pas à l’aide d’une application Skype entreprise ou Microsoft Teams.
 
   > [!IMPORTANT]
-  > Un code confidentiel est uniquement requis pour l’organisateur lorsqu’une Skype pour l’utilisateur d’application Microsoft Teams ou de l’entreprise n’a pas déjà démarré la réunion. Si tout le monde est qui se connectent à la réunion, le code confidentiel est requis pour l’organisateur de la réunion démarrer la réunion. 
+  > Un code confidentiel est requis uniquement pour l’organisateur de la réunion lorsqu’un utilisateur de l’application Skype entreprise ou Microsoft teams n’a pas encore commencé la réunion. Si tout le monde se connecte à la réunion, le code confidentiel est requis pour l’organisateur de la réunion pour démarrer la réunion. 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-## <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![les équipes-logo-30x30.png](media/teams-logo-30x30.png) À l’aide du centre d’administration Microsoft Teams
+## <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![teams-logo-30x30. png](media/teams-logo-30x30.png) Utilisation du centre d’administration Microsoft teams
 
-1. Dans la navigation de gauche, accédez à des **réunions** > **ponts de conférence**. 
+1. Dans le volet de navigation de gauche, accédez à **conférences** > **** conférences. 
 
-2. En haut de la page de **ponts de conférence** , cliquez sur **paramètres du pont**. 
+2. Dans la partie supérieure de la page de **conférences ponts** , cliquez sur **paramètres du pont**. 
 
-3. Dans le volet **paramètres du pont** , sélectionnez : 
-   - **Entrée de réunion et quitter les notifications** Si vous désactivez cette option, les utilisateurs qui ont déjà joint la réunion ne sera pas avertis lorsque quelqu'un rejoint ou quitte la réunion.
+3. Dans le volet **paramètres du pont** , sélectionnez: 
+   - **Notifications d’entrée et de sortie de réunion** Si vous désactivez cette fonctionnalité, les utilisateurs qui ont déjà rejoint la réunion ne seront pas avertis lorsqu’une personne entre ou quitte la réunion.
     
-     Lorsque vous activez **les notifications d’entrée et de sortie de la réunion**, vous pouvez sélectionner ces options :
+     Lorsque vous activez les **notifications d’entrée et de sortie**de la réunion, vous pouvez sélectionner les options suivantes:
     
-   - **Les noms ou les numéros de téléphone** Lorsque les utilisateurs se connecter à une réunion, son numéro de téléphone sera diffusé lorsqu’ils se joignent à.
+   - **Nom ou numéro de téléphone** Lorsqu’un utilisateur appelle pour rejoindre une réunion, son numéro de téléphone est diffusé lorsqu’il rejoint la réunion.
     
-   - **Tonalités** Lorsque les utilisateurs se connecter à une réunion, une tonalité audio sera diffusée lorsqu’ils se joignent à.
+   - **Tonalités** Lorsque des utilisateurs se connectent à une réunion, une sonnerie est diffusée quand ils la rejoignent.
       
-   - **Appelants ASK à enregistrer leur nom avant de participer à la réunion** Si vous désactivez cette option, les appelants ne sont pas invités à enregistrer leur nom avant de participer à une réunion.
+   - **Demander aux appelants d’enregistrer leur nom avant de participer à la réunion** Si vous désactivez cette fonctionnalité, les appelants ne seront pas invités à enregistrer leur nom avant de participer à une réunion.
 
-4. Pour définir la longueur du code confidentiel pour les réunions, sélectionnez le nombre de chiffres pour le code confidentiel dans la liste **longueur du code confidentiel** .
+4. Pour définir la longueur du code confidentiel pour les réunions, sélectionnez le nombre de chiffres souhaité pour le code confidentiel dans la liste **longueur du code confidentiel** .
 
-5. Pour spécifier s’il faut envoyer un message électronique à vos utilisateurs, activez ou désactivez **Envoyer automatiquement des messages électroniques aux utilisateurs si la configuration de leurs services d’audioconférence**.
-    Pour plus d’informations, voir [les messages électroniques envoyés automatiquement aux utilisateurs lorsque les paramètres de conférence Audio changent dans les équipes Microsoft](emails-sent-to-users-when-their-settings-change-in-teams.md) ou [les messages électroniques envoyés aux utilisateurs lorsque les paramètres changent dans Skype pour Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change) .
+5. Pour indiquer si vous souhaitez envoyer des courriers électroniques à vos utilisateurs, activez ou désactivez l' **envoi automatique de messages électroniques aux utilisateurs en cas de modification de la configuration**de votre audioconférence.
+    Pour plus d’informations, voir [messages électroniques envoyés automatiquement aux utilisateurs lorsque leurs paramètres de conférence audio sont modifiés dans Microsoft teams](emails-sent-to-users-when-their-settings-change-in-teams.md) ou [messages électroniques envoyés aux utilisateurs en cas de modification de leurs paramètres dans Skype entreprise Online](/SkypeForBusiness/audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change) .
  
 6. Cliquez sur **Enregistrer**. 
 
 
 ## <a name="sfb-logo-30x30pngmediasfb-logo-30x30png--using-the-skype-for-business-admin-center"></a>![sfb-logo-30x30.png](media/sfb-logo-30x30.png)  Utilisation du centre d'administration Skype Entreprise
 
- **Configurer l’expérience lorsque les appelants participer à une réunion**
+ **Configurer l’interface de réunion lorsque les appelants rejoignent une réunion**
     
-1. Dans la **Skype entreprise centre d’administration**, dans le volet de navigation gauche accédez à la **conférence Audio** > **paramètres de pont de Microsoft**.
+1. Dans le **Centre d’administration de Skype entreprise**, dans le volet de navigation de gauche, accédez à**paramètres du pont Microsoft** **Conferencing** > .
     
-2. Dans la page **paramètres du pont Microsoft** , sous **l’expérience de participation aux réunions**, sélectionnez :
+2. Dans la page **paramètres du pont Microsoft** , sous **qualité de participation**à une réunion, sélectionnez:
     
-   - **Activer ou désactiver les annonces d'entrée et de sortie des réunions**: cette option est sélectionnée par défaut. Si vous désactivez la case à cocher, les utilisateurs qui ont déjà joint la réunion ne sera pas avertis lorsque quelqu'un rejoint ou quitte la réunion.
+   - **Activer ou désactiver les annonces d'entrée et de sortie des réunions**: cette option est sélectionnée par défaut. Si vous désactivez cette case à cocher, les utilisateurs qui ont déjà rejoint la réunion ne seront pas avertis lorsqu’une personne entre ou quitte la réunion.
     
-   - Lorsque vous sélectionnez **Activer l’accès à la réunion et quitter notifications est activé**, vous pouvez sélectionner ces options dans la liste **type d’entrée/sortie annonce** :
+   - Lorsque vous sélectionnez **activer ou désactiver les notifications d’entrée et de sortie de la réunion**, vous pouvez sélectionner ces options dans la liste **type d’annonce d’entrée/sortie** :
     
-   - **Les noms ou les numéros de téléphone** Lorsque les utilisateurs se connecter à une réunion, son numéro de téléphone sera diffusé lorsqu’ils se joignent à.
+   - **Nom ou numéro de téléphone** Lorsqu’un utilisateur appelle pour rejoindre une réunion, son numéro de téléphone est diffusé lorsqu’il rejoint la réunion.
     
-   - **Tonalités** Lorsque les utilisateurs se connecter à une réunion, une tonalité audio sera diffusée lorsqu’ils se joignent à.
+   - **Tonalités** Lorsque des utilisateurs se connectent à une réunion, une sonnerie est diffusée quand ils la rejoignent.
   
-   - **Demander aux appelants d'enregistrer leur nom avant de participer à la réunion**: cette option est sélectionnée par défaut. Si vous désactivez la case à cocher, les appelants ne sont pas invités à enregistrer leur nom avant de participer à une réunion.
+   - **Demander aux appelants d'enregistrer leur nom avant de participer à la réunion**: cette option est sélectionnée par défaut. Si vous désactivez la case à cocher, les appelants ne seront pas invités à enregistrer leur nom avant de participer à une réunion.
     
 3. Une fois que vous avez effectué vos modifications, cliquez sur **Enregistrer**.
     
@@ -90,30 +90,30 @@ Le pont de conférence répond à un appel et demande à l’appelant avec les i
   
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
-2. Accéder au **Centre d’administration Microsoft 365** > **Skype pour les entreprises**.
+2. Accédez au >  **Centre d’administration Microsoft 365****Skype entreprise**.
     
-3. Dans la **Skype entreprise centre d’administration**, dans la navigation de gauche, accédez à la **conférence Audio** > **paramètres de pont de Microsoft**.
+3. Dans le **Centre d’administration de Skype entreprise**, dans le volet de navigation gauche, accédez à**paramètres du pont Microsoft** **Conferencing** > .
     
-4. Dans la page **paramètres du pont Microsoft** , sous **sécurité**, entrez le nombre de chiffres pour le code confidentiel dans la liste **longueur du code confidentiel** , puis cliquez sur **Enregistrer**.
+4. Dans la page **paramètres du pont Microsoft** , sous **sécurité**, entrez le nombre de chiffres souhaités pour le code confidentiel dans la liste **longueur du code confidentiel** , puis cliquez sur **Enregistrer**.
     
     > [!IMPORTANT]
     > Le code confidentiel doit comporter entre 4 et 12 chiffres. 
   
-**Sélectionnez s’il faut envoyer un message électronique à vos utilisateurs**
+**Indiquez si vous souhaitez envoyer un courrier électronique à vos utilisateurs.**
   
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
-2. Accéder au **Centre d’administration Microsoft 365** > **Skype pour les entreprises**.
+2. Accédez au >  **Centre d’administration Microsoft 365****Skype entreprise**.
     
-3. Dans la **Skype entreprise centre d’administration**, dans la navigation de gauche, accédez à la **conférence Audio** > **paramètres de pont de Microsoft**.
+3. Dans le **Centre d’administration de Skype entreprise**, dans le volet de navigation gauche, accédez à**paramètres du pont Microsoft** **Conferencing** > .
     
-4. Dans la page **paramètres du pont Microsoft** , activez ou désactivez **Envoyer automatiquement des messages électroniques aux utilisateurs si leurs informations de numérotation changent**, puis cliquez sur **Enregistrer**.
+4. Dans la page **paramètres du pont Microsoft** , activez ou désactivez **Envoyer automatiquement les messages électroniques aux utilisateurs en cas de modification de leurs informations de connexion**, puis cliquez sur **Enregistrer**.
     
-    Pour plus d’informations, voir [les messages électroniques envoyés automatiquement aux utilisateurs lorsque les paramètres de conférence Audio changent dans les équipes Microsoft](emails-sent-to-users-when-their-settings-change-in-teams.md) ou [les messages électroniques envoyés aux utilisateurs lorsque les paramètres changent dans Skype pour Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change) .
+    Pour plus d’informations, voir [messages électroniques envoyés automatiquement aux utilisateurs lorsque leurs paramètres de conférence audio sont modifiés dans Microsoft teams](emails-sent-to-users-when-their-settings-change-in-teams.md) ou [messages électroniques envoyés aux utilisateurs en cas de modification de leurs paramètres dans Skype entreprise Online](/SkypeForBusiness/audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change) .
     
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Comment utiliser Windows PowerShell pour gérer cette fonction ?
 
-- Pour gagner du temps ou automatiser ce processus, vous pouvez utiliser l’applet de commande [Set-CsDialinConferencingBridge](https://go.microsoft.com/fwlink/?LinkId=617686) .
+- Pour gagner du temps ou automatiser le processus, vous pouvez utiliser l’applet de connexion [Set-CsDialinConferencingBridge](https://go.microsoft.com/fwlink/?LinkId=617686) .
     
 - Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 depuis un seul point d'administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :
     
@@ -121,7 +121,7 @@ Le pont de conférence répond à un appel et demande à l’appelant avec les i
     
   - [Meilleurs moyens de gérer Office 365 avec Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell présente de nombreux avantages dans vitesse, la simplicité et la productivité sur qu’à l’aide du centre d’administration Microsoft 365, tels que lorsque vous devez apporter des modifications de paramètre pour de nombreux utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes : 
+- Windows PowerShell dispose de nombreux avantages de la vitesse, de la simplicité et de la productivité par le biais du centre d’administration Microsoft 365, par exemple, lorsque vous apportez des modifications à un grand nombre d’utilisateurs à la fois. Découvrez ces avantages dans les rubriques suivantes : 
     
   - [Présentation de Windows PowerShell et Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
@@ -136,4 +136,4 @@ Le pont de conférence répond à un appel et demande à l’appelant avec les i
 
 [Configurer Audioconférence pour Microsoft Teams](set-up-audio-conferencing-in-teams.md)
 
-[Configuré à la conférence Audio pour Skype pour Business en ligne](/skypeforbusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)
+[Configurer l’audioconférence pour Skype entreprise Online](/skypeforbusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)

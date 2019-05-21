@@ -1,24 +1,24 @@
 ---
-title: Phase 7 réalisation de tâches post-migration
+title: 'Étape 7: effectuer les tâches postérieures à la migration'
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Les rubriques de cette section décrivent les tâches que vous devrez effectuer après avoir terminé votre migration vers Skype pour Business Server 2019.
-ms.openlocfilehash: ef3a1f4b6d7262d223e78ebfae53e02203e9248e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Les rubriques de cette section décrit les tâches que vous devez effectuer après la migration vers Skype entreprise Server 2019.
+ms.openlocfilehash: 34977674966ab7c52e14a3036edc71e1e2f44469
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231450"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34273860"
 ---
 # <a name="phase-7-complete-post-migration-tasks"></a>Étape 7 : Exécuter les tâches post-migration
 
-Les rubriques de cette section décrivent les tâches que vous devrez effectuer après avoir terminé votre migration vers Skype pour Business Server 2019.
+Les rubriques de cette section décrit les tâches que vous devez effectuer après la migration vers Skype entreprise Server 2019.
   
 ## <a name="in-this-section"></a>Contenu de cette section
 
@@ -38,7 +38,7 @@ Les rubriques de cette section décrivent les tâches que vous devrez effectuer 
     
 - [Configuration des serveurs d’applications approuvées](configure-trusted-application-servers.md)
     
-- [Déployer Skype pour les clients Business Server 2019](deploy-clients.md)
+- [Déploiement de clients 2019 Skype entreprise Server](deploy-clients.md)
     
 - [Connexion d’une Survivable Branch Appliance](connect-a-survivable-branch-appliance.md)
     

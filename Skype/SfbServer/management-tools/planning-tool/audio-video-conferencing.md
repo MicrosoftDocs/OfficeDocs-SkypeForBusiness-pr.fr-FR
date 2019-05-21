@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 4/6/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.plan.AV
@@ -13,17 +13,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 466f5d2e-0e70-434c-8318-dfdefe679a31
-description: Skype pour Business Server 2015 Audio/vidéo (A / V) conférence permet aux utilisateurs de participer à des vidéoconférences ou audio en temps réel.
-ms.openlocfilehash: 188c627e8804dc481baf4f545b8bb3704a5ac77f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Les conférences audio/vidéo (A/V) Skype entreprise Server 2015 permettent aux utilisateurs de participer à des conférences audio ou vidéo en temps réel.
+ms.openlocfilehash: 23a79906de0a9252b4687e9663695d8d3cca4060
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33914939"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274358"
 ---
 # <a name="audio-video-conferencing-planning-tool"></a>Audio Video Conferencing (Planning Tool)
  
-Skype pour Business Server 2015 Audio/vidéo (A / V) conférence permet aux utilisateurs de participer à des vidéoconférences ou audio en temps réel.
+Les conférences audio/vidéo (A/V) Skype entreprise Server 2015 permettent aux utilisateurs de participer à des conférences audio ou vidéo en temps réel.
   
 Pour des informations détaillées sur la planification de l’activation de la conférence audio/vidéo dans votre organisation, consultez les rubriques et sous-rubriques suivantes : 
   

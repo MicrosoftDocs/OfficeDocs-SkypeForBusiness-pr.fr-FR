@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour Bosnie-Herzégovine.
-ms.openlocfilehash: f11b9f4b3cc34dd1523472f2781fde5fd78c5de2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibles pour la Bosnie-Herzégovine.
+ms.openlocfilehash: c7326f72212965a5ebd628b3678c6d109969c4d9
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919815"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283225"
 ---
 # <a name="availability-in-bosnia-amp-herzegovina"></a>Disponibilité en Bosnie &amp; Herzégovine
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ou renseignez-vous sur la disponibilité des forfaits d'appels et d'audioconférence selon les régions et les pays.
 
-Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour Bosnie-Herzégovine.
+Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibles pour la Bosnie-Herzégovine.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 
@@ -44,7 +44,7 @@ Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft
 |:-----|:-----|
 |L'audioconférence est-elle disponible à l'achat ?  <br/> |Oui  <br/> |
 |Les numéros de téléphone sont-ils attribués automatiquement pour l'audioconférence ?  <br/> |Non  <br/> |
-|Fonction de numérotation à l'aide de la fonctionnalité M'appeler  <br/> |Requiert les crédits de communication  <br/> |
+|Fonction de numérotation à l'aide de la fonctionnalité M'appeler  <br/> |Nécessite des crédits de communication  <br/> |
    
 ## <a name="phone-system"></a>Système téléphonique
 

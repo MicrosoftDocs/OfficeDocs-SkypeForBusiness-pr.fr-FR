@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 ms.appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -18,20 +18,20 @@ ROBOTS: NOIDEX, NOFOLLOW
 f1keywords: None
 ms.custom:
 - Setup
-description: 'Ce résumé de Skype pour les paramètres d’organisation et des utilisateurs professionnels peut vous aider à en savoir plus sur la connectivité PIC, les invitations aux réunions, d’enregistrement des appels et des réunions et plus encore.  '
-ms.openlocfilehash: df16f6893da94e456bc873a74c8e0a1639eda3db
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Ce résumé de l’organisation et des paramètres utilisateur de Skype entreprise vous permet d’en savoir plus sur la connectivité de messagerie instantanée publique, les invitations aux réunions, les appels et les réunions, et bien plus encore.  '
+ms.openlocfilehash: b039a97aea20fb4914deb077bd4aa76dbf13c1b3
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32237247"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285093"
 ---
 # <a name="skype-for-business-online-settings-summary"></a>Résumé des paramètres Skype Entreprise Online
 
-Le **Skype entreprise centre d’administration** contient des paramètres pour votre organisation et pour des utilisateurs individuels. 
+Le **Centre d’administration Skype entreprise** inclut les paramètres pour votre organisation entière et pour les utilisateurs individuels. 
   
 > [!NOTE]
->  En fonction de votre emplacement géographique, il se peut que vous n'ayez pas accès à toutes les fonctionnalités de Skype Entreprise Online. Pour plus d’informations, consultez [restrictions de licence pour Office 365](https://go.microsoft.com/fwlink/?LinkId=529483). 
+>  En fonction de votre emplacement géographique, il se peut que vous n'ayez pas accès à toutes les fonctionnalités de Skype Entreprise Online. Pour plus d’informations, voir [restrictions de licence pour Office 365](https://go.microsoft.com/fwlink/?LinkId=529483). 
   
 ## <a name="skype-for-business-online-organization-settings"></a>Paramètres Skype Entreprise Online applicables à l'organisation
 <a name="__top"> </a>
@@ -52,7 +52,7 @@ Le **Skype entreprise centre d’administration** contient des paramètres pour 
 |Audio et vidéo  <br/> |Permet de mener des conversations audio et vidéo à l'aide de Skype Entreprise Online.  <br/> |Activé  <br/> |[Administrateurs : Configuration des paramètres de Skype Entreprise pour les utilisateurs individuels](configure-skype-for-business-settings-for-individual-users.md) <br/> |
 |Enregistrement  <br/> |Enregistrer des appels et des réunions  <br/> |Activé  <br/> |[Administrateurs : Configuration des paramètres de Skype Entreprise pour les utilisateurs individuels](configure-skype-for-business-settings-for-individual-users.md) <br/> |
 |Appel sortant de participant anonyme  <br/> |Permet d'autoriser les participants anonymes à des réunions Skype Entreprise Online à se connecter en demandant au fournisseur de services de conférence de les appeler.  <br/> |Activé  <br/> |[Administrateurs : Configuration des paramètres de Skype Entreprise pour les utilisateurs individuels](configure-skype-for-business-settings-for-individual-users.md) <br/> |
-|Désactiver les fonctionnalités non archivées  <br/> | Désactive les fonctionnalités qui ne sont pas capturées lors de l’organisation a configuré un [Ajouter des éléments à des sources de cas et le lieu de blocage dans le centre eDiscovery](https://go.microsoft.com/fwlink/?LinkId=529482) dans le centre d’administration Exchange : <br/>  transfert de fichier avec la messagerie instantanée <br/>  Pages OneNote partagées <br/>  Annotations PowerPoint <br/>  Sélectionnez cette option si vous êtes légalement tenu de conserver les informations stockées électroniquement. <br/> |Désactivé  <br/> |[Administrateurs : Configuration des paramètres de Skype Entreprise pour les utilisateurs individuels](configure-skype-for-business-settings-for-individual-users.md) <br/> |
+|Désactiver les fonctionnalités non archivées  <br/> | Désactive les fonctionnalités qui ne sont pas capturées lors de la configuration de l' [Ajout de contenu à un cas pour l’organisation et l’attente des sources dans le centre eDiscovery](https://go.microsoft.com/fwlink/?LinkId=529482) dans le centre d’administration Exchange: <br/>  transfert de fichier avec la messagerie instantanée <br/>  Pages OneNote partagées <br/>  Annotations PowerPoint <br/>  Sélectionnez cette option si vous êtes légalement tenu de conserver les informations stockées électroniquement. <br/> |Désactivé  <br/> |[Administrateurs : Configuration des paramètres de Skype Entreprise pour les utilisateurs individuels](configure-skype-for-business-settings-for-individual-users.md) <br/> |
    
 ## <a name="related-topics"></a>Voir aussi
 [Configurer Skype Entreprise Online](set-up-skype-for-business-online.md)

@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -20,63 +20,63 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: Découvrez comment afficher une liste de tous les numéros de téléphone dans votre organisation, tous les numéros affectés aux utilisateurs et tous les numéros qui sont affectées aux utilisateurs de voix à partir de la Skype entreprise centre d’administration.
-ms.openlocfilehash: 7cda5c0ae791436d9f584cc4af802bfbc3649fcc
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Découvrez comment afficher la liste de tous les numéros de téléphone de votre organisation, tous les numéros attribués aux utilisateurs et tous les numéros attribués aux utilisateurs vocaux dans le centre d’administration Skype entreprise.
+ms.openlocfilehash: 9682e0473932337734828a13cf75a8c77e622938
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229943"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280467"
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>Affichage de la liste des numéros de téléphone de votre organisation
 
-Il existe différents types de numéros de téléphone que vous pouvez affecter à des utilisateurs ou d’autres services (numéros de service), tels que pour une audioconférence dans Office 365.
+Il existe différents types de numéros de téléphone que vous pouvez affecter à des utilisateurs ou à d’autres services (numéros de service), par exemple pour l’audioconférence dans Office 365.
   
 ## <a name="to-see-a-list-of-all-phone-numbers-that-you-have-for-your-organization"></a>Pour obtenir une liste des numéros de téléphone disponibles pour votre organisation
 
-![SFB-logo-30x30.png](../images/sfb-logo-30x30.png) **à l’aide de la Skype entreprise centre d’administration**
+![SFB-logo-30x30. png](../images/sfb-logo-30x30.png) **à l’aide du centre d’administration Skype entreprise**
 
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
-2. Accéder au **Centre d’administration de Microsoft équipes** > **portail hérité**.
+2. Accédez au > **portail hérité**du **Centre d’administration Microsoft teams**.
     
 3. Dans le panneau de navigation de gauche de **Centre d'administration Skype Entreprise**, sélectionnez **Voix** > **Numéros de téléphone**.
     
     > [!IMPORTANT]
-    > Vous permet de voir l’option de **voix** dans le volet de navigation gauche dans le Skype entreprise centre d’administration, vous devez d’abord acheter une licence de module complémentaire de **Conférence Audio** , une licence de module complémentaire **Système téléphonique** ou au moins une **licence Enterprise E5**.
+    > Pour que l’option **voix** s’affiche dans le volet de navigation gauche du centre d’administration de Skype entreprise, vous devez d’abord acheter au moins une licence **entreprise E5**, une licence de composant additionnel du **système téléphonique** ou une licence du composant additionnel **audioconférence** .
     
-4. Pour afficher les numéros de téléphone qui sont affectés, consultez la colonne **numéro** .
+4. Pour afficher les numéros de téléphone affectés, reportez-vous à la colonne **numéro** .
     
-5. Vous pouvez utiliser la liste déroulante pour filtrer l’affichage par :
+5. Vous pouvez utiliser la liste déroulante pour filtrer l’affichage en procédant comme suit:
     
    - **Tous** les numéros de téléphone y compris les numéros de service
     
-   - Téléphone **plage de numéros** que vous avez définie.
+   - Une **plage de numéros** de téléphone que vous définissez.
     
-   - Numéros de téléphone qui sont **affectées à l’utilisateur**.
+   - Les numéros de téléphone **affectés à des utilisateurs**.
     
-   - Numéros de téléphone **affecté à la conférence** pour les conférences rendez-vous.
+   - Les numéros de téléphone **affectés à une conférence** rendez-vous.
     
-   - Numéros de téléphone **non affectés**.
+   - Les numéros de téléphone **non affectés**.
     
    - L' **emplacement** des numéros de téléphone.
     
 ## <a name="to-see-all-of-the-phone-numbers-that-are-assigned-to-users"></a>Pour afficher tous les numéros de téléphone affectés aux utilisateurs
 
-![SFB-logo-30x30.png](../images/sfb-logo-30x30.png) **à l’aide de la Skype entreprise centre d’administration**
+![SFB-logo-30x30. png](../images/sfb-logo-30x30.png) **à l’aide du centre d’administration Skype entreprise**
 
 
 Lorsque vous configurez des utilisateurs, vous voudrez peut-être afficher uniquement les numéros de téléphone déjà affectés à des utilisateurs et ceux qui peuvent leur être affectés.
   
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
-2. Accéder au **Centre d’administration de Microsoft équipes** > **portail hérité**.
+2. Accédez au > **portail hérité**du **Centre d’administration Microsoft teams**.
     
 3. Dans le panneau de navigation de gauche de **Centre d'administration Skype Entreprise**, sélectionnez **Voix** > **Utilisateurs Voix**.
     
     > [!IMPORTANT]
-    > Vous permet de voir l’option de **voix** dans le volet de navigation gauche dans le Skype entreprise centre d’administration, vous devez d’abord acheter une licence de module complémentaire de **Conférence Audio** , une licence de module complémentaire **Système téléphonique** ou au moins une **licence Enterprise E5**.
+    > Pour que l’option **voix** s’affiche dans le volet de navigation gauche du centre d’administration de Skype entreprise, vous devez d’abord acheter au moins une licence **entreprise E5**, une licence de composant additionnel du **système téléphonique** ou une licence du composant additionnel **audioconférence** .
     
 4. You can filter your view for phone numbers that are assigned to users or phone numbers that you can assign to a user. You can filter by:
     
@@ -88,19 +88,19 @@ Lorsque vous configurez des utilisateurs, vous voudrez peut-être afficher uniqu
     
 ## <a name="to-see-the-phone-numbers-that-are-assigned-to-voice-users"></a>Pour afficher les numéros de téléphone affectés aux utilisateurs Voix
 
-![SFB-logo-30x30.png](../images/sfb-logo-30x30.png) **à l’aide de la Skype entreprise centre d’administration**
+![SFB-logo-30x30. png](../images/sfb-logo-30x30.png) **à l’aide du centre d’administration Skype entreprise**
 
 
 Lorsque vous configurez des utilisateurs de votre organisation pour passer et recevoir des appels, vous devez d'abord obtenir les numéros de téléphone, puis les affecter aux utilisateurs. Une fois les numéros de téléphone obtenus, vous voudrez peut-être afficher uniquement la liste des numéros affectés aux utilisateurs, les numéros non affectés et savoir si les utilisateurs sont hébergés en ligne ou sur site.
   
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
-2. Accéder au **Centre d’administration de Microsoft équipes** > **portail hérité**.
+2. Accédez au > **portail hérité**du **Centre d’administration Microsoft teams**.
     
 3. Dans le panneau de navigation de gauche de **Centre d'administration Skype Entreprise**, sélectionnez **Voix** > **Utilisateurs Voix**.
     
     > [!IMPORTANT]
-    > Vous permet de voir l’option de **voix** dans le volet de navigation gauche dans le Skype entreprise centre d’administration, vous devez d’abord acheter une licence de module complémentaire de **Conférence Audio** , une licence de module complémentaire **Système téléphonique** ou au moins une **licence Enterprise E5**.
+    > Pour que l’option **voix** s’affiche dans le volet de navigation gauche du centre d’administration de Skype entreprise, vous devez d’abord acheter au moins une licence **entreprise E5**, une licence de composant additionnel du **système téléphonique** ou une licence du composant additionnel **audioconférence** .
     
 4. You can use the drop-down list to filter your view for active users, whether the user is Online or on-premises, or the state and type of licensing for a user. You can filter by:
     

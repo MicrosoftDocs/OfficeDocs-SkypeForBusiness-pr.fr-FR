@@ -5,24 +5,24 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/28/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 19ced8de-8867-4152-b38a-891f3bc2a5ea
-description: 'Résumé : Apprenez à configurer les options de serveur de conversation permanente au niveau global, site ou au niveau du pool Skype pour Business Server 2015.'
-ms.openlocfilehash: fa2f5aec3a4061191927563437b36504cbb3a119
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Résumé: Découvrez comment configurer les options de serveur de chat permanent sur le niveau global, de site ou de pool dans Skype entreprise Server 2015.'
+ms.openlocfilehash: 6305ba9a961248b24fe1a2fc28d5944efb6adeac
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894485"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34273867"
 ---
 # <a name="configure-persistent-chat-server-options-in-skype-for-business-server-2015"></a>Configuration des options de serveur de conversation permanente dans Skype Entreprise Server 2015
  
-**Résumé :** Apprenez à configurer les options de serveur de conversation permanente au niveau global, site ou au niveau du pool Skype pour Business Server 2015.
+**Résumé:** Apprenez à configurer les options de serveur de chat permanent sur le niveau global, de site ou de regroupement dans Skype entreprise Server 2015.
   
-Vous pouvez spécifier plusieurs options for Persistent Chat Server qui peuvent être appliqués au niveau global, à tous les pools au sein d’un site ou à un pool spécifique au sein d’un site. Les options de serveur de conversation permanente comprennent : 
+Vous pouvez spécifier plusieurs options pour le serveur de chat permanent qui peuvent être appliquées globalement, à tous les pools au sein d’un site ou à un pool spécifique au sein d’un site. Les options de serveur de conversation permanente comprennent : 
   
 - Historique de conversation par défaut. Nombre de messages de conversation disponible pour chaque salle lors de la première demande. La valeur globale par défaut est de 30 messages de conversation. 
     
@@ -30,27 +30,27 @@ Vous pouvez spécifier plusieurs options for Persistent Chat Server qui peuvent 
     
 - Limite de mise à jour du participant. Nombre maximal de participants dans une salle de conversation données qui recevront des mises à jour de réunion via la conversation permanente. La valeur globale par défaut est de 75.
     
-- URL de gestion de salle. URL utilisée pour personnaliser la gestion des salles de conversation. Ce paramètre permet d’utiliser une solution personnalisée de gestion des salles. 
+- URL de gestion de la salle. URL utilisée pour personnaliser la gestion des salles de conversation. Ce paramètre permet d’utiliser une solution personnalisée de gestion des salles. 
    
 > [!NOTE] 
-> Conversation permanente est disponible dans Skype pour Business Server 2015, mais n’est plus pris en charge dans Skype pour Business Server 2019. La même fonctionnalité est disponible dans les équipes. Pour plus d’informations, voir [parcours de Skype pour les entreprises aux équipes de Microsoft](/microsoftteams/journey-skypeforbusiness-teams). Si vous devez utiliser la conversation permanente, vos choix est pour migrer les utilisateurs ayant besoin de cette fonctionnalité aux équipes, ou pour continuer à utiliser Skype pour Business Server 2015.
+> La conversation permanente est disponible dans Skype entreprise Server 2015, mais n’est plus prise en charge dans Skype entreprise Server 2019. La même fonctionnalité est disponible dans Microsoft Teams. Pour plus d’informations, reportez-vous à la rubrique [voyage de Skype entreprise à Microsoft teams](/microsoftteams/journey-skypeforbusiness-teams). Si vous avez besoin d’utiliser la conversation permanente, vous pouvez migrer les utilisateurs qui ont besoin de cette fonctionnalité pour teams ou continuer à utiliser Skype entreprise Server 2015.
  
-## <a name="configure-persistent-chat-server-global-options"></a>Configurer les options globales du serveur de conversation permanente
+## <a name="configure-persistent-chat-server-global-options"></a>Configurer les options globales de chat permanent du serveur de conversation
 
-Pour configurer les options globales du serveur de conversation permanente :
+Pour configurer les options globales de chat permanent du serveur, procédez comme suit:
   
 1. À partir d’un compte auquel le rôle CsPersistentChatAdministrator ou CsAdministrator est affecté, connectez-vous à n’importe quel un ordinateur de votre déploiement interne.
     
-2. Dans le menu **Démarrer** , sélectionnez le Skype pour le panneau de configuration serveur Business ou ouvrir une fenêtre de navigateur, puis entrez l’URL d’administration.
+2. Dans le menu **Démarrer** , sélectionnez le panneau de configuration Skype entreprise Server ou ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration.
     
 3. Dans la barre de navigation de gauche, cliquez sur **Conversation permanente**, puis sur **Configuration de la conversation permanente**.
     
-4. Dans la page **Configuration de conversation permanente** , cliquez sur **Nouveau** , puis sur **configuration du Site**.
+4. Dans la page **configuration de conversation permanente** , cliquez sur **nouveau,** puis cliquez sur **configuration de site**.
     
     > [!IMPORTANT]
-    > Choisissez cette option si vous souhaitez que la configuration soit appliqué à tous les pools Persistent Chat Server déployés dans le site. Si vous souhaitez que la configuration soit appliqué à un pool de serveurs de conversation permanente spécifique, cliquez sur **Configuration du Pool** .
+    > Choisissez cette option si vous souhaitez que la configuration soit appliquée à tous les pools de serveurs de chat permanent déployés dans le site. Cliquez sur **configuration de réserve** si vous voulez que la configuration soit appliquée à un pool de serveurs de chat permanent spécifique.
   
-5. Dans **Sélectionner un Site**, sélectionnez le site à configurer pour la configuration du site Persistent Chat Server.
+5. Dans **Sélectionner un site**, sélectionnez le site que vous voulez configurer pour la configuration du site serveur Chat permanent.
     
 6. Dans **Nouvelle configuration de conversation permanente**, procédez comme suit :
     
@@ -59,31 +59,31 @@ Pour configurer les options globales du serveur de conversation permanente :
    - Dans **Historique de conversation par défaut**, définissez le nombre de messages de conversation traités pour chaque salle lors de la première demande. Par défaut, 30 messages seront traités. Il s’agit de la valeur par défaut globale : les administrateurs peuvent désactiver l’historique de conversation par catégorie.
     
      > [!IMPORTANT]
-     > Persistent Chat Server met en cache les messages en mémoire, donc si vous augmentez ce numéro, plus de messages sont mis en cache. Vous pouvez toujours accéder au contenu de l’historique à l’aide de la recherche. Le nombre par défaut détermine simplement la quantité maximale de messages visibles initialement lors de la connexion à une salle de conversation. 
+     > Le serveur de conversation permanent va mettre en cache ces messages de façon à ce que, si vous augmentez ce nombre, les messages seront mis en cache. Vous pouvez toujours accéder au contenu de l’historique à l’aide de la recherche. Le nombre par défaut détermine simplement la quantité maximale de messages visibles initialement lors de la connexion à une salle de conversation. 
   
    - Dans **Taille de fichier maximale (Ko)**, sélectionnez la taille de fichier maximale de chaque historique de conversation. Par défaut, la taille maximale est de 20 Mo (20 000 Ko). Il s’agit de la taille maximale de fichier qui peut être téléchargée dans une salle de conversation sur le système (pour lequel les téléchargements de fichiers sont activés à l’aide du paramètre **Catégorie** correspondant).
     
-   - Dans **Limite de mise à jour du participant**, sélectionnez la limite pour les mises à jour de participants. Persistent Chat Server envoie les informations de liste (qui sont connectées à une salle de conversation) à tous les participants jusqu'à ce que le nombre d’utilisateurs connectés atteint ce numéro. Par défaut, cette limite est de 75. Cette limite indique le nombre maximal de participants dans une salle donnée au-delà duquel Persistent Chat Server cesse d’envoyer des mises à jour de la liste des participants aux clients connectés qui est présente dans la salle.
+   - Dans **Limite de mise à jour du participant**, sélectionnez la limite pour les mises à jour de participants. Le serveur Chat permanent envoie les informations de la liste (qui est connectée à une salle de conversation) à tous les participants jusqu’à ce que le nombre d’utilisateurs connectés ait atteint ce numéro. Par défaut, cette limite est de 75. Cette limite indique le nombre maximal de participants dans une salle donnée au-delà du serveur de chat permanent qui cesse d’envoyer les mises à jour de la liste aux clients connectés sur les utilisateurs présents dans la salle.
     
-   - (Facultatif). Dans l' **URL de gestion de salle**, sélectionnez l’URL de gestion de salle. Il s’agit de l’URL pour une gestion de salle de personnalisée basée sur le web. Si vous n’avez pas besoin de personnaliser la gestion de salle et que vous utilisez simplement le paramètre par défaut, laissez cette option vide. Une fois que l’URL est définie, elle est appliquée en tant que l’URL gestion salle internes et externes.
+   - (Facultatif.) Dans **URL de gestion**de la salle, sélectionnez l’URL gestion de la salle. Il s’agit de l’URL pour une gestion des salles personnalisées basée sur le Web. Si vous n’avez pas besoin de personnaliser la gestion de la salle et que vous utilisez simplement le paramètre par défaut, laissez cette option vide. Une fois l’URL définie, elle est appliquée en tant qu’URL de gestion de la salle interne et externe.
     
-     Si vous souhaitez personnaliser votre expérience de création de salle et inclure votre flux de travail spécifiques de l’entreprise, vous pouvez créer une solution de gestion de salle personnalisé à l’aide de la Persistent Chat Server logiciel Kit de développement (SDK), héberger quelque part et placez l’URL ici. Cette URL est envoyée au client, de sorte que lorsqu’un utilisateur essaie d’afficher ou de créer une salle, il est dirigé vers votre solution de gestion de salle personnalisée.
+     Si vous souhaitez personnaliser l’interface de création de votre salle et inclure votre flux de travail professionnel spécifique, vous pouvez créer une solution de gestion des salles personnalisée à l’aide du kit de développement logiciel (SDK) serveur Chat permanent, l’héberger et placer l’URL ici. Cette URL est envoyée au client, de sorte que lorsqu’un utilisateur essaie d’afficher ou de créer une salle, il est dirigé vers votre solution de gestion de salle personnalisée.
     
 7. Cliquez sur **Valider**.
     
-## <a name="configure-options-for-a-specific-persistent-chat-server-pool"></a>Configurer les options pour un pool de serveurs de conversation permanente spécifique
+## <a name="configure-options-for-a-specific-persistent-chat-server-pool"></a>Configurer les options pour un pool de serveurs de chat permanent spécifique
 
-Pour configurer les options pour un pool de serveurs de conversation permanente spécifique.
+Pour configurer les options pour un pool de serveurs de chat permanent spécifique.
   
 1. À partir d’un compte auquel le rôle CsPersistentChatAdministrator ou CsAdministrator est affecté, connectez-vous à n’importe quel un ordinateur de votre déploiement interne.
     
-2. Dans le menu **Démarrer** , sélectionnez le Skype pour le panneau de configuration de Business Server, ou ouvrir une fenêtre de navigateur, puis entrez l’URL d’administration.
+2. Dans le menu **Démarrer** , sélectionnez le panneau de configuration Skype entreprise Server, ou ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration.
     
 3. Dans la barre de navigation de gauche, cliquez sur **Conversation permanente**, puis sur **Configuration de la conversation permanente**.
     
 4. Dans la page **Configuration de la conversation permanente**, cliquez sur **Créer**, puis sur **Configuration du pool**.
     
-5. Dans **Sélectionner un Service**, sélectionnez le service associé au pool de serveurs de conversation permanente à configurer.
+5. Dans **Sélectionner un service**, sélectionnez le service associé au pool de serveurs de chat permanent à configurer.
     
 6. Dans **Nouvelle configuration de conversation permanente**, procédez comme suit :
     
@@ -92,15 +92,15 @@ Pour configurer les options pour un pool de serveurs de conversation permanente 
    - Dans **Historique de conversation par défaut**, définissez le nombre de messages de conversation traités pour chaque salle lors de la première demande. Par défaut, 30 messages seront traités. Il s’agit de la valeur par défaut globale : les administrateurs peuvent désactiver l’historique de conversation par catégorie.
     
      > [!IMPORTANT]
-     > Persistent Chat Server met en cache les messages en mémoire, donc si vous augmentez ce numéro, plus de messages sont mis en cache. Vous pouvez toujours accéder au contenu de l’historique à l’aide de la recherche. Le nombre par défaut détermine simplement la quantité maximale de messages visibles initialement lors de la connexion à une salle de conversation. 
+     > Le serveur de conversation permanent va mettre en cache ces messages de façon à ce que, si vous augmentez ce nombre, les messages seront mis en cache. Vous pouvez toujours accéder au contenu de l’historique à l’aide de la recherche. Le nombre par défaut détermine simplement la quantité maximale de messages visibles initialement lors de la connexion à une salle de conversation. 
   
    - Dans **Taille de fichier maximale (Ko)**, sélectionnez la taille de fichier maximale de chaque historique de conversation. Par défaut, la taille maximale est de 20 Mo (20 000 Ko). Il s’agit de la taille maximale de fichier qui peut être téléchargée dans une salle de conversation sur le système (pour lequel les téléchargements de fichiers sont activés à l’aide du paramètre **Catégorie** correspondant).
     
-   - Dans **Limite de mise à jour du participant**, sélectionnez la limite pour les mises à jour de participants. Persistent Chat Server envoie les informations de liste (qui sont connectées à une salle de conversation) à tous les participants jusqu'à ce que le nombre d’utilisateurs connectés atteint ce numéro. Par défaut, cette limite est de 75. Cette limite indique le nombre maximal de participants dans une salle donnée au-delà duquel Persistent Chat Server cesse d’envoyer des mises à jour de la liste des participants aux clients connectés qui est présente dans la salle.
+   - Dans **Limite de mise à jour du participant**, sélectionnez la limite pour les mises à jour de participants. Le serveur Chat permanent envoie les informations de la liste (qui est connectée à une salle de conversation) à tous les participants jusqu’à ce que le nombre d’utilisateurs connectés ait atteint ce numéro. Par défaut, cette limite est de 75. Cette limite indique le nombre maximal de participants dans une salle donnée au-delà du serveur de chat permanent qui cesse d’envoyer les mises à jour de la liste aux clients connectés sur les utilisateurs présents dans la salle.
     
-   - Dans **URL de gestion de salle**, sélectionnez l’URL de gestion de salle. Il s’agit de l’URL d’un déploiement de salle personnalisé basé sur le web. Si vous n’avez pas besoin de personnaliser la gestion de salle et que vous utilisez simplement le paramètre par défaut, laissez cette option vide.
+   - Dans **URL de gestion de salle**, sélectionnez l’URL de gestion de salle. Il s’agit de l’URL d’un déploiement de salle personnalisé basé sur le web. Si vous n’avez pas besoin de personnaliser la gestion de la salle et que vous utilisez simplement le paramètre par défaut, laissez cette option vide.
     
-     Si vous souhaitez personnaliser votre expérience de création de salle et inclure votre flux de travail spécifiques de l’entreprise, vous pouvez créer une solution de gestion de salle personnalisé à l’aide de la Persistent Chat Server logiciel Kit de développement (SDK), héberger quelque part et placez l’URL ici. Cette URL est envoyée au client de sorte que lorsqu’un utilisateur essaie de visualiser ou de créer une salle, il est dirigé vers votre solution de gestion de salle personnalisée.
+     Si vous souhaitez personnaliser l’interface de création de votre salle et inclure votre flux de travail professionnel spécifique, vous pouvez créer une solution de gestion des salles personnalisée à l’aide du kit de développement logiciel (SDK) serveur Chat permanent, l’héberger et placer l’URL ici. Cette URL est envoyée au client de sorte que lorsqu’un utilisateur essaie de visualiser ou de créer une salle, il est dirigé vers votre solution de gestion de salle personnalisée.
     
 7. Cliquez sur **Valider**.
     

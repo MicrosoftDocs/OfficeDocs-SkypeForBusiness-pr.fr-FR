@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.dep.DeployCertList
@@ -12,13 +12,13 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aaa6b123-b8cd-4b22-846b-8e02beb428b9
 ROBOTS: NOINDEX, NOFOLLOW
-description: Pour assigner un certificat, sélectionnez un certificat dans le magasin de certificats local. Cliquez sur Suivant pour continuer.
-ms.openlocfilehash: db96d46537267feb0234e44eacccf78157629725
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Pour attribuer un certificat, sélectionnez un certificat dans le magasin de certificats local. Cliquez sur suivant pour continuer.
+ms.openlocfilehash: a936b96c4ebb46bfd5dc0e1e7f23d533404594da
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893958"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34275464"
 ---
 # <a name="certificate-list"></a>Liste de certificats
  

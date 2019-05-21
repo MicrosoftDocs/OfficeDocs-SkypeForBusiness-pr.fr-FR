@@ -4,50 +4,50 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: e7967dd9-0d6a-4a80-8b59-b8fc2e5615f8
-description: 'Résumé : Découvrez l’opération obtenir les données de l’intégration de la dernière, qui fait partie de l’API de données pour le tableau de bord qualité des appels. Tableau de bord de qualité des appels est un outil de Skype pour Business Server.'
-ms.openlocfilehash: 22a7382bfd861b3cade606cd087e17c007fb947b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Résumé: Découvrez l’opération obtenir les dernières données d’intégration, qui fait partie de l’API de données du tableau de bord de qualité des appels. Le tableau de bord de qualité des appels est un outil pour Skype entreprise Server.'
+ms.openlocfilehash: d110bdc1fe88a9fe7f77abe7f7b9ed47a3324eb0
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930685"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274694"
 ---
 # <a name="get-last-integration-data"></a>Obtenir les données de la dernière intégration
  
-**Résumé :** Obtenir des informations sur l’opération obtenir les données de l’intégration de la dernière, qui fait partie de l’API de données pour le tableau de bord qualité des appels. Tableau de bord de qualité des appels est un outil de Skype pour Business Server.
+**Résumé:** Apprenez-en davantage sur la dernière opération d’obtention des données d’intégration, qui fait partie de l’API de données du tableau de bord de qualité des appels. Le tableau de bord de qualité des appels est un outil pour Skype entreprise Server.
   
-L’opération obtenir les données de l’intégration de la dernière fait partie de l’API de données pour le tableau de bord qualité des appels.
+L’opération Get Last Data Integration fait partie de l’API de données pour le tableau de bord de qualité des appels.
   
 ## <a name="get-last-integration-data"></a>Obtenir les données de la dernière intégration
 
-Obtenir les données de l’intégration de la dernière opération renvoie la liste des derniers 5 réussite/échec de l’archivage et le traitement du cube.
+Obtenir la dernière opération d’intégration de données renvoie la liste des 5 dernières réussites ou échecs d’archivage et de traitement du cube.
   
-Cette fonctionnalité est désactivée par défaut et il doit être activé en configurant l’API de données.
+Cette fonctionnalité est désactivée par défaut et doit être activée en configurant l’API de données.
   
 
-|**Méthode**|**URI de la demande**|**Version HTTP**|
+|**Méthode**|**URI de la requête**|**Version HTTP**|
 |:-----|:-----|:-----|
-|Avoir  <br/> |https://\<portal\>/QoEDataService/IntegrationLog/Status  <br/> |HTTP/1.1.  <br/> |
+|Télécharger  <br/> |https://\<Portal\>/QoEDataService/IntegrationLog/Status  <br/> |HTTP/1.1  <br/> |
    
- **Paramètres d’URI** - None.
+ **Paramètres d’URI** -aucun.
   
- **En-têtes de demande** - aucun en-tête supplémentaire.
+ **En-têtes de requête** -aucun en-tête supplémentaire.
   
- **Corps de requête** - None.
+ Le corps de la **requête** .
   
- **Réponse** - la réponse inclut un code d’état HTTP et un ensemble d’en-têtes de réponse.
+ **Réponse** : la réponse comprend un code d’État http et un ensemble d’en-têtes de réponse.
   
- **Code d’état** - une opération réussie retourne un code d’état 200 (OK).
+ **Code d’État** -une opération réussie renvoie le code d’état 200 (OK).
   
- **En-têtes de réponse** - aucun en-tête supplémentaire.
+ **En-têtes de réponse** : aucun en-tête supplémentaire.
   
- **Corps de réponse** - Voici un état de journal exemple.
+ Le corps de la réponse: Voici un exemple d’état **du** journal.
   
 ```
 {

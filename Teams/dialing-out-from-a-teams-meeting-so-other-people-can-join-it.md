@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
@@ -20,43 +20,43 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Cette section présente les informations nécessaires et explique comment les organisateurs de réunions peuvent composer le numéro d’autres personnes par le biais de Teams.
-ms.openlocfilehash: 37f44eb96a33307b12eef485e2fdabf985ab8562
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b02a395277762c4bbd731bd839fdedc395042502
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32236085"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34281892"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>Passer un appel sortant depuis une réunion Microsoft Teams pour permettre à d'autres personnes d’y participer
 
-En tant qu’organisateur de la réunion, vous pouvez vous connecter à l’aide de l’application des équipes pour permettre aux autres personnes à participer à la même réunion à l’aide de leurs téléphones.
+En tant qu’organisateur de la réunion, vous pouvez appeler à l’aide de l’application teams pour permettre à d’autres personnes de participer à la même réunion à l’aide de leur téléphone.
 
-Lorsque vous connecter à une personne, nous vous recommandons de le faire qu’à l’aide de leurs numéros de téléphone complet (y compris le code de pays/région - format E.164).
+Lorsque vous appelez une personne, nous vous conseillons de le faire en utilisant les numéros de téléphone complets (y compris le code de pays/région-E. 164).
   
-  Veuillez noter que :
+  Veuillez noter que:
 
-- Vous pouvez vous connecter uniquement si vous participez à une réunion à l’aide des équipes.
-- Vous, en tant qu’organisateur de la réunion, avez été activés pour l’audioconférence.
+- Vous pouvez appeler uniquement si vous participez à une réunion à l’aide de teams.
+- En tant qu’organisateur de la réunion, vous avez été activé pour l’audioconférence.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-Voici comment procéder accéder à distance à utiliser :
+Pour cela, procédez comme suit:
 
- **Étape 1 :** Dans la réunion, utilisez les **Ajouter des personnes** ![bouton Ajouter un personnes](media/add-people-button.png) option pour appeler un numéro de téléphone.
- **Étape 2 :** Entrez le numéro de téléphone complet, y compris le code de pays/région dans la zone **Inviter une personne ou composer un numéro** .
+ **Étape 1:** Dans la réunion, utilisez l’option **Ajouter** ![des personnes,](media/add-people-button.png) puis cliquez sur le bouton Ajouter des personnes pour appeler un numéro de téléphone.
+ **Étape 2:** Entrez le numéro de téléphone complet, y compris l’indicatif du pays/de la région dans la zone **inviter une personne ou composer un numéro** .
   
-![Inviter une personne ou composer un numéro](media/invite-someone-box.png)
+![Inviter une personne ou composer un numéro de téléphone](media/invite-someone-box.png)
     
 ## <a name="supported-countries-and-regions"></a>Pays et régions pris en charge
 
-La mise en conférence n'est disponible que vers certains pays ou certaines régions. Pour la liste complète, voir [disponibilité pays et aux régions de conférence Audio et des Plans de l’appel](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+La mise en conférence n'est disponible que vers certains pays ou certaines régions. Pour obtenir la liste complète, voir [disponibilité du pays et de la région pour les offres d’appels et de services d’audioconférence](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
-## <a name="allow-users-to-dial-in"></a>Autoriser les utilisateurs à se connecter
+## <a name="allow-users-to-dial-in"></a>Permettre aux utilisateurs de se connecter
 
-Si vous recherchez des instructions sur la façon de permettre à vos utilisateurs de se connecter à une réunion d’équipes, consultez les [numéros de téléphone pour les conférences Audio dans les équipes Microsoft](phone-numbers-for-audio-conferencing-in-teams.md).
+Si vous recherchez des instructions sur la façon de permettre à vos utilisateurs de se connecter à une réunion Teams, reportez-vous à la rubrique [numéros de téléphone pour les conférences audio de Microsoft teams](phone-numbers-for-audio-conferencing-in-teams.md).
 
-## <a name="want-to-know-more-about-audio-conferencing"></a>Vous souhaitez en savoir plus sur les services d’audioconférence ?
+## <a name="want-to-know-more-about-audio-conferencing"></a>Vous voulez en savoir plus sur les conférences audio?
 
 [Tester ou acheter l’audioconférence dans Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
     

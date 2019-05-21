@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -20,40 +20,40 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: Skype pour Business Online utilise les types de numéros de téléphone en fonction de l’objectif pour lequel vous souhaitez utiliser le numéro de téléphone.
-ms.openlocfilehash: e2a05e44cfe064736d906ec83195e02f6026bf3d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Skype entreprise Online utilise différents types de numéros de téléphone en fonction de l’usage que vous voulez utiliser avec le numéro de téléphone.
+ms.openlocfilehash: 0f4feee439beff5821b18296cb0e9a76d65aa139
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32199185"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34281839"
 ---
 # <a name="different-kinds-of-phone-numbers-used-for-calling-plans"></a>Différents types de numéros de téléphone utilisés pour les appels d’offre
 
-Skype pour Business Online utilise les types de numéros de téléphone en fonction de l’objectif pour lequel vous souhaitez utiliser le numéro de téléphone. Skype pour Business Online utilise des numéros **d’abonné** , qui peuvent être affectés aux utilisateurs de votre organisation et de **service** , qui sont affectés à des services tels que la conférence dans Office 365, les standards automatiques ou appeler des files d’attente. Numéros de téléphone service ont un nombre *supérieure simultanées appeler la capacité* à abonné (ou utilisateur). Numéros de téléphone de service sont disponibles mais varient selon le pays/la région et le type de numéro (si elle est un numéro payant ou un numéro gratuit). Si vous devez supplémentaires ou d’autres types de numéro autre que ces numéros dans le Skype entreprise centre d’administration, vous pouvez soumettre une demande de numéro de téléphone au Microsoft téléphone numéro service d’assistance.
+Skype entreprise Online utilise différents types de numéros de téléphone en fonction de l’usage que vous voulez utiliser avec le numéro de téléphone. Skype entreprise Online utilise des numéros d' **abonné** , qui peuvent être attribués à des utilisateurs de votre organisation ainsi que des numéros de **service** attribués à des services tels que l’audioconférence dans Office 365, aux standards automatiques ou aux files d’attente d’appels. Les numéros de téléphone de service disposent d’une *capacité d’appels simultanée plus élevée* que les numéros d’abonnés (ou utilisateur). Les numéros de téléphone de service sont disponibles, mais varient en fonction du pays/de la région et du type de numéro (s’il s’agit d’un numéro payant ou gratuit). Si vous avez besoin d’autres types de numérotation ou d’autres types de chiffres dans le centre d’administration de Skype entreprise, il est possible que vous receviez une demande de numéro de téléphone au bureau de service du numéro de téléphone Microsoft.
   
-- **Numéros de l’abonné**
+- **Numéros d’abonnés**
     
-    Numéros de l’abonné sont affectés aux utilisateurs, et il existe deux types :
+    Les numéros d’abonné sont attribués aux utilisateurs et il existe deux types de:
     
-  - **Numéros géographiques** Numéros géographiques ont une relation à une zone géographique et sont les plus courants. Par exemple, les numéros de téléphone géographique dans la plupart des cas uniquement utilisable dans une certaine adresse, ville, état ou la région du pays.
+  - **Numéros géographiques** Les numéros géographiques présentent une relation vers une zone géographique et sont les plus courants. Par exemple, les numéros de téléphone géographiques dans la plupart des cas ne peuvent être utilisés qu’à l’intérieur d’une certaine adresse, ville, État ou région du pays.
     
-  - **Numéros non géographiques** Les numéros non géographiques sont des numéros nationaux qui n’ont pas une relation à une zone géographique au sein d’une pays/région. Par exemple, les numéros non géographiques ont souvent même coût lorsque vous appelez le numéro à partir de n’importe où dans la pays/région. En outre, certains pays, tel que Danemark, ont uniquement des numéros non géographiques disponibles.
+  - **Numéros non géographiques** Les numéros non géographiques sont des numéros nationaux qui n’ont pas de relation avec une zone géographique dans un pays ou une région. Par exemple, les numéros non géographiques ont souvent le même coût lorsque vous appelez le numéro à partir de n’importe quel endroit dans le pays ou la région. Par ailleurs, certains pays, comme le Danemark, ne disposent que de numéros non géographiques disponibles.
     
-- **Numéros de service** Numéros de service sont disponibles dans différents types numéros et disponibilité varie par pays/région.
+- **Numéros de service** Les numéros de service sont disponibles dans différents types de nombre, et la disponibilité varie selon le pays ou la région.
     
-  - **Numéros de Service payant**
+  - **Numéros de service payants**
     
-    Numéros de service payant peuvent entraîner un coût payant à l’appelant, et il existe deux types :
+    Les numéros de service payants peuvent avoir un coût facturé pour l’appelant et il existe deux sortes de services:
     
-      - **Numéros géographiques** Numéros géographiques ont une relation à une zone géographique. Par exemple, les numéros de téléphone géographique dans la plupart des cas uniquement utilisable dans une certaine adresse, ville, état ou la région du pays.
+      - **Numéros géographiques** Les numéros géographiques présentent une relation vers une zone géographique. Par exemple, les numéros de téléphone géographiques dans la plupart des cas ne peuvent être utilisés qu’à l’intérieur d’une certaine adresse, ville, État ou région du pays.
         
-      - **Numéros non géographiques** Les numéros non géographiques sont des numéros nationaux qui n’ont pas une relation à une zone géographique au sein d’une pays/région. Par exemple, les numéros non géographiques ont souvent même coût lorsque vous appelez le numéro à partir de n’importe où dans la pays/région.
+      - **Numéros non géographiques** Les numéros non géographiques sont des numéros nationaux qui n’ont pas de relation avec une zone géographique dans un pays ou une région. Par exemple, les numéros non géographiques ont souvent le même coût lorsque vous appelez le numéro à partir de n’importe quel endroit dans le pays ou la région.
     
-  - **Numéro gratuit Service** Ces numéros de service n’entraînent généralement un coût payant à l’appelant. Skype pour Business Online fournit des numéros de téléphone gratuits nationales dans plus de 60 pays/régions.
+  - **Numéros de service gratuits** Ces numéros de service n’impliquent généralement aucun coût facturé pour l’appelant. Skype entreprise Online fournit des numéros de téléphone sans frais nationaux dans plus de 60 pays/régions.
     
     > [!CAUTION]
-    > Certains pays/régions et types de numéros, tels que les appels provenant de téléphones mobiles, d’origine peuvent dans certains cas, provoquer un coût payant à l’appelant. 
+    > Certains pays ou régions et certains types de numéros d’origine, tels que les appels provenant de téléphones mobiles, pourraient entraîner des frais facturés pour l’appelant. 
   
 > [!NOTE]
 > Si vous devez obtenir davantage de numéros de téléphone, veuillez [contacter le support pour les entreprises - Aide de l'administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
