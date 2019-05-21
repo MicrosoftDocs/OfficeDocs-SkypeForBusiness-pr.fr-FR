@@ -5,18 +5,18 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 layout: LandingPage
-ms.audience: ITPro
+audience: ITPro
 ms.topic: landing-page
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
-description: Les considérations de planification pertinentes pour le déploiement de salles d’équipes Microsoft et comment déployer et gérer le système.
-ms.openlocfilehash: 7a55b5ba8b682aed398daff1f373acba453110bc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Considérations relatives à la planification du déploiement des salles de Microsoft Teams, et déploiement et gestion du système.
+ms.openlocfilehash: d7b663e67905aee3cf235034ef2ba82eeaa98c9b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33916386"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306541"
 ---
 <h2>Salles Microsoft Teams</h2>
 <ul class="panelContent cardsW cols cols2">
@@ -25,9 +25,9 @@ ms.locfileid: "33916386"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <p>Salles de réunion de transformation allant de zones clin de œil petites salles de conférence de grande taille avec une riche, collaborative équipes expérience that& #39 ; s simples à utiliser, déployer et gérer. </p>
-                        <p>Démarrer les réunions sur temps avec une jointure de touches de raccourci, puis projet instantanément à l’affichage dans la salle et partager des participants à distance. </p>
-                        <p>Sélectionnez le bon système et les périphériques vidéo audio dans un de ses partenaires : Logitech, Crestron, Polycom, Lenovo et HP.</p>
+                        <p>Transformer des espaces de réunion allant de petites huddles à des salles de conférence de grande envergure grâce aux équipes de conférences de grande qualité that& # 39; </p>
+                        <p>Démarrez des réunions avec une jointure en une seule fois, puis projetez instantanément sur l’écran de la salle et partagez-les avec les participants distants. </p>
+                        <p>Sélectionnez les périphériques audio et vidéo appropriés pour l’un de nos partenaires: Yealink, Logitech, Crestron, Polycom, Lenovo et HP.</p>
                         <p></p>
                     </div>
                 </div>
@@ -106,9 +106,9 @@ ms.locfileid: "33916386"
 </ul>
 
 > [!NOTE]
-> Salles d’équipes Microsoft est destiné à utiliser avec Microsoft Teams, Skype pour Business Online, Skype pour Business Server 2019 ou Skype pour Business Server 2015.  <br><br>Plates-formes de versions antérieures à Lync Server 2013 ne sont pas prévus pour fonctionner avec Microsoft équipes salles.
+> Les salles de Microsoft teams sont conçues pour une utilisation avec Microsoft Teams, Skype entreprise Online, Skype entreprise Server 2019 ou Skype entreprise Server 2015.  <br><br>Les plateformes antérieures comme Lync Server 2013 ne sont pas censées fonctionner avec les salles Microsoft Teams.
 
-Ces articles sont destinés à des personnes chargé de la planification, le déploiement et la gestion de ces périphériques et pas pour les utilisateurs du système. Les utilisateurs seront plus intéressé par les salles d’équipes Microsoft [aide en ligne](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
+Ces articles sont destinés aux personnes qui travaillent avec la planification, le déploiement et la gestion de ces appareils, et non pour les utilisateurs du système. Les utilisateurs seront plus intéressants dans l' [aide en ligne](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)de Microsoft Teams.
 
 > [!NOTE]
-> [Système de salle de Skype](../room-systems/lrs-migration.md) (anciennement Lync salle système) et les salles d’équipes Microsoft sont différents produits avec des dépendances différents et des procédures de déploiement.
+> [Système de salle Skype](../room-systems/lrs-migration.md) (auparavant Lync salle System) et les salles de Microsoft teams sont des produits ayant différentes dépendances et procédures de déploiement.

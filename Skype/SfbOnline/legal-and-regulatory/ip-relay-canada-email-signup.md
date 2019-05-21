@@ -9,7 +9,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: None
@@ -17,40 +17,40 @@ f1keywords: None
 ms.custom:
 - Legal
 hideEdit: true
-description: Comment sigh pour un compte de relais IP pour le Canada.
-ms.openlocfilehash: ce63d4fb99d44584d2628c9b5e891e4931814b12
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Comment soupir un compte IP Relay pour le Canada.
+ms.openlocfilehash: a0d87822874f9a26f9778adbe9b9a9d6ca7edf5b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32194227"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34304121"
 ---
-# <a name="ip-relay-in-canada---sign-up"></a><span data-ttu-id="1750c-103">Relais IP au Canada - inscription</span><span class="sxs-lookup"><span data-stu-id="1750c-103">IP Relay in Canada - sign up</span></span>
+# <a name="ip-relay-in-canada---sign-up"></a><span data-ttu-id="39663-103">Relais IP au Canada - inscription</span><span class="sxs-lookup"><span data-stu-id="39663-103">IP Relay in Canada - sign up</span></span>
 
-<span data-ttu-id="1750c-104">Pour obtenir un compte de relais IP configuré pour le Canada, complétez les informations contenues dans le tableau ci-dessous et envoyer dans le message électronique à [ptn@microsoft.com](mailto:ptn@microsoft.com).</span><span class="sxs-lookup"><span data-stu-id="1750c-104">To get an IP Relay account set up for Canada, please complete the information in the table below and send it in email to [ptn@microsoft.com](mailto:ptn@microsoft.com).</span></span>
+<span data-ttu-id="39663-104">Pour obtenir un compte IP Relay configuré pour le Canada, complétez les informations figurant dans le tableau ci-dessous et envoyez-le par e-mail à [PTN@microsoft.com](mailto:ptn@microsoft.com).</span><span class="sxs-lookup"><span data-stu-id="39663-104">To get an IP Relay account set up for Canada, please complete the information in the table below and send it in email to [ptn@microsoft.com](mailto:ptn@microsoft.com).</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="1750c-105">_AMP_ nom et prénom :</span><span class="sxs-lookup"><span data-stu-id="1750c-105">First & Last Name:</span></span>||
-|<span data-ttu-id="1750c-106">Nom de domaine du client Office 365 :</span><span class="sxs-lookup"><span data-stu-id="1750c-106">Office 365 Tenant Domain Name:</span></span> <br/><span data-ttu-id="1750c-107">(Exemple : Contoso.com)</span><span class="sxs-lookup"><span data-stu-id="1750c-107">(Example: Contoso.com)</span></span>||
-|<span data-ttu-id="1750c-108">Numéro de téléphone d’utilisateur Office 365 :</span><span class="sxs-lookup"><span data-stu-id="1750c-108">Office 365 User phone number:</span></span> <br/><span data-ttu-id="1750c-109">Exemple : + 1 XXX XXX XXXX)</span><span class="sxs-lookup"><span data-stu-id="1750c-109">Example: +1 XXX XXX XXXX)</span></span> ||
-|<span data-ttu-id="1750c-110">Mot de passe (8 à 16 caractères) :</span><span class="sxs-lookup"><span data-stu-id="1750c-110">Password (8 to 16 characters):</span></span> ||
-|<span data-ttu-id="1750c-111">Adresse physique probablement</span><span class="sxs-lookup"><span data-stu-id="1750c-111">Most likely physical address</span></span> <br/><span data-ttu-id="1750c-112">au moment d’urgence :</span><span class="sxs-lookup"><span data-stu-id="1750c-112">at the time of an emergency:</span></span>||
-|<span data-ttu-id="1750c-113">Numéro & rue :</span><span class="sxs-lookup"><span data-stu-id="1750c-113">Street Number & Name:</span></span>||
-|<span data-ttu-id="1750c-114">Cloisonnement / Suite :</span><span class="sxs-lookup"><span data-stu-id="1750c-114">Apartment / Suite:</span></span>||
-|<span data-ttu-id="1750c-115">Ville :</span><span class="sxs-lookup"><span data-stu-id="1750c-115">City:</span></span>||
-|<span data-ttu-id="1750c-116">Province / état :</span><span class="sxs-lookup"><span data-stu-id="1750c-116">Province / State:</span></span>||
-|<span data-ttu-id="1750c-117">Code postal Code postal :</span><span class="sxs-lookup"><span data-stu-id="1750c-117">Postal Code / Zip Code:</span></span>||
-|<span data-ttu-id="1750c-118">Numéro de téléphone :</span><span class="sxs-lookup"><span data-stu-id="1750c-118">Phone Number:</span></span>||
-|<span data-ttu-id="1750c-119">Adresse de messagerie Office 365 :</span><span class="sxs-lookup"><span data-stu-id="1750c-119">Office 365 Email Address:</span></span>||
+|<span data-ttu-id="39663-105">Nom & prénom:</span><span class="sxs-lookup"><span data-stu-id="39663-105">First & Last Name:</span></span>||
+|<span data-ttu-id="39663-106">Nom de domaine du client Office 365:</span><span class="sxs-lookup"><span data-stu-id="39663-106">Office 365 Tenant Domain Name:</span></span> <br/><span data-ttu-id="39663-107">(Par exemple: Contoso.com)</span><span class="sxs-lookup"><span data-stu-id="39663-107">(Example: Contoso.com)</span></span>||
+|<span data-ttu-id="39663-108">Numéro de téléphone de l’utilisateur Office 365:</span><span class="sxs-lookup"><span data-stu-id="39663-108">Office 365 User phone number:</span></span> <br/><span data-ttu-id="39663-109">Exemple: + 1 XXX XXX XXXX)</span><span class="sxs-lookup"><span data-stu-id="39663-109">Example: +1 XXX XXX XXXX)</span></span> ||
+|<span data-ttu-id="39663-110">Mot de passe (entre 8 et 16 caractères):</span><span class="sxs-lookup"><span data-stu-id="39663-110">Password (8 to 16 characters):</span></span> ||
+|<span data-ttu-id="39663-111">Adresse physique la plus probable</span><span class="sxs-lookup"><span data-stu-id="39663-111">Most likely physical address</span></span> <br/><span data-ttu-id="39663-112">au moment d’une urgence:</span><span class="sxs-lookup"><span data-stu-id="39663-112">at the time of an emergency:</span></span>||
+|<span data-ttu-id="39663-113">Nom de la rue &:</span><span class="sxs-lookup"><span data-stu-id="39663-113">Street Number & Name:</span></span>||
+|<span data-ttu-id="39663-114">Appartement/suite:</span><span class="sxs-lookup"><span data-stu-id="39663-114">Apartment / Suite:</span></span>||
+|<span data-ttu-id="39663-115">Urbains</span><span class="sxs-lookup"><span data-stu-id="39663-115">City:</span></span>||
+|<span data-ttu-id="39663-116">Province/état:</span><span class="sxs-lookup"><span data-stu-id="39663-116">Province / State:</span></span>||
+|<span data-ttu-id="39663-117">Code postal:</span><span class="sxs-lookup"><span data-stu-id="39663-117">Postal Code / Zip Code:</span></span>||
+|<span data-ttu-id="39663-118">Numéro de téléphone:</span><span class="sxs-lookup"><span data-stu-id="39663-118">Phone Number:</span></span>||
+|<span data-ttu-id="39663-119">Adresse de messagerie d’Office 365:</span><span class="sxs-lookup"><span data-stu-id="39663-119">Office 365 Email Address:</span></span>||
 |||
 
 > [!NOTE]
-> <span data-ttu-id="1750c-120">Gauche pour vous si vous n’êtes pas connecté lorsqu’une personne appelle vous via IP relais de messages s’affichent l’adresse de messagerie ci-dessus.</span><span class="sxs-lookup"><span data-stu-id="1750c-120">The email address above will receive messages left for you if you are not online when someone calls for you via IP Relay.</span></span> 
+> <span data-ttu-id="39663-120">L’adresse e-mail ci-dessus vous avertit si vous n’êtes pas connecté lorsque vous êtes en ligne.</span><span class="sxs-lookup"><span data-stu-id="39663-120">The email address above will receive messages left for you if you are not online when someone calls for you via IP Relay.</span></span> 
 
-<span data-ttu-id="1750c-121">Une fois que votre compte est prêt (24 heures de travail), nous vous enverrons avec le nom d’utilisateur et le mot de passe.</span><span class="sxs-lookup"><span data-stu-id="1750c-121">Once your account is ready (within 24 working hours), we will email you back with the User Name and Password.</span></span> 
+<span data-ttu-id="39663-121">Lorsque votre compte est prêt (sous 24 heures de travail), nous vous enverrons un e-mail avec le nom d’utilisateur et le mot de passe.</span><span class="sxs-lookup"><span data-stu-id="39663-121">Once your account is ready (within 24 working hours), we will email you back with the User Name and Password.</span></span> 
 
 
-<span data-ttu-id="1750c-122">Ensuite, voir le [Relais IP au Canada - guide de l’utilisateur](ip-relay-canada-user-guide.md) pour commencer.</span><span class="sxs-lookup"><span data-stu-id="1750c-122">Next, see the [IP Relay in Canada - user guide](ip-relay-canada-user-guide.md) to get started.</span></span> 
+<span data-ttu-id="39663-122">Pour en savoir plus, voir le [Guide de l’utilisateur sur le protocole IP Relay au Canada](ip-relay-canada-user-guide.md) .</span><span class="sxs-lookup"><span data-stu-id="39663-122">Next, see the [IP Relay in Canada - user guide](ip-relay-canada-user-guide.md) to get started.</span></span> 
 
 

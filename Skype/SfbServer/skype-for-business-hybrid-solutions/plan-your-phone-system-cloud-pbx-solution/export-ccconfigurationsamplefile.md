@@ -5,64 +5,64 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 3/31/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0aaacc05-3430-4579-acbf-d7c7670c3864
 description: L’applet de commande Export-CcConfigurationSampleFile exporte un fichier modèle de configuration (.ini) de la version Cloud Connector de Skype Entreprise vers l’annuaire d’appliances d’une appliance de Cloud Connector. Vous pouvez modifier et renommer le fichier à utiliser pour votre déploiement.
-ms.openlocfilehash: 3154ff3492899de244c3033e4e35345132d04f20
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 440253bc6b9c4e980a6f7ac4aae0c82ebad05660
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32233987"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287378"
 ---
-# <a name="export-ccconfigurationsamplefile"></a><span data-ttu-id="d8862-104">Export-CcConfigurationSampleFile</span><span class="sxs-lookup"><span data-stu-id="d8862-104">Export-CcConfigurationSampleFile</span></span>
+# <a name="export-ccconfigurationsamplefile"></a><span data-ttu-id="db628-104">Export-CcConfigurationSampleFile</span><span class="sxs-lookup"><span data-stu-id="db628-104">Export-CcConfigurationSampleFile</span></span>
  
-<span data-ttu-id="d8862-p102">L’applet de commande Export-CcConfigurationSampleFile exporte un fichier modèle de configuration (.ini) de la version Cloud Connector de Skype Entreprise vers l’annuaire d’appliances d’une appliance de Cloud Connector. Vous pouvez modifier et renommer le fichier à utiliser pour votre déploiement.</span><span class="sxs-lookup"><span data-stu-id="d8862-p102">The Export-CcConfigurationSampleFile cmdlet exports a Skype for Business Cloud Connector Edition sample configuration file (.ini) to the appliance directory of a Cloud Connector appliance. You can modify and rename the file to use for your deployment.</span></span>
+<span data-ttu-id="db628-p102">L’applet de commande Export-CcConfigurationSampleFile exporte un fichier modèle de configuration (.ini) de la version Cloud Connector de Skype Entreprise vers l’annuaire d’appliances d’une appliance de Cloud Connector. Vous pouvez modifier et renommer le fichier à utiliser pour votre déploiement.</span><span class="sxs-lookup"><span data-stu-id="db628-p102">The Export-CcConfigurationSampleFile cmdlet exports a Skype for Business Cloud Connector Edition sample configuration file (.ini) to the appliance directory of a Cloud Connector appliance. You can modify and rename the file to use for your deployment.</span></span>
   
-<span data-ttu-id="d8862-107">Cette applet de commande s’applique à Skype Entreprise, version Cloud Connector 1.4.1, 1.4.2.</span><span class="sxs-lookup"><span data-stu-id="d8862-107">This cmdlet applies to Skype for Business Cloud Connector Edition 1.4.1, 1.4.2.</span></span>
-  
-```
-Export-CcConfigurationSampleFile
-```
-
-## <a name="parameters"></a><span data-ttu-id="d8862-108">Paramètres</span><span class="sxs-lookup"><span data-stu-id="d8862-108">Parameters</span></span>
-
-<span data-ttu-id="d8862-109">Aucun</span><span class="sxs-lookup"><span data-stu-id="d8862-109">None</span></span>
-  
-## <a name="examples"></a><span data-ttu-id="d8862-110">Exemples</span><span class="sxs-lookup"><span data-stu-id="d8862-110">Examples</span></span>
-<span data-ttu-id="d8862-111"><a name="Examples"> </a></span><span class="sxs-lookup"><span data-stu-id="d8862-111"></span></span>
-
-### <a name="example-1"></a><span data-ttu-id="d8862-112">Exemple 1</span><span class="sxs-lookup"><span data-stu-id="d8862-112">Example 1</span></span>
-
-<span data-ttu-id="d8862-113">L’exemple suivant télécharge un exemple de fichier de configuration à partir du site de Microsoft et écrit dans le répertoire appliance de la solution de nuage connecteur :</span><span class="sxs-lookup"><span data-stu-id="d8862-113">The following example downloads a sample configuration file from the Microsoft site and writes it to the appliance directory of the Cloud Connector appliance:</span></span>
+<span data-ttu-id="db628-107">Cette applet de commande s’applique à Skype Entreprise, version Cloud Connector 1.4.1, 1.4.2.</span><span class="sxs-lookup"><span data-stu-id="db628-107">This cmdlet applies to Skype for Business Cloud Connector Edition 1.4.1, 1.4.2.</span></span>
   
 ```
 Export-CcConfigurationSampleFile
 ```
 
-## <a name="detailed-description"></a><span data-ttu-id="d8862-114">Description détaillée</span><span class="sxs-lookup"><span data-stu-id="d8862-114">Detailed Description</span></span>
-<span data-ttu-id="d8862-115"><a name="DetailedDescription"> </a></span><span class="sxs-lookup"><span data-stu-id="d8862-115"></span></span>
+## <a name="parameters"></a><span data-ttu-id="db628-108">Paramètres</span><span class="sxs-lookup"><span data-stu-id="db628-108">Parameters</span></span>
 
-<span data-ttu-id="d8862-116">La version actuelle du nuage connecteur nécessite de disposer de plusieurs paramètres dans le fichier .ini ; par exemple, des paramètres tels que les adresses IP des ordinateurs virtuels pour les composants du nuage connecteur, les noms de composants, les paramètres de passerelle et ainsi de suite.</span><span class="sxs-lookup"><span data-stu-id="d8862-116">The current version of Cloud Connector requires you to provide several parameters in the .ini file; for example, parameters such as the IP addresses of virtual machines for the Cloud Connector components, component names, gateway parameters, and so on.</span></span>
+<span data-ttu-id="db628-109">Aucun</span><span class="sxs-lookup"><span data-stu-id="db628-109">None</span></span>
   
-<span data-ttu-id="d8862-117">Cette applet de commande, en cas d’exécution sur l’ordinateur hôte du nuage connecteur, télécharge un exemple de fichier .ini avec des exemples de configuration à partir du site de Microsoft.</span><span class="sxs-lookup"><span data-stu-id="d8862-117">This cmdlet, when run on the host machine of Cloud Connector, downloads a sample .ini file with configuration examples from the Microsoft site.</span></span> <span data-ttu-id="d8862-118">L’applet de commande écrit le fichier dans le répertoire appliance de la solution de nuage connecteur.</span><span class="sxs-lookup"><span data-stu-id="d8862-118">The cmdlet writes the file to the appliance directory of the Cloud Connector appliance.</span></span> <span data-ttu-id="d8862-119">L’annuaire d’appliances est précisé en utilisant l’applet de commande Set-CcApplianceDirectory cmdlet.</span><span class="sxs-lookup"><span data-stu-id="d8862-119">The appliance directory is specified by using the Set-CcApplianceDirectory cmdlet.</span></span>
-  
-## <a name="input-types"></a><span data-ttu-id="d8862-120">Types d’entrées</span><span class="sxs-lookup"><span data-stu-id="d8862-120">Input Types</span></span>
-<span data-ttu-id="d8862-121"><a name="InputTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="d8862-121"></span></span>
+## <a name="examples"></a><span data-ttu-id="db628-110">Exemples</span><span class="sxs-lookup"><span data-stu-id="db628-110">Examples</span></span>
+<span data-ttu-id="db628-111"><a name="Examples"> </a></span><span class="sxs-lookup"><span data-stu-id="db628-111"></span></span>
 
-<span data-ttu-id="d8862-p104">Aucun. L’applet de commande Export-CcConfigurationSampleFile n’accepte pas l’entrée redirigée.</span><span class="sxs-lookup"><span data-stu-id="d8862-p104">None. The Export-CcConfigurationSampleFile cmdlet does not accept pipelined input.</span></span> 
-  
-## <a name="return-types"></a><span data-ttu-id="d8862-124">Types de retours</span><span class="sxs-lookup"><span data-stu-id="d8862-124">Return Types</span></span>
-<span data-ttu-id="d8862-125"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="d8862-125"></span></span>
+### <a name="example-1"></a><span data-ttu-id="db628-112">Exemple 1</span><span class="sxs-lookup"><span data-stu-id="db628-112">Example 1</span></span>
 
-<span data-ttu-id="d8862-126">Aucun</span><span class="sxs-lookup"><span data-stu-id="d8862-126">None</span></span>
+<span data-ttu-id="db628-113">L’exemple suivant permet de télécharger un exemple de fichier de configuration à partir du site Microsoft et de l’écrire dans le répertoire de l’application du dispositif Cloud Connector:</span><span class="sxs-lookup"><span data-stu-id="db628-113">The following example downloads a sample configuration file from the Microsoft site and writes it to the appliance directory of the Cloud Connector appliance:</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="d8862-127">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="d8862-127">See also</span></span>
-<span data-ttu-id="d8862-128"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="d8862-128"></span></span>
+```
+Export-CcConfigurationSampleFile
+```
 
-[<span data-ttu-id="d8862-129">Set-CcApplianceDirectory</span><span class="sxs-lookup"><span data-stu-id="d8862-129">Set-CcApplianceDirectory</span></span>](set-ccappliancedirectory.md)
+## <a name="detailed-description"></a><span data-ttu-id="db628-114">Description détaillée</span><span class="sxs-lookup"><span data-stu-id="db628-114">Detailed Description</span></span>
+<span data-ttu-id="db628-115"><a name="DetailedDescription"> </a></span><span class="sxs-lookup"><span data-stu-id="db628-115"></span></span>
+
+<span data-ttu-id="db628-116">La version actuelle de Cloud Connector nécessite que vous fournissiez plusieurs paramètres dans le fichier. ini; par exemple, des paramètres tels que les adresses IP d’ordinateurs virtuels pour les composants Cloud Connector, les noms de composants, les paramètres de passerelle, etc.</span><span class="sxs-lookup"><span data-stu-id="db628-116">The current version of Cloud Connector requires you to provide several parameters in the .ini file; for example, parameters such as the IP addresses of virtual machines for the Cloud Connector components, component names, gateway parameters, and so on.</span></span>
+  
+<span data-ttu-id="db628-117">Lors de l’exécution de cette applet de connexion sur l’ordinateur hôte du Cloud Connector, télécharge un exemple de fichier. ini contenant des exemples de configuration du site Microsoft.</span><span class="sxs-lookup"><span data-stu-id="db628-117">This cmdlet, when run on the host machine of Cloud Connector, downloads a sample .ini file with configuration examples from the Microsoft site.</span></span> <span data-ttu-id="db628-118">L’applet de connexion écrit le fichier dans le répertoire de l’application Cloud Connector.</span><span class="sxs-lookup"><span data-stu-id="db628-118">The cmdlet writes the file to the appliance directory of the Cloud Connector appliance.</span></span> <span data-ttu-id="db628-119">L’annuaire d’appliances est précisé en utilisant l’applet de commande Set-CcApplianceDirectory cmdlet.</span><span class="sxs-lookup"><span data-stu-id="db628-119">The appliance directory is specified by using the Set-CcApplianceDirectory cmdlet.</span></span>
+  
+## <a name="input-types"></a><span data-ttu-id="db628-120">Types d’entrées</span><span class="sxs-lookup"><span data-stu-id="db628-120">Input Types</span></span>
+<span data-ttu-id="db628-121"><a name="InputTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="db628-121"></span></span>
+
+<span data-ttu-id="db628-p104">Aucun. L’applet de commande Export-CcConfigurationSampleFile n’accepte pas l’entrée redirigée.</span><span class="sxs-lookup"><span data-stu-id="db628-p104">None. The Export-CcConfigurationSampleFile cmdlet does not accept pipelined input.</span></span> 
+  
+## <a name="return-types"></a><span data-ttu-id="db628-124">Types de retours</span><span class="sxs-lookup"><span data-stu-id="db628-124">Return Types</span></span>
+<span data-ttu-id="db628-125"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="db628-125"></span></span>
+
+<span data-ttu-id="db628-126">Aucun</span><span class="sxs-lookup"><span data-stu-id="db628-126">None</span></span>
+  
+## <a name="see-also"></a><span data-ttu-id="db628-127">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="db628-127">See also</span></span>
+<span data-ttu-id="db628-128"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="db628-128"></span></span>
+
+[<span data-ttu-id="db628-129">Set-CcApplianceDirectory</span><span class="sxs-lookup"><span data-stu-id="db628-129">Set-CcApplianceDirectory</span></span>](set-ccappliancedirectory.md)
   
 

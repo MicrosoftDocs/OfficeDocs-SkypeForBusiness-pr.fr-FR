@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -22,35 +22,35 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: Cela vous permettra de savoir comment composer des numéros gratuits dans chaque pays/région. Une fois que vous sélectionnez la pays/région, il vous dirige vers une page spécifique qui contient des détails plus spécifiques, les restrictions et les limites de la disponibilité du service gratuit où service gratuit est disponible. Le format de numérotation ou formats affichera les codes d’accès requis dans chaque pays/région de composer le numéro d’appel gratuit.
-ms.openlocfilehash: f8eeab35312c512bd4bdbddec9fe971a06312e12
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Vous pourrez ainsi découvrir comment composer un numéro gratuit dans chaque pays ou région. Lorsque vous sélectionnez le pays ou la région, vous êtes dirigé vers une page qui contient des détails, restrictions et limites spécifiques pour la disponibilité du service gratuit où le service gratuit est disponible. Le ou les formats de numérotation vous montrent les codes d’accès requis au sein de chaque pays/région pour composer le numéro gratuit.
+ms.openlocfilehash: 2967b564e9f501266cdfbab232d920ebbc7e3014
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32223304"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34304579"
 ---
-# <a name="toll-free-dialing-restrictions-in-spain"></a><span data-ttu-id="3334f-105">Restrictions de numérotation gratuit en Espagne</span><span class="sxs-lookup"><span data-stu-id="3334f-105">Toll-free dialing restrictions in Spain</span></span>
+# <a name="toll-free-dialing-restrictions-in-spain"></a><span data-ttu-id="413aa-105">Restrictions de numérotation gratuit en Espagne</span><span class="sxs-lookup"><span data-stu-id="413aa-105">Toll-free dialing restrictions in Spain</span></span>
 
-<span data-ttu-id="3334f-106">[Trouver un autre pays ou région](../toll-free-dialing-limitations-and-restrictions.md), ou en savoir plus sur les restrictions et les limitations de composer le numéro gratuit.</span><span class="sxs-lookup"><span data-stu-id="3334f-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
+<span data-ttu-id="413aa-106">[Recherchez un autre pays ou une autre région](../toll-free-dialing-limitations-and-restrictions.md)ou en savoir plus sur les limitations et restrictions de numérotation sans frais.</span><span class="sxs-lookup"><span data-stu-id="413aa-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
 
 
-|<span data-ttu-id="3334f-107">**Détails**</span><span class="sxs-lookup"><span data-stu-id="3334f-107">**Details**</span></span>|<span data-ttu-id="3334f-108">**Description**</span><span class="sxs-lookup"><span data-stu-id="3334f-108">**Description**</span></span>|
+|<span data-ttu-id="413aa-107">**Détails**</span><span class="sxs-lookup"><span data-stu-id="413aa-107">**Details**</span></span>|<span data-ttu-id="413aa-108">**Description**</span><span class="sxs-lookup"><span data-stu-id="413aa-108">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="3334f-109">Est gratuit appelant disponibles ?</span><span class="sxs-lookup"><span data-stu-id="3334f-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="3334f-110">Oui</span><span class="sxs-lookup"><span data-stu-id="3334f-110">Yes</span></span>  <br/> |
-|<span data-ttu-id="3334f-111">Formats de numérotation</span><span class="sxs-lookup"><span data-stu-id="3334f-111">Dialing format(s)</span></span>  <br/> |<span data-ttu-id="3334f-112">900 XXX XXX</span><span class="sxs-lookup"><span data-stu-id="3334f-112">900 XXX XXX</span></span>  <br/> |
-|<span data-ttu-id="3334f-113">Code de pays/région ISO</span><span class="sxs-lookup"><span data-stu-id="3334f-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="3334f-114">ES</span><span class="sxs-lookup"><span data-stu-id="3334f-114">ES</span></span>  <br/> |
-|<span data-ttu-id="3334f-115">Île/territoire couvert</span><span class="sxs-lookup"><span data-stu-id="3334f-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="3334f-116">Îles Baléares et Îles Canaries</span><span class="sxs-lookup"><span data-stu-id="3334f-116">Balearic Island and Canary Island</span></span>  <br/> |
-|<span data-ttu-id="3334f-117">Île/territoire non couvert</span><span class="sxs-lookup"><span data-stu-id="3334f-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="3334f-118">Non applicable</span><span class="sxs-lookup"><span data-stu-id="3334f-118">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="3334f-119">Disponibilité de la ligne filaire/fixe</span><span class="sxs-lookup"><span data-stu-id="3334f-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="3334f-120">Oui</span><span class="sxs-lookup"><span data-stu-id="3334f-120">Yes</span></span>  <br/> |
-|<span data-ttu-id="3334f-121">Disponibilité de réseau mobile</span><span class="sxs-lookup"><span data-stu-id="3334f-121">Mobile network availability</span></span>  <br/> |<span data-ttu-id="3334f-122">Oui.</span><span class="sxs-lookup"><span data-stu-id="3334f-122">Yes.</span></span> <span data-ttu-id="3334f-123">Disponible à tarif surtaxé</span><span class="sxs-lookup"><span data-stu-id="3334f-123">Available at premium rate.</span></span>  <br/> |
-|<span data-ttu-id="3334f-124">Commentaires, les restrictions et les problèmes d’accès</span><span class="sxs-lookup"><span data-stu-id="3334f-124">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="3334f-125">Identification mobile utilisant des impulsions différentes disponible.</span><span class="sxs-lookup"><span data-stu-id="3334f-125">Mobile identification using different outpulses available.</span></span>  <br/> |
+|<span data-ttu-id="413aa-109">Est-ce que l’appel gratuit est disponible?</span><span class="sxs-lookup"><span data-stu-id="413aa-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="413aa-110">Oui</span><span class="sxs-lookup"><span data-stu-id="413aa-110">Yes</span></span>  <br/> |
+|<span data-ttu-id="413aa-111">Format (s) de numérotation</span><span class="sxs-lookup"><span data-stu-id="413aa-111">Dialing format(s)</span></span>  <br/> |<span data-ttu-id="413aa-112">900 XXX XXX</span><span class="sxs-lookup"><span data-stu-id="413aa-112">900 XXX XXX</span></span>  <br/> |
+|<span data-ttu-id="413aa-113">Code ISO pays/région</span><span class="sxs-lookup"><span data-stu-id="413aa-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="413aa-114">ES</span><span class="sxs-lookup"><span data-stu-id="413aa-114">ES</span></span>  <br/> |
+|<span data-ttu-id="413aa-115">Île/territoire couvert</span><span class="sxs-lookup"><span data-stu-id="413aa-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="413aa-116">Îles Baléares et Îles Canaries</span><span class="sxs-lookup"><span data-stu-id="413aa-116">Balearic Island and Canary Island</span></span>  <br/> |
+|<span data-ttu-id="413aa-117">Île/territoire non couvert</span><span class="sxs-lookup"><span data-stu-id="413aa-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="413aa-118">Non applicable</span><span class="sxs-lookup"><span data-stu-id="413aa-118">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="413aa-119">Disponibilité de ligne filaire/fixe</span><span class="sxs-lookup"><span data-stu-id="413aa-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="413aa-120">Oui</span><span class="sxs-lookup"><span data-stu-id="413aa-120">Yes</span></span>  <br/> |
+|<span data-ttu-id="413aa-121">Disponibilité de réseau mobile</span><span class="sxs-lookup"><span data-stu-id="413aa-121">Mobile network availability</span></span>  <br/> |<span data-ttu-id="413aa-122">Oui.</span><span class="sxs-lookup"><span data-stu-id="413aa-122">Yes.</span></span> <span data-ttu-id="413aa-123">Disponible à tarif surtaxé</span><span class="sxs-lookup"><span data-stu-id="413aa-123">Available at premium rate.</span></span>  <br/> |
+|<span data-ttu-id="413aa-124">Commentaires, restrictions et problèmes d’accès</span><span class="sxs-lookup"><span data-stu-id="413aa-124">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="413aa-125">Identification mobile utilisant des impulsions différentes disponible.</span><span class="sxs-lookup"><span data-stu-id="413aa-125">Mobile identification using different outpulses available.</span></span>  <br/> |
    
-## <a name="related-topics"></a><span data-ttu-id="3334f-126">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="3334f-126">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="413aa-126">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="413aa-126">Related topics</span></span>
 
-[<span data-ttu-id="3334f-127">Limitations et restrictions concernant la composition de numéros verts</span><span class="sxs-lookup"><span data-stu-id="3334f-127">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
+[<span data-ttu-id="413aa-127">Limitations et restrictions concernant la composition de numéros verts</span><span class="sxs-lookup"><span data-stu-id="413aa-127">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
 
-[<span data-ttu-id="3334f-128">Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="3334f-128">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
+[<span data-ttu-id="413aa-128">Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="413aa-128">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
 
   
  
