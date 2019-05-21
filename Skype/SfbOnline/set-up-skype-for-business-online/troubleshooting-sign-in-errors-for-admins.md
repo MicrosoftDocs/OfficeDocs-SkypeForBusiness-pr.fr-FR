@@ -1,5 +1,5 @@
 ---
-title: Dépannage Skype pour les erreurs de connexion Business Online pour les administrateurs
+title: Résolution des erreurs de connexion à Skype Entreprise Online pour les administrateurs
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -13,211 +13,211 @@ ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Setup
-description: 'Découvrez les causes fréquentes de Skype pour Business Online pour les erreurs de connexion et de travail par le biais de ces problèmes. '
-ms.openlocfilehash: 369dc9347903335227641b1afebb1fd199d64541
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
-ms.translationtype: MT
+description: 'Découvrez les causes courantes des erreurs de connexion à Skype Entreprise Online et résolvez-les. '
+ms.openlocfilehash: edbddf940eeea36ecfdcf6966558b9632c729065
+ms.sourcegitcommit: d7c8d03883d4ae4e37af88625dd74ab037eac914
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32195500"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34158962"
 ---
-# <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>Dépannage Skype pour les erreurs de connexion Business Online pour les administrateurs
+# <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>Résolution des erreurs de connexion à Skype Entreprise Online pour les administrateurs
 
-Pour résoudre les Skype pour les erreurs de connexion en ligne Business, démarrez en éliminant les causes les plus courantes des difficultés de connexion. Si nécessaire, vous pouvez alors suivre les étapes en fonction du type d’erreur de résolution spécifique. Si l’utilisateur toujours ne peut pas se connecter, recueillir des informations supplémentaires, puis demander une assistance supplémentaire.
+Pour résoudre les erreurs de connexion à Skype Entreprise Online, commencez par éliminer les causes les plus courantes des problèmes de connexion. Si nécessaire, vous pouvez suivre des étapes de résolution spécifiques en fonction du type d’erreur. Si l’utilisateur ne parvient toujours pas à se connecter, recueillez des informations supplémentaires, puis recherchez une aide supplémentaire.
 
-## <a name="what-do-you-want-to-do"></a>Que voulez-vous faire ?
+## <a name="what-do-you-want-to-do"></a>Que souhaitez-vous faire ?
 <a name="top"> </a>
 
-> [Rechercher les causes fréquentes de Skype pour les erreurs de connexion Business en ligne](troubleshooting-sign-in-errors-for-admins.md#toc323194094)
+> [Rechercher les causes courantes des erreurs de connexion à Skype Entreprise Online](troubleshooting-sign-in-errors-for-admins.md#toc323194094)
 > 
-> [Suivez les étapes de résolution d’une erreur spécifique (Enterprise uniquement)](troubleshooting-sign-in-errors-for-admins.md#toc325626440)
+> [Suivre la procédure de résolution d’une erreur spécifique (Entreprise uniquement)](troubleshooting-sign-in-errors-for-admins.md#toc325626440)
 > 
 > [Ajouter une entrée de pare-feu pour msoidsvc.exe à votre serveur proxy](troubleshooting-sign-in-errors-for-admins.md#add-a-firewall)
 > 
 > [Mettre à jour les paramètres DNS](troubleshooting-sign-in-errors-for-admins.md#update-dns-service)
 > 
-> [Installer un certificat SSL de tiers sur votre serveur AD FS](troubleshooting-sign-in-errors-for-admins.md#verify-upn-and)
+> [Installer un certificat SSL tiers sur votre serveur ADFS](troubleshooting-sign-in-errors-for-admins.md#verify-upn-and)
 > 
 > [Mettre à jour les informations d’identification de sécurité](troubleshooting-sign-in-errors-for-admins.md#update-security-credentials)
 > 
 > [Modifier les clés de Registre TrustModelData](troubleshooting-sign-in-errors-for-admins.md#modify-trustmodeldata-registry)
 > 
-> [Mise à jour des paramètres utilisateur dans Active Directory](troubleshooting-sign-in-errors-for-admins.md#update-user-settings)
+> [Mettre à jour les paramètres utilisateur dans Active Directory](troubleshooting-sign-in-errors-for-admins.md#update-user-settings)
 > 
-> [Utiliser le guide de dépannage du Support de Microsoft](troubleshooting-sign-in-errors-for-admins.md#toc325626447)
+> [Utiliser le guide de résolution des problèmes du Support Microsoft](troubleshooting-sign-in-errors-for-admins.md#toc325626447)
 > 
-> [Recueillir plus d’informations et pour obtenir une assistance supplémentaire](troubleshooting-sign-in-errors-for-admins.md#collect-more-information)
+> [Recueillir d’autres informations et rechercher de l’aide supplémentaire](troubleshooting-sign-in-errors-for-admins.md#collect-more-information)
 
-## <a name="check-for-common-causes-of-skype-for-business-online-sign-in-errors"></a>Rechercher les causes fréquentes de Skype pour les erreurs de connexion Business en ligne
+## <a name="check-for-common-causes-of-skype-for-business-online-sign-in-errors"></a>Rechercher les causes courantes des erreurs de connexion à Skype Entreprise Online
 <a name="toc323194094"> </a>
 
-La plupart des problèmes de connexion peuvent être suivis pour un petit nombre de causes et la plupart de ces sont faciles à corriger. Le tableau ci-dessous répertorie certaines causes courantes des erreurs de connexion et certaines étapes que vous ou les utilisateurs peuvent suivre pour les résoudre.
+La plupart des problèmes de connexion peuvent être ramenés à un petit nombre de causes, sont bon nombre sont faciles à corriger. Le tableau ci-dessous répertorie certaines des causes courantes des erreurs de connexion, ainsi que les étapes que vous ou les utilisateurs pouvez suivre pour les résoudre.
 
 
-| **Cause possible**                                                                                                                                                    | **Résolution**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| **Cause possible**                                                                                                                                                    | **Solution**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |:----------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Lors de la connexion, une boîte de dialogue qui contient l’expression suivante apparaît : **ne peut pas vérifier que le serveur est approuvé pour votre adresse de connexion. Quand même vous connecter ?** <br/> | Vérifiez que le nom de domaine dans la boîte de dialogue est un serveur approuvé dans votre organisation, par exemple, **domainName.contoso.com**. Demandez à l’utilisateur pour sélectionner la case à cocher **toujours faire confiance à ce serveur** , puis cliquez sur **se connecter**. <br/> Les clients d’entreprise peuvent empêcher ce message lorsqu’un utilisateur se connecte pour la première fois en modifiant le Registre Windows sur l’ordinateur de chaque utilisateur. Pour plus d’informations, voir [TrustModelData modifier les clés de Registre](troubleshooting-sign-in-errors-for-admins.md#modify-trustmodeldata-registry).<br/> |
-| Adresse de connexion faute de frappe, nom d’utilisateur ou mot de passe  <br/>                                                                                                               | Vérifiez que le nom d’utilisateur et mot de passe de l’utilisateur sont correctes. <br/>  Vérifiez que le nom de connexion de l’utilisateur est formaté comme suit : <strong>bobk@contoso.com</strong>. Cela peut être différent du format que vous utilisez pour vous connecter au réseau de votre organisation.  <br/>  Demandez à l’utilisateur de réessayer de vous connecter. <br/>                                                                                                                                                                                                                             |
-| Mot de passe oublié  <br/>                                                                                                                                             | Réinitialiser le mot de passe et informer du nouveau mot de passe temporaire.  <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| Pas de licence pour utiliser Skype pour Business en ligne  <br/>                                                                                                                  | Vérifiez que l’utilisateur est enregistré en tant qu’un Skype pour l’utilisateur d’entreprise en ligne. Dans le cas contraire, enregistrer l’utilisateur, puis lui demander à vous reconnecter.  <br/>                                                                                                                                                                                                                                                                                                                                                                                           |
-| Skype pour Business Online installé une version incorrecte  <br/>                                                                                                           | Ce problème est généralement associé à un message d’erreur qui contient l’expression suivante : **le service d’authentification peut être incompatible avec cette version du programme**.  <br/> Demandez à l’utilisateur pour désinstaller et réinstaller Skype pour Business Online à partir du portail Office 365.  <br/>                                                                                                                                                                                                                                                    |
-| Problème d’acquisition d’un certificat personnel est requis pour se connecter  <br/>                                                                                           | Si l’adresse de connexion de l’utilisateur a récemment modifié, il faudra supprimer les données de connexion mises en cache. Demandez aux utilisateurs de se déconnecter, cliquez sur Supprimer mes informations de connexion lier sur l’écran de connexion, puis réessayez.  <br/>                                                                                                                                                                                                                                                                                                                                |
-| Définir un nom de domaine personnalisé et les modifications ne peuvent pas fini de se propager dans le système.  <br/>                                                         | Tout d’abord, assurez-vous que vous avez modifié les enregistrements de nom de domaine DNS (Domain Name Service) pour refléter les modifications.  <br/> Si vous avez déjà apporté les modifications DNS nécessaires, informer l’utilisateur à essayez de vous connecter ultérieurement. Les modifications DNS peuvent prendre jusqu'à 72 heures pour être répercutées dans le système.  <br/>                                                                                                                                                                                                                                                        |
-| Système d’horloge pas synchronisé avec l’horloge du serveur  <br/>                                                                                                                     | Assurez-vous que le contrôleur de domaine de votre réseau est en cours de synchronisation avec une source externe fiable. Pour plus d’informations, consultez l’article 816042 de la Base de connaissances Microsoft [Comment faire pour configurer un serveur de temps faisant autorité dans Windows Server](https://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=816042).<br/>                                                                                                                                                                                                                                          |
+| Durant la connexion, une boîte de dialogue affiche le message suivant : ** ne peut pas vérifier que le serveur est fiable pour que vous puissiez vous connecter. Voulez-vous vous connecter ?** <br/> | Vérifiez que le nom de domaine mentionné dans la boîte de dialogue correspond à un serveur approuvé au sein de votre organisation? Par exemple, **domainname.contoso.com**. Demandez à l’utilisateur d’activer la case à cocher **Toujours faire confiance à ce serveur**, puis cliquez sur **Se connecter**. <br/> Les clients Entreprise peuvent éviter que ce message s’affiche quand un utilisateur se connecte pour la première fois en modifiant le Registre Windows sur l’ordinateur de chaque utilisateur. Pour plus de détails, voir [Modifier les clés de Registre TrustModelData](troubleshooting-sign-in-errors-for-admins.md#modify-trustmodeldata-registry).<br/> |
+| Adresse de connexion, nom d’utilisateur ou mot de passe incorrects  <br/>                                                                                                               | Vérifiez que le nom et le mot de passe de connexion de l’utilisateur sont corrects. <br/>  Vérifiez que le nom d’utilisateur est au format suivant : <strong>bobk@contoso.com</strong>. Ce format peut différer de celui utilisé lors de la connexion au réseau de votre organisation.  <br/>  Demandez à l’utilisateur de réessayer de se connecter. <br/>                                                                                                                                                                                                                             |
+| Mot de passe oublié  <br/>                                                                                                                                             | Réinitialisez le mot de passe de l’utilisateur et communiquez-lui son nouveau mot de passe temporaire.  <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| Absence de licence pour utiliser Skype Entreprise Online  <br/>                                                                                                                  | Vérifiez que l’utilisateur est inscrit en tant qu’utilisateur de Skype Entreprise Online. S’il ne l’est pas, inscrivez-le et demandez-lui de se reconnecter.  <br/>                                                                                                                                                                                                                                                                                                                                                                                           |
+| Version incorrecte de Skype Entreprise Online installée  <br/>                                                                                                           | En règle générale, ce problème est associé à un message d’erreur contenant la phrase suivante : **le service d’authentification n’est pas compatible avec cette version du programme**.  <br/> Demandez à l’utilisateur de désinstaller, puis réinstaller Skype Entreprise Online à partir du portail Office 365.  <br/>                                                                                                                                                                                                                                                    |
+| Problème d’acquisition d’un certificat personnel requis pour se connecter  <br/>                                                                                           | Si l’adresse de connexion de l’utilisateur a changé récemment, il se peut que vous deviez supprimer les données de connexion mises en cache. Demandez à l’utilisateur de se déconnecter, cliquez sur le lien Supprimer mes informations de connexion dans l’écran de connexion, puis réessayez.  <br/>                                                                                                                                                                                                                                                                                                                                |
+| Vous avez créé un nom de domaine personnalisé et les modifications n’ont peut-être pas fini de se propager dans le système.  <br/>                                                         | Commencez par vérifier que vous avez modifié les enregistrements DNS (Domain Name Service) pour refléter la modification.  <br/> Si vous avez déjà effectué les modifications de DNS nécessaires, conseillez à l’utilisateur de se connecter ultérieurement. La propagation des modifications apportées au DNS à l’ensemble du système peut prendre jusqu’à 72 heures.  <br/>                                                                                                                                                                                                                                                        |
+| L’horloge système n’est pas synchronisée avec celle du serveur  <br/>                                                                                                                     | Vérifiez que le contrôleur de domaine réseau est synchronisé avec une source de temps externe fiable. Pour plus d’informations, reportez-vous à l’article 816042 de la Base de connaissances Microsoft intitulé : [Configuration d’un serveur de temps de référence dans Windows Server](https://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=816042).<br/>                                                                                                                                                                                                                                          |
 
-Pour résoudre les Skype pour les erreurs de connexion en ligne Business, démarrez en éliminant les causes les plus courantes des difficultés de connexion. Si nécessaire, vous pouvez alors suivre les étapes en fonction du type d’erreur de résolution spécifique. Si l’utilisateur toujours ne peut pas se connecter, recueillir des informations supplémentaires, puis demander une assistance supplémentaire.
+Pour résoudre les erreurs de connexion à Skype Entreprise Online, commencez par éliminer les causes les plus courantes des problèmes de connexion. Si nécessaire, vous pouvez suivre des étapes de résolution spécifiques en fonction du type d’erreur. Si l’utilisateur ne parvient toujours pas à se connecter, recueillez des informations supplémentaires, puis recherchez une aide supplémentaire.
 
-## <a name="follow-resolution-steps-for-a-specific-error-enterprise-only"></a>Suivez les étapes de résolution d’une erreur spécifique (Enterprise uniquement)
+## <a name="follow-resolution-steps-for-a-specific-error-enterprise-only"></a>Suivre la procédure de résolution d’une erreur spécifique (Entreprise uniquement)
 <a name="toc325626440"> </a>
 
 > [!IMPORTANT]
->  Ces instructions sont destinées principalement aux clients Microsoft Office 365 planifier E. Si vous êtes un client Office 365 planifier P, passez à la section suivante,[recueillir plus d’informations et pour obtenir une assistance supplémentaire ](troubleshooting-sign-in-errors-for-admins.md#collect-more-information).
+>  Ces instructions sont principalement destinées aux clients Microsoft Office 365 Plan E. Si vous êtes un client Office 365 Plan P, passez à la section suivante[Recueillir d’autres informations et rechercher de l’aide supplémentaire](troubleshooting-sign-in-errors-for-admins.md#collect-more-information). 
 
-Si l’utilisateur ne peut pas se connecter une fois que vous avez essayé les suggestions dans la section précédente, vous pouvez effectuer des opérations de dépannage en fonction du type d’erreur. Le tableau ci-dessous répertorie les messages d’erreur les plus courants et causes possibles. Le tableau suivant est des procédures détaillées pour chaque problème.
+Si l’utilisateur ne parvient pas à se connecter après l’application des suggestions de la section précédente, suivez les procédures de résolution selon les types d’erreur. Le tableau ci-après répertorie les messages d’erreur les plus courants et les causes possibles. Vous trouverez en dessous du tableau les procédures détaillées pour résoudre chaque problème.
 
-|**Message d’erreur**|**Cause possible**|**Résolution**|
+|**Message d’erreur**|**Cause possible**|**Solution**|
 |:-----|:-----|:-----|
-|Adresse de connexion introuvable  <br/> |Demandes de connexion à partir de l’Assistant Microsoft Online Services Sign-On (msoidsvc.exe) ne sont pas passer par votre pare-feu externe ou un serveur proxy.  <br/> |[Ajouter une entrée de pare-feu pour msoidsvc.exe à votre serveur proxy](troubleshooting-sign-in-errors-for-admins.md#add-a-firewall) <br/> |
-|Server est temporairement non disponible  <br/> |Si votre organisation a un domaine personnalisé, les paramètres de nom de domaine DNS (Domain Name System) requis est peut-être manquant ou incorrect.  <br/> |[Mettre à jour les paramètres DNS](troubleshooting-sign-in-errors-for-admins.md#update-dns-service) <br/> |
-|Server est temporairement non disponible  <br/> |Si votre organisation est à l’aide de l’authentification unique avec Active Directory Federation Services (ADFS), vous avez peut-être utilisé un certificat auto-signé de Secure Sockets Layer (SSL) plutôt qu’à partir d’une autorité de certification tierce.  <br/> |[Installer un certificat SSL de tiers sur votre serveur AD FS](troubleshooting-sign-in-errors-for-admins.md#verify-upn-and) <br/> |
-|Problème d’acquisition d’un certificat personnel est requis pour se connecter  <br/> |Si vous avez déjà supprimé les données du serveur de mise en cache utilisé pour la connexion et l’erreur continue à apparaître, informations d’identification de sécurité de l’utilisateur est endommagées, ou un dossier RSA sur l’ordinateur de l’utilisateur peut bloquer l’authentification.  <br/> |[Mettre à jour les informations d’identification de sécurité](troubleshooting-sign-in-errors-for-admins.md#update-security-credentials) <br/> |
-|Une boîte de dialogue certificat confiance s’affiche lorsqu’un utilisateur se connecte pour la première fois.  <br/> |Cette boîte de dialogue s’affiche si votre Skype pour Business server n’est pas encore répertorié dans la clé de Registre **TrustModelData** . <br/> |[Modifier les clés de Registre TrustModelData](troubleshooting-sign-in-errors-for-admins.md#modify-trustmodeldata-registry) <br/> |
-|L’utilisateur n’est pas activé SIP  <br/> |Si votre organisation a une installation précédente de Microsoft Office Communications Server ou Microsoft Lync Server 2010, vous a ne peut-être pas supprimé vos utilisateurs à partir du serveur avant de le désactiver. Par conséquent, l’attribut **msRTCSIP-UserEnabled** est toujours définie sur **FALSE** dans les Services de domaine Active Directory. <br/> |[Mise à jour des paramètres utilisateur dans Active Directory](troubleshooting-sign-in-errors-for-admins.md#update-user-settings)<br/> |
+|Adresse de connexion introuvable  <br/> |Les demandes de connexion provenant de l’Assistant de connexion Microsoft Online Services (msoidsvc.exe) ne passent pas à travers le pare-feu externe ou le serveur proxy.  <br/> |[Ajouter une entrée de pare-feu pour msoidsvc.exe au serveur proxy](troubleshooting-sign-in-errors-for-admins.md#add-a-firewall) <br/> |
+|Serveur temporairement indisponible  <br/> |Si votre organisation possède un domaine personnalisé, les paramètres DNS (Domain Name System) nécessaires sont peut-être manquants ou incorrects.  <br/> |[Mettre à jour les paramètres DNS](troubleshooting-sign-in-errors-for-admins.md#update-dns-service) <br/> |
+|Serveur temporairement indisponible  <br/> |Si votre organisation utilise l’authentification unique avec les services ADFS (services de fédération Active Directory ), il est possible que vous ayez eu recours à un certificat SSL (Secure Socket Layer) auto-signé au lieu d’un certificat provenant d’une autorité de certification tierce.  <br/> |[Installer un certificat SSL tiers sur votre serveur ADFS](troubleshooting-sign-in-errors-for-admins.md#verify-upn-and) <br/> |
+|Problème d’acquisition d’un certificat personnel requis pour se connecter  <br/> |Si vous avez déjà supprimé les données de serveur mises en cache utilisées pour la connexion et que l’erreur persiste, il se peut que les informations d’authentification de l’utilisateur soient endommagées ou qu’un dossier RSA sur l’ordinateur de l’utilisateur bloque l’authentification.  <br/> |[Mettre à jour les informations d’identification de sécurité](troubleshooting-sign-in-errors-for-admins.md#update-security-credentials) <br/> |
+|Boîte de dialogue relative à l’approbation du certificat s’affichant lorsque l’utilisateur se connecte pour la première fois.  <br/> |La boîte de dialogue apparaît si votre serveur Skype Entreprise n’est pas encore répertorié dans la clé de Registre **TrustModelData**. <br/> |[Modifier les clés de Registre TrustModelData](troubleshooting-sign-in-errors-for-admins.md#modify-trustmodeldata-registry) <br/> |
+|L’utilisateur test ne prend pas en charge le protocole SIP  <br/> |Si votre organisation dispose d’une installation antérieure de Microsoft Office Communications Server ou de Microsoft Lync Server 2010, il est possible que vos utilisateurs n’aient pas été supprimés du serveur avant sa désaffectation. Dans ce cas, l’attribut **msRTCSIP-UserEnabled** est toujours défini sur **FALSE** dans Active Directory Domain Services. <br/> |[Mettre à jour les paramètres utilisateur dans Active Directory](troubleshooting-sign-in-errors-for-admins.md#update-user-settings)<br/> |
 
 ### <a name="add-a-firewall-entry-for-msoidsvcexe-to-your-proxy-server"></a>Ajouter une entrée de pare-feu pour msoidsvc.exe à votre serveur proxy
 <a name="add-a-firewall"> </a>
 
-Cette procédure est un correctif pour le message d’erreur suivant : **adresse de connexion introuvable**.
+Cette procédure peut résoudre l’erreur suivante : **Adresse de connexion introuvable**.
 
 > [!NOTE]
-> Les étapes suivantes supposent que vous utilisez Microsoft Forefront Threat Management Gateway (TMG) 2010. Si vous disposez d’une solution de passerelle web différente, utilisez les paramètres décrits à l’étape 4 ci-dessous.
+> La procédure ci-après suppose que vous utilisez Microsoft Forefront Threat Management Gateway (TMG) 2010. Si vous avez disposez d’une autre solution de passerelle web, utilisez les paramètres décrits à l’étape 4 ci-après.
 
 
 Pour créer une entrée d’application pour Msoidsvc.exe dans Forefront TMG 2010, procédez comme suit :
 
-1. Dans le volet gauche de Forefront, cliquez sur **réseau**.
+1. Dans le volet gauche de Forefront, cliquez sur **Réseau**.
 
-2. Cliquez sur l’onglet **réseau** . Sous l’onglet **tâches** dans le volet droit, cliquez sur **Configurer les paramètres du Client Forefront TMG**.
+2. Cliquez sur l’onglet **Réseau**. Sous l’onglet **Tâches** du volet droit, cliquez sur **Configurer les paramètres du client Forefront TMG**.
 
-3. Dans la boîte de dialogue **Paramètres du Client Forefront TMG** , cliquez sur **Nouveau**.
+3. Dans la boîte de dialogue **Paramètres du client Forefront TMG**, cliquez sur **Nouveau**.
 
-4. Dans la boîte de dialogue **Paramètre entrée d’Application** , configurez les règles suivantes :
+4. Dans la boîte de dialogue **Paramètre d’entrée de l’application**, configurez les règles suivantes :
 
 |**Application**|**Clé**|**Valeur**|
 |:-----|:-----|:-----|
-|**msoidsvc** <br/> |Désactiver  <br/> |0  <br/> |
+|**msoidsvc** <br/> |Disable  <br/> |0  <br/> |
 |**msoidsvc** <br/> |DisableEx  <br/> |0  <br/> |
 
-Pour plus d’informations, voir l’article de la Base de connaissances Microsoft 2409256, [que vous ne pouvez pas vous connecter à Skype pour Business Online car un pare-feu local bloque la connexion](https://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2409256).
+Pour plus d’informations, voir l’article 2409256 de la Base de connaissances Microsoft intitulé : [Vous ne pouvez pas vous connecter à Skype Entreprise Online parce qu’un pare-feu local bloque la connexion](https://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2409256).
 
 ### <a name="update-dns-settings"></a>Mettre à jour les paramètres DNS
 <a name="update-dns-service"> </a>
 
-Si votre organisation a un domaine personnalisé, cette procédure est un correctif pour le message d’erreur suivant : **Server est temporairement non disponible**.
+Si votre organisation possède un domaine personnalisé, cette procédure peut résoudre l’erreur suivante : **Serveur temporairement indisponible**.
 
-- Pour plus d’informations sur la façon d’ajouter l’enregistrement CNAME suivant à votre domaine, contactez votre serveur d’inscriptions de nom de domaine :
+- Contactez le bureau d’enregistrement de noms de domaine pour obtenir des informations sur l’ajout de l’enregistrement CNAME suivant à votre domaine :
 
-  - **Type d’enregistrement DNS**: CNAME
+  - **Type d’enregistrement DNS** : CNAME
 
-  - **Nom**: sip
+  - **Nom** : sip
 
-  - **Valeur/Destination**: sipdir.online.lync.com
+  - **Valeur/destination** : sipdir.online.Lync.com
 
-Pour plus d’informations, voir l’article de la Base de connaissances Microsoft 2566790, [Skype de dépannage pour les problèmes de configuration DNS en ligne d’entreprise dans Office 365](https://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2566790).
+Pour plus d’informations, voir l’article 2566790 de la Base de connaissances Microsoft intitulé : [Résolution des problèmes de configuration DNS de Skype Entreprise Online dans Office 365](https://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2566790).
 
-### <a name="install-a-third-party-ssl-certificate-on-your-adfs-server"></a>Installer un certificat SSL de tiers sur votre serveur AD FS
+### <a name="install-a-third-party-ssl-certificate-on-your-adfs-server"></a>Installer un certificat SSL tiers sur votre serveur ADFS
 <a name="verify-upn-and"> </a>
 
-Pour installer un certificat SSL de tiers sur votre serveur Active domaine Federation Services (ADFS), procédez comme suit :
+Pour installer un certificat SSL tiers sur le serveur ADFS (Active Domain Federation Services), procédez comme suit :
 
-1. Obtenir un certificat SSL auprès d’une autorité de certification tierce telles que VeriSign ou Thawte.
+1. Obtenez un certificat SSL auprès d’une autorité de certification tierce telle que VeriSign ou Thawte.
 
-2. Installer le certificat sur votre serveur ADFS à l’aide de la console de gestion ADFS.
+2. Installez le certificat sur votre serveur ADFS à l’aide de la console de gestion ADFS.
 
 ### <a name="update-security-credentials"></a>Mettre à jour les informations d’identification de sécurité
 <a name="update-security-credentials"> </a>
 
-Cette procédure est un correctif pour le message d’erreur **problème l’acquisition d’un certificat personnel requis pour vous connecter**.
+Cette procédure peut permettre de résoudre l’erreur suivante : **Un problème s’est produit lors de l’acquisition d’un certificat personnel nécessaire pour se connecter**.
 
-Pour éliminer les éventuels problèmes de certificat ou des informations d’identification, tout d’abord renouveler le certificat de l’utilisateur dans le Gestionnaire de certificats Windows. Pour cela, procédez comme suit :
+Pour éliminer les éventuels problèmes d’informations d’identification ou de certificats, commencez par renouveler le certificat de l’utilisateur dans le Gestionnaire de certificats Windows. Pour ce faire, procédez comme suit :
 
-1. Ouvrez le Gestionnaire de certificats Windows. Pour ce faire, cliquez sur **Démarrer**, sur **exécuter**, tapez **certmgr.msc**, puis cliquez sur **OK**.
+1. Ouvrez le Gestionnaire de certificats Windows. Pour ce faire, cliquez sur **Démarrer**, sur **Exécuter**, tapez **certmgr.msc**, puis cliquez sur **OK**.
 
-2. Double-cliquez sur **personnel**, puis double-cliquez sur **certificats**.
+2. Double-cliquez sur **Personnel**, puis sur **Certificats**.
 
-3. Tri par la colonne **Délivré par** , puis recherchez un certificat émis par Communications Server.
+3. Effectuez un tri sur la colonne **Délivré par**, puis recherchez un certificat émis par Serveur de communications.
 
-4. Cliquez sur le certificat, puis cliquez sur **Supprimer**.
+4. Cliquez avec le bouton droit sur le certificat, puis cliquez sur **Supprimer**.
 
-Ensuite, si l’utilisateur exécute Windows 7, supprimer leurs informations d’identification stockées dans le Gestionnaire d’informations d’identification Windows. Pour cela, procédez comme suit :
+Ensuite, si l’utilisateur exécute Windows 7, supprimez ses informations d’identification stockées dans le Gestionnaire d’informations d’identification Windows. Pour ce faire, procédez comme suit :
 
-1. Cliquez sur **Démarrer**, cliquez sur **Le panneau de configuration**, puis cliquez sur **Gestionnaire d’informations d’identification**.
+1. Cliquez sur **Démarrer**, sur **Panneau de configuration**, puis sur **Gestionnaire d’informations d’identification**.
 
-2. Localisez le jeu d’informations d’identification qui est utilisé pour se connecter à Skype pour Business Online.
+2. Recherchez le jeu informations d’identification utilisées pour la connexion à Skype Entreprise Online.
 
-3. Développez le jeu d’informations d’identification, puis cliquez sur **Supprimer de coffre-fort**.
+3. Développez le jeu d’informations d’identification, puis cliquez sur **Supprimer de l’archivage sécurisé**.
 
-4. Se reconnecter et entrez à nouveau les informations d’identification de l’utilisateur.
+4. Reconnectez-vous et réentrez les informations d’identification de l’utilisateur.
 
-Enfin, si l’utilisateur toujours ne peut pas se connecter une fois que vous avez mis à jour leurs informations d’identification, essayez de supprimer le dossier RSA sur l’ordinateur de l’utilisateur, car il pourrait bloquer la fin du processus d’authentification utilisateur :
+Enfin, si l’utilisateur ne parvient toujours pas à se connecter après la mise à jour de ses informations d’identification, essayez de supprimer le dossier RSA de l’ordinateur de l’utilisateur, car celui-ci peut empêcher l’accomplissement du processus d’authentification de l’utilisateur :
 
 1. Connectez-vous à l’ordinateur de l’utilisateur à l’aide d’un compte d’administrateur.
 
-2. Si nécessaire, activez l’option d’affichage dossier **fichiers cachés**.
+2. Si nécessaire, activez l’option d’affichage de dossier **Afficher les fichiers masqués**.
 
-3. Tapez ce qui suit dans la barre d’adresse de fichier Explorer : **C:\\Documents and Settings\\UserName\\les données d’Application\\Microsoft\\chiffrement\\RSA**, où ***nom_utilisateur*** est votre nom d’utilisateur Windows.
+3. Tapez les informations suivantes dans la barre d’adresses de l’Explorateur de fichiers : **C:\\Documents and Settings\\NomUtilisateur\\Application Data\\Microsoft\\Crypto\\RSA**, où ***NomUtilisateur*** est le nom de votre connexion à Windows.
 
-4. Supprimer n’importe quel dossier qui commence par le nom **S-1-5-21 -** suivi d’une chaîne de nombres.
+4. Supprimez tout dossier dont le nom commence par **S-1-5-21-**, suivi d’une chaîne de chiffres.
 
 ### <a name="modify-trustmodeldata-registry-keys"></a>Modifier les clés de Registre TrustModelData
 <a name="modify-trustmodeldata-registry"> </a>
 
-Lorsqu’un utilisateur se connecte pour la première fois, ils peuvent recevoir une boîte de dialogue qui contient les éléments suivants : **ne peut pas vérifier que le serveur est approuvé pour votre adresse de connexion. Quand même vous connecter ?** Il s’agit d’une fonctionnalité de sécurité et non une erreur. Toutefois, vous pouvez empêcher la boîte de dialogue à l’aide d’un objet de stratégie de groupe (GPO) pour mettre à jour les ordinateurs des utilisateurs avec votre nom de domaine avant de connecter pour la première fois. Pour ce faire, procédez comme suit :
+Quand un utilisateur se connecte pour la première fois, une boîte de dialogue peut afficher un message similaire à celui-ci : **Skype Entreprise ne peut pas vérifier que ce serveur est un serveur de confiance. Voulez-vous quand même vous connecter ?** Il s’agit d’une fonctionnalité de sécurité et non d’une erreur. Toutefois, vous pouvez éviter que cette boîte de dialogue s’affiche en utilisant un objet de stratégie de groupe pour mettre à jour l’ordinateur de l’utilisateur avec votre nom de domaine avant qu’il se connecte pour la première fois. Pour ce faire, procédez comme suit :
 
-- Créer et déployer une stratégie de groupe qui ajoute votre Skype pour le nom de domaine d’entreprise — par exemple, domainName.contoso.com—to la valeur actuelle de HKEY_LOCAL_MACHINE\\logiciel\\stratégies\\Microsoft\\Communicator\\ TrustModelData.
+- Créez et déployez un objet de stratégie de groupe qui ajoute votre nom de domaine Skype Entreprise (par exemple, NomDomaine.contoso.com) à la valeur actuelle de HKEY_LOCAL_MACHINE\\Software\\Policies\\Microsoft\\Communicator\\TrustModelData.
 
 > [!IMPORTANT]
->  Vous devez *Ajouter* votre nom de domaine à la valeur existante, pas simplement la remplacer.
+>  Vous devez *ajouter* votre nom de domaine à la valeur existante, pas simplement la remplacer.
 
-Pour plus d’informations, voir l’article de la Base de connaissances Microsoft 2531068, [que Skype pour les entreprises (Lync) ne peut pas vérifier que le serveur est approuvé pour votre adresse de connexion](https://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2531068).
+Pour plus d’informations, voir l’article 2531068 de la Base de connaissances Microsoft intitulé [Skype Entreprise (Lync) ne peut pas vérifier que le serveur est fiable pour votre adresse de connexion](https://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2531068).
 
-### <a name="update-user-settings-in-active-directory"></a>Mise à jour des paramètres utilisateur dans Active Directory
+### <a name="update-user-settings-in-active-directory"></a>Mettre à jour les paramètres utilisateur dans Active Directory
 <a name="update-user-settings"> </a>
 
-Si votre organisation a une installation précédente de Microsoft Office Communications Server ou Microsoft Lync Server 2010, vous a ne peut-être pas supprimé vos utilisateurs à partir du serveur avant de le désactiver. Par conséquent, l’attribut **msRTCSIP-UserEnabled** est toujours définie sur **FALSE** dans les Services de domaine Active Directory.
+Si votre organisation dispose d’une installation antérieure de Microsoft Office Communications Server ou de Microsoft Lync Server 2010, il est possible que vos utilisateurs n’aient pas été supprimés du serveur avant sa désaffectation. Dans ce cas, l’attribut **msRTCSIP-UserEnabled** est toujours défini sur **FALSE** dans Active Directory Domain Services.
 
 Pour résoudre ce problème, procédez comme suit :
 
-1. Mettre à jour l’attribut **msRTCSIP-UserEnabled** pour tous les utilisateurs affectés à **la valeur TRUE**.
+1. Mettez à jour l’attribut **msRTCSIP-UserEnabled** pour tous les utilisateurs affectés sur **TRUE**.
 
-2. Réexécutez l’outil de synchronisation de répertoire Microsoft Online Services (DirSync). Pour plus d’informations, consultez [AIntegrate votre site de répertoires avec Azure Active Directory](https://technet.microsoft.com/en-us/library/hh967642.aspx).
+2. Réexécutez Microsoft Online Services - Outil de synchronisation d'annuaires (DirSync). Pour plus de détails, voir [Intégrer vos annuaires locaux avec Azure Active Directory](https://technet.microsoft.com/fr-FR/library/hh967642.aspx).
 
-Pour résoudre les Skype pour les erreurs de connexion en ligne Business, démarrez en éliminant les causes les plus courantes des difficultés de connexion. Si nécessaire, vous pouvez alors suivre les étapes en fonction du type d’erreur de résolution spécifique. Si l’utilisateur toujours ne peut pas se connecter, recueillir des informations supplémentaires, puis demander une assistance supplémentaire.
-## <a name="use-the-microsoft-support-troubleshooting-guide"></a>Utiliser le guide de dépannage du Support de Microsoft
+Pour résoudre les erreurs de connexion à Skype Entreprise Online, commencez par éliminer les causes les plus courantes des problèmes de connexion. Si nécessaire, vous pouvez suivre des étapes de résolution spécifiques en fonction du type d’erreur. Si l’utilisateur ne parvient toujours pas à se connecter, recueillez des informations supplémentaires, puis recherchez une aide supplémentaire.
+## <a name="use-the-microsoft-support-troubleshooting-guide"></a>Utiliser le guide de résolution des problèmes du Support Microsoft
 <a name="toc325626447"> </a>
 
-Si vous n’êtes toujours pas en mesure de résoudre les problèmes de connexion de l’utilisateur, passez en revue les suggestions proposées dans l’article de la Base de connaissances Microsoft 2541980, [comment résoudre les problèmes de connexion dans Skype pour Business Online](https://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2541980).
+Si vous n’êtes toujours pas en mesure de résoudre les problèmes de connexion de l’utilisateur, consultez les suggestions présentées dans l’article 2541980 de la Base de connaissances Microsoft intitulé [Comment résoudre les problèmes de connexion dans Skype Entreprise Online](https://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2541980).
 
-## <a name="collect-more-information-and-seek-additional-help"></a>Recueillir plus d’informations et pour obtenir une assistance supplémentaire
+## <a name="collect-more-information-and-seek-additional-help"></a>Recueillir d’autres informations et rechercher de l’aide supplémentaire
 <a name="collect-more-information"> </a>
 
-Si vous avez suivi les instructions ci-dessus et toujours ne peut pas résoudre vos problèmes de connexion, vous devez recueillir des informations supplémentaires et contactez le support technique. Pour cela, procédez comme suit :
+Si vous avez suivi les conseils ci-dessus et ne parvenez toujours pas à résoudre les problèmes de connexion, vous devez recueillir des informations supplémentaires, puis contacter le support technique. Pour cela, procédez comme suit :
 
-1. Obtenir les fichiers journaux et les détails du journal des événements Windows à partir de l’ordinateur de l’utilisateur. Pour obtenir des instructions pas à pas, consultez la rubrique d’aide pour l’utilisateur final [Activer les journaux d’erreurs dans Lync](https://support.office.com/article/eaf6602b-95e0-4c27-869f-36017475806c).
+1. Obtenez les fichiers journaux et les informations du Journal d’événements Windows de l’ordinateur de l’utilisateur. Pour obtenir des instructions pas à pas, voir la rubrique d’aide destinée aux utilisateurs finaux [Activation de la journalisation des erreurs dans Skype Entreprise (Lync)](https://support.office.com/article/eaf6602b-95e0-4c27-869f-36017475806c).
 
-2. Envoyer les fichiers journaux et des informations détaillées sur l’erreur au support technique Microsoft.
+2. Envoyez les fichiers journaux et les informations détaillées sur l’erreur au Support technique Microsoft.
 
-Vous pouvez être invité à fournir des informations de diagnostic supplémentaires en installant le Microsoft Online Services Diagnostics et journalisation () prise en charge MOSDAL sur l’ordinateur de l’utilisateur concerné. Pour plus d’informations, voir [l’aide de la prise en charge MOSDAL](https://support.office.com/article/ddf1f52f-24a1-4675-abe0-141052c88b72).
+Vous serez peut-être invité à fournir des informations de diagnostic supplémentaires en installant le Kit de ressources de support Microsoft Online Services Diagnostic and Logging (MOSDAL) sur l’ordinateur de l’utilisateur concerné par le problème. Pour plus d’informations, voir [Utilisation du Kit de ressources de support MOSDAL](https://support.office.com/article/ddf1f52f-24a1-4675-abe0-141052c88b72).
 
-Pour résoudre les Skype pour les erreurs de connexion en ligne Business, démarrez en éliminant les causes les plus courantes des difficultés de connexion. Si nécessaire, vous pouvez alors suivre les étapes en fonction du type d’erreur de résolution spécifique. Si l’utilisateur toujours ne peut pas se connecter, recueillir des informations supplémentaires, puis demander une assistance supplémentaire.
+Pour résoudre les erreurs de connexion à Skype Entreprise Online, commencez par éliminer les causes les plus courantes des problèmes de connexion. Si nécessaire, vous pouvez suivre des étapes de résolution spécifiques en fonction du type d’erreur. Si l’utilisateur ne parvient toujours pas à se connecter, recueillez des informations supplémentaires, puis recherchez une aide supplémentaire.
 
-## <a name="related-topics"></a>Voir aussi
-[Configurer Skype Entreprise Online](set-up-skype-for-business-online.md)
+## <a name="related-topics"></a>Rubriques connexes
+[Configurer Skype entreprise Online](set-up-skype-for-business-online.md)
 
-[Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype](let-skype-for-business-users-add-skype-contacts.md)
+[Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype](let-skype-for-business-users-add-skype-contacts.md)
 
 
