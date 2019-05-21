@@ -5,28 +5,28 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/23/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.dep.DeployAIOIntro
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fe11d380-54c9-47e7-a676-02b9a59dc93f
-description: Pour commencer l’installation d’un Skype pour Business Server 2015 Standard Edition server qui contiendra le magasin Central de gestion et autres services colocalisés que vous sélectionnez, vous devez être connecté en tant que membre du groupe Administrateurs local sur le serveur qui sera devenir le serveur Standard Edition server. La page Préparer le serveur Standard Edition détaille les conditions requises pour l’installation initiale. L’ordinateur doit être membre du domaine dans lequel vous allez le déployer, et vous devez avoir réussi la préparation du schéma, de la forêt et du domaine pour votre forêt.
-ms.openlocfilehash: f8a5d3e5d77dcf81675d2e69b70e616614837ed4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Pour commencer l’installation d’un serveur Skype entreprise Server 2015 Standard Edition Server qui contient le magasin de gestion central et d’autres services colocalisés que vous sélectionnez, vous devez être connecté en tant que membre du groupe Administrateurs local sur le serveur qui sera devenir un serveur Standard Edition Server. La page Préparer le serveur Standard Edition détaille les conditions requises pour l’installation initiale. L’ordinateur doit être membre du domaine dans lequel vous allez le déployer, et vous devez avoir réussi la préparation du schéma, de la forêt et du domaine pour votre forêt.
+ms.openlocfilehash: cb8e370adc13d30d320aceb70218115991592257
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924856"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283618"
 ---
 # <a name="prepare-single-standard-edition-server-intro"></a>Préparer le serveur Standard Edition (introduction)
  
-Pour commencer l’installation d’un Skype pour Business Server 2015 Standard Edition server qui contiendra le magasin Central de gestion et autres services colocalisés que vous sélectionnez, vous devez être connecté en tant que membre du groupe Administrateurs local sur le serveur qui sera devenir le serveur Standard Edition server. La page **Préparer le serveur Standard Edition** détaille les conditions requises pour l’installation initiale. L’ordinateur doit être membre du domaine dans lequel vous allez le déployer, et vous devez avoir réussi la préparation du schéma, de la forêt et du domaine pour votre forêt.
+Pour commencer l’installation d’un serveur Skype entreprise Server 2015 Standard Edition Server qui contient le magasin de gestion central et d’autres services colocalisés que vous sélectionnez, vous devez être connecté en tant que membre du groupe Administrateurs local sur le serveur qui sera devenir un serveur Standard Edition Server. La page **Préparer le serveur Standard Edition** détaille les conditions requises pour l’installation initiale. L’ordinateur doit être membre du domaine dans lequel vous allez le déployer, et vous devez avoir réussi la préparation du schéma, de la forêt et du domaine pour votre forêt.
   
-Cette tâche particulière est conçue pour configurer un serveur Standard Edition comme premier serveur de votre infrastructure. Cela installe le magasin Central de gestion qui est SQL Server Express, sur le serveur Standard Edition server. Si vous disposez déjà d’un autre serveur Standard Edition ou d’un pool frontal déployé, vous devez cliquer sur **Annuler**.
+Cette tâche particulière est conçue pour configurer un serveur Standard Edition comme premier serveur de votre infrastructure. Cette tâche installe le magasin de gestion central, qui est SQL Server Express, sur le serveur Standard Edition Server. Si vous disposez déjà d’un autre serveur Standard Edition ou d’un pool frontal déployé, vous devez cliquer sur **Annuler**.
   
 > [!NOTE]
-> Après avoir complété cette tâche, vous installerez le Générateur de topologie (si elle n’avez pas déjà installé) et configurer votre document de topologie. Vous ne pouvez publier votre document de topologie jusqu'à ce que vous ayez un magasin Central de gestion disponible, ce qui est déployé en effectuant les tâches décrites dans cette rubrique. 
+> À l’issue de cette tâche, vous allez installer le générateur de topologie (si vous ne l’avez pas déjà installé) et configurer votre document topologique. Vous ne pouvez pas publier votre document topologique tant que vous n’avez pas de banque d’administration centrale disponible, qui est déployée en exécutant la tâche décrite dans cette rubrique. 
   
 

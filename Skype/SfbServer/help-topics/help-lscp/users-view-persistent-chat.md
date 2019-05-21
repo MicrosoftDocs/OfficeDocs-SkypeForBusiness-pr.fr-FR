@@ -1,51 +1,51 @@
 ---
-title: Afficher les utilisateurs de conversation permanente
+title: Utilisateurs affichage des discussions permanentes
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.UserViewPersistentChat
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c66c6689-28a2-4758-add1-0d0dff0d3eee
-description: Les membres du rôle CsPersistentChatAdministrator (administrateurs de conversation permanente) peuvent accorder des droits de gestionnaire de salle de conversation et des autorisations à d’autres utilisateurs et à eux-mêmes.
-ms.openlocfilehash: 5b9260de22caddf9724b5bf396a734a3e1790b70
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Les membres du rôle CsPersistentChatAdministrator (administrateurs de discussions permanentes) peuvent accorder des droits et des autorisations du gestionnaire de la salle de conversation à d’autres utilisateurs et à eux-mêmes.
+ms.openlocfilehash: 635c02a4f54f421a6daa2594f0187d1bad92d3b6
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33923804"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34275806"
 ---
 # <a name="users-view-persistent-chat"></a>Utilisateurs : afficher la conversation permanente
 
-Les membres du rôle **CsPersistentChatAdministrator** (administrateurs de conversation permanente) peuvent accorder des droits de gestionnaire de salle de conversation et des autorisations à d’autres utilisateurs et à eux-mêmes.
+Les membres du rôle **CsPersistentChatAdministrator** (administrateurs de discussions permanentes) peuvent accorder des droits et des autorisations du gestionnaire de la salle de conversation à d’autres utilisateurs et à eux-mêmes.
 
-Un administrateur de conversation permanente peut procédez comme suit :
+Un administrateur de chat permanent peut procéder comme suit:
 
-- Créer des catégories de salle et des salles de conversation.
+- Créer des catégories de salles et des salles de conversation.
 
-- Définir l’appartenance de toutes les catégories et salles de conversation.
+- Définissez l’appartenance de toutes les catégories et de salles de conversation.
 
-- Gérer tous les paramètres de toutes les catégories et salles de conversation.
+- Gestion de tous les paramètres de toutes les catégories et salles de conversation.
 
-- Activer ou désactiver la stratégie pour le serveur de conversation permanente.
+- Activez ou désactivez la stratégie pour le serveur de chat permanent.
 
-- Définir et gérer les paramètres de configuration sur un pool de serveurs de conversation permanente.
+- Définissez et gérez les paramètres de configuration sur un pool de serveurs de chat permanent.
 
-Pour plus d’informations, voir [Adding a Persistent Chat Administrator](https://technet.microsoft.com/library/c107eb20-4e58-4463-b4f9-63fb5b1d9534.aspx) dans la documentation de déploiement.
+Pour plus d’informations, reportez-vous à [Ajouter un administrateur de chat permanent](https://technet.microsoft.com/library/c107eb20-4e58-4463-b4f9-63fb5b1d9534.aspx) dans la documentation de déploiement.
 
 ## <a name="tasks-that-you-can-perform"></a>Tâches que vous pouvez effectuer
 
-Vous pouvez effectuer les tâches suivantes sur le **utilisateurs : afficher la conversation permanente** page :
+Vous pouvez effectuer les tâches suivantes sur la page **utilisateurs: afficher une conversation persistante** :
 
-- [Permettre à un utilisateur gérer les catégories, salles de conversation et les autorisations et droits d’utilisateur](https://technet.microsoft.com/library/6c551be3-bc74-4d0e-9008-ddfabd86e940.aspx)
+- [Activation d’un utilisateur pour gérer des catégories, des salles de conversation et des droits d’utilisateur et des autorisations](https://technet.microsoft.com/library/6c551be3-bc74-4d0e-9008-ddfabd86e940.aspx)
 
 - [Understanding Persistent Chat Membership](https://technet.microsoft.com/library/900392d6-6e9f-4dae-93d6-39d7474409ef.aspx)
 
-Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide de la Skype pour le panneau de configuration serveur Business, voir [Gérer les Skype pour Business Server 2015](../../manage/manage.md).
+Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du panneau de configuration Skype entreprise Server, reportez-vous à la rubrique [gestion de Skype entreprise server 2015](../../manage/manage.md).
 
 

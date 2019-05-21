@@ -1,10 +1,10 @@
 ---
-title: La qualité de l’expérience (QoE) données créer une nouvelle ou modifier une existant
+title: Données de qualité de l’environnement (QoE) créer une nouvelle ou modifier des données existantes
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.MonArchQoeEdit
@@ -13,24 +13,24 @@ localization_priority: Normal
 ms.assetid: 19d34703-be01-4969-9eae-9d107d7b3408
 ROBOTS: NOINDEX, NOFOLLOW
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: 727073dc443452453f86b53b4618f770e67976e2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 87fc556b03a046f5e7651f7ce4149cc84dc6a602
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33891172"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291956"
 ---
 # <a name="quality-of-experience-qoe-data-create-new-or-edit-existing"></a>Données de qualité de l’expérience (QoE) : en créer d’autres ou en modifier des existantes
  
 Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
   
-- [Activer la qualité de l’expérience dans Skype pour Business Server](../../../manage/health-and-monitoring/enable-qoe.md)
+- [Profitez d’une qualité d’expertise dans Skype entreprise Server](../../../manage/health-and-monitoring/enable-qoe.md)
     
-- [Modifier les paramètres de qualité de l’expérience dans Skype pour Business Server](../../../manage/health-and-monitoring/modify-qoe-settings.md)
+- [Modification des paramètres de qualité de l’expertise dans Skype entreprise Server](../../../manage/health-and-monitoring/modify-qoe-settings.md)
     
-- [Créer des paramètres de configuration de la qualité de l’expérience dans Skype pour Business Server](../../../manage/health-and-monitoring/create-qoe-configuration-settings.md)
+- [Créer des paramètres de configuration de qualité de l’interface dans Skype entreprise Server](../../../manage/health-and-monitoring/create-qoe-configuration-settings.md)
     
-- [Supprimer les paramètres de configuration de la qualité de l’expérience dans Skype pour Business Server](../../../manage/health-and-monitoring/delete-qoe-configuration-settings.md)
+- [Supprimer les paramètres de configuration de qualité de l’interface dans Skype entreprise Server](../../../manage/health-and-monitoring/delete-qoe-configuration-settings.md)
     
  
 

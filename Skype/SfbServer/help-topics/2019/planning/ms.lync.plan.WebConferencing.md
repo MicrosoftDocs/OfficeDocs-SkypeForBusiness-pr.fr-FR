@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.plan.WebConferencing
@@ -13,29 +13,29 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4e4425c1-4a7b-4706-a4cd-155fd903acd5
 ROBOTS: NOINDEX, NOFOLLOW
-description: Skype pour les conférences web Business Server inclut la collaboration sur des documents, partage d’application et le partage du bureau.
-ms.openlocfilehash: 41f39dbe2fe5bec4f177729e5d24d303a87183dc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Skype entreprise Server Web Conferencing inclut la collaboration sur des documents, le partage d’application et le partage de bureau.
+ms.openlocfilehash: 51e06fa3913eca972f3ce146b344a748a07419e9
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33889275"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34284598"
 ---
 # <a name="web-conferencing-planning-tool"></a>Web Conferencing (Planning Tool)
  
-Skype pour les conférences web Business Server inclut la collaboration sur des documents, partage d’application et le partage du bureau.
+Skype entreprise Server Web Conferencing inclut la collaboration sur des documents, le partage d’application et le partage de bureau.
   
 > [!NOTE]
-> Skype pour Business Server utilise Office Web Apps et Office Web Apps Server pour gérer le partage et le rendu des présentations PowerPoint. Fonctionnalités de conférence Web fonctionnent exactement comme ils le font dans Microsoft Lync 2013. Pour plus d’informations sur l’installation et la configuration du serveur Office Web Apps Server, voir [Configuring l’intégration avec Office Web Apps Server et Lync Server 2013](https://technet.microsoft.com/en-us/library/jj204792%28v=ocs.15%29.aspx). 
+> Skype entreprise Server utilise Office Web Apps et Office Web Apps Server pour gérer le partage et le rendu des présentations PowerPoint. Les fonctionnalités de conférences Web fonctionnent exactement de la même manière que dans Microsoft Lync 2013. Pour plus d’informations sur l’installation et la configuration d’Office Web Apps Server, reportez-vous à la rubrique [configuration de l’intégration avec Office Web Apps Server et Lync Server 2013](https://technet.microsoft.com/en-us/library/jj204792%28v=ocs.15%29.aspx). 
   
 Pour des informations sur la planification de l’activation de la conférence web dans votre organisation, voir les rubriques suivantes : 
   
-- [Planifier des conférences dans Skype Business Server](../../../plan-your-deployment/conferencing/conferencing.md)
+- [Planifier des conférences dans Skype entreprise Server](../../../plan-your-deployment/conferencing/conferencing.md)
     
-- [Configuration matérielle et logicielle requise pour la conférence dans Skype pour Business Server](../../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)
+- [Configuration matérielle et logicielle requise pour les conférences dans Skype entreprise Server](../../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)
     
-- [Planifier des conférences rendez-vous dans Skype Business Server](../../../plan-your-deployment/conferencing/dial-in-conferencing.md)
+- [Planifier la Conférence rendez-vous dans Skype entreprise Server](../../../plan-your-deployment/conferencing/dial-in-conferencing.md)
     
-- [Planifier des réunions de grande taille dans Skype pour Business Server](../../../plan-your-deployment/conferencing/large-meetings.md)
+- [Planifier des réunions de grande envergure dans Skype entreprise Server](../../../plan-your-deployment/conferencing/large-meetings.md)
     
 

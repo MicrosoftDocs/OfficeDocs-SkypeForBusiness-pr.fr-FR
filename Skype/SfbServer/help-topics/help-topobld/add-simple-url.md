@@ -5,32 +5,32 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AddSimpleUrlPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 202b9fa2-41ab-4c86-a283-ebc8dece7ddf
-description: Pour ajouter des URL simples supplémentaires à la définition du déploiement, spécifiez l’URL de la nouvelle URL simple.
-ms.openlocfilehash: 0b2d6331fe23b82618d00e3761949c911bc6c46f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Pour ajouter d’autres URL simples à la définition du déploiement, spécifiez l’URL de la nouvelle URL simple.
+ms.openlocfilehash: 53d5e4a59d14e0082a4de40a55a3a05d9ac926d1
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33897442"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34275835"
 ---
 # <a name="add-simple-url"></a>Ajouter une URL simple
  
-Pour ajouter des URL simples supplémentaires à la définition du déploiement, spécifiez l’URL de la nouvelle URL simple. Le format de l’URL est http:// _\<type d’URL simple\>.\< nom de domaine\> _ ou _http://\<nom de domaine\>/\<type d’URL simple\>_, où le type d’URL simple est une des opérations suivantes :
+Pour ajouter d’autres URL simples à la définition du déploiement, spécifiez l’URL de la nouvelle URL simple. Le format de l’URL est _http://\<simple URL type\>.\< \> nom de domaine_ ou _\<type\>d'\>URL simple de/\<nom de domaine http://_, où le type d’URL simple est l’un des éléments suivants:
   
-- Répondre à
+- Correspondre
     
-- Effectuer un appel entrant
+- Composer un numéro
     
 > [!IMPORTANT]
-> Vous pouvez avoir accès une à URL simple et une URL simple Meet active à tout moment. Ajout d’une nouvelle URL simple et rend l’URL active définira toutes les futures demandes à utiliser la nouvelle URL simple. Vous laissez l’URL simple inactive pour gérer les conférences et autres demandes qui ont été effectuées lors de l’ancienne URL simple active. 
+> Vous pouvez avoir un numéro de téléphone simple et un simple URL active à tout moment. L’ajout d’une nouvelle URL et la création d’une URL active entraînent la définition de toutes les demandes futures concernant l’utilisation de la nouvelle URL simple. Vous conservez l’URL simple non active pour gérer les conférences et autres requêtes qui ont été effectuées lorsque l’ancienne URL est active. 
   
-Pour plus d’informations sur l’ajout d’une URL simple, consultez [enregistrements DNS requis pour les URL simples dans Skype pour Business Server 2015](../../plan-your-deployment/network-requirements/simple-urls.md).
+Pour plus d’informations sur l’ajout d’une URL simple, voir [configuration DNS requise pour les URL simples dans Skype entreprise Server 2015](../../plan-your-deployment/network-requirements/simple-urls.md).
   
 

@@ -5,28 +5,28 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.VoiceUsageSelRoute
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d136adcd-6659-4113-941c-cca75033318e
-description: Utilisez la boîte de dialogue Sélectionner des itinéraires pour trouver des itinéraires existants que vous pouvez utiliser.
-ms.openlocfilehash: 04de6f02a70c210ce7e4e89198bd1e6813421e60
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Utilisez la boîte de dialogue Sélectionner des itinéraires pour rechercher des itinéraires vocaux existants que vous pouvez utiliser.
+ms.openlocfilehash: c755c27b79c8e9d6c9772eb1ff7a05c682186d50
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924499"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34293339"
 ---
 # <a name="select-routes"></a>Sélectionner des itinéraires
  
-Utilisez la boîte de dialogue **Sélectionner des itinéraires** pour trouver des itinéraires existants que vous pouvez utiliser.
+Utilisez la boîte de dialogue **Sélectionner des itinéraires** pour rechercher des itinéraires vocaux existants que vous pouvez utiliser.
   
 > [!NOTE]
-> Pour récupérer tous les itinéraires de communications vocales disponibles, ne pas tapez rien dans la zone de recherche et puis cliquez sur l’icône de recherche. 
+> Pour récupérer tous les itinéraires vocaux disponibles, n’entrez rien dans la zone de recherche, puis cliquez sur l’icône Rechercher. 
   
-Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide de la Skype pour le panneau de configuration serveur Business, voir [Gérer les Skype pour Business Server 2015](../../manage/manage.md).
+Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du panneau de configuration Skype entreprise Server, reportez-vous à la rubrique [gestion de Skype entreprise server 2015](../../manage/manage.md).
   
 

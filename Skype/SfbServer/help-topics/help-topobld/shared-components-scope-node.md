@@ -5,36 +5,36 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.SharedComponentsScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dc8238a0-24aa-47a0-b871-4465ada1761e
-description: Vous avec le bouton droit cliquez sur composants partagés dans l’arborescence du Générateur de topologie pour créer des composants partagés ou pour accéder aux options au niveau de la topologie.
-ms.openlocfilehash: b959fae1eb2aca48fa29abc817c787b6df736ba5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Vous pouvez cliquer avec le bouton droit sur composants partagés dans l’arborescence de hiérarchie du générateur de topologie pour créer de nouveaux composants partagés ou accéder aux options de niveau topologique.
+ms.openlocfilehash: 019609145621a882da632aa945623ca49822cf33
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33910241"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291370"
 ---
 # <a name="shared-components-scope-node"></a>Nœud d’étendue des composants partagés
  
-Vous avec le bouton droit cliquez sur **Composants partagés** dans l’arborescence du Générateur de topologie pour créer des composants partagés ou pour accéder aux options au niveau de la topologie.
+Vous pouvez cliquer avec le bouton droit sur **composants partagés** dans l’arborescence de hiérarchie du générateur de topologie pour créer de nouveaux composants partagés ou accéder aux options de niveau topologique.
   
 ![Nœud d’étendue des composants partagés](../../media/Shared_Components_Scope_Node.jpg)
   
-Sélectionnez **Nouveau** pour créer un magasin de fichiers, une nouvelle passerelle IP/PSTN, un nouveau serveur Office Web Apps Server, un nouveau magasin SQL Server ou une nouvelle jonction.
+Sélectionnez **nouveau** pour créer un nouveau emplacement de stockage, une nouvelle passerelle IP/PSTN, un nouveau serveur Office Web Apps, un nouveau SQL Server Store ou un nouveau Trunk.
   
 > [!NOTE]
-> Voir les rubriques d’aide pour chacune de ces options. 
+> Consultez les rubriques d’aide pour chacune de ces options. 
   
 ![Nœud d’étendue des composants partagés](../../media/Shared_Components_Scope_NodeB.jpg)
   
-Vous sélectionnez la **topologie** sur options pour ouvrir un nouveau document de topologie. Ouvrez un document de topologie existant, télécharger la topologie actuelle à partir du magasin Central de gestion, enregistrer une copie du document actif de la topologie, publier le document actif de la topologie, installez la base de données pour créer les configurations de base de données actuellement configurée, Fusionner Office Communications Server 2007 R2 dans le déploiement actuel ou pour supprimer le déploiement.
+Sélectionnez **topologie** pour cliquer sur options pour ouvrir un nouveau document topologique. Ouvrez un document de topologie existant, téléchargez la topologie actuelle à partir de la boutique de gestion centrale, enregistrez une copie du document de topologie actuel, publiez le document de topologie actuel, puis enregistrez la base de données pour créer les configurations de base de données actuellement configurées. Vous pouvez fusionner Office Communications Server 2007 R2 dans le déploiement actuel ou supprimer le déploiement.
   
-![Shared nœud d’étendue des composants C](../../media/Shared_Components_Scope_NodeC.jpg)
+![Nœud d’étendue des composants partagés C](../../media/Shared_Components_Scope_NodeC.jpg)
   
 

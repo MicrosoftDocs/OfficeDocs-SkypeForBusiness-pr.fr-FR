@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/25/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.FileStoresScopeNode
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9d88f69d-8641-4405-a26d-99414af679a5
 description: 'Le nœud Magasins de fichiers répertorie les magasins de fichiers de votre topologie. Vous pouvez effectuer l’action suivante :'
-ms.openlocfilehash: da39e2d56a86ce232464e0156a9b97e86f305ccb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a7a16af15d2fa35efac23fd4a36d16f7a91137db
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33888708"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34284416"
 ---
 # <a name="file-stores-scope-node"></a>Nœud d’étendue des magasins de fichiers
  

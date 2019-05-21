@@ -5,28 +5,28 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 8/19/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.OfficeWebAppsServerSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7a4b91ff-ca11-4dde-852d-ec51d143968a
-description: 'Vous modifiez les propriétés du serveur Office Web Apps configuré. Les propriétés suivantes sont disponibles pour modifier :'
-ms.openlocfilehash: 8b64060cd3e51dbe8fe8398137c3fc323cd9daa2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Vous modifiez les propriétés du serveur Office Web Apps configuré. Vous pouvez modifier les propriétés suivantes:'
+ms.openlocfilehash: 103a8dd42833fe66e0c439d441427d4fb67c6f8b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924429"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34284549"
 ---
 # <a name="edit-office-web-apps-server-settings"></a>Modifier les paramètres Office Web Apps Server
 
-Vous modifiez les propriétés du serveur Office Web Apps configuré. Les propriétés suivantes sont disponibles pour modifier :
+Vous modifiez les propriétés du serveur Office Web Apps configuré. Vous pouvez modifier les propriétés suivantes:
 
- **Nom de domaine complet de Office Web Apps Server**: cette propriété définit le nom de domaine complet du serveur Office Web Apps et doit correspondre à un système de nom de domaine (DNS) hôte A ou AAAA (si IPv6 est utilisé) enregistrement.
+ Nom de domaine **complet (FQDN) Office Web Apps Server**: cette propriété définit le nom de domaine complet du serveur Office Web Apps et doit correspondre à un enregistrement DNS (Domain Name System) ou AAAA (si le protocole IPv6 est utilisé).
 
- **URL de découverte d’Office Web Apps Server**: l’uniform resource locator (URL) pour l’accès client au serveur Office Web Apps, vous devrez peut-être modifier cette adresse à partir de sa valeur par défaut si le serveur est placé dans une autre zone réseau autre que le réseau interne de votre déploiement.
+ **URL de découverte d’Office Web Apps Server**: l’URL (Uniform Resource Locator) pour l’accès client au serveur Office Web Apps, il est possible que vous deviez modifier cette adresse de sa valeur par défaut si le serveur est placé à l’intérieur d’une autre zone réseau autre que le réseau interne de votre développement.
 
 Activez la case à cocher **Le serveur Office Web Apps Server est déployé sur un réseau externe (périmètre/Internet)** si le serveur est déployé dans le réseau de votre périmètre ou dans une autre zone réseau qui se situe à l’extérieur de votre pare-feu interne séparant le réseau de périmètre, les réseaux moyennement fiables et Internet de votre déploiement interne.
 

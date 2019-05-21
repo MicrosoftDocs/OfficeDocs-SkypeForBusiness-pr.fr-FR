@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.HybridSetupWizard
@@ -12,16 +12,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c8600c4e-dc54-4af2-a72e-c1b997d83443
 ROBOTS: NOINDEX, NOFOLLOW
-description: Vous pouvez utiliser l’Assistant de la gestion hybride pour effectuer certaines tâches de configuration nécessaires pour configurer un déploiement hybride avec Skype pour Business Online. Pour plus d’informations sur la configuration de votre déploiement hybride, consultez Configurer votre environnement avec l’Assistant de la gestion hybride.
-ms.openlocfilehash: 27335da50b38488b4fbdb7beabfae243a32f5533
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Vous pouvez utiliser l’Assistant gestion hybride pour effectuer certaines des tâches de configuration nécessaires pour configurer un déploiement hybride avec Skype entreprise online. Pour plus d’informations sur la façon de configurer votre déploiement pour une utilisation hybride, voir Configurer votre environnement avec l’Assistant gestion hybride.
+ms.openlocfilehash: 0d311f8d29f2e530822d399417270171503a8699
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33891466"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34292954"
 ---
 # <a name="hybrid-manageability-wizard"></a>Assistant de facilité de gestion hybride
 
-Vous pouvez utiliser l’Assistant de la gestion hybride pour effectuer certaines tâches de configuration nécessaires pour configurer un déploiement hybride avec Skype pour Business Online. Pour plus d’informations sur la configuration de votre déploiement hybride, consultez [configurer votre environnement avec l’Assistant de la gestion hybride](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx).
+Vous pouvez utiliser l’Assistant gestion hybride pour effectuer certaines des tâches de configuration nécessaires pour configurer un déploiement hybride avec Skype entreprise online. Pour plus d’informations sur la façon de configurer votre déploiement pour une utilisation hybride, voir [configurer votre environnement avec l’Assistant gestion hybride](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx).
 
 

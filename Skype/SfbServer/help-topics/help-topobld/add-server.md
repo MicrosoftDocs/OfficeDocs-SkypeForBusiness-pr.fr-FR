@@ -5,70 +5,70 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AddMachinePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 61647eac-9062-4381-9c80-3cbf70b7db33
-description: 'Pour ajouter un nouveau serveur à un pool existant de serveurs, où le pool est une des opérations suivantes :'
-ms.openlocfilehash: 4ec03d28f71dffbeaa4b06594bd634e80e522665
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Pour ajouter un nouveau serveur à un pool de serveurs existant, où le pool est l’un des éléments suivants:'
+ms.openlocfilehash: 32033d7d758528fc925c5c228971c040828bd654
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33897323"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290505"
 ---
 # <a name="add-server"></a>Ajouter un serveur
  
-Pour ajouter un nouveau serveur à un pool existant de serveurs, où le pool est une des opérations suivantes :
+Pour ajouter un nouveau serveur à un pool de serveurs existant, où le pool est l’un des éléments suivants:
   
-- Enterprise Edition Server frontal
+- Serveur frontal d’Enterprise Edition
     
-- Serveur directeur
+- Serveur Director
     
 - serveur de médiation
     
-- Serveur de conférence audio/vidéo
+- Serveur de visioconférence audio/vidéo
     
-- Serveur d’applications approuvées
+- Serveur d’applications de confiance
     
-Chacun des nouveaux serveurs de pool a des exigences différentes. Dans les sections suivantes, recherchez le type de serveur que vous ajoutez au pool existant et fournit les informations demandées telle qu’elle est définie pour chaque type de serveur. Vous fournir les informations demandées pour définir le nouveau serveur du pool.
+Chacun des nouveaux serveurs de pools a des exigences différentes. Dans les sections suivantes, recherchez le type de serveur que vous ajoutez au pool existant, puis fournissez les informations demandées comme il est défini pour chaque type de serveur. Vous fournissez les informations demandées pour définir le nouveau serveur du pool.
   
- **Enterprise Edition Server frontal**
+ **Serveur frontal d’Enterprise Edition**
   
-- Domaine nom complet (FQDN) du nouveau serveur tel qu’il est défini dans le système DNS (Domain Name System).
+- Nom de domaine complet (FQDN) du nouveau serveur, tel qu’il est défini dans DNS (Domain Name System).
     
-- Sélectionnez **utiliser toutes les adresses IP**, ce qui signifie que n’importe quelle adresse IP définie sur l’ordinateur peut être utilisée. Sinon, vous pouvez sélectionner **limiter l’utilisation de service pour les adresses IP sélectionnées** et entrez une adresse spécifique sur le nouveau serveur. L’adresse IP saisie est la seule adresse IP qui répondra pour les services hébergés.
+- Sélectionnez **utiliser toutes les adresses IP configurées**, ce qui signifie que toute adresse IP définie sur l’ordinateur peut être utilisée. Vous pouvez également sélectionner **limiter l’utilisation du service aux adresses IP sélectionnées** et entrer une adresse particulière sur le nouveau serveur. L’adresse IP entrée est la seule adresse IP qui répond aux services hébergés.
     
-- Définir une **adresse IP PSTN** lorsqu’un serveur de médiation est colocalisé sur le serveur frontal.
+- Définissez une **adresse IP RTC** quand un serveur de médiation est colocalisé sur le serveur frontal.
     
-- Sélectionnez **Activer IPv6** pour activer IPv6 pour ce serveur.
+- Sélectionnez **activer IPv6** pour activer le protocole IPv6 pour ce serveur.
     
-  **Serveur directeur**
+  **Serveur Director**
   
-- Le nom de domaine complet du nouveau serveur tel qu’il est défini dans DNS.
+- Nom de domaine complet du nouveau serveur tel qu’il est défini dans DNS.
     
-- Sélectionnez **utiliser toutes les adresses IP**, ce qui signifie que n’importe quelle adresse IP définie sur l’ordinateur est utilisé. Vous pouvez également vous sélectionnez **limiter l’utilisation de service pour les adresses IP sélectionnées** et entrez une adresse IP spécifique sur le nouveau serveur. L’adresse IP saisie est la seule adresse IP qui répondra pour les services hébergés.
+- Activez l’option **utiliser toutes les adresses IP configurées**, ce qui signifie que toute adresse IP définie sur l’ordinateur sera utilisée. Vous pouvez également sélectionner **limiter l’utilisation du service aux adresses IP sélectionnées** et entrer une adresse IP particulière sur le nouveau serveur. L’adresse IP entrée est la seule adresse IP qui répond aux services hébergés.
     
   **Serveur de médiation**
   
-- Le nom de domaine complet du nouveau serveur tel qu’il est défini dans DNS.
+- Nom de domaine complet du nouveau serveur tel qu’il est défini dans DNS.
     
-- Sélectionnez **utiliser toutes les adresses IP**, ce qui signifie que n’importe quelle adresse IP définie sur l’ordinateur peut être utilisée. Vous pouvez également vous sélectionnez **limiter l’utilisation de service pour les adresses IP sélectionnées** et entrez une adresse IP spécifique sur le nouveau serveur en tant que l’adresse IP principale et une adresse IP pour l’adresse IP du réseau téléphonique commuté public entrée. Les adresses IP entrées sont la seule adresse IP qui répondra pour les services désignés.
+- Sélectionnez **utiliser toutes les adresses IP configurées**, ce qui signifie que toute adresse IP définie sur l’ordinateur peut être utilisée. Vous pouvez également sélectionner **limiter l’utilisation du service aux adresses IP sélectionnées** et entrer une adresse IP particulière sur le nouveau serveur en tant qu’adresse IP principale et entrer une adresse IP pour l’adresse IP du réseau téléphonique public commuté (RTC). Les adresses IP entrées sont la seule adresse IP qui répond aux services désignés.
     
     > [!NOTE]
-    > Le serveur de médiation, l’adresse IP entrée pour l’adresse IP principale et l’adresse IP PSTN est le même par défaut. Les adresses IP peuvent être définies séparément si vous utilisez les interfaces réseau dédié ou des adresses IP séparées sur la même interface réseau. Si vous avez des interfaces réseau deux, l’autre pour la connexion au réseau local et l’autre pour la connexion PSTN, vous devez assigner des adresses IP différentes. 
+    > Pour le serveur de médiation, l’adresse IP entrée pour l’adresse IP principale et l’adresse IP RTC est identique par défaut. Les adresses IP peuvent être définies séparément si vous utilisez des interfaces réseau dédiées ou des adresses IP distinctes sur la même interface réseau. Si vous avez deux interfaces réseau, une pour la connexion réseau locale et une pour la connexion RTC, vous devez attribuer des adresses IP différentes. 
   
-  **Serveur de conférence audio/vidéo**
+  **Serveur de visioconférence audio/vidéo**
   
-- Le nom de domaine complet du nouveau serveur tel qu’il est défini dans DNS.
+- Nom de domaine complet du nouveau serveur tel qu’il est défini dans DNS.
     
-- Sélectionnez **utiliser toutes les adresses IP**, ce qui signifie que n’importe quelle adresse IP définie sur l’ordinateur peut être utilisée. Sinon, vous pouvez sélectionner **limiter l’utilisation de service pour les adresses IP sélectionnées** et entrez une adresse spécifique sur le nouveau serveur. L’adresse IP saisie est la seule adresse IP qui répondra pour les services hébergés.
+- Sélectionnez **utiliser toutes les adresses IP configurées**, ce qui signifie que toute adresse IP définie sur l’ordinateur peut être utilisée. Vous pouvez également sélectionner **limiter l’utilisation du service aux adresses IP sélectionnées** et entrer une adresse particulière sur le nouveau serveur. L’adresse IP entrée est la seule adresse IP qui répond aux services hébergés.
     
-  **Serveur d’applications approuvées**
+  **Serveur d’applications de confiance**
   
-- Le nom de domaine complet du nouveau serveur tel qu’il est défini dans DNS.
+- Nom de domaine complet du nouveau serveur tel qu’il est défini dans DNS.
     
 

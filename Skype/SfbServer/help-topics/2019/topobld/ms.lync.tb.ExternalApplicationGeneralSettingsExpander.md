@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.ExternalApplicationGeneralSettingsExpander
@@ -12,19 +12,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aa7268ac-b9e3-4d25-bff4-e59d305120f2
 ROBOTS: NOINDEX, NOFOLLOW
-description: Pour modifier les propriétés d’un serveur d’applications approuvées qui a déjà été défini, suivez ces instructions.
-ms.openlocfilehash: 0053fbe7e7bc2604bccb4bdac70a467daf792a6f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Pour modifier les propriétés d’un serveur d’application de confiance qui a déjà été défini, suivez les instructions ci-dessous.
+ms.openlocfilehash: 96118d968a5c9fdf54a78df24019426e562220dd
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33910769"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34292779"
 ---
 # <a name="external-application-general-settings-expander"></a>Développeur des paramètres généraux d’une application externe
  
-Pour modifier les propriétés d’un serveur d’applications approuvées qui a déjà été défini, suivez ces instructions.
+Pour modifier les propriétés d’un serveur d’application de confiance qui a déjà été défini, suivez les instructions ci-dessous.
   
-Il existe deux sections que vous pouvez modifier :
+Vous pouvez modifier deux sections:
   
 > Paramètres généraux
 > 
@@ -32,13 +32,13 @@ Il existe deux sections que vous pouvez modifier :
     
 ## <a name="general-settings"></a>Paramètres généraux
 
-Vous pouvez modifier le nom de domaine complet (FQDN) actuel pour le pool de serveurs d’applications approuvées. Modifiez le nom du pool de nom de domaine complet. Les enregistrements d’hôte (A) de nom de domaine DNS (Domain Name System) doivent exister pour que la nouvelle entrée avant de clients ou serveurs peuvent se connecter par le nouveau nom du pool.
+Vous pouvez modifier l’actuel nom de domaine complet (FQDN) du pool de serveurs d’applications de confiance. Modifiez le nom du nom de domaine complet (FQDN) du pool. Les enregistrements d’hôte DNS (Domain Name System) doivent exister pour la nouvelle entrée avant qu’un client ou un serveur puisse se connecter au nouveau nom du pool.
   
-Si vous avez besoin pour que la réplication des données de configuration pour ce pool, sélectionnez **Activer la réplication des données de configuration pour ce pool** . Désactivez la case à cocher si vous ne souhaitez pas répliquer les données de configuration.
+Pour pouvoir répliquer les données de configuration vers ce pool, sélectionnez **activer la réplication des données de configuration** . Supprimez la coche si vous ne souhaitez pas répliquer les données de configuration.
   
-## <a name="next-hop-settings"></a>Paramètres du tronçon suivant
+## <a name="next-hop-settings"></a>Paramètres de saut suivant
 
-Vous pouvez spécifier le serveur du tronçon suivant du pool serveur d’applications approuvées en sélectionnant le pool frontal Enterprise Edition ou Standard Edition serveur frontal dans la liste déroulante. Un directeur ou un directeur pool n’est pas une sélection valide pour une application approuvée tronçon suivant du serveur et n’apparaît pas dans la liste.
+Dans la liste déroulante, vous pouvez spécifier le serveur tronçon suivant du pool de serveurs d’applications de confiance en sélectionnant le serveur frontal Enterprise Edition défini dans la liste déroulante. Un réalisateur ou un pool de réalisateurs n’est pas une sélection valide pour le tronçon suivant d’un serveur d’applications de confiance et n’apparaîtra pas dans la liste.
   
 
 Cliquez sur **OK** pour accepter et enregistrer vos modifications. Cliquez sur **Annuler** pour annuler les modifications et quitter la page des propriétés.

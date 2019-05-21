@@ -1,30 +1,30 @@
 ---
-title: Appliquer une stratégie d’archivage pour les utilisateurs de Skype pour Business Server
+title: Appliquer une stratégie d’archivage aux utilisateurs de Skype entreprise Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bebd45d1-93c3-4e80-8933-755b699b2209
-description: 'Résumé : Découvrez comment attribuer une stratégie d’archivage pour les utilisateurs de Skype pour Business Server.'
-ms.openlocfilehash: 4375aa593b106283042d89413aa65a5eed707bbb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Résumé: Découvrez comment attribuer une stratégie d’archivage aux utilisateurs de Skype entreprise Server.'
+ms.openlocfilehash: 895a7fac34fcac0a4a7e39756796f6b7d2fc6377
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33903157"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34282048"
 ---
-# <a name="apply-an-archiving-policy-to-users-in-skype-for-business-server"></a>Appliquer une stratégie d’archivage pour les utilisateurs de Skype pour Business Server
+# <a name="apply-an-archiving-policy-to-users-in-skype-for-business-server"></a>Appliquer une stratégie d’archivage aux utilisateurs de Skype entreprise Server
 
-**Résumé :** Découvrez comment attribuer une stratégie d’archivage pour les utilisateurs de Skype pour Business Server.
+**Résumé:** Découvrez comment attribuer une stratégie d’archivage aux utilisateurs de Skype entreprise Server.
   
-Si vous avez créé un ou plusieurs stratégies d’utilisateur pour l’archivage pour les utilisateurs hébergement sur Skype pour Business Server, vous pouvez implémenter la prise en charge d’archivage pour des utilisateurs spécifiques en appliquant les stratégies appropriées pour ces utilisateurs ou de groupes d’utilisateurs. Par exemple, si vous créez une stratégie pour prendre en charge l’archivage des communications internes, vous pouvez l’appliquer au moins un utilisateur ou groupe d’utilisateurs pour prendre en charge l’archivage de Skype l’utilisateur pour les communications de serveur d’entreprise.
+Si vous avez créé une ou plusieurs stratégies utilisateur pour l’archivage pour les utilisateurs hébergés sur Skype entreprise Server, vous pouvez implémenter la prise en charge de l’archivage pour des utilisateurs spécifiques en appliquant les stratégies appropriées à ces utilisateurs ou groupes d’utilisateurs. Par exemple, si vous créez une stratégie pour la prise en charge de l’archivage des communications internes, vous pouvez l’appliquer à au moins un utilisateur ou groupe d’utilisateurs pour la prise en charge de l’archivage des communications Skype entreprise Server de l’utilisateur.
   
 > [!NOTE]
-> Si vous avez activé l’intégration de Microsoft Exchange pour votre déploiement, le contrôle de stratégies de blocage sur Place Exchange si l’archivage est activé pour les utilisateurs qui sont hébergés sur Exchange et mettre les boîtes aux lettres en blocage sur Place. Pour plus d’informations, voir [planifier l’archivage dans Skype pour Business Server](../../plan-your-deployment/archiving/archiving.md) et [configurer l’intégration avec le stockage Exchange pour Skype pour Business Server](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md). 
+> Si vous avez activé l’intégration de Microsoft Exchange pour votre déploiement, Exchange stratégies de conservation inaltérable Déterminez si l’archivage est activé pour les utilisateurs hébergés sur Exchange et que leurs boîtes aux lettres sont placées en conservation inaltérable. Pour plus d’informations, reportez-vous à la rubrique [planification de l’archivage dans Skype entreprise Server](../../plan-your-deployment/archiving/archiving.md) et configuration de l' [intégration avec le stockage Exchange pour Skype entreprise Server](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md). 
   
 ## <a name="apply-a-user-policy-by-using-the-control-panel"></a>Appliquer une stratégie utilisateur via le Panneau de configuration
 
@@ -32,22 +32,22 @@ Pour appliquer une stratégie utilisateur via le Panneau de configuration :
   
 1. À partir d’un compte d’utilisateur auquel est affecté un des rôles CsArchivingAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne. 
     
-2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business. 
+2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration Skype entreprise Server. 
     
 3. Dans la barre de navigation de gauche, cliquez sur **Utilisateurs**, puis recherchez le compte d’utilisateur que vous souhaitez configurer. 
     
 4. Dans le tableau répertoriant les résultats de la recherche, cliquez sur le compte d’utilisateur, sur **Modifier**, puis sur **Afficher les détails**.
     
-5. Dans **Modifier l’utilisateur Lync Server** sous **stratégie d’archivage**, sélectionnez la stratégie utilisateur d’archivage que vous souhaitez appliquer.
+5. Dans **modifier l’utilisateur de Lync Server** sous **stratégie**d’archivage, sélectionnez la stratégie d’utilisateur d’archivage que vous voulez appliquer.
     
     > [!NOTE]
-    > Le ** \<automatique\> ** paramètres s’appliquent les paramètres d’installation de serveur par défaut. Ces paramètres sont appliqués automatiquement par le serveur.
+    > Les ** \<paramètres\> automatiques** appliquent les paramètres d’installation du serveur par défaut. Ces paramètres sont appliqués automatiquement par le serveur.
   
 6. Cliquez sur **Valider**.
     
-## <a name="apply-a-user-policy-by-using-windows-powershell"></a>Appliquer une stratégie utilisateur à l’aide de Windows PowerShell
+## <a name="apply-a-user-policy-by-using-windows-powershell"></a>Appliquer une stratégie d’utilisateur à l’aide de Windows PowerShell
 
-Vous pouvez également appliquer une stratégie utilisateur à l’aide de l’applet de commande Windows PowerShell **Grant-CsArchivingPolicy** .
+Vous pouvez également appliquer une stratégie utilisateur à l’aide de l’applet de la cmdlet Windows PowerShell **Grant-CsArchivingPolicy** .
   
 La commande suivante assigne la stratégie d’archivage par utilisateur RedmondArchivingPolicy à l’utilisateur Ken Myer.
   
@@ -55,7 +55,7 @@ La commande suivante assigne la stratégie d’archivage par utilisateur Redmond
 Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName "RedmondArchivingPolicy"
 ```
 
-Cette commande affecte la stratégie d’archivage par utilisateur RedmondArchivingPolicy à tous les utilisateurs dont les comptes sont hébergés sur le pool de serveurs d’inscriptions atl-cs-001.contoso.com. Pour plus d’informations sur le paramètre Filter utilisé dans cette commande, voir la documentation d’applet de commande [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps) .
+Cette commande affecte la stratégie d’archivage par utilisateur RedmondArchivingPolicy à tous les utilisateurs dont les comptes sont hébergés sur le pool de serveurs d’inscriptions atl-cs-001.contoso.com. Pour plus d’informations sur le paramètre de filtre utilisé dans cette commande, consultez la documentation sur l’applet de commande [Get-Csuser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps) .
   
 ```
 Get-CsUser -Filter {RegistrarPool -eq "atl-cs-001.contoso.com"} | Grant-CsArchivingPolicy -PolicyName "RedmondArchivingPolicy"
@@ -67,6 +67,6 @@ La commande suivante supprime l’assignation d’une stratégie d’archivage p
 Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName $Null
 ```
 
-Pour plus d’informations, voir la documentation d’applet de commande [Grant-CsArchivingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csarchivingpolicy?view=skype-ps) .
+Pour plus d’informations, reportez-vous à la documentation sur l’applet [de passe Grant-CsArchivingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csarchivingpolicy?view=skype-ps) .
   
 

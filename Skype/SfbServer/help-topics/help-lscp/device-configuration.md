@@ -5,24 +5,24 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/23/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.ClientPhoneCfgMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e1148124-e04a-4ae6-b601-ed48df69d194
-description: Une configuration de périphérique est une collection de paramètres utilisés pour gérer les Skype pour les appareils de téléphone professionnel, global ou au sein d’un site. Ces paramètres vous permettent de configurer le mode de sécurité requis, le niveau de journalisation de l’appareil, les paramètres de qualité de service des communications vocales et de savoir si les téléphones doivent ou non se verrouiller automatiquement après une période d’inactivité donnée.
-ms.openlocfilehash: b5cc6760bf49e02f969dc4f6b081348eaad150fd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Une configuration d’appareil est une collection de paramètres utilisée pour gérer les appareils Skype entreprise Phone Edition, qu’il s’agisse d’un site global ou d’un site. Ces paramètres vous permettent de configurer le mode de sécurité requis, le niveau de journalisation de l’appareil, les paramètres de qualité de service des communications vocales et de savoir si les téléphones doivent ou non se verrouiller automatiquement après une période d’inactivité donnée.
+ms.openlocfilehash: d84d3749e46636f1ff5b1a141fd96808462851a0
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33913956"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285952"
 ---
 # <a name="device-configuration"></a>Configuration du périphérique
  
-Une configuration de périphérique est une collection de paramètres utilisés pour gérer les Skype pour les appareils de téléphone professionnel, global ou au sein d’un site. Ces paramètres vous permettent de configurer le mode de sécurité requis, le niveau de journalisation de l’appareil, les paramètres de qualité de service des communications vocales et de savoir si les téléphones doivent ou non se verrouiller automatiquement après une période d’inactivité donnée. 
+Une configuration d’appareil est une collection de paramètres utilisée pour gérer les appareils Skype entreprise Phone Edition, qu’il s’agisse d’un site global ou d’un site. Ces paramètres vous permettent de configurer le mode de sécurité requis, le niveau de journalisation de l’appareil, les paramètres de qualité de service des communications vocales et de savoir si les téléphones doivent ou non se verrouiller automatiquement après une période d’inactivité donnée. 
   
 ## <a name="tasks-you-can-perform"></a>Tâches que vous pouvez effectuer
 
@@ -36,21 +36,21 @@ Dans la page **Configuration de l’appareil**, vous pouvez effectuer les tâche
 
 Les listes ci-dessous décrivent les menus, les commandes, les champs et les propriétés de la page.
   
-- **Nouveau** Vous pouvez ajouter une nouvelle configuration de périphérique avec l’étendue suivante :
+- **Nouvelle** Vous pouvez ajouter une nouvelle configuration de périphérique avec l’étendue suivante:
     
   - Globale
     
   - Site
     
-- **Modifier** Vous pouvez modifier les options d’une configuration de périphérique dans la liste. Utilisez cette option, vous pouvez procédez comme suit :
+- **Modifier** Vous pouvez modifier les options de configuration d’un périphérique dans la liste. Cette option vous permet d’effectuer les opérations suivantes:
     
-  - **Afficher les détails** Cette option ouvre une boîte de dialogue dans laquelle vous pouvez modifier les options pour une configuration de périphérique.
+  - **Afficher les détails** Cette option ouvre une boîte de dialogue dans laquelle vous pouvez modifier les options de configuration d’un appareil.
     
-  - **Sélectionner tout** Cette option sélectionne toutes les configurations de périphérique dans la liste.
+  - **Tout sélectionner** Cette option sélectionne toutes les configurations d’appareils dans la liste.
     
-  - **Supprimer** Cette option supprime toutes les configurations de périphérique sélectionné.
+  - **Supprimer** Cette option supprime toutes les configurations d’appareils sélectionnées.
     
-- **Actualiser** Vous pouvez actualiser la liste de configuration de périphérique pour vérifier le statut des options de toutes les configurations de périphérique.
+- **Actualiser** Vous pouvez actualiser la liste de configuration des appareils pour vérifier l’état des options de toutes les configurations d’appareil.
     
 ## <a name="see-also"></a>Voir aussi
 

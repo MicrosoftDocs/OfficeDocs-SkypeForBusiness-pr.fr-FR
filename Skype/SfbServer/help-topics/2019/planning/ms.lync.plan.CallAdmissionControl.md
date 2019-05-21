@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.plan.CallAdmissionControl
@@ -14,17 +14,17 @@ localization_priority: Normal
 ms.assetid: 7b73e678-3e5c-491c-bef1-0eb72cf60398
 ROBOTS: NOINDEX, NOFOLLOW
 description: Le contrôle d’admission des appels détermine, en fonction de la bande passante réseau disponible, si des sessions de communication en temps réel, telles que des appels vocaux ou vidéo, peuvent être établies.
-ms.openlocfilehash: 5c65776327c5b30d3341ef087f5f0653748a7aee
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 85ae80cdebaf99d304f3b4f8c0437513c0b12d47
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33889611"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291108"
 ---
 # <a name="call-admission-control-planning-tool"></a>Call Admission Control (Planning Tool)
  
 Le contrôle d’admission des appels détermine, en fonction de la bande passante réseau disponible, si des sessions de communication en temps réel, telles que des appels vocaux ou vidéo, peuvent être établies.
   
-Pour plus d’informations sur la planification pour le contrôle d’admission des appels, voir [planifier le contrôle d’admission des appels d’appel dans Skype pour Business Server](../../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).
+Pour plus d’informations sur la planification du contrôle d’admission des appels, voir [planifier le contrôle d’admission des appels dans Skype entreprise Server](../../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).
   
 

@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/7/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 474a5e4a-9479-4e86-8607-b9f41a0fa648
 description: Pour découvrir comment déployer le mode partage de lignes dans Skype Entreprise Server 2015, mise à jour cumulative de novembre 2015, reportez-vous à cette rubrique. Le mode partage de lignes est une fonctionnalité permettant de gérer plusieurs appels sur un numéro spécifique appelé « numéro partagé ».
-ms.openlocfilehash: bbdb5de985e44c0c3a0484605857485823457674
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 04efe0a0b3ae9e89576ca2d52ce45861cde68a9d
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892649"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291178"
 ---
 # <a name="deploy-shared-line-appearance-in-skype-for-business-server-2015"></a>Déploiement du mode partage de lignes dans Skype Entreprise Server 2015
 
@@ -28,11 +28,11 @@ Pour découvrir comment déployer le mode partage de lignes dans Skype Entrepri
 
 Pour plus d’informations sur cette fonctionnalité, reportez-vous à la rubrique [Plan for Shared Line Appearance in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/shared-line-appearance.md).
 
-Apparence de ligne partagé (SLA) est une nouvelle fonctionnalité dans Skype pour Business Server, novembre 2015 mise à jour Cumulative. Pour activer cette fonctionnalité, vous devez d’abord avoir déployé cette mise à jour cumulative.
+L’apparence des lignes partagées (SLA) est une nouvelle fonctionnalité de la mise à jour cumulative 2015 de novembre Server. Pour activer cette fonctionnalité, vous devez d’abord avoir déployé cette mise à jour cumulative.
 
 ### <a name="install-shared-line-appearance"></a>Installation du mode partage de lignes
 
-1. Une fois Skype pour Business Server, novembre 2015 mise à jour Cumulative est déployé, exécutez la `SkypeServerUpdateInstaller.exe` correctif sur chaque serveur frontal du pool.
+1. Après le déploiement de Skype entreprise Server, la mise à jour cumulative 2015 de `SkypeServerUpdateInstaller.exe` novembre, exécutez le correctif sur chaque serveur frontal du pool.
 
 2. Le programme d’installation déploiera la version la plus récente de l’application Mode partage de lignes, mais l’application n’est pas activée par défaut. Elle est activée en suivant la procédure décrite ci-dessous :
 
@@ -77,7 +77,7 @@ Apparence de ligne partagé (SLA) est une nouvelle fonctionnalité dans Skype po
     Vous pouvez utiliser Set-CsSlaConfiguration pour créer un groupe de mode partage de lignes ou modifier un groupe existant.
 
     > [!NOTE]
-    > Notez que ce que vous spécifiez pour `-Identity` doit être un compte d’utilisateur activés pour Enterprise Voice existant valide.
+    > Notez que ce que vous spécifiez pour doit être un compte d’utilisateur valide pour `-Identity` la voix entreprise valide.
 
 2. Ajoutez des délégués au groupe à l’aide de l’applet de commande [Add-CsSlaDelegates](https://docs.microsoft.com/powershell/module/skype/add-cssladelegates?view=skype-ps) :
 
@@ -86,7 +86,7 @@ Apparence de ligne partagé (SLA) est une nouvelle fonctionnalité dans Skype po
           <NameOfDelegate@domain>
    ```
 
-    L’exemple ci-dessous permet d’ajouter un utilisateur au groupe de mode partage de lignes. Chaque utilisateur ajouté au groupe doit être un utilisateur activé pour Enterprise Voice valid :
+    L’exemple ci-dessous permet d’ajouter un utilisateur au groupe de mode partage de lignes. Chaque utilisateur ajouté au groupe doit être un utilisateur valide d’entreprise Voice:
 
    ```
    Add-CsSlaDelegates -Identity SLAGroup1 -Delegate sip:SLA_Delegate1@contoso.com
@@ -102,7 +102,7 @@ Apparence de ligne partagé (SLA) est une nouvelle fonctionnalité dans Skype po
   Set-CsSlaConfiguration -Identity <IdentityOfGroup> -BusyOption <Option> [-Target <TargetUserOrPhoneNumber>]
   ```
 
-    L’exemple suivant définit les appels qui dépassent le nombre maximal d’appels simultanés d’être transférés vers la 202-555-1234 numéro téléphonique. La cible peut être un utilisateur de votre organisation au lieu d’un numéro de téléphone ; Dans ce cas, la syntaxe de la personne qui doit recevoir le transfert des appels est la même que lorsque vous spécifiez un délégué : `sip:<NameofDelegate@domain>`. L’autre paramètre possible pour `BusyOption` est `Voicemail`:
+    L’exemple suivant définit les appels qui dépassent le nombre maximal d’appels simultanés à transférer vers le numéro de téléphone 202-555-1234. La cible peut être un utilisateur au sein de votre organisation plutôt qu’un numéro de téléphone. dans ce cas, la syntaxe de la personne qui reçoit les appels transférés est la même que lorsque vous spécifiez un délégué `sip:<NameofDelegate@domain>`:. Le autre paramètre possible pour `BusyOption` est `Voicemail`le suivant:
 
   ```
   Set-CsSlaConfiguration -Identity SLAGroup1 -BusyOption Forward -Target tel:+2025551234
@@ -116,7 +116,7 @@ Apparence de ligne partagé (SLA) est une nouvelle fonctionnalité dans Skype po
    Set-CsSlaConfiguration -Identity <IdentityOfGroup> -MissedCallOption <Option> -MissedCallForwardTarget <TargetUserOrPhoneNumber> -BusyOption <Option> -MaxNumberofCalls <#> -Target [Target]
    ```
 
-2. L’exemple suivant spécifie que les appels manqués doivent être transférés à l’utilisateur nommé `sla_forward_number`. Les options valides pour le `-MissedCallOption` paramètre sont `Forward`, `BusySignal`, ou `Disconnect`. Si vous choisissez `Forward`, vous devez également inclure la `-MissedCallForwardTarget` paramètre, avec un utilisateur ou numéro de téléphone comme cible :
+2. L’exemple suivant spécifie que les appels manqués doivent être renvoyés à `sla_forward_number`l’utilisateur nommé. Les options valides pour `-MissedCallOption` le paramètre `Forward`sont `BusySignal`, ou `Disconnect`. Si vous le `Forward`souhaitez, vous devez également inclure `-MissedCallForwardTarget` le paramètre, avec un utilisateur ou un numéro de téléphone comme destination:
 
    ```
    Set-CsSlaConfiguration -Identity SLAGroup1 -MissedCallOption Forward -MissedCallForwardTarget sip:sla_forward_number@contoso.com -BusyOption Forward -MaxNumberOfCalls 2 -Target sip:sla_forward_number@contoso.com

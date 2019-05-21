@@ -5,252 +5,252 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 1/31/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: edf4a04c-d4c9-4c05-aacc-9e084618bb55
-description: Lisez cette rubrique pour savoir comment surveiller votre version de nuage connecteur 2.1 et de déploiement ultérieure à l’aide de Microsoft Operations Management Suite (OMS).
-ms.openlocfilehash: 2077b5525984cc3d9948e7602036dfbb7f0ee4b7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+description: Pour plus d’informations sur la façon de surveiller la version 2,1 du Cloud Connector et le déploiement ultérieur à l’aide de Microsoft Operations Management Suite (OMS), consultez cette rubrique.
+ms.openlocfilehash: 6258ad9386b895f97a6f6dc0a1b40ce1076568aa
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886077"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287264"
 ---
 # <a name="monitor-cloud-connector-using-operations-management-suite-oms"></a>Surveiller Cloud Connector avec Operations Management Suite (OMS)
 
-Lisez cette rubrique pour savoir comment surveiller votre version de nuage connecteur 2.1 et de déploiement ultérieure à l’aide de Microsoft Operations Management Suite (OMS).
+Pour plus d’informations sur la façon de surveiller la version 2,1 du Cloud Connector et le déploiement ultérieur à l’aide de Microsoft Operations Management Suite (OMS), consultez cette rubrique.
 
-Vous pouvez maintenant surveiller votre version de nuage connecteur 2.1 et de déploiement ultérieure à l’aide des opérations de gestion de Suite (OMS), un solution de gestion informatique en nuage de Microsoft. OMS journal Analytique vous permet de surveiller et d’analyser la disponibilité et les performances des ressources, y compris physiques et les machines virtuelles. Pour plus d’informations sur OMS et journal Analytique, voir [Quelle est la Suite de gestion des opérations (OMS) ?](https://docs.microsoft.com/azure/operations-management-suite/operations-management-suite-overview).
+Vous pouvez désormais surveiller la version 2,1 du Cloud Connector et le déploiement ultérieur à l’aide de Operations Management Suite (OMS), une solution de gestion informatique du Cloud Microsoft. L’analyse du journal OMS vous permet de surveiller et d’analyser la disponibilité et les performances des ressources, notamment les machines physiques et virtuelles. Pour plus d’informations sur OMS et sur l’analyse du journal, voir [qu’est-ce que la suite de gestion des opérations?](https://docs.microsoft.com/azure/operations-management-suite/operations-management-suite-overview).
 
 Cette rubrique contient les sections suivantes :
 
 - Conditions requises
 
-- Configurer le connecteur sur le nuage pour utiliser OMS
+- Configurer le Cloud Connector pour utiliser OMS
 
 - Configurer OMS
 
-- Analyser les alertes dans le référentiel de journal Analytique
+- Analyser les alertes dans votre référentiel d’analyse du journal
 
-- Jeu de surveillance recommandé
+- Ensemble de contrôles recommandés
 
 ## <a name="prerequisites"></a>Conditions requises
 
-Avant de pouvoir utiliser OMS pour analyser votre déploiement en nuage connecteur, vous devez les éléments suivants :
+Pour que vous puissiez utiliser OMS pour surveiller le déploiement de votre Cloud Connector, vous devez disposer des éléments suivants:
 
-- **Un compte Azure et un espace de travail OMS.** Si vous ne disposez pas d’un compte Azure, vous devrez créer un pour utiliser OMS journal Analytique. Pour plus d’informations sur la façon de créer un compte Azure et configurer un espace de travail OMS, voir [Démarrer avec un espace de travail journal Analytique](https://docs.microsoft.com/azure/log-analytics/log-analytics-get-started).
+- **Un compte Azure et un espace de travail OMS.** Si vous n’avez pas encore de compte Azure, vous devez en créer un pour utiliser l’analyse du journal OMS. Pour plus d’informations sur la création d’un compte Azure et la configuration d’un espace de travail OMS, voir [commencer à utiliser un espace de travail d’analyse du journal](https://docs.microsoft.com/azure/log-analytics/log-analytics-get-started).
 
-- **Nuage connecteur 2.1 ou version ultérieure**
+- **Cloud Connector version 2,1 ou ultérieure**
 
-- **Recherche de journal de journal Analytique** est requis pour la surveillance du connecteur sur le nuage. Pour plus d’informations, voir [l’espace de travail Azure journal Analytique nouvelle recherche de journal de mise à niveau](https://docs.microsoft.com/azure/log-analytics/log-analytics-log-search-upgrade).
+- Le **nouveau journal de recherche du journal d’analyse** est requis pour la surveillance du connecteur Cloud. Pour plus d’informations, reportez-vous à [mettre à niveau votre espace de travail analyse du journal Azure vers une nouvelle recherche de journaux](https://docs.microsoft.com/azure/log-analytics/log-analytics-log-search-upgrade).
 
-## <a name="configure-cloud-connector-to-use-oms"></a>Configurer le connecteur sur le nuage pour utiliser OMS
+## <a name="configure-cloud-connector-to-use-oms"></a>Configurer le Cloud Connector pour utiliser OMS
 
-Vous devez configurer votre environnement local de nuage connecteur pour utiliser OMS. Pour ce faire, vous aurez besoin de votre ID d’espace de travail OMS et la clé, vous pouvez trouver en utilisant le portail OMS comme suit : paramètres--\>Sources connectées--\> serveurs Windows :
+Vous devez configurer votre environnement sur site Cloud Connector pour qu’il utilise OMS. Pour ce faire, vous avez besoin de votre ID d’espace de travail OMS et de votre clé, que vous pouvez trouver en utilisant le portail OMS\>comme suit: Settings--sources connectées-serveurs\> Windows:
 
 ![Capture d'écran pour Cloud Connector OMS](../../media/a4bb0a96-c940-435e-a3f5-5ef3062dea83.png)
 
-Comment configurer le nuage connecteur pour utiliser OMS dépend de votre scénario :
+La configuration de Cloud Connector pour utiliser OMS dépend de votre scénario:
 
-- **Si vous installez un nouveau matériel nuage connecteur ou vous souhaitez redéployer un matériel**, procédez comme suit avant d’exécuter Install-CcAppliance :
+- **Si vous installez un nouveau matériel de connecteur Cloud ou que vous voulez redéployer un appareil**, procédez comme suit avant d’exécuter l’installation-CcAppliance:
 
-1. Dans le fichier CloudConnector.ini section [courantes], définissez le paramètre OMSEnabled sur True.
+1. Dans la section [Common] du fichier CloudConnector. ini, définissez le paramètre OMSEnabled sur true.
 
-    Chaque fois que le nuage connecteur est déployé ou mis à niveau, il essaiera d’installer l’agent d’OMS automatiquement sur les ordinateurs virtuels. Activer cette fonctionnalité afin que l’agent OMS puisse résister à la mise à jour automatique du nuage connecteur.
+    Chaque fois que le Cloud Connector est déployé ou mis à niveau, il essaiera d’installer automatiquement l’agent OMS sur les ordinateurs virtuels. Activez cette fonctionnalité pour que l’agent OMS puisse survivre à la mise à jour automatique du Cloud Cloud.
 
-2. Pour configurer le OMS ID et la clé, exécutez Set-CcCredential - AccountType OMSWorkspace. 
+2. Pour configurer l’ID et la clé OMS, exécutez Set-CcCredential-AccountType OMSWorkspace. 
 
-- **Si vous installez un agent OMS sur une appliance nuage connecteur existant**, procédez comme suit :
+- **Si vous installez un agent OMS sur un appareil de connecteur Cloud existant**, procédez comme suit:
 
-1. Dans le fichier CloudConnector.ini section [courantes], définissez OMSEnabled = true. 
+1. Dans la section [Common] du fichier CloudConnector. ini, définissez OMSEnabled = true. 
 
 2. Exécutez Import-CcConfiguration. 
 
 3. Exécutez Install-CcOMSAgent. 
 
     > [!NOTE]
-    > Si les informations d’identification OMSWorkspace n’a jamais été définie, vous êtes invité pour les informations d’identification lorsque vous exécutez install-CcOMSAgent. 
+    > Si les informations d’identification OMSWorkspace n’ont jamais été définies, vous êtes invité à entrer les informations d’identification lorsque vous exécutez Install-CcOMSAgent. 
 
-- **Si vous souhaitez mettre à jour de l’ID d’espace de travail OMS ou clés dans une solution de nuage connecteur qui a déjà installé un agent OMS :**
+- **Si vous voulez mettre à jour l’ID d’espace de travail OMS ou la clé dans un appareil Cloud sur lequel est déjà installé un agent OMS:**
 
-1. Pour configurer le OMS ID et la clé, exécutez Set-CcCredential - AccountType OMSWorkspace. 
+1. Pour configurer l’ID et la clé OMS, exécutez Set-CcCredential-AccountType OMSWorkspace. 
 
 2. Pour appliquer les mises à jour, exécutez Install-CcOMSAgent. 
 
-- **Pour tous les scénarios, vérifiez que les agents sont connectés comme suit :**
+- **Dans tous les cas, vérifiez que les agents sont connectés comme suit:**
 
-    Dans le portail OMS, accédez à paramètres -\> Sources connectées -\> serveurs Windows. Vous verrez une liste d’ordinateurs connectés. 
+    Dans le portail OMS, accédez à paramètres-\> sources connectées\> -serveurs Windows. Une liste des ordinateurs connectés s’affiche. 
 
 ## <a name="configure-oms"></a>Configurer OMS
 
-Ensuite, vous devrez spécifier votre configuration OMS à l’aide du portail OMS. Plus précisément, vous devez :
+Vous devrez ensuite spécifier votre configuration OMS à l’aide du portail OMS. En particulier, vous devez effectuer les opérations suivantes:
 
-- Spécifier des informations sur les compteurs de performance et les journaux des événements.
+- Spécifiez les informations relatives aux journaux des événements et aux compteurs de performance.
 
 - Créer des alertes. 
 
-### <a name="specify-information-about-event-logs-and-performance-counters"></a>Spécifier des informations sur les compteurs de performance et les journaux des événements
+### <a name="specify-information-about-event-logs-and-performance-counters"></a>Spécifier des informations sur les journaux d’événements et les compteurs de performance
 
-Dans le portail OMS, vous devez spécifier les informations sur les journaux des événements et les compteurs de performance comme suit :
+Dans le portail OMS, vous devez spécifier les informations relatives aux journaux d’événements et aux compteurs de performance comme suit:
 
-1. Accédez à paramètres -\>données -\>journaux des événements Windows et ajoutez des journaux des événements : 
+1. Accédez à paramètres-\>données-\>journaux des événements Windows et ajoutez les journaux des événements pour: 
 
    - Lync Server
 
    - Application
 
      > [!NOTE]
-     > Vous devez entrer manuellement Lync Server dans la zone de texte. Il n’apparaît pas en tant qu’option dans la liste déroulante. 
+     > Vous devez entrer manuellement Lync Server dans la zone de texte. Il n’apparaît pas sous la forme d’une option dans la liste déroulante. 
 
-     Pour plus d’informations, voir [les sources de données de journal des événements Windows dans le journal Analytique](https://docs.microsoft.com/azure/log-analytics/log-analytics-data-sources-windows-events)
+     Pour plus d’informations, voir [sources de données du journal des événements Windows dans analyse du journal](https://docs.microsoft.com/azure/log-analytics/log-analytics-data-sources-windows-events)
 
-2. Accédez à paramètres -\>données -\> les compteurs de performances de Windows, et ajoutez des compteurs de performance pour : 
+2. Accédez à paramètres-\>données-\> compteurs de performance Windows et ajouter des compteurs de performance pour: 
 
-   - **Compteurs de niveau du système d’exploitation**. Vous pouvez ajouter des compteurs au niveau du système d’exploitation, telles que l’utilisation du processeur, de la mémoire, l’utilisation du réseau, ou vous pouvez utiliser des solutions existantes telles que la capacité et les performances, l’Analyseur de performances réseau sans ajouter explicitement des compteurs. Quelle que soit la façon dont vous décidez d’analyser les, Microsoft recommande que vous analysez ces compteurs de système d’exploitation.
+   - **Compteurs de niveau de système d’exploitation**. Vous pouvez ajouter des compteurs de niveau de système d’exploitation, par exemple une utilisation du processeur, de la mémoire, une utilisation du réseau, ou vous pouvez utiliser des solutions existantes comme la capacité et les performances, le moniteur des performances du réseau sans ajouter de compteurs explicitement. Quelle que soit la façon dont vous décidez de les surveiller, Microsoft vous recommande de surveiller ces compteurs du système d’exploitation.
 
-   - **Skype pour les compteurs de l’entreprise**. Il existe de nombreux compteurs fournis par Skype pour les entreprises. Vous trouverez ces compteurs en vous connectant à n’importe quel serveur de médiation et l’ouverture de l’Analyseur de performances. Ces compteurs commencent par « LS : ». Microsoft recommande que vous commencez par les compteurs suivants de la capacité au minimum et ajoutez d’autres personnes qui présentent un intérêt :
+   - **Des compteurs Skype entreprise**. Il existe de nombreux compteurs proposés par Skype entreprise. Vous pouvez trouver ces compteurs en vous connectant à un serveur de médiation et en ouvrant le moniteur de performance. Ces compteurs commencent par «LS:». Microsoft vous recommande de commencer avec les compteurs de capacité suivants au minimum et d’ajouter d’autres personnes qui vous intéressent:
 
-     Nombre total d’appels actif :
+     Nombre total d’appels actifs:
 
-   - LS:MediationServer - entrant Calls(_Total)\- en cours 
+   - LS: MediationServer-appels entrants (_ total\- ) actuels 
 
-   - LS:MediationServer - Calls(_Total) sortants\- en cours 
+   - LS: MediationServer-appels sortants (_ total\- ) actuels 
 
-     Les appels déviés total multimédia active :
+     Nombre total d’appels multimédias actifs:
 
-   - LS:MediationServer - entrant Calls(_Total)\- appels du contournement de média Active 
+   - LS: MediationServer-appels entrants (_ total\- ) appels multimédias actifs 
 
-   - LS:MediationServer - Calls(_Total) sortants\- appels du contournement de média Active 
+   - LS: MediationServer-appels sortants (_ total\- ) appels multimédias actifs 
 
      > [!NOTE]
-     > Vous devez entrer manuellement les compteurs de performance dans la zone de texte. Ils n’apparaissent pas en tant qu’options dans la liste déroulante. 
+     > Vous devez entrer manuellement les compteurs de performance dans la zone de texte. Elles n’apparaissent pas sous la forme d’options dans la liste déroulante. 
 
-     Pour plus d’informations, voir les [sources de données de performances Windows et Linux dans journal Analytique](https://docs.microsoft.com/azure/log-analytics/log-analytics-data-sources-performance-counters)
+     Pour plus d’informations, voir [sources de données de performances Windows et Linux dans l’analyse du journal](https://docs.microsoft.com/azure/log-analytics/log-analytics-data-sources-performance-counters)
 
 ### <a name="create-alerts"></a>Créer des alertes
 
-Il existe deux types d’alertes dans OMS : nombre de résultats alertes et mesure métrique. Pour plus d’informations sur la création des alertes, voir [utilisation des règles d’alerte dans le journal Analytique](https://docs.microsoft.com/azure/log-analytics/log-analytics-alerts-creating).
+Il existe deux types d’alertes dans OMS: le nombre d’alertes de résultats et d’alertes de mesure métrique. Pour plus d’informations sur la création d’alertes, voir [utilisation des règles d’alerte dans l’analyse du journal](https://docs.microsoft.com/azure/log-analytics/log-analytics-alerts-creating).
 
-Lors de la création des alertes, tenez compte des éléments suivants :
+Lorsque vous créez des alertes, vous devez tenir compte des éléments suivants:
 
-- Assurez-vous que l’alerte est une alerte nombre de résultats, qui est la sélection par défaut. 
+- Assurez-vous que l’alerte est une alerte de type nombre de résultats (sélection par défaut). 
 
-- Les requêtes de démo nécessitent que « Nombre de résultats » est défini sur « supérieur à 0 ». 
+- Les requêtes de démonstration requièrent que «nombre de résultats» soit défini sur «supérieur à 0». 
 
-- Il est recommandé de définir la fenêtre délai et fréquence de l’alerte à 5 minutes. 
+- Nous vous conseillons de définir la fenêtre temps et la fréquence d’alerte sur 5 minutes. 
 
-- Il est recommandé que vous n’activez pas « supprimer « alertes pour les alertes de démonstration. 
+- Nous vous recommandons de ne pas activer «supprimer les alertes» pour les alertes de démonstration. 
 
-- Pour les scénarios d’alerte par défaut, Microsoft recommande la création d’une paire d’alertes : alerte d’une erreur et une rétablir alerte. Pour le message d’erreur, sélectionnez le niveau de gravité critique ; la mise en garde reset, sélectionnez le niveau de gravité information.
+- Pour des scénarios d’alerte standard, Microsoft recommande la création d’une paire d’alertes: une alerte d’erreur et une alerte de réinitialisation unique. Pour l’alerte d’erreur, sélectionnez niveau de gravité critique; pour l’alerte de réinitialisation, sélectionnez information sur le niveau de gravité.
 
-Les sections suivantes décrivent comment créer des alertes de l’échantillon.
+Les sections suivantes décrivent comment créer des exemples d’alertes.
 
- **Créer une paire de l’alerte : « RTCMEDSRV ne fonctionne pas dans les serveurs de médiation » et « RTCMEDSRV est en cours d’exécution sur les serveurs de médiation dans »**
+ **Créer une paire d’alertes: «RTCMEDSRV ne s’exécute pas sur les serveurs de médiation» et «RTCMEDSRV fonctionne de nouveau sur les serveurs de médiation»**
 
-Pour créer cette paire de l’alerte :
+Pour créer cette paire d’alertes:
 
-- La requête pour le message d’erreur est la suivante :
+- La requête d’erreur est la suivante:
 
   ```
   Event | where Computer contains "MediationServer" | where EventLog == "Lync Server" and (EventID == 25002 or EventID == 25003)  | summarize arg_max(TimeGenerated, EventID) by Computer | where EventID == 25003
   ```
 
-    La requête utilise le filtre d’ordinateur *où ordinateur contient « MediationServer »* . Le filtre sélectionne uniquement l’ordinateur dont le nom contient la chaîne « MediationServer ».
+    La requête utilise le filtre d’ordinateur sur *lequel ordinateur contient «MediationServer»* . Le filtre sélectionne uniquement l’ordinateur dont le nom contient la chaîne «MediationServer».
 
-     Vous souhaiteriez remplacer le filtre par le filtre de votre propre ordinateur ou simplement le supprimer. Vous pouvez créer des filtres de chaîne complexe sans les expressions régulières. Pour plus d’informations, voir [opérateurs de chaîne](https://docs.loganalytics.io/docs/Language-Reference/Scalar-operators/String-operators). Vous pouvez également choisir d’utiliser des expressions régulières. En outre, vous pouvez créer un groupe d’ordinateurs en enregistrant une requête de recherche à l’aide de ce groupe comme filtre de votre ordinateur dans votre requête de l’alerte. Pour plus d’informations, voir [groupes d’ordinateurs dans le journal Analytique connecter des recherches](https://docs.microsoft.com/azure/log-analytics/log-analytics-computer-groups).
+     Vous devez remplacer le filtre par votre propre filtre d’ordinateur ou simplement le supprimer. Vous pouvez créer des filtres de chaîne complexes sans expression régulière. Pour plus d’informations, consultez la section [opérateurs de chaîne](https://docs.loganalytics.io/docs/Language-Reference/Scalar-operators/String-operators). Vous pouvez également choisir d’utiliser des expressions régulières. Par ailleurs, vous pouvez créer un groupe d’ordinateurs en enregistrant une requête de recherche et en utilisant ce groupe comme filtre d’ordinateur dans votre requête d’alerte. Pour plus d’informations, voir [groupes d’ordinateurs dans les recherches dans le journal d’analyse du journal](https://docs.microsoft.com/azure/log-analytics/log-analytics-computer-groups).
 
-    Pour chaque ordinateur, l’erreur de la requête sera obtenir le dernier journal des événements pour les deux le démarrage du service RTCMEDSRV et arrêt de service. Il renverra une session si le dernier événement est l’événement stop service ; Il ne renvoie rien si le dernier événement est l’événement de démarrage du service. En résumé, la requête retourne une liste de serveurs dont RTCMEDSRV est arrêté dans la fenêtre de temps. 
+    Pour chaque ordinateur, la requête d’erreur reçoit le dernier journal des événements pour le démarrage et le service du service RTCMEDSRV. Il renverra un journal si le dernier événement est l’événement d’arrêt du service; elle ne renvoie aucune valeur si le dernier événement est l’événement de début de service. En résumé, la requête renvoie une liste de serveurs pour lesquels RTCMEDSRV est arrêté dans la fenêtre délai. 
 
-- La requête de l’alerte de réinitialisation est la suivante :
+- La requête de réinitialisation est la suivante:
 
   ```
   Event | where Computer contains "MediationServer" | where EventLog == "Lync Server" and (EventID == 25002 or EventID == 25003) | summarize arg_max(TimeGenerated, EventID) by Computer  | where EventID == 2500
   ```
 
-    La requête de réinitialisation effectue exactement la chose contraire à celui de la requête de l’erreur. Pour chaque ordinateur, elle renvoie 1 si le dernier événement est le service démarre l’événement ; Il ne renvoie rien si le dernier événement est l’événement d’arrêt de service.
+    La requête Reset effectue exactement l’opération inverse de la requête d’erreur. S’il s’agit d’un ordinateur, l’événement de début de service sera renvoyé. elle ne renvoie aucune valeur si le dernier événement est l’événement d’arrêt de service.
 
-  **Créer une paire de l’alerte : « trop grand nombre d’appels simultané sur les serveurs de médiation » et « appels simultanés rattachées à une charge normale »**
+  **Créer une paire d’alertes: «un trop grand nombre d’appels simultanés dans les serveurs de médiation» et «les appels simultanés sont ramenés au chargement normal»**
 
-Pour créer cette alerte :
+Pour créer cette alerte:
 
-- La requête pour le message d’erreur est la suivante :
+- La requête d’erreur est la suivante:
 
   ```
   Perf | where Computer contains "MediationServer" | where (ObjectName == "LS:MediationServer - Outbound Calls" or ObjectName == "LS:MediationServer - Inbound Calls") | summarize arg_max(TimeGenerated, CounterValue) by ObjectName, Computer | summarize  TotalCalls = sum(CounterValue) by Computer| where TotalCalls >= 500
   ```
 
-    Pour chaque ordinateur, la requête obtiendra dernières compteurs d’appels entrants et les appels sortants et somme ces deux valeurs. Il renverra une session si la valeur de la somme est supérieure à 500 ; Il ne renvoie rien si elle n’est pas. En résumé, la requête retourne une liste de serveurs dont les appels simultanés sont trop nombreux dans la fenêtre de temps.
+    Pour chaque ordinateur, la requête obtiendra les derniers compteurs pour les appels entrants et sortants et additionner ces deux valeurs. Il renverra un journal si la valeur de somme dépasse 500; Si ce n’est pas le cas, elle renvoie la valeur Nothing. En résumé, la requête renvoie une liste de serveurs dont les appels simultanés sont trop nombreux dans la fenêtre délai.
 
-- La requête de l’alerte de réinitialisation est la suivante :
+- La requête de réinitialisation est la suivante:
 
   ```
   Perf  | where Computer contains "MediationServer" | where (ObjectName == "LS:MediationServer - Outbound Calls" or ObjectName ==  "LS:MediationServer - Inbound Calls") | summarize arg_max(TimeGenerated, CounterValue) by ObjectName, Computer | summarize  TotalCalls = sum(CounterValue) by Computer| where TotalCalls < 500
   ```
 
-    La requête de réinitialisation effectue exactement la chose contraire à celui de la requête de l’erreur. Pour chaque ordinateur, la requête obtiendra dernières compteurs d’appels entrants et les appels sortants et somme ces deux valeurs. Renvoie un seul journal si la valeur de la somme est inférieur à 500 ; elle renvoie nothing dans le cas contraire.
+    La requête Reset effectue exactement l’opération inverse de la requête d’erreur. Pour chaque ordinateur, la requête obtiendra les derniers compteurs pour les appels entrants et sortants et additionner ces deux valeurs. Il renverra un journal si la valeur somme est inférieure à 500; elle ne renvoie aucun résultat.
 
-  **Créer une alerte : « utilisation de l’UC \> 90 ou RTCMEDIARELAY arrêté dans les serveurs « alerte**
+  **Créer une alerte: «utilisation \> processeur 90 ou RTCMEDIARELAY arrêtées dans les serveurs»**
 
-Pour créer cette alerte, la requête est la suivante :
+Pour créer cette alerte, la requête est la suivante:
 
 ```
 search *| where Computer contains "MediationServer" | where (Type == "Perf" or Type == "Event") | where ((ObjectName ==  "Processor" and CounterName == "% Processor Time") or EventLog == "Lync Server") | where (CounterValue > 90 or EventID == 22003)
 ```
 
-La requête obtiendra tous les compteurs d’utilisation de processeur et événement arrêt du service de tous les ordinateurs et renvoyer un journal si l’utilisation du processeur est supérieure à 90 % ou le service est déjà arrêté. 
+La requête obtiendra tous les compteurs d’utilisation du processeur et un événement d’arrêt de service de tous les ordinateurs et renverra un journal si l’utilisation du processeur dépasse 90% ou si le service est arrêté. 
 
-## <a name="analyze-the-alerts-in-your-log-analytics-repository"></a>Analyser les alertes dans le référentiel de journal Analytique
+## <a name="analyze-the-alerts-in-your-log-analytics-repository"></a>Analyser les alertes dans votre référentiel d’analyse du journal
 
-Pour analyser les alertes dans le référentiel, utilisez la solution de gestion des alertes. Pour plus d’informations, voir la [solution de gestion de l’alerte dans la Suite Gestion des opérations (OMS)](https://docs.microsoft.com/azure/log-analytics/log-analytics-solution-alert-management)
+Pour analyser les alertes dans votre référentiel, utilisez la solution de gestion des alertes. Pour plus d’informations, reportez-vous [à solution de gestion des alertes dans Operations Management Suite (OMS)](https://docs.microsoft.com/azure/log-analytics/log-analytics-solution-alert-management)
 
-## <a name="recommended-minimal-monitoring-set"></a>Jeu de surveillance minimum recommandé
+## <a name="recommended-minimal-monitoring-set"></a>Ensemble de contrôles minimaux recommandés
 
-Pour identifier des problèmes avec les compteurs de performance et les journaux des événements : 
+Pour identifier les problèmes liés aux journaux d’événements et aux compteurs de performance: 
 
-- **Journaux des événements.** Pour résoudre un problème, il doit être une paire d’événements, avec un ensemble d’événements pour indiquer qu'un élément est incorrect, tandis que l’autre indique que tout est bien. Pour une période donnée, il est le dernier événement enregistré qui indique si un élément est explosion pour cette période.
+- **Journaux des événements.** En cas de problème, il devrait y avoir une paire d’événements, avec un ensemble d’événements indiquant qu’un problème survient, tandis que l’autre indique que tout est bien. Pour une période donnée, il s’agit du dernier événement enregistré qui indique s’il s’agit d’amiss pour cette période.
 
-- **Compteurs de performance.** Il doit exister un seuil pour les compteurs surveillés.
+- **Compteurs de performance.** Le seuil doit être défini pour les compteurs surveillés.
 
-Le tableau suivant répertorie les services que Microsoft vous recommande de surveillance en répertoriant les ID d’événement arrêt et démarrage :
+Le tableau suivant répertorie les services que Microsoft recommande de surveiller en répertoriant les ID d’événement stop et Start:
 
-|Nom de service  <br/> |Rôle de serveur cible  <br/> |Arrêter l’ID d’événement  <br/> |ID d’événement Démarrer  <br/> |
+|Nom du service  <br/> |Rôle du serveur cible  <br/> |Arrêter l’ID d’événement  <br/> |ID d’événement de début  <br/> |
 |:-----|:-----|:-----|:-----|
 |RTCMEDSRV  <br/> |serveur de médiation  <br/> |25003  <br/> |25002  <br/> |
 |RTCSRV  <br/> |serveur Edge  <br/> |12289  <br/> |12288  <br/> |
 |RTCMRAUTH  <br/> |serveur Edge  <br/> |19003  <br/> |19002  <br/> |
 |RTCMEDIARELAY  <br/> |serveur Edge  <br/> |22003  <br/> |22002  <br/> |
 
-Le tableau suivant répertorie les problèmes de réseau Microsoft vous recommande de surveillance :
+Le tableau suivant répertorie les problèmes de réseau que Microsoft recommande de surveiller:
 
 
-| Nom de l’analyseur  <br/>                                        | Rôle de serveur cible  <br/> | Expression d’ID d’événement de réussite  <br/> | Expression de l’ID d’événement d’erreur  <br/> | Exemple de défaillance  <br/> |
+| Nom du moniteur  <br/>                                        | Rôle du serveur cible  <br/> | Expression d’ID d’événement Success  <br/> | Expression d’ID d’événement d’erreur  <br/> | Exemple d’échec  <br/> |
 |:-----------------------------------------------------------|:--------------------------|:-----------------------------------|:---------------------------------|:-----------------------|
-| Échec de connectivité de passerelle du serveur de médiation  <br/>    | serveur de médiation  <br/>   | 25062                              |                                  | 25002  <br/>           |
-| Serveur de médiation vers passerelle Échec de fin d’appel  <br/> | serveur de médiation  <br/>   | 25064                              |                                  | 25002  <br/>           |
-| Problèmes de réseau  <br/>                           | serveur Edge  <br/>        | 14353                              |                                  | 12288  <br/>           |
+| Échec de la connectivité du serveur de médiation  <br/>    | serveur de médiation  <br/>   | 25062                              |                                  | 25002  <br/>           |
+| Serveur de médiation-échec de la fin de l’appel de la passerelle  <br/> | serveur de médiation  <br/>   | 25064                              |                                  | 25002  <br/>           |
+| Problèmes réseau critiques  <br/>                           | serveur Edge  <br/>        | 14353                              |                                  | 12288  <br/>           |
 
-Voici les compteurs de la capacité d’appel qui doivent être surveillées. Ces numéros doit être inférieure 500 pour standard edition de nuage connecteur ; inférieur à 50 pour édition minimale nuage connecteur.
+La liste suivante répertorie les compteurs de capacités d’appel qui doivent être analysés. Ces nombres doivent avoir moins de 500 pour le Cloud Connector Standard Edition; inférieur à 50 pour le Cloud Connector édition minimum.
 
-- LS:MediationServer - entrant Calls(_Total)\- en cours 
+- LS: MediationServer-appels entrants (_ total\- ) actuels 
 
-- LS:MediationServer - Calls(_Total) sortants\- en cours 
+- LS: MediationServer-appels sortants (_ total\- ) actuels 
 
-- LS:MediationServer - entrant Calls(_Total)\- appels du contournement de média Active
+- LS: MediationServer-appels entrants (_ total\- ) appels multimédias actifs
 
-- LS:MediationServer - Calls(_Total) sortants\- appels du contournement de média Active
+- LS: MediationServer-appels sortants (_ total\- ) appels multimédias actifs
 
 ## <a name="see-also"></a>Voir aussi
 
-Pour plus d’informations sur l’utilisation des OMS, voir :
+Pour plus d’informations sur l’utilisation d’OMS, voir les rubriques suivantes:
 
-- [Rechercher des données à l’aide de recherches de journal dans le journal Analytique](https://docs.microsoft.com/azure/log-analytics/log-analytics-log-searches)
+- [Rechercher des données à l’aide de recherches de journaux dans l’analyse du journal](https://docs.microsoft.com/azure/log-analytics/log-analytics-log-searches)
 
-- [Référence du langage Analytique journal Azure](https://docs.loganalytics.io/docs/Language-Reference)
+- [Informations de référence sur le langage d’analyse du journal Azure](https://docs.loganalytics.io/docs/Language-Reference)
 
-- [Présentation des alertes dans le journal Analytique](https://docs.microsoft.com/azure/log-analytics/log-analytics-alerts)
+- [Présentation des alertes dans l’analyse du journal](https://docs.microsoft.com/azure/log-analytics/log-analytics-alerts)
 
-- [Connecter des ordinateurs Windows au service journal Analytique dans Azure](https://docs.microsoft.com/azure/log-analytics/log-analytics-windows-agents)
+- [Connecter des ordinateurs Windows au service d’analyse du journal dans Azure](https://docs.microsoft.com/azure/log-analytics/log-analytics-windows-agents)
 
 

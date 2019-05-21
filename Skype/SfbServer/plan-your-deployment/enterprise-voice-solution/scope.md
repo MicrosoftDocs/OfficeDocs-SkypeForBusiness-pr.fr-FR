@@ -1,10 +1,10 @@
 ---
-title: Définir l’étendue du déploiement E9-1-1 de Skype pour Business Server
+title: Définir l’étendue du déploiement de E9-1-1 dans Skype entreprise Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,23 +13,23 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 2c572dfd-e901-471d-b5a0-18bc8d1d5328
-description: Décisions nécessaires pour planifier un déploiement E9-1-1 dans Skype Business Server Enterprise Voice.
-ms.openlocfilehash: fc1f567cd88f90490102c300c3151314a121acfd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Décisions nécessaires à la planification d’un déploiement E9-1-1 dans Skype entreprise Server Voice.
+ms.openlocfilehash: 648713ce3474779a588d638e3e81272fbd62e2f0
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33913518"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34276460"
 ---
-# <a name="define-the-scope-of-the-e9-1-1-deployment-in-skype-for-business-server"></a>Définir l’étendue du déploiement E9-1-1 de Skype pour Business Server
+# <a name="define-the-scope-of-the-e9-1-1-deployment-in-skype-for-business-server"></a>Définir l’étendue du déploiement de E9-1-1 dans Skype entreprise Server
 
-Décisions nécessaires pour planifier un déploiement E9-1-1 dans Skype Business Server Enterprise Voice.
+Décisions nécessaires à la planification d’un déploiement E9-1-1 dans Skype entreprise Server Voice.
 
-Avant de configurer Skype pour les entreprises pour E9-1-1, vous devez planifier votre déploiement E9-1-1. Voici certaines des questions que vous pouvez vous poser :
+Avant de configurer Skype entreprise pour E9-1-1, vous devez planifier votre déploiement E9-1-1. Voici certaines des questions que vous pouvez vous poser :
 
- **Quelles sont la stratégie de votre organisation et les obligations légales concernant E9-1-1 ?**
+ **Quelles sont les obligations légales et juridiques de votre organisation en matière de E9-1-1?**
 
- Les obligations légales en matière d’E9-1-1 pour les PBX (appelés aussi systèmes téléphoniques multilignes, ou MLTS (Multi-line Telephone Systems) dans le langage E9-1-1) diffèrent d’un État à l’autre. Vous devez consulter votre équipe juridique de comprendre les obligations applicables à votre déploiement de Skype pour l’entreprise dans vos sites pertinents.
+ Les obligations légales en matière d’E9-1-1 pour les PBX (appelés aussi systèmes téléphoniques multilignes, ou MLTS (Multi-line Telephone Systems) dans le langage E9-1-1) diffèrent d’un État à l’autre. Reportez-vous à votre équipe légale pour comprendre les obligations qui pourraient s’appliquer à votre déploiement de Skype entreprise dans vos zones géographiques pertinentes.
 
  **Quels secteurs de votre entreprise doivent être activés pour E9-1-1 ?**
 
@@ -37,14 +37,14 @@ Avant de configurer Skype pour les entreprises pour E9-1-1, vous devez planifier
 
  **Comment allez-vous déployer E9-1-1 sur des sites de succursale ?**
 
- La résistance des communications vocales est un concept qu’il est important de comprendre si vous déployez E9-1-1 sur un site de succursale. Si vous avez centralisé jonctions SIP E-9-1-1 et une panne de réseau étendu, clients connexion pas peut-être d’obtention d’un emplacement de service d’informations sur l’emplacement ou pour se connecter pour le fournisseur de services d’urgence. Skype pour les entreprises fournit plusieurs stratégies de gestion de la résilience vocale dans les succursales, y compris : ayant des réseaux de données résistantes, le déploiement d’une jonction SIP à chaque branche ou diffuser les appels d’urgence vers la passerelle locale pendant les pannes. Pour plus d’informations, reportez-vous à [Planning for Branch-Site Voice Resiliency](https://technet.microsoft.com/library/67713f57-3ded-4127-ac37-57d8099bf384.aspx).
+ La résistance des communications vocales est un concept qu’il est important de comprendre si vous déployez E9-1-1 sur un site de succursale. Si vous avez centralisé des lignes SIP E-9-1-1 et une panne de réseau étendu (WAN), les clients qui se connectent risquent de ne pas être en mesure d’obtenir un emplacement à partir du service de coordonnées de l’emplacement ou de se connecter au fournisseur de services d’urgence. Skype entreprise fournit différentes stratégies de gestion de la résilience vocale dans les succursales, notamment: utilisation de réseaux de données résilients, déploiement d’une ligne SIP dans chaque succursale, ou transfert d’appels d’urgence vers la passerelle locale lors des pannes. Pour plus d’informations, reportez-vous à [Planning for Branch-Site Voice Resiliency](https://technet.microsoft.com/library/67713f57-3ded-4127-ac37-57d8099bf384.aspx).
 
  **Allez-vous activer E9-1-1 pour les utilisateurs travaillant en dehors du réseau ?**
 
- Acquisition de l’emplacement automatique est disponible uniquement pour les clients situés à l’intérieur du réseau de l’organisation, afin que votre organisation doit décider si elle prendra en charge les appels E9-1-1 à partir de Skype pour les clients professionnels lors hors site. Par exemple, allez-vous autoriser les utilisateurs à passer des appels d’urgence quand ils travaillent de chez eux ou chez un client ? Si un client se trouve en dehors du réseau d’entreprise, il peut être configuré de sorte à inviter l’utilisateur à indiquer son emplacement. Cependant, les emplacements fournis par l’utilisateur ne peuvent pas être prévalidés par rapport au guide MSAG (Master Street Address Guide), le répartiteur du fournisseur de services d’urgence devra donc confirmer verbalement avec l’appelant la validité de son emplacement avant d’acheminer l’appel vers le centre téléphonique de sécurité publique (Public Safety Answering Point ou PSAP).
+ L’acquisition automatique de l’emplacement est disponible uniquement pour les clients situés à l’intérieur du réseau de l’organisation, afin que votre organisation puisse prendre en charge les appels E9-1-1 passés à partir de clients Skype entreprise sur site. Par exemple, allez-vous autoriser les utilisateurs à passer des appels d’urgence quand ils travaillent de chez eux ou chez un client ? Si un client se trouve en dehors du réseau d’entreprise, il peut être configuré de sorte à inviter l’utilisateur à indiquer son emplacement. Cependant, les emplacements fournis par l’utilisateur ne peuvent pas être prévalidés par rapport au guide MSAG (Master Street Address Guide), le répartiteur du fournisseur de services d’urgence devra donc confirmer verbalement avec l’appelant la validité de son emplacement avant d’acheminer l’appel vers le centre téléphonique de sécurité publique (Public Safety Answering Point ou PSAP).
 
 > [!NOTE]
-> Skype pour les clients d’entreprise d’utilisateurs qui se connectent au réseau de votre organisation à l’aide de VPN peut prendre les informations d’adresse IP internes, mais étant donné que ces adresses ne peut pas être utilisés pour identifier l’emplacement réel de l’utilisateur, il est essentiel que les sous-réseaux de réseau privé virtuel sont exclus à partir du service informations d’emplacement.
+> Les clients Skype entreprise d’utilisateurs qui se connectent au réseau de votre organisation à l’aide d’un VPN peuvent capter les informations d’adresse IP interne, mais ces adresses ne peuvent pas être utilisées pour identifier l’emplacement réel de l’utilisateur, il est essentiel que les sous-réseaux VPN soient exclus. à partir du service d’information d’emplacement.
 
  **Voulez-vous que les appels d’urgence soient acheminés vers des sites en dehors des États-Unis ?**
 

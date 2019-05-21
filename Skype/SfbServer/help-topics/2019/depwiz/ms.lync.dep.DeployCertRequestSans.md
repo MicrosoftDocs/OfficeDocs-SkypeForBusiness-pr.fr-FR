@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.dep.DeployCertRequestSans
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 99ef9628-72a5-463d-8dd6-4b783dcc8360
 ROBOTS: NOINDEX, NOFOLLOW
 description: L’option Configurer d’autres noms du sujet supplémentaires permet d’ajouter d’autres noms de sujet supplémentaires au certificat avant de finaliser et de demander celui-ci. Pour ajouter un autre nom de sujet, tapez le nom de domaine complet (FQDN) de l’autre nom de sujet, puis cliquez sur Ajouter. Si vous avez ajouté un autre nom de sujet que vous devez supprimer, mettez l’autre nom de sujet en surbrillance et cliquez sur Supprimer. Pour supprimer toutes les entrées d’autres noms de sujet ajoutées, cliquez sur Effacer tout.
-ms.openlocfilehash: b0fba0b0e3885d73986fe2e1a0f53b5206587944
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 96fab36f017b0e051663bcdc92edd2722ae85d9a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893839"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34276355"
 ---
 # <a name="certificate-request-additional-subject-alternate-names"></a>Demande de certificat (autres noms de sujets supplémentaires)
  

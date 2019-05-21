@@ -5,27 +5,27 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/23/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.ClientDeviceCfgMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c9b81f20-ce8c-40f1-8bed-50775cc35e58
-description: Le service web de mise à jour des appareils crée automatiquement des fichiers journaux qui enregistrent l’activité de mise à jour des appareils. Dans le cadre de la stratégie de gestion des données de votre organisation, vous souhaiterez peut-être définir des seuils pour la taille de cache de données, taille du fichier journal ou la durée pendant laquelle qu'un fichier journal sera conservé avant la purge. Vous pouvez modifier ces paramètres en fonction des besoins de votre organisation. Si vous ne souhaitez pas que le service web de mise à jour des appareils supprime définitivement et automatiquement les fichiers journaux, vous pouvez les supprimer manuellement, au besoin. Les paramètres des journaux peuvent être modifiés au niveau global ou par site.
-ms.openlocfilehash: b4475efcee20846a7ff651265a13b34b3b9a43a3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Le service web de mise à jour des appareils crée automatiquement des fichiers journaux qui enregistrent l’activité de mise à jour des appareils. Dans le cadre de la stratégie de gestion des données de votre organisation, vous souhaiterez peut-être définir des seuils pour la taille du cache des données journal, la taille du fichier journal ou la durée de conservation du fichier journal avant sa suppression définitive. Vous pouvez modifier ces paramètres en fonction de la configuration requise de votre organisation. Si vous ne souhaitez pas que le service web de mise à jour des appareils supprime définitivement et automatiquement les fichiers journaux, vous pouvez les supprimer manuellement, au besoin. Les paramètres des journaux peuvent être modifiés au niveau global ou par site.
+ms.openlocfilehash: e46811d40a7b93f5c59557c6744fb554b70aea2a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33914029"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285938"
 ---
 # <a name="device-log-configuration"></a>Configuration du fichier journal du périphérique
 
-Le service web de mise à jour des appareils crée automatiquement des fichiers journaux qui enregistrent l’activité de mise à jour des appareils. Dans le cadre de la stratégie de gestion des données de votre organisation, vous souhaiterez peut-être définir des seuils pour la taille de cache de données, taille du fichier journal ou la durée pendant laquelle qu'un fichier journal sera conservé avant la purge. Vous pouvez modifier ces paramètres en fonction des besoins de votre organisation. Si vous ne souhaitez pas que le service web de mise à jour des appareils supprime définitivement et automatiquement les fichiers journaux, vous pouvez les supprimer manuellement, au besoin. Les paramètres des journaux peuvent être modifiés au niveau global ou par site.
+Le service web de mise à jour des appareils crée automatiquement des fichiers journaux qui enregistrent l’activité de mise à jour des appareils. Dans le cadre de la stratégie de gestion des données de votre organisation, vous souhaiterez peut-être définir des seuils pour la taille du cache des données journal, la taille du fichier journal ou la durée de conservation du fichier journal avant sa suppression définitive. Vous pouvez modifier ces paramètres en fonction de la configuration requise de votre organisation. Si vous ne souhaitez pas que le service web de mise à jour des appareils supprime définitivement et automatiquement les fichiers journaux, vous pouvez les supprimer manuellement, au besoin. Les paramètres des journaux peuvent être modifiés au niveau global ou par site.
 
 > [!NOTE]
-> Vous pouvez également configurer une heure à laquelle vous souhaitez que le service web de mise à jour des appareils supprime automatiquement les fichiers journaux dont l’ancienneté dépasse le nombre de jours de conservation configuré (par défaut, les fichiers journaux datant de plus de 10 jours sont supprimés). Ce paramètre ne peut pas être modifié à l’aide de Skype pour le panneau de configuration serveur Business. Au lieu de cela, vous devez utiliser Skype pour Business Server Management Shell. Pour spécifier l’heure du jour pour supprimer les fichiers journaux arrivés à expiration, utilisez l’applet de commande **New-CsDeviceUpdateConfiguration** avec le paramètre – LogCleanUpTimeOfDay. Pour plus d’informations, voir [New-CsDeviceUpdateConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csdeviceupdateconfiguration?view=skype-ps).
+> Vous pouvez également configurer une heure à laquelle vous souhaitez que le service web de mise à jour des appareils supprime automatiquement les fichiers journaux dont l’ancienneté dépasse le nombre de jours de conservation configuré (par défaut, les fichiers journaux datant de plus de 10 jours sont supprimés). Ce paramètre ne peut pas être modifié dans le panneau de configuration Skype entreprise Server. À la place, vous devez utiliser Skype entreprise Server Management Shell. Pour spécifier l’heure du jour pour supprimer les fichiers journaux expirés, utilisez l’applet **de nouvelle applet de nouveau-CsDeviceUpdateConfiguration** avec le paramètre-LogCleanUpTimeOfDay. Pour plus d’informations, consultez la rubrique [New-CsDeviceUpdateConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csdeviceupdateconfiguration?view=skype-ps).
 
 > [!CAUTION]
 > Cette suppression les supprime définitivement du système de fichiers. Une fois qu’un fichier est supprimé définitivement, vous ne pouvez pas le récupérer.
@@ -42,21 +42,21 @@ Dans la page **Configuration du fichier journal de l'appareil**, vous pouvez eff
 
 Les listes ci-dessous décrivent les menus, les commandes, les champs et les propriétés de la page.
 
-- **Nouveau** Vous pouvez ajouter une nouvelle configuration de journal de périphérique avec l’étendue suivante :
+- **Nouvelle** Vous pouvez ajouter une nouvelle configuration du journal d’appareils avec l’étendue suivante:
 
   - Globale
 
   - Site
 
-- **Modifier** Vous pouvez modifier les options de configuration d’un journal de périphérique dans la liste. Utilisez cette option, vous pouvez procédez comme suit :
+- **Modifier** Vous pouvez modifier les options de configuration du journal des appareils dans la liste. Cette option vous permet d’effectuer les opérations suivantes:
 
-  - **Afficher les détails** Cette option ouvre une boîte de dialogue dans laquelle vous pouvez modifier les options de configuration d’un journal de périphérique.
+  - **Afficher les détails** Cette option ouvre une boîte de dialogue dans laquelle vous pouvez modifier les options de configuration du journal du périphérique.
 
-  - **Sélectionner tout** Cette option sélectionne toutes les configurations de fichier journal de périphérique dans la liste.
+  - **Tout sélectionner** Cette option sélectionne toutes les configurations du journal des appareils dans la liste.
 
-  - **Supprimer** Cette option supprime toutes les configurations de fichier journal de périphérique sélectionné.
+  - **Supprimer** Cette option permet de supprimer l’ensemble de la configuration du journal de périphériques sélectionnée.
 
-- **Actualiser** Vous pouvez actualiser la liste de configuration de journal de périphérique pour vérifier le statut des options de configuration du fichier journal tous les périphériques.
+- **Actualiser** Vous pouvez actualiser la liste de configuration du journal des appareils pour vérifier le statut des options de toutes les configurations du journal des périphériques.
 
 ## <a name="see-also"></a>Voir aussi
 

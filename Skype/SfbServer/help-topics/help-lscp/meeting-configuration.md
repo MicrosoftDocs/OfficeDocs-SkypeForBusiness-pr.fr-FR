@@ -5,20 +5,20 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/24/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.ConfMeetingSettingMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 24e8f749-d54c-4315-a8fe-bb9303b356ef
-description: Paramètres de configuration de réunion définissent le type de conférences (également calledmeetings) que les utilisateurs peuvent créer et contrôler comment (ou si) les utilisateurs anonymes et les utilisateurs de conférence rendez-vous peuvent rejoindre ces conférences. Ces paramètres ne concernent que les réunions planifiées. Ils ne concernent pas les réunions ad hoc créées en cliquant sur l’option Conférence maintenant du client.
-ms.openlocfilehash: 5381394d106c19091e6f8c29582358b60aa36912
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Les paramètres de configuration de réunion définissent le type de conférences (également calledmeetings) que les utilisateurs peuvent créer et contrôlent la façon dont les utilisateurs anonymes et les conférences rendez-vous peuvent participer à ces conférences. Ces paramètres ne concernent que les réunions planifiées. Ils ne concernent pas les réunions ad hoc créées en cliquant sur l’option Conférence maintenant du client.
+ms.openlocfilehash: 82619b255f99dc5a82d6a9cb704fe5443fe83d23
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33911015"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34293423"
 ---
 # <a name="meeting-configuration"></a>Configuration de la réunion
 
@@ -26,11 +26,11 @@ Les paramètres de configuration de réunion définissent le type de conférence
 
 Les configurations de réunion s’appliquent au niveau du site, au niveau du pool ou au niveau global :
 
-- **Configuration de réunion globale :** La configuration de réunion globale est créée par défaut. Vous pouvez modifier la configuration de réunion globale, mais vous ne pouvez pas le supprimer. Si vous essayez de supprimer la configuration de réunion globale, tous les paramètres sont réinitialisées sur les valeurs par défaut.
+- **Configuration globale de la réunion:** La configuration globale de la réunion est créée par défaut. Vous pouvez modifier la configuration globale de la réunion, mais vous ne pouvez pas la supprimer. Si vous tentez de supprimer la configuration globale de la réunion, tous les paramètres sont réinitialisés aux valeurs par défaut.
 
-- **Configuration de réunion de site (facultative) :** Vous pouvez en créer un ou plusieurs sites configurations de réunion, chacun d'entre eux s’applique à un site spécifique. Configurations de site remplacent la configuration globale.
+- **Configuration de la réunion site (facultatif):** Vous pouvez créer une ou plusieurs configurations de réunion de site, qui s’appliquent à un site spécifique. Les configurations de site remplacent la configuration globale.
 
-- **Configuration de réunion de pool (facultatif) :** Vous pouvez en créer un ou plusieurs pool configurations de réunion, chacun d'entre eux s’applique à un pool spécifique. Configurations de pool remplacent la configuration globale et les configurations de site.
+- **Configuration d’une réunion en pool (facultatif):** Vous pouvez créer une ou plusieurs configurations de réunion de réserve qui s’appliquent à un pool spécifique. Les configurations de pool remplacent la configuration globale et les configurations de site.
 
 La page **Configuration de la réunion** affiche la liste de toutes les configurations de réunion définies pour votre organisation.
 
@@ -48,20 +48,20 @@ Dans la page **Configuration de la réunion**, vous pouvez effectuer les tâches
 
 La liste ci-dessous décrit les commandes de la page.
 
-- **Nouveau** Démarre une nouvelle configuration de réunion de site ou de pool.
+- **Nouvelle** Démarre une configuration de réunion de nouvelle réunion ou de réserve de sites.
 
-- **Modifier** Ouvre la configuration de réunion sélectionnée pour le modifier, sélectionne toutes les configurations de réunion dans la liste ou supprime la configuration du site sélectionné ou la configuration du pool.
+- **Modifier** Ouvre la configuration de la réunion sélectionnée pour la modifier, sélectionner toutes les configurations de la réunion dans la liste, ou supprimer la configuration ou le pool de configuration de site sélectionné.
 
     > [!NOTE]
     > Pour la configuration de réunion globale, la commande **Supprimer** restaure les valeurs par défaut des paramètres.
 
-- **Actualiser** Actualise la liste des configurations de réunion.
+- **Actualiser** Actualise la liste des configurations de la réunion.
 
 La liste ci-dessous décrit les champs de la page.
 
 - **Nom** Identifie la configuration de la réunion.
 
-- **Étendue** Identifie l’étendue de la configuration de réunion : globale, site ou pool.
+- **Scope** Identifie l’étendue de la configuration de la réunion: global, site ou pool.
 
 Pour plus d’informations sur l’utilisation des configurations de réunion, reportez-vous à la rubrique [Create a or modify a Collection of Meeting Configuration Settings](https://technet.microsoft.com/library/ce6773c1-a0d5-4405-8e32-33a6f3a46a1a.aspx) de la documentation des opérations.
 

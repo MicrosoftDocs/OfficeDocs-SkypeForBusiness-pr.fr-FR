@@ -5,26 +5,26 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/26/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.SqlInstanceScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bd270488-ceb9-4920-bef3-ed9fe8eff36c
-description: 'Ce nœud affiche le nom de domaine complet (FQDN) de Microsoft SQL Server et l’instance de SQL Server sur ce serveur et les pools de serveurs qui utilisent ce serveur SQL Server. Vous pouvez effectuer les actions suivantes :'
-ms.openlocfilehash: 9fb3ee8c1ee4bff5e192e50734e509798cfbf163
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Ce nœud affiche le nom de domaine complet (FQDN) de ce serveur SQL Server et l’instance de SQL Server sur ce serveur, ainsi que les pools ou serveurs qui utilisent ce serveur SQL Server. Vous pouvez effectuer les actions suivantes :'
+ms.openlocfilehash: f841c1211392590e3e833d4942fc73af18819fed
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930797"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291248"
 ---
 # <a name="sql-instance-scope-node"></a>Nœud d’étendue d’une instance SQL
  
-Ce nœud affiche le nom de domaine complet (FQDN) de Microsoft SQL Server et l’instance de SQL Server sur ce serveur et les pools de serveurs qui utilisent ce serveur SQL Server. Vous pouvez effectuer les actions suivantes :
+Ce nœud affiche le nom de domaine complet (FQDN) de ce serveur SQL Server et l’instance de SQL Server sur ce serveur, ainsi que les pools ou serveurs qui utilisent ce serveur SQL Server. Vous pouvez effectuer les actions suivantes :
   
-- **Modifier les propriétés** Ouvre la page **Modifier les propriétés** de ce serveur, où vous pouvez modifier le nom de domaine complet du serveur (si la topologie n’est pas déjà publiée) et l’instance de SQL Server pour être utilisé.
+- **Modifier les propriétés** Ouvre la page **modifier les propriétés** pour ce serveur, dans laquelle vous pouvez modifier le nom de domaine complet du serveur (si la topologie n’est pas déjà publiée) et l’instance de SQL Server à utiliser.
     
 - **Supprimer** : supprime le serveur de la topologie.
     

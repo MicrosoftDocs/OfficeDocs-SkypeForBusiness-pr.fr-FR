@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.dep.DeployMainADPrep
@@ -12,17 +12,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a8c96311-9e1c-4d39-9870-681fd4e272ff
 ROBOTS: NOINDEX, NOFOLLOW
-description: Pour commencer l’installation de Skype pour Business Server, vous devez préparer le schéma Active Directory Domain Services, la forêt et les domaines qui hébergeront des serveurs et des utilisateurs. Le Skype pour l’Assistant de déploiement Business Server vous guidera tout au long des étapes requises pour préparer Active Directory, commence avec le schéma, puis dans la préparation de la forêt. Après avoir confirmé que la réplication Active Directory est accessible, vous préparer puis chaque domaine qui hébergera les utilisateurs ou les serveurs.
-ms.openlocfilehash: f3a93899cae6abcda1d8cc5705333667ad26eebb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Pour commencer l’installation de Skype entreprise Server, vous devez préparer le schéma des services de domaine Active Directory, la forêt et les domaines qui hébergeront les serveurs et les utilisateurs. L’Assistant Déploiement de Skype entreprise Server vous guidera tout au long des étapes requises pour préparer Active Directory, en commençant par le schéma puis dans la préparation de la forêt. Après confirmation de la réussite de la réplication Active Directory, vous préparez chacun des domaines qui hébergeront des utilisateurs ou des serveurs.
+ms.openlocfilehash: e4de6019303b53a1828d7ee271194ebca107b0c5
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893643"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34276295"
 ---
 # <a name="prepare-active-directory"></a>Préparer Active Directory
 
-Pour commencer l’installation de Skype pour Business Server, vous devez préparer le schéma Active Directory Domain Services, la forêt et les domaines qui hébergeront des serveurs et des utilisateurs. Le Skype pour l’Assistant de déploiement Business Server vous guidera tout au long des étapes requises pour préparer Active Directory, commence avec le schéma, puis dans la préparation de la forêt. Après avoir confirmé que la réplication Active Directory est accessible, vous préparer puis chaque domaine qui hébergera les utilisateurs ou les serveurs.
+Pour commencer l’installation de Skype entreprise Server, vous devez préparer le schéma des services de domaine Active Directory, la forêt et les domaines qui hébergeront les serveurs et les utilisateurs. L’Assistant Déploiement de Skype entreprise Server vous guidera tout au long des étapes requises pour préparer Active Directory, en commençant par le schéma puis dans la préparation de la forêt. Après confirmation de la réussite de la réplication Active Directory, vous préparez chacun des domaines qui hébergeront des utilisateurs ou des serveurs.
 
 > [!IMPORTANT]
 > Pour préparer efficacement le schéma, vous devez être connecté en tant que membre du groupe Administrateurs d’entreprise et du groupe Administrateurs du schéma. Pour préparer la forêt, vous devez être connecté en tant que membre du groupe Administrateurs d’entreprise ou être connecté en tant qu’administrateur dans la racine de la forêt. Pour la préparation du domaine, vous devez vous connecter en tant que membre du groupe Administrateurs du domaine.

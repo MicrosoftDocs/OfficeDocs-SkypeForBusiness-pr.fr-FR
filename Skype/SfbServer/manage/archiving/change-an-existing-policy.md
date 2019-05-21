@@ -1,35 +1,35 @@
 ---
-title: Modifier une stratégie dans Skype d’archivage pour Business Server existante
+title: Modification d’une stratégie d’archivage existante dans Skype entreprise Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4cf600be-ba3d-4bce-aa22-e158b9ccf8a9
-description: 'Résumé : Découvrez comment modifier l’utilisateur, les stratégies d’archivage pour Skype pour Business Server.'
-ms.openlocfilehash: 7e8cc208802af324690ff61cad971023d3a20232
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Résumé: Découvrez comment modifier les stratégies d’archivage des utilisateurs pour Skype entreprise Server.'
+ms.openlocfilehash: 4a3da0bfe403d1a00807865cd07762111b59b540
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33885002"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34282020"
 ---
-# <a name="change-an-existing-archiving-policy-in-skype-for-business-server"></a>Modifier une stratégie dans Skype d’archivage pour Business Server existante
+# <a name="change-an-existing-archiving-policy-in-skype-for-business-server"></a>Modification d’une stratégie d’archivage existante dans Skype entreprise Server
  
-**Résumé :** Découvrez comment modifier l’utilisateur, les stratégies d’archivage pour Skype pour Business Server.
+**Résumé:** Découvrez comment modifier les stratégies d’archivage des utilisateurs pour Skype entreprise Server.
   
-Lorsque vous déployez tout d’abord Skype pour Business Server, vous définissez des stratégies d’archivage initiales qui déterminent la façon dont l’archivage est implémenté pour les utilisateurs de votre déploiement. Cette rubrique explique comment gérer et modifier des stratégies. 
+Lorsque vous déployez Skype entreprise Server pour la première fois, vous configurez les stratégies d’archivage initial qui déterminent la façon dont l’archivage est implémenté pour les utilisateurs de votre déploiement. Cette rubrique explique comment gérer et modifier des stratégies. 
   
 ## <a name="change-archiving-policies-by-using-the-control-panel"></a>Modifier des options d’archivage via le Panneau de configuration
 
 1. À partir d’un compte d’utilisateur auquel est affecté un des rôles CsArchivingAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne. 
     
-2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business. 
+2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration Skype entreprise Server. 
     
-3. Dans la barre de navigation de gauche, cliquez sur **surveillance et archivage**, puis cliquez sur **Stratégie d’archivage**.
+3. Dans la barre de navigation gauche, cliquez sur **surveillance et archivage**, puis cliquez sur **stratégie**d’archivage.
     
 4. Dans la liste des stratégies, effectuez l’une des opérations suivantes : 
     
@@ -48,7 +48,7 @@ Lorsque vous déployez tout d’abord Skype pour Business Server, vous définiss
 6. Cliquez sur **Valider**.
     
     > [!IMPORTANT]
-    > Les paramètres d’une stratégie utilisateur ne s’appliquent qu’aux utilisateurs et groupes d’utilisateurs spécifiques pour lesquels la stratégie a été définie. Pour plus d’informations, voir [appliquer une stratégie d’archivage pour les utilisateurs de Skype pour Business Server](apply-a-policy-to-users.md). 
+    > Les paramètres d’une stratégie utilisateur ne s’appliquent qu’aux utilisateurs et groupes d’utilisateurs spécifiques pour lesquels la stratégie a été définie. Pour plus d’informations, reportez-vous [à appliquer une stratégie d’archivage aux utilisateurs de Skype entreprise Server](apply-a-policy-to-users.md). 
   
 ## <a name="change-archiving-policies-by-using-windows-powershell"></a>Modifier les stratégies d’archivage via Windows PowerShell
 
@@ -68,7 +68,7 @@ Pour activer l’archivage des sessions de communication externes, affectez la v
 Set-CsArchivingPolicy -Identity "global" -ArchiveExternal $True
 ```
 
-Pour activer l’archivage des sessions de communication internes et externes, définissez la valeur des paramètres de la ArchiveInternal et ArchiveExternal sur True : 
+Pour activer l’archivage des sessions de communication interne et externe, définissez la valeur des paramètres ArchiveInternal et ArchiveExternal sur true: 
   
 ```
 Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $True -ArchiveExternal $True

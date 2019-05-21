@@ -1,10 +1,10 @@
 ---
-title: Activer le contrôle d’admission des appels d’appel dans Skype pour Business Server
+title: Activer le contrôle d’admission des appels dans Skype entreprise Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,23 +13,23 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 80201105-18f7-4c02-9c71-8df5a952f6c7
-description: Activer le contrôle d’admission des appels d’appel dans Skype pour Business Server Enterprise Voice.
-ms.openlocfilehash: ce50e11d5d8536dba6038a918a9242ad2cfd6f1d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Activez le contrôle d’admission des appels dans Skype entreprise Server Voice.
+ms.openlocfilehash: ed770a79a7237de682822e8280a13de4516921ec
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892495"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291594"
 ---
-# <a name="enable-call-admission-control-in-skype-for-business-server"></a>Activer le contrôle d’admission des appels d’appel dans Skype pour Business Server
+# <a name="enable-call-admission-control-in-skype-for-business-server"></a>Activer le contrôle d’admission des appels dans Skype entreprise Server
  
-Activer le contrôle d’admission des appels d’appel dans Skype pour Business Server Enterprise Voice. 
+Activez le contrôle d’admission des appels dans Skype entreprise Server Voice. 
   
 Une fois que vous avez configuré vos paramètres réseau pour le déploiement du contrôle d’admission des appels, vous devez activer le contrôle d’admission des appels afin de mettre en œuvre vos stratégies de bande passante.
   
-### <a name="to-enable-call-admission-control-by-using-skype-for-business-server-management-shell"></a>Pour activer le contrôle d’admission des appels à l’aide de Skype pour Business Server Management Shell
+### <a name="to-enable-call-admission-control-by-using-skype-for-business-server-management-shell"></a>Pour activer le contrôle d’admission des appels à l’aide de Skype entreprise Server Management Shell
 
-1. Démarrez le Skype pour Business Server Management Shell : cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Skype pour Business 2015**, puis cliquez sur **Skype pour Business Server Management Shell**.
+1. Démarrez Skype entreprise Server Management Shell: cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
     
 2. Exécutez l’applet de commande Set-CsNetworkConfiguration pour activer le contrôle d’admission des appels dans votre réseau. Par exemple, exécutez :
     
@@ -43,9 +43,9 @@ Une fois que vous avez configuré vos paramètres réseau pour le déploiement d
    Set-CsNetworkConfiguration -EnableBandwidthPolicyCheck 0
    ```
 
-### <a name="to-enable-call-admission-control-by-using-skype-for-business-server-control-panel"></a>Pour activer le contrôle d’admission des appels à l’aide de Skype pour Business Server Control Panel
+### <a name="to-enable-call-admission-control-by-using-skype-for-business-server-control-panel"></a>Pour activer le contrôle d’admission des appels à l’aide du panneau de configuration Skype entreprise Server
 
-1. Ouvrez le panneau de configuration serveur Business Skype.
+1. Ouvrez le panneau de configuration Skype entreprise Server.
     
 2. Dans la barre de navigation de gauche, cliquez sur **Configuration réseau**.
     
@@ -62,8 +62,8 @@ Une fois que vous avez configuré vos paramètres réseau pour le déploiement d
     
 ## <a name="see-also"></a>Voir aussi
 
-[Get-CsNetworkConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csnetworkconfiguration?view=skype-ps)
+[Get-Csnetworkconfiguration permettent](https://docs.microsoft.com/powershell/module/skype/get-csnetworkconfiguration?view=skype-ps)
   
-[Set-CsNetworkConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csnetworkconfiguration?view=skype-ps)
+[Set-Csnetworkconfiguration permettent](https://docs.microsoft.com/powershell/module/skype/set-csnetworkconfiguration?view=skype-ps)
   
-[Remove-CsNetworkConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkconfiguration?view=skype-ps)
+[Remove-Csnetworkconfiguration permettent](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkconfiguration?view=skype-ps)

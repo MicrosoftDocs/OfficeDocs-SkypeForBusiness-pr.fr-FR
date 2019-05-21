@@ -5,31 +5,31 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.FeMediationServiceSettingsExpander2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 37166b87-8a43-42a6-a2aa-5a45bed8a6f3
-description: 'Vous modifiez les propriétés des paramètres de la passerelle PSTN de serveur de médiation dans cette boîte de dialogue. Vous définissez les paramètres suivants :'
-ms.openlocfilehash: acf671e8fd3d980e2050221be884b628d24bcbef
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Dans cette boîte de dialogue, vous pouvez modifier les propriétés des paramètres de la passerelle RTC du serveur de médiation. Vous définissez les paramètres suivants:'
+ms.openlocfilehash: b57ca675d3681886ea2a2853aa1357b394fda4c4
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33888659"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34284388"
 ---
 # <a name="front-end-mediation-service-settings-expander-for-lync-server-2010"></a>Développeur des paramètres du service de médiation frontal pour Lync Server 2010
  
-Vous modifiez les propriétés des paramètres de la **passerelle PSTN de serveur de médiation** dans cette boîte de dialogue. Vous définissez les paramètres suivants :
+Dans cette boîte de dialogue, vous pouvez modifier les propriétés des paramètres de la **passerelle RTC du serveur de médiation** . Vous définissez les paramètres suivants:
   
-- Sélectionnez **serveur de médiation colocalisé activé** si vous voulez colocaliser le serveur de médiation avec ce serveur frontal ou pools frontaux.
+- Sélectionnez le **serveur de médiation en option activé** si vous voulez Collocate le serveur de médiation avec ce serveur frontal ou les listes frontales.
     
-- **Ports d’écoute**: définir les ports d’écoute sur le serveur de médiation. Vous pouvez définir un port pour **TLS** ou transport layer security, ou **TCP**, ou le protocole de transport. Pour l’entrée de port TCP soit disponible, vous devez sélectionner la case à cocher pour **le port TCP activer**. 
+- **Ports d’écoute**: définissez les ports que le serveur de médiation va écouter. Vous pouvez définir un port pour **TLS ou TLS** (Transport Layer Security), ou **TCP**ou protocole de contrôle de transport. Pour que l’entrée de port du protocole TCP soit disponible, vous devez activer la case à cocher **activer le port TCP**. 
     
     > [!IMPORTANT]
-    > Consultez les paramètres de configuration et de la documentation de votre passerelle de réseau téléphonique commuté pour déterminer si vous souhaitez activer et définir les valeurs de ports TLS, TCP ou les deux. TLS est un protocole plus sécurisé, l’utilisation de certificats pour chiffrer le trafic entre le serveur de médiation et la passerelle PSTN. Pas toutes les passerelles PSTN prend en charge TLS. 
+    > Reportez-vous à la documentation et aux paramètres de configuration de votre passerelle RTC (réseau téléphonique commuté) pour déterminer si vous devez activer et définir des valeurs de port TLS, TCP ou les deux. TLS est un protocole plus sécurisé, qui utilise des certificats pour chiffrer le trafic entre le serveur de médiation et la passerelle PSTN. Les passerelles RTC ne prennent pas en charge le protocole TLS. 
   
 - Une liste répertorie les **jonctions** (jonctions SIP [Session Initiation Protocol]), la **passerelle** (passerelle RTC ou système IP-PBX) et le **site** (site configuré pour la jonction et la passerelle).
     

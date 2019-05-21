@@ -5,26 +5,26 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/8/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.dep.DeployMainDomainPrep
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bfcb37ca-34eb-4d0d-9694-6edd2e7fe0f3
-description: 'Pour préparer un domaine à héberger des serveurs exécutant Skype pour Business Server 2015 ou Skype pour les utilisateurs Business Server, vous devez effectuer étape 5 : préparer le domaine actuel, comme décrit dans la rubrique à l’aide du programme d’installation pour exécuter la préparation du domaine. Pour cela, vous devez être connecté en tant que membre du groupe Administrateurs du domaine dans le domaine que vous préparez ou en tant que membre du groupe Administrateurs d’entreprise de la forêt à laquelle le domaine appartient. Pour préparer le domaine :'
-ms.openlocfilehash: 80ee047bd6c5f8ca7b153beb5c45efea953af6ad
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Pour préparer un domaine pour l’hébergement de serveurs exécutant Skype entreprise Server 2015 ou les utilisateurs de Skype entreprise Server, vous devez suivre l’étape 5: préparer le domaine actuel, comme décrit dans la rubrique utilisation du programme d’installation pour exécuter la préparation du domaine. Pour cela, vous devez être connecté en tant que membre du groupe Administrateurs du domaine dans le domaine que vous préparez ou en tant que membre du groupe Administrateurs d’entreprise de la forêt à laquelle le domaine appartient. Pour préparer le domaine :'
+ms.openlocfilehash: 93fef28bdcaa720f1adcf893ec634dbe8f373780
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33888827"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283877"
 ---
 # <a name="prepare-current-domain"></a>Préparer le domaine actuel
 
-Pour préparer un domaine à héberger des serveurs exécutant Skype pour Business Server 2015 ou Skype pour les utilisateurs Business Server, vous devez effectuer **étape 5 : préparer le domaine actuel**, comme décrit dans la rubrique [à l’aide du programme d’installation pour exécuter la préparation du domaine](https://technet.microsoft.com/library/95dab800-1f2c-4506-b36c-99986643b149.aspx). Pour cela, vous devez être connecté en tant que membre du groupe Administrateurs du domaine dans le domaine que vous préparez ou en tant que membre du groupe Administrateurs d’entreprise de la forêt à laquelle le domaine appartient. Pour préparer le domaine :
+Pour préparer un domaine pour l’hébergement de serveurs exécutant Skype entreprise Server 2015 ou les utilisateurs de Skype entreprise Server, vous devez suivre l' **étape 5: préparer le domaine actuel**, comme décrit dans la rubrique [utilisation du programme d’installation pour exécuter la préparation du domaine](https://technet.microsoft.com/library/95dab800-1f2c-4506-b36c-99986643b149.aspx). Pour cela, vous devez être connecté en tant que membre du groupe Administrateurs du domaine dans le domaine que vous préparez ou en tant que membre du groupe Administrateurs d’entreprise de la forêt à laquelle le domaine appartient. Pour préparer le domaine :
 
-1. À partir de Skype pour le dossier d’installation Business Server 2015 ou du support, exécutez Setup.exe pour démarrer le Skype pour l’Assistant de déploiement Business Server.
+1. Dans le dossier d’installation ou le média de Skype entreprise Server 2015, exécutez Setup. exe pour démarrer l’Assistant Déploiement de Skype entreprise Server.
 
 2. Cliquez sur **Préparer Active Directory**, puis attendez que l’état du déploiement soit déterminé.
 
@@ -32,9 +32,9 @@ Pour préparer un domaine à héberger des serveurs exécutant Skype pour Busine
 
 4. Dans la page **Exécution de commandes**, recherchez **Statut de la tâche : Terminée**, puis cliquez sur **Afficher le journal**.
 
-5. Dans la colonne **Action** , développez la **Préparation du domaine**, recherchez un ** \<réussite\> ** résultat de l’exécution à la fin de chaque tâche pour vérifier que la préparation de domaine terminée avec succès, fermez le fichier journal, puis cliquez sur **Terminer**.
+5. Dans la colonne **action** , développez **Domain PREP**, recherchez un ** \<résultat\> ** d’exécution réussie à la fin de chaque tâche pour vérifier que la préparation du domaine s’est déroulée correctement, fermez le journal, puis cliquez sur **Terminer**.
 
 > [!TIP]
-> Si vous avez besoin passer en revue les fichiers journaux qui sont créés par le Skype pour l’Assistant de déploiement Business Server, vous pouvez trouver les sur l’ordinateur où l’Assistant de déploiement a été exécuté dans le répertoire des utilisateurs de l’utilisateur des Services de domaine Active Directory qui a exécuté l’étape. Par exemple, si l’utilisateur est connecté en tant qu’administrateur de domaine dans le domaine Contoso.net, les fichiers journaux se trouvent dans : C:\Users\Administrator.Contoso\AppData\Local\Temp.
+> Si vous avez besoin de passer en revue les fichiers journaux créés par l’Assistant Déploiement de Skype entreprise, vous pouvez les retrouver sur l’ordinateur sur lequel l’Assistant déploiement a été exécuté dans le répertoire utilisateurs de l’utilisateur de services de domaine Active Directory (AD FS) qui a exécuté l’étape. Par exemple, si l’utilisateur connecté en tant qu’administrateur de domaine dans le domaine Contoso.net, les fichiers journaux se trouvent dans: C:\Users\Administrator.Contoso\AppData\Local\Temp.
 
 

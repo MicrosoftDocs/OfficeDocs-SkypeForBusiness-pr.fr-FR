@@ -1,10 +1,10 @@
 ---
-title: Affiches pour Skype pour Business Server 2015 | Office 365 vocale PSTN
+title: Affiches pour Skype entreprise Server 2015 | Téléphone téléphonique RTC Office 365
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: hub-page
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,42 +13,42 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 7b6da49b-ac72-4ab0-8957-166e330b38fa
-description: 'Résumé : Passez en revue ces affiches en fonction des besoins lors de la planification, l’implémentation et la gestion de Skype pour Business Server.'
-ms.openlocfilehash: a4062266af50f55e8590315adceadf1095fd407f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Résumé: Examinez ces affiches selon vos besoins lors de la planification, de la mise en œuvre ou de la gestion de Skype entreprise Server.'
+ms.openlocfilehash: 571f64f27cba7b5d1fa2a5818b4fca4ad157a264
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33898507"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291405"
 ---
 # <a name="technical-diagrams-for-skype-for-business-server"></a>Technical diagrams for Skype for Business Server
 
-**Résumé :** Passez en revue ces affiches en fonction des besoins lors de la planification, l’implémentation et la gestion de Skype pour Business Server.
+**Résumé:** Prenez connaissance de ces affiches au besoin lors de la planification, de la mise en œuvre ou de la gestion de Skype entreprise Server.
 
-Ces ressources sont disponibles au format Visio (Visio 2015 avec l’extension .vsdx) et au format PDF. Pour plus d’informations sur l’impression des documents, voir [conseils d’impression des affiches grand format](technical-diagrams.md#tips).
+Ces ressources sont disponibles au format Visio (Visio 2015 avec l’extension .vsdx) et au format PDF. Pour plus d’informations sur l’impression de documents, voir [conseils pour l’impression de documents au format grand format](technical-diagrams.md#tips).
 
 Vous aurez peut-être besoin de logiciels supplémentaires pour visualiser ces fichiers. Consultez le tableau suivant pour plus dʼinformations.
 
 |Type de fichier|Logiciels|
 |:--- |:--- |
-|.vsd |Visio 2010, Visio 2013 ou la [Visionneuse Visio gratuite](https://go.microsoft.com/fwlink/p/?LinkId=393676) <br/> Si vous utilisez la visionneuse Visio, effectuez un clic droit sur le lien VSD, cliquez sur **Enregistrer la cible sous**, enregistrez le fichier sur votre ordinateur, puis ouvrez-le depuis votre ordinateur. |
-|.pdf |N’importe quelle visionneuse PDF, par exemple [Adobe Reader](https://go.microsoft.com/fwlink/p/?LinkId=393675) |
+|.vsd |Visio 2010, Visio 2013 ou la [visionneuse Visio gratuite](https://go.microsoft.com/fwlink/p/?LinkId=393676) <br/> Si vous utilisez la visionneuse Visio, effectuez un clic droit sur le lien VSD, cliquez sur **Enregistrer la cible sous**, enregistrez le fichier sur votre ordinateur, puis ouvrez-le depuis votre ordinateur. |
+|.pdf |Une visionneuse PDF telle qu' [Adobe Reader](https://go.microsoft.com/fwlink/p/?LinkId=393675) |
 |.zip |Tout utilitaire de compression de fichier. Windows 7 et versions ultérieures ouvre ces fichiers en mode natif. |
 
 ## <a name="posters"></a>Affiches
 
-Ces affiches détaillent un domaine technique spécifique et sont destinés à être utilisés avec les articles correspondants ou le contenu disponible sur le centre de téléchargement.
+Ces affiches décrivent une zone technique spécifique et sont conçues pour être utilisées avec des articles ou du contenu correspondants disponibles dans le centre de téléchargement.
 
 |Titre|Description|
 |:---|:---|
-|**Skype pour protocole charges serveur d’entreprise** <br/>![Affiche des charges de travail du protocole SfB](media/0dccf933-eab3-4793-a8a4-4f6b9b0b4fa0.png)<br/>[Version PDF](https://go.microsoft.com/fwlink/p/?LinkId=550989) (recommandé pour les appareils mobiles ou les tablettes PC) <br/> [Version Visio](https://go.microsoft.com/fwlink/p/?LinkId=550991) (recommandé pour les utilisateurs de Visio) |Téléchargez ce poster afin de mieux comprendre les exigences de Skype pour les serveurs et les clients avec différents niveaux de complexité du service.<br/> <br/> Dimension : 28 x 43 cm (multifeuilles, format imprimable sur la plupart des imprimantes de bureau) <br/> <br/> Cette affiche a été créée à lʼaide de Visio 2015. Aucune modification nʼest nécessaire pour lʼadapter à un environnement spécifique. |
-|**Méthodologie de qualité des appels Skype Entreprise** <br/> ![Appel affiche méthodologie de qualité de la](media/69d33707-8dc4-446a-8d72-0a77be59a64a.png)[version PDF](https://go.microsoft.com/fwlink/p/?LinkId=617899) (recommandé pour les appareils mobiles ou les tablettes PC) <br/> [Version Visio](https://go.microsoft.com/fwlink/p/?LinkId=617900) (recommandé pour les utilisateurs de Visio) |Téléchargez ce poster pour en savoir plus sur CQM, la méthodologie de la qualité des appels de Skype pour Business Server 2015 qui vous permet de trouver et d’éliminer les problèmes affectant l’appel expérience qualité et utilisateur pour les implémentations qui incluent des fonctionnalités de voix entreprise. <br/> <br/> Utilisez la [page Détails de téléchargement](https://go.microsoft.com/fwlink/p/?LinkId=617898) pour obtenir les règles et les cartes de visite imprimables si vous souhaitez le lire comme un jeu. Utiliser cette affiche avec la [Carte de performance CQM](https://go.microsoft.com/fwlink/p/?LinkId=617904). <br/><br/> Dimensions : 86 x 112 cm <br/> <br/> Cette affiche a été créée à lʼaide de Visio 2015. Aucune modification nʼest nécessaire pour lʼadapter à un environnement spécifique. |
-|**Skype pour les Solutions de voix entreprise** <br/> ![Affiche des Solutions voix plan](media/1d3371f3-d554-4d6b-ac4f-a927bbe50b26.png) <br/> [Version PDF](https://go.microsoft.com/fwlink/?linkid=869123) (recommandé pour les appareils mobiles ou les tablettes PC) <br/> [Version Visio](https://go.microsoft.com/fwlink/?linkid=869124) (recommandé pour les utilisateurs de Visio) |Microsoft propose plusieurs options pour permettre aux utilisateurs d’appeler des réseaux terrestres et téléphones mobiles par le biais du Public téléphone réseau commuté (RTC)--si leurs comptes existent dans Office 365 sur Skype pour Business Online ou dans votre Skype sur site pour les entreprises Déploiement de serveur 2015. Cette affiche présente les différentes offres vocales Microsoft et contient des conseils sur les options susceptibles d’être mieux adaptées à vos besoins, selon le statut actuel et les projets à venir de votre organisation. <br/> <br/> Dimensions : 86 x 112 cm <br/><br/> Cette affiche a été créée à lʼaide de Visio 2015. Aucune modification nʼest nécessaire pour lʼadapter à un environnement spécifique. |
-|**Modèles d’architecture Skype Entreprise** <br/> ![Modèles d’architecture Skype Entreprise](media/0734153f-af7b-4cf3-b095-96bdd1de3fb0.png) <br/> [Version PDF](https://go.microsoft.com/fwlink/?linkid=869125) (recommandé pour les appareils mobiles ou les tablettes PC) <br/> [Version Visio](https://go.microsoft.com/fwlink/?linkid=869126) (recommandé pour les utilisateurs de Visio) |Cette série affiche est destinée à l’audience sensibiliser les différents modèles d’architecturales fondamentales à travers lequel Skype pour Business Online et Skype pour Business Server 2015 sur site pouvant être consommés professionnels de l’informatique. Démarrer avec la configuration meilleures adaptée aux besoins de votre organisation et les plans futurs. Examinez les autres, et utilisez-les selon vos besoins. Par exemple, vous pouvez souhaiter prendre en compte l’intégration à Exchange et SharePoint ou une solution qui tire parti de l’offre de Microsoft Cloud PBX. <br/><br/> Dimensions : 27 x 43 cm <br/><br/> Cette affiche a été créée à lʼaide de Visio 2010. Aucune modification nʼest nécessaire pour lʼadapter à un environnement spécifique. |
+|**Charge de travail du protocole Skype entreprise Server** <br/>![Affiche des charges de travail du protocole SfB](media/0dccf933-eab3-4793-a8a4-4f6b9b0b4fa0.png)<br/>[Version PDF](https://go.microsoft.com/fwlink/p/?LinkId=550989) (recommandé pour les appareils mobiles ou les tablettes) <br/> [Version de Visio](https://go.microsoft.com/fwlink/p/?LinkId=550991) (recommandé pour les utilisateurs avec Visio) |Téléchargez cette affiche pour mieux comprendre les exigences des serveurs et clients Skype entreprise en fonction de différents niveaux de complexité de service.<br/> <br/> Dimension : 28 x 43 cm (multifeuilles, format imprimable sur la plupart des imprimantes de bureau) <br/> <br/> Cette affiche a été créée à lʼaide de Visio 2015. Aucune modification nʼest nécessaire pour lʼadapter à un environnement spécifique. |
+|**Méthodologie de qualité des appels Skype Entreprise** <br/> ![](media/69d33707-8dc4-446a-8d72-0a77be59a64a.png)[Version PDF](https://go.microsoft.com/fwlink/p/?LinkId=617899) de la méthodologie de qualité d’appel (idéale pour les appareils mobiles ou les tablettes) <br/> [Version de Visio](https://go.microsoft.com/fwlink/p/?LinkId=617900) (recommandé pour les utilisateurs avec Visio) |Téléchargez cette affiche pour en savoir plus sur CQM, la méthodologie de qualité des appels pour Skype entreprise Server 2015 qui vous permet de rechercher et d’éliminer les problèmes affectant la qualité des appels et de l’utilisation des fonctionnalités de l’application. <br/> <br/> Vous pouvez utiliser la [page des détails du téléchargement](https://go.microsoft.com/fwlink/p/?LinkId=617898) pour obtenir les cartes et les cartes à imprimer si vous souhaitez le lire en tant que jeu de tableau. Utilisez cet affiche avec la [carte de performance CQM](https://go.microsoft.com/fwlink/p/?LinkId=617904). <br/><br/> Dimensions : 86 x 112 cm <br/> <br/> Cette affiche a été créée à lʼaide de Visio 2015. Aucune modification nʼest nécessaire pour lʼadapter à un environnement spécifique. |
+|**Solutions vocales Skype entreprise** <br/> ![Planifier l’affiche des solutions vocales](media/1d3371f3-d554-4d6b-ac4f-a927bbe50b26.png) <br/> [Version PDF](https://go.microsoft.com/fwlink/?linkid=869123) (recommandé pour les appareils mobiles ou les tablettes) <br/> [Version de Visio](https://go.microsoft.com/fwlink/?linkid=869124) (recommandé pour les utilisateurs avec Visio) |Microsoft propose plusieurs options pour permettre à vos utilisateurs d’appeler des téléphones fixes et mobiles par le biais du réseau téléphonique public commuté (RTC), qu’il existe un compte dans Office 365 sur Skype entreprise Online ou dans votre Skype entreprise local. Déploiement de serveur 2015. Cette affiche présente les différentes offres vocales Microsoft et contient des conseils sur les options susceptibles d’être mieux adaptées à vos besoins, selon le statut actuel et les projets à venir de votre organisation. <br/> <br/> Dimensions : 86 x 112 cm <br/><br/> Cette affiche a été créée à lʼaide de Visio 2015. Aucune modification nʼest nécessaire pour lʼadapter à un environnement spécifique. |
+|**Modèles d’architecture Skype Entreprise** <br/> ![Modèles d’architecture Skype Entreprise](media/0734153f-af7b-4cf3-b095-96bdd1de3fb0.png) <br/> [Version PDF](https://go.microsoft.com/fwlink/?linkid=869125) (recommandé pour les appareils mobiles ou les tablettes) <br/> [Version de Visio](https://go.microsoft.com/fwlink/?linkid=869126) (recommandé pour les utilisateurs avec Visio) |Cette série d’affiches est conçue pour permettre aux professionnels de l’informatique de faire connaître les différents modèles architecturaux fondamentaux par lesquels Skype entreprise Online et Skype entreprise Server 2015 en local peuvent être utilisés. Commencer avec toute configuration adaptée aux besoins de votre organisation et aux futurs plans. Examinez les autres, et utilisez-les selon vos besoins. Par exemple, vous souhaiterez peut-être envisager une intégration avec Exchange et SharePoint, ou une solution qui tire parti de l’offre PBX Cloud de Microsoft. <br/><br/> Dimensions : 27 x 43 cm <br/><br/> Cette affiche a été créée à lʼaide de Visio 2010. Aucune modification nʼest nécessaire pour lʼadapter à un environnement spécifique. |
 
 ## <a name="visual-assets"></a>Ressources visuelles
 
-Si vous voulez rendre votre propre à l’aide de la nouvelle Skype pour les symboles d’entreprise, [Téléchargez les gabarits](https://go.microsoft.com/fwlink/p/?LinkId=550985)Visio des diagrammes de topologie.
+Pour créer vos propres diagrammes de topologie Visio à l’aide du nouveau symbole Skype entreprise, [Téléchargez les gabarits](https://go.microsoft.com/fwlink/p/?LinkId=550985).
 
 ## <a name="tips-for-printing-large-format-posters"></a>Conseils pour imprimer des affiches grand format
 

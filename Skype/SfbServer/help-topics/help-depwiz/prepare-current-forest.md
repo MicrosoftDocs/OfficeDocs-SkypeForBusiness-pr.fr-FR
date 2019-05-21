@@ -5,24 +5,24 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/8/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.dep.DeployMainForestPrep
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 11f5e359-97eb-45f7-a730-9ddbbaa40b83
-description: Pour préparer la forêt des Services de domaine Active Directory, vous devez correctement étendre le schéma, comme décrit dans la rubrique Préparation du schéma en cours d’exécution et vous assurer que le schéma a été répliqué.
-ms.openlocfilehash: 51f3a4bd643ce4d3102d1d0e0c6810fae951c5f1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Pour préparer la forêt services de domaine Active Directory (AD FS), vous devez prolonger le schéma comme décrit dans la rubrique exécution de la préparation du schéma et vérifier que le schéma a été répliqué.
+ms.openlocfilehash: 3d22b2a2cbe69132d7c84cbcced3090fd4ade266
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33888792"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283832"
 ---
 # <a name="prepare-current-forest"></a>Préparer la forêt actuelle
 
-Pour préparer la forêt des Services de domaine Active Directory, vous devez correctement étendre le schéma, comme décrit dans la rubrique [Préparation du schéma en cours d’exécution](https://technet.microsoft.com/library/067726ae-fd3f-4133-a32f-26d2603ac674.aspx)et vous assurer que le schéma a été répliqué.
+Pour préparer la forêt services de domaine Active Directory (AD FS), vous devez prolonger le schéma comme décrit dans la rubrique exécution de la [préparation du schéma](https://technet.microsoft.com/library/067726ae-fd3f-4133-a32f-26d2603ac674.aspx)et vérifier que le schéma a été répliqué.
 
 Après avoir rempli ces conditions préalables, vous pouvez passer à l’**Étape 3 : Préparer la forêt actuelle**. Pour préparer la forêt, connectez-vous à un ordinateur dans la racine de la forêt en tant que membre du groupe Administrateurs du domaine ou en tant que membre du groupe Administrateurs d’entreprise dans la forêt que vous préparez.
 
@@ -31,15 +31,15 @@ Après avoir rempli ces conditions préalables, vous pouvez passer à l’**Éta
 2. Dans la page **Préparer la forêt**, cliquez sur **Suivant**.
 
     > [!NOTE]
-    > Préparation de la forêt vous permet de choisir l’emplacement où placer les groupes universels pour Skype pour Business Server 2015. Sélectionnez un emplacement conforme aux besoins de votre organisation.
+    > La préparation de la forêt vous permet de choisir l’emplacement des groupes universels pour Skype entreprise Server 2015. Sélectionnez un emplacement conforme aux besoins de votre organisation.
 
 3. Dans la page **Exécution de commandes**, recherchez **Statut de la tâche : Terminée**, puis cliquez sur **Afficher le journal**. Assurez-vous qu’il n’y a pas d’erreurs. Consultez les avertissements pour vous assurer qu’ils sont ordinaires et conformes à votre infrastructure.
 
-4. Dans la colonne **Action** , dans le journal, développez **La préparation de la forêt**, recherchez un ** \<réussite\> ** résultat de l’exécution à la fin de chaque tâche pour vérifier que la préparation de forêt terminée avec succès, fermez le fichier journal, puis cliquez sur **Terminer **.
+4. Dans la colonne **action** du journal, développez **Forest PREP**, recherchez un ** \<\> ** résultat d’exécution réussie à la fin de chaque tâche pour vérifier que la préparation de la forêt s’est déroulée correctement, fermez le journal, puis cliquez sur **Terminer. **.
 
-5. Attendre la réplication des Services de domaine Active Directory soit terminée ou forcez la réplication sur tous les contrôleurs de domaine répertoriés dans le composant logiciel enfichable **Services et Sites Active Directory** pour le contrôleur de domaine racine de forêt, avant d’exécuter la préparation du domaine. Forcez la réplication entre les contrôleurs de domaine dans tous les sites Active Directory pour forcer la réplication dans les sites se produise en quelques minutes.
+5. Attendez la fin de la réplication des services de domaine Active Directory, ou forcez la réplication vers tous les contrôleurs de domaine figurant dans le composant logiciel enfichable **sites et services Active Directory** pour le contrôleur de domaine racine de la forêt avant d’exécuter la préparation du domaine. Forcez la réplication entre les contrôleurs de domaine dans tous les sites Active Directory pour que la réplication au sein des sites se produise en quelques minutes.
 
     > [!TIP]
-    > Si vous avez besoin passer en revue les fichiers journaux qui sont créés par le Skype pour l’Assistant de déploiement Business Server, vous pouvez trouver les sur l’ordinateur où a été exécuté l’Assistant déploiement, dans le répertoire des utilisateurs de l’utilisateur des Services de domaine Active Directory qui a exécuté l’étape. Par exemple, si l’utilisateur est connecté en tant qu’administrateur de domaine dans le domaine Contoso.net, les fichiers journaux se trouvent dans : C:\Users\Administrator.Contoso\AppData\Local\Temp
+    > Si vous avez besoin de passer en revue les fichiers journaux créés par l’Assistant Déploiement de Skype entreprise, vous pouvez les retrouver sur l’ordinateur sur lequel l’Assistant déploiement a été exécuté, dans l’annuaire utilisateurs de l’utilisateur de services de domaine Active Directory (AD FS) qui a exécuté l’étape. Par exemple, si l’utilisateur connecté en tant qu’administrateur de domaine dans le domaine Contoso.net, les fichiers journaux se trouvent dans: C:\Users\Administrator.Contoso\AppData\Local\Temp
 
 
