@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.NcsRegionLinkMain
@@ -13,18 +13,18 @@ localization_priority: Normal
 ms.assetid: a42d2185-efa5-4659-839b-5e67d80de2da
 ROBOTS: NOINDEX, NOFOLLOW
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: 632487f8e0a423ba619709adc96208c090db570d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 44912be1b4fcf4f33364692e3f87af3102bcd875
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33891102"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279003"
 ---
-# <a name="configure-a-network-region-link"></a><span data-ttu-id="070cb-104">Configurer un lien de région réseau</span><span class="sxs-lookup"><span data-stu-id="070cb-104">Configure a Network Region Link</span></span>
+# <a name="configure-a-network-region-link"></a><span data-ttu-id="767cd-104">Configurer un lien de région réseau</span><span class="sxs-lookup"><span data-stu-id="767cd-104">Configure a Network Region Link</span></span>
 
-<span data-ttu-id="070cb-105">Que voulez-vous faire ?</span><span class="sxs-lookup"><span data-stu-id="070cb-105">What do you want to do?</span></span> <span data-ttu-id="070cb-106">Cliquez sur le lien de la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="070cb-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="767cd-105">Que voulez-vous faire ?</span><span class="sxs-lookup"><span data-stu-id="767cd-105">What do you want to do?</span></span> <span data-ttu-id="767cd-106">Cliquez sur le lien de la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="767cd-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="070cb-107">Configuration des liens de région réseau</span><span class="sxs-lookup"><span data-stu-id="070cb-107">Configuring Network Region Links</span></span>](https://technet.microsoft.com/library/952bc93e-e6aa-4539-85c7-2b15f14eb382.aspx)
+- [<span data-ttu-id="767cd-107">Configuration de liens de région réseau</span><span class="sxs-lookup"><span data-stu-id="767cd-107">Configuring Network Region Links</span></span>](https://technet.microsoft.com/library/952bc93e-e6aa-4539-85c7-2b15f14eb382.aspx)
 
 
 

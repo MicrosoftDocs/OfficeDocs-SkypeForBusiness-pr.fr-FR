@@ -4,28 +4,28 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: 'Lorsqu’un compte d’utilisateur est déplacé à partir d’à un Skype pour Business Server 2019 server, les informations suivantes sont déplacées avec ce compte d’utilisateur :'
-ms.openlocfilehash: bf10fa6b4ad4d555ce80dee5ec4e4a6584020ac7
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Lorsque vous dépassez un compte d’utilisateur d’un serveur 2019 Skype entreprise Server, les informations suivantes sont déplacées à l’aide de ce compte d’utilisateur:'
+ms.openlocfilehash: 4b5c7981374f3e2bf6dc2d87a0b21d972ddb14ae
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231657"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34288599"
 ---
-# <a name="migrate-existing-meetings-and-meeting-content"></a><span data-ttu-id="c2d2e-103">Migration des réunions existantes et du contenu des réunions</span><span class="sxs-lookup"><span data-stu-id="c2d2e-103">Migrate existing meetings and meeting content</span></span>
+# <a name="migrate-existing-meetings-and-meeting-content"></a><span data-ttu-id="5ec41-103">Migration des réunions existantes et du contenu des réunions</span><span class="sxs-lookup"><span data-stu-id="5ec41-103">Migrate existing meetings and meeting content</span></span>
 
-<span data-ttu-id="c2d2e-104">Lorsqu’un compte d’utilisateur est déplacé vers un Skype pour Business Server 2019 server, les informations suivantes sont déplacées avec ce compte d’utilisateur :</span><span class="sxs-lookup"><span data-stu-id="c2d2e-104">When a user account is moved to a Skype for Business Server 2019 server, the following information is moved with that user account:</span></span>
+<span data-ttu-id="5ec41-104">Lorsqu’un compte d’utilisateur est déplacé vers un serveur Skype entreprise Server 2019, les informations suivantes sont déplacées à l’aide de ce compte d’utilisateur:</span><span class="sxs-lookup"><span data-stu-id="5ec41-104">When a user account is moved to a Skype for Business Server 2019 server, the following information is moved with that user account:</span></span>
   
-- <span data-ttu-id="c2d2e-105">**Réunions déjà planifiées par l’utilisateur**.</span><span class="sxs-lookup"><span data-stu-id="c2d2e-105">**Meetings already scheduled by the user**.</span></span> <span data-ttu-id="c2d2e-106">Cela inclut le déplacement des annuaires de conférence et données de conférence.</span><span class="sxs-lookup"><span data-stu-id="c2d2e-106">This includes moving the conferencing directories and conferencing data.</span></span>
+- <span data-ttu-id="5ec41-105">**Réunions déjà planifiées par l’utilisateur**.</span><span class="sxs-lookup"><span data-stu-id="5ec41-105">**Meetings already scheduled by the user**.</span></span> <span data-ttu-id="5ec41-106">Cela inclut le déplacement des répertoires de conférences et des données de conférence.</span><span class="sxs-lookup"><span data-stu-id="5ec41-106">This includes moving the conferencing directories and conferencing data.</span></span>
     
-- <span data-ttu-id="c2d2e-107">**Confidentiel l’utilisateur (PIN)**.</span><span class="sxs-lookup"><span data-stu-id="c2d2e-107">**User's personal identification number (PIN)**.</span></span> <span data-ttu-id="c2d2e-108">Code confidentiel actuel de l’utilisateur continue de fonctionner jusqu'à ce qu’il expire ou que l’utilisateur demande un nouveau code confidentiel.</span><span class="sxs-lookup"><span data-stu-id="c2d2e-108">The user's current PIN continues to work until it expires or the user requests a new PIN.</span></span>
+- <span data-ttu-id="5ec41-107">**Code confidentiel (pin) de l’utilisateur**.</span><span class="sxs-lookup"><span data-stu-id="5ec41-107">**User's personal identification number (PIN)**.</span></span> <span data-ttu-id="5ec41-108">Le code confidentiel actuel de l’utilisateur continue de fonctionner tant qu’il n’a pas expiré ou que l’utilisateur ne demande pas de nouveau code secret.</span><span class="sxs-lookup"><span data-stu-id="5ec41-108">The user's current PIN continues to work until it expires or the user requests a new PIN.</span></span>
     
-<span data-ttu-id="c2d2e-109">Les informations de compte d’utilisateur suivantes ne déplacent pas vers le nouveau serveur.</span><span class="sxs-lookup"><span data-stu-id="c2d2e-109">The following user account information does not move to the new server.</span></span>
+<span data-ttu-id="5ec41-109">Les informations de compte d’utilisateur suivantes ne sont pas déplacées vers le nouveau serveur.</span><span class="sxs-lookup"><span data-stu-id="5ec41-109">The following user account information does not move to the new server.</span></span>
   
-- <span data-ttu-id="c2d2e-110">**Contenu de la réunion**.</span><span class="sxs-lookup"><span data-stu-id="c2d2e-110">**Meeting content**.</span></span> <span data-ttu-id="c2d2e-111">Afin de déplacer le contenu partagé au cours d’une réunion, telles que PowerPoint, tableau blanc, les pièces jointes ou les données de sondage, utilisent le paramètre **- MoveConferenceData** dans le cadre de l’applet de commande **Move-CsUser** .</span><span class="sxs-lookup"><span data-stu-id="c2d2e-111">In order to move the content shared during a meeting, such as PowerPoint, Whiteboard, attachments, or poll data, use the **-MoveConferenceData** parameter as part of the **Move-CsUser** cmdlet.</span></span> 
+- <span data-ttu-id="5ec41-110">**Contenu**de la réunion.</span><span class="sxs-lookup"><span data-stu-id="5ec41-110">**Meeting content**.</span></span> <span data-ttu-id="5ec41-111">Pour déplacer le contenu partagé pendant une réunion, tel que PowerPoint, un tableau blanc, des pièces jointes ou des données de sondage, utilisez le paramètre **-MoveConferenceData** dans le cadre de l’applet de commande **Move-Csuser** .</span><span class="sxs-lookup"><span data-stu-id="5ec41-111">In order to move the content shared during a meeting, such as PowerPoint, Whiteboard, attachments, or poll data, use the **-MoveConferenceData** parameter as part of the **Move-CsUser** cmdlet.</span></span> 
     
 

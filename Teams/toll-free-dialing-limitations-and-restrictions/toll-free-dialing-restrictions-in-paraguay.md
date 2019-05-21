@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -22,35 +22,35 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: Cela vous permettra de savoir comment composer des numéros gratuits dans chaque pays/région. Une fois que vous sélectionnez la pays/région, il vous dirige vers une page spécifique qui contient des détails plus spécifiques, les restrictions et les limites de la disponibilité du service gratuit où service gratuit est disponible. Le format de numérotation ou formats affichera les codes d’accès requis dans chaque pays/région de composer le numéro d’appel gratuit.
-ms.openlocfilehash: 414a1dccd5cacd3830365779e68c639f5940a06a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Vous pourrez ainsi découvrir comment composer un numéro gratuit dans chaque pays ou région. Lorsque vous sélectionnez le pays ou la région, vous êtes dirigé vers une page qui contient des détails, restrictions et limites spécifiques pour la disponibilité du service gratuit où le service gratuit est disponible. Le ou les formats de numérotation vous montrent les codes d’accès requis au sein de chaque pays/région pour composer le numéro gratuit.
+ms.openlocfilehash: 28f151c070630162e7fdddea27d280ce45b88926
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204238"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34281668"
 ---
-# <a name="toll-free-dialing-restrictions-in-paraguay"></a><span data-ttu-id="4fe48-105">Restrictions de numérotation gratuit au Paraguay</span><span class="sxs-lookup"><span data-stu-id="4fe48-105">Toll-free dialing restrictions in Paraguay</span></span>
+# <a name="toll-free-dialing-restrictions-in-paraguay"></a><span data-ttu-id="fa5b3-105">Restrictions de numérotation gratuit au Paraguay</span><span class="sxs-lookup"><span data-stu-id="fa5b3-105">Toll-free dialing restrictions in Paraguay</span></span>
 
-<span data-ttu-id="4fe48-106">[Trouver un autre pays ou région](../toll-free-dialing-limitations-and-restrictions.md), ou en savoir plus sur les restrictions et les limitations de composer le numéro gratuit.</span><span class="sxs-lookup"><span data-stu-id="4fe48-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
+<span data-ttu-id="fa5b3-106">[Recherchez un autre pays ou une autre région](../toll-free-dialing-limitations-and-restrictions.md)ou en savoir plus sur les limitations et restrictions de numérotation sans frais.</span><span class="sxs-lookup"><span data-stu-id="fa5b3-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
 
 
-|<span data-ttu-id="4fe48-107">**Détails**</span><span class="sxs-lookup"><span data-stu-id="4fe48-107">**Details**</span></span>|<span data-ttu-id="4fe48-108">**Description**</span><span class="sxs-lookup"><span data-stu-id="4fe48-108">**Description**</span></span>|
+|<span data-ttu-id="fa5b3-107">**Détails**</span><span class="sxs-lookup"><span data-stu-id="fa5b3-107">**Details**</span></span>|<span data-ttu-id="fa5b3-108">**Description**</span><span class="sxs-lookup"><span data-stu-id="fa5b3-108">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="4fe48-109">Est gratuit appelant disponibles ?</span><span class="sxs-lookup"><span data-stu-id="4fe48-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="4fe48-110">Oui</span><span class="sxs-lookup"><span data-stu-id="4fe48-110">Yes</span></span>  <br/> |
-|<span data-ttu-id="4fe48-111">Formats de numérotation</span><span class="sxs-lookup"><span data-stu-id="4fe48-111">Dialing format(s)</span></span>  <br/> | <span data-ttu-id="4fe48-112">009-800-101-XXX</span><span class="sxs-lookup"><span data-stu-id="4fe48-112">009-800-101-XXX</span></span> <br/> |
-|<span data-ttu-id="4fe48-113">Code de pays/région ISO</span><span class="sxs-lookup"><span data-stu-id="4fe48-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="4fe48-114">PY</span><span class="sxs-lookup"><span data-stu-id="4fe48-114">PY</span></span>  <br/> |
-|<span data-ttu-id="4fe48-115">Île/territoire couvert</span><span class="sxs-lookup"><span data-stu-id="4fe48-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="4fe48-116">Non applicable</span><span class="sxs-lookup"><span data-stu-id="4fe48-116">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="4fe48-117">Île/territoire non couvert</span><span class="sxs-lookup"><span data-stu-id="4fe48-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="4fe48-118">Non applicable</span><span class="sxs-lookup"><span data-stu-id="4fe48-118">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="4fe48-119">Disponibilité de la ligne filaire/fixe</span><span class="sxs-lookup"><span data-stu-id="4fe48-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="4fe48-120">Oui</span><span class="sxs-lookup"><span data-stu-id="4fe48-120">Yes</span></span>  <br/> |
-|<span data-ttu-id="4fe48-121">Disponibilité de réseau mobile</span><span class="sxs-lookup"><span data-stu-id="4fe48-121">Mobile network availability</span></span>  <br/> |<span data-ttu-id="4fe48-122">Non</span><span class="sxs-lookup"><span data-stu-id="4fe48-122">No</span></span>  <br/> |
-|<span data-ttu-id="4fe48-123">Commentaires, les restrictions et les problèmes d’accès</span><span class="sxs-lookup"><span data-stu-id="4fe48-123">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="4fe48-124">Aucun</span><span class="sxs-lookup"><span data-stu-id="4fe48-124">None</span></span>  <br/> |
+|<span data-ttu-id="fa5b3-109">Est-ce que l’appel gratuit est disponible?</span><span class="sxs-lookup"><span data-stu-id="fa5b3-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="fa5b3-110">Oui</span><span class="sxs-lookup"><span data-stu-id="fa5b3-110">Yes</span></span>  <br/> |
+|<span data-ttu-id="fa5b3-111">Format (s) de numérotation</span><span class="sxs-lookup"><span data-stu-id="fa5b3-111">Dialing format(s)</span></span>  <br/> | <span data-ttu-id="fa5b3-112">009-800-101-XXX</span><span class="sxs-lookup"><span data-stu-id="fa5b3-112">009-800-101-XXX</span></span> <br/> |
+|<span data-ttu-id="fa5b3-113">Code ISO pays/région</span><span class="sxs-lookup"><span data-stu-id="fa5b3-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="fa5b3-114">PY</span><span class="sxs-lookup"><span data-stu-id="fa5b3-114">PY</span></span>  <br/> |
+|<span data-ttu-id="fa5b3-115">Île/territoire couvert</span><span class="sxs-lookup"><span data-stu-id="fa5b3-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="fa5b3-116">Non applicable</span><span class="sxs-lookup"><span data-stu-id="fa5b3-116">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="fa5b3-117">Île/territoire non couvert</span><span class="sxs-lookup"><span data-stu-id="fa5b3-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="fa5b3-118">Non applicable</span><span class="sxs-lookup"><span data-stu-id="fa5b3-118">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="fa5b3-119">Disponibilité de ligne filaire/fixe</span><span class="sxs-lookup"><span data-stu-id="fa5b3-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="fa5b3-120">Oui</span><span class="sxs-lookup"><span data-stu-id="fa5b3-120">Yes</span></span>  <br/> |
+|<span data-ttu-id="fa5b3-121">Disponibilité de réseau mobile</span><span class="sxs-lookup"><span data-stu-id="fa5b3-121">Mobile network availability</span></span>  <br/> |<span data-ttu-id="fa5b3-122">Non</span><span class="sxs-lookup"><span data-stu-id="fa5b3-122">No</span></span>  <br/> |
+|<span data-ttu-id="fa5b3-123">Commentaires, restrictions et problèmes d’accès</span><span class="sxs-lookup"><span data-stu-id="fa5b3-123">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="fa5b3-124">Aucun</span><span class="sxs-lookup"><span data-stu-id="fa5b3-124">None</span></span>  <br/> |
    
-## <a name="related-topics"></a><span data-ttu-id="4fe48-125">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="4fe48-125">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="fa5b3-125">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="fa5b3-125">Related topics</span></span>
 
-[<span data-ttu-id="4fe48-126">Limitations et restrictions concernant la composition de numéros verts</span><span class="sxs-lookup"><span data-stu-id="4fe48-126">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
+[<span data-ttu-id="fa5b3-126">Limitations et restrictions concernant la composition de numéros verts</span><span class="sxs-lookup"><span data-stu-id="fa5b3-126">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
 
-[<span data-ttu-id="4fe48-127">Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="4fe48-127">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
+[<span data-ttu-id="fa5b3-127">Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="fa5b3-127">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
 
   
  

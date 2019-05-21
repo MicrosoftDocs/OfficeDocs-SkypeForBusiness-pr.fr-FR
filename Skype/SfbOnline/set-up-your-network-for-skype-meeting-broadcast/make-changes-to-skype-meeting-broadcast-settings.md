@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -18,31 +18,31 @@ f1keywords:
 - ms.lync.lac.BroadcastMeetings
 ms.custom:
 - SMB
-description: Vous pouvez activer la diffusion de réunion Skype et apporter des modifications aux paramètres et les stratégies pour les réunions.
-ms.openlocfilehash: 7145f246ff7b3b6edbcae84f2ca2f5bc381ea501
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Vous pouvez activer la diffusion de réunion Skype et modifier les paramètres et les politiques de ces réunions.
+ms.openlocfilehash: 98010683c12c9c8586768f78bd9c45d0231c3e8a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226273"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280792"
 ---
-# <a name="make-changes-to-skype-meeting-broadcast-settings-for-your-organization"></a><span data-ttu-id="43073-103">Modifier les paramètres de diffusion de réunion Skype pour votre organisation</span><span class="sxs-lookup"><span data-stu-id="43073-103">Make changes to Skype Meeting Broadcast settings for your organization</span></span>
+# <a name="make-changes-to-skype-meeting-broadcast-settings-for-your-organization"></a><span data-ttu-id="53ddd-103">Modifier les paramètres de diffusion de réunion Skype pour votre organisation</span><span class="sxs-lookup"><span data-stu-id="53ddd-103">Make changes to Skype Meeting Broadcast settings for your organization</span></span>
 
-<span data-ttu-id="43073-104">Vous pouvez activer la diffusion de réunion Skype et apporter des modifications aux paramètres et les stratégies pour les réunions.</span><span class="sxs-lookup"><span data-stu-id="43073-104">You can enable Skype Meeting Broadcast and make changes to settings and policies for those meetings.</span></span>
+<span data-ttu-id="53ddd-104">Vous pouvez activer la diffusion de réunion Skype et modifier les paramètres et les politiques de ces réunions.</span><span class="sxs-lookup"><span data-stu-id="53ddd-104">You can enable Skype Meeting Broadcast and make changes to settings and policies for those meetings.</span></span>
   
-- <span data-ttu-id="43073-105">**Activer la diffusion de réunion Skype** Permet la diffusion de réunion Skype.</span><span class="sxs-lookup"><span data-stu-id="43073-105">**Enable Skype Meeting Broadcast** Enables Skype Meeting Broadcast.</span></span> <span data-ttu-id="43073-106">Après avoir activé la diffusion de réunion Skype, vous devez [configurer votre réseau de diffusion de réunion Skype](set-up-your-network-for-skype-meeting-broadcast.md).</span><span class="sxs-lookup"><span data-stu-id="43073-106">After you enable Skype Meeting Broadcast, you need to [Set up your network for Skype Meeting Broadcast](set-up-your-network-for-skype-meeting-broadcast.md).</span></span> <span data-ttu-id="43073-107">Effectuez cette étape si vous souhaitez bloquer les conférences Web et autres diffusions pour les personnes à l’extérieur de votre entreprise.</span><span class="sxs-lookup"><span data-stu-id="43073-107">Do this step if you want to hold webinars and other broadcasts for people outside of your business.</span></span> 
+- <span data-ttu-id="53ddd-105">**Activer une diffusion de réunion Skype** Activation de la diffusion de réunion Skype.</span><span class="sxs-lookup"><span data-stu-id="53ddd-105">**Enable Skype Meeting Broadcast** Enables Skype Meeting Broadcast.</span></span> <span data-ttu-id="53ddd-106">Après activation de la diffusion de réunion Skype, vous devez [configurer votre réseau pour la diffusion de réunion Skype](set-up-your-network-for-skype-meeting-broadcast.md).</span><span class="sxs-lookup"><span data-stu-id="53ddd-106">After you enable Skype Meeting Broadcast, you need to [Set up your network for Skype Meeting Broadcast](set-up-your-network-for-skype-meeting-broadcast.md).</span></span> <span data-ttu-id="53ddd-107">Cette étape permet de mettre en avant des webinaires et d’autres émissions pour des personnes extérieures à votre entreprise.</span><span class="sxs-lookup"><span data-stu-id="53ddd-107">Do this step if you want to hold webinars and other broadcasts for people outside of your business.</span></span> 
     
-- <span data-ttu-id="43073-108">**Fonctionnalités d’activer l’aperçu de diffusion de réunion Skype pour mon organisation** Le Skype pour les programmes clients fournissent Profitez d’un accès à nouveaux produits et fonctionnalités.</span><span class="sxs-lookup"><span data-stu-id="43073-108">**Enable Skype Meeting Broadcast Preview features for my organization** The Skype for Business customer programs provide you early access to new products and features.</span></span> <span data-ttu-id="43073-109">Cela permet à votre organisation jetez un œil à la possibilité de tester les nouvelles fonctionnalités dans votre propre environnement et fournir des commentaires avant la sortie des versions de produit au grand public et les nouveautés.</span><span class="sxs-lookup"><span data-stu-id="43073-109">This gives your organization a sneak peek at what's coming and the opportunity to test the new features in your own environment and give feedback before we release product builds to the general public.</span></span><br/>[<span data-ttu-id="43073-110">Skype pour l’aperçu de l’entreprise</span><span class="sxs-lookup"><span data-stu-id="43073-110">Skype for Business preview</span></span>](https://www.skypepreview.com/)
+- <span data-ttu-id="53ddd-108">**Activer les fonctionnalités de visualisation de diffusion de réunion Skype pour mon organisation** Le programme clients Skype entreprise vous permet d’accéder en avant-première aux nouveaux produits et fonctions.</span><span class="sxs-lookup"><span data-stu-id="53ddd-108">**Enable Skype Meeting Broadcast Preview features for my organization** The Skype for Business customer programs provide you early access to new products and features.</span></span> <span data-ttu-id="53ddd-109">Cela permet à votre organisation de découvrir les nouveautés et de tester les nouvelles fonctionnalités dans votre environnement et de faire des commentaires avant de mettre à jour le public.</span><span class="sxs-lookup"><span data-stu-id="53ddd-109">This gives your organization a sneak peek at what's coming and the opportunity to test the new features in your own environment and give feedback before we release product builds to the general public.</span></span><br/>[<span data-ttu-id="53ddd-110">Version préliminaire de Skype entreprise</span><span class="sxs-lookup"><span data-stu-id="53ddd-110">Skype for Business preview</span></span>](https://www.skypepreview.com/)
     
-- <span data-ttu-id="43073-111">**Permettre aux organisateurs d’organiser des réunions anonymes** Cela permet aux organisateurs créer des événements de diffusion qui autorisent tout le monde à l’extérieur de leur organisation à rejoindre sans une condition requise pour se connecter.</span><span class="sxs-lookup"><span data-stu-id="43073-111">**Allow organizers to schedule anonymous meetings** This lets organizers create broadcast events that allow anyone outside their organization to join without a requirement to sign in.</span></span>
+- <span data-ttu-id="53ddd-111">**Permettre aux organisateurs de planifier des réunions anonymes** Cela permet aux organisateurs de créer des événements de diffusion qui permettent aux utilisateurs extérieurs à leur organisation de se connecter sans nécessiter de connexion.</span><span class="sxs-lookup"><span data-stu-id="53ddd-111">**Allow organizers to schedule anonymous meetings** This lets organizers create broadcast events that allow anyone outside their organization to join without a requirement to sign in.</span></span>
     
-- <span data-ttu-id="43073-112">**Autoriser les réunions diffusion doit être enregistré** Cela permet à toutes les réunions que vous devez être enregistrées par le présentateur ou organisateur.</span><span class="sxs-lookup"><span data-stu-id="43073-112">**Allow broadcast meetings to be recorded** This enables any meetings you have to be recorded by the presenter or organizer.</span></span>
+- <span data-ttu-id="53ddd-112">**Permettre l’enregistrement des réunions diffusées** Cela permet à l’intervenant ou à l’organisateur d’enregistrer les réunions que vous devez enregistrer.</span><span class="sxs-lookup"><span data-stu-id="53ddd-112">**Allow broadcast meetings to be recorded** This enables any meetings you have to be recorded by the presenter or organizer.</span></span>
     
-- <span data-ttu-id="43073-113">**Support technique en charge d’URL pour les participants** Entrez un lien pour les participants de diffusion à utiliser s’ils ont besoin d’aide pour se connecter ou participation à une réunion de diffusion.</span><span class="sxs-lookup"><span data-stu-id="43073-113">**Helpdesk support URL for attendees** Enter a link for meeting broadcast attendees to use if they need help connecting or attending a broadcast meeting.</span></span>
+- <span data-ttu-id="53ddd-113">**URL du support technique pour les participants** Entrez un lien pour permettre aux participants de la diffusion de réunion de vous permettre de vous connecter ou de participer à une diffusion de réunion.</span><span class="sxs-lookup"><span data-stu-id="53ddd-113">**Helpdesk support URL for attendees** Enter a link for meeting broadcast attendees to use if they need help connecting or attending a broadcast meeting.</span></span>
     
-## <a name="related-topics"></a><span data-ttu-id="43073-114">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="43073-114">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="53ddd-114">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="53ddd-114">Related topics</span></span>
 
-[<span data-ttu-id="43073-115">Configurer votre réseau pour la diffusion de réunion Skype</span><span class="sxs-lookup"><span data-stu-id="43073-115">Set up your network for Skype Meeting Broadcast</span></span>](set-up-your-network-for-skype-meeting-broadcast.md)
+[<span data-ttu-id="53ddd-115">Configurer votre réseau pour la diffusion de réunion Skype</span><span class="sxs-lookup"><span data-stu-id="53ddd-115">Set up your network for Skype Meeting Broadcast</span></span>](set-up-your-network-for-skype-meeting-broadcast.md)
 
   
  
