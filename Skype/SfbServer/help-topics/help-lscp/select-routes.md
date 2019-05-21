@@ -5,28 +5,28 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.VoiceUsageSelRoute
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d136adcd-6659-4113-941c-cca75033318e
-description: Utilisez la boîte de dialogue Sélectionner des itinéraires pour trouver des itinéraires existants que vous pouvez utiliser.
-ms.openlocfilehash: 04de6f02a70c210ce7e4e89198bd1e6813421e60
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Utilisez la boîte de dialogue Sélectionner des itinéraires pour rechercher des itinéraires vocaux existants que vous pouvez utiliser.
+ms.openlocfilehash: c755c27b79c8e9d6c9772eb1ff7a05c682186d50
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924499"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34293339"
 ---
-# <a name="select-routes"></a><span data-ttu-id="7e4a5-103">Sélectionner des itinéraires</span><span class="sxs-lookup"><span data-stu-id="7e4a5-103">Select Routes</span></span>
+# <a name="select-routes"></a><span data-ttu-id="8b45c-103">Sélectionner des itinéraires</span><span class="sxs-lookup"><span data-stu-id="8b45c-103">Select Routes</span></span>
  
-<span data-ttu-id="7e4a5-104">Utilisez la boîte de dialogue **Sélectionner des itinéraires** pour trouver des itinéraires existants que vous pouvez utiliser.</span><span class="sxs-lookup"><span data-stu-id="7e4a5-104">Use the **Select Routes** dialog box to find existing voice routes that you can use.</span></span>
+<span data-ttu-id="8b45c-104">Utilisez la boîte de dialogue **Sélectionner des itinéraires** pour rechercher des itinéraires vocaux existants que vous pouvez utiliser.</span><span class="sxs-lookup"><span data-stu-id="8b45c-104">Use the **Select Routes** dialog box to find existing voice routes that you can use.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="7e4a5-105">Pour récupérer tous les itinéraires de communications vocales disponibles, ne pas tapez rien dans la zone de recherche et puis cliquez sur l’icône de recherche.</span><span class="sxs-lookup"><span data-stu-id="7e4a5-105">To retrieve all available voice routes, do not type anything in the search box and then click the search icon.</span></span> 
+> <span data-ttu-id="8b45c-105">Pour récupérer tous les itinéraires vocaux disponibles, n’entrez rien dans la zone de recherche, puis cliquez sur l’icône Rechercher.</span><span class="sxs-lookup"><span data-stu-id="8b45c-105">To retrieve all available voice routes, do not type anything in the search box and then click the search icon.</span></span> 
   
-<span data-ttu-id="7e4a5-106">Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide de la Skype pour le panneau de configuration serveur Business, voir [Gérer les Skype pour Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="7e4a5-106">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="8b45c-106">Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du panneau de configuration Skype entreprise Server, reportez-vous à la rubrique [gestion de Skype entreprise server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="8b45c-106">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
   
 

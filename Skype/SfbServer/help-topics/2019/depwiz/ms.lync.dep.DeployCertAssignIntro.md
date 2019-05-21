@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.dep.DeployCertAssignIntro
@@ -12,16 +12,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 26d6b07e-d2c7-4ff7-aca4-4bbb29f13f8d
 ROBOTS: NOINDEX, NOFOLLOW
-description: Pour commencer l’attribution d’un certificat à utiliser dans Skype pour Business Server, cliquez sur Suivant.
-ms.openlocfilehash: 76bbf0d04c29abde04291fa69ee39d23f9363b57
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Pour commencer à attribuer un certificat pour une utilisation dans Skype entreprise Server, cliquez sur suivant.
+ms.openlocfilehash: 6724e53e1d0ef74bf93c967082d8b84753f04be6
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894049"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34275565"
 ---
-# <a name="certificate-assignment-intro"></a><span data-ttu-id="432af-103">Assignation de certificat (introduction)</span><span class="sxs-lookup"><span data-stu-id="432af-103">Certificate Assignment (Intro)</span></span>
+# <a name="certificate-assignment-intro"></a><span data-ttu-id="e27b0-103">Assignation de certificat (introduction)</span><span class="sxs-lookup"><span data-stu-id="e27b0-103">Certificate Assignment (Intro)</span></span>
  
-<span data-ttu-id="432af-104">Pour commencer l’attribution d’un certificat à utiliser dans Skype pour Business Server, cliquez sur **suivant**.</span><span class="sxs-lookup"><span data-stu-id="432af-104">To begin assigning a certificate for use in Skype for Business Server, click **Next**.</span></span>
+<span data-ttu-id="e27b0-104">Pour commencer à attribuer un certificat pour une utilisation dans Skype entreprise Server, cliquez sur **suivant**.</span><span class="sxs-lookup"><span data-stu-id="e27b0-104">To begin assigning a certificate for use in Skype for Business Server, click **Next**.</span></span>
   
 

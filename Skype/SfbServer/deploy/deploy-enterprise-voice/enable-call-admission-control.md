@@ -1,10 +1,10 @@
 ---
-title: Activer le contrôle d’admission des appels d’appel dans Skype pour Business Server
+title: Activer le contrôle d’admission des appels dans Skype entreprise Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,57 +13,57 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 80201105-18f7-4c02-9c71-8df5a952f6c7
-description: Activer le contrôle d’admission des appels d’appel dans Skype pour Business Server Enterprise Voice.
-ms.openlocfilehash: ce50e11d5d8536dba6038a918a9242ad2cfd6f1d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Activez le contrôle d’admission des appels dans Skype entreprise Server Voice.
+ms.openlocfilehash: ed770a79a7237de682822e8280a13de4516921ec
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892495"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291594"
 ---
-# <a name="enable-call-admission-control-in-skype-for-business-server"></a><span data-ttu-id="8c756-103">Activer le contrôle d’admission des appels d’appel dans Skype pour Business Server</span><span class="sxs-lookup"><span data-stu-id="8c756-103">Enable call admission control in Skype for Business Server</span></span>
+# <a name="enable-call-admission-control-in-skype-for-business-server"></a><span data-ttu-id="e1ca3-103">Activer le contrôle d’admission des appels dans Skype entreprise Server</span><span class="sxs-lookup"><span data-stu-id="e1ca3-103">Enable call admission control in Skype for Business Server</span></span>
  
-<span data-ttu-id="8c756-104">Activer le contrôle d’admission des appels d’appel dans Skype pour Business Server Enterprise Voice.</span><span class="sxs-lookup"><span data-stu-id="8c756-104">Enable call admission control in Skype for Business Server Enterprise Voice.</span></span> 
+<span data-ttu-id="e1ca3-104">Activez le contrôle d’admission des appels dans Skype entreprise Server Voice.</span><span class="sxs-lookup"><span data-stu-id="e1ca3-104">Enable call admission control in Skype for Business Server Enterprise Voice.</span></span> 
   
-<span data-ttu-id="8c756-105">Une fois que vous avez configuré vos paramètres réseau pour le déploiement du contrôle d’admission des appels, vous devez activer le contrôle d’admission des appels afin de mettre en œuvre vos stratégies de bande passante.</span><span class="sxs-lookup"><span data-stu-id="8c756-105">After you have configured your network settings for call admission control deployment, you must enable CAC to put your bandwidth policies into effect.</span></span>
+<span data-ttu-id="e1ca3-105">Une fois que vous avez configuré vos paramètres réseau pour le déploiement du contrôle d’admission des appels, vous devez activer le contrôle d’admission des appels afin de mettre en œuvre vos stratégies de bande passante.</span><span class="sxs-lookup"><span data-stu-id="e1ca3-105">After you have configured your network settings for call admission control deployment, you must enable CAC to put your bandwidth policies into effect.</span></span>
   
-### <a name="to-enable-call-admission-control-by-using-skype-for-business-server-management-shell"></a><span data-ttu-id="8c756-106">Pour activer le contrôle d’admission des appels à l’aide de Skype pour Business Server Management Shell</span><span class="sxs-lookup"><span data-stu-id="8c756-106">To enable call admission control by using Skype for Business Server Management Shell</span></span>
+### <a name="to-enable-call-admission-control-by-using-skype-for-business-server-management-shell"></a><span data-ttu-id="e1ca3-106">Pour activer le contrôle d’admission des appels à l’aide de Skype entreprise Server Management Shell</span><span class="sxs-lookup"><span data-stu-id="e1ca3-106">To enable call admission control by using Skype for Business Server Management Shell</span></span>
 
-1. <span data-ttu-id="8c756-107">Démarrez le Skype pour Business Server Management Shell : cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Skype pour Business 2015**, puis cliquez sur **Skype pour Business Server Management Shell**.</span><span class="sxs-lookup"><span data-stu-id="8c756-107">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
+1. <span data-ttu-id="e1ca3-107">Démarrez Skype entreprise Server Management Shell: cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.</span><span class="sxs-lookup"><span data-stu-id="e1ca3-107">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
     
-2. <span data-ttu-id="8c756-p101">Exécutez l’applet de commande Set-CsNetworkConfiguration pour activer le contrôle d’admission des appels dans votre réseau. Par exemple, exécutez :</span><span class="sxs-lookup"><span data-stu-id="8c756-p101">Run the Set-CsNetworkConfiguration cmdlet to enable CAC in your network. For example, run:</span></span>
+2. <span data-ttu-id="e1ca3-p101">Exécutez l’applet de commande Set-CsNetworkConfiguration pour activer le contrôle d’admission des appels dans votre réseau. Par exemple, exécutez :</span><span class="sxs-lookup"><span data-stu-id="e1ca3-p101">Run the Set-CsNetworkConfiguration cmdlet to enable CAC in your network. For example, run:</span></span>
     
    ```
    Set-CsNetworkConfiguration -EnableBandwidthPolicyCheck 1
    ```
 
-    <span data-ttu-id="8c756-110">Si vous souhaitez désactiver le contrôle d’admission des appels dans votre réseau, exécutez la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="8c756-110">If you want to disable CAC in your network, run the following:</span></span>
+    <span data-ttu-id="e1ca3-110">Si vous souhaitez désactiver le contrôle d’admission des appels dans votre réseau, exécutez la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="e1ca3-110">If you want to disable CAC in your network, run the following:</span></span>
     
    ```
    Set-CsNetworkConfiguration -EnableBandwidthPolicyCheck 0
    ```
 
-### <a name="to-enable-call-admission-control-by-using-skype-for-business-server-control-panel"></a><span data-ttu-id="8c756-111">Pour activer le contrôle d’admission des appels à l’aide de Skype pour Business Server Control Panel</span><span class="sxs-lookup"><span data-stu-id="8c756-111">To enable call admission control by using Skype for Business Server Control Panel</span></span>
+### <a name="to-enable-call-admission-control-by-using-skype-for-business-server-control-panel"></a><span data-ttu-id="e1ca3-111">Pour activer le contrôle d’admission des appels à l’aide du panneau de configuration Skype entreprise Server</span><span class="sxs-lookup"><span data-stu-id="e1ca3-111">To enable call admission control by using Skype for Business Server Control Panel</span></span>
 
-1. <span data-ttu-id="8c756-112">Ouvrez le panneau de configuration serveur Business Skype.</span><span class="sxs-lookup"><span data-stu-id="8c756-112">Open Skype for Business Server Control Panel.</span></span>
+1. <span data-ttu-id="e1ca3-112">Ouvrez le panneau de configuration Skype entreprise Server.</span><span class="sxs-lookup"><span data-stu-id="e1ca3-112">Open Skype for Business Server Control Panel.</span></span>
     
-2. <span data-ttu-id="8c756-113">Dans la barre de navigation de gauche, cliquez sur **Configuration réseau**.</span><span class="sxs-lookup"><span data-stu-id="8c756-113">In the left navigation bar, click **Network Configuration**.</span></span>
+2. <span data-ttu-id="e1ca3-113">Dans la barre de navigation de gauche, cliquez sur **Configuration réseau**.</span><span class="sxs-lookup"><span data-stu-id="e1ca3-113">In the left navigation bar, click **Network Configuration**.</span></span>
     
-3. <span data-ttu-id="8c756-114">Cliquez sur le bouton de navigation **Global**.</span><span class="sxs-lookup"><span data-stu-id="8c756-114">Click the **Global** navigation button.</span></span>
+3. <span data-ttu-id="e1ca3-114">Cliquez sur le bouton de navigation **Global**.</span><span class="sxs-lookup"><span data-stu-id="e1ca3-114">Click the **Global** navigation button.</span></span>
     
-4. <span data-ttu-id="8c756-115">Cliquez sur **Global** dans la liste, puis sélectionnez **Afficher les détails** dans le menu **Edition**.</span><span class="sxs-lookup"><span data-stu-id="8c756-115">Click **Global** in the list, and then select **Show Details** on the **Edit** menu.</span></span>
+4. <span data-ttu-id="e1ca3-115">Cliquez sur **Global** dans la liste, puis sélectionnez **Afficher les détails** dans le menu **Edition**.</span><span class="sxs-lookup"><span data-stu-id="e1ca3-115">Click **Global** in the list, and then select **Show Details** on the **Edit** menu.</span></span>
     
-5. <span data-ttu-id="8c756-116">Dans la page **Modifier la configuration globale**, activez la case à cocher **Activer le contrôle d’admission des appels**.</span><span class="sxs-lookup"><span data-stu-id="8c756-116">On the **Edit Global Settings** page, select the **Enable call admission control** check box.</span></span>
+5. <span data-ttu-id="e1ca3-116">Dans la page **Modifier la configuration globale**, activez la case à cocher **Activer le contrôle d’admission des appels**.</span><span class="sxs-lookup"><span data-stu-id="e1ca3-116">On the **Edit Global Settings** page, select the **Enable call admission control** check box.</span></span>
     
     > [!NOTE]
-    > <span data-ttu-id="8c756-117">Si vous souhaitez désactiver le contrôle d’admission des appels dans tout votre déploiement, désactivez cette case à cocher.</span><span class="sxs-lookup"><span data-stu-id="8c756-117">If you want to disable call admission control throughout your deployment, clear this check box.</span></span> 
+    > <span data-ttu-id="e1ca3-117">Si vous souhaitez désactiver le contrôle d’admission des appels dans tout votre déploiement, désactivez cette case à cocher.</span><span class="sxs-lookup"><span data-stu-id="e1ca3-117">If you want to disable call admission control throughout your deployment, clear this check box.</span></span> 
   
-6. <span data-ttu-id="8c756-118">Cliquez sur **Valider**.</span><span class="sxs-lookup"><span data-stu-id="8c756-118">Click **Commit**.</span></span> 
+6. <span data-ttu-id="e1ca3-118">Cliquez sur **Valider**.</span><span class="sxs-lookup"><span data-stu-id="e1ca3-118">Click **Commit**.</span></span> 
     
-## <a name="see-also"></a><span data-ttu-id="8c756-119">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="8c756-119">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e1ca3-119">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="e1ca3-119">See also</span></span>
 
-[<span data-ttu-id="8c756-120">Get-CsNetworkConfiguration</span><span class="sxs-lookup"><span data-stu-id="8c756-120">Get-CsNetworkConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/get-csnetworkconfiguration?view=skype-ps)
+[<span data-ttu-id="e1ca3-120">Get-Csnetworkconfiguration permettent</span><span class="sxs-lookup"><span data-stu-id="e1ca3-120">Get-CsNetworkConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/get-csnetworkconfiguration?view=skype-ps)
   
-[<span data-ttu-id="8c756-121">Set-CsNetworkConfiguration</span><span class="sxs-lookup"><span data-stu-id="8c756-121">Set-CsNetworkConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/set-csnetworkconfiguration?view=skype-ps)
+[<span data-ttu-id="e1ca3-121">Set-Csnetworkconfiguration permettent</span><span class="sxs-lookup"><span data-stu-id="e1ca3-121">Set-CsNetworkConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/set-csnetworkconfiguration?view=skype-ps)
   
-[<span data-ttu-id="8c756-122">Remove-CsNetworkConfiguration</span><span class="sxs-lookup"><span data-stu-id="8c756-122">Remove-CsNetworkConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkconfiguration?view=skype-ps)
+[<span data-ttu-id="e1ca3-122">Remove-Csnetworkconfiguration permettent</span><span class="sxs-lookup"><span data-stu-id="e1ca3-122">Remove-CsNetworkConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkconfiguration?view=skype-ps)
