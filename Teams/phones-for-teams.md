@@ -6,7 +6,7 @@ manager: serdars
 ms.reviewer: kponnus
 ms.topic: reference
 ms.service: msteams
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -15,72 +15,72 @@ ms.collection:
 - M365-collaboration
 - M365-voice
 localization_priority: Normal
-description: Cet article traite de la liste des téléphones qui sont certifiées pour Teams Microsoft et les fonctionnalités prises en charge dans les téléphones certifiés pour Microsoft Teams.
-ms.openlocfilehash: a5ac86ee1eb5e6ae87c25f9a2151efb092635323
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Cet article présente la liste des téléphones certifiés pour Microsoft teams ainsi que les fonctionnalités prises en charge par les téléphones certifiés pour Microsoft Teams.
+ms.openlocfilehash: 13c607ed11eef95223e1b40ebf2f306accf4e1d1
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32246624"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34304441"
 ---
 # <a name="phones-for-microsoft-teams"></a>Téléphones pour Microsoft Teams
 
-Teams Microsoft prend en charge une gamme de téléphones de bureau pour les utilisateurs qui ont besoin d’une expérience traditionnels. Cet article traite de la liste des téléphones qui sont certifiées pour Teams Microsoft et les fonctionnalités prises en charge dans les téléphones certifiés pour Microsoft Teams. Pour obtenir les informations à jour et les plus récentes dans des équipes de périphériques certifiés, accédez au [Site Marketplace équipes](http://office.com/teamsdevices).
+Microsoft teams prend en charge un portefeuille de téléphones de bureau pour les utilisateurs qui ont besoin d’une interface téléphonique classique. Cet article présente la liste des téléphones certifiés pour Microsoft teams ainsi que les fonctionnalités prises en charge par les téléphones certifiés pour Microsoft Teams. Pour obtenir les informations les plus récentes sur les équipes certifiées d’équipes, accédez à [teams Marketplace](http://office.com/teamsdevices).
 
-## <a name="teams-certified-ip-phones"></a>Équipes certifié des téléphones IP
+## <a name="teams-certified-ip-phones"></a>Téléphones IP certifiés Microsoft teams
 
-Afin d’offrir une expérience de Microsoft Teams haute qualité et fiable sur les téléphones, nous effectuons un partenariat et activement avec Yealink, Crestron, Polycom et Audiocodes pour développer et certifiez une large gamme de téléphones de bureau et les périphériques audio de salle de conférence. Voir [certifié actuellement les téléphones IP](/SkypeForBusiness/certification/teams-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json#currently-certified-ip-phones) pour les appareils pris en charge en cours.
+Pour proposer une utilisation fiable de Microsoft teams sur des téléphones, nous nous efforçons de vous aider à Yealink, Crestron, Polycom et AudioCodes à développer et à certifier un large éventail de téléphones de bureau et d’appareils audio de salle de conférence. Voir [téléphones IP certifiés](/SkypeForBusiness/certification/teams-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json#currently-certified-ip-phones) pour les appareils actuellement pris en charge.
 
-## <a name="microsoft-teams-phones-feature-set"></a>Jeu de fonctionnalités des téléphones Microsoft Teams
+## <a name="microsoft-teams-phones-feature-set"></a>Ensemble de fonctionnalités de téléphone de Microsoft teams
 
-Un ensemble de fonctionnalités prises en charge dans les équipes certifié des téléphones IP est disponible dans le tableau suivant.
+Le tableau suivant contient un ensemble de fonctionnalités de niveau supérieur prises en charge par les téléphones IP certifiés Microsoft Teams.
 
-|Fonctionnalités |Téléphone de bureau (Mode personnel) |Téléphone de salle de conférence (Mode partagé)|
+|Fonctionnalités |Téléphone de bureau (mode personnel) |Téléphone de salle de conférence (mode partagé)|
 |---------|---------|---------|
 |**Authentification** | |  |
 |Se connecter à l'aide des informations de connexion de l'utilisateur |  Oui  | Oui|
-|Se connecter à l’aide de PC/Smartphone.  | Oui  |Oui|
+|Se connecter à l’aide d’un PC ou d’un smartphone  | Oui  |Oui|
 |Authentification moderne | Oui  |Oui |
-|Verrouiller/déverrouiller le téléphone | Oui |Non |
+|Verrouillage et déverrouillage du téléphone | Oui |Non |
 |**Appels** |  |  |
-|Appels P2P entrant/sortant | Oui   |Oui |
-|Contrôles via l’interface utilisateur (Muet, attente/reprendre, transfert, fin de l’appel) d’appel| Oui   |Oui |
-|Appels PSTN| Oui   |Oui |
+|Appels P2P entrants/sortants | Oui   |Oui |
+|Contrôles d’appel dans l’interface utilisateur (sourdine, attente/reprise, transfert, fin de l’appel)| Oui   |Oui |
+|Appels RTC| Oui   |Oui |
 |Messagerie vocale visuelle | Oui | Non |
-|prise en charge 911  | Oui   |Oui |
-|**Calendrier et la présence**|   | |
-|Accès au calendrier et les détails de la réunion|Oui  |Oui|
+|support technique 911  | Oui   |Oui |
+|**Calendrier et présence**|   | |
+|Accès au calendrier et détails de la réunion|Oui  |Oui|
 |Intégration de la présence |Oui|Oui|
 |Intégration du calendrier Exchange |Oui |Oui|
 |Intégration de l'image des contacts  |Oui |Oui|
 |Accès à l’annuaire d’entreprise | Oui |Oui|
 |**Réunions**|   ||
-|Participer à un seul clic pour les réunions  | Oui   |Oui |
-|Joindre Skype pour les réunions d’entreprise | Oui   | Oui|
-|Contrôles d’appel de réunion (Activer/désactiver, attente/reprendre raccrocher, ajouter/supprimer un participant)|Oui |Oui|
+|Participation en un clic aux réunions  | Oui   |Oui |
+|Participation à des réunions Skype entreprise | Oui   | Oui|
+|Contrôles d’appel de réunion (activation/désactivation du micro, mise en attente/reprise, raccrocher, ajout/suppression de participants)|Oui |Oui|
 |Détails de la réunion|Oui|Non|
 
-Nous sommes en train de pour ajouter des fonctionnalités pour aider les utilisateurs à améliorer leurs équipes sur les téléphones en continu. Les captures d’écran ci-dessous illustrent quelques-unes des expériences que nous prennent en charge aujourd'hui.
+Nous travaillons à l’ajout de fonctionnalités en continu pour permettre à nos utilisateurs d’améliorer l’utilisation de leurs équipes sur des téléphones. Les captures d’écran ci-dessous montrent quelques-unes des expériences que nous avons prises en charge dès aujourd’hui.
 
-## <a name="sign-in-experience"></a>Expérience de connexion
+## <a name="sign-in-experience"></a>Connexion
 
-Lorsqu’un utilisateur clique sur le bouton de connexion dans les équipes, connexion est démarrée via le portail d’entreprise. L’utilisateur a la possibilité de se connecter en entrant les informations d’identification de l’utilisateur sur le téléphone ou en choisissant pour vous connecter à partir d’un autre périphérique. Si l’utilisateur choisit pour vous connecter à partir d’un autre périphérique, l’utilisateur peut effectuer l’authentification de leur PC ou un smartphone.
+Lorsqu’un utilisateur clique sur le bouton de connexion dans équipes, la connexion est démarrée via le portail d’entreprise. L’utilisateur a la possibilité de se connecter en entrant les informations d’identification de l’utilisateur sur le téléphone ou en choisissant de se connecter à partir d’un autre appareil. Si l’utilisateur choisit de se connecter à partir d’un autre appareil, l’utilisateur peut exécuter une authentification à partir de son PC ou de son smartphone.
 
 **Connexion de l’utilisateur avec les informations d’identification**
 
-![Connexion avec les informations d’identification](media/sign-in-with-credentials.png)
+![Connexion à l’aide d’informations d’identification](media/sign-in-with-credentials.png)
 
-**Connexion de l’utilisateur via le PC/smartphone.**
+**Connexion de l’utilisateur via PC/smartphone**
 
-![Connexion avec un autre périphérique](media/sign-in-with-device.jpg)
+![Connexion à l’aide d’un autre appareil](media/sign-in-with-device.jpg)
 
-## <a name="personalshared-mode"></a>Mode shared/personnel
+## <a name="personalshared-mode"></a>Mode personnel/partagé
 
-Après la connexion réussie, l’utilisateur peut choisir si l’appareil doit être utilisé pour une utilisation personnelle ou dans une salle de conférence partagé.
+Après une connexion réussie, l’utilisateur peut choisir s’il sera utilisé pour une utilisation personnelle ou dans une salle de conférence partagée.
 
-![L’option compte personnelle ou partagée](media/personal-vs-shared-mode.jpg)
+![Option de compte personnel ou partagé](media/personal-vs-shared-mode.jpg)
 
-L’expérience de téléphone équipes est optimisée en fonction de sélection de l’utilisateur.
+L’expérience de téléphone dans teams est optimisée en fonction de la sélection de l’utilisateur.
 
 **Mode personnel**
 
@@ -90,63 +90,63 @@ L’expérience de téléphone équipes est optimisée en fonction de sélection
 
 ![Compte en mode partagé](media/shared-mode.png)
 
-## <a name="calling-experience"></a>Expérience de l’appel
+## <a name="calling-experience"></a>Appel
 
-L’utilisateur Microsoft Teams peut soulevez le combiné ou appuyez sur le bouton haut-parleurs pour lancer le pavé de numérotation dans l’écran d’appel. Également, l’utilisateur peut utiliser les boutons matériel (si disponibles) pour composer un numéro.
+L’utilisateur de Microsoft teams peut soulever le combiné ou appuyer sur le bouton haut-parleur pour lancer le pavé de numérotation sur l’écran d’appel. Par ailleurs, l’utilisateur peut utiliser les boutons matériels (le cas échéant) pour composer un numéro.
 
-**Pavé numérique**
+**Pavé de numérotation à l’écran**
 
-![Le pavé numérique](media/on-screen-dial-pad.png)
+![Le pavé de numérotation à l’écran](media/on-screen-dial-pad.png)
 
 **Écran d’appel**
 
-![L’écran appel](media/calling-screen.png)
+![L’écran d’appel](media/calling-screen.png)
 
-## <a name="meeting-experience"></a>Expérience de réunion
+## <a name="meeting-experience"></a>Découverte des réunions
 
-L’utilisateur Teams Microsoft peut accéder à l’onglet réunions afficher leurs réunions et d’utiliser le bouton **s’inscrire** pour participer à des réunions de leurs équipes.
+L’utilisateur de Microsoft teams peut accéder à l’onglet réunions pour afficher ses réunions et utiliser le bouton **rejoindre** pour participer à des réunions d’équipes.
 
 **Affichage Calendrier**
 
 ![Réunions dans l’affichage Calendrier](media/calendar-view.png)
 
-**Affichage de participer à une réunion**
+**Affichage de participation à une réunion**
 
-![Une réunion en mode jointure](media/meeting-join-view.png)
+![Réunion en mode jointure](media/meeting-join-view.png)
 
 
 ## <a name="voicemail"></a>Messagerie vocale
 
-L’utilisateur Teams Microsoft peut accéder à leur messagerie vocale lorsqu’il accède à l’onglet **messagerie vocale** .
+L’utilisateur de Microsoft teams peut accéder à son message vocal lorsqu’il accède à l’onglet **messagerie vocale** .
 
-![L’onglet messagerie vocale](media/voicemail-tab.png)
+![Onglet boîte vocale](media/voicemail-tab.png)
 
-## <a name="user-sign-out"></a>Déconnexion de l’agent utilisateur
+## <a name="user-sign-out"></a>Déconnexion de l’utilisateur
 
-L’utilisateur de téléphone équipes peut choisir pour se déconnecter en sélectionnant l’option **Se déconnecter** dans le menu supérieur gauche.
+L’utilisateur du téléphone teams peut choisir de se déconnecter en sélectionnant l’option **se déconnecter** dans le menu du coin supérieur gauche.
 
-![Déconnexion d’équipes](media/teams-sign-out.png)
+![Se déconnecter de teams](media/teams-sign-out.png)
 
-## <a name="finding-the-firmware-version-on-a-mobile-device"></a>Recherche de la version de microprogramme sur un appareil mobile
+## <a name="finding-the-firmware-version-on-a-mobile-device"></a>Trouver la version du microprogramme sur un appareil mobile
 
-La version de microprogramme minimale peut être archivée sur la page de connexion équipes en choisissant l’icône **paramètres** dans le coin supérieur droit, puis sur **à propos**.
+Vous pouvez vérifier la version minimale du microprogramme sur la page de connexion à teams en sélectionnant l’icône **paramètres** dans le coin supérieur droit, puis en cliquant **sur à propos**de.
 
-**Page de connexion équipes**
+**Page de connexion à teams**
 
-![La page de connexion équipes](media/teams-sign-in-page.jpg)
+![Page de connexion à teams](media/teams-sign-in-page.jpg)
 
 **Page Paramètres**
 
-![La page Paramètres d’équipes](media/teams-settings-page.jpg)
+![Page Paramètres de l’équipe](media/teams-settings-page.jpg)
 
 ## <a name="required-licenses"></a>Licences requises
 
-Licences Microsoft Teams peuvent être achetés en tant que partie de leurs [abonnements Office 365](Office-365-licensing.md). Pour en savoir plus sur les licences requises pour l’utilisation de Microsoft Teams sur les téléphones, voir disponibles [licences du système téléphonique](https://products.office.com/en-us/microsoft-teams/voice-calling).
+Les licences Microsoft teams peuvent être achetées dans le cadre de leur [abonnement Office 365](Office-365-licensing.md). Pour en savoir plus sur les licences requises pour l’utilisation de Microsoft teams sur des téléphones, voir [licences de système téléphonique](https://products.office.com/en-us/microsoft-teams/voice-calling)disponibles.
 
-Pour plus d’informations sur l’obtention des équipes, consultez la rubrique [comment obtenir les accès à Microsoft Teams ?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
+Pour plus d’informations sur l’obtention d’équipes, voir [Comment obtenir l’accès à Microsoft teams?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
 ## <a name="see-also"></a>Voir aussi
 
-[Les équipes Marketplace](http://office.com/teamsdevices)
+[Marketplace teams](http://office.com/teamsdevices)
 
-[Téléphones IP certifié pour Microsoft Teams](/skypeforbusiness/certification/teams-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+[Téléphones IP certifiés pour Microsoft teams](/skypeforbusiness/certification/teams-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)

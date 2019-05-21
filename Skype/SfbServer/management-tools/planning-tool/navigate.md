@@ -5,43 +5,43 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 4/5/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 01d28e07-7fdc-41f9-9b6d-75dad8c14f6a
-description: Vous accédez le Skype pour l’outil de planification de 2015 Business Server à l’aide d’une combinaison d’une barre d’outils, les boutons spécifiques à la page et les liens et les volets spécifique au contexte. Les volets contextuels fournissent des informations conceptuelles sur la planification et la capacité appropriées pour les options de sélection sur une page spécifique.
-ms.openlocfilehash: e26e14589756c33a6de5cd64d82a6801dfd0dbb4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Vous naviguez dans l’outil de planification de Skype entreprise Server 2015 à l’aide d’une combinaison d’une barre d’outils, de boutons et de liens spécifiques à une page, et de volets spécifiques du contexte. Les volets contextuels fournissent des informations conceptuelles sur la planification et la capacité appropriées pour les options de sélection sur une page spécifique.
+ms.openlocfilehash: efb0f8ab745b2ce2fe4490dccaf58b79a1c1bf50
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33914148"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34288991"
 ---
 # <a name="navigate-the-planning-tool-in-skype-for-business-server-2015"></a>Navigate the Planning Tool in Skype for Business Server 2015
 
-Vous accédez le Skype pour l’outil de planification de 2015 Business Server à l’aide d’une combinaison d’une barre d’outils, les boutons spécifiques à la page et les liens et les volets spécifique au contexte. Les volets contextuels fournissent des informations conceptuelles sur la planification et la capacité appropriées pour les options de sélection sur une page spécifique.
+Vous naviguez dans l’outil de planification de Skype entreprise Server 2015 à l’aide d’une combinaison d’une barre d’outils, de boutons et de liens spécifiques à une page, et de volets spécifiques du contexte. Les volets contextuels fournissent des informations conceptuelles sur la planification et la capacité appropriées pour les options de sélection sur une page spécifique.
 
-Lors du démarrage de l’outil de planification, un concepteur voit tout d’abord la page **Bienvenue dans l’outil de planification pour Skype pour Business Server 2015** .
+Lorsque vous démarrez l’outil de planification, le concepteur dispose d’abord de l' **outil de planification de la page 2015 de Skype entreprise Server** .
 
-![Page d’accueil de l’outil de planification](../../media/Planning_Tool_Welcome.png)
+![Page d’accueil de l’outil planification](../../media/Planning_Tool_Welcome.png)
 
-Dans la page d’accueil, le concepteur choisit entre **Prise en main**, **Concevoir des sites** ou **Afficher**. Pour plus d’informations, voir [créer la conception de topologie initiale pour Skype pour Business Server 2015](create-the-initial-design.md).
+Dans la page d’accueil, le concepteur choisit entre **Prise en main**, **Concevoir des sites** ou **Afficher**. Pour plus d’informations, reportez-vous à [la rubrique Création de la conception de topologie initiale pour Skype entreprise Server 2015](create-the-initial-design.md).
 
-Dans la partie supérieure de l’outil de planification est une barre d’outils qui permet d’accéder aux fonctions fréquemment utilisées. La barre d’outils s’affiche ici à titre de référence, et chaque fonction est abordée dans la section Rubriques connexes.
+En haut de l’outil de planification se trouve une barre d’outils qui permet d’accéder facilement aux fonctions fréquemment utilisées. La barre d’outils est affichée ici pour référence et chaque fonction sera abordée dans des rubriques connexes.
 
-![Barre d’outils de l’outil de planification](../../media/Planning_Tool_Toolbar_Annotated.jpg)
+![Barre d’outils outil de planification](../../media/Planning_Tool_Toolbar_Annotated.jpg)
 
-L’outil de planification a une section liens externes sur le côté gauche de l’outil. À partir de cette section, le concepteur peut accéder facilement aux informations de planification et de déploiement et à d’autres ressources techniques, telles que des formations, des blogs techniques, des forums et d’autres ressources téléchargeables. Également dans les liens externes section est un lien commentaires le Skype pour l’équipe de l’outil de planification de Business Server 2015.
+Dans l’outil de planification, une section Liens externes est située sur le côté gauche de l’outil. À partir de cette section, le concepteur peut accéder facilement aux informations de planification et de déploiement et à d’autres ressources techniques, telles que des formations, des blogs techniques, des forums et d’autres ressources téléchargeables. Vous pouvez également accéder à la section Liens externes en tant que lien vers l’équipe d’outils de planification de Skype entreprise Server 2015.
 
-![Boîte de dialogue liens externes d’outil de planification](../../media/Planning_Tool_External_Links_Dialog.jpg)
+![Boîte de dialogue Liens externes de l’outil de planification](../../media/Planning_Tool_External_Links_Dialog.jpg)
 
-Un volet Actions contextuel s’affiche sur le nombre de pages dans l’outil de planification. Grâce au volet Actions, le concepteur peut accéder facilement aux principales sections de la topologie. Les liens disponibles dans le volet Actions changent en fonction du niveau de détail de la topologie. Le volet Actions est disponible une fois que vous avez répondu aux questions initiales et affiché la topologie. Le volet Actions comporte une section de vue d’ensemble, qui affiche les chiffres que le concepteur a indiqués en réponse aux questions initiales. La vue d’ensemble correspond au contexte des informations affichées.
+Un volet actions qui dépend du contexte s’affiche sur plusieurs pages dans l’outil de planification. Grâce au volet Actions, le concepteur peut accéder facilement aux principales sections de la topologie. Les liens disponibles dans le volet Actions changent en fonction du niveau de détail de la topologie. Le volet Actions est disponible une fois que vous avez répondu aux questions initiales et affiché la topologie. Le volet Actions comporte une section de vue d’ensemble, qui affiche les chiffres que le concepteur a indiqués en réponse aux questions initiales. La vue d’ensemble correspond au contexte des informations affichées.
 
 En outre, des informations de matériel sont affichées dans la vue d’ensemble sous le volet Actions. La configuration matérielle indique le matériel que la topologie actuelle recommande.
 
-![Planification du volet Actions](../../media/Planning_Tool_Actions_Pane.jpg)
+![Volet actions de l’outil de planification](../../media/Planning_Tool_Actions_Pane.jpg)
 
 ## <a name="see-also"></a>Voir aussi
 

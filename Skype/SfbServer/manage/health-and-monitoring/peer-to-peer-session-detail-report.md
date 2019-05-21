@@ -1,25 +1,25 @@
 ---
-title: Rapport détaillé de Session d’égal à égal dans Skype pour Business Server
+title: Rapport détaillé de session d’égal à égal dans Skype entreprise Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6be1d676-68f7-4a53-a72a-de73296c5571
-description: 'Résumé : Découvrez le rapport détaillé de Session d’égal à égal dans Skype pour Business Server.'
-ms.openlocfilehash: 77b5a80c2280d5242e4efcc0dc696c6720da4f64
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Résumé: en savoir plus sur le rapport de détail de session d’égal à égal dans Skype entreprise Server.'
+ms.openlocfilehash: 768609c68e37eebf46c350009638b960066f9456
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33925228"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279878"
 ---
-# <a name="peer-to-peer-session-detail-report-in-skype-for-business-server"></a>Rapport détaillé de Session d’égal à égal dans Skype pour Business Server
+# <a name="peer-to-peer-session-detail-report-in-skype-for-business-server"></a>Rapport détaillé de session d’égal à égal dans Skype entreprise Server
  
-**Résumé :** Découvrez le rapport détaillé de Session d’égal à égal dans Skype pour Business Server.
+**Résumé:** En savoir plus sur le rapport de détail de session d’égal à égal dans Skype entreprise Server.
   
 Le rapport détaillé de session P2P renvoie des informations détaillées sur une session P2P. Par exemple, si vous sélectionnez une session de messagerie instantanée, le rapport indique le nombre de messages envoyés par chacun des deux utilisateurs dans la session.
   
@@ -35,7 +35,7 @@ Vous pouvez accéder au rapport de détails de session P2P à partir de l’un d
     
 - Rapport de liste des échecs 
     
-À partir du rapport détaillé de Session d’égal à égal vous pouvez accéder le [Rapport de Diagnostic dans Skype pour Business Server](diagnostic-report.md) en cliquant sur la mesure rapport de Diagnostic (détail). Vous pouvez aussi accéder au rapport des principales défaillances en cliquant sur l’une de ces deux mesures :
+Dans le rapport Détails de la session d’égal à égal, vous pouvez accéder au [rapport de diagnostic dans Skype entreprise Server](diagnostic-report.md) en cliquant sur le rapport de diagnostic (détails). Vous pouvez aussi accéder au rapport des principales défaillances en cliquant sur l’une de ces deux mesures :
   
 - Réponse
     

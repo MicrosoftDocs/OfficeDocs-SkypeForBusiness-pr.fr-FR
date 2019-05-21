@@ -1,31 +1,31 @@
 ---
-title: Rapport de synthèse conférence dans Skype pour Business Server
+title: Rapport de synthèse de conférence dans Skype entreprise Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 62f54812-5700-45a3-8526-8f58b0f77fbc
-description: 'Résumé : Découvrez le rapport de synthèse de conférence dans Skype pour Business Server.'
-ms.openlocfilehash: 8e584b8ca8a7ca08fe0de23d21d4a5608c1f828c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Résumé: en savoir plus sur le rapport de synthèse de conférences dans Skype entreprise Server.'
+ms.openlocfilehash: 7bc3c1c33f50d53b0243060cd84b823e0734afb9
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926654"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305875"
 ---
-# <a name="conference-summary-report-in-skype-for-business-server"></a>Rapport de synthèse conférence dans Skype pour Business Server
+# <a name="conference-summary-report-in-skype-for-business-server"></a>Rapport de synthèse de conférence dans Skype entreprise Server
  
-**Résumé :** Obtenir des informations sur le rapport de synthèse de conférence dans Skype pour Business Server.
+**Résumé:** En savoir plus sur le rapport synthèse de la Conférence dans Skype entreprise Server.
   
-Le rapport de synthèse de conférence fournit une vue d’ensemble de vos sessions de conférence en ligne. En général, une conférence implique plus de 2 les utilisateurs et requiert l’utilisation des services de conférence. Par comparaison, une session d’égal à égal implique simplement 2 les utilisateurs en général et ne nécessite pas l’utilisation de Skype pour les services de conférence Business Server. Activités d’égal à égal sont signalées dans le [rapport de synthèse de l’activité d’égal à égal dans Skype pour Business Server](peer-to-peer-activity-summary-report.md).
+Le rapport de synthèse de conférence fournit une vue d’ensemble de vos sessions de conférence en ligne. En règle générale, une conférence implique plus de 2 utilisateurs et nécessite l’utilisation de services de conférence. En comparaison, une session d’égal à égal implique généralement 2 utilisateurs et ne nécessite pas l’utilisation des services de conférence Skype entreprise Server. Les activités d’égal à égal sont communiquées au [rapport de synthèse des activités d’égal à égal dans Skype entreprise Server](peer-to-peer-activity-summary-report.md).
   
-Le rapport de synthèse de conférence non seulement vous indique le nombre de conférences organisée pendant une période donnée (toutes les heures, tous les jours, toutes les semaines, tous les mois), mais vous indique également le nombre total de personnes qui a participé à ces conférences et le nombre total de conférence uniques organisateurs.
+Le rapport de synthèse de conférences ne vous indique pas seulement le nombre de conférences qui ont été tenues au cours d’une période donnée (horaire, quotidienne, hebdomadaire, mensuelle), mais vous indique également le nombre total de personnes qui ont participé à ces conférences et le nombre total de conférences uniques. réunions.
   
-Un organisateur « unique » est toute personne qui planifie une conférence au moins un. Par exemple, si Pilar Ackerman planifie une conférence, elle compte comme un organisateur unique. Si Ken Myer planifie 148 conférences, il compte aussi comme un organisateur unique. Le tableau suivant répertorie 8 conférences planifiées, mais avec seulement trois organisateurs uniques (Ken Myer, Pilar Ackerman et David Ahs).
+Un organisateur unique est une personne qui planifie au moins une conférence. Par exemple, si Pilar Ackerman planifie une conférence, elle compte comme un organisateur unique. Si Ken Myer planifie 148 conférences, il compte aussi comme un organisateur unique. Le tableau suivant répertorie 8 conférences planifiées, mais avec seulement trois organisateurs uniques (Ken Myer, Pilar Ackerman et David Ahs).
   
 |**Organisateur de la conférence**|**Date de la conférence**|
 |:-----|:-----|
@@ -50,7 +50,7 @@ Le rapport de synthèse de conférence est accessible depuis la page d’accueil
     
 ## <a name="making-the-best-use-of-the-conference-summary-report"></a>Exploiter au mieux le rapport de synthèse de conférence
 
-Vous trouverez les valeurs totales pour la plupart des mesures utilisés dans le rapport de synthèse de conférence au bas du rapport ; Faites défiler jusqu'à voir valeurs telles que le nombre total de conférences organisées pendant la période spécifiée et le nombre total de personnes ayant participé à celles-ci. Une mesure qui n’est pas total en bas de l’état est organisateurs de conférence uniques Total. Pourquoi ? Voici une raison. Supposons que vous cherchez à la valeur d’un mois de données. Le jour 1, vous avez 34 organisateurs de conférence uniques ; le jour 2, vous avez 27 organisateurs de conférence uniques. Que signifie que vous aviez 61 organisateurs de conférence uniques pour ces deux jours ? Pas nécessairement. Après tout, toutes les 27 personnes qui a organisé conférences jour 2 peuvent être entre les 34 personnes qui a organisé conférences le jour 1. Par exemple, dans ce rapport simple, notez que Ken Myer et Pilar Ackerman planifiées conférences à la fois sur 7/7/2015 et sur 7/2/2015 :
+Les valeurs totales pour la plupart des métriques utilisées sur le rapport de synthèse de la Conférence sont accessibles au bas du rapport. Faites défiler vers le bas pour afficher les valeurs telles que le nombre total de conférences organisées pendant la période spécifiée et le nombre total de personnes ayant participé à ces conférences. Une métrique qui n’est pas totalisée en bas du rapport est le nombre total d’organisateurs de conférences uniques. Pourquoi ? Voici une raison. Imaginons que vous recherchiez un mois de données. Le jour 1, vous avez obtenu 34 organisateurs de conférences uniques. le jour 2, vous avez 27 organisateurs de conférences uniques. Est-ce que cela signifie que vous avez 61 de conférences de conférences uniques depuis deux jours? Pas nécessairement. Après tout, les 27 personnes qui ont organisé des conférences le jour 2 peuvent être parmi les 34 personnes qui ont organisé des conférences le jour 1. Par exemple, dans ce rapport simple, vous remarquerez les conférences de Ken Myer et Pilar Arès programmées sur 7/7/2015 et 7/2/2015:
   
 |**Organisateur de la conférence**|**Date de la conférence**|
 |:-----|:-----|
@@ -92,7 +92,7 @@ Le tableau ci-dessous contient les informations fournies par le rapport de synth
 |**Nombre total de participants** <br/> |Non  <br/> |Nombre total de personnes ayant participé aux conférences. Lorsque vous cliquez sur cet élément, le rapport vous montre le Rapport des activités de conférence pour la période sélectionnée.  <br/> |
 |**Nombre moyen de participants par conférence** <br/> |Non  <br/> |Nombre moyen de personnes ayant assisté à une conférence donnée. Valeur obtenue en divisant le nombre total de conférences par le nombre total de participants.  <br/> |
 |**Nombre total de conférences A/V** <br/> |Non  <br/> |Nombre total de conférences ayant fait usage de son ou de vidéo.  <br/> |
-|**Nombre total de minutes par conférence A/V** <br/> |Non  <br/> |Nombre total de minutes consacrées à la conférence audio/vidéo.  <br/> A Total / mesure minutes de conférence V répertorie tous les types de conférence audio/vidéo, notamment : A / vidéoconférences ; Conférences par messagerie instantanée ; application partage des conférences ; conférences de données ; et de conférences PSTN.  <br/> |
+|**Nombre total de minutes par conférence A/V** <br/> |Non  <br/> |Nombre total de minutes consacrées à la conférence audio/vidéo.  <br/> Le nombre total de minutes de conférence A/V résume l’ensemble des types de conférences audio/vidéo, y compris: conférences A/V; Conférences de messagerie instantanée; Conférences de partage d’application; Conférences de données; et conférences RTC.  <br/> |
 |**Nombre total de minutes par participant à la conférence A/V** <br/> |Non  <br/> |Nombre total de minutes consacrées par les participants à la conférence audio/vidéo. Supposons par exemple, qu’un utilisateur passe 5 minutes dans une conférence audio/vidéo et qu’un deuxième utilisateur y passe 3 minutes, nous obtenons un total de 8 minutes de participant.  <br/> |
 |**Nombre moyen de minutes par conférence A/V** <br/> |Non  <br/> |Nombre de minutes moyen par conférence audio/vidéo.  <br/> |
 |**Nombre total d’organisateurs uniques de conférences** <br/> |Non  <br/> |Nombre total d’utilisateurs ayant organisé au moins une conférence. Les utilisateurs ayant organisé plusieurs conférences sont comptabilisés comme des organisateurs uniques, à l’instar de ceux qui n’en ont organisées qu’une seule.  <br/> |

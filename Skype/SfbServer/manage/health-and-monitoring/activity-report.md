@@ -1,33 +1,33 @@
 ---
-title: Rapport des activités de conférence dans Skype pour Business Server
+title: Rapport d’activité de conférence dans Skype entreprise Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 22ddb509-af16-4fc8-9b98-6f58caa6f37e
-description: 'Résumé : Découvrez le rapport d’activité de conférence utilisés dans Skype pour Business Server.'
-ms.openlocfilehash: 10327c002e8c3b320593d252b7401f990adeeafc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Résumé: Découvrez le rapport d’activité de conférence utilisé dans Skype entreprise Server.'
+ms.openlocfilehash: 790a9d5076a371dda7c8862a74f253fdb8508296
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33902770"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34303876"
 ---
-# <a name="conference-activity-report-in-skype-for-business-server"></a>Rapport des activités de conférence dans Skype pour Business Server
+# <a name="conference-activity-report-in-skype-for-business-server"></a>Rapport d’activité de conférence dans Skype entreprise Server
  
-**Résumé :** Découvrez le rapport d’activité de conférence utilisés dans Skype pour Business Server.
+**Résumé:** En savoir plus sur le rapport d’activité de conférence utilisé dans Skype entreprise Server.
   
-Le rapport des activités de conférence vous permet de répondre facilement à des questions telles que : combien y a-t-il de conférences organisées chaque jour et à quel moments ces conférences sont-elles organisées ? Ce genre d’information n’est pas seulement utile en tant que tel, il peut également permettre de résoudre des problèmes. Par exemple, imaginons que des utilisateurs se plaignent de la lenteur du réseau en milieu de journée. Rapports d’un coup de œil à l’activité de conférence peut proposer une des raisons : plus de conférences sont planifiés entre les heures de 10:00:00 et 2 h 00 puis à tout moment.
+Le rapport des activités de conférence vous permet de répondre facilement à des questions telles que : combien y a-t-il de conférences organisées chaque jour et à quel moments ces conférences sont-elles organisées ? Ce genre d’information n’est pas seulement utile en tant que tel, il peut également permettre de résoudre des problèmes. Par exemple, imaginons que des utilisateurs se plaignent de la lenteur du réseau en milieu de journée. Un bref coup d’œil sur les rapports d’activité de conférence peut suggérer une raison possible: beaucoup plus de conférences sont prévues entre les heures de 10:00 AM et 2:00 PM à tout moment.
   
 Si la lenteur du réseau engendre des problèmes, vous pouvez encourager les utilisateurs à replanifier certaines de leurs conférences à un moment de la journée où le trafic est moins important.
   
 ## <a name="accessing-the-conference-activity-report"></a>Accès au rapport des activités de conférence
 
-Le rapport d’activité de conférence est accessible à partir du [Rapport de synthèse de conférence dans Skype pour Business Server](conference-summary-report.md) en cliquant sur l’une des mesures suivantes :
+Le rapport d’activité de conférence est accessible à partir du [rapport de synthèse de conférence dans Skype entreprise Server](conference-summary-report.md) en cliquant sur l’une des mesures suivantes:
   
 - Nombre total de conférences
     

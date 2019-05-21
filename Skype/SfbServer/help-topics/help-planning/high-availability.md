@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 4/8/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.plan.HighAvailability
@@ -13,28 +13,28 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 14a897b3-2406-46c7-b08f-490085b3d048
-description: Le jeu de haute disponibilité principal pour la plupart des rôles de serveur dans Skype pour Business Server 2015 est basé sur la redondance des serveurs via un regroupement. Si un serveur qui exécute un rôle serveur donné échoue, les autres serveurs du pool qui exécutent le même rôle prennent la charge de ce serveur.
-ms.openlocfilehash: d7b5f53f8cb0673a355af6206393ea6d070bdfcc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Le schéma principal de haute disponibilité pour la plupart des rôles serveur dans Skype entreprise Server 2015 est basé sur la redondance du serveur via le regroupement. Si un serveur qui exécute un rôle serveur donné échoue, les autres serveurs du pool qui exécutent le même rôle prennent la charge de ce serveur.
+ms.openlocfilehash: 740c12439683fcefccaef11358a8cb65a4fae65a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33887201"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34281086"
 ---
 # <a name="high-availability-planning-tool"></a>High Availability (Planning Tool)
  
-Le jeu de haute disponibilité principal pour la plupart des rôles de serveur dans Skype pour Business Server 2015 est basé sur la redondance des serveurs via un regroupement. Si un serveur qui exécute un rôle serveur donné échoue, les autres serveurs du pool qui exécutent le même rôle prennent la charge de ce serveur.
+Le schéma principal de haute disponibilité pour la plupart des rôles serveur dans Skype entreprise Server 2015 est basé sur la redondance du serveur via le regroupement. Si un serveur qui exécute un rôle serveur donné échoue, les autres serveurs du pool qui exécutent le même rôle prennent la charge de ce serveur.
   
-Skype pour Business Server 2015 nécessite au moins deux serveurs frontaux afin d’activer la haute disponibilité. L’outil de planification utilise les critères suivants pour déterminer si elle ajoute des serveurs supplémentaires afin de prendre en charge la haute disponibilité :
+Skype entreprise Server 2015 nécessite au moins deux serveurs frontaux pour garantir une haute disponibilité. L’outil de planification utilise les critères suivants pour déterminer s’il ajoute des serveurs supplémentaires afin de prendre en charge une haute disponibilité:
   
-- Si le déploiement contient deux ou plusieurs serveurs frontaux, l’outil de planification n’ajoute pas un serveur supplémentaire.
+- Si le déploiement comporte au moins deux serveurs front-end, l’outil de planification n’ajoute pas de serveur supplémentaire.
     
 - Si le déploiement contient un serveur Edge, un serveur supplémentaire est ajouté. 
     
-- Si le déploiement contient la conversation permanente, l’outil de planification ajouter un serveur supplémentaire, mais pas augmenter le nombre de pool. Par exemple, si le déploiement déjà contient quatre serveurs, l’outil de planification suggère Ajout d’un serveur supplémentaire (pour un total de cinq serveurs) mais conserve un seul pool. 
+- Si le déploiement contient une conversation permanente, l’outil de planification ajoutera un serveur supplémentaire, mais n’augmentera pas le numéro de la liste. Par exemple, si le déploiement comporte déjà quatre serveurs, l’outil de planification suggère l’ajout d’un serveur supplémentaire (pour un total de 5 serveurs), mais conserve un pool unique. 
     
-L’outil de planification ajoute également une base de données miroir SQL pour toutes les bases de données. Par exemple, s’il existe une base de données du serveur frontal SQL, l’outil de planification seront ajoutez la base de données en tant que la base de données miroir pour celle-ci et nommez-le comme « Front-End miroir SQL base de données.
+L’outil de planification ajoute également une base de données SQL miroir pour toutes les bases de données. Par exemple, si vous disposez d’une base de données SQL Server frontale, l’outil de planification ajoutera l’autre base de données en tant que base de données miroir pour celle-ci et la nommera en tant que base de données SQL miroir frontale.
   
-Pour plus d’informations sur la préparation de votre environnement pour une haute disponibilité, voir [planifier la haute disponibilité et de récupération d’urgence dans Skype pour Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
+Pour plus d’informations sur la préparation de votre environnement en vue d’une haute disponibilité, voir [prévoir une disponibilité élevée et une reprise après sinistre dans Skype entreprise Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
   
 

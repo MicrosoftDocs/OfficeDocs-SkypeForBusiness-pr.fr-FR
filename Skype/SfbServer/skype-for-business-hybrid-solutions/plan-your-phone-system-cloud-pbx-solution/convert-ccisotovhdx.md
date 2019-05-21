@@ -5,18 +5,18 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 3/31/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 216abec2-d354-4ee3-9999-0a6b350a4a5f
 description: L’applet de commande Convert-CcIsoToVhdx crée un fichier de disque dur virtuel de base (VHDX) en utilisant un fichier ISO fourni au client de Windows Server 2012 R2. Le fichier VHDX sera utilisé pendant le déploiement de la version Cloud Connector de Skype Entreprise.
-ms.openlocfilehash: 181d1af762d1f8c9c8f3e65a4411b317ab36ce4a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 7b1426fe3180576e28780aeae96ee8e4913bb399
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245368"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287537"
 ---
 # <a name="convert-ccisotovhdx"></a>Convert-CcIsoToVhdx
  
@@ -47,7 +47,7 @@ Convert-CcIsoToVhdx -IsoFilePath "C:\Windows_Server_2012_R2-EN-US-x64.ISO"
 
 ### <a name="example-2"></a>Exemple 2
 
-En cas d’échec de l’applet de commande Convert-CcIsoToVhdx au cours de mise à jour de Windows, il s’agit probablement en raison de la configuration du réseau/proxy incorrect. Vous pouvez suivre les instructions dans le message d'erreur et vous connecter à la machine virtuelle de base pour corriger le problème et mettre à jour manuellement Windows. Après avoir effectué les tâches manuelles, exécutez à nouveau l’applet de commande à l’aide du paramètre GeneralizeOnly afin de terminer les tâches à accomplir : 
+Si l’applet de connexion Convert-CcIsoToVhdx échoue lors de la mise à jour de Windows, il est probable qu’il n’y a pas de configuration réseau/proxy incorrecte. Vous pouvez suivre les instructions dans le message d'erreur et vous connecter à la machine virtuelle de base pour corriger le problème et mettre à jour manuellement Windows. Après avoir effectué les tâches manuelles, exécutez à nouveau l’applet de commande à l’aide du paramètre GeneralizeOnly afin de terminer les tâches à accomplir : 
   
 ```
 Convert-CcIsoToVhdx -IsoFilePath "C:\Windows_Server_2012_R2-EN-US-x64.ISO" -GeneralizeOnly
@@ -55,7 +55,7 @@ Convert-CcIsoToVhdx -IsoFilePath "C:\Windows_Server_2012_R2-EN-US-x64.ISO" -Gene
 
 ### <a name="example-3"></a>Exemple 3
 
-Si la configuration manuelle est nécessaire pour mettre à jour Windows, vous pouvez utiliser le paramètre -PauseBeforeUpdate. Avec ce paramètre, nuage connecteur s’interrompt avant la mise à jour Windows. Vous pouvez ensuite terminer la configuration manuelle et achever le processus de conversion de la manière suivante :
+Si la configuration manuelle est nécessaire pour mettre à jour Windows, vous pouvez utiliser le paramètre -PauseBeforeUpdate. Ce paramètre permet de suspendre le Cloud Connector avant le processus Windows Update. Vous pouvez ensuite terminer la configuration manuelle et achever le processus de conversion de la manière suivante :
   
 ```
 Convert-CcIsoToVhdx -IsoFilePath "C:\Windows_Server_2012_R2-EN-US-x64.ISO" -PauseBeforeUpdate 
@@ -64,7 +64,7 @@ Convert-CcIsoToVhdx -IsoFilePath "C:\Windows_Server_2012_R2-EN-US-x64.ISO" -Paus
 ## <a name="detailed-description"></a>Description détaillée
 <a name="DetailedDescription"> </a>
 
-L’applet de commande Convert-CcIsoToVhdx crée une base de que machine virtuelle installe tout d’abord, certains composants de base que nuage connecteur dépend, puis installe les mises à jour Windows. Enfin, il généralise l’ordinateur virtuel (sysprep) pour obtenir un fichier de base VHDX qui sera utilisé par les ordinateurs virtuels d’un appareil de connecteur dans le nuage. 
+L’applet de connexion Convert-CcIsoToVhdx crée d’abord un VM de base, installe certains composants de base dont dépend le Cloud Connector, puis installe les mises à jour Windows. Enfin, il généralise l’ordinateur virtuel (Sysprep) pour obtenir un fichier VHDX de base qui sera utilisé par les machines virtuelles d’un appareil de connecteur Cloud. 
   
 ## <a name="input-types"></a>Types d’entrées
 <a name="InputTypes"> </a>

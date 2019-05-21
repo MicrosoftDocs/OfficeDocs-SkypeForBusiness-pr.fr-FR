@@ -1,27 +1,27 @@
 ---
-title: Rapport d’utilisation de Response Group dans Skype pour Business Server
+title: Rapport sur l’utilisation du groupe de réponses dans Skype entreprise Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3248b320-a552-400a-8485-6891af4eb0f3
-description: 'Résumé : Découvrez l’application Response Group dans Skype pour Business Server.'
-ms.openlocfilehash: 0638c6d6ab6718e3974a41701c75b21b2600504e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Résumé: en savoir plus sur l’application Response Group dans Skype entreprise Server.'
+ms.openlocfilehash: 6154a1e2d2407f3e7fe6f8eaf9527567724220fd
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33897596"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279843"
 ---
-# <a name="response-group-usage-report-in-skype-for-business-server"></a>Rapport d’utilisation de Response Group dans Skype pour Business Server
+# <a name="response-group-usage-report-in-skype-for-business-server"></a>Rapport sur l’utilisation du groupe de réponses dans Skype entreprise Server
 
-**Résumé :** Découvrez l’application Response Group dans Skype pour Business Server.
+**Résumé:** En savoir plus sur l’application Response Group dans Skype entreprise Server.
 
-L’application Response Group offre un moyen de Skype pour Business Server répondre et acheminer les appels téléphoniques basé sur le numéro qui a été composé et, le cas échéant, les réponses de l’appelant à une série de questions. En règle générale, les appels Response Group ne sont pas acheminés vers une personne, mais vers un ensemble de personnes connu sous le nom de groupe d’agents. Par exemple, si une personne appelle le numéro de téléphone pour votre support technique, Skype pour Business Server peut acheminer automatiquement appel au premier agent de bureau d’aide disponibles. Vous pouvez également Skype pour Business Server peut demander une série de questions (« appuyez sur 1 si vous rencontrez des problèmes de matériel. Appuyez sur 2 pour des problèmes logiciels. Appuyez sur 3 Si vous rencontrez des problèmes réseau. »), puis d’acheminer l’appel vers l’agent d’assistance aide plus approprié en fonction de la réponse à ces questions.
+L’application Response Group permet à Skype entreprise Server de répondre aux appels téléphoniques et de les acheminer en fonction du numéro composé et, éventuellement, des réponses de l’appelant à une série de questions. En règle générale, les appels Response Group ne sont pas acheminés vers une personne, mais vers un ensemble de personnes connu sous le nom de groupe d’agents. Par exemple, si une personne appelle le numéro de téléphone de votre support technique, Skype entreprise Server peut automatiquement diriger l’appel vers le premier agent de support technique disponible. Par ailleurs, Skype entreprise Server peut poser une série de questions (en appuyant sur 1 si vous rencontrez des problèmes de matériel. Appuyez sur 2 pour des problèmes logiciels. Tapez 3 Si vous rencontrez des problèmes réseau.», puis Routez l’appel vers l’agent de support le plus approprié en fonction de la réponse à ces questions.
 
 Le rapport d’utilisation de Response Group donne une vision détaillée du nombre d’appels téléphoniques reçus par tous vos flux de travail Response Group, puis répartit ces appels en catégories plus précises telles qu’Appels offerts, Appels ayant obtenu une réponse et Appels abandonnés.
 
@@ -45,7 +45,7 @@ Le rapport d’utilisation de Response Group vous permet de filtrer sur un URI d
 
 ## <a name="accessing-the-response-group-usage-report"></a>Accéder au rapport d’utilisation de Response Group
 
-Le rapport d’utilisation de Response Group est accessible depuis la page d’accueil Rapports de surveillance. Vous pouvez accéder à la [Réponse groupe Call List Report dans Skype pour Business Server](call-list-report.md) en cliquant sur une des mesures suivantes :
+Le rapport d’utilisation de Response Group est accessible depuis la page d’accueil Rapports de surveillance. Vous pouvez descendre [dans la liste des appels de Response Group dans Skype entreprise Server](call-list-report.md) en cliquant sur l’une des mesures suivantes:
 
 - Appels reçus
 
@@ -62,13 +62,13 @@ Le rapport d’utilisation de Response Group est accessible depuis la page d’a
 L’utilisation la plus intéressante de ce rapport n’est peut-être pas la plus évidente : il s’agit de sa capacité à recueillir des informations d’utilisation pour un seul flux de travail Response Group.
 
 > [!CAUTION]
-> Un workflow Response Group est simplement un ensemble d’instructions qui détermine l’action Skype pour Business Server lorsqu’un utilisateur compose un numéro de téléphone donné. À cette fin, chaque flux de travail est associé à un numéro de téléphone unique. Lorsqu’une personne appelle ce numéro, le flux de travail détermine comment les appels seront gérés. Par exemple, le flux de travail peut entraîner l’appel à être acheminés vers une série de questions de réponse vocale interactive qui demande à l’appelant d’entrer des informations supplémentaires (« appuyez sur 1 pour la prise en charge matérielle. Appuyez sur 2 pour la prise en charge logicielle. »). Sinon, le flux de travail peut entraîner l’appel est placé dans une file d’attente, l’appelant mis en attente jusqu'à ce qu’un agent soit disponible pour répondre à l’appel. La disponibilité des agents pour répondre aux appels dépend également du flux de travail : flux de travail est utilisées pour configurer les heures ouvrées (les jours de la semaine) et les heures du jour quand les agents sont disponibles pour répondre aux appels et (lorsqu’aucun agents ne sont disponibles pour répondre à des jours de congés appels). Chaque fois que vous composez un numéro de téléphone qui appartient à l’application Response Group vous sont en appelant un workflow Response Group. 
+> Un flux de travail de groupe de réponse est essentiellement un ensemble d’instructions qui déterminent le fonctionnement de Skype entreprise Server quand un utilisateur compose un numéro de téléphone particulier. À cette fin, chaque flux de travail est associé de manière unique à un numéro de téléphone. Lorsque quelqu’un appelle ce numéro, le flux de travail détermine le mode de gestion de l’appel. Par exemple, le flux de travail peut entraîner le routage de l’appel vers une série de questions relatives à la réponse vocale (IVR) qui invitent l’appelant à entrer des informations supplémentaires («appuyer 1 pour la prise en charge matérielle. Appuyez sur 2 pour le support logiciel. "). Par ailleurs, le flux de travail peut entraîner la mise en attente de l’appel dans une file d’attente, et l’appelant doit mettre en attente tant qu’un agent n’est pas disponible pour répondre à l’appel. La disponibilité des agents pour répondre aux appels est également dictée par le flux de travail: les flux de travail sont utilisés pour configurer les heures d’ouverture (les jours de la semaine et les heures de la journée auxquelles les agents peuvent répondre) et les jours fériés (jours si aucun agent n’est disponible pour répondre. appels). Chaque fois que vous composez un numéro de téléphone faisant partie de l’application Response Group, vous appelez essentiellement un flux de travail de groupe de réponse. 
 
 Même si les URI de flux de travail ne s’affichent pas dans le rapport d’utilisation de Response Group, il est encore possible d’afficher les statistiques d’utilisation pour un seul flux de travail, ce qui est souvent très utile. Par exemple, supposons que vous avez récemment lancé une nouvelle campagne publicitaire et que vous souhaitez savoir si des personnes appellent pour en savoir plus sur le produit. Si vous avez associé un flux de travail Response Group au numéro de téléphone indiqué dans la campagne publicitaire, vous pouvez facilement consulter le nombre de personnes (s’il y en a) qui ont appelé ce numéro.
 
 Vous pouvez aussi utiliser une approche similaire pour évaluer le nombre d’appels gérés par votre support technique interne ou votre service client.
 
-Pour consulter les statistiques d’utilisation d’un flux de travail en particulier, entrez l’URI du flux de travail dans la zone correspondante. Comme indiqué auparavant, les URI de flux de travail (adresse SIP associée au flux de travail) ne s’affichent pas dans le rapport. Cela signifie que vous devez utiliser un autre moyen pour déterminer l’URI d’un flux de travail. Pour ce faire consiste à utiliser Windows PowerShell et le Skype pour Business Server Management Shell. Par exemple, cette commande renvoie les URI de tous vos flux de travail Response Group :
+Pour consulter les statistiques d’utilisation d’un flux de travail en particulier, entrez l’URI du flux de travail dans la zone correspondante. Comme indiqué auparavant, les URI de flux de travail (adresse SIP associée au flux de travail) ne s’affichent pas dans le rapport. Cela signifie que vous devez utiliser un autre moyen pour déterminer l’URI d’un flux de travail. Une façon de procéder consiste à utiliser Windows PowerShell et Skype entreprise Server Management Shell. Par exemple, cette commande renvoie les URI de tous vos flux de travail Response Group :
 
 ```
 Get-CsRgsWorkflow | Select-Object Name, PrimaryUri

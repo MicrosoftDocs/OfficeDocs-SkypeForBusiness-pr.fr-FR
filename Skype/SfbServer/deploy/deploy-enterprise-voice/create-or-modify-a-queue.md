@@ -1,10 +1,10 @@
 ---
-title: Créer ou modifier une file d’attente dans Skype pour les entreprises
+title: Création ou modification d’une file d’attente dans Skype entreprise
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,30 +13,30 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: b9d6366a-839f-4651-a01d-9254546cadeb
-description: Créer ou modifier une file d’attente Response Group, dans Skype pour Business Server Enterprise Voice.
-ms.openlocfilehash: 6af6f9e4bea089f8b6194a06d1890e7d7e1699ab
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Créez ou modifiez une file d’attente de Response Group dans Skype entreprise Server Voice.
+ms.openlocfilehash: a19385567a40b958d6941ddeac873211fc92cf3e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892915"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286224"
 ---
-# <a name="create-or-modify-a-queue-in-skype-for-business"></a>Créer ou modifier une file d’attente dans Skype pour les entreprises
+# <a name="create-or-modify-a-queue-in-skype-for-business"></a>Création ou modification d’une file d’attente dans Skype entreprise
  
-Créer ou modifier une file d’attente Response Group, dans Skype pour Business Server Enterprise Voice.
+Créez ou modifiez une file d’attente de Response Group dans Skype entreprise Server Voice.
   
-Les appelants d’en file d’attente jusqu'à ce qu’un agent répond à l’appel. Lorsque l’application Response Group recherche un agent disponible, il recherche les groupes d’agents dans l’ordre que vous les avez répertoriés. Vous pouvez sélectionner les groupes d’agents qui sont affectées à la file d’attente et spécifier le comportement de file d’attente, par exemple pour limiter le nombre d’appels que la file d’attente et de la période de temps qu’un appel attend un agent réponde l’appel.
+Les files d’attente contiennent les appelants tant qu’un agent ne répond pas à l’appel. Lorsque l’application de Response Group recherche un agent disponible, elle effectue une recherche dans les groupes d’agents dans l’ordre de leur liste. Vous pouvez sélectionner les groupes d’agents affectés à la file d’attente et spécifier le comportement de la file d’attente, par exemple pour limiter le nombre d’appels qui peuvent être maintenus par la file d’attente et la durée pendant laquelle l’agent attend la réponse à l’appel.
   
 Utilisez l’une des procédures suivantes pour créer ou modifier une file d’attente.
   
-### <a name="to-use-skype-for-business-server-control-panel-to-create-or-modify-a-queue"></a>Utiliser Skype pour Business Server Control Panel pour créer ou modifier une file d’attente
+### <a name="to-use-skype-for-business-server-control-panel-to-create-or-modify-a-queue"></a>Utiliser le panneau de configuration Skype entreprise Server pour créer ou modifier une file d’attente
 
-1. Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre de l’un des rôles d’administration prédéfinis qui prennent en charge Response Group.
+1. Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre de l’un des rôles d’administration prédéfinis prenant en charge Response Group.
     
     > [!NOTE]
     > Si vous êtes l’un des responsables des groupes Response Group délégués d’un flux de travail géré, vous pouvez créer ou modifier des files d’attente de groupes Response Group et les affecter aux flux de travail que vous gérez. 
   
-2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business.  
+2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration Skype entreprise Server.  
     
 3. Dans la barre de navigation de gauche, cliquez sur **Services Response Group**, puis sur **File d’attente**.
     
@@ -69,11 +69,11 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
     
    - Pour déconnecter l’appel une fois le délai expiré, cliquez sur **Déconnecter**.
     
-   - Pour transférer l’appel vers la messagerie vocale, cliquez sur **transférer vers la messagerie vocale**, puis, dans le champ **adresse SIP** , tapez une adresse de messagerie vocale au format sip : * \<nom d’utilisateur\>*@ *\<domainname\> * (pour exemple, sip:bob@contoso.com).
+   - Pour transférer l’appel vers la messagerie vocale, cliquez sur **transférer vers la messagerie vocale**, puis dans le champ **adresse SIP** , tapez une adresse de messagerie vocale au format SIP: * \<\>nom_utilisateur*@ *\<\> nom_domaine* (pour par exemple, sip:bob@contoso.com).
     
-   - Pour transférer l’appel vers un autre numéro de téléphone, cliquez sur **transférer au numéro de téléphone**, puis, dans le champ **adresse SIP** , tapez le numéro de téléphone au format sip : * \<numéro\>*@ *\<domainname\>* (par exemple, sip:+14255550121@contoso.com).
+   - Pour transférer l’appel vers un autre numéro de téléphone, cliquez sur **transférer vers le numéro de téléphone**, puis dans le champ **adresse SIP** , tapez le numéro de téléphone dans le format SIP: * \<numéro\>*@ *\<NomDomaine\>* (par exemple, SIP:+14255550121@contoso.com).
     
-   - Pour transférer l’appel vers un autre utilisateur, cliquez sur **Transférer à l’adresse SIP**, puis, dans le champ **adresse IP** , tapez l’URI de l’utilisateur au format sip : _ \<nom d’utilisateur\>_@ _\<domainname\>_.
+   - Pour transférer l’appel vers un autre utilisateur, cliquez sur **transférer vers l’adresse SIP**, puis dans le champ **adresse SIP** , tapez l’URI de l’utilisateur au format SIP _ \<:\>nom d'_@ _\<utilisateur NomDomaine\>_.
     
    - Pour transférer l’appel vers une autre file d’attente, cliquez sur **Transférer vers une autre file d’attente**, puis accédez à la file d’attente que vous voulez utiliser.
     
@@ -87,24 +87,24 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
     
    - Pour déconnecter l’appel une fois le délai expiré, cliquez sur **Déconnecter**.
     
-   - Pour transférer l’appel vers la messagerie vocale, cliquez sur **transférer vers la messagerie vocale**, puis, dans le champ **adresse SIP** , tapez une adresse de messagerie vocale au format sip : * \<nom d’utilisateur\>*@ *\<domainname\> * (pour exemple, sip:bob@contoso.com).
+   - Pour transférer l’appel vers la messagerie vocale, cliquez sur **transférer vers la messagerie vocale**, puis dans le champ **adresse SIP** , tapez une adresse de messagerie vocale au format SIP: * \<\>nom_utilisateur*@ *\<\> nom_domaine* (pour par exemple, sip:bob@contoso.com).
     
-   - Pour transférer l’appel vers un autre numéro de téléphone, cliquez sur **transférer au numéro de téléphone**, puis, dans le champ **adresse SIP** , tapez le numéro de téléphone au format sip : * \<numéro\>*@ *\<domainname\>* (par exemple, sip:+14255550121@contoso.com).
+   - Pour transférer l’appel vers un autre numéro de téléphone, cliquez sur **transférer vers le numéro de téléphone**, puis dans le champ **adresse SIP** , tapez le numéro de téléphone dans le format SIP: * \<numéro\>*@ *\<NomDomaine\>* (par exemple, SIP:+14255550121@contoso.com).
     
-   - Pour transférer l’appel vers un autre utilisateur, cliquez sur **Transférer à l’adresse SIP**, puis, dans le champ **adresse IP** , tapez l’URI de l’utilisateur au format sip : _ \<nom d’utilisateur\>_@ _\<domainname\>_.
+   - Pour transférer l’appel vers un autre utilisateur, cliquez sur **transférer vers l’adresse SIP**, puis dans le champ **adresse SIP** , tapez l’URI de l’utilisateur au format SIP _ \<:\>nom d'_@ _\<utilisateur NomDomaine\>_.
     
    - Pour transférer l’appel vers une autre file d’attente, cliquez sur **Transférer vers une autre file d’attente**, puis accédez à la file d’attente que vous voulez utiliser.
     
 10. Cliquez sur **Valider**.
     
-### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-a-queue"></a>Utiliser Skype pour Business Server Management Shell pour créer ou modifier une file d’attente
+### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-a-queue"></a>Pour utiliser Skype entreprise Server Management Shell pour créer ou modifier une file d’attente
 
-1. Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre de l’un des rôles d’administration prédéfinis qui prennent en charge Response Group.
+1. Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre de l’un des rôles d’administration prédéfinis prenant en charge Response Group.
     
     > [!NOTE]
     > Si vous êtes l’un des responsables des groupes Response Group délégués d’un flux de travail géré, vous pouvez créer ou modifier des groupes d’agents et des files d’attente, puis affecter des groupes d’agents à des files d’attente. 
   
-2. Démarrez le Skype pour Business Server Management Shell : cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Skype pour Business 2015**, puis cliquez sur **Skype pour Business Server Management Shell**.
+2. Démarrez Skype entreprise Server Management Shell: cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
     
 3. Créez le message à lire lorsque le seuil d’expiration de la file d’attente est atteint, puis enregistrez-le dans une variable. À partir de la ligne de commande, exécutez la commande suivante :
     
@@ -179,7 +179,7 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
    ```
 
     > [!NOTE]
-    > Pour plus d’informations sur la création du groupe d’agents, voir [New-CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/new-csrgsagentgroup?view=skype-ps)
+    > Pour plus d’informations sur la création d’un groupe d’agents, voir [New-CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/new-csrgsagentgroup?view=skype-ps)
   
 9. Créez la file d’attente. À partir de la ligne de commande, exécutez la commande suivante :
     
@@ -201,16 +201,16 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
 
 ## <a name="see-also"></a>Voir aussi
 
-[New-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/new-csrgsqueue?view=skype-ps)
+[Nouveau-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/new-csrgsqueue?view=skype-ps)
   
 [Set-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/set-csrgsqueue?view=skype-ps)
   
 [New-CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/new-csrgsprompt?view=skype-ps)
   
-[New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps)
+[Nouveau-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps)
   
 [Get-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/get-csrgsqueue?view=skype-ps)
   
-[Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)
+[Importation-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)
   
 [Remove-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/remove-csrgsqueue?view=skype-ps)

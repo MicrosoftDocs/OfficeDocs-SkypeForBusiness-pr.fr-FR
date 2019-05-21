@@ -1,33 +1,33 @@
 ---
-title: Activer ou désactiver l’archivage dans Skype pour Business Server
+title: Activation ou désactivation de l’archivage dans Skype entreprise Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d5aed328-e89d-4a7b-b603-15ae5c33c5dd
-description: 'Résumé : Découvrez comment activer ou désactiver l’archivage dans Skype pour Business Server.'
-ms.openlocfilehash: 27cb7aab08c6a85f21e058848963bb42de6e1635
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Résumé: Découvrez comment activer ou désactiver l’archivage dans Skype entreprise Server.'
+ms.openlocfilehash: 0e4ef4dde27ffa5856f2b73b69ffbadc24399c59
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33885030"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286143"
 ---
-# <a name="enable-or-disable-archiving-in-skype-for-business-server"></a>Activer ou désactiver l’archivage dans Skype pour Business Server
+# <a name="enable-or-disable-archiving-in-skype-for-business-server"></a>Activation ou désactivation de l’archivage dans Skype entreprise Server
 
-**Résumé :** Découvrez comment activer ou désactiver l’archivage dans Skype pour Business Server.
+**Résumé:** Découvrez comment activer ou désactiver l’archivage dans Skype entreprise Server.
   
 ## <a name="enable-or-disable-archiving-by-using-the-control-panel"></a>Activer ou désactiver l’archivage à l’aide du panneau de configuration
 
 1. À partir d’un compte d’utilisateur auquel est affecté un des rôles CsArchivingAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne. 
     
-2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business. 
+2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration Skype entreprise Server. 
     
-3. Dans la barre de navigation de gauche, cliquez sur **surveillance et archivage**, puis cliquez sur **Configuration de l’archivage**.
+3. Dans la barre de navigation gauche, cliquez sur **surveillance et archivage**, puis cliquez sur **configuration de l’archivage**.
     
 4. Sélectionnez la configuration de pool, de site ou globale appropriée dans la liste des configurations d’archivage, cliquez sur **Modifier**, sur **Afficher les détails**, puis procédez comme suit :
     

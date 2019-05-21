@@ -12,7 +12,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,21 +21,21 @@ ROBOTS: NOINEX, NOFOLLOW
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 'Découvrez comment les Services d’urgence (911) diffèrent des services téléphoniques traditionnels et émettre un appel. '
-ms.openlocfilehash: 8b67f1ef79d3c0782caa5316e88e5a1549e00b2e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Découvrez les différences entre les services d’urgence (911) et les services téléphoniques traditionnels et comment passer un appel. '
+ms.openlocfilehash: 64e500246138fc7f0ed8d2d1a6c4869b6e3b679e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32244454"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279032"
 ---
 # <a name="emergency-calling-terms-and-conditions"></a>Conditions générales relatives aux appels d'urgence
 
 ## <a name="important-information"></a>INFORMATIONS IMPORTANTES
 
-Appel de Services d’urgence fonctionne différemment avec des Plans de l’appel dans Office 365 que sur les services téléphoniques traditionnels. Il est important de comprendre les différences et les communique à tous les utilisateurs avec des Plans de l’appel dans Office 365. Vous reconnaissez et acceptez que vous avez lu et comprenez les différences dans notre appel des Services d’urgence et fournissez cette notice à chaque utilisateur avec des Plans de l’appel dans Office 365.
+Les appels vers les services d’urgence fonctionnent différemment avec les offres d’appels d’Office 365 par rapport aux services téléphoniques traditionnels. Il est important que vous compreniez ces différences et les communiquez à tous les utilisateurs disposant d’un plan d’appels dans Office 365. Vous reconnaissez et acceptez que vous ayez lu et compris les différences en ce qui concerne les appels vers les services d’urgence et qu’il sera notifié à chaque utilisateur avec des plans d’appels dans Office 365.
   
-Les différences de notre capacités d’appel des Services d’urgence incluent ce qui suit : (i) Skype pour professionnels et les équipes ne peut pas connaître l’emplacement réel d’un appelant effectue un appel de Services d’urgence, qui peut entraîner l’appel acheminé vers la situation d’urgence incorrecte Centre d’appels de services et/ou des services d’urgence distribuées au mauvais endroit ; (ii) si l’appareil de l’utilisateur n’est pas alimenté, subit une coupure de courant ou, pour une raison quelconque, ne peuvent pas accéder Internet, l’utilisateur ne peut pas émettre un appel de Services d’urgence par le biais de Plans de l’appel dans Office 365 ; et (iii) bien que les Plans de l’appel dans Office 365 peuvent être utilisées partout dans le monde où une connexion Internet est disponible, les utilisateurs ne doivent pas apporter un appel de Services d’urgence à partir d’un emplacement à l’extérieur de leur domicile pays/région, car l’appel probablement pas système acheminé vers le centre d’appels appropriés dans ce pays/région.
+Les différences en matière d’appels vers des services d’urgence sont les suivantes: (i) Skype entreprise et équipes ne connaissent peut-être pas l’emplacement réel d’un appelant effectuant un appel de services d’urgence, ce qui pourrait entraîner le routage de l’appel vers une erreur d’urgence. Services Centre d’appels et/ou services d’urgence envoyés au mauvais endroit; (II) si l’appareil de l’utilisateur n’a pas d’alimentation, qu’il rencontre une panne de courant ou qu’il n’y a pas d’accès à Internet pour une raison quelconque, l’utilisateur ne peut pas appeler des services d’urgence via les plans d’appel dans Office 365. vous pouvez également utiliser des plans d’appel dans Office 365 partout dans le monde où une connexion Internet est disponible, mais les utilisateurs ne peuvent pas passer d’appels de services d’urgence à partir d’un emplacement extérieur à leur pays ou région, car l’appel n’est probablement pas acheminé vers le centre d’appels approprié dans ce pays/cette région.
   
 ## <a name="related-topics"></a>Rubriques connexes
 [Questions fréquentes à propos du transfert de numéros de téléphone](transferring-phone-numbers-common-questions.md)
@@ -44,7 +44,7 @@ Les différences de notre capacités d’appel des Services d’urgence incluent
 
 [Gérer des numéros de téléphone pour votre entreprise](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
-[Étiquette de notification d’exclusion relative aux appels d’urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Libellé d’exclusion d’appel d’urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

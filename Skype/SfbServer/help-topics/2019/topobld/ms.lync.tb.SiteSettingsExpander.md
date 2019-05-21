@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.SiteSettingsExpander
@@ -12,37 +12,37 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 940bd9c0-bfcf-4d15-a5c1-a09f1cd692b6
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Pour modifier les propriétés d’un site existant, procédez comme suit :'
-ms.openlocfilehash: 920a159f493e2612c9ad9aa5e5be1e339414bc21
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Pour modifier les propriétés d’un site existant, procédez comme suit:'
+ms.openlocfilehash: 1f15ed4230d7a72b67b8df804748f9b732278293
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33912000"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34303080"
 ---
 # <a name="lync-server-site-settings-expander"></a>Expandeur des paramètres du site du serveur Lync
 
-Pour modifier les propriétés d’un site existant, procédez comme suit :
+Pour modifier les propriétés d’un site existant, procédez comme suit:
 
 
 
 ## <a name="site-properties"></a>Propriétés du site
 
-Dans les propriétés du site, vous pouvez changer ou modifier le nom (obligatoire) du site, Description (facultative), Ville (facultatif), Département/Province (facultative) et le Code de pays/région (facultatif).
+Dans les propriétés du site, vous pouvez modifier ou modifier le nom du site (obligatoire), la description (facultatif), la ville (facultatif), l’État ou la province (facultatif) et le code de pays/région (facultatif).
 
-Pour plus d’informations sur les propriétés du site, voir [Add Branch Sites to Your Topology](https://technet.microsoft.com/library/b9c35fb0-0081-4aeb-8f95-ac2fcc6c3335.aspx).
+Pour plus d’informations sur les propriétés de site, voir [Ajouter des sites de succursales à votre topologie](https://technet.microsoft.com/library/b9c35fb0-0081-4aeb-8f95-ac2fcc6c3335.aspx).
 
-## <a name="federation-route-properties"></a>Propriétés des itinéraires de fédération
+## <a name="federation-route-properties"></a>Propriétés d’itinéraire de Fédération
 
-Pour définir une attribution itinéraire fédération du site, vous devez au préalable avoir fédération activée sur un serveur Edge ou un pool de serveurs Edge. Si la fédération n’est pas activée sur un serveur Edge ou le pool, les paramètres d’affectation fédération itinéraire pour le site ne sera pas disponibles pour la modification.
+Pour définir une affectation de l’itinéraire de Fédération de site, vous devez d’abord disposer de la Fédération sur un serveur Edge ou un pool de serveurs Edge. Si la Fédération n’est pas activée sur un serveur Edge ou un pool, les paramètres d’attribution de l’itinéraire de Fédération pour le site ne seront pas disponibles à des fins de modification.
 
-Si le paramètre de fédération au pool ou serveur Edge a été configuré, sélectionnez **Activer** au niveau du site. Puis sélectionnez un contour ou un directeur dans la liste déroulante pour définir en tant que l’itinéraire de fédération.
+Si le paramètre de Fédération sur le serveur Edge ou le pool a été configuré, sélectionnez **activer** au niveau du site. Sélectionnez ensuite une arête ou un réalisateur dans la liste déroulante à définir comme itinéraire de Fédération.
 
 > [!CAUTION]
-> Ce paramètre affecte tous les sites. N’oubliez pas que le paramètre que vous configurez sur ce site est approprié pour tous les sites.
+> Ce paramètre affecte tous les sites. Assurez-vous que le paramètre que vous configurez sur ce site est approprié pour tous les sites.
 
 ## <a name="see-also"></a>Voir aussi
 
-Pour plus d’informations, voir [Topologies for External User Access](https://technet.microsoft.com/library/25697446-b045-4d12-9b1c-47f694b4f224.aspx).
+Pour plus d’informations, reportez-vous à la rubrique [topologies pour l’accès des utilisateurs externes](https://technet.microsoft.com/library/25697446-b045-4d12-9b1c-47f694b4f224.aspx).
 
 

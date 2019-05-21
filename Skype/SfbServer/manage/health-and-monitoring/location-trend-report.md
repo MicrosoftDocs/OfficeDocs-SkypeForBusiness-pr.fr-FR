@@ -1,25 +1,25 @@
 ---
-title: Emplacement de rapport de tendance dans Skype pour Business Server
+title: Rapport de tendance d’emplacement dans Skype entreprise Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 61e2db3c-9f10-4411-8e7e-c6950faf8533
-description: 'Résumé : Découvrez le rapport de tendance emplacement dans Skype pour Business Server.'
-ms.openlocfilehash: 0eeaeb27ea18932db2005a24ec202d05ea996c8b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Résumé: en savoir plus sur le rapport de tendance d’emplacement dans Skype entreprise Server.'
+ms.openlocfilehash: e27dc4c42bebedc65d4af26eb1d25cb75d4b672f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33911874"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280074"
 ---
-# <a name="location-trend-report-in-skype-for-business-server"></a>Emplacement de rapport de tendance dans Skype pour Business Server
+# <a name="location-trend-report-in-skype-for-business-server"></a>Rapport de tendance d’emplacement dans Skype entreprise Server
  
-**Résumé :** Obtenir des informations sur le rapport de tendance emplacement dans Skype pour Business Server.
+**Résumé:** En savoir plus sur le rapport de tendance d’emplacement dans Skype entreprise Server.
   
 Le rapport de tendance générale des emplacements fournit des informations de tendance sur la qualité des appels pour les emplacements réseau.
   

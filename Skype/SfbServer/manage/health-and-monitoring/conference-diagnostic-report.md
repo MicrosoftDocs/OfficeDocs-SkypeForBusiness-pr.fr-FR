@@ -1,27 +1,27 @@
 ---
-title: Rapport de Diagnostic conférence dans Skype pour Business Server
+title: Rapport de diagnostic de conférence dans Skype entreprise Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e9edc23c-8ce8-4ab8-8786-9d22e1e51e14
-description: 'Résumé : Découvrez le rapport de Diagnostic de conférence utilisés dans Skype pour Business Server.'
-ms.openlocfilehash: b2cfd39ab3d6bdc6af8230bbed995e511719bf72
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Résumé: Découvrez le rapport de diagnostic de conférence utilisé dans Skype entreprise Server.'
+ms.openlocfilehash: bfe84c50b3aaee53da1dc460f501e3c9a82528af
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926570"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289299"
 ---
-# <a name="conference-diagnostic-report-in-skype-for-business-server"></a>Rapport de Diagnostic conférence dans Skype pour Business Server
+# <a name="conference-diagnostic-report-in-skype-for-business-server"></a>Rapport de diagnostic de conférence dans Skype entreprise Server
  
-**Résumé :** Obtenir des informations sur le rapport de Diagnostic de conférence utilisés dans Skype pour Business Server.
+**Résumé:** En savoir plus sur le rapport de diagnostic de conférence utilisé dans Skype entreprise Server.
   
-Le rapport de diagnostic de conférence fournit des informations sur la réussite ou l’échec de toutes les sessions de conférence. Notez que Skype pour Business Server fait la distinction entre les différents types de défaillance :
+Le rapport de diagnostic de conférence fournit des informations sur la réussite ou l’échec de toutes les sessions de conférence. Notez que Skype entreprise Server distingue différentes sortes d’échecs:
   
 - **échec attendu**. Un échec attendu est généralement une erreur au sens technique seulement. Par exemple, supposons que quelqu’un démarre une conférence, mais raccroche avant que des personnes puissent participer. Techniquement, c’est une erreur : la conférence a été lancée, mais n’a pas été achevée. Cependant, il s’agit d’une erreur à laquelle on peut s’attendre : si l’organisateur annule la conférence avant que des personnes puissent participer, on ne s’attend pas à ce que cette conférence soit achevée.
     
@@ -31,13 +31,13 @@ Notez que les mesures de Réussite, d’Échec attendu et d’Échec inattendu p
   
 |**Réussites**|**Échecs attendus**|**Échecs inattendus**|**Nombre total de sessions**|
 |:-----|:-----|:-----|:-----|
-|2024  <br/> |469  <br/> |16  <br/> |2521  <br/> |
+|2024  <br/> |469  <br/> |Seiz  <br/> |2521  <br/> |
    
-Si vous ajoutez 2 024 + 469 + 16, vous obtenez un total de 2 509 sessions alors que la colonne Nombre total de sessions indique 2 521 sessions. Les 12 sessions « manquantes » sont celles que le système n’a pas pu catégoriser comme réussies ou non. Qui sera parfois le cas lorsqu’un produit tiers introduit un nouveau code de diagnostic est inconnu au serveur de surveillance. Dans ce cas, les appels effectués à l’aide de ce produit et reportant ce code de diagnostic ne peuvent pas toujours être catégorisés en tant que réussite, échec attendu ou échec inattendu.
+Si vous ajoutez 2 024 + 469 + 16, vous obtenez un total de 2 509 sessions alors que la colonne Nombre total de sessions indique 2 521 sessions. Les 12 sessions « manquantes » sont celles que le système n’a pas pu catégoriser comme réussies ou non. Ce peut arriver parfois quand un produit tiers introduit un nouveau code de diagnostic qui n’est pas connu de surveiller le serveur. Dans ce cas, les appels effectués à l’aide de ce produit et reportant ce code de diagnostic ne peuvent pas toujours être catégorisés en tant que réussite, échec attendu ou échec inattendu.
   
 ## <a name="accessing-the-conference-diagnostic-report"></a>Accès au rapport de diagnostic de conférence
 
-Le rapport des de diagnostic de conférence est accessible à partir de la page d’accueil des Rapports de suivi. Vous pouvez accéder au [Rapport de répartition dans Skype pour Business Server](failure-distribution-report.md) en cliquant sur une des mesures suivantes :
+Le rapport des de diagnostic de conférence est accessible à partir de la page d’accueil des Rapports de suivi. Vous pouvez accéder au [rapport de distribution des échecs dans Skype entreprise Server](failure-distribution-report.md) en cliquant sur l’une des mesures suivantes:
   
 - Nombre d’échecs inattendus
     
@@ -45,7 +45,7 @@ Le rapport des de diagnostic de conférence est accessible à partir de la page 
     
 ## <a name="making-the-best-use-of-the-conference-diagnostic-report"></a>Utilisation optimale du rapport de diagnostic de conférence
 
-Le rapport de diagnostic de conférence inclut une série de graphiques. Chaque colonne de graphique constitue un lien hypertexte. Si vous cliquez sur une colonne, vous allez consulter le [Rapport de répartition dans Skype pour Business Server](failure-distribution-report.md) pour cette période et ce type de conférence.
+Le rapport de diagnostic de conférence inclut une série de graphiques. Chaque colonne de graphique constitue un lien hypertexte. Si vous cliquez sur une colonne, vous accédez au rapport sur la [distribution de l’échec dans Skype entreprise Server](failure-distribution-report.md) pendant cette période et ce type de conférence.
   
 ## <a name="filters"></a>Filtres
 

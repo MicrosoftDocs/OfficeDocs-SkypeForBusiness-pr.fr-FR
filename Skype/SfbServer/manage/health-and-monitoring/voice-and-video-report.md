@@ -1,35 +1,35 @@
 ---
-title: Égal à égal rapport vocal et vidéo dans Skype pour Business Server
+title: Rapport audio et vidéo d’égal à égal dans Skype entreprise Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e17c36b5-5a2f-4673-9696-3b2d31c2bb2f
-description: 'Résumé : Découvrez le pair à pair rapport vocal et vidéo dans Skype pour Business Server.'
-ms.openlocfilehash: 74ab2f5056c66bbd819834a573a307bd8cf82773
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Résumé: Découvrez le rapport voix et vidéo d’égal à égal dans Skype entreprise Server.'
+ms.openlocfilehash: 8ba665886e91371373358f98f69fa15b8d62a9dd
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33898037"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279633"
 ---
-# <a name="peer-to-peer-voice-and-video-report-in-skype-for-business-server"></a>Égal à égal rapport vocal et vidéo dans Skype pour Business Server
+# <a name="peer-to-peer-voice-and-video-report-in-skype-for-business-server"></a>Rapport audio et vidéo d’égal à égal dans Skype entreprise Server
  
-**Résumé :** Découvrez le pair à pair rapport vocal et vidéo dans Skype pour Business Server.
+**Résumé:** En savoir plus sur le rapport voix et vidéo d’égal à égal dans Skype entreprise Server.
   
 Le rapport vocal et vidéo d’égal-à-égal offre un examen détaillé de la distribution des appels vocaux et vidéo sur une période donnée (par exemple, les appels par heure ou par jour). Il vous offre également la possibilité de voir tous les appels vocaux et vidéo émis, ou de voir uniquement les appels ayant abouti ou échoué. Le rapport fournit les informations d’appels réparties dans les sections suivantes :
   
 - Appels par pool
     
-- Appels par type d’appel (par exemple, un Skype pour les entreprises à Skype pour l’appel d’entreprise et un Skype pour les appels professionnels à une personne sur le réseau téléphonique commuté)
+- Appels par type d’appel (par exemple, appel Skype entreprise vers Skype entreprise et appel Skype entreprise vers une personne du réseau PSTN)
     
 - Appels par type d’accès (utilisateurs connectés au réseau interne par opposition aux utilisateurs connectés au réseau externe)
     
-- Appels par le serveur de médiation
+- Appels par serveur de médiation
     
 ## <a name="to-access-the-peer-to-peer-voice-and-video-report"></a>Pour accéder au rapport vocal et vidéo d’égal-à-égal
 
@@ -70,7 +70,7 @@ Le tableau qui suit dresse la liste des informations fournies dans le rapport vo
 
 |**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
-|**Pool** <br/> |Non  <br/> |Nom du pool de serveurs d’inscriptions ou serveur Edge utilisé pour l’appel.  <br/> |
+|**Pool** <br/> |Non  <br/> |Nom du pool d’inscriptions ou du serveur Edge utilisés pour l’appel.  <br/> |
 |**Date/Heure** <br/> |Non  <br/> |Date et heure auxquelles l’appel s’est produit.  <br/> |
 |**Total** <br/> |Non  <br/> |Nombre total de sessions ou de messages.  <br/> |
    
@@ -100,7 +100,7 @@ Le tableau qui suit dresse la liste des informations fournies dans le rapport vo
    
 ## <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-mediation-server"></a>Mesures de l’activité vocale et vidéo P2P par serveur de médiation
 
-Le tableau suivant répertorie les informations fournies dans le pair à pair rapport vocal et vidéo pour chaque serveur de médiation.
+Le tableau suivant répertorie les informations fournies dans le rapport audio et vidéo d’égal à égal pour chaque serveur de médiation.
   
 **Mesures de l’activité vocale et vidéo P2P par serveur de médiation**
 

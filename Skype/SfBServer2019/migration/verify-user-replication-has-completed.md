@@ -4,38 +4,38 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Lorsque vous exécutez l’applet de commande Move-CsUser, vous pouvez rencontrer une défaillance, car les informations utilisateur entre les Services de domaine Active Directory (AD DS) et le Skype pour les bases de données métiers Server 2019 ne sont pas synchronisés, car la réplication initiale est incomplète. Le temps que nécessaire à la réussite de la Skype pour la synchronisation initiale du service Business Server 2019 User Replicator varie selon le nombre de contrôleurs de domaine qui sont hébergées dans la forêt Active Directory qui héberge le Skype pour les entreprises Pool de serveur 2019. Le Skype pour le processus de synchronisation initiale du service Business Server 2019 réplicateur se produit lorsque le Skype pour Business Server 2019 serveur frontal est démarré pour la première fois. Après cela, la synchronisation puis repose sur l’intervalle du réplicateur d’utilisateurs. Effectuez les étapes suivantes pour vérifier la réplication utilisateur est terminée avant d’exécuter l’applet de commande Move-CsUser.
-ms.openlocfilehash: bab54e91ebda7a10804980e368e05bb58ff911ff
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Lorsque vous exécutez l’applet de contrôle Move-CsUser, il est possible que vous constatiez un échec en raison du fait que les informations utilisateur entre les services de domaine Active Directory (AD DS) et celles de Skype entreprise Server 2019 ne sont pas synchronisées, car la réplication initiale est incomplète. Le temps nécessaire à la réussite de la synchronisation initiale du service de réplicateur d’utilisateurs Skype entreprise Server 2019 dépend du nombre de contrôleurs de domaine hébergés dans la forêt Active Directory qui héberge le Skype entreprise. Pool serveur 2019. Le processus de synchronisation initiale du service Réplicateur d’utilisateurs de Skype entreprise Server 2019 se produit lorsque le serveur frontal de Skype entreprise Server 2019 est démarré pour la première fois. Après cela, la synchronisation est alors basée sur l’intervalle du réplicateur d’utilisateurs. Suivez les étapes ci-dessous pour vérifier que la réplication des utilisateurs a abouti avant d’exécuter l’applet de commande Move-CsUser.
+ms.openlocfilehash: d5d0462ec2886c73fb7286860eea2c89e0fea9fb
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231335"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280645"
 ---
 # <a name="verify-user-replication-has-completed"></a>Vérifier que la réplication utilisateur est terminée
 
-Lorsque vous exécutez l’applet de commande **Move-CsUser** , vous pouvez rencontrer une défaillance si les informations utilisateur entre les Services de domaine Active Directory (AD DS) et le Skype pour les bases de données métiers Server 2019 ne sont pas synchronisées, car la réplication initiale est incomplète. Le temps que nécessaire à la réussite de la Skype pour la synchronisation initiale du service Business Server 2019 User Replicator varie selon le nombre de contrôleurs de domaine qui sont hébergées dans la forêt Active Directory qui héberge le Skype pour les entreprises Pool de serveur 2019. Le Skype pour le processus de synchronisation initiale du service Business Server 2019 réplicateur se produit lorsque le Skype pour Business Server 2019 serveur frontal est démarré pour la première fois. Après cela, la synchronisation est basée sur l’intervalle du réplicateur d’utilisateurs. Effectuez les étapes suivantes pour vérifier que la réplication utilisateur est terminée avant d’exécuter l’applet de commande **Move-CsUser** . 
+Lorsque vous exécutez l’applet de contrôle **Move-Csuser** , il est possible que vous soyez en panne si les informations utilisateur entre les services de domaine Active Directory (AD DS) et les bases de données Skype entreprise Server 2019 ne sont pas synchronisées, car la réplication initiale est incomplète. Le temps nécessaire à la réussite de la synchronisation initiale du service de réplicateur d’utilisateurs Skype entreprise Server 2019 dépend du nombre de contrôleurs de domaine hébergés dans la forêt Active Directory qui héberge le Skype entreprise. Pool serveur 2019. Le processus de synchronisation initiale du service Réplicateur d’utilisateurs de Skype entreprise Server 2019 se produit lorsque le serveur frontal de Skype entreprise Server 2019 est démarré pour la première fois. Après cela, la synchronisation est basée sur l’intervalle du réplicateur d’utilisateurs. Suivez les étapes ci-dessous pour vérifier que la réplication des utilisateurs a abouti avant d’exécuter l’applet **de commande Move-Csuser** . 
   
-### <a name="to-verify-that-user-replication-has-completed"></a>Pour vérifier que la réplication utilisateur est terminée
+### <a name="to-verify-that-user-replication-has-completed"></a>Pour vérifier que la réplication des utilisateurs est terminée
 
-1. Ouvrez une session l’ordinateur où le Générateur de topologie est installé en tant que membre du groupe Admins du domaine et du groupe RTCUniversalServerAdmins.
+1. Ouvrez une session sur l’ordinateur sur lequel le générateur de topologie est installé en tant que membre du groupe administrateurs de domaine et du groupe RTCUniversalServerAdmins.
     
-2. Cliquez sur le menu **Démarrer** , puis cliquez sur **exécuter**. 
+2. Cliquez sur le menu **Démarrer** , puis sur **exécuter**. 
     
-3. Entrez **eventvwr.exe**, puis cliquez sur **OK**.
+3. Entrez **eventvwr. exe**, puis cliquez sur **OK**.
     
-4. Dans l’Observateur d’événements, cliquez sur **journaux des Applications et des Services** pour le développer, puis sélectionnez Skype pour Business Server. 
+4. Dans l’observateur d’événements, cliquez sur **journaux des applications et des services** pour le développer, puis sélectionnez Skype entreprise Server. 
     
-5. Dans le volet **Actions** , cliquez sur **Filtrer le journal actuel**.
+5. Dans le volet **actions** , cliquez sur **filtrer le journal actuel**.
     
-6. Dans la liste de **sources d’événements** , cliquez sur **LS User Replicator**.
+6. Dans la liste **sources d’événements** , cliquez sur réplicateur d' **utilisateurs LS**.
     
-7. Dans ** \<tous les ID d’événement\>**, entrez **30024**, puis cliquez sur **OK**. 
+7. Dans ** \<tous les ID\>d’événement**, entrez **30024**, puis cliquez sur **OK**. 
     
-8. Dans la liste des événements filtrés, sous l’onglet **Général** , recherchez une entrée qui indique que la réplication utilisateur a réussi. 
+8. Dans la liste des événements filtrés, sous l’onglet **général** , recherchez une entrée indiquant que la réplication des utilisateurs s’est déroulée correctement. 
     
 

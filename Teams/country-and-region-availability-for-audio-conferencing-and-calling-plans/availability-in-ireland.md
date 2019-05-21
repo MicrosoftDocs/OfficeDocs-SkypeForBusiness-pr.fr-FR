@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,26 +24,26 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour l’Irlande.
-ms.openlocfilehash: cd500943eb6844997a77222d4b33bd4e9f1767f0
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibles pour l’Irlande.
+ms.openlocfilehash: c9e5139cac48740c510991857c584c9a14f9b8f6
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226372"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34282881"
 ---
 # <a name="availability-in-ireland"></a>Disponibilité en Irlande
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ou renseignez-vous sur la disponibilité des forfaits d'appels et d'audioconférence selon les régions et les pays.
 
-Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour l’Irlande.
+Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibles pour l’Irlande.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
 |L'audioconférence est-elle disponible à l'achat ?  <br/> |Oui  <br/> |
-|Les numéros de téléphone sont-ils attribués automatiquement pour l'audioconférence ?  <br/> |Oui, pour :<br/><ul><li> Dublin</ul>Si vous souhaitez obtenir des numéros de téléphone dédiés, reportez-vous à la rubrique [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).  <br/> |
+|Les numéros de téléphone sont-ils attribués automatiquement pour l'audioconférence ?  <br/> |Oui, pour:<br/><ul><li> Dublin</ul>Si vous souhaitez obtenir des numéros de téléphone dédiés, reportez-vous à la rubrique [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).  <br/> |
 |Fonction de numérotation à l'aide de la fonctionnalité M'appeler  <br/> |Disponibles  <br/> |
    
 ## <a name="phone-system"></a>Système téléphonique
@@ -60,8 +60,8 @@ Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
 |Les forfaits d'appels sont-ils disponibles à l'achat ?  <br/> |Oui  <br/> |
-|Minutes disponibles pour les Plans de l’appel. |Il existe quatre options de plan par mois : <ul><li>120 minutes planifier l’appel interne </li><li>240 minutes planifier l’appel interne</li></li><li>1200 minute de planifier l’appel interne </li></li><li>Nationales et internationales appelant planifier : 1200 minutes d’intérieurs - ou-600 minutes d’appels internationaux (si elle est atteinte premier dans le mois)</li></li> 
-|Peut passer des appels sortants vers les numéros ? <br/> | Non pris en charge pour l’instant. <br/> |
+|Minutes disponibles pour les offres d’appels. |Il existe quatre options de plan disponibles par mois civil: <ul><li>Forfait d’appels nationaux de 120 minutes </li><li>Forfait d’appels nationaux de 240 minutes</li></li><li>Forfait d’appels nationaux de 1200 minutes </li></li><li>Forfait d’appels nationaux et internationaux: 1200 minutes d’appel international ou de 600 minutes d’appels internationaux (selon la première atteinte du mois civil)</li></li> 
+|Est-il possible de passer des appels sortants vers des numéros payants? <br/> | Non prise en charge pour le moment. <br/> |
 |Est-il possible de passer des appels sortants ?  <br/> | Vers 196 pays, dont [ :](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Numéros payants et gratuits pour les services

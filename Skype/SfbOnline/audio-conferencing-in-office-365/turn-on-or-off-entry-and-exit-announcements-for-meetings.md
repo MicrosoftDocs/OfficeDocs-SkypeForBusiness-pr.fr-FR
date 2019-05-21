@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: "Découvrez comment activer et désactiver les annonces d'entrée et de sortie d'une réunion Skype Entreprise Online en utilisant centre d'administration Skype Entreprise. "
-ms.openlocfilehash: b9341a2011127b5a188d3d8ae2c507b097aaea65
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 246d6197142906b2a15f4bd4dfbeeb59dc4e723d
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32203436"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34302779"
 ---
 # <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings-in-skype-for-business-online"></a>Activer ou désactiver les annonces d’entrée et de sortie des réunions dans Skype Entreprise Online
 
@@ -41,13 +41,13 @@ The conferencing bridge answers a call for a user who is dialing in to a meeting
   
 ## <a name="setting-meeting-join-options"></a>Définir les options de participation à une réunion
     
-1. Dans la **Skype entreprise centre d’administration**, dans la navigation de gauche, accédez à la **conférence Audio** > **paramètres de pont de Microsoft**.
+1. Dans le **Centre d’administration de Skype entreprise**, dans le volet de navigation gauche, accédez à**paramètres du pont Microsoft** **Conferencing** > .
     
 2. Under **Meeting join experience**, select or clear **Enable meeting entry and exit notifications to be turned on**. This is selected by default. If you clear it, users who have already joined the meeting won't be notified when someone enters or leaves the meeting.
     
 3. Sous **Type d'annonce d’entrée/sortie**, sélectionnez **Noms ou numéros de téléphone** ou **Tonalités**.
     
-4. Activez ou désactivez **les appelants Ask à enregistrer leur nom avant de participer à la réunion**.
+4. Activez ou désactivez l’option **demander aux appelants d’enregistrer leur nom avant de participer à la réunion**.
     
 5. Une fois que vous avez effectué vos modifications, cliquez sur **Enregistrer**.
     

@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Découvrez comment obtenir de nouveaux numéros ou transférer des numéros existants pour teams ou Skype entreprise, et montrer les changements à vos utilisateurs. '
-ms.openlocfilehash: bda538cb03efd7704b147f1e31bc815bdf7e07bc
-ms.sourcegitcommit: a6d34297fd4e91e873372513b270f34e15cb8003
+ms.openlocfilehash: 4991ef4f9cbf32c7b87ad621b1be1554cc65406c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34164567"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285511"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>Obtention de numéros de téléphone Skype Entreprise pour vos utilisateurs
 

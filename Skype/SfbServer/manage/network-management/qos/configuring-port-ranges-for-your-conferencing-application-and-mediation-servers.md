@@ -1,5 +1,5 @@
 ---
-title: Configuration des plages de ports et une stratégie de qualité de Service pour vos serveurs de conférence, d’Application et de médiation
+title: Configuration de plages de ports et d’une stratégie de qualité de service pour vos serveurs de conférence, d’application et de médiation
 ms.reviewer: ''
 ms:assetid: 4d6eaa5d-0127-453f-be6a-e55384772d83
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204872(v=OCS.15)
@@ -8,29 +8,29 @@ mtps_version: v=OCS.15
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Cet article explique comment configurer une stratégie de qualité de Service pour vos serveurs de conférence, d’Application et de médiation et les plages de ports.
-ms.openlocfilehash: 29685029580271462e090da7fa82cd8d416e83e1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Cet article décrit la configuration de plages de ports et d’une stratégie de qualité de service pour vos serveurs de conférence, d’application et de médiation.
+ms.openlocfilehash: e0bd6092792a9ed813aadecc004f58830bc5b133
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33913362"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279460"
 ---
-# <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-conferencing-application-and-mediation-servers"></a>Configuration des plages de ports et une stratégie de qualité de Service pour vos serveurs de conférence, d’Application et de médiation
+# <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-conferencing-application-and-mediation-servers"></a>Configuration de plages de ports et d’une stratégie de qualité de service pour vos serveurs de conférence, d’application et de médiation
 
-Cet article explique comment configurer une stratégie de qualité de Service pour vos serveurs de conférence, d’Application et de médiation et les plages de ports.
+Cet article décrit la configuration de plages de ports et d’une stratégie de qualité de service pour vos serveurs de conférence, d’application et de médiation.
 
-## <a name="configure-port-ranges"></a>Configurer les plages de ports
+## <a name="configure-port-ranges"></a>Configurer des plages de ports
 
-Pour implémenter la qualité de Service, vous devez configurer les plages de ports identiques pour l’audio, vidéo, partage d’application et sur vos serveurs de conférence, d’Application et de médiation ; en outre, les plages de ports ne doivent pas se chevaucher en aucune façon. Pour utiliser un exemple simple, supposons que vous utilisez 10000 10999 par le biais de ports pour la vidéo sur vos serveurs de conférence. Cela signifie que vous devez réserver également les ports 10000 par le biais de 10999 vidéo sur vos serveurs d’applications et de médiation. Si vous le faites pas, QoS ne fonctionnera pas comme prévu.
+Pour implémenter la qualité de service, vous devez configurer des plages de port identiques pour le partage audio, vidéo et d’application sur vos serveurs de conférence, d’application et de médiation. de plus, ces plages de port ne doivent pas se chevaucher de quelque manière que ce soit. Par exemple, vous pouvez utiliser les ports 10000 à 10999 pour la vidéo sur vos serveurs de conférence. Cela signifie que vous devez également réserver les ports 10000 à 10999 pour la vidéo sur vos serveurs d’application et de médiation. Si ce n’est pas le cas, QoS ne fonctionnera pas comme prévu.
 
-De même, supposons que vous réservez ports 10000 par le biais de 10999 pour la vidéo, mais puis réserve ports 10500 par le biais de 11999 pour l’audio. Cela peut créer des problèmes de qualité de Service, car le port compris chevauchement. Des stratégies QoS, chaque modalité doit avoir un ensemble unique de ports : Si vous utilisez 10000 10999 par le biais de ports pour la vidéo, puis vous devrez utiliser une autre plage (par exemple, 11 000 par le biais de 11999, pour l’audio).
+De même, supposons que vous réservez les ports 10000 à 10999 pour la vidéo, mais que vous réservez les ports 10500 à 11999 pour le son. Cela peut générer des problèmes de qualité de service, car les plages de port se chevauchent. Avec la qualité de service (QoS), chaque modalité doit avoir un ensemble unique de ports: Si vous utilisez les ports 10000 à 10999 pour la vidéo, vous devez utiliser une autre plage (par exemple, 11000 à 11999, pour le son).
 
-Par défaut, les plages de ports audio et vidéo ne se chevauchent pas dans Skype pour Business Server ; Toutefois, les plages de ports affectés au partage chevauchement avec à la fois les plages de ports audio et vidéo d’application. (Qui, à son tour, signifie qu’aucun de ces plages sont uniques). Vous pouvez vérifier les plages de ports existant pour vos serveurs de conférence, d’Application et de médiation en exécutant les trois commandes suivantes à partir de la Skype pour Business Server Management Shell :
+Par défaut, les plages de ports audio et vidéo ne se chevauchent pas dans Skype entreprise Server. Toutefois, les plages de port affectées au partage d’application s’empiètent sur les plages de ports audio et vidéo. (Qui, à son tour, signifie qu’aucune de ces plages n’est unique.) Vous pouvez vérifier les plages de port existantes pour vos serveurs de conférences, d’applications et de médiation en exécutant les trois commandes suivantes dans Skype entreprise Server Management Shell:
 
     Get-CsService -ConferencingServer | Select-Object Identity, AudioPortStart, AudioPortCount, VideoPortStart, VideoPortCount, AppSharingPortStart, AppSharingPortCount
     
@@ -39,9 +39,9 @@ Par défaut, les plages de ports audio et vidéo ne se chevauchent pas dans Skyp
     Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPortCount
 
 > [!WARNING]  
-> Comme vous pouvez le constater dans les commandes ci-dessus, deux valeurs de propriété distinct est affecté à chaque type de port audio, vidéo et partage d’application – : le port de début et le nombre de ports. Le port de début indique le premier port utilisé pour cette modalité ; par exemple, si le début du port audio est égal à 50000, cela signifie que le premier port utilisé pour le trafic audio est le port 50000. Si le nombre de ports audio est 2 (qui n’est pas une valeur valide, mais est utilisé ici à des fins d’illustration), ce qui signifie que seuls deux ports sont alloués pour l’audio. Si le premier port est le port 50000 et il existe un total de deux ports, cela signifie que le second port doit être le port 50001 (port plages doivent être contigus). Par conséquent, la plage de ports audio serait ports 50000 par le biais de 50 001, inclus.<BR><br>Notez également que serveur d’applications et serveur de médiation ne prennent en charge QoS audio ; Il est inutile de modifier la vidéo ou les ports de vos serveurs d’applications ou les serveurs de médiation de partage d’application.
+> Comme vous pouvez le voir dans les commandes précédentes, chaque type de port (audio, vidéo et partage d’application) assigne deux valeurs de propriété distinctes: le début du port et le nombre de ports. Le début du port indique le premier port utilisé pour cette modalité; par exemple, si le port audio démarre est égal à 50000, cela signifie que le premier port utilisé pour le trafic audio est le port 50000. Si le nombre de ports audio est 2 (qui n’est pas une valeur valide, mais qui est utilisé ici à des fins d’illustration), cela signifie que deux ports sont attribués pour l’audio. Si le premier port est port 50000 et qu’il existe au total deux ports, cela signifie que le second port doit être le port 50001 (les plages de port doivent être contiguës). Par conséquent, la plage de port pour le son correspond aux ports 50000 à 50001 inclus.<BR><br>Notez également que le serveur d’applications et le serveur de médiation ne prennent pas en charge la QoS pour le son. vous n’avez pas besoin de changer les ports vidéo ou de partage d’application dans vos serveurs d’applications ou serveurs de médiation.
 
-Si vous exécutez les trois commandes précédentes, vous verrez que le port par défaut des valeurs pour Skype pour Business Server configurés comme suit :
+Si vous exécutez les trois commandes précédentes, vous constatez que les valeurs de port par défaut de Skype entreprise Server sont configurées comme suit:
 
 <table>
 <colgroup>
@@ -98,97 +98,97 @@ Si vous exécutez les trois commandes précédentes, vous verrez que le port par
 </tbody>
 </table>
 
-Comme mentionné précédemment, lors de la configuration Skype pour les ports Business Server pour la qualité de service, vous devez vous assurer que : 1) les paramètres de port audio sont identiques entre les vôtres, les serveurs de conférence, d’Application et de médiation ; et, 2) les plages de ports ne se chevauchent pas. Si vous examinez attentivement le tableau précédent, vous verrez que les plages de ports sont identiques entre les types de trois serveurs. Par exemple, le port audio initial est défini sur le port 49152 sur chaque type de serveur, et le nombre total de ports réservés pour l’audio de chaque serveur est également identique : 8348. Toutefois, le port plages chevauchement : ports audio démarrer au port 49152, mais donc font les ports attribuée au partage d’application. Afin de tirer le meilleur parti de la qualité de Service, partage d’application doit être reconfiguré pour utiliser une plage de port unique. Par exemple, vous pouvez configurer le partage d’application pour démarrer au port 40803 et utiliser des 8348 ports. (Pourquoi 8348 ports ? Si vous ajoutez ces valeurs--40803 + 8348--, cela signifie que le partage d’application utilise les ports 40803 via le port 49150. Étant donné que les ports audio ne commencent pas jusqu'à ce que le port 49152, vous n’aura plus un chevauchement des plages de ports.)
+Comme indiqué précédemment, lorsque vous configurez des ports de Skype entreprise Server pour la qualité de service (QoS), vous devez vous assurer que: 1 et 2) les plages de port ne se chevauchent pas. Si vous examinez de près le tableau précédent, vous verrez que les plages de port sont identiques entre les trois types de serveurs. Par exemple, le port audio de début est défini sur le port 49152 sur chaque type de serveur et le nombre total de ports réservés pour le son dans chaque serveur est également identique: 8348. Toutefois, le chevauchement des plages de port: les ports audio commencent au port 49152, mais les ports sont-ils mis de côté pour le partage d’application. Pour optimiser l’utilisation de la qualité du service, le partage d’application doit être reconfiguré pour utiliser une plage de ports unique. Par exemple, vous pouvez configurer le partage d’application pour qu’il commence au port 40803 et utilise les ports 8348. (Pourquoi 8348 ports? Si vous ajoutez ces valeurs ensemble--40803 + 8348, cela signifie que le partage d’application utilisera les ports 40803 via le port 49150. Étant donné que les ports audio ne commencent pas jusqu’au port 49152, il n’y a plus de plages de ports qui se chevauchent.)
 
-Une fois que vous avez sélectionné la nouvelle plage de ports pour le partage d’application, vous pouvez effectuer votre modification à l’aide de l’applet de commande Set-CsConferencingServer. Cette modification n’a pas besoin être effectuées sur vos serveurs d’applications ou sur vos serveurs de médiation, étant donné que ces serveurs ne traitent pas le trafic de partage d’application. Vous devez uniquement modifier les valeurs de port sur ces serveurs si vous décidez de réaffecter les ports utilisés pour le trafic audio.
+Après avoir sélectionné la nouvelle plage de ports pour le partage d’application, vous pouvez apporter votre modification à l’aide de l’applet de passe Set-CsConferencingServer. Il n’est pas nécessaire de procéder à cette modification sur les serveurs d’applications ou sur les serveurs de médiation, car ces serveurs ne gèrent pas le trafic de partage d’application. Vous ne devez modifier les valeurs de port sur ces serveurs que si vous décidez de réaffecter les ports utilisés pour le trafic audio.
 
-Pour modifier les valeurs de ports partage d’application sur un seul serveur de conférence, exécutez une commande similaire à celle-ci à partir de la Skype pour Business Server Management Shell :
+Pour modifier les valeurs de port du partage d’application sur un serveur de conférence unique, exécutez une commande similaire à celle-ci dans Skype entreprise Server Management Shell:
 
     Set-CsConferenceServer -Identity ConferencingServer:atl-cs-001.litwareinc.com -AppSharingPortStart 40803 -AppSharingPortCount 8348
 
-Si vous souhaitez apporter ces modifications sur tous vos serveurs de conférence, vous pouvez exécuter cette commande à la place :
+Si vous voulez apporter ces modifications sur tous vos serveurs de conférence, vous pouvez exécuter cette commande à la place:
 
     Get-CsService -ConferencingServer | ForEach-Object {Set-CsConferenceServer -Identity $_.Identity -AppSharingPortStart 40803 -AppSharingPortCount 8348}
 
-Après avoir modifié les paramètres de port, vous devez arrêter, puis redémarrez chaque service affecté par les modifications.
+Après avoir modifié les paramètres de port, vous devez arrêter, puis redémarrer chaque service affecté par ces changements.
 
-Il n’est pas obligatoire que vos serveurs de conférence, les serveurs d’applications et les serveurs de médiation partagent la même plage port exacte ; la spécification de la valeur true uniquement est que vous réservez plages de ports unique sur tous vos serveurs. Toutefois, l’administration sera généralement plus facile si vous utilisez le même ensemble de ports sur tous vos serveurs.
+Il n’est pas obligatoire que vos serveurs de conférence, serveurs d’applications et serveurs de médiation partagent exactement la même plage de port; la seule exigence requise est que vous réservez des plages de port uniques sur tous vos serveurs. Toutefois, l’administration sera généralement plus facile si vous utilisez le même ensemble de ports sur tous vos serveurs.
 
-## <a name="configure-a-quality-of-service-policy-in-skype-for-business-server-for-your-conferencing-application-and-mediation-servers"></a>Configurer une stratégie de qualité de Service dans Skype pour Business Server pour vos serveurs de conférence, d’Application et de médiation
+## <a name="configure-a-quality-of-service-policy-in-skype-for-business-server-for-your-conferencing-application-and-mediation-servers"></a>Configurer une stratégie de qualité de service dans Skype entreprise Server pour vos serveurs de conférence, d’application et de médiation
 
-Configuration des plages de ports facilite l’utilisation de la qualité de Service en s’assurant que tout le trafic d’un type spécifié (par exemple, tout le trafic audio) traverse le même ensemble de ports. Cela facilite le système identifier et marquer un paquet donné : si le port 49152 est réservé pour le trafic audio, puis les paquets envoyés via le port 49152 peuvent être marqués avec un code DSCP qui indique qu’il s’agit d’un paquet audio. Cela permet à son tour, routeurs d’identifier le paquet comme un paquet audio et lui donner la priorité plus élevée que les paquets désactivées (tels que les paquets permet de copier un fichier d’un serveur vers un autre).
+La configuration de plages de ports facilite l’utilisation de la qualité de service en s’assurant que tout le trafic d’un type spécifique (par exemple, tout le trafic audio) est acheminé par le même ensemble de ports. Ainsi, le système peut facilement identifier et marquer un paquet donné: si le port 49152 est réservé au trafic audio, tout paquet transmis via le port 49152 peut être marqué avec un code DSCP indiquant qu’il s’agit d’un paquet audio. Cela permet aux routeurs d’identifier le paquet en tant que paquet audio et de lui attribuer une priorité plus élevée que les paquets non marqués (par exemple, les paquets utilisés pour copier un fichier d’un serveur vers un autre).
 
-Toutefois, la restriction simplement un ensemble de ports à un type spécifique de trafic n’entraîne pas de paquets transmis par le biais de ces ports est marqués avec le code DSCP approprié. Outre la définition de plages de ports, vous devez également créer des stratégies de qualité de Service qui spécifient le code DSCP à associer à chaque plage de ports. Pour Skype pour Business Server, cela signifie généralement la création de deux stratégies : un pour l’audio et l’autre pour la vidéo.
+En revanche, le simple fait de limiter un ensemble de ports à un type spécifique de trafic n’entraîne pas le passage de paquets avec le code DSCP approprié. En plus de définir des plages de port, vous devez également créer des stratégies de qualité de service qui spécifient le code DSCP à associer à chaque plage de ports. Pour Skype entreprise Server, il s’agit généralement de créer deux stratégies: une pour le son et une pour la vidéo.
 
-Qualité de Service les stratégies sont plus simple à créer et à gérer, à l’aide de la stratégie de groupe. (Ces mêmes stratégies peuvent également être créées à l’aide de stratégies de sécurité locale. Toutefois, qui requiert vous permettent de répéter la même procédure sur chaque ordinateur.) Votre ensemble initial des stratégies QoS (un pour l’audio) et un pour la vidéo doit être appliquée uniquement aux Skype pour les ordinateurs Business Server exécutant le serveur de conférence, serveur d’applications et/ou services du serveur de médiation. Si tous ces ordinateurs se trouvent dans l’unité d’organisation Active Directory même, vous pouvez simplement assigner le nouvel objet de stratégie de groupe (GPO) à cette unité d’organisation. Sinon, vous pouvez effectuer les autres étapes de la cible de la nouvelle stratégie sur les ordinateurs spécifiés ; par exemple, vous pouvez placer les ordinateurs appropriés dans un groupe de sécurité, puis utiliser le filtrage de sécurité de stratégie de groupe pour appliquer la stratégie de groupe uniquement à ce groupe de sécurité.
+Les stratégies de qualité de service sont le plus facile à créer et à gérer via une stratégie de groupe. (Ces mêmes stratégies peuvent également être créées à l’aide de stratégies de sécurité locales. Toutefois, vous devez répéter la même procédure sur chacun d’eux et sur tous les ordinateurs.) Votre ensemble initial de stratégies de QoS (une pour le son et l’autre pour la vidéo) ne doit être appliqué qu’aux ordinateurs Skype entreprise Server exécutant le serveur de conférence, le serveur d’applications et/ou les services de médiation. Si tous ces ordinateurs sont situés dans la même UO Active Directory, vous pouvez simplement affecter le nouvel objet de stratégie de groupe à cette unité d’organisation. Vous pouvez également effectuer d’autres opérations pour cibler la nouvelle stratégie sur les ordinateurs spécifiques. par exemple, vous pouvez placer les ordinateurs appropriés dans un groupe de sécurité, puis utiliser le filtrage de la sécurité de la stratégie de groupe pour appliquer l’objet de stratégie de groupe à ce groupe de sécurité.
 
-Pour créer une stratégie de qualité de Service pour gérer les paramètres audio, ouvrez une session un ordinateur où la gestion des stratégies de groupe a été installée. Ouvrez Gestion des stratégies de groupe (cliquez sur **Démarrer**, pointez sur **Outils d’administration**, puis cliquez sur **Gestion des stratégies de groupe**) et puis procédez comme suit :
+Pour créer une stratégie de qualité de service pour la gestion du son, connectez-vous à un ordinateur sur lequel est installée la gestion des stratégies de groupe. Ouvrez gestion des stratégies de groupe (cliquez sur **Démarrer**, pointez sur **Outils d’administration**, cliquez sur **gestion des stratégies de groupe**), puis procédez comme suit:
 
-1.  Dans Gestion de stratégie de groupe, recherchez le conteneur où la nouvelle stratégie doit être créée. Par exemple, si tous vos Skype pour les ordinateurs Business Server se trouvent dans une unité d’organisation nommée Skype pour Business Server, puis la nouvelle stratégie doit être créée en la Skype pour l’unité d’organisation du serveur Business.
+1.  Dans gestion des stratégies de groupe, recherchez le conteneur dans lequel la nouvelle stratégie doit être créée. Par exemple, si tous vos ordinateurs Skype entreprise Server résident dans une unité d’organisation nommée Skype entreprise Server, la nouvelle stratégie doit être créée dans l’unité d’organisation Skype entreprise Server.
 
-2.  Cliquez sur le conteneur approprié, puis cliquez sur **créer un objet GPO dans ce domaine et le lier ici**.
+2.  Cliquez avec le bouton droit sur le conteneur approprié, puis cliquez sur **créer un objet de stratégie de groupe dans ce domaine et liez-le ici**.
 
-3.  Dans la boîte de dialogue **Nouvel objet GPO** , tapez un nom pour le nouvel objet de stratégie de groupe dans la zone **nom** (par exemple, **Skype pour Business Server QoS**), puis cliquez sur **OK**.
+3.  Dans la boîte de dialogue **nouvel objet GPO** , tapez le nom du nouvel objet de stratégie de groupe dans la zone **nom** (par exemple, **Skype entreprise Server QoS**), puis cliquez sur **OK**.
 
-4.  Avec le bouton droit de la stratégie créée, puis cliquez sur **Modifier**.
+4.  Cliquez avec le bouton droit sur la stratégie que vous venez de créer, puis cliquez sur **modifier**.
 
-5.  Dans l’éditeur de gestion de stratégie de groupe, développez **Configuration ordinateur**, développez **stratégies**, développez **Paramètres Windows**, avec le bouton droit **QoS basée sur la stratégie**, puis cliquez sur **créer une nouvelle stratégie**.
+5.  Dans l’éditeur de gestion des stratégies de groupe, développez **Configuration ordinateur**, **stratégies**, développez **Paramètres Windows**, cliquez avec le bouton droit sur **QoS basée sur une stratégie**, puis cliquez sur **créer une nouvelle stratégie**.
 
-6.  Dans la boîte de dialogue **QoS basée** sur la page de démarrage, tapez un nom pour la nouvelle stratégie (par exemple, **Skype pour Business Server QoS**) dans la zone **nom** . Sélectionnez **Spécifier la valeur DSCP** , définissez la valeur à **46**. Laissez **Spécifier le taux d’accélération sortant** non sélectionné, puis cliquez sur **suivant**.
+6.  Dans la boîte de dialogue **QoS basée** sur une stratégie, dans la page ouverture, tapez un nom pour la nouvelle stratégie (par exemple, **Skype entreprise Server QoS**) dans la zone **nom** . Sélectionnez **spécifier la valeur DSCP** et définissez la valeur sur **46**. Laissez l’option **spécifier le taux de limitation en sortie** non sélectionnée, puis cliquez sur **suivant**.
 
-7.  Dans la page suivante, vérifiez que **toutes les applications** est sélectionné, puis cliquez sur **suivant**. Il vérifie simplement que toutes les applications corresponde aux paquets à partir de la plage de ports spécifié par le code DSCP spécifié.
+7.  Dans la page suivante, assurez-vous que l’option **toutes les applications** est sélectionnée, puis cliquez sur **suivant**. Cela permet de s’assurer que toutes les applications correspondent aux paquets de la plage de ports spécifiée avec le code DSCP spécifié.
 
-8.  Dans la troisième page, assurez-vous **toute adresse IP source et l’adresse IP de destination** sont sélectionnés, puis cliquez sur **suivant**. Ces deux paramètres de vous assurer que les paquets sont gérés indépendamment de l’ordinateur (adresse IP) envoyé les paquets et l’ordinateur (adresse IP) reçoit les paquets.
+8.  Sur la troisième page, assurez-vous que toutes les **adresses IP source et adresse IP de destination** sont sélectionnées, puis cliquez sur **suivant**. Ces deux paramètres garantissent le fonctionnement de la gestion des paquets indépendamment de l’ordinateur (adresse IP) ayant envoyé ces paquets et de l’ordinateur (adresse IP) recevant ces paquets.
 
-9.  Sur la page quatre, sélectionnez **TCP et UDP** dans la liste déroulante **Sélectionnez le protocole d’à que cette stratégie de QoS s’applique** . TCP (Transmission Control Protocol) et UDP (User Datagram Protocol) sont les deux protocoles réseau plus couramment utilisés par Skype pour Business Server et ses applications clientes.
+9.  Dans la page 4, sélectionnez **TCP et UDP** dans la liste déroulante **Sélectionner le protocole que cette stratégie de QoS applique à** . Le protocole TCP (Transmission Control Protocol) et UDP (User Datagram Protocol) sont les deux protocoles réseau les plus fréquemment utilisés par Skype entreprise Server et ses applications clientes.
 
-10. Sous le titre, **Spécifiez le numéro de port source**, sélectionnez **à partir de ce port source ou de la plage**. Dans la zone de texte correspondante, tapez la plage de ports réservée pour les transmissions audio. Par exemple, si vous réservé ports 49152 par le biais de ports 57500 pour le trafic audio, entrez la plage de ports à l’aide de ce format : **49152:57500**. Cliquez sur **Terminer**.
+10. Sous le titre **Spécifiez le numéro de port source**, sélectionnez **à partir de ce port ou plage de sources**. Dans la zone texte de l’accompagnement, tapez la plage de ports réservée aux transmissions audio. Par exemple, si vous avez réservé ports 49152 via ports 57500 pour le trafic audio, entrez la plage de ports à l’aide du format suivant: **49152:57500**. Cliquez sur **Terminer**.
 
 > [!NOTE]  
-> La valeur DSCP 46 est quelque peu arbitraire : bien que le marquage DSCP 46 est souvent utilisé pour le marquage des paquets audio, il est inutile d’utiliser le marquage DSCP 46 pour les communications audio. Si vous avez déjà implémenté QoS et que vous utilisez un autre code DSCP pour l’audio (par exemple, le marquage DSCP 40), vous devez configurer votre stratégie de qualité de Service pour utiliser ce même code (autrement dit, 40 pour l’audio). Si vous implémentez uniquement maintenant la qualité de Service, puis il est recommandé d’utiliser simplement de DSCP 46 pour l’audio, car cette valeur est couramment utilisée pour marquer les paquets audio.
+> La valeur DSCP de 46 est légèrement arbitraire: bien que le DSCP 46 soit souvent utilisé pour marquer les paquets audio, vous ne devez pas utiliser DSCP 46 pour les communications audio. Si vous avez déjà implémenté la qualité de service (QoS) et que vous utilisez un autre code DSCP pour l’audio (par exemple, DSCP 40), vous devez configurer votre politique de qualité de service pour utiliser ce code (c’est-à-dire 40 pour le son). Si vous implémentez actuellement la qualité de service, nous vous conseillons d’utiliser le DSCP 46 pour l’audio, car cette valeur est couramment utilisée pour marquer les paquets audio.
 
-Une fois que vous avez créé la stratégie QoS pour le trafic audio, vous devez ensuite créer une deuxième stratégie pour le trafic vidéo (et, éventuellement, une troisième stratégie pour gérer le trafic de partage d’application). Pour créer une stratégie pour la vidéo, suivez la même procédure de base que vous avez suivi lors de la création de la stratégie audio, effectuant les substitutions :
+Une fois que vous avez créé la stratégie de QoS pour le trafic audio, vous devez créer une deuxième stratégie pour le trafic vidéo (et, éventuellement, une troisième stratégie de gestion du trafic de partage d’application). Pour créer une stratégie pour la vidéo, suivez la même procédure que celle que vous avez suivie lors de la création de la stratégie audio, en effectuant les substitutions suivantes:
 
-  - Utilisez un nom différent (et unique) de la stratégie (par exemple, **Skype pour Business Server vidéo**).
+  - Utilisez un nom de stratégie différent (et unique) (par exemple, **Skype entreprise Server Video**).
 
-  - Définissez la valeur DSCP **34** au lieu de 46. (Notez que vous n’avez pas d’utiliser une valeur DSCP de 34. La seule exigence est que vous utilisez une autre valeur DSCP pour la vidéo que vous avez utilisé pour l’audio.)
+  - Définissez la valeur DSCP sur **34** au lieu de 46. (Notez que vous n’avez pas besoin d’utiliser une valeur DSCP de 34. La seule condition requise est d’utiliser une autre valeur DSCP pour la vidéo que celle utilisée pour l’audio.
 
-  - Utiliser la plage de ports précédemment configuré pour le trafic vidéo. Par exemple, si vous avez réservé ports 57501 et 65 535 pour la vidéo, définissez la plage de ports à ceci : **57501:65535**.
+  - Utilisez la plage de ports configurée précédemment pour le trafic vidéo. Par exemple, si vous avez réservé ports 57501 à 65535 pour la vidéo, définissez l’intervalle de ports comme suit: **57501:65535**.
 
-Si vous décidez de créer une stratégie pour gérer le trafic de partage d’application, vous devez créer une troisième stratégie en effectuant les substitutions suivantes :
+Si vous décidez de créer une stratégie de gestion du trafic de partage d’application, vous devez créer une troisième stratégie en effectuant les substitutions suivantes:
 
-  - Utilisez un nom différent (et unique) de la stratégie (par exemple, **Skype pour le partage d’Application Business Server**).
+  - Utilisez un nom de stratégie différent (et unique) (par exemple, **partage d’application Skype entreprise Server**).
 
-  - Définissez la valeur DSCP à **24** au lieu de 46. (Là encore, il est inutile d’utiliser une valeur DSCP sur 24. La seule exigence est que vous utilisez une autre valeur DSCP pour le partage d’application que vous avez utilisé pour l’audio ou vidéo.)
+  - Définissez la valeur DSCP sur **24** au lieu de 46. (De nouveau, vous n’avez pas besoin d’utiliser une valeur DSCP de 24. La seule condition requise est d’utiliser une autre valeur DSCP pour le partage d’application que celle utilisée pour l’audio ou la vidéo.)
 
-  - Utiliser la plage de ports précédemment configuré pour le trafic vidéo. Par exemple, si vous avez réservé ports 40803 via et 49 151 partage d’application, définissez la plage de ports à ceci : **40803:49151**.
+  - Utilisez la plage de ports configurée précédemment pour le trafic vidéo. Par exemple, si vous avez réservé ports 40803 à 49151 pour le partage d’application, définissez l’intervalle de ports comme suit: **40803:49151**.
 
-Les nouvelles stratégies que vous avez créé ne prendra pas effet jusqu'à ce que la stratégie de groupe a été actualisée sur votre Skype pour les ordinateurs serveurs d’entreprise. Bien que la stratégie de groupe est actualisée régulièrement sur son propre, vous pouvez forcer une actualisation immédiate en exécutant la commande suivante sur chaque ordinateur où la stratégie de groupe doivent être actualisées :
+Les nouvelles stratégies que vous avez créées ne sont pas prises en compte tant que la stratégie de groupe n’a pas été actualisée sur vos ordinateurs Skype entreprise Server. Bien que la stratégie de groupe s’actualise périodiquement, vous pouvez forcer une actualisation immédiate en exécutant la commande suivante sur chaque ordinateur dans lequel la stratégie de groupe doit être actualisée:
 
     Gpupdate.exe /force
 
-Cette commande peut être exécutée à partir de dans la Skype pour Business Server Management Shell ou à partir de n’importe quelle fenêtre de commande s’exécutant sous les informations d’identification d’administrateur. Pour exécuter une fenêtre de commande sous informations d’identification d’administrateur, cliquez sur **Démarrer**, cliquez sur **invite de commandes**, puis cliquez sur **Exécuter en tant qu’administrateur**.
+Vous pouvez exécuter cette commande à partir de Skype entreprise Server Management Shell ou depuis n’importe quelle fenêtre de commande exécutée sous informations d’identification d’administrateur. Pour exécuter une fenêtre de commande sous informations d’identification d’administrateur, cliquez sur **Démarrer**, cliquez avec le bouton droit sur **invite de commandes**, puis cliquez sur **exécuter en tant qu’administrateur**.
 
-Pour vérifier que les nouvelles stratégies QoS ont été appliquées, procédez comme suit :
+Pour vérifier que les nouvelles stratégies de QoS sont appliquées, procédez comme suit:
 
-1.  Sur un Skype pour ordinateur Business Server, cliquez sur **Démarrer**, puis cliquez sur **exécuter**.
+1.  Sur un ordinateur Skype entreprise Server, cliquez sur **Démarrer**, puis sur **exécuter**.
 
-2.  Dans la boîte de dialogue **exécuter** , tapez **regedit**, puis appuyez sur ENTRÉE.
+2.  Dans la boîte de dialogue **exécuter** , tapez **regedit**, puis appuyez sur entrée.
 
-3.  Dans l’Éditeur du Registre, développez **l’ordinateur**, **HKEY\_LOCAL\_ordinateur**, développez **SOFTWARE**, développez **stratégies**, développez **Microsoft**, développez **Windows**, puis cliquez sur **QoS**. Sous **QoS** , vous devez voir des clés de Registre pour chacune des stratégies QoS que vous venez de créer. Par exemple, si vous avez créé deux nouvelles stratégies (un nommé Skype pour Business Server Audio QoS) et l’autres Skype nommé Business Server vidéo QoS, vous devez voir entrées de Registre pour Skype pour Business Server Audio QoS et Skype Business Server vidéo QoS.
+3.  Dans l’éditeur du Registre, développez **ordinateur**, sur **\_HKEY local\_machine**, développez **logiciel**, développez **stratégies**, développez **Microsoft**, développez **Windows**, puis cliquez sur **QoS**. Sous **QoS** , vous devez voir les clés de Registre correspondant aux stratégies de QoS que vous venez de créer. Par exemple, si vous avez créé deux nouvelles stratégies (l’une ayant pour nom audio Skype entreprise Server QoS et l’autre appelée Skype entreprise Server Video QoS), vous devez voir les entrées de Registre pour Skype entreprise Server audio QoS et la qualité de service vidéo de Skype entreprise Server.
 
-Pour garantir que les paquets réseau sont marqués avec la valeur DSCP appropriée, vous devez également créer une nouvelle entrée de Registre sur chaque ordinateur en procédant comme suit :
+Pour vous assurer que les paquets réseau sont marqués avec la valeur DSCP appropriée, vous devez également créer une nouvelle entrée de Registre sur chaque ordinateur en suivant la procédure suivante:
 
 1.  Cliquez sur **Démarrer **, puis sur **Exécuter **.
 
-2.  Dans la boîte de dialogue **exécuter** , tapez **regedit**, puis appuyez sur ENTRÉE.
+2.  Dans la boîte de dialogue **exécuter** , tapez **regedit**, puis appuyez sur entrée.
 
-3.  Dans l’Éditeur du Registre, développez **HKEY\_LOCAL\_ordinateur**, développez **système**, développez **CurrentControlSet**, développez **services**et **puis TCPIP**.
+3.  Dans l’éditeur du Registre, développez l' **ordinateur\_\_local HKEY**, développez **système**, **CurrentControlSet**, développez **services**, puis cliquez sur **tcpip**.
 
-4.  Cliquez sur **TCP/IP**, pointez sur **Nouveau**, puis cliquez sur **clé**. Une fois la nouvelle clé de Registre est créée, tapez **QoS**, puis appuyez sur ENTRÉE pour renommer la clé.
+4.  Cliquez avec le bouton droit sur **tcpip**, pointez sur **nouveau**, puis cliquez sur **clé**. Une fois la nouvelle clé de Registre créée, tapez **QoS**, puis appuyez sur entrée pour renommer la clé.
 
-5.  Avec le bouton droit **QoS**, pointez sur **Nouveau**, puis cliquez sur **Valeur de chaîne**. Une fois la nouvelle valeur de Registre est créée, tapez **n’utilisez pas l’authentification réseau**, puis appuyez sur ENTRÉE pour renommer la valeur.
+5.  Cliquez avec le bouton droit sur **QoS**, pointez sur **nouveau**, puis cliquez sur **valeur de chaîne**. Une fois la nouvelle valeur du Registre créée, tapez **ne pas utiliser NLA**, puis appuyez sur entrée pour renommer la valeur.
 
-6.  Double-cliquez sur **ne pas utiliser l’authentification réseau**. Dans la boîte de dialogue **Modification de la chaîne** , tapez **1** dans la zone **valeur** , puis cliquez sur **OK**.
+6.  Double-cliquez sur **ne pas utiliser NLA**. Dans la boîte de dialogue modification de la **chaîne** , tapez **1** dans la zone données de la **valeur** , puis cliquez sur **OK**.
 
-7.  Fermez l’Éditeur du Registre et redémarrez votre ordinateur.
+7.  Fermez l’éditeur du Registre et redémarrez votre ordinateur.

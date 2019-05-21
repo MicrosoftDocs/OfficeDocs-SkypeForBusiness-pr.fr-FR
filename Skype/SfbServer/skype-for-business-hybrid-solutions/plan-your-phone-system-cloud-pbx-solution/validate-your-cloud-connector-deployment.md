@@ -5,7 +5,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 3/2/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,17 +13,17 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 30b6be15-77fa-43b0-b558-87b9724feb35
-description: Une fois que vous avez effectué les étapes pour déployer et configurer Skype pour l’édition de connecteur Business Cloud, vérifiez que vous pouvez émettre et recevoir des appels.
-ms.openlocfilehash: 7ea8e686c578941c2009465fc43ed6ae004dbb88
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Après avoir suivi les étapes de déploiement et de configuration de Skype entreprise version Cloud Connector, vérifiez que vous pouvez passer et recevoir des appels.
+ms.openlocfilehash: 9c8cc28249b6a9b1d98ff51352abbdd4888882bf
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32240773"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286619"
 ---
 # <a name="validate-your-cloud-connector-deployment"></a>Validate your Cloud Connector deployment
  
-Une fois que vous avez effectué les étapes pour déployer et configurer Skype pour l’édition de connecteur Business Cloud, vérifiez que vous pouvez émettre et recevoir des appels.
+Après avoir suivi les étapes de déploiement et de configuration de Skype entreprise version Cloud Connector, vérifiez que vous pouvez passer et recevoir des appels.
   
 ## <a name="validate-the-deployment"></a>Validation du déploiement
 

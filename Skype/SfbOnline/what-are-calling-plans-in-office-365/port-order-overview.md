@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,20 +21,20 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Consultez notre courte présentation sur le transfert dans Skype Entreprise de numéros de téléphone gérés par un fournisseur de services. '
-ms.openlocfilehash: 9ef870abbab8760a09db667a481d7f3f53708423
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ebb13c4a530b5d88a3df17c660d26ff13498b174
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229806"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280695"
 ---
 # <a name="port-order-overview"></a>Présentation de la demande de transfert
 
-Si vous avez actuellement un fournisseur de services de téléphone ou un opérateur et que vous avez déjà des numéros de téléphone pour vos utilisateurs, vous devrez créer ce que l'on appelle un «*voie*» qui transfère ces numéro de téléphone à Skype pour Business Online. Une fois les numéros transférés, vous pouvez les affecter à vos utilisateurs.
+Si vous disposez actuellement d’un fournisseur ou d’un opérateur de services de téléphonie et que vous avez déjà un numéro de téléphone pour vos utilisateurs, vous devez créer ce qu’il s’agit d’une*demande*de transfert qui transfère ces numéros de téléphone vers Skype entreprise online. Une fois les numéros transférés, vous pouvez les affecter à vos utilisateurs.
   
 Après avoir transféré vos numéros de téléphone vers Skype Entreprise Online dans Office 365, Microsoft deviendra votre fournisseur de services et vous pourrez résilier votre service auprès de votre ancien fournisseur ou opérateur.
   
- **Pour obtenir des instructions complètes, voir [transférer des numéros de téléphone vers Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
+ **Pour obtenir des instructions complètes détaillées, consultez la rubrique [transférer des numéros de téléphone vers Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
 
  > [!NOTE]
 > Si vous devez obtenir davantage de numéros de téléphone, veuillez [contacter le support pour les entreprises - Aide de l'administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)

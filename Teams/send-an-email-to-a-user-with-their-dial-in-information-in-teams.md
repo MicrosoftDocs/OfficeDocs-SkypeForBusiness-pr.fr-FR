@@ -11,7 +11,7 @@ ms.service: msteams
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Envoyez à vos utilisateurs un courrier électronique qui contient leurs informations d’audioconférence dans Microsoft Teams.
-ms.openlocfilehash: 445e783fde44b3067c1bc595fa93c623404e40db
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 7bc73e6663d206bdf65cfb21a3462d364a8c0fd7
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32205061"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305316"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-microsoft-teams"></a>Envoyer à un utilisateur un courrier électronique qui contient ses informations d’audioconférence dans Microsoft Teams
 
@@ -45,30 +45,30 @@ Voici un exemple de courrier électronique envoyé :
   
 ## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>Envoyer à un utilisateur un courrier électronique qui contient les informations d’audioconférence
 
-### <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![les équipes-logo-30x30.png](media/teams-logo-30x30.png) À l’aide du centre d’administration Microsoft Teams
+### <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![teams-logo-30x30. png](media/teams-logo-30x30.png) Utilisation du centre d’administration Microsoft teams
 
-1. Dans la navigation de gauche, cliquez sur **utilisateurs**, puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
+1. Dans le volet de navigation de gauche, cliquez sur **utilisateurs**, puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
 
 2. En haut de la page, cliquez sur **Modifier**.
 
-3. **Conférence Audio**, cliquez sur **Envoyer les informations de conférence dans le message électronique**.
+3. Sous **audioconférence**, cliquez sur **Envoyer les informations sur la Conférence par courrier électronique**.
 
 
 ## <a name="what-else-should-you-know-about-this-email"></a>Que devez-vous savoir d'autre sur les courriers électroniques ?
 
-- Il existe plusieurs messages électroniques envoyés aux utilisateurs de votre organisation une fois qu’ils sont activés pour les conférences audio :
+- Plusieurs messages électroniques sont envoyés aux utilisateurs de votre organisation après leur activation pour l’audioconférence:
     
-  - Lorsqu’une licence de **Conférence Audio** est attribuée.
+  - Lorsqu’une licence de **conférence audio** leur est affectée.
     
-  - Lorsque vous réinitialisez manuellement code confidentiel de conférence audio de l’utilisateur.
+  - Lorsque vous réinitialisez manuellement le code confidentiel de l’audioconférence de l’utilisateur.
     
   - Lorsque vous réinitialisez manuellement l'ID de conférence de l'utilisateur.
     
-  - Lorsqu’une licence de **Conférence Audio** est supprimée à partir de celles-ci.
+  - Lors de la suppression d’une licence de **conférence audio** .
     
-  - Lorsque le fournisseur de services d’audioconférence pour un utilisateur est modifié à partir de Microsoft vers un autre fournisseur ou **Aucun**.
+  - Lorsque le fournisseur de services d’audioconférence d’un utilisateur est passé de Microsoft à un autre fournisseur ou à **aucun**.
     
-  - Lorsque le fournisseur de services d’audioconférence pour un utilisateur est remplacé par Microsoft.
+  - Lorsque Microsoft devient le fournisseur de services d’audioconférence pour un utilisateur.
   
 ## <a name="want-to-know-more-about-windows-powershell"></a>Vous souhaitez en savoir plus sur Windows PowerShell ?
 

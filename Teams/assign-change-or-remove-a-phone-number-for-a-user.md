@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Découvrez comment affecter, modifier ou supprimer un numéro de téléphone professionnel pour vos équipes ou les utilisateurs Skype entreprise de sorte que les entreprises et les clients externes puissent appeler.
-ms.openlocfilehash: 547d9d4a4af68ef3cdd19a6f11c2854a4c2ba4ec
-ms.sourcegitcommit: a6d34297fd4e91e873372513b270f34e15cb8003
+ms.openlocfilehash: f9792edf76d5d86a562516aa620bfbb62d26fdd9
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34164575"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286284"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Affectation, modification ou suppression du numéro de téléphone d’un utilisateur
 

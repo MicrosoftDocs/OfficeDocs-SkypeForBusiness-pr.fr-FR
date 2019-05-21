@@ -1,55 +1,55 @@
 ---
-title: Quelles sont les nouveautés dans Skype pour Business Server 2019 | fonctionnalités
+title: Nouveautés de Skype entreprise Server 2019 | Elles
 ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: overview
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
-description: 'Résumé : Ces fonctionnalités sont nouvelles dans Skype pour Business Server 2019.'
-ms.openlocfilehash: 68b6a2c3e3115df58c44603817e2adfc0c83f67c
-ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
+description: 'Résumé: ces fonctionnalités sont nouvelles dans Skype entreprise Server 2019.'
+ms.openlocfilehash: 4ede00188c8928e0fa3d89857b6d5bfdb0a44ade
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "33835238"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283898"
 ---
-# <a name="whats-in-skype-for-business-server-2019"></a>Nouveautés dans Skype pour Business Server 2019
+# <a name="whats-in-skype-for-business-server-2019"></a>Présentation de Skype entreprise Server 2019
 
-**Résumé :** Lisez cette rubrique pour en savoir plus sur les nouvelles fonctionnalités de Skype pour Business Server 2019.  
+**Résumé:** Consultez cette rubrique pour en savoir plus sur les nouvelles fonctionnalités de Skype entreprise Server 2019.  
 
-Nouvelles fonctionnalités de Skype pour Business Server 2019 sont les suivantes :
+Les nouvelles fonctionnalités de Skype entreprise Server 2019 sont les suivantes:
   
 - Messagerie vocale cloud  
 - Connecteur de données d’appel
 - Migration côte à côte
 
-## <a name="unified-messaging-services-cloud-voicemail"></a>Les services de messagerie unifiés : messagerie vocale dans le nuage
+## <a name="unified-messaging-services-cloud-voicemail"></a>Services de messagerie unifiée: boîte vocale Cloud
 
-Messagerie unifiée Exchange reste disponible dans Skype pour Business Server 2019 lorsque vous intégrez Skype pour les entreprises 2019 avec Exchange 2013 ou 2016 Exchange. En raison des modifications apportées à la prise en charge dans Exchange 2019, l’intégration de la messagerie unifiée Exchange est mis en évidence au profit des fonctionnalités de la messagerie vocale dans le nuage et de standard automatique de nuage.  
+La messagerie unifiée Exchange reste disponible dans Skype entreprise Server 2019 lorsque vous intégrez Skype entreprise 2019 avec Exchange 2013 ou Exchange 2016. En raison des modifications apportées à la prise en charge dans Exchange 2019, l’intégration de la messagerie unifiée Exchange est mise en évidence dans les fonctionnalités de messagerie vocale et de standard automatique Cloud.  
 
-Messagerie vocale dans le nuage permet à tous vos Skype pour Business 2019 users& #x 2014 ; si elles sont hébergés sur site ou online& #x 2014 ; pour accéder au même service de messagerie vocale dans le Cloud Microsoft. Messagerie vocale dans le nuage offre les avantages suivants pour vos utilisateurs en ligne et sur site :
+La boîte vocale Cloud vous permet d’accéder à l’intégralité de votre Skype entreprise 2019 users& # x2014; qu’ils soient hébergés en local ou online& # x2014; pour avoir accès au même service de boîte vocale dans le Cloud Microsoft. La messagerie vocale Cloud offre les avantages suivants pour vos utilisateurs locaux et en ligne:
 
-- Accès à la messagerie vocale dans leur boîte aux lettres Exchange à l’aide de la Skype pour les clients professionnels en ligne, équipes ou Outlook
-- Possibilité d’utiliser le portail web afin de gérer leurs options de la messagerie vocale
+- Accès à la messagerie vocale dans sa boîte aux lettres Exchange à l’aide des clients Skype entreprise Online, teams ou Outlook
+- Possibilité d’utiliser le portail Web pour gérer leurs options de messagerie vocale
 
-Pour plus d’informations, voir [service de planification de la messagerie vocale dans le nuage](../sfbhybrid/hybrid/plan-cloud-voicemail.md) et la [planification de Skype pour Business Server et de migration d’Exchange Server](../sfbhybrid/hybrid/plan-um-migration.md) .
+Pour plus d’informations, reportez-vous à la rubrique [planifier le service de messagerie vocale Cloud](../sfbhybrid/hybrid/plan-cloud-voicemail.md) et [planifier la migration de Skype entreprise Server et Exchange Server](../sfbhybrid/hybrid/plan-um-migration.md) .
   
-## <a name="call-monitoring-call-data-connector"></a>Surveillance des appels : connecteur de données d’appel
+## <a name="call-monitoring-call-data-connector"></a>Suivi des appels: connecteur de données d’appel
 
-Connecteur de données d’appel simplifie grandement la surveillance de l’appel dans un environnement hybride, car vous n’avez plus besoin d’utiliser différentes sur site et les outils en ligne pour contrôler l’ensemble de vos utilisateurs la qualité des appels.  Si vos utilisateurs sont hébergés sur site ou en ligne, vous pouvez choisir d’afficher la qualité des appels pour votre organisation en ligne.
+Ce connecteur simplifie grandement le suivi des appels dans un environnement hybride, car vous n’avez plus besoin d’utiliser différents ensembles d’outils locaux et en ligne pour contrôler la qualité des appels de tous les utilisateurs.  Que vos utilisateurs soient privés ou en ligne, vous pouvez choisir d’afficher la qualité des appels en ligne pour l’ensemble de votre organisation.
 
-Avec le connecteur de données d’appel, vous pouvez effectuer les tâches suivantes à l’aide d’un seul ensemble d’outils :
+Grâce au connecteur de données d’appel, vous pouvez effectuer les tâches suivantes à l’aide d’un seul ensemble d’outils:
 
-- Surveiller votre expérience utilisateur dans Microsoft Teams, Skype pour Business Online et Skype pour Business Server.
-- Afficher et résoudre les problèmes de votre réseau
-- Assigner des rôles de support technique et administrateur appeler Analytique, afin que vous donner des travailleurs de support technique pour afficher et résoudre les problèmes de leurs domaines de responsabilité.
+- Surveiller votre utilisation de Microsoft Teams, de Skype entreprise Online et de Skype entreprise Server.
+- Afficher et résoudre les problèmes sur votre réseau
+- Attribution d’un rôle d’assistance et de rôles d’administrateur à l’analyse des appels, afin que vous puissiez permettre aux techniciens du support technique de consulter et de dépanner leurs domaines de responsabilité.
 
-Pour plus d’informations, voir [Planification de connecteur de données d’appel](../sfbhybrid/hybrid/plan-call-data-connector.md) .
+Pour plus d’informations, reportez-vous à la section [plan des données d’appel](../sfbhybrid/hybrid/plan-call-data-connector.md) .
 
 ### <a name="see-also"></a>Voir aussi
 
-[Ce qui est déconseillé de Skype pour Business Server 2019](deprecated.md)
+[Ce qui est déconseillé dans Skype entreprise Server 2019](deprecated.md)

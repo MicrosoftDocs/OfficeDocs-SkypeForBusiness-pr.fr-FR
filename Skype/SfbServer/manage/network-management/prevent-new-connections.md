@@ -4,26 +4,26 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: ''
-ms.openlocfilehash: 682e3e986e55b879036217e8ca1ed558666a67de
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b7aa303f2b49a806434af91789ab3e610fdc45c0
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33913341"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279486"
 ---
-# <a name="preventing-new-connections-to-skype-for-business-server-for-server-maintenance"></a>Empêcher les nouvelles connexions à Skype pour Business Server pour la maintenance du serveur
+# <a name="preventing-new-connections-to-skype-for-business-server-for-server-maintenance"></a>Blocage de nouvelles connexions à Skype entreprise Server pour la maintenance du serveur
 
 
-Skype pour Business Server permet de prendre un serveur hors ligne (par exemple, pour appliquer les mises à jour de logiciel ou matériel) sans perte de service pour les utilisateurs.
+Skype entreprise Server vous permet de mettre un serveur hors connexion (par exemple, pour appliquer des mises à jour logicielles ou matérielles) sans aucune perte de service aux utilisateurs.
 
-Lorsque vous spécifiez l’option pour empêcher les nouvelles connexions ou des appels vers un serveur dans un pool, elle cesse d’accepter des appels et les nouvelles connexions dès que vous implémentez cette option. Ces nouvelles connexions et les appels sont routés par les autres serveurs du pool. Un serveur qui empêche les nouvelles connexions permet à ses sessions sur les connexions existantes pour continuer jusqu'à la fin de leur naturellement. Lorsque toutes les sessions existantes sont terminées, le serveur est prêt à être mis hors connexion.
+Lorsque vous spécifiez l’option permettant d’éviter de nouvelles connexions ou appels vers un serveur d’un pool, il cesse de prendre de nouvelles connexions et appels dès que vous implémentez cette option. Ces nouvelles connexions et appels sont routés par le biais d’autres serveurs du pool. Un serveur qui empêche de nouvelles connexions autorise la poursuite de ses sessions sur les connexions existantes jusqu’à ce qu’il se termine de façon naturelle. Lorsque toutes les sessions existantes sont terminées, le serveur est prêt à être déconnecté.
 
-Lorsque vous empêchez les nouvelles connexions à un serveur frontal, certains Skype pour les services et fonctionnalités Business Server s’appuient sur équilibrage DNS pour vous assurer qu’il fonctionne correctement. Si vous n’utilisez pas le DNS équilibrage de charge sur le pool, les connexions via ces services ne soient pas réacheminées vers d’autres serveurs pendant la période que le serveur est empêcher les nouvelles connexions, et donc lorsque le serveur est mis hors connexion des sessions et les appels peuvent être interrompue. Les fonctionnalités qui reposent sur la charge DNS équilibrée pour vous assurer que cette option fonctionne correctement sont les suivantes :
+Lorsque vous interdisez de nouvelles connexions à un serveur frontal, certains services et fonctionnalités Skype entreprise Server dépendent de l’équilibrage de charge DNS pour s’assurer qu’elle fonctionne correctement. Si vous n’utilisez pas l’équilibrage de charge DNS sur le pool, les connexions par le biais de ces services ne peuvent pas être redirigées vers d’autres serveurs au cours de la période pendant laquelle le serveur empêche les nouvelles connexions, et par conséquent, lorsque le serveur est hors connexion, certaines sessions et appels peuvent être garantir. Les fonctionnalités qui dépendent de l’équilibrage de charge DNS pour s’assurer que cette option fonctionne correctement sont les suivantes:
 
   - Intendant
 
@@ -35,24 +35,24 @@ Lorsque vous empêchez les nouvelles connexions à un serveur frontal, certains 
 
   - application de parcage d’appel
 
-Pour plus d’informations sur l’équilibrage de charge DNS, voir [Configuration requise de l’équilibrage de charge](../../plan-your-deployment/network-requirements/load-balancing.md).
+Pour plus d’informations sur l’équilibrage de charge DNS, voir [exigences d’équilibrage de charge](../../plan-your-deployment/network-requirements/load-balancing.md).
 
-En plus d’empêcher les nouvelles connexions pour tous les services sur un serveur exécutant Skype pour Business Server, vous pouvez également empêcher les nouvelles connexions Skype individuel pour les services Business Server. Par exemple, cette méthode est utile dans une situation où vous devez appliquer un Skype pour une mise à jour Business Server qui ne nécessite pas l’ensemble du serveur d’être arrêté. Notez que lorsque vous empêchez les connexions pour un seul service, vous devez sélectionner un service lorsqu’elles sont regroupé et affichée dans la liste des services Windows. Par exemple, le Skype pour le service Business Server frontal et l’agent de collection de données de surveillance sont Skype distinct pour les services Business Server, mais dans la liste des services Windows, ils sont consolidées et affichées sous forme de la Skype pour Business Server frontal service. Vous pouvez empêcher les nouvelles connexions pour le Skype pour le service Business serveur frontal, mais vous ne pouvez pas empêcher les nouvelles connexions pour ces deux Skype de sous-jacent individuelles pour les services Business Server séparément.
+Outre la prévention de nouvelles connexions pour tous les services sur un serveur exécutant Skype entreprise Server, vous pouvez également interdire de nouvelles connexions pour les services Skype entreprise Server individuels. Par exemple, cette méthode est utile dans le cas où vous devez appliquer une mise à jour de Skype entreprise Server qui ne nécessite pas l’arrêt de l’intégralité du serveur. Notez que lorsque vous interdisez les connexions d’un service, vous devez sélectionner un service tel qu’il est groupé et affiché dans la liste des services Windows. Par exemple, le service frontal de Skype entreprise Server et l’agent de collecte des données pour la surveillance sont des services Skype entreprise Server distincts, mais dans la liste des services Windows, ils sont consolidés et affichés sous la forme de Skype entreprise Server front-end service. Vous pouvez éviter de nouvelles connexions au service frontal Skype entreprise Server, mais vous ne pouvez pas empêcher les nouvelles connexions de ces deux services sous-jacents de Skype entreprise Server séparément.
 
 > [!IMPORTANT]
-> Lorsque vous définissez un serveur pour empêcher les nouvelles connexions, puis redémarrez le serveur, par défaut le serveur commence immédiatement après son démarrage accepter de nouvelles connexions. Pour éviter ce problème, définissez le serveur aux seules suspendre et reprendre manuellement, avant de redémarrer le serveur.
+> Lorsque vous définissez un serveur pour empêcher les nouvelles connexions, puis que vous redémarrez le serveur, par défaut, le serveur commence immédiatement à accepter de nouvelles connexions après son démarrage. Pour éviter ce problème, configurez le serveur de façon à ce qu’il ne s’interrompe qu’après le redémarrage du serveur.
 
-## <a name="to-prevent-new-connections-to-skype-for-business-server"></a>Pour empêcher les nouvelles connexions à Skype Business Server
+## <a name="to-prevent-new-connections-to-skype-for-business-server"></a>Pour éviter de nouvelles connexions à Skype entreprise Server
 
-1.  Ouvrez une session l’ordinateur local en tant que membre du groupe Administrateurs.
+1.  Connectez-vous à l’ordinateur local en tant que membre du groupe administrateurs.
 
-2.  Ouvrez la console du composant logiciel enfichable Services : cliquez sur **Démarrer**, pointez sur **Tous les programmes**, pointez sur **Outils d’administration**, puis cliquez sur **Services**.
+2.  Ouvrez la console enfichable Services: cliquez sur **Démarrer**, pointez sur **tous les programmes**, sur **Outils d’administration**, puis cliquez sur **services**.
 
-3.  Dans la liste, double-cliquez sur le Skype pour le service Business Server Windows à laquelle vous souhaitez empêcher les nouvelles connexions.
+3.  Dans la liste, double-cliquez sur le service Windows Skype entreprise Server sur lequel vous voulez empêcher les nouvelles connexions.
 
-4.  Dans la boîte de dialogue Propriétés, sous **état du Service : démarré**, cliquez sur **Suspendre**.
+4.  Dans la boîte de dialogue Propriétés, sous **État du service: démarré**, cliquez sur **suspendre**.
 
-5.  Si vous le souhaitez, mais recommandé, en regard de **type de démarrage**, cliquez sur **manuel**.
+5.  Si vous le souhaitez, mais que vous avez le choix, en regard de **type de démarrage**, cliquez sur **Manuel**.
     
     > [!IMPORTANT]
-    > Lorsque vous définissez un serveur pour empêcher les nouvelles connexions, puis redémarrez le serveur, par défaut le serveur commence immédiatement après son démarrage accepter de nouvelles connexions. Pour éviter ce problème, définissez le serveur aux seules suspendre et reprendre manuellement, avant de redémarrer le serveur.
+    > Lorsque vous définissez un serveur pour empêcher les nouvelles connexions, puis que vous redémarrez le serveur, par défaut, le serveur commence immédiatement à accepter de nouvelles connexions après son démarrage. Pour éviter ce problème, configurez le serveur de façon à ce qu’il ne s’interrompe qu’après le redémarrage du serveur.

@@ -5,44 +5,44 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.EdgeMachineSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 747456dd-d237-44e6-9e64-63b0e7212a08
-description: 'Pour modifier les propriétés d’un serveur dans un pool de serveurs de périphérie, procédez comme suit :'
-ms.openlocfilehash: 997aaafdc4b2193f1f89e433a8c64e88699cecbe
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Pour modifier les propriétés d’un serveur dans une liste de serveurs Edge, procédez comme suit:'
+ms.openlocfilehash: 75be5becb255365922b25a16f8a6004d4b7030c5
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33915177"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34302293"
 ---
 # <a name="edge-machine-settings-expander"></a>Développeur des paramètres de l’ordinateur Edge
  
-Pour modifier les propriétés d’un serveur dans un pool de serveurs de périphérie, procédez comme suit :
+Pour modifier les propriétés d’un serveur dans une liste de serveurs Edge, procédez comme suit:
   
-**nom interne ou nom de domaine complet** peut être modifié en modifiant le nom de domaine complet (FQDN). Le nom de domaine complet doit correspondre à l’hôte (A) enregistrement de nom de domaine DNS (Domain Name System) et le nom du sujet du certificat à assigner au serveur pour l’interface réseau de périphérie interne. La valeur de **l’adresse IP interne** définit l’adresse IP qui est affectée à l’interface réseau qui est défini comme un réseau interne, par rapport à la conception de réseau de périmètre.
+Vous pouvez modifier le **nom interne ou le nom** de domaine complet en modifiant le nom de domaine complet (FQDN). Le nom de domaine complet (FQDN) doit correspondre à l’enregistrement de l’hôte DNS (Domain Name System) et au nom du sujet du certificat attribué au serveur pour l’interface du réseau Edge interne. La valeur de l' **adresse IP interne** définit l’adresse IP qui est affectée à l’interface réseau qui est définie en tant que réseau interne, par rapport à la conception du réseau de périmètre.
   
-Les trois sections de la boîte de dialogue définissent les adresses IP pour la configuration de ce serveur Edge externe. La possibilité de modifier les adresses IP est affectée par le paramètre **Activer distinct nom de domaine complet et l’adresse IP pour les conférences web et A / V** sur les paramètres des propriétés au niveau du serveur Edge au niveau du pool.
+Les trois sections suivantes de la boîte de dialogue définissent les adresses IP pour la configuration externe de ce serveur Edge. La possibilité de modifier les adresses IP est affectée par le paramètre **autorisez un nom de domaine complet et une adresse IP distincts pour les conférences Web et A/V** sur les paramètres de propriétés au niveau du pool de serveur Edge.
   
 ## <a name="sip-access"></a>Accès SIP
 
-Modifier l’adresse IP externe qui est affectée à l’interface réseau pour l’accès protocole SIP (Session Initiation). Cette adresse IP peut être une adresse IP publique ou une adresse dans la plage d’adresses IP privée.
+Modifiez l’adresse IP externe qui est affectée à l’interface réseau pour l’accès au protocole SIP (Session Initiation Protocol). Cette adresse IP peut être une adresse IP publique ou une adresse dans la plage d’adresses IP privées.
   
 > [!NOTE]
-> Si le paramètre **Activer distinct nom de domaine complet et l’adresse IP pour les conférences web et A / V** sur le pool page Paramètres n’est activée, que l’adresse IP pour l’accès SIP sera disponible pour la modification.
+> Si le paramètre **activer le nom de domaine complet et l’adresse IP séparés pour les conférences Web et a/V** sur la page Paramètres du pool est activé, seule l’adresse IP de l’accès SIP sera disponible pour modification.
   
 ## <a name="web-conferencing"></a>Conférence web
 
-Modifier l’adresse IP externe qui est affectée à l’interface réseau pour les conférences web. Cette adresse IP peut être une adresse IP publique ou une adresse dans la plage d’adresses IP privée.
+Modifiez l’adresse IP externe qui est affectée à l’interface réseau pour les conférences Web. Cette adresse IP peut être une adresse IP publique ou une adresse dans la plage d’adresses IP privées.
   
 ## <a name="audiovideo"></a>Audio/vidéo
 
-Modifier l’adresse IP externe qui est affectée à l’interface réseau pour l’audio/vidéo (A / V). Cette adresse IP peut être une adresse IP publique ou une adresse dans la plage d’adresses IP privée.
+Modifiez l’adresse IP externe qui est affectée à l’interface réseau pour les appels audio/vidéo (A/V). Cette adresse IP peut être une adresse IP publique ou une adresse dans la plage d’adresses IP privées.
   
-Le paramètre de **NAT activé l’adresse IP publique** est l’adresse publique utilisée par l’interface externe soit a / V réseau interface ou le serveur de périphérie en général. Si le paramètre **Activer distinct nom de domaine complet et l’adresse IP pour les conférences web et A / V** est activé, cette adresse IP publique est utilisée pour les trois interfaces externes.
+Le paramètre de l' **adresse IP publique activée pour tar** est l’adresse publique utilisée par l’interface externe pour l’interface réseau A/V ou le serveur Edge en général. Si le paramètre **activer le nom de domaine complet et l’adresse IP séparés pour les conférences Web et si a/V** est activé, cette adresse IP publique est utilisée pour les trois interfaces externes.
   
 

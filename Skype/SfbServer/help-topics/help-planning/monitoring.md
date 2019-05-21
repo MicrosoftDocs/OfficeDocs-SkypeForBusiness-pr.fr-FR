@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 4/6/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.plan.Monitoring
@@ -13,18 +13,18 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9bbe86d0-b51a-4787-9029-d59e73c7906a
-description: Dans Skype pour Business Server 2015, surveillance sert à collecter des informations sur l’utilisation et les données de qualité de l’expérience (QoE) sur les sessions de communication nécessaires à vos utilisateurs.
-ms.openlocfilehash: 5c2146d819aed0a3ad02d08f7d329322cbef5c08
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Dans Skype entreprise Server 2015, la surveillance est utilisée pour recueillir les informations d’utilisation et les données de qualité d’utilisation (QoE) sur les sessions de communication auxquelles les utilisateurs participent.
+ms.openlocfilehash: 51e1ad88fbcd5882b61240b7cd6891ce33e4a1b3
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33912070"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34303703"
 ---
 # <a name="monitoring-planning-tool"></a>Monitoring (Planning Tool)
 
-Dans Skype pour Business Server 2015, surveillance sert à collecter des informations sur l’utilisation et les données de qualité de l’expérience (QoE) sur les sessions de communication nécessaires à vos utilisateurs.
+Dans Skype entreprise Server 2015, la surveillance est utilisée pour recueillir les informations d’utilisation et les données de qualité d’utilisation (QoE) sur les sessions de communication auxquelles les utilisateurs participent.
 
-Pour plus d’informations sur la planification de serveur de surveillance, consultez [planification de surveillance](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx).
+Pour plus d’informations sur la planification de l’analyse du serveur, voir [planification de l’analyse](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx).
 
 

@@ -8,67 +8,67 @@ mtps_version: v=OCS.15
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Vous pouvez supprimer toute stratégie de site ou d’utilisateur qui est répertorié dans la Skype pour Business Server Control Panel dans la page Stratégie d’accès externe.
-ms.openlocfilehash: 517c5b015d4e2fe5de584a8079af1bb4f5ed248a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Vous pouvez supprimer n’importe quelle stratégie de site ou d’utilisateur figurant dans le panneau de configuration Skype entreprise Server sur la page de stratégie d’accès externe.
+ms.openlocfilehash: 615df309088a329e07f5417dce16e98366a371c7
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33920416"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280123"
 ---
 # <a name="delete-a-site-or-user-policy-for-external-user-access"></a>Suppression d’une stratégie utilisateur ou de site pour l’accès des utilisateurs externes
 
-Si vous avez créé ou configuré des stratégies d’accès utilisateur externe que vous ne souhaitez plus utiliser, procédez comme suit :
+Si vous avez créé ou configuré des stratégies d’accès des utilisateurs externes que vous ne souhaitez plus utiliser, vous pouvez procéder comme suit:
 
-  - Supprimer une stratégie de site ou d’utilisateur que vous avez créé.
+  - Supprimez les stratégies de site ou d’utilisateur que vous avez créées.
 
-  - Réinitialiser la stratégie globale pour les paramètres par défaut. Les paramètres de stratégie globale par défaut refuser tout accès des utilisateurs externes. Impossible de supprimer la stratégie globale.
+  - Rétablir les paramètres par défaut de la stratégie globale. Les paramètres de stratégie globale par défaut refusent tout accès utilisateur externe. La stratégie globale ne peut pas être supprimée.
 
 
-Vous pouvez supprimer toute stratégie de site ou d’utilisateur qui est répertorié dans la Skype pour Business Server Control Panel dans la page **Stratégie d’accès externe** . Suppression de la stratégie globale n’est pas réellement supprimé, mais uniquement rétablit les paramètres par défaut, qui ne comportent pas de prise en charge pour les options d’accès utilisateur externe. Pour plus d’informations sur la réinitialisation de la stratégie globale, consultez la rubrique [Réinitialiser la stratégie globale pour l’accès des utilisateurs externes](reset-the-global-policy-for-external-user-access.md).
+Vous pouvez supprimer n’importe quelle stratégie de site ou d’utilisateur figurant dans le panneau de configuration Skype entreprise Server sur la page de **stratégie d’accès externe** . La suppression de la stratégie globale n’entraîne pas la suppression effective de celle-ci, mais elle permet de rétablir les paramètres par défaut, qui n’incluent pas la prise en charge des options d’accès des utilisateurs externes. Pour plus d’informations sur la réinitialisation de la stratégie globale, voir [Réinitialiser la stratégie globale pour l’accès des utilisateurs externes](reset-the-global-policy-for-external-user-access.md).
 
 
 ## <a name="to-delete-a-site-or-user-policy-for-external-user-access"></a>Pour supprimer une stratégie de site ou d’utilisateur pour l’accès des utilisateurs externes
 
-1.  À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou est affecté au rôle CsAdministrator, ouvrez une session sur n’importe quel ordinateur dans votre déploiement interne.
+1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affectées au rôle CsAdministrator, connectez-vous à n’importe quel ordinateur dans votre déploiement interne.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business. 
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration Skype entreprise Server. 
 
-3.  Cliquez sur **Accès des utilisateurs externes**, cliquez sur **Stratégie d’accès externe**.
+3.  Cliquez sur **accès utilisateur externe**, puis sur **stratégie d’accès externe**.
 
-4.  Sous l’onglet **Stratégie d’accès externe** , cliquez sur la stratégie de site ou utilisateur que vous souhaitez supprimer, cliquez sur **Modifier**, puis cliquez sur **Supprimer**.
+4.  Dans l’onglet **stratégie d’accès externe** , cliquez sur le site ou la stratégie d’utilisateur à supprimer, cliquez sur **modifier**, puis cliquez sur **supprimer**.
 
-5.  Lorsque vous y êtes invité à confirmer la suppression, cliquez sur **OK**.
+5.  Lorsque vous êtes invité à confirmer la suppression, cliquez sur **OK**.
 
 
-## <a name="removing-pin-policies-by-using-windows-powershell-cmdlets"></a>Suppression des stratégies de code confidentiel à l’aide des applets de commande Windows PowerShell
+## <a name="removing-pin-policies-by-using-windows-powershell-cmdlets"></a>Suppression de stratégies de code confidentiel à l’aide d’applets de cmdlet Windows PowerShell
 
-Stratégies d’accès externe peuvent être supprimés à l’aide de Windows PowerShell et l’applet de commande Remove-CsExternalAccessPolicy. Cette applet de commande peut être exécutée à partir de la Skype pour Business Server Management Shell ou à partir d’une session à distance de Windows PowerShell. 
+Les stratégies d’accès externe peuvent être supprimées à l’aide de Windows PowerShell et de l’applet de passe Remove-CsExternalAccessPolicy. Cette applet de commande peut être exécutée à partir de Skype entreprise Server Management Shell ou à partir d’une session distante de Windows PowerShell. 
 
 
 ## <a name="to-remove-a-specific-external-access-policy"></a>Pour supprimer une stratégie d’accès externe spécifique
 
-  - Cette commande supprime la stratégie d’accès externe appliquée au site Redmond :
+  - Cette commande supprime la stratégie d’accès externe appliquée au site de Redmond:
     
         Remove-CsExternalAccessPolicy -Identity "site:Redmond"
 
 
-## <a name="to-remove-all-the-external-access-policies-applied-to-the-per-user-scope"></a>Pour supprimer toutes les stratégies appliquées à l’étendue utilisateur accéder à externe
+## <a name="to-remove-all-the-external-access-policies-applied-to-the-per-user-scope"></a>Pour supprimer toutes les stratégies d’accès externe appliquées à l’étendue par utilisateur
 
-  - Cette commande supprime toutes les stratégies d’accès externe configurées dans l’étendue par utilisateur :
+  - Cette commande supprime toutes les stratégies d’accès externe configurées pour l’étendue par utilisateur:
     
         Get-CsExternalAccessPolicy -Filter "tag:*" | Remove-CsExternalAccessPolicy
 
 
-## <a name="to-remove-all-the-external-access-policies-where-outside-user-access-is-disabled"></a>Pour supprimer toutes les stratégies d’accès externe dont l’accès des utilisateurs extérieurs est désactivé
+## <a name="to-remove-all-the-external-access-policies-where-outside-user-access-is-disabled"></a>Pour supprimer toutes les stratégies d’accès externes pour lesquelles l’accès des utilisateurs externes est désactivé
 
-  - Cette commande supprime toutes les stratégies d’accès externe dont l’accès a été désactivé en dehors de l’utilisateur :
+  - Cette commande supprime toutes les stratégies d’accès externe dont l’accès à l’utilisateur extérieur a été désactivé:
     
         Get-CsExternalAccessPolicy | Where-Object {$_.EnableOutsideAccess -eq $False} | Remove-CsExternalAccessPolicy
 
 
-Pour plus d’informations, consultez la rubrique d’aide pour l’applet de commande [Remove-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsExternalAccessPolicy) .
+Pour plus d’informations, reportez-vous à la rubrique d’aide relative à l’applet de passe [Remove-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsExternalAccessPolicy) .

@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AddAvMcuPoolPage
@@ -12,22 +12,22 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e201875e-1e81-4756-942f-c17d177e997b
 ROBOTS: NOINDEX, NOFOLLOW
-description: Tous les serveurs Enterprise Edition frontaux d’un site central qui n’ont pas un colocalisé un service de conférence V peut utiliser le même Stand-Alone A / pool de conférence V. Pour chaque A / pool de conférence V, vous devez spécifier un nom de domaine complet (FQDN) pour le pool et si elle aura uniquement un seul A / V Conferencing Server ou multiples, à charge équilibrée A / V Conferencing Servers.
-ms.openlocfilehash: dd2dd53ae2d3b66da88d39567b4d20e0960633e2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Les serveurs frontaux Enterprise Edition d’un site central ne disposant pas d’un service de conférence A/V colocalisé peuvent utiliser le même pool de conférence A/V autonome. Pour chaque pool de conférence A/V, vous devez spécifier un nom de domaine complet (FQDN) pour le pool et savoir s’il n’en a qu’un seul ou plusieurs serveurs de conférence A/V.
+ms.openlocfilehash: dfd1fd056e015ed4d6ed1344384efa485e65f318
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33889320"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34304055"
 ---
 # <a name="add-av-mcu-pool"></a>Ajouter un pool MCU audio/vidéo
  
-Tous les serveurs Enterprise Edition frontaux d’un site central qui n’ont pas un colocalisé un service de conférence V peut utiliser le même Stand-Alone A / pool de conférence V. Pour chaque A / pool de conférence V, vous devez spécifier un nom de domaine complet (FQDN) pour le pool et si elle aura uniquement un seul A / V Conferencing Server ou multiples, à charge équilibrée A / V Conferencing Servers.
+Les serveurs frontaux Enterprise Edition d’un site central ne disposant pas d’un service de conférence A/V colocalisé peuvent utiliser le même pool de conférence A/V autonome. Pour chaque pool de conférence A/V, vous devez spécifier un nom de domaine complet (FQDN) pour le pool et savoir s’il n’en a qu’un seul ou plusieurs serveurs de conférence A/V.
   
 > [!IMPORTANT]
-> Impossible de convertir un pool de serveur unique vers un pool de plusieurs serveurs. Si vous décidez ultérieurement que votre organisation a besoin d’un pool de plusieurs serveurs, vous devez supprimer le pool de serveur unique et puis ajouter le pool de plusieurs serveurs. 
+> Vous ne pouvez pas convertir un pool serveur unique en pool de plusieurs serveurs. Si vous décidez plus tard que votre organisation a besoin d’un pool de serveurs multiples, vous devez supprimer le pool de serveur unique, puis ajouter le pool de serveurs multiples. 
   
 > [!TIP]
-> Si vous envisagez d’implémenter un / pool de conférence V activez à l’avenir, le **pool de plusieurs ordinateurs**. Même si un pool est défini comme étant composé d’au moins deux ordinateurs avec équilibrage de la charge, vous pouvez créer un pool d’ordinateur unique et un nom de domaine complet de pool pour l’ordinateur unique. Lorsque vous êtes prêt à ajouter des ordinateurs au pool ultérieurement, vous devez le Générateur de topologie pour définir le nouveau membre du pool, publier la nouvelle topologie, puis configurer la nouvelle A / V Conferencing pool membre via le Skype pour l’Assistant de déploiement Business Server. A / pools V Conferencing Server sont uniques dans la mesure où ils ne pas besoin équilibreurs de charge pour créer un pool. A / pools de conférence V équilibrer la charge en interne et n’avez pas besoin de matériel supplémentaire. 
+> Si vous envisagez d’implémenter un pool de conférence A/V à l’avenir, sélectionnez **plusieurs pools d’ordinateurs**. Même si un pool est défini comme étant composé d’au moins deux ordinateurs avec équilibrage de la charge, vous pouvez créer un pool d’ordinateur unique et un nom de domaine complet de pool pour l’ordinateur unique. Lorsque vous êtes prêt à ajouter plus d’ordinateurs au pool par la suite, vous devez de nouveau définir le générateur de topologie pour définir le nouveau membre du pool, publier la nouvelle topologie, puis configurer le nouveau membre du groupe de conférence A/V par le biais de l’Assistant Déploiement de Skype entreprise Server. Les pools de serveurs de conférence A/V sont uniques dans le fait qu’ils n’ont pas besoin des équilibreurs de charge pour créer un pool. Les pools de conférence A/V sont équilibrés en interne et ne nécessitent pas de matériel supplémentaire. 
   
 

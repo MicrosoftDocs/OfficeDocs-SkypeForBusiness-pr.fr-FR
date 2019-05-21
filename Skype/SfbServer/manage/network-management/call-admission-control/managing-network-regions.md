@@ -4,38 +4,38 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Région réseau * sont les concentrateurs réseau ou des dorsales principales utilisées dans la configuration de contournement des médias, E9-1-1 et contrôle d’admission des appels appel.
-ms.openlocfilehash: c7559c8fa09d0f0d7fac4fa5067d2df91c52defe
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Région du réseau * sont les concentrateurs réseau ou les dorsales utilisés dans la configuration de contrôle d’admission des appels, de E9-1-1 et de contournement de média.
+ms.openlocfilehash: 8d1d60389fe910e2b5c2b8b1c357520aad30db96
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33913369"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279528"
 ---
 # <a name="managing-network-regions-in-skype-for-business-server"></a>Gestion des régions réseau dans Skype Entreprise Server
 
-*Régions réseau* sont les concentrateurs réseau ou des dorsales principales utilisées dans la configuration de contournement des médias, E9-1-1 et contrôle d’admission des appels appel. Utilisez les procédures suivantes pour afficher, créer ou modifier des régions réseau. Par exemple, si vous avez déjà créé des régions réseau pour une fonctionnalité de voix, il est inutile créer de nouvelles régions de réseau ; autres fonctionnalités voix entreprise utilisera ces mêmes zones réseau. Toutefois, il est possible que vous soyez obligé de modifier la définition d’une région réseau existante pour appliquer des paramètres spécifiques à une fonctionnalité. Par exemple, si vous avez créé des régions réseau pour le service E9-1-1 (régions n’exigeant aucun site central associé), puis que vous déployez le contrôle d’admission des appels, vous devez modifier les définitions des régions réseau afin de spécifier un site central. 
+Les *régions réseau* sont les concentrateurs réseau ou les dorsales utilisés dans la configuration de contrôle d’admission des appels, de E9-1-1 et de contournement de média. Utilisez les procédures suivantes pour afficher, créer ou modifier des régions réseau. Par exemple, si vous avez déjà créé des régions réseau pour une seule fonctionnalité vocale, vous n’avez pas besoin de créer de nouvelles régions réseau. d’autres fonctionnalités avancées de voix entreprise utiliseront les mêmes régions réseau. Toutefois, il est possible que vous soyez obligé de modifier la définition d’une région réseau existante pour appliquer des paramètres spécifiques à une fonctionnalité. Par exemple, si vous avez créé des régions réseau pour le service E9-1-1 (régions n’exigeant aucun site central associé), puis que vous déployez le contrôle d’admission des appels, vous devez modifier les définitions des régions réseau afin de spécifier un site central. 
 
-Utilisez les procédures dans cet article pour afficher les informations de région de réseau ou créer, modifier ou supprimer des régions de réseau. 
+Suivez les procédures décrites dans cet article pour afficher des informations sur la région du réseau ou créer, modifier ou supprimer des régions réseau. 
 
-## <a name="view-network-region-information"></a>Afficher les informations de région réseau 
+## <a name="view-network-region-information"></a>Afficher les informations relatives à la région du réseau 
 
 
-Une région réseau relie des différentes parties d’un réseau entre plusieurs zones géographiques. Chaque région réseau doit être associée à un site central. Le site central est le site du centre de données sur lequel s’exécute le service de stratégie de bande passante appel d’admission des appels (CAC) de contrôle. Vous pouvez utiliser Skype pour Business Server Control Panel pour afficher les régions de réseau. Régions de réseau incluent les paramètres qui déterminent si les autres chemins via Internet sont autorisés pour les connexions audio et vidéos. Utilisez cette rubrique pour afficher des régions réseau existantes. 
+Une région réseau interconnecte diverses parties d’un réseau à plusieurs zones géographiques. Chaque région du réseau doit être associée à un site central. Le site central est le site du centre de données sur lequel le service de stratégie de bande passante de contrôle d’admission des appels (CAC) est en cours d’exécution. Vous pouvez utiliser le panneau de configuration Skype entreprise Server pour afficher les régions du réseau. Les régions réseau incluent des paramètres qui déterminent si d’autres chemins d’accès via Internet sont autorisés pour les connexions audio et vidéo. Utilisez cette rubrique pour afficher les régions réseau existantes. 
 
-### <a name="to-view-information-about-a-network-region-with-skype-for-business-server-control-panel"></a>Pour afficher des informations sur une région de réseau avec Skype pour Business Server Control Panel
+### <a name="to-view-information-about-a-network-region-with-skype-for-business-server-control-panel"></a>Pour afficher des informations sur une région de réseau avec le panneau de configuration Skype entreprise Server
 
-1.  À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou est affecté au rôle CsAdministrator, ouvrez une session sur n’importe quel ordinateur dans votre déploiement interne.
+1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affectées au rôle CsAdministrator, connectez-vous à n’importe quel ordinateur dans votre déploiement interne.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business. 
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration Skype entreprise Server. 
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Configuration réseau**, puis cliquez sur **région**.
+3.  Dans la barre de navigation de gauche, cliquez sur **configuration du réseau**, puis cliquez sur **région**.
 
-4.  Dans la page **région** , cliquez sur la région que vous souhaitez afficher.
+4.  Dans la page **zone** , cliquez sur la zone que vous voulez afficher.
   
     > [!NOTE]  
     > Vous ne pouvez afficher qu’une région à la fois.
@@ -43,13 +43,13 @@ Une région réseau relie des différentes parties d’un réseau entre plusieur
 5.  Dans le menu **Edition**, cliquez sur **Afficher les détails**.
 
 
-### <a name="viewing-network-region-information-by-using-windows-powershell-cmdlets"></a>Affichage des informations de région réseau à l’aide des applets de commande Windows PowerShell
+### <a name="viewing-network-region-information-by-using-windows-powershell-cmdlets"></a>Affichage des informations de région du réseau à l’aide des cmdlets Windows PowerShell
 
-Vous pouvez afficher les informations de région réseau à l’aide de Windows PowerShell et l’applet de commande **Get-CsNetworkRegion** . Vous pouvez exécuter cette applet de commande à partir de la Skype pour Business Server Management Shell ou d’une session à distance de Windows PowerShell. 
+Vous pouvez afficher les informations relatives à la région du réseau à l’aide de Windows PowerShell et de l’applet **de requête get-CsNetworkRegion** . Vous pouvez exécuter cette applet de commande à partir de Skype entreprise Server Management Shell ou d’une session distante de Windows PowerShell. 
 
-### <a name="to-view-network-region-information"></a>Pour afficher les informations de région réseau
+### <a name="to-view-network-region-information"></a>Pour afficher les informations relatives aux régions du réseau
 
-  - Pour afficher des informations sur toutes les régions de votre réseau, tapez la commande suivante dans le Skype pour Business Server Management Shell, puis appuyez sur ENTRÉE :
+  - Pour afficher des informations sur toutes les régions de votre réseau, tapez la commande suivante dans Skype entreprise Server Management Shell, puis appuyez sur entrée:
     
         Get-CsNetworkRegion
     
@@ -63,80 +63,80 @@ Vous pouvez afficher les informations de région réseau à l’aide de Windows 
                            BWPolicyModality=Video;AlternatePath=True}
         NetworkRegionID  : Pacific Northwest
 
-Pour plus d’informations, consultez la rubrique d’aide pour l’applet de commande [Get-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink) .
+Pour plus d’informations, consultez la rubrique d’aide de l’applet de passe [Get-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink) .
 
 
 ## <a name="create-or-modify-network-regions"></a>Créer ou modifier des régions réseau 
 
-Une région réseau relie des différentes parties d’un réseau entre plusieurs zones géographiques. Chaque région réseau doit être associée à un site central. Le site central est le site du centre de données sur lequel s’exécute le service de stratégie de bande passante appel d’admission des appels (CAC) de contrôle. Vous pouvez utiliser la Skype pour Business Server Control Panel pour configurer les régions de réseau. Régions de réseau incluent les paramètres qui déterminent si les autres chemins via Internet sont autorisés pour les connexions audio et vidéos. À partir de Skype pour le panneau de configuration serveur Business, vous pouvez créer, modifier ou supprimer une région réseau. Utilisez cette rubrique pour créer et modifier des régions réseau. 
+Une région réseau interconnecte diverses parties d’un réseau à plusieurs zones géographiques. Chaque région du réseau doit être associée à un site central. Le site central est le site du centre de données sur lequel le service de stratégie de bande passante de contrôle d’admission des appels (CAC) est en cours d’exécution. Le panneau de configuration Skype entreprise Server vous permet de configurer des régions du réseau. Les régions réseau incluent des paramètres qui déterminent si d’autres chemins d’accès via Internet sont autorisés pour les connexions audio et vidéo. Dans le panneau de configuration Skype entreprise Server, vous pouvez créer, modifier ou supprimer une région réseau. Utilisez cette rubrique pour créer et modifier des régions réseau. 
 
-### <a name="to-create-a-network-region"></a>Pour créer une région de réseau
+### <a name="to-create-a-network-region"></a>Pour créer une zone réseau
 
-1.  À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou est affecté au rôle CsAdministrator, ouvrez une session sur n’importe quel ordinateur dans votre déploiement interne.
+1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affectées au rôle CsAdministrator, connectez-vous à n’importe quel ordinateur dans votre déploiement interne.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business. 
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration Skype entreprise Server. 
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Configuration réseau**, puis cliquez sur **région**.
+3.  Dans la barre de navigation de gauche, cliquez sur **configuration du réseau**, puis cliquez sur **région**.
 
-4.  Dans la page **région** , cliquez sur **Nouveau**.
+4.  Dans la page **région** , cliquez sur **nouveau**.
 
-5.  Dans la page **Nouvelle région** , tapez une valeur dans le champ **nom** . Cette valeur doit être unique au sein de votre Skype pour le déploiement de serveur d’entreprise.
+5.  Dans la page **nouvelle région** , tapez une valeur dans le champ **nom** . Cette valeur doit être unique dans le cadre de votre déploiement Skype entreprise Server.
 
-6.  Dans la liste déroulante **site Central** , sélectionnez le site central pour cette région réseau.
+6.  Dans la liste déroulante **site central** , sélectionnez le site central pour cette région réseau.
 
-7.  La case à cocher **Activer le chemin d’accès de substitution audio** est activée par défaut. Ce champ détermine si les appels audio seront acheminés via un chemin alternatif si la bande passante adéquate n’existe pas dans le chemin principal. Désactivez cette case à cocher uniquement si vous avez besoin désactiver le déchargement vers Internet. Si certains de vos appels seront des appels Internet, cette case à cocher doit être activée, quel que soit les paramètres de bande passante.
+7.  La case à cocher **activer le chemin audio alternatif** est activée par défaut. Ce champ détermine si les appels audio seront routés par le biais d’un autre chemin si la bande passante suffisante n’existe pas dans le chemin principal. Désactivez cette case à cocher uniquement si vous avez besoin de désactiver le déchargement sur Internet. Si l’un de vos appels sera appelé appels Internet, cette case doit être cochée, quels que soient les paramètres de bande passante.
 
-8.  La case à cocher **Activer le chemin d’accès de substitution vidéo** est activée par défaut. Ce champ détermine si les appels vidéo seront acheminés via un chemin alternatif si la bande passante adéquate n’existe pas dans le chemin principal. Désactivez cette case à cocher uniquement si vous avez besoin désactiver le déchargement vers Internet. Si certains de vos appels seront des appels Internet, cette case à cocher doit être activée, quel que soit les paramètres de bande passante.
+8.  La case à cocher **activer le chemin vidéo alternatif** est activée par défaut. Ce champ détermine si les appels vidéo sont routés par le biais d’une autre trajectoire si la bande passante suffisante n’existe pas dans le chemin principal. Désactivez cette case à cocher uniquement si vous avez besoin de désactiver le déchargement sur Internet. Si l’un de vos appels sera appelé appels Internet, cette case doit être cochée, quels que soient les paramètres de bande passante.
 
-9.  (Facultatif) Tapez une valeur dans le champ **Description** pour fournir plus d’informations sur cette région ne suffit pas au nom seul.
+9.  Facultatif Tapez une valeur dans le champ **Description** pour fournir plus d’informations sur cette région qui ne peut pas être exprimée à l’aide du nom seul.
 
 10. Cliquez sur **Valider**.
 
-La table **sites associés** n’est pas utilisée pour la création d’une région de réseau. Vous associez un site à une région lorsque vous créez ou modifiez le site. Pour plus d’informations, voir [Managing le contrôle d’admission des appels d’appel pour les sites](managing-call-admission-control-for-sites.md).
+La table **site associée** n’est pas utilisée pour créer une région réseau. Vous associez un site à une région lorsque vous créez ou modifiez le site. Pour plus d’informations, consultez [gestion du contrôle d’admission des appels pour les sites](managing-call-admission-control-for-sites.md).
 
-### <a name="to-modify-a-network-region"></a>Pour modifier une région réseau
+### <a name="to-modify-a-network-region"></a>Pour modifier une zone réseau
 
-1.  À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou est affecté au rôle CsAdministrator, ouvrez une session sur n’importe quel ordinateur dans votre déploiement interne.
+1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affectées au rôle CsAdministrator, connectez-vous à n’importe quel ordinateur dans votre déploiement interne.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business. 
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration Skype entreprise Server. 
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Configuration réseau**, puis cliquez sur **région**.
+3.  Dans la barre de navigation de gauche, cliquez sur **configuration du réseau**, puis cliquez sur **région**.
 
-4.  Dans la page **région** , cliquez sur la région que vous souhaitez modifier.
+4.  Dans la page **zone** , cliquez sur la zone que vous voulez modifier.
 
 5.  Dans le menu **Edition**, cliquez sur **Afficher les détails**.
 
-6.  Dans la page **Modifier la région** , vous pouvez modifier les paramètres d’activation et désactivation des paramètres audio / vidéo des chemins d’accès de substitution et modifier la description (pour plus d’informations, consultez la section « pour créer une région réseau » plus haut dans cette rubrique.
+6.  Dans la page **modifier la région** , vous pouvez modifier les paramètres d’activation et de désactivation des chemins audio et vidéo, et modifier la description (pour plus de détails, reportez-vous à la section «créer une région réseau» plus haut dans cette rubrique.
 
 7.  Cliquez sur **Valider**.
 
-Vous ne pouvez pas modifier les **sites associés** sur cette page. La liste des sites associés est fournie pour référence et vous connaissez les sites qui seront affectés lorsque vous modifiez les paramètres de zone.
+Vous ne pouvez pas modifier les **sites associés** sur cette page. La liste des sites associés est fournie à des fins de référence, afin que vous soyez attentif aux sites qui seront affectés lors de la modification des paramètres régionaux.
 
 
 ## <a name="delete-existing-network-regions"></a>Supprimer des régions réseau existantes 
 
-Une région réseau relie des différentes parties d’un réseau entre plusieurs zones géographiques. Chaque région réseau doit être associée à un site central. Le site central est le site du centre de données sur lequel s’exécute le service de stratégie de bande passante appel d’admission des appels (CAC) de contrôle. Vous pouvez utiliser la Skype pour Business Server Control Panel pour configurer les régions de réseau. Régions de réseau incluent les paramètres qui déterminent si les autres chemins via Internet sont autorisés pour les connexions audio et vidéos. À partir de Skype pour le panneau de configuration serveur Business, vous pouvez créer, modifier ou supprimer une région réseau. Utilisez cette rubrique pour supprimer des régions réseau existantes. 
+Une région réseau interconnecte diverses parties d’un réseau à plusieurs zones géographiques. Chaque région du réseau doit être associée à un site central. Le site central est le site du centre de données sur lequel le service de stratégie de bande passante de contrôle d’admission des appels (CAC) est en cours d’exécution. Le panneau de configuration Skype entreprise Server vous permet de configurer des régions du réseau. Les régions réseau incluent des paramètres qui déterminent si d’autres chemins d’accès via Internet sont autorisés pour les connexions audio et vidéo. Dans le panneau de configuration Skype entreprise Server, vous pouvez créer, modifier ou supprimer une région réseau. Utilisez cette rubrique pour supprimer des régions réseau existantes. 
 
-### <a name="to-delete-a-network-region"></a>Pour supprimer une région réseau
+### <a name="to-delete-a-network-region"></a>Pour supprimer une zone réseau
 
-1.  À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou est affecté au rôle CsAdministrator, ouvrez une session sur n’importe quel ordinateur dans votre déploiement interne.
+1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affectées au rôle CsAdministrator, connectez-vous à n’importe quel ordinateur dans votre déploiement interne.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business. 
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration Skype entreprise Server. 
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Configuration réseau**, puis cliquez sur **région**.
+3.  Dans la barre de navigation de gauche, cliquez sur **configuration du réseau**, puis cliquez sur **région**.
 
-4.  Dans la page **région** , cliquez sur la région que vous souhaitez supprimer.
+4.  Dans la page **zone** , cliquez sur la zone que vous voulez supprimer.
   
     > [!NOTE]  
-    > Vous pouvez supprimer plusieurs régions à la fois. Pour ce faire, appuyez sur la touche CTRL ENFONCÉE et sélectionnez plusieurs régions tout en maintenant la touche CTRL enfoncée. Ou, pour sélectionner toutes les régions, cliquez sur **Sélectionner tout** dans le menu **Edition** .
+    > Vous pouvez supprimer plusieurs régions à la fois. Pour cela, appuyez sur CTRL et sélectionnez plusieurs régions tout en maintenant la touche CTRL enfoncée. Vous pouvez sélectionner toutes les régions dans le **** menu **Edition** .
 
-5.  Dans le menu **Edition** , cliquez sur **Supprimer**.
+5.  Dans le menu **modifier** , cliquez sur **supprimer**.
 
 6.  Cliquez sur **OK**.
 
 
     > [!WARNING]  
-    > Une région de réseau ne peut pas être supprimée si elle est associée à un site réseau. Si vous tentez de supprimer une région associée à un site, vous recevrez un message d’erreur. Pour voir si une région est associée à tous les sites, sélectionnez la région, puis sur **Afficher les détails** dans le menu **Edition** .
+    > Une région réseau ne peut pas être supprimée si elle est associée à un site réseau. Si vous tentez de supprimer une région associée à un site, un message d’erreur s’affiche. Pour déterminer si une région est associée à des sites, sélectionnez la région, puis cliquez sur **afficher les détails** dans le menu **modifier** .
 
 
 ## <a name="see-also"></a>Voir aussi

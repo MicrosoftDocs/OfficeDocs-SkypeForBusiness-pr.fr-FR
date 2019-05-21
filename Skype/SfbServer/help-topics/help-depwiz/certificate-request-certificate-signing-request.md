@@ -5,28 +5,28 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.dep.DeployCertRequestCSRFile
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f0541273-92b4-41d6-aa24-34ee5c549db8
-description: Pour créer une demande hors connexion, vous devez d’abord créer un certificat (CSR) de demande de signature. Dans la zone de texte Nom de fichier, tapez le chemin d’accès et le nom pour le service clientèle. Vous pouvez cliquer sur Parcourir pour choisir un emplacement pour créer le service clientèle. Cliquez sur Suivant pour continuer.
-ms.openlocfilehash: 28b8ce9868c7468cfe7fb723d96ddded10f43c3d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Pour créer une requête en mode hors connexion, vous devez d’abord créer une demande de signature de certificat (CSR). Tapez le chemin d’accès et le nom de fichier pour le conseiller dans la zone de texte nom de fichier. Vous pouvez cliquer sur Parcourir pour sélectionner un emplacement pour créer le conseiller. Cliquez sur suivant pour continuer.
+ms.openlocfilehash: 0918776a9ed04ea76a9344678b0f8ddd16d52052
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33911155"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34302057"
 ---
 # <a name="certificate-request-certificate-signing-request"></a>Demande de certificat (demande de signature de certificat)
  
-Pour créer une demande hors connexion, vous devez d’abord créer un certificat (CSR) de demande de signature. Dans la zone de texte **Nom de fichier** , tapez le chemin d’accès et le nom pour le service clientèle. Vous pouvez cliquer sur **Parcourir** pour choisir un emplacement pour créer le service clientèle. Cliquez sur **Suivant** pour continuer.
+Pour créer une requête en mode hors connexion, vous devez d’abord créer une demande de signature de certificat (CSR). Tapez le chemin d’accès et le nom de fichier pour le conseiller dans la zone de texte **nom de fichier** . Vous pouvez cliquer sur **Parcourir** pour sélectionner un emplacement pour créer le conseiller. Cliquez sur **Suivant** pour continuer.
   
 Cliquez sur **précédent** pour revenir à l’écran précédent. Cliquez sur **Annuler** pour quitter sans apporter de modifications au système.
   
 > [!IMPORTANT]
-> Le fichier qui est créé dans cette étape est envoyé à votre autorité de certification publique (CA), à votre autorité de certification hors connexion interne, ou soumis à votre administrateur de l’autorité de certification pour le traitement. Notez l’emplacement du fichier et le nom de sorte que vous pouvez récupérer et envoyer le conseiller à l’autorité de certification. L’emplacement par défaut est le répertoire de Documents de la personne exécutant l’Assistant certificat. 
+> Le fichier créé au cours de cette étape est envoyé à votre autorité de certification publique (CA), à votre autorité de certification hors connexion interne ou soumise à votre administrateur d’autorité de certification à des fins de traitement. Notez l’emplacement et le nom du fichier afin de pouvoir le récupérer et le transmettre à l’autorité de certification. L’emplacement par défaut est le répertoire documents de la personne exécutant l’Assistant certificat. 
   
 

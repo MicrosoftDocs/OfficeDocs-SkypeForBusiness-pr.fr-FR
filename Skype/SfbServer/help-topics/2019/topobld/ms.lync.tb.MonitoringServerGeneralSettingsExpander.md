@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.MonitoringServerGeneralSettingsExpander
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: b45e4b2f-a6e8-4919-979e-1ba74fd46028
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Dans le générateur de topologie, vous pouvez modifier les propriétés d’un serveur de surveillance individuel en cliquant avec le bouton droit sur le serveur de surveillance dans l’arborescence de la console, en cliquant sur Action dans la barre d’outils ou en cliquant sur une tâche dans le volet Actions. Cliquez ensuite sur Modifier les propriétés pour modifier l’une des options suivantes :'
-ms.openlocfilehash: 02241287b2d45742484c88defc272445a81cd36c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0c3f807b183a9f30af48bcdaf913b9fdf3b28312
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33885566"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289173"
 ---
 # <a name="monitoring-server-general-settings-expander"></a>Expanseur des paramètres généraux du serveur de surveillance
  

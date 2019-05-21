@@ -5,18 +5,18 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 3/31/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3d516e65-fb9b-4a0b-8296-969fc9eda334
 description: L’applet de commande Unregister-CcAppliance annule l’inscription de l’appliance actuelle de la version Cloud Connector de Skype Entreprise à partir d’un site RTC dans la configuration client en ligne.
-ms.openlocfilehash: 6ee21f66c2b189aff8c8aa7d831369536618b18c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: fafe374371cd01b2ec7c67ade89dd2a905e16d18
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32250607"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286872"
 ---
 # <a name="unregister-ccappliance"></a>Unregister-CcAppliance
  
@@ -58,7 +58,7 @@ Unregister-CcAppliance -SiteName Site1 -ApplianceName Appliance1
 
 Identique à l’applet de commande Register-CcAppliance, SiteName associé au FQDN externe du serveur Edge dans le fichier .ini de CloudConnector est considéré comme une identité de site RTC. De même, ApplianceName associé au FQDN du serveur de médiation dans le fichier .ini de CloudConnector est considéré comme une identité d’appliance.
   
-Une fois que l’application est annulée, redémarrez le service de gestion en nuage connecteur et le journal sur le compte NetworkService.
+Après l’annulation de l’inscription de l’application, redémarrez le service de gestion des connecteurs Cloud et connectez-vous en tant que compte NetworkService.
   
 ## <a name="parameters"></a>Paramètres
 <a name="DetailedDescription"> </a>

@@ -1,10 +1,10 @@
 ---
-title: Configurer les paramètres de parcage d’appel dans Skype pour les entreprises
+title: Configurer les paramètres de parc d’appels dans Skype entreprise
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,19 +13,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 3bed9d09-8363-4fff-a220-f0f6d3a81241
-description: Modifier les paramètres de parcage d’appel dans Skype pour Business Server Enterprise Voice.
-ms.openlocfilehash: 2f833e956f09213f1dfa3da440a6c6d9b17fa6b2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Modifiez les paramètres de parc d’appels dans Skype entreprise Server Voice.
+ms.openlocfilehash: c456a519fc9f567bdef812adc533adaf03c4360a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893069"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34303389"
 ---
-# <a name="configure-call-park-settings-in-skype-for-business"></a>Configurer les paramètres de parcage d’appel dans Skype pour les entreprises
+# <a name="configure-call-park-settings-in-skype-for-business"></a>Configurer les paramètres de parc d’appels dans Skype entreprise
 
-Modifier les paramètres de parcage d’appel dans Skype pour Business Server Enterprise Voice.
+Modifiez les paramètres de parc d’appels dans Skype entreprise Server Voice.
 
-Si vous ne souhaitez pas utiliser les paramètres de parcage d’appel par défaut, vous pouvez les personnaliser. Lorsque vous installez l’application de parcage d’appel, les paramètres globaux sont configurés par défaut. Vous pouvez modifier les paramètres généraux et définir également des paramètres spécifiques à un site. L’applet de commande **New-CsCpsConfiguration** permet de créer des paramètres spécifiques à un site. L’applet de commande **Set-CsCpsConfiguration** permet de modifier les paramètres existants.
+Si vous ne voulez pas utiliser les paramètres de parc d’appels par défaut, vous pouvez les personnaliser. Lorsque vous installez l’application de parc d’appels, les paramètres globaux sont configurés par défaut. Vous pouvez modifier les paramètres généraux et définir également des paramètres spécifiques à un site. L’applet de commande **New-CsCpsConfiguration** permet de créer des paramètres spécifiques à un site. L’applet de commande **Set-CsCpsConfiguration** permet de modifier les paramètres existants.
 
 > [!NOTE]
 > Nous vous recommandons de configurer au moins l’option **OnTimeoutURI** pour la destination de remplacement à utiliser lorsqu’un appel parqué échoue.
@@ -40,9 +40,9 @@ Les applets de commande **New-CsCpsConfiguration** et **Set-CsCpsConfiguration**
 | **MaxCallPickupAttempts** <br/>      | Nombre de sonnerie de rappel d’un appel parqué avant qu’il soit transféré vers l’URI de remplacement spécifié pour le paramètre **OnTimeoutURI**. La valeur par défaut est 1.<br/>                                                                                                                         |
 | **OnTimeoutURI** <br/>               | Adresse SIP (Session Initiation Protocol) de l’utilisateur ou groupe Response Group vers laquelle l’appel parqué sans réponse est routé lorsque la valeur **MaxCallPickupAttempts** est atteinte. <br/> La valeur doit être une URI SIP (Session Initiation Protocol) et commencer par la chaîne « sip: ». Par exemple, sip:bob@contoso.com. La valeur par défaut est aucune adresse de transfert.<br/>                                                   |
 
-### <a name="to-configure-call-park-settings"></a>Pour configurer les paramètres de parcage d’appel
+### <a name="to-configure-call-park-settings"></a>Pour configurer les paramètres du parc d’appels
 
-1. Démarrez le Skype pour Business Server Management Shell : cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Skype pour Business 2015**, puis cliquez sur **Skype pour Business Server Management Shell**.
+1. Démarrez Skype entreprise Server Management Shell: cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
 
 2. Exécutez :
 
@@ -51,7 +51,7 @@ Les applets de commande **New-CsCpsConfiguration** et **Set-CsCpsConfiguration**
    ```
 
    > [!TIP]
-   > L’applet de commande **Get-CsSite** permet d’identifier le site. Pour plus d’informations, voir Skype pour la documentation sur Business Server Management Shell.
+   > L’applet de commande **Get-CsSite** permet d’identifier le site. Pour plus d’informations, reportez-vous à la documentation Skype entreprise Server Management Shell.
 
     Par exemple :
 
@@ -63,7 +63,7 @@ Les applets de commande **New-CsCpsConfiguration** et **Set-CsCpsConfiguration**
 
 [Personnalisation de l’attente musicale du parcage d’appel dans Skype Entreprise 2015](customize-call-park-music-on-hold.md)
 
-[Nouvelle-CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/new-cscpsconfiguration?view=skype-ps)
+[Nouveau-CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/new-cscpsconfiguration?view=skype-ps)
 
 [Set-CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cscpsconfiguration?view=skype-ps)
 

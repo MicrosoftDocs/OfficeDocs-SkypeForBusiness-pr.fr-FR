@@ -1,25 +1,25 @@
 ---
-title: Supprimer une configuration d’archivage dans Skype pour Business Server
+title: Suppression d’une configuration de l’archivage dans Skype entreprise Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fed12cb5-2c80-476a-af3b-d55b450c5fbc
-description: 'Résumé : Découvrez comment supprimer une configuration d’archivage dans Skype pour Business Server.'
-ms.openlocfilehash: 3b6f79247a03beae4abc917d38a6844d67324082
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Résumé: Découvrez comment supprimer une configuration d’archivage dans Skype entreprise Server.'
+ms.openlocfilehash: e2a79949da21c9b3b8e94019375ea0e1f0887353
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33884976"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286196"
 ---
-# <a name="delete-an-archiving-configuration-in-skype-for-business-server"></a>Supprimer une configuration d’archivage dans Skype pour Business Server
+# <a name="delete-an-archiving-configuration-in-skype-for-business-server"></a>Suppression d’une configuration de l’archivage dans Skype entreprise Server
 
-**Résumé :** Découvrez comment supprimer une configuration d’archivage dans Skype pour Business Server.
+**Résumé:** Découvrez comment supprimer une configuration d’archivage dans Skype entreprise Server.
   
 Vous pouvez supprimer une configuration de site ou une configuration de pool, mais vous ne pouvez pas supprimer la configuration globale. Si vous supprimez la configuration globale, ses valeurs par défaut sont automatiquement rétablies.
   
@@ -29,9 +29,9 @@ Pour supprimer une configuration d’archivage en utilisant le Panneau de config
   
 1. À partir d’un compte d’utilisateur auquel est affecté un des rôles CsArchivingAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne. 
     
-2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business. 
+2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration Skype entreprise Server. 
     
-3. Dans la barre de navigation de gauche, cliquez sur **surveillance et archivage**, puis cliquez sur **Configuration de l’archivage**.
+3. Dans la barre de navigation gauche, cliquez sur **surveillance et archivage**, puis cliquez sur **configuration de l’archivage**.
     
 4. Dans la liste des configurations d’archivage, cliquez sur la configuration de site ou de pool que vous souhaitez supprimer, cliquez sur **Modifier**, puis cliquez sur **Supprimer**.
     
@@ -42,7 +42,7 @@ Pour supprimer une configuration d’archivage en utilisant le Panneau de config
     
 ## <a name="delete-an-archiving-configuration-by-using-windows-powershell"></a>Supprimer une configuration d’archivage via Windows PowerShell
 
-Vous pouvez également supprimer une configuration d’archivage à l’aide de l’applet de commande **Remove-CsArchivingConfiguration** .
+Vous pouvez également supprimer une configuration de l’archivage à l’aide de l’applet de passe **Remove-CsArchivingConfiguration** .
   
 Par exemple, la commande suivante supprime les paramètres de la configuration d’archivage appliquées au site Redmond. Lorsqu’une stratégie configurée au niveau de l’étendue Site est supprimée, les utilisateurs précédemment gérés par cette stratégie utilisent automatiquement à la place la stratégie d’archivage globale :
   
@@ -68,4 +68,4 @@ Vous pouvez également utiliser l’applet de commande **Remove-CsArchivingConfi
 Remove-CsArchivingConfiguration -Identity global
 ```
 
-Pour plus d’informations, consultez la rubrique d’aide pour l’applet de commande [Remove-CsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csarchivingconfiguration?view=skype-ps) .
+Pour plus d’informations, reportez-vous à la rubrique d’aide relative à l’applet de passe [Remove-CsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csarchivingconfiguration?view=skype-ps) .

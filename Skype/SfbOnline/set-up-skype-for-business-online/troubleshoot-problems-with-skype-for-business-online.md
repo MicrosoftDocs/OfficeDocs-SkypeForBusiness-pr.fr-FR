@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Learn how to fix issues for admins and users of Skype for Business in Office 365.
-ms.openlocfilehash: 07cc390cdc4e65d0ce8f59c42c6eb57f4900e949
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e08eb29827996ff65e85de1afe7aabba1b02ac40
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32237182"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285053"
 ---
 # <a name="troubleshoot-problems-with-skype-for-business-online"></a>Résolution des problèmes liés à Skype Entreprise Online
 
@@ -31,9 +31,9 @@ Il arrive que les choses ne se déroulent pas comme prévu. Voici une liste de r
 
 ## <a name="troubleshoot-admin-issues-for-skype-for-business-online"></a>Résolution des problèmes d'administration pour Skype Entreprise Online
 
-Vous pouvez obtenir des réponses pour la plupart de vos Skype pour Business Online questions par [vérifier les causes fréquentes de Skype pour les erreurs de connexion Business en ligne](troubleshooting-sign-in-errors-for-admins.md#toc323194094). Cet article de la base de connaissances comprend également de nombreuses ressources de dépannage et des références de code d'erreur : [Comment résoudre les problèmes de connexion dans Skype Entreprise Online](https://go.microsoft.com/fwlink/p/?LinkId=747952).
+Vous pouvez obtenir des réponses pour la plupart de vos questions sur Skype entreprise Online en recherché [les causes fréquentes des erreurs de connexion à Skype entreprise Online](troubleshooting-sign-in-errors-for-admins.md#toc323194094). Cet article de la base de connaissances comprend également de nombreuses ressources de dépannage et des références de code d'erreur : [Comment résoudre les problèmes de connexion dans Skype Entreprise Online](https://go.microsoft.com/fwlink/p/?LinkId=747952).
 
-Pour les problèmes de conférence rendez-vous, voir [problèmes connus et résolution des problèmes de conférence Audio](../audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues.md).
+Pour les problèmes liés aux conférences rendez-vous, consultez la rubrique [résolution des problèmes de conférence audio et problèmes connus](../audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues.md).
 
 ## <a name="additional-help-for-skype-for-business-online-admin-issues"></a>Aide supplémentaire pour des problèmes d'administration de Skype Entreprise Online
 
@@ -65,7 +65,7 @@ La plupart des problèmes rencontrés par les utilisateurs de Skype Entreprise O
 
 - [Aide pour les réunions Skype Entreprise](https://support.office.com/article/e0bc00a0-b01f-4f51-88fa-6f74abefa203)
 
-- [Skype pour formation d’entreprise](https://support.office.com/article/2461b8dd-c825-4e18-9a4c-015bba5a5a7e)
+- [Formation Skype entreprise](https://support.office.com/article/2461b8dd-c825-4e18-9a4c-015bba5a5a7e)
 
 - [Présenter des programmes dans Skype Entreprise](https://support.office.com/article/a5e6f4dc-06ac-4ccd-9a52-649b4f4a5306)
 

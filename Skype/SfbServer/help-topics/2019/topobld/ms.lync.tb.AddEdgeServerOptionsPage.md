@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AddEdgeServerOptionsPage
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 2405f227-4297-40d0-a117-55427a9e4052
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Sélectionnez chaque fonctionnalité à activer pour le pool de serveurs Edge. Par défaut, le pool de serveurs Edge prend en charge les utilisateurs distants dans votre organisation qui se connectent à l’extérieur du pare-feu en utilisant un réseau privé virtuel (VPN). Pour les fonctionnalités de pool de serveurs Edge, vous disposez également des options suivantes :'
-ms.openlocfilehash: f6c49e384463b42bfbd525c1b0c629ff3791ab35
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e7ec8e7b20c63e9842957373206130d000944b40
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33889023"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34278544"
 ---
 # <a name="add-edge-server-options"></a>Ajouter des options de serveur Edge
 

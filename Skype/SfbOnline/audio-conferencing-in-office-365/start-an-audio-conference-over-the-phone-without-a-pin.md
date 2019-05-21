@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -20,19 +20,19 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Découvrez comment activer ou désactiver la possibilité pour des appelants anonymes de se joindre aux réunions dans le centre d’administration Skype entreprise ou à l’aide d’un script PowerShell. '
-ms.openlocfilehash: 3a18692dbb95e1edc2d8093bad68bc059ffbc7d8
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: af62ed29ed2bbe835ab811651152b231a85caaf8
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32203841"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34302769"
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-skype-for-business-online"></a>Démarrer une audioconférence par téléphone sans code confidentiel dans Skype Entreprise Online
 
 > [!Note]
 > Pour plus d’informations sur le démarrage d’une audioconférence sans code confidentiel dans Microsoft Teams, voir [Démarrer une audioconférence par téléphone sans code confidentiel dans Microsoft Teams](/MicrosoftTeams/start-an-audio-conference-over-the-phone-without-a-pin-in-teams).
 
-Il peut être frustrant pour les utilisateurs qui se connectent à une réunion à être conservés dans la salle d’attente de la réunion à l’écoute de la musique, car le Skype pour l’organisateur de la réunion n’a pas démarré la réunion. 
+Il peut être frustrant pour des utilisateurs qui composent le numéro de téléphone d’une réunion d’être conservés dans la salle d’attente de la réunion, car l’organisateur de la réunion Skype entreprise n’a pas encore commencé la réunion. 
   
 If a meeting organizer calls in to the meeting, by default, a PIN is required to start a meeting. You can set it up so that anyone can dial in to a meeting and not be prompted for a PIN to start the meeting. You can use the Skype for Business admin center to enable or disable this setting for a single user.
   
@@ -43,17 +43,17 @@ A PIN isn't required for the meeting organizer if someone has started the meetin
   
 ## <a name="enable-or-disable-anonymous-callers-from-joining-a-meeting"></a>Autorisation ou refus des appelants anonymes à participer à une réunion
     
-1. Dans la **Skype entreprise centre d’administration**, dans la navigation de gauche, accédez à la **conférence Audio** > **les utilisateurs**. 
+1. Dans le **Centre d’administration de Skype entreprise**, dans le volet de navigation gauche, accédez à**utilisateurs**de l' **audioconférence** > . 
     
-2. Dans la liste, sélectionnez l’utilisateur, dans le volet Actions, cliquez sur **Modifier**. 
+2. Dans la liste, sélectionnez l’utilisateur, puis, dans le volet action, cliquez sur **modifier**. 
     
-3. Sur la page de propriétés de l’utilisateur, sous **options de la réunion**, activez ou désactivez Autoriser non authentifié **appelants sont les premiers à une réunion. Si non, puis ils attendra dans la salle d’attente jusqu'à ce qu’un utilisateur authentifié rejoint**.
+3. Sur la page des propriétés de l’utilisateur, sous options de la **réunion**, activez ou désactivez **l’option autoriser les appelants non authentifiés comme premiers participants à une réunion. Si ce n’est pas le cas, il attend dans la salle d’attente jusqu’à ce qu’un utilisateur authentifié y adhère**.
     
 4. Cliquez sur **Enregistrer**. 
 
 
     
- **Utilisation de Windows Powershell**
+ **Utilisation de Windows PowerShell**
   
 - Exécutez la commande suivante : 
     
@@ -63,15 +63,15 @@ A PIN isn't required for the meeting organizer if someone has started the meetin
 
 ## <a name="what-else-should-you-know"></a>Informations supplémentaires
 
-- Si vous souhaitez réinitialiser le code confidentiel, consultez la rubrique [Réinitialiser le code confidentiel de conférence Audio](reset-the-audio-conferencing-pin.md).
+- Si vous souhaitez réinitialiser le code confidentiel, reportez-vous à la rubrique réinitialisation [du code confidentiel de l’audioconférence](reset-the-audio-conferencing-pin.md).
     
-- Si l’accès anonyme, ou ne nécessitant ne pas d’un code confidentiel démarrer une réunion, est activé :
+- Si vous avez accès anonyme ou si vous n’avez pas besoin d’un code confidentiel pour démarrer une réunion, est activé:
     
-  - Si la réunion n’a pas démarré (il n’existe pas dans la réunion encore) : un appelant est invité s’il est l’organisateur ; Si il indique Oui, il vous demandé pour son code confidentiel et après des entrées le code confidentiel, il démarre la réunion et l’utilisateur sera participer à la réunion.
+  - Si la réunion n’a pas commencé (il n’y a pas encore de compte dans la réunion): un appelant sera invité s’il s’agit de l’organisateur; s’il répond oui, il est invité à entrer son code confidentiel et, après avoir entré son code confidentiel, la réunion démarre et l’utilisateur se connecte à la réunion.
     
   - Si la réunion a déjà démarré (une autre personne a déjà rejoint la réunion) : l’appelant ne recevra pas d'invite, même s'il est l’organisateur, et il ne lui sera pas demandé de code confidentiel ; la réunion a déjà démarré, et il pourra la rejoindre.
     
-- Si l’accès anonyme, ou ne nécessitant ne pas d’un code confidentiel démarrer une réunion, est désactivée :
+- Si l’accès anonyme ou ne nécessite pas un code confidentiel pour démarrer une réunion, est désactivé:
     
   - If the meeting hasn't started (there's no one in the meeting yet): A caller won't be prompted if she's the organizer, and she'll never be prompted for the PIN. Because the setting of the organizer is set to off, the meeting will start and the anonymous callers will join the meeting.
     

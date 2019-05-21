@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.OfficeWebAppsServerScopeNode
@@ -12,21 +12,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f934e076-1022-40cd-8a4a-0b90ccf6f2a6
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Vous cliquez avec le bouton droit sur les serveurs Office Web Apps Server dans le Générateur de topologie pour effectuer les actions suivantes :'
-ms.openlocfilehash: 62389e29c36e72c414c928052e361730a74b0d73
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Vous pouvez cliquer avec le bouton droit sur serveurs Office Web Apps dans le générateur de topologie pour effectuer les opérations suivantes:'
+ms.openlocfilehash: ad6d8dad7131dc24f3bfc3a99cc917b0a88b991e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33906724"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34302251"
 ---
 # <a name="office-web-apps-server-scope-node-expander"></a>Expanseur du nœud d’étendue du serveur Office Web Apps
  
-Vous cliquez avec le bouton droit sur les **Serveurs Office Web Apps Server** dans le Générateur de topologie pour effectuer les actions suivantes :
+Vous pouvez cliquer avec le bouton droit sur **serveurs Office Web Apps** dans le générateur de topologie pour effectuer les opérations suivantes:
   
-- **Nouveau serveur Office Web Apps Server**: démarre l’Assistant **Définir un serveur Office Web Apps** utilisé pour définir un nouveau serveur Office Web Apps Server.
+- **Nouveau serveur Office Web Apps**: démarre l’Assistant **définir un nouveau serveur Office Web Apps** utilisé pour définir un nouveau serveur Office Web Apps.
     
-Outre l’option nouveau Office Web Apps Server, vous pouvez effectuer les tâches générales suivantes :
+Outre la nouvelle option serveur Office Web Apps, vous pouvez effectuer les tâches générales suivantes:
   
 ![Nœud d’étendue d’Office WebApps Server](../../../media/OfficeWebApps_Server_Scope_Node.jpg)
   

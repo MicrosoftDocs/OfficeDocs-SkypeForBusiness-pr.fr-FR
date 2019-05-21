@@ -12,7 +12,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -22,16 +22,16 @@ ms.custom:
 - Legal
 hideEdit: true
 description: 'Learn how to make a complaint for Skype for business calling services (PSTN Calling in the United Kingdom), what the timelines are for replies, and how to resolve disputes for unresolved complaints. '
-ms.openlocfilehash: 47c6b05ea89b1401a9ef8900f8f3c357b3b3a68a
-ms.sourcegitcommit: ca7a22da082ac5336f31ffd76f3d4aef6c76285b
+ms.openlocfilehash: 42572abda5c99ff8e21623b88b4f66bc6cfdedd3
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2019
-ms.locfileid: "33868679"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283377"
 ---
 # <a name="calling-plans-in-office-365---complaint-handling-code-for-the-united-kingdom-uk"></a>Forfaits d’appels dans Office 365 Code de traitement de plainte pour le Royaume-Uni (U.K.)
 
-Ce Code s’applique aux petites entreprises (organisations avec 10 employés ou moins) dans le Royaume-Uni (Royaume-Uni) en ce qui concerne le service Office 365 appelant planifier (le « Service ») conformément aux réglementations de communications (Royaume-Uni). D'autres services Skype Entreprise sont régis par votre accord de service avec Microsoft et toutes autres conditions applicables à votre utilisation du service particulier.
+Ce code s’applique aux clients de petites entreprises (organisations ayant 10 employés ou moins) au Royaume-Uni (r.-u.) en ce qui concerne le service de plan d’appel d’Office 365 (le «service») conformément aux réglementations du Royaume-Uni. D'autres services Skype Entreprise sont régis par votre accord de service avec Microsoft et toutes autres conditions applicables à votre utilisation du service particulier.
 
 ## <a name="how-to-make-a-complaint"></a>Comment porter réclamation
 
@@ -39,7 +39,7 @@ La satisfaction des clients est une priorité pour Skype Entreprise. Toutefois, 
 
 - Numéro de téléphone gratuit : 0800 032 6417
 
-- En ligne : Se connecter au centre d’administration Microsoft 365 et soumettre une demande de service en sélectionnant **nouvelle demande de service** sous **prise en charge**.
+- En ligne: Connectez-vous au centre d’administration 365 Microsoft et envoyez une demande de service en sélectionnant **nouvelle demande de service** sous **support**.
 
 ## <a name="timelines"></a>Délais
 
@@ -51,7 +51,7 @@ Si le représentant de Skype Entreprise n'est pas en mesure de résoudre le prob
 
 Skype Entreprise a pour objectif de résoudre toutes les réclamations liées au Service dans les sept (7) jours ouvrables suivant réception.
 
-Si vous êtes satisfait de la manière dans lequel votre réclamation concernant le Service est gérée, vous pouvez demander le Skype pour gérer votre réclamation, par téléphone ou par courrier électronique, de représentant commercial transformer la réclamation conformément à votre contrat de service. Microsoft évaluera la réclamation dans les sept (7) jours suivant réception.
+Si vous n’êtes pas satisfait du mode de gestion des réclamations relatives au service, vous pouvez demander au représentant Skype entreprise de traiter votre plainte, par téléphone ou par e-mail, de faire remonter la plainte conformément au contrat de service. Microsoft évaluera la réclamation dans les sept (7) jours suivant réception.
 
 ## <a name="alternative-dispute-resolution"></a>Résolution alternative des litiges
 
@@ -63,7 +63,7 @@ Toutes les réclamations doivent être envoyées à Ombudsman Services dans les 
 
 Les étapes à suivre pour transférer une réclamation à Ombudsman Services sont indiquées sur le [site Web](https://go.microsoft.com/fwlink/?LinkID=820708&amp;clcid=0x809) d'Ombudsman Services.
 
-Vous pouvez atteindre Services médiateur à remplir un formulaire de contact sur le site Web des Services médiateur ou par téléphone, lettre ou courrier électronique :
+Vous pouvez vous connecter aux services du Médiateur en remplissant un formulaire de contact sur le site Web des services du médiateur ou par téléphone, lettre ou courrier électronique:
 
 - Formulaire de contact : [https://www.ombudsman-services.org/about-us/contact-us](https://www.ombudsman-services.org/about-us/contact-us)
 

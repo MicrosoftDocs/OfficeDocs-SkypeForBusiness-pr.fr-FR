@@ -1,11 +1,11 @@
 ---
-title: Déployer le contournement de média dans le nuage connecteur Edition
+title: Contournement du déploiement multimédia dans la version Cloud Connector
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 11/15/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,25 +13,25 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 0ebba3a4-6124-434c-84aa-32b1cc3345bc
-description: Lisez cette rubrique pour en savoir plus sur les étapes nécessaires pour déployer le contournement de média avec le nuage connecteur Edition version 2.0 et versions ultérieure.
-ms.openlocfilehash: f4ea5449e7a324ae206241af25d12ecabf9c5259
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Pour plus d’informations sur la procédure de déploiement d’une dérivation multimédia avec la version 2,0 et les versions ultérieures, voir la rubrique.
+ms.openlocfilehash: 6f3ad140d25d5f1d03196e576ac57dc56e905d44
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32234083"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287544"
 ---
-# <a name="deploy-media-bypass-in-cloud-connector-edition"></a>Déployer le contournement de média dans le nuage connecteur Edition
+# <a name="deploy-media-bypass-in-cloud-connector-edition"></a>Contournement du déploiement multimédia dans la version Cloud Connector
  
-Lisez cette rubrique pour en savoir plus sur les étapes nécessaires pour déployer le contournement de média avec le nuage connecteur Edition version 2.0 et versions ultérieure. 
+Pour plus d’informations sur la procédure de déploiement d’une dérivation multimédia avec la version 2,0 et les versions ultérieures, voir la rubrique. 
   
-Le contournement de média permet au client d’envoyer des données multimédia directement au saut suivant Public réseau de téléphonique commuté (RTC) — une passerelle ou un contrôleur de Session en périphérie (SBC) — et d’éliminer le composant nuage connecteur Edition à partir du chemin d’accès des médias. Voir aussi [Plan pour le média de contournement dans le nuage connecteur Edition](plan-for-media-bypass-in-cloud-connector-edition.md).
+Bypass Media permet à un client d’envoyer des contenus multimédias directement sur le tronçon de réseau téléphonique commuté (PSTN), une passerelle ou un contrôleur de bordure de session (SBC), et d’éliminer le composant Cloud Connector édition sur le chemin multimédia. Voir aussi [plan de contournement multimédia dans la version Cloud Connector](plan-for-media-bypass-in-cloud-connector-edition.md).
   
 ## <a name="enable-media-bypass"></a>Activer la déviation du trafic multimédia
 
-Pour activer la déviation du trafic multimédia, vous devez configurer le nom DNS du service web de déviation du trafic multimédia et activer la déviation du trafic multimédia dans la configuration de client. Le service web de déviation du trafic multimédia se déploie automatiquement sur chaque serveur de médiation. Un administrateur de client doit choisir un nom pour un service de voix hybride (site) et ce nom doit provenir d'un domaine SIP inscrit pour la voix hybride. Le nom du service doit être la même sur tous les appareils de nuage connecteur et tous les sites PSTN quel que soit l’emplacement du client. Le service web doit être disponible uniquement en interne sur le réseau.
+Pour activer la déviation du trafic multimédia, vous devez configurer le nom DNS du service web de déviation du trafic multimédia et activer la déviation du trafic multimédia dans la configuration de client. Le service web de déviation du trafic multimédia se déploie automatiquement sur chaque serveur de médiation. Un administrateur de client doit choisir un nom pour un service de voix hybride (site) et ce nom doit provenir d'un domaine SIP inscrit pour la voix hybride. Le nom du service doit être identique sur tous les appareils Cloud Connector et sur tous les sites RTC, quel que soit l’emplacement du client. Le service web doit être disponible uniquement en interne sur le réseau.
   
-Un administrateur client doit configurer un enregistrement DNS A dans la production interne Active Directory. Si vous avez un environnement complexe de plusieurs site, consultez l’exemple dans [exemple : site web les enregistrements DNS dans les environnements multisites du contournement de média](deploy-media-bypass-in-cloud-connector.md#Example). L'enregistrement DNS doit uniquement résoudre les clients du réseau interne, il ne doit pas résoudre les clients du réseau externe.
+Un administrateur client doit configurer un enregistrement DNS A dans la production interne Active Directory. Si vous disposez d’un environnement multisite complexe, reportez-vous à l’exemple [ci-dessous: enregistrements DNS du site Web bypass dans les environnements multisites complexes](deploy-media-bypass-in-cloud-connector.md#Example). L'enregistrement DNS doit uniquement résoudre les clients du réseau interne, il ne doit pas résoudre les clients du réseau externe.
   
 Après avoir configuré le DNS, connectez-vous à Skype Entreprise Online en utilisant PowerShell à distance avec les informations d'identification d'administrateur Skype Entreprise. Pour plus d’informations, voir [configurer votre ordinateur pour Windows PowerShell](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md) .
   
@@ -43,7 +43,7 @@ $mediabypass = New-CsNetworkMediaBypassConfiguration -AlwaysBypass $true -Enable
 Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
 ```
 
-Activer la déviation du trafic multimédia en deux étapes. L'applet de commande New-CsNetworkMedia n'enregistre pas immédiatement la nouvelle configuration, elle crée uniquement les paramètres en mémoire. L'objet créé par cette applet de commande doit être enregistré vers une variable, puis affecté à la propriété MediaBypassSettings de la configuration réseau. Pour plus d’informations, voir [exemple : site web les enregistrements DNS dans les environnements multisites du contournement de média](deploy-media-bypass-in-cloud-connector.md#Example).
+Activer la déviation du trafic multimédia en deux étapes. L'applet de commande New-CsNetworkMedia n'enregistre pas immédiatement la nouvelle configuration, elle crée uniquement les paramètres en mémoire. L'objet créé par cette applet de commande doit être enregistré vers une variable, puis affecté à la propriété MediaBypassSettings de la configuration réseau. Pour plus d’informations, reportez-vous à la section [exemple: Media Bypass site Web Records dans les environnements multisites complexes](deploy-media-bypass-in-cloud-connector.md#Example).
   
 La réplication entre les composants locaux et en ligne peut prendre jusqu'à 24 heures, c'est pourquoi Microsoft vous recommande d'exécuter les commandes nécessaires avant d'activer les utilisateurs.
   
@@ -51,20 +51,20 @@ La réplication entre les composants locaux et en ligne peut prendre jusqu'à 24
 
 Vous pouvez vérifier les paramètres de déviation du trafic multimédia comme suit.  
   
-Pour vérifier la réplication en ligne pour votre pool de client, exécutez la commande suivante dans PowerShell distant :
+Pour vérifier la réplication en ligne vers votre pool de clients, exécutez la commande suivante dans PowerShell distant:
   
 ```
 Get-CsTenantHybridConfiguration -LocalStore
 Get-CsNetworkConfiguration -LocalStore
 ```
 
-Pour vérifier la réplication locale, se connecter aux serveurs de médiation de connecteur dans le nuage, exécutez la commande suivante dans PowerShell et confirmez que Enabled = True et AlwaysBypass = True
+Pour vérifier la réplication locale, connectez-vous aux serveurs de médiation Cloud Connector, exécutez la commande suivante dans PowerShell et confirmez que enabled = true et AlwaysBypass = true
   
 ```
 Get-CsNetworkConfiguration -LocalStore
 ```
 
-Pour vérifier les paramètres du client, vous déconnecter le Skype pour client d’entreprise, vous reconnecter et vérifiez que le client a reçu l’URL de service comme suit :
+Pour vérifier les paramètres du client, déconnectez-vous du client Skype entreprise, reconnectez-vous, puis vérifiez que le client a reçu l’URL du service comme suit:
   
 1. Ouvrez %appdatalocal%\Microsoft\Office\16.0\Lync\Tracing\Lync-UccApi-0.UccApilog. 
     
@@ -90,7 +90,7 @@ $mediabypass = New-CsNetworkMediaBypassConfiguration  -Enabled $false
 Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
 ```
 
-Après avoir effectué la modification, la réplication de toutes les modifications sur tous les Cloud Connectors peut prendre du temps. Pour vérifier l’état de réplication, exécutez la cmdlet suivante dans PowerShell sur les serveurs de médiation de connecteur dans le nuage : 
+Après avoir effectué la modification, la réplication de toutes les modifications sur tous les Cloud Connectors peut prendre du temps. Pour vérifier l’état de la réplication, exécutez l’applet de commande suivante dans PowerShell sur les serveurs de médiation Cloud Connector: 
   
 ```
 Get- CsNetworkConfiguration -LocalStore
@@ -108,20 +108,20 @@ Set-CsTenantHybridConfiguration -HybridConfigServiceInternalUrl  $null
 Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass 
 ```
 
-Un administrateur devra également supprimer les adresses web pour la déviation du trafic multimédia des serveurs DNS internes. Après avoir apporté les modifications, elle peut prendre du temps pour les modifications soient répliquées dans tous les appareils de nuage connecteur. 
+Un administrateur devra également supprimer les adresses web pour la déviation du trafic multimédia des serveurs DNS internes. Après avoir effectué la modification, il est possible que les modifications soient répliquées sur tous les appareils Cloud Connector. 
   
 ## <a name="example-media-bypass-web-site-dns-records-in-complex-multi-site-environments"></a>Exemple : enregistrements DNS de sites seb de déviation du trafic multimédia dans des environnements multisites complexes
 <a name="Example"> </a>
 
-Les clients recevront l'adresse web du service web de déviation du trafic multimédia depuis un serveur DNS interne. Le nom du service web sera la même pour tous les appareils nuage connecteur et sites nuage connecteur PSTN. Dans un environnement multisite complexe, nous vous recommandons d'utiliser la stratégie DNS de gestion du trafic basée sur la géolocalisation de Windows Server 2016 afin que les clients puissent être redirigés vers le service web local de leur réseau. 
+Les clients recevront l'adresse web du service web de déviation du trafic multimédia depuis un serveur DNS interne. Le nom du service Web sera le même sur tous les appareils Cloud Connector et sur les sites RTC du Cloud Connector. Dans un environnement multisite complexe, nous vous recommandons d'utiliser la stratégie DNS de gestion du trafic basée sur la géolocalisation de Windows Server 2016 afin que les clients puissent être redirigés vers le service web local de leur réseau. 
   
-Pour plus d’informations sur les stratégies de DNS Windows 2016, voir [Utiliser la stratégie DNS pour la gestion d’un trafic en fonction de géolocalisation avec les serveurs principaux](https://docs.microsoft.com/windows-server/networking/dns/deploy/primary-geo-location).
+Pour plus d’informations sur les stratégies DNS de Windows 2016, voir [utilisation de la stratégie DNS pour la gestion du trafic basée sur la géolocalisation avec les serveurs principaux](https://docs.microsoft.com/windows-server/networking/dns/deploy/primary-geo-location).
   
 Voici un exemple de configuration pour une entreprise avec plusieurs sites utilisant une stratégie DNS de gestion du trafic basée sur la géolocalisation de Windows Server 2016.
   
-Le nom du service de contournement de média est « hybridvoice.adatum.biz ».
+Le nom du service de contournement est «hybridvoice.adatum.biz».
   
-Le site à Amsterdam comporte quatre appliances nuage connecteur déployés avec les adresses IP de serveur de médiation suivantes :
+Le site d’Amsterdam comporte quatre appareils Cloud Connector déployés avec les adresses IP du serveur de médiation suivantes:
   
 - 192.168.1.45
     
@@ -131,7 +131,7 @@ Le site à Amsterdam comporte quatre appliances nuage connecteur déployés avec
     
 - 192.168.1.48
     
-Le site de Seattle a trois appliances nuage connecteur déployés avec les adresses IP de serveur de médiation suivantes :
+Le site de Seattle comporte trois appareils Cloud Connector déployés avec les adresses IP du serveur de médiation suivantes:
   
 - 10.10.1.8
     
@@ -182,7 +182,7 @@ En utilisant la gestion du trafic basée sur la géolocalisation, les serveurs D
 À ce stade, les clients effectuant des requêtes DNS depuis le sous-réseau d'Amsterdam pour hybridvoice.adatum.biz renvoient les adresses 192.168.1.45, 192.168.1.46, 192.168.1.47 et 192.168.1.48, tandis que les clients effectuant des requêtes DNS depuis Seattle renvoient les adresses 10.10.1.8, 10.10.1.9 et 10.10.1.10.
 
 > [!NOTE]
-> Si l’appliance CCE ne semble pas obtenir les paramètres de mise à jour, vérifiez si elle n’est pas en mesure de contacter le client par le biais de PowerShell à distance. Vous pouvez utiliser PowerShell à distance pour vérifier l’état d’application avec Get-CsHybridPSTNAppliance ou comment utiliser PowerShell sur l’hôte CCE pour vérifier l’état avec Get-CcApplianceStatus.
+> Si l’application CCE ne donne pas les paramètres mis à jour, vérifiez si l’application peut contacter le client par le biais de PowerShell distante. Vous pouvez utiliser Remote PowerShell pour vérifier l’état de l’appareil avec Get-CsHybridPSTNAppliance ou utiliser PowerShell sur l’hôte CCE pour vérifier l’état avec Get-CcApplianceStatus.
 
   
 ## <a name="see-also"></a>Voir aussi

@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -18,104 +18,104 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Rapports, le nouveau tableau de bord d'Office 365, vous donne une vue d'ensemble de l'activité de tous les produits Office 365 dans votre organisation. Il vous permet d'explorer les rapports au niveau de chaque produit pour obtenir une vue d'ensemble plus précise des activités qu'ils contiennent.
-ms.openlocfilehash: c4f3040c759deefc222c6243d80de393e18befe9
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 62b64fd971d776b265d7b78789e8ac7684cc5e26
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32240604"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34302086"
 ---
 # <a name="session-details-report"></a>Rapport détaillé de session
 
-Le nouveau tableau de bord **Rapports** d'Office 365 vous donne une vue d'ensemble de l'activité de tous les produits Office 365 dans votre organisation. Il vous permet d'explorer les rapports au niveau de chaque produit pour obtenir une vue d'ensemble plus précise des activités qu'ils contiennent. Par exemple, vous pouvez utiliser le rapport **Skype pour plus d’informations de Session Business** pour afficher plus d’informations sur des expériences utilisateur appel.
+Le nouveau tableau de bord **Rapports** d'Office 365 vous donne une vue d'ensemble de l'activité de tous les produits Office 365 dans votre organisation. Il vous permet d'explorer les rapports au niveau de chaque produit pour obtenir une vue d'ensemble plus précise des activités qu'ils contiennent. Par exemple, vous pouvez utiliser le rapport Détails de la **session Skype entreprise** pour en savoir plus sur les expériences d’appel des utilisateurs individuels.
   
-Consultez la rubrique [vue d’ensemble des rapports](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) pour plusieurs rapports qui sont disponibles.
+Consultez la [vue d’ensemble des rapports](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) pour plus d’informations sur les rapports disponibles.
   
-Ce rapport, ainsi que l’autres Skype pour les rapports d’entreprise vous donnent plus d’informations sur l’activité, notamment des informations de session au sein de votre organisation. Ces informations sont très utiles lorsque vous analyse, la planification et l’émission d’autres activités décisions pour votre organisation et de configuration [Communications générique](/microsoftteams/what-are-communications-credits).
+Ce rapport, ainsi que les autres rapports Skype entreprise fournissent des informations sur les activités, y compris les détails de la session au sein de votre organisation. Ces informations sont très utiles lorsque vous effectuez des recherches, planifiez et organisez d’autres décisions professionnelles pour votre organisation et que vous configurez des [crédits de communication](/microsoftteams/what-are-communications-credits).
   
 > [!NOTE]
 > Vous pouvez accéder à tous les rapports Skype Entreprise lorsque vous vous connectez au centre d'administration d'Office 365 en tant qu'administrateur. 
   
-## <a name="how-to-get-to-the-skype-for-business-session-details-report"></a>Comment obtenir le Skype pour le rapport de détails de Session de l’entreprise
+## <a name="how-to-get-to-the-skype-for-business-session-details-report"></a>Comment obtenir le rapport Détails de la session Skype entreprise
 
-1. Accéder au **Centre d’administration Office 365** > **rapports**
+1. Accédez aux > **rapports** du **Centre d’administration Office 365**
     
-2. Sélectionnez les **rapports** dans le menu de gauche, puis cliquez sur **l’utilisation**.
+2. Dans le menu de gauche, sélectionnez **rapports** , puis cliquez sur **utilisation**.
     
-3. Dans la liste sous **Sélectionnez un rapport**, cliquez sur **Skype pour plus d’informations de Session de l’entreprise**.
+3. Dans la liste sous **Sélectionner un rapport**, cliquez sur **Détails de la session Skype entreprise**.
     
     > [!TIP]
-    > Si vous ne voyez pas ce rapport répertorié, accédez à **Skype pour le centre d’administration de Business** > **rapports** > **Détails de la Session**. 
+    > Si ce rapport n’est pas répertorié, reportez-vous à la rubrique**rapports** > **** du >  **Centre d’administration Skype entreprise**. 
   
     > [!IMPORTANT]
     > En fonction de l'abonnement Office 365 que vous avez souscrit, tous les produits et les rapports présentés dans cet article ne seront peut-être pas disponibles. 
   
-## <a name="interpret-the-skype-for-business-session-details-report"></a>Interpréter le Skype pour le rapport de détails de Session de l’entreprise
+## <a name="interpret-the-skype-for-business-session-details-report"></a>Interpréter le rapport Détails de la session Skype entreprise
 
-Vous pouvez obtenir une vue dans Skype de l’utilisateur pour les détails de la session en regardant chacune des colonnes qui sont affichés.
+Vous pouvez afficher les détails de la session Skype entreprise d’un utilisateur en consultant chacune des colonnes qui sont affichées.
   
 Voici une illustration du rapport.
   
-![Skype pour le tableau de bord de rapport de détails de Session Business.](../images/3d87ab39-6eaa-46b5-b5f9-7f54dc987ae0.png)
+![Tableau de bord de rapport Détails de session Skype entreprise.](../images/3d87ab39-6eaa-46b5-b5f9-7f54dc987ae0.png)
   
 ***
-![Numéro 1](../images/sfbcallout1.png)<br/>**Utilisateur de recherche par alias** vous permet de rechercher un utilisateur unique et affiche tous les détails de la session de l’utilisateur dans le tableau ci-dessous. 
+![Numéro 1](../images/sfbcallout1.png)<br/>L’option **Rechercher un utilisateur par alias** vous permet de rechercher un utilisateur unique et d’afficher tous les détails de la session de l’utilisateur dans le tableau ci-dessous. 
 ***
-![Numéro 2](../images/sfbcallout2.png)<br/>**Entrée de date heure** vous permet de que vous placer dans la date de début. Vous pouvez utiliser le calendrier pour sélectionner la date ou entrez la date manuellement. Ce champ doit être rempli.
+![Numéro 2](../images/sfbcallout2.png)<br/>**Entrée de date** vous permet d’entrer la date de début. Vous pouvez utiliser le calendrier pour sélectionner la date ou entrer la date manuellement. Ce champ doit être rempli.
 ***
-![Nombre 3](../images/sfbcallout3.png)<br/>Permet **d’entrée pour date heure** que vous placer dans la date de fin. Vous pouvez utiliser le calendrier pour sélectionner la date ou entrez la date manuellement. Si aucune date de fin n’est définie, la valeur par défaut est 30 jours à partir de la date de début.
+![Nombre 3](../images/sfbcallout3.png)<br/>**Entrée pour date** permet d’entrer la date de fin. Vous pouvez utiliser le calendrier pour sélectionner la date ou entrer la date manuellement. Si aucune date de fin n’est définie, la valeur par défaut est 30 jours à partir de la date de début.
 ***
-![Numéro 4](../images/sfbcallout4.png)<br/>Le tableau présente une répartition des tous les détails de session par utilisateur. Affiche tous les utilisateurs qui ont Skype pour les entreprises affecté et leurs informations de session. Vous pouvez ajouter ou supprimer des colonnes dans ce tableau. <br/><br/>Le tableau comporte les colonnes suivantes pour chaque session :
-*    **ID de la boîte de dialogue** est l’ID de l’identificateur unique de la session SIP.
-*    **Description des types de médias** indique si la session est une téléconférence ou une session P2P et le type de média utilisé (partage Audio/vidéo/Application).
-*    **Heure de début** est l’heure de début de la session.
-*    **Heure de fin** est l’heure de fin de la session.
-*    **À partir de l’URI** est l’URI de l’utilisateur ou le service qui a initié la session. Peut être vide si l’utilisateur a démarré la session à partir d’un téléphone RTC.
-*    **Pour l’URI** est l’URI de l’utilisateur ou le service qui a été la cible de l’ouverture de session. Dans le cas de la conférence, il s’agit de l’URI de l’organisateur. Peut être vide si la cible de la session a été un numéro de téléphone PSTN.
-*    **À partir de la version du client** vous indique l’Agent utilisateur et la version du client utilisé par l’utilisateur ou le service qui a initié la session.
-*    **Pour la version du client** vous indique l’Agent utilisateur et la version du client utilisé par l’utilisateur ou le service qui a été la cible de l’ouverture de session.
-*    **URL de la conférence** est l’URL SIP de la conférence, si la session a été une téléconférence. Tous les utilisateurs dans le même appel de conférence aura la même URL de conférence. 
-*    **À partir d’un Tel numéro** est le numéro de téléphone qui était la cible de la session, le cas échéant. Les derniers chiffres du numéro de téléphone peuvent être remplacés par « x » pour protéger la confidentialité des utilisateurs.
-*    **Nombre à Tel** est le numéro de téléphone qui était la cible de la session, le cas échéant. Les derniers chiffres du numéro de téléphone peuvent être remplacés par « x » pour protéger la confidentialité des utilisateurs.
-*    **À partir du point de terminaison Id** est un GUID unique du point de terminaison utilisé par l’utilisateur. Utilisé pour déterminer si l’utilisateur communique plusieurs sessions à partir du même point de terminaison. Peut être vide si l’utilisateur a recours à un téléphone RTC ou si la session a été lancée à partir d’un service.
-*    **Id du point de terminaison** est un GUID unique du point de terminaison utilisé par l’utilisateur à. Utilisé pour déterminer si l’utilisateur communique plusieurs sessions à partir du même point de terminaison. Peut être vide si l’utilisateur a recours à un téléphone RTC, si la session a été lancée à partir d’un service ou Impossible d’établir une session.
-*    **Instance de conférence** est un GUID unique pour l’instance de la conférence à l’aide de l’URL de conférence. Les réunions périodiques aura la même URL de conférence, mais chaque instance de la réunion aura une différence Instance Conf.
-*    **URI de la part** d’est l’URI de la personne au nom duquel la session est établie. <br/> **Référencé par l’URI** est l’URI de l’utilisateur ayant référencé l’établissement d’une session.
-*    **Code de réponse** est le code de réponse SIP pour l’établissement de la session qui indique si la session a été établie.
+![Numéro 4](../images/sfbcallout4.png)<br/>Le tableau suivant présente une répartition des détails relatifs à la session par utilisateur. Cette opération montre tous les utilisateurs qui disposent de Skype entreprise et leurs informations de session. Vous pouvez ajouter ou supprimer des colonnes dans ce tableau. <br/><br/>La table contient les colonnes suivantes pour chaque session:
+*    **ID de boîte de dialogue** est l’ID identifiant unique de la session SIP.
+*    **Description** du type de média décrit si la session est une conférence téléphonique ou une session P2P et le type de média utilisé (audio/vidéo/partage d’application).
+*    **Heure de début** représente l’heure de démarrage de la session.
+*    **Heure de fin** correspond à l’heure de fin de la session.
+*    L’URI est l’URI de l’utilisateur ou du service **à** l’origine de la session. Est-il possible d’être vide si l’utilisateur a lancé la session à partir d’un téléphone RTC.
+*    **To URI** est l’URI de l’utilisateur ou du service qui était la cible de l’initiation de la session. Dans le cas de la Conférence, il s’agit de l’URI de l’organisateur. Est susceptible d’être vide si la cible de la session est un numéro de téléphone PSTN.
+*    **À partir de la version du client** indique l’agent utilisateur et la version du client utilisée par l’utilisateur ou le service à l’origine de la session.
+*    **Vers la version client** indique l’agent utilisateur et la version du client utilisée par l’utilisateur ou le service qui était la cible de l’initiation de la session.
+*    **URL** de la Conférence est l’URL SIP de la Conférence, si celle-ci est une conférence téléphonique. Tous les utilisateurs de la même conférence peuvent utiliser la même URL de conférence. 
+*    **Depuis numéro de** téléphone est le numéro de téléphone ciblé dans la session, le cas échéant. Les derniers chiffres du numéro de téléphone sont remplacés par «x» pour protéger la confidentialité de l’utilisateur.
+*    **Par numéro de** téléphone est le numéro de téléphone ciblé dans la session, le cas échéant. Les derniers chiffres du numéro de téléphone sont remplacés par «x» pour protéger la confidentialité de l’utilisateur.
+*    **From Endpoint ID** est un GUID unique du point de terminaison utilisé par l’utilisateur de. Permet de déterminer si l’utilisateur communique plusieurs sessions à partir du même point de terminaison. Peut être vide si l’utilisateur utilise un téléphone RTC ou s’il a initié une session à partir d’un service.
+*    **Pour ID de point de terminaison** , il s’agit d’un GUID unique du point de terminaison utilisé par l’utilisateur à. Permet de déterminer si l’utilisateur communique plusieurs sessions à partir du même point de terminaison. Est peut-être vide si l’utilisateur utilise un téléphone RTC, si elle a été lancée à partir d’un service, ou s’il n’a pas réussi à établir une session.
+*    L' **instance de conf** est un GUID unique pour l’instance de la Conférence à l’aide de l’URL de la Conférence. Les réunions périodiques ont la même URL de conférence, mais chaque instance de la réunion est dotée d’une instance de la distinction.
+*    **Pour le compte d’URI** figure l’URI de la personne qui a créé le nom de la session. <br/> **URL désignée par URI** est l’URI de l’utilisateur qui a expertisé l’établissement d’une session.
+*    **Code de réponse** correspond au code de réponse SIP pour l’établissement de la session qui indique si la session a été correctement établie.
 
-Pour chaque session, une table sub avec des données différentes est disponible en fonction du scénario. Suit répertorie les onglets disponibles dans le tableau sub pour le champ d’et à l’utilisateur ou les services.
-*    Onglet SESSION affiche les données sur les ordinateurs et les systèmes d’exploitation.
-*    Onglet MEDIALINES affiche les informations de connectivité réseau et de périphérique.
-*    Onglet AUDIOSTREAMS présente les données de performances réseau sur les flux audio impliquées dans la session.
-*    Onglet AUDIOCLIENTEVENTS affiche les données sur les problèmes de détection de client ayant un impact sur l’expérience audio.
-*    Onglet AUDIOSIGNALS affiche les données sur le traitement de la session du signal audio.
-*    Onglet APPSHARINGSTREAMS indique les données de performances sur le partage d’application ou le flux de partage du bureau impliquées dans la session.
-*    Onglet VIDEOCLIENTEVENTS affiche les données sur les problèmes de détection de client ayant un impact sur l’expérience vidéo.
-*    Onglet VIDEOSTREAMS présente les données de performances réseau sur les flux vidéo impliquées dans la session.
-*    Onglet de détermination d’itinéraire affiche les tronçons réseau collectées via traceroute pendant la session. Le chemin d’accès réel media utilisé pour la session peut varier et ces données ne sont disponibles que lorsqu’il est audio dans la session.
-*    Onglet FEEDBACKREPORTS affiche toute fin de données d’enquête appel fournies par les utilisateurs dans la session.
+Pour chaque session, il existe une sous-table avec différentes données disponibles selon le scénario. Le tableau suivant répertorie les onglets disponibles dans la sous-table correspondant aux utilisateurs et aux services from et to.
+*    L’onglet SESSION affiche des données relatives aux ordinateurs et aux systèmes d’exploitation.
+*    L’onglet MEDIALINES affiche les informations de connectivité réseau et les informations sur l’appareil.
+*    L’onglet AUDIOSTREAMS affiche les données de performances réseau relatives aux flux audio impliqués dans la session.
+*    L’onglet AUDIOCLIENTEVENTS affiche les données sur le client détecté des problèmes affectant l’interface audio.
+*    L’onglet AUDIOSIGNALS affiche les données relatives au traitement du signal audio de la session.
+*    L’onglet APPSHARINGSTREAMS affiche des données de performances réseau relatives aux flux de partage d’application ou de partage de bureau impliqués dans une session.
+*    L’onglet VIDEOCLIENTEVENTS affiche les données relatives aux problèmes détectés dans l’interface vidéo.
+*    L’onglet VIDEOSTREAMS affiche des données de performances réseau relatives aux flux vidéo impliqués dans la session.
+*    L’onglet TRACEROUTE montre les tronçons du réseau collectés par le biais de traceroute lors de la session. Le chemin d’accès multimédia réel utilisé pour la session peut varier et ces données ne sont disponibles que lorsque la session utilise le son.
+*    L’onglet FEEDBACKREPORTS affiche la fin des données d’enquête fournies par les utilisateurs de la session.
 ***
 !["Nombre 5"](../images/sfbcallout5.png)<br/>Cliquez pour déplacer une colonne vers **Pour regrouper les informations autour d'une colonne en particulier, faites glisser et déplacez l'en-tête de la colonne ici** si vous souhaitez visualiser toutes les données regroupées dans une ou plusieurs colonnes. 
 ***
 ![Numéro 6](../images/sfbcallout6.png)<br/>Vous pouvez également exporter les données du rapport vers un fichier Excel .csv, en cliquant ou en appuyant sur le bouton **Exporter vers Excel**. <br/><br/> Cela exportera les données de tous les utilisateurs et vous permettra de trier et de filtrer plus simplement pour une analyse ultérieure. Si vous avez moins de 2 000 utilisateurs, vous pouvez trier et filtrer directement dans le tableau du rapport. Si vous avez plus de 2 000 utilisateurs, vous devrez exporter les données pour pouvoir les trier et les filtrer.  
    
-## <a name="want-to-see-other-skype-for-business-reports"></a>Vous souhaitez voir d’autres Skype pour les rapports d’entreprise ?
+## <a name="want-to-see-other-skype-for-business-reports"></a>Vous voulez afficher les autres rapports Skype entreprise?
 
-- [Skype pour le rapport des activités](activity-report.md) Vous pouvez voir combien vos utilisateurs sont à l’aide d’égal à égal, organisé et participé à des sessions de conférence.
+- [Rapport d’activité Skype entreprise](activity-report.md) Vous pouvez visualiser le nombre d’organisations, de participations et de sessions d’égal à égal de conférences par utilisateur.
     
-- [Skype pour le rapport d’utilisation des périphériques Business](device-usage-report.md) Vous pouvez pour voir les périphériques, y compris les systèmes d’exploitation Windows et les appareils mobiles qui ont le Skype pour l’application de gestion installés et utilisent pour la messagerie instantanée et réunions.
+- [Rapport sur l’utilisation des appareils Skype entreprise](device-usage-report.md) Vous pouvez voir les appareils tels que les systèmes d’exploitation Windows et les appareils mobiles sur lesquels l’application Skype entreprise est installée et qui s’en servent pour la messagerie instantanée et les réunions.
     
-- [Skype Business conférence organisateur rapport d’activité](conference-organizer-activity-report.md) Vous pouvez voir combien vos utilisateurs sont organiser des conférences qui utilisent la messagerie instantanée, audio/vidéo, partage d’applications, le site Web, dial-in/out - 3ème partie et dial-in/out - Microsoft.
+- [Rapport d’activité d’organisateur de conférences Skype entreprise](conference-organizer-activity-report.md) Vous pouvez visualiser le nombre de conférences de vos utilisateurs à l’aide de la messagerie instantanée, de l’audio/la vidéo, du partage d’applications, du Web, de la Conférence rendez-vous/du tiers et de la Conférence rendez-vous.
     
-- [Skype Business conférence participant rapport d’activité](conference-participant-activity-report.md) Vous pouvez voir le partage d’application audio/vidéo, messagerie instantanée, le nombre, Web et les conférences rendez-vous dans/conférence sont en cours ont participé.
+- [Rapport d’activité de participation à des conférences Skype entreprise](conference-participant-activity-report.md) Vous pouvez voir le nombre de participants à la messagerie instantanée, de l’audio/la vidéo, du partage d’applications, du Web et des conférences rendez-vous et des conférences rendez-vous.
     
-- [Skype pour le rapport des activités d’égal à égal professionnels](peer-to-peer-activity-report.md) Vous pouvez voir combien vos utilisateurs sont à l’aide de messagerie instantanée, audio/vidéo, partage d’application et de transfert de fichiers.
+- [Rapport d’activité d’égal à égal Skype entreprise](peer-to-peer-activity-report.md) Vous pouvez visualiser le nombre d’utilisation de la messagerie instantanée, de l’audio/la vidéo, du partage d’applications et du transfert de fichiers par utilisateur.
     
-- [Skype pour le rapport d’utilisation PSTN Business](pstn-usage-report.md) Vous pouvez voir le nombre de minutes passé dans les appels entrants et sortants et le coût de ces appels.
+- [Rapport d’utilisation de la Conférence RTC Skype entreprise](pstn-usage-report.md) Vous pouvez voir le nombre de minutes passées pour des appels entrants/sortants et le coût de ces appels.
 
-- [Skype pour les utilisateurs professionnels bloqués de rapport](users-blocked-report.md) Vous pouvez voir les utilisateurs de votre organisation qui ont été bloqués à partir de l’émission d’appels PSTN.
+- [Rapport de blocage d’utilisateurs Skype entreprise](users-blocked-report.md) Vous pouvez afficher les utilisateurs de votre organisation qui ont été bloqués et ne peuvent plus passer d’appels RTC.
 
-- [Skype pour rapport de pools minute Business PSTN](pstn-minute-pools-report.md) , vous pouvez voir le nombre de minutes consommées au cours du mois au sein de votre organisation.
+- [Rapport de pools de minutes RTC Skype entreprise](pstn-minute-pools-report.md) vous pouvez voir le nombre de minutes consommées pendant le mois en cours au sein de votre organisation.
     
 ## <a name="related-topics"></a>Voir aussi
 [Rapports d'activité dans le centre d’administration Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)

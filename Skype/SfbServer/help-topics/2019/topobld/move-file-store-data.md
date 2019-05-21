@@ -1,30 +1,30 @@
 ---
-title: Données de magasin de fichiers déplacement vers un nouveau magasin de fichiers dans Skype pour Business Server
+title: Déplacer les données du magasin de fichiers vers un nouveau magasin de fichiers dans Skype entreprise Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8d1d5819-add2-4f5d-a436-74c00a281df0
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Si vous devez supprimer le serveur de fichiers qui est actuellement agissant en tant que le magasin de fichiers pour votre Skype pour le déploiement de serveur d’entreprise, ou si vous devez effectuer d’autres modifications que le fichier actuel stockent pas disponible, vous devez tout d’abord créer un nouveau partage. Ensuite, procédez comme suit :'
-ms.openlocfilehash: b402a8f1a900b19faeb4f99bfea3370bc242b428
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Si vous avez besoin de supprimer le serveur de fichiers agissant actuellement en tant que magasin de fichiers pour votre déploiement de Skype entreprise Server ou si vous devez apporter d’autres modifications pour rendre le stockage de fichiers actuel indisponible, vous devez tout d’abord créer un nouveau partage. Ensuite, procédez comme suit :'
+ms.openlocfilehash: e065ab7a14f76df33ddfa0ade26561c486edb050
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33889289"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34288688"
 ---
-# <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server"></a>Données de magasin de fichiers déplacement vers un nouveau magasin de fichiers dans Skype pour Business Server
+# <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server"></a>Déplacer les données du magasin de fichiers vers un nouveau magasin de fichiers dans Skype entreprise Server
 
-Si vous devez supprimer le serveur de fichiers qui est actuellement agissant en tant que le magasin de fichiers pour votre Skype pour le déploiement de serveur d’entreprise, ou si vous devez effectuer d’autres modifications que le fichier actuel stockent pas disponible, vous devez tout d’abord créer un nouveau partage. Ensuite, procédez comme suit :
+Si vous avez besoin de supprimer le serveur de fichiers agissant actuellement en tant que magasin de fichiers pour votre déploiement de Skype entreprise Server ou si vous devez apporter d’autres modifications pour rendre le stockage de fichiers actuel indisponible, vous devez tout d’abord créer un nouveau partage. Ensuite, procédez comme suit :
 
-1. Arrêtez le Skype pour les services Business Server qui utilisent le magasin de fichiers que vous souhaitez supprimer.
+1. Fermez les services Skype entreprise Server qui utilisent le magasin de fichiers que vous envisagez de supprimer.
 
-2. Définir le magasin de fichiers dans le Générateur de topologie et de publier les modifications pour rendre le nouveau fichier stocker disponibles pour votre déploiement.
+2. Définissez le magasin de fichiers dans le générateur de topologie et publiez les modifications pour rendre le nouveau magasin de fichiers disponible pour votre déploiement.
 
 3. Déplacez les données vers le nouveau magasin de fichiers.
 
@@ -34,17 +34,17 @@ Si vous devez supprimer le serveur de fichiers qui est actuellement agissant en 
 
 ### <a name="to-move-file-store-data-from-one-file-store-to-a-new-file-store"></a>Pour déplacer les données du magasin de fichiers d’un magasin de fichiers vers un autre
 
-1. Ouvrez une session un ordinateur en tant que membre du groupe RTCUniversersalServerAdmins ou CsServerAdministrator où le Skype pour Business Server, outils d’administration sont installés.
+1. Connectez-vous à un ordinateur en tant que membre du groupe RTCUniversersalServerAdmins ou CsServerAdministrator dans lequel Skype entreprise Server, outils d’administration sont installés.
 
-2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business.
+2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration Skype entreprise Server.
 
 3. Dans la barre de navigation de gauche, cliquez sur **Topologie**, puis sur **État**. 
 
-4. Pour chaque pool directeur, directeur, serveur Standard Edition server et le pool frontal qui utilise le magasin de fichiers que vous souhaitez supprimer, sélectionnez le serveur ou pool, cliquez sur **Action**, puis cliquez sur **Arrêter tous les services**.
+4. Pour chaque pool de réalisateurs, directeur, serveur Standard Edition et pool frontal qui utilise le magasin de fichiers que vous envisagez de supprimer, sélectionnez le serveur ou le pool, cliquez sur **action**, puis cliquez sur **arrêter tous les services**.
 
-5. Ouvrez une session l’ordinateur où le Générateur de topologie est installé en tant que membre du groupe Admins du domaine et du groupe RTCUniversalServerAdmins.
+5. Ouvrez une session sur l’ordinateur sur lequel le générateur de topologie est installé en tant que membre du groupe administrateurs de domaine et du groupe RTCUniversalServerAdmins.
 
-6. Démarrer le Générateur de topologies : Cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Skype pour Business Server**, puis cliquez sur **Skype pour le Générateur de topologie Business Server**.
+6. Démarrer le générateur de topologie: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Skype entreprise Server**, puis sur **Générateur de topologie Skype entreprise Server**.
 
 7. Sélectionnez un serveur ou un pool qui utilise le magasin de fichiers et procédez comme suit :
 
@@ -55,7 +55,7 @@ Si vous devez supprimer le serveur de fichiers qui est actuellement agissant en 
 10. Dans **Définir un nouveau magasin de fichiers**, sous **Nom de domaine complet du serveur de fichiers**, saisissez le nom de domaine complet du serveur de fichiers. Sous **Partage de fichiers**, saisissez le nom de dossier pour le nouveau partage de fichiers et cliquez sur **OK**.
 
      > [!IMPORTANT]
-     > Cette étape définit un nouveau magasin de fichiers à utiliser dans le Générateur de topologie. Définissez-le une seule fois, non pour chaque serveur. Avant de publier la topologie, vous devez créer le partage de fichiers sur le serveur de fichiers défini. Pour plus d’informations, reportez-vous à la section [Define the File Store for the Front End](https://technet.microsoft.com/library/90994400-c4e5-4509-af41-121ac716fbca.aspx).
+     > Cette étape définit un nouveau magasin de fichiers à utiliser dans le générateur de topologie. Définissez-le une seule fois, non pour chaque serveur. Avant de publier la topologie, vous devez créer le partage de fichiers sur le serveur de fichiers défini. Pour plus d’informations, reportez-vous à la section [Define the File Store for the Front End](https://technet.microsoft.com/library/90994400-c4e5-4509-af41-121ac716fbca.aspx).
 
 11. Pour chaque serveur ou pool qui utilise le magasin de fichiers, procédez comme suit :
 
@@ -63,9 +63,9 @@ Si vous devez supprimer le serveur de fichiers qui est actuellement agissant en 
 
 13. Dans **Modifier les propriétés**, sous **Associations**, dans **Magasin de fichiers**, sélectionnez le nouveau partage de fichiers, puis cliquez sur **OK**.
 
-14. Publier la topologie, vérifiez le statut de réplication et exécutez le Skype pour l’Assistant de déploiement Business Server selon vos besoins. Pour plus d’informations, reportez-vous à la section [Common Procedures for Removing Lync Servers and Components](https://technet.microsoft.com/library/5438ce1e-57fa-4031-8bdb-3af6581d901b.aspx).
+14. Publiez la topologie, vérifiez l’état de la connexion, puis exécutez l’Assistant Déploiement de Skype entreprise Server selon vos besoins. Pour plus d’informations, reportez-vous à la section [Common Procedures for Removing Lync Servers and Components](https://technet.microsoft.com/library/5438ce1e-57fa-4031-8bdb-3af6581d901b.aspx).
 
-15. Démarrez une invite de commandes : cliquez sur **Démarrer**, sur **exécuter**, puis tapez cmd.exe.
+15. Démarrez une invite de commandes: cliquez sur **Démarrer**, sur **exécuter**, puis tapez cmd. exe.
 
 16. Dans la ligne de commande, tapez ce qui suit :
 
@@ -74,9 +74,9 @@ Si vous devez supprimer le serveur de fichiers qui est actuellement agissant en 
     ```
 
     > [!TIP]
-    > Le commutateur /S permet de copier sur des fichiers, des répertoires et des sous-répertoires. Le commutateur /XF permet d’ignorer des fichiers nommés Meeting.Active. Les versions actuelles du fichier robocopy.exe avec le commutateur /MT augmentent considérablement la vitesse de copie à l’aide de plusieurs threads. Pour le commutateur /LOG, utilisez un chemin et nom du fichier répertoire sous la forme de C:\Logfiles\log.txt. Ce commutateur crée un fichier journal d’opérations à l’emplacement nommé.
+    > Le commutateur /S permet de copier sur des fichiers, des répertoires et des sous-répertoires. Le commutateur /XF permet d’ignorer des fichiers nommés Meeting.Active. Les versions actuelles du fichier robocopy.exe avec le commutateur /MT augmentent considérablement la vitesse de copie à l’aide de plusieurs threads. Pour le commutateur/LOG, utilisez un chemin d’accès au répertoire et un nom de fichier journal sous la forme de C:\Logfiles\log.txt. Ce commutateur crée un fichier journal d’opérations à l’emplacement nommé.
 
-17. Lorsque la copie des données est terminée, dans le panneau de configuration de Lync Server, cliquez sur **la topologie**, puis cliquez sur **état**.
+17. Lorsque la copie des données est terminée, dans le panneau de configuration de Lync Server, cliquez sur **Topology**, puis sur **Status**.
 
 18. Pour chaque serveur et pool sur lesquels vous avez arrêté les services, sélectionnez le serveur ou pool, cliquez sur **Action**, puis sur **Démarrer tous les services**.         
 
@@ -86,6 +86,6 @@ Si vous devez supprimer le serveur de fichiers qui est actuellement agissant en 
 
 ## <a name="see-also"></a>Voir aussi
 
-[Réattribuer un serveur vers un autre magasin de fichiers](https://technet.microsoft.com/library/18509cce-a4d2-4537-a822-f99de6d7598e.aspx)
+[Réattribuer un serveur à un autre magasin de fichiers](https://technet.microsoft.com/library/18509cce-a4d2-4537-a822-f99de6d7598e.aspx)
 
 [Supprimer un magasin de fichiers](https://technet.microsoft.com/library/1ba7eb15-5c87-4357-b4d8-f59409ac7f71.aspx)

@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -18,26 +18,26 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Learn how to send Skype for Business instant messages even when your contacts aren't signed in using PowerShell.
-ms.openlocfilehash: 3992c2b4be9cbaaee5f7e7c9648f90d8034bc6aa
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 9f7786e636ba49d6327486a11683e26799c01cfc
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226003"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34284933"
 ---
 # <a name="turn-on-or-off-offline-messages-for-admins"></a>Activation ou désactivation des messages hors connexion pour les administrateurs
 
-Vous pouvez envoyer Skype pour messages instantanés Business à vos contacts, même s’ils ne sont pas connectés. Cette fonctionnalité permet à vos contacts de savoir que vous tentiez d’atteindre les. Il est inutile d’attendre que quelqu'un est en ligne avant de les envoyer un message.
+Vous pouvez envoyer des messages instantanés Skype entreprise à vos contacts même s’ils ne sont pas connectés. Cette fonctionnalité permet à vos contacts de savoir que vous avez essayé d’y accéder. Vous n’avez pas besoin d’attendre qu’une personne reste en ligne avant de lui envoyer un message.
 
 Pour les messages hors connexion, il est important de savoir que :
 
 - les messages hors connexion ne seront archivés dans la boîte aux lettres de l'utilisateur ;
 
-- Les messages en mode hors connexion sont envoyés à une boîte aux lettres de l’utilisateur et l’utilisateur sera averti lorsqu’ils se connectent à Skype pour les entreprises.
+- Les messages hors connexion seront envoyés dans la boîte aux lettres de l’utilisateur, et l’utilisateur est averti dès qu’il se connecte à Skype entreprise.
 
-- Si l’état du destinataire du message est défini sur **Ne pas déranger** ou de **présentation**, ils recevront manqués un message envoyé à partir Skype du destinataire pour client d’entreprise.
+- Si le statut du destinataire du message est défini sur **ne pas** déranger ou en **Présentation**, il recevra un message manqué, envoyé par le client Skype entreprise du destinataire.
 
-Pour plus d’informations, voir [utiliser la messagerie en mode hors connexion dans Skype pour les entreprises](https://support.office.com/article/ffdc6a43-71a1-40ee-bfcc-640d21324a3d).
+Pour plus d’informations, reportez-vous à la rubrique [utilisation de la messagerie hors connexion dans Skype entreprise](https://support.office.com/article/ffdc6a43-71a1-40ee-bfcc-640d21324a3d).
 
 ## <a name="to-get-you-started"></a>Pour commencer
 
@@ -74,14 +74,14 @@ Pour en savoir plus, voir [Se connecter à tous les services Office 365 dans une
   Import-PSSession $session
   ```
 
-Si vous souhaitez plus d’informations sur le démarrage de Windows PowerShell, voir [se connecter à tous les services Office 365 dans une seule fenêtre Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) ou [configurer votre ordinateur pour Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
+Pour plus d’informations sur le démarrage de Windows PowerShell, voir [se connecter à tous les services Office 365 dans une seule fenêtre Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) ou [configurer votre ordinateur pour Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
 
 ## <a name="turning-on-or-off-offline-im"></a>Activation ou désactivation de la messagerie instantanée hors connexion
 
 > [!NOTE]
-> Les Messages en mode hors connexion sont **uniquement** disponibles dans la dernière version de la Skype Click-to-Run pour client d’entreprise et ne sont pas disponibles lorsqu’une ancienne Skype Click-to-Run for Business est utilisée ou un fichier *.msi a été utilisé pour installer le Skype pour client d’entreprise.
+> Les messages hors connexion ne sont disponibles **que** dans la dernière version du client «démarrer en un clic» de Skype entreprise et ne sont pas disponibles lorsqu’une version antérieure de Skype entreprise est utilisée ou qu’un fichier *. msi a été utilisé pour installer le client Skype entreprise.
 
-Pour activer ou désactiver les Messages en mode hors connexion envoyer des Messages d’en mode hors connexion pour les utilisateurs de votre organisation, définissez _EnableIMAutoArchiving_ sur `True` ou `False`. Par défaut, il est défini sur `True`.
+Pour activer ou désactiver les messages hors connexion pour les utilisateurs de votre organisation qui envoient `True` des `False`messages hors connexion, définissez _EnableIMAutoArchiving_ sur ou. Par défaut, ce paramètre est défini `True`sur.
 
 Pour éteindre, utilisez la cmdlet **Set-CsClientPolicy** et exécutez :
 
@@ -89,7 +89,7 @@ Pour éteindre, utilisez la cmdlet **Set-CsClientPolicy** et exécutez :
 Set-CsClientPolicy -Identity Global -EnableIMAutoArchiving $False
 ```
 
-Pour activer ou désactiver l’envoi des Messages en mode hors connexion en mode hors connexion des Messages pour un utilisateur, la valeur _EnableIMAutoArchiving_ `True` ou `False`. Par défaut, cette option est définie sur  `True`. Vous pouvez utiliser une stratégie existante ou créez-en un à l’exemple ci-dessous.
+Pour activer ou désactiver les messages hors connexion pour les utilisateurs qui envoient des `True` messages `False`hors connexion, définissez _EnableIMAutoArchiving_ sur ou. Par défaut, cette option est définie sur  `True`. Vous pouvez utiliser une stratégie existante ou en créer une comme dans l’exemple ci-dessous.
 
 
   ```

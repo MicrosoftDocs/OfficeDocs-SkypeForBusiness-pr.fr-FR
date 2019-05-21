@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour le Honduras.
-ms.openlocfilehash: 6e786a81ac717c6f35db0d3bee4b642fef8380e1
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibles pour le Honduras.
+ms.openlocfilehash: 7c00ddc97282c5768f3442154be4a22b959c8f9c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226380"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34282905"
 ---
 # <a name="availability-in-honduras"></a>Disponibilité en Honduras
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ou renseignez-vous sur la disponibilité des forfaits d'appels et d'audioconférence selon les régions et les pays.
 
-Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponibles pour le Honduras.
+Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibles pour le Honduras.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 
@@ -44,7 +44,7 @@ Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft
 |:-----|:-----|
 |L'audioconférence est-elle disponible à l'achat ?  <br/> |Non  <br/> |
 |Les numéros de téléphone sont-ils attribués automatiquement pour l'audioconférence ?  <br/> |Non  <br/> |
-|Fonction de numérotation à l'aide de la fonctionnalité M'appeler  <br/> |Requiert les crédits de communication  <br/> |
+|Fonction de numérotation à l'aide de la fonctionnalité M'appeler  <br/> |Nécessite des crédits de communication  <br/> |
    
 ## <a name="phone-system"></a>Système téléphonique
 

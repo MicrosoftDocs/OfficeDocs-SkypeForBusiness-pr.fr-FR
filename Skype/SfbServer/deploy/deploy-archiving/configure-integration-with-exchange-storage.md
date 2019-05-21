@@ -1,47 +1,47 @@
 ---
-title: Configurer l’intégration avec le stockage Exchange pour Skype pour Business Server
+title: Configurer l’intégration avec le stockage Exchange pour Skype entreprise Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8f48b87f-a57f-4ed8-8c79-5c75b316b696
-description: 'Résumé : Lisez cette rubrique pour savoir comment configurer l’intégration avec le stockage Exchange dans Skype pour Business Server.'
-ms.openlocfilehash: 4b9d689ef5315c58b2fb6d78c01366ce2377a00e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Résumé: cette rubrique vous explique comment configurer l’intégration avec le stockage Exchange dans Skype entreprise Server.'
+ms.openlocfilehash: b58aa090e4e6c51beb1f99ba5dc9020e029c8c39
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893545"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286424"
 ---
-# <a name="configure-integration-with-exchange-storage-for-skype-for-business-server"></a>Configurer l’intégration avec le stockage Exchange pour Skype pour Business Server
+# <a name="configure-integration-with-exchange-storage-for-skype-for-business-server"></a>Configurer l’intégration avec le stockage Exchange pour Skype entreprise Server
  
-**Résumé :** Lisez cette rubrique pour savoir comment configurer l’intégration avec le stockage Exchange dans Skype pour Business Server.
+**Résumé:** Pour plus d’informations sur la configuration de l’intégration avec le stockage Exchange dans Skype entreprise Server, reportez-vous à cette rubrique.
   
-Si vous utilisez l’intégration de Microsoft Exchange pour tous les utilisateurs dans votre déploiement, vous n’avez pas besoin de configurer Skype pour les stratégies d’archivage Business Server pour vos utilisateurs. Au lieu de cela, vous configurez des stratégies de blocage sur Place Exchange pour prendre en charge l’archivage pour les utilisateurs hébergés sur Exchange, avec leurs boîtes aux lettres mettre en blocage sur Place. Avant de configurer l’intégration avec le stockage Exchange, lisez [Plan pour l’archivage dans Skype pour Business Server](../../plan-your-deployment/archiving/archiving.md). Pour plus d’informations sur les stratégies de blocage sur Place Exchange, voir la documentation du produit Exchange. 
+Si vous utilisez l’intégration de Microsoft Exchange pour tous les utilisateurs de votre déploiement, vous n’avez pas besoin de configurer les stratégies d’archivage de Skype entreprise Server pour vos utilisateurs. Au lieu de cela, vous configurez les stratégies de conservation inaltérable pour la prise en charge de l’archivage pour les utilisateurs hébergés sur Exchange, et leurs boîtes aux lettres sont placées dans la conservation inaltérable. Avant de configurer l’intégration avec le stockage Exchange, voir [plan d’archivage dans Skype entreprise Server](../../plan-your-deployment/archiving/archiving.md). Pour plus d’informations sur les stratégies de conservation inaltérable d’Exchange, voir la documentation du produit Exchange. 
   
-## <a name="configure-integration-with-microsoft-exchange-storage"></a>Configurer l’intégration avec le stockage de Microsoft Exchange
+## <a name="configure-integration-with-microsoft-exchange-storage"></a>Configurer l’intégration avec Microsoft Exchange Storage
 
 1. À partir d’un compte d’utilisateur auquel est affecté un des rôles CsArchivingAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
     
-2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business. 
+2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration Skype entreprise Server. 
     
-3. Dans la barre de navigation de gauche, cliquez sur **surveillance et archivage**, puis cliquez sur **Configuration de l’archivage**.
+3. Dans la barre de navigation gauche, cliquez sur **surveillance et archivage**, puis cliquez sur **configuration de l’archivage**.
     
 4. Cliquez sur le nom de la configuration de site, de pool ou globale appropriée dans la liste des configurations d’archivage, puis sur **Modifier**, sur **Afficher les détails** et procédez comme suit :
     
-   - Pour activer l’intégration avec le stockage Exchange, activez la case à cocher **intégration de Microsoft Exchange** .
+   - Pour activer l’intégration à Exchange Storage, activez la case à cocher **intégration Microsoft Exchange** .
     
-   - Pour désactiver l’intégration avec le stockage Exchange, désactivez la case à cocher **intégration de Microsoft Exchange** .
+   - Pour désactiver l’intégration à Exchange Storage, décochez la case **intégration de Microsoft Exchange** .
     
 5. Cliquez sur **Valider**.
     
-## <a name="when-skype-for-business-server-and-microsoft-exchange-are-deployed-in-different-forests"></a>Lorsque Skype pour Business Server et Microsoft Exchange sont déployés dans des forêts différentes
+## <a name="when-skype-for-business-server-and-microsoft-exchange-are-deployed-in-different-forests"></a>Lorsque Skype entreprise Server et Microsoft Exchange sont déployés dans différentes forêts
 
-Si vous utilisez l’intégration de Microsoft Exchange et Microsoft Exchange Server n’est pas déployé dans la même forêt que Skype pour Business Server, vous devez vous assurer que les attributs Active Directory d’Exchange suivants sont synchronisés avec la forêt où Skype pour Business Server est déployé :
+Si vous utilisez l’intégration de Microsoft Exchange et que Microsoft Exchange Server n’est pas déployé dans la même forêt que Skype entreprise Server, vous devez vous assurer que les attributs d’annuaire Active Directory suivants sont synchronisés avec la forêt où Skype pour Le déploiement d’Business Server est le suivant:
   
 - msExchUserHoldPolicies
     

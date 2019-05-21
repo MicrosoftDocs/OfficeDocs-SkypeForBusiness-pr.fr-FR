@@ -1,5 +1,5 @@
 ---
-title: Essayer ou acheter conférence dans Office 365 pour Skype pour Business en ligne
+title: Essayez ou achetez une audioconférence dans Office 365 pour Skype entreprise Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -21,14 +21,14 @@ f1keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Apprenez comment essayer ou acheter des licences d’audioconférence (conférence RTC) pour Office 365 afin de mettre en place des conférences téléphoniques auxquelles les gens peuvent se connecter. '
-ms.openlocfilehash: deb26d47c2b291e83c3ed32e4175bf7a82035c67
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e59c895ed60c53b3199648a0acb142037b936c75
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32203326"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34302759"
 ---
-# <a name="try-or-purchase-audio-conferencing-in-office-365-for-skype-for-business-online"></a>Essayer ou acheter conférence dans Office 365 pour Skype pour Business en ligne
+# <a name="try-or-purchase-audio-conferencing-in-office-365-for-skype-for-business-online"></a>Essayez ou achetez une audioconférence dans Office 365 pour Skype entreprise Online
 
 > [!Note]
 > Pour plus d’informations sur les audioconférences dans Microsoft Teams, voir [Essayer ou acheter les audioconférences dans Office 365 pour Skype pour Microsoft Teams](/MicrosoftTeams/try-or-purchase-audio-conferencing-in-office-365-for-teams).
@@ -40,9 +40,9 @@ You only need to set up audio conferencing for people who plan to schedule or le
 
 Pour les informations de tarification, consultez [Prix appliqués à l’audioconférence](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements).
 
-## <a name="step-1-buy-and-assign-audio-conferencing-licenses"></a>Étape 1 : Acheter et affecter des licences d’audioconférence
+## <a name="step-1-buy-and-assign-audio-conferencing-licenses"></a>Étape 1: acheter et affecter des licences de conférence audio
 
-Vous devez être un [sur Office 365 rôles d’administrateur](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) pour effectuer ces étapes.
+Pour effectuer ces étapes, vous devez disposer des [rôles d’administrateur Office 365](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) .
 
 ### <a name="to-buy-and-assign-user-audio-conferencing-licenses"></a>Pour acheter et attribuer des licences utilisateur audioconférence :
 
@@ -52,7 +52,7 @@ Vous devez être un [sur Office 365 rôles d’administrateur](https://support.o
 
    - **Try it** before you buy it, you can sign up for an Office 365 Enterprise E5 free trial that includes Audio Conferencing. See [Office 365 Enterprise E5 Trial](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3).
 
-   - **Acheter**, voir [Skype pour les licences d’entreprise et les équipes Microsoft module complémentaire](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+   - Pour l' **acheter**, reportez-vous à la rubrique [licences de modules complémentaires Skype entreprise et Microsoft teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
 
 3. [Attribuer ou supprimer des licences pour Office 365 pour les entreprises](https://support.office.com/article//997596b5-4173-4627-b915-36abac6786dc) que vous avez achetées aux collègues qui vont planifier ou animer des réunions.
 
@@ -90,7 +90,7 @@ Les étapes suivantes sont **facultatives**, mais un grand nombre d’administra
 
 3. [Set auto attendant languages for Audio Conferencing](set-auto-attendant-languages-for-audio-conferencing.md) that the Audio Conferencing auto attendant uses to greet a caller when they dial in to an audio conferencing phone number. This step only applies if you're using Microsoft as your audio conferencing provider.
 
-4. [Définir la longueur de l’axe des réunions de conférence Audio](set-the-pin-length-for-audio-conferencing-meetings.md).
+4. [Définissez la longueur du code confidentiel pour les réunions de conférence audio](set-the-pin-length-for-audio-conferencing-meetings.md).
 
 
 > [!NOTE]

@@ -1,45 +1,45 @@
 ---
-title: Utilisation des rapports de surveillance dans Skype pour Business Server
+title: Utilisation de rapports de surveillance dans Skype entreprise Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 733577d0-c70f-4c70-ab7b-59b89fb495a8
-description: 'Résumé : Découvrez les rapports dans Skype de surveillance pour Business Server.'
-ms.openlocfilehash: 66190e88b4b806554d29cc132e29d6419c8f693b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Résumé: Découvrez comment surveiller des rapports dans Skype entreprise Server.'
+ms.openlocfilehash: ea984a27e2322b08357719e41892fa65892b550a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33920275"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279885"
 ---
-# <a name="using-monitoring-reports-in-skype-for-business-server"></a>Utilisation des rapports de surveillance dans Skype pour Business Server 
+# <a name="using-monitoring-reports-in-skype-for-business-server"></a>Utilisation de rapports de surveillance dans Skype entreprise Server 
  
-**Résumé :** En savoir plus sur la surveillance des rapports dans Skype pour Business Server.
+**Résumé:** En savoir plus sur la surveillance des rapports dans Skype entreprise Server.
   
-Skype pour Business Server inclut un ensemble de rapports standard qui sont publiées par Microsoft SQL Server Reporting Services. Ces rapports, accessibles avec un navigateur web, fournissent des informations d’utilisation, de diagnostic d’appel et de qualité du média basées sur les enregistrements CDR (Enregistrement des détails des appels) et les enregistrements QoE (qualité de l’expérience) qui sont stockés dans les bases de données CDR et QoE.
+Skype entreprise Server inclut un ensemble de rapports standard publiés par le service Microsoft SQL Server Reporting. Ces rapports, accessibles avec un navigateur web, fournissent des informations d’utilisation, de diagnostic d’appel et de qualité du média basées sur les enregistrements CDR (Enregistrement des détails des appels) et les enregistrements QoE (qualité de l’expérience) qui sont stockés dans les bases de données CDR et QoE.
   
-Pour utiliser ces rapports, vous devez installer les rapports de surveillance sur un ordinateur qui exécute une instance de SQL Server.
+Pour utiliser ces rapports, vous devez installer des rapports d’analyse sur un ordinateur exécutant une instance de SQL Server.
   
 ## <a name="in-this-section"></a>Dans cette section
 
-- [À l’aide du tableau de bord de surveillance dans Skype pour Business Server](monitoring-dashboard.md) Fournit aux administrateurs une vue d’ensemble rapide de leur l’intégrité du système et de l’utilisation du système.
+- [Utilisation du tableau de bord de surveillance dans Skype entreprise Server](monitoring-dashboard.md) Fournit aux administrateurs un aperçu rapide de l’intégrité du système et de l’utilisation du système.
     
-- [Rapports d’utilisation dans Skype pour Business Server](system-usage-reports.md) Fournit des informations sur l’utilisation de système en fonction de données CDR recueillies par Skype pour Business Server.
+- [Rapports sur l’utilisation du système dans Skype entreprise Server](system-usage-reports.md) Fournit des informations sur l’utilisation du système sur la base des données de CDR collectées par Skype entreprise Server.
     
-- [Appel de Diagnostic Reports (per user) dans Skype pour Business Server](call-diagnostic-reports-per-user.md) Fournit des informations sur les sessions d’égal à égal et de conférence ayant échoué par utilisateur.
+- [Rapports de diagnostic des appels (par utilisateur) dans Skype entreprise Server](call-diagnostic-reports-per-user.md) Fournit des informations par utilisateur sur les sessions d’égal à égal et de conférence en échec.
     
-- [Appeler des rapports de Diagnostic dans Skype pour Business Server](call-diagnostic-reports.md) Fournit des informations de synthèse et des données de diagnostic des sessions de conférence d’égal à égal ayant échoué.
+- [Rapports de diagnostic des appels dans Skype entreprise Server](call-diagnostic-reports.md) Fournit des informations de synthèse et des données de diagnostic pour les sessions d’égal à égal et de conférence interrompues.
     
-- [Rapports de Diagnostic de qualité des médias dans Skype pour Business Server](media-quality-diagnostic-reports.md) Fournit des informations sur la qualité des appels ainsi que les informations de diagnostics et de dépannage pour les appels ayant échoués.
+- [Rapports de diagnostic de qualité multimédia dans Skype entreprise Server](media-quality-diagnostic-reports.md) Fournit des informations sur la qualité d’appel ainsi que des informations de diagnostic et de dépannage pour les appels en échec.
     
 ## <a name="locating-records"></a>Recherche d’enregistrements
 
-Les rapports de surveillance affichent uniquement une quantité limitée d’enregistrements à l’écran. La quantité réelle d’enregistrements affichés sur un écran dépend du rapport. Pour afficher les enregistrements qui ne sont pas actuellement affichés sur l’écran, vous pouvez utiliser le standard avant et arrière contrôle (trouvé dans la barre d’outils de chaque rapport) qui vous permettent de parcourir les données. Vous pouvez également accéder rapidement à la première ou dernière page du jeu de données.
+Les rapports de surveillance affichent uniquement une quantité limitée d’enregistrements à l’écran. La quantité réelle d’enregistrements affichés sur un écran dépend du rapport. Pour afficher les enregistrements qui ne sont pas visibles à l’écran, vous pouvez utiliser le contrôle suivant et précédent (qui se trouve sur la barre d’outils de chaque rapport) qui vous permet de parcourir les données. Vous pouvez également accéder rapidement à la première ou dernière page du jeu de données.
   
 Outre ces contrôles, vous pouvez accéder à une page quelconque du jeu de données en tapant simplement son numéro dans la zone **Page actuelle**, puis en appuyant sur Entrée.
   
@@ -47,7 +47,7 @@ Chaque rapport offre également une possibilité limitée de rechercher des enre
   
 Comme mentionné plus haut, les rapports de surveillance procurent uniquement des fonctionnalités de recherche de base. Par exemple, vous ne pouvez pas spécifier le champ dans lequel rechercher la valeur. Le mécanisme de recherche des valeurs correspondantes dans chaque champ de chaque enregistrement. Vous ne pouvez pas utiliser de caractères génériques dans vos recherches et toutes les recherches tentent de trouver des valeurs partielles. Cela signifie que si vous recherchez 111, la recherche renvoie la valeur 111, ainsi que les valeurs 11100, 811, 3112, 611A5B et tout autre champ qui comprend la valeur 111 n’importe où.
   
-Chaque rapport est configuré pour afficher un ensemble par défaut des enregistrements. Par exemple, par défaut le rapport d’enregistrement utilisateur affiche les activités des utilisateurs pour la semaine. Dans certains cas, cela peut entraîner un rapport qui ne renvoie aucun enregistrement. Dans ce cas, cela signifie qu’aucun enregistrement utilisateur n’ont eu lieu dans la semaine. Si vous voyez le message « aucun résultat les filtres de rapport », essayez de modifier les valeurs de filtre (par exemple, modifier la période de temps au cours du mois plutôt que de la semaine dernière), puis réexécutez la requête. Pour plus d’informations, consultez la section « Filtrage des données » plus loin dans cette rubrique.
+Chaque rapport est configuré pour afficher un ensemble d’enregistrements par défaut. Par exemple, par défaut, le rapport sur l’inscription des utilisateurs présente les activités d’inscription des utilisateurs au cours de la semaine précédente. Dans certains cas, cela peut générer un État ne renvoyant aucun enregistrement. Le cas échéant, cela signifie qu’il n’y a pas eu d’inscriptions effectuées par les utilisateurs au cours de la semaine précédente. Si le message «aucune valeur ne correspond aux filtres du rapport» s’affiche, essayez de modifier les valeurs du filtre (par exemple, remplacez la période par le mois précédent plutôt que la semaine précédente) et réexécutez la requête. Pour plus d’informations, reportez-vous à la section «filtrage des données» plus loin dans cette rubrique.
   
 ## <a name="filtering-data"></a>Filtrage des données
 

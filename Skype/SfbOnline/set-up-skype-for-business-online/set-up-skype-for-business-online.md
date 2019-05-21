@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -22,13 +22,13 @@ ms.custom:
 - Setup
 - Alchemy
 - LIL_Placement
-description: 'Apprenez à configurer votre domaine, les utilisateurs, messagerie instantanée et la présence de votre organisation pour installer Skype pour les entreprises. Voir aussi comment configurer les services d’audioconférence, système téléphonique et Plans de l’appel et diffusion Skype réunion. '
-ms.openlocfilehash: 2a968fa0f5b89351c2a7a2726052b1418f0ac213
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Familiarisez-vous avec la configuration de votre domaine, des utilisateurs, de la messagerie instantanée et de la présence de votre organisation pour l’installation de Skype entreprise. Apprenez-en plus sur la configuration de l’audioconférence, du système téléphonique et des plans d’appel et de la diffusion de réunion Skype. '
+ms.openlocfilehash: fb31a2affa1507f043244fbe6f1988040cfec4ba
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32237823"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285253"
 ---
 # <a name="set-up-skype-for-business-online"></a>Configurer Skype Entreprise Online
 
@@ -40,15 +40,15 @@ Il semble que vous ayez besoin d'aide pour configurer Skype avec votre abonnemen
 
 ## <a name="1-plan-for-skype-for-business"></a>1. Offre pour Skype Entreprise
 
-Si vous disposez d' **[Office 365 Business Premium](https://products.office.com/en-us/business/office-365-business-premium)** ou de **Business Essentials**, vous pouvez utiliser Skype Entreprise pour passer des appels en ligne à d'autres personnes de votre entreprise incluses dans votre abonnement. Par exemple, si votre entreprise a 10 personnes, vous serez en mesure de [Démarrer à l’aide de Skype pour les entreprises pour la messagerie instantanée et réunions en ligne](https://support.office.com/article/cc05afa6-1894-4a82-9dd9-6222061f50fd) mutuellement et [réunions avec Skype pour les entreprises](https://support.office.com/article/2eed8424-581a-4497-b505-c08c152e5851) à l’aide de Skype pour les entreprises après avoir effectué les étapes 2 à 6 ci-dessous. Et vous pouvez [configurer un Skype de réunion métier dans Outlook](https://support.office.com/article/b8305620-d16e-4667-989d-4a977aad6556#bkmk_OWA) des réunions en ligne, trop !
+Si vous disposez d' **[Office 365 Business Premium](https://products.office.com/en-us/business/office-365-business-premium)** ou de **Business Essentials**, vous pouvez utiliser Skype Entreprise pour passer des appels en ligne à d'autres personnes de votre entreprise incluses dans votre abonnement. Par exemple, si votre entreprise dispose de 10 personnes, vous pourrez [commencer à utiliser Skype entreprise pour la messagerie instantanée et les réunions en ligne et réunions en ligne](https://support.office.com/article/cc05afa6-1894-4a82-9dd9-6222061f50fd) [avec Skype entreprise](https://support.office.com/article/2eed8424-581a-4497-b505-c08c152e5851) avec Skype entreprise, après avoir effectué les étapes suivantes 2-6. Vous pouvez aussi organiser [une réunion Skype entreprise dans Outlook](https://support.office.com/article/b8305620-d16e-4667-989d-4a977aad6556#bkmk_OWA) en réunion en ligne.
 
 Si vous voulez utiliser Skype Entreprise pour passer et recevoir des **appels** avec des personnes *externes*  à votre entreprise :
 
-- **Option 1. Utilisez l'application gratuite [Skype](https://www.skype.com/)**. Si votre entreprise est très petite (par exemple, une ou deux personnes), l'application Skype est la meilleure solution. Elle est plus économique pour les appels nationaux et internationaux. Vous pouvez toujours en attente les appels de conférence, émettre des appels vidéo et partager votre bureau pour les présentations. [Découvrez les tarifs et les options de paiement](https://secure.skype.com/en/calling-rates?wt.mc_id=legacy&amp;expo365=bundled).
+- **Option 1. Utilisez l'application gratuite [Skype](https://www.skype.com/)**. Si votre entreprise est très petite (par exemple, une ou deux personnes), l'application Skype est la meilleure solution. Elle est plus économique pour les appels nationaux et internationaux. Vous pouvez toujours organiser des conférences téléphoniques, passer des appels vidéo et partager votre bureau pour des présentations. [Découvrez les tarifs et les options de paiement](https://secure.skype.com/en/calling-rates?wt.mc_id=legacy&amp;expo365=bundled).
 
-- **Option 2. Passez au niveau supérieur et achetez le système téléphonique et un forfait d'appels Office 365**. Le moyen le plus simple pour déterminer combien cela des coûts, puis passez, consiste à [contacter le support technique pour les produits métiers : aide d’administration](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b) et demandez-lui de faire tout ce que vous.
+- **Option 2. Passez au niveau supérieur et achetez le système téléphonique et un forfait d'appels Office 365**. Le moyen le plus simple de savoir combien de coûts, puis de définir le commutateur, est de [contacter le support technique pour les produits pour les entreprises-aide](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b) de l’administrateur et de leur faire tout le temps.
 
-Pour plus d’informations, voir [planifier votre installation d’Office 365 pour entreprises](https://support.office.com/article/eb926624-018b-4486-bf11-5fba6ee4d645#bkmk_skype).
+Pour en savoir plus, voir [planifier votre installation d’Office 365 pour les entreprises](https://support.office.com/article/eb926624-018b-4486-bf11-5fba6ee4d645#bkmk_skype).
 
 ## <a name="2-sign-in-to-office-365"></a>2. Connexion à Office 365
 <a name="bkmk_signin"> </a>
@@ -59,7 +59,7 @@ Skype Entreprise Online fait partie de la suite de services Office 365. Pour con
 
     ![Exemple de courrier électronique de bienvenue que vous recevez après vous être inscrit à Skype Entreprise Online. Il contient votre identifiant utilisateur Office 365.](../images/977c5c96-29c5-40c0-a4c4-1ba66ba3a1fb.png)
 
-2. Connectez-vous au centre d’administration Office 365 et entrez votre ID d’utilisateur Office 365 et votre mot de passe. Une fois connecté, Centre d'administration Office 365: apparaît.
+2. Connectez-vous au centre d’administration Office 365 et entrez votre ID utilisateur et votre mot de passe Office 365. Une fois connecté, Centre d'administration Office 365: apparaît.
 
     ![Exemple illustrant le Centre d'administration Office 365 lorsque vous disposez d'une offre Skype Entreprise Online.](../images/ed1d9906-e717-450b-81a3-ce6679bd1be1.png)
 
@@ -68,11 +68,11 @@ Skype Entreprise Online fait partie de la suite de services Office 365. Pour con
 
 Maintenant que vous êtes connecté à Office 365, vous pouvez configurer votre domaine et les personnes de votre organisation qui peuvent utiliser Skype Entreprise Online.
 
-1. [Ajouter un domaine et les utilisateurs à Office 365](https://support.office.com/article/6383f56d-3d09-4dcb-9b41-b5f5a5efd611): utiliser l’Assistant d’installation d’Office 365 pour configurer votre domaine personnalisé (par exemple, *fourthcoffee.com*) avec Office 365. **Par défaut, l'assistant d'installation d'Office 365 inclut la configuration de Skype Entreprise Online et la création de vos ID utilisateur Skype Entreprise.** Si vous avez déjà utilisé l'assistant pour configurer votre domaine pour Office 365, vous avez déjà effectué cette étape.
+1. [Ajouter un domaine et des utilisateurs à Office 365](https://support.office.com/article/6383f56d-3d09-4dcb-9b41-b5f5a5efd611): utilisez l’Assistant Installation d’Office 365 pour configurer votre domaine personnalisé (par exemple, *fourthcoffee.com*) avec Office 365. **Par défaut, l'assistant d'installation d'Office 365 inclut la configuration de Skype Entreprise Online et la création de vos ID utilisateur Skype Entreprise.** Si vous avez déjà utilisé l'assistant pour configurer votre domaine pour Office 365, vous avez déjà effectué cette étape.
 
 2. [Vérifier votre domaine et vos connexions DNS](https://support.office.com/article/2b54e1b0-47a7-4018-a1e4-c2b924e7c5a0) : utilisez notre outil de résolution des problèmes liés aux domaines pour vérifier que votre domaine et vos paramètres DNS sont corrects. Cette opération vous permettra d'éviter tout problème lié aux paramètres DNS et d'identifier ainsi les problèmes de configuration rencontrés en toute simplicité.
 
-3. [Office 365 URL et plages d’adresses IP](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2#BKMK_LYO): la plupart des petites entreprises n’avez pas besoin d’effectuer cette étape. **Mais si vous avez un pare-feu ou le serveur proxy qui limite l’accès à des parties du site web**, vous devez créer des règles pour autoriser l’accès à la Skype pour systèmes d’extrémité Business en ligne. Il s’agit d’une étape avancée mieux effectuée par une personne a rencontré avec la configuration des pare-feu et des serveurs proxy. Si vous n’avez pas encore fait avant, faites appel à un [partenaire Microsoft](https://go.microsoft.com/fwlink/?linkid=391089) pour configurer Skype pour les entreprises pour vous.
+3. [URL et plages d’adresses IP Office 365](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2#BKMK_LYO): la plupart des petites entreprises ne nécessitent pas cette étape. **Toutefois, si vous avez un pare-feu ou un serveur proxy qui limite l’accès aux différentes parties du Web**, vous devez créer des règles pour autoriser l’accès aux points de terminaison Skype entreprise online. Il s’agit d’une avancée avancée qui est effectuée par un utilisateur expérimenté dans la configuration de pare-feu et de serveurs proxy. Si vous ne l’avez pas encore fait, envisagez d’utiliser un [partenaire Microsoft](https://go.microsoft.com/fwlink/?linkid=391089) pour configurer Skype entreprise pour vous.
 
 ## <a name="4-set-up-im-and-presence-in-your-organization"></a>4. Configuration de la messagerie instantanée et de la présence dans votre organisation
 <a name="bkmk_IM"> </a>
@@ -106,11 +106,11 @@ Pour utiliser Skype Entreprise sur votre ordinateur PC ou Mac ou votre appareil 
 
 - [Installer Skype Entreprise](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb) : instructions relatives au téléchargement de l'application à partir du portail Office 365 et à son installation sur votre PC ou Mac.
 
-- [Déployer le Skype pour client d’entreprise dans Office 365](deploy-the-skype-for-business-client-in-office-365.md): Instructions pour le déploiement de l’application dans une grande entreprise.
+- [Déploiement du client Skype entreprise dans Office 365](deploy-the-skype-for-business-client-in-office-365.md): instructions de déploiement de l’application dans une grande entreprise.
 
 - [Installer Skype Entreprise](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb) : téléchargez, installez et connectez-vous à Skype Entreprise sur des appareils Android, iOS et des téléphones Windows.
 
-- [Activer ou désactiver les notifications de téléphone mobile](turn-on-or-off-mobile-phone-notifications.md): lorsque vous avez Skype pour les entreprises installé sur un appareil mobile, vous et autres personnes de votre entreprise peuvent recevoir des alertes sur les messages instantanés entrants et manqués.
+- [Activation ou désactivation des notifications par téléphone mobile](turn-on-or-off-mobile-phone-notifications.md): lorsque vous avez installé Skype entreprise sur un appareil mobile, vous et d’autres personnes de votre entreprise pouvez recevoir des alertes concernant les messages instantanés entrants et manqués.
 
 ## <a name="6-test-to-make-sure-everything-is-working"></a>6. Test pour s'assurer que tout fonctionne
 <a name="bkmk_test"> </a>
@@ -148,11 +148,11 @@ Voici un aperçu des étapes requises pour configurer Diffusion de réunion Skyp
 
 1. [Attribuer ou supprimer des licences pour Office 365 pour les entreprises](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) : affectez des licences **Skype Entreprise Online** ou **Enterprise Plan** à toutes les personnes qui vont **organiser** une diffusion de réunion.
 
-2. [Activer la diffusion de réunion Skype](../set-up-your-network-for-skype-meeting-broadcast/enable-skype-meeting-broadcast.md): par défaut, cette fonctionnalité n’est pas activée. Une fois la fonctionnalité activée, vos utilisateurs pourront organiser des diffusions de réunion avec d'autres membres de votre organisation.
+2. [Activer la diffusion de réunion Skype](../set-up-your-network-for-skype-meeting-broadcast/enable-skype-meeting-broadcast.md): cette fonctionnalité n’est pas activée par défaut. Une fois la fonctionnalité activée, vos utilisateurs pourront organiser des diffusions de réunion avec d'autres membres de votre organisation.
 
-3. [Configurez votre réseau de diffusion de réunion Skype](../set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md): Si vous souhaitez séminaires Web hôte et autres diffusions avec les participants à l’extérieur de votre organisation, vous devez configurer votre réseau.
+3. [Configurer votre réseau pour la diffusion de réunion Skype](../set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md): Si vous souhaitez héberger des webinaires et d’autres diffusions avec des participants extérieurs à votre organisation, vous devez configurer votre réseau.
 
-4. [Planifier une diffusion en réunion Skype](https://support.office.com/article/c3995bc9-4d32-4f75-a004-3bc5c477e553) et ont une [jointure une diffusion de réunion Skype](https://support.office.com/article/14689da0-821d-48d4-9035-ea762de80ebe): Assurez-vous que la diffusion de réunions fonctionnent en planifiant une diffusion de réunion Skype à *https://portal.broadcast.skype.com* et puis ayant une personne essaient de participer à la réunion.
+4. [Planifier une diffusion de réunion Skype](https://support.office.com/article/c3995bc9-4d32-4f75-a004-3bc5c477e553) et disposer d’une [diffusion de réunion Skype](https://support.office.com/article/14689da0-821d-48d4-9035-ea762de80ebe): Veillez à ce que la diffusion de réunion fonctionne en *https://portal.broadcast.skype.com* planifiant une diffusion de réunion Skype à partir de et en faisant en sorte que quelqu’un tente de participer à la réunion.
 
 ## <a name="learn-about-network-connectivity-requirements"></a>Autres informations relatives à la connectivité réseau
 <a name="bkmk_more"> </a>
@@ -162,7 +162,7 @@ La qualité de l'image, du son et du partage d'applications dans Skype Entrepris
 ## <a name="all-done-setting-up-getting-started-using-skype-for-business"></a>Vous avez terminé la configuration ? Prise en main de Skype Entreprise
 <a name="bkmk_more"> </a>
 
-[Skype pour formation d’entreprise](https://support.office.com/article/8a3491a3-c095-4718-80cf-cbbe4afe4eba): extraire cette liste de rubriques de formation pour aider à commencer rapidement !
+[Formation Skype entreprise](https://support.office.com/article/8a3491a3-c095-4718-80cf-cbbe4afe4eba): consultez cette liste des rubriques de formation pour vous initier rapidement.
 
 [Lancement d'une téléconférence avec Skype Entreprise](https://support.office.com/article/8dc8ac52-91ac-4db9-8672-11551fdaf997)
 

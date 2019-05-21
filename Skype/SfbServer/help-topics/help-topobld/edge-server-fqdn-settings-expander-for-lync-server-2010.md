@@ -5,39 +5,39 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.EdgeFqdnsSettingsExpander2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eb57268c-2419-4655-ace1-91cf871f25c7
-description: 'Pour définir les propriétés sous paramètres externes, configurez les options suivantes :'
-ms.openlocfilehash: 32ce06451d0cfe6aae5288ff4e6fdf32b7279724
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Pour définir les propriétés sous paramètres externes, configurez ce qui suit:'
+ms.openlocfilehash: 6b833e89a8e1288af9a203dd5f44201c253ff2f9
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926830"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34282595"
 ---
 # <a name="edge-server-fqdn-settings-expander-for-lync-server-2010"></a>Développeur des paramètres FQDN du serveur Edge pour Lync Server 2010
  
-Pour définir les propriétés sous **paramètres externes**, configurez les options suivantes :
+Pour définir les propriétés sous **paramètres externes**, configurez ce qui suit:
   
-Sélectionnez le **Activer distinct nom de domaine complet et l’adresse IP pour les conférences web et A / V** case à cocher si vous souhaitez définir distincts IP et nom complet du Pool des adresses pour la conférence web et audio/vidéo.
+Activez les cases à cocher **activer les nom de domaine complet et adresse IP pour les conférences Web et A/V** , si vous voulez définir un nom de domaine complet et des adresses IP distincts pour les conférences Web et les appels audio/vidéo.
   
 > [!NOTE]
-> Si vous choisissez de n’activez ne pas la case à cocher pour les adresses IP et le nom de domaine complet distinctes, vous devez fournir des ports distincts pour chacun des trois services fournis par le serveur Edge. Le seul nom de domaine complet qui consiste à configurer est le nom de domaine complet associé au service Edge d’accès. 
+> Si vous choisissez de ne pas activer la case à cocher pour les adresses IP et FQDN distinctes, vous devez fournir des ports distincts pour chacun des trois services fournis par le serveur Edge. Le seul nom de domaine complet à configurer est le FQDN associé au service Edge d’accès. 
   
-Sélectionnez le **A V Edge service / NAT activé** case à cocher si vous souhaitez A / adresse IP de traduction (NAT) et la configuration d’adresses service V Edge à utiliser un réseau.
+Activez la case à cocher **un service Edge a/v est compatible NAT** si vous souhaitez que le service Edge a/v utilise une configuration et une adresse IP de traduction d’adresses réseau (NAT).
   
-Pour les services Edge activés, vous tapez un **Nom complet du Pool** et un port sous **Ports**
+Pour les services Edge activés, vous tapez un **nom de domaine complet (FQDN) de pool** et un port sous **ports** .
   
-- Définir le nom complet du Pool de **service Edge d’accès** et un port qui identifie le service.
+- Définissez le nom de domaine complet du pool de **services Edge d’accès** et un port qui identifie de manière unique le service.
     
-- Définir le nom complet du Pool de **service Edge de conférence Web** (si activer de séparer le nom de domaine complet et l’adresse IP pour les conférences web et A / V n’est pas sélectionnée) et un port qui identifie le service.
+- Définissez le nom de domaine complet (FQDN) du pool de **services de conférence Web** (si vous ne sélectionnez pas d’adresse IP et de FQDN séparés pour les conférences Web et si a/V n’est pas sélectionné) et un port qui identifie de manière unique le service.
     
-- Définir le **A / V Edge service** nom complet du Pool (si activer de séparer le nom de domaine complet et l’adresse IP pour les conférences web et A / V n’est pas sélectionnée) et un port qui identifie de manière unique le service.
+- Définissez le nom de domaine complet (FQDN) du pool **de services A/v** (si vous ne sélectionnez pas d’adresse IP et de FQDN séparés pour les conférences Web et si a/V n’est pas sélectionné) et un port qui identifie de manière unique le service.
     
   **OK** : permet d’accepter et de valider les modifications de la boîte de dialogue.
   

@@ -8,85 +8,85 @@ mtps_version: v=OCS.15
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Découvrez comment gérer et configurer des domaines SIP que vous pouvez vous fédérer avec,
-ms.openlocfilehash: aa793c5380c4baaa18876bfa2e2891a8260670dd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Découvrez comment gérer et configurer des domaines SIP avec lesquels vous pouvez être fédérer.
+ms.openlocfilehash: 1a2f76f7f465401bae04b4defa2e0a1f5300ab0f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33903172"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34303969"
 ---
-# <a name="manage-sip-federated-domains-for-your-organization-in-skype-for-business-server"></a>Gestion des domaines fédérés SIP de votre organisation dans Skype pour Business Server
+# <a name="manage-sip-federated-domains-for-your-organization-in-skype-for-business-server"></a>Gestion des domaines fédérés SIP pour votre organisation dans Skype entreprise Server
 
 
-Pour gérer et configurer des domaines SIP que vous pouvez vous fédérer avec, vous pouvez effectuer des opérations suivantes :
+Pour gérer et configurer des domaines SIP avec lesquels vous êtes fédérer, vous pouvez procéder comme suit:
 
   - Créer ou modifier une liste de domaines autorisés de domaines partenaires fédérés SIP.
 
-  - Créer ou modifier une liste des domaines bloqués de domaines fédérés SIP.
+  - Créez ou modifiez la liste des domaines bloqués des domaines fédérés SIP.
 
-## <a name="configure-support-for-allowed-external-domains-in-skype-for-business-server"></a>Configurer la prise en charge pour les domaines externes autorisés dans Skype pour Business Server
+## <a name="configure-support-for-allowed-external-domains-in-skype-for-business-server"></a>Configuration de la prise en charge des domaines externes autorisés dans Skype entreprise Server
 
-Si vous avez configuré la prise en charge pour les partenaires fédérés, vous pouvez gérer les domaines peuvent être fédéré avec votre organisation. Vous configurez un ou plusieurs domaines externes spécifiques en tant que domaines fédérés autorisés. Pour ce faire, ajoutez chaque domaine à la liste des domaines autorisés. Même si la détection des partenaires est activée pour votre organisation, procéder ainsi si le domaine est un partenaire fédéré que pour communiquer avec plus de 1 000 utilisateurs ou devront peut-être envoyer plus de 20 messages par seconde. Si la découverte de partenaire n’est pas activée pour votre organisation, seuls les utilisateurs des domaines externes que vous ajoutez à la liste des domaines autorisés peuvent participer par messagerie instantanée et de conférence avec des utilisateurs dans votre organisation. Si vous souhaitez restreindre l’accès pour un domaine fédéré à un serveur spécifique exécutant le service Edge d’accès du partenaire fédéré, vous pouvez spécifier le nom de domaine du serveur exécutant le service Edge d’accès pour chaque domaine dans la liste des domaines autorisés.
+Si vous avez configuré la prise en charge des partenaires fédérés, vous pouvez gérer les domaines spécifiques qu’il est possible de fédérer avec votre organisation. Vous pouvez configurer un ou plusieurs domaines externes spécifiques en tant que domaines fédérés autorisés. Pour ce faire, ajoutez chaque domaine à la liste des domaines autorisés. Même si la découverte des partenaires est activée pour votre organisation, procédez comme suit si le domaine est un partenaire fédéré qui peut avoir besoin de communiquer avec plus de 1 000 ou si vous avez besoin d’envoyer plus de 20 messages par seconde. Si la découverte de partenaire n’est pas activée pour votre organisation, seuls les utilisateurs de domaines externes que vous ajoutez à la liste des domaines autorisés peuvent participer à la messagerie instantanée et à la Conférence avec les utilisateurs de votre organisation. Si vous souhaitez limiter l’accès d’un domaine fédéré à un serveur spécifique exécutant le service Edge d’accès du partenaire fédéré, vous pouvez spécifier le nom de domaine du serveur exécutant le service Edge d’accès pour chaque domaine dans la liste des domaines autorisés.
 
 > [!NOTE]  
-> Cette procédure explique comment configurer la prise en charge pour des domaines spécifiques, mais l’implémentation de la prise en charge pour les utilisateurs fédérés également nécessite activer la prise en charge pour les utilisateurs fédérés pour votre organisation et de configurer et de contrôle, les utilisateurs peuvent appliquer des stratégies collaborer avec des utilisateurs fédérés. Pour plus d’informations sur l’activation de la prise en charge pour les utilisateurs fédérés, voir [Activer ou désactiver l’accès des utilisateurs distants](../access-edge/enable-or-disable-remote-user-access.md). Pour plus d’informations sur la configuration des stratégies de contrôle de fédération, voir [configurer les stratégies de contrôle des accès des utilisateurs fédérés](../external-access-policies/configure-policies-to-control-federated-user-access.md).
+> Cette procédure vous explique comment configurer la prise en charge des domaines spécifiques, mais que l’implémentation de la prise en charge des utilisateurs fédérés nécessite également l’activation de la prise en charge des utilisateurs fédérés pour votre organisation et la configuration et l’application de stratégies pour contrôler les utilisateurs qui peuvent collaborer avec des utilisateurs fédérés. Pour plus d’informations sur l’activation de la prise en charge des utilisateurs fédérés, voir [activer ou désactiver l’accès des utilisateurs](../access-edge/enable-or-disable-remote-user-access.md)distants. Pour plus d’informations sur la configuration des stratégies pour contrôler la Fédération, voir [configurer des stratégies pour contrôler l’accès des utilisateurs fédérés](../external-access-policies/configure-policies-to-control-federated-user-access.md).
 
 ### <a name="to-add-an-external-domain-to-the-list-of-allowed-domains"></a>Pour ajouter un domaine externe à la liste des domaines autorisés
 
-1.  À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou est affecté au rôle CsAdministrator, ouvrez une session sur n’importe quel ordinateur dans votre déploiement interne.
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business. 
-3.  Dans la barre de navigation de gauche, cliquez sur **Accès des utilisateurs externes**, puis cliquez sur **Domaines fédérés**.
-4.  Dans la page **Domaines fédérés** , cliquez sur **Nouveau**, puis cliquez sur **domaine autorisé**.
-5.  Dans les **Nouveaux domaines fédérés**, procédez comme suit :
+1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affectées au rôle CsAdministrator, connectez-vous à n’importe quel ordinateur dans votre déploiement interne.
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration Skype entreprise Server. 
+3.  Dans la barre de navigation de gauche, cliquez sur **accès utilisateur externe**, puis sur **domaines fédérés**.
+4.  Sur la page **domaines fédérés** , cliquez sur **nouveau**, puis cliquez sur **domaine autorisé**.
+5.  Dans **nouveaux domaines fédérés**, procédez comme suit:
     
-      - Dans **nom de domaine (ou le nom de domaine complet)**, tapez le nom de domaine du partenaire fédéré.       
+      - Dans **nom de domaine (ou nom de domaine complet)**, tapez le nom du domaine du partenaire fédéré.       
 
         > [!NOTE]  
-        > Ce nom doit être unique et ne peut pas déjà exister en tant qu’un domaine autorisé pour ce serveur qui exécute le service Edge d’accès. Le nom ne peut pas dépasser 256 caractères.<BR><br>La recherche sur le nom de domaine du partenaire fédéré effectue une correspondance de suffixe. Par exemple, si vous tapez **contoso.com**, la recherche renverra également domaine **it.contoso.com**.<BR><br>Un domaine de partenaire fédéré simultanément ne peut pas être bloqué et autorisé. Skype pour Business Server les empêche de se produire afin que vous n’avez pas vos listes de synchronisation.
+        > Ce nom doit être unique et ne peut pas déjà exister en tant que domaine autorisé pour ce serveur exécutant le service Edge d’accès. Le nom ne peut pas contenir plus de 256 caractères.<BR><br>La recherche du nom de domaine du partenaire fédéré effectue une correspondance de suffixe. Par exemple, si vous tapez **contoso.com**, la recherche renverra également le domaine **it.contoso.com**.<BR><br>Un domaine de partenaire fédéré ne peut pas être bloqué et autorisé simultanément. Skype entreprise Server empêche cela d’avoir lieu de sorte que vous n’ayez pas à synchroniser vos listes.
     
-      - Si vous souhaitez restreindre l’accès de ce domaine fédéré pour les utilisateurs d’un serveur spécifique exécutant le service Edge d’accès, dans **le service Edge d’accès (FQDN)**, tapez le nom de domaine complet du serveur du domaine fédéré qui exécute le service Edge d’accès.    
-      - Si vous souhaitez fournir des informations supplémentaires, dans **commentaire**, tapez les informations que vous souhaitez partager avec d’autres administrateurs système sur cette configuration.
+      - Si vous voulez limiter l’accès à ce domaine fédéré aux utilisateurs d’un serveur spécifique exécutant le service Edge d’accès (FQDN), tapez le nom de domaine complet **(FQDN)** du serveur du domaine fédéré exécutant le service Edge d’accès.    
+      - Si vous voulez fournir des informations supplémentaires, dans **commenter**, tapez les informations que vous voulez partager avec d’autres administrateurs système sur cette configuration.
 
 6.  Cliquez sur **Valider**.
-7.  Répétez les étapes 4 à 6 pour chaque domaine de partenaire fédéré que vous souhaitez autoriser.
+7.  Répétez les étapes 4 à 6 pour chaque domaine partenaire fédéré que vous souhaitez autoriser.
 
-Pour activer l’accès des utilisateurs fédérés, vous devez également activer la prise en charge pour l’accès des utilisateurs fédérés dans votre organisation. Pour plus d’informations, voir [Activer ou désactiver l’accès des utilisateurs distants](../access-edge/enable-or-disable-remote-user-access.md).
+Pour autoriser l’accès des utilisateurs fédérés, vous devez également activer la prise en charge de l’accès des utilisateurs fédérés au sein de votre organisation. Pour plus d’informations, voir [activer ou désactiver l’accès des utilisateurs](../access-edge/enable-or-disable-remote-user-access.md)distants.
 
-En outre, vous devez configurer et appliquer la stratégie aux utilisateurs que vous souhaitez être en mesure de collaborer avec des utilisateurs fédérés. Pour plus d’informations, voir [configurer les stratégies de contrôle des accès des utilisateurs fédérés](../external-access-policies/configure-policies-to-control-federated-user-access.md).
+Par ailleurs, vous devez configurer et appliquer la stratégie aux utilisateurs que vous souhaitez pouvoir collaborer avec des utilisateurs fédérés. Pour plus d’informations, reportez-vous à la rubrique [Configuration des stratégies pour contrôler l’accès des utilisateurs fédérés](../external-access-policies/configure-policies-to-control-federated-user-access.md)
 
-## <a name="configure-support-for-blocked-external-domains-in-skype-for-business-server"></a>Configurer la prise en charge pour les domaines externes bloqués dans Skype pour Business Server 
+## <a name="configure-support-for-blocked-external-domains-in-skype-for-business-server"></a>Configurer la prise en charge des domaines externes bloqués dans Skype entreprise Server 
 
-Si vous avez configuré la prise en charge pour les partenaires fédérés, vous pouvez gérer les domaines qui seront bloquées de se fédérer avec votre organisation. La liste des domaines bloqués agira comme une liste d’interdiction (liste des entrées explicites qui ne sont ne pas autorisés) et sera appliquée dans la découverte des domaines fédérés, si cette option est activée. Pour plus d’informations, voir [Activer ou désactiver la découverte des partenaires de fédération](../access-edge/enable-or-disable-discovery-of-federation-partners.md).
+Si vous avez configuré la prise en charge des partenaires fédérés, vous pouvez gérer les domaines qui seront bloqués par votre organisation. Si cette option est activée, la liste des domaines bloqués fera office de liste de blocage (liste d’entrées explicites qui ne seront pas autorisées) et sera appliquée dans découverte de domaine fédéré. Pour plus d’informations, voir [activer ou désactiver la découverte des partenaires de Fédération](../access-edge/enable-or-disable-discovery-of-federation-partners.md).
 
-Bloquer un ou plusieurs domaines externes de se connecter à votre organisation. Pour ce faire, ajoutez le domaine à la liste des domaines bloqués.
+Bloquer un ou plusieurs domaines externes pour vous connecter à votre organisation. Pour ce faire, ajoutez le domaine à la liste des domaines bloqués.
 
 
 ### <a name="to-add-an-external-domain-to-the-list-of-blocked-domains"></a>Pour ajouter un domaine externe à la liste des domaines bloqués
 
-1.  À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou est affecté au rôle CsAdministrator, ouvrez une session sur n’importe quel ordinateur dans votre déploiement interne.
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business. 
-3.  Dans la barre de navigation de gauche, cliquez sur **Accès des utilisateurs externes**.
-4.  Cliquez sur **Domaines fédérés**, cliquez sur **Nouveau**, puis cliquez sur **domaine bloqué**.
-5.  Dans les **Nouveaux domaines fédérés**, procédez comme suit :
+1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affectées au rôle CsAdministrator, connectez-vous à n’importe quel ordinateur dans votre déploiement interne.
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration Skype entreprise Server. 
+3.  Dans la barre de navigation de gauche, cliquez sur **accès des utilisateurs externes**.
+4.  Cliquez sur **domaines fédérés**, sur **nouveau**, puis sur **domaine bloqué**.
+5.  Dans **nouveaux domaines fédérés**, procédez comme suit:
     
-      - Dans **nom de domaine (ou le nom de domaine complet)**, tapez le nom de domaine du partenaire fédéré que vous souhaitez bloquer.
+      - Dans **nom de domaine (ou nom de domaine complet)**, tapez le nom du domaine de partenaire fédéré que vous souhaitez bloquer.
 
         > [!NOTE]  
-        > Le nom ne peut pas dépasser 256 caractères.<BR><br>La recherche sur le nom de domaine du partenaire fédéré effectue une correspondance de suffixe. Par exemple, si vous tapez **contoso.com**, la recherche renverra également domaine **it.contoso.com**.<BR><br>Un domaine de partenaire fédéré simultanément ne peut pas être bloqué et autorisé. Skype pour Business Server les empêche de se produire afin que vous n’avez pas vos listes de synchronisation.
+        > Le nom ne peut pas contenir plus de 256 caractères.<BR><br>La recherche du nom de domaine du partenaire fédéré effectue une correspondance de suffixe. Par exemple, si vous tapez **contoso.com**, la recherche renverra également le domaine **it.contoso.com**.<BR><br>Un domaine de partenaire fédéré ne peut pas être bloqué et autorisé simultanément. Skype entreprise Server empêche cela d’avoir lieu de sorte que vous n’ayez pas à synchroniser vos listes.
    
-      - (Facultatif) Dans la zone **commentaire**, tapez les informations que vous souhaitez partager avec d’autres administrateurs système sur cette configuration.
+      - Facultatif Dans **Commentaire**, tapez les informations que vous voulez partager avec d’autres administrateurs système sur cette configuration.
 
 6.  Cliquez sur **Valider**.
 7.  Répétez les étapes 4 à 6 pour chaque partenaire fédéré que vous souhaitez bloquer.
 
-Pour activer l’accès des utilisateurs fédérés, vous devez également activer la prise en charge pour l’accès des utilisateurs fédérés dans votre organisation. Pour plus d’informations, voir [Activer ou désactiver l’accès des utilisateurs distants](../access-edge/enable-or-disable-remote-user-access.md).
+Pour autoriser l’accès des utilisateurs fédérés, vous devez également activer la prise en charge de l’accès des utilisateurs fédérés au sein de votre organisation. Pour plus d’informations, voir [activer ou désactiver l’accès des utilisateurs](../access-edge/enable-or-disable-remote-user-access.md)distants.
 
-En outre, vous devez configurer et appliquer la stratégie aux utilisateurs que vous souhaitez être en mesure de collaborer avec des utilisateurs fédérés. Pour plus d’informations, voir [configurer les stratégies de contrôle des accès des utilisateurs fédérés](../external-access-policies/configure-policies-to-control-federated-user-access.md).
+Par ailleurs, vous devez configurer et appliquer la stratégie aux utilisateurs que vous souhaitez pouvoir collaborer avec des utilisateurs fédérés. Pour plus d’informations, reportez-vous à la rubrique [Configuration des stratégies pour contrôler l’accès des utilisateurs fédérés](../external-access-policies/configure-policies-to-control-federated-user-access.md)
 
 
 ## <a name="see-also"></a>Voir aussi
