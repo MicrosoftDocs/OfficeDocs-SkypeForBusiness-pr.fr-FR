@@ -4,51 +4,51 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c8eeb387-dc1e-44e0-bbf9-a566f8bda551
-description: 'Résumé : Découvrez l’opération obtenir un Cube, qui fait partie de l’API de données pour le tableau de bord qualité des appels. Tableau de bord de qualité des appels est un outil de Skype pour Business Server.'
-ms.openlocfilehash: 3d6d1ceecb330219bdc563ca126bb13c49d1902b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Résumé: Découvrez l’opération obtenir le cube, qui fait partie de l’API de données du tableau de bord de qualité des appels. Le tableau de bord de qualité des appels est un outil pour Skype entreprise Server.'
+ms.openlocfilehash: 970187ce9f95700185ab09bd7aadf9045575b393
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33886879"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274771"
 ---
-# <a name="get-cube"></a><span data-ttu-id="844f9-104">Obtenir un cube</span><span class="sxs-lookup"><span data-stu-id="844f9-104">Get Cube</span></span>
+# <a name="get-cube"></a><span data-ttu-id="e6725-104">Obtenir un cube</span><span class="sxs-lookup"><span data-stu-id="e6725-104">Get Cube</span></span>
  
-<span data-ttu-id="844f9-105">**Résumé :** Obtenir des informations sur l’opération obtenir un Cube, qui fait partie de l’API de données pour le tableau de bord qualité des appels.</span><span class="sxs-lookup"><span data-stu-id="844f9-105">**Summary:** Learn about the Get Cube operation, which is part of the Data API for Call Quality Dashboard.</span></span> <span data-ttu-id="844f9-106">Tableau de bord de qualité des appels est un outil de Skype pour Business Server.</span><span class="sxs-lookup"><span data-stu-id="844f9-106">Call Quality Dashboard is a tool for Skype for Business Server.</span></span>
+<span data-ttu-id="e6725-105">**Résumé:** Apprenez-en davantage sur l’opération obtenir le cube, qui fait partie de l’API de données du tableau de bord de qualité des appels.</span><span class="sxs-lookup"><span data-stu-id="e6725-105">**Summary:** Learn about the Get Cube operation, which is part of the Data API for Call Quality Dashboard.</span></span> <span data-ttu-id="e6725-106">Le tableau de bord de qualité des appels est un outil pour Skype entreprise Server.</span><span class="sxs-lookup"><span data-stu-id="e6725-106">Call Quality Dashboard is a tool for Skype for Business Server.</span></span>
   
-<span data-ttu-id="844f9-107">L’opération obtenir le Cube fait partie de l’API de données pour le tableau de bord qualité des appels.</span><span class="sxs-lookup"><span data-stu-id="844f9-107">The Get Cube operation is part of the Data API for Call Quality Dashboard.</span></span>
+<span data-ttu-id="e6725-107">L’opération obtenir le cube fait partie de l’API de données du tableau de bord de qualité des appels.</span><span class="sxs-lookup"><span data-stu-id="e6725-107">The Get Cube operation is part of the Data API for Call Quality Dashboard.</span></span>
   
-## <a name="get-cube"></a><span data-ttu-id="844f9-108">Obtenir un cube</span><span class="sxs-lookup"><span data-stu-id="844f9-108">Get Cube</span></span>
+## <a name="get-cube"></a><span data-ttu-id="e6725-108">Obtenir un cube</span><span class="sxs-lookup"><span data-stu-id="e6725-108">Get Cube</span></span>
 
-<span data-ttu-id="844f9-109">Opération de Cube Get renvoie la liste des dimensions disponibles et des mesures.</span><span class="sxs-lookup"><span data-stu-id="844f9-109">Get Cube operation returns the list of available dimensions and measurements.</span></span>
+<span data-ttu-id="e6725-109">L’opération obtenir un cube renvoie la liste des dimensions et mesures disponibles.</span><span class="sxs-lookup"><span data-stu-id="e6725-109">Get Cube operation returns the list of available dimensions and measurements.</span></span>
   
 
-|<span data-ttu-id="844f9-110">**Méthode**</span><span class="sxs-lookup"><span data-stu-id="844f9-110">**Method**</span></span>|<span data-ttu-id="844f9-111">**URI de la demande**</span><span class="sxs-lookup"><span data-stu-id="844f9-111">**Request URI**</span></span>|<span data-ttu-id="844f9-112">**Version HTTP**</span><span class="sxs-lookup"><span data-stu-id="844f9-112">**HTTP Version**</span></span>|
+|<span data-ttu-id="e6725-110">**Méthode**</span><span class="sxs-lookup"><span data-stu-id="e6725-110">**Method**</span></span>|<span data-ttu-id="e6725-111">**URI de la requête**</span><span class="sxs-lookup"><span data-stu-id="e6725-111">**Request URI**</span></span>|<span data-ttu-id="e6725-112">**Version HTTP**</span><span class="sxs-lookup"><span data-stu-id="e6725-112">**HTTP Version**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="844f9-113">Avoir</span><span class="sxs-lookup"><span data-stu-id="844f9-113">GET</span></span>  <br/> |<span data-ttu-id="844f9-114">https://\<portal\>/QoEDataService/CubeStructure</span><span class="sxs-lookup"><span data-stu-id="844f9-114">https://\<portal\>/QoEDataService/CubeStructure</span></span>  <br/> |<span data-ttu-id="844f9-115">HTTP/1.1.</span><span class="sxs-lookup"><span data-stu-id="844f9-115">HTTP/1.1</span></span>  <br/> |
+|<span data-ttu-id="e6725-113">Télécharger</span><span class="sxs-lookup"><span data-stu-id="e6725-113">GET</span></span>  <br/> |<span data-ttu-id="e6725-114">https://\<Portal\>/QoEDataService/CubeStructure</span><span class="sxs-lookup"><span data-stu-id="e6725-114">https://\<portal\>/QoEDataService/CubeStructure</span></span>  <br/> |<span data-ttu-id="e6725-115">HTTP/1.1</span><span class="sxs-lookup"><span data-stu-id="e6725-115">HTTP/1.1</span></span>  <br/> |
    
- <span data-ttu-id="844f9-116">**Paramètres d’URI** - None.</span><span class="sxs-lookup"><span data-stu-id="844f9-116">**URI Parameters** - None.</span></span>
+ <span data-ttu-id="e6725-116">**Paramètres d’URI** -aucun.</span><span class="sxs-lookup"><span data-stu-id="e6725-116">**URI Parameters** - None.</span></span>
   
- <span data-ttu-id="844f9-117">**En-têtes de demande** - aucun en-tête supplémentaire.</span><span class="sxs-lookup"><span data-stu-id="844f9-117">**Request Headers** - No additional headers.</span></span>
+ <span data-ttu-id="e6725-117">**En-têtes de requête** -aucun en-tête supplémentaire.</span><span class="sxs-lookup"><span data-stu-id="e6725-117">**Request Headers** - No additional headers.</span></span>
   
- <span data-ttu-id="844f9-118">**Corps de requête** - None.</span><span class="sxs-lookup"><span data-stu-id="844f9-118">**Request Body** - None.</span></span>
+ <span data-ttu-id="e6725-118">Le corps de la **requête** .</span><span class="sxs-lookup"><span data-stu-id="e6725-118">**Request Body** - None.</span></span>
   
- <span data-ttu-id="844f9-119">**Réponse** - la réponse inclut un code d’état HTTP et un ensemble d’en-têtes de réponse.</span><span class="sxs-lookup"><span data-stu-id="844f9-119">**Response** - The response includes an HTTP status code and a set of response headers.</span></span>
+ <span data-ttu-id="e6725-119">**Réponse** : la réponse comprend un code d’État http et un ensemble d’en-têtes de réponse.</span><span class="sxs-lookup"><span data-stu-id="e6725-119">**Response** - The response includes an HTTP status code and a set of response headers.</span></span>
   
- <span data-ttu-id="844f9-120">**Code d’état** - une opération réussie retourne un code d’état 200 (OK).</span><span class="sxs-lookup"><span data-stu-id="844f9-120">**Status Code** - A successful operation returns status code 200 (OK).</span></span>
+ <span data-ttu-id="e6725-120">**Code d’État** -une opération réussie renvoie le code d’état 200 (OK).</span><span class="sxs-lookup"><span data-stu-id="e6725-120">**Status Code** - A successful operation returns status code 200 (OK).</span></span>
   
- <span data-ttu-id="844f9-121">**En-têtes de réponse** - aucun en-tête supplémentaire.</span><span class="sxs-lookup"><span data-stu-id="844f9-121">**Response Headers** - No additional headers.</span></span>
+ <span data-ttu-id="e6725-121">**En-têtes de réponse** : aucun en-tête supplémentaire.</span><span class="sxs-lookup"><span data-stu-id="e6725-121">**Response Headers** - No additional headers.</span></span>
   
- <span data-ttu-id="844f9-122">**Corps de réponse** - vous trouverez ci-dessous une charge utile d’exemple réponse au format JSON.</span><span class="sxs-lookup"><span data-stu-id="844f9-122">**Response Body** - Below is a sample response payload in JSON.</span></span>
+ <span data-ttu-id="e6725-122">Le corps de la **réponse** : Voici un exemple de charge utile de réponse dans JSON.</span><span class="sxs-lookup"><span data-stu-id="e6725-122">**Response Body** - Below is a sample response payload in JSON.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="844f9-123">Cet exemple affiche uniquement les deux premiers éléments de chaque groupes d’éléments de Cube.</span><span class="sxs-lookup"><span data-stu-id="844f9-123">This sample is only showing first two elements of each groups of Cube elements.</span></span> 
+> <span data-ttu-id="e6725-123">Cet exemple n’affiche que les deux premiers éléments de chaque groupe d’éléments cube.</span><span class="sxs-lookup"><span data-stu-id="e6725-123">This sample is only showing first two elements of each groups of Cube elements.</span></span> 
   
 ```
 {
@@ -91,10 +91,10 @@ ms.locfileid: "33886879"
 }
 ```
 
- <span data-ttu-id="844f9-124">*Indicateurs de performance clés* - en réservé.</span><span class="sxs-lookup"><span data-stu-id="844f9-124">*KPIs*  - Reserved.</span></span> <span data-ttu-id="844f9-125">La section des indicateurs de performance clés d’une charge utile de demande permet exécuter la requête renvoyer des valeurs pour les indicateurs de performance clés définis dans le cube.</span><span class="sxs-lookup"><span data-stu-id="844f9-125">The KPIs section of a request payload allows Run Query operation to return values for the KPIs defined in the cube.</span></span> <span data-ttu-id="844f9-126">Aucun indicateurs de performance clés n’existent encore dans le QoE Cube.</span><span class="sxs-lookup"><span data-stu-id="844f9-126">No KPIs exist in the QoE Cube yet.</span></span>
+ <span data-ttu-id="e6725-124">*KPI* -réservé.</span><span class="sxs-lookup"><span data-stu-id="e6725-124">*KPIs*  - Reserved.</span></span> <span data-ttu-id="e6725-125">La section KPI d’une charge utile de requête permet d’exécuter une requête afin de renvoyer des valeurs pour les indicateurs de performance clés définis dans le cube.</span><span class="sxs-lookup"><span data-stu-id="e6725-125">The KPIs section of a request payload allows Run Query operation to return values for the KPIs defined in the cube.</span></span> <span data-ttu-id="e6725-126">Aucun KPI n’existe encore dans le cube QoE.</span><span class="sxs-lookup"><span data-stu-id="e6725-126">No KPIs exist in the QoE Cube yet.</span></span>
   
- <span data-ttu-id="844f9-127">*Dimensions* - la liste des dimensions qui peut être utilisé dans les sections de filtres et les Dimensions d’une charge utile de demande pour l’opération d’exécuter la requête.</span><span class="sxs-lookup"><span data-stu-id="844f9-127">*Dimensions*  - The list of dimensions that may be used in Filters and Dimensions sections of a request payload for Run Query operation.</span></span> <span data-ttu-id="844f9-128">Pour utiliser une dimension dans une expression de filtre, vous devez spécifier un membre de dimension, qui peut être obtenu à l’aide d’opération obtenir les membres de Dimension.</span><span class="sxs-lookup"><span data-stu-id="844f9-128">To use a dimension in a filter expression, you need to specify a dimension member, which can be obtained using Get Dimension Members operation.</span></span>
+ <span data-ttu-id="e6725-127">*Dimensions* : liste des dimensions pouvant être utilisées dans les sections filtres et axes d’une charge utile de requête pour une opération d’exécution de requête.</span><span class="sxs-lookup"><span data-stu-id="e6725-127">*Dimensions*  - The list of dimensions that may be used in Filters and Dimensions sections of a request payload for Run Query operation.</span></span> <span data-ttu-id="e6725-128">Pour utiliser une dimension dans une expression de filtre, vous devez spécifier un membre de dimension, qui peut être obtenu à l’aide de l’opération obtenir les membres de la dimension.</span><span class="sxs-lookup"><span data-stu-id="e6725-128">To use a dimension in a filter expression, you need to specify a dimension member, which can be obtained using Get Dimension Members operation.</span></span>
   
- <span data-ttu-id="844f9-129">*Des mesures* - la liste des mesures pouvant être utilisées dans la section mesures d’une charge utile de demande pour l’opération d’exécuter la requête.</span><span class="sxs-lookup"><span data-stu-id="844f9-129">*Measurements*  - The list of measurements that may be used in Measurements section of a request payload for Run Query operation.</span></span>
+ <span data-ttu-id="e6725-129">*Mesures* : liste des mesures qui pourraient être utilisées dans la section mesures d’une charge utile de requête pour une opération d’exécution de requête.</span><span class="sxs-lookup"><span data-stu-id="e6725-129">*Measurements*  - The list of measurements that may be used in Measurements section of a request payload for Run Query operation.</span></span>
   
 
