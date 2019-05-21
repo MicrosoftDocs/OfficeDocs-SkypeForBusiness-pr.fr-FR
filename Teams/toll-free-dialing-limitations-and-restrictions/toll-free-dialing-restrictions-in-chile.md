@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -22,34 +22,34 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: Cela vous permettra de savoir comment composer des numéros gratuits dans chaque pays/région. Une fois que vous sélectionnez la pays/région, il vous dirige vers une page spécifique qui contient des détails plus spécifiques, les restrictions et les limites de la disponibilité du service gratuit où service gratuit est disponible. Le format de numérotation ou formats affichera les codes d’accès requis dans chaque pays/région de composer le numéro d’appel gratuit.
-ms.openlocfilehash: d0139f5b4dd78578ec36431438565a463990ad0a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Vous pourrez ainsi découvrir comment composer un numéro gratuit dans chaque pays ou région. Lorsque vous sélectionnez le pays ou la région, vous êtes dirigé vers une page qui contient des détails, restrictions et limites spécifiques pour la disponibilité du service gratuit où le service gratuit est disponible. Le ou les formats de numérotation vous montrent les codes d’accès requis au sein de chaque pays/région pour composer le numéro gratuit.
+ms.openlocfilehash: 68c1e982e99d9ee32f90e9a17981e79c89b5303c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204374"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34300824"
 ---
-# <a name="toll-free-dialing-restrictions-in-chile"></a><span data-ttu-id="22269-105">Restrictions de numérotation gratuit au Chili</span><span class="sxs-lookup"><span data-stu-id="22269-105">Toll-free dialing restrictions in Chile</span></span>
+# <a name="toll-free-dialing-restrictions-in-chile"></a><span data-ttu-id="89ae8-105">Restrictions de numérotation gratuit au Chili</span><span class="sxs-lookup"><span data-stu-id="89ae8-105">Toll-free dialing restrictions in Chile</span></span>
 
-<span data-ttu-id="22269-106">[Trouver un autre pays ou région](../toll-free-dialing-limitations-and-restrictions.md), ou en savoir plus sur les restrictions et les limitations de composer le numéro gratuit.</span><span class="sxs-lookup"><span data-stu-id="22269-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
+<span data-ttu-id="89ae8-106">[Recherchez un autre pays ou une autre région](../toll-free-dialing-limitations-and-restrictions.md)ou en savoir plus sur les limitations et restrictions de numérotation sans frais.</span><span class="sxs-lookup"><span data-stu-id="89ae8-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
 
 
-|<span data-ttu-id="22269-107">**Détails**</span><span class="sxs-lookup"><span data-stu-id="22269-107">**Details**</span></span>|<span data-ttu-id="22269-108">**Description**</span><span class="sxs-lookup"><span data-stu-id="22269-108">**Description**</span></span>|
+|<span data-ttu-id="89ae8-107">**Détails**</span><span class="sxs-lookup"><span data-stu-id="89ae8-107">**Details**</span></span>|<span data-ttu-id="89ae8-108">**Description**</span><span class="sxs-lookup"><span data-stu-id="89ae8-108">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="22269-109">Est gratuit appelant disponibles ?</span><span class="sxs-lookup"><span data-stu-id="22269-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="22269-110">Oui</span><span class="sxs-lookup"><span data-stu-id="22269-110">Yes</span></span>  <br/> |
-|<span data-ttu-id="22269-111">Formats de numérotation</span><span class="sxs-lookup"><span data-stu-id="22269-111">Dialing format(s)</span></span>  <br/> | <span data-ttu-id="22269-112">123 XXXX XXXX</span><span class="sxs-lookup"><span data-stu-id="22269-112">123 XXXX XXXX</span></span> <br/>  <span data-ttu-id="22269-113">188 800 XXX XXX</span><span class="sxs-lookup"><span data-stu-id="22269-113">188 800 XXX XXX</span></span> <br/> |
-|<span data-ttu-id="22269-114">Code de pays/région ISO</span><span class="sxs-lookup"><span data-stu-id="22269-114">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="22269-115">CL</span><span class="sxs-lookup"><span data-stu-id="22269-115">CL</span></span>  <br/> |
-|<span data-ttu-id="22269-116">Île/territoire couvert</span><span class="sxs-lookup"><span data-stu-id="22269-116">Island/territory covered</span></span>  <br/> |<span data-ttu-id="22269-117">Non applicable</span><span class="sxs-lookup"><span data-stu-id="22269-117">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="22269-118">Île/territoire non couvert</span><span class="sxs-lookup"><span data-stu-id="22269-118">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="22269-119">Pas d'accès depuis l'Île de Pâques.</span><span class="sxs-lookup"><span data-stu-id="22269-119">No access from Easter Islands.</span></span>  <br/> |
-|<span data-ttu-id="22269-120">Disponibilité de la ligne filaire/fixe</span><span class="sxs-lookup"><span data-stu-id="22269-120">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="22269-121">Partiel.</span><span class="sxs-lookup"><span data-stu-id="22269-121">Partial.</span></span> <span data-ttu-id="22269-122">Voir les commentaires.</span><span class="sxs-lookup"><span data-stu-id="22269-122">See comments.</span></span>  <br/> |
-|<span data-ttu-id="22269-123">Disponibilité de réseau mobile</span><span class="sxs-lookup"><span data-stu-id="22269-123">Mobile network availability</span></span>  <br/> |<span data-ttu-id="22269-124">Partiel.</span><span class="sxs-lookup"><span data-stu-id="22269-124">Partial.</span></span> <span data-ttu-id="22269-125">Voir les commentaires.</span><span class="sxs-lookup"><span data-stu-id="22269-125">See comments.</span></span>  <br/> |
-|<span data-ttu-id="22269-126">Commentaires, les restrictions et les problèmes d’accès</span><span class="sxs-lookup"><span data-stu-id="22269-126">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="22269-127">Le format de numéro 188 800 XXX XXX est accessible via le réseau Telefonica.</span><span class="sxs-lookup"><span data-stu-id="22269-127">The 188 800 XXX XXX number format is accessible from the Telefonica network.</span></span> <span data-ttu-id="22269-128">Le format de nombre 123 XXXX XXXX est accessible à partir du réseau Entel uniquement.</span><span class="sxs-lookup"><span data-stu-id="22269-128">The 123 XXXX XXXX number format is accessible from Entel network only.</span></span> <span data-ttu-id="22269-129">L'accès mobile est accessible via les deux formats de numéro.</span><span class="sxs-lookup"><span data-stu-id="22269-129">Mobile access is accessible for both number formats.</span></span>  <br/> |
+|<span data-ttu-id="89ae8-109">Est-ce que l’appel gratuit est disponible?</span><span class="sxs-lookup"><span data-stu-id="89ae8-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="89ae8-110">Oui</span><span class="sxs-lookup"><span data-stu-id="89ae8-110">Yes</span></span>  <br/> |
+|<span data-ttu-id="89ae8-111">Format (s) de numérotation</span><span class="sxs-lookup"><span data-stu-id="89ae8-111">Dialing format(s)</span></span>  <br/> | <span data-ttu-id="89ae8-112">123 XXXX XXXX</span><span class="sxs-lookup"><span data-stu-id="89ae8-112">123 XXXX XXXX</span></span> <br/>  <span data-ttu-id="89ae8-113">188 800 XXX XXX</span><span class="sxs-lookup"><span data-stu-id="89ae8-113">188 800 XXX XXX</span></span> <br/> |
+|<span data-ttu-id="89ae8-114">Code ISO pays/région</span><span class="sxs-lookup"><span data-stu-id="89ae8-114">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="89ae8-115">CL</span><span class="sxs-lookup"><span data-stu-id="89ae8-115">CL</span></span>  <br/> |
+|<span data-ttu-id="89ae8-116">Île/territoire couvert</span><span class="sxs-lookup"><span data-stu-id="89ae8-116">Island/territory covered</span></span>  <br/> |<span data-ttu-id="89ae8-117">Non applicable</span><span class="sxs-lookup"><span data-stu-id="89ae8-117">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="89ae8-118">Île/territoire non couvert</span><span class="sxs-lookup"><span data-stu-id="89ae8-118">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="89ae8-119">Pas d'accès depuis l'Île de Pâques.</span><span class="sxs-lookup"><span data-stu-id="89ae8-119">No access from Easter Islands.</span></span>  <br/> |
+|<span data-ttu-id="89ae8-120">Disponibilité de ligne filaire/fixe</span><span class="sxs-lookup"><span data-stu-id="89ae8-120">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="89ae8-121">Partiel.</span><span class="sxs-lookup"><span data-stu-id="89ae8-121">Partial.</span></span> <span data-ttu-id="89ae8-122">Voir les commentaires.</span><span class="sxs-lookup"><span data-stu-id="89ae8-122">See comments.</span></span>  <br/> |
+|<span data-ttu-id="89ae8-123">Disponibilité de réseau mobile</span><span class="sxs-lookup"><span data-stu-id="89ae8-123">Mobile network availability</span></span>  <br/> |<span data-ttu-id="89ae8-124">Partiel.</span><span class="sxs-lookup"><span data-stu-id="89ae8-124">Partial.</span></span> <span data-ttu-id="89ae8-125">Voir les commentaires.</span><span class="sxs-lookup"><span data-stu-id="89ae8-125">See comments.</span></span>  <br/> |
+|<span data-ttu-id="89ae8-126">Commentaires, restrictions et problèmes d’accès</span><span class="sxs-lookup"><span data-stu-id="89ae8-126">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="89ae8-127">Le format de numéro 188 800 XXX XXX est accessible via le réseau Telefonica.</span><span class="sxs-lookup"><span data-stu-id="89ae8-127">The 188 800 XXX XXX number format is accessible from the Telefonica network.</span></span> <span data-ttu-id="89ae8-128">Le format de nombre 123 XXXX XXXX est accessible à partir du réseau enTel uniquement.</span><span class="sxs-lookup"><span data-stu-id="89ae8-128">The 123 XXXX XXXX number format is accessible from Entel network only.</span></span> <span data-ttu-id="89ae8-129">L'accès mobile est accessible via les deux formats de numéro.</span><span class="sxs-lookup"><span data-stu-id="89ae8-129">Mobile access is accessible for both number formats.</span></span>  <br/> |
    
-## <a name="related-topics"></a><span data-ttu-id="22269-130">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="22269-130">Related topics</span></span>
-[<span data-ttu-id="22269-131">Limitations et restrictions concernant la composition de numéros verts</span><span class="sxs-lookup"><span data-stu-id="22269-131">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
+## <a name="related-topics"></a><span data-ttu-id="89ae8-130">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="89ae8-130">Related topics</span></span>
+[<span data-ttu-id="89ae8-131">Limitations et restrictions concernant la composition de numéros verts</span><span class="sxs-lookup"><span data-stu-id="89ae8-131">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
 
-[<span data-ttu-id="22269-132">Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="22269-132">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
+[<span data-ttu-id="89ae8-132">Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="89ae8-132">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
 
   
  

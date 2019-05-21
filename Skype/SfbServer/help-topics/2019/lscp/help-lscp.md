@@ -3,24 +3,24 @@ title: Help-LSCP
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
-ms.date: 1/1/1900
-manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
+manager: serdars
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d90fce21-d7ff-4a9a-bc20-68021a37dca4
-description: Rubriques du Panneau de configuration de contrôle
-ms.openlocfilehash: 575f375cf4e381405ae1e9aa1660352b0501b788
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ROBOTS: NOINDEX, NOFOLLOW
+description: Rubriques sur le panneau de configuration
+ms.openlocfilehash: 767e80620692fc4e0a0614e85eda469b31874595
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33891914"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34300592"
 ---
-# <a name="help-lscp"></a><span data-ttu-id="d3051-103">Help-LSCP</span><span class="sxs-lookup"><span data-stu-id="d3051-103">Help-LSCP</span></span>
+# <a name="help-lscp"></a><span data-ttu-id="55834-103">Help-LSCP</span><span class="sxs-lookup"><span data-stu-id="55834-103">Help-LSCP</span></span>
  
-<span data-ttu-id="d3051-104">Les rubriques de ce nœud fournissent de l’aide pour le Skype pour le panneau de configuration serveur Business.</span><span class="sxs-lookup"><span data-stu-id="d3051-104">The topics in this node provide help for the Skype for Business Server Control Panel.</span></span>
+<span data-ttu-id="55834-104">Les rubriques de ce nud fournissent de l’aide pour le panneau de configuration Skype entreprise Server.</span><span class="sxs-lookup"><span data-stu-id="55834-104">The topics in this node provide help for the Skype for Business Server Control Panel.</span></span>
   
 
 

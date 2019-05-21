@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AddEdgeServerInternalIpPage
@@ -13,17 +13,17 @@ localization_priority: Normal
 ms.assetid: 13485e9d-190e-4ece-b997-1cbf45aae77c
 ROBOTS: NOINDEX, NOFOLLOW
 description: L’adresse IP interne est l’adresse IP de l’interface interne du serveur Edge.
-ms.openlocfilehash: 237ca4e6c37e746c0f364223156abced2f08ed84
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: be2f0dcaa4c05387fd84348c5e8e10a6708e14fa
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33889072"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34303745"
 ---
-# <a name="add-edge-server-internal-ip"></a><span data-ttu-id="f6b22-103">Ajouter l’adresse IP interne du serveur Edge</span><span class="sxs-lookup"><span data-stu-id="f6b22-103">Add Edge Server Internal IP</span></span>
+# <a name="add-edge-server-internal-ip"></a><span data-ttu-id="bdc92-103">Ajouter l’adresse IP interne du serveur Edge</span><span class="sxs-lookup"><span data-stu-id="bdc92-103">Add Edge Server Internal IP</span></span>
 
-<span data-ttu-id="f6b22-104">L’adresse IP interne est l’adresse IP de l’interface interne du serveur Edge.</span><span class="sxs-lookup"><span data-stu-id="f6b22-104">The internal IP address is the IP address of the internal interface of the Edge Server.</span></span>
+<span data-ttu-id="bdc92-104">L’adresse IP interne est l’adresse IP de l’interface interne du serveur Edge.</span><span class="sxs-lookup"><span data-stu-id="bdc92-104">The internal IP address is the IP address of the internal interface of the Edge Server.</span></span>
 
-<span data-ttu-id="f6b22-p101">Vous pouvez ajouter la prise en charge de l’accès des utilisateurs externes lors du déploiement initial de la topologie ou par la suite. Pour plus d’informations sur l’ajout de serveurs Edge à une topologie existante, reportez-vous à la rubrique [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx) de la documentation de déploiement des serveurs Edge.</span><span class="sxs-lookup"><span data-stu-id="f6b22-p101">You can add support for external user access when you deploy your initial topology or afterward. For details about adding Edge Servers to an existing topology, see [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx) in the Edge Server Deployment documentation.</span></span>
+<span data-ttu-id="bdc92-p101">Vous pouvez ajouter la prise en charge de l’accès des utilisateurs externes lors du déploiement initial de la topologie ou par la suite. Pour plus d’informations sur l’ajout de serveurs Edge à une topologie existante, reportez-vous à la rubrique [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx) de la documentation de déploiement des serveurs Edge.</span><span class="sxs-lookup"><span data-stu-id="bdc92-p101">You can add support for external user access when you deploy your initial topology or afterward. For details about adding Edge Servers to an existing topology, see [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx) in the Edge Server Deployment documentation.</span></span>
 
 
