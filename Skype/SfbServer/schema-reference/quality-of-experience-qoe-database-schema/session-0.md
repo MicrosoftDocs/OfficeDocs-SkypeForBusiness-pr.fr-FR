@@ -1,51 +1,51 @@
 ---
-title: Affichage de la session
+title: Affichage de session
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 10/20/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49e33f5b-45d0-4146-a5a4-76954d895a98
-description: L’affichage de la Session stocke des informations sur les sessions disposant d’enregistrements dans la base de données. Cet affichage a été introduit dans Microsoft Lync Server 2013.
-ms.openlocfilehash: e30bdb31457e9e70984b66bef75c898cadd9aeb1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Le mode session stocke les informations sur les sessions contenant des enregistrements dans la base de données. Cet affichage a été présenté dans Microsoft Lync Server 2013.
+ms.openlocfilehash: b24afdff32b5223725aa4f8ff0b7d875199713c7
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919997"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34294683"
 ---
-# <a name="session-view"></a>Affichage de la session
+# <a name="session-view"></a>Affichage de session
  
-L’affichage de la Session stocke des informations sur les sessions disposant d’enregistrements dans la base de données. Cet affichage a été introduit dans Microsoft Lync Server 2013.
+Le mode session stocke les informations sur les sessions contenant des enregistrements dans la base de données. Cet affichage a été présenté dans Microsoft Lync Server 2013.
   
 |**Colonne**|**Type de données**|**Détails**|
 |:-----|:-----|:-----|
-|Paramètre ConferenceDateTime  <br/> |DateHeure  <br/> |Référencé depuis la MediaLine Table.  <br/> |
-|ConferenceURI  <br/> |nvarchar(450)  <br/> |Conférence URI s’il s’agit une conférence, ou DialogID s’il est une session d’égal à égal.  <br/> |
-|Corrélation  <br/> |varchar (max)  <br/> |ID de corrélation de la session.  <br/> |
-|DialogCategory  <br/> |bit  <br/> |Catégorie de la boîte de dialogue ; 0 est Skype pour Business Server vers le serveur de médiation ; 1 est le serveur de médiation vers branche de passerelle PSTN.  <br/> |
-|MediationServerBypassFlag  <br/> |bit  <br/> |Indique si l’appel a été contourné.  <br/> |
-|MediaBypassWarningFlag  <br/> |int  <br/> |Ce champ, s’il est présent, indique pourquoi un appel a été contourné pas même si le contournement de média ID correspondant. Pour Skype pour Business Server, une seule valeur est définie :  <br/> 0 x 0001 - ID de contournement inconnu pour la carte réseau par défaut  <br/> |
-|StartTime  <br/> |DateHeure  <br/> |Heure de début d’appel.  <br/> |
+|ConferenceDateTime  <br/> |DateHeure  <br/> |Fait référence à partir de la table MediaLine.  <br/> |
+|ConferenceURI  <br/> |nvarchar (450)  <br/> |URI de conférence s’il s’agit d’une conférence, ou DialogID s’il s’agit d’une session d’égal à égal.  <br/> |
+|Correspondance  <br/> |varchar (max)  <br/> |ID de corrélation de la session.  <br/> |
+|DialogCategory  <br/> |bit  <br/> |Catégorie de boîte de dialogue. 0 est Skype entreprise Server vers une jambe du serveur de médiation; 1 est un serveur de médiation en tronçon de passerelle PSTN.  <br/> |
+|MediationServerBypassFlag  <br/> |bit  <br/> |Indique si l’appel a été ignoré.  <br/> |
+|MediaBypassWarningFlag  <br/> |int  <br/> |Ce champ, s’il est présent, indique pourquoi un appel n’a pas été ignoré, même si les ID de contournement correspondent. Pour Skype entreprise Server, une seule valeur est définie:  <br/> 0x0001-ID de contournement inconnu pour la carte réseau par défaut  <br/> |
+|StartTime  <br/> |DateHeure  <br/> |Heure de début de l’appel.  <br/> |
 |EndTime  <br/> |DateHeure  <br/> |Heure de fin de l’appel.  <br/> |
-|CallerPool  <br/> |nvarchar(256)  <br/> |FQDN du pool de l’appelant.  <br/> |
-|CalleePool  <br/> |nvarchar(256)  <br/> |FQDN du pool de l’appelé.  <br/> |
-|CallerPAI  <br/> |nvarchar(450)  <br/> |P-asserted-identity l’appelant URI.  <br/> |
-|CalleePAI  <br/> |nvarchar(450)  <br/> |P-asserted-identity l’appelé URI.  <br/> |
+|CallerPool  <br/> |nvarchar(256)  <br/> |Nom de domaine complet du pool d’appelant.  <br/> |
+|CalleePool  <br/> |nvarchar(256)  <br/> |Nom de domaine complet (FQDN) du pool d’appel.  <br/> |
+|CallerPAI  <br/> |nvarchar (450)  <br/> |URI d’identité ayant une assertion p d’appelant.  <br/> |
+|CalleePAI  <br/> |nvarchar (450)  <br/> |URI d’identité affirmée de l’appelant.  <br/> |
 |CallerEndpoint  <br/> |nvarchar(256)  <br/> |Nom du point de terminaison de l’appelant.  <br/> |
 |CalleeEndpoint  <br/> |nvarchar(256)  <br/> |Nom du point de terminaison de l’appelant.  <br/> |
-|CallerUserAgent  <br/> |nvarchar(256)  <br/> |Chaîne d’agent utilisateur l’appelant.  <br/> |
-|CallerUserAgentType  <br/> |smallint  <br/> |Type d’agent utilisateur de l’appelant. Voir la [table UserAgent](useragent.md) pour plus d’informations. <br/> |
-|CallerUserAgentCategory  <br/> |nvarchar (64)  <br/> |Catégorie de l’agent utilisateur de l’appelant. Consultez la [table UserAgentDef (QoE)](useragentdef-qoe.md) pour plus d’informations. <br/> |
-|CalleeUserAgent  <br/> |nvarchar(256)  <br/> |Chaîne d’agent utilisateur appelé.  <br/> |
-|CalleeUserAgentType  <br/> |smallint  <br/> |Type d’agent utilisateur de l’appelé. Voir la [table UserAgent](useragent.md) pour plus d’informations. <br/> |
-|CalleeUserAgentCategory  <br/> |nvarchar (64)  <br/> |Catégorie de l’agent utilisateur de l’appelé. Consultez la [table UserAgentDef (QoE)](useragentdef-qoe.md) pour plus d’informations. <br/> |
-|CallerURI  <br/> |nvarchar(450)  <br/> |URI de l’appelant.  <br/> |
-|CalleeURI  <br/> |nvarchar(450)  <br/> |URI de l’appelé.  <br/> |
+|CallerUserAgent  <br/> |nvarchar(256)  <br/> |Chaîne de l’agent utilisateur de l’appelant.  <br/> |
+|CallerUserAgentType  <br/> |type  <br/> |Type de l’agent utilisateur de l’appelant. Pour plus d’informations, voir la [table UserAgent](useragent.md) . <br/> |
+|CallerUserAgentCategory  <br/> |nvarchar (64)  <br/> |Catégorie de l’agent utilisateur de l’appelant. Pour plus d’informations, voir la [table UserAgentDef](useragentdef-qoe.md) . <br/> |
+|CalleeUserAgent  <br/> |nvarchar(256)  <br/> |Chaîne de l’agent utilisateur de l’appelant.  <br/> |
+|CalleeUserAgentType  <br/> |type  <br/> |Type d’agent utilisateur pour l’appelant. Pour plus d’informations, voir la [table UserAgent](useragent.md) . <br/> |
+|CalleeUserAgentCategory  <br/> |nvarchar (64)  <br/> |Catégorie de l’agent utilisateur de l’appelant. Pour plus d’informations, voir la [table UserAgentDef](useragentdef-qoe.md) . <br/> |
+|CallerURI  <br/> |nvarchar (450)  <br/> |URI de l’appelant.  <br/> |
+|CalleeURI  <br/> |nvarchar (450)  <br/> |URI de l’appelant.  <br/> |
 |CallPrioirty  <br/> |int  <br/> |Priorité de l’appel.  <br/> |
    
 

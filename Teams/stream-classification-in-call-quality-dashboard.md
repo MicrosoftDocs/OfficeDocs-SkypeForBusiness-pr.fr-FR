@@ -11,7 +11,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: Découvrez comment la qualité des flux est classée dans le tableau de bord de qualité des appels pour Microsoft Teams et Skype Entreprise Online.
-ms.openlocfilehash: b3b63ff8ac89ed0ad1d88893913fa89af769e078
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.openlocfilehash: ad18b15019ed82d629a4c32c27544d052cd2bc92
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30641033"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298631"
 ---
 # <a name="stream-classification-in-call-quality-dashboard"></a>Classification des flux dans le tableau de bord de qualité des appels
 
@@ -45,7 +45,7 @@ Un flux audio est marqué comme médiocre si une ou plusieurs des anomalies suiv
 |Round Trip|> 500|Durée moyenne de l'aller-retour de propagation sur le réseau calculée selon les spécifications du document RFC3550 en millisecondes.|
 |Packet Loss Rate|> 0,1|Taux moyen de perte de paquets pour le flux.|
 |Jitter|> 30|Gigue moyenne pour le flux, en millisecondes.|
-|Ratio Concealed Samples Avg|> 0,07|Taux moyen d’un nombre de trames audio avec échantillons masqués générés par la perte de paquets correcteur et le nombre total d’images audio.|
+|Ratio Concealed Samples Avg|> 0,07|Rapport moyen du nombre de trames audio et d’échantillons masqués générés par la correction de perte de paquets sur le nombre total de trames audio.|
 
 ### <a name="video-classifier"></a>Classificateur vidéo
 
@@ -55,7 +55,7 @@ Un flux vidéo est marqué comme bon ou médiocre selon la valeur de la premièr
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |1|Video Local Frame Loss Percentage Avg|> 50 % |Poor|Good|Passez à l’étape 2|Average percentage of video frames lost as displayed to the user. This includes frames recovered from network losses.|
 |2|Video Frame Rate Avg|< 7|Poor|Good|Passez à l’étape 3|Moyenne de fréquence d'images par seconde reçues pour un flux vidéo calculée pour toute la durée de la session.|
-|3|Video Post FECPLR|> 0,15|Poor|Good|Unclassified|Taux de pertes de paquets après avoir appliqué FEC regroupées sur tous les flux vidéo et les codecs.|
+|3|Video Post FECPLR|> 0,15|Poor|Good|Unclassified|Taux de perte de paquets après FEC appliqué au regroupement de tous les flux vidéo et codecs.|
 
 ### <a name="vbss-classifier"></a>Classificateur VBSS
 
@@ -65,7 +65,7 @@ Un flux VBSS est marqué comme bon ou médiocre selon la valeur de la première 
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |1|Video Local Frame Loss Percentage Avg|> 50 % |Poor|Good|Passez à l’étape 2|Average percentage of video frames lost as displayed to the user. This includes frames recovered from network losses.|
 |2|Video Frame Rate Avg|< 2|Poor|Good|Passez à l’étape 3|Moyenne de fréquence d'images par seconde reçues pour un flux vidéo calculée pour toute la durée de la session.|
-|3|Video Post FECPLR|> 0,15|Poor|Good|Unclassified|Taux de pertes de paquets après avoir appliqué FEC regroupées sur tous les flux vidéo et les codecs.|
+|3|Video Post FECPLR|> 0,15|Poor|Good|Unclassified|Taux de perte de paquets après FEC appliqué au regroupement de tous les flux vidéo et codecs.|
 
 ### <a name="application-sharing-classifier"></a>Classificateur de partage d'applications
 
@@ -76,7 +76,7 @@ Un flux de partage d’applications est marqué comme médiocre si une ou plusie
 |:-----------------------------------------------|:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Spoiled Tile Percent Total                     | > 36          | Percentage of tiles that are discarded instead of being sent to a remote peer (for example, from the MCU to a viewer). Discarded (or spoiled) tiles may be caused by bandwidth restrictions between client and server. |
 | AppSharing RDP Tile Processing Latency Average | > 400         | Latence moyenne en millisecondes du traitement des vignettes sur la pile RDP du serveur de téléconférence.                                                                                                                          |
-| AppSharing Relative OneWay Average             | > 1,75        | Délai moyen des relative à sens unique entre les points de terminaison en secondes pour le flux de partage d’application.                                                                                                                       |
+| AppSharing Relative OneWay Average             | > 1,75        | Moyenne de retard relatif à sens unique entre les points de terminaison en secondes pour les flux de partage d’application.                                                                                                                       |
 
 ## <a name="unclassified-streams"></a>Flux non classifiés
 
@@ -104,7 +104,7 @@ If ICE connectivity succeeded for an unclassified stream, the stream is likely c
 
 
 ## <a name="related-topics"></a>Rubriques connexes
-[Activation et à l’aide du tableau de bord de la qualité des appels (CQD)](turning-on-and-using-call-quality-dashboard.md)
+[Activation et utilisation du tableau de bord de qualité des appels (bord)](turning-on-and-using-call-quality-dashboard.md)
 
 [Dimensions et mesures disponibles dans le tableau de bord de qualité des appels](dimensions-and-measures-available-in-call-quality-dashboard.md)
 

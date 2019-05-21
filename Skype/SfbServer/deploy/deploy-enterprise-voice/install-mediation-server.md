@@ -1,10 +1,10 @@
 ---
-title: Installer les fichiers pour le serveur de médiation dans Skype pour Business Server
+title: Installer les fichiers du serveur de médiation dans Skype entreprise Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,34 +13,34 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f0f7dd15-58e1-40fd-aa7e-6db50ceafacd
-description: 'Résumé : Découvrez comment installer les fichiers pour le serveur de médiation dans Skype pour Business Server.'
-ms.openlocfilehash: 0f4428007f3506f0e3193d390441bf83301a47a6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Résumé: Découvrez comment installer les fichiers du serveur de médiation dans Skype entreprise Server.'
+ms.openlocfilehash: 8ecd5b20f7f3dfac625851c94f313a50fa71af29
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892327"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299442"
 ---
-# <a name="install-the-files-for-mediation-server-in-skype-for-business-server"></a>Installer les fichiers pour le serveur de médiation dans Skype pour Business Server
+# <a name="install-the-files-for-mediation-server-in-skype-for-business-server"></a>Installer les fichiers du serveur de médiation dans Skype entreprise Server
  
-**Résumé :** Découvrez comment installer les fichiers pour le serveur de médiation dans Skype pour Business Server.
+**Résumé:** Découvrez comment installer les fichiers du serveur de médiation dans Skype entreprise Server.
   
 Pour mener à bien cette procédure, vous devez être connecté au serveur au minimum en tant qu’administrateur local et utilisateur de domaine appartenant au moins au groupe RTCUniversalReadOnlyAdmins.
   
-Utilisez les étapes décrites dans cette rubrique pour exécuter les Skype pour l’Assistant de déploiement Business Server installer les fichiers pour le serveur de médiation sur un ordinateur que vous avez ajouté à un pool de serveur de médiation après avoir utilisé le Générateur de topologie pour définir et publier le pool. Lorsque vous installez les fichiers serveur de médiation, vous également installez et affectez le certificat requis par chaque ordinateur dans un pool de serveurs de médiation. 
+Suivez les étapes décrites dans cette rubrique pour exécuter l’Assistant Déploiement de Skype entreprise Server et installer les fichiers de médiation Server sur un ordinateur que vous avez ajouté à un pool de serveurs de médiation après avoir utilisé le générateur de topologie pour définir et publier le pool. Lors de l’installation de files Mediation Server, vous installez et attribuez également le certificat requis par chaque ordinateur d’un pool de serveurs de médiation. 
   
 > [!NOTE]
-> Cette rubrique suppose que vous avez déjà défini et publié un pool de serveur de médiation autonome dans votre topologie, comme décrit dans [déployer un serveur de médiation dans le Générateur de topologie dans Skype pour Business Server](deploy-a-mediation-server.md). 
+> Cette rubrique part du principe que vous avez déjà défini et publié un pool de serveurs de médiation autonome dans votre topologie, comme décrit dans la rubrique [déploiement d’un serveur de médiation dans le générateur de topologie de Skype entreprise Server](deploy-a-mediation-server.md). 
   
 ### <a name="to-install-the-files-for-a-stand-alone-mediation-server-pool"></a>Pour installer les fichiers sur un pool de serveurs de médiation autonome
 
-1. À partir du support d’installation, avec le bouton droit _ \<support d’installation\> _ **\Setup\amd64\Setup.exe**, puis cliquez sur **Exécuter en tant qu’administrateur**.
+1. Sur le support d’installation, cliquez avec le bouton droit sur _ \<installation Media\> _ **\Setup\amd64\Setup.exe**, puis cliquez sur **exécuter en tant qu’administrateur**.
     
 2. Dans la page **Emplacement d’installation**, cliquez sur **OK**.
     
 3. Dans la page **Contrat de Licence Utilisateur Final**, cliquez sur **J’accepte**, puis sur **OK**. (Cette étape est nécessaire pour continuer.)
     
-4. Dans la page **Skype pour l’Assistant de déploiement Business Server** , cliquez sur **installer ou mise à jour Skype pour le système de serveur d’entreprise**.
+4. Dans la page **Assistant Déploiement de Skype entreprise Server** , cliquez sur **installer ou mettre à jour le système Skype entreprise Server**.
     
 5. Lors de l’**étape 1 : installation du magasin de configuration local**, cliquez sur **Exécuter**, puis suivez les instructions affichées à l’écran.
     
@@ -48,7 +48,7 @@ Utilisez les étapes décrites dans cette rubrique pour exécuter les Skype pour
     
 7. Dans la page **Exécution de commandes**, lorsque le statut de la tâche est **Terminé**, cliquez sur **Terminer**.
     
-8. Regard **étape 2 : installer ou supprimer des Skype pour les composants du serveur Business**, cliquez sur **exécuter**, puis cliquez sur **suivant**.
+8. À côté de l' **étape 2: configurer ou supprimer les composants serveur Skype entreprise**, cliquez sur **exécuter**, puis sur **suivant**.
     
 9. Dans la page **Exécution de commandes**, lorsque le statut de la tâche est **Terminé**, cliquez sur **Terminer**.
     
@@ -58,7 +58,7 @@ Utilisez les étapes décrites dans cette rubrique pour exécuter les Skype pour
     
 12. Une fois l’**étape 4** terminée, redémarrez le serveur et connectez-vous y en tant que membre du groupe DomainAdmins.
     
-13. Sur l’ordinateur sur lequel vous exécutez Skype pour Business Server le panneau de configuration, vérifiez sur la page **topologie** de Skype pour Business Server Control Panel l’état du service du serveur de médiation est affiché en tant qu’une coche verte. Si une croix rouge est affichée, sélectionnez le serveur de médiation. Dans le menu **Action**, cliquez sur **Démarrer tous les services**. 
+13. Sur l’ordinateur sur lequel vous exécutez le panneau de configuration Skype entreprise Server, vérifiez sur la page **Topology** du panneau de configuration de Skype entreprise Server que l’état du service du serveur de médiation est représenté par une coche verte. Si une croix rouge est affichée, sélectionnez le serveur de médiation. Dans le menu **Action**, cliquez sur **Démarrer tous les services**. 
     
-Si vous avez ajouté plusieurs ordinateurs au pool de serveurs de médiation, effectuez les étapes de cette procédure sur tous les autres ordinateurs du pool de serveur de médiation. Si vous n’avez pas besoin installer les fichiers d’un serveur de médiation pour d’autres ordinateurs, puis suivez les procédures de [configuration de jonctions dans Skype pour Business Server](configure-trunks.md) pour configurer les paramètres pour la connexion de jonction entre ce pool de serveur de médiation (ou la médiation tous les Serveurs sur un site) et son homologue.
+Si vous avez ajouté plusieurs ordinateurs au pool de serveurs de médiation, suivez les étapes de cette procédure sur tous les autres ordinateurs du pool de serveurs de médiation. Si vous n’avez pas besoin d’installer des fichiers pour un serveur de médiation pour d’autres ordinateurs, suivez les procédures décrites dans la section [configurer des Trunks dans Skype entreprise Server](configure-trunks.md) afin de configurer les paramètres de la connexion de Trunking entre ce pool de serveurs de médiation (ou toute la médiation). Serveurs sur un site) et son homologue.
 

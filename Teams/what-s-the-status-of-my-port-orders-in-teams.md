@@ -9,7 +9,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
@@ -18,31 +18,31 @@ f1keywords:
 - ms.lync.lac.PortOrderNoOrderHelp
 ms.custom:
 - Calling Plans
-description: 'Découvrez comment obtenir le statut de vos commandes port et découvrez les différentes actions que vous pouvez effectuer sur les. '
-ms.openlocfilehash: 916c87dde0ea85c6286e075cd21d0348beee58e6
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+description: 'Découvrez comment obtenir le statut de vos demandes de transfert et découvrir les différentes actions que vous pouvez effectuer. '
+ms.openlocfilehash: 8725f87fc1bb2afb6e035fca7e9dd3c34d2c8a60
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33401704"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298975"
 ---
 # <a name="whats-the-status-of-my-port-orders-in-teams"></a>Quel est le statut de mes commandes port dans Teams ?
 
-Vous pouvez voir le statut de votre commande port en accédant au **Centre d’administration de Microsoft équipes** > **portail hérité** > **vocale** > **commandes Port**. Statut de la commande chaque port apparaît dans la colonne **état** . Si vous avez besoin d’aide, [contactez le support technique pour les produits métiers : aide d’administration](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).
+Vous pouvez voir le statut de votre demande de transfert en accédant à l'**ancien** > **** > **** **Centre** > d’administration Microsoft Teams. Chaque statut de la demande de transfert s’affiche dans la colonne **État** . Si vous avez besoin d’aide, [Contactez le support technique pour les produits pour les entreprises-aide de l’administrateur](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).
 
-Le tableau suivant répertorie les statuts de commande port, ainsi que les actions à qu'entreprendre si nécessaire.
+Le tableau suivant répertorie les statuts des commandes de port, ainsi que les actions que vous pouvez effectuer, si nécessaire.
 
-|**État**|**Vous pouvez afficher la commande ?**|**Vous pouvez modifier l’ordre ?**|**Vous pouvez annuler la commande ?**|**Vous pouvez supprimer la commande ?**|**Description**|
+|**État**|**Pouvez-vous afficher la demande?**|**Pouvez-vous modifier la demande?**|**Pouvez-vous annuler la demande?**|**Pouvez-vous supprimer la demande?**|**Description**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|**Traitement** <br/> |Oui  <br/> |Non  <br/> |Oui  <br/> |Non  <br/> |L’administrateur a créé l’ordre, et il est reçu par Microsoft.  <br/> |
-|**Contacter le support** <br/> |Oui  <br/> |Non  <br/> |Oui  <br/> |Non  <br/> |La commande a été reçue et approuvée par Microsoft, et nous effectuons utilisation de l’opérateur de perdre pour obtenir l’approuver.  <br/> |
-|**Transfert approuvé** <br/> |Oui  <br/> |Ordre ferme Commitment(FOC)  <br/> |Oui  <br/> |Non  <br/> |La commande a été acceptée par l’opérateur de perdre, et la date de produits gratuits a été définie.  <br/> |
-|**Transfert en attente** <br/> |Oui  <br/> |Non  <br/> |Non  <br/> |Non  <br/> |Le transfert est inférieure à vingt-quatre heures absent (e), de sorte que l’ordre ne peut être modifié ou annulé.  <br/> |
-|**Error** <br/> |Non  <br/> |Oui  <br/> |Oui  <br/> |Oui (à ce stade, vous ne pouvez pas supprimer l’ordre de port si une erreur se produit. L’ordre de port doit être recréée, ou vous devez contacter le [support technique pour les produits métiers : aide d’administration](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).  <br/> |L’opérateur de perdre a refusé l’ordre.  <br/> |
-|**Terminé** <br/> |Oui  <br/> |Non  <br/> |Non  <br/> |Non  <br/> |Les numéros ont été transférés.  <br/> |
-|**Annulé** <br/> |Non  <br/> |Oui  <br/> |Non  <br/> |Non  <br/> |L’administrateur a annulé l’ordre.  <br/> |
+|**Production** <br/> |Oui  <br/> |Non  <br/> |Oui  <br/> |Non  <br/> |L’administrateur a créé la demande, qui a été reçue par Microsoft.  <br/> |
+|**Contact de l’opérateur** <br/> |Oui  <br/> |Non  <br/> |Oui  <br/> |Non  <br/> |La demande a été reçue et approuvée par Microsoft et nous travaillons avec l’opérateur de perte pour être approuvé.  <br/> |
+|**Transfert approuvé** <br/> |Oui  <br/> |Engagement de commande de cabinet (FOC)  <br/> |Oui  <br/> |Non  <br/> |La demande a été acceptée par l’opérateur perdant et la date de FOC a été définie.  <br/> |
+|**Transfert en attente** <br/> |Oui  <br/> |Non  <br/> |Non  <br/> |Non  <br/> |Le transfert a lieu dans moins de 24 heures, la demande ne peut donc plus être modifiée ni annulée.  <br/> |
+|**Error** <br/> |Non  <br/> |Oui  <br/> |Oui  <br/> |Oui (pour le moment, vous ne pouvez pas supprimer l’ordre de transfert s’il y a une erreur. La demande de transfert doit être recréée ou vous devez [contacter le support technique pour les produits destinés aux entreprises-aide de l’administrateur](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).  <br/> |L’opérateur perdant a rejeté la demande.  <br/> |
+|**Terme** <br/> |Oui  <br/> |Non  <br/> |Non  <br/> |Non  <br/> |Les numéros ont été transférés avec succès.  <br/> |
+|**Interrompu** <br/> |Non  <br/> |Oui  <br/> |Non  <br/> |Non  <br/> |L’administrateur a annulé la demande.  <br/> |
    
- **Pour obtenir des instructions complètes, voir [transférer des numéros de téléphone vers Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
+ **Pour obtenir des instructions complètes détaillées, consultez la rubrique [transférer des numéros de téléphone vers Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
  
 > [!NOTE]
 > Si vous devez obtenir davantage de numéros de téléphone, veuillez [contacter le support pour les entreprises - Aide de l'administrateur](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -55,6 +55,6 @@ Le tableau suivant répertorie les statuts de commande port, ainsi que les actio
 
 [Conditions générales d’utilisation des appels d’urgence](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Étiquette de notification d’exclusion relative aux appels d’urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Libellé d’exclusion d’appel d’urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
 

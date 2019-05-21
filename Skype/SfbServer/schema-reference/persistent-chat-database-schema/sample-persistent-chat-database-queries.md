@@ -5,24 +5,24 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 545b1a93-9758-4344-98cc-aa0e559d494f
-description: Cette section contient des exemples de requêtes pour la base de données de conversation permanente.
-ms.openlocfilehash: e81400e357044d215103131a626cd584d2f3fffc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Cette section contient des exemples de requête pour la base de données de conversation persistante.
+ms.openlocfilehash: fef40c2f36547fb0772d2e938bf8259246ec2055
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930014"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295607"
 ---
 # <a name="sample-persistent-chat-database-queries"></a>Exemples de requêtes de base de données de conversation permanente
  
-Cette section contient des exemples de requêtes pour la base de données de conversation permanente.
+Cette section contient des exemples de requête pour la base de données de conversation persistante.
   
-L’exemple suivant permet d’obtenir une liste de vos salles de conversation permanente plus actives après une certaine date.
+Pour obtenir la liste des salles de conversation permanente les plus actives après une date donnée, procédez comme suit.
   
 ```
 SELECT nodeName as ChatRoom, COUNT(*) as ChatMessages
@@ -32,7 +32,7 @@ SELECT nodeName as ChatRoom, COUNT(*) as ChatMessages
   ORDER BY ChatMessages DESC
 ```
 
-L’exemple suivant permet d’obtenir une liste de vos utilisateurs les plus actifs après une certaine date.
+Pour obtenir la liste des utilisateurs les plus actifs après une date donnée, procédez comme suit.
   
 ```
 SELECT prinName as Name, count(*) as ChatMessages
@@ -42,7 +42,7 @@ SELECT prinName as Name, count(*) as ChatMessages
   ORDER BY ChatMessages DESC
 ```
 
-Utilisez l’exemple suivant pour obtenir une liste de toutes les personnes qui vous ont envoyé un message avec « Hello World » de celui-ci.
+Pour obtenir la liste de toutes les personnes qui ont envoyé un message avec «Hello World», utilisez l’exemple ci-dessous.
   
 ```
 SELECT nodeName as ChatRoom, prinName as Name, content as Message
@@ -50,7 +50,7 @@ SELECT nodeName as ChatRoom, prinName as Name, content as Message
   WHERE channelId = nodeID AND userId = prinID AND content like '%Hello World%'
 ```
 
-L’exemple suivant permet d’obtenir la liste des appartenances de groupe pour un certain principal.
+Pour obtenir la liste des appartenances aux groupes d’une certaine identité, utilisez l’exemple suivant.
   
 ```
 SELECT prinName as Name    
@@ -58,7 +58,7 @@ SELECT prinName as Name
   where principalID = 7 and affiliationID = prinID
 ```
 
-L’exemple suivant permet d’obtenir une liste de chaque salle de conversation dont une utilisatrice, Jane Dow, est une membre directe.
+L’exemple suivant vous permet d’obtenir la liste des salles de conversation qu’un utilisateur, Jane Dow, est un membre direct de.
   
 ```
 SELECT DISTINCT nodeName as ChatRoom, prinName as Name          
@@ -66,7 +66,7 @@ SELECT DISTINCT nodeName as ChatRoom, prinName as Name
   WHERE  prinRoleNodeID = nodeID AND prinRolePrinID = prinID AND prinName = 'Jane Dow'
 ```
 
-L’exemple suivant permet d’obtenir une liste d’invitations qu’un utilisateur a reçu.
+Pour obtenir la liste des invitations reçues par un utilisateur, procédez comme suit.
   
 ```
 SELECT prinName

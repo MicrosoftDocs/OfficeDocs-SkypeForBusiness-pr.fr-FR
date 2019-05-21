@@ -10,52 +10,52 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Reporting
-description: 'Ce rapport, ainsi que d’autres Skype pour les rapports d’entreprise, vous donne plus d’informations sur l’activité, y compris l’utilisation PSTN au sein de votre organisation. '
-ms.openlocfilehash: 2cd12c19911df796ae33bd841e8fd15b987cf366
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Ce rapport, ainsi que d’autres rapports Skype entreprise, vous fournissent des informations sur les activités, y compris l’utilisation du service RTC au sein de votre organisation. '
+ms.openlocfilehash: b94245c3526011a10ddb417357bf2516968f7773
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32239838"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299571"
 ---
 # <a name="users-blocked-report"></a>Rapport d'utilisateurs bloqués
 
-La nouvelle Skype pour des **rapports** de tableau de bord affiche la vue d’ensemble de l’activité sur le Skype pour les produits d’entreprise dans votre organisation. Elle vous permet à extraire différents rapports au niveau du produit pour vous donnent plus granulaires sur les activités de chaque produit. Par exemple, vous pouvez utiliser le rapport **Skype pour les utilisateurs professionnels bloqués** pour afficher les utilisateurs dans votre organisation qui ont été bloqués à partir de l’émission d’appels PSTN. Ce rapport, ainsi que d’autres Skype pour les rapports d’entreprise, vous donne plus d’informations sur l’activité, y compris l’utilisation PSTN au sein de votre organisation.
+Le nouveau tableau de bord des **rapports** Skype entreprise montre la vue d’ensemble de l’activité des produits Skype entreprise au sein de votre organisation. Elle vous permet d’explorer les rapports individuels au niveau du produit afin d’améliorer la précision des activités dans chaque produit. Par exemple, vous pouvez utiliser le rapport de **blocage des utilisateurs Skype entreprise** pour afficher les utilisateurs de votre organisation qui ont été bloqués et ne peuvent plus passer d’appels RTC. Ce rapport, ainsi que d’autres rapports Skype entreprise, vous fournissent des informations sur les activités, y compris l’utilisation du service RTC au sein de votre organisation.
   
- Consultez la rubrique [vue d’ensemble des rapports](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) pour plusieurs rapports qui sont disponibles.
+ Consultez la [vue d’ensemble des rapports](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) pour plus d’informations sur les rapports disponibles.
   
 > [!NOTE]
-> Vous pouvez voir tous le Skype pour les rapports d’entreprise pour vous connecter en tant qu’administrateur pour le centre d’administration Office 365. 
+> Vous pouvez afficher tous les rapports Skype entreprise lorsque vous vous connectez en tant qu’administrateur au centre d’administration Office 365. 
   
-## <a name="how-to-get-to-the-skype-for-business-users-blocked-report"></a>Pour accéder à la Skype pour les utilisateurs professionnels rapport bloqués
+## <a name="how-to-get-to-the-skype-for-business-users-blocked-report"></a>Comment obtenir le rapport de blocage des utilisateurs Skype entreprise
 
-![SFB-logo-30x30.png](../images/sfb-logo-30x30.png) **à l’aide de la Skype entreprise centre d’administration**
+![SFB-logo-30x30. png](../images/sfb-logo-30x30.png) **à l’aide du centre d’administration Skype entreprise**
 
-- Accédez au **Centre d’administration Office 365** > **Admin centres** > **Skype pour le centre d’administration Business** > **rapports** > **utilisateurs bloqués**.
+- Accédez aux centres d’administration du**** > **** Centre > d’administration **Office 365****centres** > **d’administration de Skype entreprise** > .
     
-## <a name="interpret-the-skype-for-business-users-blocked-report"></a>Interpréter le Skype pour le rapport sur les utilisateurs bloqués Business
+## <a name="interpret-the-skype-for-business-users-blocked-report"></a>Interpréter le rapport de blocage des utilisateurs Skype entreprise
 
-Vous pouvez obtenir une vue aux utilisateurs bloqués en regardant chacune des colonnes affichées.
+Vous pouvez obtenir un aperçu des utilisateurs bloqués en consultant chacune des colonnes affichées.
   
 Voici une illustration du rapport. 
   
 ![Rapport sur les utilisateurs bloqués](../images/df50a413-7a51-4340-a59b-3f83de941762.png)
 
-Le tableau présente une répartition de tous les utilisateurs qui ne peuvent pas effectuer des appels. Affiche tous les utilisateurs qui disposent du système téléphonique ou conférence Audio affectés. Vous pouvez ajouter ou supprimer des colonnes dans ce tableau.
+Le tableau montre une répartition de l’ensemble des utilisateurs qui ne sont pas en passe d’appeler. Cela affiche tous les utilisateurs qui disposent d’une audioconférence ou d’un système téléphonique qui leur est attribué. Vous pouvez ajouter ou supprimer des colonnes dans ce tableau.
 ***
 ![Numéro 1](../images/sfbcallout1.png)
-*   **ID de l’utilisateur** est l’utilisateur signe.
-*   **Numéro de téléphone** est le numéro qui est affecté à un utilisateur. 
-*   **Heure de l’action Bloquer** est l’heure (UTC) que l’utilisateur n’a pas pu effectuer des appels.
-*   **Action de blocage** est le type d’action qui a été effectuée pour interdire à l’utilisateur.
-*   **Action** du bloc fait la raison pour laquelle que l’utilisateur a été bloqué à partir de l’émission d’appels.
+*   **ID** de l’utilisateur est la connexion de l’utilisateur.
+*   **Numéro de téléphone** correspond au numéro attribué à un utilisateur. 
+*   **Durée du blocage** est l’heure (UTC) à laquelle l’utilisateur a été empêché de passer des appels.
+*   **Action de blocage** est le type d’action qui a été prise pour bloquer l’utilisateur.
+*   **Raison du blocage** est la raison pour laquelle l’utilisateur a été bloqué.
 ***
 ![Numéro 2](../images/sfbcallout2.png)<br/>
 Cliquez pour déplacer une colonne vers **Pour regrouper les informations autour d'une colonne en particulier, faites glisser et déplacez l'en-tête de la colonne ici** si vous souhaitez visualiser toutes les données regroupées dans une ou plusieurs colonnes.
@@ -63,26 +63,26 @@ Cliquez pour déplacer une colonne vers **Pour regrouper les informations autour
 ![Nombre 3](../images/sfbcallout3.png)<br/>
 Vous pouvez également exporter les données du rapport vers un fichier Excel .csv, en cliquant ou en appuyant sur le bouton **Exporter vers Excel**.
 
-Cela exportera les données de tous les utilisateurs et vous permettra de trier et de filtrer plus simplement pour une analyse ultérieure. Si vous avez moins de 2 000 utilisateurs, vous pouvez trier et filtrer dans la table dans le rapport lui-même. Si vous avez plus de 2 000 utilisateurs, vous devrez exporter les données pour pouvoir les trier et les filtrer.
+Cela exportera les données de tous les utilisateurs et vous permettra de trier et de filtrer plus simplement pour une analyse ultérieure. Si vous avez moins de 2000 utilisateurs, vous pouvez les trier et les filtrer dans le tableau. Si vous avez plus de 2 000 utilisateurs, vous devrez exporter les données pour pouvoir les trier et les filtrer.
 ***
 
 ## <a name="want-to-see-other-skype-for-business-reports"></a>Autres rapports d'activité Skype Entreprise
 
-- [Skype pour le rapport des activités](activity-report.md) Vous pouvez voir combien vos utilisateurs sont à l’aide d’égal à égal, organisé et participé à des sessions de conférence.
+- [Rapport d’activité Skype entreprise](activity-report.md) Vous pouvez visualiser le nombre d’organisations, de participations et de sessions d’égal à égal de conférences par utilisateur.
     
-- [Skype pour le rapport d’utilisation des périphériques Business](device-usage-report.md) Vous pouvez pour voir les périphériques, y compris les systèmes d’exploitation Windows et les appareils mobiles qui ont le Skype pour l’application de gestion installés et utilisent pour la messagerie instantanée et réunions.
+- [Rapport sur l’utilisation des appareils Skype entreprise](device-usage-report.md) Vous pouvez voir les appareils tels que les systèmes d’exploitation Windows et les appareils mobiles sur lesquels l’application Skype entreprise est installée et qui s’en servent pour la messagerie instantanée et les réunions.
     
-- [Skype Business conférence organisateur rapport d’activité](conference-organizer-activity-report.md) Vous pouvez voir combien vos utilisateurs sont organiser des conférences qui utilisent la messagerie instantanée, audio/vidéo, partage d’applications, le site Web, dial-in/out - 3ème partie et dial-in/out - Microsoft.
+- [Rapport d’activité d’organisateur de conférences Skype entreprise](conference-organizer-activity-report.md) Vous pouvez visualiser le nombre de conférences de vos utilisateurs à l’aide de la messagerie instantanée, de l’audio/la vidéo, du partage d’applications, du Web, de la Conférence rendez-vous/du tiers et de la Conférence rendez-vous.
     
-- [Skype Business conférence participant rapport d’activité](conference-participant-activity-report.md) Vous pouvez voir le partage d’application audio/vidéo, messagerie instantanée, le nombre, Web et les conférences rendez-vous dans/conférence sont en cours ont participé.
+- [Rapport d’activité de participation à des conférences Skype entreprise](conference-participant-activity-report.md) Vous pouvez voir le nombre de participants à la messagerie instantanée, de l’audio/la vidéo, du partage d’applications, du Web et des conférences rendez-vous et des conférences rendez-vous.
     
-- [Skype pour le rapport des activités d’égal à égal professionnels](peer-to-peer-activity-report.md) Vous pouvez voir combien vos utilisateurs sont à l’aide de messagerie instantanée, audio/vidéo, partage d’application et de transfert de fichiers.
+- [Rapport d’activité d’égal à égal Skype entreprise](peer-to-peer-activity-report.md) Vous pouvez visualiser le nombre d’utilisation de la messagerie instantanée, de l’audio/la vidéo, du partage d’applications et du transfert de fichiers par utilisateur.
     
-- [Skype pour le rapport d’utilisation PSTN Business](pstn-usage-report.md) Vous pouvez voir le nombre de minutes passé dans les appels entrants et sortants et le coût de ces appels.
+- [Rapport d’utilisation de la Conférence RTC Skype entreprise](pstn-usage-report.md) Vous pouvez voir le nombre de minutes passées pour des appels entrants/sortants et le coût de ces appels.
 
-- [Skype pour rapport de pools minute Business PSTN](pstn-minute-pools-report.md) , vous pouvez voir le nombre de minutes consommées au cours du mois au sein de votre organisation.
+- [Rapport de pools de minutes RTC Skype entreprise](pstn-minute-pools-report.md) vous pouvez voir le nombre de minutes consommées pendant le mois en cours au sein de votre organisation.
 
-- [Skype pour le rapport de détails de session Business](session-details-report.md) Vous pouvez voir plus d’informations sur les expériences d’appel d’un utilisateur individuel.
+- [Rapport Détails de la session Skype entreprise](session-details-report.md) Vous pouvez afficher des détails sur les expériences d’appel des utilisateurs individuels.
    
 ## <a name="related-topics"></a>Voir aussi
 [Rapports d'activité dans le centre d’administration Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)

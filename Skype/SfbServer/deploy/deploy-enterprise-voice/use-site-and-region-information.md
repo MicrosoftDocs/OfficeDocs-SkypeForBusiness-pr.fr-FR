@@ -1,10 +1,10 @@
 ---
-title: Configurer les paramètres globaux de déviation du trafic multimédia dans Skype pour Business Server utilise des informations de sites et aux régions
+title: Configurer les paramètres globaux de contournement de médias dans Skype entreprise Server pour utiliser les informations de site et de région
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,28 +13,28 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 0a21cdf1-f350-49da-b346-70806f256bea
-description: Configurer le contournement de média à utiliser uniquement pour certains sites et régions dans Skype pour Business Server Enterprise Voice.
-ms.openlocfilehash: 42f6e9406fdb3a33124c5cfb7abba638dd7fa4b9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Configurez la dérivation de médias à utiliser pour certains sites et régions dans Skype entreprise Server voix entreprise.
+ms.openlocfilehash: 3a9dc907dd516151e8b6ddd509a43b49c87e3b9f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892271"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34300929"
 ---
-# <a name="configure-media-bypass-global-settings-in-skype-for-business-server-to-use-site-and-region-information"></a>Configurer les paramètres globaux de déviation du trafic multimédia dans Skype pour Business Server utilise des informations de sites et aux régions
+# <a name="configure-media-bypass-global-settings-in-skype-for-business-server-to-use-site-and-region-information"></a>Configurer les paramètres globaux de contournement de médias dans Skype entreprise Server pour utiliser les informations de site et de région
  
-Configurer le contournement de média à utiliser uniquement pour certains sites et régions dans Skype pour Business Server Enterprise Voice. 
+Configurez la dérivation de médias à utiliser pour certains sites et régions dans Skype entreprise Server voix entreprise. 
   
- Si vous utilisez les étapes décrites dans cette rubrique pour configurer les paramètres globaux pour le média de contournement, il est supposé que vous n’avez pas vérifié la connectivité entre tous les Skype pour les points de terminaison d’entreprise et un homologue pour lequel vous avez configuré le contournement de média sur la connexion de jonction.
+ Si vous suivez les étapes décrites dans cette rubrique pour configurer des paramètres globaux pour le contournement du média multimédia, il est supposé que vous ne disposez pas d’une bonne connectivité entre tous les points de terminaison Skype entreprise et les homologues pour lesquels vous avez configuré une contournement multimédia sur la connexion Trunk.
   
 > [!NOTE]
 > Les informations relatives aux régions du réseau et aux sites réseau sont partagées entre les fonctionnalités Voix Entreprise avancées de contrôle d’admission des appels et de déviation du trafic multimédia lorsque ces deux fonctionnalités sont activées. Par conséquent, si vous avez déjà configuré le contrôle d’admission des appels, vous n’avez pas besoin d’effectuer la procédure ci-dessous pour modifier les informations relatives aux sites et aux régions destinées à la déviation du trafic multimédia. Suivez les étapes de cette procédure si vous n’avez pas encore configuré les régions et les sites du réseau pour le contrôle d’admission des appels et si vous souhaitez modifier les paramètres de déviation du trafic multimédia. 
   
-Pour le contournement de média pour fonctionner correctement doit être la cohérence entre un site comme défini dans le Générateur de topologie et telle qu’elle est définie lorsque vous configurez des sites réseau et les régions de réseau. Par exemple, si vous disposez d’un site de succursale que vous avez défini dans le Générateur de topologie comme ayant déployé uniquement une passerelle PSTN, puis ce site de succursale doit être configuré avec une stratégie de voix entreprise qui permet aux utilisateurs de site de succursale pour que leurs appels PSTN acheminés via la passerelle PSTN Gateway, consultez le site de succursale.
+Pour le bon fonctionnement du contournement de médias, il doit exister une cohérence entre un site défini dans le générateur de topologie et tel qu’il est défini lorsque vous configurez des régions réseau et des sites réseau. Par exemple, si vous disposez d’un site de succursale que vous avez défini dans le générateur de topologie comme ayant uniquement une passerelle RTC déployée, ce site de succursale doit être configuré avec une stratégie vocale d’entreprise permettant aux utilisateurs du site de succursale d’avoir leurs appels RTC via le RTC. passerelle sur le site de la succursale.
   
 ### <a name="to-configure-site-and-region-information-for-media-bypass"></a>Pour configurer les informations relatives aux sites et aux régions pour la déviation du trafic multimédia
 
-1. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business.  
+1. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration Skype entreprise Server.  
     
 2. Dans la barre de navigation de gauche, cliquez sur **Configuration réseau**.
     
@@ -53,7 +53,7 @@ Pour le contournement de média pour fonctionner correctement doit être la coh�
     
 Ensuite, ajoutez les sous-réseaux au site réseau, comme indiqué dans la rubrique [Associate a subnet with a network site](deploy-network.md#BKMK_AssociateSubnets). Une fois que vous avez associé tous les sous-réseaux aux sites réseau, le déploiement de la déviation du trafic multimédia est terminé.
 > [!IMPORTANT]
-> Si vous n’avez pas encore créé de régions et de sites réseau, vous devez les créer pour poursuivre le déploiement de la déviation du trafic multimédia. Pour plus d’informations, voir [déployer les régions de réseau, des sites et sous-réseaux de Skype pour les entreprises](deploy-network.md). 
+> Si vous n’avez pas encore créé de régions et de sites réseau, vous devez les créer pour poursuivre le déploiement de la déviation du trafic multimédia. Pour plus d’informations, reportez-vous à la rubrique [déploiement de régions, de sites et de sous-réseaux dans Skype entreprise](deploy-network.md). 
   
 ## <a name="see-also"></a>Voir aussi
 

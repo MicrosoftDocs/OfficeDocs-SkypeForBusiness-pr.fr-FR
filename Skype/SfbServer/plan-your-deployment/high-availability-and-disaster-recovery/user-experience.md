@@ -1,28 +1,28 @@
 ---
-title: Expérience utilisateur défaillance d’un pool dans Skype pour Business Server
+title: Utilisation de l’interface utilisateur en cas d’échec de la mise en réserve dans Skype entreprise Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b224b0d0-87e3-4cac-ae87-f45f54fabb49
-description: Découvrez ce que les utilisateurs rencontrent lorsqu’un pool frontal bascule ou Business Server échoue pendant la récupération d’urgence dans Skype.
-ms.openlocfilehash: de272ec6bc45a005a56c3e16385f7bcc292c8a1a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Découvrez ce que les utilisateurs peuvent faire quand un pool frontal bascule ou ne fonctionne pas lors de la reprise après sinistre dans Skype entreprise Server.
+ms.openlocfilehash: cc8ea8c51bebcffdbf0873f2f1a355cd648b6df0
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33903046"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297231"
 ---
-# <a name="user-experience-during-pool-failure-in-skype-for-business-server"></a>Expérience utilisateur défaillance d’un pool dans Skype pour Business Server
+# <a name="user-experience-during-pool-failure-in-skype-for-business-server"></a>Utilisation de l’interface utilisateur en cas d’échec de la mise en réserve dans Skype entreprise Server
  
-Découvrez ce que les utilisateurs rencontrent lorsqu’un pool frontal bascule ou Business Server échoue pendant la récupération d’urgence dans Skype.
+Découvrez ce que les utilisateurs peuvent faire quand un pool frontal bascule ou ne fonctionne pas lors de la reprise après sinistre dans Skype entreprise Server.
   
-Si un pool est basculé, tous les utilisateurs du pool affecté sont obligés de se déconnecter, puis de se reconnecter au pool de sauvegarde. Pendant quelques instants, les utilisateurs qui se connectent au pool de sauvegarde peuvent être en mode Résistance. En mode résilience, les utilisateurs ne peuvent pas effectuer des tâches entraînerait une modification permanente sur Skype pour Business Server, tels que l’ajout d’un contact. Une fois le basculement terminé, tous les utilisateurs peuvent obtenir tous les services du pool de sauvegarde.
+Si un pool est basculé, tous les utilisateurs du pool affecté sont obligés de se déconnecter, puis de se reconnecter au pool de sauvegarde. Pendant quelques instants, les utilisateurs qui se connectent au pool de sauvegarde peuvent être en mode Résistance. Dans le mode de résilience, les utilisateurs ne peuvent pas effectuer de tâches qui entraîneraient un changement permanent sur Skype entreprise Server (par exemple, ajout d’un contact). Une fois le basculement terminé, tous les utilisateurs peuvent obtenir tous les services du pool de sauvegarde.
   
 Tous les appels, réunions ou conversations en cours d’un utilisateur au moment de la défaillance du pool sont interrompus, et l’utilisateur doit rétablir ces sessions après le basculement pour continuer.
   

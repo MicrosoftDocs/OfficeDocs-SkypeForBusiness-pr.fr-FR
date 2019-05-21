@@ -10,76 +10,76 @@ search.appverid: MET150
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 'Découvrez comment acheter les plans Office 365 entreprise Premium, des fonctionnalités et des licences supplémentaires. '
-ms.openlocfilehash: 25f4b7c7563a18f89c595cd4d5d1e748b6ff8c7b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'En savoir plus sur les licences de compléments, les fonctionnalités et l’achat d’offres Office 365 Business Premium. '
+ms.openlocfilehash: 2e8c580237bb61160906d1fadd511815741d8984
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204592"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298570"
 ---
 # <a name="office-365-business-premium"></a>Office 365 Business Premium
 
-Si vous avez [Office 365 entreprise Premium](https://products.office.com/en/business/office-365-business-premium), vous pouvez utiliser Microsoft Teams pour émettre des appels à d’autres personnes de votre entreprise qui se trouvent sur votre abonnement. Par exemple, si votre entreprise a 10 personnes, vous pouvez utiliser les équipes à l’appel et la messagerie instantanée mutuellement.
+Si vous avez [Office 365 Business Premium](https://products.office.com/en/business/office-365-business-premium), vous pouvez utiliser Microsoft teams pour passer des appels vers d’autres personnes de votre entreprise qui font votre abonnement. Par exemple, si votre entreprise compte 10 personnes, vous pouvez utiliser les équipes pour vous appeler et vous envoyer des messages instantanés.
 
 **Deux options s'offrent à vous pour passer et recevoir des appels de personnes extérieures à votre entreprise**:
 
-- **Option 1**. Utiliser l' [application équipes gratuite](https://products.office.com/microsoft-teams/free). Si vous avez une très petite entreprise (par exemple, 1-2 personnes), à l’aide de l’application des équipes est le meilleur moyen. Elle est plus économique pour les appels nationaux et internationaux. Vous pouvez émettre des appels audio et vidéo 1:1 et groupe et partager votre bureau pour les présentations. [Comparer les fonctionnalités, les taux et les options de paiement](https://products.office.com/microsoft-teams/free).
+- **Option 1**. Utilisez l' [application gratuite teams](https://products.office.com/microsoft-teams/free). S’il s’agit d’une petite entreprise (par exemple, 1-2), il est préférable d’utiliser l’application Teams. Elle est plus économique pour les appels nationaux et internationaux. Vous pouvez toujours passer des appels audio et vidéo 1:1 et de groupe et partager votre bureau pour des présentations. [Comparer les fonctions, les tarifs et les options de paiement](https://products.office.com/microsoft-teams/free).
 
-     Nous vous recommandons de commençant par les équipes gratuites voir si elle répond à vos besoins. Si ce n'est pas le cas, l'option suivante vous permettra de mettre à niveau votre plan.
+     Nous vous recommandons de commencer par teams gratuitement pour voir s’il répond à vos besoins. Si ce n'est pas le cas, l'option suivante vous permettra de mettre à niveau votre plan.
 
 - **Option 2. Mettez à niveau votre forfait et acheter un Système téléphonique et un forfait d'appels local ou national**.
 
     > [!Important]
-    > Bien que les équipes est inclus dans l’abonnement Office entreprise Premium, vous ne peut pas ajouter la voix de nuage fonctionnalités d’appel. Ainsi, nous vous conseillons de considérer un forfait d’entreprise E5 (ou entreprise E3) pour voir s’il ne serait pas plus rentable.
+    > Même si teams est inclus dans l’abonnement Office Business Premium, vous ne pouvez pas ajouter de fonctionnalités d’appel vocal Cloud. Ainsi, nous vous conseillons de considérer un forfait d’entreprise E5 (ou entreprise E3) pour voir s’il ne serait pas plus rentable.
 
     1. [Basculer vers une autre offre Office 365 pour les entreprises](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a). Nous vous conseillons de considérer un forfait d’entreprise E5 pour voir s’il ne serait pas plus rentable.
 
     2. Acheter le module complémentaire Système téléphonique.
     
-    3. Acheter un [Appel de planification pour Office 365](../calling-plans-for-office-365.md): cela acheter uniquement une fois que vous achetez le module complémentaire système téléphonique.
+    3. Acheter un [plan d’appel pour Office 365](../calling-plans-for-office-365.md): vous pouvez l’acheter uniquement après l’acquisition du complément de votre système téléphonique.
     
     Cette option est idéale pour les entreprises où quelques personnes passent et reçoivent des appels téléphoniques extérieurs.
 
-## <a name="how-to-see-prices-and-buy"></a>Comment consulter les prix et acheter
+## <a name="how-to-see-prices-and-buy"></a>Comment connaître les prix et procéder à l’achat
 <a name="bkmk_buypremium"> </a>
 
- **Pour obtenir des conférences Audio :**
+ **Pour obtenir une audioconférence:**
 
 1. Connectez-vous au centre d’administration Microsoft 365.
 
-2. Accédez à la **facturation** > **services d’achat** > **abonnements de module complémentaire**.
+2. Accédez aux **** > **abonnements de complément** > **services d’achat**de facturation.
 
-   Vous verrez les prix et l’option d’achat d’audioconférence.
+   Les prix et l’option d’achat de l’audioconférence apparaissent.
 
-**Pour obtenir des Communications générique**
+**Pour obtenir des crédits de communication**
 
 1. Connectez-vous au centre d’administration Microsoft 365.
 
-2. Accédez à la **facturation** > **services d’achat** > **abonnements de module complémentaire**.
+2. Accédez aux **** > **abonnements de complément** > **services d’achat**de facturation.
 
-   Vous verrez l’option d’achat crédits Communications.
+   Vous aurez la possibilité d’acheter des crédits de communication.
 
-3. Pour ajouter des fonds à Communications crédits, accédez à la **facturation** > **abonnements** > **Communications générique**.
+3. Pour ajouter des fonds aux crédits de communication, **** > voir**crédits de communication****abonnements** > .
 
-    Vous pourrez ajouter des fonds et activer et désactiver le rechargement automatique. Pour plus d’informations, voir [Ajouter des fonds et gérer les Communications générique](../add-funds-and-manage-communications-credits.md) . 
+    Vous pouvez ajouter des fonds et activer et désactiver la recharge automatique. Pour plus d’informations, reportez-vous à [Ajouter des fonds et gérer les crédits de communication](../add-funds-and-manage-communications-credits.md) . 
 
 
 **Pour obtenir le Système téléphonique et un Forfait d’appels :**
 
 1. Choisissez l'offre E1 ou E3.
 
-2. Accédez au centre d’administration Microsoft 365.
+2. Accédez au centre d’administration 365 Microsoft.
 
-3. Accédez à la **facturation** > **services d’achat** > **abonnements de module complémentaire**.
+3. Accédez aux **** > **abonnements de complément** > **services d’achat**de facturation.
 
-    Vous verrez les prix de système téléphonique et la possibilité d’acheter.
+    Les prix du système téléphonique et l’option d’achat s’afficheront.
 
-4. Une fois que vous achetez une licence de **Système téléphonique** , vous verrez le prix et l’option d’acheter un Plan de l’appel.
+4. Après avoir acheté une licence de **système téléphonique** , vous verrez le prix et l’option d’achat d’un forfait d’appels.

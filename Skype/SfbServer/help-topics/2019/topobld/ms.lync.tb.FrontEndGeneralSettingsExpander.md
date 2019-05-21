@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.FrontEndGeneralSettingsExpander
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 8a5f21d0-f6c8-4907-9958-5ca36f702542
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Pour modifier les paramètres d’un pool frontal existant ou d’un serveur Survivable Branch Server, consultez les sections suivantes :'
-ms.openlocfilehash: 5d44dae722107a2c30ede24c66f5b341b9a05754
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4f8b9ac5a2291ae579dbc2a43e884132da325020
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919779"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299353"
 ---
 # <a name="front-end-general-settings-expander"></a>Expanseur des paramètres généraux du serveur frontal
 
@@ -48,7 +48,7 @@ Vous pouvez configurer les paramètres généraux suivants :
 
   - **Conférence** : inclut le partage audio, vidéo et d’applications. Avec cette option sélectionnée, vous pouvez sélectionner Conférence rendez-vous (RTC). Vous spécifiez et définissez une passerelle de réseau téléphonique commuté (RTC) dans la sous-section Paramètres du serveur de médiation ci-dessous.
 
-  - **Enterprise Voice**. Permet de voix interne appels IP combinés complets et périphériques et Skype pour les clients d’entreprise. Pour activer les fonctionnalités d’appel externe, vous devez inclure un serveur de médiation. Pour plus d’informations, voir « Serveur de médiation » plus loin dans cette rubrique.
+  - **Voix entreprise**. Autorise les appels voix sur IP internes vers des combinés et des appareils et des clients Skype entreprise. Pour activer les fonctionnalités d’appel externe, vous devez inclure un serveur de médiation. Pour plus d’informations, consultez la section «serveur de médiation» plus loin dans cette rubrique.
 
 - Dans **Associations**, modifiez ou définissez les éléments suivants :
 
@@ -101,7 +101,7 @@ Pour modifier ou spécifier un autre paramètre pour les services web sur le poo
 Dans **Services web internes**, spécifiez les éléments suivants :
 
 > [!CAUTION]
-> Si vous avez plus d’un pool frontal ou serveur frontal, les services Web externes nom de domaine complet doit être unique. Par exemple, si vous définissez les nom de domaine complet d’un serveur frontal des services Web externes comme **pool01.contoso.com**, vous ne pouvez pas utiliser **pool01.contoso.com** pour un autre pool frontal ou serveur frontal. Si vous déployez également les directeurs, les nom de domaine complet des services Web externes défini pour n’importe quel directeur ou pool directeur doit être unique à partir de n’importe quel autre directeur ou directeur pool, comme bien à partir de n’importe quel serveur frontal du pool ou serveur frontal. Si vous décidez de remplacer les services web internes avec un nom de domaine complet automatiquement défini, chaque nom de domaine complet doit être unique à partir de n’importe quel pool frontal, directeur ou directeur de pool.
+> Si vous avez plusieurs pools frontal ou serveur principal, le nom de domaine complet des services Web externes doit être unique. Par exemple, si vous définissez le nom de domaine complet des services Web externes d’un serveur frontal en tant que **pool01.contoso.com**, vous ne pouvez pas utiliser **pool01.contoso.com** pour un autre pool frontal ou serveur frontal. Si vous déployez également des directeurs, le nom de domaine complet des services Web externes défini pour n’importe quel directeur ou pool de réalisateur doit être unique à partir d’un autre directeur ou pool de réalisateurs, ainsi que de n’importe quel pool frontal ou serveur frontal. Si vous décidez de remplacer les services Web internes par un nom de domaine complet autonome, chaque nom de domaine complet doit être unique à partir de n’importe quel autre pool frontal, directeur ou pool de réalisateurs.
 
 - Si vous sélectionnez **Remplacer le nom de domaine complet**, vous pouvez spécifier un nom de domaine complet différent pour l’identité des **services web internes** sur le pool. Par défaut, le paramètre est le nom du pool actuel défini pour le pool frontal.
 
@@ -111,7 +111,7 @@ Dans **Services web internes**, spécifiez les éléments suivants :
 
 - Le nom de domaine complet des services web externes. Le nom de domaine complet spécifié ici sera généralement défini par les exigences de votre connexion externe, comme le proxy inverse.
 
-- Les ports d’écoute et publiés pour HTTP et HTTPS nécessaires à votre déploiement. Les paramètres par défaut, le port 8080 pour le protocole HTTP et le port 4443 pour le protocole HTTPS, sont définis initialement. Vous pouvez modifier ces paramètres pour les ports d’écoute en fonction des exigences de votre proxy inverse et de votre réseau externe. Les ports publiés sont définis par défaut sur le port 80 pour le protocole HTTP et sur le port 443 pour le protocole HTTPS. Ces valeurs déterminent les ports d’écoute du pool pour les demandes entrantes. En règle générale, il est inutile à modifier, sauf s’il existe un conflit de ports requis sur le pool. Il est attendu que les ports publiés internes et externes utilisent les mêmes valeurs de port. Cela n’entraîne aucun conflit.
+- Les ports d’écoute et publiés pour HTTP et HTTPS nécessaires à votre déploiement. Les paramètres par défaut, le port 8080 pour le protocole HTTP et le port 4443 pour le protocole HTTPS, sont définis initialement. Vous pouvez modifier ces paramètres pour les ports d’écoute en fonction des exigences de votre proxy inverse et de votre réseau externe. Les ports publiés sont définis par défaut sur le port 80 pour le protocole HTTP et sur le port 443 pour le protocole HTTPS. Ces valeurs déterminent les ports d’écoute du pool pour les demandes entrantes. En règle générale, celles-ci n’ont pas besoin d’être modifiées, sauf s’il y a des conflits de port requis sur le pool. Il est attendu que les ports publiés internes et externes utilisent les mêmes valeurs de port. Cela n’entraîne aucun conflit.
 
 ### <a name="mediation-server"></a>serveur de médiation
 
@@ -135,7 +135,7 @@ Dans le cas d’un serveur Standard Edition, vous pouvez configurer des paramèt
 
 Vous pouvez configurer les paramètres généraux suivants :
 
-- **Nom de domaine complet**. Notez que le nom de domaine complet ne peut pas être modifié. Vous devez supprimer et redéfinir le serveur Standard Edition server pour modifier le nom de domaine complet associé.
+- **Nom de domaine complet**. Notez que le nom de domaine complet ne peut pas être modifié. Pour modifier le nom de domaine complet associé, vous devez supprimer et redéfinir le serveur Standard Edition Server.
 
 - Sélectionnez **Utiliser toutes les adresses IP configurées** ou **Limiter l’utilisation des services aux adresses IP sélectionnées**. Si vous choisissez de limiter le service aux adresses IP définies, vous définirez l’adresse IP principale utilisée par le serveur pour toutes les communications, à l’exception du réseau téléphonique commuté (RTC). Vous pouvez également sélectionner **Activer IPv6** pour activer le protocole IPv6 pour ce serveur.
 
@@ -145,7 +145,7 @@ Vous pouvez configurer les paramètres généraux suivants :
 
   - **Conférence** : inclut le partage audio, vidéo et d’applications. Cette option étant sélectionnée, vous pouvez sélectionner **Conférence rendez-vous (RTC)**. Vous pouvez spécifier et définir une passerelle RTC par la suite dans les paramètres du serveur de médiation.
 
-  - **Enterprise Voice**. Permet de voix interne appels IP combinés complets et périphériques et Skype pour les clients d’entreprise. Pour activer les fonctionnalités d’appel externe, vous devez inclure un serveur de médiation. Pour plus d’informations, voir « Serveur de médiation » plus loin dans cette rubrique.
+  - **Voix entreprise**. Autorise les appels voix sur IP internes vers des combinés et des appareils et des clients Skype entreprise. Pour activer les fonctionnalités d’appel externe, vous devez inclure un serveur de médiation. Pour plus d’informations, consultez la section «serveur de médiation» plus loin dans cette rubrique.
 
 - Dans **Associations**, vous pouvez modifier ou spécifier les paramètres suivants :
 

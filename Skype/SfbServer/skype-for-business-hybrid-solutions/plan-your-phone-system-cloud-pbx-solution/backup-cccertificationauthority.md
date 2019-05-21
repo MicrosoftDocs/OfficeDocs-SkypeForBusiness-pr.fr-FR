@@ -5,18 +5,18 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 3/31/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 47ed4559-fb63-42cd-8ecd-b7d1617e91d3
 description: L'applet de commande Backup-CcCertificationAuthority sauvegarde le service d’autorité de certification de la version Cloud Connector de Skype Entreprise sur un fichier et l'enregistre dans le dossier AC sous l’annuaire de sites.
-ms.openlocfilehash: 2f85a4da58a586852b3331f1f8e482ee17e29e02
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 463aab2516deec5b47e549aec67bcba6a0a80bc0
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32234550"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34294417"
 ---
 # <a name="backup-cccertificationauthority"></a>Backup-CcCertificationAuthority
  
@@ -44,7 +44,7 @@ Backup-CcCertificationAuthority
 ## <a name="detailed-description"></a>Description détaillée
 <a name="DetailedDescription"> </a>
 
-Sauvegarde d’autorité de certification peut être utile si vous envisagez de redéployer une solution de nuage connecteur avec le même certificat en cas d’incident, ou si vous souhaitez déplacer l’application vers un nouveau matériel. La commande enregistre la copie du service Autorité de certification nuage connecteur à partir du serveur AD à «\<SiteRootDirectory\>\CA\SfB CCE Root.p12 ».
+La sauvegarde d’une autorité de certification peut être utile si vous envisagez de redéployer un appareil Cloud Connector avec le même certificat en cas de sinistre, ou si vous voulez déplacer l’appareil vers un nouveau matériel. La commande enregistre la copie du service de certification de certification Cloud du serveur AD pour «\<SITEROOTDIRECTORY\>\CA\SfB CCE root. P12».
   
 ## <a name="input-types"></a>Types d’entrées
 <a name="InputTypes"> </a>

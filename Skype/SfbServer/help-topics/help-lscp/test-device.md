@@ -5,60 +5,60 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/23/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.ClientDeviceTestMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a1ea564c-f403-4f61-a36b-5a429708e7ca
-description: Vous pouvez ajouter un périphérique de test à la page Périphérique de test, puis l’utiliser pour vérifier les fonctionnalités des nouvelles mises à jour avant de les déployer sur des périphériques de production. Vous pouvez tester un périphérique globalement (dans tout votre environnement) ou sur un site unique. Vous identifiez un périphérique de test grâce à son adresse MAC (Media Access Control) ou son numéro de série. Lorsque vous ajoutez un périphérique, il s’affiche dans la liste dans la page périphérique de Test de la Skype pour le panneau de configuration serveur Business.
-ms.openlocfilehash: aabb85cfa8522aa3955be0f1fefb50e45bb20b17
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Vous pouvez ajouter un périphérique de test à la page Périphérique de test, puis l’utiliser pour vérifier les fonctionnalités des nouvelles mises à jour avant de les déployer sur des périphériques de production. Vous pouvez tester un périphérique globalement (dans tout votre environnement) ou sur un site unique. Vous identifiez un périphérique de test grâce à son adresse MAC (Media Access Control) ou son numéro de série. Lorsque vous ajoutez un appareil, celui-ci apparaît dans la liste de la page périphérique de test du panneau de configuration Skype entreprise Server.
+ms.openlocfilehash: 223efaf8a72c5ea0b7922a28b1dc26a6395e43ec
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33929461"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34293199"
 ---
 # <a name="test-device"></a>Périphérique de test
 
-Vous pouvez ajouter un périphérique de test à la page **Périphérique de test**, puis l’utiliser pour vérifier les fonctionnalités des nouvelles mises à jour avant de les déployer sur des périphériques de production. Vous pouvez tester un périphérique globalement (dans tout votre environnement) ou sur un site unique. Vous identifiez un périphérique de test grâce à son adresse MAC (Media Access Control) ou son numéro de série. Lorsque vous ajoutez un périphérique, il s’affiche dans la liste dans la page **Périphérique de Test** de la Skype pour le panneau de configuration serveur Business.
+Vous pouvez ajouter un périphérique de test à la page **Périphérique de test**, puis l’utiliser pour vérifier les fonctionnalités des nouvelles mises à jour avant de les déployer sur des périphériques de production. Vous pouvez tester un périphérique globalement (dans tout votre environnement) ou sur un site unique. Vous identifiez un périphérique de test grâce à son adresse MAC (Media Access Control) ou son numéro de série. Lorsque vous ajoutez un appareil, celui-ci apparaît dans la liste de la page **périphérique de test** du panneau de configuration Skype entreprise Server.
 
 ## <a name="tasks-you-can-perform"></a>Tâches que vous pouvez effectuer
 
-Vous pouvez effectuer les tâches suivantes dans la page **Périphérique de Test** :
+Vous pouvez effectuer les tâches suivantes dans la page de test de l' **appareil** :
 
-- Ajouter un périphérique de test globalement ou pour un site particulier.
+- Ajouter un appareil de test globalement ou pour un site particulier.
 
-- Modifier les options d’un périphérique de test existant.
+- Modifiez les options pour un appareil de test existant.
 
 ## <a name="ui-reference"></a>Référence d’interface utilisateur
 
 Les listes ci-dessous décrivent les menus, les commandes, les champs et les propriétés de la page.
 
-- **Nouveau** Vous pouvez ajouter un nouveau périphérique de test avec l’étendue suivante :
+- **Nouvelle** Vous pouvez ajouter un nouvel appareil de test avec l’étendue suivante:
 
   - Globale
 
   - Site
 
-- **Modifier** Vous pouvez modifier les options d’un périphérique de test dans la liste. Utilisez cette option, vous pouvez procédez comme suit :
+- **Modifier** Vous pouvez modifier les options d’un périphérique de test dans la liste. Cette option vous permet d’effectuer les opérations suivantes:
 
-  - **Afficher les détails** Cette option ouvre une boîte de dialogue dans laquelle vous pouvez modifier les options pour un périphérique de test.
+  - **Afficher les détails** Cette option ouvre une boîte de dialogue dans laquelle vous pouvez modifier les options pour un appareil de test.
 
-  - **Sélectionner tout** Cette option sélectionne tous les périphériques de test dans la liste.
+  - **Tout sélectionner** Cette option sélectionne tous les appareils de test dans la liste.
 
   - **Supprimer** Cette option supprime tous les périphériques de test sélectionnés.
 
-- **Actualiser** Vous pouvez actualiser la liste de périphériques de test pour vérifier le statut des options de tous les périphériques de test.
+- **Actualiser** Vous pouvez actualiser la liste de périphériques de test pour vérifier l’état des options de tous les appareils de test.
 
 Pour plus d’informations sur le test des périphériques, reportez-vous à la rubrique [Add a Device to Test Update Functionality](https://technet.microsoft.com/library/ce509fd1-17b3-4b78-b269-fe5d06fe2e1d.aspx) de la documentation des opérations.
 ## <a name="see-also"></a>Voir aussi
 
 [Périphérique de test : création d’un périphérique ou modification d’un périphérique existant](test-device-create-new-or-edit-existing.md)
 
-[Nouvelle-CsTestDevice](https://docs.microsoft.com/powershell/module/skype/new-cstestdevice?view=skype-ps)
+[Nouveau-CsTestDevice](https://docs.microsoft.com/powershell/module/skype/new-cstestdevice?view=skype-ps)
 
 [Set-CsTestDevice](https://docs.microsoft.com/powershell/module/skype/set-cstestdevice?view=skype-ps)
 
-[View Software Updates for Devices dans votre organisation](https://technet.microsoft.com/library/d2cca12b-ed43-4e1f-90ab-d14bca8b482c.aspx)
+[Afficher les mises à jour logicielles des appareils de votre organisation](https://technet.microsoft.com/library/d2cca12b-ed43-4e1f-90ab-d14bca8b482c.aspx)

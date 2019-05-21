@@ -11,7 +11,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Les administrateurs peuvent contrôler le type de conférence audio et d'appels RTC d’utilisateur final pouvant être effectuées par les utilisateurs.
-ms.openlocfilehash: acd75df192211465071940148e35bc7e269c7976
-ms.sourcegitcommit: d1b14268efe334aa93a6889f25fcfe46e07d5daa
+ms.openlocfilehash: e4589a2785d5debf4de6d6a146ede76b020cd2d6
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2019
-ms.locfileid: "33584222"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299152"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>Stratégies de restriction des appels sortants pour l’audioconférence et les appels PSTN des utilisateurs
 
@@ -33,22 +33,22 @@ En tant qu'administrateur, vous pouvez utiliser les contrôles d'appels sortants
 
 Outbound call controls can be applied on a per-user basis and provide the following two controls to independently restrict each type of outbound calls. By default, both controls are set to allow international and domestic outbound calls. 
 
-|Contrôle|Description|Options de contrôle|
+|Télécommande|Description|Options de contrôle|
 |:-----|:-----|:-----|
 |Appels RTC de conférence audio|Limite le type de sortie </br>les appels autorisés de l'intérieur </br>réunions organisées par un utilisateur.|International et national (par défaut)</br>Nationaux</br>Aucun|
 |Appels RTC utilisateur final|Limite le type d'appels </br>qui peuvent être effectués par un utilisateur.|International et national (par défaut)</br>Nationaux</br>Aucun|
 
    > [!NOTE]
-   > Un appel est considéré comme nationale si le numéro composé est dans le même pays où Office 365 a été configuré pour l’organisateur de la réunion (dans le cas des services d’audioconférence), ou de l’utilisateur final (dans le cas d’utilisateurs finaux des appels PSTN). 
+   > Un appel est considéré comme domestique si le numéro composé est dans le même pays que celui où Office 365 a été configuré pour l’organisateur de la réunion (dans le cas d’une audioconférence) ou l’utilisateur final (dans le cas d’appels RTC de l’utilisateur final). 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 ## <a name="restrict-audio-conferencing-outbound-calls"></a>Restreindre les appels sortants de conférence audio 
 
-![les équipes-logo-30x30.png](../images/teams-logo-30x30.png) **à l’aide du centre d’administration Microsoft équipes**
+![teams-logo-30x30. png](../images/teams-logo-30x30.png) **à l’aide du centre d’administration Microsoft teams**
 
-1. Dans la navigation de gauche, cliquez sur **utilisateurs**, puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
+1. Dans le volet de navigation de gauche, cliquez sur **utilisateurs**, puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
 
 2. En haut de la page, cliquez sur **Modifier**.
 
@@ -58,9 +58,9 @@ Outbound call controls can be applied on a per-user basis and provide the follow
 
 5. Cliquez sur **Enregistrer**. 
 
-![SFB-logo-30x30.png](../images/sfb-logo-30x30.png) **à l’aide de la Skype entreprise centre d’administration**
+![SFB-logo-30x30. png](../images/sfb-logo-30x30.png) **à l’aide du centre d’administration Skype entreprise**
 
-1.  Dans la **Skype entreprise centre d’administration**, dans la navigation de gauche, accédez à la **conférence Audio** > **les utilisateurs**, puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
+1.  Dans le **Centre d’administration de Skype entreprise**, dans le volet de navigation de gauche, sélectionnez**utilisateurs**de l' **audioconférence** > , puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
 
 2.  Dans le volet Action, cliquez sur **Modifier**.
 
@@ -73,7 +73,7 @@ Outbound call controls can be applied on a per-user basis and provide the follow
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
-**À l’aide de PowerShell**
+**Utiliser PowerShell**
 
 Outbound call restrictions are controlled by a single policy called OnlineDialOutPolicy which has a restriction attribute for each. The policy cannot be customized, rather there are pre-defined policy instances for each combination of the settings. 
 

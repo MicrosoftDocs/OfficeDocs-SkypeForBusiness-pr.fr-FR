@@ -11,60 +11,60 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: Apparence de la ligne partagé permet à un utilisateur de choisir un délégué à répondre ou gérer les appels en son nom.
-ms.openlocfilehash: d16fe4b3241e814609999d8068ee47743bfca516
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: L’apparence des lignes partagées permet à l’utilisateur de choisir un délégué pour répondre à des appels ou gérer son nom.
+ms.openlocfilehash: 619e011e1af5a765bc86ca6bd68134dc5ab1e9fa
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204490"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298654"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>Mode partage de lignes dans Microsoft Teams
 
-Apparence de la ligne partagé fait partie de la fonctionnalité de délégation qui permet à un utilisateur de choisir un délégué à répondre ou gérer les appels en son nom. Cette fonctionnalité est utile si l’utilisateur a un assistant administratif régulièrement gère les appels de l’utilisateur. Dans le contexte de l’apparence de la ligne partagée, un gestionnaire est une personne qui autorise un délégué d’émettre ou recevoir des appels en son nom, et un délégué peut émettre et recevoir des appels de la part de quelqu'un d’autre.
+L’apparence des lignes partagées fait partie de la fonctionnalité de délégation qui permet à l’utilisateur de choisir un délégué pour répondre aux appels ou gérer ses appels en son nom. Cette fonctionnalité est utile si un utilisateur dispose d’un assistant administratif qui gère régulièrement les appels de l’utilisateur. Dans le contexte de l’apparence de ligne partagée, un responsable est une personne qui autorise un délégué à passer ou recevoir des appels en son nom et un délégué peut émettre et recevoir des appels au nom d’une autre personne.
 
 > [!IMPORTANT]
-> Cette fonctionnalité est uniquement disponible en mode de déploiement équipes uniquement. Pour plus d’informations sur les modes de déploiement d’équipes, voir [comprendre les équipes Microsoft et Skype pour l’interopérabilité et coexistence d’entreprise](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+> Cette fonctionnalité n’est disponible que dans le mode déploiement d’équipes. Pour plus d’informations sur les modes de déploiement d’équipes, voir comprendre les modes de déploiement de Microsoft Teams, ainsi [que la coexistence et l’interopérabilité de Skype entreprise](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 
 ## <a name="license-required"></a>Licence requise
 
-Un utilisateur doit être un utilisateur de voix entreprise un délégué ou configurer la délégation et permettre aux autres d’émettre ou recevoir des appels en son nom.
+Un utilisateur doit être un utilisateur de voix entreprise pour être délégué ou configuré délégation et permettre à d’autres personnes de passer ou de recevoir des appels en son nom.
 
-Les responsables et les délégués doivent être enterprise voice est activé. L’expérience de ligne partagé fait partie de la délégation et ne requiert aucune licence supplémentaire. Pour plus d’informations sur le modèle de licence, voir [Gestion des licences Office 365 pour les équipes Microsoft](office-365-licensing.md).
+Les responsables et délégués doivent être compatibles voix entreprise. L’interface de ligne partagée fait partie de la délégation et ne nécessite pas de licence supplémentaire. Pour plus d’informations sur le modèle de gestion des licences, voir gestion [des licences Office 365 pour Microsoft teams](office-365-licensing.md).
 
-## <a name="configuring-delegation-and-shared-line-appearance"></a>Configuration de la délégation et l’apparence de la ligne partagé
+## <a name="configuring-delegation-and-shared-line-appearance"></a>Configuration de la délégation et de l’apparence des lignes partagées
 
-Délégation et l’apparence de la ligne partagé sont effectuées par les utilisateurs des fonctionnalités : aucun paramètre d’administration pour configurer. Pour plus d’informations sur la façon d’utiliser la fonctionnalité, voir [partager une ligne téléphonique avec un délégué](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8)
+Les fonctionnalités de délégation et d’affichage des lignes partagées sont des fonctionnalités utilisateur: il n’y a aucun paramètre d’administration à configurer. Pour plus d’informations sur l’utilisation de la fonctionnalité, voir [partager une ligne téléphonique avec un délégué](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8) .
 
-L’administrateur du client doit activer la délégation via le paramètre **TeamsCallingPolicy AllowDelegation** de cette fonctionnalité pour travailler.
+L’administrateur client doit activer la délégation via le paramètre **TeamsCallingPolicy AllowDelegation** pour que cette fonctionnalité fonctionne.
 
-## <a name="shared-line-appearance-feature-availability"></a>Partage de disponibilité des fonctionnalités ligne apparence
+## <a name="shared-line-appearance-feature-availability"></a>Disponibilité des fonctionnalités d’apparence des lignes partagées
 
-Apparence de la ligne partagé est actuellement pris en charge par les périphériques et les applications suivantes.
+L’apparence des lignes partagées est actuellement prise en charge par les applications et appareils suivants.
 
-| Fonctionnalité | Bureau des équipes | Les équipes Mac application | Les équipes Web App (périmètre) |Les équipes mobile iOS/Android application | Téléphone IP d’équipes |
+| Faculté | Bureau teams | Application Mac teams | Team Web App (Edge) |Application mobile iOS/Android teams | Téléphone IP teams |
 |------------|---------------|---------------|----------------------|-----------------------------|----------------|
 | Configurer la délégation | Oui  | Oui  | Oui | Non | Non |
-| Recevoir des appels de la part d’une autre | Oui  | Oui  | Oui  | Oui  | Oui |
-| Appeler un numéro de téléphone au nom d’une autre | Oui  | Oui  | Oui  | Oui  | Oui |
-| Appelez un utilisateur équipes part d’une autre | Oui  | Oui  | Oui  | Oui  | Oui |
-| Vue d’administration de lignes partagés | Oui  | Oui  | Oui | Non | Non |
-| Vue d’administration des activités d’appel du responsable | Oui  | Oui  | Oui | Non | Non |
-| Voir la vue du Gestionnaire de délégués | Oui  | Oui  | Oui | Non | Non |
-| Admin ou gestionnaire peut contenir ou reprendre | Oui  | Oui  | Oui | Non | Non |
+| Recevoir des appels au nom d’un autre | Oui  | Oui  | Oui  | Oui  | Oui |
+| Appeler un numéro de téléphone pour le compte d’une autre | Oui  | Oui  | Oui  | Oui  | Oui |
+| Appeler un utilisateur de teams au nom d’un autre | Oui  | Oui  | Oui  | Oui  | Oui |
+| Voir la vue d’administration des lignes partagées | Oui  | Oui  | Oui | Non | Non |
+| Voir la vue d’administration des activités d’appel du responsable | Oui  | Oui  | Oui | Non | Non |
+| Afficher le mode responsable des délégués | Oui  | Oui  | Oui | Non | Non |
+| L’administrateur ou le responsable peut mettre en attente ou reprendre | Oui  | Oui  | Oui | Non | Non |
 
-## <a name="limitations"></a>Limitations
+## <a name="limitations"></a>Conditions
 
-Les responsables peuvent ajouter jusqu'à 25 délégués et les délégués peuvent avoir jusqu'à 25 responsables. Il n’existe aucune limite au nombre de niveaux de délégation qui peuvent être créés dans un client. 
+Les responsables peuvent ajouter jusqu’à 25 délégués et des délégués peuvent compter jusqu’à 25 responsables. Il n’y a aucune limite au nombre de relations de délégation qui peuvent être créées dans un client. 
  
-Si la personne qui a délégué et un délégué ne se trouvent pas dans le même emplacement géographique, il est le fournisseur PSTN pour autoriser l’ID de l’appelant s’affiche à partir d’un autre emplacement géographique d’un appel de délégué (de la part de). 
+Si le délégué et la personne qui ne se trouvent pas dans le même emplacement géographique, c’est le fournisseur RTC qu’il est autorisé à afficher l’identification de l’appelant à partir d’un autre emplacement géographique pour un appel délégué (au nom de). 
  
 ## <a name="more-information"></a>Plus d’informations
 
