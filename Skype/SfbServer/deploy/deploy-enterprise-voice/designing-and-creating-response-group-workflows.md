@@ -1,10 +1,10 @@
 ---
-title: Concevoir et créer des flux de travail de groupe de réponse dans Skype pour les entreprises
+title: Conception et création de flux de travail de groupe de réponse dans Skype entreprise
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,17 +13,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: dcb9effb-5d12-4dee-80fc-ab9654222d5a
-description: Concevoir et créer des flux de travail Response Group dans Skype pour Business Server Enterprise Voice. Les flux de travail de groupe de recherche et les flux de travail interactifs sont tous les deux couverts.
-ms.openlocfilehash: 9ae4a229c0b7ece3e9dbb858bc0491fea123e479
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Créez et créez des flux de travail de groupe de réponse dans Skype entreprise Server Voice. Les flux de travail de groupe de recherche et les flux de travail interactifs sont tous les deux couverts.
+ms.openlocfilehash: 2ae6562ed4182c4c2ac5a801aa72b0505a19cf4f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892569"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291671"
 ---
-# <a name="designing-and-creating-response-group-workflows-in-skype-for-business"></a>Concevoir et créer des flux de travail de groupe de réponse dans Skype pour les entreprises
+# <a name="designing-and-creating-response-group-workflows-in-skype-for-business"></a>Conception et création de flux de travail de groupe de réponse dans Skype entreprise
 
-Concevoir et créer des flux de travail Response Group dans Skype pour Business Server Enterprise Voice. Les flux de travail de groupe de recherche et les flux de travail interactifs sont tous les deux couverts.
+Créez et créez des flux de travail de groupe de réponse dans Skype entreprise Server Voice. Les flux de travail de groupe de recherche et les flux de travail interactifs sont tous les deux couverts.
 
 Un flux de travail définit le comportement d’un appel, du déclenchement de la sonnerie du téléphone jusqu’au moment où une personne répond à l’appel. Le flux de travail spécifie la file d’attente à utiliser pour la mise en attente de l’appel et indique la méthode de routage à appliquer aux groupes de recherche ou les questions et les réponses à utiliser pour les groupes Response Group interactifs.
 
@@ -34,11 +34,11 @@ Un flux de travail définit également des paramètres, comme un message d’acc
 
 ## <a name="creating-or-modifying-a-hunt-group-workflow"></a>Création ou modification d’un flux de travail de groupe de recherche
 
-### <a name="to-use-response-group-configuration-tool-to-create-or-modify-a-hunt-group-workflow"></a>Pour utiliser l’outil de Configuration pour Response Group pour créer ou modifier un flux de travail de groupe de recherche
+### <a name="to-use-response-group-configuration-tool-to-create-or-modify-a-hunt-group-workflow"></a>Pour utiliser l’outil de configuration de groupe de réponse pour créer ou modifier un flux de travail de groupe de recherche
 
-1. Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre de l’un des rôles d’administration prédéfinis qui prennent en charge Response Group.
+1. Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre de l’un des rôles d’administration prédéfinis prenant en charge Response Group.
 
-2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business.
+2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration Skype entreprise Server.
 
 3. Dans la barre de navigation de gauche, cliquez sur **Services Response Group**, puis sur **Flux de travail**.
 
@@ -47,26 +47,26 @@ Un flux de travail définit également des paramètres, comme un message d’acc
 5. Dans le champ de recherche **Sélectionner un service**, tapez entièrement ou partiellement le nom du service **ApplicationServer** qui héberge le flux de travail à créer ou à modifier. Dans la liste des services obtenus, cliquez sur le service de votre choix, puis sur **OK**.
 
     > [!NOTE]
-    > L’outil de Configuration Response Group s’ouvre. Vous pouvez également ouvrir l’outil de Configuration Response Group directement à partir d’un navigateur web en tapant l’URL suivante : https://\<webPoolFqdn\>/RgsConfig.
+    > L’outil de configuration de Response Group s’ouvre. Vous pouvez également ouvrir l’outil de configuration de groupe de réponse directement à partir d’un navigateur Web en tapant\<l'\>URL suivante: https://webPoolFqdn/RgsConfig.
 
 6. Effectuez l’une des actions suivantes :
 
-   - Sous **créer un flux de travail**, en regard du **Groupe de recherche**, cliquez sur **créer**.
+   - Sous **créer un nouveau flux de travail**, en regard de **groupe de recherche**, cliquez sur **créer**.
 
    - Sous **Gérer un flux de travail existant**, recherchez le flux de travail à modifier, puis sous **Action**, cliquez sur **Modifier**.
 
 7. Si vous êtes prêt et que les utilisateurs peuvent commencer à appeler le flux de travail, activez la case à cocher **Activer le flux de travail**.
 
     > [!NOTE]
-    >  Si vous créez un flux de travail géré, vous devez sélectionner **Activer le flux de travail**. Une fois le flux de travail géré actif enregistré, vous pouvez le modifier et le désactiver.
+    >  Si vous créez un flux de travail géré, vous devez sélectionner **activer le flux de travail**. Une fois le flux de travail géré actif enregistré, vous pouvez le modifier et le désactiver.
 
-8. Pour autoriser les utilisateurs fédérés à appeler le groupe, activez la case à cocher **Activer pour la fédération**. Vous devez également disposer d’une stratégie d’accès externe qui s’applique à l’application Response Group configurée pour la fédération.
-
-    > [!NOTE]
-    > La stratégie d’accès externe globale s’applique à l’application Response Group. Vous pouvez configurer la stratégie globale pour la fédération de groupe de réponse à l’aide de Skype pour le panneau de configuration serveur Business ou à l’aide de l’applet de commande **Set-CsExternalAccessPolicy** pour définir le paramètre EnableOutsideAccess sur True. Gardez à l’esprit que les paramètres de stratégie globale s’appliquent à tous les utilisateurs sauf s’ils sont affectés à un site ou une stratégie d’utilisateur. Par conséquent, avant de modifier ce paramètre pour les groupes Response Group, assurez-vous que le paramètre de fédération satisfait les exigences de votre organisation. Pour plus d’informations sur l’application des stratégies aux utilisateurs, reportez-vous à la rubrique [Manage External Access Policy for Your Organization](https://technet.microsoft.com/library/5571811e-34c8-443a-b94c-1ab5d4275581.aspx). Pour plus d’informations sur le paramètre de fédération, voir [Set-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy?view=skype-ps).
+8. Pour autoriser les utilisateurs fédérés à appeler le groupe, activez la case à cocher **Activer pour la fédération**. Vous devez également disposer d’une stratégie d’accès externe qui s’applique à l’application de Response Group configurée pour la Fédération.
 
     > [!NOTE]
-    > Les utilisateurs qui sont hébergées dans Skype pour Business Online ne peuvent pas passer des appels à des groupes de réponses qui sont hébergées dans un déploiement sur site. Cela est vrai dans les deux déploiements hybrides et dans les cas où un déploiement sur site est fédéré avec une Skype pour le déploiement d’entreprise en ligne.
+    > La stratégie d’accès externe globale s’applique à l’application Response Group. Vous pouvez configurer la stratégie globale pour la Fédération de groupe de réponse en utilisant le panneau de configuration Skype entreprise Server ou en utilisant l’applet de commande **Set-CsExternalAccessPolicy** pour définir le paramètre EnableOutsideAccess sur true. Gardez à l’esprit que les paramètres de stratégie globale s’appliquent à tous les utilisateurs sauf s’ils sont affectés à un site ou une stratégie d’utilisateur. Par conséquent, avant de modifier ce paramètre pour les groupes Response Group, assurez-vous que le paramètre de fédération satisfait les exigences de votre organisation. Pour plus d’informations sur l’application des stratégies aux utilisateurs, reportez-vous à la rubrique [Manage External Access Policy for Your Organization](https://technet.microsoft.com/library/5571811e-34c8-443a-b94c-1ab5d4275581.aspx). Pour plus d’informations sur le paramètre de Fédération, voir [Set-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy?view=skype-ps).
+
+    > [!NOTE]
+    > Les utilisateurs hébergés dans Skype entreprise Online ne peuvent pas passer d’appels vers des groupes de réponse hébergés dans un déploiement local. C’est vrai dans les déploiements hybrides et dans les cas où un déploiement local est fédéré avec un déploiement de Skype entreprise online.
 
 9. Pour masquer l’identité des agents pendant les appels, activez la case à cocher **Activer l’anonymat de l’agent**.
 
@@ -76,9 +76,9 @@ Un flux de travail définit également des paramètres, comme un message d’acc
 10. Sous **Entrez l’adresse du groupe qui recevra les appels**, cliquez sur l’adresse URI SIP (Session Initiation Protocol) principale du groupe qui doit prendre les appels vers le flux de travail.
 
     > [!NOTE]
-    > L’URI principal pour un flux de travail définit les modalités d’identification et de référencement du flux de travail. L’URI SIP que vous entrez est créée en tant qu’objet contact dans les Services de domaine Active Directory. Pour créer l’URI, l’objet doit être unique dans Active Directory.
+    > L’URI principal pour un flux de travail définit les modalités d’identification et de référencement du flux de travail. L’URI SIP que vous entrez est créé en tant qu’objet de contact dans les services de domaine Active Directory (AD FS). Pour créer l’URI, l’objet doit être unique dans Active Directory.
 
-11. Dans la zone **nom complet**, tapez le nom que vous souhaitez afficher pour le flux de travail (par exemple, ventes Response Group).
+11. Dans **nom complet**, tapez le nom que vous voulez afficher pour le flux de travail (par exemple, groupe réponse vente).
 
     > [!NOTE]
     > N’incluez pas les caractères « < » ni « > » dans le nom d’affichage. N’utilisez pas les noms d’affichage ci-dessous, car ils sont réservés : **RGS Presence Watcher** ou **Service d’annonce**.
@@ -87,9 +87,9 @@ Un flux de travail définit également des paramètres, comme un message d’acc
 
 13. Dans **Numéro affiché**, tapez le numéro tel qu’il doit s’afficher pour le groupe Response Group (par exemple, +1 (425) 555-0165).
 
-14. (Facultatif) Dans la zone **Description**, tapez une description pour le flux de travail que vous souhaitez qu’il apparaisse sur la carte de visite dans Skype pour les entreprises.
+14. Facultatif Dans **Description**, tapez une description pour le flux de travail tel que vous souhaitez qu’il apparaisse sur la carte de visite dans Skype entreprise.
 
-15. Dans **Type de flux de travail**, sélectionnez **Géré** si ce flux de travail sera géré par un responsable de groupes Response Group. Procédez comme suit pour affecter des responsables de groupe de réponse pour le flux de travail :
+15. Dans **Type de flux de travail**, sélectionnez **Géré** si ce flux de travail sera géré par un responsable de groupes Response Group. Pour affecter des responsables de groupe de réponse au flux de travail, procédez comme suit:
 
     a. Tapez l’URI SIP (Session Initiation Protocol) d’un responsable pour ce flux de travail, puis cliquez sur **Ajouter**.
 
@@ -122,7 +122,7 @@ Un flux de travail définit également des paramètres, comme un message d’acc
     - Pour utiliser un planning prédéfini d’heures d’ouverture, cliquez sur **Utiliser un planning prédéfini**, puis sélectionnez le planning souhaité dans la liste déroulante.
 
       > [!NOTE]
-      > Pour sélectionner cette option, vous devez avoir défini précédemment au moins un planning prédéfini. Vous pouvez spécifier des plannings prédéfinis à l’aide de l’applet de commande **New-CSRgsHoursOfBusiness**. Pour plus d’informations, voir [heures (facultatif) définir Response Group dans Skype pour les entreprises](optional-define-response-group-business-hours.md).
+      > Pour sélectionner cette option, vous devez avoir défini précédemment au moins un planning prédéfini. Vous pouvez spécifier des plannings prédéfinis à l’aide de l’applet de commande **New-CSRgsHoursOfBusiness**. Pour plus d’informations, reportez-vous à la rubrique [définir les heures d’activité du groupe de réponses dans Skype entreprise](optional-define-response-group-business-hours.md).
 
       > [!NOTE]
       > Lorsque vous sélectionnez un planning prédéfini, les champs **Jour**, **Ouverture** et **Fermeture** sont renseignés automatiquement avec les jours et les heures de disponibilité du groupe Response Group.
@@ -131,7 +131,7 @@ Un flux de travail définit également des paramètres, comme un message d’acc
 
 20. Si vous créez un planning personnalisé pour ce flux de travail, activez les cases à cocher correspondant aux jours de la semaine pendant lesquels le groupe Response Group est disponible.
 
-21. Si vous créez un planning personnalisé, tapez les heures **d’ouverture** et de **fermeture** pour chaque jour de la semaine où le service response group est disponible.
+21. Si vous créez une planification personnalisée, tapez les heures d' **ouverture** et de **fermeture** de chaque jour de la semaine auxquelles le groupe de réponses est disponible.
 
     > [!NOTE]
     > Les heures **Ouverture** et **Fermeture** doivent être au format 24 heures. Par exemple, si votre bureau est ouvert de 9 heures à 17 heures et fermé à midi pour le déjeuner, les heures d’ouverture sont spécifiées comme suit : **Ouverture** 9:00, **Fermeture** 12:00, **Ouverture** 13:00 et **Fermeture** 17:00.
@@ -152,16 +152,16 @@ Un flux de travail définit également des paramètres, comme un message d’acc
 
     - Pour déconnecter l’appel, cliquez sur **Déconnecter l’appel**.
 
-    - Pour transférer l’appel vers la messagerie vocale, cliquez sur **Transférer à la messagerie vocale**, puis tapez l’adresse de la messagerie vocale. Le format de l’adresse de messagerie vocale est * \<nom d’utilisateur\>*@*\<domainName\> * (par exemple, bob@contoso.com).
+    - Pour transférer l’appel vers la messagerie vocale, cliquez sur **Transférer à la messagerie vocale**, puis tapez l’adresse de la messagerie vocale. Le format de l’adresse de messagerie vocale * \<est\>nom d’utilisateur*@*\<nom_domaine\> * (par exemple, Bob@contoso.com).
 
-    - Pour transférer l’appel vers un autre utilisateur, cliquez sur **Transférer à l’URI SIP**, puis tapez l’adresse de l’utilisateur. Le format de l’adresse de l’utilisateur est _ \<nom d’utilisateur\>_@_\<domainName\>_.
+    - Pour transférer l’appel vers un autre utilisateur, cliquez sur **Transférer à l’URI SIP**, puis tapez l’adresse de l’utilisateur. Le format de l’adresse utilisateur est _ \<nom\>d’utilisateur_@_\<\>nom_domaine_.
 
-    - Pour transférer l’appel vers un autre numéro de téléphone, cliquez sur **Transférer au numéro de téléphone**, puis tapez le numéro de téléphone. Le format du numéro de téléphone est * \<numéro\>*@*\<domainName\> * (par exemple, +14255550121@contoso.com). Le nom de domaine est utilisé pour router l’appelant vers la destination appropriée.
+    - Pour transférer l’appel vers un autre numéro de téléphone, cliquez sur **Transférer au numéro de téléphone**, puis tapez le numéro de téléphone. Le format de numéro de téléphone est * \<le\>numéro*@*\<nom_domaine\> * (par exemple, + 14255550121@contoso.com). Le nom de domaine est utilisé pour router l’appelant vers la destination appropriée.
 
 24. Dans **Étape 5 Spécification de vos congés**, activez les cases à cocher correspondant à une ou plusieurs périodes de congés définissant les jours de fermeture du groupe Response Group.
 
     > [!NOTE]
-    > Vous devez définir les congés et les périodes de congé avant de configurer le flux de travail. Utilisez les applets de commande **New-CsRgsHoliday** et **New-CsRgsHolidaySet** pour créer des congés et des périodes de congé. Pour plus d’informations, voir [définir Response Group (facultatif) de congés dans Skype pour les entreprises](optional-define-response-group-holiday-sets.md).
+    > Vous devez définir les congés et les périodes de congé avant de configurer le flux de travail. Utilisez les applets de commande **New-CsRgsHoliday** et **New-CsRgsHolidaySet** pour créer des congés et des périodes de congé. Pour plus d’informations, reportez-vous à la rubrique définition des groupes [de vacances de groupe de réponse dans Skype entreprise](optional-define-response-group-holiday-sets.md).
 
 25. Si vous souhaitez que la lecture d’un message se déclenche pendant les congés, activez la case à cocher **Lisez un message pendant les congés**, puis spécifiez le message à lire en effectuant l’une des opérations suivantes :
 
@@ -179,11 +179,11 @@ Un flux de travail définit également des paramètres, comme un message d’acc
 
     - Pour déconnecter l’appel, cliquez sur **Déconnecter l’appel**.
 
-    - Pour transférer l’appel vers la messagerie vocale, cliquez sur **Transférer à la messagerie vocale**, puis tapez l’adresse de la messagerie vocale. Le format de l’adresse de messagerie vocale est * \<nom d’utilisateur\>*@*\<domainName\> * (par exemple, bob@contoso.com).
+    - Pour transférer l’appel vers la messagerie vocale, cliquez sur **Transférer à la messagerie vocale**, puis tapez l’adresse de la messagerie vocale. Le format de l’adresse de messagerie vocale * \<est\>nom d’utilisateur*@*\<nom_domaine\> * (par exemple, Bob@contoso.com).
 
-    - Pour transférer l’appel vers un autre utilisateur, cliquez sur **Transférer à l’URI SIP**, puis tapez l’adresse de l’utilisateur. Le format de l’adresse de l’utilisateur est _ \<nom d’utilisateur\>_@_\<domainName\>_.
+    - Pour transférer l’appel vers un autre utilisateur, cliquez sur **Transférer à l’URI SIP**, puis tapez l’adresse de l’utilisateur. Le format de l’adresse utilisateur est _ \<nom\>d’utilisateur_@_\<\>nom_domaine_.
 
-    - Pour transférer l’appel vers un autre numéro de téléphone, cliquez sur **Transférer au numéro de téléphone**, puis tapez le numéro de téléphone. Le format du numéro de téléphone est * \<numéro\>*@*\<domainName\> * (par exemple, +14255550121@contoso.com). Le nom de domaine est utilisé pour router l’appelant vers la destination appropriée.
+    - Pour transférer l’appel vers un autre numéro de téléphone, cliquez sur **Transférer au numéro de téléphone**, puis tapez le numéro de téléphone. Le format de numéro de téléphone est * \<le\>numéro*@*\<nom_domaine\> * (par exemple, + 14255550121@contoso.com). Le nom de domaine est utilisé pour router l’appelant vers la destination appropriée.
 
 27. Dans **Étape 6 Configuration d’une file d’attente**, dans **Sélectionnez la file d’attente qui reçoit les appels**, sélectionnez la file d’attente dans laquelle mettre les appelants en attendant qu’un agent soit disponible.
 
@@ -198,11 +198,11 @@ Un flux de travail définit également des paramètres, comme un message d’acc
 
 29. Cliquez sur **Déployer**.
 
-### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-a-hunt-group-workflow"></a>Utiliser Skype pour Business Server Management Shell pour créer ou modifier un flux de travail de groupe de recherche
+### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-a-hunt-group-workflow"></a>Pour utiliser Skype entreprise Server Management Shell pour créer ou modifier un flux de travail de groupe de recherche
 
-1. Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre de l’un des rôles d’administration prédéfinis qui prennent en charge Response Group.
+1. Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre de l’un des rôles d’administration prédéfinis prenant en charge Response Group.
 
-2. Démarrez le Skype pour Business Server Management Shell : cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Skype pour Business 2015**, puis cliquez sur **Skype pour Business Server Management Shell**.
+2. Démarrez Skype entreprise Server Management Shell: cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
 
 3. Créez l’invite à exécuter pour le message de bienvenue, et enregistrez-la dans une variable. Dans la ligne de commande, exécutez la commande suivante :
 
@@ -242,11 +242,11 @@ Un flux de travail définit également des paramètres, comme un message d’acc
    $actionWM = New-CsRgsCallAction -Prompt $promptWM -Action TransferToQueue -QueueID $qid.Identity
    ```
 
-6. Si vous voulez définir des heures ouvrées et des congés, vous devez les créer avant de créer et modifier le flux de travail. Pour plus d’informations, voir [heures (facultatif) définir Response Group dans Skype pour les entreprises](optional-define-response-group-business-hours.md) et [(facultatif) définir Response Group de congés dans Skype pour les entreprises](optional-define-response-group-holiday-sets.md).
+6. Si vous voulez définir des heures ouvrées et des congés, vous devez les créer avant de créer et modifier le flux de travail. Pour plus d’informations, reportez-vous à la section [définir les heures d’activité du groupe de réponse dans Skype entreprise](optional-define-response-group-business-hours.md) et [(facultatif) définir les jeux de jours fériés de Response Group dans Skype entreprise](optional-define-response-group-holiday-sets.md).
 
-7. Pour avoir des invites pour les appels reçus en dehors des heures ouvrées ou pendant des congés, utilisez l’applet de commande **New-CsRgsPrompt** pour définir l’invite et **New-CsRgsCallAction** pour définir l’action à effectuer après l’invite. Pour plus d’informations, voir [New-CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/new-csrgsprompt?view=skype-ps) et [New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps).
+7. Pour avoir des invites pour les appels reçus en dehors des heures ouvrées ou pendant des congés, utilisez l’applet de commande **New-CsRgsPrompt** pour définir l’invite et **New-CsRgsCallAction** pour définir l’action à effectuer après l’invite. Pour plus d’informations, reportez-vous à [New-CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/new-csrgsprompt?view=skype-ps) et [New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps).
 
-8. Récupérer le nom de service pour le service Response Group Lync Server et l’assigner à une variable. Dans la ligne de commande, exécutez la commande suivante :
+8. Récupérez le nom du service pour le service du groupe de réponses du serveur Lync et attribuez-le à une variable. Dans la ligne de commande, exécutez la commande suivante :
 
    ```
    $serviceId = "service:" + (Get-CsService | ?{$_.Applications -like "*RGS*"}).ServiceId;
@@ -272,18 +272,18 @@ Un flux de travail définit également des paramètres, comme un message d’acc
 
 ## <a name="designing-an-interactive-workflow"></a>Conception d’un flux de travail interactif
 
-Vous pouvez utiliser la réponse vocale interactive (IVR) pour obtenir des informations des appelants et acheminer l’appel jusqu’à la file d’attente appropriée. Les paires de questions et réponses déterminent la file d’attente à utiliser. Selon la réponse de l’appelant, l’appelant qu’entend une question de suivi ou est acheminé vers la file d’attente appropriée. Les questions à réponse vocale interactive et les réponses de l’appelant sont fournies à l’agent qui accepte l’appel, fournissant des informations précieuses à l’agent répond.
+Vous pouvez utiliser la réponse vocale interactive (IVR) pour obtenir des informations des appelants et acheminer l’appel jusqu’à la file d’attente appropriée. Les paires de questions et réponses déterminent la file d’attente à utiliser. En fonction de la réponse de l’appelant, l’appelant entend une question de suivi ou est routé vers la file d’attente appropriée. Les questions sur le son et les réponses de l’appelant sont fournies à l’agent de réponse qui accepte l’appel afin de fournir des informations importantes à l’agent.
 
 ### <a name="overview-of-ivr-features"></a>Vue d’ensemble des fonctionnalités du système de réponse vocale interactive
 
-L’application Response Group offre des fonctions vocales dans 26 langues et reconnaissance. Vous pouvez entrer les questions du système de réponse vocale interactive à l’aide de la conversion de texte par synthèse vocale, d’un fichier wave (.wav) ou d’un fichier audio Windows Media (.wma). Les appelants peuvent répondre à l’aide de la voix ou de réponses de numérotation en fréquences vocales (DTMF).
+L’application Response Group propose des fonctionnalités de reconnaissance vocale et de synthèse vocale dans 26 langues. Vous pouvez entrer les questions du système de réponse vocale interactive à l’aide de la conversion de texte par synthèse vocale, d’un fichier wave (.wav) ou d’un fichier audio Windows Media (.wma). Les appelants peuvent répondre à l’aide de la voix ou de réponses de numérotation en fréquences vocales (DTMF).
 
-Flux de travail interactif prend en charge jusqu'à deux niveaux de questions, chaque question ayant quatre réponses possibles. La réponse vocale interactive demande à l’appelant une question et en fonction de la réponse de l’appelant, achemine l’appelant vers une file d’attente ou pose une deuxième question. La deuxième question peut également avoir des quatre réponses possibles. Selon la réponse à la question de second niveau, l’appelant est acheminé vers la file d’attente appropriée.
+Les flux de travail interactifs prennent en charge jusqu’à deux niveaux de questions, dont chacune a jusqu’à quatre réponses possibles. L’IVR demande à l’appelant une question et, en fonction de la réponse de l’appelant, route l’appelant vers une file d’attente ou pose une deuxième question. La deuxième question peut également avoir quatre réponses possibles. En fonction de la réponse à la question de second niveau, l’appelant est routé vers la file d’attente appropriée.
 
 > [!NOTE]
-> Lorsque vous concevez un flux d’appels à l’aide de Skype pour Business Server Management Shell, vous pouvez définir un nombre quelconque de niveaux de questions de réponse vocale interactive et n’importe quel nombre de réponses. Cependant, pour faciliter l’utilisation par l’appelant, nous vous conseillons de vous limiter à trois niveaux de questions et cinq réponses par niveau. En outre, si vous concevez un flux d’appels ayant plus de deux niveaux de questions avec plus de quatre réponses chaque, vous ne pouvez pas modifier le flux des appels à l’aide de Skype pour le panneau de configuration serveur Business.
+> Lorsque vous concevez des flux d’appels à l’aide de Skype entreprise Server Management Shell, vous pouvez définir un certain nombre de niveaux de questions et de réponses. Cependant, pour faciliter l’utilisation par l’appelant, nous vous conseillons de vous limiter à trois niveaux de questions et cinq réponses par niveau. De plus, si vous concevez un flux d’appels incluant plus de deux niveaux de questions avec plus de quatre réponses chacune, vous ne pouvez pas modifier le flux d’appels à l’aide du panneau de configuration Skype entreprise Server.
 
-Les questions à réponse vocale interactive et les réponses de l’appelant sont fournies à l’agent qui accepte l’appel répond.
+Les questions sur le son et les réponses de l’appelant sont fournies à l’agent de réponse qui accepte l’appel.
 
 ### <a name="working-with-speech-technologies"></a>Utilisation des technologies vocales
 
@@ -359,7 +359,7 @@ La liste ci-dessous décrit certaines meilleures pratiques lorsque vous concevez
 
 - Parlez dans la langue de l’appelant. Évitez le langage emprunté. Parlez naturellement.
 
-- Écrivez des invites efficaces. Supprimez toutes les options inutiles. Structurez les informations afin que la réponse attendue de l’appelant est à la fin de la phrase. Par exemple, « pour parler à l’équipe commerciale, appuyez sur 1. »
+- Écrivez des invites efficaces. Supprimez toutes les options inutiles. Structurez les informations de sorte que la réponse attendue de l’appelant soit à la fin de la phrase. Par exemple, «pour communiquer avec l’équipe commerciale, appuyez sur 1».
 
 - Rendez les réponses vocales conviviales pour l’appelant. Par exemple, si vous spécifiez des réponses vocales et DTMF, utilisez, par exemple : « Pour parler à l’équipe commerciale, appuyez sur 1 ou dites commercial. »
 
@@ -367,11 +367,11 @@ La liste ci-dessous décrit certaines meilleures pratiques lorsque vous concevez
 
 ## <a name="creating-or-modifying-an-interactive-workflow"></a>Création ou modification d’un flux de travail interactif
 
-### <a name="to-use-response-group-configuration-tool-to-create-or-modify-an-interactive-workflow"></a>Pour utiliser l’outil de Configuration pour Response Group pour créer ou modifier un workflow interactif
+### <a name="to-use-response-group-configuration-tool-to-create-or-modify-an-interactive-workflow"></a>Pour utiliser l’outil de configuration de groupe de réponse pour créer ou modifier un flux de travail interactif
 
-1. Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre de l’un des rôles d’administration prédéfinis qui prennent en charge Response Group.
+1. Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre de l’un des rôles d’administration prédéfinis prenant en charge Response Group.
 
-2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business.
+2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration Skype entreprise Server.
 
 3. Dans la barre de navigation de gauche, cliquez sur **Services Response Group**, puis sur **Flux de travail**.
 
@@ -380,7 +380,7 @@ La liste ci-dessous décrit certaines meilleures pratiques lorsque vous concevez
 5. Dans le champ de recherche **Sélectionner un service**, tapez entièrement ou partiellement le nom du service **ApplicationServer** qui héberge le flux de travail à créer ou à modifier. Dans la liste des services obtenus, cliquez sur le service de votre choix, puis sur **OK**.
 
     > [!NOTE]
-    > L’outil de Configuration Response Group s’ouvre. Vous pouvez également ouvrir l’outil de Configuration Response Group directement à partir d’un navigateur web en tapant l’URL suivante : https://\<webPoolFqdn\>/RgsConfig.
+    > L’outil de configuration de Response Group s’ouvre. Vous pouvez également ouvrir l’outil de configuration de groupe de réponse directement à partir d’un navigateur Web en tapant\<l'\>URL suivante: https://webPoolFqdn/RgsConfig.
 
 6. Effectuez l’une des actions suivantes :
 
@@ -391,15 +391,15 @@ La liste ci-dessous décrit certaines meilleures pratiques lorsque vous concevez
 7. Si vous n’êtes pas prêt et que les utilisateurs ne peuvent pas encore commencer à appeler le flux de travail, décochez la case **Activer le flux de travail**.
 
     > [!NOTE]
-    >  Si vous créez un flux de travail géré, vous devez sélectionner **Activer le flux de travail**. Une fois le flux de travail géré actif enregistré, vous pouvez le modifier et le désactiver.
+    >  Si vous créez un flux de travail géré, vous devez sélectionner **activer le flux de travail**. Une fois le flux de travail géré actif enregistré, vous pouvez le modifier et le désactiver.
 
-8. Pour autoriser les utilisateurs fédérés à appeler le groupe, activez la case à cocher **Activer pour la fédération**. Vous devez également disposer d’une stratégie d’accès externe qui s’applique à l’application Response Group configurée pour la fédération.
-
-    > [!NOTE]
-    > La stratégie d’accès externe globale s’applique à l’application Response Group. Vous pouvez configurer la stratégie globale pour la fédération de groupe de réponse à l’aide de Skype pour le panneau de configuration serveur Business ou à l’aide de l’applet de commande **Set-CsExternalAccessPolicy** pour définir le paramètre EnableOutsideAccess sur True. Gardez à l’esprit que les paramètres de stratégie globale s’appliquent à tous les utilisateurs sauf s’ils sont affectés à un site ou une stratégie d’utilisateur. Par conséquent, avant de modifier ce paramètre pour les groupes Response Group, assurez-vous que le paramètre de fédération satisfait les exigences de votre organisation. Pour plus d’informations sur l’application des stratégies aux utilisateurs, reportez-vous à la rubrique [Manage External Access Policy for Your Organization](https://technet.microsoft.com/library/5571811e-34c8-443a-b94c-1ab5d4275581.aspx). Pour plus d’informations sur le paramètre de fédération, voir **Set-CsExternalAccessPolicy** dans la documentation...
+8. Pour autoriser les utilisateurs fédérés à appeler le groupe, activez la case à cocher **Activer pour la fédération**. Vous devez également disposer d’une stratégie d’accès externe qui s’applique à l’application de Response Group configurée pour la Fédération.
 
     > [!NOTE]
-    > Les utilisateurs qui sont hébergées dans Skype pour Business Online ne peuvent pas passer des appels à des groupes de réponses qui sont hébergées dans un déploiement sur site. Cela est vrai dans les deux déploiements hybrides et dans les cas où un déploiement sur site est fédéré avec une Skype pour le déploiement d’entreprise en ligne.
+    > La stratégie d’accès externe globale s’applique à l’application Response Group. Vous pouvez configurer la stratégie globale pour la Fédération de groupe de réponse en utilisant le panneau de configuration Skype entreprise Server ou en utilisant l’applet de commande **Set-CsExternalAccessPolicy** pour définir le paramètre EnableOutsideAccess sur true. Gardez à l’esprit que les paramètres de stratégie globale s’appliquent à tous les utilisateurs sauf s’ils sont affectés à un site ou une stratégie d’utilisateur. Par conséquent, avant de modifier ce paramètre pour les groupes Response Group, assurez-vous que le paramètre de fédération satisfait les exigences de votre organisation. Pour plus d’informations sur l’application des stratégies aux utilisateurs, reportez-vous à la rubrique [Manage External Access Policy for Your Organization](https://technet.microsoft.com/library/5571811e-34c8-443a-b94c-1ab5d4275581.aspx). Pour plus d’informations sur le paramètre de Fédération, voir **Set-CsExternalAccessPolicy** dans la documentation..
+
+    > [!NOTE]
+    > Les utilisateurs hébergés dans Skype entreprise Online ne peuvent pas passer d’appels vers des groupes de réponse hébergés dans un déploiement local. C’est vrai dans les déploiements hybrides et dans les cas où un déploiement local est fédéré avec un déploiement de Skype entreprise online.
 
 9. Pour masquer l’identité des agents pendant les appels, activez la case à cocher **Activer l’anonymat de l’agent**.
 
@@ -411,15 +411,15 @@ La liste ci-dessous décrit certaines meilleures pratiques lorsque vous concevez
 11. Dans **Nom d’affichage**, tapez le nom que vous souhaitez afficher pour le flux de travail (par exemple, Sales IVR Response Group).
 
     > [!NOTE]
-    > N’incluez pas le «\<« ou »\>» caractères dans le nom complet. N’utilisez pas les noms d’affichage ci-dessous, car ils sont réservés : **RGS Presence Watcher** ou **Service d’annonce**.
+    > N’incluez pas les\<caractères «»\>ou «» dans le nom d’affichage. N’utilisez pas les noms d’affichage ci-dessous, car ils sont réservés : **RGS Presence Watcher** ou **Service d’annonce**.
 
 12. Dans **Numéro de téléphone**, tapez l’URI de ligne pour le groupe Response Group (par exemple, +14255550165).
 
 13. Dans **Numéro affiché**, tapez le numéro tel qu’il doit s’afficher pour le groupe Response Group (par exemple, +1 (425) 555-0165).
 
-14. (Facultatif) Dans la zone **Description**, tapez une description pour le flux de travail que vous souhaitez voir apparaître sur la carte de visite dans Skype pour les entreprises.
+14. Facultatif Dans **Description**, tapez une description pour le flux de travail que vous souhaitez voir apparaître sur la carte de visite dans Skype entreprise.
 
-15. Dans **Type de flux de travail**, sélectionnez **Géré** si ce flux de travail sera géré par un responsable de groupes Response Group. Procédez comme suit pour affecter des responsables de groupe de réponse pour le flux de travail :
+15. Dans **Type de flux de travail**, sélectionnez **Géré** si ce flux de travail sera géré par un responsable de groupes Response Group. Pour affecter des responsables de groupe de réponse au flux de travail, procédez comme suit:
 
     a. Tapez l’URI SIP (Session Initiation Protocol) d’un responsable pour ce flux de travail, puis cliquez sur **Ajouter**.
 
@@ -452,13 +452,13 @@ La liste ci-dessous décrit certaines meilleures pratiques lorsque vous concevez
     - Pour utiliser un planning prédéfini d’heures d’ouverture, cliquez sur **Utiliser un planning prédéfini**, puis sélectionnez le planning souhaité dans la liste déroulante.
 
       > [!NOTE]
-      > Pour sélectionner cette option, vous devez avoir défini précédemment au moins un planning prédéfini. Vous définissez des planifications prédéfinies à l’aide de l’applet de commande **New-CsRgsHoursOfBusiness** . Pour plus d’informations, voir [heures (facultatif) définir Response Group dans Skype pour les entreprises](optional-define-response-group-business-hours.md). Lorsque vous sélectionnez un planning prédéfini, les champs **Jour**, **Ouverture** et **Fermeture** sont renseignés automatiquement avec les jours et les heures de disponibilité du groupe Response Group.
+      > Pour sélectionner cette option, vous devez avoir défini précédemment au moins un planning prédéfini. Pour définir des plannings prédéfinis, vous devez utiliser l’applet **de nouvelle cmdlet New-CsRgsHoursOfBusiness** . Pour plus d’informations, reportez-vous à la rubrique [définir les heures d’activité du groupe de réponses dans Skype entreprise](optional-define-response-group-business-hours.md). Lorsque vous sélectionnez un planning prédéfini, les champs **Jour**, **Ouverture** et **Fermeture** sont renseignés automatiquement avec les jours et les heures de disponibilité du groupe Response Group.
 
     - Pour utiliser un planning personnalisé qui ne s’applique qu’à ce flux de travail, cliquez sur **Utiliser un planning personnalisé**.
 
 20. Si vous créez un planning personnalisé pour ce flux de travail, activez les cases à cocher correspondant aux jours de la semaine pendant lesquels le groupe Response Group est disponible.
 
-21. Si vous créez un planning personnalisé, tapez les heures **d’ouverture** et de **fermeture** lorsque le service response group sera disponible.
+21. Si vous créez une planification personnalisée, tapez les heures d' **ouverture** et de **fermeture** lorsque le groupe de réponses sera disponible.
 
      > [!NOTE]
      > Les heures **Ouverture** et **Fermeture** doivent être au format 24 heures. Par exemple, si votre bureau est ouvert de 9 heures à 17 heures et fermé à midi pour le déjeuner, les heures d’ouverture sont spécifiées comme suit : **Ouverture** 9:00, **Fermeture** 12:00, **Ouverture** 13:00 et **Fermeture** 17:00.
@@ -479,16 +479,16 @@ La liste ci-dessous décrit certaines meilleures pratiques lorsque vous concevez
 
     - Pour déconnecter l’appel, cliquez sur **Déconnecter l’appel**.
 
-    - Pour transférer l’appel vers la messagerie vocale, cliquez sur **Transférer à la messagerie vocale**, puis tapez l’adresse de la messagerie vocale. Le format de l’adresse de messagerie vocale est * \<nom d’utilisateur\>*@*\<domainname\> * (par exemple, bob@contoso.com).
+    - Pour transférer l’appel vers la messagerie vocale, cliquez sur **Transférer à la messagerie vocale**, puis tapez l’adresse de la messagerie vocale. Le format de l’adresse de messagerie vocale * \<est\>nom d’utilisateur*@*\<nom_domaine\> * (par exemple, Bob@contoso.com).
 
-    - Pour transférer l’appel vers un autre utilisateur, cliquez sur **Transférer à l’URI SIP**, puis tapez l’adresse de l’utilisateur. Le format de l’adresse de l’utilisateur est _ \<nom d’utilisateur\>_@_\<domainname\>_.
+    - Pour transférer l’appel vers un autre utilisateur, cliquez sur **Transférer à l’URI SIP**, puis tapez l’adresse de l’utilisateur. Le format de l’adresse utilisateur est _ \<nom\>d’utilisateur_@_\<\>nom_domaine_.
 
-    - Pour transférer l’appel vers un autre numéro de téléphone, cliquez sur **Transférer au numéro de téléphone**, puis tapez le numéro de téléphone. Le format du numéro de téléphone est * \<numéro\>*@*\<domainname\> * (par exemple, +14255550121@contoso.com). Le nom de domaine est utilisé pour router l’appelant vers la destination appropriée.
+    - Pour transférer l’appel vers un autre numéro de téléphone, cliquez sur **Transférer au numéro de téléphone**, puis tapez le numéro de téléphone. Le format de numéro de téléphone est * \<le\>numéro*@*\<nom_domaine\> * (par exemple, + 14255550121@contoso.com). Le nom de domaine est utilisé pour router l’appelant vers la destination appropriée.
 
 24. Dans **Étape 5 Spécification de vos congés**, activez les cases à cocher correspondant à une ou plusieurs périodes de congés définissant les jours de fermeture du groupe Response Group.
 
     > [!NOTE]
-    > Vous devez définir les congés et les périodes de congé avant de configurer le flux de travail. Utilisez les applets de commande **New-CsRgsHoliday** et **New-CsRgsHolidaySet** pour créer des congés et des périodes de congé. Pour plus d’informations, voir [définir Response Group (facultatif) de congés dans Skype pour les entreprises](optional-define-response-group-holiday-sets.md).
+    > Vous devez définir les congés et les périodes de congé avant de configurer le flux de travail. Utilisez les applets de commande **New-CsRgsHoliday** et **New-CsRgsHolidaySet** pour créer des congés et des périodes de congé. Pour plus d’informations, reportez-vous à la rubrique définition des groupes [de vacances de groupe de réponse dans Skype entreprise](optional-define-response-group-holiday-sets.md).
 
 25. Si vous souhaitez que la lecture d’un message se déclenche pendant les congés, activez la case à cocher **Lisez un message pendant les congés**, puis spécifiez le message à lire en effectuant l’une des opérations suivantes :
 
@@ -506,11 +506,11 @@ La liste ci-dessous décrit certaines meilleures pratiques lorsque vous concevez
 
     - Pour déconnecter l’appel, cliquez sur **Déconnecter l’appel**.
 
-    - Pour transférer l’appel vers la messagerie vocale, cliquez sur **Transférer à la messagerie vocale**, puis tapez l’adresse de la messagerie vocale. Le format de l’adresse de messagerie vocale est * \<nom d’utilisateur\>*@*\<domainname\> * (par exemple, bob@contoso.com).
+    - Pour transférer l’appel vers la messagerie vocale, cliquez sur **Transférer à la messagerie vocale**, puis tapez l’adresse de la messagerie vocale. Le format de l’adresse de messagerie vocale * \<est\>nom d’utilisateur*@*\<nom_domaine\> * (par exemple, Bob@contoso.com).
 
-    - Pour transférer l’appel vers un autre utilisateur, cliquez sur **Transférer à l’URI SIP**, puis tapez l’adresse de l’utilisateur. Le format de l’adresse de l’utilisateur est _ \<nom d’utilisateur\>_@_\<domainname\>_.
+    - Pour transférer l’appel vers un autre utilisateur, cliquez sur **Transférer à l’URI SIP**, puis tapez l’adresse de l’utilisateur. Le format de l’adresse utilisateur est _ \<nom\>d’utilisateur_@_\<\>nom_domaine_.
 
-    - Pour transférer l’appel vers un autre numéro de téléphone, cliquez sur **Transférer au numéro de téléphone**, puis tapez le numéro de téléphone. Le format du numéro de téléphone est * \<numéro\>*@*\<domainname\> * (par exemple, +14255550121@contoso.com). Le nom de domaine est utilisé pour router l’appelant vers la destination appropriée.
+    - Pour transférer l’appel vers un autre numéro de téléphone, cliquez sur **Transférer au numéro de téléphone**, puis tapez le numéro de téléphone. Le format de numéro de téléphone est * \<le\>numéro*@*\<nom_domaine\> * (par exemple, + 14255550121@contoso.com). Le nom de domaine est utilisé pour router l’appelant vers la destination appropriée.
 
 27. Dans **Étape 6 Configuration d’une attente musicale**, indiquez ce que les appelants doivent entendre pendant qu’ils attendent un agent. Pour cela, procédez de l’une des façons suivantes :
 
@@ -531,7 +531,7 @@ La liste ci-dessous décrit certaines meilleures pratiques lorsque vous concevez
     > [!NOTE]
     > Le moteur de synthèse vocale convertit le symbole « # » par le mot « numéro ». Pour faire référence à la touche #, utilisez le nom de celle-ci au lieu de son symbole dans votre message d’invite. Par exemple, « Pour être mis en relation avec le service commercial, appuyez sur la touche dièse ».
 
-    - Pour utiliser un fichier audio préenregistré contenant la question, cliquez sur **Sélectionner un enregistrement**, puis cliquez sur le lien **un enregistrement** pour télécharger le fichier. Dans la nouvelle fenêtre de navigateur, cliquez sur **Parcourir**, sélectionnez le fichier audio, puis cliquez sur **Ouvrir**. Cliquez sur **Télécharger** pour charger le fichier, puis vous pouvez taper la question dans la zone de texte (Cela permet la question et réponse de l’appelant, à transmettre à l’agent qui répond).
+    - Pour utiliser un fichier audio préenregistré contenant la question, cliquez sur **Sélectionner un enregistrement**, puis cliquez sur le lien **un enregistrement** pour télécharger le fichier. Dans la nouvelle fenêtre de navigateur, cliquez sur **Parcourir**, sélectionnez le fichier audio, puis cliquez sur **Ouvrir**. Cliquez sur **charger** pour charger le fichier, puis, si vous le souhaitez, vous pouvez taper la question dans la zone de texte (cela permet de transférer la question et la réponse de l’appelant à l’agent en réponse).
 
       > [!NOTE]
       > Tous les fichiers audio fournis aux utilisateurs doivent remplir certains critères. Pour plus d’informations sur les formats de fichier pris en charge, reportez-vous à la rubrique [Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
@@ -558,11 +558,11 @@ La liste ci-dessous décrit certaines meilleures pratiques lorsque vous concevez
 
 32. Cliquez sur **Déployer**.
 
-### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-an-interactive-workflow"></a>Utiliser Skype pour Business Server Management Shell pour créer ou modifier un workflow interactif
+### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-an-interactive-workflow"></a>Pour utiliser Skype entreprise Server Management Shell pour créer ou modifier un flux de travail interactif
 
-1.  Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre de l’un des rôles d’administration prédéfinis qui prennent en charge Response Group.
+1.  Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre de l’un des rôles d’administration prédéfinis prenant en charge Response Group.
 
-2. Démarrez le Skype pour Business Server Management Shell : cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Skype pour Business 2015**, puis cliquez sur **Skype pour Business Server Management Shell**.
+2. Démarrez Skype entreprise Server Management Shell: cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
 
 3. Extrayez le nom de service du service Response Group et affectez-le à une variable. À partir de la ligne de commande, exécutez la commande suivante :
 
@@ -640,19 +640,19 @@ La liste ci-dessous décrit certaines meilleures pratiques lorsque vous concevez
     ```
 
      > [!NOTE]
-     > Tous les utilisateurs qui ont été désignés en tant que gestionnaire d’un groupe de réponse doivent être affectés au rôle CsResponseGroupManager. Dans le cas contraire, ils ne peuvent pas gérer de groupe Response Group.
+     > Tous les utilisateurs qui ont été désignés en tant que gestionnaire d’un groupe de réponses doivent se voir attribuer le rôle CsResponseGroupManager. Dans le cas contraire, ils ne peuvent pas gérer de groupe Response Group.
 
 ## <a name="see-also"></a>Voir aussi
 
-[(Facultatif) Définir Response Group de congés dans Skype pour les entreprises](optional-define-response-group-holiday-sets.md)
+[Facultatif Définir des jeux de vacances de groupe de réponse dans Skype entreprise](optional-define-response-group-holiday-sets.md)
 
-[(Facultatif) Groupe de réponse de définir les heures d’ouverture Skype pour les entreprises](optional-define-response-group-business-hours.md)
+[Facultatif Définir des heures d’activité de groupe de réponse dans Skype entreprise](optional-define-response-group-business-hours.md)
 
-[New-CsRgsWorkflow](https://docs.microsoft.com/powershell/module/skype/new-csrgsworkflow?view=skype-ps)
+[Nouveau-CsRgsWorkflow](https://docs.microsoft.com/powershell/module/skype/new-csrgsworkflow?view=skype-ps)
 
 [Set-CsRgsWorkflow](https://docs.microsoft.com/powershell/module/skype/set-csrgsworkflow?view=skype-ps)
 
 [New-CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/new-csrgsprompt?view=skype-ps)
 
-[New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps)
+[Nouveau-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps)
 

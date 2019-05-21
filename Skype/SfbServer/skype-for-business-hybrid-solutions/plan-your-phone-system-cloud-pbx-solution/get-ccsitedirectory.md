@@ -5,22 +5,22 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 3/31/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a243758e-6774-4437-ad2e-d5cea5f04eb6
-description: L’applet de commande Get-CcSiteDirectory affiche le répertoire dans lequel sont actuellement conservés les fichiers de configuration de niveau site. Le dossier contient les fichiers d’installation de base de VHD et Skype Entreprise, version Cloud Connector. Ce dossier doit être partagé avec tous les autres équipements d’un site dans le nuage connecteur.
-ms.openlocfilehash: d0869f3cbd1c43e523107a0ff8dce6fd769889a8
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: L’applet de commande Get-CcSiteDirectory affiche le répertoire dans lequel sont actuellement conservés les fichiers de configuration de niveau site. Le dossier contient les fichiers d’installation de base de VHD et Skype Entreprise, version Cloud Connector. Ce dossier doit être partagé avec toutes les autres applications d’un site Cloud Connector.
+ms.openlocfilehash: e0b8a793f0210535a726b0bed19f240bf8b30dd9
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32233763"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287299"
 ---
 # <a name="get-ccsitedirectory"></a>Get-CcSiteDirectory
  
-L’applet de commande Get-CcSiteDirectory affiche le répertoire dans lequel sont actuellement conservés les fichiers de configuration de niveau site. Le dossier contient les fichiers d’installation de base de VHD et Skype Entreprise, version Cloud Connector. Ce dossier doit être partagé avec tous les autres équipements d’un site dans le nuage connecteur.
+L’applet de commande Get-CcSiteDirectory affiche le répertoire dans lequel sont actuellement conservés les fichiers de configuration de niveau site. Le dossier contient les fichiers d’installation de base de VHD et Skype Entreprise, version Cloud Connector. Ce dossier doit être partagé avec toutes les autres applications d’un site Cloud Connector.
   
 Cette applet de commande s’applique à Cloud Connector 1.4.1, 1.4.2.
   
@@ -37,7 +37,7 @@ Aucun
 
 ### <a name="example-1"></a>Exemple 1
 
-L’exemple suivant montre le dossier actif où sont stockés les fichiers de configuration et les machines virtuelles des composants de connecteur dans le nuage :
+L’exemple suivant montre le dossier actuel dans lequel se trouvent les fichiers de configuration et d’ordinateurs virtuels des composants Cloud Connector:
   
 ```
 Get-CcSiteDirectory
@@ -46,7 +46,7 @@ Get-CcSiteDirectory
 ## <a name="detailed-description"></a>Description détaillée
 <a name="DetailedDescription"> </a>
 
-Pour fournir une haute disponibilité et l’affinité de passerelle, appliances nuage connecteur peuvent être combinés dans les sites. Les utilisateurs sont affectés à des sites au lieu d’appliances nuage connecteur. Chaque site possède un dossier partagé dans lequel sont conservés les fichiers d’installation de base de VHD et Cloud Connector. Appliances utilisent ce dossier lors du déploiement. Le dossier par défaut est C:\Users\%userprofile%\CloudConnector\SiteRoot. Vous pouvez modifier le chemin d’accès à l’aide de l’applet de commande Set-CcSiteDirectory.
+Pour fournir une affinité et une haute disponibilité de la passerelle, les appareils de connexion Cloud peuvent être combinés dans les sites. Les utilisateurs sont affectés à des sites au lieu de périphériques Cloud Connector. Chaque site possède un dossier partagé dans lequel sont conservés les fichiers d’installation de base de VHD et Cloud Connector. Les appareils utilisent ce dossier lors du déploiement. Le dossier par défaut est\%C:\Users UserProfile%\CloudConnector\SiteRoot. Vous pouvez modifier le chemin d’accès à l’aide de l’applet de commande Set-CcSiteDirectory.
   
 ## <a name="input-types"></a>Types d’entrées
 <a name="InputTypes"> </a>

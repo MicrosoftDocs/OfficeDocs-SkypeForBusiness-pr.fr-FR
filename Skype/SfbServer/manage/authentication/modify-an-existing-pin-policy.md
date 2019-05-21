@@ -1,36 +1,36 @@
 ---
-title: Modifier une stratégie de code confidentiel existante dans Skype pour Business Server
+title: Modification d’une stratégie de code confidentiel existante dans Skype entreprise Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 517caaee-3349-4fa6-8d86-e4da3258a445
-description: 'Résumé : Modifier une stratégie de code confidentiel existante dans Skype pour Business Server.'
-ms.openlocfilehash: cc0ccc846e357ab85c7f2c00ae493e8b6ba8f456
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Résumé: modifiez une stratégie de code confidentiel existante dans Skype entreprise Server.'
+ms.openlocfilehash: 9aecd7fc48ce2893e1d8e603f7cdc369cde11ec3
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919688"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289828"
 ---
-# <a name="modify-an-existing-pin-policy-in-skype-for-business-server"></a>Modifier une stratégie de code confidentiel existante dans Skype pour Business Server
+# <a name="modify-an-existing-pin-policy-in-skype-for-business-server"></a>Modification d’une stratégie de code confidentiel existante dans Skype entreprise Server
  
-**Résumé :** Modifier une stratégie de code confidentiel existante dans Skype pour Business Server.
+**Résumé:** Modification d’une stratégie de code confidentiel existante dans Skype entreprise Server.
   
-Vous pouvez utiliser l’onglet **Stratégie de code confidentiel** pour fournir l’authentification (PIN) numérique d’identification personnelle aux utilisateurs qui sont connectent à Skype pour les entreprises avec les téléphones IP. Pour utiliser l’authentification par code confidentiel, assurez-vous que l’option **Activer l’authentification par code confidentiel** est sélectionnée dans les paramètres du service web.
+Vous pouvez utiliser l’onglet **stratégie de code confidentiel** pour fournir une authentification par code confidentiel (pin) aux utilisateurs qui se connectent à Skype entreprise avec des téléphones IP. Pour utiliser l’authentification par code confidentiel, assurez-vous que l’option **Activer l’authentification par code confidentiel** est sélectionnée dans les paramètres du service web.
   
 Suivez cette procédure étapes pour modifier une stratégie de code confidentiel au niveau du site ou de l’utilisateur. 
   
 ### <a name="to-modify-an-existing-pin-policy"></a>Pour modifier une stratégie de code confidentiel existante
 
-1.  À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affecté au rôle CsServerAdministrator ou CsAdministrator, ouvrez une session sur n’importe quel ordinateur qui se trouve dans le réseau dans lequel vous avez déployé Skype pour Business Server .
+1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affectées au rôle CsServerAdministrator ou CsAdministrator, connectez-vous à n’importe quel ordinateur se trouve sur le réseau sur lequel vous avez déployé Skype entreprise Server. .
     
-2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business. 
+2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration Skype entreprise Server. 
     
 3. Dans la barre de navigation de gauche, cliquez sur **Sécurité**, puis sur **Stratégie de code confidentiel**.
     

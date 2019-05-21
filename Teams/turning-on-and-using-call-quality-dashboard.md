@@ -12,7 +12,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -22,285 +22,284 @@ f1keywords:
 - ms.teamsadmincenter.directrouting.cqd
 ms.custom:
 - Reporting
-description: 'Découvrez comment activer et utiliser le Skype pour Business Online Dashboard qualité des appels et obtenir des rapports de synthèse de la qualité des appels. '
-ms.openlocfilehash: 51e49d786f421777116e5c1d28ff8fcb7a11bcc4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Découvrez comment activer et utiliser le tableau de bord de qualité des appels de Skype entreprise Online et obtenez des rapports de synthèse sur la qualité des appels. '
+ms.openlocfilehash: afcb0243144784929e8516308084fda791b0bcec
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33920460"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291536"
 ---
-# <a name="turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Activation et à l’aide de tableau de bord qualité d’appel pour Microsoft Teams et Skype pour Business Online
+# <a name="turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Activation et utilisation du tableau de bord de qualité des appels pour Microsoft teams et Skype entreprise Online
 
-Découvrez comment configurer votre organisation Office 365 pour utiliser le tableau de bord qualité des appels pour surveiller la qualité des appels.
+Apprenez à configurer votre organisation Office 365 pour utiliser le tableau de bord de qualité des appels pour surveiller la qualité des appels.
   
-Le tableau de bord de la qualité des appels (CQD) pour Microsoft Teams et Skype pour Business Online vous permet d’obtenir des informations sur la qualité des appels effectués à l’aide de Microsoft Teams et Skype pour les services. Cette rubrique décrit les étapes que vous devez effectuer pour commencer la collecte des données.
+Le tableau de bord de qualité des appels (bord) de Microsoft teams et de Skype entreprise Online vous permet d’accéder à des informations sur la qualité des appels passés à l’aide de Microsoft teams et des services Skype entreprise. Cette rubrique décrit les étapes que vous devez effectuer pour commencer à collecter des données.
+  
+  
+## <a name="latest-changes-and-updates"></a>Dernières modifications et mises à jour
+
+Les modifications les plus récentes apportées à bord sont les suivantes:
+  
+- Inclut les données de Microsoft teams en plus de celles de Skype entreprise online.
+    
+- Les rapports de synthèse incluent un filtre produit permettant de sélectionner toutes les données, les données de Microsoft teams ou les données de Skype entreprise online.
+
+- La logique de classification de la qualité du flux vidéo et VBSS a été mise à jour. Consultez [classification des flux dans le tableau de bord de qualité des appels](stream-classification-in-call-quality-dashboard.md) pour obtenir les dernières définitions de classificateur.
+
+Consultez cet article pour obtenir la liste des [dimensions et mesures disponibles dans le tableau de bord de qualité des appels](dimensions-and-measures-available-in-call-quality-dashboard.md).
   
 > [!NOTE]
-> Le CQD détaillée les rapports sont actuellement disponible en tant qu’aperçu technique et à tous les clients. 
+> Pour plus d’informations sur les mises à jour et les modifications apportées au tableau de bord, cliquez sur le lien dans la **bonne nouvelle.** bannière affichée sur le tableau de bord.
   
-## <a name="latest-changes-and-updates"></a>Mises à jour et les dernières modifications
+## <a name="activate-microsoft-call-quality-dashboard-cqd-summary-reports"></a>Activer les rapports de synthèse sur le tableau de bord de qualité d’appel Microsoft (bord)
 
-Les dernières modifications apportées aux CQD sont les suivantes :
-  
-- Inclut les données Teams Microsoft outre Skype pour les données métiers en ligne.
+Pour pouvoir commencer à utiliser le bord, vous devez l’activer pour votre organisation Office 365.
+![teams-logo-30x30. png](media/teams-logo-30x30.png) **à l’aide du centre d’administration Microsoft teams**
+ 
+1. Pour ouvrir le centre d’administration, connectez-vous à votre organisation 365 à l’aide du compte d’administrateur du service Microsoft Teams, puis sélectionnez la vignette **administrateur** .
     
-- Rapports de synthèse incluent un filtre produit pour sélectionner toutes les données, des données de Microsoft Teams ou Skype pour les données métiers en ligne.
-
-- Logique de classement de qualité flux vidéo et VBSS a été mis à jour. Reportez-vous à la [Classification des flux de données dans le tableau de bord qualité des appels](stream-classification-in-call-quality-dashboard.md) pour les définitions de classifieur le plus récent.
-
-Reportez-vous à cet article pour obtenir la liste des [Dimensions et mesures disponibles dans le tableau de bord qualité des appels](dimensions-and-measures-available-in-call-quality-dashboard.md).
+2. Dans le volet gauche, sous **centres d’administration**, sélectionnez **Microsoft teams** pour ouvrir le centre d’administration Microsoft Teams.
+    
+3. Dans le centre d’administration de Microsoft Teams, sélectionnez **tableau de bord de qualité des appels** dans le volet gauche.
+    
   
+4. Dans la page qui s’affiche, connectez-vous à l’aide de votre compte d’administrateur général ou du compte d’administrateur du service Microsoft Teams, puis fournissez les informations d’identification du compte lorsque vous y êtes invité.
+    
+     ![Connexion bord](media/ac4c1699-d8c1-4bda-af30-0fec35b5fd22.png)
+  
+Après vous être connecté, une fois activé, le bord commence la collecte et le traitement des données.  
 > [!NOTE]
-> Vous trouverez plus d’informations sur les mises à jour et les modifications apportées au tableau de bord en cliquant sur le lien dans la **bonne !** bannière lorsqu’il est affiché dans le tableau de bord.
-  
-## <a name="activate-microsoft-call-quality-dashboard-cqd-summary-reports"></a>Activer les rapports de synthèse de tableau de bord (CQD) appel Microsoft qualité
+> Le traitement d’une quantité suffisante de données pour afficher des résultats significatifs dans les rapports risque de nécessiter quelques heures. 
 
-Avant de pouvoir commencer à l’aide de la CQD, vous devez l’activer pour votre organisation Office 365.
+![SFB-logo-30x30. png](media/sfb-logo-30x30.png) **à l’aide du centre d’administration Skype entreprise**
  
-![SFB-logo-30x30.png](media/sfb-logo-30x30.png) **à l’aide de la Skype entreprise centre d’administration**
- 
-1. Connectez-vous à votre organisation Office 365 à l’aide d’un compte d’administration, puis sélectionnez la vignette **Admin** pour ouvrir le centre d’administration.
+1. Connectez-vous à votre organisation Office 365 à l’aide d’un compte d’administrateur, puis sélectionnez la vignette **administrateur** pour ouvrir le centre d’administration.
     
-2. Dans le volet gauche, sous **Centre d’administration**, sélectionnez **Skype pour les entreprises** pour ouvrir le Skype entreprise centre d’administration.
+2. Dans le volet gauche, sous **centres d’administration**, sélectionnez **Skype entreprise** pour ouvrir le centre d’administration Skype entreprise.
     
-3. Dans le volet gauche, sélectionnez **Outils** dans Skype entreprise centre d’administration et sélectionnez **Skype pour Business Online appeler qualité du tableau de bord**.
+3. Dans le centre d’administration de Skype entreprise, sélectionnez **Outils** dans le volet de gauche, puis sélectionnez **tableau de bord de qualité des appels de Skype entreprise Online**.
     
-     ![Skype pour les outils](media/6cc7f80f-b8e2-4a9b-aab8-ac871d07a261.png)
+     ![Outils Skype entreprise](media/6cc7f80f-b8e2-4a9b-aab8-ac871d07a261.png)
   
-4. Dans la page qui s’ouvre, connectez-vous avec votre compte d’administrateur Global, puis fournissez les informations d’identification du compte lorsque vous y êtes invité.
+4. Dans la page qui s’affiche, connectez-vous à l’aide de votre compte d’administrateur général, puis indiquez les informations d’identification du compte lorsque vous y êtes invité.
     
-     ![Connexion CQD](media/ac4c1699-d8c1-4bda-af30-0fec35b5fd22.png)
+     ![Connexion bord](media/ac4c1699-d8c1-4bda-af30-0fec35b5fd22.png)
   
-Après que vous être connecté, une fois activée, la CQD commencera collecte et traitement des données.
+Après vous être connecté, une fois activé, le bord commence la collecte et le traitement des données.
 
-![les équipes-logo-30x30.png](media/teams-logo-30x30.png) **à l’aide du centre d’administration Microsoft équipes**
- 
-1. Connectez-vous à votre organisation Office 365 à l’aide du compte d’administrateur de service Microsoft Teams, puis sélectionnez la vignette **Admin** pour ouvrir le centre d’administration.
-    
-2. Dans le volet gauche, sous **Centre d’administration**, sélectionnez **Les équipes Microsoft** pour ouvrir le centre d’administration Microsoft Teams.
-    
-3. Dans le centre d’administration Microsoft Teams, sélectionnez **tableau de bord qualité des appels** dans le volet gauche.
-    
+
   
-4. Dans la page qui s’ouvre, connectez-vous avec votre compte d’administrateur Global ou le compte d’administrateur du Service Microsoft équipes, puis fournissez les informations d’identification du compte lorsque vous y êtes invité.
-    
-     ![Connexion CQD](media/ac4c1699-d8c1-4bda-af30-0fec35b5fd22.png)
-  
-Après que vous être connecté, une fois activée, la CQD commencera collecte et traitement des données.  
-> [!NOTE]
-> Il peut prendre quelques heures à traiter suffisamment de données pour afficher des résultats pertinents dans les rapports. 
-  
-## <a name="features-of-the-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Fonctionnalités de l’appel qualité du tableau de bord pour les équipes Microsoft et Skype pour les entreprises en ligne 
+## <a name="features-of-the-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Fonctionnalités du tableau de bord de qualité des appels pour Microsoft teams et Skype entreprise Online 
 <a name="BKMKFeaturesOfTheCQD"> </a>
 
-Les rapports de synthèse CQD fournissent un sous-ensemble des fonctionnalités planifiées pour des rapports détaillés. Les différences entre les deux éditions sont résumées ici :
+BORD-XX XXXXXXX XXXXXXX XXXXXXX XXXXXXX xxxxxxxxx XXXXXXXXX. Les différences entre les deux éditions sont résumées ici:
   
 |**Fonctionnalité**|**Rapports de synthèse**|**Rapports détaillés**|
 |:-----|:-----|:-----|
-|Mesure de partage d’application  <br/> |Non  <br/> |Oui  <br/> |
-|Prise en charge des informations de création de client  <br/> |Oui  <br/> |Oui  <br/> |
-|Prise en charge des informations de point de terminaison client  <br/> |Qu’en cqd.teams.microsoft.com  <br/> |Qu’en cqd.teams.microsoft.com  <br/> |
-|Prise en charge de l’analyse de l’exploration  <br/> |Non  <br/> |Oui  <br/> |
-|Mesures de la fiabilité du média  <br/> |Non  <br/> |Oui  <br/> |
-|Rapports out-of-the-box  <br/> |Oui  <br/> |Oui  <br/> |
-|Vue d’ensemble des rapports  <br/> |Oui  <br/> |Oui  <br/> |
-|Jeu de rapports par utilisateur  <br/> |Non  <br/> |Oui  <br/> |
-|Rapport définie personnalisation (ajouter, supprimer, modifier des rapports)  <br/> |Non  <br/> |Oui  <br/> |
-|Partage des mesures d’écran vidéo  <br/> |Non  <br/> |Oui  <br/> |
-|Mesures vidéo  <br/> |Non  <br/> |Oui  <br/> |
-|Quantité de données disponibles  <br/> |6 derniers mois  <br/> |6 derniers mois  <br/> |
-|Données Microsoft Teams  <br/> |Oui  <br/> |Oui  <br/> |
+|Métrique du partage d’application  <br/> |Non  <br/> |Oui  <br/> |
+|Support des informations sur le bâtiment du client  <br/> |Oui  <br/> |Oui  <br/> |
+|Support technique des informations de point de terminaison client  <br/> |Uniquement dans cqd.teams.microsoft.com  <br/> |Uniquement dans cqd.teams.microsoft.com  <br/> |
+|Prise en charge de l’analyse approfondie  <br/> |Non  <br/> |Oui  <br/> |
+|Mesures de fiabilité des médias  <br/> |Non  <br/> |Oui  <br/> |
+|Rapports prêts à l’emploi  <br/> |Oui  <br/> |Oui  <br/> |
+|Présentation des rapports  <br/> |Oui  <br/> |Oui  <br/> |
+|Ensemble de rapports par utilisateur  <br/> |Non  <br/> |Oui  <br/> |
+|Personnalisation d’un ensemble de rapports (ajout, suppression, modification des rapports)  <br/> |Non  <br/> |Oui  <br/> |
+|Métriques de partage d’écran vidéo  <br/> |Non  <br/> |Oui  <br/> |
+|Métriques vidéo  <br/> |Non  <br/> |Oui  <br/> |
+|Volume de données disponible  <br/> |6 derniers mois  <br/> |6 derniers mois  <br/> |
+|Données de Microsoft teams  <br/> |Oui  <br/> |Oui  <br/> |
    
-### <a name="out-of-the-box-reports"></a>Rapports out-of-the-box
+### <a name="out-of-the-box-reports"></a>Rapports prêts à l’emploi
 
-Les deux éditions de CQD offrent un out-of-the-box experience, ce qui vous appeler les mesures de qualité sans avoir besoin de créer les nouveaux rapports. Une fois que les données sont envoyées dans le serveur principal, vous pouvez commencer à voir les données de qualité des appels dans les rapports.
+Les deux éditions de bord fournissent une connaissance prédéfinie, ce qui vous permet d’effectuer des mesures de qualité d’appel sans avoir à créer de nouveaux rapports. Lorsque les données sont traitées au principal, vous pouvez commencer à voir les données de qualité d’appel dans les rapports.
   
-### <a name="overview-reports"></a>Vue d’ensemble des rapports
+### <a name="overview-reports"></a>Présentation des rapports
 
-Les deux éditions de la CQD fournissent un point d’entrée de haut niveau pour les informations de la qualité des appels globale, mais la façon dont les informations sont présentées dans les rapports de synthèse est différente de celle des rapports détaillés.
+Les deux éditions de bord fournissent un point d’entrée de haut niveau aux informations générales relatives à la qualité des appels, mais la façon dont les informations sont présentées dans les rapports de synthèse est différente de celle des rapports détaillés.
   
-Rapports de synthèse fournissent une vue de rapport page à onglets simplifiée qui permet aux utilisateurs de naviguer rapidement et de comprendre l’ensemble statut qualité des appels et les tendances.
+Les rapports de synthèse offrent un affichage simplifié des rapports de pages à onglets, qui permet aux utilisateurs de parcourir et de comprendre rapidement l’État et les tendances de la qualité globale des appels.
   
-Les quatre onglets sont les suivantes :
+Les quatre onglets sont les suivants:
   
-- **La qualité des appels globale** - fournit des informations sur tous les flux, qui est un regroupement de flux de données Client-serveur et flux Client Client, ainsi que Client-serveur distinct et flux Client Client, dans l’écran des tendances mensuels et quotidiens.
+- La **qualité d’appel globale** : fournit des informations sur tous les flux, qui est une agrégation des flux client-client et des flux client-client, ainsi que des flux client-client et client distincts, sous la forme d’une tendance mensuelle et quotidienne.
     
-- **Serveur - Client** - fournit des détails supplémentaires pour les flux de données entre les systèmes d’extrémité Client et serveur.
+- **Serveur-client** : fournit des informations supplémentaires pour les flux transitant entre les points de terminaison serveur et client.
     
-- **Client - Client** - fournit des détails supplémentaires pour le flux de données entre deux points de terminaison Client.
+- **Client-client** : fournit des informations supplémentaires pour les flux transitant entre deux points de terminaison client.
     
-- **SLA de qualité vocale** - fournit des informations sur les appels qui sont inclus dans le Skype pour SLA de qualité vocale en ligne Business.
+- **SLA de qualité vocale** : fournit des informations sur les appels inclus dans le contrat SLA de qualité vocale de Skype entreprise online.
     
-### <a name="overall-call-quality-tab"></a>Onglet de la qualité des appels globale
+### <a name="overall-call-quality-tab"></a>Onglet qualité globale des appels
 
-Utiliser les données sous cet onglet pour évaluer le statut de la qualité des appels et les tendances en examinant les pourcentages d’une mauvaise le nombre de flux. La légende dans le coin supérieur droit indique les couleurs et les éléments visuels représentent ces mesures.
+Utilisez les données de cet onglet pour évaluer l’État et les tendances de la qualité des appels en observant le nombre de flux et de mauvaises pourcentages. La légende dans le coin supérieur droit montre la couleur et les éléments visuels qui représentent ces métriques.
   
-![Clé de données CQD](media/c8d183b1-6592-49b0-a81d-35cc0568d5f0.png)
+![Clé de données bord](media/c8d183b1-6592-49b0-a81d-35cc0568d5f0.png)
   
-Flux de données est classés dans trois groupes : une bonne et une mauvaise non classés. Il sont également calculées que médiocre valeurs *%* qui permettent de vous le rapport du flux classé comme *médiocre* au nombre total de flux classés. Dans la mesure où *mauvaise % = médiocres flux / (mauvaise flux + flux bonne) * 100* , ainsi la *mauvaise %* non affectés par la présence de plusieurs flux *Unclassified* . Pour ce qui est utilisé pour classer un flux de données en tant qu’une mauvaise ou bon, reportez-vous à la [Classification des flux de données dans le tableau de bord qualité des appels](stream-classification-in-call-quality-dashboard.md).
+Les flux sont classés en trois groupes: bon, médiocre et non classés. Il existe également des valeurs de *pourcentage médiocres* calculées qui vous permettent d’obtenir ** le rapport entre les flux considérés médiocres et le nombre total de flux classés. En raison de *mauvaises% = flux médiocres/(mauvaises chaînes + Good Streams) * 100* , cela rend le *pourcentage médiocre* de la présence avec plusieurs flux non *classés* . Pour savoir quels sont les points à considérer pour classer un flux comme médiocre ou satisfaisant, voir [Classification de flux dans le tableau de bord de qualité des appels](stream-classification-in-call-quality-dashboard.md).
   
-Utiliser l’échelle sur la gauche pour mesurer les valeurs de nombre de flux de données.
+Utilisez l’échelle de gauche pour mesurer les valeurs de nombre de flux.
   
-![Nombre de données CQD](media/850bd25d-d9b2-4df4-8ca6-526a528897c2.png)
+![Nombre de données bord](media/850bd25d-d9b2-4df4-8ca6-526a528897c2.png)
   
-Utiliser l’échelle sur la droite pour mesurer les valeurs d’une mauvaise %.
+Servez-vous de l’échelle de droite pour mesurer les valeurs de pourcentage médiocres.
   
-![Données CQD pour cent](media/29795f71-ca96-4763-a76c-b4bb7c0e5828.png)
+![Données bord pour cent](media/29795f71-ca96-4763-a76c-b4bb7c0e5828.png)
   
-Vous pouvez également obtenir les valeurs numériques en plaçant la souris sur une barre.
+Vous pouvez également obtenir les valeurs numériques réelles en plaçant le pointeur de la souris sur une barre.
   
 > [!NOTE]
-> L’exemple suivant provient d’un jeu de données très petit exemple, et les valeurs ne sont pas réalistes pour un déploiement réel. 
+> L’exemple suivant provient d’un jeu de données de très petite taille et les valeurs ne sont pas réalistes pour un déploiement réel. 
   
-![Numérique de données CQD](media/8724b016-1a50-4d19-b48a-3b1aae4eb895.png)
+![Données bord numériques](media/8724b016-1a50-4d19-b48a-3b1aae4eb895.png)
   
-Le volume de flux global est un facteur important pour déterminer quelle mesure les pourcentages d’une mauvaise calculés. Petit volume de flux globales, moins fiable les valeurs en pourcentage médiocre signalés sont.
+Le volume de flux global est un facteur important pour déterminer le degré de pertinence des pourcentages médiocres. Plus le volume des flux globaux est faible, plus la fiabilité du pourcentage signalé est faible.
   
-### <a name="server-client-tab-and-client-client-tabs"></a>Onglet serveur-Client et des onglets de Client-Client
+### <a name="server-client-tab-and-client-client-tabs"></a>Onglets serveur-client et client-client
 
-Ces deux onglets fournissent des détails supplémentaires pour les flux qui a eu lieu dans les scénarios de point de terminaison au point de terminaison. Les onglets ont quatre sections réductibles, représentant les quatre scénarios sous lequel afficherait flux multimédias.
+Ces deux onglets fournissent des informations supplémentaires pour les flux ayant eu lieu dans leurs scénarios de point de terminaison. Les deux onglets contiennent quatre sections réductibles, qui représentent quatre scénarios dans lesquels les flux multimédias seront acheminés.
   
-- Filaire à l’intérieur
+- Connecté (e)
     
-- Filaire à l’extérieur
+- Câblé extérieur
     
-- Inside Wi-Fi
+- WiFi interne
     
-- Extérieur Wi-Fi
+- WiFi extérieur
     
-#### <a name="inside-test"></a>Test à l’intérieur
+#### <a name="inside-test"></a>Test interne
 
-Lors du traitement, le serveur principal CQD classifie un flux de données en tant *qu’à l’intérieur* ou *extérieur* à l’aide des informations de création, si elle existe. Points de terminaison de chaque flux sont associés à une adresse de sous-réseau. Si le sous-réseau est dans la liste des sous-réseaux marqués InsideCorp dans les informations de construction téléchargées, il est considéré *à l’intérieur*. Si la création des informations n'a pas encore été téléchargé, à l’intérieur de Test sera toujours classer les flux comme *extérieur*. Notez qu’à l’intérieur de Test pour le scénario Client-serveur ne tient compte que le point de terminaison client. Étant donné que les serveurs sont toujours à l’extérieur du point de vue d’un utilisateur, il n’est pas pris en compte dans le test.
+Lors du traitement, le serveur principal bord classifie un flux comme *à l’intérieur* ou à l' *extérieur* en utilisant des informations de bâtiment, le cas échéant. Les points de terminaison de chaque flux sont associés à une adresse de sous-réseau. Si le sous-réseau figure dans la liste des sous-réseaux marqués dans l’entreprise dans les informations de bâtiment téléchargées, il est considéré comme *à l’intérieur*. Si les informations de bâtiment n’ont pas encore été téléchargées, l’intérieur du test classifie toujours les flux comme *extérieur*. Veuillez noter que le test interne du scénario serveur-client ne considère que le point de terminaison client. Étant donné que les serveurs sont toujours extérieurs du point de vue d’un utilisateur, ce n’est pas pris en compte dans le test.
   
-#### <a name="wired-vs-wifi"></a>Filaire et Wi-Fi
+#### <a name="wired-vs-wifi"></a>Connexion filaire et WiFi
 
-Comme les noms indiquent, il s’agit d’un critère de classement en fonction du type de connexions client. Là encore, serveur toujours filaire et il n’est pas inclus dans le calcul.
+Les noms indiquent qu’il s’agit d’un critère de classification en fonction du type de connexions client. Là encore, le serveur est toujours câblé et n’est pas inclus dans le calcul.
   
 > [!NOTE]
-> Étant donné un flux, si un des deux points de terminaison est connecté à un réseau Wi-Fi, puis il est considéré comme Wi-Fi dans CQD. 
+> À partir d’un flux, si l’un des deux points de terminaison est connecté à un réseau WiFi, il est considéré comme WiFi dans bord. 
   
-## <a name="selecting-product-data-to-see-in-reports"></a>Sélection de données de produit à afficher dans les rapports
+## <a name="selecting-product-data-to-see-in-reports"></a>Sélection des données de produits à afficher dans les rapports
 <a name="BKMKProductFilter"></a>
 
-Dans le résumé et emplacement améliorée des rapports, vous pouvez utiliser la liste déroulante **Filtre de produits** pour afficher toutes les données de produit, seules les données Teams Microsoft ou uniquement Skype pour les données métiers en ligne.
+Dans la liste déroulante du filtre produit, vous pouvez utiliser la liste déroulante du **filtre produit** pour afficher toutes les données de produit, uniquement les données de Microsoft Teams, ou uniquement les données de Skype entreprise online.
   
-![Capture d’écran montre le contrôle de filtre de produit avec les options pour tous les, Microsoft Teams et Skype pour les entreprises.](media/206ad818-0f72-4c8e-b25e-3cc8fcfbef05.png)
+![La capture d’écran illustre le contrôle de filtre de produit avec les options pour tous, Microsoft teams et Skype entreprise.](media/206ad818-0f72-4c8e-b25e-3cc8fcfbef05.png)
   
-Dans des rapports détaillés, vous pouvez utiliser la dimension **Équipes est** pour filtrer les données à Microsoft Teams ou Skype pour les données métiers en ligne dans le cadre de la définition du rapport.
+Dans les rapports détaillés, vous pouvez utiliser la dimension **is teams** pour filtrer les données en tant que données de Microsoft teams ou Skype entreprise Online dans le cadre de la définition du rapport.
   
-## <a name="upload-tenant-data-information"></a>Téléchargement de données client
+## <a name="upload-tenant-data-information"></a>Télécharger les informations sur les données de client
 <a name="BKMKTenantDataInformationUpload"></a>
 
-Le tableau de bord des rapports de synthèse CQD comprend une page **De téléchargement de données client** , accédée en sélectionnant le **Téléchargement des données client** dans le menu Paramètres dans le coin supérieur droit. Cette page permet de télécharger leurs propres informations, telles que le mappage de l’adresse IP et les informations géographiques, le mappage de chaque point d’accès sans fil et son adresse MAC, mappage du point de terminaison au point de terminaison de création / / Type de modèle, etc. pour les administrateurs.
+Le tableau de bord des rapports de synthèse de bord inclut une page de **téléchargement de données de client** accessible en sélectionnant télécharger les **données client** dans le menu paramètres dans le coin supérieur droit. Cette page est utilisée pour permettre aux administrateurs de télécharger leurs propres informations, telles que le mappage de l’adresse IP et des informations géographiques, le mappage de chaque point d’accès sans fil et son adresse MAC, le mappage de point de terminaison à un point de terminaison, un modèle/type, etc.
   
-![Tableau de bord CQD](media/839c9ab4-0246-46c9-8402-aafd83a0bc63.png)
+![Tableau de bord de bord](media/839c9ab4-0246-46c9-8402-aafd83a0bc63.png)
   
-1. Dans la page **De téléchargement de données client** , utilisez le menu déroulant pour choisir un type de fichier de données pour le téléchargement. Le type de données de fichier désigne le contenu du fichier (par exemple, « Building » fait référence à un mappage d’adresse IP et création ainsi que d’autres informations géographiques, « Endpoint » fait référence au mappage du nom du point de terminaison au point de terminaison création / / Type de modèle... informations). Actuellement nous prennent en charge les types de données « Building » et « Endpoint » de téléchargement pour cqd.teams.microsoft.com (dans la fenêtre Aperçu et ne pouvez pas officiellement encore), prend uniquement en charge cqd.lync.com télécharger un type de données « Création ». Quelques autres types de données seront ajoutées à des versions ultérieures.
+1. Dans la page **téléchargement de données du client** , utilisez le menu déroulant pour choisir un type de fichier de données à télécharger. Le type de données fichier indique le contenu du fichier (par exemple, «bâtiment» désigne le mappage d’une adresse IP et le bâtiment ainsi que d’autres informations géographiques, «point de terminaison» fait référence au mappage du nom du point de terminaison au point de terminaison/modèle/type... informations). Pour l’instant, nous prenons en charge les types de données «bâtiment» et «point de terminaison» pour bord. Teams. Microsoft. com (en phase d’aperçu et non officiellement disponible pour le moment), cqd.lync.com prend uniquement en charge le type de données «bâtiment». Quelques autres types de données seront ajoutés dans les versions suivantes.
     
-2. Après avoir sélectionné le type de données de fichier, cliquez sur **Parcourir** pour choisir un fichier de données.
+2. Après avoir sélectionné le type de données du fichier, cliquez sur **Parcourir** pour choisir un fichier de données.
     
-   - Le fichier de données doit être un fichier .tsv (valeurs séparées par des tabulations) ou .csv (valeurs séparées par des virgules). Si vous utilisez un fichier .csv, un champ qui contient une virgule doivent être entourées de guillemets ou que la virgule supprimée. Par exemple, si votre nom est NY, NY, dans le fichier .csv elle doit être saisie comme « NY, NY ».
+   - Le fichier de données doit être au format. TSV (valeurs séparées par des tabulations) ou. csv (valeurs séparées par des virgules). Si vous utilisez un fichier. csv, les champs qui contiennent une virgule doivent être entourés de guillemets ou être supprimés. Par exemple, si le nom de votre bâtiment est NY, NY, dans le fichier. csv, vous devez entrer «NY, NY».
     
-   - Le fichier de données doit être non supérieur à 50 Mo.
+   - La taille du fichier de données ne doit pas dépasser 50 Mo.
 
-   - Fichier téléchargé vers cqd.teams.microsoft.com a développé la limite des lignes de 1 000 000 pour accélérer les performances des requêtes. Nous pouvons imposer cette limite sur cqd.lync.com également.
+   - Le fichier téléchargé sur cqd.teams.microsoft.com a une limite de lignes étendue de 1 million pour accélérer les performances des requêtes. Il est possible que nous puissions imposer cette limite sur cqd.lync.com également.
     
-   - Pour chaque fichier de données, chaque colonne dans le fichier doit correspondre à un type de données prédéfini, décrit plus loin dans cette rubrique.
+   - Pour chaque fichier de données, chaque colonne du fichier doit correspondre à un type de données prédéfini, abordé plus loin dans cette rubrique.
     
-3. Après avoir sélectionné un fichier de données, spécifiez la **date de début** et, éventuellement, **Spécifiez une date de fin**.
+3. Après avoir sélectionné un fichier de données, spécifiez la **Date de début** et, éventuellement, **Spécifiez une date de fin**.
     
-4. Après avoir sélectionné la **date de début**, sélectionnez **Télécharger** pour télécharger le fichier sur le serveur CQD.
+4. Après avoir sélectionné la **Date de début**, sélectionnez **charger** pour télécharger le fichier sur le serveur bord.
     
-    Avant que le fichier est téléchargé, il est tout d’abord validé. Une fois validée, elle est stockée dans un objet blob Azure. Si validation échoue ou que le fichier ne peut pas être stocké dans un objet blob Azure et un message d’erreur s’affiche et demande une correction au fichier. L’image suivante montre une erreur ne se produise lorsque le nombre de colonnes dans le fichier de données est incorrect.
+    Avant de télécharger le fichier, il est d’abord validé. Une fois validée, elle est stockée dans un blob Azure. Si la validation échoue ou que le fichier ne peut pas être stocké dans un objet BLOB Azure, un message d’erreur s’affiche et demande une correction du fichier. L’image ci-après illustre une erreur qui se produit lorsque le nombre de colonnes dans le fichier de données est incorrect.
     
-     ![Erreur de validation de téléchargement CQD exemple](media/22716a32-3d3d-4870-983c-46089e8b212a.png)
+     ![Exemple d’erreur de validation de téléchargement bord](media/22716a32-3d3d-4870-983c-46089e8b212a.png)
   
-5. Si aucune erreur ne se produire lors de la validation, le téléchargement du fichier réussit. Vous pouvez voir le fichier de données téléchargées dans la table **Mes téléchargements** , qui affiche la liste complète de tous les fichiers téléchargés pour le client au bas de la page actuels.
+5. S’il n’y a aucune erreur lors de la validation, le chargement du fichier réussit. Vous pouvez ensuite voir le fichier de données chargé dans la table **Mes téléchargements** , qui affiche la liste complète des fichiers téléchargés pour le client actuel en bas de cette page.
     
-    Chaque enregistrement indique client téléchargé un fichier de données, avec un type de fichier, heure de la dernière mise à jour, période, description, une icône de suppression et une icône de téléchargement. Pour supprimer un fichier, sélectionnez l’icône de la Corbeille secondaire dans le tableau. Pour télécharger un fichier, sélectionnez l’icône de téléchargement dans la colonne de **téléchargement** de la table.
+    Chaque enregistrement affiche un fichier de données client téléchargé, avec le type de fichier, l’heure de la dernière mise à jour, la période, la description, une icône de suppression et une icône de téléchargement. Pour supprimer un fichier, sélectionnez l’icône de corbeille dans le tableau. Pour télécharger un fichier, sélectionnez l’icône de téléchargement dans la colonne **Télécharger** du tableau.
     
-     ![Chargement de mes CQD de table](media/4168a883-bbea-461a-80b1-42eedf2e7732.png)
+     ![BORD ma table de chargement](media/4168a883-bbea-461a-80b1-42eedf2e7732.png)
   
-### <a name="tenant-data-file-format-and-structure"></a>Structure et le format de fichier de données client
+### <a name="tenant-data-file-format-and-structure"></a>Format et structure du fichier de données client
 <a name="BKMKTenantDataFile"> </a>
 
-### <a name="building-data-file"></a>Fichier de données de création
-CQD utilise la création de fichier de données en premier dérivent de colonne sous-réseau développée réseau + NetworkRange colonne, puis rejoindre sous-réseau à la colonne du premier Subnet/Second sous-réseau de l’enregistrement d’appel pour afficher la construction/ville/pays/région... plus d’informations. Le format du fichier de données que vous téléchargez doit répondre à la commande suivante pour transmettre le contrôle de validation avant le téléchargement.
+### <a name="building-data-file"></a>Création d’un fichier de données
+BORD utilise le fichier de données bâtiment en commençant par la première colonne de sous-réseau pour le développement de la colonne réseau + plage du réseau, puis de la colonne de sous-réseau dans la première colonne de sous-réseau/deuxième sous-réseau. concernant. Pour que le format du fichier de données réussisse le contrôle de validation avant téléchargement, il doit respecter les conditions suivantes.
   
-- Le fichier doit être un fichier .tsv, ce qui signifie, dans chaque ligne, les colonnes sont séparées par une tabulation, ou un fichier .csv avec chaque colonne séparé par une virgule.
+- Il doit s’agir d’un fichier. tsv, ce qui signifie que sur chaque ligne, les colonnes sont séparées par une tabulation-ou d’un fichier. csv dont chaque colonne est séparée par une virgule.
     
-- Le contenu du fichier de données n’inclut pas les en-têtes de tableau. Que signifie que la première ligne du fichier de données doit être des données réelles, pas d’en-têtes comme « Réseau », etc..
+- Le contenu du fichier de données ne comporte pas d’en-têtes de tableau. En d’autres termes, la première ligne du fichier de données doit être de véritables données, pas d’en-têtes comme «réseau», etc.
     
-- Pour chaque colonne, le type de données peut uniquement être Bool, nombre ou chaîne. Si c’est le nombre, la valeur doit être une valeur numérique ; s’il est Bool, la valeur doit être 0 ou 1.
+- Pour chaque colonne, le type de données peut uniquement être chaîne, nombre ou bool. S’il s’agit d’un nombre, la valeur doit être une valeur numérique; s’il s’agit de bool, la valeur doit être égale à 0 ou 1.
     
-- Pour chaque colonne, si le type de données est la chaîne, les données ne peuvent être vides (mais doivent toujours être séparées par un séparateur approprié (autrement dit, un onglet ou une virgule). Cela affecte uniquement ce champ une valeur de chaîne vide.
+- Pour chaque colonne, si le type de données est String, les données peuvent être vides (mais doivent toujours être séparées par un délimiteur approprié (par exemple, un taquet de tabulation ou une virgule). Cela affecte simplement le champ à une valeur de chaîne vide.
     
-- Il doit y avoir 14 colonnes pour chaque ligne, chaque colonne doit avoir les données suivantes type et les colonnes doivent être dans l’ordre indiqué dans le tableau suivant :
+- Chaque ligne doit comporter 14 colonnes, chaque colonne doit avoir le type de données suivant et les colonnes doivent être dans l’ordre indiqué dans le tableau suivant:
     
 |**Nom de la colonne**|**Type de données**|**Exemple**|
 |:-----|:-----|:-----|
 |Réseau  <br/> |String  <br/> |192.168.1.0  <br/> |
-|Nom_réseau  <br/> |String  <br/> |États-Unis/Seattle/SEATTLE-marin-1  <br/> |
-|NetworkRange  <br/> |Numéro  <br/> |26  <br/> |
-|BuildingName  <br/> |String  <br/> |SEATTLE-MARIN-1  <br/> |
-|OwnershipType  <br/> |String  <br/> |Contoso  <br/> |
-|BuildingType  <br/> |String  <br/> |Arrêt de l’informatique  <br/> |
-|BuildingOfficeType  <br/> |String  <br/> |Ingénierie  <br/> |
+|Nom réseau  <br/> |String  <br/> |États-Unis/Seattle/SEATTLE-SEA-1  <br/> |
+|NetworkRange  <br/> |Numéro  <br/> |26/08/03  <br/> |
+|BuildingName  <br/> |String  <br/> |SEATTLE-SEA-1  <br/> |
+|Type de propriété  <br/> |String  <br/> |Chez  <br/> |
+|Type de bâtiment  <br/> |String  <br/> |Arrêt  <br/> |
+|BuildingOfficeType  <br/> |String  <br/> |Ingénieur  <br/> |
 |Ville  <br/> |String  <br/> |Seattle  <br/> |
 |ZipCode  <br/> |String  <br/> |98001  <br/> |
-|Pays  <br/> |String  <br/> |NOUS  <br/> |
+|Pays  <br/> |String  <br/> |Nous  <br/> |
 |État  <br/> |String  <br/> |WA  <br/> |
 |Région  <br/> |String  <br/> |MSUS  <br/> |
 |InsideCorp  <br/> |Bool  <br/> |1  <br/> |
-|ExpressRoute  <br/> |Bool  <br/> |0  <br/> |
+|ExpressRoute  <br/> |Bool  <br/> |0,4  <br/> |
    
 > [!IMPORTANT]
-> La plage réseau peut être utilisée pour représenter un supernet (combinaison de plusieurs sous-réseaux avec un préfixe de routage unique). Tous les téléchargements de construction nouvelle seront vérifiées pour toutes les plages qui se chevauchent. Si vous avez déjà chargé un fichier de construction, téléchargez le fichier en cours et téléchargez de nouveau pour identifier les chevauchements et corriger le problème avant de le télécharger à nouveau. Les mappages de sous-réseaux aux bâtiments dans les rapports incorrectes peut entraîner un chevauchement des fichiers téléchargés précédemment. Certaines implémentations VPN ne signalent pas correctement les informations de sous-réseau. Il est recommandé que lors de l’ajout d’un sous-réseau de réseau privé virtuel pour la création du fichier, au lieu d’une entrée pour le sous-réseau, des entrées sont ajoutées pour chaque adresse de sous-réseau de réseau privé virtuel comme un réseau distinct de 32 bits. Chaque ligne peut avoir les mêmes métadonnées de construction. Par exemple, au lieu d’une ligne pour 172.16.18.0/24, vous devez disposer de 256 lignes, avec une ligne pour chaque adresse entre 172.16.18.0/32 et 172.16.18.255/32, inclus. 
+> La plage réseau peut être utilisée pour représenter un super-réseau (combinaison de plusieurs sous-réseaux avec un seul préfixe de routage). Les nouveaux chargements de construction seront examinés pour toutes les plages qui se chevauchent. Si vous avez déjà téléchargé un fichier de construction, vous devez télécharger le fichier actif et le télécharger à nouveau pour identifier les chevauchements et résoudre le problème avant de le télécharger à nouveau. Tout chevauchement dans les fichiers précédemment téléchargés risque de provoquer des mappages incorrects de sous-réseaux sur les bâtiments dans les rapports. Certaines implémentations de réseau privé virtuel n’indiquent pas exactement les informations de sous-réseau. Lorsque vous ajoutez un sous-réseau VPN au fichier de construction au lieu d’une entrée pour le sous-réseau, nous vous conseillons d’ajouter des entrées distinctes pour chaque adresse du sous-réseau VPN en tant que réseau 32 différent. Chaque ligne peut avoir les mêmes métadonnées de bâtiment. Par exemple, au lieu d’une ligne pour 172.16.18.0/24, vous devez disposer de lignes 256, avec une ligne pour chaque adresse entre 172.16.18.0/32 et 172.16.18.255/32, inclusive. 
 
 ### <a name="endpoint-data-file"></a>Fichier de données du point de terminaison
-CQD utilise le fichier de données du point de terminaison en joignant sa colonne EndpointName à la colonne du nom du point de terminaison Client premier Client du point de terminaison Name/Second de l’enregistrement d’appel pour afficher les informations de point de terminaison création / / Type de modèle. Le format du fichier de données que vous téléchargez doit répondre à la commande suivante pour transmettre le contrôle de validation avant le téléchargement.
+BORD utilise le fichier de données de point de terminaison en rejoignant sa colonne EndpointName à la première colonne nom du point de terminaison du client/deuxième nom du point de terminaison du client pour afficher les informations sur la création/le modèle de point de terminaison. Pour que le format du fichier de données réussisse le contrôle de validation avant téléchargement, il doit respecter les conditions suivantes.
 
-- Le fichier doit être un fichier .tsv, ce qui signifie, dans chaque ligne, les colonnes sont séparées par une tabulation, ou un fichier .csv avec chaque colonne séparé par une virgule.
+- Il doit s’agir d’un fichier. tsv, ce qui signifie que sur chaque ligne, les colonnes sont séparées par une tabulation-ou d’un fichier. csv dont chaque colonne est séparée par une virgule.
 
-- Le contenu du fichier de données n’inclut pas les en-têtes de tableau. Cela signifie que la première ligne du fichier de données doit être des données réelles, pas les en-têtes comme « EndpointName », etc..
+- Le contenu du fichier de données ne comporte pas d’en-têtes de tableau. En d’autres termes, la première ligne du fichier de données doit être de véritables données, pas des en-têtes comme «EndpointName», etc.
 
-- Pour chaque colonne, le type de données peut uniquement être chaîne et il doit avoir pas plus de 64 caractères, qui est maximal longueur autorisée.
+- Pour chaque colonne, le type de données peut uniquement être de type chaîne et ne peut pas contenir plus de 64 caractères, ce qui représente une longueur maximale autorisée.
 
-- Pour chaque colonne, les données ne peuvent être vides (mais doivent toujours être séparées par un séparateur approprié (autrement dit, un onglet ou une virgule). Cela affecte uniquement ce champ une valeur de chaîne vide.
+- Pour chaque colonne, il est possible de vider les données (tout en les séparant par un séparateur approprié (par exemple, un taquet de tabulation ou une virgule). Cela affecte simplement le champ à une valeur de chaîne vide.
 
 - Il doit y avoir 7 colonnes pour chaque ligne et les colonnes doivent être dans l’ordre indiqué dans le tableau suivant.
 
-- EndpointName doit être unique dans le cas contraire le transfert échoue en raison d’une ligne en double dans la mesure où elle rejoindre incorrecte.
+- EndpointName doit être unique dans la mesure où l’opération de chargement échoue en raison de la ligne dupliquée, car elle provoquera une jointure incorrecte.
 
--  EndpointLabel1, EndpointLabel2, EndpointLable3 sont étiquettes personnalisable utilisateur, ils peuvent être des chaînes vides ou les utilisateurs de valeur préfèrent tel que « Informatique désigné 2018 portables », « étiquette 5678"... etc..
+-  EndpointLabel1, EndpointLabel2, EndpointLable3 sont des étiquettes personnalisables par l’utilisateur, qui peuvent être des chaînes vides ou être des utilisateurs de valeurs, par exemple, un ordinateur portable 2018 désigné par le service informatique, «indicateur de ressources 5678»... etc.
 
 |**Nom de la colonne**|**Type de données**|**Exemple**|
 |:-----|:-----|:-----|
 |EndpointName  <br/> |String  <br/> |1409W3534  <br/> |
 |EndpointMake  <br/> |String  <br/> |Fabrikam Inc  <br/> |
-|EndpointModel  <br/> |String  <br/> |Modèle de Fabrikam 123  <br/> |
-|EndpointType   <br/> |String  <br/> |Ordinateur portable  <br/> |
-|EndpointLabel1  <br/> |String  <br/> |IT désigné 2018 portables  <br/> |
-|EndpointLabel2  <br/> |String  <br/> |Numéro d’identification 5678  <br/> |
-|EndpointLabel3  <br/> |String  <br/> |Achat 2018   <br/> |
+|EndpointModel  <br/> |String  <br/> |Modèle Fabrikam 123  <br/> |
+|EndpointType   <br/> |String  <br/> |Port  <br/> |
+|EndpointLabel1  <br/> |String  <br/> |Ordinateur portable 2018 désigné  <br/> |
+|EndpointLabel2  <br/> |String  <br/> |Indicateur de ressource 5678  <br/> |
+|EndpointLabel3  <br/> |String  <br/> |Achat de 2018   <br/> |
 
 
-## <a name="selecting-media-type-in-detailed-reports"></a>Sélection de type de média dans des rapports détaillés
+## <a name="selecting-media-type-in-detailed-reports"></a>Sélection du type de média dans les rapports détaillés
 <a name="BKMKMediaType"></a>
 
-Les rapports détaillés prennent en charge la recherche au niveau de fiabilité de qualité et les médias pour l’audio, vidéo, partage d’application et types de supports de partage d’écran vidéo. Dimensions, mesures et des filtres qui sont spécifiques à un seul type de support ont « Audio », « Vidéos », « AppSharing » ou « VBSS » comme préfixe.
+Les rapports détaillés prennent en charge l’affichage de la qualité et de la fiabilité des médias pour les types de média audio, vidéo, de partage d’application et vidéo. Le préfixe «audio», «Video», «partage» ou «VBSS» sont des dimensions, mesures et filtres qui sont propres à un type de média unique.
   
-![Dimensions de tableau de bord de la qualité des appels.](media/ae132202-d6dc-43bd-b8b3-ea9c24c519e8.png)
+![Dimensions du tableau de bord de qualité des appels.](media/ae132202-d6dc-43bd-b8b3-ea9c24c519e8.png)
   
-Si vous souhaitez afficher les dimensions et les mesures à prendre pour un seul type de support, le filtre et la nouvelle dimension MediaType peuvent être nécessaires. Par exemple, pour un état qui affiche que la total des sessions compte entre les différents types de médias, vous devez inclure la dimension de MediaType.
+Si vous voulez afficher les dimensions et les mesures d’un type de média unique, il est possible que la nouvelle dimension du type de média et le filtre soient nécessaires. Par exemple, pour qu’un rapport affiche le nombre total de sessions sur différents types de médias, incluez la dimension MediaType.
   
-![Nombre de flux Total du tableau de bord qualité des appels.](media/21d5d0dc-2321-415e-8ef2-cea06165601c.png)
+![Nombre total de flux de tableau de bord de qualité d’appel.](media/21d5d0dc-2321-415e-8ef2-cea06165601c.png)
 
 ## <a name="related-topics"></a>Voir aussi
 [Configurer l'analyse des appels Skype Entreprise](set-up-call-analytics.md)
 
-[Permet de résoudre les problèmes de qualité médiocre appel Analytique d’appel](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+[Utiliser l’analyse des appels pour résoudre les problèmes de mauvaise qualité d’appel](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 [Tableau de bord Analyse des appels et Qualité des appels](difference-between-call-analytics-and-call-quality-dashboard.md)
 

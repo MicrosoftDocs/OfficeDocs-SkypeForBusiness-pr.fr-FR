@@ -1,5 +1,5 @@
 ---
-title: Pourquoi ai-je des problèmes pour saisir au Royaume-Uni informations d’adresse ?
+title: Pourquoi ai-je des difficultés à entrer au Royaume-Uni? informations d’adresse?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -20,91 +20,91 @@ f1keywords:
 - ms.lync.lac.CivicAddressGBSyntaxError
 ms.custom:
 - Calling Plans
-description: Voici quelques raisons pourquoi vous pouvez rencontrer des problèmes votre adresse ou les adresses pour valider correctement dans le (Royaume-Uni).
-ms.openlocfilehash: dafc6608f45393ccc0a39ecdb2c01e2479ec630b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Voici quelques raisons pour lesquelles il est possible que vous rencontriez des problèmes pour valider correctement votre ou vos adresses au Royaume-Uni.
+ms.openlocfilehash: e710f2ef502bb264677bc89d5cdebb2584d48679
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32227813"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290687"
 ---
-# <a name="why-am-i-having-problems-entering-uk-address-information"></a>Pourquoi ai-je des problèmes pour saisir au Royaume-Uni informations d’adresse ?
+# <a name="why-am-i-having-problems-entering-uk-address-information"></a>Pourquoi ai-je des difficultés à entrer au Royaume-Uni? informations d’adresse?
 
-Voici quelques raisons pourquoi vous pouvez rencontrer des problèmes votre adresse ou les adresses pour valider correctement dans le (Royaume-Uni).
+Voici quelques raisons pour lesquelles il est possible que vous rencontriez des problèmes pour valider correctement votre ou vos adresses au Royaume-Uni.
   
-## <a name="whats-wrong-with-the-company-name"></a>Quel est le problème avec le nom de la société ?
+## <a name="whats-wrong-with-the-company-name"></a>Problèmes avec le nom de l’entreprise
 
-Si vous rencontrez un problème d’entrée du nom de société, n’oubliez pas :
+Si vous avez un problème pour entrer le nom de l’entreprise, n’oubliez pas que:
   
-- Il peut avoir des lettres, chiffres et les caractères spéciaux suivants :, / - +. ' &amp; " _ 
+- Il peut comporter des lettres, des chiffres et les caractères spéciaux suivants: ' &amp; " _ 
     
     > [!CAUTION]
-    > Dans la (Royaume-Uni), le nom de la société n’est pas le signe +. 
+    > Au Royaume-Uni (r.-u.), le nom de la société ne peut pas contenir le signe +. 
   
-- Elle doit être 80 caractères au maximum.
+- Ce doit être inférieur ou égal à 80 caractères.
     
 - Il ne peut pas commencer par un caractère spécial.
     
-## <a name="whats-wrong-with-the-house-number"></a>Quel est le problème avec le numéro de voie ?
+## <a name="whats-wrong-with-the-house-number"></a>Problème avec le numéro de la maison
 
-Si vous rencontrez un problème en entrant le numéro de voie, n’oubliez pas :
+Si vous avez un problème pour entrer le numéro de la maison, n’oubliez pas que:
   
-- Il peut avoir des lettres, chiffres et les caractères spéciaux suivants :-/]
+- Il peut comporter des lettres, des chiffres et les caractères spéciaux suivants:-/[]
     
-- Elle doit commencer par un nombre.
+- Il doit commencer par un chiffre.
     
-- Elle doit être de 20 caractères ou moins.
+- Il doit comporter au maximum 20 caractères.
     
-- Il peut avoir une majuscule ou une minuscule.
+- Il peut comporter des lettres majuscules ou minuscules.
     
-## <a name="whats-wrong-with-the-house-name"></a>Quel est le problème avec le nom de la maison ?
+## <a name="whats-wrong-with-the-house-name"></a>Problèmes avec le nom de la maison
 
-Si vous rencontrez un problème d’entrée du nom de la voie, n’oubliez pas :
+Si vous avez un problème pour entrer le nom de la maison, n’oubliez pas que:
   
-- Il peut avoir des lettres, chiffres et les caractères spéciaux suivants :, / - +. ' &amp; " _
+- Il peut comporter des lettres, des chiffres et les caractères spéciaux suivants: ' &amp; " _
     
-- Elle doit être de 50 caractères au maximum.
+- Ce doit être inférieur ou égal à 50 caractères.
     
 - Il ne peut pas commencer par un caractère spécial.
     
-## <a name="whats-wrong-with-the-street-name"></a>Quel est le problème avec le nom de la rue ?
+## <a name="whats-wrong-with-the-street-name"></a>Problèmes avec le nom de la rue
 
-Si vous rencontrez un problème d’entrée du nom de rue, n’oubliez pas :
+Si vous avez un problème pour entrer le nom de la rue, n’oubliez pas que:
   
-- Il peut avoir des lettres, chiffres et les caractères spéciaux suivants :, / - +. ' &amp; " _ 
+- Il peut comporter des lettres, des chiffres et les caractères spéciaux suivants: ' &amp; " _ 
     
-- Elle doit être de 50 caractères au maximum.
+- Ce doit être inférieur ou égal à 50 caractères.
     
 - Il ne peut pas commencer par un caractère spécial. 
     
-## <a name="whats-wrong-with-the-city-or-town"></a>Quel est le problème avec la ville ou du village ?
+## <a name="whats-wrong-with-the-city-or-town"></a>Problèmes avec la ville ou le village
 
-Si vous rencontrez un problème d’entrée du nom de la ville ou du Village, n’oubliez pas :
+Si vous avez un problème pour entrer le nom de la ville ou du village, n’oubliez pas que:
   
-- Il peut avoir des lettres, chiffres et les caractères spéciaux suivants :, / - +. ' &amp; " _
+- Il peut comporter des lettres, des chiffres et les caractères spéciaux suivants: ' &amp; " _
     
-- Elle doit être de 50 caractères au maximum.
+- Ce doit être inférieur ou égal à 50 caractères.
     
 - Il ne peut pas commencer par un caractère spécial. 
     
-## <a name="whats-wrong-with-the-postal-code"></a>Quel est le problème avec le code postal ?
+## <a name="whats-wrong-with-the-postal-code"></a>Problèmes avec le code postal
 
-Si vous rencontrez un problème d’entrer le code postal, n’oubliez pas :
+Si vous avez un problème pour entrer le code postal, n’oubliez pas que:
   
-- Il peut comporter des espaces, des nombres ou des lettres.
+- Il ne peut contenir que des lettres, des chiffres ou des espaces.
     
-- Elle doit être inférieur ou égal à 8 lettres, chiffres et espaces compris.
+- Elle doit comporter au moins 8 lettres, y compris des nombres et des espaces.
     
-- **N’oubliez pas que si vous êtes dans le (Royaume-Uni)**, vous **devez** placer le code postal dans un des formats suivants, où la lettre A = caractères A-Z, le signe # = un nombre compris entre 0-9 et les _ (trait de soulignement) = un espace vide. Voici quelques exemples :
+- **N’oubliez pas que si vous vous trouvez au Royaume-Uni (** r.-u.), vous **devez** placer votre code postal dans l’un des formats suivants, où la lettre a = caractère a-Z, le signe #, le nombre de 0-9 et le _ _ (caractère de soulignement) = un espace vide. Voici quelques exemples:
     
-|**Format**|**Exemple**|
+|**RTF**|**Exemple**|
 |:-----|:-----|
-|CA-A_ # #AA  <br/> |EC3B 2BD  <br/> |
-|UN A_ # #AA  <br/> |E1W 1AP  <br/> |
-|UN _ # #AA  <br/> |2AG F1  <br/> |
-|UN _ ## #AA  <br/> |C44 8HT  <br/> |
-|CA-_ # #AA  <br/> |DR3 HG 6  <br/> |
-|CA-## _ #AA  <br/> |1TH FN35  <br/> |
+|AA # A_ # AA  <br/> |EC3B 2BD  <br/> |
+|# A_ # AA  <br/> |E1W 1AP  <br/> |
+|X AA  <br/> |F1 2AG  <br/> |
+|# #_ # AA  <br/> |C44 8HT  <br/> |
+|AA # _ AA  <br/> |DR3 6HG  <br/> |
+|AA # #_ # AA  <br/> |FN35 1TH  <br/> |
 
 > [!NOTE]
 > Si vous devez obtenir davantage de numéros de téléphone, veuillez [contacter le support pour les entreprises - Aide de l'administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)

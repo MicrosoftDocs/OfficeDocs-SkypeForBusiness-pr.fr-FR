@@ -1,48 +1,48 @@
 ---
-title: 'Déployer le magasin de contacts unifié dans Skype pour Business Server '
+title: 'Déploiement d’un magasin de contacts unifié dans Skype entreprise Server '
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d1c9ebd8-af42-42a0-87d9-fc899fbd7c42
-description: 'Résumé : Activer le magasin de contacts unifié dans Skype pour Business Server.'
-ms.openlocfilehash: 725df8bf133e5b511e0004c161f9e661c5f9968d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Résumé: activez le magasin de contacts unifié dans Skype entreprise Server.'
+ms.openlocfilehash: 737e9dbdd0dc9e4aae54e454cb558c59004719b0
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894519"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34302802"
 ---
-# <a name="deploy-unified-contact-store-in-skype-for-business-server"></a>Déployer le magasin de contacts unifié dans Skype pour Business Server
+# <a name="deploy-unified-contact-store-in-skype-for-business-server"></a>Déploiement d’un magasin de contacts unifié dans Skype entreprise Server
  
-**Résumé :** Activer le magasin de contacts unifié dans Skype pour Business Server.
+**Résumé:** Activez le magasin de contacts unifié dans Skype entreprise Server.
   
-Activation du magasin de contacts unifié dans Skype pour Business Server ne nécessite pas les paramètres de la topologie. Pour activer le magasin de contacts unifié pour les utilisateurs :
+L’activation d’un magasin de contacts unifié dans Skype entreprise Server n’exige aucun paramètre de topologie. Pour activer le magasin de contacts unifié pour les utilisateurs :
   
 - La stratégie du magasin de contacts unifié est activée (par défaut).
     
-- Les utilisateurs se connectent avec Skype pour les entreprises au moins une fois.
+- Les utilisateurs se connectent à Skype entreprise au moins une fois.
     
-Une fois que les contacts d’un utilisateur ont été migrés, ce qui se produit automatiquement lorsqu’un utilisateur se connecte avec Skype pour les entreprises, l’utilisateur peut accéder et gérer leur Skype de contacts professionnels à partir de Skype pour les professionnels, Outlook 2013 ou Outlook Web Access. L’utilisateur n’a pas à être connecté à Skype pour les entreprises à gérer leurs contacts dans Outlook ou Outlook Web Access.
+Après la migration des contacts d’un utilisateur, ce qui se produit automatiquement lorsqu’un utilisateur se connecte à l’aide de Skype entreprise, l’utilisateur peut accéder à ses contacts Skype entreprise et les gérer depuis Skype entreprise, Outlook 2013 ou Outlook Web Access. Il n’est pas nécessaire de se connecter à Skype entreprise pour gérer ses contacts à partir d’Outlook ou d’Outlook Web Access.
   
 > [!IMPORTANT]
-> Si un utilisateur se connecte en Skype pour les entreprises après la migration, les contacts et les groupes sont disponibles et à jour, mais l’utilisateur ne peut pas gérer (qui est, ajouter, supprimer, déplacer, tag, baliser ou modifier) ces contacts. 
+> Si un utilisateur se connecte à partir de Skype entreprise après la migration, les contacts et les groupes sont disponibles et à jour, mais l’utilisateur ne peut pas gérer (c’est-à-dire ajouter, supprimer, déplacer, Baliser, supprimer ou modifier) ces contacts. 
   
 ## <a name="enable-users-for-unified-contact-store"></a>Activation des utilisateurs pour le magasin de contacts unifié
 
-Lorsque vous déployez Skype pour Business Server et que vous publiez la topologie, le magasin de contacts unifié est activé pour tous les utilisateurs par défaut. Il est inutile d’aucune action supplémentaire pour activer le magasin de contacts unifié après avoir déployé Skype pour Business Server. Cependant, vous pouvez utiliser l’applet de commande **Set-CsUserServicesPolicy** pour personnaliser les utilisateurs pour lesquels le magasin de contact unifié est disponible. Vous pouvez activer cette fonctionnalité globalement, par site, par locataire, par personne ou par groupes de personnes.
+Lorsque vous déployez Skype entreprise Server et que vous publiez la topologie, le magasin de contacts unifié est activé par défaut pour tous les utilisateurs. Vous n’avez pas besoin d’effectuer d’action supplémentaire pour activer le magasin de contacts unifié après le déploiement de Skype entreprise Server. Cependant, vous pouvez utiliser l’applet de commande **Set-CsUserServicesPolicy** pour personnaliser les utilisateurs pour lesquels le magasin de contact unifié est disponible. Vous pouvez activer cette fonctionnalité globalement, par site, par locataire, par personne ou par groupes de personnes.
   
 ### <a name="to-enable-users-for-unified-contact-store"></a>Pour activer les utilisateurs pour le magasin de contact unifié
 
-1. Démarrez le Skype pour Business Server Management Shell : cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Skype pour les entreprises**, puis cliquez sur **Skype pour Business Server Management Shell**.
+1. Démarrer Skype entreprise Server Management Shell: cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise**, puis cliquez sur **Skype entreprise Server Management Shell**.
     
 2. Effectuez l’une des opérations suivantes :
     
-   - Pour activer le magasin de contacts unifié globalement pour tous les Skype pour les utilisateurs Business Server, notamment l’applet de commande suivante à l’interface de ligne de commande Windows PowerShell :
+   - Pour activer globalement le magasin de contacts unifié pour tous les utilisateurs de Skype entreprise Server, procédez de l’une des manières suivantes dans l’interface de ligne de commande Windows PowerShell:
     
    ```
    Set-CsUserServicesPolicy -Identity global -UcsAllowed $True
@@ -94,15 +94,15 @@ Lorsque vous déployez Skype pour Business Server et que vous publiez la topolog
   
 ## <a name="migrate-users-to-unified-contact-store"></a>Migration des utilisateurs vers le magasin de contacts unifié
 
-Contacts d’un utilisateur sont transférés automatiquement vers le serveur Exchange 2013 lorsque l’utilisateur :
+Les contacts d’un utilisateur sont automatiquement déplacés vers le serveur Exchange 2013 lorsque l’utilisateur:
   
 - une stratégie de services utilisateur dont le paramètre UcsAllowed a la valeur True a été attribuée à l’utilisateur ;
     
-- A été mis en service avec une boîte aux lettres Exchange 2013 et s’est connecté à la boîte aux lettres au moins une fois.
+- A été configuré avec une boîte aux lettres Exchange 2013 et s’est connecté à la boîte aux lettres au moins une fois.
     
-- Journaux dans à l’aide d’un Skype pour le client riche Business.
+- Se connecte à l’aide d’un client enrichi Skype entreprise.
     
-Si l’utilisateur se connecte avec un client antérieure ou de Lync, ou si l’utilisateur n’est pas connecté à un serveur Exchange 2013, la stratégie de services utilisateur est ignorée et les contacts de l’utilisateur restent dans Skype pour Business Server.
+Si l’utilisateur se connecte avec un client Lync ou antérieur, ou si l’utilisateur n’est pas connecté à un serveur Exchange 2013, la stratégie de services des utilisateurs est ignorée et les contacts de l’utilisateur sont conservés dans Skype entreprise Server.
   
 Déterminez si les contacts d’un utilisateur ont été transférés en utilisant l’une des méthodes suivantes : 
   
@@ -110,9 +110,9 @@ Déterminez si les contacts d’un utilisateur ont été transférés en utilisa
     
     HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync\\<SIP URL\>\UCS
     
-    Si les contacts de l’utilisateur sont stockés dans Exchange 2013, cette clé contient une valeur inucsmode dont la valeur est 2165.
+    Si les contacts de l’utilisateur sont stockés dans Exchange 2013, cette clé contient une valeur de InUCSMode avec une valeur de 2165.
     
-- Exécutez l’applet de commande **Test-CsUnifiedContactStore**. À Skype pour la ligne de commande Business Server Management Shell, tapez :
+- Exécutez l’applet de commande **Test-CsUnifiedContactStore**. Dans la ligne de commande de Skype entreprise Server Management Shell, tapez:
     
   ```
   Test-CsUnifiedContactStore -UserSipAddress "sip:kenmyer@litwareinc.com" -TargetFqdn "atl-cs-001.litwareinc.com"
@@ -122,23 +122,23 @@ Déterminez si les contacts d’un utilisateur ont été transférés en utilisa
     
 ## <a name="roll-back-migrated-users"></a>Restauration des utilisateurs migrés
 
-Si vous avez besoin restaurer le contact unifié magasin fonctionnalité, annuler les contacts uniquement si vous déplacez l’utilisateur vers Exchange 2010 ou Lync Server 2010. Pour effectuer la restauration, désactivez la stratégie définie pour l’utilisateur, puis exécutez l’applet de commande **Invoke-CsUcsRollback**. La simple exécution de **Invoke-CsUcsRollback** ne suffit pas à garantir une restauration permanente ; en effet, si la stratégie n’est pas désactivée, le magasin de contacts unifié continue d’être transféré. Par exemple, si un utilisateur est annulé, car Exchange 2013 est restaurée vers Exchange 2010, puis la boîte aux lettres est déplacée vers Exchange 2013, la migration de magasin de contacts unifié sera effectuée à nouveau sept jours après la restauration, dans la mesure où stocker de contact unifié est toujours activé pour l’utilisateur dans la stratégie de services utilisateur.
+Si vous avez besoin de restaurer la fonctionnalité de magasin de contacts unifiée, restaurez les contacts uniquement si vous revenez à l’utilisateur dans Exchange 2010 ou Lync Server 2010. Pour effectuer la restauration, désactivez la stratégie définie pour l’utilisateur, puis exécutez l’applet de commande **Invoke-CsUcsRollback**. La simple exécution de **Invoke-CsUcsRollback** ne suffit pas à garantir une restauration permanente ; en effet, si la stratégie n’est pas désactivée, le magasin de contacts unifié continue d’être transféré. Par exemple, si un utilisateur est restauré, car Exchange 2013 est restauré dans Exchange 2010, puis la boîte aux lettres de l’utilisateur est déplacée vers Exchange 2013, la migration de magasin de contacts unifiée sera lancée à nouveau après le Rollback, tant que magasin de contacts unifié est toujours activée pour l’utilisateur dans la stratégie de services des utilisateurs.
   
-L’applet de commande **Move-CsUser** restaure automatiquement magasin de contacts de l’utilisateur à partir d’Exchange 2013 à Skype pour Business Server dans les situations suivantes :
+L’applet de commande **Move-Csuser** restaure automatiquement le magasin de contacts de l’utilisateur à partir de Exchange 2013 vers Skype entreprise Server dans les situations suivantes:
   
-- Lorsque les utilisateurs sont déplacés de Skype pour Business Server vers Lync Server 2010 ou de Microsoft Lync Server 2013. 
+- Lorsque les utilisateurs sont déplacés de Skype entreprise Server vers Microsoft Lync Server 2013 ou Lync Server 2010. 
     
-- Lorsque les utilisateurs sont transférés local, par exemple lorsqu’un utilisateur est déplacé de Skype pour Business Online à Skype pour Business Server local, ou vice versa.
+- Lorsque les utilisateurs sont déplacés vers l’environnement croisé, par exemple lorsqu’un utilisateur est déplacé de Skype entreprise Online vers Skype entreprise Server en local, ou vice versa.
     
 L’importation des données d’un magasin de contacts unifié à partir d’une base de données de sauvegarde peut endommager les données du magasin de contacts unifié et les données utilisateur si le mode de magasin de contacts unifié a été modifié entre l’exportation et l’importation. Par exemple :
   
-- Si vous exportez des listes de contacts avant de contacts des utilisateurs sont migrés vers Exchange 2013 et, après la migration, vous importerez les mêmes données, les données de magasin de contacts unifié et les listes de contacts seront endommagées.
+- Si vous exportez des listes de contacts avant la migration des contacts de l’utilisateur vers Exchange 2013, puis après la migration, vous importez les mêmes données, les données et les listes de contacts du magasin de contacts unifié seront corrompues.
     
-- Si vous exportez des données utilisateur après la migration des utilisateurs vers Exchange 2013, annuler la migration, puis pour une raison quelconque, vous importez les données d’après la migration, le contact unifié stockent des données et listes de contacts seront endommagées.
+- Si vous exportez les données des utilisateurs après avoir migré les utilisateurs vers Exchange 2013, restaurez la migration, puis, pour une raison quelconque, vous importez les données à partir de la migration, les données et les listes de contacts du magasin de contacts unifié seront endommagées.
     
 > [!IMPORTANT]
-> Avant de déplacer une boîte aux lettres Exchange vers Exchange 2010 à partir d’Exchange 2013, l’administrateur Exchange devez vous assurer que le Skype pour l’administrateur du serveur d’entreprise a tout d’abord restaurée la Skype pour les contacts des utilisateurs Business Server à partir d’Exchange 2013 à Skype pour Serveur d’entreprise. Pour restaurer les contacts de magasin de contacts unifié Skype pour Business Server, consultez la procédure « pour restaurer les contacts du magasin de contacts unifié de Exchange 2013 à Skype pour Business Server » plus loin dans cette section. 
+> Avant de déplacer une boîte aux lettres Exchange à partir d’Exchange 2013 vers Exchange 2010, l’administrateur Exchange doit s’assurer que l’administrateur de Skype entreprise Server a préalablement restauré les contacts de l’utilisateur de Skype entreprise à partir d’Exchange 2013 vers Skype pour Business Server. Pour restaurer des contacts de magasin de contacts unifiés dans Skype entreprise Server, reportez-vous à la procédure «pour restaurer des contacts de magasin de contacts unifiés à partir d’Exchange 2013 vers Skype entreprise Server» plus loin dans cette section. 
   
- **Comment restaurer les contacts de l’utilisateur :** Si vous utilisez l’applet de commande **Move-CsUser** pour déplacer des utilisateurs entre Skype pour Business Server 2015 et Lync Server 2010, vous pouvez ignorer ces étapes, car l’applet de commande **Move-CsUser** restaure automatiquement magasin de contacts unifié lorsqu’il déplace les utilisateurs de Skype pour Entreprise 2015 serveur Lync Server 2010. **Move-CsUser** ne désactive pas la stratégie du magasin de contacts unifié, afin que la migration vers le magasin de contacts unifié se reproduit si l’utilisateur est déplacé vers Skype pour Business Server 2015.
+ **Pour restaurer des contacts de l’utilisateur, procédez comme suit:** Si vous utilisez l’applet de action **Move-Csuser** pour déplacer des utilisateurs entre Skype entreprise Server 2015 et Lync Server 2010, vous pouvez ignorer ces étapes dans la mesure où l’applet de l’applet de **déplacement-Csuser** annule automatiquement le magasin de contacts unifié lors du déplacement des utilisateurs de Skype Business Server 2015 vers Lync Server 2010. La migration **-Csuser** n’entraîne pas la désactivation de la stratégie de magasin de contacts unifiée, de sorte que la migration vers le magasin de contacts unifié se reproduit si l’utilisateur est reculé dans Skype entreprise Server 2015.
   
 

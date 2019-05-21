@@ -5,25 +5,25 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.NcsSelProperty
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50c799a3-90a0-4d58-8f8b-17eea56144dc
-description: Utilisez la boîte de dialogue affecter des propriétés pour spécifier un ID de site description et réseau à plusieurs sous-réseaux à la fois. Dans la zone Description, tapez la description que vous souhaitez utiliser pour les sous-réseaux que vous avez sélectionné. Dans l’ID de site réseau, sélectionnez l’ID de site réseau que vous souhaitez attribuer aux sous-réseaux que vous avez sélectionné. Pour affecter ces propriétés pour les sous-réseaux que vous avez sélectionné, cliquez sur OK.
-ms.openlocfilehash: d41324bf1369af4775d9a2ead28a86ebeff99870
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Utilisez la boîte de dialogue affecter des propriétés pour spécifier une description et un ID de site réseau à plusieurs sous-réseaux en même temps. Dans Description, tapez la description que vous voulez utiliser pour les sous-réseaux sélectionnés. Dans ID du site réseau, sélectionnez l’ID du site réseau que vous voulez affecter aux sous-réseaux que vous avez sélectionnés. Pour affecter ces propriétés aux sous-réseaux sélectionnés, cliquez sur OK.
+ms.openlocfilehash: b64c47e912bdc51391b0230929446a5abe33a423
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33897175"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299795"
 ---
 # <a name="assign-properties"></a>Affecter des propriétés
  
-Utilisez la boîte de dialogue **Affecter des propriétés** pour spécifier un ID de site description et réseau à plusieurs sous-réseaux à la fois. Dans la zone **Description**, tapez la description que vous souhaitez utiliser pour les sous-réseaux que vous avez sélectionné. **ID de site réseau**, sélectionnez l’ID de site réseau que vous souhaitez attribuer aux sous-réseaux que vous avez sélectionné. Pour affecter ces propriétés pour les sous-réseaux que vous avez sélectionné, cliquez sur **OK**.
+Utilisez la boîte de dialogue **affecter des propriétés** pour spécifier une description et un ID de site réseau à plusieurs sous-réseaux en même temps. Dans **Description**, tapez la description que vous voulez utiliser pour les sous-réseaux sélectionnés. Dans **ID du site réseau**, sélectionnez l’ID du site réseau que vous voulez affecter aux sous-réseaux que vous avez sélectionnés. Pour affecter ces propriétés aux sous-réseaux sélectionnés, cliquez sur **OK**.
   
-Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide de la Skype pour le panneau de configuration serveur Business, voir [Gérer les Skype pour Business Server 2015](../../manage/manage.md).
+Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du panneau de configuration Skype entreprise Server, reportez-vous à la rubrique [gestion de Skype entreprise server 2015](../../manage/manage.md).
   
 

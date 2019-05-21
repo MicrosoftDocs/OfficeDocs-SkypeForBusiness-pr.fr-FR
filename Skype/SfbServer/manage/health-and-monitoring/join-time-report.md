@@ -1,25 +1,25 @@
 ---
-title: Rapport des heures participer à une conférence dans Skype pour Business Server
+title: Rapport de temps de participation à une conférence dans Skype entreprise Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e64dc89a-25e4-4cb8-bcb1-51712e69ba5a
-description: 'Résumé : Découvrez la conférence participer à une heure rapport de synthèse dans Skype pour Business Server.'
-ms.openlocfilehash: 91e1c58d5718f0012e59e5ce2bfb6c53dbfd9c01
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Résumé: en savoir plus sur le rapport de synthèse des heures de participation à la Conférence dans Skype entreprise Server.'
+ms.openlocfilehash: a6ded5dad2d55c6c629cd61809c803ee40de862a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33897645"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305639"
 ---
-# <a name="conference-join-time-report-in-skype-for-business-server"></a>Rapport des heures participer à une conférence dans Skype pour Business Server
+# <a name="conference-join-time-report-in-skype-for-business-server"></a>Rapport de temps de participation à une conférence dans Skype entreprise Server
  
-**Résumé :** Découvrez la conférence participer à une heure rapport de synthèse dans Skype pour Business Server.
+**Résumé:** En savoir plus sur le rapport synthèse des heures de connexion dans Skype entreprise Server.
   
 Le résumé des heures d’arrivée aux conférences vous permet de déterminer le temps nécessaire à vos utilisateurs pour rejoindre une conférence. Le rapport indique le temps nécessaire moyen (en millisecondes) et fournit également une répartition montrant combien d’utilisateurs ont pu rejoindre la conférence en 2 secondes ou moins, combien ont nécessité entre 2 et 5 secondes, etc.
   
@@ -52,13 +52,13 @@ Le tableau suivant répertorie les informations fournies dans le rapport des heu
 |**Date** <br/> Le titre réel de cette mesure varie en fonction de l’intervalle sélectionné.  <br/> |Non  <br/> |Date et heure des conférences.  <br/> |
 |**Nombre total de sessions** <br/> |Non  <br/> |Nombre total de sessions qui comprend les sessions réussies, les sessions qui ont échoué (à la fois les échecs attendus et les échecs inattendus) et les sessions non catégorisées.  <br/> |
 |**Moyenne (ms)** <br/> |Non  <br/> |Temps moyen (en millisecondes) nécessaire aux participants pour rejoindre la conférence.  <br/> |
-|**Sessions \< 2 secondes, Volume** <br/> |Non  <br/> |Nombre de participants ayant pu rejoindre la conférence en moins de 2 secondes.  <br/> |
+|**Sessions \< 2 secondes, volume** <br/> |Non  <br/> |Nombre de participants ayant pu rejoindre la conférence en moins de 2 secondes.  <br/> |
 |**Sessions \< 2 secondes, pourcentage** <br/> |Non  <br/> ||
 |**Sessions 2-5 secondes, Volume** <br/> |Non  <br/> |Nombre de participants ayant nécessité entre 2 et 5 secondes pour rejoindre la conférence.  <br/> |
 |**Sessions 2-5 secondes, Pourcentage** <br/> |Non  <br/> |Pourcentage du total des participants à l’appel ayant nécessité entre 2 et 5 secondes pour rejoindre la conférence.  <br/> |
 |**Sessions 5-10 secondes, Volume** <br/> |Non  <br/> |Nombre de participants ayant nécessité entre 5 et 10 secondes pour rejoindre la conférence.  <br/> |
 |**Sessions 5-10 secondes, Pourcentage** <br/> |Non  <br/> |Pourcentage du total des participants à l’appel ayant nécessité entre 5 et 10 secondes pour rejoindre la conférence.  <br/> |
-|**Sessions \> 10 secondes, Volume** <br/> |Non  <br/> |Nombre de participants ayant nécessité plus de 10 secondes pour rejoindre la conférence.  <br/> |
+|**Sessions \> 10 secondes, volume** <br/> |Non  <br/> |Nombre de participants ayant nécessité plus de 10 secondes pour rejoindre la conférence.  <br/> |
 |**Sessions \> 10 secondes, pourcentage** <br/> |Non  <br/> |Pourcentage du total des participants à l’appel ayant nécessité plus de 10 secondes pour rejoindre la conférence.  <br/> |
    
 

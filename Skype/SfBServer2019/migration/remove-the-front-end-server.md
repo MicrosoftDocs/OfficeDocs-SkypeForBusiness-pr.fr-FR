@@ -1,24 +1,24 @@
 ---
-title: Supprimer le serveur Enterprise Edition frontaux ou le serveur Standard Edition
+title: Suppression du serveur frontal Enterprise Edition ou du serveur frontal Standard Edition
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Les procédures décrites dans cette rubrique sont conçus pour vous guider dans le processus de suppression d’un pool frontal Enterprise Edition ou un serveur Standard Edition serveur frontal. Après avoir migré vers Skype pour Business Server 2019, c’est une des premières étapes de la mise hors service de votre environnement hérité.
-ms.openlocfilehash: cd21eff37bfd4f1b29597ee2a44ad3bafe2c104c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Les procédures décrites dans cette rubrique sont conçues pour vous guider dans le processus de suppression d’un pool frontal Enterprise Edition ou d’un serveur frontal Standard Edition. Après la migration vers Skype entreprise Server 2019, vous devez commencer par désaffecter votre environnement hérité.
+ms.openlocfilehash: 62e9552f8781d753e5e03e8aa4f23ad67d40dbce
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231436"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34301103"
 ---
 # <a name="remove-the-front-end-server"></a>Supprimer le serveur frontal
 
-Les procédures décrites dans cette section sont conçus pour vous guider dans le processus de suppression d’un pool frontal Enterprise Edition ou un serveur Standard Edition serveur frontal. Après avoir migré vers Skype pour Business Server 2019, c’est une des premières étapes de la suppression de votre environnement hérité.
+Les procédures décrites dans cette section sont conçues pour vous guider dans le processus de suppression d’un pool frontal Enterprise Edition ou d’un serveur frontal Standard Edition. Après la migration vers Skype entreprise Server 2019, il s’agit de l’une des premières étapes du retrait de votre environnement hérité.
   
 ## <a name="in-this-section"></a>Contenu de cette section
 

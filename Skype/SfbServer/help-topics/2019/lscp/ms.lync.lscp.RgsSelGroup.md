@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.RgsSelGroup
@@ -12,27 +12,27 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d780f676-c2c5-4f57-90dd-df5fcd204d76
 ROBOTS: NOINDEX, NOFOLLOW
-description: Files d’attente les appels vers les groupes Response Group jusqu'à ce qu’un agent répond à l’appel. Files d’attente ont affecté les groupes d’agents. Lorsque vous créez ou modifiez une file d’attente, vous utilisez la boîte de dialogue Sélectionner des groupes pour sélectionner un ou plusieurs groupes d’agents à affecter à la file d’attente.
-ms.openlocfilehash: ea948bd0c31477d20c2c6fbb68902e087bcd9826
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Les files d’attente de groupe de réponse contiennent les appels aux groupes de réponse tant qu’un agent ne répond pas à l’appel. Les files d’attente ont attribué des groupes d’agents. Lorsque vous créez ou modifiez une file d’attente, vous utilisez la boîte de dialogue Sélectionner des groupes pour sélectionner un ou plusieurs groupes d’agents à attribuer à la file d’attente.
+ms.openlocfilehash: 3835a98c6f35453fc74072c8f9d96e038c187657
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33891298"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34292538"
 ---
 # <a name="select-groups"></a>Sélectionner des groupes
 
-Files d’attente les appels vers les groupes Response Group jusqu'à ce qu’un agent répond à l’appel. Files d’attente ont affecté les groupes d’agents. Lorsque vous créez ou modifiez une file d’attente, vous utilisez la boîte de dialogue **Sélectionner des groupes** pour sélectionner un ou plusieurs groupes d’agents à affecter à la file d’attente.
+Les files d’attente de groupe de réponse contiennent les appels aux groupes de réponse tant qu’un agent ne répond pas à l’appel. Les files d’attente ont attribué des groupes d’agents. Lorsque vous créez ou modifiez une file d’attente, vous utilisez la boîte de dialogue **Sélectionner des groupes** pour sélectionner un ou plusieurs groupes d’agents à attribuer à la file d’attente.
 
 ## <a name="ui-reference"></a>Référence d’interface utilisateur
 
-La liste suivante décrit les contrôles et les champs dans la boîte de dialogue **Sélectionner des groupes** .
+La liste suivante décrit les contrôles et les champs de la boîte de dialogue **Sélectionner des groupes** .
 
-- Recherche zone de recherche pour le nom d’un groupe d’agents. Entrez tout ou partie du nom. Renseignez la zone de recherche pour afficher tous les groupes d’agents pour votre organisation.
+- Zone de recherche recherche le nom d’un groupe d’agents. Entrez tout ou partie du nom. Laissez la zone de recherche vide pour afficher tous les groupes d’agents de votre organisation.
 
-- **Nom** Affiche les noms des groupes d’agents retournés.
+- **Nom** Affiche les noms des groupes d’agents renvoyés.
 
-- **Stratégie de participation** Affiche la stratégie de participation définie pour le groupe d’agents : formelle ou informelle.
+- **Politique de participation** Affiche la politique de participation définie pour le groupe d’agents: formel ou informel.
 
 - **Méthode de routage** Affiche le type de routage défini pour le groupe d’agents.
 

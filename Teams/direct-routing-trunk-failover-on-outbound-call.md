@@ -3,7 +3,7 @@ title: Basculement de jonction sur les appels sortants
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.reviewer: NMuravlyannikov
 ms.topic: article
 ms.service: msteams
@@ -14,44 +14,44 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-description: Lisez cette rubrique pour savoir comment gérer les basculements de jonction pour les appels sortants à partir des équipes pour le contrôleur de Session en périphérie (SBC).
-ms.openlocfilehash: b2da454097fcb0f0af91aefad987d195e9e0f912
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+description: Apprenez-en davantage sur la gestion des basculements de Trunk pour les appels sortants de teams vers le contrôleur de bordure de session (SBC).
+ms.openlocfilehash: e9efcfba696886c0fc4885778b79832956ccb893
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33401781"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290362"
 ---
 # <a name="trunk-failover-on-outbound-calls"></a>Basculement de jonction sur les appels sortants
 
-Cette rubrique explique comment éviter les basculements de jonction pour les appels sortants--des équipes pour le contrôleur de Session en périphérie (SBC).
+Cette rubrique explique comment éviter le basculement de Trunk sur les appels sortants à partir d’équipes vers le contrôleur de bordure de session (SBC).
 
-## <a name="failover-on-network-errors"></a>Basculement sur les erreurs de réseau
+## <a name="failover-on-network-errors"></a>Basculement sur erreur réseau
 
-Si une jonction ne peut pas être connectée pour une raison quelconque, la connexion à la jonction même tentative sera effectuée à partir d’une autre Microsoft Datacenter. Une jonction ne pas être connectée, par exemple, si une connexion est refusée, s’il existe un délai d’attente TLS ou s’il existe des problèmes de niveau réseau.
-Par exemple, une connexion peut échouer si une limite l’accès administrateur pour le contrôleur SBC, uniquement à partir des adresses IP connues, mais oublie placer les adresses IP de tous les centres de données de routage Direct Microsoft sur la liste de contrôle d’accès (ACL) de la SBC. 
+Si un Trunk ne peut pas être connecté pour une raison quelconque, la connexion au même Trunk sera tentée à partir d’un autre centre de donnée Microsoft. Un Trunk n’est peut-être pas connecté, par exemple, si une connexion est refusée, s’il y a un délai de connexion TLS ou s’il existe d’autres problèmes liés au réseau.
+Par exemple, une connexion peut échouer si un administrateur limite l’accès à l’SBC uniquement à partir d’adresses IP bien connues, mais oublie de placer les adresses IP de tous les centres de distribution de routage direct Microsoft dans la liste de contrôle d’accès (ACL) de l’SBC. 
 
-## <a name="failover-of-specific-sip-codes-received-from-the-session-border-controller-sbc"></a>Basculement de codes SIP spécifiques reçu à partir du contrôleur de Session en périphérie (SBC)
+## <a name="failover-of-specific-sip-codes-received-from-the-session-border-controller-sbc"></a>Basculement de codes SIP spécifiques reçus du contrôleur de bordure de session (SBC)
 
-Si le routage Direct reçoit les codes d’erreur 4xx ou 6xx SIP en réponse à une invitation sortante, l’appel est considérée comme terminée par défaut. Sortant signifie qu’un appel à partir d’un client équipes pour le Public téléphone réseau commuté (RTC) avec le flux de trafic suivants : Client équipes-> routage Direct-> SBC-réseau de téléphonie >.
+Si le routage direct reçoit des codes d’erreur SIP 4xx ou 6xx en réponse à une invitation sortante, l’appel est considéré comme complet par défaut. Sortant désigne un appel d’un client teams vers le réseau téléphonique public commuté (RTC) avec le flux de trafic suivant: teams client-> direct-> SBC-> de réseau téléphonique.
 
-Vous trouverez la liste des Codes SIP dans le [Protocole SIP (Session Initiation) RFC](https://tools.ietf.org/html/rfc3261).
+La liste des codes SIP est disponible dans le [RFC SIP (Session Initiation Protocol)](https://tools.ietf.org/html/rfc3261).
 
-Supposent une situation où un contrôleur SBC une réponse sur une invitation entrante par le code « expiration de délai 408 demande : le serveur ne peut pas fournir une réponse au sein d’une durée appropriée, par exemple, si elle a pas pu déterminer l’emplacement de l’utilisateur dans le temps. Le client peut répéter de la demande sans modifications ultérieurement. »
+Dans le cas contraire, une colonie a répondu à une invitation entrante avec le code «408 de demande d’expiration: le serveur n’a pas pu produire de réponse dans un délai approprié, par exemple, s’il n’a pas pu déterminer l’emplacement de l’utilisateur dans le temps. Le client risque de reproduire la demande sans modification ultérieurement.»
 
-Cette SBC spécifique peut être confronté à des difficultés pour connecter à l’appelé, par exemple en raison d’une configuration réseau incorrecte ou une autre erreur. Toutefois, un SBC plus est dans l’itinéraire peut être en mesure d’atteindre l’appelé.
+Ce SBC particulier peut rencontrer des difficultés à se connecter à l’appelé, peut-être en raison d’un problème de configuration du réseau ou d’une autre erreur. Néanmoins, il existe une plus grande colonie dans l’itinéraire qui peut être en mesure de joindre l’appelant.
 
-Dans le diagramme suivant, lorsqu’un utilisateur effectue un appel vers un numéro de téléphone, il existe deux SBCs dans l’itinéraire que peut transmettre potentiellement cet appel. À l’origine, SBC1.contoso.com est activée pour l’appel, mais SBC1.contoso.com n’est pas en mesure d’atteindre un réseau PTSN en raison d’un problème de réseau.
-Par défaut, l’appel réussira pour l’instant. 
+Dans le diagramme suivant, lorsqu’un utilisateur effectue un appel vers un numéro de téléphone, il y a deux éléments SBCs dans l’itinéraire qui peut éventuellement répondre à cet appel. Au départ, SBC1.contoso.com est sélectionné pour l’appel, mais SBC1.contoso.com ne peut pas accéder à un réseau PTSN en raison d’un problème de réseau.
+Par défaut, l’appel est effectué pour le moment. 
  
-![Montre SBC Impossible d’atteindre PSTN en raison de problèmes de réseau](media/direct-routing-failover-response-codes1.png)
+![Affichage de SBC impossible d’atteindre le RTC en raison d’un problème de réseau](media/direct-routing-failover-response-codes1.png)
 
-Mais il existe un SBC plus dans l’itinéraire potentiellement capable de fournir l’appel.
-Si vous configurez le paramètre `Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com -FailoverResponseCodes "408"`, la deuxième SBC sera tenté--SBC2.contoso.com dans le diagramme suivant :
+Mais il existe une plus grande SBC dans l’itinéraire, qui peut éventuellement répondre à l’appel.
+Si vous configurez `Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com -FailoverResponseCodes "408"`le paramètre, le second SBC sera essayé--SBC2.contoso.com dans le schéma suivant:
 
-![Indique le routage vers le deuxième SBC](media/direct-routing-failover-response-codes2.png)
+![Affiche le routage sur le second SBC](media/direct-routing-failover-response-codes2.png)
 
-Le paramètre - FailoverResponseCodes et en spécifiant les codes vous aide à bien paramétrer votre routage et éviter les éventuels problèmes lors d’un contrôleur SBC ne peut pas émettre un appel en raison de réseau ou d’autres problèmes.
+Le fait de définir le paramètre-FailoverResponseCodes et de spécifier les codes vous permet d’optimiser le routage et d’éviter les problèmes potentiels lorsqu’un SBC ne peut pas faire un appel en raison de problèmes réseau ou d’autres problèmes.
 
-Valeurs par défaut : 408, 503, 504
+Valeurs par défaut: 408, 503, 504
 

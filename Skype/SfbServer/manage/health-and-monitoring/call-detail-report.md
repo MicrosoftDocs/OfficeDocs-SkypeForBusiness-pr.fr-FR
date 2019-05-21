@@ -1,27 +1,27 @@
 ---
-title: Rapport détaillé des appels dans Skype pour Business Server
+title: Rapport Détails des appels dans Skype entreprise Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 38862e35-3fec-41b9-a035-0b301942d446
-description: 'Résumé : Découvrez les Call Detail Report utilisés dans Skype pour Business Server.'
-ms.openlocfilehash: 1dd32baa8efdf932232e71b42a0c0ffdd1d840ec
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Résumé: en savoir plus sur le rapport sur les détails des appels utilisé dans Skype entreprise Server.'
+ms.openlocfilehash: 8ced1a93f32f5f62ad33563e295ec456303232fc
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33902789"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289370"
 ---
-# <a name="call-detail-report-in-skype-for-business-server"></a>Rapport détaillé des appels dans Skype pour Business Server
+# <a name="call-detail-report-in-skype-for-business-server"></a>Rapport Détails des appels dans Skype entreprise Server
  
-**Résumé :** Découvrez les Call Detail Report utilisés dans Skype pour Business Server.
+**Résumé:** En savoir plus sur le rapport Détails des appels utilisé dans Skype entreprise Server.
   
-Call Detail Report fournit une vue détaillée un appel ; le rapport comprend la quasi totalité la qualité de l’expérience mesures et des statistiques collectées par Skype pour Business Server, divisée en sections, telles que :
+Le rapport Détails de l’appel fournit un examen détaillé d’un appel individuel. ce rapport inclut presque toutes les mesures de qualité d’exploitation et les statistiques collectées par Skype entreprise Server, divisées en sections de rapport telles que:
   
 - Informations d’appel 
     
@@ -49,17 +49,17 @@ Le rapport sur le détail de l’appel s’avère particulièrement utile pour i
 
 Le rapport sur le détail de l’appel est accessible à partir des rapports suivants :
   
-- [Emplacement rapport dans Skype pour Business Server (emplacement-report.md) (en cliquant sur le volume d’appels ou de la mesure de pourcentage d’appels médiocres)
+- Le rapport [location» dans Skype entreprise Server (location-report.md) (en cliquant sur le volume d’appel ou la métrique de faible pourcentage d’appels)
     
-- Le [Media Quality Summary Report dans Skype pour Business Server (summary.md) (en cliquant sur la mesure de pourcentage d’appels médiocres ou le volume d’appels)
+- Le rapport synthèse sur la qualité multimédia dans Skype entreprise Server (summary.md) (en cliquant sur le volume des appels ou sur le pourcentage d’appels médiocre)
     
-- Le [Media Quality Comparison Report dans Skype pour Business Server](comparison.md) (en cliquant sur le [Rapport liste des appels dans Skype pour Business Server](call-list-report-0.md) puis en cliquant sur la mesure détail).
+- [Rapport de comparaison de qualité multimédia dans Skype entreprise Server](comparison.md) (en cliquant sur le [rapport liste d’appels dans Skype entreprise Server](call-list-report-0.md) , puis en cliquant sur la métrique de détail).
     
-- Le [Rapport de performances du serveur dans Skype pour Business Server](server-performance.md) (en cliquant sur la mesure de pourcentage d’appels médiocres ou le volume d’appels)
+- [Rapport sur les performances du serveur dans Skype entreprise Server](server-performance.md) (en cliquant sur le volume de l’appel ou en utilisant une métrique de pourcentage médiocre)
     
-- Le [Rapport liste des appels dans Skype pour Business Server](call-list-report-0.md) (en cliquant sur la mesure détail)
+- [Rapport de liste d’appels dans Skype entreprise Server](call-list-report-0.md) (en cliquant sur la métrique de détail)
     
-À partir de Call Detail Report vous pouvez accéder le [Rapport de périphérique dans Skype pour Business Server](device-report.md) en cliquant sur une des mesures suivantes :
+Dans le rapport Détails de l’appel, vous pouvez accéder au [rapport sur les appareils dans Skype entreprise Server](device-report.md) en cliquant sur l’une des mesures suivantes:
   
 - Périphérique de capture
     

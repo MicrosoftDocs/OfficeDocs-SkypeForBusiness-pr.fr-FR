@@ -1,10 +1,10 @@
 ---
-title: Configurer une région réseau créer une nouvelle ou en modifier une existant
+title: Configurer une région de réseau créer une nouvelle ou modifier un existant
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.NcsRegionEdit
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 0277b988-e12e-4786-9001-9c212495cb89
 ROBOTS: NOINDEX, NOFOLLOW
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: abd183295ef9b5ddf8864e4ae27913d0ccb4971b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ae35babd60fb110f63df938d7e92f5f01e35c195
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33891046"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291890"
 ---
 # <a name="configure-a-network-region-create-new-or-edit-existing"></a>Configuration d’une région de réseau : en créer une autre ou en modifier une existante
 

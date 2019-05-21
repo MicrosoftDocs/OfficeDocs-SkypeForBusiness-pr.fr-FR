@@ -1,82 +1,82 @@
 ---
-title: Détails de la table des détails des appels dans Skype pour Business Server 2015
+title: Détails de la table CDR dans Skype entreprise Server 2015
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 896198f5-672b-48ea-852f-0211c0c90857
-description: Les rubriques suivantes détaillent les colonnes de chacune des tables du schéma de base de données appel détail enregistrements (CDR).
-ms.openlocfilehash: 2165651737180465a7e5c045199d850862c09993
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Les rubriques suivantes décrivent en détail les colonnes dans chaque table de schéma de la base de données d’enregistrements des détails des appels.
+ms.openlocfilehash: 13f8fe7cb9c1335160f3a9bc401bfee36eb2803f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924779"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34296545"
 ---
-# <a name="cdr-table-details-in-skype-for-business-server-2015"></a>Détails de la table des détails des appels dans Skype pour Business Server 2015
+# <a name="cdr-table-details-in-skype-for-business-server-2015"></a>Détails de la table CDR dans Skype entreprise Server 2015
  
-Les rubriques suivantes détaillent les colonnes de chacune des tables du schéma de base de données appel détail enregistrements (CDR).
+Les rubriques suivantes décrivent en détail les colonnes dans chaque table de schéma de la base de données d’enregistrements des détails des appels.
   
 ## <a name="in-this-section"></a>Contenu de cette section
 
-- [Table de l’application dans Skype pour Business Server 2015](application.md)
+- [Tableau d’application dans Skype entreprise Server 2015](application.md)
     
-- [Table CallPriorities dans Skype pour Business Server 2015](callpriorities.md)
+- [Table CallPriorities dans Skype entreprise Server 2015](callpriorities.md)
     
-- [Table CallType dans Skype pour Business Server 2015](calltype.md)
+- [CallType table dans Skype entreprise Server 2015](calltype.md)
     
-- [Table ClientVersions dans Skype pour Business Server 2015](clientversions.md)
+- [Table ClientVersions dans Skype entreprise Server 2015](clientversions.md)
     
-- [Table ConferenceJoinTimeThresholds dans Skype pour Business Server 2015](conferencejointimethresholds.md)
+- [Table ConferenceJoinTimeThresholds dans Skype entreprise Server 2015](conferencejointimethresholds.md)
     
-- [Table ConferenceMessageCount dans Skype pour Business Server 2015](conferencemessagecount.md)
+- [Table ConferenceMessageCount dans Skype entreprise Server 2015](conferencemessagecount.md)
     
-- [Tableau des conférences dans Skype pour Business Server 2015](conferences.md)
+- [Tableau conférences dans Skype entreprise Server 2015](conferences.md)
     
-- [Table ConferenceSessionDetails dans Skype pour Business Server 2015](conferencesessiondetails-0.md)
+- [Table ConferenceSessionDetails dans Skype entreprise Server 2015](conferencesessiondetails-0.md)
     
-- [Table ConferenceUris dans Skype pour Business Server 2015](conferenceuris.md)
+- [Table ConferenceUris dans Skype entreprise Server 2015](conferenceuris.md)
     
-- [Table ContentTypes dans Skype pour Business Server 2015](contenttypes.md)
+- [Table ContentTypes dans Skype entreprise Server 2015](contenttypes.md)
     
-- [Table DeRegisterType dans Skype pour Business Server 2015](deregistertype.md)
+- [Table DeRegisterType dans Skype entreprise Server 2015](deregistertype.md)
     
-- [Table Devices dans Skype pour Business Server 2015](devices.md)
+- [Tableau des appareils dans Skype entreprise Server 2015](devices.md)
     
-- [Boîtes de dialogue tableau Skype pour Business Server 2015](dialogs.md)
+- [Tableau boîtes de dialogue dans Skype entreprise Server 2015](dialogs.md)
     
-- [Table EdgeServers dans Skype pour Business Server 2015](edgeservers.md)
+- [Table EdgeServers dans Skype entreprise Server 2015](edgeservers.md)
     
-- [Table ErrorCategory dans Skype pour Business Server 2015](errorcategory.md)
+- [Table ErrorCategory dans Skype entreprise Server 2015](errorcategory.md)
     
-- [Table ErrorDef dans Skype pour Business Server 2015](errordef.md)
+- [Table ErrorDef dans Skype entreprise Server 2015](errordef.md)
     
-- [Table ErrorReport dans Skype pour Business Server 2015](errorreport.md)
+- [Table ErrorReport dans Skype entreprise Server 2015](errorreport.md)
     
-- [Table FileTransfers dans Skype pour Business Server 2015](filetransfers-0.md)
+- [Table FileTransfers dans Skype entreprise Server 2015](filetransfers-0.md)
     
-- [Table FocusJoinsAndLeaves dans Skype pour Business Server 2015](focusjoinsandleaves.md)
+- [Table FocusJoinsAndLeaves dans Skype entreprise Server 2015](focusjoinsandleaves.md)
     
-- [Table FrontEnd dans Skype pour Business Server 2015](frontend.md)
+- [Table frontale dans Skype entreprise Server 2015](frontend.md)
     
-- [Table Gateways dans Skype pour Business Server 2015](gateways.md)
+- [Tableau passerelles dans Skype entreprise Server 2015](gateways.md)
     
-- [Table HardwareVersions dans Skype pour Business Server 2015](hardwareversions.md)
+- [Table HardwareVersions dans Skype entreprise Server 2015](hardwareversions.md)
     
-- [Table IMReportSummary dans Skype pour Business Server 2015](imreportsummary.md)
+- [Table IMReportSummary dans Skype entreprise Server 2015](imreportsummary.md)
     
-- [Table Locations dans Skype pour Business Server 2015](locations.md)
+- [Tableau emplacements dans Skype entreprise Server 2015](locations.md)
     
-- [Table Manufacturers dans Skype pour Business Server 2015](manufacturers.md)
+- [Tableau constructeurs dans Skype entreprise Server 2015](manufacturers.md)
     
-- [Table McuJoinsAndLeaves dans Skype pour Business Server 2015](mcujoinsandleaves.md)
+- [Table McuJoinsAndLeaves dans Skype entreprise Server 2015](mcujoinsandleaves.md)
     
-- [Table Mcus dans Skype pour Business Server 2015](mcus.md)
+- [Table MCU dans Skype entreprise Server 2015](mcus.md)
     
 - [Table Media](media.md)
     
@@ -108,7 +108,7 @@ Les rubriques suivantes détaillent les colonnes de chacune des tables du schém
     
 - [Table SyndicatorsTenantMap](syndicatorstenantmap.md)
     
-- [Table des tâches](task.md)
+- [Tableau de tâches](task.md)
     
 - [Table Tenants](tenants.md)
     

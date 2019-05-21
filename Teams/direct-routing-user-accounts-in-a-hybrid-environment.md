@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.service: msteams
 localization_priority: Normal
@@ -14,58 +14,58 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-description: Découvrez les différentes combinaisons de création de l’utilisateur et les combinaisons suivantes sont prises en charge ou non pris en charge.
-ms.openlocfilehash: aaaf06fd0f4e697a1a4c371a9030510b9708f171
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+description: En savoir plus sur les différentes combinaisons de création d’utilisateur et les combinaisons prises en charge ou non prises en charge.
+ms.openlocfilehash: c8473fcaf6fb8b5b24f68d934cd3451ebeb8e038
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33402453"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290340"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>Comptes d’utilisateur dans un environnement hybride avec une connectivité PSTN
 
 ## <a name="about-the-environment"></a>À propos de l’environnement
 
-Cet article s’applique aux environnements dans lesquels vous avez tous les éléments suivants : 
+Cet article s’applique aux environnements dans lesquels vous disposez de tous les éléments suivants: 
  
-- Skype pour Business Server ou de Lync Server 2013 
+- Skype entreprise Server ou Lync Server 2013 
 - Un client Office 365 
-- Connectivité hybride configurée entre le Skype pour Business Server et Skype pour client Business Online ou Microsoft Teams 
-- Utilisateurs activés pour émettre et recevoir des appels publics réseau de téléphonique commuté (RTC) et à partir du client
+- Connectivité hybride configurée entre le serveur Skype entreprise et Skype entreprise Online ou le client Microsoft teams 
+- Utilisateurs autorisés à passer et à recevoir des appels de réseau téléphonique commuté (PSTN) vers et depuis le client
 
  
-Si vous avez un environnement différent (tel que Skype pour l’édition de connecteur Business Cloud), hybride n’est pas configuré, ou les utilisateurs ne sont pas activés pour les appels RTC, la matrice de prise en charge sera différente.  
+Si vous utilisez un autre environnement (par exemple, Skype entreprise version Cloud Connector), le hybride n’est pas configuré, ou vos utilisateurs ne sont pas activés pour les appels RTC, la matrice de prise en charge est différente.  
 
-## <a name="about-the-combinations-and-the-supportability-statement"></a>Sur les combinaisons et la déclaration de prise en charge  
+## <a name="about-the-combinations-and-the-supportability-statement"></a>À propos des combinaisons et de la déclaration de prise en charge  
 
-Un Skype pour un environnement hybride avec une connectivité PSTN flexibilité concernant où les services d’utilisateurs sont fournis et comment les comptes d’utilisateurs sont configurés et gérés. Mais l’abondance des options peut créer certaines combinaisons non pris en charge. Cette section explique les différentes combinaisons de création de l’utilisateur, suivie d’une instruction de prise en charge.
+Un environnement hybride Skype entreprise avec connectivité PSTN offre une souplesse qui vous permet de fournir des services d’utilisateur et la manière dont les comptes d’utilisateurs sont approvisionnés et gérés. Toutefois, l’abondance d’options peut créer certaines combinaisons non prises en charge. Cette section décrit les différentes combinaisons de création d’utilisateurs, suivies d’une déclaration de prise en charge.
 
 
-**Définitions de :**   
-- **Enterprise Voice :** Option pour fournir l’accès PSTN pour les utilisateurs de Skype locale pour le compte d’utilisateur Business. Skype sur site pour le serveur de médiation Business fournit interconnectivité PSTN.  
-- **Connectivité de voix hybride :** Option pour fournir l’accès PSTN pour les utilisateurs de Skype pour un compte Business en ligne. Skype sur site pour le serveur de médiation Business fournit interconnectivité PSTN. 
-- **Routage direct :** Option pour fournir l’accès PSTN pour les utilisateurs de Skype en ligne pour un compte professionnel, licence Teams Microsoft, à l’aide du client Microsoft Teams. Le contrôleur SBC est connecté au Proxy SIP dans Office 365 sans avoir besoin de n’importe quel logiciel sur site de Microsoft.
+**Définitions**   
+- **Voix entreprise:** Option permettant d’accéder à PSTN pour les utilisateurs disposant d’un compte d’utilisateur Skype entreprise local. Le serveur de médiation Skype entreprise local fournit une interconnexion à PSTN.  
+- **Connectivité vocale hybride:** Option permettant d’accéder à PSTN pour les utilisateurs disposant d’un compte Skype entreprise online. Le serveur de médiation Skype entreprise local fournit une interconnexion à PSTN. 
+- **Routage direct:** Option permettant d’accéder à PSTN pour les utilisateurs disposant d’un compte Skype entreprise en ligne ou d’une licence Microsoft teams via le client Microsoft Teams. Le SBC est connecté au proxy SIP dans Office 365 sans qu’il soit nécessaire de disposer d’un logiciel local de la part de Microsoft.
 
   
-**L’environnement prend en charge les combinaisons suivantes :**
-- **Scénario 1 :** Utilisateur compte dans Skype pour les professionnels sur site et utilisera le Skype pour client d’entreprise avec Enterprise Voice
-- **Scénario 2 :** Utilisateur compte dans Skype pour les entreprises en ligne et utilisera le Skype pour client d’entreprise avec connectivité de voix hybride
-- **Scénario 3 :** Utilisateur compte dans Skype pour les entreprises en ligne avec licence Microsoft Teams et utilisera le client d’équipes
+**L’environnement prend en charge les combinaisons suivantes:**
+- **Scénario 1:** Compte d’utilisateur dans Skype entreprise sur site et utiliser le client Skype entreprise avec Enterprise Voice
+- **Scénario 2:** Compte d’utilisateur dans Skype entreprise Online et utiliser le client Skype entreprise avec une connectivité vocale hybride
+- **Scénario 3:** Compte d’utilisateur dans Skype entreprise Online avec licence Microsoft teams et utiliser le client teams
  
-### <a name="supportability-matrix"></a>Matrice de support
+### <a name="supportability-matrix"></a>Matrice de prise en charge
 
 
-|**Objet utilisateur créé dans**  |**Skype l’utilisateur pour le fournisseur de services d’entreprise**|**Client de l’utilisateur**|**Option voix**|**Prise en charge**|
+|**Objet utilisateur créé dans**  |**Fournisseur de services Skype entreprise de l’utilisateur**|**Client de l’utilisateur**|**Option voix**|**Prise en charge**|
 | ------------ | --------- | --------- | --------- | -------- |
-|Sur le site AD| En local |Skype Entreprise   | Voix Entreprise   |Oui|
-|Sur le site AD|Online| Skype Entreprise  | Connectivité de voix hybride   |Oui |
-|Sur le site AD|Online |Microsoft Teams |Routage direct  |Oui |
-|**Combinaisons non pris en charge**    | |         |         |      |
-|Azure AD| Sur le site/en ligne | Skype pour les équipes/Microsoft Business|Enterprise Voice de voix hybride/connectivité/Direct routage  |Non, l’objet utilisateur doit être créé dans AD sur site tout d’abord |
-|Sur le site AD  |En local| Microsoft Teams| Enterprise Voice de voix hybride/connectivité/Direct routage   |Non, client Microsoft Teams n’est pas pris en charge avec Skype sur site pour les entreprises |     
-|Sur le site AD  |Online |Skype Entreprise  | Routage direct  |Non, routage Direct n'est pas pris en charge avec Skype pour Business client et utilisateur doit être activé pour Enterprise Voice sur Skype pour les entreprises tout d’abord  |
+|ANNONCE locale| En local |Skype Entreprise   | Voix Entreprise   |Oui|
+|ANNONCE locale|Online| Skype Entreprise  | Connectivité vocale hybride   |Oui |
+|ANNONCE locale|Online |Microsoft Teams |Routage direct  |Oui |
+|**Combinaisons non prises en charge**    | |         |         |      |
+|Azure AD| En local/en ligne | Skype entreprise et Microsoft teams|Voix entreprise/connectivité vocale hybride/routage direct  |Non, un objet utilisateur doit d’abord être créé dans une publicité locale |
+|ANNONCE locale  |En local| Microsoft Teams| Voix entreprise/connectivité vocale hybride/routage direct   |Non, le client Microsoft teams n’est pas pris en charge avec Skype entreprise local. |     
+|ANNONCE locale  |Online |Skype Entreprise  | Routage direct  |Non, le routage direct n’est pas pris en charge par le client Skype entreprise et l’utilisateur doit être activé pour voix entreprise dans Skype entreprise d’abord  |
 
 
-### <a name="supportability-statement-for-the-hybrid-environment-with-pstn"></a>Déclaration de prise en charge de l’environnement hybride avec PSTN
+### <a name="supportability-statement-for-the-hybrid-environment-with-pstn"></a>Déclaration de prise en charge pour l’environnement hybride avec RTC
 
-Pour tous les utilisateurs, l’utilisateur d’objet **doit** être créé dans l’environnement local AD et synchronisés vers Azure AD à l’aide de l’outil Azure AD se connecter. Activation des utilisateurs pour les équipes/Skype pour l’entreprise **n’est pas pris en charge** si l’objet utilisateur est créé directement dans Azure AD dans une configuration hybride. Pour les nouveaux utilisateurs, par exemple un nouvel employé qui sera activé pour les équipes, l’utilisateur doit être activé pour Skype pour l’utilisation de Business localement Skype pour les outils d’administration. Création d’utilisateurs dans Skype en ligne pour les professionnels ou équipes sans premier leur permettant de pool locale avec Enterprise Voice **n’est pas pris en charge**. Pour plus d’informations, recherchez dans le [Plan de système téléphonique dans Office 365 avec une connectivité PSTN dans Skype pour Business Server local](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity).
+Pour tous les utilisateurs, l’objet utilisateur **doit** être créé dans la publicité locale et synchronisé sur Azure ad à l’aide de l’outil Azure ad Connect. L’activation des utilisateurs pour teams/Skype entreprise **n’est pas prise en charge** si l’objet utilisateur est créé directement dans Azure ad dans une configuration hybride. Pour les nouveaux utilisateurs, tels qu’une nouvelle embauche, qui seront activés directement pour les équipes, l’utilisateur doit être activé pour Skype entreprise à l’aide des outils de gestion Skype entreprise. La création d’utilisateurs en ligne Skype entreprise ou équipes sans les activer dans le pool local avec Enterprise Voice **n’est pas prise en charge**. Pour plus d’informations, reportez-vous à la [configuration du système téléphonique dans Office 365 avec la connectivité PSTN locale dans Skype entreprise Server](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity).

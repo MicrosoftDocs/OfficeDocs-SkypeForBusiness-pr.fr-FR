@@ -1,10 +1,10 @@
 ---
-title: Publier des modifications en attente de la configuration de routage voix dans Skype pour les entreprises
+title: Les modifications en attente apportées à la configuration de l’acheminement vocal dans Skype entreprise
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,17 +13,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ff941d0b-fb4b-47d2-b866-6d990ac66b81
-description: 'Résumé : Apprenez à vérifier, publier ou annuler les modifications de configuration routage des communications vocales dans Skype pour Business Server à l’aide de la Skype pour le panneau de configuration serveur Business.'
-ms.openlocfilehash: 336b6a3eecf668078d2a68072e380113d20e3d12
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Résumé: Découvrez comment réviser, publier ou annuler les modifications de configuration de l’acheminement vocal dans Skype entreprise Server à l’aide du panneau de configuration Skype entreprise Server.'
+ms.openlocfilehash: 1ff33dee1518581e4a94aac56ecae34d9bfd1159
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892215"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34300886"
 ---
-# <a name="publish-pending-changes-to-the-voice-routing-configuration-in-skype-for-business"></a>Publier des modifications en attente de la configuration de routage voix dans Skype pour les entreprises
+# <a name="publish-pending-changes-to-the-voice-routing-configuration-in-skype-for-business"></a>Les modifications en attente apportées à la configuration de l’acheminement vocal dans Skype entreprise
  
-**Résumé :** Découvrez comment passez en revue, publier ou annuler les modifications de configuration routage des communications vocales dans Skype pour Business Server à l’aide de la Skype pour le panneau de configuration serveur Business.
+**Résumé:** Découvrez comment réviser, publier ou annuler les modifications de configuration de l’acheminement vocal dans Skype entreprise Server à l’aide du panneau de configuration Skype entreprise Server.
   
 Après avoir modifié les paramètres de configuration dans les pages du groupe **Routage des communications vocales**, effectuez cette procédure pour consulter, publier ou annuler les modifications en attente.
   
@@ -34,13 +34,13 @@ Après avoir modifié les paramètres de configuration dans les pages du groupe 
 > Toutes les modifications en attente doivent être publiées en même temps en exécutant la commande **Tout valider**. Vous ne pouvez pas sélectionner les modifications en attente que vous voulez publier. Avant de publier les modifications en attente, exécutez la commande **Vérifier les modifications non validées** et annulez les modifications de configuration que vous ne voulez pas publier.
   
 > [!NOTE]
-> Si vous quittez les pages du groupe **Routage des communications vocales** avant d’avoir validé les modifications en attente, toutes les modifications en attente seront perdues. Cependant, vous pouvez exporter la configuration active (y compris les modifications en attente) vers un fichier de configuration des communications vocales, puis importer et publier la configuration mise à jour. Pour plus d’informations, voir [exporter ou importer une configuration de routage voix fichier Skype pour les entreprises](voice-route-configuration-import-export.md). 
+> Si vous quittez les pages du groupe **Routage des communications vocales** avant d’avoir validé les modifications en attente, toutes les modifications en attente seront perdues. Cependant, vous pouvez exporter la configuration active (y compris les modifications en attente) vers un fichier de configuration des communications vocales, puis importer et publier la configuration mise à jour. Pour plus d’informations, reportez-vous à [exporter ou importer un fichier de configuration d’itinéraires vocaux dans Skype entreprise](voice-route-configuration-import-export.md). 
   
 ### <a name="to-review-publish-or-cancel-voice-routing-configuration-changes"></a>Pour consulter, publier ou annuler les modifications de la configuration du routage des communications vocales
 
 1. Ouvrez une session sur l’ordinateur en tant que membre du groupe **RTCUniversalServerAdmins** ou membre du rôle d’administrateur **CsVoiceAdministrator**, **CsServerAdministrator** ou CsAdministrator.
     
-2. Ouvrez le panneau de configuration serveur Business Skype.
+2. Ouvrez le panneau de configuration Skype entreprise Server.
     
 3. Dans la barre de navigation de gauche, cliquez sur **Routage des communications vocales**.
     
@@ -58,6 +58,6 @@ Après avoir modifié les paramètres de configuration dans les pages du groupe 
     
 8. Dans la boîte de dialogue **Paramètres de configuration de la voix non validés** qui contient la liste de toutes les modifications en attente, cliquez sur **OK**. 
     
-    Skype pour le panneau de configuration serveur Business a validé les modifications, le message **publié avec succès la configuration de routage voix** s’affiche.
+    Lorsque le panneau de configuration Skype entreprise Server a validé les modifications, le message de configuration de l’acheminement des messages a **été correctement publié** s’affiche.
     
 

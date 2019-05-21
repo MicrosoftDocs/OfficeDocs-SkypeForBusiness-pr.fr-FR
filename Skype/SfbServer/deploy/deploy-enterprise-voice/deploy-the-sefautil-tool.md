@@ -1,10 +1,10 @@
 ---
-title: Déploiement de l’outil SEFAUtil dans Skype pour les entreprises
+title: Déploiement de l’outil SEFAUtil dans Skype entreprise
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,43 +13,43 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: fb556e50-88dd-4404-a3d5-be36f5ba41e6
-description: Déploiement de l’outil SEFAUtil dans Skype pour Business Server.
-ms.openlocfilehash: 0122c2f118bc04cbdc8631e50c688982df16d99a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Déploiement de l’outil SEFAUtil dans Skype entreprise Server.
+ms.openlocfilehash: 74b9ca6fa10237760e84f859baad5188436ac80e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892635"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34303818"
 ---
-# <a name="deploy-the-sefautil-tool-in-skype-for-business"></a>Déploiement de l’outil SEFAUtil dans Skype pour les entreprises
+# <a name="deploy-the-sefautil-tool-in-skype-for-business"></a>Déploiement de l’outil SEFAUtil dans Skype entreprise
  
-Déploiement de l’outil SEFAUtil dans Skype pour Business Server.
+Déploiement de l’outil SEFAUtil dans Skype entreprise Server.
   
-Pour déployer et gérer la collecte d’appel de groupe, vous devez utiliser le Skype pour la version de l’outil SEFAUtil Business Server. 
+Pour déployer et gérer la cueillette des appels de groupe, vous devez utiliser la version de Skype entreprise Server de l’outil SEFAUtil. 
   
 > [!IMPORTANT]
-> Exécution de Microsoft Unified Communications Managed API (UCMA) 5 doit être installée sur tout ordinateur où vous prévoyez d’exécuter l’outil SEFAUtil. Télécharger ici : [Unified Communications Managed API 5.0 Runtime](https://www.microsoft.com/en-us/download/details.aspx?id=47344). Vous pouvez également télécharger le SDK UCMA 5, qui inclut le runtime ici : [UCMA 5.0 SDK](https://www.microsoft.com/en-us/download/details.aspx?id=47345).
+> L’utilisation de l’API Microsoft Unified Communications Managed API (UCMA) 5 doit être installée sur tout ordinateur sur lequel vous envisagez d’exécuter l’outil SEFAUtil. Téléchargez-le ici: [API d’API managée de communications unifiées 5,0 Runtime](https://www.microsoft.com/en-us/download/details.aspx?id=47344). Vous pouvez également télécharger le kit de développement logiciel (SDK) UCMA 5, qui inclut le runtime, ici: [UCMA 5,0 SDK](https://www.microsoft.com/en-us/download/details.aspx?id=47345).
   
-Vous pouvez exécuter l’outil SEFAUtil dans n’importe quel pool frontal dans votre déploiement. Pour exécuter l’outil SEFAUtil, vous devez exécuter les étapes 1, 2 et 3 depuis le Skype pour l’Assistant de déploiement d’entreprise sur l’ordinateur d’applications approuvées. SEFAUtil requiert le magasin de configurations local à présent, ainsi que d’un certificat.
+Vous pouvez exécuter l’outil SEFAUtil dans n’importe quel pool frontal de votre déploiement. Pour exécuter l’outil SEFAUtil, vous devez exécuter les étapes 1, 2 et 3 de l’Assistant Déploiement de Skype entreprise sur l’ordinateur de l’application de confiance. SEFAUtil nécessite la présence du magasin de configuration local ainsi qu’un certificat.
   
 > [!NOTE]
-> Pour plus d’informations sur l’exécution de SEFAUtil, voir l’article de blog, «[comment obtenir SEFAutil en cours d’exécution ?](https://go.microsoft.com/fwlink/?LinkId=278940)». 
+> Pour plus d’informations sur l’exécution de SEFAUtil, voir l’article de blog intitulé «Comment puis-[je exécuter SEFAUtil?](https://go.microsoft.com/fwlink/?LinkId=278940)». 
   
 ### <a name="to-deploy-sefautil"></a>Pour déployer SEFAUtil
 
-1. Ouvrez une session l’ordinateur où Skype pour Business Server Management Shell est installé en tant que membre du groupe RTCUniversalServerAdmins ou avec les droits utilisateur nécessaires comme indiqué dans **Déléguer des autorisations d’installation**.
+1. Ouvrez une session sur l’ordinateur sur lequel Skype entreprise Server Management Shell est installé en tant que membre du groupe RTCUniversalServerAdmins ou avec les droits d’utilisateur nécessaires tels que décrits dans **autorisations de configuration de délégué**.
     
-2. Démarrez le Skype pour Business Server Management Shell : cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Skype pour Business 2015**, puis cliquez sur **Skype pour Business Server Management Shell**.
+2. Démarrez Skype entreprise Server Management Shell: cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
     
-3. L’outil SEFAUtil ne peut être exécuté que sur un ordinateur qui fait partie d’un pool d’applications approuvées. Si nécessaire, définir un pool d’applications approuvées pour le pool frontal où vous prévoyez d’exécuter SEFAUtil. Sur la ligne de commande, exécutez :
+3. L’outil SEFAUtil ne peut être exécuté que sur un ordinateur qui fait partie d’un pool d’applications approuvées. Le cas échéant, définissez un pool d’applications approuvé pour le pool frontal sur lequel vous envisagez d’exécuter SEFAUtil. Sur la ligne de commande, exécutez :
     
    ```
    New-CsTrustedApplicationPool -id <Pool FQDN> -Registrar <Pool Registrar FQDN> -site Site:<Pool Site>
    ```
     > [!NOTE]
-    > Nom de domaine complet de pool : Nom de domaine complet du serveur ou du pool qui hébergera l’application SEFAUtil (généralement un Skype pour le serveur frontal métiers ou du pool).
-    > Registrar nom de domaine complet de pool : Nom de domaine complet de le Skype pour Business frontal ou pool associé à ce pool d’applications.
-    > Site de pool : L’ID de Site du site sur lequel ce pool est hébergé.
+    > Nom de domaine complet (FQDN) du pool: nom de domaine complet (FQDN) du serveur ou du pool hébergeant l’application SEFAUtil (généralement un serveur frontal ou un pool Skype entreprise).
+    > Nom de domaine complet (FQDN) de pool: nom de domaine complet (FQDN) du serveur frontal ou du pool Skype entreprise associé à ce pool d’applications.
+    > Site du pool: ID de site du site sur lequel ce pool est hébergé.
 
 4. Définissez l’outil SEFAUtil en tant qu’application approuvée. Sur la ligne de commande, exécutez :
     
@@ -66,7 +66,7 @@ Vous pouvez exécuter l’outil SEFAUtil dans n’importe quel pool frontal dans
    Enable-CsTopology
    ```
 
-6. Si vous n’avez pas déjà, téléchargez le Skype pour la version de l’outil SEFAUtil Business Server à partir de [cet emplacement](https://www.microsoft.com/en-us/download/details.aspx?id=52631)et les installer sur le pool d’applications approuvées créé à l’étape 3.
+6. Si ce n’est déjà fait, téléchargez la version Skype entreprise Server de l’outil SEFAUtil à partir de [cet emplacement](https://www.microsoft.com/en-us/download/details.aspx?id=52631)et installez-la sur le pool d’applications approuvé que vous avez créé à l’étape 3.
     
 7. Vérifiez que l’outil SEFAUtil s’exécute correctement ainsi : 
     

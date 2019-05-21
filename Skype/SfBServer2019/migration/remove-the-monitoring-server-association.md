@@ -4,45 +4,45 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Pour supprimer le serveur de surveillance, vous devez modifier ou supprimer la dépendance au pool frontal associé, le serveur frontal, Survivable Branch Appliance et serveur Survivable Branch Server. Vous modifiez les propriétés du pool frontal, serveur frontal et serveur Survivable Branch Server Survivable Branch Appliance pour supprimer la dépendance. Une fois que vous désactivez la dépendance et supprimez le serveur dans le Générateur de topologie, vous êtes averti que l’objet de magasin de base de données associée dans le Générateur de topologie est également supprimé.
-ms.openlocfilehash: 854e95969d08d14d626bb374073091ae4ae39630
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Pour supprimer le serveur de surveillance, vous devez modifier ou effacer la dépendance sur le pool frontal associé, le serveur frontal, l’unité de branchement Survivable et le serveur de succursales survivant. Vous pouvez modifier les propriétés du pool frontal, du serveur frontal, de l’unité de branchement Survivable et du serveur de succursales survivant pour supprimer la dépendance. Dès lors que vous effacez la dépendance et que vous avez supprimé le serveur dans le générateur de topologie, vous êtes informé que l’objet magasin de base de données associé dans le générateur de topologie sera également supprimé.
+ms.openlocfilehash: 366bb67815df99542b893e9ced79c1fc1f0e3e9f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231457"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34301096"
 ---
 # <a name="remove-the-monitoring-server-association"></a>Supprimer l’association au serveur de surveillance
 
-Pour supprimer le serveur de surveillance, vous devez modifier ou supprimer la dépendance associée Front-End pool, serveur frontal, Survivable Branch Appliance, les Survivable Branch Server. Vous modifiez les propriétés du pool frontal, serveur frontal, Survivable Branch Appliance et serveur Survivable Branch Server permet de supprimer la dépendance. Une fois que vous désactivez la dépendance et supprimez le serveur dans le Générateur de topologie, vous êtes averti que l’objet de magasin de base de données associée dans le Générateur de topologie est également supprimé.
+Pour supprimer le serveur de surveillance, vous devez modifier ou effacer la dépendance sur le pool frontal associé, le serveur frontal, l’unité de branchement Survivable et le serveur de succursales survivant. Vous pouvez modifier les propriétés du pool frontal, du serveur frontal, de l’unité de branchement survivant et du serveur de succursales survivant pour supprimer la dépendance. Dès lors que vous effacez la dépendance et que vous avez supprimé le serveur dans le générateur de topologie, vous êtes informé que l’objet magasin de base de données associé dans le générateur de topologie sera également supprimé.
   
-### <a name="to-remove-the-monitoring-server-association"></a>Pour supprimer l’association du serveur de surveillance
+### <a name="to-remove-the-monitoring-server-association"></a>Pour supprimer l’Association du serveur de surveillance
 
-1. Sur Skype pour Business Server 2019 serveur frontal, ouvrez le Générateur de topologie.
+1. Sur le serveur frontal Skype entreprise Server 2019, ouvrez le générateur de topologie.
     
-2. Naviguez jusqu’au nœud de l’installation héritée.
+2. Accédez au nœud installations héritées.
     
-3. Dans le Générateur de topologie, développez **pools frontaux Enterprise Edition**, **Standard Edition serveurs frontaux**ou **sites de succursale**, selon l’emplacement où le serveur de surveillance est défini.
+3. Dans le générateur de topologie, développez **Pools front end Edition**, **serveurs front end Standard Edition**ou **sites de succursale**, selon l’endroit où le serveur de surveillance est défini.
     
-4. Si vous avez un serveur Survivable Branch Server associé, développez **sites de succursale**, développez le nom de site de succursale, puis développez **Survivable Branch Appliances**.
+4. Si vous avez un serveur de succursales Survivable associé, développez **sites**de succursales, développez le nom du site de la succursale, puis développez **appareils de branchement survivables**.
     
     > [!NOTE]
-    > **Survivable Branch Appliances** dans l’interface utilisateur s’applique à la fois un serveur Survivable Branch Server et Survivable Branch Appliance. 
+    > Les **appareils de branchement survivables** dans l’interface utilisateur s’appliquent à la fois au serveur de succursales survivant et au dispositif de branchement survivant. 
   
-5. Cliquez sur le pool, le serveur ou le périphérique qui est associé avec le serveur de surveillance, puis cliquez sur **Modifier les propriétés**.
+5. Cliquez avec le bouton droit sur le pool, le serveur ou l’appareil associé au serveur de surveillance, puis cliquez sur **modifier les propriétés**.
     
-6. Dans **Modifier les propriétés**, sous **Général** > **Associations**, désactivez la case à cocher **Associer un serveur de surveillance** , puis cliquez sur **OK**.
+6. Dans la boîte de **dialogue Modifier les propriétés**, sous**associations** **générales** > , désactivez la case à cocher **associer le serveur de suivi** , puis cliquez sur **OK**.
     
-7. Répétez l’étape précédente pour tout autre pool, serveur ou périphérique associé avec le serveur de surveillance.
+7. Répétez l’étape précédente pour tout autre serveur ou pool associé au serveur de surveillance.
     
-8. Cliquez sur le serveur de surveillance, puis cliquez sur **Supprimer**. 
+8. Cliquez avec le bouton droit sur le serveur de surveillance, puis cliquez sur **supprimer**. 
     
-9. **Supprimer les magasins dépendants**, cliquez sur **OK**.
+9. Sur **Supprimer les magasins**dépendants, cliquez sur **OK**.
     
-10. Publiez la topologie, vérifiez le statut de réplication et exécuter la Skype pour l’Assistant de déploiement de serveur Business selon vos besoins. 
+10. Publiez la topologie, vérifiez l’état de la réplication et exécutez l’Assistant Déploiement de Skype entreprise Server selon vos besoins. 
     
 

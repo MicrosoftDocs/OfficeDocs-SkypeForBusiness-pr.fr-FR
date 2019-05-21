@@ -4,25 +4,25 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 946189fa-521f-455c-9762-904e7e41b791
-description: 'Résumé : Lisez cette rubrique pour résoudre les problèmes de votre déploiement du Gestionnaire de statistiques de Skype pour Business Server.'
-ms.openlocfilehash: dbdf536b43006f5619330e93de0b8aba5024a1ab
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Résumé: Lisez cette rubrique pour résoudre les problèmes liés à votre déploiement du gestionnaire de statistiques pour Skype entreprise Server.'
+ms.openlocfilehash: b85ee6593413cce0aa5b7c76901dbbc6099107fd
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33906682"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299694"
 ---
 # <a name="troubleshoot-statistics-manager-for-skype-for-business-server"></a>Dépannage du gestionnaire de statistiques pour Skype Entreprise Server
  
-**Résumé :** Lisez cette rubrique pour résoudre les problèmes de votre déploiement du Gestionnaire de statistiques de Skype pour Business Server.
+**Résumé:** Consultez cette rubrique pour dépanner votre déploiement du gestionnaire de statistiques pour Skype entreprise Server.
   
-Cette rubrique décrit comment résoudre les problèmes de votre déploiement de gestionnaire de statistiques en décrivant les événements que vous pouvez voir dans le journal des événements et les actions appropriées, que vous pouvez prendre pour résoudre l’événement. Cette rubrique contient les sections suivantes :
+Cette rubrique explique comment résoudre les problèmes de déploiement de votre gestionnaire de statistiques en décrivant des événements que vous pouvez rencontrer dans le journal des événements de l’application, ainsi que les actions appropriées pour corriger l’événement. Cette rubrique contient les sections suivantes :
   
 - [Événements de l’agent](troubleshoot.md#BKMK_Agent)
     
@@ -35,7 +35,7 @@ Cette rubrique décrit comment résoudre les problèmes de votre déploiement de
 
 - **1000** : impossible de configurer le limiteur de processeur (objet de traitement) ; raison inconnue
     
-- **1001** : limitation des processus n’est pas autorisée sur le processus (probablement déjà à l’intérieur d’un objet de travail)
+- **1001** : le processus de limitation de processus n’est pas autorisé sur le processus (probablement déjà dans un objet de travail).
     
     L’agent s’exécute à l’intérieur d’un objet de traitement Windows pour limiter automatiquement son encombrement mémoire. Si l’agent ne démarre pas et si ces entrées d’événements apparaissent dans le journal d’événements, l’objet de traitement n’a pas pu être instancié sur le serveur. Pour contourner ce problème, la limite maximale de la mémoire peut être supprimée en modifiant une valeur dans le fichier de configuration :
     
@@ -43,14 +43,14 @@ Cette rubrique décrit comment résoudre les problèmes de votre déploiement de
   C:\Program Files\Skype for Business Server StatsMan Agent\PerfAgent.exe.config
   ```
 
-    Rechercher « MaxProcessMemoryMB » et remplacez la valeur « 0 » comme :
+    Recherchez «MaxProcessMemoryMB» et attribuez la valeur «0» comme suit:
     
   ```
   <setting name="MaxProcessMemoryMB" serializeAs="String"> <value>300</value> </setting>
   ```
 
     > [!NOTE]
-    > Si ce changement est effectué, l’Agent utilisera toujours généralement \< 100 Mo de mémoire, mais ne sera pas forcé limité à 300 Mo est la valeur par défaut. Néanmoins, si vous effectuez cette modification, nous vous recommandons de surveiller attentivement l’utilisation de la mémoire, afin de vous assurer que l’agent ne consomme pas trop de mémoire sur son ordinateur hôte. 
+    > Si cette modification est apportée, l’agent utilisera \< généralement 100 Mo de mémoire, mais il ne sera pas limité de force à 300 Mo par défaut. Néanmoins, si vous effectuez cette modification, nous vous recommandons de surveiller attentivement l’utilisation de la mémoire, afin de vous assurer que l’agent ne consomme pas trop de mémoire sur son ordinateur hôte. 
   
 - **2000** : échec de l’initialisation du client
     
@@ -60,17 +60,17 @@ Cette rubrique décrit comment résoudre les problèmes de votre déploiement de
     
 1. Vérifiez que le service d’écoute est en cours d’exécution sur l’ordinateur d’écoute. Si ce n’est pas le cas, assurez-vous que Redis est en cours d’exécution sur ce serveur, puis redémarrez le service d’écoute.
     
-    Vérifiez le journal des événements Gestionnaire des statistiques sur l’ordinateur du port d’écoute pour vous assurer qu’aucun problème avec le service de gestionnaire de statistiques le port d’écoute proprement dit.
+    Pour vérifier qu’il n’y a aucun problème avec le service d’écouteur de statistiques, consultez le journal des événements du gestionnaire de statistiques sur l’ordinateur de l’écouteur.
     
 2. Utilisez un outil de connectivité tel que telnet pour vérifier la connectivité entre l’ordinateur de l’agent et l’écouteur sur le port approprié.
     
-    Sinon, assurez-vous que la règle de pare-feu pour le trafic entrant est activée sur l’ordinateur d’écoute pour le type de réseau auquel l’ordinateur d’écoute est connecté (privé/public/domaine). Si l’ordinateur de l’écouteur n’est pas lié à un domaine, le réseau peut être répertorié comme public et dans ce cas les règles de pare-feu installés avec le Gestionnaire de statistiques s’appliquera pas par défaut.
+    Sinon, assurez-vous que la règle de pare-feu pour le trafic entrant est activée sur l’ordinateur d’écoute pour le type de réseau auquel l’ordinateur d’écoute est connecté (privé/public/domaine). S’il n’est pas joint à un domaine, il est possible que le réseau soit répertorié comme public et, dans ce cas, les règles de pare-feu installées avec le gestionnaire de statistiques ne s’appliquent pas par défaut.
     
 - **4000** : impossible de télécharger les informations du serveur depuis l’écouteur (raison inconnue)
     
   - **4001** : serveur introuvable dans la topologie de l’écouteur
     
-    Cette erreur se produit si le serveur se connecte avec succès le port d’écoute, mais le serveur n’a pas été ajouté à la topologie dans le cache de l’écouteur. Options de résolution :
+    Cette erreur se produit si le serveur parvient à se connecter à l’écouteur, mais que le serveur n’a pas été ajouté à la topologie dans le cache de l’écouteur. Options de résolution :
     
   - 	Assurez-vous que vous avez suivi les instructions pour importer la topologie. Consultez la rubrique [Import the topology](deploy.md#BKMK_ImportTopology).   
     
@@ -82,7 +82,7 @@ Cette rubrique décrit comment résoudre les problèmes de votre déploiement de
     
   - **4003** : incompatibilité de l’empreinte numérique du certificat
     
-    L’empreinte de certificat donné à l’Agent au moment de l’installation non correspondance de l’empreinte du certificat du port d’écoute utilise actuellement et par conséquent la connexion est refusé. Désinstaller l’Agent et réinstallez-le à l’aide de l’empreinte numérique du certificat approprié.
+    Le certificat d’empreinte numérique fourni pour l’agent au moment de l’installation ne correspond pas à l’empreinte digitale du certificat utilisé par l’écouteur et par conséquent, la connexion est refusée. Désinstallez et réinstallez-le à l’aide de l’empreinte numérique de certificat appropriée.
     
   - **4004** : HttpStatusCode ou réponse non valide
     
@@ -90,7 +90,7 @@ Cette rubrique décrit comment résoudre les problèmes de votre déploiement de
     
   - En cas de connexion par proxy, vérifiez la configuration du proxy.
     
-  - Vérifier le port d’écoute journal l’ordinateur StatsMan des problèmes liés à sa configuration.
+  - Pour plus d’informations sur les problèmes liés à la configuration, consultez le journal des statistiques de l’ordinateur de l’écouteur.
     
   - **4005** : impossible de désérialiser le XML
     
@@ -141,7 +141,7 @@ Cette rubrique décrit comment résoudre les problèmes de votre déploiement de
     
     Enregistré à chaque démarrage de l’écouteur.
     
-- **22000** : l’initialisation de statistiques de le Manager Agent a réussi.
+- **22000** -échec de l’initialisation de l’agent Statistics Manager.
     
 - **23000** : initialisation de EventLogQueryManager réussie (la première fois ou après un échec)
     
@@ -158,7 +158,7 @@ Cette rubrique décrit comment résoudre les problèmes de votre déploiement de
 ## <a name="website-issues"></a>Problèmes de site web
 <a name="BKMK_Website"> </a>
 
-- Invites de connexion répétitive chrome : il s’agissait d’un bogue a été résolu dans la version 1.1. Assurez-vous que vous avez mis à niveau vers la dernière version du Gestionnaire de statistiques si vous rencontrez des invites de connexion répétées dans le navigateur Chrome. Pour vérifier la version du site web que vous exécutez, procédez comme suit :
+- Invites de connexion répétitives dans Chrome-il s’agit d’un bogue résolu dans la version 1,1. Vérifiez que vous avez effectué la mise à niveau vers la dernière version de Statistic Manager si vous voyez des invites de connexion répétées dans le navigateur Chrome. Pour vérifier la version du site web que vous exécutez, procédez comme suit :
     
   - 	Dans l’Explorateur de fichiers, ouvrez (répertoire par défaut)
     

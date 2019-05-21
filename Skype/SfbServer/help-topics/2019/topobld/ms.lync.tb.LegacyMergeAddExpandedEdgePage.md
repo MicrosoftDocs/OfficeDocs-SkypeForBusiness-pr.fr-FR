@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.LegacyMergeAddExpandedEdgePage
@@ -12,16 +12,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 324349df-ff11-40b5-93cf-4504e18b8985
 ROBOTS: NOINDEX, NOFOLLOW
-description: Skype pour Business Server ne prend en charge pas fusionner un Office Communications Server 2007 R2 hérité configuration étendue de serveur de transport Edge. Le serveur Edge étendu doit d’abord être converti en configuration de serveur Edge consolidé avant de fusionner les informations du serveur Edge.
-ms.openlocfilehash: 00456317d1824857a389b4120b4dcca70e289e81
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Skype entreprise Server ne prend pas en charge la fusion d’une configuration de serveur Edge étendue Office Communications Server 2007 R2 héritée. Le serveur Edge étendu doit d’abord être converti en configuration de serveur Edge consolidé avant de fusionner les informations du serveur Edge.
+ms.openlocfilehash: a8d152d7ec739cce7a505bff6953ff77377a9beb
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919822"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34300181"
 ---
 # <a name="legacy-merge-add-expanded-edge"></a>Fusion héritée : ajouter un serveur Edge étendu
  
-Skype pour Business Server ne prend en charge pas fusionner un Office Communications Server 2007 R2 hérité configuration étendue de serveur de transport Edge. Le serveur Edge étendu doit d’abord être converti en configuration de serveur Edge consolidé avant de fusionner les informations du serveur Edge. 
+Skype entreprise Server ne prend pas en charge la fusion d’une configuration de serveur Edge étendue Office Communications Server 2007 R2 héritée. Le serveur Edge étendu doit d’abord être converti en configuration de serveur Edge consolidé avant de fusionner les informations du serveur Edge. 
   
 

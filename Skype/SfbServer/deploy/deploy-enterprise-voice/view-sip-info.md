@@ -1,10 +1,10 @@
 ---
-title: Afficher des informations sur les jonctions SIP individuelles dans Skype pour Business Server
+title: Afficher des informations sur les circuits SIP individuels dans Skype entreprise Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,21 +13,21 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: adfacb74-7ea5-4c53-934e-ba7ec59879eb
-description: 'Résumé : Découvrez comment afficher des informations sur les jonctions SIP dans Skype pour Business Server.'
-ms.openlocfilehash: a7cf290bf245092e08babcaa86c642dd0f0a4265
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Résumé: Découvrez comment afficher des informations sur les ISL SIP dans Skype entreprise Server.'
+ms.openlocfilehash: a8cb5559b1431987adeef7c50b7810b7e9b4adc7
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892236"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34300915"
 ---
-# <a name="view-information-about-individual-sip-trunks-in-skype-for-business-server"></a>Afficher des informations sur les jonctions SIP individuelles dans Skype pour Business Server
+# <a name="view-information-about-individual-sip-trunks-in-skype-for-business-server"></a>Afficher des informations sur les circuits SIP individuels dans Skype entreprise Server
  
-**Résumé :** Découvrez comment afficher des informations sur les jonctions SIP dans Skype pour Business Server.
+**Résumé:** Découvrez comment afficher des informations sur les ISL SIP dans Skype entreprise Server.
   
-Jonctions SIP sont utilisées pour se connecter Skype pour Business Server Voice via le réseau de téléphone IP avec le Public téléphone réseau commuté (RTC). Dans la version précédente du produit, jonctions ont été utilisées pour router les appels sortants à partir d’un serveur de médiation à une passerelle PSTN et chaque passerelle a été limitée à une seule jonction. Par conséquent, une passerelle PSTN et une jonction SIP ont été pratiquement identiques. Pour les administrateurs, qui signifie qu’ils peuvent afficher des informations sur une jonction SIP individuelle en simplement l’affichage des informations sur la passerelle PSTN associée.
+Les circuits SIP sont utilisés pour connecter le réseau téléphonique commuté de Skype entreprise Server à l’aide du réseau téléphonique public commuté (RTC). Dans la version précédente du produit, les Trunks permettaient le routage des appels sortants d’un serveur de médiation vers une passerelle RTC et chaque passerelle était limitée à un seul Trunk. Par conséquent, une passerelle RTC et un Trunk SIP étaient essentiellement identiques. Pour les administrateurs, cela signifie qu’ils pouvaient afficher les informations relatives à une ligne SIP individuelle en consultant les informations relatives à la passerelle RTC associée.
   
-Dans Skype pour Business Server, toutefois, plusieurs jonctions peuvent ensuite être attribuées à une seule passerelle PSTN ; Cela signifie que les passerelles et les jonctions ne sont plus les mêmes. À son tour, cela signifie que les administrateurs doivent utiliser l’applet de commande [Get-CsTrunk](https://docs.microsoft.com/powershell/module/skype/get-cstrunk?view=skype-ps) nouveau afin d’afficher des informations sur une jonction SIP individuelle.
+Dans Skype entreprise Server, il est désormais possible d’attribuer plusieurs Trunks à une seule passerelle PSTN. Cela signifie que les passerelles et les liaisons ne sont plus une seule et même. Cela signifie que les administrateurs doivent utiliser la nouvelle applet de commande [Get-CsTrunk](https://docs.microsoft.com/powershell/module/skype/get-cstrunk?view=skype-ps) pour afficher des informations sur un Trunk SIP individuel.
   
 ### <a name="to-view-information-for-all-your-sip-trunks"></a>Pour afficher des informations sur toutes vos jonctions SIP
 

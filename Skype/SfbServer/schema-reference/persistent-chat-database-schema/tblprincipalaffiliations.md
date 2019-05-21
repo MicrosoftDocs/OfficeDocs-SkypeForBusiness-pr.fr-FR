@@ -5,38 +5,38 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 45fd8484-5837-44d2-85bb-45c83546607c
-description: tblPrincipalAffiliations contient les affiliations principales qui décrivent des appartenances dans les emplacements incluant les groupes de sécurité Active Directory Domain Services, dans les conteneurs Active Directory dans les domaines.
-ms.openlocfilehash: fb1bd8eb7291ba001a5c23240c2de70aaff048b1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: tblPrincipalAffiliations contient les affiliations principales qui décrivent les appartenances aux emplacements, y compris les groupes de sécurité des services de domaine Active Directory (AD FS) dans les conteneurs Active Directory, dans les domaines.
+ms.openlocfilehash: cda9827f4a4ab7e17a156cc867e4925c88d06ff3
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33929818"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295313"
 ---
 # <a name="tblprincipalaffiliations"></a>tblPrincipalAffiliations
  
-tblPrincipalAffiliations contient les affiliations principales qui décrivent des appartenances dans les emplacements incluant les groupes de sécurité Active Directory Domain Services, dans les conteneurs Active Directory dans les domaines.
+tblPrincipalAffiliations contient les affiliations principales qui décrivent les appartenances aux emplacements, y compris les groupes de sécurité des services de domaine Active Directory (AD FS) dans les conteneurs Active Directory, dans les domaines.
   
-**Colonnes**
+**Celles**
 
 |**Colonne**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|principalID  <br/> |int, non null  <br/> |ID du principal affilié.  <br/> |
-|affiliationID  <br/> |int, non null  <br/> |ID du principal qui représente l’affiliation. Chaque entité (à l’exception du système-utilisateur-types) possède une affiliation Self également.  <br/> |
-|index  <br/> |int, non null  <br/> |Index. La valeur d’affiliations Self est -1, et pour les autres affiliations augmente en séquence de 1 au sein de chaque \<principalID, affiliationId\> compartiment.  <br/> |
-|updatedBy  <br/> |int, non null  <br/> |Principal ayant effectué la dernière mise à jour. Il s’agit généralement de 1, ce qui signifie que la synchronisation Active Directory.  <br/> |
+|principalID  <br/> |ent, non null  <br/> |ID du principal affilié.  <br/> |
+|affiliationID  <br/> |ent, non null  <br/> |ID de l’objet principal qui représente l’affiliation. Chaque identité (à l’exception des types d’utilisateur système) possède également une auto-affiliation.  <br/> |
+|index  <br/> |ent, non null  <br/> |Index. La valeur de auto-affiliations est-1, et pour les autres affiliations, elle augmente séquentiellement de 1 dans \<chaque principalID,\> compartiment affiliationId.  <br/> |
+|updatedBy  <br/> |ent, non null  <br/> |Principal ayant effectué la dernière mise à jour. Il s’agit généralement de la méthode de synchronisation Active Directory.  <br/> |
    
-**Clés**
+**Permettent**
 
-|**Colonnes**|**Description**|
+|**Celles**|**Description**|
 |:-----|:-----|
 |\<principalID, index, affiliationID\>  <br/> |Clé primaire.  <br/> |
-|principalID  <br/> |Clé étrangère avec recherche dans la table tblPrincipal.prinID.  <br/> |
-|affiliationID  <br/> |Clé étrangère avec recherche dans la table tblPrincipal.prinID.  <br/> |
+|principalID  <br/> |Clé étrangère avec recherche dans la table tblPrincipal. prinID.  <br/> |
+|affiliationID  <br/> |Clé étrangère avec recherche dans la table tblPrincipal. prinID.  <br/> |
    
 

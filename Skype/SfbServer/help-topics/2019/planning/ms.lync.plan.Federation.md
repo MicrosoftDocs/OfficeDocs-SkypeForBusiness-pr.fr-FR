@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.plan.Federation
@@ -13,24 +13,24 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 63ea8a5e-a040-4892-9440-0fdbeef66fc0
 ROBOTS: NOINDEX, NOFOLLOW
-description: Serveurs de périphérie peuvent être configurés pour autoriser l’accès aux contacts dans les organisations partenaires ou des services de vos utilisateurs internes et externes.
-ms.openlocfilehash: 05ac8e36cf6b17f380d82bc323affaf0624e3820
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Les serveurs Edge peuvent être configurés pour autoriser vos utilisateurs internes et externes à accéder à des contacts au niveau des organisations ou services partenaires.
+ms.openlocfilehash: c37207d04211840a8bf5e392a4a2e5b054ff2049
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33889366"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34288275"
 ---
 # <a name="federation-planning-tool"></a>Federation (Planning Tool)
  
-Serveurs de périphérie peuvent être configurés pour autoriser l’accès aux contacts dans les organisations partenaires ou des services de vos utilisateurs internes et externes.
+Les serveurs Edge peuvent être configurés pour autoriser vos utilisateurs internes et externes à accéder à des contacts au niveau des organisations ou services partenaires.
   
- Fédération fonctionne dans Skype pour Business Server comme pour Microsoft Lync 2013. Pour plus d’informations sur la préparation de votre environnement pour la fédération, consultez les rubriques suivantes :
+ La Fédération fonctionne avec Skype entreprise Server comme pour Microsoft Lync 2013. Pour plus d’informations sur la préparation de votre environnement pour la fédération, consultez les rubriques suivantes :
   
-- [Planification de la fédération de Lync Server 2013 et Office Communications Server](https://technet.microsoft.com/en-us/library/jj205335%28v=ocs.15%29.aspx)
+- [Planification de Lync Server 2013 et de la Fédération Office Communications Server](https://technet.microsoft.com/en-us/library/jj205335%28v=ocs.15%29.aspx)
     
-- [Planification de la solution PIC dans Lync Server 2013](https://technet.microsoft.com/en-us/library/jj205349%28v=ocs.15%29.aspx)
+- [Planification de la connectivité de messagerie instantanée publique dans Lync Server 2013](https://technet.microsoft.com/en-us/library/jj205349%28v=ocs.15%29.aspx)
     
-- [Planification de la fédération extensible protocol (XMPP) de messagerie et de présence dans Lync Server 2013](https://technet.microsoft.com/en-us/library/jj205107%28v=ocs.15%29.aspx)
+- [Planification de la Fédération des protocoles de messagerie et de présence extensibles dans Lync Server 2013](https://technet.microsoft.com/en-us/library/jj205107%28v=ocs.15%29.aspx)
     
 

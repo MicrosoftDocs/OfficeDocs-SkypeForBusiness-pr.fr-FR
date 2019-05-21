@@ -5,26 +5,26 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/26/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.BranchOfficeApplianceScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8632ddaa-9572-4129-9db4-de0f13438d43
-description: 'Ce nœud affiche le nom de domaine complet (FQDN), associé à pools et des serveurs et des informations de résistance sur ce Survivable Branch Appliance. Vous pouvez effectuer les actions suivantes :'
-ms.openlocfilehash: 580a0f941743f0f98a250396884d3935b310718f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Ce nœud affiche le nom de domaine complet (FQDN), les pools et les serveurs associés, ainsi que des informations de résilience sur cette branche Survivable. Vous pouvez effectuer les actions suivantes :'
+ms.openlocfilehash: 04cbcf24aeaad5fe8b6c3810b2e6b7dd20db0e8a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33912374"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34301546"
 ---
 # <a name="branch-office-appliance-scope-node"></a>Nœud d’étendue d’un Branch Office Appliance
  
-Ce nœud affiche le nom de domaine complet (FQDN), associé à pools et des serveurs et des informations de résistance sur ce Survivable Branch Appliance. Vous pouvez effectuer les actions suivantes :
+Ce nœud affiche le nom de domaine complet (FQDN), les pools et les serveurs associés, ainsi que des informations de résilience sur cette branche Survivable. Vous pouvez effectuer les actions suivantes :
   
-- **Modifier les propriétés** Ouvre la page **Modifier les propriétés** de ce Survivable Branch Appliance, où vous pouvez modifier le nom de domaine complet (si la topologie n’est pas déjà publiée), les associations et les paramètres de résistance.
+- **Modifier les propriétés** Ouvre la page **modifier les propriétés** pour cette branche Survivable, dans laquelle vous pouvez modifier le nom de domaine complet (si la topologie n’est pas déjà publiée), les associations et les paramètres de résilience.
     
 - **Supprimer** : supprime le serveur de la topologie.
     

@@ -8,7 +8,7 @@ ms.reviewer: shpoddar
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
-ms.audience: Admin
+audience: Admin
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
@@ -16,76 +16,76 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Découvrez comment contrôler si les équipes privées pouvant être découvert par les utilisateurs de Microsoft Teams via les suggestions dans les résultats de recherche et de la galerie de l’équipe.
-ms.openlocfilehash: 3609a592c3c940e9f7cbec6ca5c58fd072322c46
-ms.sourcegitcommit: 0bb55cad74b15fc821ae916799aa8c0cb13dd31d
+description: Apprenez à contrôler si les équipes privées peuvent être détectées par les utilisateurs de Microsoft teams par le biais de suggestions dans la Galerie d’équipe et les résultats de recherche.
+ms.openlocfilehash: 55f127ff4dc9e5e0926e606c141b78f65c799de0
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/30/2019
-ms.locfileid: "33497952"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34304401"
 ---
 # <a name="manage-discovery-of-private-teams-in-microsoft-teams"></a>Gérer la découverte des équipes privées dans Microsoft Teams
 
 > [!INCLUDE [preview feature](includes/preview-feature.md)] 
 
-Les propriétaires de l’équipe et les administrateurs peuvent contrôler si les équipes privées pouvant être découvert par les utilisateurs Microsoft Teams dans votre organisation. Lorsqu’une équipe privée est détectable, il s’affiche dans les résultats de recherche et est inclus dans les propositions dans la galerie de l’équipe avec des équipes publics dans les équipes. Cela facilite pour les utilisateurs à rechercher pour trouver les équipes privés qu’ils souhaitent joindre. Les utilisateurs peuvent demander à participer à une équipe privée qui un propriétaire de l’équipe puis approuver ou refuser.
+Les administrateurs et les propriétaires d’équipe peuvent contrôler si des équipes privées peuvent être découvertes par les utilisateurs de Microsoft teams au sein de votre organisation. Lorsqu’une équipe privée est détectable, elle apparaît dans les résultats de la recherche et est incluse dans les suggestions de la Galerie d’équipes et dans les équipes publiques de teams. Cela permet aux utilisateurs de rechercher et d’accéder facilement aux équipes privées qu’ils souhaitent rejoindre. Les utilisateurs peuvent faire une demande de participation à une équipe privée qu’un propriétaire d’équipe peut ensuite approuver ou refuser.
 
-## <a name="overview-of-public-teams-private-teams-and-discovery-in-teams"></a>Vue d’ensemble des équipes publics privés et les équipes découverte dans les équipes
+## <a name="overview-of-public-teams-private-teams-and-discovery-in-teams"></a>Vue d’ensemble des équipes publiques, des équipes privées et de la découverte dans teams
 
-La plupart des organisations ont les types suivants d’équipes - équipes publics détectables privés et les équipes-découvrable équipes privés.
+La plupart des organisations ont les types d’équipes suivants: équipes publiques, équipes privées détectable et équipes privées non détectablees.
 
-![Galerie d’équipe](media/private-team-discovery-team-gallery.png)
+![Galerie d’équipes](media/private-team-discovery-team-gallery.png)
 
-### <a name="public-teams"></a>Équipes publics
+### <a name="public-teams"></a>Équipes publiques
 
-Équipes publics sont disponibles pour tous les utilisateurs de votre organisation à rejoindre. Les équipes publics sont visibles par tout le monde dans la galerie des équipes et les utilisateurs peuvent participer à une équipe publique sans avoir à obtenir l’approbation du propriétaire de l’équipe. Exemples d’équipes publics une équipe pour discuter des news dans une équipe pour covoiturage personnes fonctionne, une équipe pour obtenir les commentaires dogfood pour vos produits et technologie.
+Les équipes publiques sont disponibles pour permettre à tous les utilisateurs de votre organisation de participer. Les équipes publiques sont visibles par tout le monde dans la Galerie d’équipes, et les utilisateurs peuvent rejoindre une équipe publique sans avoir besoin d’obtenir l’approbation du propriétaire de l’équipe. Par exemple, les équipes publiques incluent une équipe pour discuter des actualités en technologie, une équipe pour obtenir le retour de vos produits et une équipe pour les personnes carpooling de travailler.
 
-### <a name="discoverable-private-teams"></a>Équipes privées détectables
+### <a name="discoverable-private-teams"></a>Équipe privée détectable
 
-Détectables équipes privées ne peuvent être jointe lorsque le propriétaire de l’équipe ajoute les utilisateurs. Lorsque vous effectuez une équipe privée détectable, l’équipe est inclus dans la liste des équipes suggérées et les résultats de la recherche dans la galerie des équipes. Utilisez des équipes privées détectables pour les projets et les groupes de votre organisation tout le monde connaît et où accéder à des conversations et les fichiers de l’équipe doivent être contrôlées. Une équipe pour votre service des ressources humaines, une équipe pour tous les gestionnaires de votre organisation et exemples une équipe pour un responsable et leurs collaborateurs.
+Les équipes privées détectables ne peuvent être jointes que lorsque le propriétaire de l’équipe y ajoute des utilisateurs. Lorsque vous rendez une équipe privée détectable, l’équipe est incluse dans la liste des équipes et des résultats de recherche suggérés dans la Galerie d’équipes. Utilisez les équipes privées détectables pour les projets et groupes de votre organisation que tout le monde a pris en considération et où l’accès à des conversations et des fichiers dans l’équipe doit être contrôlé. Les exemples incluent une équipe pour votre service de ressources humaines, une équipe pour tous les responsables au sein de votre organisation ainsi qu’une équipe pour un responsable et leurs rapports directs.
 
-### <a name="non-discoverable-private-teams"></a>Équipes privées non-découvrable
+### <a name="non-discoverable-private-teams"></a>Équipes privées non détectable
 
-Non-découvrable équipes privées ne peuvent être jointe lorsque le propriétaire de l’équipe ajoute les utilisateurs. Lorsque vous effectuez une équipe privée non détectables, elle a masqué dans la liste des équipes suggérées et supprimées des résultats de recherche dans la galerie des équipes. Utilisez-découvrable équipes de collaborer sur des sujets sensibles et hautement confidentielles. Une équipe pour discuter d’une acquisition à venir et exemples une équipe pour discuter de changement de direction stratégique de votre organisation.
+Les équipes privées non détectablees ne peuvent être jointes que lorsque le propriétaire de l’équipe y ajoute des utilisateurs. Lorsque vous rendez une équipe privée non détectable, celle-ci est masquée dans la liste des équipes suggérées et supprimées des résultats de recherche dans la Galerie d’équipes. Utilisez des équipes non détectable pour collaborer sur des sujets sensibles et hautement confidentiels. Les exemples incluent une équipe pour discuter d’une prochaine acquisition et une équipe pour discuter d’une modification apportée à la direction stratégique de votre organisation.
 
-## <a name="set-whether-new-private-teams-are-discoverable"></a>Définir si les nouvelles équipes privées sont accessibles
+## <a name="set-whether-new-private-teams-are-discoverable"></a>Définir si de nouvelles équipes privées peuvent être découvertes
 
-Lorsqu’un propriétaire de l’équipe crée une équipe privée, ils peuvent choisir de rendre accessibles en configurant le paramètre de découverte de l’équipe. Par défaut, nouvelles équipes privées sont utilisables dans une requête et facilement identifiables. Si le propriétaire de l’équipe ne veut pas l’équipe privé s’affiche dans les résultats de recherche et les suggestions, ils peuvent désactiver le paramètre en sélectionnant **Modifier les paramètres** en regard de **cette équipe est disponible pour la recherche et facilement identifiables**.
+Lorsque le propriétaire d’une équipe crée une équipe privée, il peut choisir de le rendre détectable en configurant le paramètre de découverte de l’équipe. Par défaut, les nouvelles équipes privées peuvent être recherchées et détectables. Si le propriétaire de l’équipe ne souhaite pas qu’elle apparaisse dans les résultats de recherche et les suggestions, elle peut désactiver le paramètre en sélectionnant l' **option modifier les paramètres** en regard de **cette équipe est consultable et détectable**.
 
-![paramètre de découverte de nouvelles équipes privées](media/private-team-discovery-new-team.png)
+![paramètre de découverte pour les nouvelles équipes privées](media/private-team-discovery-new-team.png)
 
-## <a name="set-whether-existing-private-teams-are-discoverable"></a>Définir si les équipes privées existantes peuvent être découverts
+## <a name="set-whether-existing-private-teams-are-discoverable"></a>Définir si les équipes privées existantes sont détectables
 
-Propriétaires de l’équipe peuvent définir le paramètre de découverte pour une équipe privée existante directement dans les paramètres de l’équipe et les administrateurs peuvent le faire à l’aide de PowerShell.
+Les propriétaires d’une équipe peuvent définir le paramètre de découverte pour une équipe privée existante directement dans les paramètres de l’équipe et les administrateurs peuvent le faire à l’aide de PowerShell.
 
 ### <a name="in-team-settings"></a>Dans les paramètres d’équipe
 
-Dans les équipes, accédez à l’équipe privée, cliquez sur **plus d’options ˙˙˙** > **l’équipe de gestion**. Sous l’onglet **paramètres** , développez la **détection de l’équipe**, puis désactivez ou activez la case à cocher **Activer la détectabilité** .
+Dans Teams, accédez à l’équipe privée, cliquez sur **plus d’options ̇ ̇ ̇** > **gérer l’équipe**. Dans l’onglet **paramètres** , développez **découverte d’équipe**, puis cochez ou décochez la case Activer la **détectabilité** .
 
 ![paramètre de découverte pour les équipes privées existantes](media/private-team-discovery-existing-team.png)
 
-### <a name="using-powershell-coming-soon"></a>À l’aide de PowerShell (bientôt disponible)
+### <a name="using-powershell-coming-soon"></a>Utiliser PowerShell (bientôt disponible)
 
-Pour désactiver ou activer le paramètre de découverte pour une équipe privée existante, utilisez l’applet de commande **Set-équipe** . Voici un exemple illustrant comment rendre une équipe détectable :
+Utilisez l’applet de connexion **Set-Team** pour désactiver ou activer le paramètre de découverte pour une équipe privée existante. Voici un exemple illustrant comment rendre une équipe plus détectable:
 
     Set-Team -GroupId 0abc123d-e4f5-67gh-i890-jk1m2n345o6p -ShowInSearchAndSuggestions $true
-Vous pouvez utiliser cette applet de commande dans un script pour définir le paramètre de découverte des équipes privées existantes en bloc.
+Vous pouvez utiliser cette applet de cmdlet dans un script pour définir le paramètre de découverte des équipes privées existantes en bloc.
 
-## <a name="set-whether-users-can-discover-private-teams"></a>Définir si les utilisateurs peuvent découvrir des équipes privées
+## <a name="set-whether-users-can-discover-private-teams"></a>Définir si les utilisateurs peuvent découvrir les équipes privées
 
-En tant qu’administrateur, vous pouvez également contrôler les utilisateurs de votre organisation sont autorisés à découvrir des équipes privées dans les résultats de recherche et les suggestions équipes. Créer une stratégie à l’aide de l’applet de commande **New-CsTeamsChannelsPolicy** , puis affecter la stratégie aux utilisateurs.
+En tant qu’administrateur, vous pouvez également contrôler les utilisateurs de votre organisation qui sont autorisés à découvrir des équipes privées dans les résultats de recherche et les suggestions dans Teams. Créez une stratégie à l’aide de l’applet de **nouvelle applet de nouveau-CsTeamsChannelsPolicy** , puis affectez la stratégie aux utilisateurs.
  
-Définissez le paramètre **AllowPrivateTeamDiscovery** sur **true** pour autoriser les utilisateurs auxquels la stratégie à voir détectables équipes privées dans les résultats de recherche et les suggestions. Définissant le paramètre **AllowPrivateTeamDiscovery** sur **false** supprime toutes les équipes privées accessibles à partir des résultats de recherche et des suggestions pour les utilisateurs qui sont affectés à la stratégie.
+Définissez le paramètre **AllowPrivateTeamDiscovery** sur **true** pour autoriser les utilisateurs auxquels une stratégie est affectée pour voir les équipes privées détectables dans les résultats de recherche et les suggestions. Le fait de définir le paramètre **AllowPrivateTeamDiscovery** sur **false** entraîne la suppression de toutes les équipes privées détectable des résultats de la recherche et des suggestions pour les utilisateurs auxquels cette stratégie est affectée.
 
-Par défaut, **AllowPrivateTeamDiscovery** est définie sur **true** pour tous les utilisateurs d’une organisation.
+Par défaut, **AllowPrivateTeamDiscovery** est défini sur **true** pour tous les utilisateurs au sein d’une organisation.
 
-Dans cet exemple, nous créons une stratégie nommée VendorPolicy qui empêche les utilisateurs de la découverte des équipes privées apportées détectables, puis nous attribuer la stratégie à un utilisateur nommé vendoruser1. 
+Dans cet exemple, nous créons une stratégie nommée VendorPolicy qui empêche les utilisateurs de découvrir toutes les équipes privées découvertes, puis nous affectons la stratégie à un utilisateur nommé vendoruser1. 
    
      New-CsTeamsChannelsPolicy -Identity VendorPolicy -AllowPrivateTeamDiscovery $false
      Grant-CsTeamsChannelsPolicy -Identity vendoruser1@company.com -PolicyName VendorPolicy
 
 > [!NOTE]
-> Privée équipes qui ne sont pas accessibles ne sont jamais indiqués dans les résultats de recherche et de vos suggestions, quel que soit le paramètre de stratégie. Par exemple, si vous désactivez le paramètre de découverte pour une équipe privé, les utilisateurs ne peuvent pas détecter l’équipe, même si le paramètre **AllowPrivateTeamDiscovery** est défini sur **true** dans le paramètre de stratégie pour les utilisateurs.
+> Les équipes privées qui ne sont pas détectables ne sont jamais affichées dans les résultats de recherche et les suggestions, indépendamment du paramètre de stratégie. Par exemple, si vous désactivez le paramètre de découverte pour une équipe privée, les utilisateurs ne parviennent pas à découvrir l’équipe, même si le paramètre **AllowPrivateTeamDiscovery** est défini sur **true** dans le paramètre de stratégie pour ces utilisateurs.
 
 ## <a name="related-topics"></a>Voir aussi
 - [Aperçu de Teams PowerShell](teams-powershell-overview.md)

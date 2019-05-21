@@ -5,46 +5,46 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/1/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fef73d8f-7261-4e5b-9769-82435b007979
-description: Chaque enregistrement contient un événement client pour un point de terminaison dans un appel audio. En règle générale, un seul appel a deux enregistrements, l’autre pour l’appelant et l’autre pour l’appelé.
-ms.openlocfilehash: 872d97bfe0b9e2bd2b2d5b348e84bc1feab5c83e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Chaque enregistrement contient un événement client pour un point de terminaison dans un appel audio. En règle générale, un appel possède deux enregistrements, un pour l’appelant et un pour l’appelant.
+ms.openlocfilehash: 1f754f9b7ef19919503988d40347fdeb218830d5
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33920095"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295103"
 ---
 # <a name="audioclientevent-table"></a>Table AudioClientEvent
  
-Chaque enregistrement contient un événement client pour un point de terminaison dans un appel audio. En règle générale, un seul appel a deux enregistrements, l’autre pour l’appelant et l’autre pour l’appelé.
+Chaque enregistrement contient un événement client pour un point de terminaison dans un appel audio. En règle générale, un appel possède deux enregistrements, un pour l’appelant et un pour l’appelant.
   
 |**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
 |:-----|:-----|:-----|:-----|
-|**Paramètre ConferenceDateTime** <br/> |DateHeure  <br/> |Principal  <br/> |Référencé depuis la [MediaLine table](medialine-0.md).  <br/> |
-|**SessionSeq** <br/> |int  <br/> |Principal  <br/> |Référencé depuis la [MediaLine table](medialine-0.md).  <br/> |
-|**MediaLineLabel** <br/> |tinyint  <br/> |Principal  <br/> |Référencé depuis la [MediaLine table](medialine-0.md).  <br/> |
-|**FromCaller** <br/> |bit  <br/> |Principal  <br/> |0 : données de l’appelé  <br/> 1 : données de l’appelant  <br/> |
-|**NetworkSendQualityEventRatio** <br/> |Decimal(5,2)  <br/> | <br/> |Pourcentage de session de que l’événement NetworkSendQuality a été déclenché pour l’état « Incorrect ».  <br/> Qualité du réseau en termes de perte de gigue ou de paquets est lourde et impact sur la qualité de l’audio envoyé.  <br/> |
-|**NetworkReceiveQualityEventRatio** <br/> |Decimal(5,2)  <br/> | <br/> |Pourcentage de session de que l’événement ReceiveSendQuality a été déclenché pour l’état « Incorrect ».  <br/> Qualité du réseau en termes de perte de gigue ou de paquets est lourde et impact sur la qualité de l’audio reçu.  <br/> |
-|**NetworkDelayEventRatio** <br/> |Decimal(5,2)  <br/> | <br/> |Pourcentage de la session qu'a été déclenché l’événement de délai d’attente pour l’état « Incorrect ». Latence du réseau est lourde et impact sur l’expérience en empêchant de communication interactive  <br/> |
-|**NetworkBandwidthLowEventRatio** <br/> |Decimal(5,2)  <br/> | <br/> |Pourcentage de la session qu'a été déclenché l’événement LowBandwidth pour l’état « Incorrect ». La bande passante disponible est insuffisante pour une expérience vocale acceptable.  <br/> |
-|**CPUInsufficientEventRatio** <br/> |Decimal(5,2)  <br/> | <br/> |Pourcentage de session de que l’événement du processeur insuffisante a été déclenché pour l’état « Incorrect ». Il existe des cycles de processeur suffisantes pour le traitement avec les applications en cours d’utilisation et les modalités en cours. Alors distorsions avec le canal audio.  <br/> |
-|**DeviceHalfDuplexAECEventRatio** <br/> |Decimal(5,2)  <br/> | <br/> |Pourcentage de la session qu'a été déclenché l’événement DeviceHalfDuplexAEC pour l’état « Incorrect ». Afin d’éviter l’écho, le système a Entrez semi-duplex.  <br/> |
-|**DeviceRenderNotFunctioningEventRatio** <br/> |Decimal(5,2)  <br/> | <br/> |Pourcentage de la session qu'a été déclenché l’événement DeviceRenderNotFunctioning pour l’état « Incorrect ». Le périphérique de rendu en cours d’utilisation pour la session ne fonctionne pas correctement. Cela peut entraîner des problèmes d’audio à sens unique.  <br/> |
-|**DeviceCaptureNotFunctioningEventRatio** <br/> |Decimal(5,2)  <br/> | <br/> |Pourcentage de la session qu'a été déclenché l’événement DeviceCaptureNotFunctioning pour l’état « Incorrect ». Le périphérique de capture actuellement utilisé pour la session ne fonctionne pas correctement. Cela peut entraîner des problèmes d’audio à sens unique.  <br/> |
-|**DeviceGlitchesEventRatio** <br/> |Decimal(5,2)  <br/> | <br/> |Pourcentage de la session qu'a été déclenché l’événement DeviceGlitches pour l’état « Incorrect ». Il existe des graves problèmes dans le rendu des données audio qui est à l’origine de distorsions. Ces problèmes peuvent être dû à des problèmes de pilote, vague d’appels (DPC) procédure différés (pilotes) et d’utilisation intensive du processeur.  <br/> |
-|**DeviceLowSNREventRatio** <br/> |Decimal(5,2)  <br/> | <br/> |Pourcentage de la session qu'a été déclenché l’événement DeviceLowSNR pour l’état « Incorrect ». La qualité de capture est médiocre, soit très bruit ou de l’utilisateur est en train de parler trop éloignée du microphone. Cela entraîne des distorsions.  <br/> |
-|**DeviceLowSpeechLevelEventRatio** <br/> |Decimal(5,2)  <br/> | <br/> |Pourcentage de la session qu'a été déclenché l’événement DeviceLowSpeechLevel pour l’état « Incorrect ». Niveau de voix de l’utilisateur est trop faible et le système ne peut pas augmenter il davantage. Cela peut provoquer des distorsions ou perçue comme l’audio à sens unique.  <br/> |
-|**DeviceClippingEventRatio** <br/> |Decimal(5,2)  <br/> | <br/> |Pourcentage de la session qu'a été déclenché l’événement DeviceClipping pour l’état « Incorrect ».  <br/> Lorsque l’extrémité proche vocale clips du microphone,-extrémité entend déformation en raison de découpage. Il est important éviter l’écrêtage du microphone près de fin.  <br/> |
-|**DeviceEchoEventRatio** <br/> |Decimal(5,2)  <br/> | <br/> |Pourcentage de la session qu'a été déclenché l’événement DeviceEchoEvent pour l’état « Incorrect ». Périphérique ou le programme d’installation est à l’origine de l’écho au-delà de la capacité du système pour compenser.  <br/> |
-|**DeviceNearEndToEchoRatioEventRatio** <br/> |Decimal(5,2)  <br/> | <br/> |Pourcentage de la session qu'a été déclenché l’événement DeviceNearEndToEchoRatio pour l’état « Incorrect ». Vocale de l’utilisateur est trop faible par rapport à l’écho capturé en cours qui a un impact sur l’expérience des utilisateurs, car il limite combien il est facile d’interrompre un utilisateur. Réduire le volume des haut-parleurs, placez le plus proche du microphone pour le participant.  <br/> |
-|**DeviceMultipleEndpointsEventCount** <br/> |int  <br/> ||Nombre de fois au cours de la session qu'a été déclenché l’événement DeviceMultipleEndpoints pour l’état « Incorrect ». Plusieurs points de terminaison audio dans la même session détecté et le système a compensation en réduisant le volume de rendu.  <br/> |
-|**DeviceHowlingEventCount** <br/> |int  <br/> | <br/> |Nombre de fois au cours de la session qu'a été déclenché l’événement DeviceHowlingEvent pour l’état « Incorrect ». Boucle de réaction acoustique détectée (due à plusieurs points de terminaison partage chemin audio).  <br/> |
-|**DeviceRenderZeroVolumeEventRatio** <br/> |Decimal(5,2)  <br/> ||Pourcentage de session a été déclenché l’événement DeviceRenderZeroVolume pour en cours dans le « incorrecte ' état. Le périphérique de rendu sans volume a été défini.  <br/> Cette colonne est une nouveauté dans Microsoft Lync Server 2013.  <br/> |
-|**DeviceRenderMuteEventRatio** <br/> |Decimal(5,2)  <br/> ||Pourcentage de session a été déclenché l’événement DeviceRenderMute pour en cours dans le « incorrecte ' état. Le périphérique de rendu a été désactivé.  <br/> Cette colonne est une nouveauté dans Microsoft Lync Server 2013.  <br/> |
+|**ConferenceDateTime** <br/> |DateHeure  <br/> |Principal  <br/> |Fait référence à partir de la [table MediaLine](medialine-0.md).  <br/> |
+|**SessionSeq** <br/> |int  <br/> |Principal  <br/> |Fait référence à partir de la [table MediaLine](medialine-0.md).  <br/> |
+|**MediaLineLabel** <br/> |tinyint  <br/> |Principal  <br/> |Fait référence à partir de la [table MediaLine](medialine-0.md).  <br/> |
+|**FromCaller** <br/> |bit  <br/> |Principal  <br/> |0: données du destinataire  <br/> 1: données de l’appelant  <br/> |
+|**NetworkSendQualityEventRatio** <br/> |décimale (5; 2)  <br/> | <br/> |Pourcentage de session de déclenchement de l’événement NetworkSendQuality pour l’état «incorrect».  <br/> La qualité du réseau en termes de gigue ou de perte de paquets est sévère et a un impact sur la qualité du son envoyé.  <br/> |
+|**NetworkReceiveQualityEventRatio** <br/> |décimale (5; 2)  <br/> | <br/> |Pourcentage de session de déclenchement de l’événement ReceiveSendQuality pour l’état «incorrect».  <br/> La qualité du réseau en termes de gigue ou de perte de paquets est sérieuse et a un impact sur la qualité du son reçu.  <br/> |
+|**NetworkDelayEventRatio** <br/> |décimale (5; 2)  <br/> | <br/> |Pourcentage de session le déclenchement de l’événement de temporisation a été déclenché pour l’état «incorrect». La latence du réseau est sérieuse et a un impact sur l’interface en empêchant les communications interactives  <br/> |
+|**NetworkBandwidthLowEventRatio** <br/> |décimale (5; 2)  <br/> | <br/> |Pourcentage de session de déclenchement de l’événement LowBandwidth pour l’état «incorrect». La bande passante disponible est insuffisante pour obtenir une utilisation vocale acceptable.  <br/> |
+|**CPUInsufficientEventRatio** <br/> |décimale (5; 2)  <br/> | <br/> |Pourcentage de session de l’événement UC insuffisant déclenché pour l’état «incorrect». Il n’y a pas assez de cycles d’UC pour le traitement avec les modalités et applications en cours d’utilisation. Cela entraîne une distorsion du canal audio.  <br/> |
+|**DeviceHalfDuplexAECEventRatio** <br/> |décimale (5; 2)  <br/> | <br/> |Pourcentage de session de déclenchement de l’événement DeviceHalfDuplexAEC pour l’état «incorrect». Afin d’éviter l’écho, le système a entré Half duplex.  <br/> |
+|**DeviceRenderNotFunctioningEventRatio** <br/> |décimale (5; 2)  <br/> | <br/> |Pourcentage de session de déclenchement de l’événement DeviceRenderNotFunctioning pour l’état «incorrect». L’appareil de rendu actuellement utilisé pour la session ne fonctionne pas correctement. Cela peut entraîner des problèmes audio à sens unique.  <br/> |
+|**DeviceCaptureNotFunctioningEventRatio** <br/> |décimale (5; 2)  <br/> | <br/> |Pourcentage de session de déclenchement de l’événement DeviceCaptureNotFunctioning pour l’état «incorrect». L’appareil de capture actuellement utilisé pour la session ne fonctionne pas correctement. Cela peut entraîner des problèmes audio à sens unique.  <br/> |
+|**DeviceGlitchesEventRatio** <br/> |décimale (5; 2)  <br/> | <br/> |Pourcentage de session de déclenchement de l’événement DeviceGlitches pour l’état «incorrect». Il y a des problèmes importants dans le rendu du son qui engendre des distorsions. Ces problèmes peuvent être causés par des problèmes de pilotes, des appels de procédures différées (DPC) Storm (pilotes) et une utilisation élevée de l’UC.  <br/> |
+|**DeviceLowSNREventRatio** <br/> |décimale (5; 2)  <br/> | <br/> |Pourcentage de session de déclenchement de l’événement DeviceLowSNR pour l’état «incorrect». La qualité de la capture est très médiocre, qu’elle soit très bruyante ou que l’utilisateur parle trop loin du microphone. Cela entraînera une distorsion.  <br/> |
+|**DeviceLowSpeechLevelEventRatio** <br/> |décimale (5; 2)  <br/> | <br/> |Pourcentage de session de déclenchement de l’événement DeviceLowSpeechLevel pour l’état «incorrect». Le niveau de voix de l’utilisateur est trop faible et le système ne peut plus l’augmenter. Cela peut entraîner des distorsions ou une perception perçue comme un son à sens unique.  <br/> |
+|**DeviceClippingEventRatio** <br/> |Décimale (5; 2)  <br/> | <br/> |Pourcentage de session de déclenchement de l’événement DeviceClipping pour l’état «incorrect».  <br/> Lorsque le son du microphone est proche de l’extrémité de la parole, la distorsion est audible en raison de l’écrêtage. Il est important d’éviter une capture du microphone proche de la fin.  <br/> |
+|**DeviceEchoEventRatio** <br/> |décimale (5; 2)  <br/> | <br/> |Pourcentage de session de déclenchement de l’événement DeviceEchoEvent pour l’état «incorrect». L’appareil ou la configuration entraîne un écho au-delà de la capacité du système à compenser.  <br/> |
+|**DeviceNearEndToEchoRatioEventRatio** <br/> |décimale (5; 2)  <br/> | <br/> |Pourcentage de session de déclenchement de l’événement DeviceNearEndToEchoRatio pour l’état «incorrect». La parole de l’utilisateur est trop faible par rapport à l’écho capturé qui a un impact sur l’interface utilisateur, car il limite le niveau d’interruption d’un utilisateur. Réduire le volume des haut-parleurs, rapprochez le micro du contact.  <br/> |
+|**DeviceMultipleEndpointsEventCount** <br/> |int  <br/> ||Nombre de fois que l’événement DeviceMultipleEndpoints a été déclenché pour l’état «incorrect». Plusieurs points de terminaison audio au sein de la même session détectés et le système a compensé en réduisant le volume de rendu.  <br/> |
+|**DeviceHowlingEventCount** <br/> |int  <br/> | <br/> |Nombre de fois que l’événement DeviceHowlingEvent a été déclenché pour l’état «incorrect». Boucle de commentaires audio détectée (provoquée par plusieurs points de terminaison partageant le chemin audio).  <br/> |
+|**DeviceRenderZeroVolumeEventRatio** <br/> |décimale (5; 2)  <br/> ||Pourcentage de session l’événement DeviceRenderZeroVolume a été déclenché pour être dans l’état «incorrect». L’appareil de rendu a été défini sur le volume zéro.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
+|**DeviceRenderMuteEventRatio** <br/> |décimale (5; 2)  <br/> ||Pourcentage de session l’événement DeviceRenderMute a été déclenché pour être dans l’état «incorrect». L’appareil de rendu a été coupé.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
    
 

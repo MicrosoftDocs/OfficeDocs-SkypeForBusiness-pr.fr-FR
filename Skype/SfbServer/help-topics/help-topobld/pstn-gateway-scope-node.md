@@ -5,24 +5,24 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/26/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.PstnGatewayScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 85a52bf7-98cb-4dd4-892e-2d1ba5669593
-description: 'Ce nœud affiche le nom de domaine complet (FQDN), associé à un serveur de médiation et d’autres informations de base sur cette passerelle de réseau téléphonique commuté. Vous pouvez effectuer les actions suivantes :'
-ms.openlocfilehash: e0a19371b251f7d253b69d47294752d8a11df552
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Ce nœud affiche le nom de domaine complet (FQDN), le serveur de médiation associé et d’autres informations de base sur cette passerelle PSTN (réseau téléphonique commuté). Vous pouvez effectuer les actions suivantes :'
+ms.openlocfilehash: 52c328f082d29bca4a3253daf665ddcc7fadf4b8
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33910566"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289874"
 ---
 # <a name="pstn-gateway-scope-node"></a>Nœud d’étendue de la passerelle PSTN
  
-Ce nœud affiche le nom de domaine complet (FQDN), associé à un serveur de médiation et d’autres informations de base sur cette passerelle de réseau téléphonique commuté. Vous pouvez effectuer les actions suivantes :
+Ce nœud affiche le nom de domaine complet (FQDN), le serveur de médiation associé et d’autres informations de base sur cette passerelle PSTN (réseau téléphonique commuté). Vous pouvez effectuer les actions suivantes :
   
 - **Modifier les propriétés** : affiche la page **Modifier les propriétés** pour cette passerelle, dans laquelle vous pouvez modifier le nom de domaine complet (si la topologie n’est pas encore publiée), le port d’écoute, le protocole de transport et l’adresse IP du média de remplacement.
     

@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.RgsWorkFlowMain
@@ -12,33 +12,33 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e4ee8abb-e1e5-413c-919d-cd3fb7193840
 ROBOTS: NOINDEX, NOFOLLOW
-description: Groupes de réponses se composent des groupes d’agents, files d’attente et flux de travail. Flux de travail Response Group définissent les actions exécutées lorsque l’application Response Group reçoit un appel téléphonique.
-ms.openlocfilehash: b223227ae91bf2cae19d4d46da2206e74a492a40
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Les groupes de réponse sont des groupes d’agents, des files d’attente et des flux de travail. Les flux de travail de groupe de réponse définissent les actions effectuées lorsque l’application de Response Group reçoit un appel téléphonique.
+ms.openlocfilehash: dba5d07d922e652e0c80d97bf622fbb51747a00f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33891039"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34292510"
 ---
 # <a name="response-groups-workflow"></a>Workflow Response Groups
 
-Groupes de réponses se composent des groupes d’agents, files d’attente et flux de travail. Flux de travail Response Group définissent les actions exécutées lorsque l’application Response Group reçoit un appel téléphonique.
+Les groupes de réponse sont des groupes d’agents, des files d’attente et des flux de travail. Les flux de travail de groupe de réponse définissent les actions effectuées lorsque l’application de Response Group reçoit un appel téléphonique.
 
-Les **Groupes de réponses** - page**flux de travail** affiche une liste de tous les workflows du service Response Group qui sont définies pour votre organisation.
+La page de**flux de travail** **groupes** - de réponse affiche la liste de tous les flux de travail de groupe de réponse définis pour votre organisation.
 
 ## <a name="tasks-you-can-perform"></a>Tâches que vous pouvez effectuer
 
-Vous pouvez effectuer les tâches suivantes dans les **Groupes de réponses** - page**flux de travail** :
+Vous pouvez effectuer les tâches suivantes à partir de la page**flux de travail** **groupes** - de réponse:
 
-- Créer ou modifier un flux de travail de groupe de recherche
+- Création ou modification d’un flux de travail de groupe de recherche
 
-- Créer ou modifier un workflow interactif
+- Création ou modification d’un flux de travail interactif
 
 ## <a name="ui-reference"></a>Référence d’interface utilisateur
 
 La liste ci-dessous décrit les commandes de la page.
 
-- **Créer ou modifier un flux de travail** Ouvre l’outil de Configuration Response Group pour créer ou modifier un flux de travail.
+- **Création ou modification d’un flux de travail** Ouvre l’outil de configuration de Response Group pour créer ou modifier un flux de travail.
 
 - **Actualiser** Actualise la liste des flux de travail.
 
@@ -46,18 +46,18 @@ La liste ci-dessous décrit les champs de la page.
 
 - **Nom** Nom unique affecté au flux de travail.
 
-- **Service** Le service **ApplicationServer** qui héberge le flux de travail.
+- **Service (service** ) Service **ApplicationServer** qui héberge le flux de travail.
 
-- **Adresse SIP** L’adresse SIP du groupe qui répondra aux appels du workflow.
+- **Adresse SIP** Adresse SIP du groupe qui répondra aux appels au flux de travail.
 
-- **Téléphone** Numéro de téléphone qui est appelé pour joindre ce groupe Response Group.
+- **Téléphone** Le numéro de téléphone qui est appelé pour joindre ce groupe de réponse.
 
-- **Langue** La langue utilisée pour la reconnaissance vocale et.
+- **Language (langue** ) Langue utilisée pour la reconnaissance vocale et la conversion de texte par synthèse vocale.
 
-- **Réponse vocale interactive** Indique si le flux de travail est un groupement de postes ou d’un flux de travail interactif.
+- **IVR** Indique si le flux de travail est un groupe de recherche ou un flux de travail interactif.
 
-- **Activé** Indique si le workflow est activé pour recevoir des appels.
+- **Activée** Indique si le flux de travail est activé pour recevoir des appels.
 
-Pour plus d’informations sur les fonctionnalités de Response Group, consultez [planification de l’application Response Group dans Skype pour Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) dans la documentation de planification. Pour plus d’informations sur l’utilisation des flux de travail Response Group, consultez [Gestion de flux de travail Response Group](https://technet.microsoft.com/library/42cfccdd-2844-4875-b4e3-813e1df15f08.aspx) dans la documentation des opérations.
+Pour plus d’informations sur les fonctionnalités et les fonctionnalités des groupes de réponse, voir [planifier l’application Response Group dans Skype entreprise Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) dans la documentation de planification. Pour plus d’informations sur l’utilisation des flux de travail de groupe de réponse, voir [gestion des flux de travail de groupe de réponses](https://technet.microsoft.com/library/42cfccdd-2844-4875-b4e3-813e1df15f08.aspx) dans la documentation des opérations.
 
 

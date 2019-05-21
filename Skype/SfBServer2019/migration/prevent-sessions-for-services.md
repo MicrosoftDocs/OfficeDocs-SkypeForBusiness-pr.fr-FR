@@ -4,53 +4,53 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Vous pouvez utiliser l’installation héritée le panneau de configuration afin d’empêcher de nouvelles sessions de tous les services hérités en cours d’exécution sur un ordinateur spécifique ou de nouvelles sessions d’un service hérité.
-ms.openlocfilehash: 9f3f9bb301841d7e71c18f4d3ca052f3d0c74dce
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Vous pouvez utiliser le panneau de configuration pour les installations héritées pour empêcher de nouvelles sessions pour tous les services hérités en cours d’exécution sur un ordinateur spécifique ou pour empêcher de nouvelles sessions pour un service hérité spécifique.
+ms.openlocfilehash: 4728f68c8f7b9392b99a6a49eefe699fa48a4d47
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231538"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34301215"
 ---
 # <a name="prevent-sessions-for-services"></a>Empêcher l’exécution de sessions de services
 
-Vous pouvez utiliser l’installation héritée le panneau de configuration afin d’empêcher de nouvelles sessions de tous les services hérités en cours d’exécution sur un ordinateur spécifique ou de nouvelles sessions d’un service hérité.
+Vous pouvez utiliser le panneau de configuration pour les installations héritées pour empêcher de nouvelles sessions pour tous les services hérités en cours d’exécution sur un ordinateur spécifique ou pour empêcher de nouvelles sessions pour un service hérité spécifique.
   
-## <a name="to-prevent-new-sessions-for-services-on-a-computer"></a>Pour empêcher les nouvelles sessions de services sur un ordinateur
+## <a name="to-prevent-new-sessions-for-services-on-a-computer"></a>Pour empêcher de nouvelles sessions pour les services sur un ordinateur
 
-1. À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affecté au rôle CsServerAdministrator ou CsAdministrator, ouvrez une session sur n’importe quel ordinateur qui se trouve dans le réseau dans lequel vous avez déployé Skype pour Business Server 2019.
+1. À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affectées au rôle CsServerAdministrator ou CsAdministrator, connectez-vous à n’importe quel ordinateur se trouve sur le réseau sur lequel vous avez déployé Skype entreprise Server. 2019.
     
-2. Ouvrez Skype pour Business le panneau de configuration.
+2. Ouvrez le panneau de configuration Skype pour les entreprises.
     
 3. Dans la barre de navigation de gauche, cliquez sur **Topologie**, puis sur **État**. 
     
-4. Sur la page **état** du tri ou recherche par le biais de la liste en tant que nécessaire pour trouver l’ordinateur qui exécute les services pour laquelle vous souhaitez empêcher de nouvelles sessions, puis cliquez dessus. 
+4. Dans la page **État** , triez ou effectuez une recherche dans la liste selon vos besoins pour trouver l’ordinateur exécutant les services pour lesquels vous voulez éviter de nouvelles sessions, puis cliquez dessus. 
     
-5. Cliquez sur **Action**.
+5. Cliquez sur **action**.
     
 6. Cliquez sur **empêcher de nouvelles sessions pour tous les services**.
     
-## <a name="to-prevent-new-sessions-for-a-specific-service"></a>Pour empêcher les nouvelles sessions pour un service spécifique
+## <a name="to-prevent-new-sessions-for-a-specific-service"></a>Pour empêcher de nouvelles sessions pour un service spécifique
 
-1. À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affecté au rôle CsServerAdministrator ou CsAdministrator, ouvrez une session sur n’importe quel ordinateur qui se trouve dans le réseau dans lequel vous avez déployé Skype pour Business Server 2019.
+1. À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affectées au rôle CsServerAdministrator ou CsAdministrator, connectez-vous à n’importe quel ordinateur se trouve sur le réseau sur lequel vous avez déployé Skype entreprise Server. 2019.
     
-2. Ouvrez Skype pour Business le panneau de configuration.
+2. Ouvrez le panneau de configuration Skype pour les entreprises.
     
 3. Dans la barre de navigation de gauche, cliquez sur **Topologie**, puis sur **État**. 
     
-4. Sur la page **d’état** , de tri ou de recherche par le biais de la liste selon vos besoins pour rechercher l’ordinateur qui exécute le service que vous souhaitez démarrer ou arrêter, puis cliquez dessus. 
+4. Dans la page **État** , triez ou effectuez une recherche dans la liste selon vos besoins pour trouver l’ordinateur exécutant le service que vous voulez démarrer ou arrêter, puis cliquez dessus. 
     
 5. Cliquez sur **Propriétés**.
     
-6. Triez la liste des services, si nécessaire, cliquez sur le service pour lequel vous voulez empêcher de nouvelles sessions.
+6. Triez la liste des services, si nécessaire, puis cliquez sur le service pour lequel vous souhaitez éviter de nouvelles sessions.
     
-7. Cliquez sur **Action**.
+7. Cliquez sur **action**.
     
-8. Cliquez sur **empêcher de nouvelles sessions de service**.
+8. Cliquez sur **empêcher de nouvelles sessions pour le service**.
     
 9. Cliquez sur **Fermer**.
     

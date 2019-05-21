@@ -1,5 +1,5 @@
 ---
-title: Activer ou désactiver l’envoi de messages électroniques lorsque les paramètres de conférence Audio changent dans Skype pour Business Online
+title: Activation ou désactivation de l’envoi de courriers électroniques en cas de modification des paramètres de conférence audio dans Skype entreprise Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -20,81 +20,81 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Learn how to enable or disable Skype from sending emails to users when settings such as pin changes or the default conferencing number changes. '
-ms.openlocfilehash: a9100de01fc835916af54d08b84dbd03a06ec1d6
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 9581589dcc9b07ed5745069f56d6f2ba3561feae
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229816"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290119"
 ---
-# <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-skype-for-business-online"></a>Activer ou désactiver l’envoi de messages électroniques lorsque les paramètres de conférence Audio changent dans Skype pour Business Online
+# <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-skype-for-business-online"></a>Activation ou désactivation de l’envoi de courriers électroniques en cas de modification des paramètres de conférence audio dans Skype entreprise Online
 
 > [!Note]
-> Si vous souhaitez activer ou désactiver l’envoi d’e-mails dans Microsoft Teams, voir [Activer ou désactiver l’envoi de messages électroniques lorsque les paramètres de conférence Audio changent dans les équipes Microsoft](/MicrosoftTeams/enable-or-disable-sending-emails-when-their-settings-change-in-teams).
+> Si vous souhaitez activer ou désactiver l’envoi de courriers électroniques dans Microsoft Teams, voir [activer ou désactiver l’envoi de courriers électroniques en cas de modification des paramètres de conférence audio dans Microsoft teams](/MicrosoftTeams/enable-or-disable-sending-emails-when-their-settings-change-in-teams).
 
-Les utilisateurs sont avertis automatiquement par courrier électronique lorsqu’ils sont activés pour une audioconférence. Il peut arriver, cependant, lorsque vous souhaitez réduire le nombre de messages électroniques qui sont envoyés à Skype pour les utilisateurs professionnels. Dans ce cas, vous pouvez désactiver l’envoi de courrier électronique.
+Les utilisateurs sont automatiquement avertis par courrier lorsqu’ils sont activés pour les conférences audio. Toutefois, il peut arriver que vous souhaitiez réduire le nombre de messages électroniques envoyés aux utilisateurs de Skype entreprise. Dans ces cas, vous pouvez désactiver l’envoi de messages électroniques.
   
-Si vous désactivez envoi de courriers électroniques, messages électroniques de conférence Audio ne seront pas envoyées à vos utilisateurs, y compris pour les messages électroniques lorsque les utilisateurs sont activés ou désactivés pour l’audioconférence, leur code confidentiel est réinitialisé et modifications numéros de téléphone de l’ID de conférence et la conférence par défaut .
+Si vous désactivez l’envoi de courriers électroniques, les messages électroniques de l’audioconférence ne seront envoyés à vos utilisateurs, y compris les messages électroniques pour lesquels les utilisateurs sont activés ou désactivés pour les conférences audio, lorsque leur code confidentiel est réinitialisé et lorsque l’ID de conférence et le numéro de téléphone de la Conférence par défaut changent. .
   
-Voici un exemple du courrier électronique qui est envoyé aux utilisateurs lorsqu’ils sont activés pour une audioconférence :
+Voici un exemple de message électronique envoyé aux utilisateurs lorsqu’ils sont activés pour les conférences audio:
   
-![Conférence audio par courrier électronique](../images/audio-conferencing-user-enabled.png)
+![Messagerie de l’audioconférence](../images/audio-conferencing-user-enabled.png)
   
 ## <a name="when-are-emails-being-sent-to-your-users"></a>Quand les messages électroniques sont-ils envoyés à vos utilisateurs ?
 
-- Il existe plusieurs messages électroniques envoyés aux utilisateurs de votre organisation une fois qu’ils sont activés pour les conférences audio :
+- Plusieurs messages électroniques sont envoyés aux utilisateurs de votre organisation après leur activation pour l’audioconférence:
     
-  - Lorsqu’une licence de **Conférence Audio** est attribuée.
+  - Lorsqu’une licence de **conférence audio** leur est affectée.
     
-  - Lorsque vous réinitialisez manuellement code confidentiel de conférence audio de l’utilisateur.
+  - Lorsque vous réinitialisez manuellement le code confidentiel de l’audioconférence de l’utilisateur.
     
   - Lorsque vous réinitialisez manuellement l'ID de conférence de l'utilisateur.
     
-  - Lorsque la licence de **Conférence Audio** est supprimée à partir de celles-ci.
+  - Lorsque la licence de **conférence audio** y est supprimée.
     
-  - Lorsque le fournisseur de services d’audioconférence d’un utilisateur est modifié à partir de Microsoft vers un autre fournisseur ou **Aucun**.
+  - Lorsque le fournisseur de services d’audioconférence d’un utilisateur est passé de Microsoft à un autre fournisseur ou à **aucun**.
     
-  - Lorsque le fournisseur de services d’audioconférence d’un utilisateur est remplacé par Microsoft.
+  - Lorsque Microsoft est remplacé par le fournisseur de services d’audioconférence d’un utilisateur.
 
 
-## <a name="enable-or-disable-email-from-being-sent-to-users"></a>Activer ou désactiver la messagerie d’être envoyés aux utilisateurs
+## <a name="enable-or-disable-email-from-being-sent-to-users"></a>Activation ou désactivation de l’envoi de messages électroniques aux utilisateurs
 
-Vous pouvez utiliser la Skype entreprise centre d’administration ou de Windows PowerShell pour activer ou désactiver le courrier envoyé aux utilisateurs.
+Vous pouvez utiliser le centre d’administration Skype entreprise ou Windows PowerShell pour activer ou désactiver les messages envoyés aux utilisateurs.
 
  
-![SFB-logo-30x30.png](../images/sfb-logo-30x30.png) **à l’aide de la Skype entreprise centre d’administration**
+![SFB-logo-30x30. png](../images/sfb-logo-30x30.png) **à l’aide du centre d’administration Skype entreprise**
     
-1. Dans la **Skype entreprise centre d’administration**, dans la navigation de gauche, cliquez sur **conférence Audio**.
+1. Dans le **Centre d’administration de Skype entreprise**, dans le volet de navigation de gauche, cliquez sur **audioconférence**.
     
 2. Dans la page des **paramètres de pont Microsoft**, activez ou désactivez **Envoyer automatiquement des messages électroniques aux utilisateurs si leurs paramètres d’audioconférence ont été modifiés**.
     
 3. Cliquez sur **Enregistrer**.
     
     > [!TIP]
-    > Vous pouvez également envoyer des e-mail à un utilisateur avec les paramètres de conférence audio en accédant à la **conférence Audio** > **les utilisateurs**, sélectionnez l’utilisateur, puis cliquez sur **Envoyer les informations de conférence par courrier électronique**.  Si vous le faites, un message électronique sera envoyé qui inclut uniquement les ID de conférence et numéro de téléphone de conférence, mais pas le code confidentiel.  Pour plus d’informations, voir [Envoyer un message électronique à un utilisateur avec leurs informations de conférence Audio](send-an-email-to-a-user-with-their-dial-in-information.md) .
+    > Vous pouvez également envoyer un courrier électronique à un utilisateur avec les paramètres de l’audioconférence en accédant aux**utilisateurs**de l' **audioconférence** > , en sélectionnant l’utilisateur, puis en cliquant sur **Envoyer les informations sur la Conférence par courrier électronique**.  Dans ce cas, un message électronique est envoyé, qui inclut l’ID de conférence et le numéro de téléphone de la Conférence, mais pas le code confidentiel.  Pour plus d’informations, voir [Envoyer un courrier électronique à un utilisateur avec ses informations de conférence audio](send-an-email-to-a-user-with-their-dial-in-information.md) .
   
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 **Reportez-vous à la rubrique **Envoyer un message électronique à un utilisateur avec leurs informations de conférence Audio**.**
   
-- Exécutez la procédure suivante pour désactiver l’envoi de messages électroniques : 
+- Pour désactiver l’envoi de courriers électroniques, exécutez la commande suivante: 
     
   ```
   Set-CsOnlineDialInConferencingTenantSetting -AutomaticallySendEmailsToUsers $false
   ```
 
-    Pour une assistance avec cette cmdlet, voir [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=715757).
+    Pour obtenir de l’aide sur cette cmdlet, voir [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=715757).
     
 ## <a name="what-else-should-you-know"></a>Informations supplémentaires
 
-- Lorsque les messages électroniques automatiques sont désactivées, vous pouvez manuellement déclencher l’envoi d’un message électronique avec le numéro de téléphone et les ID de conférence à l’aide de la Skype pour le centre d’administration de Business. Toutefois, si vous faites cela, le code confidentiel ne sera inclus. Si vous souhaitez réinitialiser le code confidentiel de conférence audio et l’envoi d’e-mails est désactivé, vous devrez envoyer à l’utilisateur d’une autre manière.
+- Lorsque les messages électroniques automatiques sont désactivés, vous pouvez toujours déclencher manuellement l’envoi d’un courrier électronique contenant l’ID de la Conférence et le numéro de téléphone à l’aide du centre d’administration Skype entreprise. Toutefois, le code confidentiel n’est pas inclus. Si vous souhaitez réinitialiser le code confidentiel de l’audioconférence et que l’envoi des courriers électroniques est désactivé, vous devez l’envoyer à l’utilisateur d’une autre manière.
     
 - L'envoi de courrier électronique à vos utilisateurs peut être désactivé à l'aide du Centre d'administration Skype Entreprise ou de Windows PowerShell.
     
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Comment utiliser Windows PowerShell pour gérer cette fonction ?
 
-- Vous pouvez utiliser ces applets de commande pour gagner du temps ou d’automatiser cette action.
+- Vous pouvez utiliser ces applets pour gagner du temps ou automatiser cette opération.
     
   - [Get-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=715760)
     
@@ -110,7 +110,7 @@ Vous pouvez utiliser la Skype entreprise centre d’administration ou de Windows
     
   - [Meilleurs moyens de gérer Office 365 avec Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell présente de nombreux avantages dans vitesse, la simplicité et la productivité sur qu’à l’aide du centre d’administration Office 365, tels que lorsque vous devez apporter des modifications de paramètre pour de nombreux utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes : 
+- Windows PowerShell dispose de nombreux avantages de la vitesse, de la simplicité et de la productivité par le biais du centre d’administration Office 365, par exemple, lorsque vous apportez des modifications à un grand nombre d’utilisateurs à la fois. Découvrez ces avantages dans les rubriques suivantes : 
     
   - [Présentation de Windows PowerShell et Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
@@ -123,7 +123,7 @@ Vous pouvez utiliser la Skype entreprise centre d’administration ou de Windows
   
 ## <a name="related-topics"></a>Voir aussi
 
-[Messages électroniques envoyés aux utilisateurs lorsque modifient leurs paramètres de conférence Audio](emails-sent-to-users-when-their-settings-change.md)
+[Courriers électroniques envoyés aux utilisateurs en cas de modification de leurs paramètres de conférence audio](emails-sent-to-users-when-their-settings-change.md)
 
 [Envoyer un message électronique à un utilisateur avec leurs informations de conférence Audio](send-an-email-to-a-user-with-their-dial-in-information.md)
 

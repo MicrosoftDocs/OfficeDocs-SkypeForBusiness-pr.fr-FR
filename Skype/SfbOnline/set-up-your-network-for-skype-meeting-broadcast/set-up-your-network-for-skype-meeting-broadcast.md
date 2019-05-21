@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -18,32 +18,32 @@ f1keywords: None
 ms.custom:
 - SMB
 description: Learn about the Skype Meeting Broadcast feature of Skype for Business Online that enables you to schedule, produce, and broadcast meetings or events to large online audiences up to 10,000 attendees.
-ms.openlocfilehash: b29ec51ddcb672f6727f7bc43958872962245ebb
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f9a85a1f64f88b55d99c7a27694a46b7ea885849
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226161"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34301287"
 ---
 # <a name="set-up-your-network-for-skype-meeting-broadcast"></a>Configurer votre réseau pour la Diffusion de réunion Skype
 
-Après avoir [Activer la diffusion de réunion Skype](enable-skype-meeting-broadcast.md) de diffusion de réunion Skype, vous devez configurer votre réseau. Effectuez cette étape si vous souhaitez bloquer les conférences Web et autres diffusions pour les personnes à l’extérieur de votre entreprise.
+Après l' [activation](enable-skype-meeting-broadcast.md) de la diffusion de réunion Skype, vous devez configurer votre réseau. Cette étape permet de mettre en avant des webinaires et d’autres émissions pour des personnes extérieures à votre entreprise.
 
 Si vous n'avez pas l'habitude de configurer votre pare-feu, envisagez de demander l'aide d'un [partenaire Microsoft](https://go.microsoft.com/fwlink/?linkid=391089) pour effectuer cette étape pour vous.
 
-Pour ignorer cette étape et l’ajouter à la place une autre entreprise de votre fédération afin que vous pouvez les inviter à diffusions, suivez les étapes de [Autoriser les utilisateurs à contacts Skype externe pour les utilisateurs professionnels](../set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md).
+Pour ignorer cette étape et ajouter une autre entreprise à votre Fédération pour pouvoir inviter celles-ci à être diffusées, suivez les étapes de la rubrique [autoriser les utilisateurs à contacter des utilisateurs Skype entreprise externes](../set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md).
 
-## <a name="step-1-set-up-allowed-domains"></a>Étape 1 : Configurer des domaines autorisés
+## <a name="step-1-set-up-allowed-domains"></a>Étape 1: configurer les domaines autorisés
 
-Utilisez l' **une** des méthodes suivantes pour configurer des domaines autorisés :
+Pour configurer des domaines autorisés, utilisez l' **une** des méthodes suivantes:
 
 ## #
 
- **Méthode 1 : Utiliser le centre d’administration Office 365**
+ **Méthode 1: utiliser le centre d’administration Office 365**
 
-1. Accédez au **Centre d’administration Office 365** et puis, dans la navigation de gauche, cliquez sur **paramètres** > **Services &amp; compléments**, puis choisissez **Skype pour les entreprises**.
+1. Accédez au **Centre d’administration Office 365** , puis, dans le volet de navigation de gauche, cliquez sur **paramètres** > des**compléments services &amp; **, puis sélectionnez **Skype entreprise**.
 
-2. Dans la page **partage externe** sous **exceptions du domaine**, sélectionnez **tous les domaines bloqués à l’exception**, puis entrez les domaines suivants, séparés par une virgule (,) :
+2. Dans la page **partage externe** , sous **exceptions de domaine**, sélectionnez **tous les domaines sont bloqués à l’exception**de, puis entrez les domaines suivants, en les séparant par une virgule (,):
 
    - noammeetings.lync.com
 
@@ -57,9 +57,9 @@ Utilisez l' **une** des méthodes suivantes pour configurer des domaines autoris
 
 ## #
 
- **Méthode 2 : Utiliser Windows PowerShell**
+ **Méthode 2: utiliser Windows PowerShell**
 
-- Dans le **Menu Démarrer**, avec le bouton droit de **Windows PowerShell** , cliquez sur **Exécuter en tant qu’administrateur**. In the **Windows PowerShell** window, type each line and press Enter.
+- Dans le **menu Démarrer**, cliquez avec le bouton droit sur **Windows PowerShell** , puis cliquez sur **exécuter en tant qu’administrateur**. In the **Windows PowerShell** window, type each line and press Enter.
 
   ```
   $r = New-CsEdgeDomainPattern -Domain "noammeetings.lync.com"
@@ -85,15 +85,15 @@ Utilisez l' **une** des méthodes suivantes pour configurer des domaines autoris
   Set-CsTenantFederationConfiguration -AllowedDomains $newAllowList
   ```
 
-## <a name="step-2-add-skype-meeting-broadcast-domains-urls-and-ip-addresses"></a>Étape 2 : Ajout de diffusion réunion Skype, les URL et les domaines IP adresses
+## <a name="step-2-add-skype-meeting-broadcast-domains-urls-and-ip-addresses"></a>Étape 2: ajouter des domaines, des URL et des adresses IP pour la diffusion de réunion Skype
 
-La deuxième étape du processus d’installation est vous permet d’ajouter des domaines qui sont nécessaires, puis ajoutez des adresses IP et les URL qui sont requis pour la diffusion de réunion Skype travailler.
+La deuxième étape du processus de configuration consiste à ajouter d’abord les domaines nécessaires, puis à ajouter des adresses IP et des URL requises pour le bon fonctionnement de la diffusion de réunion Skype.
 
-- **Ajouter le Skype requis pour les URL de point de terminaison Business en ligne et les adresses IP en consultant la rubrique celles qui sont requises** [ici](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_lyo).
+- **Ajoutez les URL et adresses IP de points de terminaison Skype entreprise Online requises en vérifiant lesquelles sont nécessaires** . [ici](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_lyo).
 
 ## <a name="set-up-skype-meeting-broadcast-in-hybrid-deployments-and-organizations"></a>Configurer la diffusion de réunion Skype dans les déploiements et les organisations hybrides
 
-Si vous avez un Skype pour l’organisation d’entreprise en ligne et d’un déploiement local de Lync Server 2010, Microsoft Lync Server 2013 et Skype pour Business Server 2015 et avez des utilisateurs à la fois en ligne et sur site, il existe des autres étapes de configuration que vous devrez faire dans Outre celles ci-dessus pour permettre à votre organisation locale communiquer avec Skype pour Business Online et permettre à tous vos utilisateurs à participer à une réunion Skype de diffusion. Pour voir quelles sont les conditions requises, voir [configuration de votre déploiement sur site de diffusion de réunion Skype](https://go.microsoft.com/fwlink/?LinkId=617070).
+Si vous disposez d’une organisation Skype entreprise Online et d’un déploiement local de Lync Server 2010, Microsoft Lync Server 2013 et de Skype entreprise Server 2015 et que les utilisateurs sont connectés et en local, vous devez effectuer les opérations suivantes. vous pouvez également accéder à ces éléments pour permettre à votre organisation locale de communiquer avec Skype entreprise Online et de permettre aux utilisateurs de participer à une diffusion de réunion Skype. Pour connaître la configuration requise, reportez-vous à [la section configurer votre déploiement local pour la diffusion de réunion Skype](https://go.microsoft.com/fwlink/?LinkId=617070).
 
 ## <a name="related-topics"></a>Voir aussi
 

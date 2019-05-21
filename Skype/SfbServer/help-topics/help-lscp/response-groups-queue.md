@@ -5,30 +5,30 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.RgsQueueMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 29bde940-6107-494f-9bee-b6ebfa135e41
-description: Groupes de réponses se composent des groupes d’agents, files d’attente et flux de travail. Files d’attente les appels vers un groupe de réponse jusqu'à ce qu’un agent répond à l’appel.
-ms.openlocfilehash: 6d3e5aa506fc00de9da4b4063ad41ae7ed233273
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Les groupes de réponse sont des groupes d’agents, des files d’attente et des flux de travail. Les files d’attente de groupe de réponse contiennent les appels d’un groupe de réponse tant qu’un agent ne répond pas à l’appel.
+ms.openlocfilehash: d1cfc4a1913c1d7f9cd54086108eb161a57db2cf
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33925045"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291729"
 ---
 # <a name="response-groups-queue"></a>File d’attente de groupes Response Groups
 
-Groupes de réponses se composent des groupes d’agents, files d’attente et flux de travail. Files d’attente les appels vers un groupe de réponse jusqu'à ce qu’un agent répond à l’appel.
+Les groupes de réponse sont des groupes d’agents, des files d’attente et des flux de travail. Les files d’attente de groupe de réponse contiennent les appels d’un groupe de réponse tant qu’un agent ne répond pas à l’appel.
 
-Les **Groupes de réponses** - page**file d’attente** affiche une liste de toutes les files d’attente de Response Group sont définies pour votre organisation.
+La page de la**file d’attente** de **groupes** - de réponse affiche la liste de toutes les files d’attente de groupe de réponses définies pour votre organisation.
 
 ## <a name="tasks-you-can-perform"></a>Tâches que vous pouvez effectuer
 
-Vous pouvez effectuer les tâches suivantes dans les **Groupes de réponses** - page**file d’attente** :
+Vous pouvez effectuer les tâches suivantes à partir de la page de la**file d’attente** de **groupes** - de réponse:
 
 - Créer une nouvelle file d’attente
 
@@ -40,20 +40,20 @@ Vous pouvez effectuer les tâches suivantes dans les **Groupes de réponses** - 
 
 La liste ci-dessous décrit les commandes de la page.
 
-- **Nouveau** Démarre une nouvelle file d’attente.
+- **Nouvelle** Démarre une nouvelle file d’attente.
 
-- **Modifier** Ouvre la file d’attente sélectionnée pour le modifier, sélectionne toutes les files d’attente dans la liste ou supprime la file d’attente sélectionnée.
+- **Modifier** Ouvre la file d’attente sélectionnée pour la modifier, sélectionne toutes les files d’attente de la liste ou supprime la file d’attente sélectionnée.
 
 - **Actualiser** Actualise la liste des files d’attente.
 
 La liste ci-dessous décrit les champs de la page.
 
-- **Nom** Nom unique qui identifie la file d’attente.
+- **Nom** Nom unique identifiant la file d’attente.
 
-- **Service** Le service **ApplicationServer** qui héberge la file d’attente.
+- **Service (service** ) Service **ApplicationServer** qui héberge la file d’attente.
 
-- **Description** La description de la file d’attente.
+- **Description** Description de la file d’attente.
 
-Pour plus d’informations sur les fonctionnalités de Response Group, consultez [planification de l’application Response Group dans Skype pour Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/response-group.md) dans la documentation de planification. Pour plus d’informations sur l’utilisation des files d’attente Response Group, voir [Managing Response Group Queues](https://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) dans la documentation des opérations.
+Pour plus d’informations sur les fonctionnalités et les fonctionnalités des groupes de réponse, voir [planifier l’application Response Group dans Skype entreprise Server 2015](../../plan-your-deployment/enterprise-voice-solution/response-group.md) dans la documentation de planification. Pour plus d’informations sur l’utilisation des files d’attente de groupe de réponse, voir [gestion des files d’attente de groupes de réponses](https://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) dans la documentation des opérations.
 
 

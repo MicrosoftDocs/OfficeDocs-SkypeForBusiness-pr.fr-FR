@@ -5,28 +5,28 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/26/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.BranchOfficeAppliancesScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8117b88a-0a34-4bf4-b1dd-ded72b5c9c18
-description: 'Le nœud Survivable Branch Appliances répertorie le Survivable Branch Appliances sur ce site de succursale. Vous pouvez effectuer l’action suivante :'
-ms.openlocfilehash: 4bd42b6132e9949b054479c06633833be5602c67
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Le nœud de l’appareil de branchement Survivable recense les appareils de branchement Survivables dans ce site de succursale. Vous pouvez effectuer l’action suivante :'
+ms.openlocfilehash: 7c11020092cec8afb612b8628cdeda8526a9070a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33911825"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34301532"
 ---
 # <a name="branch-office-appliances-scope-node"></a>Nœud d’étendue des Branch Office Appliance
  
-Le nœud **Survivable Branch Appliances** répertorie le Survivable Branch Appliances sur ce site de succursale. Vous pouvez effectuer l’action suivante :
+Le nœud de l' **appareil de branchement Survivable** recense les appareils de branchement survivables dans ce site de succursale. Vous pouvez effectuer l’action suivante :
   
-- **Nouveau Survivable Branch Appliance** Démarre l’Assistant **Définir nouveau Survivable Branch Appliance** , qui vous permet d’ajouter un nouveau Survivable Branch Appliance à ce site.
+- **Nouveau Survivable Branch Appliance** Démarre l’Assistant Création d’une **nouvelle application de branche Survivable** qui vous permet d’ajouter une nouvelle application de branchement sur ce site.
     
-Outre l’option Survivable Branch Appliance, vous pouvez effectuer les tâches générales suivantes :
+Outre l’option d’appareil de branchement survivant, vous pouvez effectuer les tâches générales suivantes:
   
 - **Topologie** : vous pouvez utiliser cette option pour définir une nouvelle topologie, ouvrir une topologie existante, télécharger la topologie actuelle, enregistrer une copie de la topologie, publier la topologie, installer une base de données, fusionner des composants des versions antérieures ou supprimer le déploiement.
     

@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/8/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AssociateFrontEndWithWacPage
@@ -13,22 +13,22 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49dc1a92-970b-4372-a3a2-2c714a52b1c3
 description: Le serveur Office Web Apps Server fournit des services similaires au téléchargement d’un document par un présentateur, qui sera utilisé lors d’une réunion, et comporte des fonctions supplémentaires qui n’existaient pas dans les versions antérieures.
-ms.openlocfilehash: 763078a2f936cc15542ab2068d20058eb30bd7de
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3d8f42b7e4954e8f4adc472bac18c4c9e26758a0
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33925017"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34301700"
 ---
 # <a name="associate-front-end-with-office-web-apps-server-page"></a>Page Associer un pool frontal à Office Web Apps Server
 
 Le serveur Office Web Apps Server fournit des services similaires au téléchargement d’un document par un présentateur, qui sera utilisé lors d’une réunion, et comporte des fonctions supplémentaires qui n’existaient pas dans les versions antérieures.
 
-Vous sélectionnez un serveur Office Web Apps Server pour votre déploiement si vous avez choisi conférence comme un de vos options de fonctionnalités pour votre Skype pour la configuration de Business Server 2015.
+Vous pouvez sélectionner un serveur Office Web Apps pour votre déploiement si vous avez choisi l’option conférences de conférences comme option de votre configuration de Skype entreprise Server 2015.
 
 Les options de cette boîte de dialogue proposent les choix suivants :
 
-1. **Associer un pool avec un serveur Office Web Apps Server** - vous activez cette case à cocher si vous fournissez et déployer un serveur Office Web Apps Server pour vos utilisateurs de conférence.
+1. **Associer un pool à un serveur Office Web Apps** -activez cette case à cocher si vous allez fournir et déployer un serveur Office Web Apps pour les utilisateurs de la Conférence.
 
 2. Si vous avez activé cette case à cocher, vous utilisez la liste pour sélectionner un serveur Office Web Apps Server déjà défini.
 

@@ -1,37 +1,37 @@
 ---
-title: Table FileTransfers dans Skype pour Business Server 2015
+title: Table FileTransfers dans Skype entreprise Server 2015
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 7/15/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5368e67c-d8a9-43a1-9472-a839950dedb3
-description: Chaque enregistrement représente une session de transfert de fichier.
-ms.openlocfilehash: 2d249cb303bca7726a8c666bc8b906841be5ce1d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Chaque enregistrement représente une session de transfert de fichiers.
+ms.openlocfilehash: ada437eacfa9a532a4875c3ce1837ccd9d8aed17
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33901058"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34296251"
 ---
-# <a name="filetransfers-table-in-skype-for-business-server-2015"></a>Table FileTransfers dans Skype pour Business Server 2015
+# <a name="filetransfers-table-in-skype-for-business-server-2015"></a>Table FileTransfers dans Skype entreprise Server 2015
  
-Chaque enregistrement représente une session de transfert de fichier.
+Chaque enregistrement représente une session de transfert de fichiers.
   
 |**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
 |:-----|:-----|:-----|:-----|
-|**SessionIdTime** <br/> |DateHeure  <br/> |Primaire, étrangère  <br/> |Heure de la demande de session. Utilisé en conjonction avec **SessionIdSeq** pour identifier de manière unique une session. Consultez le [tableau dans Skype pour Business Server 2015 des boîtes de dialogue](dialogs.md) pour plus d’informations. <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |Primaire, étrangère  <br/> |Numéro d’identification pour identifier la session. Utilisé conjointement avec **SessionIdTime** pour identifier de manière unique une session. Consultez le [tableau dans Skype pour Business Server 2015 des boîtes de dialogue](dialogs.md) pour plus d’informations. <br/> |
+|**SessionIdTime** <br/> |DateHeure  <br/> |Etranger principal  <br/> |Durée de la demande de session. Utilisé conjointement avec **SessionIdSeq** pour identifier une session de manière unique. Pour plus d’informations, voir le [tableau des boîtes de dialogue dans Skype entreprise Server 2015](dialogs.md) . <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |Etranger principal  <br/> |IDENTIFIant de la session. Utilisé conjointement avec **SessionIdTime** pour identifier une session de manière unique. Pour plus d’informations, voir le [tableau des boîtes de dialogue dans Skype entreprise Server 2015](dialogs.md) . <br/> |
 |**Nom de fichier** <br/> |nvarchar(256)  <br/> ||Nom du fichier.  <br/> |
-|**FileIdentity** <br/> |uniqueidentifier  <br/> ||Identificateur unique pour distinguer les transferts de fichiers impliquant le même nom de fichier.  <br/> |
-|**Cookie** <br/> |nvarchar (128)  <br/> |Principal  <br/> |Utilisé pour identifier chaque message de suivi comme étant associé à celle-ci.  <br/> |
-|**Accepter** <br/> |bit  <br/> ||Peut avoir la valeur TRUE ou NULL. Si TRUE, refuser et annuler sera NULL.  <br/> |
-|**Rejeter** <br/> |bit  <br/> ||Peut avoir la valeur TRUE ou NULL. Si la valeur TRUE, puis accepter et annuler sera NULL.  <br/> |
-|**Annuler** <br/> |bit  <br/> ||Peut avoir la valeur TRUE ou NULL. Si la valeur TRUE, puis accepter et rejeter sera NULL.  <br/> |
-|**Heure de dernière modification** <br/> |DateTime  <br/> ||Pour une utilisation interne par le service de surveillance.  <br/> Ce champ est une nouveauté dans Skype pour Business Server 2015.  <br/> |
+|**FileIdentity** <br/> |identificateur  <br/> ||Identificateur unique permettant de faire la distinction entre les transferts de fichiers impliquant le même nom de fichier.  <br/> |
+|**Sans** <br/> |nvarchar(128  <br/> |Principal  <br/> |Permet de détecter chaque message de suivi associé à celui-ci.  <br/> |
+|**Valide** <br/> |bit  <br/> ||Peut être vrai ou nul. Si vrai, l’argument refuser et annuler est nul.  <br/> |
+|**Rejeter** <br/> |bit  <br/> ||Peut être vrai ou nul. Si vrai, l’argument accepter et annuler est nul.  <br/> |
+|**Annuler** <br/> |bit  <br/> ||Peut être vrai ou nul. Si vrai, l’argument accepter et refuser est nul.  <br/> |
+|**LastModifiedTime** <br/> |Valeur  <br/> ||Pour une utilisation interne par le service de surveillance.  <br/> Ce champ a été présenté dans Skype entreprise Server 2015.  <br/> |
    
 

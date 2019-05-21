@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -22,29 +22,29 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: Cela vous permettra de savoir comment composer des numéros gratuits dans chaque pays/région. Une fois que vous sélectionnez la pays/région, il vous dirige vers une page spécifique qui contient des détails plus spécifiques, les restrictions et les limites de la disponibilité du service gratuit où service gratuit est disponible. Le format de numérotation ou formats affichera les codes d’accès requis dans chaque pays/région de composer le numéro d’appel gratuit.
-ms.openlocfilehash: 78f24b217fab280337da258fcbf463044ad60e7f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Vous pourrez ainsi découvrir comment composer un numéro gratuit dans chaque pays ou région. Lorsque vous sélectionnez le pays ou la région, vous êtes dirigé vers une page qui contient des détails, restrictions et limites spécifiques pour la disponibilité du service gratuit où le service gratuit est disponible. Le ou les formats de numérotation vous montrent les codes d’accès requis au sein de chaque pays/région pour composer le numéro gratuit.
+ms.openlocfilehash: ac3aeffd4626f395b39f35f0f5e24d40ba205c49
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32223248"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34301517"
 ---
 # <a name="toll-free-dialing-restrictions-in-portugal"></a>Restrictions de numérotation gratuit au Portugal
 
-[Trouver un autre pays ou région](../toll-free-dialing-limitations-and-restrictions.md), ou en savoir plus sur les restrictions et les limitations de composer le numéro gratuit.
+[Recherchez un autre pays ou une autre région](../toll-free-dialing-limitations-and-restrictions.md)ou en savoir plus sur les limitations et restrictions de numérotation sans frais.
 
 
 |**Détails**|**Description**|
 |:-----|:-----|
-|Est gratuit appelant disponibles ?  <br/> |Oui  <br/> |
-|Formats de numérotation  <br/> |800 XXX XXX  <br/> |
-|Code de pays/région ISO  <br/> |PT  <br/> |
+|Est-ce que l’appel gratuit est disponible?  <br/> |Oui  <br/> |
+|Format (s) de numérotation  <br/> |800 XXX XXX  <br/> |
+|Code ISO pays/région  <br/> |PT  <br/> |
 |Île/territoire couvert  <br/> | Açores, Madère <br/> |
 |Île/territoire non couvert  <br/> |Non applicable  <br/> |
-|Disponibilité de la ligne filaire/fixe  <br/> |Oui  <br/> |
+|Disponibilité de ligne filaire/fixe  <br/> |Oui  <br/> |
 |Disponibilité de réseau mobile  <br/> |Oui. Disponible à tarif surtaxé  <br/> |
-|Commentaires, les restrictions et les problèmes d’accès  <br/> |Aucun  <br/> |
+|Commentaires, restrictions et problèmes d’accès  <br/> |Aucun  <br/> |
    
 ## <a name="related-topics"></a>Voir aussi
 

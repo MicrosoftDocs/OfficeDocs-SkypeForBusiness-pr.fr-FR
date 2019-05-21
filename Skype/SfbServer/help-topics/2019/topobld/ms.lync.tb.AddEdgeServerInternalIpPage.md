@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AddEdgeServerInternalIpPage
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 13485e9d-190e-4ece-b997-1cbf45aae77c
 ROBOTS: NOINDEX, NOFOLLOW
 description: L’adresse IP interne est l’adresse IP de l’interface interne du serveur Edge.
-ms.openlocfilehash: 237ca4e6c37e746c0f364223156abced2f08ed84
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: be2f0dcaa4c05387fd84348c5e8e10a6708e14fa
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33889072"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34303745"
 ---
 # <a name="add-edge-server-internal-ip"></a>Ajouter l’adresse IP interne du serveur Edge
 

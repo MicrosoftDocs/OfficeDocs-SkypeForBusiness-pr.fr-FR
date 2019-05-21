@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
@@ -21,37 +21,37 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: "En tant qu’administrateur d’Office 365, vous pouvez modifier les paramètres d’audioconférence Microsoft Teams tels que le fournisseur, le numéro payant ou gratuit par défaut, l’ID de conférence ou le code confidentiel d'un utilisateur dans votre organisation. "
-ms.openlocfilehash: 55d9b326b98dd24cb98262b7104e7de1361a6e8e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: af5329d495303b33b3fe6b86db47b33ca5efce09
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32202697"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34292094"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-microsoft-teams"></a>Gérer les paramètres d'audioconférence d'un utilisateur dans Microsoft Teams
 
-En tant qu’administrateur Office 365, vous pouvez modifier les paramètres d’Audioconférence, tels que le fournisseur, le numéro payant ou gratuit par défaut, l’identifiant de conférence ou le code confidentiel — pour un utilisateur individuel dans votre organisation. Si vous souhaitez modifier les paramètres de votre organisation, voir [Gérer les paramètres de conférence Audio pour votre organisation](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md).
+En tant qu’administrateur Office 365, vous pouvez modifier les paramètres d’Audioconférence, tels que le fournisseur, le numéro payant ou gratuit par défaut, l’identifiant de conférence ou le code confidentiel — pour un utilisateur individuel dans votre organisation. Pour modifier les paramètres de votre organisation, reportez-vous à [la section gérer les paramètres de conférence audio de votre organisation](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md).
 
-## <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![les équipes-logo-30x30.png](media/teams-logo-30x30.png) À l’aide du centre d’administration Microsoft Teams
+## <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![teams-logo-30x30. png](media/teams-logo-30x30.png) Utilisation du centre d’administration Microsoft teams
 
-1. Dans la navigation de gauche, cliquez sur **utilisateurs**, puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
+1. Dans le volet de navigation de gauche, cliquez sur **utilisateurs**, puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
 
-2. Cliquez sur **Modifier**.
+2. Cliquez sur **modifier**.
 
-3. Sous l' **Audioconférence**, modifiez une des options suivantes :
+3. Sous **audioconférence**, modifiez l’une des options suivantes:
 
 |**Paramètre**|**Description**|
 |:-----|:-----|
-|**Audioconférence**|Pour activer la fonction d’audioconférence ou désactivé pour l’utilisateur, cliquez sur **Modifier** en regard de **Services d’audioconférence**, puis dans le volet de **Services d’audioconférence** , activer ou désactiver **l’audioconférence** .|
-|**Envoyer les informations de conférence dans le message électronique**  |Cliquez sur ce lien uniquement si vous souhaitez envoyer immédiatement un message électronique à l’utilisateur avec son identifiant de conférence et son numéro de téléphone. (Ce message n’inclut pas le code confidentiel). Voir [Envoyer un message électronique à un utilisateur avec ses informations d’audioconférence](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md).  |
-|**ID de conférence**  |Si vous souhaitez réinitialiser l’ID de conférence pour l’utilisateur, cliquez sur **Réinitialiser l’ID de conférence** . Pour plus d’informations, consultez la rubrique [Réinitialiser un identifiant de conférence pour un utilisateur](reset-a-conference-id-for-a-user-in-teams.md).  |
-|**épingler** |Si vous devez réinitialiser le code confidentiel de l’utilisateur, cliquez sur **Réinitialiser le code confidentiel** . Pour plus d’informations, consultez la rubrique [Réinitialiser le code confidentiel d’audioconférence](reset-the-audio-conferencing-pin-in-teams.md). |
-|**Par défaut le numéro de téléphone de conférence** (requis) |Il s’agit de numéros qui sont définies sur le pont de conférence audio. Mettre en forme les numéros que vous le souhaitez les voir apparaître dans Skype pour les demandes de réunion Business et Teams Microsoft. Pour modifier le numéro par défaut, cliquez sur **Modifier** en regard de **Conférence Audio** et dans le volet de **Conférence Audio** , sélectionnez un numéro de **numéro de téléphone payant**. |
-|**Invitations de cet utilisateur peuvent inclure le numéro d’appel gratuit**|Pour modifier ce paramètre, cliquez sur **Modifier** en regard de **Conférence Audio** et dans le volet de **Conférence Audio** , activer ou désactiver **l’inclure les numéros gratuits dans les demandes de cet utilisateur de réunion** . |
-|**Les utilisateurs non authentifiés peuvent être la première personne de la réunion**|Pour modifier ce paramètre, **les utilisateurs non authentifiés peuvent être la première personne de la réunion** sur Afficher ou masquer.
-|**Autorisations d’appel sortant**|Pour modifier ce paramètre, cliquez sur **Modifier** en regard de **Conférence Audio** et dans le volet de **Conférence Audio** , sélectionnez une option sous **appels sortants à partir de réunions**.|
+|**Audioconférence**|Pour activer ou désactiver la fonctionnalité d’audioconférence pour l’utilisateur, cliquez sur **modifier** en regard de **audioconférence**, puis dans le volet **audioconférence** , activez ou désactivez l’option **conférence audio** .|
+|**Envoyer les informations sur la Conférence par courrier électronique**  |Cliquez sur ce lien uniquement si vous souhaitez envoyer immédiatement un message électronique à l’utilisateur avec son identifiant de conférence et son numéro de téléphone. (Ce message n’inclut pas le code confidentiel). Voir [Envoyer un message électronique à un utilisateur avec ses informations d’audioconférence](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md).  |
+|**ID de conférence**  |Cliquez sur réinitialisation de l' **ID de conférence** si vous devez réinitialiser l’ID de conférence de l’utilisateur. Pour plus d’informations, consultez la rubrique [Réinitialiser un identifiant de conférence pour un utilisateur](reset-a-conference-id-for-a-user-in-teams.md).  |
+|**ÉPINGL** |Cliquez sur **Réinitialiser le code confidentiel** si vous avez besoin de réinitialiser le code confidentiel de l’utilisateur. Pour plus d’informations, consultez la rubrique [Réinitialiser le code confidentiel d’audioconférence](reset-the-audio-conferencing-pin-in-teams.md). |
+|**Numéro de téléphone payant de la Conférence par défaut** obligé |Il s’agit des numéros définis dans le pont de conférence audio. Mettez en forme les numéros comme vous voulez qu’ils apparaissent dans les demandes de réunion Skype entreprise et Microsoft Teams. Pour modifier le numéro payant par défaut, cliquez sur **modifier** en regard de **audioconférence** et dans le volet **audioconférence** , sélectionnez un numéro sous **numéro**de téléphone. |
+|**Les invitations de cet utilisateur peuvent inclure un numéro gratuit**|Pour modifier ce paramètre, cliquez sur **modifier** en regard de l’option **audioconférence** et dans le volet **audioconférence** , activez ou désactivez les cases à copointr **dans les demandes de réunion de la part de cet utilisateur** . |
+|**Les utilisateurs non authentifiés peuvent être la première personne de la réunion.**|Pour modifier ce paramètre, faites basculer les **utilisateurs non authentifiés peuvent être la première personne de la réunion** .
+|**Autorisations de numérotation**|Pour modifier ce paramètre, cliquez sur **modifier** en regard de **audioconférence** et dans le volet **audioconférence** , choisissez une option sous **appel sortant pour les réunions**.|
 
-![Affiche les paramètres de conférence Audio pour un utilisateur](media/teams-manage-audio-conferencing-settings-for-a-user-image1.png)
+![Affiche les paramètres de l’audioconférence pour un utilisateur](media/teams-manage-audio-conferencing-settings-for-a-user-image1.png)
  
 
 > [!Note]

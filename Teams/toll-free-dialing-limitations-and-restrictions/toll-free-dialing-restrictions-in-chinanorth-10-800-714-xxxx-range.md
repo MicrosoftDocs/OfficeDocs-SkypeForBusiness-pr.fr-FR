@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -22,29 +22,29 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: Cela vous permettra de savoir comment composer des numéros gratuits dans chaque pays/région. Une fois que vous sélectionnez la pays/région, il vous dirige vers une page spécifique qui contient des détails plus spécifiques, les restrictions et les limites de la disponibilité du service gratuit où service gratuit est disponible. Le format de numérotation ou formats affichera les codes d’accès requis dans chaque pays/région de composer le numéro d’appel gratuit.
-ms.openlocfilehash: 43858c9cae7754e41bffe7245d5add010ae9deca
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Vous pourrez ainsi découvrir comment composer un numéro gratuit dans chaque pays ou région. Lorsque vous sélectionnez le pays ou la région, vous êtes dirigé vers une page qui contient des détails, restrictions et limites spécifiques pour la disponibilité du service gratuit où le service gratuit est disponible. Le ou les formats de numérotation vous montrent les codes d’accès requis au sein de chaque pays/région pour composer le numéro gratuit.
+ms.openlocfilehash: db8794dc10c0401039399cc95cbbe26527b82176
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32223415"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34300808"
 ---
 # <a name="toll-free-dialing-restrictions-in-china---north-10-800-714-xxxx-range"></a>Restrictions de numérotation gratuit en Chine- Nord (plage(10 800 714 XXXX) 
 
-[Trouver un autre pays ou région](../toll-free-dialing-limitations-and-restrictions.md), ou en savoir plus sur les restrictions et les limitations de composer le numéro gratuit.
+[Recherchez un autre pays ou une autre région](../toll-free-dialing-limitations-and-restrictions.md)ou en savoir plus sur les limitations et restrictions de numérotation sans frais.
 
 
 |**Détails**|**Description**|
 |:-----|:-----|
-|Est gratuit appelant disponibles ?  <br/> |Oui  <br/> |
-|Formats de numérotation  <br/> |10 800 714 XXXX  <br/> |
-|Code de pays/région ISO  <br/> |CN  <br/> |
+|Est-ce que l’appel gratuit est disponible?  <br/> |Oui  <br/> |
+|Format (s) de numérotation  <br/> |10 800 714 XXXX  <br/> |
+|Code ISO pays/région  <br/> |CN  <br/> |
 |Île/territoire couvert  <br/> |Nord de la Chine/Réseau China Netcom uniquement  <br/> |
 |Île/territoire non couvert  <br/> |Sud de la Chine  <br/> |
-|Disponibilité de la ligne filaire/fixe  <br/> |Via China Netcom uniquement  <br/> |
+|Disponibilité de ligne filaire/fixe  <br/> |Via China Netcom uniquement  <br/> |
 |Disponibilité de réseau mobile  <br/> |Non  <br/> |
-|Commentaires, les restrictions et les problèmes d’accès  <br/> |Inaccessible à partir d'une cabine téléphonique  <br/> |
+|Commentaires, restrictions et problèmes d’accès  <br/> |Inaccessible à partir d'une cabine téléphonique  <br/> |
    
 ## <a name="related-topics"></a>Voir aussi
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)

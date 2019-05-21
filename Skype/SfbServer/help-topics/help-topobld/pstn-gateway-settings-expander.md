@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/26/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.PstnGatewaySettingsExpander
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0fd103df-150d-4ea8-b522-18dbc50f5061
 description: 'Pour modifier les paramètres d’une passerelle réseau téléphonique commuté (RTC), modifiez les champs suivants :'
-ms.openlocfilehash: ae9afbdd69bd719ea42064d23923d3737683d85c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d84cede93166a94b353134991143089702a0d2fd
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33910538"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289867"
 ---
 # <a name="pstn-gateway-settings-expander"></a>Expanseur des paramètres de la passerelle PSTN
  
@@ -30,6 +30,6 @@ Le protocole de transport SIP est le protocole  TCP (Transmission Control Prot
   
 Choisissez d’activer IPv4 et IPv6 pour la passerelle.
   
-L' **adresse IP média de remplacement** est une définition pour le serveur de médiation pour lequel la passerelle RTC déployée a une adresse IP différente pour le trafic multimédia à l’adresse IP configurée par défaut, qui est généralement dédié pour le trafic SIP. Si vous définissez ce paramètre, la passerelle RTC prend en charge une interface réseau ou un chemin d’accès aux médias différent. Si cette adresse n’est pas renseignée, la passerelle RTC ne prend pas en charge un autre chemin d’accès des médias.
+L' **adresse IP de remplacement** peut être une définition du serveur de médiation pour lequel la passerelle RTC déployée a une adresse IP différente pour le trafic multimédia et l’adresse IP configurée par défaut, qui est généralement dédiée au trafic SIP. Si vous définissez ce paramètre, la passerelle RTC prend en charge une interface réseau ou un chemin d’accès aux médias différent. Si cette adresse n’est pas renseignée, la passerelle RTC ne prend pas en charge un autre chemin d’accès des médias.
   
 

@@ -4,33 +4,33 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 71f5d0a0-ca81-4ac1-b590-8f854504f21f
-description: 'Résumé : Lisez cette rubrique pour savoir comment mettre à niveau des statistiques de gestionnaire de Skype pour Business Server.'
-ms.openlocfilehash: 1349d3e67481b2f0dd8c354c01b70a33969ed51d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Résumé: cette rubrique vous explique comment mettre à niveau le gestionnaire de statistiques pour Skype entreprise Server.'
+ms.openlocfilehash: 70826776e9dfacdef75c7084a9aba6f4eede940a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33906717"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299722"
 ---
 # <a name="upgrade-statistics-manager-for-skype-for-business-server"></a>Mise à niveau du gestionnaire de statistiques pour Skype Entreprise Server
  
-**Résumé :** Lisez cette rubrique pour savoir comment mettre à niveau des statistiques de gestionnaire de Skype pour Business Server.
+**Résumé:** Pour plus d’informations sur la mise à niveau du gestionnaire de statistiques pour Skype entreprise Server, voir la rubrique.
   
-Cette rubrique décrit comment mettre à niveau une installation existante du Gestionnaire de statistiques de Skype pour Business Server, un outil puissant qui vous permet d’afficher Skype pour les données de performances et d’intégrité Business Server en temps réel. Vous pouvez interroger les données de performances sur des centaines de serveurs à des intervalles de quelques secondes et afficher les résultats instantanément sur le site Web de Gestionnaire de Statistiques. 
+Cette rubrique décrit la mise à niveau d’une installation de Statistics Manager pour Skype entreprise Server, un outil puissant qui vous permet d’afficher les données d’intégrité et de performances de Skype entreprise Server en temps réel. Vous pouvez interroger les données de performances sur des centaines de serveurs à des intervalles de quelques secondes et afficher les résultats instantanément sur le site Web de Gestionnaire de Statistiques. 
   
-Pour plus d’informations sur les statistiques Manager et les nouvelles fonctionnalités dans la version 2.0, voir [Planifier pour le Gestionnaire de statistiques de Skype pour Business Server](plan.md) et [Déployer des statistiques responsable Skype pour Business Server](deploy.md).
+Pour plus d’informations sur le gestionnaire de statistiques et les nouvelles fonctionnalités dans la version 2,0, voir [plan pour le gestionnaire de statistiques pour Skype entreprise Server](plan.md) et [déploiement de statistiques pour Skype entreprise Server](deploy.md).
   
 Il existe deux méthodes de mise à niveau :
   
-- **Mise à niveau automatique.** Cette méthode utilise un script automatisé. Il est la méthode la plus simple et s’applique à tous les scénarios de mise à niveau.
+- **Mise à niveau automatique.** Cette méthode utilise un script automatisé. Il s’agit de la méthode la plus simple qui s’applique à tous les scénarios de mise à niveau.
     
-- **Mise à niveau manuelle.** Cette méthode est fournie en tant qu’un plan de sauvegarde dans le cas inhabituel qui échoue la mise à niveau automatisée.
+- **Mise à niveau manuelle.** Cette méthode est fournie en tant que plan de sauvegarde dans le cas où la mise à niveau automatisée échoue.
     
 ## <a name="prerequisites"></a>Conditions requises
 
@@ -46,7 +46,7 @@ Avant d’effectuer la mise à niveau, assurez-vous de disposer des informations
 
 Le script collecte les informations concernant votre certificat actuel ainsi que le mot de passe de l’écouteur et désinstalle l’ancienne version du produit avant d’installer la nouvelle. L’instance Redis installée sur le serveur n’en est pas affectée, de sorte que toutes les données stockées dans la mémoire cache sont conservées pendant le processus de mise à niveau.
   
-1. Placez les fichiers MSI pour la nouvelle version de l’agent, le port d’écoute et le site Web ainsi que le script de mise à jour-StatsMan.ps1 dans un seul dossier sur l’ordinateur du port d’écoute.
+1. Placez les fichiers MSI pour la nouvelle version de l’agent, de l’écouteur et du site Web, ainsi que le script Update-StatsMan. ps1 dans un dossier unique de l’ordinateur écouteur.
     
 2. Ouvrez une fenêtre d’administration PowerShell. Mettez à niveau l’écouteur :
     
@@ -55,11 +55,11 @@ Le script collecte les informations concernant votre certificat actuel ainsi que
    ```
 
 > [!NOTE]
-> Le mot de passe du service Gestionnaire de statistiques s’affichera en texte clair sur la ligne de commande, comme il est passé pour le programme d’installation. Par conséquent, assurez-vous de protéger convenablement votre moniteur. 
+> Le mot de passe du service Gestionnaire de statistiques est affiché en clair sur la ligne de commande au fur et à mesure qu’il est transmis au programme d’installation. Par conséquent, assurez-vous de protéger convenablement votre moniteur. 
   
 1. Lors de l’exécution du script, une invite vous demande si vous souhaitez désinstaller l’ancienne version du produit. Répondez Oui.
     
-2. Si le service d’écoute est en cours d’exécution, vous serez invité à fermer l’application avant de poursuivre. Autoriser l’application à fermer (le Gestionnaire de statistiques de port d’écoute service va s’arrêter).
+2. Si le service d’écoute est en cours d’exécution, vous serez invité à fermer l’application avant de poursuivre. Autoriser la fermeture de l’application (le service d’écouteur du gestionnaire de statistiques sera arrêté).
     
 3. Continuez le processus d’installation. Normalement, le mot de passe du service et l’empreinte numérique du certificat sont déjà renseignés. Si ce n’est pas le cas, ajoutez les valeurs que vous avez enregistrées avant de poursuivre.
     

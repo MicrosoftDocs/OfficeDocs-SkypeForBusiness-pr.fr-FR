@@ -5,30 +5,30 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/23/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.ClientCVPolicyMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4f84bc0f-e1df-4acb-b8ef-57f165b0153b
-description: Vous pouvez spécifier la version des clients pris en charge dans votre environnement. Quand deux clients exécutant des versions distinctes interagissent, les fonctionnalités disponibles pour l’un des clients peuvent être restreintes par les fonctions de l’autre client. Pour utiliser plus de fonctionnalités incluses dans Skype pour Business Server 2015 et pour améliorer l’expérience utilisateur globale, vous pouvez utiliser le filtre de version du client pour limiter les versions du client qui sont utilisées dans votre environnement. Le filtre de version du client vous permet également de réduire les coûts associés à la prise en charge de différentes versions du client.
-ms.openlocfilehash: 6398c833609f799935148a4dab39810d46f178eb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Vous pouvez spécifier la version des clients pris en charge dans votre environnement. Quand deux clients exécutant des versions distinctes interagissent, les fonctionnalités disponibles pour l’un des clients peuvent être restreintes par les fonctions de l’autre client. Pour tirer le meilleur parti des fonctionnalités incluses dans Skype entreprise Server 2015 et améliorer l’environnement utilisateur global, vous pouvez utiliser le filtre de version de client pour restreindre les versions de client utilisées dans votre environnement. Le filtre de version du client vous permet également de réduire les coûts associés à la prise en charge de différentes versions du client.
+ms.openlocfilehash: 50687531fe9622240b8caeb75a61c3ac705fe84a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33887243"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34300006"
 ---
 # <a name="client-version-policy"></a>Stratégie de version du client
 
-Vous pouvez spécifier la version des clients pris en charge dans votre environnement. Quand deux clients exécutant des versions distinctes interagissent, les fonctionnalités disponibles pour l’un des clients peuvent être restreintes par les fonctions de l’autre client. Pour utiliser plus de fonctionnalités incluses dans Skype pour Business Server 2015 et pour améliorer l’expérience utilisateur globale, vous pouvez utiliser le filtre de version du client pour limiter les versions du client qui sont utilisées dans votre environnement. Le filtre de version du client vous permet également de réduire les coûts associés à la prise en charge de différentes versions du client.
+Vous pouvez spécifier la version des clients pris en charge dans votre environnement. Quand deux clients exécutant des versions distinctes interagissent, les fonctionnalités disponibles pour l’un des clients peuvent être restreintes par les fonctions de l’autre client. Pour tirer le meilleur parti des fonctionnalités incluses dans Skype entreprise Server 2015 et améliorer l’environnement utilisateur global, vous pouvez utiliser le filtre de version de client pour restreindre les versions de client utilisées dans votre environnement. Le filtre de version du client vous permet également de réduire les coûts associés à la prise en charge de différentes versions du client.
 
 ## <a name="tasks-you-can-perform"></a>Tâches que vous pouvez effectuer
 
 Dans la page **Stratégie de version du client**, vous pouvez effectuer les tâches suivantes :
 
-- Modifier la stratégie de version du client par défaut ( **Global**).
+- Modifiez la stratégie de version du client par défaut ( **Global**).
 
 - Création des stratégies de version du client pour un site ou un pool particulier
 
@@ -41,7 +41,7 @@ Dans la page **Stratégie de version du client**, vous pouvez effectuer les tâc
 
 Les listes ci-dessous décrivent les menus, les commandes, les champs et les propriétés de la page.
 
-- **Nouveau** Vous pouvez créer une ou plusieurs des stratégies de version des clients suivants :
+- **Nouvelle** Vous pouvez créer une ou plusieurs des stratégies de version de client suivantes:
 
   - Stratégie de site
 
@@ -49,15 +49,15 @@ Les listes ci-dessous décrivent les menus, les commandes, les champs et les pro
 
   - Stratégie utilisateur
 
-- **Modifier** Vous pouvez modifier les options d’une des stratégies de version des clients. Utilisez cette option, vous pouvez procédez comme suit :
+- **Modifier** Vous pouvez modifier les options de n’importe quelle stratégie de version du client. Cette option vous permet d’effectuer les opérations suivantes:
 
-  - **Afficher les détails** Cette option ouvre une boîte de dialogue dans laquelle vous pouvez modifier les options pour une stratégie de version du client.
+  - **Afficher les détails** Cette option ouvre une boîte de dialogue dans laquelle vous pouvez modifier les options pour une stratégie de version de client.
 
-  - **Sélectionner tout** Cette option sélectionne toutes les stratégies de version de client dans la liste.
+  - **Tout sélectionner** Cette option sélectionne toutes les stratégies de version de client dans la liste.
 
-  - **Supprimer** Cette option supprime toutes les stratégies de version de client sélectionnée.
+  - **Supprimer** Cette option supprime toutes les stratégies de version de client sélectionnées.
 
-- **Actualiser** Vous pouvez actualiser la liste de stratégie de version de client pour vérifier le statut des options de toutes les stratégies de version du client.
+- **Actualiser** Vous pouvez actualiser la liste des stratégies de version de client pour vérifier l’état des options de toutes les stratégies de version de client.
 
 Pour plus d’informations sur l’interopérabilité entre les clients et les versions des clients, reportez-vous à la rubrique [Client Interoperability in Lync 2013 Preview](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) de la documentation de planification. Pour plus d’informations sur l’utilisation des stratégies de version du client, reportez-vous à la rubrique[Specify the Client Versions Supported in Your Organization](https://technet.microsoft.com/library/d256a581-9a48-4d1a-82cc-2e1f520d7d2e.aspx) de la documentation des opérations.
 

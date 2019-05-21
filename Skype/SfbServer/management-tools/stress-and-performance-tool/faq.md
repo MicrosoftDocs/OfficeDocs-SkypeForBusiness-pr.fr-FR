@@ -1,72 +1,72 @@
 ---
-title: Forum aux questions concernant la Skype pour Business Server 2015 Stress and Performance Tool
+title: FAQ sur l’outil de stress et de performances de Skype entreprise Server 2015
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 ms.date: 11/11/2015
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ce18db60-5f6b-423d-bc41-91e7c80fb7e3
-description: Skype pour Business 2015 Stress and Performance Tool Forum aux questions (FAQ), utiles pour découvrir les configurations de l’outil sont pris en charge, outil de dépannage et clarifier les comportements que vous pouvez rencontrer lors de l’exécution des outils de Stress and Performance .
-ms.openlocfilehash: 604644d5aecb12f94304d1c7ce271c68208e1964
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Outil de stress et de performance 2015 de Skype entreprise, des questions fréquemment posées (FAQ), qui vous permettent de découvrir les configurations d’outils prises en charge, les problèmes liés aux outils de résolution des problèmes et les comportements de clarification qui peuvent apparaître lors de l’utilisation des outils de stress et de performance .
+ms.openlocfilehash: 36bb3e05751bd69b747d84fa563347b29362ddd9
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33906745"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299708"
 ---
-# <a name="faq-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Forum aux questions concernant la Skype pour Business Server 2015 Stress and Performance Tool
+# <a name="faq-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>FAQ sur l’outil de stress et de performances de Skype entreprise Server 2015
  
-Skype pour Business 2015 Stress and Performance Tool Forum aux questions (FAQ), utiles pour découvrir les configurations de l’outil sont pris en charge, outil de dépannage et clarifier les comportements que vous pouvez rencontrer lors de l’exécution des outils de Stress and Performance .
+Outil de stress et de performance 2015 de Skype entreprise, des questions fréquemment posées (FAQ), qui vous permettent de découvrir les configurations d’outils prises en charge, les problèmes liés aux outils de résolution des problèmes et les comportements de clarification qui peuvent apparaître lors de l’utilisation des outils de stress et de performance .
   
- Cette Foire aux questions décrit certaines des questions fréquemment posées sur la Skype pour Business Server 2015 Stress and Performance tool et pouvant vous aider à la résolution des problèmes et l’outil de choix de configuration.
+ Ce Forum aux questions décrit certaines des questions les plus fréquemment posées sur l’outil de stress et de performance de Skype entreprise Server 2015 et permet de résoudre les problèmes liés aux options de configuration de l’outil.
   
-## <a name="can-i-run-lyncperftoolexe-in-production"></a>Puis-je exécuter LyncPerfTool.exe en production ?
+## <a name="can-i-run-lyncperftoolexe-in-production"></a>Est-il possible d’exécuter LyncPerfTool. exe en production?
 
-Il n’est **pas** recommandée. L’outil aurait un impact sur les performances de votre serveur de production, la sécurité et l’expérience utilisateur final.
+Cette opération n’est **pas** recommandée. L’outil aura un impact sur les performances de votre serveur de production, la sécurité et l’utilisation de l’utilisateur final.
   
-## <a name="im-logging-my-users-on-for-the-first-time-why-are-my-servers-running-a-high-load"></a>Je suis session mes utilisateurs pour la première fois. Pourquoi mes serveurs exécutent une charge élevée ?
+## <a name="im-logging-my-users-on-for-the-first-time-why-are-my-servers-running-a-high-load"></a>J’enregistre mes utilisateurs pour la première fois. Pourquoi mon serveur fonctionne-t-il en charge?
 
-La première fois qu’ils ouvrent une session, effectuer les opérations supplémentaires en arrière-plan. Par conséquent, les performances sur le Microsoft SQL Server le serveur principal peuvent se dégrader. Il est recommandé que vous exécutez un test court qui se connecte sur tous vos utilisateurs et puis redémarrez les ordinateurs clients avant de commencer à mesurer les résultats avec l’outil. Skype pour Business Server ne prend en charge plus de 12 ouvertures de sessions utilisateur simultanées par seconde, mais sachez le nombre réel qui peut être géré par vos serveurs dépend de votre configuration matérielle et peut être inférieur à la valeur pris en charge.
+La première fois que les utilisateurs se connectent, des opérations supplémentaires se produisent en arrière-plan. Par conséquent, les performances du serveur principal Microsoft SQL Server peuvent être détériorées. Il est recommandé d’effectuer un test de courte durée de connexion à tous vos utilisateurs, puis de redémarrer les clients avant de commencer à mesurer les résultats avec l’outil. Skype entreprise Server ne prend pas en charge plus de 12 sessions d’ouverture de session simultanées par seconde, mais n’oubliez pas que le nombre réel qui peut être géré par vos serveurs dépend de votre configuration matérielle et peut être inférieur à la valeur prise en charge.
   
-## <a name="my-clients-are-running-out-of-memory-what-should-i-do"></a>Mes clients exécutent mémoire insuffisante ! Que dois-je faire ?
+## <a name="my-clients-are-running-out-of-memory-what-should-i-do"></a>Ma mémoire est insuffisante pour vos clients. Que dois-je faire?
 
-Si les clients exécutent mémoire insuffisante, vous devez réduire le nombre d’utilisateurs connectés par Skype pour Business Server un pool frontal. Vous pouvez également choisir à l’échelle avant pools frontaux si le problème est persistant.
+Si les clients manquent de mémoire, vous devez réduire le nombre d’utilisateurs connectés dans le pool frontal Skype entreprise Server. Si le problème persiste, vous pouvez également choisir de mettre à l’échelle les listes frontales.
   
-## <a name="can-i-run-this-tool-on-a-skype-for-business-server-itself"></a>Puis-je exécuter cet outil sur un Skype pour Business server, lui-même ?
+## <a name="can-i-run-this-tool-on-a-skype-for-business-server-itself"></a>Est-il possible d’exécuter cet outil sur un serveur Skype entreprise?
 
-Vous ne devez pas le faire. Ce scénario n’est pas pris en charge, car il peut échouer en raison d’une incompatibilité binaire et également, car l’objectif est de mesurer la consommation des ressources sur le serveur. Réellement il exécutant l’outil aurait un impact sur les performances du serveur et invalider vos données et les mesures.
+Ce n’est pas le cas. Ce scénario n’est pas pris en charge, car il peut échouer en raison d’une incompatibilité binaire, et en raison du fait que l’objectif est de mesurer la consommation de ressources sur le serveur. L’exécution de l’outil est réellement susceptible d’influer sur les performances du serveur et d’invalidité de vos données et de vos mesures.
   
-## <a name="can-i-run-lyncperftoolexe-on-a-virtual-server-or-on-microsoft-hyper-v-server-20082012"></a>Puis-je exécuter LyncPerfTool.exe sur un serveur virtuel ou sur Microsoft Hyper-V Server 2008/2012 ?
+## <a name="can-i-run-lyncperftoolexe-on-a-virtual-server-or-on-microsoft-hyper-v-server-20082012"></a>Est-il possible d’exécuter LyncPerfTool. exe sur un serveur virtuel ou sur Microsoft Hyper-V Server 2008/2012?
 
 Si, tu peux.
   
-## <a name="what-does-mpop-mean"></a>Que signifie MPOP ?
+## <a name="what-does-mpop-mean"></a>Qu’est-ce que MPOP?
 
-MPOP constitue un moyen raccourci de dire « plusieurs points de présence ». MPOP est conçu pour simuler des scénarios où utilisateurs sont connectés à Skype pour Business 2015 client à partir de plusieurs ordinateurs ou périphériques. Sachez que, dans LyncPerfTool.exe, chaque point de terminaison utilise le profil par défaut. En d’autres termes, le profil n’est pas partagé entre deux points de présence.
+MPOP est un moyen raccourci de dire «plusieurs points de présence». MPOP est conçu pour simuler des scénarios où les utilisateurs sont connectés au client Skype entreprise 2015 à partir de plusieurs machines ou périphériques. Sachez que, dans LyncPerfTool. exe, chaque point de terminaison utilise le profil par défaut. En d’autres termes, le profil n’est pas fractionné entre deux points de présence.
   
-## <a name="i-started-lyncperftoolexe-but-nothing-is-happening-whats-going-on"></a>J’ai commencé LyncPerfTool.exe mais rien ne se passe. Que se passe-t-il ?
+## <a name="i-started-lyncperftoolexe-but-nothing-is-happening-whats-going-on"></a>J’ai démarré LyncPerfTool. exe, mais rien ne se passe. Que se passe-t-il?
 
-Vérifiez le compteur de points de terminaison actifs totale sur les serveurs pour voir si les utilisateurs se connectent. Si les utilisateurs ne sont pas se connecter, vérifiez votre Skype pour la configuration de Business Server 2015. Le problème que vous voyez généralement se produit parce que le nom du serveur, préfixe d’utilisateur ou mot de passe est incorrect. Notez que les clients externes doivent spécifier des valeurs de Proxy d’accès et TargetServer. Vérifiez le numéro de port dans le fichier de configuration.
+Vérifiez le compteur total de points de terminaison actifs sur les serveurs pour voir si les utilisateurs se connectent. Si les utilisateurs ne se connectent pas, vérifiez votre configuration de Skype entreprise Server 2015. Le problème que vous rencontrez est généralement dû au fait qu’un nom de serveur, préfixe d’utilisateur ou mot de passe est incorrect. Notez que les clients externes doivent spécifier des valeurs de proxy d’accès et de TargetServer. Vérifiez le numéro de port dans le fichier de configuration.
   
-## <a name="how-can-i-be-sure-that-something-is-being-measured"></a>Comment puis-je être sûr que quelque chose est mesurée ?
+## <a name="how-can-i-be-sure-that-something-is-being-measured"></a>Comment être sûr d’une mesure?
 
-Il existe des compteurs de performance LyncPerfTool qui indiquent si les utilisateurs sont connectent et les actions qui s’exécute, mais la plus simple pour vous assurer que les actions sont mesurées consiste à se connecter à un des comptes avec un Skype pour client Business 2015 et ceux actions vous-même. Vérifiez les résultats pour vérifier des mesures ont été effectuées.
+Il existe d’LyncPerfTool compteurs de performance qui indiquent si des utilisateurs se connectent et exécutent des actions, mais la méthode la plus simple pour vérifier que les actions sont évaluées consiste à vous connecter à l’un des comptes avec un client Skype entreprise 2015 et à effectuer ces opérations. actions vous-même. Vérifiez les résultats pour vérifier les mesures effectuées.
   
-## <a name="i-have-lync-server-2010-capacity-planning-tools-andor-lync-server-2013-capacity-planning-tools-installed-is-that-okay"></a>Je dispose des outils de planification Lync Server 2010 Capacity et/ou de planification de la capacité de Lync Server 2013 outils sont installés. Est qu’OK ?
+## <a name="i-have-lync-server-2010-capacity-planning-tools-andor-lync-server-2013-capacity-planning-tools-installed-is-that-okay"></a>J’ai installé les outils de planification de capacité de Lync Server 2010 et/ou les outils de planification de capacité de Lync Server 2013. C’est tout!
 
- Ces outils présentent des problèmes d’interopérabilité ! Vous devez désinstaller toutes les versions antérieures de ces outils pour obtenir des données valides la Skype pour Business Server Stress 2015 et outil de performances.
+ Ces outils présentent des problèmes d’interopérabilité. Vous devez désinstaller toutes les versions précédentes de ces outils pour obtenir des données valides dans l’outil de stress et de performances de Skype entreprise Server 2015.
   
-## <a name="will-the-stress-and-performance-tools-set-up-the-caa-call-information-server-topology"></a>Les outils de Stress and Performance définira la topologie de serveur informations d’appels CAA ?
+## <a name="will-the-stress-and-performance-tools-set-up-the-caa-call-information-server-topology"></a>Les outils de stress et de performance configureront-ils la topologie du serveur des informations d’appel CAA?
 
-Non, les outils ne sont pas cela. Les outils créent uniquement des utilisateurs, contacts et listes de distribution, pour simuler la charge utilisateur.
+Non, ce n’est pas le cas pour les outils. Les outils créent uniquement des utilisateurs, des contacts et des listes de distribution pour simuler la charge des utilisateurs.
   
-## <a name="what-is-the-maximum-number-of-users-that-the-tools-support"></a>Quel est le nombre maximal d’utilisateurs qui prennent en charge par les outils ?
+## <a name="what-is-the-maximum-number-of-users-that-the-tools-support"></a>Quel est le nombre maximal d’utilisateurs pris en charge par les outils?
 
-Lors des tests, nous avons créé un maximum de 80 000 utilisateurs et exécuter des tests total de 30 000 utilisateurs qui exécute ces outils. Nous vous suggérons un maximum de 120 000 utilisateurs, bien que les limitations techniques permettant une plus élevés. N’oubliez pas que ces valeurs dépendent sur le serveur et le matériel dans votre environnement.
+Lors de l’évaluation, nous avons créé jusqu’à un total d’utilisateurs 80 000, et réalisé des tests de totalisation des utilisateurs 30 000 qui exécutent ces outils. Nous vous suggérons d’utiliser un maximum de 120 000 utilisateurs, même si les limitations techniques autorisent une plus grande valeur. N’oubliez pas que ces valeurs dépendent du serveur et du matériel de votre environnement.
   
 

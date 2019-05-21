@@ -1,33 +1,33 @@
 ---
-title: (Facultatif) Vérifier le déploiement de parcage d’appel dans Skype pour les entreprises
+title: Facultatif Vérifier le déploiement du parc d’appels dans Skype entreprise
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: fcfe0962-1a9c-4cbd-847c-fed40e3b1480
-description: Vérification de votre déploiement du parcage d’appel dans Skype pour Business Server Enterprise Voice.
-ms.openlocfilehash: da53d351acef3eb2fc7fcc1b59e24a83d0cb2495
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Vérifier votre déploiement du parc d’appels dans Skype entreprise Server Voice.
+ms.openlocfilehash: 94d230491c0207c05016545de3c45cf0582ca496
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894667"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34292842"
 ---
-# <a name="optional-verify-call-park-deployment-in-skype-for-business"></a>(Facultatif) Vérifier le déploiement de parcage d’appel dans Skype pour les entreprises
+# <a name="optional-verify-call-park-deployment-in-skype-for-business"></a>Facultatif Vérifier le déploiement du parc d’appels dans Skype entreprise
  
-Vérification de votre déploiement du parcage d’appel dans Skype pour Business Server Enterprise Voice. 
+Vérifier votre déploiement du parc d’appels dans Skype entreprise Server Voice. 
   
-Une fois que vous installez et configurez la mise en garde d’appels, vous devez vérifier la configuration pour vous assurer que le Parcage et récupération des appels fonctionnent comme prévu. Vérifiez au minimum les éléments suivants :
+Après l’installation et la configuration du parc d’appels, vous devez vérifier la configuration pour vous assurer que le parking et la récupération des appels fonctionnent comme prévu. Vérifiez au minimum les éléments suivants :
   
-- Appelez un utilisateur qui a activé le parcage d’appel et demandez-lui de parquer l’appel.
+- Appeler un utilisateur dont le parc d’appels est activé et demander à l’utilisateur d’appeler l’appel.
     
     > [!NOTE]
-    > Si vous avez activé parcage d’appel à la stratégie de voix juste avant d’effectuer ce test, l’utilisateur qui est parcage l’appel doit vous déconnecter de Skype pour les entreprises et reconnectez-vous, pour être en mesure de voir l’option de parcage d’appel dans le transfert de liste d’appels. 
+    > Si vous avez activé le parc d’appels dans la politique vocale avant d’effectuer ce test, l’utilisateur qui travaille en stationnement doit se déconnecter de Skype entreprise, puis se reconnecter pour pouvoir voir l’option de transfert d’appel dans la liste transférer l’appel. 
   
 - Composez le numéro orbite pour récupérer l’appel.
     

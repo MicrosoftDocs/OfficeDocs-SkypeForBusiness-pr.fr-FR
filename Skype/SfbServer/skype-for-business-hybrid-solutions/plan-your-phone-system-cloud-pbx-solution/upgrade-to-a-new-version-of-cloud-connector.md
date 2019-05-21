@@ -5,7 +5,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 11/15/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,67 +13,67 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: efbe25f2-faf5-41c7-8c95-dbc4a835a4a8
-description: Découvrez comment mettre à niveau votre déploiement en nuage connecteur Edition.
-ms.openlocfilehash: 5b3ca4b216bc376c9e23424fb978b5cd83e4aa41
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Découvrez comment mettre à niveau le déploiement de votre édition Cloud Connector.
+ms.openlocfilehash: c2613069f1626f8fc7e28b4fb5a246fc7647cf98
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32240661"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286626"
 ---
 # <a name="upgrade-to-a-new-version-of-cloud-connector"></a>Upgrade to a new version of Cloud Connector
  
-Découvrez comment mettre à niveau votre déploiement en nuage connecteur Edition.
+Découvrez comment mettre à niveau le déploiement de votre édition Cloud Connector.
   
 Si vous avez configuré un compte client de gestion en ligne et activé les mises à jour automatiques, votre déploiement existant de Skype Entreprise, version Cloud Connector sera mis à niveau vers la dernière version automatiquement, en fonction de votre configuration de fenêtre de délai de mise à jour automatique. Vous pouvez également effectuer manuellement la mise à niveau. 
   
-Versions de connecteur Edition 1.4.1 en nuage et ultérieurement effectuer des mises à jour automatiques par défaut. Si vous souhaitez mettre à niveau vers la dernière version (2.1) manuellement, voir [mettre à niveau un seul site vers une nouvelle version](upgrade-to-a-new-version-of-cloud-connector.md#BKMK_Upgrade) plus loin dans cette rubrique.
+Dans le Cloud Connector Edition 1.4.1 et versions ultérieures, les mises à jour automatiques sont exécutées par défaut. Si vous voulez effectuer une mise à niveau vers la dernière version (2,1) manuellement, voir [mettre à niveau un seul site vers une nouvelle version](upgrade-to-a-new-version-of-cloud-connector.md#BKMK_Upgrade) plus loin dans cette rubrique.
   
-Mise à jour automatique requiert que le service nuage connecteur est en cours d’exécution. Les étapes suivantes décrivent le processus de mise à jour automatiques :
+La mise à jour automatique nécessite le fonctionnement du service de connecteur Cloud. Les étapes suivantes décrivent le processus de mise à jour automatiques :
   
 - Le processus de mise à jour automatique fonctionnera en fonction de la planification que vous avez configurée pour les mises à jour automatiques.
     
 - Tâches de mise à jour du système d'exploitation
     
-  - Vérifier et télécharger des mises à jour du système d’exploitation sur tous les ordinateurs virtuels de connecteur dans le nuage. 
+  - Vérifier et télécharger les mises à jour du système d’exploitation sur tous les ordinateurs virtuels du Cloud Connector. 
     
-  - Installer et mettre à jour tous les ordinateurs dans le nuage connecteur virtuels un par un redémarrage.
+  - Installez et mettez à jour tous les ordinateurs virtuels Cloud Connector un par un, puis redémarrez.
     
-  - Après le redémarrage d’ordinateurs virtuels dans le nuage connecteur, vérifie si un autre redémarrage est nécessaire.
+  - Après le redémarrage des VM sur le Cloud Connector, vérifiez si un autre redémarrage est nécessaire.
     
-  - Après avoir des ordinateurs virtuels dans le nuage connecteur ont été correctement corrigés, répétez le processus pour l’ordinateur hôte de nuage connecteur.
+  - Une fois les ordinateurs virtuels du connecteur Cloud correctement corrigés, répétez le processus pour l’ordinateur hôte du Cloud Connector.
     
-  - Une fois que l’ordinateur hôte de nuage connecteur correctement démarre, des tâches de mise à jour de système d’exploitation en attente sont terminées.
+  - Une fois l’ordinateur hôte du connecteur Cloud démarré, toutes les tâches de mise à jour du système d’exploitation en attente sont effectuées.
     
-- Tâches de mise à jour de connecteur en nuage
+- Tâches de mise à jour de Cloud Connector
     
   - Téléchargez et vérifiez le fichier de version à partir du site de téléchargement.
     
   - Téléchargez le fichier .msi de la nouvelle version.  
     
-  - Désinstaller l’ancien fichier msi ; Installez le nouveau fichier msi.
+  - Désinstaller l’ancien fichier MSI; Installez le nouveau fichier msi.
     
-  - Téléchargez la nouvelle version de Skype pour bits de l’entreprise.
+  - Téléchargez la nouvelle version de Skype entreprise bits.
     
   - Enregistrez l’appliance en appelant Register-CcAppliance.
     
-  - Installer la nouvelle version de connecteur dans le nuage.
+  - Installez la nouvelle version Cloud Connector.
     
   - Nettoyez l’ancienne appliance puis basculez la connexion réseau vers la nouvelle appliance.
     
 > [!NOTE]
->  Lorsque nuage connecteur mises à jour vers une nouvelle version, cmdlets de connecteur de nuage ne peut pas mis à jour. Cela peut se produire, par exemple, si une fenêtre PowerShell reste ouverte pendant la mise à jour automatique. Pour charger les applets de commande mis à jour, vous pouvez effectuer une de la fermer PowerShell de > : étapes suivantes sur le matériel de nuage connecteur et puis rouvrez ou PowerShell.>, vous pouvez exécuter Import-Module CloudConnector-Force.
+>  Lors de la mise à jour d’un connecteur Cloud vers une nouvelle version, il est possible que les applets de construction Cloud Connector ne soient pas mises à jour. Cela peut se produire, par exemple, si une fenêtre PowerShell reste ouverte lors de la mise à jour automatique. Pour charger les applets de commande mises à jour, vous pouvez effectuer l’une des opérations suivantes: > Fermez PowerShell sur le périphérique Cloud Connector, puis rouvrez PowerShell. > ou vous pouvez exécuter import-module CloudConnector-force.
   
 ## <a name="upgrade-a-single-site-to-a-new-version"></a>Mise à niveau d’un site unique vers une nouvelle version
 <a name="BKMK_Upgrade"> </a>
 
 Si le site comporte un seul équipement que vous souhaitez mettre à niveau, procédez comme suit :
   
-1. Désinstaller la version existante de nuage connecteur dans **le panneau de configuration \> programmes \> programmes et fonctionnalités**.
+1. Désinstallez la version actuelle du connecteur Cloud dans programmes **et fonctionnalités du panneau de \> \> configuration**.
     
-2. Installer la nouvelle version de CloudConnector.msi de [https://aka.ms/CloudConnectorInstaller](https://aka.ms/CloudConnectorInstaller).
+2. Installez la nouvelle version de CloudConnector. msi à [https://aka.ms/CloudConnectorInstaller](https://aka.ms/CloudConnectorInstaller)partir de.
     
-3. Vérifiez que vous disposez du fichier CloudConnector.ini pour la version que vous installez et que les valeurs requises pour votre environnement sont mises à jour. Vous ne pouvez pas utiliser le fichier .ini d’une version précédente. Si vous mettez à niveau dans le nuage connecteur, reportez-vous à la rubrique [préparer votre solution de nuage connecteur](prepare-your-cloud-connector-appliance.md) et vérifiez SiteName et EnableReferSupport sont définies dans le fichier CloudConnector.ini à la valeur correcte.
+3. Vérifiez que vous disposez du fichier CloudConnector.ini pour la version que vous installez et que les valeurs requises pour votre environnement sont mises à jour. Vous ne pouvez pas utiliser le fichier .ini d’une version précédente. Si vous effectuez une mise à niveau vers le Cloud Connector, reportez-vous à la rubrique [préparer votre appareil de connexion Cloud](prepare-your-cloud-connector-appliance.md) et assurez-vous que SiteName et EnableReferSupport sont définis sur la valeur correcte dans le fichier CloudConnector. ini.
     
 4. Démarrez une console PowerShell en tant qu’administrateur et exécutez l’applet de commande suivante pour enregistrer l’appliance actuelle :
     
@@ -101,7 +101,7 @@ Si le site comporte un seul équipement que vous souhaitez mettre à niveau, pro
 
 Si le site comporte plusieurs équipements, suivez la procédure précédente pour les mettre à niveau l’un après l’autre.
   
-Si vous souhaitez mettre à jour d’administrateur de domaine, administrateur de l’ordinateur virtuel, administrateur en Mode sans échec et les informations d’identification administrateur client, vous pouvez exécuter l’applet de commande avec le paramètre _UpdateAllCredentials_ pour réinitialiser tous les informations d’identification :
+Si vous voulez mettre à jour les informations d’identification de l’administrateur de domaine, de l’administrateur de l’ordinateur virtuel, de l’administrateur du mode sans échec et de l’administrateur client, vous pouvez exécuter l’applet de connexion avec le paramètre _UpdateAllCredentials_ pour réinitialiser toutes les informations d’identification:
   
 ```
 Install-CcAppliance -UpdateAllCredentials

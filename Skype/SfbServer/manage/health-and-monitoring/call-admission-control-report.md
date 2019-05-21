@@ -1,25 +1,25 @@
 ---
-title: Appel de rapport de contrôle d’admission des appels dans Skype pour Business Server
+title: Rapport de contrôle d’admission des appels dans Skype entreprise Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ea4b0c9f-7f93-4b8a-b901-01e1636c44fb
-description: 'Résumé : Découvrez les rapports de contrôle de d’admission des appels utilisés dans Skype pour Business Server.'
-ms.openlocfilehash: f6f68e74c584496de0256b0fad8e2deae7dcc253
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Résumé: en savoir plus sur les rapports de contrôle d’admission des appels utilisés dans Skype entreprise Server.'
+ms.openlocfilehash: efa632aa4a7fb5793694363d958a31e8a066a9b5
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33902695"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289433"
 ---
-# <a name="call-admission-control-report-in-skype-for-business-server"></a>Appel de rapport de contrôle d’admission des appels dans Skype pour Business Server
+# <a name="call-admission-control-report-in-skype-for-business-server"></a>Rapport de contrôle d’admission des appels dans Skype entreprise Server
  
-**Résumé :** Découvrez les rapports de contrôle de d’admission des appels utilisés dans Skype pour Business Server.
+**Résumé:** En savoir plus sur les rapports de contrôle d’admission des appels utilisés dans Skype entreprise Server.
   
 Le rapport du contrôle d’admission des appels fournit des informations sur les sessions P2P et de conférence menées avec des restrictions mises en place par le contrôle d’admission des appels. Celui-ci offre la possibilité aux administrateurs d’autoriser (ou non) les sessions de communication en fonction des restrictions de bande passante. Par exemple, les administrateurs peuvent créer des stratégies qui imposent une quantité limite de bande passante disponible pour les appels vocaux et vidéo. Si cette limite est atteinte, aucun nouvel appel vocal ou vidéo ne peut être effectué tant que l’un des appels en cours n’est pas terminé et que les ressources réseau requises ne sont pas libérées.
   
@@ -27,9 +27,9 @@ Le rapport du contrôle d’admission des appels fournit des informations sur le
 
 Le rapport du contrôle d’admission des appels est accessible à partir de la page d’accueil des Rapports de suivi. De ce rapport, vous pouvez atteindre l’un des rapports suivants :
   
-- Rapport détaillé de conférence - pour accéder à ce rapport, cliquez sur la mesure détails à partir d’une session de conférence. 
+- Rapport Détails de la Conférence: pour accéder à ce rapport, cliquez sur la métrique détails d’une session de conférence. 
     
-- Rapport de détaillé de Session d’égal à égal - pour accéder à ce rapport, cliquez sur la mesure détails d’une session d’égal à égal.
+- Rapport détaillé de session d’égal à égal: pour accéder à ce rapport, cliquez sur la métrique détails pour une session d’égal à égal.
     
 ## <a name="making-the-best-use-of-the-call-admission-control-report"></a>Utilisation optimale du rapport du contrôle d’admission des appels
 
@@ -76,7 +76,7 @@ Le tableau ci-dessous répertorie les informations fournies par le rapport de co
 
 Le tableau ci-dessous répertorie les informations fournies par le rapport de contrôle d’admission des appels pour les sessions de conférence (c’est-à-dire, les sessions qui impliquent trois participants ou plus).
   
-**Mesures des Sessions de conférence**
+**Métriques pour les sessions de conférence**
 
 |**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|

@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.ConfMeetingPolicyMain
@@ -12,33 +12,33 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 90eaa64e-369e-448d-bac4-2574c7c598b8
 ROBOTS: NOINDEX, NOFOLLOW
-description: Stratégie de conférence définit les fonctionnalités dont disposent les utilisateurs pendant une conférence (également appelée réunion).
-ms.openlocfilehash: 7abd7e4081222fcf741ed7666d8062ea561a3eba
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: La stratégie de conférence définit les fonctionnalités que les utilisateurs peuvent utiliser pendant une conférence (également appelée réunion).
+ms.openlocfilehash: 1757af1665b3ee39bbc8a418c6372713e0af50ae
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33891592"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34300237"
 ---
 # <a name="conferencing-policy"></a>Stratégie de conférence
 
-Stratégie de conférence définit les fonctionnalités dont disposent les utilisateurs pendant une conférence (également appelée réunion).
+La stratégie de conférence définit les fonctionnalités que les utilisateurs peuvent utiliser pendant une conférence (également appelée réunion).
 
-Stratégies de conférence incluent la stratégie globale et, éventuellement, une ou plusieurs stratégies de site et utilisateur :
+Les stratégies de conférence incluent la stratégie globale et, si vous le souhaitez, une ou plusieurs stratégies de site et d’utilisateur:
 
-- **Stratégie globale :** La stratégie globale créée par défaut. Vous pouvez modifier la stratégie globale, mais vous ne pouvez pas le supprimer. Si vous essayez de supprimer la stratégie globale, tous les paramètres sont réinitialisées sur les valeurs par défaut.
+- **Politique globale:** La stratégie globale est créée par défaut. Vous pouvez modifier la stratégie globale sans pouvoir la supprimer. Si vous tentez de supprimer la stratégie globale, tous les paramètres sont réinitialisés aux valeurs par défaut.
 
-- **(Facultatifs) des stratégies de site :** Vous pouvez créer des stratégies de conférence site un ou plusieurs, chacun d'entre eux s’applique à un site spécifique. Stratégies de site remplacent la stratégie globale.
+- **Stratégies de site (facultatif):** Vous pouvez créer une ou plusieurs stratégies de conférences de site qui s’appliquent à un site spécifique. Les stratégies de site remplacent la stratégie globale.
 
-- **Stratégies utilisateur (facultatifs) :** Vous pouvez créer des stratégies de conférence utilisateur un ou plusieurs, chacun d'entre eux s’applique à un utilisateur spécifique ou un groupe d’utilisateurs. Remplacent les stratégies utilisateur la stratégie globale et les stratégies de site.
+- **Stratégies utilisateur (facultatif):** Vous pouvez créer une ou plusieurs stratégies de conférence utilisateur qui s’appliquent à un utilisateur ou à un groupe d’utilisateurs spécifiques. Les stratégies utilisateur remplacent la stratégie globale et les stratégies de site.
 
-La page **Stratégie de conférence** affiche une liste de toutes les stratégies de conférence qui sont définies pour votre organisation.
+La page **stratégie de conférence** affiche la liste de toutes les stratégies de conférence définies pour votre organisation.
 
 ## <a name="tasks-you-can-perform"></a>Tâches que vous pouvez effectuer
 
 Dans la page **Stratégie d’emplacement**, vous pouvez effectuer les tâches suivantes :
 
-- Créer une nouvelle stratégie de conférence de site ou d’une stratégie de conférence utilisateur
+- Créer une stratégie de conférence de sites ou une stratégie de conférence utilisateur
 
 - Modification de la stratégie globale, d’une stratégie de site ou d’une stratégie utilisateur existante
 
@@ -48,9 +48,9 @@ Dans la page **Stratégie d’emplacement**, vous pouvez effectuer les tâches s
 
 La liste ci-dessous décrit les commandes de la page.
 
-- **Nouveau** Démarre une nouvelle stratégie de conférence de site ou d’une stratégie de conférence utilisateur.
+- **Nouvelle** Démarre une nouvelle stratégie de conférence de sites ou une stratégie de conférence utilisateur.
 
-- **Modifier** Ouvre la stratégie de conférence sélectionnée pour le modifier, sélectionne toutes les stratégies de conférence dans la liste ou supprime la stratégie de site sélectionné ou utilisateur.
+- **Modifier** Permet d’ouvrir la stratégie de conférence sélectionnée et de la modifier, de sélectionner toutes les stratégies de conférence dans la liste, ou de supprimer la stratégie de site ou la stratégie d’utilisateur sélectionnée.
 
     > [!NOTE]
     > Pour la stratégie globale, l’option **Supprimer** restaure les valeurs par défaut des paramètres.
@@ -61,19 +61,19 @@ La liste ci-dessous décrit les champs de la page.
 
 - **Nom** Identifie la stratégie de conférence.
 
-- **Étendue** Identifie l’étendue de la stratégie de conférence : globale, site ou utilisateur.
+- **Scope** Identifie l’étendue de la stratégie de conférence: global, site ou utilisateur.
 
-- **Collaboration de données** Vérifiez si la stratégie de conférence Spécifie que la collaboration de données est autorisée dans les conférences.
+- **Collaboration** sur les données Activé si la stratégie de conférence spécifie que la collaboration de données est autorisée dans les conférences.
 
-- **Partage d’application** Vérifiez si la stratégie de conférence Spécifie que le partage d’application est autorisé dans les conférences.
+- **Partage d’application** Activé si la stratégie de conférence spécifie que le partage d’application est autorisé lors de conférences.
 
-- **Audio** Vérifiez si la stratégie de conférence Spécifie que la fonctionnalité audio est autorisée dans les conférences.
+- **Audio** Activé si la stratégie de conférence spécifie que le son est autorisé lors des conférences.
 
-- **Vidéo** Vérifiez si la stratégie de conférence Spécifie que la vidéo est autorisée dans les conférences.
+- **Vidéo** Activé si la stratégie de conférence spécifie que la vidéo est autorisée dans les conférences.
 
-- **PSTN** Vérifiez si la stratégie de conférence Spécifie que la conférence rendez-vous PSTN est autorisée.
+- **RTC** Activé si la stratégie de conférence spécifie que la Conférence rendez-vous RTC est autorisée.
 
-- **Enregistrement** Vérifiez si la stratégie de conférence Spécifie que l’enregistrement est autorisée dans les conférences.
+- **Enregistrement** en Activé si la stratégie de conférence spécifie que l’enregistrement est autorisé lors de conférences.
 
 Pour plus d’informations sur les fonctionnalités et les fonctions de conférence, reportez-vous à la rubrique [Overview of Conferencing](https://technet.microsoft.com/library/5bb90e69-3d4f-4d59-a1ee-2550de84439f.aspx) de la documentation de planification. Pour plus d’informations sur l’utilisation des stratégies de conférence, reportez-vous à la rubrique [Conferencing Policies](https://technet.microsoft.com/library/8f92eb7c-ee66-4df6-a726-4bff93b122cb.aspx) de la documentation des opérations.
 

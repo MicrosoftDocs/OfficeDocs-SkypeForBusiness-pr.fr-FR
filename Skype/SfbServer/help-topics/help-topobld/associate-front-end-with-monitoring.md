@@ -5,25 +5,25 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AssociateFrontEndWithMonitoringPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ea4474a-7453-49a9-ba38-2c7dc4337b05
-description: Chaque pool frontal et un serveur Survivable Branch Appliance peuvent avoir un seul que serveur de surveillance lui est associé. Lorsque l’analyse est activée pour le site, le serveur de surveillance fournit des détails des appels (CDR) et la collecte de données de qualité de l’expérience (QoE) et la création de rapports.
-ms.openlocfilehash: b3ccb8c12c440a7838e3a3226d875265c650ac8a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Chaque grappe frontale et chaque unité de branchement Survivable peuvent avoir un seul serveur de surveillance associé. Lorsque la surveillance est activée pour le site, l’analyse du serveur fournit la collecte et le rapport de données de l’enregistrement des détails des appels (CDR) et de la qualité de l’appel.
+ms.openlocfilehash: 1e765055d7ea826921232a65075bba3571985d98
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33925031"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34301709"
 ---
 # <a name="associate-front-end-with-monitoring"></a>Associer un pool frontal à un serveur de surveillance
  
-Chaque pool frontal et un serveur Survivable Branch Appliance peuvent avoir un seul que serveur de surveillance lui est associé. Lorsque l’analyse est activée pour le site, le serveur de surveillance fournit des détails des appels (CDR) et la collecte de données de qualité de l’expérience (QoE) et la création de rapports.
+Chaque grappe frontale et chaque unité de branchement Survivable peuvent avoir un seul serveur de surveillance associé. Lorsque la surveillance est activée pour le site, l’analyse du serveur fournit la collecte et le rapport de données de l’enregistrement des détails des appels (CDR) et de la qualité de l’appel.
   
-Tous les pools d’un site et les pools de sites centraux multiples peuvent utiliser le même serveur de surveillance, si l’utilisation ne dépasse pas la capacité du serveur de surveillance. 
+Toutes les listes sur un site et les pools de plusieurs sites centraux peuvent utiliser le même serveur de surveillance, si l’utilisation ne dépasse pas la capacité du serveur de surveillance. 
   
 

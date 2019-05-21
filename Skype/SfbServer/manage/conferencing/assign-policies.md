@@ -1,29 +1,29 @@
 ---
-title: Affecter des stratégies de conférence dans Skype pour Business Server
+title: Attribution de stratégies de conférence dans Skype entreprise Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f384d19b-0950-4ec6-9d93-2c5958b83e71
-description: 'Résumé : Découvrez comment attribuer des stratégies de conférence de Skype pour Business Server.'
-ms.openlocfilehash: f022c4b89f239d4b800df17315b07b10da985955
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Résumé: Découvrez comment attribuer des stratégies de conférence dans Skype entreprise Server.'
+ms.openlocfilehash: acd74262b51000a3f4af5668fb3c9271a8c0978d
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919506"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289026"
 ---
-# <a name="assign-conferencing-policies-in-skype-for-business-server"></a>Affecter des stratégies de conférence dans Skype pour Business Server
+# <a name="assign-conferencing-policies-in-skype-for-business-server"></a>Attribution de stratégies de conférence dans Skype entreprise Server
  
-**Résumé :** Découvrez comment attribuer des stratégies de conférence de Skype pour Business Server.
+**Résumé:** Découvrez comment attribuer des stratégies de conférence dans Skype entreprise Server.
   
-Vous pouvez affecter des stratégies de conférence pour les utilisateurs à l’aide de Skype pour Business Server Management Shell et l’applet de commande **Grant-CsConferencingPolicy** .
+Vous pouvez attribuer des stratégies de conférence aux utilisateurs à l’aide de Skype entreprise Server Management Shell et de l’applet de passe **Grant-CsConferencingPolicy** .
   
-## <a name="assign-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Affecter des stratégies de conférence à l’aide de Skype pour Business Server Management Shell
+## <a name="assign-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Attribution de stratégies de conférence à l’aide de Skype entreprise Server Management Shell
 
 Dans l’exemple qui suit, la stratégie SalesConferencingPolicy est affectée à l’utilisateur dont l’identité est « Ken Myer » :
   
@@ -37,6 +37,6 @@ Dans l’exemple ci-dessous, la stratégie de conférence FinanceConferencingPol
 Get-CsUser -OU "ou=Finance,dc=litwareinc,dc=com" | Grant-CsConferencingPolicy -PolicyName FinanceConferencingPolicy
 ```
 
-Pour plus d’informations, y compris la syntaxe complète et une liste des paramètres, voir [Grant-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csconferencingpolicy?view=skype-ps).
+Pour plus d’informations, y compris la syntaxe complète et une liste de paramètres, consultez la rubrique [Grant-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csconferencingpolicy?view=skype-ps).
   
 

@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: In addition to getting phone numbers for your users from Office 365, you can search and acquire toll or toll-free phone numbers for services such as audio conferencing (for conference bridges), auto attendants, and call queues (also called service numbers). Service phone numbers have a higher concurrent calling capacity than user or subscriber phone numbers.
-ms.openlocfilehash: e1f4020e7062066451eebd626832da8d4a633069
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ca00db8882837bc748dee89a100b2e7d9dd2d04f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32227873"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297970"
 ---
 # <a name="getting-service-phone-numbers"></a>Obtention de numéros de téléphone de service
 
@@ -35,29 +35,29 @@ In addition to getting phone numbers for your users from Office 365, you can sea
 > [!NOTE]
 > Office 365 Communications Credits must be set up first in order to acquire toll-free numbers. See [Set up Communications Credits for your organization](/microsoftteams/set-up-communications-credits-for-your-organization). 
   
-Vous disposez de deux façons d’obtenir les numéros de service afin de les utiliser avec Skype pour les entreprises et Teams Microsoft :
+Vous pouvez obtenir des numéros de service à utiliser avec Skype entreprise et Microsoft teams de deux manières:
   
-- Obtenir les nouveaux numéros à partir d’Office 365.
+- Obtenez de nouveaux numéros à partir d’Office 365.
     
-- Port ou transférer vos numéros existante à partir de votre fournisseur de services ou votre opérateur mobile vers Office 365.
+- Transfert de vos numéros existants du fournisseur de services ou de l’opérateur de téléphonie vers Office 365.
     
     > [!NOTE]
-    > Lorsque vous transférez vos numéros de service, il est vivement recommandé de contacter le [support technique Microsoft](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b) pour vous assurer que la plus grande capacité appelante simultanée est considéré comme et correctement configurée.
+    > Lorsque vous transférez vos numéros de service, il est fortement recommandé de contacter le support Microsoft pour vérifier que la capacité d’appels simultanés est prise [en charge](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b) et configurée correctement.
   
 ## <a name="get-new-service-numbers"></a>Obtenir de nouveaux numéros de service
 
-![SFB-logo-30x30.png](../images/sfb-logo-30x30.png) **à l’aide de la Skype entreprise centre d’administration**
+![SFB-logo-30x30. png](../images/sfb-logo-30x30.png) **à l’aide du centre d’administration Skype entreprise**
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
-2. Accéder au **Centre d’administration** > **équipes et Skype** > **Skype hérité Admin**.
+2. Accédez au **Centre** > d’administration**et** > à l'**administrateur Skype hérité**.
     
-3. Dans le volet de navigation gauche, accédez à **voix** > **numéros de téléphone** > **Ajouter un nouveau numéro**, puis cliquez sur **nouveau numéro de service**.
+3. Dans**** le volet de navigation de gauche, sélectionnez numéros > de**téléphone** **vocaux** > , puis cliquez sur **nouveaux numéros de service**.
     
     > [!IMPORTANT] 
-    > Vous permet de voir l’option de **voix** dans le volet de navigation gauche dans le Skype entreprise centre d’administration, vous devez d’abord acheter une licence de module complémentaire de **Conférence Audio** , une licence de module complémentaire **Système téléphonique** ou au moins une **licence Enterprise E5**.
+    > Pour que l’option **voix** s’affiche dans le volet de navigation gauche du centre d’administration de Skype entreprise, vous devez d’abord acheter au moins une licence **entreprise E5**, une licence de composant additionnel du **système téléphonique** ou une licence du composant additionnel **audioconférence** .
     
-4. Dans la page **Ajouter de nouveaux numéros de service** , sélectionnez les éléments suivants :
+4. Dans la page **ajouter de nouveaux numéros de service** , sélectionnez les options suivantes:
     
    - **Pays/Région**
     
@@ -72,7 +72,7 @@ Vous disposez de deux façons d’obtenir les numéros de service afin de les ut
   
 6. You can click **Show numbers** to see the full list of phone numbers. This is helpful if you don't want to select a specific phone number in the list.
     
-7. Sélectionnez les numéros de téléphone, puis cliquez sur **les numéros d’acquisition**.
+7. Sélectionnez les numéros de téléphone de votre choix, puis cliquez sur **acquérir les numéros**.
     
 ### <a name="assign-service-numbers"></a>Affecter des numéros de service
 
@@ -83,7 +83,7 @@ Once you have your service numbers, they can then be assigned to an audio confer
 If you want to transfer service numbers from your current service provider or carrier, you need to manually submit a port order to Microsoft. You have to submit separate port orders for each type of service number (toll vs. toll-free) that you will be transferring using a Letter of Authorization (LOA). In the Letter of Authorization (LOA), you must select the correct type of service number. When contacting Microsoft support, please make sure you specify that you are transferring a service number (*and not a user or subscriber number*), or the concurrent calling capacity may not be enough to handle call volumes. If you want to transfer phone numbers or do other things with your phone numbers, see [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization).
 
 > [!NOTE]
-> Si vous avez besoin obtenir les numéros de téléphone plus grand que cette, veuillez [contacter le support pour les produits métiers : aide d’administration](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). 
+> Si vous avez besoin d’obtenir plus de numéros de téléphone, [Contactez le support technique pour les produits pour les entreprises-aide de l’administrateur](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). 
   
 ## <a name="related-topics"></a>Voir aussi
 [Voici les avantages du système téléphonique dans Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system)

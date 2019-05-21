@@ -1,10 +1,10 @@
 ---
-title: Créer ou modifier un plan de numérotation dans Skype pour Business Server
+title: Création ou modification d’un plan de numérotation dans Skype entreprise Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,29 +13,29 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: d2fef3d0-7e78-4591-b712-d62ac71d71a5
-description: 'Résumé : Apprenez à créer ou modifier un plan de numérotation à l’aide de la Skype pour le panneau de configuration serveur Business.'
-ms.openlocfilehash: d68b831019d32ac228335fed0fd3167babde379f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Résumé: Découvrez comment créer ou modifier un plan de numérotation à l’aide du panneau de configuration Skype entreprise Server.'
+ms.openlocfilehash: b2556a6b5a86b895f18db0daf981fd04ea49cda1
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892523"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291650"
 ---
-# <a name="create-or-modify-a-dial-plan-in-skype-for-business-server"></a>Créer ou modifier un plan de numérotation dans Skype pour Business Server
+# <a name="create-or-modify-a-dial-plan-in-skype-for-business-server"></a>Création ou modification d’un plan de numérotation dans Skype entreprise Server
 
-**Résumé :** Découvrez comment créer ou modifier un plan de numérotation à l’aide de la Skype pour le panneau de configuration serveur Business.
+**Résumé:** Découvrez comment créer ou modifier un plan de numérotation à l’aide du panneau de configuration Skype entreprise Server.
 
 ### <a name="to-create-a-dial-plan"></a>Pour créer un plan de numérotation
 
-1. Ouvrez le panneau de configuration serveur Business Skype.
+1. Ouvrez le panneau de configuration Skype entreprise Server.
 
 2. Dans la barre de navigation de gauche, cliquez sur **Routage des communications vocales**, puis sur **Plan de numérotation**.
 
 3. Dans la page **Plan de numérotation**, cliquez sur **Nouveau**, puis sélectionnez une étendue pour le plan de numérotation :
 
-   - **Plan de numérotation de site** s’applique à tout un site, à l’exception des utilisateurs ou des groupes attribués au plan de numérotation d’un utilisateur. Si vous sélectionnez un **Site** pour l’étendue d’un plan de numérotation, vous devez choisir le site à partir de la boîte de dialogue **Sélectionner un Site** . Si un plan de numérotation a déjà été créé pour un site, le site ne s’affiche pas dans la boîte de dialogue **Sélectionner un site**.
+   - **Plan de numérotation de site** s’applique à tout un site, à l’exception des utilisateurs ou des groupes attribués au plan de numérotation d’un utilisateur. Si vous sélectionnez **site** pour l’étendue d’un plan de numérotation, vous devez choisir le site dans la boîte de dialogue **Sélectionner un site** . Si un plan de numérotation a déjà été créé pour un site, le site ne s’affiche pas dans la boîte de dialogue **Sélectionner un site**.
 
-   - **Plan de numérotation du pool** peut s’appliquer à une passerelle de réseau téléphonique commuté (RTC) ou à un serveur d’inscriptions. Si vous sélectionnez un **Pool** pour l’étendue d’un plan de numérotation, choisissez la passerelle PSTN ou un serveur d’inscriptions dans la boîte de dialogue **Sélectionner un Service** . Si un plan de numérotation a déjà été créé pour un service (passerelle RTC ou serveur d’inscriptions), le service ne s’affiche pas dans la liste.
+   - **Plan de numérotation du pool** peut s’appliquer à une passerelle de réseau téléphonique commuté (RTC) ou à un serveur d’inscriptions. Si vous sélectionnez **** l’étendue d’un plan de numérotation, sélectionnez la passerelle PSTN ou le Bureau d’enregistrement dans la boîte de dialogue **Sélectionner un service** . Si un plan de numérotation a déjà été créé pour un service (passerelle RTC ou serveur d’inscriptions), le service ne s’affiche pas dans la liste.
 
    - **Plan de numérotation de l’utilisateur** peut s’appliquer à des utilisateurs ou des groupes spécifiques.
 
@@ -45,12 +45,12 @@ ms.locfileid: "33892523"
 4. Si vous créez le plan de numérotation d’un utilisateur, entrez un nom descriptif dans le champ **Nom** de la boîte de dialogue **Nouveau plan de numérotation**. Une fois enregistré, ce nom ne peut pas être modifié.
 
     > [!NOTE]
-    > Pour les plans de numérotation de site, le champ **nom** est prérempli avec le nom du site et ne peut pas être modifié .> pour le pool plans de numérotation, le champ **nom** est prérempli avec la passerelle PSTN ou le nom du serveur d’inscriptions et ne peut pas être modifié.
+    > Pour les plans de numérotation de site, le champ **nom** est prérempli avec le nom du site et ne peut pas être modifié. > pour les plans de numérotation de la liste, le champ **nom** est prérempli avec le nom de la passerelle PSTN ou du Bureau d’enregistrement et ne peut pas être modifié.
 
 5. Le champ **Nom simple** contient déjà le nom qui figure dans le champ **Nom**. Si vous le souhaitez, vous pouvez modifier ce champ pour spécifier un nom qui reflète mieux le site, le service ou l’utilisateur auquel le plan de numérotation s’applique.
 
    > [!IMPORTANT]
-   > Le **nom Simple** doit être unique parmi tous les plans de numérotation de votre déploiement. Il ne peut pas dépasser 256 caractères Unicode, chacun d'entre eux peut être un caractère alphabétique ou numérique, un trait d’union (-), un point (.) ou un trait de soulignement (_) .> caractères **non pris en charge** incluent les espaces et les caractères réservés comme défini dans RFC 3966 (<http://www.ietf.org/rfc/rfc3966.txt>). Caractères réservés **non pris en charge** dans le **Nom Simple** sont les suivantes : > « ; » « / » « ? » « : » « @ » «&amp;» « = » « + « « $», » »
+   > Le **nom simple** doit être unique parmi tous les plans de numérotation de votre déploiement. Il ne peut pas contenir plus de 256 caractères Unicode, dont chacun peut être un caractère alphabétique ou numérique, un trait d’Union (-), un point (.) ou un trait de soulignement (_). > caractères **non pris en charge** incluent les espaces<http://www.ietf.org/rfc/rfc3966.txt>et les caractères réservés tels qu’ils sont définis dans RFC 3966 (). Les caractères réservés qui ne sont **pas pris en charge** dans le **nom simple** sont les suivants: > ";" «/» «?» ":" "@&amp;" "" = "" + "" $ "", "
 
 6. (Facultatif) Dans le champ **Description**, vous pouvez taper des informations descriptives supplémentaires concernant le plan de numérotation.
 
@@ -66,9 +66,9 @@ ms.locfileid: "33892523"
 
 9. Associez et configurez les règles de normalisation du plan de numérotation comme suit :
 
-    - Pour choisir une ou plusieurs règles à partir d’une liste de toutes les règles de normalisation sont disponibles dans votre déploiement d’Enterprise Voice, cliquez sur **Sélectionner**. Dans **Sélectionner des règles de normalisation**, sélectionnez les règles que vous voulez associer au plan de numérotation, puis cliquez sur **OK**.
+    - Pour sélectionner une ou plusieurs règles dans la liste de toutes les règles de normalisation disponibles dans votre déploiement voix entreprise, cliquez sur **Sélectionner**. Dans **Sélectionner des règles de normalisation**, sélectionnez les règles que vous voulez associer au plan de numérotation, puis cliquez sur **OK**.
 
-   - Pour définir une nouvelle règle de normalisation et l’associer au plan de numérotation, cliquez sur **Nouveau**. Pour plus d’informations sur la définition d’une nouvelle règle, voir [créer ou modifier une règle de normalisation dans Skype pour les entreprises](normalization-rules.md).
+   - Pour définir une nouvelle règle de normalisation et l’associer au plan de numérotation, cliquez sur **Nouveau**. Pour plus d’informations sur la définition d’une nouvelle règle, voir [créer ou modifier une règle de normalisation dans Skype entreprise](normalization-rules.md).
 
    - Pour modifier une règle de normalisation déjà associée au plan de numérotation, mettez en surbrillance le nom de la règle et cliquez sur **Afficher les détails**.
 
@@ -77,12 +77,12 @@ ms.locfileid: "33892523"
    - Pour supprimer une règle de normalisation du plan de numérotation, mettez en surbrillance le nom de la règle et cliquez sur **Supprimer**.
 
      > [!NOTE]
-     > Chaque plan de numérotation doit être associé à au moins une règle de normalisation. Pour plus d’informations sur la façon de déterminer toutes les règles de normalisation un numérotation plan nécessite, voir [Plan for vocaux sortants routage dans Skype pour Business Server](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md) dans la documentation de planification.
+     > Chaque plan de numérotation doit être associé à au moins une règle de normalisation. Pour plus d’informations sur la façon de déterminer toutes les règles de normalisation requises par un plan de numérotation, reportez-vous à la section planification du [routage de la voix sortante dans Skype entreprise Server](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md) dans la documentation de planification.
 
-10. Vérifiez que les règles de normalisation du plan numérotation sont organisées dans l’ordre correct. Pour modifier la position d’une règle dans la liste, mettez en surbrillance le nom de la règle et cliquez sur l’ou flèche vers le bas.
+10. Vérifiez que les règles de normalisation du plan de numérotation sont organisées dans l’ordre approprié. Pour modifier la position d’une règle dans la liste, sélectionnez le nom de la règle, puis cliquez sur la flèche vers le haut ou vers le bas.
 
     > [!IMPORTANT]
-    > Skype pour Business Server parcourt la liste des règles de normalisation à partir du haut vers le bas et utilise la première règle qui correspond au numéro composé. Si vous configurez un plan de numérotation de sorte qu’un numéro composé puisse correspondre à plusieurs règles de normalisation, vérifiez que les règles plus restrictives s’affichent au-dessus des règles moins restrictives. > la règle de normalisation par défaut **Conserver tous les** ^(\d{11})$ correspond à n’importe quel numéro à 11 chiffres. Par exemple, si vous ajoutez une règle de normalisation qui correspond à 11 chiffres commençant par 1425, assurez-vous que **Tout conserver** est trié sous le plus restrictif ^(1425\d{7}) règle$.
+    > Skype entreprise Server parcourt la liste des règles de normalisation du haut vers le bas et utilise la première règle qui correspond au numéro composé. Si vous configurez un plan de numérotation de sorte qu’un numéro composé puisse correspondre à plusieurs règles de normalisation, vérifiez que les règles plus restrictives s’affichent au-dessus des règles moins restrictives. > la règle par défaut **conserver toutes les** règles de normalisation{11}^ (\d) $ correspond à un numéro à 11 chiffres. Par exemple, si vous ajoutez une règle de normalisation qui correspond aux numéros à 11 chiffres commençant par 1425, assurez-vous que l’ensemble de la fonction **conserver tout** est trié sous la{7}règle de ^ (1425 \ p) $ la plus restrictive.
 
 11. (Facultatif) Entrez un numéro pour tester le plan de numérotation, puis cliquez sur **OK**. Les résultats du test s’affichent sous **Numéro composé à tester**.
 
@@ -91,13 +91,13 @@ ms.locfileid: "33892523"
 13. Dans la page **Plan de numérotation**, cliquez sur **Valider**, puis sur **Valider tout**.
 
     > [!NOTE]
-    > À chaque fois que vous créez un plan de numérotation, vous devez exécuter la commande **Valider tout** pour publier la modification de la configuration. Pour plus d’informations, voir [Publier en attente apportées à la configuration de routage voix dans Skype pour les entreprises](voice-route-config-changes.md) dans la documentation des opérations.
+    > À chaque fois que vous créez un plan de numérotation, vous devez exécuter la commande **Valider tout** pour publier la modification de la configuration. Pour plus d’informations, reportez-vous [à la rubrique publier des modifications en attente sur la configuration de la messagerie dans Skype entreprise](voice-route-config-changes.md) dans la documentation sur les opérations.
 
 ### <a name="to-modify-a-dial-plan"></a>Pour modifier un plan de numérotation
 
-1. Ouvrez une session l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre du rôle CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Pour plus d’informations, voir **Delegate Setup Permissions**.
+1. Connectez-vous à l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre du rôle CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Pour plus d’informations, consultez **autorisations de configuration de délégué**.
 
-2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Skype pour le panneau de configuration serveur Business.
+2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration Skype entreprise Server.
 
 3. Dans la barre de navigation de gauche, cliquez sur **Routage des communications vocales**, puis sur **Plan de numérotation**.
 
@@ -109,7 +109,7 @@ ms.locfileid: "33892523"
 5. (Facultatif) Dans **Modifier un plan de numérotation**, modifiez le champ **Nom simple**, qui contient déjà le nom qui s’affiche dans le champ **Nom**, pour spécifier un nom qui reflète mieux le site, le service ou l’utilisateur auquel le plan de numérotation s’applique.
 
     > [!IMPORTANT]
-    > Le **nom Simple** doit être unique parmi tous les plans de numérotation dans le déploiement de Lync Server 2013. Il ne peut pas dépasser 256 caractères Unicode, chacun d'entre eux peut être des caractères alphabétiques ou numériques, un trait d’union (-), un point (.), un signe plus (+) ou un trait de soulignement (_) .> les espaces ne sont pas autorisés dans le champ **nom Simple** .
+    > Le **nom simple** doit être unique parmi tous les plans de numérotation dans le déploiement de Lync Server 2013. Il ne peut pas contenir plus de 256 caractères Unicode, dont chacun peut être un caractère alphabétique ou numérique, un trait d’Union (-), un point (.), un signe plus (+) ou un trait de soulignement (_). les **** espaces > ne le sont pas.
 
 6. (Facultatif) Dans le champ **Description**, entrez des informations descriptives concernant le plan de numérotation.
 
@@ -125,9 +125,9 @@ ms.locfileid: "33892523"
 
 9. Associez et configurez les règles de normalisation du plan de numérotation :
 
-   - Pour choisir une ou plusieurs règles à partir d’une liste de toutes les règles de normalisation sont disponibles dans votre déploiement d’Enterprise Voice, cliquez sur **Sélectionner**. Dans la boîte de dialogue **Sélectionner des règles de normalisation**, sélectionnez les règles que vous voulez associer au plan de numérotation, puis cliquez sur **OK**.
+   - Pour sélectionner une ou plusieurs règles dans la liste de toutes les règles de normalisation disponibles dans votre déploiement voix entreprise, cliquez sur **Sélectionner**. Dans la boîte de dialogue **Sélectionner des règles de normalisation**, sélectionnez les règles que vous voulez associer au plan de numérotation, puis cliquez sur **OK**.
 
-   - Pour définir une nouvelle règle de normalisation et l’associer au plan de numérotation, cliquez sur **Nouveau**. Pour plus d’informations sur la définition d’une nouvelle règle, voir [créer ou modifier une règle de normalisation dans Skype pour les entreprises](normalization-rules.md).
+   - Pour définir une nouvelle règle de normalisation et l’associer au plan de numérotation, cliquez sur **Nouveau**. Pour plus d’informations sur la définition d’une nouvelle règle, voir [créer ou modifier une règle de normalisation dans Skype entreprise](normalization-rules.md).
 
    - Pour modifier une règle de normalisation déjà associée au plan de numérotation, mettez en surbrillance le nom de la règle et cliquez sur **Afficher les détails**.
 
@@ -136,12 +136,12 @@ ms.locfileid: "33892523"
    - Pour supprimer une règle de normalisation du plan de numérotation, mettez en surbrillance le nom de la règle et cliquez sur **Supprimer**.
 
      > [!NOTE]
-     > Chaque plan de numérotation doit être associé à au moins une règle de normalisation. Pour plus d’informations sur la façon de déterminer toutes les règles de normalisation un numérotation plan nécessite, voir [Plan for vocaux sortants routage dans Skype pour Business Server](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md) dans la documentation de planification.
+     > Chaque plan de numérotation doit être associé à au moins une règle de normalisation. Pour plus d’informations sur la façon de déterminer toutes les règles de normalisation requises par un plan de numérotation, reportez-vous à la section planification du [routage de la voix sortante dans Skype entreprise Server](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md) dans la documentation de planification.
 
-10. Vérifiez que les règles de normalisation du plan numérotation sont organisées dans l’ordre correct. Pour modifier la position d’une règle dans la liste, mettez en surbrillance le nom de la règle et cliquez sur l’ou flèche vers le bas.
+10. Vérifiez que les règles de normalisation du plan de numérotation sont organisées dans l’ordre approprié. Pour modifier la position d’une règle dans la liste, sélectionnez le nom de la règle, puis cliquez sur la flèche vers le haut ou vers le bas.
 
     > [!IMPORTANT]
-    > Skype pour Business Server parcourt la liste des règles de normalisation à partir du haut vers le bas et utilise la première règle qui correspond au numéro composé. Si vous configurez un plan de numérotation de sorte qu’un numéro composé puisse correspondre à plusieurs règles de normalisation, vérifiez que les règles plus restrictives s’affichent au-dessus des règles moins restrictives. > la règle de normalisation par défaut **Conserver tous les** ^(\d{11})$ correspond à n’importe quel numéro à 11 chiffres. Si, par exemple, vous ajoutez une règle de normalisation qui correspond à 11 chiffres commençant par 1425, assurez-vous que **Tout conserver** est trié sous le plus restrictif ^(1425\d{7}) règle$.
+    > Skype entreprise Server parcourt la liste des règles de normalisation du haut vers le bas et utilise la première règle qui correspond au numéro composé. Si vous configurez un plan de numérotation de sorte qu’un numéro composé puisse correspondre à plusieurs règles de normalisation, vérifiez que les règles plus restrictives s’affichent au-dessus des règles moins restrictives. > la règle par défaut **conserver toutes les** règles de normalisation{11}^ (\d) $ correspond à un numéro à 11 chiffres. Par exemple, si vous ajoutez une règle de normalisation qui correspond à des numéros à 11 chiffres commençant par 1425, assurez-vous que la valeur **conserver tout** est triée sous la règle plus{7}restrictive ^ (1425 \ d) $.
 
 11. (Facultatif) Entrez un numéro pour tester le plan de numérotation, puis cliquez sur **OK**. Les résultats du test s’affichent sous **Numéro composé à tester**.
 
@@ -153,9 +153,9 @@ ms.locfileid: "33892523"
 13. Dans la page **Plan de numérotation**, cliquez sur **Valider**, puis sur **Valider tout**.
 
     > [!NOTE]
-    > Chaque fois que vous créez ou modifiez un plan de numérotation, vous devez exécuter la commande **Valider tout** pour publier la modification de la configuration. Pour plus d’informations, voir [Publier en attente apportées à la configuration de routage voix dans Skype pour les entreprises](voice-route-config-changes.md) dans la documentation des opérations.
+    > Chaque fois que vous créez ou modifiez un plan de numérotation, vous devez exécuter la commande **Valider tout** pour publier la modification de la configuration. Pour plus d’informations, reportez-vous [à la rubrique publier des modifications en attente sur la configuration de la messagerie dans Skype entreprise](voice-route-config-changes.md) dans la documentation sur les opérations.
 
 ## <a name="see-also"></a>Voir aussi
 
-[Publier des modifications en attente de la configuration de routage voix dans Skype pour les entreprises](voice-route-config-changes.md)
+[Les modifications en attente apportées à la configuration de l’acheminement vocal dans Skype entreprise](voice-route-config-changes.md)
 

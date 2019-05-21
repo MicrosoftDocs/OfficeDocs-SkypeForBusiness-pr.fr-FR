@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,21 +21,21 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
-description: Cela vous permettra de savoir comment composer des numéros gratuits dans chaque pays/région. Une fois que vous sélectionnez la pays/région, il vous dirige vers une page spécifique qui contient des détails plus spécifiques, les restrictions et les limites de la disponibilité du service gratuit où service gratuit est disponible. Le format de numérotation ou formats affichera les codes d’accès requis dans chaque pays/région de composer le numéro gratuit.
-ms.openlocfilehash: 3fe9985d6f87672927bd0f6dfe24783455948111
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Vous pourrez ainsi découvrir comment composer un numéro gratuit dans chaque pays ou région. Lorsque vous sélectionnez le pays ou la région, vous êtes dirigé vers une page qui contient des détails, restrictions et limites spécifiques pour la disponibilité du service gratuit où le service gratuit est disponible. Le ou les formats de numérotation vous montrent les codes d’accès requis au sein de chaque pays/région pour composer le numéro gratuit.
+ms.openlocfilehash: d2fe8e03ce0891fa46f092c87b6563ce174af75c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204444"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34300974"
 ---
 # <a name="toll-free-dialing-limitations-and-restrictions"></a>Limitations et restrictions concernant la composition de numéros verts
 
-Cela vous permettra de savoir comment composer des numéros gratuits dans chaque pays ou région. Une fois que vous sélectionnez la pays/région, il vous dirige vers une page qui contient le numéro gratuit étant disponible, notamment les limites et restrictions des détails plus spécifiques. Le format de numérotation ou formats affichera les codes d’accès requis dans chaque pays/région de composer le numéro gratuit.
+Vous pourrez ainsi découvrir comment composer un numéro gratuit dans chaque pays ou région. Après avoir sélectionné le pays ou la région, vous pouvez accéder à une page contenant le numéro de service gratuit, y compris les détails, restrictions et limites spécifiques. Le ou les formats de numérotation vous montrent les codes d’accès requis au sein de chaque pays/région pour composer le numéro gratuit.
   
-Si vous êtes prêt, sélectionnez votre pays ou région :
+Si vous êtes prêt, sélectionnez un pays ou une région:
   
-## <a name="select-your-country-or-region-to-see-the-dialing-codes-limitations-and-restrictions"></a>Sélectionnez votre pays ou région pour afficher les codes de numérotation, les limites et les restrictions.
+## <a name="select-your-country-or-region-to-see-the-dialing-codes-limitations-and-restrictions"></a>Sélectionnez votre pays ou région pour afficher les codes, limitations et restrictions de numérotation.
 
 > [!div class="op_single_selector"]    
 > - [Argentine](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md)
@@ -101,20 +101,20 @@ Si vous êtes prêt, sélectionnez votre pays ou région :
 > - [Venezuela](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-venezuela.md)
 > - [Vietnam](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-vietnam.md)
   
-## <a name="here-are-some-important-things-for-you-to-remember-about-toll-free-numbers"></a>Voici certaines informations importantes à retenir sur numéros gratuits :
+## <a name="here-are-some-important-things-for-you-to-remember-about-toll-free-numbers"></a>Voici quelques points importants dont vous devez tenir compte concernant les numéros gratuits:
 
-- **Numéros gratuits ne fonctionnent qu’au sein de chaque pays/région.** Par exemple, vos utilisateurs ne pourront appeler un numéro gratuit australien en dehors de l’Australie.
+- **Les numéros gratuits ne fonctionnent que dans chaque pays/région.** Par exemple, vos utilisateurs ne seront pas en mesure d’appeler un numéro gratuit australien en dehors de l’Australie.
     
-- **Acquisition ou portage universel International gratuit numéros (UIFN) n’est pas pris en charge.**
+- **L’acquisition ou le portage des numéros de téléphone universel international (UIFN) n’est pas prise en charge.**
     
-- **Dans plusieurs pays/régions, l’Agence régulation/télécommunication pays/région nécessite chaque numéro gratuit à mettre à jour au moins 100 minutes d’utilisation par mois afin de conserver le nombre.**
+- **Dans de nombreux pays ou régions, l’organisme régulateur/télécommunication dans le pays/la région exige chaque numéro de téléphone libre pour la conservation d’au moins 100 minutes d’utilisation par mois afin de conserver le numéro.**
     
     > [!NOTE]
-    > Vous obtenez un numéro d’appel gratuit et l’utilisation du numéro ne répond pas à ces exigences minimales, Microsoft peut tenu par l’agence de régulation/télécommunication pour récupérer le numéro de votre part. 
+    > Si vous obtenez un numéro gratuit et que l’utilisation du numéro ne répond pas à ces exigences minimales, Microsoft est susceptible d’être satisfait par le régulateur et l’organisme de télécommunication pour le récupérer. 
   
-- **Filaire, ligne fixe et mobile accès aux numéros gratuits peuvent être partiellement ou entièrement limitées.** Le format de numérotation décrit les codes d'accès requis dans chaque pays/région pour passer des appels via le numéro gratuit.
+- **L’accès au téléphone fixe, fixe et mobile aux numéros sans frais sont entièrement ou partiellement limités.** Le format de numérotation décrit les codes d'accès requis dans chaque pays/région pour passer des appels via le numéro gratuit.
     
-- **Plan de numérotation en Amérique du Nord payant numéros gratuits :** Taux par minute pour le Plan de numérotation en Amérique du Nord numéros gratuits sont déterminées par le pays d’origine. Le taux de par minute payant gratuite pour les appels provenant de la carte des États-Unis à la fréquence définie en tant que « Amérique du Nord. » Toutefois, les appels provenant d’autres pays Amérique du Nord tels que Canada, Porto Rico, etc. ont taux libre payant spécifique.
+- **Plan de numérotation Amérique du Nord: numéro gratuit:** Des tarifs à la minute pour le plan de numérotation des États-Unis sont déterminés par le pays d’origine. Le tarif gratuit à la minute pour les appels provenant de la carte des États-Unis et le taux défini comme «Amérique du Nord». Toutefois, les appels issus d’autres pays d’Amérique du Nord, tels que le Canada, Porto Rico, etc., ont des tarifs gratuits spécifiques.
 
 > [!NOTE]
 > Si vous devez obtenir davantage de numéros de téléphone, veuillez [contacter le support pour les entreprises - Aide de l'administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)

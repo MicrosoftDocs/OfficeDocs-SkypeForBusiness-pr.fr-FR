@@ -5,22 +5,22 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 7/18/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 44da2f8d-0bf5-4f3e-b2e7-bb181dbbe646
-description: L’applet de commande Renew-CcCACertificate renouvelle le certificat de l’AC racine de Skype Entreprise, version Cloud Connector, qui est sur le point d’expirer ou qui a déjà expiré. Cette commande a été modifiée pour la mise à jour-CcCACertificate dans le nuage connecteur 2.0 et versions ultérieures.
-ms.openlocfilehash: 616abb35d577b816368854396a201b9f07b40d12
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+description: L’applet de commande Renew-CcCACertificate renouvelle le certificat de l’AC racine de Skype Entreprise, version Cloud Connector, qui est sur le point d’expirer ou qui a déjà expiré. Cette commande a été remplacée par Update-CcCACertificate dans Cloud Connector 2,0 et versions ultérieures.
+ms.openlocfilehash: f1e376b5b944468ec5bf508c6221a099a83d4804
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893861"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287103"
 ---
 # <a name="renew-cccacertificate"></a>Renew-CcCACertificate
  
-L’applet de commande Renew-CcCACertificate renouvelle le certificat de l’AC racine de Skype Entreprise, version Cloud Connector, qui est sur le point d’expirer ou qui a déjà expiré. Cette commande a été modifiée pour la mise à jour-CcCACertificate dans le nuage connecteur 2.0 et versions ultérieures.
+L’applet de commande Renew-CcCACertificate renouvelle le certificat de l’AC racine de Skype Entreprise, version Cloud Connector, qui est sur le point d’expirer ou qui a déjà expiré. Cette commande a été remplacée par Update-CcCACertificate dans Cloud Connector 2,0 et versions ultérieures.
   
 ```
 Renew-CcCACertificate
