@@ -4,20 +4,20 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: End User
+audience: End User
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Pour plus d’informations, voir déploiement des clients et périphériques dans Skype pour Business Server 2019 dans la documentation de déploiement.
-ms.openlocfilehash: 005948e4e9e5b27746497c55b22b498c6358ac0e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Pour plus d’informations, reportez-vous à la section déploiement de clients et d’appareils dans Skype entreprise Server 2019 dans la documentation de déploiement.
+ms.openlocfilehash: 688d4bf489be56694d583793f951f3f04919365b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32238646"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34288620"
 ---
-# <a name="deploy-skype-for-business-server-clients"></a>Déployer Skype pour les clients Business Server
+# <a name="deploy-skype-for-business-server-clients"></a>Déploiement de clients Skype entreprise Server
 
-Pour plus d’informations, voir [déployer les clients pour Skype pour Business Server](../../SfbServer/deploy/deploy-clients/deploy-clients.md) dans la documentation de déploiement.
+Pour plus d’informations, reportez-vous à la rubrique [déploiement de clients pour Skype entreprise Server](../../SfbServer/deploy/deploy-clients/deploy-clients.md) dans la documentation de déploiement.
   
 

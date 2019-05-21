@@ -3,19 +3,19 @@ title: Remarques relatives à la jonction du domaine Skype Room System
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3034fdcb-7c89-42c4-9c5e-13400e82d88f
 description: Consultez cette rubrique pour découvrir comment joindre un appareil PC Skype Room System à votre domaine.
-ms.openlocfilehash: 675074cc61b60432e68317d139b20b727073961f
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 8419ccc2234ec0c549dcd001dc95c3a4374f3720
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2019
-ms.locfileid: "33362747"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306525"
 ---
 # <a name="skype-room-system-domain-joining-considerations"></a>Remarques relatives à la jonction du domaine Skype Room System
  
@@ -23,15 +23,15 @@ Consultez cette rubrique pour découvrir comment joindre un appareil PC Skype R
   
 ## <a name="domain-joining-considerations"></a>Remarques relatives à la jonction du domaine
 
-Vous pouvez joindre l’appliance Skype salle système PC au domaine Active Directory ou laissez un groupe de travail. Tenez compte des points suivants avant cette décision :
+Vous pouvez rejoindre le PC de l’application Skype Room sur le domaine Active Directory ou la laisser dans un groupe de travail. Tenez compte des points suivants avant cette décision :
   
-- Domaine-joindre l’appliance Skype salle système PC permet d’importation automatique de la chaîne du certificat racine privée de votre organisation.
+- La participation à un domaine avec l’application Skype Room System permet d’importer automatiquement la chaîne de certificats racine privés de votre organisation.
     
-- Domaine-joindre l’appliance Skype salle système PC vous permet d’accorder aux utilisateurs du domaine et les droits d’administration de groupes. En procédant ainsi, vous n’aurez pas à retenir le mot de passe du compte administrateur au niveau de l’ordinateur local.
+- La participation à un domaine avec l’application Skype Room System appliance vous permet d’accorder aux utilisateurs de domaine et aux groupes des droits d’administration. En procédant ainsi, vous n’aurez pas à retenir le mot de passe du compte administrateur au niveau de l’ordinateur local.
     
-- Lorsque vous joignez une appliance Skype salle système PC au domaine, il est nécessaire que vous créez un distinct unité d’organisation (OU), afin que vous pouvez fournir des exclusions de l’objet de stratégie de groupe (GPO) à l’unité d’organisation où résident tous les objets ordinateur Skype salle système. Lorsque vous effectuez cette opération, créer des objets ordinateur dans l’unité d’organisation avant de participer à l’application du système de salle Skype PC au domaine.
+- Lorsque vous rejoignez un ordinateur du système de salle Skype pour le domaine, vous devez créer une unité d’organisation (UO) distincte, afin de fournir des exclusions d’objets de stratégie de groupe à l’unité d’organisation où se trouvent tous les objets de l’ordinateur de bureau Skype. Lorsque vous procédez ainsi, créez des objets machine dans l’unité d’organisation avant de joindre le PC du système de salle Skype au domaine.
     
-- Bon nombre d’organisations ont les objets GPO suivants, qui affectent le système de salle Skype application PC fonctionne. Assurez-vous que vous avez remplacer ou bloquer l’héritage de ces objets de stratégie de groupe dans l’unité d’organisation du système de salle de Skype : 
+- De nombreuses organisations possèdent les objets de stratégie de groupe suivants qui concernent les fonctions PC de l’appliance de salle Skype. Assurez-vous de remplacer ou de bloquer l’héritage de ces objets de stratégie de groupe dans l’unité d’organisation de votre système de salle Skype: 
     
   - Délai d’ouverture de sessions (verrouillage automatique)
     
@@ -47,11 +47,11 @@ Vous pouvez joindre l’appliance Skype salle système PC au domaine Active Dire
     
   - Créer un autre compte d’utilisateur de domaine sur tous les ordinateurs liés au domaine.
     
-  - Push Windows Update au système de salle de Skype
+  - Diffuser Windows Update vers le système de salle Skype
     
-- En guise d’alternative, vous pouvez décider de laisser l’appareil PC dans le groupe de travail. Comme avec le bureau Microsoft Teams ou Skype pour client d’entreprise, vous devez importer manuellement la chaîne de certificats racine sur le matériel de système de salle Skype PC. Vous n’êtes pas nécessaire pour importer la chaîne de certificats racine si votre déploiement utilise un certificat public (par exemple, Entrust, VeriSign et ainsi de suite). 
+- En guise d’alternative, vous pouvez décider de laisser l’appareil PC dans le groupe de travail. Comme avec la version de bureau de Microsoft teams ou du client Skype entreprise, vous devez importer manuellement la chaîne de certificats racine sur le PC du système de salle Skype. Vous n’êtes pas tenu d’importer la chaîne de certificats racines si votre déploiement utilise un certificat public (par exemple, Entrust, VeriSign, etc.). 
     
-Si vous envisagez de participer à des machines Skype salle système au domaine, pour éviter la jonction ordinateur Skype salle système par inadvertance à une unité d’organisation involontaire, qui ne peut être disponible à partir de la stratégie de groupe, assurez-vous que vous participerez à l’unité d’organisation correcte. Vous pouvez utiliser l’applet de commande suivante à partir de l’ordinateur du système de salle Skype pour joindre dans l’unité d’organisation correcte et ne reçoit pas d’objets de stratégie de groupe qui peut se bloquer la fonctionnalité kr. Contactez votre administrateur système ou partenaire OEM pour exécuter ces applets de commande :
+Si vous envisagez de joindre les machines de votre système de salle Skype à votre domaine, dans le cas d’une UO involontaire qui n’est pas disponible pour les objets de stratégie de groupe, assurez-vous de rejoindre l’UO correcte. Vous pouvez utiliser l’applet de commande suivante depuis l’ordinateur système de salle Skype pour rejoindre l’UO correcte et ne pas recevoir d’objets de stratégie de groupe qui peuvent bloquer la fonctionnalité LRS. Contactez votre administrateur système ou partenaire OEM pour exécuter ces applets de commande :
   
 ```
 $username = "contso.local\LRS01"
@@ -60,9 +60,9 @@ $myCred = New-Object System.Management.Automation.PSCredential $username, $passw
 Add-Computer -DomainName contoso.local -Credential $mycred -OUPath "OU=LyncRoomSystem,OU=Resources,DC=CONTOSO,DC=LOCAL"
 ```
 
-Même si vous créez une unité organisationnelle distincte et que vous bloquez l’héritage, il existe certaines stratégies qui pourraient entraîner des problèmes à un niveau supérieur. Une stratégie de groupe sans aucun paramètre de remplacement bat une unité organisationnelle avec un paramètre Bloquer l’héritage de stratégies. Pour plus d’informations, voir l’article [Aucun remplacement par rapport à bloquer l’héritage](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-2000-server/cc978255(v=technet.10)) dans la documentation de la stratégie de groupe.
+Même si vous créez une unité organisationnelle distincte et que vous bloquez l’héritage, il existe certaines stratégies qui pourraient entraîner des problèmes à un niveau supérieur. Une stratégie de groupe sans aucun paramètre de remplacement bat une unité organisationnelle avec un paramètre Bloquer l’héritage de stratégies. Pour plus d’informations, reportez-vous à l’article [aucun remplacement par rapport à l’héritage de la stratégie bloquer](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-2000-server/cc978255(v=technet.10)) dans la documentation de la stratégie de groupe.
   
-Vous avez peut-être plusieurs approches pour résoudre ces problèmes. Nous vous conseillons de consulter vos experts Active Directory afin de vous assurer que vous disposez d’une unité organisationnelle aux paramètres GPO appropriés, ou au moins d’une unité organisationnelle dans laquelle les stratégies décrites précédemment n’existent pas. Il est conseillé d’activer la qualité de Service (QoS) pour les périphériques de système de salle Skype.
+Vous avez peut-être plusieurs approches pour résoudre ces problèmes. Nous vous conseillons de consulter vos experts Active Directory afin de vous assurer que vous disposez d’une unité organisationnelle aux paramètres GPO appropriés, ou au moins d’une unité organisationnelle dans laquelle les stratégies décrites précédemment n’existent pas. Il est recommandé d’activer la qualité de service (QoS) pour les appareils système de salle Skype.
 
 ## <a name="see-also"></a>Voir aussi
   

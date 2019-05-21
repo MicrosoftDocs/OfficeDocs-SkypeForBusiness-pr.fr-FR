@@ -1,5 +1,5 @@
 ---
-title: Guide de l’utilisateur IP relais Canada
+title: Guide d’utilisation de IP Relay Canada
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -9,7 +9,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: None
@@ -17,68 +17,68 @@ f1keywords: None
 ms.custom:
 - Legal
 hideEdit: true
-description: Comment utiliser un compte de relais IP pour le Canada.
-ms.openlocfilehash: b5f6d268db302b4b0446c5f692bb7e27daa60b17
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Comment utiliser un compte IP Relay pour le Canada.
+ms.openlocfilehash: 8fa60a7e8a5b91326733aacde610bc2ed125a627
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32224191"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306557"
 ---
 # <a name="ip-relay-in-canada---user-guide"></a>Relais IP au Canada - guide de l’utilisateur
 
-Description du service de relais de Message IP de Microsoft :
+Description du service de relais de messages IP de Microsoft:
 
 ## <a name="scenario-a"></a>Scénario A
-Si une personne malentendants ou vocale souhaite contacter une personne non compromis, ils « chat » via un client web spéciaux à un agent appelé un rapporteur appeler.
+Si une personne qui ne s’est pas à l’écoute ou à l’écoute ne souhaite pas contacter une personne qui n’est pas une déficience, elle «discute» par le biais d’un client Web spécial à un agent appelé preneur d’appel.
 
-L’appel rapporteur communique avec la personne malentendants ou vocale par le biais de la session de conversation, puis contacte la personne non affectées par le biais du réseau téléphonique n’importe où dans Canada ou aux États-Unis, selon les besoins.
+Le preneur d’appel communique ensuite avec la personne qui ne se trouve pas dans la session de discussion et contacte la personne non altérée par le biais du réseau téléphonique n’importe où dans le Canada ou les États-Unis, le cas échéant.
 
 ## <a name="scenario-b"></a>Scénario B
-Si une personne non compromis souhaite parler à un utilisateur inscrit - ou vocale-malentendants, ils appellent le numéro gratuit fourni par Microsoft.
+Si une personne qui ne s’est pas à l’écoute ne souhaite pas parler à un utilisateur qui s’est inscrit à un appel d’audition ou de voix, elle appelle le numéro gratuit tel qu’il est fourni par Microsoft.
 
-Le rapporteur appeler puis communique avec la personne non affectées et contacts de la personne malentendants ou voice Chat et communique et inversement.
+Le preneur d’appel communique alors avec la personne qui n’a pas de déficience et contacte la personne qui ne fait pas l’audition ou la voix, et le communique.
 
-La personne malentendants ou vocale pas soit en ligne dans le programme de la conversation, si une adresse de messagerie est disponible du rapporteur appeler envoyer un courrier électronique à la personne malentendants ou vocale, si vous avez demandé à l’appelant.
+Si une personne ne peut pas être connectée dans le programme de discussion, si une adresse e-mail est disponible, le preneur d’appel envoie un courrier électronique à la personne à l’audition ou à la voix, le cas échéant.
 
 ## <a name="scenario-c"></a>Scénario C
-Si une personne malentendants ou vocale nécessite l’aide d’urgence, il peut sélectionner le bouton approprié : 911 – Police / 911 – déclenche / 911 – Samu.
+Si une personne sourde ou qui a des troubles de la voix nécessite une assistance d’urgence, il est possible qu’elle sélectionne le bouton approprié: 911-police/911-Fire/911-ambulance.
 
-Cela envoie une notification d’urgence pour les opérateurs du Nord relais IP, qui auront accès puis le compte 911 conçu à cet effet. Une fois l’appel rapporteur a confirmé son adresse, ils seront contactez le PSAP approprié et restez en ligne pour tant que nécessaire.
+Cette opération envoie une notification d’urgence aux opérateurs de relais IP du Nord, qui accèderont ensuite au compte 911 conçu à cette fin. Lorsque le preneur de l’appel confirme son adresse, il contacte le PSAPI approprié et reste sur la ligne aussi longtemps que nécessaire.
 
-## <a name="how-to-place-a-text-chat-to-voice-call"></a>Comment placer une conversation texte pour un appel vocal
+## <a name="how-to-place-a-text-chat-to-voice-call"></a>Comment passer un appel vidéo à une conversation vocale
 
 https://aka.ms/IPRelay
 
-Pour lancer un texte à un appel vocal, accédez à l’URL ci-dessus et connectez-vous avec votre nom d’utilisateur de relais de Message IP et le mot de passe.
+Pour envoyer un SMS vers un appel audio, accédez à l’URL ci-dessus et connectez-vous à l’aide du nom d’utilisateur et du mot de passe de votre relais de messages IP.
 
 Une fois connecté, vous verrez les instructions affichées sur le côté gauche de votre écran.
 
-### <a name="how-to-make-a-text-to-voice-call"></a>Comment rendre un texte à un appel vocal :
+### <a name="how-to-make-a-text-to-voice-call"></a>Comment passer un appel vidéo vers un message vocal:
 1. Dans le coin inférieur droit de l’écran, cliquez sur **conversation**.
 2. Cliquez sur l’utilisateur **IPRelay** .
-3. En bas de la nouvelle zone qui s’affiche, tapez votre message.
+3. Dans la partie inférieure de la nouvelle boîte de dialogue qui s’affiche, tapez votre message.
 
-### <a name="how-to-receive-a-voice-to-text-call"></a>Comment faire pour recevoir une voix à l’appel de texte :
-- Les utilisateurs de voix vous devrez connaître votre nom d’utilisateur du relais de Message IP afin de placer une voix à l’appel de texte.
-- Les utilisateurs de voix peuvent appeler (866) 660-8613 de se connecter à un opérateur relais de Message IP.
-- Vous devez être connecté au portail de relais de Message IP pour recevoir des appels ou des conversations.
+### <a name="how-to-receive-a-voice-to-text-call"></a>Comment recevoir des appels vocaux et de texte:
+- Les utilisateurs de la voix doivent connaître votre nom d’utilisateur de relais de messages IP pour pouvoir passer un appel audio.
+- Les utilisateurs vocaux peuvent appeler (866) 660-8613 pour se connecter à un opérateur de relais de messages IP.
+- Vous devez être connecté au portail de relais de messages IP pour recevoir des appels ou des discussions.
 
-### <a name="how-to-place-a-911-call"></a>Comment passer un appel 911 :
-Si vous rencontrez une situation d’urgence, vous pouvez sélectionner le bouton d’urgence approprié situé en bas de l’écran (comme indiqué ci-dessous).
+### <a name="how-to-place-a-911-call"></a>Comment passer un appel 911:
+En cas d’urgence, vous pouvez sélectionner le bouton d’urgence approprié situé en bas de votre écran (comme illustré ci-dessous).
 
 ![Boutons d’urgence](../images/ip-relay-emergency-buttons.png)
 
-L’opérateur de relais de Message IP contacte 911, vérifiez votre adresse et traduire avec différents centres de secours jusqu'à ce que qu’il n’est plus nécessaire, le service approprié a été expédié à votre emplacement.
+L’opérateur de relais de messages IP contacte 911, confirme votre adresse et se traduit par divers centres d’urgence jusqu’à ce qu’il ne soit plus requis et que le service approprié ait été envoyé à votre emplacement.
 
 > [!WARNING]
-> Veuillez ne testez pas ce service, comme l’Agence approprié sera contacté et éventuellement exécuté même si vous indiquez il est simplement un test, et que vous deviez payer frais auprès de l’organisme secours expédition false.
+> N’hésitez pas à tester ce service, car l’Agence appropriée sera contactée et peut être expédiée même si vous indiquez qu’il s’agit d’un simple test et que vous risquez d’obtenir des frais d’expédition faux de l’organisme d’urgence.
 
-#### <a name="customer-support"></a>Prise en charge du client :
-Veuillez contacter des projets spécifiques à [specialprojects@northern911.com](mailto:specialprojects@northern911.com) ou (705) 222-1733.
+#### <a name="customer-support"></a>Service clientèle:
+Veuillez contacter des projets spéciaux sur [SpecialProjects@northern911.com](mailto:specialprojects@northern911.com) ou (705) 222-1733.
 
 > [!IMPORTANT]
-> Northern911 gère le service de relais IP pour le compte Microsoft.
+> Northern911 gère le service de relais IP de la part de Microsoft.
 
 ## <a name="related-topics"></a>Voir aussi
 

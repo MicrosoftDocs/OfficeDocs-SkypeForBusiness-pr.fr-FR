@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Découvrez ce que vous devez savoir sur les codes confidentiels et comment les réinitialiser dans Microsoft Teams. '
-ms.openlocfilehash: 56ea27ddf535f7ce23d5a25415b0a5921cfb2d6e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7e69b883156a6aed331f0cd401eb87e371809695
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33912302"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306575"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-microsoft-teams"></a>Réinitialiser le code confidentiel d’audioconférence dans Microsoft Teams
 
@@ -35,13 +35,13 @@ Les réunions peuvent commencer lorsqu'un utilisateur authentifié les rejoint e
 
 ## <a name="reset-a-users-pin"></a>Réinitialiser le code confidentiel d’un utilisateur
 
-![les équipes-logo-30x30.png](media/teams-logo-30x30.png) **à l’aide du centre d’administration Microsoft équipes**
+![teams-logo-30x30. png](media/teams-logo-30x30.png) **à l’aide du centre d’administration Microsoft teams**
 
-1. Dans la navigation de gauche, cliquez sur **utilisateurs**, puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
+1. Dans le volet de navigation de gauche, cliquez sur **utilisateurs**, puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
 
-2. Cliquez sur **Modifier**.
+2. Cliquez sur **modifier**.
 
-3. **Conférence Audio**, cliquez sur **Réinitialiser le code confidentiel**.
+3. Sous **audioconférence**, cliquez sur **Réinitialiser le code confidentiel**.
 
 4. Cliquez sur **Réinitialiser**.
  
@@ -50,25 +50,25 @@ Les réunions peuvent commencer lorsqu'un utilisateur authentifié les rejoint e
    
 ## <a name="have-a-user-reset-his-or-her-own-pin"></a>Réinitialisation par un utilisateur de son propre code confidentiel
 
-1. Demandez à l’utilisateur d’accéder à [https://admin0m.online.lync.com/lscp/usp/pstnconferencing](https://admin0m.online.lync.com/lscp/usp/pstnconferencing).
+1. Demander à l’utilisateur d' [https://admin0m.online.lync.com/lscp/usp/pstnconferencing](https://admin0m.online.lync.com/lscp/usp/pstnconferencing)accéder à.
 2. Cliquez sur **Réinitialiser le code confidentiel**. 
 
 
 ## <a name="what-else-should-you-know-about-pins"></a>Que devez-vous savoir d'autre sur les codes confidentiels ?
 
-- Pour des raisons de sécurité, le code confidentiel n'est affiché qu'une fois à l'administrateur lors de la réinitialisation du code confidentiel. Une fois que le code confidentiel est réinitialisé par un administrateur, le code confidentiel est répertorié comme ***.
+- Pour des raisons de sécurité, le code confidentiel n'est affiché qu'une fois à l'administrateur lors de la réinitialisation du code confidentiel. Après la réinitialisation de votre code confidentiel par un administrateur, le code confidentiel sera répertorié comme suit:
     
-- Envoyer automatiquement des messages électroniques aux utilisateurs est activée par défaut, et les utilisateurs reçoivent un message électronique avec leur code confidentiel lorsqu’elles sont activées pour les services d’audioconférence ou lorsque le code confidentiel est réinitialisé. Mais si vous avez désactivé automatiquement l’envoi d’e-mails, un message électronique de réinitialisation du code confidentiel ne seront pas envoyé à un utilisateur et vous devez envoyer manuellement les informations de code confidentiel à l’utilisateur.
+- L’envoi automatique de courriers électroniques à des utilisateurs est activé par défaut, et les utilisateurs reçoivent un message électronique contenant leur code confidentiel lorsqu’ils sont activés pour les conférences audio ou lorsque le code confidentiel est réinitialisé. Mais si vous avez désactivé l’envoi automatique de courriers électroniques, un message de réinitialisation du code confidentiel n’est pas envoyé à l’utilisateur et vous devrez lui envoyer manuellement les informations sur le code confidentiel.
     
 - Lorsqu'une réunion commence, tous les utilisateurs qui se trouvent dans la salle d'attente participent automatiquement à l'événement. Par exemple, si deux participants tentent de participer à une réunion avant qu'elle ait commencé, ils sont placés dans la salle d'attente et entendent de la musique pour patienter. Lorsque l'organisateur saisit son code confidentiel sur le clavier du téléphone, il commence la réunion, ce qui permet aux utilisateurs jusqu'alors en salle d'attente d'y participer.
     
-- Le paramètre par défaut n’autorise ne pas une réunion doit être démarré par les appelants anonymes.
+- Par défaut, les appelants anonymes ne permettent pas de démarrer une réunion.
     
-- Lorsque vous activez un utilisateur pour l’audioconférence, par défaut, ils sont envoyés les messages électroniques qui incluent des informations de conférence et de leur code confidentiel. L’utilisateur doit avoir une boîte aux lettres Office 365, étant donné que lorsqu’un code confidentiel est réinitialisé, un nouveau code confidentiel sera envoyé à l’utilisateur dans le message électronique à leur adresse SMTP principale (alias) est définie pour l’utilisateur.
+- Lorsque vous activez un utilisateur pour l’audioconférence, il est envoyé par défaut des messages électroniques qui incluent des informations de conférence et leur code confidentiel. L’utilisateur doit avoir une boîte aux lettres Office 365, car lorsqu’un code confidentiel est réinitialisé, un nouveau code confidentiel sera envoyé à l’utilisateur dans un message électronique à l’adresse SMTP principale (alias) définie pour l’utilisateur.
     
-- Lorsque vous configurez les services d’audioconférence, vous définissez les chiffres qui sont requis pour les codes confidentiels dans votre organisation. Les codes confidentiels peuvent comporter de 4 à 12 chiffres, la valeur par défaut étant 5. Si vous modifiez le paramètre de longueur de code confidentiel, le paramètre est appliqué uniquement sur les codes confidentiels nouvellement créés et n’est pas appliqué au paramètre code confidentiel pour les utilisateurs existants qui sont activées pour l’audioconférence. Voir [définir la longueur de l’axe des réunions de conférence Audio](Set-the-PIN-length-for-Audio-Conferencing-meetings-in-teams.md).
+- Lorsque vous configurez l’audioconférence, vous définissez les chiffres requis pour les broches de votre organisation. Les codes confidentiels peuvent comporter de 4 à 12 chiffres, la valeur par défaut étant 5. Si vous modifiez le paramètre de longueur du code confidentiel, ce paramètre n’est appliqué qu’aux codes confidentiels générés et ne s’applique pas au paramètre code confidentiel pour les utilisateurs existants qui sont activés pour les conférences audio. Reportez-vous [à la section définir la longueur du code confidentiel pour les réunions de conférence audio](Set-the-PIN-length-for-Audio-Conferencing-meetings-in-teams.md).
     
-- Le courrier électronique par défaut est fixé à l’adresse SMTP principale d’Office 365 de l’utilisateur. Vous pouvez envoyer un message électronique à une adresse non Office 365 tels que Hotmail ou MSN. Vous pouvez changer l’adresse de messagerie par défaut à l’aide de Windows PowerShell. Cela est utile si les utilisateurs ne disposent pas d'une boîte aux lettres Exchange dans Office 365.
+- Par défaut, l’adresse de courrier est définie sur 365 l’adresse SMTP principale de l’utilisateur. Vous pouvez envoyer un courrier électronique à une adresse 365 autre qu’Office, telle qu’une adresse de messagerie Hotmail ou MSN. Vous pouvez changer l’adresse de messagerie par défaut à l’aide de Windows PowerShell. Cela est utile si les utilisateurs ne disposent pas d'une boîte aux lettres Exchange dans Office 365.
 
     
 

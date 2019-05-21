@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.ArchivingGeneralSettingsExpander
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 0b820af7-8d00-42e2-979c-dbae17159a08
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Dans le générateur de topologie, vous pouvez modifier les propriétés d’un serveur individuel exécutant l’archivage en cliquant sur le serveur avec le bouton droit dans l’arborescence de la console, puis sur Action dans la barre d’outils ou en cliquant sur une tâche dans le volet Actions, puis sur Modifier les propriétés pour modifier l’une des options suivantes :'
-ms.openlocfilehash: f75614f1720466a4a4d4ba27ef5542e2cfd4036e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: bf2f1304cdf3beb3c49aca93839eca5c24b277ad
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33887096"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306104"
 ---
 # <a name="archiving-server-general-settings-expander"></a>Développeur des paramètres généraux du serveur d’archivage
  

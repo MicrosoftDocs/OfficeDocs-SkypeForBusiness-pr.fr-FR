@@ -12,24 +12,24 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 'Obtenir les étapes pour créer un numéro de téléphone par défaut pour les appelants à participer à une réunion Microsoft Teams. '
-ms.openlocfilehash: 890fe76e455d68868b007537eba6084bf32ad4b5
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Découvrez les étapes nécessaires pour créer un numéro de téléphone par défaut permettant aux appelants de participer à une réunion Microsoft Teams. '
+ms.openlocfilehash: 334c35a356e73f20a5344ba09c88aac0bde5d83b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32205013"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305324"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>Définir les numéros de téléphone inclus dans les invitations dans Microsoft Teams
 
-Services d’audioconférence dans Office 365 permet aux utilisateurs de votre organisation de créer des réunions Microsoft Teams, puis autoriser les utilisateurs à se connecter à ces réunions à l’aide d’un téléphone.
+L’audioconférence dans Office 365 permet aux utilisateurs de votre organisation de créer des réunions Microsoft Teams, puis de permettre aux utilisateurs de se connecter à ces réunions à l’aide d’un téléphone.
   
 Un pont de conférence vous offre un ensemble de numéros de téléphone pour votre organisation. Tous ces ponts peuvent servir à participer à des réunions créées par un organisateur de réunion, mais vous pouvez sélectionner ceux qui doivent être inclus dans les invitations de réunion.
   
@@ -39,35 +39,35 @@ Un pont de conférence vous offre un ensemble de numéros de téléphone pour vo
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
-## <a name="initial-assignment-of-phone-numbers-that-are-included-in-the-meeting-invites-for-new-users"></a>Invite d’affectation initiale des numéros de téléphone qui sont inclus dans la réunion pour les nouveaux utilisateurs
+## <a name="initial-assignment-of-phone-numbers-that-are-included-in-the-meeting-invites-for-new-users"></a>Attribution initiale des numéros de téléphone inclus dans les invitations aux réunions pour les nouveaux utilisateurs
 
-Les numéros de téléphone incluses dans la réunion invite d’utilisateurs activés pour la conférence Audio sont définies par le numéro d’appel payant conférence par défaut et les paramètres de l’utilisateur par défaut conférence gratuit numéro. Chaque paramètre spécifie le numéro payant et le numéro gratuit seront inclus dans l’invitation à la réunion d’un utilisateur donné. Comme mentionné ci-dessus, chaque invitation à la réunion contient un numéro, un seul numéro gratuit facultatif et un lien qui ouvre la liste complète de tous les numéros de téléphone qui peut être utilisé pour participer à une réunion donnée.
+Les numéros de téléphone inclus dans les invitations aux réunions des utilisateurs activés pour les conférences audio sont définis par le numéro de téléphone payant par défaut et les paramètres de l’utilisateur numéro de téléphone gratuit pour la Conférence par défaut. Chacun d’eux spécifie le numéro payant et le numéro gratuit inclus dans l’invitation à la réunion d’un utilisateur donné. Comme indiqué plus haut, chaque invitation à une réunion contient un numéro payant, un numéro gratuit facultatif et un lien permettant d’ouvrir la liste complète de tous les numéros de téléphone rendez-vous qui peuvent être utilisés pour participer à une réunion donnée.
 
-Pour un nouvel utilisateur, les numéros d’appel payant de conférence par défaut sont affectée en fonction du pays est défini dans le profil de l’utilisateur d’Office 365 lorsque l’utilisateur est activé pour le service de conférence Audio. Si le pont de conférence qui correspond à celui de l’utilisateur est un numéro de téléphone payant, ce numéro est automatiquement attribué en tant que le numéro par défaut de l’utilisateur. Si vous n’en est pas, le nombre est défini comme le numéro par défaut du pont de conférence sera assignée comme le numéro par défaut de l’utilisateur.  
+S’il s’agit d’un nouvel utilisateur, les numéros payants de la Conférence par défaut sont attribués en fonction du pays défini dans le profil 365 Office de l’utilisateur lorsque l’utilisateur est activé pour le service d’audioconférence. S’il existe un numéro payant dans le pont de conférence qui correspond au pays de l’utilisateur, ce numéro sera automatiquement attribué en tant que numéro payant par défaut de l’utilisateur. Si ce n’est pas le cas, le numéro défini en tant que numéro payant par défaut du pont de conférence sera affecté en tant que numéro payant par défaut de l’utilisateur.  
 
-Une fois que l’utilisateur est activé pour le service de conférence Audio, le numéro payant par défaut et les numéros de téléphone de l’utilisateur peuvent être modifiés par l’administrateur de clients à partir de leurs valeurs initiales à tout moment.
+Lorsque l’utilisateur est activé pour le service d’audioconférence, les numéros de téléphone gratuits et payants par défaut de l’utilisateur peuvent être modifiés à tout moment par l’administrateur client.
 
-## <a name="set-or-change-the-default-audio-conferencing-phone-number-for-a-meeting-organizer-or-user"></a>Définir ou modifier le numéro de téléphone de conférence audio par défaut pour un utilisateur ou un organisateur de la réunion
+## <a name="set-or-change-the-default-audio-conferencing-phone-number-for-a-meeting-organizer-or-user"></a>Définir ou changer le numéro de téléphone de l’audioconférence par défaut pour un utilisateur ou un organisateur de la réunion
 
-![les équipes-logo-30x30.png](media/teams-logo-30x30.png) **à l’aide du centre d’administration Microsoft équipes**
+![teams-logo-30x30. png](media/teams-logo-30x30.png) **à l’aide du centre d’administration Microsoft teams**
 
-1. Dans la navigation de gauche, cliquez sur **utilisateurs**, puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
+1. Dans le volet de navigation de gauche, cliquez sur **utilisateurs**, puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
 
-    ![Affiche la sélection des utilisateurs dans le centre d’administration Microsoft Teams](media/teams-set-phone-numbers-on-invites-image1.png)
+    ![Sélection des utilisateurs dans le centre d’administration Microsoft teams](media/teams-set-phone-numbers-on-invites-image1.png)
 
 2. En haut de la page, cliquez sur **Modifier**.
 
-    ![Cliquez sur Modifier dans le centre d’administration Microsoft Teams](media/teams-set-phone-numbers-on-invites-image2.png)
+    ![Cliquez sur modifier dans le centre d’administration Microsoft teams](media/teams-set-phone-numbers-on-invites-image2.png)
 
 3. A côté de **Conférence Audio**, cliquez sur **Modifier**. 
     
-    ![Cliquez sur Modifier en regard de conférence Audio](media/teams-set-phone-numbers-on-invites-image3.png)
+    ![Cliquez sur modifier en regard de audioconférence](media/teams-set-phone-numbers-on-invites-image3.png)
 
-4. Utilisez les champs de **numéro de téléphone payant** ou **numéro d’appel gratuit** pour entrer les numéros pour l’utilisateur.
+4. Utilisez les champs **numéro payant** ou **numéro gratuit** pour entrer les numéros de l’utilisateur.
 
 
 > [!IMPORTANT]
-> Lorsque vous modifiez les paramètres de conférence audio d’un utilisateur, périodiques et futures réunions Teams Microsoft doivent être mis à jour et envoyées aux participants. 
+> Lorsque vous modifiez les paramètres d’audioconférence d’un utilisateur, les réunions périodiques et périodiques de Microsoft teams doivent être mises à jour et envoyées aux participants. 
 
 ## <a name="want-to-use-windows-powershell"></a>Vous souhaitez utiliser Windows PowerShell ?
 

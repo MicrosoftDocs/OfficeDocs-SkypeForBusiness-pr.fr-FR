@@ -1,33 +1,33 @@
 ---
-title: (Facultatif) Groupe de réponse de définir les heures d’ouverture Skype pour les entreprises
+title: Facultatif Définir des heures d’activité de groupe de réponse dans Skype entreprise
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d62551b2-1847-4e1b-abe8-683b72aa94d5
-description: Créer ou modifier des heures d’ouverture, dans Skype pour Business Server Enterprise Voice Response Group.
-ms.openlocfilehash: e98bfcf07b48811957c659fc865edda930f33da7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Créez ou modifiez les heures d’activité du groupe de réponses dans Skype entreprise Server Voice.
+ms.openlocfilehash: 9f00e89bede48af8c36de93da951df9b69a692e1
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894639"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306332"
 ---
-# <a name="optional-define-response-group-business-hours-in-skype-for-business"></a>(Facultatif) Groupe de réponse de définir les heures d’ouverture Skype pour les entreprises 
+# <a name="optional-define-response-group-business-hours-in-skype-for-business"></a>Facultatif Définir des heures d’activité de groupe de réponse dans Skype entreprise 
  
-Créer ou modifier des heures d’ouverture, dans Skype pour Business Server Enterprise Voice Response Group.
+Créez ou modifiez les heures d’activité du groupe de réponses dans Skype entreprise Server Voice.
   
 ## <a name="defining-business-hours"></a>Définition des heures d’ouverture
 
 Les paramètres des heures d’ouverture définissent si le flux de travail est disponible pour répondre aux appels et spécifient les actions à prendre lorsque les appels sont passés en dehors des heures d’ouverture. Les administrateurs de Response Group peuvent utiliser l’applet de commande **New-CsRgsHoursOfBusiness** afin de créer des plannings prédéfinis disponibles pour un nombre de groupes Response Group quelconque.
   
 > [!TIP]
-> Lorsque vous créez ou modifiez un flux de travail, vous pouvez spécifier un planning personnalisé s’appliquant uniquement à ce flux de travail. Pour plus d’informations, voir [conception et créer des flux de travail de groupe dans Skype pour les entreprises de réponse](designing-and-creating-response-group-workflows.md). 
+> Lorsque vous créez ou modifiez un flux de travail, vous pouvez spécifier un planning personnalisé s’appliquant uniquement à ce flux de travail. Pour plus d’informations, reportez-vous à [conception et création de flux de travail de groupe de réponse dans Skype entreprise](designing-and-creating-response-group-workflows.md). 
   
 > [!NOTE]
 > Si un flux de travail est défini en tant que flux de travail géré, alors tous les utilisateurs affectés au rôle CsResponseGroupManager peuvent définir et modifier les heures d’ouverture personnalisées des flux de travail qu’ils gèrent. 
@@ -37,9 +37,9 @@ Les paramètres des heures d’ouverture définissent si le flux de travail est 
   
 ### <a name="to-create-a-predefined-business-hours-collection"></a>Pour créer une collection d’heures d’ouverture prédéfinie
 
-1. Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre de l’un des rôles d’administration prédéfinis qui prennent en charge Response Group.
+1. Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre de l’un des rôles d’administration prédéfinis prenant en charge Response Group.
     
-2. Démarrez le Skype pour Business Server Management Shell : cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Skype pour Business 2015**, puis cliquez sur **Skype pour Business Server Management Shell**.
+2. Démarrez Skype entreprise Server Management Shell: cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
     
 3. Pour chaque plage horaire unique que vous souhaitez définir, exécutez :
     
@@ -64,6 +64,6 @@ Les paramètres des heures d’ouverture définissent si le flux de travail est 
 
 ## <a name="see-also"></a>Voir aussi
 
-[New-CsRgsTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csrgstimerange?view=skype-ps)
+[Nouveau-CsRgsTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csrgstimerange?view=skype-ps)
   
-[Nouvelle-CsRgsHoursOfBusiness](https://docs.microsoft.com/powershell/module/skype/new-csrgshoursofbusiness?view=skype-ps)
+[Nouveau-CsRgsHoursOfBusiness](https://docs.microsoft.com/powershell/module/skype/new-csrgshoursofbusiness?view=skype-ps)

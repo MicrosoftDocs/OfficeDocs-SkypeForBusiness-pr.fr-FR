@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,18 +24,18 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plansfor Business and Microsoft Teams available for Moldova."
-ms.openlocfilehash: e9ed4fb86bd7eb15fe08563ac652579cfcacf712
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 2c92121b734b8f792bcd0739bb27a7abd53570ae
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32203584"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287976"
 ---
 # <a name="availability-in-moldova"></a>Disponibilité en Moldavie
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ou renseignez-vous sur la disponibilité des forfaits d'appels et d'audioconférence selon les régions et les pays.
 
-Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft disponible à la Moldova.
+Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibles en Moldavie.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 
@@ -43,7 +43,7 @@ Voici les services Office 365 pour Skype pour les entreprises et Teams Microsoft
 |:-----|:-----|
 |L'audioconférence est-elle disponible à l'achat ?  <br/> |Non  <br/> |
 |Les numéros de téléphone sont-ils attribués automatiquement pour l'audioconférence ?  <br/> |Non  <br/> |
-|Fonction de numérotation à l'aide de la fonctionnalité M'appeler  <br/> |Requiert les crédits de communication  <br/> |
+|Fonction de numérotation à l'aide de la fonctionnalité M'appeler  <br/> |Nécessite des crédits de communication  <br/> |
    
 ## <a name="phone-system"></a>Système téléphonique
 

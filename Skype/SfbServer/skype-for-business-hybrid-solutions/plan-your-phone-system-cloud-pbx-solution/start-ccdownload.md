@@ -5,24 +5,24 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 8/8/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 19338a34-1bfb-4787-b057-5e34a333711d
-description: L’applet de commande Start-CcDownload télécharge le Skype pour bits Édition nuage connecteur et fichier msi de façon synchrone.
-ms.openlocfilehash: cc157825df75a4534422cb0a2fd07abb0ae0daea
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+description: L’applet de connexion Start-CcDownload télécharge les fichiers bits et le fichier MSI de Skype entreprise version Cloud Connector.
+ms.openlocfilehash: 184c15d1932a179bb9ae07da515eeacfc115dfae
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893837"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286942"
 ---
 # <a name="start-ccdownload"></a>Start-CcDownload
  
-L’applet de commande Start-CcDownload télécharge le Skype pour bits Édition nuage connecteur et fichier msi de façon synchrone.
+L’applet de connexion Start-CcDownload télécharge les fichiers bits et le fichier MSI de Skype entreprise version Cloud Connector.
   
-Avec le nuage connecteur version 2.0 et versions ultérieure, vous pouvez également spécifier le paramètre DownloadBitsOnly.
+Avec le Cloud Connector version 2,0 et les versions ultérieures, vous pouvez également spécifier le paramètre DownloadBitsOnly.
   
 ```
 Start-CcDownload [[-DownloadUrlRoot] <string>] [-DownloadBitsOnly]  [<CommonParameters>]
@@ -33,7 +33,7 @@ Start-CcDownload [[-DownloadUrlRoot] <string>] [-DownloadBitsOnly]  [<CommonPara
 
 ### <a name="example-1"></a>Exemple 1
 
-L’exemple suivant télécharge les bits nuage connecteur et le fichier msi de façon synchrone à partir du site de téléchargement public nuage connecteur :
+L’exemple ci-après télécharge les bits et le fichier MSI du Cloud Connector à partir du site de téléchargement public Cloud Connector:
   
 ```
 Start-CcDownload
@@ -41,7 +41,7 @@ Start-CcDownload
 
 ### <a name="example-2"></a>Exemple 2
 
-L’exemple suivant télécharge les bits nuage connecteur et le fichier msi de façon synchrone à partir d’un site de téléchargement privée :
+L’exemple suivant télécharge les fichiers msi et de connexion Cloud à partir d’un site de téléchargement privé:
   
 ```
 Start-CcDownload -DownloadUrlRoot "http://downloadserver/cloudconnector/latest"
@@ -49,7 +49,7 @@ Start-CcDownload -DownloadUrlRoot "http://downloadserver/cloudconnector/latest"
 
 ### <a name="example-3"></a>Exemple 3
 
-Le troisième exemple télécharge les bits nuage connecteur et le fichier msi de façon synchrone à partir d’un site de téléchargement privée.
+Le troisième exemple télécharge les fichiers msi et de connexion Cloud à partir d’un site de téléchargement privé.
   
 ```
 Start-CcDownload -DownloadBitsOnly
@@ -58,20 +58,20 @@ Start-CcDownload -DownloadBitsOnly
 ## <a name="detailed-description"></a>Description détaillée
 <a name="DetailedDescription"> </a>
 
-Si une nouvelle version est disponible dans le site de téléchargement, Start-CcDownload télécharger et installer le fichier msi à partir du site de téléchargement et puis le télécharger sur le nuage connecteur de façon synchrone. S’il n’existe aucune nouvelle version du fichier msi, Start-CcDownload télécharge les fichiers binaires dans le nuage connecteur uniquement. Si les fichiers binaires dans le nuage connecteur sont déjà téléchargés, Start-CcDownload ne s’exécute pas.
+Dans le cas où une nouvelle version est disponible sur le site de téléchargement, Start-CcDownload télécharge et installe le fichier MSI à partir du site de téléchargement, puis télécharge les bits du connecteur Cloud de manière synchrone. S’il n’y a pas de nouvelle version du fichier MSI, Start-CcDownload télécharge uniquement les bits du connecteur Cloud. Si les bits du connecteur Cloud ont déjà été téléchargés, Start-CcDownload ne s’exécute pas.
   
 ## <a name="parameters"></a>Paramètres
 <a name="DetailedDescription"> </a>
 
 |**Paramètre**|**Obligatoire**|**Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-|DownloadUrlRoot  <br/> | Facultatif  <br/> |System.String  <br/> | Site de téléchargement de l’URL complète d’une version spécifique du nuage connecteur privées. Utilisez ce paramètre avec précaution, vérifiez que vous avez pris connaissance de la version du nuage connecteur télécharger. <br/> |
-|DownloadBitsOnly  <br/> |Facultatif  <br/> |System.Management.Automation.SwitchParameter  <br/> |Ignorez l’étape pour télécharger et installer MSI à partir du site de téléchargement, télécharger uniquement les bits de nuage connecteur.  <br/> |
+|DownloadUrlRoot  <br/> | Facultatif  <br/> |System.String  <br/> | URL complète d’une version spécifique du Cloud Connector dans le site de téléchargement privé. Utilisez ce paramètre avec précaution; Vérifiez quelle version de Cloud Connector vous téléchargez. <br/> |
+|DownloadBitsOnly  <br/> |Facultatif  <br/> |System.Management.Automation.SwitchParameter  <br/> |Ignorer l’étape permettant de télécharger et d’installer MSI à partir du site de téléchargement, téléchargez uniquement les bits du connecteur Cloud.  <br/> |
    
 ## <a name="input-types"></a>Types d’entrées
 <a name="InputTypes"> </a>
 
-Aucun. L’applet de commande Start-CcDownload n’accepte pas la saisie de données redirigées.
+Aucun. L’applet de commande Start-CcDownload n’accepte pas les entrées pipelines.
   
 ## <a name="return-types"></a>Types de retours
 <a name="ReturnTypes"> </a>

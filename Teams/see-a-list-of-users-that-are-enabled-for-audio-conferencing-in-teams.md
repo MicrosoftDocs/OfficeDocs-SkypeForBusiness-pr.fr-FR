@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
@@ -20,30 +20,30 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Découvrez comment afficher la liste des utilisateurs dans votre organisation pour lesquels la conférence rendez-vous est activée dans Microsoft Teams. '
-ms.openlocfilehash: 2e1c74ccd856f32e8ff577ed7f718715e9e3c1b7
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 15eda1623438138b688da38a862fefa17d2d3ec4
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204993"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305347"
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-microsoft-teams"></a>Afficher la liste des utilisateurs pour lesquels l'audioconférence est activée dans Microsoft Teams
 
-Une fois que vous avez activé les utilisateurs de Microsoft Teams dans votre organisation pour une audioconférence, vous pouvez afficher la liste des utilisateurs qui ont été activés. 
+Après avoir activé les utilisateurs de Microsoft teams au sein de votre organisation pour les conférences audio, vous pouvez afficher la liste des utilisateurs qui ont été activés. 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
 ## <a name="viewing-a-list-of-users"></a>Afficher une liste d'utilisateurs
 
-- Dans le centre d’administration Microsoft Teams, dans la navigation de gauche, cliquez sur **utilisateurs**.
+- Dans le centre d’administration de Microsoft Teams, dans le volet de navigation de gauche, cliquez sur **utilisateurs**.
 
 
 ## <a name="what-else-should-i-know"></a>Informations supplémentaires
 
-- Lorsque vous affichez la liste des utilisateurs sont activés, vous pouvez sélectionner un utilisateur dans la liste pour modifier les paramètres de conférence audio pour cet utilisateur.
+- Lorsque vous affichez la liste des utilisateurs activés, vous pouvez sélectionner un utilisateur dans la liste pour modifier les paramètres de conférence audio de cet utilisateur.
     
-- Lorsque vous sélectionnez un utilisateur unique, vous pouvez afficher le numéro de téléphone par défaut affecté à l’utilisateur et les autres paramètres de conférence audio pertinents.    
+- Lorsque vous sélectionnez un utilisateur unique, vous pouvez afficher le numéro de téléphone par défaut attribué à l’utilisateur et les paramètres de conférence audio pertinents.    
    
 - Vous pouvez utiliser le bouton Rechercher pour rechercher un utilisateur dans la liste.
     

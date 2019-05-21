@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 4/8/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.plan.EdgeNetwork
@@ -13,17 +13,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d7f85abf-2045-4b08-ba29-c6211a3f6ff6
-description: 'La plupart des composants Edge sont déployés sur un réseau de périmètre. Les composants suivants forment la topologie Edge du réseau de périmètre. Sauf mention contraire, les composants font partie des scénarios de serveur de transport Edge dans Skype pour Business Server 2015 et se trouvent dans le réseau de périmètre. Ces composants Edge sont les suivants :'
-ms.openlocfilehash: e108b29fb21247ab4c2dae608d1edce63386a535
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'La plupart des composants Edge sont déployés sur un réseau de périmètre. Les composants suivants forment la topologie Edge du réseau de périmètre. Sauf indication contraire, les composants font partie des scénarios de serveur Edge dans Skype entreprise Server 2015 et se trouvent dans le réseau de périmètre. Ces composants Edge sont les suivants :'
+ms.openlocfilehash: 7c8f1fc9208f0b960832bb3adc676087171b1716
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33897168"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34288634"
 ---
 # <a name="edge-network-planning-tool"></a>Edge Network (Planning Tool)
  
-La plupart des composants Edge sont déployés sur un réseau de périmètre. Les composants suivants forment la topologie Edge du réseau de périmètre. Sauf mention contraire, les composants font partie des [scénarios de serveur de transport Edge dans Skype pour Business Server 2015](../../plan-your-deployment/edge-server-deployments/scenarios.md) et se trouvent dans le réseau de périmètre. Ces composants Edge sont les suivants :
+La plupart des composants Edge sont déployés sur un réseau de périmètre. Les composants suivants forment la topologie Edge du réseau de périmètre. Sauf indication contraire, les composants font partie des [scénarios de serveur Edge dans Skype entreprise Server 2015](../../plan-your-deployment/edge-server-deployments/scenarios.md) et se trouvent dans le réseau de périmètre. Ces composants Edge sont les suivants :
   
 - Serveur(s) Edge
     

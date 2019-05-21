@@ -1,54 +1,54 @@
 ---
-title: Appeler des rapports de Diagnostic (par utilisateur) dans Skype pour Business Server
+title: Rapports de diagnostic des appels (par utilisateur) dans Skype entreprise Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9da13470-001e-415f-b8c5-29b1f3b531ba
-description: 'Résumé : Découvrez les utilisateur appel rapports de Diagnostic utilisés dans Skype pour Business Server.'
-ms.openlocfilehash: 46ecaf7b18def0bb7e52c6238d1c1fc4a1f96fac
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Résumé: en savoir plus sur les rapports de diagnostics par utilisateur utilisés dans Skype entreprise Server.'
+ms.openlocfilehash: 2361d25b69d92682336e7e2d5320a32974d62b80
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33902810"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289356"
 ---
-# <a name="call-diagnostic-reports-per-user-in-skype-for-business-server"></a>Appeler des rapports de Diagnostic (par utilisateur) dans Skype pour Business Server
+# <a name="call-diagnostic-reports-per-user-in-skype-for-business-server"></a>Rapports de diagnostic des appels (par utilisateur) dans Skype entreprise Server
   
-Les rapports de diagnostic des appels fournissent des informations par utilisateur concernant les sessions de conférence et P2P ayant échoué. À ce stade, il n'est qu’un rapport, le **Rapport d’activité de l’utilisateur**.
+Les rapports de diagnostic des appels fournissent des informations par utilisateur concernant les sessions de conférence et P2P ayant échoué. Pour le moment, il n’y a qu’un seul rapport, le **rapport activité**de l’utilisateur.
 
 Le rapport d’activité de l’utilisateur fournit une liste détaillée des sessions P2P et des sessions de conférence exécutées par vos utilisateurs au cours d’une période donnée. Contrairement à la plupart des rapports de surveillance, le rapport d’activité de l’utilisateur lie chaque appel à des utilisateurs individuels. Par exemple, les sessions P2P spécifient les URI SIP de la personne à l’origine de l’appel (utilisateur d’origine) et celles de la personne qui a été appelée (utilisateur de destination). Si vous développez les informations sur une conférence, vous obtiendrez la liste de tous les participants à la conférence, ainsi que leur rôle à cette occasion.
 
 Le rapport d’activité de l’utilisateur est parfois appelé « rapport de support technique ». En effet, ce rapport est souvent utilisé par les équipes de support technique pour récupérer les informations de session d’un utilisateur spécifique. Vous pouvez filtrer les appels à destination ou en provenance d’un utilisateur individuel en tapant simplement son URI SIP dans la zone Préfixe d’URI d’utilisateur.
 
-Si vous faites cela, le rapport d’activité utilisateur retourne des informations pour tout utilisateur dont l’URI SIP commence par la chaîne spécifiée. Par exemple, si vous saisissez **ken** dans la zone URI, le rapport d’activité de l’utilisateur trouvera **Ken**.Myer@litwareinc.com. Cependant, Il trouvera aussi les utilisateurs suivants :
+Dans ce cas, le rapport activité de l’utilisateur renvoie des informations pour tout utilisateur dont l’URI SIP commence par la chaîne spécifiée. Par exemple, si vous saisissez **ken** dans la zone URI, le rapport d’activité de l’utilisateur trouvera **Ken**.Myer@litwareinc.com. Cependant, Il trouvera aussi les utilisateurs suivants :
 
-- **Ken** azi@litwareinc.com
+- **ken** azi@litwareinc.com
 
-- **Ken** burg@litwareinc.com
+- **ken** Burg@litwareinc.com
 
 - **Ken**.Sanchez@litwareinc.com
 
-- **Ken** nedy@litwareinc.com
+- **Ken** Nedy@litwareinc.com
 
-Pour que les informations uniquement Ken Myer est retourné, tapez son URI complète (Ken.Myer@litwareinc.com) dans la zone de recherche ou au moins suffisamment type de Ken URI à lui distinguer d’autres utilisateurs de votre organisation. Par exemple :
+Pour vous assurer que les informations uniquement pour Ken Myer sont retournées, tapez son URI complet (Ken.Myer@litwareinc.com) dans la zone de recherche ou le type d’URI Ken de Ken pour le différencier d’autres utilisateurs de votre organisation. Par exemple :
 
 Ken.my
 
 ## <a name="to-access-the-user-activity-report"></a>Pour accéder au rapport d’activité de l’utilisateur
 
-Le rapport d’activité de l’utilisateur est accessible via la page d’accueil des rapports de surveillance. Vous pouvez également atteindre le User Activity Report en cliquant sur la mesure URI de l’utilisateur dans le [Rapport d’inventaire de téléphonie IP dans Skype pour Business Server](ip-phone-inventory-report.md). Si vous cliquez sur URI de la conférence (pour une conférence) dans le rapport d’activité de l’utilisateur, vous accéderez au rapport détaillé de conférence. De même, cliquez sur la mesure détails d’un appel d’égal à égal pour accéder au [rapport détaillé de Session d’égal à égal dans Skype pour Business Server](peer-to-peer-session-detail-report.md).
+Le rapport d’activité de l’utilisateur est accessible via la page d’accueil des rapports de surveillance. Pour accéder au rapport d’activité de l’utilisateur, vous pouvez également cliquer sur la métrique de l’URI de l’utilisateur dans le [rapport d’inventaire des téléphones IP de Skype entreprise Server](ip-phone-inventory-report.md). Si vous cliquez sur URI de la conférence (pour une conférence) dans le rapport d’activité de l’utilisateur, vous accéderez au rapport détaillé de conférence. De même, le fait de cliquer sur la métrique détaillée d’un appel d’égal à égal vous permet d’accéder au [rapport détaillé de la session d’égal à égal dans Skype entreprise Server](peer-to-peer-session-detail-report.md).
 
 ## <a name="making-the-best-use-of-the-user-activity-report"></a>Utilisation optimale du rapport d’activité de l’utilisateur
 
-Même si le rapport d’activité de l’utilisateur contient des informations utiles, il peut parfois être difficile de les rechercher. Par exemple, toutes les activités utilisateur ayant lieu dans votre organisation pendant une période spécifiée sont incluses dans le rapport d’activité utilisateur ; que signifie que, caché, dans le rapport informations sur les utilisateurs réellement utilisés Skype pour Business Server d’une manière.
+Même si le rapport d’activité de l’utilisateur contient des informations utiles, il peut parfois être difficile de les rechercher. Par exemple, toutes les activités de l’utilisateur qui interviennent au cours d’une période donnée apparaissent dans le rapport d’activité de l’utilisateur. en d’autres termes, le rapport comporte des informations sur les utilisateurs qui ont réellement utilisé Skype entreprise Server d’une certaine façon.
 
 > [!NOTE]
-> Techniquement, il est possible qu’une activité utilisateur peut accéder non enregistrée : while Skype pour Business Server cherche à conserver des informations sur tous les appels téléphoniques, il est possible qu’un appel aurait pu être sans les informations d’appel sont écrite dans le base de données. Skype pour Business Server est conçu pour donner un aspect extrêmement précis, mais pas nécessairement parfait à l’utilisation de Skype pour Business Server. (Le fait qu’il n’existe aucune garantie que 100 % de tous les appels sont enregistrés explique pourquoi Skype pour la surveillance Business Server ne doit pas être utilisé comme un système de facturation). Seconde, un rapport de surveillance peuvent uniquement affichage, au maximum 1 000 enregistrements. Ainsi, selon le volume d’activité de vos utilisateurs et la période considérée, votre requête risque de ne pas renvoyer toutes les données effectivement stockées dans la base de données. 
+> Techniquement, il est possible que certaines activités de l’utilisateur ne soient pas enregistrées: bien que Skype entreprise Server s’efforce de conserver des informations sur tous les appels téléphoniques, il est possible qu’un appel ait été effectué sans que les informations relatives à l’appel soient écrites sur le bases. Skype entreprise Server est conçu pour donner un aspect très précis, mais pas forcément parfait pour l’utilisation de Skype entreprise Server. (Le fait qu’il n’y a aucune garantie que 100% de tous les appels sont enregistrés explique pourquoi le contrôle de Skype entreprise Server ne doit pas être utilisé comme système de facturation.) Deuxièmement, un rapport de contrôle ne peut afficher que des enregistrements 1 000. Ainsi, selon le volume d’activité de vos utilisateurs et la période considérée, votre requête risque de ne pas renvoyer toutes les données effectivement stockées dans la base de données. 
 
 - Quels sont les utilisateurs qui ont utilisé le système au cours de cette période ?
 
@@ -56,13 +56,13 @@ Même si le rapport d’activité de l’utilisateur contient des informations u
 
 - Les utilisateurs qui passent le plus grand nombre d’appels sont-ils aussi ceux qui participent le plus aux sessions de messagerie instantanée ?
 
-Si vous avez besoin de répondre à ce type de question, vous pouvez exporter les données récupérées par les rapports de surveillance dans une feuille de calcul Excel. Vous pouvez alors vous servir de cette feuille de calcul et/ou d’un fichier de valeurs séparées par des virgules (CSV) pour analyser les données de façon plus poussée que dans le rapport d’activité de l’utilisateur. Par exemple, supposons que vous ayez exporté les données du rapport dans Excel, puis dans un fichier CSV. À ce stade, vous pouvez importer les données à partir de la. Fichier CSV de Windows PowerShell à l’aide d’une commande similaire à celle-ci :
+Si vous avez besoin de répondre à ce type de question, vous pouvez exporter les données récupérées par les rapports de surveillance dans une feuille de calcul Excel. Vous pouvez alors vous servir de cette feuille de calcul et/ou d’un fichier de valeurs séparées par des virgules (CSV) pour analyser les données de façon plus poussée que dans le rapport d’activité de l’utilisateur. Par exemple, supposons que vous ayez exporté les données du rapport dans Excel, puis dans un fichier CSV. À ce stade, vous pouvez importer les données à partir du. Fichier CSV vers Windows PowerShell en utilisant une commande similaire à celle-ci:
 
 ```
 $x = Import-Csv -Path "C:\Data\User_Activity_Report.csv"
 ```
 
-Une fois que les données ont été importées vous pouvez ensuite utiliser simples commandes Windows PowerShell pour aider à répondre à vos questions. Par exemple, cette commande renvoie une liste d’utilisateurs uniques qui ont fait office d’expéditeur (« From user ») dans au moins une session :
+Une fois les données importées, vous pouvez utiliser des commandes Windows PowerShell simples pour répondre à vos questions. Par exemple, cette commande renvoie une liste d’utilisateurs uniques qui ont fait office d’expéditeur (« From user ») dans au moins une session :
 
 ```
 $x | Group-Object "From user" | Select Name | Sort-Object Name
@@ -120,7 +120,7 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 | **De** <br/>             | Date/heure de début de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de début comme suit :  <br/> 17/07/2015 13:00  <br/> Si vous ne précisez aucune heure de début, le rapport commence automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 17/07/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 13/07/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/>                                                      |
 | **À** <br/>               | Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :  <br/> 17/07/2015 13:00  <br/> Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 17/07/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 13/07/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/>                                                             |
 | **Type d’activité** <br/>    | Type d’activité. Sélectionnez l’une des options suivantes : <br/>  [Tous] <br/>  Égal à égal <br/>  Conférence <br/>      |
-| **Modalité** <br/>         | La modalité disponible varie selon le type d’activité sélectionné. Si le Type d’activité est égal à égal, vous pouvez sélectionner la messagerie instantanée ; Transfert de fichiers ; Application de partage ; Voix ; ou vidéo en tant que la modalité.  <br/> Si le type d’activité est Conférence, vous pouvez sélectionner messagerie instantanée, conférence web, partage d’application; conférence audio/vidéo ou téléconférence.  <br/>         |
+| **Modalité** <br/>         | La modalité disponible varie selon le type d’activité sélectionné. Si le type d’activité est pair à pair, vous pouvez sélectionner mi. Transfert de fichier; Partage d’application; Téléphonique ou la vidéo comme modalité.  <br/> Si le type d’activité est Conférence, vous pouvez sélectionner messagerie instantanée, conférence web, partage d’application; conférence audio/vidéo ou téléconférence.  <br/>         |
 | **Catégorie de session** <br/> | Indique si l’activité en question a réussi ou échoué. Sélectionnez l’une des options suivantes : <br/>  [Tous] <br/>  Opération réussie <br/>  Échec attendu <br/>  Échec inattendu <br/>  Un « échec attendu » est un échec prévisible. Par exemple, si un utilisateur a défini son statut sur Ne pas déranger, les appels passés à cet utilisateur échouent. Un « échec inattendu » est un échec qui se produit dans un système sain. Par exemple, un appel n’est pas censé s’interrompre lorsque l’appelant est mis en attente. Si cela se produit, l’incident est marqué comme un échec inattendu. <br/> |
 | **Préfixe URI de l’utilisateur** <br/>  | Adresse SIP pour l’utilisateur. Pour afficher exclusivement les enregistrements de l’utilisateur Ken Myer, vous devez entrer l’adresse SIP de Ken Myer. Par exemple :  <br/> sip:kenmyer@litwareinc.com  <br/>
 

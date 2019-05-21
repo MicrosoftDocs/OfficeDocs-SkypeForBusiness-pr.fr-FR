@@ -11,7 +11,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -19,13 +19,13 @@ f1keywords: None
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 'Découvrez comment acheter pour les plans Office 365 pour entreprises, des fonctionnalités et des licences supplémentaires. '
-ms.openlocfilehash: 084d60a2c21712e119657005a52dc0af11bce9a0
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'En savoir plus sur les licences de complément, les fonctionnalités et l’achat pour les offres Office 365 entreprise. '
+ms.openlocfilehash: c0da6cc3d28cb5f41e29509a7f75dbe8c3a1b476
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32238363"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290038"
 ---
 # <a name="office-365-enterprise-e5"></a>Office 365 Entreprise E5
 
@@ -34,6 +34,6 @@ Le plan [Office 365 Entreprise E5](https://products.office.com/en-us/business/of
 |||
 |:-----|:-----|
 |**Pour ajouter cette fonctionnalité** <br/> |**Voici les compléments que vous devez acheter :** <br/> |
-|**Conférence audio est incluse !** <br/> |Une fois la licence achetée, Microsoft sera votre fournisseur d’audioconférence.  <br/> |
-|**Numéros gratuits pour l’accès entrant à vos réunions et la possibilité d’effectuer des appels sortants à partir d’une réunion pour ajouter une personne en appelant le numéro de téléphone dans le monde.** <br/> |[Crédits de communication](/microsoftteams/set-up-communications-credits-for-your-organization)|
+|**Audioconférence est inclus!** <br/> |Une fois la licence achetée, Microsoft sera votre fournisseur d’audioconférence.  <br/> |
+|**Numéros gratuits pour un accès rendez-vous à vos réunions et possibilité d’appeler une personne en appelant n’importe quel numéro de téléphone dans le monde.** <br/> |[Crédits de communication](/microsoftteams/set-up-communications-credits-for-your-organization)|
 |**Le système téléphonique et la messagerie vocale sont inclus !** <br/> |Forfaits d’appels : acheter un [Forfait d’appels](/MicrosoftTeams/calling-plans-for-office-365) d’Office 365. <br/>  Ou bien, utilisez le [service de téléphone de votre fournisseur existant](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing). |

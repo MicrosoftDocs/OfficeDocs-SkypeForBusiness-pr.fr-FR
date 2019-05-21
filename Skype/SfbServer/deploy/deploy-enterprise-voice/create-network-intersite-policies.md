@@ -1,10 +1,10 @@
 ---
-title: Créer des stratégies inter-sites réseau dans Skype pour Business Server
+title: Créer des stratégies d’intersite réseau dans Skype entreprise Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,28 +13,28 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: b0714aae-55dc-4587-b718-34a03f596b22
-description: Créer des stratégies inter-sites, qui sont utilisés par le contrôle d’admission des appels d’appel Enterprise Voice dans Skype pour Business Server réseau.
-ms.openlocfilehash: 455caaf624c463bdb1c32ca8fbce70c88626c774
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Créer des stratégies réseau intersites, qui sont utilisées par le système de contrôle d’admission des appels voix entreprise dans Skype entreprise Server.
+ms.openlocfilehash: dceb48d0e87706d71de8c69b5622fbab468273b4
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892964"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286312"
 ---
-# <a name="create-network-intersite-policies-in-skype-for-business-server"></a>Créer des stratégies inter-sites réseau dans Skype pour Business Server
+# <a name="create-network-intersite-policies-in-skype-for-business-server"></a>Créer des stratégies d’intersite réseau dans Skype entreprise Server
  
-Créer des stratégies inter-sites, qui sont utilisés par le contrôle d’admission des appels d’appel Enterprise Voice dans Skype pour Business Server réseau. 
+Créer des stratégies réseau intersites, qui sont utilisées par le système de contrôle d’admission des appels voix entreprise dans Skype entreprise Server. 
   
 Une stratégie réseau intersite définit des limitations de bande passante entre des sites présentant des liens directs WAN entre eux.
   
 > [!IMPORTANT]
-> Une stratégie réseau intersite est requis *uniquement* s’il existe un lien d’accès direct entre deux sites réseau.
+> Une stratégie inter-site réseau est requise *uniquement* s’il existe un lien croisé direct entre deux sites du réseau.
   
 Dans la région Amérique du Nord de l’exemple de topologie, il existe un lien direct entre les sites Reno et Albuquerque. Ces deux sites nécessitent une stratégie intersite qui applique un profil de stratégie de bande passante approprié. L’exemple suivant applique le profil 20Mb_Link.
   
 ### <a name="to-create-a-network-inter-site-policy"></a>Pour créer une stratégie réseau intersite
 
-1. Démarrez le Skype pour Business Server Management Shell : cliquez sur **Démarrer**, sur **Tous les programmes**, cliquez sur **Skype pour Business 2015**, puis cliquez sur **Skype pour Business Server Management Shell**.
+1. Démarrez Skype entreprise Server Management Shell: cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
     
 2. Exécutez l’applet de commande New-CsNetworkInterSitePolicy pour créer des stratégies réseau intersite et appliquer un profil de stratégie de bande passante approprié pour deux sites qui présentent un lien d’accès direct. Par exemple, exécutez :
     

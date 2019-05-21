@@ -1,5 +1,5 @@
 ---
-title: Limitations de page Skype pour les utilisateurs du centre d’administration Business en ligne
+title: Limitations de la page utilisateurs du centre d’administration de Skype entreprise Online
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -19,28 +19,28 @@ f1keywords:
 - ms.lync.lac.UsersCountLimitationWarning
 ms.custom:
 - Setup
-description: 'Découvrez comment utiliser les limites de Skype pour l’affichage de l’administrateur Business en ligne d’utilisateurs. '
-ms.openlocfilehash: 37ef56ff8301586fbdf22d21830e22ff235ca1df
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Découvrez comment travailler dans les limites de l’affichage des utilisateurs dans l’administration de Skype entreprise online. '
+ms.openlocfilehash: 17865b9f369b73d4133f95d0d61fe0010052f50a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32238013"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285223"
 ---
-# <a name="skype-for-business-online-admin-center-users-page-limitations"></a>Limitations de page Skype pour les utilisateurs du centre d’administration Business en ligne
+# <a name="skype-for-business-online-admin-center-users-page-limitations"></a>Limitations de la page utilisateurs du centre d’administration de Skype entreprise Online
 
-Pour des raisons de performances le **Skype entreprise centre d’administration**affiche les 1 000 premiers utilisateurs dans votre liste des utilisateurs. Si vous avez plus de 1 000 utilisateurs, utilisez le **filtre**![Filter](../images/d360528a-a05a-4f0d-a7fd-25a6c696206a.png) et **recherche**![recherche](../images/5cc29d50-4eec-48a4-bdad-bbeae230f9ae.png) pour rechercher des personnes spécifiques que vous recherchez.
+Pour des raisons de performances, le **Centre d’administration Skype entreprise**affiche les premiers utilisateurs 1 000 dans votre liste d’utilisateurs. Si vous avez plus d’utilisateurs 1 000, utilisez ****![le filtre](../images/d360528a-a05a-4f0d-a7fd-25a6c696206a.png) de filtre et](../images/5cc29d50-4eec-48a4-bdad-bbeae230f9ae.png) la recherche de **recherche**![pour trouver les personnes que vous recherchez.
   
 ## <a name="bulk-editing"></a>Modification en bloc
 <a name="__top"> </a>
 
-1. Sélectionnez les 1 000 premiers utilisateurs — ou tout le monde retournée par votre filtre ou une recherche — en cochant la case en regard du **nom d’affichage** en haut de la liste.
+1. Sélectionnez les premiers utilisateurs de 1 000, ou tout le monde retourné par votre filtre ou recherche, en cochant la case en regard de **nom complet** en haut de la liste.
     
-2. Cliquez sur **Modifier**![modifier](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png).
+2. Cliquez sur **modifier**![](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png).
     
-Vous pouvez modifier le nombre d’utilisateurs indiqué sur chaque page avec le contrôle en bas de la liste :
+Vous pouvez modifier le nombre d’utilisateurs figurant sur chaque page au moyen de la commande en bas de la liste:
   
-![Les utilisateurs de page navigation permettant de modifier le nombre d’utilisateurs dans la page](../images/7d8ba24e-e3e8-4ff8-92f7-98ac143aab6d.png)
+![Navigation sur la page utilisateurs pour modifier le nombre d’utilisateurs de la page](../images/7d8ba24e-e3e8-4ff8-92f7-98ac143aab6d.png)
   
 ## <a name="related-topics"></a>Voir aussi
 [Configurer Skype Entreprise Online](set-up-skype-for-business-online.md)

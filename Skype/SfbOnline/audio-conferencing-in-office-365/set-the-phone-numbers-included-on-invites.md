@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Get the steps to create a default phone number for callers to join a Skype for Business Online meeting. '
-ms.openlocfilehash: c78a3fb140431dd46b3850e1d01e7fb29fb29210
-ms.sourcegitcommit: 85b135cf622c9e9eb1857ef953bc618dc2cdb51e
+ms.openlocfilehash: 2f9d7c6960eb70cff28a941903e0646197bc4c4e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "32229413"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306309"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-skype-for-business-online"></a>Définir la liste des numéros de téléphone inclus sur invite dans Skype Entreprise Online
 
@@ -55,7 +55,7 @@ A conferencing bridge gives you a set of dial-in phone numbers for your organiza
     
     ![Indique les utilisateurs au niveau du centre d’administration Skype Entreprise](../images/abc9ce4e-2250-474d-b053-b3bea8162c77.png)
   
-4. Choisir les utilisateurs à modifier :
+4. Sélectionnez les utilisateurs que vous souhaitez modifier:
     
    - Pour sélectionner un seul utilisateur, sélectionnez le nom de l’utilisateur.
     
@@ -81,7 +81,7 @@ A conferencing bridge gives you a set of dial-in phone numbers for your organiza
 
 ## <a name="reset-audio-conferencing-phone-numbers"></a>Réinitialiser les numéros de téléphone des services d’audioconférence
 
-1. Dans la **Skype entreprise centre d’administration**, choisissez **audioconférence**.
+1. Dans le **Centre d’administration de Skype entreprise**, sélectionnez **audioconférence**.
     
 2. En haut de la page, choisissez **Utilisateurs**.
     
@@ -107,30 +107,30 @@ By default, when you change a user's conferencing settings, an email is sent to 
 - Utilisez l'applet de commande **Set-CsOnlineDialInConferencingUserDefaultNumber** pour modifier le numéro gratuit ou payant par défaut des utilisateurs en fonction de leur numéro par défaut d'origine ou de leur emplacement.
     
     > [!NOTE]
-    > Pour rechercher la BridgeID, utilisez l’applet de commande **Get-CsOnlineDialInConferencingBridge** .
+    > Pour rechercher le BridgeID, utilisez l’applet **de passe Get-CsOnlineDialInConferencingBridge** .
   
   ```
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber +18005551234 -ToNumber +18005551239 NumberType TollFree -BridgeId <Bridge Id> -RescheduleMeetings 
   ```
 
-  - Pour définir le numéro d’appel gratuit par défaut pour tous les utilisateurs sans un et +18005551234, exécutez :
+  - Pour définir le numéro gratuit par défaut pour tous les utilisateurs ne disposant pas de l’une de + 18005551234, exécutez:
     
   ```
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber $null -ToNumber +18005551234 -NumberType TollFree -BridgeId <Bridge Id>  
   ```
 
-  - Pour modifier le numéro gratuit par défaut de tous les utilisateurs qui ont leur numéro gratuit par défaut à +18005551239 +18005551234, exécutez :
+  - Pour modifier le numéro gratuit par défaut de tous les utilisateurs qui disposent de + 18005551234 comme numéro gratuit par défaut de + 18005551239, exécutez la commande suivante:
     
   ```
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber +18005551234 -ToNumber +18005551239 NumberType TollFree -BridgeId <Bridge Id>
   ```
 
-  - Pour définir le numéro gratuit par défaut de tous les utilisateurs situés à +18005551234 qu’aux États-Unis, exécutez :
+  - Pour définir le numéro gratuit par défaut de tous les utilisateurs situés aux États-Unis sur 18005551234, exécutez:
     
   ```
   Set-CsOnlineDialInConferencingUserDefaultNumber -Country US -ToNumber +18005551234 -NumberType TollFree -BridgeId <Bridge Id>
   ```
-  ## <a name="want-to-learn-more-about-windows-powershell"></a>Vous souhaitez en savoir plus sur Windows PowerShell ?
+  ## <a name="want-to-learn-more-about-windows-powershell"></a>Vous voulez en savoir plus sur Windows PowerShell?
 - Windows PowerShell permet de gérer les utilisateurs et ce qu’ils sont autorisés ou non à faire. Avec Windows PowerShell, vous pouvez gérer Office 365 et Skype Entreprise Online à l’aide d’un point d’administration central qui peut simplifier votre travail quotidien, lorsque vous devez effectuer plusieurs tâches. Pour prendre en main Windows PowerShell, consultez ces rubriques :
     
   - [Présentation de Windows PowerShell et Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525039)

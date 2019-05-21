@@ -1,5 +1,5 @@
 ---
-title: Afficher, modifier et réinitialiser un ID de conférence affecté à un utilisateur de Skype pour Business Online
+title: Affichage, modification et réinitialisation d’un ID de conférence affecté à un utilisateur dans Skype entreprise Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -12,20 +12,20 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 'Découvrez comment attribuer un ID de conférence à un utilisateur de Skype pour Business en ligne et les paramètres d’ID de conférence doivent être. '
-ms.openlocfilehash: eb7d42fa88c54b917e89eb97ce9f52bd03af4935
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Découvrez comment attribuer un ID de conférence à un utilisateur dans Skype entreprise Online et quels sont les paramètres d’ID de conférence. '
+ms.openlocfilehash: 28d18b6a12fdfcb40fa43904b8cc8a0461977c38
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229330"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298920"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-skype-for-business-online"></a>Afficher et réinitialiser un ID de conférence affecté à un utilisateur de Skype Entreprise Online
 
@@ -45,7 +45,7 @@ An email will be sent to the user with the conference ID and the default audio c
 
 ### <a name="to-view-the-conference-id"></a>Pour afficher l’ID de conférence
 
-![SFB-logo-30x30.png](../images/sfb-logo-30x30.png) **à l’aide de la Skype entreprise centre d’administration**
+![SFB-logo-30x30. png](../images/sfb-logo-30x30.png) **à l’aide du centre d’administration Skype entreprise**
 
 Vous pouvez afficher leurs ID de conférence et les envoyer aux utilisateurs.
 
@@ -58,7 +58,7 @@ Vous pouvez afficher leurs ID de conférence et les envoyer aux utilisateurs.
 4. Dans la page Action, affichez la section **ID de conférence**.
 
     > [!TIP]
-    > Vous pouvez envoyer toutes les informations de conférence à l’utilisateur dans un message électronique qui inclut l’ID de conférence et les numéros de téléphone audio en cliquant sur le lien **Envoyer les informations de conférence par courrier électronique** une fois que vous sélectionnez l’utilisateur dans la page **utilisateurs** .
+    > Vous pouvez envoyer toutes les informations sur les conférences à l’utilisateur dans un message électronique qui inclut l’ID de conférence et les numéros de téléphone audio en cliquant sur envoyer les informations sur la **Conférence par courrier électronique** après avoir sélectionné l’utilisateur dans la page **utilisateurs** .
 
 **Reportez-vous à la rubrique **Envoyer un message électronique à un utilisateur avec leurs informations de conférence Audio**.**
 
@@ -75,13 +75,13 @@ You can use Windows PowerShell to view the conference ID for a user. To do so, r
 
 Vous pouvez réinitialiser un ID de conférence pour un utilisateur, en cas d'oubli par exemple.
 
-![SFB-logo-30x30.png](../images/sfb-logo-30x30.png) **à l’aide de la Skype entreprise centre d’administration**
+![SFB-logo-30x30. png](../images/sfb-logo-30x30.png) **à l’aide du centre d’administration Skype entreprise**
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
 
 2. Sélectionnez **Centre d'administration Office 365** > **Skype Entreprise**.
 
-3. Dans la **Skype pour le centre d’administration Business**> **audioconférence** > **les utilisateurs**, dans le volet Actions, sous **ID de conférence**, cliquez sur **Réinitialiser**.
+3. Dans les**** > **utilisateurs**du>  **Centre d’administration de Skype entreprise**, dans le volet action, sous **ID de conférence**, cliquez sur **Réinitialiser**.
 
 4. In the **Reset conference ID?** window, click **Yes**. A conference ID will be automatically created and an email sent to the user with the new conference ID.
 
@@ -102,7 +102,7 @@ You can reset the conference ID for a user by using the Windows PowerShell. To d
 
 - The conference ID must meet the length in digits set on the audio conferencing bridge. You can't use alphabetic or special characters in conference IDs; only numbers can be used.
 
-- L’ID de conférence pour tous vos utilisateurs de conférence audio sera 7 chiffres par défaut et le nombre de chiffres ne peut pas être modifié.
+- L’ID de conférence de tous les utilisateurs de l’audioconférence sera 7 chiffres par défaut et le nombre de chiffres ne peut pas être modifié.
 
 
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Comment utiliser Windows PowerShell pour gérer cette fonction ?

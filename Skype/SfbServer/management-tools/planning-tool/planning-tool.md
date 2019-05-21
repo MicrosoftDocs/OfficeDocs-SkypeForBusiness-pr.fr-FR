@@ -5,39 +5,39 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 12/20/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 2a352f62-c5cb-4ef1-9aa9-7f0c1ab47455
-description: Conseils sur l’utilisation de la Skype pour l’outil de planification de Business Server 2015.
-ms.openlocfilehash: 674b4b9ef2825c2e8776cdfa32dc5b413f2962cd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Conseils relatifs à l’utilisation de l’outil de planification de Skype entreprise Server 2015.
+ms.openlocfilehash: b130ca05200ea30bed8008399050affa96438644
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33914176"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34288949"
 ---
 # <a name="skype-for-business-server-2015-planning-tool"></a>Outil de planification de Skype Entreprise Server 2015
  
-Conseils sur l’utilisation de la Skype pour l’outil de planification de Business Server 2015.
+Conseils relatifs à l’utilisation de l’outil de planification de Skype entreprise Server 2015.
   
-Le Skype pour l’outil de planification de Business Server 2015 est un Assistant, outil entretien comparables à celles qui pose des questions sur la Skype pour Business Server 2015 topologie que vous créez. Les utilisations de l’outil de planification les informations fournies, associées à conseillées pour la conception de topologie et la capacité de présenter une topologie recommandée en fonction des réponses fournies. Vous pouvez télécharger l’outil de planification de la [Skype pour l’outil de planification de Business Server 2015](https://go.microsoft.com/fwlink/p/?LinkID=282725).
+L’outil de planification de Skype entreprise Server 2015 est un outil piloté par un Assistant, qui pose des questions sur la topologie 2015 de Skype entreprise Server que vous concevez. L’outil de planification utilise les informations fournies, associées à des pratiques recommandées en matière de conception et de capacité topologique, pour présenter une topologie recommandée selon les réponses fournies. Vous pouvez télécharger l’outil de planification à partir de l' [outil de planification de Skype entreprise Server 2015](https://go.microsoft.com/fwlink/p/?LinkID=282725).
   
-Enfin, l’objectif de l’outil de planification consiste à faciliter la complexité de la conception d’un Skype complète pour la topologie Business Server 2015 potentielle. L’outil fournit également contextuelles références à la documentation de planification et de déploiement à l’intérieur de l’outil, à condition qu’une connexion Internet est disponible pour se connecter au site Web de Microsoft.
+En fin de compte, l’objectif de l’outil de planification consiste à faciliter la complexité de la conception d’une topologie complète de Skype entreprise Server 2015. L’outil fournit également des références contextuelles sur la planification et la documentation de déploiement à l’intérieur de l’outil, à condition qu’une connexion Internet soit disponible pour la connexion au site Web Microsoft.
   
-Après avoir personnalisé la topologie avec des adresses TCP/IP de l’infrastructure et des noms de domaine complet (FQDN), l’outil de planification propose une série de rapports qui couvrent d’attribution de noms système de nom de domaine (DNS), les règles de pare-feu, de certificats et plus. 
+Après avoir personnalisé la topologie avec les adresses TCP/IP de l’infrastructure et les noms de domaine complets (FQDN), l’outil de planification met à votre disposition une série de rapports qui couvrent l’attribution de noms DNS (Domain Name System), les règles de pare-feu, les certificats, etc. 
   
-Utiliser cet outil est la première étape pour la planification de votre implémentation. L’étape suivante serait à votre site d’informations caractéristiques de l’objet d’entrée dans le [Skype pour des capacités Business Server 2015](https://www.microsoft.com/en-us/download/details.aspx?id=51196), ajuster selon vos besoins, puis utilisez le [Skype pour Business Server 2015 Stress and Performance Tool](https://www.microsoft.com/en-us/download/details.aspx?id=50367) pour simuler et vérifiez le implémentation servira à vos besoins.
+Utiliser cet outil est la première étape pour la planification de votre implémentation. L’étape suivante consiste à entrer les informations de votre site dans le [calculateur de capacités de Skype entreprise server 2015](https://www.microsoft.com/en-us/download/details.aspx?id=51196), à ajuster selon les besoins, puis à utiliser l' [outil de stress et de performance de skype entreprise Server 2015](https://www.microsoft.com/en-us/download/details.aspx?id=50367) . vous aurez besoin de votre implémentation.
   
-L’outil de planification fournit également la possibilité d’exporter des informations dans deux formats :
+L’outil de planification offre également la possibilité d’exporter des informations dans deux formats:
   
 - Microsoft Excel (feuille de calcul .xml)
     
 - Microsoft Visio (.vdx)
     
-Les rubriques suivantes présentent et de détails de l’outil de planification.
+Les rubriques suivantes présentent et décrivent en détail l’outil de planification.
   
 ## <a name="in-this-section"></a>Contenu de cette section
 

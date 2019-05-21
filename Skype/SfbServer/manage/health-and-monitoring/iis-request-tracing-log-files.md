@@ -4,29 +4,29 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6730e92-6d74-4fa7-a83f-50b7bdadbffa
-description: 'Résumé : En savoir plus sur le Service de mobilité (Mcx) dans Skype pour Business Server 2015 prise en charge pour les clients hérités.'
-ms.openlocfilehash: cbb064cf868a557c5f30871df8f7ee4b60242679
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Résumé: en savoir plus sur le service de mobilité (MCX) dans Skype entreprise Server 2015 support pour les clients hérités.'
+ms.openlocfilehash: b8d22146de43f020b62cc249a07990fb9f0cc73c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926619"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305660"
 ---
 # <a name="monitoring-iis-request-tracing-log-files-in-skype-for-business-server-2015"></a>Surveillance des fichiers journaux de suivi des demandes de services Internet (IIS) dans Skype Entreprise Server 2015
  
-**Résumé :** Découvrez le Service de mobilité (Mcx) dans Skype pour Business Server 2015 prise en charge pour les clients hérités.
+**Résumé:** En savoir plus sur le service de mobilité (MCX) dans Skype entreprise Server 2015 support pour les clients hérités.
   
 Cette rubrique concerne les déploiements prenant en charge uniquement les clients Lync Mobile de Lync 2010, et en particulier le service Mcx (Mobility Service).
 
 > [!NOTE]
-> Prise en charge MCX (Service de mobilité) pour les clients mobiles hérités n’est plus disponible dans Skype pour Business Server 2019. Tous les Skype en cours pour les clients mobiles métiers utilisent déjà Unified Communications Web API (UCWA) pour prendre en charge la messagerie instantanée, présence et les contacts. Les utilisateurs avec les clients hérités MCX doivent mettre à niveau vers un client actuel.
+> La prise en charge de MCX (service de mobilité) pour les clients mobiles hérités n’est plus disponible dans Skype entreprise Server 2019. Tous les clients mobiles Skype entreprise actuels utilisent déjà UCWA (Unified Communications Web API) pour la prise en charge de la messagerie instantanée, de la présence et des contacts. Les utilisateurs des clients hérités utilisant MCX doivent effectuer une mise à niveau vers un client actuel.
   
-Lorsque vous activez le suivi des demandes Internet Information Services (IIS) pour le Skype pour le Service de mobilité Business Server (Mcx), les fichiers journaux générés peuvent consommer jusqu'à trois gigaoctets d’espace disque par jour. La journalisation du suivi IIS est activée par défaut. Vous devez surveiller les serveurs frontaux pour vous assurer qu’ils n’exécutent pas suffisamment d’espace disque. 
+Lorsque vous activez le suivi des demandes d’accès à Internet Information Services (IIS) pour le service de mobilité Skype entreprise Server (MCX), les fichiers journaux générés peuvent utiliser jusqu’à 3 Go d’espace disque par jour. La journalisation du suivi IIS est activée par défaut. Vous devez surveiller les serveurs front-end pour vous assurer qu’ils ne sont pas à court d’espace disque. 
   
 Par défaut, les services Internet (IIS) stockent les fichiers journaux dans %SystemDrive%\inetpub\logs\LogFiles.
   
@@ -36,6 +36,6 @@ Pour désactiver le suivi des demandes IIS pour un serveur entier, tapez ce qui 
 %SystemDrive%\Windows\System32\inetsrv\appcmd set config /section:httpLogging /dontLog:True
 ```
 
-Pour plus d’informations sur la commande **httpLogging** , voir [la référence des commandes](https://go.microsoft.com/fwlink/p/?linkId=234927).
+Pour plus d’informations sur la commande **httpLogging** , consultez [la référence des commandes](https://go.microsoft.com/fwlink/p/?linkId=234927).
   
 

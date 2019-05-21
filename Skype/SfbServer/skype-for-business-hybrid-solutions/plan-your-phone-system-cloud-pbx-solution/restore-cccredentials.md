@@ -5,24 +5,24 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 11/15/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aeca610b-db0a-45cf-95b9-ae9a6bbccb45
-description: L’applet de commande Restore Cc-informations d’identification restaure toutes les informations d’identification de l’actuel Skype pour le déploiement dans le nuage connecteur édition.
-ms.openlocfilehash: 0b790b9f2edab9fade2738c3c95348be864f9017
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+description: 'L’applet de connexion de restauration des informations d’identification cc: restaure toutes les informations d’identification du déploiement actuel de Skype entreprise version Cloud Connector.'
+ms.openlocfilehash: efa1bcda9af6abccd2ced0faf1e772e779a4483f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891467"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287082"
 ---
 # <a name="restore-cccredentials"></a>Restore-CcCredentials
  
-L’applet de commande Restore Cc-informations d’identification restaure toutes les informations d’identification de l’actuel Skype pour le déploiement dans le nuage connecteur édition. 
+L’applet de connexion de restauration des informations d’identification cc: restaure toutes les informations d’identification du déploiement actuel de Skype entreprise version Cloud Connector. 
   
-Cette applet de commande s’applique à Skype Business nuage connecteur Edition 2.1.
+Cette cmdlet s’applique à Skype entreprise version Cloud Connector 2,1.
   
 ```
 Restore-CcCredentials 
@@ -30,7 +30,7 @@ Restore-CcCredentials
 
 ## <a name="detailed-description"></a>Description détaillée
 
-L’applet de commande Restore-CcCredentials nettoie toutes les informations d’identification et vous invite à entrer de nouveau toutes les informations d’identification pour le cours Skype pour le déploiement d’entreprise dans le nuage connecteur.
+L’applet de commande Restore-CcCredentials nettoie toutes les informations d’identification et vous invite à entrer à nouveau toutes les informations d’identification utilisées pour le déploiement actuel de Skype entreprise Cloud Connector.
   
 ## <a name="parameters"></a>Paramètres
 
@@ -38,7 +38,7 @@ Aucune
   
 ## <a name="input-types"></a>Types d’entrées
 
-Aucun L’applet de commande Restore-CcCredentials n’accepte pas la saisie de données redirigées.
+Aucun L’applet de commande Restore-CcCredentials n’accepte pas les entrées pipelines.
   
 ## <a name="return-types"></a>Types de retours
 
@@ -46,7 +46,7 @@ Aucun.
   
 ## <a name="example"></a>Exemple
 
-L’exemple suivant restaure toutes les informations d’identification du déploiement en nuage connecteur actuel :
+L’exemple suivant restaure toutes les informations d’identification du déploiement actuel du connecteur Cloud:
   
 ```
     PS C:\>Restore-CcCredentials

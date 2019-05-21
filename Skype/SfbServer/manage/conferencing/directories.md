@@ -1,27 +1,27 @@
 ---
-title: Créer des annuaires des conférences dans Skype pour Business Server
+title: Créer des annuaires de conférences dans Skype entreprise Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b124b229-7df5-4b7e-8c11-6661c8c8c051
-description: 'Résumé : Découvrez comment créer des annuaires des conférences dans Skype pour Business Server.'
-ms.openlocfilehash: 62e632126ab7fb5ac812593f78031c0825bb36ca
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Résumé: Découvrez comment créer des répertoires de conférences dans Skype entreprise Server.'
+ms.openlocfilehash: d2962e7e01ba5bb73ce82de9b5c0ff85550fbe99
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919387"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306495"
 ---
-# <a name="create-conference-directories-in-skype-for-business-server"></a>Créer des annuaires des conférences dans Skype pour Business Server
+# <a name="create-conference-directories-in-skype-for-business-server"></a>Créer des annuaires de conférences dans Skype entreprise Server
  
-**Résumé :** Découvrez comment créer des annuaires des conférences dans Skype pour Business Server.
+**Résumé:** Apprenez à créer des annuaires de conférences dans Skype entreprise Server.
   
-Annuaires des conférences maintenir un mappage entre l’ID de réunion alphanumérique un participant utilise pour joindre une conférence lors de l’utilisation de Skype pour les entreprises et l’ID de conférence composé uniquement de chiffres par un participant à la conférence rendez-vous pour joindre la conférence. 
+Les annuaires de conférences maintiennent un mappage entre l’ID de réunion alphanumérique qu’un participant utilise pour participer à une conférence lorsque vous utilisez Skype entreprise et l’ID de conférence numérique uniquement utilisé par un participant à la Conférence rendez-vous pour participer à la Conférence. 
   
 ## <a name="create-a-conference-directory"></a>Création d’un annuaire de conférences
 
@@ -42,6 +42,6 @@ Pour créer un annuaire de conférences, utilisez l’applet de commande **New-C
 New-CsConferenceDirectory -Identity 42 -HomePool "atl-cs-001.litwareinc.com"
 ```
 
-Pour plus d’informations, voir [New-CsConferenceDirectory](https://docs.microsoft.com/powershell/module/skype/new-csconferencedirectory?view=skype-ps).
+Pour plus d’informations, reportez-vous à [New-CsConferenceDirectory](https://docs.microsoft.com/powershell/module/skype/new-csconferencedirectory?view=skype-ps).
   
 

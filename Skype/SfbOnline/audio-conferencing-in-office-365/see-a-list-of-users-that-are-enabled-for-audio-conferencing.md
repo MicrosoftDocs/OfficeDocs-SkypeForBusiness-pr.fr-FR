@@ -1,5 +1,5 @@
 ---
-title: Voir la liste des utilisateurs activés pour une audioconférence dans Skype pour Business Online
+title: Affichage de la liste des utilisateurs activés pour les conférences audio dans Skype entreprise Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -20,19 +20,19 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Learn how to view a list of users in your organization that are enabled for dial-in conferencing from within the Skype for Business admin center. '
-ms.openlocfilehash: 722f9e411e1781529ea68f6995a2109f58d39cb0
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 9fb3a5ca8e21969ea5c09a5ac5c282dc4b816eff
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229260"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298930"
 ---
-# <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-skype-for-business-online"></a>Voir la liste des utilisateurs activés pour une audioconférence dans Skype pour Business Online
+# <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-skype-for-business-online"></a>Affichage de la liste des utilisateurs activés pour les conférences audio dans Skype entreprise Online
 
 > [!NOTE]
-> Pour plus d’informations sur les utilisateurs actifs dans Microsoft Teams, voir [Afficher la liste des utilisateurs qui sont activées pour une audioconférence dans les équipes Microsoft](/MicrosoftTeams/see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams).
+> Pour plus d’informations sur les utilisateurs activés dans Microsoft Teams, reportez-vous à [la liste des utilisateurs activés pour les conférences audio dans Microsoft teams](/MicrosoftTeams/see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams).
 
-Une fois que vous avez activé Skype pour les utilisateurs professionnels de votre organisation pour une audioconférence, vous pouvez afficher la liste des utilisateurs qui ont été activés. Lorsque vous examinez la liste, vous verrez également pour chaque utilisateur dans la liste le type de fournisseur de conférence audio qu’ils utilisent le numéro de téléphone de rendez-vous par défaut pour l’utilisateur, et si votre organisation n’est pas activée pour l’ID de conférence dynamique, l’ID de conférence statique pour les réunions de conférence audio qu’ils organisent.
+Une fois que vous avez activé les utilisateurs de Skype entreprise dans votre organisation pour l’audioconférence, vous pouvez afficher la liste des utilisateurs qui ont été activés. Lorsque vous observez la liste, vous pouvez également voir pour chaque utilisateur dans la liste le type de fournisseur de services d’audioconférence qu’il utilise, le numéro de téléphone d’accès par défaut de l’utilisateur, et si votre organisation n’est pas activée pour les ID de conférence dynamiques, les ID de conférence statiques pour les réunions de conférence audio qu’ils organisent.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -40,21 +40,21 @@ Une fois que vous avez activé Skype pour les utilisateurs professionnels de vot
 ## <a name="viewing-a-list-of-users"></a>Afficher une liste d'utilisateurs
 
    
-- Dans la navigation de gauche, accédez à la **conférence Audio** > **les utilisateurs**.
+- Dans le volet de navigation de gauche, accédez à**utilisateurs**de l' **audioconférence** > .
 
 ## <a name="what-else-should-i-know"></a>Informations supplémentaires
 
-- Lorsque vous affichez la liste des utilisateurs sont activés, vous pouvez sélectionner un utilisateur dans la liste et le volet d’actions permet de modifier les paramètres de conférence audio pour cet utilisateur.
+- Lorsque vous affichez la liste des utilisateurs activés, vous pouvez sélectionner un utilisateur dans la liste et utiliser le volet action pour modifier les paramètres de conférence audio de cet utilisateur.
     
-- Lorsque vous sélectionnez un utilisateur unique est configuré pour utiliser Microsoft comme fournisseur de services d’audioconférence, vous pouvez afficher le numéro de téléphone par défaut et si votre organisation est activée pour l’ID de conférence dynamique et vous pouvez réinitialiser l’ID de conférence pour les réunions qui le organise les utilisateurs.
+- Lorsque vous sélectionnez un utilisateur unique configuré pour utiliser Microsoft comme fournisseur de services d’audioconférence, vous pouvez afficher le numéro de téléphone par défaut et savoir si votre organisation est activée pour les ID de conférence dynamiques et vous pouvez réinitialiser l’ID de conférence des réunions que le l’utilisateur organise.
     
-- Lorsque vous sélectionnez un utilisateur unique qui est configuré pour utiliser un fournisseur de services d’audioconférence tiers, vous pouvez afficher le nom du fournisseur de services d’audioconférence, le numéro de téléphone et le numéro de téléphone gratuit (si elles sont configurées).
+- Lorsque vous sélectionnez un utilisateur unique configuré pour utiliser un fournisseur de services d’audioconférence tiers, vous pouvez afficher le nom du fournisseur de services d’audioconférence, le numéro de téléphone payant et le numéro de téléphone gratuit (le cas échéant).
     
 - Vous pouvez utiliser les options de filtre pour afficher les utilisateurs :
     
-  - **Services d’audioconférence sur**
+  - **Audioconférence**
     
-  - **Services d’audioconférence désactivé**
+  - **Audioconférence désactivé**
     
   - **Fournisseur de services de conférence - Microsoft**
     
@@ -66,9 +66,9 @@ Une fois que vous avez activé Skype pour les utilisateurs professionnels de vot
     
   - Sélectionnez un autre numéro par défaut pour ces utilisateurs.
     
-  - Désactiver les services d’audioconférence pour l’utilisateur en modifiant le fournisseur sur **None**.
+  - Désactivez l’option audioconférence pour l’utilisateur en définissant le fournisseur sur **aucun**.
     
-  - Si l’utilisateur a été attribué une licence de **Services d’audioconférence** , basculez vers Microsoft en tant que le fournisseur de services d’audioconférence.
+  - Basculez vers Microsoft en tant que fournisseur de services d’audioconférence si l’utilisateur a reçu une licence **audioconférence** .
     
   - Autorisez les utilisateurs anonymes à activer les réunions téléphoniques d'utilisateurs sélectionnés ou interdisez-leur.
     

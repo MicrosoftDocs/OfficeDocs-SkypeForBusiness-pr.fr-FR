@@ -1,30 +1,30 @@
 ---
-title: Configurer le Service de mobilité pour de hautes performances dans Skype pour Business Server
+title: Configurer le service de mobilité pour des performances élevées dans Skype entreprise Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c2b8aadb-cffb-49f0-ba7a-e8541a1ff475
-description: 'Résumé : En savoir plus sur le Service de mobilité dans Skype pour Business Server.'
-ms.openlocfilehash: bd787e78ebd3228faa1c47f1f54e688551c3e67d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Résumé: en savoir plus sur le service de mobilité dans Skype entreprise Server.'
+ms.openlocfilehash: 35e04fa080964495ccd9abed28c0688dd7be45a9
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926591"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305842"
 ---
-# <a name="configure-mobility-service-for-high-performance-in-skype-for-business-server"></a>Configurer le Service de mobilité pour de hautes performances dans Skype pour Business Server
+# <a name="configure-mobility-service-for-high-performance-in-skype-for-business-server"></a>Configurer le service de mobilité pour des performances élevées dans Skype entreprise Server
  
-**Résumé :** Obtenir des informations sur le Service de mobilité dans Skype pour Business Server.
+**Résumé:** En savoir plus sur le service de mobilité dans Skype entreprise Server.
   
 > [!IMPORTANT]
-> Cette rubrique s’applique uniquement à la Skype pour le Service de mobilité Business Server (Mcx) et ne s’applique pas à Unified Communications Web API (UCWA), fourni dans les mises à jour cumulatives pour Lync Server 2013 : février 2013. 
+> Cette rubrique s’applique uniquement au service de mobilité Skype entreprise Server (MCX) et ne s’applique pas à l’API Unified Communications Web API (UCWA), telle que publiée dans les mises à jour cumulatives pour Lync Server 2013: février 2013. 
   
-Lorsque vous installez le Service de mobilité (Mcx) sur les Services Internet (IIS) 7.5, le programme d’installation du Service de mobilité configure certains paramètres de performances sur le serveur frontal. Nous vous recommandons d’utiliser les services Internet (IIS) 7.5 pour la mobilité. Ceux-ci affectent la quantité maximale de demandes utilisateur simultanées et la quantité maximale de threads autorisés pour le service de mobilité.
+Lorsque vous installez le service de mobilité (MCX) sur Internet Information Services (IIS) 7,5, le programme d’installation de service de mobilité configure certains paramètres de performance sur le serveur frontal. Nous vous recommandons d’utiliser les services Internet (IIS) 7.5 pour la mobilité. Ceux-ci affectent la quantité maximale de demandes utilisateur simultanées et la quantité maximale de threads autorisés pour le service de mobilité.
   
 Voici les paramètres de performances :
   

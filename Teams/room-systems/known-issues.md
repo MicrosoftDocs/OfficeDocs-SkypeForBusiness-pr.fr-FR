@@ -5,18 +5,18 @@ author: lanachin
 ms.reviewer: davgroom
 manager: serdars
 ms.date: 4/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: M365-voice
 description: Cet article répertorie les problèmes connus concernant Microsoft Teams Rooms, par fonctionnalité spécifique.
-ms.openlocfilehash: c6ddaf11e0104c0de85c46b1369613ef365ede7d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 91e90479efdf905705d217de75cdac744a773860
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33916512"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306517"
 ---
 # <a name="known-issues"></a>Problèmes connus 
  
@@ -59,7 +59,8 @@ Si votre appareil Microsoft Teams Rooms n’approuve plus le domaine (par exempl
 ***
 La version 64 bits de l’édition anniversaire de Windows 10 Entreprise (en anglais, version 1607) est n’est plus prise en charge depuis la publication Microsoft Teams Rooms 3.0.12.0. 
 ***
-
+La salle Microsoft teams est une application multifenêtre qui nécessite l’affichage de la salle avant de se connecter au port HDMI de l’appareil pour que l’application fonctionne correctement. Vérifiez que vous disposez d’un écran HDMI branché ou que vous utilisez un câble HDMI si vous effectuez des tests et que vous n’avez pas encore d’affichage acheté.
+***
 <a name="See"> </a>  
 ## <a name="see-also"></a>Voir aussi
 

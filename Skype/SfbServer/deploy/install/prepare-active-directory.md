@@ -1,11 +1,11 @@
 ---
-title: Préparer Active Directory pour Skype pour Business Server
+title: Préparer Active Directory pour Skype entreprise Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/7/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -14,28 +14,28 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 985077a4-c8e1-4d5a-9fcf-fef41cf6d61d
-description: 'Résumé : Découvrez comment préparer votre domaine Active Directory pour une installation de Skype pour Business Server. Téléchargez une version d’évaluation gratuite de Skype pour Business Server depuis le centre d’évaluation Microsoft à : https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: 018ce3bc2e684ea4564095695e4699d6c06a6d6f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Résumé: Découvrez comment préparer votre domaine Active Directory pour l’installation de Skype entreprise Server. Télécharger une version d’évaluation gratuite de Skype entreprise Server à partir du centre d’évaluation https://www.microsoft.com/evalcenter/evaluate-skype-for-business-serverMicrosoft pour:.'
+ms.openlocfilehash: 304887bdd6096b70c8d4d7b50f404f144f869859
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33891788"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306597"
 ---
-# <a name="prepare-active-directory-for-skype-for-business-server"></a>Préparer Active Directory pour Skype pour Business Server
+# <a name="prepare-active-directory-for-skype-for-business-server"></a>Préparer Active Directory pour Skype entreprise Server
  
-**Résumé :** Découvrez comment préparer votre domaine Active Directory pour une installation de Skype Business Server. Téléchargez une version d’évaluation gratuite de Skype pour Business Server à partir du [Centre d’évaluation de Microsoft](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
+**Résumé:** Découvrez comment préparer votre domaine Active Directory pour l’installation de Skype entreprise Server. Télécharger une version d’évaluation gratuite de Skype entreprise Server à partir du [Centre d’évaluation Microsoft](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
   
-Skype pour Business Server travaille en étroite collaboration avec Active Directory. Vous devez préparer le domaine Active Directory pour fonctionner avec Skype pour Business Server. Ce processus est effectué dans l’Assistant Déploiement et s’effectue uniquement une seule fois pour le domaine. Ceci est dû au fait que le processus crée des groupes et modifie le domaine et vous n’avez besoin d’effectuer cette opération qu’une seule fois. Vous pouvez effectuer les étapes 1 à 5 dans n’importe quel ordre. Cependant, vous devez suivre les étapes 6,7 et 8 dans l’ordre et après avoir effectué les étapes 1 à 5, comme expliqué dans le diagramme. Préparation d’Active Directory est l’étape 4 de 8. Pour plus d’informations sur la planification d’Active Directory, consultez [exigences pour Skype pour Business Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) ou [configuration serveur requise pour Skype pour Business Server 2019](../../../SfBServer2019/plan/system-requirements.md).
+Skype entreprise Server fonctionne étroitement avec Active Directory. Vous devez préparer le domaine Active Directory pour qu’il fonctionne avec Skype entreprise Server. Ce processus est réalisé dans l’Assistant Déploiement et n’est effectué qu’une seule fois pour le domaine. Ceci est dû au fait que le processus crée des groupes et modifie le domaine et vous n’avez besoin d’effectuer cette opération qu’une seule fois. Vous pouvez effectuer les étapes 1 à 5 dans n’importe quel ordre. Cependant, vous devez suivre les étapes 6,7 et 8 dans l’ordre et après avoir effectué les étapes 1 à 5, comme expliqué dans le diagramme. La préparation d’Active Directory est étape 4 sur 8. Pour plus d’informations sur la planification d’Active Directory, reportez-vous à la section [configuration environnementale requise pour Skype entreprise Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) ou [serveur requise pour skype entreprise Server 2019](../../../SfBServer2019/plan/system-requirements.md).
   
 ![schéma de vue d’ensemble](../../media/2c52d307-7859-4009-9489-024b2e130bb3.png)
   
 ## <a name="prepare-active-directory"></a>Préparer Active Directory
 
-Skype pour Business Server est étroitement intégré aux Services de domaine Active Directory (AD DS). Avant de Skype pour Business Server peut être installé pour la première fois, Active Directory doivent être préparé. La section de l’Assistant Déploiement intitulée **Préparer Active Directory** prépare l’environnement Active Directory pour une utilisation avec Skype pour Business Server.
+Skype entreprise Server est étroitement intégré avec les services de domaine Active Directory (AD DS). Pour que Skype entreprise Server puisse être installé pour la première fois, Active Directory doit être préparé. Section de l’Assistant Déploiement intitulée **Préparer Active Directory** prépare l’environnement Active Directory pour une utilisation avec Skype entreprise Server.
   
 > [!NOTE]
-> Skype pour Business Server utilise (AD DS) pour effectuer le suivi et de communiquer avec tous les serveurs dans une topologie. Chaque serveur doit être joint au domaine afin que Skype pour Business Server fonctionne correctement. 
+> Skype entreprise Server utilise (AD DS) pour suivre et communiquer avec tous les serveurs d’une topologie. Chaque serveur doit être joint au domaine de sorte que Skype entreprise Server puisse fonctionner correctement. 
   
 > [!IMPORTANT]
 > La procédure Préparer Active Directory ne doit être effectuée qu’une seule fois pour chaque domaine du déploiement. 
@@ -48,10 +48,10 @@ Regardez en vidéo les étapes pour **préparer Active Directory** :
 
 1. Connectez-vous comme utilisateur avec des données d’identification d’administrateur de schéma pour le domaine Active Directory.
     
-2. Ouvrez Skype pour l’Assistant de déploiement Business Server.
+2. Ouvrez l’Assistant Déploiement de Skype entreprise Server.
     
     > [!TIP]
-    > Si vous souhaitez consulter les fichiers journaux qui sont créés par le Skype pour l’Assistant de déploiement Business Server, vous pouvez trouver les sur l’ordinateur où a été exécuté l’Assistant déploiement, dans le répertoire des utilisateurs de l’utilisateur de domaine Active Directory qui a exécuté l’étape. Par exemple, si l’utilisateur est connecté en tant qu’administrateur de domaine dans le domaine, contoso.local, les fichiers journaux se trouvent dans : C:\Users\Administrator.Contoso\AppData\Local\Temp. 
+    > Si vous souhaitez consulter les fichiers journaux créés par l’Assistant Déploiement de Skype entreprise, vous pouvez les retrouver sur l’ordinateur sur lequel l’Assistant déploiement a été exécuté, dans l’annuaire utilisateurs de l’utilisateur AD DS qui a exécuté l’étape. Par exemple, si l’utilisateur connecté en tant qu’administrateur de domaine dans Domain, contoso. local, les fichiers journaux se trouvent dans: C:\Users\Administrator.Contoso\AppData\Local\Temp. 
   
 3. Cliquez sur le lien **Préparer Active Directory**.
     
@@ -91,13 +91,13 @@ Regardez en vidéo les étapes pour **préparer Active Directory** :
     
     e. Une fois que la forêt a été préparée, vous pouvez voir le journal en cliquant sur **Afficher le journal**. 
     
-    f. Cliquez sur **Terminer** pour fermer l’assistant Préparer la forêt actuelle et revenez aux étapes de préparation d’Active Directory.
+    touche. Cliquez sur **Terminer** pour fermer l’assistant Préparer la forêt actuelle et revenez aux étapes de préparation d’Active Directory.
     
-    g. Cliquez sur **Skype pour Business Server Management Shell** dans la page **applications** pour lancer PowerShell.
+    grand. Cliquez sur **Skype entreprise Server Management Shell** à partir de la page **applications** pour lancer PowerShell.
     
     h. Tapez la commande Get-CsAdForest, puis appuyez sur **entrée**.
     
-    i. Si le résultat est **LC_FORESTSETTINGS_STATE_READY**, la forêt a correctement été préparée, comme illustré dans la figure.
+    ma. S’il s’agit de **LC_FORESTSETTINGS_STATE_READY**, la forêt a bien été préparée, comme indiqué dans l’illustration.
     
      ![Vérification de la réplication de forêt.](../../media/20835669-b8ff-445b-aa8d-51cce46a8b0e.png)
   
@@ -123,11 +123,11 @@ Regardez en vidéo les étapes pour **préparer Active Directory** :
     
     e. Cliquez sur **Terminer** pour fermer l’assistant Préparer le domaine actuel et revenez aux étapes de préparation d’Active Directory.
     
-    Ces étapes doivent être effectuées dans chaque domaine où Skype pour les objets Business Server sont détectés, sinon services peut pas démarrer. Il peut notamment s’agir de n’importe quel objet Active Directory, tel qu’utilisateurs, objets de contact, groupes administratifs, ou tout autre objet. Vous pouvez utiliser Set-CsUserReplicatorConfiguration - ADDomainNamingContextList pour ajouter uniquement les domaines avec Skype pour les objets Business Server, le cas échéant.
+    Ces étapes doivent être achevées dans tous les domaines dans lesquels les objets Skype entreprise Server sont trouvés, sinon les services risquent de ne pas démarrer. Il peut notamment s’agir de n’importe quel objet Active Directory, tel qu’utilisateurs, objets de contact, groupes administratifs, ou tout autre objet. Le cas échéant, vous pouvez utiliser SET-CsUserReplicatorConfiguration-ADDomainNamingContextList pour ajouter uniquement les domaines contenant des objets Skype entreprise Server.
     
 9. **Étape 6 : Vérifier la réplication dans le domaine**
     
-    a. Cliquez sur **Skype pour Business Server Management Shell** dans la page **applications** pour lancer PowerShell.
+    a. Dans la page **applications** , cliquez sur **Skype entreprise Server Management Shell** pour lancer PowerShell.
     
     b. Utilisez la commande Get-CsAdDomain pour vérifier la réplication au sein du domaine.
     
@@ -147,7 +147,7 @@ Regardez en vidéo les étapes pour **préparer Active Directory** :
     > [!NOTE]
     > En utilisant le paramètre GlobalSettingsDomainController, vous pouvez indiquer où sont stockés les paramètres globaux. Si vos paramètres sont stockés dans le conteneur système (ce qui est caractéristique des déploiements de mise à niveau pour lesquels le paramètre global n’a pas migré vers le conteneur de configuration), vous devez définir un contrôleur de domaine dans la racine de votre forêt AD DS. Si les paramètres globaux se trouvent dans le conteneur de configuration (ce qui est caractéristique des nouveaux déploiements ou des déploiements de mise à niveau où les paramètres ont été migrés vers le conteneur de configuration, vous devez définir un contrôleur de domaine dans la forêt. Si vous ne spécifiez pas ce paramètre, l’applet de commande suppose que les paramètres sont stockés dans le conteneur de configuration et indique un contrôleur de domaine dans Active Directory. 
   
-    c. Si le résultat est **lc_domain_settings_state_ready**, le domaine a été répliqué avec succès.
+    c. Si le résultat est **LC_DOMAINSETTINGS_STATE_READY**, le domaine a été correctement répliqué.
     
 10. **Étape 7 : Ajouter des utilisateurs pour fournir l’accès administratif au Panneau de configuration de Skype Entreprise Server**
     
@@ -162,12 +162,12 @@ Regardez en vidéo les étapes pour **préparer Active Directory** :
     e. Sous l’onglet **Membres**, confirmez que les utilisateurs ou les groupes que vous avez sélectionnés sont présents. Cliquez sur **OK**.
     
     > [!CAUTION]
-    > Le Skype pour Business Server Control Panel est un outil de contrôle d’accès basé sur un rôle. L’appartenance au groupe CsAdministrator donne à un utilisateur qui utilise le Skype pour le panneau de configuration serveur Business un contrôle total sur toutes les fonctions de configuration disponibles. D’autres rôles conçus pour des fonctions spécifiques sont disponibles. Pour plus d’informations sur les rôles disponibles, consultez [exigences pour Skype pour Business Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) ou la [configuration serveur requise pour Skype pour Business Server 2019](../../../SfBServer2019/plan/system-requirements.md). Notez que les utilisateurs ne doivent pas être activé pour Skype pour Business Server afin de devenir membres des groupes d’administration. 
+    > Le panneau de configuration Skype entreprise Server est un outil de contrôle d’accès basé sur un rôle. L’appartenance au groupe CsAdministrator donne à un utilisateur qui utilise le panneau de configuration Skype entreprise Server un contrôle total pour toutes les fonctions de configuration disponibles. D’autres rôles conçus pour des fonctions spécifiques sont disponibles. Pour plus d’informations sur les rôles disponibles, voir [Configuration requise pour Skype entreprise Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) ou [serveur requise pour skype entreprise Server 2019](../../../SfBServer2019/plan/system-requirements.md). Notez que les utilisateurs n’ont pas besoin d’être activés pour Skype entreprise Server afin de pouvoir être ajoutés aux groupes de gestion. 
   
     > [!CAUTION]
-    > Pour préserver la sécurité et l’intégrité de contrôle d’accès basé sur un rôle, ajouter des utilisateurs aux groupes qui définissent le rôle tenu par l’utilisateur dans la gestion de la Skype pour le déploiement de serveur d’entreprise. 
+    > Pour garantir la sécurité et l’intégrité des contrôles d’accès basée sur les rôles, ajoutez des utilisateurs aux groupes qui déterminent le rôle que l’utilisateur effectue dans la gestion du déploiement de Skype entreprise Server. 
   
-11. Déconnectez-vous, puis reconnectez-vous à Windows afin que votre jeton de sécurité est mis à jour avec la nouvelle Skype pour le groupe de sécurité Business Server et puis rouvrez l’Assistant déploiement.
+11. Déconnectez-vous, puis reconnectez-vous à Windows afin de mettre à jour votre jeton de sécurité avec le nouveau groupe de sécurité Skype entreprise Server, puis rouvrez l’Assistant déploiement.
     
 12. Vérifiez la présence d’une coche verte à côté de **Préparer Active Directory** pour confirmer que vous avez réussi, comme indiqué dans la figure.
     

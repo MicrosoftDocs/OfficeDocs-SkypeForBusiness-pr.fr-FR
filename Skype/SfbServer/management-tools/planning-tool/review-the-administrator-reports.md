@@ -5,19 +5,19 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 4/5/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 22d480ea-cd64-4d09-99fe-96e997570844
 description: Les rapports de l’administrateur contiennent des informations détaillées sur le déploiement et les opérations. Les rapports sont générés à partir des sélections effectuées dans Concevoir des sites. Le concepteur peut compléter les rapports de l’administrateur en modifiant les diagrammes des réseaux et en définissant les adresses IP complètes et les noms de domaine complets (FQDN) pour les serveurs, les pools et les programmes d’équilibrage de charge.
-ms.openlocfilehash: ea15bcf7c70fac09c21a2b3348e665411b6f0f34
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 22b3628c5c2a499d57a6bfdd1d90fe3b79b90e85
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33914183"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34288984"
 ---
 # <a name="review-the-administrator-reports-in-skype-for-business-server-2015"></a>Review the Administrator Reports in Skype for Business Server 2015
 
@@ -36,7 +36,7 @@ La fonctionnalité des rapports Administrateur vous permet d’effectuer les op�
 ## <a name="review-the-summary-report"></a>Vérifier le rapport récapitulatif
 <a name="Summary_report"> </a>
 
-Le Skype pour le rapport d’administrateur d’entreprise est la première des quatre rapports précieuses que documenter votre conception en détail. Les informations de ce rapport, ainsi que celles des trois rapports associés, constituent une documentation utile que pourront exploiter les équipes chargées de l’informatique au sein de votre entreprise :
+Le rapport d’administration de Skype entreprise est le premier des quatre rapports intéressants qui décrivent en détail votre conception. Les informations de ce rapport, ainsi que celles des trois rapports associés, constituent une documentation utile que pourront exploiter les équipes chargées de l’informatique au sein de votre entreprise :
 
 ![Rapport d’administration Synthèse générale](../../media/General_Summary_Report_Admin_Report.png)
 
@@ -55,20 +55,20 @@ Vous pouvez également afficher plus de rapports détaillés :
 ## <a name="review-the-certificates-report"></a>Consulter le rapport de certificats
 <a name="Certificates_Report"> </a>
 
-Le rapport de certificats contient tous les certificats sont requis dans le Skype recommandée pour le déploiement de Business Server 2015. L’outil de planification des comptes pour les noms de sujet et les noms de sujet qui sont entrés. Le texte par défaut non modifié peut constituer un défi potentiel pour l’équipe qui est responsable de la demande et de l’émission des certificats. Les informations de certificat contiennent également des données sur l’emplacement à partir duquel le certificat peut généralement être émis. Si l’infrastructure ne dispose pas d’une infrastructure à clé publique (PKI) interne, tous les certificats peuvent être demandés par l’intermédiaire d’un fournisseur de certificats public. Les champs Utilisation améliorée de la clé (EKU) et Affecter à du rapport sont très utiles pour comprendre ce que doivent être l’objectif et l’emplacement de chaque certificat.
+Le rapport certificats contient tous les certificats requis dans le déploiement 2015 de Skype entreprise Server recommandés. Les comptes d’outils de planification pour les noms d’objet et les noms de remplacement d’objet entrés. Le texte par défaut non modifié peut constituer un défi potentiel pour l’équipe qui est responsable de la demande et de l’émission des certificats. Les informations de certificat contiennent également des données sur l’emplacement à partir duquel le certificat peut généralement être émis. Si l’infrastructure ne dispose pas d’une infrastructure à clé publique (PKI) interne, tous les certificats peuvent être demandés par l’intermédiaire d’un fournisseur de certificats public. Les champs Utilisation améliorée de la clé (EKU) et Affecter à du rapport sont très utiles pour comprendre ce que doivent être l’objectif et l’emplacement de chaque certificat.
 
 ![Rapport d’administration de certificats](../../media/Certificates_Report_Admin_Report.png)
 
-Examinez et étudiez attentivement l’utilisation et l’objectif de chaque certificat dans le déploiement. En cas de doute sur le rôle d’un certificat, déterminez les éléments avec lesquels le serveur ou le service communique. Les certificats dans Skype pour Business Server 2015 sont utilisés pour les deux principaux objectifs :
+Examinez et étudiez attentivement l’utilisation et l’objectif de chaque certificat dans le déploiement. En cas de doute sur le rôle d’un certificat, déterminez les éléments avec lesquels le serveur ou le service communique. Les certificats dans Skype entreprise Server 2015 sont utilisés pour deux fonctions principales:
 
-- Mutual Transport Layer Security (MTLS) - ordinateurs impliqués dans la communication présentent un certificat qui est donc leur identité vers un autre ordinateur. On appelle cela l’authentification serveur. Impossible de démarrer la communication jusqu'à ce que chaque ordinateur approuve l’identité de l’autre ordinateur.
+- MTLS (Mutual Transport Layer Security): les ordinateurs impliqués dans la communication présentent chacun un certificat qui révèle leur identité sur un autre ordinateur. On appelle cela l’authentification serveur. La communication ne peut pas commencer tant que chaque ordinateur n’a pas approuvé l’identité de l’autre ordinateur.
 
-- Chiffrement - chiffrement (Secure Sockets Layer ou SSL et Transport Layer Security ou TLS) est un moyen critique pour sécuriser les communications, assurer la confidentialité et pour créer un système de communication et de collaboration approuvé.
+- Le chiffrement (Secure Sockets Layer), SSL et TLS (Transport Layer Security) est un moyen essentiel de garantir la sécurité des communications, de garantir la confidentialité et de créer un système de communication et de collaboration approuvé.
 
 ## <a name="review-the-firewall-report"></a>Consulter le rapport de pare-feu
 <a name="Firewall_report"> </a>
 
-Skype pour Business Server 2015 possède un ensemble de règles de pare-feu potentiellement complexe. L’outil de planification simplifie en générant un rapport qui définit en détail toutes les exigences du pare-feu, en fonction des critères d’entrée du concepteur. L’administrateur du pare-feu informatique pourra utiliser ce rapport pour configurer et définir les règles nécessaires.
+Skype entreprise Server 2015 est doté d’un ensemble de règles de pare-feu potentiellement complexes. L’outil de planification réduit cette complexité en générant un rapport qui définit en détail toutes les exigences de pare-feu, en fonction du critère d’entrée du concepteur. L’administrateur du pare-feu informatique pourra utiliser ce rapport pour configurer et définir les règles nécessaires.
 
 En termes de gestion du pare-feu, le rapport doit être lu attentivement afin de s’assurer qu’il n’y a aucun conflit avec des règles de pare-feu existantes et que toutes les stratégies et procédures sont respectées.
 

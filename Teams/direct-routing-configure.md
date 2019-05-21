@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: msteams
 localization_priority: Normal
@@ -14,53 +14,53 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-description: Découvrez comment configurer le routage Direct de Microsoft Phone System.
-ms.openlocfilehash: 514be758042284f40dfab055eacf5b0f3222afd7
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+description: Apprenez à configurer le routage direct du système Microsoft Phone.
+ms.openlocfilehash: ce3fff5205a2cb78c1d409ae8595a50c73f70aaf
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33402522"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290444"
 ---
 # <a name="configure-direct-routing"></a>Configurer le routage direct
 
 > [!Tip]
-> Regarder la session suivante pour en savoir plus sur les avantages de Direct routage, comment planifier et comment le déployer : [Routage Direct dans les équipes Microsoft](https://aka.ms/teams-direct-routing)
+> Regardez la session suivante pour en savoir plus sur les avantages du routage direct, la planification et le déploiement: [routage direct dans Microsoft teams](https://aka.ms/teams-direct-routing)
 
-Si vous n’avez pas déjà fait, lisez la [Planifier le routage Direct](direct-routing-plan.md) pour les composants requis et pour passer en revue les autres étapes, vous devrez prendre avant de configurer votre réseau de système téléphonique de Microsoft. 
+Si vous ne l’avez pas encore fait, lisez [planifier le routage direct](direct-routing-plan.md) pour les prérequis et passer en revue les autres étapes que vous devez effectuer avant de configurer votre réseau de systèmes Microsoft Phone. 
 
-Cet article explique comment configurer le routage Direct de Microsoft Phone System. Il décrit en détail comment associer un contrôleur de bordure Session pris en charge (SBC) pour le routage Direct et configurer les utilisateurs de Microsoft Teams pour utiliser le routage directe pour se connecter à la Public téléphone réseau commuté (RTC). Pour effectuer les étapes décrites dans cet article, les administrateurs doivent se familiariser avec les applets de commande PowerShell. Pour plus d’informations sur l’utilisation de PowerShell, voir [configurer votre ordinateur pour Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell). 
+Cet article décrit comment configurer le routage direct du système Microsoft Phone. Il explique en détail comment jumeler une manette de frontière de session (SBC) prise en charge et configurer les utilisateurs de Microsoft teams pour se connecter au réseau téléphonique public commuté (RTC). Pour suivre les étapes décrites dans cet article, les administrateurs doivent vous familiariser avec les applets de cmdlet PowerShell. Pour plus d’informations sur l’utilisation de PowerShell, voir [configurer votre ordinateur pour Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell). 
 
-Nous vous recommandons de vérifier que votre contrôleur SBC a déjà été configuré comme recommandé par votre fournisseur SBC : 
+Nous vous conseillons de vérifier que votre SBC a déjà été configuré comme recommandé par votre fournisseur de SBC: 
 
 - [Documentation de déploiement AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams)
-- [Documentation de déploiement de Communications de ruban](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions/direct-routing-microsoft-teams-calling)
+- [Documentation sur le déploiement des communications du ruban](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions/direct-routing-microsoft-teams-calling)
 
-Vous pouvez configurer votre système téléphonique de Microsoft et permettre aux utilisateurs d’utiliser le routage Direct, puis configurer Teams Microsoft en tant que client appelant par défaut en procédant comme suit : 
+Vous pouvez configurer votre système Microsoft Phone et permettre aux utilisateurs d’utiliser le routage direct, puis configurer Microsoft teams en tant que client appelant préféré en exécutant les procédures suivantes: 
 
-- [Paire le contrôleur SBC avec un système téléphonique de Microsoft et valider l’appariement](#pair-the-sbc-to-direct-routing-service-of-phone-system)
-- [Activer les utilisateurs pour le Service de routage Direct](#enable-users-for-direct-routing-service)
-- [Assurez-vous que Microsoft Teams est le client appelant par défaut pour les utilisateurs](#set-microsoft-teams-as-the-preferred-calling-client-for-users) 
+- [Coupler une SBC avec un système Microsoft Phone et valider le jumelage](#pair-the-sbc-to-direct-routing-service-of-phone-system)
+- [Activer les utilisateurs pour le service de routage direct](#enable-users-for-direct-routing-service)
+- [Vérifiez que Microsoft teams est le client appelant préféré pour les utilisateurs.](#set-microsoft-teams-as-the-preferred-calling-client-for-users) 
 
-## <a name="pair-the-sbc-to-the-direct-routing-service-of-phone-system"></a>Paire le contrôleur SBC pour le Service de routage Direct du système téléphonique 
+## <a name="pair-the-sbc-to-the-direct-routing-service-of-phone-system"></a>Coupler l’SBC au service de routage direct du système téléphonique 
 
-Voici les trois étapes principales pour vous permettre de vous connecter, ou paire, le contrôleur SBC à l’interface de routage Direct : 
+Voici les trois principales étapes pour vous permettre de vous connecter, ou jumeler, l’interface SBC à l’interface de routage directe: 
 
-- Se connecter au centre d’administration de **Skype pour Business Online** à l’aide de PowerShell 
-- Paire le contrôleur SBC 
-- Valider l’appariement 
+- Se connecter au centre **d’administration de Skype entreprise Online** à l’aide de PowerShell 
+- Coupler l’SBC 
+- Valider le jumelage 
 
-### <a name="connect-to-skype-for-business-online-by-using-powershell"></a>Se connecter à Skype pour Business Online à l’aide de PowerShell 
+### <a name="connect-to-skype-for-business-online-by-using-powershell"></a>Se connecter à Skype entreprise Online à l’aide de PowerShell 
 
-Vous pouvez utiliser une session PowerShell connectée au client pour le couplage le contrôleur SBC à l’interface de routage Direct. Pour ouvrir une session PowerShell, suivez les étapes décrites dans la [configuration de votre ordinateur pour Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell). 
+Vous pouvez utiliser une session PowerShell connectée au client pour jumeler l’interface SBC à l’interface de routage directe. Pour ouvrir une session PowerShell, suivez les étapes décrites dans [configurer votre ordinateur pour Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell). 
  
-Après avoir établi une session PowerShell distante, vérifiez que vous pouvez voir les commandes pour gérer le contrôleur SBC. Pour valider les commandes, tapez ou copier/coller dans ce qui suit dans la session PowerShell et appuyez sur ENTRÉE : 
+Après avoir établi une session PowerShell distante, vérifiez que vous pouvez voir les commandes pour gérer l’SBC. Pour valider les commandes, tapez ou copiez/collez les éléments suivants dans la session PowerShell, puis appuyez sur entrée: 
 
 ```
 Get-Command *onlinePSTNGateway*
 ```
 
-Votre commande renverra les quatre fonctions indiquées ici qui vous permet de gérer le contrôleur SBC. 
+Votre commande renverra les quatre fonctions indiquées ici pour vous permettre de gérer l’SBC. 
 
 <pre>
 CommandType    Name                       Version    Source 
@@ -72,23 +72,23 @@ Function       Set-CsOnlinePSTNGateway    1.0        tmp_v5fiu1no.wxt
 </pre>   
 
 
-### <a name="pair-the-sbc-to-the-tenant"></a>Paire le contrôleur SBC au client 
+### <a name="pair-the-sbc-to-the-tenant"></a>Coupler l’SBC au client 
 
-Pour associer le contrôleur SBC au client, dans la session PowerShell, tapez ce qui suit et appuyez sur ENTRÉE : 
+Pour jumeler l’SBC au client, dans la session PowerShell, entrez ce qui suit, puis appuyez sur entrée: 
 
 ```
 New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignallingPort <SBC SIP Port> -MaxConcurrentSessions <Max Concurrent Sessions the SBC can handle> -Enabled $true 
 ```
   > [!NOTE]
-  > 1. Nous vous recommandons définissant une limite du nombre maximal d’appels dans le contrôleur SBC, en utilisant les informations que vous trouverez dans la documentation de SBC. La limite de déclencher une notification si le contrôleur SBC est au niveau de la capacité.
-  > 2. Vous pouvez uniquement paire le contrôleur SBC si la partie domaine de son nom de domaine complet correspond à l’un des domaines enregistrés dans votre client, à l’exception de \*. onmicrosoft.com. À l’aide de \*. onmicrosoft.com les noms de domaine n’est pas pris en charge pour le nom FQDN SBC. Par exemple, si vous avez deux noms de domaine :<br/><br/>
-  > **Contoso**.com<br/>**Contoso**. onmicrosoft.com<br/><br/>
-  > Pour le nom SBC, vous pouvez utiliser le nom sbc.contoso.com. Si vous essayez de paire le contrôleur SBC avec un nom de sbc.contoso.abc, le système ne vous permettra pas, comme le domaine n’est pas détenu par ce client.
+  > 1. Nous vous recommandons vivement de définir une limite d’appels maximale dans l’SBC en utilisant les informations qui figurent dans la documentation de l’SBC. La limite déclenche une notification si l’SBC a le niveau de capacité.
+  > 2. Vous pouvez uniquement jumeler l’SBC si la partie Domain de son nom de domaine complet correspond à l’un des domaines inscrits \*dans votre client, à l’exception de. onmicrosoft.com. L' \*utilisation des noms de domaine. onmicrosoft.com n’est pas prise en charge pour le nom de domaine complet SBC. Par exemple, si vous avez deux noms de domaine:<br/><br/>
+  > **contoso**. com<br/>**contoso**. onmicrosoft.com<br/><br/>
+  > Pour le nom SBC, vous pouvez utiliser le nom sbc.contoso.com. Si vous essayez de jumeler l’SBC avec un nom SBC. contoso. ABC, le système ne vous en permettra pas, car le domaine n’est pas détenu par ce client.
 
 ```
 New-CsOnlinePSTNGateway -Identity sbc.contoso.com -Enabled $true -SipSignallingPort 5067 -MaxConcurrentSessions 100 
 ```
-Propriété renvoie :
+Renvoie
 <pre>
 Identity              : sbc.contoso.com 
 Fqdn                  : sbc.contoso.com 
@@ -100,38 +100,38 @@ SendSipOptions        : True
 MaxConcurrentSessions : 100 
 Enabled               : True   
 </pre>
-Il existe des options supplémentaires qui peuvent être définies au cours du processus de couplage. Dans l’exemple précédent, toutefois, seulement la configuration minimale requise paramètres sont affichés. 
+Il existe d’autres options qui peuvent être définies lors du processus de jumelage. Dans l’exemple précédent, seuls les paramètres minimum requis apparaissent. 
  
-Le tableau suivant répertorie les paramètres supplémentaires que vous pouvez utiliser dans la définition des paramètres de`New-CsOnlinePstnGateway`
+Le tableau suivant répertorie les paramètres supplémentaires que vous pouvez utiliser dans les paramètres de configuration de`New-CsOnlinePstnGateway`
 
-|Obligatoire ?|Nom|Description|Par défaut|Valeurs possibles|Type et restrictions|
+|Obligatoire?|Nom|Description|Par défaut|Valeurs possibles|Type et restrictions|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|Oui|FQDN|Le nom de domaine complet de le SBC |Aucun|Nom de NoneFQDN, limite 63 caractères|Chaîne, liste de caractères autorisés et non autorisés sur [les conventions d’attribution de noms dans Active Directory pour les ordinateurs, les domaines, les sites et les unités d’organisation](https://support.microsoft.com/help/909264)|
-|Non|MediaBypass |Le paramètre est réservé pour une utilisation future. Paramètre indiqué du contrôleur SBC prend en charge le contournement de média et l’administrateur souhaite l’utiliser.|Aucun|True<br/>False|Boolean|
-|Oui|SipSignallingPort |Port d’écoute utilisé pour communiquer avec les services de routage Direct à l’aide du protocole de Transport Layer Security (TLS).|Aucun|N’importe quel port|comprise entre 0 et 65535 |
-|Non|FailoverTimeSeconds |Lorsque la valeur 10 (valeur par défaut), les appels sortants qui ne sont pas traitées par la passerelle dans les 10 secondes sont routés vers le tronçon suivant disponible ; s’il n’y a aucune jonctions supplémentaires, l’appel est automatiquement supprimé. Dans une organisation avec des réponses de passerelle ou réseau lentes, cela peut entraîner l’abandon de nombreux appels. La valeur par défaut est 10.|10|Numéro|Int|
-|Non|ForwardCallHistory |Indique si les informations d’historique d’appel sont transférées par le biais de la jonction. Si activé, le Proxy de PSTN Office 365 envoie deux en-têtes : historique-info et visé par. La valeur par défaut est **False** ($False). |False|True<br/>False|Boolean|
-|Non|ForwardPAI|Indique si l’en-tête P-Asserted-Identity (PAI) sera transféré avec l’appel. L’en-tête PAI permet de vérifier l’identité de l’appelant. Si activé la confidentialité : ID d’en-tête est également envoyé. La valeur par défaut est **False** ($False).|False|True<br/>False|Boolean|
-|Non|SendSIPOptions |Définit si un contrôleur SBC sera ou n’envoie pas les options SIP. Si désactivé, le contrôleur SBC sera exclu de système de surveillance et d’alerte. Il est vivement recommandé d’activer les options de SIP. Valeur par défaut est **True**. |True|True<br/>False|Boolean|
-|Non|MaxConcurrentSessions |Utilisé par le système d’alerte. Lorsqu’une valeur est définie, le système d’alerte génère une alerte à l’administrateur de clients lorsque le nombre de sessions simultanées est 90 % ou supérieure à cette valeur. Si le paramètre n’est pas défini, les alertes ne sont pas générés. Toutefois, le système de surveillance signalera nombre de sessions simultanées toutes les 24 heures. |Null|Null<br/>1 et 100 000 ||
-|Non|Activé *|Permet d’activer cette SBC pour les appels sortants. Peut être utilisée pour supprimer temporairement le contrôleur SBC, pendant qu’il est en cours de mise à jour ou lors de la maintenance. |False|True<br/>False|Boolean|
+|Oui|FQDN|Nom de domaine complet du SBC |Aucun|Nom NoneFQDN, limiter 63 caractères|Chaîne, liste de caractères autorisés et non autorisés sur [les conventions d’appellation dans Active Directory pour les ordinateurs, domaines, sites et UO](https://support.microsoft.com/help/909264)|
+|Non|MediaBypass |Paramètre réservé pour une utilisation ultérieure. Le paramètre indiqué par l’élément SBC prend en charge la dérivation multimédia et l’administrateur veut l’utiliser.|Aucun|True<br/>False|Boolean|
+|Oui|SipSignallingPort |Port d’écoute utilisé pour la communication avec les services de routage directe à l’aide du protocole TLS (Transport Layer Security).|Aucun|Tout port|entre 0 et 65535 |
+|Non|FailoverTimeSeconds |Lorsque la valeur est définie sur 10 (valeur par défaut), les appels sortants pour lesquels la passerelle ne répond pas dans un délai de 10 secondes sont routés vers le Trunk disponible suivant; s’il n’y a pas de lignes supplémentaires, l’appel est automatiquement interrompu. Dans une organisation avec des réponses de passerelle ou réseau lentes, cela peut entraîner l’abandon de nombreux appels. La valeur par défaut est 10.|0,10|Numéro|Ent|
+|Non|ForwardCallHistory |Indique si les informations d’historique d’appel sont transférées par le biais de la jonction. Si cette option est activée, le Proxy RTC Office 365 envoie deux en-têtes: History-Info et expertisé. La valeur par défaut **** est false ($false). |False|True<br/>False|Boolean|
+|Non|ForwardPAI|Indique si l’en-tête P-Asserted-Identity (PAI) sera transféré avec l’appel. L’en-tête PAI permet de vérifier l’identité de l’appelant. Si vous avez activé l’en-tête d’ID vie privée: il est également envoyé. La valeur par défaut **** est false ($false).|False|True<br/>False|Boolean|
+|Non|SendSIPOptions |Définit si une SBC va ou non envoyer les options SIP. S’il est désactivé, l’SBC sera exclu du système de surveillance et d’alerte. Nous vous recommandons vivement d’activer les options SIP. La valeur par défaut est **true**. |True|True<br/>False|Boolean|
+|Non|MaxConcurrentSessions |Utilisé par le système d’alerte. Lorsque n’importe quelle valeur est définie, le système d’alerte génère une alerte auprès de l’administrateur client lorsque le nombre de sessions simultanées est 90% ou une valeur supérieure à celle-ci. Si paramètre n’est pas défini, les alertes ne le sont pas. Toutefois, le système de surveillance rapportera le nombre de sessions simultanées toutes les 24 heures. |Valeur|Valeur<br/>1 à 100 000 ||
+|Non|Activation|Utilisé pour activer cet SBC pour les appels sortants. Peut être utilisé pour supprimer temporairement l’SBC, pendant sa mise à jour ou lors de la maintenance. |False|True<br/>False|Boolean|
  
-### <a name="verify-the-sbc-pairing"></a>Vérifiez l’appariement SBC 
+### <a name="verify-the-sbc-pairing"></a>Vérifier le jumelage des SBC 
 
-Vérifiez la connexion : 
-- Vérifiez si le contrôleur SBC est dans la liste des paires SBCs. 
-- Valider les Options SIP. 
+Vérifiez la connexion: 
+- Vérifiez si la SBC est sur la liste de SBCs couplés. 
+- Valider les options SIP. 
  
-#### <a name="validate-if-the-sbc-is-on-the-list-of-paired-sbcs"></a>Valider si le contrôleur SBC est dans la liste des paires SBCs 
+#### <a name="validate-if-the-sbc-is-on-the-list-of-paired-sbcs"></a>Vérifier si la SBC est sur la liste de SBCs couplés 
 
-Après avoir paire le contrôleur SBC, vérifier que le contrôleur SBC est présent dans la liste des paires SBCs en exécutant la commande suivante dans une session PowerShell distante :`Get-CSOnlinePSTNGateway`
+Une fois que vous avez couplé l’SBC, validez la présence de l’SBC dans la liste des éléments SBCs couplés en exécutant la commande suivante dans une session PowerShell distante:`Get-CSOnlinePSTNGateway`
 
-La passerelle couplée doit apparaissent dans la liste, comme illustré dans l’exemple ci-dessous, puis vérifiez que le paramètre *Enabled* affiche la valeur **True**. Entrez :
+La passerelle couplée doit apparaître dans la liste, comme illustré dans l’exemple ci-dessous, et vérifier que le paramètre *Enabled* affiche la valeur **true**. Spécifi
 
 ```
 Get-CsOnlinePSTNGateway -Identity sbc.contoso.com  
 ```
-Qui retourne :
+Qui renvoie:
 <pre>
 Identity              : sbc.contoso.com  
 Fqdn                  : sbc.contoso.com 
@@ -146,153 +146,153 @@ MaxConcurrentSessions : 100
 Enabled               : True 
 </pre>
 
-#### <a name="validate-sip-options-flow"></a>Contrôler le flux d’Options SIP 
+#### <a name="validate-sip-options-flow"></a>Valider le flux d’options SIP 
 
-Pour valider l’association à l’aide des Options SIP sortant, utilisez l’interface de gestion SBC et confirmez que le contrôleur SBC reçoit les 200 réponses OK à ses OPTIONS de messages sortantes.
+Pour valider le jumelage à l’aide des options SIP sortants, utilisez l’interface de gestion des SBC et confirmez que l’SBC reçoit les réponses 200 OK à ses messages d’OPTIONS sortants.
 
-Lorsque le routage Direct voit des OPTIONS entrantes, il démarre sortant Options SIP messages le FQDN SBC est configurés dans le champ en-tête de Contact dans le message entrant OPTIONS d’envoi. 
+Lorsque le routage direct voit les OPTIONS entrantes, il commence à envoyer des messages d’options SIP sortants au nom de domaine complet SBC configuré dans le champ d’en-tête de contact du message OPTIONS entrantes. 
 
-Pour valider l’association à l’aide des Options SIP entrants, utilisez l’interface de gestion SBC et voir que le contrôleur SBC envoie une réponse aux messages OPTIONS provenant routage Direct et qu’il envoie le code de réponse est 200 OK.
+Pour valider le jumelage à l’aide des options SIP entrantes, utilisez l’interface de gestion des SBC et voyez que l’SBC envoie une réponse aux messages d’OPTIONS provenant du routage direct et que le code de réponse qu’il envoie est 200 OK.
 
-## <a name="enable-users-for-direct-routing-service"></a>Activer les utilisateurs pour le Service de routage Direct 
+## <a name="enable-users-for-direct-routing-service"></a>Activer les utilisateurs pour le service de routage direct 
 
-Lorsque vous êtes prêt à activer les utilisateurs pour le Service de routage Direct, procédez comme suit : 
+Lorsque vous êtes prêt à activer les utilisateurs pour le service de routage direct, procédez comme suit: 
 
-1. Créer un utilisateur dans Office 365 et attribuer une licence de système téléphonique. 
-2. Assurez-vous que l’utilisateur est hébergé dans Skype pour Business Online. 
-3. Configurer le numéro de téléphone et activer la messagerie vocale et enterprise voice. 
-4. Configurer le routage des communications vocales. L’itinéraire est automatiquement validé.
+1. Créez un utilisateur dans Office 365 et attribuez une licence de système téléphonique. 
+2. Assurez-vous que l’utilisateur est bien immobilier dans Skype entreprise online. 
+3. Configurez le numéro de téléphone et activez voix entreprise et boîte vocale. 
+4. Configurer le routage de la voix. L’itinéraire est validé automatiquement.
 
-### <a name="create-a-user-in-office-365-and-assign-the-license"></a>Créer un utilisateur dans Office 365 et attribuer la licence 
+### <a name="create-a-user-in-office-365-and-assign-the-license"></a>Créer un utilisateur dans Office 365 et affecter la licence 
 
-Il existe deux options pour la création d’un nouvel utilisateur dans Office 365. Toutefois, nous conseillons de votre organisation sélectionner une option permet d’éviter les problèmes de routage : 
+Deux options s’offrent à vous pour créer un utilisateur dans Office 365. Toutefois, nous recommandons que votre organisation sélectionne et utilise une option pour éviter les problèmes de routage: 
 
-- Créer l’utilisateur dans l’annuaire local et synchronisation de l’utilisateur vers le nuage. Voir les [répertoires intégrer votre locale avec Azure Active Directory](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect).
-- Créer l’utilisateur directement dans le portail d’administrateur Office 365. Consultez la rubrique [Ajouter des utilisateurs individuellement ou par lot pour Office 365 - aide d’administration](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec). 
+- Créer l’utilisateur dans l’annuaire Active Directory local et synchroniser l’utilisateur avec le Cloud. Voir [intégrer vos annuaires locaux avec Azure Active Directory](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect).
+- Créer l’utilisateur directement dans le portail d’administration Office 365. Pour plus d' [informations, voir ajouter des utilisateurs individuellement ou en bloc à Office 365-aide de l’administrateur](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec). 
 
-Si votre Skype pour le déploiement en ligne Business coexiste avec Skype pour Business 2015 ou Lync 2010/2013 local, la seule option prise en charge consiste à créer l’utilisateur dans l’annuaire local et synchronisation de l’utilisateur vers le nuage (Option 1). 
+Si votre déploiement de Skype entreprise Online co-existe avec Skype entreprise 2015 ou Lync 2010/2013 local, la seule option prise en charge consiste à créer l’utilisateur dans Active Directory local et à synchroniser l’utilisateur dans le Cloud (option 1). 
 
-Licences requises : 
+Licences requises: 
 
-- Office 365 entreprise E3 (y compris SfB Plan2, Plan2 Exchange et les équipes) + système de téléphone.
-- Office 365 entreprise E5 (y compris SfB Plan2 Plan2 Exchange et les équipes système téléphonique) 
+- Office 365 entreprise E3 (y compris marketing Plan2, Exchange Plan2 et Teams) + Téléphone
+- Office 365 entreprise E5 (y compris marketing Plan2, Exchange Plan2, équipes et système téléphonique) 
 
-Licences facultatifs : 
+Licences facultatives: 
 
-- Appel de Plan 
+- Forfait d’appels 
 - Audioconférence, 
 
-### <a name="ensure-that-the-user-is-homed-in-skype-for-business-online"></a>Assurez-vous que l’utilisateur est hébergé dans Skype pour Business Online 
+### <a name="ensure-that-the-user-is-homed-in-skype-for-business-online"></a>Vérifier que l’utilisateur est bien immobilier dans Skype entreprise Online 
 
-Routage direct, l’utilisateur doit être hébergé dans Skype pour Business Online. Vous pouvez le vérifier en regardant le paramètre RegistrarPool. Il doit avoir une valeur dans le domaine infra.lync.com.
+Le routage direct nécessite que l’utilisateur soit hébergé dans Skype entreprise online. Pour cela, vous pouvez consulter le paramètre RegistrarPool. Il doit avoir une valeur dans le domaine infra.lync.com.
 
-1. Se connecter à PowerShell à distance.
-2. Exécutez la commande : 
+1. Connectez-vous à Remote PowerShell.
+2. Émettez la commande suivante: 
 
 ```
 Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool
 ``` 
 
-### <a name="configure-the-phone-number-and-enable-enterprise-voice-and-voicemail"></a>Configurer le numéro de téléphone et activer la messagerie vocale et enterprise voice 
+### <a name="configure-the-phone-number-and-enable-enterprise-voice-and-voicemail"></a>Configuration du numéro de téléphone et activation de la voix et de la boîte vocale entreprise 
 
-Après avoir créé l’utilisateur et attribué une licence, l’étape suivante consiste à configurer leur numéro de téléphone et la messagerie vocale. Pour cela, en une seule étape. 
+Une fois que vous avez créé l’utilisateur et attribué une licence, l’étape suivante consiste à configurer son numéro de téléphone et sa boîte vocale. Cette opération peut être réalisée en une seule étape. 
 
-Pour ajouter le numéro de téléphone et activer pour la messagerie vocale :
+Pour ajouter le numéro de téléphone et l’activer pour la boîte vocale, procédez comme suit:
  
 1. Se connecter à une session PowerShell distante. 
-2. Entrez la commande : 
+2. Entrez la commande suivante: 
  
 ```
 Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<E.164 phone number>
 ```
 
-Par exemple, pour ajouter un numéro de téléphone pour l’utilisateur « Spencer faible », entrez ce qui suit : 
+Par exemple, pour ajouter un numéro de téléphone pour l’utilisateur «Beaune Low», entrez ce qui suit: 
 
 ```
 Set-CsUser -Identity "Spencer Low" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
 ```
 
-Le numéro de téléphone utilisé doit être configuré comme un numéro de téléphone E.164 complète avec le code de pays. 
+Le numéro de téléphone utilisé doit être configuré en tant que numéro de téléphone avec l’indicatif du pays. 
 
   > [!NOTE]
-  > Si le numéro de téléphone de l’utilisateur est géré sur site, utilisez locale Skype pour Business Management Shell ou le panneau de configuration pour configurer le numéro de téléphone de l’utilisateur. 
+  > Si le numéro de téléphone de l’utilisateur est géré en local, utilisez l’interpréteur de commandes ou le panneau de configuration Skype entreprise local pour configurer le numéro de téléphone de l’utilisateur. 
 
-### <a name="configure-voice-routing"></a>Configurer le routage des communications vocales 
+### <a name="configure-voice-routing"></a>Configurer le routage de la voix 
 
-Système téléphonique de Microsoft dispose d’un mécanisme de routage qui permet à un appel à envoyer à un SBC spécifique en fonction de : 
+Le système Microsoft Phone possède un mécanisme de routage qui permet d’envoyer un appel à un SBC spécifique en fonction de: 
 
-- Modèle de numéro appelé 
-- Modèle de numéro appelé + utilisateur spécifique qui effectue l’appel
+- Modèle de nombre appelé 
+- Appel de modèle de numéro + utilisateur spécifique qui effectue l’appel
  
-SBC peut être désignés comme actif et de sauvegarde. Cela signifie que lorsque la SBC est configuré comme active pour ce modèle de numéro, ou un modèle de numéro + un utilisateur spécifique, n’est pas disponible, puis les appels sont acheminés vers un contrôleur SBC sauvegarde.
+SBCs peut être désignée comme active et Backup. Cela signifie que lorsque l’SBC configuré comme étant actif pour ce modèle de nombre, ou un modèle de nombre (utilisateur spécifique) n’est pas disponible, les appels sont dirigés vers un SBC de sauvegarde.
  
-Routage des appels est composé des éléments suivants : 
-- Stratégie de routage voix – conteneur pour les utilisations RTC ; peuvent être attribuées à un utilisateur ou à plusieurs utilisateurs 
-- Utilisations PSTN – conteneur pour les itinéraires de communications vocales et les utilisations RTC ; peuvent être partagées dans différentes stratégies de routage des communications vocales 
-- Itinéraires-modèle de numéro et un ensemble de Online passerelles PSTN à utiliser pour les appels où l’appel de numéro correspond au modèle de voix 
-- Passerelle PSTN Online - pointeur vers un contrôleur SBC, stocke également la configuration est appliquée lors de l’appel est passé via le contrôleur SBC, telles que le transfert P-Asserted-Identity (PAI) ou Codecs par défaut ; peuvent être ajoutés à des itinéraires de communications vocales 
+Le routage des appels se compose des éléments suivants: 
+- Politique de routage de la voix-conteneur d’utilisation PSTN; peuvent être affectés à un utilisateur ou à plusieurs utilisateurs 
+- Usages PSTN: conteneur des itinéraires vocaux et des utilisations PSTN; peuvent être partagés dans différentes politiques de routage vocal 
+- Itinéraires vocaux: modèle numérique et ensemble de passerelles RTC en ligne à utiliser pour les appels dans lesquels le numéro de téléphone correspond au modèle 
+- Passerelle RTC en ligne-pointeur vers une SBC, qui stocke également la configuration appliquée lors de l’appel via SBC, telle que l’envoi d’identité P-assertion (PAI) ou de codecs préférés. peuvent être ajoutés aux itinéraires vocaux 
 
-#### <a name="creating-a-voice-routing-policy-with-one-pstn-usage"></a>Création d’une stratégie de routage des communications vocales avec une seule utilisation PSTN 
+#### <a name="creating-a-voice-routing-policy-with-one-pstn-usage"></a>Création d’une stratégie de routage de la voix avec une utilisation PSTN 
 
-Le diagramme suivant illustre les deux exemples de stratégies de routage voix dans le flux d’appels.
+Le schéma suivant montre deux exemples de stratégies de routage de voix dans le flux d’appels.
 
-**Appel flux 1 (à gauche) :** Si un utilisateur effectue un appel à XXX-XX-XX +1 425 ou XXX-XX-XX +1 206, l’appel est acheminé vers SBC sbc1.contoso.biz ou sbc2.contoso.biz. Si ni sbc1.contoso.biz ni sbc2.contoso.biz est disponible, l’appel est abandonné. 
+**Flux d’appels 1 (à gauche):** Si un utilisateur effectue un appel vers + 1 425 XXX XX XX ou + 1 206 XXX XX XX, l’appel est acheminé vers SBC sbc1.contoso.biz ou sbc2.contoso.biz. Si les sbc1.contoso.biz et sbc2.contoso.biz ne sont pas disponibles, l’appel est abandonné. 
 
-**Call flux 2 (à droite) :** Si un utilisateur effectue un appel à XXX-XX-XX +1 425 ou XXX-XX-XX +1 206, l’appel est acheminé tout d’abord SBC sbc1.contoso.biz ou sbc2.contoso.biz. Si aucun contrôleur SBC est disponible, l’itinéraire dont la priorité sera essayé (sbc3.contoso.biz et sbc4.contoso.biz). Si aucune des SBCs n’est disponibles, l’appel est abandonné. 
+**Flux d’appels 2 (sur la droite):** Si un utilisateur effectue un appel vers + 1 425 XX XX XX ou + 1 206 XXX XX XX, l’appel est d’abord routé vers SBC sbc1.contoso.biz ou sbc2.contoso.biz. Si aucun SBC n’est disponible, l’itinéraire dont la priorité est faible est essayé (sbc3.contoso.biz et sbc4.contoso.biz). Si aucune des SBCs n’est disponible, l’appel est abandonné. 
 
-![Présente des exemples de stratégie de routage voix](media/ConfigDirectRouting-VoiceRoutingPolicyExamples.png)
+![Exemples de stratégies de routage vocale](media/ConfigDirectRouting-VoiceRoutingPolicyExamples.png)
 
-Dans les deux exemples, tandis que l’itinéraire de communications vocales est assignée les priorités, les SBCs dans les itinéraires sont traités dans l’ordre aléatoire.
-
-  > [!NOTE]
-  > À moins que l’utilisateur a également une licence Plan de l’appel de Microsoft, les appels vers n’importe quel nombre à l’exception des numéros qui correspondent aux modèles XXX-XX-XX +1 425 ou +1 206 XXX XX XX dans l’exemple de configuration sont supprimées. Si l’utilisateur possède une licence de planifier l’appel, l’appel est acheminé automatiquement en fonction des stratégies de l’appel de Plan Microsoft. 
-
-Le Plan d’appel de Microsoft s’applique automatiquement en tant que dernier à tous les utilisateurs dont la licence de l’appel de Plan de Microsoft et ne nécessite pas de configuration du routage des appels supplémentaires.
-
-Dans l’exemple illustré dans le diagramme suivant, un itinéraire de communications vocales est ajouté pour envoyer les appels vers tous les autres États-Unis et du Canada numéro (appels qui accèdent à un modèle de numéro appelé + 1 XXX XXX XX XX).
-
-![Stratégie de routage avec un itinéraire tiers de voix affiche](media/ConfigDirectRouting-VoiceRoutingPolicywith3rdroute.png)
-
-Si l’utilisateur a les deux licences (système téléphonique de Microsoft et Microsoft appel de Plan) itinéraire automatique est utilisée pour tous les autres appels. Si rien ne correspond au numéros modèles créés par l’administrateur en ligne itinéraires des communications vocales, l’itinéraire par le biais de l’appel de Plan de Microsoft.
-
-Si l’utilisateur a Microsoft Phone System, l’appel est supprimé, car aucune règle correspondante n’est disponibles.
+Dans les deux exemples, si les priorités de l’itinéraire vocal sont affectées, les éléments SBCs dans les itinéraires sont essayés dans un ordre aléatoire.
 
   > [!NOTE]
-  > Valeur de la priorité d’itinéraire « Autres + 1 » n’a aucune importance dans ce cas, comme c’est le seul itinéraire qui correspond au modèle + 1 XXX XXX XX XX. Si un utilisateur effectue un appel à + 1 324 567 89 89 et à la fois sbc5.contoso.biz et sbc6.contoso.biz ne sont pas disponibles, l’appel est abandonné.
+  > À moins que l’utilisateur ne dispose d’une licence de plan d’appel Microsoft, les appels vers n’importe quel numéro, à l’exception des numéros correspondant aux modèles + 1 425 XXX XX XX ou + 1 206 XXX XX XX dans l’exemple de configuration sont supprimés. Si l’utilisateur dispose d’une licence de plan d’appel, l’appel est automatiquement acheminé conformément aux politiques du forfait d’appel Microsoft. 
 
-Le tableau suivant récapitule la configuration à l’aide de trois itinéraires de communications vocales. Dans cet exemple, tous les itinéraires de trois font partie de la même utilisation PSTN « Nous et Canada ».
+Le plan d’appel Microsoft s’applique automatiquement en tant que dernier itinéraire à tous les utilisateurs dotés de la licence de plan d’appel Microsoft et ne nécessite pas de configuration du routage des appels supplémentaire.
 
-|**Utilisation PSTN**|**Itinéraire de communications vocales**|**Schéma de numéro**|**Priorité**|**SBC**|**Description**|
+Dans l’exemple ci-dessous, un itinéraire vocal est ajouté pour envoyer les appels vers tous les autres États-Unis et le numéro canadien (appels vers le modèle de numéro + 1 XXX XXX XX XX).
+
+![Affiche la politique de routage téléphonique avec un troisième itinéraire](media/ConfigDirectRouting-VoiceRoutingPolicywith3rdroute.png)
+
+Pour tous les autres appels, si un utilisateur possède les deux licences (système Microsoft Phone et forfait d’appel Microsoft), un itinéraire automatique est utilisé. S’il ne correspond pas aux modèles de nombre dans les itinéraires vocaux en ligne créés par l’administrateur, route via un forfait d’appel Microsoft.
+
+Si l’utilisateur dispose uniquement du système Microsoft Phone, l’appel est abandonné, car aucune règle de correspondance n’est disponible.
+
+  > [!NOTE]
+  > La valeur de priorité pour l’itinéraire «Other + 1» n’a pas d’importance dans ce cas, car il n’y a qu’un seul itinéraire correspondant au modèle + 1 XXX XX XX. Si un utilisateur effectue un appel à + 1 324 567 89 89 et que les sbc5.contoso.biz et sbc6.contoso.biz ne sont pas disponibles, l’appel est abandonné.
+
+Le tableau suivant résume la configuration à l’aide de trois itinéraires vocaux. Dans cet exemple, les trois itinéraires font partie de la même utilisation PSTN «États-Unis et Canada».
+
+|**Utilisation PSTN**|**Route vocale**|**Schéma de numéro**|**Priorité**|**SBC**|**Description**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|Nous uniquement|« Redmond 1 »|^\\+ 1 (425\|206)(\d{7})$|1|sbc1.contoso.biz<br/>sbc2.contoso.biz|Itinéraire actif pour les numéros appelés XXX-XX-XX +1 425 ou XXX-XX-XX +1 206|
-|Nous uniquement|« Redmond 2 »|^\\+ 1 (425\|206)(\d{7})$|2|SBC3.contoso.biz<br/>sbc4.contoso.biz|Itinéraire alternatif pour les numéros appelés XXX-XX-XX +1 425 ou XXX-XX-XX +1 206|
-|Nous uniquement|« Autres + 1 »|^\\+ 1 (\d{10}) $|3|sbc5.contoso.biz<br/>sbc6.contoso.biz|Routage de numéros appelés + 1 XXX XXX XX XX (sauf XXX-XX-XX +1 425 ou XXX-XX-XX +1 206)|
+|États-Unis uniquement|"Redmond 1"|^\\+ 1 (425\|206) (\d{7}) $|1|sbc1.contoso.biz<br/>sbc2.contoso.biz|Itinéraire actif pour les numéros appelés + 1 425 XXX XX XX ou + 1 206 XXX XX XX|
+|États-Unis uniquement|"Redmond 2"|^\\+ 1 (425\|206) (\d{7}) $|2|sbc3.contoso.biz<br/>sbc4.contoso.biz|Itinéraire de sauvegarde pour les numéros appelés + 1 425 XXX XX XX ou + 1 206 XXX XX XX|
+|États-Unis uniquement|"Other + 1"|^\\+ 1 (\d{10}) $|3|sbc5.contoso.biz<br/>sbc6.contoso.biz|Itinéraire pour les numéros appelés + 1 XXX XXX XX XX (sauf + 1 425 XXX XX XX ou + 1 206 XXX XX XX)|
 |||||||
 
-Tous les itinéraires sont associés à l’utilisation PSTN « Nous et Canada » et l’utilisation RTC est associée à la stratégie de routage voix « US uniquement ». Dans cet exemple, la stratégie de routage voix est attribuée à l’utilisateur Spencer Low.
+Tous les itinéraires sont associés à l’utilisation RTC «États-Unis et Canada» et l’utilisation RTC est associée à la politique de routage de la voix «États-Unis uniquement». Dans cet exemple, la stratégie de routage de la voix est affectée à user Spencer Low.
 
 #### <a name="examples-of-call-routes"></a>Exemples d’itinéraires d’appels
 
-Dans l’exemple suivant, nous vous montrer comment configurer des itinéraires, des utilisations PSTN et des stratégies de routage et nous attribuer la stratégie à l’utilisateur.
+Dans l’exemple suivant, nous montrons comment configurer des itinéraires, des utilisations RTC et des stratégies de routage, et nous affectons la stratégie à l’utilisateur.
 
-**Étape 1 :** Créez l’utilisation PSTN « États-Unis et au Canada ».
+**Étape 1:** Créez l’utilisation RTC «États-Unis et Canada».
 
-Dans un Skype de session Business Remote PowerShell, tapez :
+Dans une session PowerShell distante Skype entreprise, tapez:
 
 ```
 Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="US and Canada"}
 ```
 
-Vérifiez que l’utilisation a été créée en entrant : 
+Vérifiez que l’utilisation a été créée en entrant: 
 ```
 Get-CSOnlinePSTNUsage
 ``` 
-Qui retourne une liste de noms qui peuvent être tronqués :
+Qui renvoie une liste de noms qui risquent d’être tronqués:
 ```
   Identity  : Global
   Usage     : {testusage, US and Canada, International, karlUsage. . .}
 ```
-Dans l’exemple ci-dessous, vous pouvez voir le résultat de l’exécution de la commande PowerShell `(Get-CSOnlinePSTNUsage).usage` pour afficher les noms complets (non tronquées). 
+Dans l’exemple ci-dessous, vous pouvez voir le résultat de l’exécution de `(Get-CSOnlinePSTNUsage).usage` la commande PowerShell pour afficher les noms complets (sans troncature). 
 <pre>
  testusage
  US and Canada
@@ -305,16 +305,16 @@ Dans l’exemple ci-dessous, vous pouvez voir le résultat de l’exécution de 
  Two trunks
 </pre>
 
-**Étape 2 :** Dans une session dans Skype pour Business Online PowerShell, créez des trois itinéraires : Redmond 1, Redmond 2 et autres + 1, comme indiqué dans le tableau précédent. 
+**Étape 2:** Dans une session PowerShell dans Skype entreprise Online, créez trois itinéraires: Redmond 1, Redmond 2 et autres + 1, comme décrit dans le tableau précédent. 
 
-Pour créer l’itinéraire « Redmond 1 », entrez :
+Pour créer l’itinéraire «Redmond 1», entrez:
 
   ```
   New-CsOnlineVoiceRoute -Identity "Redmond 1" -NumberPattern "^\+1(425|206)
   (\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
   ```
 
-Qui retourne :
+Qui renvoie:
 <pre>
 Identity                : Redmond 1
 Priority            : 1
@@ -326,14 +326,14 @@ Name            : Redmond 1
 SuppressCallerId    :
 AlternateCallerId   :
 </pre>
-Pour créer l’itinéraire Redmond 2, entrez :
+Pour créer l’itinéraire de Redmond 2, entrez:
 
 ```
 New-CsOnlineVoiceRoute -Identity "Redmond 2" -NumberPattern "^\+1(425|206)
 (\d{7})$" -OnlinePstnGatewayList sbc3.contoso.biz, sbc4.contoso.biz -Priority 2 -OnlinePstnUsages "US and Canada"
 ```
 
-Pour créer l’itinéraire de + 1 autres, entrez :
+Pour créer l’autre itinéraire + 1, entrez:
 
 ```
 New-CsOnlineVoiceRoute -Identity "Other +1" -NumberPattern "^\+1(\d{10})$"
@@ -341,23 +341,23 @@ New-CsOnlineVoiceRoute -Identity "Other +1" -NumberPattern "^\+1(\d{10})$"
 ```
 
   > [!CAUTION]
-  > Assurez-vous que votre expression régulière dans l’attribut NumberPattern est une expression valide. Vous pouvez tester à l’aide de ce site Web :[https://www.regexpal.com](https://www.regexpal.com)
+  > Assurez-vous que votre expression régulière dans l’attribut NumberPattern est une expression valide. Vous pouvez le tester à l’aide du site Web suivant:[https://www.regexpal.com](https://www.regexpal.com)
 
-Dans certains cas, il est nécessaire pour acheminer tous les appels vers la même SBC ; Utilisez - NumberPattern «. * »
+Dans certains cas, il est nécessaire de router tous les appels vers le même SBC; Utilisez-NumberPattern ". *"
 
-- Tous les appels vers la même SBC
+- Acheminer tous les appels vers le même SBC
 
     ```
     Set-CsOnlineVoiceRoute -id "Redmond 1" -NumberPattern ".*" 
      -OnlinePstnGatewayList sbc1.contoso.biz
     ```
 
-Valider que vous avez correctement configuré l’itinéraire en exécutant la `Get-CSOnlineVoiceRoute` commande PowerShell à l’aide des options comme : 
+Vérifiez que vous avez correctement configuré l’itinéraire en exécutant la `Get-CSOnlineVoiceRoute` commande PowerShell en utilisant les options suivantes: 
 
 ```
 Get-CsOnlineVoiceRoute | Where-Object {($_.priority -eq 1) -or ($_.priority -eq 2) or ($_.priority -eq 4) -Identity "Redmond 1" -NumberPattern "^\+1(425|206) (\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
 ```
-Qui doit retourner :
+Qui doit retourner:
 <pre>
 Identity            : Redmond 1 
 Priority            : 1
@@ -383,17 +383,17 @@ OnlinePstnGatewayList   : {sbc5.contoso.biz, sbc6.contoso.biz}
 Name            : Other +1
 </pre>
 
-Dans l’exemple, l’itinéraire « Autres + 1 » a été automatiquement priorité 4. 
+Dans l’exemple, l’itinéraire «Other + 1» a automatiquement la priorité 4. 
 
-**Étape 3 :** Créer une stratégie de routage voix « Nous uniquement » et l’ajouter à la stratégie de l’utilisation PSTN « États-Unis et au Canada. »
+**Étape 3:** Créez une stratégie de routage de la voix «États-Unis uniquement» et ajoutez-la à la politique «États-Unis et Canada».
 
-Dans une session dans Skype pour Business Online PowerShell, tapez :
+Dans une session PowerShell dans Skype entreprise Online, tapez:
 
 ```
 New-CsOnlineVoiceRoutingPolicy "US Only" -OnlinePstnUsages "US and Canada"
 ```
 
-Le résultat est indiqué dans cet exemple :
+Le résultat est affiché dans cet exemple:
 
 <pre>
 Identity        : Tag:US only
@@ -402,75 +402,75 @@ Description         :
 RouteType           : BYOT
 </pre>
 
-**Étape 4 :** Accorder à l’utilisateur Spencer Low une stratégie de routage voix à l’aide de PowerShell.
+**Étape 4:** Accordez à l’utilisateur la politique de routage de la voix de faible utilisation par PowerShell.
 
-- Dans une session dans Skype pour Business Online PowerShell, tapez :
+- Dans une session PowerShell dans Skype entreprise Online, tapez:
 
     ```Grant-CsOnlineVoiceRoutingPolicy -Identity "Spencer Low" -PolicyName "US Only"```
 
-- Valider l’affectation de stratégie en entrant la commande suivante :
+- Validez l’affectation de stratégie en entrant la commande suivante:
 
 ```
 Get-CsOnlineUser "Spencer Low" | select OnlineVoiceRoutingPolicy
 ```
-Qui retourne :
+Qui renvoie:
 <pre>
     OnlineVoiceRoutingPolicy
     ---------------------
     US Only
 </pre>
 
-#### <a name="creating-a-voice-routing-policy-with-several-pstn-usages"></a>Création d’une stratégie de routage des communications vocales avec plusieurs utilisations PSTN
+#### <a name="creating-a-voice-routing-policy-with-several-pstn-usages"></a>Création d’une stratégie de routage de la voix avec plusieurs utilisations PSTN
 
-La stratégie de routage des communications vocales créée précédemment n’autorise les appels vers les numéros de téléphone aux États-Unis et au Canada, sauf si la licence de l’appel de Plan de Microsoft est également affectée à l’utilisateur.
+La politique de routage vocale créée auparavant n’autorise que les appels vers des numéros de téléphone aux États-Unis et au Canada, sauf si la licence de plan d’appel Microsoft est également affectée à l’utilisateur.
 
-Dans l’exemple qui suit, vous ne pouvez créer la stratégie de routage voix « Aucune restriction ». La stratégie réutilise l’utilisation PSTN « Nous et Canada » créé dans l’exemple précédent, ainsi que la nouvelle utilisation PSTN « International ». 
+Dans l’exemple qui suit, vous pouvez créer la stratégie de routage téléphonique «aucune restriction». La stratégie réutilise l’utilisation RTC «États-Unis et Canada» créée dans l’exemple précédent, ainsi que la nouvelle utilisation RTC «international». 
 
-Cela achemine tous les autres appels aux sbc2.contoso.biz SBCs et sbc5.contoso.biz. Les exemples figurent attribuer les États-Unis uniquement une stratégie à l’utilisateur « Spencer faible » et sans Restrictions à l’utilisateur « John Woods ».
+Cela achemine tous les autres appels vers l’SBCs sbc2.contoso.biz et sbc5.contoso.biz. Les exemples qui s’affichent affectent la politique américaine uniquement à l’utilisateur «Beaune Low» et aucune restriction à l’utilisateur «Jean bois».
 
-Spencer faible – appels autorisés uniquement aux États-Unis et au Canada numéros. Lors de l’appel à la plage de numéros Redmond, le jeu spécifique de SBC doit être utilisé. Les numéros non US seront acheminés pas, sauf si la licence de planifier l’appel est attribuée à l’utilisateur.
+Spencer Low – appels uniquement autorisés vers les États-Unis et le Canada. Lorsque vous appelez la gamme de numéros Redmond, l’ensemble spécifique de SBC doit être utilisé. Les numéros non US ne seront pas routés sauf si la licence de plan d’appel est affectée à l’utilisateur.
 
-John Woods – appels autorisés à n’importe quel nombre. Lors de l’appel à la plage de numéros Redmond, le jeu spécifique de SBC doit être utilisé. Les numéros non US seront acheminés via sbc2.contoso.biz et sbc5.contoso.biz.
+Jean bois – appels autorisés vers n’importe quel numéro. Lorsque vous appelez la gamme de numéros Redmond, l’ensemble spécifique de SBC doit être utilisé. Les numéros non US seront routés par le biais de sbc2.contoso.biz et sbc5.contoso.biz.
 
-![Indique la stratégie de routage voix attribuée à l’utilisateur Spencer Low](media/ConfigDirectRouting-VoiceRoutingPolicyAssignedtoSpencerLow.png)
+![Affiche la politique de routage vocale affectée à l’utilisateur Spencer Low](media/ConfigDirectRouting-VoiceRoutingPolicyAssignedtoSpencerLow.png)
 
-Si l’utilisateur a les deux licences (système téléphonique de Microsoft et Microsoft appel de Plan) itinéraire automatique est utilisée pour tous les autres appels. Si rien ne correspond au numéros modèles créés par l’administrateur en ligne itinéraires des communications vocales, l’itinéraire par le biais de l’appel de Plan de Microsoft.
+Pour tous les autres appels, si un utilisateur possède les deux licences (système Microsoft Phone et forfait d’appel Microsoft), un itinéraire automatique est utilisé. S’il ne correspond pas aux modèles de nombre dans les itinéraires vocaux en ligne créés par l’administrateur, route via un forfait d’appel Microsoft.
 
-Si l’utilisateur a Microsoft Phone System, l’appel est supprimé, car aucune règle correspondante n’est disponibles.
+Si l’utilisateur dispose uniquement du système Microsoft Phone, l’appel est abandonné, car aucune règle de correspondance n’est disponible.
 
-![Indique la stratégie de routage voix attribuée à l’utilisateur John Woods](media/ConfigDirectRouting-VoiceRoutingPolicyAssignedtoJohnWoods.png)
+![Politique de routage de la voix attribuée à l’utilisateur Jean bois](media/ConfigDirectRouting-VoiceRoutingPolicyAssignedtoJohnWoods.png)
 
-Le tableau suivant récapitule les itinéraires de communications vocales et de dénomination de l’utilisation de routage stratégie « No Restrictions ». 
+Le tableau suivant récapitule les concepteurs d’utilisation et les itinéraires vocaux de la stratégie de routage «aucune restriction». 
 
-|**Utilisation PSTN**|**Itinéraire de communications vocales**|**Schéma de numéro**|**Priorité**|**SBC**|**Description**|
+|**Utilisation PSTN**|**Route vocale**|**Schéma de numéro**|**Priorité**|**SBC**|**Description**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|Nous uniquement|« Redmond 1 »|^\\+ 1 (425\|206)(\d{7})$|1|sbc1.contoso.biz<br/>sbc2.contoso.biz|Gamme active pour les numéros appelé XXX-XX-XX +1 425 ou XXX-XX-XX +1 206|
-|Nous uniquement|« Redmond 2 »|^\\+ 1 (425\|206)(\d{7})$|2|SBC3.contoso.biz<br/>sbc4.contoso.biz|Itinéraire alternatif pour les numéros appelé XXX-XX-XX +1 425 ou XXX-XX-XX +1 206|
-|Nous uniquement|« Autres + 1 »|^\\+ 1 (\d{10}) $|3|sbc5.contoso.biz<br/>sbc6>.contoso.biz|Itinéraire pour appelé numéros + 1 XXX XXX XX XX (sauf XXX-XX-XX +1 425 ou XXX-XX-XX +1 206)|
-|International|International|\d+|4|sbc2.contoso.biz<br/>sbc5.contoso.biz|Itinéraire pour n’importe quel modèle de numéro |
+|États-Unis uniquement|"Redmond 1"|^\\+ 1 (425\|206) (\d{7}) $|1|sbc1.contoso.biz<br/>sbc2.contoso.biz|Itinéraire actif pour les numéros d’appelant + 1 425 XXX XX XX ou + 1 206 XXX XX XX|
+|États-Unis uniquement|"Redmond 2"|^\\+ 1 (425\|206) (\d{7}) $|2|sbc3.contoso.biz<br/>sbc4.contoso.biz|Itinéraire de sauvegarde pour les numéros des appelants + 1 425 XXX XX XX ou + 1 206 XXX XX XX|
+|États-Unis uniquement|"Other + 1"|^\\+ 1 (\d{10}) $|3|sbc5.contoso.biz<br/>sbc6>. contoso. biz|Itinéraire pour les numéros d’appelant + 1 XXX XXX XX XX (sauf + 1 425 XXX XX XX ou + 1 206 XXX XX XX)|
+|International|International|\d +|4|sbc2.contoso.biz<br/>sbc5.contoso.biz|Itinéraire pour n’importe quel modèle numérique |
 
 
   > [!NOTE]
-  > - L’ordre des utilisations PSTN dans les stratégies de routage voix est essentielle. Les utilisations sont appliquées dans l’ordre, et si une correspondance est trouvée dans la première utilisation, puis autres utilisations ne sont jamais évaluées. L’utilisation PSTN « International » doit être placée après l’utilisation PSTN « Nous uniquement. » Pour modifier l’ordre des utilisations PSTN, exécutez le `Set-CSOnlineVoiceRoutingPolicy` commande. <br/>Par exemple, pour modifier l’ordre de « Nous et Canada » deuxième prénom et « International » à l’ordre inverse exécutez :<br/> `Set-CsOnlineVoiceRoutingPolicy -id tag:"no Restrictions" -OnlinePstnUsages @{Replace="International", "US and Canada"}`
- > - La priorité de « Autres + 1 » et « International » des itinéraires sont affectés automatiquement. Ils n’a pas d’importance tant qu’ils ont des priorités inférieures à « Redmond 1 » et « Redmond 2 ».
+  > - L’ordre des utilisations RTC dans les stratégies de routage vocale est essentiel. Les utilisations sont appliquées dans l’ordre et, si une correspondance est trouvée dans la première utilisation, les autres utilisations ne sont jamais évaluées. L’utilisation RTC «international» doit être placée après l’utilisation RTC «États-Unis uniquement». Pour modifier l’ordre des utilisations RTC, exécutez la `Set-CSOnlineVoiceRoutingPolicy` commande. <br/>Par exemple, pour passer de l’ordre «États-Unis et Canada» et inversement, procédez comme suit:<br/> `Set-CsOnlineVoiceRoutingPolicy -id tag:"no Restrictions" -OnlinePstnUsages @{Replace="International", "US and Canada"}`
+ > - Le niveau de priorité des itinéraires vocaux «Other + 1» et «international» est automatiquement attribué. Il n’y a pas d’importance tant qu’il dispose de priorités inférieures à «Redmond 1» et «Redmond 2».
 
-#### <a name="example-of-voice-routing-policy-for-user-john-woods"></a>Exemple de la stratégie de routage voix pour l’utilisateur John Woods
+#### <a name="example-of-voice-routing-policy-for-user-john-woods"></a>Exemple de politique de routage vocale pour les bois des utilisateurs de Jean
 
-Stratégie de routage « No Restrictions, » vocale itinéraire « International », vocale à la procédure de création d’utilisation PSTN « International », et puis en l’affectant à l’utilisateur « John Woods » sont les suivantes.
+Les étapes à suivre pour créer une utilisation PSTN «international», un itinéraire vocal «international», «stratégie de routage vocale» n’est pas soumis à des restrictions», puis l’affecter à l’utilisateur «Jean bois» est le suivant.
 
 
-1. Tout d’abord, créez l’utilisation PSTN « International ». Dans une session PowerShell distante dans Skype pour Business Online, entrez :
+1. Tout d’abord, créez l’utilisation RTC «international». Dans une session PowerShell distante dans Skype entreprise Online, entrez:
 
    ```
    Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="International"}
    ```
 
-2. Ensuite, créez l’itinéraire des communications vocales « International ».
+2. Ensuite, créez le nouveau message vocal «international».
 
    ```
    New-CsOnlineVoiceRoute -Identity "International" -NumberPattern ".*" -OnlinePstnGatewayList sbc2.contoso.biz, sbc5.contoso.biz -OnlinePstnUsages "International"
    ```
-   Qui retourne :
+   Qui renvoie:
 
    <pre>
    Identity                  : International 
@@ -483,7 +483,7 @@ Stratégie de routage « No Restrictions, » vocale itinéraire « Internatio
    SuppressCallerId          :
    AlternateCallerId         :
    </pre>
-3. Ensuite, ne créez une stratégie de routage voix « Aucune restriction ». L’utilisation PSTN « Redmond 1 » et « Redmond » sont réutilisés dans cette stratégie de routage voix pour conserver les appels au numéro « +1 425 XX XXX XX » et « +1 206 XX XXX XX » comme local ou appels locaux de traitement particulier.
+3. Ensuite, créez une stratégie de routage téléphonique «aucune restriction». L’utilisation RTC «Redmond 1» et «Redmond» sont réutilisées dans cette politique de routage vocale pour garantir une gestion spéciale des appels au numéro «+ 1 425 XXX XX XX» et «+ 1 206 XXX XX XX» en tant qu’appels locaux ou locaux.
 
 ```
 New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"
@@ -497,7 +497,7 @@ New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canad
 
     ```New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"```
 
-   Qui retourne
+   Qui renvoie
 
   <pre>
    Identity     : International 
@@ -506,18 +506,18 @@ New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canad
    RouteType        : BYOT
   </pre>
 
-4. Attribuer la stratégie de routage voix à l’utilisateur « John Woods » à l’aide de la commande suivante.
+4. Attribuez la politique de routage de la voix à l’utilisateur «Jean bois» à l’aide de la commande suivante.
 
    ```
    Grant-CsOnlineVoiceRoutingPolicy -Identity "John Woods" -PolicyName "No Restrictions”
    ```
 
-   Vérifiez l’affectation à l’aide de la commande : 
+   Vérifiez ensuite le devoir à l’aide de la commande: 
 
    ```
    Get-CsOnlineUser "John Woods" | Select OnlineVoiceRoutingPolicy
    ```
-   Qui retourne :
+   Qui renvoie:
 
 <pre>
     OnlineVoiceRoutingPolicy
@@ -525,11 +525,11 @@ New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canad
     No Restrictions
 </pre>
 
-Le résultat est que la stratégie de voix appliquée aux appels de John Woods est illimitée et suivre la logique de routage des appels disponibles pour les États-Unis, au Canada et International appel.
+Le résultat est que la stratégie vocale appliquée aux appels de Jean-Martin n’est pas restreinte et qu’elle respecte la logique du routage des appels disponible aux États-Unis, au Canada et au service d’appels internationaux.
 
-## <a name="set-microsoft-teams-as-the-preferred-calling-client-for-users"></a>Définir Teams Microsoft en tant que client appelant par défaut pour les utilisateurs
+## <a name="set-microsoft-teams-as-the-preferred-calling-client-for-users"></a>Définir Microsoft teams en tant que client appelant préféré pour les utilisateurs
 
-Routage direct achemine uniquement les appels vers et depuis les utilisateurs s’ils utilisent le client d’équipes. Si votre organisation utilise uniquement des équipes, « Équipes uniquement » mode dans la stratégie de mise à niveau est recommandé de définir. Si votre organisation utilise Skype pour Business Server ou Skype pour Business Online, consultez l’article suivant pour plus d’informations et sélectionnez l’option appropriée : [comprendre la coexistence et voyage Skype pour professionnels et les équipes de mise à niveau](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype). 
+Le routage direct achemine uniquement les appels vers et depuis les utilisateurs s’ils utilisent le client Teams. Si votre organisation utilise uniquement Teams, il est recommandé de définir le mode «équipes uniquement» dans la stratégie de mise à niveau. Si votre organisation utilise Skype entreprise Server ou Skype entreprise Online, reportez-vous à l’article suivant pour plus d’informations et sélectionnez l’option appropriée: présentation de la coexistence et de la [mise à niveau de Skype entreprise et équipes](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype). 
 
 
 ## <a name="see-also"></a>Voir aussi

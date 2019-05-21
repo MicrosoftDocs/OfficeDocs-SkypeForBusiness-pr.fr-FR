@@ -1,10 +1,10 @@
 ---
-title: Configurer une console Microsoft équipes salles
+title: Configurer une console de salle Microsoft teams
 ms.author: v-lanac
 author: lanachin
 ms.reviewer: Travis-Snoozy
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,91 +13,91 @@ ms.collection:
 - M365-voice
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
-description: Cet article décrit comment configurer la console de salles d’équipes Microsoft et des périphériques.
-ms.openlocfilehash: 644006b3fe5a26af6c32830902ec138f953464c8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Cet article décrit la configuration de la console salles de Microsoft teams et de ses périphériques.
+ms.openlocfilehash: c2513bbd86e2754c2e1008195ca1cc050a118882
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33916565"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306533"
 ---
-# <a name="configure-a-microsoft-teams-rooms-console"></a>Configurer une console Microsoft équipes salles
+# <a name="configure-a-microsoft-teams-rooms-console"></a>Configurer une console de salle Microsoft teams
 
-Cet article décrit comment configurer la console de salles d’équipes Microsoft et des périphériques.
+Cet article décrit la configuration de la console salles de Microsoft teams et de ses périphériques.
   
-Vous devez uniquement effectuer ces étapes si les Teams Microsoft ou Skype pour les comptes d’entreprise et Exchange nécessaires déjà ont été créé et testée comme décrit dans les [Salles d’équipes Microsoft de déployer](room-systems-v2.md). Vous devez le matériel et les logiciels décrits dans les [salles d’équipes Microsoft requise](requirements.md). Cette rubrique contient les sections suivantes :
+Vous devez effectuer cette procédure uniquement si les comptes Microsoft teams ou Skype entreprise et Exchange requis ont déjà été créés et testés comme décrit dans la rubrique [déploiement de salles de Microsoft teams](room-systems-v2.md). Vous aurez besoin du matériel et du logiciel décrits dans la [Configuration requise dans Microsoft teams](requirements.md). Cette rubrique contient les sections suivantes :
   
 - [Préparer le support d’installation](console.md#Prep_Media)
-- [Installer un certificat d’autorité de certification privé sur la console](console.md#Certs)
-- [Installer Windows 10 et l’application de console Microsoft équipes salles](console.md#Reimage)
-- [Configurer initiale de la console](console.md#Initial)
-- [Liste de vérification du déploiement Microsoft équipes salles](console.md#Checklist)
+- [Installer un certificat d’autorité de certification privée sur la console](console.md#Certs)
+- [Installation de Windows 10 et de l’application de console Microsoft teams](console.md#Reimage)
+- [Configuration initiale de la console](console.md#Initial)
+- [Liste de vérification de déploiement de Microsoft teams](console.md#Checklist)
 
 > [!NOTE]
-> Salles d’équipes Microsoft fonctionne uniquement dans un Microsoft Teams ou Skype correctement configuré pour l’environnement d’entreprise où les comptes de périphériques sont correctement configurés comme décrit dans les [Salles d’équipes Microsoft de déployer](room-systems-v2.md).
+> Les salles de Microsoft teams fonctionneront uniquement dans un environnement Microsoft teams ou Skype entreprise correctement configuré pour lequel les comptes de périphériques sont correctement configurés comme décrit dans la rubrique [déploiement de salles Microsoft teams](room-systems-v2.md).
   
 ## <a name="prepare-the-installation-media"></a>Préparer le support d’installation
 <a name="Prep_Media"> </a>
 
-Installation de l’application de console Microsoft équipes salles requiert un périphérique de stockage USB avec au moins 32 Go de la capacité. Il ne doit y avoir aucun autre fichier sur le périphérique ; les fichiers existants sur le stockage USB seront perdues.
+L’installation de l’application Microsoft teams salle console nécessite un périphérique de stockage USB doté d’au moins 32 Go de capacité. Il n’y a pas d’autres fichiers sur l’appareil; tout fichier existant sur le stockage USB sera perdu.
   
 > [!NOTE]
-> Impossible de créer votre support d’installation Microsoft équipes salles en fonction de ces instructions aura un comportement inattendu.
+> L’impossibilité de créer votre support d’installation de Microsoft Teams (en vertu de ces instructions) peut entraîner un comportement inattendu.
 
 > [!NOTE]
-> La procédure ci-dessous est pour la création du support d’installation vers de nouveaux périphériques de salles d’équipes Microsoft image. Périphériques existants, par défaut, mettre à jour automatiquement à partir de Windows Update et Windows Store.
+> Le processus ci-dessous consiste à créer un support d’installation pour l’image des nouveaux appareils Microsoft Teams. Par défaut, les appareils existants sont automatiquement mis à jour à partir de Windows Update et du Windows Store.
   
-1. Télécharger le [script CreateSrsMedia.ps1](https://go.microsoft.com/fwlink/?linkid=867842).
+1. Téléchargez le [script CreateSrsMedia. ps1](https://go.microsoft.com/fwlink/?linkid=867842).
 2. Exécutez le script CreateSrsMedia.ps1 à partir d'une invite avec élévation de privilèges sur un ordinateur Windows 10.
-3. Suivez les instructions du script pour créer un disque d’installation de Microsoft équipes salles USB.
+3. Suivez les instructions du script pour créer un disque de configuration USB Microsoft Teams.
 
 
 > [!TIP]
-> Chaque fois que le script CreateSrsMedia.ps1 démarre, la sortie écran inclut le nom d’un fichier journal ou d’une transcription de la session. S’il existe des problèmes liés à l’exécution du script, assurez-vous que vous disposez d’une copie de cette transcription disponible lors de la demande de prise en charge. 
+> Chaque fois que le script CreateSrsMedia. ps1 démarre, la sortie écran inclut le nom d’un fichier journal ou d’une transcription de la session. Si vous rencontrez des problèmes lors de l’exécution du script, assurez-vous qu’une copie de cette transcription est disponible lors de la demande d’assistance. 
 
-Le script CreateSrsMedia.ps1 automatise les tâches suivantes :
+Le script CreateSrsMedia. ps1 automatise les tâches suivantes:
 
-1. Téléchargez le programme d’installation MSI le plus récent pour les salles d’équipes Microsoft.
-2. Déterminer la version de Windows que l’utilisateur doit fournir. Les versions la plus récentes peuvent ou ne peut pas être testées et pris en charge pour une utilisation avec des périphériques Microsoft équipes salles.
-3. Télécharger les composants de prise en charge nécessaires.
-4. Assembler les composants nécessaires sur le support d’installation.
+1. Téléchargez la dernière version du programme d’installation MSI pour les salles de Microsoft Teams.
+2. Déterminez la version de Windows que l’utilisateur doit fournir. Les versions les plus récentes sont susceptibles de ne pas être testées et prises en charge pour une utilisation avec des appareils Microsoft Teams.
+3. Téléchargez les composants d’assistance nécessaires.
+4. Assemblez les composants nécessaires sur le support d’installation.
 
-Une version spécifique de Windows 10 est requise, et cette version est uniquement disponible pour les clients de licence en volume.  Vous pouvez obtenir une copie à partir du [Centre de gestion des licences en Volume](https://www.microsoft.com/Licensing/servicecenter/).
+Une version spécifique de Windows 10 est requise, et cette version n’est disponible que pour les clients du programme de licence en volume.  Vous pouvez obtenir une copie via le [Centre](https://www.microsoft.com/Licensing/servicecenter/)de gestion des licences en volume.
 
-Lorsque vous avez terminé, supprimez le disque USB de votre ordinateur et passez à [10 de Windows Installer et les salles d’équipes Microsoft console application](console.md#Reimage).
+Lorsque vous avez terminé, supprimez le disque USB de votre ordinateur, puis procédez à [l’installation de Windows 10 et de l’application console de Microsoft teams](console.md#Reimage).
 
     
-## <a name="install-windows-10-and-the-microsoft-teams-rooms-console-app"></a>Installer Windows 10 et l’application de console Microsoft équipes salles
+## <a name="install-windows-10-and-the-microsoft-teams-rooms-console-app"></a>Installation de Windows 10 et de l’application de console Microsoft teams
 <a name="Reimage"> </a>
 
-Vous devez maintenant appliquer le support d’installation que vous avez créé. Le périphérique cible s’exécute en tant qu’un matériel et l’utilisateur par défaut sera définie ne s’exécute l’application de console Microsoft équipes salles.
+Vous devez maintenant appliquer le média de configuration que vous avez créé. L’appareil cible sera exécuté en tant que matériel et l’utilisateur par défaut sera configuré pour exécuter l’application console Microsoft teams uniquement.
 
-1. Si l’équipement est installé dans une station d’accueil (par exemple, une Surface Pro), le déconnecter de la station d’accueil.
+1. Si l’appareil cible doit être installé dans un dock (par exemple, surface Pro), débranchez-le du Dock.
 
-2. Vérifiez que le périphérique cible n’est pas connecté au réseau.
+2. Assurez-vous que l’appareil cible n’est pas connecté au réseau.
 
-3. Vérifiez que l’équipement est connecté au secteur.
+3. Assurez-vous que l’appareil cible est connecté à une alimentation ca.
 
-4. Branchez votre disque d’installation USB sur le périphérique cible.
+4. Branchez le disque de configuration USB dans l’appareil cible.
 
-5. Démarrez le disque d’installation USB. Reportez-vous aux instructions de fabricant. Si votre périphérique cible est une Surface Pro, procédez comme suit pour démarrer sur le disque d’installation USB :
+5. Démarrez sur le disque de configuration USB. Reportez-vous aux instructions de fabricant. S’il s’agit d’un appareil cible, utilisez les étapes suivantes pour démarrer l’installation sur le disque de configuration USB:
 
-    a. Appuyez sur et maintenez le volume vers le bas du bouton (-).
+    a. Appuyez de façon prolongée sur le bouton du volume (-).
 
-    b. Appuyez puis relâchez le bouton d’alimentation.
+    b. Appuyez et relâchez le bouton d’alimentation.
 
     c. Une fois l’installation Windows démarrée, relâchez le bouton de diminution du volume (-).
 
 8. Le système s’arrêtera une fois l’installation terminée.
     
-Une fois que le système est arrêté, il est recommandé supprimer le disque du programme d’installation USB. À ce stade, vous pourrez placer le périphérique cible dans sa station d’accueil (si vous utilisez un produit basé sur une station d’accueil), attacher les périphériques nécessaires pour votre salle de réunion et connexion au réseau. Reportez-vous aux instructions de fabricant.
+Une fois le système arrêté, il est sûr de supprimer le disque de configuration USB. À ce stade, vous pouvez placer l’appareil cible dans sa station d’accueil (si vous utilisez un produit d’une station d’accueil), joindre les périphériques nécessaires à votre salle de réunion et vous connecter au réseau. Reportez-vous aux instructions de fabricant.
   
-### <a name="selecting-a-language"></a>Sélection d’une langue 
+### <a name="selecting-a-language"></a>Sélectionner une langue 
 
-Dans la mise à jour du créateur, vous devez utiliser le script ApplyCurrentRegionAndLanguage.ps1 dans des scénarios où la sélection de la langue implicite ne fournit pas l’utilisateur dont la langue de l’application réelle qu’ils souhaitent (par exemple, qu’ils souhaitent l’application de console pour élaborer en Français, mais elle suit en anglais).
+Dans la mise à jour du créateur, vous devez utiliser le script ApplyCurrentRegionAndLanguage. ps1 dans les scénarios dans lesquels la sélection de la langue implicite ne fournit pas à l’utilisateur la langue réelle de l’application (par exemple, l’application de la console peut se trouver en français, mais ce service est disponible en anglais).
   
 > [!NOTE]
-> Les instructions suivantes s’appliquent uniquement pour les consoles créées à l’aide de la mise à jour du créateur de Windows. Systèmes hérité/dans-marché qui n’ont pas été définies à l’aide des supports avec le nouveau système de mise en service ne sera pas en mesure d’utiliser ces instructions, mais doit également préférable de l’émission initiale qui nécessite une intervention manuelle cette (Édition anniversaire vous permettent de choisir votre langue de l’application explicitement dans le cadre du programme d’installation).
+> Les instructions suivantes ne fonctionnent pas pour les consoles créées à l’aide de la mise à jour du créateur Windows. Les systèmes traditionnels/inactifs qui n’ont pas été configurés à l’aide du système multimédia avec le nouveau système de mise en service ne seront pas en mesure d’utiliser ces instructions, mais ne peuvent pas en souffrir du problème initial qui nécessite cette intervention manuelle (édition anniversaire vous permet de choisir langue de l’application explicitement dans le cadre de la configuration).
   
 ### <a name="to-apply-your-desired-language"></a>Pour appliquer la langue de votre choix
 
@@ -107,15 +107,15 @@ Dans la mise à jour du créateur, vous devez utiliser le script ApplyCurrentReg
     
 3. Sélectionnez l'icône d'engrenage pour lancer l'application **Paramètres** .
     
-4. Sélectionnez **temps &amp; langue**.
+4. Sélectionnez **Time &amp; Language**.
     
-5. Sélectionnez **région &amp; langue**.
+5. Sélectionner **la &amp; langue de région**.
     
 6. Sélectionnez **Ajouter une langue**.
     
 7. Sélectionnez la langue que vous souhaitez ajouter.
     
-8. Sélectionnez la langue que vous venez d’ajouter à la liste « Langues ».
+8. Sélectionnez la langue que vous venez d’ajouter à la liste «langues».
     
 9. Sélectionnez **Définir par défaut**.
     
@@ -134,21 +134,21 @@ Dans la mise à jour du créateur, vous devez utiliser le script ApplyCurrentReg
     
 13. Redémarrez le système.
     
-Langage de votre choix est désormais appliqué à la console de salles d’équipes Microsoft.
-## <a name="initial-set-up-of-the-console"></a>Configurer initiale de la console
+La langue souhaitée est désormais appliquée à la console Microsoft teams salles.
+## <a name="initial-set-up-of-the-console"></a>Configuration initiale de la console
 <a name="Initial"> </a>
 
-Une fois que Windows est installé, l’application de console Microsoft équipes salles prendra son processus d’installation initial lors du démarrage suivant ou si l’option /reboot a été sélectionnée.
+Après l’installation de Windows, l’application console de Microsoft teams se trouve dans le processus de configuration initial lors du démarrage suivant ou si l’option/reboot a été choisie.
   
-1. L’écran Compte d’utilisateur apparaît. Entrez le Skype adresse de connexion (au format user@domain) du compte à utiliser avec la console de salle.
+1. L’écran Compte d’utilisateur apparaît. Entrez l’adresse de connexion de Skype (au format user @ domain) du compte de la salle à utiliser avec la console.
     
 2. Saisissez le mot de passe du compte de la salle dé réunion, puis saisissez-le à nouveau à des fins de vérification.
     
-3. Sous « Configurer le domaine », définir le nom de domaine complet de le Skype pour Business Server. Si le Skype pour le domaine SIP de l’entreprise est différent du domaine Exchange de l’utilisateur, entrez le domaine Exchange dans ce champ.
+3. Sous «configurer le domaine», définissez le FQDN du serveur Skype entreprise. Si le domaine SIP de Skype entreprise est différent de celui du domaine Exchange de l’utilisateur, entrez le domaine Exchange dans ce champ.
     
 4. Cliquez sur **Suivant**.
     
-5. Sélectionnez les périphériques indiqués dans l’écran de fonctionnalités, cliquez sur **suivant**. Le défaut est d’avoir la partage d’écran automatique activé alors que les noms de réunion masqués sont désactivés. Les appareils à sélectionner sont les suivants :
+5. Sélectionnez les périphériques indiqués sur l’écran fonctionnalités, puis cliquez sur **suivant**. Le défaut est d’avoir la partage d’écran automatique activé alors que les noms de réunion masqués sont désactivés. Les appareils à sélectionner sont les suivants :
     
    - Microphone pour les conférences : le microphone par défaut  pour cette salle de conférence.
     
@@ -160,28 +160,28 @@ Une fois que Windows est installé, l’application de console Microsoft équipe
     
 6. Cliquez sur **Terminer**.
     
-L’application de console Microsoft équipes salles doit démarrer immédiatement la connexion à Skype pour Business Server avec les informations d’identification ci-dessus et doit également synchroniseront son calendrier avec Exchange à l’aide de ces mêmes informations d’identification. Pour plus d’informations sur l’utilisation de l’application de console, reportez-vous à l' [aide de salles d’équipes Microsoft](https://support.office.com/en-US/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
+Dans l’application Microsoft teams de Microsoft Teams, l’application doit commencer immédiatement à se connecter à Skype entreprise Server avec les informations d’identification entrées ci-dessus, et doit également commencer à synchroniser son calendrier avec Exchange en utilisant ces mêmes informations d’identification. Pour plus d’informations sur l’utilisation de l’application console, voir l' [aide de Microsoft teams](https://support.office.com/en-US/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
   
 > [!IMPORTANT]
-> Salles d’équipes Microsoft s’appuie sur la présence de matériel certifié console. Même une image correctement créée contenant l’application de console Microsoft équipes salles ne démarre pas au-delà de la procédure d’installation initiale, sauf si le matériel de console est détecté. Pour des solutions Surface Pro en fonction de la Surface Pro doit être connecté à son matériel ancrer accompagnement pour passer cette vérification.
+> Les salles de Microsoft teams sont basées sur la présence de matériel de console certifié. Même une image correctement créée contenant l’application console de Microsoft Teams ne démarre pas après la procédure de configuration initiale, sauf si le matériel de la console est détecté. Pour les solutions basées sur les périphériques de surface, l’apparence de surface Pro doit être connectée au matériel d’accueil associé pour réussir ce contrôle.
   
 > [!NOTE]
-> Certains utilisateurs non anglaises peut-être un clavier physique connecté à la console pendant l’installation initiale, dans le cas où les symboles ne sont pas pris en charge sur le clavier tactile.
+> Certains utilisateurs de langues autres que l’anglais peuvent avoir besoin d’un clavier physique connecté à la console lors de la configuration initiale dans le cas où ces symboles ne sont pas pris en charge sur le clavier visuel.
   
-### <a name="install-a-private-ca-certificate-on-the-console"></a>Installer un certificat d’autorité de certification privé sur la console
+### <a name="install-a-private-ca-certificate-on-the-console"></a>Installer un certificat d’autorité de certification privée sur la console
 <a name="Certs"> </a>
 
-La console Microsoft équipes salles doit approuver les certificats utilisés par les serveurs, à qu'il se connecte. Dans un environnement O365, cette opération est effectuée de manière automatique, car ces serveurs utilisent des autorités de certification publiques automatiquement approuvées par Windows 10. Dans un cas où l’autorité de certification est privée, par exemple un déploiement sur site avec Active Directory et l’autorité de certification Windows, vous pouvez ajouter le certificat dans la console Microsoft équipes salles de deux manières :
+La console Microsoft teams salles doit faire confiance aux certificats utilisés par les serveurs auxquels elle est connectée. Dans un environnement O365, cette opération est effectuée de manière automatique, car ces serveurs utilisent des autorités de certification publiques automatiquement approuvées par Windows 10. Dans le cas où l’autorité de certification est privée, par exemple un déploiement local avec Active Directory et l’autorité de certification Windows, vous pouvez ajouter le certificat à la console de Microsoft teams:
   
-- Vous pouvez participer à la console à Active Directory et qui ajoute automatiquement les certificats requis donnés de l’autorité de certification est publié dans Active Directory (option de déploiement normal).
+- Vous pouvez joindre la console à Active Directory et ajoutera automatiquement les certificats requis pour les autorités de certification publiées dans Active Directory (option de déploiement normale).
     
-- Vous pouvez installer le certificat manuellement après le processus de création d’image. Avant de le faire, vous devez effectuer le [paramétrage Initial de la console](console.md#Initial).
+- Vous pouvez installer le certificat manuellement après le processus de création d’image. Avant cela, vous devez terminer [la configuration initiale de la console](console.md#Initial).
     
 ### <a name="to-manually-install-the-certificate"></a>Pour installer manuellement le certificat 
 
 1. Téléchargez le certificat d’AC sur votre ordinateur, puis enregistrez-le sur "C:\Skype Room Systems\x64\Scripts\Provisioning\CAcertificate.cer".
     
-2. Placez la console en mode admin (voir [gestion de mode et appareil d’administration](room-systems-v2-operations.md#AdminMode)).
+2. Placez la console en mode administrateur (voir [mode administrateur et gestion des appareils](room-systems-v2-operations.md#AdminMode)).
     
 3. Exécutez la commande suivante :
     
@@ -189,14 +189,14 @@ La console Microsoft équipes salles doit approuver les certificats utilisés pa
    certutil -addstore -f -enterprise root "C:\Skype Room Systems\x64\Scripts\Provisioning\CAcertificate.cer"
    ```
 
-### <a name="join-an-active-directory-domain-optional"></a>Participer à un domaine Active Directory (facultatif)
+### <a name="join-an-active-directory-domain-optional"></a>Rejoindre un domaine Active Directory (facultatif)
 <a name="Certs"> </a>
 
-Vous pouvez joindre les consoles de salles d’équipes Microsoft pour votre domaine. Consoles salles d’équipes Microsoft doivent être placés dans une unité d’organisation distincte à partir de stations de travail de votre PC, car le nombre de stratégies de station de travail n’est pas compatible avec Microsoft équipes salles. Un exemple courant sont les stratégies de mot de passe qui empêchent Microsoft équipes salles de démarrer automatiquement. Pour plus d’informations sur la gestion des paramètres de stratégie de groupe, reportez-vous à [Gérer les salles d’équipes Microsoft](room-systems-v2-operations.md).
+Vous pouvez joindre des consoles de Microsoft teams à votre domaine. Les consoles de salle Microsoft teams doivent être placées dans une unité d’organisation distincte de celle de votre ordinateur, car de nombreuses stratégies de station de travail ne sont pas compatibles avec les salles de Microsoft Teams. Un exemple courant est une stratégie de mise en application de mot de passe qui empêche le démarrage automatique de Microsoft Teams. Pour plus d’informations sur la gestion des paramètres d’objets de stratégie de groupe, voir [gérer les salles de Microsoft teams](room-systems-v2-operations.md).
   
-### <a name="to-join-microsoft-teams-rooms-to-a-domain"></a>Pour participer à des salles d’équipes Microsoft à un domaine
+### <a name="to-join-microsoft-teams-rooms-to-a-domain"></a>Pour joindre des salles de Microsoft teams à un domaine
 
-1. Connexion à la console de l’administrateur de compte (voir [gestion de mode et appareil d’administration](room-systems-v2-operations.md#AdminMode)).
+1. Connectez-vous à la console à partir du compte d’administrateur (voir [mode administrateur et gestion des appareils](room-systems-v2-operations.md#AdminMode)).
     
 2. Lancez l’invite de commande Powershell avec élévation de privilèges.
     
@@ -206,18 +206,18 @@ Vous pouvez joindre les consoles de salles d’équipes Microsoft pour votre dom
    Add-Computer -DomainName <Fully qualified domain> -OUPath "OU=<Child OU>, … ,OU=<Top level OU>,DC=<child domain>,…,DC=<top level domain>"
    ```
 
-Par exemple, si votre nom de domaine complet est Redmond.corp.Microsoft.com et que vous souhaitez que vos consoles salles d’équipes Microsoft dans une unité d’organisation « Salles d’équipes Microsoft » qui est un enfant d’une unité d’organisation « ressources », la commande sera :
+Par exemple, si votre domaine complet est redmond.corp.microsoft.com et que vous voulez que les consoles de Microsoft teams se trouvent dans une UO «Microsoft teams» qui est un enfant d’une unité d’organisation «Resources», la commande sera:
   
 ```
 Add-Computer -DomainName redmond.corp.microsoft.com -OUPath "OU=Microsoft_Teams_Rooms,OU=Resources,DC=redmond,DC=corp,DC=microsoft,DC=com"
 ```
 
- Si vous souhaitez renommer l’ordinateur lors de l’intégration à un domaine, utilisez l’indicateur - NewName suivi d’un nouveau nom de l’ordinateur.
+ Si vous souhaitez renommer l’ordinateur lorsque vous le Rejoignez à un domaine, utilisez l’indicateur-NewName suivi du nouveau nom de l’ordinateur.
   
-## <a name="microsoft-teams-rooms-deployment-checklist"></a>Liste de vérification du déploiement Microsoft équipes salles
+## <a name="microsoft-teams-rooms-deployment-checklist"></a>Liste de vérification de déploiement de Microsoft teams
 <a name="Checklist"> </a>
 
-Utilisez la liste de vérification suivante tout en effectuant une vérification finale que la console et tous les périphériques sont configurées :
+Utilisez la liste de vérification suivante tout en effectuant une vérification finale, la console et tous ses périphériques sont entièrement configurés:
   
 **Paramètres de l’application**
 
@@ -226,14 +226,14 @@ Utilisez la liste de vérification suivante tout en effectuant une vérification
 |☐  <br/> |Le nom de compte et le numéro de téléphone de la salle de réunion (si la fonction PSTN est activée) sont correctement affichés dans la partie supérieure droite de l’écran de la console.  <br/> |
 |☐  <br/> |Le nom de l’ordinateur Windows est correctement défini (utile pour l’administration à distance).  <br/> |
 |☐  <br/> |Le mot de passe du compte de l’administrateur est défini et vérifié.  <br/> |
-|☐  <br/> |Toutes les mises à jour ont été appliquées.  <br/> |
+|☐  <br/> |Toutes les mises à jour de microprogrammes ont été appliquées.  <br/> |
    
 **Périphériques audio/vidéo**
 
 |||
 |:-----|:-----|
 |☐  <br/> |La version du microprogramme de la caméra est correcte (le cas échéant).  <br/> |
-|☐  <br/> |Caméra fonctionnel et positionné de manière optimale  <br/> |
+|☐  <br/> |Fonctionnement de la caméra et positionnement optimal  <br/> |
 |☐  <br/> |Les paramètres des périphériques de lecture et de communication par défaut sont définis sur les périphériques audio choisis.  <br/> |
 |☐  <br/> |Les paramètres du périphérique d’enregistrement de communication par défaut est défini sur le périphérique audio choisi.  <br/> |
 |☐  <br/> |La version du microprogramme du périphérique audio est correcte (le cas échéant).  <br/> |
@@ -253,10 +253,10 @@ Utilisez la liste de vérification suivante tout en effectuant une vérification
 ## <a name="see-also"></a>Voir aussi
 <a name="Checklist"> </a>
 
-[Planifier des équipes Microsoft salles](skype-room-systems-v2-0.md)
+[Plan pour les salles de Microsoft teams](skype-room-systems-v2-0.md)
   
-[Déployer les équipes Microsoft salles](room-systems-v2.md)
+[Déploiement de salles de Microsoft teams](room-systems-v2.md)
   
-[Configurer une console Microsoft équipes salles](console.md)
+[Configurer une console de salle Microsoft teams](console.md)
   
 [Gérer Microsoft Teams Rooms](skype-room-systems-v2.md)

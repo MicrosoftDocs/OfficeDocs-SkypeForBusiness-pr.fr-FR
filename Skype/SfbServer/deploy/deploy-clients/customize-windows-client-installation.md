@@ -1,39 +1,39 @@
 ---
-title: Personnaliser l’installation du client Windows dans Skype pour Business Server
+title: Personnaliser l’installation du client Windows dans Skype entreprise Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5c1a85f1-5ebb-48fb-acb7-3bf46decbf80
-description: 'Résumé : Vue d’ensemble des méthodes d’installation et des outils pour Skype pour les entreprises.'
-ms.openlocfilehash: bcf837a406f3e6a238a623b2f317dd3d4dedcbea
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Résumé: vue d’ensemble des méthodes et des outils d’installation pour Skype entreprise.'
+ms.openlocfilehash: 40e5b9145f06038e76aee0b77b287e6dce9a8b3b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893475"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34288577"
 ---
-# <a name="customize-windows-client-installation-in-skype-for-business-server"></a>Personnaliser l’installation du client Windows dans Skype pour Business Server
+# <a name="customize-windows-client-installation-in-skype-for-business-server"></a>Personnaliser l’installation du client Windows dans Skype entreprise Server
  
-**Résumé :** Vue d’ensemble des méthodes d’installation et des outils pour Skype pour les entreprises.
+**Résumé:** Vue d’ensemble des méthodes et des outils d’installation pour Skype entreprise.
   
 > [!NOTE]
-> Pour plus d’informations d’installation sur Skype pour les entreprises qui est fourni avec Office 365, voir [déployer le Skype pour client d’entreprise dans Office 365](https://support.office.com/article/8c563b81-22c9-4024-9efe-9fe28c7bbc96). 
+> Pour plus d’informations sur l’installation de Skype entreprise qui est fourni avec Office 365, voir [déployer le client Skype entreprise dans office 365](https://support.office.com/article/8c563b81-22c9-4024-9efe-9fe28c7bbc96). 
   
-Les administrateurs d’entreprise peuvent personnaliser l’installation de Windows Installer (.msi) des versions de licences en volume de Skype pour les entreprises en utilisant les méthodes décrites dans cette section. Comme aucun outil unique ne fournit toutes les options de personnalisation, vous utiliserez probablement une combinaison de ces méthodes dans votre Skype pour le déploiement d’entreprise. Vous pouvez utiliser les outils décrits dans les sections suivantes :
+Les administrateurs d’entreprise peuvent personnaliser l’installation Windows Installer (. msi) des versions sous licence en volume de Skype entreprise en utilisant les méthodes décrites dans cette section. Dans la mesure où il n’existe aucune option de personnalisation disponible sur un seul outil, vous utiliserez probablement une combinaison de ces méthodes dans votre déploiement Skype entreprise. Vous pouvez utiliser les outils décrits dans les sections suivantes :
   
-- [Utiliser l’outil de personnalisation Office (OPO) dans Skype pour Business Server](use-the-office-customization-tool-oct.md) pour personnaliser les fonctionnalités et les options d’installation pour Skype pour l’entreprise et d’autres programmes Office.
+- [Utilisez l’outil de personnalisation Office (OPO) dans Skype entreprise Server](use-the-office-customization-tool-oct.md) pour personnaliser les options et fonctionnalités de configuration de Skype entreprise et d’autres programmes Office.
     
-- [Utiliser Config.xml pour effectuer les tâches d’installation dans Skype pour Business Server](use-config-xml-to-perform-installation-tasks.md) pour spécifier le chemin d’accès du point d’installation réseau et effectuer une installation sans assistance.
+- [Utilisez config. xml pour effectuer des tâches d’installation dans Skype entreprise Server](use-config-xml-to-perform-installation-tasks.md) afin de spécifier le chemin d’accès du point d’installation réseau et de procéder à l’installation silencieuse.
     
-- [Utilisez le programme d’installation des options de ligne de commande dans Skype pour Business Server](use-setup-command-line-options.md) pour spécifier le fichier Config.xml à utiliser lors de l’installation.
+- [Utilisez les options de la ligne de commande Setup dans Skype entreprise Server](use-setup-command-line-options.md) pour spécifier le fichier config. XML à utiliser lors de l’installation.
     
-- [Configuration de stratégies de démarrage du client dans Skype pour Business Server](configure-client-bootstrapping-policies.md) à l’aide du composant logiciel enfichable MMC Éditeur d’objets de stratégie de groupe.
+- Configurez les [stratégies d’amorçage client dans Skype entreprise Server](configure-client-bootstrapping-policies.md) à l’aide du composant logiciel enfichable Éditeur d’objets de stratégie de groupe.
     
-Il sera probablement autres options que vous souhaiterez configurer lors du déploiement de la suite de produits Office. Les rubriques de cette section donnent une vue d’ensemble de ces outils de personnalisation et décrivent les considérations spécifiques à Skype pour les entreprises. Vous trouverez également des liens vers l’aide détaillée d’Office pour chaque outil. 
+D’autres options seront probablement à configurer lors du déploiement de la suite Office de produits. Les rubriques de cette section donnent un aperçu de ces outils de personnalisation et présentent des remarques spécifiques à Skype entreprise. Vous trouverez également des liens vers l’aide détaillée d’Office pour chaque outil. 
   
 

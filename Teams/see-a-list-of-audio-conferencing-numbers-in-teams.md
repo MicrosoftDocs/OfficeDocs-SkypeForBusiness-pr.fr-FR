@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Découvrez comment afficher vos numéros de conférence rendez-vous dans Microsoft Teams. '
-ms.openlocfilehash: 72cb7018e49ccbae777869f1305cf9e64df6fcb0
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: d48750959adfd9bc60752daf208779b8c3b508c4
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32205088"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34288474"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>Afficher la liste des numéros d'audioconférence dans Microsoft Teams
 
@@ -45,12 +45,12 @@ Pour modifier le numéro de téléphone à composer pour un utilisateur unique, 
 
 ## <a name="to-view-your-audio-conferencing-phone-numbers"></a>Pour afficher vos numéros d'audioconférence
 
-![les équipes-logo-30x30.png](media/teams-logo-30x30.png) **à l’aide du centre d’administration Microsoft équipes**
+![teams-logo-30x30. png](media/teams-logo-30x30.png) **à l’aide du centre d’administration Microsoft teams**
 
-1. Dans la navigation de gauche, accédez à des **réunions** > **ponts de conférence**. 
-2. Afficher les numéros de téléphone qui sont disponibles pour l’audioconférence.
+1. Dans le volet de navigation de gauche, accédez à **conférences** > **** conférences. 
+2. Affichez les numéros de téléphone disponibles pour les conférences audio.
 
-- Vous pouvez également afficher l’emplacement et la langue principale qui sera utilisé par le standard automatique de conférence audio.
+- Vous pouvez également afficher l’emplacement et la langue principale qui seront utilisés par le standard automatique de conférence audio.
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Vous souhaitez en savoir plus sur Windows PowerShell ?
 

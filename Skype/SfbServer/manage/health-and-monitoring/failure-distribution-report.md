@@ -1,25 +1,25 @@
 ---
-title: Rapport de répartition dans Skype pour Business Server
+title: Rapport de distribution des échecs dans Skype entreprise Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 365c7beb-24d4-40f5-92e7-4978b9688916
-description: 'Résumé : Découvrez le rapport de répartition dans Skype pour Business Server.'
-ms.openlocfilehash: 1517509de09cd99f03271dccf9a4c78ba1d2d5ef
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Résumé: en savoir plus sur le rapport de distribution des échecs dans Skype entreprise Server.'
+ms.openlocfilehash: d9e7d2ac0ff10743c69bee665be3878ac9009933
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33912077"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305695"
 ---
-# <a name="failure-distribution-report-in-skype-for-business-server"></a>Rapport de répartition dans Skype pour Business Server
+# <a name="failure-distribution-report-in-skype-for-business-server"></a>Rapport de distribution des échecs dans Skype entreprise Server
  
-**Résumé :** Obtenir des informations sur le rapport de répartition dans Skype pour Business Server.
+**Résumé:** En savoir plus sur le rapport de distribution des échecs dans Skype entreprise Server.
   
 Le rapport de répartition des défaillances classe les sessions ayant échoué selon les catégories suivantes :
   
@@ -45,13 +45,13 @@ Vous pouvez utiliser ces catégories pour rechercher exactement le problème et,
 
 Vous pouvez accéder au rapport de répartition des défaillances à partir de n’importe lequel des rapports suivants en cliquant sur la mesure **Nombre d’échecs attendus** ou **Nombre d’échecs inattendus** :
   
-- [Rapport des principales défaillances dans Skype pour Business Server](top-failures-report.md)
+- [Rapport sur les principaux échecs dans Skype entreprise Server](top-failures-report.md)
     
-- [Rapport de Diagnostic conférence dans Skype pour Business Server](conference-diagnostic-report.md)
+- [Rapport de diagnostic de conférence dans Skype entreprise Server](conference-diagnostic-report.md)
     
-- [Rapport de Diagnostic activités d’égal à égal dans Skype pour Business Server](peer-to-peer-activity-diagnostic-report.md)
+- [Rapport de diagnostic d’activité d’égal à égal dans Skype entreprise Server](peer-to-peer-activity-diagnostic-report.md)
     
-Dans le rapport de répartition, vous pouvez cliquer sur une des mesures suivantes pour afficher le [Rapport de liste des défaillances dans Skype pour Business Server](failure-list-report.md):
+Dans le rapport de distribution des échecs, vous pouvez cliquer sur l’une des mesures suivantes pour afficher le [rapport de liste d’échecs dans Skype entreprise Server](failure-list-report.md):
   
 - Motifs de diagnostic principaux (sessions)
     
@@ -128,9 +128,9 @@ Le tableau ci-dessous liste les informations fournies dans le rapport de répart
 
 |**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
-|**Classement** <br/> |Non  <br/> |Classement relatif des sessions ayant échoué basé sur le pool de serveurs d’inscriptions ou serveur Edge où la session a eu lieu.  <br/> |
-|**Pools principaux** <br/> |Non  <br/> |Nom du pool de serveurs d’inscriptions ou du serveur Edge.  <br/> |
-|**Sessions** <br/> |Non  <br/> |Nombre total de sessions ayant échoué par pool de serveurs d’inscriptions ou serveur Edge.  <br/> |
+|**Classement** <br/> |Non  <br/> |Classement relatif de sessions ayant échoué en fonction du pool d’inscriptions ou du serveur Edge sur lequel la session a été effectuée.  <br/> |
+|**Pools principaux** <br/> |Non  <br/> |Nom du pool d’inscriptions ou du serveur Edge.  <br/> |
+|**Sessions** <br/> |Non  <br/> |Nombre total de sessions ayant échoué par pool d’inscriptions ou serveur Edge.  <br/> |
    
 ## <a name="metrics-for-top-sources"></a>Mesures pour les sources principales
 
@@ -152,7 +152,7 @@ Le tableau ci-dessous liste les informations fournies dans le rapport de répart
 
 |**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
-|**Classement** <br/> |Non  <br/> |Classement relatif des sessions ayant échoué selon le composant (par exemple, ExumRouting, GroupChat ou MediationServer).  <br/> |
+|**Classement** <br/> |Non  <br/> |Classement relatif de sessions ayant échoué en fonction du composant (par exemple, ExumRouting, GroupChat ou MediationServer).  <br/> |
 |**Composants principaux** <br/> |Non  <br/> |Nom du composant impliqué dans la session ayant échoué.  <br/> |
 |**Sessions** <br/> |Non  <br/> |Nombre total de sessions ayant échoué par composant.  <br/> |
    

@@ -1,89 +1,89 @@
 ---
-title: Vérification de l’environnement hérité
+title: Vérifier l’environnement hérité
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Avant de déployer Skype pour Business Server 2019 dans un état de coexistence, vous devez vérifier que les services hérités ont été configurés et démarrés. Il est important d’identifier les principaux services et fonctionnalités qui existent dans votre environnement hérité, avant de déployer un Skype pour le pool pilote Business Server 2019. Avant de déployer Microsoft Skype pour Business Server 2019 XMPP dans un état de la coexistence avec un déploiement XMPP hérité, vous devez vérifier les services XMPP hérités ont été configurés et démarrés et identifier les partenaires fédérés est la configuration XMPP héritée prise en charge.
-ms.openlocfilehash: 0f9812efe966d72eba1eeead9d74780f2ba16661
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Avant de déployer Skype entreprise Server 2019 dans un état de coexistence, vous devez vérifier que les services hérités ont été configurés et démarrés. Il est important d’identifier les services et fonctionnalités clés qui existent dans votre environnement hérité, avant de déployer un pool de pilotes Skype entreprise Server 2019. Avant de déployer Microsoft Skype entreprise Server 2019 XMPP dans un état de coexistence avec un déploiement XMPP hérité, vous devez vérifier que les services XMPP hérités ont été configurés et démarrés, et identifier le partenaire fédéré qui utilise la configuration XMPP héritée. annexes.
+ms.openlocfilehash: 9495c68085f3fc3495d4c2ced05be8b20039eb4e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32235113"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280659"
 ---
-# <a name="verify-the-legacy-environment"></a>Vérification de l’environnement hérité
+# <a name="verify-the-legacy-environment"></a>Vérifier l’environnement hérité
 
-Avant de déployer Skype pour Business Server 2019 dans un état de coexistence, vous devez vérifier que les services hérités ont été configurés et démarrés. Il est important d’identifier les principaux services et fonctionnalités qui existent dans votre environnement avant de déployer un Skype pour le pool pilote Business Server 2019 hérité. Avant de déployer Microsoft Skype pour Business Server 2019 XMPP dans un état de la coexistence avec un déploiement XMPP hérité, vous devez vérifier que les services XMPP hérités ont été configurés et démarrés et identifier qui partenaire les XMPP hérité fédéré prise en charge de la configuration. Vérification de votre déploiement hérité implique les tâches suivantes :
+Avant de déployer Skype entreprise Server 2019 dans un état de coexistence, vous devez vérifier que les services hérités ont été configurés et démarrés. Il est important d’identifier les services et fonctionnalités clés qui existent dans votre environnement hérité avant de déployer un pool de pilotes Skype entreprise Server 2019. Avant de déployer Microsoft Skype entreprise Server 2019 XMPP dans un état de coexistence avec un déploiement XMPP hérité, vous devez vérifier que les services XMPP hérités ont été configurés et démarrés, et identifier le partenaire fédéré de la fonction XMPP héritée. la configuration est prise en charge. La vérification de votre déploiement hérité implique les éléments suivants:
   
-- Vérification que les services hérités sont démarrés.
+- Vérification du démarrage des services hérités
     
-- Examen de la topologie et les utilisateurs
+- Examen de la topologie et des utilisateurs
     
-- Vérification de la fédération et les paramètres du serveur Edge
+- Vérification des paramètres de serveur de Fédération et de périphérie
     
 - Vérification des services XMPP et des partenaires fédérés
     
-## <a name="verify-that-legacy-services-are-started"></a>Vérifiez que les services hérités sont démarrés
+## <a name="verify-that-legacy-services-are-started"></a>Vérifier la mise en route des services hérités
 
-1. Hérité serveur frontal, accédez à l’applet outils d’administration.
+1. À partir du serveur frontal antérieur, accédez à l’applet d’administration Tools\Services.
     
-2. Vérifiez que les services suivants sont en cours d’exécution sur le serveur frontal :
+2. Vérifiez que les services suivants s’exécutent sur le serveur frontal:
     
-     ![Liste des services s’exécutant sur le serveur frontal](../media/migration_lyncserver_config_w14_services.jpg)
+     ![Liste des services s’exécutant sur un serveur frontal](../media/migration_lyncserver_config_w14_services.jpg)
   
-## <a name="review-the-legacy-topology-in-skype-for-business-server-control-panel"></a>Passez en revue la topologie héritée dans Skype pour Business Server Control Panel
+## <a name="review-the-legacy-topology-in-skype-for-business-server-control-panel"></a>Passer en revue la topologie héritée dans le panneau de configuration Skype entreprise Server
 
 1. Ouvrez une session sur le serveur frontal avec un compte membre du groupe RTCUniversalServerAdmins ou du rôle d’admistrateur CsAdministrator ou CsUserAdministrator.
     
-2. Ouvrez le Skype pour le panneau de configuration serveur Business.
+2. Ouvrez le panneau de configuration Skype entreprise Server.
     
-3. Sélectionnez **la topologie**. Vérifiez que les différents serveurs dans votre déploiement hérité sont répertoriés.
+3. Sélectionnez **topologie**. Vérifiez que les différents serveurs dans votre déploiement hérité sont répertoriés.
     
-     ![Page de la topologie du Panneau de configuration de contrôle](../media/migration_lyncserver_2010_topology.JPG)
+     ![Page Topology du panneau de configuration](../media/migration_lyncserver_2010_topology.JPG)
   
-## <a name="review-legacy-users-in-skype-for-business-server-control-panel"></a>Passez en revue les utilisateurs hérités dans Skype pour Business Server Control Panel
+## <a name="review-legacy-users-in-skype-for-business-server-control-panel"></a>Examiner les anciens utilisateurs dans le panneau de configuration Skype entreprise Server
 
-1. Ouvrez le Skype pour le panneau de configuration serveur Business.
+1. Ouvrez le panneau de configuration Skype entreprise Server.
     
-2. Sélectionnez **les utilisateurs**, puis cliquez sur **Rechercher**.
+2. Sélectionnez **utilisateurs**, puis cliquez sur **Rechercher**.
     
-3. Vérifiez que la colonne **Pool de serveurs d’inscriptions** pointe vers le pool hérité pour chaque utilisateur répertorié. 
+3. Vérifiez que la colonne **pool d’inscriptions** pointe vers le pool hérité de chaque utilisateur répertorié. 
     
-     ![Le panneau de configuration répertoriant les utilisateurs](../media/migration_lyncserver_2010_allusers.JPG)
+     ![Liste des utilisateurs dans le panneau de configuration](../media/migration_lyncserver_2010_allusers.JPG)
   
-## <a name="verify-legacy-edge-and-federation-settings"></a>Vérifiez les paramètres de fédération et Edge hérités
+## <a name="verify-legacy-edge-and-federation-settings"></a>Vérifier les paramètres de bord et de Fédération hérités
 
-1. Démarrez le Générateur de topologie.
+1. Démarrer le générateur de topologie.
     
 2. Sélectionnez **Télécharger la topologie à partir du déploiement existant**.
     
-3. Choisissez un nom de fichier et enregistrez la topologie avec le type de fichier .tbxml par défaut.
+3. Choisissez un nom de fichier et enregistrez la topologie avec le type de fichier default. tbxml.
     
-4. Développez le nœud installe hérité pour afficher les différents rôles de serveur dans le déploiement.
+4. Développez le nœud installations héritées pour afficher les différents rôles serveur du déploiement.
     
-5. Sélectionnez le nœud du site et vérifiez qu’une valeur de **l’attribution itinéraire de fédération du Site** est définie. 
+5. Sélectionnez le nœud site et vérifiez qu’une valeur d’attribution de l' **itinéraire de Fédération de site** est définie. 
     
-     ![Générateur de topologies, itinéraire de fédération de Site](../media/migration_lyncserver_w14_federation.jpg)
+     ![Générateur de topologie, itinéraire de Fédération de site](../media/migration_lyncserver_w14_federation.jpg)
   
-6. Sélectionnez le pool frontal Standard Edition Server ou Enterprise Edition. Déterminer si un pool de serveurs Edge a été configuré pour le média sous **Associations**. 
+6. Sélectionnez la liste frontale Standard Edition Server ou Enterprise Edition. Déterminez s’il est configuré pour le contenu multimédia inférieur aux **associations**. 
     
-     ![Générateur de topologie indiquant les serveurs et pools](../media/migration_lyncserver_w14_edgepool_media.jpg)
+     ![Générateur de topologie affichant des serveurs et des groupes](../media/migration_lyncserver_w14_edgepool_media.jpg)
   
-7. Sélectionnez le pool Edge et déterminer si un pool du tronçon suivant est configuré sous **sélection du tronçon suivant**.
+7. Sélectionnez le pool de bords et déterminez si un pool de prochains tronçons est configuré en dessous de l' **option tronçon suivant**.
     
-     ![Sélection du tronçon suivant du Générateur de topologie](../media/migration_lyncserver_w14_nexthop.jpg)
+     ![Générateur de topologie, sélection du tronçon suivant](../media/migration_lyncserver_w14_nexthop.jpg)
   
-## <a name="verify-legacy-xmpp-federated-partner-configuration"></a>Vérifiez le partenaire fédéré XMPP hérité Configuration
+## <a name="verify-legacy-xmpp-federated-partner-configuration"></a>Vérification de la configuration de partenaire fédéré hérité de XMPP
 
-1. Le serveur XMPP hérité, accédez à l’applet outils d’administration.
+1. À partir du serveur XMPP hérité, accédez à l’applet d’administration Tools\Services.
     
-2. Vérifiez que le service de passerelle XMPP de Office Communications Server est démarré. 
+2. Vérifiez que le service de passerelle XMPP d’Office Communications Server est démarré. 
     
-     ![Service de passerelle XMPP Office Communications Server](../media/migration_lyncserver_15_xmpp_legacyservicesstarted.JPG)
+     ![Service de passerelle Office Communications Server XMPP](../media/migration_lyncserver_15_xmpp_legacyservicesstarted.JPG)
   
 
