@@ -13,77 +13,77 @@ ms.collection:
 f1keywords:
 - ms.teamsadmincenter.devicemanagement.overview
 - ms.teamsadmincenter.managedevices.overview
-description: Découvrez comment gérer les périphériques utilisés dans les équipes de votre organisation.
+description: Découvrez comment gérer les appareils utilisés avec les équipes de votre organisation.
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 20798daf34c4759b91c4926b209847aa51ddd668
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 76692714bbf58dca7bd74461bed4da34abf55c58
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32199200"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344640"
 ---
 # <a name="manage-your-devices-in-microsoft-teams"></a>Gérer vos périphériques dans Microsoft Teams
 
 ::: zone target="docs"
-En tant qu’administrateur, vous gérez tous les périphériques utilisés dans les équipes de votre organisation à partir de la & Microsoft Teams Skype pour entreprise centre d’administration. Vous pouvez afficher et gérer l’inventaire des appareils pour votre organisation et effectuer des tâches telles que la mise à jour, de redémarrage et surveiller les diagnostics pour les appareils. Vous pouvez également créer et affecter des profils de configuration pour un périphérique ou des groupes de périphériques. 
+En tant qu’administrateur, vous gérez tous les appareils utilisés avec les équipes de votre organisation à partir du centre d’administration Microsoft teams & Skype entreprise. Vous pouvez afficher et gérer l’inventaire des appareils pour votre organisation, et effectuer des tâches telles que la mise à jour, le redémarrage et l’analyse des diagnostics pour les appareils. Vous pouvez également créer des profils de configuration et les affecter à un appareil ou à un groupe d’appareils. 
 
-## <a name="what-devices-can-you-manage"></a>Quels appareils pouvez-vous gérer ?
-Appareils doivent être certifiées pour les équipes et inscrit dans les équipes. Un périphérique est inscrit automatiquement la première fois qu’un utilisateur se connecte aux équipes sur l’appareil. Pour obtenir la liste des périphériques certifiés qui peuvent être gérés, voir [téléphones de conférence](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?devicetype=16) et les [téléphones de bureau](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?devicetype=34).
+## <a name="what-devices-can-you-manage"></a>Quels appareils pouvez-vous gérer?
+Les appareils doivent être certifiés pour les équipes et inscrits dans Teams. Un appareil est automatiquement inscrit la première fois qu’un utilisateur se connecte à teams sur l’appareil. Pour obtenir la liste des appareils certifiés gérables, reportez-vous à la section [conférences](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?devicetype=16) téléphoniques et [téléphones de bureau](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?devicetype=34).
 
 > [!NOTE]
-> Si vous avez Microsoft Intune, périphériques sont automatiquement inscrits dans Intune. Une fois un périphérique est inscrit, conformité périphérique est confirmée et stratégies d’accès conditionnel sont appliquées à l’appareil. 
+> Si vous avez Microsoft Intune, les appareils sont automatiquement inscrits dans Intune. Après l’inscription d’un appareil, la conformité de l’appareil est confirmée et les stratégies d’accès conditionnel sont appliquées à l’appareil. 
 
-## <a name="manage-devices-in-teams"></a>Gérer les périphériques dans les équipes
+## <a name="manage-devices-in-teams"></a>Gérer les appareils dans teams
 
-![les équipes-logo-30x30.png](media/teams-logo-30x30.png) **à l’aide du centre d’administration Microsoft équipes**
+![Icône illustrant le logo](media/teams-logo-30x30.png) de Microsoft teams à l' **aide du centre d’administration Microsoft teams**
 
-1. Dans la navigation de gauche, accédez à des **périphériques** > **Gestion de périphériques**.
-2. Sélectionnez **tous les périphériques**.  
+1. Dans le volet de navigation de gauche, accédez à **périphériques** > **gérer les appareils**.
+2. Sélectionnez **tous les appareils**.  
 
 ::: zone-end
 
- À partir de là, vous pouvez afficher et gérer tous les périphériques inscrits dans les équipes de votre organisation. Les informations qui s’affichent pour chaque périphérique incluent l’historique, fabricant, modèle, utilisateur, état, action, dernière apparaît et nom du périphérique. Vous pouvez personnaliser l’affichage pour afficher les informations qui correspond le mieux à vos besoins.
+ À partir de cet emplacement, vous pouvez afficher et gérer tous les périphériques inscrits dans teams au sein de votre organisation. Les informations qui s’affichent pour chaque appareil incluent le nom de l’appareil, le fabricant, le modèle, l’utilisateur, le statut, l’action, le dernier affichage et l’historique. Vous pouvez personnaliser l’affichage pour afficher les informations qui correspondent à vos besoins.
 
- Voici quelques exemples de la façon de gérer les périphériques équipes au sein de votre organisation.  
+ Voici quelques exemples de la manière dont vous pouvez gérer les appareils teams au sein de votre organisation.  
     
-|Pour ce faire...  |Cela |
+|Pour cela, procédez comme suit...  |Procédez comme suit |
 |---------|---------|
-|Modifier les informations de périphérique   | Sélectionnez un > périphérique **Modifier**. Vous pouvez modifier les détails tels que le nom du périphérique, les informations utilisateur, numéro d’identification et ajouter des notes.     |
-|Gérer les mises à jour logicielles   |Sélectionnez un périphérique de > **mise à jour**. Vous pouvez afficher la liste des mises à jour de logiciels et de microprogrammes, disponibles pour le périphérique et cliquez sur Installer les mises à jour.    |
-|Redémarrer un appareil   |Sélectionnez un > périphérique **redémarrer**.          |
-|Afficher l’historique du périphérique  | Sélectionnez un > périphérique **historique**. Vous pouvez afficher l’historique de mise à jour du périphérique.     |
-|Afficher des diagnostics  | Sélectionnez un périphérique de > **Diagnostics**.        |
+|Modification des informations de périphérique   | Sélectionnez un appareil > **modifier**. Vous pouvez modifier des détails tels que le nom de l’appareil, les informations utilisateur, la balise de ressources et ajouter des notes.     |
+|Gérer les mises à jour logicielles   |Sélectionnez une **mise à jour**de l’appareil >. Vous pouvez afficher la liste des mises à jour de logiciels et de microprogrammes disponibles pour l’appareil, puis sélectionner les mises à jour pour procéder à l’installation.    |
+|Redémarrer un appareil   |Sélectionnez un appareil > **redémarrer**.          |
+|Afficher l’historique de l’appareil  | Sélectionnez un appareil > **History**. Vous pouvez afficher l’historique des mises à jour de l’appareil.     |
+|Afficher les Diagnostics  | Sélectionnez un périphérique > **Diagnostics**.        |
 
-## <a name="use-configuration-profiles-in-teams"></a>Utilisation des profils de configuration dans les équipes
+## <a name="use-configuration-profiles-in-teams"></a>Utiliser des profils de configuration dans teams
 
-Utilisez les profils de configuration pour gérer les paramètres et les fonctionnalités pour les périphériques des équipes au sein de votre organisation. Vous pouvez créer ou télécharger des profils de configuration pour inclure les paramètres et les fonctionnalités que vous souhaitez activer ou désactiver et affecter un profil à un appareil ou des groupes de périphériques. 
+Utilisez les profils de configuration pour gérer les paramètres et les fonctionnalités des appareils teams de votre organisation. Vous pouvez créer ou charger des profils de configuration pour inclure des paramètres et des fonctionnalités que vous souhaitez activer ou désactiver, puis attribuer un profil à un appareil ou à un groupe d’appareils. 
 
 ### <a name="create-a-configuration-profile"></a>Créer un profil de configuration
 
 ::: zone target="docs"
 
-![les équipes-logo-30x30.png](media/teams-logo-30x30.png) À l’aide de la & Microsoft Teams Skype entreprise centre d’administration
+![Icône affichant le logo Microsoft teams](media/teams-logo-30x30.png) Utilisation du centre d’administration Microsoft teams & Skype entreprise
 
-1. Dans la navigation de gauche, accédez à des **périphériques** > **Gestion de périphériques**.
+1. Dans le volet de navigation de gauche, accédez à **périphériques** > **gérer les appareils**.
 
 ::: zone-end
 
-2. Sélectionnez **les profils de Configuration**, puis sélectionnez le **profil de configuration**.
-3. Entrez un nom pour le profil et si vous le souhaitez, ajoutez une description conviviale.
-4. Spécifier les paramètres souhaités pour le profil, puis cliquez sur **Enregistrer**.
+2. Sélectionnez **profils de configuration**, puis sélectionnez **nouveau profil de configuration**.
+3. Entrez un nom pour le profil et, si vous le souhaitez, ajoutez une description conviviale.
+4. Spécifiez les paramètres que vous voulez utiliser pour le profil, puis cliquez sur **Enregistrer**.
 
-### <a name="assign-a-configuration-profile"></a>Affecter un profil de configuration
+### <a name="assign-a-configuration-profile"></a>Attribuer un profil de configuration
 
 ::: zone target="docs"
 
-![les équipes-logo-30x30.png](media/teams-logo-30x30.png) À l’aide de la & Microsoft Teams Skype entreprise centre d’administration
+![Icône affichant le logo Microsoft teams](media/teams-logo-30x30.png) Utilisation du centre d’administration Microsoft teams & Skype entreprise
 
-1. Dans la navigation de gauche, accédez à des **périphériques** > **Gestion de périphériques**.
+1. Dans le volet de navigation de gauche, accédez à **périphériques** > **gérer les appareils**.
 
 ::: zone-end
 
-2. Sélectionnez le **profil de Configuration**, puis cliquez sur le lien sous **affecté à** dans le profil que vous voulez affecter.  
-3. Dans le volet **affecter des périphériques à un profil de configuration** , recherchez et sélectionnez les périphériques que vous voulez attribuer.
+2. Sélectionnez **profil de configuration**, puis sous **attribué à** dans le profil que vous voulez attribuer, cliquez sur le lien.  
+3. Dans le volet **affecter des appareils à un profil de configuration** , recherchez et sélectionnez les périphériques que vous voulez affecter.
 4. Cliquez sur **Enregistrer**.

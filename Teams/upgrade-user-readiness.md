@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Planifier communiquer avec, former et prendre en charge vos utilisateurs pilote, intégrée et mise à niveau vers des équipes
+description: Envisagez de communiquer, d’apprendre et de soutenir vos utilisateurs comme vous le pilote, l’intégration et la mise à niveau vers teams
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
@@ -15,41 +15,41 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d38884b5e1f868dd206f7382c91f00502c0ca5ec
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c1532df0ca1167f5ff3335dbbddbbaa45eabfcef
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33884846"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344113"
 ---
-![Étapes du voyage mise à niveau, en insistant sur la phase de préparation des utilisateurs] (media/upgrade-banner-user-readiness.png "Étapes du voyage mise à niveau, en insistant sur la phase de préparation des utilisateurs")
+![Étapes du parcours de la mise à niveau, mise en surbrillance de l’étape de préparation de l’utilisateur] (media/upgrade-banner-user-readiness.png "Étapes du parcours de la mise à niveau, avec mise en évidence de l’étape de préparation de l’utilisateur")
 
-Cet article fait partie de la phase de préparation des utilisateurs de votre parcours de mise à niveau, une activité que vous effectuez en parallèle à l’étape de préparation technique. Avant de continuer, vérifiez que vous avez terminé ces activités à partir des étapes précédentes :
+Cet article fait partie de l’étape de préparation de votre mise à niveau par l’utilisateur, une activité que vous effectuez parallèlement à l’étape de préparation technique. Avant de continuer, assurez-vous d’avoir suivi les étapes ci-dessous:
 
-- [Inscrit les parties prenantes du projet](upgrade-enlist-stakeholders.md)
-- [Définies par l’étendue de votre projet](https://aka.ms/SkypetoTeams-Scope)
-- [Comprendre la coexistence et l’interopérabilité de Skype pour professionnels et les équipes](https://aka.ms/SkypeToTeams-Coexist)
-- [Choisi votre parcours de mise à niveau](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Inscription des parties prenantes du projet](upgrade-enlist-stakeholders.md)
+- [Définition de l’objectif de votre projet](https://aka.ms/SkypetoTeams-Scope)
+- [Compréhension de la coexistence et de l’interopérabilité de Skype entreprise et équipes](https://aka.ms/SkypeToTeams-Coexist)
+- [Choix de votre mise à niveau](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 # <a name="prepare-a-user-readiness-plan"></a>Préparer un plan de préparation utilisateur
 
-Un plan de préparation utilisateur intègre comment vous allez communiquer avec former et prennent en charge vos utilisateurs pilote, intégrée et mise à niveau vers les équipes. Comme vous avez découvert dans [l’évaluation d’organisation modifier préparation](https://aka.ms/OrgReadiness), préparation n’est pas unique. Pour garantir la receptiveness optimale pour la nouvelle technologie, utilisez une combinaison de large portée messagerie (qui incluent la messagerie vision/valeur et cas d’utilisation universel) et la messagerie, de formation et prend en charge adaptée à cohortes que vous avez défini les personnages et également à votre suiveurs (traînards), le cas échéant. Ce plan personnalisé aident à faciliter l’adoption par les utilisateurs en permettant aux utilisateurs d’associer plus rapidement aux équipes, lors de la présentation de bien comprendre leurs besoins.
+Un plan de compatibilité utilisateur optimal incorpore la façon dont vous communiquez, Apprenez et prenez en charge vos utilisateurs comme vous le pilote, l’intégration et la mise à niveau de teams. Comme vous l’avez détecté dans la phase d’évaluation de l' [impératif du changement](https://aka.ms/OrgReadiness)de l’organisation, la préparation ne correspond pas à la taille. Pour garantir une receptiveness optimale à la nouvelle technologie, utilisez une combinaison de messages à grande portée (intégration de la messagerie de vision/valeur et des cas d’utilisation universelles) et de la messagerie, de la formation et de la prise en charge adaptées aux personnages et aux cohortes que vous avez définies et également à votre laggards, le cas échéant. Ce plan personnalisé contribue à faciliter l’adoption par les utilisateurs, en permettant aux utilisateurs de plus en plus rapidement en relation avec les équipes, tout en montrant que vous comprenez leurs besoins.
 
 > [!Tip]
-> Téléchargez le [Kit de réussite de mise à niveau](https://aka.ms/UpgradeSuccessKit) pour les supports de préparation au modèle utilisateur, telles que les communications et les enquêtes effectuées auprès, outre un exemple de plan de projet de mise à niveau et le plan de test pilote.
+> Téléchargez le [Kit de réussite de mise à niveau](https://aka.ms/UpgradeSuccessKit) pour les documents de préparation des utilisateurs de modèles tels que les communications et les enquêtes utilisateur, en plus d’un exemple de plan de projet de mise à niveau et d’un plan de test pilote.
 
 | | |
 |---|---|
-| ![](media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Comment vous pouvez créer un plan de préparation de faciliter et d’accélérer l’adoption d’utilisateur de la nouvelle solution ?</li><li>Vous avez le droite sensibilisation, de formation et des ressources de support adaptés à la capacité de vos utilisateurs à traiter les modifications et les personnages d’utilisateur que vous avez définie ?</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>Étape suivante|<ul><li>Utilisez la liste ci-dessous pour générer des idées pour votre plan de préparation. Sélectionnez les activités les plus pertinents, ou ajouter vos propres — à concevoir un plan de préparation optimisé pour votre organisation. N’oubliez pas d’utiliser une combinaison de large portée (pour toute l’organisation) et campagnes ciblées (pour suiveurs (traînards) ou personnages spécifiques) pour le nombre maximal de résultats.</li></ul>|
+| ![Icône représentant des points de décision](media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Comment créer un plan de préparation pour faciliter et accélérer l’adoption par les utilisateurs de la nouvelle solution?</li><li>Avez-vous les ressources de sensibilisation, de formation et de support appropriées qui permettent de gérer les modifications et les personnes que vous avez définies?</li></ul> |
+| ![Icône illustrant l’étape suivante](media/audio_conferencing_image9.png)<br/>Étape suivante|<ul><li>Utilisez la liste ci-dessous pour générer des idées concernant votre plan de préparation. Sélectionnez les activités les plus pertinentes ou ajoutez votre propre plan de disponibilité optimisé pour votre organisation. N’oubliez pas d’utiliser une combinaison de campagnes à portée de mains (pour l’ensemble de votre organisation) et ciblées (pour laggards ou personnes) pour obtenir un résultat optimal.</li></ul>|
 
 <div class="mx-tableFixed">
 <table>
 <tbody>
-<tr><th>Les canaux de communication vous faites ?</th><th>Les chaînes de formation vous faites ?</th><th>Quel support canaux vont vous utilisez ?</th></tr>
-<tr><td><ul><li>Email<br><strong>Conseil :</strong> Utilisez notre coexistence pilote, exemples et les messages électroniques pour personnaliser votre campagne de mise à niveau.</li><li>Affiches ou signalisation numérique</li><li>Événements de lancement</li><li>Responsables de service</li><li>Champions</li><li>Les équipes/canaux</li><li>Gamification</li></ul></td><td><ul><li>Vidéos et des articles en ligne publié de Microsoft</li><li>Ressources :<ul><li><a href="https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964" data-raw-source="[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)">Basculer vers Teams à partir de Skype Entreprise</a></li><li><a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home" data-raw-source="[Teams Video Training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home)">Formation vidéo équipes</a></li></ul></li><li>Assistance de produit (aide)</li><li>Formation interne de l’équipe</li><li>Formation de l’équipe partenaire</li></ul></td><td><ul><li>Support technique interne</li><li>Support technique externalisé</li><li>Libre-service (site intranet)</li><li><a href="https://support.office.com/teams" data-raw-source="[Online help and how-to](https://support.office.com/teams)">Aide et procédures en ligne</a></li><li>Floor-déambulateurs et des champions</li><li>Commentaires (enquêtes, évaluations)</li></ul></td></tr>
+<tr><th>Quels canaux de communication utiliserez-vous?</th><th>Quels canaux de formation utiliserez-vous?</th><th>Quels canaux d’assistance utiliserez-vous?</th></tr>
+<tr><td><ul><li>Email<br><strong>Astuce:</strong> Utilisez nos exemples de pilotes, de coexistence et de mise à niveau pour personnaliser votre campagne de courrier électronique.</li><li>Affiches et PLV numérique</li><li>Événements de lancement</li><li>Responsables de département</li><li>Champions</li><li>Équipes/canaux</li><li>Gamification</li></ul></td><td><ul><li>Articles et vidéos en ligne publiés par Microsoft</li><li>Ressources<ul><li><a href="https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964" data-raw-source="[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)">Basculer vers Teams à partir de Skype Entreprise</a></li><li><a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home" data-raw-source="[Teams Video Training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home)">Vidéo de formation teams</a></li></ul></li><li>Aide sur le produit (aide)</li><li>Équipe de formation en interne</li><li>Équipe de formation du partenaire</li></ul></td><td><ul><li>Support technique interne</li><li>Bureau de support externalisé</li><li>Libre-service (site intranet)</li><li><a href="https://support.office.com/teams" data-raw-source="[Online help and how-to](https://support.office.com/teams)">Aide et procédures en ligne</a></li><li>Étages et champions</li><li>Boucle de commentaires (enquêtes, évaluations)</li></ul></td></tr>
 </tbody>
 </table>
 </div>
 
-Une fois que vous avez créé votre plan de préparation des utilisateurs et les ressources associées et vos compétences techniques est en place, passez aux [équipes de pilotes dans votre organisation](https://aka.ms/SkypeToTeams-Pilot).
+Une fois que vous avez créé votre plan de vérification de l’utilisateur et les ressources qui lui sont associées et que votre compatibilité technique est en place, passez aux [équipes pilote de votre organisation](https://aka.ms/SkypeToTeams-Pilot).

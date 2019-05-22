@@ -18,12 +18,12 @@ MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 description: Découvrez comment gérer les paramètres des réunions d’équipes planifiées par les utilisateurs au sein de votre organisation.
-ms.openlocfilehash: 9dab34c518b4c0c5c25e55d894a1dacf4e0a773e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1828d626261c97cf3514781a5c55dbecd59d7666
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298118"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344876"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Gérer les paramètres de réunion dans Microsoft Teams
 
@@ -33,7 +33,7 @@ En tant qu’administrateur, vous pouvez utiliser les paramètres de réunion d�
 
 Avec Join anonyme, n’importe qui peut rejoindre la réunion en tant qu’utilisateur anonyme en cliquant sur le lien dans l’invitation à la réunion.
 
-![teams-logo-30x30. png](media/teams-logo-30x30.png) **à l’aide du centre d’administration Microsoft teams**
+![Icône illustrant le logo](media/teams-logo-30x30.png) de Microsoft teams à l' **aide du centre d’administration Microsoft teams**
 
 1. Dans le volet de navigation gauche, accédez à paramètres de la**réunion** **réunions** > .
 2. Sous **participants**, activez **les utilisateurs anonymes peuvent participer à une réunion**.
@@ -54,7 +54,7 @@ Vous pouvez personnaliser les invitations aux réunions teams selon les besoins 
 
 ### <a name="customize-your-meeting-invitations"></a>Personnaliser les invitations aux réunions
 
-![teams-logo-30x30. png](media/teams-logo-30x30.png) **à l’aide du centre d’administration Microsoft teams**
+![Icône illustrant le logo](media/teams-logo-30x30.png) de Microsoft teams à l' **aide du centre d’administration Microsoft teams**
 
 1. Dans le volet de navigation gauche, accédez à paramètres de la**réunion** **réunions** > .
 2. Sous **invitation électronique**, procédez comme suit:
@@ -73,7 +73,7 @@ Vous pouvez personnaliser les invitations aux réunions teams selon les besoins 
 
 Si vous utilisez la qualité de service [(QoS)](qos-in-teams.md) pour définir la priorité du trafic réseau, vous pouvez activer les marqueurs de QoS et vous pouvez définir des plages de ports pour chaque type de trafic multimédia.
 
- ![teams-logo-30x30. png](media/teams-logo-30x30.png) **à l’aide du centre d’administration Microsoft teams**
+ ![Icône illustrant le logo](media/teams-logo-30x30.png) de Microsoft teams à l' **aide du centre d’administration Microsoft teams**
 
 1. Dans le volet de navigation gauche, accédez à paramètres de la**réunion** **réunions** > .
 2. Sous **réseau**, procédez comme suit:

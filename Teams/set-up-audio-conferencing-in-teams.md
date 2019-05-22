@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 'Découvrez comment configurer des conférences rendez-vous ou audio pour les personnes de votre entreprise qui ont besoin d’utiliser un téléphone pour participer à des conférences téléphoniques. '
-ms.openlocfilehash: 41a2d4288185d75bfed4d9882775ba054e2b3ccd
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: f0709f2a99524666e3b48992338abae111599b7d
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34329731"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344209"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Configurer l’audioconférence pour Microsoft teams
 
@@ -87,7 +87,7 @@ Pour plus d’informations, reportez-vous à [la rubrique Modification des numé
 ## <a name="step-5-set-the-default-and-alternate-languages-for-a-conferencing-bridge"></a>Étape 5 : Définir les langues par défaut et alternatives pour un pont de conférence
 <a name="__top"></a> Ensuite, vous pouvez [définir des langues de standard automatique pour les conférences audio dans Microsoft teams](set-auto-attendant-languages-for-audio-conferencing-in-teams.md) que le standard automatique de conférence utilise pour appeler les appelants quand ils se connectent à un numéro de téléphone pour les conférences audio. 
 
-![teams-logo-30x30. png](media/teams-logo-30x30.png) **à l’aide du centre d’administration Microsoft teams**:
+![Icône illustrant le logo](media/teams-logo-30x30.png) de Microsoft teams **à l’aide du centre d’administration Microsoft teams**:
 
 1. Dans le tableau de bord, accédez à **meetings** > **Conference ponts**.
 2. Sélectionnez le numéro de téléphone du pont de conférence, cliquez sur **modifier**, puis sélectionnez la langue par défaut.
@@ -97,7 +97,7 @@ Pour plus d’informations, reportez-vous à [la rubrique Modification des numé
     
 Après avoir configuré votre pont de conférence, vérifiez que les paramètres par défaut, tels que les notifications d’entrée/sortie et la longueur du code confidentiel sont ceux que vous souhaitez utiliser. Si ce n’est pas le cas, vous pouvez les modifier. 
 
-![teams-logo-30x30. png](media/teams-logo-30x30.png) **à l’aide du centre d’administration Microsoft teams**:
+![Icône illustrant le logo](media/teams-logo-30x30.png) de Microsoft teams **à l’aide du centre d’administration Microsoft teams**:
 
 1. Dans le tableau de bord, accédez à **meetings** > **Conference ponts**.
 2. Sélectionnez **paramètres du pont**. Cela ouvrira le volet **Paramètres de pont**. 
@@ -110,7 +110,7 @@ Après avoir créé un pont d’audioconférence, vous devez définir les numér
 
 Vous devez effectuer cette opération pour toutes les personnes de votre entreprise qui animent ou qui planifient des réunions. 
 
-![teams-logo-30x30. png](media/teams-logo-30x30.png) **à l’aide du centre d’administration Microsoft teams**:
+![Icône illustrant le logo](media/teams-logo-30x30.png) de Microsoft teams **à l’aide du centre d’administration Microsoft teams**:
 
 1. Dans le tableau de bord, cliquez sur **utilisateurs**, sélectionnez l’utilisateur dans la liste, puis sélectionnez **modifier**.
 2. Sélectionnez **modifier** en regard de **audioconférence**, puis dans le volet **audioconférence** , sélectionnez un numéro dans les listes **numéro payant** et numéro **gratuit** .

@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 892cbf094c2c523d7eaa18b1d77a2fb864a3a9c0
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 5b6f96b2f3dd7993d6cb3d5b732e0796a215ebae
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33400930"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344648"
 ---
 # <a name="plan-my-service-management"></a>Planifier ma gestion des services
 
@@ -115,8 +115,8 @@ Nous vous recommandons fortement de nommer le champion de la qualité le plus t�
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Points de décision</td><td><ul><li>Décidez de la personne responsable des opérations Voix Cloud dans votre organisation.</li></ol></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Téléchargez le Guide complet de la planification de la gestion des services.</li><li>Téléchargez le Guide d'examen de l'expérience de la qualité.</li><li>Consultez en détail le Guide des opérations.</li><li>Fournissez tous les guides à tous les membres de l’équipe pour leur permettre de se familiariser avec les conditions requises pour les opérations.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Points de décision</td><td><ul><li>Décidez de la personne responsable des opérations Voix Cloud dans votre organisation.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Étapes suivantes</td><td><ul><li>Téléchargez le Guide complet de la planification de la gestion des services.</li><li>Téléchargez le Guide d'examen de l'expérience de la qualité.</li><li>Consultez en détail le Guide des opérations.</li><li>Fournissez tous les guides à tous les membres de l’équipe pour leur permettre de se familiariser avec les conditions requises pour les opérations.</li></ol></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

@@ -1,6 +1,6 @@
 ---
-title: Groupes d’Office 365 et les équipes Microsoft
-ms.reviewer: ''
+title: Groupes Office 365 et Microsoft teams
+ms.reviewer: phlouie
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -15,41 +15,41 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1a5e881d1c1d6631cd4b0660f5237aad088f9d1d
-ms.sourcegitcommit: ca7a22da082ac5336f31ffd76f3d4aef6c76285b
+ms.openlocfilehash: a104200d8138f65e84113e38b19527c070ea2f08
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2019
-ms.locfileid: "33868711"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344533"
 ---
-<a name="office-365-groups-and-microsoft-teams"></a>Groupes d’Office 365 et les équipes Microsoft
+<a name="office-365-groups-and-microsoft-teams"></a>Groupes Office 365 et Microsoft teams
 =====================================
 
 > [!Tip]
-> Regarder la session suivante pour savoir comment les équipes interagit avec Azure Active Directory (AD Azure), groupes d’Office 365, Exchange, SharePoint et OneDrive for Business : [Notions de base sur les équipes de Microsoft](https://aka.ms/teams-foundations)
+> Regardez la session suivante pour découvrir comment les équipes interagissent avec Azure Active Directory (Azure AD), les groupes Office 365, Exchange, SharePoint et OneDrive entreprise: [notions de bases de Microsoft teams](https://aka.ms/teams-foundations)
 
-Groupes d’Office 365 est le service d’appartenance entre les applications dans Office 365. Au niveau de la base, un groupe d’Office 365 est un objet dans Azure Active Directory avec une liste des membres et un couplage faible pour un site d’équipe SharePoint, groupe Yammer, y compris les charges de travail associées partagé des ressources de boîte aux lettres Exchange, Planificateur, Power BI et OneNote. Vous pouvez ajouter ou supprimer des personnes au groupe comme vous le feriez pour n’importe quel autre objet basée sur le groupe de sécurité dans Active Directory.
+Le groupe Office 365 est le service d’appartenance à plusieurs applications d’Office 365. Au niveau de base, un groupe Office 365 est un objet dans Azure Active Directory avec une liste de membres et un couplage lâche aux charges de travail associées, y compris un site d’équipe SharePoint, un groupe Yammer, des ressources de boîte aux lettres Exchange partagées, le planificateur, Power BI et OneNote. Vous pouvez ajouter ou supprimer des personnes dans le groupe comme vous le feriez pour n’importe quel autre objet de sécurité en groupe dans Active Directory.
 
-Un administrateur Office 365 peut définir un groupe d’Office 365, ajouter des membres et tirer parti des fonctionnalités telles que l’échange partagés boîte aux lettres, bibliothèque de documents SharePoint, groupe Yammer et ainsi de suite. Pour plus d’informations sur les groupes d’Office 365, voir [en savoir plus sur les groupes d’Office 365](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
+Un administrateur de 365 Office peut définir un groupe 365 Office, ajouter des membres et bénéficier de fonctionnalités telles qu’une boîte aux lettres partagée Exchange, une bibliothèque de documents SharePoint, un groupe Yammer, etc. Pour plus d’informations sur les groupes 365, voir [en savoir plus sur les groupes office 365](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
 
-Ne manquez pas le poster de [groupes dans Microsoft 365 pour les architectes](teams-architecture-solutions-posters.md#groups-in-microsoft-365).
+Ne manquez pas les [groupes d’affiches dans Microsoft 365 pour les architectes informatiques](teams-architecture-solutions-posters.md#groups-in-microsoft-365).
 
-<a name="how-office-365-groups-work"></a>Comment fonctionnent les groupes d’Office 365
+<a name="how-office-365-groups-work"></a>Fonctionnement des groupes Office 365
 --------------------------
 
-Lorsque vous créez une équipe, sur le serveur principal, vous créez un groupe d’Office 365 et associé à une bibliothèque de documents SharePoint et bloc-notes OneNote, ainsi que des liens vers d’autres applications de nuage Office 365. Si la personne qui a créé l’équipe est un propriétaire d’un existant Office 365 Public ou privé groupe, ils peuvent ajouter des fonctionnalités d’équipes au groupe si elle a moins de 5 000 personnes et n’a jamais été ajouté aux équipes. Cette opération crée un canal **Général** par défaut de conversation qui résident les messages, documents, OneNote et autres objets. Affichage de la bibliothèque de documents pour le canal révélera le dossier **Général** représentant le canal de l’équipe. De plus, si vous créez votre propre structure de dossiers dans un document library **il ne propage pas** aux équipes comme un canal ; à ce stade, il seulement s’enchaîne d’équipes dans SharePoint.
+Lorsque vous créez une équipe, sur le système principal, vous créez un groupe Office 365 et la bibliothèque de documents SharePoint associée et un bloc-notes OneNote, ainsi que des liens vers d’autres applications Cloud Office 365. Si la personne qui crée l’équipe est le propriétaire d’un groupe public ou privé Office 365 existant, elle peut ajouter des fonctionnalités d’équipe au groupe si elle a moins de 5000 personnes et qu’elle n’a jamais été ajoutée à Teams. Cela crée un canal **général** par défaut dans lequel se trouvent les messages de discussion, les documents, OneNote et les autres objets. Le principe d’affichage de la bibliothèque de documents du canal permettra d’afficher le dossier **général** représentant le canal dans l’équipe. Plus important encore, si vous créez votre propre structure de dossiers au sein d’une bibliothèque de documents, **celle-ci n’est pas propagée** aux équipes en tant que canal; pour l’instant, seules les équipes sont acheminées vers SharePoint.
 
 > [!NOTE]
-> En fonction des commentaires des clients, les nouveaux groupes de 365 Office générés suite à la création d’une équipe dans Microsoft Teams n’apparaît plus dans Outlook par défaut. Pour les clients qui vous souhaitez continuer avec le comportement de l’affichage de ces groupes dans Outlook existant, une applet de commande Exchange Online PowerShell est fournie qui permettent le groupe pour l’expérience Outlook. Groupes créés via Outlook et activé plus tard pour les équipes continuera à afficher dans Outlook et les équipes. Cette mise à jour sera progressivement roll out entre Outlook et les équipes dans les mois à venir.
+> Sur la base des commentaires des clients, les nouveaux groupes Office 365 générés suite à la création d’une équipe dans Microsoft Teams ne s’afficheront plus dans Outlook par défaut. Pour les clients souhaitant continuer à utiliser le comportement d’affichage de ces groupes dans Outlook, une cmdlet PowerShell Exchange Online sera fournie, ce qui peut permettre au groupe d’avoir accès à l’environnement Outlook. Les groupes créés via Outlook et les versions ultérieures sont activés pour les équipes continuent à apparaître dans Outlook et Teams. Cette mise à jour sera déployée progressivement entre Outlook et teams dans les prochains mois.
 
 > [!NOTE]
-> Suppression d’un groupe d’Office 365 seront supprimer que l’invite de la boîte aux lettres alias pour des conversations Outlook/OWA permanentes et réunions d’équipes et marque SharePoint de site pour la suppression. Elle prend environ 20 minutes entre la suppression d’une équipe et son incidence sur Outlook. Suppression d’une équipe à partir du client équipes supprimera il immédiatement à partir de la vue à tous ceux qui sont membres de l’équipe. Si vous supprimez des membres d’un groupe Office 365 qui a été activée la fonctionnalité équipes, il peut être un délai d’environ deux heures avant de l’équipe est supprimé de l’affichage dans le client équipes pour les utilisateurs concernés qui ont été supprimées.
+> La suppression d’un groupe Office 365 entraîne la suppression de l’alias de boîte aux lettres pour les invitations aux réunions Outlook Le retrait d’une équipe et son impact sur Outlook sont d’environ 20 minutes. La suppression d’une équipe du client teams le supprime immédiatement de l’affichage de tous les membres de l’équipe. Si vous supprimez des membres d’un groupe Office 365 pour lequel la fonctionnalité d’équipe est activée, il peut y avoir un délai d’environ deux heures avant la suppression de l’équipe dans le client teams pour les personnes concernées qui ont été supprimées.
 >
->Lisez [cette](https://support.office.com/article/Restore-a-deleted-Office-365-Group-b7c66b59-657a-4e1a-8aa0-8163b1f4eb54) pour plus d’informations sur la restauration d’un groupe Office 365 que vous avez supprimé.
+>Pour plus d’informations sur la restauration d’un groupe Office 365 que vous avez supprimé, voir [Ceci](https://support.office.com/article/Restore-a-deleted-Office-365-Group-b7c66b59-657a-4e1a-8aa0-8163b1f4eb54) .
 
 <a name="group-membership"></a>Adhésion à un groupe
 ----------------
 
-Groupe des fonctionnalités pour vos utilisateurs dépendent où vous l’appartenance au groupe à partir du lecteur. Par exemple, si vous supprimez un membre d’une équipe, ils sont supprimés du groupe ainsi que de Office 365. Suppression du groupe supprime l’équipe immédiatement et canaux à partir du client équipes. Si vous supprimez une personne à partir d’un groupe en utilisant le centre d’administration Microsoft 365, ils n’auront plus accès à d’autres aspects collaboration tels que de la bibliothèque de documents SharePoint Online, Yammer groupe ou OneNote partagé. Toutefois, elles auront accès à la fonctionnalité de conversation de l’équipe pendant environ deux heures.
+Les fonctionnalités de groupe et les fonctionnalités de vos utilisateurs dépendent de l’emplacement d’appartenance au groupe. Par exemple, si vous supprimez un membre d’une équipe, il est également supprimé du groupe Office 365. La suppression du groupe entraîne la suppression immédiate de l’équipe et des canaux du client Teams. Si vous supprimez un membre d’un groupe à l’aide du centre d’administration Microsoft 365, il n’aura plus accès aux autres aspects de la collaboration tels que la bibliothèque de documents SharePoint Online, le groupe Yammer ou le partage OneNote. Toutefois, ils pourront toujours accéder à la fonctionnalité de conversation de l’équipe pendant environ deux heures.
 
-Meilleure pratique pour la gestion des membres d’équipes, ajouter et supprimer des membres à partir du client équipes pour vous assurer que le contrôle d’accès en cascade correct à d’autres applications cloud dépendant est appliqué. En outre, vous permettront d’éviter personnes quitter disjoint expérience avec l’impression qu’ils ont toujours accès aux ressources qu’ils permet (jusqu'à ce que le cycle de synchronisation suivant ajoute ou révoque l’accès à un composant spécifique du service). Si vous ajoutez ou supprimez des membres de l’équipe en dehors du client équipes (à l’aide du centre d’administration Microsoft 365, Azure AD, ou Exchange Online PowerShell), il peut prendre jusqu'à deux heures pour que les modifications soient reflétées dans les équipes.
+Pour gérer les membres d’une équipe, vous pouvez ajouter et supprimer des membres du client teams pour vous assurer que le contrôle d’accès en cascade approprié aux autres applications Cloud dépendantes est appliqué. Par ailleurs, vous éviterez une connaissance disconcertée qui laissait des personnes disposant de l’impression d’avoir accès aux ressources qu’elles utilisent (jusqu’à ce que le cycle de synchronisation suivant ajoute ou révoque l’accès à un composant particulier du service). Si vous ajoutez ou supprimez des membres d’équipe en dehors du client Teams (à l’aide du centre d’administration Microsoft 365, d’Azure AD ou d’Exchange Online PowerShell), les modifications peuvent prendre jusqu’à deux heures pour que les modifications soient répercutées dans Teams.

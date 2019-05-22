@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Apprenez à configurer le système téléphonique pour les files d’attente d’appels Cloud afin de vous donner un message d’accueil professionnel, de la musique en attente et de rediriger les appels d’appel vers des listes de distribution et des groupes de sécurité. Vous pouvez également définir la taille maximale de la file d’attente, le délai d’expiration et les options de traitement des appels.
-ms.openlocfilehash: 2dd984ef90ecbf710070c5746389e1c1806b104a
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: e32ab12c63f20439d21c9c1829cd4b32bdd34d70
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34330907"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344684"
 ---
 # <a name="create-a-cloud-call-queue"></a>Créer une file d’attente d’appels cloud
 
@@ -285,7 +285,7 @@ Appliquez ensuite la stratégie à l’utilisateur à l’aide de l’applet **d
 Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@contoso.com"
 ```
 
-Pour plus d’informations sur la modification des paramètres d’identification de l’appelant au sein de votre organisation, consultez l’article [comment utiliser l’identification de l’appelant au sein de votre organisation](/skypeforbusiness/what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization).
+Pour plus d’informations sur la modification des paramètres d’identification de l’appelant au sein de votre organisation, consultez l’article [comment utiliser l’identification de l’appelant au sein de votre organisation](/microsoftteams/how-can-caller-id-be-used-in-your-organization).
   
 ## <a name="want-to-know-more"></a>Vous souhaitez en savoir plus ?
 

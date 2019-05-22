@@ -21,18 +21,18 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: "En tant qu’administrateur d’Office 365, vous pouvez modifier les paramètres d’audioconférence Microsoft Teams tels que le fournisseur, le numéro payant ou gratuit par défaut, l’ID de conférence ou le code confidentiel d'un utilisateur dans votre organisation. "
-ms.openlocfilehash: af5329d495303b33b3fe6b86db47b33ca5efce09
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 808b1c9034cd6e246ccd4110d588b208004b97cc
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34292094"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34343977"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-microsoft-teams"></a>Gérer les paramètres d'audioconférence d'un utilisateur dans Microsoft Teams
 
 En tant qu’administrateur Office 365, vous pouvez modifier les paramètres d’Audioconférence, tels que le fournisseur, le numéro payant ou gratuit par défaut, l’identifiant de conférence ou le code confidentiel — pour un utilisateur individuel dans votre organisation. Pour modifier les paramètres de votre organisation, reportez-vous à [la section gérer les paramètres de conférence audio de votre organisation](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md).
 
-## <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![teams-logo-30x30. png](media/teams-logo-30x30.png) Utilisation du centre d’administration Microsoft teams
+## <a name="an-icon-showing-the-microsoft-teams-logomediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![Icône affichant le logo Microsoft teams](media/teams-logo-30x30.png) Utilisation du centre d’administration Microsoft teams
 
 1. Dans le volet de navigation de gauche, cliquez sur **utilisateurs**, puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
 

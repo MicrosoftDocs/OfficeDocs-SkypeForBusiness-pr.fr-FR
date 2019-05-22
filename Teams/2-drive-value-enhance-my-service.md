@@ -8,37 +8,37 @@ ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-description: Régulièrement évaluent les opportunités pour améliorer le service d’équipes, surveiller la feuille de route équipes pour les améliorations de fonctionnalités intéressantes.
+description: Évaluez régulièrement les opportunités pour améliorer le service Teams, et suivez la procédure d’introduction de teams pour toute amélioration de fonctionnalité.
 localization_priority: Normal
 MS.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fbc287254503c9c38f6a13bc77d747d91566b8d6
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: d5a912556d5a88583d0ee7e2a4331be5f259a517
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33400835"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344836"
 ---
 # <a name="enhance-my-service"></a>Améliorer mon service
 
-Cet article donne une vue d’ensemble de la configuration requise pour tirer le meilleur parti cloud services de téléphonie pour votre organisation. En analysant en permanence des fonctions de service cloud voice, vous pouvez être que vous fournit le plus de valeur pour votre organisation.
+Cet article fournit une vue d’ensemble des exigences relatives à l’utilisation des services vocaux Cloud pour votre organisation. En surveillant en continu les fonctionnalités des services vocaux Cloud, vous vous assurez de disposer de la valeur la plus importante pour votre organisation.
 
-## <a name="enhance-my-service-overview"></a>Améliorer la vue d’ensemble de mon service
-Une fois que vous avez déployé avec succès audioconférence ou système téléphonique avec des Plans de l’appel des services à votre organisation et utilisez le service avec la qualité et la fiabilité, l’étape suivante consiste à évaluer régulièrement si vous avez des opportunités pour améliorer vos services. Il s’agit d’un composant d’amélioration continue de service de planification qui est une norme moderne pour la gestion des services en nuage. 
+## <a name="enhance-my-service-overview"></a>Présentation de mon service
+Dès lors que vous avez déployé une audioconférence ou un système téléphonique doté de plans d’appel vers votre organisation et que vous utilisez le service de qualité et de fiabilité, l’étape suivante consiste à évaluer régulièrement si vous avez des opportunités de améliorer vos services. Il s’agit d’une partie de la planification d’amélioration continue des services, qui est une norme moderne pour la gestion du service Cloud. 
 
-Idéal pour vous assurer que vous obtenez toujours le meilleur parti de vos services consiste à surveiller le [parcours publics équipes](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) de nouvelles améliorations des fonctionnalités qui peuvent être intéressantes pour votre organisation. Si vous avez accès au portail d’administration d’Office 365 vous recevrez des mises à jour régulières de notre part sur les fonctionnalités nouvelles et modifiées par le biais de notre centre de messages. 
+Un excellent moyen de veiller à tirer le meilleur parti de vos services consiste à surveiller les [formations publiques d’équipes](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) pour de nouvelles fonctionnalités qui peuvent être utiles pour votre organisation. Si vous avez accès au portail d’administration Office 365, vous recevez des mises à jour régulières de nouvelles fonctionnalités et de la modification de votre centre de messages. 
 
-En outre, étant donné que les organisations agrandir et modifient, vous devez prendre temps pour revoir et mettre à jour vos études de cas d’utilisation à intervalles réguliers pour vous assurer que le service est configuré pour répondre aux besoins actuels de votre organisation.  Vérifiez que vous obtenez des commentaires réels de vos utilisateurs et les champions internes en établissant les canaux de commentaires dans votre organisation. Ces peuvent être des conversations informelles, réunions régulières ou via un équipes de canal ou Yammer de la Communauté. 
+Par ailleurs, dans la mesure où les organisations grandissent et changent, vous devez prendre le temps de revoir et de mettre à jour les cas d’utilisation de votre entreprise à intervalles réguliers pour vous assurer que le service est configuré conformément aux besoins actuels de votre organisation.  Assurez-vous que vous êtes en voie de commentaires concrets de la part de vos utilisateurs et de vos champions en établissant des canaux de commentaires au sein de votre organisation. Il peut s’agir de conversations informelles, de réunions ordinaires ou d’un canal d’équipe ou d’une communauté Yammer. 
 
-Lorsque vous ne voyez pas les opportunités pour améliorer votre service, prenez le temps de le faire à droite. Revoir [conversation déployer, équipes, les canaux et applications dans les équipes Microsoft](deploy-chat-teams-channels-microsoft-teams-landing-page.md) et appliquez les instructions même de bout en bout. Lors de la création de petites modifications incrémentielles, il est peu probable que vous aurez besoin effectuer toutes les activités et tâches en totalité, mais veillez à évaluer chaque tâche de route pour pouvoir chances à un résultat réussi et l’activité.
+Lorsque vous avez la possibilité d’améliorer votre service, prenez le temps de le faire directement. Pour plus d’informations, reportez-vous à la rubrique [déploiement d’une discussion, d’équipes, de canaux et d’applications dans Microsoft teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md) . Lors de la création de petites modifications incrémentielles, il est peu probable que vous deviez effectuer toutes les activités et tâches en intégralité, mais que vous soyez sûr d’évaluer chaque activité et tâche tout en vous permettant de vous offrir la meilleure chance de succès.
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Points de décision</td><td><ul><li>Décidez qui surveillera parcours publics et autres annonces de service pour les nouvelles fonctionnalités ou des services qui peut-être bénéficier de votre organisation.</li><li>Déterminez la cadence dans lequel un compte-rendu les nouvelles fonctionnalités ou les services pour les principales parties prenantes, via votre comité directeur.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Implémenter une stratégie pour les mises à jour avec vos services pour tirer le meilleur parti de votre organisation.</li><li>Améliorations des services via un cycle de vie de projet complet pour vous assurer que vous avez correctement pris en compte l’impact sur le déploiement du lecteur.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Points de décision</td><td><ul><li>Décidez qui va surveiller les feuilles de route publiques et autres annonces de service pour les nouvelles fonctionnalités ou services dont votre organisation peut bénéficier.</li><li>Déterminez la cadence d’affichage des nouvelles fonctions ou services aux principales parties prenantes, par le biais de votre Comité de direction.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Étapes suivantes</td><td><ul><li>Implémentez une stratégie de mise à jour de vos services pour tirer le meilleur parti de votre organisation.</li><li>Améliorations du service de disque par le biais d’un cycle de vie complet du projet pour vérifier que vous avez bien pris en compte l’impact qu’il a sur votre déploiement.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

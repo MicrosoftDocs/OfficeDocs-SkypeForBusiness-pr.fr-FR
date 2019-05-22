@@ -13,18 +13,17 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Optimization
 description: Les conditions requises suivantes sont particulièrement importantes pour la garantie de l'intégrité et du bon fonctionnement à long terme de l'ensemble des fonctionnalités Skype Entreprise Online que vous configurez pour votre organisation. Ce document s'adresse aux utilisateurs occupant un poste très technique, mais nous savons que tous les utilisateurs ne le sont pas. Si vous avez besoin d'aide pour configurer Skype Entreprise Online, vous devez lire ce document pour vous familiariser avec les éléments que vous devez prendre en compte. Ce service vous donne également des informations sur la façon dont vous travaillez avec le centre Microsoft FastTrack, vos services et équipes de compte Microsoft ou avec des partenaires Microsoft pour déterminer la façon dont vous pouvez respecter ces exigences.
-ms.openlocfilehash: 6aae90775aebd7384551d8e00dfe3d0dbe0c76fb
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f81b2bebded33bf65ff391909dea4e6f638390fb
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297825"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344549"
 ---
 # <a name="optimizing-your-network-for-skype-for-business-online"></a>Optimisation de votre réseau pour Skype Entreprise Online
 

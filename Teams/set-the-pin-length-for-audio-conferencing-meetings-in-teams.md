@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Découvrez les paramètres de longueur et les exigences d’un code confidentiel et apprenez à définir la durée des réunions dans Microsoft Teams.
-ms.openlocfilehash: db26f66a291df7e1da9b523ead1fb65640163448
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 938e8096cf39c482a2de9f143174e6c261c652d8
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305295"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344217"
 ---
 # <a name="set-the-pin-length-for-audio-conferencing-meetings-in-microsoft-teams"></a>Définir la longueur du code confidentiel pour les réunions d'audioconférence dans Microsoft Teams
 
@@ -39,7 +39,7 @@ Le pont d’audioconférence répond à l’appel des personnes qui composent un
   
 ## <a name="setting-the-pin-length"></a>Définir la longueur du code confidentiel
 
-![teams-logo-30x30. png](media/teams-logo-30x30.png) **à l’aide du centre d’administration Microsoft teams**
+![Icône illustrant le logo](media/teams-logo-30x30.png) de Microsoft teams à l' **aide du centre d’administration Microsoft teams**
 
 1. Dans la barre de navigation de gauche, accédez à **Réunions** > **Conference Bridges** (Ponts de conférence). 
 

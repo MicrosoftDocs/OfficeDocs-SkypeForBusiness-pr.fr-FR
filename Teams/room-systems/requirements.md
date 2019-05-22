@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection: M365-voice
 description: Cet article présente la configuration requise pour la prise en charge des salles de Microsoft Teams.
-ms.openlocfilehash: 78fc934783c92909d50076eb0d4848ea919b205b
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 6033b627918c4e5159dadd1307aacf2056df3b1f
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34329715"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344501"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Configuration requise pour Microsoft teams
 
@@ -109,8 +109,8 @@ Les salles de Microsoft teams peuvent s’adapter à différentes tailles de pi�
 
 - Jusqu’à deux écrans 1080 pixels avec connexions HDMI. Câbles HDMI de la longueur appropriée.
 
-    > [!NOTE]
-    > Un téléviseur utilisé comme écran à l’avant de la salle doit prendre en charge/permettre la fonctionnalité CEC (Consumer Electronics Control ) HDMI afin de pouvoir basculer automatiquement sur une source vidéo active depuis le mode veille. Cette fonctionnalité n’est pas prise en charge sur tous les téléviseurs. 
+> [!NOTE]
+> Un téléviseur utilisé comme écran à l’avant de la salle doit prendre en charge/permettre la fonctionnalité CEC (Consumer Electronics Control ) HDMI afin de pouvoir basculer automatiquement sur une source vidéo active depuis le mode veille. Cette fonctionnalité n’est pas prise en charge sur tous les téléviseurs. 
 
 > [!NOTE]
 > Les salles de Microsoft teams n’utilisent pas de clavier. Si nécessaire, l’administrateur doit utiliser le clavier visuel. Un clavier ou une souris USB sera requis lors de la création d’images de l’appareil Microsoft Teams. 

@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: Outre la licence par utilisateur pour les conférences audio standard, les organisations qui utilisent le programme de licence en volume Microsoft peuvent également choisir une proposée à la minute pour activer les fonctionnalités de conférence audio de leur organisation.
-ms.openlocfilehash: 90f547eacabfc3dbe38244f82ca5f9c8262ea7ca
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7be5acfcb6dc86179c29c983c9764569232e1d97
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283531"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344708"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>Audioconférence en paiement à la minute
 
@@ -61,7 +61,7 @@ Pour activer l’audioconférence pour les utilisateurs de votre organisation, v
 
 - Les paiements par minute ne seront facturés à la minute de chaque appel entrant ou sortant passé par chaque participant lors d’une réunion planifiée (des tarifs varient pour les appels payants ou gratuits et par destination) au lieu d’utiliser l’application Skype entreprise ou teams dans un appareil mobile. appareil ou PC.
 
-- Capacité à gérer les coûts, car les administrateurs peuvent contrôler les types de numérotation (internationale et nationale) qui peuvent être effectués à partir des réunions d’un organisateur. Afficher [les stratégies de restriction des appels sortants pour les conférences audio et les appels RTC des utilisateurs](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/outbound-calling-restriction-policies)
+- Capacité à gérer les coûts, car les administrateurs peuvent contrôler les types de numérotation (internationale et nationale) qui peuvent être effectués à partir des réunions d’un organisateur. Afficher [les stratégies de restriction des appels sortants pour les conférences audio et les appels RTC des utilisateurs](/microsoftteams/outbound-calling-restriction-policies)
 
 - Si vous avez des licences d’audioconférence facturée à la minute, vous n’êtes pas obligé d’attribuer des licences de crédits de communications séparément pour chaque utilisateur pour l’utilisation de l’audioconférence (vous devrez peut-être quand même les attribuer pour d’autres services).
 

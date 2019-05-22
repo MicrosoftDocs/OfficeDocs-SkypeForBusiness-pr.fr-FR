@@ -15,12 +15,12 @@ description: Tâches et activités requises pour la gestion des services d’éq
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 660087ef2ac4bcf81d2c59606d9b4658182cd899
-ms.sourcegitcommit: a6d34297fd4e91e873372513b270f34e15cb8003
+ms.openlocfilehash: c15d497ec86dcb15e85fc45dda838b5f203c87e0
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34162573"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34343863"
 ---
 # <a name="operate-my-service"></a>Exploiter mon service
 
@@ -42,8 +42,8 @@ Les tâches et les activités de ce guide sont regroupées en huit catégories, 
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Points de décision</td><td><ul><li>Déterminez comment les opérations seront implémentées pour les équipes.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Passez en revue le Guide de fonctionnement complet.</li><li>Implémentez une stratégie de fonctionnement qui s’adapte aux objectifs de votre organisation afin de garantir la qualité et la fiabilité des charges de travail vocales sur le Cloud.</li><li>Passez en revue le Guide de vérification de la qualité de l’utilisation.</li><li> Implémentez une stratégie d’opérations pour effectuer régulièrement des révisions de qualité d’utilisation pour vous assurer que le déploiement de votre voix Cloud fonctionne aux pointe.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/> <br/>Points de décision</td><td><ul><li>Déterminez comment les opérations seront implémentées pour les équipes.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/><br/>Étapes suivantes</td><td><ul><li>Passez en revue le Guide de fonctionnement complet.</li><li>Implémentez une stratégie de fonctionnement qui s’adapte aux objectifs de votre organisation afin de garantir la qualité et la fiabilité des charges de travail vocales sur le Cloud.</li><li>Passez en revue le Guide de vérification de la qualité de l’utilisation.</li><li> Implémentez une stratégie d’opérations pour effectuer régulièrement des révisions de qualité d’utilisation pour vous assurer que le déploiement de votre voix Cloud fonctionne aux pointe.</li></ul></td></tr>
 </table>
 
 

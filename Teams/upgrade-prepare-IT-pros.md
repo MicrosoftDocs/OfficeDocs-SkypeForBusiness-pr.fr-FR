@@ -1,12 +1,12 @@
 ---
-title: Formation pour les équipes Microsoft | Support technique aux problèmes Admin
+title: Formation sur Microsoft teams | Problèmes d’administration du support technique
 author: lanachin
 ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Préparer le personnel informatique de votre organisation pour le déploiement et la prise en charge Microsoft Teams.
+description: Préparez le personnel informatique au sein de votre organisation pour le déploiement et la prise en charge de Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
@@ -15,38 +15,38 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a0334b13b79348203666c81e597af7b6f00a6190
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d9864d05be6fe316d04991aba653f36ce047c5c1
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33906847"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344517"
 ---
-![Étapes du voyage mise à niveau, en mettant l’accent sur l’étape de préparation technique] (media/upgrade-banner-tech-readiness.png "Étapes du voyage mise à niveau, en mettant l’accent sur l’étape de préparation technique")
+![Étapes du parcours de la mise à niveau, en mettant l’accent sur l’étape de préparation technique] (media/upgrade-banner-tech-readiness.png "Étapes du parcours de la mise à niveau, en mettant l’accent sur l’étape de préparation technique")
 
-Cet article fait partie de la phase de préparation technique de votre parcours de mise à niveau, une activité que vous effectuez en parallèle à l’étape de préparation des utilisateurs. Avant de continuer, vérifiez que vous avez terminé ces activités à partir des étapes précédentes :
+Cet article fait partie de l’étape de préparation technique de votre mouvement de mise à niveau, une activité que vous finalisez en parallèle avec l’étape de préparation de l’utilisateur. Avant de continuer, assurez-vous d’avoir suivi les étapes ci-dessous:
 
-- [Inscrit les parties prenantes du projet](upgrade-enlist-stakeholders.md)
-- [Définies par l’étendue de votre projet](https://aka.ms/SkypetoTeams-Scope)
-- [Comprendre la coexistence et l’interopérabilité de Skype pour professionnels et les équipes](https://aka.ms/SkypeToTeams-Coexist)
-- [Choisi votre parcours de mise à niveau](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Inscription des parties prenantes du projet](upgrade-enlist-stakeholders.md)
+- [Définition de l’objectif de votre projet](https://aka.ms/SkypetoTeams-Scope)
+- [Compréhension de la coexistence et de l’interopérabilité de Skype entreprise et équipes](https://aka.ms/SkypeToTeams-Coexist)
+- [Choix de votre mise à niveau](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-# <a name="prepare-your-it-staff-for-microsoft-teams"></a>Préparer votre personnel informatique pour Microsoft Teams
+# <a name="prepare-your-it-staff-for-microsoft-teams"></a>Préparer votre équipe informatique pour Microsoft teams
 
-Vos administrateurs du client Office 365, les responsables techniques et le support technique sont responsables de la conduite d’une expérience utilisateur de qualité. Cela inclut en vous assurant que votre réseau est prêt à prendre en charge des équipes, la configuration des équipes pour vos utilisateurs et pouvoir efficacement à résoudre des problèmes qui peuvent survenir.
+Vos administrateurs de clients d’Office 365, les prospectus techniques et l’assistance technique sont responsables pour une interface utilisateur de grande qualité. Cela implique de vérifier que votre réseau est prêt pour la prise en charge des équipes, de configurer teams pour vos utilisateurs et de pouvoir résoudre efficacement les problèmes qui peuvent survenir.
 
-Partager les ressources suivantes avec votre équipe informatique et assurez-vous qu’ils sont prêts à prendre en charge des utilisateurs avant de commencer votre mise à niveau vers les équipes :
+Partagez les ressources suivantes avec les membres du personnel informatique et confirmez qu’ils sont prêts à prendre en charge les utilisateurs avant de commencer la mise à niveau vers teams:
 
 - [Formation à Microsoft Teams pour les administrateurs](itadmin-readiness.md)
 - [Contacter le support relatif aux produits d’entreprises- Aide de l’administrateur](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 - [Résoudre les problèmes de connectivité avec le client de Microsoft Teams](connectivity-issues.md)
 - [Utiliser les fichiers journaux pour le dépannage de Microsoft Teams](log-files.md)
 
-[//]: # (Demandez à Debbie à examiner :)
+[//]: # (Demandez à Debbie d’examiner les éléments suivants:)
 
 | | |
 |---|---|
-| ![](media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Ont impliqué personnel de support toutes les personnes est susceptible d’être impliqués dans le déploiement et la prise en charge des équipes ?</li><li>Ont développé un plan de formation du personnel supplémentaire embarquement fur et à votre mise à niveau ?</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>Étapes suivantes|<ul><li>Vérifiez que les informations que dont ils ont besoin du personnel informatique.</li><li>Revoir vos plans de formation et préparation comme nouvelles fonctionnalités sont publiées.</li></ul>|
+| ![Icône représentant des points de décision](media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Avez-vous impliqué tout le personnel du support technique susceptible de s’impliquer dans le déploiement et la prise en charge des équipes?</li><li>Avez-vous développé un plan de formation pour l’intégration de membres du personnel supplémentaire lors de la mise à niveau?</li></ul> |
+| ![Icône illustrant les étapes suivantes](media/audio_conferencing_image9.png)<br/>Étapes suivantes|<ul><li>Vérifiez que le personnel informatique a les informations dont il a besoin.</li><li>Reportez-vous à vos offres de formation et de préparation lorsque de nouvelles fonctionnalités sont disponibles.</li></ul>|
 
-Une fois que vous avez préparé votre personnel informatique pour les équipes, vérifiez que votre environnement remplit toutes les [conditions préalables](upgrade-plan-journey-prerequisites.md).
+Après avoir préparé votre équipe informatique pour Teams, vérifiez que votre environnement répond à toutes les [conditions préalables](upgrade-plan-journey-prerequisites.md).

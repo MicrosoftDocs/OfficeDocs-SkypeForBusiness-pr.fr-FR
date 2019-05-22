@@ -23,12 +23,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Découvrez comment activer et utiliser le tableau de bord de qualité des appels de Skype entreprise Online et obtenez des rapports de synthèse sur la qualité des appels. '
-ms.openlocfilehash: afcb0243144784929e8516308084fda791b0bcec
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 258390562206f55918a2b1440ed30ca16f7e7a93
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34291536"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344884"
 ---
 # <a name="turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Activation et utilisation du tableau de bord de qualité des appels pour Microsoft teams et Skype entreprise Online
 
@@ -55,7 +55,7 @@ Consultez cet article pour obtenir la liste des [dimensions et mesures disponibl
 ## <a name="activate-microsoft-call-quality-dashboard-cqd-summary-reports"></a>Activer les rapports de synthèse sur le tableau de bord de qualité d’appel Microsoft (bord)
 
 Pour pouvoir commencer à utiliser le bord, vous devez l’activer pour votre organisation Office 365.
-![teams-logo-30x30. png](media/teams-logo-30x30.png) **à l’aide du centre d’administration Microsoft teams**
+![Icône illustrant le logo](media/teams-logo-30x30.png) de Microsoft teams à l' **aide du centre d’administration Microsoft teams**
  
 1. Pour ouvrir le centre d’administration, connectez-vous à votre organisation 365 à l’aide du compte d’administrateur du service Microsoft Teams, puis sélectionnez la vignette **administrateur** .
     

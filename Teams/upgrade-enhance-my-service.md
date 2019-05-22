@@ -1,12 +1,12 @@
 ---
-title: Configuration requise de Microsoft Teams | Améliorer le Service
+title: Conditions requises par Microsoft teams | Améliorer le service
 author: lanachin
 ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Régulièrement évaluent les opportunités pour améliorer le service équipes après la mise à niveau, de contrôler la feuille de route équipes pour les améliorations de fonctionnalités intéressantes.
+description: Évaluez régulièrement les possibilités d’améliorer le service teams après la mise à niveau, de surveiller la présentation des fonctionnalités d’Teams.
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
@@ -15,32 +15,32 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f23ff01a70e2aa65a6440b351d8abb1025bbb978
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ff3b4f745fa80ecee1033d2ca1d708bdc01e49d6
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33920490"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344860"
 ---
-![Étapes du voyage mise à niveau, en insistant sur la phase d’Excellence opérationnelle] (media/upgrade-banner-op-excellence.png "Étapes du voyage mise à niveau, en insistant sur la phase d’Excellence opérationnelle")
+![Étapes du voyage de la mise à niveau, avec mise en évidence de l’étape d’excellence opérationnelle] (media/upgrade-banner-op-excellence.png "Étapes du voyage de la mise à niveau, avec mise en évidence de l’étape d’excellence opérationnelle")
 
-Cet article fait partie de la phase d’Excellence opérationnelle de votre parcours de mise à niveau, qui démarre dès que vous avez terminé votre mise à niveau à partir de Skype pour les entreprises aux équipes.
+Cet article fait partie de l’étape du fonctionnement de votre mise à niveau du fonctionnement de votre mise à niveau, qui commence dès que vous avez terminé la mise à niveau de Skype entreprise vers Teams.
 
-# <a name="get-the-most-out-of-teams-after-upgrading"></a>Tirer le meilleur parti des équipes après la mise à niveau
+# <a name="get-the-most-out-of-teams-after-upgrading"></a>Tirer le meilleur parti de teams après la mise à niveau
 
-Cet article donne une vue d’ensemble de la configuration requise pour tirer le meilleur parti d’exploitation équipes après la mise à niveau. En analysant en permanence des fonctionnalités de service d’équipes, vous pouvez être que vous fournit le plus de valeur pour votre organisation.
+Cet article fournit une vue d’ensemble de la configuration requise pour profiter au maximum des équipes de fonctionnement après la mise à niveau. En surveillant en continu les fonctionnalités de service Teams, vous pouvez être certain que vous fournissez le plus de valeur à votre organisation.
 
-## <a name="enhance-your-service-overview"></a>Améliorer votre vue d’ensemble du service
+## <a name="enhance-your-service-overview"></a>Présentation améliorée de votre service
 
-Une fois que vous avez déployé avec succès des équipes à votre organisation et utilisez le service avec la qualité et la fiabilité, l’étape suivante consiste à évaluer régulièrement si vous avez des opportunités pour améliorer vos services. Il s’agit d’un composant d’amélioration continue de service de planification qui est une norme moderne pour la gestion des services en nuage.
+Une fois que vous avez déployé des équipes dans votre organisation et que vous utilisez le service avec la qualité et la fiabilité, l’étape suivante consiste à évaluer régulièrement si vous avez des chances d’améliorer vos services. Il s’agit d’une partie de la planification d’amélioration continue des services, qui est une norme moderne pour la gestion du service Cloud.
 
-Idéal pour vous assurer que vous obtenez toujours le meilleur parti de vos services consiste à surveiller le [parcours publics équipes](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) de nouvelles améliorations des fonctionnalités qui peuvent être intéressantes pour votre organisation. Si vous avez accès au portail d’administration d’Office 365, vous recevrez des mises à jour régulières de notre part sur les fonctionnalités nouvelles et modifiées par le biais de notre centre de messages.
+Un excellent moyen de veiller à tirer le meilleur parti de vos services consiste à surveiller les [formations publiques d’équipes](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) pour de nouvelles fonctionnalités qui peuvent être utiles pour votre organisation. Si vous avez accès au portail d’administration Office 365, vous recevez des mises à jour régulières de nouvelles fonctionnalités en passant par le centre de messages.
 
-Lorsque vous ne voyez pas les opportunités pour améliorer votre service, prenez le temps de le faire à droite. Revoir [conversation déployer, équipes, les canaux et applications dans les équipes Microsoft](deploy-chat-teams-channels-microsoft-teams-landing-page.md) et appliquez les instructions même de bout en bout. Lors de la création de petites modifications incrémentielles, il est peu probable que vous aurez besoin effectuer toutes les activités et tâches en totalité, mais veillez à évaluer chaque tâche de route pour pouvoir chances à un résultat réussi et l’activité.
+Lorsque vous avez la possibilité d’améliorer votre service, prenez le temps de le faire directement. Pour plus d’informations, reportez-vous à la rubrique [déploiement d’une discussion, d’équipes, de canaux et d’applications dans Microsoft teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md) . Lors de la création de petites modifications incrémentielles, il est peu probable que vous deviez effectuer toutes les activités et tâches en intégralité, mais que vous soyez sûr d’évaluer chaque activité et tâche tout en vous permettant de vous offrir la meilleure chance de succès.
 
-Lorsque vous ne voyez pas les opportunités pour améliorer votre service, prenez le temps de le faire à droite. Revoir notre [phases d’implémentation](deploy-chat-teams-channels-microsoft-teams-landing-page.md) et appliquer la même recommandation de bout en bout. Lors de la création de petites modifications incrémentielles, il est peu probable que vous aurez besoin effectuer toutes les activités et tâches en totalité, mais veillez à évaluer chaque tâche de route pour pouvoir chances à un résultat réussi et l’activité.
+Lorsque vous avez la possibilité d’améliorer votre service, prenez le temps de le faire directement. Reportez-vous à nos [phases d’implémentation](deploy-chat-teams-channels-microsoft-teams-landing-page.md) et appliquez les mêmes conseils en fin de cycle. Lors de la création de petites modifications incrémentielles, il est peu probable que vous deviez effectuer toutes les activités et tâches en intégralité, mais que vous soyez sûr d’évaluer chaque activité et tâche tout en vous permettant de vous offrir la meilleure chance de succès.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Points de décision</td><td><ul><li>Décidez qui surveillera parcours publics et autres annonces de service pour les nouvelles fonctionnalités ou des services qui peut-être bénéficier de votre organisation.</li><li>Déterminez la cadence dans lequel un compte-rendu les nouvelles fonctionnalités ou les services pour les principales parties prenantes, via votre comité directeur.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Implémenter une stratégie pour les mises à jour avec vos services pour tirer le meilleur parti de votre organisation.</li><li>Améliorations des services via un cycle de vie de projet complet pour vous assurer que vous avez correctement pris en compte l’impact sur le déploiement du lecteur.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Points de décision</td><td><ul><li>Décidez qui va surveiller les feuilles de route publiques et autres annonces de service pour les nouvelles fonctionnalités ou services dont votre organisation peut bénéficier.</li><li>Déterminez la cadence d’affichage des nouvelles fonctions ou services aux principales parties prenantes, par le biais de votre Comité de direction.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Étapes suivantes</td><td><ul><li>Implémentez une stratégie de mise à jour de vos services pour tirer le meilleur parti de votre organisation.</li><li>Améliorations du service de disque par le biais d’un cycle de vie complet du projet pour vérifier que vous avez bien pris en compte l’impact qu’il a sur votre déploiement.</li></ul></td></tr>
 </table>

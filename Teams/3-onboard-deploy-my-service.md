@@ -8,103 +8,103 @@ ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-description: Télécharger le manuel activation de Site pour planifier votre déploiement équipes et accélérer et optimiser l’adoption de l’utilisateur, perception de la qualité et de satisfaction.
+description: Téléchargez le manuel d’utilisation du site pour planifier le déploiement de vos équipes et accélérer et optimiser l’adoption des utilisateurs, la perception de la qualité et la satisfaction.
 localization_priority: Normal
 MS.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 397917e8e5e2fc2c2707e9bbad67e031d96c09dc
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 90f49b3da1aec6d5f81f43674db5bc8cdb3822aa
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33400859"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344700"
 ---
 # <a name="deploy-my-service"></a>Déployer mon service
 
-Cet article donne une vue d’ensemble de la configuration requise pour le déploiement correctement les services en nuage voix. En suivant les instructions pour le déploiement de services en nuage voice, vous pouvez vous assurer que vous correctement toutes les exigences de compte et fournir des résultats reproductibles.
+Cet article fournit une vue d’ensemble de la configuration requise pour le déploiement approprié des services vocaux Cloud. En suivant les recommandations en matière de déploiement de services vocaux Cloud, vous pouvez vous assurer que vous disposez bien de toutes les exigences et que vous fournissez des résultats répétitifs.
 
-## <a name="site-enablement-playbook-for-microsoft-teams-voice-workloads"></a>Lecture activation de site pour les charges de travail Microsoft Teams vocale
+## <a name="site-enablement-playbook-for-microsoft-teams-voice-workloads"></a>Manuel d’activation des sites pour les charges de travail Microsoft teams
 
-Utilisez ce manuel pour aider votre organisation à planifier et exécuter le déploiement des fonctionnalités vocales de Microsoft Teams sur une base site par site.
+Utilisez ce manuel pour aider votre organisation à planifier et à exécuter correctement le déploiement des fonctionnalités vocales de Microsoft teams sur une base site par site.
 
-Y compris toutes les activités, recommandé chronologies et des liens d’instructions correspondantes pour chaque activité, ce manuel traite des conseils de bout en bout pour garantir un déploiement de voix équipes pour un site donné, en mettant l’accent sur les facteurs qui sont importantes à l’utilisateur.
+Incluant toutes les activités requises, les chronologies recommandées et les liens vers des instructions correspondantes pour chaque activité, le présent manuel décrit les conseils de bout en bout pour vous permettre de garantir le déploiement de votre voix teams pour un site donné, en insistant sur les facteurs importants. à l’utilisateur.
 
-En effectuant les activités dans ce manuel, votre organisation peut :
+En remplissant les activités de ce manuel, votre organisation peut:
 
--   Planifier et planifier votre déploiement équipes efficacement.
+-   Planifiez et planifiez efficacement le déploiement de votre équipe.
 
--   Accélérer et optimiser l’adoption de l’utilisateur.
+-   Accélérez et optimisez l’adoption des utilisateurs.
 
--   Réduire les besoins en matière de prise en charge et augmenter la satisfaction des utilisateurs.
+-   Réduisez les besoins en matière de support et augmentez la satisfaction des utilisateurs.
 
 > [!NOTE]
-> Cet article et la lecture associé ne sont pas destinés à décrivent chaque étape de configuration technique requise pour l’activation des services ou fournissant tonalité à un site spécifique. Au lieu de cela, ils se concentrent sur les activités et recommandés pour les utilisateurs intégrés facilement des tâches et de les commence à consommer des charges de travail voix équipes via une transition rapide et en toute transparence avec un taux élevé d’adoption, tout en réduisant les exigences de prise en charge. Pour obtenir des instructions techniques sur la meilleure façon de configurer votre environnement pour voice équipes, consultez l’aide-mémoire embarquement pour la [Configuration des charges de travail voix équipes](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md), la [configuration du routage Direct dans les équipes](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md), les [équipes les fonctionnalités de base](onboarding-checklist-configure-microsoft-teams-core-capabilities.md), [réseau pour les équipes](onboarding-checklist-configure-networking.md)et [l’activation d’Office 365](onboarding-checklist-enable-office-365.md).
+> Cet article et le manuel associé n’ont pas été prévus pour décrire chaque étape de configuration technique requise pour l’activation du service ou la fourniture de tonalités de numérotation à un site spécifique. Au lieu de cela, ils se concentrent sur les activités et les tâches qui sont recommandées pour intégrer facilement les utilisateurs et leur permettre d’utiliser les charges de travail vocales d’équipes grâce à une transition rapide et plus fluide, tout en minimisant le niveau de prise en charge requise. Pour obtenir des conseils techniques sur la configuration de votre environnement pour teams Voice, voir les listes de vérification d’intégration pour la [Configuration des charges de travail vocales](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)d’équipe, [configuration du routage direct dans teams](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md), fonctionnalités de [base](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)d’équipes, [réseau pour teams](onboarding-checklist-configure-networking.md)et [activation d’Office 365](onboarding-checklist-enable-office-365.md).
 
 <!--ENDOFSECTION-->
 
-## <a name="playbook-focus-areas"></a>Domaines lecture
+## <a name="playbook-focus-areas"></a>Zones ciblées du manuel
 
-L’objectif de la lecture est de résoudre les facteurs qui influencent la perception de l’utilisateur d’un déploiement de voix équipes. Tâches et activités sont regroupés dans les domaines suivants :
+Le manifeste consiste à traiter les facteurs qui influencent la perception de l’utilisateur par un déploiement vocal d’équipes. Les activités et les tâches sont regroupées dans les zones ciblées suivantes:
 
 -   Validation de la disponibilité du service
     - Audioconférence,
     - Offres d'appels
     - Routage direct
 
--   Activation de l’utilisateur
+-   Activation utilisateur
 
 -   Points de terminaison
 
--   L’utilisation et la qualité
+-   Utilisation et qualité
 
--   Kit d’adoption
+-   Croissante
 
-La [Lecture d’activation de Site pour la voix (lecture)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) est un classeur Microsoft Excel. Chacun de ces cinq domaines est une feuille distincte dans le classeur, et chaque tâche de déploiement et les activités sont regroupées sur l’une de ces feuilles.
+Le manuel [d’activation des sites pour les appels vocaux](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) est un classeur Microsoft Excel. Chacun de ces cinq domaines de focalisation est une feuille séparée dans le classeur, et chaque tâche et activité de déploiement est regroupée sur l’une de ces feuilles.
 
-![Capture d’écran de la lecture] (media/deploy-my-service-image1.png "Capture d’écran de la lecture")
+![Capture d’écran du manuel] (media/deploy-my-service-image1.png "Capture d’écran du manuel")
 
 > [!NOTE]
-> Vous allez créer une instance distincte de la lecture pour chaque site dans la portée de votre déploiement d’équipes.
+> Vous allez créer une instance distincte du manuel pour chaque site dans le cadre de votre déploiement d’équipes.
 
 <!--ENDOFSECTION-->
 
-## <a name="how-to-use-the-playbook"></a>L’utilisation de la lecture
+## <a name="how-to-use-the-playbook"></a>Utiliser le manuel
 
-Quelle que soit la taille et la complexité de l’emplacement, l’activation de chaque site nécessite que vous envisagez de vos tâches et des activités suffisamment tôt — et de les exécuter dans l’ordre optimal — avant, pendant et après le déploiement de service. Nous vous conseillons de suivre ces étapes lorsque vous planifiez et exécutez votre propre voyage vers voix Teams Microsoft.
+Quelle que soit la taille et la complexité de l’emplacement, l’activation de chaque site exige de planifier vos tâches et vos activités au plus vite, et de les exécuter dans un ordre optimal, avant, pendant et après le déploiement réel du service. Nous vous recommandons de suivre ces étapes lors de la planification et de l’exécution de votre propre voyage dans Microsoft teams Voice.
 
-1. Téléchargez la [lecture d’activation de Site pour la voix (lecture)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) pour les équipes Microsoft Voice.
+1. Téléchargez le [Manuel d’activation de site pour les appels vocaux (manuel)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) pour Microsoft teams Voice.
 
-2. Créez un exemplaire distinct de la lecture pour chaque site.
+2. Créez une copie distincte du manuel pour chaque site.
 
-3. Sous l’onglet de la feuille de **lecture pour {Code SiteName}**, remplacez **{Code SiteName}** par le nom de site pertinente et/ou le code de site.
+3. Dans l’onglet de la feuille de passe du **{nom_site-code}**, remplacez **{SiteName-code}** par le nom de site et/ou le code du site pertinents.
 
-4. Entrez le **nom du Site, le code de Site**et la **date de lancement prévu**, comme illustré ci-dessous. Il s’agit d’une étape importante, car elle ajuste les délais recommandées pour toutes les activités de la lecture.
+4. Entrez le **nom du site, le code du site**et la **Date de lancement prévue**, comme illustré ci-dessous. Il s’agit d’une étape essentielle, car elle ajuste les délais recommandés pour chaque activité du manuel.
 
-   ![Exemple avec le nom du site de New York, NY01, le code de site et date de lancement prévue de 20-Mar-18] (media/deploy-my-service-image2.png "Exemple avec le nom du site de New York, NY01, le code de site et date de lancement prévue de 20-Mar-18")
+   ![Exemple avec le nom du site, le code du site et la date de lancement planifiée] (media/deploy-my-service-image2.png "Exemple avec le nom de site New York, le code de site NY01 et la date de début planifiée 20-Mar-18")
 
-5. Passez en revue chaque activité, prenez les mesures nécessaires et mettre à jour le statut que vous passez en revue la chronologie. État est représenté sous forme graphique, comme décrit ci-dessous :
-   <ul>
-   <li>![Coche verte](media/deploy-my-service-image3.png) <strong>Oui ou non applicable (vert) :</strong> l’activité terminée, ou il n’est pas applicable pour ce site, et aucune action supplémentaire n’est nécessaire.</li>
-   <li>![Point d’exclamation jaune](media/deploy-my-service-image4.png) <strong>l’activité n’est pas achevée encore (jaune) :</strong> l’activité n’a pas encore été terminée et doit être mis à jour à Oui ou non sur sa planification.</li>
-   <li>![X rouge](media/deploy-my-service-image5.png) <strong>Aucune (rouge) :</strong> l’activité ne peut pas aboutir en raison d’un problème et doit être exécutée à la réunion.</li></ul>
+5. Examinez chaque activité, effectuez les actions nécessaires et mettez à jour l’État à mesure que vous parcourez la chronologie. Le statut est représenté sous forme graphique, comme décrit ci-dessous:
+  
+   - ![Illustration d’une coche](media/deploy-my-service-image3.png) verte **: oui ou non applicable (vert):** l’activité est terminée ou n’est pas applicable pour ce site, et aucune action supplémentaire n’est requise.</li>
+    - ![Image d’un point](media/deploy-my-service-image4.png) d’exclamation jaune <strong>l’activité n’est pas achevée (jaune):</strong> l’activité n’a pas encore été achevée et doit être mise à jour sur Oui ou non.</li>
+   - ![Illustration d’un X](media/deploy-my-service-image5.png) rouge <strong>(rouge):</strong> l’activité ne peut pas être effectuée en raison d’un problème et doit être acheminée vers la réunion d’État du projet.</li></ul>
 
-6. L’état est reportée dans chaque section, et l’en-tête de section est mis en forme avec une de ces indicateurs d’état. **Hebdomadaire** est également mis à jour automatiquement.
+6. Le statut est répété dans chaque section, et le titre de section est mis en forme avec l’un de ces indicateurs d’État. Le **statut hebdomadaire** est également mis à jour automatiquement.
 
-![Capture d’écran des semaine état - Reports dans la lecture] (media/deploy-my-service-image6.png "Capture d’écran des semaine état - Reports dans la lecture")
+![Capture d’écran des déploiements de l’état hebdomadaire dans le manuel] (media/deploy-my-service-image6.png "Capture d’écran des déploiements de l’état hebdomadaire dans le manuel")
 
 > [!TIP]
 > Répétez les étapes ci-dessus pour tous les emplacements que vous avez.
 
 > [!IMPORTANT]
-> Certaines étapes peuvent ne pas être applicables à tous les sites et les emplacements. Si une activité spécifique n’est pas pertinente pour un site, vous devez sélectionner **non applicable** pour cette activité. **Ne supprimez pas** les lignes de la lecture ; Si vous procédez ainsi, les formules de cumul d’état ne fonctionnent pas.<br/><br/>
-Attention aux activités qui peuvent prendre plus de temps que vous avez planifié, telles que le numéro portage et des activités d’approvisionnement. Ces activités peuvent affecter négativement le planning de déploiement de site. Veillez à consulter et de mettre à jour la liste des activités et la chronologie associé à toutes les semaines et de les présenter aux [réunions du comité directeur](https://docs.microsoft.com/MicrosoftTeams/envision-steering-committee-complete-guide) pour s’assurer que les parties prenantes sont informés de l’état de chaque site ainsi que les écarts possibles à partir de la planification du déploiement.
+> Certaines étapes peuvent ne pas être applicables à tous les sites et emplacements. Si une activité spécifique n’est pas pertinente pour un site, vous devez sélectionner **non applicable** pour cette activité. **Ne supprimez pas** les lignes du manuel. dans le cas contraire, les formules de report ne fonctionnent pas.<br/><br/>
+Soyez attentif aux activités qui peuvent durer plus longtemps que prévu (par exemple, le transfert de numéros et les activités d’approvisionnement). Ces activités peuvent avoir un impact négatif sur la chronologie du déploiement de site. Veillez à vérifier et à mettre à jour la liste des activités et la chronologie associée de manière hebdomadaire, et à les présenter à des [réunions du Comité de direction](https://docs.microsoft.com/MicrosoftTeams/envision-steering-committee-complete-guide) pour vous assurer que les parties prenantes sont consciente de l’état de chaque site et des écarts possibles de la planification du déploiement.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Points de décision</td><td><ul><li>Déterminez si la lecture d’activation de Site est requise pour votre déploiement.</li><li>Déterminer qui sera responsable de la personnalisation de la lecture d’activation de Site pour Microsoft Teams pour chaque site que vous envisagez de déployer.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li><a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true" data-raw-source="[Download the Site Enablement Playbook](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)">Télécharger le manuel d’activation de Site</a>.</li><li>Personnaliser la lecture d’activation de Site pour votre site premier.</li><li>Répétez pour des sites supplémentaires.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/> <br/>Points de décision</td><td><ul><li>Déterminez si le manuel d’activation du site est requis pour votre déploiement.</li><li>Déterminez qui sera responsable de la personnalisation du manuel d’activation des sites de Microsoft teams pour chaque site que vous déploierez.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/><br/>Étapes suivantes</td><td><ul><li><a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true" data-raw-source="[Download the Site Enablement Playbook](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)">Télécharger le manuel d’activation de site</a>.</li><li>Personnalisez le manuel d’activation de site pour votre premier site.</li><li>Répétez cette procédure si nécessaire pour les sites supplémentaires.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

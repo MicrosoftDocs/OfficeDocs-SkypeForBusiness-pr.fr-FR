@@ -15,18 +15,25 @@ search.appverid: MET150
 description: Liste actuelle des problèmes connus pour l'application client et l'expérience administrateur de Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3dc7e1797c1e5c1551abad40cf6598f11e01ada
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 377d86bd71947588186979f20068b9e8927ccd3d
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32225951"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287909"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problèmes connus pour Microsoft Teams
 
 Cet article répertorie les problèmes connus concernant Microsoft Teams, par fonctionnalité spécifique.
 
 ## <a name="administration"></a>Administration
+
+|**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|    
+|:-----|:-----|:-----|:-----|
+|Service de compte de ressource mal configuré <br/> |Les comptes de ressource associés à un standard automatique ou à une file d’attente d’appels créée avant le mois de janvier 2019 risquent de ne pas avoir le paramètre Department correctement défini, ce qui peut entraîner l’échec d’une affectation de numéro de téléphone. Un correctif est en cours de préparation pour résoudre ce problème. <br/> |Pour résoudre ce problème, vous pouvez exécuter la cmdlet suivante afin de définir le paramètre Department. Set-MsolUser -ObjectId <Resource Account Object ID> -Department "Instance d’application de communication Microsoft" <br/> |8/5/19 <br/> |
+
+
+
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
@@ -259,6 +266,10 @@ Cet article répertorie les problèmes connus concernant Microsoft Teams, par f
 |:-----|:-----|:-----|:-----|
 |Fonction recherche dans l’onglet liste SharePoint  <br/> |Essayer d’ouvrir un fichier à partir de la fonction recherche de l’onglet liste SharePoint fait afficher une invite « Vous avez besoin d’une nouvelle application pour ouvrir ce fichier » et le fichier ne sera pas ouvert. <br/> |Ouvrir directement à partir de liste plutôt que de la barre de recherche. <br/> |11/2/2019  <br/> |
 
+|**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
+|:-----|:-----|:-----|:-----|
+|Échec du téléchargement d’un fichier <br/> |Toute tentative de téléchargement d’un fichier lorsque le chemin d’accès à un fichier contient une apostrophe se solde en un échec avec affichage du message «Le fichier n’a pas été téléchargé» lors de l’utilisation du client de bureau Microsoft Teams. <br/> |Téléchargez le fichier à partir du client Web ou de SharePoint Online <br/> |10/5/2019  <br/> |
+
 ## <a name="teams"></a>Équipes
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
@@ -296,3 +307,7 @@ Cet article répertorie les problèmes connus concernant Microsoft Teams, par f
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
 |L’utilisateur ne reçoit pas d’e-mail de bienvenue lorsqu’il est ajouté par l’administrateur.  <br/> |Lors de l’ajout d’un membre à une équipe à l’aide de PowerShell ou du centre d’administration Teams, le membre ne reçoit pas d’e-mail de bienvenue de Microsoft Teams.  <br/> |L’ajout d’un membre directement à partir de l’interface utilisateur de Teams entraîne l’envoi d’un e-mail. Actuellement, il n’existe aucun contournement permettant de réaliser cette action via l’administration.  <br/> |12/02/19  <br/> |
+
+|**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
+|:-----|:-----|:-----|:-----|
+|Impossible de déplacer, supprimer ou renommer des fichiers après modification  <br/> |Une fois qu’un fichier est modifié dans Teams, il ne peut pas être déplacé, renommé ou supprimé immédiatement <br/> |Il s’agit d’un problème connu. La solution de contournement consiste à patienter un certain temps avant d’apporter des modifications d’administration.  <br/> |12/03/19  <br/> |
