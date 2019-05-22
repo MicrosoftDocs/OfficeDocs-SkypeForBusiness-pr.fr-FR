@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Cette rubrique contient tous les pays ou régions dans lesquels les utilisateurs peuvent effectuer des appels sortants s’ils ont un plan d’appels.
-ms.openlocfilehash: 3f6ff1f7bb3d9659ec9429b3eb48a8ae9968d636
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ab24f12098a01fbce9e31cb83819f1c10dc28389
+ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34281900"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "34330867"
 ---
 # <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>Utilisateurs peuvent passer des appels sortants à ces pays et régions
 
@@ -92,7 +92,7 @@ ms.locfileid: "34281900"
 
 ## <a name="related-topics"></a>Rubriques connexes
 
-[Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
+[Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 
   
  

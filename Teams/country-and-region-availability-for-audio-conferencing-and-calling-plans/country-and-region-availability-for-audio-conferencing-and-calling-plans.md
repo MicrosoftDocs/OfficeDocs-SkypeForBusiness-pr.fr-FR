@@ -25,12 +25,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Vous pouvez sélectionner un pays ou une région pour vérifier la présence de services d’audioconférence, de système téléphonique, de plans d’appel, de crédits de communications et si les numéros de téléphone gratuits et payants sont disponibles ou non.
-ms.openlocfilehash: 51c5667330aec2881ce443600d311254655fe657
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d167a7d1072377b3eb8fab9d1958a46381500022
+ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286692"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "34330891"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Disponibilité des forfaits d’appels et de l’audioconférence selon les régions et les pays
 
@@ -163,7 +163,7 @@ Le rendez-vous d’une réunion vers un autre pays ou une autre région dans le 
 ### <a name="phone-system"></a>Système téléphonique
 Grâce au système téléphonique, vous pouvez créer des standards automatiques et des files d’attente (avec un numéro payant ou gratuit) pour répondre aux appels entrants de votre organisation, et lorsque vous ajoutez un plan d’appels pour les utilisateurs qu’ils peuvent utiliser Skype entreprise pour effectuer les tâches de contrôle d’appel de base. , comme le passage et la réception d’appels, le transfert d’appels, la mise en sourdine et la réactivation des appels. Les utilisateurs du **système téléphonique** peuvent cliquer sur leur nom dans le carnet d’adresses et Skype entreprise effectue un appel à cette personne. Pour passer et recevoir des appels, les utilisateurs du **système téléphonique** peuvent utiliser leurs appareils mobiles, un casque avec un ordinateur portable ou un PC, ou l’un des nombreux téléphones IP compatibles avec Skype entreprise.
 
-> La disponibilité des numéros de téléphone payants depuis certains de ces emplacements peut varier en fonction des niveaux d’inventaire. Outre l’obtention des numéros de téléphone d’utilisateurs individuels à partir d’Office 365, il est également possible de rechercher et d’acquérir des numéros de téléphone gratuits ou payants pour les services tels que les conférences audio (pour les ponts de conférence), les standards automatiques et les files d’attente d’appels. Il s’agit des numéros de service. Pour obtenir des numéros de téléphone, consultez la rubrique [obtention de numéros de téléphone de service](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers) . En revanche, une fois que vous lui avez affecté un plan d’appels, vous pouvez attribuer un numéro de téléphone à un utilisateur pour qu’il puisse passer et recevoir des appels téléphoniques. Pour rechercher ces numéros de téléphone, accédez à [l’affichage des numéros de téléphone pour vos utilisateurs](/microsoftteams/getting-phone-numbers-for-your-users). Vous pouvez également voir [affecter, modifier ou supprimer le numéro de téléphone d’un utilisateur](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user). 
+> La disponibilité des numéros de téléphone payants depuis certains de ces emplacements peut varier en fonction des niveaux d’inventaire. Outre l’obtention des numéros de téléphone d’utilisateurs individuels à partir d’Office 365, il est également possible de rechercher et d’acquérir des numéros de téléphone gratuits ou payants pour les services tels que les conférences audio (pour les ponts de conférence), les standards automatiques et les files d’attente d’appels. Il s’agit des numéros de service. Pour obtenir des numéros de téléphone, consultez la rubrique [obtention de numéros de téléphone de service](/microsoftteams/getting-service-phone-numbers) . En revanche, une fois que vous lui avez affecté un plan d’appels, vous pouvez attribuer un numéro de téléphone à un utilisateur pour qu’il puisse passer et recevoir des appels téléphoniques. Pour rechercher ces numéros de téléphone, accédez à [l’affichage des numéros de téléphone pour vos utilisateurs](/microsoftteams/getting-phone-numbers-for-your-users). Vous pouvez également voir [affecter, modifier ou supprimer le numéro de téléphone d’un utilisateur](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user). 
 
 [Tarifs pour le système téléphonique](https://products.office.com/skype-for-business/phone-system#Requirements)
 
@@ -186,7 +186,7 @@ Outre l’obtention des numéros de téléphone d’utilisateurs individuels à 
   
 La liste ci-après répertorie les majuscules et les principales villes où vous pouvez obtenir des numéros de service payants à utiliser avec les offres d’appels audio et de services d’audioconférence. Vous pouvez obtenir des numéros de service payants à partir de ces emplacements en utilisant le **Centre d’administration Skype entreprise**.
   
-Si vous souhaitez obtenir un numéro payant ou gratuit, vous pouvez consulter la section obtention des [numéros de téléphone de service](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers). Si vous avez déjà un numéro de service payant ou gratuit que vous voulez transférer à partir d’un autre fournisseur, voir [gérer les numéros de téléphone pour votre organisation](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+Si vous souhaitez obtenir un numéro payant ou gratuit, vous pouvez consulter la section obtention des [numéros de téléphone de service](/microsoftteams/getting-service-phone-numbers). Si vous avez déjà un numéro de service payant ou gratuit que vous voulez transférer à partir d’un autre fournisseur, voir [gérer les numéros de téléphone pour votre organisation](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
 Utilisez la liste déroulante en haut de la page pour rechercher un pays ou une région, ainsi que les services disponibles.
 
@@ -198,7 +198,7 @@ Si vous ne configurez pas de crédits de communication et attribuez une licence 
 
 
 ## <a name="related-topics"></a>Rubriques connexes
-[Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
+[Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 
   
  

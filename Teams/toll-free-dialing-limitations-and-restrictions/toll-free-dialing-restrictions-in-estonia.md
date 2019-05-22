@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Vous pourrez ainsi découvrir comment composer un numéro gratuit dans chaque pays ou région. Lorsque vous sélectionnez le pays ou la région, vous êtes dirigé vers une page qui contient des détails, restrictions et limites spécifiques pour la disponibilité du service gratuit où le service gratuit est disponible. Le ou les formats de numérotation vous montrent les codes d’accès requis au sein de chaque pays/région pour composer le numéro gratuit.
-ms.openlocfilehash: 33064b7528b8b379246c39c437e2f32461c4209e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0b808b7048e7911f10cb7162d793c2a94a652510
+ms.sourcegitcommit: 4b8350e5bb2ef138dcc0204d764bdf85bae539ba
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34300704"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "34335062"
 ---
 # <a name="toll-free-dialing-restrictions-in-estonia"></a>Restrictions de numérotation gratuit en Estonie
 
@@ -50,7 +50,6 @@ ms.locfileid: "34300704"
 
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
-
+[Obtenir des numéros de téléphone de service pour Skype entreprise et Microsoft teams](/microsoftteams/getting-service-phone-numbers) )
   
  

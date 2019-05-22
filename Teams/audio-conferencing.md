@@ -13,12 +13,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment
-ms.openlocfilehash: 860abd5c1e7e725d2f2bd8217edc0bb5ea92b734
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8356b9bcc504b885c4f2ce3f1f9b09905742aec5
+ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33925433"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "34332131"
 ---
 <a name="practical-guidance-for-audio-conferencing-in-microsoft-teams"></a>Guide pratique pour l’audioconférence dans Microsoft Teams
 ============================================================
@@ -29,7 +29,7 @@ L’audioconférence dans Office 365 permet aux participants de rejoindre vos r
 
 Voici les avantages de [l’audioconférence](https://go.microsoft.com/fwlink/?linkid=858992) dans Office 365.
 
-Ce guide pratique vous accédez via le client Office 365 FastTrack framework voyage et ses trois phases, prévoir, intégrée et valeur lecteur, pour vous aider à planifier, fournir et utiliser une implémentation de conférence Audio vers fructueuse résultats commerciaux.
+Ce guide pratique vous permet d’accéder à l’infrastructure de voyage client d’Office 365 FastTrack et aux trois phases, enVision, OnBoard et valeur de lecteur pour vous aider à planifier, livrer et utiliser une implémentation de l’audioconférence pour une entreprise réussie. objectifs.
 
 > [!TIP]
 > Dans ce guide pratique, nous fournissons des exemples de résultats pour chaque activité et theme principal. Les exemples fournis tout au long de ce document sont intégrés aux légendes des astuces et peuvent être utilisés comme modèles. « TBA » (à ajouter) est affiché en regard des informations que vous devez remplir dans le cadre de votre processus de planification.
@@ -235,7 +235,7 @@ Vous devez effectuer cette étape et inclure le plan opérationnel dans le plan 
 <br>
 Planification technique de l’audioconférence
 -----------------------------------------
-<a name="technical-planning-for-audio-conferencing"></a> Pour planifier l’implémentation technique de conférence Audio, une série de décisions doit être effectuée à l’avance pour mieux préparer votre organisation pour implémenter une solution qui répond aux besoins de l’entreprise. Ces décisions seront documentées dans un plan d’implémentation technique.
+<a name="technical-planning-for-audio-conferencing"></a> Pour planifier l’implémentation technique des conférences audio, il est nécessaire de prendre des décisions en temps utile pour préparer votre organisation à la mise en œuvre d’une solution qui répond aux besoins de l’entreprise. Ces décisions seront documentées dans un plan d’implémentation technique.
 
 ## <a name="availability-of-audio-conferencing"></a>Disponibilité de l’audioconférence
 
@@ -324,10 +324,10 @@ Le service d’audioconférence dans Office 365 inclut les éléments suivants�
 -   prise en charge de plusieurs langues pour le pont de téléconférence (principale et secondaire) ;
 -   numéro de téléphone par défaut du client.
 
-Pour une description complète des fonctionnalités incluses, voir [les numéros de téléphone pour les conférences Audio](phone-numbers-for-audio-conferencing-in-teams.md)et de [configurer la conférence Audio pour les équipes Microsoft](set-up-audio-conferencing-in-teams.md) .
+Pour obtenir une description complète des fonctionnalités incluses, consultez la rubrique [configurer l’audioconférence pour Microsoft teams](set-up-audio-conferencing-in-teams.md) et les [numéros de téléphone pour les conférences audio](phone-numbers-for-audio-conferencing-in-teams.md).
 
 > [!NOTE]
-> Les numéros de pont de téléconférence dédiés sont inclus dans le calcul de la limite du nombre de numéros de téléphone qui peuvent être achetés par client, en fonction du nombre de licences applicables comme il est décrit dans la rubrique [Obtenir des numéros de téléphone du service pour Skype Entreprise et Microsoft Teams](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers). Les numéros de pont de téléconférence gratuits requièrent des crédits de communication.
+> Les numéros de pont de téléconférence dédiés sont inclus dans le calcul de la limite du nombre de numéros de téléphone qui peuvent être achetés par client, en fonction du nombre de licences applicables comme il est décrit dans la rubrique [Obtenir des numéros de téléphone du service pour Skype Entreprise et Microsoft Teams](getting-service-phone-numbers.md). Les numéros de pont de téléconférence gratuits requièrent des crédits de communication.
 
 Si des numéros de pont de téléconférence existants doivent être transférés vers le service d’audioconférence, en partant du principe qu'ils répondent aux exigences spécifiques au pays, ils peuvent être transférés vers Microsoft.
 
@@ -376,7 +376,7 @@ Vous pouvez également configurer comment les utilisateurs non authentifiés son
 Des configurations supplémentaires pouvant être appliquées pour chaque utilisateur sont disponibles pour contrôler l’utilisation de numéros de pont de téléconférence gratuits et les appels depuis une conférence.
 
 > [!NOTE]
-> Ces contrôles liés au coût ne sont disponibles actuellement que pour les utilisateurs précoces. Vous pouvez inscrire votre organisation dans le programme Aperçu à partir de [https://www.skypepreview.com](https://go.microsoft.com/fwlink/?linkid=859013).
+> Ces contrôles liés au coût ne sont disponibles actuellement que pour les utilisateurs précoces. Vous pouvez inscrire votre organisation dans le programme preview de [https://www.skypepreview.com](https://go.microsoft.com/fwlink/?linkid=859013).
 
 Ces contrôles vous permettent de déterminer si les organisateurs de réunions peuvent fournir des numéros de pont de téléconférence gratuits pour les réunions qu’ils organisent, et de contrôler si les participants peuvent composer des numéros depuis les réunions qu'ils ont organisées. Les niveaux de contrôle sont les suivants : ne pas autoriser la composition de numéros, autoriser uniquement la composition de numéros nationaux, autoriser la composition de numéros nationaux et internationaux.
 
@@ -452,16 +452,16 @@ Il existe 25 règles de normalisation au maximum dans chaque plan de numérotat
 > 
 > |Nom du plan de numérotation de client<br>_Description_  |Nom des règles de normalisation<br>_Description_  |Modèle<br>Conversion<br>IsInternalExtension  |
 > |---------|---------|---------|
-> |**AU-NSW-NorthRyde-OER**<br>_1 Epping Road North Ryde, NSW, plan de numérotation AU_|**AU-NSW-NorthRyde-OER-Internal**<br>_Numéro interne (x7000 - x7999) du 1 Epping Road office, North Ryde, NSW, Australie_|^(7\d{3})$<br>+6125550$1<br>True|
+> |**AU-NSW-NorthRyde-OER**<br>_1 Epping Road North Ryde, NSW, plan de numérotation AU_|**AU-NSW-NorthRyde-OER-Internal**<br>_Numéro interne (x7000 - x7999) du 1 Epping Road office, North Ryde, NSW, Australie_|^ (7-d{3}) $<br>+6125550$1<br>True|
 > ||**AU-NSW-Local**<br>_Normalisation du numéro local pour NSW, Australie_|^ ([2-9] \d{7}) $<br>+612$1<br>False|
-> ||**AU-TollFree**<br>_Normalisation du numéro gratuit pour l’Australie_|^ (1 [38] \d{4,8}) \d*$<br>+61$1<br>False|
+> ||**AU-TollFree**<br>_Normalisation du numéro gratuit pour l’Australie_|^ (1 [38] \d{4,8}) \d * $<br>+61$1<br>False|
 > ||**AU-Service**<br>_Normalisation du numéro de service pour l’Australie_|^ (000\|1 [0125] \d{1,8}) $<br>$1<br>False|
-> |**SG-Singapore-OMB**<br>_OMB Singapour, plan de numérotation SG_|**SG-OMB-Internal**<br>_Numéro interne (x8000 – x8999) du bureau OMB, Singapour_|^(8\d{3})$<br>+656888$1<br>True|
-> ||**SG-TollFree**<br>_Normalisation du numéro gratuit pour Singapour_|^(1?800\d{7}) \d*$<br>+65$1<br>False|
-> ||**SG-Service**<br>_Normalisation du numéro de service pour Singapour_|^ (1\d{3,4}\|9\d{2}) $<br>$1<br>False|
-> |**FR-Paris-Issy-39qdPR**<br>_39 quai du Président Roosevelt Issy-les-Moulineaux, plan de numérotation France_|**FR-39qdPR-Internal**<br>_Numéro interne (x7000 – x7999) du bureau 39 quai du Président Roosevelt, Issy-les-Moulineaux, France_|^(7\d{3})$<br>+3319999$1<br>True|
-> ||**FR-TollFree**<br>_Normalisation du numéro gratuit pour la France_|^ 0?(80\d{7}) \d*$<br>+33$1<br>False|
-> ||**FR-Service**<br>_Normalisation du numéro de service pour la France_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>$1<br>False|
+> |**SG-Singapore-OMB**<br>_OMB Singapour, plan de numérotation SG_|**SG-OMB-Internal**<br>_Numéro interne (x8000 – x8999) du bureau OMB, Singapour_|^ (8{3}<br>+656888$1<br>True|
+> ||**SG-TollFree**<br>_Normalisation du numéro gratuit pour Singapour_|^ (1?800 \ d{7}) \d * $<br>+65$1<br>False|
+> ||**SG-Service**<br>_Normalisation du numéro de service pour Singapour_|^ (1 \ d{3,4}\|9 \ d{2}) $<br>$1<br>False|
+> |**FR-Paris-Issy-39qdPR**<br>_39 quai du Président Roosevelt Issy-les-Moulineaux, plan de numérotation France_|**FR-39qdPR-Internal**<br>_Numéro interne (x7000 – x7999) du bureau 39 quai du Président Roosevelt, Issy-les-Moulineaux, France_|^ (7-d{3}) $<br>+3319999$1<br>True|
+> ||**FR-TollFree**<br>_Normalisation du numéro gratuit pour la France_|^ 0? (80 \ d{7}) \d * $<br>+33$1<br>False|
+> ||**FR-Service**<br>_Normalisation du numéro de service pour la France_|^ (1-d{1,2}\|11 [68] \d{3}\|10 \ d{2}\|3 \ d{3}) $<br>$1<br>False|
 
 <br>
 

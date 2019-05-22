@@ -13,61 +13,62 @@ MS.collection:
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: Obtenir des informations sur la configuration matérielle requise pour installer et exécuter Microsoft Teams.
+description: En savoir plus sur la configuration matérielle requise pour l’installation et l’exécution de Microsoft Teams.
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 66a5b4a5ef64f83f61d106a6cd2052516cda95a7
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 123dd884f2cbb2e2085c76df9739fa41349a8f1a
+ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32235014"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "34330419"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Configuration matérielle requise pour l’application Microsoft Teams
 
-## <a name="hardware-requirements-for-the-teams-desktop-app-on-a-windows-pc"></a>Configuration matérielle requise pour l’application de bureau équipes sur un ordinateur Windows
+## <a name="hardware-requirements-for-the-teams-desktop-app-on-a-windows-pc"></a>Configuration matérielle requise pour l’application de bureau teams sur un PC Windows
 
 |**Composant**|**Condition requise**  |
 |---------|---------|
-|Ordinateur et processeur    | 1,6 GHz minimum (ou plus) (32 bits ou 64 bits).        |
-|Mémoire     |    2.0 GO DE RAM     |
-|Disque dur    | 3.0 Go d’espace disque disponible        |
+|Ordinateur et processeur    | Minimum 1,6 GHz (ou plus) (32 bits ou 64 bits).        |
+|Mémoire     |    2,0 GO DE MÉMOIRE VIVE (RAM)     |
+|Disque dur    | 3,0 Go d’espace disque disponible        |
 |Display    |   résolution d’écran 1024 x 768 |
-|Matériel graphique |  Minimum de 128 Mo de mémoire graphique
-|Système d’exploitation  |    10 Windows, Windows 8.1, Windows 8 ou Windows 7 Service Pack 1 en 32 bits et 64 bits. Pour optimiser les performances, utilisez la dernière version de n’importe quel système d’exploitation.|
-|Version .NET    |  Requiert le CLR de .NET 4.5 ou version ultérieure       |
-|Vidéo    |  Caméra vidéo USB 2.0       |
-|Appareils    |   Caméra portable standard, le microphone et haut-parleurs    | 
-|Réunions et les appels vidéo | Pour améliorer l’expérience avec les appels vidéo et des réunions en ligne, nous recommandons d’utiliser un ordinateur dont le processeur 2,0 GHz et 4.0 Go de RAM (minimum). L’option blur mon arrière-plan effet vidéo nécessite un processeur avec prise en charge avancée Vector Extensions 2 (AVX2).
+|Matériel vidéo |  Minimum de 128 Mo de mémoire graphique
+|Système d’exploitation  |    Windows 10, Windows 8,1, Windows 8 ou Windows 7 Service Pack 1 en 32 bits et 64 bits. Pour une utilisation optimale, utilisez la version la plus récente de tout système d’exploitation.|
+|Version .NET    |  Nécessite .NET 4,5 CLR ou version ultérieure       |
+|Vidéo    |  Caméra vidéo USB 2,0       |
+|Appareils    |   Caméra, micro et haut-parleurs pour ordinateur portable standard    | 
+|Appels et réunions vidéo | Pour une meilleure expérience des appels vidéo et des réunions en ligne, nous vous recommandons d’utiliser un ordinateur équipé d’un processeur cadencé à 2,0 GHz et d’une RAM 4,0 Go (ou une version ultérieure). L’effet de **brouillage facultatif mon arrière-plan** exige un processeur doté d’une prise en charge de la fonction AVX2 (Advanced Vector Extensions 2). |
+|Événements en direct teams | Si vous générez des événements en direct Teams, nous vous recommandons d’utiliser un ordinateur équipé d’un processeur i5 Kaby Lake Core, d’une RAM de 4,0 Go (ou d’une version ultérieure) et d’un codeur matériel.  |
 
-## <a name="hardware-requirements-for-the-teams-desktop-app-on-a-mac"></a>Configuration matérielle requise pour l’application de bureau équipes sur un Mac
+## <a name="hardware-requirements-for-the-teams-desktop-app-on-a-mac"></a>Configuration matérielle requise pour l’application de bureau teams sur un Mac
 
 |**Composant**|**Condition requise**  |
 |---------|---------|
-|Processeur    | Processeur Intel, Core 2 Duo ou supérieur |
-|Mémoire     |   2.0 GO DE RAM      |
+|Processeur    | Processeur Intel minimum, cœur 2 Duo ou version ultérieure |
+|Mémoire     |   2,0 GO DE MÉMOIRE VIVE (RAM)      |
 |Disque dur    |   1,5 Go d’espace disque disponible      |
-|Display    | 1 280 x 800 ou résolution supérieure    |
-|Système d’exploitation  |    Mac OS X 10.11 El Capitan ou version ultérieure     |
+|Display    | 1280 x 800 ou résolution supérieure    |
+|Système d’exploitation  |    Mac OS X 10,11 El Capitan ou version ultérieure     |
 |Vidéo  |    Webcam compatible     |
-|Audio    |  Compatible avec microphone et haut-parleurs, casque avec microphone ou périphérique équivalent       |
-|Réunions et les appels vidéo | Pour améliorer l’expérience avec les appels vidéo et des réunions en ligne, nous recommandons d’utiliser un ordinateur dont le processeur 2,0 GHz et 4.0 Go de RAM (minimum). L’option flou mon arrière-plan effet vidéo nécessite un processeur avec prise en charge avancée Vector Extensions 2 (AVX2), pris en charge sur la plupart des périphériques Mac au plus tard 2013 et versions ultérieures.
+|Audio    |  Micro et haut-parleurs compatibles, casque avec micro ou appareil équivalent       |
+|Appels et réunions vidéo | Pour une meilleure expérience des appels vidéo et des réunions en ligne, nous vous recommandons d’utiliser un ordinateur équipé d’un processeur cadencé à 2,0 GHz et d’une RAM 4,0 Go (ou une version ultérieure). L’effet de brouillage facultatif mon arrière-plan nécessite un processeur doté d’une prise en 2013 charge de la version 2 de AVX2
 
-## <a name="hardware-requirements-for-the-teams-app-on-mobile-devices"></a>Configuration matérielle requise pour l’application des équipes sur les appareils mobiles
+## <a name="hardware-requirements-for-the-teams-app-on-mobile-devices"></a>Configuration matérielle requise pour l’application teams sur les appareils mobiles
 
-Vous pouvez utiliser Microsoft Teams sur ces plateformes mobiles :
+Vous pouvez utiliser Microsoft teams sur les plateformes mobiles suivantes:
 
-- Android - nécessite Android 4.4 ou version ultérieure
+- Android-nécessite Android 4,4 ou version ultérieure
 
-- iOS - nécessite iOS 10.0 ou version ultérieure. Compatible avec les iPhone, iPad et iPod touch.
+- iOS: nécessite iOS 10,0 ou une version ultérieure. Compatible avec les iPhone, iPad et iPod effleure.
 
-## <a name="hardware-requirements-for-the-teams-app-in-a-virtual-desktop-infrastructure-vdi-environment"></a>Configuration matérielle requise pour l’application d’équipes dans un environnement d’Infrastructure VDI (Virtual Desktop)
+## <a name="hardware-requirements-for-the-teams-app-in-a-virtual-desktop-infrastructure-vdi-environment"></a>Configuration matérielle requise pour l’application teams dans un environnement VDI (Virtual Desktop Infrastructure)
 
-Voir [équipes pour virtualisé Desktop Infrastructure](teams-for-vdi.md) pour la configuration requise pour l’exécution d’équipes dans un environnement virtualisé. 
+Pour plus d’attentes concernant l’exécution d’équipes dans un environnement virtualisé, voir [teams pour l’infrastructure de bureau virtualisé](teams-for-vdi.md) . 
 
 ### <a name="related-topics"></a>Voir aussi
-- [Obtenir des applications d’équipes](get-clients.md)
-- [Microsoft Teams sur des appareils mobiles](https://support.office.com/article/Microsoft-Teams-on-mobile-devices-2ACBCF73-8FD4-4929-9B31-AE403B88C2D3)
-- [Installer l’application Microsoft Teams à l’aide d’un fichier MSI](msi-deployment.md)
+- [Obtenir des applications teams](get-clients.md)
+- [Microsoft teams sur les appareils mobiles](https://support.office.com/article/Microsoft-Teams-on-mobile-devices-2ACBCF73-8FD4-4929-9B31-AE403B88C2D3)
+- [Installation de l’application Microsoft teams à l’aide d’un fichier MSI](msi-deployment.md)
