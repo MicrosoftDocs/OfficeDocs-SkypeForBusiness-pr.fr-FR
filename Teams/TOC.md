@@ -7,7 +7,8 @@
 
 <!-- ============================================================ -->
 
-# [Prise en main](get-started-with-teams-quick-start.md)
+# Prise en main
+## [Vue d’ensemble](get-started-with-teams-quick-start.md)
 ## [Étape 1 : Créer vos premiers canaux et premières équipes](get-started-with-teams-create-your-first-teams-and-channels.md)
 ## [Étape 2 : Intégrer les premiers utilisateurs](get-started-with-teams-onboard-early-adopters.md)
 ## [Étape 3 : Surveiller l’utilisation et les commentaires](get-started-with-teams-monitor-usage-and-feedback.md)
@@ -15,8 +16,8 @@
 
 <!-- ============================================================ -->
 
-
-# [Conversations, équipes, canaux et applications](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
+# Conversations, équipes, canaux et applications
+## [Planifier votre déploiement](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
 ## [Vue d’ensemble des équipes et des canaux](teams-channels-overview.md)
 ## [Affecter des propriétaires d’équipe et des membres dans Microsoft Teams](assign-roles-permissions.md)
 ## [Meilleurs pratiques d’organisation d’équipe dans Teams](best-practices-organizing.md)
@@ -30,8 +31,9 @@
 
 
 
+## Applications, robots et connecteurs
 
-## [Applications, robots et connecteurs](deploy-apps-microsoft-teams-landing-page.md)
+### [Vue d’ensemble](deploy-apps-microsoft-teams-landing-page.md)
 ### [Autorisations d’applications et points à prendre en compte](app-permissions.md)
 ### [Paramètres d'administration pour les applications dans Microsoft Teams](admin-settings.md)
 ### [Gérer les stratégies d’autorisation d’application dans Teams](teams-app-permission-policies.md)
@@ -42,11 +44,11 @@
 ### [Utiliser les connecteurs Office 365 et personnalisés](Office-365-custom-connectors.md)
 ### [Publier des applications dans le catalogue d’applications de locataire Teams](tenant-apps-catalog-teams.md)
 ### [Certification des applications](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Configurer l’application Réunions Skype pour qu’elle fonctionne avec Teams](configure-skype-meetings-app-to-work-with-teams.md)
+### [Configurer l’Application Réunions Skype pour fonctionner avec Teams](configure-skype-meetings-app-to-work-with-teams.md)
 
 
-
-## [Accès invité](guest-access.md)
+## Accès invité
+### [Vue d’ensemble](guest-access.md)
 ### [Comment un invité rejoint une équipe](guest-joins.md)
 ### [À quoi ressemble l'expérience des invités](guest-experience.md)
 ### [Autoriser l’accès invité dans Teams](teams-dependencies.md)
@@ -60,7 +62,8 @@
 
 ## [Accès externe (fédération)](manage-external-access.md)
 
-## [Gérer Teams](using-admin-roles.md)
+## Gérer Teams
+### [Rôles d’administrateur](using-admin-roles.md)
 ### [Gérer les paramètres de Microsoft Teams pour votre organisation](enable-features-office-365.md)
 ### [Gérer Teams lors de la transition vers le nouveau Centre d’administration de Microsoft Teams](manage-teams-skypeforbusiness-admin-center.md)
 ### [Gérer Teams dans le centre d’administration Microsoft Teams](manage-teams-in-modern-portal.md)
@@ -71,7 +74,9 @@
 ### [Communiquer avec des utilisateurs de Teams dans d’autres organisations](let-your-teams-users-communicate-with-other-people.md)
 ### [Utiliser la traduction des messages en ligne](inline-message-translation-teams.md)
 ### [Utiliser la recherche d’annuaire étendue Microsoft Teams](teams-scoped-directory-search.md)
-### [Analyse et rapports Teams dans le centre d’administration de Microsoft Teams](teams-analytics-and-reports/teams-reporting-reference.md)
+
+### Analyse et rapports Teams dans le centre d’administration de Microsoft Teams
+#### [Vue d’ensemble](teams-analytics-and-reports/teams-reporting-reference.md)
 #### [Rapport d’utilisation Teams](teams-analytics-and-reports/teams-usage-report.md)
 #### [Rapport d’activité d’utilisateur Teams](teams-analytics-and-reports/user-activity-report.md) 
 #### [Rapport d’utilisation Teams sur des périphériques](teams-analytics-and-reports/device-usage-report.md)
@@ -82,8 +87,8 @@
 
 <!-- ============================================================ -->
 
-
-# [Réunions et conférences](deploy-meetings-microsoft-teams-landing-page.md)
+# Réunions et conférence
+## [Planifier votre déploiement](deploy-meetings-microsoft-teams-landing-page.md)
 ## [Didacticiel : Réunions dans Teams](Tutorial-Meetings-in-Teams.yml)
 ## [Gérer les stratégies de réunion](meeting-policies-in-teams.md)
 ## [Gérer les paramètres de réunions](meeting-settings-in-teams.md)
@@ -98,7 +103,8 @@
 ## [Salles Microsoft Teams](room-systems/index.md)
 
 
-## [Audioconférence](deploy-audio-conferencing-teams-landing-page.md)
+## Audioconférence
+### [Planifier votre déploiement](deploy-audio-conferencing-teams-landing-page.md)
 
 ### [Audioconférence dans Office 365](audio-conferencing-in-office-365.md)
 ### [Questions fréquentes à propos de l’audioconférence](audio-conferencing-common-questions.md)
@@ -117,11 +123,14 @@
 #### [Afficher la liste des numéros d’audioconférence](see-a-list-of-audio-conferencing-numbers-in-teams.md)
 #### [Définir les langues du standard automatique d’audioconférence](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)
 
+
 ### [Gérer les paramètres d’audioconférence pour votre organisation](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
-#### [Audioconférence en paiement à la minute](audio-conferencing-pay-per-minute.md)
 
+### [Audioconférence en paiement à la minute](audio-conferencing-pay-per-minute.md)
 
-### [Gérer les paramètres d’audioconférence des utilisateurs](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
+### Gérer les paramètres d’audioconférence des utilisateurs
+
+#### [Vue d’ensemble](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
 
 #### [Afficher la liste des utilisateurs pour lesquels l’audioconférence est activée](see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams.md)
 
@@ -131,7 +140,7 @@
 #### [Courriers électroniques envoyés automatiquement aux utilisateurs en cas de modification de leurs paramètres](emails-sent-to-users-when-their-settings-change-in-teams.md)
 #### [Activer ou désactiver l'envoi de messages électroniques en cas de modification des paramètres d’audioconférence](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)
 #### [Désactiver les numéros gratuits pour des utilisateurs spécifiques](disabling-toll-free-numbers-for-specific-teams-users.md)
-#### [Stratégies de restriction des appels sortants pour l’audioconférence et les appels PSTN des utilisateurs](/SkypeForBusiness/audio-conferencing-in-office-365/outbound-calling-restriction-policies?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Stratégies de restriction des appels sortants pour l’audioconférence et les appels PSTN des utilisateurs](outbound-calling-restriction-policies.md)
 #### [Afficher et réinitialiser l’ID de conférence attribué à un utilisateur](see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams.md)
 #### [Envoyer à un utilisateur un courrier électronique qui contient ses informations d’audioconférence](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)
 
@@ -149,7 +158,9 @@
 #### [Langues prises en charge pour l’audioconférence](audio-conferencing-supported-languages.md)
 
 #### [Numéros de téléphone pour l’audioconférence](phone-numbers-for-audio-conferencing-in-teams.md)
-#### [Disponibilité des forfaits d’appels et de l’audioconférence selon les régions et les pays](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+
+#### Disponibilité des forfaits d'appels et de l’audioconférence selon les régions et les pays
+##### [Vue d’ensemble](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 ##### [Argentine](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-argentina.md)
 ##### [Australie](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia.md)
 ##### [Autriche](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-austria.md)
@@ -262,8 +273,8 @@
 <!-- ============================================================ -->
 
 
-
-# [Voix Cloud](cloud-voice-landing-page.md)
+# Voix Cloud 
+## [Planifier votre déploiement](cloud-voice-landing-page.md)
 ## Système téléphonique
 ### [Qu’est-ce que le système téléphonique ?](what-is-phone-system-in-office-365.md)
 ### [Voici les avantages du système téléphonique](here-s-what-you-get-with-phone-system.md)
@@ -274,12 +285,13 @@
 #### [Modifier la langue par défaut de la messagerie vocale](change-the-default-language-for-greetings-and-emails.md)
 #### [Langues pour la messagerie vocale accueil et des messages](languages-for-voicemail-greetings-and-messages.md)
 ### ID de l’appelant
-#### [Utilisation d’un ID d’appelant dans votre organisation](/SkypeForBusiness/what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-#### [Définir l’ID d’appelant pour un utilisateur](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Utilisation d’un ID d’appelant dans votre organisation](how-can-caller-id-be-used-in-your-organization.md)
+#### [Définir l’ID d’appelant pour un utilisateur](set-the-caller-id-for-a-user.md)
+#### [Plus d’informations sur le nom de l’appelant et l’ID de ligne d’appel](more-about-calling-line-id-and-calling-party-name.md)
 ### Standards automatiques et files d’attente d’appels 
 #### [Les standards cloud automatiques, qu’est-ce que c’est ?](what-are-phone-system-auto-attendants.md)
 #### [Configurer un standard automatique dans le cloud](create-a-phone-system-auto-attendant.md)
-#### [Exemple de petite entreprise : configurer un standard automatique](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Exemple de petite entreprise : configurer un standard automatique](tutorial-org-aa.yml)
 #### [Exemple de petite entreprise : configurer une file d'attente des appels](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Gérer les comptes de ressources dans Microsoft Teams](manage-resource-accounts.md)
 #### [Créer une file d’attente d’appels cloud](create-a-phone-system-call-queue.md)
@@ -289,12 +301,15 @@
 ### [Stratégie d’Appel](teams-calling-policy.md)
 ### [Mode partage de lignes](shared-line-appearance.md)
 
-## [Forfaits d’appel](calling-plan-landing-page.md)
-### [Forfaits d’appel dans Office 365](calling-plans-for-office-365.md)
+
+## Forfaits d’appel
+### [Quelle forfait d’appels vous convient le mieux ?](calling-plan-landing-page.md)
+### [Comment acheter un forfait d’appels](calling-plans-for-office-365.md)
 ### [Configurer les forfaits d’appel pour votre organisation](set-up-calling-plans.md)
 ### [Guide de démarrage rapide : configuration des forfaites d’appel](configuring-teams-calling-quickstartguide.md)
 
-## [Routage direct via le système téléphonique](direct-routing-landing-page.md)
+## Routage direct via le système téléphonique
+### [Vue d’ensemble](direct-routing-landing-page.md)
 ### [Planifier le routage direct](direct-routing-plan.md)
 ### [Configurer le routage direct](direct-routing-configure.md)
 ### [Migrer vers un routage direct](direct-routing-migrating.md)
@@ -319,12 +334,10 @@
 ## Numéros de téléphone
 ### [Gérer les numéros de téléphone pour votre organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 ### [Types de numéros de téléphone utilisés pour les forfaits d’appel](different-kinds-of-phone-numbers-used-for-calling-plans.md)
-### [Obtention de numéros de téléphone pour vos utilisateurs](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Obtention de numéros de téléphone pour vos utilisateurs](getting-phone-numbers-for-your-users.md)
 ### [Combien de numéros de téléphone vous pouvez obtenir ?](how-many-phone-numbers-can-you-get.md)
-### [Rechercher des numéros de téléphone pour les utilisateurs](/SkypeForBusiness/what-are-calling-plans-in-office-365/search-for-phone-numbers-for-users?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Afficher la liste des numéros de téléphone de votre organisation](/SkypeForBusiness/what-are-calling-plans-in-office-365/see-a-list-of-phone-numbers-in-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Affectation, modification ou suppression du numéro de téléphone d’un utilisateur](/SkypeForBusiness/what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Obtention de numéros de téléphone de service](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Affectation, modification ou suppression du numéro de téléphone d’un utilisateur](assign-change-or-remove-a-phone-number-for-a-user.md)
+### [Obtention de numéros de téléphone de service](getting-service-phone-numbers.md)
 ### [Transférer les numéros de téléphone vers Office 365](transfer-phone-numbers-to-office-365.md)
 ### [Questions fréquentes à propos du transfert de numéros](transferring-phone-numbers-common-questions.md)
 
@@ -341,7 +354,9 @@
 
 
 ## Référence
-### [Disponibilité des forfaits d’appels par pays et par région](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+### Disponibilité des forfaits d’appels par pays et par région
+
+#### [Vue d’ensemble](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 #### [Argentine](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-argentina.md)
 #### [Australie](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia.md)
 #### [Autriche](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-austria.md)
@@ -441,7 +456,8 @@
 #### [Gestion des numéros de téléphone pour les États-Unis](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md)
 
 
-### [Limitations et restrictions concernant la composition de numéros verts](toll-free-dialing-limitations-and-restrictions.md)
+### Limitations et restrictions concernant l’appel de numéros verts
+#### [Vue d’ensemble](toll-free-dialing-limitations-and-restrictions.md)
 #### [Argentine](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md)
 #### [Australie](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-australia.md)
 #### [Bélarus](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belarus.md)
@@ -532,20 +548,27 @@
 
 
 <!-- ============================================================ -->
-# [Adopter](adopt-microsoft-teams-landing-page.md) 
+# Adopter
 
+## [Vue d’ensemble](adopt-microsoft-teams-landing-page.md) 
 ## [Prise en main](teams-adoption-get-started.md)
-## [Étape 1 : démarrage](teams-adoption-phase1.md)
+
+## Étape 1 : démarrage
+### [Démarrage](teams-adoption-phase1.md)
 ### [Présentation des équipes et des canaux](teams-adoption-understand-teams-and-channels.md)
 ### [Créer votre première équipe](teams-adoption-your-first-teams.md)
 ### [Votre organisation est-elle prête à utiliser Teams ?](teams-adoption-assess-readiness.md)
-## [Étape 2 : expérimentation](teams-adoption-phase2-experiment.md)
+
+## Étape 2 : expérimentation
+### [Expérimentation](teams-adoption-phase2-experiment.md)
 ### [Créer votre programme de champions](teams-adoption-create-champions-program.md)
 ### [Démarrage rapide de la gouvernance](teams-adoption-governance-quick-start.md)
 ### [Définir des scénarios d’utilisation](teams-adoption-define-usage-scenarios.md)
 ### [Intégration des utilisateurs précoces et collecte de commentaires](teams-adoption-onboard-early-adopters.md)
 ### [Prise en charge de l’intégration](teams-adoption-onboard-support.md)
-## [Étape 3 : échelle](teams-adoption-phase3-enable.md)
+
+## Étape 3 : mise à l’échelle
+### [´Mise à l’échelle](teams-adoption-phase3-enable.md)
 ### [Définir des résultats optimaux et la réussite](teams-adoption-define-outcomes.md)
 ### [Optimiser les commentaires et la création de rapports](teams-adoption-optimize-feedback-and-reporting.md)
 ### [Faire connaître et implémenter une formation](teams-adoption-drive-awareness.md)
@@ -616,6 +639,7 @@
 ### [Devoirs dans Teams pour l’éducation](expand-teams-across-your-org/assignments-in-teams.md)
 ### [Administrateurs de ressources Teams pour l’éducation](resources-teams-edu.md)
 ### [FAQ sur la gouvernance de Microsoft Éducation pour les administrateurs](plan-teams-governance-edu.md)
+### [Installer l’intégration de Moodle](install-moodle-integration.md)
 
 ## [Teams pour les organismes de vente au détail](expand-teams-across-your-org/teams-for-retail-landing-page.md)
 ### [Démarrage avec les modèles Teams pour la vente au détail](get-started-with-retail-teams-templates.md)
@@ -701,8 +725,8 @@
 ### [Solutions et appareils de salle de réunion](/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Téléphones pour Skype Entreprise Online](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
-
-## [Sécurité et conformité](security-compliance-overview.md)
+## Sécurité et conformité
+### [Vue d’ensemble](security-compliance-overview.md)
 ### [Protection des informations dans Teams](information-barriers-in-teams.md)
 ### [Mener une recherche eDiscovery de contenu dans Microsoft Teams](ediscovery-investigation.md)
 ### [Modèles d'identité et authentification dans Teams](identify-models-authentication.md)
@@ -710,7 +734,9 @@
 ### [Placer un utilisateur ou une équipe Microsoft Teams en conservation légale](legal-hold.md)
 ### [Rechercher des événements Microsoft Teams dans le journal d'audit](audit-log-events.md)
 ### [Utilisation de la recherche de contenu dans Microsoft Teams](content-search.md)
-### [Stratégies de conservation dans Teams](retention-policies.md)
+### [Stratégies de contrôle d’application AppLocker dans Teams](applocker-in-teams.md)
+### Stratégies de conservation dans Teams
+#### [Vue d’ensemble](retention-policies.md)
 #### [Questions fréquentes sur les stratégies de conservation](retention-policies-FAQ.md)
 #### [Problèmes connus avec les stratégies de conservation](retention-policies-known-issues.md)
 ### [Emplacement des données dans Teams](location-of-data-in-teams.md)
@@ -741,8 +767,10 @@
 #### [Dimensions et mesures disponibles dans le tableau de bord de qualité des appels](dimensions-and-measures-available-in-call-quality-dashboard.md)
 #### [Classification de flux de données dans le tableau de bord de qualité des appels](stream-classification-in-call-quality-dashboard.md)
 
-## [Aperçu de Teams PowerShell](teams-powershell-overview.md)
-### [Référence de cmdlet PowerShell pour Teams](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
+## PowerShell Teams
+### [Vue d’ensemble](teams-powershell-overview.md)
+### [Référence cmdlet pour Teams](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
 
 ## [Documentation pour les développeurs pour Teams](https://docs.microsoft.com/microsoftteams/platform)
-## [Obtenir de l’aide dans Microsoft Teams](get-help-in-microsoft-teams.md)
+## [Obtenir de l’aide dans Teams](get-help-in-microsoft-teams.md)
+## [Mises à jour de contenu Teams](teams-updates.md)
