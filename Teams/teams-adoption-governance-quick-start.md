@@ -10,58 +10,58 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Prendre des décisions clées pour la phase 2 de votre plan d’adoption
+description: Prendre des décisions clés pour la phase 2 de votre plan d’adoption
 ms.custom: Adopt
 MS.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ecf91ea9a06b3984b65954617fe5690658015e52
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 31cfe0d42c7ce3382d8c7903bb7789cde19d35db
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33896331"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34433039"
 ---
 # <a name="governance-quick-start-for-microsoft-teams"></a>Démarrage rapide pour la gouvernance de Microsoft Teams
 
-Les activités suivantes se produira simultanément, et elle peut porter sur tout ou partie de votre équipe. Meilleure pratique, différer la gouvernance à grande échelle et les conversations de sécurité pour une fois que vous avez terminé votre expérimentation initiale avec des équipes. Afin de simplifier les décisions que vous devrez apporter à cette date ultérieure. Pour cette phase, il existe certaines décisions qui doivent être effectuées. Pour qu’ils soient correctement vous devez d’abord répondre aux questions suivantes :
+Les activités suivantes interviendront en même temps, et elles peuvent impliquer l’ensemble ou une partie de votre équipe clé. Nous vous conseillons de différer les conversations de gouvernance et de sécurité à grande échelle pour une fois que vous avez terminé la première expérimentation de teams. Cela permet de simplifier les décisions que vous devrez apporter à ce jour plus tard. Pour cette phase, vous devez prendre des décisions. Pour ce faire, vous devez d’abord répondre aux questions suivantes:
 
-- Les parties prenantes à partir de votre évaluation antérieure sont susceptible de participer à cette intégration métier limitée ?
-- Cette personne (ou un groupe de personnes) a suggéré cas d’utilisation qui seraient adaptées pour cette phase ?  
-- Ils ont suffisamment intérêt des employés dans leur organisation premiers et vous donner des commentaires significative et régulière ? 
+- Quelle partie prenante de votre évaluation antérieure est susceptible de participer à cette intégration d’entreprise limitée?
+- Ce (ou groupe d’utilisateurs) a-t-il suggéré des cas d’utilisation pour cette phase?  
+- Les employés de leur organisation doivent-ils être suffisamment intéressants pour être prévenus et vous fournir des commentaires utiles et périodiques? 
 
-## <a name="decision-point-iconmediateams-adoption-decision-iconpngdecisions"></a>![Icône Point de décision.](media/teams-adoption-decision-icon.png)Décisions
+## <a name="an-icon-representing-a-decision-pointmediateams-adoption-decision-iconpngdecisions"></a>![Icône représentant un point de décision](media/teams-adoption-decision-icon.png)Relatives
 
-Prendre les décisions suivantes (à ce stade, ces décisions s’appliquent uniquement à la Phase 2) :
+Prendre les décisions suivantes (à ce stade, ces décisions s’appliquent uniquement à la phase 2):
 
-### <a name="decision-1-who-can-create-teams"></a>Décision 1 : Qui peut créer des équipes 
+### <a name="decision-1-who-can-create-teams"></a>Décision 1: qui peut créer des équipes 
 
-Pour les besoins de cette phase, vous pouvez restreindre qui est en mesure de créer des équipes de la population premiers au plus tôt en plus de votre équipe de projet principale. Cela permettra vos premiers créer des équipes supplémentaires si nécessaire. Surveillance ce comportement vous donne des informations clées pour votre déploiement à grande échelle.
+Dans le cadre de cette étape, vous pouvez limiter les personnes qui sont en mesure de créer des équipes à la population des premiers utilisateurs, en plus de votre équipe de projet principale. Cela permet à vos décideurs de créer des équipes supplémentaires le cas échéant. Le contrôle de ce comportement vous donne des informations clés pour votre déploiement global.
 
-### <a name="decision-2-teams-naming-conventions"></a>Décision 2 : Conventions de dénomination des équipes 
+### <a name="decision-2-teams-naming-conventions"></a>Décision 2: conventions d’affectation de noms aux équipes 
 
-Vous voudrez probablement à implémenter certaines conventions d’affectation de noms pour votre déploiement à grande échelle des équipes et vérifier les noms en double. Phase 2, nous vous suggérons que vous implémentez une convention d’affectation de noms manuelle pour vos projets initiales uniquement. Pour cela, la meilleure solution consiste à réaliser une intégration interactive avec l’équipe de projet premiers au plus tôt et les autoriser à sélectionner leur propre nom. Vous donne un aperçu comment employés pensez à leur travail et seront essentiels lors de la création d’une plus grande échelle convention de dénomination à une date ultérieure. (Des informations supplémentaires sur les éléments d’un embarquement interactif apparaîtra plus loin dans ce guide).
+Vous aurez probablement besoin d’implémenter quelques conventions d’affectation de noms pour votre déploiement global d’équipes, et de vérifier les doublons. Dans la phase 2, nous vous suggérons d’implémenter une convention d’affectation de noms manuelle pour vos projets initiaux uniquement. Pour cela, nous vous conseillons de passer une intégration interactive à l’équipe initiale du projet et de leur permettre de sélectionner leur nom. Cela vous permettra de vous familiariser avec la façon dont les employés pensent à leur emploi et sera essentiel dans la création d’une convention d’affectation de noms plus grande. (Des informations supplémentaires sur les éléments d’un intégration interactive apparaissent plus loin dans ce guide.)
 
-### <a name="decision-3-guest-access"></a>Décision 3 : L’accès invité
+### <a name="decision-3-guest-access"></a>Décision 3: accès invité
 
-Selon l’étendue et le type de votre projet et la nature de votre secteur, la collaboration sécurisée avec des partenaires ou fournisseurs peut être essentielle à tester. Vous pouvez limiter qui peut ajouter des invités à votre implémentation d’équipes en utilisant les contrôles de client appropriée. 
+En fonction de l’étendue et du type de votre projet et de la nature de votre secteur, il est possible que vous deviez tester la collaboration avec des partenaires ou des fournisseurs. Vous pouvez limiter les personnes qui peuvent ajouter des invités à votre implémentation d’équipes en utilisant les contrôles client appropriés. 
 
-### <a name="decision-4-approved-apps"></a>Décision 4 : Approuvée d’applications
+### <a name="decision-4-approved-apps"></a>Décision 4: applications approuvées
 
-Cas optimale des équipes inclut l’intégration d’autres applications dans l’expérience. Au minimum, votre équipe technique doit activer la première partie et complets des applications dans votre expérience des équipes. Selon votre cas d’utilisation et d’autres applications utilisées dans votre organisation, vous pouvez choisir d’inclure des applications supplémentaires dans le cadre de votre expérience contrôlé. 
+La meilleure utilisation des équipes inclut l’intégration d’autres applications dans l’interface. Au minimum, votre équipe technique doit permettre aux applications de la première et des applications proposées dans votre interface d’équipe. En fonction de votre cas d’utilisation et d’autres applications utilisées dans votre organisation, vous pouvez choisir d’inclure d’autres applications dans le cadre de votre expérience contrôlée. 
 
-### <a name="decision-5-are-meetings-included-in-your-test"></a>Décision 5 : Sont incluses dans le test des réunions ? 
+### <a name="decision-5-are-meetings-included-in-your-test"></a>Décision 5: les réunions sont-elles incluses dans votre test? 
 
-L’expérience équipes est de haute qualité, prend en charge une conversation vidéo et affiche vos employés pour être plus efficace. Consultez votre équipe technique pour vous assurer que votre environnement est prêt à inclure des réunions VoIP simples. Activation de services d’audioconférence ou de services de téléphonie serait normalement exclu cette phase de votre expérimentation ; Toutefois, qui dépend de votre équipe de projet principale, vos compétences techniques, et l’état de la réunion voix/services dans votre organisation. Nous vous recommandons d’y compris des conversations vidéo et les réunions VoIP dans votre expérimentation pour obtenir plus de valeur à partir de votre implémentation d’équipes. 
+L’interface de réunion teams est haute qualité, prend en charge les discussions vidéo et permet d’améliorer l’efficacité de vos employés. Contactez votre équipe technique pour vous assurer que votre environnement est prêt à être utilisé pour inclure des réunions VoIP simples. L’activation de la fonction d’audioconférence ou de services vocaux sera normalement exclue de cette phase de votre expérimentation; Toutefois, cela dépend de votre équipe de projet principale, de votre disponibilité technique et de l’état d’autres services vocaux/de réunion au sein de votre organisation. Nous vous recommandons d’inclure des conversations vidéo et des réunions VoIP dans votre expérimentation pour obtenir une plus grande valeur de l’implémentation de votre équipe. 
 
-### <a name="decision-6--data-security"></a>Décision 6 : Sécurité des données
+### <a name="decision-6--data-security"></a>Décision 6: sécurité des données
 
-Dans la préparation de votre déploiement à grande échelle, vous pouvez choisir d’utiliser des étiquettes de sécurité pour classer les types d’équipes dans votre environnement. À des fins de cette expérience, nous vous recommandons de vous faire référence au [Plan de gouvernance dans les équipes](plan-teams-governance.md) et vérifiez qu’une stratégie de rétention de base a été définie sur les données d’équipes de votre organisation Office 365. Vous devrez peut-être coordonner la procédure fonctionne avec votre équipe technique, car les droits d’administrateur Office 365 sont nécessaires pour effectuer cette tâche.
+En préparation de votre vaste déploiement, vous pouvez choisir d’utiliser des étiquettes de sécurité pour classer les types d’équipes dans votre environnement. Dans le cadre de cette expérience, nous vous recommandons de vous référer au [plan de gouvernance dans teams](plan-teams-governance.md) et de vous assurer qu’une stratégie de rétention de base a été définie pour les données d’équipe dans votre organisation Office 365. Il est possible que vous deviez coordonner ce travail avec votre équipe technique, car les droits d’administrateur d’Office 365 sont requis pour terminer ce travail.
 
-### <a name="decision-7-length-of-your-experiment"></a>Décision 7 : Longueur de votre expérience
+### <a name="decision-7-length-of-your-experiment"></a>Décision 7: durée de votre expérience
 
-Réussite de l’implémentation équipes procède à un rythme intègre pour garantir appris, le focus et momentum approprié. Nous recommandons cette phase de votre projet de 60 jours à une longueur de vous assurer que vos premiers effectuer suffisantes cycles d’entreprise. Extension de l’expérimentation pour trop longues une fois augmente le risque d’un programme de modification ayant échoué ; Toutefois, cette durée varie pour chaque organisation.  
+Une implémentation de teams réussie est un bon rythme pour garantir une dynamique, un foyer et des connaissances appropriés. Nous vous conseillons de faire en sorte que la phase de votre projet soit de 60 jours pour garantir la durée de la période de travail de vos premiers entourages. Le développement d’une expérimentation trop longue a pour unique risque d’augmenter le risque d’un programme de changement d’échec; Néanmoins, cette durée varie en fonction de chaque organisation.  
 
-![Icône d’étapes suivante](media/teams-adoption-next-icon.png) suivante : [définir des scénarios d’utilisation](teams-adoption-define-usage-scenarios.md)
+![Une icône représentant la prochaine étape](media/teams-adoption-next-icon.png) suivante: [définir des scénarios d’utilisation](teams-adoption-define-usage-scenarios.md)

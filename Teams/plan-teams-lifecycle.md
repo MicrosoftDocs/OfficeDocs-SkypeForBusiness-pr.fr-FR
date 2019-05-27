@@ -14,12 +14,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 913ae5315a8b2adae8043584e3cf6621f3650ad3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 601091520e6afe71e9ae4557380b826cd27e78ef
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33902439"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344419"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Planifier la gestion du cycle de vie dans Teams
 
@@ -150,8 +150,8 @@ Utilisez ces liens pour obtenir plus d’informations sur l'organisation de vos 
 
 |    |     |
 |-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Quelle est la finalité de l’équipe ?</li><li>Qui fait partie de l’équipe ?</li><li>L’équipe sera-t-elle privée ou publique ?</li><li>Les nouveaux membres peuvent-ils s’ajouter eux-mêmes ou les propriétaires de l’équipe les ajoutent-ils ?</li><li>Qui aura l’autorisation de créer des canaux ou d’ajouter des onglets, des bots et des connecteurs ?</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>Étapes suivantes|<ul><li>Créez l’équipe.</li><li>Planifiez les canaux.</li></ul>|
+| ![Icône montrant les points de décision](media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Quelle est la finalité de l’équipe ?</li><li>Qui fait partie de l’équipe ?</li><li>L’équipe sera-t-elle privée ou publique ?</li><li>Les nouveaux membres peuvent-ils s’ajouter eux-mêmes ou les propriétaires de l’équipe les ajoutent-ils ?</li><li>Qui aura l’autorisation de créer des canaux ou d’ajouter des onglets, des bots et des connecteurs ?</li></ul> |
+| ![Icône montrant les étapes suivantes](media/audio_conferencing_image9.png)<br/>Étapes suivantes|<ul><li>Créez l’équipe.</li><li>Planifiez les canaux.</li></ul>|
 
 
 #### <a name="set-up-channels"></a>Configurer les canaux
@@ -162,8 +162,8 @@ Pour susciter l’intérêt, le propriétaire du canal peut publier un message d
 
 |    |     |
 |-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Quels sont les canaux initiaux qui seront ajoutés à l’équipe ?</li><li>Quelles indications, le cas échéant, seront-elles fournies pour l’ajout de nouveaux canaux ? (Seront-ils configurés par projet, thème, ou...?)</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>Étapes suivantes|<ul><li>Créez les canaux initiaux.</li><li>Publiez un message de bienvenue.</li><li>Commencez la collaboration.</li></ul>|
+| ![Icône montrant les points de décision](media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Quels sont les canaux initiaux qui seront ajoutés à l’équipe ?</li><li>Quelles indications, le cas échéant, seront-elles fournies pour l’ajout de nouveaux canaux ? (Seront-ils configurés par projet, thème, ou...?)</li></ul> |
+| ![Icône montrant les étapes suivantes](media/audio_conferencing_image9.png)<br/>Étapes suivantes|<ul><li>Créez les canaux initiaux.</li><li>Publiez un message de bienvenue.</li><li>Commencez la collaboration.</li></ul>|
 
 ### <a name="stage-2-middle"></a>Stade 2: milieu
 
@@ -187,8 +187,8 @@ Si un flux commence à s’installer dans une routine, envisagez de :
 
 |    |     |
 |-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Qui contrôlera l’utilisation pour identifier les problèmes ?</li><li>Quelles sont les mesures qui seront utilisées pour déterminer si une équipe est intègre ?</li><li>Identifiez les équipes qui sont arrivées à la fin de leur durée de vie utile.</li><li>Identifiez les équipes non intègres qui servent toujours un objectif mais qui ont besoin d’être dynamisées.</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>Étape suivante|<ul><li>Implémentez un processus pour contrôler l’intégrité des équipes individuelles.</li></ul>|
+| ![Icône montrant les points de décision](media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Qui contrôlera l’utilisation pour identifier les problèmes ?</li><li>Quelles sont les mesures qui seront utilisées pour déterminer si une équipe est intègre ?</li><li>Identifiez les équipes qui sont arrivées à la fin de leur durée de vie utile.</li><li>Identifiez les équipes non intègres qui servent toujours un objectif mais qui ont besoin d’être dynamisées.</li></ul> |
+| ![Icône montrant l’étape suivante](media/audio_conferencing_image9.png)<br/>Étape suivante|<ul><li>Implémentez un processus pour contrôler l’intégrité des équipes individuelles.</li></ul>|
 
 ### <a name="stage-3-end"></a>Stade 3: fin
 
@@ -202,6 +202,6 @@ Pour des informations sur la configuration des stratégies d’expiration et de 
 
 |    |     |
 |-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Définissez à quoi ressemble la fin de la durée de vie d’une équipe.</li><li>Décidez si le contenu de l’équipe doit rester disponible ou non, et pendant combien de temps.</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>Étapes suivantes|<ul><li>Documentez les meilleures pratiques et les leçons apprises.</li><li>Archivez les données si nécessaire.</li></ul>|
+| ![Icône montrant les points de décision](media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Définissez à quoi ressemble la fin de la durée de vie d’une équipe.</li><li>Décidez si le contenu de l’équipe doit rester disponible ou non, et pendant combien de temps.</li></ul> |
+| ![Icône montrant les étapes suivantes](media/audio_conferencing_image9.png)<br/>Étapes suivantes|<ul><li>Documentez les meilleures pratiques et les leçons apprises.</li><li>Archivez les données si nécessaire.</li></ul>|
 

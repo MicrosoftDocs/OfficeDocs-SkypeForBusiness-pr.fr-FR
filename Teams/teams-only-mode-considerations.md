@@ -7,7 +7,7 @@ ms.date: 01/09/2019
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Préparer votre mise à niveau vers le mode uniquement les équipes Microsoft
+description: Préparer la mise à niveau vers le mode Microsoft teams uniquement
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
@@ -17,49 +17,49 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c60c7436f406c5fe4084e00f26ad66ada12f181e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0c33f1cc4b508149ae42b79e956e1f08d44579bc
+ms.sourcegitcommit: 349df7248c168e629bc1bb633187e39a37b17ba5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930333"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "34422002"
 ---
 # <a name="teams-only-mode-considerations"></a>Considérations relatives au mode Teams uniquement
 
-Si vous êtes un administrateur sur votre client Office 365, vous verrez maintenant l’option de mise à niveau vers le mode équipes uniquement dans le centre d’administration Microsoft Teams. Grâce à cette fonctionnalité vous pouvez mettre à niveau des utilisateurs individuels, soit également le client entière.  
+Si vous êtes un administrateur sur votre client 365 Office, vous verrez désormais l’option de mise à niveau vers le mode équipes uniquement dans le centre d’administration Microsoft Teams. Cette fonctionnalité vous permet de mettre à niveau des utilisateurs individuels ou tout le client.  
 
-Mise à niveau vers les équipes uniquement en mode offre aux utilisateurs le meilleur parti de Microsoft Teams, le concentrateur de travail d’équipe dans Office 365, via une expérience client unique. En outre, les utilisateurs en mode équipes uniquement recevra tous les appels et conversations dans les équipes, indépendamment de si l’expéditeur est à l’aide de Skype pour les équipes ou de l’entreprise et bénéficier de la prise en charge de l’interopérabilité et la fédération.
+La mise à niveau vers le mode équipes uniquement offre aux utilisateurs les avantages complets de Microsoft Teams, le Hub pour le travail en équipe dans Office 365, par le biais d’une seule et même interface client. De plus, les utilisateurs en mode équipes uniquement recevront tous les appels et les discussions dans Teams, que l’expéditeur utilise ou non Skype entreprise ou équipes, et qu’il bénéficie d’une prise en charge de l’interopérabilité et de la Fédération.
 
-Alors que des milliers de clients ont été mis à niveau vers Microsoft Teams, il existe des considérations peuvent influer sur votre organisation mise à niveau chronologie et l’expérience utilisateur tout au long du processus. En particulier, la possibilité de mise à niveau ne signifie pas nécessairement que votre organisation est prête pour que cette modification. Pour bénéficier de la meilleure expérience utilisateur, vérifiez que Teams répond à vos besoins en matière de collaboration et de communication, assurez-vous que votre réseau est prêt à prendre en charge Teams et implémentez votre plan de préparation des utilisateurs avant de les mettre à niveau vers Teams. 
+Bien que des milliers de clients aient réussi la mise à niveau de Microsoft Teams, il existe des considérations qui peuvent influer sur la chronologie de la mise à niveau de votre organisation et son utilisation. Par exemple, si vous avez la possibilité de procéder à la mise à niveau, cela signifie que votre organisation est prête pour cette modification. Pour bénéficier de la meilleure expérience utilisateur, vérifiez que Teams répond à vos besoins en matière de collaboration et de communication, assurez-vous que votre réseau est prêt à prendre en charge Teams et implémentez votre plan de préparation des utilisateurs avant de les mettre à niveau vers Teams. 
 
 > [!IMPORTANT]
-> Si vous débutez votre planification de la mise à niveau, veillez à consulter notre Guide de mise à niveau complète et la planification des ressources. [Commencez ici](upgrade-introduction.md). 
+> Si vous commencez à commencer votre planification de mise à niveau, veillez à passer en revue les ressources de mise à niveau et de planification complètes. [Commencez ici](upgrade-start-here.md). 
 
-**Considérations relatives à la coexistence**: les organisations qui utilisent déjà Skype pour Business Online et/ou Skype pour Business Server peuvent introduire des équipes dans leur environnement à un rythme qui répond à leurs besoins. Les organisations peuvent incrémentielle déployer équipes à un ensemble d’utilisateurs souhaité selon vos besoins et utilisateurs qui utilisent les équipes peuvent communiquer avec les utilisateurs qui utilisent Skype pour les entreprises, et inversement. Pour gérer cette expérience, les modes de coexistence utiliser administrateurs, qui définissent l’expérience du client utilisateur final, le comportement de routage d’entrant conversations et les appels, ainsi que si les nouvelles réunions sont planifiées dans des équipes ou Skype pour les entreprises. Les utilisateurs peuvent se fédérer avec d’autres organisations si l’utilisateur est mis à niveau vers **Les équipes uniquement**; Toutefois, la meilleure expérience est fournie lorsque les deux utilisateurs utilisent des équipes. Les utilisateurs qui sont mis à niveau pour que les équipes peuvent tout de même rejoindre Skype pour les réunions d’entreprise. 
+**Considérations**de coexistence: les organisations qui utilisent déjà Skype entreprise Online et/ou Skype entreprise Server peuvent proposer des équipes au rythme qui répondent à leurs besoins. Les organisations peuvent déployer de façon incrémentielle des équipes auprès d’un ensemble d’utilisateurs souhaité, et les utilisateurs qui utilisent teams peuvent communiquer avec des utilisateurs de Skype entreprise, et inversement. Pour gérer cette situation, les administrateurs utilisent les modes de coexistence, qui définissent l’utilisation du client de l’utilisateur final, le comportement de routage des conversations et des appels entrants, ainsi que la planification de nouvelles réunions dans teams ou Skype entreprise. Les utilisateurs peuvent se fédérer avec des utilisateurs d’autres organisations si l’utilisateur est mis à niveau vers **équipes uniquement**; Toutefois, la meilleure utilisation est fournie lorsque les deux utilisateurs utilisent Teams. Les utilisateurs qui sont mis à niveau vers les équipes peuvent toujours participer à des réunions Skype entreprise. 
 
 > [!NOTE]
-> Les utilisateurs qui sont mis à niveau pour que les équipes ne peuvent pas communiquer avec des utilisateurs qui utilisent Skype pour consommateur.
+> Les utilisateurs qui sont mis à niveau vers Teams ne peuvent pas communiquer avec des utilisateurs de Skype pour particuliers.
 
 > [!IMPORTANT]
-> Pour plus d’informations sur la coexistence reportez-vous à [comprendre les équipes Microsoft et Skype pour l’interopérabilité et coexistence d’entreprise](teams-and-skypeforbusiness-coexistence-and-interoperability.md). 
+> Pour plus d’informations sur la coexistence, reportez-vous à la rubrique comprendre le fonctionnement de [Microsoft Teams, de la coexistence et de l’interopérabilité de Skype entreprise](teams-and-skypeforbusiness-coexistence-and-interoperability.md). 
 
-**Considérations relatives au client à l’échelle**: nous effectuons travailler sur l’activation d’équipes dans les environnements suivants ; Toutefois, pour l’instant, les administrateurs ne doivent pas mettre à niveau tous les utilisateurs dans leur organisation si leur Skype pour client d’entreprise est hébergé dans un des environnements suivants :
+**Remarques relatives**à l’ensemble du client: nous travaillons à l’activation d’équipes dans les environnements suivants; Toutefois, pour le moment, les administrateurs ne peuvent pas mettre à niveau les utilisateurs de leur organisation si leur client Skype entreprise est hébergé dans l’un des environnements suivants:
 
- - Communauté gouvernement Cloud haute
- - Pour le gouvernement Communauté Cloud DoD
- - Office 365 exécuté par 21Vianet
+ - Communauté gouvernementale secteur public haut
+ - Government Community Cloud DoD
+ - Office 365 géré par 21Vianet
  - Office 365 Allemagne
- - Skype pour client d’entreprise est hébergée dans Corée du Sud **et** que l’organisation nécessite des données équipes à stocker en Corée du Sud. Actuellement, les organisations avec Skype pour les données métiers stockées dans Corée du Sud aux équipes de mise à niveau aura leurs données équipes stockées dans la région Asie centre de données, pas dans la zone de centre de données Corée du Sud.
+ - Le client Skype entreprise est hébergé en Corée du Sud **et** l’organisation nécessite le stockage des données d’équipe en Corée du Sud. Pour l’instant, les organisations possédant des données Skype entreprise stockées en Corée du Sud qui effectuent une mise à niveau vers teams disposeront des données de leurs équipes dans la région du centre de données Asia, et non dans la région du centre de données de Corée du Sud
 
-**Considérations spécifiques à l’utilisateur**: certains scénarios utilisateur évoluent, et les administrateurs peuvent choisir de temporairement différer la mise à niveau de certains utilisateurs lors de la mise à niveau d’autres utilisateurs dans l’organisation. Nous sommes en train d’adressage ces scénarios ; Contrôlez dans le site de la [Feuille de route Office 365](https://www.microsoft.com/en-us/microsoft-365/roadmap) pour les annonces.
+**Considérations spécifiques à l’utilisateur**: certains scénarios d’utilisation sont toujours évolutifs, et les administrateurs peuvent décider de différer temporairement la mise à niveau de certains utilisateurs lors de la mise à niveau d’autres utilisateurs au sein de l’organisation. Nous travaillons à la résolution de ces scénarios. Pour plus d’annonces, visitez le site de [plan d’évolution d’Office 365](https://www.microsoft.com/en-us/microsoft-365/roadmap) .
 
 | Scénario | Notes |
 |----------|-------|
-|Appareil de travail principal de l’utilisateur est un Mac et l’utilisateur doit voir disponibilité des collègues dans Outlook. | Présence Outlook dans les équipes n'est pas encore entièrement pris en charge pour les périphériques Mac. |
-| Utilisateur est régulièrement organiser des réunions avec des clients ou partenaires externes dans différentes régions internationale. | Messagerie instantanée ne voyez pas les participants externes dont le client réside dans une autre géolocalisation conversation dans une réunion **fédérés** . Les participants peuvent tout de même rejoindre la réunion en tant qu’utilisateurs anonymes. |
-| Utilisateur réalise Skype pour les réunions de diffusion d’entreprise. |  Alors que live équipes événements (diffusion Skype en remplaçant) est déjà dans la version d’évaluation, cet utilisateur devra peut-être restent sur Skype pour les entreprises jusqu'à la disponibilité générale d’événements en direct équipes.
-| Périphérique principal de l’utilisateur est basée sur les VDI. | |
+|Le périphérique de bureau principal de l’utilisateur est un Mac et il doit voir la disponibilité de ses collègues dans Outlook. | La présence Outlook dans teams n’est pas encore entièrement prise en charge pour les appareils Mac. |
+| Un utilisateur participe régulièrement à des réunions avec des clients ou des partenaires externes dans différentes régions internationales. | Les participants externes dont le client réside à un emplacement géographique différent ne voient pas la discussion de messagerie instantanée pendant une réunion **fédérée** . Les participants peuvent continuer à rejoindre la réunion en tant qu’utilisateurs anonymes. |
+| Un utilisateur effectue des réunions de diffusion Skype entreprise. |  Si les événements teams Live (qui remplace la diffusion Skype) sont déjà en préversion publique, il est possible que cet utilisateur doive rester sur Skype entreprise jusqu’à ce que la disponibilité générale des événements en direct teams soit disponible.
+| Le périphérique principal de l’utilisateur est basé sur l’infrastructure VDI. | |
 |||
 
 > [!IMPORTANT]
-> **N’oubliez pas**: le déplacement aux équipes est supérieure à une migration technique. Une mise à niveau réussie évalue la préparation technique et préparation de l’utilisateur final. Consultez notre Skype pour les entreprises à des équipes [des instructions de mise à niveau](upgrade-framework.md) pour plus d’informations sur la planification d’une implémentation de votre mise à niveau vers les équipes.  
+> **N’oubliez pas**que le déplacement vers teams n’est pas une migration technique. Une mise à niveau réussie évalue la compatibilité technique et celle de l’utilisateur final. Pour plus d’informations sur la planification d’une mise à niveau de Microsoft Teams, reportez-vous à la rubrique [recommandations de mise à niveau](upgrade-framework.md) de Skype entreprise vers équipes  

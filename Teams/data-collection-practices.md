@@ -22,12 +22,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Microsoft collecte des données de recensement, d’utilisation et d’erreur afin de comprendre la manière dont Skype entreprise est utilisé et où les utilisateurs rencontrent des problèmes. Les données sont utilisées pour planifier les améliorations du produit.
-ms.openlocfilehash: bea3a508b91c83b009636aa8ee48a2add996b3ea
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 532cfe380a9f61043e38768c4c5d7d9c9fa8e9a6
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34281862"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34433390"
 ---
 # <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>Pratiques de collecte de données Skype entreprise et Microsoft teams
 
@@ -103,10 +103,10 @@ Le signalement des erreurs nécessite deux éléments:
 
 - Le paramètre de stratégie de groupe DisableAutomaticSendTracing est défini sur false sur le serveur ou dans le centre d’administration client (il s’agit de l’État par défaut). Pour plus d’informations, voir [configurer les stratégies d’amorçage du client](/skypeforbusiness/deploy/deploy-clients/configure-client-bootstrapping-policies) .
     
-- Les utilisateurs finaux choisissent individuellement à partir de l’onglet général (cliquez sur ![l’icône](media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) d’engrenage, puis la boîte de dialogue **options** s’ouvre avec l’onglet **général** affiché) dans le client Skype entreprise.
+- Les utilisateurs finaux choisissent individuellement à partir de l’onglet général (cliquez sur ![l’icône d’engrenage, une ](media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) icône représentant un engrenage, puis la boîte de dialogue **options** s’ouvre avec l’onglet **général** affiché) dans le client Skype entreprise.
     
  
-![Case à cocher de collecte de données Skype entreprise dans la boîte de dialogue Options > générales](media/68bc8f77-deaa-478c-9977-a5259b88df3e.png)
+![Capture d’écran de la case à cocher collection de données dans la boîte de dialogue Options](media/68bc8f77-deaa-478c-9977-a5259b88df3e.png)
   
 Pour l’application réunions Skype, le MeetingUxEnableTelemetry contrôle également le signalement d’erreurs, même si le problème se bloque sur Windows, les paramètres Watson contrôlent le téléchargement des informations de blocage. Il n’y a aucun paramètre d’utilisateur pour l’application réunions Skype, comme vous le voyez dans la boîte de dialogue client de bureau.
 

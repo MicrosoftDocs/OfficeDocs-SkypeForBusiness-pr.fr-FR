@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: Cet article décrit le déploiement de la gestion des appareils Microsoft teams salles de manière intégrée et complète grâce à l’utilisation de moniteur Azure.
-ms.openlocfilehash: d9f1a78d31fe6ef765fd43554337444533056114
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: fd1f1b32bd999c18144831e2458b426bf55ca1a9
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34291499"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34433374"
 ---
 # <a name="deploy-microsoft-teams-rooms-management-with-azure-monitor"></a>Déploiement de la gestion de salles de Microsoft teams avec Azure Monitor
 
@@ -29,7 +29,7 @@ Vous pouvez configurer l’analyse du journal dans Azure Monitor pour fournir un
 
 En suivant ce guide, vous pouvez utiliser un tableau de bord tel que l’exemple ci-dessous pour obtenir des rapports d’État détaillés pour la disponibilité des appareils, l’état des applications et du matériel, et la distribution de la version de l’application Microsoft teams et du système d’exploitation.
 
-![Exemple d’affichage d’analyse du journal des salles de Microsoft teams] (../media/Deploy-Azure-Monitor-1.png "Exemple d’affichage d’analyse du journal des salles de Microsoft teams")
+![Capture d’écran de l’exemple d’affichage analyse du journal pour les salles de Microsoft teams] (../media/Deploy-Azure-Monitor-1.png "Exemple d’affichage d’analyse du journal des salles de Microsoft teams")
 
 À haut niveau, vous devez effectuer les tâches suivantes :
 
@@ -64,7 +64,7 @@ Vous devez configurer l’analyse du journal pour recueillir les journaux requis
 
 Pour configurer l’analyse du journal de sorte que les événements sur les salles de Microsoft teams soient collectés, voir [sources de données du journal des événements Windows dans Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/platform/data-sources-windows-events)
 
-![Paramètres du journal des événements] (../media/Deploy-Azure-Monitor-2.png "Paramètres du journal des événements")
+![Capture d’écran des paramètres du journal des événements] (../media/Deploy-Azure-Monitor-2.png "Paramètres du journal des événements")
 
 > [!IMPORTANT]
 > Configurez les paramètres du journal des événements Windows et entrez le nom du journal des événements dans **Skype** , puis activez les cases à cocher **erreur**, **Avertissement**et **informations** .

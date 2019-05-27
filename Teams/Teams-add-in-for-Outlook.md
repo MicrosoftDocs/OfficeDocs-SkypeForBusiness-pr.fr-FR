@@ -7,7 +7,7 @@ audience: Admin
 ms.date: 03/08/2019
 ms.topic: article
 ms.service: msteams
-ms.reviewer: ''
+ms.reviewer: sonua
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams installe un complément dans Outlook qui permet aux utilisateurs de planifier une réunion Teams depuis Outlook.
@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 624e6a72daae12d0e40b351cea6039fbe5eb432b
-ms.sourcegitcommit: 9a99be1365df439f9443f31240aa5311782458df
+ms.openlocfilehash: fb6ba92185d797e3925ad56c8747fd504f40dccd
+ms.sourcegitcommit: d010c615ee530deb34d79a1a62815ef0a52a2086
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/14/2019
-ms.locfileid: "33994134"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34404226"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Utiliser le complément Réunion Teams dans Outlook
 =======================================
@@ -40,7 +40,7 @@ Le complément Réunion Teams est installé automatiquement pour les utilisateur
 Si le complément Réunion Teams n'apparaît pas, demandez aux utilisateurs de fermer Outlook et Teams, de redémarrer d'abord le client Teams, de se connecter à Teams puis de redémarrer le client Outlook, dans cet ordre spécifique.
 
 > [!NOTE]
-> Le bouton réunion d’équipes dans Outlook pour Mac s’affiche dans Outlook, ruban Mac si Outlook est en cours d’exécution Build de Production 16.20 et versions ultérieures.
+> Le bouton réunion teams dans Outlook pour Mac s’affiche dans le ruban Outlook pour Mac si Outlook exécute la version 16,20 et les versions ultérieures.
 
 ## <a name="authentication-requirements"></a>Exigences d'authentification
 
@@ -65,7 +65,6 @@ Le client Teams installe le complément correct en déterminant si les utilisate
 ## <a name="other-considerations"></a>Autres considérations à prendre en compte
 
 Certaines fonctionnalités du complément Réunion Teams sont encore en cours de création. Tenez compte des points suivants :
-- Certaines fonctionnalités de réunion en ligne, comme l'enregistrement, les sondages et l'utilisation du tableau blanc ne sont pas encore disponibles.
 - Des options de réunion ne sont pas disponibles pour le moment.
 - Actuellement, vous pouvez uniquement inviter des personnes de votre entreprise, car les utilisateurs externes ne peuvent pas encore participer aux réunions.
 - Le complément concerne les réunions planifiées avec des participants spécifiques, pas les réunions dans un canal. Les réunions de canal doivent être planifiées au sein de Teams. Actuellement, le complément Réunion Teams dans Outlook est disponible uniquement pour les utilisateurs Windows, mais il sera pris en charge sur Mac prochainement.

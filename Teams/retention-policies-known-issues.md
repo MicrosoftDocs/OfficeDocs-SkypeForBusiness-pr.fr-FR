@@ -7,7 +7,7 @@ ms.date: 09/11/2018
 ms.topic: reference
 ms.service: msteams
 ms.reviewer: anach
-description: Liste actuelle des problèmes connus pour les stratégies de rétention Teams Microsoft.
+description: Liste actuelle des problèmes connus pour les stratégies de rétention de Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
 MS.collection:
@@ -15,25 +15,25 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dca7decd2c3c051c0d56a14e2a2d1485b777f92e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 38fd76bff3309655cb7d2fa1f0acf18559f15220
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32205501"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34433366"
 ---
 # <a name="known-issues-for-retention-policies-in-microsoft-teams"></a>Problèmes connus pour les stratégies de rétention dans Microsoft Teams
 
-Les éléments suivants sont des problèmes pour les stratégies de rétention dans les équipes qui sont en cours suivis et analysés.
+Vous trouverez ci-après des problèmes connus liés aux stratégies de rétention dans les équipes qui sont suivies et examinées.
 
-- Sous Choisissez les équipes dans la ligne d’emplacement de messages canal équipes, vous pouvez voir les équipes pas également Office 365 les groupes. Cela sera traité ultérieurement.
+- Sous choisir des équipes dans la ligne d’emplacement des messages de canal Teams, vous pouvez voir les groupes Office 365 qui ne sont pas également équipes. Ce problème sera résolu dans le futur.
 
-- Sous Choisir les utilisateurs dans la ligne emplacement équipes conversation, vous pouvez voir les invités et les utilisateurs non-mailbox. Stratégies de rétention ne sont pas destinés à définir pour les visiteurs et nous effectuons fonctionne pour les supprimer de la liste.
+- Sous choisir les utilisateurs dans la ligne d’emplacement de conversation de l’équipe, il est possible que les utilisateurs invités et non-boîte aux lettres apparaissent. Les stratégies de rétention ne sont pas destinées à être définies pour les invités et nous travaillons à la suppression de celles-ci dans la liste.
 
-- Assistant de Cycle de vie Exchange (ELC) s’exécute tous les jours, mais il a un SLA de 7 jours. Par conséquent, il est possible que, si vous disposez d’une stratégie de rétention les équipes à supprimer les éléments antérieurs à 60 jours, ces éléments peuvent conserver 67 jours. Ce n’est pas une situation nouvelle : elle suit le modèle Exchange. Bien sûr, dans la plupart des cas, il n’existe aucun délai.
+- L’Assistant ELC (Exchange Life cycle Assistant) s’exécute quotidiennement, mais il dispose d’un SLA de 7 jours. Par conséquent, il est possible que, si vous disposez d’une stratégie de rétention teams pour supprimer des éléments de plus de 60 jours, ces éléments peuvent persister pendant 67 jours maximum. Ce n’est pas une nouvelle situation: elle suit le modèle Exchange. Dans la plupart des cas, il n’y a aucun retard.
 
 
 | | | |
 |---------|---------|---------|
-|![Icône Point de décision.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |Point de décision         |De quelles fonctionnalités de sécurité et de conformité votre organisation a-t-elle besoin ? Votre organisation dispose-t-elle des licences requises pour satisfaire les besoins en matière de sécurité et de conformité ?         |
-|![Icône Étapes suivantes.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)     |Étapes suivantes         |Documenter vos fonctionnalités de sécurité et de conformité requises.         |
+|![Icône représentant un point de décision](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |Point de décision         |De quelles fonctionnalités de sécurité et de conformité votre organisation a-t-elle besoin ? Votre organisation dispose-t-elle des licences requises pour satisfaire les besoins en matière de sécurité et de conformité ?         |
+|![Icône représentant les étapes suivantes](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)     |Étapes suivantes         |Documentez les fonctionnalités de sécurité et de conformité requises.         |

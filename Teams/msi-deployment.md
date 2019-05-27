@@ -14,12 +14,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4c009433696ac554114a2a06955b4f33beb6543f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 42944baab0552d28877c4974510087d69df1b697
+ms.sourcegitcommit: 349df7248c168e629bc1bb633187e39a37b17ba5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34281616"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "34421947"
 ---
 <a name="install-microsoft-teams-using-msi"></a>Installer Microsoft Teams à l’aide de MSI
 =================================
@@ -28,6 +28,8 @@ ms.locfileid: "34281616"
 > Regardez la session suivante pour en savoir plus sur les avantages du client de bureau Windows, sur son planning et son déploiement: client de [Bureau Windows teams](https://aka.ms/teams-clients)
 
 Pour utiliser System Center Configuration Manager, ou une stratégie de groupe ou tout mécanisme de distribution tiers pour un déploiement large, Microsoft a fourni des fichiers MSI ( [32-bits](https://aka.ms/teams32bitmsi) et [64-bit](https://aka.ms/teams64bitmsi)) que les administrateurs peuvent utiliser pour le déploiement en bloc d’équipes et sélectionner utilisateurs ou ordinateurs. Les administrateurs peuvent utiliser ces fichiers pour déployer à distance des équipes de sorte que les utilisateurs n’aient pas à télécharger manuellement l’application Teams. Lorsque le déploiement est déployé, teams démarre automatiquement pour tous les utilisateurs qui se connectent à cet ordinateur. (Vous pouvez désactiver le lancement automatique après l’installation de l’application. [Voir ci-dessous](#disable-auto-launch-for-the-msi-installer).) Nous vous recommandons de déployer le package sur l’ordinateur, de sorte que tous les nouveaux utilisateurs de l’ordinateur bénéficient également de ce déploiement. 
+
+Les équipes peuvent également être incluses dans un déploiement d’Office 365 ProPlus. Pour plus d’informations, reportez-vous à la rubrique [déploiement de Microsoft teams avec Office 365 ProPlus](https://docs.microsoft.com/deployoffice/teams-install).
  
 > [!Note] 
 > Pour en savoir plus sur SCCM, voir [Présentation de System Center Configuration Manager](https://docs.microsoft.com/sccm/core/understand/introduction).

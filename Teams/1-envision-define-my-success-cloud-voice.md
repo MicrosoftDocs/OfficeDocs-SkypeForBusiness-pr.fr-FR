@@ -15,12 +15,12 @@ MS.collection:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e58bfdcff9b87d343de39f00e6ac45254203092b
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 96fb3a0031b27b331dbc6424650f101b0f0a34f3
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34343929"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34433095"
 ---
 # <a name="define-my-success"></a>Définir ma réussite
 
@@ -94,8 +94,8 @@ Outre la définition des cas d’utilisation de votre entreprise, vous devez dé
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/> |Points de décision|<ul><li>Quels sont les scénarios d’utilisation pour les entreprises que vous pouvez identifier au sein de votre organisation?</li><li>Quels sont les cas d’utilisation pour les entreprises d’appels que vous pouvez identifier au sein de votre organisation?</li><li>Quels sont les cas d’utilisation pour le routage direct qui peuvent être identifiés au sein de votre organisation?</li></ul>|
-|<img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/>|Étapes suivantes|<ul><li>Documentez tous les cas d’utilisation pour les entreprises pour votre organisation.</li><li>Documentez tous les cas d’utilisation pour les entreprises pour les offres d’appels de votre organisation.</li><li>Documentez tous les cas d’utilisation pour le routage direct de votre organisation.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> |Points de décision|<ul><li>Quels sont les scénarios d’utilisation pour les entreprises que vous pouvez identifier au sein de votre organisation?</li><li>Quels sont les cas d’utilisation pour les entreprises d’appels que vous pouvez identifier au sein de votre organisation?</li><li>Quels sont les cas d’utilisation pour le routage direct qui peuvent être identifiés au sein de votre organisation?</li></ul>|
+|<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|Étapes suivantes|<ul><li>Documentez tous les cas d’utilisation pour les entreprises pour votre organisation.</li><li>Documentez tous les cas d’utilisation pour les entreprises pour les offres d’appels de votre organisation.</li><li>Documentez tous les cas d’utilisation pour le routage direct de votre organisation.</li></ul>|
 
 <!--ENDOFSECTION-->
 
@@ -129,8 +129,8 @@ Les cas d’utilisation pour les entreprises définis à l’étape précédente
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/>|Points de décision|<ul><li>Qui remplira chaque rôle d’intervenant clé de votre organisation?</li></ul>|
-|<img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/>|Étapes suivantes|<ul><li>Documentez toutes les principales parties prenantes et communiquez les responsabilités et les attentes du rôle à chaque individu affecté.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/>|Points de décision|<ul><li>Qui remplira chaque rôle d’intervenant clé de votre organisation?</li></ul>|
+|<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|Étapes suivantes|<ul><li>Documentez toutes les principales parties prenantes et communiquez les responsabilités et les attentes du rôle à chaque individu affecté.</li></ul>|
 
 <!--ENDOFSECTION-->
 
@@ -222,8 +222,8 @@ Vous devez identifier les risques commerciaux dans le cadre de cet exercice et d
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/>|Points de décision|<ul><li>Quels sont votre organization& # 39; s OKRs et KSIs?</li><li>Quels risques avez-vous identifiés dans le cadre de l’implémentation de l’audioconférence au sein de votre organisation? Quels sont les plans d’atténuation pour les risques identifiés?</li><li>Quels risques avez-vous identifiés dans le cadre de l’implémentation de plans d’appel au sein de votre organisation? Quels sont les plans d’atténuation pour les risques identifiés?</li><li>Quels risques avez-vous identifiés dans le cadre de l’implémentation du routage direct au sein de votre organisation? Quels sont les plans d’atténuation pour les risques identifiés?</li></ul>|
-|<img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/>|Étapes suivantes|<ul><li>Documentez le OKRs et KSIs, puis établissez le registre de risques.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/>|Points de décision|<ul><li>Quels sont votre organization& # 39; s OKRs et KSIs?</li><li>Quels risques avez-vous identifiés dans le cadre de l’implémentation de l’audioconférence au sein de votre organisation? Quels sont les plans d’atténuation pour les risques identifiés?</li><li>Quels risques avez-vous identifiés dans le cadre de l’implémentation de plans d’appel au sein de votre organisation? Quels sont les plans d’atténuation pour les risques identifiés?</li><li>Quels risques avez-vous identifiés dans le cadre de l’implémentation du routage direct au sein de votre organisation? Quels sont les plans d’atténuation pour les risques identifiés?</li></ul>|
+|<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|Étapes suivantes|<ul><li>Documentez le OKRs et KSIs, puis établissez le registre de risques.</li></ul>|
 
 <!--ENDOFSECTION-->
 
@@ -263,8 +263,8 @@ Le Comité de direction se réunit à un intervalle récurrent tout au long de l
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/>|Points de décision|<ul><li>Décider s’il est nécessaire de disposer d’un Comité de direction pour votre organisation.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/>|Étapes suivantes|<ul><li>Identifier les membres du Comité directeur.</li><li>Planifier des réunions de Comité de direction.</li><li>Préparez-vous à la réunion de la direction.</li><li>Mettre en attente des réunions du Comité d’orientation.</li><li>Agir en fonction de l’entrée de la réunion du Comité d’orientation.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/>|Points de décision|<ul><li>Décider s’il est nécessaire de disposer d’un Comité de direction pour votre organisation.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|Étapes suivantes|<ul><li>Identifier les membres du Comité directeur.</li><li>Planifier des réunions de Comité de direction.</li><li>Préparez-vous à la réunion de la direction.</li><li>Mettre en attente des réunions du Comité d’orientation.</li><li>Agir en fonction de l’entrée de la réunion du Comité d’orientation.</li></ul>|
 
 Vous trouverez des instructions détaillées supplémentaires sur la façon d’utiliser un Comité d’orientation approprié dans le [Guide du Comité d’orientation](envision-steering-committee-complete-guide.md).
 

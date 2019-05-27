@@ -15,12 +15,12 @@ description: Tâches et activités requises pour la gestion des services d’éq
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c15d497ec86dcb15e85fc45dda838b5f203c87e0
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 293406bbc8fe8cb97917908bc14f83129ff1bb66
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34343863"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34432871"
 ---
 # <a name="operate-my-service"></a>Exploiter mon service
 
@@ -62,7 +62,7 @@ Assurez-vous que chaque équipe responsable dispose d’une bonne compréhension
 Une fois qu’un contrat est en place, les équipes correspondantes doivent commencer à faire fonctionner leurs rôles.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="Image depicting the next steps"/><br/>Étapes suivantes</td>
 <td><ul><li>Utilisez ce document pour faciliter l’exercice du mappage de rôles opérationnels.</li><li>Rencontrez les équipes du support technique appropriées pour attribuer des noms à chaque élément dans la liste des activités requises.</li><li>Obtenir une acceptation ou une connexion sur les rôles qui vous sont attribués.</li><li>Assurez-vous que les équipes correspondantes disposent des ressources nécessaires pour effectuer les activités requises.</li></ul></td></table>
 
 ### <a name="teams-service-dependencies"></a>Dépendances des services teams

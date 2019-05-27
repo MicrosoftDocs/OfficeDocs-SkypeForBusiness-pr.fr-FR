@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Apprenez à configurer et tester des standards automatiques Cloud pour gérer efficacement les appels pour votre organisation.
-ms.openlocfilehash: d4889f7a33306c970b73651bcaafe9f3e2c8009b
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 892285e2e720e300d9b935f017dedca96e45b411
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34330923"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34432895"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Configurer un standard automatique dans le cloud
 
@@ -65,35 +65,35 @@ Dans le **Centre d’administration de Microsoft teams**, cliquez sur**standards
 
 #### <a name="general-info-page"></a>Page informations générales
 
-![New auto attendant page 1.](media/edacec94-9384-4a87-be0a-5c49a151287e.png)
+![Capture d’écran de la page mon standard automatique](media/edacec94-9384-4a87-be0a-5c49a151287e.png)
 
 * * *
 
-![Numéro 1](media/sfbcallout1.png)
+![Icône du numéro 1 qui référence une légende dans la capture d’écran précédente](media/sfbcallout1.png)
 
 **Nom** Entrez un nom descriptif pour le standard automatique. Le nom est obligatoire et peut contenir jusqu'à 64 caractères, espaces compris. Il sera répertorié dans la colonne **Nom** de l'onglet **Standards automatiques**.
 
 * * *
 
-![Numéro 2](media/sfbcallout2.png)
+![Icône du numéro 2 qui référence une légende dans la capture d’écran précédente](media/sfbcallout2.png)
 
 **Compte de ressources** Cliquez sur ce bouton pour sélectionner un ou plusieurs comptes de ressources pour vous connecter à votre nouveau standard automatique. Tous les standards automatiques doivent disposer d’un compte de ressources associé. Un compte de ressource peut avoir un numéro de téléphone associé au compte, mais ce n’est pas le tout. Le standard automatique de niveau supérieur possède généralement un compte de ressources avec un numéro de téléphone attribué, mais le standard automatique imbriqué (utilisé en tant que menu de niveau 2 auquel le standard automatique de premier niveau est connecté) peut ne pas avoir de numéro de téléphone attribué à son compte de ressources.
 
 * * *
 
-![Nombre 3](media/sfbcallout3.png)
+![Icône du numéro 3 qui référence une légende dans la capture d’écran précédente](media/sfbcallout3.png)
 
 **Fuseau horaire** Vous devez définir le fuseau horaire pour votre standard automatique, mais il ne doit pas nécessairement correspondre à celui de l'adresse principale de votre organisation. Vous pouvez définir un fuseau horaire différent pour chaque standard automatique et les horaires d'ouverture du standard automatique seront définies en fonction du fuseau horaire sélectionné.
 
 * * *
 
-![Numéro 4](media/sfbcallout4.png)
+![Icône du numéro 4, référençant une légende dans la capture d’écran précédente](media/sfbcallout4.png)
 
 **Langue** Sélectionnez la langue que vous souhaitez utiliser pour votre standard automatique parmi les langues disponibles répertoriées. La langue que vous définissez ici correspond à la langue que le standard automatique utilisera pour interagir avec les personnes qui rejoignent le standard automatique et toutes les invites système seront exécutées dans cette langue.
 
 * * *
 
-!["Nombre 5"](media/sfbcallout5.png)
+![Icône du numéro 5 qui référence une légende dans la capture d’écran précédente](media/sfbcallout5.png)
 
 **Opérateur** Cette option est facultative ne doit pas nécessairement être définie pour le standard automatique. Toutefois, vous pouvez définir l’option d' **opérateur** pour les personnes qui appellent pour être en mesure de sortir du menu pour parler à une personne.
 
@@ -113,7 +113,7 @@ L'opérateur peut être défini comme suit :
 
 * * *
 
-![Numéro 6](media/sfbcallout6.png)
+![Icône du numéro 6 qui référence une légende dans la capture d’écran précédente](media/sfbcallout6.png)
 
 **Activer les entrées vocales** La reconnaissance vocale est disponible si cette option est sélectionnée. Les personnes qui appellent dans peuvent utiliser la saisie vocale dans la [langue que vous avez définie](set-auto-attendant-languages-for-audio-conferencing-in-teams.md). Vous pouvez désactiver la reconnaissance vocale en la définissant sur désactivé si vous souhaitez uniquement permettre aux utilisateurs d’utiliser leur clavier téléphonique.
 
@@ -125,17 +125,17 @@ Lorsque vous avez terminé vos sélections, cliquez sur **suivant**.
 
 Par défaut, les heures d’activité sont définies sur 9H à 17h00, du lundi au vendredi.  Toutes les heures exclues des heures d'ouverture sont considérées comme des heures de fermeture. Vous pouvez cliquer sur **Sélectionner une 24/7** pour prendre toutes les heures d’activité. Si vous n’avez pas sélectionné l’option **Sélectionner une 24/7** , la page des **paramètres d’appel après heures** est utilisée pour configurer la gestion des appels après les heures d’activité pour le standard automatique.
 
-![New auto attendant Hours of operation.](media/61769547-cdb4-45c0-af5a-3d6e0731fbc6.png)
+![Capture d’écran de la page des heures de bureau](media/61769547-cdb4-45c0-af5a-3d6e0731fbc6.png)
 
 * * *
 
-![Numéro 1](media/sfbcallout1.png)
+![Icône du numéro 1 qui référence une légende dans la capture d’écran précédente](media/sfbcallout1.png)
 
 Par défaut, les heures d’activité sont définies comme du lundi au vendredi, 9:00 AM-5:00 pm. Sélectionnez l’option **effacer toutes les heures** pour désélectionner toutes les heures heures dans le planning. Lorsque vous sélectionnez **rétablir les valeurs par défaut**, les heures d’ouverture sont réinitialisées au lundi au vendredi, 9:00 am-5:00 pm.
 
 * * *
 
-![Numéro 2](media/sfbcallout2.png)
+![Icône du numéro 2 qui référence une légende dans la capture d’écran précédente](media/sfbcallout2.png)
 
 Pour modifier les heures d'ouverture, mettez en surbrillance les heures d'ouverture que vous voulez définir à l'aide du calendrier. Le calendrier vous permet de sélectionner des heures d’ouverture par intervalle de 30 minutes, et les heures d’ouverture sélectionnées ici seront définies en fonction du fuseau horaire que vous avez défini dans la page **informations générales** . Pour configurer une coupure (pour le déjeuner, par exemple), désélectionnez ou faites glisser pour désélectionner l'heure dans le calendrier. Vous pouvez définir plusieurs sauts dans les heures de bureau.
 
@@ -150,12 +150,12 @@ Lorsque vous avez terminé vos sélections, cliquez sur **suivant**.
 
 Vous pouvez configurer des messages d’accueil, des invites et des menus que les personnes qui rejoignent le numéro de téléphone du standard automatique de votre organisation pourront entendre pendant les heures d’activité.
 
-![Gestion des appels pendant les heures d’activité. ](media/2a33b1f7-d362-47a7-bf32-ef702bc878e8.png)
-Gestion des appels pendant les heures d’appel ![suite.](media/2a33b1f7-d362-47a7-bf32-ef702bc878e8b.png)
+![Capture d’écran de la section](media/2a33b1f7-d362-47a7-bf32-ef702bc878e8.png)
+![d’accueil de la page de gestion des appels en heures d’activité](media/2a33b1f7-d362-47a7-bf32-ef702bc878e8b.png)
 
 * * *
 
-![Numéro 1](media/sfbcallout1.png)
+![Icône du numéro 1 qui référence une légende dans la capture d’écran précédente](media/sfbcallout1.png)
 
 **Message d’accueil** Un message d’accueil d’heures d’entreprise est facultatif et **ne peut pas**être défini pour le message d’accueil. Dans le cas présent, l’appelant n’entendra aucun message ou message d’accueil avant que l’appel ne soit géré par l’une des actions que vous sélectionnez. Vous pouvez également charger un fichier audio (au format .wav, mp3 ou .wma), ou créer un messager d'accueil personnalisé à l'aide de la synthèse vocale.
 
@@ -165,7 +165,7 @@ Gestion des appels pendant les heures d’appel ![suite.](media/2a33b1f7-d362-47
 
 * * *
 
-![Numéro 2](media/sfbcallout2.png)
+![Icône du numéro 2 qui référence une légende dans la capture d’écran précédente](media/sfbcallout2.png)
 
 Vous pouvez sélectionner ce qu’il advient des appels en temps réel. Vous pouvez choisir l’une des actions suivantes:
 
@@ -184,13 +184,13 @@ Vous pouvez sélectionner ce qu’il advient des appels en temps réel. Vous pou
 
 * * *
 
-![Nombre 3](media/sfbcallout3.png)
+![Icône du numéro 3 qui référence une légende dans la capture d’écran précédente](media/sfbcallout3.png)
 
 **Invite de menu** Pour créer une invite de menu principale, vous pouvez utiliser la synthèse vocale ou charger un fichier audio (.wav, .mp3 ou .wma). Vous pouvez taper l’invite dans la zone **Définissez votre navigation pour** les appelants ou enregistrez un fichier audio et dites, par exemple: «pour les ventes, Say ou appuyer sur 1. Pour contacter le département des Services, dites 2 ou appuyez sur 2. Pour contacter le service clientèle, dites 3 ou appuyez sur 3. Pour contacter l'opérateur, dites 0 ou appuyez sur 0. Pour réécouter ce menu, appuyez sur étoile ou dites répéter. **Taper un message d’accueil** Si vous avez choisi cette méthode, vous devez entrer le texte que le système devra lire (jusqu’à 1000 caractères). **Charger un fichier audio** Si vous choisissez cette option, vous devrez enregistrer le message d'accueil puis charger votre fichier audio (au format .wav, .mp3 ou .wma).
 
 * * *
 
-![Numéro 4](media/sfbcallout4.png)
+![Icône du numéro 4, référençant une légende dans la capture d’écran précédente](media/sfbcallout4.png)
 
 **Configuration des options de menu** Il est possible d’ajouter ou de supprimer des options de menu à l’aide de boutons clés sur le clavier. Pour ajouter une option de menu, appuyez sur **+ affecter une touche de numérotation**. Une ligne d’options correspondante apparaît en dessous. Pour supprimer une option de menu, il vous suffit de cliquer à gauche de la touche correspondante dans le contrôle clavier et de cliquer sur l’icône de suppression située au-dessus. La ligne de mappage clé sera supprimée.
 
@@ -223,7 +223,7 @@ Pour configurer vos options de menu, après avoir sélectionné la ou les touche
 
 * * *
 
-!["Nombre 5"](media/sfbcallout5.png)
+![Icône du numéro 5 qui référence une légende dans la capture d’écran précédente](media/sfbcallout5.png)
 
 **Numérotation par nom** Si vous choisissez cette option, les utilisateurs qui se connectent pour rechercher des personnes dans votre organisation doivent effectuer une recherche dans l’annuaire. Vous pouvez sélectionner les personnes qui seront répertoriées comme disponibles ou non disponibles pour la Numérotation par nom en configurant ces options dans la page de **portée de la numérotation**. Tout utilisateur en ligne disposant d'une licence **   Phone System**  ou de tout utilisateur hébergé sur site à l'aide de Skype Professionnel Server 2015 ou Lync Server 2013 peut être trouvé avec Composer par Nom.
 
@@ -239,9 +239,9 @@ Vous pouvez ajouter jusqu'à 20 congés planifiés pour chaque standard automati
 > [!TIP]
 > Vous pouvez accéder à l’écran des **** > **jours fériés** de votre organisation pour créer des jours fériés ou vous pouvez les créer dans le cadre de la création d’un nouveau gestionnaire d’appels.
 
-![Définition des congés dans le standard automatique](media/50a5ce88-7f39-4210-808a-da7ced969854.png)
+![Capture d’écran de la page des paramètres des appels de vacances](media/50a5ce88-7f39-4210-808a-da7ced969854.png)
 
-![Numéro 1](media/sfbcallout1.png)
+![Icône du numéro 1 qui référence une légende dans la capture d’écran précédente](media/sfbcallout1.png)
 
 Si vous avez déjà créé d’autres standards automatiques, vous verrez peut-être une option que vous pouvez utiliser ou modifier dans ce que vous avez besoin de cette liste. Si ce n’est pas le cas, vous devez créer un nouveau gestionnaire d’appels.
 
@@ -249,19 +249,19 @@ Pour ajouter un nouveau gestionnaire d’appels, cliquez sur **+ nouveau gestion
 
 * * *
 
-![Configuration des jours fériés dans le standard automatique suite](media/50a5ce88-7f39-4210-808a-da7ced969854b.png)
+![Capture d’écran montrant l’ajout d’un nouveau gestionnaire d’appels](media/50a5ce88-7f39-4210-808a-da7ced969854b.png)
 
-![Numéro 1](media/sfbcallout1.png)
+![Icône du numéro 1 qui référence une légende dans la capture d’écran précédente](media/sfbcallout1.png)
 
 Dans la nouvelle fenêtre, entrez un nom pour votre nouveau gestionnaire d’appels dans la partie supérieure de l’écran.
 
-![Numéro 2](media/sfbcallout2.png)
+![Icône du numéro 2 qui référence une légende dans la capture d’écran précédente](media/sfbcallout2.png)
 
 Si le nom de votre vacances existe déjà dans la liste déroulante **vacances** , vous pouvez l’utiliser. Si vous n’avez pas encore le nom du jour férié dont vous avez besoin, sélectionnez **créer un jour férié** dans la liste déroulante et attribuez un nom et une date pour le nouveau jour férié dans l’écran nouveau qui s’affiche. Cliquez sur **Enregistrer** lorsque vous êtes prêt.
 
 Noms des jours fériés peuvent contenir jusqu'à 64 caractères et doivent être unique pour le même standard automatique. Par exemple, vous ne pouvez pas de jours fériés nommés « Actiondegrâce » dans le même standard automatique.
 
-![Nombre 3](media/sfbcallout3.png)
+![Icône du numéro 3 qui référence une légende dans la capture d’écran précédente](media/sfbcallout3.png)
 
 **Message d’accueil** Le message d’accueil est facultatif et ne peut **pas**être défini pour le message d’accueil. Dans ce cas, l'appelant n'entendra aucun message ou salutation avant le traitement de son appel par l'une des options sélectionnées. Vous pouvez également charger un fichier audio (au format .wav, mp3 ou .wma), ou créer un messager d'accueil personnalisé à l'aide de la synthèse vocale.
 
@@ -269,7 +269,7 @@ Noms des jours fériés peuvent contenir jusqu'à 64 caractères et doivent êtr
 - **Télécharger un fichier audio** Si vous choisissez cette fonction, enregistrez le message d’accueil du jour férié, puis chargez votre fichier audio (au format. wav,. mp3 ou. WMA).
 - **Taper un message d’accueil** Si vous choisissez cette option, entrez le texte que le système doit lire (jusqu’à 1000 caractères). Par exemple, vous pouvez entrer « bonne année ! Nos bureaux sont actuellement fermés. dans la boîte de dialogue **taper un message d’accueil** .
 
-![Numéro 4](media/sfbcallout4.png)
+![Icône du numéro 4, référençant une légende dans la capture d’écran précédente](media/sfbcallout4.png)
 
 **Actions** Vous pouvez sélectionner ce qu’il advient des appels à ce jour. Vous pouvez choisir parmi les options suivantes :
 
@@ -290,18 +290,18 @@ Noms des jours fériés peuvent contenir jusqu'à 64 caractères et doivent êtr
 
 Dans cette page, vous pouvez configurer les utilisateurs de votre organisation qui seront répertoriés dans votre annuaire et disponibles pour le numérotation par nom lorsqu’une personne appelle votre organisation.
 
-![Dial scope for searching with dial by name.](media/1bcb185c-00db-43a7-b5c4-9b021c0627f7.png)
+![Capture d’écran montrant la page de portée de numérotation](media/1bcb185c-00db-43a7-b5c4-9b021c0627f7.png)
 
 * * *
 
-![Numéro 1](media/sfbcallout1.png) grâce à l’option **inclure** , vous avez deux possibilités:
+![Icône du numéro 1, qui référence une légende dans la capture d'](media/sfbcallout1.png) écran précédente à l’aide de l’option **inclure** , vous avez deux options:
 
 - **Tous les utilisateurs en ligne** Cette option permet d'inclure toutes les personnes de votre organisation dans la recherche dans l'annuaire. Tous les utilisateurs en ligne avec une licence de **Système téléphonique** , ainsi que les utilisateurs hébergés sur site à l’aide de Skype Professionnel Server 2015 ou Lync Server 2013 qui ont des Plans d’appel dans Office 365, apparaîtront.
 - **Groupe d’utilisateurs personnalisés** Si vous utilisez cette option, vous pouvez rechercher un groupe Office 365, une liste de distribution ou un groupe de sécurité qui a été créé au sein de votre organisation et les personnes ajoutées à ce groupe Office 365, liste de distribution ou groupe de sécurité qui sont des **utilisateurs en ligne avec un Licence du système téléphonique** ou hébergé sur site avec Skype entreprise Server 2015 ou Lync Server 2013. Vous pouvez ajouter plusieurs groupes 365 Office, des listes de distribution et des groupes de sécurité.
 
 * * *
 
-![Numéro 2](media/sfbcallout2.png)
+![Icône du numéro 2 qui référence une légende dans la capture d’écran précédente](media/sfbcallout2.png)
 
 L’option **exclure** présente deux choix:
 

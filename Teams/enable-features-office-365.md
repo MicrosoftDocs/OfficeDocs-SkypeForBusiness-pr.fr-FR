@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a61a9e31e2c1ba7c33da3a09d213e1ab0339756b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 69b23cefcfa6329e95e3413d720b3033250dd504
+ms.sourcegitcommit: 349df7248c168e629bc1bb633187e39a37b17ba5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32246059"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "34421994"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>Gérer les paramètres de Microsoft Teams pour votre organisation
 
@@ -59,8 +59,6 @@ Ces applications sont fournies par des tiers. Vous pouvez configurer les paramè
 - **Permettre le chargement transversal des applications externes**: Si vous souhaitez activer certaines applications externes et en désactiver d’autres, désactivez ce paramètre et, dans la liste des applications externes, désactivez les applications auxquelles vous ne voulez pas que les utilisateurs accèdent. Lorsque ce paramètre est activé, les propriétaires d’équipes et les membres autorisés peuvent charger une version test des applications dans Teams. 
 
 - **Activer les applications externes nouvelles par défaut** : lorsque ce paramètre est activé, les utilisateurs peuvent activer les nouvelles applications dès qu'elles sont ajoutées au catalogue d'applications Teams. Désactivez ce paramètre si vous souhaitez contrôler les nouvelles applications. Bien sûr, si vous le désactivez, n'oubliez pas de vérifier régulièrement les nouvelles applications afin que votre organisation ne passe pas à côté de nouvelles applications intéressantes. 
-
-Pour en savoir plus, consultez la rubrique [Paramètres d'administration des applications dans Teams](admin-settings.md). 
 
 ## <a name="teams-org-wide-settings-in-the-microsoft-teams-admin-center"></a>Paramètres Teams à l’échelle de l’organisation dans le centre d’administration de Microsoft Teams
 Vous pouvez contrôler les paramètres utilisateur à l’échelle de l’organisation dans le centre d’administration de Microsoft Teams. Pour modifier les paramètres à l’échelle de l’organisation, accédez au centre d’administration de Microsoft Teams, puis sélectionnez **Paramètres à l’échelle de l’organisation**. Vous pouvez configurer les paramètres suivants.
@@ -128,7 +126,7 @@ Cette option vous permet de sélectionnez l’application que les utilisateurs u
 
 ## <a name="how-can-i-tell-which-features-are-available"></a>Comment puis-je savoir quelles fonctionnalités sont disponibles ?
 
-Pour des informations sur les nouvelles fonctionnalités de Teams, reportez-vous à la [Feuille de route Microsoft 365](https://www.microsoft.com/en-us/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams). Pour plus d'informations sur les fonctionnalités nouvelles et à venir, consultez la page [Nouveautés](https://support.office.com/en-us/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de?ui=en-US&rs=en-US&ad=US) de Teams et le [blog Microsoft Teams de la communauté technique](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/What-s-new-in-Teams-Microsoft-Ignite-Edition/ba-p/252531). 
+Pour des informations sur les nouvelles fonctionnalités de Teams, reportez-vous à la [Feuille de route Microsoft 365](https://www.microsoft.com/en-us/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams). Pour plus d'informations sur les fonctionnalités nouvelles et à venir, consultez la page [Nouveautés](https://support.office.com/fr-FR/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de?ui=en-US&rs=en-US&ad=US) de Teams et le [blog Microsoft Teams de la communauté technique](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/What-s-new-in-Teams-Microsoft-Ignite-Edition/ba-p/252531). 
 
 ## <a name="more-information"></a>Plus d’informations
 

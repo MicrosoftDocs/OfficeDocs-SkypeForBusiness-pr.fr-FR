@@ -20,162 +20,162 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.contentsharing
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
-description: Apprenez à gérer les paramètres de stratégie dans les équipes de réunion.
-ms.openlocfilehash: 99458e71ae02eb6307b3f363dbf7e060e1b4ed5b
-ms.sourcegitcommit: 85b135cf622c9e9eb1857ef953bc618dc2cdb51e
+description: Apprenez à gérer les paramètres de la stratégie de réunion dans Teams.
+ms.openlocfilehash: b6ab6674da7212f14e7315a34cced60fcabe3e1f
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34036628"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34433254"
 ---
-# <a name="manage-meeting-policies-in-teams"></a>Gérer les stratégies de la réunion dans les équipes
+# <a name="manage-meeting-policies-in-teams"></a>Gérer les stratégies de réunion dans teams
 
 ::: zone target="docs"
-Stratégies de réunion sont utilisés pour contrôler les fonctionnalités qui sont disponibles pour les participants à des réunions sont planifiées par les utilisateurs de votre organisation. Une fois que vous créez une stratégie et apportez vos modifications, vous pouvez ensuite affecter les utilisateurs à la stratégie. Gérer les stratégies de la réunion dans le centre d’administration Microsoft Teams ou à [l’aide de PowerShell](teams-powershell-overview.md).
+Les stratégies de réunion sont utilisées pour contrôler les fonctionnalités qui sont disponibles pour les réunions planifiées par les utilisateurs de votre organisation. Lorsque vous créez une stratégie et apportez les modifications souhaitées, vous pouvez attribuer des utilisateurs à la stratégie. Vous gérez les stratégies de réunion dans le centre d’administration Microsoft teams ou en [utilisant PowerShell](teams-powershell-overview.md).
 
-Vous pouvez implémenter des stratégies de la façon suivante, qui affectent l’expérience des utilisateurs avant une réunion démarre, pendant une réunion ou une réunion. 
+Vous pouvez mettre en œuvre des stratégies comme suit, ce qui a un impact sur l’interface de réunion pour les utilisateurs avant le début d’une réunion, pendant une réunion ou après une réunion. 
 
 |Type d’implémentation  |Description  |
 |---------|---------|
-|Par organisateur    |Lorsque vous implémentez une stratégie par organisateur, tous les participants à la réunion héritent de la stratégie de l’organisateur. Par exemple, **accepter des personnes** est une stratégie par organisateur et les contrôles si les utilisateurs rejoignent la réunion directement ou attendent dans la salle d’attente pour les réunions planifiées par l’utilisateur qui est affecté à la stratégie.          |
-|Par utilisateur    |Lorsque vous implémentez une stratégie utilisateur, seulement la stratégie par utilisateur s’applique pour limiter certaines fonctionnalités pour les participants à la bibliothèque multimédia et/ou de la réunion. Par exemple, **Autoriser Conférence maintenant** est une stratégie par utilisateur.     |
-|Par organisateur et par utilisateur     |Lorsque vous implémentez une combinaison d’une stratégie par organisateur et par utilisateur, certaines fonctionnalités sont limitées pour participants en fonction de sa stratégie et la stratégie de l’organisateur de la réunion. Par exemple, **dans le nuage autoriser d’enregistrement** est une stratégie par organisateur et par utilisateur. Activez ce paramètre pour autoriser l’organisateur de la réunion et les participants pour démarrer et arrêter un enregistrement. 
+|Par organisateur    |Lorsque vous implémentez une stratégie par organisateur, tous les participants à la réunion héritent de la stratégie de l’organisateur. Par exemple, l' **admission automatique de personnes** est une stratégie par organisateur et détermine si les utilisateurs rejoignent directement la réunion ou s’il attend dans la salle d’attente pour les réunions planifiées par l’utilisateur qui dispose de la stratégie.          |
+|Par utilisateur    |Lorsque vous implémentez une stratégie par utilisateur, seule la stratégie par utilisateur s’applique pour limiter certaines fonctionnalités pour les participants de la réunion ou de l’organisateur. Par exemple, l’autorisation de l’utilisation de la **fonction Conférence maintenant** est une stratégie par utilisateur.     |
+|Par organisateur et par utilisateur     |Lorsque vous implémentez une combinaison d’une stratégie par utilisateur et par utilisateur, certaines fonctionnalités sont limitées pour les participants à la réunion en fonction de leur politique et de la stratégie de l’organisateur. Par exemple, **l’autorisation de l’enregistrement Cloud** est une stratégie par utilisateur et par utilisateur. Activez ce paramètre pour autoriser l’organisateur de la réunion et les participants à démarrer et arrêter un enregistrement. 
 
-Par défaut, une stratégie nommée Global (valeur par défaut à l’échelle de l’organisation) est créée. Tous les utilisateurs de votre organisation recevront cette stratégie de réunion par défaut. Apporter des modifications à cette stratégie ou créer un ou plusieurs des stratégies personnalisées et leur affecter des utilisateurs. Lorsque vous créez une stratégie personnalisée, vous pouvez autoriser ou empêcher certaines fonctionnalités disponibles pour vos utilisateurs et puis l’affecter à un ou plusieurs utilisateurs qui possèdent les paramètres qui leur sont appliquées. 
+Par défaut, la création d’une stratégie nommée global (au niveau de l’organisation par défaut) est créée. Par défaut, tous les utilisateurs de votre organisation reçoivent cette stratégie de réunion. Vous pouvez modifier cette stratégie ou en créer une ou plusieurs, et leur affecter des utilisateurs. Lorsque vous créez une stratégie personnalisée, vous pouvez autoriser ou empêcher l’accès à certaines fonctionnalités à vos utilisateurs, puis les affecter à un ou plusieurs utilisateurs qui disposeront de ces paramètres. 
 
-## <a name="change-or-create-a-meeting-policy"></a>Modifier ou créer une stratégie de réunion
+## <a name="change-or-create-a-meeting-policy"></a>Modification ou création d’une stratégie de réunion
 
-Pour modifier ou créer une stratégie de réunion, accédez à la > de centre d’administration Microsoft Teams **réunions** > **stratégies de la réunion**. Sélectionnez une stratégie dans la liste ou sélectionnez **nouvelle stratégie**. Si vous créez une nouvelle stratégie, ajoutez un nom et une description. Le nom ne peut pas contenir des caractères spéciaux ou être plus de 64 caractères. Choisir les paramètres, puis cliquez sur **Enregistrer**.
+Pour modifier ou créer une stratégie de réunion, accédez au centre d’administration Microsoft teams > les**stratégies de réunion**des **réunions** > . Sélectionnez une stratégie dans la liste ou sélectionnez **nouvelle stratégie**. Si vous créez une nouvelle stratégie, ajoutez un nom et une description. Le nom ne peut pas contenir des caractères spéciaux ou comporter plus de 64 caractères. Choisissez vos paramètres, puis sélectionnez **Enregistrer**.
 
-Par exemple, vous disposez d’un ensemble d’utilisateurs et que vous souhaitez limiter la quantité de bande passante qui nécessite leur réunion. Vous créez une nouvelle stratégie personnalisée appelée « Bande passante limitée » et désactiver les paramètres suivants :
+Par exemple, imaginons que vous disposiez d’un certain nombre d’utilisateurs et que vous voulez limiter la bande passante nécessaire à la réunion. Vous pouvez créer une stratégie personnalisée nommée «bande passante limitée» et désactiver les paramètres suivants:
 
-Sous **Audio & vidéo**:
-- Désactiver le nuage d’enregistrement
-- Désactiver la vidéo IP Autoriser
+Sous **audio & vidéo**:
+- Désactiver l’enregistrement dans le Cloud
+- Désactiver l’option autoriser la vidéo IP
 
 Sous **partage de contenu**:
 - Désactiver le mode de partage d’écran
 - Désactiver le tableau blanc
 - Désactiver les notes partagées
 
-Ensuite, attribuez la stratégie aux utilisateurs.
+Affectez ensuite la stratégie aux utilisateurs.
 
 > [!NOTE] 
-> Un utilisateur peut être affecté à une stratégie de réunion qu’un seul à la fois. 
+> Un utilisateur ne peut être associé qu’à une seule stratégie de réunion à la fois. 
 
-## <a name="assign-a-meeting-policy-to-users"></a>Affecter une stratégie de réunion aux utilisateurs
+## <a name="assign-a-meeting-policy-to-users"></a>Attribuer une stratégie de réunion aux utilisateurs
 
-Si vous appliquez la stratégie à un utilisateur, sélectionnez **les utilisateurs** dans le volet de navigation de gauche, puis cliquez sur le nom complet de l’utilisateur. Sur la page de l’utilisateur, en regard de **stratégies attribuées**, sélectionnez **Modifier**. Puis, dans le volet **Modifier les stratégies d’utilisateur** , sous **stratégie de réunion**, sélectionnez la stratégie de réunion à partir de la liste déroulante, puis cliquez sur **Enregistrer**. Vous pouvez également affecter des stratégies à partir de la liste des utilisateurs. Pour ce faire, sélectionnez l’utilisateur en cliquant à gauche du nom complet de l’utilisateur. Sélectionnez **Modifier les paramètres**. Puis, dans le volet **Modifier les paramètres** , sous **stratégie de réunion**, sélectionnez la stratégie dans la liste déroulante, puis cliquez sur **Enregistrer**. 
+Si vous appliquez une stratégie à un utilisateur, sélectionnez **utilisateurs** dans le volet de navigation gauche, puis cliquez sur le nom complet de l’utilisateur. Dans la page de l’utilisateur, en regard de **stratégies affectées**, sélectionnez **modifier**. Dans le volet **modifier les stratégies d’utilisateur** , sous **stratégie de réunion**, sélectionnez la stratégie de réunion dans la liste déroulante, puis sélectionnez **Enregistrer**. Vous pouvez également attribuer des stratégies à partir de la liste des utilisateurs. Pour cela, sélectionnez l’utilisateur en cliquant à gauche du nom complet de l’utilisateur. Sélectionnez **modifier les paramètres**. Dans le volet **modifier les paramètres** , sous **stratégie de réunion**, sélectionnez la stratégie dans la liste déroulante, puis sélectionnez **Enregistrer**. 
  
-Si vous appliquez une stratégie à plusieurs utilisateurs, sélectionnez des **utilisateurs** dans le volet de navigation de gauche, puis sélectionnez chaque utilisateur en cliquant sur à gauche du nom d’utilisateur et puis cliquez sur **Modifier les paramètres**. Dans le volet **Modifier les paramètres** , sous **stratégie de réunion**, sélectionnez la stratégie dans la liste déroulante, puis cliquez sur **Enregistrer**.
+Si vous appliquez une stratégie à plusieurs utilisateurs, sélectionnez **utilisateurs** dans le volet de navigation gauche, puis sélectionnez chaque utilisateur en cliquant à gauche du nom de l’utilisateur, puis cliquez sur **modifier les paramètres**. Dans le volet **modifier les paramètres** , sous stratégie de **réunion**, sélectionnez la stratégie dans la liste déroulante, puis sélectionnez **Enregistrer**.
  
-Vous pouvez également assigner une stratégie de réunion comme suit pour un ou plusieurs utilisateurs :
+Vous pouvez également affecter une stratégie de réunion à un ou plusieurs utilisateurs comme suit:
 
-1. Accédez au **Centre d’administration de Microsoft équipes** > **réunions** > **stratégies de la réunion**.
+1. Accédez**** > au **Centre** > d’administration Microsoft teams**stratégies de réunion**.
 2. Sélectionnez la stratégie en cliquant à gauche du nom de la stratégie.
-3. Sélectionnez **Gérer les utilisateurs**.
-4. Dans le volet **Gérer les utilisateurs** , recherchez l’utilisateur par nom complet ou par un nom d’utilisateur, sélectionnez le nom, puis sélectionnez **Ajouter**. Répétez cette étape pour chaque utilisateur que vous souhaitez ajouter.
+3. Sélectionnez **gérer les utilisateurs**.
+4. Dans le volet **gérer les utilisateurs** , recherchez l’utilisateur par nom complet ou par nom d’utilisateur, sélectionnez le nom, puis sélectionnez **Ajouter**. Répétez cette étape pour chaque utilisateur que vous souhaitez ajouter.
 5. Lorsque vous avez terminé d’ajouter des utilisateurs, cliquez sur **Enregistrer**.
  
 > [!NOTE] 
-> Impossible de supprimer une stratégie si les utilisateurs sont qui lui est affectés. Vous devez d’abord attribuer une stratégie différente à tous les utilisateurs concernés, et vous pouvez supprimer la stratégie d’origine.
+> Vous ne pouvez pas supprimer une stratégie s’il est affecté à des utilisateurs. Vous devez d’abord affecter une stratégie différente à tous les utilisateurs concernés, puis supprimer la stratégie d’origine.
  
-## <a name="meeting-policy-settings"></a>Paramètres de stratégie de réunion
+## <a name="meeting-policy-settings"></a>Paramètres de la stratégie de réunion
 
-Lorsque vous sélectionnez une stratégie existante dans la page de **stratégies de réunion** ou sélectionnez **nouvelle stratégie** pour ajouter une nouvelle stratégie, vous pouvez configurer les paramètres suivants.
+Lorsque vous sélectionnez une stratégie existante dans la page stratégies de la **réunion** ou sélectionnez **nouvelle stratégie** pour ajouter une nouvelle stratégie, vous pouvez configurer les paramètres pour les éléments suivants.
 
 - [Général](#meeting-policy-settings---general)
 - [Audio & vidéo](#meeting-policy-settings---audio--video)
 - [Partage de contenu](#meeting-policy-settings---content-sharing)
-- [Invités & des participants](#meeting-policy-settings---participants--guests)
+- [Participants & invités](#meeting-policy-settings---participants--guests)
 
 ::: zone-end 
 
 <a name="bkgeneral"> </a>
 
-## <a name="meeting-policy-settings---general"></a>Paramètres de stratégie de réunion - général
+## <a name="meeting-policy-settings---general"></a>Paramètres de la stratégie de réunion-général
 
-- [Autoriser la conférence maintenant dans des canaux](#allow-meet-now-in-channels)
-- [Autoriser privée Conférence maintenant (bientôt disponible)](#allow-private-meet-now-coming-soon)
+- [Autoriser la Conférence maintenant dans les canaux](#allow-meet-now-in-channels)
+- [Autoriser une conférence privée (bientôt disponible)](#allow-private-meet-now-coming-soon)
 - [Autoriser le complément Outlook](#allow-the-outlook-add-in)
-- [Autoriser la planification de réunion de canal](#allow-channel-meeting-scheduling)
+- [Autoriser la planification des réunions de canal](#allow-channel-meeting-scheduling)
 - [Autoriser la planification de réunions privées](#allow-scheduling-private-meetings)
 
-### <a name="allow-meet-now-in-channels"></a>Autoriser la conférence maintenant dans des canaux
+### <a name="allow-meet-now-in-channels"></a>Autoriser la Conférence maintenant dans les canaux
 
-Il s’agit d’une stratégie par utilisateur et s’applique avant une réunion commence. Ce paramètre contrôle si un utilisateur peut démarrer une réunion ad-hoc dans un canal d’équipes. Si vous activez ce, lorsqu’un utilisateur publie un message dans un canal d’équipes, l’utilisateur peut cliquer sur **Conférence maintenant** sous la zone de message pour démarrer une réunion ad hoc dans le canal.
+Il s’agit d’une stratégie par utilisateur qui s’applique avant le début d’une réunion. Ce paramètre détermine si un utilisateur peut démarrer une réunion ad hoc dans un canal d’équipe. Si vous activez cette case à costar, lorsque l’utilisateur publie un message dans un canal d’équipe, il peut cliquer sur **Conférence maintenant** sous la zone de rédaction pour démarrer une réunion ad hoc dans le canal.
 
-![réunion-stratégies-conférence-now.png](media/meeting-policies-meet-now.png)
+![Capture d’écran montrant l’icône Conférence maintenant sous un message](media/meeting-policies-meet-now.png)
 
-### <a name="allow-private-meet-now-coming-soon"></a>Autoriser privée Conférence maintenant (bientôt disponible)
+### <a name="allow-private-meet-now-coming-soon"></a>Autoriser une conférence privée (bientôt disponible)
 
-Il s’agit d’une stratégie par utilisateur et s’applique avant une réunion commence. Ce paramètre contrôle si un utilisateur peut démarrer une réunion ad hoc privée.  
+Il s’agit d’une stratégie par utilisateur qui s’applique avant le début d’une réunion. Ce paramètre détermine si un utilisateur peut démarrer une réunion privée ad hoc.  
 
 ### <a name="allow-the-outlook-add-in"></a>Autoriser le complément Outlook
 
-Il s’agit d’une stratégie par utilisateur et s’applique avant une réunion commence. Ce paramètre contrôle si les réunions d’équipes peuvent être planifiées à partir d’Outlook (Windows, Mac, web et mobile).
+Il s’agit d’une stratégie par utilisateur qui s’applique avant le début d’une réunion. Ce paramètre détermine si les réunions d’équipes peuvent être planifiées dans Outlook (Windows, Mac, Web et mobile).
 
-![réunion-stratégies-outlook-ajouter-in.png](media/meeting-policies-outlook-add-in.png)
+![Capture d’écran montrant la possibilité de planifier une nouvelle réunion](media/meeting-policies-outlook-add-in.png)
 
-Si vous désactivez cette option, les utilisateurs ne peuvent pas planifier des réunions d’équipes lorsqu’ils créent une nouvelle réunion dans Outlook. Par exemple, dans Outlook sur Windows, l’option **Nouvelle réunion équipes** n’apparaît pas dans le ruban.
+Si vous désactivez cette fonctionnalité, les utilisateurs ne sont pas en mesure de planifier des réunions d’équipes lors de la création d’une réunion dans Outlook. Par exemple, dans Outlook sur Windows, l’option **nouvelle réunion teams** ne s’affiche pas dans le ruban.
 
-### <a name="allow-channel-meeting-scheduling"></a>Autoriser la planification de réunion de canal
+### <a name="allow-channel-meeting-scheduling"></a>Autoriser la planification des réunions de canal
 
-Il s’agit d’une stratégie par utilisateur et s’applique avant une réunion commence. Ce paramètre contrôle si les utilisateurs peuvent planifier une réunion dans un canal d’équipes.  Si vous désactivez cette option, l’option de **planifier une réunion** ne sera disponible pour les utilisateurs lorsqu’ils lancer une réunion dans un canal d’équipes et l’option **Sélectionner un canal pour répondre aux** n’est pas disponible à l’utilisateur lorsqu’ils planifient une réunion à partir de réunions dans les équipes.
+Il s’agit d’une stratégie par utilisateur qui s’applique avant le début d’une réunion. Ce paramètre détermine si les utilisateurs peuvent planifier une réunion dans un canal d’équipe.  Si vous désactivez cette case à cocher, l’option **planifier une réunion** ne sera pas disponible pour l’utilisateur lorsqu’il lancera une réunion dans un canal d’équipe et l’option **Sélectionner un canal pour** la réunion ne sera pas disponible pour l’utilisateur lors de la planification d’une réunion à partir de réunions en équipe.
 
-![réunion planification de stratégies a meeting.png](media/meeting-policies-schedule-a-meeting.png)
+![Capture d’écran montrant l’option planifier une réunion dans teams](media/meeting-policies-schedule-a-meeting.png)
 
-![Meeting-Policies-Select-a-Channel-to-Meet-in.png](media/meeting-policies-select-a-channel-to-meet-in.png)
+![Capture d’écran montrant l’option Sélectionner un canal pour la réunion](media/meeting-policies-select-a-channel-to-meet-in.png)
 
 ### <a name="allow-scheduling-private-meetings"></a>Autoriser la planification de réunions privées
 
-Il s’agit d’une stratégie par utilisateur et s’applique avant une réunion commence. Ce paramètre contrôle si les utilisateurs peuvent planifier les réunions privées dans les équipes. Une réunion est privée lorsqu’il n’est pas publié à une chaîne dans une équipe.
+Il s’agit d’une stratégie par utilisateur qui s’applique avant le début d’une réunion. Ce paramètre détermine si les utilisateurs peuvent planifier des réunions privées dans Teams. Une réunion est privée lorsque celle-ci n’est pas publiée sur un canal d’une équipe.
 
-Notez que si vous désactivez **Autoriser la planification de réunions privées** et **planifier des réunions autoriser canal**, l’option **Organiser une réunion** ne sera pas disponible et les utilisateurs ne pourront pas planifier des réunions dans les équipes.
+Remarque: Si vous désactivez l’option **autoriser la planification de réunions privées** et **autoriser la planification**des réunions de canal, l’option **planifier une réunion** ne sera pas disponible et les utilisateurs ne seront pas en mesure de planifier des réunions dans Teams.
 
 <a name="bkaudioandvideo"> </a>
 
-## <a name="meeting-policy-settings---audio--video"></a>Paramètres de stratégie de réunion - & Audio vidéo
+## <a name="meeting-policy-settings---audio--video"></a>Paramètres de la stratégie de réunion-vidéo & audio
 
 - [Autoriser la transcription](#allow-transcription)
-- [Autoriser le nuage d’enregistrement](#allow-cloud-recording)
+- [Autoriser l’enregistrement Cloud](#allow-cloud-recording)
 - [Autoriser la vidéo IP](#allow-ip-video)
-- [Vitesse de transmission multimédia (Kbits/s)](#media-bit-rate-kbs)
-- [Activer les légendes live (bientôt disponible)](#enable-live-captions-coming-soon)
+- [Taux d’échantillonnage du support (Ko)](#media-bit-rate-kbs)
+- [Activer les légendes dynamiques (bientôt disponible)](#enable-live-captions-coming-soon)
 
 ### <a name="allow-transcription"></a>Autoriser la transcription
 
-Il s’agit d’une combinaison d’une stratégie par organisateur et par utilisateur. Ce paramètre contrôle si les légendes et les fonctionnalités de transcription sont disponibles lors de la lecture des enregistrements de réunions. Si vous désactivez cette option, les options de **recherche** et **CC** ne sont pas disponibles pendant la lecture d’un enregistrement de la réunion. La personne qui a initié l’enregistrement a besoin de ce paramètre est activé afin que l’enregistrement comprend également une transcription. 
+Il s’agit d’une combinaison d’une stratégie par l’organisateur et par utilisateur. Ce paramètre détermine si les légendes et les fonctionnalités de transcription sont disponibles lors de la lecture des enregistrements de réunion. Si vous désactivez cette fonctionnalité, les options **Rechercher** et **CC** ne seront pas disponibles lors de la lecture de l’enregistrement d’une réunion. Ce paramètre doit être activé pour la personne qui a créé l’enregistrement. 
 
-Notez que la transcription pour les réunions enregistrées est actuellement uniquement pris en charge pour les utilisateurs disposant de la langue dans les équipes configurés pour l’anglais et lorsque l’anglais est lu de la réunion.
+Notez que la transcription pour les réunions enregistrées est uniquement prise en charge pour les utilisateurs qui disposent de la langue dans teams pour lesquelles l’anglais est lu lors de la réunion.
 
-![réunion-stratégies-transcription.png](media/meeting-policies-transcription.png)
+![Capture d’écran montrant les options de transcription dans une réunion](media/meeting-policies-transcription.png)
 
-### <a name="allow-cloud-recording"></a>Autoriser le nuage d’enregistrement
+### <a name="allow-cloud-recording"></a>Autoriser l’enregistrement Cloud
 
-Il s’agit d’une combinaison d’une stratégie par organisateur et par utilisateur. Ce paramètre contrôle si les réunions de cet utilisateur peuvent être enregistrées. L’enregistrement peut être démarré par l’organisateur de la réunion ou par un autre participant à la réunion si le paramètre de stratégie est activé pour le participant et s’ils sont un utilisateur authentifié à partir de la même organisation.
+Il s’agit d’une combinaison d’une stratégie par l’organisateur et par utilisateur. Ce paramètre détermine si les réunions de cet utilisateur peuvent être enregistrées. L’enregistrement peut être démarré par l’organisateur de la réunion ou par un autre participant à la réunion si le paramètre de stratégie est activé pour le participant et s’il s’agit d’un utilisateur authentifié de la même organisation.
 
-Personnes extérieures à votre organisation, tels que les utilisateurs fédérés et anonymes, Impossible de démarrer l’enregistrement. Les utilisateurs invités ne peut pas démarrer ou arrêter l’enregistrement. 
+Les personnes externes à votre organisation, telles que les utilisateurs fédérés et anonymes, ne peuvent pas démarrer l’enregistrement. Les utilisateurs invités ne peuvent pas démarrer ou arrêter l’enregistrement. 
 
-![réunion-stratégies-recording.png](media/meeting-policies-recording.png)
+![Capture d’écran montrant les options d’enregistrement](media/meeting-policies-recording.png)
 
 Examinons l’exemple suivant.
 
-|Utilisateur |Stratégie de réunion  |Autoriser le nuage d’enregistrement |
+|Utilisateur |Stratégie de réunion  |Autoriser l’enregistrement Cloud |
 |---------|---------|---------|
 |Daniela | Globale   | False |
 |Amanda | Location1MeetingPolicy | True|
-|John (utilisateurs externes) | Non applicable | Non applicable|
+|Jean (utilisateur externe) | Non applicable | Non applicable|
 
-Réunions organisées par Daniela ne peuvent pas être enregistrées et Amanda, qui a activé le paramètre de stratégie, ne peut pas enregistrer les réunions organisées par Daniela. Réunions organisées par Amanda peuvent être enregistrées, toutefois, Daniela, ce qui a désactivé le paramètre de stratégie et John qui est un utilisateur externe, ne peut pas enregistrer les réunions organisées par Amanda.
+Les réunions organisées par Daniela ne peuvent pas être enregistrées et Amanda, qui dispose du paramètre de stratégie activé, ne peut pas enregistrer des réunions organisées par Daniela. Les réunions organisées par Amanda peuvent être enregistrées, mais, Daniela, qui a désactivé le paramètre de stratégie et John qui est un utilisateur externe, ne peuvent pas enregistrer des réunions organisées par Amanda.
 
-Pour en savoir plus sur l’enregistrement de la réunion dans le nuage, voir [équipes cloud d’enregistrement de la réunion](cloud-recording.md).
+Pour en savoir plus sur l’enregistrement d’une réunion dans le Cloud, voir [enregistrement de réunion Cloud teams](cloud-recording.md).
 
 ### <a name="allow-ip-video"></a>Autoriser la vidéo IP
 
-Il s’agit d’une combinaison d’une stratégie par organisateur et par utilisateur. Vidéo est un composant essentiel de réunions. Dans certaines organisations, les administrateurs souhaiterez davantage de contrôle sur les réunions quels utilisateurs ont vidéo. Ce paramètre contrôle si la vidéo peut être activée dans les réunions hébergées par un utilisateur et 1:1 des appels et groupe lancé par un utilisateur. Réunions organisées par un utilisateur ayant cette stratégie est activée, autoriser le partage de vidéos de la réunion par les participants à la réunion, si les participants à la réunion ont également la stratégie activée. Participants à la réunion qui n’ont pas toutes les stratégies affectées (par exemple, les participants anonymes et fédérés) héritent de la stratégie de l’organisateur de la réunion.
+Il s’agit d’une combinaison d’une stratégie par l’organisateur et par utilisateur. La vidéo est un composant clé pour les réunions. Dans certaines organisations, les administrateurs peuvent souhaiter davantage de contrôle sur les réunions des utilisateurs en vidéo. Ce paramètre détermine si la vidéo peut être activée dans les réunions hébergées par un utilisateur et dans les appels 1:1 et les appels de groupe démarrés par un utilisateur. Réunions organisées par un utilisateur pour lequel cette stratégie est activée, autorisez le partage vidéo pendant la réunion par les participants de la réunion, si la stratégie est également activée pour les participants à la réunion. Les participants à la réunion pour lesquels aucune stratégie n’est affectée (par exemple, des participants anonymes ou fédérés) héritent de la stratégie de l’organisateur de la réunion.
 
-![réunion-stratégies-audio-vidéo-settings.png](media/meeting-policies-audio-video-settings.png)
+![Capture d’écran montrant une réunion avec les paramètres audio et vidéo](media/meeting-policies-audio-video-settings.png)
 
 Examinons l’exemple suivant.
 
@@ -184,105 +184,105 @@ Examinons l’exemple suivant.
 |Daniela   | Globale   | True        |
 |Amanda    | Location1MeetingPolicy        | False      |
 
-Réunions hébergées par Daniela autorise la vidéos est activé. Daniela peut participer à la réunion et activer la vidéo. Amanda ne peut pas activer la vidéo dans Daniela réunion car la stratégie Amanda est définie à ne pas autoriser la vidéo. Amanda peut voir partagés par d’autres participants à la réunion.
+Les réunions hébergées par Daniela permettre l’activation de la vidéo. Daniela pouvez rejoindre la réunion et activer la vidéo. Amanda ne peut pas activer la vidéo pendant la réunion Daniela, car la politique d’Amanda est définie sur ne pas autoriser la vidéo. Amanda peut voir les vidéos partagées par d’autres participants à la réunion.
 
-Dans les réunions hébergées par Amanda, aucun participant ne peut activer vidéo, quelle que soit la stratégie vidéo affectée. Cela signifie que Daniela ne peut pas activer la vidéo dans les réunions Amanda.  
+Dans les réunions hébergées par Amanda, personne ne peut activer la vidéo, quelle que soit la politique de vidéo qui lui est affectée. Cela signifie que Daniela ne peut pas activer la vidéo dans les réunions Amanda.  
 
-Si Daniela appelle Amanda avec vidéo sur, Amanda peut répondre à l’appel audio uniquement.  Lorsque l’appel est connecté, Amanda vidéo de Daniela, mais ne peuvent pas activer vidéo. Si Amanda appelle Daniela, Daniela peut répondre à l’appel avec audio et vidéo. Lorsque l’appel est connecté, Daniela peut activer ou désactiver son vidéo, selon vos besoins.
+Si Daniela appelle Amanda avec la vidéo, Amanda peut répondre à l’appel avec l’audio uniquement.  Lorsque l’appel est connecté, Amanda peut voir la vidéo de Daniela, mais ne peut pas activer la vidéo. Si Amanda appelle Daniela, Daniela peut répondre à l’appel avec de la vidéo et de l’audio. Lorsque l’appel est connecté, Daniela peut activer ou désactiver sa vidéo, selon les besoins.
 
-### <a name="media-bit-rate-kbs"></a>Vitesse de transmission multimédia (Kbits/s)
+### <a name="media-bit-rate-kbs"></a>Taux d’échantillonnage du support (Ko)
 
-Il s’agit d’une stratégie par organisateur. Ce paramètre détermine la vitesse de transmission multimédia pour application audio, vidéo et vidéo, partage des transmissions dans des appels et des réunions pour l’utilisateur. Elle est appliquée à la liaison et la liaison descendante traversée du contenu multimédia pour les utilisateurs dans l’appel ou la réunion. Ce paramètre vous permet de contrôler la gestion de bande passante de votre organisation. Selon les scénarios de réunions requises par les utilisateurs, il est recommandé d’avoir suffisamment de bande passante en place pour une expérience de bonne qualité. La valeur minimale est de 30 Kbits/s et le scénario de réunion dépend de la valeur maximale. Pour en savoir plus sur la configuration minimale recommandée pour les réunions de bonne qualité, les appels et les événements en temps réel dans les équipes de bande passante, voir les [besoins en bande passante](prepare-network.md#bandwidth-requirements).
+Il s’agit d’une stratégie par organisateur. Ce paramètre détermine le taux de bits média pour les transmissions du partage d’application audio, vidéo et vidéo dans les appels et les réunions de l’utilisateur. Il est appliqué à la traversée de l’appel ou de la réunion, en liaison descendante et en liaison descendante multimédia. Ce paramètre vous permet de contrôler plus précisément la bande passante de votre organisation. En fonction des scénarios de réunions requis par les utilisateurs, nous recommandons une bande passante suffisante pour une qualité optimale. La valeur minimale est 30 kbps et la valeur maximale dépend du scénario de la réunion. Pour en savoir plus sur la bande passante minimum recommandée pour des réunions, des appels et des événements en direct de bonne qualité dans Teams, voir [besoins en bande passante](prepare-network.md#bandwidth-requirements).
 
-Si il n’est pas suffisamment de bande passante pour une réunion, les participants voient un message qui indique la mauvaise qualité réseau.
+S’il n’y a pas assez de bande passante pour une réunion, un message s’affiche indiquant une mauvaise qualité du réseau.
 
-Pour les réunions nécessitant la plus haute qualité vidéo, tel que directeur général de la carte réunions et des événements en direct équipes, nous vous recommandons de définir la bande passante à 10 Mbits/s. Même lorsque l’expérience maximale est définie, la pile de médias équipes s’adapte aux conditions de faible bande passante lorsque certaines conditions de réseau sont détectées, en fonction du scénario. 
+Pour les réunions qui ont besoin d’une vidéo de qualité optimale, telle que les réunions du tableau PDG et les événements en direct, nous vous conseillons de définir une bande passante de 10 Mbps. Même si l’expérience maximale est définie, la pile multimédia de teams s’adapte à des conditions de bande passante insuffisantes lorsque certaines conditions réseau sont détectées, en fonction du scénario. 
 
-### <a name="enable-live-captions-coming-soon"></a>Activer les légendes live (bientôt disponible)
+### <a name="enable-live-captions-coming-soon"></a>Activer les légendes dynamiques (bientôt disponible)
 
-Ceci est une stratégie par utilisateur et s’applique pendant une réunion. Si ce paramètre est activé, l’utilisateur voit une option pour afficher les légendes pendant une réunion.
+Il s’agit d’une stratégie par utilisateur qui s’applique au cours d’une réunion. Si ce paramètre est activé, l’utilisateur peut voir une option pour afficher les légendes pendant une réunion.
 
 <a name="bkcontentsharing"> </a>
 
-## <a name="meeting-policy-settings---content-sharing"></a>Paramètres de stratégie de réunion - partage de contenu
+## <a name="meeting-policy-settings---content-sharing"></a>Paramètres de la stratégie de réunion-partage de contenu
 
 - [Mode de partage d’écran](#screen-sharing-mode)
-- [Autoriser un participant à faire ou demander le contrôle](#allow-a-participant-to-give-or-request-control)
-- [Autoriser un participant externe à faire ou demander le contrôle](#allow-an-external-participant-to-give-or-request-control)
-- [Autoriser le partage de PowerPoint](#allow-powerpoint-sharing)
+- [Autoriser un participant à céder ou demander le contrôle](#allow-a-participant-to-give-or-request-control)
+- [Autoriser un participant externe à céder ou demander le contrôle](#allow-an-external-participant-to-give-or-request-control)
+- [Autoriser le partage PowerPoint](#allow-powerpoint-sharing)
 - [Autoriser le tableau blanc](#allow-whiteboard)
 - [Autoriser les notes partagées](#allow-shared-notes)
-- [Autoriser la conversation dans les réunions (bientôt disponible)](#allow-chat-in-meetings-coming-soon)
+- [Autoriser la discussion en réunion (bientôt disponible)](#allow-chat-in-meetings-coming-soon)
 
 ### <a name="screen-sharing-mode"></a>Mode de partage d’écran
 
-Il s’agit d’une combinaison d’une stratégie par organisateur et par utilisateur. Ce paramètre détermine si la bureau et/ou la fenêtre de partage est autorisé dans une réunion de l’utilisateur. Les participants qui n’ont pas toutes les stratégies affectées (par exemple, anonyme, invité, B2B et les participants fédérés) héritent de la stratégie de l’organisateur de la réunion.
+Il s’agit d’une combinaison d’une stratégie par l’organisateur et par utilisateur. Ce paramètre détermine si le partage de bureau et/ou de fenêtre est autorisé lors de la réunion de l’utilisateur. Les participants à la réunion pour lesquels aucune stratégie n’est affectée (par exemple, les participants anonymes, invités, B2B et fédéré) héritent de la stratégie de l’organisateur de la réunion.
 
-|Valeur de paramètre |Comportement  |
+|Définition de la valeur |Comportement  |
 |---------|---------|
-|**Totalité de l’écran**    | Partage de bureau complet et le partage d’application est autorisé à la réunion |
-|**Application unique**   | Partage d’application est autorisé à la réunion        |
-|**Désactivé**     |Partage d’écran et le partage d’application désactivé dans la réunion.       |
+|**Tout l’écran**    | Le partage de bureau complet et le partage d’application sont autorisés dans la réunion |
+|**Application unique**   | Le partage d’application est autorisé dans la réunion        |
+|**Désactivé**     |Le partage d’écran et le partage d’application ont été désactivés dans la réunion.       |
 
 Examinons l’exemple suivant.
 
 |Utilisateur |Stratégie de réunion |Mode de partage d’écran |
 |---------|---------|---------|
-|Daniela  | Globale   | Totalité de l’écran |
+|Daniela  | Globale   | Tout l’écran |
 |Amanda   | Location1MeetingPolicy  | Désactivé |
 
-Réunions hébergées par Daniela autoriser les participants à la réunion à partager leur écran entier ou une application spécifique. Si Amanda rejoint la réunion de Daniela, Amanda ne peuvent pas partager son écran ou une application spécifique comme son paramètre de stratégie est désactivé. Dans les réunions hébergées par Amanda, n’est autorisé à partager leur écran ou une application unique, quelle que soit la stratégie de mode affectée de partage d’écran. Cela signifie que Daniela ne peuvent pas partager son écran ou une seule application dans les réunions Amanda.  
+Réunions hébergées par Daniela permettre aux participants d’une réunion de partager leur écran entier ou une application spécifique. Si Amanda rejoint la réunion Daniela, Amanda ne peut pas partager son écran ou une application spécifique, car son paramètre de stratégie est désactivé. Dans les réunions hébergées par Amanda, personne ne peut partager son écran ou une application unique, quelle que soit la stratégie du mode de partage d’écran qui leur est affectée. Cela signifie qu’Daniela ne peut pas partager son écran ou une application unique dans les réunions Amanda.  
 
-Actuellement, les utilisateurs ne peuvent pas lire la vidéos ou partager leur écran à une réunion équipes s’il utilise Google Chrome.
+Pour le moment, les utilisateurs ne peuvent pas lire de vidéo ou partager leur écran dans une réunion teams s’ils utilisent Google Chrome.
 
-### <a name="allow-a-participant-to-give-or-request-control"></a>Autoriser un participant à faire ou demander le contrôle
+### <a name="allow-a-participant-to-give-or-request-control"></a>Autoriser un participant à céder ou demander le contrôle
 
-Il s’agit d’une stratégie par utilisateur. Ce paramètre contrôle si l’utilisateur peut donner le contrôle de la fenêtre ou un bureau partagé aux autres participants. Pour donner le contrôle, pointez sur la partie supérieure de l’écran. 
+Il s’agit d’une stratégie par utilisateur. Ce paramètre indique si l’utilisateur peut donner le contrôle du bureau ou de la fenêtre partagés aux autres participants à la réunion. Pour donner le contrôle, pointez sur la partie supérieure de l’écran. 
 
-Si ce paramètre est activé pour l’utilisateur, l’option de **Donner le contrôle** s’affiche dans la barre supérieure dans une session de partage. 
+Si ce paramètre est activé pour l’utilisateur, l’option **donner le contrôle** s’affiche dans la barre supérieure d’une session de partage. 
 
-![réunion-stratégies-donnent-control.png](media/meeting-policies-give-control.png)
+![Capture d’écran montrant l’option donner le contrôle](media/meeting-policies-give-control.png)
 
-Si les paramètres est désactivé pour l’utilisateur, l’option de **Donner le contrôle** n’est pas disponible.
+Si les paramètres sont désactivés pour l’utilisateur, l’option **donner le contrôle** n’est pas disponible.
 
-![Meeting-Policies-GIVE-Control-not-available.png](media/meeting-policies-give-control-not-available.png)
+![Capture d’écran montrant que l’option donner le contrôle n’est pas disponible](media/meeting-policies-give-control-not-available.png)
 
 Examinons l’exemple suivant.
 
-|Utilisateur |Stratégie de réunion  |Autoriser les participants à faire ou demander le contrôle |
+|Utilisateur |Stratégie de réunion  |Autoriser les participants à céder ou demander le contrôle |
 |---------|---------|---------|
 |Daniela   | Globale   | True       |
 |Babek    | Location1MeetingPolicy        | False   |
 
-Daniela peut donner le contrôle de la fenêtre ou un bureau partagé par les autres participants à une réunion organisée par Babek, tandis que Babek ne peut pas donner le contrôle à d’autres participants.
+Daniela pouvez donner le contrôle de l’ordinateur ou de la fenêtre partagée à d’autres participants à une réunion organisée par Babek que Babek ne peut pas céder le contrôle à d’autres participants.
 
-### <a name="allow-an-external-participant-to-give-or-request-control"></a>Autoriser un participant externe à faire ou demander le contrôle
+### <a name="allow-an-external-participant-to-give-or-request-control"></a>Autoriser un participant externe à céder ou demander le contrôle
 
-Il s’agit d’une stratégie par utilisateur. Ce paramètre contrôle si les participants externes à une réunion peuvent donner le contrôle de leur bureau partagé ou la fenêtre aux autres participants à la réunion. Les participants externes dans les réunions des équipes peuvent être classées comme suit :  
+Il s’agit d’une stratégie par utilisateur. Ce paramètre détermine si les participants externes d’une réunion peuvent donner le contrôle de leur bureau ou fenêtre partagée aux autres participants à la réunion. Les participants externes aux réunions teams peuvent être classés comme suit:  
 
    - Utilisateur anonyme
    - Utilisateurs invités  
    - Utilisateur B2B
    - Utilisateur fédéré  
 
-Indique si les utilisateurs fédérés peuvent donner le contrôle à des utilisateurs externes lors du partage est contrôlé par le paramètre **Autoriser un participant externe à faire ou demander le contrôle** de leur organisation.
+Si les utilisateurs fédérés peuvent donner le contrôle à des utilisateurs externes lorsque le partage est contrôlé, le paramètre **autoriser un participant externe à attribuer ou demander un contrôle** au sein de leur organisation.
 
-### <a name="allow-powerpoint-sharing"></a>Autoriser le partage de PowerPoint
+### <a name="allow-powerpoint-sharing"></a>Autoriser le partage PowerPoint
 
-Il s’agit d’une stratégie par utilisateur. Ce paramètre contrôle si les utilisateurs peuvent partager des diapositives PowerPoint dans une réunion. Les utilisateurs externes, y compris les utilisateurs anonymes et fédérés invités, héritent de la stratégie de l’organisateur de la réunion.
+Il s’agit d’une stratégie par utilisateur. Ce paramètre détermine si l’utilisateur peut partager des diapositives PowerPoint dans une réunion. Les utilisateurs externes, y compris les utilisateurs anonymes, invités et fédérés, héritent de la stratégie de l’organisateur de la réunion.
 
 Examinons l’exemple suivant.
 
-|Utilisateur |Stratégie de réunion  |Autoriser le partage de PowerPoint |
+|Utilisateur |Stratégie de réunion  |Autoriser le partage PowerPoint |
 |---------|---------|---------|
 |Daniela   | Globale   | True       |
 |Amanda   | Location1MeetingPolicy        | False   |
 
-Amanda ne peuvent pas partager des diapositives PowerPoint dans les réunions même si elle est l’organisateur de la réunion. Daniela peuvent partager des diapositives PowerPoint même si la réunion est organisée par Amanda. Amanda peut afficher les diapositives PowerPoint partagées par d’autres personnes à la réunion, même si elle ne peuvent pas partager des diapositives PowerPoint.
+Amanda ne peut pas partager des diapositives PowerPoint dans les réunions, même si elle est l’organisateur de la réunion. Daniela peut partager des diapositives PowerPoint, même si la réunion est organisée par Amanda. Amanda peut afficher les diapositives PowerPoint partagées par d’autres participants à la réunion, même si elles ne peuvent pas partager des diapositives PowerPoint.
 
 ### <a name="allow-whiteboard"></a>Autoriser le tableau blanc
 
-Il s’agit d’une stratégie par utilisateur. Ce paramètre contrôle si un utilisateur peut partager le tableau blanc dans une réunion. Les utilisateurs externes, y compris anonyme, B2B et les utilisateurs fédérés, héritent de la stratégie de l’organisateur de la réunion. 
+Il s’agit d’une stratégie par utilisateur. Ce paramètre détermine si un utilisateur peut partager le tableau blanc dans une réunion. Les utilisateurs externes, y compris les utilisateurs anonymes, B2B et fédérés, héritent de la stratégie de l’organisateur de la réunion. 
 
 Examinons l’exemple suivant.
 
@@ -291,11 +291,11 @@ Examinons l’exemple suivant.
 |Daniela   | Globale   | True       |
 |Amanda   | Location1MeetingPolicy        | False   |
 
-Amanda ne peuvent pas partager le tableau blanc dans une réunion même si elle est l’organisateur de la réunion. Daniela peuvent partager le tableau blanc même si une réunion est organisée par Amanda.  
+Amanda ne peut pas partager le tableau blanc dans une réunion, même s’il s’agit de l’organisateur de la réunion. Daniela peut partager le tableau blanc même si une réunion est organisée par Amanda.  
 
 ### <a name="allow-shared-notes"></a>Autoriser les notes partagées
 
-Il s’agit d’une stratégie par utilisateur. Ce paramètre contrôle si un utilisateur peut créer et partager des notes dans une réunion. Les utilisateurs externes, y compris anonyme, B2B et les utilisateurs fédérés, héritent de la stratégie de l’organisateur de la réunion. L’onglet **Notes de réunion** est uniquement pris en charge dans réunions ayant moins de 20 participants. 
+Il s’agit d’une stratégie par utilisateur. Ce paramètre détermine si un utilisateur peut créer et partager des notes pendant une réunion. Les utilisateurs externes, y compris les utilisateurs anonymes, B2B et fédérés, héritent de la stratégie de l’organisateur de la réunion. Pour l’instant, l’onglet **notes de réunion** est uniquement pris en charge dans les réunions dont la taille est inférieure à 20 participants. 
 
 Examinons l’exemple suivant.
 
@@ -304,107 +304,107 @@ Examinons l’exemple suivant.
 |Daniela   | Globale   | True       |
 |Amanda   | Location1MeetingPolicy | False |
 
-Daniela peut prendre des notes dans les réunions Amanda et Amanda ne peut pas prendre des notes dans toutes les réunions.
+Daniela peut prendre des notes dans les réunions d’Amanda et qu’Amanda ne peut prendre des notes pendant une réunion.
 
-### <a name="allow-chat-in-meetings-coming-soon"></a>Autoriser la conversation dans les réunions (bientôt disponible)
+### <a name="allow-chat-in-meetings-coming-soon"></a>Autoriser la discussion en réunion (bientôt disponible)
 
-Il s’agit d’une stratégie par organisateur. Ce paramètre contrôle si conversation de la réunion est autorisée dans une réunion de l’utilisateur. 
+Il s’agit d’une stratégie par organisateur. Ce paramètre indique si la conversation de réunion est autorisée lors de la réunion de l’utilisateur. 
 
 <a name="bkparticipantsandguests"> </a>
 
-## <a name="meeting-policy-settings---participants--guests"></a>Paramètres de stratégie de réunion - invités & de Participants
+## <a name="meeting-policy-settings---participants--guests"></a>Paramètres de la stratégie de réunion-participants & invités
 
-Ces paramètres déterminent qui attendent des participants à la réunion dans la salle d’attente avant qu’ils sont admis à la réunion et le niveau de participation, ils sont autorisés dans une réunion.
+Ces paramètres contrôlent les participants à la réunion qui attendent dans la salle d’attente avant d’être admis à la réunion et le niveau de participation qui leur est accordé lors d’une réunion.
 
-- [Accepter automatiquement des personnes](#automatically-admit-people)
-- [Autoriser les utilisateurs anonymes démarrer une réunion](#allow-anonymous-people-to-start-a-meeting)
-- [Autoriser les utilisateurs rendez-vous à la salle d’attente](#allow-dial-in-users-to-bypass-the-lobby-coming-soon)
+- [Admettre automatiquement des personnes](#automatically-admit-people)
+- [Autoriser les personnes anonymes à commencer une réunion](#allow-anonymous-people-to-start-a-meeting)
+- [Autoriser les utilisateurs rendez-vous à ignorer la salle d’attente](#allow-dial-in-users-to-bypass-the-lobby-coming-soon)
 - [Permettre aux organisateurs de remplacer les paramètres de la salle d’attente](#allow-organizers-to-override-lobby-settings-coming-soon)
 
-### <a name="automatically-admit-people"></a>Accepter automatiquement des personnes
+### <a name="automatically-admit-people"></a>Admettre automatiquement des personnes
 
-Il s’agit d’une stratégie par organisateur. Ce paramètre contrôle si les personnes à participer à une réunion directement ou attendre dans la salle d’attente jusqu'à ce qu’ils sont admis par un utilisateur authentifié.
+Il s’agit d’une stratégie par organisateur. Ce paramètre détermine si les personnes rejoignent directement une réunion ou patientent dans la salle d’attente jusqu’à ce qu’elles soient admises par un utilisateur authentifié.
 
-![réunion-stratégies-lobby.png](media/meeting-policies-lobby.png)
+![Capture d’écran montrant une réunion avec un utilisateur dans la salle d’attente](media/meeting-policies-lobby.png)
 
- Organisateurs de réunions peuvent cliquez sur **Options de la réunion** dans l’invitation à modifier ce paramètre pour chaque réunion qu’ils planifient. **(bientôt disponible)**
+ Les organisateurs de la réunion peuvent cliquer sur options de la **réunion** dans l’invitation à la réunion pour modifier ce paramètre pour chaque réunion qu’ils planifient. **(bientôt disponible)**
   
-|Valeur de paramètre  |Rejoindre le comportement |
+|Définition de la valeur  |Comportement de jointure |
 |---------|---------|
-|**Tout le monde**   |Tous les participants rejoignent la réunion sans attendre dans la salle d’attente. Cela inclut les utilisateurs authentifiés, les utilisateurs fédérés, invités, les utilisateurs anonymes et les personnes qui se connectent par téléphone.       |
-|**Tout le monde dans votre organisation et les organisations fédérées**     |Les utilisateurs authentifiés de l’organisation, y compris les utilisateurs invités et les utilisateurs d’une organisation fédérée, joindre la réunion sans attendre dans la salle d’attente.  Les utilisateurs anonymes et les utilisateurs qui se connectent par téléphone attendent dans la salle d’attente.   |
-|**Tout le monde dans votre organisation**    |Les utilisateurs authentifiés à partir de l’organisation, y compris les utilisateurs invités, joindre la réunion sans attendre dans la salle d’attente.  Les utilisateurs fédérés, les utilisateurs anonymes et les utilisateurs qui se connectent par téléphone attendent dans la salle d’attente.           |
+|**Tout le monde**   |Tous les participants à la réunion rejoignent directement la réunion sans attendre dans la salle d’attente. Cela inclut les utilisateurs authentifiés, les utilisateurs fédérés, les invités, les utilisateurs anonymes, ainsi que les personnes qui se connectent par téléphone.       |
+|**Tout le monde au sein de votre organisation et organisations fédérées**     |Utilisateurs authentifiés au sein de l’organisation, y compris utilisateurs invités et utilisateurs d’organisations fédérées, joignez directement la réunion sans attendre dans la salle d’attente.  Utilisateurs anonymes et utilisateurs qui se connectent par téléphone dans la salle d’attente.   |
+|**Tout le monde dans votre organisation**    |Utilisateurs authentifiés au sein de l’organisation, y compris les utilisateurs invités, qui rejoignent directement la réunion sans attendre dans la salle d’attente.  Utilisateurs fédérés, utilisateurs anonymes et utilisateurs qui composent le numéro de téléphone dans la salle d’attente.           |
 
-### <a name="allow-anonymous-people-to-start-a-meeting"></a>Autoriser les utilisateurs anonymes démarrer une réunion
+### <a name="allow-anonymous-people-to-start-a-meeting"></a>Autoriser les personnes anonymes à commencer une réunion
 
-Il s’agit d’une stratégie par organisateur. Ce paramètre contrôle si des utilisateurs anonymes, y compris B2B et les utilisateurs fédérés, peuvent rejoindre réunion de l’utilisateur sans qu’un utilisateur authentifié à partir de l’organisation des participants. 
+Il s’agit d’une stratégie par organisateur. Ce paramètre détermine si les personnes anonymes, y compris les utilisateurs interentreprises, et les utilisateurs fédérés, peuvent rejoindre la réunion de l’utilisateur sans qu’un utilisateur authentifié de l’organisation n’ait accès à celle-ci. 
 
-![réunion-stratégies-anonyme-utilisateur-lobby.png](media/meeting-policies-anonymous-user-lobby.png)
+![Capture d’écran montrant un message à un utilisateur en attente](media/meeting-policies-anonymous-user-lobby.png)
 
-Voici le comportement de participer à des utilisateurs anonymes lorsque les utilisateurs authentifiés sont présentes dans la réunion.
+Vous trouverez ci-dessous le comportement de jointure des personnes anonymes lorsque les utilisateurs authentifiés sont présents dans la réunion.
 
-|Autoriser les utilisateurs anonymes démarrer une réunion  |Accepter automatiquement des personnes |Rejoindre le comportement des utilisateurs anonymes |
+|Autoriser les personnes anonymes à commencer une réunion  |Admettre automatiquement des personnes |Comportement de jointure des personnes anonymes |
 |---------|---------|---------|
-|True    | Tout le monde      | Joindre directement         |
+|True    | Tout le monde      | Rejoindre directement         |
 |   | Tout le monde dans votre organisation       | Patienter dans la salle d’attente        |
-|   | Tout le monde dans votre organisation et les organisations fédérées       | Patienter dans la salle d’attente         |
-|False    | Tout le monde        | Joindre directement        |
+|   | Tout le monde au sein de votre organisation et organisations fédérées       | Patienter dans la salle d’attente         |
+|False    | Tout le monde        | Rejoindre directement        |
 |   | Tout le monde dans votre organisation     | Patienter dans la salle d’attente        |
-|   | Tout le monde dans votre organisation et les organisations fédérées      | Patienter dans la salle d’attente         |
+|   | Tout le monde au sein de votre organisation et organisations fédérées      | Patienter dans la salle d’attente         |
 
-Voici le comportement de participer à des utilisateurs anonymes lorsque les utilisateurs non authentifiés sont présentes dans la réunion.
+Vous trouverez ci-dessous le comportement de jointure des personnes anonymes lorsqu’aucun utilisateur authentifié n’est présent à la réunion.
 
-|Autoriser les utilisateurs anonymes démarrer une réunion |Accepter automatiquement des personnes  |Rejoindre le comportement des utilisateurs anonymes |
+|Autoriser les personnes anonymes à commencer une réunion |Admettre automatiquement des personnes  |Comportement de jointure des personnes anonymes |
 |---------|---------|---------|
-|True    | Tout le monde      | Joindre directement         |
+|True    | Tout le monde      | Rejoindre directement         |
 |   | Tout le monde dans votre organisation       | Patienter dans la salle d’attente        |
-|   | Tout le monde dans votre organisation et les organisations fédérées       | Patienter dans la salle d’attente         |
-|False    | Tout le monde        | Patienter dans la salle d’attente. Les utilisateurs sont admis automatiquement lorsque le premier utilisateur authentifié rejoint la réunion.        |
+|   | Tout le monde au sein de votre organisation et organisations fédérées       | Patienter dans la salle d’attente         |
+|False    | Tout le monde        | Patienter dans la salle d’attente. Les utilisateurs sont automatiquement admis lorsque le premier utilisateur authentifié rejoint la réunion.        |
 |   | Tout le monde dans votre organisation     |Patienter dans la salle d’attente         |
-|   | Tout le monde dans votre organisation et les organisations fédérées      | Patienter dans la salle d’attente         |
+|   | Tout le monde au sein de votre organisation et organisations fédérées      | Patienter dans la salle d’attente         |
 
-### <a name="allow-dial-in-users-to-bypass-the-lobby-coming-soon"></a>Autoriser les utilisateurs rendez-vous à la salle d’attente (bientôt disponible)
+### <a name="allow-dial-in-users-to-bypass-the-lobby-coming-soon"></a>Autorisez les utilisateurs rendez-vous à ignorer la salle d’attente (bientôt disponible)
 
-Il s’agit d’une stratégie par organisateur. Ce paramètre contrôle si les personnes qui se connectent par téléphone joindre la réunion directement ou attendent dans la salle d’attente, quel que soit le paramétrage **d’accepter des personnes** .
+Il s’agit d’une stratégie par organisateur. Ce paramètre détermine si les personnes qui se connectent par téléphone rejoignent directement la réunion ou qu’elles patientent dans la salle d’attente, indépendamment du paramètre d' **admission automatique des personnes** .
 
-Voici le comportement de participer à des personnes qui se connectent par téléphone.
+Voici le comportement de participation des personnes qui se connectent par téléphone.
 
-|Autoriser les utilisateurs rendez-vous à la salle d’attente  |Accepter automatiquement les utilisateurs  |Rejoindre le comportement des personnes qui se connectent |
+|Autoriser les utilisateurs rendez-vous à ignorer la salle d’attente  |Accepter automatiquement les utilisateurs  |Comportement de connexion des personnes qui se connectent |
 |---------|---------|---------|
-|True    | Tout le monde      | Joindre directement         |
-|   | Tout le monde dans votre organisation       | Joindre directement        |
-|   | Tout le monde dans votre organisation et les organisations fédérées       | Joindre directement         |
-|False    | Tout le monde        | Joindre directement        |
+|True    | Tout le monde      | Rejoindre directement         |
+|   | Tout le monde dans votre organisation       | Rejoindre directement        |
+|   | Tout le monde au sein de votre organisation et organisations fédérées       | Rejoindre directement         |
+|False    | Tout le monde        | Rejoindre directement        |
 |   | Tout le monde dans votre organisation     |Patienter dans la salle d’attente         |
-|   | Tout le monde dans votre organisation et les organisations fédérées      | Patienter dans la salle d’attente         |
+|   | Tout le monde au sein de votre organisation et organisations fédérées      | Patienter dans la salle d’attente         |
 
-### <a name="allow-organizers-to-override-lobby-settings-coming-soon"></a>Permettre aux organisateurs de remplacer les paramètres de salle d’attente (bientôt disponible)
+### <a name="allow-organizers-to-override-lobby-settings-coming-soon"></a>Permettre aux organisateurs de remplacer les paramètres de la salle d’attente (bientôt disponible)
 
-Il s’agit d’une stratégie par organisateur. Ce paramètre contrôle si l’organisateur de la réunion peut remplacer les paramètres de salle d’attente qu’un administrateur défini dans **accepter des personnes** et **permettre aux utilisateurs rendez-vous à la salle d’attente** lorsqu’ils planifient une nouvelle réunion. 
+Il s’agit d’une stratégie par organisateur. Ce paramètre détermine si l’organisateur de la réunion peut remplacer les paramètres de la salle d’attente qu’un administrateur a défini **automatiquement** et **permettre aux utilisateurs rendez-vous d’utiliser la salle d'** attente lors de la planification d’une nouvelle réunion. 
 
-Organisateurs de réunions peuvent cliquez sur **Options de la réunion** dans l’invitation à modifier les paramètres de salle d’attente pour chaque réunion qu’ils planifient. 
+Les organisateurs de la réunion peuvent cliquer sur options de la **réunion** dans l’invitation à la réunion pour modifier les paramètres de la salle d’attente pour chaque réunion qu’elles planifient 
 
-Voici impact de ce paramètre si l’organisateur de la réunion peut modifier le paramètre **accepter des personnes** pour chaque les planifications de l’organisateur de la réunion.
+Ce paramètre détermine si l’organisateur de la réunion peut changer le paramètre d' **admission automatique de personnes** pour chaque réunion planifiée par l’organisateur.
 
-|Permettre aux organisateurs de remplacer les paramètres de la salle d’attente  |Accepter automatiquement des personnes  |Comportement |
+|Permettre aux organisateurs de remplacer les paramètres de la salle d’attente  |Admettre automatiquement des personnes  |Comportement |
 |---------|---------|---------|
-|True    | Tout le monde      | Organisateur peut modifier le paramètre pour toute autre valeur. |
-|   | Tout le monde dans votre organisation       | Organisateur peut modifier le paramètre pour toute autre valeur.|
-|   | Tout le monde dans votre organisation et les organisations fédérées       | Organisateur de la possibilité de le modifier à une autre valeur.         |
-|False    | Tout le monde        | Organisateur peut modifier le paramètre pour toute autre valeur.|
-|   | Tout le monde dans votre organisation     |Organisateur peut modifier le paramètre pour **tout le monde dans votre organisation**. |
-|   | Tout le monde dans votre organisation et les organisations fédérées      | Organisateur ne peut pas substituer le paramètre de la salle d’attente. |
+|True    | Tout le monde      | Organizer peut changer le paramètre en n’importe quelle autre valeur. |
+|   | Tout le monde dans votre organisation       | Organizer peut changer le paramètre en n’importe quelle autre valeur.|
+|   | Tout le monde au sein de votre organisation et organisations fédérées       | Organizer peut changer ce type de valeur.         |
+|False    | Tout le monde        | Organizer peut changer le paramètre en n’importe quelle autre valeur.|
+|   | Tout le monde dans votre organisation     |L’organisateur peut changer le paramètre pour **toutes les personnes de votre organisation**. |
+|   | Tout le monde au sein de votre organisation et organisations fédérées      | L’organisateur ne peut pas remplacer le paramètre de salle d’attente. |
 
-Voici comment ce paramètre affecte si l’organisateur de la réunion peut modifier le paramètre **Autoriser rendez-vous aux utilisateurs de la salle d’attente** pour chaque les planifications de l’organisateur de la réunion.
+Voici comment ce paramètre détermine si l’organisateur de la réunion peut changer le paramètre **autoriser les utilisateurs rendez-vous à l’aide du paramètre salle d’attente** de chaque réunion de l’organisateur.
     
-|Permettre aux organisateurs de remplacer les paramètres de la salle d’attente  |Autoriser les utilisateurs rendez-vous à la salle d’attente  |Comportement |
+|Permettre aux organisateurs de remplacer les paramètres de la salle d’attente  |Autoriser les utilisateurs rendez-vous à ignorer la salle d’attente  |Comportement |
 |---------|---------|---------|
-|True    |  True        | Organisateur peut modifier le paramètre sur False.       |
-|True      | False         | Organisateur peut modifier le paramètre sur True.        |
-|False     | True        |Organisateur peut modifier le paramètre sur False.         |
-|False      |False          |Organisateur ne peut pas remplacer la valeur de la salle d’attente et ne peut pas demander rendez-vous à la salle d’attente de la réunion.        |
+|True    |  True        | L’organisateur peut changer le paramètre en faux.       |
+|True      | False         | Organizer peut changer le paramètre en true.        |
+|False     | True        |L’organisateur peut changer le paramètre en faux.         |
+|False      |False          |L’organisateur ne peut pas remplacer le paramètre salle d’attente et ne peut pas permettre aux utilisateurs rendez-vous d’utiliser la salle d’attente de la réunion.        |
 
 [Article complet](meeting-policies-in-teams.md)
 
 ## <a name="related-topics"></a>Voir aussi
-[Stratégies de messagerie dans les équipes](messaging-policies-in-teams.md)
+[Stratégies de messagerie dans teams](messaging-policies-in-teams.md)

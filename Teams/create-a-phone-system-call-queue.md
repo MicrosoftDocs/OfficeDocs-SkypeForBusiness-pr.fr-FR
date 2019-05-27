@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Apprenez à configurer le système téléphonique pour les files d’attente d’appels Cloud afin de vous donner un message d’accueil professionnel, de la musique en attente et de rediriger les appels d’appel vers des listes de distribution et des groupes de sécurité. Vous pouvez également définir la taille maximale de la file d’attente, le délai d’expiration et les options de traitement des appels.
-ms.openlocfilehash: e32ab12c63f20439d21c9c1829cd4b32bdd34d70
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 3fc7dc69fad9e249c29758ae9bd0c30038520408
+ms.sourcegitcommit: d010c615ee530deb34d79a1a62815ef0a52a2086
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344684"
+ms.locfileid: "34404309"
 ---
 # <a name="create-a-cloud-call-queue"></a>Créer une file d’attente d’appels cloud
 
@@ -181,6 +181,8 @@ Vous pouvez sélectionner jusqu’à 200 téléopérateurs appartenant à des li
  Pour les activer pour Enterprise Voice, vous pouvez utiliser Windows PowerShell. Par exemple, exécutez :  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 - Utilisateurs en ligne disposant d’une licence de **système téléphonique** et d’un plan d’appels qui sont ajoutés à un groupe Office 365, une liste de distribution à extension messagerie ou un groupe de sécurité. L’ajout d’un nouvel agent à un nouvel agent pour une liste de distribution ou un groupe de sécurité à partir d’une file d’attente peut durer jusqu’à 3 heures. Une liste de distribution ou un groupe de sécurité nouvellement créé peut nécessiter jusqu’à 48 heures de disponibilité pour une utilisation avec des files d’attente d’appels. Les nouveaux groupes Office 365 sont disponibles presque immédiatement.
+
+- Si vos agents utilisent l’application Microsoft teams pour recevoir des appels de file d’attente d’appels, ils doivent être en mode TeamsOnly.
 
 ![Configurez des files d’attente d’appels.](media/skype-for-business-add-agents-to-call-queue.png)
 

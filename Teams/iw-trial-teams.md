@@ -3,7 +3,6 @@ title: Gérer l’offre d’essai du cloud commercial Microsoft Teams
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 04/23/2019
 ms.topic: reference
 audience: Admin
 ms.reviewer: annikaelias
@@ -16,20 +15,20 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 654db34de9160c0e858fd8972d00487291fd1653
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 933ea45cbcdc9e6af8c25dfdb67758d154731586
+ms.sourcegitcommit: d010c615ee530deb34d79a1a62815ef0a52a2086
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33921251"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34404293"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Gérer l’offre d’essai du cloud commercial Microsoft Teams
 =======================================================
 
-Microsoft Teams est un excellent outil de collaboration pour votre organisation. Il permet aux personnes et aux équipes de discuter, d’innover et de partager des idées grâce à la puissance d’Office 365. L’essai du cloud commercial Microsoft Teams offre aux utilisateurs d’Office 365 de votre entreprise qui ne sont pas titulaires d’une licence Microsoft Teams la possibilité de bénéficier d’une période d’évaluation d’un an du produit. Les administrateurs peuvent activer ou désactiver cette fonctionnalité pour les utilisateurs de leur organisation.
+Microsoft Teams est un excellent outil de collaboration pour votre organisation. Il permet aux personnes et aux équipes de discuter, d’innover et de partager des idées grâce à la puissance d’Office 365. L’essai du cloud commercial Microsoft Teams offre aux utilisateurs d’Office 365 de votre entreprise qui ne sont pas titulaires d’une licence Microsoft Teams la possibilité de bénéficier d’une période d’évaluation d’un an du produit. Les administrateurs peuvent activer ou désactiver cette fonctionnalité pour les utilisateurs de leur organisation. 
 
 > [!IMPORTANT]
-> L’essai cloud commercial de Microsoft Teams a été mis à jour pour inclure des plans de service additionnel pour accroître la fonctionnalité de Teams et est désormais possédé et contrôlé par l’administrateur de facturation de votre organisation. Ceci facilite la gestion de la version d’évaluation et permet de la rendre cohérente avec les autres offres Microsoft 365. Les utilisateurs existants de l’essai cloud commercial de Teams seront migrés vers la nouvelle offre.
+> L’essai cloud commercial de Microsoft Teams a été mis à jour pour inclure des plans de service additionnel pour accroître la fonctionnalité de Teams et est désormais possédé et contrôlé par l’administrateur de facturation de votre organisation. Ceci facilite la gestion de la version d’évaluation et permet de la rendre cohérente avec les autres offres Microsoft 365. 
 
 ## <a name="whats-in-the-offer"></a>Nouveautés dans l’application Power BI
 
@@ -142,3 +141,11 @@ Pour plus d’informations, voir [Gestion des licences Office 365 pour Microsof
 
 > [!NOTE]
 > Si l’essai se termine et un utilisateur n’est pas immédiatement mis à niveau à un abonnement qui inclut Teams, les données des utilisateurs ne sont pas supprimées. L’utilisateur existe toujours dans Azure Active Directory et toutes les données au sein de Teams sont disponibles. Une fois qu’une nouvelle licence est attribuée à l’utilisateur pour activer la fonctionnalité Teams de nouveau, tout le contenu existera encore. 
+
+### <a name="remove-a-legacy-microsoft-teams-trial-license"></a>Supprimer une licence d’évaluation de Microsoft Teams héritée
+
+Depuis le 22 avril 2019, les utilisateurs peuvent commencer à demander la dernière licence d’évaluation Cloud commercial de Microsoft Teams. Si vous souhaitez migrer des membres de votre organisation de la licence d’évaluation héritée vers la dernière version de Microsoft Teams, vous devez commencer par supprimer la licence d’évaluation héritée pour chaque utilisateur concerné. Une fois la licence héritée supprimée, chaque utilisateur affecté peut réclamer la licence d’évaluation Cloud commercial de Microsoft Teams mise à jour.
+
+- Si vous souhaitez supprimer cette licence via PowerShell, voir [Supprimer des licences de comptes d’utilisateurs avec Office 365 PowerShell](https://docs.microsoft.com/fr-FR/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell).
+
+- Si vous souhaitez supprimer cette licence via le portail d’administration, voir [Retirer des licences à des utilisateurs dans Office 365 pour les entreprises](https://docs.microsoft.com/fr-FR/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide).

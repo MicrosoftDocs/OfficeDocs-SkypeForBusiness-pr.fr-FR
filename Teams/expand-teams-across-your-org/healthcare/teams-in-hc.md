@@ -13,101 +13,101 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Prise en main de Teams pour les organismes de santé
-ms.openlocfilehash: 40eccf379af8c0acd318cb3a8b1b647357f6cf7c
-ms.sourcegitcommit: a46dad8dfc685534d81bb011f3c099c6f59ce2e0
+ms.openlocfilehash: e4720b6c03c44128ba90db5fb1ade066360e19bf
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2019
-ms.locfileid: "33882892"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34433422"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Prise en main de Teams pour les organismes de santé
 
-Teams Microsoft offre un certain nombre de fonctionnalités utiles pour les hôpitaux et d’autres organisations de santé. Fonctionnalités d’équipes sont en cours de développement à l’aide des hôpitaux avec :
+Microsoft teams propose de nombreuses fonctions utiles pour les hôpitaux et les autres services de la santé. Les fonctionnalités d’équipes sont en cours de développement, ce qui permet aux hôpitaux de:
 
-- Coordination de soins et de collaboration
+- Coordination et collaboration au service
 - Messagerie sécurisée
-- Télésanté
-- Intégration de santé Record (EHR) électronique 
-- Intégration du système Firstline travail 
+- Telehealth
+- Intégration du DMI (Electronic Medical Recording) 
+- Intégration du système de travail terrain 
 
-Cela vient s’ajouter aux fonctionnalités de Microsoft Teams comme réunions/appel et la messagerie. 
+En plus des fonctionnalités de base de Microsoft Teams, telles que les réunions/appels et la messagerie. 
 
-## <a name="care-coordination---microsoft-teams-patients-app"></a>Application de Patients des équipes de Coordination de soins - Microsoft
+## <a name="care-coordination---microsoft-teams-patients-app"></a>Coordination de la santé-application patients de Microsoft teams
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
-Microsoft Teams a maintenant une solution de coordination de soins spécifique aux organisations de santé pour leur permettre de fournir les meilleures patients. L’essentiel de la solution de coordination de soins, l’application Microsoft équipes Patients, est une premier onglet application tiers qui s’intègre avec les systèmes (EHR) enregistrements électronique d’intégrité à l’aide d’une interface Fast les prestataires de ressources d’interopérabilité ([FHIR](https://www.hl7.org/fhir/)) afin de précieuses informations médicales dans Microsoft Teams dans un contexte pour permettre la communication et collaboration clinique.  
+Microsoft teams dispose désormais d’une solution de coordination de soins adaptée aux organisations de santé pour leur permettre d’offrir la meilleure assistance pour le patient. Le Crux de la solution de coordination de soins, l’application patients de Microsoft Teams, est une application de l’onglet première partie qui s’intègre aux systèmes de contrôle de l’intégrité électronique (DMI) à l’aide d’une interface[FHIR](https://www.hl7.org/fhir/)(Fast Healthcare Interoperability Resources) pour s’avérer utile. informations médicales dans Microsoft teams dans le contexte pour favoriser la collaboration et la communication cliniques.  
 
-La solution de coordination de soins peut communiquer avec les meilleurs éditeurs de logiciels indépendants (ISV) qui peuvent se connecter l’application de Patients à vos systèmes DMI à l’aide des normes de données d’intégrité existantes, telles que HL7v2 et FHIR. Partenaires de Microsoft avec les leaders suivantes pour établir une relation d’intégrité électronique enregistrement intégration des équipes :
+La solution de coordination de soins peut communiquer avec des éditeurs de logiciels indépendants leaders (ISV) qui peuvent connecter l’application patients à vos systèmes DMI en utilisant des normes de données d’état actuelles telles que HL7v2 et FHIR. Les partenaires Microsoft disposant des leaders suivants pour établir une intégration d’une santé électronique aux équipes:
 
-- Datica (par le biais de son offre [CMI](https://datica.com/compliant-managed-integration/) )
-- Informations Cloverleaf (à l’aide du [Pont FHIR d’informations](https://pages.infor.com/hcl-infor-fhir-bridge-brochure.html))
-- REDOX (par le biais de la [R ^ server FHIR](https://www.redoxengine.com/fhir/))
-- Dapasoft (via [Corolar sur FHIR](https://www.dapasoft.com/corolar-fhir-server-for-microsoft-teams/))
+- Datica (par le biais de leur offre [CMI](https://datica.com/compliant-managed-integration/) )
+- Infor Cloverleaf (via [infor FHIR Bridge](https://pages.infor.com/hcl-infor-fhir-bridge-brochure.html))
+- Redox (par le biais du [serveur R ^ FHIR](https://www.redoxengine.com/fhir/))
+- DapaSoft (via [Corolar sur FHIR](https://www.dapasoft.com/corolar-fhir-server-for-microsoft-teams/))
 
-Une intégration DMI et l’interopérabilité partenaire tente d’implémenter Microsoft Teams pour une organisation de fournisseur de soins doit fournir à l’application de Patients une connexion sécurisée et authentifiée avec des systèmes EHR de l’organisation fournisseur de soins. Cela permet le flux (lecture seule) unidirectionnel des enregistrements pertinents patients dans l’application de Patients. L’application de Patients comprend le format FHIR, afin que le partenaire est également responsable pour transformer les données agrégées à partir de différents formats tels que HL7v2, etc. en FHIR DSTU2 ou STU3.
-
-<br>
-
-![Intégration DMI](../../media/ehr-1.png)
+Un partenaire d’intégration et d’interopérabilité DMI qui tente de mettre en œuvre Microsoft teams pour une organisation de prestataire de services de santé doit fournir une connexion sécurisée et authentifiée aux systèmes DMI de l’organisation du prestataire de services de santé. Cela permet d’activer le flux unidirectionnel (lecture seule) des dossiers médicaux pertinents dans l’application patients. L’application patients comprend le format FHIR, de sorte que le partenaire se charge également de transformer les données agrégées à partir de différents formats tels que HL7v2, etc., dans FHIR DSTU2 ou STU3.
 
 <br>
 
-L’application de Patients s’intègre avec les systèmes d’enregistrements (EHR) médical et permet en charge des fournisseurs pour communiquer sur les patients dans en temps réel au sein de la plateforme sécurisée des équipes. L’application de Patients est la première investissement dans la zone de coordination de soins qui vise à relever les défis suivants :
+![Illustration de la mise en surbrillance des soins et de la collaboration](../../media/ehr-1.png)
 
-- Peu efficaces livraisons et communication critique par le biais de l’expérience de patients
-- Informations en silo qui crée charges administratives
-- Grands mécontentements entre les médecins avec les outils de collaboration fragmenté et complexes
-- Coordination des soins en personne inefficace que vous pouvez graver temps cliniques trop coûteux
+<br>
 
-Microsoft Teams permet les médecins, médecins, personnel et autres membres du personnel collaborer efficacement en :
+L’application patients s’intègre aux systèmes de dossiers de santé électronique et permet aux fournisseurs de soins de communiquer sur le soin du patient en temps réel dans la plateforme sécurisée des équipes. L’application patients est le premier investissement important dans la zone de la coordination de soins qui vise à résoudre les problèmes suivants:
 
-- Faisant partie d’une seule équipe virtualisée qui fonctionne et collabore sur des documents Office
-- Des conversations persistantes sur différents patients nécessitant une attention
-- L’utilisation des canaux avec onglets comme moyen de structure de leur travail, avec une aide supplémentaire à partir des onglets à laquelle ils peuvent épingler sources d’information
-- À l’aide de réunions de canal avec la puissance d’équipes audio, vidéo, partage d’écran, d’enregistrement et les fonctionnalités de transcription pour gérer les réunions quotidiennes
-- Utilisation de l’application de Patients à curate une liste de patients à haut risque qui doit être surveillé et extrait les détails le plus récent à partir du système DMI. L’application de Patients elle-même ajoute les fonctionnalités suivantes à Teams Microsoft :
+- Faible efficacité en matière de remise et de communication critique par le biais de l’interface du patient
+- Informations de silo qui génèrent des charges d’administration
+- Mécontentement des médecins grâce aux outils de collaboration complexes et fragmentés
+- Une coordination de soins inefficace qui peut graver trop de temps cliniques.
 
-    - Possibilité de créer plusieurs patient répertorie dans une seule chaîne.
-    - Possibilité d’afficher et de classer les informations affichées sur des colonnes peuvent être configurés par le biais des patients.
-    - Possibilité de provisionnement automatique l’application via un modèle d’équipe.
-    - Disponible sur l’application des équipes pour iOS et Android pour travailleurs mobiles de santé premier ainsi que les clients web et du bureau Microsoft Teams.
-    - Prise en charge pour les versions de FHIR DSTU2 et STU3 par le biais de l’analyse d’une déclaration de conformité.
-    - Journaux d’audit de toutes les actions de recherche et d’affichage sur son interface utilisateur pour remédier PHI par directives HIPAA.
+Microsoft teams permet aux médecins, médecins, infirmières et aux autres membres du personnel de collaborer efficacement en:
 
-L’application de Patients repose sur la plateforme d’extensibilité équipes et tire parti de l’infrastructure d’onglets pour afficher le contenu riche patient dans un canal. Pour en savoir plus sur les autres applications équipes et la plateforme elle-même, consultez les [applications pour les équipes Microsoft](/microsoftteams/platform/concepts/apps/apps-overview).  
+- Faire partie d’une équipe virtualisée unique qui fonctionne et collabore sur des documents Office
+- L’utilisation de conversations permanentes sur différents patients nécessite une attention
+- Utilisation de canaux avec des onglets pour structurer leur tâche, avec une aide supplémentaire provenant des onglets pour lesquels ils peuvent épingler les sources d’informations
+- Utiliser des réunions de canal avec les fonctionnalités audio, vidéo, de partage d’écran, de partage et de transcription de l’équipe pour gérer les réunions quotidiennes
+- L’utilisation de l’application patients vous permet d’organiser une liste de patients à haut risque qui doivent être surveillés et d’extraire les informations les plus récentes du système DMI. L’application patients ajoute les fonctionnalités suivantes à Microsoft teams:
+
+    - Possibilité de créer plusieurs listes de patients au sein d’un seul canal.
+    - Possibilité d’afficher et de trier les informations affichées aux patients via des colonnes configurables.
+    - Possibilité d’approvisionner automatiquement l’application par le biais d’un modèle d’équipe.
+    - Disponible dans l’application teams pour iOS et Android pour les mobiles des premiers travailleurs de la santé, ainsi que le client Microsoft teams et le client de bureau.
+    - La prise en charge des versions FHIR DSTU2 et STU3 par le biais de l’analyse de la déclaration de conformité.
+    - Journaux d’audit pour toutes les actions d’affichage ou de recherche sur son interface
+
+L’application patients repose sur la plateforme d’extensibilité des équipes et tire parti de l’infrastructure des onglets pour afficher le contenu du patient enrichi au sein d’un canal. Pour en savoir plus sur les autres applications teams et sur la plateforme elle-même, voir [applications pour Microsoft teams](/microsoftteams/platform/concepts/apps/apps-overview).  
 
 > [!NOTE]
-> L’application de Patients est en mode Aperçu privé et l’interface FHIR est dans la version bêta. Versions publiées ne devraient pas être compatibles.
+> L’application patients est en version d’évaluation privée et l’interface FHIR est en version bêta. Les versions finales ne sont pas censées être à compatibilité descendante.
 
-![Capture d’écran de patients application](../../media/ehr-2.png)
+![Capture d’écran de l’application patients sur un ordinateur de bureau et un appareil mobile](../../media/ehr-2.png)
 
-Pour plus d’informations de mise en œuvre, voir [Intégration d’enregistrements de santé électroniques dans les équipes Microsoft](patients-app.md) .
+Pour plus d’informations sur l’implémentation, voir [intégration d’enregistrements de santé électronique dans Microsoft teams](patients-app.md) .
 
 ## <a name="templates"></a>Modèles
 
-Nouveaux modèles pour la création d’équipes ont été développés pour appliquer à un paramètre hôpital, et plus devraient bientôt. Il est ainsi plus facile de créer des équipes qui utilisent des professionnels de la santé pour coordonner des soins de patients dans différents départements ou longtemps. Voir [les modèles d’équipe pour les organisations de santé en main](healthcare-templates.md). Les équipes peuvent être démarrés pour les services internes tels que cardiologie, ou longtemps de soins, et des modèles plus dans le développement.
+De nouveaux modèles de création d’équipes ont été développés pour s’appliquer à un environnement d’hôpital et de plus en plus sont prévus. Ainsi, il est plus facile de créer des équipes que les travailleurs de la santé utilisent pour coordonner les soins des patients dans divers services ou vers l’extérieur. Voir [commencer par les modèles d’équipes pour les entreprises de santé](healthcare-templates.md). Les équipes peuvent être démarrées pour les services internes tels que Cardiology ou pour les soins de niveau supérieur, et de plus en plus de modèles en développement.
 
 ## <a name="secure-messaging"></a>Messagerie sécurisée
 
-Sécuriser la messagerie prend en charge la collaboration au sein des équipes de soins, y compris plusieurs nouvelles fonctionnalités :
+La messagerie sécurisée prend en charge la collaboration dans les équipes de soins, y compris avec plusieurs nouvelles fonctionnalités:
 
-- Un expéditeur du message peut définir une priorité spéciale pour leur message, afin que le destinataire est informé à plusieurs reprises jusqu'à ce qu’ils lire le message.
-- Un expéditeur du message peut demander une confirmation de lecture, afin qu’ils sont avertis lorsqu’un messages a été lu par le destinataire du message.
+- Un expéditeur de message peut définir une priorité spéciale pour le message, de sorte que le destinataire est prévenu de manière répétée jusqu’à ce qu’il Lise le message.
+- Un expéditeur de message peut demander une confirmation de lecture, de sorte qu’il est prévenu de la lecture d’un message envoyé par le destinataire du message.
 
 
-Ensemble, ces fonctionnalités permettent attention plus rapide aux messages urgents et que le message a été reçu et lecture de confiance. Nouvelle soignant à l’aide de ces fonctionnalités peut être créées sur une base par patient. Ces fonctionnalités sont basés sur la stratégie et peuvent être affectées aux utilisateurs individuels ou des équipes entières.
+Ensemble, ces fonctionnalités permettent d’attirer plus rapidement les messages urgents et de veiller à ce que le message ait été reçu et lu. Les nouvelles équipes de soins utilisant ces fonctionnalités peuvent être créées par patient. Ces fonctionnalités sont basées sur des politiques qui peuvent être affectées à des personnes ou à des équipes entières.
 
-Pour plus d’informations, voir [stratégies de messagerie sécurisée pour les organisations de santé en main](messaging-policies-hc.md) .
+Pour plus d’informations, voir [prendre en main des politiques de messagerie sécurisée pour les entreprises de santé](messaging-policies-hc.md) .
 
-Également liées pour sécuriser la messagerie est la possibilité d’autres clients fédérés par les organisations de santé, autorisant les communications entre locataires plus riche. (voir [Manage external access (fédération) dans les équipes Microsoft](../../manage-external-access.md)).
+En outre, en ce qui concerne la sécurisation de la messagerie, c’est la possibilité d’avoir d’autres clients fédérés par le biais d’organisations de santé, autorisant une communication plus complète entre les clients. (voir [gérer les accès externes dans Microsoft teams](../../manage-external-access.md)).
 
-## <a name="firstline-worker-integration"></a>Intégration de travail Firstline
+## <a name="firstline-worker-integration"></a>Intégration du travailleur terrain
 
-Microsoft Teams s’intègre à Firstline travailleur, qui peut être utilisé pour coordonner les fonctionnalités de dotation en personnel MAJ et bien plus encore.
+Microsoft teams est intégré au Worker terrain, qui peut être utilisé pour coordonner les fonctions de personnel de décalage, etc.
 
- Voir les articles suivants :
+ Consultez les articles suivants:
 
-- [Atteindre vos équipes Microsoft StaffHub équipes dans Microsoft Teams](../shifts/move-staffhub-teams-to-shifts-in-teams.md)
+- [Déplacer vos équipes Microsoft StaffHub vers des équipes dans Microsoft teams](../shifts/move-staffhub-teams-to-shifts-in-teams.md)
 
 - [Gérer l’application Shifts pour votre organisation dans Microsoft Teams](../shifts/manage-the-shifts-app-for-your-organization-in-teams.md)

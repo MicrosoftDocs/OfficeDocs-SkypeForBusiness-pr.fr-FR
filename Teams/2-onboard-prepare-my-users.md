@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 614ea6276a0bbfb131d344ecfbcd57c70d198c8a
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 84e7dde2da777fbc0b3c5fd120d4ee88b1f98ea1
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344716"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34432612"
 ---
 # <a name="prepare-my-users"></a>Préparer mes utilisateurs
 
@@ -48,8 +48,8 @@ L’image ci-après illustre une instruction de vision pour la mise à niveau du
 ![Tableau sur deux colonnes présentant une vision et une valeur] (media/prepare-my-users-new-image1.png "Tableau sur deux colonnes avec vision-pourquoi est-ce que nous effectuons cette opération? (niveau de l’organisation) à gauche et valeur-présentation pour moi (niveau utilisateur) sur la droite")
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/> <br/>Points de décision</td><td><ul><li>Avez-vous exprimé l’avantage et la valeur pour vos utilisateurs d’une façon qui gagne leur achat pour cette nouvelle solution?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/><br/>Étapes suivantes</td><td><ul><li>Créez vos instructions de vision et de valeur pour votre projet actuel et assurez-vous qu’elles s’adaptent à vos objectifs.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Points de décision</td><td><ul><li>Avez-vous exprimé l’avantage et la valeur pour vos utilisateurs d’une façon qui gagne leur achat pour cette nouvelle solution?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Étapes suivantes</td><td><ul><li>Créez vos instructions de vision et de valeur pour votre projet actuel et assurez-vous qu’elles s’adaptent à vos objectifs.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -59,8 +59,8 @@ L’image ci-après illustre une instruction de vision pour la mise à niveau du
 La préparation de l’organisation permet de déterminer la façon dont les utilisateurs peuvent modifier leur façon de travailler. Le fait de connaître la façon dont les utilisateurs peuvent réagir en cas de changement autorise votre organisation à prendre des questions de manière proactive, à ajuster votre plan de déploiement pour une réception optimale et à identifier les utilisateurs qui peuvent être des champions et des ambassadeurs pour faciliter le changement.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/> <br/>Points de décision</td><td><ul><li>Les utilisateurs sont-ils prêts et prêts à passer à la nouvelle solution?</li><li>Les utilisateurs ont-ils la possibilité de faciliter le changement?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/><br/>Étapes suivantes</td><td><ul><li>Utilisez les lanceurs de conversation suivants pour comprendre la culture de votre organisation lorsqu’elle est en modification. Ces informations peuvent vous aider à déterminer le niveau de sensibilisation et de formation que vous devrez peut-être mettre en œuvre pour votre projet.
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Points de décision</td><td><ul><li>Les utilisateurs sont-ils prêts et prêts à passer à la nouvelle solution?</li><li>Les utilisateurs ont-ils la possibilité de faciliter le changement?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Étapes suivantes</td><td><ul><li>Utilisez les lanceurs de conversation suivants pour comprendre la culture de votre organisation lorsqu’elle est en modification. Ces informations peuvent vous aider à déterminer le niveau de sensibilisation et de formation que vous devrez peut-être mettre en œuvre pour votre projet.
 </li></ul></td></tr>
 </table>
 
@@ -98,8 +98,8 @@ La préparation de l’organisation permet de déterminer la façon dont les uti
 L’analyse au niveau des utilisateurs vous permet de comprendre les personnes que vous utilisez, les cohortes et les cas d’utilisation de vos utilisateurs. Lorsque vous prenez le temps d’appréhender les personnes et leur mode de fonctionnement, vous pouvez veiller à ce qu’elles soient efficaces lorsque vous implémentez le changement. Il peut s’agir de messages ciblés, de formations ou même d’appareils, tels que des casques et des webcams. Par exemple, un responsable peut s’attendre à une formation en tête-à-tête, alors que les représentants de terrain de voyage peuvent profiter d’une vidéo de formation qu’ils peuvent regarder en temps réel. De plus, votre analyse au niveau du personnel peut vous aider à identifier les personnes qui doivent commencer à utiliser les nouvelles fonctionnalités dès aujourd’hui et celles susceptibles d’être les plus utiles en attente.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/> <br/>Points de décision</td><td><ul><li>Est-ce que certains utilisateurs ou des cohortes disposent d’une dépendance fondamentale sur cette solution?</li><li>Existe-t-il des cas d’utilisation spécifiques qui peuvent être facilités en utilisant cette nouvelle solution?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/><br/>Étapes suivantes</td><td><ul><li>Mapper des personnages d’utilisateur. Tout d’abord, Segmentez votre base d’utilisateurs en groupes de personnes/cohortes (dirigeants, travailleurs itinérants, travailleurs de la collaboration, au détail, etc.). Dans le cas d’une gestion plus approfondie, vous ne disposez pas de plus de huit groupes. (Pour les exemples de début de conversation, voir ci-dessous.) Utilisez vos conclusions pour améliorer la conception de vos campagnes de vérification de l’utilisateur et pour segmenter les utilisateurs pilote de ceux qui pourraient bénéficier de la mise à niveau plus tard.
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Points de décision</td><td><ul><li>Est-ce que certains utilisateurs ou des cohortes disposent d’une dépendance fondamentale sur cette solution?</li><li>Existe-t-il des cas d’utilisation spécifiques qui peuvent être facilités en utilisant cette nouvelle solution?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Étapes suivantes</td><td><ul><li>Mapper des personnages d’utilisateur. Tout d’abord, Segmentez votre base d’utilisateurs en groupes de personnes/cohortes (dirigeants, travailleurs itinérants, travailleurs de la collaboration, au détail, etc.). Dans le cas d’une gestion plus approfondie, vous ne disposez pas de plus de huit groupes. (Pour les exemples de début de conversation, voir ci-dessous.) Utilisez vos conclusions pour améliorer la conception de vos campagnes de vérification de l’utilisateur et pour segmenter les utilisateurs pilote de ceux qui pourraient bénéficier de la mise à niveau plus tard.
 </li><li>Mapper des cas d’utilisation. Une fois que vous avez identifié les groupes d’utilisateurs principaux qui tirera profit de cette nouvelle technologie, envisagez d’utiliser votre population d’utilisateurs généraux. En maîtrisant les cas d’utilisation et les scénarios d’utilisation interéquipe, vous pouvez visualiser le fonctionnement de votre organisation à l’aide de cette nouvelle technologie. Par ailleurs, l’ajout d’exemples de cas d’utilisation à vos plans de communication et de formation vous aide réellement à les rendre pertinents pour vos utilisateurs.</li></ul></td></tr>
 </table>
 
@@ -125,7 +125,7 @@ Pour chaque groupe de personnages, discutez des éléments suivants avec votre �
 
 L’image ci-après illustre une table Persona.
 
-![Tableau répertoriant les personnes avec leurs rôles courants et les dépendances de solution de communication et de collaboration. Le personnage exécutif est mis en surbrillance avec des détails sur le profil (jour de la vie), ainsi que les fonctionnalités, les appareils et la formation dont il a besoin.] (media/prepare-my-users-image2.png "Tableau répertoriant les personnes avec leurs rôles courants et les dépendances de solution de communication et de collaboration. Le personnage exécutif est mis en surbrillance avec des détails sur le profil (jour de la vie), ainsi que les fonctionnalités, les appareils et la formation dont il a besoin.")
+![Tableau répertoriant les détails des personnages] (media/prepare-my-users-image2.png "Tableau répertoriant les personnes avec leurs rôles courants et les dépendances de solution de communication et de collaboration. Le personnage exécutif est mis en surbrillance avec des détails sur le profil (jour de la vie), ainsi que les fonctionnalités, les appareils et la formation dont il a besoin.")
 
 Pour chaque cas d’utilisation, discutez des éléments suivants avec votre équipe de projet:
 
@@ -145,8 +145,8 @@ Pour obtenir des exemples de cas d’utilisation, consultez la [bibliothèque de
 Lorsque vous comprenez qui est vos utilisateurs et leur fonctionnement au sein de la nouvelle solution, vous pouvez concevoir votre plan de préparation. Votre plan de compatibilité avec les utilisateurs vous permet de communiquer, de former et de prendre en charge vos utilisateurs à mesure que vous pilotez, intégrez et exploitez la nouvelle solution. Comme nous l’avons remarqué dans la procédure ci-dessus, la préparation ne correspond pas à la taille. Commencez par un plan de sensibilisation et de formation à portée de main incluant la messagerie de valeurs que vous avez définie au début de ce processus. Adaptez ensuite votre messagerie, votre formation et votre support aux personnes ou aux cohortes que vous avez définies, le cas échéant. Votre offre personnalisée permettra aux utilisateurs de se mettre plus rapidement en relation avec la nouvelle solution tout en montrant que vous comprenez leurs besoins, ce qui vous aidera à faciliter leur transition.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/> <br/>Points de décision</td><td><ul><li>Quel plan de disponibilité pouvez-vous utiliser pour faciliter et accélérer l’adoption de la nouvelle solution?</li><li>Avez-vous les ressources de sensibilisation, de formation et de support appropriées qui permettent de gérer les modifications et les personnes que vous avez définies?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/><br/>Étapes suivantes</td><td><ul><li>Utilisez la liste de la section suivante pour générer des idées pour votre plan de préparation. Sélectionnez les éléments les plus&mdash;pertinents ou ajoutez votre&mdash;propre plan de disponibilité optimisé pour votre organisation.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Points de décision</td><td><ul><li>Quel plan de disponibilité pouvez-vous utiliser pour faciliter et accélérer l’adoption de la nouvelle solution?</li><li>Avez-vous les ressources de sensibilisation, de formation et de support appropriées qui permettent de gérer les modifications et les personnes que vous avez définies?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Étapes suivantes</td><td><ul><li>Utilisez la liste de la section suivante pour générer des idées pour votre plan de préparation. Sélectionnez les éléments les plus&mdash;pertinents ou ajoutez votre&mdash;propre plan de disponibilité optimisé pour votre organisation.</li></ul></td></tr>
 </table>
 
 ### <a name="readiness-plan-ideas"></a>Idées de plan de disponibilité

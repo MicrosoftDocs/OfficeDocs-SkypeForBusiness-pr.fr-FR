@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Configurez et utilisez l’analyse des appels pour identifier et résoudre les problèmes de qualité d’appel dans Skype entreprise et Microsoft Teams.
-ms.openlocfilehash: ff413cf0f708f14feb8aa154be0dd4229e36eed5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 51f28b402fea69f0e5033954018a5f67bf6c90d6
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305220"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34432776"
 ---
 # <a name="set-up-call-analytics"></a>Configurer l’analyse des appels
 

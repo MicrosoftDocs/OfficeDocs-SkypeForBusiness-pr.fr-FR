@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7c7bf332c3d85445ccb9bcfe41e6d7417948ca15
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: c189ba7c3e814b3bbe37fea92f740e9fe873af86
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344608"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34432594"
 ---
 # <a name="plan-my-users-experience"></a>Planifier l’interface de mes utilisateurs
 
@@ -40,7 +40,7 @@ L’un des principaux avantages de teams est que le client est automatiquement m
 
 Comme vous pouvez le voir dans le diagramme ci-dessous, les points de terminaison constituent un bloc de construction important pour offrir une qualité optimale aux utilisateurs.
 
-![Diagramme décrivant les trois composantes de la qualité et la façon dont la gestion de service empiète sur les trois composants] (media/plan-my-users-experience-image1.png "Diagramme décrivant les trois composantes de la qualité et la façon dont la gestion de service empiète sur les trois composants. Le focus est axé sur les points de terminaison.")
+![Diagramme décrivant les trois composantes de la qualité] (media/plan-my-users-experience-image1.png "Diagramme décrivant les trois composantes de la qualité et la façon dont la gestion de service empiète sur les trois composants. Le focus est axé sur les points de terminaison.")
 
 Les points de terminaison teams peuvent s’exécuter sur de nombreux appareils, notamment les PC, Mac, tablettes et appareils mobiles. Une partie de l’expérience n’englobe pas uniquement le périphérique, mais le mode de connexion de l’utilisateur à l’appareil (par exemple, à l’aide du micro/haut-parleur intégré du périphérique, de confortables ou d’un casque optimisé). L'utilisation d'un casque optimisé peut enrichir l'expérience globale de l'utilisateur.
 

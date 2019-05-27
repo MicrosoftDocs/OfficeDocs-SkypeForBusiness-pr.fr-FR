@@ -18,12 +18,12 @@ MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 description: Découvrez comment gérer les paramètres des réunions d’équipes planifiées par les utilisateurs au sein de votre organisation.
-ms.openlocfilehash: 1828d626261c97cf3514781a5c55dbecd59d7666
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: ff47c1315dd56369d9a00d0afad952b80520abf3
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344876"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34433150"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Gérer les paramètres de réunion dans Microsoft Teams
 
@@ -38,7 +38,7 @@ Avec Join anonyme, n’importe qui peut rejoindre la réunion en tant qu’utili
 1. Dans le volet de navigation gauche, accédez à paramètres de la**réunion** **réunions** > .
 2. Sous **participants**, activez **les utilisateurs anonymes peuvent participer à une réunion**.
 
-    ![Meeting-Settings-participants. png] (media/meeting-settings-participants.png "Capture d’écran des paramètres des participants pour les réunions teams dans le centre d’administration Microsoft teams")
+    ![Capture d’écran des paramètres des participants pour les réunions dans le centre d’administration] (media/meeting-settings-participants.png "Capture d’écran des paramètres des participants pour les réunions teams dans le centre d’administration Microsoft teams")
 
 Si vous ne souhaitez pas que les utilisateurs anonymes puissent participer aux réunions planifiées par les utilisateurs de votre organisation, désactivez ce paramètre.
 
@@ -59,7 +59,7 @@ Vous pouvez personnaliser les invitations aux réunions teams selon les besoins 
 1. Dans le volet de navigation gauche, accédez à paramètres de la**réunion** **réunions** > .
 2. Sous **invitation électronique**, procédez comme suit:
 
-    ![Meeting-Settings-invitation. png] (media/meeting-settings-invitation.png "Capture d’écran des paramètres d’invitation à une réunion que vous pouvez personnaliser pour les réunions teams")
+    ![Capture d’écran des paramètres d’invitation à une réunion que vous pouvez personnaliser] (media/meeting-settings-invitation.png "Capture d’écran des paramètres d’invitation à une réunion que vous pouvez personnaliser pour les réunions teams")
 
     - **URL du logo** Entrez l’URL de stockage de votre logo.
     - **URL légale** Si votre organisation dispose d’un site Web légal auquel vous souhaitez que les personnes accèdent en cas de problèmes légaux, entrez l’URL ici.
@@ -78,7 +78,7 @@ Si vous utilisez la qualité de service [(QoS)](qos-in-teams.md) pour définir l
 1. Dans le volet de navigation gauche, accédez à paramètres de la**réunion** **réunions** > .
 2. Sous **réseau**, procédez comme suit:
 
-    ![Meeting-Settings-Network. png] (media/meeting-settings-network.png "Capture d’écran de la page Paramètres du réseau pour les réunions teams dans le centre d’administration Microsoft teams")
+    ![Capture d’écran des paramètres réseau des réunions dans le centre d’administration] (media/meeting-settings-network.png "Capture d’écran de la page Paramètres du réseau pour les réunions teams dans le centre d’administration Microsoft teams")
 
     - Pour autoriser l’utilisation de la marque DSCP pour la qualité de service (QoS), activez insérer des marqueurs de **qualité de service (QoS) pour le trafic multimédia en temps réel**. Vous avez la possibilité d’utiliser des marqueurs uniquement. vous ne pouvez pas définir de marqueurs personnalisés pour chaque type de trafic. Pour plus d’informations sur les marqueurs DSCP, voir [Sélectionner une méthode d’implémentation QoS](QoS-in-Teams.md#select-a-qos-implementation-method) .
     - Pour spécifier des plages de ports, en regard de l' **option Sélectionner une plage de ports pour chaque type de trafic multimédia en temps réel**, sélectionnez **spécifier les plages de ports**, puis entrez les ports de début et de fin pour le partage d’écran, audio et vidéo. Sélectionner cette option est requis pour implémenter QoS.

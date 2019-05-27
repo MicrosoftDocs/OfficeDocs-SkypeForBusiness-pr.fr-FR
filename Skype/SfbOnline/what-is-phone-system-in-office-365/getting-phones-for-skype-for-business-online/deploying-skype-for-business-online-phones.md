@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Découvrez les étapes de déploiement pour obtenir le microprogramme approprié, le mettre à jour si nécessaire, affecter des licences et configurer des paramètres pour des téléphones Skype entreprise online.
-ms.openlocfilehash: 1e83c240b5406fbb3e7a247200d2b38d74ba8ef5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8d3de52f7c732571b3692ed2b3683673acdb8e60
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298007"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34432584"
 ---
 # <a name="deploying-skype-for-business-online-phones"></a>Déploiement de téléphones Skype Entreprise Online
 
@@ -71,15 +71,15 @@ Check the firmware version on your phones. For:
   
 Firmware updates are managed by the Skype for Business Service. Every Skype for Business certified phone's firmware is uploaded to the Skype for Business Update server, and device update is enabled on all phones by default. Depending on the inactivity time on the phone and polling intervals, phones will automatically download and install the latest certified builds. You can disable the device update settings by using the [Set-CsIPPhonePolicy](https://technet.microsoft.com/en-us/library/mt629497.aspx) cmdlet and setting the _EnableDeviceUpdate_ parameter to `false`.
   
-![Déploiement de téléphones.](../../images/be727622-1924-439f-96ca-89230739db9e.png)
+![Capture d’écran montrant le déploiement de téléphones](../../images/be727622-1924-439f-96ca-89230739db9e.png)
   
 When a new firmware is available and ready for download and install, the phone will notify the user. Polycom phones will notify the user and provide them with an option to **Update** or **Postpone**.
   
-![Déploiement de téléphones.](../../images/50956fa0-da0c-4085-9bb5-4a2e99aecebb.png)
+![Capture d’écran montrant les options de mise à jour et de report.](../../images/50956fa0-da0c-4085-9bb5-4a2e99aecebb.png)
   
 Dans le cas d'un téléphone Polycom, vous pouvez mettre à jour le microprogramme en sélectionnant **SwUpdate (Mise à jour logicielle)**.
   
-![Déploiement de téléphones.](../../images/376c1998-6ce6-44b6-a84d-ae7d96b1c307.png)
+![Capture d’écran montrant l’option SWupdate (](../../images/376c1998-6ce6-44b6-a84d-ae7d96b1c307.png)
   
 Vous pouvez également gérer les mises à jour du microprogramme à l'aide d'un système de provisionnement partenaire. Pour plus d'informations sur la gestion de système de provisionnement partenaire, notamment la personnalisation de téléphone avancée, consultez les guide d'administration du fabricant.
   
@@ -102,17 +102,17 @@ Pour en savoir plus sur les offres d’appel, consultez la documentation relativ
     
   - Les utilisateurs de téléphones **Polycom VVX 5xx/6xx** verront:
     
-     ![Déploiement de téléphones.](../../images/8a1ffb33-8a63-4242-bb76-d5fafb6a6472.png)
+     ![Capture d’écran montrant la connexion de téléphones Polycom](../../images/8a1ffb33-8a63-4242-bb76-d5fafb6a6472.png)
   
   - Les utilisateurs de téléphones **YEALINK VVX t48g/t46g verront** verront:
     
-     ![Ouverture de session des téléphones Yealink.](../../images/2a2892ae-850d-4781-8be0-4ffb8af068c9.png)
+     ![Capture d’écran montrant la connexion de téléphones Yealink.](../../images/2a2892ae-850d-4781-8be0-4ffb8af068c9.png)
   
     Pour plus d’informations sur les options de connexion prises en charge par le fabricant, consultez la rubrique [réception de téléphones pour Skype entreprise Online](getting-phones-for-skype-for-business-online.md).
     
 - **ID d'utilisateur** À l'aide de leur clavier téléphonique ou de leur clavier visuel (le cas échéant), les utilisateurs peuvent se servir du nom d'utilisateur et du mot de passe de leur organisation pour se connecter à leur téléphone. Par exemple, ils doivent utiliser le format UPN (par ex. : <em>amosm@contoso.com</em>  pour leur nom d'utilisateur.
     
-     ![Déploiement de téléphones.](../../images/f67fa8f4-66a5-451d-bdf2-a12daac15cb5.png)
+     ![Capture d’écran montrant l’écran de connexion](../../images/f67fa8f4-66a5-451d-bdf2-a12daac15cb5.png)
   
     > [!NOTE]
     > L'authentification par code confidentiel n'est pas prise en charge par Skype Entreprise Online avec les téléphones LPE et PIP (Partner IP Phone). 
@@ -122,47 +122,47 @@ Pour en savoir plus sur les offres d’appel, consultez la documentation relativ
   > [!NOTE]
   > Les utilisateurs doivent se servir du nom d'utilisateur et du mot de passe de leur organisation pour se connecter à leur téléphone. Par exemple, ils doivent utiliser le format UPN (par ex. :  <em>amosm@contoso.com</em>  pour leur nom d'utilisateur.
   
-     ![Déploiement de téléphones.](../../images/f67fa8f4-66a5-451d-bdf2-a12daac15cb5.png)
+     ![Capture d’écran montrant l’écran de connexion](../../images/f67fa8f4-66a5-451d-bdf2-a12daac15cb5.png)
   
 - **Using a Web Sign-in**: This is a new way for Online users to authenticate using a standard web browser. Users will be provided with a set of instructions to follow when they use a browser to sign in.
     
   - Les utilisateurs de téléphones **Polycom VVX 5xx/6xx** verront:
     
-     ![Déploiement de téléphones.](../../images/ba0df923-a6e5-4a9b-b40b-b03ca188e814.png)
+     ![Capture d’écran montrant les instructions Polycom](../../images/ba0df923-a6e5-4a9b-b40b-b03ca188e814.png)
   
   - Les utilisateurs de téléphones **YEALINK VVX t48g/t46g verront** verront:
     
-     ![Ouverture de session des téléphones Yealink.](../../images/86551cc3-533a-4694-9683-bad907c9ad5a.png)
+     ![Capture d’écran montrant les instructions de Yealink](../../images/86551cc3-533a-4694-9683-bad907c9ad5a.png)
   
     The code that is generated will expire in 15 minutes. When it expires, the user will have to click **Retry** or **OK** to generate a new code, depending on the phone.
     
   - Les utilisateurs de téléphones **Polycom VVX 5xx/6xx** verront:
     
-     ![Code confidentiel expiré.](../../images/b5d27037-aa26-4054-be95-d5a6c293d08c.png)
+     ![Capture d’écran montrant le code Polycom expiré](../../images/b5d27037-aa26-4054-be95-d5a6c293d08c.png)
   
   - Les utilisateurs de téléphones **YEALINK VVX t48g/t46g verront** verront:
     
-     ![Ouverture de session des téléphones Yealink.](../../images/3a4462ac-0c59-409e-a3bb-1451cdcc8676.png)
+     ![Capture d’écran montrant le code Yealink expiré](../../images/3a4462ac-0c59-409e-a3bb-1451cdcc8676.png)
   
     À l'aide d'un navigateur, accédez à l'adresse affichée dans le téléphone et saisissez votre nom d'utilisateur Skype Entreprise.
     
-     ![Déploiement de téléphones.](../../images/7c540b85-dc37-4ce7-a077-9e3454a0efd0.png)
+     ![Capture d’écran montrant la vérification de l’e-mail](../../images/7c540b85-dc37-4ce7-a077-9e3454a0efd0.png)
   
     Entrez le code qui s'affiche sur le téléphone.
     
-     ![Déploiement de téléphones.](../../images/d6b88016-35d2-41d1-a0da-81fef34521d4.png)
+     ![Capture d’écran montrant le code de saisie sur l’écran de connexion](../../images/d6b88016-35d2-41d1-a0da-81fef34521d4.png)
   
     Vérifiez que le site indique «[nom du fabricant du téléphone] **téléphone certifié Skype entreprise**» et cliquez sur **Continuer**.
     
-     ![Déploiement de téléphones.](../../images/a8252b37-4ff5-4ece-9e2a-3e05bf928299.png)
+     ![Capture d’écran montrant la vérification du nom](../../images/a8252b37-4ff5-4ece-9e2a-3e05bf928299.png)
   
     Cliquez sur les informations de connexion de l'utilisateur ou sur **Use another account (Utiliser un autre compte)**:
     
-     ![Déploiement de téléphones.](../../images/8415028b-7924-4747-b639-052d9b0b961e.png)
+     ![Capture d’écran montrant les options d’information d’identification](../../images/8415028b-7924-4747-b639-052d9b0b961e.png)
   
     Lorsque la page suivante s’affiche, vous pouvez fermer le navigateur en toute sécurité.
     
-     ![Déploiement de téléphones.](../../images/1a873201-52fc-4a63-b7b5-e82bbd031fd2.png)
+     ![Capture d’écran montrant un message de confirmation](../../images/1a873201-52fc-4a63-b7b5-e82bbd031fd2.png)
   
     > [!NOTE]
     > Les téléphones LPE pour Skype Entreprise Online prennent en charge la connexion via un périphérique USB uniquement. 
@@ -203,7 +203,7 @@ BToE can be configured to operate in two modes:  *Auto*  (default) and *Manual* 
   
 1. Connectez leur PC à leur téléphone à l'aide du port du PC.
     
-     ![Déploiement de téléphones.](../../images/e21d76c7-867c-4fe6-95c6-fc40c608ed0c.png)
+     ![Capture d’écran montrant la connexion à un PC](../../images/e21d76c7-867c-4fe6-95c6-fc40c608ed0c.png)
   
 2. Téléchargez et installez la dernière version du logiciel BToE à partir du site Web du fabricant disponible en cliquant sur les liens ci-dessous. Pour une expérience utilisateur optimale, vous pouvez distribuer et installer le logiciel BToE à l'aide d'une solution de distribution d'administrateur, telle que System Center Configuration Manager (SCCM). Pour obtenir de l'aide pour utiliser SCCM, reportez-vous à la page [Packages et programmes dans System Center Configuration Manager](https://docs.microsoft.com/sccm/apps/deploy-use/packages-and-programs).
     

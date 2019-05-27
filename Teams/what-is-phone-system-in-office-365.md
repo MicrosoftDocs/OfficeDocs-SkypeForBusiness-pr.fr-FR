@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'En savoir plus sur ce que votre système téléphonique peut faire pour vous. '
-ms.openlocfilehash: 7188a0d4573ce7bc935b60506371fbd2a4f1b6a8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3c2d1d910226b4597595f6dd55246f2f9c71049d
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299018"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34432879"
 ---
 # <a name="what-is-phone-system-in-office-365"></a>Système téléphonique dans Office 365
 
@@ -49,7 +49,7 @@ Pour activer les appels vers des téléphones fixes et mobiles, le système tél
 
 L’utilisation d’un module complémentaire de plan d’appel au téléphone dans Office 365 permet une connectivité PSTN pour les appels vers des téléphones fixes et mobiles dans le monde entier (en fonction du niveau de service sous licence). Vos utilisateurs sont hébergés dans le Cloud et activés pour le système téléphonique avec le module complémentaire Plan d’appel fourni par Microsoft. L’utilisation de forfaits d’appel ne nécessite pas de déploiement local du serveur. Les plans d’appel fonctionnent uniquement avec le système téléphonique dans Office 365, et vous ne pouvez pas utiliser d’offres d’appels avec un autre système PBX.
 
-![Diagramme de topologie montrant Cloud PBX avec appel RTC, la solution vocale entièrement sur le Cloud.](media/3e847ec3-f441-4833-8616-c5ebab094e3e.png)
+![Diagramme topologique montrant le PBX Cloud avec la fonction d’appel RTC](media/3e847ec3-f441-4833-8616-c5ebab094e3e.png)
 
 Dans la mesure où les offres d’appels fonctionnent dans Office 365, il s’agit d’une offre entièrement dans le Cloud qui ne nécessite pas de déploiement local du serveur. Vous avez le choix d’utiliser un plan d’appels nationaux ou internationaux, qui est attribué à chaque utilisateur à qui vous voulez passer des appels. [Vous voulez en savoir plus?](calling-plan-landing-page.md)
   

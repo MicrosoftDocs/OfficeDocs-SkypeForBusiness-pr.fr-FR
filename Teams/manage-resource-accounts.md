@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: En savoir plus sur la gestion des comptes de ressources dans Microsoft teams
-ms.openlocfilehash: f2c7b03f79a29b89c94266359f21571b1994e82a
-ms.sourcegitcommit: 4b8350e5bb2ef138dcc0204d764bdf85bae539ba
+ms.openlocfilehash: a136a91fc4667ac71f6c6798ce4a0953aa0c32a6
+ms.sourcegitcommit: d010c615ee530deb34d79a1a62815ef0a52a2086
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34334926"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34404301"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Gérer les comptes de ressources dans Microsoft Teams
 
@@ -49,14 +49,15 @@ Pour commencer, il est important de mémoriser les éléments suivants:
 
 > [!NOTE]
 > Les numéros de service de routage direct affectés aux comptes de ressources pour le standard automatique et les files d’attente d’appels sont uniquement pris en charge pour les utilisateurs et agents Microsoft Teams.
->
+
+> [!NOTE]
 > Dans le cadre de l’utilisation d’un modèle de licence approprié pour les applications, telles que les standards automatiques du Cloud et les files d’attente, pour le moment, vous devez utiliser le modèle de gestion des licences utilisateur.
->
-> Pour rediriger les appels vers des utilisateurs de votre organisation qui sont hébergés en ligne, ils doivent disposer d’une licence de **système téléphonique** et être activés pour Enterprise Voice ou disposer de plans d’appel Office 365. Voir [attribuer des licences Microsoft teams](assign-teams-licenses.md). Pour les activer pour Enterprise Voice, vous pouvez utiliser Windows PowerShell. Par exemple, exécutez :  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
->
-> Les numéros de téléphone des utilisateurs (abonnés) ne peuvent pas être attribués à un compte de ressources. Seuls les numéros de téléphone gratuits et payants peuvent être utilisés.
->
-> Si vous résidez en dehors des États-Unis, vous ne pouvez pas utiliser le centre d’administration de Microsoft teams pour obtenir des numéros de service. Pour plus d’informations sur la [gestion des numéros de téléphone de votre organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) , voir gérer les numéros de téléphone situés en dehors des États-Unis.
+
+Pour rediriger les appels vers des utilisateurs de votre organisation qui sont hébergés en ligne, ils doivent disposer d’une licence de **système téléphonique** et être activés pour Enterprise Voice ou disposer de plans d’appel Office 365. Voir [attribuer des licences Microsoft teams](assign-teams-licenses.md). Pour les activer pour Enterprise Voice, vous pouvez utiliser Windows PowerShell. Par exemple, exécutez :  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+
+Les numéros de téléphone des utilisateurs (abonnés) ne peuvent pas être attribués à un compte de ressources. Seuls les numéros de téléphone gratuits et payants peuvent être utilisés.
+
+Si vous résidez en dehors des États-Unis, vous ne pouvez pas utiliser le centre d’administration de Microsoft teams pour obtenir des numéros de service. Pour plus d’informations sur la [gestion des numéros de téléphone de votre organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) , voir gérer les numéros de téléphone situés en dehors des États-Unis.
 
 ### <a name="phone-numbers"></a>Numéros de téléphone
 
