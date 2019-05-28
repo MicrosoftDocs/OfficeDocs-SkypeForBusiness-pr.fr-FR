@@ -101,6 +101,7 @@
 ## [Utiliser le complément Réunion Teams dans Outlook](teams-add-in-for-outlook.md)
 ## [Configuration de Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Salles Microsoft Teams](room-systems/index.md)
+## [Gérer le tableau blanc dans teams](manage-whiteboard.md)
 
 
 ## Audioconférence
@@ -579,28 +580,38 @@
 
 
 <!-- ============================================================ -->
-# [Mise à niveau vers Teams](upgrade-introduction.md)
+# Mise à niveau vers Teams
 ## [Prise en main](upgrade-start-here.md)
 ## [À propos du cadre de mise à niveau](upgrade-framework.md)
-## [Planifier votre parcours de mise à niveau](upgrade-plan-journey.md)
+
+## Planifier votre parcours de mise à niveau
+### [Vue d’ensemble de la planification de mise à niveau](upgrade-plan-journey.md)
 ### [Inscription des parties prenantes du projet](upgrade-enlist-stakeholders.md)
 ### [Définition de l’étendue de votre projet](upgrade-define-project-scope.md)
-### [Présentation de la coexistence et de l’interopérabilité](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+
+### Comprendre la coexistence et l’interopérabilité
+#### [Vue d’ensemble de la coexistence et de l’interopérabilité](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 #### [Choix de votre parcours de mise à niveau](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 ### [Prévoir la qualité](upgrade-plan-for-quality.md)
-## [Préparer votre environnement pour Teams](upgrade-prepare-environment.md)
+
+## Préparer votre environnement pour Teams
+### [Vue d’ensemble de la préparation technique](upgrade-prepare-environment.md)
 ### [Préparer le service informatique pour Teams](upgrade-prepare-IT-pros.md)
 ### [Conditions préalables](upgrade-plan-journey-prerequisites.md)
 ### [Évaluer votre environnement](upgrade-plan-journey-evaluate-environment.md)
 ### [Préparer votre réseau](upgrade-prepare-environment-prepare-network.md)
 ### [Préparer votre service](upgrade-prepare-environment-prepare-service.md)
-## [Préparer votre organisation pour Teams](upgrade-prepare-organization.md)
+
+## Préparer votre organisation pour Teams
+### [Vue d’ensemble de la préparation organisationnelle](upgrade-prepare-organization.md)
 ### [Évaluer la préparation au changement de l’organisation](upgrade-org-change-readiness.md)
 ### [Préparer un plan de préparation utilisateur](upgrade-user-readiness.md)
 ## [Réaliser un pilote utilisateur](pilot-essentials.md)
 ## [Mise à niveau de Skype Entreprise Online vers Teams](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
 ## [Mise à niveau de Skype Entreprise hybride ou sur site vers Teams](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md)
-## [Fonctionnent, adoption et optimisation](continue-journey.md)
+
+## Fonctionnement, adoption et optimisation
+### [Vue d’ensemble du plan opérationnel](continue-journey.md)
 ### [Exploiter votre service](upgrade-operate-my-service.md)
 ### [Contrôler la qualité](upgrade-monitor-quality.md)
 ### [Améliorer votre service](upgrade-enhance-my-service.md)
@@ -674,7 +685,7 @@
 ### [Planifier les groupes Office 365 lors de la création d’équipes dans Teams](plan-office-365-groups.md)
 ### [Planifier la gestion du cycle de vie dans Teams](plan-teams-lifecycle.md)
 ### [Planifier la gouvernance dans Teams](plan-teams-governance.md)
-
+### [Utiliser l’Assistant test réseau](use-network-testing-companion.md)
 
 
 
