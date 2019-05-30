@@ -7,7 +7,7 @@ ms.date: 05/09/2019
 ms.topic: reference
 ms.service: msteams
 ms.reviewer: anach
-description: Découvrez où les données sont stockées dans Microsoft Teams.
+description: En savoir plus sur l’emplacement de stockage des données dans Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
 MS.collection:
@@ -15,29 +15,29 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 369351b818506525cf750d7e5d767b3bdbf97906
-ms.sourcegitcommit: ca7a22da082ac5336f31ffd76f3d4aef6c76285b
+ms.openlocfilehash: 941869edabc171fdf73eb9f2d0a11a2d3dacb1fd
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2019
-ms.locfileid: "33868839"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548182"
 ---
 # <a name="location-of-data-in-microsoft-teams"></a>Emplacement des données dans Microsoft Teams
 
-Les données dans Teams résident dans la région géographique associée à votre client Office 365. Actuellement, les équipes prend en charge les régions Australie, Canada, France, Inde, au Japon, Royaume-Uni, Amérique, APAC et EMEA. 
+Les données dans Teams résident dans la région géographique associée à votre client Office 365. Pour l’instant, teams prend en charge l’Australie, le Canada, la France, l’Inde, le Japon, le Royaume-Uni, le Amérique du Pacifique et la région EMEA. 
 
 > [!IMPORTANT]
-> Équipes offre actuellement de délégation des données en Australie, Canada, France, Inde, au Japon et au Royaume-Uni pour les nouveaux clients uniquement. Tout client qui ne possédait pas d'utilisateur unique inscrit dans Teams est considéré comme un nouveau client. Clients existants d’Australie, Inde et Japon continuera à leurs données équipes stocké dans la région APAC. Clients existants au Canada continuera à leurs données stockées en Amérique. France et Royaume-Uni auront leurs données stockées dans la région EMEA.
+> Teams propose actuellement une résidence de données en Australie, au Canada, en France, en Inde, au Japon et au Royaume-Uni pour les nouveaux clients uniquement. Tout client qui ne possédait pas d'utilisateur unique inscrit dans Teams est considéré comme un nouveau client. Les clients existants tirés de l’Australie, de l’Inde et du Japon continuent d’avoir leurs données d’équipe stockées dans la région APAC. Les clients existants au Canada continuent d’avoir leurs données stockées dans le continent américain. En France et au Royaume-Uni, les données sont stockées dans la région EMEA.
 
-Pour en savoir plus sur le lancement de la délégation de données Inde et Royaume-Uni pour les équipes, lisez le billet de blog de Ansuman Acharya, [que les équipes Microsoft lance la délégation données Inde, autres zones géographiques bientôt disponible](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Australia-and-Japan-Data-Residency/ba-p/237827). 
+Pour en savoir plus sur le lancement des données de la société en Inde et au Royaume-Uni, consultez le billet de blog de Ansuman Acharya, [Microsoft teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Australia-and-Japan-Data-Residency/ba-p/237827). 
 
-Pour plus d’informations sur la délégation des données Canada pour les équipes, lisez le billet de blog de Varun Sagar [équipes Microsoft lance la délégation données Canada, Australie et Japon bientôt disponible](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Canada-Data-Residency-Australia-and/ba-p/227178). 
+Pour plus d’informations sur la fonction de données du Canada pour Teams, voir le billet de blog de Varun Sagar, Microsoft teams: délégation des données du Canada sur les [données, l’Australie et le Japon bientôt disponible](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Canada-Data-Residency-Australia-and/ba-p/227178). 
 
-Pour en savoir plus sur le lancement de la délégation de données Australie et Japon pour les équipes, lisez le billet de blog de Varun Sagar [Microsoft équipes lance Australie et Japon données délégation](https://go.microsoft.com/fwlink/?linkid=867773). 
+Pour en savoir plus sur le lancement d’Australie et de résidence sur les données du Japon pour Teams, voir le billet de blog de Varun Sagar de [Microsoft teams](https://go.microsoft.com/fwlink/?linkid=867773). 
 
-Pour en savoir plus sur le lancement de la délégation de données France pour les équipes, lisez le billet de blog de Varun Sagar, [Les équipes Microsoft lance la délégation données France](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-launches-France-Data-Residency/ba-p/364466). 
+Pour en savoir plus sur le lancement de la résidence des données de la France pour Teams, voir le billet de blog de Varun Sagar de [Microsoft teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-launches-France-Data-Residency/ba-p/364466). 
 
-Pour afficher la zone contient des données pour votre client, accédez au [Centre d’administration Microsoft 365](https://portal.office.com/adminportal/home) > **paramètres** > **profil d’organisation**. Défilez jusqu’à la section **Emplacement des données**. 
+Pour afficher la région qui abrite les données pour votre client, accédez au**profil d’organisation****paramètres** > du centre > d' [administration 365 Microsoft](https://portal.office.com/adminportal/home). Défilez jusqu’à la section **Emplacement des données**. 
 
-![Capture d’écran de la table de magasin de données, y compris les équipes, dans le centre d’administration d’Office 365.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
+![Capture d’écran de la table d’emplacements des données, notamment équipes dans le centre d’administration](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
 

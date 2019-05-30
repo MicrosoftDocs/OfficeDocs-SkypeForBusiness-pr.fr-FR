@@ -15,12 +15,12 @@ description: Tâches et activités requises pour la gestion des services d’éq
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 293406bbc8fe8cb97917908bc14f83129ff1bb66
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: d40bbeaf0876071502d187826ecc702c9175b2da
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34432871"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494295"
 ---
 # <a name="operate-my-service"></a>Exploiter mon service
 
@@ -38,7 +38,7 @@ La gestion des services englobe toutes les activités et processus impliqués da
 
 Les tâches et les activités de ce guide sont regroupées en huit catégories, comme illustré dans le schéma suivant. Chacune de ces catégories sera développée sur les sections suivantes.
 
-![Diagramme illustrant une liste de catégories de tâches et d’activités que la gestion de service pour teams comporte. Le diagramme montre également que la gestion des services est essentiellement une tâche client.] (media/operate-my-service-image1.png "Diagramme illustrant une liste de catégories de tâches et d’activités que la gestion de service pour teams comporte. Le diagramme montre également que la gestion des services est essentiellement une tâche client.")
+![Diagramme illustrant une liste de catégories de tâches et d’activités] (media/operate-my-service-image1.png "Diagramme illustrant une liste de catégories de tâches et d’activités que la gestion de service pour teams comporte. Le diagramme montre également que la gestion des services est essentiellement une tâche client.")
 
 
 <table>
@@ -315,7 +315,7 @@ NPS est un index, allant de-100 à 100, qui mesure la volonté d’un client de 
 
 -   Entre 1 et 6: les détenteurs qui peuvent endommager votre service et entraver la croissance.
 
-![Ce diagramme montre l’échelle NPS. Il indique que les rangs de 0 à 6 sont des tracteurs de 0 à 6 sont passifs et les promoteurs 9 à 10.] (media/operate-my-service-image2.png "Ce diagramme montre l’échelle NPS. Il indique que les rangs de 0 à 6 sont des tracteurs de 0 à 6 sont passifs et les promoteurs 9 à 10.")
+![Diagramme illustrant l’échelle NPS] (media/operate-my-service-image2.png "Ce diagramme montre l’échelle NPS. Il indique que les rangs de 0 à 6 sont des tracteurs de 0 à 6 sont passifs et les promoteurs 9 à 10.")
 
 Même si le numéro NPS de base est utile, vous obtiendrez la plus grande valeur de l’analyse des commentaires des utilisateurs. Ils vous aideront à comprendre la raison pour laquelle l’utilisateur serait (ou aurait) recommander des équipes. Ces commentaires peuvent fournir des commentaires intéressants pour aider les équipes de gestion de projet ou de service à comprendre les ajustements nécessaires pour fournir un service qualité.
 
@@ -551,7 +551,7 @@ Par défaut, tous les utilisateurs disposant d’une boîte aux lettres dans Exc
 
 Le [Guide de vérification de la qualité de l’utilisation](https://aka.ms/qerguide) inclut un ensemble d’activités qui évaluent et fournissent des recommandations en matière de correction dans des domaines clés ayant un impact élevé sur l’amélioration de l’interface utilisateur, comme illustré ci-dessous.
 
-![Principaux points à examiner lors de la vérification de la qualité de l’utilisation: audio, fiabilité et résultats d’une enquête utilisateur.] (media/plan-my-service-management-image2.png "Principaux points à examiner lors de la vérification de la qualité de l’utilisation: audio, fiabilité et résultats d’une enquête utilisateur.")
+![Diagramme des zones à examiner lors d’une évaluation de qualité de l’expertise] (media/plan-my-service-management-image2.png "Principaux points à examiner lors de la vérification de la qualité de l’utilisation: audio, fiabilité et résultats d’une enquête utilisateur.")
 
 En évaluant et en révisant en permanence les zones décrites dans le guide, vous pouvez réduire leur potentiel pour une utilisation négative de l’utilisateur. La plupart des problèmes d'expérience utilisateur rencontrés lors d'un déploiement peuvent être regroupés dans les catégories suivantes :
 

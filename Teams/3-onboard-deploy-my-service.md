@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 90f49b3da1aec6d5f81f43674db5bc8cdb3822aa
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 2c4652e27caf207b1af275ecc1fae0d0daa8598b
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344700"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548365"
 ---
 # <a name="deploy-my-service"></a>Déployer mon service
 
@@ -64,7 +64,7 @@ Le manifeste consiste à traiter les facteurs qui influencent la perception de l
 
 Le manuel [d’activation des sites pour les appels vocaux](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) est un classeur Microsoft Excel. Chacun de ces cinq domaines de focalisation est une feuille séparée dans le classeur, et chaque tâche et activité de déploiement est regroupée sur l’une de ces feuilles.
 
-![Capture d’écran du manuel] (media/deploy-my-service-image1.png "Capture d’écran du manuel")
+![Capture d’écran du manuel d’activation du site] (media/deploy-my-service-image1.png "Capture d’écran du manuel")
 
 > [!NOTE]
 > Vous allez créer une instance distincte du manuel pour chaque site dans le cadre de votre déploiement d’équipes.
@@ -88,8 +88,8 @@ Quelle que soit la taille et la complexité de l’emplacement, l’activation d
 5. Examinez chaque activité, effectuez les actions nécessaires et mettez à jour l’État à mesure que vous parcourez la chronologie. Le statut est représenté sous forme graphique, comme décrit ci-dessous:
   
    - ![Illustration d’une coche](media/deploy-my-service-image3.png) verte **: oui ou non applicable (vert):** l’activité est terminée ou n’est pas applicable pour ce site, et aucune action supplémentaire n’est requise.</li>
-    - ![Image d’un point](media/deploy-my-service-image4.png) d’exclamation jaune <strong>l’activité n’est pas achevée (jaune):</strong> l’activité n’a pas encore été achevée et doit être mise à jour sur Oui ou non.</li>
-   - ![Illustration d’un X](media/deploy-my-service-image5.png) rouge <strong>(rouge):</strong> l’activité ne peut pas être effectuée en raison d’un problème et doit être acheminée vers la réunion d’État du projet.</li></ul>
+   - ![Image d’un point](media/deploy-my-service-image4.png) d’exclamation jaune <strong>l’activité n’est pas achevée (jaune):</strong> l’activité n’a pas encore été achevée et doit être mise à jour sur Oui ou non.</li>
+   - ![Illustration d’une marque](media/deploy-my-service-image5.png) rouge X <strong>no (rouge):</strong> l’activité ne peut pas être effectuée en raison d’un problème et doit être acheminée vers la réunion d’État du projet.</li></ul>
 
 6. Le statut est répété dans chaque section, et le titre de section est mis en forme avec l’un de ces indicateurs d’État. Le **statut hebdomadaire** est également mis à jour automatiquement.
 
@@ -103,8 +103,8 @@ Quelle que soit la taille et la complexité de l’emplacement, l’activation d
 Soyez attentif aux activités qui peuvent durer plus longtemps que prévu (par exemple, le transfert de numéros et les activités d’approvisionnement). Ces activités peuvent avoir un impact négatif sur la chronologie du déploiement de site. Veillez à vérifier et à mettre à jour la liste des activités et la chronologie associée de manière hebdomadaire, et à les présenter à des [réunions du Comité de direction](https://docs.microsoft.com/MicrosoftTeams/envision-steering-committee-complete-guide) pour vous assurer que les parties prenantes sont consciente de l’état de chaque site et des écarts possibles de la planification du déploiement.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/> <br/>Points de décision</td><td><ul><li>Déterminez si le manuel d’activation du site est requis pour votre déploiement.</li><li>Déterminez qui sera responsable de la personnalisation du manuel d’activation des sites de Microsoft teams pour chaque site que vous déploierez.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/><br/>Étapes suivantes</td><td><ul><li><a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true" data-raw-source="[Download the Site Enablement Playbook](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)">Télécharger le manuel d’activation de site</a>.</li><li>Personnalisez le manuel d’activation de site pour votre premier site.</li><li>Répétez cette procédure si nécessaire pour les sites supplémentaires.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Points de décision</td><td><ul><li>Déterminez si le manuel d’activation du site est requis pour votre déploiement.</li><li>Déterminez qui sera responsable de la personnalisation du manuel d’activation des sites de Microsoft teams pour chaque site que vous déploierez.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Étapes suivantes</td><td><ul><li><a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true" data-raw-source="[Download the Site Enablement Playbook](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)">Télécharger le manuel d’activation de site</a>.</li><li>Personnalisez le manuel d’activation de site pour votre premier site.</li><li>Répétez cette procédure si nécessaire pour les sites supplémentaires.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

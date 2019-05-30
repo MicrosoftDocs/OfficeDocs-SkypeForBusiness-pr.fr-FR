@@ -7,7 +7,7 @@ ms.date: 08/21/2018
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: rakayala
-description: Informations administrateurs doivent comprendre sur la présence dans les équipes.
+description: Les administrateurs d’informations doivent comprendre la présence dans Teams.
 localization_priority: Normal
 search.appverid: MET150
 MS.collection:
@@ -15,60 +15,60 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0cffa4e5eef3b5b120e38b103d04adbca08bef0e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 3fd6ac289df238d9f410266b1eca43a3a18f493e
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32246233"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548524"
 ---
 # <a name="user-presence-in-teams"></a>Présence des utilisateurs dans Teams
 
-Fait partie d’un profil utilisateur dans Microsoft Teams (et dans Office 365), de présence et indique la disponibilité actuelle de l’utilisateur et l’état à d’autres utilisateurs dans l’organisation. Par défaut, tout le monde dans votre organisation à l’aide des équipes permettre voir ou non les autres utilisateurs sont disponibles en ligne.
+Les informations de présence font partie du profil d’un utilisateur dans Microsoft Teams (et dans Office 365), et indiquent la disponibilité et l’état actuel de l’utilisateur à d’autres utilisateurs au sein de l’organisation. Par défaut, tous les membres de votre organisation qui utilisent teams peuvent voir-en presque en temps réel, qu’ils soient ou non disponibles en ligne.
 
-## <a name="presence-states-in-teams"></a>États de présence dans les équipes
+## <a name="presence-states-in-teams"></a>États de présence dans teams
 
-Les États de présence utilisateur disponibles dans les équipes sont les suivants :
+Les statuts de présence des utilisateurs disponibles dans teams sont les suivants:
 
-|Configuré utilisateur|Application configurée|
+|Utilisateur configuré|Application configurée|
 |:--- |:---|
-| ![Présence disponible](media/Presence_Available.png) Disponibles|![Présence disponible](media/Presence_Available.png) Disponibles|
-|| ![oof disponible](media/Presence_Available_OOF.png) Disponible, absent |
-|  ![Occupé (e)](media/Presence_Busy.png) Occupé (e) |  ![Occupé (e)](media/Presence_Busy.png) Occupé (e)  |
-|| ![Occupé (e)](media/Presence_Busy.png) Dans un appel|
-|| ![Occupé (e)](media/Presence_Busy.png) Dans une réunion |
-|| ![occupé (e) absent du bureau](media/Presence_Busy_OOF.png) Dans un appel, absent|
-|  ![Ne pas déranger](media/Presence_DND.png) Ne pas déranger ||
-|| ![Ne pas déranger](media/Presence_DND.png) Présentation|
-| ![Absent (e)](media/Presence_Away.png) Absent (e)| ![Absent (e)](media/Presence_Away.png) Absent (e)|
-|| ![Absent (e)](media/Presence_Away.png) absent (e) vu dernière *heure*|
-|![Absent (e)](media/Presence_Away.png) On revient| |
-|| ![Absent (e)](media/Presence_Away.png)  En congé|
-|| ![hors-ligne](media/Presence_Offline.png) hors-ligne |
-|| ![inconnu](media/Presence_Unknown.png) État inconnu|
-||![bloqué](media/Presence_Blocked.png) Bloqué |
-|| ![Absent](media/Presence_OOF.png) Absent|
+| ![Marque verte CHEK, indiquant la présence disponible](media/Presence_Available.png) Disponibles|![Marque verte CHEK, indiquant la présence disponible](media/Presence_Available.png) Disponibles|
+|| ![Ouvrir la marque verte CHEK, indiquant que le OOF est disponible](media/Presence_Available_OOF.png) Disponible, absent (e) du Bureau |
+|  ![Cercle rouge continu indiquant Busy](media/Presence_Busy.png) Très |  ![Très](media/Presence_Busy.png) Très  |
+|| ![Cercle rouge continu indiquant qu’il est occupé pendant un appel](media/Presence_Busy.png) En communication|
+|| ![Cercle rouge continu indiquant qu’il est occupé dans une réunion](media/Presence_Busy.png) En réunion |
+|| ![Cercle rouge pour indiquer qu’il est occupé](media/Presence_Busy_OOF.png) En communication, absent (e) du Bureau|
+|  ![Cercle rouge avec ligne blanche indiquant ne pas déranger](media/Presence_DND.png) Ne pas déranger ||
+|| ![Cercle rouge avec une ligne blanche indiquant une présentation](media/Presence_DND.png) Présente|
+| ![Icône d’horloge jaune, indiquant absent](media/Presence_Away.png) Disparaître| ![disparaître](media/Presence_Away.png) Disparaître|
+|| ![Icône d’horloge jaune indiquant](media/Presence_Away.png) l' *heure* de la dernière vue|
+|![Icône d’horloge jaune, indiquant qu’il n’y a plus de retour](media/Presence_Away.png) On arrive| |
+|| ![Icône d’horloge jaune, indiquant qu’il n’est pas opérationnel](media/Presence_Away.png)  Sur le Bureau|
+|| ![Cercle gris avec x, indiquant hors ligne](media/Presence_Offline.png) Mise |
+|| ![Cercle gris ouvert indiquant le statut inconnu](media/Presence_Unknown.png) État inconnu|
+||![Cercle rouge avec ligne diagonale indiquant le blocage](media/Presence_Blocked.png) Bloqué |
+|| ![Cercle violet avec flèche, indiquant qu’il n’est pas du Bureau](media/Presence_OOF.png) Absent (e) du Bureau|
 |||
  
-Les utilisateurs peuvent définir manuellement leur statut de présence actuel à certaines options, et leur état obtient à tous les autres utilisateurs. Plus d’informations de présence utilisateur supplémentaires sont également automatiquement mis à jour en fonction d’activité de l’utilisateur (telles que disponible ou absent (e)), les États de calendrier de Outlook (comme dans une réunion) ou les États d’application équipes (dans un appel de la présentation), aux États qui sont mis en retrait dans la liste.
+Les utilisateurs peuvent définir manuellement leur état de présence actuel sur certaines options, et leur état est reflété par tous les autres utilisateurs. Des informations supplémentaires sur la présence d’un utilisateur sont également mises à jour automatiquement en fonction de l’activité des utilisateurs (par exemple, disponible ou absent), des États du calendrier Outlook (par exemple, en réunion) ou des États des applications Teams (en cas de présentation) aux États en retrait dans la liste.
 
-Il existe un délai d’inactivité de 15 minutes, après lequel état de présence actuel de vos utilisateurs est réinitialisée à Absent (e).
+Il y a un délai d’inactivité de 15 minutes, après quoi l’état de présence actuel de vos utilisateurs sera restauré en absent (e).
 
-Les utilisateurs peuvent spécifier qui peut adresser directement (contacter remplacement d’un paramètre de ne pas déranger). Ces paramètres ne sont disponibles dans l’application.
+Les utilisateurs peuvent spécifier qui peut vous répartir (ils remplacent le paramètre ne pas déranger). Ces paramètres sont disponibles dans l’application.
 
-## <a name="teams-is-not-skype-for-business"></a>Équipes n’est pas Skype pour les entreprises
+## <a name="teams-is-not-skype-for-business"></a>Teams n’est pas Skype entreprise
 
-Les paramètres d’administration suivants dans Skype pour les entreprises sont différentes dans les équipes :
-- Partage de présence est toujours activé dans les équipes pour les utilisateurs dans l’organisation. Configuration de la confidentialité (déterminer qui peut voir présence) n’est pas disponible dans les équipes.
-- Présence partage avec tout le monde (y compris les services fédérés) est toujours activé pour les utilisateurs dans les équipes. Leur liste des contacts (si elles avaient dans SfB) est visible sous **conversation > Contacts** ou **les appels > Contacts**.
-- Fonctionnalités client ne pas déranger et innovante sont toujours activées pour les utilisateurs dans les équipes.
-- Calendrier (inclut les autres informations du calendrier & OOF) intégration est toujours activée pour les utilisateurs dans les équipes si intégré à Outlook.
-- La *dernière détection* ou *Absent (e) depuis* (le cas dans un environnement double avec Skype pour les entreprises) indicateur est toujours activé pour les utilisateurs dans les équipes.
+Les paramètres d’administration suivants dans Skype entreprise sont différents dans teams:
+- Le partage de présence est toujours activé dans teams pour les utilisateurs au sein de l’organisation. La configuration de la vie privée (en choisissant qui peut voir la présence) n’est pas disponible dans Teams.
+- Le partage de présence avec tout le monde (y compris les services fédérés) est toujours activé pour les utilisateurs de Microsoft Teams. Leur liste de contacts (si les utilisateurs en possèdent une dans marketing) est visible sous **chat _GT_ contacts** ou sous **appels > contacts**.
+- Le client ne pas déranger et les fonctionnalités d’innovation sont toujours activées pour les utilisateurs de Microsoft Teams.
+- Calendrier (inclut les informations d’absence du & d’autres informations de calendrier) l’intégration est toujours activée pour les utilisateurs de teams s’ils sont intégrés à Outlook.
+- Le *dernier vu* ou *absent depuis* l’indicateur (dans le cas d’un environnement double avec Skype entreprise) est toujours activé pour les utilisateurs de Microsoft Teams.
 
 > [!NOTE]
-> La capacité d’un administrateur d’équipes pour personnaliser ces paramètres n’est pas actuellement pris en charge.
+> La capacité d’un administrateur d’équipes à personnaliser ces paramètres n’est pas actuellement prise en charge.
 
 
 ## <a name="coexistence-with-skype-for-business"></a>Coexistence avec Skype Entreprise
 
-Pour plus d’informations sur le fonctionne de présence des équipes lors de la coexistence avec Skype pour les entreprises, consultez [Coexistence avec Skype pour les entreprises](coexistence-chat-calls-presence.md) . 
+Pour plus d’informations sur la façon dont la présence des équipes dans Skype entreprise, voir [coexistence avec Skype entreprise](coexistence-chat-calls-presence.md) . 

@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: En savoir plus sur la gestion des comptes de ressources dans Microsoft teams
-ms.openlocfilehash: a136a91fc4667ac71f6c6798ce4a0953aa0c32a6
-ms.sourcegitcommit: d010c615ee530deb34d79a1a62815ef0a52a2086
+ms.openlocfilehash: a5502ccfe4a464f96175127623d5d996b6ea4921
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34404301"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548238"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Gérer les comptes de ressources dans Microsoft Teams
 
@@ -82,21 +82,26 @@ Un compte de ressource qui ne nécessite pas de numéro de téléphone peut omet
 
 Après avoir acheté une licence de système téléphonique et un plan d’appels à l’aide du centre d’administration de Microsoft Teams, accédez à**comptes de ressources**de **paramètres** > à l’échelle de l’organisation. 
 
-![ASD](media/r-a-master.png)
+![Capture d’écran de la page comptes de ressources](media/r-a-master.png)
 
-![Numéro 1](media/sfbcallout1.png)
+![Icône du numéro 1 qui référence une légende dans la capture d’écran précédente](media/sfbcallout1.png)
 
 Pour créer un compte de ressource, cliquez sur **+ nouveau compte**. Dans la fenêtre qui s’affiche, indiquez le nom d’affichage et le nom d’utilisateur du compte de ressource (le nom de domaine doit remplir automatiquement), puis cliquez sur **Enregistrer**.
 
-![compte de ressources](media/res-acct.png)
+![Capture d’écran des options de nouveau compte de ressources](media/res-acct.png)
 
 Ensuite, appliquez une licence au compte de ressources dans le centre d’administration O365, comme décrit dans la section [attribuer des licences aux utilisateurs dans Office 365 pour les entreprises](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide) .
 
+### <a name="edite-resource-account-name"></a>Modifier le nom du compte de la ressource
+![Icône du numéro 2, qui référence une légende dans la capture d'](media/sfbcallout2.png) écran précédente, vous pouvez modifier le nom d’affichage du compte de la ressource à l’aide de l’option **modifier** .  Lorsque vous avez fin, cliquez sur **Enregistrer** .
+![Capture d’écran de l’option modifier le compte de ressources](media/r-a-edit.png)
+
 ### <a name="assignunassign-phone-numbers-and-services"></a>Attribution/désaffectation des numéros de téléphone et services
 
-![Numéro 3](media/sfbcallout3.png) une fois que vous avez créé le compte de ressources et attribué la licence, vous pouvez cliquer sur **affecter/annuler** pour affecter un numéro de service de plan d’appel au compte de ressources ou affecter le compte de ressource à un standard automatique ou une file d’attente d’appels existe déjà. L’attribution d’un numéro d’acheminement direct peut être réalisé à l’aide d’une cmdlet uniquement. Si la file d’attente d’appels ou le standard automatique doit toujours être créé, vous pouvez lier le compte de ressources lors de sa création. Lorsque vous avez fin, cliquez sur **Enregistrer** .
+![Icône du numéro 3, qui référence une légende dans la capture d'](media/sfbcallout3.png) écran précédente une fois que vous avez créé le compte de ressources et attribué la licence, vous pouvez cliquer sur **affecter/annuler** pour affecter un numéro de service de plan d’appels au compte de ressource, ou sur affecter le compte de ressources d’une file d’attente d’appels ou d’un standard automatique déjà existant. L’attribution d’un numéro d’acheminement direct peut être réalisé à l’aide d’une cmdlet uniquement. Si la file d’attente d’appels ou le standard automatique doit toujours être créé, vous pouvez lier le compte de ressources lors de sa création. Lorsque vous avez fin, cliquez sur **Enregistrer** .
 
 Utilisez l’applet de commande suivante pour affecter un numéro de routage direct: 
+
 ``` Powershell
 Set-CsOnlineApplicationInstance -Identity appinstance01@contoso.com -OnpremPhoneNumber +14250000000
 ```
@@ -104,10 +109,7 @@ Set-CsOnlineApplicationInstance -Identity appinstance01@contoso.com -OnpremPhone
 > [!IMPORTANT]
 > Si votre client n’a pas acheté une licence de système téléphonique et un plan d’appels, un échec de vérification interne entraîne un échec lorsque vous tentez d’affecter le numéro de téléphone au compte de ressource. Vous ne pourrez pas affecter le numéro ou associer le compte de ressources à un service.
 
-![attribution du compte de ressource](media/r-a-assign.png)
-
-![Numéro 2](media/sfbcallout2.png) vous pouvez modifier le nom d’affichage du compte de la ressource à l’aide de l’option **modifier** .  Lorsque vous avez fin, cliquez sur **Enregistrer** .
-![modifier le compte de ressources](media/r-a-edit.png)
+![Capture d’écran des options d’attribution/de désaffectation](media/r-a-assign.png)
 
 ## <a name="create-a-resource-account-in-powershell"></a>Créer un compte de ressources dans PowerShell
 

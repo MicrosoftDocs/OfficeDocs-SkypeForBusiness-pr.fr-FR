@@ -1,12 +1,12 @@
 ---
-title: Planifier la gestion des services et la qualité | Préparation technique
+title: Planifier la gestion et la qualité du service | Compatibilité technique
 author: lanachin
 ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Utilisez ce guide pour en savoir plus sur les conditions qui sont nécessaires pour fournir et mettre à jour un déploiement de Microsoft Teams haute qualité.
+description: Servez-vous de ces instructions pour en savoir plus sur les exigences nécessaires à la fourniture et au maintien d’un déploiement de Microsoft teams de haute qualité.
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
@@ -15,27 +15,27 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a1f663bc801a7b2d864c59051b08ae66d52123cf
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 389b04a00ff0941edaf0f5f2d18d7685ce37b601
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33896433"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548668"
 ---
-![Étapes du voyage mise à niveau, en mettant l’accent sur l’étape de préparation technique] (media/upgrade-banner-tech-readiness.png "Étapes du voyage mise à niveau, en mettant l’accent sur l’étape de préparation technique")
+![Diagramme de route de mise à niveau, mettant l’accent sur l’étape de préparation technique] (media/upgrade-banner-tech-readiness.png "Étapes du parcours de la mise à niveau, en mettant l’accent sur l’étape de préparation technique")
 
-Cet article fait partie de la phase de préparation technique de votre parcours de mise à niveau, une activité que vous effectuez en parallèle à l’étape de préparation des utilisateurs. Avant de continuer, vérifiez que vous avez terminé ces activités à partir des étapes précédentes :
+Cet article fait partie de l’étape de préparation technique de votre mouvement de mise à niveau, une activité que vous finalisez en parallèle avec l’étape de préparation de l’utilisateur. Avant de continuer, assurez-vous d’avoir suivi les étapes ci-dessous:
 
-- [Inscrit les parties prenantes du projet](upgrade-enlist-stakeholders.md)
-- [Définies par l’étendue de votre projet](https://aka.ms/SkypetoTeams-Scope)
-- [Comprendre la coexistence et l’interopérabilité de Skype pour professionnels et les équipes](https://aka.ms/SkypeToTeams-Coexist)
-- [Choisi votre parcours de mise à niveau](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Inscription des parties prenantes du projet](upgrade-enlist-stakeholders.md)
+- [Définition de l’objectif de votre projet](https://aka.ms/SkypetoTeams-Scope)
+- [Compréhension de la coexistence et de l’interopérabilité de Skype entreprise et équipes](https://aka.ms/SkypeToTeams-Coexist)
+- [Choix de votre mise à niveau](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 <!-- [!INCLUDE [envision-planning-for-service-management-and-quality-complete-guide](envision-planning-for-service-management-and-quality-complete-guide.md)]-->
 
 # <a name="plan-for-quality"></a>Prévoir la qualité
 
-Si vous déployez audio, vidéo ou des réunions, vous pouvez tirer quelques étapes supplémentaires pour optimiser votre environnement pour cette fonctionnalité. Ce contenu fournira une vue d'ensemble des exigences nécessaires à la livraison et au maintien d'un déploiement de Microsoft Teams de haute qualité. Pour garantir un déploiement réussi à la planification de la gestion des services et de qualité, avant le premier déploiement pilote ou de production.
+Si vous déployez des fichiers audio, vidéo ou de réunion, vous pouvez effectuer des étapes supplémentaires pour optimiser votre environnement pour cette fonctionnalité. Ce contenu fournira une vue d'ensemble des exigences nécessaires à la livraison et au maintien d'un déploiement de Microsoft Teams de haute qualité. Vous pouvez garantir un déploiement réussi en planifiant la gestion et la qualité du service avant votre premier déploiement pilote ou en production.
 
 Les directives sont organisées dans les sections suivantes :
 
@@ -47,23 +47,23 @@ Les directives sont organisées dans les sections suivantes :
 
 - Enfin, les étapes suivantes sont résumées avec des références à des contenus connexes.
 
-## <a name="key-technical-components-that-affect-user-experience"></a>Composants techniques clés qui affectent l’expérience utilisateur
+## <a name="key-technical-components-that-affect-user-experience"></a>Principaux composants techniques qui influent sur l’interface utilisateur
 
-Les composants techniques clés qui affectent l’expérience utilisateur seront revus dans cette section. Avant de passer en revue les éléments clés, il est essentiel que vous compreniez l'expérience utilisateur et son importance dans la réalisation des objectifs commerciaux de votre organisation. Examinons d'abord comment nous définissons l'expérience utilisateur.
+Les principaux composants techniques qui affectent l’utilisation de l’utilisateur seront examinés dans cette section. Avant de passer en revue les éléments clés, il est essentiel que vous compreniez l'expérience utilisateur et son importance dans la réalisation des objectifs commerciaux de votre organisation. Examinons d'abord comment nous définissons l'expérience utilisateur.
 
 ### <a name="user-experience-defined"></a>Définition de l'expérience utilisateur
 
-Objectifs de l’entreprise peuvent être réalisés lorsque vous déployez Microsoft Teams et lorsque les utilisateurs prennent des équipes de leur solution de collaboration et de communication de base. Qualité peut aider à garantir une expérience utilisateur positive, un attribut de clé dans la conduite d’utilisation et d’adoption. En fournissant un service de haute qualité qui Cajun delights personnes, personnes et les équipes peuvent obtenir le niveau de confiance et trouvez une manière innovante d’utilisation du service bénéfices ce lecteur.
+Les objectifs de la société peuvent être réalisés lorsque vous déployez Microsoft teams et lorsque les utilisateurs adoptent teams comme solution de collaboration et de communication de base. La qualité peut vous aider à garantir une utilisation positive de l’utilisateur, un attribut clé dans le cas de l’utilisation et de l’adoption. En fournissant un service de grande qualité qui dégage des personnes, des personnes et des équipes, vous pouvez gagner en confiance et trouver de nouvelles manières novatrices d’utilisation du service pour les avantages de l’entreprise.
 
-Au cœur de ce projet se trouve l'expérience utilisateur avec Teams, les émotions et les attitudes de la personne à l'égard du service. Qu'est-ce qui contribue à l'expérience utilisateur ? Il est compris entre des utilisateurs savoir pourquoi et comment utiliser les équipes et les intégrer dans leur travail quotidien à la qualité des appels exceptionnelles et de se connecter en toute sécurité, où qu’ils soient. Expérience utilisateur est très vaste nature ; Cet article se concentre uniquement sur les éléments techniques qui peuvent être contrôlés par votre organisation. Vous trouverez plus d’informations sur la préparation des utilisateurs dans [votre organisation pour les équipes de préparer](https://aka.ms/SkypeToTeams-UserReadiness).
+Au cœur de ce projet se trouve l'expérience utilisateur avec Teams, les émotions et les attitudes de la personne à l'égard du service. Qu'est-ce qui contribue à l'expérience utilisateur ? Il s’agit de la connaissance des utilisateurs qui connaissent le mode d’utilisation des équipes et de leur intégration dans leur flux de travail quotidien pour avoir une qualité d’appel exceptionnelle et être en mesure de se connecter de façon fiable, quel que soit l’endroit où ils se trouvent. L’utilisation est très générale en nature. Cet article se concentre sur les éléments techniques qui peuvent être contrôlés par votre organisation. Pour plus d’informations sur la disponibilité des utilisateurs, reportez- [vous à la rubrique préparer votre organisation pour teams](https://aka.ms/SkypeToTeams-UserReadiness).
 
 Il existe des exigences spécifiques au déploiement qui sont d'une importance critique pour offrir une expérience utilisateur exceptionnelle, en particulier lors de l'utilisation des fonctions Cloud Voice dans Teams. Il est essentiel de traiter Microsoft Teams comme un citoyen de première classe avec d'autres investissements de communication et de collaboration, en priorisant en conséquence le trafic en temps réel. La section suivante donne un aperçu des éléments clés qui affectent l'expérience utilisateur. Dans d'autres sections, nous vous fournirons des conseils sur la façon de commencer à planifier le déploiement et la maintenance des composants clés qui comprennent la qualité.
 
 ### <a name="key-components-of-quality"></a>Éléments clés de la qualité
 
-Une organisation ou un partenaire de prise en charge doit démarrer pendant la phase de préparation technique d’un déploiement d’équipes de planification pour les trois composants principaux : gestion, réseau et points de terminaison de service. La combinaison de ces trois domaines est fondamentale pour la qualité de l'expérience utilisateur.
+Une organisation ou un partenaire de support technique doit commencer à planifier trois composants clés au cours de l’étape de préparation technique du déploiement d’équipes: gestion des services, réseau et points de terminaison. La combinaison de ces trois domaines est fondamentale pour la qualité de l'expérience utilisateur.
 
-![Diagramme illustrant les trois composantes de la qualité, et comment la gestion des services recoupe les trois composantes.](media/envision-planning-for-service-management-and-quality-complete-guide-image1.png "Diagramme illustrant les trois composantes de la qualité, et comment la gestion des services recoupe les trois composantes.")
+![Diagramme illustrant les trois composantes de la qualité] (media/envision-planning-for-service-management-and-quality-complete-guide-image1.png "Diagramme illustrant les trois composantes de la qualité et mode de superposition des trois composants par la gestion des services.")
 
 #### <a name="service-management"></a>Gestion des services
 
@@ -89,7 +89,7 @@ Pour des conseils détaillés sur la planification du réseau, voir [Planifier l
 
 Microsoft Teams prend en charge une variété de points de terminaison. Qu'il s'agisse de PC, de tablettes ou de téléphones, vous pouvez accéder à Teams partout et à partir de presque tous les appareils.
 
-Pour donner aux utilisateurs la meilleure expérience possible, vous devez prendre en compte ces aspects importants : vos points de terminaison répondent aux exigences matérielles et logicielles équipes ? Avez-vous configuré et optimisé les points de terminaison pour prendre en charge les réseaux Wi-Fi ? Quels appareils utiliserez-vous pour passer et recevoir des appels vocaux ? Ces appareils sont-ils optimisés pour Teams ?
+Pour offrir à vos utilisateurs la meilleure utilisation possible, vous devez tenir compte des aspects suivants: les points de terminaison respectent-ils les exigences en matière de matériel et de logiciels de teams? Avez-vous configuré et optimisé les points de terminaison pour prendre en charge les réseaux Wi-Fi ? Quels appareils utiliserez-vous pour passer et recevoir des appels vocaux ? Ces appareils sont-ils optimisés pour Teams ?
 
 Pour des conseils détaillés sur points de terminaison, voir [Planifier la qualité des points de terminaison](#plan-for-endpoint-quality).
 
@@ -101,13 +101,13 @@ La notion de gestion des services n'est probablement pas un concept nouveau pour
 
 La gestion des services englobe toutes les activités et processus impliqués dans la gestion de bout en bout de Microsoft Teams. Comme décrit précédemment, certaines composantes de la gestion des services, les composantes de l'infrastructure que le service Office 365 comprend lui-même, relèvent de la responsabilité de Microsoft, alors que le client est responsable devant ses utilisateurs de la gestion des différents aspects de Teams, du réseau et des points de terminaison qu'ils fournissent. Cette section du document mettra l'accent sur la responsabilité du client du point de vue de la gestion des services.
 
-![Diagramme illustrant les trois composantes de la qualité, et comment la gestion des services recoupe les trois composantes. En mettant l'accent sur la gestion des services.](media/envision-planning-for-service-management-and-quality-complete-guide-image2.png "Diagramme illustrant les trois composantes de la qualité, et comment la gestion des services recoupe les trois composantes. En mettant l'accent sur la gestion des services")
+![Diagramme illustrant les trois composantes de la qualité] (media/envision-planning-for-service-management-and-quality-complete-guide-image2.png "Diagramme illustrant les trois composantes de la qualité et mode de superposition des trois composants par la gestion des services. Le focus est axé sur la gestion des services.")
 
 ### <a name="introduction-to-the-operations-guide"></a>Introduction au Guide des opérations
 
 **Quoi**, **Qui** et **Comment** sont trois questions importantes auxquelles il faut répondre lorsqu'il s'agit de la gestion des services.
 
-Vous pouvez utiliser le [Guide des opérations](1-drive-value-operate-my-service.md) pour vous aider à répondre à ces trois questions. Le guide fournit une liste d'activités à réaliser sur une base quotidienne, hebdomadaire, mensuelle et selon les besoins. Ces activités et tâches sont essentielles au maintien d'un déploiement de Teams de haute qualité. Déterminer qui sera chargé d’effectuer des activités spécifiques dans la gestion de service est un aspect essentiel de la planification que vous devrez faire au début de la [phase de planification](upgrade-enlist-stakeholders.md) pour réussir le déploiement. Une fois les tâches et les activités déterminées, elles doivent être comprises et suivies par les groupes ou les individus que vous leur assignez. Le Guide des opérations fournit des connaissances et des conseils sur la façon d'exécuter chacune des tâches et/ou des références à des contenus extérieurs.
+Vous pouvez utiliser le [Guide des opérations](1-drive-value-operate-my-service.md) pour vous aider à répondre à ces trois questions. Le guide fournit une liste d'activités à réaliser sur une base quotidienne, hebdomadaire, mensuelle et selon les besoins. Ces activités et tâches sont essentielles au maintien d'un déploiement de Teams de haute qualité. Le fait de déterminer qui sera responsable de l’exécution d’activités spécifiques dans le cadre de la gestion des services est un aspect essentiel de votre planification que vous devez effectuer au préalable lors de la [phase de planification](upgrade-enlist-stakeholders.md) pour garantir un déploiement réussi. Une fois les tâches et les activités déterminées, elles doivent être comprises et suivies par les groupes ou les individus que vous leur assignez. Le Guide des opérations fournit des connaissances et des conseils sur la façon d'exécuter chacune des tâches et/ou des références à des contenus extérieurs.
 
 ### <a name="operational-role-mapping"></a>Mappage des rôles opérationnels
 
@@ -115,7 +115,7 @@ La planification précoce de la gestion des services est une étape critique, ca
 
 Une fois l'approbation terminée, l'équipe responsable doit alors commencer à mettre en œuvre ces rôles et responsabilités. Cela peut comprendre la formation et l'état de préparation, la mise à jour du modèle de dotation ou l'assurance que les partenaires externes sont prêts à livrer la marchandise.
 
-Mappage des rôles opérationnels lors de la collecte de votre [équipe de projet](upgrade-enlist-stakeholders.md) permet de toutes les équipes démarrer leurs tâches opérationnelles pendant le pilote et découvrez les opérations et de vous assurer que tout est prête une fois le déploiement démarre.
+Le fait de mapper les rôles opérationnels lors de la collecte de votre [équipe de projet](upgrade-enlist-stakeholders.md) permet à toutes les équipes de démarrer leurs tâches opérationnelles au cours du test, et de vérifier que tout est prêt après le démarrage du déploiement.
 
 Le Guide des opérations fournit une liste des tâches communes mappées aux rôles typiques qui devraient être valides dans la plupart des scénarios. Vous devez personnaliser ces responsabilités pour travailler pour votre organisation.
 
@@ -125,13 +125,13 @@ Un groupe ou un individu doit être responsable de la qualité dans toutes les o
 
 Le champion de la qualité s'appuie sur les outils existants et les processus documentés, comme le Tableau de bord de la qualité des appels (CQD) et le Guide d'examen de l'expérience de la qualité, afin de surveiller l'expérience utilisateur, identifier les tendances de la qualité et mettre en œuvre, le cas échéant, des mesures correctives. Le champion de la qualité doit collaborer avec les équipes appropriées pour mettre en place des mesures correctrices, fournir des rapports à un comité directeur sur la progression et les problèmes ouverts.
 
-Les tâches et les activités associées à ce rôle ont été documentées dans le Guide des opérations. Ce rôle doit être affecté au cours de la [phase de planification](https://aka.ms/SkypeToTeams-Plan). Une étape clé dans la mise en œuvre du rôle de champion de la qualité consiste à acquérir les connaissances requises pour ce rôle et à s'assurer que les conditions préalables sont en place pour accomplir les tâches. L'une des tâches clés de ce rôle est d'effectuer un examen régulier de l'expérience de la qualité.
+Les tâches et les activités associées à ce rôle ont été documentées dans le Guide des opérations. Ce rôle doit être attribué lors de la [phase de planification](https://aka.ms/SkypeToTeams-Plan). Une étape clé dans la mise en œuvre du rôle de champion de la qualité consiste à acquérir les connaissances requises pour ce rôle et à s'assurer que les conditions préalables sont en place pour accomplir les tâches. L'une des tâches clés de ce rôle est d'effectuer un examen régulier de l'expérience de la qualité.
 
 ### <a name="introduction-to-the-quality-experience-review-guide"></a>Introduction au Guide d'examen de l'expérience de la qualité
 
 Le Guide d'examen de l'expérience de la qualité comporte un ensemble d'activités qui évaluent et fournissent des conseils en matière de remédiation dans les domaines clés qui ont le plus grand impact sur l'amélioration de l'expérience utilisateur, comme le montre la figure ci-dessous.
 
-![Un diagramme qui illustre les domaines clés examinés au cours d'un examen de l'expérience de la qualité.](media/envision-planning-for-service-management-and-quality-complete-guide-image3.png "Un diagramme qui illustre les domaines clés examinés au cours d'un examen de l'expérience de la qualité.")
+![Diagramme illustrant les principales zones examinées lors] de l’évaluation de l’interface qualité (media/envision-planning-for-service-management-and-quality-complete-guide-image3.png "Diagramme illustrant les principales zones examinées lors d’un examen de l’interface qualité.")
 
 En évaluant et en corrigeant continuellement les zones décrites dans ce document, vous pouvez réduire leur potentiel d'affecter négativement l'expérience utilisateur. La plupart des problèmes d'expérience utilisateur rencontrés lors d'un déploiement peuvent être regroupés dans les catégories suivantes :
 
@@ -157,7 +157,7 @@ Le Guide d'examen de l'expérience de qualité se trouve [ici](https://aka.ms/qe
 
 La planification de la qualité du réseau sera au centre de la section suivante.
 
-![Diagramme illustrant les trois composantes de la qualité, et comment la gestion des services recoupe les trois composantes. En mettant l'accent sur le réseau.](media/envision-planning-for-service-management-and-quality-complete-guide-image4.png "Diagramme illustrant les trois composantes de la qualité, et comment la gestion des services recoupe les trois composantes. En mettant l'accent sur le réseau.")
+![Diagramme illustrant les trois composantes de la qualité] (media/envision-planning-for-service-management-and-quality-complete-guide-image4.png "Diagramme illustrant les trois composantes de la qualité et mode de superposition des trois composants par la gestion des services. Avec le focus du réseau.")
 
 Comme mentionné précédemment, la planification de la qualité du réseau avant l'intégration à Microsoft Teams est essentielle. Pour de plus amples informations sur l'état de préparation du réseau, voir [Préparer le réseau de votre organisation pour Microsoft Teams](prepare-network.md).
 
@@ -213,7 +213,7 @@ La configuration requise pour contourner le serveur proxy varie d'un fournisseur
 
 Certains fournisseurs de serveurs proxy proposent un processus automatisé pour s'assurer que la configuration est à jour. Si votre fournisseur ne fournit pas ce processus automatique, vous pouvez télécharger un fichier PAC mis à jour à partir de <https://aka.ms/o365proxies>.
 
-[Serveurs proxy pour les équipes ou Skype pour les entreprises en ligne et des équipes](proxy-servers-for-skype-for-business-online.md)
+[Serveurs proxy pour teams ou Skype entreprise Online et Teams](proxy-servers-for-skype-for-business-online.md)
 
 #### <a name="firewalls"></a>Pare-feu
 
@@ -268,13 +268,13 @@ Une partie des activités de préparation du réseau comprend une évaluation du
 
 L'évaluation du réseau devrait être effectuée à la fois sur les réseaux câblés et Wi-Fi pour tous les bâtiments qui sont activés pour les capacités de Cloud Voice dans Teams.
 
-L'évaluation du réseau peut être effectuée à l'aide d'un partenaire Microsoft, d'outils tiers ou de l’[Outil d'évaluation du réseau Microsoft](https://www.microsoft.com/download/details.aspx?id=53885). Nous avons également fournissent des conseils supplémentaires sur l’exécution de l’évaluation à l’aide de l’outil d’évaluation du réseau Microsoft dans le cadre de notre Guide de préparation [ici](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_3_0_2,4_3_0_3,4_3_0_5,4_3_0_6,4_3_0_7,4_3_0_8,4_3_0_10,4_3_0_11).
+L'évaluation du réseau peut être effectuée à l'aide d'un partenaire Microsoft, d'outils tiers ou de l’[Outil d'évaluation du réseau Microsoft](https://www.microsoft.com/download/details.aspx?id=53885). Nous vous proposons également des conseils supplémentaires sur l’exécution de l’analyse à l’aide de l’outil Microsoft Network Assessment dans le [](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_3_0_2,4_3_0_3,4_3_0_5,4_3_0_6,4_3_0_7,4_3_0_8,4_3_0_10,4_3_0_11)cadre de nos recommandations.
 
 ## <a name="plan-for-endpoint-quality"></a>Planifier la qualité des points de terminaison
 
 Comme vous pouvez le voir sur le diagramme ci-dessous, les points de terminaison sont un élément important pour offrir une expérience de haute qualité aux utilisateurs.
 
-![Diagramme illustrant les trois composantes de la qualité, et comment la gestion des services recoupe les trois composantes. En mettant l'accent sur les points de terminaison.](media/envision-planning-for-service-management-and-quality-complete-guide-image5.png "Diagramme illustrant les trois composantes de la qualité, et comment la gestion des services recoupe les trois composantes. En mettant l'accent sur les points de terminaison.")
+![Diagramme illustrant les trois composantes de la qualité] (media/envision-planning-for-service-management-and-quality-complete-guide-image5.png "Diagramme illustrant les trois composantes de la qualité et mode de superposition des trois composants par la gestion des services. Le focus est axé sur les points de terminaison.")
 
 Les points de terminaison Microsoft Teams peuvent fonctionner sur de nombreux appareils, y compris les PC, les Mac, les tablettes et les appareils mobiles. Une partie de l'expérience ne comprend pas seulement l'appareil, mais aussi la façon dont l'utilisateur se connecte à l'appareil, par exemple en utilisant le micro/haut-parleur intégré de l'appareil, les écouteurs ou un casque optimisé. L'utilisation d'un casque optimisé peut enrichir l'expérience globale de l'utilisateur.
 
@@ -360,4 +360,4 @@ Ce tableau comprend un résumé des activités de planification avec des liens v
 | | Mettre en œuvre les recommandations Wi-Fi pour les points de terminaison | Consulter les fournisseurs tiers |
 | | Effectuer le mappage de la personne vers les appareils <br/> Prévoir des appareils et les piloter | [Client et appareils - Atelier de préparation](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_1_0_13) <br/> [Catalogue d'appareils](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs) |
 
-Une fois que vous avez terminé la planification, passez à l’étape suivante : [préparer votre environnement pour les équipes](https://aka.ms/SkypeToTeams-TechnicalReadiness).
+Lorsque vous avez terminé la planification, passez à l’étape suivante: [préparer votre environnement pour teams](https://aka.ms/SkypeToTeams-TechnicalReadiness).

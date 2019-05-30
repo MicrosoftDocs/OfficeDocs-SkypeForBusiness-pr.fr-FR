@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 'Découvrez comment configurer des conférences rendez-vous ou audio pour les personnes de votre entreprise qui ont besoin d’utiliser un téléphone pour participer à des conférences téléphoniques. '
-ms.openlocfilehash: 37bdc3208934d6ef9a7d97b896988b705735c869
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 9406c0ba680dd7eb6be52e2055041677913c3315
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34343837"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494195"
 ---
 # <a name="set-up-audio-conferencing-for-skype-for-business"></a>Configurer l’audioconférence pour Skype entreprise
 
@@ -74,7 +74,7 @@ Une fois que vous obtenez les numéros de téléphone payants et/ou gratuits pou
 
 Affecter un nouveau numéro de téléphone à votre pont d’audioconférence :
 
-![SFB-logo-30x30. png](../images/sfb-logo-30x30.png) **à l’aide du centre d’administration Skype entreprise:**
+![Icône illustrant le logo](../images/sfb-logo-30x30.png) Skype entreprise à l' **aide du centre d’administration Skype entreprise:**
 
  1. Accédez au**portail**d'**administration** > **** > du centre > d' **administration Microsoft 365**.
  2. Sélectionnez les**numéros de téléphone** **vocaux** > .
@@ -92,7 +92,7 @@ Vous pouvez ensuite [définir des langues de standard automatique pour les conf�
 1. Dans le tableau de bord, accédez à **meetings** > **Conference ponts**.
 2. Sélectionnez le numéro de téléphone du pont de conférence, cliquez sur **modifier**, puis sélectionnez la langue par défaut.
 
-![SFB-logo-30x30. png](../images/sfb-logo-30x30.png) **à l’aide du centre d’administration Skype entreprise**:
+![Icône illustrant le logo](../images/sfb-logo-30x30.png) Skype entreprise à l' **aide du centre d’administration Skype entreprise**:
 
 1. **** > Accédez au portail d’administration du centre > d' **administration Office 365****équipes** > du**portail hérité**.
 2. Sélectionnez **audioconférence** > **Microsoft Bridge**. 
@@ -110,7 +110,7 @@ Après avoir configuré votre pont de conférence, vérifiez que les paramètres
 
 Pour plus d’informations, voir [Changement des paramètres de pont d’audioconférence](/MicrosoftTeams/change-the-settings-for-an-audio-conferencing-bridge).
 
-![SFB-logo-30x30. png](../images/sfb-logo-30x30.png) **à l’aide du centre d’administration Skype entreprise:**
+![Icône illustrant le logo](../images/sfb-logo-30x30.png) Skype entreprise à l' **aide du centre d’administration Skype entreprise:**
 
 1. Accédez au**portail**d'**administration** > **** > du centre > d' **administration Microsoft 365**.
 2. Sélectionnez **** > **paramètres du pont Microsoft**Conferencing. Cela ouvrira la page **Paramètres de pont Microsoft**. 
@@ -128,7 +128,7 @@ Vous devez effectuer cette opération pour toutes les personnes de votre entrepr
 1. Dans le tableau de bord, cliquez sur **utilisateurs**, sélectionnez l’utilisateur dans la liste, puis sélectionnez **modifier**.
 2. Sélectionnez **modifier** en regard de **audioconférence**, puis dans le volet **audioconférence** , sélectionnez un numéro dans les listes **numéro payant** et numéro **gratuit** .
 
-![SFB-logo-30x30. png](../images/sfb-logo-30x30.png) **à l’aide du centre d’administration Skype entreprise:**
+![Icône illustrant le logo](../images/sfb-logo-30x30.png) Skype entreprise à l' **aide du centre d’administration Skype entreprise:**
 
 1. Accédez au**portail**d'**équipe** > du centre > d' **administration 365 Microsoft**.
 2. Sélectionnez **** > **utilisateurs**de l’audioconférence, puis sélectionnez l’utilisateur dans la liste et cliquez sur **modifier**. 

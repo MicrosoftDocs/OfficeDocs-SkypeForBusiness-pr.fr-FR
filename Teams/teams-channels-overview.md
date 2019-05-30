@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 039838172bf155d5c050fbb59fd4cc260fdbb4c3
-ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
+ms.openlocfilehash: 5f69760ed05f27a7fe0396c4c5d17246bebc2d1d
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "33864896"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494601"
 ---
 > [!NOTE]
 > Passez en revue les informations suivantes pour mieux comprendre la conversation, les équipes, les canaux et les applications dans Teams. Accédez ensuite à [Déployer la conversation, les équipes, les canaux et les applications dans Teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md) pour procéder à une liste des décisions importantes pour votre déploiement Teams.
@@ -41,11 +41,11 @@ Commençons par nous pencher sur la façon dont Microsoft Teams permet aux équ
     
     Une équipe est destinée à réunir un groupe de personnes qui travaillent en étroite collaboration pour atteindre leurs objectifs. Les équipes peuvent être dynamiques pour un travail de projet (lancer un produit ou créer un centre de crise numérique par exemple) et être courantes, pour refléter la structure interne de votre organisation (services et bureaux par exemple). Les conversations, les fichiers et les notes ne sont visibles que pour les membres de l’équipe.
 
--   Les **canaux** sont des sections dédiées dans une équipe pour stocker des conversations organisées par sujets, projets et disciplines spécifiques ; à votre équipe de décider ! Fichiers que vous partagez dans un canal d’échange (sous l’onglet fichiers) sont stockés dans SharePoint. Pour plus d’informations, consultez [comment SharePoint Online et OneDrive entreprise interagissent avec les équipes](SharePoint-OneDrive-interact.md).
+-   Les **canaux** sont des sections dédiées dans une équipe pour stocker des conversations organisées par sujets, projets et disciplines spécifiques ; à votre équipe de décider ! Les fichiers que vous partagez dans un canal (sous l’onglet fichiers) sont stockés dans SharePoint. Pour en savoir plus, voir [comment SharePoint Online et OneDrive entreprise interagissent avec teams](SharePoint-OneDrive-interact.md).
 
-    -   Canaux d’équipe sont les endroits où tous les membres de l’équipe peuvent avoir des conversations façon ouverte. Conversations privées sont visibles uniquement par les personnes dans la salle de conversation (et les fichiers que vous partagez dans une conversation sont stockés dans OneDrive entreprise). 
+    -   Les canaux d’équipe sont des lieux où tous les membres de l’équipe peuvent avoir des conversations. Les discussions privées ne sont visibles que par les membres de la discussion (et les fichiers que vous partagez dans une discussion sont stockés dans OneDrive entreprise). 
 
-    -   Les canaux sont particulièrement utiles lorsque des applications incluant des onglets, des connecteurs et des robots y sont ajoutés, qui apportent une valeur ajoutée pour les membres de l’équipe. Pour plus d’informations, voir [applications, des robots, des connecteurs & dans les équipes](deploy-apps-microsoft-teams-landing-page.md).
+    -   Les canaux sont particulièrement utiles lorsque des applications incluant des onglets, des connecteurs et des robots y sont ajoutés, qui apportent une valeur ajoutée pour les membres de l’équipe. Pour plus d’informations, reportez-vous à la rubrique [applications, robots et connecteurs & dans teams](deploy-apps-microsoft-teams-landing-page.md).
 
 Affichez cette courte vidéo pour en savoir plus sur les meilleures pratiques pour la création d’équipes et canaux.
 
@@ -79,7 +79,7 @@ Voici quelques exemples fonctionnels de configuration d'équipes, de canaux et d
 
 Microsoft Teams permet d'aplanir efficacement les silos organisationnels et de promouvoir la formation d'équipes inter-fonctionnelles ; invitez donc vos utilisateurs à réfléchir en tant qu'équipes fonctionnelles et non en tant que silos organisationnels.
 
-|Types d'équipes  |Canaux potentiels  |Applications (Onglets ![Icône Onglets.](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image2.png)/Connecteurs ![Icône Connecteurs.](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image3.png)/Bots ![Icône Bots.](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image4.png))  |
+|Types d'équipes  |Canaux potentiels  |Applications (Onglets ![Icône représentant un dossier avec un onglet](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image2.png)/Connecteurs ![Icône de représentation de blocs de connexion](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image3.png)/Bots ![Icône représentant un petit robot](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image4.png))  |
 |---------|---------|---------|
 |Ventes     |Réunion annuelles sur les ventes<br></br> Évaluation trimestrielle des activités<br></br> Évaluation mensuelle de la pipeline des ventes<br></br> Registre des ventes |Power BI<br></br>Trello<br></br>CRM<br></br>Bot récapitulatif         |
 |Relations publiques     |Communiqués de presse<br></br>Actualité et mises à jour<br></br>Vérification des faits         |Flux RSS<br></br>Twitter         |
@@ -94,7 +94,7 @@ Microsoft Teams permet d'aplanir efficacement les silos organisationnels et de 
 
 Il est possible de créer des équipes alignées sur la structure de l’organisation.  Cette option convient surtout aux responsables qui souhaitent encourager l’état d’esprit, avoir des évaluations spécifiques aux équipes, clarifier le processus d'intégration des employés, discuter des plans de gestion du personnel et accroître la visibilité auprès d'une main-d'œuvre diversifiée.  
 
-![Diagramme d'une hiérarchie de l'organisation des équipes et des canaux dans Microsoft Teams.](media/overview-of-teams-and-channels-image1.png)
+![Diagramme hiérarchique des équipes et des canaux organisés dans Microsoft Teams.](media/overview-of-teams-and-channels-image1.png)
 
 ## <a name="org-wide-teams"></a>Équipes à l’échelle de l’organisation
 

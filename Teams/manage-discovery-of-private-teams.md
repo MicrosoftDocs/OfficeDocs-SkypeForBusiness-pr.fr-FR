@@ -17,12 +17,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Apprenez à contrôler si les équipes privées peuvent être détectées par les utilisateurs de Microsoft teams par le biais de suggestions dans la Galerie d’équipe et les résultats de recherche.
-ms.openlocfilehash: 55f127ff4dc9e5e0926e606c141b78f65c799de0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: faae4c53f4fa17668ea69a783211e7ebe01bd4d6
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34304401"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494625"
 ---
 # <a name="manage-discovery-of-private-teams-in-microsoft-teams"></a>Gérer la découverte des équipes privées dans Microsoft Teams
 
@@ -34,7 +34,7 @@ Les administrateurs et les propriétaires d’équipe peuvent contrôler si des 
 
 La plupart des organisations ont les types d’équipes suivants: équipes publiques, équipes privées détectable et équipes privées non détectablees.
 
-![Galerie d’équipes](media/private-team-discovery-team-gallery.png)
+![Capture d’écran de la Galerie d’équipes](media/private-team-discovery-team-gallery.png)
 
 ### <a name="public-teams"></a>Équipes publiques
 
@@ -52,7 +52,7 @@ Les équipes privées non détectablees ne peuvent être jointes que lorsque le 
 
 Lorsque le propriétaire d’une équipe crée une équipe privée, il peut choisir de le rendre détectable en configurant le paramètre de découverte de l’équipe. Par défaut, les nouvelles équipes privées peuvent être recherchées et détectables. Si le propriétaire de l’équipe ne souhaite pas qu’elle apparaisse dans les résultats de recherche et les suggestions, elle peut désactiver le paramètre en sélectionnant l' **option modifier les paramètres** en regard de **cette équipe est consultable et détectable**.
 
-![paramètre de découverte pour les nouvelles équipes privées](media/private-team-discovery-new-team.png)
+![Capture d’écran du paramètre de découverte pour les nouvelles équipes privées](media/private-team-discovery-new-team.png)
 
 ## <a name="set-whether-existing-private-teams-are-discoverable"></a>Définir si les équipes privées existantes sont détectables
 
@@ -62,7 +62,7 @@ Les propriétaires d’une équipe peuvent définir le paramètre de découverte
 
 Dans Teams, accédez à l’équipe privée, cliquez sur **plus d’options ̇ ̇ ̇** > **gérer l’équipe**. Dans l’onglet **paramètres** , développez **découverte d’équipe**, puis cochez ou décochez la case Activer la **détectabilité** .
 
-![paramètre de découverte pour les équipes privées existantes](media/private-team-discovery-existing-team.png)
+![Capture d’écran du paramètre de découverte pour les équipes privées existantes](media/private-team-discovery-existing-team.png)
 
 ### <a name="using-powershell-coming-soon"></a>Utiliser PowerShell (bientôt disponible)
 

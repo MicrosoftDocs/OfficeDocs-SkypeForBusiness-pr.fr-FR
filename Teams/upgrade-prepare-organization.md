@@ -1,12 +1,12 @@
 ---
-title: Préparer Skype mise à niveau pour les entreprises à Microsoft Teams | Planifier l’Adoption de l’utilisateur
+title: Préparer la mise à niveau de Skype entreprise vers Microsoft teams | Planifier l’adoption des utilisateurs
 author: lanachin
 ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Évaluer la préparation de votre organisation pour accepter les modifications et préparation d’un plan pour l’obtention des utilisateurs prêts à mettre à niveau Skype pour les entreprises vers Microsoft Teams
+description: Évaluez la volonté de votre organisation d’accepter les modifications, puis préparez un plan pour préparer les utilisateurs à la mise à niveau de Skype entreprise vers Microsoft teams
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
@@ -15,28 +15,28 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 23d09a1d580cf933994fb116dd4df9c7e450f274
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 67ba6c1358273b78aee06861ea7cc3484f52666b
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33885574"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494545"
 ---
-![Étapes du voyage mise à niveau, en insistant sur la phase de préparation des utilisateurs] (media/upgrade-banner-user-readiness.png "Étapes du voyage mise à niveau, en insistant sur la phase de préparation des utilisateurs")
+![Étapes du parcours de la mise à niveau, avec mise en évidence de l’étape de préparation de l’utilisateur] (media/upgrade-banner-user-readiness.png "Étapes du parcours de la mise à niveau, avec mise en évidence de l’étape de préparation de l’utilisateur")
 
-Cet article fait partie de la phase de préparation des utilisateurs de votre parcours de mise à niveau, une activité que vous effectuez en parallèle à l’étape de préparation technique. Avant de continuer, vérifiez que vous avez terminé ces activités à partir des étapes précédentes :
+Cet article fait partie de l’étape de préparation de votre mise à niveau par l’utilisateur, une activité que vous effectuez parallèlement à l’étape de préparation technique. Avant de continuer, assurez-vous d’avoir suivi les étapes ci-dessous:
 
-- [Inscrit les parties prenantes du projet](upgrade-enlist-stakeholders.md)
-- [Définies par l’étendue de votre projet](https://aka.ms/SkypetoTeams-Scope)
-- [Comprendre la coexistence et l’interopérabilité de Skype pour professionnels et les équipes](https://aka.ms/SkypeToTeams-Coexist)
-- [Choisi votre parcours de mise à niveau](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Inscription des parties prenantes du projet](upgrade-enlist-stakeholders.md)
+- [Définition de l’objectif de votre projet](https://aka.ms/SkypetoTeams-Scope)
+- [Compréhension de la coexistence et de l’interopérabilité de Skype entreprise et équipes](https://aka.ms/SkypeToTeams-Coexist)
+- [Choix de votre mise à niveau](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-# <a name="prepare-your-organization"></a>Préparation de votre organisation
+# <a name="prepare-your-organization"></a>Préparer votre organisation
 
-Pour réaliser la valeur maximale des équipes, les utilisateurs doivent utiliser, mais prise aux utilisateurs de modifier la façon dont ils travaillent n’est pas toujours facile. Prendre le temps de comprendre vos utilisateurs et à concevoir le plan de préparation de droite peut aider à faciliter la modification et d’accélérer l’adoption des équipes. Ces activités doivent être effectuées en parallèle avec la préparation de votre préparation technique :
+Pour tirer le meilleur parti des équipes, les utilisateurs doivent réellement l’utiliser, mais les utilisateurs peuvent changer la façon dont ils ne fonctionnent pas toujours facilement. Le temps de comprendre les utilisateurs et de concevoir le plan de préparation approprié peut vous aider à faciliter les changements et à accélérer l’adoption d’équipes. Ces activités doivent être effectuées parallèlement à votre préparation technique:
 
-- [Évaluation d’organisation modifier préparation](https://aka.ms/OrgReadiness): Cela inclut la description qui sont vos utilisateurs, comment les utilisateurs utiliseront la nouvelle technologie et quelle mesure elles s’adapter aux changements. C’est également une opportunité pour identifier les profils utilisateur spécifique qui peut tirer parti d’intégration ayant le focus.
-- [Préparation d’un plan de préparation des utilisateurs](https://aka.ms/UserReadinessPlan): constitué de sensibilisation, des formations et des activités de support, votre plan de préparation doit tenir compte de votre base d’utilisateurs large et profils ciblés, tels qu’identifiés dans l’article [évaluer la préparation de la modification](https://aka.ms/OrgReadiness) .
+- [Évaluation](https://aka.ms/OrgReadiness)de la compatibilité des modifications de l’Organisation: il s’agit de comprendre qui est vos utilisateurs, de la façon dont ils utiliseront la nouvelle technologie et de la facilité d’adaptation. Il s’agit également de l’opportunité d’identifier les profils utilisateur spécifiques qui bénéficieront d’une intégration prioritaire.
+- [Préparation d’un plan de compatibilité utilisateur](https://aka.ms/UserReadinessPlan): il s’agit de formations, de formations et de prises en charge, votre plan de préparation doit répondre à la plupart des utilisateurs et des profils ciblés, comme indiqué dans l’article évaluation de la [compatibilité des modifications](https://aka.ms/OrgReadiness) .
 
 > [!Tip]
-> Téléchargez le [Kit de réussite de mise à niveau](https://aka.ms/UpgradeSuccessKit) pour les supports de préparation au modèle utilisateur, telles que les communications et les enquêtes effectuées auprès, outre un exemple de plan de projet de mise à niveau et le plan de test pilote.
+> Téléchargez le [Kit de réussite de mise à niveau](https://aka.ms/UpgradeSuccessKit) pour les documents de préparation des utilisateurs de modèles tels que les communications et les enquêtes utilisateur, en plus d’un exemple de plan de projet de mise à niveau et d’un plan de test pilote.

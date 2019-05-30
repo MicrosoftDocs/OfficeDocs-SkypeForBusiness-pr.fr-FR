@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Liste actuelle des problèmes connus pour l'application client et l'expérience administrateur de Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 377d86bd71947588186979f20068b9e8927ccd3d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 586e928692068070c23a682dbcf5f38259990dc0
+ms.sourcegitcommit: e1532a45df1a43d5af7b5370e3444c3971adb450
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287909"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34430664"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problèmes connus pour Microsoft Teams
 
@@ -145,6 +145,12 @@ Cet article répertorie les problèmes connus concernant Microsoft Teams, par f
 
 ## <a name="client"></a>Client
 
+
+
+|**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
+|:-----|:-----|:-----|:-----|
+|Impossible de démarrer Teams pour Surface Hub à partir du Microsoft Store |Microsoft Teams pour Surface Hub ne démarre pas lorsque vous cliquez sur **Lancer** dans le Microsoft Store. | Le lancement de Teams pour l’application Surface Hub à partir de la liste du Microsoft Store n’est pas pris en charge par Windows sur Surface Hub. <br> <br/> Redémarrez le Surface Hub après l’installation de Teams. | 27/02/18 |
+
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
 |Teams ne se met pas à jour automatiquement   <br/> | Lorsque Microsoft Teams est installé dans Program Files à l’aide des scripts d'installation au lieu de l’emplacement par défaut, le client ne se met pas à jour automatiquement lorsque de nouvelles versions sont disponibles.    <br/> | Par défaut. Assurez-vous d'installer l’application dans l’emplacement par défaut : `user\Appdata`.  <br/> | 07/09/2017  <br/> |
@@ -244,7 +250,7 @@ Cet article répertorie les problèmes connus concernant Microsoft Teams, par f
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
-|Onglets qui ne fonctionnent pas depuis l’accès conditionnel a été activé <br/> |Certains onglets peuvent ne plus se charger dans le client de bureau depuis que l’accès conditionnel a été activé sur le client. Les onglets se chargent lorsque le client web est utilisé. Certains onglets pouvant être affectés sont les suivants : PowerBI, VSTS, PowerApps et liste SharePoint.  <br/> |Pour afficher les onglets concernés, vous devez utiliser Teams dans Edge, IE ou Chrome avec l’extension de comptes Windows 10 installée. Certains onglets dépendent toujours de l’authentification web, qui ne fonctionne pas dans le client de bureau lorsqu’une autorité de certification est activée. Nous travaillons avec des partenaires pour activer ces scénarios ; nous avons activé jusqu’à présent le Planificateur, OneNote et Stream. <br/> |05/04/2018  <br/>|
+|Onglets qui ne fonctionnent pas depuis l’accès conditionnel a été activé <br/> |Certains onglets peuvent ne plus se charger dans le client de bureau depuis que l’accès conditionnel a été activé sur le client. Les onglets se chargent lorsque le client web est utilisé. Certains onglets pouvant être affectés sont les suivants : PowerBI, VSTS, PowerApps et liste SharePoint.  <br/> |Pour afficher les onglets concernés, vous devez utiliser Teams dans Microsoft Edge, IE ou Chrome avec l’extension de comptes Windows 10 installée. Certains onglets dépendent toujours de l’authentification web, qui ne fonctionne pas dans le client de bureau lorsqu’une autorité de certification est activée. Nous travaillons avec des partenaires pour activer ces scénarios ; nous avons activé jusqu’à présent le Planificateur, OneNote et Stream. <br/> |05/04/2018  <br/>|
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|

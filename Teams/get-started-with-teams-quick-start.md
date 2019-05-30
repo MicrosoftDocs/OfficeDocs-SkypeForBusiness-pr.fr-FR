@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 870dcc05d174dd7f2e7b14f05b4be56ad1ce86ea
-ms.sourcegitcommit: b072148ea13f4d4f6035204a48bedd287fb90ebd
+ms.openlocfilehash: 38b2b5e263347dd97a20da2ca7ea00068cb341c7
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/08/2019
-ms.locfileid: "33827724"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34433119"
 ---
 # <a name="get-started-with-microsoft-teams"></a>Prise en main de Microsoft Teams
 
@@ -29,7 +29,7 @@ Pour commencer rapidement avec Teams, nous vous recommandons de créer deux ou t
 
 Teams vous permet de mettre rapidement sur pied une équipe avec du personnel interne ou externe à votre organisation, de discuter avec d’autres personnes pour lancer des conversations rapides et inclusives, de partager et co-créer en toute sécurité des documents et de coopérer sur des projets. Vous pouvez personnaliser Teams en ajoutant des accès pratiques à des notes partagées, des pages web et des applications. Utiliser les réunions et des appels pour collaborer en temps réel où que se trouvent les utilisateurs. Teams simplifiera votre accès aux services Office 365 et à des applications tierces, pour être le nouveau centre de gravité de vos besoins de communication et de collaboration. Encouragez vos premiers utilisateurs à installer les applications mobiles et de bureau pour une meilleure expérience et pour recevoir des commentaires plus précis.
 
-![Prise en main de Teams](media/get-started-microsoft-teams.png "Capture d’écran avec le client de bureau Teams et l’interface utilisateur du client mobile" ) 
+![Capture d’écran montrant l’interface utilisateur des clients de bureau et mobiles] (media/get-started-microsoft-teams.png "Capture d’écran montrant le client de bureau Teams et l’interface utilisateur du client mobile" ) 
 
 Voici comment mettre en place votre première série d’équipes et canaux pour que les premiers utilisateurs puisse discuter, partager des fichiers et collaborer.
 

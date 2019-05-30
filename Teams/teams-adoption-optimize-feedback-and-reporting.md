@@ -10,50 +10,50 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Découvrez comment obtenir les commentaires des utilisateurs et d’utiliser des rapports dans votre kit d’adoption des équipes intégrité du service.
+description: Découvrez comment obtenir des commentaires des utilisateurs et utiliser la fonctionnalité de création de rapports sur l’état du service pour votre adoption d’équipes.
 ms.custom: Adopt
 MS.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 02c7958e37f93d254e6f10c09bccc225e8141978
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 89b4c292f17321878c66513f2d25f34c2deb186f
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930387"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494815"
 ---
 # <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>Optimiser les retours d’expérience et les comptes-rendus pour votre adoption de Microsoft Teams
 
-Assurez-vous que vous obtenez des signaux retour à partir de votre service et vos employés en suivant nos meilleures pratiques pour les commentaires des utilisateurs et la création de rapports d’intégrité service.  Dans certains cas, vous devrez peut-être des droits d’administrateur pour accéder à certains rapports d’utilisation et d’intégrité du service Office 365. Si vous n’êtes pas l’administrateur Office 365 pour votre organisation, travailler avec cette personne à accorder le rôle de lecteur de rapport dans le centre d’administration Microsoft 365 d’accéder à certains de ces données. 
+Assurez-vous d’obtenir des signaux de votre service et de vos employés en suivant les meilleures pratiques en matière de commentaires des utilisateurs et de rapports sur l’état du service.  Dans certains cas, il est possible que vous deviez disposer des droits d’administrateur d’Office 365 pour accéder à certains rapports d’utilisation et d’intégrité des services. Si vous n’êtes pas l’administrateur 365 de votre organisation, travaillez avec cette personne pour lui accorder le rôle de lecteur de rapport dans le centre d’administration Microsoft 365 pour accéder à certaines de ces données. 
 
-## <a name="incorporating-feedback"></a>Incorporation de la part de vos commentaires 
+## <a name="incorporating-feedback"></a>Incorporation de commentaires 
 
-Tout au long de votre expérience phase, vous être capture plus d’informations sur la façon dont les personnes ont utilisé le produit et leur expérience. Utilisez ces informations maintenant pour ajuster votre sensibilisation et les programmes de formation lors de la planification développer son utilisation entre les divisions. Exemple posées peuvent être :
+Tout au long de votre phase d’expérimentation, vous allez capturer des informations sur la façon dont les personnes ont utilisé le produit et leur expérience. Utilisez ces informations maintenant pour ajuster vos programmes de sensibilisation et de formation lorsque vous envisagez de développer son utilisation dans toutes les unités de votre entreprise. Voici quelques exemples de questions fréquemment posées:
 
-- Quand utiliser ce nouvel outil à côté de mon technologie existante ?
-- Qui est autorisé à utiliser cet outil avec moi ?
-- Est sécurisés pour les informations hautement confidentielles ? 
-- Qui parler à en savoir plus sur Microsoft Teams ?
-- Quelque chose ne fonctionne pas. Comment obtenir de l’aide ?
+- Dans quel cas dois-je utiliser ce nouvel outil parallèlement à ma technologie existante?
+- Qui est autorisé à utiliser cet outil avec moi?
+- Est-il sécurisé pour les informations à caractère très confidentiel? 
+- Qui parle pour en savoir plus sur Microsoft teams?
+- Un message ne fonctionne pas. Comment obtenir de l’aide?
 
 ## <a name="invest-in-your-champions"></a>Investir dans vos champions
 
-Lorsque vous préparez la mise à l’échelle de l’utilisation de Microsoft Teams, recrutement champions supplémentaires dans chaque division ou un groupe que vous développez à. S’inscrire à ces personnes dans votre programme de formation service enthousiastes et normaliser comment et quand vous disposez avec eux.
+À mesure que vous vous préparez à faire évoluer votre utilisation de Microsoft Teams, Recrutez des champions supplémentaires dans chaque unité d’entreprise ou groupe que vous développez. Inscrivez ces personnes enthousiastes dans votre programme de formation de services et Standardisez le fonctionnement et la manière dont vous les rencontrez.
  
-Être clairement dans la conception de votre programme champions vos employés obtiendrez et ce qu’ils sont donneront si elles deviennent des champions. Exigences communes de programme sont les heures planifiées, participation dans les appels de la Communauté tous les mois et la participation dans les Communautés en ligne internes pour prendre en charge la transition vers les nouvelles expériences.  
+Soyez plus clair dans votre programme de conception de votre personnel et ce qu’il y a à savoir s’il s’agit de champions. Les exigences courantes du programme sont les heures consacrées au travail, la participation à des appels de communauté mensuels et la participation à des communautés internes en ligne pour soutenir votre transition vers ces nouvelles expériences.  
 
-Meilleure pratique : Organisez une réunion d’équipes mensuelle pour vos champions internes. Fractionner votre agenda entre les nouvelles fonctionnalités d’enseignement, traitement des commentaires et fournit des outils de libre-service de votre communauté des employés.
+Meilleure pratique: Organisez une réunion mensuelle teams pour vos champions internes. Fractionnez votre agenda entre les nouvelles fonctionnalités, les commentaires et les outils d’auto-service pour votre communauté d’employés.
 
-Meilleure pratique : représentants ave à partir de votre service de support technique interne ou d’un support technique participer à votre communauté champions restent à jour sur les nouvelles informations concernant l’utilisation d’équipes. 
+Meilleure pratique: les représentants de votre service d’assistance technique ou d’assistance technique vous rejoignent la communauté des champions pour vous tenir au courant des nouvelles informations relatives à l’utilisation de vos équipes. 
 
-## <a name="service-reporting"></a>Service de création de rapports
+## <a name="service-reporting"></a>Rapport de service
 
-Il existe trois types de rapports vous invitons à lire lorsque vous déployez et adoptent Teams Microsoft :
+Il existe trois types de rapports que vous devez examiner lors du déploiement et de l’adoption de Microsoft teams:
 
-- [Intégrité du Service](https://status.office365.com/) – à partir d’Office 365 et votre support technique interne département.
-- [Activité de Service](https://docs.microsoft.com/en-us/office365/admin/activity-reports/activity-reports?redirectSourcePath=%252fen-us%252farticle%252fActivity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263&view=o365-worldwide) – d’Office 365 afficher les [rapports sur les équipes Microsoft](https://docs.microsoft.com/en-us/office365/admin/activity-reports/microsoft-teams-user-activity?redirectSourcePath=%252farticle%252fOffice-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524&view=o365-worldwide). Vous pouvez également utiliser les informations provenant d’autres systèmes au sein de votre organisation.
-- Satisfaction de service – collectées à partir des forums de discussion interne et d’enquêtes sur des expériences spécifiques
+- [État du service](https://status.office365.com/) : à partir d’Office 365 et de votre service d’assistance informatique interne.
+- [Activité de service](https://docs.microsoft.com/en-us/office365/admin/activity-reports/activity-reports?redirectSourcePath=%252fen-us%252farticle%252fActivity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263&view=o365-worldwide) – à partir d’Office 365 afficher des [rapports sur Microsoft teams](https://docs.microsoft.com/en-us/office365/admin/activity-reports/microsoft-teams-user-activity?redirectSourcePath=%252farticle%252fOffice-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524&view=o365-worldwide). Vous pouvez également utiliser des informations d’autres systèmes au sein de votre organisation.
+- Satisfaction des services – recueillies auprès des forums et enquêtes de la communauté interne sur des expériences spécifiques.
 
-![Icône d’étapes suivante](media/teams-adoption-next-icon.png) suivante : [Présentation du lecteur et implémenter la formation](teams-adoption-drive-awareness.md)
+![Une icône représentant la prochaine étape](media/teams-adoption-next-icon.png) suivante: [prise de connaissance et mise en œuvre des formations](teams-adoption-drive-awareness.md)

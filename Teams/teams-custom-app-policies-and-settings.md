@@ -17,16 +17,19 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment gérer les stratégies et paramètres d’application personnalisés pour contrôler les utilisateurs de votre organisation qui peuvent télécharger des applications personnalisées dans Microsoft Teams.
-ms.openlocfilehash: 27123e6e943f7dc570098c36732fd0d1ba09e8af
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c1aa7489761fb27f525fbb6eb8f2056ae3dd33c8
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283710"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548660"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>Gérer les stratégies d’application personnalisée et les paramètres dans Microsoft Teams
 
 > [!INCLUDE [feature coming soon](includes/new-feature-coming-soon-article.md)]
+
+> [!NOTE]
+> Pour la méthode actuelle de gestion des applications dans Microsoft Teams, voir [gérer les paramètres de Microsoft teams pour votre organisation](https://docs.microsoft.com/MicrosoftTeams/enable-features-office-365).
 
 En tant qu’administrateur, vous pouvez utiliser des stratégies et des paramètres d’application personnalisés pour contrôler qui, au sein de votre organisation, peut télécharger des applications personnalisées dans Microsoft Teams. Les administrateurs décident quels utilisateurs peuvent télécharger des applications personnalisées, et les administrateurs et propriétaires d’équipe peuvent déterminer si des équipes spécifiques de votre organisation autorisent leur ajout d’applications personnalisées.  
 
@@ -34,7 +37,7 @@ En tant qu’administrateur, vous pouvez utiliser des stratégies et des paramè
 
 Les utilisateurs peuvent ajouter une application personnalisée aux équipes en chargeant un package d’application (dans un fichier. zip) directement dans une équipe ou dans le contexte personnel. C’est différent de la façon dont les applications sont ajoutées par le biais de l’App Store Teams. L’ajout d’une application personnalisée en chargeant un package d’application, également connu sous le nom de chargement indépendant, vous permet de tester une application au fur et à mesure qu’elle est développée, avant qu’elle ne soit prête à être diffusée. Elle vous permet également de générer une application pour une utilisation interne uniquement et de la partager avec votre équipe sans l’envoyer au catalogue d’applications teams dans le magasin d’applications Teams.
 
-![Télécharger une application personnalisée](media/teams-custom-app-policy-and-settings-upload-app.png)
+![Capture d’écran montrant l’option Télécharger une application personnalisée dans l’App Store](media/teams-custom-app-policy-and-settings-upload-app.png)
 
 ## <a name="custom-app-policy-and-settings"></a>Stratégie et paramètres d’application personnalisés
 
@@ -91,7 +94,7 @@ Si ce paramètre est activé, procédez comme suit:
 2. Cliquez sur **paramètres**, puis développez **autorisations de membre**.
 3. Activez ou désactivez la case à cocher **autoriser les membres à télécharger des applications personnalisées** .
 
-    ![paramètre de l’application personnalisée d’équipe](media/teams-custom-app-policy-and-settings-team.png)
+    ![Capture d’écran montrant le paramètre de l’application personnalisée d’équipe](media/teams-custom-app-policy-and-settings-team.png)
 
 ### <a name="org-wide-custom-app-setting"></a>Paramètre d’application personnalisée à l’échelle de l’Organisation
 
@@ -103,7 +106,7 @@ Le paramètre de l’application personnalisée à l’échelle de l’organisat
 2. Cliquez sur **paramètres de l’application à l’échelle de l’organisation**.
 3. Sous **applications personnalisées**, activez ou désactivez l’option **autoriser l’interaction avec les applications personnalisées**.
 
-    ![Paramètre d’application personnalisée à l’échelle de l’Organisation](media/teams-custom-app-policy-and-settings-org-wide.png)
+    ![Capture d’écran montrant les paramètres de l’application personnalisée à l’échelle de l’Organisation](media/teams-custom-app-policy-and-settings-org-wide.png)
 
 ## <a name="how-custom-app-policies-and-settings-work-together"></a>Fonctionnement des stratégies et paramètres d’application personnalisés
 

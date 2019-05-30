@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'En savoir plus sur les informations envoyées automatiquement aux utilisateurs par courrier électronique en cas de modification de leurs paramètres de conférence rendez-vous dans Skype entreprise online. '
-ms.openlocfilehash: 7f16e4dfdb108111767f173295044ca4bdfc0475
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: acdc16a1af2666dcb84599fae31a910be83ac08f
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275622"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494285"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-skype-for-business-online"></a>Courriers électroniques envoyés aux utilisateurs en cas de modification de leurs paramètres dans Skype entreprise Online
 
@@ -111,7 +111,7 @@ Lorsque vous désactivez l'envoi de courriers électroniques, le courrier élect
   
 Par défaut, les courriers électroniques seront envoyés à vos utilisateurs, mais si vous ne souhaitez pas qu’ils en reçoivent pour les conférences audio, vous pouvez utiliser le centre d’administration Skype entreprise ou Windows PowerShell. 
  
-![SFB-logo-30x30. png](../images/sfb-logo-30x30.png)  **à l’aide du centre d’administration Skype entreprise**
+![Icône illustrant le logo](../images/sfb-logo-30x30.png)Skype entreprise**dans le centre d’administration Skype entreprise**  
     
 1. Dans le **Centre d’administration de Skype entreprise**, dans le volet de navigation gauche, accédez à**paramètres du pont Microsoft** **Conferencing** > .
     

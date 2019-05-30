@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 f1keywords: ms.teamsadmincenter.externalaccess.overview
 description: Découvrez comment configurer teams pour permettre aux utilisateurs de communiquer avec des utilisateurs d’une autre organisation.
-ms.openlocfilehash: d974197f6daedab030124dfc1117610e3504ae32
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: e9e2a60c7f1f93df56408976a92e4aa47f3e486e
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34433190"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494689"
 ---
 # <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>Permettre aux utilisateurs d’équipes de discuter et de communiquer avec les utilisateurs d’une autre organisation teams
 
@@ -58,7 +58,7 @@ Procédez comme suit.
 
    3. Si vous voulez autoriser toutes les organisations teams à communiquer avec les utilisateurs de votre organisation, passez à l’étape 5. 
    
-   4. Si vous souhaitez limiter les organisations qui peuvent communiquer avec des utilisateurs de votre organisation, vous pouvez autoriser tous les domaines sauf quelques domaines ou autoriser des organisations spécifiques uniquement. Pour autoriser tout sauf quelques domaines, ajoutez les domaines que vous voulez bloquer en cliquant sur **Ajouter un domaine**. Dans le volet **Ajouter un domaine** , indiquez le nom de domaine, puis cliquez sur **bloqué** puis sur **Terminer**. Pour limiter les communications à des organizatioins spécifiques, ajoutez ces domaines à la liste avec un statut de **créance**. Une fois que vous avez ajouté un domaine à la liste verte, les communications vers d’autres organisations sont limitées uniquement aux organisations dont le domaine figure dans la liste verte. 
+   4. Si vous souhaitez limiter les organisations qui peuvent communiquer avec des utilisateurs de votre organisation, vous pouvez autoriser tous les domaines sauf quelques domaines ou autoriser des organisations spécifiques uniquement. Pour autoriser tout sauf quelques domaines, ajoutez les domaines que vous voulez bloquer en cliquant sur **Ajouter un domaine**. Dans le volet **Ajouter un domaine** , indiquez le nom de domaine, puis cliquez sur **bloqué** puis sur **Terminer**. Pour limiter les communications à des organizatioins spécifiques, ajoutez ces domaines à la liste avec l’état **autorisé**. Une fois que vous avez ajouté un domaine à la liste verte, les communications vers d’autres organisations sont limitées uniquement aux organisations dont le domaine figure dans la liste verte. 
    
    5. Cliquez sur **Enregistrer**. 
 

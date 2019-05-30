@@ -16,12 +16,12 @@ description: Découvrez comment gérer les paramètres des événements en direc
 f1keywords: ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 74eafcd6b16fe6d4c4b4f82c3b3472879ba506eb
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 277f5b326a2c8c4427ae4cea740630d4d1e6f0c7
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344177"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548644"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Configurer les paramètres d’événements en direct dans Microsoft Teams
 
@@ -29,7 +29,7 @@ Utilisez les paramètres d’événements en direct teams pour configurer les pa
 
 Vous pouvez facilement gérer ces paramètres dans le centre d’administration Microsoft Teams. Dans le volet de navigation de gauche, accédez à la section **réunions** > en**direct des événements**. 
 
-![Live-Event-Settings. png] (../media/teams-live-events-settings.png "Capture d’écran des paramètres d’événements en direct teams que vous pouvez configurer dans le centre d’administration Microsoft teams") 
+![Capture d’écran des paramètres des événements en direct teams] (../media/teams-live-events-settings.png "Capture d’écran des paramètres d’événements en direct teams que vous pouvez configurer dans le centre d’administration Microsoft teams") 
 
 ## <a name="set-up-event-support-url"></a>Configurer l’URL du support technique des événements
 
@@ -40,7 +40,7 @@ Cette URL est présentée aux participants de l’événement en direct. Ajoutez
 1. Dans le volet de navigation de gauche, accédez à la section **réunions** > en**temps réel des événements**.
 2. Sous **URL du support technique**, entrez l’URL du support technique de votre organisation. 
 
-    ![Paramètre d’URL d’assistance pour les événements en direct dans le centre d’administration Microsoft teams] (../media/teams-live-events-settings-supporturl.png "Capture d’écran du paramètre d’URL du support technique pour les événements en direct teams")
+    ![Paramètre d’URL d’assistance pour les événements en direct dans le centre d’administration] (../media/teams-live-events-settings-supporturl.png "Capture d’écran du paramètre d’URL du support technique pour les événements en direct teams")
 
 ### <a name="using-windows-powershell"></a>Reportez-vous à la rubrique Envoyer un message électronique à un utilisateur avec leurs informations de conférence Audio.
 Exécutez la commande suivante :
@@ -57,7 +57,7 @@ Si vous avez acheté et configuré une solution SDN (Software Defined Network) o
 1. Dans le volet de navigation de gauche, accédez à la section **réunions** > en**temps réel des événements**.
 2. Sous **fournisseurs de distribution vidéo tiers**, procédez comme suit: 
 
-    ![Paramètres du fournisseur de distribution vidéo tiers dans le centre d’administration Microsoft teams] (../media/teams-live-events-settings-distribution-provider.png "Capture d’écran des paramètres du fournisseur de distribution vidéo tiers pour les événements en direct")
+    ![Paramètres du fournisseur de distribution vidéo tiers dans le centre d’administration] (../media/teams-live-events-settings-distribution-provider.png "Capture d’écran des paramètres du fournisseur de distribution vidéo tiers pour les événements en direct")
 
     - **Utiliser un fournisseur de distribution tiers** Activez cette activation pour activer le fournisseur de distribution vidéo tiers.
     - **Nom du fournisseur de SDN** Choisissez le fournisseur que vous utilisez.

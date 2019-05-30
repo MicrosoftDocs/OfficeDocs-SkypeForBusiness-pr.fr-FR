@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a78ed7e0bb40d83f7b46d4d4a008f964180c32d0
-ms.sourcegitcommit: a47f0841b9a14ede65171a817ecb7ebc72f209e5
+ms.openlocfilehash: 855029001863b6603548c865d5f7bfb039261a18
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2019
-ms.locfileid: "34185294"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494831"
 ---
 <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>Répondre aux appels dans la file d’attente ou du standard automatique directement à partir de Teams
 ===========================================================
@@ -39,7 +39,7 @@ Les utilisateurs peuvent différencier les appels entrants d’un standard autom
 
 L’illustration suivante décrit le mode d’affichage d’un appel entrant d’un standard automatique ou d’une file d’attente d’appels.
 
-![Notification d’appel entrant](media/answer-auto-attendant-and-call-queue-calls-image1.png)
+![Capture d’écran d’une notification d’appel entrant](media/answer-auto-attendant-and-call-queue-calls-image1.png)
 
 Lorsque le standard automatique ou la file d’attente d’appels est reçu, l’utilisateur peut traiter l’appel comme tout autre appel & # x2014; ils peuvent ajouter ou organiser une conférence au sein d’un autre utilisateur ou transférer l’appel vers une autre personne. De plus, les appels de standard automatique seront transférés en fonction de la configuration de l’utilisateur.
 

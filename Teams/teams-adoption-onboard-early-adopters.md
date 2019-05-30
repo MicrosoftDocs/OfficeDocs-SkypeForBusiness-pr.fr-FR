@@ -10,39 +10,39 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Choisir les premiers pour la phase de l’expérience de l’adoption de vos équipes, puis recueillir les commentaires pour votre projet.
+description: Choisissez premiers décideurs pour la phase d’expérience de votre adoption d’équipes, puis Recueillez des commentaires pour votre projet.
 ms.custom: Adopt
 MS.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c3094e620e52bad466e3229bdbdc0c7ccf173eee
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0d639b3fc0a0712a9623121673aadfea8a99d0f1
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33896346"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548756"
 ---
 # <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a>Intégrer des utilisateurs précoces et recueillir des commentaires sur Microsoft Teams
 
-Revenir à la liste d’employés exprimée intérêt dans votre programme pour premiers utilisateurs. Déterminez lequel de ces personnes doivent participer à vos expériences initiales avec des équipes. Il peut être tout ou partie des personnes qui vous intéressent. Même si vous n’activez pas les pour ces projets initiales, continuer à communiquer avec eux afin qu’ils restent intéressées et seront accepte de participer à l’avenir. Ils seront une partie du processus embarquement pour les projets que vous avez sélectionné en fonction de vos discussions avec les parties prenantes métier, votre équipe technique et votre exercice de définition des priorités ci-dessus. 
+Revenir à la liste des employés qui expriment les intérêts dans votre ancien programme d’adoption. Déterminez laquelle de ces personnes doit participer à vos expériences initiales avec Teams. Il est possible qu’il s’agissait de tout ou partie des personnes qui ont le plus intéressées. Même si vous ne les sélectionnez pas pour ces projets initiaux, continuez à communiquer avec eux de sorte qu’ils restent intéressés et qu’ils ne puissent pas participer à l’avenir. Ils feront partie du processus d’intégration des projets que vous avez sélectionnés en fonction de vos discussions avec les parties prenantes de l’entreprise, votre équipe technique et votre exercice de hiérarchisation illustré ci-dessus. 
 
-Effectuez les étapes suivantes avec les premiers :
+Suivez les étapes ci-dessous avec ces premiers points de suite:
 
-1. Envoyer un message électronique d’invitation à leur pour les inviter dans la Communauté,
-2. Héberger un appel dus à partager avec les objectifs et les résultats de programme pour les premiers utilisateurs,
-3. Garantir l’accès à la chaîne de commentaires de votre équipe de champions de travail d’équipe et les autres internes social outils réseau que vous pouvez utiliser. 
-4. Envisagez de créer des enquêtes de leur exécution qui regroupera ciblés informations.
+1. Envoyer un courrier électronique d’invitation à ces personnes pour les inviter dans la communauté;
+2. Organisez un appel de lancement pour partager avec eux les objectifs et les résultats du programme du premier adoptant,
+3. Assurez-vous d’avoir accès au canal de commentaires de votre équipe de gestion d’équipe et à tout autre outil de réseau social interne que vous pouvez utiliser. 
+4. Envisagez de créer des enquêtes périodiques pour qu’elles regroupent les informations ciblées.
 
 ## <a name="gather-feedback"></a>Recueillir des commentaires
 
-Utiliser les composants d’Office 365 pour recueillir les commentaires pour votre projet.
+Utilisez les composants d’Office 365 pour recueillir des commentaires pour votre projet.
   
-![Icône Point de décision.](media/teams-adoption-decision-icon.png) La décision : Si votre organisation possède déjà un investissement dans un réseau Yammer, vous pouvez l’utiliser comme un forum de commentaires pour votre programme pour premiers utilisateurs. Si ce n’est pas le cas et que votre programme pour premiers utilisateurs a moins de 5 000 membres, créer une équipe en équipe pour recueillir les commentaires et proposer une formation.
+![Icône représentant un point de décision](media/teams-adoption-decision-icon.png) Décision: Si votre organisation a déjà un investissement dans un réseau Yammer, vous pouvez l’utiliser en tant que forum de commentaires pour votre premier programme adoptant. Si ce n’est pas le cas, et que votre programme d’adoption initiale comporte moins de 5000 membres, créez une équipe dans teams pour recueillir vos commentaires et fournir une formation.
   
 > [!Note]
-> Certaines organisations permet de combiner les canaux de commentaires premiers dans l’équipe du programme champions le travail d’équipe. Il s’agit d’une bonne solution car nombreux premiers peuvent devenir champions à l’avenir, et qu’il va générer une Communauté renforcée. 
+> Certaines organisations combinent les canaux pour les commentaires du préversion du programme des champions au sein de l’équipe du programme d’équipe. C’est une bonne approche en raison du fait que de nombreux premiers décideurs peuvent devenir des champions et renforcer la communauté. 
 
 
-![Icône d’étapes suivante](media/teams-adoption-next-icon.png) suivant : [Onboard prend en charge](teams-adoption-onboard-support.md).
+![Une icône représentant la prochaine étape](media/teams-adoption-next-icon.png) suivante: [prise en charge intégrée](teams-adoption-onboard-support.md).

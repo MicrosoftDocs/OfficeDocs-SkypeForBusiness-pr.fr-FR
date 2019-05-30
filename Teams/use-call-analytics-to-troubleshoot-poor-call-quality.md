@@ -24,12 +24,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: Utilisez les détails d’analyse des appels sur les appareils, les réseaux et la connectivité pour résoudre les problèmes liés aux utilisateurs de Microsoft Teams, ainsi que les réunions et les appels Skype entreprise.
-ms.openlocfilehash: 2255afa0c2af8e1c672c2830009cfb34921ceed9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 952cd0f34221f0a7e1203f8ff78edf2abdadb9b1
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288195"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548979"
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>Utiliser l’analyse des appels pour résoudre les problèmes de qualité des appels
 
@@ -64,19 +64,19 @@ Pour plus d’informations sur les autorisations, voir les informations de l’a
     
 3. Dans le **tableau de bord**, dans recherche de l' **utilisateur**, commencez à taper le nom ou l’adresse SIP de l’utilisateur dont vous souhaitez résoudre les appels ou sélectionnez **afficher les utilisateurs** pour afficher une liste d’utilisateurs.
     
-    ![Capture d’écran de la zone de recherche d’un utilisateur dans le centre d’administration Microsoft Teams.](media/use-call-analytics-to-troubleshoot-image-1.png)
+    ![Capture d’écran de la zone de recherche d’utilisateurs de l’analyse des appels](media/use-call-analytics-to-troubleshoot-image-1.png)
   
 4. Sélectionnez l’utilisateur dans la liste.
 
 5. Sélectionnez **historique des appels**, puis sélectionnez l’appel ou la réunion que vous voulez résoudre.
     
-    ![Capture d’écran montrant la page historique des appels d’un utilisateur.](media/use-call-analytics-to-troubleshoot-image-2.png)
+    ![Capture d’écran de la page historique des appels d’un utilisateur.](media/use-call-analytics-to-troubleshoot-image-2.png)
   
 6. Sélectionnez l’onglet **avancé** , puis recherchez des éléments jaunes ou rouges qui indiquent une mauvaise qualité des appels ou des problèmes de connexion.
     
     Dans les détails de la session pour chaque appel ou réunion, des problèmes mineurs apparaissent en jaune. (Par exemple, dans la capture d’écran ci-dessous, les valeurs sont en jaune pour la gigue moyenne, le taux de scintillement maximal et le taux moyen de perte de paquets.) Si un élément est orange, il se trouve en dehors de la plage normale et peut contribuer à la cause du problème, mais il est improbable qu’il n’y en ait pas. S’il s’agit d’un problème rouge, il s’agit d’un problème important et il est probable que la mauvaise qualité d’appel soit médiocre pour cette session. 
     
-    ![Capture d’écran montrant l’onglet avancé de l’historique des appels d’un utilisateur ](media/use-call-analytics-to-troubleshoot-image-3.png)
+    ![Capture d’écran de l’onglet avancé de l’historique des appels d’un utilisateur ](media/use-call-analytics-to-troubleshoot-image-3.png)
   
 Dans de rares cas, les données de qualité d’expérimentation ne sont pas reçues pour les sessions audio. C’est souvent dû au fait que l’appel est interrompu et qu’une connexion avec le client s’arrête. Lorsque c’est le cas, l’évaluation de session n’est **pas disponible**.
   

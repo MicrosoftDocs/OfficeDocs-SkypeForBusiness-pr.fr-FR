@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Découvrez les étapes de déploiement pour obtenir le microprogramme approprié, le mettre à jour si nécessaire, affecter des licences et configurer des paramètres pour les téléphones communs.
-ms.openlocfilehash: 59b681fecfe4fe6c2b9d89c7dbea875f30152340
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b7717fd9bfb641c94261d288b5b546cace50a61f
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297987"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34493856"
 ---
 # <a name="set-up-common-area-phones"></a>Configuration des téléphones de zone commune
 A common area phone (CAP) is typically placed in an area like a lobby or another area that is available to a lot of people. For example, a reception area phone, door phone or meeting room phone, CAPs are set up as devices rather than users and automatically sign into a network. In the steps below, we’ll help you set up an account for Phone System with Calling Plans so you can deploy these types of phones for your organization.
@@ -81,7 +81,7 @@ Pour plus de détails, reportez-vous à la section [Ajouter un utilisateur](http
 
 ### <a name="step-3---assign-a-phone-number-to-the-common-area-phone-user-account"></a>Étape 3 - Attribuer un numéro de téléphone au compte utilisateur du téléphone de zone commune
 
-![sfb-logo-30x30.png](../../images/sfb-logo-30x30.png) Attribution d’un numéro de téléphone à l’utilisateur en utilisant le **Centre d’administration Skype Entreprise**
+![Icône indiquant le logo](../../images/sfb-logo-30x30.png) Skype entreprise attribuez un numéro de téléphone à l’utilisateur à l’aide du **Centre d’administration Skype entreprise**
 
 1. Dans le centre d’administration Office 365 > les **centres** > **d’administration Skype entreprise**.
 2. Dans le **Centre d’administration Skype Entreprise** >  **Voix** > **Numéros de téléphone**.

@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 ms.collection: M365-voice
 localization_priority: Normal
 description: Cet article décrit la prise en charge du cycle de vie des salles Microsoft Teams.
-ms.openlocfilehash: 9d4fcbfa7dbe1ea60233e97f10285d01f6cfe943
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 18d666e9fd0fa98e6c5a92ad7910cfe2adcb4a9e
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288518"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494721"
 ---
 # <a name="microsoft-teams-room-app-version-support"></a>Prise en charge de la version de l’application Microsoft teams salle
  
@@ -38,8 +38,11 @@ Les mises à jour de fonctionnalité de Windows 10 pour les appareils exécutant
 
 Depuis le bloc de temps, la mise à jour de la fonctionnalité de Windows 10 est proposée au téléchargement sur ces appareils, car Microsoft teams prend en charge la mise à jour de fonctionnalités Windows 10 spécifiques pour une période de 12 mois conformément à la politique de support des applications. Dans la mesure où les mises à jour de fonctionnalité de Windows 10 sont proposées depuis tous les 6 mois, cela signifie également que Microsoft teams disposera de deux publications supplémentaires à tester à la fin de la prise en charge de la version actuelle. Cela signifie également qu’une version de Windows 10 sera débloquée tous les 6 mois pour tous les clients de Microsoft Teams. Dans la mesure où nous effectuons constamment des modifications d’application et que nous développons une version antérieure de Windows, dans certains cas, il est nécessaire de disposer d’une dépendance par rapport aux fonctionnalités Windows disponibles dans les versions plus récentes de Windows et au fait qu’il rend le changement version 12-18 mois. Pour vous assurer que vous obtenez le correctif d’application pour résoudre un problème que vous rencontrez sur votre appareil Microsoft Teams, nous vous conseillons vivement à tous les clients de mettre à niveau ces appareils vers la dernière mise à jour des fonctionnalités de Windows 10 proposée pour suivre les recommandations en matière de version de Windows 10.
 
-Par exemple, la version de Microsoft teams pour Windows 10 nécessite la version 1709 de Windows 10, dans la mesure où la version minimale prise en charge est 2019. Aucune nouvelle version de l’application ne sera proposée aux systèmes sur Windows 10 versions 1703 ou ultérieures.
+Par exemple, les appareils Microsoft teams salle requièrent Windows 10 version 1709, car la version minimale prise en charge est 2019. Aucune nouvelle version de l’application ne sera proposée aux systèmes sur Windows 10 versions 1703 ou ultérieures.
 
+> [!NOTE]
+> Lorsqu’un appareil de salle Microsoft teams est compatible avec la version suivante du système d’exploitation Windows 10, l’appareil est automatiquement mis à jour vers la version suivante par le biais de Windows Update. Les appareils de salle Microsoft Teams ne doivent pas être mis à niveau vers la prochaine version de Windows 10 manuellement ou par le biais des stratégies de groupe Windows Update entreprise (WUFB) à l’aide du «sélectionner le niveau de préparation de Windows pour les mises à jour que vous voulez recevoir» et «sélectionner quand Les versions Preview et les mises à jour de fonctionnalités sont reçues par le biais d’un objet de stratégie de groupe. L’activation de ces stratégies de groupe peut entraîner des problèmes entre la mise à jour du système d’exploitation Windows 10 et l’application Microsoft Teams. 
+ 
 <a name="See"> </a>  
 ## <a name="see-also"></a>Voir aussi
 

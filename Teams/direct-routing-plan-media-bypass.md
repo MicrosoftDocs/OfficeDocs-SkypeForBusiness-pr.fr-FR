@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Pour plus d’informations sur l’utilisation de la méthode de contournement multimédia avec le routage direct du système téléphonique, lisez cette rubrique.
-ms.openlocfilehash: 7a26f14e0fb6fec8537f04f03b6f58c252f86966
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 704b129b3d6ba7fdffd5c01886b73970e0711e60
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290460"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34493915"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planifier le contournement de média avec un routage direct
 
@@ -70,7 +70,7 @@ Le diagramme suivant illustre le flux d’appels lorsque la dérivation de médi
 
 - Le signalement SIP accepte toujours les chemins 4 et 4 (selon la direction du trafic). Le contenu multimédia reste local et prend le chemin 5b.
 
-![Flux d’appels avec contournement de média activé, le client est interne et peut atteindre l’adresse IP publique du contrôleur de bordure de session (direct Media)](media/direct-routing-media-bypass-3.png)
+![Flux d’appels avec contournement de média activé, le client est interne](media/direct-routing-media-bypass-3.png)
 
 
 ### <a name="call-flow-if-the-user-does-not-have-access-to-the-public-ip-address-of-the-sbc"></a>Flux d’appels si l’utilisateur n’a pas accès à l’adresse IP publique de l’SBC
@@ -91,7 +91,7 @@ Le diagramme suivant illustre le flux d’appels lorsque la dérivation de médi
 
 - Les médias sont relayés par le biais de chemins d’accès 3, 3, 4 et 4 '
 
-![Affiche le flux d’appels si l’utilisateur n’a pas accès à l’adresse IP publique de l’SBC.](media/direct-routing-media-bypass-4.png)
+![Affiche le flux d’appels si l’utilisateur n’a pas accès à l’adresse IP publique de l’SBC](media/direct-routing-media-bypass-4.png)
 
 
 ### <a name="call-flow-if-a-user-is-outside-the-network-and-has-access-to-the-public-ip-of-the-sbc"></a>Flux d’appels s’il se trouve hors du réseau et a accès à l’adresse IP publique de l’SBC
@@ -105,7 +105,7 @@ Le diagramme suivant illustre le flux d’appels lorsque la dérivation de médi
 
 - Le signalement SIP accepte toujours les chemins 3 et 3 (selon la direction du trafic). Flux multimédias utilisant Path 2.
 
-![Affiche le flux d’appels si l’utilisateur n’a pas accès à l’adresse IP publique de l’SBC.](media/direct-routing-media-bypass-5.png)
+![Affiche le flux d’appels si l’utilisateur n’a pas accès à l’adresse IP publique de l’SBC](media/direct-routing-media-bypass-5.png)
 
 
 ## <a name="use-of-media-processors-and-transport-relays"></a>Utilisation de processeurs multimédias et de relais de transport
@@ -125,7 +125,7 @@ Le schéma suivant montre deux flux d’appels: l’un avec la dérivation multi
 
 - Le proxy SIP est un composant qui convertit la signalisation HTTP REST utilisée dans teams pour SIP.    
 
-![Affiche deux flux d’appels: un avec une dérivation de média activée et la seconde avec le contournement de média désactivé.](media/direct-routing-media-bypass-6.png)
+![Flux d’appels avec contournement de média activé et désactivé](media/direct-routing-media-bypass-6.png)
 
 
 Le tableau ci-dessous résume la différence entre les processeurs multimédias et les relais de transport.
@@ -273,7 +273,7 @@ Utilisateurs avec uniquement les points de terminaison équipes (y compris les n
 Les deux Trunks peuvent pointer sur la même SBC avec la même adresse IP publique. Les ports de signalisation TLS de l’SBC doivent être différents, comme indiqué dans le schéma suivant. Remarque vous devrez vous assurer que votre certificat prend en charge les deux Trunks. Dans SAN, vous devez avoir deux noms (**sbc1.contoso.com** et **sbc2.contoso.com**) ou avoir un certificat générique.
 
 
-![Affiche les deux Trunks peuvent pointer vers la même SBC avec la même adresse de l’adresse publique.](media/direct-routing-media-bypass-7.png)
+![Affiche les deux liaisons peuvent pointer sur le même SBC avec la même adresse IP publique](media/direct-routing-media-bypass-7.png)
 
 Pour plus d’informations sur la configuration de deux lignes sur le même SBC, voir la documentation fournie par votre fournisseur de SBC:
 

@@ -22,12 +22,12 @@ f1keywords: ms.teamsadmincenter.audioconferencing.bridgesettings
 ms.custom:
 - Audio Conferencing
 description: 'Découvrez les étapes dont vous avez besoin pour modifier les paramètres d’un pont de conférence qui est utilisé pour inviter les appelants et rassembler des noms et des codes confidentiels pour les organisateurs de la réunion lorsque ces derniers n’utilisent pas les applications Skype entreprise ou Microsoft Teams. '
-ms.openlocfilehash: eaccf6b09499c819451aabd4c1785b326f98ac6d
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 97c1439325e5a9a00cacfa26e97078d2c2a91014
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344868"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494561"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Modifier les paramètres d’un pont d’audioconférence.
 
@@ -66,7 +66,7 @@ Le pont de conférence répond à un appel et invite l’appelant à utiliser le
 6. Cliquez sur **Enregistrer**. 
 
 
-## <a name="sfb-logo-30x30pngmediasfb-logo-30x30png--using-the-skype-for-business-admin-center"></a>![sfb-logo-30x30.png](media/sfb-logo-30x30.png)  Utilisation du centre d'administration Skype Entreprise
+## <a name="an-icon-showing-the-skype-for-business-logomediasfb-logo-30x30png--using-the-skype-for-business-admin-center"></a>![Icône illustrant le logo Skype entreprise](media/sfb-logo-30x30.png)  Utilisation du centre d'administration Skype Entreprise
 
  **Configurer l’interface de réunion lorsque les appelants rejoignent une réunion**
     

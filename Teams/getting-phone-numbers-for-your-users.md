@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Découvrez comment obtenir de nouveaux numéros ou transférer des numéros existants pour teams ou Skype entreprise, et montrer les changements à vos utilisateurs. '
-ms.openlocfilehash: 4991ef4f9cbf32c7b87ad621b1be1554cc65406c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bb71585464eb86b30024cef0a3f55fb14f648a75
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285511"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494649"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>Obtention de numéros de téléphone Skype Entreprise pour vos utilisateurs
 
@@ -47,13 +47,13 @@ Vous devez utiliser la page **Nouveaux numéros** pour afficher, rechercher et a
   
 ## <a name="get-new-phone-numbers-for-your-users"></a>Obtention de nouveaux numéros de téléphone pour vos utilisateurs
 
-![SFB-logo-30x30. png](media/sfb-logo-30x30.png) **à l’aide du centre d’administration Skype entreprise**
+![Icône illustrant le logo](media/sfb-logo-30x30.png) Skype entreprise **dans le centre d’administration Skype entreprise**
   
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
 2. Accédez au > **portail hérité**du **Centre d’administration Microsoft teams**.
     
-3. Dans le volet de navigation gauche, accédez à **voix** > **numéros de téléphone**, cliquez sur **Ajouter un nouveau numéro** ![Ajouter bouton ](media/c224fbd0-f0f5-46ce-a1a7-73adf4540ef7.png), puis cliquez sur**nouveaux numéros utilisateur**.
+3. Dans le volet de navigation de gauche, sélectionnez**numéros de téléphone** **vocaux** > , cliquez sur Ajouter un **numéro** ![sur le bouton ajouter](media/c224fbd0-f0f5-46ce-a1a7-73adf4540ef7.png), qui est une icône plus, puis cliquez sur **nouveaux numéros d’utilisateur**.
     
     > [!IMPORTANT]
     > Pour que l’option **voix** s’affiche dans le volet de navigation gauche du centre d’administration de Skype entreprise, vous devez d’abord acheter au moins une licence **entreprise E5**, une licence de composant additionnel du **système téléphonique** ou une licence du composant additionnel **audioconférence** .
@@ -86,7 +86,7 @@ Vous devez utiliser la page **Nouveaux numéros** pour afficher, rechercher et a
     
 ## <a name="show-phone-numbers-for-your-organization"></a>Affichage des numéros de téléphone pour votre entreprise
 
-![SFB-logo-30x30. png](media/sfb-logo-30x30.png) **à l’aide du centre d’administration Skype entreprise**
+![Icône illustrant le logo](media/sfb-logo-30x30.png) Skype entreprise **dans le centre d’administration Skype entreprise**
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     

@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5b6f96b2f3dd7993d6cb3d5b732e0796a215ebae
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 25f4bb41ed5aa5c99c6edbc3a8daf70af78e882d
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344648"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494417"
 ---
 # <a name="plan-my-service-management"></a>Planifier ma gestion des services
 
@@ -35,7 +35,7 @@ La notion de gestion des services n'est probablement pas un concept nouveau pour
 La gestion des services englobe toutes les activités et processus impliqués dans la gestion de bout en bout de Microsoft Teams. Certaines composantes de la gestion des services - les composantes de l'infrastructure que le service Office 365 comprend lui-même, relèvent de la responsabilité de Microsoft, alors que le client est responsable devant ses utilisateurs de la gestion des différents aspects de Teams, du réseau et des points de terminaison qu'il fournit.
 Pour une analyse détaillée de la responsabilité du client quant à la gestion du service Teams et de son incidence sur les principales composantes qui contribuent à la qualité de l’expérience utilisateur, reportez-vous à la rubrique [Plan de gestion du service et de la qualité](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide).
 
-![Diagramme des trois composantes de la qualité : service Office 365, réseau et points de terminaison, et comment la gestion du service s’agence avec les trois.](media/plan-my-service-management-image1.png "Diagramme des trois composantes de la qualité : service Office 365, réseau et points de terminaison, et comment la gestion du service a des recoupements avec les trois..")
+![Diagramme des trois composants de qualité] (media/plan-my-service-management-image1.png "Diagramme des trois composants qualité (service 365 Office, réseau et points de terminaison) et mode de superposition des trois services.")
 
 <!--ENDOFSECTION-->
 
@@ -92,7 +92,7 @@ Les tâches et les activités associées à ce rôle ont été documentées dans
 
 Le Guide d'examen de l'expérience de la qualité comporte un ensemble d'activités qui évaluent et fournissent des conseils en matière de correction dans les domaines clés qui ont le plus grand impact sur l'amélioration de l'expérience utilisateur, comme le montre la figure ci-dessous.
 
-![Principaux domaines à examiner lors d’un examen de l’expérience de la qualité : audio, fiabilité et résultats de l’enquête auprès des utilisateurs.](media/plan-my-service-management-image2.png "Principaux domaines à examiner lors d’un examen de l’expérience de la qualité : audio, fiabilité et résultats de l’enquête auprès des utilisateurs.")
+![Illustration des zones clés à examiner lors de l’évaluation de l’interface qualité] (media/plan-my-service-management-image2.png "Les principales zones à examiner lors de l’évaluation de l’utilisation de la qualité: les résultats de l’enquête audio, fiable et utilisateur.")
 
 En évaluant et en corrigeant continuellement les zones décrites dans ce document, vous pouvez réduire leur potentiel d'affecter négativement l'expérience utilisateur. La plupart des problèmes d'expérience utilisateur rencontrés lors d'un déploiement peuvent être regroupés dans les catégories suivantes :
 

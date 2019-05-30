@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c10a5fd2a1a172410a69362687146ba50cd69529
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 06655b8c43bb912409b2a1c6a42d7509f45bf651
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344569"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548796"
 ---
 ![Étapes du parcours de la mise à niveau, mettant l’accent sur l’étape de définition du projet] (media/upgrade-banner-project-definition.png "Étapes du parcours de la mise à niveau, mettant l’accent sur l’étape de définition du projet")
 
@@ -66,7 +66,7 @@ Dès que votre organisation est prête à être utilisée par tout ou partie des
 
 Pour plus d’informations sur le passage en mode équipes uniquement, voir [considérations relatives au mode équipes uniquement](teams-only-mode-considerations.md).
 
-![Client Skype entreprise s’exécutant en mode spécial une fois que l’utilisateur a été mis à niveau en tant qu’utilisateur d’équipe uniquement] (media/teams-and-skypeforbusiness-coexistence-and-interop-image1.png "Client Skype entreprise s’exécutant en mode spécial une fois que l’utilisateur a été mis à niveau en tant qu’utilisateur d’équipe uniquement")
+![Capture d’écran du message de confirmation teams] (media/teams-and-skypeforbusiness-coexistence-and-interop-image1.png "Client Skype entreprise s’exécutant en mode spécial une fois que l’utilisateur a été mis à niveau en tant qu’utilisateur d’équipe uniquement")
 
 ### <a name="skype-for-business-with-teams-collaboration-this-mode-is-upcoming"></a>Skype entreprise avec collaboration en équipes (ce mode est à venir)
 
@@ -105,11 +105,11 @@ En fonction des modes de coexistence attribués aux utilisateurs (comme décrit 
 
 - Les utilisateurs de Skype entreprise peuvent discuter avec les utilisateurs Teams, et inversement. Une discussion d’interopérabilité doit traverser une passerelle d’interopérabilité incluse dans teams services Cloud (et donc uniquement en ligne). Les discussions d’interopérabilité sont en texte brut: le texte enrichi et les émoticônes ne sont pas pris en charge. Les utilisateurs dans teams sont avertis que la conversation est une conversation d’interopérabilité. une notification similaire pour les utilisateurs Skype entreprise sera bientôt fournie.
 
-![Découvrir l’interface utilisateur de teams] (media/Interop_chat_experience_from_Teams.png "Découvrir l’interface utilisateur de teams")
+![Capture d’écran de l’interface de conversation d’interopérabilité de teams] (media/Interop_chat_experience_from_Teams.png "Découvrir l’interface utilisateur de teams")
 
 - Les utilisateurs de Skype entreprise peuvent passer des appels vocaux et vidéo en tête à tête aux utilisateurs de teams, et inversement.
 
-![Découverte de l’appel d’interopérabilité d’équipes] (media/Interop_calling_experience_from_Teams.png "Découverte de l’appel d’interopérabilité d’équipes")
+![Capture d’écran de l’interface d’appel d’interopérabilité de teams] (media/Interop_calling_experience_from_Teams.png "Découverte de l’appel d’interopérabilité d’équipes")
 
 > [!Important]
 > Les expériences d’interopérabilité d’un déploiement local de Skype entreprise requièrent que l’environnement local soit en mode hybride avec Office 365 Skype entreprise. Pour plus d’informations, consultez les [conseils de migration et](https://aka.ms/SkypeToTeams-Interop)d’interopérabilité.

@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 'Ce rapport, ainsi que d’autres rapports Skype entreprise, vous fournissent des informations sur les activités, y compris l’utilisation du service RTC au sein de votre organisation. '
-ms.openlocfilehash: b94245c3526011a10ddb417357bf2516968f7773
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 77ce7a5ff05c4302be875a16519c2dc1a3a994de
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299571"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494004"
 ---
 # <a name="users-blocked-report"></a>Rapport d'utilisateurs bloqués
 
@@ -36,7 +36,7 @@ Le nouveau tableau de bord des **rapports** Skype entreprise montre la vue d’e
   
 ## <a name="how-to-get-to-the-skype-for-business-users-blocked-report"></a>Comment obtenir le rapport de blocage des utilisateurs Skype entreprise
 
-![SFB-logo-30x30. png](../images/sfb-logo-30x30.png) **à l’aide du centre d’administration Skype entreprise**
+![Icône illustrant le logo](../images/sfb-logo-30x30.png) Skype entreprise **dans le centre d’administration Skype entreprise**
 
 - Accédez aux centres d’administration du**** > **** Centre > d’administration **Office 365****centres** > **d’administration de Skype entreprise** > .
     

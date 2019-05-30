@@ -13,39 +13,39 @@ search.appverid: MET150
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-description: Découvrez comment utiliser le rapport d’utilisation du périphérique équipes dans le centre d’administration Microsoft Teams pour afficher le mode de connexion des utilisateurs de votre organisation aux équipes.
+description: Découvrez comment utiliser le rapport d’utilisation de Microsoft teams dans le centre d’administration de Microsoft teams pour savoir comment les utilisateurs de votre organisation se connectent à Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: df5b912a9a4d76fd1be2947cea6dd2750ddbaa49
-ms.sourcegitcommit: f29c0c41dc40f7e968a675d2cf10ef17d7e784da
+ms.openlocfilehash: 4d1e1137903dbda86a7ec3beedae32f13d1f27eb
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/30/2019
-ms.locfileid: "33495896"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548724"
 ---
 # <a name="microsoft-teams-device-usage-report"></a>Rapport d’utilisation des périphériques de Microsoft Teams
 
-Le rapport d’utilisation du périphérique dans le centre d’administration Microsoft Teams équipes fournit des informations sur la façon dont les utilisateurs se connectent aux équipes. Vous pouvez utiliser le rapport pour afficher les périphériques qui sont utilisés dans votre organisation, notamment combien utiliser équipes à partir de leurs appareils mobiles lorsque sur OK.  
+Le rapport utilisation des appareils teams dans le centre d’administration Microsoft teams vous fournit des informations sur la façon dont les utilisateurs se connectent à Teams. Vous pouvez utiliser le rapport pour afficher les appareils utilisés au sein de votre organisation, y compris le nombre d’équipes de leur appareil mobile lorsque vous êtes en déplacement.  
 
-![Capture d’écran du rapport d’utilisation équipes périphériques dans le centre d’administration Microsoft équipes] (../media/teams-reports-device-usage.png "Capture d’écran du rapport d’utilisation équipes périphériques dans le centre d’administration Microsoft équipes")
+![Capture d’écran du rapport sur l’utilisation de Microsoft teams sur les appareils dans le centre d’administration] (../media/teams-reports-device-usage.png "Capture d’écran du rapport d’utilisation de Microsoft teams sur les appareils dans le centre d’administration Microsoft teams")
 
 ## <a name="view-the-report"></a>Afficher le rapport
 
-1. Accédez au centre d’administration Microsoft Teams, dans la navigation de gauche, cliquez sur **rapports de & Analytique**, puis, sous **état**, sélectionnez **utilisation du périphérique équipes**. 
+1. Accédez au centre d’administration de Microsoft Teams, dans le volet de navigation de gauche, cliquez sur **analyse & rapports**, puis sous **rapport**, sélectionnez **utilisation des appareils teams**. 
 2. Dans **Plage de dates**, sélectionnez une plage puis cliquez sur **Exécuter le rapport**. 
 
 ## <a name="interpret-the-report"></a>Interpréter le rapport
 
-![Capture d’écran du rapport d’utilisation équipes périphériques dans le centre d’administration Microsoft équipes] (../media/teams-reports-device-usage-with-callouts.png "Capture d’écran de l’état de l’utilisation des équipes périphérique dans le centre d’administration équipes Microsoft avec des légendes numérotées")
+![Capture d’écran du rapport sur l’utilisation de Microsoft teams sur les appareils dans le centre d’administration] (../media/teams-reports-device-usage-with-callouts.png "Capture d’écran du rapport d’utilisation des appareils teams dans le centre d’administration Microsoft teams avec des légendes numérotées")
 
 |Légende |Description  |
 |--------|-------------|
-|**1**   |Le rapport d’utilisation du périphérique équipes peut être affiché pour les tendances sur la dernière 7 jours ou 28 jours.  |
-|**2**   |Chaque rapport possède une date pour laquelle le rapport a été généré. Les rapports reflètent généralement une latence de 24 à 48 heures par rapport à l'heure de l'activité. |
-|**3**   |<ul><li>L’axe X du graphique représente les différents appareils (**Windows**, **Mac**, **iOS**, **Téléphone Android**) utilisées pour se connecter aux équipes. </li><li>L’axe des Y sont le nombre d’utilisateurs à l’aide de l’appareil sur la période sélectionnée.</li> </ul>Pointez sur la barre représentant un périphérique pour afficher le nombre d’utilisateurs à l’aide de l’appareil pour se connecter à des équipes.|
-|**4**   |Le tableau donne une répartition de l’utilisation de périphériques par utilisateur. <ul><li>**Nom complet** est le nom complet de l’utilisateur. Vous pouvez cliquer sur le nom complet pour accéder à la page Paramètres de l’utilisateur dans le centre d’administration Microsoft Teams. </li><li>**Windows** est activée si l’utilisateur a été actif dans le client de bureau équipes sur un ordinateur fonctionnant sous Windows.</li><li>**Mac** est sélectionnée si l’utilisateur a été actif dans le client de bureau équipes sur un ordinateur Mac OS. </li> <li>**iOS** est activée si l’utilisateur a été actif sur le client mobile équipes pour iOS.</li><li>**Téléphone Android** est activée si l’utilisateur a été actif sur le client mobile équipes pour Android. <li>**Dernière activité** est la dernière date (UTC) que l’utilisateur a participé à une activité équipes.</li> </ul> Pour afficher les informations que vous souhaitez dans le tableau, veillez à ajouter les colonnes correspondantes au tableau. |
+|**1**   |Le rapport utilisation des appareils teams peut être consulté pour les tendances au cours des 7, ou 28 derniers jours.  |
+|**2**   |Chaque rapport comporte une date à laquelle le rapport a été généré. Les rapports reflètent généralement une latence de 24 à 48 heures par rapport à l'heure de l'activité. |
+|**3**   |<ul><li>L’axe X sur le graphique représente les différents appareils (**Windows**, **Mac**, **iOS**, **téléphone Android**) utilisés pour vous connecter à Teams. </li><li>L’axe Y indique le nombre d’utilisateurs de l’appareil sur la période sélectionnée.</li> </ul>Placez le pointeur de la souris sur la barre représentant un appareil pour connaître le nombre d’utilisateurs de l’appareil à se connecter à Teams.|
+|**4**   |Le tableau présente une répartition de l’utilisation de l’appareil par l’utilisateur. <ul><li>**Nom complet** est le nom d’affichage de l’utilisateur. Vous pouvez cliquer sur le nom d’affichage pour accéder à la page de paramètres de l’utilisateur dans le centre d’administration Microsoft Teams. </li><li>**Windows** est sélectionné si l’utilisateur a été actif dans le client de bureau teams sur un ordinateur exécutant Windows.</li><li>L’option **Mac** est activée si l’utilisateur a été actif dans le client de bureau teams sur un ordinateur MacOS. </li> <li>**iOS** est sélectionné si l’utilisateur a été actif dans le client mobile teams pour iOS.</li><li>Le **téléphone Android** est sélectionné si l’utilisateur a été actif sur le client mobile teams pour Android. <li>**Dernière activité** correspond à la dernière date (UTC) à laquelle l’utilisateur a participé à une activité d’équipe.</li> </ul> Pour afficher les informations que vous souhaitez dans le tableau, veillez à ajouter les colonnes correspondantes au tableau. |
 |**5**   |Sélectionnez **Modifier les colonnes** pour ajouter ou supprimer des colonnes dans le tableau. |
-|**6**   |Vous pouvez exporter le rapport dans un fichier CSV pour l’analyse en mode hors connexion. Cliquez sur **Exporter vers Excel**, puis sur l’onglet **Downloads** , cliquez sur **Télécharger** pour télécharger le rapport lorsque celle-ci est prête.<br>![Capture d’écran de l’onglet Downloads affichant exportés pour télécharger les rapports](../media/teams-reports-export-to-csv.png)|
+|**6**   |Vous pouvez exporter le rapport dans un fichier CSV pour une analyse hors connexion. Cliquez sur **Exporter vers Excel**, puis sous l’onglet **téléchargements** , cliquez sur **Télécharger** pour télécharger le rapport dès qu’il est prêt.<br>![Capture d’écran de l’onglet téléchargements montrant les rapports exportés](../media/teams-reports-export-to-csv.png)|
 
 ## <a name="related-topics"></a>Voir aussi
 - [Analyses et rapports Teams](teams-reporting-reference.md)

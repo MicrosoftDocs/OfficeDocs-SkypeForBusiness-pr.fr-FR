@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 'Learn how in Office 365 Calling Plan (PSTN Calling plan) to buy and set up licenses, get phone numbers, add and assign emergency locations and phone numbers to users, and tell your users about their new phone numbers. '
-ms.openlocfilehash: 8196b764f61fda7691d65a74f2eb89969ef2d48a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 9f01c73c8374a367beb03db0a14df5dada0c562d
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305244"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494705"
 ---
 # <a name="set-up-calling-plans"></a>Configurer des forfaits d'appels
 
@@ -58,13 +58,13 @@ Il existe trois façons d’obtenir de nouveaux numéros utilisateur :
 
 **Pour ajouter une adresse de secours pour votre organisation**
 
-![SFB-logo-30x30. png](media/sfb-logo-30x30.png) **à l’aide du centre d’administration Skype entreprise**
+![Icône illustrant le logo](media/sfb-logo-30x30.png) Skype entreprise **dans le centre d’administration Skype entreprise**
 
 Dans le centre d’administration de Skype entreprise, accédez à**emplacements** > de secours **vocaux** > ,**Ajouter une nouvelle adresse**. Pour plus d’informations [, voir ajouter ou supprimer une adresse de secours pour votre organisation](/skypefor business/what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization) .
 
 **Pour ajouter un emplacement d’urgence pour votre organisation** 
 
-![SFB-logo-30x30. png](media/sfb-logo-30x30.png) **à l’aide du centre d’administration Skype entreprise**
+![Icône illustrant le logo](media/sfb-logo-30x30.png) Skype entreprise **dans le centre d’administration Skype entreprise**
 
 Dans le centre d’administration de Skype entreprise, accédez à**emplacements** > de secours **vocaux** > ,**Ajouter une nouvelle adresse**. Pour plus d’informations, reportez-vous à [Ajouter, modifier ou supprimer un emplacement d’urgence pour votre organisation](/skypefor business/what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization) .
 
@@ -74,7 +74,7 @@ Dans le centre d’administration de Skype entreprise, accédez à**emplacements
 
 **Pour ajouter une adresse d’urgence pour un utilisateur** 
 
-![SFB-logo-30x30. png](media/sfb-logo-30x30.png) **à l’aide du centre d’administration Skype entreprise**
+![Icône illustrant le logo](media/sfb-logo-30x30.png) Skype entreprise **dans le centre d’administration Skype entreprise**
 
 Dans le centre d’administration de Skype entreprise, accédez **** > à l'**emplacement** > **** d’urgence des**utilisateurs** > vocaux à l’emplacement d’urgence**affecter le numéro** > . Pour plus d’informations, voir [affecter ou modifier une adresse d’urgence pour un utilisateur](/skypeforbusiness/what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user) .
 
@@ -83,7 +83,7 @@ Dans le centre d’administration de Skype entreprise, accédez **** > à l'**em
 
 **Pour attribuer un numéro de téléphone à un utilisateur**
 
-![SFB-logo-30x30. png](media/sfb-logo-30x30.png) **à l’aide du centre d’administration Skype entreprise**
+![Icône illustrant le logo](media/sfb-logo-30x30.png) Skype entreprise **dans le centre d’administration Skype entreprise**
 
 Dans le centre d’administration de Skype entreprise, sélectionnez **** > **utilisateurs** > vocaux vocaux et attribuez un**numéro** > de**changement**. Pour plus d’informations, reportez-vous à la section [affectation, modification ou suppression du numéro de téléphone d’un utilisateur](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user) .
 
@@ -98,15 +98,15 @@ Pour pouvoir voir ce numéro de téléphone dans son application **Skype entrepr
     
 2. Sélectionnez **Paramètres** > **Outils** > **Options**. 
     
-     ![Afin de voir votre numéro de téléphone, aller dans Paramètres > Outils > Options.](media/20637117-91d7-4a7e-9f06-7abc634a9211.png)
+     ![Capture d’écran des options du menu outils](media/20637117-91d7-4a7e-9f06-7abc634a9211.png)
   
 3. Ensuite, sélectionnez **Téléphones**. 
     
-    ![A user can see their assign number in the Skype for Business app by choosing Settings > Tools > Options > Phone.](media/0128d667-2bf8-4165-b703-e9b78a15b63c.png)
+    ![Capture d’écran de la sélection de l’option téléphones](media/0128d667-2bf8-4165-b703-e9b78a15b63c.png)
  
 Dans les **Équipes Microsoft**, les utilisateurs peuvent voir leur numéro de téléphone en cliquant sur **appels** dans le volet de navigation gauche. Le numéro de téléphone est affiché au-dessus du pavé de numérotation.
 
-![Un utilisateur peut voir son numéro dans les équipes Microsoft en cliquant sur les appels dans le volet de navigation gauche.](media/teams-phone-number.png)
+![Capture d’écran de la sélection d’appels dans le volet de navigation de gauche.](media/teams-phone-number.png)
 
 ## <a name="what-else-do-you-need-to-know"></a>Que devez-vous savoir également ?
 <a name="bkmk_add_addresses"> </a>

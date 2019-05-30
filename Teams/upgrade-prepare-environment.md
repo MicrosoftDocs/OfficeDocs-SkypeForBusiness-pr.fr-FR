@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Valider la préparation de votre environnement et de réseau avant de commencer votre mise à niveau à partir de Skype pour les entreprises aux équipes.
+description: Validez votre environnement et votre disponibilité du réseau avant de commencer la mise à niveau de Skype entreprise vers Teams.
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
@@ -15,30 +15,30 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1f62117b0219250e527a8b98b6aed6c722b319de
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3b1777aaadb1a4a141ec3c80936fa147cd44353d
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33925144"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34493841"
 ---
-![Étapes du voyage mise à niveau, en mettant l’accent sur l’étape de préparation technique] (media/upgrade-banner-tech-readiness.png "Étapes du voyage mise à niveau, en mettant l’accent sur l’étape de préparation technique")
+![Diagramme de route de mise à niveau, mettant l’accent sur l’étape de préparation technique] (media/upgrade-banner-tech-readiness.png "Étapes du parcours de la mise à niveau, en mettant l’accent sur l’étape de préparation technique")
 
-Cet article fait partie de la phase de préparation technique de votre parcours de mise à niveau, une activité que vous effectuez en parallèle à l’étape de préparation des utilisateurs. Avant de continuer, vérifiez que vous avez terminé ces activités à partir des étapes précédentes :
+Cet article fait partie de l’étape de préparation technique de votre mouvement de mise à niveau, une activité que vous finalisez en parallèle avec l’étape de préparation de l’utilisateur. Avant de continuer, assurez-vous d’avoir suivi les étapes ci-dessous:
 
-- [Inscrit les parties prenantes du projet](upgrade-enlist-stakeholders.md)
-- [Définies par l’étendue de votre projet](https://aka.ms/SkypetoTeams-Scope)
-- [Comprendre la coexistence et l’interopérabilité de Skype pour professionnels et les équipes](https://aka.ms/SkypeToTeams-Coexist)
-- [Choisi votre parcours de mise à niveau](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Inscription des parties prenantes du projet](upgrade-enlist-stakeholders.md)
+- [Définition de l’objectif de votre projet](https://aka.ms/SkypetoTeams-Scope)
+- [Compréhension de la coexistence et de l’interopérabilité de Skype entreprise et équipes](https://aka.ms/SkypeToTeams-Coexist)
+- [Choix de votre mise à niveau](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-# <a name="prepare-your-environment-for-upgrading-to-teams"></a>Préparer votre environnement pour la mise à niveau vers des équipes
+# <a name="prepare-your-environment-for-upgrading-to-teams"></a>Préparer votre environnement pour la mise à niveau vers teams
 
-Lecteur une mise à niveau réussie équipes au sein de votre organisation, il est important de valider votre Skype en cours pour l’environnement d’entreprise et la préparation de votre réseau. Préparation de votre environnement actuel vous aidera garantir une expérience utilisateur de qualité maintenant, en plus d’améliorer la qualité de l’utilisateur une expérience dans les équipes. Prendre le temps de planifier les différentes étapes peut aider à accélérer le déploiement et assurez-vous que vous n’avez pas ignoré les actions importantes.
+Pour améliorer la mise à niveau de vos équipes au sein de votre organisation, il est important de valider votre environnement Skype entreprise actuel et votre disponibilité du réseau. En préparant votre environnement actuel, vous garantirez une meilleure qualité d’utilisation de l’utilisateur, en plus d’améliorer la qualité de l’utilisation de l’utilisateur dans Teams. Le temps de planifier des étapes individuelles peut vous aider à accélérer votre déploiement et à ne pas ignorer les points d’action importants.
 
-Effectuez ces activités en parallèle avec votre préparation de la préparation des utilisateurs :
+Effectuez les activités suivantes en parallèle avec votre préparation de l’utilisateur:
 
-- [Préparer votre personnel informatique](upgrade-prepare-IT-pros.md) pour vous assurer qu’ils ont un passage de mise à niveau réussi nécessaires.
-- Vérifiez que votre environnement répond à toutes les [conditions préalables](upgrade-plan-journey-prerequisites.md)et comprendre les dépendances entre les équipes et les services Office 365.
-- [Évaluer votre environnement](upgrade-plan-journey-evaluate-environment.md) à la découverte de l’environnement à l’aide d’un questionnaire exemple pour confirmer est prête votre organisation à effectuer une mise à niveau réussie voyage au pays aux équipes.
-- [Préparer votre réseau](upgrade-prepare-environment-prepare-network.md) par le biais de la planification, préparation et prendre les étapes de mise à jour nécessaires pour votre réseau pour prendre en charge les charges de travail équipes.
-- [Préparer votre service](upgrade-prepare-environment-prepare-service.md) de déploiement à l’aide de listes de contrôle embarquement pour vous assurer que votre configuration équipes est prête à prendre en charge la migration de vos utilisateurs de Skype pour les entreprises aux équipes.
+- [Préparez votre équipe informatique](upgrade-prepare-IT-pros.md) pour vous assurer qu’elle a son besoin pour réussir la mise à niveau.
+- Vérifiez que votre environnement répond à toutes les [conditions préalables](upgrade-plan-journey-prerequisites.md)et comprenez les dépendances entre les services et les équipes Office 365.
+- [Évaluez votre environnement](upgrade-plan-journey-evaluate-environment.md) en effectuant une découverte environnementale en utilisant un exemple de questionnaire pour confirmer la volonté de votre organisation de procéder à une mise à niveau réussie vers Teams.
+- [Préparez votre réseau](upgrade-prepare-environment-prepare-network.md) par le biais d’une planification, d’une préparation et de toutes les étapes de correction nécessaires pour votre réseau pour la prise en charge des charges de travail d’équipes.
+- [Préparez votre service pour le](upgrade-prepare-environment-prepare-service.md) déploiement à l’aide d’une liste de contrôle d’intégration afin de vous assurer que la configuration de vos équipes est prête pour la prise en charge de la migration de vos utilisateurs de Skype entreprise vers Teams.

@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b49d3c1f602da63a7a29010193d66ae09b4feb45
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: c177ae45fdb0770b533c8725d0fb6970a80a5bc2
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344443"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494062"
 ---
 ![Étapes du voyage de la mise à niveau, avec mise en évidence de l’étape d’excellence opérationnelle] (media/upgrade-banner-op-excellence.png "Étapes du voyage de la mise à niveau, avec mise en évidence de l’étape d’excellence opérationnelle")
 
@@ -42,7 +42,7 @@ La gestion des services englobe toutes les activités et processus impliqués da
 
 Les tâches et les activités de ce guide sont regroupées en huit catégories, comme illustré dans le schéma suivant. Chacune de ces catégories sera développée sur les sections suivantes.
 
-![Diagramme illustrant une liste de catégories de tâches et d’activités que la gestion de service pour teams comporte.] (media/operate-my-service-image1.png "Diagramme illustrant une liste de catégories de tâches et d’activités que la gestion de service pour teams comporte. Le diagramme montre également que la gestion des services est essentiellement une tâche client.")
+![Diagramme illustrant une liste de catégories de tâches et d’activités] (media/operate-my-service-image1.png "Diagramme illustrant une liste de catégories de tâches et d’activités que la gestion de service pour teams comporte. Le diagramme montre également que la gestion des services est essentiellement une tâche client.")
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Points de décision</td><td><ul><li>Déterminez comment les opérations seront implémentées pour les équipes.</li></ul></td></tr>
@@ -317,7 +317,7 @@ NPS est un index allant de-100 à 100 qui mesure la volonté d’un client de re
 
 - Entre 1 et 6: les détenteurs qui peuvent endommager votre service et entraver la croissance.
 
-![Un diagramme illustrant l’échelle NPS, montre que les rangs de 0 à 6 sont des tracteurs, les 7 à 8 sont passifs et les promoteurs 9 à 10.] (media/operate-my-service-image2.png "Ce diagramme montre l’échelle NPS. Il indique que les rangs de 0 à 6 sont des tracteurs de 0 à 6 sont passifs et les promoteurs 9 à 10.")
+![Diagramme illustrant l’échelle NPS] (media/operate-my-service-image2.png "Ce diagramme montre l’échelle NPS. Il indique que les rangs de 0 à 6 sont des tracteurs de 0 à 6 sont passifs et les promoteurs 9 à 10.")
 
 Même si le numéro NPS de base est utile, vous obtiendrez la plus grande valeur de l’analyse des commentaires des utilisateurs. Ils vous aideront à comprendre la raison pour laquelle l’utilisateur serait (ou aurait) recommander des équipes. Ces commentaires peuvent fournir des commentaires intéressants pour aider les équipes de gestion de projet ou de service à comprendre les ajustements nécessaires pour fournir un service qualité.
 

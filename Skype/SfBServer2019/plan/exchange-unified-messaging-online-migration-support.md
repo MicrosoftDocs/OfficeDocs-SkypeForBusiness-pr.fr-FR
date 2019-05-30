@@ -10,14 +10,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft retraite le service Exchange Unified Messaging Online (ExchUMO) en février 2020. Cet article récapitule ce que les clients concernés doivent savoir et ce qu’ils doivent faire pour planifier leur continuité d’activité.
-ms.openlocfilehash: d959a4b3ff04a8f2de9182d0df9cc5f63941a5dd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ba9df18478057e9c32b0f2cea70a10c6c7ab36e8
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280849"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494187"
 ---
-# <a name="exchange-unified-messaging-online-migration-support"></a>Prise en charge de la migration en ligne de la messagerie unifiée Exchange  
+# <a name="exchange-unified-messaging-online-migration-support"></a>Prise en charge de la migration en ligne de la messagerie unifiée Exchange
 
 Dans le rapport de l' [annonce](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) du 8 février 2019, Microsoft retraite le service Exchange Unified Messaging Online (ExchUMO) en février 2020. Cet article présente un résumé des utilisateurs concernés et à faire pour planifier leur continuité d’activité. 
  
@@ -30,9 +30,9 @@ La boîte vocale est essentiellement une migration pilotée par Microsoft; le be
 
 Les clients qui utilisent les fonctionnalités suivantes du service Exchange Unified Messaging Online sont concernés:
 
-1. Service de boîte vocale 
-2. Service de standard automatique 
-3. Intégration de télécopie 
+- Service de boîte vocale
+- Service de standard automatique
+- Intégration de télécopie
 
 > [!Note]
 > Les clients qui utilisent un serveur Exchange local avec la messagerie unifiée ne sont pas concernés. 
@@ -56,7 +56,6 @@ Microsoft a identifié de nombreux déploiements de clients qui utilisent des fo
  
     Familiarisez-vous avec l' [annonce de blog](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) et cet article pour planifier une migration fluide pour vos utilisateurs. Pour plus d’informations sur les fonctionnalités de messagerie vocale dans le Cloud, voir la boîte [vocale Skype entreprise et les options](https://support.office.com/en-us/article/check-skype-for-business-voicemail-and-options-2deea7f8-831f-4e85-a0d4-b34da55945a8) .  
  
-
 2.  **Établissement d’une topologie hybride Skype entreprise**
 
     Si vous n’avez pas créé de topologie hybride Skype entreprise, vous devez effectuer cette opération pour faciliter la migration de vos utilisateurs de la boîte vocale. Pour plus d’informations, reportez-vous à la rubrique [configuration de Skype entreprise hybride](../../SfbHybrid/hybrid/configure-federation-with-skype-for-business-online.md) . 
@@ -82,21 +81,32 @@ Microsoft a identifié de nombreux déploiements de clients qui utilisent des fo
     > [!Note]
     > Si vous avez reçu une notification avec la chronologie de la migration de vos utilisateurs et voulez différer votre migration pour une raison essentielle pour l’entreprise, vous pouvez le faire en contactant le support Microsoft. Notez que vous ne pouvez pas différer votre migration au-delà de la date de retraite, 2020 février. Pour les clients qui peuvent avoir davantage de questions, contactez l’équipe de votre compte ou le support Microsoft. Les clients qui utilisent déjà Office 365 peuvent proposer un dossier d’assistance via le portail d’administration Office 365. 
 
-6. **Vous pouvez opter pour le début du 2019.**
+6. **Vous pouvez opter pour une migration planifiée.**
 
-    Vous pouvez choisir de procéder à une migration de service de boîte vocale au plus tard le 2019 (si vous n’avez pas reçu de notification de migration), d’aligner la migration avec une licence d’annuité ou des vacances du personnel enseignant ou d’éviter des périodes critiques pour l’entreprise. Les détails relatifs au processus d’annulation seront mis à jour dans cet article avant le 2019.  
+    Vous pouvez opter pour une migration de service de boîte vocale planifiée vers CVM. Avant de procéder à la vérification, reportez-vous aux détails de cet article, en particulier aux sections suivantes:
+
+    - Étapes de migration (cette section)
+    - Matrice de fonctionnalités des services basés sur le Cloud ExchUMO et Azure
+    - Impact de l’utilisation de l’utilisateur
+
+    Notez qu’en optant pour une migration gérée, vous ne recevrez pas de notification de 30 jours avant la migration dans le centre de messages du portail d’administration 365 Microsoft.
+ 
+    Pour participer à une migration planifiée, envoyez une demande de message électronique à [CVM@microsoft.com](mailto:cvm@microsoft.com)en utilisant l’adresse de messagerie de l’administrateur, en incluant les informations suivantes:
+
+    - Date préférée (mardi): les ondulations de migration sont exécutées tous les mardis. Merci de sélectionner une date au-delà de 12/3/2019.
+ 
+    - ID de locataire: numéro de 32 caractères au format 0046728c-688a-4472-a38f-098fec60ac6x. Vous pouvez trouver votre ID de locataire dans le portail d’administration Microsoft 365 sous Azure Active Directory ou en exécutant l’applet de commande PowerShell suivante:`Get-CsTenant | Select ObjectId`
+ 
+    Vous recevrez un message électronique de confirmation une fois votre client migré. 
 
 ## <a name="appendix"></a>A
 
-### <a name="exchumo-and-azure-cloud-based-services-feature-matrix"></a>Matrice de fonctionnalités des services basés sur le Cloud ExchUMO et Azure 
-
-
-
+### <a name="exchumo-and-azure-cloud-based-services-feature-matrix"></a>Matrice de fonctionnalités des services basés sur le Cloud ExchUMO et Azure
 
 | Service | Niveau de fonctionnalité | Fonctionnalité | Notes  | Cloud VM/AA  | ExUMO |
 |---------|-------|--------|----|--------|------|
 | Virtual  | Fonctionnalités de service| Prise en charge du PBX tiers    | Incluant toutes les fonctionnalités proposées au PBX tiers, telles que MWI (indicateur d’attente de messages) avec les messages SIP Notify d’Exchange UM en ligne | N   | O    |
-| Virtual | Fonctionnalités de service  | Prise en charge de Skype entreprise Server   |  | O | Y    |
+| Virtual | Fonctionnalités de service  | Prise en charge de Skype entreprise Server   |  | Y | Y    |
 | Virtual | Fonctionnalités de service | Prise en charge de Microsoft teams|  | O | N    |
 | Virtual | Fonctionnalités de service | Découverte électronique et conservation  | Sécurité et conformité  | Y | Y    |
 | Virtual | Fonctionnalités de service | Prise en charge des règles Exchange | Sécurité et conformité  | Y | Y    |
@@ -113,8 +123,8 @@ Microsoft a identifié de nombreux déploiements de clients qui utilisent des fo
 | Virtual | Fonctionnalités utilisateur | Paramètre d’utilisateur pour désactiver la transcription |  | N | O    |
 | Virtual | Fonctionnalités utilisateur | Fidélité  |  | Y | Y    |
 | Virtual | Fonctionnalités utilisateur | Messagerie vocale visuelle sur tous les points de terminaison   | Avec contrôle utilisateur pour lire, supprimer, indicateur d’attente de messages et activation/désactivation de l’État, sur tous les points de terminaison pris en charge  | Y | Y    |
-| Virtual | Fonctionnalités utilisateur | Format de fichier audio MP3 dans Outlook    |  | Y | Y    |
-| Virtual | Fonctionnalités utilisateur | Contrôle de lecture à vitesse variable |  | Y | Y    |
+| Virtual | Fonctionnalités utilisateur | Format de fichier audio MP3 dans Outlook    |  | O | Y    |
+| Virtual | Fonctionnalités utilisateur | Contrôle de lecture à vitesse variable |  | O | Y    |
 | Virtual | Fonctionnalités utilisateur | Transférer un message vocal  | Transférer un message vocal reçu à d’autres utilisateurs | O | Y    |
 | Virtual | Fonctionnalités utilisateur | Envoyer un message vocal à un groupe d’utilisateurs  |Diffusion de la boîte vocale   | N | O   |
 | Virtual | Fonctionnalités utilisateur | Notification de la boîte vocale par SMS    | Les utilisateurs peuvent recevoir un SMS s’ils ont un nouveau message vocal    | N | O    |
@@ -131,7 +141,7 @@ Microsoft a identifié de nombreux déploiements de clients qui utilisent des fo
 | Virtual | Client-fonctionnalités d’administration | Changer le délai de détection du silence    |  | S/O    | Y    |
 | Virtual | Client-fonctionnalités d’administration | Changer le nombre d’échecs d’entrée | CVM: préprogrammé sur 3 | N | O    |
 | Virtual | Client-fonctionnalités d’administration | Changer la langue par défaut |  | O | Y    |
-| Virtual | Client-fonctionnalités d’administration | Activer/désactiver la transcription |  | O | Y    |
+| Virtual | Client-fonctionnalités d’administration | Activer/désactiver la transcription |  | Y | Y    |
 | Virtual | Client-fonctionnalités d’administration | Activer/désactiver les notifications d’appel manqué |  | N | O    |
 | Virtual | Client-fonctionnalités d’administration | Aider Microsoft à améliorer l’aperçu de messagerie vocale    |  | Y | Y    |
 | Virtual | Client-fonctionnalités d’administration | Personnaliser un message texte pour les utilisateurs activés|  | S/O    | Y    |
@@ -162,8 +172,6 @@ Microsoft a identifié de nombreux déploiements de clients qui utilisent des fo
 | INFORMATISÉ | Client-fonctionnalités d’administration | Cmdlets PowerShell  |  | Y | Y    |
 | DelrinaFax| Fonctionnalités de service | Intégration de télécopie|  | N | O    |
 
-
-
 ### <a name="suggested-test-plan-and-post-migration-validation-for-admins"></a>Plan de test et validation après migration suggérées pour les administrateurs
 
 Lors du test de la fonctionnalité de messagerie vocale après la migration de vos utilisateurs, assurez-vous de prendre en compte les scénarios suivants:
@@ -173,7 +181,6 @@ Lors du test de la fonctionnalité de messagerie vocale après la migration de v
 - Si votre organisation a un besoin légal ou de conformité pour désactiver la transcription pour les utilisateurs, assurez-vous qu’elle est désactivée après la migration. Pour plus d’informations, consultez la rubrique [configurer la messagerie vocale Cloud](/microsoftteams/set-up-phone-system-voicemail).
 - Si vous avez déjà configuré des stratégies et des règles d’ordinateur virtuel Exchange, vérifiez qu’elles sont efficaces.
 - Familiarisez-vous avec les cmdlets PowerShell du service de boîte vocale Cloud pour modifier les paramètres de l’utilisateur.  
-
 
 ### <a name="user-experience-impact"></a>Impact de l’utilisation de l’utilisateur
 

@@ -10,31 +10,31 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Découvrez comment prendre en charge l’activation à grande échelle des équipes de votre organisation.
+description: Découvrez comment prendre en charge l’activation à grande échelle des équipes pour votre organisation.
 ms.custom: Adopt
 MS.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b5f53d17f882b8de1066a7622cc258ae21cf3887
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3f9556338bba030ccefcd61f3bbdd9e3a4c56af2
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930411"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494090"
 ---
 # <a name="microsoft-teams-adoption-phase-3---scale"></a>Phase 3 de l’adoption de Microsoft Teams - Mettre à l’échelle
 
-Durant cette phase, vous utiliserez appris, votre équipe de projet talentueux et des relations avec les parties prenantes, les champions et les premiers pour prendre en charge l’activation à grande échelle des équipes de votre organisation. Vous allez effectuer les étapes suivantes lorsque vous préparez pour engagement commerciale continue concernant votre utilisation des organisations de Teams Microsoft :
+Au cours de cette phase, vous allez utiliser vos connaissances, votre équipe de projet douée et vos relations avec les parties prenantes, les champions et les premiers décideurs pour soutenir une large gamme d’équipes au sein de votre organisation. Suivez les étapes ci-dessous pour vous préparer à la poursuite de l’engagement pour les entreprises concernant l’utilisation de Microsoft teams:
 
-1. Définir les objectifs et des mesures de réussite.
-2. Sélectionnez la stratégie de service.
-3. Impliquer des parties prenantes.
+1. Définir des résultats et des mesures de réussite.
+2. Sélectionnez stratégie de service.
+3. Faire appel aux parties prenantes.
 4. Concevoir et lancer une campagne de sensibilisation.
 5. Concevoir et lancer un programme de formation.
 6. Comprendre les outils de création de rapports.
-7. Préparer d’engagement en cours.
-8. Préparer des révisions de service en cours d’intégrité & d’adoption.
+7. Préparez-vous à l’engagement professionnel.
+8. Préparez-vous à des avis d’adoption de & d’état de service permanents.
 
-![Icône d’étapes suivante](media/teams-adoption-next-icon.png) suivant : [Réussite et les résultats de la définition](teams-adoption-define-outcomes.md)
+![Une icône représentant la prochaine étape](media/teams-adoption-next-icon.png) suivante: [définir les résultats et réussite](teams-adoption-define-outcomes.md)

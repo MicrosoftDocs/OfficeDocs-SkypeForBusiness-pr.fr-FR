@@ -10,94 +10,94 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Déterminez si votre organisation est prête pour la transition vers les équipes.
+description: Déterminez si votre organisation est prête pour la transition vers Teams.
 ms.custom: Adopt
 MS.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 490d08a6be547ca0a6bcbde73b202d4362a8c46b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0ee28253c214cedead827b8e2a077372b0523f6a
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33896308"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548915"
 ---
 # <a name="how-ready-is-your-organization-for-microsoft-teams"></a>Votre organisation est-elle prête pour Microsoft Teams ?
 
-Maintenant que votre équipe de projet a se retrouvent et que vous commencez à voir que les équipes peuvent faire pour votre organisation, il est important évaluer la préparation de votre organisation pour la transition entre les équipes. Pour évaluer votre disponibilité, vous devez :
+À présent que votre équipe de projet est en train de se réunir et que vous vous apprêtez à découvrir ce que teams peut faire pour votre organisation, il est important d’évaluer la préparation de votre organisation à la transition Teams. Pour évaluer votre disponibilité, vous devez:
 
-1. Évaluer les parties prenantes.
-2. Identifier les premiers.
-3. Évaluer la préparation de l’organisation pour modification. 
+1. Évaluez vos parties prenantes.
+2. Identifiez les premiers décideurs.
+3. Évaluez la disponibilité de l’Organisation pour le changement. 
 
 ## <a name="assess-your-stakeholders"></a>Évaluer les parties prenantes
 
-Liste les parties prenantes principaux dirigeants d’entreprise dans votre organisation. Pour chaque personne, posez-vous les questions suivantes :
+Répertorier les principales parties prenantes et leaders du marché au sein de votre organisation. Pour chaque individu, posez-vous les questions suivantes:
  
-1. Cet organisateur est convivial pour la nouvelle technologie ?
-2. Taux de satisfaction de ce responsable avec votre technologie actuelle.
-3. Cet organisateur est prêt à utiliser la technologie non sanctionnée pour accélérer les résultats ou créer une meilleure expérience pour ses membres de l’équipe ?
-4. Est cette leader sous un niveau élevé de pression pour fournir des résultats commerciaux clés ? 
-5. Cet organisateur seront prêt à faire connaître son expérience avec les équipes pour faciliter la transition ?
-6. Cet organisateur a-t-il une relation positive avec les membres de l’équipe de projet existant
-7. Cet organisateur aime être considéré comme un « agent de modification » au sein de l’organisation ?  
+1. Ce leader est-il agréable vers une nouvelle technologie?
+2. Évaluez la satisfaction de ce leader avec votre technologie actuelle.
+3. Est-ce que ce numéro a disposé à utiliser une technologie sans sanction pour accélérer les résultats ou créer une meilleure expérience pour ses membres d’équipe?
+4. S’agit-il d’un haut niveau de pression pour vous permettre de générer des résultats clés pour les entreprises? 
+5. Ce leader sera-t-il disposé à faire connaître son expertise aux équipes pour faciliter la transition?
+6. Ce leader a-t-il une relation positive avec les membres clés de l’équipe de projet existante?
+7. Est-ce que ce leader doit être affiché comme un «agent de changement» au sein de l’Organisation?  
 
-Vous pouvez ajouter des questions supplémentaires qui sont pertinentes pour votre organisation. Pour votre initial deux phases (démarrage et expérience), vous verrez les dirigeants qui sont convivial modifier, réponses plutôt insatisfait avec la technologie actuelle et que vous avez une bonne relation avec. Ces responsables doivent être inclus dans l’équipe de projet principale en tant que conseillers business et peuvent avoir les projets qui sont essentielles pour la phase d’expérimentation. Il est important de sélectionner des situations efficaces, real world expérimenter et éviter les projets à risque pour vos expériences initiales.
+Vous pouvez ajouter des questions pertinentes à votre organisation. Pour les deux premières phases de démarrage et d’expérimentation, vous verrez des points de suite qui peuvent être modifiés, d’une façon qui n’est pas satisfaite avec la technologie actuelle et dont vous avez une bonne relation avec. Ces points de suite doivent être intégrés à l’équipe de projet principale en tant que conseillers d’entreprise et peuvent présenter des projets qui seront nécessaires à votre phase d’expérimentation. Il est important de sélectionner un impact sur les situations réelles d’expérimentation, de faire en sorte qu’il n’y ait pas d’expériences de niveau élevé.
    
 > [!NOTE]
-> S’il est possible d’assigner un score à ce type de questionnaire pour minimiser l’impact de l’élément humaine des relations au sein de votre organisation, avancer dépend de la chimie de l’équipe autant que leurs compétences techniques ou les affaires. Passez en revue cette liste avec les membres de votre équipe pour discuter de la « ajuster » de votre leaders différents avec ce projet lorsque vous sélectionnez projets et le personnel pour les phases suivantes. 
+> Même s’il est possible d’attribuer un score à ce type de questionnaire qui réduirait l’impact de l’élément humain des relations au sein de votre organisation, le changement d’équipe dépend de la chimie de l’équipe aussi bien que de ses compétences techniques ou son opinion professionnelle. Reportez-vous à la liste des membres de votre équipe pour discuter du «ajuster» de vos divers leaders grâce à ce projet lorsque vous sélectionnez des projets et du personnel pour les phases suivantes. 
 
-## <a name="identify-early-adopters"></a>Identifier les premiers
+## <a name="identify-early-adopters"></a>Identifier les premiers décideurs
 
-Premiers partagent certaines caractéristiques quel que soit le rôle taille ou un secteur d’activité votre organisation peut être. En règle générale, premiers partagent les caractéristiques suivantes :
+Les premiers décideurs partagent certaines caractéristiques, quelle que soit la taille de votre organisation ou son secteur d’activité. En règle générale, les premiers décideurs partagent les caractéristiques suivantes:
 
 - Intéressé par la technologie
-- Disposé à faire partie de modification
-- Recherche d’apporter des améliorations
+- Disposé à faire partie de la modification
+- Chercher à apporter des améliorations
 - Collaboration par nature
-- Disposé à partager leurs connaissances et leurs observations avec le groupe
-- Sont responsables risque ; Autrement dit, ils sont prêts à essayer quelque chose pour voir si elle fonctionne.
+- Je souhaite partager ses observations et leurs connaissances avec le groupe
+- Sont des préféreront de risques; c’est-à-dire qu’il est disposé d’essayer d’autres éléments pour voir s’il fonctionne
 
-Utilisez un formulaire simple dans Office 365 pour permettre à ces personnes à choisir dans votre programme pour premiers utilisateurs pour les équipes. Selon la taille et la complexité de votre organisation, vous pouvez choisir activer tout ou partie de ces personnes pour la phase d’expérimentation. Dans ce programme, ils sont en acceptant activement participer à la phase d’expérimentation et fournir des commentaires à l’équipe de projet. Éviter d’avoir des personnes que vous souhaitez simplement tester la nouvelle technologie de lecteur. Faites-leur savoir qu’en attribuant à ces commentaires active, ils aident à concevoir le résultat de votre projet. Vous allez utiliser cette liste de personnes dans la [Phase 2 : tester](teams-adoption-phase2-experiment.md).
+Utilisez un formulaire simple dans Office 365 pour permettre à ces utilisateurs de participer à votre programme d’adoption initiale pour Teams. Selon la taille et la complexité de votre organisation, il est possible que vous choisissiez d’activer tout ou partie de ces personnes pour la phase d’expérimentation. Dans ce programme, il accepte de participer activement à la phase d’expérimentation et de fournir régulièrement des commentaires à l’équipe de projet. N’emportez pas de personnes souhaitant simplement tester une nouvelle technologie. Informez-les qu’il est en train d’apporter ce commentaire actif et nous aidons à mettre en avant les résultats de votre projet. Vous pouvez utiliser cette liste de personnes dans la [phase 2-expérimentation](teams-adoption-phase2-experiment.md).
 
-Notre Guide de programme premiers au plus tôt est une ressource utile pour lancer ce programme dans votre environnement.  
+Notre guide du programme des premiers conseils est une ressource utile pour le lancement de ce programme dans votre environnement.  
  
-## <a name="assess-your-organizations-readiness-for-change"></a>Évaluer la préparation de votre organisation pour modification
+## <a name="assess-your-organizations-readiness-for-change"></a>Évaluez la disponibilité de votre organisation au changement.
 
-Modification est un processus humain qui a rien à voir avec la technologie. Il existe psychologie comportement et neuroscience qui nous formation sur la résistance naturelle à modifier. Pour modifier acceptables, il est essentiel de prévoir les besoins de vos utilisateurs, express votre présentation de leur situation et créer des solutions qui améliorent la situation. Même en procédant ainsi, vous rencontrerez résistance naturelle à modifier.  
+Le changement est une opération humaine qui ne fait aucune action avec la technologie. Il existe une psychologie du comportement et le neurosciences qui nous informent la résistance naturelle. Pour apporter des modifications acceptables, il est essentiel de prévoir les besoins de vos utilisateurs, de formuler une connaissance de leur situation et de créer des solutions qui améliorent cette situation. Même dans ce cas, vous rencontrerez une résistance naturelle.  
 
-![Résistance à modifier](media/teams-adoption-resistance.png)
+![Graphique illustrant la résistance au changement](media/teams-adoption-resistance.png)
 
-Chaque organisation approches modification différemment, en fonction de la région, de travailler, profil professionnel et autres éléments de l’organisation. Pour évaluer la préparation de votre organisation, voir [Assess d’organisation préparation](upgrade-org-change-readiness.md). Utilisez les instructions pour répondre aux questions suivantes :
+Chaque organisation a une approche différente selon la région, le style de bureau, le profil professionnel et d’autres éléments de l’organisation. Pour évaluer la compatibilité de votre organisation, voir [évaluer la disponibilité](upgrade-org-change-readiness.md)de l’organisation. Utilisez les instructions pour répondre aux questions suivantes:
 
-1. Quel pourcentage d’utilisateurs peuvent être classées dans chaque compartiment ? (*Résistance de modification*)
-    - **Premiers**: demander la solution avant qu’il soit disponible.
-    - **Les utilisateurs**: utilisation de la solution une fois la preuve de sa valeur.
-    - **Dissenters**: push sur toute modification.
+1. Quel pourcentage d’utilisateurs tombe dans chaque intervalle? (La*résistance du changement*)
+    - **Premiers décideurs**: demandez la solution avant qu’elle ne soit disponible.
+    - **Utilisateurs éclairés**: utilisez la solution lorsque sa valeur est prouvée.
+    - **Destinataires**: renvoi de la modification.
     
    > [!TIP]
-   > Premiers excellent testeurs pilotes et les champions de l’homologue. Les utilisateurs qui sont lentes d’adopter les nouveaux outils nécessitent encourager supplémentaire et plus de temps à ajuster. 
+   > Les premiers décideurs de tests pilote et de champions d’égal. Les utilisateurs lents à adopter de nouveaux outils nécessitent une promotion supplémentaire et plus de temps pour s’ajuster. 
 
-2. What ' s compétence utilisateurs changement ? (*Formation*)
-    - **Self Démarreurs** nécessitent uniquement une liaison vers une vidéo.
-    - **Générateurs de l’équipe** faire également avec la formation de groupes.
-    - **Conversation stagiaires** nécessitent un support personnel.
+2. Quels sont les changements de compétences des utilisateurs? (*Formation*)
+    - Les **démarrages automatiques** ne nécessitent qu’un lien vers une vidéo.
+    - Les intégrateurs d' **équipes** disposent bien d’une formation de groupe.
+    - **Les stagiaires les plus** exigeront une assistance personnelle.
 
     > [!TIP]
-    > Personnaliser le type et la quantité de formation pour les compétences et les personnages. Conserver la formation de mise à jour en tant que de nouvelles fonctionnalités en ligne.
+    > Adapter le type et la quantité de formations aux compétences et aux personnages. Suivez la formation mise à jour lorsque de nouvelles fonctionnalités sont disponibles en ligne.
 
-3. En plus de ce déploiement de service, le nombre de modifications se produisent ? (*Adaptabilité*) <br/>Modifications peuvent inclure Office/Windows mises à niveau, bureaux, fusions, reorgs et ainsi de suite.
+3. Outre le déploiement de ce service, combien d’autres changements se produisent? (Capacité d'*adaptation*) <br/>Les modifications peuvent être apportées aux mises à jour d’Office et Windows, aux déplacements d’Office, aux fusions, reorgs, etc.
     - Aucun
-    - modifications de 1 à 3
-    - Modifications de plus de 3
+    - 1-3 modifications
+    - Plus de 3 modifications
  
     > [!TIP] 
-    > Trop de modifications peuvent nuire acceptation et la productivité. Si plus de 3 modifications sont en cours, pensez à leur espacement ou création d’un thème pour regrouper change ensemble.  
+    > Le changement excessif peut entraver l’acceptation et la productivité. S’il existe plus de 3 modifications, envisagez de les écarter ou de créer un thème pour regrouper les modifications.  
 
-Combiner ces données avec les profils des parties prenantes et les employés qui souhaitent participer pour le programme pour premiers utilisateurs. Vous pouvez identifier les groupes qui sont prêts pour et peuvent absorber modification ainsi que leurs tâches en cours. Cette méthode permet de créer des partenaires de modification.
+Combinez ces données avec les profils de parties prenantes et les employés souhaitant participer au programme du plus ancien. Cela vous permet d’identifier les groupes qui sont prêts pour la modification et peut absorber le changement parallèlement à leurs devoirs. Cette méthode vous permettra de créer des partenaires en modification.
 
-Vous pouvez utiliser champions internes pour résoudre le problème de modification de différents types. Ici, commentaires sont la clé du succès : encourager les utilisateurs à partager leurs défis et leurs besoins. Tenez compte endocriniens et dissenters en donnant à ces personnes ou groupes un siège à la table au cours de l’expérimentation. Cette méthode conseillée ouvrira la voie pour un déploiement Plu large des améliorations apportées à votre collaboration.  
+Vous pouvez utiliser des champions internes pour résoudre le problème lié à l’utilisation de différents types de modifications. Ici, les commentaires sont la clé de réussite: encourager les utilisateurs à partager leurs défis et leurs besoins. Englober les dépassements et les dépassements en donnant à ces personnes ou à un siège au tableau lors de l’expérimentation. Cette meilleure pratique va préparer le déploiement de vos améliorations en matière de collaboration.  
 
-![Icône d’étapes suivante](media/teams-adoption-next-icon.png) suivant : [phase d’adoption Microsoft Teams 2 : expérience](teams-adoption-phase2-experiment.md) 
+![Une icône représentant l’étape](media/teams-adoption-next-icon.png) suivante, à la suite de la [phase 2 de Microsoft teams: expérimentation](teams-adoption-phase2-experiment.md) 

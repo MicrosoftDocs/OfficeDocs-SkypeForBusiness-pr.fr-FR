@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Découvrez comment afficher la liste de tous les numéros de téléphone de votre organisation, tous les numéros attribués aux utilisateurs et tous les numéros attribués aux utilisateurs vocaux dans le centre d’administration Skype entreprise.
-ms.openlocfilehash: 9682e0473932337734828a13cf75a8c77e622938
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 33fc51206370c337bea849fac4d1bfa1ed37da56
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280467"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34493905"
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>Affichage de la liste des numéros de téléphone de votre organisation
 
@@ -34,7 +34,7 @@ Il existe différents types de numéros de téléphone que vous pouvez affecter 
   
 ## <a name="to-see-a-list-of-all-phone-numbers-that-you-have-for-your-organization"></a>Pour obtenir une liste des numéros de téléphone disponibles pour votre organisation
 
-![SFB-logo-30x30. png](../images/sfb-logo-30x30.png) **à l’aide du centre d’administration Skype entreprise**
+![Icône illustrant le logo](../images/sfb-logo-30x30.png) Skype entreprise **dans le centre d’administration Skype entreprise**
 
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
@@ -64,7 +64,7 @@ Il existe différents types de numéros de téléphone que vous pouvez affecter 
     
 ## <a name="to-see-all-of-the-phone-numbers-that-are-assigned-to-users"></a>Pour afficher tous les numéros de téléphone affectés aux utilisateurs
 
-![SFB-logo-30x30. png](../images/sfb-logo-30x30.png) **à l’aide du centre d’administration Skype entreprise**
+![Icône illustrant le logo](../images/sfb-logo-30x30.png) Skype entreprise **dans le centre d’administration Skype entreprise**
 
 
 Lorsque vous configurez des utilisateurs, vous voudrez peut-être afficher uniquement les numéros de téléphone déjà affectés à des utilisateurs et ceux qui peuvent leur être affectés.
@@ -88,7 +88,7 @@ Lorsque vous configurez des utilisateurs, vous voudrez peut-être afficher uniqu
     
 ## <a name="to-see-the-phone-numbers-that-are-assigned-to-voice-users"></a>Pour afficher les numéros de téléphone affectés aux utilisateurs Voix
 
-![SFB-logo-30x30. png](../images/sfb-logo-30x30.png) **à l’aide du centre d’administration Skype entreprise**
+![Icône illustrant le logo](../images/sfb-logo-30x30.png) Skype entreprise **dans le centre d’administration Skype entreprise**
 
 
 Lorsque vous configurez des utilisateurs de votre organisation pour passer et recevoir des appels, vous devez d'abord obtenir les numéros de téléphone, puis les affecter aux utilisateurs. Une fois les numéros de téléphone obtenus, vous voudrez peut-être afficher uniquement la liste des numéros affectés aux utilisateurs, les numéros non affectés et savoir si les utilisateurs sont hébergés en ligne ou sur site.

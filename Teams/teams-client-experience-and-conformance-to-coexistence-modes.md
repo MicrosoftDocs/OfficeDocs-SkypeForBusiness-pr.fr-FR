@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: bjwhalen
-description: Équipes de l’expérience client et comformance aux modes de coexistence
+description: Découverte et transformation du client teams en modes de coexistence
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
@@ -15,65 +15,65 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 91a67c7fb9afb5633494815129d141d5a08708d4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 08bc09ac316a41dfe7ff39bc741dbaa514f30044
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930341"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548652"
 ---
 <a name="about-upgrade-basic"></a>
 
 # <a name="teams-client-experience-and-conformance-to-coexistence-modes"></a>Expérience client Teams et conformité aux modes coexistence
 
 > [!NOTE]
-> Cette page décrit les modifications importantes, récemment publiées dans le comportement du client équipes lorsque vous êtes dans une de le Skype pour les modes d’entreprise (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings).
+> Cette page décrit les modifications importantes apportées récemment au comportement du client teams lorsque les utilisateurs travaillent dans l’un des modes Skype entreprise (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings).
 
 
-L’objectif des modes de coexistence est de fournir une expérience prévisible simple pour les utilisateurs finaux en tant que la transition des organisations de Skype pour les entreprises aux équipes.  Pour une organisation déplacement aux équipes, le mode TeamsOnly est la destination finale pour chaque utilisateur, même si tous les utilisateurs ne doivent être attribués TeamsOnly (ou tout autre mode) en même temps.  Avant d’atteindre le mode TeamsOnly des utilisateurs, organisations peuvent utiliser de la Skype pour les modes d’entreprise (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings) pour assurer la communication entre les utilisateurs qui sont TeamsOnly et ceux qui ne sont pas encore prévisible. 
+Le mode de coexistence est d’offrir une utilisation simple et prévisible aux utilisateurs finaux dans le cadre de la transition de Skype entreprise à Teams.  Dans le cas d’une organisation migrant vers Teams, le mode TeamsOnly est la destination finale de chaque utilisateur, mais tous les utilisateurs ne doivent pas avoir besoin d’être TeamsOnly (ou n’importe quel autre mode) en même temps.  Dans le cas où les utilisateurs accèdent au mode TeamsOnly, les organisations peuvent utiliser n’importe quel mode Skype entreprise (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings) pour garantir une communication prévisible entre les utilisateurs TeamsOnly et ceux qui ne le sont pas encore. 
 
-Lorsqu’un utilisateur est dans un de la Skype pour les modes d’entreprise, toutes les conversations entrantes et les appels sont routés vers Skype l’utilisateur pour client d’entreprise. Pour éviter toute confusion d’utilisateur final et garantir un routage correct, les fonctionnalités d’appel et de conversation dans le client d’équipes sont désactivée lorsqu’un utilisateur est dans un de la Skype pour les modes d’entreprise. De même, planifier des réunions dans les équipes est désactivé lorsque vous êtes dans les modes SfBOnly ou SfBWithTeamsCollab et explicitement activée lorsqu’un utilisateur est en mode SfBWithTeamsCollabAndMeetings.   
+Lorsque l’utilisateur se trouve dans l’un des modes Skype entreprise, toutes les conversations et tous les appels entrants sont acheminés vers le client Skype entreprise de l’utilisateur. Afin d’éviter la confusion des utilisateurs finaux et de veiller à ce que le routage, les appels et les discussions appropriés dans le client teams soient désactivés lorsqu’un utilisateur se trouve dans l’un des modes Skype entreprise. De la même façon, la planification de réunions en équipes est désactivée explicitement lorsque les utilisateurs se trouvent dans les modes SfBOnly ou SfBWithTeamsCollab, et activés de manière explicite lorsqu’un utilisateur est en mode SfBWithTeamsCollabAndMeetings.   
 
-## <a name="how-the-available-functionality-in-teams-client-changes-based-on-mode"></a>Comment les fonctionnalités disponibles dans le client équipes changent selon le mode
-Les fonctionnalités disponibles dans les équipes dépendent de mode de coexistence de l’utilisateur, tel que défini par TeamsUpgradePolicy. Le tableau ci-dessous résume le comportement :
+## <a name="how-the-available-functionality-in-teams-client-changes-based-on-mode"></a>Comment les fonctionnalités disponibles dans teams client changent en fonction du mode
+Les fonctionnalités disponibles dans teams dépendent du mode de coexistence de l’utilisateur, tel qu’il est défini par TeamsUpgradePolicy. Le tableau ci-dessous résume le comportement:
 
-|Mode efficace de l’utilisateur|Expérience client d’équipes|
+|Mode d’efficacité de l’utilisateur|Découvrir le client Microsoft teams|
 |---|---|
-|N’importe quel Skype pour le mode d’entreprise|Appel et conversation sont désactivées.|
-|SfBWithTeamsCollabAndMeetings|Planification de la réunion est disponible|
-|SfBWithTeamsCollab ou SfBOnly<sup>1</sup>|Planification de la réunion n’est pas disponible|
+|Tout mode Skype entreprise|Les appels et les discussions sont désactivés.|
+|SfBWithTeamsCollabAndMeetings|La planification de réunion est disponible|
+|SfBWithTeamsCollab ou SfBOnly<sup>1</sup>|La planification de la réunion n’est pas disponible|
 |||
 
-Les captures d’écran suivantes illustrent la différence entre le mode TeamsOnly ou (îles) et tous les autres modes. Notez que les icônes de conversation et d’appel sont disponibles avec TeamsOnly ou (îles) mode (capture d’écran de gauche), mais pas avec les autres modes (capture d’écran droite) :
+Les captures d’écran ci-dessous illustrent la différence entre le mode TeamsOnly ou le mode îlot et tous les autres modes. Notez que les icônes de discussion et d’appels sont disponibles en mode TeamsOnly ou îlots (capture de la gauche), mais pas avec les autres modes (capture d’écran de droite):
 
-![Affiche les comparaisons de mode d’équipes](media/teams-mode-comparison.png)
+![Comparaison côte à côte des modes d’équipe](media/teams-mode-comparison.png)
 
 
  
-**Remarque :**
-<sup>1</sup> pour l’instant, SfBwithTeamsCollab et SfBOnly ont le même comportement, mais le but est pour le mode SfBOnly également désactiver la fonctionnalité de canaux et les fichiers dans les équipes ; Toutefois, il n’existe actuellement aucun paramètre qui permet cette fonctionnalité dans les équipes à désactiver.
+**Remarque:**
+<sup>1</sup> pour le moment, SfBwithTeamsCollab et SfBOnly se comportent de la même façon, mais l’intention est pour le mode SfBOnly de désactiver également les fonctionnalités canaux et fichiers dans Teams. en revanche, il n’existe actuellement aucun paramètre permettant de désactiver cette fonctionnalité dans Teams.
 
 
-## <a name="impact-of-mode-on-other-policy-settings"></a>Impact du Mode d’autres paramètres de stratégie
-Comme indiqué ci-dessus, l’impact de l’utilisateur coexistence en mode fonctionnalité est disponible dans le client de l’utilisateur aux équipes. Cela signifie que la valeur de mode a priorité sur la valeur d’autres paramètres de stratégie, selon le mode. Plus précisément, de cohabitation a un impact sur si les paramètres de stratégie suivants sont respectés :
+## <a name="impact-of-mode-on-other-policy-settings"></a>Impact du mode sur les autres paramètres de stratégie
+Comme décrit ci-dessus, les fonctionnalités du mode de coexistence d’un utilisateur sont celles disponibles dans le client teams de l’utilisateur. Cela signifie que la valeur du mode peut être prioritaire par rapport à d’autres paramètres de stratégie, en fonction du mode. Plus précisément, le mode de coexistence a un impact sur le respect des paramètres de stratégie suivants:
 
-|**Modalité (application)**|**Policy.Setting**|
+|**Modalité (application)**|**Policy. Setting**|
 |---|---|
 |Conversation|TeamsMessagingPolicy.AllowUserChat|
 |Appels|TeamsCallingPolicy.AllowPrivateCalling|
-|Planification de la réunion|TeamsMeetingPolicy.AllowPrivateMeetingScheduling</br>TeamsMeetingPolicy.AllowChannelMeetingScheduling|
+|Planification de réunions|TeamsMeetingPolicy.AllowPrivateMeetingScheduling</br>TeamsMeetingPolicy.AllowChannelMeetingScheduling|
 |||
 
-Les administrateurs doivent *pas* explicitement définies avant de ces paramètres de stratégie à l’aide du mode de coexistence, mais il est important de comprendre que ces paramètres efficacement se comportent comme suit pour un mode donné. 
+Les administrateurs ont besoin de *ne pas* définir explicitement ces paramètres de stratégie lors de l’utilisation du mode de coexistence, mais il est important de se familiariser avec ces paramètres comme suit pour un mode donné. 
 
-|Mode|AllowUserChat|AllowPrivateCalling|AllowPrivateMeetingScheduling|AllowChannelMeetingScheduling|
+|Veille|AllowUserChat|AllowPrivateCalling|AllowPrivateMeetingScheduling|AllowChannelMeetingScheduling|
 |---|---|---|---|---|
-|TeamsOnly ou (îles)|Activé|Activé|Activé|Activé|
+|TeamsOnly ou îles|Activé|Activé|Activé|Activé|
 |SfBWithTeamsCollabAndMeetings|Désactivé|Désactivé|Activé|Activé|
 |SfBWithTeamsCollab ou SfBOnly|Désactivé|Désactivé|Désactivé|Désactivé|
 ||||||
 
-Lors de l’utilisation de PowerShell, la `Grant-CsTeamsUpgradePolicy` cmdlet vérifie la configuration des paramètres correspondants dans TeamsMessagingPolicy, TeamsCallingPolicy et TeamsMeetingPolicy pour déterminer si ces paramètres doit être remplacés par TeamsUpgradePolicy et dans ce cas, un message d’information est fournie dans PowerShell.  Comme mentionné ci-dessus, n’est plus nécessaire de définir les autres paramètres de stratégie. Voici un exemple de quel l’avertissement PowerShell ressemble à :
+Lors de l’utilisation de `Grant-CsTeamsUpgradePolicy` PowerShell, l’applet de contrôle vérifie la configuration des paramètres correspondants dans TeamsMessagingPolicy, TeamsCallingPolicy et TeamsMeetingPolicy pour déterminer si ces paramètres sont remplacés par TeamsUpgradePolicy et, si tel est le cas, un le message d’information est fourni dans PowerShell.  Comme indiqué plus haut, il n’est plus nécessaire de définir les autres paramètres de stratégie. Vous trouverez ci-dessous un exemple d’avertissement dans PowerShell:
 
 `Grant-CsTeamsUpgradePolicy -Identity user1@contoso.com -PolicyName SfBWithTeamsCollab`
 

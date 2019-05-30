@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: de9092e9253ef93268d19fb8ff8e74261e4d44a1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 330b62bc98d4a45d8d6902707dd2ebb9fd031913
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33898579"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548277"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Préparer le réseau de votre organisation pour Microsoft Teams
 
@@ -36,9 +36,9 @@ Teams associe trois types de trafic :
 Cela affecte le réseau sur deux niveaux : le trafic est acheminé entre les clients Microsoft Teams directement pour les communications P2P et le trafic est acheminé entre l'environnement Office 365 et les clients Microsoft Teams dans le cas des réunions. Pour assurer un flux optimal, le trafic doit pouvoir être acheminé à la fois entre les segments réseau (par ex. : entre des sites sur le réseau WAN) et entre les sites réseau et Office 365. Si les ports appropriés ne sont pas ouverts ou que des ports spécifiques sont activement bloqués, cela risque de dégrader la qualité de l'expérience.
 
 > [!NOTE]
-> Les réunions sont pris en charge sur iOS et Android appareils mobiles. 
+> Les réunions sont prises en charge sur les appareils mobiles iOS et Android. 
 
-Pour obtenir une expérience optimale avec support en temps réel dans Microsoft Teams, votre réseau doit satisfaire la configuration réseau requise pour Office 365. Pour plus d’informations, consultez la rubrique [Qualité des médias et performances de connectivité réseau dans Skype Entreprise Online](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance).
+Pour bénéficier d’une meilleure utilisation du contenu multimédia en temps réel au sein de Microsoft Teams, votre réseau doit respecter la configuration requise en matière de réseau pour Office 365. Pour plus d’informations, consultez la rubrique [Qualité des médias et performances de connectivité réseau dans Skype Entreprise Online](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance).
 
 Les deux segments réseau de définition (client vers Microsoft Edge et côté client vers Microsoft Edge) doivent respecter la configuration requise suivante.
 
@@ -46,26 +46,26 @@ Les deux segments réseau de définition (client vers Microsoft Edge et côté 
 |Valeur  |Client vers Microsoft Edge  |Périphérie client vers Microsoft Edge  |
 |:--- |:--- |:--- |
 |**Latence (unidirectionnelle)**\*  |< 50 ms          |< 30 ms         |
-|**Latence (durée aller-retour ou temps d’aller-retour)**\* |< 100 ms   |< 60 ms |
+|**Latence (RTT ou durée de l’aller-retour)**\* |< 100 ms   |< 60 ms |
 |**Perte de paquets en rafale**    |< 10 % sur un intervalle de 200 ms         |< 1% sur un intervalle de 200 ms         |
 |**Perte de paquets**     |< 1 % sur un intervalle de 15 s          |< 0,1 % sur un intervalle de 15 s         |
 |**Gigue entre les arrivées de paquets**    |< 30 ms sur un intervalle de 15 s         |< 15 ms sur un intervalle de 15 s         |
 |**Réorganisation des paquets**    |< 0,05 % paquets désorganisés         |< 0,01% paquets désorganisés         |
 
-\*Les cibles de métrique latence supposent que votre entreprise ou les sites et les bords de Microsoft sont sur le même continent.
+\*Les cibles métriques de latence présupposent que le site ou les sites de votre entreprise et les bords Microsoft se trouvent sur le même continent.
 
-Connexion au site votre société et le bord du réseau Microsoft inclut premier accès tronçon réseau, qui peut être Wi-Fi ou une autre technologie sans fil.
+La connexion au site de votre entreprise avec le réseau de périmètre Microsoft inclut un accès réseau de premier saut, qui peut être WiFi ou une autre technologie sans fil.
 
-Les objectifs de performances réseau supposent que la bande passante appropriée et/ou de [planification QoS](QoS-in-Teams.md). En d’autres termes, les conditions s’appliquent directement à du trafic multimédia en temps réel équipes lorsque la connexion réseau est soumis à une charge maximale.
+Les cibles de performance réseau adoptent une planification de bande passante et/ou de [QoS](QoS-in-Teams.md)correcte. En d’autres termes, les exigences s’appliquent directement au trafic multimédia en temps réel lors de la connexion réseau.
 
-Pour tester les deux segments réseau, vous pouvez utiliser l' [Outil d’évaluation de réseau](https://go.microsoft.com/fwlink/?linkid=855799). Cet outil peut être déployé sur le client PC directement et sur un PC connecté à la périphérie du réseau client. L’outil comprend une documentation limitée, mais une documentation plue autour de l’utilisation de l’outil se trouvent ici : [Évaluation de préparation de réseau](https://go.microsoft.com/fwlink/?linkid=855800). En exécutant cette évaluation de préparation du réseau, vous pouvez valider la préparation de votre réseau d’exécuter des applications multimédia en temps réel, tels que Microsoft Teams.
+Pour tester les deux segments réseau, vous pouvez utiliser l' [outil d’évaluation du réseau](https://go.microsoft.com/fwlink/?linkid=855799). Cet outil peut être déployé sur le PC client directement et sur un PC connecté au bord du réseau du client. L’outil inclut une documentation limitée, mais une documentation plus approfondie sur l’utilisation de l’outil est disponible ici: [évaluation](https://go.microsoft.com/fwlink/?linkid=855800)de la disponibilité du réseau. L’exécution de cette analyse de préparation du réseau vous permet de valider la préparation de votre réseau pour exécuter des applications multimédias en temps réel, telles que Microsoft Teams.
 
 > [!NOTE]
-> Il s’agit de l’évaluation de préparation même réseau qui est recommandé d’exécuter pour les clients qui souhaitent pour déployer Skype pour les entreprises.
+> Il s’agit de la même évaluation de compatibilité réseau que celle qui est recommandée pour les clients souhaitant déployer Skype entreprise.
 
 
 ## <a name="bandwidth-requirements"></a>Bande passante requise
-Teams Microsoft offre les meilleures audio, vidéo et contenu expérience indépendamment de vos conditions réseau. Avec les codecs variables, média peut être négocié dans les environnements de bande passante limitée avec un impact minimal. Mais où la bande passante n’est pas un problème, une expérience peut être optimisée pour la qualité, y compris des résolution vidéo 1080p, jusqu'à 30 i/s pour la vidéo et 15 i/s pour le contenu et les paramètres audio haute fidélité.
+Microsoft teams vous offre la meilleure expérience audio, vidéo et de partage de contenu quelle que soit l’état de votre réseau. Grâce aux codecs variables, le média peut être négocié dans les environnements à bande passante limitée avec un impact minimal. Même si la bande passante n’est pas un problème, les expériences peuvent être optimisées en matière de qualité, y compris jusqu’à 1080p résolutions vidéo, jusqu’à 30 IPS pour la vidéo et 15fps pour le contenu et le son haute fidélité.
 
 [!INCLUDE [Bandwidth requirements](includes/bandwidth-requirements.md)]
 
@@ -88,38 +88,38 @@ The content you will find below can be used as supplemental background informati
 |**5 participant+ meeting**     |6 Mb         |1.5 Mb         |Client <> Office 365           |
 -->
 
-<a name="additional-network-considerations"></a>Considérations relatives au réseau supplémentaires
+<a name="additional-network-considerations"></a>Considérations relatives au réseau supplémentaire
 ---------------
 
-#### <a name="external-name-resolution"></a>Résolution de nom externe
+#### <a name="external-name-resolution"></a>Résolution de noms externes
 
-Assurez-vous que tous les ordinateurs clients exécutant les équipes client peuvent résoudre les requêtes DNS externes pour découvrir les services fournis par Office 365, et que votre pare-feu empêchent pas l’accès. Pour plus d’informations sur la configuration des ports de pare-feu, accédez à [Office 365 URL et plages d’adresses IP](office-365-urls-ip-address-ranges.md).
+Assurez-vous que tous les ordinateurs clients exécutant teams peuvent résoudre les requêtes DNS externes pour découvrir les services fournis par Office 365 et que vos pare-feu n’empêchent pas l’accès. Pour plus d’informations sur la configuration des ports de pare-feu, voir [URL et plages d’adresses IP Office 365](office-365-urls-ip-address-ranges.md).
 
-#### <a name="nat-pool-size"></a>Taille du Pool de NAT
+#### <a name="nat-pool-size"></a>Taille du pool NAT
 
-Lorsque plusieurs utilisateurs/périphériques accéder à Office 365 à l’aide de la traduction d’adresses réseau (NAT) ou la traduction d’adresse de Port (PAT), vous devez vous assurer que les périphériques derrière chaque adresse IP routable publiquement ne dépassent pas le nombre pris en charge.
+Lorsque plusieurs utilisateurs/appareils accèdent à Office 365 à l’aide de la traduction d’adresses réseau (NAT) ou de la traduction d’adresses de port (PAT), vous devez vous assurer que les périphériques cachés derrière chaque adresse IP routable publique ne dépassent pas le numéro pris en charge.
 
-Pour atténuer ce risque, assurez-vous adéquate des adresses IP publiques sont affectés aux pools de NAT pour éviter l’épuisement du port. Épuisement port entraînera interne aux utilisateurs et des périphériques de face problèmes lors de la connexion aux services Office 365. Pour plus d’informations, voir [prise en charge NAT avec Office 365](https://support.office.com/article/NAT-support-with-Office-365-170e96ea-d65d-4e51-acac-1de56abe39b9).
+Pour atténuer ce risque, assurez-vous que les adresses IP publiques appropriées sont affectées aux pools NAT pour empêcher l’épuisement du port. L’épuisement du port permettra aux utilisateurs finaux et aux appareils internes d’affronter de rencontrer des problèmes lors de la connexion aux services Office 365. Pour plus d’informations, voir [prise en charge NAT avec Office 365](https://support.office.com/article/NAT-support-with-Office-365-170e96ea-d65d-4e51-acac-1de56abe39b9).
 
-#### <a name="intrusion-detection-and-prevention-guidance"></a>**Détection d’intrusion et des conseils de prévention**
+#### <a name="intrusion-detection-and-prevention-guidance"></a>**Recommandations en matière de détection d’intrusion et de prévention**
 
-Si votre environnement comporte un système de prévention (intrusion) déployés pour un niveau supplémentaire de sécurité pour les connexions sortantes et/ou de détection d’Intrusion, vérifiez que tout le trafic à destination vers Office 365 URL autorisés.
+Si votre environnement dispose d’une détection d’intrusions et/ou d’un système de prévention (IDS/IPS) déployé pour une couche supplémentaire de sécurité pour les connexions sortantes, assurez-vous que tout le trafic lié aux URL d’Office 365 est affiché dans la zone d’autorisation.
 
-<a name="network-health-determination"></a>Détermination de l’intégrité de réseau
+<a name="network-health-determination"></a>Détermination de l’état du réseau
 -----------------
 
-Lors de la planification de l’implémentation de Teams Microsoft au sein de votre réseau, vous devez vous assurer que la bande passante requise, vous avez accès à toutes les adresses IP requises, les ports corrects sont ouverts, et vous respectent les exigences de performances pour les médias en temps réel .
+Lors de la planification de l’implémentation de Microsoft teams au sein de votre réseau, vous devez vous assurer que vous disposez bien de la bande passante requise, que vous avez accès à toutes les adresses IP requises, que les ports appropriés sont ouverts et que vous respectez les performances requises pour le média en temps réel. .
 
-Si vous savez que vous ne respecte pas ces critères, vos utilisateurs finaux pas obtiendrez une expérience optimale des équipes en raison de la mauvaise qualité durant des réunions et appels.
+Si vous êtes certain de ne pas répondre à ces critères, vos utilisateurs finaux ne bénéficieront pas d’une meilleure connaissance des équipes en raison d’une mauvaise qualité lors des appels et des réunions.
 
-Doivent pas répondre aux critères, c’est à la fois à prendre en compte l’interruption du projet afin de que vous répondent aux critères avant de poursuivre.
+Dans le cas contraire, il s’agit du délai nécessaire pour envisagez de suspendre le projet pour vous assurer que vous répondez aux critères avant de continuer.
 
 
 |  |  |  |
 |---------|---------|---------|
-|![Icône Point de décision.](media/Prepare_your_organizations_network_for_Microsoft_Teams_image3.png)    |Point de décision         |Avez-vous évalué vos fonctionnalités de réseau pour la prise en charge multimédia en temps réel ?<br></br>Si votre réseau n’a pas été correctement évalué ou si vous savez qu’il ne prendra pas en charge multimédia en temps réel, vous désactivera vidéo et les capacités pour réduire l’impact sur le réseau et une mauvaise expérience équipes de partage d’écran ?         |
-|![Icône Étapes suivantes.](media/Prepare_your_organizations_network_for_Microsoft_Teams_image4.png)     |Étapes suivantes         |Qualité du réseau inconnue : suivez les instructions de [l’Évaluation de préparation de réseau](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness) pour déterminer si votre réseau est prêt pour le média en temps réel.<br></br>Réseau qualité médiocre : Effectuez les étapes de correction de réseau pour fournir un environnement approprié pour une qualité multimédia en temps réel.<br></br>Réseau satisfaisant : Assurez-vous que tous les ports et adresses IP sont correctement accessibles.           |
+|![Icône représentant un point de décision](media/Prepare_your_organizations_network_for_Microsoft_Teams_image3.png)    |Point de décision         |Avez-vous évalué vos capacités réseau pour la prise en charge de médias en temps réel?<br></br>Si votre réseau n’a pas été correctement évalué ou s’il ne prend pas en charge les contenus multimédias en temps réel, vous pouvez désactiver les fonctionnalités de partage vidéo et d’écran afin de réduire l’impact sur le réseau et de mauvaises expériences d’équipe.         |
+|![Icône représentant les étapes suivantes](media/Prepare_your_organizations_network_for_Microsoft_Teams_image4.png)     |Étapes suivantes         |Qualité du réseau inconnue: suivez les recommandations de l’évaluation de la [compatibilité réseau](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness) pour déterminer si votre réseau est prêt pour le média en temps réel.<br></br>Qualité du réseau médiocre: suivez les étapes de la reconversion réseau pour proposer un environnement approprié pour le média en temps réel de haute qualité.<br></br>Réseau satisfaisant: Assurez-vous que toutes les adresses IP et tous les ports sont accessibles correctement.           |
 
 ## <a name="related-topics"></a>Rubriques connexes
 
-[Vidéo : Planification du réseau](https://aka.ms/teams-networking)
+[Vidéo: planification du réseau](https://aka.ms/teams-networking)

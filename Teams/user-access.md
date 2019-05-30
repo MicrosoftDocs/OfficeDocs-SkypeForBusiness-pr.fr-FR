@@ -16,12 +16,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e61a4456d926c8d939769e49968a79943c1138b4
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: 377e5ca917db9a0f628e8b045e179e1925e524f1
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34433278"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34493754"
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>Gérer l'accès des utilisateurs à Microsoft Teams
 =====================================
@@ -70,8 +70,8 @@ Pour désactiver teams pour tous les utilisateurs disposant d’une licence acti
 
 | | | |
 |---------|---------|---------|
-|![Icône Point de décision.](media/Manage_user_access_to_Microsoft_Teams_image5.png)     |Point de décision         |<ul><li>Quels sont les plans de votre organisation pour l’intégration d’équipes au sein de l’Organisation?  (Pilote ou ouvert)</li></ul>         |
-|![Icône Étapes suivantes.](media/Manage_user_access_to_Microsoft_Teams_image6.png)     |Étapes suivantes         |<ul><li>S’il s’agit d’une intégration par le biais d’un pilote fermé, décidez si vous souhaitez le faire par le biais d’une licence ou d’une communication ciblée.</li><li>En fonction de la décision, prenez des mesures pour vous assurer que seuls les utilisateurs pilotes peuvent accéder aux équipes (si nécessaire).</li><li>Documenter les recommandations relatives aux utilisateurs qui (ou non) ont accès aux équipes.</li></ul>         |
+|![Icône représentant un point de décision](media/Manage_user_access_to_Microsoft_Teams_image5.png)     |Point de décision         |<ul><li>Quels sont les plans de votre organisation pour l’intégration d’équipes au sein de l’Organisation?  (Pilote ou ouvert)</li></ul>         |
+|![Icône représentant les étapes suivantes](media/Manage_user_access_to_Microsoft_Teams_image6.png)     |Étapes suivantes         |<ul><li>S’il s’agit d’une intégration par le biais d’un pilote fermé, décidez si vous souhaitez le faire par le biais d’une licence ou d’une communication ciblée.</li><li>En fonction de la décision, prenez des mesures pour vous assurer que seuls les utilisateurs pilotes peuvent accéder aux équipes (si nécessaire).</li><li>Documenter les recommandations relatives aux utilisateurs qui (ou non) ont accès aux équipes.</li></ul>         |
 
 ## <a name="manage-teams-at-the-office-365-tenant-level"></a>Gérer teams au niveau du client 365 Office
 [!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)]

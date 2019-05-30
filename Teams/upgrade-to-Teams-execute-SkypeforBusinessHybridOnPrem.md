@@ -7,7 +7,7 @@ ms.date: 01/09/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Considérations relatives à la mise à niveau aux équipes un Skype pour le déploiement hybride ou sur site d’entreprise.
+description: Remarques concernant la mise à niveau vers teams à partir d’une version hybride ou d’un déploiement local de Skype entreprise.
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
@@ -16,53 +16,53 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3fd4e78149dfaee58e85b9969062f324e90b7e6a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 118bae776f4bb3709d62dea1f384ccaa0707397b
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930812"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34493978"
 ---
-![Étapes du voyage mise à niveau, en mettant l’accent sur le déploiement et la phase d’implémentation] (media/upgrade-banner-deployment.png "Étapes du voyage mise à niveau, en mettant l’accent sur le déploiement et la phase d’implémentation")
+![Diagramme de parcours de mise à niveau, mise en évidence du déploiement et de l’implémentation] (media/upgrade-banner-deployment.png "Étapes du parcours de la mise à niveau, mettant l’accent sur l’étape de déploiement et d’implémentation")
 
-Cet article fait partie de la phase de déploiement et l’implémentation de votre parcours de mise à niveau. Avant de continuer, vérifiez que vous avez effectué les activités suivantes :
+Cet article fait partie de l’étape de déploiement et d’implémentation de votre parcours de mise à niveau. Avant de continuer, confirmez que vous avez terminé les activités suivantes:
 
--   [Inscrit les parties prenantes du projet](upgrade-enlist-stakeholders.md)
--   [Définies par l’étendue de votre projet](https://aka.ms/SkypetoTeams-Scope)
--   [Comprendre la coexistence et l’interopérabilité de Skype pour professionnels et les équipes](https://aka.ms/SkypeToTeams-Coexist)
--   [Choisi votre parcours de mise à niveau](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
--   [Préparer votre environnement](https://aka.ms/SkypeToTeams-TechnicalReadiness)
--   [Préparation de votre organisation](https://aka.ms/SkypeToTeams-UserReadiness)
--   [Mené un projet pilote](https://aka.ms/SkypeToTeams-Pilot)
+-   [Inscription des parties prenantes du projet](upgrade-enlist-stakeholders.md)
+-   [Définition de l’objectif de votre projet](https://aka.ms/SkypetoTeams-Scope)
+-   [Compréhension de la coexistence et de l’interopérabilité de Skype entreprise et équipes](https://aka.ms/SkypeToTeams-Coexist)
+-   [Choix de votre mise à niveau](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+-   [Préparé votre environnement](https://aka.ms/SkypeToTeams-TechnicalReadiness)
+-   [Préparé votre organisation](https://aka.ms/SkypeToTeams-UserReadiness)
+-   [A mené une pilote](https://aka.ms/SkypeToTeams-Pilot)
 
-# <a name="upgrade-to-teams-from-a-skype-for-business-hybrid-or-on-premises-deployment"></a>Mettre à niveau vers les équipes un Skype pour déploiement hybride ou locale d’entreprise
+# <a name="upgrade-to-teams-from-a-skype-for-business-hybrid-or-on-premises-deployment"></a>Effectuer une mise à niveau vers teams depuis un déploiement hybride ou local Skype entreprise
 
-Suivez les instructions de cet article si vous avez déployé Skype pour les entreprises ou Microsoft Lync sur site et votre organisation souhaite mettre à niveau vers les équipes soit sélectivement — à l’aide de plusieurs modes de coexistence, ou tout en. La première étape consiste à configurer la connectivité hybride avec votre client Office 365, puis déplacer les utilisateurs vers Skype pour Business Online et affecter la coexistence appropriée et le mode de mise à niveau. 
+Suivez les recommandations de cet article si vous avez déployé Skype entreprise ou Microsoft Lync en local et que votre organisation souhaite effectuer une mise à niveau vers des équipes de manière sélective, en utilisant plusieurs modes de coexistence, ou tout le tout. La première étape consiste à configurer la connectivité hybride avec votre client Office 365, puis à déplacer vos utilisateurs vers Skype entreprise Online et à leur affecter le mode de coexistence et de mise à niveau appropriés. 
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
 
-## <a name="step-1-deploy-hybrid-connectivity"></a>Étape 1 : Déploiement de connectivité hybride 
+## <a name="step-1-deploy-hybrid-connectivity"></a>Étape 1: déployer une connectivité hybride 
 
-Les éléments prérequis clés pour la mise à niveau de vos utilisateurs à des équipes consiste à déployer la connectivité hybride. Cela peut impliquer le déploiement de nouvelles connectivité externe pour votre Skype existant pour le déploiement de Lync ou de l’entreprise, ou la configuration simplement une relation hybride avec votre client Office 365. 
+La configuration minimale requise pour la mise à niveau de vos utilisateurs vers teams consiste à déployer une connectivité hybride. Cela peut impliquer le déploiement de nouvelles connexions externes pour votre déploiement Skype entreprise ou Lync, ou la configuration d’une relation hybride avec votre client Office 365. 
 
-Pour plus d’informations, voir [déployer la connectivité hybride entre Skype pour Business Server et Skype pour Business Online](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity).
+Pour plus d’informations, reportez-vous à la section déploiement d’une [connectivité hybride entre Skype entreprise Server et Skype entreprise Online](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity).
 
-## <a name="step-2-move-users-to-skype-for-business-online"></a>Étape 2 : Déplacer les utilisateurs vers Skype pour Business Online 
+## <a name="step-2-move-users-to-skype-for-business-online"></a>Étape 2: déplacer des utilisateurs vers Skype entreprise Online 
 
-Une fois que vous avez terminé votre configuration hybride, déplacer des utilisateurs vers Skype pour Business Online. 
+Lorsque vous avez terminé la configuration hybride, déplacez les utilisateurs vers Skype entreprise online. 
 
-Pour plus d’informations, voir [déplacer des utilisateurs à partir de sur site à Skype pour Business Online](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online). 
+Pour plus d’informations, reportez-vous à la rubrique [déplacer des utilisateurs de local vers Skype entreprise Online](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online). 
 
-## <a name="step-3-assign-a-coexistence-and-upgrade-mode"></a>Étape 3 : Attribuer une coexistence et le mode de mise à niveau
+## <a name="step-3-assign-a-coexistence-and-upgrade-mode"></a>Étape 3: affecter une coexistence et un mode de mise à niveau
 
-Une fois que vous avez déplacé vos utilisateurs à Skype pour Business Online, vous pouvez affecter le mode de coexistence approprié en fonction de la mise à niveau voyage que votre organisation a choisi. Pour plus d’informations, voir [configuration de votre coexistence et de paramètres de mise à niveau](https://aka.ms/SkypeToTeams-SetCoexistence) et [TeamsUpgradePolicy : gestion de migration et coexistence](migration-interop-guidance-for-teams-with-skype.md#teamsupgradepolicy-managing-migration-and-co-existence).
+Après avoir déplacé vos utilisateurs vers Skype entreprise Online, vous pouvez leur affecter le mode de coexistence approprié en fonction du parcours de mise à niveau choisi par votre organisation. Pour plus d’informations, reportez-vous à [définition de votre coexistence et de vos paramètres de mise à](https://aka.ms/SkypeToTeams-SetCoexistence) [TeamsUpgradePolicy: gestion de la migration et de](migration-interop-guidance-for-teams-with-skype.md#teamsupgradepolicy-managing-migration-and-co-existence)la coexistence.
 
 > [!NOTE]
-> Avec Skype pour Business Server 2019 et une mise à jour cumulative futur de Skype pour Business Server 2015, vous serez en mesure d’effectuer l’étape 2 (déplacement d’utilisateurs vers Skype pour Business Online) et l’étape 3 (mise à niveau des utilisateurs aux équipes) en une seule étape. Vous trouverez plus d’informations après la sortie de Skype pour Business Server 2019.
+> Avec Skype entreprise Server 2019 et une prochaine mise à jour cumulative de Skype entreprise Server 2015, vous serez en mesure de passer à l’étape 2 (déplacer les utilisateurs vers Skype entreprise Online) et à l’étape 3 (mettre à niveau les utilisateurs vers les équipes) en une seule étape. Des informations supplémentaires seront fournies après le lancement de Skype entreprise Server 2019.
 
-## <a name="phone-system-and-teams-upgrade"></a>Mise à niveau système téléphonique et les équipes
+## <a name="phone-system-and-teams-upgrade"></a>Mise à niveau du système téléphonique et des équipes
 
-Si vous passez vos Skype pour un déploiement hybride Business au système téléphonique avec des Plans de l’appel de Microsoft sera votre fournisseur de réseau téléphonique commuté — et en supposant que vous avez terminé le portage numéro de téléphone : mise à niveau de vos utilisateurs Les équipes passera automatiquement PSTN entrant aux équipes de l’appel.
+Si vous migrez votre déploiement hybride Skype entreprise vers votre système téléphonique avec des plans d’appels, Microsoft sera votre fournisseur de réseau téléphonique commuté (PSTN), et en supposant que vous avez terminé le transfert du numéro de téléphone, la mise à niveau de vos utilisateurs vers Teams va automatiquement migrer les appels RTC entrants vers Teams.
 
-Si des Plans de l’appel n’est pas disponible, vous devez effectuer la transition de votre déploiement d’enterprise voice au routage Direct de Microsoft Phone System. Pour mettre à niveau vos utilisateurs à des équipes, voir les [Considérations supplémentaires pour le routage d’un système téléphonique directe](2-envision-make-my-service-decisions-direct-routing.md).
+Si les plans d’appel ne sont pas disponibles, vous devez migrer votre déploiement voix entreprise vers le routage direct du système Microsoft Phone. Pour mettre à niveau vos utilisateurs vers Teams, reportez-vous à la rubrique [Considérations supplémentaires sur le routage direct du système téléphonique](2-envision-make-my-service-decisions-direct-routing.md).

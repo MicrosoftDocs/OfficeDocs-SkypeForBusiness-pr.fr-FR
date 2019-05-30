@@ -7,116 +7,116 @@ ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: srividhc
-description: Nuage vidéo Interop permet de tiers équipements de salle pour participer à des réunions Teams Microsoft de la réunion.
+description: La technologie Cloud Video Interop permet à des appareils de salle de réunion tiers de participer à des réunions Microsoft Teams.
 localization_priority: Normal
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9a3da2281ffcc444478a32e3a4980f707acfd25f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: eed6c2d1e876e9c04e32c82c8119d7dbd4483692
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32198519"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34549018"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Interopérabilité de la vidéo cloud de Microsoft Teams
 
-Nuage vidéo Interop (CVI) est une solution tierce Qualified Microsoft qui permet de salles de réunion de tiers (TÉLÉPRÉSENCE) et les périphériques vidéo personnels (VTCs) à participer à des réunions Teams Microsoft.
+Le Cloud Video Interop (CVI) est une solution tierce qualifiée par Microsoft qui permet d’accéder à des salles de réunion ou des appareils vidéo personnels (VTCs) tiers pour participer à des réunions dans Microsoft Teams.
  
-Avec Microsoft Teams, vous obtenez riche collaboration de contenu en ligne dans les réunions qui incluent le partage audio, vidéo et de contenu. Cela revisité via le client web et de bureau, ainsi que par le biais de nombreux périphériques partenaire qui intègrent en mode natif Microsoft Teams. Toutefois, de nombreux clients ont déjà investi dans téléconférence vidéo et les périphériques de communication vidéo personnel, qui peuvent être coûteux en termes de mise à niveau. Nuage vidéo Interop fournit une solution simple, ce qui vous permet de continuer à utiliser vos solutions existantes jusqu'à ce que vous êtes prêt à mettre à niveau.
+Grâce à Microsoft Teams, vous bénéficiez d’une collaboration sur le contenu en ligne riche dans les réunions qui incluent l’audio, la vidéo et le partage de contenu. Cela peut être apprécié par le biais du client de bureau et Web, ainsi que par le biais de nombreux appareils partenaires qui s’intègrent en mode natif avec Microsoft Teams. En revanche, de nombreux clients ont déjà investi dans des périphériques de communication vidéo et de visioconférence personnels, ce qui peut être coûteux à mettre à niveau. La technologie Cloud Video Interop fournit une solution simple, qui vous permet de continuer à utiliser vos solutions actuelles tant que vous n’êtes pas prêt à effectuer la mise à niveau.
 
-Avec le nuage vidéo Interop, Teams Microsoft offre une expérience de réunion natif pour tous les participants – dans les salles de réunion ou à l’intérieur clients équipes.
+Avec la fonction d’interopérabilité de la vidéo Cloud, Microsoft teams permet à tous les participants de bénéficier d’une interface de réunion native pour tous les participants:
 
-### <a name="is-cloud-video-interop-for-me"></a>Est une interopérabilité vidéo Cloud pour moi ?
+### <a name="is-cloud-video-interop-for-me"></a>Est-ce que Cloud Video Interop pour moi?
 
-Nuage vidéo Interop fournit un service intermédiaire pendant la transition d’une Solution d’équipes Microsoft native complète, à l’aide de points de terminaison équipes. Le service fourni doit faire partie de votre chemin de migration.
+La technologie Cloud Video Interop fournit un service intermédiaire lors d’une transition vers une solution Microsoft teams native complète, utilisant des points de terminaison Teams. Le service fourni doit faire partie de votre chemin de migration.
 
-Nuage vidéo Interop est destiné aux clients qui répondent aux critères suivants :
+L’interopérabilité de la vidéo Cloud est destiné aux clients qui remplissent les critères suivants:
 
-- Un grand déploiement de périphériques de la salle de réunion et le déploiement de périphériques vidéo personnels (50 + appareils) qui ne sont pas qualifiés pour l’intégration directe avec Microsoft Teams
-- Sont pris en charge par un des partenaires de nuage vidéo Interop
-- Pour conserver la valeur de leurs investissements dans leurs en cours de la réunion pendant la migration vers une solution Microsoft Teams native périphériques de salle et vidéo personnels
+- Déploiement de systèmes de salle de réunion et de déploiement de périphériques vidéo personnels (50 périphériques) qui ne sont pas qualifiés pour une intégration directe avec Microsoft teams
+- Sont prises en charge par l’un de nos partenaires d’interopérabilité Cloud Video
+- Vous souhaitez conserver la valeur de leur investissement dans ses appareils de salle de réunion actuels et périphériques vidéo personnels lors de la migration vers une solution Microsoft teams Native
 
-Nuage vidéo Interop fournit une excellente solution intermédiaire, nous conseillons de nos clients de consulter nos solutions équipes réunion natives, tels que les systèmes de salle d’équipes, à long terme. 
+Même si la technologie Cloud Video Interop fournit une solution de grande qualité, nous encourageons nos clients à consulter les solutions de réunion natives de nos équipes, telles que les systèmes de salle de réunion, pour le long terme. 
 
-### <a name="partners-certified-for-microsoft-teams"></a>Partenaires certifiés pour les équipes Microsoft
+### <a name="partners-certified-for-microsoft-teams"></a>Partenaires certifiés pour Microsoft teams
 
-Les partenaires suivants ont des solutions d’interopérabilité vidéo pour Microsoft Teams. Votre société peut choisir de travailler avec n’importe quelle combinaison de ces partenaires au sein de votre entreprise. 
+Les partenaires suivants disposent de solutions d’interopérabilité vidéo pour Microsoft Teams. Votre entreprise est susceptible de travailler avec n’importe quelle combinaison de ces partenaires au sein de votre entreprise. 
 
-|Partenaire|Solution d’un partenaire|
+|Partenaire|Solution de partenariat|
 |----|---|
-|![RealConnect de Polycom](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Service RealConnect de Polycom</a> |
-|![Infini Pexip](media/pexip.png)| <a href="https://aka.ms/PexipInfinity" target="_blank">Infini Pexip pour les équipes Microsoft</a> | 
-|![Passerelle blueJeans](media/bluejeans.png)| <a href="https://aka.ms/BluejeansGateway" target="_blank">Passerelle blueJeans pour les équipes Microsoft</a> |
+|![Logo de Polycom RealConnect](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Service RealConnect Polycom</a> |
+|![Logo de PEXIP Infinity](media/pexip.png)| <a href="https://aka.ms/PexipInfinity" target="_blank">PEXIP Infinity pour Microsoft teams</a> | 
+|![Logo de la passerelle BlueJeans](media/bluejeans.png)| <a href="https://aka.ms/BluejeansGateway" target="_blank">Passerelle BlueJeans pour Microsoft teams</a> |
 
-### <a name="cloud-video-interop-overview"></a>Vue d’ensemble de nuage interopérabilité vidéo
+### <a name="cloud-video-interop-overview"></a>Vue d’ensemble de l’interopérabilité Cloud Video
 
-Interopérabilité vidéo cloud est un service de tiers qui est fourni par les partenaires pour assurer l’interopérabilité entre visioconférence existant et les solutions de périphérique vidéo personnel sur site et Microsoft Teams.
+L’interopérabilité de la vidéo Cloud est un service tiers offert par nos partenaires pour assurer l’interopérabilité entre les solutions de conférence vidéo existantes et les solutions de périphériques vidéo personnels en local et Microsoft Teams.
 
-Les solutions de partenaires se composent des composants qui peuvent être déployés, entièrement dans le nuage en partiellement/entièrement ou sur site. 
+Les solutions proposées par nos partenaires sont composées de composants qui peuvent être déployés entièrement sur le Cloud ou partiellement ou entièrement sur site. 
      
-Le diagramme suivant illustre l’architecture de haut niveau de nos partenaires de solutions.
+Le diagramme suivant illustre l’architecture de haut niveau de nos solutions de partenariat.
 
-![Solution d’un partenaire en nuage vidéo Interop équipes](media/teams-cloud-video-interop-partner-solution.png)
+![Diagramme décrivant une solution de partenariat Cloud Video Interop](media/teams-cloud-video-interop-partner-solution.png)
 
 
-## <a name="deploy-cloud-video-interop"></a>Déployer l’interopérabilité vidéo sur le nuage
+## <a name="deploy-cloud-video-interop"></a>Déploiement de l’interopérabilité Cloud Video
 
-Lorsque vous déployez une solution de nuage vidéo Interop, il est important de comprendre que vous déployez une solution d’un partenaire. Les étapes générales à suivre pour déployer une interopérabilité vidéo nuage sont répertoriés dans le diagramme suivant.
+Lors du déploiement d’une solution d’interopérabilité Cloud Video, il est important de comprendre que vous déployez une solution de partenariat. Le diagramme suivant décrit les étapes générales nécessaires pour déployer la technologie Cloud.
 
-![Déploiement CVI dans votre organisation](media/deploying-cvi.png)
+![Diagramme décrivant le déploiement d’CVI au sein de votre organisation](media/deploying-cvi.png)
 
-### <a name="plan"></a>Plan
+### <a name="plan"></a>Offre
 
-Pendant la phase de planification, vous devez identifier les périphériques ne seront pas remplacer par un périphérique équipes natif et de trouver un partenaire de nuage vidéo Interop pouvant prendre en charge ces périphériques.  
+Pendant la phase du plan, vous devez identifier les appareils que vous ne devez pas remplacer par un appareil teams natif et Rechercher un partenaire d’interopérabilité Cloud qui peut prendre en charge ces appareils.  
 
-Il est également important de comprendre que vous aurez besoin d’une licence pour chaque utilisateur qui planifie dans lequel vous souhaitez qu’un périphérique prenant en charge une interopérabilité vidéo Cloud pour participer à des réunions. Notez qu’exactes critères de licences peuvent être obtenus à partir du partenaire de nuage vidéo Interop. Assurez-vous qu’il s’agit effacer avant de commencer votre déploiement.
+Il est également important de savoir que vous aurez besoin d’une licence pour chaque utilisateur qui planifie les réunions dans lesquelles vous voulez qu’un périphérique compatible avec la vidéo Cloud puisse y accéder. Notez qu’il est possible d’obtenir exactement les exigences de licence du partenaire Cloud Video Interop. Assurez-vous qu’il est clair avant de commencer votre déploiement.
 
 ### <a name="configure"></a>Configuration
 
-Le partenaire que vous avez choisi pour votre déploiement CVI vous fournira un document de déploiement complet qui se compose de toutes les étapes nécessaires pour déployer avec succès au sein de votre organisation. Cela inclut les ports de pare-feu et les plages d’adresses IP, les modifications de configuration de vos périphériques et d’autres paramètres qui doivent être modifiés.
+Le partenaire que vous avez choisi pour votre déploiement CVI vous fournira un document de déploiement complet composé de toutes les étapes nécessaires au déploiement réussi au sein de votre organisation. Cela inclut les ports de pare-feu et les plages d’adresses IP, les modifications de configuration pour vos appareils et d’autres paramètres qui doivent changer.
 
-### <a name="provision"></a>Mise en service  
+### <a name="provision"></a>Octroi  
 
-Pendant la phase de mise en service, vous allez attribuer des licences aux utilisateurs appropriés en fonction du partenaire guide de configuration. Vous devez également suivre le processus de consentement Azure pour fournir l’accès des partenaires à votre environnement d’équipes. Vous trouverez ici des plus d’informations sur le processus de consentement Azure :https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent 
+Pendant la phase de mise en service, vous attribuerez des licences aux utilisateurs appropriés conformément au Guide de configuration du partenaire. Vous devrez également suivre le processus de consentement d’Azure pour proposer au partenaire l’accès à votre environnement d’équipes. Pour plus d’informations sur le processus de consentement d’Azure, consultez la page suivante:https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent 
 
-### <a name="schedule"></a>Planification
+### <a name="schedule"></a>Horaire
 
-Après un utilisateur est activé pour l’interopérabilité de vidéo sur le nuage, une réunion planifiée à l’aide soit la réunion équipes complément pour Outlook ou le Client équipes contient les informations supplémentaires appropriées automatiquement ajoutées dans les équipes de réunion ainsi que la vidéo sur le nuage Appareils compatibles Interop peuvent participer à ces réunions.
+Une fois qu’un utilisateur est activé pour l’interopérabilité Cloud Video, toute réunion planifiée à l’aide du complément réunion teams pour Outlook ou du client teams disposera des informations supplémentaires appropriées automatiquement ajoutées à la réunion teams pour que la vidéo Cloud Les appareils compatibles avec l’interopérabilité peuvent participer à ces réunions.
 
 ### <a name="join"></a>Rejoindre
 
-Selon la solution partenaire, il existe plusieurs façons de joindre une réunion prenant en charge une interopérabilité vidéo dans le nuage. Exacte de participation aux réunions scénarios seront fournies par votre partenaire de nuage vidéo Interop. Nous vous proposons ci-dessous quelques exemples ci-dessous :
+En fonction de la solution de partenariat, il existe plusieurs façons de participer à une réunion Cloud Video Interop. Les scénarios exacts de participation à une réunion seront fournis par votre partenaire Cloud Video Interop. Nous avons classé quelques exemples ci-dessous:
 
-- IVR (réponse vocale Interactive) 
-  - Vous pouvez vous connecter à réponse vocale interactive du partenaire à l’aide de la tenantkey@domain.
-  - Lorsque vous êtes dans le partenaire de réponse vocale interactive, vous invitera à entrer le conferenceId VTC, qui se connectera ensuite à la réunion équipes.
-- Appel direct 
-  - Vous pouvez directement vous connecter à la réunion d’équipes sans interaction avec interactive le partenaire à l’aide de la fonctionnalité d’appel direct, à l’aide de la chaîne complète de tenantkey. VTC ConferenceId@domain.
-- Numérotation des touches de raccourci 
-  - Si vous disposez d’une salle équipes intégrée, vous pouvez utiliser une touche numérotation fonctionnalités offertes par votre partenaire (sans avoir à taper n’importe quelle chaîne de numérotation).
+- IVR (réponse vocale interactive) 
+  - Vous pouvez vous connecter à l’IVR du partenaire à l’aide du tenantkey @ Domain.
+  - Lorsque vous vous trouvez dans l’IVR du partenaire, vous êtes invité à entrer le conferenceId VTC, qui vous connecte ensuite à la réunion Teams.
+- Numérotation directe 
+  - Vous pouvez directement composer le numéro de la réunion teams sans interagir avec l’IVR du partenaire à l’aide de la fonction de numérotation directe, en utilisant la chaîne complète de tenantkey. VTC ConferenceId @ Domain.
+- Numérotation en un clic 
+  - Si vous avez une salle d’équipe intégrée, vous pouvez utiliser les fonctionnalités de numérotation à l’aide de votre partenaire (sans avoir à taper une chaîne de numérotation).
 
-## <a name="manage-cloud-video-interop"></a>Gérer l’interopérabilité vidéo sur le nuage
+## <a name="manage-cloud-video-interop"></a>Gérer l’interopérabilité Cloud Video
 
-Après avoir déployé une interopérabilité vidéo sur le nuage, vous pouvez gérer les périphériques en utilisant les solutions fournies par les partenaires. Chaque partenaire vous fournira une interface d’administration qui inclut la gestion des licences et de périphérique. 
+Après le déploiement de l’interopérabilité de la vidéo Cloud, vous pouvez gérer les appareils à l’aide des solutions fournies par nos partenaires. Chaque partenaire vous fournira une interface d’administration qui inclura la gestion des licences et des appareils. 
 
-Création de rapports est également disponible directement à partir de l’interface d’administration partenaires. Pour plus d’informations sur les fonctionnalités de création de rapports, contactez le partenaire de votre choix. 
+La création de rapports est également disponible directement à partir de l’interface d’administration du partenaire. Pour en savoir plus sur les fonctionnalités de création de rapports, contactez le partenaire de votre choix. 
 
-### <a name="troubleshooting-cloud-video-interop"></a>Résolution des problèmes d’interopérabilité vidéo sur le nuage
+### <a name="troubleshooting-cloud-video-interop"></a>Résolution des problèmes liés à l’interopérabilité Cloud Video
 
-Nuage vidéo Interop est un service fournis par les partenaires. Si vous rencontrez des problèmes, la première étape consiste à se connecter à un périphérique qui a installé le Client équipes et se connecter à un même segment comme périphérique Cloud vidéo Interop qui pose problème. 
+La technologie Cloud Video Interop est un service fourni par les partenaires. Si vous rencontrez des problèmes, la première étape consiste à connecter un appareil sur lequel le client teams a été installé et à le connecter au même segment que le périphérique Cloud Video Interop qui cause des problèmes. 
 
-Si les fonctions des équipes correctement sur ce segment et que vous ont suivi également toutes les instructions de mise en réseau et de configuration que du partenaire a fourni, vous devrez contacter le partenaire de dépannage. 
+Si teams fonctionne correctement sur ce segment et que vous avez également suivi toutes les instructions de mise en réseau et de configuration fournies par le partenaire, vous devez contacter ce dernier pour résoudre les problèmes. 
 
-## <a name="powershell-for-cloud-video-interop"></a>PowerShell pour l’interopérabilité vidéo sur le nuage
+## <a name="powershell-for-cloud-video-interop"></a>PowerShell pour l’interopérabilité vidéo Cloud
 
-Les applets de commande PowerShell suivantes sont disponibles pour vous (partiellement) automatiser le déploiement de Cloud vidéo Interop.
+Les applets de commande PowerShell suivantes sont disponibles pour vous pour (partiellement) automatiser le déploiement d’interopérabilité de la vidéo Cloud.
 
-- **Get-CsTeamsVideoInteropServicepolicy**: Microsoft propose construit à partir des stratégies pour chacun des partenaires pris en charge qui vous permettent de désigner les partenaires à utiliser pour l’interopérabilité de vidéo sur le nuage.<br>Cette cmdlet vous permet d’identifier les construit à partir des stratégies que vous pouvez utiliser dans votre organisation. Vous pouvez assigner cette stratégie à un ou plusieurs de vos utilisateurs grâce à l’applet de commande Grant-CsTeamsVideoInteropServicePolicy.
-- **Grant-CsTeamsVideoInteropServicePolicy**: cette applet de commande permet d’affecter une stratégie construite préalable pour une utilisation dans votre organisation ou la stratégie à des utilisateurs spécifiques.
-- **New-CsVideoInteropServiceProvider**: permet de spécifier des informations sur un partenaire CVI pris en charge que votre organisation souhaite utiliser cette applet de commande.
-- **Set-CsVideoInteropServiceProvider**: utilisez cette applet de commande pour mettre à jour des informations sur un partenaire CVI pris en charge par votre organisation.
-- **Get-CsVideoInteropServiceProvider**: utilisez cette applet de commande pour obtenir tous les fournisseurs qui ont été configurés pour une utilisation au sein de l’organisation.
-- **Remove-CsVideoInteropServiceProvider**: utilisez cette applet de commande pour supprimer toutes les informations fournisseur sur un fournisseur que votre organisation n’utilise plus.
+- **Get-CsTeamsVideoInteropServicepolicy**: Microsoft fournit des stratégies préconçues pour chacun de nos partenaires pris en charge, qui vous permettent de désigner le ou les partenaires à utiliser pour l’interopérabilité de la vidéo Cloud.<br>Cette applet de connexion vous permet d’identifier les politiques prédéfinies que vous pouvez utiliser au sein de votre organisation. Vous pouvez affecter cette stratégie à un ou plusieurs de vos utilisateurs en tirant parti de l’applet de passe Grant-CsTeamsVideoInteropServicePolicy.
+- **Grant-CsTeamsVideoInteropServicePolicy**: cette applet de connexion vous permet d’assigner une stratégie préconçue pour une utilisation au sein de votre organisation ou d’affecter la stratégie à des utilisateurs spécifiques.
+- **New-CsVideoInteropServiceProvider**: cette applet de cmdlet permet de spécifier des informations sur un partenaire CVI pris en charge que votre organisation souhaite utiliser.
+- **Set-CsVideoInteropServiceProvider**: utilisez cette applet de cmdlet pour mettre à jour des informations sur un partenaire CVI pris en charge utilisé par votre organisation.
+- **Get-CsVideoInteropServiceProvider**: utilisez cette applet de cmdlet pour obtenir tous les fournisseurs configurés pour une utilisation au sein de l’organisation.
+- **Remove-CsVideoInteropServiceProvider**: cette applet de passe permet de supprimer toutes les informations de fournisseur relatives à un fournisseur que votre organisation n’utilise plus.
