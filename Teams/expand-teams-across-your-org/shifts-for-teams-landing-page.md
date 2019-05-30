@@ -1,6 +1,6 @@
 ---
 title: Shifts pour Teams
-description: Obtenez des conseils d’administration que nécessaires pour configurer et gérer des équipes, l’outil de gestion de planification, dans les équipes.
+description: Obtenez les conseils d’administration dont vous avez besoin pour configurer et gérer les Shifts, l’outil de gestion des plannings, dans Teams.
 layout: LandingPage
 ms.topic: landing-page
 author: lanachin
@@ -12,18 +12,18 @@ ms.collection: Strat_MT_TeamsAdmin
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e1d8336719e8858819f81f6e174c20dac09aa429
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: aa060ac4707f223ea960bdda3c7bc53a8d134e80
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245907"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494505"
 ---
 # <a name="shifts-for-teams"></a>Shifts pour Teams
 
-Équipes offre Firstline travailleurs dans votre organisation les outils dont ils ont besoin pour communiquer et collaborer efficacement et effectuer leur travail meilleures. Vous trouverez les conseils d’administration que vous devez configurer et gérer des équipes, l’outil de gestion de planification, dans les équipes.
+Teams permet terrain aux travailleurs de votre organisation les outils dont ils ont besoin pour communiquer et collaborer efficacement et leurs meilleures tâches. Vous trouverez ci-dessous les conseils d’administration dont vous avez besoin pour configurer et gérer les Shifts, l’outil de gestion des plannings, dans Teams.
 
-### <a name="move-from-staffhub-to-shifts-in-teams"></a>Déplacer de StaffHub vers les équipes de travail en équipe
+### <a name="move-from-staffhub-to-shifts-in-teams"></a>Basculer entre StaffHub aux équipes dans teams
 
 <ul class="panelContent cardsFTitle">
  <li>
@@ -33,11 +33,11 @@ ms.locfileid: "32245907"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-teams.svg" alt="Get started" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-teams.svg" alt="An icon depicting a pointing hand and arrow" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>En savoir plus sur StaffHub de retrait et de la transition vers les équipes de travail en équipe</h3>
+                        <h3>En savoir plus sur le retrait de StaffHub et la transition vers les équipes dans teams</h3>
                     </div>
                 </div>
             </div>
@@ -51,11 +51,11 @@ ms.locfileid: "32245907"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/migration-teams.svg" alt="Migration" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/migration-teams.svg" alt="An icon depicting migrating information" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Atteindre vos équipes StaffHub équipes de travail en équipe</h3>
+                        <h3>Déplacez vos équipes StaffHub vers des équipes dans teams</h3>
                     </div>
                 </div>
             </div>
@@ -69,11 +69,11 @@ ms.locfileid: "32245907"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/whats-new-megaphone-teams.svg" alt="what's new" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/whats-new-megaphone-teams.svg" alt="A megaphone icon depicting what's new" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Fonctionnalités de travail Firstline bientôt aux équipes</h3>
+                        <h3>Fonctionnalités du travailleur terrain envoyées aux équipes</h3>
                     </div>
                 </div>
             </div>
@@ -82,7 +82,7 @@ ms.locfileid: "32245907"
     </li>
 </ul>
 
-### <a name="set-up-and-manage-shifts"></a>Configurer et gérer des équipes
+### <a name="set-up-and-manage-shifts"></a>Configurer et gérer les Shifts
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -92,11 +92,11 @@ ms.locfileid: "32245907"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/task-checklist-planning-teams.svg" alt="checklist" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/task-checklist-planning-teams.svg" alt="A checklist icon depicting managing shifts" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Gérer les équipes de votre organisation</h3>
+                        <h3>Gérer les Shifts au sein de votre organisation</h3>
                     </div>
                 </div>
             </div>
@@ -110,11 +110,11 @@ ms.locfileid: "32245907"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/Help.svg" alt="Help" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/Help.svg" alt="A question mark icon depicting help" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Déplace l’aide pour les travailleurs Firstline</h3>
+                        <h3>Aide sur les équipes pour les travailleurs terrain</h3>
                     </div>
                 </div>
             </div>
