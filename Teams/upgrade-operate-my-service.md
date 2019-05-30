@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c177ae45fdb0770b533c8725d0fb6970a80a5bc2
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 0d5f6614c076b212935908d8bb77973df5c3b867
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494062"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548532"
 ---
-![Étapes du voyage de la mise à niveau, avec mise en évidence de l’étape d’excellence opérationnelle] (media/upgrade-banner-op-excellence.png "Étapes du voyage de la mise à niveau, avec mise en évidence de l’étape d’excellence opérationnelle")
+![Diagramme de parcours de mise à niveau, mettant l’accent sur le stade d’excellence opérationnel] (media/upgrade-banner-op-excellence.png "Étapes du voyage de la mise à niveau, avec mise en évidence de l’étape d’excellence opérationnelle")
 
 Cet article fait partie de l’étape du fonctionnement de votre mise à niveau du fonctionnement de votre mise à niveau, qui commence dès que vous avez terminé la mise à niveau de Skype entreprise vers Teams.
 

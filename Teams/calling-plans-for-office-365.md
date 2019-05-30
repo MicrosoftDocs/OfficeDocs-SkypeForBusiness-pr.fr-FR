@@ -25,12 +25,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: a225f55bd03793fa184dab8478fd608170418f2d
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: c3cafee8dcce326dd20661f919dc57b0e1f1fe26
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494521"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548987"
 ---
 # <a name="calling-plans-for-office-365"></a>Forfaits d’appel dans Office 365
 
@@ -46,7 +46,7 @@ Les minutes mensuelles disponibles pour chaque organisation et chaque pays/régi
   
 > [!IMPORTANT]
 > Le pays ou la région est en fonction de l’emplacement de la licence de l’utilisateur dans le **Centre d’administration Microsoft 365** > **** et **non** de l’adresse de facturation figurant sous le profil de l' **organisation** dans le centre d’administration **Microsoft 365 centrer**.   
-![Emplacement de la licence de l’utilisateur](media/cc1e16d1-8a5e-43e0-99a3-dc991efdfbab.png)
+![Capture d’écran de l’emplacement de la licence de l’utilisateur](media/cc1e16d1-8a5e-43e0-99a3-dc991efdfbab.png)
   
 Pour obtenir des informations détaillées sur les limites et les conditions d’utilisation, voir [période de numérotation complète](complimentary-dial-out-period.md)de l’audioconférence.
   
@@ -54,14 +54,14 @@ Pour obtenir des informations détaillées sur les limites et les conditions d�
 
 1. <strong>Vous devez d’abord acheter une</strong> licence du composant additionnel du système téléphonique * *<strong>. Pour ce faire, [Connectez-vous au centre d’administration 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) et sélectionnez * * facturation</strong> > **** > **des abonnements** > à des services de complément achat**immédiat**.
     
-    ![Lorsque vous achetez vos licences PBX Cloud, une option apparaît vous permettant d’acheter un plan d’appel vocal.](media/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
+    ![Capture d’écran montrant l’option d’achat d’une offre d’appels vocaux.](media/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
   
     > [!NOTE]
     > En fonction de votre plan, il est possible que vous deviez acheter des modules complémentaires avant de pouvoir acheter des licences de système téléphonique. Pour en savoir plus, voir «options de licence en fonction de votre plan» dans la rubrique [licences de complément Microsoft teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
 2. Une fois que vous avez acheté des licences de système téléphonique, vous pouvez acheter le plan d’appels en vous connectant au **** >  **Centre d’administration 365**, puis en cliquant sur**abonnements de complément****services d’achat de services** > , puis en cliquant sur **acheter maintenant. **. Les plans d’appel apparaissent là.
     
-    ![Après avoir acheté une licence PBX Cloud, vous pouvez acheter des plans d’appel audio.](media/ab2d6dce-56eb-4bbc-ac1a-430b0c065d18.png)
+    ![Capture d’écran montrant les options du plan d’appels vocaux.](media/ab2d6dce-56eb-4bbc-ac1a-430b0c065d18.png)
   
 En fonction des besoins de votre organisation, vous pouvez acheter et attribuer différentes offres d’appels à différents utilisateurs. Après avoir sélectionné le plan d’appel dont vous avez besoin, procédez à l’extraction. Vous attribuez un plan à chaque utilisateur dans le centre d’administration Microsoft 365. Pour savoir comment procéder, voir [attribuer des licences Microsoft teams](assign-teams-licenses.md).
   

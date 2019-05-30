@@ -15,12 +15,12 @@ description: Tâches et activités requises pour la gestion des services d’éq
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d40bbeaf0876071502d187826ecc702c9175b2da
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 3c1aa8c35b43941839e7a82390bca16c16c72801
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494295"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548246"
 ---
 # <a name="operate-my-service"></a>Exploiter mon service
 
@@ -42,8 +42,8 @@ Les tâches et les activités de ce guide sont regroupées en huit catégories, 
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/> <br/>Points de décision</td><td><ul><li>Déterminez comment les opérations seront implémentées pour les équipes.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/><br/>Étapes suivantes</td><td><ul><li>Passez en revue le Guide de fonctionnement complet.</li><li>Implémentez une stratégie de fonctionnement qui s’adapte aux objectifs de votre organisation afin de garantir la qualité et la fiabilité des charges de travail vocales sur le Cloud.</li><li>Passez en revue le Guide de vérification de la qualité de l’utilisation.</li><li> Implémentez une stratégie d’opérations pour effectuer régulièrement des révisions de qualité d’utilisation pour vous assurer que le déploiement de votre voix Cloud fonctionne aux pointe.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Points de décision</td><td><ul><li>Déterminez comment les opérations seront implémentées pour les équipes.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Étapes suivantes</td><td><ul><li>Passez en revue le Guide de fonctionnement complet.</li><li>Implémentez une stratégie de fonctionnement qui s’adapte aux objectifs de votre organisation afin de garantir la qualité et la fiabilité des charges de travail vocales sur le Cloud.</li><li>Passez en revue le Guide de vérification de la qualité de l’utilisation.</li><li> Implémentez une stratégie d’opérations pour effectuer régulièrement des révisions de qualité d’utilisation pour vous assurer que le déploiement de votre voix Cloud fonctionne aux pointe.</li></ul></td></tr>
 </table>
 
 
@@ -62,7 +62,7 @@ Assurez-vous que chaque équipe responsable dispose d’une bonne compréhension
 Une fois qu’un contrat est en place, les équipes correspondantes doivent commencer à faire fonctionner leurs rôles.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="Image depicting the next steps"/><br/>Étapes suivantes</td>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Étapes suivantes</td>
 <td><ul><li>Utilisez ce document pour faciliter l’exercice du mappage de rôles opérationnels.</li><li>Rencontrez les équipes du support technique appropriées pour attribuer des noms à chaque élément dans la liste des activités requises.</li><li>Obtenir une acceptation ou une connexion sur les rôles qui vous sont attribués.</li><li>Assurez-vous que les équipes correspondantes disposent des ressources nécessaires pour effectuer les activités requises.</li></ul></td></table>
 
 ### <a name="teams-service-dependencies"></a>Dépendances des services teams

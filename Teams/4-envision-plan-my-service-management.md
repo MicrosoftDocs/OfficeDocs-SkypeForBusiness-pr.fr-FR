@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 25f4bb41ed5aa5c99c6edbc3a8daf70af78e882d
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 2336a7ce0a5aa5d21a167cfe88d981c1a722845e
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494417"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548111"
 ---
 # <a name="plan-my-service-management"></a>Planifier ma gestion des services
 
