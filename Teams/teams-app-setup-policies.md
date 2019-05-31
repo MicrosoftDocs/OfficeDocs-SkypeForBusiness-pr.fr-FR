@@ -19,12 +19,12 @@ search.appverid: MET150
 description: Apprenez-en davantage sur les stratégies de configuration des applications dans Microsoft teams et la manière de les utiliser pour épingler des applications afin de personnaliser les équipes pour les utilisateurs de votre organisation.
 f1keywords:
 - ms.teamsadmincenter.apppolicies.setup
-ms.openlocfilehash: e26dc18f056f3493f6fcbdea2edee747d8abfa0b
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: a7b0a9cf7e7ed4eee10d82882d2f17ca57939aa1
+ms.sourcegitcommit: e6ae322d96357fe4f9a7b447afca9d87563f4ba1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548820"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "34592167"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Gérer les stratégies de mise en application dans Microsoft Teams
 
@@ -136,9 +136,7 @@ Gardez à l’esprit que le Windows teams Store répertorie toutes les applicati
 
 #### <a name="im-a-teams-for-education-admin-what-do-i-need-to-know-about-app-setup-policies-in-teams-for-education"></a>Je suis un administrateur d’équipe pour l’éducation. De quoi ai-je besoin en savoir plus sur les stratégies de configuration des applications dans teams pour l’éducation?
 
-- L’application appelante n’est pas disponible dans teams pour l’éducation. Lorsque vous créez une stratégie personnalisée de configuration de l’application, l’application d’appel s’affiche dans la liste des applications. Toutefois, l’application n’est pas épinglée aux clients teams et aux équipes destinées aux utilisateurs éducation ne verra pas l’application appels dans Teams. 
-
-- Pour l’instant, les modifications apportées à la stratégie ne sont pas répercutées pour les utilisateurs teams éducation dans l’application Microsoft Teams. Nous travaillons actuellement sur une nouvelle version de l’application qui prend en charge les changements de stratégie pour les équipes pour l’éducation.
+L’application appelante n’est pas disponible dans teams pour l’éducation. Lorsque vous créez une stratégie personnalisée de configuration de l’application, l’application d’appel s’affiche dans la liste des applications. Toutefois, l’application n’est pas épinglée aux clients teams et aux équipes destinées aux utilisateurs éducation ne verra pas l’application appels dans Teams.
 
 #### <a name="how-many-apps-can-be-added-to-a-policy"></a>Combien d’applications peuvent être ajoutées à une stratégie?
 
