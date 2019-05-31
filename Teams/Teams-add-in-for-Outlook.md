@@ -4,7 +4,7 @@ author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
 audience: Admin
-ms.date: 03/08/2019
+ms.date: 05/29/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
@@ -18,40 +18,62 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 801c4f43e9aafa7fe8331d85b601afd584505164
-ms.sourcegitcommit: e5cb24ad166268392e692d3d1b92125646e5d66e
+ms.openlocfilehash: c9a5a17f729c8899c5fb7f7f97a65f9bc36c3080
+ms.sourcegitcommit: e487637fc122727b41b37961f208ddc0d20a3fce
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "34417442"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "34591638"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Utiliser le complément Réunion Teams dans Outlook
 =======================================
 
-Le complément Réunion Teams est installé automatiquement pour les utilisateurs pour lesquels Microsoft Teams et Office 2013 ou Office 2016 sont installés sur leur PC Windows. Le complément Réunion Teams apparaît sur le ruban Calendrier d'Outlook. 
+Le complément réunion teams permet aux utilisateurs de planifier une réunion teams à partir d’Outlook. Le complément est disponible pour Outlook sur Windows, Mac, Web et mobile.
 
-![Capture d'écran du complément Teams sur le ruban Outlook.](media/Teams-add-in-for-Outlook.png)
+## <a name="teams-meeting-add-in-in-outlook-for-windows"></a>Complément réunion teams dans Outlook pour Windows
+
+Le complément Réunion Teams est installé automatiquement pour les utilisateurs pour lesquels Microsoft Teams et Office 2013 ou Office 2016 sont installés sur leur PC Windows. Le complément Réunion Teams apparaît sur le ruban Calendrier d'Outlook.
+
+![Capture d’écran du complément réunion teams sur le ruban Outlook](media/Teams-add-in-for-Outlook.png)
 
 > [!NOTE]
-> Les utilisateurs Windows 7 doivent installer la[mise à jour pour Universal Runtime C dans Windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) pour le complément de réunion Teams afin de l’utiliser.
+> - Si le complément Réunion Teams n'apparaît pas, demandez aux utilisateurs de fermer Outlook et Teams, de redémarrer d'abord le client Teams, de se connecter à Teams puis de redémarrer le client Outlook, dans cet ordre spécifique.
+> - Les utilisateurs de Windows 7 doivent installer la [mise à jour du runtime C universel dans Windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) pour que le complément réunion teams fonctionne.
 
-Si le complément Réunion Teams n'apparaît pas, demandez aux utilisateurs de fermer Outlook et Teams, de redémarrer d'abord le client Teams, de se connecter à Teams puis de redémarrer le client Outlook, dans cet ordre spécifique.
+## <a name="teams-meeting-add-in-in-outlook-for-mac"></a>Complément réunion teams dans Outlook pour Mac
 
-> [!NOTE]
-> Le bouton réunion teams dans Outlook pour Mac s’affiche dans le ruban Outlook pour Mac si Outlook exécute la version 16,20 et les versions ultérieures.
+Le bouton réunion teams dans Outlook pour Mac s’affiche dans le ruban d’Outlook pour Mac si Outlook exécute la version de production 16.24.414.0 et les versions ultérieures.
+
+Les coordonnées de la réunion (le lien de participation aux équipes et les numéros de connexion) seront ajoutés à l’invitation à la réunion une fois que l’utilisateur a cliqué sur **Envoyer**.  
+
+## <a name="teams-meeting-add-in-in-outlook-web-app"></a>Complément réunion teams dans Outlook Web App
+
+Le bouton réunions teams dans Outlook Web App s’affiche dans le cadre de la nouvelle création d’événements si l’utilisateur se trouve dans une version antérieure de la nouvelle version d’Outlook sur le Web. Pour plus d’informations sur la façon dont les utilisateurs peuvent essayer la version antérieure de la nouvelle version d’Outlook sur le Web, consultez le [blog Outlook](https://techcommunity.microsoft.com/t5/Outlook-Blog/Designed-to-be-fast-The-Outlook-on-the-web-user-experience-gets/ba-p/234909?utm_source=t.co&utm_medium=referral) .
+
+![Capture d’écran du complément réunion teams dans Outlook Web App](media/teams-meeting-add-in-web.png)
+
+Les coordonnées de la réunion (le lien de participation aux équipes et les numéros de connexion) seront ajoutés à l’invitation à la réunion une fois que l’utilisateur a cliqué sur **Envoyer**.  
+
+## <a name="teams-meeting-add-in-in-outlook-mobile-ios-and-android"></a>Complément réunion teams dans Outlook Mobile (iOS et Android)
+
+Le bouton réunion teams apparaît dans les dernières versions de l’application Outlook iOS et Android.
+
+![Capture d’écran du complément réunion teams dans Outlook Mobile](media/teams-meeting-add-in-mobile.png)
+
+Les coordonnées de la réunion (le lien de participation aux équipes et les numéros de connexion) seront ajoutés à l’invitation à la réunion une fois que l’utilisateur a cliqué sur **Envoyer**.  
 
 ## <a name="authentication-requirements"></a>Exigences d'authentification
 
 Le complément Réunion Teams requiert de se connecter à Teams en utilisant l'authentification moderne. Si les utilisateurs n'utilisent pas cette méthode pour se connecter, ils pourront continuer à utiliser le client Teams mais ne pourront pas planifier de réunions en ligne Teams à l'aide du complément Outlook. Vous pouvez résoudre ce problème de l'une des manières suivantes :
 
 - Si l'authentification moderne n'est pas configurée pour votre organisation, vous devez la configurer.
-- Si l'authentification moderne est configurée, mais qu'ils l'ont annulée dans la boîte de dialogue, vous devez demander aux utilisateurs de se connecter à nouveau en utilisant l'authentification multifacteur.
+- Si l’authentification moderne est configurée, mais qu’elle a été annulée dans la boîte de dialogue, vous devez demander aux utilisateurs de se reconnecter à l’aide de l’authentification multifacteur.
 
 Pour savoir comment configurer l'authentification, reportez-vous à la rubrique [Modèles d'identité et authentification dans Microsoft Teams](identify-models-authentication.md).
 
 ## <a name="enable-private-meetings"></a>Activer les réunions privées
 
-La **possibilité de planifier des réunions privées** doit être activée dans le centre d’administration Microsoft teams pour que le plug-in soit déployé. Dans le centre d’administration, accédez à **Réunions** > **Stratégies de la réunion**, puis, dans la section**Général**, définissez**Autoriser la planification des réunions privées ** vers sur.)
+La **possibilité de planifier des réunions privées** doit être activée dans le centre d’administration Microsoft teams pour que le complément soit déployé. Dans le centre d’administration, accédez à **Réunions** > **Stratégies de la réunion**, puis, dans la section**Général**, définissez**Autoriser la planification des réunions privées ** vers sur.)
 
 ![Capture d’écran des paramètres dans le centre d’administration de Microsoft Teams.](media/teams-add-in-for-outlook-image1.png)
 
@@ -60,22 +82,33 @@ Le client Teams installe le complément correct en déterminant si les utilisate
 > [!NOTE]
 > Il est possible que les utilisateurs doivent redémarrer Outlook après une installation ou mise à niveau de Teams pour obtenir le complément le plus récent.
 
+## <a name="teams-upgrade-policy-and-the-teams-meeting-add-in-for-outlook"></a>Stratégie de mise à niveau des équipes et complément réunion teams pour Outlook
+
+Les clients peuvent [choisir le passage de la mise à niveau de Skype entreprise à teams](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md). Les administrateurs de clients peuvent utiliser le mode de coexistence équipes pour définir ce voyage pour leurs utilisateurs. Les administrateurs de clients ont la possibilité de permettre aux utilisateurs d’utiliser teams en même temps que Skype entreprise (en mode insulaire). 
+
+Lorsque les utilisateurs qui se trouvent dans le mode îlot planifient une réunion dans Outlook, il s’agit généralement de pouvoir choisir de planifier une réunion Skype entreprise ou Teams. Dans Outlook sur le Web, Outlook sur le Web et Outlook pour Mac, les utilisateurs voient les compléments Skype entreprise et équipe dans le mode îlot. En raison de certaines limitations de la version initiale, Outlook Mobile peut uniquement prendre en charge la création de réunions Skype entreprise **ou** Teams. Pour plus d’informations, consultez le tableau suivant.
+
+| Mode de coexistence dans le centre d’administration teams | Fournisseur de réunions par défaut dans Outlook Mobile |
+| --------------------------------------|---------------------------------------------|
+| Archipels | Skype Entreprise |
+| Skype entreprise uniquement | Skype Entreprise |
+| Collaboration avec teams dans Skype entreprise | Skype Entreprise |
+| Skype entreprise avec collaboration et réunions en équipe | Équipes |
+| Équipes uniquement | Équipes |
+
 ## <a name="other-considerations"></a>Autres considérations à prendre en compte
 
 Certaines fonctionnalités du complément Réunion Teams sont encore en cours de création. Tenez compte des points suivants :
-- L’interrogation n’est pas encore disponible.
-- Le tableau blanc commence à s’inscrire.
-- Des options de réunion ne sont pas disponibles pour le moment.
-- Actuellement, vous pouvez uniquement inviter des personnes de votre entreprise, car les utilisateurs externes ne peuvent pas encore participer aux réunions.
-- Le complément concerne les réunions planifiées avec des participants spécifiques, pas les réunions dans un canal. Les réunions de canal doivent être planifiées au sein de Teams. Actuellement, le complément Réunion Teams dans Outlook est disponible uniquement pour les utilisateurs Windows, mais il sera pris en charge sur Mac prochainement.
+
+- Le complément concerne les réunions planifiées avec des participants spécifiques, pas les réunions dans un canal. Les réunions de canal doivent être planifiées au sein de Teams.
 - Le complément ne fonctionnera pas si un proxy d'authentification se trouve dans le chemin d'accès réseau de l'ordinateur de l'utilisateur et des services Teams.
-- Le complément est déployé de façon incrémentielle et ne peut pas être encore disponible pour votre organisation.
+- Les utilisateurs ne peuvent pas planifier des événements dynamiques à partir d’Outlook. Accédez à teams pour planifier des événements en direct. Pour plus d’informations, voir [qu’est-ce que Microsoft teams Live Events?](teams-live-events/what-are-teams-live-events.md)
 
 ## <a name="troubleshooting"></a>Résolution des problèmes
 
 Si vous ne parvenez pas à obtenir le complément de la réunion Teams pour installer Outlook, essayez de suivre ces étapes de dépannage.
 
-- Assurez-vous que toutes les mises à jour disponibles pour le client de bureau Outlook aient été appliquées 
+- Vérifiez que toutes les mises à jour disponibles pour le client de bureau Outlook ont été appliquées.
 - Redémarrez le client de bureau Teams.
 - Déconnectez-vous, puis reconnectez-vous pour le client de bureau Teams.
 - Fermez le client Outlook pour ordinateur de bureau. (Veillez à ce qu' Outlook ne soit pas exécuté en mode d’administration.)
@@ -85,6 +118,3 @@ Si vous ne parvenez pas à obtenir le complément de la réunion Teams pour inst
 Pour des orientations générales sur la procédure de désactivation des compléments, consultez la rubrique [Afficher, gérer et installer des compléments dans les programmes Office](https://support.office.com/article/View-manage-and-install-add-ins-in-Office-programs-16278816-1948-4028-91E5-76DCA5380F8D).
 
 Découvrez les [réunions et les appels dans Microsoft Teams](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8).
-
-[!INCLUDE [new-feature-availability](includes/new-feature-availability.md)]
-

@@ -15,14 +15,16 @@ description: Apprenez à gérer les devoirs dans le centre d’administration Mi
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 188f4398136c2939ad2a84d75ab27942a5a4593b
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: 22c53433548715fdc2a84a0f45ce0c3fc02d7b98
+ms.sourcegitcommit: e487637fc122727b41b37961f208ddc0d20a3fce
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34433430"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "34591719"
 ---
 # <a name="assignments-in-teams-for-education"></a>Devoirs dans Teams pour l’éducation
+
+[!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
 Les affectations sont des tâches ou des unités de travail attribuées à un étudiant ou à un membre d’équipe dans une classe dans le cadre de leur étude. Vous pouvez créer des devoirs au sein de votre classe Teams.
 
@@ -63,13 +65,17 @@ Pour pouvoir activer Turnitin pour votre organisation, vous devez déjà dispose
 Voici quelques instructions pour vous aider à obtenir ces informations.
 
 TurnitinApiUrl est l’adresse d’hôte de votre console d’administration.
-![Capture d’écran montrant l’adresse hôte](./educationImages/Assignments_mopo_turnitin1.png)
+Example. https:[]()//Your-tenant-Name.Turnitin.com
 
-Accédez à l’onglet intégrations et ajoutez une intégration.
+La console d’administration est l’endroit où vous pouvez créer une intégration et une clé d’API associée à l’intégration.
+
+Sélectionnez **intégrations** dans le menu latéral, sélectionnez **Ajouter une intégration** et attribuez un nom à l’intégration.
 ![Capture d’écran montrant l’ajout d’une nouvelle intégration](./educationImages/Assignments_mopo_turnitin2.png)
 
-Le TurnitinApiKey vous sera fourni une fois que vous aurez suivi les invites. Copiez cette clé et collez-la dans le centre d’administration Microsoft Teams. 
+Le TurnitinApiKey vous sera fourni une fois que vous aurez suivi les invites. Copiez la clé de l’API et collez-la dans le centre d’administration Microsoft Teams.  C’est la seule fois où vous pouvez afficher la clé.
 ![Capture d’écran montrant la copie de la clé de l’API](./educationImages/Assignments_mopo_turnitin3.png)
+
+Lorsque vous cliquez sur le bouton **Enregistrer** dans le centre d’administration pour ce paramètre, attendez jusqu’à 24 heures avant que ces paramètres soient appliqués.
 
 [En savoir plus sur l’intégration entre Turnitin et Microsoft teams](https://www.turnitin.com/products/feedback-studio/microsoft-teams-integration)
 
