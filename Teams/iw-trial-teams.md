@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 933ea45cbcdc9e6af8c25dfdb67758d154731586
-ms.sourcegitcommit: d010c615ee530deb34d79a1a62815ef0a52a2086
+ms.openlocfilehash: c9a2704cf517ac4b8eb0b2f3143c09cb550614ee
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34404293"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548158"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Gérer l’offre d’essai du cloud commercial Microsoft Teams
 =======================================================
@@ -81,11 +81,11 @@ Vous pouvez désactiver la possibilité pour un utilisateur d’installer des ap
 
 1. Dans le [Centre d’administration Microsoft 365](https://portal.office.com/adminportal/home), accédez à **Paramètres** > **Services et compléments** > **Applications et services propriétaires**.
 
-    ![Capture d’écran de la page Services et compléments dans le Centre d’administration d’Office 365.](media/iw-trial-enable-1.png)
+    ![Capture d’écran de la page Services et compléments dans le Centre d’administration](media/iw-trial-enable-1.png)
 
 2. Désactivez **Laisser les utilisateurs installer les applications et services à l’essai**.
 
-    ![Capture d’écran de la page des applications et services appartenant à l’utilisateur dans le Centre d’administration Office 365.](media/iw-trial-enable-2.png)
+    ![Capture d’écran de la page des applications et services appartenant à l’utilisateur dans le Centre d’administration](media/iw-trial-enable-2.png)
 
 
 ### <a name="manage-trial-availability-for-a-user-with-a-license-that-includes-teams"></a>Gérer la disponibilité d’une version d’évaluation pour un utilisateur disposant d’une licence incluant Teams
@@ -102,7 +102,7 @@ Pour désactiver l’accès à Microsoft Teams :
 
 4. Dans le volet **Licences de produit**, sélectionnez **Désactivé**.
 
-    ![Capture d’écran de la section Licences des produits dans le Centre d’administration Office 365.](media/iw-trial-enable-3.png)
+    ![Capture d’écran de la section Licences dans le centre d’administration.](media/iw-trial-enable-3.png)
 
 ### <a name="manage-teams-availability-for-users-who-already-claimed-the-trial"></a>Gérer la disponibilité de Teams pour les utilisateurs qui ont déjà réclamé l’essai
 
@@ -118,7 +118,7 @@ Pour désactiver la licence d’évaluation :
 
 4. Dans le volet **Licences de produit**, sélectionnez **Désactivé**.
 
-    ![Capture d’écran du paramètre de licence d’évaluation de Teams dans le volet Licences des produits](media/iW-trial-enable-4.png)
+    ![Capture d’écran du paramètre de licence d’évaluation de Teams dans le volet Licences](media/iW-trial-enable-4.png)
     
 >[!Note]
 >Le bouton bascule de Version d’évaluation de Microsoft Teams apparaît une fois que le premier utilisateur s’est inscrit à l’évaluation dans l’organisation.

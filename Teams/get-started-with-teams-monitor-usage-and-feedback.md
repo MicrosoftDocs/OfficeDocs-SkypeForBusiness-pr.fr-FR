@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0447e006bfb276858d2fcdf02524bb1d2f0f1227
-ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
+ms.openlocfilehash: db4eaf68a2402281a32e10132b46ab461d1fed23
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "33865179"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548222"
 ---
 # <a name="monitor-usage-and-feedback-in-microsoft-teams"></a>Surveiller l’utilisation et les commentaires dans Microsoft Teams
 Il est important de savoir comment les utilisateurs utilisent Teams et quelle est leur expérience avec Teams. Les rapports d’utilisation peuvent vous aider à mieux comprendre les modèles d’utilisation et, avec les commentaires des utilisateurs, vous donne la perspective nécessaire pour procéder au déploiement à plus large échelle et savoir où hiérarchiser les efforts de formation et de communication.
@@ -40,14 +40,14 @@ Pour afficher ces rapports, vous devez être un administrateur général dans Of
 
 - **Rapport d’utilisation Teams**: ce rapport vous donne une vue d’ensemble de l’utilisation dans Teams, y compris le nombre total d’utilisateurs actifs et de canaux et le nombre d’utilisateurs actifs, de canaux, d’invités et de messages dans chaque équipe. 
 
-    ![Rapport d’utilisation Teams](media/teams-reports-teams-usage.png "Capture d’écran du rapport d’utilisation Teams dans le centre d’administration de Microsoft Teams")     
+    ![Capture d’écran d’un Rapport d’utilisation Teams](media/teams-reports-teams-usage.png "Capture d’écran du rapport d’utilisation Teams dans le centre d’administration de Microsoft Teams")     
 - **Rapport d’activité des utilisateurs Teams**: ce rapport montre les types d’activités des utilisateurs, par exemple, combien de personnes communiquent par le biais d’appels personne à personne, de messages de canal et de messages par conversation privée. 
 
-    ![Rapport d’activité des utilisateurs Teams](media/teams-reports-user-activity.png "Capture d’écran du rapport d’activité des utilisateurs Teams dans le centre d’administration de Microsoft Teams") 
+    ![Capture d’écran d’un rapport d’activité des utilisateurs Teams](media/teams-reports-user-activity.png "Capture d’écran du rapport d’activité des utilisateurs Teams dans le centre d’administration de Microsoft Teams") 
 `
 - **Rapport d’utilisation des appareils Teams**: ce rapport indique comment les utilisateurs se connectent à Teams, y compris combien de personnes utilisent Teams sur leur appareil mobile lorsqu’elles sont en déplacement. 
 
-    ![Rapport d’utilisation des appareils Teams](media/teams-reports-device-usage.png "Capture d’écran du rapport d’utilisation des appareils Teams dans le centre d’administration de Microsoft Teams")
+    ![Capture d’écran d’un rapport d’utilisation des appareils Teams](media/teams-reports-device-usage.png "Capture d’écran du rapport d’utilisation des appareils Teams dans le centre d’administration de Microsoft Teams")
 
 Pour en savoir plus, consultez l’article [Rapports analytiques et création de rapports](teams-analytics-and-reports/teams-reporting-reference.md). 
 
