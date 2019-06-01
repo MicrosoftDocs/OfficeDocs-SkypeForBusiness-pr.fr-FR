@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2c4652e27caf207b1af275ecc1fae0d0daa8598b
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 65878cc54973b67a604b08d3579553bca6ca8e4a
+ms.sourcegitcommit: ff777b61573b9d90e2d49c49b41fad654eeb3af7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548365"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "34652737"
 ---
 # <a name="deploy-my-service"></a>Déployer mon service
 
@@ -89,7 +89,7 @@ Quelle que soit la taille et la complexité de l’emplacement, l’activation d
   
    - ![Illustration d’une coche](media/deploy-my-service-image3.png) verte **: oui ou non applicable (vert):** l’activité est terminée ou n’est pas applicable pour ce site, et aucune action supplémentaire n’est requise.</li>
    - ![Image d’un point](media/deploy-my-service-image4.png) d’exclamation jaune <strong>l’activité n’est pas achevée (jaune):</strong> l’activité n’a pas encore été achevée et doit être mise à jour sur Oui ou non.</li>
-   - ![Illustration d’une marque](media/deploy-my-service-image5.png) rouge X <strong>no (rouge):</strong> l’activité ne peut pas être effectuée en raison d’un problème et doit être acheminée vers la réunion d’État du projet.</li></ul>
+   - ![Illustration d’un X rouge indiquant qu'](media/deploy-my-service-image5.png) il n’y a <strong>pas de no (rouge):</strong> l’activité ne peut pas être effectuée en raison d’un problème et doit être acheminée vers la réunion d’État du projet.</li></ul>
 
 6. Le statut est répété dans chaque section, et le titre de section est mis en forme avec l’un de ces indicateurs d’État. Le **statut hebdomadaire** est également mis à jour automatiquement.
 

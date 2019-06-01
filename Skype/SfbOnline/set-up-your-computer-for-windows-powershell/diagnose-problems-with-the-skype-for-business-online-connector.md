@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Résoudre les problèmes de création d’une session PowerShell distante pour se connecter à Skype entreprise Online, y compris les erreurs d’importation-module, d’interpréteur de commande et d’autorisation.
-ms.openlocfilehash: 9e614ce02d9d47c1da2a8263ac8d2e1a307edb8f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f6cd98381379c14f41c1de2dc1a7b3f239463c3d
+ms.sourcegitcommit: 1336f6c182043016c42660d5f21632d82febb658
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34284825"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "34667371"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>Diagnostiquer des problèmes de connexion avec le connecteur Skype Entreprise Online
 
@@ -43,9 +43,9 @@ Cette rubrique fournit des informations pour vous aider à diagnostiquer et rés
     
 - [La possibilité de se connecter au client a été désactivée dans Skype entreprise Online](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMKAbilityConnect)
     
-- [Le nombre maximal d’interpréteurs simultanés pour cet utilisateur dans Skype entreprise Online a été dépassé.](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMK_MaxNumberShellsUser)
-    
-- [Le nombre maximal d’interpréteurs simultanés pour ce client dans Skype entreprise Online a été dépassé.](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMK_MaxNumberShellsTenant)
+- [Le nombre maximal d’interpréteurs simultanés pour cet utilisateur dans Skype entreprise Online a été dépassé.](#the-maximum-number-of-concurrent-shells-for-this-user-in-skype-for-business-online-has-been-exceeded)
+
+- [Le nombre maximal d’interpréteurs simultanés pour ce client dans Skype entreprise Online a été dépassé.](#the-maximum-number-of-concurrent-shells-for-this-tenant-in-skype-for-business-online-has-been-exceeded)
     
 ## <a name="import-module-error-caused-by-windows-powershell-execution-policy"></a>Erreur d’importation-module provoquée par la stratégie d’exécution Windows PowerShell
 <a name="BKMKPowerShellExecutionPolicy"> </a>
