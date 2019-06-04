@@ -1,7 +1,7 @@
 ---
 title: Ajouter des bots à des conversations et des canaux privés dans Microsoft Teams
-author: LolaJacobsen, DamienDoumer
-ms.author: lolaj, Damien
+author: LolaJacobsen
+ms.author: lolaj
 manager: serdars
 ms.date: 12/05/2018
 ms.topic: article
@@ -14,12 +14,12 @@ ms.reviewer: lucarras
 description: Découvrez comment ajouter des bots dans Microsoft Teams pour des conversations et des canaux privés, créer des bots personnalisés et charger une version test de votre propre bot pour une conversation privée.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6987c14973443e62f0be69f9872c4e248ddb026b
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 926a698e65176596e0009e42d3912fb88c771a5d
+ms.sourcegitcommit: 55da03c85237b43b848e7ff9b427304c2d9e568f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548844"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "34681857"
 ---
 <a name="add-bots-for-private-chats-and-channels-in-microsoft-teams"></a>Ajouter des bots à des conversations et des canaux privés dans Microsoft Teams
 ==========================================================

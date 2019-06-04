@@ -16,12 +16,12 @@ search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: Apprenez-en davantage sur les stratégies de messagerie et leur utilisation pour contrôler la messagerie vocale dans Teams.
-ms.openlocfilehash: 74baed2a51f1a03ee29238da1795c67601e30ae0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b3d1db5b89c88784761d5bcef3a5400eeabdabe5
+ms.sourcegitcommit: 55da03c85237b43b848e7ff9b427304c2d9e568f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298057"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "34681892"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Gérer les stratégies de messagerie dans Teams
 
@@ -86,7 +86,7 @@ Utilisez les paramètres suivants pour modifier la stratégie de messagerie gén
 - **Autoriser** les aperçus d’URL Utilisez ce paramètre pour activer ou désactiver l’aperçu d’URL automatique dans les messages.
 - **Permettre aux utilisateurs de traduire des messages** Activez ce paramètre pour permettre aux utilisateurs de traduire automatiquement des messages de teams dans la langue spécifiée par leurs paramètres de langue personnels pour Office 365.
 - **Autoriser le lecteur immersif à afficher les messages** Activez ce paramètre pour permettre aux utilisateurs d’afficher des messages dans le lecteur immersif Microsoft. Le lecteur immersif est un outil d’apprentissage qui offre une interface de lecture plein écran pour améliorer la lisibilité du texte.
-- **Les utilisateurs peuvent envoyer des notifications de priorité** Si vous activez cette fonction, les utilisateurs peuvent envoyer un message qui utilise les notifications de priorité. Les notifications de priorité avertissent les utilisateurs de manière répétée sur une période de 20 minutes, ou jusqu’à ce que les messages soient sélectionnés et lus par le destinataire, ce qui permet d’optimiser la probabilité que le message soit reçu et agi en temps opportun.
+- **Les utilisateurs peuvent envoyer des notifications de priorité** Si vous activez cette fonction, les utilisateurs peuvent envoyer un message qui utilise les notifications de priorité. Les notifications de priorité avertissent les utilisateurs de manière répétée sur une période de 20 minutes, ou jusqu’à ce que les messages soient sélectionnés et lus par le destinataire, ce qui permet d’optimiser la probabilité que le message soit reçu et agi en temps opportun. [!INCLUDE [pri-message-offer](includes/pri-message-offer.md)]
 - **Creation de messages vocaux** 
     - **Autorisé dans les conversations et les canaux** Cela signifie que les utilisateurs peuvent laisser des messages vocaux dans les conversations et les canaux.
     - **Accordé uniquement aux conversations** Cela signifie que les utilisateurs peuvent laisser des messages vocaux dans les conversations, mais pas dans les canaux.

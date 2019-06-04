@@ -16,19 +16,23 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
+ROBOTS: NOINDEX, NOFOLLOW
 description: Apprenez-en davantage sur les stratégies d’autorisation d’applications dans Microsoft teams et la manière de les utiliser pour contrôler les applications disponibles pour les utilisateurs de votre organisation.
 f1keywords:
 - ms.teamsadmincenter.apppolicies.overview
-ms.openlocfilehash: d15346370015843eeb497cce7fa85928e77c96d9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: fac559fb492155af9953beb74c2fac1526f01432
+ms.sourcegitcommit: 55da03c85237b43b848e7ff9b427304c2d9e568f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298890"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "34681920"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Gérer les stratégies d’autorisation d’application dans Microsoft Teams
 
 > [!INCLUDE [feature coming soon](includes/new-feature-coming-soon-article.md)]
+
+> [!NOTE]
+> Pour la méthode actuelle de gestion des applications dans Microsoft Teams, voir [gérer les paramètres de Microsoft teams pour votre organisation](https://docs.microsoft.com/MicrosoftTeams/enable-features-office-365).
 
 En tant qu’administrateur, vous pouvez utiliser des stratégies d’autorisation d’application pour contrôler les applications disponibles pour les utilisateurs de Microsoft teams au sein de votre organisation. Vous pouvez autoriser ou bloquer toutes les applications ou applications spécifiques publiées par Microsoft, des tiers et votre organisation. Lorsque vous bloquez une application, les utilisateurs ne peuvent pas l’installer à partir de l’App Store Teams.
 

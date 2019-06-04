@@ -13,12 +13,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Démarrage avec la messagerie sécurisée pour les organismes de santé
-ms.openlocfilehash: 957e92ec9676047d727ba26b3eb2c29d1c3db558
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 167021c475edd760bf9b56d550616ebb199f2fb5
+ms.sourcegitcommit: 55da03c85237b43b848e7ff9b427304c2d9e568f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494553"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "34681904"
 ---
 # <a name="get-started-with-secure-messaging-for-healthcare-organizations"></a>Démarrage avec la messagerie sécurisée pour les organismes de santé
 
@@ -52,6 +52,8 @@ Les paramètres suivants sont particulièrement intéressants pour les applicati
 ## <a name="priority-notifications"></a>Notifications de priorité
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
+
+[!INCLUDE [pri-message-offer](../../includes/pri-message-offer.md)]
 
 - ![Icône du numéro 2, qui référence une légende dans la capture d'](../../media/sfbcallout2.png) écran précédente **les utilisateurs peuvent envoyer des notifications de priorité** utilisez ce paramètre pour autoriser les utilisateurs à envoyer des messages de discussion prioritaire à d’autres utilisateurs. Cette fonctionnalité permet au personnel de l’hôpital de s’avertir lorsque l’un d’eux nécessite son attention. À la différence des messages de type «important» normaux, les notifications de priorité avertissent les utilisateurs de manière répétée sur une période de 20 minutes ou jusqu’à ce que les messages soient sélectionnés et lus par le destinataire, ce qui maximise la probabilité que le message soit reçu et agi en temps opportun.
 
