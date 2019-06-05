@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c9a5a17f729c8899c5fb7f7f97a65f9bc36c3080
-ms.sourcegitcommit: e487637fc122727b41b37961f208ddc0d20a3fce
+ms.openlocfilehash: 43d830429d983947f43aa11119801aef803f03f9
+ms.sourcegitcommit: c4827e9124ebfb62d8e5c93dc2652d24988bd811
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34591638"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "34694746"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Utiliser le complément Réunion Teams dans Outlook
 =======================================
@@ -61,6 +61,14 @@ Le bouton réunion teams apparaît dans les dernières versions de l’applicati
 ![Capture d’écran du complément réunion teams dans Outlook Mobile](media/teams-meeting-add-in-mobile.png)
 
 Les coordonnées de la réunion (le lien de participation aux équipes et les numéros de connexion) seront ajoutés à l’invitation à la réunion une fois que l’utilisateur a cliqué sur **Envoyer**.  
+
+## <a name="teams-meeting-add-in-in-and-findtime-for-outlook"></a>Complément réunion teams dans et FindTime pour Outlook
+FindTime est un complément pour Outlook qui permet aux utilisateurs de parvenir à un consensus sur le temps de réunion entre entreprises. Lorsque les invités de la réunion ont fourni leurs horaires préférés, FindTime envoie l’invitation à la réunion de la part de l’utilisateur. Si l’option **réunion en ligne** est sélectionnée dans FindTime, FindTime planifiera une réunion Skype entreprise ou Microsoft Teams. (FindTime va utiliser selon la configuration définie par votre organisation comme canal de réunion en ligne par défaut).
+
+> [!NOTE]  
+> Si vous avez enregistré un paramètre Skype entreprise dans votre [tableau de bord de Findtime](https://findtime.microsoft.com/UserDashboard), Findtime utilisera ce paramètre au lieu de Microsoft Teams. Si vous voulez utiliser Microsoft Teams, supprimez le paramètre Skype entreprise dans votre tableau de bord.
+
+Pour plus d’informations, voir [planifier des réunions à l’aide de FindTime](https://support.office.com/article/scheduling-meetings-with-findtime-4dc806ed-fde3-4ea7-8c5e-b5d1fddab4a6) .
 
 ## <a name="authentication-requirements"></a>Exigences d'authentification
 

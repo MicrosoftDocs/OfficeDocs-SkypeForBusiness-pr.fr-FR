@@ -15,12 +15,12 @@ MS.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5c71b789684d6d40ab9eb67e0464f8dc46ae0e96
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b8c28f3eac5bdfbd8542a77dca5386d27663d8c5
+ms.sourcegitcommit: 3678dbbc8c36010fbf12c57b52281ef4fca9f065
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299680"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "34695940"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites et spécifications de Microsoft Teams
 
@@ -64,7 +64,7 @@ En stockant les fichiers dans la bibliothèque de documents SharePoint Online e
 |------------------------|---------|---------|---------|---------|---------|---------|
 |Stockage                 |1 To par organisation, plus 10 Go par licence achetée  |1 To par organisation, plus 10 Go par licence achetée  |1 To par organisation, plus 10 Go par licence achetée   |1 To par organisation, plus 10 Go par licence achetée |1 To par organisation, plus 10 Go par licence achetée  |1 To par organisation           |
 |Espace de stockage pour fichiers Teams |Jusqu’à 25 To par collection de sites ou groupe |Jusqu’à 25 To par collection de sites ou groupe |Jusqu’à 25 To par collection de sites ou groupe |Jusqu’à 25 To par collection de sites ou groupe |Jusqu’à 25 To par collection de sites ou groupe |Jusqu’à 25 To par collection de sites ou groupe |
-|Limite de chargement de fichiers       |15 Go    |15 Go    |15 Go    |15 Go    |15 Go    |15 Go    |
+|Limite de chargement de fichier (par fichier)    |15 Go    |15 Go    |15 Go    |15 Go    |15 Go    |15 Go    |
 
 Chaque onglet Fichiers dans Teams est exécuté sur un serveur principal SharePoint Online, donc les limites de stockage ci-dessus s’appliquent à chaque Canal dans une Équipe.
 
