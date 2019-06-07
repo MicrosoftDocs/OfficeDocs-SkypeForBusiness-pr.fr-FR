@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6af82e958d3a17c8eb2b3ef64339ae69c1d0871a
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: b8fa8b567e82e79fdd280e7f43147620e81ef8be
+ms.sourcegitcommit: 21a5550e3c0feafaa57dbcdc428ed13eedd276b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34433055"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "34748379"
 ---
 <a name="what-the-guest-experience-is-like"></a>À quoi ressemble l'expérience des invités
 =================================
@@ -31,7 +31,7 @@ Lorsqu'un invité est convié à rejoindre une équipe, il reçoit un e-mail de 
     
 Tous les membres de l'équipe voient un message dans le fil des canaux informant que le propriétaire de l'équipe a ajouté un invité et indiquant son nom. Tous les membres de l'équipe peuvent identifier facilement les utilisateurs qui sont invités. Comme l'illustre l'exemple d'équipe dans la capture d'écran ci-après, une bannière indique : « Cette équipe contient des invités » et une légende « INVITÉ » s'affiche près du nom de chaque invité.
     
-! [Capture d’écran montrant une bannière de notification aux utilisateurs invités] (Media/Guest-Experience-image2. png» montre une partie du canal marketing de Northwind Traders avec la notification dans la bannière supérieure indiquant «cette équipe a des invités» et les utilisateurs identifiés par le mot «GUEST» à côté de leur nom.»
+![Capture d’écran illustrant des notifications de bannière aux utilisateurs invités] La (media/guest-experience-image2.png "capture d’écran montre une partie du canal marketing de Northwind Traders, avec la notification dans la bannière supérieure indiquant que l’équipe a des invités et des utilisateurs identifiés par le mot «Guest» à côté de leur nom.")
 
 Le tableau suivant compare la fonctionnalité de Microsoft Teams disponible pour les membres d'une équipe d'une organisation à celle disponible pour un utilisateur invité de l'équipe.
 

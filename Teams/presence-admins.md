@@ -1,5 +1,5 @@
 ---
-title: Présence des utilisateurs dans Teams
+title: Présence de l’utilisateur dans teams
 author: jambirk
 ms.author: jambirk
 manager: serdars
@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3fd6ac289df238d9f410266b1eca43a3a18f493e
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 30b50972dd53300905f580c51a410d699ebb1bff
+ms.sourcegitcommit: 21a5550e3c0feafaa57dbcdc428ed13eedd276b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548524"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "34748442"
 ---
-# <a name="user-presence-in-teams"></a>Présence des utilisateurs dans Teams
+# <a name="user-presence-in-teams"></a>Présence de l’utilisateur dans teams
 
 Les informations de présence font partie du profil d’un utilisateur dans Microsoft Teams (et dans Office 365), et indiquent la disponibilité et l’état actuel de l’utilisateur à d’autres utilisateurs au sein de l’organisation. Par défaut, tous les membres de votre organisation qui utilisent teams peuvent voir-en presque en temps réel, qu’ils soient ou non disponibles en ligne.
 
@@ -34,13 +34,13 @@ Les statuts de présence des utilisateurs disponibles dans teams sont les suivan
 |:--- |:---|
 | ![Marque verte CHEK, indiquant la présence disponible](media/Presence_Available.png) Disponibles|![Marque verte CHEK, indiquant la présence disponible](media/Presence_Available.png) Disponibles|
 || ![Ouvrir la marque verte CHEK, indiquant que le OOF est disponible](media/Presence_Available_OOF.png) Disponible, absent (e) du Bureau |
-|  ![Cercle rouge continu indiquant Busy](media/Presence_Busy.png) Très |  ![Très](media/Presence_Busy.png) Très  |
+|  ![Cercle rouge continu indiquant Busy](media/Presence_Busy.png) Très |  ![Cercle rouge continu indiquant Busy](media/Presence_Busy.png) Très  |
 || ![Cercle rouge continu indiquant qu’il est occupé pendant un appel](media/Presence_Busy.png) En communication|
 || ![Cercle rouge continu indiquant qu’il est occupé dans une réunion](media/Presence_Busy.png) En réunion |
 || ![Cercle rouge pour indiquer qu’il est occupé](media/Presence_Busy_OOF.png) En communication, absent (e) du Bureau|
 |  ![Cercle rouge avec ligne blanche indiquant ne pas déranger](media/Presence_DND.png) Ne pas déranger ||
 || ![Cercle rouge avec une ligne blanche indiquant une présentation](media/Presence_DND.png) Présente|
-| ![Icône d’horloge jaune, indiquant absent](media/Presence_Away.png) Disparaître| ![disparaître](media/Presence_Away.png) Disparaître|
+| ![Icône d’horloge jaune, indiquant absent](media/Presence_Away.png) Disparaître| ![Icône d’horloge jaune, indiquant absent](media/Presence_Away.png) Disparaître|
 || ![Icône d’horloge jaune indiquant](media/Presence_Away.png) l' *heure* de la dernière vue|
 |![Icône d’horloge jaune, indiquant qu’il n’y a plus de retour](media/Presence_Away.png) On arrive| |
 || ![Icône d’horloge jaune, indiquant qu’il n’est pas opérationnel](media/Presence_Away.png)  Sur le Bureau|
@@ -60,9 +60,9 @@ Les utilisateurs peuvent spécifier qui peut vous répartir (ils remplacent le p
 
 Les paramètres d’administration suivants dans Skype entreprise sont différents dans teams:
 - Le partage de présence est toujours activé dans teams pour les utilisateurs au sein de l’organisation. La configuration de la vie privée (en choisissant qui peut voir la présence) n’est pas disponible dans Teams.
-- Le partage de présence avec tout le monde (y compris les services fédérés) est toujours activé pour les utilisateurs de Microsoft Teams. Leur liste de contacts (si les utilisateurs en possèdent une dans marketing) est visible sous **chat _GT_ contacts** ou sous **appels > contacts**.
+- Le partage de présence avec tout le monde (y compris les services fédérés) est toujours activé pour les utilisateurs de Microsoft Teams. La liste de contacts (s’il en existe une dans Skype entreprise) est visible sous **discussions > contacts** ou sous **appels > contacts**.
 - Le client ne pas déranger et les fonctionnalités d’innovation sont toujours activées pour les utilisateurs de Microsoft Teams.
-- Calendrier (inclut les informations d’absence du & d’autres informations de calendrier) l’intégration est toujours activée pour les utilisateurs de teams s’ils sont intégrés à Outlook.
+- Calendrier (y compris les informations d’absence du bureau et d’autres informations de calendrier) l’intégration est toujours activée pour les utilisateurs en équipe, si ils sont intégrés à Outlook.
 - Le *dernier vu* ou *absent depuis* l’indicateur (dans le cas d’un environnement double avec Skype entreprise) est toujours activé pour les utilisateurs de Microsoft Teams.
 
 > [!NOTE]
