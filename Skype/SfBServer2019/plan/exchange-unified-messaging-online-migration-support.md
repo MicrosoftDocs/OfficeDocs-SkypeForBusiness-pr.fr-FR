@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft retraite le service Exchange Unified Messaging Online (ExchUMO) en février 2020. Cet article récapitule ce que les clients concernés doivent savoir et ce qu’ils doivent faire pour planifier leur continuité d’activité.
-ms.openlocfilehash: ba9df18478057e9c32b0f2cea70a10c6c7ab36e8
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 785c80b435bfff5b8a9cda3fca17d57756d06091
+ms.sourcegitcommit: b9e7a11d8332a029a4f1cd4e396787f5a74f0a44
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494187"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "34702679"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Prise en charge de la migration en ligne de la messagerie unifiée Exchange
 
@@ -48,7 +48,7 @@ Microsoft a identifié de nombreux déploiements de clients qui utilisent des fo
 |---------|---------|---------|
 |Clients prêts à migrer<br><br>Fonctionnalités à migrer:<br><ul><li>Messagerie vocale</ul>   |   Mars-2019  |Donnés<ul><li>    Clients ayant une simplicité de déploiement et d’utilisation de la boîte vocale<li>Clients ayant établi toutes les exigences requises par Microsoft pour exécuter la migration<ul>|
 |Clients ayant des connaissances préalables<br><br>Fonctionnalités à migrer:<br><ul><li>Messagerie vocale<li>Standard automatique</ul> |  2019-décembre |Donnés <br><ul><li>La configuration hybride n’est pas établie/terminée<li>Les numéros PSTN hybrides ne sont pas configurés</ul>|
-|Clients nécessitant un engagement d’administration & l’investissement client<br><br>Fonctionnalités à migrer:<ul><li>la boîte vocale<li>Standard automatique<li>Intégration de télécopie</ul>| Par le 2020 février  | Donnés <br><ul><li>Le service ExchUMO est consommé par un PBX tiers<li>Clients ayant besoin d’avoir accès aux abonnés PSTN<li>Clients sur marketing 2010 (non pris en charge)<li>Intégration de télécopie</ul> |
+|Les clients qui ont besoin d’une implication d’administration & investissement client<br><br>Fonctionnalités à migrer:<ul><li>la boîte vocale<li>Standard automatique<li>Intégration de télécopie</ul>| Par le 2020 février  | Donnés <br><ul><li>Le service ExchUMO est consommé par un PBX tiers<li>Clients ayant besoin d’avoir accès aux abonnés PSTN<li>Clients sur marketing 2010 (non pris en charge)<li>Intégration de télécopie</ul> |
 
 ## <a name="migration-steps"></a>Étapes de migration
 
@@ -173,6 +173,10 @@ Microsoft a identifié de nombreux déploiements de clients qui utilisent des fo
 | DelrinaFax| Fonctionnalités de service | Intégration de télécopie|  | N | O    |
 
 ### <a name="suggested-test-plan-and-post-migration-validation-for-admins"></a>Plan de test et validation après migration suggérées pour les administrateurs
+
+Pour vérifier que vos utilisateurs ont été migrés vers la boîte vocale Cloud, il suffit de laisser un message vocal à un utilisateur et de vérifier le corps du message dans Outlook, mais les messages vocaux Cloud contiennent un pied de page supplémentaire qui lit:
+
+**Merci d’utiliser la transcription. Si vous ne voyez pas de transcription plus haut, c’est parce que la qualité audio n’était pas suffisamment claire pour transcrire.**
 
 Lors du test de la fonctionnalité de messagerie vocale après la migration de vos utilisateurs, assurez-vous de prendre en compte les scénarios suivants:
 
