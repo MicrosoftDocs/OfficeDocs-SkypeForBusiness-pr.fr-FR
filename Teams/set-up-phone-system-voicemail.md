@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Découvrez comment configurer la messagerie vocale Cloud pour vos utilisateurs. '
-ms.openlocfilehash: bff4de7ed77ae7168e6daacf258e73dbc17a736a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 49f64f4b4cda9830bc189310efc26f39859009af
+ms.sourcegitcommit: 1764aa53441b9de5a8cfa37be344657176ee5703
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298670"
+ms.lasthandoff: 06/09/2019
+ms.locfileid: "34808024"
 ---
 # <a name="set-up-cloud-voicemail"></a>Configurer la Messagerie vocale cloud
 
@@ -70,6 +70,8 @@ Vous trouverez ci-après des informations sur la configuration de la messagerie 
 > Pour les clients Skype entreprise, la désactivation de la messagerie vocale par le biais d’une politique d’appel Microsoft teams peut également désactiver le service de boîte vocale pour vos utilisateurs Skype entreprise.
 
 La transcription de la messagerie vocale est activée par défaut et le masquage de la transcription est désactivé par défaut pour toutes les organisations et les utilisateurs ; toutefois, vous pouvez les contrôler à l’aide des applets de commande [Set-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798310.aspx) et [Grant-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798311.aspx).
+
+Les messages vocaux reçus par les utilisateurs de votre organisation sont transcrits dans la région où votre client Office 365 est hébergé. La région où votre client est hébergé n’est peut-être pas la même région où se trouve l’utilisateur qui reçoit le message de la boîte vocale. Pour afficher la région où votre client est hébergé, accédez à la page de profil de l' [organisation](https://go.microsoft.com/fwlink/p/?linkid=2067339) , puis cliquez sur **afficher les détails** en regard de emplacement des **données**.
 
 > [!IMPORTANT]
 > Vous ne pouvez pas créer une nouvelle instance de stratégie pour le masquage de la transcription et de la transcription à l’aide de l’applet **de nouvelle cmdlet New-CsOnlineVoiceMailPolicy** et vous ne pouvez pas supprimer une instance de stratégie existante à l’aide de l’applet de passe **Remove-CsOnlineVoiceMailPolicy** .

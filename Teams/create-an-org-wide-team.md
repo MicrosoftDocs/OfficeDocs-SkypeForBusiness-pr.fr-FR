@@ -4,7 +4,6 @@ author: LanaChin
 ms.author: v-lanac
 ms.reviewer: phlouie
 manager: serdars
-ms.date: 09/27/2018
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
@@ -15,22 +14,24 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b999419f8fec9c205ec9713181596fba1fb38999
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 6bb614de33f532dcf26d7522969911c46331297a
+ms.sourcegitcommit: 0278cfe7d5ec53e83df4d9c8b9afb0f425cbb9d2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494044"
+ms.lasthandoff: 06/08/2019
+ms.locfileid: "34802645"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Créer une équipe à l’échelle de l’organisation dans Microsoft Teams
 
-Les équipes à l’échelle de l’organisation offrent une méthode automatique pour tous les utilisateurs d’une petite entreprise pour collaborer. 
+Les équipes à l’échelle de l’organisation offrent une méthode automatique pour tous les utilisateurs d’une petite entreprise pour collaborer.
  
-Grâce aux équipes au sein de l’organisation, les administrateurs généraux peuvent facilement créer une équipe publique qui collecte chaque utilisateur au sein de l’organisation et reste l’appartenance à la mise à jour d’Active Directory à mesure que les utilisateurs rejoignent et quittent l’organisation. Seuls les administrateurs généraux peuvent créer des équipes à l’échelle de l’organisation et actuellement une équipe à l’échelle de l’organisation est limitée aux organisations ne disposant pas de plus de 5 000 utilisateurs. Si ces conditions sont remplies, les administrateurs généraux pourront voir l’échelle de l' **organisation** en tant qu’option lors de la création **d’une équipe à partir de zéro lors de** la création d’une équipe. 
+Grâce aux équipes au sein de l’organisation, les administrateurs généraux peuvent facilement créer une équipe publique qui collecte les informations de tous les utilisateurs au sein de l’organisation et met à jour l’appartenance avec Active Directory à mesure que les utilisateurs rejoignent et quittent l’organisation. Seuls les administrateurs généraux peuvent créer des équipes à l’échelle de l’organisation et actuellement une équipe à l’échelle de l’organisation est limitée aux organisations ne disposant pas de plus de 5 000 utilisateurs. Il existe également une limite de cinq équipes au sein de l’organisation par client.  Si ces conditions sont remplies, les administrateurs généraux pourront voir l’échelle de l' **organisation** en tant qu’option lors de la création **d’une équipe à partir de zéro lors de** la création d’une équipe. 
 
 ![Capture d’écran de l’option de création d’une équipe à l’échelle de l’organisation] (media/create-org-wide-team.png "Capture d’écran de l’option de création d’une équipe à l’échelle de l’organisation")
 
-Lorsque vous créez une équipe à l’échelle de l’organisation, tous les administrateurs globaux sont ajoutés en tant que propriétaires d’équipe, et tous les utilisateurs actifs sont ajoutés en tant que membres de l’équipe. Les utilisateurs désactivés pour les équipes, les utilisateurs invités et la plupart des salles ne sont pas ajoutés à l’équipe. Dans la mesure où l’annuaire de votre organisation est mis à jour de manière à inclure les nouveaux utilisateurs actifs ou que les utilisateurs ne travaillent plus dans votre société et qu’elle est désactivée, les modifications sont automatiquement synchronisées et les utilisateurs sont ajoutés ou supprimés de l’équipe. Les membres d’une équipe ne peuvent pas quitter une équipe à l’échelle de l’organisation. En tant que propriétaire de l’équipe, vous pouvez ajouter ou supprimer des utilisateurs manuellement, si nécessaire.
+Lorsque vous créez une équipe à l’échelle de l’organisation, tous les administrateurs globaux sont ajoutés en tant que propriétaires d’équipe, et tous les utilisateurs actifs sont ajoutés en tant que membres de l’équipe. Les utilisateurs sans licence sont également ajoutés à l’équipe. La première fois qu’un utilisateur sans licence se connecte à Teams, il reçoit une licence d’évaluation de Cloud Computing Microsoft Teams. Pour en savoir plus sur la licence d’évaluation, voir [gérer l’offre d’évaluation de Cloud Computing teams](iw-trial-teams.md). Les utilisateurs désactivés pour les équipes, les utilisateurs invités et la plupart des salles ne sont pas ajoutés à l’équipe. 
+
+Dans la mesure où l’annuaire de votre organisation est mis à jour de manière à inclure les nouveaux utilisateurs actifs ou que les utilisateurs ne travaillent plus dans votre société et qu’elle est désactivée, les modifications sont automatiquement synchronisées et les utilisateurs sont ajoutés ou supprimés de l’équipe. Les membres d’une équipe ne peuvent pas quitter une équipe à l’échelle de l’organisation. En tant que propriétaire de l’équipe, vous pouvez ajouter ou supprimer des utilisateurs manuellement, si nécessaire.
 
 > [!NOTE]
 > - Si vous ne voyez pas l’option **à l’échelle** de l’Organisation lors de la création d’une équipe et que vous êtes un administrateur global, il est possible que la fonctionnalité soit en cours de déploiement ou que votre organisation ait plus de la limite de taille actuelle des membres 5 000. Nous cherchons à augmenter cette limite à l’avenir.
@@ -40,9 +41,9 @@ Lorsque vous créez une équipe à l’échelle de l’organisation, tous les ad
 Pour tirer le meilleur parti de votre équipe au sein de l’organisation, nous recommandons aux propriétaires d’équipe de procéder comme suit.
 
 ### <a name="allow-only-team-owners-to-post-to-the-general-channel"></a>Autoriser uniquement les propriétaires d’équipe à publier dans le canal général
-Réduisez le bruit du canal en permettant uniquement aux propriétaires d’équipe de valider le canal général. Accédez à l’équipe et cliquez sur **plus d’options (...)**  >  **Gérer l’équipe**. Dans l’onglet **paramètres** , cliquez sur **autorisations des membres** > ne sélectionner que les **propriétaires peuvent publier des messages**.
+Réduisez le bruit du canal en permettant uniquement aux propriétaires d’équipe de valider le canal général. Accédez à l’équipe et cliquez sur **̇ ̇ ̇ plus d’options** > **gérer l’équipe**. Dans l’onglet **paramètres** , cliquez sur **autorisations des membres** > sélectionner **uniquement les propriétaires peuvent publier des messages**.
 ### <a name="turn-off-team-and-team-name-mentions"></a>Désactiver les mentions @team et @ [nom de l’équipe]
- Réduisez les @mentions pour les empêcher de surcharger l’ensemble de l’organisation. Accédez à l’équipe et cliquez sur **plus d’options (...)**  >  **Gérer l’équipe**. Dans l’onglet **paramètres** , cliquez sur <strong>@mention</strong> _GT_ désactiver **l’option Afficher les membres sur @team ou @ [nom de l’équipe]**. 
+ Réduisez les @mentions pour les empêcher de surcharger l’ensemble de l’organisation. Accédez à l’équipe et cliquez sur **̇ ̇ ̇ plus d’options** > **gérer l’équipe**. Dans l’onglet **paramètres** , cliquez sur <strong>@mentions</strong> > désactiver **l’option Afficher les membres pour @team ou @ [nom de l’équipe]**. 
 ### <a name="automatically-favorite-important-channels"></a>Ajouter automatiquement aux favoris les canaux importants
  Canaux importants importants pour garantir que tous les membres de votre organisation entreprennent des conversations spécifiques. Pour en savoir plus, reportez-vous à la section ajouter [des canaux aux favoris pour toute l’équipe](https://support.office.com/article/auto-favorite-channels-for-the-whole-team-a948272c-5aa5-429c-863c-4e1e1cd6b0f6).
 
@@ -60,4 +61,4 @@ S’il ne s’agit pas d’une option, vous pouvez créer une équipe publique �
 ### <a name="is-there-a-way-to-convert-an-existing-team-to-an-org-wide-team"></a>Est-il possible de convertir une équipe existante en équipe au sein de l’Organisation?
 
 Les administrateurs généraux peuvent convertir une équipe existante en équipe à l’échelle de l’organisation dans le client Teams.
-Accédez au nom de l’équipe et cliquez sur autres options... (points de suspension) > modifier l’équipe.
+Accédez au nom de l’équipe, cliquez sur **̇ ̇ ̇ plus d’options** > **modifier l’équipe**.

@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 81bfde91cb73ed6741138be390533d56dc2e60e3
-ms.sourcegitcommit: 3678dbbc8c36010fbf12c57b52281ef4fca9f065
+ms.openlocfilehash: 2e9bf9993311ae723557b8d6f8c5ab777ebccd7c
+ms.sourcegitcommit: 21a5550e3c0feafaa57dbcdc428ed13eedd276b8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "34695948"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "34748387"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Accès invité dans Microsoft Teams
 ======================================
@@ -49,7 +49,7 @@ L'accès invité est un paramètre de niveau client dans Microsoft Teams, désa
 Un invité est une personne qui n'est ni un employé, ni un étudiant ni un membre de votre organisation. Il ne dispose pas d'aucun compte scolaire ni professionnel lié à votre organisation. Il peut par exemple s'agir de partenaires, sous-traitants, fournisseurs ou consultants. Toute personne qui ne fait pas partie de votre organisation peut être ajouté en tant qu’invité dans Teams. Cela signifie que tout le monde avec un compte professionnel (autrement dit, un compte Azure Active Directory) ou un compte de messagerie consommateur (avec Outlook.com, Gmail.com ou d’autres personnes) peut participer en tant qu’invité dans Teams, avec un accès complet à des équipes et des expériences de canal. (Vous pouvez lire les informations relatives aux restrictions d’invité dans[Autorisation de l’accès invité dans Microsoft Teams](teams-dependencies.md).) Tous les invités dans Teams bénéficient de la même protection en matière de conformité et d’audit que les autres utilisateurs d’Office 365, et les invités peuvent être gérés en toute sécurité dans Azure AD.
 
 ## <a name="why-use-guest-access"></a>Pourquoi utiliser l’accès invité?
-      
+
 Grâce à l’accès invité, les organisations qui utilisent Teams peuvent fournir à leurs partenaires un accès externe aux équipes, documents dans les canaux, ressources, conversations et applications, tout en conservant le contrôle total de leurs propres données d'entreprise. Tous les invités dans Teams bénéficient de la même protection en matière de conformité et d’audit que les autres utilisateurs d’Office 365, et les invités peuvent être gérés en toute sécurité dans Azure AD.  
 
 Teams est basé sur les Groupes Office 365 et offre un nouveau moyen pour accéder aux ressources partagées d'un groupe Office 365. Teams est la meilleure solution de conversation permanente parmi les membres d'un groupe ou d'une équipe. Les groupes Office 365 sont un service disponible sous la forme d'un abonnement inter-applications qui donne accès à un ensemble de ressources partagées, telles qu'un site SharePoint ou un tableau de bord Power BI, pour permettre à l'équipe de collaborer efficacement et en toute sécurité. 

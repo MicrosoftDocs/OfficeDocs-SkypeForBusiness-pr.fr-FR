@@ -14,12 +14,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 42944baab0552d28877c4974510087d69df1b697
-ms.sourcegitcommit: 349df7248c168e629bc1bb633187e39a37b17ba5
+ms.openlocfilehash: e35c3d62ee43e3b3123993e29c17a8ec1e8f94f7
+ms.sourcegitcommit: c4827e9124ebfb62d8e5c93dc2652d24988bd811
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "34421947"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "34694728"
 ---
 <a name="install-microsoft-teams-using-msi"></a>Installer Microsoft Teams à l’aide de MSI
 =================================
@@ -48,7 +48,7 @@ Les équipes peuvent également être incluses dans un déploiement d’Office 3
 
 Le MSI teams place un programme d’installation dans les fichiers programme. Dès qu’un utilisateur se connecte à un nouveau profil utilisateur Windows, le programme d’installation est lancé et une copie de l’application teams est installée dans le dossier AppData de l’utilisateur. Si un utilisateur possède déjà l’application teams installée dans le dossier AppData, le programme d’installation MSI ignore le processus pour cet utilisateur.
 
-N’utilisez pas le MSI pour déployer les mises à jour, car le client effectue automatiquement une mise à jour dès qu’il détecte une nouvelle version. Pour redéployer le dernier programme d’installation, procédez comme suit lors du processus de redéploiement de MSI décrit ci-dessous.Si vous déployez une version plus ancienne du package MSI, ce dernier est mis à jour automatiquement dans la mesure du possible pour l’utilisateur. Si une ancienne version est déployée, le MSI déclenche une mise à jour de l’application avant que l’utilisateur ne puisse utiliser Teams. 
+N’utilisez pas le MSI pour déployer les mises à jour, car le client effectue automatiquement une mise à jour dès qu’il détecte une nouvelle version. Pour redéployer le dernier programme d’installation, procédez comme suit lors du processus de redéploiement de MSI décrit ci-dessous.Si vous déployez une version plus ancienne du package MSI, le client se met à jour automatiquement (sauf dans les environnements VDI) lorsque l’utilisateur le peut. Si une ancienne version est déployée, le MSI déclenche une mise à jour de l’application avant que l’utilisateur ne puisse utiliser Teams. 
 
 > [!Important] 
 > Nous vous déconseillons de ne pas modifier les emplacements d’installation par défaut, car cela risque de perturber le déroulement de la mise à jour. La présence d’une trop ancienne version entraînera le blocage des utilisateurs de l’accès au service. 
