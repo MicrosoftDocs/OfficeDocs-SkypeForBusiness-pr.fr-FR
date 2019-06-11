@@ -1,41 +1,75 @@
-﻿---
-title: "Lync Server 2013 : Déf. et conf. d’une top. dans le gén. de top."
-TOCTitle: Définition et configuration d’une topologie dans le générateur de topologie
-ms:assetid: 99231ff5-1c21-432b-ad65-8675fcd484f9
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398788(v=OCS.15)
-ms:contentKeyID: 49298251
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Définition et configuration d’une topologie dans le générateur de topologie'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Define and configure a topology in Topology Builder
+ms:assetid: 99231ff5-1c21-432b-ad65-8675fcd484f9
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398788(v=OCS.15)
+ms:contentKeyID: 48184953
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4ee952eef30fc50f30448c98956899c3a1a06dc2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831708"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Définition et configuration d’une topologie dans le générateur de topologie pour Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2013-02-21_
+# <a name="define-and-configure-a-topology-in-topology-builder-for-lync-server-2013"></a>Définition et configuration d’une topologie dans le générateur de topologie pour Lync Server 2013
 
-L’exécution du Générateur de topologie pour définir une nouvelle topologie ou en modifier une existante ne nécessite pas d’être membre d’un groupe d’administrateurs locaux ou de domaines privilégiés. Le Générateur de topologie vous guide tout au long des étapes nécessaires à la définition de la topologie d’un pool frontal Enterprise Edition ou Standard Edition, selon la configuration requise.
+</div>
 
-Vous devez utiliser le Générateur de topologie pour terminer et publier la topologie avant de pouvoir installer Lync Server 2013 sur des serveurs. La procédure suivante intègre les étapes requises pour définir une nouvelle topologie.
+<div id="mainSection">
 
-## Pour définir une topologie
+<div id="mainBody">
 
-1.  Démarrez le Générateur de topologie : cliquez successivement sur **Démarrer**, **Tous les programmes**, **Microsoft Lync Server 2013**, puis sur **Générateur de topologie Lync Server**.
+<span> </span>
 
-2.  Dans le Générateur de topologie, sélectionnez **Nouvelle topologie** . Sélectionnez un emplacement et définissez un nom de fichier pour enregistrer la topologie. Attribuez au fichier de la topologie un nom explicite et validez l’extension par défaut .tbxml. Cliquez sur **OK** .
+_**Dernière modification de la rubrique:** 2013-02-21_
 
-3.  Accédez à l’emplacement d’enregistrement du nouveau fichier XML de topologie, entrez un nom de fichier, puis cliquez sur **Enregistrer** .
+L’exécution du générateur de topologie pour définir une nouvelle topologie ou la modification d’une topologie existante ne nécessite pas d’appartenance à un administrateur local ou à un groupe de domaine privilégié. Le générateur de topologie vous guide au cours des étapes nécessaires à la définition de votre topologie pour une liste frontale Enterprise Edition ou une édition standard, en fonction de vos besoins en matière de configuration.
 
-4.  À la page **Définir le domaine principal** , entrez le nom du domaine SIP principal de votre organisation, puis cliquez sur **Suivant** .
+Vous devez utiliser le générateur de topologie pour achever et publier la topologie avant de pouvoir installer Lync Server 2013 sur des serveurs. La procédure suivante présente les étapes nécessaires pour définir une nouvelle topologie.
 
-5.  À la page **Spécifier d’autres domaines pris en charge** , entrez les noms des domaines supplémentaires, le cas échéant, et cliquez sur **Suivant** .
+<div>
 
-6.  À la page **Définir le premier site** , entrez un nom et une description du premier site, puis cliquez sur **Suivant** .
+## <a name="to-define-a-topology"></a>Pour définir une topologie
 
-7.  À la page **Spécifier les détails du site** , tapez les informations sur l’emplacement, puis cliquez sur **Suivant** .
+1.  Démarrer le générateur de topologie: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Générateur de topologie de Lync Server**.
 
-8.  Dans la page **Nouvelle topologie correctement définie**, veillez à cocher la case **Ouvrir l’Assistant Nouveau serveur frontal à la fermeture de cet Assistant**, puis cliquez sur **Terminer**.
+2.  Dans le générateur de topologie, sélectionnez **nouvelle topologie**. Vous êtes invité à entrer un emplacement et un nom de fichier pour l’enregistrement de la topologie. Donnez un nom significatif au fichier de topologie et acceptez l’extension par défaut de. tbxml. Cliquez sur **OK**.
 
-Après avoir défini et enregistré la topologie, utilisez l’Assistant Nouveau serveur frontal pour définir un pool frontal ou un serveur Standard Edition pour votre site. Pour plus d’informations, reportez-vous à [Définition et configuration d’un pool frontal ou d’un serveur Standard Edition dans Lync Server 2013](lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md).
+3.  Accédez à l’emplacement où vous voulez enregistrer le nouveau fichier XML de topologie, entrez un nom pour le fichier, puis cliquez sur **Enregistrer**.
+
+4.  Dans la page **définir le domaine principal** , entrez le nom du domaine SIP principal de votre organisation, puis cliquez sur **suivant**.
+
+5.  Dans la page **spécifier d’autres domaines pris en charge** , entrez le nom des domaines supplémentaires, le cas échéant, puis cliquez sur **suivant**.
+
+6.  Dans la page **définir le premier site** , entrez un nom et une description pour le premier site, puis cliquez sur **suivant**.
+
+7.  Dans la page **spécifier les détails du site** , entrez les informations d’emplacement du site, puis cliquez sur **suivant**.
+
+8.  Dans la page **nouvelle topologie définie avec succès** , assurez-vous que la case à cocher **ouvrir l’Assistant Nouveau serveur frontal à la fermeture de cet Assistant** est activée, puis cliquez sur **Terminer**.
+
+Une fois que vous avez défini et enregistré la topologie, utilisez le nouvel Assistant frontal pour définir un pool frontal ou un serveur Standard Edition Server pour votre site. Pour plus d’informations, reportez-vous à [la section définir et configurer un pool frontal ou un serveur Standard Edition Server dans Lync server 2013](lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md).
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

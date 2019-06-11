@@ -1,27 +1,49 @@
-﻿---
-title: Supprimer une plage de numéros non attribués dans Lync Server 2013
-TOCTitle: Supprimer une plage de numéros non attribués dans Lync Server 2013
-ms:assetid: a8141bfb-b94d-4d0f-a7a9-2e60d10b103a
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg182565(v=OCS.15)
-ms:contentKeyID: 49298471
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: supprimer une plage de numéros non affectée'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Delete an unassigned number range
+ms:assetid: a8141bfb-b94d-4d0f-a7a9-2e60d10b103a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182565(v=OCS.15)
+ms:contentKeyID: 48185090
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f8bf1bcea1a2f84def783b833d232a44282cab6b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831607"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Supprimer une plage de numéros non attribués dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-11-01_
+# <a name="delete-an-unassigned-number-range-in-lync-server-2013"></a>Supprimer une plage de numéros non attribués dans Lync Server 2013
 
-Appliquez l’une des procédures suivantes pour supprimer une plage de numéros non attribués pour des annonces.
+</div>
 
-## Pour supprimer une plage de numéros non attribués à l’aide du Panneau de configuration Lync Server
+<div id="mainSection">
 
-1.  Ouvrez une session sur l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre du rôle CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Pour plus d’informations, voir [Délégation des autorisations de configuration dans Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+<div id="mainBody">
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes de démarrage du Panneau de configuration Lync Server, voir [Ouvrir les outils d’administration Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-11-01_
+
+Appliquez l’une des procédures suivantes pour supprimer une plage de numéros non attribués pour les annonces.
+
+<div>
+
+## <a name="to-use-lync-server-control-panel-to-delete-an-unassigned-number-range"></a>Pour utiliser le panneau de configuration de Lync Server pour supprimer une plage de numéros non attribués
+
+1.  Connectez-vous à l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre du rôle CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Pour plus d’informations, reportez-vous à la section [délégation des autorisations de configuration dans Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  Dans la barre de navigation de gauche, cliquez sur **Fonctionnalités vocales**, puis sur **Numéro non attribué**.
 
@@ -31,31 +53,56 @@ Appliquez l’une des procédures suivantes pour supprimer une plage de numéros
 
 6.  Cliquez sur **Tout valider**.
 
-## Pour supprimer une plage de numéros non attribués à l’aide d’applets de commande
+</div>
 
-1.  Ouvrez une session sur l’ordinateur sur lequel Lync Server Management Shell est installé, en tant que membre du groupe RTCUniversalServerAdmins ou avec les droits utilisateur nécessaires tels que décrits dans [Délégation des autorisations de configuration dans Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+<div>
 
-2.  Démarrez Lync Server Management Shell : cliquez successivement sur **Démarrer**, **Tous les programmes**, **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+## <a name="to-use-windows-powershell-to-delete-an-unassigned-number-range"></a>Pour utiliser Windows PowerShell pour supprimer une plage de nombres non affectée
 
-3.  Sur la ligne de commande, tapez :
+1.  Ouvrez une session sur l’ordinateur sur lequel Lync Server Management Shell est installé en tant que membre du groupe RTCUniversalServerAdmins ou avec les droits d’utilisateur nécessaires, comme décrit dans la rubrique [autorisations de configuration du délégué dans Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+
+2.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+
+3.  Dans la ligne de commande, tapez :
     
         Remove-CsUnassignedNumber -Identity "<name of unassigned number range>" 
     
-    Par exemple :
+    Exemple :
     
         Remove-CsUnassignedNumber -Identity "Unassigned range 1"
     
+    <div>
+    
+
     > [!NOTE]  
-    > Pour plus d’informations sur d’autres options, voir <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCallParkOrbit">Remove-CsCallParkOrbit</a>.
+    > Pour plus d’informations sur les autres options, voir <A href="https://docs.microsoft.com/powershell/module/skype/Remove-CsCallParkOrbit">Remove-CsCallParkOrbit</A>.
 
-## Voir aussi
+    
+    </div>
 
-#### Tâches
+</div>
 
-[Création ou modification d’une plage de numéros non attribués dans Lync Server 2013](lync-server-2013-create-or-modify-an-unassigned-number-range.md)  
+<div>
 
-#### Autres ressources
+## <a name="see-also"></a>Voir aussi
 
-[Remove-CsUnassignedNumber](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsUnassignedNumber)  
-[Get-CsUnassignedNumber](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUnassignedNumber)
+
+[Créer ou modifier une plage de nombres non affectées dans Lync Server 2013](lync-server-2013-create-or-modify-an-unassigned-number-range.md)  
+
+
+[Remove-CsUnassignedNumber](https://docs.microsoft.com/powershell/module/skype/Remove-CsUnassignedNumber)  
+[Get-CsUnassignedNumber](https://docs.microsoft.com/powershell/module/skype/Get-CsUnassignedNumber)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

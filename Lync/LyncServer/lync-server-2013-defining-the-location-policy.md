@@ -1,63 +1,107 @@
-﻿---
-title: 'Lync Server 2013 : Définition de la stratégie d’emplacement'
-TOCTitle: Définition de la stratégie d’emplacement
-ms:assetid: da3cca7f-f6e5-4b6f-90a1-2008e3dd1ebd
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398962(v=OCS.15)
-ms:contentKeyID: 49299050
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: définition de la stratégie d’emplacement'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Defining the location policy
+ms:assetid: da3cca7f-f6e5-4b6f-90a1-2008e3dd1ebd
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398962(v=OCS.15)
+ms:contentKeyID: 48185553
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 26b0e9aca4b3e66202d6b3c4a47b90db4f207fda
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831710"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Définition de la stratégie d’emplacement pour Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-10-29_
+# <a name="defining-the-location-policy-for-lync-server-2013"></a>Définition de la stratégie d’emplacement pour Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-10-29_
 
 Chaque stratégie d’emplacement renferme les informations suivantes :
 
   - **Services d’urgence activés**  
-    Si cette valeur est **Oui**, le client est activé pour E9-1-1. Lorsqu’un client s’inscrit, il tente d’obtenir un emplacement du service d’informations sur l’emplacement et inclura les informations d’emplacement dans un appel d’urgence.
+    Lorsque cette valeur est **Oui**, le client est activé pour E9-1-1. Lors de l’inscription d’un client, ce dernier tente d’acquérir un emplacement auprès du service d’information d’emplacement et inclut les informations d’emplacement dans le cadre d’un appel d’urgence.
 
 <!-- end list -->
 
   - **Emplacement requis**  
-    Ce paramètre est uniquement utilisé lorsque l’option **Services d’urgence activés** est définie sur **Oui**.
+    Ce paramètre est utilisé uniquement lorsque l’option **services d’urgence** est définie sur **Oui**.
     
-    Vous pouvez configurer le paramètre **Emplacement requis** pour définir le comportement du client. Si vous sélectionnez **Non**, l’utilisateur ne sera pas invité à entrer un emplacement. Si vous sélectionnez **Oui**, l’utilisateur sera invité à entrer un emplacement, mais pourra ignorer le message d’invite. Si vous sélectionnez **Clause d’exclusion de responsabilité**, l’utilisateur sera invité à entrer un emplacement, et une notification d’exclusion s’affichera également s’il essaie d’ignorer le message d’invite. Dans tous les cas, l’utilisateur peut continuer à utiliser le client comme d’habitude.
+    Vous pouvez configurer le paramètre de l' **emplacement requis** pour définir le comportement du client. Si vous sélectionnez **Non **, l’utilisateur ne sera pas invité à entrer un emplacement. Si vous sélectionnez **Oui **, l’utilisateur sera invité à entrer un emplacement, mais pourra ignorer le message d’invite. Si vous sélectionnez **Clause d’exclusion de responsabilité **, l’utilisateur sera invité à entrer un emplacement, et une notification d’exclusion s’affichera également s’il essaie d’ignorer le message d’invite. Dans tous les cas, l'utilisateur peut continuer d'utiliser le client.
     
+    <div>
+    
+
     > [!NOTE]  
-    > Le texte de la clause d’exclusion de responsabilité ne s’affiche pas si un utilisateur a entré manuellement un emplacement avant d’avoir été activé pour E9-1-1. Les mises à jour apportées à ce texte ne s’afficheront pas pour les utilisateurs ayant déjà pris connaissance de la clause d’exclusion de responsabilité.
+    > Le texte de la clause d’exclusion de responsabilité ne s’affiche pas si un utilisateur a entré manuellement un emplacement avant d’avoir été activé pour E9-1-1. Les mises à jour apportées à ce texte ne s’afficheront pas pour les utilisateurs ayant déjà pris connaissance de la clause d’exclusion de responsabilité. 
+
+    
+    </div>
 
 <!-- end list -->
 
   - **Clause d’exclusion de responsabilité du service d’urgence**  
-    Ce paramètre spécifie la clause d’exclusion de responsabilité qui s’affiche si les utilisateurs ignorent l’invite pour un emplacement. Dans Lync Server 2013, vous pouvez utiliser la stratégie d’emplacement pour définir différentes clauses d’exclusion de responsabilité pour différents paramètres régionaux ou ensembles d’utilisateurs.
+    Ce paramètre spécifie la clause d’exclusion de responsabilité qui s’affiche si les utilisateurs ignorent l’invite pour un emplacement. Dans Lync Server 2013, vous pouvez utiliser la stratégie d’emplacement pour définir différentes exclusions de responsabilité pour différents paramètres régionaux ou ensembles d’utilisateurs différents.
     
+    <div>
+    
+
     > [!NOTE]  
-    > Ce paramètre de stratégie d’emplacement diffère de Lync Server 2010, où vous utilisez l’applet de commande <strong>Set-CsEnhancedEmergencyServiceDisclaimer</strong> pour définir une clause d’exclusion de responsabilité pour l’ensemble de l’organisation. Si une clause d’exclusion de responsabilité globale existe déjà, vous devez spécifier cette clause dans la stratégie d’emplacement. En d’autres termes, Lync Server 2013 n’utilise que les clauses d’exclusion de responsabilité spécifiées dans la stratégie d’emplacement.
+    > Ce paramètre de stratégie d’emplacement est différent de celui de Lync Server 2010, à partir duquel vous avez utilisé l’applet de passe <STRONG>Set-CsEnhancedEmergencyServiceDisclaimer</STRONG> pour définir une exclusion de responsabilité globale pour l’ensemble de l’organisation. S’il existe déjà une clause d’exclusion de responsabilité globale, vous devez spécifier ce démenti dans la stratégie d’emplacement. Autrement dit, Lync Server 2013 utilise uniquement les exclusions de responsabilité spécifiées dans la stratégie d’emplacement.
+
+    
+    </div>
 
 <!-- end list -->
 
   - **Chaîne de numérotation d’urgence**  
-    La chaîne de numérotation (moins le « + » de début, mais comprenant toute normalisation apportée par le plan de numérotation de l’utilisateur Lync) signale qu’un appel est un appel d’urgence. La **chaîne de numérotation d’urgence** oblige le client à inclure dans l’appel les informations d’emplacement et de rappel.
+    Cette chaîne de numérotation (moins le "+" au début, mais y compris la normalisation réalisée par le plan de numérotation de l’utilisateur Lync) signifie qu’un appel est un appel d’urgence. La **chaîne de numérotation d’urgence** oblige le client à inclure dans l’appel les informations d’emplacement et de rappel.
     
+    <div>
+    
+
     > [!NOTE]  
-    > Si votre organisation n’utilise pas de préfixe d’accès aux lignes externes, vous n’avez pas besoin de créer de règle de normalisation de plan de numérotation qui ajoute un « + » à la chaîne 911 avant d’envoyer l’appel au routage sortant sur un serveur de pool Lync. Le « + » sera automatiquement ajouté au début par le client Lync comme résultat de la stratégie d’emplacement. Cependant, si votre site utilise un préfixe d’accès externe, vous devez ajouter une règle de normalisation à la stratégie de plan de numérotation applicable qui supprime le préfixe d’accès externe et ajoute le « + ». Par exemple, si votre emplacement utilise comme préfixe d’accès externe 9 et qu’un utilisateur compose le 9 911 pour passer un appel d’urgence, le client utilisera sa stratégie de plan de numérotation pour normaliser cette chaîne en +911 avant que le numéro composé soit évalué par les itinéraires dans le profil d’emplacement de l’appelant.
+    > Si votre organisation n’utilise pas un préfixe d’accès aux lignes externes, vous n’avez pas besoin de créer une règle de normalisation de plan de numérotation correspondante qui ajoute «+» à la chaîne 911 avant d’envoyer l’appel vers le routage sortant sur un serveur de pool Lync. le "+" sera automatiquement ajouté par le client Lync en raison de la stratégie d’emplacement. Toutefois, si votre site utilise un préfixe d’accès externe, vous devez ajouter une règle de normalisation à la stratégie de plan de numérotation appropriée qui élimine le préfixe d’accès externe et ajoute le signe «+». Par exemple, si votre emplacement utilise un préfixe d’accès externe de 9 et qu’un utilisateur&nbsp;compose 9 911 pour passer un appel d’urgence, le client utilise sa stratégie de plan de numérotation pour normaliser cette opération sur + 911 avant que le numéro composé soit évalué par les itinéraires dans l’emplacement de l’appelant. tournage.
+
+    
+    </div>
 
 <!-- end list -->
 
-  - **Masques de la chaîne de numérotation d’urgence**  
-    Liste de chaînes de numérotation séparées par des points-virgules convertie en **chaîne de numérotation d’urgence** spécifiée. Par exemple, vous pouvez ajouter le 112 (numéro de services d’urgence pour la plupart des pays européens). Un utilisateur Lync européen en visite peut ignorer que le 911 est le numéro d’urgence aux États-Unis. Il peut tout de même composer le 112 et obtenir le même résultat. Comme pour la chaîne de numérotation d’urgence, n’incluez pas de « + » avant chaque numéro, et si vous utilisez des codes d’accès aux lignes externes, assurez-vous de la présence de règles de normalisation dans la stratégie de plan de numérotation de l’utilisateur pour supprimer le chiffre de code d’accès.
+  - **Masques de chaînes de numérotation d’urgence**  
+    Liste séparée par des virgules des chaînes de numérotation traduites dans la chaîne de numérotation de **secours**spécifiée. Par exemple, vous souhaiterez peut-être ajouter 112, qui est le numéro de service d’urgence pour la plupart des services d’Europe. Un utilisateur de Lync à partir de l’Europe peut ne pas savoir que 911 est le numéro d’urgence des États-Unis et peut 112 composer le même résultat. Comme pour la chaîne de numérotation d’urgence, n’incluez pas de "+" devant chaque numéro et, si vous utilisez des codes d’accès de ligne externe, assurez-vous que la stratégie de plan de numérotation de l’utilisateur dispose de règles de normalisation pour supprimer le code d’accès.
 
 <!-- end list -->
 
-  - **Utilisation RTC**  
-    Nom de l’utilisation RTC qui contient les chemins de routage qui déterminent la jonction SIP, la passerelle RTC ou la passerelle ELIN vers laquelle les appels seront acheminés.
+  - **Utilisation PSTN**  
+    Nom de l’utilisation PSTN qui contient les chemins de routage qui déterminent la jonction SIP, la passerelle PSTN ou la passerelle ELIN vers laquelle les appels seront acheminés.
     
+    <div>
+    
+
     > [!NOTE]  
-    > Seule une utilisation peut être affectée à une stratégie d’emplacement. Cette utilisation RTC remplace les utilisations RTC affectées à la stratégie de voix de l’utilisateur, mais s’applique uniquement aux appels passés à la chaîne de numérotation d’urgence ou à l’un des masques de chaîne de numérotation d’urgence.
+    > Seule une utilisation peut être affectée à une stratégie d’emplacement. Cette utilisation PSTN remplace les utilisations PSTN affectées à la stratégie de voix de l’utilisateur, mais s’applique uniquement aux appels passés à la chaîne de numérotation d’urgence ou à l’un des masques de chaîne de numérotation d’urgence.
+
+    
+    </div>
 
 <!-- end list -->
 
@@ -66,16 +110,26 @@ Chaque stratégie d’emplacement renferme les informations suivantes :
 
 <!-- end list -->
 
-  - **Conference URI**  
-    Indique le numéro SDA (en général, numéro de service de sécurité) qui doit participer à la conférence en cas d’appel d’urgence.
+  - **URI de la conférence**  
+    Indique le numéro SDA (en général, numéro de service de sécurité) qui doit participer à la conférence en cas d’appel d’urgence.  
 
 <!-- end list -->
 
   - **Mode Conférence**  
-    Indique si l’URI de conférence participera à l’appel d’urgence via une communication unidirectionnelle ou bidirectionnelle.
+    Indique si l’URI de conférence participera à l’appel d’urgence via une communication unidirectionnelle ou bidirectionnelle. 
 
 <!-- end list -->
 
   - **Intervalle d’actualisation d’emplacement**  
-    Indique la durée (en heures) entre les demandes clientes pour la mise à jour de l’emplacement du service d’informations sur l’emplacement. La valeur peut être comprise entre 1 et 12. La valeur par défaut est 4.
+    Spécifie la durée (en heures) entre les demandes des clients pour une mise à jour de l’emplacement du service d’informations d’emplacement. La valeur peut être comprise entre 1 et 12. La valeur par défaut est 4.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

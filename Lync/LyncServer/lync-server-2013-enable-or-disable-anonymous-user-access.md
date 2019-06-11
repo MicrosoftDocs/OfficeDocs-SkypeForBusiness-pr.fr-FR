@@ -1,64 +1,121 @@
-﻿---
-title: "Lync Server 2013 : Activ. ou désactiv. de l’accès des utilisateurs anonymes"
-TOCTitle: Activation ou désactivation de l’accès des utilisateurs anonymes
-ms:assetid: f10c19e6-b6f9-4d26-9923-0165f36e4af8
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ619192(v=OCS.15)
-ms:contentKeyID: 49299315
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Activation ou désactivation de l’accès des utilisateurs anonymes'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Enable or disable anonymous user access
+ms:assetid: f10c19e6-b6f9-4d26-9923-0165f36e4af8
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ619192(v=OCS.15)
+ms:contentKeyID: 49733872
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8d07bf27f5424f121c5dcf070f5231e2fd8c324f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831312"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Activation ou désactivation de l’accès des utilisateurs anonymes dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2013-02-23_
+# <a name="enable-or-disable-anonymous-user-access-in-lync-server-2013"></a>Activation ou désactivation de l’accès des utilisateurs anonymes dans Lync Server 2013
 
-Les utilisateurs anonymes sont des utilisateurs qui ne disposent pas d’un compte utilisateur dans le services de domaine Active Directory de votre organisation ou dans un domaine fédéré pris en charge, mais qui peuvent être invités à participer à distance à des conférences sur site. En autorisant la participation anonyme dans les réunions, vous permettez aux utilisateurs anonymes (c’est à dire, aux utilisateurs dont l’identité est uniquement vérifiée via une clé de réunion ou de conférence) à rejoindre les réunions. Le fait d’autoriser la participation anonyme requiert son activation pour votre organisation.
+</div>
 
-Si, ultérieurement, vous souhaitez interdire l’accès utilisateur anonyme de façon temporaire ou définitive, vous pouvez désactiver la participation anonyme pour votre organisation. Utilisez la procédure de cette section pour activer ou désactiver l’accès utilisateur anonyme pour votre organisation.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2013-02-23_
+
+Les utilisateurs anonymes sont des utilisateurs qui n’ont pas de compte d’utilisateur dans les services de domaine Active Directory de votre organisation ou qui sont invités à participer à distance dans une conférence locale. La participation anonyme aux réunions vous permet d’activer les utilisateurs anonymes (c’est-à-dire les utilisateurs dont l’identité est vérifiée uniquement via la réunion ou la clé de conférence) pour participer aux réunions. L’activation de la participation anonyme exige de l’activer pour votre organisation.
+
+Si vous souhaitez suspendre temporairement ou définitivement l’accès par des utilisateurs anonymes, vous pouvez le désactiver pour votre organisation. Pour activer ou désactiver l’accès anonyme aux utilisateurs de votre organisation, suivez la procédure décrite dans cette section.
+
+<div>
+
 
 > [!NOTE]  
-> L’activation de l’accès utilisateur anonyme pour votre organisation revient simplement à spécifier que vos serveurs exécutant le service Edge d’accès prennent en charge l’accès utilisateur anonyme. Les utilisateurs anonymes ne peuvent pas participer à une réunion dans votre organisation tant que vous n’avez pas également configuré au moins une stratégie de conférence avant de l’appliquer à un ou plusieurs utilisateurs ou groupes d’utilisateurs. Les seuls utilisateurs pouvant inviter des utilisateurs anonymes aux réunions sont les utilisateurs auxquels vous avez attribué une stratégie de conférence configurée pour prendre en charge les utilisateurs anonymes. Pour plus d’informations sur la configuration des stratégies pour la prise en charge de l’invitation des utilisateurs anonymes, reportez-vous à <a href="lync-server-2013-conferencing-policies.md">Stratégies de conférence dans Lync Server 2013</a>.
+> L’activation de l’accès anonyme aux utilisateurs de votre organisation consiste uniquement à indiquer que vos serveurs exécutant le service Edge d’accès prennent en charge l’accès par des utilisateurs anonymes. Les utilisateurs anonymes ne peuvent pas participer à une réunion au sein de votre organisation tant que vous n’avez pas configuré au moins une stratégie de conférence et que vous l’appliquez à un ou plusieurs utilisateurs ou groupes d’utilisateurs. Les seuls utilisateurs qui peuvent inviter des utilisateurs anonymes à des réunions sont les utilisateurs auxquels une stratégie de conférence est affectée et qui est configurée pour prendre en charge les utilisateurs anonymes. Pour plus d’informations sur la configuration des stratégies de conférence pour la prise en charge de l’invitation d’utilisateurs anonymes, voir <A href="lync-server-2013-conferencing-policies.md">stratégies de conférence dans Lync Server 2013</A>.
 
-## Pour activer ou désactiver l’accès utilisateur anonyme pour votre organisation
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou disposant des mêmes droits) ou affecté au rôle CsAdministrator, ouvrez une session sur un ordinateur qui se trouve sur votre déploiement interne.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes de démarrage du Panneau de configuration Lync Server, voir [Ouvrir les outils d’administration Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+</div>
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Accès des utilisateurs externes**, puis sur **Configuration du serveur Edge d’accès**.
+<div>
 
-4.  Dans la page **Configuration du serveur Edge d’accès**, cliquez sur **Global**, sur **Modifier**, puis sur **Afficher les détails**.
+## <a name="to-enable-or-disable-anonymous-user-access-for-your-organization"></a>Pour activer ou désactiver l’accès anonyme aux utilisateurs de votre organisation
 
-5.  Dans **Modifier la configuration du serveur Edge d’accès**, effectuez l’une des opérations suivantes :
+1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affectées au rôle CsAdministrator, connectez-vous à n’importe quel ordinateur dans votre déploiement interne.
+
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+
+3.  Dans la barre de navigation de gauche, cliquez sur **accès utilisateur externe**, puis cliquez sur **configuration d’Access Edge**.
+
+4.  Dans la page **configuration de Microsoft Edge** , cliquez sur **Global**, sur **modifier**, puis sur **afficher les détails**.
+
+5.  Dans **modification de la configuration d’Access Edge**, effectuez l’une des opérations suivantes:
     
-      - Pour activer l’accès utilisateur anonyme pour votre organisation, activez la case à cocher **Permettre les communications avec des utilisateurs anonymes**.
+      - Pour activer l’accès anonyme aux utilisateurs de votre organisation, activez la case à cocher **activer les communications avec les utilisateurs anonymes** .
     
-      - Pour désactiver l’accès utilisateur anonyme pour votre organisation, désactivez la case à cocher **Permettre les communications avec des utilisateurs anonymes**.
+      - Pour désactiver l’accès anonyme aux utilisateurs de votre organisation, décochez la case **activer les communications avec les utilisateurs anonymes** .
 
 6.  Cliquez sur **Valider**.
 
-## Activation ou désactivation de l’accès utilisateur anonyme à l’aide des applets de commande Windows PowerShell
+</div>
 
-Vous pouvez gérer l’accès utilisateur anonyme à l’aide du Windows PowerShell et de l’applet de commande **Set-CsAccessEdgeConfiguration** (exécutable depuis le Lync Server 2013 Management Shell ou une session à distance de Windows PowerShell. Pour plus de détails sur l’utilisation de Windows PowerShell à distance pour une connexion à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Démarrage rapide : Gestion de Microsoft Lync Server 2010 avec PowerShell à distance » à l’adresse [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).).
+<div>
 
-## Activer l’accès utilisateur anonyme
+## <a name="enabling-or-disabling-anonymous-user-access-by-using-windows-powershell-cmdlets"></a>Activation ou désactivation de l’accès utilisateur anonyme à l’aide des cmdlets Windows PowerShell
 
-  - Pour activer l’accès utilisateur anonyme, définissez la valeur de la propriété **AllowAnonymousUsers** sur True ($True) :
+Vous pouvez gérer l’accès utilisateur anonyme à l’aide de Windows PowerShell et de l’applet **de connexion Set-CsAccessEdgeConfiguration** . Vous pouvez exécuter cette applet de commande sur Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell».
+
+<div>
+
+## <a name="to-enable-anonymous-user-access"></a>Pour autoriser l’accès des utilisateurs anonymes
+
+  - Pour autoriser l’accès des utilisateurs anonymes, définissez la valeur de la propriété **AllowAnonymousUsers** sur True ($true):
     
         Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $True
 
-## Désactiver l’accès utilisateur anonyme
+</div>
 
-  - Pour désactiver l’accès utilisateur anonyme, définissez la valeur de la propriété **AllowAnonymousUsers** sur False ($False) :
+<div>
+
+## <a name="to-disable-anonymous-user-access"></a>Pour désactiver l’accès des utilisateurs anonymes
+
+  - Pour désactiver l’accès utilisateur anonyme, définissez la valeur de la propriété **AllowAnonymousUsers** sur false ($false):
     
         Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $False
 
-## Voir aussi
+</div>
 
-#### Concepts
+</div>
 
-[Référence des paramètres de stratégie de conférence pour Lync Server 2013](lync-server-2013-conferencing-policy-settings-reference.md)
+<div>
+
+## <a name="see-also"></a>Voir aussi
+
+
+[Référence des paramètres de stratégie de conférence pour Lync Server 2013](lync-server-2013-conferencing-policy-settings-reference.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

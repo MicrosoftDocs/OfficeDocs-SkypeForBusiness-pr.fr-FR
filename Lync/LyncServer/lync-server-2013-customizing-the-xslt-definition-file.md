@@ -1,23 +1,43 @@
-﻿---
-title: 'Lync Server 2013 : personnalisation du fichier de définition XSLT'
-TOCTitle: Personnalisation du fichier de définition XSLT
-ms:assetid: f18dd78c-3598-4f38-b496-96b750c6e518
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ679898(v=OCS.15)
-ms:contentKeyID: 49891609
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : personnalisation du fichier de définition XSLT'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Customizing the XSLT definition file
+ms:assetid: f18dd78c-3598-4f38-b496-96b750c6e518
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ679898(v=OCS.15)
+ms:contentKeyID: 49557733
+ms.date: 09/11/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e57acbd4cbcd66a3a3371c4ce144fcd2a23bd0ed
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831743"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Personnalisation du fichier de définition XSLT dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2015-03-09_
+# <a name="customizing-the-xslt-definition-file-in-lync-server-2013"></a>Personnalisation du fichier de définition XSLT dans Lync Server 2013
 
-Le service de conformité enregistre et archive les données relatives à chaque discussion du serveur de conversations permanentesLync Server 2013, y compris lorsqu’un participant :
+</div>
 
-  - Rejoint une salle du conversation permanente
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2014-09-11_
+
+Le service de conformité enregistre et archive les données associées à chaque Lync Server 2013, une conversation serveur de chat permanent, y compris la date à laquelle un participant:
+
+  - Rejoindre une salle de conversation permanente
 
   - Quitte une salle de conversation
 
@@ -29,11 +49,13 @@ Le service de conformité enregistre et archive les données relatives à chaque
 
   - Télécharge un fichier
 
-Les données sont fournies au format XML, que vous pouvez transformer dans le format le mieux adapté à votre organisation, à l’aide du fichier de définition XSLT. Cette rubrique décrit le fichier XML que le service de conformité crée. Elle fournit également des échantillons de fichiers de définition XSLT et de sortie.
+Les données sont transmises en XML, que vous pouvez transformer dans le format qui correspond le mieux à votre organisation, à l’aide d’un fichier de définition XSLT. Cette rubrique décrit le fichier XML que le service de conformité crée. Elle fournit également des échantillons de fichiers de définition XSLT et de sortie.
 
-## Format de sortie
+<div>
 
-La sortie du service de conformité est classée par conversation (l’élément Conversation) puis par message (l’élément Messages), comme illustré dans l’exemple de code suivant.
+## <a name="output-format"></a>Format de sortie
+
+La sortie du service de conformité est classée par conversation (élément de conversation), puis par message (l’élément messages), comme indiqué dans l’exemple de code suivant.
 
     <?xml version="1.0" encoding="utf-8" ?> 
     <Conversations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
@@ -48,14 +70,14 @@ La sortie du service de conformité est classée par conversation (l’élément
       </Conversation>
     </Conversations>
 
-Un élément Conversation contient quatre éléments (Channel, FirstMessage, StartTimeUTC et EndTimeUTC). L’élément Channel contient l’URI (Uniform Resource Identifier) de la salle de conversation et l’élément FirstMessage décrit le premier message de l’élément Messages. Les éléments StartTimeUTC et EndTimeUTC fournissent les heures de début et de fin pour la conversation, comme illustré dans l’exemple de code suivant.
+Un élément Conversation contient quatre éléments (Channel, FirstMessage, StartTimeUTC et EndTimeUTC). L’élément Channel contient l’URI (Uniform Resource Identifier) de la salle de conversation et l’élément FirstMessage décrit le premier message de l’élément Messages. Les éléments StartTimeUTC et EndTimeUTC fournissent les heures de début et de fin de la conversation, comme le montre l’exemple de code suivant.
 
     <<FirstMessage type="JOIN" content="" id="0">
           <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
           <DateTimeUTC since1970="1212610540953" string="2008-06-04T20:15:40.9535482Z" long="633482073409535482" /> 
     </FirstMessage>
 
-Un élément Message contient deux éléments (Sender et DateTimeUTC) et trois attributs (Type, Content et ID). L’élément Sender représente l’utilisateur qui envoie le message, et l’élément DateTimeUTC le moment où se produit un événement, comme illustré dans l’exemple de code suivant.
+Un élément Message contient deux éléments (Sender et DateTimeUTC) et trois attributs (Type, Content et ID). L’élément sender représente l’utilisateur qui envoie le message, et l’élément DateTimeUTC représente quand un événement se produit, comme illustré dans l’exemple de code suivant.
 
     <Message type="JOIN" content="" id="0">
       <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
@@ -64,7 +86,7 @@ Un élément Message contient deux éléments (Sender et DateTimeUTC) et trois a
 
 Le tableau suivant décrit les attributs de message Type, Content, et ID.
 
-### Attributs de l’élément Messages
+### <a name="messages-element-attributes"></a>Attributs de l’élément Messages
 
 <table>
 <colgroup>
@@ -101,7 +123,7 @@ Le tableau suivant décrit les attributs de message Type, Content, et ID.
 
 Chaque élément Sender contient cinq attributs : username, ID, email, internal et URI. Ces attributs sont décrits dans la table suivante.
 
-### Attributs de l’élément Sender
+### <a name="sender-element-attributes"></a>Attributs de l’élément Sender
 
 <table>
 <colgroup>
@@ -148,7 +170,7 @@ Chaque élément Sender contient cinq attributs : username, ID, email, internal
 
 La table suivante décrit les types de message que l’élément Messages peut contenir. Elle fournit également des exemples de la manière avec laquelle chaque élément est utilisé.
 
-### Éléments de message Types de message
+### <a name="message-element-message-types"></a>Éléments de message Types de message
 
 <table>
 <colgroup>
@@ -216,7 +238,9 @@ La table suivante décrit les types de message que l’élément Messages peut c
 </table>
 
 
-## Sortie XSD et exemple de transformation XSL de conversation permanente
+<div>
+
+## <a name="default-persistent-chat-output-xsd-and-example-xsl-transform"></a>Conversion par défaut de la sortie de conversation permanente et transformation XSL
 
 L’exemple de code suivant contient la sortie par défaut du serveur de conformité.
 
@@ -384,4 +408,18 @@ L’exemple de code suivant contient un exemple de transformation XSL.
           <DateTimeUTC><xsl:value-of select="DateTimeUTC/@since1970" /></DateTimeUTC>
        </xsl:template>
     </xsl:stylesheet>
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

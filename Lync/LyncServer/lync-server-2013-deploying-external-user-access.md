@@ -1,26 +1,55 @@
-﻿---
-title: 'Lync Server 2013 : Déploiement de l’accès des utilisateurs externes'
-TOCTitle: Déploiement de l’accès des utilisateurs externes
-ms:assetid: d40c9574-c16b-4fe6-b848-21ae0b7e4f0e
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398918(v=OCS.15)
-ms:contentKeyID: 49298955
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Déploiement de l’accès des utilisateurs externes'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deploying external user access
+ms:assetid: d40c9574-c16b-4fe6-b848-21ae0b7e4f0e
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398918(v=OCS.15)
+ms:contentKeyID: 48185495
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 9e8522eac5ace72f615cc3cb7b9271981d1b84c1
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831552"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Déploiement de l’accès des utilisateurs externes dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2013-09-23_
+# <a name="deploying-external-user-access-in-lync-server-2013"></a>Déploiement de l’accès des utilisateurs externes dans Lync Server 2013
 
-Le déploiement des composants Edge pour Microsoft Lync Server 2013 permet aux utilisateurs externes qui ne sont pas connectés au réseau interne de votre entreprise, notamment les utilisateurs distants anonymes et authentifiés, les partenaires fédérés (dont les partenaires XMPP), les clients mobile et les utilisateurs de services de messagerie instantanée publique, de communiquer avec d’autres utilisateurs de votre entreprise à l’aide de Lync Server. Les processus de déploiement et de configuration de Lync Server 2013 ne sont pas très différents de Lync Server 2010. Les outils d’installation et d’administration sont très similaires à ceux de Lync Server 2010.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2013-09-23_
+
+Le déploiement de composants Edge pour Microsoft Lync Server 2013 permet aux utilisateurs externes qui ne sont pas connectés au réseau interne de votre organisation, notamment les utilisateurs distants authentifiés et anonymes, les partenaires fédérés (y compris les partenaires XMPP), clients mobiles et utilisateurs de services de messagerie instantanée publics pour communiquer avec d’autres utilisateurs de votre organisation à l’aide de Lync Server. Les processus de déploiement et de configuration de Lync Server 2013 ne sont pas très différents de ceux de Lync Server 2010. Les outils d’installation et d’administration sont similaires à ceux de Lync Server 2010.
+
+<div>
+
 
 > [!IMPORTANT]  
-> L’installation et la configuration du serveur EdgeMicrosoft Lync Server 2013 peuvent représenter un processus complexe nécessitant une planification et une coordination potentiellement importantes avec vos équipes internes, notamment – mais sans s’y limiter – pour la sécurité, la gestion de réseau, le pare-feu, le DNS (domain name system), le programme d’équilibrage de la charge, et l’infrastructure de clé publique (PKI). Il vous est fortement recommandé de consulter et d’utiliser le processus et la documentation de planification fournis avant de déployer vos composants d’accès externe. Cela vous aidera à limiter le nombre et la fréquence de changements non désirés et de problèmes au cours du processus de déploiement. Pour plus d’informations sur la planification de votre accès d’utilisateur externe, reportez-vous à <a href="lync-server-2013-planning-for-external-user-access.md">Planification de l’accès des utilisateurs externes dans Lync Server 2013</a>.
+> L’installation et la&nbsp;configuration de Microsoft Lync Server 2013 Edge Server peuvent être un processus complexe nécessitant une quantité ou une coordination significative de la planification et de la coordination avec vos équipes internes, y compris, mais sans s’y limiter, la sécurité, le réseau, le pare-feu, le système de nom de domaine (DNS), l’équilibrage de charge et les considérations en matière d’infrastructure à clé publique (PKI). Nous vous conseillons vivement de passer en revue et d’utiliser le processus de planification et la documentation fournies avant de déployer vos composants Access externes. Cela vous permettra de limiter le nombre et la fréquence de modifications et de problèmes indésirables lors du processus de déploiement. Pour plus d’informations sur la planification de l’accès aux utilisateurs externes, voir <A href="lync-server-2013-planning-for-external-user-access.md">planification d’un accès utilisateur externe dans Lync Server 2013</A>.
 
-## Dans cette section
+
+
+</div>
+
+<div>
+
+## <a name="in-this-section"></a>Dans cette section
 
   - [Liste de vérification du déploiement pour l’accès des utilisateurs externes dans Lync Server 2013](lync-server-2013-deployment-checklist-for-external-user-access.md)
 
@@ -30,7 +59,7 @@ Le déploiement des composants Edge pour Microsoft Lync Server 2013 permet aux 
 
   - [Création d’une topologie de serveurs Edge et directeurs dans Lync Server 2013](lync-server-2013-building-an-edge-and-director-topology.md)
 
-  - [Configuration du directeur dans Lync Server 2013](lync-server-2013-setting-up-the-director.md) (facultatif)
+  - [Configuration du réalisateur dans Lync Server 2013](lync-server-2013-setting-up-the-director.md) facultatif
 
   - [Configuration des serveurs Edge dans Lync Server 2013](lync-server-2013-setting-up-edge-servers.md)
 
@@ -45,4 +74,16 @@ Le déploiement des composants Edge pour Microsoft Lync Server 2013 permet aux 
   - [Déploiement de la mobilité dans Lync Server 2013](lync-server-2013-deploying-mobility.md)
 
   - [Vérification de votre déploiement Edge dans Lync Server 2013](lync-server-2013-verifying-your-edge-deployment.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

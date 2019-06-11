@@ -1,48 +1,98 @@
-﻿---
-title: Supprimer un objet contact téléphonique de partie commune
-TOCTitle: Supprimer un objet contact téléphonique de partie commune
-ms:assetid: f4c139dc-f07c-4c75-9345-e291aea41173
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ994087(v=OCS.15)
-ms:contentKeyID: 53095569
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: supprimer un objet de contact de téléphone de zone commune'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Delete a common area phone Contact object
+ms:assetid: f4c139dc-f07c-4c75-9345-e291aea41173
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994087(v=OCS.15)
+ms:contentKeyID: 51803999
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 17ab84f88417a6f5cb1c96c4cf7b6df45fa24b16
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831650"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Supprimer un objet contact téléphonique de partie commune
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2013-02-20_
+# <a name="delete-a-common-area-phone-contact-object-in-lync-server-2013"></a>Supprimer un objet de contact de téléphone pour les zones communes dans Lync Server 2013
 
-Il vous arrivera parfois de vouloir supprimer l’objet contact associé à un téléphone de partie commune. Par exemple, si vous supprimez le téléphone dans un espace réservé aux employés, il n’est pas utile qu’un objet contact soit associé à ce téléphone. L’applet de commande **Remove-CsCommonAreaPhone** vous offre un moyen de supprimer les comptes de téléphone de partie commune. Lorsque vous exécutez cette applet de commande, le téléphone sera supprimé de la liste des téléphones de partie commune retournée par **Get-CsCommonAreaPhone**. En outre, l’objet contact associé avec ce téléphone sera supprimé des services de domaine Active Directory.
+</div>
 
-Utilisez **Remove-CsCommonAreaPhone** pour supprimer un téléphone de partie commune ou tous les téléphones de partie commune qui ont un élément commun, par exemple un nom d’affichage ou un code de pays ou un indicatif. Vous pouvez exécuter cette applet de commande à partir de Lync Server 2013 Management Shell ou d’une sessions à distance de Windows PowerShell. Pour plus de détails sur l’utilisation de Windows PowerShell à distance pour une connexion à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Démarrage rapide : Gestion de Microsoft Lync Server 2010 avec PowerShell à distance » à l’adresse [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2013-02-20_
+
+Vous souhaiterez peut-être supprimer l’objet contact associé à un téléphone de zone commune. Par exemple, si vous supprimez le téléphone d’une salon d’employé, il est inutile d’avoir un objet de contact associé à ce téléphone. L’applet de passe **Remove-CsCommonAreaPhone** vous permet de supprimer les comptes de téléphone de zone commune. Lorsque vous exécutez cette cmdlet, le téléphone est supprimé de la liste des téléphones communs renvoyés par **Get-CsCommonAreaPhone**. Par ailleurs, l’objet contact associé à ce téléphone est supprimé des services de domaine Active Directory (AD FS).
+
+Utilisez **Remove-CsCommonAreaPhone** pour supprimer un téléphone standard ou tous les téléphones communs qui possèdent un élément commun, comme un nom d’affichage ou un indicatif de pays ou de région. Vous pouvez exécuter cette applet de commande à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell».
+
+<div>
 
 
-## Suppression d’un téléphone de partie commune spécifique
+<div>
 
-  - La commande suivante supprime le téléphone de partie commune avec l’adresse SIP sip:mainlobby@litwareinc.com :
+## <a name="removing-a-specified-common-area-phone"></a>Suppression d’un téléphone commun spécifié
+
+  - La commande suivante permet de supprimer le téléphone de zone commune avec l’adresse SIP sip:mainlobby@litwareinc.com:
     
         Remove-CsCommonAreaPhone -Identity "sip:mainlobby@litwareinc.com"
 
-## Suppression de téléphones de partie commune en fonction de leur nom d’affichage
+</div>
 
-  - Cette commande supprime tous les téléphones de partie commune quand leur nom d’affichage comporte la chaîne « Building 14 » :
+<div>
+
+## <a name="removing-common-area-phones-based-on-their-display-name"></a>Suppression de téléphones communs en fonction de leur nom d’affichage
+
+  - Cette commande supprime tous les téléphones de surface courants dans lesquels le nom d’affichage inclut la valeur de chaîne «bâtiment 14»:
     
         Get-CsCommonAreaPhone | Where-Object {$_.DisplayName -match "Building 14"} | Remove-CsCommonAreaPhone
 
-## Suppression de téléphones de partie commune en fonction des codes de pays ou d’indicatif
+</div>
 
-  - Cette commande supprime tous les téléphones de partie commune pour les États-Unis (code de pays 1) et l’indicatif 425 :
+<div>
+
+## <a name="removing-common-area-phones-based-on-their-country-and-area-codes"></a>Supprimer des téléphones communs en fonction de leur indicatif national et de leur région
+
+  - Cette commande supprime tous les téléphones de surface commune pour les États-Unis (code pays 1) et l’indicatif régional 425:
     
         Get-CsCommonAreaPhone | Where-Object {$_.LineUri  -match "^tel:\+1425"} | Remove-CsCommonAreaPhone
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Remove-CsCommonAreaPhone](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCommonAreaPhone).
+</div>
 
-## Voir aussi
+Pour plus d’informations, consultez la rubrique d’aide relative à l’applet de connexion [Remove-CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/Remove-CsCommonAreaPhone) .
 
-#### Autres ressources
+</div>
 
-[Get-CsCommonAreaPhone](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsCommonAreaPhone)
+<div>
+
+## <a name="see-also"></a>Voir aussi
+
+
+[Get-CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/Get-CsCommonAreaPhone)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

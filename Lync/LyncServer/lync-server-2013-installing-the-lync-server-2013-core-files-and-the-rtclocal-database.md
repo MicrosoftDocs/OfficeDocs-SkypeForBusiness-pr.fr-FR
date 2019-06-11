@@ -1,41 +1,61 @@
-﻿---
-title: "Inst. des fich. Lync Server 2013 princ. et de la base de données RTCLocal"
-TOCtitle: "Inst. des fich. Lync Server 2013 princ. et de la base de données RTCLocal"
-ms:assetid: 206f0c1d-40f7-45b6-aa62-88aaef6cf7f6
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204734(v=OCS.15)
-ms:contentKeyID: 49296487
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Installation des fichiers principaux de Lync Server 2013 et de la base de données RTCLocal
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Installing the Lync Server 2013 core files and the RTCLocal database
+ms:assetid: 206f0c1d-40f7-45b6-aa62-88aaef6cf7f6
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204734(v=OCS.15)
+ms:contentKeyID: 48183591
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 99eccdd8d6473c25c6096c370f616975c7da141f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34830976"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Installation des fichiers Lync Server 2013 principaux et de la base de données RTCLocal
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-10-20_
+# <a name="installing-the-lync-server-2013-core-files-and-the-rtclocal-database"></a>Installation des fichiers principaux de Lync Server 2013 et de la base de données RTCLocal
 
-Pour installer les fichiers principaux de Lync Server 2013 sur un ordinateur, procédez de la façon suivante. La base de données RTCLocal est installée automatiquement quand vous installez les fichiers principaux. Notez que vous n’avez pas besoin d’installer SQL Server sur les nœuds observateurs. SQL Server Express est installé automatiquement à sa place.
+</div>
 
-Pour installer les fichiers principaux de Lync Server 2013 et la base de données RTCLocal :
+<div id="mainSection">
 
-1.  Sur l’ordinateur sur lequel se trouve le nœud observateur, cliquez sur **Démarrer**, sur **Tous les programmes**, sur **Accessoires**, cliquez avec le bouton droit sur **Invite de commandes**, puis cliquez sur **Exécuter en tant qu’administrateur**.
+<div id="mainBody">
 
-2.  Dans la fenêtre de console, tapez la commande suivante puis appuyez sur Entrée, en utilisant le chemin d’accès approprié à vos fichiers d’installation de Lync Server :
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-10-20_
+
+Pour installer les fichiers principaux de Lync Server 2013 sur un ordinateur, procédez comme suit. La base de données RTCLocal est automatiquement installée lors de l’installation des fichiers principaux. Notez que vous n’avez pas besoin d’installer SQL Server sur les nœuds d’observation. À la place, SQL Server Express est automatiquement installé pour vous.
+
+Pour installer les fichiers principaux de Lync Server 2013 et la base de données RTCLocal:
+
+1.  Sur l’ordinateur du nœud d’observation, cliquez sur **Démarrer**, sur **tous les programmes**, sur **accessoires**, cliquez avec le bouton droit sur **invite de commandes**, puis cliquez sur **exécuter en tant qu’administrateur**.
+
+2.  Dans la fenêtre de la console, tapez la commande suivante, puis appuyez sur entrée en utilisant le chemin approprié vers vos fichiers d’installation de Lync Server:
     
         D:\Setup.exe /BootstrapLocalMgmt
 
-Afin de vous assurer que les composants principaux de Lync Server ont été bien installés, cliquez sur **Démarrer**, sur **Tous les programmes**, sur **Lync Server 2013**, puis sur **Lync Server Management Shell**. Dans Lync Server 2013 Management Shell, tapez la commande Windows PowerShell suivante, puis appuyez sur Entrée :
+Pour vérifier que les composants principaux de Lync Server sont correctement installés, cliquez sur **Démarrer**, sur **tous les programmes**, sur **Lync Server 2013**, puis sur **Lync Server Management Shell**. Dans Lync Server 2013 Management Shell, tapez la commande Windows PowerShell suivante, puis appuyez sur entrée:
 
     Get-CsWatcherNodeConfiguration
 
-La première fois que vous exécutez cette commande, elle ne renvoie aucune donnée, car vous n’avez encore configuré aucun nœud observateur. Tant que la commande s’exécute sans renvoyer d’erreur, vous pouvez considérer que l’installation de Lync Server a été correctement effectuée.
+Lorsque vous exécutez cette commande pour la première fois, aucune donnée n’est renvoyée, car vous n’avez pas encore configuré de nœuds FileSystemWatcher. Tant que la commande est exécutée sans renvoyer d’erreur, vous pouvez supposer que le programme d’installation de Lync Server s’est terminé correctement.
 
-Si votre nœud observateur se trouve à l’intérieur de votre réseau de périmètre, exécutez la commande suivante pour vérifier l’installation de Lync Server 2013 :
+Si votre ordinateur est situé à l’intérieur de votre réseau de périmètre, vous pouvez exécuter la commande suivante pour vérifier l’installation de Lync Server 2013:
 
     Get-CsPinPolicy
 
-Vous recevrez des informations semblables aux suivantes, selon le nombre de stratégies de code confidentiel configurées dans votre organisation :
+Vous recevrez des informations similaires à ce qui suit, en fonction du nombre de stratégies de code confidentiel (PIN) configurées pour une utilisation au sein de votre organisation:
 
     Identity             : Global
     Description          :
@@ -45,5 +65,15 @@ Vous recevrez des informations semblables aux suivantes, selon le nombre de stra
     PINLifetime          : 0
     MaximumLogonAttempts :
 
-Si des informations sur vos stratégies de code confidentiel sont affichées, cela signifie que vous avez correctement installé les composants principaux.
+Si vous voyez des informations relatives à vos stratégies de code confidentiel, cela signifie que vous avez correctement installé les composants principaux.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

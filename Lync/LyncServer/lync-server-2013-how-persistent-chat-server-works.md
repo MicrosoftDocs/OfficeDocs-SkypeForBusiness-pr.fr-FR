@@ -1,137 +1,213 @@
-﻿---
-title: Fonctionnement d’un serveur de conversation permanente dans Lync Server 2013
-TOCTitle: Fonctionnement d’un serveur de conversation permanente dans Lync Server 2013
-ms:assetid: 3d04e9a1-3f0c-458e-bcbe-d27c8c464276
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ683096(v=OCS.15)
-ms:contentKeyID: 49891315
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: fonctionnement du serveur de chat permanent'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: How Persistent Chat Server works
+ms:assetid: 3d04e9a1-3f0c-458e-bcbe-d27c8c464276
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ683096(v=OCS.15)
+ms:contentKeyID: 49684643
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0bf6179e1ce24264c2079b3096fa9bb8c539ca1c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831071"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Fonctionnement d’un serveur de conversation permanente dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-11-21_
+# <a name="how-persistent-chat-server-works-in-lync-server-2013"></a>Fonctionnement du serveur Chat permanent dans Lync Server 2013
 
-Le serveur de conversations permanentes de Lync Server 2013 vous permet de participer à des conversations permanentes à plusieurs sur un sujet précis. Le serveur de conversations permanentes peut aider votre organisation à réaliser ce qui suit :
+</div>
 
-  - améliorer la communication entre les équipes géographiquement dispersées et multifonctionnelles ;
+<div id="mainSection">
 
-  - élargir la prise en compte des informations et la participation ;
+<div id="mainBody">
 
-  - améliorer la communication dans l’ensemble de votre organisation ;
+<span> </span>
 
-  - réduire la surcharge d’informations ;
+_**Dernière modification de la rubrique:** 2012-11-21_
 
-  - améliorer la prise en compte des informations ;
+Lync Server 2013, Lync Chat Server vous permet de participer à des conversations à plusieurs sujets qui persistent dans le temps. Le serveur de chat permanent peut aider votre organisation à effectuer les opérations suivantes:
 
-  - accroître la dissémination des connaissances et des informations importantes.
+  - Amélioration de la communication entre les équipes géographiquement dispersées et celles à plusieurs fonctions
 
-Vous pouvez déployer le serveur de conversations permanentes en tant que rôle facultatif en même temps que Lync Server 2013. Les services de conversation permanente s’exécutent sur un pool dédié et un pool de serveurs de conversations permanentes dépend d’un pool Lync Server pour lui acheminer les messages. Les clients utilisent le protocole XCCOS (eXtensible Chat Communication Over SIP). Les serveurs frontauxLync Server sont configurés pour acheminer le trafic vers un pool de serveurs de conversations permanentes.
+  - Élargissement de la sensibilisation et de la participation aux informations
 
-## Architecture de haut niveau
+  - Améliorer la communication avec votre organisation étendue
 
-Les diagrammes suivants offrent des perspectives de haut niveau des services et de l’architecture du serveur de conversations permanentes.
+  - Réduire la surcharge d’information
+
+  - Amélioration de la prise en charge des informations
+
+  - Augmenter la dispersion des connaissances et informations importantes
+
+Vous pouvez déployer le serveur de chat permanent en tant que rôle facultatif avec Lync Server 2013. Les services de chat permanent s’exécutent sur un pool dédié, et un pool de serveurs de chat permanent dépend d’un pool de serveurs Lync pour router des messages vers ce dernier. Les clients utilisent la communication de discussion eXtensible par SIP (XCCOS). Les serveurs front-end de Lync Server sont configurés pour acheminer le trafic vers un pool de serveurs de chat permanent.
+
+<div>
+
+## <a name="high-level-architecture"></a>Architecture de haut niveau
+
+Les schémas suivants fournissent des perspectives de haut niveau de l’architecture et des services de chat permanent du serveur.
 
 **Architecture de haut niveau du serveur de conversation permanente**
 
-![Architecture du serveur de conversation permanente.](images/JJ683096.5db6f36f-4461-4d87-ba77-463b7ffe609b(OCS.15).jpg "Architecture du serveur de conversation permanente.")
+![Architecture serveur de chat permanent.] (images/JJ683096.5db6f36f-4461-4d87-ba77-463b7ffe609b(OCS.15).jpg "Architecture serveur de chat permanent.")
 
 **Services de haut niveau du serveur de conversation permanente**
 
-![Composants du serveur de conversation permanente.](images/JJ683096.b6d743aa-3a86-4081-aaef-4fe3257db4e7(OCS.15).jpg "Composants du serveur de conversation permanente.")
+![Composants serveur de chat permanent.] (images/JJ683096.b6d743aa-3a86-4081-aaef-4fe3257db4e7(OCS.15).jpg "Composants serveur de chat permanent.")
 
-Deux services s’exécutent sur les serveurs frontaux du serveur de conversations permanentes :
+Deux services s’exécutent sur les serveurs front-end du serveur Chat permanent:
 
   - Conversation permanente (canal)
 
-  - Conformité
+  - Conformément
 
-## Service de conversation permanente (canal)
+<div>
 
-Le service de conversation permanente (canal) est le service principal en charge du serveur de conversations permanentes. Ce service offre les fonctions suivantes :
+## <a name="persistent-chat-channel-service"></a>Service de chat permanent (canal)
+
+Le service de chat permanent (canal) est le principal service responsable du serveur de chat permanent. Ce service fournit les fonctions suivantes:
 
   - acceptation des messages entrants ;
 
-  - inscription et inventaire des participants en ligne dans une salle de conversation permanente ;
+  - inscription et listage des participants en ligne dans une salle de conversation permanente ;
 
   - retransmission des messages vers les abonnés à d’autres canaux ;
 
-  - implémentation de la logique de gestion des canaux, d’invitation aux salles de conversation, de recherche et de notifications de nouveau contenu.
+  - Implémente la logique pour la gestion des canaux, l’invitation de salle de conversation, la recherche et de nouvelles notifications de contenu
 
-Le service de conversation permanente (canal) stocke et accède au contenu des salles de conversation et à d’autres métadonnées système (règles d’autorisation, etc.) en utilisant le magasin de conversation permanente. Ce service stocke les fichiers téléchargés dans les salles de conversation dans le magasin de fichiers de conversation permanente.
+Le service de chat permanent (canal) stocke et accède au contenu des salles de conversation et aux autres métadonnées système (règles d’autorisation, etc.) à l’aide du magasin permanent de conversation. Ce service stocke les fichiers téléchargés dans des salles de conversation dans le magasin de fichiers de chat permanent.
 
-## Service de conformité
+</div>
 
-Le service de conformité est un composant facultatif du serveur de conversations permanentes qui est chargé d’archiver le contenu et les événements de conversation dans le magasin de conformité de la conversation permanente. Si le règlement de votre organisation impose un archivage de l’activité de conversation permanente, vous pouvez déployer le service de conformité de conversation permanente facultatif. Ce service est installé sur chaque serveur de conversations permanentes d’un pool de conversation permanente. Quand elle est configurée, la conformité du serveur de conversations permanentes enregistre l’activité des utilisateurs à mesure qu’ils rejoignent et quittent les salles et qu’ils publient et lisent des messages. Le service de conformité stocke les fichiers qui ont besoin d’être archivés dans le magasin de fichiers de conformité de la conversation permanente.
+<div>
 
-## Services web de conversation permanente
+## <a name="compliance-service"></a>Service de conformité
 
-Les serveurs frontauxLync Server intègrent deux services qui dépendent des services Internet (IIS). Ils s’exécutent et s’implémentent en tant que composants web :
+Le service de conformité est un composant facultatif de chat permanent qui est chargé de l’archivage du contenu et des événements de conversation dans le magasin de conformité des conversations permanentes. Si le règlement de votre organisation impose un archivage de l’activité de conversation permanente, vous pouvez déployer le service de conformité de conversation permanente facultatif. Le service de conformité est installé sur chaque serveur de chat permanent d’un pool de conversations permanentes. Dans le cadre de la configuration, la compatibilité avec le serveur Chat permanent enregistre les activités de l’utilisateur, telles que la participation et le départ des salles, et la publication et la lecture des messages. Le service de conformité stocke les fichiers qui doivent être archivés dans le magasin de fichiers de conformité des conversations permanentes.
 
-  - Services web de **conversation permanente pour le téléchargement de fichiers** : ils sont chargés de la publication et de la récupération des fichiers dans les salles de conversation.
+</div>
 
-  - Services web de **conversation permanente pour la gestion des salles de conversation** : ils sont chargés d’offrir aux utilisateurs la possibilité de gérer leurs salles de conversation et d’en créer des nouvelles.
+<div>
 
-## Utilisation du serveur de conversations permanentes
+## <a name="persistent-chat-web-services"></a>Services Web de chat permanent
 
-Le serveur de conversations permanentes est un rôle de serveur facultatif au sein de l’infrastructure Lync Server 2013. Si vous installez le rôle de serveur de conversations permanentes, les utilisateurs qui ont été activés au moyen d’une stratégie par un administrateur peuvent utiliser la conversation permanente avec le client Lync 2013. Pour plus d’informations sur la façon de déployer le serveur de conversations permanentes et de permettre aux utilisateurs de tirer parti de ses fonctionnalités par le biais d’une stratégie, voir [Déploiement d’un serveur de conversation permanente dans Lync Server 2013](lync-server-2013-deploying-persistent-chat-server.md).
+Sur les serveurs front-end de Lync Server, deux services s’exécutent en fonction de Internet Information Services (IIS) et sont implémentés en tant que composants Web:
 
-Pour plus d’informations sur la façon de configurer les paramètres de déploiement de votre serveur de conversations permanentes, voir [Déploiement d’un serveur de conversation permanente dans Lync Server 2013](lync-server-2013-deploying-persistent-chat-server.md) et [Gestion de Lync Server 2013, serveur de conversation permanente](managing-lync-server-2013-persistent-chat-server.md).
+  - **Services Web de chat permanent pour le chargement et le téléchargement de fichiers** Responsable de la publication et de l’extraction de fichiers de salles de conversation.
 
-Pour plus d’informations sur la façon d’activer les utilisateurs par le biais d’une stratégie et ainsi leur permettre de tirer parti des fonctionnalités de conversation permanente dans le client Lync 2013, voir [Déploiement d’un serveur de conversation permanente dans Lync Server 2013](lync-server-2013-deploying-persistent-chat-server.md) et [Gestion de Lync Server 2013, serveur de conversation permanente](managing-lync-server-2013-persistent-chat-server.md).
+  - **Services Web de chat permanent pour la gestion des salles de conversation** Responsable d’offrir aux utilisateurs la possibilité de gérer leurs salles de conversation et de créer des salles de conversation.
 
-Si vous avez déployé la conformité de la conversation permanente, voir [Gestion de Lync Server 2013, serveur de conversation permanente](managing-lync-server-2013-persistent-chat-server.md) pour plus d’informations sur la façon de configurer les paramètres de conformité.
+</div>
 
-## Flux d’appels de la conversation permanente
+</div>
 
-Le client Lync communique avec le service de conversation permanente à l’aide du protocole XCCOS. Les séquences suivantes décrivent le processus de connexion, ainsi qu’un scénario classique d’abonnement à une salle et de publication de messages.
+<div>
 
-## Se connecter
+## <a name="how-do-i-start-using-persistent-chat-server"></a>Comment puis-je commencer à utiliser le serveur de chat permanent?
 
-La séquence suivante décrit le processus de connexion.
+Le serveur Chat permanent est un rôle serveur facultatif au sein de l’infrastructure 2013 de Lync Server. Si vous installez le rôle serveur Chat permanent, tous les utilisateurs qui ont été activés par l’intermédiaire de la stratégie par un administrateur peuvent utiliser la conversation permanente avec le client 2013 Lync.
 
-1.  Le client Lync envoie dans un premier temps un message SIP SUBSCRIBE pour récupérer le document de mise en service de la bande entrante auprès du serveur. Ce document indique si la conversation permanente est activée ou désactivée pour l’utilisateur et la liste des URI SIP du pool de serveurs de conversations permanentes.
+Pour plus d’informations sur le déploiement d’un serveur de chat permanent et permettre aux utilisateurs de tirer parti des fonctionnalités d’une stratégie, voir [déploiement d’un serveur de chat permanent dans Lync Server 2013](lync-server-2013-deploying-persistent-chat-server.md).
 
-2.  Le client Lync envoie un message SIP INVITE à l’URI SIP du serveur de conversations permanentes qu’il a obtenue à l’étape précédente. La séquence INVITE est suivie des réponses 200 OK et ACK. À cet instant, le client Lync a ouvert une session SIP avec un système d’extrémité de serveur de conversations permanentes. Par conséquent, le client communique avec le serveur de conversations permanentes en envoyant des messages SIP INFO qui contiennent des messages de conversation ou des messages demandant au serveur d’effectuer une action. En guise d’accusé de réception, tous ces messages reçoivent une réponse 200 OK ou 503 Service Unavailable (en cas de charge importante du serveur). Si le client reçoit une réponse 503, une nouvelle tentative d’envoi du message est opérée. (Cet exemple n’inclut pas de réponse 503.) Si le serveur accepte le message ou la commande et envoie la réponse 200 OK, il fournit une réponse au client sous forme de message SIP INFO distinct. Cette réponse comprend une référence à la commande d’origine.
+Pour plus d’informations sur la configuration des paramètres du déploiement de votre serveur Chat permanent, voir [déploiement d’un serveur de chat permanent dans Lync Server 2013](lync-server-2013-deploying-persistent-chat-server.md) et [gestion de Lync Server 2013, serveur de chat permanent](managing-lync-server-2013-persistent-chat-server.md).
 
-3.  Le client Lync envoie un message SIP INFO qui contient la commande XCCOS **getserverinfo**. Le serveur de conversations permanentes répond par un nouveau message SIP INFO qui contient des informations sur la configuration du service de conversation permanente.
+Pour plus d’informations sur la façon d’activer les utilisateurs par stratégie de telle sorte qu’ils puissent tirer parti de la fonctionnalité de conversation persistante dans le client Lync 2013, voir [déploiement d’un serveur de chat permanent dans Lync Server 2013](lync-server-2013-deploying-persistent-chat-server.md) et [gestion de Lync Server 2013, serveur de chat permanent](managing-lync-server-2013-persistent-chat-server.md).
 
-4.  Le client Lync envoie un message SIP INFO qui contient la commande XCCOS **getassociations**. Le serveur de conversations permanentes répond par un nouveau message SIP INFO qui contient la liste des salles dont l’utilisateur est membre. Le client Lync répète la commande pour récupérer la liste des salles dont l’utilisateur est responsable.
+Pour plus d’informations sur la configuration des paramètres de conformité, reportez-vous à la section [gestion de Lync server 2013, serveur de chat permanent](managing-lync-server-2013-persistent-chat-server.md) .
 
-5.  Le client Lync obtient la liste des salles suivies à partir du document de présence, où chaque salle suivie est représentée par une catégorie « roomSetting ». L’accès à toutes les salles suivies se fait par le biais d’une commande unique SIP INFO qui contient la commande XCCOS **bjoin**, qui elle-même contient la liste d’URI des salles. La liste des salles suivies étant conservée sur le serveur, les clients des ordinateurs ont tous la même liste de salles suivies correspondant l’URI utilisateur spécifiée. Par ailleurs, chaque client Lync conserve la liste des salles ouvertes (si cette option est activée par l’utilisateur) dans le Registre de l’ordinateur local et accède à chacune de ces salles au moment de se connecter en envoyant un message SIP INFO qui contient la commande XCCOS **join** pour chaque salle ouverte. Étant donné que cette liste est conservée dans le Registre, elle peut être différente sur deux clients Lync s’exécutant sur des ordinateurs distincts.
+</div>
 
-6.  Pour chaque salle rejointe, le client Lync envoie un message SIP INFO qui contient la commande XCCOS **bccontext**. Le serveur de conversations permanentes répond par un nouveau message SIP INFO qui contient le message de conversation le plus récent de la salle.
+<div>
 
-7.  Le client Lync envoie un message SIP INFO qui contient une commande XCCOS **getinv** (c’est-à-dire, « get invitation ») pour demander les nouvelles invitations éventuelles que le client n’a pas encore obtenues. Dans un autre message SIP INFO, le serveur de conversations permanentes retourne la liste de ces salles.
+## <a name="persistent-chat-call-flows"></a>Flux d’appels permanents de conversation
 
-## S’inscrire à une salle et publier un message
+Le client de chat permanent communique avec le service de chat permanent à l’aide de XCCOS. Les séquences suivantes décrivent le processus de connexion et un scénario standard d’abonnement de salle et de publication de message.
 
-La séquence suivante décrit un scénario classique d’inscription à une salle et de publication de messages.
+<div>
 
-1.  À partir du client Lync, l’utilisateur 1 clique sur **Joindre une salle de conversation**, sur **Rechercher**, puis entre des critères de recherche. Le client envoie un message SIP INFO qui contient la commande XCCOS **chansrch** de recherche de salle avec les critères de recherche. Le serveur de conversations permanentes interroge la base de données principale et répond par un nouveau message SIP INFO qui contient la liste des salles disponibles répondant aux critères de recherche.
+## <a name="sign-in"></a>Connexion
 
-2.  L’utilisateur 1 sélectionne la salle de conversation qu’il souhaite rejoindre et clique sur **Suivre cette salle**. Le client envoie au serveur de conversations permanentes un message SIP INFO qui contient la commande XCCOS **join** et l’ID de la salle de conversation que l’utilisateur a sélectionnée. Le serveur de conversations permanentes répond par un message SIP INFO qui contient les données de mise en service.
+Le diagramme de flux d’appels et les étapes suivants décrivent le processus de connexion.
 
-3.  Le client Lync envoie au serveur de conversations permanentes un messageSIP INFO qui contient la commande XCCOS **bccontext** (« backchat context »). Le serveur de conversations permanentes récupère l’historique des conversations et le renvoie au client dans un message SIP INFO distinct. À ce stade, l’utilisateur se trouve dans la salle de conversation et est en mesure de participer.
+**Flux d’appels de connexion permanent du client de conversation**
 
-4.  L’utilisateur 1 entre un nouveau message et clique sur **Envoyer**. Le client Lync publie le message dans la salle de conversation au moyen d’une commande SIP INFO XCCOS **grpchat**. Le serveur de conversations permanentes stocke une copie de ce nouveau message dans la base de données principale de conversation permanente.
+![Diagramme de flux d’appels de chat permanent du serveur.] (images/JJ683096.9b3b3c61-caca-42b6-853c-6a09e6ff5c44(OCS.15).jpg "Diagramme de flux d’appels de chat permanent du serveur.")
 
-5.  Le serveur de conversations permanentes envoie une copie du message SIP INFO XCCOS **grpchat** à l’utilisateur 2, qui se trouve déjà dans la salle de conversation.
+1.  Le client de chat permanent envoie d’abord un abonnement SIP pour extraire le document de mise en service intrabande du serveur. Ce document indique si la conversation permanente est activée ou désactivée pour l’utilisateur et la liste des URI SIP pour le pool de serveurs de chat permanent.
 
-## Flux d’appels de conformité de la conversation permanente
+2.  Le client de chat permanent envoie un message d’invitation SIP à l’URI SIP du serveur de chat permanent qu’il a obtenu lors de l’étape précédente. La séquence d’invitation est suivie de 200 OK et ACK, et le client chat permanent a ouvert une session SIP avec un point de terminaison de serveur Chat permanent. Par conséquent, le client de chat permanent communique avec le serveur de chat permanent en envoyant des messages d’informations SIP contenant des messages de discussion ou des commandes demandant au serveur d’effectuer une action. Tous ces messages sont reconnus par l’utilisation de 200 OK ou d' 503 Service indisponible (autrement dit, en cas de charge importante du serveur). Si le client reçoit une réponse 503, il tentera de réessayer le message. (Cet exemple n’inclut pas de réponse 503.) Si le serveur accepte le message ou la commande et envoie 200 OK, il fournit une réponse au client sous la forme d’un message d’INFO SIP distinct. Cette réponse inclut une référence à la commande d’origine.
 
-Pour traiter les données de conformité, le serveur de conversations permanentes utilise Message Queuing (également appelé MSMQ) et une base de données de conformité supplémentaire (mgccomp). À titre d’exemple de la façon dont les événements de conformité sont traités, la séquence d’événements suivante illustre le traitement d’un événement de publication de message.
+3.  Le client de chat permanent envoie un message d’information SIP contenant la commande XCCOS **GetServerInfo** . Le serveur Chat permanent répond avec un nouveau message SIP INFO contenant des informations sur la configuration du service de chat permanent.
+
+4.  Le client de chat permanent envoie un message d’information SIP contenant la commande XCCOS **GetAssociations** . Le serveur Chat permanent répond avec un nouveau message SIP INFO qui contient la liste des salles dont l’utilisateur est membre. Le client de chat permanent répète la commande pour récupérer la liste des salles dont il est le gestionnaire.
+
+5.  Le client de chat permanent obtient la liste des salles suivies du document «présence», où chaque salle suivie est représentée par une catégorie «roomSetting». Toutes les salles suivies sont jointes à l’aide d’un seul message SIP INFO contenant la commande XCCOS **bPour y accéder** qui contient la liste des URI de la salle. Dans la mesure où la liste des salles suivies est conservée sur le serveur, tous les clients sur n’importe quel ordinateur disposent de la même liste de salles suivies pour l’URI de l’utilisateur spécifié. Le client de chat permanent conserve également la liste des salles ouvertes (si cette option est activée par l’utilisateur) dans le registre de l’ordinateur local et joint chacune de ces pièces lors de la connexion en envoyant un message SIP INFO contenant la commande XCCOS **join** de chaque salle ouverte. . Dans la mesure où cette liste est conservée dans le registre, elle peut être différente sur deux clients de chat permanent s’exécutant sur des ordinateurs différents.
+
+6.  Pour chaque salle jointe, le client de chat permanent envoie un message d’information SIP contenant la commande XCCOS **bccontext** . Le serveur Chat permanent répond avec un nouveau message SIP INFO contenant le message de conversation le plus récent dans la salle.
+
+7.  Le client de chat permanent envoie un message d’information SIP contenant une commande XCCOS **getinv** (qui est une invitation) pour demander toute nouvelle invitation de salle que le client n’a pas encore détectée. Dans un message des informations SIP distinctes, le serveur de chat permanent renvoie une liste de ces salles.
+
+</div>
+
+<div>
+
+## <a name="subscribe-to-a-room-and-post-a-message"></a>S’abonner à une salle et publier un message
+
+Le schéma de flux d’appels et les étapes suivants décrivent un scénario type d’abonnement de salle et de publication de message.
+
+**Flux d’abonnement d’une salle de conversation permanente et flux d’appels de publication de message**
+
+![Scénario d’abonnement de salle et de publication de message.] (images/JJ683096.2d3c417e-c91b-42bd-964e-285b72bb2e44(OCS.15).jpg "Scénario d’abonnement de salle et de publication de message.")
+
+1.  À partir du client de chat permanent, User1 clique sur **rejoindre une salle de conversation**, clique sur **Rechercher**, puis saisit des critères de recherche. Le client de chat permanent envoie un message d’information SIP contenant la commande XCCOS **chansrch** (recherche de salle), ainsi que les critères de recherche. Le serveur Chat permanent interroge la base de données principale et les réponses dans un nouveau message SIP INFO contenant une liste des salles disponibles qui répondent aux critères de recherche.
+
+2.  User1 sélectionne la salle de conversation à laquelle il souhaite participer, puis clique sur **suivre cette salle**. Le client de chat permanent envoie un message de chat permanent contenant la commande de **jointure** XCCOS et l’ID de la salle de conversation sélectionnée par l’utilisateur. Le serveur Chat permanent répond avec un message SIP INFO contenant les données de mise en service.
+
+3.  Le client de chat permanent envoie un message de chat permanent contenant le message SIP ( **** contexte de conversation). Le serveur Chat permanent récupère l’historique de la discussion et la renvoie au client de chat permanent dans un message d’informations SIP distinct. À ce stade, l’utilisateur entre dans la salle de conversation et est prêt à participer.
+
+4.  User1 entre un nouveau message, puis clique sur **Envoyer**. Le client chat permanent publie le message dans la salle de conversation à l’invite SIP INFO XCCOS **grpchat** . Le serveur Chat permanent enregistre une copie de ce nouveau message dans la base de données principale de conversation permanente.
+
+5.  Serveur Chat permanent envoie une copie distincte du message SIP INFO XCCOS **grpchat** message à utilisateur2, qui a déjà entré la salle de conversation.
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="persistent-chat-compliance-call-flows"></a>Flux d’appels permanents de conformité des conversations
+
+Le serveur Chat permanent utilise Message Queuing (également connu sous le nom de MSMQ) ainsi qu’une base de données de conformité supplémentaire (mgccomp) pour traiter les données de conformité. Pour illustrer le traitement des événements de conformité, la séquence d’événements suivante décrit le traitement d’un événement de publication de message.
 
 1.  Un utilisateur publie un message dans une salle.
 
-2.  Le serveur de conversations permanentes place les informations relatives à l’événement dans une file d’attente privée Message Queuing.
+2.  Serveur Chat permanent place les informations relatives à l’événement dans une file d’attente de Message Queuing privée.
 
-3.  Le serveur de conformité de la conversation permanente lit cet événement dans la file d’attente et le place dans la base de données mgccomp en vue d’un traitement ultérieur.
+3.  Le serveur de conformité des conversations permanent lit cet événement à partir de la file d’attente, puis le place dans la base de données mgccomp pour le traitement.
 
-4.  Périodiquement, le serveur de conformité de la conversation permanente traite un ensemble d’événements dans la base de données et les envoie à l’adaptateur de compatibilité de la conversation permanente à des fins de traitement.
+4.  Périodiquement, le serveur de conformité des conversations persistantes traite un ensemble d’événements dans la base de données et les envoie à l’adaptateur de conformité de la conversation permanente pour le traitement.
 
-5.  Si l’adaptateur traite correctement les données, le serveur de conformité de la conversation permanente supprime les événements de la base de données mgccomp.
+5.  Si la carte traite correctement les données, le serveur de conformité des conversations permanentes supprime les événements de la base de données mgccomp.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
