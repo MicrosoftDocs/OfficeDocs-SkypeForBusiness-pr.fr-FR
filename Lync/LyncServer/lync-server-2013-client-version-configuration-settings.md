@@ -1,31 +1,65 @@
-﻿---
-title: Paramètres de configuration de la version du client
-TOCTitle: Paramètres de configuration de la version du client
-ms:assetid: 4e5169e1-07f0-4333-9dd1-94c570a76ea6
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ884154(v=OCS.15)
-ms:contentKeyID: 53095417
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: paramètres de configuration de la version client'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Client version configuration settings
+ms:assetid: 4e5169e1-07f0-4333-9dd1-94c570a76ea6
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ884154(v=OCS.15)
+ms:contentKeyID: 50553005
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 9f15162dea332662a9aad1f27f1865d49a6fda93
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34838553"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Paramètres de configuration de la version du client
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-12-12_
+# <a name="client-version-configuration-settings-in-lync-server-2013"></a><span data-ttu-id="c2c5d-102">Paramètres de configuration de la version du client dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c2c5d-102">Client version configuration settings in Lync Server 2013</span></span>
 
-Les paramètres de configuration de version du client sont utilisés pour activer ou désactiver le contrôle de version du client, soit globalement, soit pour des sites spécifiques. Utilisez les procédures suivantes pour configurer les paramètres de configuration de version du client pour Lync Server 2013.
+</div>
 
-## Dans cette section
+<div id="mainSection">
 
-  - [Activer ou désactiver la gestion des versions du client](lync-server-2013-enable-or-disable-client-versioning.md)
+<div id="mainBody">
 
-  - [Créer ou modifier une collection de paramètres de configuration de la version du client](lync-server-2013-create-or-modify-a-collection-of-client-version-configuration-settings.md)
+<span> </span>
 
-  - [Modifier l’action par défaut des clients qui ne sont pas explicitement pris en charge ou restreints](lync-server-2013-modify-the-default-action-for-clients-not-explicitly-supported-or-restricted.md)
+<span data-ttu-id="c2c5d-103">_**Dernière modification de la rubrique:** 2012-12-12_</span><span class="sxs-lookup"><span data-stu-id="c2c5d-103">_**Topic Last Modified:** 2012-12-12_</span></span>
 
-  - [Paramètres de configuration de version du client](lync-server-2013-view-client-version-configuration-settings.md)
+<span data-ttu-id="c2c5d-104">Les paramètres de configuration de la version du client permettent d’activer ou de désactiver le contrôle de version du client, globalement ou pour des sites spécifiques.</span><span class="sxs-lookup"><span data-stu-id="c2c5d-104">Client version configuration settings are used to turn client version control on or off, either globally or for particular sites.</span></span> <span data-ttu-id="c2c5d-105">Utilisez les procédures suivantes pour configurer les paramètres de configuration de la version du client pour Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="c2c5d-105">Use the following procedures to configure client version configuration settings for Lync Server 2013.</span></span>
 
-  - [Supprimer une collection existante de paramètres de configuration de version du client](lync-server-2013-delete-an-existing-collection-of-client-version-configuration-settings.md)
+<div>
+
+## <a name="in-this-section"></a><span data-ttu-id="c2c5d-106">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="c2c5d-106">In This Section</span></span>
+
+  - [<span data-ttu-id="c2c5d-107">Activer ou désactiver le contrôle de version du client dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c2c5d-107">Enable or disable client versioning in Lync Server 2013</span></span>](lync-server-2013-enable-or-disable-client-versioning.md)
+
+  - [<span data-ttu-id="c2c5d-108">Créer ou modifier un ensemble de paramètres de configuration de la version du client dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c2c5d-108">Create or modify a collection of client version configuration settings in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-collection-of-client-version-configuration-settings.md)
+
+  - [<span data-ttu-id="c2c5d-109">Modifier l’action par défaut pour les clients non explicitement pris en charge ou limités dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c2c5d-109">Modify the default action for clients not explicitly supported or restricted in Lync Server 2013</span></span>](lync-server-2013-modify-the-default-action-for-clients-not-explicitly-supported-or-restricted.md)
+
+  - [<span data-ttu-id="c2c5d-110">Afficher les paramètres de configuration de la version du client dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c2c5d-110">View client version configuration settings in Lync Server 2013</span></span>](lync-server-2013-view-client-version-configuration-settings.md)
+
+  - [<span data-ttu-id="c2c5d-111">Supprimer une collection existante de paramètres de configuration de la version du client dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c2c5d-111">Delete an existing collection of client version configuration settings in Lync Server 2013</span></span>](lync-server-2013-delete-an-existing-collection-of-client-version-configuration-settings.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

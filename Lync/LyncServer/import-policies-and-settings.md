@@ -1,43 +1,81 @@
-﻿---
-title: Importation des stratégies et des paramètres
-TOCTitle: Importation des stratégies et des paramètres
-ms:assetid: b25decee-2ee5-4836-b370-454411d39252
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ205178(v=OCS.15)
-ms:contentKeyID: 49298558
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Importer des stratégies et des paramètres
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Import policies and settings
+ms:assetid: b25decee-2ee5-4836-b370-454411d39252
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205178(v=OCS.15)
+ms:contentKeyID: 48185147
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 5f4a4d86d687236934c319e3fb7bd5e6c8027a73
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34838987"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Importation des stratégies et des paramètres
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-09-28_
+# <a name="import-policies-and-settings"></a><span data-ttu-id="2f4e9-102">Importer des stratégies et des paramètres</span><span class="sxs-lookup"><span data-stu-id="2f4e9-102">Import policies and settings</span></span>
 
-Une fois que vous avez fusionné les informations relatives à votre topologie Office Communications Server 2007 R2 avec votre pool pilote Lync Server 2013, vous devez exécuter une applet de commande Lync Server 2013 Management Shell pour migrer vos stratégies et paramètres de configuration Office Communications Server 2007 R2 vers votre pool pilote Lync Server 2013.
+</div>
 
-L’applet de commande **Import-CsLegacyConfiguration** importe les stratégies, les itinéraires des communications vocales, les plans de numérotation, les URL d’Office Communicator Web Access et les numéros d’accès entrant de Lync Server 2013 vers nm-ocs-14-2nd.
+<div id="mainSection">
 
-## Pour migrer les stratégies et les paramètres
+<div id="mainBody">
 
-1.  Sur le serveur frontal Lync Server 2013, démarrez Lync Server Management Shell.
+<span> </span>
 
-2.  Dans la ligne de commande, tapez ce qui suit :
+<span data-ttu-id="2f4e9-103">_**Dernière modification de la rubrique:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="2f4e9-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+
+<span data-ttu-id="2f4e9-104">Après avoir fusionné vos informations topologiques Office Communications Server 2007 R2 avec votre pool de pilotes Lync Server 2013, vous devez exécuter une cmdlet Lync Server 2013 Management Shell pour migrer vos stratégies et paramètres de configuration d’Office Communications Server 2007 R2. à votre pool de pilotes de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="2f4e9-104">After you merge your Office Communications Server 2007 R2 topology information with your Lync Server 2013 pilot pool, you need to run a Lync Server 2013 Management Shell cmdlet to migrate your Office Communications Server 2007 R2 policies and configuration settings to your Lync Server 2013 pilot pool.</span></span>
+
+<span data-ttu-id="2f4e9-105">L’applet **de connexion Import-CsLegacyConfiguration** importe les stratégies, les itinéraires vocaux, les plans de numérotation, les URL et les numéros d’accès rendez-vous sur Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="2f4e9-105">The **Import-CsLegacyConfiguration** cmdlet imports policies, voice routes, dial plans, Communicator Web Access URLs, and dial-in access numbers to Lync Server 2013.</span></span>
+
+<div>
+
+## <a name="to-migrate-policies-and-settings"></a><span data-ttu-id="2f4e9-106">Pour migrer des stratégies et des paramètres</span><span class="sxs-lookup"><span data-stu-id="2f4e9-106">To migrate policies and settings</span></span>
+
+1.  <span data-ttu-id="2f4e9-107">Sur le serveur frontal Lync Server 2013, démarrez Lync Server Management Shell.</span><span class="sxs-lookup"><span data-stu-id="2f4e9-107">On the Lync Server 2013 Front End server, start the Lync Server Management Shell.</span></span>
+
+2.  <span data-ttu-id="2f4e9-108">Dans la ligne de commande, tapez ce qui suit :</span><span class="sxs-lookup"><span data-stu-id="2f4e9-108">At the command line, type the following:</span></span>
     
         Import-CsLegacyConfiguration
     
-    Une fois que les stratégies sont importées, utilisez la procédure suivante pour afficher les stratégies importées dans le Panneau de configuration Lync Server.
+    <span data-ttu-id="2f4e9-109">Une fois les stratégies importées, utilisez la procédure suivante pour afficher les stratégies importées dans le panneau de configuration de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="2f4e9-109">After the policies are imported, use the procedure that follows to see the imported policies in the Lync Server Control Panel .</span></span>
 
-## Pour afficher les stratégies importées
+</div>
 
-1.  Ouvrez le Panneau de configuration Lync Server 2013.
+<div>
 
-2.  Cliquez sur **Routage des communications vocales** et affichez les stratégies importées.
+## <a name="to-view-imported-policies"></a><span data-ttu-id="2f4e9-110">Pour afficher les stratégies importées</span><span class="sxs-lookup"><span data-stu-id="2f4e9-110">To view imported policies</span></span>
 
-3.  Cliquez sur **Conférence** et affichez les stratégies importées.
+1.  <span data-ttu-id="2f4e9-111">Ouvrez le panneau de configuration de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="2f4e9-111">Open Lync Server 2013 Control Panel.</span></span>
 
-4.  Cliquez sur **Fédération et accès externe** et affichez les stratégies importées.
+2.  <span data-ttu-id="2f4e9-112">Cliquez sur **routage** et afficher les stratégies importées.</span><span class="sxs-lookup"><span data-stu-id="2f4e9-112">Click **Voice Routing** and view the imported policies.</span></span>
 
-5.  Cliquez sur **Surveillance et archivage** et affichez les stratégies importées.
+3.  <span data-ttu-id="2f4e9-113">Cliquez sur **Conférence** et affichez les stratégies importées.</span><span class="sxs-lookup"><span data-stu-id="2f4e9-113">Click **Conferencing** and view the imported policies.</span></span>
+
+4.  <span data-ttu-id="2f4e9-114">Cliquez sur **Fédération et accès externe** , puis affichez les stratégies importées.</span><span class="sxs-lookup"><span data-stu-id="2f4e9-114">Click **Federation and External Access** and view the imported policies.</span></span>
+
+5.  <span data-ttu-id="2f4e9-115">Cliquez sur **surveillance et archivage** et afficher les stratégies importées.</span><span class="sxs-lookup"><span data-stu-id="2f4e9-115">Click **Monitoring and Archiving** and view the imported policies.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

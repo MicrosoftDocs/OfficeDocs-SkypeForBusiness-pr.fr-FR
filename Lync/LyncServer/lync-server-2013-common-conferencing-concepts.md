@@ -1,55 +1,105 @@
-﻿---
-title: Concepts communs relatifs aux conférences dans Lync Server 2013
-TOCTitle: Concepts communs relatifs aux conférences dans Lync Server 2013
-ms:assetid: a21d4987-1c0a-44c8-8a39-9c17ffb57f3c
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ688158(v=OCS.15)
-ms:contentKeyID: 49891476
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: concepts communs aux conférences'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Common conferencing concepts
+ms:assetid: a21d4987-1c0a-44c8-8a39-9c17ffb57f3c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688158(v=OCS.15)
+ms:contentKeyID: 49733762
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 240415ccdf8c0ab9be2eaf10304973b62c302c79
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34838538"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Concepts communs relatifs aux conférences dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-09-19_
+# <a name="common-conferencing-concepts-in-lync-server-2013"></a><span data-ttu-id="e7a31-102">Concepts de conférence courants dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e7a31-102">Common conferencing concepts in Lync Server 2013</span></span>
 
-Plusieurs concepts sont communs à tous les types de conférences. Ces concepts sont décrits dans les sections suivantes.
+</div>
 
-## Gestion des stratégies et de la bande passante
+<div id="mainSection">
 
-Lync Server 2013 permet aux administrateurs de définir des stratégies pour les types de réunions que les utilisateurs peuvent organiser. Ceci vous aide à appliquer les stratégies de votre organisation et à contrôler l’utilisation de la bande passante. Vous pouvez définir un grand nombre de stratégies de réunion et les assigner à des utilisateurs et groupes d’utilisateurs spécifiques. Vous pouvez également définir des stratégies régissant les conversations d’égal à égal. Pour plus d’informations sur la définition de stratégies de conférence, voir [Stratégies de conférence dans Lync Server 2013](lync-server-2013-conferencing-policies.md) dans la documentation des opérations. Pour plus d’informations sur la gestion de la bande passante, voir [Vue d’ensemble du contrôle d’admission des appels dans Lync Server 2013](lync-server-2013-overview-of-call-admission-control.md) et [Configuration de la bande passante vidéo dans Lync Server 2013](lync-server-2013-configuring-video-bandwidth.md).
+<div id="mainBody">
 
-## Fonctionnalités d’archivage et de conformité
+<span> </span>
 
-Lync Server 2013 offre des fonctionnalités dont vous pouvez tirer parti si votre organisation doit respecter des réglementations en matière de conformité. Vous pouvez utiliser les fonctionnalités d’archivage pour archiver le contenu présenté lors des réunions, mais aussi le contenu des conversations de messagerie instantanée et des conférences de messagerie instantanée. Pour plus d’informations, voir [Planification de l’archivage dans Lync Server 2013](lync-server-2013-planning-for-archiving.md) dans la documentation de planification. Vous pouvez utiliser les fonctionnalités de conformité de serveur de conversations permanentes pour archiver des conversations à plusieurs, basées sur des sujets et conservées avec le temps. Pour plus d’informations, voir [Planification du serveur de conversation permanente dans Lync Server 2013](lync-server-2013-planning-for-persistent-chat-server.md) dans la documentation de planification.
+<span data-ttu-id="e7a31-103">_**Dernière modification de la rubrique:** 2012-09-19_</span><span class="sxs-lookup"><span data-stu-id="e7a31-103">_**Topic Last Modified:** 2012-09-19_</span></span>
 
-## Fonctionnalité de surveillance
+<span data-ttu-id="e7a31-104">Plusieurs concepts sont communs à tous les types de conférences.</span><span class="sxs-lookup"><span data-stu-id="e7a31-104">Several concepts are common to all types of conferencing.</span></span> <span data-ttu-id="e7a31-105">Celles-ci sont décrites dans les sections suivantes.</span><span class="sxs-lookup"><span data-stu-id="e7a31-105">These are described in the following sections.</span></span>
 
-La fonctionnalité de serveur de surveillance peut capturer des enregistrements de détails des appels, que vous pouvez utiliser pour savoir quels utilisateurs appellent quels autres utilisateurs à l’aide de Lync Server 2013. Pour plus d’informations sur le déploiement et la configuration de la surveillance, voir [Déploiement du serveur de surveillance dans Lync Server 2013](lync-server-2013-deploying-monitoring.md).
+<div>
 
-## Activation de la participation externe aux conférences
+## <a name="policies-and-bandwidth-management"></a><span data-ttu-id="e7a31-106">Stratégies et gestion de la bande passante</span><span class="sxs-lookup"><span data-stu-id="e7a31-106">Policies and Bandwidth Management</span></span>
 
-Vous pouvez fortement accroître les bénéfices de votre investissement dans un système de conférence Lync Server 2013 en permettant aux utilisateurs externes de participer également aux conférences lorsqu’ils y sont invités. Les utilisateurs externes peuvent inclure les catégories suivantes :
+<span data-ttu-id="e7a31-107">Lync Server 2013 permet aux administrateurs de définir des stratégies pour les types de réunions que les utilisateurs peuvent organiser.</span><span class="sxs-lookup"><span data-stu-id="e7a31-107">Lync Server 2013 enables administrators to set policies for the types of meetings that users can organize.</span></span> <span data-ttu-id="e7a31-108">Cela vous permet d’appliquer les stratégies de votre organisation et de contrôler l’utilisation de la bande passante.</span><span class="sxs-lookup"><span data-stu-id="e7a31-108">This helps you enforce your organization’s policies and control bandwidth usage.</span></span> <span data-ttu-id="e7a31-109">Vous pouvez définir une large gamme de stratégies de réunion et les attribuer à des utilisateurs et des groupes d’utilisateurs individuels.</span><span class="sxs-lookup"><span data-stu-id="e7a31-109">You can define a wide variety of meeting policies, and assign them to individual users and groups of users.</span></span> <span data-ttu-id="e7a31-110">Vous pouvez également définir des stratégies régissant les conversations P2P.</span><span class="sxs-lookup"><span data-stu-id="e7a31-110">You can also set policies that govern peer-to-peer conversations.</span></span> <span data-ttu-id="e7a31-111">Pour plus d’informations sur la configuration des stratégies de conférence, voir [stratégies de conférence dans Lync Server 2013](lync-server-2013-conferencing-policies.md) dans la documentation opérations.</span><span class="sxs-lookup"><span data-stu-id="e7a31-111">For details about setting conferencing policies, see [Conferencing policies in Lync Server 2013](lync-server-2013-conferencing-policies.md) in the Operations documentation.</span></span> <span data-ttu-id="e7a31-112">Pour plus d’informations sur la gestion de la bande passante, voir [vue d’ensemble du contrôle d’admission des appels dans Lync Server 2013](lync-server-2013-overview-of-call-admission-control.md) et [configuration de la bande passante vidéo dans Lync Server 2013](lync-server-2013-configuring-video-bandwidth.md).</span><span class="sxs-lookup"><span data-stu-id="e7a31-112">For details about bandwidth management, see [Overview of call admission control in Lync Server 2013](lync-server-2013-overview-of-call-admission-control.md) and [Configuring video bandwidth in Lync Server 2013](lync-server-2013-configuring-video-bandwidth.md).</span></span>
 
-  - **Utilisateurs distants**   Utilisateurs appartenant à votre organisation, lorsqu’ils se trouvent en dehors de vos pare-feu et qu’ils utilisent leur ordinateur portable ou d’autres périphériques Lync Server 2013.
+</div>
 
-  - **Utilisateurs fédérés**   Utilisateurs appartenant aux entreprises avec lesquelles vous travaillez et qui exécutent aussi Lync Server 2013. Pour autoriser vos utilisateurs à contacter facilement ces utilisateurs, créez des relations fédérées avec ces entreprises.
+<div>
 
-  - **Utilisateurs anonymes**   Tous les autres utilisateurs externes qui sont invités par vos utilisateurs à participer à des conférences spécifiques. Un organisateur de réunion qui appartient à votre entreprise peut envoyer à un utilisateur externe, par courrier électronique, une invitation à participer à une conférence. Le courrier électronique inclut un lien sur lequel l’utilisateur externe peut cliquer pour prendre part à la conférence.
+## <a name="archiving-and-compliance-features"></a><span data-ttu-id="e7a31-113">Fonctionnalités d’archivage et de conformité</span><span class="sxs-lookup"><span data-stu-id="e7a31-113">Archiving and Compliance Features</span></span>
 
-Pour activer un ou plusieurs de ces scénarios, vous devez déployer un serveur Edge pour aider à sécuriser les communications entre votre déploiement de Lync Server 2013 et les utilisateurs externes. La solution Lync Server 2013 faisant appel à des serveurs Edge fournit un trafic multimédia de meilleure qualité que les autres solutions telles que les réseaux privés virtuels (VPN). Pour plus d’informations, voir [Planification de l’accès des utilisateurs externes dans Lync Server 2013](lync-server-2013-planning-for-external-user-access.md).
+<span data-ttu-id="e7a31-114">Lync Server 2013 fournit des fonctionnalités que vous pouvez utiliser si votre organisation doit respecter les règles de conformité.</span><span class="sxs-lookup"><span data-stu-id="e7a31-114">Lync Server 2013 provides features you can use if your organization must follow compliance regulations.</span></span> <span data-ttu-id="e7a31-115">Vous pouvez utiliser les capacités d’archivage pour archiver du contenu présenté dans les réunions, ainsi que le contenu des conversations par messagerie instantanée et des conférences de messagerie instantanée.</span><span class="sxs-lookup"><span data-stu-id="e7a31-115">You can use the archiving abilities to archive content presented in meetings, and also the content of instant messaging (IM) conversations and IM conferences.</span></span> <span data-ttu-id="e7a31-116">Pour plus d’informations, reportez-vous à la rubrique [planification de l’archivage dans Lync Server 2013](lync-server-2013-planning-for-archiving.md) dans la documentation de planification.</span><span class="sxs-lookup"><span data-stu-id="e7a31-116">For details, see [Planning for Archiving in Lync Server 2013](lync-server-2013-planning-for-archiving.md) in the Planning documentation.</span></span> <span data-ttu-id="e7a31-117">Vous pouvez utiliser les fonctionnalités de conformité du serveur de chat permanent pour archiver des conversations basées sur des sujets qui persistent dans le temps.</span><span class="sxs-lookup"><span data-stu-id="e7a31-117">You can use compliance features of Persistent Chat Server to archive multiparty, topic-based conversations that persist over time.</span></span> <span data-ttu-id="e7a31-118">Pour plus d’informations, reportez-vous à [planification du serveur de conversation persistant dans Lync Server 2013](lync-server-2013-planning-for-persistent-chat-server.md) dans la documentation de planification.</span><span class="sxs-lookup"><span data-stu-id="e7a31-118">For details, see [Planning for Persistent Chat Server in Lync Server 2013](lync-server-2013-planning-for-persistent-chat-server.md) in the Planning documentation.</span></span>
 
-En outre, que vous choisissiez de déployer ou non des serveurs Edge, vous pouvez autoriser les utilisateurs (dans ou en dehors de votre organisation) à composer un numéro à partir de téléphones PSTN standard, afin de prendre part aux audioconférences sur site. Cette opération s’effectue en déployant la fonctionnalité de conférence rendez-vous de Lync Server 2013.
+</div>
 
-## Compatibilité entre les types de réunions et les versions des clients
+<div>
 
-S’il est prévu que Lync Server 2013 interopère avec des versions précédentes d’Office Communications Server et ses clients, vous devez prendre connaissance des points suivants :
+## <a name="monitoring-feature"></a><span data-ttu-id="e7a31-119">Fonctionnalité de surveillance</span><span class="sxs-lookup"><span data-stu-id="e7a31-119">Monitoring Feature</span></span>
 
-  - Les utilisateurs de Lync Server 2013 ne peuvent pas planifier de conférences Live Meeting, ni modifier de réunions migrées de ce type.
+<span data-ttu-id="e7a31-120">La fonctionnalité analyse du serveur peut capturer les enregistrements des détails des appels (CdR), que vous pouvez utiliser pour effectuer le suivi des utilisateurs qui parlent d’autres utilisateurs à l’aide de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e7a31-120">The Monitoring Server feature can capture call detail records (CDRs), which you can use to track which users talk to which other users using Lync Server 2013.</span></span> <span data-ttu-id="e7a31-121">Pour plus d’informations sur le déploiement et la configuration de la surveillance, voir [déploiement de l’analyse dans Lync Server 2013](lync-server-2013-deploying-monitoring.md).</span><span class="sxs-lookup"><span data-stu-id="e7a31-121">For details about deploying and configuring monitoring, see [Deploying monitoring in Lync Server 2013](lync-server-2013-deploying-monitoring.md).</span></span>
 
-  - Les utilisateurs de Lync Server 2013 qui doivent participer à des conférences Live Meeting hébergées sur des serveurs exécutant Office Communications Server 2007 R2 doivent installer le client Live Meeting sur leur ordinateur (en plus de Lync Server 2013) pour pouvoir participer à ces réunions.
+</div>
 
-  - Lorsque des conférences Live Meeting sont migrées vers Lync Server 2013, le contenu des réunions n’est pas migré. Si ce contenu est requis, il doit de nouveau être téléchargé.
+<div>
+
+## <a name="enabling-external-participation-in-conferences"></a><span data-ttu-id="e7a31-122">Activation de la participation externe aux conférences</span><span class="sxs-lookup"><span data-stu-id="e7a31-122">Enabling External Participation in Conferences</span></span>
+
+<span data-ttu-id="e7a31-123">Vous pouvez considérablement augmenter les avantages de votre investissement dans les conférences Lync Server 2013 en permettant aux utilisateurs externes de participer également à des conférences lors de leur invitation.</span><span class="sxs-lookup"><span data-stu-id="e7a31-123">You can greatly increase the benefits of your investment in Lync Server 2013 conferencing by enabling external users to also participate in conferences when invited.</span></span> <span data-ttu-id="e7a31-124">Exemples d’utilisateurs externes :</span><span class="sxs-lookup"><span data-stu-id="e7a31-124">External users can include:</span></span>
+
+  - <span data-ttu-id="e7a31-125">**Utilisateurs**   distants les utilisateurs de votre organisation qui travaillent à l’extérieur de votre pare-feu et qui utilisent leur ordinateur portable ou d’autres appareils Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e7a31-125">**Remote Users**   Your organization’s own users, when they are working outside your firewalls and are using their laptops or other Lync Server 2013 devices.</span></span>
+
+  - <span data-ttu-id="e7a31-126">**Utilisateurs fédérés utilisateurs**   de sociétés qui travaillent également sur Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e7a31-126">**Federated Users**   Users from companies you work with who also run Lync Server 2013.</span></span> <span data-ttu-id="e7a31-127">Pour autoriser vos utilisateurs à communiquer facilement avec ces utilisateurs externes, créez des relations fédérées avec ces entreprises.</span><span class="sxs-lookup"><span data-stu-id="e7a31-127">To enable your users to easily contact these users, you create federated relationships with these companies.</span></span>
+
+  - <span data-ttu-id="e7a31-128">**Utilisateurs anonymes**   tout autre utilisateur externe invité spécifiquement par vos utilisateurs à rejoindre des conférences spécifiques.</span><span class="sxs-lookup"><span data-stu-id="e7a31-128">**Anonymous Users**   Any other external users who are invited specifically by your users to join specific conferences.</span></span> <span data-ttu-id="e7a31-129">Un organisateur de réunion qui appartient à votre entreprise peut envoyer à un utilisateur externe, par courrier électronique, une invitation à participer à une conférence.</span><span class="sxs-lookup"><span data-stu-id="e7a31-129">A meeting organizer in your company can send an email invitation for a conference to an external user.</span></span> <span data-ttu-id="e7a31-130">Le courrier électronique inclut un lien sur lequel l’utilisateur externe peut cliquer pour participer à la conférence.</span><span class="sxs-lookup"><span data-stu-id="e7a31-130">The email includes a link that the outside user can click to join the conference.</span></span>
+
+<span data-ttu-id="e7a31-131">Pour activer tout ou partie de ces scénarios, vous devez déployer un serveur Edge pour sécuriser les communications entre votre déploiement Lync Server 2013 et les utilisateurs externes.</span><span class="sxs-lookup"><span data-stu-id="e7a31-131">To enable any or all of these scenarios, you need to deploy an Edge Server to help enable secure communications between your Lync Server 2013 deployment and external users.</span></span> <span data-ttu-id="e7a31-132">La solution Lync Server 2013 qui utilise des serveurs Edge fournit des médias de meilleure qualité que d’autres solutions, telles qu’un réseau privé virtuel (VPN).</span><span class="sxs-lookup"><span data-stu-id="e7a31-132">The Lync Server 2013 solution using Edge Servers provides higher quality media than other solutions such as a virtual private network (VPN).</span></span> <span data-ttu-id="e7a31-133">Pour plus d’informations, reportez-vous à la [planification de l’accès des utilisateurs externes dans Lync Server 2013](lync-server-2013-planning-for-external-user-access.md).</span><span class="sxs-lookup"><span data-stu-id="e7a31-133">For details, see [Planning for external user access in Lync Server 2013](lync-server-2013-planning-for-external-user-access.md).</span></span>
+
+<span data-ttu-id="e7a31-134">Par ailleurs, si vous déployez des serveurs de périphérie, vous pouvez permettre aux utilisateurs (à l’intérieur ou à l’extérieur de votre organisation) de se connecter à partir de téléphones RTC standard pour participer à des conférences audio locales.</span><span class="sxs-lookup"><span data-stu-id="e7a31-134">Additionally, whether or not you deploy Edge Servers, you can enable users (that is, either inside or outside your organization) to dial in from standard PSTN phones to join on-premises audio conferences.</span></span> <span data-ttu-id="e7a31-135">Pour ce faire, il suffit de déployer la Conférence rendez-vous Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e7a31-135">This is accomplished by deploying Lync Server 2013 dial-in conferencing.</span></span>
+
+</div>
+
+<div>
+
+## <a name="compatibility-among-meeting-types-and-client-versions"></a><span data-ttu-id="e7a31-136">Compatibilité entre les types de réunion et les versions de client</span><span class="sxs-lookup"><span data-stu-id="e7a31-136">Compatibility Among Meeting Types and Client Versions</span></span>
+
+<span data-ttu-id="e7a31-137">Si vous envisagez d’utiliser Lync Server 2013 avec des versions antérieures d’Office Communications Server et de ses clients, vous devez tenir compte des éléments suivants:</span><span class="sxs-lookup"><span data-stu-id="e7a31-137">If you are going to have Lync Server 2013 interoperate with previous versions of Office Communications Server and its clients, you must be aware of the following issues:</span></span>
+
+  - <span data-ttu-id="e7a31-138">Les utilisateurs de Lync Server 2013 ne peuvent pas planifier de conférences en temps réel, ni modifier une réunion migrée de ce type.</span><span class="sxs-lookup"><span data-stu-id="e7a31-138">Users using Lync Server 2013 cannot schedule Live Meeting conferences, or modify any migrated meetings of this type.</span></span>
+
+  - <span data-ttu-id="e7a31-139">Les utilisateurs de Lync Server 2013 qui doivent participer à des conférences Live Meeting hébergées sur des serveurs exécutant Office Communications Server 2007 R2 doivent avoir installé le client Live Meeting sur leur ordinateur (en plus de Lync Server 2013) pour participer à ces réunions.</span><span class="sxs-lookup"><span data-stu-id="e7a31-139">Users using Lync Server 2013 who need to attend Live Meeting conferences hosted on servers running Office Communications Server 2007 R2 must have the Live Meeting client installed on their computer (in addition to Lync Server 2013) to attend these meetings.</span></span>
+
+  - <span data-ttu-id="e7a31-140">Lors de la migration de conférences Live Meeting vers Lync Server 2013, le contenu de la réunion n’est pas migré.</span><span class="sxs-lookup"><span data-stu-id="e7a31-140">When Live Meeting conferences are migrated to Lync Server 2013, meeting content does not migrate.</span></span> <span data-ttu-id="e7a31-141">Si vous avez besoin de ce contenu, vous devez le télécharger à nouveau.</span><span class="sxs-lookup"><span data-stu-id="e7a31-141">If this content is needed, it must be uploaded again.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

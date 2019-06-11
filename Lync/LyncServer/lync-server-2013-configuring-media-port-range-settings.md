@@ -1,23 +1,43 @@
-﻿---
-title: Configuration des paramètres des plages de ports multimédias
-TOCTitle: Configuration des paramètres des plages de ports multimédias
-ms:assetid: 2c4b7c0b-0dce-48f4-a489-336d6e526f7c
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204770(v=OCS.15)
-ms:contentKeyID: 49296724
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: configuration des paramètres de plage de ports multimédias'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring media port range settings
+ms:assetid: 2c4b7c0b-0dce-48f4-a489-336d6e526f7c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204770(v=OCS.15)
+ms:contentKeyID: 48183723
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 300bec82443e1d2929df63a808cbe17c5bd6f9fe
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34838204"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configuration des paramètres des plages de ports multimédias
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2015-03-09_
+# <a name="configuring-media-port-range-settings-in-lync-server-2013"></a><span data-ttu-id="f9981-102">Configuration des paramètres de plage de ports multimédia dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f9981-102">Configuring media port range settings in Lync Server 2013</span></span>
 
-Les paramètres des plages de ports multimédias peuvent affecter considérablement les performances du client et doivent donc être configurés. Vous pouvez les configurer dans Lync Server Management Shell.
+</div>
 
-### Paramètres de plage de ports multimédias
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="f9981-103">_**Dernière modification de la rubrique:** 2012-10-18_</span><span class="sxs-lookup"><span data-stu-id="f9981-103">_**Topic Last Modified:** 2012-10-18_</span></span>
+
+<span data-ttu-id="f9981-104">Les paramètres de la plage de ports multimédias peuvent avoir un impact considérable sur les performances du client.</span><span class="sxs-lookup"><span data-stu-id="f9981-104">Media port range settings can significantly impact client performance and should be configured.</span></span> <span data-ttu-id="f9981-105">Vous pouvez configurer ces paramètres à l’aide de Lync Server Management Shell.</span><span class="sxs-lookup"><span data-stu-id="f9981-105">You can configure these settings by using Lync Server Management Shell.</span></span>
+
+### <a name="media-port-range-settings"></a><span data-ttu-id="f9981-106">Paramètres de la plage de ports multimédia</span><span class="sxs-lookup"><span data-stu-id="f9981-106">Media Port Range Settings</span></span>
 
 <table>
 <colgroup>
@@ -28,48 +48,69 @@ Les paramètres des plages de ports multimédias peuvent affecter considérablem
 </colgroup>
 <thead>
 <tr class="header">
-<th>Paramètre</th>
-<th>Description</th>
-<th>Applet de commande Lync Server Management Shell</th>
-<th>Paramètres de l’applet de commande</th>
+<th><span data-ttu-id="f9981-107">Paramètre</span><span class="sxs-lookup"><span data-stu-id="f9981-107">Setting</span></span></th>
+<th><span data-ttu-id="f9981-108">Description</span><span class="sxs-lookup"><span data-stu-id="f9981-108">Description</span></span></th>
+<th><span data-ttu-id="f9981-109">Cmdlet Lync Server Management Shell</span><span class="sxs-lookup"><span data-stu-id="f9981-109">Lync Server Management Shell cmdlet</span></span></th>
+<th><span data-ttu-id="f9981-110">Paramètres de cmdlet</span><span class="sxs-lookup"><span data-stu-id="f9981-110">Cmdlet parameters</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Portrange\Enabled</p></td>
-<td><p>Spécifie si les plages de ports envoyées par le serveur doivent être utilisées par le client pour les médias et la signalisation. Utilisée conjointement avec les sous-valeurs MinMediaPort et MaxMediaPort.</p></td>
-<td><p><strong>CsConferencingConfiguration</strong></p></td>
-<td><p>ClientMediaPortRangeEnabled</p></td>
+<td><p><span data-ttu-id="f9981-111">Portrange\Enabled</span><span class="sxs-lookup"><span data-stu-id="f9981-111">Portrange\Enabled</span></span></p></td>
+<td><p><span data-ttu-id="f9981-112">Indique si les plages de ports envoyées par le serveur doivent être utilisées par le client pour le média et le signalement.</span><span class="sxs-lookup"><span data-stu-id="f9981-112">Specifies whether the port ranges sent by the server should be used by the client for media and signaling.</span></span> <span data-ttu-id="f9981-113">Utilisé conjointement avec les sous-valeurs MinMediaPort et MaxMediaPort.</span><span class="sxs-lookup"><span data-stu-id="f9981-113">Used in conjunction with the subvalues MinMediaPort and MaxMediaPort.</span></span></p></td>
+<td><p><span data-ttu-id="f9981-114"><strong>CsConferencingConfiguration</strong></span><span class="sxs-lookup"><span data-stu-id="f9981-114"><strong>CsConferencingConfiguration</strong></span></span></p></td>
+<td><p><span data-ttu-id="f9981-115">ClientMediaPortRangeEnabled</span><span class="sxs-lookup"><span data-stu-id="f9981-115">ClientMediaPortRangeEnabled</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Portrange\MinMediaPort</p></td>
-<td><p>Spécifie le numéro de port de début à utiliser pour le trafic multimédia. Combinée avec MaxMediaPort pour spécifier la plage de ports. La plage minimale recommandée est de 40 ports.</p></td>
-<td><p><strong>CsConferencingConfiguration</strong></p></td>
-<td><p>ClientMediaPort (représente le numéro de port de début à utiliser pour le trafic multimédia client)</p></td>
+<td><p><span data-ttu-id="f9981-116">Portrange\MinMediaPort</span><span class="sxs-lookup"><span data-stu-id="f9981-116">Portrange\MinMediaPort</span></span></p></td>
+<td><p><span data-ttu-id="f9981-117">Spécifie le numéro de port de départ à utiliser pour le média.</span><span class="sxs-lookup"><span data-stu-id="f9981-117">Specifies the starting port number to use for media.</span></span> <span data-ttu-id="f9981-118">S’associe à MaxMediaPort pour spécifier la plage de ports.</span><span class="sxs-lookup"><span data-stu-id="f9981-118">Combines with MaxMediaPort to specify the range of ports.</span></span> <span data-ttu-id="f9981-119">La plage minimale recommandée est 40 ports.</span><span class="sxs-lookup"><span data-stu-id="f9981-119">The recommended minimum range is 40 ports.</span></span></p></td>
+<td><p><span data-ttu-id="f9981-120"><strong>CsConferencingConfiguration</strong></span><span class="sxs-lookup"><span data-stu-id="f9981-120"><strong>CsConferencingConfiguration</strong></span></span></p></td>
+<td><p><span data-ttu-id="f9981-121">ClientMediaPort (représente le numéro du port de départ à utiliser pour le média client)</span><span class="sxs-lookup"><span data-stu-id="f9981-121">ClientMediaPort (represents the starting port number to use for client media)</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Portrange\MaxMediaPort</p></td>
-<td><p>Spécifie le numéro de port le plus élevé à utiliser pour le trafic multimédia. Combinée avec MinMediaPort pour spécifier la plage de ports. La plage minimale recommandée est de 40 ports.</p></td>
-<td><p><strong>CsConferencingConfiguration</strong></p></td>
-<td><p>ClientMediaPortRange (indique le nombre total de ports disponibles pour le trafic multimédia client. La valeur par défaut est 40)</p></td>
+<td><p><span data-ttu-id="f9981-122">Portrange\MaxMediaPort</span><span class="sxs-lookup"><span data-stu-id="f9981-122">Portrange\MaxMediaPort</span></span></p></td>
+<td><p><span data-ttu-id="f9981-123">Spécifie le numéro de port le plus élevé à utiliser pour le contenu multimédia.</span><span class="sxs-lookup"><span data-stu-id="f9981-123">Specifies the highest port number to use for media.</span></span> <span data-ttu-id="f9981-124">S’associe à MinMediaPort pour spécifier la plage de ports.</span><span class="sxs-lookup"><span data-stu-id="f9981-124">Combines with MinMediaPort to specify the range of ports.</span></span> <span data-ttu-id="f9981-125">La plage minimale recommandée est 40 ports.</span><span class="sxs-lookup"><span data-stu-id="f9981-125">The recommended minimum range is 40 ports.</span></span></p></td>
+<td><p><span data-ttu-id="f9981-126"><strong>CsConferencingConfiguration</strong></span><span class="sxs-lookup"><span data-stu-id="f9981-126"><strong>CsConferencingConfiguration</strong></span></span></p></td>
+<td><p><span data-ttu-id="f9981-127">ClientMediaPortRange (indique le nombre total de ports disponibles pour le support client; la valeur par défaut est 40)</span><span class="sxs-lookup"><span data-stu-id="f9981-127">ClientMediaPortRange (indicates the total number of ports available for client media; default is 40)</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Pour configurer les paramètres de la plage de ports multimédias
+<div>
 
-1.  Démarrez Lync Server Management Shell : cliquez successivement sur **Démarrer**, **Tous les programmes**, **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+## <a name="to-configure-media-port-range-settings"></a><span data-ttu-id="f9981-128">Pour configurer les paramètres de la plage de ports multimédia</span><span class="sxs-lookup"><span data-stu-id="f9981-128">To Configure Media Port Range Settings</span></span>
 
-2.  Exécutez l’applet de commande suivante :
+1.  <span data-ttu-id="f9981-129">Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.</span><span class="sxs-lookup"><span data-stu-id="f9981-129">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+
+2.  <span data-ttu-id="f9981-130">Exécutez l’applet de commande suivante :</span><span class="sxs-lookup"><span data-stu-id="f9981-130">Run the following cmdlet:</span></span>
     
         Get-CsConferencingConfiguration
     
-    Cette applet de commande renvoie les paramètres de configuration de conférence.
+    <span data-ttu-id="f9981-131">Cette cmdlet renvoie les paramètres de configuration de la Conférence.</span><span class="sxs-lookup"><span data-stu-id="f9981-131">This cmdlet returns the conferencing configuration settings.</span></span>
 
-3.  Exécutez l’applet de commande suivante avec les paramètres et valeurs que vous souhaitez modifier (pour plus d’informations sur les paramètres de cette applet de commande, voir la documentation de Lync Server Management Shell) :
+3.  <span data-ttu-id="f9981-132">Exécutez l’applet de commande suivante avec les paramètres et valeurs que vous souhaitez modifier (pour plus d’informations sur les paramètres de cette applet de commande, voir la documentation Lync Server Management Shell):</span><span class="sxs-lookup"><span data-stu-id="f9981-132">Run the following cmdlet with the parameters and values you want to change (for details about the parameters for this cmdlet, see the Lync Server Management Shell documentation):</span></span>
     
         Set-CsConferencingConfiguration
     
+    <div>
+    
+
     > [!NOTE]  
-    > Vous pouvez créer des ensembles de paramètres de configuration de conférence supplémentaires pour des sites spécifiques. Utilisez l’applet de commande <strong>New- CsConferencingConfiguration</strong> avec une identité de site. Lorsque vous créez de nouveaux paramètres de configuration de conférence pour des sites, ces paramètres prévalent sur les paramètres globaux. Pour plus d’informations, voir la documentation Lync Server Management Shell.
+    > <span data-ttu-id="f9981-133">Vous pouvez créer des ensembles de paramètres de configuration de conférences supplémentaires pour des sites spécifiques.</span><span class="sxs-lookup"><span data-stu-id="f9981-133">You can create additional sets of conferencing configuration settings for specific sites.</span></span> <span data-ttu-id="f9981-134">Utilisez l’applet <STRONG>de nouvelle applet de nouveau-CsConferencingConfiguration</STRONG> avec une identité de site.</span><span class="sxs-lookup"><span data-stu-id="f9981-134">Use the <STRONG>New- CsConferencingConfiguration</STRONG> cmdlet with a site identity.</span></span> <span data-ttu-id="f9981-135">Quand vous créez de nouveaux paramètres de configuration de conférence pour les sites, les paramètres du site sont prioritaires sur les paramètres globaux.</span><span class="sxs-lookup"><span data-stu-id="f9981-135">When you create new conferencing configuration settings for sites, the site settings take precedence over the global settings.</span></span> <span data-ttu-id="f9981-136">Pour plus d’informations, reportez-vous à la documentation Lync Server Management Shell.</span><span class="sxs-lookup"><span data-stu-id="f9981-136">For details, see the Lync Server Management Shell documentation.</span></span>
+
+    
+    </div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+

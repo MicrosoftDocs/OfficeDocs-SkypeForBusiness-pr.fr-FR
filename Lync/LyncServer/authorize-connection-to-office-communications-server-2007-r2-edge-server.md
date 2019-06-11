@@ -1,39 +1,73 @@
-﻿---
-title: "Autor. de la connexion au serveur Edge Office Communications Server 2007 R2"
-TOCtitle: "Autor. de la connexion au serveur Edge Office Communications Server 2007 R2"
-ms:assetid: 14f6798a-28d6-4b3d-8734-942192e1bbf5
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204702(v=OCS.15)
-ms:contentKeyID: 49296346
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Autoriser la connexion à un serveur Edge Office Communications Server 2007 R2
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Authorize connection to Office Communications Server 2007 R2 Edge Server
+ms:assetid: 14f6798a-28d6-4b3d-8734-942192e1bbf5
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204702(v=OCS.15)
+ms:contentKeyID: 48183493
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f81d8aaf9a01fc73516778487f8cc9a2d28a04ca
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34838106"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Autorisation de la connexion au serveur Edge Office Communications Server 2007 R2
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-09-28_
+# <a name="authorize-connection-to-office-communications-server-2007-r2-edge-server"></a><span data-ttu-id="98dad-102">Autoriser la connexion à un serveur Edge Office Communications Server 2007 R2</span><span class="sxs-lookup"><span data-stu-id="98dad-102">Authorize connection to Office Communications Server 2007 R2 Edge Server</span></span>
 
-Pour chaque serveur frontal Lync Server 2013 ou serveur Standard Edition de votre pool pilote, vous devez mettre à jour la liste des serveurs internes autorisés à se connecter au serveur Edge Office Communications Server 2007 R2. Sans ces mises à jour, les conférences audio/vidéo (A/V) externes ne peuvent pas fonctionner pour les participants qui utilisent un serveur Edge hérité.
+</div>
 
-## Pour autoriser la connexion au serveur Edge Office Communications Server 2007 R2
+<div id="mainSection">
 
-1.  À partir du serveur Edge Office Communications Server 2007 R2, dans le groupe **Outils d’administration** , ouvrez le composant logiciel enfichable **Gestion de l’ordinateur** .
+<div id="mainBody">
 
-2.  Dans l’arborescence de la console, développez **Services et applications** .
+<span> </span>
 
-3.  Cliquez avec le bouton droit sur **Office Communications Server 2007 R2**, puis cliquez sur **Propriétés** .
+<span data-ttu-id="98dad-103">_**Dernière modification de la rubrique:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="98dad-103">_**Topic Last Modified:** 2012-09-28_</span></span>
 
-4.  Cliquez sur l’onglet **Interne** .
+<span data-ttu-id="98dad-104">Pour chaque serveur principal Lync Server 2013 ou Standard Edition Server dans votre pool de pilotes, vous devez mettre à jour la liste des serveurs internes autorisés à se connecter au serveur Edge Office Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="98dad-104">For each Lync Server 2013 Front End Server or Standard Edition server in your pilot pool, you must update the list of internal servers that are authorized to connect to the Office Communications Server 2007 R2 Edge Server.</span></span> <span data-ttu-id="98dad-105">Sans ces mises à jour, les conférences audio/vidéo externes (A/V) pour les utilisateurs qui rejoignent l’utilisation du serveur Edge hérité ne fonctionneront pas.</span><span class="sxs-lookup"><span data-stu-id="98dad-105">Without these updates, external audio/visual (A/V) conferencing for users joining by using the legacy Edge Server will not work.</span></span>
 
-5.  Sous **Ajouter un serveur** , cliquez sur **Ajouter** .
+<div>
 
-6.  Dans la boîte de dialogue **Ajouter Office Communications Server**, entrez les informations appropriées :
+## <a name="to-authorize-connection-to-office-communications-server-2007-r2-edge-server"></a><span data-ttu-id="98dad-106">Pour autoriser la connexion à un serveur Edge Office Communications Server 2007 R2</span><span class="sxs-lookup"><span data-stu-id="98dad-106">To Authorize Connection to Office Communications Server 2007 R2 Edge Server</span></span>
+
+1.  <span data-ttu-id="98dad-107">À partir du serveur Office Communications Server 2007 R2 Edge, accédez au groupe **Outils d’administration** , puis ouvrez le composant logiciel enfichable Gestion de l' **ordinateur** .</span><span class="sxs-lookup"><span data-stu-id="98dad-107">From the Office Communications Server 2007 R2 Edge Server, from the **Administrative Tools** group, open the **Computer Management** snap-in.</span></span>
+
+2.  <span data-ttu-id="98dad-108">Dans l’arborescence de la console, développez **services et applications**.</span><span class="sxs-lookup"><span data-stu-id="98dad-108">In the console tree, expand **Services and Applications**.</span></span>
+
+3.  <span data-ttu-id="98dad-109">Cliquez avec le bouton droit sur **Office Communications Server 2007 R2**, puis cliquez sur **Propriétés**.</span><span class="sxs-lookup"><span data-stu-id="98dad-109">Right-click **Office Communications Server 2007 R2**, and then click **Properties**.</span></span>
+
+4.  <span data-ttu-id="98dad-110">Cliquez sur l’onglet **interne** .</span><span class="sxs-lookup"><span data-stu-id="98dad-110">Click the **Internal** tab.</span></span>
+
+5.  <span data-ttu-id="98dad-111">Sous **Ajouter un serveur**, cliquez sur **Ajouter**.</span><span class="sxs-lookup"><span data-stu-id="98dad-111">Under **Add Server**, click **Add**.</span></span>
+
+6.  <span data-ttu-id="98dad-112">Dans la boîte de dialogue **Ajouter un serveur Office Communications Server** , entrez les informations appropriées:</span><span class="sxs-lookup"><span data-stu-id="98dad-112">In the **Add Office Communications Server** dialog box, enter the appropriate information:</span></span>
     
-      - Indiquez le nom de domaine complet (FQDN) de chaque serveur frontal Lync Server 2013 ou serveur Standard Edition et du pool Lync Server 2013.
+      - <span data-ttu-id="98dad-113">Spécifiez le nom de domaine complet (FQDN) de chaque serveur frontal Lync Server 2013 ou Standard Edition Server et de Lync Server 2013 pool.</span><span class="sxs-lookup"><span data-stu-id="98dad-113">Specify the fully qualified domain name (FQDN) of each Lync Server 2013 Front End Server or Standard Edition server, and Lync Server 2013 pool.</span></span>
     
-      - Spécifiez le nom de domaine complet (FQDN) du directeur Lync Server 2013 si vous avez configuré un itinéraire statique sur le pool qui spécifie l’ordinateur du tronçon suivant par son nom de domaine complet.
+      - <span data-ttu-id="98dad-114">Spécifiez le nom de domaine complet (FQDN) du réalisateur Lync Server 2013 si vous avez configuré un itinéraire statique sur le pool qui spécifie l’ordinateur tronçon suivant par son nom de domaine complet.</span><span class="sxs-lookup"><span data-stu-id="98dad-114">Specify the FQDN of the Lync Server 2013 Director if you configured a static route on the pool that specifies the next hop computer by its FQDN.</span></span>
 
-7.  Après avoir ajouté une entrée pour chaque Lync Server 2013, serveur frontal, serveur Standard Edition, pool et directeur, cliquez sur **Appliquer**, puis sur **OK** pour fermer la page Propriétés.
+7.  <span data-ttu-id="98dad-115">Après avoir ajouté une entrée pour chaque serveur Lync Server 2013, serveur frontal, serveur Standard Edition, pool et directeur, cliquez sur **appliquer** , puis sur **OK** pour fermer la page Propriétés.</span><span class="sxs-lookup"><span data-stu-id="98dad-115">After you have added an entry for each Lync Server 2013, Front End Server, Standard Edition server, pool, and Director, click **Apply** and then click **OK** to close the Properties page.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

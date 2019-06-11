@@ -1,52 +1,98 @@
-﻿---
-title: "Lync Server 2013 : Conf. de la prise en ch. des domaines externes autorisés"
-TOCTitle: Configuration de la prise en charge des domaines externes autorisés
-ms:assetid: 3ee6e175-986d-4c33-b03a-b9f93083dca6
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg425908(v=OCS.15)
-ms:contentKeyID: 49296990
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Configuraton de la prise en charge des domaines externes autorisés'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure support for allowed external domains
+ms:assetid: 3ee6e175-986d-4c33-b03a-b9f93083dca6
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425908(v=OCS.15)
+ms:contentKeyID: 48183943
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: bfab1a41f39d975d2920bdf97ea601618277f35a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34838326"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configuration de la prise en charge des domaines externes autorisés dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-10-19_
+# <a name="configure-support-for-allowed-external-domains-in-lync-server-2013"></a><span data-ttu-id="879e5-102">Configuration de la prise en charge des domaines externes autorisés dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="879e5-102">Configure support for allowed external domains in Lync Server 2013</span></span>
 
-Si vous avez configuré la prise en charge des partenaires fédérés, vous pouvez décider des domaines qui sont autorisés à se fédérer avec votre organisation. Vous devez configurer un ou plusieurs domaines externes spécifiques en tant que domaines fédérés autorisés. Pour ce faire, ajoutez chaque domaine à la liste des domaines autorisés. Même si la découverte de partenaire est activée pour votre organisation, effectuez cette opération si le domaine est un partenaire fédéré qui devra peut-être communiquer avec plus de 1 000 de vos utilisateurs ou envoyer plus de 20 messages par seconde. Si la découverte de partenaire est désactivée pour votre organisation, seuls les utilisateurs des domaines externes que vous ajoutez à la liste des domaines autorisés peuvent utiliser la messagerie instantanée et les services de conférence avec les utilisateurs de votre organisation. Si vous souhaitez limiter l’accès d’un domaine fédéré à un serveur spécifique qui exécute le service Edge d’accès du partenaire fédéré, vous pouvez spécifier le nom de domaine du serveur exécutant le service Edge d’accès pour chaque domaine présent dans la liste des domaines autorisés.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="879e5-103">_**Dernière modification de la rubrique:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="879e5-103">_**Topic Last Modified:** 2012-10-19_</span></span>
+
+<span data-ttu-id="879e5-104">Si vous avez configuré la prise en charge des partenaires fédérés, vous pouvez gérer les domaines spécifiques qu’il est possible de fédérer avec votre organisation.</span><span class="sxs-lookup"><span data-stu-id="879e5-104">If you have configured support for federated partners, you can manage which specific domains can federate with your organization.</span></span> <span data-ttu-id="879e5-105">Vous pouvez configurer un ou plusieurs domaines externes spécifiques en tant que domaines fédérés autorisés.</span><span class="sxs-lookup"><span data-stu-id="879e5-105">You configure one or more specific external domains as allowed federated domains.</span></span> <span data-ttu-id="879e5-106">Pour ce faire, ajoutez chaque domaine à la liste des domaines autorisés.</span><span class="sxs-lookup"><span data-stu-id="879e5-106">To do this, add each domain to the list of allowed domains.</span></span> <span data-ttu-id="879e5-107">Même si la découverte des partenaires est activée pour votre organisation, procédez comme suit si le domaine est un partenaire fédéré qui peut avoir besoin de communiquer avec plus de 1 000 ou si vous avez besoin d’envoyer plus de 20 messages par seconde.</span><span class="sxs-lookup"><span data-stu-id="879e5-107">Even if partner discovery is enabled for your organization, do this if the domain is a federated partner that might need to communicate with more than 1,000 of your users or might need to send more than 20 messages per second.</span></span> <span data-ttu-id="879e5-108">Si la découverte de partenaire n’est pas activée pour votre organisation, seuls les utilisateurs de domaines externes que vous ajoutez à la liste des domaines autorisés peuvent participer à la messagerie instantanée et à la Conférence avec les utilisateurs de votre organisation.</span><span class="sxs-lookup"><span data-stu-id="879e5-108">If partner discovery is not enabled for your organization, only users of external domains that you add to the allowed domains list can participate in IM and conferencing with users in your organization.</span></span> <span data-ttu-id="879e5-109">Si vous souhaitez limiter l’accès d’un domaine fédéré à un serveur spécifique exécutant le service Edge d’accès du partenaire fédéré, vous pouvez spécifier le nom de domaine du serveur exécutant le service Edge d’accès pour chaque domaine dans la liste des domaines autorisés.</span><span class="sxs-lookup"><span data-stu-id="879e5-109">If you want to restrict access for a federated domain to a specific server running the Access Edge service of the federated partner, you can specify the domain name of the server running the Access Edge service for each domain in the list of allowed domains.</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> Cette procédure décrit la façon de configurer la prise en charge de domaines spécifiques, mais l’implémentation de la prise en charge des utilisateurs fédérés nécessite également d’activer la prise en charge des utilisateurs fédérés pour votre organisation, mais aussi de configurer et d’appliquer des stratégies permettant de spécifier les utilisateurs qui sont autorisés à collaborer avec les utilisateurs fédérés. Pour plus d’informations sur l’activation de la prise en charge des utilisateurs fédérés, reportez-vous à <a href="lync-server-2013-enable-or-disable-remote-user-access.md">Activation ou désactivation de l’accès des utilisateurs distants dans Lync Server 2013</a>. Pour plus d’informations sur la configuration des stratégies permettant de contrôler la fédération, reportez-vous à <a href="lync-server-2013-configure-policies-to-control-federated-user-access.md">Configuration des stratégies de contrôle d’accès des utilisateurs fédérés dans Lync Server 2013</a>.
+> <span data-ttu-id="879e5-110">Cette procédure vous explique comment configurer la prise en charge des domaines spécifiques, mais que l’implémentation de la prise en charge des utilisateurs fédérés nécessite également l’activation de la prise en charge des utilisateurs fédérés pour votre organisation et la configuration et l’application de stratégies pour contrôler les utilisateurs qui peuvent collaborer avec des utilisateurs fédérés.</span><span class="sxs-lookup"><span data-stu-id="879e5-110">This procedure describes how to configure support for specific domains, but implementing support for federated users also requires that you enable support for federated users for your organization, and configure and apply policies to control which users can collaborate with federated users.</span></span> <span data-ttu-id="879e5-111">Pour plus d’informations sur l’activation de la prise en charge des utilisateurs fédérés, voir <A href="lync-server-2013-enable-or-disable-remote-user-access.md">activation ou désactivation de l’accès des utilisateurs distants dans Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="879e5-111">For details about enabling support for federated users, see <A href="lync-server-2013-enable-or-disable-remote-user-access.md">Enable or disable remote user access in Lync Server 2013</A>.</span></span> <span data-ttu-id="879e5-112">Pour plus d’informations sur la configuration des stratégies pour contrôler la Fédération, voir <A href="lync-server-2013-configure-policies-to-control-federated-user-access.md">configurer des stratégies pour contrôler l’accès des utilisateurs fédérés dans Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="879e5-112">For details about configuring policies to control federation, see <A href="lync-server-2013-configure-policies-to-control-federated-user-access.md">Configure policies to control federated user access in Lync Server 2013</A>.</span></span>
 
-## Pour ajouter un domaine externe à la liste des domaines autorisés
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou disposant des mêmes droits) ou affecté au rôle CsAdministrator, ouvrez une session sur un ordinateur qui se trouve sur votre déploiement interne.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes de démarrage du Panneau de configuration Lync Server, voir [Ouvrir les outils d’administration Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+</div>
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Accès des utilisateurs externes** , puis cliquez sur **Domaines fédérés** .
+<div>
 
-4.  Dans la page **Domaines fédérés** , cliquez sur **Nouveau** , puis sur **Domaine autorisé** .
+## <a name="to-add-an-external-domain-to-the-list-of-allowed-domains"></a><span data-ttu-id="879e5-113">Pour ajouter un domaine externe à la liste des domaines autorisés</span><span class="sxs-lookup"><span data-stu-id="879e5-113">To add an external domain to the list of allowed domains</span></span>
 
-5.  Dans **Nouveaux domaines fédérés** , procédez comme suit :
+1.  <span data-ttu-id="879e5-114">À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affectées au rôle CsAdministrator, connectez-vous à n’importe quel ordinateur dans votre déploiement interne.</span><span class="sxs-lookup"><span data-stu-id="879e5-114">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+
+2.  <span data-ttu-id="879e5-115">Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="879e5-115">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="879e5-116">Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="879e5-116">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+
+3.  <span data-ttu-id="879e5-117">Dans la barre de navigation de gauche, cliquez sur **accès utilisateur externe**, puis sur **domaines fédérés**.</span><span class="sxs-lookup"><span data-stu-id="879e5-117">In the left navigation bar, click **External User Access**, and then click **Federated Domains**.</span></span>
+
+4.  <span data-ttu-id="879e5-118">Sur la page **domaines fédérés** , cliquez sur **nouveau**, puis cliquez sur **domaine autorisé**.</span><span class="sxs-lookup"><span data-stu-id="879e5-118">On the **Federated Domains** page, click **New**, and then click **Allowed domain**.</span></span>
+
+5.  <span data-ttu-id="879e5-119">Dans **nouveaux domaines fédérés**, procédez comme suit:</span><span class="sxs-lookup"><span data-stu-id="879e5-119">In **New Federated Domains**, do the following:</span></span>
     
-      - Dans **Nom de domaine complet (ou FQDN)** , tapez le nom de domaine du partenaire fédéré.
+      - <span data-ttu-id="879e5-120">Dans **nom de domaine (ou nom de domaine complet)**, tapez le nom du domaine du partenaire fédéré.</span><span class="sxs-lookup"><span data-stu-id="879e5-120">In **Domain name (or FQDN)**, type the name of the federated partner domain.</span></span>
         
+        <div>
+        
+
         > [!NOTE]  
-        > Ce nom doit être unique et ne doit pas déjà exister en tant que domaine autorisé pour ce serveur exécutant le service Edge d’accès. Il peut contenir jusqu’à 256 caractères.<br />
-        La recherche du nom de domaine du partenaire fédéré établit une correspondance à partir du suffixe. Par exemple, si vous tapez <strong>contoso.com</strong> , la recherche renverra également le domaine <strong>it.contoso.com</strong> .<br />
-        Un domaine de partenaire fédéré ne peut pas être simultanément bloqué et autorisé. Lync Server 2013 empêche cette situation afin que vous n’ayez pas à synchroniser vos listes.    
-      - Si vous souhaitez restreindre l’accès pour ce domaine fédéré aux utilisateurs d’un serveur spécifique qui exécute le service Edge d’accès, dans **Service Edge d’accès (FQDN)** , tapez le nom de domaine complet du serveur de domaine fédéré exécutant le service Edge d’accès.
+        > <span data-ttu-id="879e5-121">Ce nom doit être unique et ne peut pas déjà exister en tant que domaine autorisé pour ce serveur exécutant le service Edge d’accès.</span><span class="sxs-lookup"><span data-stu-id="879e5-121">This name must be unique and cannot already exist as an allowed domain for this server running the Access Edge service.</span></span> <span data-ttu-id="879e5-122">Le nom ne peut pas contenir plus de 256 caractères.</span><span class="sxs-lookup"><span data-stu-id="879e5-122">The name cannot exceed 256 characters in length.</span></span><BR><span data-ttu-id="879e5-123">La recherche du nom de domaine du partenaire fédéré effectue une correspondance de suffixe.</span><span class="sxs-lookup"><span data-stu-id="879e5-123">The search on the federated partner domain name performs a suffix match.</span></span> <span data-ttu-id="879e5-124">Par exemple, si vous tapez <STRONG>contoso.com</STRONG>, la recherche renverra également le domaine <STRONG>it.contoso.com</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="879e5-124">For example, if you type <STRONG>contoso.com</STRONG>, the search will also return the domain <STRONG>it.contoso.com</STRONG>.</span></span><BR><span data-ttu-id="879e5-125">Un domaine de partenaire fédéré ne peut pas être bloqué et autorisé simultanément.</span><span class="sxs-lookup"><span data-stu-id="879e5-125">A federated partner domain cannot simultaneously be blocked and allowed.</span></span> <span data-ttu-id="879e5-126">Lync Server 2013 empêche cela d’avoir lieu de sorte que vous n’ayez pas à synchroniser vos listes.</span><span class="sxs-lookup"><span data-stu-id="879e5-126">Lync Server 2013 prevents this from happening so that you do not have to synch up your lists.</span></span>
+
+        
+        </div>
     
-      - Si vous souhaitez fournir des informations supplémentaires, dans **Commentaire** , tapez les informations sur cette configuration que vous voulez partager avec les autres administrateurs système.
+      - <span data-ttu-id="879e5-127">Si vous voulez limiter l’accès à ce domaine fédéré aux utilisateurs d’un serveur spécifique exécutant le service Edge d’accès (FQDN), tapez le nom de domaine complet **(FQDN)** du serveur du domaine fédéré exécutant le service Edge d’accès.</span><span class="sxs-lookup"><span data-stu-id="879e5-127">If you want to restrict access for this federated domain to users of a specific server running the Access Edge service, in **Access Edge service (FQDN)**, type the FQDN of the federated domain’s server running the Access Edge service.</span></span>
+    
+      - <span data-ttu-id="879e5-128">Si vous voulez fournir des informations supplémentaires, dans **commenter**, tapez les informations que vous voulez partager avec d’autres administrateurs système sur cette configuration.</span><span class="sxs-lookup"><span data-stu-id="879e5-128">If you want to provide additional information, in **Comment**, type information that you want to share with other system administrators about this configuration.</span></span>
 
-6.  Cliquez sur **Valider** .
+6.  <span data-ttu-id="879e5-129">Cliquez sur **Valider**.</span><span class="sxs-lookup"><span data-stu-id="879e5-129">Click **Commit**.</span></span>
 
-7.  Répétez les étapes 4 à 6 pour chaque domaine de partenaire fédéré que vous souhaitez autoriser.
+7.  <span data-ttu-id="879e5-130">Répétez les étapes 4 à 6 pour chaque domaine partenaire fédéré que vous souhaitez autoriser.</span><span class="sxs-lookup"><span data-stu-id="879e5-130">Repeat steps 4 through 6 for each federated partner domain that you want to allow.</span></span>
 
-Pour activer l’accès des utilisateurs fédérés, vous devez aussi activer la prise en charge de l’accès des utilisateurs fédérés dans votre organisation. Pour plus d’informations, reportez-vous à [Activation ou désactivation de l’accès des utilisateurs distants dans Lync Server 2013](lync-server-2013-enable-or-disable-remote-user-access.md).
+<span data-ttu-id="879e5-131">Pour autoriser l’accès des utilisateurs fédérés, vous devez également activer la prise en charge de l’accès des utilisateurs fédérés au sein de votre organisation.</span><span class="sxs-lookup"><span data-stu-id="879e5-131">To enable federated user access, you must also enable support for federated user access in your organization.</span></span> <span data-ttu-id="879e5-132">Pour plus d’informations, voir [activer ou désactiver l’accès des utilisateurs distants dans Lync Server 2013](lync-server-2013-enable-or-disable-remote-user-access.md).</span><span class="sxs-lookup"><span data-stu-id="879e5-132">For details, see [Enable or disable remote user access in Lync Server 2013](lync-server-2013-enable-or-disable-remote-user-access.md).</span></span>
 
-En outre, vous devez configurer et appliquer la stratégie aux utilisateurs que vous souhaitez autoriser à collaborer avec les utilisateurs fédérés. Pour plus d’informations, reportez-vous à [Configuration des stratégies de contrôle d’accès des utilisateurs fédérés dans Lync Server 2013](lync-server-2013-configure-policies-to-control-federated-user-access.md).
+<span data-ttu-id="879e5-133">Par ailleurs, vous devez configurer et appliquer la stratégie aux utilisateurs que vous souhaitez pouvoir collaborer avec des utilisateurs fédérés.</span><span class="sxs-lookup"><span data-stu-id="879e5-133">Additionally, you must configure and apply the policy to users that you want to be able to collaborate with federated users.</span></span> <span data-ttu-id="879e5-134">Pour plus d’informations, reportez-vous à la rubrique [Configuration des stratégies pour contrôler l’accès des utilisateurs fédérés dans Lync Server 2013](lync-server-2013-configure-policies-to-control-federated-user-access.md).</span><span class="sxs-lookup"><span data-stu-id="879e5-134">For details, see [Configure policies to control federated user access in Lync Server 2013](lync-server-2013-configure-policies-to-control-federated-user-access.md).</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

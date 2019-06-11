@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013 : Table CallPriorities'
-TOCTitle: Table CallPrioritiese
-ms:assetid: 043b63ae-2d64-4f38-a0df-18aa08d6caf5
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398093(v=OCS.15)
-ms:contentKeyID: 49296104
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Table CallPriorities'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: CallPriorities table
+ms:assetid: 043b63ae-2d64-4f38-a0df-18aa08d6caf5
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398093(v=OCS.15)
+ms:contentKeyID: 48183275
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: fdf08f1dfa8cd04b29f6edb6604a57ab5ec9e822
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34838691"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Table CallPriorities dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2015-03-09_
+# <a name="callpriorities-table-in-lync-server-2013"></a><span data-ttu-id="1ecb2-102">Table CallPriorities dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1ecb2-102">CallPriorities table in Lync Server 2013</span></span>
 
-La table CallPriorities est une table statique qui stocke la liste des priorités d’appel possibles, par exemple, « très urgent », « urgent » ou « normal ».
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="1ecb2-103">_**Dernière modification de la rubrique:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="1ecb2-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+
+<span data-ttu-id="1ecb2-104">La table CallPriorities est une table statique qui contient la liste des différentes priorités d’appel, telles que «urgence», «urgent» ou «normale».</span><span class="sxs-lookup"><span data-stu-id="1ecb2-104">The CallPriorities table is a static table that stores the list of possible call priorities, such as ‘emergency’, ‘urgent’, or ‘normal’.</span></span>
 
 
 <table>
@@ -27,32 +47,43 @@ La table CallPriorities est une table statique qui stocke la liste des priorité
 </colgroup>
 <thead>
 <tr class="header">
-<th>Colonne</th>
-<th>Type de données</th>
-<th>Clé/Index</th>
-<th>Détails</th>
+<th><span data-ttu-id="1ecb2-105">Colonne</span><span class="sxs-lookup"><span data-stu-id="1ecb2-105">Column</span></span></th>
+<th><span data-ttu-id="1ecb2-106">Type de données</span><span class="sxs-lookup"><span data-stu-id="1ecb2-106">Data Type</span></span></th>
+<th><span data-ttu-id="1ecb2-107">Clé/Index</span><span class="sxs-lookup"><span data-stu-id="1ecb2-107">Key/Index</span></span></th>
+<th><span data-ttu-id="1ecb2-108">Détails</span><span class="sxs-lookup"><span data-stu-id="1ecb2-108">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>PriorityId</strong></p></td>
-<td><p>tinyint</p></td>
-<td><p>Principal</p></td>
-<td><p></p></td>
+<td><p><span data-ttu-id="1ecb2-109"><strong>PriorityId</strong></span><span class="sxs-lookup"><span data-stu-id="1ecb2-109"><strong>PriorityId</strong></span></span></p></td>
+<td><p><span data-ttu-id="1ecb2-110">tinyint</span><span class="sxs-lookup"><span data-stu-id="1ecb2-110">tinyint</span></span></p></td>
+<td><p><span data-ttu-id="1ecb2-111">Principal</span><span class="sxs-lookup"><span data-stu-id="1ecb2-111">Primary</span></span></p></td>
+<td></td>
 </tr>
 <tr class="even">
-<td><p><strong>Priority</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p></p></td>
-<td><p>Valeurs autorisées :</p>
+<td><p><span data-ttu-id="1ecb2-112"><strong>Priorité</strong></span><span class="sxs-lookup"><span data-stu-id="1ecb2-112"><strong>Priority</strong></span></span></p></td>
+<td><p><span data-ttu-id="1ecb2-113">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="1ecb2-113">nvarchar(256)</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="1ecb2-114">Valeurs autorisées:</span><span class="sxs-lookup"><span data-stu-id="1ecb2-114">Allowed values:</span></span></p>
 <ul>
-<li><p>0 - Inconnu</p></li>
-<li><p>1 - Non urgent</p></li>
-<li><p>2 - Normal</p></li>
-<li><p>3 - Urgent</p></li>
-<li><p>4 - Très urgent</p></li>
+<li><p><span data-ttu-id="1ecb2-115">0-Inconnu</span><span class="sxs-lookup"><span data-stu-id="1ecb2-115">0 - Unknown</span></span></p></li>
+<li><p><span data-ttu-id="1ecb2-116">1-non urgent</span><span class="sxs-lookup"><span data-stu-id="1ecb2-116">1 – Non-Urgent</span></span></p></li>
+<li><p><span data-ttu-id="1ecb2-117">2-normal</span><span class="sxs-lookup"><span data-stu-id="1ecb2-117">2 - Normal</span></span></p></li>
+<li><p><span data-ttu-id="1ecb2-118">3-urgent</span><span class="sxs-lookup"><span data-stu-id="1ecb2-118">3 - Urgent</span></span></p></li>
+<li><p><span data-ttu-id="1ecb2-119">4-urgence</span><span class="sxs-lookup"><span data-stu-id="1ecb2-119">4 - Emergency</span></span></p></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
