@@ -1,29 +1,63 @@
-﻿---
-title: Topologies de référence Lync Server 2013
-TOCTitle: Topologies de référence
-ms:assetid: 1b9e3467-ee74-4598-a348-16490b098760
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398254(v=OCS.15)
-ms:contentKeyID: 49296428
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Topologies de référence Lync Server 2013
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Reference topologies
+ms:assetid: 1b9e3467-ee74-4598-a348-16490b098760
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398254(v=OCS.15)
+ms:contentKeyID: 48183544
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: c0665f998e0e7fb8d870d22cf360843bdc0131af
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823538"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Topologies de référence dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-05-21_
+# <a name="reference-topologies-in-lync-server-2013"></a>Topologies de référence dans Lync Server 2013
 
-La topologie Lync Server idéale dépend de la taille de votre organisation, des charges de travail que vous souhaitez déployer et de votre préférence entre haute disponibilité et coût d’investissement.
+</div>
 
-Les rubriques suivantes décrivent les trois topologies de référence ainsi que les raisons conduisant à choisir une topologie plutôt qu’une autre.
+<div id="mainSection">
 
-## Dans cette section
+<div id="mainBody">
 
-  - [Topologie de référence de Lync Server 2013 pour les petites organisations](lync-server-2013-reference-topology-for-small-organizations.md)
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-05-21_
+
+La topologie de serveur Lync idéale dépend de la taille de votre organisation, des charges de travail que vous voulez déployer et de vos préférences pour le coût de votre investissement.
+
+Les rubriques suivantes décrivent les trois topologies de référence, y compris le raisonnement dans lequel se trouvent les exigences de chaque topologie.
+
+<div>
+
+## <a name="in-this-section"></a>Dans cette section
+
+  - [Topologie de référence pour Lync Server 2013 dans les petites organisations](lync-server-2013-reference-topology-for-small-organizations.md)
 
   - [Topologie de référence de Lync Server 2013 pour les organisations de taille moyenne](lync-server-2013-reference-topology-for-medium-size-organizations.md)
 
   - [Topologie de référence de Lync Server 2013 utilisée dans les grandes organisations comportant plusieurs centres de données](lync-server-2013-reference-topology-for-large-organizations-with-multiple-data-centers.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

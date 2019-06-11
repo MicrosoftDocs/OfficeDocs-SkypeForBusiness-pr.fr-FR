@@ -1,78 +1,104 @@
-﻿---
-title: "LS 2013 : Dés. hérit. aut. sur cont. des obj. Ordi., Util. ou InetOrgPerson"
-TOCTitle: Désactivation de l’héritage des autorisations sur les conteneurs des objets Ordinateur, Utilisateur ou InetOrgPerson
-ms:assetid: c472ad21-a93d-4fcb-a3d9-60a2134a87fa
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg412970(v=OCS.15)
-ms:contentKeyID: 49298761
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Désactivation de l’héritage des autorisations sur les conteneurs des objets Ordinateur, Utilisateur ou InetOrgPerson'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Permissions inheritance Is disabled on computers, users, or InetOrgPerson containers
+ms:assetid: c472ad21-a93d-4fcb-a3d9-60a2134a87fa
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412970(v=OCS.15)
+ms:contentKeyID: 48185348
+ms.date: 12/19/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 73692539fb5dda38446ffddccbe35c8d366e2d67
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825302"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Désactivation de l’héritage des autorisations sur les conteneurs des objets Ordinateur, Utilisateur ou InetOrgPerson dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2014-12-19_
+# <a name="permissions-inheritance-is-disabled-on-computers-users-or-inetorgperson-containers-in-lync-server-2013"></a>Désactivation de l’héritage des autorisations sur les conteneurs des objets Ordinateur, Utilisateur ou InetOrgPerson dans Lync Server 2013
 
-Dans les services de domaine Active Directory, les objets Utilisateur et Ordinateur sont souvent placés dans des unités d’organisation spécifiques dans lesquelles l’héritage des autorisations a été désactivé afin de sécuriser la délégation d’administration et de permettre l’utilisation d’objets de stratégie de groupe pour l’application de stratégies de sécurité.
+</div>
 
-La préparation de domaine et l’activation de serveur définissent les entrées de contrôle d’accès nécessaires à Lync Server 2013. Quand l’héritage des autorisations est désactivé, les groupes de sécurité Lync Server ne peuvent pas hériter ces entrées de contrôle d’accès. Quand ces autorisations ne sont pas héritées, les groupes de sécurité Lync Server ne peuvent pas accéder aux paramètres et deux problèmes se posent :
+<div id="mainSection">
 
-  - Pour administrer les objets Utilisateur, InetOrgPerson et Contact et faire fonctionner les serveurs, les groupes de sécurité Lync Server nécessitent des entrées de contrôle d’accès définies par la procédure de préparation de domaine sur les jeux de propriétés de chaque utilisateur, les communications en temps réel (service RTC), la recherche d’utilisateur RTC et les informations publiques. Quand l’héritage des autorisations est désactivé, les groupes de sécurité n’héritent pas ces entrées de contrôle d’accès et ne peuvent pas gérer les serveurs ou les utilisateurs.
+<div id="mainBody">
 
-  - Pour détecter les serveurs et les pools, les serveurs exécutant Lync Server s’appuient sur les entrées de contrôle d’accès définies par l’activation sur des objets liés à l’ordinateur, notamment les objets Conteneur et Serveur Microsoft. Quand l’héritage des autorisations est désactivé, les groupes de sécurité, les serveurs et les pools n’héritent pas de ces entrées de contrôle d’accès et ne peuvent pas les exploiter.
+<span> </span>
 
-Pour résoudre ces problèmes, Lync Server propose l’applet de commande **Grant-CsOuPermission**. Elle définit les entrées de contrôle d’accès Lync Server directement nécessaires à un conteneur et aux unités d’organisation spécifiées, mais aussi aux objets dans le conteneur ou l’unité d’organisation.
+_**Dernière modification de la rubrique:** 2014-12-19_
 
-## Définir des autorisations sur les objets Utilisateur, InetOrgPerson et Contact après exécution de la préparation du domaine
+Dans les services de domaine Active Directory (AD DS) verrouillés, les utilisateurs et les objets d’ordinateur sont souvent placés dans des unités d’organisation spécifiques (UO) avec l’héritage des autorisations désactivé pour sécuriser la délégation d’administration et permettre l’utilisation des objets de stratégie de groupe (GPO). pour appliquer les stratégies de sécurité.
 
-Dans un environnement Active Directory verrouillé dans lequel l’héritage des autorisations est désactivé, la préparation du domaine ne définit pas les entrées de contrôle d’accès nécessaires sur les conteneurs ou les unités d’organisation abritant des objets Utilisateur ou InetOrgPerson à l’intérieur du domaine. Dans ce cas, vous devez exécuter l’applet de commande **Grant-CsOuPermission** sur chaque conteneur ou unité d’organisation contenant les objets Utilisateur ou InetOrgPerson pour lesquels l’héritage des autorisations est désactivé. Si vous avez déployé une topologie de forêt centrale, vous devez également exécuter cette procédure sur les conteneurs ou les unités d’organisation qui détiennent des objets Contact. Pour plus d’informations sur les topologies de forêt centrale, reportez-vous à [Topologies Active Directory prises en charge dans Lync Server 2013](lync-server-2013-supported-active-directory-topologies.md) dans la documentation de prise en charge. Le paramètre ObjectType précise le type d’objet. Le paramètre OU spécifie l’unité d’organisation.
+Préparation du domaine et activation du serveur définissez les entrées de contrôle d’accès (ACE) requises par Lync Server 2013. Lorsque l’héritage des autorisations est désactivé, les groupes de sécurité du serveur Lync ne peuvent pas hériter de ces ACE. Lorsque ces autorisations ne sont pas héritées, les groupes de sécurité du serveur Lync ne peuvent pas accéder aux paramètres, et les deux problèmes suivants peuvent se produire:
 
-Cette applet de commande ajoute directement les entrées de contrôle d’accès requises sur les conteneurs ou les unités d’organisation spécifiées et les objets Utilisateur et InetOrgPerson qu’ils contiennent.
+  - Pour gérer les utilisateurs, les InetOrgPersons, les contacts et les serveurs, les groupes de sécurité du serveur Lync requièrent des entrées ACE définies par la procédure de préparation du domaine sur les jeux de propriétés de chaque utilisateur, de communication en temps réel (RTC), de recherche d’utilisateurs RTC et d’informations publiques. . Lorsque l’héritage des autorisations est désactivé, les groupes de sécurité n’héritent pas de ces ACE et ne peuvent pas gérer les serveurs ou les utilisateurs.
 
-Pour exécuter cette applet de commande, vous devez bénéficier de droits d’utilisateur identiques à ceux utilisés en tant que membre du groupe Administrateurs de domaine. Si les entrées de contrôle d’accès des utilisateurs authentifiés ont également été supprimées dans l’environnement verrouillé, vous devez octroyer des entrées de contrôle d’accès en lecture à ce compte sur les conteneurs ou les unités d’organisation concernées dans le domaine racine de la forêt, comme décrit dans [Suppression des autorisations d’utilisateur authentifié dans Lync Server 2013](lync-server-2013-authenticated-user-permissions-are-removed.md) ou bien utiliser un compte qui est membre du groupe Administrateurs d’entreprise.
+  - Pour détecter les serveurs et les pools, les serveurs exécutant Lync Server dépendent des ACE définies par l’activation sur les objets liés aux ordinateurs, dont le conteneur et l’objet serveur Microsoft. Lorsque l’héritage des autorisations est désactivé, les groupes de sécurité, les serveurs et les pools n’héritent pas de ces ACE et ne peuvent pas bénéficier de ces ACE.
 
-**Pour définir les entrées de contrôle d’accès requises pour les objets Utilisateur, InetOrgPerson et Contact**
+Pour résoudre ces problèmes, Lync Server fournit l’applet **de passe Grant-CsOuPermission** . Ce cmdlet définit les ACE serveur Lync requis directement sur un conteneur et des unités d’organisation et des objets au sein du conteneur ou de l’unité d’organisation.
 
-1.  Ouvrez une session sur un ordinateur lié au domaine en utilisant un compte qui est membre du groupe Administrateurs de domaine ou doté de droits d’utilisateur équivalents.
+<div>
 
-2.  Démarrez Lync Server Management Shell : cliquez successivement sur **Démarrer**, **Tous les programmes**, **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+## <a name="set-permissions-for-user-inetorgperson-and-contact-objects-after-running-domain-preparation"></a>Définir des autorisations pour les objets utilisateur, InetOrgPerson et contact après l’exécution de la préparation du domaine
+
+Dans un environnement Active Directory verrouillé dans lequel l’héritage des autorisations est désactivé, la préparation du domaine ne définit pas les ACE nécessaires sur les conteneurs ou les unités d’organisation qui contiennent des utilisateurs ou des objets InetOrgPerson au sein du domaine. Dans ce cas, vous devez exécuter l’applet de passe **Grant-CsOuPermission** sur chaque conteneur ou unité d’organisation qui comporte des objets utilisateur ou InetOrgPerson pour lesquels l’héritage des autorisations est désactivé. Si vous disposez d’une topologie de forêt centrale, vous devez également effectuer cette procédure sur les conteneurs ou les unités d’organisation qui contiennent des objets de contact. Pour plus d’informations sur les topologies de forêt centralisées, voir [topologies Active Directory prises en charge dans Lync Server 2013](lync-server-2013-supported-active-directory-topologies.md) dans la documentation relative à la prise en charge. Le paramètre typeobjet spécifie le type d’objet. Le paramètre UO spécifie l’unité d’organisation.
+
+Cette applet de demande ajoute les entrées ACE requises directement dans les conteneurs ou UO spécifiques et dans le conteneur. Si l’unité d’organisation sur laquelle cette commande est exécutée possède des unités d’organisation enfants avec des objets utilisateur ou InetOrgPerson, les autorisations ne sont pas appliquées sur celles-ci. Vous devez exécuter la commande sur chaque UO enfant individuellement. Il s’agit d’un scénario courant avec des déploiements d’hébergement Lync, par exemple, des UO parentes, DC = CONTOSO, DC = LOCAL et Child UO = premier client, UO = clients OCS, DC = CONTOSO, DC = LOCAL.
+
+Pour exécuter cette cmdlet, vous devez disposer des droits d’utilisateur pour l’appartenance au groupe administrateurs de domaine. Si les entrées ACE de l’utilisateur authentifié ont également été supprimées de l’environnement verrouillé, vous devez accorder à ce compte des ACE d’accès en lecture sur les conteneurs appropriés ou les UO dans le domaine racine de la forêt, comme décrit dans la section [les autorisations des utilisateurs authentifiés sont supprimées dans Lync. Server 2013](lync-server-2013-authenticated-user-permissions-are-removed.md) ou utiliser un compte membre du groupe administrateurs d’entreprise.
+
+**Pour définir les entrées ACE requises pour les objets utilisateur, InetOrgPerson et contact**
+
+1.  Connectez-vous à un ordinateur joint au domaine avec un compte membre du groupe administrateurs de domaine ou qui dispose de droits d’utilisateur équivalents.
+
+2.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
 3.  Exécutez :
     
         Grant-CsOuPermission -ObjectType <User | Computer | InetOrgPerson | Contact | AppContact | Device> 
         -OU <DN name for the OU container relative to the domain root container DN> [-Domain <Domain FQDN>]
     
-    Si vous omettez le paramètre Domain, le domaine local est utilisé par défaut.
+    Si vous ne spécifiez pas le paramètre domain, la valeur par défaut est le domaine local.
     
-    Exemple :
+    Par exemple :
     
         Grant-CsOuPermission -ObjectType "User" -OU "cn=Redmond,dc=contoso,dc=net" -Domain "contoso.net"
 
-4.  Dans le fichier journal, recherchez le résultat d’exécution **\<Opération réussie\>** à la fin de chaque tâche, vérifiez que les autorisations ont été définies, puis fermez la fenêtre du journal. Vous pouvez également exécuter la commande suivante pour déterminer si les autorisations ont été définies :
+4.  Dans le fichier journal, recherchez le résultat d’exécution ** \<réussie\> ** à la fin de chaque tâche pour vérifier que les autorisations ont été définies, puis fermez la fenêtre du journal. Vous pouvez utiliser la commande suivante pour déterminer si les autorisations ont été définies:
     
         Test-CsOuPermission -ObjectType <type of object> 
         -OU <DN name for the OU container relative to the domain root container DN> 
         [-Domain <Domain FQDN>] [-Report <fully qualified path and name of file to create>]
     
-    Exemple :
+    Par exemple :
     
         Test-CsOuPermission -ObjectType "User" -OU "cn=Redmond,dc=contoso,dc=net" -Domain "contoso.net" -Report "C:\Log\OUPermissionsTest.html"
 
-## Définir des autorisations sur les objets Ordinateur après exécution de la préparation du domaine
+</div>
 
-Dans un environnement Active Directory verrouillé dans lequel l’héritage des autorisations est désactivé, la préparation du domaine ne définit pas les entrées de contrôle d’accès nécessaires sur les conteneurs ou les unités d’organisation abritant des objets Ordinateur à l’intérieur du domaine. Dans ce cas, vous devez exécuter l’applet de commande **Grant-CsOuPermission** sur chaque conteneur ou unité d’organisation disposant d’ordinateurs dotés de Lync Server et pour lesquels l’héritage des autorisations est désactivé. Le paramètre ObjectType précise le type d’objet.
+<div>
 
-Cette procédure ajoute directement les entrées de contrôle d’accès requises sur les conteneurs spécifiés.
+## <a name="set-permissions-for-computer-objects-after-running-domain-preparation"></a>Définir des autorisations pour les objets ordinateur après l’exécution de la préparation du domaine
 
-Pour exécuter cette applet de commande, vous devez bénéficier de droits d’utilisateur identiques à ceux utilisés en tant que membre du groupe Administrateurs de domaine. Si les entrées de contrôle d’accès des utilisateurs authentifiés ont également été supprimées, vous devez octroyer des entrées de contrôle d’accès en lecture à ce compte sur les conteneurs concernés dans le domaine racine de la forêt, comme décrit dans [Suppression des autorisations d’utilisateur authentifié dans Lync Server 2013](lync-server-2013-authenticated-user-permissions-are-removed.md) ou bien utiliser un compte qui est membre du groupe Administrateurs d’entreprise.
+Dans un environnement Active Directory verrouillé dans lequel l’héritage des autorisations est désactivé, la préparation du domaine ne définit pas les ACE nécessaires sur les conteneurs ou les unités d’organisation qui contiennent des objets d’ordinateur au sein du domaine. Dans ce cas, vous devez exécuter l’applet de passe **Grant-CsOuPermission** sur chaque conteneur ou unité d’organisation qui comporte des ordinateurs exécutant Lync Server et sur lequel l’héritage des autorisations est désactivé. Le paramètre typeobjet spécifie le type d’objet.
 
-**Pour configurer les entrées de contrôle d’accès requises pour les objets Ordinateur**
+Cette procédure ajoute les entrées ACE requises directement sur les conteneurs spécifiés.
 
-1.  Ouvrez une session sur l’ordinateur du domaine en utilisant un compte qui est membre du groupe Administrateurs de domaine ou doté de droits d’utilisateur équivalents.
+Pour exécuter cette cmdlet, vous devez disposer des droits d’utilisateur pour l’appartenance au groupe administrateurs de domaine. Si les ACE des utilisateurs authentifiés ont été supprimées, vous devez accorder ce compte aux entrées ACE d’accès en lecture sur les conteneurs pertinents dans le domaine racine de la forêt, comme décrit dans la section [les autorisations des utilisateurs authentifiés sont supprimées dans Lync Server 2013](lync-server-2013-authenticated-user-permissions-are-removed.md) ou utiliser un compte qui est a membre du groupe administrateurs d’entreprise.
 
-2.  Démarrez Lync Server Management Shell : cliquez successivement sur **Démarrer**, **Tous les programmes**, **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+**Pour définir les entrées ACE requises pour les objets ordinateur**
+
+1.  Connectez-vous à l’ordinateur du domaine avec un compte membre du groupe administrateurs de domaine ou qui dispose de droits d’utilisateur équivalents.
+
+2.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
 3.  Exécutez :
     
@@ -80,22 +106,39 @@ Pour exécuter cette applet de commande, vous devez bénéficier de droits d’u
         -OU <DN name for the computer OU container relative to the domain root container DN> 
         [-Domain <Domain FQDN>][-Report <fully qualified path and name of output report>]
     
-    Si vous omettez le paramètre Domain, le domaine local est utilisé par défaut.
+    Si vous ne spécifiez pas le paramètre domain, la valeur par défaut est le domaine local.
     
-    Exemple :
+    Par exemple :
     
         Grant-CsOuPermission -ObjectType "Computer" -OU "ou=Lync Servers,dc=litwareinc,dc=com" -Report "C:\Logs\OUPermissions.xml"
 
-4.  Dans le fichier journal d’exemple C:\\Logs\\OUPermissions.xml, recherchez le résultat d’exécution **\<Opération réussie\>** à la fin de chaque tâche, vérifiez qu’il n’y a aucune erreur, puis fermez le fichier journal. Vous pouvez exécuter l’applet de commande suivante pour tester les autorisations :
+4.  Dans l’exemple de fichier journal C\\:\\enregistre OUPermissions. xml, vous devez chercher ** \<le\> ** résultat d’exécution réussie à la fin de chaque tâche et vérifier qu’il n’y a aucune erreur, puis fermer le journal. Vous pouvez exécuter l’applet de commande suivante pour tester les autorisations:
     
         Test-CsOuPermission -ObjectType <type of object> 
         -OU <DN name for the OU container relative to the domain root container DN> [-Domain <Domain FQDN>]
     
-    Exemple :
+    Par exemple :
     
         Test-CsOuPermission -ObjectType "user","contact" -OU "cn=Bellevue,dc=contoso,dc=net" -Domain "contoso.net"
     
+    <div>
+    
+
     > [!NOTE]  
-    > Si vous exécutez la préparation de domaine sur le domaine racine de la forêt dans un environnement Active Directory verrouillé, sachez que Lync Server nécessite un accès aux conteneurs Schéma et Configuration dans Active Directory.<br />
-    Si l’autorisation d’utilisateur authentifié par défaut est supprimée du conteneur Schéma ou Configuration dans les services de domaine Active Directory, seuls les membres du groupe Administrateurs du schéma (pour le conteneur Schéma) ou du groupe Administrateurs d’entreprise (pour le conteneur Configuration) sont autorisés à accéder au conteneur. Du fait que Setup.exe, les applets de commande Lync Server Management Shell et le Panneau de configuration Lync Server nécessitent un accès à ces conteneurs, la configuration et l’installation des outils d’administration échouent si l’utilisateur qui exécute l’installation n’a pas de droits d’utilisateur équivalents à ceux des membres des groupes Administrateurs du schéma et Administrateurs d’entreprise.<br />
-    Pour remédier à cette situation, vous devez octroyer au groupe RTCUniversalGlobalWriteGroup un accès en lecture et en écriture aux conteneurs Schéma et Configuration.
+    > Si vous exécutez une préparation de domaine sur le domaine racine de la forêt dans un environnement Active Directory verrouillé, sachez que Lync Server doit avoir accès au schéma Active Directory et aux conteneurs de configuration.<BR>Si l’autorisation utilisateur authentifié par défaut est supprimée du schéma ou des conteneurs de configuration dans&nbsp;AD DS, seuls les membres du groupe administrateurs de schéma (pour le conteneur de schéma) ou des administrateurs d’entreprise (pour le conteneur de configuration) sont autorisés à Accédez au conteneur donné. Dans la mesure où les applets de commande Setup. exe, Lync Server Management Shell et le panneau de configuration de Lync Server requièrent l’accès à ces conteneurs, la configuration et l’installation des outils d’administration échouent sauf si l’utilisateur qui exécute l’installation dispose de droits d’utilisateur équivalents au schéma Appartenance au groupe administrateurs et administrateurs d’entreprise.<BR>Pour remédier à ce problème, vous devez accorder au groupe RTCUniversalGlobalWriteGroup l’accès en lecture, en écriture au schéma et aux conteneurs de configuration.
+
+    
+    </div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+
