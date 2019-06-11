@@ -1,38 +1,64 @@
-﻿---
-title: 'Lync Server 2013 : Configuration matérielle'
-TOCTitle: Configuration matérielle
-ms:assetid: 37a9f295-cde3-4beb-9a6a-2580082798ab
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg425852(v=OCS.15)
-ms:contentKeyID: 49296876
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Configuration matérielle'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Hardware setup
+ms:assetid: 37a9f295-cde3-4beb-9a6a-2580082798ab
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425852(v=OCS.15)
+ms:contentKeyID: 48183834
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4e2d05db28ffa61ea25dbb237c388c37a87ac5a0
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831086"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configuration matérielle pour Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2013-02-21_
+# <a name="hardware-setup-for-lync-server-2013"></a>Configuration matérielle pour Lync Server 2013
 
-La configuration du matériel et d’autres composants requis dans l’infrastructure à implémenter dans votre topologie nécessitent, qu’avant de publier la topologie dans le Générateur de topologie, vous procédiez comme suit :
+</div>
 
-  - Installez le matériel pour chaque composant dans la conception de la topologie que vous créez et enregistrez via Générateur de topologie, dont tous les ordinateurs (serveurs de base de données, serveurs exécutant Lync Server 2013 et les services Internet (IIS) et les serveurs proxy inverses, le cas échéant), cartes réseau, équilibreurs de charge matérielle et dispositifs de stockage (tels que les serveurs de fichiers). Confirmez que vous avez suivi les recommandations relatives au nombre et à la vitesse des cartes réseau. Si vous comptez utiliser des équilibreurs de charge matérielle, veillez à disposer des informations appropriées du fabricant pour les configurer à des fins d’utilisation avec Lync Server 2013. Si vous comptez utiliser un serveur de fichiers ou autre pour héberger le partage de fichiers requis par Lync Server, assurez-vous que le serveur est disponible et prêt pour configurer ce partage de fichiers. Pour plus d’informations sur la définition d’une topologie indiquant les composants nécessaires à votre déploiement, reportez-vous à [Définition et configuration de la topologie dans Lync Server 2013](lync-server-2013-defining-and-configuring-the-topology.md). Pour plus d’informations sur les exigences matérielles des serveurs, reportez-vous à [Matériel pris en charge pour Lync Server 2013](lync-server-2013-supported-hardware.md) dans la documentation de prise en charge.
+<div id="mainSection">
 
-  - Vérifiez que l’infrastructure réseau respecte les exigences. Pour plus d’informations, reportez-vous à [Exigences relatives à l'infrastructure réseau pour Lync Server 2013](lync-server-2013-network-infrastructure-requirements.md) dans la documentation de planification.
+<div id="mainBody">
 
-  - Configurez les services de domaine Active Directory. La configuration des services de domaine Active Directory (AD DS) inclut leur préparation, ainsi que la définition de tous les composants que vous souhaitez déployer dans AD DS. Pour plus d’informations sur la préparation AD DS, reportez-vous à [Préparation des services de domaine Active Directory pour Lync Server 2013](lync-server-2013-preparing-active-directory-domain-services.md) dans la documentation de déploiement.
+<span> </span>
 
-  - Configurez les autorisations nécessaires à la création du partage de fichiers. Les autorisations d’accès aux partages de fichiers requises par Lync Server 2013 sont automatiquement configurées par le Générateur de topologie lorsque vous publiez la topologie. Cependant, le compte d’utilisateur servant à publier la topologie doit disposer des autorisations de contrôle complètes (lecture/écriture/modification) sur le partage de fichiers pour que le Générateur de topologie puisse configurer les autorisations requises. Afin que le partage de fichiers soit correctement géré par le générateur de topologie lors du processus de publication, le groupe d’utilisateurs ou de domaines auquel appartient l’utilisateur doit comprendre un membre du groupe d’administrateurs local sur l’ordinateur où se trouve le partage de fichiers. Dans un scénario multidomaine, l’utilisateur ou le groupe du domaine A devrait devenir membre du groupe d’administrateurs local sur l’ordinateur du domaine B où se trouve le partage de fichiers.
+_**Dernière modification de la rubrique:** 2013-02-21_
+
+Pour configurer le matériel et d’autres composants requis dans l’infrastructure dont vous avez besoin pour implémenter votre topologie, avant de publier votre topologie dans le générateur de topologie, procédez comme suit:
+
+  - Installez le matériel de chaque composant de la conception topologique que vous avez créé et enregistré à l’aide du générateur de topologie, y compris tous les ordinateurs requis (serveurs exécutant Lync Server 2013, serveurs de base de données, serveurs exécutant Internet Information Services (IIS) et inversez les serveurs proxy, selon le cas), cartes réseau, équilibreurs de charge matérielle et périphériques de stockage (par exemple, serveurs de fichiers). Vérifiez que vous avez suivi les recommandations en matière de nombre et de vitesse pour les cartes réseau. Si vous utilisez des équilibreurs de charge matérielle, assurez-vous que vous disposez des informations appropriées du fournisseur pour les configurer pour une utilisation avec Lync Server 2013. Si vous utilisez un serveur de fichiers ou un autre serveur pour mettre en place le partage de fichiers requis par Lync Server, assurez-vous que le serveur est disponible et qu’il est prêt pour la configuration du partage de fichiers. Pour plus d’informations sur la définition d’une topologie spécifiant les composants nécessaires à votre déploiement, reportez-vous à la rubrique [définition et configuration de la topologie dans Lync Server 2013](lync-server-2013-defining-and-configuring-the-topology.md). Pour plus d’informations sur la configuration matérielle requise pour les serveurs, voir [matériel compatible pour Lync Server 2013](lync-server-2013-supported-hardware.md) dans la documentation relative à la prise en charge.
+
+  - Assurez-vous que l’infrastructure réseau répond à la configuration requise. Pour plus d’informations, voir [Configuration requise pour l’infrastructure réseau pour Lync Server 2013](lync-server-2013-network-infrastructure-requirements.md) dans la documentation de planification.
+
+  - Configurez les services de domaine Active Directory. La configuration de AD DS inclut la préparation de AD DS et la définition de tous les composants que vous voulez déployer dans AD DS. Pour plus d’informations sur la préparation d’AD DS, voir [préparation des services de domaine Active Directory pour Lync Server 2013](lync-server-2013-preparing-active-directory-domain-services.md) dans la documentation de déploiement.
+
+  - Définissez les autorisations requises pour la création du partage de fichiers. Les autorisations d’utilisation des partages de fichiers par Lync Server 2013 sont automatiquement configurées par le générateur de topologie lors de la publication de votre topologie. Toutefois, le compte d’utilisateur utilisé pour publier la topologie doit avoir le contrôle total (lecture/écriture/modification) sur le partage de fichiers pour permettre au générateur de topologie de configurer les autorisations requises. Pour vous assurer que le partage de fichiers peut être géré correctement lors du processus de publication du générateur de topologie, le groupe d’utilisateurs ou de domaines dont l’utilisateur est membre doit être membre du groupe Administrateurs local sur l’ordinateur où se trouve le partage de fichiers. Dans un scénario multi-domaine, le domaine d’un utilisateur ou d’un groupe doit être membre du groupe Administrateurs local sur l’ordinateur du domaine B où se trouve le partage de fichiers.
     
-    Pour plus d’informations sur la mise à jour à l’aide des partages de fichiers dans un système de fichiers DFS, reportez-vous à [Configuration du stockage des fichiers pour Lync Server 2013](lync-server-2013-configure-dfs-file-storage.md).
+    Pour plus d’informations sur la mise à jour de l’utilisation des partages de fichiers dans un système de fichiers DFS, voir [configurer le stockage de fichiers pour Lync Server 2013](lync-server-2013-configure-dfs-file-storage.md).
     
+    <div>
+    
+
     > [!WARNING]  
-    > Le partage de fichiers de Lync Server 2013, Enterprise Edition ne peut pas se trouver sur le serveur frontal.
+    > Le partage de fichiers pour Lync Server 2013 entreprise Edition ne peut pas être localisé sur le serveur frontal.
 
-  - Installez et configurez le programme d’équilibrage de la charge matérielle pour les services web. Si l’équilibrage de la charge DNS (Domain Name System) est déployé, vous devez tout de même utiliser des programmes d’équilibrage de la charge matérielle pour ces pools, mais uniquement pour le trafic HTTP/HTTPS. Les programmes d’équilibrage de la charge matérielle sont utilisés pour le trafic HTTPS provenant des clients et transitant via les ports 443 et 80. Même si le recours à ces programmes est toujours nécessaire pour vos pools de serveurs, leur configuration et leur administration concernera avant tout le trafic HTTP/HTTPS avec lequel les administrateurs des programmes d’équilibrage de la charge matérielle sont familiarisés..
+    
+    </div>
 
-Lorsque vous avez terminé toutes les tâches de préparation décrites dans cette rubrique et avant de publier la topologie, vous devez également effectuer les actions suivantes :
+  - Installer et configurer l’équilibrage de charge matérielle pour les services Web. Après le déploiement de l’équilibrage de charge DNS (Domain Name System), vous devez également utiliser des équilibreurs de charge matérielle pour ces pools, mais uniquement pour le trafic HTTP/HTTPs. L’équilibrage de charge matérielle est utilisé pour le trafic HTTPs des clients sur les ports 443 et 80. Même si vous avez encore besoin d’équilibreurs de charge matérielle pour ces pools, leur configuration et leur administration seront essentiellement destinées au trafic HTTP/HTTPs, que les administrateurs des équilibreurs de charge matérielle sont habitués.
+
+Une fois toutes les tâches de préparation effectuées comme décrit dans cette rubrique, vous devez également procéder comme suit:
 
   - [Installation des systèmes d’exploitaition et des logiciels prérequis sur les serveurs pour Lync Server 2013](lync-server-2013-install-operating-systems-and-prerequisite-software-on-servers.md)
 
@@ -41,4 +67,14 @@ Lorsque vous avez terminé toutes les tâches de préparation décrites dans cet
   - [Configuration de SQL Server pour Lync Server 2013](lync-server-2013-configure-sql-server-for-lync-server.md)
 
   - [Configuration des enregistrements DNS dans Lync Server 2013 pour un pool frontal ou un serveur Standard Edition](lync-server-2013-configure-dns-records-for-a-front-end-pool-or-standard-edition-server.md)
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,27 +1,49 @@
-﻿---
-title: Compatibilité avec Lync 2013
-TOCTitle: Compatibilité avec Lync 2013
-ms:assetid: ac3a1046-b438-4e21-9d4f-3b0057dd685d
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg412817(v=OCS.15)
-ms:contentKeyID: 53095496
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: compatibilité Lync 2013'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Lync 2013 compatibility
+ms:assetid: ac3a1046-b438-4e21-9d4f-3b0057dd685d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412817(v=OCS.15)
+ms:contentKeyID: 51541502
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e177003efb73cd1e16ae8fd772d579eb222af8bd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34830934"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Compatibilité avec Lync 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2015-03-09_
+# <a name="lync-2013-compatibility"></a>Compatibilité Lync 2013
 
-Cette section décrit la compatibilité de Lync 2013 avec différentes versions des suites Microsoft Office, Microsoft Exchange Server, le système d’exploitation Windows et certains clients de messagerie instantanée publics.
+</div>
 
-## Office et Lync 2013
+<div id="mainSection">
 
-Le tableau suivant décrit les fonctionnalités de Lync 2013 prises en charge par différentes versions d’Office.
+<div id="mainBody">
 
-### Compatibilité entre Lync 2013 et Microsoft Office
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2013-10-07_
+
+Cette section décrit la compatibilité de Lync 2013 avec différentes versions des suites Microsoft Office, Microsoft Exchange Server, des systèmes d’exploitation Windows et certains clients de messagerie instantanée publique sélectionnés.
+
+<div>
+
+## <a name="office-and-lync-2013"></a>Office et Lync 2013
+
+Le tableau suivant décrit les fonctionnalités 2013 de Lync prises en charge par les différentes versions d’Office.
+
+### <a name="lync-2013-and-microsoft-office-compatibility"></a>Compatibilité Lync 2013 et Microsoft Office
 
 <table>
 <colgroup>
@@ -34,10 +56,10 @@ Le tableau suivant décrit les fonctionnalités de Lync 2013 prises en charge pa
 <thead>
 <tr class="header">
 <th>Fonctionnalité</th>
-<th>Microsoft Office 2003 avec Service Pack 3 (SP3) (requis) ou le Service Pack le plus récent (recommandé)</th>
-<th>Microsoft Office 2007</th>
-<th>Microsoft Office 2010</th>
-<th>Microsoft Office 2013</th>
+<th>Microsoft Office 2003 avec Service Pack 3 (SP3) (requis) ou le dernier Service Pack (recommandé)</th>
+<th>Microsoft Office 2007</th>
+<th>Microsoft Office 2010</th>
+<th>Microsoft Office 2013</th>
 </tr>
 </thead>
 <tbody>
@@ -49,28 +71,28 @@ Le tableau suivant décrit les fonctionnalités de Lync 2013 prises en charge pa
 <td><p>Oui</p></td>
 </tr>
 <tr class="even">
-<td><p>Dans Outlook, configurer une option de réunion pour désactiver le micro et la vidéo par défaut</p></td>
+<td><p>Dans Outlook, configurer l’option de réunion pour désactiver l’audio et la vidéo dans la partie par défaut</p></td>
 <td><p>Non</p></td>
 <td><p>Non</p></td>
 <td><p>Non</p></td>
 <td><p>Oui</p></td>
 </tr>
 <tr class="odd">
-<td><p>Magasin de contact unifié pour la gestion des listes de contacts dans Office et Lync</p></td>
+<td><p>Magasin de contacts unifié pour gérer les listes de contacts dans Office et Lync</p></td>
 <td><p>Non</p></td>
 <td><p>Non</p></td>
 <td><p>Non</p></td>
-<td><p>Oui (nécessite Exchange 2013)1</p></td>
+<td><p>Oui (nécessite Exchange 2013) 1</p></td>
 </tr>
 <tr class="even">
 <td><p>Images haute résolution</p></td>
 <td><p>Non</p></td>
 <td><p>Non</p></td>
 <td><p>Non</p></td>
-<td><p>Oui (nécessite Exchange 2013)1</p></td>
+<td><p>Oui (nécessite Exchange 2013) 1</p></td>
 </tr>
 <tr class="odd">
-<td><p>Programme d’installation de Lync 2013 intégré au programme d’installation d’Office</p></td>
+<td><p>Programme d’installation de Lync 2013 intégré au programme d’installation d’Office</p></td>
 <td><p>Non</p></td>
 <td><p>Non</p></td>
 <td><p>Non</p></td>
@@ -101,7 +123,7 @@ Le tableau suivant décrit les fonctionnalités de Lync 2013 prises en charge pa
 <td><p>Répondre avec un appel de conférence à partir du menu Disponibilité.</p></td>
 <td><p>Non</p></td>
 <td><p>Non</p></td>
-<td><p>Oui (à partir de la carte de visite)</p></td>
+<td><p>Oui (depuis la carte de visite)</p></td>
 <td><p>Oui (depuis la carte de visite)</p></td>
 </tr>
 <tr class="even">
@@ -129,7 +151,7 @@ Le tableau suivant décrit les fonctionnalités de Lync 2013 prises en charge pa
 <td><p>Répondre avec la messagerie instantanée ou un appel à partir du menu Disponibilité.</p></td>
 <td><p>Non</p></td>
 <td><p>Non</p></td>
-<td><p>Oui (à partir de la carte de visite)</p></td>
+<td><p>Oui (depuis la carte de visite)</p></td>
 <td><p>Oui (depuis la carte de visite)</p></td>
 </tr>
 <tr class="even">
@@ -150,9 +172,9 @@ Le tableau suivant décrit les fonctionnalités de Lync 2013 prises en charge pa
 </table>
 
 
-1 Pour plus d’informations, voir [Intégration de Microsoft Lync Server 2013 à Microsoft Exchange Server 2013](lync-server-2013-integrating-with-microsoft-exchange-server-2013.md) dans la documentation de planification.
+1 pour plus d’informations, reportez-vous à [intégration de Microsoft Lync server 2013 et Microsoft Exchange Server 2013](lync-server-2013-integrating-with-microsoft-exchange-server-2013.md) dans la documentation de planification.
 
-Les fonctionnalités suivantes sont disponibles uniquement avec Office 2010 ou Office 2013 :
+Les fonctionnalités suivantes sont disponibles uniquement avec Office 2010 ou Office 2013:
 
   - Carte de visite avec options étendues, telles que l’appel vidéo et le partage de Bureau
 
@@ -160,19 +182,23 @@ Les fonctionnalités suivantes sont disponibles uniquement avec Office 2010 ou 
 
   - Répondre avec un message instantané ou un appel à partir du ruban Accueil d’Outlook dans les dossiers Courrier, Calendrier, Contacts et Tâches
 
-  - Liste des contacts Lync dans la barre des tâches d’Outlook.
+  - Liste de contacts Lync dans la barre des tâches Outlook
 
   - Statut de présence Office Backstage (onglet Fichier), partage de programmes et transfert de fichiers
 
-  - Menu Présence dans Microsoft Office SharePoint Workspace 2010 (précédemment Microsoft Office Groove 2007)
+  - Menu de présence dans Microsoft Office SharePoint Workspace 2010 (anciennement Microsoft Office Groove 2007)
 
   - Extensibilité du menu Présence
 
-## Exchange Server et Lync 2013
+</div>
 
-Le tableau suivant décrit la prise en charge de différentes versions d’Exchange Server par Lync 2013. Outlook doit être installé sur l’ordinateur client pour traiter les appels d’interface MAPI étendue et certaines fonctionnalités nécessitent l’utilisation d’Exchange Web Services (EWS).
+<div>
 
-### Compatibilité entre Lync 2013 et Exchange Server
+## <a name="exchange-server-and-lync-2013"></a>Exchange Server et Lync 2013
+
+Le tableau suivant décrit la prise en charge de Lync 2013 pour différentes versions d’Exchange Server. Outlook doit être installé sur l’ordinateur client pour traiter les appels d’interface MAPI étendue et certaines fonctionnalités nécessitent l’utilisation d’Exchange Web Services (EWS).
+
+### <a name="lync-2013-and-exchange-server-compatibility"></a>Compatibilité Lync 2013 et Exchange Server
 
 <table>
 <colgroup>
@@ -192,41 +218,60 @@ Le tableau suivant décrit la prise en charge de différentes versions d’Excha
 <div>
 
 > [!NOTE]  
-> Pour plus d’informations, voir <a href="lync-server-2013-integrating-with-microsoft-exchange-server-2013.md">Intégration de Microsoft Lync Server 2013 à Microsoft Exchange Server 2013</a>.
+> Pour plus d’informations, reportez-vous à la rubrique <A href="lync-server-2013-integrating-with-microsoft-exchange-server-2013.md">Integrating Microsoft Lync Server 2013 and Microsoft Exchange Server 2013</A>.
+
+
 </div></td>
 </tr>
 <tr class="even">
 <td><p>Exchange Server 2010</p></td>
-<td><p>Identique à la prise en charge d’Exchange Server 2007, plus la synchronisation des contacts Exchange</p></td>
+<td><p>Comme pour la prise en charge de Exchange Server 2007, l’ajout de la synchronisation de contacts Exchange.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Exchange Server 2007 avec Service Pack 1 (SP1) (requis) ou le Service Pack le plus récent (recommandé)</p></td>
-<td><p>Les fonctionnalités suivantes sont disponibles uniquement par l’intermédiaire d’EWS :</p><ul><li><p>Lire ou supprimer des éléments du dossier Historique des conversations</p></li><li><p>Lire ou supprimer des messages vocaux</p></li><li><p>Afficher les informations de disponibilité étendues, le sujet et le lieu de la réunion</p></li></ul>
-<p>Les dossiers publics sont facultatifs dans Exchange Server 2007 avec Service Pack 1 (SP1) (requis) ou le Service Pack le plus récent ou la dernière version (recommandé).</p></td>
+<td><p>Exchange Server 2007 avec Service Pack 1 (SP1) (requis) ou le dernier Service Pack (recommandé)</p></td>
+<td><p>Les fonctionnalités suivantes sont disponibles uniquement par l’intermédiaire d’EWS :</p>
+<ul>
+<li><p>Lire ou supprimer des éléments du dossier Historique des conversations</p></li>
+<li><p>Lecture ou suppression des messages vocaux</p></li>
+<li><p>Afficher les informations de disponibilité étendues, le sujet et le lieu de la réunion</p></li>
+</ul>
+<p>Les dossiers publics sont facultatifs dans Exchange Server 2007 avec Service Pack 1 (SP1) (requis) ou le dernier Service Pack ou version (recommandé).</p></td>
 </tr>
 <tr class="even">
-<td><p>Exchange Server 2003</p></td>
-<td><p>Interface MAPI Outlook uniquement. Les fonctionnalités limitées à EWS ne sont pas disponibles (voir la ligne précédente).</p></td>
+<td><p>Exchange Server 2003</p></td>
+<td><p>MAPI Outlook uniquement. Les fonctionnalités de EWS-only ne sont pas disponibles (voir la ligne précédente).</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Windows et Lync 2013
+</div>
 
-Pour plus d’informations sur Lync 2013 et la prise en charge de Windows, voir [Prise en charge du logiciel client Lync dans Lync Server 2013](lync-server-2013-lync-client-software-support.md) dans la documentation de planification.
+<div>
 
-## Macintosh et Lync 2013
+## <a name="windows-and-lync-2013"></a>Windows et Lync 2013
 
-Lync Server 2013 prend en charge certains clients sur les ordinateurs exécutant un système d’exploitation Macintosh. Pour plus d’informations, voir [Prise en charge du logiciel client Lync dans Lync Server 2013](lync-server-2013-lync-client-software-support.md) dans la documentation de planification.
+Pour plus d’informations sur la prise en charge de Lync 2013 et de Windows, voir [prise en charge du logiciel client Lync dans Lync Server 2013](lync-server-2013-lync-client-software-support.md) dans la documentation de planification.
 
-## Clients de messagerie instantanée publics et Lync 2013
+</div>
 
-Si vous avez configuré votre serveur pour la connectivité PIC (Public IM Connectivity), Lync prend en charge les fonctionnalités suivantes avec les réseaux de messagerie instantanée publics. Le statut de présence est filtré selon les statuts pris en charge par le client de messagerie instantanée public. Pour plus d’informations, voir [Planification de la connectivité PIC (Public Instant Messaging Connectivity)](lync-server-2013-planning-for-public-instant-messaging-connectivity.md) dans la documentation de planification et [Gestion de la stratégie d’accès externe dans Lync Server 2013](lync-server-2013-manage-external-access-policy-for-your-organization.md) dans la documentation des opérations.
+<div>
 
-Par ailleurs, la fonctionnalité d’intégration XMPP de Lync Server 2013 permet aux utilisateurs d’échanger des messages instantanés et des informations de présence avec des utilisateurs de fournisseurs de messagerie instantanée publics qui utilisent le protocole XMPP (Extensible Messaging and Presence Protocol), tels que Google Talk. Pour plus d’informations, voir [Planification de la fédération XMPP (Extensible Messaging and Presence Protocol) dans Lync Server 2013](lync-server-2013-planning-for-extensible-messaging-and-presence-protocol-xmpp-federation.md) dans la documentation de planification.
+## <a name="macintosh-and-lync-2013"></a>Macintosh et Lync 2013
 
-### Compatibilité entre Lync 2013 et les clients de messagerie instantanée publics
+Lync Server 2013 prend en charge certains clients sur les ordinateurs exécutant des systèmes d’exploitation Macintosh. Pour plus d’informations, reportez-vous à la rubrique [support du logiciel client Lync dans Lync Server 2013](lync-server-2013-lync-client-software-support.md) dans la documentation de planification.
+
+</div>
+
+<div>
+
+## <a name="public-instant-messaging-clients-and-lync-2013"></a>Clients de messagerie instantanée publique et Lync 2013
+
+Si vous avez configuré votre serveur pour la connectivité PIC (Public IM Connectivity), Lync prend en charge les fonctionnalités suivantes sur les réseaux de messagerie instantanée publics. Le statut de présence est filtré sur les statuts de présence pris en charge par le client de messagerie instantanée public. Pour plus d’informations, reportez-vous à la section [planification de la connectivité de messagerie instantanée publique dans Lync server 2013](lync-server-2013-planning-for-public-instant-messaging-connectivity.md) dans la documentation de planification et [gérer l’accès externe dans Lync Server 2013](lync-server-2013-manage-external-access-policy-for-your-organization.md) dans la documentation sur les opérations.
+
+Par ailleurs, la fonctionnalité d’intégration de XMPP de Lync Server 2013 permet aux utilisateurs d’échanger des messages instantanés et des informations de présence avec des utilisateurs de fournisseurs de messagerie instantanée publics qui utilisent le protocole de messagerie et de présence extensible, tel que Google Talk. Pour plus d’informations, reportez-vous à la rubrique [planification de la Fédération des protocoles de messagerie extensible et de présence dans Lync Server 2013](lync-server-2013-planning-for-extensible-messaging-and-presence-protocol-xmpp-federation.md) dans la documentation de planification.
+
+### <a name="lync-2013-and-public-im-clients-compatibility"></a>Compatibilité entre Lync 2013 et les clients de messagerie instantanée publique
 
 <table>
 <colgroup>
@@ -242,7 +287,7 @@ Par ailleurs, la fonctionnalité d’intégration XMPP de Lync Server 2013 perm
 <tbody>
 <tr class="odd">
 <td><p>Windows Live Messenger</p></td>
-<td><p>Messagerie instantanée, présence de base, audio/vidéo (A/V)*.</p></td>
+<td><p>Messagerie instantanée, présence de base, audio/vidéo (A/V) *</p></td>
 </tr>
 <tr class="even">
 <td><p>Skype</p></td>
@@ -264,25 +309,49 @@ Par ailleurs, la fonctionnalité d’intégration XMPP de Lync Server 2013 perm
 </table>
 
 
-\*A/V est pris en charge par la dernière version de Windows Live Messenger. Si vous mettez en œuvre la fédération audio/vidéo (A/V) avec Windows Live Messenger, vous devez également modifier le niveau de chiffrement du serveur. Par défaut, le niveau de chiffrement est Requis. Vous devez modifier ce paramètre en choisissant Pris en charge à l’aide de Lync Server Management Shell.
+\*A/V est pris en charge avec la dernière version de Windows Live Messenger. Si vous implémentez une Fédération audio/vidéo (A/V) avec Windows Live Messenger, vous devez également modifier le niveau de chiffrement du serveur. Par défaut, ce paramètre est défini sur Requis. Vous devez définir ce paramètre sur pris en charge à l’aide de Lync Server Management Shell.
+
+<div>
+
 
 > [!IMPORTANT]  
-> <ul>
-> <li><p>Depuis le 1er septembre 2012, la licence Microsoft Lync « PIC USL » (Public IM Connectivity User Subscription License) n’est plus disponible et ne peut pas être achetée ou renouvelée. Les clients disposant de licences actives pourront continuer à assurer la fédération avec Yahoo! Messenger jusqu’à la date d’arrêt du service. Une date de fin de vie de juin 2014 a été annoncée pour AOL et Yahoo! Pour plus d’informations, voir <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Prise en charge de la connectivité PIC (Public IM Connectivity) dans Lync Server 2013</a>.</p></li>
-> <li><p>La licence PIC USL est une licence d’abonnement mensuel par utilisateur requise pour la fédération de Lync Server ou Office Communications Server avec Yahoo! Messenger. La capacité de Microsoft à fournir ce service est liée au soutien de Yahoo!, dont le contrat sous-jacent arrive à expiration.</p></li>
-> <li><p>Lync est un outil puissant permettant aux organisations et aux individus du monde entier de rester connectés. La fédération avec Windows Live Messenger ne nécessite aucune licence utilisateur/périphérique supplémentaire au-delà de la licence d’accès client (CAL) standard Lync.</p></li></ul>
+> <UL>
+> <LI>
+> <P>À compter du 1er septembre, 2012, le contrat de licence de l’utilisateur Microsoft Lync Public IM Connectivity («PIC USL») ne sera plus disponible à l’achat pour les contrats de nouveau ou de renouvellement. Les clients disposant de licences actives seront en mesure de continuer à fédérer avec Yahoo! Messenger jusqu’à la date d’arrêt du service. Date de fin de vie du 2014 juin pour AOL et Yahoo! a été annoncé. Pour plus d’informations, voir <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">prise en charge de la connectivité de messagerie instantanée publique dans Lync Server 2013</A>.</P>
+> <LI>
+> <P>La fonction USL (PIC) est une licence d’abonnement par mois qui est requise pour que Lync Server ou Office Communications Server se fédérer avec Yahoo! Messenger. La capacité de Microsoft à fournir ce service est subordonné à la prise en charge de Yahoo!, le contrat sous-jacent pour lequel le son est arrêté.</P>
+> <LI>
+> <P>Plus que jamais, Lync est un outil puissant de connexion entre organisations et de personnes dans le monde entier. La Fédération avec Windows Live Messenger ne nécessite aucune licence d’utilisateur/appareil supplémentaire au-delà de la CAL standard Lync.</P></LI></UL>
 
 
-## Voir aussi
 
-#### Concepts
+</div>
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>Voir aussi
+
 
 [Interopérabilité des clients dans Lync 2013](lync-server-2013-client-interoperability-in-lync-2013.md)  
-[Prise en charge du logiciel client Lync dans Lync Server 2013](lync-server-2013-lync-client-software-support.md)  
-[Plateformes prises en charge par Lync Web App pour Lync Server 2013](lync-server-2013-lync-web-app-supported-platforms.md)  
-[Configuration requise de l’application Lync du Windows Store](lync-server-2013-lync-windows-store-app-requirements.md)  
+[Support du logiciel client Lync dans Lync Server 2013](lync-server-2013-lync-client-software-support.md)  
+[Plates-formes prises en charge par Lync Web App pour Lync Server 2013](lync-server-2013-lync-web-app-supported-platforms.md)  
+[Configuration requise pour l’application Lync du Windows Store pour Lync Server 2013](lync-server-2013-lync-windows-store-app-requirements.md)  
 
-#### Autres ressources
 
-[Configuration requise pour le client](lync-server-2013-client-system-requirements.md)
+[Configuration requise pour le client pour Lync Server 2013](lync-server-2013-client-system-requirements.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

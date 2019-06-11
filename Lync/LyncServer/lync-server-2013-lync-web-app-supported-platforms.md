@@ -1,147 +1,153 @@
-﻿---
-title: 'Lync Server 2013 : Plateformes prises en charge par Lync Web App'
-TOCTitle: Plateformes prises en charge par Lync Web App
-ms:assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg425820(v=OCS.15)
-ms:contentKeyID: 49296785
-ms.date: 02/08/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: plates-formes prises en charge par Lync Web App'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Lync Web App supported platforms
+ms:assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425820(v=OCS.15)
+ms:contentKeyID: 48183808
+ms.date: 02/07/2017
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 442e00cfe36aa94eb1d2306a67707485b4859910
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34830919"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Plateformes prises en charge par Lync Web App pour Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2017-02-07_
+# <a name="lync-web-app-supported-platforms-for-lync-server-2013"></a>Plates-formes prises en charge par Lync Web App pour Lync Server 2013
 
-Pour utiliser Lync Web App, vous devez disposer de l’une des combinaisons système d’exploitation/navigateur prises en charge suivantes.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2017-02-07_
+
+Pour utiliser Lync Web App, vous devez disposer de l’une des combinaisons de systèmes d’exploitation et de navigateurs pris en charge.
+
+<div>
+
 
 > [!NOTE]  
-> Un plug-in est requis pour certaines fonctionnalités de Lync Web App, notamment les communications vocales par ordinateur, la vidéo, le partage et l’affichage du partage d’écran en cours. Vous pouvez installer le plug-in de partage lorsque vous rejoignez la réunion ou lorsque vous démarrez une de ces fonctionnalités. 1
-
-## Combinaisons système d’exploitation/navigateur prises en charge pour Lync Web App
+> Un plug-in est requis pour certaines fonctionnalités de Lync Web App, y compris la voix, la vidéo, le partage et l’affichage en cours du partage d’écran. Vous pouvez installer le plug-in de partage lorsque vous participez à la réunion ou lorsque vous lancez l’une de ces fonctionnalités. 1<BR>
 
 
-<table>
+
+</div>
+
+<div>
+
+## <a name="supported-operating-system-and-browser-combinations-for-lync-web-app"></a>Combinaisons de systèmes d’exploitation et de navigateurs pris en charge pour Lync Web App
+
+
+<table style="width:100%;">
 <colgroup>
-<col style="width: 8%" />
-<col style="width: 8%" />
-<col style="width: 8%" />
-<col style="width: 8%" />
-<col style="width: 8%" />
-<col style="width: 8%" />
-<col style="width: 8%" />
-<col style="width: 8%" />
-<col style="width: 8%" />
-<col style="width: 8%" />
-<col style="width: 8%" />
-<col style="width: 8%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Système d’exploitation</th>
-<th>Internet Explorer 11, 32 bits</th>
-<th>Internet Explorer 11, 64 bits</th>
-<th>Internet Explorer 10 32 bits</th>
-<th>Internet Explorer 10 64 bits</th>
-<th>Internet Explorer 9 32 bits</th>
-<th>Internet Explorer 9 64 bits</th>
-<th>Internet Explorer 8 32 bits</th>
-<th>Internet Explorer 8 64 bits</th>
-<th>Firefox 12.X, 32 bits</th>
-<th>Safari 5.X, 6.X, 7.X, 64 bits</th>
-<th>Chrome 18.X, 32 bits</th>
-</tr>
-</thead>
 <tbody>
 <tr class="odd">
-<td><p>Windows 8.11</p></td>
-<td><p>Oui</p></td>
-<td><p>Oui</p></td>
-<td><p>N/A</p></td>
-<td><p>N/A</p></td>
-<td><p>N/A</p></td>
-<td><p>N/A</p></td>
-<td><p>N/A</p></td>
-<td><p>N/A</p></td>
-<td><p>Oui</p></td>
-<td><p>N/A</p></td>
-<td><p>Oui</p></td>
+<td><p>Système d’exploitation</p></td>
+<td><p>Edge</p></td>
+<td><p>Internet Explorer 11</p></td>
+<td><p>Internet Explorer 10, 32 bits</p></td>
+<td><p>Internet Explorer 10, 64 bits</p></td>
+<td><p>32 bits d’Internet Explorer 9</p></td>
+<td><p>64 bits d’Internet Explorer 9</p></td>
+<td><p>Firefox 32-bit</p></td>
+<td><p>Firefox 64-bit</p></td>
+<td><p>Safari</p></td>
+<td><p>Chrome</p></td>
 </tr>
 <tr class="even">
-<td><p>Windows 8 (processeur Intel)1</p></td>
-<td><p>N/A</p></td>
+<td><p>Windows 10</p></td>
+<td><p>Oui </p></td>
+<td><p>Oui</p></td>
+<td><p>N/A </p></td>
+<td><p>N/A </p></td>
+<td><p>N/A </p></td>
 <td><p>N/A</p></td>
 <td><p>Oui</p></td>
-<td><p>Oui</p></td>
-<td><p>N/A</p></td>
-<td><p>N/A</p></td>
-<td><p>N/A</p></td>
-<td><p>N/A</p></td>
-<td><p>Oui</p></td>
+<td><p>Non</p></td>
 <td><p>N/A</p></td>
 <td><p>Oui</p></td>
 </tr>
 <tr class="odd">
-<td><p>Windows 7 avec SP12</p></td>
+<td><p>Windows 8,11</p></td>
+<td><p>N/A</p></td>
 <td><p>Oui</p></td>
-<td><p>Oui</p></td>
-<td><p>Oui</p></td>
-<td><p>Oui</p></td>
-<td><p>Oui</p></td>
-<td><p>Oui</p></td>
-<td><p>Oui</p></td>
-<td><p>Oui</p></td>
+<td><p>N/A </p></td>
+<td><p>N/A </p></td>
+<td><p>N/A </p></td>
+<td><p>N/A</p></td>
 <td><p>Oui</p></td>
 <td><p>Non</p></td>
+<td><p>N/A</p></td>
 <td><p>Oui</p></td>
 </tr>
 <tr class="even">
-<td><p>Windows Vista avec Service Pack 2 (SP2)3</p></td>
+<td><p>Windows 8 (Intel) 1</p></td>
+<td><p>N/A </p></td>
 <td><p>N/A</p></td>
+<td><p>Oui</p></td>
+<td><p>Oui</p></td>
+<td><p>N/A </p></td>
 <td><p>N/A</p></td>
-<td><p>N/A</p></td>
-<td><p>Non</p></td>
 <td><p>Oui</p></td>
 <td><p>Non</p></td>
-<td><p>Oui</p></td>
-<td><p>Non</p></td>
-<td><p>Oui</p></td>
-<td><p>Non</p></td>
+<td><p>N/A</p></td>
 <td><p>Oui</p></td>
 </tr>
 <tr class="odd">
-<td><p>Windows XP avec Service Pack 3 (SP3)3</p></td>
+<td><p>Windows 7 avec SP12</p></td>
 <td><p>N/A</p></td>
-<td><p>N/A</p></td>
-<td><p>N/A</p></td>
-<td><p>N/A</p></td>
-<td><p>N/A</p></td>
-<td><p>N/A</p></td>
+<td><p>Oui</p></td>
+<td><p>Oui </p></td>
+<td><p>Oui </p></td>
+<td><p>Oui </p></td>
+<td><p>Oui </p></td>
 <td><p>Oui</p></td>
 <td><p>Non</p></td>
-<td><p>Oui</p></td>
+<td><p>N/A</p></td>
 <td><p>Non</p></td>
-<td><p>Oui</p></td>
 </tr>
 <tr class="even">
-<td><p>Windows Server 2008 R2 avec Service Pack 1 (SP1)2</p></td>
+<td><p>Windows Server 2008 R2 avec SP12</p></td>
+<td><p>N/A</p></td>
 <td><p>Oui</p></td>
-<td><p>Oui</p></td>
-<td><p>Oui</p></td>
-<td><p>Oui</p></td>
-<td><p>Oui</p></td>
-<td><p>Oui</p></td>
-<td><p>Oui</p></td>
-<td><p>Oui</p></td>
+<td><p>Oui </p></td>
+<td><p>Oui </p></td>
+<td><p>Oui </p></td>
+<td><p>Oui </p></td>
 <td><p>Oui</p></td>
 <td><p>Non</p></td>
-<td><p>Oui</p></td>
+<td><p>N/A</p></td>
+<td><p>Non</p></td>
 </tr>
 <tr class="odd">
-<td><p>Windows Server 2008 avec Service Pack 2 (SP2)3</p></td>
-<td><p>Oui</p></td>
+<td><p>Windows Server 2008 avec SP23</p></td>
+<td><p>N/A</p></td>
 <td><p>Oui</p></td>
 <td><p>Oui</p></td>
 <td><p>Non</p></td>
@@ -149,35 +155,49 @@ Pour utiliser Lync Web App, vous devez disposer de l’une des combinaisons sys
 <td><p>Non</p></td>
 <td><p>Oui</p></td>
 <td><p>Non</p></td>
-<td><p>Oui</p></td>
+<td><p>N/A</p></td>
 <td><p>Non</p></td>
-<td><p>Oui</p></td>
 </tr>
 <tr class="even">
-<td><p>Mac OS-x (processeur Intel)2</p></td>
-<td><p>N/A</p></td>
-<td><p>N/A</p></td>
-<td><p>N/A</p></td>
-<td><p>N/A</p></td>
-<td><p>N/A</p></td>
-<td><p>N/A</p></td>
-<td><p>N/A</p></td>
+<td><p>Mac OS X 10,7 et version ultérieure (Intel) 2</p></td>
+<td><p>N/A </p></td>
+<td><p>N/A </p></td>
+<td><p>N/A </p></td>
+<td><p>N/A </p></td>
+<td><p>N/A </p></td>
 <td><p>N/A</p></td>
 <td><p>Oui</p></td>
-<td><p>Oui</p></td>
+<td><p>Non</p></td>
+<td><p>Oui </p></td>
 <td><p>Oui</p></td>
 </tr>
 </tbody>
 </table>
 
 
-1 Sur Windows 8 et Windows 8.1, le plug-in requis pour utiliser la fonctionnalité audio par ordinateur, la vidéo, l’affichage d’applications, le partage d’applications, l’affichage du bureau et le partage du bureau ne peut être installé que si vous exécutez Internet Explorer 10 ou Internet Explorer 11, version bureau. Ces fonctionnalités ne sont pas disponibles avec Internet Explorer 10 ou Internet Explorer 11, version non-bureau.
+1 sur Windows 8 et Windows 8,1, le plug-in requis pour l’utilisation de l’audio et de la vidéo, de l’affichage des applications, du partage d’applications, de l’affichage du bureau et du partage du Bureau sur un ordinateur ne peut être installé que si vous utilisez Internet Explorer 10 ou Internet Explorer 11 pour le D945GBO. Ces fonctionnalités ne sont pas disponibles dans les versions de bureau d’Internet Explorer 10 ou d’Internet Explorer 11 qui ne sont pas disponibles.
 
-2 Sur les systèmes d’exploitation Windows 7, Windows Server 2008 R2 et Macintosh pris en charge, toutes les fonctionnalités sont disponibles, dont les communications vocales par ordinateur, la vidéo, l’affichage d’applications, le partage d’applications, l’affichage du bureau et le partage du bureau. Pour utiliser ces fonctionnalités, vous devez installer un plug-in quand vous y êtes invité.
+2 sur les systèmes d’exploitation Windows 7, Windows Server 2008 R2 et Macintosh pris en charge, toutes les fonctionnalités sont disponibles, notamment la voix, la vidéo et le partage des applications basés sur un ordinateur, le partage d’application, l’affichage du bureau et le partage du bureau. Pour utiliser ces fonctionnalités, vous devez installer un plug-in quand vous y êtes invité. Notez que la version 10,6 de Mac OS X n’est plus prise en charge.
 
-3 Sur les systèmes d’exploitation Windows XP, Windows Vista et Windows Server 2008, les communications vocales par ordinateur et la vidéo ne sont pas disponibles, contrairement à l’affichage d’applications, au partage d’applications, à l’affichage du bureau et au partage du bureau.
+3 sur les systèmes d’exploitation Windows Server 2008 pris en charge, les fonctionnalités audio et vidéo basées sur un ordinateur ne sont pas disponibles. L’affichage des applications, le partage d’applications, l’affichage du bureau et le partage du Bureau sont disponibles.
 
-## Configuration matérielle requise
+</div>
 
-La configuration matérielle requise est déterminée par le système d’exploitation et le navigateur. Les fonctionnalités vocales et de téléphonie nécessitent un microphone et des haut-parleurs, un casque équipé d’un microphone, ou un périphérique équivalent compatible avec l’ordinateur. Les fonctionnalités vidéo nécessitent un périphérique vidéo compatible avec l’ordinateur. Pour obtenir des informations détaillées sur la prise en charge du matériel vidéo et la qualité attendue de la vidéo, reportez-vous à [Configuration requise pour la vidéo du client Skype Entreprise pour Skype Entreprise Server 2015](lync-server-2013-lync-client-video-requirements.md).
+<div>
+
+## <a name="hardware-requirements"></a>Configuration matérielle requise
+
+La configuration matérielle requise est déterminée par le système d'exploitation et le navigateur. Les fonctionnalités vocales et de téléphonie nécessitent un micro et des haut-parleurs, un casque équipé d'un micro, ou un périphérique équivalent compatible avec l'ordinateur. Les fonctionnalités vidéo nécessitent un périphérique vidéo compatible avec l'ordinateur. Pour plus d’informations sur la prise en charge des matériels vidéo et la qualité vidéo prévue, voir [Configuration requise pour le client Lync pour Lync Server 2013](lync-server-2013-lync-client-video-requirements.md).
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

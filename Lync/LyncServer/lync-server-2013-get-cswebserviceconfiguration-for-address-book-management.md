@@ -1,35 +1,67 @@
-﻿---
-title: Get-CsWebServiceConfiguration pour la gestion des carnets d’adresses
-TOCTitle: Get-CsWebServiceConfiguration pour la gestion des carnets d’adresses
-ms:assetid: 0b223733-5224-47d1-9b47-2109e6f135c9
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg429692(v=OCS.15)
-ms:contentKeyID: 49296206
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Get-CsWebServiceConfiguration pour la gestion du carnet d’adresses'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Get-CsWebServiceConfiguration for Address Book management
+ms:assetid: 0b223733-5224-47d1-9b47-2109e6f135c9
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429692(v=OCS.15)
+ms:contentKeyID: 48183372
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7e88d13a910a7883f88ceadc28225cbaa85bb17b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831132"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Get-CsWebServiceConfiguration pour la gestion des carnets d’adresses
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-11-01_
+# <a name="get-cswebserviceconfiguration-for-address-book-management-in-lync-server-2013"></a>Get-CsWebServiceConfiguration pour la gestion du carnet d’adresses dans Lync Server 2013
 
-Personnes autorisées à exécuter cette applet de commande : Par défaut, les membres des groupes suivants sont autorisés à exécuter localement l’applet de commande Get-CsWebServiceConfiguration : RTCUniversalUserAdmins, RTCUniversalServerAdmins. Pour retourner une liste de tous les rôles RBAC (Contrôle d’accès basé sur un rôle) auxquels cette applet de commande a été affectée (y compris les rôles RBAC personnalisés créés par vos soins), exécutez la commande suivante depuis l’invite Windows PowerShell :
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-11-01_
+
+Qui peut exécuter cette applet de commande: par défaut, les membres des groupes suivants sont autorisés à exécuter l’applet de commande Get-CsWebServiceConfiguration localement: RTCUniversalUserAdmins, RTCUniversalServerAdmins. Pour renvoyer la liste de tous les rôles de contrôle d’accès basés sur des rôles (RBAC) affectés à cette applet de commande (y compris les rôles RBAC personnalisés que vous avez créés vous-même), exécutez la commande suivante à partir de l’invite Windows PowerShell:
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Get-CsWebServiceConfiguration"}
 
-Get-CsWebServiceConfiguration retourne les informations de la configuration des services web actuellement appliquée dans votre organisation. Ce qui est important pour les services de carnet d’adresses est l’état de la fonction Distribution List Expansion. Si la valeur de l’attribut EnableGroupExpansion est True, votre organisation autorise le développement des groupes.
+Get-CsWebServiceConfiguration renvoie des informations sur la configuration des services Web actuellement utilisée au sein de votre organisation. Le statut de la fonction d’extension de liste de distribution est particulièrement utile pour les services du carnet d’adresses. Si l’attribut EnableGroupExpansion est vrai, votre organisation autorise actuellement l’extension du groupe.
 
 Par exemple :
 
     Get-CsWebServiceConfiguration -Identity site:Redmond
 
-Pour une description détaillée de la commande complète, reportez-vous aux ressources suivantes dans la référence principale des RTCCmdlets Windows PowerShell pour Lync Server.
+<div>
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
-#### Autres ressources
 
-[Get-CsWebServiceConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsWebServiceConfiguration)
+[Get-CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsWebServiceConfiguration)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

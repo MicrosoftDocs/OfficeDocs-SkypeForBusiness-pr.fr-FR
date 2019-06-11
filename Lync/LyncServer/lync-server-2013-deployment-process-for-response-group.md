@@ -1,23 +1,43 @@
-﻿---
-title: 'Lync Server 2013 : Processus de déploiement de Response Group'
-TOCTitle: Processus de déploiement de Response Group
-ms:assetid: d390c8a1-dc6e-44d8-b386-2be1fca9877c
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ205270(v=OCS.15)
-ms:contentKeyID: 49298935
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: processus de déploiement pour Response Group'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deployment process for Response Group
+ms:assetid: d390c8a1-dc6e-44d8-b386-2be1fca9877c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205270(v=OCS.15)
+ms:contentKeyID: 48185437
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 2151532b31f3c1660be98d11ac9d9c337ffecb64
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831458"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Processus de déploiement de Response Group dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2015-03-09_
+# <a name="deployment-process-for-response-group-in-lync-server-2013"></a>Processus de déploiement pour Response Group dans Lync Server 2013
 
-Cette section décrit les phases et la procédure pour déployer l’application Response Group.
+</div>
 
-### Processus de déploiement du groupe Response Group
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-09-27_
+
+Cette section fournit une vue d’ensemble des phases et étapes du déploiement de l’application Response Group.
+
+### <a name="response-group-deployment-process"></a>Procédure de déploiement du groupe Response Group
 
 <table>
 <colgroup>
@@ -36,41 +56,43 @@ Cette section décrit les phases et la procédure pour déployer l’application
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Installer l’application Response Group</p></td>
-<td><p>L’application Response Group est installée et activée par défaut quand vous déployez Voix Entreprise.</p></td>
+<td><p>Installer l’application Response Group</p></td>
+<td><p>L’application Response Group est installée et activée par défaut lorsque vous déployez Enterprise Voice.</p></td>
 <td><p>RTCUniversalServerAdmins</p></td>
-<td><p><a href="lync-server-2013-deploying-enterprise-voice.md">Déploiement de Voix Entreprise dans Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-deploying-enterprise-voice.md">Déploiement d’Enterprise Voice dans Lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Installer les composants pour Response Group</p></td>
-<td><p>Les applets de commande Lync Server, le Panneau de configuration Lync Server, l’outil de configuration Response Group, la console de connexion et de déconnexion des agents ainsi que le service web du client Response Group sont installés dans les services web, c’est-à-dire quand vous déployez un pool Enterprise Edition ou un serveur Standard Edition.</p></td>
+<td><p>Installer des composants pour Response Group</p></td>
+<td><p>Les applets de commande Lync Server, le panneau de configuration de Lync Server, l’outil de configuration de Response Group, l’outil de connexion des agents et la console de connexion et le service Web du client de groupe de réponse sont installés dans le cadre de services Web. Les services Web sont installés lorsque vous déployez un pool Enterprise Edition ou un serveur Standard Edition Server.</p></td>
 <td><p>RTCUniversalServerAdmins</p></td>
 <td><p><a href="lync-server-2013-deploying-lync-server.md">Déploiement de Lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Activer les utilisateurs pour Lync 2013 et Voix Entreprise</p></td>
-<td><p>Activer les utilisateurs qui seront des agents pour Lync Server et Voix Entreprise. Les utilisateurs doivent être activés pour pouvoir être ajoutés aux groupes d’agents. En règle générale, les utilisateurs sont activés pour Lync Server lors du déploiement de Enterprise Edition ou du serveur Standard Edition. Les utilisateurs sont activés pour Voix Entreprise lors du déploiement de Voix Entreprise.</p></td>
+<td><p>Activer les utilisateurs pour Lync 2013 et voix entreprise</p></td>
+<td><p>Activez les utilisateurs qui seront agents de Lync Server et de voix entreprise. Les utilisateurs doivent être activés pour pouvoir être ajoutés aux groupes d’agents. En général, les utilisateurs sont activés pour Lync Server lors du déploiement Enterprise Edition ou Standard Edition Server. Les utilisateurs sont activés pour voix entreprise pendant le déploiement de voix entreprise.</p></td>
 <td><p>RTCUniversalUserAdmins</p>
 <p>CsUserAdministrator</p>
 <p>CsAdministrator</p></td>
-<td><p><a href="lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md">Désactivation ou réactivation d’un compte d’utilisateur pour Lync Server</a></p>
-<p><a href="lync-server-2013-enable-users-for-enterprise-voice.md">Activation des utilisateurs pour Voix Entreprise dans Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md">Désactiver ou réactiver le compte d’utilisateur pour Lync Server 2013</a></p>
+<p><a href="lync-server-2013-enable-users-for-enterprise-voice.md">Activer les utilisateurs d’Enterprise Voice dans Lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Créer et configurer les groupes Response Group, qui sont composés de groupes d’agents, de files d’attente et de flux de travail</p></td>
 <td><ol>
-<li><p>Utilisez le Panneau de configuration Lync Server ou Lync Server Management Shell pour effectuer les opérations suivantes :</p>
+<li><p>Utilisez le panneau de configuration de Lync Server ou Lync Server Management Shell pour effectuer les opérations suivantes:</p>
 <ol>
 <li><p>Créez et configurez des groupes d’agents.</p></li>
 <li><p>Créez et configurez des files d’attente.</p></li>
 </ol></li>
-<li><p>De manière facultative, utilisez Lync Server Management Shell pour créer des heures ouvrées et des congés pour un groupe Response Group prédéfini.</p></li>
-<li><p>Utilisez l’outil de configuration Response Group ou Lync Server Management Shell pour créer des flux de travail (flux de groupes de recherche ou d’appels de réponse vocale interactive [IVR]), dont des heures ouvrées et des congés pour un groupe Response Group personnalisé.</p>
+<li><p>Vous pouvez également utiliser Lync Server Management Shell pour créer des heures de travail et des jours fériés prédéfinis.</p></li>
+<li><p>Utilisez l’outil de configuration de Response Group ou Lync Server Management Shell pour créer des flux de travail (groupes de recherche ou flux de réponse vocale interactifs), y compris des heures et des jours fériés de groupe de réponse personnalisés.</p>
+<div>
 
 > [!NOTE]  
-> Vous pouvez accéder à l’outil de configuration Response Group via le Panneau de configuration Lync Server.
+> Vous pouvez accéder à l’outil de configuration de Response Group par le biais du panneau de configuration de Lync Server.
 
-</li>
+
+</div></li>
 </ol></td>
 <td><p>RTCUniversalServerAdmins</p>
 <p>CsResponseGroupAdministrator</p>
@@ -80,23 +102,23 @@ Cette section décrit les phases et la procédure pour déployer l’application
 <p>CsResponseGroupManager</p></td>
 <td><p><a href="lync-server-2013-create-response-group-agent-groups.md">Création des groupes d’agents Response Group Lync Server 2013</a></p>
 <p><a href="lync-server-2013-create-response-group-queues.md">Création des files d’attente Response Group dans Lync Server 2013</a></p>
-<p><a href="lync-server-2013-optional-define-response-group-business-hours.md">(Facultatif) Définition des heures ouvrées des groupes Response Group dans Lync Server 2013</a></p>
-<p><a href="lync-server-2013-optional-define-response-group-holiday-sets.md">(Facultatif) Définition des groupes de congés des groupes Response Group dans Lync Server 2013</a></p>
-<p><a href="lync-server-2013-create-or-modify-a-workflow.md">Création ou modification d’un workflow dans Lync Server 2013</a></p></td>
+<p><a href="lync-server-2013-optional-define-response-group-business-hours.md">Facultatif Définir les heures d’activité du groupe de réponses dans Lync Server 2013</a></p>
+<p><a href="lync-server-2013-optional-define-response-group-holiday-sets.md">Facultatif Définir des jeux de vacances de groupe de réponse dans Lync Server 2013</a></p>
+<p><a href="lync-server-2013-create-or-modify-a-workflow.md">Créer ou modifier un flux de travail dans Lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>(Facultatif) Personnaliser les paramètres au niveau de l’application</p></td>
-<td><p>Utilisez Lync Server Management Shell pour personnaliser la configuration de l’attente musicale par défaut, le fichier audio de l’attente musicale par défaut, la période de grâce de la reprise d’appel parqué des agents ainsi que la configuration du contexte de l’appel.</p></td>
+<td><p>Utilisez Lync Server Management Shell pour personnaliser la configuration par défaut de Music-Holding, le fichier audio de musique par défaut, la période de grâce aux retours de l’agent et la configuration du contexte d’appel.</p></td>
 <td><p>RTCUniversalServerAdmins</p>
 <p>CsResponseGroupAdministrator</p>
 <p>CsVoiceAdministrator</p>
 <p>CsServerAdministrator</p>
 <p>CsAdministrator</p></td>
-<td><p><a href="lync-server-2013-managing-application-level-response-group-settings.md">Gestion des paramètres de Response Group au niveau de l’application dans Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-managing-application-level-response-group-settings.md">Gestion des paramètres du groupe de réponses au niveau de l’application dans Lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
 <td><p>(Facultatif) Déléguer la gestion des groupes Response Group</p></td>
-<td><p>Pour déléguer la configuration de groupes Response Group, attribuez aux utilisateurs le rôle CsResponseGroupManager. Les gestionnaires Response Group peuvent ensuite configurer les groupes Response Group qui leur ont été affectés.</p></td>
+<td><p>Affectez aux utilisateurs le rôle CsResponseGroupManager pour déléguer la configuration de Response groups. Les responsables de groupe de réponse peuvent alors configurer les groupes de réponse qui leur sont attribués.</p></td>
 <td><p>RTCUniversalServerAdmins</p>
 <p>CsResponseGroupAdministrator</p>
 <p>CsVoiceAdministrator</p>
@@ -112,4 +134,15 @@ Cette section décrit les phases et la procédure pour déployer l’application
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

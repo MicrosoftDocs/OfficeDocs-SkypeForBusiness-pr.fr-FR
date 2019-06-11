@@ -1,25 +1,59 @@
-﻿---
-title: 'Lync Server 2013 : Enregistrements DNS requis'
-TOCTitle: Enregistrements DNS requis
-ms:assetid: 2af3de7b-5a6a-4f0f-b4a7-d19bd6e6c599
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204758(v=OCS.15)
-ms:contentKeyID: 49296708
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Enregistrements DNS requis'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: DNS requirements
+ms:assetid: 2af3de7b-5a6a-4f0f-b4a7-d19bd6e6c599
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204758(v=OCS.15)
+ms:contentKeyID: 48183690
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: fd27e7c516007340c2f48e931ade520e9ea40110
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831359"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Enregistrements DNS requis pour Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-06-29_
+# <a name="dns-requirements-for-lync-server-2013"></a>Enregistrements DNS requis pour Lync Server 2013
 
-Les rubriques suivantes décrivent les DNS requis pour un pool de serveurs frontaux et un serveur Standard Edition.
+</div>
 
-## Dans cette section
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-06-29_
+
+Les rubriques suivantes décrivent la configuration DNS requise pour une liste frontale et un serveur Standard Edition Server.
+
+<div>
+
+## <a name="in-this-section"></a>Dans cette section
 
   - [Enregistrements DNS requis pour le pool frontal dans Lync Server 2013](lync-server-2013-dns-requirements-for-front-end-pool.md)
 
   - [Enregistrements DNS requis pour un serveur Standard Edition dans Lync Server 2013](lync-server-2013-dns-requirements-for-a-standard-edition-server.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

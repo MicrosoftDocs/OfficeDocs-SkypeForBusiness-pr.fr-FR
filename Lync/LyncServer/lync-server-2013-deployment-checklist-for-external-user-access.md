@@ -1,46 +1,75 @@
-﻿---
-title: "Lync Server 2013 : Liste de vérif. du dépl. pour l’accès des ut. externes"
-TOCTitle: Liste de vérification du déploiement pour l’accès des utilisateurs externes
-ms:assetid: 3f55f502-88a0-4315-8783-45a32a0b78ea
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg425910(v=OCS.15)
-ms:contentKeyID: 49296996
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Liste de vérification du déploiement pour l’accès des utilisateurs externes'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deployment checklist for external user access
+ms:assetid: 3f55f502-88a0-4315-8783-45a32a0b78ea
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425910(v=OCS.15)
+ms:contentKeyID: 48183947
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0c8831e8bd94040095fabd9fb335113b62b5287b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831518"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Liste de vérification du déploiement pour l’accès des utilisateurs externes dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2015-03-09_
+# <a name="deployment-checklist-for-external-user-access-in-lync-server-2013"></a>Liste de vérification du déploiement pour l’accès des utilisateurs externes dans Lync Server 2013
 
-Avant de déployer votre réseau de périmètre et d’implémenter la prise en charge des utilisateurs externes, vous devez déjà avoir déployé vos serveurs internes Microsoft Lync Server 2013, dont un pool de serveurs frontaux ou un serveur Standard Edition. Si vous prévoyez de déployer des directeurs facultatifs dans votre réseau interne, vous devez aussi les déployer avant les serveurs Edge. Pour plus d’informations sur le processus de déploiement d’un directeur, reportez-vous à [Scénarios pour le directeur dans Lync Server 2013](lync-server-2013-scenarios-for-the-director.md) dans la documentation de planification.
+</div>
 
-Microsoft Lync Server 2013 intègre des outils qui vous aident à planifier et déployer les serveurs internes et les serveurs Edge. Une fois la topologie finalisée, publiez la définition de topologie qui en résulte dans votre environnement de production. Pour ce faire, vous devez être membre du groupe **Administrateurs du domaine** et du groupe **RTCUniversalServerAdmins**.
+<div id="mainSection">
 
-  - **Outil de planification** : Office Communications Server 2007 R2 intégrait un outil de planification et un outil de planification Edge que vous pouviez utiliser pour concevoir votre topologie. Dans Lync Server 2010, ces deux outils ont été regroupés dans un même outil de planification qui propose des fonctionnalités supplémentaires, telles que la collecte du nombre prévu d’utilisateurs, des exigences sur le plan de la voix, des types d’accès pour les utilisateurs externes, ainsi que des options de fédération. Par ailleurs, vous pouvez planifier les paramètres réseau de votre infrastructure, tels que les adresses IP, les types d’équilibrage de charge, ainsi que d’autres considérations relatives aux réseaux de périmètre.
+<div id="mainBody">
 
-  - **Générateur de topologie** : le Générateur de topologieLync Server 2013 vous aide à définir votre topologie et vos composants. Le Générateur de topologie est indispensable pour déployer des serveurs exécutant Lync Server 2013. Le Générateur de topologie publie les résultats dans un magasin central de gestion qui sert à configurer tous les serveurs exécutant Lync Server 2013 dans votre organisation. Vous ne pouvez pas installer Lync Server 2013 sur des serveurs sans utiliser le Générateur de topologie.
+<span> </span>
 
-Si vous avez conçu votre topologie Edge lors de votre processus de planification en ayant notamment exécuté le Générateur de topologie pour définir votre topologie Edge, vous pouvez utiliser ces résultats pour entamer le déploiement de votre serveur Edge. Si la création de votre topologie Edge n’est pas terminée ou si vous souhaitez modifier les informations définies antérieurement, vous devez terminer l’exécution du Générateur de topologie avant de passer aux autres étapes du déploiement. Pour plus d’informations sur la façon de créer votre topologie, reportez-vous à [Scénarios d’accès des utilisateurs externes dans Lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md).
+_**Dernière modification de la rubrique:** 2014-02-04_
 
-Pour plus d’informations sur l’outil de planification et le générateur de topologie, reportez-vous à [Début du processus de planification pour Lync Server 2013](lync-server-2013-beginning-the-planning-process.md) dans la documentation de planification.
+Avant de déployer votre réseau de périmètre et de mettre en œuvre la prise en charge pour les utilisateurs externes, vous devez déjà avoir déployé vos serveurs internes Microsoft Lync Server 2013, y compris un pool frontal ou un serveur Standard Edition Server. Si vous envisagez de déployer les directeurs facultatifs dans votre réseau interne, vous devez également les déployer avant de déployer des serveurs Edge. Pour plus d’informations sur le processus de déploiement des directeurs, voir [scénarios pour le directeur dans Lync Server 2013](lync-server-2013-scenarios-for-the-director.md) dans la documentation de planification.
 
-Le tableau ci-dessous présente une vue d’ensemble du processus de déploiement des serveurs Edge. Pour consulter les décisions de planification qui doivent être prises avant de déployer l’accès des utilisateurs externes, reportez-vous à [Scénarios d’accès des utilisateurs externes dans Lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md).
+Microsoft Lync Server 2013 inclut des outils permettant de faciliter la planification et le déploiement de serveurs intérieurs et de serveurs Edge. Une fois la topologie terminée, publiez la définition de topologie résultante dans votre environnement de production. Pour cela, vous devez être membre du groupe administrateurs de **domaine** et du groupe **RTCUniversalServerAdmins** .
+
+  - **Outil de planification**   Office Communications Server 2007 R2 incluait un outil de planification et un outil de planification d’arête que vous pouvez utiliser pour vous aider à concevoir la topologie. Dans Lync Server 2010, ces deux outils étaient réunis en un seul outil de planification doté de fonctionnalités et de fonctionnalités supplémentaires, telles que la collecte du nombre d’utilisateurs planifiés, des exigences vocales, des types d’accès des utilisateurs externes et des options de Fédération. De plus, vous pouvez planifier les paramètres réseau de votre infrastructure, tels que les adresses IP, les types d’équilibrage de charge et les autres aspects du réseau de périmètre.
+
+  - **Générateur de topologie**   Lync Server 2013 le générateur de topologie vous aide à définir votre topologie et vos composants. Le générateur de topologie est essentiel pour déployer des serveurs exécutant Lync Server 2013. Le générateur de topologie publie les résultats dans un magasin central de gestion utilisé pour configurer tous les serveurs exécutant Lync Server 2013 au sein de votre organisation. Vous ne pouvez pas installer Lync Server 2013 sur les serveurs sans utiliser le générateur de topologie.
+
+Si vous avez conçu votre topologie latérale lors du processus de planification, y compris l’exécution du générateur de topologie pour définir votre topologie de périphérie, vous pouvez utiliser ces résultats pour démarrer le déploiement de votre serveur Edge. Si vous n’avez pas fini de générer votre topologie de périphérie ou si vous souhaitez modifier les informations que vous avez spécifiées, vous devez terminer d’exécuter le générateur de topologie avant d’effectuer d’autres étapes de déploiement. Pour plus d’informations sur la création de votre topologie, voir [scénarios d’accès des utilisateurs externes dans Lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md).
+
+Pour plus d’informations sur l’outil de planification et le générateur de topologie, voir [commencer le processus de planification de Lync Server 2013](lync-server-2013-beginning-the-planning-process.md) dans la documentation de planification.
+
+Le tableau suivant fournit une vue d’ensemble du processus de déploiement de serveur Edge. Pour passer en revue les décisions de planification devant être prises avant de déployer l’accès des utilisateurs externes, voir [scénarios d’accès des utilisateurs externes dans Lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md).
+
+<div>
+
 
 > [!WARNING]  
-> Les informations contenues dans le tableau suivant s’appliquent essentiellement à un nouveau déploiement. Si vous avez déployé des serveurs Edge dans un environnement Lync Server 2010, Office Communications Server 2007 R2 ou Office Communications Server 2007, reportez-vous à <a href="migration.md">Migration</a> pour plus d’informations sur la migration vers Lync Server 2013. La migration n’est pas prise en charge pour les versions antérieures à Office Communications Server 2007 R2, dont Office Communications Server 2007, Live Communications Server 2005 et Live Communications Server 2003.
+> Les informations figurant dans le tableau suivant portent sur un nouveau déploiement. Si vous avez déployé des serveurs Edge dans un environnement Lync Server 2010, Office Communications Server 2007 R2 ou Office Communications Server 2007, voir la <A href="migration.md">migration</A> pour plus d’informations sur la migration vers Lync Server 2013. La migration n’est pas prise en charge dans les versions antérieures à Office Communications Server 2007 R2, y compris Office Communications Server 2007, Live Communications Server 2005 et Live Communications Server 2003.
 
-Pour améliorer les performances et le niveau de sécurité des serveurs Edge, mais aussi pour faciliter leur déploiement, appliquez les recommandations suivantes lors du déploiement de votre réseau de périmètre et de vos serveurs Edge :
 
-  - Déployez les serveurs Edge uniquement après avoir testé et vérifié le fonctionnement du Lync Server 2013 dans votre organisation.
 
-  - Nous vous recommandons de déployer des serveurs Edge dans un groupe de travail et non pas dans un domaine. Cela simplifie l’installation et conserve les services AD DS (Active Directory Domain Services) en dehors du périmètre du réseau. Leur localisation peut en effet présenter des risques de sécurité importants.
+</div>
 
-  - L’association d’un serveur Edge Server à un domaine se trouvant entièrement dans le périmètre du réseau est prise en charge, mais non recommandée. Un serveur Edge qui fait partie intégrante du domaine interne enfreint les limites du réseau fiable. En termes de fiabilité, Internet se situe au plus bas de l’échelle, suivi des réseaux de périmètre, puis du réseau interne, considéré comme le plus fiable. Un serveur Edge qui est membre du domaine fait automatiquement partie intégrante du réseau le plus fiable, mais se trouve dans un réseau moins fiable (le périmètre).
+Pour améliorer les performances et la sécurité du serveur Edge et faciliter le déploiement, appliquez les meilleures pratiques suivantes lors du déploiement de votre réseau de périmètre et des serveurs Edge:
 
-## Processus de déploiement des serveurs Edge
+  - Déployez les serveurs Edge uniquement après avoir testé et vérifié le fonctionnement de Lync Server 2013 au sein de votre organisation.
+
+  - Nous vous recommandons de déployer des serveurs de périphérie dans un groupe de travail plutôt que sur un domaine. Cette opération simplifie l’installation et conserve les services de domaine Active Directory (AD DS) du réseau de périmètre. La recherche d’AD DS dans le réseau de périmètre peut présenter un risque de sécurité considérable.
+
+  - La participation à un serveur Edge vers un domaine situé entièrement dans le réseau de périmètre est prise en charge, mais n’est pas recommandée. Un serveur Edge dans le cadre du domaine interne viole les limites réseau approuvées, où Internet est le moins fiable, le réseau de périmètre est plus fiable qu’Internet et le réseau interne est le plus fiable. Un serveur Edge en tant que membre du domaine fait automatiquement partie du réseau le plus fiable, mais réside dans un réseau moins fiable (le périmètre).
+
+<div>
+
+## <a name="deployment-process-for-edge-servers"></a>Processus de déploiement pour les serveurs de périphérie
 
 
 <table>
@@ -60,67 +89,121 @@ Pour améliorer les performances et le niveau de sécurité des serveurs Edge, m
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Créez la topologie Edge appropriée et déterminez les composants adéquats.</p></td>
-<td><ul><li><p>Exécutez le Générateur de topologie pour configurer les paramètres de serveur Edge et créez et publiez la topologie, puis utilisez Lync Server Management Shell pour exporter le fichier de configuration de topologie.</p></li></ul>
-<p></p></td>
-<td><p>Groupe <strong>Administrateurs du domaine</strong> et groupe <strong>RTCUniversalServerAdmins</strong> ou <strong>CsAdmins</strong></p>
+<td><p>Créez la topologie de bord appropriée et déterminez les composants appropriés.</p></td>
+<td><ul>
+<li><p>Exécutez le générateur de topologie pour configurer les paramètres du serveur de bord et créer et publier la topologie, puis utilisez Lync Server Management Shell pour exporter le fichier de configuration de la topologie.</p></li>
+</ul></td>
+<td><p>Groupe <strong>administrateurs de domaine</strong> et groupe <strong>RTCUniversalServerAdmins</strong> ou <strong>CsAdmins</strong></p>
 <div>
 
 > [!NOTE]  
-> Vous pouvez définir une topologie à l’aide d’un compte qui est membre du groupe d’utilisateurs locaux, mais la publication d’une topologie nécessite un compte qui soit membre du groupe <strong>Administrateurs du domaine</strong> et du groupe <strong>RTCUniversalServerAdmins</strong>.
+> Vous pouvez définir une topologie à l’aide d’un compte membre du groupe utilisateurs locaux, mais la publication d’une topologie nécessite un compte membre du groupe <STRONG>administrateurs de domaine</STRONG> et du groupe <STRONG>RTCUniversalServerAdmins</STRONG> .
+
+
 </div></td>
-<td><p><a href="lync-server-2013-building-an-edge-and-director-topology.md">Création d’une topologie de serveurs Edge et directeurs dans Lync Server 2013</a> dans la documentation de déploiement</p></td>
+<td><p><a href="lync-server-2013-building-an-edge-and-director-topology.md">Création d’une topologie de périphérie et de réalisateur dans Lync Server 2013</a> dans la documentation de déploiement</p></td>
 </tr>
 <tr class="even">
-<td><p>Préparez l’installation.</p></td>
-<td><ol><li><p>Assurez-vous que les conditions préalables du système sont respectées.</p></li><li><p>Configurez les adresses IP (IPv4 et IPv6, le cas échéant) des interfaces réseau interne et publique sur chaque serveur Edge.</p></li><li><p>Configurez les enregistrements DNS internes et externes (hôte A et AAAA pour IPv4 et IPv6), dont le suffixe DNS sur l’ordinateur à déployer en tant que serveur Edge.</p></li><li><p>(Facultatif) Créez et installez des certificats publics. La durée nécessaire à l’obtention de certificats dépend de l’autorité de certification qui les émet. Si vous n’effectuez pas cette étape à ce stade, vous devrez le faire lors de l’installation du serveur Edge. Les services du serveur Edge ne peuvent pas être démarrés tant que les certificats n’ont pas été obtenus et installés.</p></li><li><p>Provisionnez la prise en charge de la solution PIC (Public IM Connectivity) si votre déploiement doit prendre en charge les communications avec des utilisateurs Windows Live, AOL ou Yahoo!.</p>
+<td><p>Préparez-vous à l’installation.</p></td>
+<td><ol>
+<li><p>Vérifiez que les conditions système préalables sont remplies.</p></li>
+<li><p>Configurez les adresses IP (IPv4 et IPv6, s’il est utilisé) pour les interfaces réseau internes et publiques sur chaque serveur Edge.</p></li>
+<li><p>Configurez les enregistrements DNS internes et externes (Host A et AAAA pour IPv4 et IPv6), y compris la configuration du suffixe DNS sur l’ordinateur pour être déployé en tant que serveur Edge.</p></li>
+<li><p>Facultatif Créez et installez des certificats publics. Le temps requis pour obtenir des certificats dépend de l’autorité de certification qui émet le certificat. Si vous n’effectuez pas cette étape à ce stade, vous devez le faire lors de l’installation du serveur Edge. Les services du serveur Edge ne peuvent pas être démarrés tant que les certificats n’ont pas été obtenus et installés.</p></li>
+<li><p>La prise en charge de la connectivité PIC (Public IM Connectivity), si votre déploiement prend en charge les communications avec Windows Live, AOL ou Yahoo! ont.</p>
 <div>
 
 > [!IMPORTANT]  
-> <ul>
-> <li><p>Depuis le 1er septembre 2012, la licence Microsoft Lync « PIC USL » (Public IM Connectivity User Subscription License) n’est plus disponible et ne peut pas être achetée ou renouvelée. Les clients disposant de licences actives pourront continuer à assurer la fédération avec Yahoo! Messenger jusqu’à la date d’arrêt du service. Une date de fin de vie de juin 2014 a été annoncée pour AOL et Yahoo! Pour plus d’informations, reportez-vous à <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Prise en charge de la connectivité PIC (Public IM Connectivity) dans Lync Server 2013</a>.</p></li>
-> <li><p>La licence PIC USL est une licence d’abonnement mensuel par utilisateur requise pour la fédération de Lync Server ou Office Communications Server avec Yahoo! Messenger. La capacité de Microsoft à fournir ce service est liée au soutien de Yahoo!, dont le contrat sous-jacent arrive à expiration.</p></li>
-> <li><p>Lync est un outil puissant permettant aux organisations et aux individus du monde entier de rester connectés. La fédération avec Windows Live Messenger ne nécessite aucune licence utilisateur/appareil supplémentaire en plus de la licence d’accès client (CAL) standard Lync. La fédération avec Skype sera prochainement ajoutée à cette liste, ce qui permettra aux utilisateurs Lync d’entrer en contact avec des centaines de millions de personnes à l’aide des fonctionnalités vocales et de messagerie instantanée.</p></li></ul>
+> <UL>
+> <LI>
+> <P>À compter du 1er septembre, 2012, le contrat de licence de l’utilisateur Microsoft Lync Public IM Connectivity («PIC USL») ne sera plus disponible à l’achat pour les contrats de nouveau ou de renouvellement. Les clients disposant de licences actives seront en mesure de continuer à fédérer avec Yahoo! Messenger jusqu’à la date d’arrêt du service. Date de fin de vie du 2014 juin pour AOL et Yahoo! a été annoncé. Pour plus d’informations, voir <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">prise en charge de la connectivité de messagerie instantanée publique dans Lync Server 2013</A>.</P>
+> <LI>
+> <P>La fonction USL (PIC) est une licence d’abonnement par mois qui est requise pour que Lync Server ou Office Communications Server se fédérer avec Yahoo! Messenger. La capacité de Microsoft à fournir ce service est subordonné à la prise en charge de Yahoo!, le contrat sous-jacent pour lequel le son est arrêté.</P>
+> <LI>
+> <P>Plus que jamais, Lync est un outil puissant de connexion entre organisations et de personnes dans le monde entier. La Fédération avec Windows Live Messenger ne nécessite aucune licence d’utilisateur/appareil supplémentaire au-delà de la CAL standard Lync. Skype Federation sera ajouté à cette liste et permettra aux utilisateurs de Lync de joindre des centaines de millions de personnes à la messagerie instantanée et à la voix.</P></LI></UL>
 
-</div></li><li><p>Configurez la prise en charge du protocole XMPP et de la fédération pour les partenaires Office Communications Server 2007, Office Communications Server 2007 R2, Lync Server 2010 si leur utilisation est prévue dans le cadre de votre déploiement.</p></li><li><p>Configurez les pare-feu.</p></li></ol></td>
+
+</div></li>
+<li><p>La prise en charge de XMPP et de la prise en charge de la Fédération pour Office Communications Server 2007, Office Communications Server 2007 R2 et les partenaires Lync Server 2010, si votre déploiement utilisera ces</p></li>
+<li><p>Configurer des pare-feu.</p></li>
+</ol></td>
 <td><p>En fonction de votre organisation</p></td>
-<td><p><a href="lync-server-2013-preparing-for-installation-of-servers-in-the-perimeter-network.md">Préparation de l’installation des serveurs sur le réseau de périmètre pour Lync Server 2013</a> dans la documentation de déploiement</p></td>
+<td><p><a href="lync-server-2013-preparing-for-installation-of-servers-in-the-perimeter-network.md">Préparer l’installation des serveurs dans le réseau de périmètre pour Lync Server 2013</a> dans la documentation de déploiement</p></td>
 </tr>
 <tr class="odd">
-<td><p>Installez le proxy inverse.</p></td>
-<td><ul><li><p>Installez le proxy inverse (par exemple, pour Microsoft Forefront Threat Management Gateway 2010 ou Microsoft Internet Security and Acceleration (ISA) Server avec Service Pack 1) dans le réseau de périmètre, obtenez les certificats publics nécessaires, puis configurez les règles de publication web sur le serveur de proxy inverse.</p>
-<p>Préparez le proxy inverse pour les services de mobilité si vous avez prévu de les déployer sur le pool frontal ou le serveur Standard Edition.</p></li></ul></td>
-<td><p>Groupe <strong>Administrateurs</strong> ou administrateur du proxy inverse</p></td>
-<td><p></p>
-<p><a href="lync-server-2013-setting-up-reverse-proxy-servers.md">Configuration des serveurs proxy inverses pour Lync Server 2013</a> dans la documentation de déploiement</p></td>
+<td><p>Configurez un proxy inverse.</p></td>
+<td><ul>
+<li><p>Configurez le proxy inverse (par exemple, pour la passerelle Microsoft Forefront Threat Management 2010 ou Microsoft Internet Security and Acceleration (ISA) Server avec Service Pack 1) dans le réseau de périmètre, obtenez les certificats publics nécessaires et configurez le règles de publication Web sur le serveur proxy inverse.</p>
+<p>Préparez le proxy inverse pour les services de mobilité si vous avez planifié la mobilité et déployez les services de mobilité sur le pool frontal ou le serveur Standard Edition Server.</p></li>
+</ul></td>
+<td><p>Groupe <strong>administrateurs</strong> ou administrateur de proxy inverse</p></td>
+<td><p><a href="lync-server-2013-setting-up-reverse-proxy-servers.md">Configuration de serveurs proxy inverse pour Lync Server 2013</a> dans la documentation de déploiement</p></td>
 </tr>
 <tr class="even">
-<td><p>Installez un directeur (facultatif).</p></td>
-<td><ul><li><p>(Facultatif) Installez et configurez un ou plusieurs directeurs dans le réseau interne.</p></li></ul></td>
-<td><p>Groupe <strong>Administrateurs</strong></p></td>
-<td><p><a href="lync-server-2013-setting-up-the-director.md">Configuration du directeur dans Lync Server 2013</a> dans la documentation de déploiement</p></td>
+<td><p>Configurer un directeur (facultatif).</p></td>
+<td><ul>
+<li><p>Facultatif Installez et configurez un ou plusieurs directeurs sur le réseau interne.</p></li>
+</ul></td>
+<td><p>Groupe <strong>administrateurs</strong></p></td>
+<td><p><a href="lync-server-2013-setting-up-the-director.md">Configuration du réalisateur dans Lync Server 2013</a> dans la documentation de déploiement</p></td>
 </tr>
 <tr class="odd">
-<td><p>Installez des serveurs Edge.</p></td>
-<td><ol><li><p>Installez les logiciels prérequis.</p></li><li><p>Transportez le fichier de configuration de topologie exporté vers chaque serveur Edge.</p></li><li><p>Installez le logiciel Lync Server 2013 sur chaque serveur Edge.</p></li><li><p>Configurez les serveurs Edge.</p></li><li><p>Demandez et installez des certificats pour chaque serveur Edge.</p></li><li><p>Démarrez les services du serveur Edge.</p></li></ol></td>
-<td><p>Groupe <strong>Administrateurs</strong></p></td>
-<td><p><a href="lync-server-2013-setting-up-edge-servers.md">Configuration des serveurs Edge dans Lync Server 2013</a> dans la documentation de déploiement</p></td>
+<td><p>Configurez les serveurs Edge.</p></td>
+<td><ol>
+<li><p>Installez le logiciel requis.</p></li>
+<li><p>Transférez le fichier de configuration topologique exporté vers chaque serveur Edge.</p></li>
+<li><p>Installez le logiciel Lync Server 2013 sur chaque serveur Edge.</p></li>
+<li><p>Configurez les serveurs de périphérie.</p></li>
+<li><p>Demandez et installez des certificats pour chaque serveur Edge.</p></li>
+<li><p>Démarrez les services Edge Server.</p></li>
+</ol></td>
+<td><p>Groupe <strong>administrateurs</strong></p></td>
+<td><p><a href="lync-server-2013-setting-up-edge-servers.md">Configuration de serveurs de frontière dans Lync Server 2013</a> dans la documentation de déploiement</p></td>
 </tr>
 <tr class="even">
-<td><p>Configurez le déploiement pour l’accès des utilisateurs externes.</p></td>
-<td><ol><li><p>Utilisez le Panneau de configuration Lync Server pour configurer la prise en charge de chacun des éléments suivants (le cas échéant) :</p><ul><li><p>Serveur relais multimédia</p></li><li><p>Itinéraire de fédération</p></li><li><p>Accès des utilisateurs distants</p></li><li><p>Fédération avec Lync Server, Office Communications Server et Live Communications Server</p></li><li><p>Solution PIC (Public IM Connectivity)</p></li><li><p>Fédération XMPP</p></li><li><p>Utilisateurs anonymes</p></li></ul></li><li><p>Configurez les comptes d’utilisateur pour la prise en charge de l’accès des utilisateurs distants, de la fédération, de la solution PIC (Public IM Connectivity) et des utilisateurs XMPP et anonymes (le cas échéant).</p></li></ol></td>
-<td><p>Groupe <strong>RTCUniversalServerAdmins</strong> ou compte d’utilisateur affecté au rôle <strong>CSAdministrator</strong></p>
-<p></p></td>
+<td><p>Configurer le déploiement pour l’accès des utilisateurs externes.</p></td>
+<td><ol>
+<li><p>Utilisez le panneau de configuration de Lync Server pour configurer la prise en charge de chacun des éléments suivants (selon le cas):</p>
+<ul>
+<li><p>Relais multimédia</p></li>
+<li><p>Itinéraire de Fédération</p></li>
+<li><p>Accès des utilisateurs distants</p></li>
+<li><p>Fédération avec Lync Server, Office Communications Server et Live Communications Server</p></li>
+<li><p>Solution PIC (Public IM Connectivity)</p></li>
+<li><p>Fédération XMPP</p></li>
+<li><p>Utilisateurs anonymes</p></li>
+</ul></li>
+<li><p>Configurer les comptes d’utilisateurs pour l’accès des utilisateurs distants, la Fédération, la connectivité PIC (Public IM Connectivity), le service d’assistance utilisateur (selon le cas)</p></li>
+</ol></td>
+<td><p><strong>RTCUniversalServerAdmins</strong> groupe ou compte d’utilisateur affecté au rôle <strong>CSAdministrator</strong></p></td>
 <td><p><a href="lync-server-2013-configuring-support-for-external-user-access.md">Configuration de la prise en charge de l’accès des utilisateurs externes dans Lync Server 2013</a> dans la documentation de déploiement</p></td>
 </tr>
 <tr class="odd">
-<td><p>Vérifiez votre configuration de serveur Edge.</p></td>
-<td><ol><li><p>Vérifiez la connectivité serveur et la réplication des données de configuration à partir des serveurs internes.</p></li><li><p>Vérifiez que les utilisateurs externes peuvent se connecter, dont les utilisateurs distants, les utilisateurs des domaines fédérés, les utilisateurs Public IM et les utilisateurs anonymes, selon votre type de déploiement.</p></li><li><p>Vérifiez la configuration et la communication à l’aide de l’analyseur de connectivité à distance Lync Server <a href="https://www.testocsconnectivity.com/" class="uri">https://www.testocsconnectivity.com/</a></p></li><li><p>Résoudre les problèmes de configuration et de communication</p></li></ol></td>
-<td><p>Pour la vérification de la réplication, groupe <strong>RTCUniversalServerAdmins</strong> ou compte d’utilisateur affecté au rôle <strong>CSAdministrator</strong></p>
+<td><p>Vérifiez la configuration de votre serveur Edge.</p></td>
+<td><ol>
+<li><p>Vérifier la connectivité du serveur et la réplication des données de configuration à partir de serveurs internes.</p></li>
+<li><p>Vérifiez que les utilisateurs externes peuvent se connecter, y compris aux utilisateurs distants, aux utilisateurs des domaines fédérés, aux utilisateurs de messagerie instantanée publique et aux utilisateurs anonymes, en fonction de votre déploiement.</p></li>
+<li><p>Vérifier la configuration et la communication à l’aide de Lync Server Remote Connectivity Analyzer<a href="https://www.testocsconnectivity.com" class="uri">https://www.testocsconnectivity.com</a></p></li>
+<li><p>Résoudre les problèmes de configuration et de communication</p></li>
+</ol></td>
+<td><p>Pour la vérification de la réplication, du groupe <strong>RTCUniversalServerAdmins</strong> ou du compte d’utilisateur affecté au rôle <strong>CSAdministrator</strong></p>
 <p>Pour la vérification de la connectivité utilisateur, un utilisateur pour chaque type d’accès des utilisateurs externes que vous prenez en charge</p>
 <p>Utilisateurs distants</p></td>
-<td><p><a href="lync-server-2013-verifying-your-edge-deployment.md">Vérification de votre déploiement Edge dans Lync Server 2013</a> dans la documentation de déploiement</p></td>
+<td><p><a href="lync-server-2013-verifying-your-edge-deployment.md">Vérifier votre déploiement Edge dans Lync Server 2013</a> dans la documentation de déploiement</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

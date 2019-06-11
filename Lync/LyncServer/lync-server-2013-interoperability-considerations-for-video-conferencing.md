@@ -1,42 +1,87 @@
-﻿---
-title: Considérations relatives à l’interopérabilité pour les conférences vidéo
-TOCTitle: Considérations relatives à l’interopérabilité pour les conférences vidéo
-ms:assetid: 31ead3b5-ed95-42d4-96e2-7d9403d5c026
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204790(v=OCS.15)
-ms:contentKeyID: 49296802
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: considérations d’interopérabilité pour les conférences vidéo'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Interoperability considerations for video conferencing
+ms:assetid: 31ead3b5-ed95-42d4-96e2-7d9403d5c026
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204790(v=OCS.15)
+ms:contentKeyID: 48183782
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 880b2e41a1ea92b3d6da9cd29153695b474e88f7
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34830956"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Considérations relatives à l’interopérabilité pour les conférences vidéo
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-10-02_
+# <a name="interoperability-considerations-for-video-conferencing-in-lync-server-2013"></a>Considérations en matière d’interopérabilité pour les conférences vidéo dans Lync Server 2013
 
-Cette section décrit l’expérience utilisateur pendant la phase de coexistence de la migration, c’est-à-dire quand les clients hérités interagissent avec un pool Lync Server 2013 ou que les clients Lync Server 2013 interagissent avec un pool hérité.
+</div>
 
-## Pools Lync Server 2013
+<div id="mainSection">
 
-Les utilisateurs constatent le comportement suivant quand un client hérité est utilisé dans un pool Lync Server 2013 :
+<div id="mainBody">
 
-  - Pour les appels à deux, la résolution vidéo est la même que dans le pool hérité.
+<span> </span>
 
-  - Pour les conférences à plusieurs, la résolution vidéo et les fonctionnalités de vidéoconférence sont les mêmes que celles du pool hérité. La vue Galerie et la haute résolution ne sont pas disponibles.
+_**Dernière modification de la rubrique:** 2012-10-02_
 
-## Pools hérités
+Cette section décrit l’utilisation de l’application par l’utilisateur lors de la phase de coexistence de la migration, en cas d’interopérabilité entre les clients hérités et un pool Lync Server 2013 ou un serveur Lync Server 2013.
 
-Les utilisateurs constatent le comportement suivant quand un client Lync Server 2013 est utilisé dans un pool hérité :
+<div>
 
-  - Pour les appels à deux, les clients Lync Server 2013 peuvent utiliser les nouvelles fonctionnalités suivantes :
+## <a name="lync-server-2013-pools"></a>Pools Lync Server 2013
+
+Les utilisateurs peuvent observer le comportement suivant lorsqu’un client hérité est utilisé dans un pool Lync Server 2013:
+
+  - Pour les appels à deux participants, la résolution vidéo est identique à celle du pool hérité.
+
+  - Dans le cadre de conférences multiparties, les fonctionnalités de résolution vidéo et de visioconférence sont les mêmes que dans le pool hérité. Le mode Galerie et la haute résolution ne sont pas disponibles.
+
+</div>
+
+<div>
+
+## <a name="legacy-pools"></a>Pools hérités
+
+Les utilisateurs peuvent découvrir le comportement suivant lorsqu’un client Lync Server 2013 est utilisé dans un pool hérité:
+
+  - Pour les appels à deux parties, les clients Lync Server 2013 peuvent utiliser les nouvelles fonctionnalités comme suit:
     
-      - H.264 est disponible si les deux participants utilisent des clients Lync Server 2013.
+      - H. 264 est disponible si les deux participants utilisent les clients Lync Server 2013.
     
-      - Le client Lync Server 2013 utilise la valeur par défaut de TotalReceiveVideoBitRateKb, car le serveur hérité n’envoie pas ces informations avec la mise en service intrabande.
+      - Le client Lync Server 2013 utilise la valeur par défaut pour TotalReceiveVideoBitRateKb, car le serveur hérité n’envoie pas ces informations avec la mise en service intrabande.
 
-  - Pour les conférences à plusieurs, la résolution vidéo et les fonctionnalités de vidéoconférence sont les mêmes que celles d’un client hérité dans le pool hérité.
+  - Dans le cadre de conférences multipièces, les fonctionnalités de résolution vidéo et de visioconférence sont les mêmes que celles d’un client hérité dans le pool hérité.
+
+<div>
+
 
 > [!NOTE]  
-> Quand un serveur hérité héberge un client Lync Server 2013, il est possible de configurer la bande passante réservée à la vidéoconférence de sorte que tous les utilisateurs du pool ne reçoivent qu’une vidéo basse résolution mais puissent envoyer une vidéo haute résolution. Par exemple, la valeur de MaxVideoRateAllowed est CIF-250K dans la configuration multimédia et celle de VideoBitRateKb est 2 000 Kbits/s dans la stratégie de conférence, dans ce scénario, les utilisateurs du pool ne peuvent pas bénéficier d’une haute résolution.<br />
-MaxVideoRateAllowed n’étant plus utilisé pour les clients Lync Server 2013, il ne peut pas empêcher les clients Lync Server 2013 de demander des vidéos haute résolution. En revanche, vous pouvez affecter pour tous les utilisateurs du pool la même valeur à VideoBitRateKb et à MaxVideoRateAllowed (c’est-à-dire, CIF est défini sur 250 Kbits/s ou VGA est défini sur 600 Kbits/s ou HD est défini sur 1 500 Kbits/s).
+> Lorsqu’un serveur hérité héberge un client Lync Server 2013, il est possible de configurer une bande passante de conférence vidéo de sorte que tous les utilisateurs du pool reçoivent uniquement de la vidéo basse résolution, mais qu’ils envoient une vidéo haute résolution. C’est le cas, par exemple, lorsque MaxVideoRateAllowed est défini sur CAF-250K dans la configuration multimédia et VideoBitRateKb est défini sur 2000 KB/s dans la stratégie de conférence. Dans cette situation, l’effet net n’est pas possible pour les utilisateurs du pool.<BR>Étant donné que MaxVideoRateAllowed n’est plus utilisé pour les clients Lync Server 2013, il n’est pas possible d’empêcher les clients Lync Server 2013 de demander une vidéo haute résolution. Au lieu de cela, définissez VideoBitRateKb dans la stratégie de conférence pour que tous les utilisateurs du pool aient la même valeur que MaxVideoRateAllowed (c’est-à-dire que la valeur CAF est définie sur 250 kb/s, 600 ou la valeur HD est définie sur 1500 kb/s).
+
+
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+

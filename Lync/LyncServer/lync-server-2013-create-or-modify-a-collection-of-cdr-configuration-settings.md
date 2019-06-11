@@ -1,25 +1,45 @@
-﻿---
-title: "Créa. ou mo. d’une coll. de par. de con. de l’enr. des détails des appels"
-TOCtitle: "Créa. ou mo. d’une coll. de par. de con. de l’enr. des détails des appels"
-ms:assetid: c830be5a-2a82-468d-9c46-d3fec0f79fd0
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ721878(v=OCS.15)
-ms:contentKeyID: 49891538
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: création ou modification d’un ensemble de paramètres de configuration de CDR'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Create or modify a collection of CDR configuration settings
+ms:assetid: c830be5a-2a82-468d-9c46-d3fec0f79fd0
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721878(v=OCS.15)
+ms:contentKeyID: 49733812
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 44ec5383a8050370ba259350aed4528765838b47
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831811"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Création ou modification d’une collection de paramètres de configuration de l’enregistrement des détails des appels
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2015-03-09_
+# <a name="create-or-modify-a-collection-of-cdr-configuration-settings-in-lync-server-2013"></a>Créer ou modifier un ensemble de paramètres de configuration de CDR dans Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2013-02-23_
 
 L’enregistrement des détails des appels permet d’assurer le suivi des sessions de messagerie instantanée d’égal à égal, des appels téléphoniques VoIP (Voice over Internet Protocol) et des téléconférences. Ces données d’utilisation permettent de savoir qui appelle qui, à quelle heure et la durée de l’entretien.
 
-Quand vous installez Microsoft Lync Server 2013, une simple collection globale de paramètres de configuration d’enregistrement des détails des appels est automatiquement créée. Les administrateurs peuvent aussi créer des paramètres personnalisés sur l’étendue du site. Chaque fois que ces paramètres d’étendue de site sont utilisés, ils prennent la priorité sur les paramètres globaux. Par exemple, si vous créez des paramètres pour l’étendue du site de Redmond, ces paramètres (au lieu des paramètres globaux) servent alors à gérer l’enregistrement des détails des appels à Redmond.
+Lorsque vous installez Microsoft Lync Server 2013, une collection globale unique de paramètres de configuration CDR est créée pour vous. Les administrateurs peuvent aussi créer des paramètres personnalisés sur l’étendue du site. Chaque fois que ces paramètres d’étendue de site sont utilisés, ils prennent la priorité sur les paramètres globaux. Par exemple, si vous créez des paramètres pour l’étendue du site de Redmond, ces paramètres (au lieu des paramètres globaux) servent alors à gérer l’enregistrement des détails des appels à Redmond.
 
-Vous pouvez créer des paramètres de configuration d’enregistrement des détails des appels à l’aide du Panneau de configuration Lync Server ou de l’applet de commande [New-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsCdrConfiguration). Le Panneau de configuration Lync Server comme l’applet de commande [Set-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCdrConfiguration) permettent de modifier les paramètres. Si vous utilisez le Panneau de configuration Lync Server pour effectuer ces tâches, vous disposez alors des options suivantes :
+Vous pouvez créer des paramètres de configuration de CDR à l’aide du panneau de configuration de Lync Server ou de l’applet [de commande New-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsCdrConfiguration) . Vous pouvez utiliser le panneau de configuration de Lync Server ou l’applet de commande [Set-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsCdrConfiguration) pour modifier les paramètres existants. Si vous utilisez le panneau de configuration de Lync Server pour créer ou modifier des paramètres, les options suivantes sont disponibles:
 
 
 <table>
@@ -37,7 +57,7 @@ Vous pouvez créer des paramètres de configuration d’enregistrement des déta
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Name</p></td>
+<td><p>Nom</p></td>
 <td><p>Identity</p></td>
 <td><p>Identificateur unique pour les paramètres de configuration d’enregistrement des détails des appels créés. Ces paramètres peuvent uniquement être créés au niveau de l’étendue Site.</p></td>
 </tr>
@@ -65,48 +85,89 @@ Vous pouvez créer des paramètres de configuration d’enregistrement des déta
 </table>
 
 
+<div>
+
+
 > [!NOTE]  
-> Les applets de commande New-CsCdrConfiguration et Set-CsCdrConfiguration comprennent des options supplémentaires non disponibles dans le Panneau de configuration Lync Server. Pour plus d’informations, voir les rubriques d’aide <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsCdrConfiguration">New-CsCdrConfiguration</a> et <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCdrConfiguration">Set-CsCdrConfiguration</a>.
+> Les applets de commande New-CsCdrConfiguration et Set-CsCdrConfiguration incluent des options supplémentaires qui ne sont pas disponibles dans le panneau de configuration de Lync Server. Pour plus d’informations, reportez-vous à la rubrique <A href="https://docs.microsoft.com/powershell/module/skype/New-CsCdrConfiguration">nouvelle-CsCdrConfiguration</A> et aux rubriques d’aide de <A href="https://docs.microsoft.com/powershell/module/skype/Set-CsCdrConfiguration">Set-CsCdrConfiguration</A> .
 
-## Pour créer des paramètres de configuration d’enregistrements des détails des appels à l’aide du Panneau de configuration Lync Server
 
-1.  Dans le Panneau de configuration Lync Server, cliquez sur **Surveillance et archivage**.
 
-2.  Sous l’onglet **Enregistrement des détails des appels**, cliquez sur **Nouveau**.
+</div>
+
+<div>
+
+## <a name="to-create-cdr-configuration-settings-by-using-lync-server-control-panel"></a>Pour créer des paramètres de configuration de CDR en utilisant le panneau de configuration de Lync Server
+
+1.  Dans le panneau de configuration de Lync Server, cliquez sur **surveillance et archivage**.
+
+2.  Dans l’onglet **enregistrement des détails des appels** , cliquez sur **nouveau**.
 
 3.  Dans la boîte de dialogue **Sélectionner un site**, indiquez le site où les nouveaux paramètres de configuration doivent être créés. Si la boîte de dialogue est vide, cela indique qu’une collection de paramètres de configuration d’enregistrement des détails des appels a déjà été affectée à tous vos sites. Chaque site ne peut recevoir qu’une seule collection. Vous pouvez dans ce cas supprimer puis recréer les paramètres ou modifier simplement les paramètres existants.
 
 4.  Dans la boîte de dialogue **Nouveau paramètre d’enregistrement des détails des appels (CDR)**, sélectionnez les options voulues, puis cliquez sur **Valider**.
 
-## Pour modifier les paramètres de configuration d’enregistrements des détails des appels à l’aide du Panneau de configuration Lync Server
+</div>
 
-1.  Dans le Panneau de configuration Lync Server, cliquez sur **Surveillance et archivage**.
+<div>
 
-2.  Double-cliquez sur la collection de paramètres à modifier, ou sélectionnez la collection, cliquez sur **Modifier**, puis sur **Afficher les détails**. Sachez que vous ne pouvez modifier qu’une seule collection à la fois. Pour appliquer les mêmes modifications à plusieurs collections, faites appel à Lync Server Management Shell.
+## <a name="to-modify-existing-cdr-configuration-settings-by-using-lync-server-control-panel"></a>Pour modifier les paramètres de configuration de CDR existants en utilisant le panneau de configuration de Lync Server
+
+1.  Dans le panneau de configuration de Lync Server, cliquez sur **surveillance et archivage**.
+
+2.  Double-cliquez sur la collection de paramètres à modifier, ou sélectionnez la collection, cliquez sur **Modifier**, puis sur **Afficher les détails**. Sachez que vous ne pouvez modifier qu’une seule collection à la fois. Pour modifier plusieurs collections, utilisez plutôt Lync Server Management Shell.
 
 3.  Dans la boîte de dialogue **Modifier le paramètre de l’enregistrement des détails des appels**, sélectionnez les options voulues, puis cliquez sur **Valider**.
 
-## Pour créer des paramètres de configuration d’enregistrements des détails des appels à l’aide des applets de commande Lync Server Management Shell
+</div>
 
-Vous pouvez créer des paramètres de configuration d’enregistrement des détails des appels en utilisant Windows PowerShell et l’applet de commande **New-CsCdrConfiguration**. Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session à distance de Windows PowerShell. Pour plus de détails sur l’utilisation de Windows PowerShell à distance pour une connexion à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Démarrage rapide : Gestion de Microsoft Lync Server 2010 avec PowerShell à distance » à l’adresse [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+<div>
 
-## Pour créer une collection de paramètres de configuration d’enregistrement des détails des appels
+## <a name="creating-cdr-configuration-settings-by-using-windows-powershell-cmdlets"></a>Création de paramètres de configuration de CDR à l’aide d’applets de cmdlet Windows PowerShell
+
+Vous pouvez créer des paramètres de configuration de CDR en utilisant Windows PowerShell et l’applet **de nouvelle applet de nouveau-CsCdrConfiguration** . Vous pouvez exécuter cette applet de commande sur Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell».
+
+<div>
+
+## <a name="to-create-a-new-collection-of-cdr-configuration-settings"></a>Pour créer une collection de paramètres de configuration d’enregistrement des détails des appels
 
   - La commande crée une collection de paramètres de configuration pour l’enregistrement des détails des appels qui s’applique au site Redmond :
     
         New-CsCdrConfiguration -Identity "site:Redmond"
 
-## Pour créer une collection de paramètres de configuration d’enregistrement des détails des appels qui désactivent l’enregistrement des détails des appels
+</div>
+
+<div>
+
+## <a name="to-create-a-collection-of-cdr-configuration-settings-that-disable-call-detail-recording"></a>Pour créer une collection de paramètres de configuration d’enregistrement des détails des appels qui désactivent l’enregistrement des détails des appels
 
   - Comme aucun paramètre (autre que celui obligatoire sur l’identité) n’a été précisé dans la commande précédente, la nouvelle collection de paramètres de configuration utilise les valeurs par défaut pour toutes ses propriétés. Pour créer des paramètres qui font appel à d’autres valeurs de propriétés, incluez simplement le paramètre approprié et sa valeur. Par exemple, pour créer une collection de paramètres de configuration des détails des appels, l’autorisation de la désactivation de l’enregistrement des détails des appels fait appel par défaut à une commande comme celle-ci :
     
         New-CsCdrConfiguration -Identity "site:Redmond" -EnableCDR $False
 
-## Pour spécifier plusieurs valeurs de propriétés pendant la création d’une collection de paramètres de configuration d’enregistrement des détails des appels
+</div>
+
+<div>
+
+## <a name="to-specify-multiple-property-values-when-creating-a-new-collection-of-cdr-configuration-settings"></a>Pour spécifier plusieurs valeurs de propriétés pendant la création d’une collection de paramètres de configuration d’enregistrement des détails des appels
 
   - Vous pouvez modifier plusieurs valeurs de propriétés en incluant plusieurs paramètres. Par exemple, cette commande configure les nouveaux paramètres pour conserver les enregistrements des détails des appels pendant 30 jours et les rapports d’erreur 90 jours :
     
         New-CsCdrConfiguration -Identity "site:Redmond" -KeepCallDetailForDays 30 -KeepErrorReportForDays 90
 
-Pour plus d’informations, voir la rubrique d’aide de l’applet de commande [New-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsCdrConfiguration).
+</div>
+
+Pour plus d’informations, consultez la rubrique d’aide relative à l’applet de [nouvelle-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsCdrConfiguration) .
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

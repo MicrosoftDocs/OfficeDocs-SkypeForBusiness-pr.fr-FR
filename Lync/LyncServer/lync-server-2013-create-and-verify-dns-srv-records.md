@@ -1,87 +1,129 @@
-﻿---
-title: 'Lync Server 2013 : Création et vérification des enregistrements SRV DNS'
-TOCTitle: Création et vérification des enregistrements SRV DNS
-ms:assetid: 86888c7e-1401-458f-9a7b-08ac726deeec
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398680(v=OCS.15)
-ms:contentKeyID: 49297960
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Création et vérification des enregistrements SRV DNS'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Create and verify DNS SRV records
+ms:assetid: 86888c7e-1401-458f-9a7b-08ac726deeec
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398680(v=OCS.15)
+ms:contentKeyID: 48184714
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4a539b58abbad323aaf7c7343b40eabb49d04d91
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831855"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Création et vérification des enregistrements SRV DNS dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2013-02-21_
+# <a name="create-and-verify-dns-srv-records-in-lync-server-2013"></a>Création et vérification des enregistrements SRV DNS dans Lync Server 2013
 
-Pour effectuer correctement cette procédure, vous devez être connecté au serveur ou au domaine au moins en tant que membre du groupe Administrateurs du domaine ou du groupe DnsAdmins.
+</div>
 
-Cette rubrique explique comment configurer les enregistrements DNS que vous devez créer dans les déploiements Lync Server 2013, ainsi que ceux requis pour la connexion client automatique. Lorsque vous générez un pool de serveurs frontaux, le programme (d’installation créedes objets et paramètres Active Directory pour le pool, notamment le nom de domaine complet (FQDN) de ce dernier. Des objets et paramères similaires sont créés pour un serveur Standard Edition. Afin que les clients puissent se connecter au pool ou au serveur Standard Edition, le FQDN du pool ou du serveur Standard Edition doit être enregistré dans DNS. Vous devez créer des enregistrements SRV DNS sur votre serveur DNS interne pour chaque domaine SIP. Cette procédure suppose que ce serveur comporte plusieurs zones pour vos domaines d’utilisateurs SIP.
+<div id="mainSection">
 
-## Pour configurer un enregistrement DNS SRV
+<div id="mainBody">
 
-1.  Sur le serveur DNS, cliquez sur **Démarrer** , sur **Outils d’administration** , puis sur **DNS** .
+<span> </span>
 
-2.  Dans l’arborescence de la console pour votre domaine SIP, développez **Zones de recherche directes** , puis cliquez avec le bouton droit sur le domaine SIP dans lequel Lync Server 2013 sera installé.
+_**Dernière modification de la rubrique:** 2013-02-21_
 
-3.  Cliquez sur **Nouveaux enregistrements** .
+Pour effectuer cette procédure, vous devez être connecté au serveur ou au domaine au minimum en tant que membre du groupe administrateurs de domaine ou membre du groupe DnsAdmins.
 
-4.  Dans **Choisissez un type d’enregistrement de ressource** , cliquez sur **Emplacement du service (SRV)** , puis sur **Créer un enregistrement** .
+Cette rubrique décrit comment configurer les enregistrements DNS (Domain Name System) nécessaires à la création dans les déploiements Lync Server 2013 et ceux requis pour la connexion automatique du client. Lorsque vous créez un pool frontal, le programme d’installation crée des objets et des paramètres Active Directory pour le pool, y compris le nom de domaine complet (FQDN) du pool. Des objets et des paramètres similaires sont créés pour un serveur Standard Edition Server. Pour que les clients puissent se connecter au pool ou Standard Edition Server, le nom de domaine complet (FQDN) du pool ou du serveur Standard Edition doit être enregistré dans DNS. Vous devez créer des enregistrements DNS SRV dans votre DNS interne pour chaque domaine SIP. Cette procédure part du principe que votre DNS interne comporte des zones pour vos domaines d’utilisateur SIP.
 
-5.  Cliquez sur **Service** , puis tapez **\_sipinternaltls** .
+<div>
 
-6.  Cliquez sur **Protocole** , puis tapez **\_tcp** .
+## <a name="to-configure-a-dns-srv-record"></a>Pour configurer un enregistrement SRV DNS
 
-7.  Cliquez sur **Numéro de port** , puis tapez **5061** .
+1.  Sur le serveur DNS, cliquez sur **Démarrer**, sur **Outils d’administration**, puis sur **DNS**.
 
-8.  Cliquez sur **Hôte offrant ce service** , puis tapez le nom de domaine complet du pool ou du serveur Standard Edition.
+2.  Dans l’arborescence de la console de votre domaine SIP, développez **zones de recherche directe**, puis cliquez avec le bouton droit sur le domaine SIP sur lequel Lync Server 2013 sera installé.
 
-9.  Cliquez sur **OK** , puis sur **Terminé** .
+3.  Cliquez sur **nouveaux enregistrements**.
 
-## Pour vérifier la création d’un enregistrement DNS SRV
+4.  Dans **Choisissez un type d’enregistrement de ressource**, cliquez sur **Emplacement du service (SRV)**, puis sur **Créer un enregistrement**.
+
+5.  Cliquez sur **service**, puis tapez ** \_sipinternaltls**.
+
+6.  Cliquez sur **protocole**, puis tapez ** \_TCP**.
+
+7.  Cliquez sur **Numéro de port**, puis saisissez **5061**.
+
+8.  Cliquez sur **Hôte offrant ce service**, puis tapez le nom de domaine complet du pool ou du serveur en édition Standard.
+
+9.  Cliquez sur **OK**, puis sur **Terminé**.
+
+</div>
+
+<div>
+
+## <a name="to-verify-the-creation-of-a-dns-srv-record"></a>Pour vérifier la création d’un enregistrement SRV DNS
 
 1.  Ouvrez une session sur un ordinateur client du domaine dont le compte est membre du groupe Utilisateurs authentifiés ou qui dispose des autorisations équivalentes.
 
-2.  Cliquez sur **Démarrer** , puis sur **Exécuter** .
+2.  Cliquez sur **Démarrer **, puis sur **Exécuter **.
 
-3.  Dans la zone **Ouvrir** , tapez **cmd** , puis cliquez sur **OK** .
+3.  Dans la zone **ouvrir** , tapez **cmd**, puis cliquez sur **OK**.
 
-4.  Dans l’invite de commandes, tapez **nslookup** , puis appuyez sur Entrée.
+4.  À l’invite de commandes, tapez **nslookup**, puis appuyez sur entrée.
 
-5.  Tapez **set type=srv** , puis appuyez sur Entrée.
+5.  Tapez **Set type = SRV**, puis appuyez sur entrée.
 
-6.  Tapez **\_sipinternaltls.\_tcp.contoso.com** , puis appuyez sur Entrée. Le résultat obtenu pour l’enregistrement TLS (Transport Layer Security, sécurité de la couche de transport) est le suivant :
+6.  Tapez ** \_sipinternaltls.\_ tcp.contoso.com**, puis appuyez sur entrée. Le résultat affiché pour l’enregistrement TLS (Transport Layer Security) est le suivant:
     
-    Serveur : *\<serveur dns\>* .contoso.com
+    Serveur: \<DNS server\>. contoso.com
     
-    Adresse : *\<adresse IP du serveur DNS\>*
+    Adresse: \<adresse IP du serveur DNS\>
     
-    Réponse ne faisant pas autorité :
+    Réponse ne faisant pas autorité:
     
-    Emplacement du service SRV \_sipinternaltls.\_tcp.contoso.com :
+    \_sipinternaltls. \_emplacement du service SRV TCP.contoso.com:
     
-    priorité = 0
+    Priority = 0
     
-    poids = 0
+    épaisseur = 0
     
     port = 5061
     
-    nom d’hôte du serveur = nompool.contoso.com (ou enregistrement A du serveur Standard Edition)
+    SVR nom d’hôte = poolname.contoso.com (ou enregistrement d’un serveur Standard Edition)
     
-    poolname.contoso.com adresse internet = *\<adresse IP virtuelle de l’équilibreur de charge\>* ou *\<adresse IP d’un serveur Enterprise Edition pour les pools avec un serveur Enterprise Edition\>* ou *\<adresse IP du serveur Standard Edition\>*
+    poolname.contoso.com adresse Internet = \<adresse IP virtuelle de l’équilibrage de charge\> ou \<de l’adresse IP d’un serveur Enterprise Edition pour les pools avec un seul\> serveur \<Enterprise Edition ou une adresse IP du standard Serveur édition\>
 
-7.  Lorsque vous avez terminé, dans l’invite de commandes, tapez **exit** et appuyez sur Entrée.
+7.  Lorsque vous avez terminé, à l’invite de commandes, tapez **Exit**, puis appuyez sur entrée.
 
-## Pour vérifier que le nom de domaine complet du pool frontal ou du serveur Standard Edition peut être résolu
+</div>
 
-1.  Ouvrez une session sur un ordinateur client du domaine.
+<div>
 
-2.  Cliquez sur **Démarrer** , puis sur **Exécuter** .
+## <a name="to-verify-that-the-fqdn-of-the-front-end-pool-or-standard-edition-server-can-be-resolved"></a>Pour vérifier que le nom de domaine complet (FQDN) du pool frontal ou du serveur Standard Edition peut être résolu
 
-3.  Dans la zone **Ouvrir** , tapez **cmd** , puis cliquez sur **OK** .
+1.  Connectez-vous à un ordinateur client dans le domaine.
 
-4.  Dans l’invite de commandes, tapez **nslookup** *\<nom de domaine complet du pool frontal\>* ou *\<nom de domaine complet du serveur Standard Edition\>* et appuyez sur Entrée.
+2.  Cliquez sur **Démarrer **, puis sur **Exécuter **.
 
-5.  Vérifiez que vous recevez une réponse résolue en adresse IP appropriée pour le nom de domaine complet.
+3.  Dans la zone **ouvrir** , tapez **cmd**, puis cliquez sur **OK**.
+
+4.  À l’invite de commandes, tapez **nslookup** \<FQDN du pool\> frontal ou \<du FQDN du serveur\>Standard Edition, puis appuyez sur entrée.
+
+5.  Vérifiez que vous recevez une réponse qui est résolue en adresse IP appropriée pour le nom de domaine complet (FQDN).
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,44 +1,88 @@
-﻿---
-title: "Lync Server 2013 : Import. des cas de test de routage des comm. voc."
-TOCTitle: Importation des cas de test de routage des communications vocales
-ms:assetid: 6546e24c-9ad2-428b-92b2-63948ed0f884
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398460(v=OCS.15)
-ms:contentKeyID: 49297428
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Importation des cas de test de routage des communications vocales'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Import voice routing test cases
+ms:assetid: 6546e24c-9ad2-428b-92b2-63948ed0f884
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398460(v=OCS.15)
+ms:contentKeyID: 48184325
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: d8b1aba05447904d4515df7ab6137743edb52ea7
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831024"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Importation des cas de test de routage des communications vocales dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2013-02-21_
+# <a name="import-voice-routing-test-cases-in-lync-server-2013"></a>Importation des cas de test de routage des communications vocales dans Lync Server 2013
 
-Les cas de test vous permettent de tester les itinéraires des communications vocales dans votre organisation : vous devez pour cela définir le numéro à composer ainsi que le plan de numérotation et la stratégie de la voix à employer. Lync Server 2013 peut alors vérifier que, selon ces conditions, le numéro fourni peut être acheminé vers le réseau RTC.
+</div>
 
-Les cas de test, créés à l’aide du Panneau de configuration Lync Server, sont en général enregistrés uniquement sur le serveur où ils ont été créés et exécutés. Cependant, il est possible d’exporter ces cas de test sous forme de fichiers XML (avec l’extension .vtest) et de les importer sur d’autres serveurs. Vous pouvez ainsi exécuter les mêmes tests sur différents ordinateurs situés à différents endroits de votre topologie.
+<div id="mainSection">
 
-## Pour importer un cas de test de routage des communications vocales
+<div id="mainBody">
 
-1.  Ouvrez une session sur l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre du rôle CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Pour plus d’informations, voir [Délégation des autorisations de configuration dans Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+<span> </span>
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes de démarrage du Panneau de configuration Lync Server, voir [Ouvrir les outils d’administration Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+_**Dernière modification de la rubrique:** 2013-02-21_
+
+Les scénarios de test vous permettent de tester les itinéraires vocaux au sein de votre organisation: vous définissez des éléments tels que le numéro à composer, le plan de numérotation et la politique vocale, et Lync Server 2013 peut alors vérifier qu’il est possible d’utiliser le numéro fourni pour succes sfully être routé vers le réseau PSTN.
+
+Les cas de test, qui peuvent être créés à l’aide du panneau de configuration de Lync Server, sont généralement enregistrés uniquement sur le serveur où le cas a été créé et exécuté à l’origine. Toutefois, ces cas de test peuvent être exportés sous forme de fichiers XML (avec l’extension. vtest), puis importés sur d’autres serveurs. Cela vous permet d’exécuter les mêmes tests sur différents ordinateurs situés à différents endroits de votre topologie.
+
+<div>
+
+## <a name="to-import-a-voice-routing-test-case"></a>Pour importer un cas de test de routage vocal
+
+1.  Connectez-vous à l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre du rôle CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Pour plus d’informations, reportez-vous à la section [délégation des autorisations de configuration dans Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  Dans la barre de navigation de gauche, cliquez sur **Routage des communications vocales**.
 
-4.  Dans le menu **Actions**, cliquez sur **Importer des cas de test**.
+4.  Dans le menu **actions** , cliquez sur **Importer les cas de test**.
 
-5.  Recherchez le fichier de cas de test (.vtest) que vous voulez importer, puis cliquez sur **Ouvrir**.
+5.  Recherchez le fichier de cas de test (. vtest) que vous voulez importer, puis cliquez sur **ouvrir**.
 
-6.  Cliquez sur **Valider**, puis sur **Valider tout**.
+6.  Cliquez sur **Valider**, puis sur **Tout valider**.
     
+    <div>
+    
+
     > [!NOTE]  
-    > Chaque fois que vous importez un fichier .vtest, vous devez exécuter la commande <strong>Valider tout</strong> pour publier le cas de test. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publication des modifications en attente de la configuration du routage des communications vocales dans Lync Server 2013</a> dans la documentation des opérations.
+    > Chaque fois que vous importez un fichier. vtest, vous devez exécuter la commande <STRONG>valider tout</STRONG> pour publier le cas de test. Pour plus d’informations, reportez-vous <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">à la rubrique publier des modifications en attente sur la configuration de l’acheminement de la voix dans Lync Server 2013</A> dans la documentation
 
-## Voir aussi
+    
+    </div>
 
-#### Tâches
+</div>
 
-[Exportation des cas de test de routage des communications vocales dans Lync Server 2013](lync-server-2013-export-voice-routing-test-cases.md)
+<div>
+
+## <a name="see-also"></a>Voir aussi
+
+
+[Exportation des cas de test de routage des communications vocales dans Lync Server 2013](lync-server-2013-export-voice-routing-test-cases.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

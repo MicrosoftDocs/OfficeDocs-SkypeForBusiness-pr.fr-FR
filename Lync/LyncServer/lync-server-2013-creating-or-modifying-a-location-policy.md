@@ -1,107 +1,166 @@
-﻿---
-title: Création ou modification d’une stratégie d’emplacement
-TOCTitle: Création ou modification d’une stratégie d’emplacement
-ms:assetid: 10338418-4da4-42df-b231-f52098c08dae
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ687971(v=OCS.15)
-ms:contentKeyID: 49891234
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: création ou modification d’une stratégie d’emplacement'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Creating or modifying a location policy
+ms:assetid: 10338418-4da4-42df-b231-f52098c08dae
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687971(v=OCS.15)
+ms:contentKeyID: 49733557
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 173cfd6ce158a089e03a9eded12c3c6920183463
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831772"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Création ou modification d’une stratégie d’emplacement
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-11-01_
+# <a name="creating-or-modifying-a-location-policy-in-lync-server-2013"></a>Création ou modification d’une stratégie d’emplacement dans Lync Server 2013
 
-Dans Lync Server 2013, vous pouvez utiliser la stratégie d’emplacement pour appliquer des paramètres liés au système Enhanced 9-1-1 (E9-1-1) et des paramètres d’emplacement pour les utilisateurs et les contacts. La stratégie d’emplacement détermine si un utilisateur peut avoir recours au système E9-1-1 et, le cas échéant, le comportement d’un appel d’urgence. Par exemple, la stratégie d’emplacement permet de définir le numéro d’appel d’urgence (par exemple, 911 aux États-Unis, 15 en France), de déterminer si le service de sécurité de l’entreprise doit être automatiquement averti et comment l’appel doit être acheminé.
+</div>
 
-Vous pouvez configurer des stratégies d’emplacement depuis le groupe **Configuration réseau** dans le Panneau de configuration Lync Server 2013. Le Panneau de configuration Lync Server vous permet d’afficher, de créer, de modifier ou de supprimer des stratégies d’emplacement. Suivez les procédures indiquées dans cette section pour créer ou modifier une stratégie d’emplacement. Pour plus d’informations sur la suppression des stratégies d’emplacement, voir [Suppression d’une stratégie d’emplacement](lync-server-2013-deleting-a-location-policy.md).
+<div id="mainSection">
 
-Dans Lync Server 2013, vous pouvez remplacer la durée par défaut entre les demandes clientes pour la mise à jour de l’emplacement du service d’informations sur l’emplacement. La valeur par défaut s’élève à 4 heures. Utilisez l’applet de commande **Set-CsLocationPolicy** avec le paramètre LocationRefreshInterval pour remplacer la valeur par défaut.
+<div id="mainBody">
 
-## Pour créer une stratégie d’emplacement dans Panneau de configuration Lync Server
+<span> </span>
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou disposant des mêmes droits) ou affecté au rôle CsAdministrator, ouvrez une session sur un ordinateur qui se trouve sur votre déploiement interne.
+_**Dernière modification de la rubrique:** 2012-11-01_
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes de démarrage du Panneau de configuration Lync Server, voir [Ouvrir les outils d’administration Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+Dans Lync Server 2013, vous pouvez utiliser la stratégie d’emplacement pour appliquer les paramètres relatifs à la fonctionnalité améliorée 9-1-1 (E9-1-1) et aux paramètres d’emplacement des utilisateurs ou des contacts. La stratégie d’emplacement détermine si un utilisateur est activé pour E9-1-1 et, si oui, le comportement d’un appel d’urgence. Par exemple, vous pouvez utiliser la stratégie d’emplacement pour définir le numéro constituant un appel d’urgence (par exemple, 911 aux États-Unis), si la sécurité d’entreprise doit être automatiquement notifiée et la manière dont l’appel doit être routé.
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Configuration réseau**, puis sur **Stratégie d’emplacement**.
+Vous pouvez configurer des stratégies d’emplacement à partir du groupe de **Configuration réseau** dans Lync Server 2013 Control Panel. Le panneau de configuration de Lync Server vous permet d’afficher, de créer, de modifier ou de supprimer des stratégies d’emplacement. Pour créer ou modifier une stratégie d’emplacement, suivez les procédures décrites dans cette section. Pour plus d’informations sur la suppression de stratégies d’emplacement, voir [Suppression d’une stratégie d’emplacement dans Lync Server 2013](lync-server-2013-deleting-a-location-policy.md).
 
-4.  Dans la page **Stratégie d’emplacement**, cliquez sur **Nouveau**, puis sélectionnez le type de stratégie que vous souhaitez créer :
+Dans Lync Server 2013, vous pouvez remplacer la durée par défaut entre les demandes de client pour une mise à jour d’emplacement du service d’informations d’emplacement. La valeur par défaut est 4 heures. Utilisez l’applet de cmdlet **Set-CsLocationPolicy** avec le paramètre LocationRefreshInterval pour remplacer la valeur par défaut.
+
+<div>
+
+## <a name="to-create-a-new-location-policy-in-lync-server-control-panel"></a>Pour créer une nouvelle stratégie d’emplacement dans le panneau de configuration de Lync Server
+
+1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affectées au rôle CsAdministrator, connectez-vous à n’importe quel ordinateur dans votre déploiement interne.
+
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+
+3.  Dans la barre de navigation de gauche, cliquez sur **configuration du réseau** , puis sur **stratégie d’emplacement**.
+
+4.  Dans la page de **stratégie d’emplacement** , cliquez sur **nouveau** , puis sélectionnez le type de stratégie que vous voulez créer:
     
-      - Pour créer une stratégie de site, cliquez sur **Stratégie du site**. Dans **Sélectionner un site**, choisissez le site auquel vous souhaitez appliquer la stratégie et cliquez sur **OK**. Dans la page **Créer une stratégie d’emplacement**, le champ **Étendue** contient la valeur **Site** et le champ **Nom** contient le nom du site que vous avez choisi. Vous ne pouvez modifier aucun de ces champs. Une stratégie de site est automatiquement appliquée à tous les utilisateurs sur le site spécifié et remplace la stratégie globale qui leur était appliquée.
+      - Pour créer une stratégie de site, cliquez sur **stratégie de site**. Dans **Sélectionner un site**, sélectionnez le site auquel vous voulez appliquer la stratégie, puis cliquez sur **OK**. Dans la page **nouvelle stratégie d’emplacement** , le champ **étendue** contient la valeur **site**et le champ **nom** contient le nom du site que vous avez choisi. Vous ne pouvez pas modifier l’un de ces champs. Une stratégie de site est appliquée automatiquement à tous les utilisateurs du site spécifié et remplace la politique globale de ces utilisateurs.
     
-      - Pour créer une **stratégie de l’utilisateur**, cliquez sur **Stratégie de l’utilisateur**. Dans la page **Créer une stratégie d’emplacement**, le champ **Étendue** contient la valeur **Utilisateur**. Vous ne pouvez pas modifier cette valeur. Dans le champ **Nom**, tapez le nom que vous souhaitez donner à cette stratégie. Une stratégie de l’utilisateur ne s’applique pas automatiquement aux utilisateurs. Après avoir créé la stratégie de l’utilisateur, vous devez manuellement octroyer la stratégie aux utilisateurs ou aux sites réseau auxquels vous souhaitez que la stratégie s’applique.
+      - Pour créer une **stratégie d’utilisateur**, cliquez sur stratégie de l' **utilisateur**. Dans la **nouvelle stratégie d’emplacement**, le champ **étendue** contient la valeur **utilisateur**. Vous ne pouvez pas modifier cette valeur. Dans le champ **nom** , entrez le nom que vous souhaitez attribuer à cette stratégie. Une stratégie d’utilisateur ne s’applique pas automatiquement à tous les utilisateurs. Après la création de la stratégie de l’utilisateur, vous devez l’octroyer manuellement aux utilisateurs ou aux sites du réseau auxquels vous voulez appliquer la stratégie.
 
-5.  Renseignez les champs restants, comme suit :
+5.  Complétez les champs restants comme suit:
     
-      - **Activer les services d’urgence avancés**   Activez cette case à cocher pour activer ces services pour les utilisateurs associés à la stratégie relative au système E9-1-1. Lorsque les services d’urgence sont activés, les clients Lync Server récupèrent les informations d’emplacement lors de leur inscription à un emplacement et incluent ces informations lors de la réception d’un appel d’urgence.
+      - **Activer les services**   d’urgence améliorés activez cette case à cocher pour autoriser les utilisateurs associés à cette stratégie pour E9-1-1. Lorsque les services d’urgence sont activés, les clients du serveur Lync récupèrent les informations d’emplacement lors de l’inscription et incluent ces informations lors de l’appel d’urgence.
     
-      - **Emplacement**   Spécifiez l’une des valeurs suivantes :
+      - **Emplacement**   spécifiez l’une des valeurs suivantes:
         
-          - **Requis**   L’utilisateur est invité à fournir des informations sur l’emplacement lorsque le client s’inscrit à un nouvel emplacement. L’utilisateur peut ignorer l’invite sans fournir aucune information. S’il fournit des informations, le fournisseur de services d’urgence répond d’abord à l’appel d’urgence pour vérifier l’emplacement, puis l’appel est transmis à l’opérateur du centre d’appels de la sécurité publique (c’est-à-dire l’opérateur des services d’urgence).
+          - **Requis**   l’utilisateur est invité à entrer les informations d’emplacement lorsque le client s’inscrit à un nouvel emplacement. L’utilisateur peut ignorer l’invite sans entrer d’information. Si les informations sont entrées, un appel d’urgence est d’abord traité par le fournisseur de services d’urgence pour vérifier l’emplacement avant d’être routé vers l’opérateur de sécurité publique (PSAPI) (c’est-à-dire, l’opérateur 911).
         
-          - **Non requis**   L’utilisateur n’est pas invité à saisir un emplacement. Lorsqu’un appel est effectué sans informations d’emplacement, le fournisseur de services d’urgence y répond et demande qu’un emplacement lui soit indiqué.
+          - **Non requis**   l’utilisateur n’est pas invité à entrer un emplacement. Lorsqu’un appel est effectué sans informations d’emplacement, le prestataire de services d’urgence répond à l’appel et demande un emplacement.
         
-          - **Clause d’exclusion de responsabilité**   Cette option est la même que **Requis** sauf que l’utilisateur ne peut pas ignorer l’invite sans fournir des informations sur l’emplacement. L’utilisateur peut toujours appeler les services d’urgence, mais aucun autre appel ne peut être passé sans fournir les informations. De plus, un texte d’exclusion s’affiche pour informer l’utilisateur des conséquences du refus de fournir des informations sur l’emplacement. Pour définir le texte d’exclusion de responsabilité, vous devez utiliser Lync Server Management Shell pour exécuter l’applet de commande **Set-CsLocationPolicy** ou l’applet de commande **New-CsLocationPolicy** avec le paramètre EnhancedEmergencyServiceDisclaimer. Pour plus d’informations, voir [Set-CsLocationPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsLocationPolicy) ou [New-CsLocationPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsLocationPolicy) dans la documentation de Lync Server Management Shell.
+          - **Exclusion de responsabilité**   cette option est identique à la **condition requise** , sauf que l’utilisateur ne peut pas ignorer l’invite sans entrer d’informations d’emplacement. L’utilisateur peut toujours terminer un appel d’urgence, mais aucun autre appel ne peut être effectué sans entrer les informations. De plus, le texte de renonciation est affiché à l’utilisateur qui peut les informer des conséquences du refus d’entrer les informations d’emplacement. Pour définir le texte de l’exclusion de responsabilité, vous devez utiliser Lync Server Management Shell pour exécuter l’applet de cmdlet **Set-CsLocationPolicy** ou l’applet de **nouvelle-CsLocationPolicy** avec le paramètre EnhancedEmergencyServiceDisclaimer. Pour plus d’informations, consultez la rubrique [Set-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsLocationPolicy) ou [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsLocationPolicy) dans la documentation Lync Server Management Shell.
             
+            <div>
+            
+
             > [!NOTE]  
-            > Dans Lync Server 2013, vous pouvez utiliser la stratégie d’emplacement pour définir différentes clauses d’exclusion pour différents paramètres régionaux ou différents ensembles d’utilisateurs, contrairement à Lync Server 2010 où vous ne pouviez spécifier qu’une clause d’exclusion globale pour toute l’organisation.    
-      - **Utiliser l’emplacement pour les services d’urgence uniquement**   Lync peut utiliser les informations d’emplacement pour diverses raisons (par exemple, pour indiquer votre emplacement à vos collègues). Activez cette case à cocher pour que les informations sur l’emplacement soient uniquement disponibles lors d’un appel d’urgence.
+            > Dans Lync Server 2013, vous pouvez utiliser la stratégie d’emplacement pour définir différents types de renonciation pour différentes régions ou ensembles d’utilisateurs différents, à la différence de Lync Server 2010, dans lequel vous pouvez spécifier uniquement une exclusion de responsabilité globale pour l’ensemble de l’organisation.
+
+            
+            </div>
     
-      - **Utilisation PSTN**   Réseau téléphonique commuté public qui permettra de déterminer l’itinéraire des communications vocales afin de router les appels d’urgence des clients à l’aide de ce profil. L’itinéraire associé à cette utilisation doit pointer sur une jonction SIP dédiée aux appels d’urgence ou à une passerelle ELIN (Emergency Location Identification Number) qui route les appels d’urgence vers le centre téléphonique de sécurité publique (Public Safety Answering Point ou PSAP) le plus proche.
+      - **Utiliser le emplacement pour les services d’urgence seule**   Lync peut utiliser les informations de géolocalisation pour différentes raisons (par exemple, pour informer les membres de votre emplacement actuel). Activez cette case à cocher pour vous assurer que les informations d’emplacement ne sont disponibles que pour les appels d’urgence.
     
-      - **Numéro d’urgence**   Numéro qui est composé pour joindre les services d’urgence. Aux États-Unis il s’agit du 911. La chaîne doit être composée des chiffres 0 à 9 et peut avoir une longueur comprise entre 1 et 10 chiffres.
+      - **Utilisation PSTN utilisation**   de réseau téléphonique commuté (PSTN) qui sera utilisée pour déterminer le numéro de téléphone à utiliser pour diriger les appels d’urgence de clients à l’aide de ce profil. L’itinéraire associé à cette utilisation doit pointer vers un Trunk SIP dédié aux appels d’urgence ou à une passerelle ELIN (Emergency Identification Number) qui route les appels d’urgence vers le point de réponse de sécurité publique le plus proche (PSAPI).
     
-      - **Masque de numéro d’urgence**   Numéro que vous voulez traduire en valeur de numéro d’urgence lorsqu’il est composé. Par exemple, si vous entrez 212 dans ce champ et si la valeur du champ Numéro d’urgence est 911, le numéro appelé sera le 911 si un utilisateur compose le 212. Cela permet de composer d’autres numéros d’urgence et de pouvoir joindre quand même les services d’urgence (par exemple, si une personne provenant d’un pays où le numéro d’urgence est différent tente de composer ce numéro au lieu du numéro du pays dans lequel elle se trouve actuellement). Vous pouvez définir plusieurs masques d’appel d’urgence en séparant les valeurs par des points-virgules. Par exemple, 212;414. La longueur maximale de la chaîne est 100 caractères. Chaque caractère doit être un chiffre compris entre 0 et 9.
+      - **Numéro**   de téléphone d’urgence le numéro numéroté pour joindre les services d’urgence. Aux États-Unis, cette valeur est 911. La chaîne doit être effectuée sur les chiffres 0 à 9 et comporter entre 1 et 10 chiffres.
+    
+      - **Masque**   de numérotation d’urgence il s’agit d’un numéro que vous souhaitez traduire en valeur de la valeur numéro de téléphone d’urgence lors de la numérotation. Par exemple, si vous entrez une valeur 212 dans ce champ et que le champ numéro de téléphone d’urgence a la valeur 911, si un utilisateur compose le numéro 212, l’appel est effectué sur 911. Cela permet d’appeler d’autres numéros d’urgence et de toujours avoir accès aux services d’urgence (par exemple, si un membre d’un pays ou d’une région dont le numéro de téléphone est différent pour composer le numéro de votre pays ou de votre région, et non le numéro de la pays ou région dans lequel ils se trouvent actuellement). Vous pouvez définir plusieurs masques de numérotation d’urgence en séparant les valeurs par des points-virgules. Par exemple, 212; 414. La longueur maximale de la chaîne est de 100 caractères. Chaque caractère doit être un chiffre compris entre 0 et 9.
         
+        <div>
+        
+
         > [!IMPORTANT]  
-        > Assurez-vous que la valeur du masque d’appel n’est pas identique à un numéro figurant dans une plage de numéros d’appels parqués. Le routage du parcage d’appels aura priorité sur la conversion des chaînes d’appel d’urgence. Pour afficher les plages de numéros d’appels parqués, cliquez sur <strong>Fonctionnalités vocales</strong> dans la barre de navigation de gauche, puis cliquez sur <strong>Parcage d’appel</strong>. Pour plus d’informations, voir <a href="lync-server-2013-configure-phone-number-extensions-for-parking-calls.md">Configurer les extensions de numéro de téléphone pour le parcage d’appel</a>.    
-      - **URI de notification**   Un ou plusieurs URI (Uniform Resource Identifier) SIP à notifier lorsqu’un appel d’urgence est passé. Par exemple, le service de sécurité de l’entreprise peut être notifié par un message instantané pour chaque appel d’urgence. Si l’emplacement de l’appelant est disponible, cet emplacement sera inclus dans la notification. Plusieurs URI SIP peuvent être insérés dans une liste dans laquelle ils sont séparés par des virgules. Par exemple, « sip:security@litwareinc.com »,« sip:kmyer@litwareinc.com ». Les listes de distribution sont prises en charge. La chaîne doit comporter entre 1 et 256 caractères et commencer par le préfixe « sip: ». Avant que vous ne cliquiez dans le champ URI de notification un exemple est affiché.
-    
-      - **URI de la conférence**   URI SIP, dans ce cas le numéro de téléphone d’une tierce personne qui sera invitée à participer aux appels d’urgence. Par exemple, le service de sécurité de l’entreprise peut recevoir un appel l’invitant à écouter ou à participer à un appel d’urgence (en fonction de la valeur fournie dans le champ **Mode conférence**). La chaîne doit comporter entre 1 et 256 caractères et commencer par le préfixe sip:. Un exemple est affiché avant que vous ne cliquiez dans ce champ.
-    
-      - **Mode conférence**   Si vous spécifiez une valeur dans le champ **URI de la conférence**, le **mode conférence** détermine si une tierce personne peut participer à l’appel d’urgence ou seulement l’écouter. Spécifiez une des options suivantes :
+        > Assurez-vous que la valeur de masque de numérotation spécifiée n’est pas identique à un nombre dans une plage de stationnement d’appel. Le routage du parc d’appels est prioritaire par rapport à la conversion des chaînes de numérotation d’urgence. Pour afficher les plages d’orbites du parc d’appels, cliquez sur <STRONG>fonctionnalités vocales</STRONG> dans la barre de navigation gauche, puis cliquez sur <STRONG>parc d’appels</STRONG>. Pour plus d’informations, reportez-vous à <A href="lync-server-2013-configure-phone-number-extensions-for-parking-calls.md">configurer les extensions de numéro de téléphone pour les appels de parking dans Lync Server 2013</A>.
+
         
-          - **Unidirectionnel**   La personne tierce peut uniquement écouter la conversation entre l’appelant et l’opérateur du centre d’appels de la sécurité publique.
+        </div>
+    
+      - **URI de notification URI**   (Uniform Resource Identifiers) SIP pour être averti en cas d’appel d’urgence. Par exemple, le Bureau de sécurité de la société peut être notifié par un message instantané dès qu’un appel d’urgence est effectué. Si l’emplacement de l’appelant est disponible, il sera inclus dans la notification. Plusieurs URI SIP peuvent être inclus en tant que liste séparée par des virgules. Par exemple, «SIP: security@litwareinc.com», «SIP: kmyer@litwareinc.com». Les listes de distribution sont prises en charge. La chaîne doit contenir entre 1 et 256 caractères et doit commencer par le préfixe «SIP:». Avant de cliquer dans le champ URI de notification, un exemple s’affiche.
+    
+      - **URI de conférence**   il s’agit du numéro de téléphone d’un fournisseur de services de conférence rendez-vous pour les appels d’urgence. Par exemple, le Bureau de sécurité de la société peut recevoir un appel lors de la mise en place d’un appel d’urgence et écouter ou participer à cet appel (en fonction de la valeur fournie dans le champ **mode de conférence** ). La chaîne doit avoir entre 1 et 256 caractères de longueur et doit commencer par le préfixe SIP:. Un exemple s’affiche jusqu’à ce que vous cliquiez dans ce champ.
+    
+      - **Mode**   Conférence si vous spécifiez une valeur dans le champ **URI de conférence** , le **mode conférence** détermine si une tierce personne peut participer à l’appel ou si elle peut uniquement écouter. Spécifiez l’une des options suivantes:
         
-          - **Bidirectionnel**   Une tierce personne peut écouter et participer à l’appel entre l’appelant et l’opérateur du centre d’appels de la sécurité publique.
+          - **** Une personne tierce peut écouter uniquement la conversation entre l’appelant et l’opérateur PSAPI.   
+        
+          - **Deux sens**   de la partie tierce peuvent écouter l’appel et y participer entre l’appelant et l’opérateur PSAPI.
 
 6.  Cliquez sur **Valider**.
     
+    <div>
+    
+
     > [!IMPORTANT]  
-    > Lorsque vous créez une stratégie utilisateur, cette stratégie ne s’applique initialement à aucun utilisateur ou site réseau. Pour appliquer la stratégie à un utilisateur, cliquez sur <strong>Utilisateurs</strong> dans la barre de navigation de gauche. Recherchez l’utilisateur auquel vous souhaitez appliquer la stratégie. Dans le menu <strong>Edition</strong>, cliquez sur <strong>Afficher les détails</strong>. Dans la page <strong>Modifier l’utilisateur Lync Server</strong>, sélectionnez la nouvelle stratégie d’emplacement dans la liste déroulante <strong>Stratégie d’emplacement</strong>, puis cliquez sur <strong>Valider</strong>.<br />
-    Pour appliquer la stratégie à un site réseau, cliquez sur <strong>Configuration réseau</strong> dans la barre de navigation de gauche et cliquez sur <strong>Site</strong>. Recherchez le site réseau auquel vous souhaitez appliquer la stratégie. Dans le menu <strong>Edition</strong>, cliquez sur <strong>Afficher les détails</strong>. Dans <strong>Modifier le site</strong>, sélectionnez la nouvelle stratégie d’emplacement dans la liste déroulante <strong>Stratégie d’emplacement?</strong>, puis cliquez sur <strong>Valider</strong>.
+    > Lorsque vous créez une stratégie d’utilisateur, elle ne s’applique initialement à aucun utilisateur ou site réseau. Pour appliquer la stratégie à un utilisateur, cliquez sur <STRONG>utilisateurs</STRONG> dans la barre de navigation gauche. Recherchez l’utilisateur auquel vous voulez appliquer la stratégie. Dans le menu <STRONG>Edition</STRONG>, cliquez sur <STRONG>Afficher les détails</STRONG>. Dans la page <STRONG>modifier l’utilisateur de Lync Server</STRONG> , sélectionnez la nouvelle stratégie d’emplacement dans la liste déroulante <STRONG>stratégie d’emplacement</STRONG> , puis cliquez sur <STRONG>valider</STRONG>.<BR>Pour appliquer la stratégie à un site réseau, cliquez sur <STRONG>configuration du réseau</STRONG> dans la barre de navigation gauche, puis cliquez sur <STRONG>site</STRONG>. Recherchez le site réseau auquel vous voulez appliquer la stratégie. Dans le menu <STRONG>Edition</STRONG>, cliquez sur <STRONG>Afficher les détails</STRONG>. Dans <STRONG>modifier le site</STRONG>, sélectionnez la nouvelle stratégie d’emplacement dans la liste déroulante <STRONG>stratégie d’emplacement</STRONG> , puis cliquez sur <STRONG>valider</STRONG>.
 
-## Pour modifier une stratégie d’emplacement dans Panneau de configuration Lync Server
+    
+    </div>
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou disposant des mêmes droits) ou affecté au rôle CsAdministrator, ouvrez une session sur un ordinateur qui se trouve sur votre déploiement interne.
+</div>
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes de démarrage du Panneau de configuration Lync Server, voir [Ouvrir les outils d’administration Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+<div>
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Configuration réseau**, puis sur **Stratégie d’emplacement**.
+## <a name="to-modify-a-location-policy-in-lync-server-control-panel"></a>Pour modifier une stratégie d’emplacement dans le panneau de configuration de Lync Server
 
-4.  Dans la page **Stratégie d’emplacement**, sélectionnez la stratégie d’emplacement que vous souhaitez modifier.
+1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affectées au rôle CsAdministrator, connectez-vous à n’importe quel ordinateur dans votre déploiement interne.
+
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+
+3.  Dans la barre de navigation de gauche, cliquez sur **configuration du réseau** , puis sur **stratégie d’emplacement**.
+
+4.  Dans la page de **stratégie d’emplacement** , sélectionnez la stratégie d’emplacement que vous voulez modifier.
 
 5.  Dans le menu **Edition**, cliquez sur **Afficher les détails**.
 
-6.  Dans la page **Modifier la stratégie d’emplacement**, modifiez les champs comme il convient (pour plus d’informations, voir l’étape 5 dans la procédure de création d’une stratégie d’emplacement plus haut dans cette rubrique).
+6.  Dans la page **modifier la stratégie d’emplacement** , modifiez les champs comme vous le souhaitez (pour plus d’informations, reportez-vous à l’étape 5 de la section «pour créer une stratégie d’emplacement» plus haut dans cette rubrique).
 
 7.  Cliquez sur **Valider**.
 
-## Voir aussi
+</div>
 
-#### Tâches
+<div>
 
-[Suppression d’une stratégie d’emplacement](lync-server-2013-deleting-a-location-policy.md)  
+## <a name="see-also"></a>Voir aussi
 
-#### Concepts
+
+[Suppression d’une stratégie d’emplacement dans Lync Server 2013](lync-server-2013-deleting-a-location-policy.md)  
+
 
 [Définition de la stratégie d’emplacement pour Lync Server 2013](lync-server-2013-defining-the-location-policy.md)  
 
-#### Autres ressources
 
-[Configurer les extensions de numéro de téléphone pour le parcage d’appel](lync-server-2013-configure-phone-number-extensions-for-parking-calls.md)
+[Configurer les extensions de numéro de téléphone pour les appels de parking dans Lync Server 2013](lync-server-2013-configure-phone-number-extensions-for-parking-calls.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

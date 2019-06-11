@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013 : Rapport de périphérique'
-TOCTitle: Rapport de périphérique
-ms:assetid: f42e4d60-699b-4870-8bb5-13b51bb6eb2b
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg615049(v=OCS.15)
-ms:contentKeyID: 49299359
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: rapport sur les appareils'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Device Report
+ms:assetid: f42e4d60-699b-4870-8bb5-13b51bb6eb2b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615049(v=OCS.15)
+ms:contentKeyID: 48185807
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e172837622c4ad40a29cca74dcaf42497c4b2bd5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831448"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Rapport de périphérique dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2015-03-09_
+# <a name="device-report-in-lync-server-2013"></a>Rapport sur les appareils dans Lync Server 2013
 
-Le Rapport de périphérique devrait plutôt s’appeler le Rapport de microphone et de haut-parleurs : en effet, le Rapport de périphérique récupère toutes les mesures de l’appel (comme le pourcentage d’appels médiocres, les échos et la durée du basculement vocal) regroupées par les microphones et les haut-parleurs utilisés pendant l’appel. Si les téléphones IP (connus sous le nom de « périphériques ») vous intéressent, utilisez plutôt le [Rapport d’inventaire de téléphonie IP dans Lync Server 2013](lync-server-2013-ip-phone-inventory-report.md).
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2013-11-12_
+
+Le Rapport de périphérique devrait plutôt s’appeler le Rapport de microphone et de haut-parleurs : en effet, le Rapport de périphérique récupère toutes les mesures de l’appel (comme le pourcentage d’appels médiocres, les échos et la durée du basculement vocal) regroupées par les microphones et les haut-parleurs utilisés pendant l’appel. Si vous êtes intéressé par les téléphones IP (également appelés «périphériques»), utilisez plutôt le [rapport d’inventaire téléphonique IP dans Lync Server 2013](lync-server-2013-ip-phone-inventory-report.md) .
 
 Le rapport de périphérique est très utile pour les administrateurs souhaitant déterminer si un type d’appareil spécifique rencontre un plus grand nombre d’appels médiocres que d’autres appareils. Ce rapport pourrait, à son tour, influencer les décisions que vous devez prendre au moment de l’achat de nouveaux périphériques ou du remplacement des périphériques existants.
 
@@ -105,21 +125,27 @@ Si vous préférez consulter les totaux combinés d’un périphérique donné (
 </table>
 
 
-## Accès au rapport de périphérique
+<div>
 
-Normalement, vous pouvez accéder au rapport de périphérique à partir de la page d’accueil Rapports de surveillance. Cependant, si vous affichez le [Rapport détaillé des appels dans Lync Server 2013](lync-server-2013-call-detail-report.md) vous pouvez afficher les détails du rapport de périphérique pour un périphérique spécifique en cliquant sur l’une des mesures suivantes :
+## <a name="accessing-the-device-report"></a>Accès au rapport de périphérique
+
+Normalement, vous pouvez accéder au rapport de périphérique à partir de la page d’accueil Rapports de surveillance. Toutefois, si vous affichez le [rapport Détails des appels dans Lync Server 2013](lync-server-2013-call-detail-report.md) , vous pouvez explorer le rapport sur les appareils pour un appareil spécifique en cliquant sur l’une des mesures suivantes:
 
   - Périphérique de capture
 
   - Périphérique de rendu
 
-Depuis le rapport de périphérique, vous pouvez accéder au [Rapport de la liste d’appels dans Lync Server 2013](lync-server-2013-call-list-report.md) en cliquant sur l’une des mesures suivantes :
+À partir de l’appareil, vous pouvez explorer le [rapport de la liste d’appels dans Lync Server 2013](lync-server-2013-call-list-report.md) en cliquant sur l’une des mesures suivantes:
 
   - Volume d’appels
 
   - Pourcentage d’appels médiocres
 
-## Utilisation optimale du rapport de périphériques
+</div>
+
+<div>
+
+## <a name="making-the-best-use-of-the-device-report"></a>Utilisation optimale du rapport de périphériques
 
 Pour ce qui est des noms de périphériques, le rapport de périphérique est extrêmement détaillé : par exemple, supposons que vous ayez les périphériques de capture suivants :
 
@@ -129,7 +155,7 @@ Pour ce qui est des noms de périphériques, le rapport de périphérique est ex
 
   - Microphone Aastra 3002 (Aastra 3002)
 
-  - Aastra 6725ip
+  - Aastra 6725ip
 
   - Microphone Aastra 6725ip (10- Aastra 6725ip)
 
@@ -159,10 +185,17 @@ Pour ce qui est des noms de périphériques, le rapport de périphérique est ex
 
   - Microphone Aastra 6725ip (périphérique audio USB)-V0
 
-> [!NOTE]  
-> N’oubliez pas que les noms de périphériques de capture peuvent différer si vous exécutez des versions localisées de Lync Server 2013. Un périphérique nommé Microphone Aastra 6725ip (Aastra 6725ip)-V0 en FR français peut être nommé différemment en français ou en espagnol.
+<div>
 
-Il est possible que vous souhaitiez ce niveau de détail à plusieurs reprises ; cependant, la plupart du temps, vous serez probablement uniquement intéressé par le nombre d’appels utilisant n’importe quel microphone Aastra, indépendamment du numéro du modèle. Pour obtenir ce genre d’informations, exportez les données du Rapport de périphérique dans Microsoft Excel et enregistrez ces données sous la forme d’une chaîne de valeurs séparées par des virgules (par exemple, C:\\Data\\Rapport\_périphériques.csv). Vous pouvez ensuite utiliser un ensemble de commandes similaires à celles-ci pour importer le fichier .CSV dans Windows PowerShell et renvoyer le nombre d’appels effectués en utilisant un périphérique de capture Aastra :
+
+> [!NOTE]  
+> Gardez à l’esprit que les noms de périphériques de capture peuvent ne pas être les mêmes si vous exécutez des versions localisées de Lync Server 2013. Un périphérique nommé Microphone Aastra 6725ip (Aastra 6725ip)-V0 en FR français peut être nommé différemment en français ou en espagnol.
+
+
+
+</div>
+
+Il est possible que vous souhaitiez ce niveau de détail à plusieurs reprises ; cependant, la plupart du temps, vous serez probablement uniquement intéressé par le nombre d’appels utilisant n’importe quel microphone Aastra, indépendamment du numéro du modèle. Pour obtenir des informations, vous pouvez notamment exporter les données du rapport d’appareil vers Microsoft Excel, puis les enregistrer dans un fichier de valeurs séparées par des virgules (par exemple\\,\\C\_: Data Devices. csv). Vous pouvez ensuite utiliser un ensemble de commandes similaires à celles-ci pour importer le fichier .CSV dans Windows PowerShell et renvoyer le nombre d’appels effectués en utilisant un périphérique de capture Aastra :
 
     $devices = Import-Csv "C:\Data\Device_Report.csv
     $sum = $devices | Where-Object {$_."Capture device" -match "Aastra"}
@@ -173,13 +206,17 @@ Cela va renvoyer une valeur unique représentant le nombre d’appels effectués
 
     384
 
-## Filtres
+</div>
+
+<div>
+
+## <a name="filters"></a>Filtres
 
 Les filtres vous offrent la possibilité de renvoyer un ensemble de données mieux ciblées ou de visualiser les données renvoyées de différentes manières. Par exemple, le rapport de périphérique vous permet de filtrer des éléments comme le type d’appel, c’est-à-dire s’il s’agissait d’un appel client, d’une téléconférence ou d’un appel du réseau téléphonique commuté (RTC). Vous pouvez également choisir le mode de groupement des données. Dans ce cas, les périphériques sont groupés par heure, jour, semaine ou mois.
 
 Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le rapport de périphérique.
 
-### Filtres du rapport de périphérique
+### <a name="device-report-filters"></a>Filtres du rapport de périphérique
 
 <table>
 <colgroup>
@@ -196,9 +233,9 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 <tr class="odd">
 <td><p><strong>De</strong></p></td>
 <td><p>Date/heure de début de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de début comme suit :</p>
-<p>07/07/2012 13:00</p>
+<p>7/7/2012 1:00 PM</p>
 <p>Si vous ne précisez aucune heure de début, le rapport commence automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :</p>
-<p>07/07/2012</p>
+<p>7/7/2012</p>
 <p>Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :</p>
 <p>7/3/2012</p>
 <p>Les semaines s’étalent toujours du dimanche au samedi.</p></td>
@@ -206,9 +243,9 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 <tr class="even">
 <td><p><strong>À</strong></p></td>
 <td><p>Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :</p>
-<p>07/07/2012 13:00</p>
+<p>7/7/2012 1:00 PM</p>
 <p>Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :</p>
-<p>07/07/2012</p>
+<p>7/7/2012</p>
 <p>Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :</p>
 <p>7/3/2012</p>
 <p>Les semaines s’étalent toujours du dimanche au samedi.</p></td>
@@ -350,21 +387,25 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 </tr>
 <tr class="even">
 <td><p><strong>Nom du périphérique</strong></p></td>
-<td><p>Nom du périphérique de capture ou de rendu. Vous pouvez entrez le nom complet du périphérique ou seulement une partie. Par exemple, pour trouver le périphérique Microphone (Microsoft LifeCam VX-1000), vous pouvez entrer la totalité du nom du périphérique comme suit :</p>
+<td><p>Nom du périphérique de capture ou de rendu. Vous pouvez entrer le nom complet du périphérique ou seulement une partie. Par exemple, pour trouver le périphérique Microphone (Microsoft LifeCam VX-1000), vous pouvez entrer la totalité du nom du périphérique comme suit :</p>
 <p>Microphone (Microsoft LifeCam VX-1000)</p>
 <p>Ou, vous pouvez entrer uniquement une partie du nom. Par exemple :</p>
 <p>LifeCam</p>
-<p>Notez que le filtre précédant permet de renvoyer tous les périphériques qui contiennent la chaîne « LifeCam » dans leur nom.</p></td>
+<p>Notez que le filtre précédent retourne tout appareil contenant la chaîne &quot;LifeCam&quot; n’importe où dans son nom.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Mesures
+</div>
+
+<div>
+
+## <a name="metrics"></a>Mesures
 
 Le tableau qui suit répertorie les informations fournies dans le rapport de périphérique.
 
-### Mesures du rapport de périphérique
+### <a name="device-report-metrics"></a>Mesures du rapport de périphérique
 
 <table>
 <colgroup>
@@ -398,7 +439,7 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de pé
 <tr class="even">
 <td><p><strong>Pourcentage d’appels médiocres</strong></p></td>
 <td><p>Oui</p></td>
-<td><p>Pourcentage d’appels jugés et classés comme étant médiocres. Un appel médiocre désigne un appel dont l’une des valeurs mesurées est supérieure à la valeur autorisée (par exemple, un appel soumis à un phénomène de gigue excessive).</p></td>
+<td><p>Pourcentage d’appels classés comme &quot;médiocres. &quot; Un appel médiocre est un appel qui, au moins, l’une des mesures mesurées a dépassé la valeur autorisée (par exemple, un appel ayant constaté une gigue excessive).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Utilisateurs uniques</strong></p></td>
@@ -438,9 +479,21 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de pé
 <tr class="even">
 <td><p><strong>Appels avec écho (%)</strong></p></td>
 <td><p>Oui</p></td>
-<td><p>Pourcentage du nombre total d’appels dont l’écho a dépassé le niveau acceptable.</p>
-<p></p></td>
+<td><p>Pourcentage du nombre total d’appels dont l’écho a dépassé le niveau acceptable.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

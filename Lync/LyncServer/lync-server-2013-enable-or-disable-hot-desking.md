@@ -1,45 +1,94 @@
-﻿---
-title: Activer ou désactiver le partage de téléphone
-TOCTitle: Activer ou désactiver le partage de téléphone
-ms:assetid: 93a7fed6-f61a-4b41-9336-a8320afa87cf
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ994057(v=OCS.15)
-ms:contentKeyID: 53095475
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: activation ou désactivation de l’assistance à chaud'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Enable or disable hot desking
+ms:assetid: 93a7fed6-f61a-4b41-9336-a8320afa87cf
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994057(v=OCS.15)
+ms:contentKeyID: 51803968
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f5d9f2d168a06b5624375dcd005da58b4d3d5fd8
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831288"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Activer ou désactiver le partage de téléphone
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2013-02-20_
+# <a name="enable-or-disable-hot-desking-in-lync-server-2013"></a>Activer ou désactiver la gestion de l’accès à chaud dans Lync Server 2013
 
-Vous pouvez configurer des téléphones de partie commune en tant que *téléphones partagés* (hot-desk phones). Avec les téléphones partagés, les utilisateurs peuvent se connecter à leur propre compte d’utilisateur et, une fois connectés, utiliser les fonctionnalités Lync Server de leurs propres paramètres de profil utilisateur. Le partage de téléphone est géré à l’aide de stratégies du client : pour l’activer ou le désactiver, vous devez modifier les stratégies du client utilisées par vos téléphones de partie commune. Pour plus d’informations sur la façon de déterminer les stratégies de conférence ayant été assignées à vos téléphones de partie commune, voir [Afficher des informations sur les téléphones de partie commune](lync-server-2013-view-common-area-phone-information.md).
+</div>
 
-On utilise le paramètre EnableHotdesking de l’applet de commande **New-CSClientPolicy** ou **Set-CSClientPolicy** pour activer ou désactiver le partage de téléphone sur un téléphone de la manière suivante. Exécutez ces applets de commande depuis Lync Server 2013 Management Shell ou depuis une session à distance de Windows PowerShell. Pour plus de détails sur l’utilisation de Windows PowerShell à distance pour une connexion à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Démarrage rapide : Gestion de Microsoft Lync Server 2010 avec PowerShell à distance » à l’adresse [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2013-02-20_
+
+Vous pouvez configurer des téléphones communs en tant que *téléphones de bureau à chaud*. Les téléphones de bureau à chaud permettent aux utilisateurs de se connecter à leur propre compte d’utilisateur et, après leur ouverture de session, d’utiliser les fonctionnalités du serveur Lync et leurs propres paramètres de profil utilisateur. La gestion de l’accès à chaud est gérée en utilisant les stratégies client: pour activer ou désactiver la gestion de l’accès à chaud, vous devez modifier les stratégies de client utilisées par les téléphones de votre zone commune. Pour plus d’informations sur l’identification des stratégies de conférence qui ont été affectées à vos téléphones communs, voir afficher les informations sur le [téléphone de zone commune dans Lync Server 2013](lync-server-2013-view-common-area-phone-information.md).
+
+Vous utilisez le paramètre EnableHotdesking de la cmdlet **New-CSClientPolicy** ou de l’applet de connexion **Set-CSClientPolicy** pour activer ou désactiver la fonction Hot Desk sur un téléphone, comme suit. Exécutez ces applets de commande à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell».
+
+<div>
 
 
-## Activation du partage de téléphone
+<div>
 
-  - Pour activer le partage de téléphone pour un téléphone de partie commune, vous devez modifier la stratégie du client qui a été assignée à ce téléphone (ou à cette collection de téléphones).
+## <a name="enabling-hot-desking"></a>Activation de l’assistance à chaud
+
+  - Pour activer le Bureau à chaud pour un téléphone de zone commune, vous devez modifier la stratégie client qui a été attribuée à ce téléphone (ou collection de téléphones).
     
-    Une fois identifiée la stratégie à modifier, l’étape suivante consiste à utiliser l’applet de commande **Set-CsClientPolicy** pour affecter la valeur True au paramètre EnableHotdesking. Par exemple :
+    Une fois que vous avez identifié la stratégie qui doit être modifiée, l’étape suivante consiste à utiliser l’applet de cmdlet **Set-CsClientPolicy** pour définir le paramètre EnableHotdesking sur true. Par exemple :
     
         Set-CsClientPolicy -Identity "CommonAreaPhonePolicy" - EnableHotdesking $True
 
-  - En guise d’alternative, vous pouvez utiliser l’applet de commande **New-CsClientPolicy** pour créer une stratégie qui active le partage de téléphone. Par exemple :
+  - Vous pouvez également utiliser l’applet de **nouvelle applet de nouveau-CsClientPolicy** pour créer une nouvelle stratégie client qui autorise la gestion à chaud. Par exemple :
     
         New-CsClientPolicy -Identity "NewCommonAreaPhonePolicy" - EnableHotdesking $True
 
+</div>
+
+<div>
+
+
 > [!IMPORTANT]  
-> Une fois cette stratégie créée, vous devez l’assigner aux téléphones de partie communes appropriés. Pour plus d’informations, voir <a href="lync-server-2013-assign-policies-to-a-common-area-phone.md">Assigner des stratégies à un téléphone de partie commune</a>.
+> Une fois cette stratégie créée, vous devez l’attribuer aux téléphones communs appropriés. Pour plus d’informations, consultez <A href="lync-server-2013-assign-policies-to-a-common-area-phone.md">attribuer des stratégies dans Lync Server 2013 à un téléphone de zone commune</A>.
 
-## Désactivation du partage de téléphone
 
-  - Pour désactiver le partage de téléphone pour un téléphone de partie commune, réinitialisez le paramètre EnableHotdesking de l’applet de commande **Set-CsClientPolicy** à la valeur par défaut (False). Par exemple :
+
+</div>
+
+<div>
+
+## <a name="disabling-hot-desking"></a>Désactivation de l’assistance à chaud
+
+  - Pour désactiver le téléphone de bureau à chaud pour un téléphone standard, réinitialisez le paramètre EnableHotdesking de l’applet de connexion **Set-CsClientPolicy** sur la valeur par défaut false. Par exemple :
     
         Set-CsClientPolicy -Identity "CommonAreaPhonePolicy" - EnableHotdesking $False
 
-Pour plus d’informations, voir les applets de commande New-CsNetworkSubnet et [Set-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPolicy) dans la documentation [New-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientPolicy).
+</div>
+
+Pour plus d’informations, consultez les rubriques d’aide pour la cmdlet [New-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsClientPolicy) et l’applet de connexion [Set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy) .
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

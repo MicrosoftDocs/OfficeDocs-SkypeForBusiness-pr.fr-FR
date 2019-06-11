@@ -1,41 +1,75 @@
-﻿---
-title: Problèmes avec le test de l’environnement
-TOCTitle: Problèmes avec le test de l’environnement
-ms:assetid: ff1fe0d3-35b2-41ef-87e7-6a61e9e1d2ca
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ205421(v=OCS.15)
-ms:contentKeyID: 49299455
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: problèmes liés au test de l’environnement'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Issues with the environment test
+ms:assetid: ff1fe0d3-35b2-41ef-87e7-6a61e9e1d2ca
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205421(v=OCS.15)
+ms:contentKeyID: 48185970
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 6ed158c598b9dc5596df23cb845f0adac4c6fed3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34830952"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Problèmes avec le test de l’environnement
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-09-21_
+# <a name="issues-with-the-environment-test-in-lync-server-2013"></a>Problèmes liés au test de l’environnement dans Lync Server 2013
 
-Best Practices Analyzer vous permet de vérifier que la configuration de votre environnement Lync Server 2013 est prise en charge. Dans le cadre des vérifications des services de domaine Active Directory, Best Practices Analyzer permet :
+</div>
 
-  - de vérifier la préparation de la forêt et du schéma des services de domaine Active Directory ;
+<div id="mainSection">
 
-  - d’identifier le nombre de domaines et de sites de services de domaine Active Directory du déploiement ;
+<div id="mainBody">
 
-  - de vérifier les niveaux du domaine et de la forêt ;
+<span> </span>
 
-  - de vérifier la version du contrôleur de domaine ;
+_**Dernière modification de la rubrique:** 2012-09-21_
 
-  - d’identifier le contexte d’appellation du domaine, de la configuration et du schéma ;
+Le mode d’analyse des pratiques recommandées vous permet de vérifier que votre environnement Lync Server 2013 est une configuration prise en charge. Dans le cadre de la vérification des services de domaine Active Directory (AD FS), l’analyseur des recommandations est le suivant:
 
-  - d’identifier le nombre d’utilisateurs autorisés ;
+  - Vérifie la forêt et la préparation du schéma des services de domaine Active Directory.
 
-  - de vérifier où les paramètres des services de domaine Active Directory sont stockés ;
+  - Identifie le nombre de sites et de domaines services de domaine Active Directory du déploiement.
 
-  - de vérifier les points de connexion du service pour Lync Server ;
+  - Vérifie les niveaux de forêt et de domaine.
 
-  - d’identifier la version de la base de données.
+  - Vérifie la version du contrôleur de domaine.
 
-## Résolution des problèmes avec l’environnement
+  - Identifie le contexte de nom de domaine, de configuration et de schéma.
 
-Si l’environnement de test détecte des problèmes avec votre environnement, ces problèmes sont probablement causés par d’autres problèmes avec votre configuration d’Active Directory ou le niveau du logiciel exécuté sur des serveurs spécifiques. Par exemple, si Best Practices Analyzer identifie un contrôleur de domaine de votre environnement exécutant Windows Server 2000, il émettra un avertissement et vous devrez mettre à niveau ces contrôleurs de domaine vers une version prise en charge de Windows Server.
+  - Identifie le nombre d’utilisateurs activés.
+
+  - Vérifie l’emplacement de stockage des paramètres globaux des services de domaine Active Directory.
+
+  - Recherche les points de connexion de service de Lync Server.
+
+  - Identifie la version de la base de données.
+
+<div>
+
+## <a name="resolving-issues-with-the-environment"></a>Résolution des problèmes liés à l’environnement
+
+Si le test de l’environnement a détecté des problèmes avec votre environnement, il est probable que les problèmes liés à votre configuration Active Directory ou au niveau de logiciel exécuté sur des serveurs spécifiques apparaissent. Par exemple, si le service d’analyse des pratiques recommandées identifie tout contrôleur de domaine dans votre environnement exécutant Windows Server 2000, il émet un avertissement et vous devrez mettre à niveau ces contrôleurs de domaine vers une version prise en charge de Windows Server.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

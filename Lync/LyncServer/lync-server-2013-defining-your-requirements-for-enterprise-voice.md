@@ -1,33 +1,75 @@
-﻿---
-title: 'Lync Server 2013 : Définition de la configuration requise pour Voix Entreprise'
-TOCTitle: Définition de la configuration requise de votre organisation pour Voix Entreprise
-ms:assetid: 3310f78e-c658-4557-95fa-159ce3c22953
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg425826(v=OCS.15)
-ms:contentKeyID: 49296803
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Définition de la configuration requise pour Voix Entreprise'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Defining your organization's requirements for Enterprise Voice
+ms:assetid: 3310f78e-c658-4557-95fa-159ce3c22953
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425826(v=OCS.15)
+ms:contentKeyID: 48183816
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f0ce05c39e3433ff949d82f583207aebfba871fc
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831682"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Définition de la configuration requise pour Voix Entreprise dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-08-07_
+# <a name="defining-your-requirements-for-enterprise-voice-in-lync-server-2013"></a>Définition de la configuration requise pour Voix Entreprise dans Lync Server 2013
 
-Cette rubrique présente les points à prendre en compte concernant les régions, sites et liaisons entre sites de votre topologie et explique leur importance lors du déploiement de Voix Entreprise. Pour plus d’informations sur ces points, reportez-vous à [Paramètres réseau des fonctionnalités avancées de Voix Entreprise dans Lync Server 2013](lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md) dans la documentation de planification.
+</div>
 
-## Sites et régions
+<div id="mainSection">
 
-En premier lieu, identifiez les sites de votre topologie sur lesquels vous allez déployer Voix Entreprise ainsi que les régions réseau auxquelles ces sites appartiennent. En particulier, pensez à la façon dont vous allez assurer la connectivité RTC (réseau téléphonique commuté) vers chaque site. Pour des raisons pratiques et logistiques, les régions auxquelles ces sites appartiennent peuvent être un facteur déterminant. Décidez de l’emplacement où déployer les passerelles localement, où déployer les serveurs Survivable Branch Appliance (SBA) et où vous pouvez configurer les jonctions SIP (soit en local, soit sur le site central) vers un fournisseur de services de téléphonie Internet.
+<div id="mainBody">
 
-## Liaisons réseau entre sites
+<span> </span>
 
-Vous devez aussi considérer l’utilisation de la bande passante attendue sur les liaisons réseau entre votre site central et ses sites de succursale. Si vous avez déployé ou envisagez de déployer des liaisons de réseau étendu (WAN) résistantes entre sites, nous vous recommandons de déployer une passerelle sur chaque site de succursale afin de fournir une terminaison de numéros SDA (sélection directe à l’arrivée) locale aux utilisateurs hébergés sur ces sites. Si vous disposez de liaisons de réseau étendu résistantes, alors que la bande passante de l’une d’elles risque d’être limitée, configurez la fonctionnalité de contrôle d’admission des appels sur celle-ci. Si vous ne disposez pas de liaison de réseau étendu résistante, si votre site de succursale héberge moins de 1 000 utilisateurs et si aucun administrateur Lync Server formé n’est disponible sur ce site, nous vous recommandons de déployer un Survivable Branch Appliance sur votre site de succursale. Si votre site de succursale héberge entre 1 000 et 5 000 utilisateurs, si vous ne disposez pas d’une connexion de réseau étendu résistante et si des administrateurs Lync Server sont disponibles, nous vous recommandons de déployer un serveur Survivable Branch Server avec une petite passerelle sur le site de succursale. Envisagez aussi d’activer la déviation du trafic multimédia sur les liaisons limitées si vous disposez d’un homologue de passerelle qui prend en charge cette fonctionnalité.
+_**Dernière modification de la rubrique:** 2012-08-07_
 
-## Voir aussi
+Cette rubrique fournit une vue d’ensemble des éléments à prendre en compte sur les régions, les sites et les liens entre les sites dans votre topologie et sur la manière dont celles-ci sont importantes lors du déploiement d’Enterprise Voice. Pour plus d’informations sur la prise en compte de ces décisions, voir [paramètres réseau pour les fonctionnalités avancées de voix entreprise de Lync Server 2013](lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md) dans la documentation de planification.
 
-#### Concepts
+<div>
 
-[Paramètres réseau des fonctionnalités avancées de Voix Entreprise dans Lync Server 2013](lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md)
+## <a name="sites-and-regions"></a>Sites et régions
+
+Tout d’abord, identifiez les sites de votre topologie dans lesquels vous déploierez Enterprise Voice et les régions réseau auxquelles ces sites appartiennent. En particulier, pensez à la façon dont vous allez assurer la connectivité PSTN (réseau téléphonique commuté) vers chaque site. Pour des raisons pratiques et logistiques, les régions auxquelles ces sites appartiennent peuvent être un facteur déterminant. Déterminez l’emplacement de déploiement local des passerelles (SBAs) pour le déploiement des passerelles () et l’endroit où vous pouvez configurer les Trunks SIP (localement ou sur le site central) vers un fournisseur de services de téléphonie Internet (ITSP).
+
+</div>
+
+<div>
+
+## <a name="network-links-between-sites"></a>Liaisons réseau entre sites
+
+Vous devez également tenir compte de l’utilisation de la bande passante que vous attendez sur les liens réseau entre votre site central et ses sites de succursale. Si vous avez, ou envisagez de déployer, des liens WAN résilients entre les sites, nous vous conseillons de déployer une passerelle sur chaque site de succursale afin de fournir une résiliation directe à l’intérieur de ces sites. Si vous disposez de liaisons de réseau étendu résistantes, alors que la bande passante de l’une d’elles risque d’être limitée, configurez la fonctionnalité de contrôle d’admission des appels sur celle-ci. Si vous n’avez pas de liens WAN résilients, l’hébergement est inférieur à 1000 utilisateurs sur votre site de succursale et ne disposent pas des administrateurs Lync Server qualifiés en local, nous vous recommandons de déployer une application de succursale Survivable sur le site de la succursale. Si vous hébergez vos utilisateurs 1000 et 5000 sur votre site de succursale, si vous n’avez pas de connexion WAN fiable et si les administrateurs Lync Server sont disponibles, nous vous conseillons de déployer un serveur de succursales survivant auprès d’une petite passerelle sur le site de la succursale. Envisagez aussi d’activer la déviation du trafic multimédia sur les liaisons limitées si vous disposez d’un homologue de passerelle qui prend en charge cette fonctionnalité.
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>Voir aussi
+
+
+[Network settings for the advanced Enterprise Voice features in Lync Server 2013](lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

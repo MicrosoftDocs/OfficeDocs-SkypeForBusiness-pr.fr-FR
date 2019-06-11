@@ -1,65 +1,124 @@
-﻿---
-title: Désactivation ou réactivation d’un compte d’utilisateur pour Lync Server
-TOCTitle: Désactivation ou réactivation d’un compte d’utilisateur pour Lync Server
-ms:assetid: 12497d00-f665-4a97-be68-854c5a8be4fc
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg429696(v=OCS.15)
-ms:contentKeyID: 49296311
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: désactiver ou réactiver un compte d’utilisateur pour Lync Server'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Disable or re-enable user account for Lync Server
+ms:assetid: 12497d00-f665-4a97-be68-854c5a8be4fc
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429696(v=OCS.15)
+ms:contentKeyID: 48183455
+ms.date: 04/05/2016
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7944af89ffae7545ba3a2593c7617fc944a7916e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831388"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Désactivation ou réactivation d’un compte d’utilisateur pour Lync Server
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2016-04-04_
+# <a name="disable-or-re-enable-user-account-for-lync-server-2013"></a>Désactiver ou réactiver le compte d’utilisateur pour Lync Server 2013
 
-Vous pouvez effectuer la procédure suivante pour désactiver un compte d’utilisateur précédemment activé dans Lync Server 2013 sans perdre les paramètres de Lync Server que vous avez configurés pour le compte d’utilisateur. Étant donné que vous ne perdez pas les paramètres du compte d’utilisateur Lync Server, vous pouvez réactiver un compte d’utilisateur précédemment activé sans devoir le reconfigurer.
+</div>
 
-## Pour désactiver ou réactiver un compte d’utilisateur précédemment activé pour Lync Server
+<div id="mainSection">
 
-1.  À partir d’un compte d’utilisateur auquel est affecté un des rôles CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
+<div id="mainBody">
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes de démarrage du Panneau de configuration Lync Server, voir [Ouvrir les outils d’administration Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2016-04-04_
+
+Vous pouvez utiliser la procédure suivante pour désactiver un compte d’utilisateur déjà activé dans Lync Server 2013 sans perdre les paramètres de serveur Lync que vous avez configurés pour le compte d’utilisateur. Étant donné que vous ne perdez pas les paramètres de compte d’utilisateur de Lync Server, vous pouvez réactiver un compte d’utilisateur déjà activé sans avoir à reconfigurer le compte d’utilisateur.
+
+<div>
+
+
+> [!WARNING]  
+> La désactivation d’un compte d’utilisateur dans Active Directory n' <STRONG>empêchera pas</STRONG> un utilisateur de se connecter ou d’utiliser Lync Server. En effet, Lync utilise l’authentification par certificat qui rationalise le processus d’authentification, et ces certificats clients sont valides pour 180 jours. Si vous souhaitez désactiver les comptes Active Directory désactivés qui ont été activés pour Lync et avoir accès à Lync Server, vous devez utiliser l’applet de commande <STRONG>Disable-Csuser</STRONG> , ou utiliser le <STRONG>panneau de configuration de Lync Server</STRONG> comme prévu dans cet article. Lorsque l’utilisateur est désactivé dans Lync et que le magasin de gestion central a été répliqué dans l’environnement, les utilisateurs ne seront plus en mesure de se connecter. De plus, les utilisateurs connectés seront déconnectés.
+
+
+
+</div>
+
+<div>
+
+## <a name="to-disable-or-re-enable-a-previously-enabled-user-account-for-lync-server"></a>Pour désactiver ou réactiver un compte d’utilisateur déjà activé pour Lync Server
+
+1.  À partir d’un compte d’utilisateur auquel est affecté le rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
+
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  Dans la barre de navigation de gauche, cliquez sur **Utilisateurs**.
 
-4.  Dans la zone **Rechercher des utilisateurs**, tapez le début ou l’intégralité du nom d’affichage, du prénom, du nom de famille, du nom de compte SAM (Security Accounts Manager, Gestionnaire de comptes de sécurité), de l’adresse SIP ou de l’URI (Uniform Resource Identifier) de ligne du compte d’utilisateur que vous souhaitez désactiver ou réactiver, puis cliquez sur **Rechercher**.
+4.  Dans la boîte de dialogue **Rechercher des utilisateurs** , entrez tout ou la première partie du nom complet, prénom, nom, nom du compte de comptes de sécurité, adresse SIP ou URI (Uniform Resource Identifier) du compte d’utilisateur que vous souhaitez désactiver ou réactiver. puis cliquez sur **Rechercher**.
 
-5.  Dans le tableau, cliquez sur le compte d’utilisateur que vous souhaitez désactiver ou réactiver.
+5.  Dans la table, cliquez sur le compte d’utilisateur que vous souhaitez désactiver ou réactiver.
 
-6.  Dans le menu **Action**, effectuez l’une des opérations suivantes :
+6.  Dans le menu **action** , effectuez l’une des opérations suivantes:
     
-      - Pour désactiver temporairement le compte d’utilisateur pour Lync Server 2013, cliquez sur **Désactiver temporairement pour Lync Server**.
+      - Pour désactiver temporairement le compte d’utilisateur pour Lync Server 2013, cliquez sur **désactiver temporairement pour Lync Server**.
     
-      - Pour activer le compte d’utilisateur pour Lync Server 2013, cliquez sur **Réactiver pour Lync Server**.
+      - Pour activer le compte d’utilisateur pour Lync Server 2013, cliquez sur réactiver **pour Lync Server**.
 
-## Désactivation et réactivation d’un compte d’utilisateur à l’aide des applets de commande Windows PowerShell
+</div>
 
-Les comptes d’utilisateurs peuvent également être temporairement désactivés, puis réactivés ultérieurement, à l’aide de l’applet de commande **Set-CsUser**. Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session à distance de Windows PowerShell. Pour plus de détails sur l’utilisation de Windows PowerShell à distance pour une connexion à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Démarrage rapide : Gestion de Microsoft Lync Server 2010 avec PowerShell à distance » à l’adresse [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+<div>
 
-## Désactivation d’un compte d’utilisateur
+## <a name="using-windows-powershell-to-disable-or-re-enable-user-accounts"></a>Utilisation de Windows PowerShell pour désactiver ou réactiver les comptes d’utilisateurs
 
-  - Pour désactiver temporairement un compte d’utilisateur, définissez la valeur de la propriété Enabled sur False ($False). Par exemple :
+Pour désactiver temporairement les comptes d’utilisateurs, vous pouvez les réactiver ultérieurement à l’aide de l’applet de dialogue **Set-Csuser** . Vous pouvez exécuter cette applet de commande sur Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell».
+
+<div>
+
+## <a name="to-disable-a-user-account"></a>Pour désactiver un compte d’utilisateur
+
+  - Pour désactiver temporairement un compte d’utilisateur, définissez la valeur de la propriété Enabled sur false ($False). Par exemple :
     
         Set-CsUser -Identity "Ken Myer" -Enabled $False
 
-## Réactivation d’un compte d’utilisateur
+</div>
 
-  - Pour réactiver un compte d’utilisateur désactivé, définissez la valeur de la propriété Enabled sur True ($True). Par exemple :
+<div>
+
+## <a name="to-re-enable-a-user-account"></a>Pour réactiver un compte d’utilisateur
+
+  - Pour réactiver un compte d’utilisateur désactivé, définissez la valeur de la propriété Enabled sur true ($True). Par exemple :
     
         Set-CsUser -Identity "Ken Myer" -Enabled $True
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Set-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUser).
+</div>
 
-## Voir aussi
+Pour plus d’informations, consultez la rubrique d’aide relative à l’applet de passe [Set-Csuser](https://docs.microsoft.com/powershell/module/skype/Set-CsUser) .
 
-#### Tâches
+</div>
 
-[Ajout et activation d’un compte d’utilisateur pour Lync Server](lync-server-2013-add-and-enable-user-account-for-lync-server.md)  
+<div>
 
-#### Autres ressources
+## <a name="see-also"></a>Voir aussi
 
-[Activation et désactivation des utilisateurs pour Lync Server 2013](lync-server-2013-enabling-and-disabling-users-for-lync-server.md)
+
+[Ajouter et activer un compte d’utilisateur pour Lync Server 2013](lync-server-2013-add-and-enable-user-account-for-lync-server.md)  
+
+
+[Activation et désactivation des utilisateurs pour Lync Server 2013](lync-server-2013-enabling-and-disabling-users-for-lync-server.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

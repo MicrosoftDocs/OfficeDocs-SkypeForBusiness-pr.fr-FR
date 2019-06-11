@@ -1,39 +1,80 @@
-﻿---
-title: 'Lync Server 2013 : Installation des composants serveur Lync Server'
-TOCTitle: Installation des composants serveur Lync Server
-ms:assetid: 186aed6e-7adf-4a92-9f2e-f9a4de5ff202
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398239(v=OCS.15)
-ms:contentKeyID: 49296387
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Installation des composants serveur Lync Server'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Install Lync Server server components
+ms:assetid: 186aed6e-7adf-4a92-9f2e-f9a4de5ff202
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398239(v=OCS.15)
+ms:contentKeyID: 48183528
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 895047715bfa632970adbabb20311d8c68182499
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831001"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Installation des composants serveur pour Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2014-05-05_
+# <a name="install-server-components-for-lync-server-2013"></a>Installation des composants serveur pour Lync Server 2013
 
-Avant d’effectuer les étapes suivantes, veillez à vous connecter au serveur avec un compte utilisateur de domaine correspondant à un administrateur local et à un membre du groupe RTCUniversalReadOnlyAdmins dans Active Directory.
+</div>
 
-Le Assistant Déploiement de Lync Server permet d’installer les composants nécessaires pour chaque rôle serveur Lync et d’activer le serveur. Cet article décrit les différentes étapes du déploiement d’un serveur Standard Edition ou d’un serveur frontal dans votre infrastructure Lync.
+<div id="mainSection">
 
-## Pour installer les composants Lync Server
+<div id="mainBody">
 
-1.  Si le Assistant Déploiement de Lync Server n’est pas en cours d’exécution, lancez-le sur le serveur où installer Lync.
+<span> </span>
 
-2.  Cliquez sur **Installer ou mettre à jour le système Lync Server**.
+_**Dernière modification de la rubrique:** 2014-05-05_
 
-3.  Dans l’Assistant Déploiement, confirmez que l’**Étape 1 : installer le magasin de configuration local** contient une coche verte. Cela implique que le serveur a réussi à installer une copie locale du magasin. Si elle n’est pas cochée, vous devez installer le magasin de configuration locale sur le serveur. Suivez la procédure décrite dans [Installation du magasin de configurations local dans Lync Server 2013](lync-server-2013-install-the-local-configuration-store.md), puis revenez à cet écran.
+Avant d’effectuer cette procédure, vérifiez que vous êtes connecté au serveur à l’aide d’un compte d’utilisateur de domaine qui est un administrateur local et un membre du groupe RTCUniversalReadOnlyAdmins dans Active Directory.
 
-4.  Lorsque vous êtes prêt à installer les composants Lync Server 2013 sur le serveur, cliquez sur **Exécuter** en regard de **Étape 2 : Installer ou supprimer des composants Lync Server**.
+L’Assistant Déploiement de Lync Server est utilisé pour installer les composants nécessaires pour chaque rôle serveur Lync et pour activer le serveur. Cet article vous guide dans la procédure de déploiement d’un serveur Standard Edition Server ou d’un serveur frontal dans votre infrastructure Lync.
 
-5.  Dans la page **Installer les composants Lync Server**, cliquez sur **Suivant** pour installer les composants, comme l’indique la topologie publiée.
+<div>
 
-6.  La page **Exécution des commandes** affiche un résumé des commandes et les informations relatives à la progression de l’installation. Une fois l’opération terminée, vous pouvez sélectionner un journal à afficher dans la liste, puis cliquer sur **Afficher le journal**.
+## <a name="to-install-lync-server-components"></a>Pour installer les composants serveur Lync
 
-7.  Lorsque l’installation des composants Lync Server 2013 est terminée et que vous avez consulté les journaux autant que nécessaire, cliquez sur **Terminer** pour finaliser cette étape.
+1.  Si l’Assistant Déploiement de Lync Server n’est pas en cours d’exécution, démarrez-le sur le serveur sur lequel vous voulez installer Lync.
+
+2.  Cliquez sur **installer ou mettre à jour le système de Lync Server**.
+
+3.  Dans l’Assistant Déploiement, confirmez que l' **étape 1: installer le magasin de configuration local** est une coche verte, ce qui signifie que ce serveur possède une copie locale du Store correctement installée. Si ce n’est pas le cas, vous devez installer le magasin de configuration local sur le serveur. Suivez les étapes décrites dans [installer le magasin de configuration local dans Lync Server 2013](lync-server-2013-install-the-local-configuration-store.md) , puis revenez ici.
+
+4.  Lorsque vous êtes prêt à installer les composants Lync Server 2013 sur votre serveur, cliquez sur **exécuter** en regard de l' **étape 2: configurer ou supprimer les composants Lync Server**.
+
+5.  Sur la page **configurer les composants Lync Server** , cliquez sur **suivant** pour configurer les composants comme définis dans votre topologie publiée.
+
+6.  La page de **commandes en cours d’exécution** affiche un récapitulatif des commandes et des informations d’installation lorsque la configuration est effectuée. Une fois l’opération terminée, vous pouvez sélectionner un journal à afficher dans la liste, puis cliquer sur **Afficher le journal**.
+
+7.  Lorsque l’installation des composants Lync Server 2013 est terminée et que vous avez examiné les journaux le cas échéant, cliquez sur **Terminer** pour achever cette étape de l’installation.
     
+    <div>
+    
+
     > [!NOTE]  
-    > Si vous êtes invité à redémarrer le serveur (ce qu’il peut se passer si vous devez installer l’expérience Bureau Windows), effectuez réellement cette opération. Lorsque l’ordinateur est en état de fonctionner, vous devez répéter cette procédure à partir de l’étape 3 précédente (en résumé, exécutez une nouvelle fois l’Étape 2 de l’Assistant Déploiement).
+    > Si vous êtes invité à redémarrer le serveur (ce qui peut se produire si l’expérience de bureau Windows est nécessaire), faites-le. Lorsque l’ordinateur est restauré et en cours d’exécution, vous devez effectuer ces étapes à nouveau, en commençant à l’étape 3 ci-dessus (exécutez l’étape 2 de l’Assistant Déploiement une fois).
+
+    
+    </div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+

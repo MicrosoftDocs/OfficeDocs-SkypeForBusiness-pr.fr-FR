@@ -1,25 +1,47 @@
-﻿---
-title: 'Lync Server 2013 : Rapport de liste des échecs'
-TOCTitle: Rapport de liste des échecs
-ms:assetid: b6f3a605-e0c6-461e-b17a-41d8039ace9d
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg615446(v=OCS.15)
-ms:contentKeyID: 49298623
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: rapport de liste des échecs'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Failure List Report
+ms:assetid: b6f3a605-e0c6-461e-b17a-41d8039ace9d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615446(v=OCS.15)
+ms:contentKeyID: 48185194
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 32c1c9c15b1f539aa1a5213989674dfea268a684
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831163"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Rapport de liste des échecs dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2015-03-09_
+# <a name="failure-list-report-in-lync-server-2013"></a>Rapport de liste des échecs dans Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-07-02_
 
 Le Rapport des listes d’échecs fournit des informations sur les participants individuels à une session P2P ou session de conférence ayant échoué. Ces informations incluent l’URI de l’utilisateur qui a rencontré le problème, ainsi que le code de réponse SIP et l’ID de diagnostic associés à l’échec.
 
-## Accès au Rapport des listes d’échecs
+<div>
 
-Pour accéder au Rapport des listes d’échecs, cliquez sur l’une des mesures suivantes dans le [Rapport de répartition des défaillances dans Lync Server 2013](lync-server-2013-failure-distribution-report.md) :
+## <a name="accessing-the-failure-list-report"></a>Accès au Rapport des listes d’échecs
+
+Le rapport de liste d’échecs est accessible en cliquant sur l’une des mesures suivantes sur le [rapport de distribution des échecs dans Lync Server 2013](lync-server-2013-failure-distribution-report.md):
 
   - Motifs de diagnostic principaux (sessions)
 
@@ -37,15 +59,19 @@ Pour accéder au Rapport des listes d’échecs, cliquez sur l’une des mesures
 
   - Agents utilisateurs émetteurs principaux (sessions)
 
-Depuis le Rapport des listes d’échecs, vous pouvez accéder au [Rapport détaillé de session P2P dans Lync Server 2013](lync-server-2013-peer-to-peer-session-detail-report.md) en cliquant sur la mesure Détails de la session pour une session P2P. Vous pouvez également accéder au Rapport détaillé de conférence en cliquant sur la mesure Conférence pour une conférence.
+Dans le rapport de la liste des échecs, vous pouvez accéder au [rapport détaillé de la session d’égal à égal dans Lync Server 2013](lync-server-2013-peer-to-peer-session-detail-report.md) en cliquant sur la métrique des détails de session pour une session d’égal à égal. Vous pouvez également accéder au Rapport détaillé de conférence en cliquant sur la mesure Conférence pour une conférence.
 
-## Exploitation optimale du Rapport des listes d’échecs
+</div>
 
-Le Rapport des listes d’échecs vous permet d’afficher une description de chaque code de réponse ou de chaque ID de diagnostic en maintenant simplement la souris au-dessus de la valeur concernée. Par exemple, si vous maintenez la souris au-dessus de l’ID de diagnostic 7025, les informations suivantes s’affichent dans une info-bulle :
+<div>
+
+## <a name="making-the-best-use-of-the-failure-list-report"></a>Exploitation optimale du Rapport des listes d’échecs
+
+Le Rapport des listes d’échecs vous permet d’afficher une description de chaque code de réponse ou de chaque ID de diagnostic en maintenant simplement la souris au-dessus de la valeur concernée. Par exemple, si vous maintenez la souris au-dessus de l’ID de diagnostic 7025, les informations suivantes s’affichent dans une info-bulle :
 
 Erreur du serveur interne lors de la création du média pour l’utilisateur.
 
-Il est important de noter que le Rapport des listes d’échecs ne fournit pas une méthode simple de récupérer directement une liste de tous les utilisateurs qui ont participé à au moins une session ayant échoué, et qu’il ne permet pas non plus de déterminer les utilisateurs qui sont le plus souvent impliqués dans une session ayant échoué. (Le Rapport des listes d’échecs ne dispose notamment pas de fonctionnalités de filtrage.) Cependant, si vous exportez les données, puis que vous les convertissez en un fichier de valeurs séparées par des virgules, vous pouvez utiliser Windows PowerShell pour trouver les réponses à des questions de ce type. Par exemple, supposons que vous enregistrez les données dans un fichier .CSV nommé C:\\Data\\Failure\_List.csv. En fonction des données enregistrées dans ce fichier, la commande suivante répertorie tous les utilisateurs qui ont été impliqués dans au moins une session ayant échoué :
+Il est important de noter que le Rapport des listes d’échecs ne fournit pas une méthode simple de récupérer directement une liste de tous les utilisateurs qui ont participé à au moins une session ayant échoué, et qu’il ne permet pas non plus de déterminer les utilisateurs qui sont le plus souvent impliqués dans une session ayant échoué. (Pour une chose, le rapport de la liste des échecs n’a pas de fonctionnalités de filtrage.) Toutefois, si vous exportez les données et que vous les convertissez en fichier de valeurs séparées par des virgules, vous pouvez utiliser Windows PowerShell pour trouver les réponses à des questions comme celles-ci. Par exemple, supposons que vous enregistriez les données dans un fichier. Fichier CSV nommé C:\\Data\\Failure\_List. csv. En fonction des données enregistrées dans ce fichier, la commande suivante répertorie tous les utilisateurs qui ont été impliqués dans au moins une session ayant échoué :
 
     $failures = Import-Csv -Path " C:\Data\Failure_List.csv"
     $failure |Sort-Object "From user" | Select-Object "From user" -Unique
@@ -75,15 +101,23 @@ Des données semblables à ceci sont renvoyées :
         16    Ken.Myero@litwareinc.com
         14    Henrik.Jensen@litwareinc.com
 
-## Filtres
+</div>
+
+<div>
+
+## <a name="filters"></a>Filtres
 
 Aucun. Il est impossible de filtrer le Rapport des listes d’échecs.
 
-## Mesures
+</div>
+
+<div>
+
+## <a name="metrics"></a>Mesures
 
 Le tableau qui suit répertorie les informations fournies dans le Rapport des listes d’échecs pour chaque appel ayant échoué.
 
-### Mesures du Rapport des listes d’échecs
+### <a name="failure-list-report-metrics"></a>Mesures du Rapport des listes d’échecs
 
 <table>
 <colgroup>
@@ -117,7 +151,7 @@ Le tableau qui suit répertorie les informations fournies dans le Rapport des li
 <tr class="even">
 <td><p><strong>ID de diagnostic</strong></p></td>
 <td><p>Non</p></td>
-<td><p>Identifiant unique (sous la forme d’un en-tête ms-diagnostics) attaché à un message SIP qui procure souvent des informations utiles à des fins d’identification et de résolution des erreurs.</p></td>
+<td><p>Identificateur unique (sous la forme d’un en-tête ms-diagnostics) attaché à un message SIP qui fournit souvent des informations utiles pour résoudre des erreurs.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Coût/temps de connexion (ms)</strong></p></td>
@@ -141,4 +175,17 @@ Le tableau qui suit répertorie les informations fournies dans le Rapport des li
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

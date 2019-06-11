@@ -1,31 +1,65 @@
-﻿---
-title: Paramètres de configuration de Lync Phone Edition dans Lync Server 2013
-TOCTitle: Paramètres de configuration de Lync Phone Edition dans Lync Server 2013
-ms:assetid: fa0ec6c0-06d7-4f42-a4b2-27b56bf27a2d
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ721944(v=OCS.15)
-ms:contentKeyID: 49891624
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: paramètres de configuration de Lync Phone Edition'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Lync Phone Edition configuration settings
+ms:assetid: fa0ec6c0-06d7-4f42-a4b2-27b56bf27a2d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721944(v=OCS.15)
+ms:contentKeyID: 49733881
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b16b83cc7dbc050d61a43d8a4f85ecedfa76e2a4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34830924"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Paramètres de configuration de Lync Phone Edition dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-10-10_
+# <a name="lync-phone-edition-configuration-settings-in-lync-server-2013"></a>Paramètres de configuration de Lync Phone Edition dans Lync Server 2013
 
-Les paramètres de configuration pour les périphériques exécutant Lync Phone Edition s’appliquent globalement, ou vous pouvez créer de nouvelles collections de paramètres s’appliquant à un site particulier. Les collections incluent la sécurité SIP, les paramètres de verrouillage de périphérique, etc.
+</div>
 
-## Dans cette section
+<div id="mainSection">
 
-  - [Affichage des paramètres de configuration de Lync Phone Edition](lync-server-2013-view-lync-phone-edition-configuration-settings-information.md)
+<div id="mainBody">
 
-  - [Création ou modification d’une collection de paramètres de configuration de Lync Phone Edition](lync-server-2013-create-or-modify-a-collection-of-lync-phone-edition-configuration-settings.md)
+<span> </span>
 
-  - [Suppression d’une collection existante de paramètres de configuration Lync Phone Edition](lync-server-2013-delete-an-existing-collection-of-lync-phone-edition-configuration-settings.md)
+_**Dernière modification de la rubrique:** 2012-10-10_
 
-  - [Configuration des paramètres de sécurité pour Lync Phone Edition](lync-server-2013-configure-security-settings-for-lync-phone-edition.md)
+Les paramètres de configuration des appareils exécutant Lync Phone Edition s’appliquent globalement ou vous pouvez créer de nouvelles collections de paramètres qui s’appliquent à un site particulier. Les collections incluent la sécurité SIP, les paramètres de verrouillage de l’appareil, etc.
 
-  - [Application du verrouillage de téléphone](lync-server-2013-enforce-phone-locking.md)
+<div>
+
+## <a name="in-this-section"></a>Dans cette section
+
+  - [Afficher les informations sur les paramètres de configuration de Lync Phone Edition dans Lync Server 2013](lync-server-2013-view-lync-phone-edition-configuration-settings-information.md)
+
+  - [Créer ou modifier un ensemble de paramètres de configuration de Lync Phone Edition dans Lync Server 2013](lync-server-2013-create-or-modify-a-collection-of-lync-phone-edition-configuration-settings.md)
+
+  - [Supprimer une collection existante de paramètres de configuration de Lync Phone Edition dans Lync Server 2013](lync-server-2013-delete-an-existing-collection-of-lync-phone-edition-configuration-settings.md)
+
+  - [Configurer les paramètres de sécurité de Lync Phone Edition dans Lync Server 2013](lync-server-2013-configure-security-settings-for-lync-phone-edition.md)
+
+  - [Renforcer le verrouillage du téléphone dans Lync Server 2013](lync-server-2013-enforce-phone-locking.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

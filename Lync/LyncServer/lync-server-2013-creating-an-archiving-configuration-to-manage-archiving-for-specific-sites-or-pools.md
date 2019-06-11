@@ -1,45 +1,73 @@
-﻿---
-title: "Créa. d’une conf. d’arch. pour gérer l’arch. pour des sites ou pools part."
-TOCtitle: "Créa. d’une conf. d’arch. pour gérer l’arch. pour des sites ou pools part."
-ms:assetid: c5c864a6-96c7-4bbb-ab7c-61eb1744246c
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ205251(v=OCS.15)
-ms:contentKeyID: 49298773
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: création d’une configuration de l’archivage pour gérer l’archivage de sites ou de groupes spécifiques'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Creating an Archiving configuration to manage Archiving for specific sites or pools
+ms:assetid: c5c864a6-96c7-4bbb-ab7c-61eb1744246c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205251(v=OCS.15)
+ms:contentKeyID: 48185361
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 39ff0add99f41e31ad585b58112146a7f52cc1b4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831769"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Création d’une configuration d’archivage pour gérer l’archivage pour des sites ou des pools spécifiques
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2013-02-23_
+# <a name="creating-an-archiving-configuration-in-lync-server-2013-to-manage-archiving-for-specific-sites-or-pools"></a>Créer une configuration d’archivage dans Lync Server 2013 pour gérer l’archivage de sites ou de groupes spécifiques
 
-Dans le Panneau de configuration Lync Server 2013, vous pouvez utiliser les configurations de l’archivage pour contrôler la mise en œuvre de l’archivage dans votre déploiement. Ces configurations sont les suivantes :
+</div>
 
-  - Une configuration globale qui est créée par défaut si vous déployez Lync Server 2013.
+<div id="mainSection">
 
-  - Des configurations facultatives au niveau du site et au niveau du pool que vous pouvez créer et utiliser pour indiquer comment l’archivage est mis en œuvre pour certains sites ou pools.
+<div id="mainBody">
 
-Vous devez mettre en place les configurations d’archivage avant de déployer l’archivage même, mais vous pouvez les modifier, en ajouter et en supprimer après le déploiement. Pour plus d’informations sur la mise en œuvre de configurations d’archivage, y compris les options que vous pouvez indiquer et la hiérarchie de ces configurations, voir [Fonctionnement de l’archivage dans Lync Server 2013](lync-server-2013-how-archiving-works.md) dans les documentations de planification, de déploiement ou des opérations.
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2013-02-23_
+
+Dans Lync Server 2013 panneau de configuration, vous utilisez des configurations d’archivage pour contrôler l’implémentation de l’archivage dans votre déploiement. Cela inclut les configurations d’archivage suivantes:
+
+  - Configuration globale créée par défaut lors du déploiement de Lync Server 2013.
+
+  - Configurations facultatives de niveau de site et de niveau groupe que vous pouvez créer et utiliser pour spécifier la façon dont l’archivage est implémenté pour des sites ou des groupes spécifiques.
+
+Vous définissez initialement des configurations d’archivage lors du déploiement de l’archivage, mais vous pouvez modifier, ajouter et supprimer des configurations après le déploiement. Pour plus d’informations sur l’implémentation des configurations d’archivage, notamment les options que vous pouvez spécifier et la hiérarchie des configurations d’archivage, voir fonctionnement [de l’archivage dans Lync Server 2013](lync-server-2013-how-archiving-works.md) dans la documentation de planification, déploiement documentation ou documentation sur les opérations.
+
+<div>
+
 
 > [!NOTE]  
-> Pour utiliser l’archivage, vous devez configurer les stratégies d’archivage pour indiquer son activation pour les communications internes, pour les communications externes ou pour les deux concernant les utilisateurs hébergés sur Lync Server 2013. Par défaut, l’archivage n’est pas activé pour les communications, qu’elles soient internes ou externes. Avant l’activation de l’archivage dans une quelconque stratégie, vous devez spécifier les configurations d’archivage appropriées pour votre déploiement et, au besoin, pour les sites et pools spécifiques, comme décrit dans cette section. Pour plus d’informations sur l’activation de l’archivage, voir <a href="lync-server-2013-configuring-and-assigning-archiving-policies.md">Configuration et affectation des stratégies d’archivage</a> dans la documentation de déploiement.<br />
-Après avoir déployé l’archivage, si vous décidez d’utiliser l’intégration à Microsoft Exchange pour stocker les données et les fichiers d’archivage sur des serveurs Exchange 2013 et si tous vos utilisateurs sont hébergés sur vos serveurs Exchange 2013, vous devriez supprimer la configuration de la base de données SQL Server de votre topologie. Pour ce faire, vous devez utiliser le Générateur de topologie. Pour plus d’informations, voir <a href="lync-server-2013-changing-archiving-database-options.md">Modification des options de la base de données d’archivage dans Lync Server 2013</a> dans la documentation des opérations.
+> Pour utiliser l’archivage, vous devez configurer des stratégies d’archivage pour spécifier s’il convient d’activer l’archivage pour les communications internes, pour les communications externes ou pour les utilisateurs hébergés sur Lync Server 2013. Par défaut, l’archivage n’est pas activé pour les communications internes et externes. Avant d’activer l’archivage dans toutes les stratégies, vous devez spécifier les configurations d’archivage appropriées pour votre déploiement et, si vous le souhaitez, pour des sites et des groupes spécifiques, comme décrit dans cette section. Pour plus d’informations sur l’activation de l’archivage, voir <A href="lync-server-2013-configuring-and-assigning-archiving-policies.md">configuration et affectation de stratégies d’archivage dans Lync Server 2013</A> dans la documentation de déploiement.<BR>Si vous décidez après le déploiement de l’archivage dans lequel vous souhaitez utiliser l’intégration de Microsoft Exchange pour stocker les données et fichiers d’archivage sur les serveurs Exchange 2013 et que tous vos utilisateurs sont hébergés sur vos serveurs Exchange 2013, vous devez supprimer la configuration de la base de données SQL Server à partir de votre topologie. Pour ce faire, vous devez utiliser le générateur de topologie. Pour plus d’informations, reportez-vous à <A href="lync-server-2013-changing-archiving-database-options.md">modifier les options de base de données d’archivage dans Lync Server 2013</A> dans la documentation sur les opérations
 
-## Pour créer une configuration d’archivage pour un site ou un pool
+
+
+</div>
+
+<div>
+
+## <a name="to-create-an-archiving-configuration-for-a-site-or-pool"></a>Pour créer une configuration d’archivage pour un site ou un pool
 
 1.  À partir d’un compte d’utilisateur auquel est affecté un des rôles CsArchivingAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes de démarrage du Panneau de configuration Lync Server, voir [Ouvrir les outils d’administration Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Surveillance et archivage**, puis sur **Configuration d’archivage**.
+3.  Dans la barre de navigation gauche, cliquez sur **surveillance et archivage**, puis cliquez sur **configuration de l’archivage**.
 
 4.  Dans la page **Configuration de l’archivage**, cliquez sur **Nouveau**, puis effectuez l’une des opérations suivantes :
     
-      - Pour créer une configuration d’archivage de site, cliquez sur **Configuration du site** et, dans **Sélectionner un site**, indiquez le site à configurer pour l’archivage.
+      - Pour créer une configuration d’archivage de sites, cliquez sur **configuration de site** , puis dans **Sélectionner un site**, sélectionnez le site que vous voulez configurer pour l’archivage.
     
-      - Pour créer une configuration d’archivage de pool, cliquez sur **Configuration du pool** et, dans **Sélectionner un pool**, indiquez le pool à configurer pour l’archivage.
+      - Pour créer une configuration d’archivage de pool, cliquez sur **configuration de pool** puis, dans **Sélectionner un pool**, sélectionnez le groupe à configurer pour l’archivage.
 
 5.  Dans **Nouveau paramètre d’archivage**, dans la liste déroulante **Paramètre d’archivage**, effectuez l’une des actions suivantes :
     
@@ -49,11 +77,11 @@ Après avoir déployé l’archivage, si vous décidez d’utiliser l’intégra
     
       - Afin de désactiver l’archivage pour une stratégie, cliquez sur **Désactiver l’archivage**.
 
-6.  Aussi, dans **Créer un paramètre d’archivage**, procédez comme suit :
+6.  Par ailleurs, dans **Créer un paramètre d’archivage**, procédez comme suit :
     
-      - Pour bloquer toute activité si l’archivage n’est pas disponible, cochez la case **Bloquer les sessions de messagerie instantanée ou de conférence web en cas d’échec de l’archivage**.
+      - Pour bloquer toute activité si l’archivage n’est pas disponible, cochez la case **Bloquer les sessions de messagerie instantanée ou de conférence Web en cas d’échec de l’archivage**.
     
-      - Pour utiliser Microsoft Exchange Server afin de stocker les données d’archivage, cochez la case **Intégration Microsoft Exchange**.
+      - Pour utiliser Microsoft Exchange Server pour stocker des données d’archivage, activez la case à cocher **intégration Microsoft Exchange** .
     
       - Pour activer la fonctionnalité de vidage des données, cochez la case **Activer le vidage des données d’archivage**, puis effectuez l’une des opérations suivantes :
         
@@ -63,37 +91,68 @@ Après avoir déployé l’archivage, si vous décidez d’utiliser l’intégra
 
 7.  Cliquez sur **Valider**.
 
-## Création de paramètres de configuration d’archivage à l’aide des applets de commande Lync Server
+</div>
 
-Vous pouvez aussi créer des paramètres de configuration d’archivage à l’aide de Windows PowerShell et de l’applet de commande New-CsArchivingConfiguration. Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session à distance de Windows PowerShell. Pour plus de détails sur l’utilisation de Windows PowerShell à distance pour une connexion à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Démarrage rapide : Gestion de Microsoft Lync Server 2010 avec PowerShell à distance » à l’adresse [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+<div>
 
-## Création d’une collection de paramètres de configuration d’archivage pour un site
+## <a name="creating-archiving-configuration-settings-by-using-windows-powershell-cmdlets"></a>Création de paramètres de configuration de l’archivage à l’aide d’applets de cmdlet Windows PowerShell
+
+Les paramètres de configuration de l’archivage peuvent être créés à l’aide de Windows PowerShell et de l’applet de nouvelle cmdlet New-CsArchivingConfiguration. Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell».
+
+<div>
+
+## <a name="to-create-a-new-collection-of-archiving-configuration-settings-for-a-site"></a>Pour créer une nouvelle collection de paramètres de configuration de l’archivage pour un site
 
   - La commande suivante crée une collection de paramètres de configuration d’archivage pour le site Redmond :
     
         New-CsArchivingConfiguration -Identity "site:Redmond"
 
-## Création d’une collection de paramètres de configuration d’archivage n’autorisant que l’archivage de messagerie instantanée
+</div>
 
-  - Comme aucun paramètre (autre que celui obligatoire sur l’identité) n’a été précisé dans la commande précédente, la nouvelle collection de paramètres de configuration utilise les valeurs par défaut pour toutes ses propriétés. Pour créer des paramètres qui font appel à d’autres valeurs de propriétés, incluez simplement le paramètre approprié et sa valeur. Par exemple, pour créer une collection de paramètres de configuration d’archivage qui autorisent par défaut l’archivage des sessions de messagerie instantanée, utilisez une simple commande comme celle-ci :
+<div>
+
+## <a name="to-create-a-new-collection-of-archiving-configuration-settings-that-only-allow-im-archiving"></a>Pour créer une collection de paramètres de configuration de l’archivage qui autorise uniquement l’archivage des messages instantanés
+
+  - Comme aucun paramètre (autre que celui obligatoire sur l’identité) n’a été précisé dans la commande précédente, la nouvelle collection de paramètres de configuration utilise les valeurs par défaut pour toutes ses propriétés. Pour créer des paramètres qui font appel à d’autres valeurs de propriétés, incluez simplement le paramètre approprié et sa valeur. Par exemple, pour créer un ensemble de paramètres de configuration de l’archivage qui, par défaut, autorise l’archivage des sessions de messagerie instantanée, utilisez uniquement une commande comme celle-ci:
     
         New-CsArchivingConfiguration -Identity "site:Redmond" -EnableArchiving "ImOnly"
 
-## Indication de plusieurs valeurs de propriétés pendant la création de paramètres de configuration d’archivage
+</div>
+
+<div>
+
+## <a name="to-specify-multiple-property-values-when-creating-archiving-configuration-settings"></a>Pour spécifier plusieurs valeurs de propriété lors de la création des paramètres de configuration de l’archivage
 
   - Vous pouvez modifier plusieurs valeurs de propriétés en incluant plusieurs paramètres. Par exemple, cette commande configure les nouveaux paramètres pour archiver les sessions de messagerie instantanée et pour bloquer la messagerie du service d’archivage afin de le rendre non disponible :
     
         New-CsArchivingConfiguration -Identity "site:Redmond" -EnableArchiving "ImOnly" -BlockOnArchiveFailure $True
 
-Pour plus d’informations, voir la rubrique d’aide de l’applet de commande [New-CsArchivingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsArchivingConfiguration).
+</div>
 
-## Voir aussi
+Pour plus d’informations, consultez la rubrique d’aide relative à l’applet de [nouvelle-CsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsArchivingConfiguration) .
 
-#### Concepts
+</div>
+
+<div>
+
+## <a name="see-also"></a>Voir aussi
+
 
 [Fonctionnement de l’archivage dans Lync Server 2013](lync-server-2013-how-archiving-works.md)  
 
-#### Autres ressources
 
-[Gestion des options de configuration de l’archivage dans Lync Server 2013 pour votre organisation, vos sites et vos pools](lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md)
+[Gestion des options de configuration de l’archivage dans Lync Server 2013 pour votre organisation, vos sites et vos pools](lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

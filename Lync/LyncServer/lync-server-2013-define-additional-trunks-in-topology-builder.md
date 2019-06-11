@@ -1,70 +1,147 @@
-﻿---
-title: "Lync Server 2013 : Déf. d’autres jonctions dans le Gestionnaire de topologies"
-TOCTitle: Définition d’autres jonctions dans le Gestionnaire de topologies
-ms:assetid: e68b8377-50a2-452a-bf5c-910929e34236
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ721915(v=OCS.15)
-ms:contentKeyID: 49891583
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: définir des lignes supplémentaires dans le générateur de topologie'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Define additional trunks in Topology Builder
+ms:assetid: e68b8377-50a2-452a-bf5c-910929e34236
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721915(v=OCS.15)
+ms:contentKeyID: 49733849
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b18d12762566258051d5fe0e7c71921b9fff160c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831722"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Définition d’autres jonctions dans le Gestionnaire de topologies dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-10-04_
+# <a name="define-additional-trunks-in-topology-builder-in-lync-server-2013"></a>Définir des lignes supplémentaires dans le générateur de topologies de Lync Server 2013
 
-Procédez comme suit afin d’utiliser le Générateur de topologie pour définir un tronçon supplémentaire auquel vous pouvez associer un *homologue* avec un serveur de médiation. Un homologue fournit aux utilisateurs autorisés pour Voix Entreprise une connectivité au réseau téléphonique commuté (RTC). L’homologue peut être une passerelle RTC, un système IP-PBX ou un contrôleur de session en périphérie (SBC) pour un fournisseur de services de téléphonie Internet (Internet telephony service provider, ITSP). Le tronçon définit cette connexion entre le serveur de médiation et l’homologue. Les tronçons multiples peuvent être définis par le serveur de médiation. Un serveur de médiation peut être associé à plusieurs homologues.
+</div>
 
-Un tronçon est une connexion logique entre un serveur de médiation et une passerelle identifiée de manière unique par le tuple :
+<div id="mainSection">
 
-{Nom de domaine complet (FQDN) du serveur de médiation, port d’écoute (TLS ou TCP) du serveur de médiation : IP et FQDN de passerelle, port d’écoute de passerelle}
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-10-04_
+
+Suivez les étapes décrites ci-dessous pour utiliser le générateur de topologie et définir un Trunk supplémentaire auquel ** vous pouvez associer un homologue à un serveur de médiation. Un homologue fournit aux utilisateurs une connectivité voix entreprise compatible avec le réseau téléphonique commuté (PSTN). L’homologue peut être une passerelle RTC, un système IP-PBX ou un contrôleur SBC (Session Border Controller) pour un fournisseur ITSP (Internet Telephony Service Provider). Le Trunk définit cette connexion entre le serveur de médiation et l’homologue. Vous pouvez définir plusieurs Trunks par serveur de médiation. Un serveur de médiation peut être associé à plusieurs homologues.
+
+Un Trunk est une connexion logique entre un serveur de médiation et une passerelle identifiée de manière unique par le tuple:
+
+Le nom de domaine complet du serveur de médiation, port d’écoute du serveur de médiation (TLS ou TCP): adresse IP et nom de domaine complet de la passerelle
+
+<div>
+
 
 > [!NOTE]  
-> Cette rubrique part du principe que vous avez installé une passerelle RTC et un tronçon racine avec au moins un serveur de médiation colocalisé ou autonome, ou un pool, tel que décrit dans la section <a href="lync-server-2013-define-a-gateway-in-topology-builder.md">Définition d’une passerelle dans le générateur de topologie dans Lync Server 2013</a> (contenu éventuellement en anglais) de la documentation relative au déploiement.
+> Cette rubrique part du principe que vous avez configuré une passerelle RTC et un Trunk racine avec au moins un serveur ou un pool de médiation autonome ou autonome comme décrit dans la rubrique <A href="lync-server-2013-define-a-gateway-in-topology-builder.md">définir une passerelle dans le générateur de topologies de Lync Server 2013</A> dans la documentation de déploiement.
+
+
+
+</div>
+
+<div>
+
 
 > [!NOTE]  
-> Cette rubrique part du principe que vous avez installé au moins un pool de serveurs frontaux ou serveur Standard Edition dans au moins un site central, tel que décrit dans les sections <a href="lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md">Définition et configuration d’un pool frontal ou d’un serveur Standard Edition dans Lync Server 2013</a> et <a href="lync-server-2013-publish-the-topology.md">Publication de la topologie dans Lync Server 2013</a> de la documentation relative au déploiement.
+> Cette rubrique part du principe que vous avez configuré au moins un pool frontal ou un serveur Standard Edition Server dans au moins un site central, comme décrit dans <A href="lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md">définir et configurer un pool frontal ou un serveur Standard Edition dans Lync server 2013</A> et <A href="lync-server-2013-publish-the-topology.md">publier la topologie dans Lync. Serveur 2013</A> dans la documentation de déploiement.
 
-## Pour définir un tronçon supplémentaire entre un serveur de médiation et un homologue de passerelle
 
-1.  Démarrez le Générateur de topologie : cliquez successivement sur **Démarrer**, **Tous les programmes**, **Microsoft Lync Server 2013**, puis sur **Générateur de topologie Lync Server**.
 
-2.  Sous Lync Server 2013, votre nom de site, **Composants partagés** , cliquez avec le bouton droit sur le nœud **Tronçons** , puis cliquez sur **Nouveau tronçon** .
+</div>
+
+<div>
+
+## <a name="to-define-an-additional-trunk-between-a-mediation-server-and-a-gateway-peer"></a>Pour définir un Trunk supplémentaire entre un serveur de médiation et un homologue de passerelle
+
+1.  Démarrer le générateur de topologie: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Générateur de topologie de Lync Server**.
+
+2.  Sous Lync Server 2013, le nom de votre site, les **composants partagés**, cliquez **** avec le bouton droit sur le nœud Trunks, puis cliquez sur **nouveau Trunk**.
     
-    ![Écran de la structure de fichier du Générateur de topologie Lync Server](images/JJ721915.90d5b349-aa1e-407a-87ed-fa112f478560(OCS.15).png "Écran de la structure de fichier du Générateur de topologie Lync Server")
+    ![Écran structure de fichiers du générateur de topologie de Lync Server] (images/JJ721915.90d5b349-aa1e-407a-87ed-fa112f478560(OCS.15).png "Écran structure de fichiers du générateur de topologie de Lync Server")
 
-3.  Dans **Définir un nouveau tronçon** , spécifiez un nom convivial pour identifier le tronçon de manière unique. Deux tronçons ne peuvent pas avoir le même nom.
+3.  Dans **Définir un nouveau tronçon**, spécifiez un nom convivial pour identifier le tronçon de manière unique. Deux tronçons ne peuvent pas porter le même nom.
     
+    <div>
+    
+
     > [!NOTE]  
-    > Si vous spécifiez Transport Layer Security (TLS) comme type de transport, vous devez spécifier le nom de domaine complet (FQDN) au lieu de l’adresse IP de l’homologue du serveur de médiation.
+    > Si vous spécifiez TLS (Transport Layer Security) comme type de transport, vous devez spécifier le nom de domaine complet (FQDN) au lieu de l’adresse IP de l’homologue du serveur de médiation.
 
-4.  Sous **Passerelle RTC associée** , sélectionnez l’homologue de passerelle RTC à associer à ce tronçon.
     
-    ![Paramètres des propriétés pour la passerelle PSTN homologue pour la jonction](images/JJ721915.7c3fe8ee-8f4c-4413-8462-8347228e61bb(OCS.15).png "Paramètres des propriétés pour la passerelle PSTN homologue pour la jonction")
+    </div>
 
-5.  Sous **Port d’écoute pour la passerelle RTC** , tapez le port d’écoute dans lequel l’homologue (passerelle RTC, IP-PBX, ou SBC) recevra les messages SIP du serveur de médiation qui doit être associé à ce tronçon. Les ports homologues par défaut sont 5066 pour TCP (Transmission Control Protocol) et 5067 pour TLS (Transport Layer Security). Les ports de l’Survivable Branch Appliance sont 5081 pour TCP et 5082 pour TLS.
-
-6.  Sous **Protocole de transport SIP** , cliquez sur le type de transport utilisé par l’homologue.
+4.  Sous **Passerelle RTC associée**, sélectionnez l’homologue de passerelle RTC à associer à ce tronçon.
     
-    > [!NOTE]  
-    > Pour des raisons de sécurité, nous vous recommandons vivement de déployer un homologue vers le serveur de médiation qui peut utiliser TLS.
+    ![Paramètres de propriété pour l’homologue de passerelle PSTN pour Trunk] (images/JJ721915.7c3fe8ee-8f4c-4413-8462-8347228e61bb(OCS.15).png "Paramètres de propriété pour l’homologue de passerelle PSTN pour Trunk")
 
-7.  Sous **Serveur de médiation associé** , sélectionnez le pool du serveur de médiation à associer avec le tronçon racine de cet homologue
+5.  Sous **port d’écoute pour la passerelle RTC**, tapez le port d’écoute que le pair (passerelle PSTN, IP-PBX ou SBC) reçoit les messages SIP du serveur de médiation qui sera associé à ce Trunk. Les ports homologues par défaut sont 5066 pour TCP (Transmission Control Protocol) et 5067 pour TLS (Transport Layer Security). Les ports de l’appareil de branchement Survivable par défaut sont 5081 pour TCP et 5082 pour TLS.
 
-8.  Sous **Port du serveur de médiation associé** , tapez le port d’écoute dans lequel le serveur de médiation recevra les messages SIP de l’homologue.
+6.  Dans **Protocole de transport SIP**, cliquez sur le type de transport utilisé par l’homologue.
     
+    <div>
+    
+
     > [!NOTE]  
-    > Avec la prise en charge de plusieurs tronçons dans Lync Server 2013, deux tronçons ayant des noms différents ne peuvent pas être configurés avec les mêmes <strong>port de serveur de médiation associé</strong> et <strong>port d’écoute pour passerelle IP/RTC</strong>    
+    > Pour des raisons de sécurité, nous vous recommandons vivement de déployer un homologue sur le serveur de médiation qui peut utiliser le protocole TLS.
+
+    
+    </div>
+
+7.  Sous **serveur de médiation associé**, sélectionnez le pool de serveurs de médiation à associer au Trunk racine de cet homologue.
+
+8.  Sous **port du serveur de médiation associé**, tapez le port d’écoute sur lequel le serveur de médiation va recevoir des messages SIP de l’homologue.
+    
+    <div>
+    
+
     > [!NOTE]  
-    > Avec la prise en charge de plusieurs tronçons dans Lync Server 2013, plusieurs ports de signalisation SIP peuvent être définis sur le serveur de médiation pour la communication avec plusieurs homologues. Lors de la définition d’un tronçon, le numéro du <strong>port de serveur de médiation associé</strong> doit être compris dans la plage des ports d’écoute pour le protocole respectif autorisé par le serveur de médiation. Cette plage de ports est définie pour Lync Server 2013 et les pools de serveurs de médiation. Cliquez avec le bouton droit sur le pool de serveurs de médiation approprié, puis sélectionnez <strong>Modifier les propriétés</strong> . Spécifiez la plage de ports dans le champ <strong>Ports d’écoute</strong> .
+    > Pour la prise en charge de plusieurs Trunks dans Lync Server 2013, il est impossible de configurer deux lignes avec des noms de Trunk différents avec le même <STRONG>port de serveur de médiation</STRONG> et le même port <STRONG>d’écoute pour la passerelle IP/PSTN</STRONG> .
 
-9.  Cliquez sur **OK** .
+    
+    </div>
+    
+    <div>
+    
 
-## Voir aussi
+    > [!NOTE]  
+    > La prise en charge de plusieurs Trunks dans Lync Server 2013 permet de définir plusieurs ports de signalisation SIP sur le serveur de médiation pour la communication avec des collègues multiples. Lors de la définition d’un Trunk, le numéro de <STRONG>port du serveur de médiation associé</STRONG> doit figurer dans la plage des ports d’écoute pour le protocole correspondant autorisé par le serveur de médiation. Cette plage de ports est définie sous Lync Server 2013 et les pools de serveurs de médiation. Cliquez avec le bouton droit sur la liste de serveurs de médiation appropriée, puis sélectionnez <STRONG>modifier les propriétés</STRONG>. Specify the port range in the <STRONG>Listening ports</STRONG> field.
 
-#### Tâches
+    
+    </div>
 
-[Modification d’une jonction dans le générateur de topologie dans Lync Server 2013](lync-server-2013-modify-a-trunk-in-topology-builder.md)
+9.  Cliquez sur **OK**.
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>Voir aussi
+
+
+[Modifier un Trunk dans le générateur de topologies de Lync Server 2013](lync-server-2013-modify-a-trunk-in-topology-builder.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

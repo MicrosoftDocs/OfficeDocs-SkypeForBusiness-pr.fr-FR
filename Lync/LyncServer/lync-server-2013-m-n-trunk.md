@@ -1,35 +1,65 @@
-﻿---
-title: 'Lync Server 2013 : Jonction M:N'
-TOCTitle: Jonction M:N
-ms:assetid: dc4c5d66-297c-48a5-91b9-b9b8ce44a6e0
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398971(v=OCS.15)
-ms:contentKeyID: 49299067
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: M:N Trunk'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: M:N trunk
+ms:assetid: dc4c5d66-297c-48a5-91b9-b9b8ce44a6e0
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398971(v=OCS.15)
+ms:contentKeyID: 48185592
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a99a76c2291b8ffcfcb1c68367ab6a999211c24f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34830916"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Jonction M:N dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-10-01_
+# <a name="mn-trunk-in-lync-server-2013"></a>M:N Trunk dans Lync Server 2013
 
-Lync Server 2013 offre une flexibilité accrue dans la définition d’une jonction à des fins de routage des appels par rapport aux versions précédentes. Une jonction est une association logique entre un serveur de médiation et un numéro de port d’écoute avec une passerelle et un numéro de port d’écoute. Cela a plusieurs implications : un serveur de médiation peut avoir plusieurs jonctions vers la même passerelle ; un serveur de médiation peut avoir plusieurs jonctions vers différentes passerelles ; et inversement, une passerelle peut avoir plusieurs jonctions vers différents serveurs de médiation.
+</div>
 
-Une jonction racine doit toujours être créée quand une passerelle est ajoutée à la topologie Lync à l’aide du Générateur de topologie. Le nombre de passerelles pouvant être gérées par un serveur de médiation donné dépend de la capacité de traitement du serveur aux heures de pointe. Si vous déployez un serveur de médiation sur du matériel qui excède la configuration matérielle minimale requise pour Lync Server 2013 (comme décrit dans la section «  [Matériel pris en charge pour Lync Server 2013](lync-server-2013-supported-hardware.md) » de la documentation sur la capacité de prise en charge), le nombre d’appels actifs pouvant être gérés par un serveur de médiation autonome est d’environ 1 000 appels. Lorsqu’il est déployé sur du matériel conforme à ces spécifications, le serveur de médiation est censé effectuer le transcodage, mais il continue d’acheminer les appels vers plusieurs passerelles, même si elles ne prennent pas en charge la déviation du trafic multimédia.
+<div id="mainSection">
 
-Lorsque vous définissez un itinéraire téléphonique, vous spécifiez les jonctions, mais pas les serveurs de médiation, qui lui sont associées. Vous devez utiliser le Générateur de topologie pour associer les jonctions aux serveurs de médiation. En d’autres termes, le routage détermine quelle jonction utiliser pour un appel, puis la signalisation pour cette appel est envoyée au serveur de médiation associé à cette jonction.
+<div id="mainBody">
 
-Le serveur de médiation peut être déployé en tant que pool qui peut être colocalisé avec un pool de serveurs frontaux ou déployé en tant que pool autonome. Lorsqu’un serveur de médiation est colocalisé avec un pool de serveurs frontaux, le pool peut contenir 12 serveurs au plus (taille maximale du pool de serveurs d’inscription). Ensemble, ces nouvelles fonctionnalités augmentent la fiabilité et la facilité de déploiement d’un serveurs de médiation, mais elles doivent être associées à d’autres fonctionnalités dans les entités homologues suivantes :
+<span> </span>
 
-  - **Passerelle RTC.** Une passerelle qualifiée Lync Server 2013 doit implémenter l’équilibrage de la charge DNS, ce qui permet à une passerelle RTC qualifiée de jouer le rôle de programme d’équilibrage de charge pour un pool de serveurs de médiation, et ainsi d’équilibrer la charge des appels dans le pool.
+_**Dernière modification de la rubrique:** 2012-10-01_
 
-  - **Contrôleur de frontière de session.** Pour une jonction SIP, l’entité homologue est un contrôleur de frontière de session (SBC) chez un fournisseur de services de téléphonie Internet. Dans le sens pool de serveurs de médiation-Contrôleur SBC, le contrôleur SBC peut recevoir des connexions provenant de tout serveur de médiation du pool. Dans le sens Contrôleur SBC-Pool, le trafic peut être acheminé vers n’importe quel serveur de médiation du pool. L’équilibrage de la charge DNS permet d’y parvenir si le fournisseur de services et le contrôleur SBC le prennent en charge. Il est également possible de donner au fournisseur de services les adresses IP de tous les serveurs de médiation du pool. Il les configure alors dans son contrôleur SBC en tant que jonction SIP distincte pour chaque serveur de médiation. Le fournisseur de services gère ensuite l’équilibrage de charge pour ses propres serveurs. Tous les fournisseurs de services ou contrôleurs SBC ne prennent pas en charge ces fonctionnalités. Et certains fournisseurs de services font payer cette fonctionnalité. Chaque jonction SIP vers le contrôleur SBC requiert généralement le paiement d’une redevance mensuelle.
+Lync Server 2013 prend en charge une plus grande souplesse dans la définition d’un Trunk pour le routage des appels à partir des versions précédentes. Un Trunk est une association logique entre un serveur de médiation et un numéro de port d’écoute avec une passerelle et un numéro de port d’écoute. Cela implique plusieurs facteurs: un serveur de médiation peut avoir plusieurs Trunks vers la même passerelle; un serveur de médiation peut avoir plusieurs Trunks pour différentes passerelles. à l’inverse, une passerelle peut avoir plusieurs Trunks pour différents serveurs de médiation.
 
-  - **IP-PBX.**Dans le sens pool de serveurs de médiation-Terminaison SIP IP-PBX, le système IP-PBX peut recevoir des connexions provenant de n’importe quel serveur de médiation du pool. Dans le sens IP-PBX-Pool, le trafic peut être acheminé vers n’importe quel serveur de médiation du pool. Comme la plupart des systèmes IP-PBX ne prennent pas en charge l’équilibrage de charge DNS, il est conseillé de définir des connexions SIP directes individuelles du système IP-PBX vers chaque serveur de médiation du pool. Le système IP-PBX gère ensuite son propre équilibrage de charge en répartissant le trafic dans le groupe de jonctions, supposé avoir un ensemble cohérent de règles de routage sur le système IP-PBX. Avant de décider si un cluster de serveur de médiation peut interagir correctement avec un système IP-PBX, vous devez déterminer si un système IP-PBX donné prend en charge ce concept de groupe de jonctions et comment il s’articule avec l’architecture de redondance et de clustering du système IP-PBX.
+Un Trunk racine est toujours requis pour être créé lors de l’ajout d’une passerelle à la topologie Lync à l’aide du générateur de topologie. Le nombre de passerelles qu’un serveur de médiation peut gérer dépend de la capacité de traitement du serveur pendant les heures de pointe. Si vous déployez un serveur de médiation sur du matériel qui dépasse la configuration minimale requise pour Lync Server 2013, comme décrit dans la section [matériel pris en charge pour Lync server 2013](lync-server-2013-supported-hardware.md) dans la documentation de prise en charge, puis l’estimation du nombre de non-contournement actif appels un serveur de médiation autonome peut gérer plus d’un appel 1000. Lorsqu’il est déployé sur du matériel et répondez à ces spécifications, le serveur de médiation doit procéder au transcodage, mais continuer à acheminer les appels pour plusieurs passerelles, même si les passerelles ne prennent pas en charge la dérivation multimédia.
 
-Un pool de serveurs de médiation doit disposer d’une vue uniforme de la passerelle homologue avec laquelle il interagit. Cela signifie que tous les membres du pool accèdent à la même définition de passerelle homologue à partir du magasin de configurations et qu’ils ont tous autant de chances d’interagir avec elle pour les appels sortants. Par conséquent, il n’est pas possible de segmenter le pool pour que quelques serveurs de médiation communiquent avec certains homologues de passerelles uniquement pour les appels sortants. S’il est nécessaire de procéder à cette segmentation, vous devez utiliser un pool distinct de serveurs de médiation. Ce serait le cas, par exemple, si les fonctionnalités associées dans les passerelles RTC, jonctions SIP ou systèmes IP-PBX pour interagir avec un pool n’étaient pas présentes (voir plus haut dans cette rubrique).
+Lors de la définition d’un itinéraire d’appel, vous spécifiez les Trunks associés à cet itinéraire, mais vous ne spécifiez pas les serveurs de médiation associés à cet itinéraire. À la place, vous utilisez le générateur de topologie pour associer des Trunks aux serveurs de médiation. En d’autres termes, le routage détermine le Trunk à utiliser pour un appel et, par la suite, le serveur de médiation associé à cette ligne envoie le signalement pour cet appel.
 
-Une passerelle RTC particulière, ou un système IP-PBX ou un homologue de jonction SIP particulier peut acheminer des appels vers plusieurs serveurs de médiation ou jonctions. Le nombre de passerelles pouvant être contrôlées par un pool donné de serveurs de médiation dépend du nombre d’appels qui utilisent la déviation du trafic multimédia. Si de nombreux appels utilisent la déviation du trafic multimédia, un serveur de médiation du pool peut gérer bien d’autres appels, car seul le traitement de couche de signalisation est nécessaire.
+Le serveur de médiation peut être déployé en tant que pool. ce pool peut être colocalisé avec un pool frontal ou déployé en tant que pool autonome. Lorsqu’un serveur de médiation est colocalisé avec un pool frontal, la taille du pool peut être 12 (la limite de la taille du pool d’inscriptions). Grâce à ces nouvelles fonctionnalités, la flexibilité et la souplesse de déploiement pour les serveurs de médiation peuvent être associées, mais ils nécessitent des fonctionnalités associées dans les entités homologues suivantes:
+
+  - **Passerelle RTC.** Une passerelle éligible de Lync Server 2013 doit implémenter l’équilibrage de charge DNS, ce qui permet à une passerelle RTC (réseau téléphonique commuté) qualifiée d’un équilibreur de charge d’un pool de serveurs de médiation, et donc de répartir les appels sur le pool.
+
+  - **Contrôleur de bordure de session.** Dans le cas d’un Trunk SIP, l’entité homologue est un contrôleur de bordure de session (SBC) sur un fournisseur de services de téléphonie Internet. Dans la direction du pool de serveurs de médiation vers SBC, l’SBC peut recevoir des connexions à partir d’un serveur de médiation du pool. Dans la direction de l’SBC vers le pool, le trafic peut être envoyé à un serveur de médiation du pool. Il est possible d’effectuer cette opération par le biais de l’équilibrage de charge DNS, le cas échéant par le fournisseur de services et SBC. Une autre solution consiste à fournir à l’opérateur de service les adresses IP de tous les serveurs de médiation du pool, et le prestataire de services les mettra en service dans leur SBC en tant que serveur SIP distinct pour chaque serveur de médiation. Le prestataire de services doit alors gérer l’équilibrage de charge de ses propres serveurs. Tous les fournisseurs de services ou SBCs ne prennent pas en charge ces fonctionnalités. Par ailleurs, le prestataire de services pourra facturer des frais supplémentaires pour cette fonctionnalité. En règle générale, chaque ligne SIP de l’SBC entraîne des frais mensuels.
+
+  - **PBX IP.** Dans la direction du pool de serveurs de médiation vers arrêt SIP IP-PBX, le PBX IP peut recevoir des connexions à partir de n’importe quel serveur de médiation du pool. Dans la direction du système PBX IP vers le pool, le trafic peut être envoyé à un serveur de médiation du pool. Étant donné que la plupart des PBX IP ne prennent pas en charge l’équilibrage de charge DNS, il est recommandé de définir des connexions SIP directes individuelles entre le PBX IP et chaque serveur de médiation du pool. Le PBX IP doit alors gérer son propre équilibrage de charge en répartissant le trafic via le groupe de lignes. L’hypothèse est que le groupe Trunk dispose d’un ensemble cohérent de règles de routage au PBX IP. Si un PBX IP particulier prend en charge ce concept de groupe de lignes et comment il s’intersecte avec la redondance et l’architecture de regroupement du PBX IP, vous devez déterminer si un cluster de serveurs de médiation peut interagir correctement avec un PBX IP.
+
+Un pool de serveurs de médiation doit avoir une vue uniforme de la passerelle homologue avec laquelle il interagit. Cela signifie que tous les membres du pool accèdent à la même définition de passerelle homologue à partir du magasin de configurations et qu’ils ont tous autant de chances d’interagir avec elle pour les appels sortants. Par conséquent, il n’existe aucun moyen de segmenter le pool de façon à ce que certains serveurs de médiation communiquent uniquement avec certains homologues de passerelle pour les appels sortants. Si une telle segmentation est nécessaire, il est nécessaire d’utiliser une réserve distincte de serveurs de médiation. Ce serait le cas, par exemple, si les fonctionnalités associées dans les passerelles RTC, jonctions SIP ou systèmes IP-PBX pour interagir avec un pool n’étaient pas présentes (voir plus haut dans cette rubrique).
+
+Une passerelle RTC, un PBX IP ou un homologue de réseau SIP en particulier peuvent être routés vers plusieurs serveurs ou Trunks de médiation. Le nombre de passerelles qu’un pool particulier de serveurs de médiation peut contrôler dépend du nombre d’appels utilisant une dérivation multimédia. Si un grand nombre d’appels utilise le contournement du contenu multimédia, un serveur de médiation du pool peut gérer de nombreux appels, car seul le traitement de la couche de signalisation est nécessaire.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

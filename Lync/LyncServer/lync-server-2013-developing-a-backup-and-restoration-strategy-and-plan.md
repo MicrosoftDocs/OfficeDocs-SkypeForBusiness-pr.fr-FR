@@ -1,29 +1,63 @@
-﻿---
-title: Développement d’un plan et d’une stratégie de sauvegarde et de restauration
-TOCTitle: Développement d’un plan et d’une stratégie de sauvegarde et de restauration
-ms:assetid: 17599b76-1a84-4dd6-b695-c19637deb8a6
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Hh202164(v=OCS.15)
-ms:contentKeyID: 53095363
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: développement d’une stratégie de sauvegarde et de restauration'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Developing a backup and restoration strategy and plan
+ms:assetid: 17599b76-1a84-4dd6-b695-c19637deb8a6
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202164(v=OCS.15)
+ms:contentKeyID: 51541447
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: d6160fa65a9c3578d384c27361424307e9e37d34
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831436"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Développement d’un plan et d’une stratégie de sauvegarde et de restauration
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2013-02-17_
+# <a name="developing-a-backup-and-restoration-strategy-and-plan-for-lync-server-2013"></a>Développement d’une stratégie de sauvegarde et de restauration et planification pour Lync Server 2013
 
-L’efficacité de vos opérations de sauvegarde et de restauration Lync Server dépend de votre stratégie et plan de sauvegarde et de restauration. Vous devez établir une stratégie pour sauvegarder et restaurer Lync Server qui s’inscrit dans la stratégie globale de votre organisation et un plan concis et exhaustif pour sauvegarder et restaurer les données et les paramètres et, dans le cas d’une panne, un plan pour restaurer le service.
+</div>
 
-Pour bénéficier d’une récupération d’urgence d’un pool frontal la plus robuste possible, utilisez la topologie de récupération d’urgence avec jumelage de pools introduite dans Lync Server 2013. Pour plus d’informations, voir [Planification de la haute disponibilité et de la récupération d’urgence dans Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).
+<div id="mainSection">
 
-## Dans cette section
+<div id="mainBody">
 
-  - [Établissement d’une stratégie de sauvegarde et de restauration](lync-server-2013-establishing-a-backup-and-restoration-strategy.md)
+<span> </span>
 
-  - [Établissement d’un plan de sauvegarde et de restauration](lync-server-2013-establishing-a-backup-and-restoration-plan.md)
+_**Dernière modification de la rubrique:** 2013-02-17_
 
-  - [Configuration d’un emplacement de sauvegarde](lync-server-2013-setting-up-a-backup-location.md)
+L’efficacité de vos opérations de sauvegarde et de restauration de Lync Server dépend de la stratégie et de la planification de la sauvegarde et de la restauration. Vous devez établir une stratégie de sauvegarde et de restauration d’un serveur Lync qui s’adapte à la stratégie globale de votre organisation, ainsi qu’un plan complet et concis pour la sauvegarde des données et des paramètres, et, en cas de panne, un plan de restauration des services.
+
+Dans le cas d’une reprise après sinistre plus fiable d’un pool frontal, utilisez la topologie de reprise de sinistre de réserve de réserve introduite dans Lync Server 2013. Pour plus d’informations, reportez-vous à [planification d’une haute disponibilité et reprise après sinistre dans Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).
+
+<div>
+
+## <a name="in-this-section"></a>Dans cette section
+
+  - [Établissement d’une stratégie de sauvegarde et de restauration pour Lync Server 2013](lync-server-2013-establishing-a-backup-and-restoration-strategy.md)
+
+  - [Établissement d’un plan de sauvegarde et de restauration pour Lync Server 2013](lync-server-2013-establishing-a-backup-and-restoration-plan.md)
+
+  - [Configuration d’un emplacement de sauvegarde pour Lync Server 2013](lync-server-2013-setting-up-a-backup-location.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,51 +1,81 @@
-﻿---
-title: Installation de SQL Server Reporting Services
-TOCTitle: Installation de SQL Server Reporting Services
-ms:assetid: 638a1d0c-1ac7-4735-83f2-4df3d03c7cf9
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204957(v=OCS.15)
-ms:contentKeyID: 49297408
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: installation de SQL Server Reporting Services'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Installing SQL Server Reporting Services
+ms:assetid: 638a1d0c-1ac7-4735-83f2-4df3d03c7cf9
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204957(v=OCS.15)
+ms:contentKeyID: 48184345
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 6707cafc3a08123bd2189639704741681eb9cdd6
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34830986"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Installation de SQL Server Reporting Services
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-06-20_
+# <a name="installing-sql-server-reporting-services-in-lync-server-2013"></a>Installation de SQL Server Reporting Services dans Lync Server 2013
 
-Si vous avez l’intention d’utiliser les rapports de surveillance Microsoft Lync Server 2013 (voir la section suivante de ce document pour plus d’informations), vous devez d’abord installer SQL Server Reporting Services. Vous pouvez le faire lors de l’installation de Microsoft SQL Server ou à tout moment après l’installation de SQL Server. Si vous n’avez pas installé SQL Server, suivez les instructions fournies plus haut dans cette documentation. Lorsque vous installez SQL Server, dans la page Sélection des composants, veillez à sélectionner Reporting Services pour installer SQL Server Reporting Services.
+</div>
 
-Si vous avez déjà installé SQL Server, mais que vous n’avez pas installé SQL Server Reporting Services, vous pouvez ajouter ce composant en suivant les instructions ci-après pour SQL Server 2008 R2 ou SQL Server 2012.
+<div id="mainSection">
 
-Pour vérifier que Reporting Services a été correctement installé, procédez comme suit :
+<div id="mainBody">
 
-1.  Si vous exécutez Microsoft SQL Server 2008 R2, cliquez successivement sur **Démarrer**, sur **Tous les programmes**, sur **Microsoft SQL Server 2008 R2**, sur **Outils de configuration**, puis sur **Gestionnaire de configuration de Reporting Services**.
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-06-20_
+
+Si vous envisagez d’utiliser les rapports d’analyse de Microsoft Lync Server 2013 (voir la section suivante de cette documentation pour plus d’informations), vous devez d’abord installer SQL Server Reporting Services. Reporting Services peut être installé en même temps que Microsoft SQL Server ou à tout moment après l’installation de SQL Server. Vous pouvez le faire lors de l’installation de Microsoft SQL Server ou à tout moment après l’installation de SQL Server. Si vous n’avez pas installé SQL Server, suivez les instructions fournies plus haut dans cette documentation. Lorsque vous installez SQL Server, dans la page Sélection des composants, veillez à sélectionner Reporting Services pour installer SQL Server Reporting Services.
+
+Si vous avez déjà installé SQL Server, mais que vous n’avez pas installé SQL Server Reporting Services, vous pouvez ajouter cette fonctionnalité en suivant les instructions appropriées pour SQL Server 2008 R2 ou SQL Server 2012, selon le cas.
+
+Pour vérifier que Reporting Services a été installé correctement, procédez comme suit:
+
+1.  Si vous exécutez Microsoft SQL Server 2008 R2, cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft SQL Server 2008 R2**, sur **outils de configuration**, puis sur **Gestionnaire de configuration**de Reporting Services.
     
-    Si vous exécutez Microsoft SQL Server 2012, cliquez successivement sur **Démarrer**, sur **Tous les programmes**, sur **Microsoft SQL Server 2012**, sur **Outils de configuration**, puis sur **Gestionnaire de configuration de Reporting Services**.
+    Si vous exécutez Microsoft SQL Server 2012, cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft SQL Server 2012**, sur **outils de configuration**, puis sur **Gestionnaire de configuration Reporting Services**.
 
-2.  Dans la boîte de dialogue **Connexion relative à la configuration de Reporting Services**, vérifiez que le nom de votre serveur apparaît dans la zone **Nom du serveur** et que le nom de l’instance de SQL Server qui stocke vos données de surveillance apparaît dans la zone **Instance du serveur de rapports**. Cliquez sur **Connexion**.
+2.  Dans la boîte de dialogue **connexion de configuration** de Reporting Services, vérifiez que le nom de votre serveur apparaît dans la zone **nom du serveur** et que le nom de l’instance SQL Server qui stocke vos données de surveillance s’affiche dans le serveur de **rapports. **Zone d’instance. Cliquez sur **connexion**.
 
-Dans le Gestionnaire de configuration de Reporting Services, le volet État de Report Server doit indiquer que SQL Server Reporting Services est installé et que Reporting Services est en cours d’exécution : l’état Report Server doit être **Démarré** et le bouton **Démarrer** doit être grisé et non disponible. Si Reporting Services n’est pas en cours d’exécution, cliquez sur **Démarrer** pour démarrer le service.
+Dans le gestionnaire de configuration de service de rapports, le volet État du serveur de rapport doit indiquer que SQL Server Reporting Services est installé et que les services de création de rapports sont en cours d’exécution: l’état du serveur de rapport doit apparaître comme **démarré** et le bouton **Démarrer** doit être grisé et indisponible. Si le service de création de rapports n’est pas en cours d’exécution, cliquez sur **Démarrer** pour démarrer le service.
 
-Si aucune base de données n’est répertoriée en regard de l’étiquette Nom de la base de données du serveur de rapports, procédez comme suit :
+Si aucune base de données n’est répertoriée en regard de l’étiquette de nom de la base de données du serveur de rapports, procédez comme suit:
 
-1.  Dans le Gestionnaire de configuration de Reporting Services, cliquez sur **Base de données**.
+1.  Dans le gestionnaire de configuration Reporting Services, cliquez sur **base de données**.
 
-2.  Dans le volet Base de données du serveur de rapports, cliquez sur **Changer la base de données**.
+2.  Dans le volet base de données du serveur de rapport, cliquez sur **modifier la base de données**.
 
-3.  Dans le volet Action de l’Assistant de configuration de la base de données du serveur de rapports, sélectionnez **Créer une nouvelle base de données de serveur de rapports**, puis cliquez sur **Suivant**.
+3.  Dans l’Assistant Configuration de la base de données serveur de rapports, dans le volet action, sélectionnez **créer une nouvelle base de données serveur de rapports** , puis cliquez sur **suivant**.
 
-4.  Dans le volet Serveur de bases de données de l’Assistant de configuration de la base de données du serveur de rapports, vérifiez que les informations contenues dans les zones **Nom du serveur**, **Type d’authentification** et **Nom d’utilisateur** sont correctes. Cliquez sur **Tester la connexion** pour vérifier qu’une connexion peut être établie au serveur de base de données, puis cliquez sur **Suivant**.
+4.  Dans l’Assistant Configuration de la base de données serveur de rapports, dans le volet serveur de base de données, vérifiez que les informations répertoriées dans les zones **nom du serveur**, **type d’authentification**et **nom d’utilisateur** sont correctes. Cliquez sur **tester la connexion** pour vérifier qu’aucune connexion ne peut être établie avec le serveur de base de données, puis cliquez sur **suivant**.
 
-5.  Dans le volet Base de données de l’Assistant de configuration de la base de données du serveur de rapports, acceptez les valeurs par défaut pour **Nom de la base de données**, **Langue** et **Mode du serveur de rapports**, puis cliquez sur **Suivant**.
+5.  Dans l’Assistant Configuration de la base de données du serveur de rapports, dans le volet base de données, acceptez les valeurs par défaut pour **nom de la base de données**, **langue**et **mode serveur du rapport** , puis cliquez sur **suivant**.
 
-6.  Dans le volet Informations d’identification de l’Assistant de configuration de la base de données du serveur de rapports, vérifiez que les informations contenues dans la liste déroulante **Nom du serveur** et dans les zones **Nom d’utilisateur** et **Mot de passe** sont correctes, puis cliquez sur **Suivant**.
+6.  Dans l’Assistant Configuration de la base de données du serveur de rapports, dans le volet informations d’identification, vérifiez que les informations appropriées apparaissent dans la liste déroulante **type d’authentification** et dans les zones **nom d’utilisateur** et **mot de passe** , puis cliquez sur **suivant**.
 
-7.  Dans le volet Résumé de l’Assistant de configuration de la base de données du serveur de rapports, cliquez sur **Suivant**.
+7.  Dans l’Assistant Configuration de la base de données serveur de rapports, dans le volet Résumé, cliquez sur **suivant**.
 
-8.  Dans le volet État d’avancement et fin de l’Assistant de configuration de la base de données du serveur de rapports, cliquez sur **Terminer**.
+8.  Dans l’Assistant Configuration de la base de données serveur de rapports, dans le volet progression et fin, cliquez sur **Terminer**.
 
-Pour vérifier que les URL de Reporting Services ont bien été configurées, cliquez sur **URL du service web**. Vous devriez voir une ou plusieurs URL sous la rubrique **URL du service web Report Server**. Cliquez sur chacune de ces URL pour vérifier que vous pouvez accéder à la page d’accueil de l’installation locale de SQL Server Reporting Services.
+Pour vérifier que les URL du service de création de rapports ont été configurées, cliquez sur **URL du service Web**. Une ou plusieurs URL sont indiquées sous les **URL du service Web de rapport**de titre Server. Cliquez sur chacune de ces URL pour vérifier que vous pouvez accéder à la page d’accueil de l’installation locale de SQL Server Reporting Services.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

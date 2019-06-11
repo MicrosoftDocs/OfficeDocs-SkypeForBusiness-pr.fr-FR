@@ -1,41 +1,96 @@
-﻿---
-title: "LS 2013 : Dépl. d’un SBA ou SBS sur site de succ. - tâche de site de succ."
-TOCTitle: Déploiement d’un Survivable Branch Appliance ou d’un serveur Survivable Branch Server sur un site de succursale - tâche de site de succursale
-ms:assetid: 7989ba29-0419-46dd-892c-4ad3238afd56
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398599(v=OCS.15)
-ms:contentKeyID: 49297810
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Déploiement d’un Survivable Branch Appliance ou d’un serveur Survivable Branch Server sur un site de succursale - tâche de site de succursale
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deploy a Survivable Branch Appliance or Server - branch site task
+ms:assetid: 7989ba29-0419-46dd-892c-4ad3238afd56
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398599(v=OCS.15)
+ms:contentKeyID: 48184586
+ms.date: 10/29/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0f9c50e2c2377ead96f155beb2471419edb9da91
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831577"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Déploiement d’un Survivable Branch Appliance ou d’un serveur Survivable Branch Server sur un site de succursale avec Lync Server 2013 - tâche de site de succursale
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2014-10-28_
+# <a name="deploy-a-survivable-branch-appliance-or-server-with-lync-server-2013---branch-site-task"></a>Déploiement d’un Survivable Branch Appliance ou d’un serveur Survivable Branch Server sur un site de succursale avec Lync Server 2013 - tâche de site de succursale
 
-Exécutez l’une des deux procédures décrites dans cette rubrique sur le site de succursale, après avoir terminé les tâches indiquées dans [Déploiement d’un Survivable Branch Appliance ou d’un serveur Survivable Branch Server avec Lync Server 2013 - Tâches pour un site central](lync-server-2013-deploying-a-survivable-branch-appliance-or-server-central-site-tasks.md).
+</div>
 
-> [!IMPORTANT]  
-> Pour exécuter cette procédure, vous devez être membre du groupe RTCUniversalSBATechnicians.
+<div id="mainSection">
 
-## Pour déployer le Survivable Branch Appliance
+<div id="mainBody">
 
-  - Le déploiement du Survivable Branch Appliance est activé par le fournisseur du Survivable Branch Appliance via une interface utilisateur web. Pour plus d’informations sur le déploiement du Survivable Branch Appliance, reportez-vous à la documentation du fabricant du Survivable Branch Appliance.
+<span> </span>
 
-## Pour déployer le serveur Survivable Branch Server
+_**Dernière modification de la rubrique:** 2014-10-28_
 
-  - Installez Microsoft Lync Server 2010 sur un ordinateur exécutant Windows Server 2008 ou Windows Server 2008 R2, comme si vous installiez un rôle serveur Lync Server 2013.
+Effectuez l’une des deux procédures décrites dans cette rubrique sur le site de succursale, une fois que vous avez terminé les tâches de [déploiement d’une unité ou d’un serveur de succursales survivant avec Lync Server 2013-tâches de site central](lync-server-2013-deploying-a-survivable-branch-appliance-or-server-central-site-tasks.md).
+
+<div>
+
+
+> [!IMPORTANT]
+> Pour effectuer cette procédure, vous devez être membre du groupe RTCUniversalSBATechnicians.
+
+
+
+</div>
+
+<div>
+
+## <a name="to-deploy-the-survivable-branch-appliance"></a>Pour déployer l’application branche Survivable
+
+  - Le déploiement de l’application branchement Survivable est activé par le fournisseur de l’appareil de succursale Survivable via une interface utilisateur Web. Pour plus d’informations sur le déploiement de l’application branche Survivable, consultez la documentation de votre fournisseur de solutions de branchement Survivable.
+
+</div>
+
+<div>
+
+## <a name="to-deploy-the-survivable-branch-server"></a>Pour déployer le serveur de succursales survivant
+
+  - Installez Lync Server 2013 sur un ordinateur exécutant Windows Server 2008 R2, Windows Server 2012 ou Windows Server 2012 R2, comme vous le feriez pour tout autre rôle serveur Lync Server 2013.
     
-    > [!NOTE]  
-    > Pour plus d’informations sur l’installation de Lync Server, reportez-vous à <a href="lync-server-2013-deploying-lync-server.md">Déploiement de Lync Server 2013</a> dans la documentation de déploiement.
+    <div>
+    
 
-**Étape suivante**: [Configuration des utilisateurs pour la résistance de sites de succursale dans Lync Server 2013](lync-server-2013-configuring-users-for-branch-site-resiliency.md)
+    > [!NOTE]
+    > Pour plus d’informations sur l’installation de Lync Server, voir <A href="lync-server-2013-deploying-lync-server.md">déploiement de Lync server 2013</A> dans la documentation de déploiement.
 
-## Voir aussi
+    
+    </div>
 
-#### Tâches
+**Étape suivante**: [configurer les utilisateurs pour la résilience du site de succursale dans Lync Server 2013](lync-server-2013-configuring-users-for-branch-site-resiliency.md)
 
-[Annexe A : Utilisation d’applets de commande pour déployer un Survivable Branch Appliance dans Lync Server 2013](lync-server-2013-appendix-a-using-cmdlets-to-deploy-a-survivable-branch-appliance.md)
+</div>
+
+<div>
+
+## <a name="see-also"></a>Voir aussi
+
+
+[Annexe A : Utilisation d’applets de commande pour déployer un Survivable Branch Appliance dans Lync Server 2013](lync-server-2013-appendix-a-using-cmdlets-to-deploy-a-survivable-branch-appliance.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

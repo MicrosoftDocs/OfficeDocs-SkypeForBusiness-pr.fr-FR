@@ -1,23 +1,45 @@
-﻿---
-title: 'Lync Server 2013 : Rapport d’emplacement'
-TOCTitle: Rapport d’emplacement
-ms:assetid: cb2f1551-1e21-4f13-a39d-91f5f9010ccf
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg615035(v=OCS.15)
-ms:contentKeyID: 49298871
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: rapport d’emplacement'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Location Report
+ms:assetid: cb2f1551-1e21-4f13-a39d-91f5f9010ccf
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615035(v=OCS.15)
+ms:contentKeyID: 48185641
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0ac5ab1d077acb8f96849b4ac44911a4c90786fa
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34830943"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Rapport d’emplacement dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2015-03-09_
+# <a name="location-report-in-lync-server-2013"></a>Rapport d’emplacement dans Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-10-01_
 
 Le rapport d’emplacement fournit des informations sur les mesures de la qualité des appels regroupées par emplacement réseau (c’est-à-dire, par sous-réseau). Si vos utilisateurs rencontrent des problèmes avec leurs appels, ce rapport peut vous aider à déterminer si ces problèmes sont étendus ou s’ils sont largement réduits à un segment de réseau donné.
 
-## Accès au rapport d’emplacement
+<div>
+
+## <a name="accessing-the-location-report"></a>Accès au rapport d’emplacement
 
 Le rapport d’emplacement est accessible à partir de la page d’accueil des rapports de surveillance. Vous pouvez accéder au rapport des listes d’appels en cliquant sur l’une des mesures suivantes :
 
@@ -25,13 +47,17 @@ Le rapport d’emplacement est accessible à partir de la page d’accueil des r
 
   - Pourcentage d’appels médiocres
 
-## Filtres
+</div>
 
-Les filtres vous offrent la possibilité de renvoyer un ensemble de données mieux ciblées ou de visualiser les données renvoyées de différentes manières. Par exemple, le rapport d’emplacement vous permet de filtrer des éléments comme l’emplacement duquel un appel provient ou s’il s’est produit sur une connexion réseau câblée ou sans fil. Vous pouvez également choisir le mode de groupement des données. Dans ce cas, les appels sont groupés par heure, jour, semaine ou mois.
+<div>
+
+## <a name="filters"></a>Filtres
+
+Les filtres vous offrent la possibilité de renvoyer un ensemble de données mieux ciblées ou de visualiser les données renvoyées de différentes manières. Par exemple, le rapport d’emplacement vous permet de filtrer des éléments comme l’emplacement duquel un appel provient ou s’il s’est produit sur une connexion réseau câblée ou sans fil. Vous pouvez également choisir le mode de groupement des données. Dans ce cas, les appels sont groupés par heure, jour, semaine ou mois.
 
 Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le rapport d’emplacement.
 
-### Filtres du rapport d’emplacement
+### <a name="location-report-filters"></a>Filtres du rapport d’emplacement
 
 <table>
 <colgroup>
@@ -67,11 +93,11 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 </tr>
 <tr class="odd">
 <td><p><strong>Emplacement de l’appelant</strong></p></td>
-<td><p>Sous-réseau IP de l’utilisateur qui a émis l’appel. Vous pouvez uniquement sélectionner <strong>[Tous]</strong> pour indiquer tous les sous-réseaux.</p></td>
+<td><p>Sous-réseau IP de l’utilisateur qui a émis l’appel. Vous ne pouvez sélectionner <strong>[tout]</strong> pour indiquer tous les sous-réseaux.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Emplacement de l’appelé</strong></p></td>
-<td><p>Sous-réseau IP de l’utilisateur qui a reçu l’appel. Vous pouvez uniquement sélectionner <strong>[Tous]</strong> pour indiquer tous les sous-réseaux.</p></td>
+<td><p><strong>Emplacement du rappel</strong></p></td>
+<td><p>Sous-réseau IP de l’utilisateur qui a reçu l’appel. Vous ne pouvez sélectionner <strong>[tout]</strong> pour indiquer tous les sous-réseaux.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Type de réseau</strong></p></td>
@@ -95,11 +121,15 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 </table>
 
 
-## Mesures
+</div>
 
-Le tableau qui suit répertorie les informations fournies dans le rapport d’emplacement.
+<div>
 
-### Mesures du rapport d’emplacement
+## <a name="metrics"></a>Mesures
+
+Le tableau suivant répertorie les informations fournies dans le rapport d’emplacements.
+
+### <a name="location-report-metrics"></a>Métrique de rapport d’emplacement
 
 <table>
 <colgroup>
@@ -116,12 +146,12 @@ Le tableau qui suit répertorie les informations fournies dans le rapport d’em
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Sous-réseau de l’appelant</strong></p></td>
+<td><p><strong>Sous-réseau appelant</strong></p></td>
 <td><p>Non</p></td>
 <td><p>Sous-réseau IP de l’utilisateur qui a émis l’appel.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Sous-réseau de l’appelé</strong></p></td>
+<td><p><strong>Sous-réseau appelé</strong></p></td>
 <td><p>Non</p></td>
 <td><p>Sous-réseau IP de l’utilisateur qui a reçu l’appel.</p></td>
 </tr>
@@ -133,7 +163,7 @@ Le tableau qui suit répertorie les informations fournies dans le rapport d’em
 <tr class="even">
 <td><p><strong>Pourcentage d’appels médiocres</strong></p></td>
 <td><p>Oui</p></td>
-<td><p>Pourcentage d’appels jugés et classés comme étant médiocres. Un appel médiocre désigne un appel dont l’une des valeurs mesurées est supérieure à la valeur autorisée (par exemple, un appel soumis à un phénomène de gigue excessive).</p></td>
+<td><p>Pourcentage d’appels classés comme appels médiocres. Un appel médiocre désigne un appel dont l’une des valeurs mesurées est supérieure à la valeur autorisée (par exemple, un appel soumis à un phénomène de gigue excessive).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Boucle (ms)</strong></p></td>
@@ -144,7 +174,7 @@ Le tableau qui suit répertorie les informations fournies dans le rapport d’em
 <tr class="even">
 <td><p><strong>Dégradation (MOS)</strong></p></td>
 <td><p>Oui</p></td>
-<td><p>Taux moyen de dégradation de la note moyenne d’opinion (MOS) observé au cours d’un appel. Les valeurs de dégradation peuvent aller de 0,0 (la plus faible) à 5,0 (la plus élevée). Une valeur de 0,5 ou moins signifie une dégradation acceptable. Traditionnellement, les notes moyennes d’opinion sont calculées en demandant aux utilisateurs d’évaluer la qualité d’un appel sur une échelle de 1 à 5. Dans Lync Server, Lync Server se sert d’un ensemble d’algorithmes pour prédire la manière dont les utilisateurs auraient évalué un appel.</p>
+<td><p>Taux moyen de dégradation de la note moyenne d’opinion (MOS) observé au cours d’un appel. Les valeurs de dégradation peuvent aller de 0,0 (la plus faible) à 5,0 (la plus élevée). Une valeur de 0,5 ou moins signifie une dégradation acceptable. Traditionnellement, les notes moyennes d’opinion sont calculées en demandant aux utilisateurs d’évaluer la qualité d’un appel sur une échelle de 1 à 5. Dans Lync Server, Lync Server utilise un ensemble d’algorithmes pour prévoir la façon dont les utilisateurs auraient noté un appel.</p>
 <p>Les valeurs de dégradation élevées peuvent provenir d’une congestion, d’un dépassement de la bande passante disponible, d’une congestion/interférence dans la liaison sans fil ou bien d’un serveur multimédia ou d’un point de terminaison surchargé, ce qui se traduit par une distorsion ou une perte de l’audio.</p></td>
 </tr>
 <tr class="odd">
@@ -155,7 +185,7 @@ Le tableau qui suit répertorie les informations fournies dans le rapport d’em
 <tr class="even">
 <td><p><strong>Gigue</strong></p></td>
 <td><p>Oui</p></td>
-<td><p>Gigue moyenne détectée entre les arrivées de paquets RTP. (La gigue permet de mesurer les fluctuations d’un appel.) Les valeurs de gigue élevées peuvent provenir d’une congestion ou d’un serveur multimédia surchargé, ce qui se traduit par une distorsion ou une perte de l’audio.</p></td>
+<td><p>Gigue moyenne détectée entre les arrivées de paquets RTP. (Gigue est une mesure du &quot;shakiness&quot; d’un appel.) Les valeurs de gigue élevée sont généralement provoquées par une congestion ou un serveur multimédia surchargé, ce qui a pour effet de déformer ou de perdre du son.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Taux de masquage de la réparation</strong></p></td>
@@ -174,4 +204,17 @@ Le tableau qui suit répertorie les informations fournies dans le rapport d’em
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

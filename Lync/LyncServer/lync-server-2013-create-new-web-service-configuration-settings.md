@@ -1,41 +1,63 @@
-﻿---
-title: Création des paramètres de configuration d’un service web
-TOCTitle: Création des paramètres de configuration d’un service web
-ms:assetid: f3f04d81-8a1f-427f-bd0f-fb659024e096
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg182605(v=OCS.15)
-ms:contentKeyID: 49299319
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: créer de nouveaux paramètres de configuration de service Web'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Create new Web Service configuration settings
+ms:assetid: f3f04d81-8a1f-427f-bd0f-fb659024e096
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182605(v=OCS.15)
+ms:contentKeyID: 48185801
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 86105e4dbf6b624f87844a68ebe5fca6bba02247
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831824"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Création des paramètres de configuration d’un service web
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-11-01_
+# <a name="create-new-web-service-configuration-settings-in-lync-server-2013"></a>Créer des paramètres de configuration de service Web dans Lync Server 2013
 
-Vous pouvez utiliser la page **Service Web** pour configurer les méthodes d’authentification permettant d’accéder aux serveurs et services Web Lync Server 2013.
+</div>
 
-Procédez comme suit pour créer une stratégie de service Web.
+<div id="mainSection">
 
-## Pour créer une stratégie de service Web
+<div id="mainBody">
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou disposant des mêmes droits), ou affecté au rôle CsServerAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur qui se trouve sur le réseau sur lequel vous avez déployé Lync Server 2013.
+<span> </span>
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes de démarrage du Panneau de configuration Lync Server, voir [Ouvrir les outils d’administration Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+_**Dernière modification de la rubrique:** 2012-11-01_
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Sécurité**, puis sur **Service Web**.
+Vous pouvez utiliser la page de **service Web** pour configurer les méthodes d’authentification pour l’accès aux serveurs Web et aux services Web de Lync Server 2013.
 
-4.  Sur la page **Service Web**, cliquez sur **Nouveau**, puis effectuez l’une des opérations suivantes :
+Pour créer une stratégie de service web, procédez comme suit.
+
+<div>
+
+## <a name="to-create-new-web-service-configuration-settings"></a>Pour créer des paramètres de configuration d’un service web
+
+1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affectées au rôle CsServerAdministrator ou CsAdministrator, connectez-vous à n’importe quel ordinateur se trouve sur le réseau sur lequel vous avez déployé Lync Server 2013.
+
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+
+3.  Dans la barre de navigation de gauche, cliquez sur **Sécurité**, puis sur **Service web**.
+
+4.  Dans la page **Service web**, cliquez sur **Nouveau**, puis effectuez l’une des opérations suivantes :
     
-      - Pour configurer le service Web pour un site, cliquez sur **Configuration du site**. Dans **Sélectionner un site**, cliquez sur le site auquel le service Web s’appliquera, puis cliquez sur **OK**.
+      - Pour configurer le service web pour un site, cliquez sur **Configuration du site**. Dans **Sélectionner un site**, cliquez sur le site auquel le service web s’appliquera, puis cliquez sur **OK**.
     
-      - Pour configurer le service Web pour un pool, cliquez sur **Configuration du pool**. Dans **Sélectionner un service**, cliquez sur le service auquel la stratégie de service Web s’appliquera, puis cliquez sur **OK**.
+      - Pour configurer le service web pour un pool, cliquez sur **Configuration du pool**. Dans **Sélectionner un service**, cliquez sur le service auquel la stratégie de service web s’appliquera, puis cliquez sur **OK**.
 
-5.  Dans **Nouveau paramètre de service Web**, dans **Authentification Windows intégrée**, sélectionnez **Négocier**, **Authentification Windows intégrée** ou **Aucun**.
+5.  Dans **Nouveau paramètre de service web**, dans **Authentification Windows intégrée**, sélectionnez **Négocier**, **Authentification Windows intégrée** ou **Aucun**.
 
-6.  Sélectionnez une ou plusieurs des options suivantes en fonction des capacités des clients et de la prise en charge dans votre environnement :
+6.  Sélectionnez une ou plusieurs des options ci-dessous en fonction des capacités des clients et de la prise en charge dans votre environnement :
     
       - **Activer l’authentification par code confidentiel** pour pouvoir authentifier les clients au moyen de codes confidentiels.
     
@@ -44,4 +66,16 @@ Procédez comme suit pour créer une stratégie de service Web.
       - **Activer le téléchargement de chaîne de certificats** pour que les serveurs présentés avec un certificat d’authentification téléchargent la chaîne de certificats du certificat concerné.
 
 7.  Cliquez sur **Valider**.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

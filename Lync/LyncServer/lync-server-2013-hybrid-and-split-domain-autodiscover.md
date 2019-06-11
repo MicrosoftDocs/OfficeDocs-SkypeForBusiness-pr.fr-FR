@@ -1,39 +1,73 @@
-﻿---
-title: Hybride et domaine partagé - Découverte automatique
-TOCTitle: Hybride et domaine partagé - Découverte automatique
-ms:assetid: c855bcc5-b656-4d2d-92d6-f016f2797d3a
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ945652(v=OCS.15)
-ms:contentKeyID: 53095525
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: hybride et fractionné-domaine-découverte automatique'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Hybrid and split-domain - Autodiscover
+ms:assetid: c855bcc5-b656-4d2d-92d6-f016f2797d3a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945652(v=OCS.15)
+ms:contentKeyID: 51541520
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 389288a695f7e8ed96ab72d16f612ffd92a7b013
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831044"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Hybride et domaine partagé - Découverte automatique
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2013-02-14_
+# <a name="hybrid-and-split-domain---autodiscover-in-lync-server-2013"></a>Domaines hybrides et fractionnés-découverte automatique dans Lync Server 2013
 
-Un espace d’adressage SIP partagé, également appelé déploiement de *domaine séparé* ou déploiement *hybride*, est une configuration dans laquelle les utilisateurs sont déployés localement et dans un environnement en ligne. L’objectif est de permettre à un utilisateur, quel que soit l’emplacement de son serveur central (local ou en ligne), de se connecter au déploiement et d’être redirigé vers l’emplacement de son serveur central. La fonctionnalité de découverte automatique de Lync Server 2013 est alors utilisée pour rediriger l’utilisateur en ligne vers la topologie en ligne. Pour cela, vous devez configurer l’URL de découverte automatique à l’aide de Lync Server Management Shell et des applets de commande **Get-CsHostingProvider** et **Set-CsHostingProvider**.
+</div>
 
-## Mobilité pour le déploiement dans un domaine séparé
+<div id="mainSection">
 
-Vous devrez recueillir et enregistrer les attributs déployés suivants :
+<div id="mainBody">
 
-  - Depuis Lync Server Management Shell, tapez
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2013-02-14_
+
+Un espace d’adressage SIP partagé, également connu sous le nom de déploiement *Split-Domain* ou d’un déploiement *hybride* , est une configuration dans laquelle les utilisateurs sont déployés dans un déploiement local et un environnement en ligne. Le résultat escompté est d’avoir un utilisateur, où qu’il se trouve (en local ou en ligne), de se connecter au déploiement et d’être redirigé vers son emplacement du serveur d’origine. Pour ce faire, la fonctionnalité de découverte automatique de Lync Server 2013 est utilisée pour rediriger l’utilisateur en ligne vers la topologie en ligne. Pour ce faire, vous pouvez configurer le localisateur de ressources uniformes de découverte automatique (URL) à l’aide de Lync Server Management Shell, de l’applet **de action Get-CsHostingProvider** et de l’applet **de passe Set-CsHostingProvider** .
+
+<div>
+
+## <a name="mobility-for-the-split-domain-deployment"></a>Mobilité pour le déploiement de domaines fractionnés
+
+Vous devrez collecter et enregistrer les attributs déployés suivants:
+
+  - À partir de Lync Server Management Shell, tapez
     
         Get-CsHostingProvider
 
-  - Dans les résultats, recherchez le fournisseur en ligne avec l’attribut **ProxyFQDN**. Par exemple, sipfed.online.lync.com.
+  - Dans les résultats, recherchez le fournisseur en ligne doté de l’attribut **ProxyFQDN**. Par exemple, sipfed.online.lync.com.
 
-  - Notez la valeur de l’attribut ProxyFQDN.
+  - Enregistrez la valeur de ProxyFQDN.
 
-  - Activez la fédération dans le Panneau de configuration Lync Server local, ce qui autorise la fédération avec le fournisseur en ligne.
+  - Activez la Fédération sur le panneau de configuration de Lync Server sur site, en autorisant la Fédération avec le fournisseur en ligne.
 
-  - Activez la fédération pour le fournisseur en ligne. Par défaut, tous les utilisateurs en ligne sont activés pour la fédération de domaine et peuvent communiquer avec tous les domaines.
+  - Activez la Fédération pour le fournisseur en ligne. Par défaut, tous les utilisateurs en ligne sont activés pour la Fédération de domaine et peuvent communiquer avec tous les domaines.
 
-  - Si vous envisagez de définir des domaines bloqués et autorisés, déterminez les domaines que vous autoriserez et bloquerez de façon explicite.
+  - Si vous définissez des domaines bloqués et autorisés, déterminez les domaines à autoriser ou bloquer explicitement.
 
-  - Pour la fédération en ligne, vous devez planifier les exceptions de pare-feu, les certificats et les enregistrements d’hôtes DNS (A ou AAAA, avec IPv6). En outre, vous devez configurer les stratégies de fédération. Pour plus d’informations, voir [Planification pour la fédération de Lync Server et Office Communications Server](lync-server-2013-planning-for-lync-server-and-office-communications-server-federation.md)
+  - Pour la Fédération en ligne, vous devez prévoir des exceptions de pare-feu, des certificats et l’hôte DNS (A ou AAAA, si vous utilisez des enregistrements IPv6). Par ailleurs, vous devez configurer des stratégies de Fédération. Pour plus d’informations, reportez-vous [à planification de Lync server 2013 et la Fédération Office Communications Server](lync-server-2013-planning-for-lync-server-and-office-communications-server-federation.md).
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

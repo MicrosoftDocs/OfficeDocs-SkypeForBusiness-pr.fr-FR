@@ -1,48 +1,98 @@
-﻿---
-title: Suppression d’une stratégie d’emplacement
-TOCTitle: Suppression d’une stratégie d’emplacement
-ms:assetid: 8ca9ba10-f45f-435a-b39c-519d251e9085
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ688125(v=OCS.15)
-ms:contentKeyID: 49891435
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: suppression d’une stratégie d’emplacement'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deleting a location policy
+ms:assetid: 8ca9ba10-f45f-435a-b39c-519d251e9085
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688125(v=OCS.15)
+ms:contentKeyID: 49733724
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4766d2b05cef89ab29b9c303c5ba1ec456843669
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831590"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Suppression d’une stratégie d’emplacement
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-10-10_
+# <a name="deleting-a-location-policy-in-lync-server-2013"></a>Suppression d’une stratégie d’emplacement dans Lync Server 2013
 
-Dans Lync Server 2013, vous pouvez utiliser la stratégie d’emplacement pour appliquer des paramètres liés au système Enhanced 9-1-1 (E9-1-1) et des paramètres d’emplacement pour les utilisateurs et les contacts. La stratégie d’emplacement détermine si un utilisateur peut avoir recours au système E9-1-1 et, le cas échéant, le comportement d’un appel d’urgence. Par exemple, la stratégie d’emplacement permet de définir le numéro d’appel d’urgence (par exemple, 911 aux États-Unis, 15 en France), de déterminer si le service de sécurité de l’entreprise doit être automatiquement averti et comment l’appel doit être acheminé.
+</div>
 
-Vous pouvez configurer les stratégies d’emplacement à partir du groupe **Configuration réseau** dans le Panneau de configuration Lync Server 2013. À partir du Panneau de configuration Lync Server vous pouvez afficher, créer, modifier ou supprimer des stratégies d’emplacement. Utilisez les procédures suivantes pour supprimer une stratégie d’emplacement. Pour plus d’informations sur la création ou la modification de stratégies d’emplacement, voir [Création ou modification d’une stratégie d’emplacement](lync-server-2013-creating-or-modifying-a-location-policy.md).
+<div id="mainSection">
 
-## Pour supprimer une stratégie d’emplacement
+<div id="mainBody">
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou disposant des mêmes droits) ou affecté au rôle CsAdministrator, ouvrez une session sur un ordinateur qui se trouve sur votre déploiement interne.
+<span> </span>
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes de démarrage du Panneau de configuration Lync Server, voir [Ouvrir les outils d’administration Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+_**Dernière modification de la rubrique:** 2012-10-10_
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Configuration réseau**, puis sur **Stratégie d’emplacement**.
+Dans Lync Server 2013, vous pouvez utiliser la stratégie d’emplacement pour appliquer les paramètres relatifs à la fonctionnalité améliorée 9-1-1 (E9-1-1) et aux paramètres d’emplacement des utilisateurs ou des contacts. La stratégie d’emplacement détermine si un utilisateur est activé pour E9-1-1 et, si oui, le comportement d’un appel d’urgence. Par exemple, vous pouvez utiliser la stratégie d’emplacement pour définir le numéro constituant un appel d’urgence (par exemple, 911 aux États-Unis), si la sécurité d’entreprise doit être automatiquement notifiée et la manière dont l’appel doit être routé.
 
-4.  Dans la page **Stratégie d’emplacement**, sélectionnez la stratégie d’emplacement que vous souhaitez supprimer.
+Vous pouvez configurer des stratégies d’emplacement à partir du groupe de **Configuration réseau** dans Lync Server 2013 Control Panel. Le panneau de configuration de Lync Server vous permet d’afficher, de créer, de modifier ou de supprimer des stratégies d’emplacement. Pour supprimer une stratégie d’emplacement, procédez comme suit. Pour plus d’informations sur la création ou la modification de stratégies d’emplacement, voir [création ou modification d’une stratégie d’emplacement dans Lync Server 2013](lync-server-2013-creating-or-modifying-a-location-policy.md).
+
+<div>
+
+## <a name="to-delete-a-location-policy"></a>Pour supprimer une stratégie d’emplacement
+
+1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affectées au rôle CsAdministrator, connectez-vous à n’importe quel ordinateur dans votre déploiement interne.
+
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+
+3.  Dans la barre de navigation de gauche, cliquez sur **configuration du réseau** , puis sur **stratégie d’emplacement**.
+
+4.  Dans la page de **stratégie d’emplacement** , sélectionnez la stratégie d’emplacement que vous voulez supprimer.
     
-    > [!NOTE]  
-    > Vous pouvez supprimer plusieurs stratégies d’emplacement à la fois. Pour cela, appuyez sur Ctrl et tout en maintenant cette touche enfoncée, sélectionnez plusieurs stratégies. Ou, pour sélectionner toutes les stratégies, cliquez sur <strong>Sélectionner tout</strong> dans le menu <strong>Edition</strong>.
+    <div>
+    
 
-5.  Dans le menu **Edition**, cliquez sur **Supprimer**.
+    > [!NOTE]  
+    > Vous pouvez supprimer plusieurs stratégies d’emplacement à la fois. Pour cela, appuyez sur CTRL et sélectionnez plusieurs stratégies tout en maintenant la touche CTRL enfoncée. Vous pouvez sélectionner toutes les stratégies dans le <STRONG></STRONG> menu <STRONG>Edition</STRONG> .
+
+    
+    </div>
+
+5.  Dans le menu **modifier** , cliquez sur **supprimer**.
 
 6.  Cliquez sur **OK**.
     
+    <div>
+    
+
     > [!IMPORTANT]  
-    > Vous ne pouvez pas supprimer la stratégie d’emplacement globale. Si vous tentez de supprimer cette stratégie vous obtiendrez un message d’erreur et les valeurs par défaut de cette stratégie seront rétablies.
+    > La stratégie d’emplacement global ne peut pas être supprimée. Si vous tentez de supprimer la stratégie globale, vous recevez un message d’avertissement indiquant que la stratégie sera réinitialisée à ses valeurs par défaut.
 
-## Voir aussi
+    
+    </div>
 
-#### Tâches
+</div>
 
-[Création ou modification d’une stratégie d’emplacement](lync-server-2013-creating-or-modifying-a-location-policy.md)  
-[Affichage des informations d’une stratégie d’emplacement](lync-server-2013-viewing-location-policy-information.md)
+<div>
+
+## <a name="see-also"></a>Voir aussi
+
+
+[Création ou modification d’une stratégie d’emplacement dans Lync Server 2013](lync-server-2013-creating-or-modifying-a-location-policy.md)  
+[Affichage des informations de stratégie d’emplacement dans Lync Server 2013](lync-server-2013-viewing-location-policy-information.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

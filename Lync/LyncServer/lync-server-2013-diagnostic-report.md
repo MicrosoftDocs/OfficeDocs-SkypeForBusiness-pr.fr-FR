@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013 : Rapport de diagnostic'
-TOCTitle: Rapport de diagnostic
-ms:assetid: b389dbd9-f2e8-4184-93d0-2e504796ac16
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg615445(v=OCS.15)
-ms:contentKeyID: 49298570
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Rapport de diagnostic Lync Server 2013:'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Diagnostic Report
+ms:assetid: b389dbd9-f2e8-4184-93d0-2e504796ac16
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615445(v=OCS.15)
+ms:contentKeyID: 48185159
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b314bccb0c1df539598e17ffc8ca12b30287b8eb
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831413"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Rapport de diagnostic dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2016-12-08_
+# <a name="diagnostic-report-in-lync-server-2013"></a>Rapport de diagnostic dans Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2014-02-07_
 
 Le Rapport de diagnostic fournit des informations de diagnostic et d’identification et de résolution des problèmes pour les sessions ayant échoué. Ces informations incluent à la fois l’ID de diagnostic et l’en-tête de diagnostic qui ont été signalés lorsque la session a échoué. L’ID de diagnostic est un identificateur unique (sous la forme d’un en-tête ms-diagnostics) qui est joint à un message SIP, tandis que l’en-tête de diagnostic fournit une description d’accompagnement pour l’ID de diagnostic. Ce rapport peut également contenir des informations d’identification et de résolution des problèmes précieuses qui sont connues par le composant de rapport. Par exemple :
 
@@ -23,19 +43,29 @@ Le Rapport de diagnostic fournit des informations de diagnostic et d’identific
 
   - Noms recherchés pour les échecs de résolution DNS. La résolution DNS a lieu chaque fois qu’un client contacte un serveur de noms et demande l’adresse IP correspondant au nom du périphérique spécifié
 
-## Accès au Rapport de diagnostic
+<div>
 
-Le Rapport de diagnostic est accessible en cliquant sur la métrique Rapport de diagnostic (Détail) sur le [Rapport détaillé de session P2P dans Lync Server 2013](lync-server-2013-peer-to-peer-session-detail-report.md) ou le Rapport détaillé de conférence.
+## <a name="accessing-the-diagnostic-report"></a>Accès au Rapport de diagnostic
 
-## Filtres
+Le rapport de diagnostic est accessible en cliquant sur la métrique du rapport de diagnostic (détail) sur le [rapport détaillé de la session d’égal à égal dans Lync Server 2013](lync-server-2013-peer-to-peer-session-detail-report.md) ou le rapport de détails de la Conférence.
+
+</div>
+
+<div>
+
+## <a name="filters"></a>Filtres
 
 Aucun. Il est impossible de filtrer le rapport de diagnostic.
 
-## Mesures
+</div>
+
+<div>
+
+## <a name="metrics"></a>Mesures
 
 Le tableau qui suit répertorie les informations fournies dans le rapport de diagnostic pour chaque session.
 
-### Mesures du rapport de diagnostic
+### <a name="diagnostic-report-metrics"></a>Mesures du rapport de diagnostic
 
 <table>
 <colgroup>
@@ -84,7 +114,7 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de dia
 <tr class="odd">
 <td><p><strong>ID de diagnostic</strong></p></td>
 <td><p>Non</p></td>
-<td><p>Identifiant unique (sous la forme d’un en-tête ms-diagnostics) attaché à un message SIP qui procure souvent des informations utiles à des fins d’identification et de résolution des erreurs.</p></td>
+<td><p>Identificateur unique (sous la forme d’un en-tête ms-diagnostics) attaché à un message SIP qui fournit souvent des informations utiles pour résoudre des erreurs.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Type de contenu</strong></p></td>
@@ -115,5 +145,17 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de dia
 </table>
 
 
-Vous trouverez une liste d’erreurs de diagnostic à la page [Ms-Diagnostics Header](http://msdn.microsoft.com/en-us/library/gg132446\(v=office.12\).aspx).
+La liste des erreurs de diagnostic est disponible sur la [page d’en-tête MS-Diagnostics](http://msdn.microsoft.com/en-us/library/gg132446\(v=office.12\).aspx).
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

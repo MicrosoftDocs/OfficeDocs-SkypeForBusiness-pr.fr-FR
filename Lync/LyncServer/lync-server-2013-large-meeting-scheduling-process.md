@@ -1,33 +1,63 @@
-﻿---
-title: Processus de planification des grandes réunions
-TOCTitle: Processus de planification des grandes réunions
-ms:assetid: de267458-885f-4176-a8d7-1a218e67640e
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ205334(v=OCS.15)
-ms:contentKeyID: 49299063
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: processus de planification de grande réunion'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Large-meeting scheduling process
+ms:assetid: de267458-885f-4176-a8d7-1a218e67640e
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205334(v=OCS.15)
+ms:contentKeyID: 48185639
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: af97cdbd07603c420780a92fbbe0a03c8a4d0520
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34830946"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Processus de planification des grandes réunions
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-10-22_
+# <a name="large-meeting-scheduling-process-in-lync-server-2013"></a>Processus de planification de grande réunion dans Lync Server 2013
 
-Comme une seule grande réunion à la fois est prise en charge sur le pool de grandes réunions, il est recommandé d’implémenter un processus de planification de grandes réunions afin d’empêcher les conflits de grandes réunions. L’objectif d’un tel processus de planification est de faciliter la configuration de grandes réunions. Cette fonctionnalité n’est pas fournie directement par les clients Lync Server ou Lync Server. Une façon d’implémenter un tel processus consiste à utiliser le système de tickets de l’équipe de support de votre organisation le cas échéant.
+</div>
 
-Pour les organisateurs de grandes réunions, la planification d’une grande réunion implique de suivre les étapes suivantes :
+<div id="mainSection">
 
-1.  L’organisateur de réunion ou le délégué détermine l’heure, la durée et la taille d’une prochaine réunion, en plus de la liste de présentateurs. Si la taille de réunion anticipée dépasse 250 utilisateurs ou pour garantir la meilleure expérience pour une réunion de moins de 250 utilisateurs, l’organisateur ou le délégué soumet une demande pour une grande réunion.
+<div id="mainBody">
 
-2.  Le personnel en charge de la planification vérifie si la date et l’heure demandées sont disponibles. Comme nous ne prenons en charge qu’une seule grande réunion à la fois sur le pool dédié, le personnel de planification doit vérifier le calendrier de grandes réunions pour déterminer si une autre réunion est planifiée pour la date et l’heure demandées. Si l’heure demandée est disponible, le personnel approuve la demande de réunion.
+<span> </span>
 
-3.  Si la demande est approuvée, le personnel de planification (à l’aide des informations d’identification sur le pool dédié) utilise le complément de réunion en ligne pour Lync 2013 avec Outlook pour configurer une réunion sur le pool de grandes réunions dédié. L’URL à utiliser pour participer à la réunion est fournie par le demandeur dans le cadre de l’avis d’approbation.
+_**Dernière modification de la rubrique:** 2012-10-22_
 
-4.  L’organisateur de réunion ou le délégué utilise Outlook pour planifier la prochaine réunion, en ajoutant à l’invitation à la réunion l’URL pour y participer. L’organisateur de réunion ou le délégué spécifie alors les utilisateurs à inviter et envoie les invitations à la réunion.
+Étant donné qu’une seule grande réunion à la fois est prise en charge sur le pool de réunions important, nous vous recommandons d’implémenter un processus de planification de réunion volumineux pour éviter les conflits de réunion importants. L’objectif du processus de planification consiste à faciliter la configuration des réunions de grande envergure. Cette fonctionnalité n’est pas fournie directement par les clients Lync Server ou Lync Server. Le recours au le système de tickets du support de votre organisation, le cas échéant, est l’une des méthodes disponibles pour mettre en œuvre cette procédure.
+
+Pour les organisateurs de réunion de grande taille, la planification d’une réunion importante implique les étapes suivantes:
+
+1.  Outre la liste de présentateurs, l’organisateur de réunion ou le délégué détermine l’heure, la durée et la taille d’une prochaine réunion. Si la taille de réunion prévue dépasse 250 utilisateurs ou pour garantir la meilleure expérience pour une réunion de moins de 250 utilisateurs, l’organisateur ou le délégué envoie une demande pour une grande réunion.
+
+2.  Le personnel chargé de la planification vérifie si la date et l’heure demandées sont disponibles. Comme nous ne prenons en charge qu’une seule grande réunion à la fois sur le pool dédié, le personnel de planification doit vérifier le calendrier des grandes réunions pour déterminer si une autre réunion est planifiée à la date et à l’heure demandées. Si l’heure demandée est disponible, le personnel approuve la demande de réunion.
+
+3.  S’il s’agit d’une demande approuvée, le personnel de planification (à l’aide des informations d’identification de la réserve dédiée) utilise le complément réunion en ligne pour Lync 2013 avec Outlook pour configurer une réunion sur le pool de réunion volumineux dédié. L’URL à utiliser pour participer à la réunion est fournie par le demandeur dans le cadre de l’avis d’approbation.
+
+4.  L’organisateur de réunion ou le délégué utilise Outlook pour planifier la réunion suivante en ajoutant l’URL de l’invitation à participer à la réunion. L’organisateur de réunion ou le délégué spécifie alors les utilisateurs à inviter et envoie les invitations à la réunion.
     
-    La figure suivante illustre un flux de travail de demande et d’approbation typique pour la planification de grandes réunions.
+    La figure suivante illustre un flux de travail de demande et d’approbation standard pour planifier des réunions de grande taille.
     
-    ![Workflow de planification de conférence](images/JJ205334.5d8b1f62-1dc3-47bf-bf8f-be2d8899ab9d(OCS.15).jpg "Workflow de planification de conférence")
+    ![5d8b1f62-1dc3-47bf-bf8f-be2d8899ab9d] (images/JJ205334.5d8b1f62-1dc3-47bf-bf8f-be2d8899ab9d(OCS.15).jpg "5d8b1f62-1dc3-47bf-bf8f-be2d8899ab9d")  
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

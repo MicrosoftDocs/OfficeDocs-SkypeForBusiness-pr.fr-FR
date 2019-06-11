@@ -1,54 +1,97 @@
-﻿---
-title: Activation du contrôle d’admission des appels
-TOCTitle: Activation du contrôle d’admission des appels
-ms:assetid: 015f5c8f-2f90-4b9e-8149-b33767e90582
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg520942(v=OCS.15)
-ms:contentKeyID: 49296060
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: activation du contrôle d’admission des appels'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Enabling call admission control
+ms:assetid: 015f5c8f-2f90-4b9e-8149-b33767e90582
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520942(v=OCS.15)
+ms:contentKeyID: 48183228
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 20cd0f7792f8db2cf1b2d817bfe79ed6d6b16fce
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831260"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Activation du contrôle d’admission des appels
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-11-01_
+# <a name="enabling-call-admission-control-in-lync-server-2013"></a>Activation du contrôle d’admission des appels dans Lync Server 2013
 
-Le contrôle d’admission des appels est un réseau de régions, de sites et de sous-réseaux vous permettant de placer des restrictions sur les transmissions audio et vidéo en fonction de la bande passante disponible. Après avoir configuré le réseau CAC, vous devez l’activer pour qu’il applique les limites de bande passante. Vous pouvez utiliser le Panneau de configuration Lync Server pour cela.
+</div>
 
-## Pour activer le contrôle d’admission des appels (CAC) depuis le Panneau de configuration Lync Server
+<div id="mainSection">
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou disposant des mêmes droits) ou affecté au rôle CsAdministrator, ouvrez une session sur un ordinateur qui se trouve sur votre déploiement interne.
+<div id="mainBody">
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes de démarrage du Panneau de configuration Lync Server, voir [Ouvrir les outils d’administration Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+<span> </span>
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Configuration réseau**, puis sur **Globale**.
+_**Dernière modification de la rubrique:** 2012-11-01_
 
-4.  Dans la page **Globale**, cliquez sur la configuration **Globale**.
+Le contrôle d’admission des appels est un réseau de régions, de sites et de sous-réseaux qui permettant de définir des restrictions pour les transmissions audio et vidéo en fonction de la bande passante disponible. Après avoir configuré le réseau CAC, vous devez activer le CAC pour appliquer les limitations de bande passante. Pour cela, vous pouvez utiliser le panneau de configuration de Lync Server.
+
+<div>
+
+## <a name="to-enable-cac-from-lync-server-control-panel"></a>Pour activer le CAC à partir du panneau de configuration de Lync Server
+
+1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affectées au rôle CsAdministrator, connectez-vous à n’importe quel ordinateur dans votre déploiement interne.
+
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+
+3.  Dans la barre de navigation de gauche, cliquez sur **configuration du réseau** , puis sur **Global**.
+
+4.  Dans la page **Global** , cliquez sur configuration **globale** .
     
+    <div>
+    
+
     > [!NOTE]  
-    > Un seul réseau peut être configuré par déploiement de Microsoft Lync Server 2013, par conséquent, une seule configuration réseau figurera dans la liste. Il n’est pas possible de renommer la configuration Globale.
+    > Un seul réseau peut être configuré pour n’importe quel déploiement de Microsoft Lync Server 2013, de sorte qu’il ne reste jamais plus d’une configuration réseau dans la liste. Vous ne pouvez pas renommer la configuration globale.
+
+    
+    </div>
 
 5.  Dans le menu **Edition**, cliquez sur **Afficher les détails**.
 
-6.  Dans la page **Modifier la configuration globale**, activez la case à cocher **Activer le contrôle d’admission des appels**, puis cliquez sur **Valider**.
+6.  Dans la page **modifier le paramètre global** , activez la case à cocher **activer le contrôle d’admission des appels** , puis cliquez sur **valider**.
 
-Lorsque vous cliquez sur **Valider**, un test de la configuration est exécuté. La boîte de dialogue **Modifier la configuration globale** se ferme et vous retournez à la page **Globale**. Vous obtiendrez un message d’avertissement si des erreurs ou des incohérences, qui empêcheront la configuration du réseau de fonctionner correctement, sont détectées (par exemple, si chaque région n’est pas connectée aux autres régions via un itinéraire interrégion).
+Lorsque vous cliquez sur **valider**, vous effectuez un test de la configuration. La boîte de dialogue **modifier les paramètres globaux** se ferme et vous permet de revenir à la page **globale** . Vous recevez un avertissement en cas d’erreurs ou d’éventuelles incohérences détectées dans votre configuration réseau qui empêche celle-ci de fonctionner correctement (par exemple, si chaque région n’est pas connectée à une autre région par le biais d’un itinéraire interrégion).
 
-Si vous modifiez la configuration du réseau, vous pouvez exécuter de nouveau la vérification de validation. Pour cela, ouvrez la configuration globale et cliquez sur **Valider**. Vous n’avez pas besoin de désactiver d’abord le CAC : ne désactivez pas la case à cocher et cliquez sur **Valider**. Vous pouvez lancer la vérification à tout moment même si vous ne modifiez pas la configuration.
+Si vous apportez des modifications à la configuration de votre réseau, vous pouvez exécuter de nouveau le contrôle de validation en ouvrant la configuration globale et en cliquant sur **valider**. Vous n’avez pas besoin de désactiver le CAC d’abord: laissez la case à cocher activée, puis cliquez sur **valider**. Vous pouvez le faire à tout moment sans apporter de modifications à la configuration.
 
-## Voir aussi
+</div>
 
-#### Concepts
+<div>
+
+## <a name="see-also"></a>Voir aussi
+
 
 [Vue d’ensemble du contrôle d’admission des appels dans Lync Server 2013](lync-server-2013-overview-of-call-admission-control.md)  
 
-#### Autres ressources
 
 [Planification du contrôle d’admission des appels dans Lync Server 2013](lync-server-2013-planning-for-call-admission-control.md)  
-[Configuration du contrôle d’admission des appels dans Lync Server 2013](lync-server-2013-configure-call-admission-control.md)  
-[Get-CsNetworkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkConfiguration)  
-[Set-CsNetworkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkConfiguration)  
-[Remove-CsNetworkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkConfiguration)
+[Configurer le contrôle d’admission des appels dans Lync Server 2013](lync-server-2013-configure-call-admission-control.md)  
+[Get-Csnetworkconfiguration permettent](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkConfiguration)  
+[Set-Csnetworkconfiguration permettent](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkConfiguration)  
+[Remove-Csnetworkconfiguration permettent](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkConfiguration)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

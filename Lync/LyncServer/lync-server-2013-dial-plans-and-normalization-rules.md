@@ -1,44 +1,77 @@
-﻿---
-title: 'Lync Server 2013 : Plans de numérotation et règles de normalisation'
-TOCTitle: Plans de numérotation et règles de normalisation
-ms:assetid: fde45195-6eb4-403c-9094-57df7fc0bd2a
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg413082(v=OCS.15)
-ms:contentKeyID: 49299459
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: plans de numérotation et règles de normalisation'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Dial plans and normalization rules
+ms:assetid: fde45195-6eb4-403c-9094-57df7fc0bd2a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413082(v=OCS.15)
+ms:contentKeyID: 48185960
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 5d399c49db109a7bac1a1cd3ac430280cb70f665
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831420"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Plans de numérotation et règles de normalisation dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2016-12-08_
+# <a name="dial-plans-and-normalization-rules-in-lync-server-2013"></a>Plans de numérotation et règles de normalisation dans Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-09-21_
 
 Un plan de numérotation est un ensemble nommé de règles de normalisation qui convertissent des numéros de téléphone pour un emplacement, un utilisateur individuel ou un objet contact nommé, en un format standard (E.164) à des fins d’autorisation téléphonique et de routage des appels.
 
 Les règles de normalisation définissent la façon dont les numéros de téléphone exprimés en divers formats sont routés vers chaque emplacement, utilisateur ou objet contact. La même chaîne de numérotation peut être interprétée et convertie différemment selon l’emplacement d’origine de la numérotation et la personne ou l’objet contact passant l’appel.
 
-## Étendue du plan de numérotation
+<div>
 
-L’*étendue* d’un plan de numérotation détermine le niveau hiérarchique auquel le plan de numérotation peut être appliqué. Dans Lync Server, un plan de numérotation par utilisateur spécifique peut être affecté à un utilisateur. Si aucun plan de numération de l’utilisateur n’est affecté, le plan de numérotation du pool de serveurs d’inscriptions est appliqué. En l’absence de plan de numérotation du pool de serveurs d’inscriptions, le plan de numérotation du site est appliqué. Enfin, si aucun autre plan de numérotation ne peut être appliqué à l’utilisateur, le plan de numérotation global sera appliqué.
+## <a name="dial-plan-scope"></a>Étendue du plan de numérotation
 
-Les clients obtiennent des niveaux d’étendue du plan de numérotation par l’intermédiaire des paramètres de provisionnement intrabande fournis lorsque les utilisateurs se connectent à Lync Server. En tant qu’administrateur, vous pouvez gérer et affecter des niveaux d’étendue du plan de numérotation à l’aide de Panneau de configuration Lync Server.
+L’*étendue* d’un plan de numérotation détermine le niveau hiérarchique auquel le plan de numérotation peut être appliqué. Dans Lync Server, un utilisateur peut se voir attribuer un plan de numérotation spécifique par utilisateur. Si aucun plan de numérotation utilisateur n’est attribué, le plan de numérotation du pool d’inscriptions est appliqué. S’il n’y a pas de plan de numérotation de bureaux d’enregistrement, le plan de numérotation de site est appliqué. Enfin, si aucun autre plan de numérotation ne peut être appliqué à l’utilisateur, le plan de numérotation global est appliqué.
+
+Les clients obtiennent les niveaux d’étendue du plan de numérotation via les paramètres de mise en service in-band qui sont fournis lorsque les utilisateurs se connectent à Lync Server. En tant qu’administrateur, vous pouvez gérer et affecter des niveaux d’étendue de plan de numérotation en utilisant le panneau de configuration de Lync Server.
+
+<div>
+
 
 > [!NOTE]  
-> Le plan de numérotation de la passerelle RTC au niveau du service est appliqué aux appels entrant depuis une passerelle donnée.
+> Le plan de numérotation de la passerelle PSTN au niveau du service est appliqué aux appels entrant depuis une passerelle donnée.
+
+
+
+</div>
 
 Les niveaux d’étendue du plan de numérotation sont définis comme suit :
 
-  - **Plan de numérotation de l’utilisateur** : peut être affecté à des utilisateurs individuels, des groupes ou des objets contact. Les applications Voix peuvent rechercher un plan de numérotation par utilisateur lorsqu’un appel est reçu tandis que le contexte du téléphone est défini sur Utilisateur par défaut. Dans le but d’affecter un plan de numérotation, un objet contact est traité comme s’il s’agissait d’un utilisateur individuel.
+  - **Plan de numérotation utilisateur:** Peuvent être attribués à des utilisateurs, des groupes ou des objets de contact individuels. Les applications vocales peuvent chercher un plan de numérotation par utilisateur lors de la réception d’un appel avec le contexte du téléphone défini sur la valeur par défaut de l’utilisateur. Dans le cadre de l’attribution d’un plan de numérotation, un objet contact est considéré comme un utilisateur individuel.
 
-  - **Plan de numérotation du pool** : peut être créé au niveau du service pour n’importe quelle passerelle ou n’importe quel serveur d’inscriptions de votre topologie. Pour définir un plan de numérotation du pool, vous devez spécifier le service donné (passerelle RTC ou pool de serveurs d’inscriptions) auquel le plan de numérotation s’applique.
+  - Plan de numérotation de la **liste:** Peut être créé au niveau de service pour n’importe quelle passerelle PSTN ou bureau d’enregistrement dans votre topologie. Pour définir un plan de numérotation de groupe, vous devez spécifier le service spécifique (passerelle PSTN ou pool de bureau d’enregistrement) auquel s’applique le plan de numérotation.
 
-  - **Plan de numérotation de site** : peut être créé pour un site entier, sauf pour les utilisateurs, groupes ou objets contact affectés à un plan de numérotation de pool ou de l’utilisateur. Pour définir un plan de numérotation de site, vous devez spécifier le site auquel le plan s’applique.
+  - **Plan de numérotation de site:** Peuvent être créés pour un site entier, à l’exception de tous les utilisateurs, groupes ou objets de contact auxquels un plan de numérotation de groupe ou un plan de numérotation est attribué. Pour définir un plan de numérotation de site, vous devez spécifier le site auquel s’applique le plan de numérotation.
 
-  - **Plan de numérotation global** : le plan de numérotation par défaut installé avec le produit. Vous pouvez modifier le plan de numérotation global mais vous ne pouvez pas le supprimer. Ce plan de numérotation s’applique à tous les utilisateurs, groupes et objets contact de Voix Entreprise dans votre déploiement, à moins que vous ne configuriez et affectez un plan de numérotation doté d’une étendue plus spécifique.
+  - **Plan de numérotation globale:** Plan de numérotation par défaut installé avec le produit. Vous pouvez modifier le plan de numérotation global, mais vous ne pouvez pas le supprimer. Ce plan de numérotation s’applique à tous les utilisateurs, à tous les groupes et aux objets de contact Enterprise Voice dans votre déploiement, sauf si vous configurez et attribuez un plan de numérotation avec une étendue plus spécifique.
 
-## Planification des plans de numérotation
+</div>
+
+<div>
+
+## <a name="planning-for-dial-plans"></a>Planification des plans de numérotation
 
 Pour planifier un plan de numérotation, procédez comme suit :
 
@@ -56,36 +89,63 @@ Pour planifier un plan de numérotation, procédez comme suit :
 
   - Déterminez la nécessité de plusieurs plans de numérotation pour un seul emplacement.
     
-    Si votre organisation gère un seul plan de numérotation sur plusieurs emplacements, il est possible que vous deviez quand même créer un plan de numérotation distinct pour les utilisateurs Voix Entreprise qui effectuent une migration à partir d’un système PBX (autocommutateur privé) et ont besoin de conserver leurs poste existants.
+    Si votre organisation maintient un seul plan de numérotation sur plusieurs emplacements, vous devrez éventuellement créer un plan de numérotation distinct pour les utilisateurs de la voix entreprise qui effectuent la migration à partir d’un système PBX (Private Branch Exchange) et qui doivent conserver leurs extensions existantes.
 
-  - Déterminez de la nécessité de plans de numérotation par utilisateur. Par exemple, si vous avez des utilisateurs sur un site de succursale inscrits auprès du site central ou si vous avez des utilisateurs inscrits sur un Survivable Branch Appliance, vous pouvez étudier des scénarios de numérotation spéciaux pour de tels utilisateurs en utilisant des plans de numérotation et des règles de normalisation. Pour plus d’informations, reportez-vous à [Configuration requise pour la résistance des sites de succursale pour Lync Server 2013](lync-server-2013-branch-site-resiliency-requirements.md).
+  - Déterminez la nécessité de plans de numérotation par utilisateur. Par exemple, si vous avez des utilisateurs dans un site de succursale qui sont inscrits auprès du site central ou si certains de vos utilisateurs sont inscrits sur une unité de succursale Survivable, vous pouvez utiliser des scénarios de numérotation spéciaux pour ces utilisateurs à l’aide de plans de numérotation par utilisateur et de règles de normalisation . Pour plus d’informations, reportez-vous à [Configuration requise pour la résilience de site de succursale pour Lync Server 2013](lync-server-2013-branch-site-resiliency-requirements.md).
 
   - Déterminez l’étendue d’un plan de numérotation (tel que décrit plus haut dans cette rubrique).
 
-Pour créer un plan de numérotation, spécifiez des valeurs dans les champs suivants, selon les besoins, à l’aide du Panneau de configuration Lync Server ou de Lync Server Management Shell.
+Pour créer un plan de numérotation, vous devez spécifier les valeurs dans les champs suivants, le cas échéant, à l’aide du panneau de configuration de Lync Server ou de Lync Server Management Shell.
 
-## Nom et nom simple
+<div>
 
-Pour les plans de numérotation de l’utilisateur, spécifiez un nom descriptif qui identifie les utilisateurs, groupes ou objets contact auxquels le plan de numérotation sera affecté. Pour les plans de numérotation de site, le champ Nom est pré-rempli avec le nom du site et ne peut pas être modifié. Pour les plans de numérotation de pool, le champ Nom est pré-rempli avec la passerelle RTC ou le nom de domaine complet (FQDN) du pool frontal et ne peut pas être modifié.
+## <a name="name-and-simple-name"></a>Nom et nom simple
 
-Le *Nom simple* du plan de numérotation est pré-rempli avec une chaîne dérivée du nom du plan de numérotation. Le champ Nom simple peut être modifié, ce qui vous permet de créer une convention d’appellation plus descriptive pour vos plans de numérotation. La valeur *Nom simple* ne peut pas être vide et doit être unique. Une meilleure pratique consiste à développer une convention d’appellation pour votre organisation puis d’utiliser cette convention de manière cohérente sur tous les sites et les utilisateurs.
+Pour les plans de numérotation de l’utilisateur, spécifiez un nom descriptif qui identifie les utilisateurs, groupes ou objets contact auxquels le plan de numérotation sera affecté. Pour les plans de numérotation de site, le champ nom est prérempli avec le nom du site et ne peut pas être modifié. Dans le cas d’un plan de numérotation, le champ nom est précédé de la passerelle RTC ou du nom de domaine complet (FQDN) du pool frontal et ne peut pas être modifié.
 
-## Description
+Le *nom simple* de plan de numérotation est prérempli avec une chaîne dérivée du nom du plan de numérotation. Le champ Nom simple peut être modifié, ce qui vous permet de créer une convention d’appellation plus descriptive pour vos plans de numérotation. La valeur *Nom simple* ne peut pas être vide et doit être unique. Une meilleure pratique consiste à développer une convention d’appellation pour votre organisation puis d’utiliser cette convention de manière cohérente sur tous les sites et les utilisateurs.
+
+</div>
+
+<div>
+
+## <a name="description"></a>Description
 
 Nous vous conseillons de taper le nom commun et reconnaissable du lieu géographique auquel le plan de numérotation s’applique. Par exemple, si le nom du plan de numérotation est Londres.Contoso.com, il est recommandé d’indiquer Londres dans la zone Description.
 
-## Région de la conférence rendez-vous
+</div>
+
+<div>
+
+## <a name="dial-in-conferencing-region"></a>Région de la conférence rendez-vous
 
 Si vous déployez une conférence rendez-vous, vous devrez spécifier une région en vue d’associer les numéros d’accès de conférence rendez-vous à un plan de numérotation.
 
-## Préfixe d’accès externe
+</div>
 
-Vous pouvez spécifier un préfixe d’accès externe de 4 caractères maximum (\#, \* et 0 à 9) si les utilisateurs doivent numéroter un ou plusieurs chiffres supplémentaires (par exemple, 9) pour obtenir une ligne externe.
+<div>
+
+## <a name="external-access-prefix"></a>Préfixe d’accès externe
+
+Vous pouvez spécifier un préfixe d’accès externe de quatre caractères (\#, \*et 0-9) si les utilisateurs doivent composer au moins un chiffre de début supplémentaire (par exemple, 9) pour obtenir une ligne externe.
+
+<div>
+
 
 > [!NOTE]  
 > Si vous spécifiez un préfixe d’accès externe, il n’est pas nécessaire de créer une règle de normalisation supplémentaire pour inclure le préfixe.
 
-## Règles de normalisation
+
+
+</div>
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="normalization-rules"></a>Règles de normalisation
 
 Les règles de normalisation définissent la façon dont les numéros de téléphone exprimés sous différents formats doivent être acheminés pour l’emplacement nommé. La même chaîne de numéros peut être interprétée et convertie différemment en fonction des paramètres régionaux à partir desquels elle est composée. Les règles de normalisation sont nécessaires au routage des appels car les collaborateurs d’une organisation peuvent utiliser (et utilisent) différents formats lorsqu’ils entrent des numéros de téléphone dans leurs listes de contacts.
 
@@ -107,17 +167,25 @@ Les champs numériques suivants figurent parmi ceux que vos règles de normalisa
 
   - Préfixe de site
 
-## Création de règles de normalisation
+<div>
 
-Les règles de normalisation utilisent des expressions régulières .NET Framework pour spécifier des modèles de correspondance numérique que le serveur utilise pour convertir des chaînes de numérotation au format E.164 dans le but d’effectuer une recherche inversée du numéro. Créez les règles de normalisation dans le Panneau de configuration Lync Server soit en entrant les expressions manuellement, soit en entrant les premiers chiffres et la longueur de la chaîne de numérotation à faire correspondre et en laissant le Panneau de configuration Lync Server créer l’expression correspondante pour vous. Quelle que soit la méthode choisie, lorsque vous avez terminé, vous pouvez entrer un numéro test afin de vérifier que la règle de normalisation fonctionne comme prévu.
+## <a name="creating-normalization-rules"></a>Création de règles de normalisation
 
-Pour plus d’informations sur l’utilisation des expressions régulières .NET Framework, reportez-vous à « Expressions régulières .NET Framework » à l’adresse [http://go.microsoft.com/fwlink/p/?linkId=140927](http://go.microsoft.com/fwlink/p/?linkid=140927).
+Les règles de normalisation utilisent des expressions régulières .NET Framework pour spécifier des modèles de correspondance numérique que le serveur utilise pour convertir des chaînes de numérotation au format E.164 dans le but d’effectuer une recherche inversée du numéro. Vous pouvez créer des règles de normalisation dans le panneau de configuration de Lync Server en entrant les expressions manuellement ou en entrant les chiffres de début et la durée des chaînes de numérotation à mettre en correspondance et en laissant le panneau de configuration de Lync Server générer le correspondant expression régulière. Quelle que soit la méthode choisie, lorsque vous avez terminé, vous pouvez entrer un numéro test afin de vérifier que la règle de normalisation fonctionne comme prévu.
 
-## Exemples de règles de normalisation
+Pour plus d’informations sur l’utilisation des expressions régulières du [http://go.microsoft.com/fwlink/p/?linkId=140927](http://go.microsoft.com/fwlink/p/?linkid=140927).NET Framework, consultez la rubrique expressions régulières .NET Framework.
+
+</div>
+
+<span id="BKMK_SampleNormalizationRules"></span>
+
+<div>
+
+## <a name="sample-normalization-rules"></a>Exemples de règles de normalisation
 
 Le tableau ci-dessous illustre des exemples de règles de normalisation écrites sous la forme d’expressions régulières .NET Framework. Il s’agit uniquement d’exemples qui ne doivent pas être considérés comme une référence normative pour la création de règles de normalisation.
 
-### Tableau 1. Règles de normalisation à l’aide d’expressions régulières .NET Framework
+### <a name="table-1normalization-rules-using-net-framework-regular-expressions"></a>Tableau 1. Règles de normalisation à l’aide d’expressions régulières .NET Framework
 
 <table>
 <colgroup>
@@ -140,42 +208,42 @@ Le tableau ci-dessous illustre des exemples de règles de normalisation écrites
 <tr class="odd">
 <td><p>4digitExtension</p></td>
 <td><p>Traduit les numéros de poste à 4 chiffres</p></td>
-<td><p>^(\d{4})$</p></td>
+<td><p>^ (\d{4}) $</p></td>
 <td><p>+1425555$1</p></td>
 <td><p>0100 est converti en +14255550100</p></td>
 </tr>
 <tr class="even">
 <td><p>5digitExtension</p></td>
 <td><p>Traduit les numéros de poste à 5 chiffres</p></td>
-<td><p>^5(\d{4})$</p></td>
+<td><p>^ 5 (\d{4}) $</p></td>
 <td><p>+1425555$1</p></td>
 <td><p>50100 est converti en +14255550100</p></td>
 </tr>
 <tr class="odd">
 <td><p>7digitcallingRedmond</p></td>
 <td><p>Traduit les numéros à 7 chiffres en numéros locaux Redmond</p></td>
-<td><p>^(\d{7})$</p></td>
+<td><p>^ (\d{7}) $</p></td>
 <td><p>+1425$1</p></td>
 <td><p>5550100 est converti en +14255550100</p></td>
 </tr>
 <tr class="even">
 <td><p>7digitcallingDallas</p></td>
 <td><p>Traduit les numéros à 7 chiffres en numéros locaux Dallas</p></td>
-<td><p>^(\d{7})$</p></td>
+<td><p>^ (\d{7}) $</p></td>
 <td><p>+1972$1</p></td>
 <td><p>5550100 est converti en +19725550100</p></td>
 </tr>
 <tr class="odd">
 <td><p>10digitcallingUS</p></td>
 <td><p>Traduit des numéros à 10 chiffres aux États-Unis</p></td>
-<td><p>^(\d{10})$</p></td>
+<td><p>^ (\d{10}) $</p></td>
 <td><p>+1$1</p></td>
 <td><p>2065550100 est converti en +12065550100</p></td>
 </tr>
 <tr class="even">
 <td><p>LDCallingUS</p></td>
 <td><p>Traduit des numéros avec des préfixes longue distance aux États-Unis</p></td>
-<td><p>^1(\d{10})$</p></td>
+<td><p>^ 1 (\d{10}) $</p></td>
 <td><p>+$1</p></td>
 <td><p>12145550100 est converti en +2145550100</p></td>
 </tr>
@@ -196,21 +264,21 @@ Le tableau ci-dessous illustre des exemples de règles de normalisation écrites
 <tr class="odd">
 <td><p>RedmondSitePrefix</p></td>
 <td><p>Traduit les numéros avec un préfixe réseau (6) et le code de site de Redmond (222)</p></td>
-<td><p>^6222(\d{4})$</p></td>
+<td><p>^ 6222 (\d{4}) $</p></td>
 <td><p>+1425555$1</p></td>
 <td><p>62220100 est converti en +14255550100</p></td>
 </tr>
 <tr class="even">
 <td><p>NYSitePrefix</p></td>
 <td><p>Traduit les numéros avec un préfixe réseau (6) et le code de site New York (333)</p></td>
-<td><p>^6333(\d{4})$</p></td>
+<td><p>^ 6333 (\d{4}) $</p></td>
 <td><p>+1202555$1</p></td>
 <td><p>63330100 est converti en +12025550100</p></td>
 </tr>
 <tr class="odd">
 <td><p>DallasSitePrefix</p></td>
 <td><p>Traduit les numéros avec un préfixe réseau (6) et le code de site Dallas (444)</p></td>
-<td><p>^6444(\d{4})$</p></td>
+<td><p>^ 6444 (\d{4}) $</p></td>
 <td><p>+1972555$1</p></td>
 <td><p>64440100 est converti en +19725550100</p></td>
 </tr>
@@ -220,7 +288,7 @@ Le tableau ci-dessous illustre des exemples de règles de normalisation écrites
 
 Le tableau ci-dessous illustre un exemple de plan de numérotation pour Redmond, Washington, États-Unis, basé sur les règles de normalisation indiquées dans le tableau précédent.
 
-### Tableau 2. Plan de numérotation pour Redmond basé sur les règles de normalisation mentionnées dans le Tableau 1
+### <a name="table-2-redmond-dial-plan-based-on-normalization-rules-shown-in-table-1"></a>Tableau 2. Plan de numérotation pour Redmond basé sur les règles de normalisation mentionnées dans le Tableau 1
 
 <table>
 <colgroup>
@@ -260,5 +328,27 @@ Le tableau ci-dessous illustre un exemple de plan de numérotation pour Redmond,
 </table>
 
 
+<div>
+
+
 > [!NOTE]  
-> Les noms des règles de normalisation indiqués dans le tableau précédent n’incluent pas d’espaces, mais c’est une question de choix. Le premier nom du tableau, par exemple, aurait pu s’écrire « 5 digit extension » ou « 5-digit Extension » et être toujours valide.
+> Les noms des règles de normalisation indiqués dans le tableau précédent n'incluent pas d'espaces, mais c'est une question de choix. Le premier nom du tableau, par exemple, aurait pu s'écrire « 5 digit extension » ou « 5-digit Extension » et être toujours valide.
+
+
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+

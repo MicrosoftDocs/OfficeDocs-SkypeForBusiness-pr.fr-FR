@@ -1,104 +1,185 @@
-﻿---
-title: Création ou modification des sites réseau
-TOCTitle: Création ou modification des sites réseau
-ms:assetid: 358aa08a-c5bc-45fc-8017-19e6202f88c5
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg520975(v=OCS.15)
-ms:contentKeyID: 49296838
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: création ou modification de sites réseau'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Creating or modifying network sites
+ms:assetid: 358aa08a-c5bc-45fc-8017-19e6202f88c5
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520975(v=OCS.15)
+ms:contentKeyID: 48183801
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 3bb09dfcd490d47de1bbfbbde48f538e95fc64cf
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831760"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Création ou modification des sites réseau
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-10-08_
+# <a name="creating-or-modifying-network-sites-in-lync-server-2013"></a>Création ou modification de sites réseau dans Lync Server 2013
 
-Les sites réseau sont les bureaux ou emplacements configurés au sein de chaque région d’un contrôle d’admission des appels (Call Admission Control ou CAC) ou encore d’un déploiement Enhanced 9-1-1. Le Panneau de configuration Microsoft Lync Server 2013 permet de configurer les sites et de les associer aux régions. Par exemple, vous pouvez associer la région réseau Amérique du Nord à des sites réseau, tels que Chicago, Redmond et Vancouver. Un site réseau CAC doit être créé pour chaque site dans l’organisation, même en l’absence de limitation de bande passante pour ce site. Le Panneau de configuration Lync Server vous permet de créer, modifier ou supprimer des sites réseau. Utilisez les procédures suivantes pour créer ou modifier un site réseau. Pour plus d’informations sur la suppression d’un site réseau existant, voir [Suppression d’un site réseau existant](lync-server-2013-deleting-an-existing-network-site.md).
+</div>
 
-## Pour créer un site réseau
+<div id="mainSection">
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou disposant des mêmes droits) ou affecté au rôle CsAdministrator, ouvrez une session sur un ordinateur qui se trouve sur votre déploiement interne.
+<div id="mainBody">
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes de démarrage du Panneau de configuration Lync Server, voir [Ouvrir les outils d’administration Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+<span> </span>
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Configuration réseau**, puis sur **Site**.
+_**Dernière modification de la rubrique:** 2012-10-08_
 
-4.  Dans la page **Site**, cliquez sur **Nouveau**.
+Les sites réseau sont les bureaux ou les emplacements configurés dans chaque région d’un contrôle d’admission des appels (CAC) ou un déploiement 9-1-1 amélioré. Vous pouvez utiliser le panneau de configuration Microsoft Lync Server 2013 pour configurer les sites et les associer à des régions. Par exemple, une région réseau pour l’Amérique du Nord peut être associée à des sites réseaux tels que Chicago, Redmond et Vancouver. Un site réseau CAC doit être créé pour chaque site au sein d’une organisation, même si ce site n’a pas de limitations de bande passante. Le panneau de configuration de Lync Server vous permet de créer, de modifier et de supprimer des sites réseau. Pour créer ou modifier un site réseau, procédez comme suit. Pour plus d’informations sur la suppression d’un site réseau existant, reportez-vous à [la rubrique Suppression d’un site réseau existant dans Lync Server 2013](lync-server-2013-deleting-an-existing-network-site.md).
 
-5.  Dans **Nouveau site**, renseignez le champ **Nom**.
+<div>
+
+## <a name="to-create-a-network-site"></a>Pour créer un site réseau
+
+1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affectées au rôle CsAdministrator, connectez-vous à n’importe quel ordinateur dans votre déploiement interne.
+
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+
+3.  Dans la barre de navigation de gauche, cliquez sur **configuration du réseau** , puis cliquez sur **site**.
+
+4.  Sur la page du **site** , cliquez sur **nouveau**.
+
+5.  Dans **nouveau site**, tapez un nom pour ce site dans le champ **nom** .
     
-    > [!NOTE]  
-    > Les noms de site doivent être uniques dans le déploiement Lync Server 2013.
-
-6.  Dans la liste déroulante **Région**, sélectionnez une région réseau à associer au site.
-
-7.  (Facultatif) Si vous voulez imposer sur ce site des limitations de bande passante aux appels audio ou vidéo, sélectionnez le profil de stratégie de bande passante adéquat dans la liste déroulante **Stratégie de bande passante**.
+    <div>
     
-    > [!NOTE]  
-    > Vous pouvez afficher les détails des profils de stratégie de bande passante ou créer un profil dans la page <strong>Profil de stratégie</strong> du groupe <strong>Configuration du réseau</strong>. Pour plus d’informations, voir <a href="lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md">Création ou modification des profils de stratégie de bande passante</a>.
 
-8.  (Facultatif) Si vous voulez spécifier des paramètres d’emplacement pour ce site, sélectionnez une stratégie d’emplacement dans la liste déroulante **Stratégie d’emplacement**.
+    > [!NOTE]  
+    > Les noms de site doivent être uniques dans le déploiement de Lync Server 2013.
+
     
-    > [!NOTE]  
-    > La stratégie d’emplacement affecte les paramètres Enhanced 9-1-1 (E9-1-1) et d’emplacement des clients au site. Vous pouvez afficher les détails des stratégies d’emplacement ou créer une stratégie d’emplacement dans la page <strong>Stratégie d’emplacement</strong> du groupe <strong>Configuration du réseau</strong>. Pour plus d’informations, voir <a href="lync-server-2013-viewing-location-policy-information.md">Affichage des informations d’une stratégie d’emplacement</a>.
+    </div>
 
-9.  (Facultatif) Tapez une valeur dans le champ **Description** pour fournir plus d’informations sur ce site, car son nom ne suffit pas à le décrire.
+6.  Dans la liste déroulante **région** , sélectionnez une région réseau à associer à ce site.
+
+7.  Facultatif Si vous voulez appliquer des limitations de bande passante pour les appels audio ou vidéo vers ce site, sélectionnez le profil de la stratégie de bande passante avec les paramètres appropriés dans la liste déroulante **stratégie de bande passante** .
+    
+    <div>
+    
+
+    > [!NOTE]  
+    > Vous pouvez afficher les détails des profils de stratégie de bande passante disponibles ou créer un nouveau profil de stratégie de bande passante dans la page profil de la <STRONG>stratégie</STRONG> du groupe de <STRONG>configuration du réseau</STRONG> . Pour plus d’informations, reportez-vous à <A href="lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md">créer ou modifier des profils de stratégie de bande passante dans Lync Server 2013</A>.
+
+    
+    </div>
+
+8.  Facultatif Si vous voulez fournir des paramètres d’emplacement pour ce site, sélectionnez une stratégie d’emplacement dans la liste déroulante **stratégie d’emplacement** .
+    
+    <div>
+    
+
+    > [!NOTE]  
+    > La stratégie d’emplacement attribue des paramètres de 9-1-1 et d’emplacement client spécifiques au site. Vous pouvez afficher les détails des stratégies d’emplacement disponibles ou créer une nouvelle stratégie d’emplacement à partir de la page <STRONG>stratégie d’emplacement</STRONG> du groupe de <STRONG>Configuration réseau</STRONG> . Pour plus d’informations, reportez-vous à la rubrique <A href="lync-server-2013-viewing-location-policy-information.md">affichage des informations de stratégie d’emplacement dans Lync Server 2013</A>
+
+    
+    </div>
+
+9.  Facultatif Tapez une valeur dans le champ **Description** pour fournir des informations supplémentaires sur ce site qui ne peut pas être exprimé uniquement par le nom.
 
 10. Cliquez sur **Valider**.
     
+    <div>
+    
+
     > [!NOTE]  
-    > Lors de la création d’un site réseau, vous n’utilisez pas la table <strong>Sous-réseaux associés</strong>. Vous associez un sous-réseau à un site lorsque vous créez ou modifiez le sous-réseau. Pour plus d’informations, voir <a href="lync-server-2013-create-or-modify-network-subnets.md">Création ou modification de sous-réseaux</a>.
+    > Vous n’utilisez pas la table de <STRONG>sous-réseaux associés</STRONG> lorsque vous créez un site réseau. Vous associez un sous-réseau à un site lors de la création ou de la modification du sous-réseau. Pour plus d’informations, reportez-vous à <A href="lync-server-2013-create-or-modify-network-subnets.md">créer ou modifier des sous-réseaux réseau dans Lync Server 2013</A>.
 
-## Pour modifier un site réseau
+    
+    </div>
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou disposant des mêmes droits) ou affecté au rôle CsAdministrator, ouvrez une session sur un ordinateur qui se trouve sur votre déploiement interne.
+</div>
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes de démarrage du Panneau de configuration Lync Server, voir [Ouvrir les outils d’administration Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+<div>
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Configuration réseau**, puis sur **Site**.
+## <a name="to-modify-a-network-site"></a>Pour modifier un site réseau
 
-4.  Dans la page **Site**, cliquez sur le site que vous souhaitez modifier.
+1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affectées au rôle CsAdministrator, connectez-vous à n’importe quel ordinateur dans votre déploiement interne.
+
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+
+3.  Dans la barre de navigation de gauche, cliquez sur **configuration du réseau** , puis cliquez sur **site**.
+
+4.  Sur la page du **site** , cliquez sur le site que vous voulez modifier.
 
 5.  Dans le menu **Edition**, cliquez sur **Afficher les détails**.
 
-6.  Dans la page **Modifier le site**, vous pouvez modifier la description, la région, le profil de la stratégie de bande passante et la stratégie d’emplacement associés au site. Pour plus d’informations, voir « Pour créer un site réseau » plus haut dans cette rubrique.
+6.  Dans la page **modifier le site** , vous pouvez modifier la description, la région, le profil de la stratégie de bande passante et la stratégie d’emplacement associées au site. Pour plus d’informations, consultez la section «pour créer un site réseau» plus haut dans cette rubrique.
 
 7.  Cliquez sur **Valider**.
 
-Vous ne pouvez pas modifier la table **Sous-réseaux associés** de cette page. La liste de sous-réseaux associés est donnée à titre de référence de sorte que vous sachiez quels sous-réseaux seront affectés par les paramètres que vous modifiez.
+Vous ne pouvez pas modifier le tableau sous- **réseaux associés** sur cette page. La liste des sous-réseaux associés est fournie à des fins de référence afin de savoir quels sous-réseaux seront affectés lorsque vous modifiez les paramètres du site.
 
-## Pour supprimer un site réseau
+</div>
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou disposant des mêmes droits) ou affecté au rôle CsAdministrator, ouvrez une session sur un ordinateur qui se trouve sur votre déploiement interne.
+<div>
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes de démarrage du Panneau de configuration Lync Server, voir [Ouvrir les outils d’administration Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+## <a name="to-delete-a-network-site"></a>Pour supprimer un site réseau
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Configuration réseau**, puis sur **Site**.
+1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affectées au rôle CsAdministrator, connectez-vous à n’importe quel ordinateur dans votre déploiement interne.
 
-4.  Dans la page **Site**, cliquez sur le site que vous souhaitez supprimer.
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+
+3.  Dans la barre de navigation de gauche, cliquez sur **configuration du réseau** , puis cliquez sur **site**.
+
+4.  Sur la page du **site** , cliquez sur le site que vous voulez supprimer.
     
-    > [!NOTE]  
-    > Vous pouvez supprimer plusieurs sites à la fois. Pour cela, appuyez sur Ctrl et tout en maintenant cette touche enfoncée, sélectionnez plusieurs sites. Ou, pour sélectionner tous les sites, cliquez sur <strong>Sélectionner tout</strong> dans le menu <strong>Edition</strong>.
+    <div>
+    
 
-5.  Dans le menu **Edition**, cliquez sur **Supprimer**.
+    > [!NOTE]  
+    > Vous pouvez supprimer plusieurs sites à la fois. Pour cela, appuyez sur CTRL et sélectionnez plusieurs sites tout en maintenant la touche CTRL enfoncée. Pour sélectionner tous les sites, dans le menu <STRONG>Edition</STRONG> , cliquez sur <STRONG>Sélectionner tout</STRONG> .
+
+    
+    </div>
+
+5.  Dans le menu **modifier** , cliquez sur **supprimer**.
 
 6.  Cliquez sur **OK**.
     
+    <div>
+    
+
     > [!WARNING]  
-    > Vous ne pouvez pas supprimer un site réseau associé à un sous-réseau de réseau. Si vous essayez, vous recevrez un message d’erreur. Pour savoir si un site est associé à des sous-réseaux, cliquez sur le site, puis sur <strong>Afficher les détails</strong> dans le menu <strong>Edition</strong>.
+    > Vous ne pouvez pas supprimer un site réseau s’il est associé à un sous-réseau. Si vous tentez de supprimer un site associé à un sous-réseau, vous recevez un message d’erreur. Pour savoir si un site est associé à des sous-réseaux, cliquez sur le site, puis cliquez sur <STRONG>afficher les détails</STRONG> dans le menu <STRONG>modifier</STRONG> .
 
-## Voir aussi
+    
+    </div>
 
-#### Tâches
+</div>
 
-[Suppression d’un site réseau existant](lync-server-2013-deleting-an-existing-network-site.md)  
+<div>
 
-#### Autres ressources
+## <a name="see-also"></a>Voir aussi
 
-[New-CsNetworkSite](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkSite)  
-[Set-CsNetworkSite](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkSite)  
-[Remove-CsNetworkSite](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkSite)  
-[Get-CsNetworkSite](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkSite)
+
+[Suppression d’un site réseau existant dans Lync Server 2013](lync-server-2013-deleting-an-existing-network-site.md)  
+
+
+[New-CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSite)  
+[Set-CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkSite)  
+[Remove-CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkSite)  
+[Get-CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkSite)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

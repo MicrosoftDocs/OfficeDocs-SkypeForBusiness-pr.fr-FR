@@ -1,24 +1,51 @@
-﻿---
-title: Vue FileTransfers
-TOCTitle: Vue FileTransfers
-ms:assetid: e52c3ad0-152e-4a18-af1c-1aff0d205151
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ721914(v=OCS.15)
-ms:contentKeyID: 49891582
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Affichage Lync Server 2013: FileTransfers'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: FileTransfers view
+ms:assetid: e52c3ad0-152e-4a18-af1c-1aff0d205151
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721914(v=OCS.15)
+ms:contentKeyID: 49733848
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4228bbe42f2e7bcf88b26f9147e514f09c106ac3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831153"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Vue FileTransfers
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2015-03-09_
+# <a name="filetransfers-view-in-lync-server-2013"></a>Affichage FileTransfers dans Lync Server 2013
 
-La vue Transfert de fichier stocke des informations concernant les sessions de transfert de fichier entre homologues. Cette vue a été présentée dans Microsoft Lync Server 2013.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-10-01_
+
+Le mode FileTransfer stocke les informations sur les sessions d’égal à égal de transfert de fichiers. Cet affichage a été présenté dans Microsoft Lync Server 2013.
+
+<div>
+
 
 > [!NOTE]  
-> La vue Transfert de fichier contient toutes les colonnes de la <a href="lync-server-2013-sessiondetails-view.md">Vue SessionDetails</a>, en plus des colonnes énumérées ci-dessous.
+> Le mode FileTransfers contient toutes les colonnes de la <A href="lync-server-2013-sessiondetails-view.md">vue SessionDetails dans Lync Server 2013</A> , en plus des colonnes répertoriées ci-dessous.
+
+
+
+</div>
 
 
 <table>
@@ -41,30 +68,41 @@ La vue Transfert de fichier stocke des informations concernant les sessions de t
 <td><p>Nom du fichier transféré.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Cookie</strong></p></td>
-<td><p>nvarchar(128)</p></td>
-<td><p>Utilisé pour identifier chaque message de suivi comme étant associé à celui-ci.</p></td>
+<td><p><strong>Sans</strong></p></td>
+<td><p>nvarchar(128</p></td>
+<td><p>Permet de détecter chaque message de suivi associé à celui-ci.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>FileIdentity</strong></p></td>
-<td><p>uniqueidentifier</p></td>
-<td><p>Identificateur unique permettant de différencier les transferts de fichiers concernant le même nom de fichier.</p></td>
+<td><p>identificateur</p></td>
+<td><p>Identificateur unique permettant de faire la distinction entre les transferts de fichiers impliquant le même nom de fichier.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Accept</strong></p></td>
+<td><p><strong>Valide</strong></p></td>
 <td><p>bit</p></td>
-<td><p>Peut-être TRUE ou NULL. Si TRUE, alors Reject et Cancel seront NULL.</p></td>
+<td><p>Peut être vrai ou nul. Si vrai, l’argument refuser et annuler est nul.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Reject</strong></p></td>
+<td><p><strong>Rejeter</strong></p></td>
 <td><p>bit</p></td>
-<td><p>Peut-être TRUE ou NULL. Si TRUE, alors Accept et Cancel seront NULL.</p></td>
+<td><p>Peut être vrai ou nul. Si vrai, l’argument accepter et annuler est nul.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Cancel</strong></p></td>
+<td><p><strong>Annuler</strong></p></td>
 <td><p>bit</p></td>
-<td><p>Peut-être TRUE ou NULL. Si TRUE, alors Accept et Reject seront NULL.</p></td>
+<td><p>Peut être vrai ou nul. Si vrai, l’argument accepter et refuser est nul.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

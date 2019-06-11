@@ -1,27 +1,49 @@
-﻿---
-title: Enregistrements DNS requis pour les serveurs de conversation permanente
-TOCTitle: Enregistrements DNS requis pour les serveurs de conversation permanente
-ms:assetid: f7531374-d7ed-4b63-ae81-02294cb4496a
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ205391(v=OCS.15)
-ms:contentKeyID: 49299365
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: configuration requise pour DNS pour les serveurs de chat permanent'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: DNS requirements for Persistent Chat Servers
+ms:assetid: f7531374-d7ed-4b63-ae81-02294cb4496a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205391(v=OCS.15)
+ms:contentKeyID: 48185857
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a1f52fde1ee1034f453fe62f2aa3aa44d04b389c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831364"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Enregistrements DNS requis pour les serveurs de conversation permanente
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2015-03-09_
+# <a name="dns-requirements-for-persistent-chat-servers-in-lync-server-2013"></a>Configuration DNS requise pour les serveurs de chat permanent dans Lync Server 2013
 
-Cette section décrit les enregistrements de service DNS (Domain Name Service) requis pour le déploiement de serveurs de conversations permanentes.
+</div>
 
-## Enregistrements DNS pour les serveurs de conversation permanente
+<div id="mainSection">
 
-Le tableau suivant recense les enregistrements DNS requis pour un déploiement serveur de conversations permanentes.
+<div id="mainBody">
 
-### Enregistrements DNS requis pour un serveur de conversation permanente
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-06-28_
+
+Cette section décrit les enregistrements DNS (Domain Name System) requis pour le déploiement de serveurs de chat permanents.
+
+<div>
+
+## <a name="dns-records-for-persistent-chat-servers"></a>Enregistrements DNS pour les serveurs de chat permanent
+
+Le tableau suivant indique les exigences DNS pour le déploiement d’un serveur de chat permanent.
+
+### <a name="dns-requirements-for-a-persistent-chat-server"></a>Configuration DNS requise pour un serveur de chat permanent
 
 <table>
 <colgroup>
@@ -36,20 +58,33 @@ Le tableau suivant recense les enregistrements DNS requis pour un déploiement s
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Un serveur de conversation permanente</p></td>
+<td><p>Un serveur de chat permanent</p></td>
 <td><p>Un enregistrement interne A qui associe le nom de domaine complet (FQDN) du serveur à son adresse IP.</p></td>
 </tr>
 <tr class="even">
 <td><p>Pool de conversation permanente</p></td>
-<td><p>Un enregistrement interne A qui associe le nom de domaine complet (FQDN) des serveurs à son adresse IP.</p>
+<td><p>Un enregistrement A interne qui résout le nom de domaine complet (FQDN) des serveurs à son adresse IP.</p>
 <p><strong>Exemple</strong></p>
-<p>PersistentChatServer01.contoso.com     10.10.10.1</p>
-<p>PersistentChatServer02.contoso.com     10.10.10.2</p>
-<p>Un enregistrement interne A qui associe le nom de domaine complet (FQDN) des serveurs à son adresse IP.</p>
+<p>PersistentChatServer01.contoso.com 10.10.10.1</p>
+<p>PersistentChatServer02.contoso.com 10.10.10.2</p>
+<p>Un enregistrement A interne qui résout le nom de domaine complet (FQDN) des serveurs à son adresse IP.</p>
 <p><strong>Exemple</strong></p>
-<p>PersistentChatPool.contoso.com    10.10.10.1</p>
-<p>PersistentChatPool.contoso.com    10.10.10.2</p></td>
+<p>PersistentChatPool.contoso.com 10.10.10.1</p>
+<p>PersistentChatPool.contoso.com 10.10.10.2</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

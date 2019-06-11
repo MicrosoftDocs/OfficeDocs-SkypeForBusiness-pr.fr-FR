@@ -1,85 +1,147 @@
-﻿---
-title: "Lync Server 2013 : Conf. req. et autor. pour la conf. de conférence rdv"
-TOCTitle: Configuration requise et autorisations pour la configuration de conférence rendez-vous
-ms:assetid: b3b251e5-78ac-44a2-8c36-2a061c9b2314
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg412865(v=OCS.15)
-ms:contentKeyID: 49298592
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Configuration requise et autorisations pour la configuration de conférence rendez-vous
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Dial-in conferencing configuration prerequisites and permissions
+ms:assetid: b3b251e5-78ac-44a2-8c36-2a061c9b2314
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412865(v=OCS.15)
+ms:contentKeyID: 48185165
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a60fc58e0ec40dadff044257d43629c2f3cb01ea
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831407"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configuration requise et autorisations pour la configuration de conférence rendez-vous dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-06-20_
+# <a name="dial-in-conferencing-configuration-prerequisites-and-permissions-in-lync-server-2013"></a>Configuration requise et autorisations pour la configuration de conférence rendez-vous dans Lync Server 2013
 
-La fonction de conférence rendez-vous est un composant facultatif de la charge de travail Conférence de Lync Server 2013. Les composants à installer avant de pouvoir configurer la conférence rendez-vous sont déployés lorsque vous utilisez le Générateur de topologie pour créer votre topologie et que vous installez ensuite votre pool frontal ou votre serveur Standard Edition. Cette rubrique décrit les étapes à accomplir avant de pouvoir configurer la conférence rendez-vous.
+</div>
 
-Elle suppose que vous avez pris connaissance des sections de planification liées à la charge de travail Conférence et en particulier à la conférence rendez-vous.
+<div id="mainSection">
 
-## Conditions préalables à la configuration de la conférence rendez-vous
+<div id="mainBody">
 
-La conférence rendez-vous nécessite les composants Lync Server 2013 suivants :
+<span> </span>
 
-  - service d’application de communications unifiées (UCAS), désigné par *Service d’application*
+_**Dernière modification de la rubrique:** 2012-06-20_
 
-  - application Intendant Conférence
+La fonction de conférence rendez-vous est un composant facultatif de la charge de travail des conférences Lync Server 2013. Pour pouvoir configurer une conférence rendez-vous, les composants que vous devez installer peuvent être déployés lorsque vous utilisez le générateur de topologie pour concevoir votre topologie, puis configurer votre pool frontal ou votre serveur Standard Edition. Cette rubrique décrit ce que vous devez faire pour pouvoir configurer les conférences rendez-vous.
 
-  - application d’annonce de conférence
+Cette section suppose que vous avez lu en particulier les sections de planification relatives à la charge de travail des conférences et aux conférences rendez-vous.
 
-  - page web Paramètres de conférence rendez-vous
+<div>
 
-  - au moins un serveur de médiation Lync Server 2013 et une passerelle RTC
+## <a name="dial-in-conferencing-configuration-prerequisites"></a>Conditions préalables à la configuration des conférences rendez-vous
 
-Vous déployez ces composants lorsque vous utilisez le Générateur de topologie pour définir et publier votre topologie et que vous déployez ensuite un pool frontal ou un serveur Standard Edition. Si vous déployez Voix Entreprise, vous devez le faire avant de configurer la conférence rendez-vous. Si vous ne déployez pas Voix Entreprise, vous pouvez déployer un serveur de médiation et une passerelle de réseau téléphonique commuté (RTC) lorsque vous déployez votre pool frontal ou votre serveur Standard Edition.
+Les conférences rendez-vous nécessitent les composants Lync Server 2013 suivants:
 
-> [!NOTE]  
-> Si vous effectuez la mise à niveau d’Office Communications Server 2007 R2 vers Lync Server 2013, déployez la conférence rendez-vous dans chaque pool que vous souhaitez utiliser pour héberger des conférences Lync Server 2013. Pour plus d’informations sur la migration de la conférence rendez-vous, reportez-vous à <a href="migration-from-office-communications-server-2007-r2-to-lync-server-2013.md">Migration d’Office Communications Server 2007 R2 vers Lync Server 2013</a>.
+  - Service d’application de communications unifiées (UCAS), désigné par *Service d’application*
 
-Cette section suppose que vous avez :
+  - Application Intendant Conférence
 
-  - appliqué les dernières mises à jour à votre environnement Office Communications Server 2007 R2, si vous effectuez une migration vers Lync Server 2013 ;
+  - Application d’annonce de conférence
 
-  - utilisé le Générateur de topologie pour créer et configurer votre topologie. Lors de la spécification de votre charge de travail Conférence, vous avez sélectionné l’option de conférence rendez-vous. Pour plus d’informations sur la définition de votre topologie, reportez-vous à [Définition et configuration de la topologie dans Lync Server 2013](lync-server-2013-defining-and-configuring-the-topology.md) dans la documentation de déploiement ;
+  - Page web Paramètres de conférence rendez-vous
 
-  - publié votre topologie et configuré le pool frontal ou le serveur Standard Edition. Pour plus d’informations sur la publication de la topologie et l’installation de Lync Server 2013, reportez-vous à [Déploiement de Lync Server 2013](lync-server-2013-deploying-lync-server.md) dans la documentation de déploiement.
+  - Au moins un serveur de médiation Lync Server 2013 et au moins une passerelle RTC
+
+Vous déployez ces composants lorsque vous utilisez le générateur de topologie pour définir et publier votre topologie, puis déployer un pool frontal ou un serveur Standard Edition Server. Si vous déployez Enterprise Voice, vous devez le déployer avant de configurer la Conférence rendez-vous. Si vous n’êtes pas le déploiement d’Enterprise Voice, vous pouvez déployer un serveur de médiation et une passerelle de réseau téléphonique commuté (PSTN) lors du déploiement de votre pool frontal ou du serveur Standard Edition Server.
+
+<div>
+
+
+> [!NOTE]
+> Si vous effectuez une mise à niveau d’Office Communications Server 2007 R2 vers Lync Server 2013, déployez des conférences rendez-vous dans chaque liste que vous envisagez d’utiliser pour héberger des conférences Lync Server 2013. Pour plus d’informations sur la migration des conférences rendez-vous, voir <A href="migration-from-office-communications-server-2007-r2-to-lync-server-2013.md">migration d’Office Communications Server 2007 R2 vers Lync Server 2013</A>.
+
+
+
+</div>
+
+Cette section part du principe que vous avez réalisé les tâches suivantes:
+
+  - Appliquez les mises à jour les plus récentes de votre environnement Office Communications Server 2007 R2, si vous effectuez une migration vers Lync Server 2013.
+
+  - Utiliser le générateur de topologie pour concevoir et configurer votre topologie. Lorsque vous spécifiez la charge de travail de conférence, vous avez sélectionné l’option Conférence rendez-vous. Pour plus d’informations sur la définition de votre topologie, voir [définition et configuration de la topologie dans Lync Server 2013](lync-server-2013-defining-and-configuring-the-topology.md) dans la documentation de déploiement.
+
+  - A publié votre topologie et configuré le pool frontal ou un serveur Standard Edition Server. Pour plus d’informations sur la publication de la topologie et l’installation de Lync Server 2013, voir [déploiement de Lync server 2013](lync-server-2013-deploying-lync-server.md) dans la documentation de déploiement.
     
-    > [!NOTE]  
-    > Lorsque vous installez votre topologie publiée, la page web Paramètres de conférence rendez-vous est installée sur le serveur frontal ou le serveur Standard Edition dans le cadre des services web.    
-    > [!IMPORTANT]  
-    > Si vous modifiez le chemin d’accès du magasin de fichiers dans le Générateur de topologie après le déploiement de Lync Server 2013, vous devez redémarrer les applications Intendant Conférence et Annonce de conférence pour utiliser le nouveau chemin d’accès.
+    <div>
+    
 
-  - déployé Voix Entreprise. Si vous ne déployez pas Voix Entreprise, vous avez soit colocalisé un serveur de médiation sur le serveur frontal Entreprise Edition ou sur le serveur Standard Edition, soit déployé un serveur de médiation autonome, et vous avez déployé une passerelle RTC. Pour plus d’informations sur le déploiement de Voix Entreprise, reportez-vous à [Déploiement de Voix Entreprise dans Lync Server 2013](lync-server-2013-deploying-enterprise-voice.md) dans la documentation de déploiement. Pour plus d’informations sur l’installation d’un serveur de médiation et d’une passerelle RTC autonomes, reportez-vous à [Déploiement des serveurs de médiation et définition des homologues dans Lync Server 2013](lync-server-2013-deploying-mediation-servers-and-defining-peers.md) dans la documentation de déploiement.
+    > [!NOTE]
+    > Lorsque vous installez votre topologie publiée, la page Web des paramètres de conférence rendez-vous est installée sur le serveur frontal ou sur le serveur Standard Edition dans le cadre des services Web.
 
-Le graphique suivant présente les étapes à effectuer avant de pouvoir configurer la conférence rendez-vous, ainsi que celles permettant de configurer la conférence rendez-vous.
+    
+    </div>
+    
+    <div>
+    
 
-**Déploiement de la conférence rendez-vous**
+    > [!IMPORTANT]
+    > Si vous modifiez le chemin d’accès du magasin de fichiers dans le générateur de topologie après le déploiement de Lync Server 2013, vous devez redémarrer les applications du surveillant de conférences et de l’annonce de conférence pour utiliser le nouveau chemin.
 
-![Organigramme de déploiement de conférence rendez-vous](images/Gg412865.fde8c246-b5ed-4323-a6e7-af1983a5ec86(OCS.15).jpg "Organigramme de déploiement de conférence rendez-vous")
+    
+    </div>
 
-## Autorisations de la conférence rendez-vous
+  - Voix entreprise déployée. Si vous n’effectuez pas le déploiement d’Enterprise Voice, vous colocalisez un serveur de médiation sur le serveur frontal Enterprise Edition ou le serveur Standard Edition Server, ou vous avez déployé un serveur de médiation autonome et vous avez déployé une passerelle PSTN. Pour plus d’informations sur le déploiement de voix entreprise, reportez-vous à la rubrique [déploiement d’Enterprise Voice dans Lync Server 2013](lync-server-2013-deploying-enterprise-voice.md) dans la documentation de déploiement. Pour plus d’informations sur l’installation d’un serveur de médiation autonome et d’une passerelle RTC, voir [déploiement de serveurs de médiation et définition d’homologues dans Lync Server 2013](lync-server-2013-deploying-mediation-servers-and-defining-peers.md) dans la documentation de déploiement.
 
-Pour configurer la conférence rendez-vous, vous devez utiliser les outils d’administration suivants :
+Le diagramme suivant montre les étapes que vous devez effectuer avant de configurer la Conférence rendez-vous et les étapes que vous devez effectuer pour configurer la Conférence rendez-vous.
 
-  - Panneau de configuration Lync Server 2013
+**Déploiement de conférences rendez-vous**
 
-  - Lync Server Management Shell
+![Diagramme de déploiement de la Conférence] rendez-vous (images/Gg412865.fde8c246-b5ed-4323-a6e7-af1983a5ec86(OCS.15).jpg "Diagramme de déploiement de la Conférence") rendez-vous
 
-Ces outils permettent de configurer les paramètres de conférence rendez-vous ainsi que les plans de numérotation, les stratégies et les autres paramètres nécessaires à la conférence rendez-vous.
+</div>
 
-La configuration de la conférence rendez-vous nécessite l’un des rôles administratifs suivants, selon la tâche :
+<div>
 
-  - **CsVoiceAdministrator**   Ce rôle administratif permet de créer, configurer et gérer les stratégies et les paramètres liés à la voix.
+## <a name="dial-in-conferencing-permissions"></a>Autorisations de conférence rendez-vous
 
-  - **CsUserAdministrator**   Ce rôle administratif permet d’activer et de désactiver des utilisateurs pour Lync Server et d’affecter des stratégies existantes aux utilisateurs, telles que les stratégies de conférence et les stratégies de code confidentiel.
+Pour configurer des conférences rendez-vous, vous devez utiliser les outils d’administration suivants:
 
-  - **CsAdministrator**   Ce rôle administratif permet à l’utilisateur d’effectuer toutes les tâches des rôles CsVoiceAdministrator et CsUserAdministrator.
+  - Panneau de configuration de Lync Server 2013
 
-## Voir aussi
+  - Lync Server Management Shell
 
-#### Concepts
+Les outils d’administration suivants vous permettent de configurer les paramètres de conférence rendez-vous, ainsi que les plans de numérotation, les politiques et d’autres paramètres nécessaires à la Conférence rendez-vous.
 
-[Déploiement de Voix Entreprise dans Lync Server 2013](lync-server-2013-deploying-enterprise-voice.md)
+La configuration de la Conférence rendez-vous nécessite l’un des rôles d’administration suivants, en fonction de la tâche:
+
+  - **CsVoiceAdministrator**   ce rôle d’administrateur peut créer, configurer et gérer les paramètres et les stratégies relatives à la voix.
+
+  - **CsUserAdministrator**   ce rôle d’administrateur peut activer et désactiver des utilisateurs pour Lync Server et affecter des stratégies existantes, telles que les stratégies de conférences et les stratégies de code confidentiel, aux utilisateurs.
+
+  - **CsAdministrator**   ce rôle d’administrateur peut effectuer toutes les tâches de CsVoiceAdministrator et de CsUserAdministrator.
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>Voir aussi
+
+
+[Déploiement d’Enterprise Voice dans Lync Server 2013](lync-server-2013-deploying-enterprise-voice.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

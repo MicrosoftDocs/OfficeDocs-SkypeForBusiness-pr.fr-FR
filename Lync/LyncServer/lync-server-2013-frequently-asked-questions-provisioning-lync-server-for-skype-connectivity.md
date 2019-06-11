@@ -1,122 +1,162 @@
-﻿---
-title: "Lync Server 2013 : FAQ : approv. de Lync Server pour la conn. Skype"
-TOCTitle: 'Forum aux questions : approvisionnement de Lync Server pour la connectivité Skype'
-ms:assetid: 4d1b2bfc-780b-4b8c-afd5-11c2e59203b5
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Dn440172(v=OCS.15)
-ms:contentKeyID: 59602866
-ms.date: 12/28/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Forum aux questions : approvisionnement de Lync Server pour la connectivité Skype'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: 'Frequently Asked Questions: Provisioning Lync Server for Skype connectivity'
+ms:assetid: 4d1b2bfc-780b-4b8c-afd5-11c2e59203b5
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn440172(v=OCS.15)
+ms:contentKeyID: 57793362
+ms.date: 12/29/2016
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0fc06cda300945ccf4d7da9424b5615028c2e8f5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831150"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Forum aux questions : approvisionnement de Lync Server 2013 pour la connectivité Skype
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2016-12-27_
+# <a name="frequently-asked-questions-provisioning-lync-server-2013-for-skype-connectivity"></a>Forum aux questions : approvisionnement de Lync Server 2013 pour la connectivité Skype
 
-**Q : quelles fonctionnalités sont prises en charge entre Microsoft Lync et Skype ?**
+</div>
 
-**R :** l'intégration de Skype à la gamme Microsoft offre de nouvelles possibilités en termes de développement des scénarios de communications unifiées pour des centaines de millions d'utilisateurs de Skype. Cette combinaison permettra aux clients Lync de tirer parti des fonctionnalités enrichies de Lync et de la portée de Skype pour se connecter et collaborer avec des fournisseurs, clients et partenaires.
+<div id="mainSection">
 
-  - Messagerie instantanée et appels audio et vidéo : fédération des appels audio et vidéo et de la messagerie instantanée entre les utilisateurs Lync et Skype
+<div id="mainBody">
 
-  - Partage de la présence : informations de présence Exchange entre les contacts fédérés
+<span> </span>
 
-  - Administration simple : paramètres et contrôles pour la configuration des communications fédérées conformément aux stratégies et normes de votre organisation
+_**Dernière modification de la rubrique:** 2019-03-22_
 
-**Q : comment remplir les conditions requises pour connecter mon déploiement Lync à Skype ?**
+À compter du 2019 avril, nous mettrons fin à la collecte et la conservation des informations de contact des clients approvisionnés par Skype Federation par le biais du site Web pic.lync.com. Cette modification est apportée pour s’assurer que le système de mise en service de pic.lync.com respecte les politiques de confidentialité de Microsoft. 
+ 
+Lorsque le changement est en cours, nous ne pourrons plus fournir de mises à jour par e-mail sur les changements de mise en service en attente. Les modifications apportées aux mises en service PIC s’effectuent généralement dans les 24-48 heures suivant la saisie. Si vous continuez à rencontrer des problèmes avec la Fédération de Skype 48 heures après avoir envoyé une demande de provisionnement, contactez le support technique de Microsoft pour approfondir votre investigation.
 
-**R :** vous pouvez bénéficier de la connectivité Skype si vous avez :
+> [!IMPORTANT]
+> Dans le cadre de cette modification, toutes les informations de contact précédemment entrées sont purgées de notre système à la fin du 1er avril 2019.
 
-  - Lync Server (2010 ou 2013) et des licences d'accès client (CAL) Lync Server Standard (2010 ou 2013) pour les utilisateurs et/ou les appareils dans votre organisation qui se connecteront à Skype, OU
 
-  - Lync Online (sous forme de licences autonomes ou dans le cadre d'une suite Office 365). Toutefois, ce service (pic.lync.com) sert uniquement à l'approvisionnement de Lync Server et des déploiements Lync Server et Lync Online hybrides. L'approvisionnement des informations PIC Lync Online est effectué dans le panneau de configuration Lync Online.
+**Q: Quelles sont les fonctionnalités prises en charge entre Microsoft Lync et Skype?**
 
-**Q : que doivent faire les utilisateurs Lync pour se connecter aux contacts Skype ?**
+**A:** Avec Skype, c’est désormais une nouveauté de la famille Microsoft, de nouvelles possibilités pour développer des scénarios de communications unifiées vers des centaines de millions de personnes qui utilisent Skype. Cette combinaison permettra aux clients de Lync de se connecter et de collaborer avec des fournisseurs, des clients et des partenaires en utilisant la richesse de Lync et la portée de Skype.
 
-**R :** après l'activation d'un domaine et des fonctionnalités par l'administrateur Lync d'une organisation, les utilisateurs Lync peuvent ajouter des contacts Skype à leur liste de contacts au sein du client Lync.
+  - Messages instantanés et appels audio et vidéo: appels audio et vidéo fédérés et messagerie instantanée entre les utilisateurs de Lync et de Skype
 
-**Q : que doivent faire les utilisateurs Skype pour se connecter aux contacts Lync ?**
+  - Partage de présence: échangez des informations de présence entre des contacts fédérés.
 
-**R :** les utilisateurs Skype qui souhaitent se connecter à un utilisateur Lync doivent avoir un compte Microsoft associé à leur ID Skype et se connecter à l'aide du compte Microsoft. Ceci peut être activé dans le client Skype.
+  - Administration simple: paramètres et contrôles qui vous permettent de configurer les communications fédérées conformément aux politiques et normes de votre organisation.
 
-**Q : la fédération avec Windows Live est-elle toujours disponible ?**
+**Q: Comment puis-je qualifier mon déploiement Lync avec Skype?**
 
-**R :** depuis octobre 2012, Microsoft a commencé à accompagner la transition des utilisateurs Windows Live Messenger (WLM) vers Skype, avant la mise hors service programmée de WLM. Lync continuera de prendre en charge la fédération avec WLM tant que WLM est commercialisé, mais aucune activation de domaine Windows Live ne sera autorisée. La migration des utilisateurs WLM est assurée via Skype 6.0 pour Mac et Windows (publié le 25 octobre 2012) qui permet de se connecter à l'aide d'un compte Microsoft (soit les mêmes informations d'identification que WLM). Une fois l'utilisateur connecté à Skype, les listes de contacts WLM sont renseignées automatiquement dans Skype. L'utilisateur peut alors tirer parti des fonctionnalités de communication étendues de Skype (appel de téléphones fixes et mobiles, partage d'écran, vidéoconférence et prise en charge d'une plus grande variété d'appareils). Par ailleurs, les contacts Lync fédérés des utilisateurs WLM suivent la transition vers Skype avec le reste de leurs listes de contacts, et la messagerie instantanée entre Skype et Lync pour ces contacts sera disponible immédiatement. Les clients Lync n'ont pas besoin de faire quoi que ce soit pour assurer la continuité du service.
+**A:** Vous disposez d’une licence pour la connectivité Skype si vous avez:
 
-**Q : la fédération avec Yahoo\! et AOL est-elle toujours disponible ?**
+  - Lync Server (2010 ou 2013) ainsi que les licences d’accès client de Lync Server standard («CAL»; 2010 ou 2013) pour les utilisateurs et/ou les appareils de votre organisation qui se connectent à Skype. 
 
-**R :** la fédération avec Yahoo\! et AOL approche de son terme pour les clients de Lync et Office Communications Server. La capacité de Microsoft à fournir ces services est conditionnée par le support de Yahoo\! et AOL. Or, les accords associés arrivent à leur fin. Pour Yahoo\! et AOL, le service sera maintenu jusqu'en juin 2014.
+  - Lync Online (en tant que licences autonomes ou dans le cadre d’une suite Office 365).Toutefois, ce service (pic.lync.com) est uniquement destiné à la mise en service de Lync Server et aux déploiements Lync Server et Lync Online.La mise en service de l’image de Lync Online est réalisée dans le panneau de configuration Lync Online (LOCP).
 
-  - Yahoo : le service sera maintenu jusqu'en juin 2014. Les clients doivent toujours disposer de la licence Microsoft Lync « PIC USL » (Public IM Connectivity User Subscription License). Depuis le 1er septembre 2012, la licence PIC USL n'est plus disponible et ne peut pas être achetée ou renouvelée. Les clients ayant acheté une licence avant cette date pourront continuer à assurer la fédération avec Yahoo\! jusqu'à la date d'arrêt du service ou l'expiration de leur licence. Les clients détenteurs de licences PIC dans le cadre d'accords valables au-delà du 30 juin 2014 recevront un crédit proportionnel au montant des paiements et destiné à couvrir la période suivant le 30 juin 2014.
+**Q: que doivent faire les utilisateurs finaux de Lync pour se connecter à des contacts Skype?**
 
-  - AOL : le service de connectivité PIC de Lync ne sera plus disponible à partir du 30 juin 2014. Afin de limiter les perturbations au niveau des clients à la fin du service, nous avons interrompu l'approvisionnement de domaines client supplémentaires. Jusqu'au 30 juin 2014, les clients n'ont rien de spécial à faire pour continuer à prendre en charge les communications fédérées avec AIM. Au-delà de cette date (ou pour les clients qui souhaitent approvisionner d'autres domaines pendant cette période), un service de remplacement est disponible directement auprès d'AOL. Pour plus d'informations sur le nouveau service d'AOL, voir <http://aimenterprise.aol.com/pic.php> (ce lien ouvre une nouvelle page sur AOL.com). 
+**A:** Après activation d’un domaine et des fonctionnalités activées par l’administrateur de Lync d’une organisation, les utilisateurs de Lync peuvent ajouter des contacts Skype à leurs listes de contacts dans le client Lync.
 
-**Q : puis-je tester la connectivité Skype avant d'acheter Lync ?**
+**Q: que doivent faire les utilisateurs finaux de Skype pour se connecter à des contacts Lync?**
 
-**R :** la connectivité Skype n'est pas proposée sur la base d'une évaluation. Les clients Lync dotés de licences éligibles sont encouragés à s'inscrire au service pour le tester.
+**A:** Tous les utilisateurs de Skype désireux de se connecter à un utilisateur de Lync doivent disposer d’un compte Microsoft associé à leur identifiant Skype et se connecter à l’aide du compte Microsoft.Cette option peut être activée dans le client Skype.
 
-**Q : quelles informations sont requises pour l'approvisionnement ?**
+**Q: est-ce que la Fédération avec Windows Live est toujours disponible?**
 
-**R :** pour envoyer une demande d'approvisionnement en lien avec une licence éligible, vous avez besoin des informations suivantes :
+**A:** À compter de octobre, 2012, Microsoft a commencé à aider les utilisateurs de Windows Live Messenger (WLM) à se déplacer dans Skype, en voie pour mettre en place WLM.Lync continuera à prendre en charge la Fédération avec WLM tant que WLM est disponible sur le marché, mais aucune activation supplémentaire du domaine Windows Live ne sera autorisée.Le mouvement des utilisateurs WLM est activé par le Skype 6,0 pour Mac et Windows (publiée le 25 octobre 2012), qui permet de se connecter avec un compte Microsoft (c’est-à-dire, les mêmes informations d’identification que WLM). Après vous être connecté à Skype, WLM Buddy s’est affiché automatiquement dans Skype, et les utilisateurs peuvent profiter des fonctions de communication étendues de Skype, telles que les appels vers des téléphones fixes et mobiles, le partage d’écran, les appels vidéo de groupe et l’assistance pour un large éventail de personnes. divers appareils.De plus, les contacts Lync fédérés de l’utilisateur WLM suivent la transition vers Skype avec le reste de la liste de vos amis et la messagerie instantanée entre Skype et Lync pour ces contacts sera disponible immédiatement. Les clients Lync n’ont rien à faire pour activer cette continuité de service.
 
-  - Numéro de contrat Microsoft :
+**Q: est-ce que\! la Fédération avec Yahoo ou AOL n’est toujours pas disponible?**
+
+**A:** Aucun. Fédération avec Yahoo\! et AOL étaient dépendants de l’assistance de Yahoo\! et AOL.Pour Yahoo\! et AOL, le service s’est terminé le 30 juin 2014. 
+
+**Q: est-il possible d’essayer une connectivité Skype avant d’acheter Lync?**
+
+**A:** La connectivité Skype n’est pas proposée dans le cadre de la version d’évaluation. À la place d’une version d’évaluation, les clients Lync disposant de licences éligibles sont invités à s’inscrire simplement au service à des fins de test.
+
+**Q: quelles informations sont requises pour la configuration?**
+
+**A:** Pour renvoyer une demande de mise en service en vertu d’une licence qualifiée, vous devez disposer des éléments suivants:
+
+  - Numéro de contrat Microsoft:
     
-      - Support du programme de licences en volume Microsoft : numéro de contrat de licences en volume Microsoft
+      - Support du programme de licence en volume Microsoft: numéro de contrat de licence en volume Microsoft
     
-      - Microsoft Partner Network : ID siège social partenaire
+      - Partenaire Microsoft: ID de partenaire du siège social
     
-      - Contrat de licence Service Provider : numéro d'inscription initial
+      - Contrat de licence de prestataire de services: numéro d’inscription initial
     
-      - Services haut volume : numéro d'inscription du produit
+      - Services à volume élevé: numéro d’inscription du produit
 
-  - Noms de domaine complets du service Edge d'accès.
+  - Noms de domaine complets (FQDN) du service Edge d’accès.
     
-      - Le nom de domaine complet d'au moins un service Edge d'accès est requis.
+      - Le FQDN d’au moins un service Edge d’accès est requis.
     
-      - Si le service Edge d’accès est exécuté sur plusieurs serveurs de votre organisation, spécifiez les noms de domaine complets de chaque service Edge d’accès supplémentaire. Important : si vous avez précédemment spécifié un nom de domaine complet pour le service Edge d’accès et souhaitez le modifier, l’approvisionnement de la modification peut prendre plusieurs jours et perturber le service. Pour empêcher les perturbations de service, il est recommandé de maintenir le nom de domaine complet précédemment spécifié du service Edge d’accès.
+      - Si votre organisation possède plusieurs serveurs exécutant le service Edge d’accès, spécifiez les noms de domaine complets (FQDN) de chaque service Edge d’accès supplémentaire. Important: Si vous avez précédemment spécifié un nom de domaine complet pour le service Edge d’accès et que vous souhaitez le modifier, la mise en service de la modification peut prendre plusieurs jours et provoquer une interruption du service. Pour éviter toute interruption du service, nous vous recommandons de conserver le nom de domaine complet (FQDN) du service Edge d’accès spécifié.
 
-  - Domaine(s) SIP (Session Initiation Protocol). Il s'agit du suffixe de domaine de l'URI SIP utilisé actuellement par les utilisateurs pour la messagerie instantanée. Si votre organisation a plusieurs domaines SIP, spécifiez le suffixe de chaque domaine utilisé pour la messagerie instantanée. Par exemple, pour utilisateur1@contoso.com, spécifiez contoso.com pour le domaine SIP. Pour utilisateur1@exemple.fabrikam.com, spécifiez exemple.fabrikam.com comme domaine SIP.
+  - Domaines SIP (Session Initiation Protocol). Il s’agit du suffixe de domaine de l’URI SIP que les utilisateurs utilisent actuellement pour la messagerie instantanée. Si votre organisation possède plusieurs domaines SIP, spécifiez le suffixe de domaine pour chaque domaine utilisé pour la messagerie instantanée. Par exemple, pour user1@contoso.com, spécifiez contoso.com pour le domaine SIP. pour user1@example.fabrikam.com, spécifiez example.fabrikam.com comme domaine SIP.
     
-    > [!NOTE]  
-    > Spécifiez uniquement le suffixe du domaine SIP. Ne spécifiez aucun nom de domaine complet, y compris celui du service Edge d'accès, pour le domaine SIP.
+    <div>
+    
 
-  - Informations de contact. Indiquez une adresse de messagerie pour l'administrateur de chaque domaine SIP que vous spécifiez.
+    > [!NOTE]
+    > Spécifiez uniquement le suffixe de domaine pour le domaine SIP. Ne spécifiez pas de FQDN, y compris le nom de domaine complet (FQDN) du service Edge d’accès, pour le domaine SIP.
 
-**Q : comment puis-je activer la connectivité Lync-Skype dans un scénario de domaine séparé ?**
+    
+    </div>
 
-**R :** en cas de scénario de domaine séparé avec Lync Online 2013 et la version locale de Lync Server (les utilisateurs des versions en ligne et locale utilisant le même domaine SIP), vous pouvez activer la connectivité Lync-Skype en effectuant les deux étapes ci-après dans l'ordre suivant :
+  - Les informations de contact. Spécifiez l’adresse de messagerie de l’administrateur de chaque domaine SIP que vous spécifiez.
 
-1.  Configurez la connectivité Lync-Skype locale comme décrit dans le guide d'approvisionnement des informations PIC.
+**Q: Comment puis-je activer Lync-connectivité Skype dans un scénario à domaines répartis?**
 
-2.  Attendez la confirmation d'approvisionnement de votre domaine par Microsoft.
+**A:** Si vous avez un scénario Lync Online 2013 et Lync Server local Split-Domain (avec des utilisateurs en ligne et sur site utilisant le même domaine SIP), activez Lync-connectivité Skype en effectuant les deux étapes suivantes dans l’ordre suivant:
 
-3.  Une fois que vous avez consulté la confirmation, utilisez le centre d'administration Lync pour activer les « communications externes ». Pour plus d'informations, voir [http://office.microsoft.com/fr-fr/support/configure-external-communications-HA102817865.aspx?CTT=5\&origin=HA102817356](http://office.microsoft.com/fr-fr/support/configure-external-communications-ha102817865.aspx?ctt=5%26origin=ha102817356)
+1.  Configurez la connectivité Lync-Skype sur site comme décrit dans le Guide de mise en service de l’application PIC.
 
-Cet ordre est important. Vous devez configurer la connectivité locale avant d'activer les communications dans Lync Online. Si l'ordre est inversé, les informations entrées pour la version locale dans <https://pic.lync.com> ne seront pas transmises. Si vous avez déjà configuré Lync Online pour les communications externes avec ce domaine, vous devez le désactiver, attendre 24 heures, puis recommencer en commençant par entrer vos informations locales dans <https://pic.lync.com>, puis en activant les communications externes pour Lync Online.
+2.  Patientez jusqu’à ce que vous voyiez une confirmation de mise en service de votre domaine par Microsoft.
 
-**Q : puis-je approvisionner plusieurs noms de domaine complets de service Edge d'accès pour la connectivité Skype ?**
+3.  Une fois la confirmation affichée, utilisez le centre d’administration Lync pour activer les communications externes. Pour plus d’informations, reportez-vous à[http://office.microsoft.com/en-us/support/configure-external-communications-HA102817865.aspx?CTT=5\&origin=HA102817356](http://office.microsoft.com/en-us/support/configure-external-communications-ha102817865.aspx?ctt=5%26origin=ha102817356)
 
-**R :** vous pouvez approvisionner jusqu'à dix noms de domaine complets de service Edge d'accès avec chaque demande d'approvisionnement.
+Cet ordre est important.Vous devez configurer la connectivité locale avant d’activer les communications dans Lync Online. Si la commande est contrepassée, les informations entrées pour la version locale ne <https://pic.lync.com> seront pas déplacées. Si vous avez déjà configuré Lync Online pour les communications externes avec ce domaine, vous devez le désactiver, patienter 24 heures, et recommencer en entrant vos informations <https://pic.lync.com> sur site, puis en activant les communications externes pour Lync Online.
 
-**Q : puis-je obtenir la liste des adresses de messagerie de compte Microsoft déclarées pour l'organisation faisant la demande d'approvisionnement ?**
+**Q: est-il possible de configurer plusieurs noms de domaine complets de service Edge d’accès pour la connectivité Skype?**
 
-**R :** non. Ces adresses sont considérées comme des informations d'identification personnelle et ne sont pas partagées.
+**A:** Vous ne pouvez configurer qu’un nom de domaine complet (FQDN) d’accès pour un ou plusieurs domaines. Vous pouvez configurer plusieurs noms de domaine complets d’accès Edge pour un maximum de 10 par demande, s’ils possèdent des domaines distincts.
 
-**Q : comment puis-je ajouter un contact Windows Live Messenger ayant un ID contenant un domaine autre que ceux pris en charge par Windows Live ?**
+**Q: est-il possible d’obtenir la liste des adresses de messagerie de compte Microsoft que vous recherchez pour l’organisation demandant la mise en service?**
 
-**R :** si vous ajoutez un utilisateur Windows Live Messenger avec un compte ou un ID associé à un domaine autre que Windows Live, entrez l'adresse au format suivant : \<nom d'utilisateur\>(\<nom de domaine\>)@msn.com, où \<nom de domaine\> correspond au nom de domaine dans l'adresse de messagerie de l'utilisateur. Par exemple, si vous voulez ajouter ted@contoso.com, vous devez utiliser le format suivant : ted(contoso.com)@msn.com. Pour consulter la liste des domaines administrés par Windows Live, voir la section sur les domaines pris en charge de l'article « Known Issues That Occur with Public Instant Messaging After You Install Live Communications Server Service Pack 1 » (Problèmes connus affectant la messagerie instantanée publique suite à l'installation de Live Communications Server Service Pack 1) à l'adresse http://support.microsoft.com/?kbid=897567.
+**A:** Aucun. Ces adresses sont considérées comme des informations d’identification personnelle et ne sont pas partagées.
 
-**Q : combien de temps dure le processus d'approvisionnement ?**
+**Q: Comment puis-je ajouter un contact Windows Live Messenger possédant un ID contenant un domaine autre que ceux pris en charge par Windows Live?**
 
-**R :** l'approvisionnement peut prendre jusqu'à 30 jours.
+**A:** Si vous ajoutez un utilisateur Windows Live Messenger avec un compte ou un ID possédant un domaine autre que Windows Live, entrez l’adresse au format suivant: \<nom\>d’utilisateur\<(nom\>de domaine) @msn. com \<, où\> nom de domaine est le nom de domaine dans l’adresse de courrier de l’utilisateur. Par exemple, si vous voulez ajouter ted@contoso.com, vous devez utiliser le format suivant: Ted (contoso. com) @msn. com. Pour obtenir la liste des domaines qui sont administrés par Windows Live, voir la section domaines pris en charge dans «problèmes connus qui se produisent avec la messagerie instantanée publique après l’installation de Live http://support.microsoft.com/?kbid=897567Communications Server Service Pack 1».
 
-**Q : comment saurais-je que l'approvisionnement est terminé ?**
+**Q: combien de temps le processus de mise en service prend-il en charge?**
 
-**R :** Microsoft vous enverra une notification par courrier électronique une fois l'approvisionnement terminé.
+**A:** La mise en service peut durer jusqu’à 30 jours.
 
-**Q : comment puis-je mettre à jour les détails relatifs à la configuration ou de contact que j'envoie ?**
+**Q: Comment puis-je savoir à quel moment la mise en service sera terminée?**
 
-**R :** vous pouvez mettre à jour vos informations sur le même site web que vous avez utilisé pour demander l'approvisionnement, une fois l'approvisionnement terminé. Entrez votre numéro de contrat, puis cliquez sur Mettre à jour le service.
+**A:** Microsoft enverra une notification par courrier électronique lors de la mise en service.
+
+**Q: Comment puis-je mettre à jour les détails de la configuration ou du contact que j’ai envoyés?**
+
+**A:** Vous pouvez mettre à jour vos informations sur le site Web que vous avez utilisé pour demander la mise en service, une fois la mise en service terminée. Entrez votre numéro de contrat, puis cliquez sur mettre à jour le service.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

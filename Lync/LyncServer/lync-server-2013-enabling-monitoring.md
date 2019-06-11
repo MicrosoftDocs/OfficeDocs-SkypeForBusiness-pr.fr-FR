@@ -1,47 +1,77 @@
-﻿---
-title: Activation de la surveillance dans Lync Server 2013
-TOCTitle: Activation de la surveillance dans Lync Server 2013
-ms:assetid: 244df419-d0a8-4b1d-aedd-a92114172ab6
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ687994(v=OCS.15)
-ms:contentKeyID: 49891268
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: activation de la surveillance'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Enabling monitoring
+ms:assetid: 244df419-d0a8-4b1d-aedd-a92114172ab6
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687994(v=OCS.15)
+ms:contentKeyID: 49733584
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a2b13028390328e93a9e90636962dedea8ea8ec9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831257"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Activation de la surveillance dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-10-17_
+# <a name="enabling-monitoring-in-lync-server-2013"></a>Activation de l’analyse dans Lync Server 2013
 
-Bien que les agents de collecte de données unifiée soient automatiquement installés et activés sur chaque serveur frontal, cela ne signifie pas que vous commencerez automatiquement à collecter des données de surveillance dès que vous aurez terminé l’installation de Microsoft Lync Server 2013. Auparavant, vous devez associer vos serveurs frontaux/pools frontaux à une base de données de surveillance et vous devez activer la surveillance des enregistrements des détails des appels et/ou la surveillance des données de qualité de l’expérience au niveau de l’étendue globale et/ou de l’étendue du site.
+</div>
 
-Pour obtenir des instructions pas à pas sur l’association de serveurs frontaux ou de pools frontaux à une base de données de surveillance, voir la rubrique [Association d’un magasin de surveillance à un pool frontal dans Lync Server 2013](lync-server-2013-associating-a-monitoring-store-with-a-front-end-pool.md) dans le guide de déploiement. Ces associations créées et votre nouvelle topologie Lync Server publiée, vous ne pourrez toujours pas recueillir des données de surveillance. En effet, par défaut, à la fois l’enregistrement des détails des appels et la collecte de données QoE sont désactivés quand vous installez Lync Server 2013.
+<div id="mainSection">
 
-Afin de pouvoir commencer la collecte de données, vous devez activer la surveillance des enregistrements des détails des appels et/ou la surveillance des données de qualité de l’expérience. (Notez que vous n’avez pas besoin d’activer les deux types de surveillance à la fois ; si vous préférez, vous pouvez n’en activer qu’un seul.) Pour activer la surveillance des enregistrements des détails des appels au niveau global, exécutez la commande suivante dans Lync Server Management Shell :
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-10-17_
+
+Bien que les agents de collecte des données unifiées soient automatiquement installés et activés sur chaque serveur frontal, cela signifie que vous commencerez automatiquement à collecter des données d’analyse dès que vous avez terminé d’installer Microsoft Lync Server 2013. À la place, vous devez effectuer les deux actions suivantes: vous devez associer votre serveur frontal/les listes frontales à une base de données de surveillance, et vous devez activer l’enregistrement des détails des appels (CDR) et/ou la qualité de l’expertise (QoE) sur l’étendue globale et/ou l’étendue du site.
+
+Pour obtenir des instructions pas à pas sur l’utilisation d’un serveur frontal ou d’une base de données de surveillance, voir la rubrique [Association d’un magasin d’analyse avec un pool frontal dans Lync Server 2013](lync-server-2013-associating-a-monitoring-store-with-a-front-end-pool.md) dans le Guide de déploiement. Une fois ces associations créées et après la publication de votre nouvelle topologie de serveur Lync, vous ne pourrez toujours pas collecter de données d’analyse. C’est pourquoi, par défaut, la collection de données CDR et QoE est désactivée lors de l’installation de Lync Server 2013.
+
+Pour commencer la collecte de données, vous devez activer le contrôle CDR et/ou QoE. (Notez que vous n’avez pas besoin d’activer les contrôles CDR et QoE; si vous le souhaitez, vous pouvez activer un seul type d’analyse tout en laissant l’autre type désactivé.) Pour activer le contrôle CDR dans l’étendue globale, exécutez la commande suivante à partir de Lync Server Management Shell:
 
     Set-CsCdrConfiguration -Identity "global" -EnableCDR $True
 
-Vous pouvez également activer la surveillance des enregistrements des détails des appels dans le Panneau de configuration Lync Server 2013. Dans le Panneau de configuration Lync Server, effectuez la procédure suivante :
+Vous pouvez également activer le contrôle de CDR à partir du panneau de configuration de Lync Server 2013. Dans le panneau de configuration de Lync Server, procédez comme suit:
 
-1.  Cliquez sur **Surveillance**.
+1.  Cliquez sur **surveillance**.
 
-2.  Sous l’onglet **Enregistrement des détails des appels**, double-cliquez sur le paramètre **Global**.
+2.  Dans l’onglet **enregistrement des détails des appels** , double-cliquez sur le paramètre **Global** .
 
-3.  Dans le volet **Paramètre de l’enregistrement des détails des appels (CDR)**, sélectionnez **Activer la surveillance des enregistrements des détails des appels**, puis cliquez sur **Valider**.
+3.  Dans le volet **modifier les paramètres d’enregistrement des détails des appels (CdR)** , sélectionnez **activer l’analyse de CDR** , puis cliquez sur **valider**.
 
-Pour activer la surveillance QoE au niveau de la portée globale, exécutez la commande suivante à partir de Lync Server Management Shell :
+Pour activer le contrôle QoE au niveau de l’étendue globale, exécutez la commande suivante à partir de Lync Server Management Shell:
 
     Set-CsQoEConfiguration -Identity "global" -EnableQoE $True
 
-Vous pouvez également activer la surveillance QoE à partir du Panneau de configuration Lync Server. Dans le Panneau de configuration, effectuez la procédure suivante :
+Si vous le souhaitez, vous pouvez également activer le contrôle QoE dans le panneau de configuration de Lync Server. Dans le panneau de configuration, procédez comme suit:
 
-1.  Cliquez sur **Surveillance**.
+1.  Cliquez sur **surveillance**.
 
-2.  Sous l’onglet **Données de qualité de l’expérience**, double-cliquez sur le paramètre **Global**.
+2.  Sous l’onglet **données de qualité de l’environnement** , double-cliquez sur le paramètre **Global** .
 
-3.  Dans le volet **Paramètre de qualité de l’expérience (QoE)**, sélectionnez **Activer la surveillance des données de qualité de l’expérience**, puis cliquez sur **Valider**.
+3.  Dans le volet des **paramètres de modification de la qualité de l’utilisation** , sélectionnez **activer l’analyse des données QoE** , puis cliquez sur **valider**.
 
-Comme indiqué, les exemples précédents activent la surveillance au niveau de l’étendue globale ; ils activent les surveillances CDR et QoE dans toute votre organisation. Vous pouvez également créer des paramètres de configuration CDR et QoE distincts au niveau de l’étendue du site, puis activer ou désactiver de façon sélective la surveillance pour chaque site. Par exemple, vous pouvez activer la surveillance CDR pour votre site de Redmond et la désactiver pour votre site de Dublin. Pour plus d’informations sur la gestion des paramètres de configuration de la surveillance, voir la rubrique [Configuration des paramètres de l’enregistrement des détails des appels et de la qualité de l’expérience dans Lync Server 2013](lync-server-2013-configuring-call-detail-recording-and-quality-of-experience-settings.md) du guide de déploiement.
+Comme indiqué précédemment, les exemples précédents permettent de surveiller au niveau de l’étendue globale; en d’autres, ils autorisent le contrôle CDR et QoE au sein de votre organisation. Vous pouvez également créer des paramètres de configuration de CDR et QoE séparés sur l’étendue du site, puis activer ou désactiver de manière sélective le contrôle de chaque site. Par exemple, vous pouvez activer le contrôle de CDR pour votre site de Redmond, mais désactiver le contrôle CDR pour votre site de Dublin. Pour plus d’informations sur la gestion de vos paramètres de configuration de la surveillance, voir le Guide de déploiement [Configuration des paramètres d’enregistrement des détails des appels et de la qualité de l’utilisation dans Lync Server 2013](lync-server-2013-configuring-call-detail-recording-and-quality-of-experience-settings.md).
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

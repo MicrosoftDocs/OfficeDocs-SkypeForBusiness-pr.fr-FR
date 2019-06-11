@@ -1,39 +1,61 @@
-﻿---
-title: "Lync Server 2013 : Dépl. de pools frontaux couplés pour la réc. d’urgence"
-TOCTitle: Déploiement de pools frontaux couplés pour la récupération d’urgence
-ms:assetid: 2f12467c-8b90-43e6-831b-a0b096427f17
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204773(v=OCS.15)
-ms:contentKeyID: 49296753
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Déploiement de pools frontaux couplés pour la récupération d’urgence'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deploying paired Front End pools for disaster recovery
+ms:assetid: 2f12467c-8b90-43e6-831b-a0b096427f17
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204773(v=OCS.15)
+ms:contentKeyID: 48183727
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 78c0d6b266f6401c9ba48bfe38ee54b7b4281717
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831528"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Déploiement de pools frontaux couplés pour la récupération d’urgence dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2013-02-21_
+# <a name="deploying-paired-front-end-pools-for-disaster-recovery-in-lync-server-2013"></a>Déploiement de pools frontaux couplés pour la récupération d’urgence dans Lync Server 2013
 
-Vous pouvez facilement déployer la topologie de récupération d’urgence des pools de serveurs frontaux par paires à l’aide du Générateur de topologie.
+</div>
 
-## Pour déployer une paire de pools de serveurs frontaux
+<div id="mainSection">
 
-1.  S’il s’agit de nouveaux pools qui ne sont pas encore définis, utilisez le Générateur de topologie pour les créer.
+<div id="mainBody">
 
-2.  Dans le Générateur de topologie, cliquez avec le bouton droit sur l’un des deux pools, puis sur **Modifier les propriétés** .
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2013-02-21_
+
+Vous pouvez facilement déployer la topologie de reprise après sinistre des pools front-end couplés à l’aide du générateur de topologie.
+
+<div>
+
+## <a name="to-deploy-a-pair-of-front-end-pools"></a>Pour déployer une paire de pools de serveurs frontaux
+
+1.  Si les pools sont nouveaux et ne sont pas encore définis, utilisez le générateur de topologie pour créer les pools.
+
+2.  Dans le générateur de topologie, cliquez avec le bouton droit sur l’un des deux pools, puis cliquez sur **modifier les propriétés**.
 
 3.  Cliquez sur **Résistance** dans le volet gauche, puis sélectionnez **Pool de stockage associé** dans le volet droit.
 
-4.  Dans la zone située en dessous de **Pool de stockage associé** , sélectionnez le pool que vous voulez jumeler à celui-ci. Seuls les pools existants qui ne sont pas déjà jumelés avec un autre pool peuvent être choisis.
+4.  Dans la zone située en dessous de **Pool de stockage associé**, sélectionnez le pool que vous voulez jumeler à celui-ci. Seuls les pools existants qui ne sont pas déjà jumelés avec un autre pool peuvent être choisis.
     
-    ![Boîte de dialogue Résilience](images/JJ204773.36080581-db76-497d-bf9e-f02b39574d0e(OCS.15).png "Boîte de dialogue Résilience")  
+    ![36080581-db76-497d-bf9e-f02b39574d0e] (images/JJ204773.36080581-db76-497d-bf9e-f02b39574d0e(OCS.15).png "36080581-db76-497d-bf9e-f02b39574d0e")  
 
-5.  Sélectionnez **Basculement et restauration automatiques pour Voice** , puis cliquez sur **OK** .
+5.  Sélectionnez **Basculement et restauration automatiques pour Voice**, puis cliquez sur **OK **.
     
-    Quand vous affichez les détails de ce pool, le pool associé s’affiche dans le volet droit sous **Résistance** .
+    Quand vous affichez les détails de ce pool, le pool associé s’affiche dans le volet droit sous **Résistance**. 
 
-6.  Utilisez le Générateur de topologie pour publier la topologie.
+6.  Utilisez le générateur de topologie pour publier la topologie.
 
 7.  Si les deux pools n’étaient pas déjà déployés, déployez-les maintenant pour terminer la configuration. Vous pouvez ignorer les deux dernières étapes de cette procédure.
     
@@ -45,27 +67,49 @@ Vous pouvez facilement déployer la topologie de récupération d’urgence des 
     
     Cela permet de configurer les autres services requis pour un fonctionnement correct du jumelage de sauvegarde.
 
-9.  Dans une invite de commande Lync Server Management Shell, exécutez la commande suivante :
+9.  À partir d’une invite de commandes de Lync Server Management Shell, exécutez la commande suivante:
     
         Start-CsWindowsService -Name LYNCBACKUP
 
 10. Forcez la synchronisation des données d’utilisateur et de conférence entre les deux pools, à l’aide des applets de commande suivantes :
     
-    ```
-    Invoke-CsBackupServiceSync -PoolFqdn <Pool1 FQDN>
-    ```
-    ```
-    Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN>
-    ```
-
+       ```
+        Invoke-CsBackupServiceSync -PoolFqdn <Pool1 FQDN>
+       ```
+    
+       ```
+        Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN>
+       ```
+    
     La synchronisation des données peut durer un certain temps. Vous pouvez utiliser les applets de commande suivantes pour vérifier l’état. Assurez-vous que l’état de synchronisation dans les deux sens est stable.
     
-    ```
-    Get-CsBackupServiceStatus -PoolFqdn <Pool1 FQDN>
-    ```
-    ```
-    Get-CsBackupServiceStatus -PoolFqdn <Pool2 FQDN>
-    ```
+       ```
+        Get-CsBackupServiceStatus -PoolFqdn <Pool1 FQDN>
+       ```
+    
+       ```
+        Get-CsBackupServiceStatus -PoolFqdn <Pool2 FQDN>
+       ```
+
+<div class="">
+
 
 > [!NOTE]  
-> L’option <strong>Basculement et restauration automatique pour Voice</strong> et les intervalles de temps associés dans le Générateur de topologie ne s’appliquent qu’aux nouvelles fonctionnalités de résistance des communications vocales introduites dans Lync Server 2010. La sélection de cette option ne signifie pas que le basculement du pool mentionné dans ce document est automatique. Le basculement et la restauration du pool requiert l’intervention manuelle d’un administrateur pour appeler respectivement les applets de commande de basculement et de restauration.
+> L’option <STRONG>reprise automatique et retour automatique pour les appels vocaux</STRONG> et les intervalles de temps associés dans le générateur de topologie ne s’appliquent qu’aux fonctionnalités de résilience vocale introduites dans Lync Server 2010. La sélection de cette option ne signifie pas que le basculement du pool mentionné dans ce document est automatique. Le basculement et la restauration du pool requiert l’intervention manuelle d’un administrateur pour appeler respectivement les applets de commande de basculement et de restauration.
+
+
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+

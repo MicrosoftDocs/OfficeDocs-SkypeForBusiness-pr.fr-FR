@@ -1,26 +1,55 @@
-﻿---
-title: 'Lync Server 2013 : Déploiement du contrôle d’appel distant'
-TOCTitle: Déploiement du contrôle d’appel distant
-ms:assetid: 763037f7-7a2a-49ae-acc3-9781b0bff7e0
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg558664(v=OCS.15)
-ms:contentKeyID: 49297752
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Déploiement du contrôle d’appel distant'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deploying remote call control
+ms:assetid: 763037f7-7a2a-49ae-acc3-9781b0bff7e0
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558664(v=OCS.15)
+ms:contentKeyID: 48184536
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8583a8f2e8c95ce9b12ad19d8a8e5369ba756ddd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831526"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Déploiement du contrôle d’appel distant dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-10-20_
+# <a name="deploying-remote-call-control-in-lync-server-2013"></a>Déploiement du contrôle d’appel distant dans Lync Server 2013
 
-Cette section vous guide tout au long du processus de déploiement de la fonctionnalité de contrôle d’appel distant sur les utilisateurs de votre organisation.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-10-20_
+
+Cette section vous guide tout au long du processus de déploiement de la fonctionnalité de contrôle d’appel distant pour les utilisateurs de votre organisation.
+
+<div>
+
 
 > [!NOTE]  
-> Même si les fonctionnalités de contrôle d’appel distant sont accessibles aux utilisateurs distants lorsqu’ils se trouvent à l’extérieur du pare-feu de votre organisation, les détails relatifs au déploiement de scénarios d’accès externe ne rentrent pas dans le cadre de cette documentation. Pour plus d’informations sur le déploiement de l’accès des utilisateurs externes, reportez-vous à <a href="lync-server-2013-deploying-external-user-access.md">Déploiement de l’accès des utilisateurs externes dans Lync Server 2013</a> dans la documentation de déploiement.
+> Bien que les fonctionnalités de contrôle d’appel distant soient accessibles aux utilisateurs distants alors qu’ils ne sont pas en dehors du pare-feu de votre organisation, les détails sur le déploiement de scénarios d’accès externes ne sont pas abordés dans cette documentation. Pour plus d’informations sur le déploiement d’un accès utilisateur externe, voir <A href="lync-server-2013-deploying-external-user-access.md">déploiement d’un accès utilisateur externe dans Lync Server 2013</A> dans la documentation de déploiement.
 
-## Dans cette section
+
+
+</div>
+
+<div>
+
+## <a name="in-this-section"></a>Dans cette section
 
   - [Configuration de Lync Server 2013 pour le routage vers une passerelle SIP/CSTA](lync-server-2013-configuring-lync-server-to-route-to-a-sip-csta-gateway.md)
 
@@ -34,9 +63,25 @@ Cette section vous guide tout au long du processus de déploiement de la fonctio
 
   - [Contrôle d’appel distant et normalisation des numéros de téléphone dans Lync Server 2013](lync-server-2013-remote-call-control-and-phone-number-normalization.md)
 
-  - [Suppression d’un hôte autorisé hérité dans Lync Server 2013 (facultatif)](lync-server-2013-remove-a-legacy-authorized-host-optional.md) (uniquement si vous migrez des utilisateurs précédemment activés pour le contrôle d’appel distant)
+  - [Supprimer un ancien hôte autorisé dans Lync Server 2013 (facultatif)](lync-server-2013-remove-a-legacy-authorized-host-optional.md) (uniquement si vous migrez des utilisateurs précédemment activés pour le contrôle d’appel distant)
 
-## Sections connexes
+</div>
+
+<div>
+
+## <a name="related-sections"></a>Sections associées
 
 [Planification du contrôle d’appel distant dans Lync Server 2013](lync-server-2013-planning-for-remote-call-control.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

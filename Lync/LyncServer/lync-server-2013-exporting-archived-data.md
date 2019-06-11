@@ -1,50 +1,87 @@
-﻿---
-title: Exportation des données archivées dans Lync Server 2013
-TOCTitle: Exportation des données archivées dans Lync Server 2013
-ms:assetid: 09450d54-769b-4741-924b-e390664d506f
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204657(v=OCS.15)
-ms:contentKeyID: 49296184
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: exportation de données archivées'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Exporting archived data
+ms:assetid: 09450d54-769b-4741-924b-e390664d506f
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204657(v=OCS.15)
+ms:contentKeyID: 48183347
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4974971912b0b64652aa939368f0a86e2e2484a4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831179"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Exportation des données archivées dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2013-02-23_
+# <a name="exporting-archived-data-from-lync-server-2013"></a>Exportation de données archivées à partir de Lync Server 2013
 
-Il n’est pas possible de faire des recherches dans les données archivées dans les bases de données d’archivage ou bien ces données ne sont pas dans un format lisible. Cependant, vous pouvez utiliser l’applet de commande Export-CsArchivingData pour les extraire et les enregistrer en tant que fichier EML (Outlook Electronic Mail). Pour plus d’informations sur l’exportation des données archivées, voir [Export-CsArchivingData](https://docs.microsoft.com/en-us/powershell/module/skype/Export-CsArchivingData) dans la documentation des opérations.
+</div>
 
-Si vous activez l’intégration Microsoft Exchange, les données sont archivées dans des magasins Exchange 2013. Il est possible de faire des recherches dans les données archivées dans Exchange 2013 et ces données sont détectables. Pour plus d’informations sur la prise en charge des communications intégrées pour Exchange 2013 et Lync Server 2013, voir [Prise en charge de l’intégration d’Exchange Server et de SharePoint dans Lync Server 2013](lync-server-2013-exchange-and-sharepoint-integration-support.md) dans la documentation de prise en charge. Pour plus d’informations sur l’accès aux données qui sont archivées dans Exchange, consultez la documentation d’Exchange 2013.
+<div id="mainSection">
 
-## Exportation des données d’archivage à l’aide des applets de commande Lync Server Management Shell
+<div id="mainBody">
 
-L’applet de commande Export-CSArchivingData permet d’exporter les données d’archivage. Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session à distance de Windows PowerShell. Pour plus de détails sur l’utilisation de Windows PowerShell à distance pour une connexion à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Démarrage rapide : Gestion de Microsoft Lync Server 2010 avec PowerShell à distance » à l’adresse [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+<span> </span>
 
-**Exportation des données d’archivage**
+_**Dernière modification de la rubrique:** 2013-02-23_
 
-  - Cette commande exporte toutes les données d’archivage enregistrées dans la base de données d’archivage atl-sql-001.litwareinc.com depuis le 1er juin 2012. Le fichier de résultats obtenu sera enregistré dans le dossier C:\\ArchivingExports.
+Il n’est pas possible de faire des recherches dans les données archivées dans les bases de données d’archivage ou bien ces données ne sont pas dans un format lisible. Cependant, vous pouvez utiliser l’applet de commande Export-CsArchivingData pour les extraire et les enregistrer en tant que fichier EML (Outlook Electronic Mail). Pour plus d’informations sur l’exportation de données archivées, voir [Export-CsArchivingData](https://docs.microsoft.com/powershell/module/skype/Export-CsArchivingData) dans la documentation sur les opérations.
+
+Si vous activez l’intégration de Microsoft Exchange, les données sont archivées dans les magasins Exchange 2013. Les données archivées dans Exchange 2013 sont consultables et détectable. Pour plus d’informations sur la prise en charge des communications intégrées pour Exchange 2013 et Lync Server 2013, voir [prise en charge de l’intégration d’Exchange Server et de SharePoint dans Lync server 2013](lync-server-2013-exchange-and-sharepoint-integration-support.md) dans la documentation relative à la prise en charge. Pour plus d’informations sur l’accès aux données archivées dans Exchange, voir la documentation Exchange 2013.
+
+<div>
+
+## <a name="exporting-archiving-data-by-using-windows-powershell-cmdlets"></a>Exportation des données d’archivage à l’aide d’applets de cmdlet Windows PowerShell
+
+Les données d’archivage peuvent être exportées à l’aide de l’applet de passe Export-CSArchivingData. Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell».
+
+**Pour exporter les données d’archivage**
+
+  - Cette commande exporte toutes les données d’archivage écrites dans la base de données d’archivage atl-sql-001.litwareinc.com depuis le 1er juin 2012. Le fichier de sortie obtenu sera stocké dans le dossier C\\: ArchivingExports.
     
         Export-CsArchivingData -Identity "ArchivingDatabase:atl-sql-001.litwareinc.com" -StartDate 6/1/2012 -OutputFolder "C:\ArchivingExports"
 
-**Exportation des données d’archivage pour un seul utilisateur**
+**Pour exporter les données d’archivage d’un utilisateur unique**
 
-  - La commande suivante exporte les données d’archivage pour un seul utilisateur : kenmyer@litwareinc.com. Pour cela, il suffit d’inclure le paramètre UserUri suivi de l’adresse SIP de l’utilisateur. Par exemple :
+  - La commande suivante exporte les données d’archivage d’un utilisateur unique: kenmyer@litwareinc.com. Pour cela, il suffit d’inclure le paramètre UserUri suivi de l’adresse SIP de l’utilisateur. Par exemple :
     
         Export-CsArchivingData -Identity "ArchivingDatabase:atl-sql-001.litwareinc.com" -StartDate 6/1/2012 -OutputFolder "C:\ArchivingExports" -UserUri "sip:kenmyer@litwareinc.com"
 
-Pour plus d’information, voir d’aide relative à l’applet de commande [Export-CsArchivingData](https://docs.microsoft.com/en-us/powershell/module/skype/Export-CsArchivingData).
+Pour plus d’informations, consultez la rubrique d’aide de l’applet de passe [Export-CsArchivingData](https://docs.microsoft.com/powershell/module/skype/Export-CsArchivingData) .
 
-## Voir aussi
+</div>
 
-#### Concepts
+<div>
+
+## <a name="see-also"></a>Voir aussi
+
 
 [Prise en charge de l’intégration d’Exchange Server et de SharePoint dans Lync Server 2013](lync-server-2013-exchange-and-sharepoint-integration-support.md)  
 
-#### Autres ressources
 
-[Export-CsArchivingData](https://docs.microsoft.com/en-us/powershell/module/skype/Export-CsArchivingData)  
-[Gestion de l’archivage Lync Server 2013](lync-server-2013-managing-archiving.md)
+[Export-CsArchivingData](https://docs.microsoft.com/powershell/module/skype/Export-CsArchivingData)  
+[Gestion de l’archivage Lync Server 2013](lync-server-2013-managing-archiving.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

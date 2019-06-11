@@ -1,63 +1,99 @@
-﻿---
-title: Activation du contournement de média réseau
-TOCTitle: Activation du contournement de média réseau
-ms:assetid: 95c4fa06-49d3-41ac-acdc-7dcda66e5508
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg182552(v=OCS.15)
-ms:contentKeyID: 49298128
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: activation du contournement de média réseau'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Enabling network media bypass
+ms:assetid: 95c4fa06-49d3-41ac-acdc-7dcda66e5508
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182552(v=OCS.15)
+ms:contentKeyID: 48184846
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ff18c69d6d257a520d2413bff266c97879d4963e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831256"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Activation du contournement de média réseau
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-11-01_
+# <a name="enabling-network-media-bypass-in-lync-server-2013"></a>Activation du contournement de média réseau dans Lync Server 2013
 
-Les paramètres de contournement de média s’appliquent globalement à un déploiement de Microsoft Lync Server 2013. Le contournement de média autorise les appels à contourner le serveur de médiation. Pour plus d’informations sur l’utilisation du contournement de média et quand l’utiliser, voir [Planification de la déviation du trafic multimédia dans Lync Server 2013](lync-server-2013-planning-for-media-bypass.md) dans la section Planification.
+</div>
 
-Vous pouvez activer et configurer le contournement de média à partir du Panneau de configuration Lync Server.
+<div id="mainSection">
 
-## Pour activer et configurer le contournement de média
+<div id="mainBody">
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou disposant des mêmes droits) ou affecté au rôle CsAdministrator, ouvrez une session sur un ordinateur qui se trouve sur votre déploiement interne.
+<span> </span>
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes de démarrage du Panneau de configuration Lync Server, voir [Ouvrir les outils d’administration Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+_**Dernière modification de la rubrique:** 2012-11-01_
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Configuration réseau**, puis sur **Globale**.
+Les paramètres de contournement de média s’appliquent globalement dans le déploiement de Microsoft Lync Server 2013. Bypass Media accepte les appels pour ignorer le serveur de médiation. Pour plus d’informations sur l’utilisation du contournement du contenu multimédia, voir [planification d’une dérivation multimédia dans Lync Server 2013](lync-server-2013-planning-for-media-bypass.md) dans la section planification.
 
-4.  Dans la page **Globale**, cliquez sur la configuration **Globale**. Il n’existe toujours qu’une seule configuration, qui se nomme toujours Globale.
+Vous pouvez activer et configurer le contournement multimédia à partir du panneau de configuration de Lync Server.
 
-5.  Dans le menu **Edition**, cliquez sur **Afficher les détails**.
+<div>
 
-6.  Dans la page **Modifier la configuration globale**, activez la case à cocher **Activer le contournement de média**.
+## <a name="to-enable-and-configure-media-bypass"></a>Pour activer et configurer le contournement multimédia
 
-7.  Sélectionnez l’une des options suivantes :
+1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affectées au rôle CsAdministrator, connectez-vous à n’importe quel ordinateur dans votre déploiement interne.
+
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+
+3.  Dans la barre de navigation de gauche, cliquez sur **configuration du réseau** , puis sur **Global**.
+
+4.  Dans la page **Global** , cliquez sur configuration **globale** . Il n’y a toujours qu’une seule configuration et elle est toujours nommée global.
+
+5.  Dans le menu **édition** , cliquez sur **afficher les détails**.
+
+6.  Dans la page **modifier le paramètre global** , activez la case à cocher **activer le contournement du contenu multimédia** .
+
+7.  Sélectionnez l’une des options suivantes:
     
-      - **Toujours ignorer**   Sélectionnez cette option pour tenter le contournement de média sur tous les appels. Cette option n’est pas disponible si le contrôle d’admission des appels est activé. S’il n’est pas activé, sélectionnez cette option dans les situations suivantes :
+      - **Toujours ignorer**   sélectionnez cette option pour essayer la dérivation multimédia sur tous les appels. Cette option n’est pas disponible si le contrôle d’admission des appels (CAC) est activé. Si le CAC n’est pas activé, sélectionnez cette option dans les situations suivantes:
         
-          - Il n’est pas nécessaire de contrôler la bande passante.
+          - Le contrôle de la bande passante n’est pas nécessaire.
         
-          - Il n’est pas nécessaire d’affiner la configuration pour déterminer à quel moment le contournement doit avoir lieu.
+          - Il n’est pas nécessaire de disposer d’une configuration précise pour déterminer le moment où un contournement se produit.
         
-          - La connectivité entre passerelles et clients est complète.
+          - Il existe une connectivité complète entre les passerelles et les clients.
     
-      - **Utiliser la configuration des sites et des régions**   Si le contrôle d’admission des appels est activé, cette option est activée par défaut et n’est pas modifiable. Quand cette option est activée, la configuration réseau des sites et des régions sert à déterminer quand le contournement de média est possible. Si vous activez cette option, vous pouvez décider d’activer le contournement pour des sites non mappés. Activez la case à cocher **Activer le contournement pour les sites non mappés** uniquement si des sites de grande taille et des sites de succursale sont associées à la même région, les premiers (par exemple, un grand site central) sans contraintes de bande passante et les seconds avec des contraintes de bande passante. Lorsque vous activez le contournement pour les sites non mappés, la configuration est rationalisée. Vous devez uniquement spécifier les sous-réseaux associés aux sites de succursale au lieu de devoir spécifier tous les sous-réseaux associés à tous les sites. Nous vous recommandons de ne pas activer la case à cocher **Activer le contournement pour les sites non mappés** si le contrôle d’admission des appels est activé.
+      - **Utiliser la configuration**   des sites et des régions si le CAC est activé, cette option est activée par défaut et ne peut pas être modifiée. Lorsque cette option est sélectionnée, les sites et les régions de configuration réseau sont utilisés pour déterminer à quel moment une dérivation de média est possible. Si vous sélectionnez cette option, vous pouvez choisir d’activer le contournement pour les sites qui ne sont pas mappés. Activez la case à cocher **activer le contournement pour les sites non mappés** uniquement si vous avez un ou plusieurs sites de grande taille associés à la même région qui n’ont pas de contraintes de bande passante (par exemple, un site central de grande taille) et si des sites de succursales sont également associés au même région qui comporte des contraintes de bande passante. Lorsque vous activez le contournement pour les sites non mappés, la configuration est simplifiée, car vous spécifiez uniquement les sous-réseaux associés aux sites de succursale plutôt que d’indiquer tous les sous-réseaux associés à tous les sites. Nous vous recommandons de ne pas activer la case à cocher **activer le contournement pour les sites non mappés** si le CAC est activé.
 
-8.  Cliquez sur **OK** pour enregistrer vos modifications.
+8.  Cliquez sur **valider** pour enregistrer vos modifications.
 
-## Voir aussi
+</div>
 
-#### Tâches
+<div>
 
-[Désactivation du contournement de média réseau](lync-server-2013-disabling-network-media-bypass.md)  
+## <a name="see-also"></a>Voir aussi
 
-#### Concepts
 
-[Options globales du contournement de média dans Lync Server 2013](lync-server-2013-global-media-bypass-options.md)  
+[Désactivation de la contournement de média réseau dans Lync Server 2013](lync-server-2013-disabling-network-media-bypass.md)  
 
-#### Autres ressources
 
-[Planification de la déviation du trafic multimédia dans Lync Server 2013](lync-server-2013-planning-for-media-bypass.md)
+[Options de contournement global de médias dans Lync Server 2013](lync-server-2013-global-media-bypass-options.md)  
+
+
+[Planification de la déviation du trafic multimédia dans Lync Server 2013](lync-server-2013-planning-for-media-bypass.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

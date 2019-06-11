@@ -1,52 +1,80 @@
-﻿---
-title: Insciption des utilisateurs pour l’authentification par carte à puce
-TOCTitle: Insciption des utilisateurs pour l’authentification par carte à puce
-ms:assetid: a6445a83-a94b-423f-ba2a-12b5f84c5d75
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Dn308570(v=OCS.15)
-ms:contentKeyID: 56269637
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: inscription des utilisateurs pour l’authentification par carte à puce'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Enrolling users for smart card authentication
+ms:assetid: a6445a83-a94b-423f-ba2a-12b5f84c5d75
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn308570(v=OCS.15)
+ms:contentKeyID: 54973691
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 11e74f35119a083aacd8440aec53594b8091b8e8
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831210"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Insciption des utilisateurs pour l’authentification par carte à puce
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2016-12-08_
+# <a name="enrolling-users-for-smart-card-authentication-in-lync-server-2013"></a>Inscription des utilisateurs à l’authentification par carte à puce dans Lync Server 2013
 
-Deux méthodes permettent d’inscrire les utilisateurs pour l’authentification par carte à puce. La méthode la plus simple consiste à faire s’inscrire directement les utilisateurs pour l’authentification par carte à puce par l’inscription via le web, tandis que la méthode la plus complexe implique l’utilisation d’un agent d’inscription. Cette rubrique décrit l’inscription automatique pour les certificats de carte à puce.
+</div>
 
-Pour plus d’informations sur l’inscription des utilisateurs en leur nom via un agent d’inscription, voir la rubrique S’inscrire pour obtenir des certificats au nom d’autres utilisateurs à l’adresse [http://go.microsoft.com/fwlink/p/?LinkID=313367](http://go.microsoft.com/fwlink/p/?linkid=313367).
+<div id="mainSection">
 
-## Inscrire des utilisateurs pour l’authentification par carte à puce
+<div id="mainBody">
 
-1.  Connectez-vous à la station de travail Windows 8 à l’aide des informations d’identification d’un utilisateur prenant en charge Lync.
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2013-07-03_
+
+Deux méthodes permettent d’inscrire les utilisateurs pour l’authentification par carte à puce. La méthode la plus simple consiste à faire s’inscrire directement les utilisateurs pour l’authentification par carte à puce par l’inscription par le biais du web. La méthode la plus complexe implique d’utiliser un agent d’inscription. Cette rubrique décrit l’inscription automatique pour les certificats de carte à puce.
+
+Pour plus d’informations sur l’inscription au nom des utilisateurs en tant qu’agent d’inscription, voir inscrire des certificats pour le compte d’autres utilisateurs [http://go.microsoft.com/fwlink/p/?LinkID=313367](http://go.microsoft.com/fwlink/p/?linkid=313367)à l’adresse.
+
+<div>
+
+## <a name="to-enroll-users-for-smart-card-authentication"></a>Inscription des utilisateurs pour l’authentification par carte à puce
+
+1.  Connectez-vous à Windows 8 Workstation en utilisant les informations d’identification d’un utilisateur compatible Lync.
 
 2.  Lancez Internet Explorer.
 
-3.  Accédez à la page d’**inscription de l’autorité de certification via le web** (par exemple, https://MyCA.contoso.com/certsrv).
+3.  Accédez à la page d’inscription sur le Web de l' **autorité** de https://MyCA.contoso.com/certsrv)certification (par exemple,.
     
+    <div>
+    
+
     > [!NOTE]  
-    > Si vous utilisez Internet Explorer 10, vous devrez peut être afficher ce site web en mode de compatibilité.
+    > Si vous utilisez Internet Explorer 10, vous devrez peut-être afficher ce site web en mode de compatibilité.
+
+    
+    </div>
 
 4.  Dans la page **Bienvenue**, sélectionnez **Demander un certificat**.
 
 5.  Sélectionnez ensuite **Demande avancée**.
 
-6.  Sélectionnez **Créer et soumettre une demande de requête auprès de cette autorité de certification**.
+6.  Sélectionnez **Créer et envoyer une demande de requête auprès de cette autorité de certification**.
 
-7.  Sélectionnez **Utilisateur de carte à puce** sous la section **Modèle de certificat**, puis complétez la demande de certificat avancée avec les valeurs suivantes :
+7.  Sélectionnez **Utilisateur de carte à puce** sous la section **Modèle de certificat**, puis remplissez la demande de certificat avancée avec les valeurs suivantes :
     
       - Sous **Options des clés**, vérifiez que les paramètres suivants sont sélectionnés :
         
-          - Sélectionnez la case d’option **Créer un nouveau jeu de clés**.
+          - Sélectionnez la case d’option **Créer un jeu de clés**.
         
-          - Pour **Fournisseur de services de chiffrement**, sélectionnez **Fournisseur de services de chiffrement Microsoft pour carte à puce**.
+          - Dans **Fournisseur de services de chiffrement**, sélectionnez **Fournisseur de services de chiffrement Microsoft pour carte à puce**.
         
-          - Pour **Utilisation de la clé**, sélectionnez **Exchange** (seule option disponible).
+          - Dans **Utilisation de la clé**, sélectionnez **Exchange** (seule option disponible).
         
-          - Pour **Taille de la clé**, entrez **2048**.
+          - Dans **Taille de la clé**, entrez **2048**.
         
           - Vérifiez que l’option **Nom de conteneur de clé automatique** est sélectionnée.
         
@@ -54,11 +82,11 @@ Pour plus d’informations sur l’inscription des utilisateurs en leur nom via 
     
       - Sous **Options supplémentaires**, vérifiez que les valeurs suivantes sont sélectionnées :
         
-          - Pour **Format de la demande**, sélectionnez **CMC**.
+          - Dans **Format de la demande**, sélectionnez **CMC**.
         
-          - Pour **Algorithme de hachage**, sélectionnez **sha1**.
+          - Dans **Algorithme de hachage**, sélectionnez **sha1**.
         
-          - Pour **Nom convivial**, entrez **Certificat de carte à puce**.
+          - Dans **Nom convivial**, entrez **Smardcard Certificate**.
 
 8.  Si vous utilisez un lecteur de cartes à puces physiques, insérez la carte à puce dans l’appareil.
 
@@ -66,15 +94,42 @@ Pour plus d’informations sur l’inscription des utilisateurs en leur nom via 
 
 10. Lorsque vous y êtes invité, entrez le code confidentiel utilisé pour créer la carte à puce virtuelle.
     
+    <div>
+    
+
     > [!NOTE]  
     > La valeur par défaut du code confidentiel de la carte à puce virtuelle est « 12345678 ».
 
-11. Une fois le certificat émis, cliquez sur **Installer ce certificat** pour terminer le processus d’inscription.
     
-> [!NOTE]  
-> Si votre demande de certificat échoue avec l’erreur « Ce navigateur web ne prend pas en charge la génération des demandes de certificat », vous pouvez résoudre le problème de trois façons :
-> <ol>
-> <li><p>Activez l’affichage de compatibilité dans Internet Explorer.</p></li>    
-> <li><p>Activez l’option Activer les paramètres Intranet dans Internet Explorer.</p></li>    
-> <li><p>Sélectionnez le paramètre Rétablir toutes les zones au niveau par défaut sous l’onglet Sécurité du menu Options Internet Explorer.</p></li>
-> </ol>
+    </div>
+
+11. Une fois le certificat émis, cliquez sur **Installer ce certificat** pour terminer la procédure d’inscription.
+    
+    <div>
+    
+
+    > [!NOTE]  
+    > Si votre demande de certificat échoue avec l’erreur « Ce navigateur web ne prend pas en charge la génération des demandes de certificat », vous pouvez résoudre le problème de trois façons : 
+    > <OL>
+    > <LI>
+    > <P>Activez l’affichage de compatibilité dans Internet Explorer.</P>
+    > <LI>
+    > <P>Activez l’option Activer les paramètres Intranet dans Internet Explorer.</P>
+    > <LI>
+    > <P>Sélectionnez le paramètre Rétablir toutes les zones au niveau par défaut sous l’onglet Sécurité du menu Options Internet Explorer.</P></LI></OL>
+
+    
+    </div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+

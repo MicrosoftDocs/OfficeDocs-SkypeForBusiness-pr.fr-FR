@@ -1,66 +1,113 @@
-﻿---
-title: 'Lync Server 2013 : Gestion de la stratégie d’accès externe pour l’organisation'
-TOCTitle: Gestion de la stratégie d’accès externe pour l’organisation
-ms:assetid: 5571811e-34c8-443a-b94c-1ab5d4275581
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg520995(v=OCS.15)
-ms:contentKeyID: 49297288
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Gestion de la stratégie d’accès externe pour l’organisation'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Manage external access policy for your organization
+ms:assetid: 5571811e-34c8-443a-b94c-1ab5d4275581
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520995(v=OCS.15)
+ms:contentKeyID: 48184160
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 10a08e096d517d2ac53866df763ab2f553480da5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34830914"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Gestion de la stratégie d’accès externe dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2013-10-07_
+# <a name="manage-external-access-policy-in-lync-server-2013"></a>Gestion de la stratégie d’accès externe dans Lync Server 2013
 
-Une fois que vous avez déployé un ou plusieurs serveurs Edge, vous devez activer les types d’accès externes qui seront pris en charge pour votre organisation.
+</div>
 
-Par défaut, aucune stratégie n’est configurée pour prendre en charge l’accès des utilisateurs externes, notamment l’accès des utilisateurs distants et des utilisateurs fédérés, même si vous avez déjà activé la prise en charge de l’accès des utilisateurs externes dans votre organisation. Pour contrôler l’accès des utilisateurs externes, vous devez configurer une ou plusieurs stratégies en spécifiant le type d’accès des utilisateurs externes pris en charge. Les étendues de stratégies suivantes sont disponibles à des fins de création et de configuration. Par défaut, la stratégie globale est créée mais elle ne peut pas être supprimée.
+<div id="mainSection">
 
-  - **Stratégie globale**   La stratégie globale est créée lors du déploiement des serveurs Edge. Par défaut, aucune option d’accès des utilisateurs externes n’est activée dans cette stratégie. Pour prendre en charge l’accès des utilisateurs externes au niveau global, vous devez configurer la stratégie globale pour qu’elle prenne en charge un ou plusieurs types d’option d’accès des utilisateurs externes. La stratégie globale s’applique à tous les utilisateurs de votre organisation. Cependant, les stratégies de niveau site et utilisateur la supplantent. Si vous supprimez la stratégie globale, il n’est pas nécessaire de la retirer. Il suffit de rétablir ses paramètres par défaut.
+<div id="mainBody">
 
-  - **Stratégie de site**   Vous pouvez créer et configurer une ou plusieurs stratégies de site pour limiter la prise en charge de l’accès des utilisateurs externes à des sites spécifiques. La stratégie de site supplante la stratégie globale, uniquement pour le site pour lequel elle est définie. Par exemple, si vous activez l’accès des utilisateurs distants dans la stratégie globale, vous pouvez spécifier une stratégie de site qui désactive l’accès sur un site donné. Par défaut, une stratégie de site s’applique à tous les utilisateurs de ce site. Vous pouvez affecter une stratégie utilisateur qui supplante la stratégie de site.
+<span> </span>
 
-  - **Stratégie utilisateur**   Vous pouvez créer et configurer une ou plusieurs stratégies utilisateur pour limiter la prise en charge de l’accès des utilisateurs distants à des utilisateurs spécifiques. La stratégie utilisateur supplante les stratégies globale et de site, uniquement pour les utilisateurs auxquels elle est affectée. Par exemple, si vous activez l’accès des utilisateurs distants dans les stratégies globale et de site, vous pouvez définir une stratégie utilisateur qui désactive l’accès des utilisateurs distants et l’affecter à des utilisateurs spécifiques. Si vous créez une stratégie utilisateur, vous devez l’appliquer à un ou plusieurs utilisateurs pour qu’elle prenne effet.
+_**Dernière modification de la rubrique:** 2013-10-07_
+
+Après le déploiement d’un ou plusieurs serveurs Edge, vous devez activer les types d’accès externe qui seront pris en charge pour votre organisation.
+
+Par défaut, il n’y a pas de stratégies configurées pour prendre en charge l’accès des utilisateurs externes, y compris les accès utilisateurs distants, l’accès des utilisateurs fédérés, même si vous avez déjà activé la prise en charge de l’accès des utilisateurs externes pour votre organisation. Pour contrôler l’utilisation de l’accès des utilisateurs externes, vous devez configurer une ou plusieurs stratégies en spécifiant le type d’accès des utilisateurs externes pris en charge pour chaque stratégie. Les étendues de stratégie suivantes sont disponibles pour la création et la configuration. Par défaut, la stratégie globale est créée, mais elle ne peut pas être supprimée.
+
+  - **Politique globale la**   stratégie globale est créée lors du déploiement de votre serveur Edge. Par défaut, aucune option d’accès utilisateur externe n’est activée dans la stratégie globale. Pour prendre en charge l’accès des utilisateurs externes au niveau global, vous pouvez configurer la stratégie globale pour prendre en charge un ou plusieurs types d’options d’accès utilisateurs externes. La politique globale s’applique à tous les utilisateurs de votre organisation, mais les stratégies de site et les stratégies d’utilisateur remplacent la stratégie globale. Si vous supprimez la stratégie globale, vous ne la supprimez pas. Au lieu de cela, vous rétablissez la valeur par défaut.
+
+  - **Stratégie de site**   vous pouvez créer et configurer une ou plusieurs stratégies de site pour limiter l’accès des utilisateurs externes à des sites spécifiques. La configuration de la stratégie de site remplace la stratégie globale, uniquement pour le site pour lequel elle est définie. Par exemple, si vous autorisez l’accès des utilisateurs distants dans la stratégie globale, vous pouvez spécifier une stratégie de site qui désactive l’accès des utilisateurs distants pour un site spécifique. Par défaut, une stratégie de site est appliquée à tous les utilisateurs de ce site, mais vous pouvez affecter une stratégie d’utilisateur à un utilisateur pour remplacer le paramètre de stratégie de site.
+
+  - **Stratégie**   de l’utilisateur vous pouvez créer et configurer une ou plusieurs stratégies utilisateur pour limiter la prise en charge de l’accès des utilisateurs distants à des utilisateurs spécifiques. La configuration de la stratégie utilisateur remplace la stratégie globale et la stratégie de site, mais uniquement pour les utilisateurs spécifiques auxquels la stratégie utilisateur est affectée. Par exemple, si vous autorisez l’accès des utilisateurs distants dans la stratégie globale et la stratégie de site, vous pouvez spécifier une stratégie d’utilisateur qui désactive l’accès des utilisateurs distants, puis affecter cette stratégie à des utilisateurs spécifiques. Si vous créez une stratégie d’utilisateur, vous devez l’appliquer à un ou plusieurs utilisateurs avant qu’elle ne soit appliquée.
+
+<div>
+
 
 > [!IMPORTANT]  
-> Les paramètres de stratégie Lync Server qui sont appliqués au niveau d’une stratégie peuvent remplacer les paramètres appliqués à un autre niveau de stratégie. La politique de priorité de Lync Server est la suivante : la stratégie utilisateur (la plus influente) remplace une stratégie site, et une stratégie site remplace une stratégie globale (la moins influente). Cela signifie que plus le paramètre de stratégie est proche de l’objet que la stratégie affecte, plus elle a d’influence sur l’objet.
+> Les paramètres de stratégie Lync Server appliqués à un niveau de stratégie peuvent remplacer les paramètres appliqués à un autre niveau de stratégie. Le niveau de priorité de la stratégie de serveur Lync est défini comme suit: la stratégie d’utilisateur (la plus influence) a pour effet de remplacer une stratégie de site, puis une stratégie de site remplace une stratégie globale (moins l’influence). Cela signifie que le paramètre de stratégie est plus proche de l’objet affecté par la stratégie, plus l’influence sur l’objet.
 
-Ces options comprennent les types d’accès externes suivants :
 
-  - **Autoriser les communications avec des utilisateurs fédérés**    Activez cette option si vous voulez assurer la prise en charge de l’accès des utilisateurs aux domaines partenaires fédérés. Ce paramètre configure la possibilité pour les utilisateurs de communiquer avec d’autres domaines fédérés SIP, ainsi que des fournisseurs hébergés tels que Microsoft Office 365. Si vous choisissez ce paramètre, vous pouvez sélectionner l’option autorisant les communications avec les domaines fédérés XMPP.
+
+</div>
+
+Ces options incluent les types d’accès externes suivants:
+
+  - **Activer les communications avec les utilisateurs**   fédérés activez cette fonction si vous souhaitez prendre en charge l’accès des utilisateurs aux domaines partenaires fédérés. Ce paramètre configure la possibilité pour les utilisateurs de communiquer avec d’autres domaines fédérés SIP, ainsi que des fournisseurs hébergés tels que Microsoft Office 365. Le choix de ce paramètre vous permet de sélectionner l’option permettant de communiquer avec des domaines fédérés XMPP.
     
-    Éventuellement, vous pouvez sélectionner **Autoriser les communications avec des partenaires fédérés XMPP** si vous sélectionnez au préalable **Autoriser les communications avec des utilisateurs fédérés** . La fédération XMPP est une fédération avec les organisations qui utilisent le protocole XMPP (Extensible Messaging And Presence Protocol).
+    Vous pouvez également sélectionner l’option **activer les communications avec les partenaires fédérés de XMPP** si vous activez **d’abord activer les communications avec les utilisateurs fédérés**. La Fédération XMPP est une Fédération avec des organisations qui utilisent le protocole XMPP (extensible Messaging and Presence Protocol).
     
+    <div>
+    
+
     > [!NOTE]  
-    > Si vous activez la fédération XMPP, vous devez également choisir de déployer la <strong>fédération XMPP</strong> dans la section de configuration des pools de serveurs Edge du Générateur de topologie. La configuration de la fédération XMPP déploie un proxy XMPP sur le serveur Edge et une passerelle XMPP sur le serveur frontal.
+    > Si vous activez la Fédération XMPP, vous devez également choisir de déployer la <STRONG>Fédération XMPP</STRONG> dans la section Configuration de pools de périphérie du générateur de topologie. La configuration de la Fédération XMPP déploie un proxy XMPP sur le serveur Edge et une passerelle XMPP sur le serveur frontal.
 
-  - **Autoriser les communications avec des utilisateurs distants**    Activez cette option si vous souhaitez que les utilisateurs de votre organisation qui se trouvent à l’extérieur de votre pare-feu, par exemple, les télétravailleurs et les travailleurs itinérants, puissent se connecter à Lync Server via Internet.
-
-  - **Autoriser les communications avec des utilisateurs publics**    Activez cette option si vous souhaitez que les utilisateurs internes puissent communiquer avec les contacts du fournisseur de services de messagerie instantanée publics, tels que ceux proposés par Windows Live, Yahoo\! et America Online (AOL).
     
+    </div>
+
+  - **Activer les communications avec les utilisateurs**   distants activez cette option si vous souhaitez que les utilisateurs de votre organisation qui se trouvent en dehors de votre pare-feu (par exemple, les télétravailleurs et les utilisateurs qui voyagent) puissent se connecter à Lync Server via Internet.
+
+  - **Activer les communications avec les utilisateurs**   publics activez cette option si vous souhaitez que les utilisateurs internes puissent communiquer avec des contacts de fournisseurs de messagerie instantanée publics, tels que ceux fournis\!par Windows Live, Yahoo et America Online (AOL).
+    
+    <div>
+    
+
     > [!IMPORTANT]  
-    > <ul>    
-    > <li><p>Depuis le 1er septembre 2012, la licence Microsoft Lync « PIC USL » (Public IM Connectivity User Subscription License) n’est plus disponible et ne peut pas être achetée ou renouvelée. Les clients disposant de licences actives pourront continuer à assurer la fédération avec Yahoo! Messenger jusqu’à la date d’arrêt du service. Une date de fin de vie de juin 2014 a été annoncée pour AOL et Yahoo! Pour plus d’informations, reportez-vous à <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Prise en charge de la connectivité PIC (Public IM Connectivity) dans Lync Server 2013</a>.</p></li>    
-    > <li><p>La licence PIC USL est une licence d’abonnement mensuel par utilisateur requise pour la fédération de Lync Server ou Office Communications Server avec Yahoo! Messenger. La capacité de Microsoft à fournir ce service est liée au soutien de Yahoo!, dont le contrat sous-jacent arrive à expiration.</p></li>    
-    > <li><p>Lync est un outil puissant permettant aux organisations et aux individus du monde entier de rester connectés. La fédération avec Windows Live Messenger ne nécessite aucune licence utilisateur/appareil supplémentaire en plus de la licence d’accès client (CAL) standard Lync. La fédération avec Skype sera prochainement ajoutée à cette liste, ce qui permettra aux utilisateurs Lync d’entrer en contact avec des centaines de millions de personnes à l’aide des fonctionnalités vocales et de messagerie instantanée.</p></li>
-    > </ul>
+    > <UL>
+    > <LI>
+    > <P>À compter du 1er septembre, 2012, le contrat de licence de l’utilisateur Microsoft Lync Public IM Connectivity («PIC USL») ne sera plus disponible à l’achat pour les contrats de nouveau ou de renouvellement. Les clients disposant de licences actives seront en mesure de continuer à fédérer avec Yahoo! Messenger jusqu’à la date d’arrêt du service. Date de fin de vie du 2014 juin pour AOL et Yahoo! a été annoncé. Pour plus d’informations, voir <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">prise en charge de la connectivité de messagerie instantanée publique dans Lync Server 2013</A>.</P>
+    > <LI>
+    > <P>La fonction USL (PIC) est une licence d’abonnement par mois qui est requise pour que Lync Server ou Office Communications Server se fédérer avec Yahoo! Messenger. La capacité de Microsoft à fournir ce service est subordonné à la prise en charge de Yahoo!, le contrat sous-jacent pour lequel le son est arrêté.</P>
+    > <LI>
+    > <P>Plus que jamais, Lync est un outil puissant de connexion entre organisations et de personnes dans le monde entier. La Fédération avec Windows Live Messenger ne nécessite aucune licence d’utilisateur/appareil supplémentaire au-delà de la CAL standard Lync. Skype Federation sera ajouté à cette liste et permettra aux utilisateurs de Lync de joindre des centaines de millions de personnes à la messagerie instantanée et à la voix.</P></LI></UL>
+
+    
+    </div>
+
+<div>
 
 
 > [!NOTE]  
-> En plus d’activer la prise en charge de l’accès des utilisateurs externes, vous devez aussi configurer les stratégies permettant de contrôler l’utilisation de l’accès des utilisateurs externes dans votre organisation avant que tout type d’accès des utilisateurs externes soit mis à la disposition des utilisateurs. Pour plus d’informations sur la création, la configuration et l’application des stratégies d’accès des utilisateurs externes, reportez-vous à <a href="lync-server-2013-enable-or-disable-remote-user-access.md">Activation ou désactivation de l’accès des utilisateurs distants dans Lync Server 2013</a>.
+> Outre l’activation de la prise en charge de l’accès des utilisateurs externes, vous devez également configurer des stratégies pour contrôler l’utilisation de l’accès des utilisateurs externes au sein de votre organisation avant de pouvoir accéder aux utilisateurs externes. Pour plus d’informations sur la création, la configuration et l’application de stratégies pour l’accès des utilisateurs externes, voir <A href="lync-server-2013-enable-or-disable-remote-user-access.md">activer ou désactiver l’accès des utilisateurs distants dans Lync Server 2013</A>.
 
-**Pour afficher les stratégies d’accès externes à l’aide d’applets de commande Windows PowerShell**
 
-  - Vous pouvez afficher les stratégies d’accès externe à l’aide de Lync Server Management Shell et de l’applet de commande **Get-CsExternalAccessPolicy**. Vous pouvez exécuter cette applet de commande à partir de Lync Server 2013 Management Shell ou d’une session à distance de Windows PowerShell. Pour plus de détails sur l’utilisation de Windows PowerShell à distance pour une connexion à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Démarrage rapide : Gestion de Microsoft Lync Server 2010 avec PowerShell à distance » à l’adresse [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+
+</div>
+
+**Pour afficher les stratégies d’accès externe à l’aide des cmdlets Windows PowerShell**
+
+  - Vous pouvez afficher les stratégies d’accès externe à l’aide de Lync Server Management Shell et de l’applet **de passe Get-CsExternalAccessPolicy** . Vous pouvez exécuter cette applet de commande sur Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell».
     
-    Pour afficher des informations sur l’ensemble de vos stratégies d’accès externes, tapez la commande suivante dans Lync Server Management Shell, puis appuyez sur Entrée :
+    Pour afficher des informations sur les stratégies d’accès externe, tapez la commande suivante dans Lync Server Management Shell, puis appuyez sur entrée:
     
         Get-CsExternalAccessPolicy
     
-    Cette commande retourn le type d’information suivant :
+    Cette commande renvoie le type d’informations suivant :
     
         Identity                          : Global
         Description                       :
@@ -70,7 +117,9 @@ Ces options comprennent les types d’accès externes suivants :
         EnablePublicCloudAudioVideoAccess : False
         EnableOutsideAccess               : False
 
-## Dans cette section
+<div>
+
+## <a name="in-this-section"></a>Dans cette section
 
   - [Configuration des stratégies de contrôle d’accès des utilisateurs fédérés dans Lync Server 2013](lync-server-2013-configure-policies-to-control-federated-user-access.md)
 
@@ -83,4 +132,16 @@ Ces options comprennent les types d’accès externes suivants :
   - [Attribution d’une stratégie d’accès des utilisateurs externes à un utilisateur activé pour Lync dans Lync Server 2013](lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md)
 
   - [Réinitialisation ou suppression des stratégies d’accès des utilisateurs externes dans Lync Server 2013](lync-server-2013-resetting-or-deleting-external-user-access-policies.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

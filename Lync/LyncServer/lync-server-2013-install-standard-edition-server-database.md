@@ -1,38 +1,78 @@
-﻿---
-title: "Lync Server 2013 : Install. de la base de données de serveur Standard Edition"
-TOCTitle: Installation de la base de données de serveur Standard Edition
-ms:assetid: 0bd3a804-aad6-48cb-981b-54725af032db
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398167(v=OCS.15)
-ms:contentKeyID: 49296224
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Installation de la base de données de serveur Standard Edition'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Install Standard Edition server database
+ms:assetid: 0bd3a804-aad6-48cb-981b-54725af032db
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398167(v=OCS.15)
+ms:contentKeyID: 48183385
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 5cad6f67dbf1bfff1ee16dbd7455b02d904aac0d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831000"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Installation de la base de données de serveur Standard Edition pour Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-10-01_
+# <a name="install-standard-edition-server-database-for-lync-server-2013"></a>Installation de la base de données de serveur Standard Edition pour Lync Server 2013
 
-L’installation d’un serveur Standard Edition comme seul serveur dans votre infrastructure qui héberge des utilisateurs diffère de celle des autres serveurs, car vous devez sélectionner une option spéciale dans l’**Assistant Déploiement** pour installer ce serveur.
+</div>
 
-## Pour installer un serveur Standard Edition
+<div id="mainSection">
 
-1.  Connectez-vous au serveur sur lequel vous allez installer le serveur Standard Edition en tant qu’administrateur local ou avec un domaine équivalent.
+<div id="mainBody">
 
-2.  Si vous n’avez pas préparé les services de domaine Active Directory, effectuez d’abord ces procédures. Pour plus d’informations, reportez-vous à [Préparation des services de domaine Active Directory pour Lync Server 2013](lync-server-2013-preparing-active-directory-domain-services.md).
+<span> </span>
 
-3.  Dans l’Assistant Déploiement de Lync Server, cliquez sur **Préparer d’abord le serveur Standard Edition** .
+_**Dernière modification de la rubrique:** 2012-10-01_
 
-4.  Dans la page **Préparer le serveur Standard Edition** , cliquez sur **Suivant** .
+La configuration d’un serveur Standard Edition Server en tant que serveur unique dans votre infrastructure qui est identique à celle d’autres installations de serveur dans le cadre de l' **Assistant Déploiement** est une sélection spécifique à la configuration du serveur initial.
 
-5.  Dans la page **Exécution de commandes** , le logiciel de base de données SQL Server 2012 Express est installé en tant que magasin central de gestion. Les règles de pare-feu nécessaires sont créées. Lorsque l’installation de la base de données et des logiciels prérequis est terminée, cliquez sur **Terminer** .
+<div>
+
+## <a name="to-install-a-standard-edition-server"></a>Pour installer un serveur Standard Edition Server
+
+1.  Ouvrez une session sur le serveur sur lequel vous allez installer Standard Edition Server en tant qu’administrateur local ou un domaine équivalent.
+
+2.  Si vous n’avez pas encore préparé les services de domaine Active Directory, vous devez d’abord effectuer ces procédures. Pour plus d’informations, consultez [préparation des services de domaine Active Directory pour Lync Server 2013](lync-server-2013-preparing-active-directory-domain-services.md).
+
+3.  Dans l’Assistant Déploiement de Lync Server, cliquez sur **préparer le premier serveur Standard Edition**.
+
+4.  Sur la page **préparer Single Standard Edition Server** , cliquez sur **suivant**.
+
+5.  Sur la page **exécution des commandes** , SQL Server 2012 Express est installé en tant que magasin de gestion centrale. Des règles de pare-feu nécessaires sont créées. Lorsque l’installation de la base de données et du logiciel requis est terminée, cliquez sur **Terminer**.
     
+    <div>
+    
+
     > [!NOTE]  
-    > L’installation initiale peut durer un certain temps sans que les mises à jour ne soient visibles sur l’écran récapitulatif des résultats de la commande. Cela est dû à l’installation de SQL Server Express. Pour surveiller l’installation de la base de données, utilisez le Gestionnaire des tâches.
+    > L’installation initiale risque de prendre un certain temps sans qu’aucune mise à jour ne s’affiche à l’écran de synthèse de la sortie de commande. Le problème est dû à l’installation de SQL Server Express. Si vous avez besoin de surveiller l’installation de la base de données, utilisez le gestionnaire des tâches pour contrôler la configuration.
 
-6.  Dans la page de l’Assistant Déploiement de Lync Server, cliquez sur **Installer le générateur de topologie** si vous n’avez pas déjà installé les outils d’administration. Pour plus d’informations, reportez-vous à [Installation des outils d’administration Lync Server 2013](lync-server-2013-install-lync-server-administrative-tools.md).
+    
+    </div>
 
-7.  Vérifiez que des coches vertes s’affichent bien en regard de « Préparer Active Directory », « Préparer le serveur Standard Edition » et « Installer le générateur de topologie ».
+6.  Dans la page Assistant Déploiement de Lync Server, cliquez sur **installer le générateur de topologie** si vous n’avez pas encore installé les outils d’administration. Pour en savoir plus, voir [installer les outils d’administration de Lync Server 2013](lync-server-2013-install-lync-server-administrative-tools.md).
+
+7.  Vérifiez que la case à cocher «préparer Active Directory» et «préparer le premier serveur Standard Edition» et «installer le générateur de topologie» est activée.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

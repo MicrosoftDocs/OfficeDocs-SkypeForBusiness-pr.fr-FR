@@ -1,47 +1,69 @@
-﻿---
-title: "Créer ou mod. une règle de trad. à l’aide de l’outil Créer une règle de trad."
-TOCtitle: "Créer ou mod. une règle de trad. à l’aide de l’outil Créer une règle de trad."
-ms:assetid: ba112df8-3bb4-48e4-a353-4bf9110ccd71
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg412909(v=OCS.15)
-ms:contentKeyID: 49298644
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Créer ou modifier une règle de traduction à l’aide de l’outil créer une règle de traduction
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Create or modify a translation rule by using the Build a Translation Rule tool
+ms:assetid: ba112df8-3bb4-48e4-a353-4bf9110ccd71
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412909(v=OCS.15)
+ms:contentKeyID: 48185224
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 06f498af25dfd851bd2950ce08d5c66179b95ebc
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831782"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Créer ou modifier une règle de traduction à l’aide de l’outil Créer une règle de traduction
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-10-05_
+# <a name="create-or-modify-a-translation-rule-by-using-the-build-a-translation-rule-tool-in-lync-server-2013"></a>Créer ou modifier une règle de traduction à l’aide de l’outil créer une règle de traduction dans Lync Server 2013
 
-Suivez la procédure suivante si vous souhaitez définir une règle de traduction en entrant un ensemble de valeurs dans l’outil **Créer une règle de traduction** et en autorisant le Panneau de configuration Lync Server à générer le modèle correspondant et la règle de traduction pour vous. Vous pouvez également écrire manuellement une expression régulière pour définir le modèle correspondant et la règle de traduction. Pour plus d’informations, voir [Créer ou modifier manuellement une règle de traduction](lync-server-2013-create-or-modify-a-translation-rule-manually.md).
+</div>
 
-## Pour définir une règle à l’aide de l’outil Créer une règle de traduction
+<div id="mainSection">
 
-1.  Ouvrez une session sur l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre du rôle CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Pour plus d’informations, voir [Délégation des autorisations de configuration dans Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+<div id="mainBody">
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes de démarrage du Panneau de configuration Lync Server, voir [Ouvrir les outils d’administration Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+<span> </span>
 
-3.  Pour commencer à définir une règle de traduction, suivez les étapes dans [Configuration d’une jonction avec la déviation du trafic multimédia dans Lync Server 2013](lync-server-2013-configure-a-trunk-with-media-bypass.md) jusqu’à l’étape 10 ou [Configuration d’une jonction sans déviation du trafic multimédia dans Lync Server 2013](lync-server-2013-configure-a-trunk-without-media-bypass.md) jusqu’à l’étape 9.
+_**Dernière modification de la rubrique:** 2012-10-05_
+
+Suivez ces étapes si vous voulez définir une règle de traduction en entrant un ensemble de valeurs dans l’outil **créer une règle de traduction** et en activant le panneau de configuration de Lync Server pour générer le modèle de correspondance et la règle de traduction correspondants pour vous. Vous pouvez également écrire manuellement une expression régulière pour définir le modèle correspondant et la règle de traduction. Pour plus d’informations, reportez-vous à [créer ou modifier une règle de traduction manuellement dans Lync Server 2013](lync-server-2013-create-or-modify-a-translation-rule-manually.md).
+
+<div>
+
+## <a name="to-define-a-rule-by-using-the-build-a-translation-rule-tool"></a>Pour définir une règle à l’aide de l’outil Créer une règle de traduction
+
+1.  Connectez-vous à l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre du rôle CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Pour plus d’informations, reportez-vous à la section [délégation des autorisations de configuration dans Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+
+3.  Pour commencer à définir une règle de traduction, suivez les étapes décrites dans l’article [configurer un Trunk with Media bypass dans Lync server 2013](lync-server-2013-configure-a-trunk-with-media-bypass.md) à l’étape 10 ou [configurer un Trunk sans dérivation multimédia dans Lync Server 2013](lync-server-2013-configure-a-trunk-without-media-bypass.md) à l’étape 9.
 
 4.  Sous **Nom** dans la page **Nouvelle règle de traduction** ou **Modifier la règle de traduction**, tapez un nom décrivant le modèle de numéro en cours de traduction.
 
-5.  (Facultatif) Sous **Description**, entrez la description de la règle de traduction ; par exemple, **Appel longue distance international**.
+5.  (Facultatif) Sous **Description**, entrez la description de la règle de traduction ; par exemple, **US International long-distance dialing**.
 
 6.  Dans la section **Créer une règle de traduction** de la boîte de dialogue, entrez des valeurs dans les champs suivants :
     
-      - **Chiffres de début** : (Facultatif) Précisez les premiers chiffres des numéros que vous souhaitez faire correspondre avec le modèle. Par exemple, entrez **+** dans ce champ pour faire correspondre les numéros au format E.164 (commençant par un signe +).
+      - **Chiffres de début** : (Facultatif) précisez les premiers chiffres des numéros que vous souhaitez faire correspondre avec le modèle. Par exemple, entrez **+** dans ce champ pour correspondre aux nombres au format E. 164 (qui commence par +).
     
-      - **Longueur** : précisez le nombre de chiffres dans le modèle correspondant et choisissez si vous souhaitez que le modèle corresponde exactement à des numéros de cette longueur, à cette longueur au minimum et ou à une longueur quelconque. Par exemple, entrez **11** et sélectionnez l’option **Au moins** dans la liste déroulante pour faire correspondre les numéros dont la longueur est d’au minimum 11 chiffres.
+      - **Longueur** : précisez le nombre de chiffres dans le modèle correspondant et choisissez si vous souhaitez que le modèle corresponde exactement à des numéros de cette longueur, à cette longueur au minimum et ou à une longueur quelconque. Par exemple, entrez **11** et sélectionnez l’option **At least** dans la liste déroulante pour faire correspondre les numéros dont la longueur est d’au minimum 11 chiffres.
     
-      - **Chiffres à supprimer** : (Facultatif) Précisez le nombre de chiffres de début à supprimer. Par exemple, entrez **1** pour retirer le signe **+** au début du numéro.
+      - **Chiffres à supprimer** : (Facultatif) précisez le nombre de chiffres de début à supprimer. Par exemple, entrez **1** pour enlever le **+** début du numéro.
     
-      - **Chiffres à ajouter** : (Facultatif) Précisez les chiffres à ajouter aux numéros traduits. Par exemple, entrez **011** si vous souhaitez ajouter 011 aux numéros traduits au moment d’appliquer la règle.
+      - **Chiffres à ajouter** : (Facultatif) précisez les chiffres à ajouter aux numéros traduits. Par exemple, entrez **011** si vous souhaitez ajouter 011 aux numéros traduits au moment d’appliquer la règle.
     
     Les valeurs saisies dans ces champs sont reproduites dans les champs **Modèle à suivre** et **Règle de traduction**. Par exemple, si vous appliquez les valeurs de l’exemple précédent, l’expression régulière obtenue dans le champ **Modèle à suivre** est :
     
-    **^\\+(\\d{9}\\d+)$**
+    **^\\+ (\\j{9}\\d +) $**
     
     Le champ **Règle de traduction** spécifie un modèle pour le format des numéros traduits. Ce modèle comprend deux parties :
     
@@ -59,19 +81,40 @@ Suivez la procédure suivante si vous souhaitez définir une règle de traductio
 
 9.  Dans la page **Configuration de la jonction**, cliquez sur **Valider**, puis sur **Valider tout**.
     
-    > [!NOTE]  
-    > Chaque fois que vous créez ou modifiez une règle de traduction, vous devez exécuter la commande <strong>Valider tout</strong> pour publier la modification de la configuration. Pour plus d’informations, voir <a href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publication des modifications en attente de la configuration du routage des communications vocales dans Lync Server 2013</a> dans la documentation des opérations.
+    <div>
+    
 
-## Voir aussi
+    > [!NOTE]
+    > Chaque fois que vous créez ou modifiez une règle de traduction, vous devez exécuter la commande <STRONG>Valider tout</STRONG> pour publier la modification de la configuration. Pour plus d’informations, reportez-vous <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">à la rubrique publier des modifications en attente sur la configuration de l’acheminement de la voix dans Lync Server 2013</A> dans la documentation
 
-#### Tâches
+    
+    </div>
 
-[Créer ou modifier manuellement une règle de traduction](lync-server-2013-create-or-modify-a-translation-rule-manually.md)  
-[Configuration d’une jonction avec la déviation du trafic multimédia dans Lync Server 2013](lync-server-2013-configure-a-trunk-with-media-bypass.md)  
-[Configuration d’une jonction sans déviation du trafic multimédia dans Lync Server 2013](lync-server-2013-configure-a-trunk-without-media-bypass.md)  
-[Publication des modifications en attente de la configuration du routage des communications vocales dans Lync Server 2013](lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md)  
+</div>
 
-#### Concepts
+<div>
 
-[Options globales du contournement de média dans Lync Server 2013](lync-server-2013-global-media-bypass-options.md)
+## <a name="see-also"></a>Voir aussi
+
+
+[Créer ou modifier une règle de traduction manuellement dans Lync Server 2013](lync-server-2013-create-or-modify-a-translation-rule-manually.md)  
+[Configure a trunk with media bypass in Lync Server 2013](lync-server-2013-configure-a-trunk-with-media-bypass.md)  
+[Configurer un Trunk sans dérivation multimédia dans Lync Server 2013](lync-server-2013-configure-a-trunk-without-media-bypass.md)  
+[Publier les modifications en attente apportées à la configuration du routage de la voix dans Lync Server 2013](lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md)  
+
+
+[Options de contournement global de médias dans Lync Server 2013](lync-server-2013-global-media-bypass-options.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

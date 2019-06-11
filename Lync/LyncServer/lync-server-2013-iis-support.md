@@ -1,25 +1,55 @@
-﻿---
-title: 'Lync Server 2013 : Prise en charge des services Internet (IIS)'
-TOCTitle: Prise en charge des services Internet (IIS)
-ms:assetid: dfb9fafb-a3f5-4928-b451-49dba5499ea2
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398987(v=OCS.15)
-ms:contentKeyID: 49299075
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Prise en charge des services Internet (IIS)'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Internet Information Services (IIS) support
+ms:assetid: dfb9fafb-a3f5-4928-b451-49dba5499ea2
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398987(v=OCS.15)
+ms:contentKeyID: 48185627
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 609a86df20128573dec478109afd602e1f677345
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831032"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Prise en charge des services Internet (IIS) dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-06-29_
+# <a name="iis-support-in-lync-server-2013"></a>Prise en charge des services Internet (IIS) dans Lync Server 2013
 
-Plusieurs composants Lync Server 2013 nécessitent les services Internet (IIS). Les versions suivantes des services Internet étaient prises en charge :
+</div>
 
-  - Services Internet (IIS) 8.0
+<div id="mainSection">
 
-  - Services Internet (IIS) 7.5
+<div id="mainBody">
 
-Pour plus d’informations sur les exigences des services Internet (IIS) pour les composants Lync Server 2013, reportez-vous à [Configuration requise pour les services Internet (IIS) dans Lync Server 2013](lync-server-2013-internet-information-services-iis-requirements.md) dans la documentation de planification.
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-06-29_
+
+Plusieurs composants de Lync Server 2013 requièrent Internet Information Services (IIS). Les versions d’IIS prises en charge sont les suivantes:
+
+  - 8,0 IIS
+
+  - 7,5 IIS
+
+Pour plus d’informations sur la configuration requise par IIS pour les composants Lync Server 2013, voir [Configuration requise pour les services Internet (IIS) dans Lync server 2013](lync-server-2013-internet-information-services-iis-requirements.md) dans la documentation de planification.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

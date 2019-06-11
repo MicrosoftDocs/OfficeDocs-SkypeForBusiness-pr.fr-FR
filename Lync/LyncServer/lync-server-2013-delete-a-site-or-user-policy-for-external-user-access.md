@@ -1,55 +1,105 @@
-﻿---
-title: "Lync Server 2013 : Supp. d’une strat. ut. ou de site pour l’accès des ut. ext."
-TOCTitle: Suppression d’une stratégie utilisateur ou de site pour l’accès des utilisateurs externes
-ms:assetid: 6d907507-825b-4354-9c03-337a459f72de
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg521013(v=OCS.15)
-ms:contentKeyID: 49297553
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Suppression d’une stratégie utilisateur ou de site pour l’accès des utilisateurs externes'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Delete a site or user policy for external user access
+ms:assetid: 6d907507-825b-4354-9c03-337a459f72de
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521013(v=OCS.15)
+ms:contentKeyID: 48184455
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7e5539f1d6e55e94845e63b0f42c0ef855694d56
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831639"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Suppression d’une stratégie utilisateur ou de site pour l’accès des utilisateurs externes dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2013-02-22_
+# <a name="delete-a-site-or-user-policy-for-external-user-access-in-lync-server-2013"></a>Suppression d’une stratégie utilisateur ou de site pour l’accès des utilisateurs externes dans Lync Server 2013
 
-Vous pouvez supprimer n’importe quelle stratégie de site ou stratégie utilisateur listée dans la page **Stratégie d’accès externe** du Panneau de configuration Lync Server. La suppression de la stratégie globale n’entraîne pas la suppression effective de cette dernière ; celle-ci est uniquement réinitialisée en fonction de ses paramètres par défaut, lesquels n’incluent pas la prise en charge des options relatives à l’accès des utilisateurs externes. Pour plus d’informations sur la réinitialisation de la stratégie globale, reporrtez-vous à [Réinitialisation de la stratégie globale pour l’accès des utilisateurs externes dans Lync Server 2013](lync-server-2013-reset-the-global-policy-for-external-user-access.md).
+</div>
 
-## Pour supprimer une stratégie de site ou d’utilisateur pour l’accès des utilisateurs externes
+<div id="mainSection">
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou disposant des mêmes droits) ou affecté au rôle CsAdministrator, ouvrez une session sur un ordinateur qui se trouve sur votre déploiement interne.
+<div id="mainBody">
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes de démarrage du Panneau de configuration Lync Server, voir [Ouvrir les outils d’administration Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+<span> </span>
 
-3.  Cliquez sur **Accès des utilisateurs externes** , puis sur **Stratégie d’accès externe** .
+_**Dernière modification de la rubrique:** 2013-02-22_
 
-4.  Sous l’onglet **Stratégie d’accès externe** , cliquez sur la stratégie de site ou d’utilisateur à supprimer, cliquez sur **Modifier** , puis cliquez sur **Supprimer** .
+Vous pouvez supprimer n’importe quelle stratégie de site ou d’utilisateur figurant dans le panneau de configuration de Lync Server sur la page de **stratégie d’accès externe** . La suppression de la stratégie globale n’entraîne pas la suppression effective de celle-ci, mais elle permet de rétablir les paramètres par défaut, qui n’incluent pas la prise en charge des options d’accès des utilisateurs externes. Pour plus d’informations sur la réinitialisation de la stratégie globale, voir [Réinitialiser la stratégie globale pour l’accès des utilisateurs externes dans Lync Server 2013](lync-server-2013-reset-the-global-policy-for-external-user-access.md).
 
-5.  Dans l’invite de confirmation de la suppression, cliquez sur **OK** .
+<div>
 
-## Suppimer des stratégjes de code confidentiel via les applets de commande Windows PowerShell
+## <a name="to-delete-a-site-or-user-policy-for-external-user-access"></a>Pour supprimer une stratégie de site ou d’utilisateur pour l’accès des utilisateurs externes
 
-ll est possible de supprimer des stratégies d’accès externe à l’aide de Windows PowerShell et de l’applet de commande Remove-CsExternalAccessPolicy (exécutable depuis le Lync Server 2013 Management Shell ou une session à distance de Windows PowerShell. Pour plus de détails sur l’utilisation de Windows PowerShell à distance pour une connexion à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Démarrage rapide : Gestion de Microsoft Lync Server 2010 avec PowerShell à distance » à l’adresse [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).).
+1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affectées au rôle CsAdministrator, connectez-vous à n’importe quel ordinateur dans votre déploiement interne.
 
-## Supprimer une stratégie d’accès externe donnée
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
 
-  - Cette commande permet de supprimer la stratégie d’accès externe appliquée au site Redmond :
+3.  Cliquez sur **accès utilisateur externe**, puis sur **stratégie d’accès externe**.
+
+4.  Dans l’onglet **stratégie d’accès externe** , cliquez sur le site ou la stratégie d’utilisateur à supprimer, cliquez sur **modifier**, puis cliquez sur **supprimer**.
+
+5.  Lorsque vous êtes invité à confirmer la suppression, cliquez sur **OK**.
+
+</div>
+
+<div>
+
+## <a name="removing-pin-policies-by-using-windows-powershell-cmdlets"></a>Suppression de stratégies de code confidentiel à l’aide d’applets de cmdlet Windows PowerShell
+
+Les stratégies d’accès externe peuvent être supprimées à l’aide de Windows PowerShell et de l’applet de passe Remove-CsExternalAccessPolicy. Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell».
+
+<div>
+
+## <a name="to-remove-a-specific-external-access-policy"></a>Pour supprimer une stratégie d’accès externe spécifique
+
+  - Cette commande supprime la stratégie d’accès externe appliquée au site de Redmond:
     
         Remove-CsExternalAccessPolicy -Identity "site:Redmond"
 
-## Supprimer toutes les stratégies d’accès externes appliquées au niveau de l’étendue Utilisateur
+</div>
 
-  - Cette commande permet de supprimer toutes les stratégies d’accès externe configurées au niveau de l’étendue Utilisateur :
+<div>
+
+## <a name="to-remove-all-the-external-access-policies-applied-to-the-per-user-scope"></a>Pour supprimer toutes les stratégies d’accès externe appliquées à l’étendue par utilisateur
+
+  - Cette commande supprime toutes les stratégies d’accès externe configurées pour l’étendue par utilisateur:
     
         Get-CsExternalAccessPolicy -Filter "tag:*" | Remove-CsExternalAccessPolicy
 
-## Supprimer toutes les stratégies d’accès externe losque l’accès des utilisateurs externes est désactivé
+</div>
 
-  - Cette commande permet de supprimer toutes les stratégies d’accès externe dans lesquelles l’accès des utilisateurs extérieurs a été désactivé :
+<div>
+
+## <a name="to-remove-all-the-external-access-policies-where-outside-user-access-is-disabled"></a>Pour supprimer toutes les stratégies d’accès externes pour lesquelles l’accès des utilisateurs externes est désactivé
+
+  - Cette commande supprime toutes les stratégies d’accès externe dont l’accès à l’utilisateur extérieur a été désactivé:
     
         Get-CsExternalAccessPolicy | Where-Object {$_.EnableOutsideAccess -eq $False} | Remove-CsExternalAccessPolicy
 
-Pour plus d’informations, reportez-vous à la rubrique d’aide sur l’applet de commande [Remove-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsExternalAccessPolicy).
+</div>
+
+Pour plus d’informations, reportez-vous à la rubrique d’aide relative à l’applet de passe [Remove-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsExternalAccessPolicy) .
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

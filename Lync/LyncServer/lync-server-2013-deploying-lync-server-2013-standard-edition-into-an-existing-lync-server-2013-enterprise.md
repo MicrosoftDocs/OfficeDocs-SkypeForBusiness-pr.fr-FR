@@ -1,35 +1,76 @@
-﻿---
-title: "Lync Server 2013 : Dépl. de LS 2013 SE dans une instance exist. de LS 2013 E"
-TOCTitle: Déploiement de Lync Server 2013 Standard Edition dans une instance existante de Lync Server 2013 Enterprise
-ms:assetid: 05ea128d-6c94-49b3-b28b-477367196425
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398112(v=OCS.15)
-ms:contentKeyID: 49296131
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Déploiement de Lync Server 2013 Standard Edition dans une instance existante de Lync Server 2013 Enterprise'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deploying Lync Server 2013 Standard Edition into an existing Lync Server 2013 Enterprise
+ms:assetid: 05ea128d-6c94-49b3-b28b-477367196425
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398112(v=OCS.15)
+ms:contentKeyID: 48183297
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 6c505a692590662adf03e48d695b3c1ff089d8d7
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831542"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Déploiement de Lync Server 2013 Standard Edition dans une instance existante de Lync Server 2013 Enterprise
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-10-01_
+# <a name="deploying-lync-server-2013-standard-edition-into-an-existing-lync-server-2013-enterprise"></a>Déploiement de Lync Server 2013 Standard Edition dans une instance existante de Lync Server 2013 Enterprise
 
-Déployer un serveur Standard Edition dans un déploiement Enterprise Edition revient au même que de déployer des rôles serveur supplémentaires. Un serveur Standard Edition peut être déployé sur un autre site, ce qui permet d’héberger les utilisateurs de ce site sur le serveur Standard Edition au lieu du pool de serveurs frontaux sur un réseau étendu (WAN). Les procédures pour installer le nouveau site et les serveurs sur ce site sont déjà définies dans d’autres sections de la documentation [Déploiement de Lync Server 2013](lync-server-2013-deploying-lync-server.md).
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-10-01_
+
+Le déploiement d’un serveur Standard Edition dans un déploiement Enterprise Edition existant est semblable au déploiement de rôles serveur supplémentaires. Un serveur Standard Edition Server peut être déployé sur un autre site, ce qui permet aux utilisateurs de ce site d’être hébergés sur le serveur Standard Edition plutôt que le pool frontal sur un réseau étendu (WAN). Les procédures d’installation du nouveau site et des serveurs de ce site sont déjà définies dans d’autres sections de la documentation de [déploiement de Lync Server 2013](lync-server-2013-deploying-lync-server.md) .
+
+<div id="sectionSection0" class="section">
 
 **Pour définir un nouveau site**
 
-1.  Démarrez le Générateur de topologie : cliquez successivement sur **Démarrer**, **Tous les programmes**, **Microsoft Lync Server 2013**, puis sur **Générateur de topologie Lync Server**.
+1.  Démarrer le générateur de topologie: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Générateur de topologie de Lync Server**.
 
-2.  Dans l’arborescence de la console, cliquez avec le bouton droit sur **Lync Server 2013**, puis cliquez sur **Nouveau site central** .
+2.  Dans l’arborescence de la console, cliquez avec le bouton droit sur **Lync Server 2013**, puis cliquez sur **nouveau site central**.
 
-3.  Dans la page **Identifier le site** , indiquez le nom du site et éventuellement entrez sa description.
+3.  Dans la page **identifier le site** , attribuez un nom au site et entrez éventuellement une description.
 
-4.  Suivez les procédures pour définir le reste de la topologie du site. Pour plus d’informations, reportez-vous à [Définition et configuration de la topologie dans Lync Server 2013](lync-server-2013-defining-and-configuring-the-topology.md).
+4.  Suivez les procédures permettant de définir le reste de la topologie de site. Pour plus d’informations, reportez-vous à [définition et configuration de la topologie dans Lync Server 2013](lync-server-2013-defining-and-configuring-the-topology.md).
 
-5.  Publiez la topologie mise à jour. Pour plus d’informations, reportez-vous à [Publication de la topologie dans Lync Server 2013](lync-server-2013-publish-the-topology.md).
+5.  Publiez la topologie mise à jour. Pour plus d’informations, reportez-vous à [la rubrique publier la topologie dans Lync Server 2013](lync-server-2013-publish-the-topology.md).
 
-6.  Configurez et installez un serveur Standard Edition.
+6.  Configurer et installer un serveur Standard Edition Server.
     
-    > [!CAUTION]  
-    > Si vous avez déployé un environnement avec seulement un serveur Standard Edition, vous avez dû commencer le processus de configuration à l’aide de l’Assistant Déploiement de Lync Server en utilisant le lien <strong>Préparer d’abord le serveur Standard Edition</strong> pour installer les fichiers de base de données initiaux sur le nouveau serveur Standard Edition. <strong>Ne suivez pas</strong> cette procédure pour installer un serveur Standard Edition dans un déploiement Lync Server 2013 existant.
+    <div>
+    
+
+    > [!Caution]  
+    > Si vous avez déployé un environnement uniquement avec un serveur Standard Edition Server, vous avez commencé le processus d’installation à partir de l’Assistant Déploiement de Lync Server à l’aide du lien <STRONG>préparer le premier serveur édition standard</STRONG> pour installer les fichiers de base de données initiale dans le nouveau Serveur Standard Edition. <STRONG>Ne suivez pas</STRONG> ce processus lors de l’installation d’un serveur Standard Edition Server dans un déploiement 2013 Lync Server existant.
+
+    
+    </div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+

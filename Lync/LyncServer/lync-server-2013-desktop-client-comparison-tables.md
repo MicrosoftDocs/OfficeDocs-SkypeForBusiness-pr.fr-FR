@@ -1,71 +1,119 @@
-﻿---
-title: 'Lync Server 2013 : Tableau de comparaison des clients'
-TOCTitle: Tableau de comparaison des clients
-ms:assetid: 34e24103-aec7-4471-a155-933b6fb83c95
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg425836(v=OCS.15)
-ms:contentKeyID: 49296831
-ms.date: 05/03/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: tableau de comparaison des clients de bureau'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Desktop client comparison tables
+ms:assetid: 34e24103-aec7-4471-a155-933b6fb83c95
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425836(v=OCS.15)
+ms:contentKeyID: 48183798
+ms.date: 01/23/2018
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 64bb1313e320b78bf22964bc0a35a6d8c07e9733
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831508"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Tableau de comparaison des clients pour Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2017-05-03_
+# <a name="desktop-client-comparison-tables-for-lync-server-2013"></a>Tableaux de comparaison des clients de bureau pour Lync Server 2013
 
-Les tableaux suivants comparent les fonctionnalités des clients Lync 2013 selon les catégories suivantes :
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2018-01-23_
+
+Les tableaux suivants comparent les fonctionnalités et capacités des clients 2013 Lync dans les catégories suivantes:
 
   - Prise en charge de la présence avancée
 
-  - Prise en charge des contacts et groupes de contacts
+  - Prise en charge des contacts et des groupes de contacts
 
   - Prise en charge de la messagerie instantanée
 
-  - Prise en charge de la conférence
+  - Support des conférences
 
   - Prise en charge de la téléphonie
 
   - Prise en charge des utilisateurs externes
 
-  - Prise en charge de l'archivage, de la conformité et de la journalisation
+  - Prise en charge de l’archivage, de la conformité et de la journalisation
 
-Ces tableaux indiquent les fonctionnalités disponibles pour les utilisateurs de Lync dans un déploiement local de Lync Server 2013. Les mêmes fonctionnalités sont également disponibles pour les utilisateurs de Lync Online et Office 365, sauf indication contraire.
+  - authentification moderne
+
+Les tableaux suivants indiquent les fonctionnalités disponibles pour les utilisateurs de Lync dans un déploiement local de Lync Server 2013. Les mêmes fonctionnalités sont également disponibles pour les utilisateurs de Skype entreprise Online et d’Office 365 sauf indication contraire.
+
+<div>
+
 
 > [!IMPORTANT]  
-> Voir <a href="lync-server-2013-mobile-client-comparison-tables.md">Tableau de comparaison des clients mobiles pour Lync Server 2013</a> pour des détails sur la disponibilité des fonctionnalités dans les clients mobiles Lync 2013.
+> Pour plus d’informations sur la disponibilité des fonctionnalités dans les clients mobiles Lync 2013, voir <A href="lync-server-2013-mobile-client-comparison-tables.md">tableaux de comparaison des clients mobiles pour Lync Server 2013</A> .
+
+
+
+</div>
+
+<div>
+
 
 > [!NOTE]  
-> <ul>
-> <li><p>Pour plus d’informations sur les plans d’abonnement Lync Online, voir la description du service Lync Online à l’adresse <a href="http://go.microsoft.com/fwlink/p/?linkid=282430">http://go.microsoft.com/fwlink/p/?LinkId=282430</a>.</p></li>
-> <li><p>Lync Server 2013 prend en charge les clients précédents suivants : Lync 2010, Lync 2010 Mobile, Lync Phone Edition et Lync 2010 Attendant. Pour plus d’informations sur ces clients, voir la version Lync 2010 des tableaux de comparaison des clients à l’adresse <a href="http://go.microsoft.com/fwlink/p/?linkid=213798">http://go.microsoft.com/fwlink/p/?LinkID=213798</a>.</p></li>
-> <li><p>Le client Lync 2013 prend en charge les données audio et vidéo dans un environnement VDI (Virtual Desktop Infrastructure). Pour plus d’informations sur les fonctionnalités de Lync 2013 dans un environnement VDI, voir <a href="lync-server-2013-supported-virtualization-technologies-and-known-limitations.md">Technologies de virtualisation prises en charge et limites connues dans Lync Server 2013</a>.</p></li></ul>
+> <UL>
+> <LI>
+> <P>Pour plus d’informations sur les offres d’abonnement à Skype entreprise Online, reportez-vous <A href="https://go.microsoft.com/fwlink/p/?linkid=282430">https://go.microsoft.com/fwlink/p/?LinkId=282430</A>à la rubrique Description du service Skype entreprise Online à l’adresse.</P>
+> <LI>
+> <P>Lync Server 2013 prend en charge les clients suivants précédemment disponibles: Lync 2010, Lync 2010 mobile, Lync Phone Edition et Lync 2010 attendant. Pour plus d’informations sur ces clients, voir la version 2010 de Lync des tableaux de <A href="https://go.microsoft.com/fwlink/p/?linkid=213798">https://go.microsoft.com/fwlink/p/?LinkID=213798</A>comparaison des clients à l’adresse.</P>
+> <LI>
+> <P>Le client Lync 2013 prend en charge l’audio et la vidéo dans un environnement VDI (Virtual Desktop Infrastructure). Pour plus d’informations sur les fonctionnalités 2013 de Lync dans un environnement VDI, voir <A href="lync-server-2013-supported-virtualization-technologies-and-known-limitations.md">technologies de virtualisation prises en charge et limitations connues dans Lync Server 2013</A>.</P></LI></UL>
 
 
-## Prise en charge de la présence avancée
+
+</div>
+
+<span id="EnhancedPresence"></span>
+
+<div>
+
+## <a name="enhanced-presence-support"></a>Prise en charge de la présence avancée
 
 
-<table style="width:100%;">
+<table>
 <colgroup>
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
 </colgroup>
 <thead>
 <tr class="header">
 <th>Fonctionnalité</th>
+<th>Client Skype entreprise 2015 et 2016</th>
+<th>Skype Entreprise sur Mac</th>
 <th>Lync 2013</th>
 <th>application Lync du Windows Store</th>
-<th>Concepts de base de Lync 2013</th>
+<th>Lync 2013 de base</th>
 <th>Lync Web App</th>
-<th>Intendant Lync 2010</th>
+<th>Lync 2010</th>
+<th>Lync 2010 attendant</th>
 <th>Lync Phone Edition</th>
 <th>Communicator pour Mac 2011</th>
 <th>Lync pour Mac 2011</th>
@@ -73,34 +121,43 @@ Ces tableaux indiquent les fonctionnalités disponibles pour les utilisateurs de
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Publier et afficher le statut</p></td>
+<td><p>Afficher le statut</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
+<td><p>●</p></td>
+<td><p>●</p></td>
+<td></td>
+<td><p>●</p></td>
+<td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>Afficher le statut en fonction des informations de disponibilité du calendrier</p></td>
+<td><p>Publier le statut</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
+<td><p>●</p></td>
+<td><p>●</p></td>
+<td></td>
+<td><p>●</p></td>
+<td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>Afficher les notes de statut et les messages de notification d’absence du bureau</p></td>
+<td><p>Afficher les notes de statut et les messages de notification d'absence du bureau</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
+<td><p>●</p></td>
+<td><p>●</p></td>
+<td></td>
+<td><p>●</p></td>
+<td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -108,133 +165,84 @@ Ces tableaux indiquent les fonctionnalités disponibles pour les utilisateurs de
 <tr class="even">
 <td><p>Ajouter un emplacement personnalisé</p></td>
 <td><p>●</p></td>
-<td><p></p></td>
+<td> </td>
 <td><p>●</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
+<td></td>
+<td><p>●</p></td>
+<td></td>
+<td><p>●</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr class="odd">
 <td><p>Ajouter une note personnalisée</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
-<td><p></p></td>
+<td><p>●</p></td>
+<td><p>●</p></td>
+<td></td>
+<td><p>●</p></td>
+<td><p>●</p></td>
+<td></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>Utiliser une photo à partir d'un site public pour Mon image</p></td>
-<td><p>●2</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-</tr>
-<tr class="odd">
-<td><p>Publier et afficher le statut</p></td>
+<td><p>Utiliser une photo à partir d’un site public pour Mon image</p></td>
 <td><p>●</p></td>
+<td> </td>
 <td><p>●</p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-</tr>
-<tr class="even">
-<td><p>Afficher le statut en fonction des informations de disponibilité du calendrier</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-</tr>
-<tr class="odd">
-<td><p>Afficher les notes de statut et les messages de notification d’absence du bureau</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-</tr>
-<tr class="even">
-<td><p>Ajouter un emplacement personnalisé</p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-</tr>
-<tr class="odd">
-<td><p>Ajouter une note personnalisée</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
-<td><p></p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-</tr>
-<tr class="even">
-<td><p>Utiliser une photo à partir d'un site public pour Mon image</p></td>
-<td><p>●2</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
+<td></td>
+<td></td>
+<td></td>
+<td> </td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
 
 
-1Intendant Lync 2010 n’est pas pris en charge pour les utilisateurs de Lync Online et/ou Office 365.
+</div>
 
-2 Cette fonctionnalité n’est pas disponible pour les utilisateurs de Lync Online et/ou Office 365.
+<span id="Contacts"></span>
 
-## Prise en charge des contacts et groupes de contacts
+<div>
+
+## <a name="contacts-and-contact-groups-support"></a>Prise en charge des contacts et des groupes de contacts
 
 
-<table style="width:100%;">
+<table>
 <colgroup>
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
 </colgroup>
 <thead>
 <tr class="header">
 <th>Fonctionnalité</th>
+<th>Client Skype entreprise 2015 et 2016</th>
+<th>Skype Entreprise sur Mac</th>
 <th>Lync 2013</th>
 <th>application Lync du Windows Store</th>
-<th>Concepts de base de Lync 2013</th>
+<th>Lync 2013 de base</th>
 <th>Lync Web App</th>
-<th>Intendant Lync 2010</th>
+<th>Lync 2010</th>
+<th>Lync 2010 attendant</th>
 <th>Lync Phone Edition</th>
 <th>Communicator pour Mac 2011</th>
 <th>Lync pour Mac 2011</th>
@@ -242,344 +250,244 @@ Ces tableaux indiquent les fonctionnalités disponibles pour les utilisateurs de
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Afficher la liste des contacts</p></td>
+<td><p>Afficher et modifier la liste des contacts</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
+<td><p>●</p></td>
+<td><p>●</p></td>
+<td></td>
+<td><p>●</p></td>
+<td><p>● 1</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>Modifier la liste des contacts</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-</tr>
-<tr class="odd">
 <td><p>Ajouter une balise à des contacts pour les alertes de changement de statut</p></td>
 <td><p>●</p></td>
-<td><p></p></td>
 <td><p>●</p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
-<td><p></p></td>
-<td><p></p></td>
+<td><p>●</p></td>
+<td></td>
+<td><p>●</p></td>
+<td></td>
+<td><p>●</p></td>
+<td><p>● 1</p></td>
+<td></td>
+<td></td>
 <td><p>●</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p>Contrôler les niveaux de confidentialité</p></td>
 <td><p>●</p></td>
-<td><p></p></td>
+<td> </td>
 <td><p>●</p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
+<td></td>
+<td><p>●</p></td>
+<td></td>
+<td><p>●</p></td>
+<td><p>● 1</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><p>Effectuer des recherches dans le carnet d'adresses de l'entreprise</p></td>
+<td><p>●</p></td>
+<td><p>●</p></td>
+<td><p>●</p></td>
+<td><p>●</p></td>
+<td><p>●</p></td>
+<td></td>
+<td><p>●</p></td>
+<td><p>● 1</p></td>
+<td><p>●</p></td>
+<td><p>●</p></td>
+<td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>Effectuer des recherches dans le carnet d’adresses de l’entreprise</p></td>
+<td><p>Rechercher des contacts Microsoft Outlook</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
+<td></td>
 <td><p>●</p></td>
+<td></td>
 <td><p>●</p></td>
+<td><p>● 1</p></td>
+<td><p>●</p></td>
+<td></td>
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>Rechercher des contacts Microsoft Outlook</p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p>●</p></td>
-</tr>
-<tr class="odd">
 <td><p>Gérer des groupes de contacts</p></td>
 <td><p>●</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
-<td><p></p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-</tr>
-<tr class="even">
-<td><p>Développer des groupes de distribution</p></td>
+<td> </td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
+<td></td>
 <td><p>●</p></td>
-<td><p></p></td>
-<td><p></p></td>
-</tr>
-<tr class="odd">
-<td><p>Rechercher des groupes de réponse</p></td>
-<td><p>●2</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-</tr>
-<tr class="even">
-<td><p>Afficher le groupe de contacts le plus récent</p></td>
+<td><p>● 1</p></td>
+<td></td>
 <td><p>●</p></td>
-<td><p></p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-</tr>
-<tr class="odd">
-<td><p>Afficher le groupe de conversation actuel</p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p></p></td>
-</tr>
-<tr class="even">
-<td><p>Afficher d’autres vues des contacts (par exemple, mosaïque)</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
-<td><p></p></td>
-<td><p></p></td>
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>Trier les contacts par groupe, relation ou Nouveau (personnes vous ayant ajouté à leur liste de contacts)</p></td>
+<td><p>Développer des groupes de distribution et des groupes Office 365</p></td>
+<td><p>●</p></td>
+<td><p>●</p></td>
+<td><p>●</p></td>
+<td><p>●</p></td>
+<td><p>●</p></td>
+<td></td>
+<td><p>●</p></td>
+<td><p>● 1</p></td>
+<td><p>●</p></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><p>Rechercher des groupes Response Group</p></td>
+<td><p>● 2</p></td>
+<td> </td>
+<td><p>● 2</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>●</p></td>
+<td><p>● 1</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><p>Afficher le groupe de contacts récent</p></td>
+<td><p>●</p></td>
+<td> </td>
+<td><p>●</p></td>
+<td></td>
+<td><p>●</p></td>
+<td></td>
+<td><p>●</p></td>
+<td><p>● 1</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><p>Afficher le groupe de conversations actuel</p></td>
+<td><p>●</p></td>
+<td><p>●</p></td>
+<td><p>●</p></td>
+<td></td>
+<td><p>●</p></td>
+<td></td>
+<td><p>●</p></td>
+<td><p>● 1</p></td>
+<td><p>●</p></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><p>Afficher d'autres vues des contacts (par exemple, mosaïque)</p></td>
+<td><p>●</p></td>
+<td> </td>
+<td><p>●</p></td>
+<td><p>●</p></td>
+<td><p>●</p></td>
+<td></td>
+<td><p>●</p></td>
+<td><p>● 1</p></td>
+<td></td>
+<td></td>
+<td><p>●</p></td>
+</tr>
+<tr class="even">
+<td><p>Trier les contacts par groupe, relation ou nouveau (personnes qui vous ont ajouté à leur liste de contacts)</p></td>
+<td><p>●</p></td>
+<td> </td>
 <td><p>●</p></td>
 <td><p>Trier par groupe</p></td>
 <td><p>●</p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
+<td></td>
+<td> </td>
+<td><p>● 1</p></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p>Trier les contacts selon leur statut (disponibilité)</p></td>
 <td><p>●</p></td>
-<td><p></p></td>
+<td> </td>
 <td><p>●</p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
-<td><p></p></td>
-<td><p></p></td>
+<td></td>
 <td><p>●</p></td>
-</tr>
-<tr class="odd">
-<td><p>Afficher la liste des contacts</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
+<td></td>
+<td> </td>
+<td><p>● 1</p></td>
+<td></td>
+<td></td>
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>Modifier la liste des contacts</p></td>
+<td><p>Rechercher et ajouter des contacts Exchange</p></td>
 <td><p>●</p></td>
+<td> </td>
 <td><p>●</p></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
 <td><p>●</p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-</tr>
-<tr class="odd">
-<td><p>Ajouter une balise à des contacts pour les alertes de changement de statut</p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p>●</p></td>
-</tr>
-<tr class="even">
-<td><p>Contrôler les niveaux de confidentialité</p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-</tr>
-<tr class="odd">
-<td><p>Effectuer des recherches dans le carnet d’adresses de l’entreprise</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-</tr>
-<tr class="even">
-<td><p>Rechercher des contacts Microsoft Outlook</p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p>●</p></td>
-</tr>
-<tr class="odd">
-<td><p>Gérer des groupes de contacts</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
-<td><p></p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-</tr>
-<tr class="even">
-<td><p>Développer des groupes de distribution</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p></p></td>
-</tr>
-<tr class="odd">
-<td><p>Rechercher des groupes de réponse</p></td>
-<td><p>●2</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-</tr>
-<tr class="even">
-<td><p>Afficher le groupe de contacts le plus récent</p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-</tr>
-<tr class="odd">
-<td><p>Afficher le groupe de conversation actuel</p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p></p></td>
-</tr>
-<tr class="even">
-<td><p>Afficher d’autres vues des contacts (par exemple, mosaïque)</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p>●</p></td>
-</tr>
-<tr class="odd">
-<td><p>Trier les contacts par groupe, relation ou Nouveau (personnes vous ayant ajouté à leur liste de contacts)</p></td>
-<td><p>●</p></td>
-<td><p>Trier par groupe</p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-</tr>
-<tr class="even">
-<td><p>Trier les contacts selon leur statut (disponibilité)</p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p>●</p></td>
+<td> </td>
+<td> </td>
 </tr>
 </tbody>
 </table>
 
 
-1Intendant Lync 2010 n’est pas pris en charge pour les utilisateurs de Lync Online et/ou Office 365.
+1 pour les utilisateurs de Skype entreprise Online et/ou Office 365, le standardisation de Lync 2010 n’est pas pris en charge.
 
-2 Cette fonctionnalité n’est pas disponible pour les utilisateurs de Lync Online et/ou Office 365.
+2 pour les utilisateurs de Skype entreprise Online et/ou Office 365, cette fonctionnalité n’est pas disponible.
 
-## Prise en charge de la messagerie instantanée
+</div>
+
+<span id="IMSupport"></span>
+
+<div>
+
+## <a name="im-support"></a>Prise en charge de la messagerie instantanée
 
 
-<table style="width:100%;">
+<table>
 <colgroup>
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
 </colgroup>
 <thead>
 <tr class="header">
 <th>Fonctionnalité</th>
+<th>Client Skype entreprise 2015 et 2016</th>
+<th>Skype Entreprise sur Mac</th>
 <th>Lync 2013</th>
 <th>application Lync du Windows Store</th>
-<th>Concepts de base de Lync 2013</th>
+<th>Lync 2013 de base</th>
 <th>Lync Web App</th>
-<th>Intendant Lync 2010</th>
+<th>Lync 2010</th>
+<th>Lync 2010 attendant</th>
 <th>Lync Phone Edition</th>
 <th>Communicator pour Mac 2011</th>
 <th>Lync pour Mac 2011</th>
@@ -587,13 +495,16 @@ Ces tableaux indiquent les fonctionnalités disponibles pour les utilisateurs de
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Démarrer une conversation par messagerie instantanée avec un contact</p></td>
+<td><p>Lancer un message instantané ou un message électronique à un contact</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
-<td><p></p></td>
+<td><p>●</p></td>
+<td><p>●</p></td>
+<td></td>
+<td><p>●</p></td>
+<td><p>● 1</p></td>
+<td></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 </tr>
@@ -602,294 +513,216 @@ Ces tableaux indiquent les fonctionnalités disponibles pour les utilisateurs de
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
-<td><p></p></td>
+<td><p>●</p></td>
+<td><p>●</p></td>
+<td></td>
+<td><p>●</p></td>
+<td><p>● 1</p></td>
+<td></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
 <td><p>Enregistrer des conversations par messagerie instantanée dans Outlook</p></td>
 <td><p>●</p></td>
+<td> </td>
 <td><p>●</p></td>
 <td><p>●</p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
-<td><p></p></td>
+<td><p>●</p></td>
+<td></td>
+<td><p>●</p></td>
+<td><p>● 1</p></td>
+<td></td>
 <td><p>Enregistré dans Communicator pour Mac</p></td>
 <td><p>Enregistré dans Lync pour Mac</p></td>
 </tr>
 <tr class="even">
-<td><p>Écrire un courrier électronique à un contact</p></td>
+<td><p>Utiliser des modèles de conversation préparés</p></td>
 <td><p>●</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
-<td><p></p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
+<td> </td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td> </td>
+<td><p>● 1</p></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td><p>Utiliser des modèles de conversation existants</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-</tr>
-<tr class="even">
-<td><p>Vérificateur d’orthographe</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p>●</p></td>
-</tr>
-<tr class="odd">
-<td><p>Recherche de compétences (avec intégration de SharePoint Server)</p></td>
-<td><p>●2</p></td>
-<td><p>●2</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p>●1, 2</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-</tr>
-<tr class="even">
-<td><p>Intégration de la conversation permanente (Conversation de groupe)</p></td>
-<td><p>●3</p></td>
-<td><p></p></td>
-<td><p>●3</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-</tr>
-<tr class="odd">
-<td><p>Escalader une salle de conversation permanente vers une réunion Lync d'un clic</p></td>
-<td><p>●3</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-</tr>
-<tr class="even">
-<td><p>Images incluses de l'expéditeur et du destinataire dans la fenêtre de messagerie instantanée</p></td>
+<td><p>Vérification de l'orthographe</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-</tr>
-<tr class="odd">
-<td><p>Envoyer des messages contenant des entrées manuscrites</p></td>
-<td><p></p></td>
 <td><p>●</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-</tr>
-<tr class="even">
-<td><p>Recevoir des messages contenant des entrées manuscrites</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-</tr>
-<tr class="odd">
-<td><p>Démarrer une conversation par messagerie instantanée avec un contact</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
-<td><p></p></td>
-<td><p>●</p></td>
+<td></td>
+<td></td>
+<td> </td>
+<td></td>
+<td></td>
+<td></td>
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>Parcourir plusieurs conversations par messagerie instantanée/Suivre plusieurs conversations dans une seule fenêtre avec onglets</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
-<td><p></p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
+<td><p>Recherche de compétences (avec l'intégration de SharePoint Server) </p></td>
+<td><p>● 2</p></td>
+<td> </td>
+<td><p>● 2</p></td>
+<td><p>● 2</p></td>
+<td></td>
+<td></td>
+<td><p>● 2</p></td>
+<td><p>● 1, 2</p></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td><p>Enregistrer des conversations par messagerie instantanée dans Outlook</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
-<td><p></p></td>
-<td><p>Enregistré dans Communicator pour Mac</p></td>
-<td><p>Enregistré dans Lync pour Mac</p></td>
+<td><p>Intégration de la conversation permanente (Conversation de groupe) </p></td>
+<td><p>● 3</p></td>
+<td> </td>
+<td><p>● 3</p></td>
+<td></td>
+<td><p>● 3</p></td>
+<td></td>
+<td> </td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr class="even">
-<td><p>Écrire un courrier électronique à un contact</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
-<td><p></p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
+<td><p>Remonter une salle de conversation permanente vers une réunion Lync en un seul clic</p></td>
+<td><p>● 3</p></td>
+<td> </td>
+<td><p>● 3</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td> </td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td><p>Utiliser des modèles de conversation existants</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
+<td><p>Images intégrées de l'expéditeur et du destinataire dans la fenêtre de messagerie instantanée</p></td>
+<td><p>●</p></td>
+<td> </td>
+<td><p>●</p></td>
+<td><p>●</p></td>
+<td><p>●</p></td>
+<td></td>
+<td> </td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr class="even">
-<td><p>Vérificateur d’orthographe</p></td>
+<td><p>Envoyer des messages manuscrits</p></td>
+<td> </td>
+<td> </td>
+<td></td>
 <td><p>●</p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p>●</p></td>
+<td></td>
+<td></td>
+<td> </td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td><p>Recherche de compétences (avec intégration de SharePoint Server)</p></td>
-<td><p>●2</p></td>
-<td><p>●2</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p>●1, 2</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
+<td><p>Recevoir des messages manuscrits</p></td>
+<td><p>●</p></td>
+<td> </td>
+<td><p>●</p></td>
+<td><p>●</p></td>
+<td></td>
+<td></td>
+<td> </td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr class="even">
-<td><p>Intégration de la conversation permanente (Conversation de groupe)</p></td>
-<td><p>●3</p></td>
-<td><p></p></td>
-<td><p>●3</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-</tr>
-<tr class="odd">
-<td><p>Escalader une salle de conversation permanente vers une réunion Lync d'un clic</p></td>
-<td><p>●3</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-</tr>
-<tr class="even">
-<td><p>Images incluses de l'expéditeur et du destinataire dans la fenêtre de messagerie instantanée</p></td>
+<td><p>Définir les messages instantanés sur Importance haute</p></td>
 <td><p>●</p></td>
+<td> </td>
 <td><p>●</p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-</tr>
-<tr class="odd">
-<td><p>Envoyer des messages contenant des entrées manuscrites</p></td>
-<td><p></p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-</tr>
-<tr class="even">
-<td><p>Recevoir des messages contenant des entrées manuscrites</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
 </tr>
 </tbody>
 </table>
 
 
-1Intendant Lync 2010 n’est pas pris en charge pour les utilisateurs de Lync Online et/ou Office 365.
+1 pour les utilisateurs de Skype entreprise Online et/ou Office 365, le standardisation de Lync 2010 n’est pas pris en charge.
 
-2Lync Server 2013 en local et SharePoint 2013 en local sont nécessaires pour la recherche de compétences.
+2 Lync Server 2013 local et SharePoint 2013 local sont requis pour la recherche par compétence.
 
-3 La conversation permanente n’est pas disponible pour les utilisateurs de Lync Online et/ou Office 365.
+3 pour les utilisateurs de Skype entreprise Online et/ou Office 365, la conversation permanente n’est pas disponible.
 
-## Prise en charge de la conférence
+</div>
+
+<span id="Conferencing"></span>
+
+<div>
+
+## <a name="conferencing-support"></a>Support des conférences
+
+<div>
+
 
 > [!NOTE]  
-> <ul>
-> <li><p>Les fonctionnalités de réunion Lync ne sont pas disponibles dans le plan autonome 1 de Lync Online.</p></li>
-> <li><p>Dans les sessions Lync-à-Lync, un utilisateur du plan 1 de Lync Online peut participer au partage de bureau et au partage d’applications s’il est invité par un utilisateur qui a accès aux fonctionnalités de partage.</p></li>
-> <li><p>Pour plus d’informations, voir la description du service Lync Online à l’adresse <a href="http://go.microsoft.com/fwlink/?linkid=282430" class="uri">http://go.microsoft.com/fwlink/?linkid=282430</a>.</p></li></ul>
+> <UL>
+> <LI>
+> <P>Les fonctionnalités de réunion Lync ne sont pas disponibles dans le plan autonome 1 de Skype entreprise online.</P>
+> <LI>
+> <P>Dans les sessions Lync-to-Lync, un utilisateur de la version 1 de Skype entreprise online peut participer au partage de bureau et au partage d’application s’il est invité par un utilisateur qui a accès aux fonctionnalités de partage.</P>
+> <LI>
+> <P>Pour plus d’informations, reportez-vous à la <A href="https://go.microsoft.com/fwlink/?linkid=282430">https://go.microsoft.com/fwlink/?LinkID=282430</A>Description du service Skype entreprise Online à l’adresse.</P></LI></UL>
 
 
 
-<table style="width:100%;">
+</div>
+
+
+<table>
 <colgroup>
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
 </colgroup>
 <thead>
 <tr class="header">
 <th>Fonctionnalité</th>
+<th>Client Skype entreprise 2015 et 2016</th>
+<th>Skype Entreprise sur Mac</th>
 <th>Lync 2013</th>
 <th>application Lync du Windows Store</th>
-<th>Concepts de base de Lync 2013</th>
+<th>Lync 2013 de base</th>
 <th>Lync Web App</th>
-<th>Intendant Lync 2010</th>
+<th>Lync 2010</th>
+<th>Lync 2010 attendant</th>
 <th>Lync Phone Edition</th>
 <th>Communicator pour Mac 2011</th>
 <th>Lync pour Mac 2011</th>
@@ -897,13 +730,16 @@ Ces tableaux indiquent les fonctionnalités disponibles pour les utilisateurs de
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Ajouter l’audio de l’ordinateur</p></td>
+<td><p>Ajouter l'audio de l'ordinateur</p></td>
+<td><p>●</p></td>
+<td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p>
 <p>(requiert un plug-in)</p></td>
-<td><p>●1</p></td>
+<td><p>●</p></td>
+<td><p>● 1</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -913,23 +749,29 @@ Ces tableaux indiquent les fonctionnalités disponibles pour les utilisateurs de
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
+<td><p>●</p></td>
+<td><p>●</p></td>
 <td><p>●</p>
 <p>(requiert un plug-in)</p></td>
-<td><p></p></td>
-<td><p></p></td>
+<td><p>●</p></td>
+<td></td>
+<td></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
 <td><p>Afficher une vidéo à plusieurs (vue galerie)</p></td>
 <td><p>●</p></td>
+<td> </td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
+<td><p>●</p></td>
+<td> </td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr class="even">
 <td><p>Utiliser des commandes de présentateur lors des réunions</p></td>
@@ -937,9 +779,12 @@ Ces tableaux indiquent les fonctionnalités disponibles pour les utilisateurs de
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
+<td><p>●</p></td>
+<td><p>●</p></td>
+<td><p>●</p></td>
+<td></td>
+<td></td>
+<td></td>
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
@@ -948,66 +793,84 @@ Ces tableaux indiquent les fonctionnalités disponibles pour les utilisateurs de
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
-<td><p>●1</p></td>
-<td><p></p></td>
-<td><p></p></td>
+<td><p>●</p></td>
+<td><p>●</p></td>
+<td><p>●</p></td>
+<td><p>● 1</p></td>
+<td></td>
+<td></td>
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>Prendre part à une conversation par messagerie instantanée à plusieurs</p></td>
+<td><p>Participer à une conversation par messagerie instantanée à plusieurs</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
-<td><p>●1</p></td>
-<td><p></p></td>
+<td><p>●</p></td>
+<td><p>●</p></td>
+<td><p>●</p></td>
+<td><p>● 1</p></td>
+<td></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
 <td><p>Partager le bureau (si option activée)</p></td>
 <td><p>●</p></td>
-<td><p></p></td>
+<td><p>● 2</p></td>
+<td><p>●</p></td>
+<td></td>
 <td><p>●</p></td>
 <td><p>●</p>
 <p>(requiert un plug-in)</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p>●2</p></td>
-<td><p>●2</p></td>
+<td><p>●</p></td>
+<td></td>
+<td></td>
+<td><p>● 2</p></td>
+<td><p>● 2</p></td>
 </tr>
 <tr class="even">
 <td><p>Partager un programme (si option activée)</p></td>
 <td><p>●</p></td>
-<td><p></p></td>
+<td><p>Afficher seulement</p></td>
+<td><p>●</p></td>
+<td></td>
 <td><p>●</p></td>
 <td><p>●</p>
 <p>(requiert un plug-in)</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p>Afficher uniquement</p></td>
+<td><p>●</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>Afficher seulement</p></td>
 </tr>
 <tr class="odd">
 <td><p>Ajouter des participants anonymes (si option activée)</p></td>
 <td><p>●</p></td>
-<td><p></p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
+<td></td>
+<td><p>●</p></td>
+<td><p>●</p></td>
+<td><p>●</p></td>
+<td></td>
+<td></td>
+<td></td>
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>Utiliser l’audioconférence rendez-vous</p></td>
-<td><p>●3</p></td>
-<td><p>●3</p></td>
-<td><p>●3</p></td>
-<td><p>●3</p></td>
-<td><p>●1</p></td>
-<td><p></p></td>
-<td><p></p></td>
+<td><p>Utiliser les réunions audio rendez-vous</p></td>
+<td><p>● 3</p></td>
+<td><p>●</p></td>
+<td><p>● 3</p></td>
+<td><p>● 3</p></td>
+<td><p>● 3</p></td>
+<td><p>● 3</p></td>
+<td><p>●</p></td>
+<td><p>● 1</p></td>
+<td></td>
+<td></td>
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
@@ -1015,330 +878,234 @@ Ces tableaux indiquent les fonctionnalités disponibles pour les utilisateurs de
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
+<td><p>●</p></td>
+<td><p>●</p></td>
+<td></td>
+<td><p>●</p></td>
+<td></td>
+<td></td>
+<td></td>
 <td><p>●</p></td>
 </tr>
 <tr class="even">
 <td><p>Ajouter et présenter des fichiers Microsoft PowerPoint</p></td>
 <td><p>●</p></td>
-<td><p>Présence uniquement</p></td>
+<td> </td>
+<td><p>●</p></td>
+<td><p>Présentation uniquement</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p>Afficher uniquement, annotations non disponibles4</p></td>
+<td><p>●</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>Affichage seul, annotations non available4</p></td>
 </tr>
 <tr class="odd">
 <td><p>Parcourir des fichiers Microsoft PowerPoint</p></td>
 <td><p>●</p></td>
+<td> </td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
+<td><p>●</p></td>
+<td> </td>
+<td></td>
+<td></td>
+<td></td>
 <td><p>●</p></td>
 </tr>
 <tr class="even">
 <td><p>Ajouter et modifier des notes de réunion OneNote</p></td>
 <td><p>●</p></td>
-<td><p></p></td>
-<td><p></p></td>
+<td> </td>
+<td><p>●</p></td>
+<td></td>
+<td></td>
 <td><p>Modifier uniquement (pas ajouter)</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
+<td> </td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr class="odd">
 <td><p>Utiliser un tableau blanc</p></td>
 <td><p>●</p></td>
-<td><p></p></td>
+<td> </td>
+<td><p>●</p></td>
+<td></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
+<td><p>●</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr class="even">
 <td><p>Mener des sondages</p></td>
 <td><p>●</p></td>
-<td><p></p></td>
+<td> </td>
+<td><p>●</p></td>
+<td></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
+<td><p>●</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr class="odd">
 <td><p>Télécharger des fichiers pour les partager avec des tiers</p></td>
 <td><p>●</p></td>
-<td><p></p></td>
+<td> </td>
+<td><p>●</p></td>
+<td></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
+<td><p>●</p></td>
+<td></td>
+<td></td>
+<td></td>
 <td><p>●</p></td>
 </tr>
 <tr class="even">
 <td><p>Planifier une réunion ou une conférence</p></td>
-<td><p>Outlook ou Skype Entreprise Web Scheduler</p></td>
-<td><p>Outlook ou Skype Entreprise Web Scheduler</p></td>
-<td><p>Outlook ou Skype Entreprise Web Scheduler</p></td>
+<td><p>Outlook ou Lync Web Scheduler</p></td>
+<td><p>Nécessite Mac Outlook version 15,28 ou ultérieure</p></td>
+<td><p>Outlook ou Lync Web Scheduler</p></td>
+<td><p>Outlook ou Lync Web Scheduler</p></td>
+<td><p>Outlook ou Lync Web Scheduler</p></td>
 <td><p>Lync Web Scheduler</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
+<td><p>●</p></td>
+<td></td>
+<td></td>
+<td></td>
 <td><p>Outlook</p></td>
 </tr>
 <tr class="odd">
-<td><p>Créer des réunions publiques avec des ID de réunion statiques à partir d’Outlook</p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-</tr>
-<tr class="even">
-<td><p>Gestionnaire Questions/Réponses</p></td>
+<td><p>Q&amp;A Manager</p></td>
 <td><p>●</p></td>
 <td> </td>
+<td> </td>
+<td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
 <td> </td>
 <td> </td>
 <td> </td>
 <td> </td>
-</tr>
-<tr class="odd">
-<td><p>Ajouter l’audio de l’ordinateur</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-<td><p>●</p>
-<p>(requiert un plug-in)</p></td>
-<td><p>●1</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
+<td> </td>
 </tr>
 <tr class="even">
-<td><p>Ajouter la vidéo</p></td>
+<td><p>Créer des réunions publiques à partir d’ID de réunion statique à partir d’Outlook</p></td>
 <td><p>●</p></td>
+<td> </td>
 <td><p>●</p></td>
+<td></td>
+<td></td>
 <td><p>●</p></td>
-<td><p>●</p>
-<p>(requiert un plug-in)</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
+<td> </td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td><p>Afficher une vidéo à plusieurs (vue galerie)</p></td>
+<td><p>Désactiver la messagerie instantanée pour la réunion</p></td>
+<td><p>●</p></td>
+<td> </td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-</tr>
-<tr class="even">
-<td><p>Utiliser des commandes de présentateur lors des réunions</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p>●</p></td>
-</tr>
-<tr class="odd">
-<td><p>Accéder à une liste détaillée des réunions</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-<td><p>●1</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p>●</p></td>
-</tr>
-<tr class="even">
-<td><p>Prendre part à une conversation par messagerie instantanée à plusieurs</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-<td><p>●1</p></td>
-<td><p></p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-</tr>
-<tr class="odd">
-<td><p>Partager le bureau (si option activée)</p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p>●</p></td>
-<td><p>●</p>
-<p>(requiert un plug-in)</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p>●2</p></td>
-<td><p>●2</p></td>
-</tr>
-<tr class="even">
-<td><p>Partager un programme (si option activée)</p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p>●</p></td>
-<td><p>●</p>
-<p>(requiert un plug-in)</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p>Afficher uniquement</p></td>
-</tr>
-<tr class="odd">
-<td><p>Ajouter des participants anonymes (si option activée)</p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p>●</p></td>
-</tr>
-<tr class="even">
-<td><p>Utiliser l’audioconférence rendez-vous</p></td>
-<td><p>●3</p></td>
-<td><p>●3</p></td>
-<td><p>●3</p></td>
-<td><p>●3</p></td>
-<td><p>●1</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p>●</p></td>
-</tr>
-<tr class="odd">
-<td><p>Démarrer une réunion Conférence maintenant</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p>●</p></td>
-</tr>
-<tr class="even">
-<td><p>Ajouter et présenter des fichiers Microsoft PowerPoint</p></td>
-<td><p>●</p></td>
-<td><p>Présence uniquement</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p>Afficher uniquement, annotations non disponibles4</p></td>
-</tr>
-<tr class="odd">
-<td><p>Parcourir des fichiers Microsoft PowerPoint</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p>●</p></td>
-</tr>
-<tr class="even">
-<td><p>Ajouter et modifier des notes de réunion OneNote</p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p>Modifier uniquement (pas ajouter)</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-</tr>
-<tr class="odd">
-<td><p>Utiliser un tableau blanc</p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-</tr>
-<tr class="even">
-<td><p>Mener des sondages</p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-</tr>
-<tr class="odd">
-<td><p>Télécharger des fichiers pour les partager avec des tiers</p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p>●</p></td>
-</tr>
-<tr class="even">
-<td><p>Planifier une réunion ou une conférence</p></td>
-<td><p>Outlook ou Skype Entreprise Web Scheduler</p></td>
-<td><p>Outlook ou Skype Entreprise Web Scheduler</p></td>
-<td><p>Outlook ou Skype Entreprise Web Scheduler</p></td>
-<td><p>Lync Web Scheduler</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p>Outlook</p></td>
-</tr>
-<tr class="odd">
-<td><p>Créer des réunions publiques avec des ID de réunion statiques à partir d’Outlook</p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-</tr>
-<tr class="even">
-<td><p>Gestionnaire Questions/Réponses</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr class="even">
+<td><p>Désactiver le son des participants</p></td>
 <td><p>●</p></td>
+<td><p>●</p></td>
+<td><p>●</p></td>
+<td><p>●</p></td>
+<td><p>●</p></td>
+<td><p>●</p></td>
+<td><p>●</p></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr class="odd">
+<td><p>Inviter tout le monde à participer</p></td>
+<td><p>●</p></td>
+<td> </td>
+<td><p>●</p></td>
+<td><p>●</p></td>
+<td><p>●</p></td>
+<td><p>●</p></td>
+<td><p>●</p></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr class="even">
+<td><p>Un délégué peut planifier une réunion pour le compte d'un délégant</p></td>
+<td><p>●</p></td>
+<td> </td>
+<td><p>●</p></td>
+<td> </td>
+<td><p>●</p></td>
+<td><p>●</p></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr class="odd">
+<td><p>Synchroniser des délégués entre UNRESOLVED_TOKEN_VAL (skypeforbusiness) et Outlook</p></td>
+<td><p>●</p></td>
+<td> </td>
+<td><p>●</p></td>
+<td> </td>
+<td><p>●</p></td>
+<td><p>●</p></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr class="even">
+<td><p>Définir la vidéo à la une (verrouiller la vidéo)</p></td>
+<td><p>●</p></td>
+<td> </td>
+<td><p>●</p></td>
+<td> </td>
+<td><p>●</p></td>
+<td><p>●</p></td>
+<td><p>●</p></td>
+<td><p>●</p></td>
+<td><p>●</p></td>
+<td> </td>
+<td><p>●</p></td>
+</tr>
+<tr class="odd">
+<td><p>Donner/prendre le contrôle du partage d'écran</p></td>
+<td><p>●</p></td>
+<td> </td>
+<td><p>●</p></td>
+<td> </td>
+<td><p>●</p></td>
+<td><p>●</p></td>
+<td> </td>
 <td> </td>
 <td> </td>
 <td> </td>
@@ -1348,40 +1115,59 @@ Ces tableaux indiquent les fonctionnalités disponibles pour les utilisateurs de
 </table>
 
 
-1Intendant Lync 2010 n’est pas pris en charge pour les utilisateurs de Lync Online et/ou Office 365.
+1 pour les utilisateurs de Skype entreprise Online et/ou Office 365, le standardisation de Lync 2010 n’est pas pris en charge.
 
-2 Les participants ne peuvent pas contrôler les bureaux partagés par les utilisateurs Lync pour Mac 2011 ou Communicator pour Mac 2011. Les utilisateurs Lync pour Mac 2011 et Communicator pour Mac 2011 peuvent contrôler les bureaux partagés par les utilisateurs Windows.
+2 les participants ne peuvent pas contrôler les bureaux partagés par Skype entreprise sur Mac, Lync pour Mac 2011 ou les utilisateurs de Communicator pour Mac 2011. Les utilisateurs de Mac peuvent contrôler les bureaux partagés par les utilisateurs Windows.
 
-3 Cette fonctionnalité nécessite un fournisseur de services d’audioconférence pour les utilisateurs de Lync Online et/ou Office 365.
+3 pour les utilisateurs de Skype entreprise Online et/ou Office 365, cette fonctionnalité nécessite un fournisseur de services d’audioconférence.
 
-4 Le client Lync pour Mac 2011 ne peut pas visualiser les présentations Microsoft Office 2013 PowerPoint lorsque celles-ci ont été partagées dans une conférence par le client Lync Web App 2013.
+4 le client 2011 Lync pour Mac ne peut pas afficher les présentations PowerPoint Microsoft Office 2013 lors de leur partage dans une conférence par le client Lync Web App 2013.
 
-## Prise en charge de la téléphonie
+</div>
+
+<span id="Telephony"></span>
+
+<div>
+
+## <a name="voice-telephony-support"></a>Prise en charge de la voix
+
+<div>
+
 
 > [!NOTE]  
-> Les fonctions vocales de Lync sont limitées à certains plans d’abonnement Lync Online. Pour plus d’informations, voir la rubrique « Fonctions vocales de Lync » dans la description du service Lync Online à l’adresse <a href="http://go.microsoft.com/fwlink/?linkid=282430" class="uri">http://go.microsoft.com/fwlink/?linkid=282430</a>.
+> Les fonctionnalités de voix de Lync sont limitées à certaines offres d’abonnement à Skype entreprise online. Pour plus d’informations, reportez-vous à la rubrique "fonctions vocales de Lync" <A href="https://go.microsoft.com/fwlink/?linkid=282430">https://go.microsoft.com/fwlink/?LinkID=282430</A>dans la description du service Skype entreprise Online à l’adresse.
 
 
-<table style="width:100%;">
+
+</div>
+
+
+<table>
 <colgroup>
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
 </colgroup>
 <thead>
 <tr class="header">
 <th>Fonctionnalité</th>
+<th>Client Skype entreprise 2015 et 2016</th>
+<th>Skype Entreprise sur Mac</th>
 <th>Lync 2013</th>
 <th>application Lync du Windows Store</th>
-<th>Concepts de base de Lync 2013</th>
+<th>Lync 2013 de base</th>
 <th>Lync Web App</th>
-<th>Intendant Lync 2010</th>
+<th>Lync 2010</th>
+<th>Lync 2010 attendant</th>
 <th>Lync Phone Edition</th>
 <th>Communicator pour Mac 2011</th>
 <th>Lync pour Mac 2011</th>
@@ -1389,346 +1175,287 @@ Ces tableaux indiquent les fonctionnalités disponibles pour les utilisateurs de
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Démarrer un appel vocal</p></td>
-<td><p>●2</p></td>
+<td><p>Démarrer un appel</p></td>
+<td><p>● 2</p></td>
 <td><p>●</p></td>
-<td><p>●2</p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
+<td><p>● 2</p></td>
 <td><p>●</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-</tr>
-<tr class="even">
-<td><p>Cliquer pour appeler un contact</p></td>
-<td><p>●2</p></td>
-<td><p>●</p></td>
-<td><p>●2</p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-</tr>
-<tr class="odd">
-<td><p>Transférer un appel</p></td>
-<td><p>●2</p></td>
-<td><p>●</p></td>
-<td><p>●2</p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p>●</p></td>
-</tr>
-<tr class="even">
-<td><p>Gérer le transfert d’appel</p></td>
-<td><p>●3</p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p>●</p></td>
-</tr>
-<tr class="odd">
-<td><p>Gérer les paramètres d’appel d’équipe</p></td>
-<td><p>●3</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-</tr>
-<tr class="even">
-<td><p>Gérer les délégués</p></td>
-<td><p>●3</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p>●</p></td>
-</tr>
-<tr class="odd">
-<td><p>Démarrer un appel à un groupe de réponse</p></td>
-<td><p>●3</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-</tr>
-<tr class="even">
-<td><p>Prendre en charge les services d’urgence (E9-1-1)</p></td>
-<td><p>●3</p></td>
-<td><p></p></td>
-<td><p>●3</p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p>●</p></td>
-</tr>
-<tr class="odd">
-<td><p>Se connecter à la messagerie vocale, configurer ou changer le message d’accueil</p></td>
-<td><p>●3</p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p>●</p></td>
-</tr>
-<tr class="even">
-<td><p>Passer un appel pour le compte d’un autre contact (scénario responsable/délégué)</p></td>
-<td><p>●3</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-</tr>
-<tr class="odd">
-<td><p>Gérer les appels d’une autre personne, si celle-ci est configurée en tant que déléguée</p></td>
-<td><p>●3</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p></p></td>
-</tr>
-<tr class="even">
-<td><p>Gérer un volume d’appels important</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-</tr>
-<tr class="odd">
-<td><p>Parcage d’appel</p></td>
-<td><p>●3</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-</tr>
-<tr class="even">
-<td><p>Prise d’appel de groupe</p></td>
-<td><p>●3</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p></p></td>
-</tr>
-<tr class="odd">
-<td><p>Démarrer un appel vocal</p></td>
-<td><p>●2</p></td>
-<td><p>●</p></td>
-<td><p>●2</p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
+<td><p>● 2</p></td>
+<td></td>
+<td><p>● 2</p></td>
+<td><p>● 1</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 </tr>
 <tr class="even">
 <td><p>Cliquer pour appeler un contact</p></td>
-<td><p>●2</p></td>
+<td><p>● 2</p></td>
 <td><p>●</p></td>
-<td><p>●2</p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
+<td><p>● 2</p></td>
+<td><p>●</p></td>
+<td><p>● 2</p></td>
+<td></td>
+<td><p>● 2</p></td>
+<td><p>● 1</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
 <td><p>Transférer un appel</p></td>
-<td><p>●2</p></td>
+<td><p>● 2</p></td>
 <td><p>●</p></td>
-<td><p>●2</p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
+<td><p>● 2</p></td>
 <td><p>●</p></td>
-<td><p></p></td>
+<td><p>● 2</p></td>
+<td></td>
+<td><p>● 2</p></td>
+<td><p>● 1</p></td>
+<td><p>●</p></td>
+<td></td>
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>Gérer le transfert d’appel</p></td>
-<td><p>●3</p></td>
+<td><p>Gérer le transfert d'appel</p></td>
+<td><p>● 3</p></td>
 <td><p>●</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
+<td><p>● 3</p></td>
 <td><p>●</p></td>
-<td><p></p></td>
+<td></td>
+<td></td>
+<td><p>● 3</p></td>
+<td><p>● 1</p></td>
+<td><p>●</p></td>
+<td></td>
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>Gérer les paramètres d’appel d’équipe</p></td>
-<td><p>●3</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
+<td><p>Gérer les paramètres d'appel d'équipe</p></td>
+<td><p>● 3</p></td>
+<td> </td>
+<td><p>● 3</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>● 3</p></td>
+<td><p>● 1</p></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr class="even">
 <td><p>Gérer les délégués</p></td>
-<td><p>●3</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
+<td><p>● 3</p></td>
+<td> </td>
+<td><p>● 3</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>● 3</p></td>
+<td></td>
+<td></td>
+<td></td>
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>Démarrer un appel à un groupe de réponse</p></td>
-<td><p>●3</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
+<td><p>Appeler un groupe Response Group</p></td>
+<td><p>● 3</p></td>
+<td> </td>
+<td><p>● 3</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>● 3</p></td>
+<td><p>● 1</p></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr class="even">
-<td><p>Prendre en charge les services d’urgence (E9-1-1)</p></td>
-<td><p>●3</p></td>
-<td><p></p></td>
-<td><p>●3</p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
+<td><p>Prendre en charge les services d’urgence (E911)</p></td>
+<td><p>● 3</p></td>
+<td><p>●</p>
+<p>Nécessite Lync Server 2013 CU8 HF1 ou version ultérieure</p></td>
+<td><p>● 3</p></td>
+<td></td>
+<td><p>● 3</p></td>
+<td></td>
+<td><p>● 3</p></td>
+<td><p>● 1</p></td>
 <td><p>●</p></td>
-<td><p></p></td>
+<td></td>
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>Se connecter à la messagerie vocale, configurer ou changer le message d’accueil</p></td>
-<td><p>●3</p></td>
+<td><p>Notification de message instantané à un ou plusieurs URI SIP pour un appel E-911</p></td>
 <td><p>●</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
 <td><p>●</p></td>
-<td><p></p></td>
+<td><p>●</p></td>
+<td> </td>
+<td><p>●</p></td>
+<td> </td>
+<td><p>●</p></td>
+<td><p>●</p></td>
+<td><p>●</p></td>
+<td> </td>
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>Passer un appel pour le compte d’un autre contact (scénario responsable/délégué)</p></td>
-<td><p>●3</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
+<td><p>Notification de message instantané à une liste de distribution pour un appel E-911</p></td>
+<td><p>●</p></td>
+<td> </td>
+<td><p>●</p></td>
+<td> </td>
+<td><p>●</p></td>
+<td> </td>
+<td><p>●</p></td>
+<td><p>●</p></td>
+<td><p>●</p></td>
+<td> </td>
+<td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>Gérer les appels d’une autre personne, si celle-ci est configurée en tant que déléguée</p></td>
-<td><p>●3</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
+<td><p>Se connecter à la messagerie vocale, configurer ou changer le message d'accueil</p></td>
+<td><p>● 3</p></td>
 <td><p>●</p></td>
-<td><p></p></td>
-<td><p></p></td>
+<td><p>● 3</p></td>
+<td><p>●</p></td>
+<td></td>
+<td></td>
+<td><p>● 3</p></td>
+<td><p>● 1</p></td>
+<td><p>●</p></td>
+<td></td>
+<td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>Gérer un volume d’appels important</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
+<td><p>Notification des appels manqués</p></td>
+<td><p>●</p></td>
+<td><p>●</p></td>
+<td><p>●</p></td>
+<td><p>●</p></td>
+<td><p>●</p></td>
+<td><p>●</p></td>
+<td><p>●</p></td>
+<td><p>●</p></td>
+<td><p>●</p></td>
+<td> </td>
+<td> </td>
 </tr>
 <tr class="odd">
-<td><p>Parcage d’appel</p></td>
-<td><p>●3</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
+<td><p>Passer un appel pour le compte d'un autre contact (scénario responsable/délégué)</p></td>
+<td><p>● 3</p></td>
+<td> </td>
+<td><p>● 3</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>● 3</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr class="even">
-<td><p>Prise d’appel de groupe</p></td>
-<td><p>●3</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
+<td><p>Gérer les appels d'une autre personne, si celle-ci est configurée en tant que déléguée</p></td>
+<td><p>● 3</p></td>
+<td> </td>
+<td><p>● 3</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>● 3</p></td>
+<td><p>● 1</p></td>
 <td><p>●</p></td>
-<td><p></p></td>
-<td><p></p></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><p>Gestion d’un grand nombre d’appels</p></td>
+<td></td>
+<td> </td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>● 3</p></td>
+<td><p>● 1</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><p>Parcage d'appel</p></td>
+<td><p>● 3</p></td>
+<td> </td>
+<td><p>● 3</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td> </td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><p>Prise d'appel de groupe</p></td>
+<td><p>● 3</p></td>
+<td> </td>
+<td><p>● 3</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td> </td>
+<td></td>
+<td><p>●</p></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
 
 
-1Intendant Lync 2010 n’est pas pris en charge pour les utilisateurs de Lync Online et/ou Office 365.
+1 pour les utilisateurs de Skype entreprise Online et/ou Office 365, le standardisation de Lync 2010 n’est pas pris en charge.
 
-2 Cette fonctionnalité est disponible pour les appels de PC à PC uniquement pour les utilisateurs de Lync Online et/ou Office 365.
+2 pour les utilisateurs de Skype entreprise Online et/ou d’Office 365, cette fonctionnalité n’est disponible que pour les appels de PC à PC.
 
-3 Cette fonctionnalité n’est pas disponible pour les utilisateurs de Lync Online et/ou Office 365.
+3 pour les utilisateurs de Skype entreprise Online et/ou Office 365, cette fonctionnalité n’est pas disponible.
 
-## Prise en charge des utilisateurs externes
+</div>
+
+<span id="ExternalUsers"></span>
+
+<div>
+
+## <a name="external-users-support"></a>Prise en charge des utilisateurs externes
 
 
 <table style="width:100%;">
 <colgroup>
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
 </colgroup>
 <thead>
 <tr class="header">
 <th>Fonctionnalité</th>
+<th>Client Skype entreprise 2015 et 2016</th>
+<th>Skype Entreprise sur Mac</th>
 <th>Lync 2013</th>
 <th>application Lync du Windows Store</th>
-<th>Concepts de base de Lync 2013</th>
 <th>Lync Web App</th>
-<th>Intendant Lync 2010</th>
+<th>Lync 2010</th>
+<th>Lync 2010 attendant</th>
 <th>Lync Phone Edition</th>
 <th>Communicator pour Mac 2011</th>
 <th>Lync pour Mac 2011</th>
@@ -1740,9 +1467,11 @@ Ces tableaux indiquent les fonctionnalités disponibles pour les utilisateurs de
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
-<td><p></p></td>
+<td><p>●</p></td>
+<td></td>
+<td><p>●</p></td>
+<td><p>● 1</p></td>
+<td></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 </tr>
@@ -1751,52 +1480,23 @@ Ces tableaux indiquent les fonctionnalités disponibles pour les utilisateurs de
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
-<td><p></p></td>
+<td><p>●</p></td>
+<td></td>
+<td><p>●</p></td>
+<td><p>● 1</p></td>
+<td></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>Mener des appels à deux ou à plusieurs avec des utilisateurs externes</p></td>
-<td><p>●2</p></td>
-<td><p>●2</p></td>
+<td><p>Mener des appels à deux ou plus avec des utilisateurs externes </p></td>
+<td><p>● 2</p></td>
 <td><p>●</p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
+<td><p>● 2</p></td>
+<td><p>● 2</p></td>
+<td></td>
 <td><p>●</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-</tr>
-<tr class="even">
-<td><p>Démarrer une conversation par messagerie instantanée avec un contact public</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
-<td><p></p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-</tr>
-<tr class="odd">
-<td><p>Démarrer une conversation par messagerie instantanée avec un contact fédéré</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
-<td><p></p></td>
-<td><p>●</p></td>
-<td><p>●</p></td>
-</tr>
-<tr class="even">
-<td><p>Mener des appels à deux ou à plusieurs avec des utilisateurs externes</p></td>
-<td><p>●2</p></td>
-<td><p>●2</p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
+<td><p>● 1</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -1805,33 +1505,43 @@ Ces tableaux indiquent les fonctionnalités disponibles pour les utilisateurs de
 </table>
 
 
-1Intendant Lync 2010 n’est pas pris en charge pour les utilisateurs de Lync Online et/ou Office 365.
+1 pour les utilisateurs de Skype entreprise Online et/ou Office 365, le standardisation de Lync 2010 n’est pas pris en charge.
 
-2 Cette fonctionnalité n’est pas disponible pour les utilisateurs de Lync Online et/ou Office 365.
+2 pour les utilisateurs de Skype entreprise Online et/ou Office 365, cette fonctionnalité n’est pas disponible.
 
-## Enregistrement
+</div>
+
+<div>
+
+## <a name="recording"></a>Enregistrement
 
 
-<table style="width:100%;">
+<table>
 <colgroup>
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
 </colgroup>
 <thead>
 <tr class="header">
 <th>Fonctionnalité</th>
+<th>Client Skype entreprise 2015 et 2016</th>
+<th>Skype Entreprise sur Mac</th>
 <th>Lync 2013</th>
 <th>application Lync du Windows Store</th>
-<th>Concepts de base de Lync 2013</th>
+<th>Lync 2013 de base</th>
 <th>Lync Web App</th>
-<th>Intendant Lync 2010</th>
+<th>Lync 2010</th>
+<th>Lync 2010 attendant</th>
 <th>Lync Phone Edition</th>
 <th>Communicator pour Mac 2011</th>
 <th>Lync pour Mac 2011</th>
@@ -1839,102 +1549,90 @@ Ces tableaux indiquent les fonctionnalités disponibles pour les utilisateurs de
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Enregistrement côté client du son, de la vidéo, du partage d’application, du partage de Bureau et du contenu téléchargé</p></td>
-<td><p>●1</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
+<td><p>Enregistrement côté client du son, de la vidéo, du partage d'application, du partage de bureau et du contenu téléchargé</p></td>
+<td><p>● 1</p></td>
+<td> </td>
+<td><p>● 1</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>●</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr class="even">
 <td><p>Enregistrement côté client des transferts de fichiers, des pages OneNote partagées et des annotations PowerPoint</p></td>
-<td><p>●2</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
+<td><p>● 2</p></td>
+<td> </td>
+<td><p>● 2</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>●</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr class="odd">
 <td><p>Sélection de la résolution d'enregistrement préférée</p></td>
 <td><p>●</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-</tr>
-<tr class="even">
-<td><p>Enregistrement côté client du son, de la vidéo, du partage d’application, du partage de Bureau et du contenu téléchargé</p></td>
-<td><p>●1</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-</tr>
-<tr class="odd">
-<td><p>Enregistrement côté client des transferts de fichiers, des pages OneNote partagées et des annotations PowerPoint</p></td>
-<td><p>●2</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-</tr>
-<tr class="even">
-<td><p>Sélection de la résolution d'enregistrement préférée</p></td>
+<td> </td>
 <td><p>●</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
+<td></td>
+<td></td>
+<td></td>
+<td> </td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
 
 
-1 L’enregistrement côté client n’est pas disponible dans certains plans autonomes de Lync Online pour les utilisateurs de Lync Online et/ou Office 365. L’enregistrement nécessite les droits complets du client Lync 2013. Pour plus d’informations, voir la description du service Lync Online à l’adresse [http://go.microsoft.com/fwlink/?LinkID=282430](http://go.microsoft.com/fwlink/?linkid=282430).
+1 pour les utilisateurs de Skype entreprise Online et/ou Office 365, l’enregistrement n’est pas disponible dans certaines offres autonomes de Skype entreprise online. L’enregistrement nécessite des droits de client Lync 2013 complets. Pour plus d’informations, reportez-vous à la [https://go.microsoft.com/fwlink/?LinkID=282430](https://go.microsoft.com/fwlink/?linkid=282430)Description du service Skype entreprise Online à l’adresse.
 
-2 L’enregistrement côté client des transferts de fichiers, des pages OneNote partagées et des annotations PowerPoint n’est pas disponible pour les utilisateurs de Lync Online et/ou Office 365.
+2 pour les utilisateurs de Skype entreprise Online et/ou d’Office 365, l’enregistrement de transferts de fichiers, les pages OneNote partagées et les annotations PowerPoint n’est pas disponible.
 
-## Prise en charge de l'archivage, de la conformité et de la journalisation
+</div>
+
+<span id="Archiving"></span>
+
+<div>
+
+## <a name="archiving-compliance-and-logging-support"></a>Prise en charge de l’archivage, de la conformité et de la journalisation
 
 
-<table style="width:100%;">
+<table>
 <colgroup>
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
 </colgroup>
 <thead>
 <tr class="header">
 <th>Fonctionnalité</th>
+<th>Client Skype entreprise 2015 et 2016</th>
+<th>Skype Entreprise sur Mac</th>
 <th>Lync 2013</th>
 <th>application Lync du Windows Store</th>
-<th>Concepts de base de Lync 2013</th>
+<th>Lync 2013 de base</th>
 <th>Lync Web App</th>
-<th>Intendant Lync 2010</th>
+<th>Lync 2010</th>
+<th>Lync 2010 attendant</th>
 <th>Lync Phone Edition</th>
 <th>Communicator pour Mac 2011</th>
 <th>Lync pour Mac 2011</th>
@@ -1943,99 +1641,133 @@ Ces tableaux indiquent les fonctionnalités disponibles pour les utilisateurs de
 <tbody>
 <tr class="odd">
 <td><p>Archivage des conversations par messagerie instantanée dans l’historique des conversations Outlook</p></td>
-<td><p>●2</p></td>
-<td><p>●2</p></td>
-<td><p>●2</p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
-<td><p></p></td>
+<td><p>● 2</p></td>
+<td> </td>
+<td><p>● 2</p></td>
+<td><p>● 2</p></td>
+<td><p>● 2</p></td>
+<td></td>
+<td><p>●</p></td>
+<td><p>● 1</p></td>
+<td></td>
 <td><p>Enregistré dans Communicator pour Mac</p></td>
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>Archivage côté client du son, de la vidéo, du partage d’application, du partage de Bureau et du contenu téléchargé</p></td>
-<td><p>●2</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
+<td><p>Archivage côté client du son, de la vidéo, du partage d’applications, du partage de bureau et du contenu téléchargé</p></td>
+<td><p>● 2</p></td>
+<td> </td>
+<td><p>● 2</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>●</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td><p>Archivage côté client des transferts de fichiers, des pages OneNote partagées et des annotations PowerPoint</p></td>
-<td><p>●3</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
+<td><p>Archivage côté client des transferts de fichiers, pages OneNote partagées et annotations PowerPoint</p></td>
+<td><p>● 3</p></td>
+<td> </td>
+<td><p>● 3</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>●</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr class="even">
-<td><p>Accéder aux journaux des connexions à partir de l'icône Lync dans la barre des tâches</p></td>
+<td><p>Accéder aux journaux de connexion à partir de l’icône Lync dans la barre des tâches</p></td>
 <td><p>●</p></td>
-<td><p></p></td>
+<td> </td>
 <td><p>●</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-</tr>
-<tr class="odd">
-<td><p>Archivage des conversations par messagerie instantanée dans l’historique des conversations Outlook</p></td>
-<td><p>●2</p></td>
-<td><p>●2</p></td>
-<td><p>●2</p></td>
-<td><p></p></td>
-<td><p>●1</p></td>
-<td><p></p></td>
-<td><p>Enregistré dans Communicator pour Mac</p></td>
+<td></td>
 <td><p>●</p></td>
-</tr>
-<tr class="even">
-<td><p>Archivage côté client du son, de la vidéo, du partage d’application, du partage de Bureau et du contenu téléchargé</p></td>
-<td><p>●2</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-</tr>
-<tr class="odd">
-<td><p>Archivage côté client des transferts de fichiers, des pages OneNote partagées et des annotations PowerPoint</p></td>
-<td><p>●3</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-</tr>
-<tr class="even">
-<td><p>Accéder aux journaux des connexions à partir de l'icône Lync dans la barre des tâches</p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p>●</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
+<td></td>
+<td> </td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
 
 
-1Intendant Lync 2010 n’est pas pris en charge pour les utilisateurs de Lync Online et/ou Office 365.
+1 pour les utilisateurs de Skype entreprise Online et/ou Office 365, le standardisation de Lync 2010 n’est pas pris en charge.
 
-2 Cette fonctionnalité nécessite Exchange Online et est contrôlée par l’attribut Archive permanente de la boîte aux lettres Exchange de l’utilisateur pour les utilisateurs de Lync Online et/ou Office 365.
+2 pour les utilisateurs de Skype entreprise Online et/ou d’Office 365, cette fonctionnalité nécessite Exchange Online et est contrôlée par l’attribut de conservation inaltérable de l’utilisateur.
 
-3 L’archivage côté client des transferts de fichiers, des pages OneNote partagées et des annotations PowerPoint n’est pas disponible pour les utilisateurs de Lync Online et/ou Office 365.
+3 pour les utilisateurs de Skype entreprise Online et/ou d’Office 365, l’archivage des transferts de fichiers, les pages OneNote partagées et les annotations PowerPoint n’est pas disponible.
+
+</div>
+
+<span id="Types"></span>
+
+<div>
+
+## <a name="client-limitations"></a>Limitations du client
+
+<span id="Full_Basic"></span>
+
+<div>
+
+## <a name="basic-client-limitations"></a>Limitations du client de base
+
+Les fonctionnalités suivantes sont disponibles avec le client complet et ne sont pas disponibles avec le client de base:
+
+  - Gérer les paramètres d'appel d'équipe
+
+  - Gérer les délégués
+
+  - Passer un appel pour le compte d'un autre contact (scénario responsable/délégué)
+
+  - Gérer les appels d'une autre personne, si celle-ci est configurée en tant que déléguée
+
+  - Gestion d’un grand nombre d’appels
+
+  - Appeler un groupe Response Group
+
+  - Parcage d'appel
+
+  - Prise d'appel de groupe
+
+</div>
+
+<span id="Online_Hybrid"></span>
+
+<div>
+
+## <a name="online-or-hybrid-user-account-limitations"></a>Limitations relatives aux comptes d’utilisateurs en ligne ou hybrides
+
+Les comptes d’utilisateur peuvent exister en ligne ou en local, ce qui affectera les fonctionnalités disponibles pour cet utilisateur. Les utilisateurs disposant d’un compte dans Skype entreprise Online ne pourront pas accéder aux fonctions suivantes, même avec le client complet:
+
+  - Présence améliorée: utiliser une photo de n’importe quel site public pour mon image
+
+  - Contacts: recherche de Response Groups
+
+  - Prise en charge de la messagerie instantanée: intégration des discussions permanentes (discussion de groupe)
+
+  - Prise en charge de la messagerie instantanée: remonter une salle de conversation permanente vers une réunion en un clic
+
+  - Utilisateurs externes: diriger des appels à deux ou plusieurs parties avec des utilisateurs externes
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

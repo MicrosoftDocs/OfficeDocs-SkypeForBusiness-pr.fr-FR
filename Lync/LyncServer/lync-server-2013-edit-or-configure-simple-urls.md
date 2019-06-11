@@ -1,50 +1,105 @@
-﻿---
-title: 'Lync Server 2013 : Modification ou configuration des URL simples'
-TOCTitle: Modification ou configuration des URL simples
-ms:assetid: 0008aeea-4ae9-4e36-83cd-ef7ff7b6e128
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398063(v=OCS.15)
-ms:contentKeyID: 49296047
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Modification ou configuration des URL simples'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Edit or configure simple URLs
+ms:assetid: 0008aeea-4ae9-4e36-83cd-ef7ff7b6e128
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398063(v=OCS.15)
+ms:contentKeyID: 48183216
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 6b1439ddb0dafc63b0e70439ee5231477fdbb6be
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831320"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Modification ou configuration des URL simples dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2014-02-04_
+# <a name="edit-or-configure-simple-urls-in-lync-server-2013"></a>Modification ou configuration des URL simples dans Lync Server 2013
 
-Pour effectuer cette procédure, il n’est pas nécessaire d’appartenir à un groupe d’administrateurs local ou de domaines privilégiés. Vous devez simplement ouvrir une session sur un ordinateur en tant qu’utilisateur standard.
+</div>
 
-Lync Server 2013 utilise des URL simples pour acheminer les appels internes et externes vers les services sur le serveur frontal ou directeur, s’il a été déployé. Pour plus d’informations sur les URL simples, reportez-vous à [Planification des URL simples dans Lync Server 2013](lync-server-2013-planning-for-simple-urls.md) dans la documentation de planification. Vous pouvez sélectionner le format de vos URL simples grâce à diverses options. Pour plus d’informations sur ces options, reportez-vous à [Enregistrements DNS requis pour les URL simples dans Lync Server 2013](lync-server-2013-dns-requirements-for-simple-urls.md) dans la documentation de planification.
+<div id="mainSection">
 
-Par défaut, le format des URL simples est le suivant (par exemple, l’URL simple dial-in) : https://dialin.\<Domaine SIP\>
+<div id="mainBody">
 
-## Pour configurer des URL simples
+<span> </span>
 
-1.  Dans Générateur de topologie, cliquez avec le bouton droit sur le nœud **Lync Server**, puis cliquez sur **Modifier les propriétés**.
+_**Dernière modification de la rubrique:** 2014-02-04_
 
-2.  Dans le volet **URL simples** , sélectionnez **URL d’accès téléphonique :** (Dial-In) ou **URL de réunion :** (Meet) pour modifier l’URL, puis cliquez sur **Modifier l’URL** .
+Cette procédure ne nécessite pas d’appartenance à un administrateur local ou à un groupe de domaines privilégiés. Vous devez vous connecter à un ordinateur en tant qu’utilisateur standard.
 
-3.  Mettez à jour l’URL avec la valeur souhaitée, puis cliquez sur **OK** pour l’enregistrer. Dans l’exemple présenté ici, l’URL Dial-in a été modifiée comme suit : https://pool01.contoso.net/dialin.
+Lync Server 2013 utilise des URL simples pour diriger les appels internes et externes vers des services du serveur frontal ou du réalisateur, s’il a été déployé. Pour plus d’informations sur les URL simples, voir [planification d’URL simples dans Lync Server 2013](lync-server-2013-planning-for-simple-urls.md) dans la documentation de planification. Vous pouvez sélectionner le format de vos URL simples à partir de plusieurs options. Pour plus d’informations sur ces options, voir [configurations DNS requises pour les URL simples dans Lync Server 2013](lync-server-2013-dns-requirements-for-simple-urls.md) dans la documentation de planification.
+
+Par défaut, les URL simples seront configurées sous la forme (par exemple, l’URL de connexion simple): https://dialin.\<SIP Domain\>
+
+<div>
+
+## <a name="to-configure-simple-urls"></a>Pour configurer des URL simples
+
+1.  Dans le générateur de topologie, cliquez avec le bouton droit sur le nœud du **serveur Lync** , puis cliquez sur **modifier les propriétés**.
+
+2.  Dans le volet **URL simples**, sélectionnez **URL d’accès téléphonique :** (Dial-In) ou **URL de réunion :** (Meet) pour modifier l’URL, puis cliquez sur **Modifier l’URL**.
+
+3.  Mettez à jour l’URL comme vous le souhaitez puis cliquez sur **OK** pour enregistrer l’URL modifiée. L’exemple présenté ici a modifié l’URL d’accès à la https://pool01.contoso.net/dialinConférence rendez-vous en.
 
 4.  Modifiez l’URL Meet en procédant de la même manière, si nécessaire.
 
-## Pour définir l’URL simple Admin facultative
+</div>
 
-1.  Dans Générateur de topologie, cliquez avec le bouton droit sur le nœud **Lync Server**, puis cliquez sur **Modifier les propriétés**.
+<div>
 
-2.  Dans la zone **URL d’accès administratif** , entrez l’URL simple vous donnant accès au Panneau de configuration Lync Server 2013 à des fins d’administration, puis cliquez sur **OK** .
+## <a name="to-define-the-optional-admin-simple-url"></a>Pour définir l’URL simple Admin facultative
+
+1.  Dans le générateur de topologie, cliquez avec le bouton droit sur le nœud du **serveur Lync** , puis cliquez sur **modifier les propriétés**.
+
+2.  Dans la zone **URL d’accès administratif** , entrez l’URL de votre choix pour l’accès administratif au panneau de configuration de Lync Server 2013, puis cliquez sur **OK**.
     
+    <div>
+    
+
     > [!TIP]  
-    > Nous vous recommandons d’utiliser l’URL la plus simple possible pour l’URL Admin. L’option la plus simple est <strong>https://admin.</strong> <em>&lt;domaine&gt;</em> .    
+    > Nous vous recommandons d’utiliser l’URL la plus simple possible pour l’URL d’administration. L’option la plus simple est <STRONG> https://admin.</STRONG> &lt;Domain&gt;(domaine).
+
+    
+    </div>
+    
+    <div>
+    
+
     > [!IMPORTANT]  
-    > Si vous modifiez une URL simple après son déploiement, sachez que cette modification risque d’altérer les enregistrements et les certificats DNS (Domain Name System) pour les URL simples. Si la modification altère la base d’une URL simple, vous devez également modifier les enregistrements et les certificats DNS. Par exemple, si vous modifiez https://lync.contoso.com/Meet de sorte qu’elle devienne https://meet.contoso.com, l’URL de base change, lync.contoso.com est remplacé par meet.contoso.com. Par conséquent, vous devez modifier les enregistrements et les certificats DNS de sorte qu’ils fassent référence à meet.contoso.com. Si vous avez modifié l’URL simple afin que https://lync.contoso.com/Meet devienne https://lync.contoso.com/Meetings, l’URL de base lync.contoso.com ne change pas. Il n’est donc pas nécessaire de modifier les enregistrements ou les certificats DNS. Cependant, lorsque vous modifiez un nom d’URL simple, vous devez exécuter l’applet de commande <strong>Enable-CsComputer</strong> sur chaque directeur et serveur frontal pour enregistrer la modification.
+    > Si vous changez une URL simple après son déploiement initial, vous devez savoir quels changements impactent vos enregistrements et certificats DNS pour les URL simples. Si le changement a un impact sur la base d’une URL simple, vous devez également modifier les enregistrements DNS et les certificats. Par exemple, si vous https://lync.contoso.com/Meet modifiez https://meet.contoso.com l’URL de base de Lync.contoso.com à Meet.contoso.com, vous devez modifier les enregistrements DNS et les certificats pour faire référence à Meet.contoso.com. Si vous avez changé l’URL simple https://lync.contoso.com/Meet de https://lync.contoso.com/Meetingsà, l’url de base de Lync.contoso.com reste inchangée et aucune modification du DNS ou du certificat n’est nécessaire. Néanmoins, chaque fois que vous modifiez un nom d’URL simple, vous devez exécuter l’applet de passe <STRONG>Enable-CsComputer</STRONG> sur chaque réalisateur et serveur frontal pour enregistrer la modification.
 
-## Voir aussi
+    
+    </div>
 
-#### Concepts
+</div>
 
-[Planification des URL simples dans Lync Server 2013](lync-server-2013-planning-for-simple-urls.md)
+<div>
+
+## <a name="see-also"></a>Voir aussi
+
+
+[Planification des URL simples dans Lync Server 2013](lync-server-2013-planning-for-simple-urls.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,38 +1,83 @@
-﻿---
-title: 'Lync Server 2013 : Prise en charge des infrastructures DNS'
-TOCTitle: Prise en charge des infrastructures DNS (Domain Name System)
-ms:assetid: 37777c16-94ce-436d-b517-bcf53a564513
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg425850(v=OCS.15)
-ms:contentKeyID: 49296869
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Prise en charge des infrastructures DNS'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Domain Name System (DNS) infrastructure support
+ms:assetid: 37777c16-94ce-436d-b517-bcf53a564513
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425850(v=OCS.15)
+ms:contentKeyID: 48183878
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 9aa9670761e16032abf0c205bbb740cbe1f43c4a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831374"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Prise en charge des infrastructures DNS dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2013-03-08_
+# <a name="dns-infrastructure-support-in-lync-server-2013"></a>Prise en charge des infrastructures DNS dans Lync Server 2013
 
-Lync Server 2013 utilise le système DNS (Domain Name System) pour les opérations suivantes :
+</div>
 
-  - pour détecter les serveurs ou pools internes pour les communications de serveur à serveur ;
+<div id="mainSection">
 
-  - permettre aux clients de détecter le pool de serveurs frontaux ou le serveur Standard Edition utilisé pour diverses transactions SIP ;
+<div id="mainBody">
 
-  - associer les URL simples des conférences aux serveurs hébergeant ces conférences ;
+<span> </span>
 
-  - permettre aux serveurs et clients externes de se connecter aux serveurs Edge ou au proxy inverse HTTP afin d’utiliser les fonctions de messagerie instantanée et de conférence ;
+_**Dernière modification de la rubrique:** 2013-03-08_
 
-  - permettre aux périphériques de communications unifiées qui ne sont pas connectés de détecter le pool de serveurs frontaux ou le serveur Standard Edition exécutant le service web de mise à jour de périphériques, d’obtenir des mises à jour et d’envoyer des journaux ;
+Lync Server 2013 nécessite DNS (Domain Name System) et l’utilise comme suit:
 
-  - permettre aux clients mobiles de découvrir automatiquement les ressources de services web sans que les utilisateurs aient besoin d’entrer manuellement les URL dans les paramètres des périphériques.
+  - Pour découvrir les serveurs internes ou les pools de communications serveur à serveur.
 
-  - procéder à l’équilibrage de la charge DNS.
+  - Pour permettre aux clients de découvrir le pool frontal ou le serveur Standard Edition utilisé pour différentes transactions SIP.
+
+  - Pour associer les URL simples aux conférences avec les serveurs hébergeant ces conférences.
+
+  - Pour permettre à des serveurs et clients externes de se connecter à des serveurs Edge ou au proxy HTTP inverse pour la messagerie instantanée ou les conférences.
+
+  - Pour activer les appareils de communications unifiées (UC) qui ne sont pas connectés pour détecter le pool frontal ou le serveur Standard Edition Web exécutant des mises à jour de périphériques, obtenez des mises à jour et envoyez des journaux.
+
+  - Pour permettre aux clients mobiles de détecter automatiquement les ressources de services Web sans exiger l’entrée manuelle des URL dans les paramètres de l’appareil.
+
+  - Pour l’équilibrage de charge DNS.
+
+<div>
+
 
 > [!NOTE]  
-> Lync Server 2013 ne prend pas en charge les noms de domaine internationaux (IDN).
+> Lync Server 2013 ne prend pas en charge les noms de domaines internationaux (IDNs).
+
+
+
+</div>
+
+<div>
+
 
 > [!IMPORTANT]  
-> Le nom spécifié doit être identique au nom de l’ordinateur configuré sur le serveur. Par défaut, le nom d’un ordinateur qui n’est pas lié à un domaine est un nom court, pas un nom de domaine complet (FQDN). Générateur de topologie utilise des FQDN, pas des noms courts. Vous devez donc configurer un suffixe DNS sur le nom de l’ordinateur qui sera déployé en tant que serveur de périphérie non lié à un domaine. <strong>Utilisez uniquement les caractères standard</strong> (tels que A–Z, a–z, 0–9, et les traits d’union) quand vous assignez les FQDN de vos serveurs Lync, serveurs de périphérie et pools. N’utilisez pas les caractères ou traits de soulignement Unicode. Souvent, les caractères non standard dans un FQDN ne sont pas pris en charge par le DNS externe et les autorités de certification publique (quand le FQDN doit être assigné au SN dans le certificat).
+> Le nom spécifié doit être identique au nom de l’ordinateur configuré sur le serveur. Par défaut, le nom d’un ordinateur qui n’est pas lié à un domaine est un nom court, pas un nom de domaine complet (FQDN). Le générateur de topologie utilise des noms de domaine complets plutôt que des noms courts. Vous devez donc configurer un suffixe DNS sur le nom de l’ordinateur qui sera déployé en tant que serveur de périphérie non lié à un domaine. <STRONG>Utilisez uniquement les caractères standard</STRONG> (tels que A–Z, a–z, 0–9, et les traits d’union) quand vous assignez les FQDN de vos serveurs Lync, serveurs de périphérie et pools. N’utilisez pas les caractères ou traits de soulignement Unicode. Souvent, les caractères non standard dans un FQDN ne sont pas pris en charge par le DNS externe et les autorités de certification publique (quand le FQDN doit être assigné au SN dans le certificat).
+
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+

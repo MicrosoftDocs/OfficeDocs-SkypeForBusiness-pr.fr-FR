@@ -1,59 +1,119 @@
-﻿---
-title: Voix Entreprise dans Lync Server 2013
-TOCTitle: Voix Entreprise
-ms:assetid: c9da8099-6f4f-4346-ac67-f041bb96072c
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg417163(v=OCS.15)
-ms:contentKeyID: 49298820
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Voix Entreprise dans Lync Server 2013
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Enterprise Voice
+ms:assetid: c9da8099-6f4f-4346-ac67-f041bb96072c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg417163(v=OCS.15)
+ms:contentKeyID: 48185404
+ms.date: 04/08/2015
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: c7c8131c2f52dfc7ab061d8dec46ee34b62f89e2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831215"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Voix Entreprise dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2015-04-08_
+# <a name="enterprise-voice-in-lync-server-2013"></a>Voix Entreprise dans Lync Server 2013
 
-Avec Voix Entreprise, Lync Server inclut un protocole autonome Voix sur Internet (VoIP) qui permet d’améliorer ou de remplacer les systèmes PBX (Private Branch Exchange) traditionnels. Les utilisateurs Voix Entreprise peuvent appeler leurs collègues sur le réseau VoIP ou le PBX de votre entreprise, et passer des appels traditionnels externes. La solution Voix Entreprise intègre des fonctionnalités d’appel standard (réponse, transfert, mise en attente, redirection, parcage et libération d’appel, par exemple), et prend également en charge les appels Enhanced 9-1-1 (E9-1-1). Notez que E9-1-1 n’est disponible qu’aux États-Unis. Voix Entreprise prend également en charge une gamme étendue de périphériques IP et USB actuels et plus anciens.
+</div>
 
-## Émission et réception d’appels
+<div id="mainSection">
 
-En utilisant Lync, les utilisateurs peuvent passer des appels en tapant un nom ou un numéro de téléphone sur leur clavier ou en utilisant le pavé de numérotation affiché sur leur écran. Ils peuvent également passer des appels directement à partir de leur liste des contacts. Vous pouvez également déployer des périphériques Lync Phone Edition qui sont des périphériques de téléphonie IP autonomes fournis par les partenaires Microsoft.
+<div id="mainBody">
 
-Les utilisateurs peuvent enregistrer plusieurs périphériques de téléphonie dans Lync Server et passer facilement de l’un à l’autre.
+<span> </span>
 
-En cas d’appel entrant, les utilisateurs sont avertis simultanément sur tous leurs périphériques par des sonneries personnalisables sur les périphériques de téléphonie IP et par une notification similaire à un message instantané sur leur PC.
+_**Dernière modification de la rubrique:** 2015-04-08_
 
-Ils peuvent également définir un numéro de téléphone auquel ils peuvent être contactés sur leur téléphone de bureau, leur PC et leur téléphone mobile.
+Avec Enterprise Voice, Lync Server fournit une offre VoIP (voix sur IP) autonome pour améliorer ou remplacer les systèmes PBX (Private Branch Exchange) traditionnels. Les utilisateurs d’Enterprise Voice peuvent appeler des collègues sur le réseau VoIP ou le PBX de votre organisation, et ils peuvent appeler des numéros de téléphone traditionnels à l’extérieur de votre organisation. La solution voix entreprise inclut des fonctionnalités d’appel courantes, telles que réponse, transfert, transfert, mise en attente, dérouter, libérer et parc, et 9-1-1 (E9-1-1-1). Voix entreprise prend également en charge un vaste éventail d’appareils IP et USB plus courants.
 
-## Fonctionnalités d’appel de base
+<div>
 
-Lorsqu’il téléphone, un utilisateur peut répondre à d’autres appels entrants ou passer des appels sortants : l’appel en cours est alors automatiquement mis en attente. Il est possible de transférer un appel d’un utilisateur à l’autre, soit directement, soit après que le premier utilisateur ait parlé en privé au deuxième utilisateur. Les utilisateurs peuvent également transférer un appel vers un autre périphérique, par exemple, vers leur téléphone mobile, lorsqu’ils quittent le bureau.
+## <a name="placing-and-receiving-calls"></a>Placement et réception d’appels
 
-## Fonctionnalités de communication plus puissantes
+Lync permet aux utilisateurs de passer des appels en tapant un nom ou un numéro de téléphone sur leur clavier, ou à l’aide d’un pavé de numérotation affiché à l’écran. Les utilisateurs peuvent également lancer des appels directement depuis leur liste de contacts. Vous pouvez également déployer des appareils Lync Phone Edition, qui sont des appareils de téléphone IP autonomes proposés par des partenaires Microsoft.
 
-Lorsqu’il parle à un autre utilisateur avec Lync, un utilisateur peut facilement ajouter du texte et un contenu vidéo ou partager son Bureau pendant la conversation. La fonctionnalité Ne pas déranger est intégrée aux paramètres de présence dans Lync.
+Les utilisateurs peuvent utiliser plusieurs appareils téléphoniques enregistrés sur Lync Server et pouvoir basculer entre eux facilement.
 
-Avec messagerie unifiée Exchange, Lync et Lync Server s’intègrent à Microsoft Exchange Server 2013 et Microsoft Outlook 2013. Ainsi, les utilisateurs peuvent voir s’ils ont un nouveau message vocal dans la fenêtre Lync et dans la messagerie électronique. Si le message vocal est enregistré dans un message électronique, l’utilisateur peut cliquer dessus pour l’écouter ou afficher la transcription du message vocal.
+Les utilisateurs sont avertis de tous les appels entrants sur tous leurs appareils, avec des sonneries personnalisées sur les appareils de téléphone IP et une notification similaire à un message instantané sur leur ordinateur.
 
-## Fonctionnalités d’appel avancées
+Les utilisateurs peuvent également définir un numéro de téléphone qui se connecte à leur téléphone de bureau, leur PC et leur téléphone mobile, afin de pouvoir y accéder où qu’ils se trouvent.
 
-Voix Entreprise regroupe également plusieurs fonctionnalités d’appel avancées, telles que la délégation d’appel, les appels d’équipe, la prise d’appel de groupe et les services Response Group.
+</div>
 
-La délégation permet aux utilisateurs de déléguer la gestion des appels à un ou plusieurs assistants. Le délégué peut effectuer plusieurs tâches d’appel au nom de l’utilisateur, y compris le filtrage et l’émission d’appels ou l’initialisation de conférences.
+<div>
 
-L’appel d’équipe permet à un utilisateur de faire sonner simultanément les téléphones de ses collègues en cas d’appel entrant, ce qui permet à n’importe quel membre de l’équipe de répondre à l’appel.
+## <a name="basic-call-features"></a>Fonctionnalités d’appel de base
 
-La Prise d’appel de groupe, une nouvelle fonctionnalité de la Mise à jour cumulative pour Lync Server 2013de février 2013, permet aux utilisateurs de répondre, sur leur propre téléphone, à des appels entrants destinés à leurs collègues. Cette fonctionnalité diffère de l’appel d’équipe principalement dans le sens où un appel entrant sonne uniquement sur le téléphone du destinataire prévu, mais n’importe quel autre utilisateur peut choisir d’y répondre en composant un numéro de groupe de prise d’appel.
+Pendant un appel, un utilisateur peut répondre à d’autres appels entrants ou lancer des appels sortants, et l’appel actif actuel est mis automatiquement en attente. Les appels peuvent être transférés d’un utilisateur à un autre, directement ou après que le premier utilisateur parle en privé. Les utilisateurs peuvent également transférer des appels vers un autre appareil. par exemple, ils pourraient transférer un appel actif vers leur téléphone mobile, car ils découvrent la porte de leur bureau.
 
-Le service Response Group peut être configuré en vue de mettre en attente et d’acheminer intelligemment les appels vers des agents désignés. Les supports techniques informatiques, les services d’assistance téléphoniques des ressources humaines et d’autres centres de contact internes l’utilisent couramment.
+</div>
 
-## Administration de Voix Entreprise
+<div>
 
-Lync Server utilise des interfaces standard et publiées pour interagir avec l’infrastructure existante. Il prend en charge les options de passerelle et SIP (comme la jonction SIP) pour permettre l’interconnexion avec les systèmes PBX IP et les réseaux RTC afin que vous puissiez migrer progressivement les utilisateurs vers Voix Entreprise, tout en minimisant les risques d’interruption. Lync Server prend en charge les codecs traditionnels, tels que G.711, G.722 et G.723.1, pour garantir l’interopérabilité avec les solutions VoIP traditionnelles.
+## <a name="richer-communications"></a>Communications plus complètes
 
-Grâce au contrôle d’admission des appels (CAC), les administrateurs peuvent limiter le trafic audio et vidéo Lync Server acheminé sur des liaisons réseau restreintes, et spécifier ce qu’il faut faire si un nouvel appel dépasse cette limite. Par exemple, l’appel peut être routé par un autre chemin ou refusé.
+Lorsque vous parlez à un autre utilisateur avec Lync, les utilisateurs peuvent facilement ajouter du texte, de la vidéo ou du partage de bureau à l’appel. La fonctionnalité ne pas déranger est intégrée aux paramètres de présence dans Lync.
 
-Lync Server fonctionne avec des Survivable Branch Appliances tiers pour fournir des services d’appel local et une connexion RTC dans les succursales, au cas où la liaison du réseau étendu tomberait en panne sur le site central.
+Avec la messagerie unifiée Exchange, Lync et Lync Server s’intègrent à Microsoft Exchange Server 2013 et Microsoft Outlook 2013. Les utilisateurs peuvent voir s’ils ont de nouveaux messages vocaux dans leur fenêtre Lync et dans leurs messages électroniques. Dans un courrier électronique, ils peuvent cliquer pour lire le fichier audio de la messagerie vocale dans un message électronique ou afficher une transcription du message vocal.
+
+</div>
+
+<div>
+
+## <a name="advanced-calling-features"></a>Fonctionnalités d’appel avancées
+
+Voix entreprise inclut plusieurs fonctionnalités d’appel avancées, telles que la délégation d’appels Lync, les appels d’équipe, la collecte d’appels de groupe et les groupes de réponse.
+
+La délégation d’appel Lync permet aux utilisateurs de déléguer la gestion des appels à un ou plusieurs assistants, en accédant à **Outils** \> **options** \> de **transfert d’appel**. Le délégué peut effectuer plusieurs tâches d’appel de la part de l’utilisateur, y compris les appels de filtrage, le placement d’appels et l’initiation de conférences.
+
+<div>
+
+
+> [!IMPORTANT]  
+> Il est possible que vous souhaitiez Rechercher une autre fonctionnalité nommée de la même façon, délégation de calendrier Lync. La fonctionnalité voix entreprise n’est pas obligatoire et permet aux utilisateurs de planifier des réunions Lync en ligne à partir d’Outlook. Si vous recherchez ces informations, nous vous recommandons de consulter <A href="https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy">Set-CsClientPolicy</A> pour plus d’informations sur l’activation de la synchronisation de délégué Exchange.
+
+
+
+</div>
+
+Les appels d’équipe permettent à un utilisateur de faire sonner simultanément les téléphones des membres de l’équipe pour que tous les membres de l’équipe puissent répondre à l’appel.
+
+Le prélèvement d’appels de groupe, une nouvelle fonctionnalité dans les mises à jour cumulatives de Lync Server 2013: février 2013, permet aux utilisateurs de répondre aux appels entrants de leurs collègues à partir de leur propre téléphone. Le prélèvement d’appels de groupe diffère de l’appel d’équipe dans la mesure où un appel entrant sonne uniquement sur le téléphone du destinataire prévu, mais que les autres utilisateurs peuvent choisir d’y répondre en composant un numéro de groupe.
+
+Les groupes de réponse peuvent être configurés pour la mise en file d’attente et le routage intelligent des appels vers les agents désignés. Les utilisations courantes incluent les support informatiques, les services d’assistance aux ressources humaines et autres centres de contacts internes.
+
+</div>
+
+<div>
+
+## <a name="enterprise-voice-administration"></a>Administration de voix entreprise
+
+Lync Server utilise des normes et des interfaces publiées pour interagir avec l’infrastructure existante. Il prend en charge les options passerelle et SIP (par exemple, le trunking SIP) pour une interconnexion aux systèmes PBX IP et aux réseaux RTC, afin que vous puissiez migrer les utilisateurs vers Enterprise Voice dans le temps, tout en minimisant les interruptions. Lync Server prend en charge les codecs traditionnels tels que G. 711, G. 722 et G. 723.1 pour l’interopérabilité avec les solutions VoIP traditionnelles.
+
+Le contrôle d’admission des appels permet aux administrateurs de définir des limites sur le volume de trafic audio et vidéo de Lync Server transporté par des liaisons réseau contraintes et de spécifier l’action à entreprendre si un nouvel appel dépasse la limite. Les actions peuvent inclure le routage via un autre chemin ou le rejet de l’appel.
+
+Lync Server fonctionne avec des appareils de succursales Survivables tiers pour fournir des services d’appel local et une connexion RTC aux succursales, en cas de panne du WAN sur le site central.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

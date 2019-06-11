@@ -1,26 +1,53 @@
-﻿---
-title: 'Lync Server 2013 : Prise en charge du logiciel client Lync'
-TOCTitle: Prise en charge du logiciel client Lync
-ms:assetid: a6851e38-ba9a-4f19-9aa7-d8accf4d62b3
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg412781(v=OCS.15)
-ms:contentKeyID: 49298425
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: support du logiciel client Lync'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Lync client software support
+ms:assetid: a6851e38-ba9a-4f19-9aa7-d8accf4d62b3
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412781(v=OCS.15)
+ms:contentKeyID: 48184994
+ms.date: 02/25/2016
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 9d11037f6a70d99b5e49958e72c1847912f1fff3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34830932"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Prise en charge du logiciel client Lync dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2016-12-08_
+# <a name="lync-client-software-support-in-lync-server-2013"></a>Support du logiciel client Lync dans Lync Server 2013
 
-Cette section fournit une synthèse de la prise en charge logicielle pour Lync 2013 et le complément de réunion en ligne pour Lync 2013.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2016-02-25_
+
+Cette section résume le support logiciel pour Lync 2013 et le complément réunion en ligne pour Lync 2013.
+
+<div>
+
 
 > [!NOTE]  
-> Le complément de réunion en ligne pour Lync 2013, qui permet de gérer les réunions à partir du client de messagerie et de collaboration Outlook s’installe automatiquement avec Lync 2013.
+> Le complément réunion en ligne pour Lync 2013, qui prend en charge la gestion de la réunion à partir du client de messagerie et de collaboration Outlook, s’installe automatiquement avec Lync 2013.
 
-### Configuration logicielle requise pour Lync 2013 et le complément de réunion en ligne pour Lync 2013
+
+
+</div>
+
+### <a name="software-requirements-for-lync-2013-and-the-online-meeting-add-in-for-lync-2013"></a>Configuration logicielle requise pour Lync 2013 et le complément réunion en ligne pour Lync 2013
 
 <table>
 <colgroup>
@@ -36,14 +63,17 @@ Cette section fournit une synthèse de la prise en charge logicielle pour Lync 2
 <tbody>
 <tr class="odd">
 <td><p>Système d’exploitation Windows</p></td>
-<td><p>Windows 8.1</p>
-<p>Windows 8</p>
-<p>système d’exploitation Windows 7</p>
-<p>Windows Server 2008 R2 avec le Service Pack le plus récent</p>
+<td><p>Windows 10</p>
+<p>Windows 8.1</p>
+<p>Windows 8</p>
+<p>Système d’exploitation Windows 7</p>
+<p>Windows Server 2008 R2 avec le dernier Service Pack</p>
 <div>
 
 > [!NOTE]  
-> Lync 2013 et complément de réunion en ligne pour Lync 2013 ne sont pas pris en charge sur Windows Vista ni sur Windows XP (toutes versions).
+> Lync 2013 et le complément réunion en ligne pour Lync 2013 ne sont pas pris en charge sur Windows Vista ou Windows XP (n’importe quelle version).
+
+
 </div></td>
 </tr>
 <tr class="even">
@@ -52,60 +82,101 @@ Cette section fournit une synthèse de la prise en charge logicielle pour Lync 2
 </tr>
 <tr class="odd">
 <td><p>Navigateur</p></td>
-<td><p>Navigateur Internet Windows Internet Explorer 10</p>
-<p>Navigateur Internet Internet Explorer 9</p>
-<p>Navigateur Internet Internet Explorer 8</p>
-<p>Navigateur Internet Internet Explorer 7</p>
+<td><p>Navigateur Internet Explorer 11</p>
+<p>Navigateur Internet d’Internet Explorer 10</p>
+<p>Navigateur Internet Explorer 9</p>
+<p>Navigateur Internet Explorer 8</p>
+<p>Navigateur Internet Explorer 7</p>
 <p>Navigateur web Mozilla Firefox</p>
 <div>
 
 > [!NOTE]  
 > Si vous utilisez Lync avec Microsoft Exchange Online et que votre organisation a déployé un proxy HTTP d’authentification, Internet Explorer 9 ou Internet Explorer 8 est requis.
+
+
 </div></td>
 </tr>
 <tr class="even">
 <td><p>Intégration à Microsoft Office</p></td>
-<td><p>Pour le jeu complet de fonctionnalités d’intégration :</p><ul><li><p>Client de messagerie et de collaboration Outlook 2013</p></li><li><p>Client de messagerie et de collaboration Outlook 2010</p></li></ul></td>
+<td><p>Pour le jeu complet de fonctionnalités d’intégration :</p>
+<ul>
+<li><p>Client de messagerie et de collaboration Outlook 2013</p></li>
+<li><p>Client de messagerie et de collaboration Outlook 2010</p></li>
+</ul></td>
 </tr>
 <tr class="odd">
 <td><p>Intégration à Microsoft Exchange</p></td>
-<td><p>Pour le jeu complet de fonctionnalités d’intégration :</p><ul><li><p>Microsoft Exchange Server 2013</p></li><li><p>Microsoft Exchange Server 2010</p></li></ul></td>
+<td><p>Pour le jeu complet de fonctionnalités d’intégration :</p>
+<ul>
+<li><p>Microsoft Exchange Server 2013</p></li>
+<li><p>Microsoft Exchange Server 2010</p></li>
+</ul></td>
 </tr>
 </tbody>
 </table>
 
 
-## Systèmes d’exploitation Macintosh
+<div>
 
-Lync 2013 est disponible uniquement pour Windows. Cependant, Lync Server 2013 prend en charge les clients suivants sur les ordinateurs qui exécutent un système d’exploitation Mac OS 10.5.8 ou une version ou un Service Pack plus récent (basé sur Intel) (le système d’exploitation Mac OS 10.9 n’est pas pris en charge actuellement). Pour plus d’informations sur les fonctionnalités prises en charge, reportez-vous à [Tableau de comparaison des clients pour Lync Server 2013](lync-server-2013-desktop-client-comparison-tables.md).
+## <a name="macintosh-operating-systems"></a>Systèmes d’exploitation Macintosh
 
-  - Microsoft Lync pour Mac 2011 (reportez-vous au « Guide de déploiement de Lync pour Mac 2011 » à l’adresse [http://go.microsoft.com/fwlink/?linkid=268786\&clcid=0x40C](http://go.microsoft.com/fwlink/?linkid=268786%26clcid=0x40c))
+Lync 2013 est disponible uniquement pour Windows. Toutefois, Lync Server 2013 prend en charge les clients suivants sur des ordinateurs exécutant Mac OS 10.5.8 ou les derniers Service Packs ou versions de version (Intel) (le système d’exploitation Mac OS 10,9 n’est pas pris en charge pour le moment). Pour plus d’informations sur les fonctionnalités prises en charge, voir [tableaux de comparaison des clients pour Lync Server 2013](lync-server-2013-desktop-client-comparison-tables.md).
 
-  - Microsoft Communicator pour Mac 2011 (reportez-vous au « Guide de déploiement de Communicator pour Mac 2011 » à l’adresse [http://go.microsoft.com/fwlink/?linkid=268787\&clcid=0x40C](http://go.microsoft.com/fwlink/?linkid=268787%26clcid=0x40c))
+  - Microsoft Lync pour Mac 2011 (voir «Guide de déploiement de Lync pour Mac 2011 [http://go.microsoft.com/fwlink/p/?LinkId=268786](http://go.microsoft.com/fwlink/p/?linkid=268786)» à l’adresse)
 
-## Navigateurs Lync Web App
+  - Microsoft Communicator pour Mac 2011 (voir «Guide de déploiement de Communicator pour Mac 2011» à [http://go.microsoft.com/fwlink/p/?LinkId=268787](http://go.microsoft.com/fwlink/p/?linkid=268787)l’adresse)
 
-Lync Web App prend en charge des combinaisons spécifiques de systèmes d’exploitation et de navigateurs. Pour plus d’informations, reportez-vous au [Plateformes prises en charge par Lync Web App pour Lync Server 2013](lync-server-2013-lync-web-app-supported-platforms.md) dans la documentation de planification.
+</div>
 
-## Capacité de prise en charge de Microsoft Office
+<div>
 
-Les clients Lync Server 2013 prennent en charge l’intégration à diverses versions de Microsoft Office, comme résumé dans cette section.
+## <a name="lync-web-app-browsers"></a>Navigateurs Lync Web App
 
-  - Les fonctionnalités d’intégration de Lync 2013 sont prises en charge sur Outlook 2013 et Microsoft Outlook 2010.
+Lync Web App prend en charge des combinaisons spécifiques de systèmes d’exploitation et de navigateurs. Pour plus d’informations, voir [plateformes prises en charge par Lync Web App pour Lync Server 2013](lync-server-2013-lync-web-app-supported-platforms.md) dans la documentation de planification.
 
-  - Les fonctionnalités d’intégration de Lync 2013 sont prises en charge sur Microsoft Exchange Server 2013 et Microsoft Exchange Server 2010.
+</div>
 
-  - Le complément Réunion en ligne pour Lync 2013 est pris en charge avec Office 2013 et Microsoft Office 2010.
+<div>
 
-## Utilisation de profils obligatoires
+## <a name="microsoft-office-supportability"></a>Capacité de prise en charge de Microsoft Office
 
-Si des utilisateurs prévoient d’utiliser les fonctionnalités de conférence de Lync 2013, ils ne doivent pas utiliser de profils obligatoires des services de domaine Active Directory pour se connecter au client Lync 2013. Les profils obligatoires étant des profils utilisateur en lecture seule, les clés d’Infrastructure à clé publique (PKI, Public Key Infrastructure) requises pour les conférences Lync 2013 ne peuvent pas être enregistrées dans le profil. Pour plus d’informations, reportez-vous à l’article 2552221 de la Base de connaissances Microsoft intitulé « La fonctionnalité de conférence de Lync 2010 échoue lorsqu’un utilisateur est connecté avec un profil utilisateur obligatoire » à l’adresse [http://go.microsoft.com/fwlink/?linkid=3052\&clcid=0x40C](http://go.microsoft.com/fwlink/?linkid=3052%26clcid=0x40c).
+Les clients Lync Server 2013 prennent en charge l’intégration à différentes versions de Microsoft Office, comme décrit dans cette section.
 
-## Voir aussi
+  - Les fonctionnalités d’intégration de Lync 2013 sont prises en charge dans Outlook 2013 et Microsoft Outlook 2010.
 
-#### Concepts
+  - Les fonctionnalités d’intégration de Lync 2013 sont prises en charge sur Microsoft Exchange Server 2013 et Microsoft Exchange Server 2010.
+
+  - Le complément réunion en ligne pour Lync 2013 est pris en charge avec Office 2013 et Microsoft Office 2010.
+
+</div>
+
+<div>
+
+## <a name="using-mandatory-profiles"></a>Utilisation de profils obligatoires
+
+Si les utilisateurs envisagent d’utiliser les fonctionnalités de conférence 2013 de Lync, ils ne doivent pas utiliser les profils obligatoires des services de domaine Active Directory pour se connecter au client Lync 2013. Étant donné que les profils obligatoires sont des profils utilisateur en lecture seule, les clés d’infrastructure à clé publique (PKI) requises pour les conférences Lync 2013 ne peuvent pas être enregistrées dans le profil. Pour plus d’informations, reportez-vous à l’article 2552221 de la base de connaissances Microsoft «échec de la fonctionnalité de conférence Lync 2010 lorsque [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=2552221](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2552221)l’utilisateur est connecté à l’aide d’un profil utilisateur obligatoire».
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>Voir aussi
+
 
 [Prise en charge du matériel client Lync dans Lync Server 2013](lync-server-2013-lync-client-hardware-support.md)  
-[Configuration requise pour la vidéo du client Skype Entreprise pour Skype Entreprise Server 2015](lync-server-2013-lync-client-video-requirements.md)  
-[Clients pris en charge provenant d’anciens déploiements dans Lync Server 2013](lync-server-2013-supported-clients-from-previous-deployments.md)
+[Configuration vidéo requise pour le client Lync pour Lync Server 2013](lync-server-2013-lync-client-video-requirements.md)  
+[Clients pris en charge provenant d’anciens déploiements dans Lync Server 2013](lync-server-2013-supported-clients-from-previous-deployments.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
