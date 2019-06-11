@@ -1,23 +1,43 @@
-﻿---
-title: "Lync Server 2013 : Demande et conf. d’un certif. pour votre proxy HTTP inverse"
-TOCTitle: Demande et configuration d’un certificat pour votre proxy HTTP inverse
-ms:assetid: 4b70991e-5f10-40a3-b069-0b227c3a3a0a
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg429704(v=OCS.15)
-ms:contentKeyID: 49297146
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Demande et configuration d’un certificat pour votre proxy HTTP inverse
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Request and configure a certificate for your reverse HTTP proxy
+ms:assetid: 4b70991e-5f10-40a3-b069-0b227c3a3a0a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429704(v=OCS.15)
+ms:contentKeyID: 48184085
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ffe1ce6a4b206b927b2fcdec4c02b905e01d5bd1
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823307"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Demande et configuration d’un certificat pour votre proxy HTTP inverse dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2016-12-08_
+# <a name="request-and-configure-a-certificate-for-your-reverse-http-proxy-in-lync-server-2013"></a><span data-ttu-id="4f5be-102">Demande et configuration d’un certificat pour votre proxy HTTP inverse dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4f5be-102">Request and configure a certificate for your reverse HTTP proxy in Lync Server 2013</span></span>
 
-Vous devez installer le certificat d’autorité de certification (CA) racine sur le serveur qui exécute Microsoft Forefront Threat Management Gateway 2010 ou IIS ARR pour l’infrastructure CA qui a émis les certificats de serveur sur les serveurs internes exécutant Microsoft Lync Server 2013.
+</div>
 
-Vous devez également installer un certificat de serveur web public sur votre serveur proxy inverse. Les autres noms de sujet de ce certificat doivent contenir les noms de domaine complets externes publiés de chaque pool hébergeant les utilisateurs activés pour l’accès à distance, ainsi que les noms de domaine complets externes de tous les directeurs ou pools directeurs qui seront utilisés dans cette infrastructure Edge. L’autre nom de sujet doit aussi contenir l’URL simple de réunion, l’URL simple de conférence rendez-vous et, si vous déployez des applications mobiles et prévoyez d’utiliser la découverte automatique, l’URL du service de découverte automatique externe, comme indiqué dans le tableau suivant.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="4f5be-103">_**Dernière modification de la rubrique:** 2014-02-14_</span><span class="sxs-lookup"><span data-stu-id="4f5be-103">_**Topic Last Modified:** 2014-02-14_</span></span>
+
+<span data-ttu-id="4f5be-104">Vous avez besoin d’installer le certificat d’autorité de certification racine sur le serveur exécutant la passerelle 2010 ou les services IIS ARR pour l’infrastructure de l’autorité de certification qui a émis les certificats serveur sur les serveurs internes exécutant Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="4f5be-104">You need to install the root certification authority (CA) certificate on the server running Microsoft Forefront Threat Management Gateway 2010 or IIS ARR for the CA infrastructure that issued the server certificates to the internal servers running Microsoft Lync Server 2013.</span></span>
+
+<span data-ttu-id="4f5be-105">Vous devez également installer un certificat de serveur Web public sur votre serveur proxy inverse.</span><span class="sxs-lookup"><span data-stu-id="4f5be-105">You also must install a public web server certificate on your reverse proxy server.</span></span> <span data-ttu-id="4f5be-106">Le nom d’une autre personne doit contenir le nom de domaine complet (FQDN) publié de chaque liste de tous les utilisateurs autorisés à accéder à distance et les noms de domaine complets externes de tous les directeurs ou pools de réalisateurs qui seront utilisés dans Cette infrastructure latérale.</span><span class="sxs-lookup"><span data-stu-id="4f5be-106">This certificate’s subject alternative names should contain the published external fully qualified domain names (FQDNs) of each pool that is home to users enabled for remote access, and the external FQDNs of all Directors or Director pools that will be used within that Edge infrastructure.</span></span> <span data-ttu-id="4f5be-107">Le nom de remplacement de l’objet doit également contenir l’URL simple de la réunion, l’URL d’accès à la Conférence rendez-vous et, si vous déployez des applications mobiles et vous envisagez d’utiliser la découverte automatique, comme indiqué dans le tableau suivant.</span><span class="sxs-lookup"><span data-stu-id="4f5be-107">The subject alternative name must also contain the meeting simple URL, the dial-in simple URL, and, if you are deploying mobile applications and plan to use automatic discovery, the external Autodiscover Service URL as shown in the following table.</span></span>
 
 
 <table>
@@ -29,124 +49,186 @@ Vous devez également installer un certificat de serveur web public sur votre s
 <thead>
 <tr class="header">
 <th></th>
-<th>Valeur</th>
-<th>Exemple</th>
+<th><span data-ttu-id="4f5be-108">Valeur</span><span class="sxs-lookup"><span data-stu-id="4f5be-108">Value</span></span></th>
+<th><span data-ttu-id="4f5be-109">Exemple</span><span class="sxs-lookup"><span data-stu-id="4f5be-109">Example</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Nom du sujet</p></td>
-<td><p>Nom de domaine complet du pool</p></td>
-<td><p>webext.contoso.com</p></td>
+<td><p><span data-ttu-id="4f5be-110">Nom de l’objet</span><span class="sxs-lookup"><span data-stu-id="4f5be-110">Subject name</span></span></p></td>
+<td><p><span data-ttu-id="4f5be-111">FQDN du pool</span><span class="sxs-lookup"><span data-stu-id="4f5be-111">Pool FQDN</span></span></p></td>
+<td><p><span data-ttu-id="4f5be-112">webext.contoso.com</span><span class="sxs-lookup"><span data-stu-id="4f5be-112">webext.contoso.com</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Autre nom du sujet</p></td>
-<td><p>Nom de domaine complet du pool</p></td>
-<td><p>webext.contoso.com</p>
-<div>
+<td><p><span data-ttu-id="4f5be-113">Autre nom du sujet</span><span class="sxs-lookup"><span data-stu-id="4f5be-113">Subject alternative name</span></span></p></td>
+<td><p><span data-ttu-id="4f5be-114">FQDN du pool</span><span class="sxs-lookup"><span data-stu-id="4f5be-114">Pool FQDN</span></span></p></td>
+<td><p><span data-ttu-id="4f5be-115">webext.contoso.com</span><span class="sxs-lookup"><span data-stu-id="4f5be-115">webext.contoso.com</span></span></p>
 
-> [!IMPORTANT]  
-> Le nom du sujet doit aussi être présent dans l’autre nom de sujet.
-</div></td>
+
+
+> [!IMPORTANT]
+> <span data-ttu-id="4f5be-116">Le nom du sujet doit également figurer dans l’autre nom de l’objet.</span><span class="sxs-lookup"><span data-stu-id="4f5be-116">The subject name must also be present in the subject alternative name.</span></span>
+
+</td>
 </tr>
 <tr class="odd">
-<td><p>Autre nom du sujet</p></td>
-<td><p>Services web directeur facultatifs (si directeur est déployé)</p></td>
-<td><p>webdirext.contoso.com</p></td>
+<td><p><span data-ttu-id="4f5be-117">Autre nom du sujet</span><span class="sxs-lookup"><span data-stu-id="4f5be-117">Subject alternative name</span></span></p></td>
+<td><p><span data-ttu-id="4f5be-118">Services Web de Director facultatifs (si le directeur est déployé)</span><span class="sxs-lookup"><span data-stu-id="4f5be-118">Optional Director Web Services (if Director is deployed)</span></span></p></td>
+<td><p><span data-ttu-id="4f5be-119">webdirext.contoso.com</span><span class="sxs-lookup"><span data-stu-id="4f5be-119">webdirext.contoso.com</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Autre nom du sujet</p></td>
-<td><p>URL simple de réunion</p>
-<div>
+<td><p><span data-ttu-id="4f5be-120">Autre nom du sujet</span><span class="sxs-lookup"><span data-stu-id="4f5be-120">Subject alternative name</span></span></p></td>
+<td><p><span data-ttu-id="4f5be-121">URL simple pour la réunion</span><span class="sxs-lookup"><span data-stu-id="4f5be-121">Meeting simple URL</span></span></p>
 
-> [!NOTE]  
-> Toutes les URL simples de réunion doivent se trouver dans l’autre nom de sujet. Chaque domaine SIP doit comporter au moins une URL simple de réunion active.
-</div></td>
-<td><p>meet.contoso.com</p></td>
+
+
+> [!NOTE]
+> <span data-ttu-id="4f5be-122">Toutes les URL simples de la réunion doivent figurer dans le nom de l’autre objet.</span><span class="sxs-lookup"><span data-stu-id="4f5be-122">All meeting simple URLs must be in the subject alternative name.</span></span> <span data-ttu-id="4f5be-123">Chaque domaine SIP doit avoir au moins une URL simple pour la réunion active.</span><span class="sxs-lookup"><span data-stu-id="4f5be-123">Each SIP domain must have at least one active meeting simple URL.</span></span>
+
+</td>
+<td><p><span data-ttu-id="4f5be-124">meet.contoso.com</span><span class="sxs-lookup"><span data-stu-id="4f5be-124">meet.contoso.com</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Autre nom du sujet</p></td>
-<td><p>URL simple Dial-in</p></td>
-<td><p>dialin.contoso.com</p></td>
+<td><p><span data-ttu-id="4f5be-125">Autre nom du sujet</span><span class="sxs-lookup"><span data-stu-id="4f5be-125">Subject alternative name</span></span></p></td>
+<td><p><span data-ttu-id="4f5be-126">URL simple Dial-in</span><span class="sxs-lookup"><span data-stu-id="4f5be-126">Dial-in simple URL</span></span></p></td>
+<td><p><span data-ttu-id="4f5be-127">dialin.contoso.com</span><span class="sxs-lookup"><span data-stu-id="4f5be-127">dialin.contoso.com</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Autre nom du sujet</p></td>
-<td><p>Office Web Apps Server</p></td>
-<td><p>officewebapps01.contoso.com</p></td>
+<td><p><span data-ttu-id="4f5be-128">Autre nom du sujet</span><span class="sxs-lookup"><span data-stu-id="4f5be-128">Subject alternative name</span></span></p></td>
+<td><p><span data-ttu-id="4f5be-129">Office Web Apps Server</span><span class="sxs-lookup"><span data-stu-id="4f5be-129">Office Web Apps Server</span></span></p></td>
+<td><p><span data-ttu-id="4f5be-130">officewebapps01.contoso.com</span><span class="sxs-lookup"><span data-stu-id="4f5be-130">officewebapps01.contoso.com</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Autre nom du sujet</p></td>
-<td><p>URL du service de découverte automatique externe</p></td>
-<td><p>lyncdiscover.contoso.com</p>
-<div>
+<td><p><span data-ttu-id="4f5be-131">Autre nom du sujet</span><span class="sxs-lookup"><span data-stu-id="4f5be-131">Subject alternative name</span></span></p></td>
+<td><p><span data-ttu-id="4f5be-132">URL du service de découverte automatique externe</span><span class="sxs-lookup"><span data-stu-id="4f5be-132">External Autodiscover Service URL</span></span></p></td>
+<td><p><span data-ttu-id="4f5be-133">lyncdiscover.contoso.com</span><span class="sxs-lookup"><span data-stu-id="4f5be-133">lyncdiscover.contoso.com</span></span></p>
 
-> [!NOTE]  
-> Si vous utilisez Microsoft Exchange Server, vous devrez également configurer les règles de proxy inverse pour les URL de découverte automatique Exchange et des services web.
-</div></td>
+
+
+> [!NOTE]
+> <span data-ttu-id="4f5be-134">Si vous utilisez également Microsoft Exchange Server, vous devez également configurer les règles de proxy inverse pour les URL de découverte automatique et de services Web Exchange.</span><span class="sxs-lookup"><span data-stu-id="4f5be-134">If you are also using Microsoft Exchange Server you will also need to configure reverse proxy rules for the Exchange autodiscover and web services URLs.</span></span>
+
+</td>
 </tr>
 </tbody>
 </table>
 
 
-> [!NOTE]  
-> Si votre déploiement interne se compose de plusieurs serveurs Standard Edition ou pools frontaux, vous devez configurer les règles de publication web pour chaque nom de domaine complet (FQDN) externe de la batterie de serveurs web. En outre, soit vous avez besoin d’un certificat et d’un port d’écoute web pour chacun, soit vous devez obtenir un certificat dont l’autre nom de sujet contient les noms utilisés par tous les pools, l’affecter à un port d’écoute web et le partager entre plusieurs règles de publication web.
+<div>
 
-## Créer une demande de certificat
 
-Une demande de certificat est créée sur le proxy inverse. Si vous créez une demande sur un autre ordinateur, vous devez tout de même exporter le certificat signé avec la clé privée, puis l’importer sur le proxy inverse une fois que vous l’avez reçu de l’autorité de certification publique.
+> [!NOTE]
+> <span data-ttu-id="4f5be-135">Si votre déploiement interne se compose de plus d’un serveur Standard Edition ou d’une liste frontale, vous devez configurer les règles de publication Web pour chaque nom de domaine complet de la batterie de serveurs Web externe, ou vous devez disposer d’un certificat et d’un écouteur Web pour chacun d’eux ou vous devez obtenir un certificat. dont le nom de remplacement de l’objet contient les noms utilisés par tous les pools, attribuez-le à un écouteur Web et partagez-le entre plusieurs règles de publication Web.</span><span class="sxs-lookup"><span data-stu-id="4f5be-135">If your internal deployment consists of more than one Standard Edition server or Front End pool, you must configure web publishing rules for each external web farm FQDN and you will either need a certificate and web listener for each, or you must obtain a certificate whose subject alternative name contains the names used by all of the pools, assign it to a web listener, and share it among multiple web publishing rules.</span></span>
 
-> [!NOTE]  
-> Une demande de certificat ou une demande de signature de certificat (CSR) est adressée à une autorité de certification publique approuvée afin de valider et signer la clé publique de l’ordinateur à l’origine de la demande. Lorsqu’un certificat est généré, une clé publique et une clé privée sont créées. Seule la clé publique est partagée et signée. Comme son nom l’indique, la clé publique est mise à disposition pour toute demande publique. La clé publique est destinée à l’usage des clients, serveurs et autres demandeurs devant échanger des informations de façon sécurisée et valider l’identité d’un ordinateur. La clé privée est conservée de façon sécurisée et utilisée uniquement par l’ordinateur ayant créé la paire de clés pour déchiffrer les messages chiffrés avec sa clé publique. La clé privée peut être utilisée à d’autres fins. Le chiffrement des données constitue la principale utilisation pour le proxy inverse. L’authentification du certificat au niveau de la clé de certificat constitue une autre utilisation. Celle-ci cherche à vérifier que le demandeur dispose de la clé publique de l’ordinateur ou que l’ordinateur pour lequel vous avez une clé publique est réellement l’ordinateur qu’il prétend être.
 
-> [!TIP]  
-> Si vous planifiez vos certificats de serveur Edge et de proxy inverse simultanément, vous remarquerez certainement qu’ils y a de grandes similitudes entre leurs exigences. Lorsque vous configurez et demandez votre certificat de serveur Edge, vous devez combiner les autres noms de sujet du serveur Edge et du proxy inverse. Vous pouvez utiliser le même certificat pour votre proxy inverse si vous exportez le certificat et la clé privée, copiez le fichier exporté vers le proxy inverse, importez la paire certificat/clé, puis affectez celle-ci de façon appropriée dans les procédures suivantes. Consultez les exigences de certificat de serveur Edge ( <a href="lync-server-2013-plan-for-edge-server-certificates.md">Planification des certificats de serveur Edge dans Lync Server 2013</a>) et de proxy inverse ( <a href="lync-server-2013-certificate-summary-reverse-proxy.md">Résumé des certificats - Proxy inverse dans Lync Server 2013</a>). Veillez à créer le certificat avec une clé privée exportable. La création du certificat et de la demande de certificat avec une clé de ce type est nécessaire pour les serveurs Edge regroupés, aussi s’agit-il d’une pratique normale. L’Assistant Certificat dans l?’Assistant Déploiement de Lync Server pour le serveur Edge vous permet d’ailleurs de définir l’indicateur <strong>Permettre l’exportation de la clé privée</strong> . Lorsque vous recevez la demande de certificat de l’autorité de certification publique, vous devez exporter le certificat et la clé privée. Pour plus d’informations sur la création et l’exportation de votre certificat avec une clé privée, reportez-vous à la section « Pour exporter le certificat avec la clé privée pour les serveurs Edge d’un pool » de la rubrique <a href="lync-server-2013-set-up-certificates-for-the-external-edge-interface.md">Configuration des certificats pour l’interface Edge externe pour Lync Server 2013</a>. L’extension du certificat doit être de type <strong>.pfx</strong>.
 
-Pour générer une demande de signature de certificat sur l’ordinateur sur lequel le certificat et la clé privée seront affectés, procédez comme suit :
+</div>
 
-**Création d’une demande de signature de certificat**
+<div>
 
-1.  Ouvrez la Microsoft Management Console (MMC), ajoutez le composant logiciel enfichable Certificats, sélectionnez **Ordinateurs** , puis développez **Personnel** . Pour plus d’informations sur la création de certificats dans la Microsoft Management Console (MMC), reportez-vous à [http://go.microsoft.com/fwlink/?LinkId=282616](http://go.microsoft.com/fwlink/?linkid=282616).
+## <a name="create-a-certificate-request"></a><span data-ttu-id="4f5be-136">Créer une demande de certificat</span><span class="sxs-lookup"><span data-stu-id="4f5be-136">Create a Certificate Request</span></span>
 
-2.  Cliquez avec le bouton droit sur **Certificats** , cliquez sur **Toutes les tâches** , **Opérations avancées** , puis sur **Créer une demande personnalisée** .
+<span data-ttu-id="4f5be-137">Vous créez une demande de certificat sur le proxy inverse.</span><span class="sxs-lookup"><span data-stu-id="4f5be-137">You create a certificate request on the reverse proxy.</span></span> <span data-ttu-id="4f5be-138">Vous créez une demande sur un autre ordinateur, mais vous devez exporter le certificat signé avec la clé privée et l’importer sur le proxy inverse une fois que vous l’avez reçu de l’autorité de certification publique.</span><span class="sxs-lookup"><span data-stu-id="4f5be-138">You create a request on another computer, but you must export the signed certificate with the private key and import it onto the reverse proxy once you have received it from the public certification authority.</span></span>
 
-3.  Dans la page **Inscription de certificats** , cliquez sur **Suivant** .
+<div>
 
-4.  Dans la page **Sélectionner la stratégie d’inscription de certificat** sous **Demande personnalisée** , sélectionnez **Continuer sans stratégie d’inscription** . Cliquez sur **Suivant** .
 
-5.  Dans la page **Demande personnalisée** , pour **Modèle** , sélectionnez **(Aucun modèle) Clé héritée** . Sauf instruction contraire de votre fournisseur de certificats, laissez l’option **Supprimer les extensions par défaut** désactivée et l’option **Format de la demande** définie sur **PKCS \#10** . Cliquez sur **Suivant** .
+> [!NOTE]
+> <span data-ttu-id="4f5be-139">Une demande de certificat ou une demande de signature de certificat (CSR) est une demande adressée à une autorité de certification publique de confiance (CA) pour valider et signer la clé publique de l’ordinateur à la demande.</span><span class="sxs-lookup"><span data-stu-id="4f5be-139">A certificate request or a certificate signing request (CSR) is a request to a trusted public certification authority (CA) to validate and sign the requesting computer’s public key.</span></span> <span data-ttu-id="4f5be-140">Une clé publique et une clé privée sont créées lors de la génération d’un certificat.</span><span class="sxs-lookup"><span data-stu-id="4f5be-140">When a certificate is generated, a public key and a private key are created.</span></span> <span data-ttu-id="4f5be-141">Seule la clé publique est partagée et signée.</span><span class="sxs-lookup"><span data-stu-id="4f5be-141">Only the public key is shared and signed.</span></span> <span data-ttu-id="4f5be-142">Comme son nom l’indique, la clé publique est mise à la disposition d’une requête publique.</span><span class="sxs-lookup"><span data-stu-id="4f5be-142">As the name implies, the public key is made available to any public request.</span></span> <span data-ttu-id="4f5be-143">La clé publique est utilisée par les clients, serveurs et autres demandeurs qui doivent échanger des informations en toute sécurité et valider l’identité d’un ordinateur.</span><span class="sxs-lookup"><span data-stu-id="4f5be-143">The public key is for use by clients, servers and other requesters that need to exchange information securely and validate a computer’s identity.</span></span> <span data-ttu-id="4f5be-144">La clé privée reste sécurisée et est utilisée uniquement par l’ordinateur qui a créé la paire de clés pour déchiffrer les messages chiffrés avec sa clé publique.</span><span class="sxs-lookup"><span data-stu-id="4f5be-144">The private key is kept secured and is used only by the computer that created the key pair to decrypt messages encrypted with its public key.</span></span> <span data-ttu-id="4f5be-145">La clé privée peut être utilisée à d’autres fins.</span><span class="sxs-lookup"><span data-stu-id="4f5be-145">The private key can be used for other purposes.</span></span> <span data-ttu-id="4f5be-146">Pour les fins de proxy inverse, le chiffrement des données est l’utilisation principale.</span><span class="sxs-lookup"><span data-stu-id="4f5be-146">For reverse proxy purposes, data encipherment is the primary use.</span></span> <span data-ttu-id="4f5be-147">Par le biais de l’authentification par certificat sur le niveau clé du certificat, l’authentification par certificat est une autre utilisation et est limitée uniquement à la validation qu’un demandeur possède la clé publique de l’ordinateur ou que l’ordinateur sur lequel vous avez une clé publique est réellement l’ordinateur qu’il prétend être.</span><span class="sxs-lookup"><span data-stu-id="4f5be-147">Secondarily, the certificate authentication at the certificate key level is another use, and is limited only to validation that a requester has the computer’s public key, or that the computer that you have a public key for is actually the computer that it claims to be.</span></span>
 
-6.  Dans la page **Informations sur le certificat** , cliquez sur **Détails** , puis sur **Propriétés** .
 
-7.  Dans la page **Propriétés du certificat** sous l’onglet **Général** dans le champ **Nom convivial** , tapez le nom du certificat. Vous pouvez éventuellement taper une description dans le champ **Description** . Le nom convivial et la description sont généralement utilisés par l’Administrateur pour identifier l’objet du certificat (par exemple, **Écouteur de proxy inverse pour Lync Server**).
 
-8.  Sélectionnez l’onglet **Sujet** . Sous **Nom du sujet** , pour **Type** , sélectionnez **Nom commun** . Pour **Valeur** , tapez le nom de sujet que vous utiliserez pour le proxy inverse, puis cliquez sur **Ajouter** . Dans l’exemple fourni dans le tableau de cette rubrique, le nom du sujet est webext.contoso.com et devrait être indiqué dans le champ Valeur du nom du sujet.
+</div>
 
-9.  Sous l’onglet **Sujet** , sous **Autre nom** , sélectionnez **DNS** dans la liste déroulante **Type** . Pour chaque autre nom du sujet défini dont vous avez besoin sur le certificat, tapez le nom de domaine complet, puis cliquez sur **Ajouter** . Par exemple, le tableau inclut trois autres noms du sujet (meet.contoso.com, dialin.contoso.com et lyncdiscover.contoso.com). Dans le champ **Valeur** , tapez meet.contoso.com, puis cliquez sur **Ajouter** . Répétez cette opération pour chaque autre nom du sujet que vous devez définir.
+<div>
 
-10. Dans la page **Propriétés du certificat** , cliquez sur l’onglet **Extensions** . Dans cette page, vous devez définir l’objet de la clé de chiffrement dans **Utilisation de la clé** et l’utilisation améliorée de la clé dans **Utilisation de clé étendue (stratégies d’application)** .
 
-11. Cliquez sur la flèche **Utilisation de la clé** pour afficher les **options disponibles** . Sous Options disponibles, cliquez sur **Signature numérique** , puis sur **Ajouter** . Cliquez sur **Chiffrement de la clé** , puis sur **Ajouter** . Si la case à cocher **Rendre ces utilisations de clés critiques** est désactivée, activez-la.
+> [!TIP]
+> <span data-ttu-id="4f5be-148">Si vous planifiez des certificats de serveur Edge et vos certificats de proxy inverse en même temps, vous remarquerez qu’il existe de nombreuses similitudes entre les deux exigences de certificat.</span><span class="sxs-lookup"><span data-stu-id="4f5be-148">If you plan your Edge Server certificates and your reverse proxy certificates at the same time, you should notice that there is a great deal of similarity between the two certificate requirements.</span></span> <span data-ttu-id="4f5be-149">Lorsque vous configurez et demandez votre certificat de serveur Edge, combinez le serveur Edge et les noms de remplacement de l’objet proxy inverse.</span><span class="sxs-lookup"><span data-stu-id="4f5be-149">When you configure and request your Edge Server certificate, combine the Edge Server and the reverse proxy subject alternative names.</span></span> <span data-ttu-id="4f5be-150">Vous pouvez utiliser le même certificat pour votre proxy inverse si vous exportez le certificat et la clé privée, puis copiez le fichier exporté sur le proxy inverse, puis importez le certificat/paire de clés et attribuez-le selon les besoins dans les prochaines procédures.</span><span class="sxs-lookup"><span data-stu-id="4f5be-150">You can use the same certificate for your reverse proxy if you export the certificate and the private key and copy the exported file to the reverse proxy and then import the certificate/key pair and assign it as needed in the upcoming procedures.</span></span> <span data-ttu-id="4f5be-151">Consultez la configuration requise pour les certificats pour le&nbsp;<A href="lync-server-2013-plan-for-edge-server-certificates.md">plan de serveur Edge pour les certificats de serveur de périmètre dans Lync Server 2013</A> et la synthèse des certificats de proxy inverse <A href="lync-server-2013-certificate-summary-reverse-proxy.md">-proxy sur Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="4f5be-151">Refer to the certificate requirements for the Edge Server&nbsp;<A href="lync-server-2013-plan-for-edge-server-certificates.md">Plan for Edge Server certificates in Lync Server 2013</A> and the reverse proxy <A href="lync-server-2013-certificate-summary-reverse-proxy.md">Certificate summary - Reverse proxy in Lync Server 2013</A>.</span></span> <span data-ttu-id="4f5be-152">Veillez à créer le certificat à l’aide d’une clé privée exportable.</span><span class="sxs-lookup"><span data-stu-id="4f5be-152">Make sure that you create the certificate with an exportable private key.</span></span> <span data-ttu-id="4f5be-153">La création du certificat et de la demande de certificat à l’aide d’une clé privée exportable est requise pour les serveurs Edge en pool, donc il s’agit d’une pratique normale et l’Assistant certificat dans l’Assistant Déploiement de Lync Server pour le serveur Edge vous permet de définir le mode de création <STRONG> indicateur d’exportation de clé privée</STRONG> .</span><span class="sxs-lookup"><span data-stu-id="4f5be-153">Creating the certificate and certificate request with an exportable private key is required for pooled Edge Servers, so this is a normal practice and the Certificate Wizard in the Lync Server Deployment Wizard for the Edge Server will allow you to set the <STRONG>Make private key exportable</STRONG> flag.</span></span> <span data-ttu-id="4f5be-154">Lorsque vous recevez à nouveau la demande de certificat de l’autorité de certification publique, vous exportez le certificat et la clé privée.</span><span class="sxs-lookup"><span data-stu-id="4f5be-154">Once you receive the certificate request back from the public certification authority, you will export the certificate and the private key.</span></span> <span data-ttu-id="4f5be-155">Pour plus d’informations sur la façon de créer et exporter votre certificat à l’aide d’une clé privée, voir la section «pour exporter le certificat avec la clé privée pour <A href="lync-server-2013-set-up-certificates-for-the-external-edge-interface.md">2013 les</A> serveurs Edge dans un pool».</span><span class="sxs-lookup"><span data-stu-id="4f5be-155">See the section “To export the certificate with the private key for Edge Servers in a pool” in the topic <A href="lync-server-2013-set-up-certificates-for-the-external-edge-interface.md">Set up certificates for the external edge interface for Lync Server 2013</A> for details on how to create and export your certificate with a private key.</span></span> <span data-ttu-id="4f5be-156">L’extension du certificat doit être de type <STRONG>. pfx</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="4f5be-156">The extension of the certificate should be of type <STRONG>.pfx</STRONG>.</span></span>
 
-12. Cliquez sur la flèche **Utilisation de clé étendue (stratégies d’application)** pour afficher les **options disponibles** . Sous Options disponibles, cliquez sur **Authentification du serveur** , puis sur **Ajouter** . Cliquez sur **Authentification du client** , puis sur **Ajouter** . Si la case à cocher **Rendre l’utilisation de la clé étendue critique** est activée, désactivez-la. Contrairement à la case à cocher Utilisation de la clé (qui doit être activée), vous devez vérifier que la case à cocher Utilisation améliorée de la clé est désactivée.
 
-13. Dans la page **Propriétés du certificat** , cliquez sur l’onglet **Clé privée** . Cliquez sur la flèche **Options de clé** . Pour **Taille de la clé** , sélectionnez **2048** dans le menu déroulant. Si vous générez la paire de clés et la demande de signature de certificat sur un ordinateur autre que le proxy inverse auquel ce certificat est destiné, sélectionnez **Permettre l’exportation de la clé privée** .
+
+</div>
+
+<span data-ttu-id="4f5be-157">Pour générer une demande de signature de certificat sur l’ordinateur où le certificat et la clé privée seront attribués, procédez comme suit:</span><span class="sxs-lookup"><span data-stu-id="4f5be-157">To generate a certificate signing request on the computer where the certificate and private key will be assigned, you do the following:</span></span>
+
+<span data-ttu-id="4f5be-158">**Création d’une demande de signature de certificat**</span><span class="sxs-lookup"><span data-stu-id="4f5be-158">**Creating a certificate signing request**</span></span>
+
+1.  <span data-ttu-id="4f5be-159">Ouvrez Microsoft Management Console (MMC), ajoutez le composant logiciel enfichable Certificats et sélectionnez **ordinateurs**, puis développez **personnel**.</span><span class="sxs-lookup"><span data-stu-id="4f5be-159">Open the Microsoft Management Console (MMC) and add the Certificates snap-in and select **Computers**, then expand **Personal**.</span></span> <span data-ttu-id="4f5be-160">Pour plus d’informations sur la création d’une console de certificats dans Microsoft Management Console (MMC) [http://go.microsoft.com/fwlink/?LinkId=282616](http://go.microsoft.com/fwlink/?linkid=282616), voir.</span><span class="sxs-lookup"><span data-stu-id="4f5be-160">For details on how to create a certificates console in the Microsoft Management Console (MMC), see [http://go.microsoft.com/fwlink/?LinkId=282616](http://go.microsoft.com/fwlink/?linkid=282616).</span></span>
+
+2.  <span data-ttu-id="4f5be-161">Cliquez avec le bouton droit sur **certificats**, cliquez sur **toutes les tâches**, cliquez sur **opérations avancées**, cliquez sur **créer une requête personnalisée**.</span><span class="sxs-lookup"><span data-stu-id="4f5be-161">Right-click **Certificates**, click **All Tasks**, click **Advanced Operations**, click **Create Custom Request**.</span></span>
+
+3.  <span data-ttu-id="4f5be-162">Dans la page **inscription du certificat** , cliquez sur **suivant**.</span><span class="sxs-lookup"><span data-stu-id="4f5be-162">On the **Certificate Enrollment** page, click **Next**.</span></span>
+
+4.  <span data-ttu-id="4f5be-163">Dans la page **Sélectionner une stratégie d’inscription de certificat** sous **demande personnalisée**, sélectionnez **continuer sans stratégie d’inscription**.</span><span class="sxs-lookup"><span data-stu-id="4f5be-163">On the **Select Certificate Enrollment Policy** page under **Custom Request**, select **Proceed without enrollment policy**.</span></span> <span data-ttu-id="4f5be-164">Cliquez sur **Suivant**.</span><span class="sxs-lookup"><span data-stu-id="4f5be-164">Click **Next**.</span></span>
+
+5.  <span data-ttu-id="4f5be-165">Dans la page de **demande personnalisée** , pour le **modèle** , sélectionnez **(sans modèle) clé héritée**.</span><span class="sxs-lookup"><span data-stu-id="4f5be-165">On the **Custom Request** page, for **Template** select **(No template) Legacy key**.</span></span> <span data-ttu-id="4f5be-166">Si ce n’est pas le cas, laissez la case à cocher **Supprimer les extensions par défaut** activée et sélectionnez format de la **requête** dans \*\* \#PKCS 10\*\*.</span><span class="sxs-lookup"><span data-stu-id="4f5be-166">Unless otherwise directed by your certificate provider, leave **Suppress default extensions** unchecked and the **Request format** selection on **PKCS \#10**.</span></span> <span data-ttu-id="4f5be-167">Cliquez sur **Suivant**.</span><span class="sxs-lookup"><span data-stu-id="4f5be-167">Click **Next**.</span></span>
+
+6.  <span data-ttu-id="4f5be-168">Dans la page informations sur le **certificat** , cliquez sur **Détails**, puis cliquez sur **Propriétés**.</span><span class="sxs-lookup"><span data-stu-id="4f5be-168">On the **Certificate Information** page, click **Details**, then click **Properties**.</span></span>
+
+7.  <span data-ttu-id="4f5be-169">Dans la page **Propriétés du certificat** sous l’onglet **général** , dans le champ **nom convivial** , tapez le nom de ce certificat.</span><span class="sxs-lookup"><span data-stu-id="4f5be-169">On the **Certificate Properties** page on the **General** tab in the **Friendly Name** field, type a name for this certificate.</span></span> <span data-ttu-id="4f5be-170">Vous pouvez également taper une description dans le champ **Description** .</span><span class="sxs-lookup"><span data-stu-id="4f5be-170">Optionally, type a description in the **Description** field.</span></span> <span data-ttu-id="4f5be-171">Le nom convivial et la description sont généralement utilisés par l’administrateur pour identifier l’objet du certificat, par exemple l' **écouteur de proxy inverse de Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="4f5be-171">The Friendly Name and description are typically used by the Administrator to identify what the certificate purpose is, such as **Reverse Proxy Listener for Lync Server**.</span></span>
+
+8.  <span data-ttu-id="4f5be-172">Sélectionnez l’onglet **objet** . Sous **nom du sujet** du **type**, sélectionnez **nom usuel** pour le type de nom de sujet.</span><span class="sxs-lookup"><span data-stu-id="4f5be-172">Select the **Subject** tab. Under **Subject name** for the **Type**, select **Common name** for the Subject name type.</span></span> <span data-ttu-id="4f5be-173">Pour la **valeur**, tapez le nom du sujet que vous allez utiliser pour le proxy inverse, puis cliquez sur **Ajouter**.</span><span class="sxs-lookup"><span data-stu-id="4f5be-173">For the **Value**, type the subject name that you will use for the reverse proxy, and then click **Add**.</span></span> <span data-ttu-id="4f5be-174">Dans l’exemple fourni dans le tableau figurant dans cette rubrique, le nom du sujet est webext.contoso.com et sera tapé dans le champ Value du nom du sujet.</span><span class="sxs-lookup"><span data-stu-id="4f5be-174">In the example provided in the table in this topic, the subject name is webext.contoso.com and would be typed into the Value field for the Subject name.</span></span>
+
+9.  <span data-ttu-id="4f5be-175">Dans l’onglet **objet** sous **nom alternatif**, sélectionnez **DNS** dans la liste déroulante pour **type**.</span><span class="sxs-lookup"><span data-stu-id="4f5be-175">On the **Subject** tab under **Alternative name**, select **DNS** from the drop down for **Type**.</span></span> <span data-ttu-id="4f5be-176">Pour chaque nom de remplacement défini d’objet requis sur le certificat, tapez le nom de domaine complet, puis cliquez sur **Ajouter**.</span><span class="sxs-lookup"><span data-stu-id="4f5be-176">For each defined subject alternative name that you require on the certificate, type the fully qualified domain name, then click **Add**.</span></span> <span data-ttu-id="4f5be-177">Par exemple, dans le tableau figure trois autres noms d’objet, meet.contoso.com, dialin.contoso.com et lyncdiscover.contoso.com.</span><span class="sxs-lookup"><span data-stu-id="4f5be-177">For example, in the table there are three subject alternative names, meet.contoso.com, dialin.contoso.com, and lyncdiscover.contoso.com.</span></span> <span data-ttu-id="4f5be-178">Dans le champ **valeur** , tapez Meet.contoso.com, puis cliquez sur **Ajouter**.</span><span class="sxs-lookup"><span data-stu-id="4f5be-178">In the **Value** field, type meet.contoso.com, then click **Add**.</span></span> <span data-ttu-id="4f5be-179">Répétez l’opération pour chaque nom alternatif que vous devez définir.</span><span class="sxs-lookup"><span data-stu-id="4f5be-179">Repeat for each subject alternative names that you need to define.</span></span>
+
+10. <span data-ttu-id="4f5be-180">Dans la page **Propriétés du certificat** , cliquez sur l’onglet **Extensions** . Dans cette page, vous allez définir les rôles de clé de \*\*\*\* chiffrement lors de l’utilisation de la clé et de l’utilisation de la clé étendue dans l’utilisation de la **clé étendue (stratégies d’application)**.</span><span class="sxs-lookup"><span data-stu-id="4f5be-180">On the **Certificate Properties** page, click the **Extensions** tab. On this page, you will define the cryptographic key purposes in **Key usage** and the extended key usage in **Extended Key Usage (application policies)**.</span></span>
+
+11. <span data-ttu-id="4f5be-181">Cliquez sur la flèche **utilisation des touches** pour afficher les **options disponibles**.</span><span class="sxs-lookup"><span data-stu-id="4f5be-181">Click the **Key usage** arrow to show the **Available options**.</span></span> <span data-ttu-id="4f5be-182">Sous options disponibles, cliquez sur **signature numérique**, puis cliquez sur **Ajouter**.</span><span class="sxs-lookup"><span data-stu-id="4f5be-182">Under Available options, click **Digital signature**, then click **Add**.</span></span> <span data-ttu-id="4f5be-183">Cliquez sur **chiffrage de clés**, puis cliquez sur **Ajouter**.</span><span class="sxs-lookup"><span data-stu-id="4f5be-183">Click **Key encipherment**, then click **Add**.</span></span> <span data-ttu-id="4f5be-184">Si les cases à cocher **rendre ces utilisations** de la clé sont essentielles ne sont pas activées, activez la case à cocher.</span><span class="sxs-lookup"><span data-stu-id="4f5be-184">If the checkbox for **Make these key usages critical** is unchecked, select the checkbox.</span></span>
+
+12. <span data-ttu-id="4f5be-185">Cliquez sur la flèche utilisation de la **touche étendue (stratégies d’application)** pour afficher les **options disponibles**.</span><span class="sxs-lookup"><span data-stu-id="4f5be-185">Click the **Extended Key Usage (application policies)** arrow to show the **Available options**.</span></span> <span data-ttu-id="4f5be-186">Sous options disponibles, cliquez sur **authentification du serveur**, puis cliquez sur **Ajouter**.</span><span class="sxs-lookup"><span data-stu-id="4f5be-186">Under Available options, click **Server Authentication**, then click **Add**.</span></span> <span data-ttu-id="4f5be-187">Cliquez sur **authentification du client**, puis cliquez sur **Ajouter**.</span><span class="sxs-lookup"><span data-stu-id="4f5be-187">Click **Client Authentication**, then click **Add**.</span></span> <span data-ttu-id="4f5be-188">Si vous activez la case à cocher **activer l’utilisation des touches étendues** , décochez la case.</span><span class="sxs-lookup"><span data-stu-id="4f5be-188">If the check box for **Make the Extended Key Usages critical** is checked, unselect the checkbox.</span></span> <span data-ttu-id="4f5be-189">Contrairement à la case à cocher utilisation de la clé (qui doit être activée), vous devez vous assurer que la case à cocher utilisation de la clé étendue n’est pas activée.</span><span class="sxs-lookup"><span data-stu-id="4f5be-189">Contrary to the Key usage checkbox (which must be checked) you must be sure that the Extended Key Usage checkbox is not checked.</span></span>
+
+13. <span data-ttu-id="4f5be-190">Dans la page **Propriétés du certificat** , cliquez sur la flèche en regard de \*\*\*\* l’onglet **clé privée** .</span><span class="sxs-lookup"><span data-stu-id="4f5be-190">On the **Certificate Properties** page, click the **Private Key** tab. Click the **Key options** arrow.</span></span> <span data-ttu-id="4f5be-191">Pour la taille de la **clé**, sélectionnez **2048** dans la liste déroulante.</span><span class="sxs-lookup"><span data-stu-id="4f5be-191">For **Key size**, select **2048** from the drop down.</span></span> <span data-ttu-id="4f5be-192">Si vous générez cette paire de clés et votre CSR sur un ordinateur autre que le proxy inverse auquel ce certificat est destiné, sélectionnez **rendre la clé privée**exportable.</span><span class="sxs-lookup"><span data-stu-id="4f5be-192">If you are generating this key pair and CSR on a computer other than the reverse proxy that this certificate is intended for, select **Make private key exportable**.</span></span>
     
-    > [!security]  
-    > Il est généralement recommandé de sélectionner <strong>Permettre l’exportation de la clé privée</strong> si vous avez plusieurs proxys inverses dans une batterie, car vous devez copier le certificat et la clé privée sur chaque ordinateur de la batterie. Si vous permettez l’exportation de la clé privée, vous devez être prudent avec le certificat et l’ordinateur sur lequel il est généré. Si elle est compromise, la clé privée rendra le certificat inutilisable et exposera potentiellement le ou les ordinateurs aux accès externes et autres failles de sécurité.
-
-14. Sous l’onglet **Clé privée** , cliquez sur la flèche **Type de clé** . Sélectionnez l’option **Exchange** .
-
-15. Cliquez sur **OK** pour enregistrer les **propriétés de certificat** que vous avez définies.
-
-16. Dans la page **Inscription de certificats** , cliquez sur **Suivant** .
-
-17. Dans la page **Où voulez-vous enregistrer la demande hors connexion ?** , vous êtes invité à indiquer un **nom de fichier** et un **format de fichier** pour enregistrer la demande de signature de certificat.
-
-18. Dans le champ **Nom du fichier** , tapez un chemin d’accès et un nom de fichier pour la demande, ou cliquez sur **Parcourir** pour sélectionner un emplacement pour le fichier et tapez le nom de fichier de la demande.
-
-19. Pour **Format de fichier** , cliquez sur **Base 64** ou **Binaire** . Sélectionnez **Base 64** , sauf indication contraire du fournisseur de vos certificats.
-
-20. Recherchez le fichier de demande que vous avez enregistré lors de l’étape précédente. Envoyez-le à votre autorité de certification publique.
+    <div>
     
-    > [!IMPORTANT]  
-    > Microsoft a dressé la liste des autorités de certification publiques qui respectent les impératifs liés aux communications unifiées. Celle-ci est accessible dans l’article suivant de la Base de connaissances : <a href="http://go.microsoft.com/fwlink/?linkid=282625">http://go.microsoft.com/fwlink/?LinkId=282625</a>.
+    <table>
+    <thead>
+    <tr class="header">
+    <th><img src="images/Gg398321.security(OCS.15).gif" title="sûreté" alt="security" /><span data-ttu-id="4f5be-194">Note de sécurité:</span><span class="sxs-lookup"><span data-stu-id="4f5be-194">Security Note:</span></span></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td><span data-ttu-id="4f5be-195">Il est généralement conseillé de sélectionner l’option <strong>rendre une clé privée</strong> exportée lorsque vous avez plusieurs proxys inversés dans une batterie de serveurs, car vous copiez le certificat et la clé privée vers chaque ordinateur dans la batterie de serveurs.</span><span class="sxs-lookup"><span data-stu-id="4f5be-195">Selecting <strong>Make a private key exportable</strong> is generally advised when you have more than one reverse proxy in a farm because you will copy the certificate and the private key to each machine in the farm.</span></span> <span data-ttu-id="4f5be-196">Si vous autorisez une clé privée exportable, vous devez veiller à ce que le certificat et l’ordinateur sur lesquels il est généré.</span><span class="sxs-lookup"><span data-stu-id="4f5be-196">If you do allow for an exportable private key, you must take extra care with the certificate and the computer that it is generated on.</span></span> <span data-ttu-id="4f5be-197">La clé privée, si celle-ci est compromise, génère le certificat de manière inutilisable et risque d’exposer le ou les ordinateurs à des failles de sécurité.</span><span class="sxs-lookup"><span data-stu-id="4f5be-197">The private key, if compromised, will render the certificate useless as well as potentially expose the computer or computers to external access and other security vulnerabilities.</span></span></td>
+    </tr>
+    </tbody>
+    </table>
+    
+    </div>
+
+14. <span data-ttu-id="4f5be-198">Dans l’onglet **clé privée** , cliquez sur la flèche **type de clé** .</span><span class="sxs-lookup"><span data-stu-id="4f5be-198">On the **Private Key** tab, click the **Key type** arrow.</span></span> <span data-ttu-id="4f5be-199">Sélectionnez l’option **Exchange** .</span><span class="sxs-lookup"><span data-stu-id="4f5be-199">Select the **Exchange** option.</span></span>
+
+15. <span data-ttu-id="4f5be-200">Cliquez sur **OK** pour enregistrer les **Propriétés de certificat** que vous avez définies.</span><span class="sxs-lookup"><span data-stu-id="4f5be-200">Click **OK** to save the **Certificate Properties** that you have set.</span></span>
+
+16. <span data-ttu-id="4f5be-201">Dans la page **inscription du certificat** , cliquez sur **suivant**.</span><span class="sxs-lookup"><span data-stu-id="4f5be-201">On the **Certificate Enrollment** page, click **Next**.</span></span>
+
+17. <span data-ttu-id="4f5be-202">Sur la page **où voulez-vous enregistrer la demande hors connexion?** , vous êtes invité à entrer un **nom de fichier** et un **format de fichier** pour enregistrer la demande de signature de certificat.</span><span class="sxs-lookup"><span data-stu-id="4f5be-202">On the **Where do you want to save the offline request?** page, you are prompted for a **File Name** and a **File Format** for saving the certificate signing request.</span></span>
+
+18. <span data-ttu-id="4f5be-203">Dans le champ de saisie du **nom de fichier** , tapez le chemin d’accès et le nom de fichier de la demande, ou cliquez sur **Parcourir** pour sélectionner un emplacement pour le fichier, puis tapez le nom de fichier de la requête.</span><span class="sxs-lookup"><span data-stu-id="4f5be-203">In the **File Name** entry field, type a path and filename for the request, or click **Browse** to select a location for the file and type the filename for the request.</span></span>
+
+19. <span data-ttu-id="4f5be-204">Pour le **format de fichier**, cliquez sur **base 64** ou **binaire**.</span><span class="sxs-lookup"><span data-stu-id="4f5be-204">For **File format**, click either **Base 64** or **Binary**.</span></span> <span data-ttu-id="4f5be-205">Sélectionnez **Base 64** , à moins que vous ne soyez invité par le fournisseur pour vos certificats.</span><span class="sxs-lookup"><span data-stu-id="4f5be-205">Select **Base 64** unless you are instructed otherwise by the vendor for your certificates.</span></span>
+
+20. <span data-ttu-id="4f5be-206">Recherchez le fichier de demande que vous avez enregistré à l’étape précédente.</span><span class="sxs-lookup"><span data-stu-id="4f5be-206">Locate the request file that you saved in the previous step.</span></span> <span data-ttu-id="4f5be-207">Envoyez-la à votre autorité de certification publique.</span><span class="sxs-lookup"><span data-stu-id="4f5be-207">Submit to your public certification authority.</span></span>
+    
+    <div>
+    
+
+    > [!IMPORTANT]
+    > <span data-ttu-id="4f5be-208">Microsoft a identifié les autorités de certification publiques qui répondent à vos besoins en matière de communications unifiées.</span><span class="sxs-lookup"><span data-stu-id="4f5be-208">Microsoft has identified Public CAs that meets the requirements for Unified Communications purposes.</span></span> <span data-ttu-id="4f5be-209">Une liste est conservée dans l’article de la base de connaissances suivant.</span><span class="sxs-lookup"><span data-stu-id="4f5be-209">A list is maintained in the following knowledge base article.</span></span> <A href="http://go.microsoft.com/fwlink/?linkid=282625">http://go.microsoft.com/fwlink/?LinkId=282625</A>
+
+    
+    </div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+
