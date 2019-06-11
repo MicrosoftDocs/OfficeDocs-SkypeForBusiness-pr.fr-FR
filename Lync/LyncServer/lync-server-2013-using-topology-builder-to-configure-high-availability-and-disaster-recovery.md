@@ -1,35 +1,65 @@
-﻿---
-title: "Lync Server 2013 : Ut. gén. de topo. pour conf. haute dispo. et la réc. d’urg."
-TOCTitle: Utilisation du générateur de topologie pour configurer la haute disponibilité et la récupération d’urgence
-ms:assetid: abc1a25d-1f5e-46ef-91d2-0144fc847206
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ205172(v=OCS.15)
-ms:contentKeyID: 49298523
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Utilisation du générateur de topologie pour configurer la haute disponibilité et la récupération d’urgence
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Using Topology Builder to configure high availability and disaster recovery
+ms:assetid: abc1a25d-1f5e-46ef-91d2-0144fc847206
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205172(v=OCS.15)
+ms:contentKeyID: 48185113
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b167ea64f42510febe0f405d15e2eafab7efc2bd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846357"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Utilisation du générateur de topologie pour configurer la haute disponibilité et la récupération d’urgence dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-10-06_
+# <a name="using-topology-builder-to-configure-high-availability-and-disaster-recovery-in-lync-server-2013"></a>Utilisation du générateur de topologie pour configurer la haute disponibilité et la récupération d’urgence dans Lync Server 2013
 
-Effectuez les étapes suivantes dans le Générateur de topologie pour configurer la haute disponibilité et la récupération d’urgence pour le serveur de conversations permanentes.
+</div>
 
-1.  Ajoutez les bases de données miroir et les magasins SQL Server de bases de données secondaires pour l’envoi de journaux.
+<div id="mainSection">
 
-2.  Modifiez les propriétés du service de serveur de conversations permanentes pour :
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-10-06_
+
+Dans le générateur de topologie, effectuez les étapes suivantes pour configurer une haute disponibilité et une reprise après sinistre pour le serveur de chat permanent.
+
+1.  Ajoutez les bases de données miroir et les magasins de données secondaires SQL Server.
+
+2.  Modifiez les propriétés du service de chat permanent serveur pour:
     
     1.  activer la mise en miroir pour la base de données primaire ;
     
-    2.  ajouter le magasin SQL Server miroir principal ;
+    2.  Ajoutez le magasin SQL Server en miroir principal.
     
-    3.  activer la base de données pour l’envoi de journaux SQL Server ;
+    3.  Activez la base de données d’envoi de journaux de SQL Server.
     
-    4.  ajouter le magasin SQL Server secondaire pour l’envoi de journaux SQL Server ;
+    4.  Ajoutez la banque SQL Server secondaire pour l’envoi du journal SQL Server.
     
-    5.  ajouter le miroir du magasin SQL Server pour la base de données secondaire ;
+    5.  Ajoutez le miroir SQL Server Store pour la base de données secondaire.
     
     6.  Publiez la topologie.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,46 +1,90 @@
-﻿---
-title: 'Lync Server 2013 : Test du serveur Standard Edition'
-TOCTitle: Test du serveur Standard Edition
-ms:assetid: b6ef67bb-9665-43e4-b8b3-eac8898eebf6
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg412890(v=OCS.15)
-ms:contentKeyID: 49298622
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Test du serveur Standard Edition'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Test the Standard Edition server
+ms:assetid: b6ef67bb-9665-43e4-b8b3-eac8898eebf6
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412890(v=OCS.15)
+ms:contentKeyID: 48185220
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a960451ebdd1e6e8728bf3b6c7df6e267c49c3f8
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846601"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Test du serveur Standard Edition dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-10-01_
+# <a name="test-the-standard-edition-server-in-lync-server-2013"></a>Test du serveur Standard Edition dans Lync Server 2013
 
-La procédure suivante explique comment tester le déploiement d’un serveur Standard Edition.
+</div>
 
-## Pour tester le déploiement d’un serveur Standard Edition
+<div id="mainSection">
 
-1.  Utilisez des ordinateurs et des utilisateurs Active Directory pour ajouter l’objet utilisateur Active Directory du rôle d’administrateur pour le déploiement Lync Server 2013 (sur lequel le Panneau de configuration Lync Server est installé) au groupe **CSAdministrator**.
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-10-01_
+
+La procédure suivante vous explique comment tester le déploiement d’un serveur Standard Edition Server.
+
+<div>
+
+## <a name="to-test-the-deployment-of-a-standard-edition-server"></a>Pour tester le déploiement d’un serveur Standard Edition Server
+
+1.  Utilisez les ordinateurs et les utilisateurs Active Directory pour ajouter l’objet utilisateur Active Directory du rôle d’administrateur pour le déploiement de Lync Server 2013 (sur lequel est installé le panneau de configuration Lync Server) vers le groupe **CSAdministrator** .
 
 2.  Si l’objet utilisateur est actuellement connecté, fermez, puis rouvrez la session pour inscrire la nouvelle affectation de groupe.
     
+    <div>
+    
+
     > [!NOTE]  
-    > Le compte d’utilisateur ne peut pas être l’administrateur local du serveur exécutant Lync Server 2013 Standard Edition. Si vous n’ajoutez pas les utilisateurs et les groupes appropriés au groupe CSAdministrator, vous recevez une erreur lors de l’ouverture du Panneau de configuration Lync Server 2013, indiquant « Non autorisé : accès refusé en raison de l’échec de l’autorisation RBAC (contrôle d’accès basé sur un rôle) ».
+    > Le compte d’utilisateur ne peut pas être l’administrateur local du serveur exécutant Lync Server 2013 Standard Edition. Si vous n’ajoutez pas les utilisateurs et les groupes appropriés au groupe CsAdministors, vous recevez un message d’erreur lors de l’ouverture du panneau de configuration de Lync Server 2013, qui indique que l’accès non autorisé est refusé en raison d’un échec d’autorisation de contrôle d’accès basé sur un rôle (RBAC).»
 
-3.  Utilisez le compte administratif pour vous connecter à l’ordinateur sur lequel le Panneau de configuration Lync Server est installé.
+    
+    </div>
 
-4.  Démarrez le Panneau de configuration Lync Server et fournissez les informations d’authentification, si vous y êtes invité. Le Panneau de configuration Lync Server 2013 affiche les informations sur le déploiement.
+3.  Utilisez le compte administratif pour vous connecter à l’ordinateur sur lequel le panneau de configuration de Lync Server est installé.
 
-5.  Dans la barre de navigation de gauche, cliquez sur **Topologie**, puis confirmez que le statut du service est une icône d’ordinateur avec une flèche verte et qu’une coche verte figure en regard de chaque rôle de serveur Lync Server déployé et mis en ligne.
+4.  Démarrez le panneau de configuration de Lync Server et fournissez les informations d’identification, le cas échéant. Le panneau de configuration de Lync Server 2013 affiche des informations de déploiement.
 
-6.  Dans la barre de navigation de gauche, cliquez sur **Utilisateurs**, puis activez les deux utilisateurs pour Lync Server 2013.
+5.  Dans la barre de navigation de gauche, cliquez sur **Topology**, puis vérifiez que l’état du service est une icône d’ordinateur avec une flèche verte et qu’une coche verte apparaît à côté de chaque rôle serveur Lync Server déployé et remis en ligne.
 
-7.  Connectez un utilisateur sur un ordinateur lié au domaine et l’autre utilisateur sur un autre ordinateur du domaine.
+6.  Dans la barre de navigation de gauche, cliquez sur **utilisateurs**, puis activez les deux utilisateurs pour Lync Server 2013.
 
-8.  Installez Lync Server 2013 sur chacun des deux ordinateurs clients, puis vérifiez que les deux utilisateurs peuvent ouvrir une session sur Lync Server 2013 et peuvent s’envoyer des messages instantanés entre eux.
+7.  Connectez un utilisateur à un ordinateur joint au domaine et à l’autre utilisateur sur un autre ordinateur du domaine.
 
-## Voir aussi
+8.  Installez Lync Server 2013 sur chacun des deux ordinateurs client, puis vérifiez que les deux utilisateurs peuvent se connecter à Lync Server 2013 et pouvoir vous envoyer des messages instantanés.
 
-#### Concepts
+</div>
 
-[Déploiement des clients et appareils dans Lync Server 2013](lync-server-2013-deploying-clients-and-devices.md)
+<div>
+
+## <a name="see-also"></a>Voir aussi
+
+
+[Déploiement de clients et d’appareils dans Lync Server 2013](lync-server-2013-deploying-clients-and-devices.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

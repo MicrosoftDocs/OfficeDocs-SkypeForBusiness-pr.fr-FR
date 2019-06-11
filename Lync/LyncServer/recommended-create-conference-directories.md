@@ -1,43 +1,80 @@
-﻿---
-title: (Recommandé) Création d’annuaires de conférences
-TOCTitle: (Recommandé) Création d’annuaires de conférences
-ms:assetid: 787f4c94-1c96-468a-a74d-e06b7bd4b8a3
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Dn832056(v=OCS.15)
-ms:contentKeyID: 63232645
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: (Recommandé) Création d’annuaires de conférences
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: (Recommended) Create Conference Directories
+ms:assetid: 787f4c94-1c96-468a-a74d-e06b7bd4b8a3
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn832056(v=OCS.15)
+ms:contentKeyID: 63146389
+ms.date: 10/03/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e912beac1eeffe3214f8a8d638926d84f547a270
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846069"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# (Recommandé) Création d’annuaires de conférences
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2014-10-03_
+# <a name="recommended-create-conference-directories"></a>(Recommandé) Création d’annuaires de conférences
 
-Les annuaires des conférences gèrent la mise en correspondance de l’ID alphanumérique de la réunion qu’un participant utilise pour accéder à la conférence lorsqu’il exécute Lync 2013 et l’ID de conférence composé exclusivement de chiffres qu’un participant utilise pour accéder à une conférence rendez-vous. Le format de l’ID de conférence est le suivant :
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2014-10-03_
+
+Les annuaires de conférences maintiennent un mappage entre l’ID de réunion alphanumérique qu’un participant utilise pour participer à une conférence lors de l’utilisation de la 2013 Lync et l’ID de conférence numérique uniquement qu’un participant à la Conférence rendez-vous utilise pour rejoindre la Conférence. Le format de l’ID de conférence est le suivant :
 
     <housekeeping digit (1 digit)><conference directory (usually 1-2 digits)><conference number (variable number of digits><check digit (1 digit)>
 
-La création de plusieurs annuaires des conférences permet de s’assurer que les ID de conférences restent courts jusqu’à ce qu’une quantité importante de conférences ait été créée. Dans une organisation avec un nombre type de conférences par utilisateur, nous vous conseillons de créer un annuaire des conférences ne dépassant pas 999 utilisateurs dans le pool. Le respect de cette consigne permet en général de limiter la longueur des ID de conférences. Cependant, lorsque le nombre d’annuaires de conférences (tous pools confondus) dépasse 9, la longueur de l'ID de conférence augmente pour permettre la prise en charge de conférences supplémentaires.
+La création de différents annuaires des conférences permet de s’assurer que les ID de conférences restent courts jusqu’à ce qu’une quantité importante de conférences ait été créée. Dans une organisation avec un nombre type de conférences par utilisateur, il est recommandé de créer un annuaire des conférences ne dépassant pas 999 utilisateurs dans le pool. Dans cette règle, les ID de conférence peuvent généralement être conservés de petite taille. Toutefois, dès que le nombre d’annuaires de conférences (pour les pools) dépasse 9, la longueur de l’ID de conférence augmente pour prendre en charge d’autres conférences.
 
-## Création d’un annuaire de conférences
+<div>
 
-1.  Dans Lync Server Management Shell, entrez l’applet de commande suivante :
+## <a name="creating-a-conference-directory"></a>Création d’un annuaire de conférences
+
+1.  Dans Lync Server Management Shell, tapez l’applet de commande suivante:
     
         New-CsConferenceDirectory -Identity <XdsGlobalRelativeIdentity> -HomePool <String> [-Confirm [<SwitchParameter>]] [-Force <SwitchParameter>] [-WhatIf [<SwitchParameter>]]
     
-    Par exemple, l’applet de commande suivante permet de créer un annuaire de conférences dont l’identité est 42 et qui est hébergé sur le pool atl-cs-001.litwareinc.com :
+    Par exemple, l’exemple suivant crée un annuaire de conférences avec l’Identity 42, hébergé sur le pool atl-cs-001.litwareinc.com:
     
         New-CsConferenceDirectory -Identity 42 -HomePool "atl-cs-001.litwareinc.com"
 
-## Voir aussi
+</div>
 
-#### Concepts
+<div>
+
+## <a name="see-also"></a>Voir aussi
+
 
 [Configuration requise pour les conférences rendez-vous dans Lync Server 2013](lync-server-2013-dial-in-conferencing-requirements.md)  
 
-#### Autres ressources
 
-[New-CsConferenceDirectory](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsConferenceDirectory)
+[New-CsConferenceDirectory](https://docs.microsoft.com/powershell/module/skype/New-CsConferenceDirectory)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

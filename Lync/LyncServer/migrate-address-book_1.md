@@ -1,36 +1,72 @@
-﻿---
-title: Migration du carnet d’adresses
-TOCTitle: Migration du carnet d’adresses
-ms:assetid: b6e000ce-8b2e-460c-8a8b-000254b9d778
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ205198(v=OCS.15)
-ms:contentKeyID: 49298621
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Migrer le carnet d’adresses
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Migrate Address Book
+ms:assetid: b6e000ce-8b2e-460c-8a8b-000254b9d778
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205198(v=OCS.15)
+ms:contentKeyID: 48185218
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8dff13c31ecf203d6e6e4b60c22a3792475e403f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846178"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Migration du carnet d’adresses
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-10-02_
+# <a name="migrate-address-book"></a>Migrer le carnet d’adresses
 
-**Pour migrer des règles de normalisation de carnet d’adresses personnalisées**
+</div>
 
-1.  Recherchez le fichier Company\_Phone\_Number\_Normalization\_Rules.txt à la racine du dossier partagé de carnet d’adresses et copiez-le à la racine du dossier partagé de carnet d’adresses de votre pool pilote Lync Server 2013.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-10-02_
+
+**Pour migrer des règles de normalisation personnalisées du carnet d’adresses**
+
+1.  Recherchez le fichier\_.\_txt\_du numéro\_de téléphone de l’entreprise à la racine du dossier partagé du carnet d’adresses, puis copiez-le à la racine du dossier partagé du carnet d’adresses dans votre pool de pilotes 2013 de Lync Server.
     
+    <div>
+    
+
     > [!NOTE]  
-    > Les exemples de règles de normalisation de carnet d’adresses ont été installés dans votre répertoire de fichiers de composants web ABS. Le chemin d’accès est <strong>$lettre_lecteur_installation:\Program Files\Microsoft Lync Server 2013\Web Components\Address Book Files\Files\ Sample_Company_Phone_Number_Normalization_Rules.txt,</strong>. Ce fichier peut être copié et renommé en <strong>Company_Phone_Number_Normalization_Rules.txt</strong> dans le répertoire racine du dossier partagé du carnet d’adresses. Par exemple, pour le carnet d’adresses partagé dans <strong>$serveurX</strong>, le chemin d’accès sera similaire à ceci : <strong>\\$serveurX \LyncFileShare\2-WebServices-1\ABFiles</strong>.
+    > Les règles de normalisation de votre carnet d’adresses sont installées dans votre répertoire de fichiers de composants Web ABS. Le chemin d’accès est <STRONG>$installedDriveLetter: \Program Files\Microsoft Lync Server 2013 \ Web Components\Address Book Files\Files\ Sample_Company_Phone_Number_Normalization_Rules. txt,</STRONG>. Ce fichier peut être copié et renommé &nbsp; <STRONG>Company_Phone_Number_Normalization_Rules. txt</STRONG> &nbsp;dans le répertoire racine du dossier partagé du carnet d’adresses. Par exemple, dans le carnet d’adresses <STRONG></STRONG>partagé dans&nbsp;$serverX, le chemin d’accès est semblable à ce qui suit: <STRONG> \\$serverX \LyncFileShare\2-WebServices-1\ABFiles</STRONG>.
 
-2.  Ouvrez le fichier Company\_Phone\_Number\_Normalization\_Rules.txt dans un éditeur de texte, tel que le Bloc-notes.
-
-3.  Certains types d’entrées ne fonctionneront pas correctement dans Lync Server 2013. Recherchez dans le fichier les types d’entrées décrites à cette étape, modifiez-les selon les besoins, puis enregistrez les modifications dans le dossier partagé de carnet d’adresses de votre pool pilote.
     
-    Les chaînes qui comportent des espaces ou des signes de ponctuation provoquent l’échec des règles de normalisation car ces caractères sont supprimés de la chaîne fournie comme entrée aux règles de normalisation. Si vous avez des chaînes qui comportent des espaces ou des signes de ponctuation obligatoires, vous devez modifier ces chaînes. Par exemple, la chaîne suivante provoque l’échec de la règle de normalisation :
+    </div>
+
+2.  Utilisez un éditeur de texte, tel que le bloc-notes,\_pour\_ouvrir\_le fichier\_de règles de normalisation des numéros de téléphone de l’entreprise.
+
+3.  Certains types d’entrée ne fonctionnent pas correctement dans Lync Server 2013. Parcourez le fichier pour obtenir les types d’entrée décrits dans cette étape, modifiez-les comme vous le souhaitez et enregistrez les modifications apportées au dossier partagé du carnet d’adresses dans votre pool de pilotes.
+    
+    Les chaînes qui comprennent des espaces blancs ou des signes de ponctuation peuvent entraîner l’échec des règles de normalisation, car ces caractères sont supprimés de la chaîne qui est en entrée dans les règles de normalisation. Si vous avez des chaînes qui incluent des espaces blancs ou des signes de ponctuation requis, vous devez modifier les chaînes. Par exemple, la chaîne suivante entraînera l’échec de la règle de normalisation:
     
         \s*\(\s*\d\d\d\s*\)\s*\-\s*\d\d\d\s*\-\s*\d\d\d\d
     
-    La chaîne suivante ne provoque pas l’échec de la règle de normalisation :
+    La chaîne suivante n’entraînera pas l’échec de la règle de normalisation:
     
         \s*\(?\s*\d\d\d\s*\)?\s*\-?\s*\d\d\d\s*\-?\s*\d\d\d\d
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

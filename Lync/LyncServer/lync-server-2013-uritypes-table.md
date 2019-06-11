@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013 : Table UriTypes'
-TOCTitle: Table UriTypes
-ms:assetid: 77c4dfae-1b29-4e81-ba05-609e61643998
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398587(v=OCS.15)
-ms:contentKeyID: 49297791
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Table UriTypes'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: UriTypes table
+ms:assetid: 77c4dfae-1b29-4e81-ba05-609e61643998
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398587(v=OCS.15)
+ms:contentKeyID: 48184553
+ms.date: 06/16/2015
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 916f4e6b06bc8fab484d29f7fe88170025de01d2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846453"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Table UriTypes dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2015-06-16_
+# <a name="uritypes-table-in-lync-server-2013"></a>Table UriTypes dans Lync Server 2013
 
-La table UriTypes contient les différents types d’URI (Uniform Resource Identifier) surveillés dans Microsoft Lync Server 2013.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2015-06-16_
+
+La table UriTypes contient les différents types d’URI (Uniform Resource Identifier) surveillés dans Microsoft Lync Server 2013.
 
 
 <table>
@@ -43,13 +63,24 @@ La table UriTypes contient les différents types d’URI (Uniform Resource Ident
 <tr class="even">
 <td><p><strong>UriType</strong></p></td>
 <td><p>nvarchar(256)</p></td>
-<td><p></p></td>
+<td></td>
 <td><p>Descriptions des différents types d’URI. Les valeurs autorisées sont les suivantes :</p>
 <ul>
-<li><p>0 – Phone Uri</p></li>
-<li><p>1 – User Uri</p></li>
+<li><p>1-URI de téléphone</p></li>
+<li><p>0-URI de l’utilisateur</p></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

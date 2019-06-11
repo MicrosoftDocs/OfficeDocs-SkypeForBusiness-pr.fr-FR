@@ -1,21 +1,41 @@
-﻿---
-title: Table UserStatistics dans Lync Server 2013
-TOCTitle: Table UserStatistics dans Lync Server 2013
-ms:assetid: cfaf803b-1679-4169-92d3-533fad3e56ed
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ721893(v=OCS.15)
-ms:contentKeyID: 49891552
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Tableau Lync Server 2013: UserStatistics'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: UserStatistics table
+ms:assetid: cfaf803b-1679-4169-92d3-533fad3e56ed
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721893(v=OCS.15)
+ms:contentKeyID: 49733827
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f0f684850625f61ca72bbcc9c4bc53b56fcc6b38
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846414"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Table UserStatistics dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2015-03-09_
+# <a name="userstatistics-table-in-lync-server-2013"></a>Table UserStatistics dans Lync Server 2013
 
-La table UserStatistics est une table de prise en charge. Chaque enregistrement dans la table stocke les informations sur l’utilisation individuelle d’un utilisateur du système. Cette table est une nouveauté de Microsoft Lync Server 2013.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-09-28_
+
+La table UserStatistics est une table de prise en charge. Chaque enregistrement de la table stocke des informations sur l’utilisation individuelle du système par un utilisateur. Ce tableau a été présenté dans Microsoft Lync Server 2013.
 
 
 <table>
@@ -42,28 +62,39 @@ La table UserStatistics est une table de prise en charge. Chaque enregistrement 
 </tr>
 <tr class="even">
 <td><p><strong>LastLogInTime</strong></p></td>
-<td><p>datetime</p></td>
-<td><p></p></td>
-<td><p>Heure de la dernière connexion de l’utilisateur.</p></td>
+<td><p>DateHeure</p></td>
+<td></td>
+<td><p>Dernière connexion de l’utilisateur.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LastConfOrganizedTime</strong></p></td>
-<td><p>datetime</p></td>
-<td><p></p></td>
-<td><p>Heure de la dernière organisation d’une conférence par l’utilisateur.</p></td>
+<td><p>DateHeure</p></td>
+<td></td>
+<td><p>Dernière organisation d’une conférence.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LastCallOrganizerCallFailureTime</strong></p></td>
-<td><p>datetime</p></td>
-<td><p></p></td>
-<td><p>Heure du dernier échec d’appel de l’utilisateur.</p></td>
+<td><p>DateHeure</p></td>
+<td></td>
+<td><p>Dernière fois que l’utilisateur a rencontré un échec de l’appel.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LastConfOrganizerCallFailureTime</strong></p></td>
-<td><p>datetime</p></td>
-<td><p></p></td>
-<td><p>Heure du dernier échec d’appel de l’utilisateur en tant qu’organisateur de conférence.</p></td>
+<td><p>DateHeure</p></td>
+<td></td>
+<td><p>Dernière fois que l’utilisateur a rencontré un appel d’organisateur en tant qu’organisateur de la Conférence.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

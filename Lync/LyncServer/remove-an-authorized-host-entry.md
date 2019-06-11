@@ -1,33 +1,67 @@
-﻿---
-title: Suppression d’une entrée hôte non autorisée
-TOCTitle: Suppression d’une entrée hôte non autorisée
-ms:assetid: 56a04140-347e-4eef-bede-0e858534f71e
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204902(v=OCS.15)
-ms:contentKeyID: 49297293
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Supprimer une entrée d’hôte autorisée
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Remove an authorized host entry
+ms:assetid: 56a04140-347e-4eef-bede-0e858534f71e
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204902(v=OCS.15)
+ms:contentKeyID: 48184177
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ca9bc99382e904c398dbb7434b2ee6343ab661ee
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846057"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Suppression d’une entrée hôte non autorisée
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-09-26_
+# <a name="remove-an-authorized-host-entry"></a>Supprimer une entrée d’hôte autorisée
 
-Cette rubrique décrit comment supprimer une entrée d’hôte autorisé héritée (appelée *entrée d’application approuvée* dans Lync Server 2013). Vous devez supprimer les entrées d’hôtes autorisés existantes pour les passerelles SIP/CSTA dans votre déploiement Office Communications Server 2007 R2 quand vous procédez à la migration du contrôle d’appel distant vers un déploiement de Lync Server 2013. Vous devez utiliser les outils d’administration fournis avec Office Communications Server 2007 R2 pour supprimer les entrées d’hôtes autorisés existantes.
+</div>
 
-## Pour supprimer une entrée d’hôte autorisé dans un déploiement de Office Communications Server 2007 R2
+<div id="mainSection">
 
-1.  Ouvrez la console d’administration d’Office Communications Server 2007 R2.
+<div id="mainBody">
 
-2.  Développez l’arborescence et cliquez avec le bouton droit sur le pool dans lequel l’hôte autorisé a été créé.
+<span> </span>
 
-3.  Cliquez sur **Propriétés** , puis sur **Propriétés du serveur frontal** .
+_**Dernière modification de la rubrique:** 2012-09-26_
 
-4.  Cliquez sur l’onglet **Autorisation de l’hôte** .
+Cette rubrique explique comment supprimer une entrée d’hôte autorisé héritée (connue sous le nom d' *entrée d’application fiable* dans Lync Server 2013). Vous devez supprimer les entrées d’hôte autorisées existantes pour toutes les passerelles SIP/CSTA dans votre déploiement d’Office Communications Server 2007 R2 lors de la migration du contrôle d’appel distant vers un déploiement Lync Server 2013. Vous devez utiliser les outils d’administration inclus dans Office Communications Server 2007 R2 pour supprimer les entrées d’hébergement autorisées existantes.
 
-5.  Sélectionnez un serveur, puis cliquez sur **Supprimer** .
+<div>
 
-6.  Dans **Propriétés** , cliquez sur **OK** .
+## <a name="to-remove-an-authorized-host-entry-in-an-office-communications-server-2007-r2-deployment"></a>Pour supprimer une entrée d’hôte autorisée dans un déploiement d’Office Communications Server 2007 R2
+
+1.  Ouvrez la console d’administration d’Office Communications Server 2007 R2.
+
+2.  Développez l’arborescence, puis cliquez avec le bouton droit sur le pool dans lequel l’hôte autorisé a été créé.
+
+3.  Cliquez sur **Propriétés**, puis sur **Propriétés du front end**.
+
+4.  Cliquez sur l’onglet **autorisation d’hébergement** .
+
+5.  Sélectionnez un serveur, puis cliquez sur **supprimer**.
+
+6.  Dans **Propriétés**, cliquez sur **OK**.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

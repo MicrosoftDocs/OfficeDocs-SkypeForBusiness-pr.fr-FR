@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013 : Table Users'
-TOCTitle: Table Users
-ms:assetid: a8d71373-4b57-4245-9f02-f7fc0d9fcd3c
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg412791(v=OCS.15)
-ms:contentKeyID: 49298480
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Table Users'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Users table
+ms:assetid: a8d71373-4b57-4245-9f02-f7fc0d9fcd3c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412791(v=OCS.15)
+ms:contentKeyID: 48185032
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 6acc63c2271b5ab58e168d0f0f662c6cb3653aac
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846423"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Table Users dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2015-03-09_
+# <a name="users-table-in-lync-server-2013"></a>Table Users dans Lync Server 2013
 
-La table Users est une table de prise en charge. Chaque enregistrement dans la table contient des informations sur un utilisateur impliqué dans des appels ou des sessions possédant des enregistrements dans la base de données.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-09-28_
+
+La table users est une table de prise en charge. Chaque enregistrement de la table stocke des informations relatives à un utilisateur impliqué dans des appels ou des sessions ayant des enregistrements dans la base de données.
 
 
 <table>
@@ -37,33 +57,44 @@ La table Users est une table de prise en charge. Chaque enregistrement dans la t
 <tr class="odd">
 <td><p><strong>NextUpdateTS</strong></p></td>
 <td><p>DateHeure</p></td>
-<td><p></p></td>
-<td><p>Horodatage pour utilisation interne.</p></td>
+<td></td>
+<td><p>Horodatage pour un usage interne.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserId</strong></p></td>
-<td><p>Int</p></td>
+<td><p>int</p></td>
 <td><p>Principal</p></td>
 <td><p>Numéro unique identifiant cet utilisateur.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UserUri</strong></p></td>
-<td><p>nvarchar(450)</p></td>
+<td><p>nvarchar (450)</p></td>
 <td><p> </p></td>
 <td><p>URI de l’utilisateur.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>TenantId</strong></p></td>
-<td><p>Int</p></td>
-<td><p>Étrangère</p></td>
-<td><p>ID de locataire de cet utilisateur. Pour plus d’informations, reportez-vous à la <a href="lync-server-2013-tenants-table.md">Table Tenants dans Lync Server 2013</a>.</p></td>
+<td><p><strong>IDClient</strong></p></td>
+<td><p>int</p></td>
+<td><p>Externes</p></td>
+<td><p>ID de client de cet utilisateur. Pour plus d’informations, voir la <a href="lync-server-2013-tenants-table.md">table locataires dans Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UriTypeId</strong></p></td>
-<td><p>Int</p></td>
-<td><p>Étrangère</p></td>
-<td><p>Type d’URI de cet utilisateur. Pour plus d’informations, reportez-vous à la <a href="lync-server-2013-uritypes-table.md">Table UriTypes dans Lync Server 2013</a>.</p></td>
+<td><p>int</p></td>
+<td><p>Externes</p></td>
+<td><p>Type d’URI de cet utilisateur. Pour plus d’informations, voir la <a href="lync-server-2013-uritypes-table.md">table UriTypes dans Lync Server 2013</a> .</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

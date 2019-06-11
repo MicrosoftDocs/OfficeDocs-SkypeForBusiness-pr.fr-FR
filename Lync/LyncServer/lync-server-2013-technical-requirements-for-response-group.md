@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013 : Configuration technique requise pour Response Group'
-TOCTitle: Configuration technique requise pour Response Group
-ms:assetid: 477488bd-124f-437b-9327-732a0d7271ca
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204863(v=OCS.15)
-ms:contentKeyID: 49297081
-ms.date: 07/20/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Configuration technique requise pour Response Group'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Technical requirements for Response Group
+ms:assetid: 477488bd-124f-437b-9327-732a0d7271ca
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204863(v=OCS.15)
+ms:contentKeyID: 48184044
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 2dd87cb270d527753d9c6404ded4162791b542f7
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846644"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configuration technique requise pour Response Group dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2016-12-08_
+# <a name="technical-requirements-for-response-group-in-lync-server-2013"></a>Configuration technique requise pour Response Group dans Lync Server 2013
 
-Cette section décrit les conditions techniques requises suivantes pour l’application Response Group:
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2013-11-07_
+
+Cette section décrit les exigences techniques suivantes pour l’application Response Group:
 
   - Configuration matérielle requise
 
@@ -23,43 +43,72 @@ Cette section décrit les conditions techniques requises suivantes pour l’appl
 
   - Conditions requises en matière de ports
 
-  - Conditions requises pour les fichiers audio
+  - Configuration requise pour le fichier audio
 
-  - Conditions requises pour l’outil de configuration Response Group
+  - Configuration requise pour l’outil de configuration de Response Group
 
-## Configuration matérielle requise
+<div>
 
-L’application Response Group suit la même configuration matérielle requise que les serveurs frontaux. Pour plus d’informations sur la configuration matérielle requise, reportez-vous à [Plateformes matérielles de serveur pour Lync Server 2013](lync-server-2013-server-hardware-platforms.md) dans la documentation de prise en charge.
+## <a name="hardware-requirements"></a>Configuration matérielle requise
 
-## Configuration logicielle requise
+L’application de Response Group a les mêmes exigences matérielles que les serveurs frontaux. Pour plus d’informations sur la configuration matérielle requise, voir [plates-formes matérielles pour Lync Server 2013](lync-server-2013-server-hardware-platforms.md) dans la documentation relative à la prise en charge.
 
-L’application Response Group suit les mêmes exigences en matière de système d’exploitation et de logiciels que les serveurs frontaux. Pour plus d’informations sur la configuration logicielle requise, reportez-vous à [Prise en charge du système d’exploitation pour le serveur et les outils dans Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) dans la documentation de prise en charge.
+</div>
 
-Si vous utilisez des fichiers audio Windows Media (.wma) pour la musique et les annonces Response Group, tous les serveurs frontaux ou serveurs Standard Edition qui exécutent l’application Response Group doivent disposer du module d’exécution du format Windows Media installé pour les serveurs exécutant Windows Server 2008 R2 ou de Microsoft Media Foundation pour les serveurs exécutant Windows Server 2012 ou Windows Server 2012 R2. Pour Windows Server 2008 R2, le module d’exécution du format Windows Media est installé dans le cadre de l’expérience Bureau Windows.
+<div>
 
-Pour plus d’informations sur les conditions requises pour l’audio, reportez-vous à « Conditions requises pour les fichiers audio » dans la suite de cette section.
+## <a name="software-requirements"></a>Configuration logicielle requise
 
-## Configuration requise pour les ports
+Comme serveur frontal, l’application de Response Group a les mêmes exigences relatives au système d’exploitation et aux configurations logicielles requises. Pour plus d’informations sur la configuration logicielle requise, voir [prise en charge du système d’exploitation serveur et outils dans Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) dans la documentation relative à la prise en charge.
 
-L’application Response Group utilise les ports suivants :
+Si vous utilisez des fichiers Windows Media audio (. WMA) pour la musique et les annonces du groupe réponse, tous les serveurs frontaux ou les éditions standard qui exécutent l’application Response Group doivent avoir installé le runtime du format Windows Media pour les serveurs exécutant Windows Server 2008 R2 ou Microsoft Media Foundation pour serveurs exécutant Windows Server 2012 ou Windows Server 2012 R2. Pour Windows Server 2008 R2, le runtime Windows Media Format Runtime est installé dans le cadre de l’expérience de bureau Windows.
 
-  - **Port 5071**   Utilisé pour les requêtes d’écoute SIP
+Pour plus d’informations sur la configuration audio requise, voir «exigences relatives au fichier audio» plus loin dans cette section.
 
-  - **Port 8404**   Utilisé pour les communications entre les serveurs
+</div>
+
+<div>
+
+## <a name="port-requirements"></a>Configuration requise pour les ports
+
+L’application Response Group utilise les ports suivants:
+
+  - **Port 5071**   utilisé pour les demandes d’écoute SIP
+
+  - **Port 8404**   utilisé pour les communications entre les serveurs
     
+    <div>
+    
+
     > [!NOTE]  
-    > Ce port est utilisé pour le service d’établissement des correspondances et est nécessaire quand l’application Response Group est déployée dans un pool qui comporte plusieurs serveur frontal.
+    > Ce port est utilisé pour le service de mise en correspondance et est requis lors du déploiement de l’application Response Group dans un pool qui comporte plusieurs serveurs front-end.
+
+    
+    </div>
+
+<div>
+
 
 > [!NOTE]  
-> Ces ports sont les paramètres par défaut que vous pouvez modifier à l’aide de l’applet de commande <strong>Set-CsApplicationServer</strong>. Pour plus d’informations sur cette applet de commande, reportez-vous à la documentation de Lync Server Management Shell.
+> Ces ports sont les paramètres par défaut que vous pouvez modifier à l’aide de l’applet de commande <STRONG>Set-CsApplicationServer</STRONG>. Pour plus d’informations sur cette applet de connexion, consultez la documentation Lync Server Management Shell.
 
-## Conditions requises pour les fichiers audio
 
-L’application Response Group prend en charge le format de fichier Wave (.wav) et le format de fichier audio Windows Media (.wma) pour les messages, la musique d’attente ou les questions à réponse vocale interactive Response Group.
 
-Le format de fichier audio Windows Media nécessite que le runtime du format Windows Media soit installé sur les serveurs frontaux exécutant Windows Server 2008 R2 et Windows Server 2008. Pour plus d’informations, reportez-vous à « Configuration logicielle requise » plus haut dans cette section.
+</div>
 
-## Formats de fichiers Wave pris en charge
+</div>
+
+<div>
+
+## <a name="audio-file-requirements"></a>Conditions requises pour les fichiers audio
+
+L’application Response Group prend en charge le format de fichier Wave (. wav) et le format de fichier Windows Media audio (. WMA) pour les messages de groupe de réponse, la musique en attente ou les questions de réponse vocale interactive.
+
+Le format de fichier audio Windows Media nécessite que le runtime du format Windows Media soit installé sur les serveurs frontaux exécutant Windows Server 2008 R2 et Windows Server 2008. Pour plus d’informations, reportez-vous à « Configuration logicielle requise » plus haut dans cette section.
+
+<div>
+
+## <a name="supported-wave-file-formats"></a>Formats de fichiers Wave pris en charge
 
 Tous les fichiers Wave doivent répondre aux conditions suivantes :
 
@@ -73,20 +122,37 @@ Tous les fichiers Wave doivent répondre aux conditions suivantes :
 
 Pour des performances de fichiers Wave optimales, nous vous recommandons d’utiliser un fichier Wave correspondant au profil suivant : 16 kHz, Mono, 16 bits.
 
-## Formats de fichiers audio Windows Media pris en charge
+</div>
+
+<div>
+
+## <a name="supported-windows-media-audio-file-formats"></a>Formats de fichiers audio Windows Media pris en charge
 
 Si vous utilisez un fichier audio Windows Media, prévoyez d’utiliser de faibles vitesses de transmission et vérifiez les performances de votre système quand il est surchargé.
 
-Vous pouvez utiliser Microsoft Expression Encoder 4 pour convertir un fichier au format audio Windows Media. Pour télécharger Expression Encoder 4, reportez-vous à [http://go.microsoft.com/fwlink/p/?linkId=202843](http://go.microsoft.com/fwlink/p/?linkid=202843).
+Vous pouvez utiliser Microsoft Expression Encoder 4 pour convertir un fichier au format audio Windows Media. Pour télécharger Expression Encoder 4 [http://go.microsoft.com/fwlink/p/?linkId=202843](http://go.microsoft.com/fwlink/p/?linkid=202843), voir.
 
-## Conditions requises pour l’outil de configuration Response Group
+</div>
 
-L’outil de configuration Response Group prend en charge les combinaisons de systèmes d’exploitation et de navigateurs indiquées dans le tableau suivant.
+</div>
+
+<div>
+
+## <a name="response-group-configuration-tool-requirements"></a>Conditions requises pour l’outil de configuration Response Group
+
+L’outil de configuration de Response Group prend en charge les combinaisons de systèmes d’exploitation et de navigateurs Web décrits dans le tableau ci-dessous.
+
+<div>
+
 
 > [!NOTE]  
 > Les versions 32 bits ou 64 bits des systèmes d’exploitation sont prises en charge. Seules les versions 32 bits d’Internet Explorer sont prises en charge.
 
-### Systèmes d’exploitation et navigateurs web pris en charge
+
+
+</div>
+
+### <a name="supported-operating-systems-and-web-browsers"></a>Systèmes d’exploitation et navigateurs web pris en charge
 
 <table>
 <colgroup>
@@ -119,10 +185,7 @@ L’outil de configuration Response Group prend en charge les combinaisons de s
 <p>Internet Explorer 9 (mode natif)</p></td>
 </tr>
 <tr class="even">
-<td><p></p>
-<p></p>
-<p></p>
-<p>Windows Server 2008 R2</p>
+<td><p>Windows Server 2008 R2</p>
 <p>Windows Server 2008 R2 avec Service Pack 1</p></td>
 <td><p>Internet Explorer 8 (mode natif)</p>
 <p>Internet Explorer 9 (mode natif)</p></td>
@@ -131,14 +194,25 @@ L’outil de configuration Response Group prend en charge les combinaisons de s
 </table>
 
 
-## Console des agents Response Group
+</div>
+
+<div>
+
+## <a name="response-group-agent-console"></a>Console des agents Response Group
 
 La console des agents prend en charge les combinaisons de systèmes d’exploitation et de navigateurs indiquées dans le tableau suivant.
+
+<div>
+
 
 > [!NOTE]  
 > Les versions 32 bits ou 64 bits des systèmes d’exploitation sont prises en charge. Seules les versions 32 bits d’Internet Explorer sont prises en charge.
 
-### Systèmes d’exploitation et navigateurs web pris en charge
+
+
+</div>
+
+### <a name="supported-operating-systems-and-web-browsers"></a>Systèmes d’exploitation et navigateurs web pris en charge
 
 <table>
 <colgroup>
@@ -173,7 +247,7 @@ La console des agents prend en charge les combinaisons de systèmes d’exploita
 <p>Internet Explorer 9 (mode natif)</p></td>
 </tr>
 <tr class="even">
-<td><p>Windows Server 2008 R2</p>
+<td><p>Windows Server 2008 R2</p>
 <p>Windows Server 2008 R2 avec Service Pack 1</p></td>
 <td><p>Internet Explorer 8 (mode natif)</p>
 <p>Internet Explorer 9 (mode natif)</p>
@@ -181,9 +255,22 @@ La console des agents prend en charge les combinaisons de systèmes d’exploita
 <p>Chrome 18.0</p></td>
 </tr>
 <tr class="odd">
-<td><p></p></td>
+<td></td>
 <td></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

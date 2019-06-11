@@ -1,104 +1,89 @@
-﻿---
-title: "Spéc. des app. clients pouvant être util. pour la connexion à Lync Server 2013"
-TOCtitle: "Spéc. des app. clients pouvant être util. pour la connexion à Lync Server 2013"
-ms:assetid: d256a581-9a48-4d1a-82cc-2e1f520d7d2e
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg182591(v=OCS.15)
-ms:contentKeyID: 49298919
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: spécification des applications clientes qui peuvent être utilisées pour la connexion à Lync Server 2013'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Specifying the client applications that can be used to log on to Lync Server 2013
+ms:assetid: d256a581-9a48-4d1a-82cc-2e1f520d7d2e
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182591(v=OCS.15)
+ms:contentKeyID: 48185450
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 42f1135349c7caab0f8e3fe2e428a1bad59466ee
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846777"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Spécification des applications clients pouvant être utilisées pour la connexion à Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-12-11_
+# <a name="specifying-the-client-applications-that-can-be-used-to-log-on-to-lync-server-2013"></a>Spécification des applications clientes qui peuvent être utilisées pour la connexion à Lync Server 2013
 
-Lync Server 2013 vous permet de spécifier la version des clients pris en charge dans votre environnement. Quand deux clients exécutant des versions différentes interagissent, les fonctionnalités accessibles à l’un peuvent être limitées par les capacités de l’autre. Pour tirer profit des fonctionnalités incluses dans Lync Server 2013 et améliorer l’expérience globale de l’utilisateur, vous pouvez utiliser le filtre de version du client afin de limiter les versions du client utilisées dans votre environnement Lync Server 2013. Le filtre de version du client vous permet également de réduire les coûts associés à la prise en charge de plusieurs versions du client.
+</div>
 
-Outre la création d’une stratégie globale, vous pouvez créer des stratégies de version du client pour un service ou un site particulier, ou des stratégies d’étendue d’utilisateur qui peuvent être attribuées à des utilisateurs individuels. La stratégie de version du client avec étendue d’utilisateur peut être attribuée à des utilisateurs individuels du groupe **Utilisateurs** dans le Panneau de configuration Lync Server.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-12-11_
+
+Lync Server 2013 vous permet de spécifier la version des clients qui sont pris en charge dans votre environnement. L’utilisation de stratégies de version de client peut vous aider à réduire les coûts associés à la prise en charge de plusieurs versions de client. Cela permet également d’améliorer l’utilisation globale de l’utilisateur, car lorsque les versions précédentes et ultérieures de clients interagissent, les fonctionnalités disponibles peuvent être limitées par la version antérieure du client.
+
+Il existe trois composants du contrôle de version du client:
+
+  - Les paramètres de configuration de la version du client permettent d’activer ou de désactiver le contrôle de version du client, globalement ou pour des sites spécifiques.
+
+  - Les stratégies de version de client permettent d’affecter globalement un ensemble de règles ou à un site, un pool ou un groupe d’utilisateurs particulier.
+
+  - Les règles de stratégie de version de client constituent une stratégie de version de client et sont utilisées pour définir les actions qui doivent être effectuées lorsque les utilisateurs essaient de se connecter avec des clients et des versions client spécifiques.
+
+<div>
+
 
 > [!NOTE]  
-> Comme ils ne sont pas associés à un utilisateur, un site ou un service spécifiques, les utilisateurs anonymes sont uniquement affectés par les stratégies globales.
+> Comme ils ne sont pas associés à un utilisateur, un site ou un service spécifiques, les utilisateurs anonymes ne sont affectés que par les stratégies globales.
 
-> [!IMPORTANT]  
-> Les filtres sont répertoriés par ordre de priorité. Par exemple, si un premier filtre autorise les clients exécutant la version 1.5 à se connecter et qu’un second filtre bloque les clients exécutant une version antérieure à la version 2.0, le premier filtre est prioritaire : les clients exécutant la version 1.5 peuvent donc se connecter.
 
-## Pour modifier la stratégie de version du client par défaut
 
-1.  À partir d’un compte d’utilisateur auquel est affecté un des rôles CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
+</div>
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes de démarrage du Panneau de configuration Lync Server, voir [Ouvrir les outils d’administration Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+<div>
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Clients**.
-    
-    > [!NOTE]  
-    > L’onglet <strong>Stratégie de version du client</strong> est sélectionné par défaut.
+## <a name="in-this-section"></a>Dans cette section
 
-4.  Sur la page **Stratégie de version du client**, double-cliquez sur la stratégie **Global** dans la liste.
+  - [Paramètres de configuration de la version du client dans Lync Server 2013](lync-server-2013-client-version-configuration-settings.md)
 
-5.  Dans **Modifier la stratégie de version du client**, effectuez l’une des opérations suivantes :
-    
-      - Cliquez sur **Nouveau** pour créer une règle de version du client.
-    
-      - Cliquez sur l’un des types de clients définis dans la liste, puis sur **Afficher les détails**.
-    
-    > [!NOTE]  
-    > Vous pouvez utiliser des caractères génériques pour spécifier le type du client.
+  - [Stratégies de version de client dans Lync Server 2013](lync-server-2013-client-version-policies.md)
 
-6.  Dans **Agent utilisateur**, sélectionnez un type de client.
+  - [Règles de version de client dans Lync Server 2013](lync-server-2013-client-version-rules.md)
 
-7.  Sous **Numéro de version**, procédez comme suit :
-    
-      - Dans **Version principale**, tapez le numéro qui correspond à la version principale du client.
-    
-      - Dans **Version secondaire**, tapez le numéro qui correspond à la version secondaire du client.
-    
-      - Dans **Version**, tapez le numéro qui correspond aux versions principale et secondaire du client.
-    
-      - Dans **Mise à jour**, tapez le numéro qui correspond à la version mise à jour du client.
-    
-    > [!NOTE]  
-    > Vous pouvez utiliser des caractères génériques pour spécifier le numéro de version du client.
+</div>
 
-8.  Pour sélectionner l’opération de comparaison à utiliser pour la version du client spécifiée ci-dessus, dans **Opération de comparaison**, cliquez sur l’une des options suivantes :
-    
-      - **Identique à**
-    
-      - **N’est pas**
-    
-      - **Plus récent que**
-    
-      - **Plus récent ou identique**
-    
-      - **Plus ancien que**
-    
-      - **Plus ancien ou identique**
+<div>
 
-9.  Pour spécifier l’action à exécuter lorsque les critères définis ci-dessus sont respectés, cliquez sur l’une des options suivantes dans **Action** :
-    
-      - Pour autoriser le client à se connecter, cliquez sur **Autoriser**.
-    
-      - Pour autoriser le client à se connecter et à recevoir des mises à jour de Windows Server Update Service ou Microsoft Update, cliquez sur **Autoriser et mettre à niveau**. Cette action est uniquement disponible lorsque l’agent utilisateur **OC** est sélectionné.
-        
-        > [!NOTE]  
-        > Si vous sélectionnez cette action, la prochaine fois que des utilisateurs se connecteront à Lync 2013, une notification s’affichera indiquant qu’une ou des mises à jour sont disponibles, même si aucun mise à jour n’a encore été publiée sur Windows Server Update Service ou Microsoft Update. Pour éviter toute confusion, vous avez tout intérêt à choisir cette action après que des mises à jour ont été mises à disposition uniquement.    
-      - Pour autoriser le client à se connecter et afficher un message sur l’emplacement de téléchargement d’une autre version du client, cliquez sur **Autoriser avec une URL**. Vous indiquerez l’URL ultérieurement.
-    
-      - Pour empêcher le client de se connecter, cliquez sur **Bloquer**.
-    
-      - Pour empêcher le client de se connecter et lui permettre de recevoir des mises à jour de Windows Server Update Service ou Microsoft Update, cliquez sur **Bloquer et mettre à niveau**. Cette action est uniquement disponible lorsque l’agent utilisateur **OC** est sélectionné.
-    
-      - Pour empêcher le client de se connecter et afficher un message sur l’emplacement de téléchargement d’une autre version du client, cliquez sur **Bloquer avec une URL**. Vous indiquerez l’URL ultérieurement.
+## <a name="see-also"></a>Voir aussi
 
-10. (Facultatif) Si vous avez cliqué sur **Autoriser avec une URL** ou **Bloquer avec une URL** à l’étape précédente, dans le champ **URL**, tapez l’URL de téléchargement du client que vous souhaitez inclure dans le message.
 
-11. Cliquez sur **OK**, puis sur **valider**.
+[Gestion des appareils, des téléphones et des applications client dans Lync Server 2013](lync-server-2013-managing-devices-phones-and-client-applications.md)  
+  
 
-## Voir aussi
+</div>
 
-#### Autres ressources
+</div>
 
-[Gestion des appareils, des téléphones et des applications client dans Lync Server 2013](lync-server-2013-managing-devices-phones-and-client-applications.md)
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

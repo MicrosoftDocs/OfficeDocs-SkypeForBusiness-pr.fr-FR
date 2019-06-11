@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Testing Unified Contact Store access'
+---
+title: 'Lync Server 2013: test de l’accès au magasin de contacts unifié'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Testing Unified Contact Store access
 ms:assetid: 761f46bd-2e14-4f40-82b9-afa1eaa816b0
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Dn727309(v=OCS.15)
-ms:contentKeyID: 62388691
-ms.date: 05/20/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727309(v=OCS.15)
+ms:contentKeyID: 63969621
+ms.date: 05/16/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: ef1d8d8930b9e732faeef02c76d722331c726b67
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846505"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Testing Unified Contact Store access in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2015-05-15_
+# <a name="testing-unified-contact-store-access-in-lync-server-2013"></a>Test de l’accès au magasin de contacts unifié dans Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2015-05-15_
 
 
 <table>
@@ -23,105 +43,135 @@ _**Dernière rubrique modifiée :** 2015-05-15_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Daily</p></td>
+<td><p>Échéancier de vérification</p></td>
+<td><p>Jour</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
-<td><p>Windows PowerShell</p></td>
+<td><p>Outil de test</p></td>
+<td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the <strong>Test-CsUnifiedContactStore</strong> cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>Autorisations requises</p></td>
+<td><p>Lorsque l’application est exécutée localement à l’aide de Lync Server Management Shell, les utilisateurs doivent être membres du groupe de sécurité RTCUniversalServerAdmins.</p>
+<p>Lors de l’exécution à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui ont l’autorisation d’exécuter l’applet de commande <strong>test-CsUnifiedContactStore</strong> . Pour afficher la liste de tous les rôles RBAC qui peuvent utiliser cette applet de commande, exécutez la commande suivante à partir de l’invite Windows PowerShell:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsUnifiedContactStore&quot;}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-The unified contact store introduced in Lync Server 2013 gives administrators the option of storing a user's contacts in Microsoft Exchange Server 2013 instead of in Lync Server. This allows the user to access the same set of contacts in Outlook Web Access in addition to Lync 2013. (Or, you can continue to store contacts in Lync Server. In that case, users will have to maintain two separate sets of contacts: one for use with Outlook and Outlook Web Access, and one for use with Lync 2013.)
+## <a name="description"></a>Description
 
-You can determine whether or not a user's contacts were moved to the unified contact store by running the **Test-CsUnifiedContactStore** cmdlet. The **Test-CsUnifiedContactStore** cmdlet will take the specified user account, connect to the unified contact store, and attempt to retrieve a contact for the user. If no contacts can be retrieved then the command will fail together with the message "No contacts were received for the user. Verify that contacts exist for the user."
+Le magasin de contacts unifié introduit dans Lync Server 2013 permet aux administrateurs de stocker les contacts d’un utilisateur dans Microsoft Exchange Server 2013 au lieu de Lync Server. Cela permet à l’utilisateur d’accéder au même jeu de contacts dans Outlook Web Access en plus de Lync 2013. (Vous pouvez continuer à stocker vos contacts dans Lync Server. Dans ce cas, les utilisateurs doivent tenir compte de deux ensembles de contacts distincts: un pour une utilisation avec Outlook et Outlook Web Access, et un pour une utilisation avec Lync 2013.)
 
-Note that the **Test-CsUnifiedContactStore** cmdlet will fail if the user has successfully migrated to the unified contact store but has no contacts on his or her Contacts list. The specified user must have at least one contact for the **Test-CsUnifiedContactStore** cmdlet to complete successfully.
+Vous pouvez déterminer si les contacts d’un utilisateur ont été déplacés dans le magasin de contacts unifié en exécutant l’applet de **contrôle CsUnifiedContactStore de test** . L’applet de connexion **test-CsUnifiedContactStore** prend le compte d’utilisateur spécifié, se connecte au magasin de contacts unifié et tente de récupérer un contact pour l’utilisateur. Si aucun contact ne peut être récupéré, la commande échoue avec le message «aucun contact n’a été reçu pour l’utilisateur. Vérifiez qu’il existe des contacts pour l’utilisateur.»
 
-## Running the test
+Notez que l’applet **de contrôle test-CsUnifiedContactStore** échoue si l’utilisateur a effectué une migration réussie vers le magasin de contacts unifié, mais qu’aucun contact n’a été trouvé dans sa liste de contacts. L’utilisateur spécifié doit avoir au moins un contact pour que l’applet de **contrôle test-CsUnifiedContactStore** se termine correctement.
 
-The commands shown in in the following example determine whether contacts for the user litwareinc\\kenmyer can be found in the unified contact store. To do this, the first command in the example uses the **Get-Credential** cmdlet to create a Windows PowerShell command-line interface credentials object for the user litwareinc\\kenmyer. Note that you must supply the password for this account to create a valid credentials object and to make sure that the **Test-CsUnifiedContactStore** cmdlet can run its check.
+</div>
 
-The second command in the example uses the supplied credentials object ($x) and the SIP address of the user litwareinc\\kenmyer to determine whether his contacts can be found in the unified contact store.
+<div>
+
+## <a name="running-the-test"></a>Exécution du test
+
+Les commandes indiquées dans l’exemple ci-dessous déterminent si les contacts\\de l’utilisateur litwareinc kenmyer se trouvent dans le magasin de contacts unifié. Pour ce faire, la première commande de l’exemple utilise l’applet de commande **Get-Credential** pour créer un objet d’information d’identification d’interface de ligne de commande\\Windows PowerShell pour l’utilisateur litwareinc kenmyer. Notez que vous devez fournir le mot de passe de ce compte pour créer un objet d’informations d’identification valide et vérifier que l’applet de contrôle **CsUnifiedContactStore** peut exécuter sa vérification.
+
+La deuxième commande de l’exemple utilise l’objet Credentials fourni ($x) et l’adresse SIP de l’utilisateur litwareinc\\kenmyer pour déterminer si ses contacts sont accessibles dans le magasin de contacts unifié.
 
     $credential = Get-Credential "litwareinc\kenmyer"
     
     Test-CsUnifiedContactStore -TargetFqdn "atl-cs-001.litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-## Determining success or failure
+</div>
 
-If access to the contact store is configured correctly, you'll receive output similar to this, with the Result property marked as **Success:**
+<div>
 
-Target Fqdn : atl-cs-001.litwareinc.com
+## <a name="determining-success-or-failure"></a>Détermination du succès ou de l’échec
 
-Result : Success
+Si l’accès au magasin de contacts est correctement configuré, vous recevrez une sortie similaire à celle-ci, avec la propriété Result marquée comme **réussie:**
 
-Latency : 00:00:14.9862716
+Nom de domaine complet (FQDN) cible: atl-cs-001.litwareinc.com
 
-Error Message :
+Résultat: réussite
 
-Diagnosis :
+Latence: 00:00:14.9862716
 
-If access to the contact store is not configured correctly, the Result will be shown as **Failure**, and additional information will be recorded in the Error and Diagnosis properties:
+Message d’erreur:
 
-WARNING: Failed to read Registrar port number for the given fully qualified
+Diagnostic
 
-domain name (FQDN). Using default Registrar port number. Exception:
+Si l’accès au magasin de contacts n’est pas configuré correctement, le résultat est affiché en tant qu' **échec**et des informations supplémentaires sont enregistrées dans les propriétés d’erreur et de diagnostic:
 
-System.InvalidOperationException: No matching cluster found in topology.
+AVERTISSEMENT: impossible de lire le numéro de port du Bureau d’enregistrement pour le nom complet fourni
 
-at
+nom de domaine (FQDN). Utilisation du numéro de port de bureau par défaut. Sauf
 
-Microsoft.Rtc.Management.SyntheticTransactions.SipSyntheticTransaction.TryRetri
+System. InvalidOperationException: aucun cluster correspondant détecté dans la topologie.
 
-eveRegistrarPortFromTopology(Int32& registrarPortNumber)
+dès
 
-Target Fqdn : atl-cs-001.litwareinc.com
+Microsoft. RTC. Management. SyntheticTransactions. SipSyntheticTransaction. TryRetri
 
-Result : Failure
+eveRegistrarPortFromTopology (Int32& registrarPortNumber)
 
-Latency : 00:00:00
+Nom de domaine complet (FQDN) cible: atl-cs-001.litwareinc.com
 
-Error Message : 10060, A connection attempt failed because the connected party
+Résultat: échec
 
-did not properly respond after a period of time, or
+Latence: 00:00:00
 
-established connection failed because connected host has
+Message d’erreur: 10060, une tentative de connexion a échoué car la partie connectée
 
-failed to respond 10.188.116.96:5061
+ne répond pas correctement après un certain temps, ou
 
-Inner Exception:A connection attempt failed because the
+échec de la connexion établie, car l’hôte connecté a
 
-connected party did not properly respond after a period of
+échec de la réponse à 10.188.116.96:5061
 
-time, or established connection failed because connected host
+Exception interne: une tentative de connexion a échoué, car le
 
-has failed to respond 10.188.116.96:5061
+la fête connectée ne répond pas correctement après un délai de
 
-Diagnosis :
+heure ou échec de la connexion en raison d’un hôte connecté
 
-## Reasons why the test might have failed
+échec de la réponse à 10.188.116.96:5061
 
-Here are some common reasons why **Test-CsUnifiedContactStore** might fail:
+Diagnostic
 
-  - An incorrect parameter value was supplied. If used, the optional parameters must be configured correctly or the test will fail. Rerun the command without the optional parameters and see whether that succeeds.
+</div>
 
-  - Connect to the unified contact store failed, and the attempt to retrieve a contact for the user was not possible. There may be network connectivity issues.
+<div>
 
-## Voir aussi
+## <a name="reasons-why-the-test-might-have-failed"></a>Raisons pour lesquelles le test peut avoir échoué
 
-#### Autres ressources
+Voici quelques raisons courantes pour lesquelles **les tests-CsUnifiedContactStore** peuvent échouer:
 
-[New-CsUserServicesPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsUserServicesPolicy)  
-[Set-CsUserServicesPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUserServicesPolicy)
+  - Une valeur de paramètre incorrecte a été fournie. S’il est utilisé, les paramètres facultatifs doivent être correctement configurés ou le test échoue. Réexécutez la commande sans les paramètres facultatifs et déterminez si l’opération aboutit.
+
+  - La connexion au magasin de contacts unifié a échoué et la tentative de récupération d’un contact pour l’utilisateur n’est pas possible. Il y a peut-être des problèmes de connectivité réseau.
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>Voir aussi
+
+
+[New-CsUserServicesPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsUserServicesPolicy)  
+[Set-CsUserServicesPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsUserServicesPolicy)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,33 +1,75 @@
-﻿---
-title: "Apps approuvées (App./Ordi./Point de terminaison/Pool) dans Lync Server 2013"
-TOCtitle: "Apps approuvées (App./Ordi./Point de terminaison/Pool) dans Lync Server 2013"
-ms:assetid: 5ec751df-1697-4739-b9e6-f7e23d8c6d54
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ688073(v=OCS.15)
-ms:contentKeyID: 49891370
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: applications approuvées (application/ordinateur/point de terminaison/pool)'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Trusted applications (application/computer/endpoint/pool)
+ms:assetid: 5ec751df-1697-4739-b9e6-f7e23d8c6d54
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688073(v=OCS.15)
+ms:contentKeyID: 49733667
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: da1fb1a0629873d283aa7465d6eccc4d40dbf040
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846479"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Applications approuvées (Application/Ordinateur/Point de terminaison/Pool) dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-11-01_
+# <a name="trusted-applications-applicationcomputerendpointpool-in-lync-server-2013"></a>Applications approuvées (application/ordinateur/point de terminaison/pool) dans Lync Server 2013
 
-Utilisez les procédures de cette section pour gérer les applications approuvées pour Lync Server 2013.
+</div>
 
-## Dans cette section
+<div id="mainSection">
 
-  - [Gestion des applications approuvées](lync-server-2013-managing-trusted-applications.md)
+<div id="mainBody">
 
-## Sections connexes
+<span> </span>
 
-[Cmdlets des applications approuvées](https://docs.microsoft.com/en-us/powershell/module/skype/?view=skype-ps)
+_**Dernière modification de la rubrique:** 2012-11-01_
 
-## Voir aussi
+Suivez les procédures décrites dans cette section pour gérer des applications approuvées pour Lync Server 2013.
 
-#### Autres ressources
+<div>
 
-[Gestion des applications approuvées](lync-server-2013-managing-trusted-applications.md)
+## <a name="in-this-section"></a>Dans cette section
+
+  - [Gestion des applications approuvées dans Lync Server 2013](lync-server-2013-managing-trusted-applications.md)
+
+</div>
+
+<div>
+
+## <a name="related-sections"></a>Sections associées
+
+[Cmdlets d’applications de confiance dans Lync Server 2013](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps)
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>Voir aussi
+
+
+[Gestion des applications approuvées dans Lync Server 2013](lync-server-2013-managing-trusted-applications.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

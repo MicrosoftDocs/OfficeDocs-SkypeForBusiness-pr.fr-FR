@@ -1,25 +1,47 @@
-﻿---
-title: 'Lync Server 2013 : Configurations hybrides prises en charge'
-TOCTitle: Configurations hybrides prises en charge
-ms:assetid: 5d456d6c-ad71-420c-b6d8-4d9cd0324f86
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ945633(v=OCS.15)
-ms:contentKeyID: 53095431
-ms.date: 06/01/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: configurations hybrides prises en charge'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Supported hybrid configurations
+ms:assetid: 5d456d6c-ad71-420c-b6d8-4d9cd0324f86
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945633(v=OCS.15)
+ms:contentKeyID: 51541482
+ms.date: 05/10/2016
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 142b86720e64fdfd071bc5cacb21e4891e3e7758
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846729"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configurations hybrides Lync Server 2013 prises en charge
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2016-12-08_
+# <a name="supported-lync-server-2013-hybrid-configurations"></a>Configurations hybrides Lync Server 2013 prises en charge
 
-Vous pouvez configurer les déploiements Lync Server 2013 en vue d’une intégration à Microsoft Exchange Server 2010, Microsoft Exchange Server 2013 et SharePoint Server, à la fois en local et en ligne. Les fonctionnalités répertoriées dans le tableau suivant sont prises en charge avec tous les clients, sauf indication contraire. Pour plus d’informations sur la prise en charge des clients, reportez-vous à [Tableau de comparaison des clients pour Lync Server 2013](lync-server-2013-desktop-client-comparison-tables.md) et Tableaux de comparaison des clients Lync Online à l’adresse [Clients for Lync Online](http://go.microsoft.com/fwlink/p/?linkid=281902).
+</div>
 
-## Intégration à Exchange Server
+<div id="mainSection">
 
-Le tableau ci-dessous répertorie les fonctionnalités prises en charge dans un déploiement hybride intégré à Microsoft Exchange Server.
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2016-05-10_
+
+Vous pouvez configurer les déploiements de Lync Server 2013 pour l’intégration avec Microsoft Exchange Server 2010 et Microsoft Exchange Server 2013 et SharePoint Server, en local et en ligne. Sauf indication contraire, les fonctionnalités affichées dans le tableau ci-dessous sont prises en charge avec tous les clients. Pour plus d’informations sur la prise en charge des clients, voir [tableaux de comparaison des clients pour Lync Server 2013](lync-server-2013-desktop-client-comparison-tables.md) et les tableaux de comparaison des clients Skype entreprise Online pour [les clients de Skype entreprise Online](http://go.microsoft.com/fwlink/p/?linkid=281902).
+
+<div>
+
+## <a name="integration-with-exchange-server"></a>Intégration à Exchange Server
+
+Le tableau suivant répertorie les fonctionnalités prises en charge dans un déploiement hybride lorsque Microsoft Exchange Server est intégré.
 
 
 <table>
@@ -37,119 +59,132 @@ Le tableau ci-dessous répertorie les fonctionnalités prises en charge dans un 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Lync Server 2013 en local</strong></p></td>
+<td><p><strong>Lync Server 2013 en local</strong></p></td>
 <td><ul>
 <li><p>Messagerie instantanée/présence dans Outlook</p>
-<p>Pour plus d’informations, reportez-vous à <a href="lync-server-2013-im-and-presence.md">Messagerie instantanée et présence dans Lync Server 2013</a></p></li>
-<li><p>Planifier et rejoindre des réunions en ligne à l’aide d’Outlook</p>
-<p>Pour plus d’informations, reportez-vous à <a href="lync-server-2013-integrating-with-microsoft-exchange-server-2013.md">Intégration de Microsoft Lync Server 2013 à Microsoft Exchange Server 2013</a></p></li>
-<li><p>Messagerie instantanée/présence dans Outlook Web App</p>
-<p>Pour plus d’informations, reportez-vous à <a href="lync-server-2013-configuring-lync-server-in-a-cross-premises-environment.md">Configuration de Microsoft Lync Server 2013 dans un environnement intersites</a></p></li>
-<li><p>Planifier et rejoindre des réunions en ligne à l’aide de Outlook Web App</p></li>
+<p>Pour plus d’informations, reportez-vous à la section <a href="lync-server-2013-im-and-presence.md">messagerie instantanée et présence dans Lync Server 2013</a></p></li>
+<li><p>Planification de réunions en ligne et participation à l’aide d’Outlook</p>
+<p>Pour plus d’informations, reportez-vous <a href="lync-server-2013-integrating-with-microsoft-exchange-server-2013.md">Integrating Microsoft Lync Server 2013 and Microsoft Exchange Server 2013</a>.</p></li>
+<li><p>Messagerie instantanée et présence dans Outlook Web App</p>
+<p>Pour plus d’informations, reportez-vous à <a href="lync-server-2013-configuring-lync-server-in-a-cross-premises-environment.md">configuration de Microsoft Lync Server 2013 dans un environnement local</a></p></li>
+<li><p>Planification de réunions en ligne et participation via Outlook Web App</p></li>
 <li><p>Messagerie instantanée/présence dans les clients mobiles</p></li>
-<li><p>Rejoindre des réunions en ligne dans les clients mobiles</p>
-<p>Pour plus d’informations, reportez-vous à <a href="lync-server-2013-deploying-mobility.md">Déploiement de la mobilité dans Lync Server 2013</a></p></li>
-<li><p>Publier le statut en fonction des informations de disponibilité du calendrier Outlook</p></li>
-<li><p>Liste des contacts (via le magasin de contacts unifié)</p>
-<p>Pour plus d’informations, reportez-vous à <a href="lync-server-2013-configuring-lync-server-to-use-the-unified-contact-store.md">Configuration de Microsoft Lync Server 2013 pour l’utilisation du magasin de contact unifié</a></p>
+<li><p>Participation à des réunions en ligne dans les clients mobiles</p>
+<p>Pour plus d’informations, reportez-vous à <a href="lync-server-2013-deploying-mobility.md">déploiement de mobilité dans Lync Server 2013</a></p></li>
+<li><p>Publication du statut en fonction des informations de disponibilité du calendrier Outlook</p></li>
+<li><p>Liste de contacts (par le biais du magasin de contacts unifié)</p>
+<p>Pour plus d’informations, reportez-vous <a href="lync-server-2013-configuring-lync-server-to-use-the-unified-contact-store.md">à configuration de Microsoft Lync Server 2013 pour utiliser le magasin de contacts unifié</a></p>
+<div>
 
 > [!NOTE]  
-> Nécessite Exchange 2013.<br />
-Un client de bureau Lync 2013 est requis.
+> Nécessite Exchange 2013.<BR>Un client de bureau Lync 2013 est requis.
 
-</li>
-<li><p>Photo de contact haute résolution dans le client Lync 2013 et Lync Web App.</p>
-<p>Pour plus d’informations, reportez-vous à <a href="lync-server-2013-configuring-the-use-of-high-resolution-photos.md">Configuration de l’utilisation de photos haute résolution dans Microsoft Lync Server 2013</a></p>
+
+</div></li>
+<li><p>Photo de contact haute résolution dans le client Lync 2013 et Lync Web App.</p>
+<p>Pour plus d’informations, reportez-vous à <a href="lync-server-2013-configuring-the-use-of-high-resolution-photos.md">la rubrique Configuration de l’utilisation de photos haute résolution dans Microsoft Lync Server 2013</a></p>
+<div>
 
 > [!NOTE]  
-> Nécessite Exchange 2013.
+> Nécessite Exchange 2013.
 
-</li>
+
+</div></li>
 <li><p>Délégation de réunion</p>
 <p>Pris en charge uniquement lorsque les deux utilisateurs sont hébergés en ligne dans la même forêt ou hébergés en local.</p></li>
 <li><p>L’historique des conversations manquées et les journaux des appels sont écrits dans la boîte aux lettres Exchange de l’utilisateur</p></li>
 <li><p>Archivage de contenu (messagerie instantanée et réunion) dans Exchange</p>
-<p>Pour plus d’informations, reportez-vous à <a href="lync-server-2013-deployment-checklist-for-archiving.md">Liste de vérification du déploiement pour l’archivage dans Lync Server 2013</a></p>
+<p>Pour plus d’informations, voir <a href="lync-server-2013-deployment-checklist-for-archiving.md">liste de vérification de déploiement pour l’archivage dans Lync Server 2013</a></p>
+<div>
 
 > [!NOTE]  
-> Nécessite Exchange 2013.
+> Nécessite Exchange 2013.
 
-</li>
-<li><p>Parcourir le contenu archivé</p>
+
+</div></li>
+<li><p>Recherche de contenu archivé</p>
+<div>
 
 > [!NOTE]  
-> Nécessite Exchange 2013.
+> Nécessite Exchange 2013.
 
-</li>
+
+</div></li>
 <li><p>Messagerie vocale</p>
-<p>Pour plus d’informations, reportez-vous à <a href="lync-server-2013-deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail.md">Déploiement de la messagerie unifiée Exchange locale pour fournir la messagerie vocale Lync Server 2013</a></p></li>
+<p>Pour plus d’informations, reportez-vous <a href="lync-server-2013-deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail.md">à déploiement d’une messagerie unifiée Exchange locale pour fournir la messagerie vocale de Lync Server 2013</a></p></li>
 </ul></td>
 <td><ul>
 <li><p>Messagerie instantanée/présence dans Outlook</p>
-<p>Pour plus d’informations, reportez-vous à <a href="lync-server-2013-configuring-on-premises-lync-server-integration-with-exchange-online.md">Configuration de l’intégration de Lync Server 2013 local avec Exchange Online</a></p></li>
-<li><p>Planifier et rejoindre une réunion en ligne à l’aide d’Outlook</p></li>
+<p>Pour plus d’informations, reportez-vous à <a href="lync-server-2013-configuring-on-premises-lync-server-integration-with-exchange-online.md">configuration de l’intégration de Lync Server 2013 en local avec Exchange Online</a> .</p></li>
+<li><p>Planification d’une réunion en ligne et participation à l’aide d’Outlook</p></li>
 <li><p>Messagerie instantanée/présence dans OWA</p>
-<p>Pour plus d’informations, reportez-vous à <a href="lync-server-2013-configuring-on-premises-lync-server-integration-with-exchange-online.md">Configuration de l’intégration de Lync Server 2013 local avec Exchange Online</a></p></li>
+<p>Pour plus d’informations, reportez-vous à <a href="lync-server-2013-configuring-on-premises-lync-server-integration-with-exchange-online.md">configuration de l’intégration de Lync Server 2013 en local avec Exchange Online</a> .</p></li>
 <li><p>Planifier et rejoindre une réunion en ligne à partir d’Outlook Web App</p>
-<p>Pour plus d’informations, reportez-vous à <a href="lync-server-2013-configuring-on-premises-lync-server-integration-with-exchange-online.md">Configuration de l’intégration de Lync Server 2013 local avec Exchange Online</a></p></li>
+<p>Pour plus d’informations, reportez-vous à <a href="lync-server-2013-configuring-on-premises-lync-server-integration-with-exchange-online.md">configuration de l’intégration de Lync Server 2013 en local avec Exchange Online</a> .</p></li>
 <li><p>Messagerie instantanée/présence dans les clients mobiles</p></li>
-<li><p>Rejoindre une réunion en ligne dans les clients mobiles</p></li>
-<li><p>Publier le statut en fonction des informations de disponibilité du calendrier Outlook</p></li>
-<li><p>Liste des contacts (via le magasin de contacts unifié). Pour plus d’informations, reportez-vous à <a href="lync-server-2013-configuring-lync-server-to-use-the-unified-contact-store.md">Configuration de Microsoft Lync Server 2013 pour l’utilisation du magasin de contact unifié</a></p>
+<li><p>Participation à une réunion en ligne dans les clients mobiles</p></li>
+<li><p>Publication du statut en fonction des informations de disponibilité du calendrier Outlook</p></li>
+<li><p>Liste de contacts (par le biais du magasin de contacts unifié). Pour plus d’informations, reportez-vous <a href="lync-server-2013-configuring-lync-server-to-use-the-unified-contact-store.md">à configuration de Microsoft Lync Server 2013 pour utiliser le magasin de contacts unifié</a></p>
+<div>
 
 > [!NOTE]  
-> Lync Server 2013 uniquement. Un client de bureau Lync 2013 est requis.
+> Lync Server 2013 uniquement. Un client de bureau Lync 2013 est requis.
 
-</li>
-<li><p>Photo de contact haute résolution dans le client Lync 2013 et Lync Web App.</p>
-<p>Pour plus d’informations, reportez-vous à <a href="lync-server-2013-configuring-the-use-of-high-resolution-photos.md">Configuration de l’utilisation de photos haute résolution dans Microsoft Lync Server 2013</a>.</p></li>
+
+</div></li>
+<li><p>Photo de contact haute résolution dans le client Lync 2013 et Lync Web App.</p>
+<p>Pour plus d’informations, reportez-vous à <a href="lync-server-2013-configuring-the-use-of-high-resolution-photos.md">la rubrique Configuration de l’utilisation de photos haute résolution dans Microsoft Lync Server 2013</a>.</p></li>
 <li><p>Délégation de réunion</p>
 <p>Pris en charge uniquement lorsque les deux utilisateurs sont hébergés en ligne dans la même forêt ou hébergés en local.</p></li>
 <li><p>L’historique des conversations manquées et les journaux des appels sont écrits dans la boîte aux lettres Exchange de l’utilisateur</p></li>
 <li><p>Archivage de contenu (messagerie instantanée et réunion) dans Exchange.</p>
-<p>Pour plus d’informations, reportez-vous à <a href="lync-server-2013-deployment-checklist-for-archiving.md">Liste de vérification du déploiement pour l’archivage dans Lync Server 2013</a></p></li>
-<li><p>Parcourir le contenu archivé. Pour plus d’informations, reportez-vous à <a href="http://go.microsoft.com/fwlink/p/?linkid=285448">Configurer Exchange pour le centre de découverte électronique SharePoint</a></p></li>
-<li><p>Messagerie vocale. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-providing-lync-server-users-voice-mail-on-hosted-exchange-um.md">Mise à disposition de la messagerie vocale Lync Server 2013 aux utilisateurs sur la messagerie unifiée Exchange hébergée</a></p></li>
+<p>Pour plus d’informations, voir <a href="lync-server-2013-deployment-checklist-for-archiving.md">liste de vérification de déploiement pour l’archivage dans Lync Server 2013</a></p></li>
+<li><p>Recherche de contenu archivé. Pour plus d’informations, reportez-vous à la section <a href="http://go.microsoft.com/fwlink/p/?linkid=285448">configurer Exchange pour le centre de découverte électronique SharePoint</a></p></li>
+<li><p>Messagerie vocale. Pour plus d’informations, reportez-vous à la section <a href="lync-server-2013-providing-lync-server-users-voice-mail-on-hosted-exchange-um.md">fourniture de messages vocaux aux utilisateurs Lync Server 2013 sur la messagerie unifiée Exchange</a></p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p><strong>Lync Online</strong></p></td>
 <td><ul>
 <li><p>Messagerie instantanée et présence dans Outlook</p></li>
-<li><p>Planifier et rejoindre des réunions en ligne à l’aide d’Outlook</p></li>
+<li><p>Planification de réunions en ligne et participation à l’aide d’Outlook</p></li>
 <li><p>Messagerie instantanée/présence dans les clients mobiles</p></li>
-<li><p>L’historique des conversations manquées et les journaux des appels sont écrits dans la boîte aux lettres Exchange de l’utilisateur</p></li>
-<li><p>Photo de contact haute résolution dans le client Lync 2013.</p>
+<li><p>L’historique des conversations manquées et les journaux des appels sont écrits dans la boîte aux lettres Exchange de l’utilisateur.</p></li>
+<li><p>Photo de contact haute résolution dans le client Lync 2013.</p>
+<div>
 
 > [!NOTE]  
-> Nécessite Microsoft Exchange Server 2013. Non pris en charge dans Lync Web App lorsque les utilisateurs sont hébergés sur Skype Entreprise Online.
+> Nécessite Microsoft Exchange Server 2013. Ceci n’est pas pris en charge dans Lync Web App lorsque les utilisateurs sont familiaux dans Skype entreprise online.
 
-</li>
-<li><p>Rejoindre une réunion en ligne dans les clients mobiles</p></li>
-<li><p>Publier le statut en fonction des informations de disponibilité du calendrier Outlook</p></li>
+
+</div></li>
+<li><p>Participation à une réunion en ligne dans les clients mobiles</p></li>
+<li><p>Publication du statut en fonction des informations de disponibilité du calendrier Outlook</p></li>
 <li><p>Délégation de réunion</p>
 <p>Pris en charge uniquement lorsque les deux utilisateurs sont hébergés en ligne dans la même forêt ou hébergés en local.</p></li>
 </ul></td>
 <td><ul>
 <li><p>Messagerie instantanée/présence dans Outlook</p></li>
-<li><p>Planifier et rejoindre des réunions en ligne à l’aide d’Outlook</p></li>
-<li><p>Messagerie instantanée/présence dans Outlook Web App</p></li>
+<li><p>Planification de réunions en ligne et participation à l’aide d’Outlook</p></li>
+<li><p>Messagerie instantanée et présence dans Outlook Web App</p></li>
 <li><p>Planifier et rejoindre une réunion en ligne à partir d’Outlook Web App</p></li>
 <li><p>Messagerie instantanée/présence dans les clients mobiles</p></li>
-<li><p>Rejoindre une réunion en ligne dans les clients mobiles</p></li>
-<li><p>Publier le statut en fonction des informations de disponibilité du calendrier Outlook</p></li>
-<li><p>L’historique des conversations manquées et les journaux des appels sont écrits dans la boîte aux lettres Exchange de l’utilisateur</p></li>
-<li><p>Liste des contacts (via le magasin de contacts unifié)</p>
+<li><p>Participation à une réunion en ligne dans les clients mobiles</p></li>
+<li><p>Publication du statut en fonction des informations de disponibilité du calendrier Outlook</p></li>
+<li><p>L’historique des conversations manquées et les journaux des appels sont écrits dans la boîte aux lettres Exchange de l’utilisateur.</p></li>
+<li><p>Liste de contacts (par le biais du magasin de contacts unifié)</p>
+<div>
 
 > [!NOTE]  
-> Client Lync Server 2013 requis
+> Client de Lync Server 2013 requis
 
-</li>
-<li><p>Photo de contact haute résolution dans le client Lync 2013 et Lync Web App.</p></li>
+
+</div></li>
+<li><p>Photo de contact haute résolution dans le client Lync 2013 et Lync Web App</p></li>
 <li><p>Délégation de réunion</p>
 <p>Pris en charge uniquement lorsque les deux utilisateurs sont hébergés en ligne dans la même forêt ou hébergés en local.</p></li>
 <li><p>Archivage de contenu (messagerie instantanée et réunion) dans Exchange</p></li>
-<li><p>Parcourir le contenu archivé</p></li>
+<li><p>Recherche de contenu archivé</p></li>
 <li><p>Messagerie vocale</p></li>
 </ul></td>
 </tr>
@@ -157,9 +192,13 @@ Un client de bureau Lync 2013 est requis.
 </table>
 
 
-## Intégration à SharePoint
+</div>
 
-Le tableau ci-dessous répertorie les fonctionnalités prises en charge dans un déploiement hybride de Lync Server 2013 intégré à SharePoint.
+<div>
+
+## <a name="integration-with-sharepoint"></a>Intégration à SharePoint
+
+Le tableau suivant répertorie les fonctionnalités prises en charge dans un déploiement hybride Lync Server 2013 lorsqu’il est intégré à SharePoint.
 
 
 <table>
@@ -172,12 +211,12 @@ Le tableau ci-dessous répertorie les fonctionnalités prises en charge dans un 
 <tr class="header">
 <th></th>
 <th>SharePoint en local</th>
-<th>SharePoint en ligne</th>
+<th>SharePoint Online</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Lync Server 2013 en local</strong></p></td>
+<td><p><strong>Lync Server 2013 en local</strong></p></td>
 <td><ul>
 <li><p>Recherche de compétences</p></li>
 <li><p>Présence dans SharePoint</p></li>
@@ -197,4 +236,17 @@ Le tableau ci-dessous répertorie les fonctionnalités prises en charge dans un 
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

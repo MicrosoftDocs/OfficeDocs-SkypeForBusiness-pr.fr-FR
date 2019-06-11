@@ -1,23 +1,45 @@
-﻿---
-title: 'Lync Server 2013 : Configuration du directeur'
-TOCTitle: Configuration du directeur
-ms:assetid: 408b76f7-6fdd-4e50-8a3e-e87db12c1394
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg425915(v=OCS.15)
-ms:contentKeyID: 49297002
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Configuration du directeur'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Setting up the Director
+ms:assetid: 408b76f7-6fdd-4e50-8a3e-e87db12c1394
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425915(v=OCS.15)
+ms:contentKeyID: 48183951
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 18de0fe7b06bbeed714aca444e75086fba9579e9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846867"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configuration du directeur dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2014-05-05_
+# <a name="setting-up-the-director-in-lync-server-2013"></a>Configuration du directeur dans Lync Server 2013
 
-Si vous activez l’accès des utilisateurs externes en déployant plusieurs serveurs Edge, une option consiste à déployer un directeur, un serveur exécutant le Microsoft Lync Server 2013 qui authentifie les demandes utilisateur, mais qui n’héberge aucun compte utilisateur. Même si elle n’est pas obligatoire, cette opération s’avère très utile si les performances vous préoccupent et que vous souhaitez rationaliser les demandes d’authentification.Si vous considérez qu’il s’agit d’une décision judicieuse pour votre organisation, la procédure de configuration de directeur ou de pool directeur revient à configurer un pool frontal Enterprise Edition ou un serveur Standard Edition. Une fois le ou les directeurs définis dans Générateur de topologie, vous devrez suivre la procédure décrite dans cette section.
+</div>
 
-## Dans cette section
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2014-05-05_
+
+Si vous autorisez l’accès pour les utilisateurs externes en déployant des serveurs Edge, il est possible de déployer un réalisateur. Un directeur est un serveur exécutant Microsoft Lync Server 2013 qui authentifie les demandes des utilisateurs, mais ne possède pas de compte d’utilisateur. Ce n’est pas une condition requise, mais elle est très utile si vous avez des problèmes de performances et souhaitez rationaliser les demandes d’authentification. Si vous décidez qu’il s’agit d’une bonne idée de votre organisation, les étapes de configuration d’un directeur ou d’un pool de réalisateurs sont similaires à la configuration d’un pool d’entreprise frontal Enterprise Edition ou d’un serveur Standard Edition Server. Après avoir défini votre ou vos réalisateurs dans le générateur de topologie, vous devez effectuer les étapes décrites dans cette section.
+
+<div>
+
+## <a name="in-this-section"></a>Dans cette section
 
   - [Installation du magasin de configurations local dans Lync Server 2013](lync-server-2013-install-the-local-configuration-store.md)
 
@@ -30,4 +52,16 @@ Si vous activez l’accès des utilisateurs externes en déployant plusieurs ser
   - [Test du directeur dans Lync Server 2013](lync-server-2013-test-the-director.md)
 
   - [Configuration de la connexion automatique du client pour utiliser le directeur dans Lync Server 2013](lync-server-2013-configure-automatic-client-sign-in-to-use-the-director.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

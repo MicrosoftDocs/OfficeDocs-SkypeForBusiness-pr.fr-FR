@@ -1,47 +1,81 @@
-﻿---
-title: 'Phase 7 : Exécution des tâches post-migration'
-TOCTitle: 'Phase 7 : Exécution des tâches post-migration'
-ms:assetid: 709ef27e-78eb-4b63-a62d-348711687b1c
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204998(v=OCS.15)
-ms:contentKeyID: 49297654
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Étape 7 : Exécuter les tâches post-migration'
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: 'Phase 7: Complete post-migration tasks'
+ms:assetid: 709ef27e-78eb-4b63-a62d-348711687b1c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204998(v=OCS.15)
+ms:contentKeyID: 48184485
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8208f2e42fb05532820d72bb89eb69d0ee2f8c9b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846083"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Phase 7 : Exécution des tâches post-migration [W14 vers W15]
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-10-19_
+# <a name="phase-7-complete-post-migration-tasks"></a>Étape 7 : Exécuter les tâches post-migration
 
-Les rubriques de cette section décrivent les tâches à effectuer après avoir terminé votre migration vers Lync Server 2013.
+</div>
 
-## Dans cette section
+<div id="mainSection">
 
-  - [Migration des réunions et des contenus de réunion existants](migrate-existing-meetings-and-meeting-content.md)
+<div id="mainBody">
 
-  - [Migration des numéros d’accès entrant](migrate-dial-in-access-numbers.md)
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-10-19_
+
+Les rubriques de cette section décrit les tâches que vous devez effectuer après avoir effectué votre migration vers Lync Server 2013.
+
+<div>
+
+## <a name="in-this-section"></a>Dans cette section
+
+  - [Migration des réunions existantes et du contenu des réunions](migrate-existing-meetings-and-meeting-content.md)
+
+  - [Migrer les numéros d’accès entrant](migrate-dial-in-access-numbers.md)
 
   - [Migration des paramètres d’application de parcage d’appel](migrate-call-park-application-settings.md)
 
-  - [Migration des groupes Response Group](migrate-response-groups.md)
+  - [Migrer des groupes Response Group](migrate-response-groups.md)
 
-  - [Migration du carnet d’adresses](migrate-address-book.md)
+  - [Migrer le carnet d’adresses](migrate-address-book.md)
 
-  - [Configuration de la page de participation à la réunion](configure-the-meeting-join-page.md)
+  - [Configuration de la page de participation à une réunion](configure-the-meeting-join-page.md)
 
   - [Suppression des serveurs d’archivage et de surveillance hérités](remove-legacy-archiving-and-monitoring-servers.md)
 
   - [Configuration des serveurs d’applications approuvées](configure-trusted-application-servers.md)
 
-  - [Déploiement des clients Lync Server 2013](deploy-lync-server-2013-clients.md)
+  - [Déploiement de clients Lync Server 2013](deploy-lync-server-2013-clients.md)
 
   - [Connexion d’une Survivable Branch Appliance](connect-a-survivable-branch-appliance.md)
 
   - [Configuration de la surveillance SCOM](configure-scom-monitoring.md)
 
-  - [Migration des téléphones en zone commune](migrate-common-area-phones.md)
+  - [Migration des téléphones de partie commune](migrate-common-area-phones.md)
 
-  - [Migration des appareils analogiques](migrate-analog-devices.md)
+  - [Migrer des périphériques analogiques](migrate-analog-devices.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

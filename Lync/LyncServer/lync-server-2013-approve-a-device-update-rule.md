@@ -1,61 +1,118 @@
-﻿---
-title: Approuver une règle de mise à jour des périphériques
-TOCTitle: Approuver une règle de mise à jour des périphériques
-ms:assetid: 9dbb1c9a-be0f-4e13-9234-05501ab43ac5
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ994053(v=OCS.15)
-ms:contentKeyID: 53095482
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: approuver une règle de mise à jour de l’appareil'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Approve a Device Update rule
+ms:assetid: 9dbb1c9a-be0f-4e13-9234-05501ab43ac5
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994053(v=OCS.15)
+ms:contentKeyID: 51803964
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: aa560be6b8c341310c4831277902dab6f2e5552c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846928"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Approuver une règle de mise à jour des périphériques
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2013-02-23_
+# <a name="approve-a-device-update-rule-in-lync-server-2013"></a>Approuver une règle de mise à jour d’appareil dans Lync Server 2013
 
-Une fois qu’une règle de mise à jour des périphériques a été importée, elle est installée sur vos périphériques tests. Si les tests sont concluants et que vous souhaitez déployer la mise à jour dans votre organisation, approuvez-la à l’aide du Panneau de configuration Lync Server ou de Windows PowerShell.
+</div>
 
-## Pour approuver une règle de mise à jour des périphériques à l’aide du Panneau de configuration Lync Server
+<div id="mainSection">
 
-1.  À partir d’un compte d’utilisateur auquel est affecté un des rôles CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
+<div id="mainBody">
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes de démarrage du Panneau de configuration Lync Server, voir [Ouvrir les outils d’administration Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+<span> </span>
 
-3.  Dans la page **Mise à jour du périphérique**, effectuez l’une des opérations suivantes :
+_**Dernière modification de la rubrique:** 2013-02-23_
+
+Une fois que vous avez importé une règle de mise à jour de l’appareil, celle-ci est installée sur vos appareils de test. Si le test est concluant et que vous souhaitez déployer la mise à jour de votre organisation, approuvez-la à l’aide du panneau de configuration de Lync Server ou de Windows PowerShell.
+
+<div>
+
+## <a name="to-approve-a-device-update-rule-by-using-lync-server-control-panel"></a>Pour approuver une règle de mise à jour de l’appareil à l’aide du panneau de configuration de Lync Server
+
+1.  À partir d’un compte d’utilisateur auquel est affecté le rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
+
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+
+3.  Dans la page **mise à jour** de l’appareil, effectuez l’une des opérations suivantes:
     
-      - Pour approuver une règle, sélectionnez-la.
+      - Pour approuver une règle, sélectionnez cette règle.
     
-      - Pour approuver toutes les règles, cliquez sur **Modifier**, puis sur **Sélectionner tout**.
+      - Pour approuver toutes les règles, cliquez sur **modifier**, puis sur **Sélectionner tout**.
 
-4.  Cliquez sur **Action**, puis sur **Approuver**.
+4.  Cliquez sur **action**, puis cliquez sur **approuver**.
 
-## Approbation d’une règle de mise à jour des périphériques à l’aide d’applets de commande Windows PowerShell
+</div>
 
-Les règles de mise à jour des périphériques peuvent également être approuvées à l’aide de Windows PowerShell et de l’applet de commande **Approve-CsDeviceUpdateRule**. Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session à distance de Windows PowerShell.
+<div>
+
+## <a name="approving-a-device-update-rule-by-using-windows-powershell-cmdlets"></a>Approbation d’une règle de mise à jour de l’appareil à l’aide des applets de cmdlet Windows PowerShell
+
+Les règles de mise à jour d’appareils peuvent également être approuvées à l’aide de Windows PowerShell et de l’applet de passe approbateur **-CsDeviceUpdateRule** . Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell.
+
+<div>
+
 
 > [!NOTE]  
-> Pour plus de détails sur l’utilisation de Windows PowerShell à distance pour une connexion à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Démarrage rapide : Gestion de Microsoft Lync Server 2010 avec PowerShell à distance » à l’adresse <a href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</a>.
+> Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>Server 2010 à l’aide de Remote PowerShell».
 
-## Pour approuver une seule règle de mise à jour des périphériques
 
-  - La commande suivante approuve la règle de mise à jour des périphériques d5ce3c10-2588-420a-82ac-dc2d9b1222ff9 détectée sur le serveur web atl-cs-001.litwareinc.com :
+
+</div>
+
+<div>
+
+## <a name="to-approve-a-single-device-update-rule"></a>Pour approuver une seule règle de mise à jour de l’appareil
+
+  - La commande suivante approuve la règle de mise à jour de l’appareil d5ce3c10-2588-420a-82ac-dc2d9b1222ff9 trouvée sur le serveur Web atl-cs-001.litwareinc.com:
     
         Approve-CsDeviceUpdateRule -Identity service:WebServer:atl-cs-001.litwareinc.com/d5ce3c10-2588-420a-82ac-dc2d9b1222ff9
 
-## Pour approuver plusieurs règles de mise à jour des périphériques
+</div>
 
-  - Cette commande approuve toutes les règles de mise à jour des périphériques pour les périphériques de marque Microsoft :
+<div>
+
+## <a name="to-approve-multiple-device-update-rules"></a>Pour approuver plusieurs règles de mise à jour de l’appareil
+
+  - Cette commande approuve toutes les règles de mise à jour d’appareils pour les appareils de marque Microsoft:
     
         Get-CsDeviceUpdateRule | Where-Object {$_.Brand -eq "Microsoft"} | Approve-CsDeviceUpdateRule
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Approve-CsDeviceUpdateRule](https://docs.microsoft.com/en-us/powershell/module/skype/Approve-CsDeviceUpdateRule).
+</div>
 
-## Voir aussi
+Pour plus d’informations, consultez la rubrique d’aide relative à l’applet de connexion approbateur [-CsDeviceUpdateRule](https://docs.microsoft.com/powershell/module/skype/Approve-CsDeviceUpdateRule) .
 
-#### Tâches
+</div>
 
-[Importer des règles de mise à jour des périphériques](lync-server-2013-import-device-update-rules.md)  
-[Restaurer une règle de mise à jour des périphériques](lync-server-2013-restore-a-device-update-rule.md)
+<div>
+
+## <a name="see-also"></a>Voir aussi
+
+
+[Importer des règles de mise à jour de périphériques dans Lync Server 2013](lync-server-2013-import-device-update-rules.md)  
+[Restaurer une règle de mise à jour d’appareil dans Lync Server 2013](lync-server-2013-restore-a-device-update-rule.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

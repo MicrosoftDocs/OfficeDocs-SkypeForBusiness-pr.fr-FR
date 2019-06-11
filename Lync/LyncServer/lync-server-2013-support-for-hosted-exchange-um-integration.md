@@ -1,34 +1,70 @@
-﻿---
-title: "Pr. en ch. de l’intég. de la mess. unifiée Exchange héb. dans Lync Server 2013"
-TOCTitle: Prise en charge de l’intégration de la messagerie unifiée Exchange hébergée
-ms:assetid: c7573ec3-013c-48d9-b59b-2a5427e6da35
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398821(v=OCS.15)
-ms:contentKeyID: 49298824
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Prise en charge de l’intégration de la messagerie unifiée Exchange hébergée dans Lync Server 2013
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Support for hosted Exchange UM integration
+ms:assetid: c7573ec3-013c-48d9-b59b-2a5427e6da35
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398821(v=OCS.15)
+ms:contentKeyID: 48185376
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 56ba107c9a782acb15ccd8d57f82cf567f2b75e1
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846750"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Prise en charge de l’intégration de la messagerie unifiée Exchange hébergée dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-09-21_
+# <a name="support-for-hosted-exchange-um-integration-in-lync-server-2013"></a>Prise en charge de l’intégration de la messagerie unifiée Exchange hébergée dans Lync Server 2013
 
-L’application de routage de messagerie unifiée Exchange Lync Server 2013 prend en charge l’intégration à la messagerie unifiée Exchange dans un environnement local, où Lync Server 2013 et la messagerie unifiée Exchange sont installés localement dans votre entreprise, ou l’intégration à la messagerie unifiée Exchange hébergée par un fournisseur de services, comme indiqué dans le diagramme suivant.
+</div>
 
-![Déploiement UM Lync Server Exchange sur site](images/Gg398821.d6498eb9-87ee-40f3-8ecd-852f91546590(OCS.15).jpg "Déploiement UM Lync Server Exchange sur site")
+<div id="mainSection">
 
-Les modes suivants sont pris en charge :
+<div id="mainBody">
 
-  - **Mode local**    Lync Server 2013 et messagerie unifiée Exchange sont déployés sur des serveurs locaux dans votre entreprise.
+<span> </span>
 
-  - **Mode intersite**    Lync Server 2013 est déployé sur des serveurs locaux dans votre entreprise et la messagerie unifiée Exchange est hébergée dans une solution proposée par un fournisseur de services en ligne, comme un centre de données Microsoft Exchange Online.
+_**Dernière modification de la rubrique:** 2012-09-21_
 
-  - **Mode mixte**   Votre déploiement Lync Server 2013 comporte des boîtes aux lettres d’utilisateur hébergées sur des serveurs locaux exécutant Microsoft Exchange Server dans votre entreprise et des boîtes aux lettres hébergées dans un centre de données de service Exchange hébergé.
+L’application de routage ExUM Lync Server 2013 prend en charge l’intégration à la messagerie unifiée Exchange dans un environnement local dans lequel Lync Server 2013 et la messagerie unifiée Exchange sont tous deux installés localement au sein de votre entreprise, ou dans avec la messagerie unifiée Exchange hébergée par un fournisseur de services, comme indiqué dans le schéma suivant.
+
+![Déploiement de la messagerie unifiée Exchange Server en local] (images/Gg398821.d6498eb9-87ee-40f3-8ecd-852f91546590(OCS.15).jpg "Déploiement de la messagerie unifiée Exchange Server en local")
+
+Les modes suivants sont pris en charge:
+
+  - **Le mode**   local Lync Server 2013 et Exchange um sont tous deux déployés sur des serveurs locaux au sein de votre entreprise.
+
+  - **Mode local Lync**   Server 2013 est déployé sur des serveurs locaux au sein de votre entreprise et la messagerie unifiée Exchange est hébergée dans la fonction d’un fournisseur de services en ligne, par exemple un centre de données Microsoft Exchange Online.
+
+  - **Mode mixte votre**   déploiement de Lync Server 2013 comporte certaines boîtes aux lettres utilisateur hébergées sur des serveurs locaux exécutant Microsoft Exchange Server au sein de votre entreprise et certaines boîtes aux lettres dans un centre de données de service Exchange hébergé.
     
-    > [!NOTE]  
-    > Le mode mixte peut tenir lieu de solution de transition au cours de l’évaluation et du transfert progressif des utilisateurs vers la messagerie unifiée Exchange hébergée, ou de solution permanente, si vous décidez de conserver localement les services de messagerie unifiée Exchange de certains utilisateurs après en avoir transférés d’autres.
+    <div>
+    
 
-Pour intégrer Lync Server 2013 à la messagerie unifiée Exchange hébergée, vous devez configurer un *espace d’adressage SIP partagé* (également appelé *domaine fractionné* ). Dans cette configuration, Lync Server 2013 et le fournisseur de services tiers de messagerie unifiée Exchange hébergés peuvent accéder au même espace d’adressage de domaine SIP. Pour plus d’informations, reportez-vous à [Architecture d’intégration de messagerie unifiée Exchange hébergée dans Lync Server 2013](lync-server-2013-hosted-exchange-um-integration-architecture.md) dans la documentation de planification.
+    > [!NOTE]  
+    > Le mode mixte peut être utilisé en tant que solution de transition lors de l’évaluation et de la migration par le biais des utilisateurs vers la messagerie unifiée Exchange hébergée, ou sous la forme d’une solution permanente si vous choisissez de limiter les services de messagerie unifiée d’utilisateurs Exchange après la migration d’autres utilisateurs.
+
+    
+    </div>
+
+Pour intégrer Lync Server 2013 à la messagerie unifiée Exchange hébergée, vous devez configurer un *espace d’adressage SIP partagé* (également appelé *domaine fractionné*). Dans cette configuration, Lync Server 2013 et le fournisseur de service de messagerie unifié Exchange hébergés par des tiers peuvent accéder au même espace d’adressage de domaine SIP. Pour plus d’informations, reportez-vous à la section [architecture d’intégration de MU Exchange hébergée dans Lync Server 2013](lync-server-2013-hosted-exchange-um-integration-architecture.md) dans la documentation de planification.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013 : Table Application'
-TOCTitle: Table Application
-ms:assetid: 30938426-e2f9-4735-a7f4-59baf7a7d7e6
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg425808(v=OCS.15)
-ms:contentKeyID: 49296774
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Table Application'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Application table
+ms:assetid: 30938426-e2f9-4735-a7f4-59baf7a7d7e6
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425808(v=OCS.15)
+ms:contentKeyID: 48183757
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b1186453bd1ab10f91a9c76de21f57af47359c24
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846874"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Table Application dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2015-03-09_
+# <a name="application-table-in-lync-server-2013"></a>Table Application dans Lync Server 2013
 
-Cette table stocke des informations sur les divers processus Lync Server 2013 impliqués dans le routage et les connexions.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-09-28_
+
+Le tableau suivant contient des informations sur les divers processus de Lync Server 2013 impliqué dans le routage et les connexions.
 
 
 <table>
@@ -36,7 +56,7 @@ Cette table stocke des informations sur les divers processus Lync Server 2013 i
 <tbody>
 <tr class="odd">
 <td><p><strong>ApplicationId</strong></p></td>
-<td><p>Int</p></td>
+<td><p>int</p></td>
 <td><p>Principal</p></td>
 <td><p>Numéro unique identifiant cette application.</p></td>
 </tr>
@@ -44,8 +64,19 @@ Cette table stocke des informations sur les divers processus Lync Server 2013 i
 <td><p><strong>Nom</strong></p></td>
 <td><p>nvarchar(256)</p></td>
 <td><p> </p></td>
-<td><p>Nom du composant du serveur</p></td>
+<td><p>Nom du composant serveur.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

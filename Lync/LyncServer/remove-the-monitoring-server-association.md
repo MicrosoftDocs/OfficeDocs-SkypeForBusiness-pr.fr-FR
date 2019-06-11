@@ -1,44 +1,84 @@
-﻿---
-title: Suppression de l’association de serveurs de surveillance
-TOCTitle: Suppression de l’association de serveurs de surveillance
-ms:assetid: c45b22ae-fc06-484a-a05b-735bd1bb7448
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ721877(v=OCS.15)
-ms:contentKeyID: 49891530
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Supprimer l’association au serveur de surveillance
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Remove the Monitoring server association
+ms:assetid: c45b22ae-fc06-484a-a05b-735bd1bb7448
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721877(v=OCS.15)
+ms:contentKeyID: 49733810
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a5703153bb1034f1318fbe14ca3583ad5744ffdb
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846050"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Suppression de l’association de serveurs de surveillance
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-10-04_
+# <a name="remove-the-monitoring-server-association"></a>Supprimer l’association au serveur de surveillance
 
-Pour supprimer le serveur de surveillance, vous devez modifier ou effacer la dépendance sur le pool de serveurs frontaux, le serveur frontal, Survivable Branch Appliance et le serveur Survivable Branch Server associés. Modifier les propriétés du pool de serveurs frontaux, du serveur frontal, de Survivable Branch Appliance et du serveur Survivable Branch Server permet de supprimer la dépendance. Quand la dépendance est effacée et le serveur supprimé dans le Générateur de topologie, un message vous avertit que l’objet de magasin de la base de données associée dans le Générateur de topologie est aussi sur le point d’être supprimé.
+</div>
 
-## Pour supprimer l’association du serveur de surveillance
+<div id="mainSection">
 
-1.  Ouvrez le serveur frontal Lync Server 2013 et le générateur de topologie.
+<div id="mainBody">
 
-2.  Accédez au nœud Lync Server 2010.
+<span> </span>
 
-3.  Dans Générateur de topologie, développez **Serveurs frontaux Enterprise Edition**, **Serveurs frontaux Standard Edition** ou **Sites de succursale**, selon l’emplacement de définition du serveur de surveillance.
+_**Dernière modification de la rubrique:** 2012-10-04_
 
-4.  Si le serveur Survivable Branch Server est associé, développez **Sites de succursale**, le nom du site de succursale, puis **Survivable Branch Appliances**.
+Pour supprimer le serveur de surveillance, vous devez modifier ou effacer la dépendance sur le pool frontal associé, le serveur frontal, l’unité de branchement Survivable et le serveur de succursales survivant. Vous pouvez modifier les propriétés du pool frontal, du serveur frontal, de l’unité de branchement Survivable et du serveur de succursales survivant pour supprimer la dépendance. Dès lors que vous effacez la dépendance et que vous avez supprimé le serveur dans le générateur de topologie, vous êtes informé que l’objet magasin de base de données associé dans le générateur de topologie sera également supprimé.
+
+<div>
+
+## <a name="to-remove-the-monitoring-server-association"></a>Pour supprimer l’Association du serveur de surveillance
+
+1.  Ouvrez le serveur frontal Lync Server 2013, ouvrez le générateur de topologie.
+
+2.  Accédez au nœud Lync Server 2010.
+
+3.  Dans le générateur de topologie, développez **Pools frontal Enterprise Edition**, **serveurs front end Standard Edition**ou **sites**de succursales en fonction de la définition du serveur de surveillance.
+
+4.  Si vous avez un serveur de succursales Survivable associé, développez **sites**de succursales, développez le nom du site de la succursale, puis développez **appareils de branchement survivables**.
     
+    <div>
+    
+
     > [!NOTE]  
-    > <strong>Survivable Branch Appliances</strong> dans l’interface utilisateur s’applique à la fois au serveur Survivable Branch Server et au Survivable Branch Appliance.
+    > Les <STRONG>appareils de branchement survivables</STRONG> dans l’interface utilisateur s’appliquent à la fois au serveur de succursales survivant et au dispositif de branchement survivant.
 
-5.  Cliquez avec le bouton droit sur le pool, le serveur ou l’appareil associé au serveur de surveillance, puis cliquez sur **Modifier les propriétés**.
+    
+    </div>
 
-6.  Dans **Modifier les propriétés**, sous **Général**, sous **Associations**, décochez la case **Associer un serveur de surveillance**, puis cliquez sur **OK**.
+5.  Cliquez avec le bouton droit sur le pool, le serveur ou l’appareil associé au serveur de surveillance, puis cliquez sur **modifier les propriétés**.
 
-7.  Répétez l’étape précédente pour tout autre pool, serveur ou appareil associé au serveur de surveillance.
+6.  Dans la boîte de **dialogue Modifier les propriétés**, sous **général**, sous **associations**, décochez la case associer le **serveur de suivi** , puis cliquez sur **OK**.
 
-8.  Cliquez avec le bouton droit sur le serveur de surveillance, puis cliquez sur **Supprimer**.
+7.  Répétez l’étape précédente pour tout autre serveur ou appareil associé au serveur de surveillance.
 
-9.  Dans **Supprimer les magasins dépendants**, cliquez sur **OK**.
+8.  Cliquez avec le bouton droit sur le serveur de surveillance, puis cliquez sur **supprimer**.
 
-10. Publiez la topologie, vérifiez le statut de réplication, puis exécutez au besoin l’Assistant Déploiement de Lync Server.
+9.  Sur **Supprimer les magasins**dépendants, cliquez sur **OK**.
+
+10. Publiez la topologie, vérifiez l’état de la réplication et exécutez l’Assistant Déploiement de Lync Server selon vos besoins.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

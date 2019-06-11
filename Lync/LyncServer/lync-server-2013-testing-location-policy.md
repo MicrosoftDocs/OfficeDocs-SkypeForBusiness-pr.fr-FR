@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Testing location policy'
+---
+title: 'Lync Server 2013: test de la stratégie d’emplacement'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Testing location policy
 ms:assetid: 23d06fd3-31ee-4480-ba1e-d179a55b8b14
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Dn690127(v=OCS.15)
-ms:contentKeyID: 62281068
-ms.date: 05/20/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn690127(v=OCS.15)
+ms:contentKeyID: 63969591
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: e034be609bfe773a15935d7f0875e0155b57df75
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846535"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Testing location policy in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2015-03-09_
+# <a name="testing-location-policy-in-lync-server-2013"></a>Test de la stratégie d’emplacement dans Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2014-06-05_
 
 
 <table>
@@ -23,115 +43,141 @@ _**Dernière rubrique modifiée :** 2015-03-09_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Daily</p></td>
+<td><p>Échéancier de vérification</p></td>
+<td><p>Jour</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
-<td><p>Windows PowerShell</p></td>
+<td><p>Outil de test</p></td>
+<td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsLocationPolicy cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>Autorisations requises</p></td>
+<td><p>Lorsque l’application est exécutée localement à l’aide de Lync Server Management Shell, les utilisateurs doivent être membres du groupe de sécurité RTCUniversalServerAdmins.</p>
+<p>Lors de l’exécution à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui ont l’autorisation d’exécuter l’applet de commande test-CsLocationPolicy. Pour afficher la liste de tous les rôles RBAC qui peuvent utiliser cette applet de commande, exécutez la commande suivante à partir de l’invite Windows PowerShell:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsLocationPolicy&quot;}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-The Test-CsLocationPolicy cmdlet verifies that a location policy is assigned to a user. The location policy is used to apply settings that relate to E9-1-1 functionality and client location. The location policy determines whether a user is enabled for E9-1-1, and, if the answer is "yes,", what the behavior is of an emergency call. For example, you can use the location policy to define what number makes up an emergency call (911 in the United States), whether corporate security should be automatically notified, and how the call should be routed.
+## <a name="description"></a>Description
 
-You can test location policies on users or on network subnets. If you run the test against a subnet (by specifying a value for the Subnet parameter), the cmdlet will attempt to resolve the location policy for that subnet. If no location policy is assigned to the subnet, the location policy for the configured user will be retrieved. If the subnet policy is retrieved successfully, the output will include a LocationPolicyTagID value that begins with subnet-tagid. If a location policy for the subnet was not found, the LocationPolicyTagID will begin with user-tagid.
+L’applet de contrôle test-CsLocationPolicy vérifie qu’une stratégie d’emplacement est attribuée à un utilisateur. La stratégie d’emplacement est utilisée pour appliquer les paramètres liés à la fonctionnalité E9-1-1 et à l’emplacement du client. La stratégie d’emplacement détermine si un utilisateur est activé pour E9-1-1 et, si la réponse est «oui», quel est le comportement d’un appel d’urgence. Par exemple, vous pouvez utiliser la stratégie d’emplacement pour définir le numéro qui compose un appel d’urgence (911 aux États-Unis), si la sécurité d’entreprise doit être automatiquement notifiée et comment l’appel doit être routé.
 
-## Running the test
+Vous pouvez tester des stratégies d’emplacement sur des utilisateurs ou des sous-réseaux réseau. Si vous exécutez le test sur un sous-réseau (en spécifiant une valeur pour le paramètre de sous-réseau), l’applet de contrôle tente de résoudre la stratégie d’emplacement du sous-réseau. Si aucune stratégie d’emplacement n’est affectée au sous-réseau, la stratégie d’emplacement de l’utilisateur configuré sera récupérée. Si la stratégie de sous-réseau est récupérée correctement, la sortie inclura une valeur LocationPolicyTagID qui commence par le sous-réseau-TagId. Si une stratégie d’emplacement pour le sous-réseau est introuvable, le LocationPolicyTagID commence par user-TagId.
 
-The Test-CsLocationPolicy cmdlet can be run using either a preconfigured test account (see Setting Up Test Accounts for Running Lync Server Tests) or the account of any user who is enabled for Lync Server. To run this check using a test account, you just have to specify the FQDN of the Lync Server pool being tested. For example:
+</div>
+
+<div>
+
+## <a name="running-the-test"></a>Exécution du test
+
+Vous pouvez exécuter l’applet de contrôle test-CsLocationPolicy à l’aide d’un compte de test préconfiguré (voir Configuration de comptes de test pour exécuter des tests Lync Server) ou du compte d’un utilisateur qui est activé pour Lync Server. Pour effectuer cette vérification à l’aide d’un compte de test, vous devez simplement spécifier le nom de domaine complet (FQDN) du pool de serveurs Lync testé. Par exemple :
 
     Test-CsLocationPolicy -TargetFqdn "atl-cs-001.litwareinc.com"
 
-To run this check using an actual user account, you must first create a Windows PowerShell credentials object that contains the account name and password. You must then include that credentials object and the SIP address assigned to the account when you call Test-CsLocationPolicy:
+Pour effectuer cette vérification à l’aide d’un compte d’utilisateur réel, vous devez d’abord créer un objet d’informations d’identification Windows PowerShell contenant le nom et le mot de passe du compte. Vous devez alors inclure cet objet Credential et l’adresse SIP attribuée au compte lorsque vous appelez le test-CsLocationPolicy:
 
     $credential = Get-Credential "litwareinc\kenmyer"
     Test-CsLocationPolicy -TargetFqdn "atl-cs-001.litwareinc.com"-UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-For more information, see the Help documentation for the [Test-CsLocationPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsLocationPolicy) cmdlet.
+Pour plus d’informations, consultez la documentation d’aide de l’applet de [contrôle test-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/Test-CsLocationPolicy) .
 
-## Determining success or failure
+</div>
 
-If the specified user has a valid location policy, then you'll receive output similar to this, with the Result property marked as **Success:**
+<div>
 
-EnhancedEmergencyServicesEnabled : true
+## <a name="determining-success-or-failure"></a>Détermination du succès ou de l’échec
 
-LocationPolicyTagID : user-tagid
+Si l’utilisateur spécifié dispose d’une stratégie d’emplacement valide, vous recevrez une sortie semblable à ce qui suit, avec la propriété Result marquée comme **réussie:**
 
-TargetFqdn : atl-cs-001.litwareinc.com
+EnhancedEmergencyServicesEnabled: true
 
-Result : Success
+LocationPolicyTagID: User-TagId
 
-Latency : 00:00:06.8630376
+TargetFqdn: atl-cs-001.litwareinc.com
 
-Error :
+Résultat: réussite
 
-Diagnosis :
+Latence: 00:00:06.8630376
 
-If a valid location policy cannot be found for the specified user, then Result will be shown as Failure, and additional information will be recorded in the Error and Diagnosis properties:
+Error
 
-TargetFqdn : atl-cs-001.litwareinc.com
+Diagnostic
 
-Result : Failure
+Si une stratégie d’emplacement valide est introuvable pour l’utilisateur spécifié, le résultat sera affiché en tant qu’échec et des informations supplémentaires seront enregistrées dans les propriétés d’erreur et de diagnostic:
 
-Latency : 00:00:00
+TargetFqdn: atl-cs-001.litwareinc.com
 
-Error : 404, Not Found
+Résultat: échec
 
-Diagnosis : ErrorCode=4005,Source=atl-cs-001.litwareinc.com,
+Latence: 00:00:00
 
-Reason=Destination URI either not enabled for SIP or does not
+Erreur: 404, introuvable
 
-exist.
+Diagnostic: codeerreur = 4005, source = ATL-CS-001.litwareinc.com,
 
-Microsoft.Rtc.Signaling.DiagnosticHeader
+Raison = URI de destination non activé pour le SIP ou non
 
-The previous output states that the test failed because the specified user is not valid: either the account does not exist or the user has not been enabled for Lync Server. You can verify the validity of an account, and determine whether or not that account has been enabled for nm-ocs-14-3rd, by running a command similar to this:
+Il.
+
+Microsoft. RTC. signalisation. DiagnosticHeader
+
+La sortie précédente indique que le test a échoué, car l’utilisateur spécifié n’est pas valide: le compte n’existe pas, ou l’utilisateur n’a pas été activé pour Lync Server. Vous pouvez vérifier la validité d’un compte et déterminer s’il a été activé pour nm-OCS-14-3e, en exécutant une commande semblable à ce qui suit:
 
     Get-CsUser "sip:kenmyer@litwareinc.com" | Select-Object SipAddress, Enabled
 
-If Test-CsLocationPolicy fails, then you might want to rerun the test, this time including the Verbose parameter:
+Si test-CsLocationPolicy échoue, il est possible que vous souhaitiez réexécuter le test, cette fois-ci, y compris le paramètre Verbose:
 
     Test-CsLocationPolicy -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-When the Verbose parameter is included, Test-CsLocationPolicy will return a step-by-step account of each action it tried when verifying the location policy. For example, this output indicates that Lync Server couldn't log on the test user, probably because an invalid password was supplied:
+Lorsque le paramètre Verbose est inclus, test-CsLocationPolicy renvoie un compte détaillé de chaque action effectuée lors de la vérification de la stratégie d’emplacement. Par exemple, cette sortie indique que Lync Server ne peut pas se connecter à l’utilisateur de test, probablement en raison d’un mot de passe non valide:
 
-Sending Registration request :
+Envoi de la demande d’inscription:
 
-Target Fqdn = atl-cs-011.litwareinc.com
+Nom de domaine complet cible = atl-cs-011.litwareinc.com
 
-User Sip Address = sip:kenmyer@litwareinc.com
+Adresse SIP de l’utilisateur = sip:kenmyer@litwareinc.com
 
-Registrar Port = 5061
+Port du Bureau d’enregistrement = 5061
 
-Auth Type 'IWA' is selected.
+Le type d’authentification «IWA» est sélectionné.
 
-Registration hit against sip/atl-cs-001.litwareinc.com
+Accès à l’enregistrement par SIP/ATL-CS-001. litwareinc. com
 
-'Register' activity completed in '0.0601795' secs.
+Activité «Register» achevée en «0,0601795» secondes.
 
-An exception 'The log on was denied. Check that the correct credentials are being used and the account is active.' occurred during the Workflow.
+Une exception’la connexion a été refusée. Vérifiez que les informations d’identification correctes sont utilisées et que le compte est actif. ' s’est produite lors du flux de travail.
 
-## Reasons why the test might have failed
+</div>
 
-Here are some common reasons why Test-CsLocationPolicy might fail:
+<div>
 
-  - You specified a user account that is not valid. You can verify that a user account exists by running a command similar to this:
+## <a name="reasons-why-the-test-might-have-failed"></a>Raisons pour lesquelles le test peut avoir échoué
+
+Voici quelques raisons courantes pour lesquelles les tests-CsLocationPolicy peuvent échouer:
+
+  - Vous avez spécifié un compte d’utilisateur qui n’est pas valide. Vous pouvez vérifier qu’un compte d’utilisateur existe en exécutant une commande semblable à ce qui suit:
     
         Get-CsUser "sip:kenmyer@litwareinc.com"
 
-  - The user account is valid, but the account is currently not enabled for Lync Server. To verify that a user account is enabled for Lync Server, run a command similar to the following:
+  - Le compte d’utilisateur est valide, mais le compte n’est pas activé pour Lync Server. Pour vérifier qu’un compte d’utilisateur est activé pour Lync Server, exécutez une commande semblable à ce qui suit:
     
         Get-CsUser "sip:kenmyer@litwareinc.com" | Select-Object Enabled
     
-    If the Enabled property is set to False, that means that the user is currently not enabled for Lync Server.
+    Si la propriété Enabled est définie sur false, cela signifie que l’utilisateur n’est actuellement pas activé pour Lync Server.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

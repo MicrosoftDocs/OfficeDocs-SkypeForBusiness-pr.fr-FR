@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Validating address book access'
+---
+title: 'Lync Server 2013: validation de l’accès au carnet d’adresses'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Validating address book access
 ms:assetid: 630682c6-9262-46c5-9af1-6193db70374b
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Dn720916(v=OCS.15)
-ms:contentKeyID: 62240060
-ms.date: 05/20/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720916(v=OCS.15)
+ms:contentKeyID: 63969611
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 233ad9804ea0f9ddd1075ea01bf7a4c8f35da819
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846341"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Validating address book access in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2015-03-09_
+# <a name="validating-address-book-access-in-lync-server-2013"></a>Validation de l’accès au carnet d’adresses dans Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2014-06-05_
 
 
 <table>
@@ -23,111 +43,141 @@ _**Dernière rubrique modifiée :** 2015-03-09_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Daily</p></td>
+<td><p>Échéancier de vérification</p></td>
+<td><p>Jour</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
-<td><p>Windows PowerShell</p></td>
+<td><p>Outil de test</p></td>
+<td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsAddressBookService cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>Autorisations requises</p></td>
+<td><p>Lorsque l’application est exécutée localement à l’aide de Lync Server Management Shell, les utilisateurs doivent être membres du groupe de sécurité RTCUniversalServerAdmins.</p>
+<p>Lors de l’exécution à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui ont l’autorisation d’exécuter l’applet de commande test-CsAddressBookService. Pour afficher la liste de tous les rôles RBAC qui peuvent utiliser cette applet de commande, exécutez la commande suivante à partir de l’invite Windows PowerShell:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsAddressBookService&quot;}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-The Test-CsAddressBookService cmdlet provides a way for you to verify that a user can connect to the Address Book Download Web service. When you run the cmdlet, Test-CsAddressBookService connects to the Address Book Download Web service on the specified pool and requests the location of the Address Book files. If the Address Book Download Web service supplies that location, the test is considered successful. If the request is denied, then the test is considered a failure.
+## <a name="description"></a>Description
 
-## Running the test
+L’applet de contrôle test-CsAddressBookService vous permet de vérifier qu’un utilisateur peut se connecter au service Web de téléchargement du carnet d’adresses. Lorsque vous exécutez l’applet de requête, test-CsAddressBookService se connecte au service Web de téléchargement du carnet d’adresses sur le pool spécifié et demande l’emplacement des fichiers du carnet d’adresses. Si le service Web de téléchargement de carnet d’adresses fournit cet emplacement, le test est considéré comme réussi. Si la requête est refusée, le test est considéré comme un échec.
 
-The Test-CsAddressBookService cmdlet can be run using either a preconfigured test account (see Setting Up Test Accounts for Running Lync Server Tests) or the account of any user who has been enabled for Lync Server. To run this check using a test account, all you need to do is specify the fully qualified domain name (FQDN) of the Lync Server pool being tested. For example:
+</div>
+
+<div>
+
+## <a name="running-the-test"></a>Exécution du test
+
+Vous pouvez exécuter l’applet de contrôle de test-CsAddressBookService à l’aide d’un compte de test préconfiguré (voir Configuration de comptes de test pour exécuter des tests Lync Server) ou du compte d’un utilisateur qui a été activé pour Lync Server. Pour exécuter cette recherche à l’aide d’un compte de test, il vous suffit de spécifier le nom de domaine complet (FQDN) du pool de serveurs Lync testé. Par exemple :
 
     Test-CsAddressBookService -TargetFqdn "atl-cs-001.litwareinc.com"
 
-To run this check using an actual user account, you must first create a Windows PowerShell credentials object that contains the account name and password. You must then include that credentials object and the SIP address assigned to the account when calling Test-CsAddressBookService:
+Pour effectuer cette vérification à l’aide d’un compte d’utilisateur réel, vous devez d’abord créer un objet d’informations d’identification Windows PowerShell contenant le nom et le mot de passe du compte. Vous devez alors inclure cet objet Credential et l’adresse SIP attribuée au compte lors de l’appel de test-CsAddressBookService:
 
     $credential = Get-Credential "litwareinc\kenmyer"
     Test-CsAddressBookService -TargetFqdn "atl-cs-001.litwareinc.com"-UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-For more information, see the Help documentation for the [Test-CsAddressBookService](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsAddressBookService) cmdlet.
+Pour plus d’informations, consultez la documentation d’aide de l’applet de [contrôle test-CsAddressBookService](https://docs.microsoft.com/powershell/module/skype/Test-CsAddressBookService) .
 
-## Determining success or failure
+</div>
 
-If the specified user is able to connect to the Address Book Service you will get back output similar to this, with the Result property marked as **Success**:
+<div>
 
-TargetUri : https://lync-se.fabrikam.com:443/abs/handler
+## <a name="determining-success-or-failure"></a>Détermination du succès ou de l’échec
 
-TargetFqdn : atl-cs-001.litwareinc.com
+Si l’utilisateur spécifié est en mesure de se connecter au service de carnet d’adresses, vous obtiendrez une sortie similaire à celle-ci, avec la propriété Result marquée comme **réussie**:
 
-Result : Success
+TargetUrihttps://lync-se.fabrikam.com:443/abs/handler
 
-Latency : 00:00:06.2260399
+TargetFqdn: atl-cs-001.litwareinc.com
 
-Error :
+Résultat: réussite
 
-Diagnosis :
+Latence: 00:00:06.2260399
 
-If the specified user is not able to make this connection, the Result will be shown as Failure, and additional information will be recorded in the Error and Diagnosis properties:
+Error
 
-TargetUri :
+Diagnostic
 
-TargetFqdn : atl-cs-001.litwareinc.com
+Si l’utilisateur spécifié ne peut pas établir cette connexion, le résultat est affiché en tant qu’échec et des informations supplémentaires sont enregistrées dans les propriétés d’erreur et de diagnostic:
 
-Result : Failure
+TargetUri
 
-Latency : 00:00:00
+TargetFqdn: atl-cs-001.litwareinc.com
 
-Diagnosis : ErrorCode=4005,Source=atl-cs-001.litwareinc.com,
+Résultat: échec
 
-Reason=Destination URI either not enabled for SIP or does not
+Latence: 00:00:00
 
-exist.
+Diagnostic: codeerreur = 4005, source = ATL-CS-001.litwareinc.com,
 
-Microsoft.Rtc.Signaling.DiagnosticHeader
+Raison = URI de destination non activé pour le SIP ou non
 
-For example, the preceding output states that the test failed because the specified user (that is, the “Destination URI”) either does not exist or has not been enabled for Lync Server. You can verify whether or not a user account is valid, and verify that you supplied the correct SIP address, by running a command like this one:
+Il.
 
-Get-CsUser -Identity "sip:kenmyer@litwareinc.com" | Select-Object SipAddress, Enabled
+Microsoft. RTC. signalisation. DiagnosticHeader
 
-If Test-CsAddressBookService fails then you might want to rerun the test, this time including the Verbose parameter:
+Par exemple, la sortie précédente indique qu’un test a échoué, car l’utilisateur spécifié (autrement dit, l’URI de destination) n’existe pas ou n’a pas été activé pour Lync Server. Vous pouvez vérifier qu’un compte d’utilisateur est valide ou non et que vous avez fourni l’adresse SIP correcte en exécutant une commande semblable à celle-ci:
 
-Test-CsAddressBookService -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
+Get-CsUser-Identity "sip:kenmyer@litwareinc.com" | SipAddress de sélection d’objet activée
 
-When the Verbose parameter is included Test-CsAddressBookService will return a step-by-step account of each action it attempted when checking the ability of the specified user to log on to Lync Server. For example, this sample output shows that Test-CsAddressBookService, at least in this example, was able to download the Address Book file:
+Si test-CsAddressBookService échoue alors, vous souhaiterez peut-être réexécuter le test, cette fois-ci, y compris le paramètre Verbose:
 
-Sending Http GET Request.
+Test-CsAddressBookService-TargetFqdn «atl-cs-001.litwareinc.com»-détails
 
-File Path = https://atl-cs-001.litwareinc.com:443/abs/handler/f-1299.lsabs
+Lorsque le paramètre Verbose est inclus, le test-CsAddressBookService renvoie un compte étape par étape de chaque action qu’il a lancée lors de la vérification de la possibilité de connexion de l’utilisateur spécifié à Lync Server. Par exemple, cet exemple de sortie montre que test-CsAddressBookService, au moins dans cet exemple, a pu télécharger le fichier du carnet d’adresses:
 
-Attempt Number = 1
+Envoi de la requête HTTP GET.
 
-TimeOut (msec) = 60000
+Chemin d’accès du fichier =https://atl-cs-001.litwareinc.com:443/abs/handler/f-1299.lsabs
 
-Successfully Downloaded the ABS file https://atl-cs-001.litwareinc.com:443/abs/handler/f-1299.lsabs
+Tentative de numérotation = 1
 
-## Reasons why the test might have failed
+Délai d’expiration (MS) = 60000
 
-Here are some common reasons why Test-CsAddressBookService might fail:
+Téléchargement du fichier ABS réussihttps://atl-cs-001.litwareinc.com:443/abs/handler/f-1299.lsabs
 
-  - You specified an invalid user account. You can verify that a user account exists by running a command similar to this:
+</div>
+
+<div>
+
+## <a name="reasons-why-the-test-might-have-failed"></a>Raisons pour lesquelles le test peut avoir échoué
+
+Voici quelques raisons courantes pour lesquelles les tests-CsAddressBookService peuvent échouer:
+
+  - Vous avez spécifié un compte d’utilisateur non valide. Vous pouvez vérifier qu’un compte d’utilisateur existe en exécutant une commande semblable à ce qui suit:
     
         Get-CsUser "sip:kenmyer@litwareinc.com"
 
-  - The user account is valid, but the account is not currently enabled for Lync Server. To verify that a user account has been enabled for Lync Server, run a command similar to the following:
+  - Le compte d’utilisateur est valide, mais le compte n’est pas activé pour Lync Server. Pour vérifier qu’un compte d’utilisateur a été activé pour Lync Server, exécutez une commande semblable à ce qui suit:
     
         Get-CsUser "sip:kenmyer@litwareinc.com" | Select-Object Enabled
     
-    If the Enabled property is set to False that means that the user is not currently enabled for Lync Server.
+    Si la propriété Enabled est définie sur false, cela signifie que l’utilisateur n’est pas actuellement activé pour Lync Server.
 
-## Voir aussi
+</div>
 
-#### Autres ressources
+<div>
 
-[Test-CsAddressBookService](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsAddressBookService)
+## <a name="see-also"></a>Voir aussi
+
+
+[Test-CsAddressBookService](https://docs.microsoft.com/powershell/module/skype/Test-CsAddressBookService)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

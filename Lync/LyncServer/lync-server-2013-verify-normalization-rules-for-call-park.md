@@ -1,28 +1,69 @@
-﻿---
-title: "Lync Server 2013 : Vérif. des règles de normalisation pour le parcage d’appel"
-TOCTitle: Vérification des règles de normalisation pour le parcage d’appel
-ms:assetid: deaa170f-041e-45cb-8eab-f02931ab541e
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398981(v=OCS.15)
-ms:contentKeyID: 49299064
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: vérifier les règles de normalisation du parc d’appels'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Verify normalization rules for Call Park
+ms:assetid: deaa170f-041e-45cb-8eab-f02931ab541e
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398981(v=OCS.15)
+ms:contentKeyID: 48185646
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 114c7e035d96217f8cf41e88a87ccfd490fe5754
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846332"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Vérification des règles de normalisation pour le parcage d’appel dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-09-11_
+# <a name="verify-normalization-rules-for-call-park-in-lync-server-2013"></a>Vérifier les règles de normalisation du parc d’appels dans Lync Server 2013
 
-Les orbites de parcage d’appel ne doivent pas être normalisées. Vérifiez sur vos plans de numérotation que vos numéros orbites ne sont pas normalisés. Si vous devez créer une règle de normalisation supplémentaire pour empêcher la normalisation de vos orbites, suivez la procédure de la section [Création d’un plan de numérotation dans Lync Server 2013](lync-server-2013-create-a-dial-plan.md) pour définir une nouvelle règle de normalisation afin que le **modèle à suivre** identifie la plage d’orbites et que le **modèle de conversion** affiche la valeur **$1**. Par exemple, si votre plage d’orbites de parcage d’appel s’étend de 7000 à 7999, le champ **Modèle à suivre** affiche **^(7\\d{3})$** et **Modèle de conversion** **$1**.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-09-11_
+
+Le parking des orbites ne doit pas être normalisé. Vérifiez dans vos plans de numérotation que vos numéros orbites ne sont pas normalisés. Si vous devez créer une règle de normalisation supplémentaire pour empêcher la normalisation de vos orbites, suivez la procédure décrite dans la rubrique [créer un plan de numérotation dans Lync Server 2013](lync-server-2013-create-a-dial-plan.md) pour définir une nouvelle règle de normalisation, afin que le **modèle correspondant** identifie la plage d’orbite. le **modèle de traduction** est **$1**. Par exemple, si la plage de votre stationnement d’appels est 7000 – 7999, le **modèle à faire correspondre** est **\\^{3}(7 d) $** et le **modèle de traduction** est **$1**.
+
+<div>
+
 
 > [!IMPORTANT]  
-> Vérifiez que la règle de normalisation par défaut de vos plans de numérotation ne contient pas l’élément <strong>^(\d*)</strong>. Sinon, votre règle de normalisation de parcage d’appel ne sera jamais exécutée.
+> Vérifiez que la règle de normalisation par défaut de vos plans de numérotation ne contient pas l’élément <STRONG>^(\d*)</STRONG>. Dans le cas contraire, votre règle de normalisation de parc d’appels ne sera jamais exécutée.
 
-## Voir aussi
 
-#### Tâches
 
-[Création d’un plan de numérotation dans Lync Server 2013](lync-server-2013-create-a-dial-plan.md)
+</div>
+
+<div>
+
+## <a name="see-also"></a>Voir aussi
+
+
+[Créer un plan de numérotation dans Lync Server 2013](lync-server-2013-create-a-dial-plan.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,31 +1,53 @@
-﻿---
-title: 'Lync Server 2013 : Description des exigences de pare-feu pour SQL Server'
-TOCTitle: Description des exigences de pare-feu pour SQL Server
-ms:assetid: 31d7df2c-589f-465e-be74-cf6767db190d
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg425818(v=OCS.15)
-ms:contentKeyID: 49296784
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Description des exigences de pare-feu pour SQL Server'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Understanding firewall requirements for SQL Server
+ms:assetid: 31d7df2c-589f-465e-be74-cf6767db190d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425818(v=OCS.15)
+ms:contentKeyID: 48183781
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 586985c3059e12d358249a71dc2435c3be9254f1
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846474"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Description des exigences de pare-feu pour SQL Server avec Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2016-12-08_
+# <a name="understanding-firewall-requirements-for-sql-server-with-lync-server-2013"></a>Description des exigences de pare-feu pour SQL Server avec Lync Server 2013
 
-Dans un déploiement Standard Edition, les exceptions du pare-feu sont automatiquement créées pendant l’installation de Lync Server 2013. En revanche, dans les déploiements Enterprise Edition, vous devez configurer les exceptions de pare-feu manuellement sur le serveur SQL Server principal. Le protocole TCP/IP autorise l’utilisation unique d’un port donné pour une adresse IP donnée. Cela signifie que dans le cas d’un serveur SQL Server, vous pouvez affecter le port TCP 1433 à l’instance de base de données par défaut. Pour toutes les autres instances, vous devez utiliser le Gestionnaire de configuration SQL Server pour affecter les ports uniques et inutilisés. Cette rubrique traite des sujets suivants :
+</div>
 
-  - Configuration requise pour une exception de pare-feu dans le cadre de l’utilisation de l’instance par défaut
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2013-02-21_
+
+Dans le cadre d’un déploiement Standard Edition, des exceptions de pare-feu sont créées automatiquement lors de la configuration de Lync Server 2013. Toutefois, pour les déploiements Enterprise Edition, vous devez configurer les exceptions de pare-feu manuellement sur le serveur principal SQL Server. Le protocole TCP/IP permet d’utiliser un port donné une seule fois pour une adresse IP donnée. En d’autres termes, pour le serveur SQL Server, vous pouvez affecter l’instance de base de données par défaut, le port TCP 1433. Pour tous les autres cas, vous devez utiliser le gestionnaire de configuration SQL Server pour attribuer des ports uniques et inutilisés. Cette rubrique aborde les thèmes suivants:
+
+  - Configuration requise pour une exception de pare-feu lors de l’utilisation de l’instance par défaut
 
   - Configuration requise pour une exception de pare-feu pour le service SQL Server Browser
 
-  - Configuration requise pour les ports d’écoute statiques lors de l’utilisation d’instances nommées
+  - Configuration requise pour les ports d’écoute statique lors de l’utilisation d’instances nommées
 
-## Configuration requise pour une exception de pare-feu dans le cadre de l’utilisation de l’instance par défaut
+<div>
 
-Si vous utilisez l’instance par défaut SQL Server d’une base de données lors du déploiement de Lync Server 2013, les exigences de règle de pare-feu suivantes permettent d’assurer la communication entre le pool frontal et cette instance.
+## <a name="requirements-for-a-firewall-exception-when-using-the-default-instance"></a>Configuration requise pour une exception de pare-feu lors de l’utilisation de l’instance par défaut
+
+Si vous utilisez l’instance par défaut de SQL Server pour une base de données lors du déploiement de Lync Server 2013, les exigences de règle de pare-feu suivantes permettent de garantir la communication du pool frontal à l’instance SQL Server par défaut.
 
 
 <table>
@@ -45,15 +67,19 @@ Si vous utilisez l’instance par défaut SQL Server d’une base de données lo
 <tr class="odd">
 <td><p>TCP</p></td>
 <td><p>1433</p></td>
-<td><p>Entrant vers SQL Server</p></td>
+<td><p>Entrant sur SQL Server</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Configuration requise pour une exception de pare-feu pour le service SQL Server Browser
+</div>
 
-Le service SQL Server Browser localise les instances de base de données et indique le port que l’instance (nommée ou par défaut) doit utiliser.
+<div>
+
+## <a name="requirements-for-a-firewall-exception-for-the-sql-server-browser-service"></a>Configuration requise pour une exception de pare-feu pour le service SQL Server Browser
+
+Le service de navigateur SQL Server détermine les instances de base de données et communique le port que l’instance (nommée ou par défaut) est configurée pour l’utilisation.
 
 
 <table>
@@ -73,15 +99,19 @@ Le service SQL Server Browser localise les instances de base de données et indi
 <tr class="odd">
 <td><p>UDP</p></td>
 <td><p>1434</p></td>
-<td><p>Inbound</p></td>
+<td><p>Entrant</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Configuration requise pour les ports d’écoute statiques lors de l’utilisation d’instances nommées
+</div>
 
-Si vous utilisez des instances nommées dans la configuration SQL Server pour des bases de données prenant en charge Lync Server 2013, vous devez configurer les ports statiques à l’aide du Gestionnaire de configuration SQL Server. Une fois les ports statiques affectés à chaque instance nommée, vous devez créer des exceptions pour chaque port statique du pare-feu.
+<div>
+
+## <a name="requirements-for-static-listening-ports-when-using-named-instances"></a>Configuration requise pour les ports d’écoute statique lors de l’utilisation d’instances nommées
+
+Lors de l’utilisation d’instances nommées dans la configuration SQL Server pour les bases de données prenant en charge Lync Server 2013, vous devez configurer les ports statiques à l’aide du gestionnaire de configuration SQL Server. Une fois que les ports statiques ont été attribués à chaque instance nommée, vous créez des exceptions pour chaque port statique dans le pare-feu.
 
 
 <table>
@@ -100,14 +130,30 @@ Si vous utilisez des instances nommées dans la configuration SQL Server pour d
 <tbody>
 <tr class="odd">
 <td><p>TCP</p></td>
-<td><p>Défini statiquement</p></td>
-<td><p>Inbound</p></td>
+<td><p>Défini de manière statique</p></td>
+<td><p>Entrant</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Documentation SQL Server
+</div>
 
-La documentation Microsoft SQL Server 2012 fournit des instructions détaillées concernant la configuration de l’accès des bases de données au pare-feu. Pour plus d’informations sur Microsoft SQL Server 2012, reportez-vous à « Configurer le Pare-feu Windows pour autoriser l’accès à SQL Server » à l’adresse [http://go.microsoft.com/fwlink/p/?linkId=218031](http://go.microsoft.com/fwlink/p/?linkid=218031).
+<div>
+
+## <a name="sql-server-documentation"></a>Documentation SQL Server
+
+La documentation Microsoft SQL Server 2012 fournit des instructions détaillées sur la configuration de l’accès par le pare-feu aux bases de données. Pour plus d’informations sur Microsoft SQL Server 2012, voir «Configuration du pare-feu Windows pour autoriser l’accès [http://go.microsoft.com/fwlink/p/?linkId=218031](http://go.microsoft.com/fwlink/p/?linkid=218031)à SQL Server» à l’adresse.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

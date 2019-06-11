@@ -1,48 +1,82 @@
-﻿---
-title: Affichage des informations d’une région réseau
-TOCTitle: Affichage des informations d’une région réseau
-ms:assetid: 665740d0-a3ed-460f-8337-5ed945f90589
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ688076(v=OCS.15)
-ms:contentKeyID: 49891373
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: affichage des informations de région réseau'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Viewing network region information
+ms:assetid: 665740d0-a3ed-460f-8337-5ed945f90589
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688076(v=OCS.15)
+ms:contentKeyID: 49733672
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 52baf7c9dca4d663630bbf0cb17384916f5a953e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846266"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Affichage des informations d’une région réseau
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2013-02-23_
+# <a name="viewing-network-region-information-in-lync-server-2013"></a>Affichage des informations de région réseau dans Lync Server 2013
 
-Une région réseau interconnecte diverses parties d’un réseau sur plusieurs zones géographiques. Chaque région réseau doit être associée à un site central. Le site central est le site du centre de données dans lequel le service de stratégie de bande passante du service Contrôle d’admission des appels est exécuté. Vous pouvez utiliser le Panneau de configuration Lync Server pour afficher les régions réseau. Les régions réseau incluent des paramètres qui déterminent si d’autres chemins via Internet peuvent être empruntés pour les connexions audio et vidéo. Utilisez cette rubrique pour afficher des régions réseau existantes. Pour plus d’informations sur la création ou la modification de régions réseau existantes, voir [Création ou modification de régions réseau](lync-server-2013-creating-or-modifying-network-regions.md).
+</div>
 
-## Pour afficher des informations sur une région réseau avec Panneau de configuration Lync Server
+<div id="mainSection">
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou disposant des mêmes droits) ou affecté au rôle CsAdministrator, ouvrez une session sur un ordinateur qui se trouve sur votre déploiement interne.
+<div id="mainBody">
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes de démarrage du Panneau de configuration Lync Server, voir [Ouvrir les outils d’administration Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+<span> </span>
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Configuration réseau**, puis sur **Région**.
+_**Dernière modification de la rubrique:** 2013-02-23_
 
-4.  Dans la page **Région**, cliquez sur la région que vous souhaitez afficher.
+Une région réseau interconnecte diverses parties d’un réseau à plusieurs zones géographiques. Chaque région du réseau doit être associée à un site central. Le site central est le site du centre de données sur lequel le service de stratégie de bande passante de contrôle d’admission des appels (CAC) est en cours d’exécution. Vous pouvez utiliser le panneau de configuration de Lync Server pour afficher les régions du réseau. Les régions réseau incluent des paramètres qui déterminent si d’autres chemins d’accès via Internet sont autorisés pour les connexions audio et vidéo. Utilisez cette rubrique pour afficher les régions réseau existantes. Pour plus d’informations sur la création ou la modification de régions réseau existantes, voir [création ou modification des régions réseau dans Lync Server 2013](lync-server-2013-creating-or-modifying-network-regions.md).
+
+<div>
+
+## <a name="to-view-information-about-a-network-region-with-lync-server-control-panel"></a>Pour afficher des informations sur une région réseau avec le panneau de configuration de Lync Server
+
+1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affectées au rôle CsAdministrator, connectez-vous à n’importe quel ordinateur dans votre déploiement interne.
+
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+
+3.  Dans la barre de navigation de gauche, cliquez sur **configuration du réseau** , puis cliquez sur **région**.
+
+4.  Dans la page **zone** , cliquez sur la zone que vous voulez afficher.
     
+    <div>
+    
+
     > [!NOTE]  
     > Vous ne pouvez afficher qu’une région à la fois.
 
+    
+    </div>
+
 5.  Dans le menu **Edition**, cliquez sur **Afficher les détails**.
 
-## Affichage d’informations sur une région réseau à l’aide d’applets de commande Windows PowerShell
+</div>
 
-Vous pouvez également afficher des informations sur une région réseau à l’aide de Windows PowerShell et de l’applet de commande **Get-CsNetworkRegion**. Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session à distance de Windows PowerShell. Pour plus de détails sur l’utilisation de Windows PowerShell à distance pour une connexion à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Démarrage rapide : Gestion de Microsoft Lync Server 2010 avec PowerShell à distance » à l’adresse [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+<div>
 
-## Pour afficher les informations sur une région réseau
+## <a name="viewing-network-region-information-by-using-windows-powershell-cmdlets"></a>Affichage des informations de région du réseau à l’aide des cmdlets Windows PowerShell
 
-  - Pour afficher des informations sur toutes vos régions réseau, tapez la commande suivante dans Lync Server Management Shell, puis appuyez sur Entrée :
+Vous pouvez afficher les informations relatives à la région du réseau à l’aide de Windows PowerShell et de l’applet **de requête get-CsNetworkRegion** . Vous pouvez exécuter cette applet de commande sur Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell».
+
+<div>
+
+## <a name="to-view-network-region-information"></a>Pour afficher les informations relatives aux régions du réseau
+
+  - Pour afficher des informations sur toutes les régions de votre réseau, tapez la commande suivante dans Lync Server Management Shell, puis appuyez sur entrée:
     
         Get-CsNetworkRegion
     
-    Les informations retournées se présentent ainsi :
+    Vous obtiendrez des indications semblables à ceci :
     
         Identity         : Pacific Northwest
         Description      :
@@ -52,12 +86,30 @@ Vous pouvez également afficher des informations sur une région réseau à l’
                            BWPolicyModality=Video;AlternatePath=True}
         NetworkRegionID  : Pacific Northwest
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Get-CsNetworkRegion](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkRegionLink).
+</div>
 
-## Voir aussi
+Pour plus d’informations, consultez la rubrique d’aide de l’applet de passe [Get-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink) .
 
-#### Tâches
+</div>
 
-[Création ou modification de régions réseau](lync-server-2013-creating-or-modifying-network-regions.md)  
-[Suppression de régions réseau existantes](lync-server-2013-deleting-existing-network-regions.md)
+<div>
+
+## <a name="see-also"></a>Voir aussi
+
+
+[Création ou modification des régions réseau dans Lync Server 2013](lync-server-2013-creating-or-modifying-network-regions.md)  
+[Supprimer des zones réseau existantes dans Lync Server 2013](lync-server-2013-deleting-existing-network-regions.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

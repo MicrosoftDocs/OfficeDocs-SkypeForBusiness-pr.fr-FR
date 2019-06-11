@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013 : Topologies Active Directory prises en charge'
-TOCTitle: Topologies Active Directory prises en charge
-ms:assetid: 0c76b778-7652-4eb0-b161-86f2d4a94ccf
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398173(v=OCS.15)
-ms:contentKeyID: 49296232
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Topologies Active Directory prises en charge'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Supported Active Directory topologies
+ms:assetid: 0c76b778-7652-4eb0-b161-86f2d4a94ccf
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398173(v=OCS.15)
+ms:contentKeyID: 48183391
+ms.date: 10/02/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 3dc15cea3d07dc4e00f1d2a5527c862d90a078c6
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846736"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Topologies Active Directory prises en charge dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2016-12-08_
+# <a name="supported-active-directory-topologies-in-lync-server-2013"></a>Topologies Active Directory prises en charge dans Lync Server 2013
 
-Lync Server 2013 prend en charge les mêmes topologies des services de domaine Active Directory que Microsoft Lync Server 2010 et Microsoft Office Communications Server 2007 R2. Les topologies suivantes sont prises en charge :
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2014-10-02_
+
+Lync Server 2013 prend en charge les mêmes topologies de services de domaine Active Directory que Microsoft Lync Server 2010 et Microsoft Office Communications Server 2007 R2. Les topologies suivantes sont prises en charge:
 
   - Forêt unique avec domaine unique
 
@@ -27,93 +47,127 @@ Lync Server 2013 prend en charge les mêmes topologies des services de domaine
 
   - Plusieurs forêts dans une topologie de forêt de ressources
 
-  - Plusieurs forêts d’une topologie de forêts de ressources Lync avec Exchange Online
+  - Plusieurs forêts dans une topologie de forêt de ressources Lync avec Exchange Online
 
-L’illustration suivante identifie les icônes utilisées dans les illustrations de cette section.
+La figure suivante identifie les icônes utilisées dans les illustrations de cette section.
 
-**Légende des illustrations de topologie**
+**Clé pour les illustrations topologiques**
 
-![Légende des illustrations de topologie](images/Gg398173.0c3cc89f-6c43-4bc8-b2ec-61d89e391ee9(OCS.15).jpg "Légende des illustrations de topologie")
+![Clé pour les illustrations topologiques] (images/Gg398173.0c3cc89f-6c43-4bc8-b2ec-61d89e391ee9(OCS.15).jpg "Clé pour les illustrations topologiques")
 
-## Forêt unique, domaine unique
+<div>
 
-La topologie Active Directory la plus simple prise en charge par Lync Server, à savoir une forêt de domaine unique, est une topologie courante.
+## <a name="single-forest-single-domain"></a>Forêt unique, domaine unique
 
-L’illustration suivante montre un déploiement de Lync Server dans une topologie Active Directory à domaine unique.
+La topologie Active Directory la plus simple prise en charge par Lync Server (forêt de domaine unique) est une topologie courante.
+
+La figure suivante illustre un déploiement de serveur Lync dans une topologie Active Directory de domaine unique.
 
 **Topologie à domaine unique**
 
-![Topologie à domaine unique](images/Gg398173.258b3b3f-0558-4a36-a4c2-031be7299668(OCS.15).jpg "Topologie à domaine unique")
+![Topologie de domaine unique] (images/Gg398173.258b3b3f-0558-4a36-a4c2-031be7299668(OCS.15).jpg "Topologie de domaine unique")
 
-## Une seule forêt, plusieurs domaines
+</div>
 
-Une autre topologie Active Directory est prise en charge par Lync Server : une forêt unique comportant un domaine racine et un ou plusieurs domaines enfants. Dans ce type de topologie Active Directory, le domaine dans lequel vous créez des utilisateurs peut être différent de celui dans lequel vous déployez Lync Server. Cependant, si vous déployez un pool frontal, vous devez déployer tous les serveurs frontaux dans le pool au sein d’un seul domaine. La prise en charge par Lync Server des groupes d’administrateurs universels Windows permet l’administration interdomaine.
+<div>
 
-L’illustration suivante montre un déploiement dans une seule forêt avec plusieurs domaines. Dans cette illustration, une icône d’utilisateur indique le domaine dans lequel le compte d’utilisateur est hébergé et la flèche pointe vers le domaine où se trouve le pool Lync Server. Les comptes d’utilisateur sont les suivants :
+## <a name="single-forest-multiple-domains"></a>Forêt unique, plusieurs domaines
 
-  - Comptes d’utilisateur dans le même domaine que le pool Lync Server
+Une autre topologie Active Directory prise en charge par Lync Server est une forêt unique composée d’un domaine racine et d’un ou plusieurs domaines enfants. Dans ce type de topologie Active Directory, le domaine dans lequel vous créez des utilisateurs peut être différent de celui dans lequel vous déployez Lync Server. Toutefois, si vous déployez un pool frontal, vous devez déployer tous les serveurs frontaux dans le pool au sein d’un domaine unique. La prise en charge de Lync Server pour les groupes d’administrateurs Windows universelle autorise une administration entre domaines.
 
-  - Comptes d’utilisateur dans un domaine différent de celui du pool Lync Server
+La figure suivante illustre un déploiement au sein d’une seule forêt avec plusieurs domaines. Dans cette figure, une icône utilisateur affiche le domaine dans lequel le compte d’utilisateur est hébergé et la flèche pointe vers le domaine dans lequel réside le pool de serveurs Lync. Les comptes d’utilisateurs incluent les éléments suivants:
 
-  - Comptes d’utilisateurs dans un domaine enfant du domaine avec le pool Lync Server
+  - Comptes d’utilisateurs au sein du même domaine que le pool de serveurs Lync
+
+  - Comptes d’utilisateurs d’un domaine différent du pool de serveurs Lync
+
+  - Comptes d’utilisateurs dans un domaine enfant du domaine avec le pool de serveurs Lync
 
 **Forêt unique avec plusieurs domaines**
 
-![Forêt unique avec plusieurs domaines](images/Gg398173.2b809c72-c3cd-4fad-afe6-8c2dae779750(OCS.15).jpg "Forêt unique avec plusieurs domaines")
+![Forêt unique avec plusieurs domaines] (images/Gg398173.2b809c72-c3cd-4fad-afe6-8c2dae779750(OCS.15).jpg "Forêt unique avec plusieurs domaines")
 
-## Une seule forêt, plusieurs arbres
+</div>
 
-Une topologie de forêt à plusieurs arbres comporte au moins deux domaines qui définissent des arborescences indépendantes et des espaces de noms Active Directory distincts.
+<div>
 
-L’illustration suivante montre une forêt unique avec plusieurs arbres. Dans cette illustration, une icône d’utilisateur indique le domaine dans lequel le compte d’utilisateur est hébergé, une ligne pleine pointe vers un pool Lync Server qui se trouve dans le même domaine ou dans un domaine différent et une ligne en pointillé pointe vers le pool Lync Server qui se trouve dans une autre arborescence. Les comptes d’utilisateur sont les suivants :
+## <a name="single-forest-multiple-trees"></a>Forêt unique, plusieurs arbres
 
-  - Comptes d’utilisateur dans le même domaine que le pool Lync Server
+Une topologie à plusieurs arborescences de forêts se compose de deux domaines ou plus qui définissent des structures d’arborescence indépendantes et des espaces de noms Active Directory distincts.
 
-  - Comptes d’utilisateur dans un domaine différent (mais dans le même arbre) du pool Lync Server
+La figure suivante illustre une seule forêt avec plusieurs arborescences. Dans cette figure, une icône d’utilisateur affiche le domaine dans lequel le compte d’utilisateur est hébergé, une ligne pleine pointe vers un pool de serveurs Lync résidant au sein d’un même domaine ou d’un autre domaine et un trait en pointillés vers Lync Server pool se trouvant dans une autre arborescence. Les comptes d’utilisateurs incluent les éléments suivants:
 
-  - Comptes d’utilisateur dans une autre arborescence que celle du pool Lync Server
+  - Comptes d’utilisateurs au sein du même domaine que le pool de serveurs Lync
 
-**Forêt unique avec plusieurs arbres**
+  - Comptes d’utilisateurs d’un domaine différent de (mais de l’arborescence)
 
-![Forêt unique avec plusieurs arbres](images/Gg398173.db30fa49-174a-4974-8695-41dd78e39432(OCS.15).jpg "Forêt unique avec plusieurs arbres")
+  - Comptes utilisateur dans une autre arborescence que le pool de serveurs Lync
 
-## Plusieurs forêts, forêt centrale
+**Forêt unique avec plusieurs arborescences**
 
-Lync Server prend en charge plusieurs forêts configurées dans une topologie de forêt centrale. Les topologies de forêt centrale utilisent des objets contact dans la forêt centrale pour représenter des utilisateurs dans les autres forêts. La forêt centrale héberge également des comptes d’utilisateur pour tout utilisateur de cette forêt. Une application de synchronisation d’annuaires, tel que Microsoft Identity Integration Server (MIIS), Microsoft Forefront Identity Manager (FIM) 2010 ou Microsoft Identity Lifecycle Manager (ILM) 2007 Feature Pack 1 (FP1), gère le cycle de vie des comptes d’utilisateur dans l’organisation : lorsqu’un nouveau compte d’utilisateur est créé dans l’une des forêts ou lorsqu’un compte d’utilisateur est supprimé d’une forêt, l’application de synchronisation d’annuaires synchronise le contact correspondant dans la forêt centrale.
+![Forêt unique avec plusieurs arborescences] (images/Gg398173.db30fa49-174a-4974-8695-41dd78e39432(OCS.15).jpg "Forêt unique avec plusieurs arborescences")
 
-Une forêt centrale présente les avantages suivants :
+</div>
 
-  - Les serveurs exécutant Lync Server sont centralisés dans une forêt unique.
+<div>
+
+## <a name="multiple-forests-central-forest"></a>Forêts multiples, forêt centrale
+
+Lync Server prend en charge plusieurs forêts configurées dans une topologie de forêt centrale. Les topologies de forêt centralisées utilisent les objets de contact dans la forêt centrale pour représenter les utilisateurs dans les autres forêts. La forêt centrale héberge également les comptes d’utilisateurs pour tous les utilisateurs de cette forêt. Un produit de synchronisation d’annuaires, tel que Microsoft Identity Integration Server (MIIS), Microsoft Forefront Identity Manager (FIM) 2010 ou Microsoft Identity Lifecycle Manager (ILM) 2007 Feature Pack 1 (FP1), gère le cycle de vie des comptes d’utilisateurs dans Organisation: lorsqu’un nouveau compte d’utilisateur est créé dans l’une des forêts ou qu’un compte d’utilisateur est supprimé d’une forêt, le produit de synchronisation d’annuaires synchronise le contact correspondant dans la forêt centrale.
+
+Une forêt centrale offre les avantages suivants:
+
+  - Les serveurs exécutant Lync Server sont centralisés au sein d’une même forêt.
 
   - Les utilisateurs peuvent rechercher et communiquer avec d’autres utilisateurs dans n’importe quelle forêt.
 
-  - Les utilisateurs peuvent voir la présence d’autres utilisateurs dans n’importe quelle forêt.
+  - Les utilisateurs peuvent afficher le statut de présence d’autres utilisateurs dans n’importe quelle forêt.
 
-  - L’application de synchronisation d’annuaires automatise l’ajout et la suppression d’objets contact dans la forêt centrale à mesure que des comptes d’utilisateur sont créés ou supprimés.
+  - Le produit de synchronisation d’annuaires automatise l’ajout et la suppression d’objets de contact dans la forêt centrale lors de la création ou de la suppression de comptes d’utilisateur.
 
-L’illustration suivante illustre une topologie de forêt centrale. Dans cette illustration, il existe des relations de confiance bidirectionnelles entre le domaine qui héberge Lync Server, qui se trouve dans la forêt centrale, et chaque domaine d’utilisateur uniquement, qui se trouve dans une forêt distincte. Le schéma dans les différentes forêts d’utilisateurs ne doit pas être étendu.
+La figure suivante illustre une topologie de forêt centrale. Dans cette figure, il existe des relations d’approbation à double sens entre le domaine qui héberge Lync Server, qui se trouve dans la forêt centrale et chaque domaine utilisateur uniquement, qui se trouve dans une autre forêt. Il n’est pas nécessaire de prolonger le schéma dans les forêts utilisateurs distinctes.
 
 **Topologie de forêt centrale**
 
-![Topologie de forêt centrale](images/Gg398173.7feb049a-453b-4134-9128-873b83ee1755(OCS.15).jpg "Topologie de forêt centrale")
+![Topologie de forêt centrale] (images/Gg398173.7feb049a-453b-4134-9128-873b83ee1755(OCS.15).jpg "Topologie de forêt centrale")
 
-## Plusieurs forêts, forêt de ressources
+</div>
 
-Dans une topologie de forêt de ressources, une forêt est dédiée à l’exécution d’applications serveur, telles que Microsoft Exchange Server et Lync Server. La forêt de ressources héberge les applications serveur et une représentation synchronisée de l’objet utilisateur actif, mais elle ne contient aucun compte d’utilisateur pour lequel l’ouverture de session est activée. La forêt de ressources joue le rôle d’un environnement de services partagés pour les autres forêts dans lesquelles se trouvent les objets utilisateur. Les forêts d’utilisateurs ont une relation de confiance au niveau de la forêt avec la forêt de ressources. Lorsque vous déployez Lync Server dans ce type de topologie, vous créez un objet utilisateur désactivé dans la forêt de ressources pour chaque compte d’utilisateur dans les forêts d’utilisateurs. Si Microsoft Exchange est déjà déployé dans la forêt de ressources, il se peut que les comptes d’utilisateurs désactivés existent déjà. Une application de synchronisation d’annuaires, tel que MIIS, Microsoft Forefront Identity Manager (FIM) 2010 ou Microsoft Identity Lifecycle Manager (ILM) 2007 Feature Pack 1 (FP1), gère le cycle de vie des comptes d’utilisateur. Lorsqu’un nouveau compte d’utilisateurs est créé dans l’une des forêts d’utilisateurs ou lorsqu’un compte d’utilisateur est supprimé d’une forêt, l’application de synchronisation d’annuaires synchronise la représentation d’utilisateur correspondante dans la forêt de ressources.
+<div>
 
-Cette topologie peut être utilisée pour fournir une infrastructure partagée pour les services dans les organisations qui gèrent plusieurs forêts ou pour administrer séparément les objets Active Directory. Les entreprises qui doivent isoler l’administration Active Directory pour des raisons de sécurité choisissent souvent cette topologie.
+## <a name="multiple-forests-resource-forest"></a>Forêts multiples, forêt de ressources
 
-Cette topologie évite de devoir étendre le schéma Active Directory à une forêt unique (c’est-à-dire la forêt de ressources).
+Dans une topologie de forêt de ressources, une forêt est consacrée aux applications serveur en cours d’exécution, comme Microsoft Exchange Server et Lync Server. La forêt de ressources héberge les applications serveur et une représentation synchronisée de l’objet utilisateur actif, mais elle ne contient pas de comptes d’utilisateur à extension messagerie. La forêt de ressources agit en tant qu’environnement de services partagés pour les autres forêts où résident les objets utilisateurs. Les forêts utilisateur disposent d’une relation d’approbation de niveau forêt avec la forêt de ressources. Lorsque vous déployez Lync Server dans ce type de topologie, vous devez créer un objet utilisateur désactivé dans la forêt de ressources pour chaque compte d’utilisateur dans les forêts utilisateurs. Si Microsoft Exchange est déjà déployé dans la forêt de ressources, il est possible que les comptes d’utilisateurs désactivés existent déjà. Un produit de synchronisation d’annuaires, tel que MIIS, Microsoft Forefront Identity Manager (FIM) 2010 ou Microsoft Identity Lifecycle Manager (ILM) 2007 Feature Pack 1 (FP1), gère le cycle de vie des comptes d’utilisateurs. Lorsqu’un nouveau compte d’utilisateur est créé dans l’une des forêts utilisateur ou qu’un compte d’utilisateur est supprimé d’une forêt, le produit de synchronisation d’annuaires synchronise la représentation utilisateur correspondante dans la forêt de ressources.
+
+Cette topologie peut être utilisée pour fournir une infrastructure partagée pour les services dans les organisations qui gèrent plusieurs forêts ou pour dissocier l’administration des objets Active Directory d’une autre administration. Les sociétés qui ont besoin d’isoler l’administration Active Directory pour des raisons de sécurité choisissent souvent cette topologie.
+
+Cette topologie offre l’avantage de limiter l’extension du schéma Active Directory à une seule forêt (c’est-à-dire la forêt de ressources).
 
 Le diagramme suivant illustre une topologie de forêt de ressources.
 
 **Topologie de forêt de ressources**
 
-![Topologie de forêt de ressources Active Directory](images/Gg398173.54ab82f1-e9e5-40f0-a54e-86e340b65c2a(OCS.15).jpg "Topologie de forêt de ressources Active Directory")
+![Topologie de la forêt de ressources Active Directory] (images/Gg398173.54ab82f1-e9e5-40f0-a54e-86e340b65c2a(OCS.15).jpg "Topologie de la forêt de ressources Active Directory")
 
-## Plusieurs forêts d’une topologie de forêts de ressources Lync avec Exchange Online
+</div>
 
-Dans cette topologie, une ou plusieurs forêts sont locales et dédiées à l’hébergement des comptes d’utilisateur Active Directory. La forêt de ressources est hors site et tenue à jour par un fournisseur d’hébergement tiers. Elle contient uniquement le déploiement de Lync Server et une réplication synchronisée des comptes d’utilisateur provenant de la ou des forêts de comptes d’utilisateur locales. Elle ne contient pas de comptes d’utilisateur pour lesquels l’ouverture de session est activée. Exchange est déployé dans la ou les forêts de comptes d’utilisateur locales, intégrées à Exchange Online (déploiement hybride), ou bien les services de messagerie électronique pour les comptes d’utilisateur locaux sont fournis exclusivement par Exchange Online.
+<div>
 
-La forêt de ressources joue le rôle d’environnement de services partagés pour la ou les forêts Active Directory locales dans lesquelles résident les objets utilisateur. La ou les forêts de comptes d’utilisateur ont une relation d’approbation unidirectionnelle avec la forêt de ressources. Quand vous déployez Lync Server dans ce type de topologie, vous créez un seul objet utilisateur désactivé dans la forêt de ressources pour chaque compte d’utilisateur inclus dans les forêts d’utilisateurs. Une application de synchronisation d’annuaires, comme MIIS, Microsoft Forefront Identity Manager (FIM) 2010 ou Microsoft Identity Lifecycle Manager (ILM) 2007 Feature Pack 1 (FP1), gère le cycle de vie des comptes d’utilisateur. Quand un nouveau compte d’utilisateur est créé dans l’une des forêts d’utilisateurs ou quand un compte d’utilisateur est supprimé d’une forêt, l’application de synchronisation d’annuaires synchronise la représentation de l’utilisateur correspondant dans la forêt de ressources. Pour plus d’informations sur la configuration d’un déploiement multiforêts, reportez-vous à la section [Déploiement de Lync dans une architecture multiforêts (Lync hébergé par un partenaire avec un déploiement Exchange hybride)](http://go.microsoft.com/fwlink/p/?linkid=513216).
+## <a name="multiple-forests-in-a-lync-resource-forest-topology-with-exchange-online"></a>Plusieurs forêts dans une topologie de forêt de ressources Lync avec Exchange Online
+
+Dans cette topologie, une ou plusieurs forêts résident en local et sont dédiées à l’hébergement des comptes d’utilisateurs Active Directory. La forêt de ressources est située en local et est gérée par un fournisseur d’hébergement tiers. La forêt de ressources contient uniquement le déploiement de Lync Server et une réplication synchronisée des comptes d’utilisateurs des forêts de comptes d’utilisateurs locales. Il ne contient pas de comptes d’utilisateur à extension messagerie. Exchange est déployé soit dans les forêts de comptes d’utilisateurs locales intégrées que dans Exchange Online, ou les services de messagerie pour les comptes d’utilisateurs locaux sont fournis uniquement par Exchange Online.
+
+La forêt de ressources agit en tant qu’environnement de services partagés pour la ou les forêts Active Directory locales où résident les objets utilisateurs. La ou les forêts de compte d’utilisateur disposent d’une relation d’approbation de forêt à une façon unique avec la forêt de ressources. Lorsque vous déployez Lync Server dans ce type de topologie, vous devez créer un objet utilisateur désactivé dans la forêt de ressources pour chaque compte d’utilisateur dans les forêts utilisateurs. Un produit de synchronisation d’annuaires, tel que MIIS, Microsoft Forefront Identity Manager (FIM) 2010 ou Microsoft Identity Lifecycle Manager (ILM) 2007 Feature Pack 1 (FP1), gère le cycle de vie des comptes d’utilisateurs. Lorsqu’un nouveau compte d’utilisateur est créé dans l’une des forêts utilisateur ou qu’un compte d’utilisateur est supprimé d’une forêt, le produit de synchronisation d’annuaires synchronise la représentation utilisateur correspondante dans la forêt de ressources. Pour plus d’informations sur la configuration d’un déploiement de forêts multiples, voir [déploiement de Lync dans une architecture à plusieurs forêts (partenaire hébergé sur Lync avec Exchange hybride)](http://go.microsoft.com/fwlink/p/?linkid=513216).
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

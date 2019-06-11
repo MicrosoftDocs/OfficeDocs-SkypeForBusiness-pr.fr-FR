@@ -1,130 +1,221 @@
-﻿---
-title: 'Lync Server 2013 : exigences techniques pour la mobilité'
-TOCTitle: Exigences techniques pour la mobilité
-ms:assetid: 831be681-4de0-4e42-b04f-8879ca4dcd23
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Hh690030(v=OCS.15)
-ms:contentKeyID: 49297913
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : exigences techniques pour la mobilité'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Technical requirements for mobility
+ms:assetid: 831be681-4de0-4e42-b04f-8879ca4dcd23
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690030(v=OCS.15)
+ms:contentKeyID: 48184679
+ms.date: 07/24/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ac74f7e9e85829e500900e03d4b7cfedf89d1e0b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846645"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Exigences techniques pour la mobilité dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2016-12-08_
+# <a name="technical-requirements-for-mobility-in-lync-server-2013"></a>Exigences techniques pour la mobilité dans Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2014-07-24_
 
     Some information in this topic pertains to Cumulative Updates for Lync Server 2013: February 2013.
 
-Les utilisateurs mobiles font face à différents scénarios d’applications mobiles qui nécessitent une planification particulière. Par exemple, il se peut que quelqu’un commence à utiliser une application mobile lors d’un déplacement en se connectant par le biais du réseau 3G, qu’il bascule vers le réseau Wi-Fi d’entreprise à son arrivée au bureau et qu’il rebascule ensuite sur le réseau 3G à sa sortie du bâtiment. Vous devez planifier votre environnement de sorte qu’il prenne en charge ce type de transition de réseau et qu’il garantisse une expérience utilisateur cohérente. Cette section décrit les exigences d’infrastructure à satisfaire pour prendre en charge des applications mobiles et la découverte automatique des ressources de mobilité.
+Les utilisateurs mobiles rencontrent différents scénarios d’application mobile qui nécessitent une planification particulière. Par exemple, une personne peut commencer à utiliser une application mobile en se connectant par le biais du réseau 3G, puis basculer vers le réseau Wi-Fi d’entreprise lors de votre travail, puis revenir à la technologie 3G lorsque vous quittez le bâtiment. Vous devez planifier votre environnement pour prendre en charge ces transitions réseau et garantir une utilisation homogène de l’utilisateur. Cette section décrit les exigences d’infrastructure requises pour la prise en charge des applications mobiles et la découverte automatique des ressources de mobilité.
+
+<div>
+
 
 > [!NOTE]  
-> Même si les applications mobiles peuvent également se connecter à d’autres services Lync Server 2013, l’exigence relative à l’envoi de toutes les demandes web d’applications mobiles au même nom de domaine complet web externe s’applique uniquement au service de mobilité Lync Server 2013. Cette configuration n’est pas nécessaire pour les autres services de mobilité.
+> Même si les applications mobiles peuvent également se connecter à d’autres services Lync Server 2013, la configuration requise pour envoyer toutes les demandes Web d’applications mobiles au même nom de domaine complet (FQDN) du site Web externe s’applique uniquement au service de mobilité Lync Server 2013. Les autres services de mobilité ne nécessitent pas cette configuration.
 
-Les exigences en matière d’affinité de cookie dans les équilibreurs de charge matérielle sont réduites et vous pouvez la remplacer par l’affinité TCP (Transmission Control Protocol) si vous utilisez Lync Mobile fourni avec Lync Server 2013. L’affinité de cookie peut être utilisée, mais les services web ne l’exigent plus.
+
+
+</div>
+
+L’exigence d’affinité de cookie dans les équilibreurs de charge matérielle est considérablement réduite et vous remplacez l’affinité TCP (Transmission Control Protocol) si vous utilisez le mobile Lync fourni avec Lync Server 2013. L’affinité de cookie peut toujours être utilisée, mais les services Web ne le nécessitent plus.
+
+<div>
+
 
 > [!IMPORTANT]  
-> Tout le trafic du service de mobilité passe par le proxy inverse, quel que soit le point d’origine (interne ou externe). Dans le cas d’un seul proxy inverse ou d’une batterie de proxys inverses, ou d’un appareil qui fournit la fonction de proxy inverse, un problème peut survenir quand le trafic interne quitte une interface et essaie immédiatement d’entrer dans la même interface. Cela peut souvent mener à une violation de règle de sécurité appelée « usurpation d’identité de paquet TCP ». L’<em>épinglage</em> (hairpinning : sortie puis entrée immédiate d’un paquet ou d’une série de paquets) doit être autorisé pour que la mobilité fonctionne. Une solution à ce problème consiste à utiliser un proxy inverse distinct du pare-feu (la règle de prévention d’usurpation d’identité doit toujours être appliquée au niveau du pare-feu, pour des raisons de sécurité). L’épingle peut se trouver au niveau de l’interface externe du proxy inverse plutôt qu’au niveau de l’interface externe du pare-feu. Vous détectez l’usurpation d’identité au niveau du pare-feu et ignorez la règle au niveau du proxy inverse, autorisant ainsi l’épingle requise par la mobilité.<br />
-Utilisez les enregistrements hôte DNS (Domain Name System) ou CNAME pour définir le proxy inverse pour le comportement d’épinglage (et non le pare-feu) dans la mesure du possible.
+> Tout le trafic de service de mobilité passe par le proxy inverse, quelle que soit la position du point de départ (interne ou externe). Dans le cas d’un seul proxy inverse ou d’une batterie de serveurs proxy inverse, ou d’un appareil fournissant la fonction de proxy inverse, un problème peut se produire lorsque le trafic interne est egressing par le biais d’une interface et tente d’être entrant immédiatement dans la même interface. Cela entraîne souvent une violation d’une règle de sécurité appelée usurpation de paquets TCP ou simplement une usurpation d’identité. <EM>Épingler des cheveux</EM> (la sortie et la pénétration immédiate d’un paquet ou d’une série de paquets) doivent être autorisés pour que la mobilité puisse fonctionner. Une façon de résoudre ce problème consiste à utiliser un proxy inverse différent du pare-feu (la règle de prévention des intrusions doit toujours être appliquée au pare-feu, à des fins de sécurité). Le cheveux peut se produire à l’interface externe du proxy inverse au lieu de l’interface externe du pare-feu. Vous avez détecté l’usurpation d’identité au niveau du pare-feu et détendez la règle sur le proxy inverse, ce qui permet à l’cheveux de la mobilité requise.<BR>Pour définir le proxy inverse du comportement de cheveux (pas le pare-feu), utilisez les enregistrements CNAMe ou DNS (Domain Name System).
 
-Lync Server 2013 prend en charge les services de mobilité pour les clients mobiles Lync 2010 Mobile et Lync 2013. Ces deux types de clients utilisent le service de découverte automatique de Lync Server 2013 pour trouver le point d’entrée de mobilité, mais diffèrent quant au service de mobilité utilisé. Lync 2010 Mobile utilise le service de mobilité appelé *Mcx* , introduit dans la Mise à jour cumulative pour Lync Server 2010 de novembre 2011. Les clients mobiles Lync 2013 utilisent l’API web de communications unifiées, ou *UCWA* , comme fournisseur de service de mobilité.
 
-## Configuration DNS interne et externe
 
-Les services de mobilité Mcx (introduit dans la Mise à jour cumulative pour Lync Server 2010 de novembre 2011) et UCWA (introduit dans la Mise à jour cumulative pour Lync Server 2013 de février 2013) utilisent le système DNS de la même manière.
+</div>
 
-Quand vous utilisez la découverte automatique, les appareils mobiles utilisent le système DNS pour trouver les ressources. Lors de la recherche DNS, une tentative de connexion est d’abord effectuée vers le nom de domaine complet associé à l’enregistrement DNS interne (lyncdiscoverinternal. *\<internal domain name\>*). Si aucune connexion ne peut être établie à l’aide de l’enregistrement DNS interne, une tentative de connexion est effectuée à l’aide de l’enregistrement DNS externe (lyncdiscover. *\<sipdomain\>*). Un appareil mobile interne au réseau se connecte à l’URL du service de découverte automatique interne, alors qu’un appareil mobile externe au réseau se connecte à l’URL du service de découverte automatique externe. Les demandes externes passent par le proxy inverse. Le service de découverte automatique de Lync Server 2013 renvoie toutes les URL des services web correspondant au pool d’accueil de l’utilisateur, dont les URL du service de mobilité (Mcx et UCWA). Cependant, l’URL du service de mobilité interne et l’URL du service de mobilité externe sont toutes deux associées au nom de domaine complet externe des services web. Par conséquent, qu’il soit interne ou externe au réseau, un appareil mobile se connecte toujours au service de mobilité de Lync Server 2013 de manière externe, par le biais du proxy inverse.
+Lync Server 2013 prend en charge les services de mobilité pour les clients mobiles Lync 2010 mobile et Lync 2013. Les deux clients utilisent le service de découverte automatique Lync Server 2013 pour trouver le point d’entrée de mobilité et varient en fonction du service de mobilité utilisé. Lync 2010 mobile utilise le service de mobilité appelé *MCX*, présenté par la mise à jour cumulative pour Lync Server 2010:2011 novembre. Les clients mobiles Lync 2013 utilisent l’API Web de communications unifiées, ou *UCWA*, comme fournisseur de services de mobilité.
+
+<div>
+
+## <a name="internal-and-external-dns-configuration"></a>Configuration DNS interne et externe
+
+Les services de mobilité MCX (introduits avec la mise à jour cumulative pour Lync Server 2010: novembre 2011) et UCWA (introduits dans les mises à jour cumulatives de Lync Server 2013:2013) utilisent le système de la même manière.
+
+Lorsque vous utilisez la découverte automatique, les appareils mobiles utilisent le DNS pour localiser les ressources. Lors de la recherche DNS, une connexion est d’abord tentée vers le nom de domaine complet associé à l’enregistrement DNS\< interne (lyncdiscoverinternal. nom\>de domaine interne). Si une connexion ne peut pas être effectuée à l’aide de l’enregistrement DNS interne, une connexion est tentée via l’enregistrement DNS\< externe (lyncdiscover). sipdomain\>). Un appareil mobile qui est interne au réseau se connecte à l’URL du service de découverte automatique interne et un appareil mobile extérieur au réseau se connecte à l’URL du service de découverte automatique externe. Les requêtes de découverte automatique externes passent par le proxy inverse. Le service de découverte automatique Lync Server 2013 renvoie toutes les URL de services Web pour le pool de domicile de l’utilisateur, y compris les URL de service de mobilité (MCX et UCWA). Toutefois, l’URL du service de mobilité interne et l’URL du service de mobilité externe sont associées au nom de domaine complet des services Web externes. Par conséquent, qu’il s’agisse d’un appareil mobile ou d’une connexion externe, l’appareil se connecte toujours au service de mobilité Lync Server 2013 en externe via le proxy inverse.
+
+<div>
+
 
 > [!NOTE]  
-> Il est important de comprendre que votre déploiement peut comporter plusieurs espaces de noms distincts pour une utilisation interne et externe. Votre nom de domaine SIP peut être différent du nom de domaine de déploiement interne. Par exemple, votre domaine SIP peut être <strong>contoso.com</strong>, alors que votre déploiement interne peut être <strong>contoso.net</strong>. Les utilisateurs se connectant à Lync Server emploieront le nom de domaine SIP, tel que <strong>john@contoso.com</strong>. Lors du traitement des services web externes (définis dans Générateur de topologie en tant que <strong>Services web externes</strong>), les noms de domaine et de domaine SIP seront cohérents, comme indiqué dans DNS. Lors du traitement des services web internes (définis dans Générateur de topologie en tant que <strong>Services web internes</strong>), le FQDN du serveur frontal, pool de serveurs frontaux, directeur ou pool de directeurs représentera le nom par défaut des services web internes. Vous pouvez remplacer le nom des services web internes. Utilisez le nom de domaine interne (et non le nom de domaine SIP) pour les services web internes, et définissez l’enregistrement A de l’hôte DNS (ou, pour IPv6, AAAA) de sorte qu’il corresponde au nom remplacé. Par exemple, le FQDN par défaut des services web internes peut être <strong>pool01.contoso.net</strong>. Un FQDN remplacé des services web internes peut être <strong>webpool.contoso.net</strong>. Ce mode de définition des services web permet de garantir l’observation des localités interne et externe de ces services (et non la localité de l’utilisateur qui s’en sert).<br />
-Cependant, les services web étant définis dans Générateur de topologie et le nom des services web internes remplaçable, sous réserve de la cohérence du nom final des services Web, du certificat qui le valide et des enregistrements DNS qui le définissent, vous pouvez définir ces services web internes avec le nom de domaine de votre choix (dont celui du domaine SIP). La résolution du nom en adresse IP est déterminée par les enregistrements hôte DNS et un espace de noms cohérent.<br />
-Dans le cas de cette rubrique et des exemples, le nom de domaine interne est utilisé pour illustrer la topologie et les définitions DNS.
+> Il est important de comprendre que votre déploiement peut être composé de plusieurs espaces de noms distincts pour une utilisation interne et externe. Le nom de votre domaine SIP doit être différent du nom de domaine de déploiement interne. Par exemple, votre domaine SIP est susceptible d’être <STRONG>contoso.com</STRONG>, alors que votre déploiement interne est susceptible d’être <STRONG>contoso.net</STRONG>. Les utilisateurs qui se connectent à Lync Server utilisent le nom de domaine SIP (par exemple, <STRONG>John@contoso.com</STRONG>). Lorsque vous répondez aux services Web externes (définis dans le générateur de topologie comme <STRONG>services Web externes</STRONG>), le nom de domaine et le nom de domaine SIP sont cohérents, comme défini dans DNS. Lors de l’adressage des services Web internes (définis dans le générateur de topologie comme <STRONG>services Web internes</STRONG>), le nom par défaut des services Web internes sera le nom de domaine complet du serveur frontal, du pool frontal, du réalisateur ou du pool de réalisateurs. Vous avez la possibilité de remplacer le nom des services Web internes. Vous devez utiliser le nom de domaine interne (et non le nom de domaine SIP) pour les services Web internes et définir l’enregistrement DNS A (ou, pour IPv6, AAAA) pour refléter le nom substitué. Par exemple, le nom de domaine complet des services Web internes par défaut est <STRONG>pool01.contoso.net</STRONG>. Un nom de domaine complet (FQDN) de services Web interne substitué est susceptible d’être <STRONG>webpool.contoso.net</STRONG>. Le fait de définir les services Web de cette manière permet de s’assurer que la localité interne et externe des services, et non celle de l’utilisateur qui les utilise, est observée.<BR>Toutefois, étant donné que les services Web sont définis dans le générateur de topologie et que le nom des services Web interne peut être substitué, tant que le nom des services Web résultant, le certificat qui les valide et les enregistrements DNS qui le définissent, sont cohérents, vous pouvez définir le services Web internes avec n’importe quel nom de domaine (y compris le nom de domaine SIP) que vous souhaitez. Enfin, la résolution du nom à l’adresse IP est déterminée par les enregistrements d’hôte DNS et un espace de noms cohérent.<BR>Pour les besoins de cette rubrique et ces exemples, le nom de domaine interne est utilisé pour illustrer la topologie et les définitions DNS.
 
-Le diagramme suivant illustre le flux des demandes web d’applications mobiles pour le service de mobilité et le service de découverte automatique lors de l’utilisation d’une configuration DNS interne et externe.
+
+
+</div>
+
+Le diagramme suivant illustre le flux des requêtes Web d’applications mobiles pour le service de mobilité et pour le service de découverte automatique lors de l’utilisation d’une configuration DNS interne et externe.
 
 **Flux de service de mobilité avec la découverte automatique**
 
-![Flux de demandes de mobilité](images/Hh690030.cdb96424-96f2-4abf-88d7-1d32d1010ffd(OCS.15).jpg "Flux de demandes de mobilité")
+![cdb96424-96f2-4ABF-88d7-1d32d1010ffd] (images/Hh690030.cdb96424-96f2-4abf-88d7-1d32d1010ffd(OCS.15).jpg "cdb96424-96f2-4ABF-88d7-1d32d1010ffd")
+
+<div>
+
 
 > [!NOTE]  
-> Le diagramme illustre les services web génériques. Un répertoire virtuel nommé Mobility illustre les services de mobilité Mcx et/ou UCWA. Si vous n’avez pas appliqué la mise à jour cumulative pour Lync Server 2013 de février 2013, il n’est pas certain que le répertoire virtuel Ucwa soit défini sur vos services web internes et externes. Vous aurez un répertoire virtuel de découverte automatique et peut-être un répertoire virtuel Mcx.<br />
-La découverte automatique et la découverte des services fonctionnent de la même façon, quelle que soit la technologie des services de mobilité déployée.
+> Le diagramme illustre des services Web génériques. Un répertoire virtuel intitulé mobilité représente les services de mobilité MCX et/ou UCWA. Si vous n’avez pas appliqué les mises à jour cumulatives pour Lync Server 2013: février 2013, il est possible que vous n’ayez pas ou non le répertoire virtuel Ucwa défini sur vos services Web internes et externes. Vous aurez une découverte automatique d’annuaire virtuelle et vous aurez peut-être un répertoire virtuel MCX.<BR>La découverte automatique et la découverte de services fonctionnent de la même manière, quelle que soit la technologie de services de mobilité déployée.
 
-Pour prendre en charge les utilisateurs mobiles internes et externes au réseau d’entreprise, vos noms de domaine complets web internes et externes doivent remplir certaines conditions. Par ailleurs, certaines conditions supplémentaires peuvent être requises, selon les fonctionnalités que vous choisissez d’implémenter :
 
-  - nouveaux enregistrements DNS, A (hôte, si IPv6, AAAA) ou CNAME pour la découverte automatique ;
+
+</div>
+
+Pour prendre en charge les utilisateurs mobiles à l’intérieur et à l’extérieur du réseau d’entreprise, vos noms de domaine complets internes et externes doivent respecter certaines conditions préalables. De plus, il est possible que vous deviez respecter d’autres exigences, en fonction des fonctionnalités que vous choisissez d’implémenter:
+
+  - Nouveaux enregistrements DNS, CNAMe ou A (hôte, s’il s’agit du protocole IPv6, AAAA) pour la découverte automatique.
 
   - nouvelle règle de pare-feu, si vous souhaitez prendre en charge les notifications push à travers votre réseau Wi-Fi ;
 
-  - autres noms du sujet sur les certificats de serveurs internes et les certificats de proxys inverses, pour la découverte automatique ;
+  - Les autres noms d’objet des certificats de serveur internes et des certificats de proxy inverse, pour la découverte automatique.
 
-  - la configuration du programme d’équilibrage de la charge matérielle du serveur frontal change l’affinité source.
+  - Configuration de l’équilibrage de charge matérielle du serveur frontal
 
-Votre topologie doit remplir les conditions suivantes afin de prendre en charge le service de mobilité et le service de découverte automatique :
+Votre topologie doit respecter les exigences suivantes pour prendre en charge le service de mobilité et le service de découverte automatique:
 
-  - Le nom de domaine complet web interne du pool de serveurs frontaux doit être différent du nom de domaine complet web externe du pool de serveurs frontaux.
+  - Le nom de domaine complet (FQDN) du pool frontal doit être différent du FQDN Web de la liste frontale.
 
-  - Le nom de domaine complet web interne doit uniquement être résolu vers et accessible depuis l’intérieur du réseau d’entreprise.
+  - Le nom de domaine complet (FQDN) du site Web interne ne doit être résolu qu’à l’intérieur du réseau d’entreprise.
 
-  - Le nom de domaine complet web externe doit uniquement être résolu vers et accessible depuis Internet.
+  - Le nom de domaine complet (FQDN) Web externe doit uniquement être résolu et être accessible à partir d’Internet.
 
-  - Pour un utilisateur qui se trouve sur le réseau d’entreprise, l’URL du service de mobilité doit être adressée au nom de domaine complet web externe. Cette exigence concerne le service de mobilité et s’applique uniquement à cette URL.
+  - Pour un utilisateur se trouvant à l’intérieur du réseau d’entreprise, l’URL du service de mobilité doit être adressée au FQDN Web externe. Cette obligation est appliquée au service de mobilité et ne s’applique qu’à cette URL.
 
-  - Pour un utilisateur qui se trouve à l’extérieur du réseau d’entreprise, la demande doit parvenir au nom de domaine complet web externe du pool de serveurs frontaux ou du directeur.
+  - S’il s’agit d’un utilisateur qui se trouve en dehors du réseau d’entreprise, la requête doit se trouver dans le nom de domaine complet (FQDN) Web externe de la liste du pool frontal ou du réalisateur.
 
-Si vous prenez en charge la découverte automatique, vous devez créer les enregistrements DNS suivants pour chaque domaine SIP :
+Si vous prenez en charge la découverte automatique, vous devez créer les enregistrements DNS suivants pour chaque domaine SIP:
 
-  - un enregistrement DNS interne afin de prendre en charge les utilisateurs qui se connectent depuis le réseau de votre organisation ;
+  - Un enregistrement DNS interne pour prendre en charge les utilisateurs mobiles qui se connectent au sein du réseau de votre organisation.
 
-  - un enregistrement DNS externe ou public afin de prendre en charge les utilisateurs mobiles qui se connectent depuis Internet.
+  - Un enregistrement DNS externe ou public permettant de prendre en charge les utilisateurs mobiles qui se connectent à partir d’Internet.
 
-L’URL de découverte automatique interne ne doit pas être adressable depuis l’extérieur de votre réseau. L’URL de découverte automatique externe ne doit pas être adressable depuis votre réseau. Cependant, si cette condition ne peut pas être remplie pour l’URL externe, la fonctionnalité du client mobile ne sera sans doute pas affectée car la première tentative porte toujours sur l’URL interne.
+L’URL de découverte automatique interne ne doit pas être adressable depuis l’extérieur de votre réseau. L’URL de découverte automatique externe ne doit pas être adressable à partir de votre réseau. Toutefois, si vous ne pouvez pas respecter cette exigence pour l’URL externe, le client mobile n’est probablement pas affecté, car l’URL interne est toujours essayée en premier.
 
-Les enregistrements DNS peuvent être des enregistrements CNAME ou des enregistrements A (hôte, si IPv6, AAAA).
+Les enregistrements DNS peuvent être des enregistrements CNAMe ou un (hôte, si vous avez des enregistrements IPv6, AAAA).
+
+<div>
+
 
 > [!NOTE]  
-> Les clients d’appareils mobiles ne prennent pas en charge plusieurs certificats SSL (Secure Sockets Layer) de différents domaines. Par conséquent, la redirection CNAME vers différents domaines n’est pas prise en charge sur le protocole HTTPS. Par exemple, un enregistrement DNS CNAME pour lyncdiscover.contoso.com qui redirige vers une adresse director.contoso.net n’est pas pris en charge sur HTTPS. Dans une telle topologie, un client d’appareil mobile doit utiliser le protocole HTTP pour la première demande, de sorte que la redirection CNAME soit résolue sur HTTP. Les demandes ultérieures utilisent ensuite le protocole HTTPS. Pour prendre en charge ce scénario, vous devez configurer votre proxy inverse avec une règle de publication web pour le port 80 (HTTP). Pour plus d’informations, reportez-vous à « Pour créer une règle de publication web pour le port 80 » dans <a href="lync-server-2013-configuring-the-reverse-proxy-for-mobility.md">Configuration du proxy inverse pour la mobilité dans Lync Server 2013</a>.<br />
-La redirection CNAME vers le même domaine est prise en charge sur HTTPS. Dans ce cas, le certificat du domaine de destination couvre le domaine d’origine.
+> Les clients d’appareils mobiles ne prennent pas en charge plusieurs certificats SSL (Secure Sockets Layer) provenant de différents domaines. Par conséquent, la redirection CNAMe vers différents domaines n’est pas prise en charge sur HTTPs. Par exemple, un enregistrement CNAMe DNS pour lyncdiscover.contoso.com qui redirige vers une adresse de director.contoso.net n’est pas pris en charge sur HTTPs. Dans le cas d’une telle topologie, un client d’appareil mobile doit utiliser HTTP pour la première demande, de sorte que la redirection CNAMe soit résolue via HTTP. Les requêtes suivantes utilisent alors HTTPs. Pour prendre en charge ce scénario, vous devez configurer votre proxy inverse avec une règle de publication Web pour le port 80 (HTTP). Pour plus d’informations, reportez-vous à la section «pour créer une règle de publication Web pour le port 80» dans <A href="lync-server-2013-configuring-the-reverse-proxy-for-mobility.md">configuration du proxy inverse pour la mobilité dans Lync Server 2013</A>.<BR>La redirection CNAMe vers le même domaine est prise en charge sur HTTPs. Dans ce cas, le certificat du domaine de destination couvre le domaine d’origine.
 
-Pour plus d’informations sur les enregistrements DNS requis pour votre scénario, reportez-vous à [Synthèse DNS - Découverte automatique dans Lync Server 2013](lync-server-2013-dns-summary-autodiscover.md).
 
-## Exigences relatives aux ports et aux pare-feu
 
-Si vous prenez en charge les notifications push et souhaitez que les appareils mobiles Apple reçoivent des notifications push par le biais de votre réseau Wi-Fi, vous devez également ouvrir le port 5223 sur votre réseau Wi-Fi d’entreprise. Il s’agit d’un port TCP sortant utilisé par le service APNS (Apple Push Notification Service). L’appareil mobile initie la connexion. Pour plus d’informations, reportez-vous à [http://support.apple.com/kb/TS1629](http://support.apple.com/kb/ht6175?viewlocale=fr_fr)
+</div>
+
+Pour plus d’informations sur les enregistrements DNS requis pour votre scénario, voir [synthèse DNS-découverte automatique dans Lync Server 2013](lync-server-2013-dns-summary-autodiscover.md).
+
+</div>
+
+<div>
+
+## <a name="port-and-firewall-requirements"></a>Configuration requise pour les ports et les pare-feu
+
+Si vous prenez en charge les notifications de transmission et que les appareils mobiles Apple reçoivent des notifications de transmission sur votre réseau Wi-Fi, vous devez également ouvrir le port 5223 sur votre réseau Wi-Fi d’entreprise. Le port 5223 est un port TCP sortant utilisé par le service de notifications de type Apple (APNS). L’appareil mobile initialise la connexion. Pour plus d’informations [http://support.apple.com/kb/TS1629](http://support.apple.com/kb/ts1629) , reportez-vous à.
+
+<div>
+
 
 > [!WARNING]  
-> Un appareil Apple utilisant le client Lync 2013 Mobile ne nécessite pas de notifications push.
+> Un appareil Apple utilisant le client mobile Lync 2013 ne nécessite pas de notifications de transmission.
 
-Notez que si un utilisateur est hébergé sur un Survivable Branch Appliance (SBA), les ports suivants sont requis :
 
-  - UcwaSipExternalListeningPort requiert le port 5088
 
-  - UcwaSipPrimaryListeningPort requiert le port 5089
+</div>
 
-Pour plus d’informations et des instructions sur les exigences liées aux ports et aux protocoles de découverte automatique, reportez-vous à [Synthèse des ports - Découverte automatique dans Lync Server 2013](lync-server-2013-port-summary-autodiscover.md).
+Notez que si un utilisateur est hébergé sur une unité de branchement survivant (SBA), les ports suivants sont nécessaires:
 
-## Exigences en matière de certificats
+  - UcwaSipExternalListeningPort nécessite le port 5088
 
-Si vous prenez en charge la découverte automatique pour les clients mobiles Lync, vous devez modifier la liste des autres noms de sujet sur les certificats de manière à prendre en charge les connexions sécurisées établies à partir de clients mobiles. Vous devez demander et affecter de nouveaux certificats, en ajoutant les entrées d’autres noms de sujet comme décrit dans cette section, pour chaque serveur frontal et directeur qui exécute le service de découverte automatique. L’approche recommandée consiste à modifier également les listes d’autres noms de sujet sur les certificats pour vos proxys inverses. Vous devez ajouter des entrées d’autres noms de sujet pour chaque domaine SIP de votre organisation.
+  - UcwaSipPrimaryListeningPort nécessite le port 5089
 
-La réémission de certificats à l’aide d’une autorité de certification interne est généralement un processus simple, mais l’ajout de plusieurs entrées d’autres noms du sujet à des certificats publics utilisés par le proxy inverse peut être une opération coûteuse. Si vous avez de nombreux domaines SIP, ce qui rend l’ajout d’autres noms du sujet très coûteux, vous pouvez configurer le proxy inverse de sorte qu’il effectue la demande initiale du service de découverte automatique sur le port 80 à l’aide du protocole HTTP, plutôt que sur le port 443 à l’aide du protocole HTTPS (configuration par défaut). La demande est alors redirigée vers le port 8080 sur le directeur ou le pool de serveurs frontaux. Lorsque vous publiez la demande initiale du service de découverte automatique sur le port 80, il n’est pas nécessaire de modifier les certificats pour le proxy inverse car la demande utilise le protocole HTTP plutôt que HTTPS. Cette approche est prise en charge mais non recommandée.
+Pour obtenir des informations supplémentaires et des conseils sur la configuration requise pour les ports et les protocoles de découverte automatique, voir [synthèse des ports-découverte automatique dans Lync Server 2013](lync-server-2013-port-summary-autodiscover.md).
 
-## Exigences relatives aux services Internet (IIS)
+</div>
 
-Nous vous recommandons d’utiliser les services Internet (IIS) 7.5, les services Internet (IIS) 8.0 ou les services Internet (IIS) 8.5 pour la mobilité. Le programme d’installation du service de mobilité définit des indicateurs dans ASP.NET afin d’améliorer les performances. Les services Internet (IIS) 7.5 sont installés par défaut sur Windows Server 2008 R2, les services Internet (IIS) 8.0 sur Windows Server 2012 et les services Internet (IIS) 8.5 sur Windows Server 2012 R2. Le programme d’installation du service de mobilité modifie automatiquement les paramètres ASP.NET.
+<div>
 
-## Exigences relatives au programme d’équilibrage de la charge matérielle
+## <a name="certificate-requirements"></a>Conditions requises pour les certificats
 
-Sur l’équilibreur de la charge matérielle qui prend en charge le pool de serveurs frontaux, les adresses IP virtuelles des services web externes pour le trafic des services web doivent être configurées pour la source. L’affinité source aide à s’assurer que plusieurs connexions issues d’un même client sont envoyées à un seul serveur pour maintenir l’état de la session. Pour plus d’informations sur les exigences relatives à l’affinité, reportez-vous à [Configuration requise pour l’équilibrage de charge dans Lync Server 2013](lync-server-2013-load-balancing-requirements.md).
+Si vous prenez en charge la découverte automatique pour les clients mobiles Lync, vous devez modifier les listes nom de remplacement de l’objet sur les certificats pour prendre en charge les connexions sécurisées à partir des clients mobiles. Pour chaque serveur frontal et directeur exécutant le service de découverte automatique, vous devez demander et affecter de nouveaux certificats, en ajoutant les entrées de nom de remplacement de l’objet décrite dans cette section. L’approche recommandée consiste à modifier également les listes d’autres noms d’objet sur les certificats de vos proxys inversés. Vous devez ajouter des entrées de nouveau nom d’objet pour chaque domaine SIP de votre organisation.
 
-Si vous envisagez de prendre en charge les clients mobiles Lync uniquement sur votre réseau Wi-Fi interne, vous devez configurer les adresses IP virtuelles des services web internes pour la source comme décrit pour les adresses IP virtuelles des services web externes. Dans ce cas, vous devez utiliser source\_addr (ou TCP) pour les adresses IP virtuelles des services web internes sur l’équilibreur de la charge matérielle. Pour plus d’informations, reportez-vous à [Configuration requise pour l’équilibrage de charge dans Lync Server 2013](lync-server-2013-load-balancing-requirements.md).
+La réémission de certificats à l’aide d’une autorité de certification interne correspond généralement à un processus simple, mais l’ajout de plusieurs entrées de nom de remplacement de sujet à des certificats publics utilisés par le proxy inverse peut être coûteux. Si vous avez un grand nombre de domaines SIP, le fait d’ajouter des noms de remplacement d’objet très coûteux, vous pouvez configurer le proxy inverse pour que la demande de service de découverte automatique initiale soit mise sur le port 80 à l’aide du protocole HTTP, au lieu du port 443 utilisant HTTPs (configuration par défaut). La requête est alors redirigée vers le port 8080 du réalisateur ou du pool frontal. Lorsque vous publiez la demande initiale du service de découverte automatique sur le port 80, vous n’avez pas besoin de modifier des certificats pour le proxy inverse, car la requête utilise HTTP au lieu de HTTPs. Cette approche est prise en charge, mais nous vous le déconseillons.
 
-## Exigences relatives au proxy inverse
+</div>
 
-Si vous prenez en charge la découverte automatique pour les clients mobiles Lync, vous devez mettre à jour la règle de publication actuelle comme suit :
+<div>
 
-  - Si vous décidez de mettre à jour les listes d’autres noms du sujet sur les certificats de proxy inverse et d’utiliser le protocole HTTPS pour la demande initiale de découverte automatique, vous devez mettre à jour la règle de publication web pour lyncdiscover. *\<sipdomain\>*. En règle générale, elle est associée à la règle de publication pour l’URL externe des services web sur le pool de serveurs frontaux.
+## <a name="internet-information-services-iis-requirements"></a>Configuration requise pour Internet Information Services (IIS)
 
-  - Si vous décidez d’utiliser HTTP pour la demande initiale du service de découverte automatique afin de ne pas être obligé de mettre à jour la liste des autres noms du sujet sur les certificats de proxy inverse, vous devez créer une règle de publication web pour le port HTTP/TCP 80, si elle n’existe pas déjà. S’il existe déjà une règle pour HTTP/TCP 80, vous pouvez mettre à jour la règle de façon à inclure l’entrée lyncdiscover. *\<sipdomain\>*.
+Nous vous recommandons d’utiliser les 7,5 IIS, IIS 8,0 ou IIS 8,5 pour la mobilité. Le programme d’installation de service de mobilité définit des indicateurs dans ASP.NET pour améliorer les performances. IIS 7,5 est installé par défaut sur Windows Server 2008 R2, IIS 8,0 est installé sur Windows Server 2012 et IIS 8,5 est installé sur Windows Server 2012 R2. Le programme d’installation de service de mobilité modifie automatiquement les paramètres de ASP.NET.
+
+</div>
+
+<div>
+
+## <a name="hardware-load-balancer-requirements"></a>Configuration requise pour l’équilibreur de charge matérielle
+
+Sur l’équilibrage de charge matérielle qui prend en charge le pool frontal, l’IPs virtuel pour les services Web externes (VIP) pour le trafic de services Web doit être configuré pour la source. L’affinité source permet de s’assurer que plusieurs connexions à partir d’un client unique sont envoyées à un serveur pour gérer l’état de la session. Pour plus d’informations sur les exigences d’affinité, voir [exigences d’équilibrage de charge pour Lync Server 2013](lync-server-2013-load-balancing-requirements.md).
+
+Si vous envisagez de prendre en charge des clients mobiles Lync uniquement sur votre réseau Wi-Fi interne, vous devez configurer les VIP de services Web internes pour la source, comme décrit pour les VIP de services Web externes. Dans ce cas, nous vous conseillons\_d’utiliser l’affinité source (ou TCP) pour les VIP de services Web internes sur le système d’équilibrage de charge matérielle. Pour plus d’informations, voir [exigences d’équilibrage de charge pour Lync Server 2013](lync-server-2013-load-balancing-requirements.md).
+
+</div>
+
+<div>
+
+## <a name="reverse-proxy-requirements"></a>Configuration requise du proxy inverse
+
+Si vous prenez en charge la découverte automatique pour les clients mobiles Lync, vous devez mettre à jour la règle de publication actuelle comme suit:
+
+  - Si vous décidez de mettre à jour les listes d’autres noms d’objet sur les certificats proxy inverse et d’utiliser HTTPs pour la demande de service de découverte automatique initiale, vous devez mettre à jour la règle de publication Web pour lyncdiscover. \<sipdomain\>. En règle générale, ce problème est associé à la règle de publication pour l’URL des services Web externes sur le pool frontal.
+
+  - Si vous décidez d’utiliser HTTP pour la demande initiale de service de découverte automatique afin que vous n’ayez pas besoin de mettre à jour la liste des autres noms de sujet sur les certificats proxy inverse, vous devez créer une nouvelle règle de publication Web pour le port HTTP/TCP 80, s’il n’en existe pas. Si une règle pour HTTP/TCP 80 existe déjà, vous pouvez mettre à jour cette règle pour inclure le lyncdiscover. \<entrée\> sipdomain.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

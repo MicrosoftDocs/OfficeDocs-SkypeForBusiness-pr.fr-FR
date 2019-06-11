@@ -1,31 +1,61 @@
-﻿---
-title: Migration de plusieurs sites et pools
-TOCTitle: Migration de plusieurs sites et pools
-ms:assetid: 3bf677d4-a5af-4f73-8fad-1abf5b668cc1
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ688025(v=OCS.15)
-ms:contentKeyID: 49891311
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Migration de plusieurs sites et pools
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Migrating multiple sites and pools
+ms:assetid: 3bf677d4-a5af-4f73-8fad-1abf5b668cc1
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688025(v=OCS.15)
+ms:contentKeyID: 49733615
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e7412d0ffb1a5d24c2f30b76b987a16903253bfb
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846159"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Migration de plusieurs sites et pools
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-08-26_
+# <a name="migrating-multiple-sites-and-pools"></a>Migration de plusieurs sites et pools
 
-Lync Server 2013 prend en charge les déploiements de plusieurs sites et de plusieurs pools. Vous devez tenir compte des aspects suivants dans le cadre du processus de migration de plusieurs pools de Office Communications Server 2007 R2 vers Lync Server 2013 :
+</div>
 
-1.  Après avoir déployé un pool pilote Lync Server 2013, vous devez définir un sous-ensemble d’utilisateurs pilotes qui seront déplacés vers le pool Lync Server 2013 et développer une méthodologie pour la validation des fonctionnalités utilisateur.
+<div id="mainSection">
 
-2.  Après avoir déployé un serveur Edge dans le pool pilote, vous devez vérifier que les utilisateurs externes peuvent communiquer avec le pool Lync Server 2013.
+<div id="mainBody">
 
-3.  Après avoir transitionné les itinéraires fédérés depuis les serveurs Edge Office Communications Server 2007 R2 vers les serveurs Edge Lync Server 2013 pilotes, vous devez vérifier que les utilisateurs fédérés peuvent communiquer avec le pool Lync Server 2013.
+<span> </span>
 
-4.  Après avoir déplacé tous les utilisateurs et les objets contact non-utilisateur, vous devez vérifier que le pool Office Communications Server 2007 R2 est vide.
+_**Dernière modification de la rubrique:** 2012-08-26_
 
-5.  Après avoir vérifié que le pool Office Communications Server 2007 R2 était vide, vous pouvez le désactiver.
+Lync Server 2013 prend en charge les déploiements multisites et à plusieurs pools. Le processus de migration de plusieurs pools à partir d’Office Communications Server 2007 R2 vers Lync Server 2013 nécessite les éléments suivants:
+
+1.  Après le déploiement d’un pool de pilotes de Lync Server 2013, vous devez définir un sous-ensemble d’utilisateurs pilote qui seront déplacés vers le pool Lync Server 2013 et une méthodologie permettant de valider les fonctionnalités des utilisateurs.
+
+2.  Après le déploiement d’un serveur de périphérie dans le pool de pilotes, vous devez vérifier que les utilisateurs externes peuvent communiquer avec le pool Lync Server 2013.
+
+3.  Après avoir basculé les itinéraires fédérés des serveurs Office Communications Server 2007 R2 vers les serveurs de périphérie de Lync Server 2013, vous devez vérifier que les utilisateurs fédérés peuvent communiquer avec le pool Lync Server 2013.
+
+4.  Après avoir déplacé tous les utilisateurs et les objets de contact non-utilisateur, vous devez vérifier que le pool Office Communications Server 2007 R2 est vide.
+
+5.  Après avoir vérifié que le pool Office Communications Server 2007 R2 est vide, vous pouvez désactiver le pool.
     
-    Pour plus d’informations sur la façon de désactiver le pool et les serveurs Office Communications Server 2007 R2 hérités, reportez-vous à [Phase 10 : Mise hors service d’un site hérité](phase-10-decommission-legacy-site.md).
+    Pour plus d’informations sur la désactivation de l’ancienne version du pool et des serveurs Office Communications [](phase-10-decommission-legacy-site.md)Server 2007 R2
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,33 +1,51 @@
-﻿---
-title: Affichage des informations des applications approuvées
-TOCTitle: Affichage des informations des applications approuvées
-ms:assetid: 7b916323-96fb-4308-bc95-c178de41a3d3
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ688103(v=OCS.15)
-ms:contentKeyID: 49891407
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: afficher des informations sur l’application fiable'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: View trusted application information
+ms:assetid: 7b916323-96fb-4308-bc95-c178de41a3d3
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688103(v=OCS.15)
+ms:contentKeyID: 49733702
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 139a4fedbfd703fea77464929ef3f5800517260e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846282"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Affichage des informations des applications approuvées
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2015-03-30_
+# <a name="view-trusted-application-information-in-lync-server-2013"></a>Afficher des informations sur l’application fiable dans Lync Server 2013
 
-Utilisez la procédure suivante pour afficher les informations d’application approuvée Lync Server 2013 Management Shell dans Lync Server Management Shell.
+</div>
 
-## Affichage des informations d’application approuvée avec les applets de commande Lync Server Management Shell
+<div id="mainSection">
 
-Vous pouvez afficher des informations sur les applications approuvées avec Lync Server Management Shell et l’applet de commande **Get-CsTrustedApplication**. Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session à distance de Windows PowerShell. Pour plus de détails sur l’utilisation de Windows PowerShell à distance pour une connexion à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Démarrage rapide : Gestion de Microsoft Lync Server 2010 avec PowerShell à distance » à l’adresse [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+<div id="mainBody">
 
-## Pour afficher les applications approuvées
+<span> </span>
 
-  - Pour afficher toutes les applications approuvées, tapez la commande suivante dans Lync Server Management Shell et appuyez sur Entrée :
+_**Dernière modification de la rubrique:** 2013-02-23_
+
+Vous pouvez afficher des informations sur vos applications approuvées à l’aide de Windows PowerShell et de l’applet **de passe Get-CsTrustedApplication** . Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell».
+
+<div>
+
+## <a name="to-view-trusted-applications"></a>Pour afficher des applications approuvées
+
+  - Pour afficher toutes vos applications approuvées, tapez la commande suivante dans Lync Server Management Shell, puis appuyez sur entrée:
     
         Get-CsConferenceDisclaimer
     
-    Cette commande retourne des informations identiques aux suivantes pour chaque application approuvée :
+    Cette commande renvoie des informations similaires à ce qui suit pour chaque application fiable:
     
         Identity               : CN={5dedf4b0-a590-49b3-80cf-f16f914bbef9},CN=Application Contacts,CN=RTC
                                  Service,CN=Services,CN=Configuration,DC=litware,DC=com
@@ -44,6 +62,18 @@ Vous pouvez afficher des informations sur les applications approuvées avec Lync
         EnterpriseVoiceEnabled : True
         ExUmEnabled            : False
         Enabled                : True
+    
+    Pour plus d’informations, consultez la rubrique [Get-CsTrustedApplication](https://docs.microsoft.com/powershell/module/skype/Get-CsTrustedApplication).
 
-Pour plus d’informations, voir [Get-CsTrustedApplication](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTrustedApplication).
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

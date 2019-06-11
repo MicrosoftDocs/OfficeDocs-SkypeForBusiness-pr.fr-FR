@@ -1,60 +1,93 @@
-﻿---
-title: "Prise en ch. des certif. comportant des caractères génériques Lync Server 2013"
-TOCTitle: Prise en charge des certificats comportant des caractères génériques
-ms:assetid: 0bae2aa8-b6dc-46f5-a3be-3fe7581809d4
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Hh202161(v=OCS.15)
-ms:contentKeyID: 49296221
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Prise en charge des certificats comportant des caractères génériques Lync Server 2013
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Wildcard certificate support
+ms:assetid: 0bae2aa8-b6dc-46f5-a3be-3fe7581809d4
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202161(v=OCS.15)
+ms:contentKeyID: 48183382
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 9422c3bebbb5fb32be88cfe5c41968207bbed2ec
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846194"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Prise en charge des certificats comportant des caractères génériques dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2013-03-21_
+# <a name="wildcard-certificate-support-in-lync-server-2013"></a>Prise en charge des certificats comportant des caractères génériques dans Lync Server 2013
 
-Lync Server 2013 utilise des certificats pour assurer le cryptage des communications et l’authentification de l’identité du serveur. Dans certains cas, notamment la publication web via le proxy inverse, la saisie d’un autre nom de sujet (SAN) fort correspondant au nom de domaine complet (FQDN) du serveur hébergeant le service n’est pas requise. Dans de tels cas, il est possible d’utiliser des certificats avec des entrées SAN génériques (appelés également certificats génériques) pour réduire le coût d’un certificat exigé par une autorité de certification publique afin de réduire la complexité du processus de planification pour les certificats.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2013-03-21_
+
+Lync Server 2013 utilise des certificats pour le chiffrement des communications et l’authentification par identité du serveur. Dans certains cas, par exemple, la publication sur le Web par le biais du proxy inverse, l’entrée de nouveau nom de l’élément de nom de domaine complet (FQDN) du serveur qui présente le service n’est pas requise. Dans ces cas, vous pouvez utiliser des certificats à l’aide d’entrées génériques pour réduire le coût d’un certificat demandé auprès d’une autorité de certification publique et réduire la complexité du processus de planification des certificats. .
+
+<div>
+
 
 > [!WARNING]  
-> Pour conserver les fonctionnalités des périphériques de communications unifiées (UC) tels que les téléphones de bureaux, il est important de tester avec soin le certificat déployé pour garantir le bon fonctionnement des périphériques après avoir implémenté un certificat générique.
+> Pour conserver la fonctionnalité de périphériques de communications unifiées (UC) (par exemple, les téléphones de bureau), vous devez tester soigneusement le certificat déployé pour vous assurer que les appareils fonctionnent correctement après l’implémentation d’un certificat générique.
 
-Une entrée de certificat n’est pas prise en charge en tant que nom d’objet (aussi appelé nom commun ou CN) pour un rôle donné. Les rôles serveur suivants sont pris en charge lors de l’utilisation d’entrées génériques dans le SAN :
 
-  -   
-    **Proxy inverse.** La saisie d’un autre nom de sujet générique est prise en charge pour un certificat de publication d’URL simple (réunions et accès).
 
-  -   
-    **Proxy inverse.**   La saisie d’un autre nom de sujet générique est prise en charge pour les entrées SAN de LyncDiscover sur le certificat de publication.
+</div>
 
-  -   
-    **Directeur.** La saisie d’un autre nom de sujet générique est prise en charge pour des URL simples (réunions et accès) et pour les entrées SAN de LyncDiscover et LyncDiscoverInternal dans des composants web Directeur.
+Il n’y a pas de prise en charge d’une entrée de caractère générique comme nom de sujet (également appelé nom commun ou NC) pour n’importe quel rôle. Les rôles de serveur suivants sont pris en charge lorsque vous utilisez des entrées de caractères génériques dans le SAN:
 
-  -   
-    **serveur frontal ( Standard Edition) et pool de serveurs frontaux ( Enterprise Edition).** La saisie d’un autre nom de sujet générique est prise en charge pour des URL simples (réunions et accès) et pour les entrées SAN de LyncDiscover et LyncDiscoverInternal dans des composants web frontaux.
+  - <span></span>  
+    **Proxy inverse.**    L’entrée San générique est prise en charge pour les certificats de publication d’URL simples (de conférence et de numérotation).
 
-  -   
-    **messagerie unifiée Exchange.** Le serveur n’utilise pas d’entrées SAN lorsqu’il est déployé en tant que serveur autonome.
+  - <span></span>  
+    **Proxy inverse.**    L’entrée San générique est prise en charge pour les entrées du San pour LyncDiscover sur le certificat de publication.
 
-  -   
-    **Microsoft Exchange ServerServeur d’accès client.**   Les entrées génériques du SAN sont prises en charge pour les clients internes et externes.
+  - <span></span>  
+    **Director.**    L’entrée San générique est prise en charge pour les URL simples (réunion et numéro de téléphone) et pour les entrées San pour LyncDiscover et LyncDiscoverInternal dans les composants Web Director.
 
-  -   
-    Serveur d’accès client de **messagerie unifiée Exchange et Microsoft Exchange Server sur le même serveur.** Les entrées SAN génériques sont prises en charge.
+  - <span></span>  
+    **Serveur frontal (édition standard) et liste frontale (Enterprise Edition).** L’entrée SAN générique est prise en charge pour les URL simples (réunion et numéro de téléphone) et pour les entrées SAN pour LyncDiscover et LyncDiscoverInternal dans les composants webend Web.
 
-Rôles serveur non traités dans ce chapitre :
+  - <span></span>  
+    **Exchange Unified Messaging (UM).**    Le serveur n’utilise pas d’entrées du San lorsqu’il est déployé en tant que serveur autonome.
 
-  - Rôles serveurs internes (dont le serveur de médiation, le serveur d’archivage et de surveillance, le Survivable Branch Appliance ou le serveur Survivable Branch Server)
+  - <span></span>  
+    **Serveur d’accès au client Microsoft Exchange Server.**    Les entrées génériques du San sont prises en charge pour les clients internes et externes.
 
-  - Interfaces externes serveur Edge
+  - <span></span>  
+    **Exchange Unified Messaging (MU) et serveur d’accès au client Exchange Server sur le même serveur.**    Les entrées génériques du San sont prises en charge.
 
-  - Internes serveur Edge
+Rôles de serveur non mentionnés dans cette rubrique:
+
+  - Rôles de serveur internes (y compris, mais sans s’y limiter, le serveur de médiation, l’archivage et la surveillance du serveur, de l’unité de branchement survivant ou du serveur de succursales survivant)
+
+  - Interfaces de serveur Edge externes
+
+  - Serveur Edge interne
     
-    > [!NOTE]  
-    > Pour l’interface interne serveur Edge, une entrée générique peut être affectée au SAN et elle est prise en charge. Le SAN associé au serveur Edge interne n’est pas requis et la valeur d’une entrée SAN générique est limitée.
+    <div>
+    
 
-Pour plus d’informations sur la configuration des certificats, notamment sur l’utilisation des caractères génériques dans les certificats, consultez les rubriques suivantes :
+    > [!NOTE]  
+    > Pour l’interface du serveur Edge interne, une entrée générique peut être affectée au SAN et est prise en charge. Le SAN sur le serveur Edge interne n’est pas interrogé, et une entrée SAN générique a une valeur limitée.
+
+    
+    </div>
+
+Pour plus d’informations sur les configurations de certificats, y compris l’utilisation de caractères génériques dans les certificats, voir les rubriques suivantes:
 
   - [Exigences de certificat pour les serveurs internes dans Lync Server 2013](lync-server-2013-certificate-requirements-for-internal-servers.md)
 
@@ -70,5 +103,15 @@ Pour plus d’informations sur la configuration des certificats, notamment sur l
 
   - [Instructions d’intégration de la messagerie unifiée locale et de Lync Server 2013](lync-server-2013-guidelines-for-integrating-on-premises-unified-messaging.md)
 
-Pour plus d’informations sur la configuration des certificats pour Exchange, notamment sur l’utilisation des caractères génériques, consultez la documentation d’Exchange 2013.
+Pour plus d’informations sur la configuration des certificats pour Exchange, y compris l’utilisation de caractères génériques, voir la documentation du produit Exchange 2013.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

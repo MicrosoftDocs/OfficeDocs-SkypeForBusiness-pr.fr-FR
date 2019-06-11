@@ -1,39 +1,87 @@
-﻿---
-title: "LS 2013 : Synch. mdp de compte d’auth. Kerberos avec les serv. Internet (IIS)"
-TOCTitle: Synchronisation d’un mot de passe de compte d’authentification Kerberos avec les services Internet (IIS)
-ms:assetid: 05925a66-2684-4c1b-adfa-69bd0da1bf38
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398107(v=OCS.15)
-ms:contentKeyID: 49296126
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Synchronisation d’un mot de passe de compte d’authentification Kerberos avec les services Internet (IIS)
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Synchronize a Kerberos authentication account password to IIS
+ms:assetid: 05925a66-2684-4c1b-adfa-69bd0da1bf38
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398107(v=OCS.15)
+ms:contentKeyID: 48183296
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 3bc56da26961caaad236857c88d601676e12cefc
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846719"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Synchronisation d’un mot de passe de compte d’authentification Kerberos avec les services Internet (IIS) dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2010-11-08_
+# <a name="synchronize-a-kerberos-authentication-account-password-to-iis-in-lync-server-2013"></a>Synchronisation d’un mot de passe de compte d’authentification Kerberos avec les services Internet (IIS) dans Lync Server 2013
 
-Pour effectuer cette procédure vous devez avoir ouvert une session en tant qu’utilisateur membre du groupe RTCUniversalServerAdmins.
+</div>
 
-Dans un site, les serveurs frontaux, les serveurs Standard Edition et les directeurs peuvent utiliser un compte d’authentification Kerberos afin d’envoyer des demandes d’authentification au service services web. Cette procédure permet de rechercher chaque serveur exécutant services web dans un site auquel un compte Kerberos est affecté et de mettre à jour les paramètres de configuration des services Internet (IIS) pour utiliser le compte Kerberos. Pour plus d’informations, reportez-vous à [Définition d’un mot de passe de compte d’authentification Kerberos sur un serveur dans Lync Server 2013](lync-server-2013-set-a-kerberos-authentication-account-password-on-a-server.md)
+<div id="mainSection">
 
-## Pour définir et configurer un mot de passe de compte d’authentification Kerberos
+<div id="mainBody">
 
-1.  Ouvrez une session sur un ordinateur source (tel que fe01.contoso.com) en tant que membre du groupe RTCUniversalServerAdmins.
+<span> </span>
 
-2.  Démarrez Lync Server Management Shell : cliquez successivement sur **Démarrer**, **Tous les programmes**, **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+_**Dernière modification de la rubrique:** 2010-11-08_
 
-3.  Depuis la ligne de commande Lync Server Management Shell, exécutez les deux commandes suivantes :
+Pour effectuer cette procédure, vous devez être connecté en tant qu’utilisateur membre du groupe RTCUniversalServerAdmins.
+
+Dans un site, des serveurs frontaux, des serveurs Standard Edition et des directeurs peuvent utiliser un compte d’authentification Kerberos dans le but d’authentifier les demandes envoyées au service de services Web. Cette procédure recherche sur chaque serveur exécutant des services Web dans un site qui a été affecté un compte Kerberos et met à jour les paramètres de configuration d’Internet Information Services (IIS) pour utiliser le compte Kerberos. Pour plus d’informations, consultez [définir un mot de passe de compte d’authentification Kerberos sur un serveur dans Lync server 2013](lync-server-2013-set-a-kerberos-authentication-account-password-on-a-server.md).
+
+<div>
+
+## <a name="to-set-and-configure-a-kerberos-authentication-account-password"></a>Pour définir et configurer un mot de passe de compte d’authentification Kerberos
+
+1.  Connectez-vous à un ordinateur source (tel que fe01.contoso.com) en tant que membre du groupe RTCUniversalServerAdmins.
+
+2.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+
+3.  À partir de la ligne de commande Lync Server Management Shell, exécutez les deux commandes suivantes:
     
         Set-CsKerberosAccountPassword -FromComputer SourceComputer -ToComputer DestinationComputer
     
-    Exemple :
+    Par exemple :
     
         Set-CsKerberosAccountPassword -FromComputer fe01.contoso.com -ToComputer dir01.contoso.com
     
-    > [!IMPORTANT]  
-    > Le nom de l’ordinateur source et celui de l’ordinateur de destination doivent être un nom de domaine complet du serveur. Vous ne pouvez pas utiliser le nom de domaine complet du pool sauf si le nom du pool est le même que celui de l’ordinateur que vous utilisez comme ordinateur source ou ordinateur de destination.    
-    > [!IMPORTANT]  
-    > Une fois que vous avez modifié l’authentification Kerberos, par exemple, si vous ajoutez ou supprimez un compte, vous devez exécuter <strong>Enable-CsTopology</strong> depuis l’invite de commandes Lync Server Management Shell.
+    <div>
+    
+
+    > [!IMPORTANT]
+    > Le nom de l’ordinateur source et de l’ordinateur de destination doit être un nom de domaine complet (FQDN) du serveur. Vous ne pouvez pas utiliser le nom de domaine complet (FQDN) du pool, sauf s’il est identique à celui de l’ordinateur que vous utilisez en tant qu’ordinateur source ou ordinateur de destination.
+
+    
+    </div>
+    
+    <div>
+    
+
+    > [!IMPORTANT]
+    > Après avoir apporté des modifications à l’authentification Kerberos (par exemple, ajout d’un compte ou suppression d’un compte), vous devez exécuter <STRONG>Enable-CsTopology</STRONG> à partir de l’invite de commandes de Lync Server Management Shell.
+
+    
+    </div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+

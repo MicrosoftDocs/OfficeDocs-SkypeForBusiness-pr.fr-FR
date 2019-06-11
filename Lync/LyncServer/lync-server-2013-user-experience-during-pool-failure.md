@@ -1,41 +1,67 @@
-﻿---
-title: Expérience utilisateur en cas de défaillance d’un pool dans Lync Server 2013
-TOCTitle: Expérience utilisateur en cas de défaillance d’un pool
-ms:assetid: b224b0d0-87e3-4cac-ae87-f45f54fabb49
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ205184(v=OCS.15)
-ms:contentKeyID: 49298557
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Utilisation de l’interface utilisateur de Lync Server 2013 lors de l’échec du pool
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: User experience during pool failure
+ms:assetid: b224b0d0-87e3-4cac-ae87-f45f54fabb49
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205184(v=OCS.15)
+ms:contentKeyID: 48185166
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ca33dc8f77ac697b7eea9cc89fee9aa401318566
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846443"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Expérience utilisateur en cas de défaillance d’un pool dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2015-03-09_
+# <a name="user-experience-during-pool-failure-in-lync-server-2013"></a>Utilisation de l’interface utilisateur en cas d’échec du pool dans Lync Server 2013
 
-Si un pool est basculé, tous les utilisateurs du pool affecté sont obligés de se déconnecter, puis de se reconnecter au pool de sauvegarde. Pendant quelques instants, les utilisateurs qui se connectent au pool de sauvegarde peuvent être en mode Résistance. En mode Résistance, les utilisateurs ne peuvent pas effectuer des tâches qui entraîneraient une modification permanente sur Lync Server, comme l’ajout d’un contact. Une fois le basculement terminé, tous les utilisateurs peuvent obtenir tous les services du pool de sauvegarde.
+</div>
 
-Toutes les sessions en cours d’un utilisateur au moment de la défaillance du pool sont interrompues, et l’utilisateur doit rétablir ces sessions après le basculement pour continuer.
+<div id="mainSection">
 
-Les utilisateurs ne sont pas rapatriés pendant le basculement ou la restauration automatique. Les utilisateurs hébergés sur un pool qui subit une défaillance sont temporairement pris en charge par le pool de sauvegarde. Lorsque le pool d’accueil est restauré, l’administrateur peut restaurer ces utilisateurs afin qu’ils soient pris en charge par leur pool d’accueil d’origine.
+<div id="mainBody">
 
-Notez que dans Lync 2013, la base de données du serveur de localisation (LIS, Location Information Server) n’est pas répliquée sur le pool de sauvegarde. Il est recommandé que l’administrateur sauvegarde régulièrement la base de données LIS et utilise la dernière copie de sauvegarde pour la restaurer dans le pool de sauvegarde après le basculement.
+<span> </span>
 
-## Expérience utilisateur durant le basculement
+_**Dernière modification de la rubrique:** 2012-10-03_
 
-Lorsqu’un utilisateur se trouve dans un pool subissant une défaillance, il est déconnecté. Toute session d’égal à égal à laquelle l’utilisateur participait est terminée, de même que les conférences organisées par cet utilisateur. L’utilisateur ne peut se reconnecter qu’après l’expiration du minuteur de résistance du serveur d’inscriptions avancé ou lorsque l’administrateur initie des procédures de basculement. Lorsque l’utilisateur se reconnecte, il se connecte au pool de sauvegarde. S’il se connecte avant que le basculement soit terminé, il sera en mode Résistance jusqu’à la fin du basculement. C’est seulement alors que l’utilisateur peut établir de nouvelles sessions pour rétablir des sessions précédentes.
+En cas d’échec de la liste, tous les utilisateurs du pool affecté sont obligés de se déconnecter, puis de se connecter au pool de sauvegarde. Pendant quelques instants, les utilisateurs qui se connectent au pool de sauvegarde peuvent être en mode Résistance. Dans le mode de résilience, les utilisateurs ne peuvent pas effectuer de tâches qui entraîneraient un changement permanent sur Lync Server, comme l’ajout d’un contact. Une fois le basculement terminé, tous les utilisateurs peuvent obtenir tous les services du pool de sauvegarde.
 
-## Expérience utilisateur durant la restauration
+Toutes les sessions d’un utilisateur en cas d’échec de la liste sont perturbées et l’utilisateur doit réorganiser ces sessions après le basculement pour continuer.
 
-La restauration automatique du pool peut survenir pendant qu’un utilisateur affecté est connecté au pool de sauvegarde ; l’utilisateur reste connecté et opérationnel pendant la restauration. Notez que l’exécution du processus de restauration automatique prend plusieurs minutes. À titre de référence, il devrait prendre jusqu’à 60 minutes pour un pool de 20 000 utilisateurs.
+Les utilisateurs ne sont pas rapatriés pendant le basculement ou la restauration automatique. Les utilisateurs hébergés sur un pool qui subit une défaillance sont temporairement pris en charge par le pool de sauvegarde. Lorsque le pool de domicile est restauré, l’administrateur peut basculer ces utilisateurs pour qu’ils soient remis en service par leur liste de démarrage d’origine.
 
-Les tableaux suivants présentent des détails supplémentaires sur la façon dont un utilisateur avec un client Lync 2013 ou un client Microsoft Lync 2010 est affecté pendant et après la restauration automatique, ainsi que la façon dont les utilisateurs d’autres pools voient un utilisateur d’un pool en cours de restauration et interagissent avec lui. Les utilisateurs avec des clients Microsoft Office Communicator 2007 R2 ne peuvent se connecter qu’une fois le pool frontal complètement restauré.
+Remarque dans Lync 2013, la base de données du serveur informations d’emplacement n’est pas répliquée dans le pool de sauvegarde. Il est recommandé que l’administrateur sauvegarde régulièrement la base de données LIS et utilise la dernière copie de sauvegarde pour la restaurer dans le pool de sauvegarde après le basculement.
 
-Le terme *utilisateur affecté* fait référence à tous les utilisateurs qui ont été basculés à partir du pool d’accueil et qui sont pris en charge par le pool de sauvegarde. Par définition, tout utilisateur initialement hébergé sur le pool de sauvegarde n’est pas un utilisateur affecté.
+<div>
 
-### Expérience utilisateur pour un utilisateur affecté dans un pool en restauration automatique
+## <a name="user-experience-during-failover"></a>Utilisation de l’interface utilisateur pendant le basculement
+
+Lorsque l’utilisateur se trouve dans un pool qui échoue, il est déconnecté. Toutes les sessions d’égal à égal auxquelles l’utilisateur a participé sont arrêtées, en tant que conférences organisées par cet utilisateur. L’utilisateur ne peut se reconnecter qu’après l’expiration du minuteur de résistance du serveur d’inscriptions avancé ou lorsque l’administrateur lance des procédures de basculement. Lorsque l’utilisateur se reconnecte, il se connecte au pool de sauvegarde. S’il se connecte avant que le basculement soit terminé, il sera en mode Résistance jusqu’à la fin du basculement. Seul l’utilisateur est en mesure d’établir de nouvelles sessions ou de rétablir une session précédente.
+
+</div>
+
+<div>
+
+## <a name="user-experience-during-failback"></a>Utilisation des utilisateurs lors du retour arrière
+
+La restauration automatique du pool peut survenir pendant qu’un utilisateur affecté est connecté au pool de sauvegarde ; l’utilisateur reste connecté et opérationnel pendant la restauration. Notez que le processus de restauration automatique prend quelques minutes.À titre de référence, il devrait prendre jusqu’à 60 minutes pour un pool de 20 000 utilisateurs.
+
+Les tableaux suivants montrent plus d’informations sur la façon dont un utilisateur disposant d’un client 2013 Lync ou d’un client Microsoft Lync 2010 est touché pendant et après un retour arrière, et la façon dont les utilisateurs d’autres pools voient et interagissent avec un utilisateur d’un pool qui est en échec de retour. Les utilisateurs dotés de clients Microsoft Office Communicator 2007 R2 ne peuvent pas se connecter tant que le pool frontal n’a pas été complètement restauré.
+
+Le terme *utilisateur affecté* fait référence à tous les utilisateurs qui ont été basculés à partir du pool d’accueil et qui sont pris en charge par le pool de sauvegarde. Par définition, tous les utilisateurs hébergés sur le pool de sauvegarde ne sont pas des utilisateurs concernés.
+
+### <a name="user-experience-for-an-affected-user-in-a-pool-in-failback"></a>Expérience utilisateur pour un utilisateur affecté dans un pool en restauration automatique
 
 <table>
 <colgroup>
@@ -95,7 +121,7 @@ Le terme *utilisateur affecté* fait référence à tous les utilisateurs qui on
 </table>
 
 
-### Expérience utilisateur pour un utilisateur hébergé dans un pool non affecté pendant la restauration automatique d’un autre pool
+### <a name="user-experience-for-a-user-homed-in-an-unaffected-pool-during-failback-of-another-pool"></a>Expérience utilisateur pour un utilisateur hébergé dans un pool non affecté lors de la restauration automatique d’un autre pool
 
 <table>
 <colgroup>
@@ -133,4 +159,17 @@ Le terme *utilisateur affecté* fait référence à tous les utilisateurs qui on
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

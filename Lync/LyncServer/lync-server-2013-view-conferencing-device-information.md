@@ -1,35 +1,66 @@
-﻿---
-title: Afficher les informations sur les périphériques de conférence
-TOCTitle: Afficher les informations sur les périphériques de conférence
-ms:assetid: 838bdbf8-8b68-4eb6-8fa3-45bfd5b0b1cd
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ994043(v=OCS.15)
-ms:contentKeyID: 53095467
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: afficher les informations de périphérique de conférence'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: View conferencing device information
+ms:assetid: 838bdbf8-8b68-4eb6-8fa3-45bfd5b0b1cd
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994043(v=OCS.15)
+ms:contentKeyID: 51803954
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b4b40e0ee28f13aa6be52009b750258c5cdadffe
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846309"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Afficher les informations sur les périphériques de conférence
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2013-02-20_
+# <a name="view-conferencing-device-information-in-lync-server-2013"></a>Afficher les informations de périphérique de conférence dans Lync Server 2013
 
-Vous pouvez afficher des informations sur les appareils de conférence configurés pour une utilisation dans votre organisation à l’aide de Windows PowerShell et de l’applet de commande **Get-CsMeetingRoom**. Exécutez l’applet de commande **Get-CsMeetingRoom** à partir de Lync Server 2013 Management Shell ou depuis une session à distance de Windows PowerShell.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2013-02-20_
+
+Vous pouvez afficher des informations sur les appareils de conférence configurés pour une utilisation au sein de votre organisation à l’aide de Windows PowerShell et de l’applet **de passe Get-CsMeetingRoom** . Exécutez l’applet de commande **Get-CsMeetingRoom** à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell.
+
+<div>
+
 
 > [!NOTE]  
-> Pour plus de détails sur l’utilisation de Windows PowerShell à distance pour une connexion à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Démarrage rapide : Gestion de Microsoft Lync Server 2010 avec PowerShell à distance » à l’adresse <a href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</a>.
-
-Si vous utilisez l’applet de commande **Get-CsMeetingRoom** sans aucun paramètre, elle renvoie des informations sur tous vos appareils de conférence. Les paramètres facultatifs offrent différentes manières de filtrer les informations. Pour plus d’informations, voir la section Paramètres de l’article [Get-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsMeetingRoom).
+> Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>Server 2010 à l’aide de Remote PowerShell».
 
 
-## Affichage d’informations sur tous vos appareils de conférence
 
-  - Pour afficher des informations relatives à tous vos appareils de conférence, tapez la commande suivante dans Lync Server Management Shell et appuyez sur Entrée :
+</div>
+
+Si vous utilisez l’applet de passe **Get-CsMeetingRoom** sans aucun paramètre, elle renvoie des informations sur tous vos périphériques de conférence. Les paramètres facultatifs permettent de filtrer les informations de différentes manières. Pour plus d’informations, consultez la section paramètres de [Get-CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/Get-CsMeetingRoom).
+
+<div>
+
+
+<div>
+
+## <a name="viewing-information-about-all-your-conferencing-devices"></a>Affichage d’informations sur tous vos périphériques de conférence
+
+  - Pour afficher les détails de tous vos appareils de conférence, tapez la commande suivante dans Lync Server Management Shell, puis appuyez sur entrée:
     
         Get-CsMeetingRoom
     
-    Cette applet de commande renvoie des informations comme celles-ci pour chaque appareil de conférence. Notez que cet exemple montre uniquement certaines des informations affichées lors de l’exécution de cette applet de commande :
+    Cette applet de commande renvoie des informations similaires à ce qui suit pour chaque appareil de conférence. Notez que l’exemple ci-après illustre les informations que vous verrez lors de l’exécution de cette cmdlet:
     
         ContactOptionFlags                : 64
         OwnerUrn                          : urn:device:roomsystem
@@ -49,11 +80,29 @@ Si vous utilisez l’applet de commande **Get-CsMeetingRoom** sans aucun paramè
         HostedVoiceMail                   :
         DisplayName                       : Room 1219
 
-## Affichage d’informations sur un appareil de conférence spécifique
+</div>
 
-  - Pour afficher des informations sur un appareil de conférence spécifique, incluez le paramètre Identity suivi de l’identité de l’appareil de conférence (en général, il s’agit du nom complet Active Directory). Par exemple :
+<div>
+
+## <a name="viewing-information-about-a-specific-conferencing-device"></a>Affichage d’informations sur un appareil de conférence spécifique
+
+  - Pour afficher des informations pour un appareil de conférence spécifique, incluez le paramètre Identity suivi de l’identité de l’appareil de conférence (en général, le nom d’affichage Active Directory). Par exemple :
     
         Get-CsMeetingRoom -Identity "Room 1219"
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Get-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsMeetingRoom).
+</div>
+
+Pour plus d’informations, consultez la rubrique d’aide relative à l’applet de connexion [Get-CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/Get-CsMeetingRoom) .
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,45 +1,86 @@
-﻿---
-title: Mise à niveau ou mise à jour des serveurs frontaux dans Lync Server 2013
-TOCTitle: Mise à niveau ou mise à jour des serveurs frontaux dans Lync Server 2013
-ms:assetid: 20fa39ae-ecfb-4c72-9cc4-8e183d3c752f
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204736(v=OCS.15)
-ms:contentKeyID: 49296473
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: mise à niveau ou mise à jour des serveurs frontaux'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Upgrade or update Front End Servers
+ms:assetid: 20fa39ae-ecfb-4c72-9cc4-8e183d3c752f
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204736(v=OCS.15)
+ms:contentKeyID: 48183597
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 99c91a4f5fcae9f8d78bf01b19a17795916fb660
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846463"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Mise à niveau ou mise à jour des serveurs frontaux dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2013-06-28_
+# <a name="upgrade-or-update-front-end-servers-in-lync-server-2013"></a>Upgrade or update Front End Servers in Lync Server 2013
 
-Les serveurs frontaux d’un pool Enterprise Edition sont organisés en *domaines de mise à niveau*. Il s’agit de sous-ensembles des serveurs frontaux dans le pool. Les domaines de mise à niveau sont créés automatiquement par le Générateur de topologie.
+</div>
 
-Quand vous effectuez la mise à niveau des serveurs, vous devez procéder un domaine de mise à niveau à la fois. Arrêtez chaque serveur dans un domaine de mise à niveau, effectuez sa mise à niveau, puis redémarrez-le avant de passer au domaine de mise à niveau suivant. Veillez à assurer un suivi des serveurs et domaines de mise à niveau déjà mis à niveau. Utilisez le diagramme de flux suivant dans la cadre de la mise à niveau de chaque serveur.
+<div id="mainSection">
 
-![Diagramme de mise à niveau de serveur](images/JJ204736.42ed59a4-1c26-49f7-ade4-a5a788457ab9(OCS.15).jpg "Diagramme de mise à niveau de serveur")
+<div id="mainBody">
 
-## Application d’une mise à niveau aux serveurs frontaux dans un pool
+<span> </span>
 
-1.  Sur le serveur frontal du pool, exécutez l’applet de commande suivant :
+_**Dernière modification de la rubrique:** 2013-06-28_
+
+Les serveurs frontaux d’un pool Enterprise Edition sont organisés en *domaines de mise à niveau*. Il s’agit de sous-ensembles de serveurs frontaux dans la liste. Les domaines de mise à niveau sont créés automatiquement par le générateur de topologie.
+
+Lorsque vous procédez à la mise à niveau de vos serveurs, vous devez effectuer la mise à niveau d’un domaine à la fois. Mettez à niveau chaque serveur d’un domaine de mise à niveau, mettez-le à niveau, puis redémarrez-le avant de passer à un autre domaine de mise à niveau. Assurez-vous de garder une trace des domaines et serveurs de mise à niveau que vous avez mis à niveau jusqu’ici. Utilisez le diagramme de flux suivant lors de la mise à niveau de chaque serveur.
+
+![42ed59a4-1c26-49f7-ade4-a5a788457ab9] (images/JJ204736.42ed59a4-1c26-49f7-ade4-a5a788457ab9(OCS.15).jpg "42ed59a4-1c26-49f7-ade4-a5a788457ab9")
+
+<div>
+
+## <a name="to-apply-an-upgrade-to-the-front-end-servers-in-a-pool"></a>Pour appliquer une mise à niveau aux serveurs frontaux d’un pool
+
+1.  Sur un serveur frontal du pool, exécutez l’applet de commande suivante:
     
     **Get-CsPoolUpgradeReadinessState**
     
-    Si *PoolUpgradeState* a la valeur **Busy**, patientez 10 minutes, puis réessayez **Get-CsPoolUpgradeReadinessState**. Si la valeur **Busy** s’affiche au moins à trois reprises consécutives, après une attente de 10 minutes entre chaque tentative, ou si un résultat de type **InsufficientActiveFrontEnds** s’affiche pour **PoolUpgradeState**, il s’agit d’un problème dans le pool. Si ce pool est couplé avec un autre pool frontal dans une topologie de récupération d’urgence, basculez ce pool vers le pool de sauvegarde, puis mettez à jour les serveurs de ce pool. Pour plus d’informations, voir [Basculement vers un pool dans Lync Server 2013](lync-server-2013-failing-over-a-pool.md).
+    Si la valeur de *PoolUpgradeState* est **occupé**, attendez 10 minutes, puis réessayez de **Get-CsPoolUpgradeReadinessState** . Si vous voyez **occupé** au moins trois temps consécutifs, après 10 minutes entre chaque tentative, ou si vous voyez un résultat de **InsufficientActiveFrontEnds** pour **PoolUpgradeState,** il y a un problème avec le pool. Si ce pool est associé à un autre pool frontal dans une topologie de récupération d’urgence, vous devez faire basculer le pool vers le pool de sauvegarde, puis mettre à jour les serveurs dans ce pool. Pour plus d’informations, reportez-vous à [échec d’un pool dans Lync Server 2013](lync-server-2013-failing-over-a-pool.md).
     
-    Si la valeur de *PoolUpgradeState* est **Ready**, passez à l’étape 2.
+    Si la valeur de *PoolUpgradeState* est **prête**, passez à l’étape 2.
 
-2.  L’applet de commande **Get-CsPoolUpgradeReadinessState** renvoie également des informations sur chaque domaine de mise à niveau dans le pool, et indique quels serveurs frontaux se trouvent dans chaque domaine de mise à niveau. Si **ReadyforUpgrade** a la valeur **True** pour le domaine de mise à niveau contenant le ou les serveurs que vous voulez mettre à niveau, vous pouvez à présent effectuer la mise à niveau de ces serveurs en toute sécurité. Pour ce faire, procédez comme suit :
+2.  L’applet **de passe Get-CsPoolUpgradeReadinessState** renvoie également des informations sur chaque domaine de mise à niveau du pool et sur les serveurs frontaux de chaque domaine de mise à niveau. Si la valeur **ReadyforUpgrade** est **true** pour le domaine de mise à niveau qui contient le ou les serveurs que vous voulez mettre à niveau, vous pouvez les mettre à niveau en toute sécurité. Pour cela, procédez comme suit:
     
-    1.  Utilisez l’applet de commande `Stop-CsWindowsService -Graceful -Verbose` pour interrompre les nouvelles connexions aux serveurs frontaux que vous allez mettre à niveau.
+    1.  Arrêtez les nouvelles connexions aux serveurs frontaux que vous allez mettre à niveau en utilisant `Stop-CsWindowsService -Graceful -Verbose` l’applet de commande.
         
+        <div>
+        
+
         > [!NOTE]  
-        > Si vous effectuez ces opérations pendant un temps d’arrêt programmé des serveurs, vous pouvez exécuter cette applet de commande sans le paramètre « -<strong>Graceful</strong> », comme suit : <strong>Stop-CsWindowsService</strong>. Ceci permet d’arrêter immédiatement les services, sans attendre l’exécution de toutes les demandes de service existantes.    
+        > Si vous exécutez ces mises à niveau de serveur pendant une période d’inactivité du serveur planifié, vous pouvez exécuter cette applet de commande sans le paramètre'-<STRONG>douceur</STRONG>'comme suit: <STRONG>Stop-CsWindowsService</STRONG>. Cela arrêtera immédiatement les services, sans attendre le remplissage de toutes les demandes de service existantes.
+
+        
+        </div>
+    
     2.  Mettez à niveau les serveurs associés à ce domaine de mise à niveau.
     
-    3.  Redémarrez les serveurs, puis assurez-vous qu’ils acceptent de nouvelles connexions.
+    3.  Redémarrez les serveurs et assurez-vous qu’ils acceptent de nouvelles connexions.
 
-3.  Répétez les étapes 1 et 2 pour les autres domaines de mise à niveau individuels dans le pool, jusqu’à ce que l’ensemble des serveurs frontaux aient été mis à niveau.
+3.  Répétez les étapes 1 et 2 pour chaque autre domaine de mise à niveau de la liste, jusqu’à ce que tous les serveurs front-end aient été mis à niveau.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,51 +1,100 @@
-﻿---
-title: Paramètres de configuration de version du client
-TOCTitle: Paramètres de configuration de version du client
-ms:assetid: c72df4e6-a889-4cb6-86f7-8334d7774c6e
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ923062(v=OCS.15)
-ms:contentKeyID: 53095523
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: afficher les paramètres de configuration de la version du client'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: View client version configuration settings
+ms:assetid: c72df4e6-a889-4cb6-86f7-8334d7774c6e
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ923062(v=OCS.15)
+ms:contentKeyID: 50675353
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 9db03377f8f2fc880de61639f4eedc5b1c302d21
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846319"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Paramètres de configuration de version du client
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2013-02-23_
+# <a name="view-client-version-configuration-settings-in-lync-server-2013"></a>Afficher les paramètres de configuration de la version du client dans Lync Server 2013
 
-Les paramètres de configuration de version du client servent à activer ou désactiver le contrôle de version du client. La configuration globale de version du client est installée avec Lync Server 2013 et permet d’activer ou de désactiver le contrôle de version du client pour l’ensemble du déploiement de serveur. Lorsque la configuration globale est activée, toutes les stratégies de version du client qui sont en place prendront effet lorsque les utilisateurs tenteront de se connecter. Vous pouvez afficher les paramètres de configuration de version du client à partir du Panneau de configuration Lync Server 2013 ou de Lync Server 2013 Management Shell.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2013-02-23_
+
+Les paramètres de configuration de version du client sont utilisés pour activer ou désactiver le contrôle de version du client. La configuration de la version du client global s’installe avec Lync Server 2013 et est utilisée pour activer ou désactiver le contrôle de version du client pour le déploiement complet du serveur. Lorsque la configuration globale est activée, toutes les stratégies de version du client en place prendront effet lorsque les utilisateurs tenteront de se connecter. Vous pouvez afficher les paramètres de configuration de la version du client à partir du panneau de configuration de Lync Server 2013 ou de Lync Server 2013 Management Shell.
+
+<div>
+
 
 > [!NOTE]  
-> N’étant associés à aucun utilisateur, site ou service spécifique, les utilisateurs anonymes sont affectés uniquement par les stratégies globales.
+> Comme ils ne sont pas associés à un utilisateur, un site ou un service spécifiques, les utilisateurs anonymes ne sont affectés que par les stratégies globales.
 
-## Pour afficher les paramètres de configuration de version du client à l’aide du Panneau de configuration Lync Server
 
-1.  À partir d’un compte d’utilisateur auquel est affecté un des rôles CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes de démarrage du Panneau de configuration Lync Server, voir [Ouvrir les outils d’administration Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+</div>
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Clients**, puis sur le bouton de navigation **Configuration de la version du client**.
+<div>
 
-4.  Double-cliquez sur la configuration de version du client à afficher.
+## <a name="to-view-client-version-configuration-settings-by-using-lync-server-control-panel"></a>Pour afficher les paramètres de configuration de la version du client à l’aide du panneau de configuration de Lync Server
 
-## Affichage des paramètres de configuration de version du client à l’aide d’applets de commande Windows PowerShell
+1.  À partir d’un compte d’utilisateur auquel est affecté le rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
 
-Vous pouvez afficher les paramètres de configuration de version du client à l’aide de l’applet de commande **Get-CsClientVersionConfiguration**. Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session à distance de Windows PowerShell. Pour plus de détails sur l’utilisation de Windows PowerShell à distance pour une connexion à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Démarrage rapide : Gestion de Microsoft Lync Server 2010 avec PowerShell à distance » à l’adresse [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
 
-## Pour afficher les informations de configuration de version du client
+3.  Dans la barre de navigation de gauche, cliquez sur **clients**, puis sur le bouton de navigation configuration de la **version du client** .
 
-  - Pour afficher des informations sur tous vos paramètres de configuration de version du client, tapez la commande suivante dans Lync Server Management Shell, puis appuyez sur Entrée :
+4.  Double-cliquez sur le nom de la version de client que vous voulez afficher.
+
+</div>
+
+<div>
+
+## <a name="viewing-client-version-configuration-settings-by-using-windows-powershell-cmdlets"></a>Affichage des paramètres de configuration de la version du client à l’aide des cmdlets Windows PowerShell
+
+Vous pouvez afficher les paramètres de configuration de la version du client à l’aide de l’applet de contrôle **Get-CsClientVersionConfiguration** . Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell».
+
+<div>
+
+## <a name="to-view-client-version-configuration-information"></a>Pour afficher les informations de configuration de la version du client
+
+  - Pour afficher des informations sur les paramètres de configuration de la version de votre client, tapez la commande suivante dans Lync Server Management Shell, puis appuyez sur entrée:
     
         Get-CsClientVersionConfiguration
     
-    Cette commande renvoie des informations semblables à celles-ci :
+    Vous obtiendrez des indications semblables à ceci :
     
         Identity      : Global
         DefaultAction : Allow
         DefaultURL    :
         Enabled       : True
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Get-CsClientVersionConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClientVersionConfiguration).
+</div>
+
+Pour plus d’informations, consultez la rubrique d’aide relative à l’applet de connexion [Get-CsClientVersionConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsClientVersionConfiguration) .
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

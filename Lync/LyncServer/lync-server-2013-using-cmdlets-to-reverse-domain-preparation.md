@@ -1,50 +1,92 @@
-﻿---
-title: 'Lync Server 2013 : Utilisation d’applets de commande pour inverser la préparation d’un domaine'
-TOCTitle: Utilisation d’applets de commande pour inverser la préparation d’un domaine
-ms:assetid: 014dba5d-fcb3-44c9-9d63-ae0755276dac
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398071(v=OCS.15)
-ms:contentKeyID: 49296058
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Utilisation d’applets de commande pour inverser la préparation d’un domaine'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Using cmdlets to reverse domain preparation
+ms:assetid: 014dba5d-fcb3-44c9-9d63-ae0755276dac
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398071(v=OCS.15)
+ms:contentKeyID: 48183227
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0b03ab3218a1568613731efe60eaa95b05a91ebc
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846394"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Utilisation d’applets de commande pour inverser la préparation d’un domaine pour Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-10-29_
+# <a name="using-cmdlets-to-reverse-domain-preparation-for-lync-server-2013"></a>Utilisation d’applets de commande pour inverser la préparation d’un domaine pour Lync Server 2013
 
-Utilisez l’applet de commande **Disable-CsAdDomain** pour inverser l’étape de préparation d’un domaine.
+</div>
 
-## Pour utiliser des applets de commande afin d’inverser la préparation d’un domaine
+<div id="mainSection">
 
-1.  Ouvrez une session sur un serveur dans le domaine en tant que membre du groupe Administrateurs de domaine.
+<div id="mainBody">
 
-2.  Démarrez Lync Server Management Shell : cliquez successivement sur **Démarrer**, **Tous les programmes**, **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-10-29_
+
+Utilisez l’applet de action **Disable-CsAdDomain** pour inverser l’étape de préparation du domaine.
+
+<div>
+
+## <a name="to-use-cmdlets-to-reverse-domain-preparation"></a>Pour utiliser des applets de cmdlet pour contrepasser la préparation du domaine
+
+1.  Ouvrez une session sur n’importe quel serveur du domaine en tant que membre du groupe Domain Admins.
+
+2.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
 3.  Exécutez :
     
         Disable-CsAdDomain [-Domain <Fqdn>] [-DomainController <Fqdn>] [-Force <SwitchParameter>] 
         [-GlobalCatalog <Fqdn>] [-GlobalSettingsDomainController <Fqdn>] 
     
-    Exemple :
+    Par exemple :
     
         Disable-CsAdDomain -Domain domain1.contoso.net -GlobalSettingsDomainController dc01.domain1.contoso.net -Force
     
-    Si le paramètre Force est présent, la préparation du domaine est annulée, même si des serveurs frontaux ou des serveurs de conférence A/V dans le domaine sont activés. Si le paramètre Force n’est pas présent, l’annulation de la préparation du domaine s’arrête si des serveurs frontaux ou des serveurs de conférence A/V dans le domaine sont activés.
+    Si le paramètre force est présent, la préparation du domaine est restaurée, même si un ou plusieurs serveurs frontaux ou serveurs de conférence A/V du domaine sont activés. Si le paramètre force n’est pas présent, la restauration de la préparation du domaine est arrêtée si un serveur frontal ou un serveur de conférence A/V du domaine est activé.
     
+    <div>
+    
+
     > [!NOTE]  
-    > Le paramètre GlobalSettingsDomainController vous permet d’indiquer où sont stockés les paramètres globaux. Si vos paramètres sont stockés dans le conteneur système (ce qui est caractéristique des déploiements de mise à niveau pour lesquels le paramètre global n’a pas migré vers le conteneur de configuration), vous devez définir un contrôleur de domaine dans la racine de votre forêt Active Directory. Si les paramètres globaux se trouvent dans le conteneur de configuration (ce qui est caractéristique des nouveaux déploiements ou des déploiements de mise à niveau où les paramètres ont été migrés vers le conteneur de configuration, vous devez définir un contrôleur de domaine dans la forêt. Si vous ne spécifiez pas ce paramètre, l’applet de commande suppose que les paramètres sont stockés dans le conteneur de configuration et indique un contrôleur de domaine dans les services de domaine Active Directory.
+    > Le paramètre GlobalSettingsDomainController vous permet d’indiquer l’emplacement de stockage des paramètres globaux. Si vos paramètres sont stockés dans le conteneur système (qui est généralement utilisé avec des déploiements de mise à niveau pour lesquels le paramètre global n’a pas été déplacé vers le conteneur de configuration), vous définissez un contrôleur de domaine à la racine de votre forêt Active Directory. Si les paramètres globaux se trouvent dans le conteneur de configuration (ce qui est caractéristique des nouveaux déploiements ou des déploiements de mise à niveau où les paramètres ont été migrés vers le conteneur de configuration, vous devez définir un contrôleur de domaine dans la forêt. Si vous ne spécifiez pas ce paramètre, l’applet de commande suppose que les paramètres sont stockés dans le conteneur de configuration et font référence à tout&nbsp;contrôleur de domaine dans AD DS.
 
+    
+    </div>
 
-## Voir aussi
+</div>
 
-#### Tâches
+<div>
+
+## <a name="see-also"></a>Voir aussi
+
 
 [Exécution de la préparation du domaine pour Lync Server 2013](lync-server-2013-running-domain-preparation.md)  
 
-#### Autres ressources
 
-[Préparation des domaines pour Lync Server 2013](lync-server-2013-preparing-domains.md)
+[Préparation des domaines pour Lync Server 2013](lync-server-2013-preparing-domains.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,35 +1,57 @@
-﻿---
-title: "Lync Server 2013 : Conf. tech. pour le serveur de conversation permanente"
-TOCTitle: Configuration technique requise pour le serveur de conversation permanente
-ms:assetid: 692b7d99-1bc9-4c99-a050-2bc2be8688b2
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398495(v=OCS.15)
-ms:contentKeyID: 49297487
-ms.date: 07/20/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: configuration requise pour le serveur de chat permanent'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Technical requirements for Persistent Chat Server
+ms:assetid: 692b7d99-1bc9-4c99-a050-2bc2be8688b2
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398495(v=OCS.15)
+ms:contentKeyID: 48184383
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 9b84f1a2932b76c8030c907463e8f0f2e93bedda
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846650"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configuration technique requise pour le serveur de conversation permanente dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2016-12-08_
+# <a name="technical-requirements-for-persistent-chat-server-in-lync-server-2013"></a>Configuration requise pour le serveur de chat permanent dans Lync Server 2013
 
-Chaque ordinateur qui héberge un serveur de conversations permanentes doit avoir accès à une topologie Lync Server 2013 existante avec les composants suivants :
+</div>
 
-  - **Lync Server 2013,  serveur frontal.** Le serveur frontal constitue la base du routage SIP (Session Initiation Protocol) qui rend possible la communication entre les ordinateurs exécutant le serveur de conversations permanentes et la fonctionnalité de conversation permanente. Avant de commencer à déployer le serveur de conversations permanentes, vérifiez le déploiement de Lync Server 2013, Standard Edition ou d’un pool de serveurs frontauxLync Server, mais aussi des autres ordinateurs internes exécutant Lync Server, selon les besoins de votre organisation.
+<div id="mainSection">
 
-Les sections suivantes décrivent la configuration requise pour le serveur de conversations permanentes et la base de données qui stocke les données conversation permanente.
+<div id="mainBody">
 
-## Configuration requise pour serveur de conversations permanentes
+<span> </span>
 
-Pour plus d’informations sur le matériel recommandé pour le déploiement de Lync Server et la dernière version du serveur de conversations permanentes, reportez-vous à [Plateformes matérielles de serveur pour Lync Server 2013](lync-server-2013-server-hardware-platforms.md) dans la documentation de prise en charge.
+_**Dernière modification de la rubrique:** 2013-01-06_
 
-Pour plus d’informations sur la prise en charge du système d’exploitation pour le serveur et les outils, pour Lync Server et le serveur de conversations permanentes, reportez-vous à [Prise en charge du système d’exploitation pour le serveur et les outils dans Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) dans la documentation de prise en charge.
+Chaque ordinateur qui héberge le serveur Chat permanent doit avoir accès à une topologie Lync Server 2013 existante avec les composants suivants:
 
-Pour plus d’informations sur les logiciels supplémentaires requis pour le déploiement du serveur de conversations permanentes, reportez-vous au tableau suivant.
+  - **Serveur frontal Lync Server 2013.**  Le serveur frontal est le serveur principal pour le routage SIP (Session Initiation Protocol), qui permet de communiquer entre les ordinateurs exécutant le serveur Chat permanent et la fonctionnalité de conversation permanente possible. Avant de commencer à déployer le serveur de chat permanent, vérifiez le déploiement de Lync Server 2013 Standard Edition ou d’un pool frontal Lync Server et de tout autre ordinateur interne exécutant Lync Server, selon les besoins de votre organisation.
 
-### Logiciels prérequis pour le serveur de conversations permanentes
+Les sections suivantes décrivent les conditions requises pour le serveur de chat permanent et la base de données qui stocke les données de chat permanent.
+
+<div>
+
+## <a name="persistent-chat-server-requirements"></a>Configuration requise pour le serveur de chat permanent
+
+Pour plus d’informations sur le matériel recommandé pour le déploiement de Lync Server et la dernière version de Chat Server, voir [plates-formes matérielles pour Lync Server 2013](lync-server-2013-server-hardware-platforms.md) dans la documentation de support.
+
+Pour plus d’informations sur la prise en charge des systèmes d’exploitation serveur et outils pour Lync Server et serveur de chat permanent, voir [prise en charge du système d’exploitation serveur et outils dans Lync server 2013](lync-server-2013-server-and-tools-operating-system-support.md) dans la documentation de support technique.
+
+Pour plus d’informations sur les logiciels supplémentaires requis pour le déploiement d’un serveur de chat permanent, voir le tableau suivant.
+
+### <a name="persistent-chat-server-software-prerequisites"></a>Conditions préalables pour le logiciel serveur Chat permanent
 
 <table>
 <colgroup>
@@ -45,30 +67,57 @@ Pour plus d’informations sur les logiciels supplémentaires requis pour le dé
 <tbody>
 <tr class="odd">
 <td><p>Message Queuing</p></td>
-<td><p>Utilisé par le service de conformité du serveur de conversations permanentes et de conversation permanente s’il est déployé.</p></td>
+<td><p>Utilisé par le serveur de chat permanent et le service de conformité des conversations permanentes, s’il est déployé.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Configuration requise pour les bases de données du serveur de conversations permanentes
+</div>
 
-Le serveur de conversations permanentes utilise la base de données de conversation permanente pour stocker l’historique des conversations, la configuration et les données de provisionnement d’utilisateur. Il utilise éventuellement la base de données de conformité de conversation permanente pour stocker les données de conformité.
+<div>
+
+## <a name="persistent-chat-server-database-requirements"></a>Exigences de base de données serveur de chat permanent
+
+Le serveur Chat permanent utilise la base de données de chat permanent pour stocker les données de l’historique des conversations, de la configuration et de la mise en service des utilisateurs. Le cas échéant, elle utilise la base de données de conformité des conversations permanentes pour stocker les données de conformité.
+
+<div>
+
 
 > [!IMPORTANT]  
-> La base de données de conversation permanente (mgc) et la base de données de conformité (mgccomp) peuvent se trouver sur la même instance de SQL Server ou sur des serveurs SQL Server différents.
+> La base de données de chat permanent (MGC) et la base de données de conformité (mgccomp) peuvent être localisées dans la même instance de SQL Server ou sur des serveurs SQL Server différents.
+
+
+
+</div>
 
 Pour préparer une plateforme de serveur de base de données, vérifiez que chaque ordinateur respecte la configuration matérielle requise, puis installez les logiciels prérequis.
 
-La plateforme de serveur pour les serveurs de base de données de conversation permanente requiert le même matériel que le serveur de la base de données principale Lync Server. Pour plus d’informations, reportez-vous à [Plateformes matérielles de serveur pour Lync Server 2013](lync-server-2013-server-hardware-platforms.md) dans la documentation de prise en charge.
+La plateforme serveur pour les serveurs de base de données de chat permanent nécessite le même matériel que le serveur de base de données principal de Lync Server. Pour plus d’informations, reportez-vous à la rubrique [plateformes matérielles pour Lync server 2013](lync-server-2013-server-hardware-platforms.md) dans la documentation de support.
 
 Sur le serveur de bases de données, vérifiez que l’une des applications logicielles suivantes est installée :
 
-  - Microsoft SQL Server 2012. Pour plus d’informations sur l’installation de Microsoft SQL Server 2012, reportez-vous à « Installer SQL Server 2012 » à l’adresse [http://go.microsoft.com/fwlink/p/?LinkID=248559](http://go.microsoft.com/fwlink/p/?linkid=248559).
+  - Microsoft SQL Server 2012. Pour plus d’informations sur l’installation de Microsoft SQL Server 2012, voir installer SQL Server 2012 [http://go.microsoft.com/fwlink/p/?LinkID=248559](http://go.microsoft.com/fwlink/p/?linkid=248559).
 
-  - Microsoft SQL Server 2008 R2. Pour plus d’informations sur l’installation de Microsoft SQL Server 2008 R2, reportez-vous à « Installation SQL Server (SQL Server 2008 R2) » à l’adresse [http://go.microsoft.com/fwlink/?LinkId=275702](http://go.microsoft.com/fwlink/?linkid=275702).
+  - Microsoft SQL Server 2008 R2. Pour plus d’informations sur l’installation de Microsoft SQL Server 2008 R2, voir «installation de SQL Server (SQL Server 2008 R2 [http://go.microsoft.com/fwlink/?LinkId=275702](http://go.microsoft.com/fwlink/?linkid=275702))» à l’adresse.
 
-## Exigences en matière de certificats pour le serveur de conversations permanentes
+</div>
 
-Pour plus d’informations sur l’acquisition de certificats, la création de la base de données SQL Server et la création de magasins de fichiers, reportez-vous à [Déploiement de Lync Server 2013](lync-server-2013-deploying-lync-server.md) (contenu éventuellement en anglais) dans la documentation relative au déploiement.
+<div>
+
+## <a name="persistent-chat-server-certificate-requirements"></a>Conditions requises pour le certificat serveur Chat permanent
+
+Pour plus d’informations sur l’acquisition de certificats, la création de la base de données SQL Server et la création de magasins de fichiers, voir [déploiement de Lync Server 2013](lync-server-2013-deploying-lync-server.md) dans la documentation de déploiement.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,25 +1,45 @@
-﻿---
-title: Utilisation des options de la ligne de commande Setup
-TOCTitle: Utilisation des options de la ligne de commande Setup
-ms:assetid: 99878c3c-ff31-48e2-8424-580d7b07a7bf
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ205129(v=OCS.15)
-ms:contentKeyID: 49298262
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: utilisation des options de ligne de commande du programme d’installation'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Using Setup command-line options
+ms:assetid: 99878c3c-ff31-48e2-8424-580d7b07a7bf
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205129(v=OCS.15)
+ms:contentKeyID: 48184957
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 5087c8ac777e5e2fd3259f925a4217a4d47dd800
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846366"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Utilisation des options de la ligne de commande Setup
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2016-12-08_
+# <a name="using-setup-command-line-options-in-lync-server-2013"></a>Utilisation des options de ligne de commande du programme d’installation dans Lync Server 2013
 
-La ligne de commande Setup.exe est utilisée pour très peu d’opérations dans le programme d’installation d’Office. Au lieu d’utiliser les options de ligne de commande du programme d’installation, on utilise généralement l’Outil de personnalisation Office et le fichier Config.xml pour personnaliser l’installation du produit et ses fonctionnalités.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-10-03_
+
+La ligne de commande Setup.exe est utilisée pour très peu d’opérations dans le programme d’installation d’Office. Au lieu d’utiliser les options de ligne de commande du programme d’installation, vous utiliserez généralement l’outil de personnalisation Office et le fichier Config.xml pour personnaliser l’installation du produit et de ses fonctionnalités.
 
 La ligne de commande de Setup.exe reconnaît les options de ligne de commande décrites dans le tableau suivant.
 
-### Options de la ligne de commande du programme d’installation Office
+### <a name="office-setup-command-line-options"></a>Options de ligne de commande du programme d’installation Office
 
 <table>
 <colgroup>
@@ -35,7 +55,7 @@ La ligne de commande de Setup.exe reconnaît les options de ligne de commande d�
 <tbody>
 <tr class="odd">
 <td><p>/admin</p></td>
-<td><p>Exécute l’Outil de personnalisation Office pour créer un fichier de personnalisation de l’installation (fichier .msp).</p></td>
+<td><p>Exécute l’outil de personnalisation Office pour créer un fichier de personnalisation de l’installation (fichier .msp).</p></td>
 </tr>
 <tr class="even">
 <td><p>/adminfile [chemin]</p></td>
@@ -43,23 +63,33 @@ La ligne de commande de Setup.exe reconnaît les options de ligne de commande d�
 </tr>
 <tr class="odd">
 <td><p>/config [chemin]</p></td>
-<td><p>Spécifie le fichier Config.xml utilisé par le programme d’installation au cours de l’installation. Utilisez l’option /config pour spécifier le fichier Config.xml que vous avez personnalisé pour les installations de Lync 2013, par exemple : <code>/config \\server\share\Lync15\Lync.WW\Config.xml</code></p></td>
+<td><p>Spécifie le fichier Config.xml utilisé par le programme d’installation lors de l’installation. Utilisez l’option/config pour spécifier le fichier config. XML que vous avez personnalisé pour les installations de Lync 2013, par exemple:<code>/config \\server\share\Lync15\Lync.WW\Config.xml</code></p></td>
 </tr>
 <tr class="even">
-<td><p>/modify Lync</p></td>
-<td><p>Utilisée avec un fichier Config.xml modifié, cette option permet d’exécuter le programme d’installation en mode maintenance et d’apporter des modifications à une installation Office existante. Par exemple, vous pouvez utiliser l’option /modify pour ajouter ou supprimer des fonctionnalités de Lync.</p></td>
+<td><p>/Modify Lync</p></td>
+<td><p>Utilisée avec un fichier Config.xml modifié, cette option permet d’exécuter le programme d’installation en mode maintenance et d’apporter des modifications à une installation Office existante. Par exemple, vous pouvez utiliser l’option/Modify pour ajouter ou supprimer des fonctionnalités Lync.</p></td>
 </tr>
 <tr class="odd">
-<td><p>/repair Lync</p></td>
+<td><p>/Repair Lync</p></td>
 <td><p>Exécute le programme d’installation à partir de l’ordinateur de l’utilisateur pour réparer Lync.</p></td>
 </tr>
 <tr class="even">
-<td><p>/uninstall Lync</p></td>
+<td><p>/Uninstall Lync</p></td>
 <td><p>Exécute le programme d’installation pour supprimer Lync de l’ordinateur de l’utilisateur.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-Pour plus d’informations sur l’utilisation des options de ligne de commande du programme d’installation, voir [http://go.microsoft.com/fwlink/?linkid=267515\&clcid=0x40C](http://go.microsoft.com/fwlink/?linkid=267515%26clcid=0x40c).
+Pour plus d’informations sur l’utilisation des options de ligne de <http://go.microsoft.com/fwlink/p/?linkid=267515>commande du programme d’installation, voir.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

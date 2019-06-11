@@ -1,23 +1,43 @@
-﻿---
-title: Événements liés à l’API UCWA
-TOCTitle: Événements liés à l’API UCWA
-ms:assetid: 26cb409d-f4e4-43c7-873f-b694702d491d
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ945621(v=OCS.15)
-ms:contentKeyID: 53095383
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: événements UCWA'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: UCWA events
+ms:assetid: 26cb409d-f4e4-43c7-873f-b694702d491d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945621(v=OCS.15)
+ms:contentKeyID: 51541461
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: d0671b51e5fbd4b5f072676855d9e8f5201b3e04
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846477"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Événements liés à l’API UCWA
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2015-03-09_
+# <a name="ucwa-events-in-lync-server-2013"></a>Événements adUCWA dans Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2013-02-15_
 
     The information in this topic pertains to Cumulative Updates for Lync Server 2013: February 2013.
 
-Lync Server 2013 utilise l’API UCWA (Unified Communications Web API) à différentes fins, allant de l’accès à Microsoft Exchange pour effectuer des recherches de contact à la mise à jour des informations de présence pour les clients mobiles.
+Lync Server 2013 utilise l’API UCWA (Unified Communications Web API) à diverses fins, en accédant à Microsoft Exchange pour les recherches de contacts pour la mise à jour de la présence pour les clients mobiles.
 
 L’API UCWA écrit les enregistrements liés aux opérations en tant qu’événements de type information, avertissement ou erreur. Le tableau suivant décrit les événements pouvant être écrits par les composants de l’API UCWA.
 
@@ -34,7 +54,7 @@ L’API UCWA écrit les enregistrements liés aux opérations en tant qu’évé
 <th>ID d’événement</th>
 <th>Type d’événement</th>
 <th>Résumé</th>
-<th>Cause et solution</th>
+<th>Cause et résolution</th>
 </tr>
 </thead>
 <tbody>
@@ -42,13 +62,13 @@ L’API UCWA écrit les enregistrements liés aux opérations en tant qu’évé
 <td><p>20001</p></td>
 <td><p>Information</p></td>
 <td><p>API UCWA initialisée</p></td>
-<td><p>N/A</p>
-<p>N/A</p></td>
+<td><p>N/A </p>
+<p>N/A </p></td>
 </tr>
 <tr class="even">
 <td><p>20002</p></td>
 <td><p>Erreur</p></td>
-<td><p>L’API UCWA a rencontré une exception inattendue pendant son initialisation</p></td>
+<td><p>L’API UCWA a rencontré une exception inattendue pendant son initialisation.</p></td>
 <td><p>Une erreur inattendue s’est produite pendant l’initialisation.</p>
 <p>Examinez les détails de l’exception dans l’entrée correspondante du journal des événements pour déterminer la cause possible.</p></td>
 </tr>
@@ -70,7 +90,7 @@ L’API UCWA écrit les enregistrements liés aux opérations en tant qu’évé
 <td><p>20005</p></td>
 <td><p>Information</p></td>
 <td><p>Récupération de l’échec de l’accès à Exchange pour la photo HD</p></td>
-<td><p>N/A</p></td>
+<td><p>S/O</p></td>
 </tr>
 <tr class="even">
 <td><p>20006</p></td>
@@ -83,42 +103,42 @@ L’API UCWA écrit les enregistrements liés aux opérations en tant qu’évé
 <td><p>20007</p></td>
 <td><p>Information</p></td>
 <td><p>Récupération de l’échec de la recherche de contact dans Exchange</p></td>
-<td><p>N/A</p></td>
+<td><p>S/O</p></td>
 </tr>
 <tr class="even">
 <td><p>20008</p></td>
 <td><p>Avertissement</p></td>
 <td><p>Tentative de souscription à un nombre d’abonnements aux informations de présence supérieur au nombre autorisé par application</p></td>
 <td><p>Tentative de souscription à un nombre d’abonnements aux informations de présence supérieur au nombre autorisé par application</p>
-<p>Vérifiez si les clients possèdent des abonnements superflus</p></td>
+<p>Vérifiez si les clients possèdent des abonnements superflus.</p></td>
 </tr>
 <tr class="odd">
 <td><p>20009</p></td>
 <td><p>Avertissement</p></td>
 <td><p>Tentative de souscription à un nombre d’abonnements aux informations de présence supérieur au nombre autorisé par lot</p></td>
 <td><p>Tentative de souscription à un nombre d’abonnements aux informations de présence supérieur au nombre autorisé par lot</p>
-<p>Vérifiez si les clients possèdent des abonnements superflus</p></td>
+<p>Vérifiez si les clients possèdent des abonnements superflus.</p></td>
 </tr>
 <tr class="even">
 <td><p>20010</p></td>
 <td><p>Erreur</p></td>
 <td><p>Impossible de récupérer les données de la bande entrante</p></td>
 <td><p>Impossible de récupérer les données de la bande entrante</p>
-<p>Si le problème persiste, contactez le support technique</p></td>
+<p>Si le problème persiste, contactez le support technique.</p></td>
 </tr>
 <tr class="odd">
 <td><p>20011</p></td>
 <td><p>Erreur</p></td>
 <td><p>Impossible de s’abonner aux informations de présence</p></td>
 <td><p>Impossible de s’abonner aux informations de présence</p>
-<p>Si le problème persiste, contactez le support technique</p></td>
+<p>Si le problème persiste, contactez le support technique.</p></td>
 </tr>
 <tr class="even">
 <td><p>20012</p></td>
 <td><p>Erreur</p></td>
 <td><p>Échec de l’enregistrement du point de terminaison</p></td>
 <td><p>Échec de l’enregistrement du point de terminaison</p>
-<p>Si le problème persiste, contactez le support technique</p></td>
+<p>Si le problème persiste, contactez le support technique.</p></td>
 </tr>
 <tr class="odd">
 <td><p>20013</p></td>
@@ -131,7 +151,7 @@ L’API UCWA écrit les enregistrements liés aux opérations en tant qu’évé
 <td><p>20014</p></td>
 <td><p>Information</p></td>
 <td><p>Récupération de l’échec de la connexion au MCU de messagerie instantanée</p></td>
-<td><p>N/A</p></td>
+<td><p>S/O</p></td>
 </tr>
 <tr class="odd">
 <td><p>20015</p></td>
@@ -144,7 +164,7 @@ L’API UCWA écrit les enregistrements liés aux opérations en tant qu’évé
 <td><p>20016</p></td>
 <td><p>Information</p></td>
 <td><p>Récupération de l’échec de la connexion au MCU AV</p></td>
-<td><p>N/A</p></td>
+<td><p>S/O</p></td>
 </tr>
 <tr class="odd">
 <td><p>20017</p></td>
@@ -170,7 +190,7 @@ L’API UCWA écrit les enregistrements liés aux opérations en tant qu’évé
 <td><p>20020</p></td>
 <td><p>Information</p></td>
 <td><p>Récupération de l’échec de la connexion au MCU de données</p></td>
-<td><p>N/A</p></td>
+<td><p>S/O</p></td>
 </tr>
 <tr class="odd">
 <td><p>20021</p></td>
@@ -222,4 +242,15 @@ L’API UCWA écrit les enregistrements liés aux opérations en tant qu’évé
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

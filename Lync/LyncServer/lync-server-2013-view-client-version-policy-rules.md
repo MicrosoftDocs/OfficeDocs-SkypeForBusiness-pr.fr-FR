@@ -1,45 +1,73 @@
-﻿---
-title: Afficher les règles de stratégie de version du client
-TOCTitle: Afficher les règles de stratégie de version du client
-ms:assetid: f3a0215f-f72f-4e9b-a07b-25858dc4203a
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ923060(v=OCS.15)
-ms:contentKeyID: 53095567
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: afficher les règles de stratégie de la version du client'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: View client version policy rules
+ms:assetid: f3a0215f-f72f-4e9b-a07b-25858dc4203a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ923060(v=OCS.15)
+ms:contentKeyID: 50675350
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f2f4bf9d60d9f99addffed25a87b05ea91650294
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846314"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Afficher les règles de stratégie de version du client
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2013-02-23_
+# <a name="view-client-version-policy-rules-in-lync-server-2013"></a>Afficher les règles de stratégie de la version du client dans Lync Server 2013
 
-Une stratégie de version du client est composée d’un ensemble de règles de stratégie de version du client. Ces règles définissent les actions qui doivent être entreprises lorsque les utilisateurs tentent de se connecter avec des clients et des versions de client spécifiques. Vous pouvez afficher les règles de stratégie de version client à partir du Panneau de configuration Lync Server 2013 ou de Lync Server 2013 Management Shell.
+</div>
 
-## Pour afficher les règles de stratégie de version client à l’aide du Panneau de configuration Lync Server
+<div id="mainSection">
 
-1.  À partir d’un compte d’utilisateur auquel est affecté un des rôles CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
+<div id="mainBody">
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes de démarrage du Panneau de configuration Lync Server, voir [Ouvrir les outils d’administration Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+<span> </span>
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Clients**, puis sur le bouton de navigation **Stratégie de version du client**.
+_**Dernière modification de la rubrique:** 2013-02-23_
 
-4.  Dans la page **Stratégie de version du client**, double-cliquez sur une stratégie de version du client que vous voulez afficher.
+Une stratégie de version de client est composée d’un ensemble de règles de stratégie de version de client. Ces règles définissent les actions qui doivent être effectuées lorsque les utilisateurs tentent de se connecter avec des clients et des versions de client spécifiques. Vous pouvez afficher les règles de stratégie de la version du client à partir du panneau de configuration de Lync Server 2013 ou de Lync Server 2013 Management Shell.
 
-5.  Les règles s’affichent dans la page **Modifier la stratégie de version du client**. Pour afficher les détails d’une règle, sélectionnez-la, puis cliquez sur **Afficher les détails**.
+<div>
 
-## Affichage des règles de stratégie de version du client à l’aide des applets de commande Windows PowerShell
+## <a name="to-view-client-version-policy-rules-by-using-lync-server-control-panel"></a>Pour afficher les règles de stratégie de la version du client à l’aide du panneau de configuration de Lync Server
 
-Vous pouvez afficher les règles de stratégie de version du client à l’aide de Lync Server Management Shell et de l’applet de commande **Get-CsClientVersionPolicyRule**. Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une sessions à distance de Windows PowerShell. Pour plus de détails sur l’utilisation de Windows PowerShell à distance pour une connexion à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Démarrage rapide : Gestion de Microsoft Lync Server 2010 avec PowerShell à distance » à l’adresse [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+1.  À partir d’un compte d’utilisateur auquel est affecté le rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
 
-## Pour afficher les règles de stratégie de version du client
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
 
-  - Pour afficher les règles de stratégie de version du client, tapez la commande suivante dans Lync Server Management Shell et appuyez sur Entrée:
+3.  Dans la barre de navigation de gauche, cliquez sur **clients**, puis sur le bouton de navigation de la stratégie de la **version de client** .
+
+4.  Dans la page de **stratégie de version du client** , double-cliquez sur la stratégie de version de client que vous voulez afficher.
+
+5.  Les règles apparaissent dans la page **modifier la stratégie de version du client** . Pour afficher les détails d’une règle, sélectionnez-la, puis cliquez sur **afficher les détails**.
+
+</div>
+
+<div>
+
+## <a name="viewing-client-version-policy-rules-by-using-windows-powershell-cmdlets"></a>Affichage des règles de stratégie de version du client à l’aide des cmdlets Windows PowerShell
+
+Vous pouvez afficher les règles de stratégie de la version du client à l’aide de Lync Server Management Shell et de l’applet **de contrôle Get-CsClientVersionPolicyRule** . Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell».
+
+<div>
+
+## <a name="to-view-client-version-policy-rules"></a>Pour afficher les règles de stratégie de la version du client
+
+  - Pour afficher les règles de stratégie de version du client, tapez la commande suivante dans Lync Server Management Shell, puis appuyez sur entrée:
     
         Get-CsClientVersionPolicyRule
     
-    Des informations ressemblant à celles-ci sont retournées pour chaque règle configurée :
+    Cela renverra des informations similaires à ce qui suit pour chaque règle configurée:
     
         Identity          : Global/2336c611-a243-4c5d-994b-eea8a524d0e4
         Priority          : 0
@@ -56,5 +84,19 @@ Vous pouvez afficher les règles de stratégie de version du client à l’aide 
         Enabled           : True
         CompareOp         : LEQ
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Get-CsClientVersionPolicyRule](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClientVersionPolicyRule).
+</div>
+
+Pour plus d’informations, consultez la rubrique d’aide relative à l’applet de connexion [Get-CsClientVersionPolicyRule](https://docs.microsoft.com/powershell/module/skype/Get-CsClientVersionPolicyRule) .
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

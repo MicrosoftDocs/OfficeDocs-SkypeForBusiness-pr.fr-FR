@@ -1,45 +1,75 @@
-﻿---
-title: Mise à jour des enregistrements SRV DNS
-TOCTitle: Mise à jour des enregistrements SRV DNS
-ms:assetid: a29149aa-30cc-4a59-af98-fb95c2385cce
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ688161(v=OCS.15)
-ms:contentKeyID: 49891478
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Mettre à jour les enregistrements SRV DNS
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Update DNS SRV records
+ms:assetid: a29149aa-30cc-4a59-af98-fb95c2385cce
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688161(v=OCS.15)
+ms:contentKeyID: 49733765
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 97ff3eed81a90960444b260bd0ca5b9c4c67022e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846033"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Mise à jour des enregistrements SRV DNS
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-09-29_
+# <a name="update-dns-srv-records"></a>Mettre à jour les enregistrements SRV DNS
 
-Pour effectuer correctement cette procédure, vous devez être connecté au serveur ou au domaine en tant que membre du groupe Administrateurs du domaine ou du groupe DnsAdmins.
+</div>
 
-Cette rubrique explique comment mettre à jour les enregistrements DNS (Domain Name System) après une migration vers Lync Server 2013. Après le déplacement de tous les utilisateurs vers Lync Server 2013, mais avant la mise hors service du pool ou directeur Office Communications Server 2007 R2 hérité, vous devez mettre à jour les enregistrements DNS SRV dans votre système DNS interne pour chaque domaine SIP. Cette procédure suppose que votre serveur DNS interne comporte des zones pour vos domaines d’utilisateurs SIP.
+<div id="mainSection">
 
-**Pour configurer un enregistrement DNS SRV**
+<div id="mainBody">
 
-1.  Sur le serveur DNS, cliquez sur **Démarrer** , sur **Outils d’administration** , puis sur **DNS** .
+<span> </span>
 
-2.  Dans l’arborescence de la console pour votre domaine SIP, développez **Zones de recherche directes** , développez le domaine SIP dans lequel Lync Server 2013 est installé, puis accédez au paramètre  **\_tcp**.
+_**Dernière modification de la rubrique:** 2012-09-29_
 
-3.  Dans le volet droit, cliquez avec le bouton droit sur **\_sipinternaltls**, puis sélectionnez **Propriétés**.
+Pour effectuer cette procédure, vous devez être connecté au serveur ou au domaine en tant que membre du groupe Domain Admins ou membre du groupe DnsAdmins.
 
-4.  Dans **Hôte offrant ce service** , mettez à jour le nom de domaine complet de l’hôte de sorte qu’il pointe vers le pool Lync Server 2013.
+Cette rubrique explique comment mettre à jour les enregistrements DNS (Domain Name System) après la migration vers Lync Server 2013. Une fois tous les utilisateurs déplacés vers Lync Server 2013, mais avant la désactivation du pool ou du réalisateur d’ancienne version d’Office Communications Server 2007 R2, vous devez mettre à jour les enregistrements DNS SRV dans votre DNS interne pour chaque domaine SIP. Cette procédure part du principe que votre DNS interne comporte des zones pour vos domaines d’utilisateur SIP.
 
-5.  Cliquez sur **OK** .
+**Pour configurer un enregistrement SRV DNS**
 
-**Pour vérifier que le nom de domaine complet du pool frontal ou du serveur Standard Edition peut être résolu**
+1.  Sur le serveur DNS, cliquez sur **Démarrer**, sur **Outils d’administration**, puis sur **DNS**.
 
-1.  Ouvrez une session sur un ordinateur client du domaine.
+2.  Dans l’arborescence de la console de votre domaine SIP, développez **zones de recherche directe**, développez le domaine SIP dans lequel Lync Server 2013 est installé, puis accédez au paramètre ** \_TCP** .
 
-2.  Cliquez sur **Démarrer** , puis sur **Exécuter** .
+3.  Dans le volet droit, cliquez avec le bouton droit sur ** \_sipinternaltls** , puis sélectionnez **Propriétés**.
 
-3.  Dans la zone **Ouvrir** , tapez **cmd** , puis cliquez sur **OK** .
+4.  Dans la liste des **hôtes proposant ce service**, mettez à jour le nom de domaine complet (FQDN) du serveur pour qu’il pointe sur le pool Lync Server 2013.
 
-4.  Dans l’invite de commandes, tapez **nslookup** *\<nom de domaine complet du pool frontal\>* ou *\<nom de domaine complet du serveur Standard Edition\>* et appuyez sur Entrée.
+5.  Cliquez sur **OK**.
 
-5.  Vérifiez que vous recevez une réponse résolue en adresse IP appropriée pour le nom de domaine complet.
+**Pour vérifier que le nom de domaine complet (FQDN) du pool frontal ou du serveur Standard Edition peut être résolu**
+
+1.  Connectez-vous à un ordinateur client dans le domaine.
+
+2.  Cliquez sur **Démarrer **, puis sur **Exécuter **.
+
+3.  Dans la zone **ouvrir** , tapez **cmd**, puis cliquez sur **OK**.
+
+4.  À l’invite de commandes, tapez **nslookup** \<FQDN du pool\> frontal ou \<du FQDN du serveur\>Standard Edition, puis appuyez sur entrée.
+
+5.  Vérifiez que vous recevez une réponse qui est résolue en adresse IP appropriée pour le nom de domaine complet (FQDN).
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

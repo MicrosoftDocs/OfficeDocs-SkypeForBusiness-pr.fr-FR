@@ -1,19 +1,39 @@
-﻿---
-title: Table MonitoredUserSiteLink
-TOCTitle: Table MonitoredUserSiteLink
-ms:assetid: 16edc24a-2718-4bb4-b05c-bc7aafa97963
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398233(v=OCS.15)
-ms:contentKeyID: 49296374
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Table MonitoredUserSiteLink
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: MonitoredUserSiteLink table
+ms:assetid: 16edc24a-2718-4bb4-b05c-bc7aafa97963
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398233(v=OCS.15)
+ms:contentKeyID: 48183508
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f5de189abc64271a915cfe88ae450dc349709e0d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846140"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Table MonitoredUserSiteLink
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2015-03-09_
+# <a name="monitoredusersitelink-table"></a>Table MonitoredUserSiteLink
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-10-02_
 
 La table MonitoredUserSiteLink est une table de prise en charge. Chaque enregistrement représente un lien entre deux sites d’utilisateurs.
 
@@ -36,16 +56,27 @@ La table MonitoredUserSiteLink est une table de prise en charge. Chaque enregist
 <tbody>
 <tr class="odd">
 <td><p><strong>UserSite1Key</strong></p></td>
-<td><p>Int</p></td>
-<td><p>Primaire, étrangère</p></td>
-<td><p>Référencée depuis la <a href="lync-server-2013-usersite-table.md">Table UserSite dans Lync Server 2013</a>.</p></td>
+<td><p>int</p></td>
+<td><p>Etranger principal</p></td>
+<td><p>Fait référence à partir de la <a href="lync-server-2013-usersite-table.md">table UserSite dans Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserSite2Key</strong></p></td>
-<td><p>Int</p></td>
-<td><p>Primaire, étrangère</p></td>
-<td><p>Référence tirée de la <a href="lync-server-2013-usersite-table.md">Table UserSite dans Lync Server 2013</a>.</p></td>
+<td><p>int</p></td>
+<td><p>Etranger principal</p></td>
+<td><p>Référence à partir de la <a href="lync-server-2013-usersite-table.md">table UserSite dans Lync Server 2013</a>.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

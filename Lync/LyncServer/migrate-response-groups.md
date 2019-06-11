@@ -1,88 +1,153 @@
-﻿---
-title: Migration des groupes Response Group
-TOCTitle: Migration des groupes Response Group
-ms:assetid: 43741ae7-c871-4573-b660-f2f5febc0856
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204854(v=OCS.15)
-ms:contentKeyID: 49297038
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Migrer des groupes Response Group
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Migrate response groups
+ms:assetid: 43741ae7-c871-4573-b660-f2f5febc0856
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204854(v=OCS.15)
+ms:contentKeyID: 48184020
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 60a5bb2b2124b84adeb6a494f6f33ce867f7d416
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846166"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Migration des groupes Response Group
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2013-09-23_
+# <a name="migrate-response-groups"></a>Migrer des groupes Response Group
 
-Une fois vos utilisateurs déplacés vers les pools Lync Server 2013, vous pouvez migrer vos groupes Response Group. La migration de groupes Response Group comprend la copie des groupes d’agents, des files d’attente, des flux de travail et des fichiers audio, ainsi que le déplacement des objets contact Response Group du déploiement hérité vers le pool Lync Server 2013. Une fois la migration de vos groupes Response Group existants effectuée, les appels destinés aux groupes Response Group sont gérés par l’application Response Group dans le pool Lync Server 2013. Les appels destinés aux groupes Response Group ne sont plus gérés par le pool hérité.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2013-09-23_
+
+Après avoir déplacé vos utilisateurs vers les pools Lync Server 2013, vous pouvez migrer vos groupes de réponse. La migration de groupes de réponse inclut la copie de groupes d’agents, de files d’attente, de flux de travail, de fichiers audio et de déplacements de groupe de réponses de l’ancien déploiement au pool Lync Server 2013. Après la migration de vos groupes de réponse hérités, les appels vers les groupes de réponse sont gérés par l’application Response Group dans le pool Lync Server 2013. Les appels de Response Groups ne sont plus gérés par le pool hérité.
+
+<div>
+
 
 > [!NOTE]  
-> Même s’il est possible de migrer les groupes Response Group avant de placer tous les utilisateurs dans le pool Lync Server 2013, nous vous conseillons de déplacer d’abord les utilisateurs. En particulier, les utilisateurs qui sont des agents de groupe Response Group. En effet, pour pouvoir utiliser pleinement les nouvelles fonctionnalités, ces derniers doivent être placés dans le pool Lync Server 2013.
+> Même si vous pouvez migrer des groupes de réponses avant de déplacer tous les utilisateurs vers le pool Lync Server 2013, nous vous recommandons de déplacer d’abord tous les utilisateurs. En particulier, les utilisateurs qui sont agents de groupe de réponse ne disposeront pas de toutes les fonctionnalités des nouvelles fonctionnalités tant qu’ils ne seront pas déplacés vers le pool Lync Server 2013.
 
-Avant de migrer les groupes Response Group, vous devez d’abord déployer un pool Lync Server 2013 qui comprenne l’application Response Group. L’application Response Group est installée et activée par défaut quand vous déployez Voix Entreprise. Pour vérifier que l’application Response Group est installée, exécutez l’applet de commande **Get-CsService –ApplicationServer**.
+
+
+</div>
+
+Avant de migrer des groupes de réponse, vous devez avoir déployé un pool Lync Server 2013 qui inclut l’application Response Group. L’application Response Group est installée et activée par défaut lorsque vous déployez Enterprise Voice. Vous pouvez vous assurer que l’application Response Group est installée en exécutant l’applet de demande **Get-CsService-ApplicationServer** .
+
+<div>
+
 
 > [!NOTE]  
-> Vous pouvez créer des groupes Response Group Lync Server 2013 dans le pool Lync Server 2013 avant de procéder à la migration de vos groupes Response Group hérités.
+> Vous pouvez créer des groupes de réponse Lync Server 2013 dans le pool Lync Server 2013 avant de migrer vos groupes de réponse hérités.
 
-Pour effectuer la migration de groupes Response Group d’un pool hérité vers Lync Server 2013, il suffit d’exécuter l’applet de commande **Move-CsRgsConfiguration**.
 
-> [!IMPORTANT]  
-> L’applet de commande de migration de Response Group déplace la configuration de Response Group pour le pool entier. Vous ne pouvez sélectionner aucun groupe, file d’attente ou flux de travail spécifique à migrer.
 
-Après avoir migré les groupes Response Group, utilisez les applets de commande du Panneau de configuration Lync Server ou de Lync Server Management Shell pour vérifier que tous les groupes d’agents, files d’attente et flux de travail ont été déplacés avec succès.
+</div>
 
-Quand vous migrez des groupes Response Group, les groupes Response Group Lync Server 2010 ne sont pas supprimés. Quand vous gérez des groupes Response Group après la migration en utilisant le Panneau de configuration Lync Server ou Lync Server Management Shell, vous pouvez voir les groupes Response Group Lync Server 2010 et Lync Server 2013. N’appliquez de mises à jour qu’aux groupes Response Group Lync Server 2013. Les groupes Response Group Lync Server 2010 sont conservés uniquement à des fins de restauration.
+Pour migrer des groupes de réponse d’un pool hérité vers Lync Server 2013, exécutez l’applet de **passe Move-CsRgsConfiguration** .
 
-> [!CAUTION]  
-> Une fois la migration terminée et les groupes Response Group créés, le panneau de configuration Lync Server et Lync Server Management Shell affichent les versions Lync Server 2010 et Lync Server 2013 de chaque groupe Response Group. N’utilisez pas Panneau de configuration Lync Server ou Lync Server Management Shell pour supprimer les groupes Response Group Lync Server 2010. Si vous en supprimez un, le groupe Response Group correspondant créé lors de la migration ne fonctionnera plus. Les groupes Response Group Lync Server 2010 seront supprimés lorsque vous désactivez le pool Lync Server 2010.
+<div>
+
 
 > [!IMPORTANT]  
-> Nous vous recommandons de ne pas supprimer les données de votre déploiement précédent tant que vous n’avez pas désaffecté le pool. En outre, nous vous recommandons fortement d’exporter les groupes Response Group immédiatement après la migration. Si un groupe Response Group Lync Server 2010 doit être supprimé, vous pouvez restaurer vos groupes Response Group à partir de la sauvegarde afin de refaire fonctionner les groupes Response Group Lync Server 2013.
+> L’applet de passe de migration de groupe de réponse déplace la configuration de groupe de réponse pour le pool entier. Vous ne pouvez pas sélectionner des groupes, des files d’attente ou des flux de travail spécifiques à migrer.
 
-Lync Server 2013 introduit une nouvelle fonctionnalité Response Group appelée **Type de flux de travail**. Le **Type de flux de travail** peut être **Géré** ou **Non géré**. Tous les groupes Response Group sont migrés avec le **Type de flux de travail** défini à **Non géré** et avec une liste de gestionnaires vide.
 
-Quand vous exécutez l’applet de commande **Move-CsRgsConfiguration**, les groupes d’agents, les files d’attente, les flux de travail et les fichiers audio restent dans le pool hérité à des fins de restauration. Cependant, si vous devez restaurer le pool hérité, vous devez exécuter l’applet de commande **Move-CsApplicationEndpoint**. Les objets contact seront ainsi replacés dans le pool hérité.
 
-La procédure suivante de migration des configurations Response Group suppose que vous ayez une relation un à un entre vos pools hérités et les pools Lync Server 2013. Si vous planifiez de consolider ou de fractionner des pools pendant votre migration et votre déploiement, vous devez planifier le mappage d’un pool hérité à un pool Lync Server 2013.
+</div>
 
-## Pour effectuer la migration de configurations Response Group
+Une fois les groupes de réponse migrés, vous devez utiliser le panneau de configuration de Lync Server ou les applets de commande Lync Server Management Shell pour vérifier le déplacement de tous les groupes d’agents, files d’attente et flux de travail.
 
-1.  Ouvrez une session sur l’ordinateur en utilisant un compte membre du groupe RTCUniversalServerAdmins ou disposant de droits et d’autorisations d’administrateur équivalents.
+Lorsque vous migrez des groupes de réponse, les groupes de réponse Lync Server 2010 ne sont pas supprimés. Lorsque vous gérez des groupes de réponses après la migration à l’aide du panneau de configuration de Lync Server ou de Lync Server Management Shell, vous pouvez voir les groupes de réponse Lync Server 2010 et les groupes de réponse Lync Server 2013. Vous devez appliquer les mises à jour uniquement aux groupes de réponse Lync Server 2013. Les groupes de réponse Lync Server 2010 sont conservés uniquement à des fins de restauration.
 
-2.  Démarrez Lync Server Management Shell : cliquez successivement sur **Démarrer**, **Tous les programmes**, **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+<div>
+
+
+> [!WARNING]  
+> Une fois la migration effectuée et les nouveaux groupes de réponse créés, le panneau de configuration de Lync Server et Lync Server Management Shell affichent les versions Lync Server 2010 et Lync Server 2013 de chaque groupe de réponses. N’utilisez pas le panneau de configuration de Lync Server ou Lync Server Management Shell pour supprimer les groupes de réponse Lync Server 2010. Si vous supprimez un, le groupe de réponse correspondant qui a été créé lors de la migration ne fonctionnera plus. Les groupes de réponse Lync Server 2010 seront supprimés lorsque vous désaffectez le pool Lync Server 2010.
+
+
+
+</div>
+
+<div>
+
+
+> [!IMPORTANT]  
+> Nous vous recommandons de ne pas supprimer les données de votre déploiement antérieur tant que vous n’avez pas désactivé le pool. Par ailleurs, nous vous conseillons vivement d’exporter des groupes de réponse immédiatement après la migration. Si un groupe de réponse Lync Server 2010 doit être supprimé, vous pouvez restaurer vos groupes de réponse à partir de la sauvegarde pour obtenir les groupes de réponse Lync Server 2013 en cours d’exécution.
+
+
+
+</div>
+
+Lync Server 2013 introduit une nouvelle fonctionnalité de groupe de réponse appelée **type de flux de travail**. Le **type de flux de travail** peut être **géré** ou **non**géré. Tous les groupes de réponses sont migrés avec le **type de flux de travail** défini sur **non géré** et avec une liste de gestionnaires vide.
+
+Lorsque vous exécutez l’applet de cmdlet **Move-CsRgsConfiguration** , les groupes d’agents, les files d’attente, les flux de travail et les fichiers audio restent dans le pool hérité à des fins de restauration. Toutefois, si vous avez besoin de revenir au pool hérité, vous devez exécuter l’applet de passe **Move-CsApplicationEndpoint** pour replacer les objets de contact sur le pool hérité.
+
+La procédure suivante pour la migration de configurations de groupe de réponse suppose que vous disposez d’une relation un-à-un entre vos pools hérités et les pools Lync Server 2013. Si vous envisagez de consolider ou de fractionner des listes lors de la migration et du déploiement, vous devez planifier les mappages de pool hérité par le pool Lync Server 2013.
+
+<div>
+
+## <a name="to-migrate-response-group-configurations"></a>Pour migrer les configurations de Response Group
+
+1.  Ouvrez une session sur l’ordinateur avec un compte membre du groupe RTCUniversalServerAdmins ou disposant d’autorisations et de droits d’administrateur équivalents.
+
+2.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
 3.  Exécutez :
     
         Move-CsRgsConfiguration -Source <source pool FQDN> -Destination <destination pool FQDN>
     
-    Exemple :
+    Par exemple :
     
         Move-CsRgsConfiguration -Source lync-old.contoso.net -Destination lync-new.contoso.net
 
-4.  Après avoir effectué la migration de groupes Response Group et d’agents vers le pool Lync Server 2013, l’URL que les agents utilisent pour se connecter et se déconnecter est une URL Lync Server 2013. Elle est disponible à partir du menu **Outils**. Rappelez aux agents de mettre à jour les références telles que les signets en utilisant la nouvelle URL.
+4.  Après avoir migré des groupes de réponses et des agents vers le pool Lync Server 2013, l’URL utilisée par les agents pour se connecter et se déconnecter est une URL Lync Server 2013 et est disponible dans le menu **Outils** . Rappelez aux agents de mettre à jour les références, comme les signets, à la nouvelle URL.
 
-## Pour vérifier la migration du groupe de réponses en utilisant Panneau de configuration Lync Server
+</div>
 
-1.  Ouvrez une session sur l’ordinateur à l’aide d’un compte membre du groupe RTCUniversalReadOnlyAdmins ou qui soit au moins membre du rôle CsViewOnlyAdministrator.
+<div>
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes de démarrage du Panneau de configuration Lync Server, voir [Ouvrir les outils d’administration Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+## <a name="to-verify-response-group-migration-by-using-lync-server-control-panel"></a>Pour vérifier la migration du groupe de réponse à l’aide du panneau de configuration de Lync Server
 
-3.  Dans le volet de navigation gauche, cliquez sur **Services Response Group**.
+1.  Ouvrez une session sur l’ordinateur avec un compte membre du groupe RTCUniversalReadOnlyAdmins ou qui est membre du rôle CsViewOnlyAdministrator.
 
-4.  Sous l’onglet **Flux de travail**, vérifiez que tous les flux de travail de votre environnement Lync Server 2010 sont inclus dans la liste.
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
 
-5.  Cliquez sur l’onglet **File d’attente**, puis vérifiez que toutes les files d’attente de votre environnement Lync Server 2010 sont incluses dans la liste.
+3.  Dans le volet de navigation de gauche, cliquez sur **Response Groups**.
 
-6.  Cliquez sur l’onglet **Groupe**, puis vérifiez que tous les groupes d’agents de votre environnement Lync Server 2010 sont inclus dans la liste.
+4.  Dans l’onglet **flux de travail** , vérifiez que tous les flux de travail de votre environnement Lync Server 2010 sont inclus dans la liste.
 
-## Pour vérifier la migration de groupes Response Group à l’aide de Lync Server Management Shell
+5.  Cliquez sur l’onglet **file d’attente** pour vérifier que toutes les files d’attente de votre environnement Lync Server 2010 sont incluses dans la liste.
 
-1.  Ouvrez une session sur l’ordinateur à l’aide d’un compte membre du groupe RTCUniversalReadOnlyAdmins ou qui soit au moins membre du rôle CsViewOnlyAdministrator.
+6.  Cliquez sur l’onglet **groupe** , puis vérifiez que tous les groupes d’agents de votre environnement Lync Server 2010 sont inclus dans la liste.
 
-2.  Démarrez Lync Server Management Shell : cliquez successivement sur **Démarrer**, **Tous les programmes**, **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+</div>
+
+<div>
+
+## <a name="to-verify-response-group-migration-by-using-lync-server-management-shell"></a>Pour vérifier la migration de groupe de réponse à l’aide de Lync Server Management Shell
+
+1.  Ouvrez une session sur l’ordinateur avec un compte membre du groupe RTCUniversalReadOnlyAdmins ou qui est membre du rôle CsViewOnlyAdministrator.
+
+2.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
     
-    Pour plus d’informations sur les applets de commande suivantes, exécutez :
+    Pour plus d’informations sur les applets de commande suivantes, exécutez:
     
         Get-Help <cmdlet name> -Detailed
 
@@ -90,17 +155,29 @@ La procédure suivante de migration des configurations Response Group suppose qu
     
         Get-CsRgsAgentGroup
 
-4.  Vérifiez que tous les groupes d’agents de votre environnement Lync Server 2010 sont inclus dans la liste.
+4.  Vérifiez que tous les groupes d’agents de votre environnement Lync Server 2010 sont inclus dans la liste.
 
 5.  Exécutez :
     
         Get-CsRgsQueue
 
-6.  Vérifiez que toutes les files d’attente de votre environnement Lync Server 2010 sont incluses dans la liste.
+6.  Vérifiez que toutes les files d’attente de votre environnement Lync Server 2010 figurent dans la liste.
 
 7.  Exécutez :
     
         Get-CsRgsWorkflow
 
-8.  Vérifiez que tous les flux de travail de votre environnement Lync Server 2010 sont inclus dans la liste.
+8.  Vérifiez que tous les flux de travail de votre environnement Lync Server 2010 sont inclus dans la liste.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

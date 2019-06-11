@@ -1,44 +1,84 @@
-﻿---
-title: Suppression de l’association de serveurs d’archivage
-TOCTitle: Suppression de l’association de serveurs d’archivage
-ms:assetid: dabac157-71ee-4afe-b0b6-4a083d165ffb
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ721903(v=OCS.15)
-ms:contentKeyID: 49891568
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Supprimer l’association au serveur d’archivage
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Remove the Archiving server association
+ms:assetid: dabac157-71ee-4afe-b0b6-4a083d165ffb
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721903(v=OCS.15)
+ms:contentKeyID: 49733837
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 04ab171493890c610e0f11b7cd124c7c2e1c600c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846053"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Suppression de l’association de serveurs d’archivage
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-10-04_
+# <a name="remove-the-archiving-server-association"></a>Supprimer l’association au serveur d’archivage
 
-Pour supprimer un serveur d’archivage, vous devez modifier ou effacer la dépendance vis-à-vis du pool de serveurs frontaux, du serveur frontal, du Survivable Branch Appliance et du serveur Survivable Branch Server associés. Vous devez modifier les propriétés du pool de serveurs frontaux, du serveur frontal, du Survivable Branch Appliance et du serveur Survivable Branch Server pour supprimer la dépendance. Lorsque vous avez annulé la dépendance et supprimé le serveur dans le Générateur de topologie, un message vous avertit que l’objet de magasin de base de données associé dans le Générateur de topologie sera également supprimé.
+</div>
 
-## Pour supprimer l’association au serveur d’archivage
+<div id="mainSection">
 
-1.  Ouvrez le serveur frontal Lync Server 2013 et le générateur de topologie.
+<div id="mainBody">
 
-2.  Accédez au nœud Lync Server 2010.
+<span> </span>
 
-3.  Dans le Générateur de topologie, développez **Pools frontaux Enterprise Edition** , **Serveurs frontaux Standard Edition** ou **Sites de succursale** selon l’emplacement dans lequel le serveur d’archivage est défini.
+_**Dernière modification de la rubrique:** 2012-10-04_
 
-4.  Si le serveur Survivable Branch Server est associé, développez **Sites de succursale** , le nom du site de succursale, puis **Survivable Branch Appliances** .
+Pour supprimer un serveur d’archivage, vous devez modifier ou effacer la dépendance sur le pool frontal associé, le serveur frontal, l’unité de branchement Survivable et le serveur de succursales survivant. Vous pouvez modifier les propriétés du pool frontal, du serveur frontal, de l’unité de branchement Survivable et du serveur de succursales survivant pour supprimer la dépendance. Une fois que vous avez effacé les dépendances et que vous avez supprimé le serveur dans le générateur de topologie, vous êtes informé que l’objet du magasin de base de données associé dans le générateur de topologie sera également supprimé.
+
+<div>
+
+## <a name="to-remove-the-archiving-server-association"></a>Pour supprimer l’Association du serveur d’archivage
+
+1.  Ouvrez le serveur frontal Lync Server 2013, ouvrez le générateur de topologie.
+
+2.  Accédez au nœud Lync Server 2010.
+
+3.  Dans le générateur de topologie, développez **Pools front end Edition**, **serveurs front end Standard Edition**ou **sites**de succursales en fonction de l’emplacement de définition du serveur d’archivage.
+
+4.  Si vous avez un serveur de succursales Survivable associé, développez **sites**de succursales, développez le nom du site de la succursale, puis développez **appareils de branchement survivables**.
     
+    <div>
+    
+
     > [!NOTE]  
-    > <strong>Survivable Branch Appliances</strong> dans l’interface utilisateur s’applique à la fois au serveur Survivable Branch Server et au Survivable Branch Appliance.
+    > Les <STRONG>appareils de branchement survivables</STRONG> dans l’interface utilisateur s’appliquent à la fois au serveur de succursales survivant et au dispositif de branchement survivant.
 
-5.  Cliquez avec le bouton droit sur le pool, le serveur ou l’appareil associé au serveur d’archivage, puis cliquez sur **Modifier les propriétés** .
+    
+    </div>
 
-6.  Dans **Modifier les propriétés** , sous **Général** , sous **Associations** , désactivez la case à cocher **Associer un serveur d’archivage** , puis cliquez sur **OK** .
+5.  Cliquez avec le bouton droit sur le pool, le serveur ou l’appareil associé au serveur d’archivage, puis cliquez sur **modifier les propriétés**.
 
-7.  Répétez l’étape précédente pour tout autre pool, serveur ou appareil associé au serveur d’archivage que vous voulez supprimer.
+6.  Dans la boîte de **dialogue Modifier les propriétés**, sous **général**, sous **associations**, décochez la case associer un **serveur** d’archivage, puis cliquez sur **OK**.
 
-8.  Cliquez avec le bouton droit sur le serveur d’archivage, puis cliquez sur **Supprimer**.
+7.  Répétez l’étape précédente pour tout autre serveur ou appareil associé au serveur d’archivage que vous voulez supprimer.
 
-9.  Dans **Supprimer les magasins dépendants** , cliquez sur **OK** .
+8.  Cliquez avec le bouton droit sur le serveur d’archivage, puis cliquez sur **supprimer**.
 
-10. Publiez la topologie, vérifiez l’état de la réplication, puis exécutez l’Assistant Déploiement de Lync Server si besoin.
+9.  Sur **Supprimer les magasins**dépendants, cliquez sur **OK**.
+
+10. Publiez la topologie, vérifiez l’état de la réplication, puis exécutez l’Assistant Déploiement de Lync Server selon vos besoins.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

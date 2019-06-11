@@ -1,33 +1,59 @@
-﻿---
-title: 'Lync Server 2013 : Rapport des principales défaillances'
-TOCTitle: Rapport des principales défaillances
-ms:assetid: 438942e2-580a-4b67-9d42-f116111fb26a
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg558640(v=OCS.15)
-ms:contentKeyID: 49297039
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: rapport sur les principaux échecs'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Top Failures Report
+ms:assetid: 438942e2-580a-4b67-9d42-f116111fb26a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558640(v=OCS.15)
+ms:contentKeyID: 48184021
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 094f5034951e20d48b05c8772698ae2983492509
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846503"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Rapport des principales défaillances dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2015-03-09_
+# <a name="top-failures-report-in-lync-server-2013"></a>Rapport sur les principaux échecs dans Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-10-01_
 
 Le rapport des principales défaillances expose les défaillances les plus fréquentes et leur évolution dans le temps. Les défaillances sont basées sur une combinaison des deux métriques suivantes :
 
-  - **ID de diagnostic** . Identificateur unique (sous la forme d’un en-tête ms-diagnostics) joint à un message SIP. Les ID de diagnostic fournissent des informations utiles pour résoudre les problèmes liés aux appels.
+  - **ID de diagnostic**. Identificateur unique (sous la forme d’un en-tête ms-diagnostics) joint à un message SIP. Les ID de diagnostic fournissent des informations utiles pour résoudre les problèmes liés aux appels.
 
-  - **Code de réponse** . Les codes de réponse sont utilisés dans les sessions de communication SIP pour répondre aux requêtes SIP. Par exemple, Ken envoie la requête INVITE à Pilar Ackerman (en d’autres termes, Ken Myer appelle Pilar Ackerman). Si Pilar répond, son téléphone envoie le code de réponse 200 (OK) en indiquant au téléphone de Ken que Pilar a répondu. Le rapport des principales défaillances n’inclut que les codes de réponse envoyés en réponse à un appel défaillant. Lync Server ne conserve aucune trace des codes de réponse émis au cours d’un appel.
+  - **Code de réponse**. Les codes de réponse sont utilisés dans les sessions de communication SIP pour répondre aux demandes SIP. Par exemple, supposons que Ken envoie la demande d’invitation à Pilar Arès (autrement dit, il appelle Ken Myer Pilar Arès). Si Pilar répond, son numéro envoie le code de réponse 200 (OK), en laissant le téléphone de Ken savoir que Pilar a répondu. Le rapport pannes principales inclut uniquement les codes de réponse envoyés en réponse à un échec de l’appel. Le serveur Lync n’effectue pas le suivi de tous les codes de réponse émis pendant un appel.
 
 Les informations sont signalées pour le nombre total de sessions où une défaillance s’est produite, ainsi que pour le nombre total d’utilisateurs affectés par la panne.
 
-## Accès au rapport des principales défaillances
+<div>
 
-Le rapport des principales défaillances est accessible à partir de la page d’accueil Rapports de surveillance. En cliquant sur la métrique Sessions signalées, vous accédez au [Rapport de répartition des défaillances dans Lync Server 2013](lync-server-2013-failure-distribution-report.md).
+## <a name="accessing-the-top-failures-report"></a>Accès au rapport des principales défaillances
 
-## Optimisation de l’utilisation du rapport des principales défaillances
+Le rapport des principales défaillances est accessible à partir de la page d’accueil Rapports de surveillance. Le fait de cliquer sur la métrique de sessions signalées vous permet d’atteindre le [rapport de distribution des échecs dans Lync Server 2013](lync-server-2013-failure-distribution-report.md).
+
+</div>
+
+<div>
+
+## <a name="making-the-best-use-of-the-top-failures-report"></a>Optimisation de l’utilisation du rapport des principales défaillances
 
 Le rapport des principales défaillances est particulier : il vous permet de filtrer jusqu’à 5 ID de diagnostic à la fois. En règle générale, vous ne pouvez filtrer qu’un élément (par exemple, une adresse SIP d’utilisateur) à la fois. Pour filtrer plusieurs ID de diagnostic, il suffit d’entrer chaque ID dans la zone ID de diagnostic, en séparant les ID par des virgules. Si vous le souhaitez, vous pouvez laisser un espace vide après chaque virgule. Par exemple :
 
@@ -39,13 +65,17 @@ Si vous pointez le curseur de la souris sur un code de réponse, vous voyez s’
 
 Occupé ici.
 
-## Filtres
+</div>
+
+<div>
+
+## <a name="filters"></a>Filtres
 
 Les filtres vous offrent la possibilité de renvoyer un ensemble de données mieux ciblées ou de visualiser les données renvoyées de différentes manières. Par exemple, le rapport d’activité de l’utilisateur vous permet de filtrer les données renvoyées sur la base d’éléments tels que le type d’activité (session P2P ou session de conférence) ou le code de réponse SIP qui accompagnait la session en échec. Vous pouvez également choisir le mode de groupement des données. Dans ce cas, les utilisations sont groupées par heure, jour, semaine ou mois.
 
 Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le rapport des principales défaillances.
 
-### Filtres du rapport des principales défaillances
+### <a name="top-failures-report-filters"></a>Filtres du rapport des principales défaillances
 
 <table>
 <colgroup>
@@ -84,13 +114,13 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 <td><p>Type d’activité. Sélectionnez l’une des options suivantes :</p>
 <ul>
 <li><p>[Tous]</p></li>
-<li><p>P2P</p></li>
+<li><p>Égal à égal</p></li>
 <li><p>Conférence</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p><strong>Modalité</strong></p></td>
-<td><p>À ce stade, la seule option disponible est <strong>[Tous]</strong> .</p></td>
+<td><p>À ce stade, la seule option disponible est <strong>[Tous]</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Pool</strong></p></td>
@@ -103,7 +133,7 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 <li><p>Échecs attendus et inattendus</p></li>
 <li><p>Échec inattendu</p></li>
 </ul>
-<p>Un « échec attendu » est un échec prévisible. Par exemple, si un utilisateur a défini son statut en Ne pas déranger, vous attendez que tout appel à cette personne échoue. Un « échec inattendu » est un échec qui se produit dans un système sain. Par exemple, un appel n’est pas censé s’interrompre lorsque l’appelant est mis en attente. Si cela se produit, l’incident est marqué comme un échec inattendu.</p></td>
+<p>Un &quot;échec&quot; attendu est un échec censé se produire. Par exemple, si un utilisateur a défini son statut sur Ne pas déranger, les appels passés à cet utilisateur échouent. Un &quot;échec&quot; inattendu est une défaillance qui peut se produire dans un système de bon fonctionnement. Par exemple, un appel n’est pas censé s’interrompre lorsque l’appelant est mis en attente. Si cela se produit, l’incident est marqué comme un échec inattendu.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Code de réponse</strong></p></td>
@@ -118,11 +148,15 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 </table>
 
 
-## Mesures
+</div>
+
+<div>
+
+## <a name="metrics"></a>Mesures
 
 Le tableau qui suit répertorie les informations fournies dans le rapport des principales défaillances.
 
-### Mesures du rapport des principales défaillances
+### <a name="top-failures-report-metrics"></a>Mesures du rapport des principales défaillances
 
 <table>
 <colgroup>
@@ -165,4 +199,17 @@ Le tableau qui suit répertorie les informations fournies dans le rapport des pr
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,43 +1,63 @@
-﻿---
-title: Utilisation de Config.xml pour l’exécution des tâches d’installation
-TOCTitle: Utilisation de Config.xml pour l’exécution des tâches d’installation
-ms:assetid: 0813184a-ab40-417c-b3a3-c2090766b831
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204651(v=OCS.15)
-ms:contentKeyID: 49296163
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: utilisation de config. xml pour effectuer des tâches d’installation'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Using Config.xml to perform installation tasks
+ms:assetid: 0813184a-ab40-417c-b3a3-c2090766b831
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204651(v=OCS.15)
+ms:contentKeyID: 48183332
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b3fb6f4c77375781b6c5d767087ad61f3ec6401b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846388"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Utilisation de Config.xml pour l’exécution des tâches d’installation
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2016-12-08_
+# <a name="using-configxml-to-perform-installation-tasks-in-lync-server-2013"></a>Utiliser config. xml pour effectuer des tâches d’installation dans Lync Server 2013
 
-Bien que l’outil de personnalisation Office soit le principal outil pour l’installation personnalisée, les administrateurs peuvent utiliser le fichier Config.xml pour spécifier des instructions d’installation non disponibles dans cet outil. Les personnalisations suivantes ne peuvent être effectuées qu’avec le fichier Config.xml :
+</div>
 
-  - spécifier le chemin d’accès au point d’installation réseau ;
+<div id="mainSection">
 
-  - sélectionner les produits à installer ;
+<div id="mainBody">
 
-  - configurer la journalisation et l’emplacement du fichier de personnalisation de l’installation et les mises à jour des logiciels ;
+<span> </span>
 
-  - spécifier les options d’installation telles que le nom de l’utilisateur ;
+_**Dernière modification de la rubrique:** 2012-10-02_
 
-  - copier la source d’installation locale sur l’ordinateur de l’utilisateur sans installer Office ;
+Même si l’outil de personnalisation Office est le principal outil pour l’installation personnalisée, les administrateurs peuvent utiliser le fichier Config.xml pour spécifier des instructions d’installation non disponibles dans cet outil. Les personnalisations ci-dessous ne peuvent être effectuées qu’avec le fichier Config.xml :
 
-  - ajouter ou supprimer des langues de l’installation.
+  - Spécifiez le chemin d’accès au point d’installation réseau.
 
-Nous vous recommandons d’utiliser le fichier Config.xml file pour configurer l’installation de Lync 2013 sans assistance.
+  - Sélectionnez les produits à installer.
 
-Par défaut, le fichier Config.xml stocké dans le dossier de produit principal (par exemple, \\*produit*.WW) indique au programme d’installation d’installer ce produit. Par exemple, le fichier Config.xml dans le dossier suivant installe Lync 2013 :
+  - Configurez la journalisation et l’emplacement du fichier de personnalisation de l’installation et les mises à jour des logiciels.
 
-  - \\\\server\\share\\Lync15\\Lync.WW \\Config.xml
+  - Spécifiez les options d’installation, comme le nom d’utilisateur.
 
-Les éléments de Config.xml les plus couramment utilisés pour l’installation de Lync 2013 sont répertoriés dans le tableau suivant.
+  - Copiez la source d’installation locale sur l’ordinateur de l’utilisateur sans installer Office.
 
-### Éléments de Config.xml
+  - Ajoutez ou supprimez des langues dans l’installation.
+
+Nous vous recommandons d’utiliser le fichier config. xml pour configurer l’installation silencieuse de Lync 2013.
+
+Par défaut, le fichier config. XML qui est stocké dans le dossier de produit principal (par \\exemple, produit). WW) envoie le programme d’installation de ce produit. Par exemple, le fichier config. xml dans le dossier suivant installe Lync 2013:
+
+  - \\\\partage\\\\serveur Lync15\\Lync. WW \\config. Xml
+
+Le tableau suivant répertorie les éléments config. xml fréquemment utilisés pour l’installation de Lync 2013.
+
+### <a name="configxml-elements"></a>Éléments de Config.xml
 
 <table>
 <colgroup>
@@ -53,54 +73,53 @@ Les éléments de Config.xml les plus couramment utilisés pour l’installation
 <tbody>
 <tr class="odd">
 <td><p>Configuration</p></td>
-<td><p>Élément de niveau supérieur (obligatoire). Contient l’attribut Product, par exemple : Product=Lync</p></td>
+<td><p>Élément de niveau supérieur (obligatoire). Contient l’attribut Product, par exemple: Product = Lync</p></td>
 </tr>
 <tr class="even">
 <td><p>OptionState</p></td>
-<td><p>Spécifie la façon dont des fonctionnalités de produits spécifiques sont gérées pendant l’installation. Utilisez les attributs suivants pour empêcher l’installation de Business Connectivity Services, qui comprend des composants partagés qui interfèrent avec Outlook 2010:</p>
+<td><p>Spécifie la façon dont des fonctionnalités de produits spécifiques sont gérées lors de l’installation. Utilisez les attributs suivants pour empêcher l’installation de Business Connectivity Services, qui inclut les composants partagés qui interfèrent avec Outlook 2010:</p>
 <ul>
-<li><p>Id=&quot;LOBiMain&quot;</p></li>
-<li><p>State=&quot;Absent&quot;</p></li>
-<li><p>Children=&quot;Force&quot;</p></li>
+<li><p>ID =&quot;LOBiMain&quot;</p></li>
+<li><p>État =&quot;absent&quot;</p></li>
+<li><p>Enfant =&quot;force&quot;</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>Display</p>
-<p></p></td>
+<td><p>Display</p></td>
 <td><p>Niveau d’interface utilisateur affiché pour l’utilisateur par le programme d’installation. Les attributs type sont les suivants :</p>
 <ul>
-<li><p>CompletionNotice=&quot;Yes&quot; | &quot;No&quot;(par défaut)</p></li>
-<li><p>AcceptEula=&quot;Yes&quot; | &quot;No&quot;(par défaut)</p></li>
+<li><p>CompletionNotice =&quot;oui&quot; | &quot;non&quot;(par défaut)</p></li>
+<li><p>AcceptEULA =&quot;oui&quot; | &quot;non&quot;(par défaut)</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>Logging</p></td>
+<td><p>Journalisation</p></td>
 <td><p>Options déterminant le type de journalisation mis en œuvre par le programme d’installation. Les attributs types sont les suivants :</p>
 <ul>
-<li><p>Type =&quot;Off&quot; | &quot;Standard&quot;(par défaut) | &quot;Verbose&quot;</p></li>
-<li><p>Template=”<em>nomfichier</em>.txt” (nom du fichier journal)</p></li>
+<li><p>Type =&quot;désactivé&quot; | &quot;standard&quot;(par défaut) | &quot;Commentaires&quot;</p></li>
+<li><p>Template=”filename.txt” (nom du fichier journal)</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>Setting</p></td>
+<td><p>Paramètre</p></td>
 <td><p>Spécifie les valeurs des propriétés de Windows Installer. Les attributs type sont les suivants :</p>
 <ul>
-<li><p>Setting Id=&quot;<em>nom</em>&quot; (nom de la propriété de Windows Installer)</p></li>
-<li><p>Value=&quot;<em>valeur</em>&quot; (valeur à attribuer à la propriété)</p></li>
+<li><p>Définition de l'&quot;ID&quot; = nom (le nom de la propriété du programme d’installation de Windows)</p></li>
+<li><p>Value =&quot;value&quot; (valeur à attribuer à la propriété)</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p>DistributionPoint</p></td>
 <td><p>Chemin d’accès complet du point d’installation réseau à partir duquel l’installation doit s’exécuter. Comprend l’attribut Location :</p>
 <ul>
-<li><p>Location=”<em>chemin d’accès</em>”</p></li>
+<li><p>Location=”path”</p></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
 
-L’exemple suivant montre un fichier Config.xml pour une installation sans assistance de Lync 2013.
+L’exemple suivant montre un fichier config. xml pour une installation silencieuse classique de Lync 2013.
 
     <Configuration Product="Lync">
       <OptionState Id="LOBiMain" State="Absent" Children="Force" />
@@ -110,17 +129,31 @@ L’exemple suivant montre un fichier Config.xml pour une installation sans assi
       <DistributionPoint Location="\\server\share\Lync15" />
     </Configuration>
 
-Vous trouverez des informations détaillées sur l’utilisation du fichier Config.xml pour effectuer les tâches d’installation et de maintenance d’Office à l’adresse [http://go.microsoft.com/fwlink/?linkid=267514\&clcid=0x40C](http://go.microsoft.com/fwlink/?linkid=267514%26clcid=0x40c).
+Des informations détaillées sur l’utilisation du fichier config. xml pour effectuer des tâches d’installation et de <http://go.microsoft.com/fwlink/p/?linkid=267514>maintenance d’Office sont disponibles à l’adresse.
 
-## Pour personnaliser le fichier Config.xml
+<div>
 
-1.  Ouvrez le fichier Config.xml avec un éditeur de texte, tel que le Bloc-notes.
+## <a name="to-customize-the-configxml-file"></a>Pour personnaliser le fichier Config.xml
 
-2.  Recherchez les lignes qui contiennent les éléments que vous voulez changer.
+1.  Ouvrez le fichier Config.xml avec un éditeur de texte, comme le Bloc-notes.
 
-3.  Modifiez l’entrée de l’élément avec les options automatisées que vous voulez utiliser. Veillez à supprimer les délimiteurs de commentaires « \<\!-- » et « --\> ». Par exemple, utilisez la syntaxe suivante :
+2.  Recherchez les lignes qui contiennent les éléments à modifier.
+
+3.  Modifiez l’entrée de l’élément avec les options automatisées que vous voulez utiliser. Veillez à supprimer les séparateurs de commentaires, «\<\!--» et «--\>». Par exemple, utilisez la syntaxe suivante :
     
         < DistributionPoint Location="\\server\share\Lync15" />
 
 4.  Enregistrez le fichier Config.xml.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

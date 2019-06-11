@@ -1,23 +1,43 @@
-﻿---
+---
 title: 'Lync Server 2013 : tblPrincipalMembers'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: tblPrincipalMembers
 ms:assetid: 9a3e24cf-6ef7-4b82-99fc-50ba41800b6f
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg615022(v=OCS.15)
-ms:contentKeyID: 49298282
-ms.date: 05/20/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615022(v=OCS.15)
+ms:contentKeyID: 48184965
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: b35af88b4b1c0e32ceb6af97b379ded66b437f7d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846670"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# tblPrincipalMembers dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2015-03-09_
+# <a name="tblprincipalmembers-in-lync-server-2013"></a>tblPrincipalMembers dans Lync Server 2013
 
-tblPrincipalMembers contient les appartenances des principaux.
+</div>
 
-### Colonnes
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-09-12_
+
+tblPrincipalMembers contient des appartenances principales.
+
+### <a name="columns"></a>Celles
 
 <table>
 <colgroup>
@@ -35,19 +55,19 @@ tblPrincipalMembers contient les appartenances des principaux.
 <tbody>
 <tr class="odd">
 <td><p>prinID</p></td>
-<td><p>int, non null</p></td>
+<td><p>ent, non null</p></td>
 <td><p>ID du principal.</p></td>
 </tr>
 <tr class="even">
 <td><p>memberADPath</p></td>
-<td><p>nvarchar (384), non null</p></td>
-<td><p>Nom unique d’un membre. Il n’est pas obligatoire qu’un membre soit un principal (dans la table tblPrincipal).</p></td>
+<td><p>nvarchar (384), pas null</p></td>
+<td><p>Nom unique d’un membre. Un membre ne doit pas nécessairement être principal (dans la table tblPrincipal).</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### Clés
+### <a name="keys"></a>Permettent
 
 <table>
 <colgroup>
@@ -67,8 +87,19 @@ tblPrincipalMembers contient les appartenances des principaux.
 </tr>
 <tr class="even">
 <td><p>prinID</p></td>
-<td><p>Clé étrangère avec recherche dans tblPrincipal.prinID.</p></td>
+<td><p>Clé étrangère avec recherche dans tblPrincipal. prinID.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
