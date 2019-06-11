@@ -1,23 +1,45 @@
-﻿---
-title: "Lync Server 2013 : Inf. sur la table des enr. des détails des appels"
-TOCTitle: Informations sur la table des enregistrements des détails des appels
-ms:assetid: 896198f5-672b-48ea-852f-0211c0c90857
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398693(v=OCS.15)
-ms:contentKeyID: 49297983
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Informations sur la table des enregistrements des détails des appels'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: CDR table details
+ms:assetid: 896198f5-672b-48ea-852f-0211c0c90857
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398693(v=OCS.15)
+ms:contentKeyID: 48184730
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f87e681cc25f9ed64509ff3bdb31abc5fd77101d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34838675"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Informations sur la table des enregistrements des détails des appels dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-10-18_
+# <a name="cdr-table-details-in-lync-server-2013"></a>Informations sur la table des enregistrements des détails des appels dans Lync Server 2013
 
-Les rubriques suivantes présentent en détail les colonnes de chacune des tables de schéma de la base de données des enregistrements des détails des appels.
+</div>
 
-## Dans cette section
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-10-18_
+
+Les rubriques suivantes décrivent en détail les colonnes dans chaque table de schéma de la base de données d’enregistrements des détails des appels.
+
+<div>
+
+## <a name="in-this-section"></a>Dans cette section
 
   - [Table Application dans Lync Server 2013](lync-server-2013-application-table.md)
 
@@ -57,7 +79,7 @@ Les rubriques suivantes présentent en détail les colonnes de chacune des table
 
   - [Table FocusJoinsAndLeaves dans Lync Server 2013](lync-server-2013-focusjoinsandleaves-table.md)
 
-  - [Table FrontEnd dans Lync Server 2013](lync-server-2013-frontend-table.md)
+  - [Table frontale dans Lync Server 2013](lync-server-2013-frontend-table.md)
 
   - [Table Gateways dans Lync Server 2013](lync-server-2013-gateways-table.md)
 
@@ -81,7 +103,7 @@ Les rubriques suivantes présentent en détail les colonnes de chacune des table
 
   - [Table MSMQProcessing dans Lync Server 2013](lync-server-2013-msmqprocessing-table.md)
 
-  - [Table \!Phones dans Lync Server 2013](lync-server-2013-phones-table.md)
+  - [Table !Phones dans Lync Server 2013](lync-server-2013-phones-table.md)
 
   - [Table Pools dans Lync Server 2013](lync-server-2013-pools-table.md)
 
@@ -99,11 +121,11 @@ Les rubriques suivantes présentent en détail les colonnes de chacune des table
 
   - [Table SIPResponseMetaData dans Lync Server 2013](lync-server-2013-sipresponsemetadata-table.md)
 
-  - [Table Syndicators dans Lync Server 2013](lync-server-2013-syndicators-table.md)
+  - [Table syndicators dans Lync Server 2013](lync-server-2013-syndicators-table.md)
 
   - [Table SyndicatorsTenantMap dans Lync Server 2013](lync-server-2013-syndicatorstenantmap-table.md)
 
-  - [Table Task dans Lync Server 2013](lync-server-2013-task-table.md)
+  - [Tableau de tâches dans Lync Server 2013](lync-server-2013-task-table.md)
 
   - [Table Tenants dans Lync Server 2013](lync-server-2013-tenants-table.md)
 
@@ -116,4 +138,16 @@ Les rubriques suivantes présentent en détail les colonnes de chacune des table
   - [Table UserStatistics dans Lync Server 2013](lync-server-2013-userstatistics-table.md)
 
   - [Table VoipDetails dans Lync Server 2013](lync-server-2013-voipdetails-table.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

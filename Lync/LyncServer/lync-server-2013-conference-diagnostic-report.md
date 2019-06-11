@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013 : Rapport de diagnostic de conférence'
-TOCTitle: Rapport de diagnostic de conférence
-ms:assetid: e9edc23c-8ce8-4ab8-8786-9d22e1e51e14
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg615042(v=OCS.15)
-ms:contentKeyID: 49299203
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: rapport de diagnostic de la Conférence'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Conference Diagnostic Report
+ms:assetid: e9edc23c-8ce8-4ab8-8786-9d22e1e51e14
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615042(v=OCS.15)
+ms:contentKeyID: 48185901
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 279d844a4c67d3b09b35fff92f6868cae8971059
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34838500"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Rapport de diagnostic de conférence dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2015-03-09_
+# <a name="conference-diagnostic-report-in-lync-server-2013"></a>Rapport de diagnostic de conférence dans Lync Server 2013
 
-Le rapport de diagnostic de conférence fournit des informations sur la réussite ou l’échec de toutes les sessions de conférence. Notez que Microsoft Lync Server distingue différents types d’échecs :
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-10-22_
+
+Le rapport de diagnostic de conférence fournit des informations sur la réussite ou l’échec de toutes les sessions de conférence. Notez que Microsoft Lync Server distingue différentes sortes d’échecs:
 
   - **échec attendu**. Un échec attendu est généralement une erreur au sens technique seulement. Par exemple, supposons que quelqu’un démarre une conférence, mais raccroche avant que des personnes puissent participer. Techniquement, c’est une erreur : la conférence a été lancée, mais n’a pas été achevée. Cependant, il s’agit d’une erreur à laquelle on peut s’attendre : si l’organisateur annule la conférence avant que des personnes puissent participer, on ne s’attend pas à ce que cette conférence soit achevée.
 
@@ -43,34 +63,44 @@ Notez que les mesures de Réussite, d’Échec attendu et d’Échec inattendu p
 <tr class="odd">
 <td><p>2024</p></td>
 <td><p>469</p></td>
-<td><p>16</p></td>
+<td><p>Seiz</p></td>
 <td><p>2521</p></td>
 </tr>
 </tbody>
 </table>
 
 
-Si vous ajoutez 2024 + 469 + 16, vous obtenez un total de 2 509 sessions alors que la colonne Nombre total de sessions indique 2 521 sessions. Les 12 sessions « manquantes » sont celles que le système n’a pas pu catégoriser comme réussies ou non. C’est parfois le cas lorsqu’un produit tiers introduit un nouveau code de diagnostic inconnu du serveur de suivi. Dans ce cas, les appels effectués à l’aide de ce produit et reportant ce code de diagnostic ne peuvent pas toujours être catégorisés en tant que réussite, échec attendu ou échec inattendu.
+Si vous ajoutez 2 024 + 469 + 16, vous obtenez un total de 2 509 sessions alors que la colonne Nombre total de sessions indique 2 521 sessions. Les 12 sessions « manquantes » sont celles que le système n’a pas pu catégoriser comme réussies ou non. Ce peut arriver parfois quand un produit tiers introduit un nouveau code de diagnostic qui n’est pas connu de surveiller le serveur. Dans ce cas, les appels effectués à l’aide de ce produit et reportant ce code de diagnostic ne peuvent pas toujours être catégorisés en tant que réussite, échec attendu ou échec inattendu.
 
-## Accès au rapport de diagnostic de conférence
+<div>
 
-Le rapport des de diagnostic de conférence est accessible à partir de la page d’accueil des Rapports de suivi. Vous pouvez accéder au [Rapport de répartition des défaillances dans Lync Server 2013](lync-server-2013-failure-distribution-report.md) (contenu éventuellement en anglais) en cliquant sur l’une des mesures suivantes :
+## <a name="accessing-the-conference-diagnostic-report"></a>Accès au rapport de diagnostic de conférence
 
-  - Volume des échecs inattendus
+Le rapport des de diagnostic de conférence est accessible à partir de la page d’accueil des Rapports de suivi. Vous pouvez accéder au [rapport de distribution des échecs dans Lync Server 2013](lync-server-2013-failure-distribution-report.md) en cliquant sur l’une des mesures suivantes:
 
-  - Volume des échecs attendus
+  - Nombre d’échecs inattendus
 
-## Utilisation optimale du rapport de diagnostic de conférence
+  - Nombre d’échecs attendus
 
-Le rapport de diagnostic de conférence inclut une série de graphiques. Chaque colonne de graphique constitue un lien hypertexte. En cliquant sur une colonne, vous atteignez le [Rapport de répartition des défaillances dans Lync Server 2013](lync-server-2013-failure-distribution-report.md) (contenu éventuellement en anglais) pour la période et le type de conférence donnés.
+</div>
 
-## Filtres
+<div>
+
+## <a name="making-the-best-use-of-the-conference-diagnostic-report"></a>Utilisation optimale du rapport de diagnostic de conférence
+
+Le rapport de diagnostic de conférence inclut une série de graphiques. Chaque colonne de graphique constitue un lien hypertexte. Si vous cliquez sur une colonne, vous accédez au rapport de [distribution des échecs dans Lync Server 2013](lync-server-2013-failure-distribution-report.md) pour cette période et ce type de conférence.
+
+</div>
+
+<div>
+
+## <a name="filters"></a>Filtres
 
 Les filtres vous offrent la possibilité de renvoyer un ensemble de données mieux ciblées ou de visualiser les données renvoyées de différentes manières. Par exemple, le rapport de diagnostic de conférence vous permet de filtrer les éléments tels que le type de conférence mené (par exemple, une conférence Focus) pour le serveur Edge utilisé dans la conférence. Vous pouvez également choisir le mode de groupement des données. Dans ce cas, les conférences sont groupées par heure, jour, semaine ou mois.
 
 Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le rapport de diagnostic de conférence.
 
-### Filtres du rapport de diagnostic de conférence
+### <a name="conference-diagnostic-report-filters"></a>Filtres du rapport de diagnostic de conférence
 
 <table>
 <colgroup>
@@ -108,12 +138,12 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 <td><p><strong>Intervalle</strong></p></td>
 <td><p>Intervalle de temps. Sélectionnez l’une des options suivantes :</p>
 <ul>
-<li><p>Toutes les heures (il est possible d’afficher un maximum de 25 heures)</p></li>
-<li><p>Tous les jours (il est possible d’afficher un maximum de 31 jours)</p></li>
-<li><p>Toutes les semaines (il est possible d’afficher un maximum de 12 semaines)</p></li>
-<li><p>Tous les mois (il est possible d’afficher un maximum de 12 mois)</p></li>
+<li><p>Toutes les heures (il est possible d’afficher un maximum de 25 heures)</p></li>
+<li><p>Tous les jours (il est possible d’afficher un maximum de 31 jours)</p></li>
+<li><p>Toutes les semaines (il est possible d’afficher un maximum de 12 semaines)</p></li>
+<li><p>Tous les mois (il est possible d’afficher un maximum de 12 mois)</p></li>
 </ul>
-<p>Si la période comprise entre les dates de début et de fin dépasse le nombre maximal de valeurs autorisé pour l’intervalle sélectionné, seul le nombre maximal de valeurs (à compter de la date de début) s’affiche. Par exemple, si vous sélectionnez l’intervalle Tous les jours avec une date de début le 7/7/2012 et une date de fin le 2/28/2012, les données s’affichent pour les jours compris entre le 8/7/2012 12:00 AM et le 9/7/2012 12:00 AM (c’est-à-dire, un total de 31 jours de données).</p></td>
+<p>Si la période comprise entre les dates de début et de fin dépasse le nombre maximal de valeurs autorisé pour l’intervalle sélectionné, seul le nombre maximal de valeurs (à compter de la date de début) s’affiche. Par exemple, si vous sélectionnez l’intervalle quotidien avec une date de début de 7/7/2012 et une date de fin de 2/28/2012, les données sont affichées pour les jours de 8/7/2012 12:00 AM à 9/7/2012 12:00 AM (c’est-à-dire un total de 31 jours de données).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Pool</strong></p></td>
@@ -135,11 +165,15 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 </table>
 
 
-## Mesures
+</div>
+
+<div>
+
+## <a name="metrics"></a>Mesures
 
 Le tableau qui suit répertorie les informations fournies dans le rapport de diagnostic de conférence pour chaque type de session de conférence.
 
-### Mesures du rapport de diagnostic de conférence
+### <a name="conference-diagnostic-report-metrics"></a>Mesures du rapport de diagnostic de conférence
 
 <table>
 <colgroup>
@@ -168,7 +202,7 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de dia
 <tr class="odd">
 <td><p><strong>Nombre d’échecs attendus</strong></p></td>
 <td><p>Non</p></td>
-<td><p>Nombre total de conférences pour lesquelles un « échec attendu » s’est produit.</p>
+<td><p>Nombre total de conférences pour lesquelles &quot;un échec&quot; inattendu s’est produit.</p>
 <p>Un échec attendu est un échec auquel il faut s’attendre. Par exemple, si un utilisateur a défini son statut sur Ne pas déranger, il faut s’attendre à ce que tout appel émis vers cet utilisateur échoue.</p></td>
 </tr>
 <tr class="even">
@@ -179,7 +213,7 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de dia
 <tr class="odd">
 <td><p><strong>Nombre d’échecs inattendus</strong></p></td>
 <td><p>Non</p></td>
-<td><p>Nombre total de conférences pour lesquelles un « échec inattendu » s’est produit.</p>
+<td><p>Nombre total de conférences pour lesquelles &quot;un échec&quot; inattendu s’est produit.</p>
 <p>Un échec inattendu est un échec qui se produit alors que le système semble intègre. Par exemple, un appel ne doit pas être coupé si l’appelant est mis en attente. Dans le cas contraire, ce problème est considéré comme un échec inattendu.</p></td>
 </tr>
 <tr class="even">
@@ -194,4 +228,17 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de dia
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

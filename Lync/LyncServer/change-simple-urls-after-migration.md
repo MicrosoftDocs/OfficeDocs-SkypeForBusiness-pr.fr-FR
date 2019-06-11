@@ -1,52 +1,96 @@
-﻿---
-title: Modification des URL simples après la migration
-TOCTitle: Modification des URL simples après la migration
-ms:assetid: addb0dc8-8324-42b1-9a00-f4bd14fdf5c0
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ721844(v=OCS.15)
-ms:contentKeyID: 49891488
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Modification des URL simples après la migration
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Change simple URLs after migration
+ms:assetid: addb0dc8-8324-42b1-9a00-f4bd14fdf5c0
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721844(v=OCS.15)
+ms:contentKeyID: 49733777
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0203b33d787310544f4f376872ecf9c99fc7254d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34838098"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Modification des URL simples après la migration
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-09-22_
+# <a name="change-simple-urls-after-migration"></a>Modification des URL simples après la migration
 
-Lync Server prend en charge trois URL simples :
+</div>
 
-  - **Meet** qui est l’URL de réunion de base pour toutes les conférences dans le site ou l’organisation. Avec l’URL simple de réunion, les liens pour participer à des réunions sont faciles à comprendre, à communiquer et à distribuer.
+<div id="mainSection">
 
-  - **Dial-in** qui permet d’accéder à la page web Paramètres de conférence rendez-vous. L’URL simple Dial-in est incluse dans toutes les invitations aux réunions pour que les utilisateurs qui souhaitent se connecter à une réunion puissent accéder au numéro de téléphone et aux informations de code confidentiel nécessaires.
+<div id="mainBody">
 
-  - **Admin** qui permet un accès rapide au Panneau de configuration Lync Server. L’URL simple Admin est interne à votre organisation.
+<span> </span>
 
-Après avoir migré vers Lync Server 2013, vous devez savoir dans quelle mesure cette modification risque d’altérer les enregistrements et les certificats DNS (Domain Name System) pour les URL simples. Si le directeur Lync Server 2010 hérité continue à être utilisé dans la topologie, aucune modification de vos URL simples n’est requise. Si le directeur Lync Server 2010 est supprimé de la topologie après la migration, les enregistrements DNS des URL simples doivent être mis à jour pour pointer vers l’un des pools Lync Server 2013. Cependant, lorsque vous modifiez le nom d’une URL simple, vous devez exécuter Enable-CsComputer sur chaque directeur et serveur frontal pour enregistrer la modification.
+_**Dernière modification de la rubrique:** 2012-09-22_
 
-## Modification des URL simples après la migration
+Lync Server prend en charge trois URL simples:
 
-**Pour mettre à jour l’URL simple Meet**
+  - La **fonction réunion** est utilisée comme URL de base pour toutes les conférences du site ou de l’organisation. Avec l’URL de la réunion, vous pouvez facilement comprendre les liens permettant de participer à des réunions, et facilement communiquer et diffuser.
 
-1.  Dans le Générateur de topologie, cliquez avec le bouton droit sur le nœud supérieur **Lync Server**, puis cliquez sur **Modifier les propriétés** .
+  - Le rendez **-** vous permet d’accéder à la page Web des paramètres de conférence rendez-vous. L’URL d’accès à un rendez-vous est incluse dans toutes les invitations à une réunion de sorte que les utilisateurs qui souhaitent se connecter à la réunion puissent accéder au numéro de téléphone et aux informations de code confidentiel nécessaires.
 
-2.  Sélectionnez **URL simples** dans le volet gauche, et sous **URL de réunion :** , sélectionnez l’URL Meet, puis cliquez sur **Modifier l’URL** .
+  - L' **administrateur** vous permet d’accéder rapidement au panneau de configuration de Lync Server. L’URL simple Admin est interne à votre organisation.
 
-3.  Mettez à jour l’URL avec la valeur voulue, puis cliquez sur **OK** pour l’enregistrer.
+Après avoir effectué la migration vers Lync Server 2013, vous devez tenir compte de la façon dont le changement a un impact sur vos enregistrements et certificats DNS pour des URL simples. Si le réalisateur du serveur Lync Server 2010 hérité reste en cours d’utilisation dans la topologie, aucune modification de vos URL simples n’est requise. Si le directeur de Lync Server 2010 est supprimé de la topologie après la migration, les enregistrements DNS d’URL simples doivent être mis à jour de manière à ce qu’ils pointent vers l’une des listes 2013 du serveur Lync. Néanmoins, chaque fois que vous modifiez un nom d’URL simple, vous devez exécuter Enable-CsComputer sur chaque réalisateur et serveur frontal pour enregistrer la modification.
 
-**Pour mettre à jour l’URL simple Admin**
+<div>
 
-1.  Dans le Générateur de topologie, cliquez avec le bouton droit sur le nœud supérieur **Lync Server**, puis cliquez sur **Modifier les propriétés** .
+## <a name="changing-simple-urls-after-migration"></a>Modification d’URL simples après la migration
 
-2.  Sélectionnez **URL simples** dans le volet gauche, et sous la zone **URL d’accès administratif** , entrez l’URL simple souhaitée pour un accès administratif au Panneau de configuration Lync Server 2013, puis cliquez sur **OK** .
+**Pour mettre à jour l’URL de réunion simple**
+
+1.  Dans le générateur de topologie, cliquez avec le bouton droit sur le nœud supérieur **Lync Server**, puis cliquez sur **modifier les propriétés**.
+
+2.  Sélectionnez **URL simples** dans le volet gauche, puis sous **URL de la réunion:** sélectionnez l’URL de la réunion, puis cliquez sur **modifier l’URL**.
+
+3.  Mettez à jour l’URL comme vous le souhaitez puis cliquez sur **OK** pour enregistrer l’URL modifiée.
+
+**Pour mettre à jour l’URL simple d’administration**
+
+1.  Dans le générateur de topologie, cliquez avec le bouton droit sur le nœud supérieur **Lync Server**, puis cliquez sur **modifier les propriétés**.
+
+2.  Sélectionnez **URL simples** dans le volet gauche, puis sous **URL d’accès administratif** , entrez l’URL de votre choix pour l’accès administratif à Lync Server 2013 panneau de configuration, puis cliquez sur **OK**.
     
+    <div>
+    
+
     > [!TIP]  
-    > Nous vous recommandons d’utiliser l’URL la plus simple possible pour l’URL Admin. L’option la plus simple est <strong>https://admin.</strong> <em>&lt;domain&gt;</em> .
+    > Nous vous recommandons d’utiliser l’URL la plus simple possible pour l’URL d’administration. L’option la plus simple est <STRONG> https://admin.</STRONG> &lt;Domain&gt;(domaine).
 
-## Voir aussi
+    
+    </div>
 
-#### Concepts
+</div>
 
-[Planification des URL simples dans Lync Server 2013](lync-server-2013-planning-for-simple-urls.md)
+<div>
+
+## <a name="see-also"></a>Voir aussi
+
+
+[Planification des URL simples dans Lync Server 2013](lync-server-2013-planning-for-simple-urls.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

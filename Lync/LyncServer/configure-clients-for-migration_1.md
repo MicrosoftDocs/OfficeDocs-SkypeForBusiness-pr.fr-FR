@@ -1,35 +1,57 @@
-﻿---
-title: Configuration des clients pour la migration
-TOCTitle: Configuration des clients pour la migration
-ms:assetid: 8f17862b-d9d1-47f6-b248-51f4710f5030
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ688130(v=OCS.15)
-ms:contentKeyID: 49891437
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Configuration des clients pour la migration
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Configure clients for migration
+ms:assetid: 8f17862b-d9d1-47f6-b248-51f4710f5030
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688130(v=OCS.15)
+ms:contentKeyID: 49733729
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 399320fd840391b8d0483b3dc45b62c83311d91f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34838082"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configuration des clients pour la migration
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2016-12-08_
+# <a name="configure-clients-for-migration"></a>Configuration des clients pour la migration
 
-Cette rubrique recense les étapes de déploiement des clients qu’il est recommandé d’effectuer avant de procéder à la migration vers Lync Server 2013. Ces modifications de configuration doivent être apportées sur Office Communications Server 2007 R2. Il est très important que vous suiviez ces étapes avant de procéder à la migration. Pour plus d’informations, reportez-vous à [Planification des clients et périphériques dans Lync Server 2013](lync-server-2013-planning-for-clients-and-devices.md).
+</div>
 
-## Pour configurer les clients avant la migration
+<div id="mainSection">
 
-1.  Déployez les mises à jour (correctifs logiciels) les plus récentes pour les serveurs, les clients et les périphériques Office Communications Server 2007 R2 :
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2013-11-21_
+
+Cette rubrique contient les étapes de déploiement de client recommandées avant de procéder à la migration vers Lync Server 2013. Ces modifications de configuration doivent être apportées à Office Communications Server 2007 R2. Il est très important que vous effectuiez ces étapes avant de procéder à la migration. Pour plus d’informations, reportez-vous à la section [planification des clients et des appareils dans Lync Server 2013](lync-server-2013-planning-for-clients-and-devices.md).
+
+<div>
+
+## <a name="to-configure-clients-prior-to-migration"></a>Pour configurer des clients avant la migration
+
+1.  Déployez les mises à jour les plus récentes du serveur Office Communications Server 2007 R2, des clients et des appareils (HotFix):
     
-      - [Application des mises à jour d’Office Communications Server 2007 R2](apply-office-communications-server-2007-r2-updates.md)
+      - [Appliquer des mises à jour d’Office Communications Server 2007 R2](apply-office-communications-server-2007-r2-updates.md)
     
-      - [Description du package cumulatif de mise à jour pour Communicator 2007 R2](http://go.microsoft.com/fwlink/p/?linkid=335808)
+      - [Description du package de mise à jour cumulative pour Communicator 2007 R2](http://go.microsoft.com/fwlink/p/?linkid=335808)
     
-      - [Obtaining Software Updates for Devices](http://go.microsoft.com/fwlink/?linkid=335809)
+      - [Obtention des mises à jour logicielles pour les appareils](http://go.microsoft.com/fwlink/?linkid=335809)
 
-2.  Sur Office Communications Server 2007 R2, utilisez le filtrage de version du client pour autoriser uniquement la connexion des clients Office Communications Server 2007 R2 disposant des mises à jour les plus récentes.
+2.  Sur Office Communications Server 2007 R2, utilisez le filtrage de version de client pour autoriser uniquement les clients Office Communications Server 2007 R2 avec les mises à jour les plus récentes pour la connexion.
 
-3.  Sur Office Communications Server 2007 R2, utilisez le filtrage de version du client pour empêcher les clients Lync Server 2013 de se connecter. Suivez les étapes décrites dans l’article **Configuration du filtrage de version du client** disponible à l’adresse [http://go.microsoft.com/fwlink/?linkid=202488\&clcid=0x40C](http://go.microsoft.com/fwlink/?linkid=202488%26clcid=0x40c) pour ajouter les filtres de version répertoriés dans le tableau suivant. Pour chaque filtre de version, affectez l’action **Bloquer** .
+3.  Sur Office Communications Server 2007 R2, utilisez le filtrage de version de client pour empêcher les clients Lync Server 2013 de se connecter. Suivez la procédure décrite dans la rubrique Configuration du filtrage des [http://go.microsoft.com/fwlink/p/?linkId=202488](http://go.microsoft.com/fwlink/p/?linkid=202488) versions du **client** à l’adresse pour ajouter les filtres de version indiqués dans le tableau suivant. Pour chaque filtre de version, attribuez le **bloc**d’action.
     
     
     <table>
@@ -41,7 +63,7 @@ Cette rubrique recense les étapes de déploiement des clients qu’il est recom
     <thead>
     <tr class="header">
     <th>Client</th>
-    <th>En-tête d’agent utilisateur</th>
+    <th>En-tête de l’agent utilisateur</th>
     <th>Version</th>
     </tr>
     </thead>
@@ -49,18 +71,31 @@ Cette rubrique recense les étapes de déploiement des clients qu’il est recom
     <tr class="odd">
     <td><p>Lync 2013</p></td>
     <td><p>OC</p></td>
-    <td><p>15.*.*.*</p></td>
+    <td><p>15.**.. *</p></td>
     </tr>
     <tr class="even">
     <td><p>Lync Web App</p></td>
     <td><p>CWA</p></td>
-    <td><p>5.*.*.*</p></td>
+    <td><p>5.**.. *</p></td>
     </tr>
     <tr class="odd">
     <td><p>Lync Phone Edition</p></td>
     <td><p>OCPhone</p></td>
-    <td><p>4.*.*.*</p></td>
+    <td><p>4.**.. *</p></td>
     </tr>
     </tbody>
     </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

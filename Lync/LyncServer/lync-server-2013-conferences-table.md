@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013 : Table Conferences'
-TOCTitle: Table Conferences
-ms:assetid: c3da6271-b3c6-4898-894f-10456ec794d0
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg412964(v=OCS.15)
-ms:contentKeyID: 49298750
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Table Conferences'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Conferences table
+ms:assetid: c3da6271-b3c6-4898-894f-10456ec794d0
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412964(v=OCS.15)
+ms:contentKeyID: 48185340
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 17cbadaf18fa36ca55f7755b5e679e564163a207
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34838485"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Table Conferences dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2015-03-09_
+# <a name="conferences-table-in-lync-server-2013"></a>Table Conferences dans Lync Server 2013
 
-Chaque enregistrement de cette table contient les détails des appels pour une conférence.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-09-28_
+
+Chaque enregistrement de cette table contient les détails des appels sur une conférence.
 
 
 <table>
@@ -36,73 +56,83 @@ Chaque enregistrement de cette table contient les détails des appels pour une c
 <tbody>
 <tr class="odd">
 <td><p><strong>SessionIdTime</strong></p></td>
-<td><p>datetime</p></td>
+<td><p>DateHeure</p></td>
 <td><p>Principal</p></td>
-<td><p>Heure à laquelle la demande de conférence a été capturée par l’agent CDR. Sert uniquement de clé primaire afin d’identifier de manière unique une instance de conférence.</p></td>
+<td><p>Temps d’acquisition de la demande de conférence par l’agent CDR. Utilisé uniquement comme clé primaire pour identifier de manière unique une instance de conférence.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionIdSeq</strong></p></td>
 <td><p>int</p></td>
 <td><p>Principal</p></td>
-<td><p>Numéro d’ID permettant d’identifier la session. Utilisé conjointement à <strong>SessionIdTime</strong> pour identifier une instance de conférence de manière unique. *</p></td>
+<td><p>IDENTIFIant de la session. Utilisé conjointement avec <strong>SessionIdTime</strong> pour identifier de manière unique une instance de conférence. *</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ConferenceUriId</strong></p></td>
 <td><p>int</p></td>
-<td><p>Étrangère</p></td>
-<td><p>URI de la conférence. Pour plus d’informations, reportez-vous à la <a href="lync-server-2013-conferenceuris-table.md">Table ConferenceUris dans Lync Server 2013</a>.</p></td>
+<td><p>Externes</p></td>
+<td><p>URI de conférence. Pour plus d’informations, voir la <a href="lync-server-2013-conferenceuris-table.md">table ConferenceUris dans Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ConfInstance</strong></p></td>
-<td><p>uniqueidentifier</p></td>
+<td><p>identificateur</p></td>
 <td><p> </p></td>
-<td><p>Utile pour les conférences périodique ; chaque instance d’une conférence périodique a le même <strong>ConferenceUri</strong> , mais une <strong>ConfInstance</strong> différente.</p></td>
+<td><p>Utile pour les conférences récurrentes; chaque instance d’une conférence périodique a le même <strong>ConferenceUri</strong>, mais aura un autre <strong>ConfInstance</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ConferenceStartTime</strong></p></td>
-<td><p>datetime</p></td>
+<td><p>DateHeure</p></td>
 <td><p> </p></td>
-<td><p>Heure de fin de la conférence.</p></td>
+<td><p>Heure de début de la Conférence.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ConferenceEndTime</strong></p></td>
-<td><p>datetime</p></td>
+<td><p>DateHeure</p></td>
 <td><p> </p></td>
-<td><p>Heure de fin de la conférence.</p></td>
+<td><p>Heure de début de la Conférence.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>PoolId</strong></p></td>
 <td><p>int</p></td>
-<td><p>Étrangère</p></td>
-<td><p>Numéro d’identification du pool dans lequel la conférence a été capturée. Pour plus d’informations, reportez-vous à la <a href="lync-server-2013-pools-table.md">Table Pools dans Lync Server 2013</a>.</p></td>
+<td><p>Externes</p></td>
+<td><p>Numéro d’identification identifiant le regroupement dans lequel la Conférence a été capturée. Pour plus d’informations, voir la <a href="lync-server-2013-pools-table.md">table pools dans Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>OrganizerId</strong></p></td>
-<td><p>Entier</p></td>
-<td><p>Étrangère</p></td>
-<td><p>Numéro d’identification de l’URI de l’organisateur de cette conférence. Pour plus d’informations, reportez-vous à la <a href="lync-server-2013-users-table.md">Table Users dans Lync Server 2013</a>.</p></td>
+<td><p>Ent</p></td>
+<td><p>Externes</p></td>
+<td><p>Numéro d’identification identifiant l’URI organisateur de la Conférence. Pour plus d’informations, consultez le <a href="lync-server-2013-users-table.md">tableau utilisateurs dans Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Flag</strong></p></td>
-<td><p>smallint</p></td>
-<td><p></p></td>
-<td><p>Masque de bits qui contient les attributs de conférence. Les valeurs possibles sont les suivantes :</p>
+<td><p><strong>Indication</strong></p></td>
+<td><p>type</p></td>
+<td></td>
+<td><p>Masque binaire qui contient les attributs de la Conférence. Valeurs possibles :</p>
 <ul>
 <li><p>0X01</p></li>
-<li><p>Synthétique</p></li>
+<li><p>Synthetic</p></li>
 <li><p>Transaction</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><strong>Traité</strong></p></td>
+<td><p><strong>Formé</strong></p></td>
 <td><p>bit</p></td>
-<td><p></p></td>
+<td></td>
 <td><p>Champ interne utilisé par le service de surveillance.</p>
-<p>Ce champ a été présenté dans Microsoft Lync Server 2013.</p></td>
+<p>Ce champ a été présenté dans Microsoft Lync Server 2013.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-\* Pour la plupart des sessions, SessionIdSeq a la valeur 1. Si deux sessions démarrent exactement en même temps, le SessionIdSeq sera 1 pour l’une et 2 pour l’autre.
+\*Pour la plupart des sessions, SessionIdSeq aura la valeur 1. S’il s’agit d’une session à partir de la même heure, le SessionIdSeq d’une personne sera 1, et pour l’autre, sera égale à 2, et ainsi de suite.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

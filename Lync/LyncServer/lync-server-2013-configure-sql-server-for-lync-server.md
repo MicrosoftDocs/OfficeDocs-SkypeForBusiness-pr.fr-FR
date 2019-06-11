@@ -1,25 +1,47 @@
-﻿---
-title: 'Lync Server 2013 : Configuration de SQL Server pour Lync Server'
-TOCTitle: Configuration de SQL Server pour Lync Server 2013
-ms:assetid: 375e5cc4-e436-46dc-9b02-5063f35cdcc1
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg425848(v=OCS.15)
-ms:contentKeyID: 49296863
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Configuration de SQL Server pour Lync Server'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure SQL Server for Lync Server 2013
+ms:assetid: 375e5cc4-e436-46dc-9b02-5063f35cdcc1
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425848(v=OCS.15)
+ms:contentKeyID: 48183869
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0154b468540873f9b8ae6796f30336327809d394
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34838331"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configuration de SQL Server pour Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2013-08-12_
+# <a name="configure-sql-server-for-lync-server-2013"></a>Configuration de SQL Server pour Lync Server 2013
 
-Les rubriques de cette section abordent le déploiement et la configuration de SQL Server de sorte qu’il utilise un déploiement Enterprise de Lync Server. Les serveurs Standard Edition utilisent une version SQL Server Express colocalisée de SQL Server, parfaitement adaptée aux charges de travail d’un serveur Standard Edition.
+</div>
 
-Le magasin central de gestion de Lync Server 2013 détient les données utilisateur de tous les serveurs Enterprise Edition d’un pool. Il est conçu pour se trouver sur un serveur principal SQL Server. Comme il s’agit d’un espace de stockage centralisé, le magasin central de gestion ne peut pas être installé sur le même ordinateur que tout autre rôle Lync Server 2013. Le magasin central de gestion ne peut pas se trouver sur un serveur Enterprise Edition du pool. Le magasin central de gestion est automatiquement créé lorsque vous publiez la topologie pour la première fois et choisissez de créer les bases de données. L’ordinateur que vous désignez comme serveur principal doit exécuter le logiciel de base de données SQL Server pour que l’installation se déroule correctement.
+<div id="mainSection">
 
-## Dans cette section
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2013-08-12_
+
+Les rubriques de cette section expliquent comment déployer et configurer SQL Server pour une utilisation dans un déploiement d’entreprise de Lync Server. Les serveurs Standard Edition utilisent une version SQL Server Express colocalisée de SQL Server, adaptée aux charges de travail d’un serveur Standard Edition Server.
+
+Le magasin de gestion centralisée de Lync Server 2013 contient les données utilisateur pour tous les serveurs Enterprise Edition au sein d’un pool et est conçu pour être localisé sur un serveur principal SQL Server. En tant que référentiel centralisé, le magasin de gestion central ne peut pas être installé sur le même ordinateur que n’importe quel autre rôle Lync Server 2013. Le magasin de gestion central ne peut pas résider sur un serveur Enterprise Edition dans le pool. Le magasin de gestion central est créé automatiquement lorsque vous publiez la topologie pour la première fois et sélectionnez pour créer les bases de données. L’ordinateur désigné comme serveur principal doit déjà exécuter le logiciel de base de données SQL Server pour que l’installation réussisse.
+
+<div>
+
+## <a name="in-this-section"></a>Dans cette section
 
   - [Emplacement des fichiers journaux et des données SQL Server pour Lync Server 2013](lync-server-2013-sql-server-data-and-log-file-placement.md)
 
@@ -31,5 +53,17 @@ Le magasin central de gestion de Lync Server 2013 détient les données utilisa
 
   - [Description des exigences de pare-feu pour SQL Server avec Lync Server 2013](lync-server-2013-understanding-firewall-requirements-for-sql-server.md)
 
-  - [Configurer le clustering SQL Server pour Lync Server 2013](lync-server-2013-configure-sql-server-clustering.md)
+  - [Configurer le regroupement SQL Server pour Lync Server 2013](lync-server-2013-configure-sql-server-clustering.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

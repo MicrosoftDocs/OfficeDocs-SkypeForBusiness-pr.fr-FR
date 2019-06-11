@@ -1,48 +1,91 @@
-﻿---
-title: Opérations de sauvegarde à effectuer avant un basculement de pool ABC
-TOCTitle: Opérations de sauvegarde à effectuer avant un basculement de pool ABC
-ms:assetid: 652046f5-6086-4592-902d-d5789581977d
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ945634(v=OCS.15)
-ms:contentKeyID: 53095439
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: prérequis de sauvegarde pour le basculement de pool ABC'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Backup prerequisites for ABC pool failover
+ms:assetid: 652046f5-6086-4592-902d-d5789581977d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945634(v=OCS.15)
+ms:contentKeyID: 51541485
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f7cdb228b0a748c830aa488e7b058bf8664360d0
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34838744"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Opérations de sauvegarde à effectuer avant un basculement de pool ABC
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2013-03-26_
+# <a name="backup-prerequisites-for-abc-pool-failover-in-lync-server-2013"></a>Conditions préalables à la sauvegarde du basculement de pool ABC dans Lync Server 2013
 
-Pour tirer le plus grand parti de l’utilisation de la procédure de basculement de pool ABC, vous devez effectuer certaines sauvegardes avant que ne se produisent l’incident et le basculement :
+</div>
 
-  - Vous devez sauvegarder régulièrement les données de configuration LIS (Location Information Service) à partir du pool A à l’aide de l’applet de commande **Export-CsLISConfiguration**.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2013-03-26_
+
+Pour tirer le meilleur parti de l’utilisation de la procédure de basculement de pool ABC, vous devez effectuer certaines sauvegardes avant le désastre et le basculement.
+
+  - Lorsque vous utilisez l’applet de cmdlet **Export-CsLISConfiguration** , vous devez régulièrement sauvegarder les données de configuration de l’emplacement de la base de données de la liste.
     
         Export-csLisConfiguration -FileName <C:\LISExportPrimary.zip>
 
-  - Vous devez sauvegarder régulièrement les données de configuration Response Group dans le pool A à l’aide de l’applet de commande **Export-CsRgsConfiguration**.
+  - Vous devez régulièrement sauvegarder les données de configuration du groupe de réponses dans le pool A à l’aide de l’applet de passe **Export-CsRgsConfiguration** .
     
         Export-CsRgsConfiguration -Source "service:ApplicationServer:<Pool A FQDN>" -FileName "C:\RgsExportPrimary.zip"
     
-    En règle générale, nous vous recommandons d’effectuer des sauvegardes quotidiennes, mais si le volume de vos changements est élevé, vous pouvez planifier des sauvegardes plus fréquentes. La quantité d’informations que vous risquez de perdre en cas d’incident dépend de la fréquence de vos sauvegardes, ainsi que de la fréquence et du volume des changements.
+    En règle générale, il est recommandé d’effectuer des sauvegardes journalières, mais si vous avez un volume élevé de modifications, vous souhaiterez peut-être planifier des sauvegardes plus fréquentes. La quantité d’informations que vous pouvez perdre en cas de sinistre dépend de la fréquence de vos sauvegardes, ainsi que de la fréquence et du volume des modifications.
     
-    L’application Response Group ne peut stocker qu’un seul jeu de paramètres de niveau application par pool. Ces paramètres sont accessibles par le biais de l’applet de commande **Get-CsRgsConfiguration**. Les paramètres incluent la configuration de la mise en attente musicale, le fichier audio de mise en attente musicale par défaut, la période de grâce de reprise d’appel parqué d’agent et la configuration du contexte de l’appel. Ces paramètres peuvent être transférés depuis un pool vers un autre à l’aide de l’applet de commande **Import-CsRgsConfiguration** et du paramètre **ReplaceExistingSettings**, mais cette opération remplace tous les paramètres de niveau application dans le pool de destination.
+    L’application de groupe de réponse ne peut stocker qu’un ensemble de paramètres au niveau de l’application par liste. Pour accéder à ces paramètres, vous pouvez utiliser les applets **de applet Get-CsRgsConfiguration** . Les paramètres incluent la configuration par défaut de Music-Hold en attente, le fichier audio de musique par défaut, la période de grâce à la sonnerie de l’agent et la configuration du contexte d’appel. Ces paramètres peuvent être transférés d’un pool à un autre par le biais de l’applet de commande **Import-CsRgsConfiguration** à l’aide du paramètre **ReplaceExistingSettings** , mais cette opération remplacera tout paramètre de niveau application de la destination. commun.
     
+    <div>
+    
+
     > [!TIP]  
-    > Dans un emplacement séparé, conservez une copie de sauvegarde de tous les fichiers audio d’origine qui ont servi à la configuration de l’application Response Group (c’est-à-dire les enregistrements ou les fichiers de mise en attente musicale).    
-    Si des fichiers de mise en attente musicale personnalisés ont été téléchargés pour le parcage d’appel vers un pool, vous devez en conserver une copie à un autre emplacement. Ces fichiers ne sont pas sauvegardés durant le processus de récupération d’urgence de Lync Server 2013 et seront perdus si les fichiers téléchargés vers le pool sont endommagés ou effacés.
+    > Dans un autre emplacement, conservez une copie de sauvegarde de tous les fichiers audio d’origine que vous avez utilisés pour configurer l’application Response Group (c’est-à-dire tout enregistrement ou fichier de musique en attente).
+
+    
+    </div>
+    
+    Si vous avez des fichiers personnalisés de musique en attente qui ont été téléchargés pour le parc d’appels dans une liste, vous devez conserver une copie de celles-ci dans un autre emplacement. Ces fichiers ne sont pas sauvegardés dans le cadre du processus de récupération d’urgence de Lync Server 2013 et sont perdus si les fichiers téléchargés sur le pool sont endommagés, endommagés ou supprimés.
     
         Xcopy  <Source: Pool A CPS File Store Path>  <Destination>
         Example: Xcopy  "<Pool A File Store Path>\LyncFileStore\coX-ApplicationServer-X\AppServerFiles\CPS\"  "<Destination:  Backup location 1>"
     
-    > [!NOTE]  
-    > L’application de parcage d’appel ne peut stocker qu’un seul jeu de paramètres et qu’un seul fichier audio de mise en attente musicale personnalisé par pool. Ces paramètres sont accessibles par le biais de l’applet de commande <strong>Get-CsCpsConfiguration</strong>. Étant donné que le mécanisme de récupération d’urgence du parcage d’appel repose sur l’application de parcage d’appel du pool de sauvegarde, les paramètres du pool principal ne sont pas sauvegardés ou conservés en cas d’incident. Si le pool principal est perdu, ces paramètres ne peuvent pas être récupérés et, quand un nouveau pool est déployé pour remplacer le pool principal, les paramètres du parcage d’appel et tout fichier audio de mise en attente musicale personnalisé doivent être reconfigurés.
+    <div>
+    
 
-  - Si vous configurez des annonces dans le cadre de la fonctionnalité audio de numéro non attribué, nous vous recommandons de conserver à un autre emplacement une copie de tout fichier audio d’origine utilisé pendant la configuration initiale. Si vous n’avez pas effectué cette opération, vous pouvez obtenir une copie des fichiers audio configurés dans le magasin de fichiers du serveur ou du pool vers lequel les fichiers audio ont été importés. Ces fichiers ne sont pas sauvegardés durant le processus de récupération d’urgence de Lync Server 2013 et seront perdus si les fichiers téléchargés vers le pool sont endommagés ou effacés. Pour copier tous les fichiers audio utilisés pour la configuration de la fonctionnalité audio de numéro non attribué à partir du magasin de fichiers d’un serveur ou d’un pool, utilisez la commande suivante :
+    > [!NOTE]  
+    > L’application de parc d’appels ne peut stocker qu’un seul ensemble de paramètres et un fichier audio en attente personnalisé par liste. Pour accéder à ces paramètres, vous pouvez utiliser l’applet de passe <STRONG>Get-CsCpsConfiguration</STRONG> . Dans la mesure où le mécanisme de reprise après sinistre pour le stationnement d’appels repose sur l’application de parc d’appels du pool de sauvegarde, les paramètres du pool principal ne sont pas sauvegardés ou conservés en cas de sinistre. Si le pool principal est perdu, ces paramètres ne peuvent pas être récupérés, et lorsqu’un nouveau pool est déployé pour remplacer le pool principal, les paramètres du parc d’appels et tout fichier audio de musique personnalisé doit être reconfiguré.
+
+    
+    </div>
+
+  - Si vous configurez des annonces dans le cadre de la fonctionnalité de voix numérique non affectées, nous vous recommandons de conserver dans un autre emplacement une copie de tout fichier audio d’origine utilisé lors de la configuration initiale. Si ce n’est pas le cas, vous pouvez obtenir une copie des fichiers audio configurés dans le magasin de fichiers du serveur ou du pool dans lequel les fichiers audio ont été importés. Ces fichiers ne sont pas sauvegardés dans le cadre du processus de récupération d’urgence de Lync Server 2013 et sont perdus si les fichiers téléchargés sur le pool sont endommagés, endommagés ou supprimés. Pour copier tous les fichiers audio utilisés pour configurer la fonctionnalité vocale numérique non affectée à partir du magasin de fichiers d’un serveur ou d’un pool, utilisez:
     
         Use: Xcopy  <Source: Pool A Announcement Service File Store Path>  <Destination>
         Example Usage:  Xcopy  "<Pool A File Store Path>\X-ApplicationServer-X\AppServerFiles\RGS\AS"  "<Destination: Backup location>"
 
-  - Si un pool comporte des bases de données de surveillance et d’archivage, vous devez utiliser les outils de gestion SQL Server pour les sauvegarder. Dans la procédure de basculement ABC, les bases de données de surveillance et d’archivage ne sont pas conservées si elles sont colocalisées dans le pool A, car ces bases de données ne sont pas sauvegardées par le biais du service de sauvegarde de Lync Server.
+  - Si vous avez surveillé et archivé des bases de données dans un pool, vous devez utiliser les outils de gestion SQL Server pour les sauvegarder. Dans la procédure de basculement ABC, les bases de données de surveillance et d’archivage ne sont pas conservées si celles-ci sont colocalisées dans le pool A, car elles ne sont pas sauvegardées via le service de sauvegarde de Lync Server.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

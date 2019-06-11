@@ -1,53 +1,87 @@
-﻿---
-title: Connexion du pool pilote aux serveurs Edge hérités
-TOCTitle: Connexion du pool pilote aux serveurs Edge hérités
-ms:assetid: c3b67220-5705-47f6-852e-415204f3626c
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ721875(v=OCS.15)
-ms:contentKeyID: 49891528
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Connexion du pool pilote aux serveurs Edge hérités
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Connect pilot pool to legacy Edge Servers
+ms:assetid: c3b67220-5705-47f6-852e-415204f3626c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721875(v=OCS.15)
+ms:contentKeyID: 49733808
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7fc42c645548ea9bad072da5f18643271a9eceeb
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34838840"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Connexion du pool pilote aux serveurs Edge hérités
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-09-29_
+# <a name="connect-pilot-pool-to-legacy-edge-servers"></a>Connexion du pool pilote aux serveurs Edge hérités
 
-Après le déploiement de Lync Server 2013, vous devez configurer un itinéraire de fédération pour le site. Pour permettre l’utilisation de l’itinéraire fédéré utilisé par Lync Server 2010, Lync Server 2013 doit être configuré à cet effet.
+</div>
 
-Pour activer le site Lync Server 2013 afin qu’il utilise le directeur ou le serveur Edge du déploiement Lync Server 2010, utilisez le générateur de topologie pour associer le pool Edge hérité.
+<div id="mainSection">
 
-## Pour associer le pool Edge hérité à l’aide du générateur de topologie
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-09-29_
+
+Après le déploiement de Lync Server 2013, vous devez configurer un itinéraire de Fédération pour votre site. Pour pouvoir utiliser l’itinéraire fédéré utilisé par Lync Server 2010, Lync Server 2013 doit être configuré pour utiliser cet itinéraire.
+
+Pour permettre au site Lync Server 2013 d’utiliser le directeur et le serveur de périphérie du déploiement de Lync Server 2010, utilisez le générateur de topologie pour associer le pool de bords hérités.
+
+<div>
+
+## <a name="to-associate-the-legacy-edge-pool-by-using-topology-builder"></a>Pour associer le pool de bords antérieurs à l’aide du générateur de topologie
 
 1.  Ouvrez le **Générateur de topologie**.
 
-2.  Sélectionnez votre site, qui est affiché juste en dessous du nœud **Lync Server**.
+2.  Sélectionnez votre site, qui se trouve juste en dessous du nœud du **serveur Lync** .
 
-3.  Dans le menu **Actions**, cliquez sur **Modifier les propriétés**.
+3.  Dans le menu **actions** , cliquez sur **modifier les propriétés**.
 
-4.  Dans le volet gauche, sélectionnez **Itinéraire de fédération**.
+4.  Dans le volet gauche, sélectionnez **gamme de Fédération**.
 
-5.  Sous **Attribution de l’itinéraire de fédération du site**, sélectionnez **Activer la fédération SIP**, puis le directeur Lync Server 2010 ou le serveur Edge Lync Server 2010 si aucun directeur n’est répertorié.
+5.  Sous **affectation**de l’itinéraire de Fédération de site, sélectionnez **activer la Fédération SIP**, puis sélectionnez le serveur Lync Server 2010 ou le serveur Edge Lync Server 2010 si aucun réalisateur n’est répertorié.
     
-    ![Modifier les propriétés, page Itinéraire de fédération](images/JJ721875.5f1d04c3-c724-426d-b27d-3fe89c6c5cfb(OCS.15).jpg "Modifier les propriétés, page Itinéraire de fédération")  
+    ![Modifier les propriétés, page itinéraire de Fédération] (images/JJ721875.5f1d04c3-c724-426d-b27d-3fe89c6c5cfb(OCS.15).jpg "Modifier les propriétés, page itinéraire de Fédération")  
 
-6.  Cliquez sur **OK** pour fermer la page **Modifier les propriétés**.
+6.  Cliquez sur **OK** pour fermer la page **modifier les propriétés** .
 
-7.  Dans le générateur de topologie, sous le nœud Lync Server 2013, accédez au **Serveur Standard Edition** ou aux **Pools frontaux Enterprise Edition**, cliquez avec le bouton droit sur le pool, puis cliquez sur **Modifier les propriétés**.
+7.  Dans le générateur de topologie, sous le nœud Lync Server 2013, accédez aux **Pools front end Server ou Enterprise Edition** **standard** , cliquez avec le bouton droit sur la liste, puis cliquez sur **modifier les propriétés**.
 
-8.  Sous **Associations**, activez la case à cocher en regard de **Associer un pool de serveurs Edge (pour les composants médias)**.
+8.  Sous **associations**, activez la case à cocher en regard de **associer le pool de bords (pour les composants multimédias)**.
 
-9.  Dans la liste, sélectionnez le serveur Edge hérité.
+9.  Dans la liste, sélectionnez le serveur de bord hérité.
     
-    ![Boîte de dialogue Modifier les propriétés, sélectionner le serveur Edge hérité](images/JJ721875.feae8156-540e-4804-bb0a-2b5736ec2900(OCS.15).jpg "Boîte de dialogue Modifier les propriétés, sélectionner le serveur Edge hérité")  
+    ![Boîte de dialogue Modifier les propriétés, sélection du bord hérité] (images/JJ721875.feae8156-540e-4804-bb0a-2b5736ec2900(OCS.15).jpg "Boîte de dialogue Modifier les propriétés, sélection du bord hérité")  
 
-10. Cliquez sur **OK** pour fermer la page **Modifier les propriétés**.
+10. Cliquez sur **OK** pour fermer la page **modifier les propriétés** .
 
-11. Dans **Générateur de topologie**, sélectionnez le nœud de niveau supérieur, **Lync Server**.
+11. Dans **Générateur de topologie**, sélectionnez le nœud supérieur, **Lync Server**.
 
-12. Dans le menu **Actions**, cliquez sur **Publier la topologie**, puis cliquez sur **Suivant**.
+12. Dans le menu **action** , cliquez sur **publier la topologie**, puis sur **suivant**.
 
-13. Quand l’**Assistant Publication** est terminé, cliquez sur **Terminer**.
+13. À la fin de l' **Assistant Publication** , cliquez sur **Terminer**.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
