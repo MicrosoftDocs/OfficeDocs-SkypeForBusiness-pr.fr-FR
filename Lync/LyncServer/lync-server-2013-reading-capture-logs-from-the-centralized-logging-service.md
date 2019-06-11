@@ -1,67 +1,118 @@
-﻿---
-title: "Lecture des journ. de capt. à partir du service de journalisation centralisée"
-TOCtitle: "Lecture des journ. de capt. à partir du service de journalisation centralisée"
-ms:assetid: c86ccf61-d86f-4ebd-b8d1-984a1b73005d
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ721879(v=OCS.15)
-ms:contentKeyID: 49891533
-ms.date: 12/28/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: lecture de journaux de capture à partir du service de journalisation centralisé'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Reading capture logs from the Centralized Logging Service
+ms:assetid: c86ccf61-d86f-4ebd-b8d1-984a1b73005d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721879(v=OCS.15)
+ms:contentKeyID: 49733813
+ms.date: 12/29/2016
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 55bfeaa5bc9a2e89d8c52529c5d05ae7e3ee8feb
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823727"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lecture des journaux de capture à partir du service de journalisation centralisée
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2016-12-28_
+# <a name="reading-capture-logs-from-the-centralized-logging-service-in-lync-server-2013"></a><span data-ttu-id="7fa33-102">Lecture de journaux de capture à partir du service de journalisation centralisé dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7fa33-102">Reading capture logs from the Centralized Logging Service in Lync Server 2013</span></span>
 
-Vous vous rendez compte des avantages du service de journalisation centralisée après avoir exécuté la recherche et obtenu un fichier que vous pouvez utiliser pour suivre un problème signalé. Vous pouvez lire le fichier de plusieurs façons. Le fichier de sortie est au format texte standard. Vous pouvez utiliser Notepad.exe ou tout autre programme permettant d’ouvrir et de lire un fichier texte. Pour les fichiers plus volumineux et les problèmes plus complexes, vous pouvez utiliser un outil tel que Snooper.exe, conçu pour lire et analyser les sorties de journalisation du service de journalisation centralisée. Snooper est inclus dans les outils de débogage de Lync Server 2013 (disponibles séparément). Aucun raccourci ou élément de menu n’est créé pour les outils de débogage de Lync Server 2013. Après avoir installé les outils de débogage de Lync Server 2013, ouvrez l’Explorateur Windows, une fenêtre de ligne de commande ou Lync Server Management Shell, puis accédez au répertoire (emplacement par défaut) C:\\Programmes\\Microsoft Lync Server 2013\\Outils de débogage. Double-cliquez sur Snooper.exe ou tapez Snooper.exe, puis appuyez sur ENTRÉE si vous utilisez la ligne de commande ou Lync Server Management Shell.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="7fa33-103">_**Dernière modification de la rubrique:** 2016-12-28_</span><span class="sxs-lookup"><span data-stu-id="7fa33-103">_**Topic Last Modified:** 2016-12-28_</span></span>
+
+<span data-ttu-id="7fa33-104">Vous pouvez bénéficier de l’avantage réel du service de journalisation centralisé après avoir exécuté la recherche et disposer d’un fichier que vous pouvez utiliser pour effectuer le suivi d’un problème signalé.</span><span class="sxs-lookup"><span data-stu-id="7fa33-104">You realize the real benefit of the Centralized Logging Service after you run the search and you have a file that you can use to track down a reported problem.</span></span> <span data-ttu-id="7fa33-105">Il existe plusieurs façons de lire le fichier.</span><span class="sxs-lookup"><span data-stu-id="7fa33-105">There are a number of ways that you can read the file.</span></span> <span data-ttu-id="7fa33-106">Le fichier de sortie est au format texte standard et vous pouvez utiliser Notepad. exe ou tout autre programme qui vous permettra d’ouvrir et de lire un fichier texte.</span><span class="sxs-lookup"><span data-stu-id="7fa33-106">The output file is in a standard text format and you can use Notepad.exe or any other programs that will allow you to open and read a text file.</span></span> <span data-ttu-id="7fa33-107">Pour les fichiers plus volumineux et les problèmes plus complexes, vous pouvez utiliser un outil comme Snooper. exe, conçu pour lire et analyser la sortie de la journalisation à partir du service de journalisation centralisé.</span><span class="sxs-lookup"><span data-stu-id="7fa33-107">For larger files and more complex issues, you could use a tool like Snooper.exe that is designed to read and parse the logging output from the Centralized Logging Service.</span></span> <span data-ttu-id="7fa33-108">La fonction Snoop est incluse dans les outils de débogage de Lync Server 2013 qui sont disponibles en téléchargement séparé.</span><span class="sxs-lookup"><span data-stu-id="7fa33-108">Snooper is included with the Lync Server 2013 Debug Tools that are available as a separate download.</span></span> <span data-ttu-id="7fa33-109">Vous pouvez télécharger les outils de débogage de Lync Server [https://go.microsoft.com/fwlink/?LinkId=285257](https://go.microsoft.com/fwlink/?linkid=285257)2013 ici:.</span><span class="sxs-lookup"><span data-stu-id="7fa33-109">You can download the Lync Server 2013 Debug Tools here: [https://go.microsoft.com/fwlink/?LinkId=285257](https://go.microsoft.com/fwlink/?linkid=285257).</span></span> <span data-ttu-id="7fa33-110">Lorsque vous installez les outils de débogage de Lync Server 2013, des raccourcis courts et des éléments de menu ne sont pas créés.</span><span class="sxs-lookup"><span data-stu-id="7fa33-110">When you install the Lync Server 2013 Debug Tools, short cuts and menu items are not created.</span></span> <span data-ttu-id="7fa33-111">Après l’installation des outils de débogage de Lync Server 2013, ouvrez l’Explorateur Windows, une fenêtre de ligne de commande ou Lync Server Management Shell, puis accédez au répertoire (emplacement\\par défaut\\) C: Program\\Files Microsoft Lync Server 2013 outils de débogage.</span><span class="sxs-lookup"><span data-stu-id="7fa33-111">After you install the Lync Server 2013 Debug Tools, open Windows Explorer, a command-line window, or Lync Server Management Shell and go to the directory (default location) C:\\Program Files\\Microsoft Lync Server 2013\\Debugging Tools.</span></span> <span data-ttu-id="7fa33-112">Double-cliquez sur Snoop. exe ou tapez Snoop. exe, puis appuyez sur entrée si vous utilisez la ligne de commande ou Lync Server Management Shell.</span><span class="sxs-lookup"><span data-stu-id="7fa33-112">Double-click Snooper.exe or type Snooper.exe, and then press ENTER if you are using the command line or Lync Server Management Shell.</span></span>
+
+<div>
+
 
 > [!IMPORTANT]  
-> Cette rubrique n’est pas destinée à aborder les techniques de résolution des problèmes. Le dépannage et les processus associés constituent un sujet complexe. Pour plus d’informations sur les bases de résolution des problèmes et les charges de travail spécifiques, voir le manuel du Kit de ressources de Microsoft Lync Server 2010 à l’adresse <a href="http://go.microsoft.com/fwlink/?linkid=211003%26clcid=0x40c">http://go.microsoft.com/fwlink/?linkid=211003&amp;clcid=0x40C</a>. Les processus et procédures s’appliquent également à Lync Server 2013.
+> <span data-ttu-id="7fa33-113">Cette rubrique n’a pas pour objectif de détailler et de discuter des techniques de résolution des problèmes.</span><span class="sxs-lookup"><span data-stu-id="7fa33-113">The intent of this topic is not to detail and discuss troubleshooting techniques.</span></span> <span data-ttu-id="7fa33-114">Le dépannage et les processus associés constituent un sujet complexe.</span><span class="sxs-lookup"><span data-stu-id="7fa33-114">Troubleshooting and the processes around it is a complex subject.</span></span> <span data-ttu-id="7fa33-115">Pour plus d’informations sur la résolution des problèmes de base liés à la résolution des problèmes liés à la résolution <A href="http://go.microsoft.com/fwlink/p/?linkid=211003">https://go.microsoft.com/fwlink/p/?linkId=211003</A>des problèmes de charge de travail, voir le kit de ressources Microsoft Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="7fa33-115">For details about troubleshooting basics and troubleshooting specific workloads, see the Microsoft Lync Server 2010 Resource Kit book at <A href="http://go.microsoft.com/fwlink/p/?linkid=211003">https://go.microsoft.com/fwlink/p/?linkId=211003</A>.</span></span> <span data-ttu-id="7fa33-116">Les processus et procédures s’appliquent toujours à Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="7fa33-116">The processes and procedures still apply to Lync Server 2013.</span></span>
 
-Lync Server 2013 inclut une version mise à jour de Snooper avec de nouvelles fonctionnalités. La capture d’écran suivante montre la version de Snooper associée à Office Communications Server 2007.
 
-![Office Communications 2007 version de Snooper.](images/JJ721879.129503a8-8edd-4bb0-a68f-c43f9a548b93(OCS.15).jpg "Office Communications 2007 version de Snooper.")
 
-La capture d’écran suivante montre la nouvelle version de Snooper incluse dans les outils de débogage de Lync Server 2013.
+</div>
 
-![Lync Server 2013 version de Snooper.](images/JJ721879.131495dd-8220-4ae4-af37-0ac5c318fd45(OCS.15).jpg "Lync Server 2013 version de Snooper.")
+<span data-ttu-id="7fa33-117">Lync Server 2013 introduit une version mise à jour de l’application Snoop qui inclut de nouvelles fonctionnalités.</span><span class="sxs-lookup"><span data-stu-id="7fa33-117">Lync Server 2013 introduces an updated version of Snooper that includes some new features.</span></span> <span data-ttu-id="7fa33-118">La capture d’écran suivante montre la version de Snoop d’Office Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="7fa33-118">The following screen shot shows the version of Snooper from Office Communications Server 2007.</span></span>
 
-La capture d’écran suivante montre la barre d’outils avec les fonctions fréquemment utilisées.
+<span data-ttu-id="7fa33-119">![Version d’Office Communications 2007 de Snoop.] (images/JJ721879.129503a8-8edd-4bb0-a68f-c43f9a548b93(OCS.15).jpg "Version d’Office Communications 2007 de Snoop.")</span><span class="sxs-lookup"><span data-stu-id="7fa33-119">![Office Communications 2007 version of Snooper.](images/JJ721879.129503a8-8edd-4bb0-a68f-c43f9a548b93(OCS.15).jpg "Office Communications 2007 version of Snooper.")</span></span>
 
-![Barre d’outils Snooper 2013.](images/JJ721879.989249c5-a33e-4251-b8b4-411019cc12b2(OCS.15).jpg "Barre d’outils Snooper 2013.")
+<span data-ttu-id="7fa33-120">La capture d’écran suivante montre la nouvelle version de Snoop incluse dans les outils de débogage de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="7fa33-120">The following screen shot shows the new version of Snooper included in the Lync Server 2013 Debug Tools.</span></span>
 
-La vue de diagramme Organigramme (flux des appels) est une fonctionnalité inédite et utile. Sélectionnez un flux de messages sous l’onglet **Message**, puis cliquez sur le bouton **Flux des appels**. Tandis que vous traitez les messages, le diagramme de flux des appels est mis à jour avec de nouvelles données.
+<span data-ttu-id="7fa33-121">![Version 2013 de Lync Server de Snoop.] (images/JJ721879.131495dd-8220-4ae4-af37-0ac5c318fd45(OCS.15).jpg "Version 2013 de Lync Server de Snoop.")</span><span class="sxs-lookup"><span data-stu-id="7fa33-121">![Lync Server 2013 version of Snooper.](images/JJ721879.131495dd-8220-4ae4-af37-0ac5c318fd45(OCS.15).jpg "Lync Server 2013 version of Snooper.")</span></span>
 
-![Diagramme de flux des appels Snooper 2013.](images/JJ721879.bb8be45d-a842-48fe-86f8-380207d70bab(OCS.15).jpg "Diagramme de flux des appels Snooper 2013.")
+<span data-ttu-id="7fa33-122">La capture d’écran suivante illustre la barre d’outils avec les fonctions les plus fréquemment utilisées.</span><span class="sxs-lookup"><span data-stu-id="7fa33-122">The following screen shot shows the toolbar with frequently used functions.</span></span>
 
-Vous pouvez placer le pointeur sur la vue de diagramme pour obtenir des informations sur les messages, le contenu des flux et messages, et les éléments de serveur. Cliquez sur une flèche du flux des appels pour accéder au message dans la vue des messages.
+<span data-ttu-id="7fa33-123">![Barre d’outils snoop 2013.] (images/JJ721879.989249c5-a33e-4251-b8b4-411019cc12b2(OCS.15).jpg "Barre d’outils snoop 2013.")</span><span class="sxs-lookup"><span data-stu-id="7fa33-123">![Snooper 2013 toolbar.](images/JJ721879.989249c5-a33e-4251-b8b4-411019cc12b2(OCS.15).jpg "Snooper 2013 toolbar.")</span></span>
 
-![Détails du message du diagramme de flux des appels.](images/JJ721879.1147d720-38a9-4bda-8361-78f27ecde3d1(OCS.15).jpg "Détails du message du diagramme de flux des appels.")
+<span data-ttu-id="7fa33-124">En plus, la fonction la plus récente qui ajoute value est la vue de diagramme du diagramme de flux (flux d’appels).</span><span class="sxs-lookup"><span data-stu-id="7fa33-124">And, the newest feature that adds value is the Flow Chart (call flow) diagram view.</span></span> <span data-ttu-id="7fa33-125">Sélectionnez un flux de messages dans l’onglet **message** , puis cliquez sur le bouton **flux d’appels** .</span><span class="sxs-lookup"><span data-stu-id="7fa33-125">You select a message flow in the **Message** tab and click the **Call Flow** button.</span></span> <span data-ttu-id="7fa33-126">Lorsque vous parcourez les messages, le diagramme de flux d’appels est mis à jour avec les nouvelles données.</span><span class="sxs-lookup"><span data-stu-id="7fa33-126">As you proceed through the messages, the call flow diagram updates with new data.</span></span>
 
-## Pour ouvrir un fichier journal dans Snooper
+<span data-ttu-id="7fa33-127">Le ![diagramme de flux d’appels d’snoop 2013.] Le (images/JJ721879.bb8be45d-a842-48fe-86f8-380207d70bab(OCS.15).jpg "diagramme de flux d’appels d’snoop 2013.")</span><span class="sxs-lookup"><span data-stu-id="7fa33-127">![Snooper 2013 call flow diagram.](images/JJ721879.bb8be45d-a842-48fe-86f8-380207d70bab(OCS.15).jpg "Snooper 2013 call flow diagram.")</span></span>
 
-1.  Pour utiliser Snooper pour ouvrir des fichiers journaux, vous devez disposer de l’accès en lecture à ces fichiers. Pour utiliser Snooper et accéder aux fichiers journaux, vous devez être membre du groupe de sécurité RBAC CsAdministrator ou CsServerAdministrator, ou d’un rôle RBAC personnalisé qui contient l’un de ces deux groupes.
+<span data-ttu-id="7fa33-128">Vous pouvez pointer sur la vue de diagramme et obtenir des informations sur les messages et le contenu des flux et des messages ainsi que les éléments du serveur.</span><span class="sxs-lookup"><span data-stu-id="7fa33-128">You can hover over the diagram view and get details about the messages and content of the flows and messages as well as the server elements.</span></span> <span data-ttu-id="7fa33-129">Cliquez sur une flèche de flux d’appels pour accéder au message dans l’affichage messages.</span><span class="sxs-lookup"><span data-stu-id="7fa33-129">Click on any call flow arrow to go to the message in the Messages view.</span></span>
 
-2.  Après l’installation des outils de débogage de Lync Server (LyncDebugTools.msi), définissez le répertoire sur l’emplacement de Snooper.exe à l’aide de l’Explorateur Windows ou à partir de la ligne de commande. Par défaut, les outils de débogage sont situés dans C:\\Programmes\\Microsoft Lync Server 2013\\Outils de débogage. Double-cliquez ou exécutez Snooper.exe.
+<span data-ttu-id="7fa33-130">![Détails du message du diagramme de flux d’appels.] (images/JJ721879.1147d720-38a9-4bda-8361-78f27ecde3d1(OCS.15).jpg "Détails du message du diagramme de flux d’appels.")</span><span class="sxs-lookup"><span data-stu-id="7fa33-130">![Call flow diagram message details.](images/JJ721879.1147d720-38a9-4bda-8361-78f27ecde3d1(OCS.15).jpg "Call flow diagram message details.")</span></span>
 
-3.  Une fois Snooper ouvert, cliquez avec le bouton droit sur **Fichier**, cliquez sur **Ouvrir un fichier**, recherchez vos fichiers journaux, sélectionnez un fichier dans la boîte de dialogue **Ouvrir**, puis cliquez sur **Ouvrir**.
+<div>
 
-4.  Les messages de **trace** du fichier journal sont affichés sous l’onglet **Trace**. Cliquez sur l’onglet **Messages** pour afficher le contenu des traces collectées.
+## <a name="to-open-a-log-file-in-snooper"></a><span data-ttu-id="7fa33-131">Pour ouvrir un fichier journal dans Snooper</span><span class="sxs-lookup"><span data-stu-id="7fa33-131">To open a log file in Snooper</span></span>
 
-## Pour afficher un diagramme de flux des appels
+1.  <span data-ttu-id="7fa33-p106">Pour utiliser Snooper pour ouvrir des fichiers journaux, vous devez disposer de l’accès en lecture à ces fichiers. Pour utiliser Snooper et accéder aux fichiers journaux, vous devez être membre du groupe de sécurité RBAC CsAdministrator ou CsServerAdministrator, ou d’un rôle RBAC personnalisé qui contient l’un de ces deux groupes.</span><span class="sxs-lookup"><span data-stu-id="7fa33-p106">To use Snooper and open log files, you need read access to the log files. To use Snooper and access the log files you must be a member of the CsAdministrator or the CsServerAdministrator role-based access control (RBAC) security groups, or a custom RBAC role that contains either of these two groups.</span></span>
 
-1.  Pour utiliser Snooper pour ouvrir des fichiers journaux, vous devez disposer de l’accès en lecture à ces fichiers. Pour utiliser Snooper et accéder aux fichiers journaux, vous devez être membre du groupe de sécurité RBAC CsAdministrator ou CsServerAdministrator, ou d’un rôle RBAC personnalisé qui contient l’un de ces deux groupes.
+2.  <span data-ttu-id="7fa33-134">Après l’installation des outils de débogage de Lync Server (LyncDebugTools. msi), modifiez le répertoire pour l’emplacement de Snoop. exe à l’aide de l’Explorateur Windows ou de la ligne de commande.</span><span class="sxs-lookup"><span data-stu-id="7fa33-134">After the installation of the Lync Server Debugging Tools (LyncDebugTools.msi), change directory to the location of Snooper.exe using Windows Explorer or from the command line.</span></span> <span data-ttu-id="7fa33-135">Par défaut, les outils de débogage se trouvent dans les outils\\de débogage de\\Microsoft Lync\\Server 2013.</span><span class="sxs-lookup"><span data-stu-id="7fa33-135">By default, the debugging tools are located in C:\\Program Files\\Microsoft Lync Server 2013\\Debugging Tools.</span></span> <span data-ttu-id="7fa33-136">Double-cliquez ou exécutez Snooper.exe.</span><span class="sxs-lookup"><span data-stu-id="7fa33-136">Double-click or run Snooper.exe.</span></span>
 
-2.  Ouvrez un fichier journal, cliquez sur l’onglet **Messages**, puis sélectionnez une conversation dans la vue des messages ou un composant de trace sous l’onglet **Trace**.
+3.  <span data-ttu-id="7fa33-137">Après avoir ouvert Snooper, cliquez avec le bouton droit sur **Fichier**, cliquez sur **Ouvrir un fichier**, recherchez vos fichiers journaux, sélectionnez un fichier dans la boîte de dialogue **Ouvrir**, puis cliquez sur **Ouvrir**.</span><span class="sxs-lookup"><span data-stu-id="7fa33-137">After Snooper is open, right-click **File**, click **OpenFile**, find your log files, select a file in the **Open** dialog box, and then click **Open**.</span></span>
 
-3.  Cliquez sur **Flux des appels**.
+4.  <span data-ttu-id="7fa33-138">Les messages de **suivi** du fichier journal sont affichés dans l’onglet **Suivi**. Cliquez sur l’onglet **Messages** pour afficher le contenu des suivis collectés.</span><span class="sxs-lookup"><span data-stu-id="7fa33-138">The log file’s **Trace** messages are displayed on the **Trace** tab. Click the **Messages** tab to view the message contents of the collected traces.</span></span>
+
+</div>
+
+<div>
+
+## <a name="to-display-a-call-flow-diagram"></a><span data-ttu-id="7fa33-139">Pour afficher un diagramme de flux des appels</span><span class="sxs-lookup"><span data-stu-id="7fa33-139">To display a call flow diagram</span></span>
+
+1.  <span data-ttu-id="7fa33-p108">Pour utiliser Snooper pour ouvrir des fichiers journaux, vous devez disposer de l’accès en lecture à ces fichiers. Pour utiliser Snooper et accéder aux fichiers journaux, vous devez être membre du groupe de sécurité RBAC CsAdministrator ou CsServerAdministrator, ou d’un rôle RBAC personnalisé qui contient l’un de ces deux groupes.</span><span class="sxs-lookup"><span data-stu-id="7fa33-p108">To use Snooper and open log files, you need read access to the log files. To use Snooper and access the log files, you need to be a member of the CsAdministrator or the CsServerAdministrator role-based access control (RBAC) security groups, or a custom RBAC role that contains either of these two groups.</span></span>
+
+2.  <span data-ttu-id="7fa33-142">Ouvrez un fichier journal, cliquez sur l’onglet **Messages**, puis sélectionnez une conversation dans la vue des messages ou un composant de suivi dans l’onglet **Suivi**.</span><span class="sxs-lookup"><span data-stu-id="7fa33-142">Open a log file and click the **Messages** tab, select a conversation in the messages view or select a trace component on the **Trace** tab.</span></span>
+
+3.  <span data-ttu-id="7fa33-143">Cliquez sur **Flux des appels**.</span><span class="sxs-lookup"><span data-stu-id="7fa33-143">Click **Call Flow**.</span></span>
     
+    <div>
+    
+
     > [!NOTE]  
-    > Si vous cliquez sur un message ou une trace que ne fait pas partie d’un flux des appels, le diagramme n’apparaît pas et le message d’état « Ce message n’est pas éligible pour le flux des appels » est affiché en bas de Snooper. Choisissez un autre message ou une autre trace. Le flux des appels réapparaît si le message ou la trace fait partie d’un flux des appels.
+    > <span data-ttu-id="7fa33-p109">Si vous cliquez sur un message ou une trace qui ne fait pas partie d’un flux des appels, le diagramme n’apparaît pas et le message d’état « Ce message n’est pas éligible pour le flux des appels » est affiché en bas de Snooper. Choisissez un autre message ou une autre trace. Le flux des appels réapparaît si le message ou la trace fait partie d’un flux des appels.</span><span class="sxs-lookup"><span data-stu-id="7fa33-p109">If you click on a message or trace that is not part of a call flow, the diagram will not appear and a status message appears at the bottom of Snooper stating “This message is not eligible for callfow”. Choose another message or trace and the call flow will appear if the message or trace is part of a call flow.</span></span>
 
-4.  Parcourez les messages ou lignes de trace et vérifiez si le diagramme de flux des appels est mis à jour ou modifié pour afficher un nouveau diagramme.
+    
+    </div>
 
-5.  Placez le curseur sur les éléments pour obtenir des informations sur les messages d’appel, les points de terminaison et les autres composants.
+4.  <span data-ttu-id="7fa33-146">Parcourez les messages ou lignes de trace et vérifiez si le diagramme de flux des appels est mis à jour ou modifié pour afficher un nouveau diagramme.</span><span class="sxs-lookup"><span data-stu-id="7fa33-146">Move through the Messages or the Trace lines and note whether the call flow diagram updates or changes to display a new diagram.</span></span>
+
+5.  <span data-ttu-id="7fa33-147">Placez le curseur sur les éléments pour obtenir des informations sur les messages d’appel, les points de terminaison et les autres composants.</span><span class="sxs-lookup"><span data-stu-id="7fa33-147">Hover over elements to get information about call messages, endpoints, and other components.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

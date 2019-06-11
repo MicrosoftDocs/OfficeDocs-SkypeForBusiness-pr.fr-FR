@@ -1,32 +1,70 @@
-﻿---
-title: Modification des propriétés d’un compte d’utilisateur
-TOCTitle: Modification des propriétés d’un compte d’utilisateur
-ms:assetid: 0716c2ae-ffa7-4877-9d70-fe72be63ad9a
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ687961(v=OCS.15)
-ms:contentKeyID: 49891221
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: modification des propriétés d’un compte d’utilisateur'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Modifying user account properties
+ms:assetid: 0716c2ae-ffa7-4877-9d70-fe72be63ad9a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687961(v=OCS.15)
+ms:contentKeyID: 49733546
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0a38245f0b1248bfa30cc06fa05c74424cdce101
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34826786"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Modification des propriétés d’un compte d’utilisateur
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-11-01_
+# <a name="modifying-user-account-properties-in-lync-server-2013"></a><span data-ttu-id="f43eb-102">Modification des propriétés d’un compte d’utilisateur dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f43eb-102">Modifying user account properties in Lync Server 2013</span></span>
 
-Les procédures dans cette section vous permettent de modifier les propriétés de chaque compte d’utilisateur.
+</div>
 
-## Dans cette section
+<div id="mainSection">
 
-  - [Configuration de la téléphonie pour un utilisateur](lync-server-2013-configure-telephony-for-a-user.md)
+<div id="mainBody">
 
-  - [Déplacer les utilisateurs vers un autre outil dans Lync Server 2013](lync-server-2013-move-users-to-another-pool.md)
+<span> </span>
 
-## Voir aussi
+<span data-ttu-id="f43eb-103">_**Dernière modification de la rubrique:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="f43eb-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-#### Autres ressources
+<span data-ttu-id="f43eb-104">Vous pouvez utiliser les procédures décrites dans cette section pour modifier des propriétés de compte d’utilisateur individuelles.</span><span class="sxs-lookup"><span data-stu-id="f43eb-104">You can use the procedures in this section to modify individual user account properties.</span></span>
 
-[Comptes d’utilisateur activés pour Lync Server 2013](lync-server-2013-user-accounts-enabled-for-lync-server.md)  
-[Attribution de stratégies par utilisateur dans Lync Server 2013](lync-server-2013-assigning-per-user-policies.md)
+<div>
+
+## <a name="in-this-section"></a><span data-ttu-id="f43eb-105">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="f43eb-105">In This Section</span></span>
+
+  - [<span data-ttu-id="f43eb-106">Configurer la téléphonie pour un utilisateur dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f43eb-106">Configure telephony for a user in Lync Server 2013</span></span>](lync-server-2013-configure-telephony-for-a-user.md)
+
+  - [<span data-ttu-id="f43eb-107">Déplacer des utilisateurs vers un autre pool dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f43eb-107">Move users to another pool in Lync Server 2013</span></span>](lync-server-2013-move-users-to-another-pool.md)
+
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="f43eb-108">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="f43eb-108">See Also</span></span>
+
+
+[<span data-ttu-id="f43eb-109">Comptes d’utilisateurs activés pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f43eb-109">User accounts enabled for Lync Server 2013</span></span>](lync-server-2013-user-accounts-enabled-for-lync-server.md)  
+[<span data-ttu-id="f43eb-110">Attribution de stratégies par utilisateur dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f43eb-110">Assigning per-user policies in Lync Server 2013</span></span>](lync-server-2013-assigning-per-user-policies.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,89 +1,139 @@
-﻿---
-title: 'Lync Server 2013 : Options de déploiement de passerelle RTC'
-TOCTitle: Options de déploiement de passerelle RTC
-ms:assetid: d1ab4f74-18aa-40c7-a8cf-ec806cf6e28a
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398899(v=OCS.15)
-ms:contentKeyID: 49298913
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Options de déploiement de passerelle RTC'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: PSTN gateway deployment options
+ms:assetid: d1ab4f74-18aa-40c7-a8cf-ec806cf6e28a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398899(v=OCS.15)
+ms:contentKeyID: 48185445
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 137c9996429e953db22bea0c0dbd382f5a7af9a2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823818"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Options de déploiement de passerelle RTC dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-09-21_
+# <a name="pstn-gateway-deployment-options-in-lync-server-2013"></a><span data-ttu-id="9e288-102">Options de déploiement de passerelle RTC dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9e288-102">PSTN gateway deployment options in Lync Server 2013</span></span>
 
-## Passerelles RTC
+</div>
 
-Les passerelles RTC (réseau téléphonique commuté) sont des composants matériels tiers qui convertissent la signalisation et les médias entre l’infrastructure Voix Entreprise et le réseau téléphonique commuté, directement ou via une connexion à des jonctions SIP. Quelle que soit la topologie utilisée, la passerelle permet le raccordement au réseau téléphonique commuté. La passerelle est isolée dans son propre sous-réseau et est connectée au réseau de l’entreprise via le serveur de médiation.
+<div id="mainSection">
 
-Une entreprise constituée de plusieurs sites déploie généralement une ou plusieurs passerelles sur chaque site. Les sites de succursale peuvent se connecter au RTC via une passerelle ou via un Survivable Branch Appliance qui regroupe la passerelle et les serveurs dans un unique boîtier. Si des sites de succursale utilisent une passerelle, il est nécessaire d’installer un serveur d’inscriptions et un serveur de médiation sur le site, sauf si la liaison de réseau étendu est résistante. Un ou plusieurs serveurs de médiation, colocalisés sur des serveurs frontaux, peuvent acheminer les appels pour une ou plusieurs passerelles, sur chaque site. Nous recommandons de déployer le serveur d’inscriptions, le serveur de médiation et la passerelle requis sur le site en tant que Survivable Branch Appliance.
+<div id="mainBody">
 
-Déterminer le nombre, la taille et l’emplacement des passerelles RTC est peut-être la décision la plus importante et la plus coûteuse que vous devrez prendre lors de la planification de votre infrastructure Voix Entreprise.
+<span> </span>
 
-Voici les principales questions à se poser. N’oubliez pas que les réponses à ces questions sont toutes interdépendantes.
+<span data-ttu-id="9e288-103">_**Dernière modification de la rubrique:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="9e288-103">_**Topic Last Modified:** 2012-09-21_</span></span>
 
-  - Combien de passerelles RTC sont nécessaires ? La réponse dépend du nombre d’utilisateurs, du nombre anticipé d’appels simultanés (charge du trafic) et du nombre de sites (chaque site a besoin d’une passerelle).
+<div>
 
-  - Quelle doit être la taille des passerelles ? La réponse dépend du nombre d’utilisateurs sur le site et de la charge du trafic.
+## <a name="pstn-gateways"></a><span data-ttu-id="9e288-104">Passerelles RTC</span><span class="sxs-lookup"><span data-stu-id="9e288-104">PSTN Gateways</span></span>
 
-  - Quel doit être l’emplacement des passerelles ? La réponse dépend en partie de la topologie et de la répartition géographique de votre entreprise.
+<span data-ttu-id="9e288-105">Les passerelles de réseau téléphonique commuté (PSTN) sont des composants matériels tiers qui convertissent le signalement et le contenu multimédia entre l’infrastructure vocale d’entreprise et le RTC, directement ou par le biais d’une connexion de lignes SIP.</span><span class="sxs-lookup"><span data-stu-id="9e288-105">Public switched telephone network (PSTN) gateways are third-party hardware components that translate signaling and media between the Enterprise Voice infrastructure and the PSTN, either directly or through connection to SIP trunks.</span></span> <span data-ttu-id="9e288-106">Dans chaque topologie, la passerelle arrête le RTC.</span><span class="sxs-lookup"><span data-stu-id="9e288-106">In either topology, the gateway terminates the PSTN.</span></span> <span data-ttu-id="9e288-107">La passerelle est isolée dans son propre sous-réseau et est connectée au réseau d’entreprise par le biais du serveur de médiation.</span><span class="sxs-lookup"><span data-stu-id="9e288-107">The gateway is isolated in its own subnet and is connected to the enterprise network through the Mediation Server.</span></span>
 
-Vous devriez également tenir compte des options au niveau de la topologie de votre passerelle (pour plus d’informations, reportez-vous à la section Topologies de passerelles dans la suite de cette rubrique).
+<span data-ttu-id="9e288-108">En règle générale, une entreprise avec plusieurs sites déploie une ou plusieurs passerelles sur chaque site.</span><span class="sxs-lookup"><span data-stu-id="9e288-108">An enterprise with multiple sites would typically deploy one or more gateways at each site.</span></span> <span data-ttu-id="9e288-109">Les sites de succursale peuvent se connecter au RTC par le biais d’une passerelle ou d’une unité de branchement survivant qui combine les passerelles et les serveurs dans une seule boîte.</span><span class="sxs-lookup"><span data-stu-id="9e288-109">Branch sites can connect to the PSTN either through a gateway, or through a Survivable Branch Appliance, which combines gateway and servers in a single box.</span></span> <span data-ttu-id="9e288-110">Si les sites de succursales utilisent une passerelle, un serveur d’inscription et de médiation sont requis sur le site, sauf si la liaison WAN est résiliente.</span><span class="sxs-lookup"><span data-stu-id="9e288-110">If branch sites use a gateway, both a Registrar and Mediation Server are required on site, unless the WAN link is resilient.</span></span> <span data-ttu-id="9e288-111">Un ou plusieurs serveurs de médiation, qui sont colocalisés sur des serveurs frontaux, peuvent router les appels pour les passerelles d’une ou plusieurs sur chaque site.</span><span class="sxs-lookup"><span data-stu-id="9e288-111">One or more Mediation Servers, which are collocated on Front End Servers, can route calls for the one or more gateways at each site.</span></span> <span data-ttu-id="9e288-112">Nous vous recommandons d’utiliser le Bureau d’enregistrement, le serveur de médiation et la passerelle requis sur le site comme une unité de branchement Survivable.</span><span class="sxs-lookup"><span data-stu-id="9e288-112">We recommend that the Registrar, Mediation Server, and gateway required on site are deployed as a Survivable Branch Appliance.</span></span>
 
-## M:N Prise en charge des jonctions
+<span data-ttu-id="9e288-113">Le nombre, la taille et l’emplacement des passerelles RTC est peut-être la décision la plus importante et onéreuse lors de la planification de l’infrastructure vocale de votre entreprise.</span><span class="sxs-lookup"><span data-stu-id="9e288-113">Determining the number, size, and location of PSTN gateways is perhaps the most important and expensive decision you must make when planning your Enterprise Voice infrastructure.</span></span>
 
-Les serveurs de médiation peuvent acheminer les appels via plusieurs passerelles, via plusieurs contrôleurs de frontière de session fournis par les fournisseurs de services de téléphonie Internet ou via une combinaison des deux. De plus, plusieurs serveurs de médiation du pool peuvent interagir avec plusieurs passerelles. L’acheminement logique défini entre un serveur de médiation et la passerelle est appelée une *jonction* . Quand un utilisateur interne passe un appel RTC, la logique de routage du trafic sortant sur le pool de serveurs frontaux sélectionne la jonction via laquelle le trafic est acheminé parmi toutes les combinaisons possibles disponibles pour l’acheminement de cet appel. Avec l’équilibrage de la charge DNS, si un appel n’atteint pas une passerelle en raison d’un problème avec un serveur de médiation du pool, une nouvelle tentative d’appel sera émise vers un autre serveur de médiation du pool.
+<span data-ttu-id="9e288-114">Voici les principales questions à prendre en considération.</span><span class="sxs-lookup"><span data-stu-id="9e288-114">Here are the main questions to consider.</span></span> <span data-ttu-id="9e288-115">Gardez à l’esprit que les réponses à ces questions sont interdépendantes.</span><span class="sxs-lookup"><span data-stu-id="9e288-115">Keep in mind that the answers to these questions are all interdependent</span></span>
 
-Pour plus d’informations sur la planification de plusieurs passerelles, reportez-vous à [Jonction M:N dans Lync Server 2013](lync-server-2013-m-n-trunk.md).
+  - <span data-ttu-id="9e288-116">Combien de passerelles RTC sont-elles nécessaires?</span><span class="sxs-lookup"><span data-stu-id="9e288-116">How many PSTN gateways are needed?</span></span> <span data-ttu-id="9e288-117">La réponse dépend du nombre d’utilisateurs, du nombre d’appels simultanés (chargement du trafic) et du nombre de sites (chaque site en nécessite une).</span><span class="sxs-lookup"><span data-stu-id="9e288-117">The answer depends on the number of users, the anticipated number of simultaneous calls (traffic load), and the number of sites (each site needs one).</span></span>
 
-Pour plus d’informations sur les autres améliorations apportées au routage du trafic sortant, reportez-vous à [Itinéraires des communications vocales dans Lync Server 2013](lync-server-2013-voice-routes.md).
+  - <span data-ttu-id="9e288-118">Quelle est la taille des passerelles?</span><span class="sxs-lookup"><span data-stu-id="9e288-118">What size should the gateways be?</span></span> <span data-ttu-id="9e288-119">La réponse dépend du nombre d’utilisateurs au niveau du site et du chargement du trafic.</span><span class="sxs-lookup"><span data-stu-id="9e288-119">The answer depends on the number of users at the site and on the traffic load.</span></span>
 
-## Topologies de passerelles
+  - <span data-ttu-id="9e288-120">Où se trouvent les passerelles?</span><span class="sxs-lookup"><span data-stu-id="9e288-120">Where should the gateways be located?</span></span> <span data-ttu-id="9e288-121">La réponse dépend en partie de la topologie et en partie de la distribution géographique de votre organisation.</span><span class="sxs-lookup"><span data-stu-id="9e288-121">The answer depends in part on the topology and in part on the geographic distribution of your organization.</span></span>
 
-Quand vous examinez les questions fondamentales relatives au déploiement des passerelles, procédez comme suit :
+<span data-ttu-id="9e288-122">Vous devez également tenir compte des options de topologie de votre passerelle (pour plus de détails, voir topologies de passerelle plus loin dans cette rubrique).</span><span class="sxs-lookup"><span data-stu-id="9e288-122">You should also consider your gateway topology options (for details, see Gateway Topologies later in this topic).</span></span>
 
-1.  Comptez les sites que vous souhaitez connecter au réseau RTC en utilisant Voix Entreprise.
+<div>
 
-2.  Évaluez le trafic sur chacun d’eux (nombre d’utilisateurs et nombre moyen d’appels par heure et par utilisateur).
+## <a name="mn-trunk-support"></a><span data-ttu-id="9e288-123">M:N Prise en charge des jonctions</span><span class="sxs-lookup"><span data-stu-id="9e288-123">M:N Trunk Support</span></span>
 
-3.  Déployez une ou plusieurs passerelles sur chaque site pour gérer le trafic prévu.
+<span data-ttu-id="9e288-124">Les serveurs de médiation peuvent acheminer les appels par le biais de plusieurs passerelles, contrôleurs de frontière de session (SBCs) fournis par des fournisseurs de services de téléphonie Internet ou d’une combinaison des deux.</span><span class="sxs-lookup"><span data-stu-id="9e288-124">The Mediation Servers can route calls through multiple gateways, Session Border Controllers (SBCs) provided by Internet telephony service providers, or a combination of the two.</span></span> <span data-ttu-id="9e288-125">Par ailleurs, plusieurs serveurs de médiation du pool peuvent interagir avec plusieurs passerelles.</span><span class="sxs-lookup"><span data-stu-id="9e288-125">Additionally, multiple Mediation Servers in the pool can interact with multiple gateways.</span></span> <span data-ttu-id="9e288-126">L’itinéraire logique défini entre un serveur de médiation et une passerelle est appelé *Trunk*.</span><span class="sxs-lookup"><span data-stu-id="9e288-126">The logical route defined between a Mediation Server and gateway is called a *trunk*.</span></span> <span data-ttu-id="9e288-127">Lorsqu’un utilisateur interne place un appel RTC, la logique de routage sortante du pool frontal détermine le Trunk à transférer au-delà de toutes les combinaisons possibles qui peuvent être disponibles pour le routage d’un appel particulier.</span><span class="sxs-lookup"><span data-stu-id="9e288-127">When an internal user places a PSTN call, outbound routing logic on the Front End pool chooses which trunk to route over out of all possible combinations that may be available for routing that particular call.</span></span> <span data-ttu-id="9e288-128">En cas d’équilibrage de la charge DNS, si un appel ne parvient pas à accéder à une passerelle en raison d’un problème lié à un serveur de médiation particulier dans le pool, l’appel est répété vers un autre serveur de médiation du pool.</span><span class="sxs-lookup"><span data-stu-id="9e288-128">With DNS load balancing, if a call fails to reach a gateway due to an issue with a particular Mediation Server in the pool, the call will be retried to an alternate Mediation Server in the pool.</span></span>
 
-La topologie de passerelles distribuées résultante est présentée à la figure suivante.
+<span data-ttu-id="9e288-129">Pour plus d’informations sur la planification de plusieurs passerelles, voir [M:N Trunk dans Lync Server 2013](lync-server-2013-m-n-trunk.md).</span><span class="sxs-lookup"><span data-stu-id="9e288-129">For details about planning for multiple gateways, see [M:N trunk in Lync Server 2013](lync-server-2013-m-n-trunk.md).</span></span>
 
-**Topologie de passerelles distribuées**
+<span data-ttu-id="9e288-130">Pour plus d’informations sur les autres améliorations du routage sortant, voir [itinéraires vocaux dans Lync Server 2013](lync-server-2013-voice-routes.md).</span><span class="sxs-lookup"><span data-stu-id="9e288-130">For details about other outbound routing enhancements, see [Voice routes in Lync Server 2013](lync-server-2013-voice-routes.md).</span></span>
 
-![Diagramme de topologie de passerelle distribuée](images/Gg398899.f0f65a0b-a462-491a-878b-4d4bf0a96f6d(OCS.15).jpg "Diagramme de topologie de passerelle distribuée")
+</div>
 
-Avec cette topologie, les appels entre collaborateurs sur chaque site et entre les sites sont tous routés sur votre intranet. Les appels qui parviennent au réseau téléphonique commuté sont routés sur le réseau IP de l’entreprise vers les passerelles les plus proches de l’emplacement des numéros de destination. Mais que se passe-t-il si votre entreprise prend en charge des douzaines ou des centaines, voire des milliers de sites répartis sur plusieurs continents, comme c’est le cas de nombreuses institutions financières et grandes entreprises ? Dans ces cas, le déploiement d’une passerelle distincte sur chaque site n’est pas pratique.
+<div>
 
-Pour résoudre ce problème, de nombreuses grandes entreprises préfèrent déployer des sites centraux importants, comme illustré dans la figure suivante.
+## <a name="gateway-topologies"></a><span data-ttu-id="9e288-131">Topologies de passerelle</span><span class="sxs-lookup"><span data-stu-id="9e288-131">Gateway Topologies</span></span>
 
-**Topologie des sites centraux de téléphonie**
+<span data-ttu-id="9e288-132">Lorsque vous prenez en considération les questions fondamentales du déploiement de la passerelle, procédez comme suit:</span><span class="sxs-lookup"><span data-stu-id="9e288-132">When you consider the fundamental questions of gateway deployment, follow these steps:</span></span>
 
-![Topologie de passerelle de centre de données](images/Gg398899.927f4808-bf74-405a-be20-2cd9cd87af6d(OCS.15).jpg "Topologie de passerelle de centre de données")
+1.  <span data-ttu-id="9e288-133">Déterminez les sites pour lesquels vous souhaitez fournir une connectivité PSTN en utilisant Enterprise Voice.</span><span class="sxs-lookup"><span data-stu-id="9e288-133">Count the sites at which you want to provide PSTN connectivity by using Enterprise Voice.</span></span>
 
-Dans cette topologie, plusieurs passerelles de grande taille, suffisantes pour gérer la charge anticipée pour les utilisateurs, sont déployées sur chaque site central. Tous les appels à destination des utilisateurs de l’entreprise sont transmis par le fournisseur de services téléphoniques de la société vers un site central. La logique de routage définie sur le site central détermine si l’appel doit être routé sur l’intranet ou vers le réseau téléphonique commuté.
+2.  <span data-ttu-id="9e288-134">Évaluez le trafic sur chaque site (nombre d’utilisateurs et nombre moyen d’appels par heure par utilisateur).</span><span class="sxs-lookup"><span data-stu-id="9e288-134">Estimate the traffic at each site (number of users and average number of calls per hour per user).</span></span>
 
-## Emplacement de la passerelle
+3.  <span data-ttu-id="9e288-135">Déploiement d’une ou plusieurs passerelles sur chaque site pour gérer le trafic anticipé.</span><span class="sxs-lookup"><span data-stu-id="9e288-135">Deploy one or more gateways at each site to handle the anticipated traffic.</span></span>
 
-L’emplacement de la passerelle peut également déterminer les types de passerelles que vous choisissez et leur configuration. Il existe des douzaines de protocoles RTC, dont aucun n’est un standard mondial. Si toutes vos passerelles se situent dans un seul pays ou une seule région, cela n’est pas un problème, mais si vous les placez dans plusieurs pays/régions, chacune d’elles doit être configurée en fonction des normes RTC du pays ou de la région. De plus, les passerelles certifiées pour fonctionner, par exemple, au Canada, peuvent ne pas être certifiées en Inde, au Brésil ou dans l’Union européenne.
+<span data-ttu-id="9e288-136">La topologie de passerelle distribuée qui en résulte est illustrée dans la figure suivante.</span><span class="sxs-lookup"><span data-stu-id="9e288-136">The resulting distributed gateway topology is shown in the following figure.</span></span>
 
-## Taille et nombre des passerelles
+<span data-ttu-id="9e288-137">**Topologie de passerelle distribuée**</span><span class="sxs-lookup"><span data-stu-id="9e288-137">**Distributed gateway topology**</span></span>
 
-La taille des passerelles RTC que la plupart des entreprises envisagent de déployer peut aller de 2 et 960 ports. (Il existe des passerelles encore plus importantes, mais celles-ci sont principalement utilisées par des fournisseurs de services téléphoniques.) Lors de l’estimation du nombre de ports requis dans votre entreprise, suivez les instructions suivantes :
+<span data-ttu-id="9e288-138">![Diagramme de topologie de passerelle distribuée] (images/Gg398899.f0f65a0b-a462-491a-878b-4d4bf0a96f6d(OCS.15).jpg "Diagramme de topologie de passerelle distribuée")</span><span class="sxs-lookup"><span data-stu-id="9e288-138">![Distributed Gateway Topology diagram](images/Gg398899.f0f65a0b-a462-491a-878b-4d4bf0a96f6d(OCS.15).jpg "Distributed Gateway Topology diagram")</span></span>
 
-  - Les entreprises dont l’utilisation de la téléphonie est faible (un appel RTC par utilisateur et par heure) doivent allouer un port pour 15 utilisateurs. Par exemple, si votre entreprise regroupe 20 utilisateurs, vous avez besoin d’une passerelle dotée de deux ports.
+<span data-ttu-id="9e288-139">Avec cette topologie, les appels entre les travailleurs sur chaque site et entre les sites sont tous routés par le biais de votre intranet.</span><span class="sxs-lookup"><span data-stu-id="9e288-139">With this topology, calls among workers at each site and between sites are all routed over your intranet.</span></span> <span data-ttu-id="9e288-140">Les appels vers le RTC sont routés via le réseau IP d’entreprise vers les passerelles les plus proches de l’emplacement des numéros de destination. Mais si votre organisation prend en charge des douzaines ou des centaines, voire des milliers de sites disséminés sur un ou plusieurs continents, le nombre d’institutions financières et d’autres grandes entreprises est important.</span><span class="sxs-lookup"><span data-stu-id="9e288-140">Calls to the PSTN are routed over the enterprise IP network to the gateways that are closest to the location of the destination numbers.But what if your organization supports dozens or hundreds or even thousands of sites spread across one or more continents, as many financial institutions and other large enterprises do?</span></span> <span data-ttu-id="9e288-141">Dans ce cas, le déploiement d’une passerelle séparée sur chaque site n’est pas pratique.</span><span class="sxs-lookup"><span data-stu-id="9e288-141">In such cases, deploying a separate gateway at each site is not practical.</span></span>
 
-  - Les entreprises dont l’utilisation de la téléphonie est modérée (deux appels RTC par utilisateur et par heure) doivent allouer un port pour 10 utilisateurs. Par exemple, si votre entreprise regroupe 100 utilisateurs, vous avez besoin d’un total de 10 ports alloués sur une ou plusieurs passerelles.
+<span data-ttu-id="9e288-142">Pour résoudre ce problème, de nombreuses entreprises de grande taille préfèrent le déploiement d’un ou de plusieurs sites centraux de téléphonie de grande taille, comme illustré dans la figure ci-dessous.</span><span class="sxs-lookup"><span data-stu-id="9e288-142">To address this issue, many large companies prefer to deploy one or a few large telephony central sites, as shown in the following figure.</span></span>
 
-  - Les entreprises dont l’utilisation de la téléphonie est forte (trois appels RTC ou plus par utilisateur et par heure) doivent allouer un port pour cinq utilisateurs. Par exemple, si votre entreprise regroupe 47 000 utilisateurs, vous avez besoin d’un total de 9 400 ports alloués sur au moins 10 passerelles de grande envergure.
+<span data-ttu-id="9e288-143">**Topologie de site central de téléphonie**</span><span class="sxs-lookup"><span data-stu-id="9e288-143">**Telephony central site topology**</span></span>
 
-  - D’autres ports peuvent être acquis à mesure que le nombre d’utilisateurs ou la quantité de trafic augmente dans votre entreprise.
+<span data-ttu-id="9e288-144">![Topologie] de la passerelle du centre de données (images/Gg398899.927f4808-bf74-405a-be20-2cd9cd87af6d(OCS.15).jpg "Topologie") de la passerelle du centre de données</span><span class="sxs-lookup"><span data-stu-id="9e288-144">![Data center gateway topology](images/Gg398899.927f4808-bf74-405a-be20-2cd9cd87af6d(OCS.15).jpg "Data center gateway topology")</span></span>
 
-Pour un nombre donné d’utilisateurs à prendre en charge, vous pouvez choisir de déployer plusieurs passerelles de petite taille, ou bien un nombre inférieur de passerelles de grande taille. En règle générale, il est recommandé d’installer au moins deux passerelles dans l’entreprise pour garantir la disponibilité en cas de panne de l’une d’elles.
+<span data-ttu-id="9e288-145">Dans cette topologie, plusieurs passerelles de grande taille suffisantes pour s’adapter à la charge d’utilisateurs prévue sont déployées sur chaque site central.</span><span class="sxs-lookup"><span data-stu-id="9e288-145">In this topology, several large gateways sufficient to accommodate the anticipated user load are deployed at each central site.</span></span> <span data-ttu-id="9e288-146">Tous les appels vers des utilisateurs au sein de l’entreprise sont transférés par le fournisseur de services de téléphonie de l’entreprise à un site central.</span><span class="sxs-lookup"><span data-stu-id="9e288-146">All calls to users in the enterprise are forwarded by the company's telephone service provider to a central site.</span></span> <span data-ttu-id="9e288-147">La logique de routage sur le site central détermine si l’appel doit être routé par le biais de l’intranet ou du RTC.</span><span class="sxs-lookup"><span data-stu-id="9e288-147">Routing logic at the central site determines whether the call should be routed over the intranet or to the PSTN.</span></span>
 
-Chaque passerelle RTC que vous déployez doit comporter au moins un serveur de médiation correspondant.
+</div>
+
+<div>
+
+## <a name="gateway-location"></a><span data-ttu-id="9e288-148">Emplacement de la passerelle</span><span class="sxs-lookup"><span data-stu-id="9e288-148">Gateway Location</span></span>
+
+<span data-ttu-id="9e288-149">L’emplacement de la passerelle détermine également les types de passerelles que vous choisissez et la manière dont ils sont configurés.</span><span class="sxs-lookup"><span data-stu-id="9e288-149">Gateway location may also determine the types of gateways that you choose and how they are configured.</span></span> <span data-ttu-id="9e288-150">Il existe des dizaines de protocoles RTC qui ne constituent aucune norme internationale.</span><span class="sxs-lookup"><span data-stu-id="9e288-150">There are dozens of PSTN protocols, none of which is a worldwide standard.</span></span> <span data-ttu-id="9e288-151">S’il ne s’agit pas de votre passerelle, il n’y a pas de problème, mais si vous trouvez des passerelles dans plusieurs pays/régions, chacune d’elles doit être configurée conformément aux normes RTC de ce pays/cette région.</span><span class="sxs-lookup"><span data-stu-id="9e288-151">If all your gateways are located in a single country/region, this is not an issue, but if you locate gateways in several countries/regions, each must be configured according to the PSTN standards of that country/region.</span></span> <span data-ttu-id="9e288-152">Par ailleurs, les passerelles certifiées pour le fonctionnement, par exemple le Canada, peuvent ne pas être certifiées en Inde, au Brésil ou en Union européenne.</span><span class="sxs-lookup"><span data-stu-id="9e288-152">Moreover, gateways that are certified for operation in, for example, Canada, may not be certified in India, Brazil, or the European Union.</span></span>
+
+</div>
+
+<div>
+
+## <a name="gateway-size-and-number"></a><span data-ttu-id="9e288-153">Taille et nombre de la passerelle</span><span class="sxs-lookup"><span data-stu-id="9e288-153">Gateway Size and Number</span></span>
+
+<span data-ttu-id="9e288-154">Les passerelles RTC dont la plupart des organisations envisageront de déployer la plage de 2 à la taille des ports 960.</span><span class="sxs-lookup"><span data-stu-id="9e288-154">The PSTN gateways that most organizations will consider deploying range in size from 2 to as many as 960 ports.</span></span> <span data-ttu-id="9e288-155">(Il y a encore plus de passerelles, mais elles sont principalement utilisées par les fournisseurs de services de téléphonie.) Lorsque vous évaluez le nombre de ports requis par votre organisation, vous devez suivre les instructions suivantes:</span><span class="sxs-lookup"><span data-stu-id="9e288-155">(There are even larger gateways, but these are used mainly by telephone service providers.) When estimating the number of ports your organization requires, use the following guidelines:</span></span>
+
+  - <span data-ttu-id="9e288-156">Les organisations ayant une utilisation du service de téléphonie léger (un appel RTC par utilisateur par heure) doivent allouer un port pour tous les 15 utilisateurs.</span><span class="sxs-lookup"><span data-stu-id="9e288-156">Organizations with light telephony usage (one PSTN call per user per hour) should allocate one port for every 15 users.</span></span> <span data-ttu-id="9e288-157">Par exemple, si vous avez 20 utilisateurs, vous aurez besoin d’une passerelle avec deux ports.</span><span class="sxs-lookup"><span data-stu-id="9e288-157">For example, if you have 20 users, you will require a gateway with two ports.</span></span>
+
+  - <span data-ttu-id="9e288-158">Les organisations présentant une utilisation modérée de la téléphonie (deux appels RTC par utilisateur et par heure) doivent allouer un port pour chaque 10 utilisateurs.</span><span class="sxs-lookup"><span data-stu-id="9e288-158">Organizations with moderate telephony usage (two PSTN calls per user per hour) should allocate one port for every 10 users.</span></span> <span data-ttu-id="9e288-159">Par exemple, si vous avez des utilisateurs 100, vous aurez besoin d’un total de 10 ports alloués à une ou plusieurs passerelles.</span><span class="sxs-lookup"><span data-stu-id="9e288-159">For example, if you have 100 users, you will require a total of 10 ports allocated among one or more gateways.</span></span>
+
+  - <span data-ttu-id="9e288-160">Les organisations ayant une utilisation importante de la téléphonie (au moins trois appels RTC par utilisateur et par heure) doivent allouer un port pour chaque cinquième utilisateur.</span><span class="sxs-lookup"><span data-stu-id="9e288-160">Organizations with heavy telephony usage (three or more PSTN calls per user per hour) should allocate one port for every five users.</span></span> <span data-ttu-id="9e288-161">Par exemple, si vous avez des utilisateurs 47 000, vous aurez besoin d’un total de ports 9 400 alloués entre au moins 10 passerelles de grande taille.</span><span class="sxs-lookup"><span data-stu-id="9e288-161">For example, if you have 47,000 users, you will require a total of 9,400 ports allocated among at least 10 large gateways.</span></span>
+
+  - <span data-ttu-id="9e288-162">Des ports supplémentaires peuvent être acquis au fur et à mesure de l’augmentation du nombre d’utilisateurs ou du volume de trafic au sein de votre organisation.</span><span class="sxs-lookup"><span data-stu-id="9e288-162">Additional ports can be acquired as the number of users or amount of traffic in your organization increases.</span></span>
+
+<span data-ttu-id="9e288-163">Pour tout nombre d’utilisateurs que vous devez prendre en charge, vous avez le choix entre le déploiement de plus petit, de passerelles plus grandes ou plus petites.</span><span class="sxs-lookup"><span data-stu-id="9e288-163">For any given number of users you must support, you have the choice of deploying fewer, larger gateways, or smaller ones.</span></span> <span data-ttu-id="9e288-164">En règle générale, un minimum de deux passerelles pour une organisation est recommandé pour garantir la disponibilité en cas d’échec d’une passerelle.</span><span class="sxs-lookup"><span data-stu-id="9e288-164">As a rule, a minimum of two gateways for an organization is recommended to maintain availability if one gateway fails.</span></span>
+
+<span data-ttu-id="9e288-165">Chaque passerelle RTC que vous déployez doit avoir au moins un serveur de médiation correspondant.</span><span class="sxs-lookup"><span data-stu-id="9e288-165">Each PSTN gateway that you deploy must have at least one corresponding Mediation Server.</span></span>
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

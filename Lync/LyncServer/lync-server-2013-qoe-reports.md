@@ -1,111 +1,161 @@
-﻿---
-title: 'Lync Server 2013: QoE reports'
+---
+title: 'Lync Server 2013: rapports QoE'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: QoE reports
 ms:assetid: 49c827af-b8dd-4c6e-b0dc-b4bc6d60e9a3
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Dn720913(v=OCS.15)
-ms:contentKeyID: 62240058
-ms.date: 05/20/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720913(v=OCS.15)
+ms:contentKeyID: 63969601
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 04960c43dc8e29c6e5af44a1d3109e40dd578479
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823734"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# QoE reports in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2014-05-01_
+# <a name="qoe-reports-in-lync-server-2013"></a><span data-ttu-id="d902e-102">Rapports QoE dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d902e-102">QoE reports in Lync Server 2013</span></span>
 
-## QoE summary/trend reports
+</div>
 
-The QoE summary/trends reports are useful for finding the peak usage times of day and examining the media quality during those times to help assure that your organization's network resources are sufficient. Your organization can also use the many filters available in the report to isolate performance numbers for certain locations, client and device types, and servers.
+<div id="mainSection">
 
-QoE summary/trend reports consist of:
+<div id="mainBody">
 
-  - UC-to-UC Summary/Trend Report
+<span> </span>
 
-  - PSTN Summary/Trend Report
+<span data-ttu-id="d902e-103">_**Dernière modification de la rubrique:** 2014-05-01_</span><span class="sxs-lookup"><span data-stu-id="d902e-103">_**Topic Last Modified:** 2014-05-01_</span></span>
 
-  - Conference Summary/Trend Report
+<div>
 
-## QoE performance reports
+## <a name="qoe-summarytrend-reports"></a><span data-ttu-id="d902e-104">Rapport de synthèse</span><span class="sxs-lookup"><span data-stu-id="d902e-104">QoE summary/trend reports</span></span>
 
-QoE performance reports provide details about the three reports that concentrate on the QoE performance of Mediation Servers, A/V Conferencing Servers, and endpoint locations.
+<span data-ttu-id="d902e-105">Les rapports de synthèse/tendances QoE permettent de rechercher les heures d’utilisation du PIC et d’examiner la qualité du média pendant ces périodes pour vous assurer que les ressources réseau de votre organisation sont suffisantes.</span><span class="sxs-lookup"><span data-stu-id="d902e-105">The QoE summary/trends reports are useful for finding the peak usage times of day and examining the media quality during those times to help assure that your organization's network resources are sufficient.</span></span> <span data-ttu-id="d902e-106">Votre organisation peut également utiliser les nombreux filtres disponibles dans le rapport pour isoler les numéros de performance de certains emplacements, types de clients et de périphériques, et de serveurs.</span><span class="sxs-lookup"><span data-stu-id="d902e-106">Your organization can also use the many filters available in the report to isolate performance numbers for certain locations, client and device types, and servers.</span></span>
 
-## Mediation server performance report
+<span data-ttu-id="d902e-107">Les rapports de synthèse/tendance sont les suivants:</span><span class="sxs-lookup"><span data-stu-id="d902e-107">QoE summary/trend reports consist of:</span></span>
 
-The Mediation Server Performance report lists the metrics achieved by one or more Mediation during the specified time period. The metrics for the unified communications (UC)-to-Mediation Server leg and the Mediation Server-to-Gateway leg of each call are reported separately. Use this report to compare the volume and performance of your organization's various Mediation Servers.
+  - <span data-ttu-id="d902e-108">Rapport synthèse sur les communications UNIFIÉes/rapport de tendance</span><span class="sxs-lookup"><span data-stu-id="d902e-108">UC-to-UC Summary/Trend Report</span></span>
 
-For each Mediation Server (and for each call leg), the report displays the following:
+  - <span data-ttu-id="d902e-109">Rapport de synthèse PSTN/tendance</span><span class="sxs-lookup"><span data-stu-id="d902e-109">PSTN Summary/Trend Report</span></span>
 
-  - Number of calls
+  - <span data-ttu-id="d902e-110">Rapport de synthèse de conférence/tendance</span><span class="sxs-lookup"><span data-stu-id="d902e-110">Conference Summary/Trend Report</span></span>
 
-  - Packet Loss
+</div>
 
-  - Round Trip Time
+<div>
 
-  - Jitter
+## <a name="qoe-performance-reports"></a><span data-ttu-id="d902e-111">Rapports sur les performances QoE</span><span class="sxs-lookup"><span data-stu-id="d902e-111">QoE performance reports</span></span>
 
-  - Conversational mean opinion score (MOS)
+<span data-ttu-id="d902e-112">Rapports sur les performances de QoE fournissent des détails sur les trois rapports qui se concentrent sur les performances QoE des serveurs de médiation, des serveurs de conférence A/V et des emplacements de point de terminaison.</span><span class="sxs-lookup"><span data-stu-id="d902e-112">QoE performance reports provide details about the three reports that concentrate on the QoE performance of Mediation Servers, A/V Conferencing Servers, and endpoint locations.</span></span>
 
-  - Sending MOS
+</div>
 
-  - Listening MOS
+<div>
 
-  - Network MOS
+## <a name="mediation-server-performance-report"></a><span data-ttu-id="d902e-113">Rapport de performances du serveur de médiation</span><span class="sxs-lookup"><span data-stu-id="d902e-113">Mediation server performance report</span></span>
 
-  - Network MOS Degradation
+<span data-ttu-id="d902e-114">Le rapport sur les performances du serveur de médiation recense les métriques accomplies par une ou plusieurs médiation pendant la période spécifiée.</span><span class="sxs-lookup"><span data-stu-id="d902e-114">The Mediation Server Performance report lists the metrics achieved by one or more Mediation during the specified time period.</span></span> <span data-ttu-id="d902e-115">Les métriques pour la jambe Unified Communications (UC) à médiation Server leg et la direction serveur à passerelle de médiation de chaque appel sont communiquées séparément.</span><span class="sxs-lookup"><span data-stu-id="d902e-115">The metrics for the unified communications (UC)-to-Mediation Server leg and the Mediation Server-to-Gateway leg of each call are reported separately.</span></span> <span data-ttu-id="d902e-116">Utilisez ce rapport pour comparer le volume et les performances des divers serveurs de médiation de votre organisation.</span><span class="sxs-lookup"><span data-stu-id="d902e-116">Use this report to compare the volume and performance of your organization's various Mediation Servers.</span></span>
 
-  - Echo Return
+<span data-ttu-id="d902e-117">Pour chaque serveur de médiation (et pour chaque tronçon d’appel), le rapport affiche les éléments suivants:</span><span class="sxs-lookup"><span data-stu-id="d902e-117">For each Mediation Server (and for each call leg), the report displays the following:</span></span>
 
-  - Signal Level
+  - <span data-ttu-id="d902e-118">Nombre d'appels</span><span class="sxs-lookup"><span data-stu-id="d902e-118">Number of calls</span></span>
 
-## A/V conferencing server performance report
+  - <span data-ttu-id="d902e-119">Perte de paquets</span><span class="sxs-lookup"><span data-stu-id="d902e-119">Packet Loss</span></span>
 
-The A/V Conferencing Server Performance report provides lists of metrics achieved by one or more A/V Conferencing Servers during the specified time period. This report can be used to compare the volume and performance of your organization’s various A/V Conferencing Servers. Your organization can also isolate the report to show only the experience for specific client types, such as Lync clients or PSTN clients.
+  - <span data-ttu-id="d902e-120">Durée de l’aller-retour</span><span class="sxs-lookup"><span data-stu-id="d902e-120">Round Trip Time</span></span>
 
-For each A/V Conferencing Server, the report displays the following:
+  - <span data-ttu-id="d902e-121">Jitter</span><span class="sxs-lookup"><span data-stu-id="d902e-121">Jitter</span></span>
 
-  - Number of conferences
+  - <span data-ttu-id="d902e-122">Note moyenne d’opinion de conversation (MOS)</span><span class="sxs-lookup"><span data-stu-id="d902e-122">Conversational mean opinion score (MOS)</span></span>
 
-  - Packet Loss
+  - <span data-ttu-id="d902e-123">Envoi d’un MOS</span><span class="sxs-lookup"><span data-stu-id="d902e-123">Sending MOS</span></span>
 
-  - Round Trip Time
+  - <span data-ttu-id="d902e-124">Ecouter le MOS</span><span class="sxs-lookup"><span data-stu-id="d902e-124">Listening MOS</span></span>
 
-  - Jitter
+  - <span data-ttu-id="d902e-125">MOS du réseau</span><span class="sxs-lookup"><span data-stu-id="d902e-125">Network MOS</span></span>
 
-  - Conversational mean opinion score (MOS)
+  - <span data-ttu-id="d902e-126">Baisse de la dégradation du réseau</span><span class="sxs-lookup"><span data-stu-id="d902e-126">Network MOS Degradation</span></span>
 
-  - Sending MOS
+  - <span data-ttu-id="d902e-127">Retour d’écho</span><span class="sxs-lookup"><span data-stu-id="d902e-127">Echo Return</span></span>
 
-  - Listening MOS
+  - <span data-ttu-id="d902e-128">Niveau du signal</span><span class="sxs-lookup"><span data-stu-id="d902e-128">Signal Level</span></span>
 
-  - Network MOS
+</div>
 
-  - Network MOS Degradation
+<div>
 
-  - Echo Return
+## <a name="av-conferencing-server-performance-report"></a><span data-ttu-id="d902e-129">Rapport de performances du serveur de conférence A/V</span><span class="sxs-lookup"><span data-stu-id="d902e-129">A/V conferencing server performance report</span></span>
 
-  - Signal Level
+<span data-ttu-id="d902e-130">Le rapport sur les performances du serveur de conférence A/V fournit des listes de mesures obtenues par un ou plusieurs serveurs de conférence A/V pendant la période spécifiée.</span><span class="sxs-lookup"><span data-stu-id="d902e-130">The A/V Conferencing Server Performance report provides lists of metrics achieved by one or more A/V Conferencing Servers during the specified time period.</span></span> <span data-ttu-id="d902e-131">Ce rapport peut être utilisé pour comparer le volume et les performances des différents serveurs de conférence A/V de votre organisation.</span><span class="sxs-lookup"><span data-stu-id="d902e-131">This report can be used to compare the volume and performance of your organization’s various A/V Conferencing Servers.</span></span> <span data-ttu-id="d902e-132">Votre organisation peut également isoler le rapport pour afficher uniquement l’interface utilisateur de types de clients spécifiques, tels que les clients Lync ou les clients PSTN.</span><span class="sxs-lookup"><span data-stu-id="d902e-132">Your organization can also isolate the report to show only the experience for specific client types, such as Lync clients or PSTN clients.</span></span>
 
-## Location-based performance report
+<span data-ttu-id="d902e-133">Pour chaque serveur de conférence A/V, le rapport affiche les éléments suivants:</span><span class="sxs-lookup"><span data-stu-id="d902e-133">For each A/V Conferencing Server, the report displays the following:</span></span>
 
-The Location-Based Performance report provides a list of network locations and for each location shows the number of calls in each pre-determined range of quality. The goal of this report is to provide insight into the media quality of the bulk of your organization’s telephone calls for various locations so that you can identify poorly performing locations, and see the different grades of media quality in your organization’s different locations.
+  - <span data-ttu-id="d902e-134">Nombre de conférences</span><span class="sxs-lookup"><span data-stu-id="d902e-134">Number of conferences</span></span>
 
-When displaying the report, different tables of metrics appear—one table for each metric your organization decides to report on. You can choose from the following metrics for this report:
+  - <span data-ttu-id="d902e-135">Perte de paquets</span><span class="sxs-lookup"><span data-stu-id="d902e-135">Packet Loss</span></span>
 
-  - Conversational mean opinion score (MOS)
+  - <span data-ttu-id="d902e-136">Durée de l’aller-retour</span><span class="sxs-lookup"><span data-stu-id="d902e-136">Round Trip Time</span></span>
 
-  - Network MOS
+  - <span data-ttu-id="d902e-137">Jitter</span><span class="sxs-lookup"><span data-stu-id="d902e-137">Jitter</span></span>
 
-  - Network MOS Degradation
+  - <span data-ttu-id="d902e-138">Note moyenne d’opinion de conversation (MOS)</span><span class="sxs-lookup"><span data-stu-id="d902e-138">Conversational mean opinion score (MOS)</span></span>
 
-  - Sending MOS
+  - <span data-ttu-id="d902e-139">Envoi d’un MOS</span><span class="sxs-lookup"><span data-stu-id="d902e-139">Sending MOS</span></span>
 
-  - Listening MOS
+  - <span data-ttu-id="d902e-140">Ecouter le MOS</span><span class="sxs-lookup"><span data-stu-id="d902e-140">Listening MOS</span></span>
 
-  - Packet Loss
+  - <span data-ttu-id="d902e-141">MOS du réseau</span><span class="sxs-lookup"><span data-stu-id="d902e-141">Network MOS</span></span>
 
-  - Jitter
+  - <span data-ttu-id="d902e-142">Baisse de la dégradation du réseau</span><span class="sxs-lookup"><span data-stu-id="d902e-142">Network MOS Degradation</span></span>
 
-  - Latency
+  - <span data-ttu-id="d902e-143">Retour d’écho</span><span class="sxs-lookup"><span data-stu-id="d902e-143">Echo Return</span></span>
+
+  - <span data-ttu-id="d902e-144">Niveau du signal</span><span class="sxs-lookup"><span data-stu-id="d902e-144">Signal Level</span></span>
+
+</div>
+
+<div>
+
+## <a name="location-based-performance-report"></a><span data-ttu-id="d902e-145">Rapport sur les performances de l’emplacement</span><span class="sxs-lookup"><span data-stu-id="d902e-145">Location-based performance report</span></span>
+
+<span data-ttu-id="d902e-146">Le rapport sur les performances de géolocalisation fournit une liste d’emplacements réseau et chaque emplacement indique le nombre d’appels dans chaque gamme de qualité prédéfinie.</span><span class="sxs-lookup"><span data-stu-id="d902e-146">The Location-Based Performance report provides a list of network locations and for each location shows the number of calls in each pre-determined range of quality.</span></span> <span data-ttu-id="d902e-147">L’objectif de ce rapport est d’offrir une vue d’ensemble de la qualité de média des appels téléphoniques de votre organisation pour différents emplacements, afin que vous puissiez identifier les emplacements médiocres et voir les différentes notes de qualité multimédia dans votre organisation. différents emplacements.</span><span class="sxs-lookup"><span data-stu-id="d902e-147">The goal of this report is to provide insight into the media quality of the bulk of your organization’s telephone calls for various locations so that you can identify poorly performing locations, and see the different grades of media quality in your organization’s different locations.</span></span>
+
+<span data-ttu-id="d902e-148">Lors de l’affichage du rapport, différentes tables de métriques apparaissent: une table pour chaque métrique que votre organisation décide de signaler.</span><span class="sxs-lookup"><span data-stu-id="d902e-148">When displaying the report, different tables of metrics appear—one table for each metric your organization decides to report on.</span></span> <span data-ttu-id="d902e-149">Pour ce rapport, vous pouvez choisir parmi les mesures suivantes:</span><span class="sxs-lookup"><span data-stu-id="d902e-149">You can choose from the following metrics for this report:</span></span>
+
+  - <span data-ttu-id="d902e-150">Note moyenne d’opinion de conversation (MOS)</span><span class="sxs-lookup"><span data-stu-id="d902e-150">Conversational mean opinion score (MOS)</span></span>
+
+  - <span data-ttu-id="d902e-151">MOS du réseau</span><span class="sxs-lookup"><span data-stu-id="d902e-151">Network MOS</span></span>
+
+  - <span data-ttu-id="d902e-152">Baisse de la dégradation du réseau</span><span class="sxs-lookup"><span data-stu-id="d902e-152">Network MOS Degradation</span></span>
+
+  - <span data-ttu-id="d902e-153">Envoi d’un MOS</span><span class="sxs-lookup"><span data-stu-id="d902e-153">Sending MOS</span></span>
+
+  - <span data-ttu-id="d902e-154">Ecouter le MOS</span><span class="sxs-lookup"><span data-stu-id="d902e-154">Listening MOS</span></span>
+
+  - <span data-ttu-id="d902e-155">Perte de paquets</span><span class="sxs-lookup"><span data-stu-id="d902e-155">Packet Loss</span></span>
+
+  - <span data-ttu-id="d902e-156">Jitter</span><span class="sxs-lookup"><span data-stu-id="d902e-156">Jitter</span></span>
+
+  - <span data-ttu-id="d902e-157">Latence</span><span class="sxs-lookup"><span data-stu-id="d902e-157">Latency</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

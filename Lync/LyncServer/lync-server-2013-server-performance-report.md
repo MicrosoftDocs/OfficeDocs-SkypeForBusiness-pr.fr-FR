@@ -1,61 +1,91 @@
-﻿---
-title: 'Lync Server 2013 : Rapport de performances du serveur'
-TOCTitle: Rapport de performances du serveur
-ms:assetid: 942bb39a-1790-498e-9d99-8f6ce2d155c3
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg615018(v=OCS.15)
-ms:contentKeyID: 49298104
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Rapport de performances du serveur Lync Server 2013:'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Server Performance Report
+ms:assetid: 942bb39a-1790-498e-9d99-8f6ce2d155c3
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615018(v=OCS.15)
+ms:contentKeyID: 48184879
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 3c5a08104f33fc07d6a0ec1c3241a7f14fa1227a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822376"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Rapport de performances du serveur dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2015-03-09_
+# <a name="server-performance-report-in-lync-server-2013"></a><span data-ttu-id="7fae5-102">Rapport sur les performances du serveur dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7fae5-102">Server Performance Report in Lync Server 2013</span></span>
 
-Le rapport de performances du serveur fournit une liste des serveurs Microsoft Lync Server 2013 avec le pourcentage d’appels médiocres le plus élevé. Ce rapport est décomposé en fonction des types de serveur, et propose des statistiques distinctes pour les types suivants :
+</div>
 
-  - serveur de médiation
+<div id="mainSection">
 
-  - serveur de conférence A/V
+<div id="mainBody">
 
-  - Serveur Edge A/V
+<span> </span>
 
-  - Passerelle (serveur de médiation)
+<span data-ttu-id="7fae5-103">_**Dernière modification de la rubrique:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="7fae5-103">_**Topic Last Modified:** 2012-10-01_</span></span>
 
-  - Passerelle (contournement du serveur de médiation)
+<span data-ttu-id="7fae5-104">Le rapport sur les performances du serveur fournit une liste de serveurs Microsoft Lync Server 2013 ayant constaté le plus grand pourcentage d’appels médiocres.</span><span class="sxs-lookup"><span data-stu-id="7fae5-104">The Server Performance Report provides a list of Microsoft Lync Server 2013 servers that have experienced the highest-percentage of poor calls.</span></span> <span data-ttu-id="7fae5-105">Ce rapport est décomposé en fonction des types de serveur, et propose des statistiques distinctes pour les types suivants :</span><span class="sxs-lookup"><span data-stu-id="7fae5-105">The report breaks down servers by server type, reporting separate statistics for the following types:</span></span>
 
-  - Vidéo (y compris les mesures vidéo pour les serveurs de conférence A/V et les serveurs Edge A/V)
+  - <span data-ttu-id="7fae5-106">Serveur de médiation</span><span class="sxs-lookup"><span data-stu-id="7fae5-106">Mediation Server</span></span>
 
-  - Partage d’application (y compris les mesures de partage d’application pour les serveurs de conférence A/V et les serveurs Edge A/V)
+  - <span data-ttu-id="7fae5-107">Serveur de conférence A/V</span><span class="sxs-lookup"><span data-stu-id="7fae5-107">A/V Conferencing Server</span></span>
 
-Il est important de noter que le classement indiqué dans le rapport est relatif. Par exemple, supposons que le serveur ayant les pires performances a reçu un appel médiocre sur les 1 000 passés. Ce pourcentage de 0,1 est plus qu’acceptable. Cependant, s’il s’agit du serveur ayant les pires performances (c’est-à-dire que les autres serveurs ont un pourcentage d’appels médiocres inférieur à 0,1 %), ce serveur s’affichera dans le rapport de performances du serveur.
+  - <span data-ttu-id="7fae5-108">Serveur Edge A/V</span><span class="sxs-lookup"><span data-stu-id="7fae5-108">A/V Edge Server</span></span>
 
-## Accès au rapport de performances du serveur
+  - <span data-ttu-id="7fae5-109">Passerelle (serveur de médiation)</span><span class="sxs-lookup"><span data-stu-id="7fae5-109">Gateway (Mediation Server)</span></span>
 
-Le rapport de performances du serveur est accessible à partir de la page d’accueil Rapports de surveillance. Vous pouvez accéder au [Rapport de la liste d’appels dans Lync Server 2013](lync-server-2013-call-list-report.md) en cliquant sur l’une des mesures suivantes :
+  - <span data-ttu-id="7fae5-110">Passerelle (contournement du serveur de médiation)</span><span class="sxs-lookup"><span data-stu-id="7fae5-110">Gateway (Mediation Server bypass)</span></span>
 
-  - Volume d’appels
+  - <span data-ttu-id="7fae5-111">Vidéo (y compris les mesures vidéo pour les serveurs de conférence A/V et les serveurs Edge A/V)</span><span class="sxs-lookup"><span data-stu-id="7fae5-111">Video (including video metrics for A/V Conferencing servers and A/V Edge servers)</span></span>
 
-  - Pourcentage d’appels médiocres
+  - <span data-ttu-id="7fae5-112">Partage d’application (y compris les mesures de partage d’application pour les serveurs de conférence A/V et les serveurs Edge A/V)</span><span class="sxs-lookup"><span data-stu-id="7fae5-112">Application Sharing (including application sharing metrics for A/V Conferencing servers and A/V Edge servers)</span></span>
 
-De plus, vous pouvez accéder au rapport de tendance de la qualité des médias serveur en cliquant sur la mesure suivante :
+<span data-ttu-id="7fae5-p102">Il est important de noter que le classement indiqué dans le rapport est relatif. Par exemple, supposons que le serveur ayant les pires performances a reçu un appel médiocre sur les 1 000 passés. Ce pourcentage de 0,1 est plus qu’acceptable. Cependant, s’il s’agit du serveur ayant les pires performances (c’est-à-dire que les autres serveurs ont un pourcentage d’appels médiocres inférieur à 0,1 %), ce serveur s’affichera dans le rapport de performances du serveur.</span><span class="sxs-lookup"><span data-stu-id="7fae5-p102">It’s important to note that the ranking shown in this report as relative rankings. For example, suppose your worst-performing server had one poor call among its 1,000 placed calls. That's a more-than-acceptable percentage of .1%. However, if that's the worst-performing server you have (that is, if all your other servers have a poor call percentage even lower than .1%), then that server will still appear on the Server Performance Report.</span></span>
 
-  - Tendance
+<div>
 
-## Utilisation efficace du rapport de performances du serveur
+## <a name="accessing-the-server-performance-report"></a><span data-ttu-id="7fae5-117">Accès au rapport de performances du serveur</span><span class="sxs-lookup"><span data-stu-id="7fae5-117">Accessing the Server Performance Report</span></span>
 
-Le rapport de performances du serveur fournit plusieurs moyens pour filtrer les données ; par exemple, vous pouvez filtrer sur un type de réseau (appels passés via une connexion câblée ou sans fil) et un type d’accès (appels passés à l’intérieur du pare-feu ou à l’extérieur). Il est conseillé d’utiliser ces filtres quand vous affichez le rapport de performances du serveur. Par exemple, vous avez un serveur de médiation avec un pourcentage d’appels médiocre de 3,24 %. Si vous considérez uniquement les appels sans fil, ce même serveur peut avoir un pourcentage d’appels médiocres de 20 %. Cela signifie que ce serveur ne gère pas bien les appels sans fil, mais ce problème peut être partiellement masqué par les appels câblés qui ne posent pas de problème.
+<span data-ttu-id="7fae5-118">Le rapport de performances du serveur est accessible à partir de la page d’accueil Rapports de surveillance.</span><span class="sxs-lookup"><span data-stu-id="7fae5-118">The Server Performance Report is accessed from the Monitoring Reports home page.</span></span> <span data-ttu-id="7fae5-119">Vous pouvez explorer le rapport de la [liste d’appels dans Lync Server 2013](lync-server-2013-call-list-report.md) en cliquant sur l’une des mesures suivantes:</span><span class="sxs-lookup"><span data-stu-id="7fae5-119">You can drill down to the [Call List Report in Lync Server 2013](lync-server-2013-call-list-report.md) by clicking either of the following metrics:</span></span>
 
-## Filtres
+  - <span data-ttu-id="7fae5-120">Volume d’appels</span><span class="sxs-lookup"><span data-stu-id="7fae5-120">Call volume</span></span>
 
-Les filtres vous offrent la possibilité de renvoyer un ensemble de données mieux ciblées ou de visualiser les données renvoyées de différentes manières. Le rapport de performances du serveur vous permet par exemple, de filtrer les données renvoyées par type de serveur ou type de réseau (câblé ou sans fil). Vous pouvez également choisir le mode de groupement des données. Dans ce cas, les données sont groupées par heure, jour, semaine ou mois.
+  - <span data-ttu-id="7fae5-121">Pourcentage d’appels médiocres</span><span class="sxs-lookup"><span data-stu-id="7fae5-121">Poor call percentage</span></span>
 
-Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le rapport de performances du serveur.
+<span data-ttu-id="7fae5-122">De plus, vous pouvez accéder au rapport de tendance de la qualité des médias serveur en cliquant sur la mesure suivante :</span><span class="sxs-lookup"><span data-stu-id="7fae5-122">In addition, you can drill down to the Server Media Quality Trend Report by clicking the following metric:</span></span>
 
-### Filtres de rapport de performances du serveur
+  - <span data-ttu-id="7fae5-123">Tendance</span><span class="sxs-lookup"><span data-stu-id="7fae5-123">Trend</span></span>
+
+</div>
+
+<div>
+
+## <a name="making-the-best-use-of-the-server-performance-report"></a><span data-ttu-id="7fae5-124">Optimiser l’utilisation du rapport sur les performances du serveur</span><span class="sxs-lookup"><span data-stu-id="7fae5-124">Making the Best Use of the Server Performance Report</span></span>
+
+<span data-ttu-id="7fae5-p104">Le rapport de performances du serveur fournit plusieurs moyens pour filtrer les données ; par exemple, vous pouvez filtrer sur un type de réseau (appels passés via une connexion câblée ou sans fil) et un type d’accès (appels passés à l’intérieur du pare-feu ou à l’extérieur). Il est conseillé d’utiliser ces filtres quand vous affichez le rapport de performances du serveur. Par exemple, vous avez un serveur de médiation avec un pourcentage d’appels médiocre de 3,24 %. Si vous considérez uniquement les appels sans fil, ce même serveur peut avoir un pourcentage d’appels médiocres de 20 %. Cela signifie que ce serveur ne gère pas bien les appels sans fil, mais ce problème peut être partiellement masqué par les appels câblés qui ne posent pas de problème.</span><span class="sxs-lookup"><span data-stu-id="7fae5-p104">The Server Performance Report provides a number of ways to filter data; for example, you can filter on network type (calls made from a wired connection vs. calls made from a wireless connection) and access type (calls made from inside the firewall vs. calls made from outside the firewall). It's a good idea when viewing the server performance report to make use of these filters. For example, suppose you have a Mediation Server that has a poor call percentage of 3.24%. If you look solely at wireless calls, that same server might have a poor call percentage approaching 20%. That means that the server was having difficulty with wireless calls, a problem that is partially obscured because the server was not having problems with wired calls.</span></span>
+
+</div>
+
+<div>
+
+## <a name="filters"></a><span data-ttu-id="7fae5-130">Filtres</span><span class="sxs-lookup"><span data-stu-id="7fae5-130">Filters</span></span>
+
+<span data-ttu-id="7fae5-p105">Les filtres vous offrent la possibilité de renvoyer un ensemble de données mieux ciblées ou de visualiser les données renvoyées de différentes manières. Le rapport de performances du serveur vous permet par exemple, de filtrer les données renvoyées par type de serveur ou type de réseau (câblé ou sans fil). Vous pouvez également choisir le mode de groupement des données. Dans ce cas, les données sont groupées par heure, jour, semaine ou mois.</span><span class="sxs-lookup"><span data-stu-id="7fae5-p105">Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways. For example, the Server Performance Report enables you to do such things as filter the returned data by server type or by network type (that is, wired or wireless). You can also choose how data should be grouped. In this case, data is grouped by hour, day, week, or month.</span></span>
+
+<span data-ttu-id="7fae5-135">Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le rapport de performances du serveur.</span><span class="sxs-lookup"><span data-stu-id="7fae5-135">The following table lists the filters that you can use with the Server Performance Report.</span></span>
+
+### <a name="server-performance-report-filters"></a><span data-ttu-id="7fae5-136">Filtres de rapport de performances du serveur</span><span class="sxs-lookup"><span data-stu-id="7fae5-136">Server Performance Report Filters</span></span>
 
 <table>
 <colgroup>
@@ -64,86 +94,90 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nom</th>
-<th>Description</th>
+<th><span data-ttu-id="7fae5-137">Nom</span><span class="sxs-lookup"><span data-stu-id="7fae5-137">Name</span></span></th>
+<th><span data-ttu-id="7fae5-138">Description</span><span class="sxs-lookup"><span data-stu-id="7fae5-138">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>De</strong></p></td>
-<td><p>Date/heure de début de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de début comme suit :</p>
-<p>7/7/2012 1:00 PM</p>
-<p>Si vous ne précisez aucune heure de début, le rapport commence automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :</p>
-<p>7/7/2012</p>
-<p>Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :</p>
-<p>7/3/2012</p>
-<p>Les semaines s’étalent toujours du dimanche au samedi.</p></td>
+<td><p><span data-ttu-id="7fae5-139"><strong>De</strong></span><span class="sxs-lookup"><span data-stu-id="7fae5-139"><strong>From</strong></span></span></p></td>
+<td><p><span data-ttu-id="7fae5-p106">Date/heure de début de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de début comme suit :</span><span class="sxs-lookup"><span data-stu-id="7fae5-p106">Start date/time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
+<p><span data-ttu-id="7fae5-142">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="7fae5-142">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="7fae5-p107">Si vous ne précisez aucune heure de début, le rapport commence automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :</span><span class="sxs-lookup"><span data-stu-id="7fae5-p107">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="7fae5-145">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="7fae5-145">7/7/2012</span></span></p>
+<p><span data-ttu-id="7fae5-146">Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :</span><span class="sxs-lookup"><span data-stu-id="7fae5-146">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="7fae5-147">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="7fae5-147">7/3/2012</span></span></p>
+<p><span data-ttu-id="7fae5-148">Les semaines s’étalent toujours du dimanche au samedi.</span><span class="sxs-lookup"><span data-stu-id="7fae5-148">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>À</strong></p></td>
-<td><p>Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :</p>
-<p>7/7/2012 1:00 PM</p>
-<p>Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :</p>
-<p>7/7/2012</p>
-<p>Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :</p>
-<p>7/3/2012</p>
-<p>Les semaines s’étalent toujours du dimanche au samedi.</p></td>
+<td><p><span data-ttu-id="7fae5-149"><strong>À</strong></span><span class="sxs-lookup"><span data-stu-id="7fae5-149"><strong>To</strong></span></span></p></td>
+<td><p><span data-ttu-id="7fae5-p108">Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :</span><span class="sxs-lookup"><span data-stu-id="7fae5-p108">End date/time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
+<p><span data-ttu-id="7fae5-152">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="7fae5-152">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="7fae5-p109">Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :</span><span class="sxs-lookup"><span data-stu-id="7fae5-p109">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="7fae5-155">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="7fae5-155">7/7/2012</span></span></p>
+<p><span data-ttu-id="7fae5-156">Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :</span><span class="sxs-lookup"><span data-stu-id="7fae5-156">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="7fae5-157">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="7fae5-157">7/3/2012</span></span></p>
+<p><span data-ttu-id="7fae5-158">Les semaines s’étalent toujours du dimanche au samedi.</span><span class="sxs-lookup"><span data-stu-id="7fae5-158">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Type de serveur</strong></p></td>
-<td><p>Indique le type de serveur dont les performances doivent être rapportées. Sélectionnez l’une des options suivantes :</p>
+<td><p><span data-ttu-id="7fae5-159"><strong>Type de serveur</strong></span><span class="sxs-lookup"><span data-stu-id="7fae5-159"><strong>Server type</strong></span></span></p></td>
+<td><p><span data-ttu-id="7fae5-p110">Indique le type de serveur dont les performances doivent être rapportées. Sélectionnez l’une des options suivantes :</span><span class="sxs-lookup"><span data-stu-id="7fae5-p110">Indicates the type of server whose performance should be reported. Select one of the following:</span></span></p>
 <ol>
-<li><p>[Tous]</p></li>
-<li><p>serveur de médiation</p></li>
-<li><p>serveur de conférence A/V</p></li>
-<li><p>Serveur Edge A/V</p></li>
-</ol></td>
-</tr>
-<tr class="even">
-<td><p><strong>N premiers</strong></p></td>
-<td><p>Indique le nombre de serveurs (sur la base du pourcentage d’appels médiocres) à afficher dans chaque catégorie. Par exemple, si vous sélectionnez <strong>5</strong> , les cinq serveurs ayant les performances les plus médiocres sont affichés. Sélectionnez l’une des options suivantes :</p>
-<ol>
-<li><p>[Tous]</p></li>
-<li><p>5</p></li>
-<li><p>10</p></li>
-</ol></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Type d’accès</strong></p></td>
-<td><p>Indique si le client était connecté au réseau interne ou au réseau externe au moment de passer l’appel. Sélectionnez l’une des options suivantes :</p>
-<ol>
-<li><p>[Tous]</p></li>
-<li><p>Interne</p></li>
-<li><p>Externe</p></li>
+<li><p><span data-ttu-id="7fae5-162">[Tous]</span><span class="sxs-lookup"><span data-stu-id="7fae5-162">[All]</span></span></p></li>
+<li><p><span data-ttu-id="7fae5-163">Serveur de médiation</span><span class="sxs-lookup"><span data-stu-id="7fae5-163">Mediation Server</span></span></p></li>
+<li><p><span data-ttu-id="7fae5-164">Serveur de conférence A/V</span><span class="sxs-lookup"><span data-stu-id="7fae5-164">A/V Conferencing Server</span></span></p></li>
+<li><p><span data-ttu-id="7fae5-165">Serveur Edge A/V</span><span class="sxs-lookup"><span data-stu-id="7fae5-165">A/V Edge Server</span></span></p></li>
 </ol></td>
 </tr>
 <tr class="even">
-<td><p><strong>Type de réseau</strong></p></td>
-<td><p>Indique le type de réseau auquel le client était connecté au moment où l’appel a été émis. Sélectionnez l’une des options suivantes :</p>
+<td><p><span data-ttu-id="7fae5-166"><strong>N premiers</strong></span><span class="sxs-lookup"><span data-stu-id="7fae5-166"><strong>Top N</strong></span></span></p></td>
+<td><p><span data-ttu-id="7fae5-p111">Indique le nombre de serveurs (sur la base du pourcentage d’appels médiocres) à afficher dans chaque catégorie. Par exemple, si vous sélectionnez <strong>5</strong>, les cinq serveurs ayant les performances les plus médiocres sont affichés. Sélectionnez l’une des options suivantes :</span><span class="sxs-lookup"><span data-stu-id="7fae5-p111">Indicates the number of servers (based on their poor call percentage) to be displayed in each category. For example, if you select <strong>5</strong> then the five poorest-performing servers are displayed. Select one of the following:</span></span></p>
 <ol>
-<li><p>[Tous]</p></li>
-<li><p>Câblé</p></li>
-<li><p>Sans fil</p></li>
+<li><p><span data-ttu-id="7fae5-170">[Tous]</span><span class="sxs-lookup"><span data-stu-id="7fae5-170">[All]</span></span></p></li>
+<li><p><span data-ttu-id="7fae5-171">5</span><span class="sxs-lookup"><span data-stu-id="7fae5-171">5</span></span></p></li>
+<li><p><span data-ttu-id="7fae5-172">0,10</span><span class="sxs-lookup"><span data-stu-id="7fae5-172">10</span></span></p></li>
 </ol></td>
 </tr>
 <tr class="odd">
-<td><p><strong>VPN</strong></p></td>
-<td><p>Indique si un client externe utilisait une connexion de réseau privé virtuel (VPN) au moment d’effectuer l’appel. Sélectionnez l’une des options suivantes :</p>
+<td><p><span data-ttu-id="7fae5-173"><strong>Type d’accès</strong></span><span class="sxs-lookup"><span data-stu-id="7fae5-173"><strong>Access type</strong></span></span></p></td>
+<td><p><span data-ttu-id="7fae5-p112">Indique si le client était connecté au réseau interne ou au réseau externe au moment de passer l’appel. Sélectionnez l’une des options suivantes :</span><span class="sxs-lookup"><span data-stu-id="7fae5-p112">Indicates whether the client was logged on to the internal network or the external network when the call was placed. Select one of the following:</span></span></p>
 <ol>
-<li><p>[Tous]</p></li>
-<li><p>VPN</p></li>
-<li><p>Non-VPN</p></li>
+<li><p><span data-ttu-id="7fae5-176">[Tous]</span><span class="sxs-lookup"><span data-stu-id="7fae5-176">[All]</span></span></p></li>
+<li><p><span data-ttu-id="7fae5-177">Interne</span><span class="sxs-lookup"><span data-stu-id="7fae5-177">Internal</span></span></p></li>
+<li><p><span data-ttu-id="7fae5-178">Externe</span><span class="sxs-lookup"><span data-stu-id="7fae5-178">External</span></span></p></li>
+</ol></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="7fae5-179"><strong>Type de réseau</strong></span><span class="sxs-lookup"><span data-stu-id="7fae5-179"><strong>Network type</strong></span></span></p></td>
+<td><p><span data-ttu-id="7fae5-p113">Indique le type de réseau auquel le client était connecté au moment où l’appel a été émis. Sélectionnez l’une des options suivantes :</span><span class="sxs-lookup"><span data-stu-id="7fae5-p113">Indicates the type of network the client was connected to when the call was placed. Select one of the following:</span></span></p>
+<ol>
+<li><p><span data-ttu-id="7fae5-182">[Tous]</span><span class="sxs-lookup"><span data-stu-id="7fae5-182">[All]</span></span></p></li>
+<li><p><span data-ttu-id="7fae5-183">Câblé</span><span class="sxs-lookup"><span data-stu-id="7fae5-183">Wired</span></span></p></li>
+<li><p><span data-ttu-id="7fae5-184">Sans fil</span><span class="sxs-lookup"><span data-stu-id="7fae5-184">Wireless</span></span></p></li>
+</ol></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="7fae5-185"><strong>VPN</strong></span><span class="sxs-lookup"><span data-stu-id="7fae5-185"><strong>VPN</strong></span></span></p></td>
+<td><p><span data-ttu-id="7fae5-p114">Indique si un client externe utilisait une connexion de réseau privé virtuel (VPN) au moment d’effectuer l’appel. Sélectionnez l’une des options suivantes :</span><span class="sxs-lookup"><span data-stu-id="7fae5-p114">Indicates whether an external client was using a virtual private network (VPN) connection when the call was placed. Select one of the following:</span></span></p>
+<ol>
+<li><p><span data-ttu-id="7fae5-188">[Tous]</span><span class="sxs-lookup"><span data-stu-id="7fae5-188">[All]</span></span></p></li>
+<li><p><span data-ttu-id="7fae5-189">VPN</span><span class="sxs-lookup"><span data-stu-id="7fae5-189">VPN</span></span></p></li>
+<li><p><span data-ttu-id="7fae5-190">Non-VPN</span><span class="sxs-lookup"><span data-stu-id="7fae5-190">Non-VPN</span></span></p></li>
 </ol></td>
 </tr>
 </tbody>
 </table>
 
 
-## Mesures
+</div>
 
-Le tableau qui suit répertorie les informations fournies dans le rapport de performances du serveur.
+<div>
 
-### Mesures du rapport de performances du serveur : synthèse des appels audio
+## <a name="metrics"></a><span data-ttu-id="7fae5-191">Mesures</span><span class="sxs-lookup"><span data-stu-id="7fae5-191">Metrics</span></span>
+
+<span data-ttu-id="7fae5-192">Le tableau qui suit répertorie les informations fournies dans le rapport de performances du serveur.</span><span class="sxs-lookup"><span data-stu-id="7fae5-192">The following table lists the information provided in the Server Performance Report.</span></span>
+
+### <a name="server-performance-report-metrics-audio-call-summary"></a><span data-ttu-id="7fae5-193">Mesures du rapport de performances du serveur : synthèse des appels audio</span><span class="sxs-lookup"><span data-stu-id="7fae5-193">Server Performance Report Metrics: Audio Call Summary</span></span>
 
 <table>
 <colgroup>
@@ -153,69 +187,69 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de per
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nom</th>
-<th>Tri possible</th>
-<th>Description</th>
+<th><span data-ttu-id="7fae5-194">Nom</span><span class="sxs-lookup"><span data-stu-id="7fae5-194">Name</span></span></th>
+<th><span data-ttu-id="7fae5-195">Tri possible</span><span class="sxs-lookup"><span data-stu-id="7fae5-195">Can Sort On</span></span></th>
+<th><span data-ttu-id="7fae5-196">Description</span><span class="sxs-lookup"><span data-stu-id="7fae5-196">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Serveur</strong></p></td>
-<td><p>Non</p></td>
-<td><p>Nom/adresse IP du serveur</p></td>
+<td><p><span data-ttu-id="7fae5-197"><strong>Serveur</strong></span><span class="sxs-lookup"><span data-stu-id="7fae5-197"><strong>Server</strong></span></span></p></td>
+<td><p><span data-ttu-id="7fae5-198">Non</span><span class="sxs-lookup"><span data-stu-id="7fae5-198">No</span></span></p></td>
+<td><p><span data-ttu-id="7fae5-199">Nom/adresse IP du serveur</span><span class="sxs-lookup"><span data-stu-id="7fae5-199">Name/IP address of the server.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Volume d’appels</strong></p></td>
-<td><p>Non</p></td>
-<td><p>Nombre total d’appels effectués.</p></td>
+<td><p><span data-ttu-id="7fae5-200"><strong>Volume d’appels</strong></span><span class="sxs-lookup"><span data-stu-id="7fae5-200"><strong>Call volume</strong></span></span></p></td>
+<td><p><span data-ttu-id="7fae5-201">Non</span><span class="sxs-lookup"><span data-stu-id="7fae5-201">No</span></span></p></td>
+<td><p><span data-ttu-id="7fae5-202">Nombre total d’appels effectués.</span><span class="sxs-lookup"><span data-stu-id="7fae5-202">Total number of calls made.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Pourcentage d’appels médiocres</strong></p></td>
-<td><p>Non</p></td>
-<td><p>Nombre total d’appels jugés et classés comme étant médiocres. Un appel médiocre désigne un appel dont l’une des valeurs mesurées est supérieure à la valeur autorisée (par exemple, un appel soumis à un phénomène de gigue excessive).</p></td>
+<td><p><span data-ttu-id="7fae5-203"><strong>Pourcentage d’appels médiocres</strong></span><span class="sxs-lookup"><span data-stu-id="7fae5-203"><strong>Poor call percentage</strong></span></span></p></td>
+<td><p><span data-ttu-id="7fae5-204">Non</span><span class="sxs-lookup"><span data-stu-id="7fae5-204">No</span></span></p></td>
+<td><p><span data-ttu-id="7fae5-p115">Nombre total d’appels jugés et classés comme étant médiocres. Un appel médiocre désigne un appel dont l’une des valeurs mesurées est supérieure à la valeur autorisée (par exemple, un appel soumis à un phénomène de gigue excessive).</span><span class="sxs-lookup"><span data-stu-id="7fae5-p115">Total number of calls classified as poor. A poor call is any call which at least one of the measured metrics exceeded the allowed value (for example, a call that experienced excessive jitter).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Boucle (ms)</strong></p></td>
-<td><p>Oui</p></td>
-<td><p>Temps moyen (en millisecondes) nécessaire à un package RTP (Real-Time Transport Protocol) pour effectuer un aller-retour vers un autre point de terminaison. Des boucles de 100 millisecondes ou moins sont considérées qualitativement acceptables.</p>
-<p>Des boucles de durée plus élevée peuvent être causées par le routage international des appels, une mauvaise configuration du routage ou un serveur multimédia surchargé. Les durées d’aller-retour élevées créent des difficultés dans le cadre de conversations audio bidirectionnelles réalisées en temps réel.</p></td>
+<td><p><span data-ttu-id="7fae5-207"><strong>Boucle (ms)</strong></span><span class="sxs-lookup"><span data-stu-id="7fae5-207"><strong>Round trip (ms)</strong></span></span></p></td>
+<td><p><span data-ttu-id="7fae5-208">Oui</span><span class="sxs-lookup"><span data-stu-id="7fae5-208">Yes</span></span></p></td>
+<td><p><span data-ttu-id="7fae5-p116">Temps moyen (en millisecondes) nécessaire à un package RTP (Real-Time Transport Protocol) pour effectuer un aller-retour vers un autre point de terminaison. Des boucles de 100 millisecondes ou moins sont considérées qualitativement acceptables.</span><span class="sxs-lookup"><span data-stu-id="7fae5-p116">Average amount of (in milliseconds) required for a real-time transport protocol (RTP) packet to travel to another endpoint and then back. Round-trip times of 100 milliseconds or less are considered of acceptable quality.</span></span></p>
+<p><span data-ttu-id="7fae5-p117">Des boucles de durée plus élevée peuvent être causées par le routage international des appels, une mauvaise configuration du routage ou un serveur multimédia surchargé. Les durées d’aller-retour élevées créent des difficultés dans le cadre de conversations audio bidirectionnelles réalisées en temps réel.</span><span class="sxs-lookup"><span data-stu-id="7fae5-p117">High round-trip values can be caused by international call routing; a routing misconfiguration; or an overloaded media server. High round-trip times result in difficulties with two-way, real-time audio conversations.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Dégradation (MOS)</strong></p></td>
-<td><p>Oui</p></td>
-<td><p>Taux moyen de dégradation de la note moyenne d’opinion (MOS) observé au cours d’un appel. Les valeurs de dégradation peuvent aller de 0,0 (la plus faible) à 5,0 (la plus élevée). Une valeur de 0,5 ou moins signifie une dégradation acceptable. Traditionnellement, les notes moyennes d’opinion sont calculées en demandant aux utilisateurs d’évaluer la qualité d’un appel sur une échelle de 1 à 5. Dans Lync Server, le serveur de surveillance se sert d’un ensemble d’algorithmes pour prédire la manière dont les utilisateurs auraient évalué un appel.</p>
-<p>Les valeurs de dégradation élevées peuvent provenir d’une congestion, d’un dépassement de la bande passante disponible, d’une congestion/interférence dans la liaison sans fil ou bien d’un serveur multimédia ou d’un point de terminaison surchargé, ce qui se traduit par une distorsion ou une perte de l’audio.</p></td>
+<td><p><span data-ttu-id="7fae5-213"><strong>Dégradation (MOS)</strong></span><span class="sxs-lookup"><span data-stu-id="7fae5-213"><strong>Degradation (MOS)</strong></span></span></p></td>
+<td><p><span data-ttu-id="7fae5-214">Oui</span><span class="sxs-lookup"><span data-stu-id="7fae5-214">Yes</span></span></p></td>
+<td><p><span data-ttu-id="7fae5-215">Taux moyen de dégradation de la note moyenne d’opinion (MOS) observé au cours d’un appel.</span><span class="sxs-lookup"><span data-stu-id="7fae5-215">Average amount of mean opinion score (MOS) degradation experienced during a call.</span></span> <span data-ttu-id="7fae5-216">Les valeurs de dégradation peuvent aller de 0,0 (la plus faible) à 5,0 (la plus élevée).</span><span class="sxs-lookup"><span data-stu-id="7fae5-216">Degradation values can range from a low of 0.0 to a high of 5.0.</span></span> <span data-ttu-id="7fae5-217">Une valeur de 0,5 ou moins signifie une dégradation acceptable.</span><span class="sxs-lookup"><span data-stu-id="7fae5-217">A value of 0.5 or less represents acceptable degradation.</span></span> <span data-ttu-id="7fae5-218">Traditionnellement, les notes moyennes d’opinion sont calculées en demandant aux utilisateurs d’évaluer la qualité d’un appel sur une échelle de 1 à 5.</span><span class="sxs-lookup"><span data-stu-id="7fae5-218">Historically, mean options scores were calculated by having users rate the quality of a call on a scale of 1-to-5.</span></span> <span data-ttu-id="7fae5-219">Dans Lync Server, le serveur de surveillance utilise un ensemble d’algorithmes pour prévoir la façon dont les utilisateurs auraient noté un appel.</span><span class="sxs-lookup"><span data-stu-id="7fae5-219">In Lync Server, the Monitoring Server uses a set of algorithms to predict how users would have rated a call.</span></span></p>
+<p><span data-ttu-id="7fae5-p119">Les valeurs de dégradation élevées peuvent provenir d’une congestion, d’un dépassement de la bande passante disponible, d’une congestion/interférence dans la liaison sans fil ou bien d’un serveur multimédia ou d’un point de terminaison surchargé, ce qui se traduit par une distorsion ou une perte de l’audio.</span><span class="sxs-lookup"><span data-stu-id="7fae5-p119">High degradation values can be caused by congestion, lack of bandwidth, wireless congestion or interference, or an overloaded media server or endpoint. High degradation results in distorted or lost audio.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Perte de paquets</strong></p></td>
-<td><p>Oui</p></td>
-<td><p>Taux moyen de pertes de paquets RTP. (La perte de paquets survient lorsque des paquets RTP, protocole employé pour la transmission audio et vidéo sur Internet, n’atteignent pas leur point de destination.) Les valeurs de perte élevées peuvent provenir d’une congestion, d’un dépassement de la bande passante disponible, d’une congestion/interférence dans la liaison sans fil ou d’un serveur multimédia surchargé, ce qui se traduit par une distorsion ou une perte de l’audio.</p></td>
+<td><p><span data-ttu-id="7fae5-222"><strong>Perte de paquets</strong></span><span class="sxs-lookup"><span data-stu-id="7fae5-222"><strong>Packet loss</strong></span></span></p></td>
+<td><p><span data-ttu-id="7fae5-223">Oui</span><span class="sxs-lookup"><span data-stu-id="7fae5-223">Yes</span></span></p></td>
+<td><p><span data-ttu-id="7fae5-p120">Taux moyen de pertes de paquets RTP. (La perte de paquets survient lorsque des paquets RTP, protocole employé pour la transmission audio et vidéo sur Internet, n’atteignent pas leur point de destination.) Les valeurs de perte élevées peuvent provenir d’une congestion, d’un dépassement de la bande passante disponible, d’une congestion/interférence dans la liaison sans fil ou d’un serveur multimédia surchargé, ce qui se traduit par une distorsion ou une perte de l’audio.</span><span class="sxs-lookup"><span data-stu-id="7fae5-p120">Average rate of real-time transport protocol (RTP) packet loss. (Packet loss occurs when RTP packets, a protocol used for transmitting audio and video across the Internet, failed to reach their destination.) High loss rates are generally caused by congestion, lack of bandwidth, wireless congestion or interference, or an overloaded media server. Packet loss typically results in distorted or lost audio.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Gigue (ms)</strong></p></td>
-<td><p>Oui</p></td>
-<td><p>Gigue moyenne détectée entre les arrivées de paquets RTP. (La gigue permet de mesurer les fluctuations d’un appel.) Les valeurs de gigue élevées peuvent provenir d’une congestion ou d’un serveur multimédia surchargé, ce qui se traduit par une distorsion ou une perte de l’audio.</p></td>
+<td><p><span data-ttu-id="7fae5-227"><strong>Gigue (ms)</strong></span><span class="sxs-lookup"><span data-stu-id="7fae5-227"><strong>Jitter (ms)</strong></span></span></p></td>
+<td><p><span data-ttu-id="7fae5-228">Oui</span><span class="sxs-lookup"><span data-stu-id="7fae5-228">Yes</span></span></p></td>
+<td><p><span data-ttu-id="7fae5-229">Gigue moyenne détectée entre les arrivées de paquets RTP.</span><span class="sxs-lookup"><span data-stu-id="7fae5-229">Average jitter detected between RTP packet arrivals.</span></span> <span data-ttu-id="7fae5-230">(Gigue est une mesure du &quot;shakiness&quot; d’un appel.) Les valeurs de gigue élevée sont généralement provoquées par une congestion ou un serveur multimédia surchargé, ce qui a pour effet de déformer ou de perdre du son.</span><span class="sxs-lookup"><span data-stu-id="7fae5-230">(Jitter is a measure of the &quot;shakiness&quot; of a call.) High jitter values are typically caused by congestion or an overloaded media server, and result in distorted or lost audio.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Taux de masquage de la réparation</strong></p></td>
-<td><p>Oui</p></td>
-<td><p>Ratio moyen d’échantillons audio masqués par rapport au nombre total d’échantillons. (Un échantillon audio masqué est une technique employée pour adoucir les effets de transition violents généralement causés par des paquets réseau perdus.) Des valeurs élevées indiquent des niveaux importants de masquage des pertes appliqués suite à la perte de paquets ou des phénomènes de gigue. Elles se traduisent par une distorsion ou une perte de l’audio.</p></td>
+<td><p><span data-ttu-id="7fae5-231"><strong>Taux de masquage de la réparation</strong></span><span class="sxs-lookup"><span data-stu-id="7fae5-231"><strong>Healer concealed ratio</strong></span></span></p></td>
+<td><p><span data-ttu-id="7fae5-232">Oui</span><span class="sxs-lookup"><span data-stu-id="7fae5-232">Yes</span></span></p></td>
+<td><p><span data-ttu-id="7fae5-p122">Ratio moyen d’échantillons audio masqués par rapport au nombre total d’échantillons. (Un échantillon audio masqué est une technique employée pour adoucir les effets de transition violents généralement causés par des paquets réseau perdus.) Des valeurs élevées indiquent des niveaux importants de masquage des pertes appliqués suite à la perte de paquets ou des phénomènes de gigue. Elles se traduisent par une distorsion ou une perte de l’audio.</span><span class="sxs-lookup"><span data-stu-id="7fae5-p122">Average ratio of concealed audio samples to the total to the total number of samples. (A concealed audio sample is a technique used to smooth out the abrupt transition that would usually be caused by dropped network packets.) High values indicate significant levels of loss concealment applied caused by packet loss or jitter, and results in distorted or lost audio.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Taux d’étirement de la réparation</strong></p></td>
-<td><p>Oui</p></td>
-<td><p>Ratio moyen d’échantillons audio étirés par rapport au nombre total d’échantillons. (Un échantillon audio étiré est un composant audio qui a été étendu dans le but de maintenir la qualité des appels lorsqu’un paquet réseau perdu est détecté.) Les valeurs élevées indiquent l’existence de niveaux importants d’étirement d’échantillons dus au phénomène de gigue, ce qui se traduit par un effet de robotisation ou de distorsion de l’audio.</p></td>
+<td><p><span data-ttu-id="7fae5-235"><strong>Taux d’étirement de la réparation</strong></span><span class="sxs-lookup"><span data-stu-id="7fae5-235"><strong>Healer stretched ratio</strong></span></span></p></td>
+<td><p><span data-ttu-id="7fae5-236">Oui</span><span class="sxs-lookup"><span data-stu-id="7fae5-236">Yes</span></span></p></td>
+<td><p><span data-ttu-id="7fae5-p123">Ratio moyen d’échantillons audio étirés par rapport au nombre total d’échantillons. (Un échantillon audio étiré est un composant audio qui a été étendu dans le but de maintenir la qualité des appels lorsqu’un paquet réseau perdu est détecté.) Les valeurs élevées indiquent l’existence de niveaux importants d’étirement d’échantillons dus au phénomène de gigue, ce qui se traduit par un effet de robotisation ou de distorsion de l’audio.</span><span class="sxs-lookup"><span data-stu-id="7fae5-p123">Average ratio of stretched audio samples to the total to the total number of samples. (Stretched audio is audio that has been expanded to help maintain call quality when a dropped network packet has been detected.) High values indicate significant levels of sample stretching caused by jitter, and result in audio sounding robotic or distorted.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Taux de compression de la réparation</strong></p></td>
-<td><p>Oui</p></td>
-<td><p>Ratio moyen d’échantillons audio compressés par rapport au nombre total d’échantillons. (Un échantillon audio compressé est un composant audio qui a été compressé dans le but de maintenir la qualité des appels lorsqu’un paquet réseau perdu est détecté.) Les valeurs élevées indiquent l’existence de niveaux importants de compression d’échantillons dus au phénomène de gigue, ce qui se traduit par un effet d’accélération ou de distorsion de l’audio.</p></td>
+<td><p><span data-ttu-id="7fae5-239"><strong>Taux de compression de la réparation</strong></span><span class="sxs-lookup"><span data-stu-id="7fae5-239"><strong>Healer compressed ratio</strong></span></span></p></td>
+<td><p><span data-ttu-id="7fae5-240">Oui</span><span class="sxs-lookup"><span data-stu-id="7fae5-240">Yes</span></span></p></td>
+<td><p><span data-ttu-id="7fae5-p124">Ratio moyen d’échantillons audio compressés par rapport au nombre total d’échantillons. (Un échantillon audio compressé est un composant audio qui a été compressé dans le but de maintenir la qualité des appels lorsqu’un paquet réseau perdu est détecté.) Les valeurs élevées indiquent l’existence de niveaux importants de compression d’échantillons dus au phénomène de gigue, ce qui se traduit par un effet d’accélération ou de distorsion de l’audio.</span><span class="sxs-lookup"><span data-stu-id="7fae5-p124">Average ratio of compressed audio samples to the total number of samples. (Compressed audio is audio that has been compressed to help maintain call quality when a dropped network packet has been detected.) High values indicate significant levels of sample compression caused by jitter, and result in audio sounding accelerated or distorted.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### Mesures du rapport de performances du serveur : synthèse des appels vidéo
+### <a name="server-performance-report-metrics-video-call-summary"></a><span data-ttu-id="7fae5-243">Mesures du rapport de performances du serveur : synthèse des appels vidéo</span><span class="sxs-lookup"><span data-stu-id="7fae5-243">Server Performance Report Metrics: Video Call Summary</span></span>
 
 <table>
 <colgroup>
@@ -225,96 +259,96 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de per
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nom</th>
-<th>Est-il possible d’effectuer un tri sur cet élément ?</th>
-<th>Description</th>
+<th><span data-ttu-id="7fae5-244">Nom</span><span class="sxs-lookup"><span data-stu-id="7fae5-244">Name</span></span></th>
+<th><span data-ttu-id="7fae5-245">Est-il possible d’effectuer un tri sur cet élément ?</span><span class="sxs-lookup"><span data-stu-id="7fae5-245">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="7fae5-246">Description</span><span class="sxs-lookup"><span data-stu-id="7fae5-246">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Type d’appel/type de point de terminaison</strong></p></td>
-<td><p>Non</p></td>
-<td><p>Lorsque vous cliquez sur cet élément, le rapport affiche des informations détaillées sur les appels en fonction de ce type. Les types d’appels sont les suivants :</p>
+<td><p><span data-ttu-id="7fae5-247"><strong>Type d’appel/type de point de terminaison</strong></span><span class="sxs-lookup"><span data-stu-id="7fae5-247"><strong>Call type/Endpoint type</strong></span></span></p></td>
+<td><p><span data-ttu-id="7fae5-248">Non</span><span class="sxs-lookup"><span data-stu-id="7fae5-248">No</span></span></p></td>
+<td><p><span data-ttu-id="7fae5-p125">Lorsque vous cliquez sur cet élément, le rapport affiche des informations détaillées sur les appels en fonction de ce type. Les types d’appels sont les suivants :</span><span class="sxs-lookup"><span data-stu-id="7fae5-p125">When you click this item, the report shows detailed information about calls based on that type. Call types include:</span></span></p>
 <ul>
-<li><p>Appels P2P UC</p></li>
-<li><p>Sessions de conférence UC</p></li>
-<li><p>Sessions de conférence RTC</p></li>
-<li><p>Appels RTC : contournement du média</p></li>
-<li><p>Appels RTC (sans contournement) : partie UC</p></li>
-<li><p>Appels RTC (sans contournement) : partie passerelle</p></li>
-<li><p>Autres types d’appels</p></li>
+<li><p><span data-ttu-id="7fae5-251">Appels P2P UC</span><span class="sxs-lookup"><span data-stu-id="7fae5-251">UC Peer-to-Peer Calls</span></span></p></li>
+<li><p><span data-ttu-id="7fae5-252">Sessions de conférence UC</span><span class="sxs-lookup"><span data-stu-id="7fae5-252">UC Conference Sessions</span></span></p></li>
+<li><p><span data-ttu-id="7fae5-253">Sessions de conférence RTC</span><span class="sxs-lookup"><span data-stu-id="7fae5-253">PSTN Conference Sessions</span></span></p></li>
+<li><p><span data-ttu-id="7fae5-254">Appels RTC : contournement du média</span><span class="sxs-lookup"><span data-stu-id="7fae5-254">PSTN Calls: Media Bypass</span></span></p></li>
+<li><p><span data-ttu-id="7fae5-255">Appels RTC (sans contournement) : partie UC</span><span class="sxs-lookup"><span data-stu-id="7fae5-255">PSTN Calls (Non-Bypass): UC Leg</span></span></p></li>
+<li><p><span data-ttu-id="7fae5-256">Appels RTC (sans contournement) : partie passerelle</span><span class="sxs-lookup"><span data-stu-id="7fae5-256">PSTN Calls (Non-Bypass): Gateway Leg</span></span></p></li>
+<li><p><span data-ttu-id="7fae5-257">Autres types d’appels</span><span class="sxs-lookup"><span data-stu-id="7fae5-257">Other Call Types</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><strong>Volume d’appels</strong></p></td>
-<td><p>Non</p></td>
-<td><p>Nombre total d’appels par type d’appel.</p></td>
+<td><p><span data-ttu-id="7fae5-258"><strong>Volume d’appels</strong></span><span class="sxs-lookup"><span data-stu-id="7fae5-258"><strong>Call volume</strong></span></span></p></td>
+<td><p><span data-ttu-id="7fae5-259">Non</span><span class="sxs-lookup"><span data-stu-id="7fae5-259">No</span></span></p></td>
+<td><p><span data-ttu-id="7fae5-260">Nombre total d’appels par type d’appel.</span><span class="sxs-lookup"><span data-stu-id="7fae5-260">Total number of calls per call type.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Pourcentage d’appels médiocres</strong></p></td>
-<td><p>Non</p></td>
-<td><p>Nombre total d’appels jugés et classés comme étant médiocres. Un appel médiocre désigne un appel dont l’une des valeurs mesurées est supérieure à la valeur autorisée (par exemple, un appel soumis à un phénomène de gigue excessive).</p></td>
+<td><p><span data-ttu-id="7fae5-261"><strong>Pourcentage d’appels médiocres</strong></span><span class="sxs-lookup"><span data-stu-id="7fae5-261"><strong>Poor call percentage</strong></span></span></p></td>
+<td><p><span data-ttu-id="7fae5-262">Non</span><span class="sxs-lookup"><span data-stu-id="7fae5-262">No</span></span></p></td>
+<td><p><span data-ttu-id="7fae5-p126">Nombre total d’appels jugés et classés comme étant médiocres. Un appel médiocre désigne un appel dont l’une des valeurs mesurées est supérieure à la valeur autorisée (par exemple, un appel soumis à un phénomène de gigue excessive).</span><span class="sxs-lookup"><span data-stu-id="7fae5-p126">Total number of calls classified as poor. A poor call is any call which at least one of the measured metrics exceeded the allowed value (for example, a call that experienced excessive jitter).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Volume d’appels (appels sans fil)</strong></p></td>
-<td><p>Non</p></td>
-<td><p>Nombre total d’appels qui utilisaient une connexion sans fil.</p></td>
+<td><p><span data-ttu-id="7fae5-265"><strong>Volume d’appels (appels sans fil)</strong></span><span class="sxs-lookup"><span data-stu-id="7fae5-265"><strong>Call volume (wireless call)</strong></span></span></p></td>
+<td><p><span data-ttu-id="7fae5-266">Non</span><span class="sxs-lookup"><span data-stu-id="7fae5-266">No</span></span></p></td>
+<td><p><span data-ttu-id="7fae5-267">Nombre total d’appels qui utilisaient une connexion sans fil.</span><span class="sxs-lookup"><span data-stu-id="7fae5-267">Total number of calls that used a wireless connection.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Volume d’appels (appels VPN)</strong></p></td>
-<td><p>Non</p></td>
-<td><p>Nombre total d’appels qui utilisaient une connexion VPN.</p></td>
+<td><p><span data-ttu-id="7fae5-268"><strong>Volume d’appels (appels VPN)</strong></span><span class="sxs-lookup"><span data-stu-id="7fae5-268"><strong>Call volume (VPN call)</strong></span></span></p></td>
+<td><p><span data-ttu-id="7fae5-269">Non</span><span class="sxs-lookup"><span data-stu-id="7fae5-269">No</span></span></p></td>
+<td><p><span data-ttu-id="7fae5-270">Nombre total d’appels qui utilisaient une connexion VPN.</span><span class="sxs-lookup"><span data-stu-id="7fae5-270">Total number of calls that used a VPN connection.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Volume d’appels (appels externes)</strong></p></td>
-<td><p>Non</p></td>
-<td><p>Nombre d’appels qui utilisaient une connexion externe (c’est-à-dire une connexion en dehors du réseau interne).</p></td>
+<td><p><span data-ttu-id="7fae5-271"><strong>Volume d’appels (appels externes)</strong></span><span class="sxs-lookup"><span data-stu-id="7fae5-271"><strong>Call volume (external call)</strong></span></span></p></td>
+<td><p><span data-ttu-id="7fae5-272">Non</span><span class="sxs-lookup"><span data-stu-id="7fae5-272">No</span></span></p></td>
+<td><p><span data-ttu-id="7fae5-273">Nombre d’appels qui utilisaient une connexion externe (c’est-à-dire une connexion en dehors du réseau interne).</span><span class="sxs-lookup"><span data-stu-id="7fae5-273">Number of calls that used an external connection (that is, a connection outside the internal network).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Vitesse de transmission moyenne (Kbit/s)</strong></p></td>
-<td><p>Non</p></td>
-<td><p>Vitesse de transmission vidéo moyenne (en kilobits par seconde).</p></td>
+<td><p><span data-ttu-id="7fae5-274"><strong>Vitesse de transmission moyenne (Kbit/s)</strong></span><span class="sxs-lookup"><span data-stu-id="7fae5-274"><strong>Avg bit-rate (Kbits/s)</strong></span></span></p></td>
+<td><p><span data-ttu-id="7fae5-275">Non</span><span class="sxs-lookup"><span data-stu-id="7fae5-275">No</span></span></p></td>
+<td><p><span data-ttu-id="7fae5-276">Vitesse de transmission vidéo moyenne (en kilobits par seconde).</span><span class="sxs-lookup"><span data-stu-id="7fae5-276">Average video bit rate (in kilobits per second).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Vitesse de transmission faible (%)</strong></p></td>
-<td><p>Non</p></td>
-<td><p>Pourcentage de l’appel où la vitesse de transmission était faible.</p></td>
+<td><p><span data-ttu-id="7fae5-277"><strong>Vitesse de transmission faible (%)</strong></span><span class="sxs-lookup"><span data-stu-id="7fae5-277"><strong>Low bit-rate %</strong></span></span></p></td>
+<td><p><span data-ttu-id="7fae5-278">Non</span><span class="sxs-lookup"><span data-stu-id="7fae5-278">No</span></span></p></td>
+<td><p><span data-ttu-id="7fae5-279">Pourcentage de l’appel où la vitesse de transmission était faible.</span><span class="sxs-lookup"><span data-stu-id="7fae5-279">Percentage of the call where the bit rate was low.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Perte de paquets sortante</strong></p></td>
-<td><p>Non</p></td>
-<td><p>Perte de paquets RTP (Real-Time Transport Protocol) pour les paquets sortants. (La perte de paquets survient lorsque des paquets RTP, protocole employé pour la transmission audio et vidéo sur Internet, n’atteignent pas leur point de destination.) Les valeurs de perte élevées peuvent provenir d’une congestion, d’un dépassement de la bande passante disponible, d’une congestion/interférence dans la liaison sans fil ou d’un serveur multimédia surchargé, ce qui se traduit par une distorsion ou une perte de l’audio.</p></td>
+<td><p><span data-ttu-id="7fae5-280"><strong>Perte de paquets sortante</strong></span><span class="sxs-lookup"><span data-stu-id="7fae5-280"><strong>Outbound packet loss</strong></span></span></p></td>
+<td><p><span data-ttu-id="7fae5-281">Non</span><span class="sxs-lookup"><span data-stu-id="7fae5-281">No</span></span></p></td>
+<td><p><span data-ttu-id="7fae5-p127">Perte de paquets RTP (Real-Time Transport Protocol) pour les paquets sortants. (La perte de paquets survient lorsque des paquets RTP, protocole employé pour la transmission audio et vidéo sur Internet, n’atteignent pas leur point de destination.) Les valeurs de perte élevées peuvent provenir d’une congestion, d’un dépassement de la bande passante disponible, d’une congestion/interférence dans la liaison sans fil ou d’un serveur multimédia surchargé, ce qui se traduit par une distorsion ou une perte de l’audio.</span><span class="sxs-lookup"><span data-stu-id="7fae5-p127">Real-Time Transport Protocol (RTP) packet loss for outbound packets. (Packet loss occurs when RTP packets, a protocol used for transmitting audio and video across the Internet, failed to reach their destination.) High loss rates are generally caused by congestion; lack of bandwidth; wireless congestion or interference; or an overloaded media server. Packet loss typically results in distorted or lost audio.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Image figée (%)</strong></p></td>
-<td><p>Non</p></td>
-<td><p>Pourcentage d’images « figées ». Dans une image figée, la vidéo cesse d’avancer tandis que la partie audio de l’appel continue.</p></td>
+<td><p><span data-ttu-id="7fae5-285"><strong>Image figée (%)</strong></span><span class="sxs-lookup"><span data-stu-id="7fae5-285"><strong>Frozen frame %</strong></span></span></p></td>
+<td><p><span data-ttu-id="7fae5-286">Non</span><span class="sxs-lookup"><span data-stu-id="7fae5-286">No</span></span></p></td>
+<td><p><span data-ttu-id="7fae5-p128">Pourcentage d’images « figées ». Dans une image figée, la vidéo cesse d’avancer tandis que la partie audio de l’appel continue.</span><span class="sxs-lookup"><span data-stu-id="7fae5-p128">Percentage of “frozen” frames. In a frozen frame, the video stops advancing while the audio portion of the call continues.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Fréquence d’images moyenne sortante</strong></p></td>
-<td><p>Non</p></td>
-<td><p>Fréquence d’images moyenne pour les transmissions sortantes pendant l’appel.</p></td>
+<td><p><span data-ttu-id="7fae5-289"><strong>Fréquence d’images moyenne sortante</strong></span><span class="sxs-lookup"><span data-stu-id="7fae5-289"><strong>Outbound avg frame rate</strong></span></span></p></td>
+<td><p><span data-ttu-id="7fae5-290">Non</span><span class="sxs-lookup"><span data-stu-id="7fae5-290">No</span></span></p></td>
+<td><p><span data-ttu-id="7fae5-291">Fréquence d’images moyenne pour les transmissions sortantes pendant l’appel.</span><span class="sxs-lookup"><span data-stu-id="7fae5-291">Average frame rate for outbound transmissions during the call.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Fréquence d’images moyenne entrante</strong></p></td>
-<td><p>Non</p></td>
-<td><p>Fréquence d’images moyenne pour les transmissions entrantes pendant l’appel.</p></td>
+<td><p><span data-ttu-id="7fae5-292"><strong>Fréquence d’images moyenne entrante</strong></span><span class="sxs-lookup"><span data-stu-id="7fae5-292"><strong>Inbound avg frame rate</strong></span></span></p></td>
+<td><p><span data-ttu-id="7fae5-293">Non</span><span class="sxs-lookup"><span data-stu-id="7fae5-293">No</span></span></p></td>
+<td><p><span data-ttu-id="7fae5-294">Fréquence d’images moyenne pour les transmissions entrantes pendant l’appel.</span><span class="sxs-lookup"><span data-stu-id="7fae5-294">Average frame rate for incoming transmissions during the call.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Fréquence d’images basse entrante (%)</strong></p></td>
-<td><p>Non</p></td>
-<td><p>Pourcentage de l’appel où la vitesse de transmission pour la vidéo entrante était faible.</p></td>
+<td><p><span data-ttu-id="7fae5-295"><strong>Fréquence d’images basse entrante (%)</strong></span><span class="sxs-lookup"><span data-stu-id="7fae5-295"><strong>Inbound low frame rate %</strong></span></span></p></td>
+<td><p><span data-ttu-id="7fae5-296">Non</span><span class="sxs-lookup"><span data-stu-id="7fae5-296">No</span></span></p></td>
+<td><p><span data-ttu-id="7fae5-297">Pourcentage de l’appel où la vitesse de transmission pour la vidéo entrante était faible.</span><span class="sxs-lookup"><span data-stu-id="7fae5-297">Percentage of the call where the bit rate for incoming video was low.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Intégrité des clients (%)</strong></p></td>
-<td><p></p></td>
-<td><p>Indique l’intégrité relative du périphérique client pendant l’appel.</p></td>
+<td><p><span data-ttu-id="7fae5-298"><strong>Intégrité des clients (%)</strong></span><span class="sxs-lookup"><span data-stu-id="7fae5-298"><strong>Client health %</strong></span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="7fae5-299">Indique l’intégrité relative du périphérique client pendant l’appel.</span><span class="sxs-lookup"><span data-stu-id="7fae5-299">Indicates the relative health of the client device during the call.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### Mesures du rapport de performances du serveur : synthèse des appels de partage d’application
+### <a name="server-performance-report-metrics-application-sharing-call-summary"></a><span data-ttu-id="7fae5-300">Mesures du rapport de performances du serveur : synthèse des appels de partage d’application</span><span class="sxs-lookup"><span data-stu-id="7fae5-300">Server Performance Report Metrics: Application Sharing Call Summary</span></span>
 
 <table>
 <colgroup>
@@ -324,71 +358,84 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de per
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nom</th>
-<th>Est-il possible d’effectuer un tri sur cet élément ?</th>
-<th>Description</th>
+<th><span data-ttu-id="7fae5-301">Nom</span><span class="sxs-lookup"><span data-stu-id="7fae5-301">Name</span></span></th>
+<th><span data-ttu-id="7fae5-302">Est-il possible d’effectuer un tri sur cet élément ?</span><span class="sxs-lookup"><span data-stu-id="7fae5-302">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="7fae5-303">Description</span><span class="sxs-lookup"><span data-stu-id="7fae5-303">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Type d’appel/type de point de terminaison</strong></p></td>
-<td><p>Non</p></td>
-<td><p>Lorsque vous cliquez sur cet élément, le rapport affiche des informations détaillées sur les appels en fonction de ce type. Les types d’appels sont les suivants :</p>
+<td><p><span data-ttu-id="7fae5-304"><strong>Type d’appel/type de point de terminaison</strong></span><span class="sxs-lookup"><span data-stu-id="7fae5-304"><strong>Call type/Endpoint type</strong></span></span></p></td>
+<td><p><span data-ttu-id="7fae5-305">Non</span><span class="sxs-lookup"><span data-stu-id="7fae5-305">No</span></span></p></td>
+<td><p><span data-ttu-id="7fae5-p129">Lorsque vous cliquez sur cet élément, le rapport affiche des informations détaillées sur les appels en fonction de ce type. Les types d’appels sont les suivants :</span><span class="sxs-lookup"><span data-stu-id="7fae5-p129">When you click this item, the report shows detailed information about calls based on that type. Call types include:</span></span></p>
 <ul>
-<li><p>Appels P2P UC</p></li>
-<li><p>Sessions de conférence UC</p></li>
-<li><p>Sessions de conférence RTC</p></li>
-<li><p>Appels RTC : contournement du média</p></li>
-<li><p>Appels RTC (sans contournement) : partie UC</p></li>
-<li><p>Appels RTC (sans contournement) : partie passerelle</p></li>
-<li><p>Autres types d’appels</p></li>
+<li><p><span data-ttu-id="7fae5-308">Appels P2P UC</span><span class="sxs-lookup"><span data-stu-id="7fae5-308">UC Peer-to-Peer Calls</span></span></p></li>
+<li><p><span data-ttu-id="7fae5-309">Sessions de conférence UC</span><span class="sxs-lookup"><span data-stu-id="7fae5-309">UC Conference Sessions</span></span></p></li>
+<li><p><span data-ttu-id="7fae5-310">Sessions de conférence RTC</span><span class="sxs-lookup"><span data-stu-id="7fae5-310">PSTN Conference Sessions</span></span></p></li>
+<li><p><span data-ttu-id="7fae5-311">Appels RTC : contournement du média</span><span class="sxs-lookup"><span data-stu-id="7fae5-311">PSTN Calls: Media Bypass</span></span></p></li>
+<li><p><span data-ttu-id="7fae5-312">Appels RTC (sans contournement) : partie UC</span><span class="sxs-lookup"><span data-stu-id="7fae5-312">PSTN Calls (Non-Bypass): UC Leg</span></span></p></li>
+<li><p><span data-ttu-id="7fae5-313">Appels RTC (sans contournement) : partie passerelle</span><span class="sxs-lookup"><span data-stu-id="7fae5-313">PSTN Calls (Non-Bypass): Gateway Leg</span></span></p></li>
+<li><p><span data-ttu-id="7fae5-314">Autres types d’appels</span><span class="sxs-lookup"><span data-stu-id="7fae5-314">Other Call Types</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><strong>Volume d’appels</strong></p></td>
-<td><p>Non</p></td>
-<td><p>Nombre total d’appels par type d’appel.</p></td>
+<td><p><span data-ttu-id="7fae5-315"><strong>Volume d’appels</strong></span><span class="sxs-lookup"><span data-stu-id="7fae5-315"><strong>Call volume</strong></span></span></p></td>
+<td><p><span data-ttu-id="7fae5-316">Non</span><span class="sxs-lookup"><span data-stu-id="7fae5-316">No</span></span></p></td>
+<td><p><span data-ttu-id="7fae5-317">Nombre total d’appels par type d’appel.</span><span class="sxs-lookup"><span data-stu-id="7fae5-317">Total number of calls per call type.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Pourcentage d’appels médiocres</strong></p></td>
-<td><p>Non</p></td>
-<td><p>Nombre total d’appels jugés et classés comme étant médiocres. Un appel médiocre désigne un appel dont l’une des valeurs mesurées est supérieure à la valeur autorisée (par exemple, un appel soumis à un phénomène de gigue excessive).</p></td>
+<td><p><span data-ttu-id="7fae5-318"><strong>Pourcentage d’appels médiocres</strong></span><span class="sxs-lookup"><span data-stu-id="7fae5-318"><strong>Poor call percentage</strong></span></span></p></td>
+<td><p><span data-ttu-id="7fae5-319">Non</span><span class="sxs-lookup"><span data-stu-id="7fae5-319">No</span></span></p></td>
+<td><p><span data-ttu-id="7fae5-p130">Nombre total d’appels jugés et classés comme étant médiocres. Un appel médiocre désigne un appel dont l’une des valeurs mesurées est supérieure à la valeur autorisée (par exemple, un appel soumis à un phénomène de gigue excessive).</span><span class="sxs-lookup"><span data-stu-id="7fae5-p130">Total number of calls classified as poor. A poor call is any call which at least one of the measured metrics exceeded the allowed value (for example, a call that experienced excessive jitter).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Volume d’appels (appels sans fil)</strong></p></td>
-<td><p>Non</p></td>
-<td><p>Nombre total d’appels qui utilisaient une connexion sans fil.</p></td>
+<td><p><span data-ttu-id="7fae5-322"><strong>Volume d’appels (appels sans fil)</strong></span><span class="sxs-lookup"><span data-stu-id="7fae5-322"><strong>Call volume (wireless call)</strong></span></span></p></td>
+<td><p><span data-ttu-id="7fae5-323">Non</span><span class="sxs-lookup"><span data-stu-id="7fae5-323">No</span></span></p></td>
+<td><p><span data-ttu-id="7fae5-324">Nombre total d’appels qui utilisaient une connexion sans fil.</span><span class="sxs-lookup"><span data-stu-id="7fae5-324">Total number of calls that used a wireless connection.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Volume d’appels (appels VPN)</strong></p></td>
-<td><p>Non</p></td>
-<td><p>Nombre total d’appels qui utilisaient une connexion VPN.</p></td>
+<td><p><span data-ttu-id="7fae5-325"><strong>Volume d’appels (appels VPN)</strong></span><span class="sxs-lookup"><span data-stu-id="7fae5-325"><strong>Call volume (VPN call)</strong></span></span></p></td>
+<td><p><span data-ttu-id="7fae5-326">Non</span><span class="sxs-lookup"><span data-stu-id="7fae5-326">No</span></span></p></td>
+<td><p><span data-ttu-id="7fae5-327">Nombre total d’appels qui utilisaient une connexion VPN.</span><span class="sxs-lookup"><span data-stu-id="7fae5-327">Total number of calls that used a VPN connection.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Volume d’appels (appels externes)</strong></p></td>
-<td><p>Non</p></td>
-<td><p>Nombre d’appels qui utilisaient une connexion externe (c’est-à-dire une connexion en dehors du réseau interne).</p></td>
+<td><p><span data-ttu-id="7fae5-328"><strong>Volume d’appels (appels externes)</strong></span><span class="sxs-lookup"><span data-stu-id="7fae5-328"><strong>Call volume (external call)</strong></span></span></p></td>
+<td><p><span data-ttu-id="7fae5-329">Non</span><span class="sxs-lookup"><span data-stu-id="7fae5-329">No</span></span></p></td>
+<td><p><span data-ttu-id="7fae5-330">Nombre d’appels qui utilisaient une connexion externe (c’est-à-dire une connexion en dehors du réseau interne).</span><span class="sxs-lookup"><span data-stu-id="7fae5-330">Number of calls that used an external connection (that is, a connection outside the internal network).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Gigue (ms)</strong></p></td>
-<td><p>Non</p></td>
-<td><p>Gigue moyenne détectée entre les arrivées de paquets RTP. (La gigue permet de mesurer les fluctuations d’un appel.) Les valeurs de gigue élevées peuvent provenir d’une congestion ou d’un serveur multimédia surchargé, ce qui se traduit par une distorsion ou une perte de l’audio.</p></td>
+<td><p><span data-ttu-id="7fae5-331"><strong>Gigue (ms)</strong></span><span class="sxs-lookup"><span data-stu-id="7fae5-331"><strong>Jitter (ms)</strong></span></span></p></td>
+<td><p><span data-ttu-id="7fae5-332">Non</span><span class="sxs-lookup"><span data-stu-id="7fae5-332">No</span></span></p></td>
+<td><p><span data-ttu-id="7fae5-333">Gigue moyenne détectée entre les arrivées de paquets RTP.</span><span class="sxs-lookup"><span data-stu-id="7fae5-333">Average jitter detected between RTP packet arrivals.</span></span> <span data-ttu-id="7fae5-334">(Gigue est une mesure du &quot;shakiness&quot; d’un appel.) Les valeurs de gigue élevée sont généralement provoquées par une congestion ou un serveur multimédia surchargé, ce qui a pour effet de déformer ou de perdre du son.</span><span class="sxs-lookup"><span data-stu-id="7fae5-334">(Jitter is a measure of the &quot;shakiness&quot; of a call.) High jitter values are typically caused by congestion or an overloaded media server, and result in distorted or lost audio.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Unilatéral relatif moyen</strong></p></td>
-<td><p>Non</p></td>
-<td><p>Retard unilatéral relatif moyen entre deux points de terminaison du média. Il s’agit d’une mesure de latence sur un seul tronçon.</p></td>
+<td><p><span data-ttu-id="7fae5-335"><strong>Unilatéral relatif moyen</strong></span><span class="sxs-lookup"><span data-stu-id="7fae5-335"><strong>Avg. relative one way</strong></span></span></p></td>
+<td><p><span data-ttu-id="7fae5-336">Non</span><span class="sxs-lookup"><span data-stu-id="7fae5-336">No</span></span></p></td>
+<td><p><span data-ttu-id="7fae5-p132">Retard unilatéral relatif moyen entre deux points de terminaison du média. Il s’agit d’une mesure de latence sur un seul tronçon.</span><span class="sxs-lookup"><span data-stu-id="7fae5-p132">Average relative one-way delay between two media endpoints. This is a single-hop latency measure.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Latence moyenne de traitement des mosaïques RDP</strong></p></td>
-<td><p>Non</p></td>
-<td><p>Latence moyenne de traitement des mosaïques RDP sur le serveur de conférence AS par rapport à la durée de la session de visionnage. Cette mesure ne couvre pas la latence du réseau. Une moyenne élevée indique un délai plus long pour l’expérience de visionnage. Un serveur de conférence surchargé peut rencontrer des délais moyens plus élevés.</p></td>
+<td><p><span data-ttu-id="7fae5-339"><strong>Latence moyenne de traitement des mosaïques RDP</strong></span><span class="sxs-lookup"><span data-stu-id="7fae5-339"><strong>Avg. RDP tile processing latency</strong></span></span></p></td>
+<td><p><span data-ttu-id="7fae5-340">Non</span><span class="sxs-lookup"><span data-stu-id="7fae5-340">No</span></span></p></td>
+<td><p><span data-ttu-id="7fae5-p133">Latence moyenne de traitement des mosaïques RDP sur le serveur de conférence AS par rapport à la durée de la session de visionnage. Cette mesure ne couvre pas la latence du réseau. Une moyenne élevée indique un délai plus long pour l’expérience de visionnage. Un serveur de conférence surchargé peut rencontrer des délais moyens plus élevés.</span><span class="sxs-lookup"><span data-stu-id="7fae5-p133">The average RDP tile processing latency in the AS Conferencing Server over the duration of the viewing session. This metric does not cover network latency. A high average reflects a longer delay in the viewing experience. An overloaded conferencing server may experience higher average delays.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Nombre total de mosaïques altérées (%)</strong></p></td>
-<td><p>Non</p></td>
-<td><p>Pourcentage total de mosaïques RDP altérées.</p></td>
+<td><p><span data-ttu-id="7fae5-345"><strong>Nombre total de mosaïques altérées (%)</strong></span><span class="sxs-lookup"><span data-stu-id="7fae5-345"><strong>Total spoiled tile %</strong></span></span></p></td>
+<td><p><span data-ttu-id="7fae5-346">Non</span><span class="sxs-lookup"><span data-stu-id="7fae5-346">No</span></span></p></td>
+<td><p><span data-ttu-id="7fae5-347">Pourcentage total de mosaïques RDP altérées.</span><span class="sxs-lookup"><span data-stu-id="7fae5-347">Total percentage of spoiled RDP tiles.</span></span></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

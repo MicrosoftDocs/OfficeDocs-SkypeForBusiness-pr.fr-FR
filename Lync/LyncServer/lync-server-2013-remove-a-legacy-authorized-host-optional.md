@@ -1,25 +1,59 @@
-﻿---
-title: 'Lync Server 2013 : Suppression d’un hôte autorisé hérité (facultatif)'
-TOCTitle: Suppression d’un hôte autorisé hérité (facultatif)
-ms:assetid: 0316b2c3-b2aa-4c24-a8cd-e7f2cfe4d024
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg558603(v=OCS.15)
-ms:contentKeyID: 49296083
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Suppression d’un hôte autorisé hérité (facultatif)'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Remove a legacy authorized host (optional)
+ms:assetid: 0316b2c3-b2aa-4c24-a8cd-e7f2cfe4d024
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558603(v=OCS.15)
+ms:contentKeyID: 48183252
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e149a95bdb9111aee4b92afde8842a5871ca4f0c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823132"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Suppression d’un hôte autorisé hérité dans Lync Server 2013 (facultatif)
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-09-05_
+# <a name="remove-a-legacy-authorized-host-in-lync-server-2013-optional"></a><span data-ttu-id="23afb-102">Suppression d’un hôte autorisé hérité dans Lync Server 2013 (facultatif)</span><span class="sxs-lookup"><span data-stu-id="23afb-102">Remove a legacy authorized host in Lync Server 2013 (optional)</span></span>
 
-Lorsque vous migrez un contrôle d’appel distant vers un déploiement de Lync Server, vous devez supprimer des entrées d’hôte autorisé existantes (appelées *entrées d’applications approuvées* dans Lync Server) pour les passerelles SIP/CSTA dans le déploiement hérité. Vous devez utiliser les outils d’administration pour supprimer les entrées d’hôtes autorisés de ces déploiements, respectivement.
+</div>
 
-## Voir aussi
+<div id="mainSection">
 
-#### Tâches
+<div id="mainBody">
 
-[Configuration d’une entrée d’application approuvée pour le contrôle d’appel distant dans Lync Server 2013](lync-server-2013-configure-a-trusted-application-entry-for-remote-call-control.md)
+<span> </span>
+
+<span data-ttu-id="23afb-103">_**Dernière modification de la rubrique:** 2012-09-05_</span><span class="sxs-lookup"><span data-stu-id="23afb-103">_**Topic Last Modified:** 2012-09-05_</span></span>
+
+<span data-ttu-id="23afb-104">Lorsque vous migrez le contrôle d’appel distant vers un déploiement Lync Server, vous devez supprimer les entrées d’hôte autorisées héritées (appelées *applications de confiance* dans Lync Server) pour les passerelles SIP/CSTA dans votre déploiement hérité.</span><span class="sxs-lookup"><span data-stu-id="23afb-104">When you migrate remote call control to a Lync Server deployment, you must remove legacy authorized host entries (known as *trusted application entries* in Lync Server) for any SIP/CSTA gateways in your legacy deployment.</span></span> <span data-ttu-id="23afb-105">Vous devez utiliser les outils d’administration pour supprimer les entrées hôtes autorisées de ces déploiements, respectivement.</span><span class="sxs-lookup"><span data-stu-id="23afb-105">You must use the administrative tools to remove authorized host entries from those deployments, respectively.</span></span>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="23afb-106">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="23afb-106">See Also</span></span>
+
+
+[<span data-ttu-id="23afb-107">Configuration d’une entrée d’application approuvée pour le contrôle d’appel distant dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="23afb-107">Configure a trusted application entry for remote call control in Lync Server 2013</span></span>](lync-server-2013-configure-a-trusted-application-entry-for-remote-call-control.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

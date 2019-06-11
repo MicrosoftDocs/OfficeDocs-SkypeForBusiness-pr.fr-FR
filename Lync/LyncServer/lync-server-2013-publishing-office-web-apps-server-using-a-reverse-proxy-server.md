@@ -1,87 +1,117 @@
-﻿---
-title: "Lync Server 2013 : Publi. d’Office Web Apps Server avec un serv. proxy inverse"
-TOCTitle: Publication d’Office Web Apps Server avec un serveur proxy inverse
-ms:assetid: 0babe39f-c4b9-46f0-995a-33dc99c2be03
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204665(v=OCS.15)
-ms:contentKeyID: 49296218
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Publication d’Office Web Apps Server avec un serveur proxy inverse
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Publishing Office Web Apps Server using a reverse proxy server
+ms:assetid: 0babe39f-c4b9-46f0-995a-33dc99c2be03
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204665(v=OCS.15)
+ms:contentKeyID: 48183384
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 3f68ae51dba366282d7d3a5668b1358042a29917
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823706"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Publication d’Office Web Apps Server dans Lync Server 2013 avec un serveur proxy inverse
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2013-02-25_
+# <a name="publishing-office-web-apps-server-in-lync-server-2013-using-a-reverse-proxy-server"></a><span data-ttu-id="e4e0a-102">Publication d’Office Web Apps Server dans Lync Server 2013 à l’aide d’un serveur proxy inverse</span><span class="sxs-lookup"><span data-stu-id="e4e0a-102">Publishing Office Web Apps Server in Lync Server 2013 using a reverse proxy server</span></span>
 
-Si vous souhaitez que les utilisateurs externes (c’est-à-dire, les utilisateurs qui se connectent depuis l’extérieur du pare-feu de votre organisation) aient accès aux présentations PowerPoint d’Office Web Apps Server, vous devez utiliser Office Web Apps Server et un serveur de proxy inverse tel que Microsoft Forefront Threat Management Gateway. Vous devez également créer et configurer une règle de publication de site web ; cette règle permet aux utilisateurs de se connecter au serveur. Si vous n’avez pas besoin d’autoriser l’accès à des utilisateurs externes, vous n’avez pas besoin de configurer une telle règle.
+</div>
 
-Pour configurer une règle de publication de site web dans Forefront Threat Management Gateway, procédez comme suit :
+<div id="mainSection">
 
-1.  Cliquez sur **Démarrer** , sur **Tous les programmes** , sur **Microsoft Forefront TMG** , puis sur **Forefront TMG Management** .
+<div id="mainBody">
 
-2.  Dans Forefront TMG, cliquez avec le bouton droit sur **Stratégie de pare-feu** , pointez sur **Nouveau** , puis cliquez sur **Règle de publication de site web** .
+<span> </span>
 
-3.  Dans l’Assistant Nouvelle règle de publication web, dans la page **Bienvenue dans l’Assistant Nouvelle règle de publication web** , tapez le nom de votre nouvelle règle dans la zone **Nom de la règle de publication web** (par exemple, **Règle Office Web Apps Server** ), puis cliquez sur **Suivant** .
+<span data-ttu-id="e4e0a-103">_**Dernière modification de la rubrique:** 2013-02-25_</span><span class="sxs-lookup"><span data-stu-id="e4e0a-103">_**Topic Last Modified:** 2013-02-25_</span></span>
 
-4.  Dans la page **Spécifier l’action de la règle** , sélectionnez **Autoriser** , puis cliquez sur **Suivant** .
+<span data-ttu-id="e4e0a-104">Si vous souhaitez que les utilisateurs externes (c’est-à-dire, les utilisateurs qui se connectent à partir de l’extérieur du pare-feu de votre organisation) puissent accéder aux présentations PowerPoint sur Office Web Apps Server, vous devrez utiliser Office Web Apps Server et un serveur proxy inverse tel que Microsoft Forefront Passerelle de gestion des menaces.</span><span class="sxs-lookup"><span data-stu-id="e4e0a-104">If you want external users (that is, users logging on from outside your organization’s firewall) to have access to Office Web Apps Server PowerPoint presentations then you will need to use Office Web Apps Server and a reverse proxy server such as Microsoft Forefront Threat Management Gateway.</span></span> <span data-ttu-id="e4e0a-105">Par ailleurs, vous devrez créer et configurer une règle de publication de site Web. Cette règle permet de garantir que les utilisateurs sont en mesure de se connecter au serveur.</span><span class="sxs-lookup"><span data-stu-id="e4e0a-105">That also means that you will need to create and configure a website publishing rule; that rule will help ensure that users are able to connect to the server.</span></span> <span data-ttu-id="e4e0a-106">Si vous n’avez pas besoin de fournir un accès aux utilisateurs externes, vous n’avez pas besoin de configurer une règle de publication de site Web.</span><span class="sxs-lookup"><span data-stu-id="e4e0a-106">If you do not need to provide access to external users then you do not need to configure a website publishing rule.</span></span>
 
-5.  Dans la page **Type de publication** , sélectionnez **Publier un seul site web ou équilibreur de charge** , puis cliquez sur **Suivant** .
+<span data-ttu-id="e4e0a-107">Pour configurer une règle de publication sur un site Web dans la passerelle gestion des menaces de Forefront, procédez comme suit:</span><span class="sxs-lookup"><span data-stu-id="e4e0a-107">To configure a website publishing rule in Forefront Threat Management Gateway complete the following procedure:</span></span>
 
-6.  Dans la page **Sécurité de connexion serveur** , sélectionnez **Utiliser SSL pour se connecter au serveur web publié ou à la batterie de serveurs** , puis cliquez sur **Suivant** .
+1.  <span data-ttu-id="e4e0a-108">Cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Forefront TMG**, puis sur gestion de **Forefront TMG**.</span><span class="sxs-lookup"><span data-stu-id="e4e0a-108">Click **Start**, click **All Programs**, click **Microsoft Forefront TMG**, and then click **Forefront TMG Management**.</span></span>
 
-7.  Dans la page **Détails de la publication interne** , tapez le nom de domaine complet du serveur Office Web Apps (par exemple, **officewebapps01.contoso.com** ) dans la zone **Nom de site local** , puis cliquez sur **Suivant** . Le nom entré dans la zone **Nom de site local** doit figurer dans le champ Sujet ou le champ Autre nom du sujet du certificat que vous avez affecté à Office Web Apps Server.
+2.  <span data-ttu-id="e4e0a-109">Dans Forefront TMG, cliquez avec le bouton droit sur **stratégie de pare-feu**, pointez sur **nouveau**, puis cliquez sur **règle de publication de site Web**.</span><span class="sxs-lookup"><span data-stu-id="e4e0a-109">In Forefront TMG, right-click **Firewall Policy**, point to **New**, and then click **Web Site Publishing Rule**.</span></span>
 
-8.  Dans la page **Détails de la publication interne** , tapez **/\*** dans la zone **Chemin d’accès (facultatif)** , puis cliquez sur **Suivant** . La syntaxe /\* garantit que tous les dossiers et sous-dossiers pour le site sont publiés.
+3.  <span data-ttu-id="e4e0a-110">Dans l’Assistant Nouvelle règle de publication Web, dans la page **Bienvenue dans l’Assistant Nouvelle règle de publication Web** , tapez un nom pour votre nouvelle règle dans la zone nom de la **règle de publication Web** (par exemple, **Office Web Apps Server Rule**), puis cliquez sur **suivant**.</span><span class="sxs-lookup"><span data-stu-id="e4e0a-110">In the New Web Publishing Rule Wizard, on the **Welcome to the New Web Publishing Rule Wizard** page, type a name for your new rule in the **Web publishing rule name** box (for example, **Office Web Apps Server Rule**) and then click **Next**.</span></span>
 
-9.  Dans la page **Informations sur les noms publics** , sélectionnez **Ce nom de domaine (saisissez ci-dessous)** dans la zone déroulante **Accepter les demandes pour** , puis tapez le nom complet de votre serveur Office Web Apps Server dans la zone de nom public. Ce nom doit être le même que le nom utilisé pour accéder à votre site web. Par exemple, si pour accéder à votre site, il faut utiliser l’URL http://officewebapps01.contoso.com, vous devez alors entrer **officewebapps01.contoso.com** dans la zone **Nom public** .
+4.  <span data-ttu-id="e4e0a-111">Dans la page **spécifier une action de règle** , sélectionnez **autoriser** , puis cliquez sur **suivant**.</span><span class="sxs-lookup"><span data-stu-id="e4e0a-111">On the **Specify Rule Action** page, select **Allow** and then click **Next**.</span></span>
 
-10. Cliquez sur **Suivant** .
+5.  <span data-ttu-id="e4e0a-112">Dans la page **type de publication** , sélectionnez **publier un site Web ou un équilibrage de charge** , puis cliquez sur **suivant**.</span><span class="sxs-lookup"><span data-stu-id="e4e0a-112">On the **Publishing Type** page, select **Publish a single Web site or load balancer** and then click **Next**.</span></span>
 
-11. Dans la page **Sélectionnez le port d’écoute** , cliquez sur **Nouveau** .
+6.  <span data-ttu-id="e4e0a-113">Dans la page sécurité de la **connexion au serveur** , sélectionnez **utiliser SSL pour se connecter au serveur Web ou à la batterie** de serveurs publié, puis cliquez sur **suivant**.</span><span class="sxs-lookup"><span data-stu-id="e4e0a-113">On the **Server Connection Security** page, select **Use SSL to connect to the published Web server or server farm** and then click **Next**.</span></span>
 
-12. Dans l’Assistant Nouvelle définition de port d’écoute web, tapez le nom du nouveau port d’écoute web (par exemple, **SSL** ) dans la zone **Nom du port d’écoute web** , puis cliquez sur **Suivant** .
+7.  <span data-ttu-id="e4e0a-114">Dans la page Détails de la **publication interne** , tapez le nom de domaine complet (FQDN) de votre serveur Office Web Apps (par exemple, **officewebapps01.contoso.com**) dans la zone **nom du site interne** , puis cliquez sur **suivant**.</span><span class="sxs-lookup"><span data-stu-id="e4e0a-114">On the **Internal Publishing Details** page, type the FQDN of your Office Web Apps server (for example, **officewebapps01.contoso.com**) in the **Internal site name** box and then click **Next**.</span></span> <span data-ttu-id="e4e0a-115">Le nom entré dans la zone **nom du site interne** doit apparaître dans le champ objet ou le champ autre nom de l’objet du certificat que vous avez attribué à Office Web Apps Server.</span><span class="sxs-lookup"><span data-stu-id="e4e0a-115">The name entered in the **Internal site name** box must appear in the Subject field or the Subject Alternative Name field of the certificate you have assigned to Office Web Apps Server.</span></span>
 
-13. Dans la page **Sécurité de la connexion cliente** , sélectionnez **Exiger les connexions sécurisées SSL avec les clients** , puis cliquez sur **Suivant** .
+8.  <span data-ttu-id="e4e0a-116">Dans la page Détails de la **publication interne** , entrez \*\* / \*\* le **chemin d’accès (facultatif)** , puis cliquez sur **suivant**.</span><span class="sxs-lookup"><span data-stu-id="e4e0a-116">On the **Internal Publishing Details** page, type **/\*** in the **Path (optional)** box and then click **Next**.</span></span> <span data-ttu-id="e4e0a-117">La\* syntaxe permet de s’assurer que tous les dossiers et sous-dossiers du site sont publiés.</span><span class="sxs-lookup"><span data-stu-id="e4e0a-117">The /\* syntax will help ensure that all the folders and subfolders for the site are published.</span></span>
 
-14. Dans la page **Adresses IP des ports d’écoute web** , sélectionnez **Externe** , sélectionnez **Interne** , puis cliquez sur **Suivant** .
+9.  <span data-ttu-id="e4e0a-118">Dans la page **Détails du nom public** , sélectionnez **ce nom de domaine (tapez ci-dessous)** dans la liste déroulante **accepter les demandes pour** et tapez le nom complet de votre serveur Office Web Apps dans la zone Nom du public.</span><span class="sxs-lookup"><span data-stu-id="e4e0a-118">On the **Public Name Details** page, select **This domain name (type below)** from the **Accept requests for** drop-down list and then type the fully qualified for your Office Web Apps Server in the Public name box.</span></span> <span data-ttu-id="e4e0a-119">Ce nom doit être le nom utilisé pour accéder à votre site Web.</span><span class="sxs-lookup"><span data-stu-id="e4e0a-119">This name should be the name used to access your website.</span></span> <span data-ttu-id="e4e0a-120">Par exemple, si vous accédez à votre site à l' http://officewebapps01.contoso.com aide de l’URL, entrez **officewebapps01.contoso.com** dans la zone **nom du public** .</span><span class="sxs-lookup"><span data-stu-id="e4e0a-120">For example, if your site is accessed using the URL http://officewebapps01.contoso.com then you should enter **officewebapps01.contoso.com** in the **Public name** box.</span></span>
 
-15. Dans la page **Certificats SSL du port d’écoute** , sélectionnez **Utiliser un seul certificat pour ce port d’écoute web** , puis cliquez sur **Sélectionner le certificat** .
+10. <span data-ttu-id="e4e0a-121">Cliquez sur **Suivant**.</span><span class="sxs-lookup"><span data-stu-id="e4e0a-121">Click **Next**.</span></span>
 
-16. Dans la boîte de dialogue **Sélectionner le certificat** , sélectionnez le certificat à utiliser pour ce port d’écoute web, puis cliquez sur **Sélectionner** .
+11. <span data-ttu-id="e4e0a-122">Dans la page **Sélectionner un écouteur Web** , cliquez sur **nouveau**.</span><span class="sxs-lookup"><span data-stu-id="e4e0a-122">On the **Select Web Listener** page, click **New**.</span></span>
 
-17. Dans la page **Certificats SSL du port d’écoute** , cliquez sur **Suivant** .
+12. <span data-ttu-id="e4e0a-123">Dans l’Assistant Nouvelle définition de l’écouteur Web, tapez un nom pour le nouvel écouteur Web (par exemple, **SSL**) dans la zone nom de l' **écouteur Web** , puis cliquez sur **suivant**.</span><span class="sxs-lookup"><span data-stu-id="e4e0a-123">In the New Web Listener Definition Wizard, type a name for the new Web listener (for example, **SSL**) in the **Web listener name** box and then click **Next**.</span></span>
 
-18. Dans la page **Paramètres d’authentification** , sélectionnez **Aucune authentification** dans la liste déroulante **Sélectionner la méthode avec laquelle les clients fourniront les informations d’identification à Forefront TMG** , puis cliquez sur **Suivant** .
+13. <span data-ttu-id="e4e0a-124">Dans la page **sécurité de connexion client** , sélectionnez **exiger des connexions SSL sécurisées avec les clients** , puis cliquez sur **suivant**.</span><span class="sxs-lookup"><span data-stu-id="e4e0a-124">On the **Client Connection Security** page, select **Require SSL secured connections with clients** and then click **Next**.</span></span>
 
-19. Dans la page **Paramètres de l’authentification unique** , cliquez sur **Suivant** .
+14. <span data-ttu-id="e4e0a-125">Dans la **page adresses IP** de l’écouteur Web, sélectionnez **externe**, sélectionnez **interne**, puis cliquez sur **suivant**.</span><span class="sxs-lookup"><span data-stu-id="e4e0a-125">On the **Web Listener IP Addresses** page, select **External**, select **Internal**, and then click **Next**.</span></span>
 
-20. Dans la page **Fin de l’Assistant Nouveau port d’écoute web** , vérifiez le résumé de vos choix de configuration. Lorsque c’est fait, cliquez sur **Terminer** .
+15. <span data-ttu-id="e4e0a-126">Sur la page **certificats SSL** de l’écouteur, sélectionnez **utiliser un certificat unique pour ce détecteur de site Web** , puis cliquez sur **Sélectionner un certificat**.</span><span class="sxs-lookup"><span data-stu-id="e4e0a-126">On the **Listener SSL Certificates** page, select **Use a single certificate for this Web Listener** and then click **Select Certificate**.</span></span>
 
-21. Dans la page **Sélectionnez le port d’écoute** , cliquez sur **Suivant** .
+16. <span data-ttu-id="e4e0a-127">Dans la boîte de dialogue **Sélectionner un certificat** , sélectionnez le certificat que vous voulez utiliser pour ce détecteur Web, puis cliquez sur **Sélectionner**.</span><span class="sxs-lookup"><span data-stu-id="e4e0a-127">In the **Select Certificate** dialog box, select the certificate to be used for this Web Listener and then click **Select**.</span></span>
 
-22. Dans la page **Délégation de l’authentification** , sélectionnez **Aucune délégation, mais le client peut s’authentifier directement** dans la liste déroulante **Sélectionner la méthode utilisée par Forefront TMG pour s’authentifier auprès du serveur web publié** , puis cliquez sur **Suivant** .
+17. <span data-ttu-id="e4e0a-128">Sur la page **certificats SSL** de l’écouteur, cliquez sur **suivant**.</span><span class="sxs-lookup"><span data-stu-id="e4e0a-128">On the **Listener SSL Certificates** page, click **Next**.</span></span>
 
-23. Dans la page **Ensembles d’utilisateurs** , confirmez que les ensembles d’utilisateurs appropriés sont répertoriés. Par défaut, il s’agit de l’ensemble d’utilisateurs **Tous les utilisateurs** . Cliquez sur **Ajouter** pour ajouter les autres ensembles d’utilisateurs que vous avez éventuellement définis. Lorsque c’est fait, cliquez sur **Suivant** .
+18. <span data-ttu-id="e4e0a-129">Dans la page **paramètres d’authentification** , sélectionnez **aucune authentification** dans la liste déroulante **Sélectionner la façon dont les clients fournissent des informations d’identification à l’aide de la liste déroulante Sélectionner la façon dont les clients doivent fournir des informations d’identification à** la \*\*\*\*</span><span class="sxs-lookup"><span data-stu-id="e4e0a-129">On the **Authentication Settings** page, select **No Authentication** from the **Select how clients will provide credentials to Forefront TMG** drop-down list, and then click **Next**.</span></span>
 
-24. Dans la page **Fin de l’Assistant Nouvelle règle de publication web** , cliquez sur **Terminer** .
+19. <span data-ttu-id="e4e0a-130">Dans la page **paramètres de connexion unique** , cliquez sur **suivant**.</span><span class="sxs-lookup"><span data-stu-id="e4e0a-130">On the **Single Sign On Settings** page, click **Next**.</span></span>
 
-Si vous cliquez sur **Terminer** , cela ne signifie pas que vous avez terminé la procédure ; en d’autres termes, la nouvelle règle n’est pas automatiquement appliquée. En fait, vous devez cliquer sur le bouton **Appliquer** qui s’affiche dans l’interface utilisateur de Forefront TMG. Lorsque vous cliquez sur **Appliquer** , la boîte de dialogue **Description de la modification de la configuration** s’affiche. Cliquez sur **Appliquer** dans cette boîte de dialogue pour activer la nouvelle règle de publication.
+20. <span data-ttu-id="e4e0a-131">Dans la page **fin de l’Assistant Nouvelle écoute Web** , consultez le résumé des choix de configuration que vous avez effectués.</span><span class="sxs-lookup"><span data-stu-id="e4e0a-131">On the **Completing the New Web Listener Wizard** page, review the summary of the configuration choices you have made.</span></span> <span data-ttu-id="e4e0a-132">Lorsque vous êtes prêt, cliquez sur **Terminer**.</span><span class="sxs-lookup"><span data-stu-id="e4e0a-132">When ready, click **Finish**.</span></span>
 
-Une fois que votre nouvelle règle a été appliquée, vous devez y apporter quelques modifications mineures pour que les utilisateurs puissent utiliser les fonctionnalités de présentation PowerPoint. Pour cela, procédez comme suit :
+21. <span data-ttu-id="e4e0a-133">Dans la page **Sélectionner un écouteur Web** , cliquez sur **suivant**.</span><span class="sxs-lookup"><span data-stu-id="e4e0a-133">On the **Select Web Listener** page, click **Next**.</span></span>
 
-1.  Dans Forefront TMG, cliquez avec le bouton droit sur le nom de la nouvelle règle de publication, puis cliquez sur **Propriétés** .
+22. <span data-ttu-id="e4e0a-134">Dans la page **délégation d’authentification** , sélectionnez **aucune délégation, mais le client pourra s’authentifier directement** dans la liste déroulante **Sélectionner la méthode utilisée par Forefront TMG pour s’authentifier dans la liste déroulante du serveur Web publié** , puis cliquez sur \*\*suivant. \*\*.</span><span class="sxs-lookup"><span data-stu-id="e4e0a-134">On the **Authentication Delegation** page, select **No delegation, but client may authenticate directly** from the **Select the method used by Forefront TMG to authenticate to the published Web server** drop-down list and then click **Next**.</span></span>
 
-2.  Dans la boîte de dialogue **Propriétés** , sous l’onglet **À** , sélectionnez l’option **Transmettre l’en-tête de l’hôte d’origine plutôt que l’en-tête réel** .
+23. <span data-ttu-id="e4e0a-135">Dans la page **ensembles d’utilisateurs** , vérifiez que les jeux d’utilisateurs appropriés apparaissent.</span><span class="sxs-lookup"><span data-stu-id="e4e0a-135">On the **User Sets** page, confirm that the appropriate user sets are listed.</span></span> <span data-ttu-id="e4e0a-136">Par défaut, il s’agit de l’utilisateur **tous les utilisateurs** définis.</span><span class="sxs-lookup"><span data-stu-id="e4e0a-136">By default, this is the **All Users** user set.</span></span> <span data-ttu-id="e4e0a-137">Cliquez sur **Ajouter** pour ajouter d’autres jeux d’utilisateurs que vous avez éventuellement définis.</span><span class="sxs-lookup"><span data-stu-id="e4e0a-137">Click **Add** to add other user sets you may have defined.</span></span> <span data-ttu-id="e4e0a-138">Lorsque vous avez terminé, cliquez sur **suivant**.</span><span class="sxs-lookup"><span data-stu-id="e4e0a-138">When complete, click **Next**.</span></span>
 
-3.  Sous l’onglet **Trafic** , cliquez sur **Filtrage** , puis sur **Configurer HTTP** .
+24. <span data-ttu-id="e4e0a-139">Dans la page **fin de l’Assistant Nouvelle règle de publication Web** , cliquez sur **Terminer**.</span><span class="sxs-lookup"><span data-stu-id="e4e0a-139">On the **Completing the New Web Publishing Rule Wizard** page, click **Finish**.</span></span>
 
-4.  Dans la boîte de dialogue **Configuration de la stratégie HTTP pour la règle** , désactivez la case à cocher **Vérifier la normalisation** , puis cliquez sur **OK** .
+<span data-ttu-id="e4e0a-140">Notez que le fait de cliquer sur **Terminer** ne signifie pas que vous avez terminé le processus. c’est-à-dire qu’elle n’est pas appliquée automatiquement et qu’elle est activée.</span><span class="sxs-lookup"><span data-stu-id="e4e0a-140">Note that clicking **Finish** does not mean that you completed the process; that is, this does not automatically apply and enable the new rule.</span></span> <span data-ttu-id="e4e0a-141">À la place, vous devrez cliquer sur le bouton **appliquer** qui s’affichera dans l’interface utilisateur de Forefront TMG.</span><span class="sxs-lookup"><span data-stu-id="e4e0a-141">Instead, you will need to click the **Apply** button that will appear in the Forefront TMG user interface.</span></span> <span data-ttu-id="e4e0a-142">Lorsque vous cliquez sur **appliquer** , la boîte de dialogue Description de la **modification de configuration** s’affiche.</span><span class="sxs-lookup"><span data-stu-id="e4e0a-142">When you click **Apply** the **Configuration Change Description** dialog box will appear.</span></span> <span data-ttu-id="e4e0a-143">Dans cette boîte de dialogue, cliquez sur **appliquer** pour activer la nouvelle règle de publication.</span><span class="sxs-lookup"><span data-stu-id="e4e0a-143">Click **Apply** in that dialog box to enable the new publishing rule.</span></span>
 
-5.  Dans la boîte de dialogue **Propriétés** , cliquez sur **OK** .
+<span data-ttu-id="e4e0a-144">Une fois votre nouvelle règle appliquée, vous devrez apporter quelques modifications mineures à la règle pour vous assurer que les utilisateurs peuvent utiliser les nouvelles fonctionnalités de présentation PowerPoint.</span><span class="sxs-lookup"><span data-stu-id="e4e0a-144">After your new rule has been applied, you will then need to make some minor modifications to the rule to make sure that users can use the new PowerPoint presentation capabilities.</span></span> <span data-ttu-id="e4e0a-145">Pour cela, procédez comme suit :</span><span class="sxs-lookup"><span data-stu-id="e4e0a-145">To do that, complete the following procedure:</span></span>
 
-6.  Dans Forefront TMG, cliquez sur **Appliquer** pour appliquer les modifications. Lorsque la boîte de dialogue **Description de la modification de la configuration** s’affiche, cliquez sur **Appliquer** .
+1.  <span data-ttu-id="e4e0a-146">Dans Forefront TMG, cliquez avec le bouton droit sur le nom de la nouvelle règle de publication, puis cliquez sur **Propriétés**.</span><span class="sxs-lookup"><span data-stu-id="e4e0a-146">In Forefront TMG, right-click the name of the new publishing rule and then click **Properties**.</span></span>
 
-Après avoir effectué l’installation, vous pouvez tester Office Web Apps Server à l’aide des procédures indiquées dans la rubrique [Validation de la configuration d’Office Web Apps Server dans Lync Server 2013](lync-server-2013-validating-the-configuration-of-office-web-apps-server.md).
+2.  <span data-ttu-id="e4e0a-147">Dans la boîte de dialogue **Propriétés** , sous l’onglet **à** , sélectionnez l’option **transférer l’en-tête d’hôte d’origine au lieu de l’en-tête réel**.</span><span class="sxs-lookup"><span data-stu-id="e4e0a-147">In the **Properties** dialog box, on the **To** tab, select the option **Forward the original host header instead of the actual one**.</span></span>
+
+3.  <span data-ttu-id="e4e0a-148">Dans l’onglet **trafic** , cliquez sur **filtrage** , puis sur **configurer http**.</span><span class="sxs-lookup"><span data-stu-id="e4e0a-148">On the **Traffic** tab, click **Filtering** and then click **Configure HTTP**.</span></span>
+
+4.  <span data-ttu-id="e4e0a-149">Dans la boîte de dialogue Configuration de la **stratégie http pour la règle** , décochez la case **Vérifier la normalisation** , puis cliquez sur **OK**.</span><span class="sxs-lookup"><span data-stu-id="e4e0a-149">In the **Configuring HTTP policy for rule** dialog box, clear the **Verify normalization** check box and then click **OK**.</span></span>
+
+5.  <span data-ttu-id="e4e0a-150">Dans la boîte de dialogue **Propriétés** , cliquez sur **OK**.</span><span class="sxs-lookup"><span data-stu-id="e4e0a-150">In the **Properties** dialog box, click **OK**.</span></span>
+
+6.  <span data-ttu-id="e4e0a-151">Dans Forefront TMG, cliquez sur **appliquer** pour activer les modifications.</span><span class="sxs-lookup"><span data-stu-id="e4e0a-151">In Forefront TMG, click **Apply** to enable the changes.</span></span> <span data-ttu-id="e4e0a-152">Lorsque la boîte de dialogue Description de la modification de la **configuration** s’affiche, cliquez sur **appliquer**.</span><span class="sxs-lookup"><span data-stu-id="e4e0a-152">When the **Configuration Change Description** dialog box appears, click **Apply**.</span></span>
+
+<span data-ttu-id="e4e0a-153">À l’issue de l’installation, vous pouvez tester votre serveur Office Web Apps en suivant les procédures décrites dans la rubrique [vérification de la configuration d’Office Web Apps Server dans Lync Server 2013](lync-server-2013-validating-the-configuration-of-office-web-apps-server.md).</span><span class="sxs-lookup"><span data-stu-id="e4e0a-153">After completing the installation you can test your Office Web Apps Server using the procedures in the topic [Validating the configuration of Office Web Apps Server in Lync Server 2013](lync-server-2013-validating-the-configuration-of-office-web-apps-server.md).</span></span>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

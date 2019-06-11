@@ -1,53 +1,89 @@
-﻿---
-title: 'Lync Server 2013 : Planification des URL simples'
-TOCTitle: Planification des URL simples
-ms:assetid: 20e4f4b6-b7ff-4297-b00d-d1211ee800ac
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398287(v=OCS.15)
-ms:contentKeyID: 49296472
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Planification des URL simples'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Planning for simple URLs
+ms:assetid: 20e4f4b6-b7ff-4297-b00d-d1211ee800ac
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398287(v=OCS.15)
+ms:contentKeyID: 48183610
+ms.date: 12/12/2015
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 17dbfce9f699f31e09bb66d6d596e0a3cbf0ba96
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34824224"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Planification des URL simples dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2015-12-11_
+# <a name="planning-for-simple-urls-in-lync-server-2013"></a><span data-ttu-id="3ebe3-102">Planification des URL simples dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3ebe3-102">Planning for simple URLs in Lync Server 2013</span></span>
 
-Grâce aux URL simples les utilisateurs peuvent rejoindre les réunions plus facilement et les administrateurs peuvent accéder aux outils d’administration Lync Server en un clin d’œil.
+</div>
 
-Lync Server prend en charge trois URL simples :
+<div id="mainSection">
 
-  - **Meet** qui est l’URL de réunion de base pour toutes les conférences dans le site ou l’organisation. Un exemple d’URL simple de réunion est https://meet.contoso.com. Une URL de réunion particulière serait https://meet.contoso.com/ *nomutilisateur* /7322994.
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="3ebe3-103">_**Dernière modification de la rubrique:** 2015-12-11_</span><span class="sxs-lookup"><span data-stu-id="3ebe3-103">_**Topic Last Modified:** 2015-12-11_</span></span>
+
+<span data-ttu-id="3ebe3-104">Les URL simples permettent de participer plus facilement à des réunions pour vos utilisateurs et permettent d’accéder plus facilement aux outils d’administration de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="3ebe3-104">Simple URLs make joining meetings easier for your users, and make getting to Lync Server administrative tools easier for your administrators.</span></span>
+
+<span data-ttu-id="3ebe3-105">Lync Server prend en charge trois URL simples:</span><span class="sxs-lookup"><span data-stu-id="3ebe3-105">Lync Server supports three simple URLs:</span></span>
+
+  - <span data-ttu-id="3ebe3-106">La **fonction réunion** est utilisée comme URL de base pour toutes les conférences du site ou de l’organisation.</span><span class="sxs-lookup"><span data-stu-id="3ebe3-106">**Meet** is used as the base URL for all conferences in the site or organization.</span></span> <span data-ttu-id="3ebe3-107">Par exemple, une URL de réunion simple https://meet.contoso.comest.</span><span class="sxs-lookup"><span data-stu-id="3ebe3-107">An example of a Meet simple URL is https://meet.contoso.com.</span></span> <span data-ttu-id="3ebe3-108">Une URL pour une réunion particulière peut être https://meet.contoso.com/ *nom d’utilisateur*/7322994.</span><span class="sxs-lookup"><span data-stu-id="3ebe3-108">A URL for a particular meeting might be https://meet.contoso.com/*username*/7322994.</span></span>
     
-    Avec l’URL simple de réunion, les liens pour participer à des réunions sont faciles à comprendre, à communiquer et à distribuer.
+    <span data-ttu-id="3ebe3-109">Avec l’URL de la réunion, vous pouvez facilement comprendre les liens permettant de participer à des réunions, et facilement communiquer et diffuser.</span><span class="sxs-lookup"><span data-stu-id="3ebe3-109">With the Meet simple URL, links to join meetings are easy to comprehend, and easy to communicate and distribute.</span></span>
 
-  - **Dial-in** URL simple d’accès qui permet d’accéder à la page web des paramètres de conférence rendez-vous. Cette page indique les numéros d’accès aux conférences et les langues dans lesquels ils sont disponibles. Elle présente également les informations relatives aux conférences affectées aux utilisateurs (c’est-à-dire, pour les réunions qui ne doivent pas être planifiées) et comporte des contrôles DTMF à utiliser en cours de conférence. Enfin, elle permet aux utilisateurs de gérer leur code confidentiel et les informations relatives aux conférences qui leur ont été affectées. L’URL simple d’accès est incluse dans toutes les invitations aux réunions pour que les utilisateurs qui souhaitent se connecter à une réunion puissent accéder au numéro de téléphone et aux informations de code confidentiel nécessaires. Un exemple d’URL simple d’accès est https://dialin.contoso.com.
+  - <span data-ttu-id="3ebe3-110">Le rendez **-** vous permet d’accéder à la page Web des paramètres de conférence rendez-vous.</span><span class="sxs-lookup"><span data-stu-id="3ebe3-110">**Dial-in** enables access to the Dial-in Conferencing Settings webpage.</span></span> <span data-ttu-id="3ebe3-111">Cette page présente les numéros de conférence rendez-vous avec les langues disponibles, les informations de conférence affectées (c’est-à-dire pour les réunions qui n’ont pas besoin d’être planifiées), les commandes DTMF en conférence et prend en charge la gestion du numéro d’identification personnel ( Code confidentiel) et informations de conférence affectées.</span><span class="sxs-lookup"><span data-stu-id="3ebe3-111">This page displays conference dial-in numbers with their available languages, assigned conference information (that is, for meetings that do not need to be scheduled), and in-conference DTMF controls, and supports management of personal identification number (PIN) and assigned conferencing information.</span></span> <span data-ttu-id="3ebe3-112">L’URL d’accès à un rendez-vous est incluse dans toutes les invitations à une réunion de sorte que les utilisateurs qui souhaitent se connecter à la réunion puissent accéder au numéro de téléphone et aux informations de code confidentiel nécessaires.</span><span class="sxs-lookup"><span data-stu-id="3ebe3-112">The Dial-in simple URL is included in all meeting invitations so that users who want to dial in to the meeting can access the necessary phone number and PIN information.</span></span> <span data-ttu-id="3ebe3-113">Par exemple, l’URL de connexion simple est https://dialin.contoso.com.</span><span class="sxs-lookup"><span data-stu-id="3ebe3-113">An example of the Dial-in simple URL is https://dialin.contoso.com.</span></span>
 
-  - **Admin** URL d’administration qui permet d’accéder rapidement au Panneau de configuration Lync Server. Depuis un ordinateur derrière les pare-feu de l’organisation, un administrateur peut ouvrir le Panneau de configuration Lync Server en tapant l’URL simple d’administration dans un navigateur. L’URL simple d’administration est interne à votre organisation. Un exemple d’URL simple d’administration est https://admin.contoso.com.
+  - <span data-ttu-id="3ebe3-114">L' **administrateur** vous permet d’accéder rapidement au panneau de configuration de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="3ebe3-114">**Admin** enables quick access to the Lync Server Control Panel.</span></span> <span data-ttu-id="3ebe3-115">À partir de n’importe quel ordinateur au sein des pare-feu de votre organisation, un administrateur peut ouvrir le panneau de configuration de Lync Server en entrant l’URL simple d’administration dans un navigateur.</span><span class="sxs-lookup"><span data-stu-id="3ebe3-115">From any computer within your organization’s firewalls, an admin can open the Lync Server Control Panel by typing the Admin simple URL into a browser.</span></span> <span data-ttu-id="3ebe3-116">L’URL simple Admin est interne à votre organisation.</span><span class="sxs-lookup"><span data-stu-id="3ebe3-116">The Admin simple URL is internal to your organization.</span></span> <span data-ttu-id="3ebe3-117">Par exemple, l’URL d’administration simple esthttps://admin.contoso.com</span><span class="sxs-lookup"><span data-stu-id="3ebe3-117">An example of the Admin simple URL is https://admin.contoso.com</span></span>
 
-## Étendue des URL simples
+<div>
 
-Vous pouvez configurer les URL simples de sorte que leur étendue soit globale mais vous pouvez également spécifier des URL simples différentes pour chaque site central dans votre organisation. Si une URL simple globale et une URL simple de site sont spécifiées, l’URL simple de site prévaut.
+## <a name="simple-url-scope"></a><span data-ttu-id="3ebe3-118">Étendue d’URL simple</span><span class="sxs-lookup"><span data-stu-id="3ebe3-118">Simple URL Scope</span></span>
 
-Dans la plupart des cas, nous vous conseillons de définir des URL simples uniquement au niveau global, pour que l’URL simple de réunion d’un utilisateur ne change pas si celui-ci passe d’un site à un autre ; en revanche ne définissez pas d’URL globales pour les organisations qui doivent utiliser des numéros de téléphone différents pour les utilisateurs se trouvant dans différents sites. Notez que si vous définissez une URL simple (par exemple, une URL simple d’accès) en tant qu’URL simple de site pour un site, vous devez également définir les autres URL simples pour ce site en tant qu’URL simples de site.
+<span data-ttu-id="3ebe3-119">Vous pouvez configurer vos URL simples pour qu’elles aient une étendue globale ou spécifier différentes URL simples pour chaque site central de votre organisation.</span><span class="sxs-lookup"><span data-stu-id="3ebe3-119">You can configure your simple URLs to have global scope, or you can specify different simple URLs for each central site in your organization.</span></span> <span data-ttu-id="3ebe3-120">S’il s’agit d’une URL simple d’étendue globale et d’une URL simple d’étendue de site, l’URL d’étendue du site est prioritaire.</span><span class="sxs-lookup"><span data-stu-id="3ebe3-120">If both a global scope simple URL and a site scope simple URL are specified, the site scope simple URL has precedence.</span></span>
 
-Vous pouvez définir des URL simples globales dans le Générateur de topologie. En revanche, pour définir une URL simple de site, vous devez utiliser l’applet de commande Set-CsSimpleURLConfiguration.
+<span data-ttu-id="3ebe3-121">Dans la plupart des cas, nous vous conseillons de définir des URL simples uniquement au niveau global, de telle sorte que l’URL de la réunion n’est pas la même que celle d’un site à l’autre.</span><span class="sxs-lookup"><span data-stu-id="3ebe3-121">In most cases, we recommend that you set simple URLs only at the global level, so that a user’s Meet simple URL does not change if they move from one site to another.</span></span> <span data-ttu-id="3ebe3-122">Il peut s’agir d’organisations qui ont besoin d’utiliser différents numéros de téléphone pour les utilisateurs rendez-vous sur différents sites.</span><span class="sxs-lookup"><span data-stu-id="3ebe3-122">The exception would be organizations that need to use different telephone numbers for dial-in users at different sites.</span></span> <span data-ttu-id="3ebe3-123">Notez que si vous définissez une URL simple (par exemple, l’URL d’accès à la Conférence rendez-vous) sur un site, vous devez également définir d’autres URL simples sur ce site comme niveau de site.</span><span class="sxs-lookup"><span data-stu-id="3ebe3-123">Note that if you set one simple URL (such as the Dial-in simple URL) at a site to be a site-level simple URL, you must also set the other simple URLs at that site to be site-level as well.</span></span>
 
-## Dénomination des URL simples
+<div>
 
-Il existe trois options recommandées pour nommer les URL simples. L’option que vous choisissez influe sur la configuration des enregistrements et des certificats DNS A qui prennent en charge les URL simples. Dans chaque option, vous devez configurer une URL simple de réunion pour chaque domaine SIP dans votre organisation.
 
-Dans votre organisation, une seule URL simple est nécessaire pour l’accès et une seule pour l’administration, quel que soit le nombre de domaines dont vous disposez.
+> [!NOTE]  
+> <span data-ttu-id="3ebe3-124">Si vous choisissez d’utiliser des URL simples à portée de site, vos utilisateurs ne seront pas en mesure de basculer entre les listes frontales sur les différents sites sans que les utilisateurs replanifient toutes leurs réunions planifiées, car les URL simples de la réunion sont différentes entre les sites.</span><span class="sxs-lookup"><span data-stu-id="3ebe3-124">If you choose to use site scoped simple URLs, your users won't be able to move between Front-End pools in different sites without those users rescheduling all of their scheduled meetings as the meeting simple URLs are different between sites.</span></span> <span data-ttu-id="3ebe3-125">Cela inclut les scénarios de basculement dans lesquels les relations de sauvegarde se trouvent dans des sites distincts.</span><span class="sxs-lookup"><span data-stu-id="3ebe3-125">This includes fail-over scenarios where pools in backup relationships are in separate sites.</span></span> <span data-ttu-id="3ebe3-126">Lorsque vous avez besoin de basculer entre les sites dans lesquels les URL simples de votre site sont déployées, les utilisateurs ne seront pas en mesure de rejoindre leurs réunions en raison de l’étendue de l’URL.</span><span class="sxs-lookup"><span data-stu-id="3ebe3-126">When you need to fail-over between sites where site scoped simple URLs are deployed, users won't be able to join their meetings because of the scope for URL.</span></span> <span data-ttu-id="3ebe3-127">Pour plus d’informations, consultez <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsSimpleUrlConfiguration">Get-CsSimpleUrlConfiguration</A>.</span><span class="sxs-lookup"><span data-stu-id="3ebe3-127">For further information, check <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsSimpleUrlConfiguration">Get-CsSimpleUrlConfiguration</A>.</span></span>
 
-Pour plus d’informations sur les enregistrements et les certificats DNS A nécessaires, reportez-vous à [Enregistrements DNS requis pour les URL simples dans Lync Server 2013](lync-server-2013-dns-requirements-for-simple-urls.md) et [Exigences de certificat pour les serveurs internes dans Lync Server 2013](lync-server-2013-certificate-requirements-for-internal-servers.md) dans la documentation de planification.
 
-Dans l’option 1, vous devez créer un nom de domaine SIP pour chaque URL simple.
 
-Si vous utilisez cette option, vous devez prévoir un enregistrement DNS A distinct pour chaque URL simple et chaque URL simple de réunion doit être nommée dans les certificats.
+</div>
 
-### Option 1 de dénomination d’URL simple
+<span data-ttu-id="3ebe3-128">Vous pouvez définir des URL simples globales dans le générateur de topologie.</span><span class="sxs-lookup"><span data-stu-id="3ebe3-128">You can set global simple URLs in Topology Builder.</span></span> <span data-ttu-id="3ebe3-129">Pour définir une URL simple au niveau du site, vous devez utiliser l’applet de cmdlet Set-CsSimpleURLConfiguration.</span><span class="sxs-lookup"><span data-stu-id="3ebe3-129">To set a simple URL at the site level, you must use the Set-CsSimpleURLConfiguration cmdlet.</span></span>
+
+</div>
+
+<div>
+
+## <a name="naming-your-simple-urls"></a><span data-ttu-id="3ebe3-130">Attribution d’un nom à vos URL simples</span><span class="sxs-lookup"><span data-stu-id="3ebe3-130">Naming Your Simple URLs</span></span>
+
+<span data-ttu-id="3ebe3-131">Il existe trois options recommandées pour nommer vos URL simples.</span><span class="sxs-lookup"><span data-stu-id="3ebe3-131">There are three recommended options for naming your simple URLs.</span></span> <span data-ttu-id="3ebe3-132">L’option que vous choisissez a des implications sur la configuration de vos enregistrements DNS A et des certificats qui prennent en charge des URL simples.</span><span class="sxs-lookup"><span data-stu-id="3ebe3-132">Which option you choose has implications for how you set up your DNS A records and certificates which support simple URLs.</span></span> <span data-ttu-id="3ebe3-133">Dans chaque option, vous devez configurer une seule URL de la réunion pour chaque domaine SIP de votre organisation.</span><span class="sxs-lookup"><span data-stu-id="3ebe3-133">In each option, you must configure one Meet simple URL for each SIP domain in your organization.</span></span>
+
+<span data-ttu-id="3ebe3-134">Vous avez toujours besoin d’une seule URL dans l’ensemble de votre organisation pour le rendez-vous, et l’autre pour l’administrateur, quel que soit le nombre de domaines SIP.</span><span class="sxs-lookup"><span data-stu-id="3ebe3-134">You always need just one simple URL in your whole organization for Dial-in, and one for Admin, no matter how many SIP domains you have.</span></span>
+
+<span data-ttu-id="3ebe3-135">Pour plus d’informations sur les enregistrements et les certificats DNS requis, voir [exigences DNS pour les URL simples dans Lync server 2013](lync-server-2013-dns-requirements-for-simple-urls.md) et les [certificats requis pour les serveurs internes dans Lync Server 2013](lync-server-2013-certificate-requirements-for-internal-servers.md) dans la documentation de planification.</span><span class="sxs-lookup"><span data-stu-id="3ebe3-135">For details about the necessary DNS A records and certificates, see [DNS requirements for simple URLs in Lync Server 2013](lync-server-2013-dns-requirements-for-simple-urls.md) and [Certificate requirements for internal servers in Lync Server 2013](lync-server-2013-certificate-requirements-for-internal-servers.md) in the Planning documentation.</span></span>
+
+<span data-ttu-id="3ebe3-136">Dans l’option 1, vous créez un nouveau nom de domaine SIP pour chaque URL simple.</span><span class="sxs-lookup"><span data-stu-id="3ebe3-136">In Option 1, you create a new SIP domain name for each simple URL.</span></span>
+
+<span data-ttu-id="3ebe3-137">Si vous utilisez cette option, vous avez besoin d’un enregistrement DNS A distinct pour chaque URL simple et chaque URL de la réunion doit être nommée dans vos certificats.</span><span class="sxs-lookup"><span data-stu-id="3ebe3-137">If you use this option, you need a separate DNS A record for each simple URL, and each Meet simple URL must be named in your certificates.</span></span>
+
+### <a name="simple-url-naming-option-1"></a><span data-ttu-id="3ebe3-138">Option de nom d’URL simple 1</span><span class="sxs-lookup"><span data-stu-id="3ebe3-138">Simple URL Naming Option 1</span></span>
 
 <table>
 <colgroup>
@@ -56,28 +92,28 @@ Si vous utilisez cette option, vous devez prévoir un enregistrement DNS A disti
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><strong>URL simple</strong></p></td>
-<td><p><strong>Exemple</strong></p></td>
+<td><p><span data-ttu-id="3ebe3-139"><strong>URL simple</strong></span><span class="sxs-lookup"><span data-stu-id="3ebe3-139"><strong>Simple URL</strong></span></span></p></td>
+<td><p><span data-ttu-id="3ebe3-140"><strong>Exemple</strong></span><span class="sxs-lookup"><span data-stu-id="3ebe3-140"><strong>Example</strong></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Meet</p></td>
-<td><p>https://meet.contoso.com, https://meet.fabrikam.com et ainsi de suite (une URL pour chaque domaine SIP dans votre organisation)</p></td>
+<td><p><span data-ttu-id="3ebe3-141">Correspondre</span><span class="sxs-lookup"><span data-stu-id="3ebe3-141">Meet</span></span></p></td>
+<td><p><span data-ttu-id="3ebe3-142">https://meet.contoso.com, https://meet.fabrikam.comet ainsi de suite (un pour chaque domaine SIP de votre organisation)</span><span class="sxs-lookup"><span data-stu-id="3ebe3-142">https://meet.contoso.com, https://meet.fabrikam.com, and so on (one for each SIP domain in your organization)</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Appel entrant</p></td>
+<td><p><span data-ttu-id="3ebe3-143">Rendez-vous</span><span class="sxs-lookup"><span data-stu-id="3ebe3-143">Dial-in</span></span></p></td>
 <td><p>https://dialin.contoso.com</p></td>
 </tr>
 <tr class="even">
-<td><p>Admin</p></td>
+<td><p><span data-ttu-id="3ebe3-144">Administrateur</span><span class="sxs-lookup"><span data-stu-id="3ebe3-144">Admin</span></span></p></td>
 <td><p>https://admin.contoso.com</p></td>
 </tr>
 </tbody>
 </table>
 
 
-Avec l’option 2, les URL simples sont basées sur le nom de domaine lync.contoso.com. Par conséquent, vous n’avez besoin que d’un seul enregistrement DNS A pour les trois types d’URL simple. Cet enregistrement DNS A référence lync.contoso.com. Mais vous avez quand même besoin d’enregistrements DNS A distincts pour les autres domaines SIP dans votre organisation.
+<span data-ttu-id="3ebe3-145">Avec l’option 2, les URL simples sont basées sur le nom de domaine lync.contoso.com.</span><span class="sxs-lookup"><span data-stu-id="3ebe3-145">With Option 2, simple URLs are based on the domain name lync.contoso.com.</span></span> <span data-ttu-id="3ebe3-146">Par conséquent, vous avez besoin d’un enregistrement DNS A qui active les trois types d’URL simples.</span><span class="sxs-lookup"><span data-stu-id="3ebe3-146">Therefore, you need only one DNS A record which enables all three types of simple URLs.</span></span> <span data-ttu-id="3ebe3-147">Cet enregistrement DNS A fait référence à lync.contoso.com.</span><span class="sxs-lookup"><span data-stu-id="3ebe3-147">This DNS A record references lync.contoso.com.</span></span> <span data-ttu-id="3ebe3-148">Par ailleurs, vous avez encore besoin d’enregistrements DNS A séparés pour d’autres domaines SIP de votre organisation.</span><span class="sxs-lookup"><span data-stu-id="3ebe3-148">Additionally, you still need separate DNS A records for other SIP domains in your organization.</span></span>
 
-### Option 2 de dénomination d’URL simple
+### <a name="simple-url-naming-option-2"></a><span data-ttu-id="3ebe3-149">Option de nom d’URL simple 2</span><span class="sxs-lookup"><span data-stu-id="3ebe3-149">Simple URL Naming Option 2</span></span>
 
 <table>
 <colgroup>
@@ -86,28 +122,28 @@ Avec l’option 2, les URL simples sont basées sur le nom de domaine lync.cont
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><strong>URL simple</strong></p></td>
-<td><p><strong>Exemple</strong></p></td>
+<td><p><span data-ttu-id="3ebe3-150"><strong>URL simple</strong></span><span class="sxs-lookup"><span data-stu-id="3ebe3-150"><strong>Simple URL</strong></span></span></p></td>
+<td><p><span data-ttu-id="3ebe3-151"><strong>Exemple</strong></span><span class="sxs-lookup"><span data-stu-id="3ebe3-151"><strong>Example</strong></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Meet</p></td>
-<td><p>https://lync.contoso.com/Meet, https://lync.fabrikam.com/Meet et ainsi de suite (une URL pour chaque domaine SIP dans votre organisation)</p></td>
+<td><p><span data-ttu-id="3ebe3-152">Correspondre</span><span class="sxs-lookup"><span data-stu-id="3ebe3-152">Meet</span></span></p></td>
+<td><p><span data-ttu-id="3ebe3-153">https://lync.contoso.com/Meet, https://lync.fabrikam.com/Meetet ainsi de suite (un pour chaque domaine SIP de votre organisation)</span><span class="sxs-lookup"><span data-stu-id="3ebe3-153">https://lync.contoso.com/Meet, https://lync.fabrikam.com/Meet, and so on (one for each SIP domain in your organization)</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Appel entrant</p></td>
+<td><p><span data-ttu-id="3ebe3-154">Rendez-vous</span><span class="sxs-lookup"><span data-stu-id="3ebe3-154">Dial-in</span></span></p></td>
 <td><p>https://lync.contoso.com/Dialin</p></td>
 </tr>
 <tr class="even">
-<td><p>Admin</p></td>
+<td><p><span data-ttu-id="3ebe3-155">Administrateur</span><span class="sxs-lookup"><span data-stu-id="3ebe3-155">Admin</span></span></p></td>
 <td><p>https://lync.contoso.com/Admin</p></td>
 </tr>
 </tbody>
 </table>
 
 
-L’option 3 est particulièrement utile si vous disposez de plusieurs domaines SIP et si vous souhaitez qu’ils aient des URL simples de réunion distinctes mais souhaitez réduire les enregistrements et les certificats DNS requis pour ces URL simples.
+<span data-ttu-id="3ebe3-156">L’option 3 est particulièrement utile si vous avez de nombreux domaines SIP et que vous souhaitez qu’ils soient séparés par des URL simples et qu’ils souhaitent limiter les exigences d’enregistrements DNS et de certificats pour ces URL simples.</span><span class="sxs-lookup"><span data-stu-id="3ebe3-156">Option 3 is most useful if you have many SIP domains, and you want them to have separate Meet simple URLs but want to minimize the DNS record and certificate requirements for these simple URLs.</span></span>
 
-### Option 3 de dénomination d’URL simple
+### <a name="simple-url-naming-option-3"></a><span data-ttu-id="3ebe3-157">Option de nom d’URL simple 3</span><span class="sxs-lookup"><span data-stu-id="3ebe3-157">Simple URL Naming Option 3</span></span>
 
 <table>
 <colgroup>
@@ -116,43 +152,67 @@ L’option 3 est particulièrement utile si vous disposez de plusieurs domaines 
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><strong>URL simple</strong></p></td>
-<td><p><strong>Exemple</strong></p></td>
+<td><p><span data-ttu-id="3ebe3-158"><strong>URL simple</strong></span><span class="sxs-lookup"><span data-stu-id="3ebe3-158"><strong>Simple URL</strong></span></span></p></td>
+<td><p><span data-ttu-id="3ebe3-159"><strong>Exemple</strong></span><span class="sxs-lookup"><span data-stu-id="3ebe3-159"><strong>Example</strong></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Meet</p></td>
+<td><p><span data-ttu-id="3ebe3-160">Correspondre</span><span class="sxs-lookup"><span data-stu-id="3ebe3-160">Meet</span></span></p></td>
 <td><p>https://lync.contoso.com/contosoSIPdomain/Meet</p>
 <p>https://lync.contoso.com/fabrikamSIPdomain/Meet</p></td>
 </tr>
 <tr class="odd">
-<td><p>Appel entrant</p></td>
+<td><p><span data-ttu-id="3ebe3-161">Rendez-vous</span><span class="sxs-lookup"><span data-stu-id="3ebe3-161">Dial-in</span></span></p></td>
 <td><p>https://lync.contoso.com/Dialin</p></td>
 </tr>
 <tr class="even">
-<td><p>Admin</p></td>
+<td><p><span data-ttu-id="3ebe3-162">Administrateur</span><span class="sxs-lookup"><span data-stu-id="3ebe3-162">Admin</span></span></p></td>
 <td><p>https://lync.contoso.com/Admin</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Dénomination d’URL simple et règles de validation
+<div>
 
-Les applets de commande du Générateur de topologie et de Lync Server Management Shell appliquent plusieurs règles de validation pour les URL simples. Vous devez définir des URL simples pour les réunions et l’accès et éventuellement une URL pour l’administration. Chaque domaine SIP doit avoir une URL simple de réunion mais une seule URL simple est nécessaire pour l’accès et une seule pour l’administration dans toute l’organisation.
+## <a name="simple-url-naming-and-validation-rules"></a><span data-ttu-id="3ebe3-163">Règles de validation et d’attribution d’URL simples</span><span class="sxs-lookup"><span data-stu-id="3ebe3-163">Simple URL Naming and Validation Rules</span></span>
 
-Chaque URL simple dans l’organisation doit avoir un nom unique. Ce nom ne peut pas être le préfixe d’une autre URL simple (par exemple, vous ne pouvez pas définir lync.contoso.com/Meet comme URL simple de réunion et lync.contoso.com/Meet/Dialin comme URL simple d’accès). Les noms d’URL simples ne peuvent pas contenir le nom de domaine complet d’un pool ou les informations relatives à un port (par exemple, https://FQDN:88/meet n’est pas autorisé). Toutes les URL simples doivent commencer par le préfixe https://.
+<span data-ttu-id="3ebe3-164">Le générateur de topologie et les applets de contrôle Lync Server Management Shell appliquent plusieurs règles de validation pour vos URL simples.</span><span class="sxs-lookup"><span data-stu-id="3ebe3-164">Topology Builder and the Lync Server Management Shell cmdlets enforce several validation rules for your simple URLs.</span></span> <span data-ttu-id="3ebe3-165">Vous devez définir des URL simples pour la réunion et le numéro de téléphone, mais la définition d’une pour l’administrateur est facultative.</span><span class="sxs-lookup"><span data-stu-id="3ebe3-165">You are required to set simple URLs for Meet and Dialin, but setting one for Admin is optional.</span></span> <span data-ttu-id="3ebe3-166">Chaque domaine SIP doit être doté d’une URL simple de connexion, mais vous n’avez besoin que d’une seule URL de composition unique et d’une URL simple d’administration pour l’ensemble de votre organisation.</span><span class="sxs-lookup"><span data-stu-id="3ebe3-166">Each SIP domain must have a separate Meet simple URL, but you need only one Dialin simple URL and one Admin simple URL for your whole organization.</span></span>
 
-Les URL simples peuvent uniquement contenir des caractères alphanumériques, c’est-à-dire a-z, A-Z, 0-9 et le point (.). Si vous utilisez d’autres caractères, les URL simples peuvent ne pas fonctionner comme prévu.
+<span data-ttu-id="3ebe3-167">Chaque URL simple de votre organisation doit avoir un nom unique et ne peut pas être un préfixe d’une autre URL simple (par exemple, vous n’avez pas pu définir lync.contoso.com/Meet comme URL simple de la Conférence).</span><span class="sxs-lookup"><span data-stu-id="3ebe3-167">Each simple URL in your organization must have a unique name, and cannot be a prefix of another simple URL (for example, you could not set lync.contoso.com/Meet as your Meet simple URL and lync.contoso.com/Meet/Dialin as your Dialin simple URL).</span></span> <span data-ttu-id="3ebe3-168">Les noms d’URL simples ne peuvent pas contenir le nom de domaine complet de l’un de vos groupes, https://FQDN:88/meet ni aucune information de port (par exemple, n’est pas autorisée).</span><span class="sxs-lookup"><span data-stu-id="3ebe3-168">Simple URL names cannot contain the FQDN of any of your pools, or any port information (for example, https://FQDN:88/meet is not allowed).</span></span> <span data-ttu-id="3ebe3-169">Toutes les URL simples doivent commencer par le préfixe https://.</span><span class="sxs-lookup"><span data-stu-id="3ebe3-169">All simple URLs must start with the https:// prefix.</span></span>
 
-## Modifications des URL simples après leur déploiement
+<span data-ttu-id="3ebe3-170">Les URL simples peuvent contenir des caractères alphanumériques (c’est-à-dire, a-z, A-Z, 0-9 et le point (.).</span><span class="sxs-lookup"><span data-stu-id="3ebe3-170">Simple URLs can contain only alphanumeric characters (that is, a-z, A-Z, 0-9, and the period (.).</span></span> <span data-ttu-id="3ebe3-171">Si vous utilisez d’autres caractères, les URL simples risquent de ne pas fonctionner comme prévu.</span><span class="sxs-lookup"><span data-stu-id="3ebe3-171">If you use other characters, the simple URLs might not work as expected.</span></span>
 
-Si vous modifiez une URL simple après son déploiement, vous devez savoir en quoi cette modification risque d’altérer les enregistrements et les certificats DNS pour les URL simples. Si la base d’une URL simple est modifiée, vous devez également modifier les enregistrements et les certificats DNS. Par exemple, si vous modifiez https://lync.contoso.com/Meet de sorte qu’elle devienne https://meet.contoso.com, l’URL de base change, lync.contoso.com est remplacé par meet.contoso.com. Par conséquent, vous devez modifier les enregistrements et les certificats DNS de sorte qu’ils fassent référence à meet.contoso.com. Si vous avez modifié l’URL simple, de sorte que https://lync.contoso.com/Meet devienne https://lync.contoso.com/Meetings, l’URL de base lync.contoso.com ne change pas. Il n’est donc pas nécessaire de modifier les enregistrements ou les certificats DNS.
+</div>
 
-Cependant, lorsque vous modifiez le nom d’une URL simple, vous devez exécuter **Enable-CsComputer** sur chaque directeur et serveur frontal pour enregistrer cette modification.
+<div>
 
-## Voir aussi
+## <a name="changing-simple-urls-after-deployment"></a><span data-ttu-id="3ebe3-172">Modification d’URL simples après le déploiement</span><span class="sxs-lookup"><span data-stu-id="3ebe3-172">Changing Simple URLs after Deployment</span></span>
 
-#### Concepts
+<span data-ttu-id="3ebe3-173">Si vous modifiez une URL simple après le déploiement initial, vous devez tenir compte de la façon dont le changement a un impact sur vos enregistrements DNS et les certificats pour les URL simples.</span><span class="sxs-lookup"><span data-stu-id="3ebe3-173">If you change a simple URL after initial deployment, you must be aware of how the change impacts your DNS records and certificates for simple URLs.</span></span> <span data-ttu-id="3ebe3-174">Si la base d’une URL simple change, vous devez également modifier les enregistrements DNS et les certificats.</span><span class="sxs-lookup"><span data-stu-id="3ebe3-174">If the base of a simple URL changes, then you must change the DNS records and certificates as well.</span></span> <span data-ttu-id="3ebe3-175">Par exemple, si vous https://lync.contoso.com/Meet modifiez https://meet.contoso.com l’URL de base de Lync.contoso.com à Meet.contoso.com, vous devez modifier les enregistrements DNS et les certificats pour faire référence à Meet.contoso.com.</span><span class="sxs-lookup"><span data-stu-id="3ebe3-175">For example, changing from https://lync.contoso.com/Meet to https://meet.contoso.com changes the base URL from lync.contoso.com to meet.contoso.com, so you would need to change the DNS records and certificates to refer to meet.contoso.com.</span></span> <span data-ttu-id="3ebe3-176">Si vous avez changé l’URL simple https://lync.contoso.com/Meet de https://lync.contoso.com/Meetingsà, l’url de base de Lync.contoso.com reste inchangée et aucune modification du DNS ou du certificat n’est nécessaire.</span><span class="sxs-lookup"><span data-stu-id="3ebe3-176">If you changed the simple URL from https://lync.contoso.com/Meet to https://lync.contoso.com/Meetings, the base URL of lync.contoso.com stays the same, so no DNS or certificate changes are needed.</span></span>
 
-[Enregistrements DNS requis pour les URL simples dans Lync Server 2013](lync-server-2013-dns-requirements-for-simple-urls.md)
+<span data-ttu-id="3ebe3-177">Néanmoins, chaque fois que vous modifiez un nom d’URL simple, vous devez exécuter **Enable-CsComputer** sur chaque réalisateur et serveur frontal pour enregistrer la modification.</span><span class="sxs-lookup"><span data-stu-id="3ebe3-177">Whenever you change a simple URL name, however, you must run **Enable-CsComputer** on each Director and Front End Server to register the change.</span></span>
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="3ebe3-178">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="3ebe3-178">See Also</span></span>
+
+
+[<span data-ttu-id="3ebe3-179">Enregistrements DNS requis pour les URL simples dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3ebe3-179">DNS requirements for simple URLs in Lync Server 2013</span></span>](lync-server-2013-dns-requirements-for-simple-urls.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

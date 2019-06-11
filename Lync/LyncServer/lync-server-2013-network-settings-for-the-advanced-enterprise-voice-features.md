@@ -1,77 +1,147 @@
-﻿---
-title: "Lync Server 2013 : Param. Rés. des fonctionnalités avancées de Voix Entreprise"
-TOCTitle: Paramètres réseau des fonctionnalités avancées de Voix Entreprise
-ms:assetid: 7f6de9e4-c8a4-44e4-8d14-21fe8c45283a
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398637(v=OCS.15)
-ms:contentKeyID: 49297863
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: paramètres réseau pour les fonctionnalités avancées de voix entreprise'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Network settings for the advanced Enterprise Voice features
+ms:assetid: 7f6de9e4-c8a4-44e4-8d14-21fe8c45283a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398637(v=OCS.15)
+ms:contentKeyID: 48184632
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: d633d111e9df09cde57b91f32f4592b7f80c9f26
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34826506"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Paramètres réseau des fonctionnalités avancées de Voix Entreprise dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-10-10_
+# <a name="network-settings-for-the-advanced-enterprise-voice-features-in-lync-server-2013"></a><span data-ttu-id="d98ed-102">Network settings for the advanced Enterprise Voice features in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d98ed-102">Network settings for the advanced Enterprise Voice features in Lync Server 2013</span></span>
 
-Lync Server comporte trois fonctionnalités Voix Entreprise : contrôle d’admission des appels, services d’urgence (système E9-1-1) et déviation du trafic multimédia. Ces fonctionnalités partagent certaines exigences de configuration pour les régions réseau, les sites réseau et l’association de chaque sous-réseau dans la topologie Lync Server avec un site réseau. Pour plus d’informations sur la planification du déploiement de ces fonctionnalités, reportez-vous à :
+</div>
 
-  - [Planification du contrôle d’admission des appels dans Lync Server 2013](lync-server-2013-planning-for-call-admission-control.md)
+<div id="mainSection">
 
-  - [Planification des services d’urgence (E9-1-1) dans Lync Server 2013](lync-server-2013-planning-for-emergency-services-e9-1-1.md)
+<div id="mainBody">
 
-  - [Planification de la déviation du trafic multimédia dans Lync Server 2013](lync-server-2013-planning-for-media-bypass.md)
+<span> </span>
 
-Pour plus d’informations sur le déploiement de chacune de ces fonctionnalités, reportez-vous à [Déploiement des fonctionnalités avancées de Voix Entreprise dans Lync Server 2013](lync-server-2013-deploying-advanced-enterprise-voice-features.md) dans la documentation de déploiement.
+<span data-ttu-id="d98ed-103">_**Dernière modification de la rubrique:** 2012-10-10_</span><span class="sxs-lookup"><span data-stu-id="d98ed-103">_**Topic Last Modified:** 2012-10-10_</span></span>
 
-Cette rubrique fournit une vue d’ensemble des conditions de configuration requises communes aux trois fonctionnalités Voix Entreprise avancées.
+<span data-ttu-id="d98ed-104">Lync Server comporte trois fonctionnalités avancées de voix entreprise: contrôle d’admission des appels (CAC), services d’urgence (E9-1-1) et contournement de média.</span><span class="sxs-lookup"><span data-stu-id="d98ed-104">Lync Server has three advanced Enterprise Voice features: call admission control (CAC), emergency services (E9-1-1), and media bypass.</span></span> <span data-ttu-id="d98ed-105">Ces fonctionnalités partagent certaines exigences de configuration pour les zones du réseau, les sites réseau et l’Association de chaque sous-réseau dans la topologie du serveur Lync avec un site réseau.</span><span class="sxs-lookup"><span data-stu-id="d98ed-105">These features share certain configuration requirements for network regions, network sites, and association of each subnet in the Lync Server topology with a network site.</span></span> <span data-ttu-id="d98ed-106">Pour plus d’informations sur la planification du déploiement de ces fonctionnalités, voir:</span><span class="sxs-lookup"><span data-stu-id="d98ed-106">For details about planning for deployment of these features, see:</span></span>
 
-## Régions réseau
+  - [<span data-ttu-id="d98ed-107">Planification du contrôle d’admission des appels dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d98ed-107">Planning for call admission control in Lync Server 2013</span></span>](lync-server-2013-planning-for-call-admission-control.md)
 
-Une région réseau est un concentrateur réseau ou un segment réseau principal utilisé uniquement dans la configuration du service Contrôle d’admission des appels, du système E9-1-1 et de la déviation du trafic multimédia.
+  - [<span data-ttu-id="d98ed-108">Planification des services d’urgence (E9-1-1) dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d98ed-108">Planning for emergency services (E9-1-1) in Lync Server 2013</span></span>](lync-server-2013-planning-for-emergency-services-e9-1-1.md)
+
+  - [<span data-ttu-id="d98ed-109">Planification de la déviation du trafic multimédia dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d98ed-109">Planning for media bypass in Lync Server 2013</span></span>](lync-server-2013-planning-for-media-bypass.md)
+
+<span data-ttu-id="d98ed-110">Pour plus d’informations sur le déploiement de chacune de ces fonctionnalités, reportez-vous à la rubrique [déploiement de fonctionnalités avancées d’entreprise voix dans Lync Server 2013](lync-server-2013-deploying-advanced-enterprise-voice-features.md) dans la documentation de déploiement.</span><span class="sxs-lookup"><span data-stu-id="d98ed-110">For details about deploying each of these features, see [Deploying advanced Enterprise Voice features in Lync Server 2013](lync-server-2013-deploying-advanced-enterprise-voice-features.md) in the Deployment documentation.</span></span>
+
+<span data-ttu-id="d98ed-111">Cette rubrique fournit une vue d’ensemble des exigences de configuration communes aux trois fonctions vocales avancées d’entreprise.</span><span class="sxs-lookup"><span data-stu-id="d98ed-111">This topic provides an overview of the configuration requirements that are common to all three advanced Enterprise Voice features.</span></span>
+
+<div>
+
+## <a name="network-regions"></a><span data-ttu-id="d98ed-112">Régions réseau</span><span class="sxs-lookup"><span data-stu-id="d98ed-112">Network Regions</span></span>
+
+<span data-ttu-id="d98ed-113">Une région réseau est un concentrateur réseau ou un segment réseau principal utilisé uniquement dans la configuration du service Contrôle d’admission des appels, du système E9-1-1 et de la déviation du trafic multimédia.</span><span class="sxs-lookup"><span data-stu-id="d98ed-113">A network region is a network hub or network backbone used only in the configuration of call admission control (CAC), E9-1-1, and media bypass.</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> Les régions réseau sont différentes des régions de conférence rendez-vous Lync Server, qui sont requises pour associer les numéros d’accès à la conférence rendez-vous avec un ou plusieurs plans de numérotation Lync Server. Pour plus d’informations sur les régions de conférence rendez-vous, reportez-vous à <a href="lync-server-2013-dial-in-conferencing-requirements.md">Configuration requise pour les conférences rendez-vous dans Lync Server 2013</a> dans la documentation de planification.
+> <span data-ttu-id="d98ed-114">Les régions réseau ne sont pas identiques aux régions de conférence rendez-vous de Lync Server, qui sont nécessaires pour associer des numéros d’accès de conférence rendez-vous à un ou plusieurs plans de numérotation Lync Server.</span><span class="sxs-lookup"><span data-stu-id="d98ed-114">Network regions are not the same as Lync Server dial-in conferencing regions, which are required to associate dial-in conferencing access numbers with one or more Lync Server dial plans.</span></span> <span data-ttu-id="d98ed-115">Pour plus d’informations sur les régions de conférence rendez-vous, consultez la rubrique Configuration requise pour les conférences rendez <A href="lync-server-2013-dial-in-conferencing-requirements.md">-vous dans Lync Server 2013</A> dans la documentation de planification.</span><span class="sxs-lookup"><span data-stu-id="d98ed-115">For details about dial-in conferencing regions, see <A href="lync-server-2013-dial-in-conferencing-requirements.md">Dial-in conferencing requirements in Lync Server 2013</A> in the Planning documentation.</span></span>
 
-Le contrôle d’admission des appels nécessite que chaque région réseau dispose d’un site central Lync Server associé qui gère le trafic multimédia dans la région (c’est-à-dire qu’il prend les décisions en fonction des stratégies configurées relatives à l’établissement ou non de session audio ou vidéo en temps réel). Les sites centraux Lync Server ne représentent pas les emplacements géographiques, mais plutôt des groupes logiques de serveurs configurés sous forme de pool ou d’ensemble de pools. Pour plus d’informations sur les sites centraux, reportez-vous à [Topologies de référence dans Lync Server 2013](lync-server-2013-reference-topologies.md) dans la documentation de planification. reportez-vous également à [Topologies prises en charge dans Lync Server 2013](lync-server-2013-supported-topologies.md) dans la documentation de prise en charge.
 
-Pour configurer une région réseau, vous pouvez utiliser l’onglet **Régions** dans la section **Configuration réseau** du Panneau de configuration Lync Server, ou exécuter les applets de commande Lync Server Management Shell**New-CsNetworkRegion** ou **Set-CsNetworkRegion**. Pour obtenir des instructions, reportez-vous à [Création ou modification d’une région réseau dans Lync Server 2013](lync-server-2013-create-or-modify-a-network-region.md) dans la documentation de déploiement, ou reportez-vous à la documentation Lync Server Management Shell.
 
-Les mêmes définitions de région réseau sont partagées par les trois fonctionnalités Voix Entreprise avancées. Si vous avez créé des régions réseau pour une fonctionnalité, vous n’avez pas besoin d’en créer de nouvelles pour les autres fonctionnalités. Cependant, il est possible que vous soyez obligé de modifier la définition d’une région réseau existante pour appliquer des paramètres spécifiques à une fonctionnalité. Par exemple, si vous avez créé des régions réseau pour le système E9-1-1 (qui ne nécessite pas de site central associé) et que vous déployez ultérieurement le contrôle d’admission des appels, vous devez modifier chacune des définitions de région réseau pour spécifier un site central.
+</div>
 
-Pour associer un site central Lync Server à une région réseau, vous spécifiez le nom du site central à l’aide de la section **Configuration réseau** du Panneau de configuration Lync Server, ou exécutez les applets de commande Lync Server Management Shell**New-CsNetworkRegion** ou **Set-CsNetworkRegion** . Pour obtenir des instructions, reportez-vous à [Création ou modification d’une région réseau dans Lync Server 2013](lync-server-2013-create-or-modify-a-network-region.md) dans la documentation du déploiement, ou reportez-vous à la documentation Lync Server Management Shell.
+<span data-ttu-id="d98ed-116">Le CAC nécessite que toutes les régions du réseau aient un site central Lync Server associé qui gère le trafic multimédia au sein de la région (autrement dit, il prend des décisions basées sur les stratégies que vous avez configurées en ce qui concerne l’existence ou non d’une session audio ou vidéo en temps réel). être établi).</span><span class="sxs-lookup"><span data-stu-id="d98ed-116">CAC requires that every network region have an associated Lync Server central site, which manages media traffic within the region (that is, it makes decisions based on policies that you have configured, regarding whether or not a real-time audio or video session can be established).</span></span> <span data-ttu-id="d98ed-117">Les sites Lync Server central ne représentent pas des emplacements géographiques, mais plutôt des groupes logiques de serveurs configurés en tant que pool ou ensemble de pools.</span><span class="sxs-lookup"><span data-stu-id="d98ed-117">Lync Server central sites do not represent geographical locations, but rather logical groups of servers that are configured as a pool or a set of pools.</span></span> <span data-ttu-id="d98ed-118">Pour plus d’informations sur les sites centraux, voir [topologies de référence dans Lync Server 2013](lync-server-2013-reference-topologies.md) dans la documentation de planification.</span><span class="sxs-lookup"><span data-stu-id="d98ed-118">For details about central sites, see [Reference topologies in Lync Server 2013](lync-server-2013-reference-topologies.md) in the Planning documentation.</span></span> <span data-ttu-id="d98ed-119">Voir également [topologies prises en charge dans Lync Server 2013](lync-server-2013-supported-topologies.md) dans la documentation sur la prise en charge.</span><span class="sxs-lookup"><span data-stu-id="d98ed-119">Also see [Supported topologies in Lync Server 2013](lync-server-2013-supported-topologies.md) in the Supportability documentation.</span></span>
 
-## Sites réseau
+<span data-ttu-id="d98ed-120">Pour configurer une région réseau, vous pouvez utiliser l’onglet **régions** dans la section **Configuration réseau** du panneau de configuration de Lync Server ou exécuter le **nouveau-CsNetworkRegion** ou **Set-CsNetworkRegion** Lync Server Management Shell. applets.</span><span class="sxs-lookup"><span data-stu-id="d98ed-120">To configure a network region, you can either use the **Regions** tab on the **Network Configuration** section of Lync Server Control Panel, or run the **New-CsNetworkRegion** or **Set-CsNetworkRegion** Lync Server Management Shell cmdlets.</span></span> <span data-ttu-id="d98ed-121">Pour obtenir des instructions, consultez la rubrique [créer ou modifier une région réseau dans Lync server 2013](lync-server-2013-create-or-modify-a-network-region.md) dans la documentation de déploiement, ou consultez la documentation Lync Server Management Shell.</span><span class="sxs-lookup"><span data-stu-id="d98ed-121">For instructions, see [Create or modify a network region in Lync Server 2013](lync-server-2013-create-or-modify-a-network-region.md) in the Deployment documentation, or refer to the Lync Server Management Shell documentation.</span></span>
 
-Un site réseau représente un emplacement géographique, tel qu’une succursale, un bureau régional ou un bureau principal. Chaque site réseau doit être associé à une région réseau spécifique.
+<span data-ttu-id="d98ed-122">Les mêmes définitions de zones réseau sont partagées par les trois fonctions vocales d’entreprise avancées.</span><span class="sxs-lookup"><span data-stu-id="d98ed-122">The same network region definitions are shared by all three advanced Enterprise Voice features.</span></span> <span data-ttu-id="d98ed-123">Si vous avez créé des régions réseau pour une fonctionnalité, vous n’avez pas besoin d’en créer de nouvelles pour les autres fonctionnalités.</span><span class="sxs-lookup"><span data-stu-id="d98ed-123">If you have already created network regions for one feature, you do not need to create new network regions for the other features.</span></span> <span data-ttu-id="d98ed-124">Cependant, il est possible que vous soyez obligé de modifier la définition d’une région réseau existante pour appliquer des paramètres spécifiques à une fonctionnalité.</span><span class="sxs-lookup"><span data-stu-id="d98ed-124">You may, however, need to modify an existing network region definition to apply feature-specific settings.</span></span> <span data-ttu-id="d98ed-125">Par exemple, si vous avez créé des régions réseau pour le système E9-1-1 (qui ne nécessite pas de site central associé) et que vous déployez ultérieurement le contrôle d’admission des appels, vous devez modifier chacune des définitions de région réseau pour spécifier un site central.</span><span class="sxs-lookup"><span data-stu-id="d98ed-125">For example, if you have created network regions for E9-1-1 (which do not require an associated central site) and, later, you deploy call admission control, you must modify each of the network region definitions to specify a central site.</span></span>
+
+<span data-ttu-id="d98ed-126">Pour associer un site central Lync Server à une région réseau, vous spécifiez le nom du site central, soit à l’aide de la section **Configuration réseau** du panneau de configuration de Lync Server, soit en exécutant le **nouveau-CsNetworkRegion** ou \*\*Set-CsNetworkRegion \*\*Cmdlets Lync Server Management Shell.</span><span class="sxs-lookup"><span data-stu-id="d98ed-126">To associate a Lync Server central site with a network region, you specify the central site name, either by using the **Network Configuration** section of Lync Server Control Panel, or by running the **New-CsNetworkRegion** or **Set-CsNetworkRegion** Lync Server Management Shell cmdlets.</span></span> <span data-ttu-id="d98ed-127">Pour obtenir des instructions, consultez la rubrique [créer ou modifier une région réseau dans Lync server 2013](lync-server-2013-create-or-modify-a-network-region.md) dans la documentation de déploiement, ou consultez la documentation Lync Server Management Shell.</span><span class="sxs-lookup"><span data-stu-id="d98ed-127">For instructions, see [Create or modify a network region in Lync Server 2013](lync-server-2013-create-or-modify-a-network-region.md) in the Deployment documentation, or refer to the Lync Server Management Shell documentation.</span></span>
+
+</div>
+
+<div>
+
+## <a name="network-sites"></a><span data-ttu-id="d98ed-128">Sites réseau</span><span class="sxs-lookup"><span data-stu-id="d98ed-128">Network Sites</span></span>
+
+<span data-ttu-id="d98ed-p107">Un site réseau représente un emplacement géographique, tel qu’une succursale, un bureau régional ou un bureau principal. Chaque site réseau doit être associé à une région réseau spécifique.</span><span class="sxs-lookup"><span data-stu-id="d98ed-p107">A network site represents a geographical location, such as a branch office, a regional office, or a main office. Each network site must be associated with a specific network region.</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> Les sites réseau sont utilisés uniquement par les fonctionnalités Voix Entreprise avancées. Ils diffèrent des sites de succursale que vous pouvez configurer dans votre topologie Lync Server. Pour plus d’informations sur les sites de succursale, reportez-vous à <a href="lync-server-2013-reference-topologies.md">Topologies de référence dans Lync Server 2013</a> dans la documentation de planification. Reportez-vous également à <a href="lync-server-2013-supported-topologies.md">Topologies prises en charge dans Lync Server 2013</a> dans la documentation de prise en charge.
+> <span data-ttu-id="d98ed-131">Les sites réseau sont utilisés uniquement par les fonctionnalités avancées de voix entreprise.</span><span class="sxs-lookup"><span data-stu-id="d98ed-131">Network sites are used only by the advanced Enterprise Voice features.</span></span> <span data-ttu-id="d98ed-132">Ils ne sont pas les mêmes que ceux que vous configurez dans la topologie de votre serveur Lync.</span><span class="sxs-lookup"><span data-stu-id="d98ed-132">They are not the same as the branch sites that you configure in your Lync Server topology.</span></span> <span data-ttu-id="d98ed-133">Pour plus d’informations sur les sites de succursale, voir <A href="lync-server-2013-reference-topologies.md">topologies de référence dans Lync Server 2013</A> dans la documentation de planification.</span><span class="sxs-lookup"><span data-stu-id="d98ed-133">For details about branch sites, see <A href="lync-server-2013-reference-topologies.md">Reference topologies in Lync Server 2013</A> in the Planning documentation.</span></span> <span data-ttu-id="d98ed-134">Voir également <A href="lync-server-2013-supported-topologies.md">topologies prises en charge dans Lync Server 2013</A> dans la documentation sur la prise en charge.</span><span class="sxs-lookup"><span data-stu-id="d98ed-134">Also see <A href="lync-server-2013-supported-topologies.md">Supported topologies in Lync Server 2013</A> in the Supportability documentation.</span></span>
 
-Pour configurer un site réseau et l’associer à une région réseau, vous pouvez utiliser la section **Configuration réseau** du Panneau de configuration Lync Server, ou exécuter les applets de commande Lync Server Management Shell**New-CsNetworkSite** ou **Set-CsNetworkSite**. Pour plus d’informations, reportez-vous à [Création ou modification d’un site réseau dans Lync Server 2013](lync-server-2013-create-or-modify-a-network-site.md) dans la documentation du déploiement, ou reportez-vous à la documentation Lync Server Management Shell.
 
-## Identifier les sous-réseaux IP
 
-Pour chaque site réseau, vous devrez collaborer avec votre administrateur réseau pour déterminer les sous-réseaux IP affectés à chaque site réseau. Si votre administrateur réseau a déjà organisé les sous-réseaux IP en régions réseau et sites réseau, votre travail est considérablement simplifié.
+</div>
 
-Dans notre exemple, le site New York de la région Amérique du Nord peut se voir affecter les sous-réseaux IP suivants : 172.29.80.0/23, 157.57.216.0/25, 172.29.91.0/23, 172.29.81.0/24. Si Bob, qui travaille généralement à Détroit, se rend dans les bureaux de New York pour suivre une formation, allume son ordinateur et se connecte au réseau, son ordinateur obtient une adresse IP dans l’une des quatre plages allouées à New York (par exemple, 172.29.80.103).
+<span data-ttu-id="d98ed-135">Pour configurer un site réseau en l’associant à une région du réseau, vous pouvez utiliser la section **Configuration réseau** du panneau de configuration de Lync Server ou exécuter Lync Server Management Shell **New-CsNetworkSite** ou **Set-CsNetworkSite** applets.</span><span class="sxs-lookup"><span data-stu-id="d98ed-135">To configure a network site and associate it with a network region, you can either use the **Network Configuration** section of Lync Server Control Panel, or run the Lync Server Management Shell **New-CsNetworkSite** or **Set-CsNetworkSite** cmdlets.</span></span> <span data-ttu-id="d98ed-136">Pour plus d’informations, reportez-vous à [créer ou modifier un site réseau dans Lync server 2013](lync-server-2013-create-or-modify-a-network-site.md) dans la documentation de déploiement, ou vous référer à la documentation Lync Server Management Shell.</span><span class="sxs-lookup"><span data-stu-id="d98ed-136">For details, see [Create or modify a network site in Lync Server 2013](lync-server-2013-create-or-modify-a-network-site.md) in the Deployment documentation, or refer to the Lync Server Management Shell documentation.</span></span>
+
+</div>
+
+<div>
+
+## <a name="identify-ip-subnets"></a><span data-ttu-id="d98ed-137">Identifier les sous-réseaux IP</span><span class="sxs-lookup"><span data-stu-id="d98ed-137">Identify IP Subnets</span></span>
+
+<span data-ttu-id="d98ed-p110">Pour chaque site réseau, vous devrez collaborer avec votre administrateur réseau pour déterminer les sous-réseaux IP affectés à chaque site réseau. Si votre administrateur réseau a déjà organisé les sous-réseaux IP en régions réseau et sites réseau, votre travail est considérablement simplifié.</span><span class="sxs-lookup"><span data-stu-id="d98ed-p110">For each network site, you will need to work with your network administrator to determine which IP subnets are assigned to each network site. If your network administrator has already organized the IP subnets into network regions and network sites, then your work is significantly simplified.</span></span>
+
+<span data-ttu-id="d98ed-p111">Dans notre exemple, le site New York de la région Amérique du Nord peut se voir affecter les sous-réseaux IP suivants : 172.29.80.0/23, 157.57.216.0/25, 172.29.91.0/23, 172.29.81.0/24. Si Bob, qui travaille généralement à Détroit, se rend dans les bureaux de New York pour suivre une formation, allume son ordinateur et se connecte au réseau, son ordinateur obtient une adresse IP dans l’une des quatre plages allouées à New York (par exemple, 172.29.80.103).</span><span class="sxs-lookup"><span data-stu-id="d98ed-p111">For example, the New York site in the North America region can be assigned the following IP subnets: 172.29.80.0/23, 157.57.216.0/25, 172.29.91.0/23, 172.29.81.0/24. If Bob, who usually works in Detroit, travels to the New York office for training, turns on his computer and connects to the network, his computer will get an IP address in one of the four ranges that are allocated for New York—for example, 172.29.80.103.</span></span>
+
+<div>
+
 
 > [!WARNING]  
-> Les sous-réseaux IP spécifiés pendant la configuration du réseau sur le serveur doivent correspondre au format fourni par les ordinateurs clients afin d’être correctement utilisés pour la déviation du trafic multimédia. Un client Lync prend son adresse IP locale et masque l’adresse IP avec le masque de sous-réseau associé. Lors de la détermination de l’ID de contournement associé à chaque client, le serveur d’inscriptions comparera la liste des sous-réseaux IP associés à chaque site réseau avec le sous-réseau fourni par le client pour obtenir une correspondance exacte. Pour cette raison, il est important que les sous-réseaux entrés lors de la configuration du réseau sur le serveur soient des sous-réseaux réels et non des sous-réseaux virtuels. (Si vous déployez le contrôle d’admission des appels, mais pas la déviation du trafic multimédia, le contrôle d’admission des appels fonctionnera correctement même si vous configurez des sous-réseaux virtuels.)<br />
-Par exemple, si un client Lync se connecte sur un ordinateur ayant l’adresse IP 172.29.81.57 et le masque de sous-réseau IP 255.255.255.0, il demandera l’ID de contournement associé au sous-réseau 172.29.81.0. Si le sous-réseau est défini comme 172.29.0.0/16, même si le client appartient au sous-réseau virtuel, le serveur d’inscriptions ne considérera pas cela comme une correspondance, car le serveur d’inscriptions recherche spécifiquement le sous-réseau 172.29.81.0. Par conséquent, il est important que l’administrateur entre les sous-réseaux exacts fournis par les clients Lync (provisionnés avec des sous-réseaux lors de la configuration réseau soit de manière statique, soit par DHCP.)
+> <span data-ttu-id="d98ed-142">Les sous-réseaux IP spécifiés pendant la configuration du réseau sur le serveur doivent correspondre au format fourni par les ordinateurs clients afin d’être correctement utilisés pour la déviation du trafic multimédia.</span><span class="sxs-lookup"><span data-stu-id="d98ed-142">The IP subnets specified during network configuration on the server must match the format that is provided by client computers in order to be properly used for media bypass.</span></span> <span data-ttu-id="d98ed-143">Un client Lync accepte son adresse IP locale et masque l’adresse IP avec le masque de sous-réseau associé.</span><span class="sxs-lookup"><span data-stu-id="d98ed-143">A Lync client takes its local IP address and masks the IP address with the associated subnet mask.</span></span> <span data-ttu-id="d98ed-144">Lors de la détermination de l’ID de contournement associé à chaque client, le serveur d’inscriptions comparera la liste des sous-réseaux IP associés à chaque site réseau avec le sous-réseau fourni par le client pour obtenir une correspondance exacte.</span><span class="sxs-lookup"><span data-stu-id="d98ed-144">When determining the bypass ID associated with each client, the Registrar will compare the list of IP subnets associated with each network site against the subnet that is provided by the client for an exact match.</span></span> <span data-ttu-id="d98ed-145">Pour cette raison, il est important que les sous-réseaux entrés lors de la configuration du réseau sur le serveur soient des sous-réseaux réels et non des sous-réseaux virtuels.</span><span class="sxs-lookup"><span data-stu-id="d98ed-145">For this reason, it is important that subnets entered during network configuration on the server are actual subnets instead of virtual subnets.</span></span> <span data-ttu-id="d98ed-146">(Si vous déployez le contrôle d’admission des appels, mais pas la déviation du trafic multimédia, le contrôle d’admission des appels fonctionnera correctement même si vous configurez des sous-réseaux virtuels.)</span><span class="sxs-lookup"><span data-stu-id="d98ed-146">(If you deploy call admission control, but not media bypass, call admission control will function properly even if you configure virtual subnets.)</span></span><BR><span data-ttu-id="d98ed-147">Par exemple, si un client Lync se connecte à partir d’un ordinateur doté d’une adresse IP 172.29.81.57 avec un masque de sous-réseau IP de 255.255.255.0, il demande l’ID de contournement associé au sous-réseau 172.29.81.0.</span><span class="sxs-lookup"><span data-stu-id="d98ed-147">For example, if a Lync client signs in on a computer with an IP address of 172.29.81.57 with an IP subnet mask of 255.255.255.0, it will request the bypass ID that is associated with subnet 172.29.81.0.</span></span> <span data-ttu-id="d98ed-148">Si le sous-réseau est défini comme 172.29.0.0/16, même si le client appartient au sous-réseau virtuel, le serveur d’inscriptions ne considérera pas cela comme une correspondance, car le serveur d’inscriptions recherche spécifiquement le sous-réseau 172.29.81.0.</span><span class="sxs-lookup"><span data-stu-id="d98ed-148">If the subnet is defined as 172.29.0.0/16, although the client belongs to the virtual subnet, the Registrar will not consider this a match because the Registrar is specifically looking for subnet 172.29.81.0.</span></span> <span data-ttu-id="d98ed-149">Par conséquent, il est important que l’administrateur entre les sous-réseaux exactement comme fourni par les clients Lync (qui sont configurés avec des sous-réseaux lors de la configuration du réseau, de manière statique ou par le protocole DHCP).)</span><span class="sxs-lookup"><span data-stu-id="d98ed-149">Therefore, it is important that the administrator enters subnets exactly as provided by Lync clients (which are provisioned with subnets during network configuration, either statically or by Dynamic Host Configuration Protocol (DHCP).)</span></span>
 
-## Association de sous-réseaux à des sites réseau
 
-Chaque sous-réseau dans le réseau d’entreprise doit être associé à un site réseau (c’est-à-dire que chaque sous-réseau doit être associé à un emplacement géographique). Cette association de sous-réseaux permet aux fonctionnalités Voix Entreprise de rechercher géographiquement les points de terminaison. Par exemple, la localisation des points de terminaison permet au contrôle d’admission des appels de réguler le flux de données audio et vidéo en temps réel qui transitent vers et depuis le site réseau.
 
-Pour associer des sous-réseaux à des sites réseau, vous pouvez utiliser la section **Configuration réseau** du Panneau de configuration Lync Server, ou vous pouvez utiliser Lync Server Management Shell. Pour obtenir des instructions, reportez-vous à [Association d’un sous-réseau à un site réseau dans Lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md) dans la documentation du déploiement, ou reportez-vous à la documentation Lync Server Management Shell.
+</div>
 
-## Voir aussi
+</div>
 
-#### Autres ressources
+<div>
 
-[Planification du contrôle d’admission des appels dans Lync Server 2013](lync-server-2013-planning-for-call-admission-control.md)  
-[Planification des services d’urgence (E9-1-1) dans Lync Server 2013](lync-server-2013-planning-for-emergency-services-e9-1-1.md)  
-[Planification de la déviation du trafic multimédia dans Lync Server 2013](lync-server-2013-planning-for-media-bypass.md)
+## <a name="associating-subnets-with-network-sites"></a><span data-ttu-id="d98ed-150">Association de sous-réseaux à des sites réseau</span><span class="sxs-lookup"><span data-stu-id="d98ed-150">Associating Subnets with Network Sites</span></span>
+
+<span data-ttu-id="d98ed-151">Chaque sous-réseau dans le réseau d’entreprise doit être associé à un site réseau (c’est-à-dire que chaque sous-réseau doit être associé à un emplacement géographique).</span><span class="sxs-lookup"><span data-stu-id="d98ed-151">Every subnet in the enterprise network must be associated with a network site (that is, every subnet needs to be associated with a geographic location).</span></span> <span data-ttu-id="d98ed-152">Grâce à cette association de sous-réseaux, les fonctionnalités avancées de voix entreprise permettent de localiser les points de terminaison géographiquement.</span><span class="sxs-lookup"><span data-stu-id="d98ed-152">This association of subnets enables the advanced Enterprise Voice features to locate the endpoints geographically.</span></span> <span data-ttu-id="d98ed-153">Par exemple, la localisation des points de terminaison permet au contrôle d’admission des appels de réguler le flux de données audio et vidéo en temps réel qui transitent vers et depuis le site réseau.</span><span class="sxs-lookup"><span data-stu-id="d98ed-153">For example, locating the endpoints enables CAC to regulate the flow of real-time audio and video data going to and from the network site.</span></span>
+
+<span data-ttu-id="d98ed-154">Pour associer des sous-réseaux aux sites réseau, vous pouvez utiliser la section **Configuration réseau** du panneau de configuration de Lync Server ou utiliser Lync Server Management Shell.</span><span class="sxs-lookup"><span data-stu-id="d98ed-154">To associate subnets with network sites, you can either use the **Network Configuration** section of Lync Server Control Panel, or you can use the Lync Server Management Shell.</span></span> <span data-ttu-id="d98ed-155">Pour obtenir des instructions, reportez-vous à la section [associez un sous-réseau à un site réseau dans Lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md) dans la documentation de déploiement, ou consultez la documentation Lync Server Management Shell.</span><span class="sxs-lookup"><span data-stu-id="d98ed-155">For instructions, see [Associate a subnet with a network site in Lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md) in the Deployment documentation, or refer to the Lync Server Management Shell documentation.</span></span>
+
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="d98ed-156">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="d98ed-156">See Also</span></span>
+
+
+[<span data-ttu-id="d98ed-157">Planification du contrôle d’admission des appels dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d98ed-157">Planning for call admission control in Lync Server 2013</span></span>](lync-server-2013-planning-for-call-admission-control.md)  
+[<span data-ttu-id="d98ed-158">Planification des services d’urgence (E9-1-1) dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d98ed-158">Planning for emergency services (E9-1-1) in Lync Server 2013</span></span>](lync-server-2013-planning-for-emergency-services-e9-1-1.md)  
+[<span data-ttu-id="d98ed-159">Planification de la déviation du trafic multimédia dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d98ed-159">Planning for media bypass in Lync Server 2013</span></span>](lync-server-2013-planning-for-media-bypass.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

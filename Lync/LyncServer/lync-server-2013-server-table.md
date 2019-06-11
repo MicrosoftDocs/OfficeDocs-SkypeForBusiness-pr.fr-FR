@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013 : Table Server'
-TOCTitle: Table Server
-ms:assetid: 9af89d08-d35a-48e8-b56d-6df292f973cc
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398801(v=OCS.15)
-ms:contentKeyID: 49298290
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Table Server'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Server table
+ms:assetid: 9af89d08-d35a-48e8-b56d-6df292f973cc
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398801(v=OCS.15)
+ms:contentKeyID: 48184890
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 363c07a6ab3be8f5acdf0286a4223f96a8bd3700
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822005"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Table Server dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2015-03-09_
+# <a name="server-table-in-lync-server-2013"></a><span data-ttu-id="9f5dc-102">Table Server dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9f5dc-102">Server table in Lync Server 2013</span></span>
 
-La table Server est une table de prise en charge. Chaque enregistrement représente un serveur.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="9f5dc-103">_**Dernière modification de la rubrique:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="9f5dc-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+
+<span data-ttu-id="9f5dc-104">La table serveur est une table de prise en charge.</span><span class="sxs-lookup"><span data-stu-id="9f5dc-104">The Server table is a supporting table.</span></span> <span data-ttu-id="9f5dc-105">Chaque enregistrement représente un serveur.</span><span class="sxs-lookup"><span data-stu-id="9f5dc-105">Each record represents one server.</span></span>
 
 
 <table>
@@ -27,44 +47,55 @@ La table Server est une table de prise en charge. Chaque enregistrement représe
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>Colonne</strong></th>
-<th><strong>Type de données</strong></th>
-<th><strong>Clé/Index</strong></th>
-<th><strong>Détails</strong></th>
+<th><span data-ttu-id="9f5dc-106"><strong>Colonne</strong></span><span class="sxs-lookup"><span data-stu-id="9f5dc-106"><strong>Column</strong></span></span></th>
+<th><span data-ttu-id="9f5dc-107"><strong>Type de données</strong></span><span class="sxs-lookup"><span data-stu-id="9f5dc-107"><strong>Data Type</strong></span></span></th>
+<th><span data-ttu-id="9f5dc-108"><strong>Clé/Index</strong></span><span class="sxs-lookup"><span data-stu-id="9f5dc-108"><strong>Key/Index</strong></span></span></th>
+<th><span data-ttu-id="9f5dc-109"><strong>Détails</strong></span><span class="sxs-lookup"><span data-stu-id="9f5dc-109"><strong>Details</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>ServerKey</strong></p></td>
-<td><p>int</p></td>
-<td><p>Principal</p></td>
-<td><p>Numéro unique identifiant le serveur.</p></td>
+<td><p><span data-ttu-id="9f5dc-110"><strong>ServerKey</strong></span><span class="sxs-lookup"><span data-stu-id="9f5dc-110"><strong>ServerKey</strong></span></span></p></td>
+<td><p><span data-ttu-id="9f5dc-111">int</span><span class="sxs-lookup"><span data-stu-id="9f5dc-111">int</span></span></p></td>
+<td><p><span data-ttu-id="9f5dc-112">Principal</span><span class="sxs-lookup"><span data-stu-id="9f5dc-112">Primary</span></span></p></td>
+<td><p><span data-ttu-id="9f5dc-113">Numéro unique identifiant le serveur.</span><span class="sxs-lookup"><span data-stu-id="9f5dc-113">Unique number identifying the server.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>FQDNOrIP</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>index</p></td>
-<td><p>Chaîne d’adresse MAC</p></td>
+<td><p><span data-ttu-id="9f5dc-114"><strong>FQDNOrIP</strong></span><span class="sxs-lookup"><span data-stu-id="9f5dc-114"><strong>FQDNOrIP</strong></span></span></p></td>
+<td><p><span data-ttu-id="9f5dc-115">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="9f5dc-115">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="9f5dc-116">index</span><span class="sxs-lookup"><span data-stu-id="9f5dc-116">index</span></span></p></td>
+<td><p><span data-ttu-id="9f5dc-117">Chaîne d’adresses MAC.</span><span class="sxs-lookup"><span data-stu-id="9f5dc-117">MAC address string.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>ServerType</strong></p></td>
-<td><p>int</p></td>
-<td><p>Étrangère</p></td>
-<td><p>1 : serveur de médiation</p>
-<p>2 : serveur de conférence A/V16394 : service Edge A/V32769 : passerelle</p></td>
+<td><p><span data-ttu-id="9f5dc-118"><strong>ServerType</strong></span><span class="sxs-lookup"><span data-stu-id="9f5dc-118"><strong>ServerType</strong></span></span></p></td>
+<td><p><span data-ttu-id="9f5dc-119">int</span><span class="sxs-lookup"><span data-stu-id="9f5dc-119">int</span></span></p></td>
+<td><p><span data-ttu-id="9f5dc-120">Externes</span><span class="sxs-lookup"><span data-stu-id="9f5dc-120">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="9f5dc-121">1: serveur de médiation</span><span class="sxs-lookup"><span data-stu-id="9f5dc-121">1: Mediation Server</span></span></p>
+<p><span data-ttu-id="9f5dc-122">2: service de conférence a/V Server16394: service32769 Edge A/V: passerelle</span><span class="sxs-lookup"><span data-stu-id="9f5dc-122">2: A/V Conferencing Server16394: A/V Edge service32769: Gateway</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>PoolName</strong></p></td>
-<td><p>nvarchar(512)</p></td>
-<td><p></p></td>
-<td><p>Pool auquel appartient le serveur. Applicable uniquement au serveur de conférence A/V.</p></td>
+<td><p><span data-ttu-id="9f5dc-123"><strong>PoolName</strong></span><span class="sxs-lookup"><span data-stu-id="9f5dc-123"><strong>PoolName</strong></span></span></p></td>
+<td><p><span data-ttu-id="9f5dc-124">nvarchar</span><span class="sxs-lookup"><span data-stu-id="9f5dc-124">nvarchar(512)</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="9f5dc-125">Regroupement auquel appartient le serveur.</span><span class="sxs-lookup"><span data-stu-id="9f5dc-125">Pool the server belongs to.</span></span> <span data-ttu-id="9f5dc-126">Applicable uniquement au serveur de conférence A/V.</span><span class="sxs-lookup"><span data-stu-id="9f5dc-126">Only applicable for the A/V Conferencing Server.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>NextUpdateTS</strong></p></td>
-<td><p>datetime</p></td>
-<td><p></p></td>
-<td><p>À usage interne uniquement.</p></td>
+<td><p><span data-ttu-id="9f5dc-127"><strong>NextUpdateTS</strong></span><span class="sxs-lookup"><span data-stu-id="9f5dc-127"><strong>NextUpdateTS</strong></span></span></p></td>
+<td><p><span data-ttu-id="9f5dc-128">DateHeure</span><span class="sxs-lookup"><span data-stu-id="9f5dc-128">datetime</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="9f5dc-129">Pour un usage interne uniquement.</span><span class="sxs-lookup"><span data-stu-id="9f5dc-129">For internal use only.</span></span></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

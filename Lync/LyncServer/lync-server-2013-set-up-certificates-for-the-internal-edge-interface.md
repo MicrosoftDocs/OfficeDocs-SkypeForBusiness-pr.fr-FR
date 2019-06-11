@@ -1,239 +1,352 @@
-﻿---
-title: 'Lync Server 2013 : Configuration des certificats pour l’interface interne Edge'
-TOCTitle: Configuration des certificats pour l’interface interne Edge
-ms:assetid: a1963cc9-87c5-4935-86c0-6bedc6afd0ac
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg412750(v=OCS.15)
-ms:contentKeyID: 49298404
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Configuration des certificats pour l’interface interne Edge'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Set up certificates for the internal edge interface
+ms:assetid: a1963cc9-87c5-4935-86c0-6bedc6afd0ac
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412750(v=OCS.15)
+ms:contentKeyID: 48184949
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 53ba11db5d2c9fc727b7720a1a10d5da547075c6
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822103"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configuration des certificats pour l’interface interne Edge dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2013-11-07_
+# <a name="set-up-certificates-for-the-internal-edge-interface-in-lync-server-2013"></a><span data-ttu-id="adafc-102">Configuration des certificats pour l’interface interne Edge dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="adafc-102">Set up certificates for the internal edge interface in Lync Server 2013</span></span>
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="adafc-103">_**Dernière modification de la rubrique:** 2013-11-07_</span><span class="sxs-lookup"><span data-stu-id="adafc-103">_**Topic Last Modified:** 2013-11-07_</span></span>
+
+<div>
+
 
 > [!IMPORTANT]  
-> Lorsque vous exécutez l’Assistant Certificat, assurez-vous d’être connecté à l’aide d’un compte membre d’un groupe auquel ont été affectées les autorisations appropriées pour le type de modèle de certificat que vous utiliserez. Par défaut, une demande de certificat Lync Server 2013 utilise le modèle de certificat Serveur web. Si vous utilisez un compte membre du groupe RTCUniversalServerAdmins pour demander un certificat utilisant ce modèle, vérifiez que les autorisations Inscrire requises pour utiliser ce modèle ont été affectées au groupe.
+> <span data-ttu-id="adafc-104">Lorsque vous exécutez l’Assistant certificat, assurez-vous que vous êtes connecté à l’aide d’un compte associé à un compte qui dispose des autorisations appropriées pour le type de modèle de certificat que vous utilisez.</span><span class="sxs-lookup"><span data-stu-id="adafc-104">When you run the Certificate Wizard, ensure that you are logged in using an account that is a member of a group that has been assigned the appropriate permissions for the type of certificate template you will use.</span></span> <span data-ttu-id="adafc-105">Par défaut, une demande de certificat 2013 Lync Server utilise le modèle de certificat de serveur Web.</span><span class="sxs-lookup"><span data-stu-id="adafc-105">By default, a Lync Server 2013 certificate request will use the Web Server certificate template.</span></span> <span data-ttu-id="adafc-106">Si vous utilisez un compte membre du groupe RTCUniversalServerAdmins pour demander un certificat à l’aide de ce modèle, vérifiez que le groupe a été affecté aux autorisations d’inscription requises pour utiliser ce modèle.</span><span class="sxs-lookup"><span data-stu-id="adafc-106">If you use an account that is a member of the RTCUniversalServerAdmins group to request a certificate using this template, verify that the group has been assigned the Enroll permissions required to use that template.</span></span>
 
-Un seul certificat est requis sur l’interface interne de chaque serveur Edge. Les certificats de l’interface interne peuvent être émis par une autorité de certification d’entreprise interne (AC) ou une autorité de certification publique. Si votre organisation dispose d’une autorité de certification interne déployée, vous pouvez réaliser des économies sur l’utilisation de certificats publics en faisant appel à l’AC interne pour émettre le certificat de l’interface interne. Vous pouvez utiliser une AC interne Windows Server 2008 ou Windows Server 2008 R2 pour créer ces certificats.
 
-Pour plus d’informations à ce sujet et sur les certificats requis, reportez-vous à [Certificats requis pour l’accès des utilisateurs externes dans Lync Server 2013](lync-server-2013-certificate-requirements-for-external-user-access.md).
 
-Pour configurer des certificats sur l’interface interne d’un serveur Edge au niveau d’un site, utilisez les procédures de cette section comme suit :
+</div>
 
-1.  Téléchargez la chaîne de certification de l’AC pour l’interface interne sur chaque serveur Edge.
+<span data-ttu-id="adafc-107">Un certificat unique est requis sur l’interface interne de chaque serveur Edge.</span><span class="sxs-lookup"><span data-stu-id="adafc-107">A single certificate is required on the internal interface of each Edge Server.</span></span> <span data-ttu-id="adafc-108">Des certificats pour l’interface interne peuvent être émis par une autorité de certification d’entreprise interne ou une autorité de certification publique.</span><span class="sxs-lookup"><span data-stu-id="adafc-108">Certificates for the internal interface can be issued by an internal enterprise certification authority (CA) or a public CA.</span></span> <span data-ttu-id="adafc-109">Si votre organisation a déployé une autorité de certification interne, vous pouvez faire des économies sur les frais d’utilisation des certificats publics à l’aide de l’autorité de certification interne pour émettre le certificat de l’interface interne.</span><span class="sxs-lookup"><span data-stu-id="adafc-109">If your organization has an internal CA deployed you can save on the expense of using public certificates by using the internal CA to issue the certificate for the internal interface.</span></span> <span data-ttu-id="adafc-110">Vous pouvez utiliser une autorité de certification Windows Server 2008 interne ou une autorité de certification Windows Server 2008 R2 pour créer ces certificats.</span><span class="sxs-lookup"><span data-stu-id="adafc-110">You can use an internal Windows Server 2008 CA or Windows Server 2008 R2 CA to create these certificates.</span></span>
 
-2.  Importez la chaîne de certification de l’AC pour l’interface interne sur chaque serveur Edge.
+<span data-ttu-id="adafc-111">Pour plus d’informations sur ce problème et sur les autres exigences relatives aux certificats, voir [exigences relatives aux certificats pour l’accès des utilisateurs externes dans Lync Server 2013](lync-server-2013-certificate-requirements-for-external-user-access.md).</span><span class="sxs-lookup"><span data-stu-id="adafc-111">For details about this and other certificate requirements, see [Certificate requirements for external user access in Lync Server 2013](lync-server-2013-certificate-requirements-for-external-user-access.md).</span></span>
 
-3.  Créez la demande de certificat pour l’interface interne, sur un serveur Edge, appelé « premier serveur Edge ».
+<span data-ttu-id="adafc-112">Pour configurer des certificats sur l’interface latérale interne d’un site, suivez les procédures décrites dans cette section pour effectuer les opérations suivantes:</span><span class="sxs-lookup"><span data-stu-id="adafc-112">To set up certificates on the internal edge interface at a site, use the procedures in this section to do the following:</span></span>
 
-4.  Importez le certificat pour l’interface interne sur le premier serveur Edge.
+1.  <span data-ttu-id="adafc-113">Téléchargez la chaîne de certification de l’autorité de certification pour l’interface interne vers chaque serveur Edge.</span><span class="sxs-lookup"><span data-stu-id="adafc-113">Download the CA certification chain for the internal interface to each Edge Server.</span></span>
 
-5.  Importez le certificat sur les autres serveurs Edge du site (ou déployés derrière ce programme d’équilibrage de charge).
+2.  <span data-ttu-id="adafc-114">Importez la chaîne de certification de l’autorité de certification pour l’interface interne sur chaque serveur Edge.</span><span class="sxs-lookup"><span data-stu-id="adafc-114">Import the CA certification chain for the internal interface, on each Edge Server.</span></span>
 
-6.  Affectez le certificat pour l’interface interne de chaque serveur Edge.
+3.  <span data-ttu-id="adafc-115">Créez une demande de certificat pour l’interface interne, sur un serveur Edge, appelé le premier serveur Edge.</span><span class="sxs-lookup"><span data-stu-id="adafc-115">Create the certificate request for the internal interface, on one Edge Server, called the first Edge Server.</span></span>
 
-Si vous avez plusieurs sites dotés de serveurs Edge (autrement dit, une topologie Edge sur plusieurs sites) ou des ensembles distincts de serveurs Edge déployés derrière différents programmes d’équilibrage de charge, vous devez exécuter ces étapes pour chaque site disposant de serveurs Edge et pour chaque ensemble de serveurs Edge déployé derrière un programme d’équilibrage de charge différent.
+4.  <span data-ttu-id="adafc-116">Importez le certificat de l’interface interne sur le premier serveur de périphérie.</span><span class="sxs-lookup"><span data-stu-id="adafc-116">Import the certificate for the internal interface on the first Edge Server.</span></span>
+
+5.  <span data-ttu-id="adafc-117">Importez le certificat sur les autres serveurs Edge sur ce site (ou déployé sur ce dernier).</span><span class="sxs-lookup"><span data-stu-id="adafc-117">Import the certificate on the other Edge Servers at this site (or deployed behind this load balancer).</span></span>
+
+6.  <span data-ttu-id="adafc-118">Attribuez le certificat pour l’interface interne de chaque serveur Edge.</span><span class="sxs-lookup"><span data-stu-id="adafc-118">Assign the certificate for the internal interface of every Edge Server.</span></span>
+
+<span data-ttu-id="adafc-119">Si vous disposez de plusieurs sites avec des serveurs de frontière (autrement dit, une topologie de périmètre de plusieurs sites), ou des ensembles séparés de serveurs de frontière déployés dans des équilibreurs de charge différents, vous devez suivre ces étapes pour chaque site incluant des serveurs de périphérie et pour chaque ensemble de serveurs de périphérie. déploiement à l’arrière-plan d’un autre équilibreur de charge.</span><span class="sxs-lookup"><span data-stu-id="adafc-119">If you have more than one site with Edge Servers (that is, a multiple-site edge topology), or separate sets of Edge Servers deployed behind different load balancers, you need to follow these steps for each site that has Edge Servers, and for each set of Edge Servers deployed behind a different load balancer.</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> Les étapes des procédures présentées dans cette section sont basées sur l’utilisation d’une autorité de certification Windows Server 2008, Windows Server 2008 R2, Windows Server 2012 ou Windows Server 2012 R2 pour créer un certificat pour chaque serveur Edge. Pour obtenir des instructions pas à pas pour toute autre autorité de certification, consultez la documentation de l’autorité de certification concernée. Par défaut, tous les utilisateurs authentifiés disposent des droits de l’utilisateur appropriés pour demander des certificats.<br />
-Les procédures de cette section sont basées sur la création de demandes de certificats sur le serveur Edge dans le cadre du processus de déploiement Edge Server. Il est possible de créer des demandes de certificats à l’aide du serveur frontal. Cela vous permet d’achever la demande de certificat dès le début du processus de planification et de déploiement, avant de commencer le déploiement des serveurs Edge. Pour ce faire, vous devez vous assurer que le certificat demandé est défini avec une clé privée exportable.<br />
-Les procédures de cette section décrivent l’utilisation d’un fichier .cer et d’un fichier .p7b pour le certificat. Si vous utilisez un type de fichier différent, modifiez ces procédures en conséquence.
+> <span data-ttu-id="adafc-120">Les étapes décrites dans cette section sont basées sur l’utilisation d’une autorité&nbsp;de certification windows Server 2008&nbsp;,&nbsp;d’une autorité de certification Windows Server 2008 R2, d’une autorité de certification Windows Server 2012 ou d’une autorité de certification Windows Server 2012 R2 pour créer un certificat pour chaque serveur Edge.</span><span class="sxs-lookup"><span data-stu-id="adafc-120">The steps for procedures in this section are based on using a Windows Server&nbsp;2008 CA, Windows Server&nbsp;2008&nbsp;R2 CA, Windows Server 2012 CA, or Windows Server 2012 R2 CA to create a certificate for each Edge Server.</span></span> <span data-ttu-id="adafc-121">Pour obtenir des instructions détaillées pour une autre autorité de certification, consultez la documentation de cette autorité de certification.</span><span class="sxs-lookup"><span data-stu-id="adafc-121">For step-by-step guidance for any other CA, consult the documentation for that CA.</span></span> <span data-ttu-id="adafc-122">Par défaut, tous les utilisateurs authentifiés disposent des droits d’utilisateur appropriés pour demander des certificats.</span><span class="sxs-lookup"><span data-stu-id="adafc-122">By default, all authenticated users have the appropriate user rights to request certificates.</span></span><BR><span data-ttu-id="adafc-123">Les procédures décrites dans cette section sont basées sur la création de demandes de certificat sur le serveur Edge dans le cadre du processus de déploiement de serveur Edge.</span><span class="sxs-lookup"><span data-stu-id="adafc-123">The procedures in this section are based on creating certificate requests on the Edge Server as part of the Edge Server deployment process.</span></span> <span data-ttu-id="adafc-124">Il est possible de créer des demandes de certificat à l’aide du serveur frontal.</span><span class="sxs-lookup"><span data-stu-id="adafc-124">It is possible to create certificate requests using the Front End Server.</span></span> <span data-ttu-id="adafc-125">Vous pouvez le faire pour compléter la demande de certificat au début du processus de planification et de déploiement avant de commencer le déploiement des serveurs Edge.</span><span class="sxs-lookup"><span data-stu-id="adafc-125">You can do this to complete the certificate request early in the planning and deployment process, before you start deployment of the Edge Servers.</span></span> <span data-ttu-id="adafc-126">Pour cela, vous devez vous assurer que le certificat que vous demandez est défini à l’aide d’une clé privée exportable.</span><span class="sxs-lookup"><span data-stu-id="adafc-126">To do this, you must ensure that the certificate you request is defined with an exportable private key.</span></span><BR><span data-ttu-id="adafc-127">Les procédures dans cette section décrivent l’utilisation d’un fichier. cer et d’un fichier. p7b pour le certificat.</span><span class="sxs-lookup"><span data-stu-id="adafc-127">The procedures in this section describe using a .cer and a .p7b file for the certificate.</span></span> <span data-ttu-id="adafc-128">Si vous utilisez un autre type de fichier, modifiez ces procédures selon vos besoins.</span><span class="sxs-lookup"><span data-stu-id="adafc-128">If you use a different type of file, modify these procedures as appropriate.</span></span>
 
-## Pour télécharger la chaîne de certification de l’autorité de certification pour l’interface interne à l’aide du site web certsrv
 
-1.  Ouvrez une session sur un serveur Lync Server 2013 du réseau interne (et non le serveur Edge) en tant que membre du groupe **Administrateurs** .
 
-2.  Exécutez la commande suivante dans l’invite en cliquant sur **Démarrer** , **Exécuter** et en tapant la chaîne suivante :
+</div>
+
+<div>
+
+## <a name="to-download-the-ca-certification-chain-for-the-internal-interface-using-certsrv-web-site"></a><span data-ttu-id="adafc-129">Pour télécharger la chaîne de certification de l’autorité de certification pour l’interface interne à l’aide du site Web certsrv</span><span class="sxs-lookup"><span data-stu-id="adafc-129">To download the CA certification chain for the internal interface using certsrv Web site</span></span>
+
+1.  <span data-ttu-id="adafc-130">Connectez-vous à un serveur Lync Server 2013 dans le réseau interne (c’est-à-dire hors du serveur Edge) en tant que membre du groupe **administrateurs** .</span><span class="sxs-lookup"><span data-stu-id="adafc-130">Log on to an Lync Server 2013 server in the internal network (that is, not the Edge Server) as a member of the **Administrators** group.</span></span>
+
+2.  <span data-ttu-id="adafc-131">Exécutez la commande suivante à l’invite de commandes en cliquant sur **Démarrer**, puis en cliquant sur **exécuter**et en tapant ce qui suit:</span><span class="sxs-lookup"><span data-stu-id="adafc-131">Run the following command at a command prompt by clicking **Start**, clicking **Run**, and then typing the following:</span></span>
     
         https://<name of your Issuing CA Server>/certsrv
     
-    Exemple :
+    <span data-ttu-id="adafc-132">Par exemple :</span><span class="sxs-lookup"><span data-stu-id="adafc-132">For example:</span></span>
     
         https://ca01.contoso.net/certsrv
     
+    <div>
+    
+
     > [!NOTE]  
-    > Si vous utilisez une AC Windows Server 2008 ou Windows Server 2008 R2 Entreprise, vous devez employer https, et non http.
+    > <span data-ttu-id="adafc-133">Si vous utilisez une autorité de certification Windows Server 2008 ou Windows Server 2008 R2 entreprise, vous devez utiliser HTTPS, et non http.</span><span class="sxs-lookup"><span data-stu-id="adafc-133">If you are using a Windows Server 2008 or Windows Server 2008 R2 enterprise CA, you must use https, not http.</span></span>
 
-3.  Dans la page web certsrv de l’autorité de certification émettrice, sous **Sélectionnez une tâche** , cliquez sur **Télécharger un certificat d’autorité de certification, une chaîne de certificats ou la liste de révocation de certificats** .
-
-4.  Sous **Télécharger un certificat d’autorité de certification, une chaîne de certificats ou la liste de révocation des certificats** , cliquez sur **Télécharger la chaîne du certificat de l’Autorité de certification** .
-
-5.  Dans la boîte de dialogue **Téléchargement de fichier** , cliquez sur **Enregistrer** .
-
-6.  Enregistrez le fichier .p7b sur le lecteur de disque dur du serveur, puis copiez-le dans un dossier sur chaque serveur Edge.
     
+    </div>
+
+3.  <span data-ttu-id="adafc-134">Dans la page web certsrv de l’autorité de certification émettrice, sous **Sélectionnez une tâche**, cliquez sur **Télécharger un certificat d’autorité de certification, une chaîne de certificats ou la liste de révocation de certificats**.</span><span class="sxs-lookup"><span data-stu-id="adafc-134">On the issuing CA’s certsrv web page, under **Select a task**, click **Download a CA certificate, certificate chain, or CRL**.</span></span>
+
+4.  <span data-ttu-id="adafc-135">Sous **Télécharger un certificat d’autorité de certification, une chaîne de certificats ou une LRC**, cliquez sur **Télécharger la chaîne de certificats d’autorité**de certification.</span><span class="sxs-lookup"><span data-stu-id="adafc-135">Under **Download a CA Certificate, Certificate Chain, or CRL**, click **Download CA certificate chain**.</span></span>
+
+5.  <span data-ttu-id="adafc-136">Dans la boîte de dialogue **téléchargement de fichier** , cliquez sur **Enregistrer**.</span><span class="sxs-lookup"><span data-stu-id="adafc-136">In the **File Download** dialog box, click **Save**.</span></span>
+
+6.  <span data-ttu-id="adafc-137">Enregistrez le fichier. p7b sur le disque dur du serveur, puis copiez-le dans un dossier sur chaque serveur Edge.</span><span class="sxs-lookup"><span data-stu-id="adafc-137">Save the .p7b file to the hard disk drive on the server, and then copy it to a folder on each Edge Server.</span></span>
+    
+    <div>
+    
+
     > [!NOTE]  
-    > Vérifiez que le fichier .p7b contient tous les certificats du chemin d’accès de certification. Pour afficher le chemin d’accès de certification, ouvrez le certificat de serveur et cliquez sur le chemin d’accès de certification.
+    > <span data-ttu-id="adafc-138">Le fichier. p7b contient tous les certificats figurant dans le chemin de certification.</span><span class="sxs-lookup"><span data-stu-id="adafc-138">The .p7b file contains all of the certificates that are in the certification path.</span></span> <span data-ttu-id="adafc-139">Pour afficher le chemin d’accès de certification, ouvrez le certificat de serveur, puis cliquez sur le chemin d’accès de certification.</span><span class="sxs-lookup"><span data-stu-id="adafc-139">To view the certification path, open the server certificate and click the certification path.</span></span>
 
-## Pour exporter la chaîne de certification de l’autorité de certification pour l’interface interne à l’aide de la console MMC (Microsoft Management Console)
-
-1.  Vous pouvez exporter le certificat racine de l’autorité de certification à partir de tout ordinateur joint au domaine à l’aide de la console MMC (Microsoft Management Console) ( Microsoft Management Console (MMC)). Cliquez sur **Démarrer** , sur **Exécuter** , puis tapez **MMC**.
-
-2.  Dans la console MMC (Microsoft Management Console), cliquez sur **Fichier** , puis sur **Ajouter/Supprimer** .
-
-3.  Dans la boîte de dialogue **Ajouter ou supprimer des composants logiciels enfichables** , sélectionnez **Certificats** , puis cliquez sur **Ajouter** . Dans l’invite, sélectionnez **Compte d’ordinateur** . Dans la boîte de dialogue **Sélectionner un ordinateur** , sélectionnez **Ordinateur local** . Cliquez sur **Terminer** . Cliquez sur **OK** .
-
-4.  Développez **Certificats (Ordinateur local)** . Développez **Autorités de certification racines de confiance** , puis sélectionnez **Certificats** .
-
-5.  Cliquez sur le certificat racine émis par votre autorité de certification. Cliquez avec le bouton droit sur le certificat, sélectionnez **Toutes les tâches** , puis **Exporter** . L’**Assistant Exportation du certificat** s’affiche.
-
-6.  Dans l’**Assistant Exportation du certificat** , cliquez sur **Suivant** .
-
-7.  Dans la boîte de dialogue **Format du fichier d’exportation** , sélectionnez le format de l’exportation. L’option recommandée est **Standard de syntaxe de message cryptographique - Certificats PKCS \#7 (.P7B)** . Si vous sélectionnez **Standard de syntaxe de message cryptographique - Certificats PKCS \#7 (.P7B)** , activez la case à cocher **Inclure tous les certificats dans le chemin d’accès de certification, si possible** pour exporter la chaîne de certificat, y compris le certificat d’autorité de certification racine et tout certificat d’autorité de certification intermédiaire. Cliquez sur **Suivant** .
-
-8.  Dans la boîte de dialogue **Fichier à exporter** , dans l’entrée de nom de fichier, tapez un nom et un chemin d’accès de fichier (l’extension par défaut est .p7b) pour le certificat exporté. Si vous le souhaitez, cliquez sur **Parcourir** , recherchez un répertoire dans lequel placer le certificat exporté et spécifiez un nom pour le certificat exporté. Cliquez sur **Enregistrer** . Cliquez sur **Suivant** .
-
-9.  Passez en revue le résumé des actions et cliquez sur **Terminer** pour achever l’exportation du certificat. Cliquez sur **OK** pour confirmer l’exportation.
-
-## Pour importer la chaîne de certification de l’AC pour l’interface interne
-
-1.  Sur chaque serveur Edge, ouvrez la console MMC (Microsoft Management Console) en cliquant sur **Démarrer** , puis sur **Exécuter** , en tapant **mmc** dans la zone **Ouvrir** , puis en cliquant sur **OK** .
-
-2.  Dans le menu **Fichier** , cliquez sur **Ajouter/Supprimer un composant logiciel enfichable** , puis sur **Ajouter** .
-
-3.  Dans la zone **Ajout d’un composant logiciel enfichable autonome** , cliquez sur **Certificats** , puis sur **Ajouter** .
-
-4.  Dans la boîte de dialogue **Composant logiciel enfichable Certificats** , cliquez sur **Compte d’ordinateur** , puis sur **Suivant** .
-
-5.  Dans la boîte de dialogue **Sélectionner un ordinateur** , assurez-vous que la case à cocher **Ordinateur local : (l’ordinateur sur lequel cette console s’exécute)** est activée, puis cliquez sur **Terminer** .
-
-6.  Cliquez sur **Fermer** , puis sur **OK** .
-
-7.  Dans l’arborescence de la console, développez **Certificats (ordinateur local)** , cliquez avec le bouton droit sur **Autorités de certification racines de confiance** , pointez sur **Toutes les tâches** , puis cliquez sur **Importer** .
-
-8.  Dans l’Assistant, dans **Fichier à importer** , spécifiez le nom de fichier du certificat (qui correspond au nom indiqué lors du téléchargement de la chaîne de certification de l’AC pour l’interface interne dans la procédure précédente).
-
-9.  Répétez cette procédure sur chaque serveur Edge.
-
-## Pour créer la demande de certificat pour l’interface interne
-
-1.  Sur l’un des serveurs Edge, démarrez l’Assistant Déploiement, et en regard de **Étape 3 : Demander, installer ou affecter les certificats** , cliquez sur **Exécuter** .
     
+    </div>
+
+</div>
+
+<div>
+
+## <a name="to-export-the-ca-certification-chain-for-the-internal-interface-using-mmc"></a><span data-ttu-id="adafc-140">Pour exporter la chaîne de certification de l’autorité de certification pour l’interface interne à l’aide de MMC</span><span class="sxs-lookup"><span data-stu-id="adafc-140">To export the CA certification chain for the internal interface using MMC</span></span>
+
+1.  <span data-ttu-id="adafc-141">Vous pouvez exporter le certificat racine de l’autorité de certification à partir de n’importe quel ordinateur sur lequel est connecté le domaine à l’aide de Microsoft Management Console (MMC).</span><span class="sxs-lookup"><span data-stu-id="adafc-141">You can export the CA root certificate from any domain joined machine using the Microsoft Management Console (MMC).</span></span> <span data-ttu-id="adafc-142">Cliquez sur **Démarrer**, sur **exécuter**, puis tapez **MMC**.</span><span class="sxs-lookup"><span data-stu-id="adafc-142">Click **Start**, click **Run**, and then type **MMC**.</span></span>
+
+2.  <span data-ttu-id="adafc-143">Dans la console MMC, cliquez sur **fichier**, puis sur **Ajouter/supprimer**.</span><span class="sxs-lookup"><span data-stu-id="adafc-143">In the MMC console, click **File**, click **Add/Remove**.</span></span>
+
+3.  <span data-ttu-id="adafc-144">Dans la liste de la boîte de dialogue **Ajouter ou supprimer des composants additionnels** , sélectionnez **certificats**, puis cliquez sur **Ajouter**.</span><span class="sxs-lookup"><span data-stu-id="adafc-144">From the **Add or Remove Snap-ins** dialog list, select **Certificates**, then click **Add**.</span></span> <span data-ttu-id="adafc-145">Lorsque vous y êtes invité, sélectionnez **compte d’ordinateur**.</span><span class="sxs-lookup"><span data-stu-id="adafc-145">When prompted, select **Computer Account**.</span></span> <span data-ttu-id="adafc-146">Dans la boîte de dialogue **Sélectionner un ordinateur**, sélectionnez **Ordinateur local**.</span><span class="sxs-lookup"><span data-stu-id="adafc-146">On the **Select Computer** dialog, select **Local Computer**.</span></span> <span data-ttu-id="adafc-147">Cliquez sur **Terminer**.</span><span class="sxs-lookup"><span data-stu-id="adafc-147">Click **Finish**.</span></span> <span data-ttu-id="adafc-148">Cliquez sur **OK**.</span><span class="sxs-lookup"><span data-stu-id="adafc-148">Click **OK**.</span></span>
+
+4.  <span data-ttu-id="adafc-149">Développez **certificats (ordinateur local)**.</span><span class="sxs-lookup"><span data-stu-id="adafc-149">Expand **Certificates (Local Computer)**.</span></span> <span data-ttu-id="adafc-150">Développez **autorités de certification racine de confiance**, puis sélectionnez **certificats**.</span><span class="sxs-lookup"><span data-stu-id="adafc-150">Expand **Trusted Root Certification Authorities**, select **Certificates**.</span></span>
+
+5.  <span data-ttu-id="adafc-151">Cliquez sur le certificat racine émis par votre autorité de certification.</span><span class="sxs-lookup"><span data-stu-id="adafc-151">Click the root certificate issued by your CA.</span></span> <span data-ttu-id="adafc-152">Cliquez avec le bouton droit sur le certificat, sélectionnez **toutes les tâches**, sélectionnez **Exporter**.</span><span class="sxs-lookup"><span data-stu-id="adafc-152">Right click the certificate, select **All Tasks**, select **Export**.</span></span> <span data-ttu-id="adafc-153">L' **Assistant exportation de certificat** s’ouvre.</span><span class="sxs-lookup"><span data-stu-id="adafc-153">The **Certificate Export Wizard** will open.</span></span>
+
+6.  <span data-ttu-id="adafc-154">Dans l’**Assistant Exportation du certificat**, cliquez sur **Suivant**.</span><span class="sxs-lookup"><span data-stu-id="adafc-154">In the **Certificate Export Wizard**, click **Next**.</span></span>
+
+7.  <span data-ttu-id="adafc-155">Dans la boîte de dialogue **Exporter le format de fichier** , sélectionnez le format d’exportation.</span><span class="sxs-lookup"><span data-stu-id="adafc-155">On the **Export File Format** dialog, select a format to export to.</span></span> <span data-ttu-id="adafc-156">Nous vous recommandons d’utiliser la **syntaxe de message \#cryptographique standard-certificats PKCS 7 (. P7B)**.</span><span class="sxs-lookup"><span data-stu-id="adafc-156">We recommend the **Cryptographic Message Syntax Standard – PKCS \#7 Certificates (.P7B)**.</span></span> <span data-ttu-id="adafc-157">Si vous sélectionnez la **syntaxe de message cryptographique standard- \#certificats PKCS 7 (. P7B)**, activez la case à cocher **inclure tous les certificats dans le chemin de certification si possible** pour exporter la chaîne de certificats, y compris le certificat de l’autorité de certification racine et les certificats d’autorité de certification intermédiaires.</span><span class="sxs-lookup"><span data-stu-id="adafc-157">If you select the **Cryptographic Message Syntax Standard – PKCS \#7 Certificates (.P7B)**, select the **Include all certificates in the certification path if possible** checkbox to export the certificate chain, including the root CA certificate and any Intermediate CA certificates.</span></span> <span data-ttu-id="adafc-158">Cliquez sur **Suivant**.</span><span class="sxs-lookup"><span data-stu-id="adafc-158">Click **Next**.</span></span>
+
+8.  <span data-ttu-id="adafc-159">Dans la boîte de dialogue **fichier à exporter** du nom de fichier, tapez le chemin d’accès et le nom du fichier (l’extension par défaut est. p7b) du certificat exporté.</span><span class="sxs-lookup"><span data-stu-id="adafc-159">On the **File to Export** dialog in the file name entry, type a path and file name (default extension is .p7b) for the exported certificate.</span></span> <span data-ttu-id="adafc-160">Vous pouvez également cliquer sur **Parcourir**, recherchez le répertoire dans lequel placer le certificat exporté et attribuez un nom au certificat exporté.</span><span class="sxs-lookup"><span data-stu-id="adafc-160">Optionally, click **Browse**, locate a directory to place the exported certificate in and provide a name for the exported certificate.</span></span> <span data-ttu-id="adafc-161">Cliquez sur **Enregistrer**.</span><span class="sxs-lookup"><span data-stu-id="adafc-161">Click **Save**.</span></span> <span data-ttu-id="adafc-162">Cliquez sur **Suivant**.</span><span class="sxs-lookup"><span data-stu-id="adafc-162">Click **Next**.</span></span>
+
+9.  <span data-ttu-id="adafc-163">Examinez le résumé des actions, puis cliquez sur **Terminer** pour terminer l’exportation du certificat.</span><span class="sxs-lookup"><span data-stu-id="adafc-163">Review the summary of actions, and click **Finish** to complete the export of the certificate.</span></span> <span data-ttu-id="adafc-164">Cliquez sur **OK** pour confirmer l’exportation.</span><span class="sxs-lookup"><span data-stu-id="adafc-164">Click **OK** to confirm the successful export.</span></span>
+
+</div>
+
+<div>
+
+## <a name="to-import-the-ca-certification-chain-for-the-internal-interface"></a><span data-ttu-id="adafc-165">Pour importer la chaîne de certification de l’autorité de certification pour l’interface interne</span><span class="sxs-lookup"><span data-stu-id="adafc-165">To import the CA certification chain for the internal interface</span></span>
+
+1.  <span data-ttu-id="adafc-166">Sur chaque serveur Edge, ouvrez Microsoft Management Console (MMC) en cliquant sur **Démarrer**, sur **exécuter**, en tapant **MMC** dans la zone **ouvrir** , puis en cliquant sur **OK**.</span><span class="sxs-lookup"><span data-stu-id="adafc-166">On each Edge Server, open the Microsoft Management Console (MMC) by clicking **Start**, clicking **Run**, typing **mmc** in the **Open** box, and then clicking **OK**.</span></span>
+
+2.  <span data-ttu-id="adafc-167">Dans le menu **fichier** , cliquez sur **Ajouter/supprimer un composant logiciel enfichable**, puis cliquez sur **Ajouter**.</span><span class="sxs-lookup"><span data-stu-id="adafc-167">On the **File** menu, click **Add/Remove Snap-in**, and then click **Add**.</span></span>
+
+3.  <span data-ttu-id="adafc-168">Dans la boîte de dialogue **Ajouter des composants logiciels enfichables autonomes** , cliquez sur **certificats**, puis cliquez sur **Ajouter**.</span><span class="sxs-lookup"><span data-stu-id="adafc-168">In the **Add Standalone Snap-ins** box, click **Certificates**, and then click **Add**.</span></span>
+
+4.  <span data-ttu-id="adafc-169">Dans la boîte de dialogue **Composant logiciel enfichable Certificats**, cliquez sur **Compte d’ordinateur**, puis sur **Suivant**.</span><span class="sxs-lookup"><span data-stu-id="adafc-169">In the **Certificate snap-in** dialog box, click **Computer account**, and then click **Next**.</span></span>
+
+5.  <span data-ttu-id="adafc-170">Dans la boîte de dialogue **Sélectionner un ordinateur** , assurez-vous que l' **ordinateur local (sur lequel cette console s’exécute)** est sélectionné, puis cliquez sur **Terminer**.</span><span class="sxs-lookup"><span data-stu-id="adafc-170">In the **Select Computer** dialog box, ensure that the **Local computer: (the computer this console is running on)** check box is selected, and then click **Finish**.</span></span>
+
+6.  <span data-ttu-id="adafc-171">Cliquez sur **Fermer**, puis cliquez sur **OK**.</span><span class="sxs-lookup"><span data-stu-id="adafc-171">Click **Close**, and then click **OK**.</span></span>
+
+7.  <span data-ttu-id="adafc-172">Dans l’arborescence de la console, développez **certificats (ordinateur local)**, cliquez avec le bouton droit sur **autorités de certification racine de confiance**, pointez sur **toutes les tâches**, puis cliquez sur **Importer**.</span><span class="sxs-lookup"><span data-stu-id="adafc-172">In the console tree, expand **Certificates (Local Computer)**, right-click **Trusted Root Certification Authorities**, point to **All Tasks**, and then click **Import**.</span></span>
+
+8.  <span data-ttu-id="adafc-173">Dans l’Assistant, dans **fichier à importer**, spécifiez le nom de fichier du certificat (autrement dit, le nom de l’interface que vous avez spécifiée lors du téléchargement de la chaîne de certification de l’autorité de certification pour l’interface interne au cours de la procédure précédente).</span><span class="sxs-lookup"><span data-stu-id="adafc-173">In the wizard, in **File to Import**, specify the file name of the certificate (that is, the name of that you specified when you downloaded the CA certification chain for the internal interface in the previous procedure).</span></span>
+
+9.  <span data-ttu-id="adafc-174">Répétez cette procédure sur chaque serveur Edge.</span><span class="sxs-lookup"><span data-stu-id="adafc-174">Repeat this procedure on each Edge Server.</span></span>
+
+</div>
+
+<div>
+
+## <a name="to-create-the-certificate-request-for-the-internal-interface"></a><span data-ttu-id="adafc-175">Pour créer une demande de certificat pour l’interface interne</span><span class="sxs-lookup"><span data-stu-id="adafc-175">To create the certificate request for the internal interface</span></span>
+
+1.  <span data-ttu-id="adafc-176">Sur l’un des serveurs Edge, démarrez l’Assistant Déploiement, puis, en regard de l' **étape 3: demandez, installez ou attribuez des certificats**, cliquez sur **exécuter**.</span><span class="sxs-lookup"><span data-stu-id="adafc-176">On one of the Edge Servers, start the Deployment Wizard, and next to **Step 3: Request, Install, or Assign Certificates**, click **Run**.</span></span>
+    
+    <div>
+    
+
     > [!NOTE]  
-    > Si plusieurs serveurs Edge d’un pool se trouvent à un même emplacement, vous pouvez exécuter l’Assistant Certificat sur n’importe lequel d’entre eux.<br />
-    Après la première exécution de l’Étape 3, le bouton change et indique <strong>Réexécuter</strong> et une coche verte indiquant la fin de la tâche ne s’affiche qu’une fois que tous les certificats requis ont été demandés, installés et affectés.
+    > <span data-ttu-id="adafc-177">Si vous avez plusieurs serveurs Edge à un emplacement dans un pool, vous pouvez exécuter l’Assistant certificat sur n’importe quel serveur Edge.</span><span class="sxs-lookup"><span data-stu-id="adafc-177">If you have multiple Edge Servers in one location in a pool, you can run the Certificate Wizard on any one of the Edge Servers.</span></span><BR><span data-ttu-id="adafc-178">Après avoir exécuté l’étape 3 pour la première fois, le bouton est modifié pour <STRONG>s’exécuter de nouveau</STRONG>et une coche verte indiquant la réussite de la tâche n’est pas affichée tant que tous les certificats requis n’ont pas été demandés, installés et attribués.</span><span class="sxs-lookup"><span data-stu-id="adafc-178">After you run Step 3 the first time, the button changes to <STRONG>Run again</STRONG>, and a green check mark that indicates successful completion of the task is not displayed until all require certificates have been requested, installed, and assigned.</span></span>
 
-2.  Dans la page **Tâches se rapportant aux certificats disponibles** , cliquez sur **Créer une demande de certificat** .
-
-3.  Dans la page **Demande de certificat** , cliquez sur **Suivant** .
-
-4.  Dans la page **Demandes différées ou immédiates** , cliquez sur **Préparer la demande, mais ne pas l’envoyer maintenant** .
-
-5.  Dans la page **Fichier de demande de certificat** , tapez le chemin d’accès complet et le nom du fichier dans lequel la demande doit être enregistrée (par exemple, **c:\\cert\_internal\_edge.cer** ).
-
-6.  Dans la page **Spécifier un autre modèle de certificat** , pour utiliser un autre modèle que le modèle Serveur web par défaut, activez la case à cocher **Utiliser un autre modèle de certificat pour l’autorité de certification sélectionnée** .
-
-7.  Dans la page **Nom et paramètres de sécurité** , procédez comme suit :
     
-      - Dans **Nom convivial** , tapez le nom complet du certificat (par exemple, Périmètre interne).
+    </div>
+
+2.  <span data-ttu-id="adafc-179">Dans la page **Tâches se rapportant aux certificats disponibles**, cliquez sur **Créer une demande de certificat**.</span><span class="sxs-lookup"><span data-stu-id="adafc-179">On the **Available Certificate Tasks** page, click **Create a new certificate request**.</span></span>
+
+3.  <span data-ttu-id="adafc-180">Dans la page **demande de certificat** , cliquez sur **suivant**.</span><span class="sxs-lookup"><span data-stu-id="adafc-180">On the **Certificate Request** page, click **Next**.</span></span>
+
+4.  <span data-ttu-id="adafc-181">Dans la page **Demandes différées ou immédiates**, cliquez sur **Préparer la demande, mais ne pas l’envoyer maintenant**.</span><span class="sxs-lookup"><span data-stu-id="adafc-181">On the **Delayed or Immediate Requests** page, click **Prepare the request now, but send it later**.</span></span>
+
+5.  <span data-ttu-id="adafc-182">Dans la page **fichier de demande de certificat** , tapez le chemin d’accès complet et le nom du fichier vers lequel vous voulez enregistrer la requête (par exemple, **c:\\CERT\_Internal\_Edge. cer**).</span><span class="sxs-lookup"><span data-stu-id="adafc-182">On the **Certificate Request File** page, type the full path and file name to which the request is to be saved (for example, **c:\\cert\_internal\_edge.cer**).</span></span>
+
+6.  <span data-ttu-id="adafc-183">Dans la page **spécifier un modèle de certificat secondaire** , pour utiliser un modèle autre que le modèle par défaut du serveur Web, activez la case à cocher utiliser un autre **modèle de certificat pour l’autorité de certification sélectionnée** .</span><span class="sxs-lookup"><span data-stu-id="adafc-183">On the **Specify Alternate Certificate Template** page, to use a template other than the default WebServer template, select the **Use alternative certificate template for the selected Certificate Authority** check box.</span></span>
+
+7.  <span data-ttu-id="adafc-184">Dans la page **paramètres de nom et de sécurité** , procédez comme suit:</span><span class="sxs-lookup"><span data-stu-id="adafc-184">On the **Name and Security Settings** page, do the following:</span></span>
     
-      - Dans **Longueur en bits** , spécifiez la longueur en bits (généralement, la valeur par défaut est **2048** ).
+      - <span data-ttu-id="adafc-185">Dans **nom convivial**, tapez un nom d’affichage pour le certificat (par exemple, bord interne).</span><span class="sxs-lookup"><span data-stu-id="adafc-185">In **Friendly name**, type a display name for the certificate (for example, Internal Edge).</span></span>
+    
+      - <span data-ttu-id="adafc-186">En **longueur**, spécifiez la longueur en bits (en général, la valeur par défaut **2048**).</span><span class="sxs-lookup"><span data-stu-id="adafc-186">In **Bit length**, specify the bit length (typically, the default of **2048**).</span></span>
         
+        <div>
+        
+
         > [!NOTE]  
-        > Les longueurs en bits plus élevées offrent davantage de sécurité, mais nuisent à la vitesse.    
-      - Si le certificat doit être exportable, activez la case à cocher **Marquer la clé privée du certificat comme exportable** .
+        > <span data-ttu-id="adafc-187">Des longueurs de bits plus élevées offrent une plus grande sécurité, mais ils ont un impact négatif sur la vitesse.</span><span class="sxs-lookup"><span data-stu-id="adafc-187">Higher bit lengths offer more security, but they have a negative impact on speed.</span></span>
 
-8.  Dans la page **Informations relatives à l’organisation** , tapez le nom de l’organisation et de l’unité d’organisation (UO) (par exemple, une division ou un service).
-
-9.  Dans la page **Informations géographiques** , spécifiez les informations d’emplacement.
-
-10. Dans la page **Nom du sujet/Autres noms du sujet** , le système affiche les informations automatiquement renseignées par l’Assistant.
-
-11. Dans la page **Configurer d’autres noms du sujet supplémentaires** , spécifiez les autres noms du sujet supplémentaires nécessaires.
-
-12. Dans la page **Résumé de la demande** , examinez les informations relatives au certificat qui seront utilisées pour générer la demande.
-
-13. Une fois les commandes terminées, procédez comme suit :
-    
-      - Pour afficher le fichier journal de la demande de certificat, cliquez sur **Afficher le journal** .
-    
-      - Pour terminer la demande de certificat, cliquez sur **Suivant** .
-
-14. Dans la page **Fichier de demande de certificat** , procédez comme suit :
-    
-      - Pour afficher le fichier de demande de signature de certificat (CSR) généré, cliquez sur **Afficher** .
-    
-      - Pour fermer l’Assistant, cliquez sur **Terminer** .
-
-15. Envoyez ce fichier à votre autorité de certification (par messagerie électronique ou un autre procédé pris en charge par votre organisation pour votre autorité de certification d’entreprise). Lorsque vous recevez le fichier de réponse, copiez le nouveau certificat sur cet ordinateur de sorte qu’il soit disponible pour l’importation.
-
-## Pour importer le certificat pour l’interface interne
-
-1.  Ouvrez une session sur le serveur Edge sur lequel vous avez créé la demande de certificat en tant que membre du groupe Administrateurs local.
-
-2.  Dans l’Assistant Déploiement, en regard de l’**Étape 3 : Demander, installer ou affecter les certificats** , cliquez sur **Réexécuter** .
-    
-    Après la première exécution de l’Étape 3, le bouton change et indique **Réexécuter** , mais une coche verte (indiquant la fin de la tâche) ne s’affiche qu’une fois que tous les certificats requis ont été demandés, installés et affectés.
-
-3.  Dans la page **Tâches se rapportant aux certificats disponibles** , cliquez sur **Importer un certificat à partir d’un fichier .P7b, .pfx ou .cer** .
-
-4.  Dans la page **Importer un certificat** , tapez le chemin complet et le nom du fichier du certificat que vous avez demandé et reçu pour l’interface interne de ce serveur Edge (ou cliquez sur **Parcourir** pour rechercher et sélectionner le fichier).
-
-5.  Si vous importez des certificats contenant une clé privée pour d’autres membres du pool, activez la case à cocher **Le fichier du certificat contient la clé privée du certificat** et spécifiez le mot de passe.
-
-## Pour exporter le certificat avec la clé privée pour les serveurs Edge d’un pool
-
-1.  Ouvrez une session en tant que membre du groupe Administrateurs sur le serveur Edge sur lequel vous avez importé le certificat.
-
-2.  Cliquez sur **Démarrer** , sur **Exécuter** , puis tapez **MMC** .
-
-3.  Dans la console MMC (Microsoft Management Console), cliquez sur **Fichier** , puis sur **Ajouter/Supprimer un composant logiciel enfichable** .
-
-4.  Dans la page Ajouter ou supprimer des composants logiciels enfichables, cliquez sur **Certificats** , puis sur **Ajouter** .
-
-5.  Dans la boîte de dialogue Composant logiciel enfichable Certificats, sélectionnez **Le compte de l’ordinateur** . Cliquez sur **Suivant** . Dans Sélectionner un ordinateur, sélectionnez **L’ordinateur local (l’ordinateur sur lequel cette console s’exécute)** . Cliquez sur **Terminer** . Cliquez sur **OK** pour terminer la configuration de la console MMC (Microsoft Management Console).
-
-6.  Double-cliquez sur **Certificats (ordinateur local)** pour développer les magasins de certificats. Double-cliquez sur **Personnel** , puis sur **Certificats** .
-    
-    > [!IMPORTANT]  
-    > Si aucun certificat ne se trouve dans le magasin personnel de certificats de l’ordinateur local, aucune clé privée n’est associée au certificat importé. Vérifiez la demande et la procédure d’importation. Si le problème persiste, contactez votre administrateur ou fournisseur d’autorités de certification.
-
-7.  Dans le magasin personnel de certificats de l’ordinateur local, cliquez avec le bouton droit sur le certificat que vous exportez. Cliquez sur **Toutes les tâches** , puis sur **Exporter** .
-
-8.  Dans l’Assistant Exportation du certificat, cliquez sur **Suivant** . Sélectionnez **Oui, exporter la clé privée** . Cliquez sur **Suivant** .
-    
-    > [!NOTE]  
-    > Si la sélection <strong>Oui, exporter la clé privée</strong> n’est pas disponible, cela signifie que la clé privée associée au certificat n’était pas marquée pour l’exportation. Pour pouvoir poursuivre l’exportation, vous devrez faire une nouvelle demande de certificat en vous assurant que le certificat est marqué de façon à autoriser l’exportation de la clé privée. Contactez votre administrateur ou fournisseur d’autorités de certification.
-
-9.  Dans la boîte de dialogue Exporter les formats de fichiers, sélectionnez **Échange d’informations personnelles – PKCS\#12 (.PFX)** , puis les éléments suivants :
-    
-      - Inclure tous les certificats dans le chemin d’accès de certification, si possible
-    
-      - Exporter toutes les propriétés étendues
         
+        </div>
+    
+      - <span data-ttu-id="adafc-188">Si le certificat doit être exportable, activez la case à cocher **marquer le certificat comme étant** exportable.</span><span class="sxs-lookup"><span data-stu-id="adafc-188">If the certificate needs to be exportable, select the **Mark certificate private key as exportable** check box.</span></span>
+
+8.  <span data-ttu-id="adafc-189">Dans la page informations sur l' **organisation** , tapez le nom de l’organisation et l’unité d’organisation (UO) (par exemple, une division ou un service).</span><span class="sxs-lookup"><span data-stu-id="adafc-189">On the **Organization Information** page, type the name for the organization and the organizational unit (OU) (for example, a division or department).</span></span>
+
+9.  <span data-ttu-id="adafc-190">Dans la page **informations géographiques** , spécifiez les informations d’emplacement.</span><span class="sxs-lookup"><span data-stu-id="adafc-190">On the **Geographical Information** page, specify the location information.</span></span>
+
+10. <span data-ttu-id="adafc-191">Sur la page nom de l’objet **/nom** de l’objet, les informations à remplir automatiquement par l’Assistant sont affichées.</span><span class="sxs-lookup"><span data-stu-id="adafc-191">On the **Subject Name/Subject Alternate Names** page, the information to be automatically populated by the wizard is displayed.</span></span>
+
+11. <span data-ttu-id="adafc-192">Dans la page configurez d’autres **noms d’objet** , spécifiez d’autres noms d’objet obligatoires.</span><span class="sxs-lookup"><span data-stu-id="adafc-192">On the **Configure Additional Subject Alternate Names** page, specify any additional subject alternative names that are required.</span></span>
+
+12. <span data-ttu-id="adafc-193">Dans la page Résumé de la **demande** , passez en revue les informations de certificats qui vont être utilisées pour générer la requête.</span><span class="sxs-lookup"><span data-stu-id="adafc-193">On the **Request Summary** page, review the certificate information that is going to be used to generate the request.</span></span>
+
+13. <span data-ttu-id="adafc-194">Une fois les commandes terminées, procédez comme suit:</span><span class="sxs-lookup"><span data-stu-id="adafc-194">After the commands complete, do the following:</span></span>
+    
+      - <span data-ttu-id="adafc-195">Pour afficher le journal de la demande de certificat, cliquez sur **afficher le journal**.</span><span class="sxs-lookup"><span data-stu-id="adafc-195">To view the log for the certificate request, click **View Log**.</span></span>
+    
+      - <span data-ttu-id="adafc-196">Pour remplir la demande de certificat, cliquez sur **suivant**.</span><span class="sxs-lookup"><span data-stu-id="adafc-196">To complete the certificate request, click **Next**.</span></span>
+
+14. <span data-ttu-id="adafc-197">Dans la page **fichier de demande de certificat** , procédez comme suit:</span><span class="sxs-lookup"><span data-stu-id="adafc-197">On the **Certificate Request File** page, do the following:</span></span>
+    
+      - <span data-ttu-id="adafc-198">Pour afficher le fichier de demande de signature de certificat généré (CSR), cliquez sur **Afficher**.</span><span class="sxs-lookup"><span data-stu-id="adafc-198">To view the generated certificate signing request (CSR) file, click **View**.</span></span>
+    
+      - <span data-ttu-id="adafc-199">Pour fermer l’Assistant, cliquez sur **Terminer**.</span><span class="sxs-lookup"><span data-stu-id="adafc-199">To close the wizard, click **Finish**.</span></span>
+
+15. <span data-ttu-id="adafc-200">Envoyez ce fichier à votre autorité de certification (par courrier électronique ou autre méthode prise en charge par votre organisation) et, lorsque vous recevez le fichier de réponse, copiez le nouveau certificat sur cet ordinateur pour qu’il soit disponible à des fins d’importation.</span><span class="sxs-lookup"><span data-stu-id="adafc-200">Submit this file to your CA (by email or other method supported by your organization for your enterprise CA) and, when you receive the response file, copy the new certificate to this computer so that it is available for import.</span></span>
+
+</div>
+
+<div>
+
+## <a name="to-import-the-certificate-for-the-internal-interface"></a><span data-ttu-id="adafc-201">Pour importer le certificat de l’interface interne</span><span class="sxs-lookup"><span data-stu-id="adafc-201">To import the certificate for the internal interface</span></span>
+
+1.  <span data-ttu-id="adafc-202">Ouvrez une session sur le serveur Edge sur lequel vous avez créé la demande de certificat en tant que membre du groupe administrateurs locaux.</span><span class="sxs-lookup"><span data-stu-id="adafc-202">Log on to the Edge Server on which you created the certificate request as a member of the local Administrators group.</span></span>
+
+2.  <span data-ttu-id="adafc-203">Dans l’Assistant Déploiement, en regard de l' **étape 3: demandez, installez ou attribuez des certificats**, cliquez de **nouveau sur exécuter**.</span><span class="sxs-lookup"><span data-stu-id="adafc-203">In the Deployment Wizard, next to **Step 3: Request, Install, or Assign Certificates**, click **Run again**.</span></span>
+    
+    <span data-ttu-id="adafc-204">Après avoir exécuté l’étape 3 pour la première fois, le bouton est modifié pour **s’exécuter de nouveau**, mais une coche verte (indiquant la réussite de la tâche) ne s’affiche pas tant que tous les certificats requis n’ont pas été demandés, installés et attribués.</span><span class="sxs-lookup"><span data-stu-id="adafc-204">After you run Step 3 the first time, the button changes to **Run again**, but a green check mark (indicating successful completion of the task) is not displayed until all require certificates have been requested, installed, and assigned.</span></span>
+
+3.  <span data-ttu-id="adafc-205">Dans la page **tâches de certification disponibles** , cliquez sur **Importer un certificat à partir de a. Le fichier P7B,. pfx ou. cer**.</span><span class="sxs-lookup"><span data-stu-id="adafc-205">On the **Available Certificate Tasks** page, click **Import a certificate from a .P7b, .pfx or .cer file**.</span></span>
+
+4.  <span data-ttu-id="adafc-206">Sur la page **importer le certificat** , tapez le chemin d’accès complet et le nom de fichier du certificat que vous avez demandé et reçu pour l’interface interne du serveur Edge (ou cliquez sur **Parcourir** pour rechercher et sélectionner le fichier).</span><span class="sxs-lookup"><span data-stu-id="adafc-206">On the **Import Certificate** page, type the full path and file name of the certificate that you requested and received for the internal interface of this Edge Server (or, click **Browse** to locate and select the file).</span></span>
+
+5.  <span data-ttu-id="adafc-207">Si vous importez des certificats pour les autres membres du pool ayant un certificat contenant une clé privée, activez la case à cocher le **fichier de certificat contient la clé privée du** certificat et spécifiez le mot de passe.</span><span class="sxs-lookup"><span data-stu-id="adafc-207">If you are importing certificates for other members of the pool a certificate containing a private key, select the **Certificate file contains certifcate’s private key** check box and specify the password.</span></span>
+
+</div>
+
+<div>
+
+## <a name="to-export-the-certificate-with-the-private-key-for-edge-servers-in-a-pool"></a><span data-ttu-id="adafc-208">Pour exporter le certificat avec la clé privée pour les serveurs Edge dans un pool</span><span class="sxs-lookup"><span data-stu-id="adafc-208">To export the certificate with the private key for Edge Servers in a pool</span></span>
+
+1.  <span data-ttu-id="adafc-209">Ouvrez une session en tant que membre du groupe Administrateurs sur le serveur Edge sur lequel vous avez importé le certificat.</span><span class="sxs-lookup"><span data-stu-id="adafc-209">Log on as a member of the Administrators group to the same Edge Server on which you imported the certificate.</span></span>
+
+2.  <span data-ttu-id="adafc-210">Cliquez sur **Démarrer**, sur **exécuter**, puis tapez **MMC**.</span><span class="sxs-lookup"><span data-stu-id="adafc-210">Click **Start**, click **Run**, and type **MMC**.</span></span>
+
+3.  <span data-ttu-id="adafc-211">Dans la console MMC, cliquez sur **fichier**, puis sur **Ajouter/supprimer un composant logiciel enfichable**.</span><span class="sxs-lookup"><span data-stu-id="adafc-211">From the MMC console, click **File**, click **Add/Remove Snap-in**.</span></span>
+
+4.  <span data-ttu-id="adafc-212">Dans la page Ajouter ou supprimer des composants logiciels enfichables, cliquez sur **certificats**, puis sur **Ajouter**.</span><span class="sxs-lookup"><span data-stu-id="adafc-212">From Add or Remove Snap-ins page, click **Certificates**, click **Add**.</span></span>
+
+5.  <span data-ttu-id="adafc-213">Dans la boîte de dialogue composant logiciel enfichable Certificats, sélectionnez **compte d’ordinateur**.</span><span class="sxs-lookup"><span data-stu-id="adafc-213">In the Certificates snap-in dialog, select **Computer account**.</span></span> <span data-ttu-id="adafc-214">Cliquez sur **Suivant**.</span><span class="sxs-lookup"><span data-stu-id="adafc-214">Click **Next**.</span></span> <span data-ttu-id="adafc-215">Sur votre ordinateur, sélectionnez **ordinateur local: (l’ordinateur sur lequel cette console s’exécute)**.</span><span class="sxs-lookup"><span data-stu-id="adafc-215">In Select Computer, select **Local computer: (the computer this console is running on)**.</span></span> <span data-ttu-id="adafc-216">Cliquez sur **Terminer**.</span><span class="sxs-lookup"><span data-stu-id="adafc-216">Click **Finish**.</span></span> <span data-ttu-id="adafc-217">Cliquez sur **OK** pour terminer la configuration de la console MMC.</span><span class="sxs-lookup"><span data-stu-id="adafc-217">Click **OK** to complete configuration of the MMC console.</span></span>
+
+6.  <span data-ttu-id="adafc-218">Double-cliquez sur **Certificats (ordinateur local)** pour développer les magasins de certificats.</span><span class="sxs-lookup"><span data-stu-id="adafc-218">Double-click **Certificates (Local Computer)** to expand the certificate stores.</span></span> <span data-ttu-id="adafc-219">Double-cliquez sur **personnel**, puis double-cliquez sur **certificats**.</span><span class="sxs-lookup"><span data-stu-id="adafc-219">Double-click **Personal**, then double-click **Certificates**.</span></span>
+    
+    <div>
+    
+
+    > [!IMPORTANT]  
+    > <span data-ttu-id="adafc-220">S’il n’y a aucun certificat dans le magasin personnel de certificats de l’ordinateur local, il n’existe aucune clé privée associée au certificat importé.</span><span class="sxs-lookup"><span data-stu-id="adafc-220">If there are no certificates in the Certificates Personal store for the local computer, there is no private key associated with the certificate that was imported.</span></span> <span data-ttu-id="adafc-221">Passez en revue les étapes de demande et d’importation.</span><span class="sxs-lookup"><span data-stu-id="adafc-221">Review the request and import steps.</span></span> <span data-ttu-id="adafc-222">Si le problème persiste, contactez votre administrateur ou fournisseur de l’autorité de certification.</span><span class="sxs-lookup"><span data-stu-id="adafc-222">If the problem persists, contact your certification authority administrator or provider.</span></span>
+
+    
+    </div>
+
+7.  <span data-ttu-id="adafc-223">Dans le magasin personnel de certificats de l’ordinateur local, cliquez avec le bouton droit sur le certificat que vous exportez.</span><span class="sxs-lookup"><span data-stu-id="adafc-223">In the Certificates Personal store for the local computer, right-click the certificate that you are exporting.</span></span> <span data-ttu-id="adafc-224">Cliquez sur **toutes les tâches**, puis sur **Exporter**.</span><span class="sxs-lookup"><span data-stu-id="adafc-224">Click **All Tasks**, click **Export**.</span></span>
+
+8.  <span data-ttu-id="adafc-225">Dans l’Assistant exportation de certificat, cliquez sur **suivant**.</span><span class="sxs-lookup"><span data-stu-id="adafc-225">In the Certificate Export Wizard, click **Next**.</span></span> <span data-ttu-id="adafc-226">Sélectionnez **Oui, exporter la clé privée**.</span><span class="sxs-lookup"><span data-stu-id="adafc-226">Select **Yes, export the private key**.</span></span> <span data-ttu-id="adafc-227">Cliquez sur **Suivant**.</span><span class="sxs-lookup"><span data-stu-id="adafc-227">Click **Next**.</span></span>
+    
+    <div>
+    
+
+    > [!NOTE]  
+    > <span data-ttu-id="adafc-228">Si la sélection est <STRONG>Oui, exporter la clé privée</STRONG> n’est pas disponible, la clé privée associée à ce certificat n’est pas marquée pour l’exportation.</span><span class="sxs-lookup"><span data-stu-id="adafc-228">If the selection <STRONG>Yes, export the private key</STRONG> is not available, the private key associated with this certificate was not marked for export.</span></span> <span data-ttu-id="adafc-229">Vous devez demander à nouveau le certificat, en veillant à ce que le certificat soit marqué pour autoriser l’exportation de la clé privée avant de poursuivre l’exportation.</span><span class="sxs-lookup"><span data-stu-id="adafc-229">You will need to request the certificate again, ensuring that the certificate is marked to allow for the export of the private key before you can continue with the export.</span></span> <span data-ttu-id="adafc-230">Contactez votre administrateur ou fournisseur de l’autorité de certification.</span><span class="sxs-lookup"><span data-stu-id="adafc-230">Contact your certification authority administrator or provider.</span></span>
+
+    
+    </div>
+
+9.  <span data-ttu-id="adafc-231">Dans la boîte de dialogue Exporter les formats de fichier, sélectionnez **échange\#d’informations personnelles – PKCS 12 (. PFX)** , puis sélectionnez les options suivantes:</span><span class="sxs-lookup"><span data-stu-id="adafc-231">On the Export File Formats dialog, select **Personal Information Exchange – PKCS\#12 (.PFX)** and then select the following:</span></span>
+    
+      - <span data-ttu-id="adafc-232">Incluez tous les certificats dans le chemin de certification, le cas échéant.</span><span class="sxs-lookup"><span data-stu-id="adafc-232">Include all certificates in the certification path if possible</span></span>
+    
+      - <span data-ttu-id="adafc-233">Exporter toutes les propriétés étendues</span><span class="sxs-lookup"><span data-stu-id="adafc-233">Export all extended properties</span></span>
+        
+        <div>
+        
+
         > [!WARNING]  
-        > Lorsque vous exportez le certificat à partir d’un serveur Edge, ne sélectionnez pas <strong>Supprimer la clé privée si l’exportation s’est terminée correctement</strong> . Si vous sélectionnez cette option, vous serez obligé d’importer le certificat et la clé privée sur ce serveur Edge.    
-    Cliquez sur **Suivant** pour continuer.
+        > <span data-ttu-id="adafc-234">Lorsque vous exportez le certificat à partir d’un serveur Edge, ne sélectionnez pas <STRONG>Supprimer la clé privée si l’exportation est réussie</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="adafc-234">When exporting the certificate from an Edge server, do not select <STRONG>Delete the private key if the export is successful</STRONG>.</span></span> <span data-ttu-id="adafc-235">La sélection de cette option nécessite l’importation du certificat et de la clé privée vers ce serveur Edge.</span><span class="sxs-lookup"><span data-stu-id="adafc-235">Selecting this option will require that you import the certificate and the private key to this Edge server.</span></span>
 
-10. Si vous souhaitez affecter un mot de passe pour protéger la clé privée, tapez un mot de passe pour cette clé. Réentrez le mot de passe pour le confirmer. Cliquez sur **Suivant** .
+        
+        </div>
+    
+    <span data-ttu-id="adafc-236">Cliquez sur **Suivant** pour continuer.</span><span class="sxs-lookup"><span data-stu-id="adafc-236">Click **Next** to continue.</span></span>
 
-11. Tapez un chemin d’accès et un nom de fichier avec l’extension .pfx pour le certificat exporté. Le chemin d’accès doit être accessible à tous les autres serveurs Edge du pool ou transportable au moyen d’un média amovible, comme par exemple, un disque mémoire flash USB. Cliquez sur **Suivant** .
+10. <span data-ttu-id="adafc-237">Si vous voulez affecter un mot de passe pour protéger la clé privée, tapez un mot de passe pour la clé privée.</span><span class="sxs-lookup"><span data-stu-id="adafc-237">If you want to assign password to protect the private key, type a password for the private key.</span></span> <span data-ttu-id="adafc-238">Entrez à nouveau le mot de passe pour le confirmer.</span><span class="sxs-lookup"><span data-stu-id="adafc-238">Re-enter the password to confirm.</span></span> <span data-ttu-id="adafc-239">Cliquez sur **Suivant**.</span><span class="sxs-lookup"><span data-stu-id="adafc-239">Click **Next**.</span></span>
 
-12. Examinez le récapitulatif dans la boîte de dialogue Fin de l’Assistant Exportation du certificat. Cliquez sur **Terminer** .
+11. <span data-ttu-id="adafc-240">Tapez un chemin d’accès et un nom de fichier avec l’extension .pfx pour le certificat exporté.</span><span class="sxs-lookup"><span data-stu-id="adafc-240">Type a path and file name for the exported certificate, using a file extension of .pfx.</span></span> <span data-ttu-id="adafc-241">Le chemin d’accès doit être accessible à tous les autres serveurs de périphérie du pool ou disponible pour le transport par le biais de médias amovibles (par exemple, un lecteur flash USB).</span><span class="sxs-lookup"><span data-stu-id="adafc-241">The path must either be accessible to all other Edge servers in the pool or available to transport by means of removable media - for example, a USB flash drive.</span></span> <span data-ttu-id="adafc-242">Cliquez sur **Suivant**.</span><span class="sxs-lookup"><span data-stu-id="adafc-242">Click **Next**.</span></span>
 
-13. Cliquez sur **OK** dans la boîte de dialogue indiquant que l’exportation a abouti.
+12. <span data-ttu-id="adafc-243">Passez en revue le résumé de la boîte de dialogue de l’Assistant d’exportation de certificat.</span><span class="sxs-lookup"><span data-stu-id="adafc-243">Review the summary on the Completing the Certificate Export Wizard dialog.</span></span> <span data-ttu-id="adafc-244">Cliquez sur **Terminer**.</span><span class="sxs-lookup"><span data-stu-id="adafc-244">Click **Finish**.</span></span>
 
-14. Importez le fichier de certificat exporté dans les autres serveurs Edge en suivant les étapes décrites dans les procédures [Configuration des certificats pour l’interface Edge externe pour Lync Server 2013](lync-server-2013-set-up-certificates-for-the-external-edge-interface.md).
+13. <span data-ttu-id="adafc-245">Cliquez sur **OK** dans la boîte de dialogue indiquant que l’exportation a abouti.</span><span class="sxs-lookup"><span data-stu-id="adafc-245">Click **OK** in the successful export dialog.</span></span>
 
-## Pour affecter le certificat à l’interface interne des serveurs Edge
+14. <span data-ttu-id="adafc-246">Importez le fichier de certificat exporté vers les autres serveurs Edge en suivant les étapes décrites dans la rubrique [configurer des certificats pour les procédures Lync Server 2013](lync-server-2013-set-up-certificates-for-the-external-edge-interface.md) .</span><span class="sxs-lookup"><span data-stu-id="adafc-246">Import the exported certificate file to the other Edge servers following the steps outlined in the [Set up certificates for the external edge interface for Lync Server 2013](lync-server-2013-set-up-certificates-for-the-external-edge-interface.md) procedures.</span></span>
 
-1.  Sur chaque serveur Edge, dans l’Assistant Déploiement, à l’**Étape 3 : Demander, installer ou affecter les certificats** , cliquez sur **Réexécuter** .
+</div>
 
-2.  Dans la page **Tâches se rapportant aux certificats disponibles** , cliquez sur **Affecter un certificat existant** .
+<div>
 
-3.  Dans la page **Affectation de certificat** , sélectionnez **Serveur Edge interne** dans la liste.
+## <a name="to-assign-the-internal-certificate-on-the-edge-servers"></a><span data-ttu-id="adafc-247">Pour affecter le certificat interne sur les serveurs de périphérie</span><span class="sxs-lookup"><span data-stu-id="adafc-247">To assign the internal certificate on the Edge Servers</span></span>
 
-4.  Dans la page **Magasin de certificats** , sélectionnez le certificat que vous avez importé pour l’interface interne du serveur Edge (procédure précédente).
+1.  <span data-ttu-id="adafc-248">Sur chaque serveur Edge, dans l’Assistant Déploiement, en regard de l' **étape 3: demandez, installez ou attribuez des certificats**, cliquez de **nouveau sur exécuter**.</span><span class="sxs-lookup"><span data-stu-id="adafc-248">On each Edge Server, in the Deployment Wizard, next to **Step 3: Request, Install, or Assign Certificates**, click **Run again**.</span></span>
 
-5.  Dans la page **Résumé de l’affectation du certificat** , vérifiez vos paramètres, puis cliquez sur **Suivant** pour affecter les certificats.
+2.  <span data-ttu-id="adafc-249">Dans la page **tâches de certification disponibles** , cliquez sur **attribuer un certificat existant**.</span><span class="sxs-lookup"><span data-stu-id="adafc-249">On the **Available Certificate Tasks** page, click **Assign an existing certificate**.</span></span>
 
-6.  Dans la page de fin de l’Assistant, cliquez sur **Terminer** .
+3.  <span data-ttu-id="adafc-250">Dans la page **Affectation de certificat**, sélectionnez **Serveur Edge interne** dans la liste.</span><span class="sxs-lookup"><span data-stu-id="adafc-250">On the **Certificate Assignment** page, select **Edge Internal** in the list.</span></span>
 
-7.  Après avoir utilisé cette procédure pour affecter le certificat de l’interface interne du serveur Edge, ouvrez le module enfichable pour les certificats sur chaque serveur, développez **Certificats (ordinateur local)** , **Personnel** , cliquez sur **Certificats** , puis vérifiez dans le volet d’informations que le certificat de l’interface interne du serveur Edge figure dans la liste.
+4.  <span data-ttu-id="adafc-251">Dans la page **magasin de certificats** , sélectionnez le certificat que vous avez importé pour le bord interne (à partir de la procédure précédente).</span><span class="sxs-lookup"><span data-stu-id="adafc-251">On the **Certificate Store** page, select the certificate that you imported for the internal edge (from the previous procedure).</span></span>
 
-8.  Si votre déploiement inclut plusieurs serveurs Edge, répétez cette procédure pour chaque serveur Edge.
+5.  <span data-ttu-id="adafc-252">Dans la page Résumé des affectations de **certificat** , passez en revue vos paramètres, puis cliquez sur **suivant** pour attribuer les certificats.</span><span class="sxs-lookup"><span data-stu-id="adafc-252">On the **Certificate Assignment Summary** page, review your settings, and then click **Next** to assign the certificates.</span></span>
+
+6.  <span data-ttu-id="adafc-253">Dans la page de fin de l’Assistant, cliquez sur **Terminer**.</span><span class="sxs-lookup"><span data-stu-id="adafc-253">On the wizard completion page, click **Finish**.</span></span>
+
+7.  <span data-ttu-id="adafc-254">Après avoir utilisé cette procédure pour affecter le certificat de bord interne, ouvrez le composant logiciel enfichable Certificats sur chaque serveur, développez **certificats (ordinateur local)**, développez **personnel**, cliquez sur **certificats**, puis vérifiez dans le volet d’informations qui le certificat de bord interne figure dans la liste.</span><span class="sxs-lookup"><span data-stu-id="adafc-254">After using this procedure to assign the internal edge certificate, open the Certificate snap-in on each server, expand **Certificates (Local computer)**, expand **Personal**, click **Certificates**, and then verify in the details pane that the internal edge certificate is listed.</span></span>
+
+8.  <span data-ttu-id="adafc-255">Si votre déploiement inclut plusieurs serveurs Edge, répétez cette procédure pour chaque serveur Edge.</span><span class="sxs-lookup"><span data-stu-id="adafc-255">If your deployment includes multiple Edge Servers, repeat this procedure for each Edge Server.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

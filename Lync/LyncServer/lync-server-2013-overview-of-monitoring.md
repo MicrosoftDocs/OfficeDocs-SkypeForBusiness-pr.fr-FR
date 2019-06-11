@@ -1,56 +1,93 @@
-﻿---
-title: 'Lync Server 2013 : Vue d’ensemble de la surveillance'
-TOCTitle: Vue d’ensemble de la surveillance
-ms:assetid: 5d5eb658-7fe0-42e6-acaf-700051d0a823
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204937(v=OCS.15)
-ms:contentKeyID: 49891369
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: vue d’ensemble de la surveillance'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Overview of monitoring
+ms:assetid: 5d5eb658-7fe0-42e6-acaf-700051d0a823
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204937(v=OCS.15)
+ms:contentKeyID: 48184261
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 88bfb8170b2334c322c612628daa1f8b9db2473c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825421"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Vue d’ensemble de la surveillance dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-09-05_
+# <a name="overview-of-monitoring-in-lync-server-2013"></a><span data-ttu-id="dee45-102">Vue d’ensemble de l’analyse dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dee45-102">Overview of monitoring in Lync Server 2013</span></span>
 
-Dans Microsoft Lync Server 2013, la surveillance est utilisée pour collecter des informations d’utilisation et des données de qualité de l’expérience (QoE) sur les sessions de communication dans lesquelles vos utilisateurs sont impliqués. Une session est un terme générique qui couvre la connexion d’un utilisateur à :
+</div>
 
-  - Conférence
+<div id="mainSection">
 
-  - une modalité de conférence (comme l’audio/vidéo ou le partage d’application) ;
+<div id="mainBody">
 
-  - un autre utilisateur via une conversation P2P (comme la messagerie instantanée ou un appel audio).
+<span> </span>
+
+<span data-ttu-id="dee45-103">_**Dernière modification de la rubrique:** 2012-09-05_</span><span class="sxs-lookup"><span data-stu-id="dee45-103">_**Topic Last Modified:** 2012-09-05_</span></span>
+
+<span data-ttu-id="dee45-104">Dans Microsoft Lync Server 2013, le contrôle permet de collecter les informations d’utilisation et les données de qualité d’utilisation (QoE) sur les sessions de communication auxquelles les utilisateurs participent.</span><span class="sxs-lookup"><span data-stu-id="dee45-104">In Microsoft Lync Server 2013, monitoring is used to collect usage information and Quality of Experience (QoE) data about the communication sessions that your users are involved in.</span></span> <span data-ttu-id="dee45-105">Une session est un terme générique qui couvre la connexion d’un utilisateur à:</span><span class="sxs-lookup"><span data-stu-id="dee45-105">A session is a generic term that covers a user’s connection to a:</span></span>
+
+  - <span data-ttu-id="dee45-106">Conférence</span><span class="sxs-lookup"><span data-stu-id="dee45-106">Conference</span></span>
+
+  - <span data-ttu-id="dee45-107">Modalité de conférences (par exemple, audio/vidéo ou partage d’applications)</span><span class="sxs-lookup"><span data-stu-id="dee45-107">Conferencing modality (such as Audio/Video or Application Sharing)</span></span>
+
+  - <span data-ttu-id="dee45-108">un autre utilisateur via une conversation P2P (comme la messagerie instantanée ou un appel audio).</span><span class="sxs-lookup"><span data-stu-id="dee45-108">Another user via a peer-to-peer conversation such as instant messaging or an audio call</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> Lync Server 2013 fait le suivi des informations relatives à chaque session : qui a appelé qui, les points de terminaison utilisés lors de la session, la durée de la session, la qualité de la session telle qu’elle a été perçue, etc. Cependant, Lync Server n’enregistre pas et ne stocke pas l’appel à proprement parler. Il en va de même pour les conversations par messagerie instantanée : même si Lync Server enregistre des informations sur les conversations par messagerie instantanée, il ne conserve pas un enregistrement de chaque message instantané envoyé lors de la conversation.
+> <span data-ttu-id="dee45-109">Lync Server 2013 effectue le suivi des informations relatives à chaque session: qui a appelé qui; Quels points de terminaison utilisés dans la session; durée de la session, Quelle a été la qualité perçue de la session; et ainsi de suite.</span><span class="sxs-lookup"><span data-stu-id="dee45-109">Lync Server 2013 keeps track of information about each session: who called who; which endpoints were used in the session; how long did the session last; what was the perceived quality of the session; and so on.</span></span> <span data-ttu-id="dee45-110">Toutefois, Lync Server n’enregistre et ne stocke pas l’appel réel.</span><span class="sxs-lookup"><span data-stu-id="dee45-110">However, Lync Server does not record and store the actual call itself.</span></span> <span data-ttu-id="dee45-111">Qui inclut également des sessions de messagerie instantanée: bien que Lync Server enregistre des informations sur les sessions de messagerie instantanée, il ne conserve aucun enregistrement de chaque message instantané envoyé lors de la session.</span><span class="sxs-lookup"><span data-stu-id="dee45-111">That includes instant messaging sessions as well: although Lync Server records information about instant messaging sessions, it does not maintain a record of each instant message that was sent during the session.</span></span>
 
-Les informations détaillées sur l’appel collectées par Lync Server peuvent s’avérer utiles dans de nombreuses situations, notamment celles qui suivent :
 
-  - **Retour sur investissement (ROI)** . Les administrateurs peuvent comparer les données d’utilisation collectées par le serveur de surveillance à des données semblables collectées sur leur précédent système de téléphonie afin de mettre en avant les économies réalisées et justifier le déploiement de Lync Server.
 
-  - **Gestion des stocks de périphériques** . Les informations de gestion des actifs aident les administrateurs à identifier les anciens périphériques qui sont encore en service et qui ont besoin d’être remplacés, mais aussi à identifier les périphériques coûteux qui semblent ne pas être utilisés du tout.
+</div>
 
-  - Support technique. Les données d’identification et de résolution des problèmese permettent aux ingénieurs du support technique de déterminer la cause de l’échec d’un appel d’un utilisateur, et ce sans collecter des journaux côté serveur ou client. Ces informations sont aisément accessibles et compréhensibles par le personnel de support technique qui ne possède pas de connaissances techniques approfondies de Microsoft Lync 2013 et de Lync Server 2013.
+<span data-ttu-id="dee45-112">Les informations détaillées des appels collectées par Lync Server peuvent être utilisées pour n’importe quel nombre d’usages, y compris:</span><span class="sxs-lookup"><span data-stu-id="dee45-112">The call detail information collected by Lync Server can be employed for any number of uses, including:</span></span>
 
-  - **Identification et résolution des problèmes du système** . Permet aux administrateurs de détecter les problèmes majeurs qui peuvent empêcher les utilisateurs finaux d’effectuer des tâches de base comme la participation à une conférence, l’émission d’un appel ou l’envoi d’un message instantané.
+  - <span data-ttu-id="dee45-113">**Retour sur investissement**.</span><span class="sxs-lookup"><span data-stu-id="dee45-113">**Return on Investment (ROI)**.</span></span> <span data-ttu-id="dee45-114">Les administrateurs peuvent comparer les données d’utilisation collectées par Monitoring Server à des données similaires collectées pour leur précédent système de téléphonie afin d’afficher des économies de coûts et de justifier le déploiement de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="dee45-114">Administrators can compare the usage data collected by Monitoring Server to similar data collected for their previous telephony system in order to show cost savings and help justify the deployment of Lync Server.</span></span>
 
-Outre ces informations de base relatives aux appels, le serveur de surveillance fournit également un mécanisme qui permet aux points de terminaison SIP (par exemple, Lync 2013) de fournir des informations d’identification et de résolution des problèmes auxquelles le serveur n’a pas normalement accès :
+  - <span data-ttu-id="dee45-115">La **Gestion des stocks de périphériques**.</span><span class="sxs-lookup"><span data-stu-id="dee45-115">**Device Inventory Management**.</span></span> <span data-ttu-id="dee45-116">Les informations sur la gestion des ressources permettent aux administrateurs d’identifier les anciens appareils toujours en cours d’utilisation qui doivent être remplacés, ainsi que d’identifier les appareils coûteux qui ne semblent pas être utilisés du tout.</span><span class="sxs-lookup"><span data-stu-id="dee45-116">Asset management information helps administrators identify old devices still in use that need to be replaced, as well as identify expensive devices that do not appear to be getting used at all.</span></span>
 
-  - **Mesures qui affectent la qualité** . Ces mesures traitent de la transmission effective de l’appel lui-même ; autrement dit, elles fournissent une sorte de carnet de voyage qui suit l’acheminement de l’appel sur le réseau. Ces mesures (qui incluent des éléments tels que la perte de paquets, la gigue et les durées d’aller-retour) fournissent des informations sur ce qui est arrivé à l’appel à partir du moment où il a quitté votre point de terminaison jusqu’à son arrivée au point de terminaison de l’autre personne.
+  - <span data-ttu-id="dee45-117">Support technique.</span><span class="sxs-lookup"><span data-stu-id="dee45-117">Help Desk.</span></span> <span data-ttu-id="dee45-118">Les données de dépannage permettent aux ingénieurs de la prise en charge de déterminer la raison pour laquelle l’appel d’un utilisateur a échoué et de ne pas avoir à collecter les journaux côté serveur ou client.</span><span class="sxs-lookup"><span data-stu-id="dee45-118">Troubleshooting data enables support engineers to determine why a user’s call failed, and to do so without having to collect server or client side logs.</span></span> <span data-ttu-id="dee45-119">Il est possible d’accéder à ces informations et de les comprendre par le personnel du support technique disposant d’une connaissance technique approfondie de Microsoft Lync 2013 et de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="dee45-119">This information can be readily accessed and understood by support personnel who do not have a deep technical knowledge of Microsoft Lync 2013 and Lync Server 2013.</span></span>
 
-  - **Problèmes signalés à l’utilisateur final** . Ces mesures comprennent des notifications de qualité médiocre que Lync 2013 présente aux utilisateurs finaux lorsqu’ils se trouvent trop loin d’un microphone, lorsqu’ils parlent trop doucement, lorsqu’ils disposent d’une connexion réseau médiocre ou lorsque la qualité est médiocre en raison d’un autre programme sur l’ordinateur qui consomme les ressources disponibles.
+  - <span data-ttu-id="dee45-p106">**Identification et résolution des problèmes du système**. Permet aux administrateurs de détecter les problèmes majeurs qui peuvent empêcher les utilisateurs finaux d’effectuer des tâches de base comme la participation à une conférence, l’émission d’un appel ou l’envoi d’un message instantané.</span><span class="sxs-lookup"><span data-stu-id="dee45-p106">**System Troubleshooting**. Enables administrators to detect major issues that might prevent end users from performing basic tasks like joining a conference, establishing a call, or sending an instant message.</span></span>
 
-  - **Informations sur l’environnement** . Ces mesures détaillent des facteurs de qualité d’appel, notamment le type de microphone et les haut-parleurs utilisés, si l’utilisateur est connecté via une connexion VPN et si l’utilisateur utilise une connexion sans fil.
+<span data-ttu-id="dee45-122">En plus de ces informations de base, le serveur de surveillance fournit également un mécanisme qui permet aux points de terminaison SIP (par exemple, Lync 2013) de fournir des informations de dépannage auxquelles le serveur n’aura pas accès.</span><span class="sxs-lookup"><span data-stu-id="dee45-122">In addition to this basic call information, the Monitoring Server also provides a mechanism that allows SIP endpoints (such as Lync 2013) to provide troubleshooting information that the server would not otherwise have access to:</span></span>
 
-À la fin de chaque appel, les points de terminaison compatibles avec SIP transmettent automatiquement ces informations au serveur frontal ayant facilité l’appel. Aucune opération n’est nécessaire pour que les points de terminaison transmettent ces informations ; ce comportement est intégré au protocole SIP. Cependant, si vous souhaitez collecter et stocker ces informations, vous devez installer et activer la surveillance. Si vous installez et activez la surveillance, les informations relatives aux appels sont collectées par des agents exécutés sur le serveur frontal et relayées à une paire de bases de données SQL Server.
+  - <span data-ttu-id="dee45-123">**Mesures qui affectent la qualité**.</span><span class="sxs-lookup"><span data-stu-id="dee45-123">**Media Metrics that Impact Quality**.</span></span> <span data-ttu-id="dee45-124">Ces mesures traitent la transmission effective de l’appel. ils fournissent ainsi une sorte de journaux de voyages lors du déplacement de l’appel sur le réseau.</span><span class="sxs-lookup"><span data-stu-id="dee45-124">These metrics deal with the actual transmission of the call itself; that is, they provide a sort of travel log as the call journeys across the network.</span></span> <span data-ttu-id="dee45-125">Ces mesures (qui incluent des éléments tels que la perte de paquets, la gigue et les temps d’aller-retour) fournissent des informations sur ce qui est arrivé à l’appel à partir du moment où il est parvenu au point de terminaison de l’autre personne.</span><span class="sxs-lookup"><span data-stu-id="dee45-125">These metrics (which include such things as packet loss, jitter, and round trip times) provide information on what happened to the call from the time it left your endpoint to the time it arrived at the other person's endpoint.</span></span>
 
-Notez que le processus d’installation et de configuration de la surveillance a été simplifié dans Lync Server 2013. Dans les versions précédentes du logiciel, la surveillance nécessitait un rôle Serveur de surveillance distinct, ce qui signifiait qu’un autre ordinateur devait généralement être réquisitionné pour servir de serveur de surveillance. Dans Lync Server 2013, le rôle Serveur de surveillance a été éliminé. Au lieu de cela, le service de surveillance (sous la forme d’« agents de collection de données unifiées ») a été colocalisé dans tous les serveurs frontaux. La colocation du service de surveillance présente au moins deux avantages majeurs :
+  - <span data-ttu-id="dee45-126">**Problèmes signalés à l’utilisateur final**.</span><span class="sxs-lookup"><span data-stu-id="dee45-126">**Issues Reported to the End User**.</span></span> <span data-ttu-id="dee45-127">Ces mesures incluent des notifications de bonne qualité que Lync 2013 présenter aux utilisateurs finaux dans les cas où ceux-ci sont trop éloignés d’un micro, parlant trop de manière modérée, disposant d’une connexion réseau médiocre ou dont la qualité est médiocre, car un autre programme de l’ordinateur est utilisation des ressources disponibles.</span><span class="sxs-lookup"><span data-stu-id="dee45-127">These metrics include poor quality notifications that Lync 2013 presents to end users in cases where they are too far from a microphone, speaking too softly, have a poor network connection, or are experiencing poor quality because another program on the computer is consuming the available resources.</span></span>
 
-  - Diminution du nombre de rôles serveur requis lors de l’implémentation Lync Server 2013. La décrémentation du rôle Serveur de surveillance permet également de réduire les coûts en éliminant la nécessité de maintenir des serveurs dédiés pour la surveillance.
+  - <span data-ttu-id="dee45-p109">**Informations sur l’environnement**. Ces mesures détaillent des facteurs de qualité d’appel, notamment le type de micro et les haut-parleurs utilisés, si l’utilisateur est connecté via une connexion VPN et si l’utilisateur utilise une connexion sans fil.</span><span class="sxs-lookup"><span data-stu-id="dee45-p109">**Environment Information**. These metrics detail call quality factors such as the type of microphone and speakers being used, whether the user is connected through a VPN connection, and whether the user is on a wireless connection.</span></span>
 
-  - Réduction de la complexité inhérente à l’installation et à l’administration de Lync Server 2013. En colocalisant les services de surveillance sur chaque serveur frontal, vous n’êtes plus obligé d’installer, de configurer et de gérer le rôle Serveur de surveillance.
+<span data-ttu-id="dee45-130">À la fin de chaque appel, des points de terminaison compatibles SIP transmettent automatiquement ces informations au serveur frontal qui facilite l’appel.</span><span class="sxs-lookup"><span data-stu-id="dee45-130">At the end of each call, SIP-compliant endpoints automatically transmit this information to the Front End server that facilitated the call.</span></span> <span data-ttu-id="dee45-131">Aucune opération n’est nécessaire pour que les points de terminaison transmettent ces informations ; ce comportement est intégré au protocole SIP.</span><span class="sxs-lookup"><span data-stu-id="dee45-131">You don't have to do anything to get endpoints to transmit that information; that behavior is built into the SIP protocol.</span></span> <span data-ttu-id="dee45-132">Cependant, si vous souhaitez collecter et stocker ces informations, vous devez installer et activer la surveillance.</span><span class="sxs-lookup"><span data-stu-id="dee45-132">However, if you want to collect and store that information, then you need to install and enable monitoring.</span></span> <span data-ttu-id="dee45-133">Si vous installez et activez la surveillance, les informations relatives aux appels sont collectées par des agents exécutés sur le serveur frontal et relayées à une paire de bases de données SQL Server.</span><span class="sxs-lookup"><span data-stu-id="dee45-133">If you do install and enable monitoring, then call information is gathered by agents running on the Front End server and relayed to a pair of SQL Server databases.</span></span>
 
-Pour plus d’informations, reportez-vous à la rubrique [Déploiement du serveur de surveillance dans Lync Server 2013](lync-server-2013-deploying-monitoring.md) dans le guide de déploiement de Lync Server 2013.
+<span data-ttu-id="dee45-134">Notez que le processus d’installation et de configuration de la surveillance a été simplifié dans Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="dee45-134">Note that the process of installing and configuring monitoring has been simplified in Lync Server 2013.</span></span> <span data-ttu-id="dee45-135">Dans les versions antérieures du logiciel, la surveillance nécessitait un rôle serveur de surveillance distinct, qui signifiait en général un autre ordinateur mis en réserve pour une utilisation comme serveur de surveillance.</span><span class="sxs-lookup"><span data-stu-id="dee45-135">In prior versions of the software, monitoring required a separate Monitoring Server role, which typically meant a separate computer set aside for use as the Monitoring Server.</span></span> <span data-ttu-id="dee45-136">Par le biais de Lync Server 2013, le rôle serveur de surveillance a été supprimé.</span><span class="sxs-lookup"><span data-stu-id="dee45-136">In Lync Server 2013, however, the Monitoring Server role has been eliminated.</span></span> <span data-ttu-id="dee45-137">Au lieu de cela, le service de surveillance (qui se présente sous la forme d’agents de collection de données unifiées) a été colocalisé sur tous les serveurs frontaux.</span><span class="sxs-lookup"><span data-stu-id="dee45-137">Instead, the monitoring service (in the form of "unified data collection agents") has been collocated into all Front End servers.</span></span> <span data-ttu-id="dee45-138">Vous avez au moins deux avantages principaux.</span><span class="sxs-lookup"><span data-stu-id="dee45-138">This has at least two major benefits.</span></span> <span data-ttu-id="dee45-139">Colocalisation du service de surveillance:</span><span class="sxs-lookup"><span data-stu-id="dee45-139">Collocation of the monitoring service:</span></span>
+
+  - <span data-ttu-id="dee45-140">Réduit le nombre de rôles de serveur requis lors de l’implémentation de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="dee45-140">Decreases the number of server roles required when implementing Lync Server 2013.</span></span> <span data-ttu-id="dee45-141">Le fait de décrémenter le rôle du serveur de surveillance permet également de réduire les coûts en éliminant le besoin de mettre à jour les serveurs dédiés pour la surveillance.</span><span class="sxs-lookup"><span data-stu-id="dee45-141">Decrementing the Monitoring Server role also helps reduce costs by eliminating the need to maintain dedicated servers for monitoring.</span></span>
+
+  - <span data-ttu-id="dee45-142">Simplifie la configuration et l’administration de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="dee45-142">Reduces the complexity of Lync Server 2013 setup and administration.</span></span> <span data-ttu-id="dee45-143">En collocatingant les services de surveillance sur chaque serveur frontal, vous n’avez plus besoin d’installer, de configurer et de gérer le rôle du serveur de surveillance.</span><span class="sxs-lookup"><span data-stu-id="dee45-143">By collocating the monitoring services on each Front End server you no longer have to install, configure, and manage the Monitoring Server role.</span></span>
+
+<span data-ttu-id="dee45-144">Pour plus d’informations, reportez-vous à la rubrique [déploiement de la surveillance dans Lync server 2013](lync-server-2013-deploying-monitoring.md) dans le Guide de déploiement de lync Server 2013 2013.</span><span class="sxs-lookup"><span data-stu-id="dee45-144">For more information see the topic [Deploying monitoring in Lync Server 2013](lync-server-2013-deploying-monitoring.md) in the Lync Server 2013 2013 deployment guide.</span></span>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

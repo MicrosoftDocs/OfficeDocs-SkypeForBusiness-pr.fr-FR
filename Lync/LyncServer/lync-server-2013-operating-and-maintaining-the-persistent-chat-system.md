@@ -1,33 +1,67 @@
-﻿---
-title: "Lync Server 2013 : Fonct. et maintenance du syst. de conversation permanente"
-TOCTitle: Fonctionnement et maintenance du système de conversation permanente
-ms:assetid: 84572a6a-3a99-44de-828f-09e2af2d151d
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398671(v=OCS.15)
-ms:contentKeyID: 49297943
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Fonctionnement et maintenance du système de conversation permanente'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Operating and maintaining the Persistent Chat system
+ms:assetid: 84572a6a-3a99-44de-828f-09e2af2d151d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398671(v=OCS.15)
+ms:contentKeyID: 48184701
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 02eaf561044df8e8be66bb87ae566befa0a32a04
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825946"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Fonctionnement et maintenance du système de conversation permanente dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-11-01_
+# <a name="operating-and-maintaining-the-persistent-chat-system-in-lync-server-2013"></a><span data-ttu-id="b7670-102">Fonctionnement et maintenance du système de conversation permanente dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b7670-102">Operating and maintaining the Persistent Chat system in Lync Server 2013</span></span>
 
-Les rubriques suivantes décrivent comment effectuer la maintenance de l’ordinateur serveur de conversations permanentes et comment gérer les opérations de serveur de conversations permanentes.
+</div>
 
-## Dans cette section
+<div id="mainSection">
 
-  - [Sauvegarde des bases de données de conversation permanente et de conformité dans Lync Server 2013](lync-server-2013-backing-up-the-persistent-chat-database-and-compliance-database.md)
+<div id="mainBody">
 
-  - [Personnalisation du fichier de définition XSLT dans Lync Server 2013](lync-server-2013-customizing-the-xslt-definition-file.md)
+<span> </span>
 
-  - [Remplacement du XmlAdapter par un adaptateur de conformité personnalisé du serveur de conversation permanente dans Lync Server 2013](lync-server-2013-replacing-the-xmladapter-with-a-customized-persistent-chat-server-compliance-adapter.md)
+<span data-ttu-id="b7670-103">_**Dernière modification de la rubrique:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="b7670-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-  - [Gestion de l’intégrité du système dans Lync Server 2013](lync-server-2013-managing-system-health.md)
+<span data-ttu-id="b7670-104">Les rubriques suivantes décrivent la procédure de maintenance de l’ordinateur qui exécute le serveur Chat permanent et de la manière de gérer les opérations du serveur de chat permanent.</span><span class="sxs-lookup"><span data-stu-id="b7670-104">The following topics describe how to maintain the computer that is running Persistent Chat Server and how to manage Persistent Chat Server operations.</span></span>
 
-  - [Surveillance, démarrage et arrêt des services de conversation permanente dans Lync Server 2013](lync-server-2013-monitoring-starting-and-stopping-the-persistent-chat-services.md)
+<div>
 
-  - [Gestion de la hauté disponibilité et de la récupération d’urgence dans Lync Server 2013](lync-server-2013-managing-high-availability-and-disaster-recovery.md)
+## <a name="in-this-section"></a><span data-ttu-id="b7670-105">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="b7670-105">In This Section</span></span>
+
+  - [<span data-ttu-id="b7670-106">Sauvegarde des bases de données de conversation permanente et de conformité dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b7670-106">Backing up the Persistent Chat database and Compliance database in Lync Server 2013</span></span>](lync-server-2013-backing-up-the-persistent-chat-database-and-compliance-database.md)
+
+  - [<span data-ttu-id="b7670-107">Personnalisation du fichier de définition XSLT dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b7670-107">Customizing the XSLT definition file in Lync Server 2013</span></span>](lync-server-2013-customizing-the-xslt-definition-file.md)
+
+  - [<span data-ttu-id="b7670-108">Remplacement de XmlAdapter par un adaptateur de conformité du serveur de chat permanent personnalisé dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b7670-108">Replacing the XmlAdapter with a customized Persistent Chat Server Compliance adapter in Lync Server 2013</span></span>](lync-server-2013-replacing-the-xmladapter-with-a-customized-persistent-chat-server-compliance-adapter.md)
+
+  - [<span data-ttu-id="b7670-109">Gestion de l’intégrité du système dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b7670-109">Managing system health in Lync Server 2013</span></span>](lync-server-2013-managing-system-health.md)
+
+  - [<span data-ttu-id="b7670-110">Surveillance, démarrage et arrêt des services de conversation permanente dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b7670-110">Monitoring, starting, and stopping the Persistent Chat services in Lync Server 2013</span></span>](lync-server-2013-monitoring-starting-and-stopping-the-persistent-chat-services.md)
+
+  - [<span data-ttu-id="b7670-111">Gestion de la hauté disponibilité et de la récupération d’urgence dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b7670-111">Managing high availability and disaster recovery in Lync Server 2013</span></span>](lync-server-2013-managing-high-availability-and-disaster-recovery.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

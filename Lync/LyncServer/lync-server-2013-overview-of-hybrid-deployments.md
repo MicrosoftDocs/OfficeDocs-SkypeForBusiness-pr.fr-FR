@@ -1,31 +1,61 @@
-﻿---
-title: 'Lync Server 2013 : Vue d’ensemble des déploiements hybrides'
-TOCTitle: Vue d’ensemble des déploiements hybrides
-ms:assetid: f6610f2f-c804-4f36-81fc-7aa3297bb4a2
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ205386(v=OCS.15)
-ms:contentKeyID: 49299383
-ms.date: 06/01/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Vue d’ensemble des déploiements hybrides'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Overview of hybrid deployments
+ms:assetid: f6610f2f-c804-4f36-81fc-7aa3297bb4a2
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205386(v=OCS.15)
+ms:contentKeyID: 48185845
+ms.date: 05/25/2016
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 1a04adde388475a318bb0338bf7d3437395e1b6b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825456"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Vue d’ensemble des déploiements hybrides de Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2016-12-08_
+# <a name="overview-of-lync-server-2013-hybrid-deployments"></a><span data-ttu-id="482a1-102">Vue d’ensemble des déploiements hybrides de Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="482a1-102">Overview of Lync Server 2013 hybrid deployments</span></span>
 
-Un déploiement Lync Server hybride est un déploiement dans lequel les utilisateurs d’un domaine, comme contoso.com, sont répartis entre l’utilisation de Lync Server local et Microsoft Lync Online. Certains utilisateurs sont hébergés dans Lync Server local et d’autres dans Skype Entreprise Online.
+</div>
 
-Vous pouvez configurer votre déploiement Lync local pour une utilisation hybride avec Skype Entreprise Online et utiliser la synchronisation Active Directory afin de préserver la synchronisation des utilisateurs locaux et en ligne. Vous pouvez également configurer les déploiements hybrides pour une intégration sur site Exchange et SharePoint ou avec des applications Microsoft Office 365, dont Exchange Online et SharePoint Online.
+<div id="mainSection">
 
-Cette section vous guide tout au long du déploiement des applications requises pour un déploiement hybride Lync Server, puis de la configuration de votre déploiement pour gérer les utilisateurs entre Lync Server local et Skype Entreprise Online.
+<div id="mainBody">
 
-Pour plus d’informations sur la configuration de votre déploiement Lync Server local pour une utilisation hybride avec Skype Entreprise Online, reportez-vous aux rubriques suivantes :
+<span> </span>
 
-  - [Planification des déploiements hybrides dans Lync Server 2013](https://technet.microsoft.com/fr-fr/library/jj205406\(v=ocs.15\))
+<span data-ttu-id="482a1-103">_**Dernière modification de la rubrique:** 2016-05-25_</span><span class="sxs-lookup"><span data-stu-id="482a1-103">_**Topic Last Modified:** 2016-05-25_</span></span>
 
-  - [Configuration des déploiements hybrides pour Lync Server 2013](lync-server-2013-configuring-hybrid-deployments.md)
+<span data-ttu-id="482a1-104">Un déploiement hybride Lync Server est un déploiement pour lequel les utilisateurs d’un domaine, comme contoso.com, sont partagés entre Lync Server en local et Microsoft Lync Online.</span><span class="sxs-lookup"><span data-stu-id="482a1-104">A Lync Server hybrid deployment is a deployment where users of a domain, such as contoso.com, are split between using Lync Server on-premises and Microsoft Lync Online.</span></span> <span data-ttu-id="482a1-105">Certains utilisateurs du domaine sont hébergés sur le serveur Lync local, et certains utilisateurs sont hébergés dans Skype entreprise online.</span><span class="sxs-lookup"><span data-stu-id="482a1-105">Some of the domain users are homed on the on-premises Lync Server, and some users are homed in Skype for Business Online.</span></span>
 
-Pour plus d’informations sur Skype Entreprise Online, reportez-vous à [Lync Online](http://go.microsoft.com/fwlink/p/?linkid=282396).
+<span data-ttu-id="482a1-106">Vous pouvez configurer votre déploiement Lync local pour une utilisation hybride avec Skype entreprise Online et utiliser la synchronisation Active Directory pour synchroniser vos utilisateurs locaux et en ligne.</span><span class="sxs-lookup"><span data-stu-id="482a1-106">You can configure your on-premises Lync deployment for hybrid with Skype for Business Online and use Active Directory Synchronization to keep your on-premises and online users synchronized.</span></span> <span data-ttu-id="482a1-107">Vous pouvez également configurer des déploiements hybrides pour l’intégration avec Exchange local et SharePoint, ou avec des applications Microsoft Office 365, y compris Exchange Online et SharePoint Online.</span><span class="sxs-lookup"><span data-stu-id="482a1-107">You can also configure hybrid deployments for integration with on-premises Exchange and SharePoint, or with Microsoft Office 365 applications, including Exchange Online and SharePoint Online.</span></span>
+
+<span data-ttu-id="482a1-108">Cette section vous guide tout au long du déploiement des applications requises pour un déploiement hybride Lync Server et la configuration de votre déploiement pour gérer les utilisateurs entre Lync Server en local et Skype entreprise online.</span><span class="sxs-lookup"><span data-stu-id="482a1-108">This section guides you through deploying the applications required for a Lync Server hybrid deployment, and then configuring your deployment to manage users between Lync Server on-premises and Skype for Business Online.</span></span>
+
+<span data-ttu-id="482a1-109">Pour plus d’informations sur la configuration de votre déploiement Lync Server local pour l’environnement hybride dans Skype entreprise Online, consultez les rubriques suivantes:</span><span class="sxs-lookup"><span data-stu-id="482a1-109">For information about configuring your on-premises Lync Server deployment for hybrid with Skype for Business Online see the following topics:</span></span>
+
+  - [<span data-ttu-id="482a1-110">Planification des déploiements hybrides de Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="482a1-110">Planning for Lync Server 2013 hybrid deployments</span></span>](lync-server-2013-planning-for-hybrid-deployments.md)
+
+  - [<span data-ttu-id="482a1-111">Configuration des déploiements hybrides pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="482a1-111">Configuring Lync Server 2013 hybrid deployments</span></span>](lync-server-2013-configuring-hybrid-deployments.md)
+
+<span data-ttu-id="482a1-112">Pour plus d’informations sur Skype entreprise Online, reportez-vous à [Lync Online](http://go.microsoft.com/fwlink/p/?linkid=282396).</span><span class="sxs-lookup"><span data-stu-id="482a1-112">For more information about Skype for Business Online, see [Lync Online](http://go.microsoft.com/fwlink/p/?linkid=282396).</span></span>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
